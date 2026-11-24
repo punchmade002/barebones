@@ -265,7 +265,14 @@
   "needs": []
  },
  "geo-option-atmosphere-ocean-s6.14.2": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.6.0",
+    "strength": "helpful",
+    "why": "Sahel drought and famine",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.14.3": {
   "needs": []
@@ -558,6 +565,12 @@
     "strength": "helpful",
     "why": "climate does not decide development",
     "confidence": "high"
+   },
+   {
+    "id": "geo-economic-development-s2.0.3",
+    "strength": "helpful",
+    "why": "rich Gulf states in the South",
+    "confidence": "low"
    }
   ]
  }

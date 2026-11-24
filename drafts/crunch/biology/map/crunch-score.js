@@ -72,6 +72,53 @@
     return D.subs.map(s => (s[4].reduce((a, y) => a + w(y), 0) + 0.5) / (W + 1));
   };
 
+  // Score one real paper the 2027 way, using only what was actually asked (tagged slots):
+  // Section A is 1/6, and the best 5 in 6 optional questions make up the other 5/6.
+  function realPaperScore(p, kept, choice) {
+    const real = q => q.slots.filter(x => x[1] > 0);
+    const marks = q => real(q).reduce((t, x) => t + x[0], 0);
+    const cov = q => { const m = marks(q); return m ? real(q).reduce((a, [mk, k, o]) => a + mk * Math.min(1, o.filter(i => kept[i]).length / k), 0) / m : 0; };
+    const A = p.qs.filter(q => !q.opt && marks(q)), O = p.qs.filter(q => q.opt && marks(q));
+    const attA = A.reduce((s, q) => s + marks(q), 0);
+    const sA = attA ? A.reduce((s, q) => s + (cov(q) * marks(q)) / attA, 0) : 0;
+    const oc = O.map(cov).sort((a, b) => b - a), K = choice ? (5 / 6) * O.length : O.length;
+    let sO = 0; for (let i = 0; i < oc.length; i++) sO += oc[i] * Math.max(0, Math.min(1, K - i));
+    return attA && K ? (sA + (5 * sO) / K) / 6 : K ? sO / K : sA;
+  }
+
+  // Backtest the cut: choose points from older papers, mark them on newer ones. Returns f(level) = the share of marks a
+  // student would really get if they keep what the model keeps at that coverage level (0..100), averaged over the folds.
+  // New-course content has no test papers, so its share is counted at the model's own estimate.
+  globalThis.crunchCalibrate = function (D, P, folds = [2019, 2022]) {
+    const N = D.items.length, levels = [];
+    for (let L = 0; L <= 100; L += 2) levels.push(L);
+    const sum = new Float64Array(levels.length);
+    let used = 0;
+    for (const split of folds) {
+      const test = D.papers.filter(p => p.year > split);
+      const train = { ...D, papers: D.papers.filter(p => p.year <= split), subs: D.subs.map(s => [s[0], s[1], s[2], s[3], s[4].filter(y => y <= split)]) };
+      if (!test.length || !train.papers.length) continue;
+      const r = crunchScore(train, P);
+      const nNew = r.isNew.reduce((a, b) => a + b, 0);
+      levels.forEach((L, li) => {
+        const kept = new Uint8Array(N);
+        let newKept = 0;
+        for (let i = 0; i < N; i++) if (r.y[i] + 5 < L) { kept[i] = 1; if (r.isNew[i]) newKept++; }
+        const paper = test.reduce((s, p) => s + realPaperScore(p, kept, P.choice), 0) / test.length;
+        sum[li] += 100 * ((1 - r.rho) * paper + r.rho * (nNew ? newKept / nNew : 1));
+      });
+      used++;
+    }
+    const f = Array.from(sum, s => s / (used || 1));
+    for (let i = 1; i < f.length; i++) f[i] = Math.max(f[i], f[i - 1]); // keeping more never scores less
+    // realised % for a model level; above the top level everything is kept, which scores 100
+    return v => {
+      if (v > 100) return 100;
+      const x = Math.max(0, v) / 2, i = Math.min(levels.length - 2, Math.floor(x)), t = x - i;
+      return f[i] + (f[i + 1] - f[i]) * t;
+    };
+  };
+
   globalThis.crunchScore = function (D, P) {
     const N = D.items.length;
     const cost = D.items.map(r => r[2]);

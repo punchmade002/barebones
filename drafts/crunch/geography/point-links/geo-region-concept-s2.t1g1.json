@@ -1,0 +1,359 @@
+{
+ "geo-region-concept-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s1.1.3",
+    "strength": "helpful",
+    "why": "transition zones of physical regions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-eu-s3.20.1",
+    "strength": "helpful",
+    "why": "EU regional funds (ERDF)",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.6.0",
+    "strength": "helpful",
+    "why": "regional assemblies explained there",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.3.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-concept-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.3.1",
+    "strength": "helpful",
+    "why": "Dublin split into councils",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.4.0",
+    "strength": "helpful",
+    "why": "city corporations became city councils",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.4.1",
+    "strength": "helpful",
+    "why": "the 2014 Act context",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s2.4.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-concept-s2.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.4.2",
+    "strength": "helpful",
+    "why": "councillors elected",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-eu-s3.24.0",
+    "strength": "helpful",
+    "why": "regional assemblies run ERDF programmes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-eu-s3.22.0",
+    "strength": "helpful",
+    "why": "BMW region split of Ireland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-eu-s3.21.0",
+    "strength": "helpful",
+    "why": "Objective 1 status explained",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.7.b",
+    "strength": "helpful",
+    "why": "constituency and TDs defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.7.b",
+    "strength": "helpful",
+    "why": "TDs and constituencies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.7.1",
+    "strength": "helpful",
+    "why": "boundaries redrawn after census",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.7.0",
+    "strength": "helpful",
+    "why": "seats per constituency",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.2.0",
+    "strength": "helpful",
+    "why": "county boundaries",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s2.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.7.1",
+    "strength": "helpful",
+    "why": "seats follow population",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s2.7.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-concept-s2.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.9.0",
+    "strength": "helpful",
+    "why": "commune, d\u00e9partement, region tiers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.8.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-concept-s2.8.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-concept-s2.8.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-concept-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.9.0",
+    "strength": "helpful",
+    "why": "regions as the top tier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s2.9.0",
+    "strength": "essential",
+    "why": "France three tiers",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -28,7 +28,14 @@
   ]
  },
  "geo-option-atmosphere-ocean-s6.1.2": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.34.0",
+    "strength": "helpful",
+    "why": "drier south and east",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.1.3": {
   "needs": []
@@ -40,7 +47,14 @@
   "needs": []
  },
  "geo-option-atmosphere-ocean-s6.1.6": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.34.0",
+    "strength": "helpful",
+    "why": "wet west",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.2.b": {
   "needs": []
@@ -101,7 +115,14 @@
   ]
  },
  "geo-option-atmosphere-ocean-s6.5.0": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.33.1",
+    "strength": "helpful",
+    "why": "monsoon rainfall regime",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.5.1": {
   "needs": []
@@ -131,7 +152,14 @@
   "needs": []
  },
  "geo-option-atmosphere-ocean-s6.7.b": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.33.2",
+    "strength": "helpful",
+    "why": "Mediterranean dry summer",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.7.0": {
   "needs": [
@@ -160,7 +188,7 @@
    {
     "id": "geo-option-atmosphere-ocean-s3.35.0",
     "strength": "helpful",
-    "why": "Sahel rainfall variability",
+    "why": "Sahel rainfall",
     "confidence": "high"
    }
   ]
@@ -184,9 +212,9 @@
  "geo-option-atmosphere-ocean-s6.9.0": {
   "needs": [
    {
-    "id": "geo-option-atmosphere-ocean-s3.0.1",
+    "id": "geo-option-atmosphere-ocean-s3.0.b",
     "strength": "helpful",
-    "why": "precipitation refills stores",
+    "why": "rainfall refills stores",
     "confidence": "low"
    }
   ]
@@ -198,7 +226,14 @@
   "needs": []
  },
  "geo-option-atmosphere-ocean-s6.9.3": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.33.1",
+    "strength": "helpful",
+    "why": "monsoon seasonal rain",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.9.4": {
   "needs": []
@@ -247,7 +282,14 @@
   "needs": []
  },
  "geo-option-atmosphere-ocean-s6.12.0": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.33.2",
+    "strength": "helpful",
+    "why": "Mediterranean wet winter dry summer",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.12.1": {
   "needs": []
@@ -383,6 +425,12 @@
     "strength": "helpful",
     "why": "Sahel rainfall",
     "confidence": "high"
+   },
+   {
+    "id": "geo-option-atmosphere-ocean-s3.30.0",
+    "strength": "helpful",
+    "why": "ITCZ rain belt",
+    "confidence": "low"
    }
   ]
  },
@@ -470,7 +518,7 @@
    {
     "id": "geo-option-atmosphere-ocean-s3.33.2",
     "strength": "helpful",
-    "why": "dry summer",
+    "why": "dry summer regime",
     "confidence": "high"
    }
   ]

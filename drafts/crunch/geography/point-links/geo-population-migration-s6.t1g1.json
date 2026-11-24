@@ -1,0 +1,614 @@
+{
+ "geo-population-migration-s6.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s1.0.2",
+    "strength": "helpful",
+    "why": "natural increase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.0.0",
+    "strength": "helpful",
+    "why": "urban share of population",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.1.b",
+    "strength": "helpful",
+    "why": "opposite of push factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.6",
+    "strength": "helpful",
+    "why": "chain migration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.0.0",
+    "strength": "helpful",
+    "why": "urban share",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.1.1",
+    "strength": "helpful",
+    "why": "mechanisation of farming",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-population-migration-s6.1.2",
+    "strength": "helpful",
+    "why": "small holdings unviable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.2.0",
+    "strength": "helpful",
+    "why": "jobs as pull factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.5.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.5.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.5.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.5.3",
+    "strength": "helpful",
+    "why": "commuter towns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.6.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.7.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-population-migration-s1.4.1",
+    "strength": "helpful",
+    "why": "density formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s1.28.0",
+    "strength": "helpful",
+    "why": "dependency ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.9.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.9.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.3.1",
+    "strength": "helpful",
+    "why": "remote working",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.9.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.4.3",
+    "strength": "helpful",
+    "why": "Dublin jobs pull",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.10.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.2",
+    "strength": "helpful",
+    "why": "core-periphery idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.10.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.10.0",
+    "strength": "helpful",
+    "why": "Mezzogiorno donor region",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.5.2",
+    "strength": "helpful",
+    "why": "primate city idea",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s6.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.1.b",
+    "strength": "helpful",
+    "why": "push factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.2.b",
+    "strength": "helpful",
+    "why": "pull factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.11.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.11.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s1.4.1",
+    "strength": "helpful",
+    "why": "density",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.12.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.12.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.12.4",
+    "strength": "helpful",
+    "why": "remittances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.12.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.13.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.13.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.13.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.13.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.14.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.14.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s6.14.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.14.0",
+    "strength": "helpful",
+    "why": "hukou keeps families apart",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.14.0",
+    "strength": "essential",
+    "why": "services tied to registration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.14.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.14.0",
+    "strength": "essential",
+    "why": "hukou system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s6.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.7.3",
+    "strength": "helpful",
+    "why": "ageing rural decline",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.15.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.12.2",
+    "strength": "helpful",
+    "why": "slums and informal sector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.12.4",
+    "strength": "helpful",
+    "why": "remittances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.15.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.0.1",
+    "strength": "helpful",
+    "why": "natural increase in cities",
+    "confidence": "high"
+   }
+  ]
+ }
+}

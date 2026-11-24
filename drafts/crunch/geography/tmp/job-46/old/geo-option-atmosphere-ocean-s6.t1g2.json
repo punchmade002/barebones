@@ -1,0 +1,578 @@
+{
+ "geo-option-atmosphere-ocean-s6.0.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.0.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.0.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.0.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.1.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.1.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.1.1": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.34.1",
+    "strength": "helpful",
+    "why": "Irish rainfall figures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.1.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.1.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.1.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.1.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.1.6": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.2.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.2.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.2.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.2.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.2.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.2.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.2.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.2.6": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.3.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.3.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.3.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.3.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.3.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.4.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.4.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.4.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.5.b": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.33.1",
+    "strength": "helpful",
+    "why": "monsoon rainfall regime",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.5.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.5.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.5.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.5.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.5.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.6.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.6.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.6.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.6.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.6.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.7.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.7.0": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.33.2",
+    "strength": "helpful",
+    "why": "Mediterranean dry summer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.7.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.7.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.7.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.8.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.8.0": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.35.0",
+    "strength": "helpful",
+    "why": "Sahel rainfall variability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.8.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.8.2": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.35.b",
+    "strength": "helpful",
+    "why": "rainfall variability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.9.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.9.0": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.0.1",
+    "strength": "helpful",
+    "why": "precipitation refills stores",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.9.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.9.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.9.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.9.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.9.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.10.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.10.0": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.34.1",
+    "strength": "helpful",
+    "why": "Irish rainfall east-west",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.10.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.10.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.10.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.10.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.10.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.11.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.11.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.11.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.12.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.12.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.12.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.12.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.12.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.12.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.13.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.13.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.13.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.13.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.13.3": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.30.0",
+    "strength": "helpful",
+    "why": "ITCZ convergence",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.14.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.14.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.14.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.14.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.14.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.14.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.15.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.15.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.15.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.15.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.15.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.16.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.16.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.16.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.16.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.16.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.16.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.16.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.17.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.17.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.17.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.17.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.17.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.17.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.17.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.18.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.18.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.18.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.18.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.18.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.19.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.19.0": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.35.0",
+    "strength": "helpful",
+    "why": "Sahel rainfall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.19.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.19.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.19.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.19.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.19.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.20.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.20.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.20.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.20.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.20.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.21.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.21.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.21.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.21.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.21.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.22.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.22.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.22.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.22.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.23.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.23.0": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.33.2",
+    "strength": "helpful",
+    "why": "Mediterranean regime",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.23.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.23.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.23.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.23.4": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.33.2",
+    "strength": "helpful",
+    "why": "dry summer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.23.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.23.6": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.24.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.24.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.24.1": {
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s3.32.3",
+    "strength": "helpful",
+    "why": "cold ocean currents",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6.25.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.25.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.25.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.25.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.25.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.26.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.26.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.26.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.26.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.26.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.26.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.27.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.27.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.27.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.27.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.27.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.28.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.28.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.28.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.28.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.28.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.29.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.29.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.29.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.29.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s6.29.3": {
+  "needs": []
+ }
+}

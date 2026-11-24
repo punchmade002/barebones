@@ -47,7 +47,14 @@
  },
  "geo-option-atmosphere-ocean-s6.1.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.1.2",
+    "strength": "helpful",
+    "why": "drier south and east",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.1.4": {
   "cost": 1,
@@ -66,7 +73,14 @@
  },
  "geo-option-atmosphere-ocean-s6.1.6": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.1.1",
+    "strength": "helpful",
+    "why": "wet west rainfall",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.2.b": {
   "cost": 1,
@@ -74,7 +88,14 @@
  },
  "geo-option-atmosphere-ocean-s6.2.0": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.1.5",
+    "strength": "helpful",
+    "why": "gley waterlogged soils",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.2.1": {
   "cost": 1,
@@ -90,15 +111,36 @@
  },
  "geo-option-atmosphere-ocean-s6.2.4": {
   "cost": 2,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.2.1",
+    "strength": "helpful",
+    "why": "poor silage and hay",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.2.5": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.2.4",
+    "strength": "essential",
+    "why": "the 2013 fodder crisis",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.2.6": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.2.3",
+    "strength": "helpful",
+    "why": "potato blight",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.3.b": {
   "cost": 1,
@@ -110,7 +152,14 @@
  },
  "geo-option-atmosphere-ocean-s6.3.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.3.0",
+    "strength": "helpful",
+    "why": "winter fodder use",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.3.2": {
   "cost": 2,
@@ -118,14 +167,21 @@
    {
     "id": "geo-option-atmosphere-ocean-s5.9.4",
     "strength": "helpful",
-    "why": "anticyclones bring dry spells",
+    "why": "anticyclone dry spells",
     "confidence": "high"
    }
   ]
  },
  "geo-option-atmosphere-ocean-s6.3.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.3.2",
+    "strength": "essential",
+    "why": "the 2018 drought",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.4.b": {
   "cost": 1,
@@ -170,13 +226,13 @@
    {
     "id": "geo-option-atmosphere-ocean-s5.4.3",
     "strength": "helpful",
-    "why": "monsoon timing and rainfall share",
+    "why": "monsoon timing and rainfall",
     "confidence": "high"
    }
   ]
  },
  "geo-option-atmosphere-ocean-s6.5.1": {
-  "cost": 1,
+  "cost": 2,
   "needs": [
    {
     "id": "geo-option-atmosphere-ocean-s5.7.3",
@@ -188,15 +244,36 @@
  },
  "geo-option-atmosphere-ocean-s6.5.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.5.0",
+    "strength": "helpful",
+    "why": "monsoon rainfall share",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.5.3": {
   "cost": 2,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.0.0",
+    "strength": "helpful",
+    "why": "irrigation",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.5.4": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.0.0",
+    "strength": "helpful",
+    "why": "irrigation",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.6.b": {
   "cost": 1,
@@ -204,19 +281,53 @@
  },
  "geo-option-atmosphere-ocean-s6.6.0": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.0.0",
+    "strength": "helpful",
+    "why": "irrigation",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.6.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.6.0",
+    "strength": "helpful",
+    "why": "Nile irrigation",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.6.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.6.1",
+    "strength": "essential",
+    "why": "the Aswan High Dam",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.6.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.6.1",
+    "strength": "essential",
+    "why": "the dam traps silt",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-option-atmosphere-ocean-s6.5.3",
+    "strength": "helpful",
+    "why": "salinisation and waterlogging",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.7.b": {
   "cost": 1,
@@ -228,22 +339,43 @@
    {
     "id": "geo-option-atmosphere-ocean-s5.12.1",
     "strength": "helpful",
-    "why": "dry summers and irrigation",
+    "why": "dry summers",
     "confidence": "high"
    }
   ]
  },
  "geo-option-atmosphere-ocean-s6.7.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.7.0",
+    "strength": "helpful",
+    "why": "Central Valley irrigation",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.7.2": {
   "cost": 2,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.7.1",
+    "strength": "helpful",
+    "why": "groundwater supply",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.7.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.7.2",
+    "strength": "helpful",
+    "why": "the drought",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.8.b": {
   "cost": 1,
@@ -255,11 +387,25 @@
  },
  "geo-option-atmosphere-ocean-s6.8.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.0.1",
+    "strength": "helpful",
+    "why": "rain-fed farming",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.8.2": {
   "cost": 2,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.8.1",
+    "strength": "helpful",
+    "why": "rain failure",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.9.b": {
   "cost": 1,
@@ -271,11 +417,25 @@
  },
  "geo-option-atmosphere-ocean-s6.9.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.9.0",
+    "strength": "helpful",
+    "why": "supply stored for dry periods",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.9.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.9.0",
+    "strength": "helpful",
+    "why": "rain refills wells",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.9.3": {
   "cost": 1,
@@ -283,7 +443,14 @@
  },
  "geo-option-atmosphere-ocean-s6.9.4": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.0.0",
+    "strength": "helpful",
+    "why": "desalination",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.9.5": {
   "cost": 1,
@@ -299,14 +466,21 @@
    {
     "id": "geo-option-atmosphere-ocean-s5.9.1",
     "strength": "helpful",
-    "why": "Irish rainfall east-west",
+    "why": "east-west rainfall",
     "confidence": "high"
    }
   ]
  },
  "geo-option-atmosphere-ocean-s6.10.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.10.0",
+    "strength": "helpful",
+    "why": "people live in the east",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.10.2": {
   "cost": 1,
@@ -318,7 +492,14 @@
  },
  "geo-option-atmosphere-ocean-s6.10.4": {
   "cost": 2,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.10.3",
+    "strength": "helpful",
+    "why": "Dublin's current supply",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.10.5": {
   "cost": 1,
@@ -330,11 +511,25 @@
  },
  "geo-option-atmosphere-ocean-s6.11.0": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.3.2",
+    "strength": "helpful",
+    "why": "the 2018 drought",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.11.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.11.0",
+    "strength": "helpful",
+    "why": "the hosepipe ban",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.12.b": {
   "cost": 1,
@@ -353,19 +548,47 @@
  },
  "geo-option-atmosphere-ocean-s6.12.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.12.0",
+    "strength": "helpful",
+    "why": "low reservoirs",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.12.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.12.1",
+    "strength": "helpful",
+    "why": "Day Zero",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.12.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.12.1",
+    "strength": "helpful",
+    "why": "Day Zero",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.12.4": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.0.0",
+    "strength": "helpful",
+    "why": "desalination",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.13.b": {
   "cost": 1,
@@ -389,7 +612,7 @@
    {
     "id": "geo-option-atmosphere-ocean-s5.1.4",
     "strength": "essential",
-    "why": "ITCZ",
+    "why": "the ITCZ",
     "confidence": "high"
    },
    {
@@ -412,19 +635,47 @@
  },
  "geo-option-atmosphere-ocean-s6.14.0": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.13.1",
+    "strength": "helpful",
+    "why": "agricultural drought",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.14.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.14.0",
+    "strength": "helpful",
+    "why": "crop failure",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.14.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.14.1",
+    "strength": "helpful",
+    "why": "food prices",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.14.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.13.2",
+    "strength": "helpful",
+    "why": "hydrological drought",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.14.4": {
   "cost": 1,
@@ -436,19 +687,53 @@
  },
  "geo-option-atmosphere-ocean-s6.15.0": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.13.b",
+    "strength": "helpful",
+    "why": "drought",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.15.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.15.0",
+    "strength": "helpful",
+    "why": "the Millennium Drought",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.15.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.0.0",
+    "strength": "helpful",
+    "why": "desalination",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.15.3": {
   "cost": 2,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.15.1",
+    "strength": "helpful",
+    "why": "developed-economy responses",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-option-atmosphere-ocean-s6.16.b",
+    "strength": "helpful",
+    "why": "Horn of Africa case",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.16.b": {
   "cost": 1,
@@ -467,19 +752,47 @@
  },
  "geo-option-atmosphere-ocean-s6.16.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.16.0",
+    "strength": "helpful",
+    "why": "the failed rains",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.16.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.16.1",
+    "strength": "helpful",
+    "why": "crop failure and prices",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.16.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.16.2",
+    "strength": "helpful",
+    "why": "the famine",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.16.4": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.16.2",
+    "strength": "helpful",
+    "why": "the famine",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.16.5": {
   "cost": 1,
@@ -503,7 +816,14 @@
  },
  "geo-option-atmosphere-ocean-s6.17.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.0.0",
+    "strength": "helpful",
+    "why": "irrigation",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.17.4": {
   "cost": 1,
@@ -511,7 +831,14 @@
  },
  "geo-option-atmosphere-ocean-s6.17.5": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.11.0",
+    "strength": "helpful",
+    "why": "hosepipe bans",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.18.b": {
   "cost": 1,
@@ -523,19 +850,47 @@
  },
  "geo-option-atmosphere-ocean-s6.18.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.18.0",
+    "strength": "essential",
+    "why": "desertification definition",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.18.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.18.0",
+    "strength": "essential",
+    "why": "desertification definition",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.18.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.18.0",
+    "strength": "helpful",
+    "why": "desertification",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.19.b": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.18.b",
+    "strength": "helpful",
+    "why": "desertification",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.19.0": {
   "cost": 2,
@@ -543,26 +898,54 @@
    {
     "id": "geo-option-atmosphere-ocean-s5.1.4",
     "strength": "helpful",
-    "why": "ITCZ",
+    "why": "the ITCZ",
     "confidence": "high"
    }
   ]
  },
  "geo-option-atmosphere-ocean-s6.19.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.19.0",
+    "strength": "helpful",
+    "why": "Sahel rainfall",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.19.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.19.1",
+    "strength": "helpful",
+    "why": "the droughts",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.19.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.19.2",
+    "strength": "helpful",
+    "why": "livelihood loss",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.19.4": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.19.0",
+    "strength": "helpful",
+    "why": "Sahel climate",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.19.5": {
   "cost": 1,
@@ -570,27 +953,69 @@
  },
  "geo-option-atmosphere-ocean-s6.20.b": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.18.0",
+    "strength": "helpful",
+    "why": "desertification",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.20.0": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.18.0",
+    "strength": "essential",
+    "why": "what UNCCD addresses",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.20.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.19.0",
+    "strength": "helpful",
+    "why": "the Sahel",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.20.2": {
-  "cost": 1,
-  "needs": []
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.19.0",
+    "strength": "helpful",
+    "why": "the Sahel",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.20.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.19.0",
+    "strength": "helpful",
+    "why": "the Sahel",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.21.b": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.18.0",
+    "strength": "helpful",
+    "why": "desertification",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.21.0": {
   "cost": 1,
@@ -605,15 +1030,36 @@
  },
  "geo-option-atmosphere-ocean-s6.21.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.21.0",
+    "strength": "helpful",
+    "why": "the dust storms",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.21.2": {
   "cost": 2,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.21.1",
+    "strength": "helpful",
+    "why": "topsoil loss",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.21.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.18.0",
+    "strength": "helpful",
+    "why": "desertification",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.22.b": {
   "cost": 1,
@@ -629,11 +1075,25 @@
  },
  "geo-option-atmosphere-ocean-s6.22.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.22.0",
+    "strength": "helpful",
+    "why": "weather suits activity",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.23.b": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.11.b",
+    "strength": "helpful",
+    "why": "Mediterranean climate",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.23.0": {
   "cost": 1,
@@ -648,7 +1108,14 @@
  },
  "geo-option-atmosphere-ocean-s6.23.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.23.0",
+    "strength": "helpful",
+    "why": "Mediterranean tourism",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.23.2": {
   "cost": 1,
@@ -656,7 +1123,14 @@
  },
  "geo-option-atmosphere-ocean-s6.23.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.23.0",
+    "strength": "helpful",
+    "why": "Mediterranean tourism",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.23.4": {
   "cost": 1,
@@ -664,18 +1138,32 @@
    {
     "id": "geo-option-atmosphere-ocean-s5.12.1",
     "strength": "helpful",
-    "why": "dry summer",
+    "why": "dry summers",
     "confidence": "high"
    }
   ]
  },
  "geo-option-atmosphere-ocean-s6.23.5": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.23.3",
+    "strength": "helpful",
+    "why": "tourism benefits",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.23.6": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.23.5",
+    "strength": "helpful",
+    "why": "mass tourism problems",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.24.b": {
   "cost": 1,
@@ -693,6 +1181,12 @@
     "strength": "helpful",
     "why": "Canary Current",
     "confidence": "low"
+   },
+   {
+    "id": "geo-option-atmosphere-ocean-s6.24.0",
+    "strength": "helpful",
+    "why": "Canary Islands",
+    "confidence": "high"
    }
   ]
  },
@@ -708,6 +1202,12 @@
   "cost": 1,
   "needs": [
    {
+    "id": "geo-option-atmosphere-ocean-s6.25.0",
+    "strength": "helpful",
+    "why": "ski tourism",
+    "confidence": "high"
+   },
+   {
     "id": "geo-option-atmosphere-ocean-s5.26.1",
     "strength": "helpful",
     "why": "warming",
@@ -717,11 +1217,25 @@
  },
  "geo-option-atmosphere-ocean-s6.25.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.25.1",
+    "strength": "helpful",
+    "why": "shorter seasons",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.25.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.25.1",
+    "strength": "helpful",
+    "why": "snow loss",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.26.b": {
   "cost": 1,
@@ -733,11 +1247,25 @@
  },
  "geo-option-atmosphere-ocean-s6.26.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.26.0",
+    "strength": "helpful",
+    "why": "hurricane season",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.26.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.26.0",
+    "strength": "helpful",
+    "why": "hurricane season",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.26.3": {
   "cost": 1,
@@ -745,7 +1273,14 @@
  },
  "geo-option-atmosphere-ocean-s6.26.4": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.28.5",
+    "strength": "helpful",
+    "why": "sea-level rise",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.27.b": {
   "cost": 1,
@@ -757,15 +1292,36 @@
  },
  "geo-option-atmosphere-ocean-s6.27.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.27.0",
+    "strength": "helpful",
+    "why": "beach tourism limits",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.27.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.27.1",
+    "strength": "helpful",
+    "why": "scenic tourism",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.27.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.27.0",
+    "strength": "helpful",
+    "why": "poor summer climate",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.28.b": {
   "cost": 1,
@@ -779,16 +1335,36 @@
     "strength": "helpful",
     "why": "heatwaves",
     "confidence": "low"
+   },
+   {
+    "id": "geo-option-atmosphere-ocean-s6.23.0",
+    "strength": "helpful",
+    "why": "Mediterranean tourism",
+    "confidence": "high"
    }
   ]
  },
  "geo-option-atmosphere-ocean-s6.28.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.27.0",
+    "strength": "helpful",
+    "why": "Irish tourism climate",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.28.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.25.0",
+    "strength": "helpful",
+    "why": "ski tourism",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-option-atmosphere-ocean-s6.28.3": {
   "cost": 1,
@@ -797,6 +1373,12 @@
     "id": "geo-option-atmosphere-ocean-s5.28.5",
     "strength": "helpful",
     "why": "sea-level rise",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-option-atmosphere-ocean-s6.26.3",
+    "strength": "helpful",
+    "why": "reef bleaching",
     "confidence": "high"
    }
   ]
@@ -819,6 +1401,19 @@
  },
  "geo-option-atmosphere-ocean-s6.29.3": {
   "cost": 2,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s6.0.0",
+    "strength": "helpful",
+    "why": "rich economies overcome limits",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-option-atmosphere-ocean-s6.0.1",
+    "strength": "helpful",
+    "why": "poor rain-fed economies",
+    "confidence": "high"
+   }
+  ]
  }
 }
