@@ -25,16 +25,23 @@ def lines(rows):
     return [f"[{i}] {t}" for i, t, _ in rows]
 
 
-def build():
+def build(keep=()):
+    """keep: subsection ids whose packages are already out with agents; their files and index entries are left as they are."""
     all_items = items(SUBJECT)
     prereqs = json.loads((ROOT / "content" / "crunch" / f"{SUBJECT}-prerequisites.json").read_text())
     out = HERE / "packs"
     out.mkdir(exist_ok=True)
+    old = json.loads((HERE / "packs.json").read_text()) if (HERE / "packs.json").exists() else {}
+    index = {k: v for k, v in old.items() if v["sid"] in keep}
     for f in out.glob("*.txt"):
-        f.unlink()
-    index = {}
+        if f.name.split(".t")[0] not in keep:
+            f.unlink()
     for sid, (title, rows) in all_items.items():
-        chunks = [rows[i:i + CHUNK] for i in range(0, len(rows), CHUNK)]
+        if sid in keep:
+            continue
+        n = -(-len(rows) // CHUNK)
+        size = -(-len(rows) // n)  # even chunks, so no 1-item leftover part
+        chunks = [rows[i:i + size] for i in range(0, len(rows), size)]
         # candidate sections: the rest of this subsection first, then each needed subsection, split if one is too big
         sections = []
         for n in [sid] + [l["needs"] for l in prereqs.get(sid, [])]:
@@ -113,4 +120,7 @@ if __name__ == "__main__":
     t = {"x": {"sid": "s", "cost": False, "targets": ["a"]}}
     assert check_pack("x", {"a": {"needs": [{"id": "b"}]}}, t, {"a", "b"}) == []
     assert len(check_pack("x", {"a": {"needs": [{"id": "z"}]}, "q": {}}, t, {"a", "b"})) == 2
-    {"build": build, "join": join}[sys.argv[1]]()
+    if sys.argv[1] == "build":
+        build(keep=set(sys.argv[2:]))
+    else:
+        join()

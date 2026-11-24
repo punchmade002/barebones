@@ -113,11 +113,15 @@ L={ # id:[(target,strength,why,conf)]
 '1.39.2':[('1.39.0',H,'airports','low')],
 '1.40.0':[('1.39.0',H,'airports and ports','high'),('1.39.1',H,'ferry ports','high')],
 }
+def n(k):
+    q=k.split('.')
+    return '.'.join(q[1:]) if len(q)==3 else k
+L={n(k):[(i if i.startswith('geo-') else n(i),*r) for i,*r in v] for k,v in L.items()}
 out={}
 for t in tgt:
     k=t[len(p):]
     out[t]={"needs":[{"id":(i if i.startswith('geo-') else p+i),"strength":s,"why":w,"confidence":c} for i,s,w,c in L.get(k,[])]}
-print(sorted(set(L)-{t[len(p):] for t in tgt}))
+assert not set(L)-{t[len(p):] for t in tgt}
 for v in out.values():
     for n in v['needs']: assert n['id'] in allids,n
 json.dump(out,open(P+'point-links/geo-economic-activities-s1.t1g4.json','w'),indent=1)

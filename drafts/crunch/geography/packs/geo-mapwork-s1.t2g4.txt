@@ -1,133 +1,5 @@
 MODE: links only (another package rates cost)
-TARGET geo-mapwork-s1 (part 1 of 2): Map interpretation
-[geo-mapwork-s1.0.b] Exam map questions are set on an Ordnance Survey (OS) map, the official survey map of Ireland. To answer them you need to know what the map shows and how its scale (the link between a distance on paper and the real distance on the ground) works. Worked examples use an invented town called Rivertown and are labelled illustrative.
-[geo-mapwork-s1.0.0] The exam map is a 1:50 000 Ordnance Survey (Discovery Series) extract, meaning a cut-out piece of the national map, and questions say 'examine the map and legend'. The legend is the key that explains the symbols.
-[geo-mapwork-s1.0.1] Every symbol, colour and road-class answer comes from the legend, so read it before answering instead of guessing from memory.
-[geo-mapwork-s1.0.2] A ratio (representative fraction) of 1:50 000 means 1 unit on the map equals 50 000 of the same units on the ground, for example 1 cm on the map stands for 50 000 cm on the ground.
-[geo-mapwork-s1.0.3] A linear scale (scale bar, a ruler-like line printed on the map) and a statement scale ('2 cm to 1 km', written in words) express the same scale in different forms.
-[geo-mapwork-s1.0.4] On 1:50 000, 1 cm = 0.5 km and 2 cm = 1 km, so a grid square (one square of the printed grid) of 2 cm × 2 cm is 1 km × 1 km = 1 km².
-[geo-mapwork-s1.0.5] A large-scale map (e.g. 1:1 000) shows a small area in great detail; a small-scale map (e.g. 1:1 000 000) shows a large area with little detail. The bigger the ratio number, the smaller the scale.
-[geo-mapwork-s1.0.6] 1:50 000 is a medium scale, suited to a town and its surroundings because it shows buildings, roads and relief clearly while still covering a useful area.
-[geo-mapwork-s1.1.b] A grid reference is a short code that pins a place on the map. Learn the two types, because a four-figure reference names a whole square and a six-figure reference names a point inside it.
-[geo-mapwork-s1.1.0] The Irish Grid divides Ireland into 25 sub-zones, each 100 km × 100 km, lettered A to Z with I omitted. The sub-zone letter is printed on the map and starts every grid reference, so that the code points to one place only.
-[geo-mapwork-s1.1.1] Eastings are the vertical grid lines, numbered along the top and bottom, and the numbers increase eastward. Read them first, because the grid reference runs across before it runs up.
-[geo-mapwork-s1.1.2] Northings are the horizontal grid lines, numbered up the sides, and the numbers increase northward. Read them second, so that the reference reads across then up.
-[geo-mapwork-s1.1.3] Memory aid for the order: along the corridor, then up the stairs.
-[geo-mapwork-s1.1.4] A four-figure reference identifies a whole 1 km square by the easting and northing of its bottom-left (south-west) corner. Use it for areas such as a lake, a forest or a slope, which cover a whole square rather than a single point.
-[geo-mapwork-s1.1.5] A six-figure reference identifies a point to the nearest 100 m. Mentally divide the square into tenths, then read the tenths east of the easting line and the tenths north of the northing line.
-[geo-mapwork-s1.1.6] Six-figure references locate point features such as a building symbol, a road junction, a spot height (a dot marking an exact height) or the point where a road leaves the map. Give the reference for the centre of the symbol.
-[geo-mapwork-s1.1.7] Illustrative: the square containing the ringfort (an early Christian farmstead) in Rivertown is the four-figure reference R 25 43, easting 25 first and then northing 43, with R as the sub-zone letter.
-[geo-mapwork-s1.2.b] Questions use grid references in two directions: you are given a reference and asked what is there, or told a feature and asked to locate it. Position can also be given in words, relative to other things.
-[geo-mapwork-s1.2.0] To name a feature at a grid reference, find the sub-zone letter, then the easting, then the northing, and name what the map or legend labels at that point exactly.
-[geo-mapwork-s1.2.1] A common Ordinary task is naming the feature at three or four grid references, such as an antiquity (a historic monument), a Garda station, a post office or a tourist feature.
-[geo-mapwork-s1.2.2] Illustrative: the bridge over the River Dallow is at six-figure reference R 268 441, so the easting 268 is read before the northing 441; the feature at R 280 436 is a motte (a Norman earth mound).
-[geo-mapwork-s1.2.3] Absolute location is a precise position given by a grid reference or by latitude and longitude (degrees measured from fixed lines on the globe), so it can be checked exactly.
-[geo-mapwork-s1.2.4] Relative location describes a position against other features or directions, so it is approximate, e.g. 'north-west of the town, beside the river'.
-[geo-mapwork-s1.2.5] Exams ask which area of the map (north-west, south-east and so on) a named feature lies in, for example the north-east.
-[geo-mapwork-s1.3.b] Latitude and longitude give a global position in degrees from two fixed reference lines, which makes them useful for any place on Earth, not only places on one OS map.
-[geo-mapwork-s1.3.0] Latitude is the angular distance north or south of the Equator (0°, the line round the middle of the Earth), up to 90°N and 90°S at the poles. Lines of latitude (parallels) run east–west, parallel to each other.
-[geo-mapwork-s1.3.1] Longitude is the angular distance east or west of the Prime Meridian (0°), which passes through Greenwich, London, up to 180°. Lines of longitude (meridians) run north–south and meet at the poles.
-[geo-mapwork-s1.3.2] Each degree is divided into 60 minutes (′). Write latitude first with N or S, then longitude with E or W, e.g. 53°20′N, 6°15′W.
-[geo-mapwork-s1.3.3] Key lines: the Equator (0°); the Tropics of Cancer and Capricorn at about 23.5°N and 23.5°S; the Arctic and Antarctic Circles at about 66.5°N and 66.5°S; the International Date Line roughly follows 180°.
-[geo-mapwork-s1.3.4] One degree of latitude is about 111 km everywhere, because parallels are evenly spaced. One degree of longitude is about 111 km at the Equator and shrinks to zero at the poles, because the meridians meet there.
-[geo-mapwork-s1.4.b] Longitude is linked to time, and it also lets you describe where Ireland sits on the globe. Each coordinate system has its own best use.
-[geo-mapwork-s1.4.0] The earth turns 360° in 24 hours, so 15° of longitude equals 1 hour of time. Places to the east are ahead.
-[geo-mapwork-s1.4.1] Illustrative: a place 30° east of Greenwich is 2 hours ahead, since 30 ÷ 15 = 2.
-[geo-mapwork-s1.4.2] Ireland's position is fixed by coordinates: it lies between about 51.5°N and 55.5°N and about 5.5°W and 10.5°W, so it is in the northern hemisphere (north of the Equator) and the western hemisphere (west of Greenwich).
-[geo-mapwork-s1.4.3] Example: Dublin lies at about 53°20′N, 6°15′W, which puts it north of the Equator and west of Greenwich.
-[geo-mapwork-s1.4.4] Grid references are used on OS maps because they are quicker and more precise at local scale; latitude and longitude are used for global location.
-[geo-mapwork-s1.5.b] Distance questions ask for a length in km between two points. A straight-line distance is measured directly; a curved distance has to follow the bends of a road, railway, river or walk.
-[geo-mapwork-s1.5.0] Straight-line distance: measure with a ruler in cm and multiply by 0.5 to get km, or lay a paper edge between the two points and read it against the scale bar. Give the answer in km to one decimal place.
-[geo-mapwork-s1.5.1] From two grid references: find the difference in eastings (ΔE) and the difference in northings (ΔN) in km, then distance = √(ΔE² + ΔN²). This is Pythagoras' theorem applied to the grid.
-[geo-mapwork-s1.5.2] Curved distance (a road, railway, river or walk): mark the start on the straight edge of a strip of paper, pivot the strip at each bend and mark as you go, then straighten it and measure against the scale bar. A string laid along the route also works.
-[geo-mapwork-s1.5.3] Start and stop exactly at the points named, such as where the road enters the map, a junction or a roundabout, so that the length is not too long or too short.
-[geo-mapwork-s1.5.4] Illustrative: the bridge at R 268 441 to the summit pillar at R 240 405 measures 9.1 cm, or 4.6 km (rounded); by grid, ΔE = 2.8 km and ΔN = 3.6 km, so √(2.8² + 3.6²) = √20.8 ≈ 4.6 km.
-[geo-mapwork-s1.5.5] Illustrative: the R990 from the town to the crossroads village measures 9.0 cm along its bends, or 4.5 km.
-[geo-mapwork-s1.6.b] Area is found by counting grid squares, because each 1 km square on a 1:50 000 map is 1 km². The method depends on whether the shape is a neat rectangle or irregular.
-[geo-mapwork-s1.6.0] Rectangular areas (the whole map, or the part north of a named northing or west of a named easting): count kilometres east–west × kilometres north–south; each 1 km square is 1 km².
-[geo-mapwork-s1.6.1] Irregular features (a lake, a bay, land above a contour): count the full squares; count squares more than half covered as full; ignore squares less than half covered, or estimate part-squares as fractions.
-[geo-mapwork-s1.6.2] Give the answer in km² and state that it is approximate, since counting part-squares is an estimate.
-[geo-mapwork-s1.6.3] Land on one side of a road or railway: count the squares on that side and estimate partly covered squares; exclude sea where the question asks for land.
-[geo-mapwork-s1.6.4] Illustrative: the whole extract is 14 km × 8 km = 112 km²; the land north of northing 44 is 14 km × 4 km = 56 km².
-[geo-mapwork-s1.6.5] Illustrative: an invented lake covering 3 full squares and 4 squares more than half covered is about 7 km².
-[geo-mapwork-s1.7.b] Direction questions ask which way you would travel between two places, or which way a feature runs. The map has a fixed north, so every answer is read against it.
-[geo-mapwork-s1.7.0] North is the top of the OS map (grid north). The eight compass points are N, NE, E, SE, S, SW, W and NW; sixteen points add NNE, ENE, ESE, SSE, SSW, WSW, WNW and NNW.
-[geo-mapwork-s1.7.1] Method: draw a line from the start point to the destination, imagine a compass centred on the start, and read the direction of travel.
-[geo-mapwork-s1.7.2] 'From A to B' means the direction of travel, read at A. Quick check: is B above or below A (north or south), and to the left or right (west or east)?
-[geo-mapwork-s1.7.3] Direction along a route (a walk, a road, a river's flow) is the overall direction from its start to its end. A river flows from its source on high ground to its mouth on low ground, which spot heights and contours show.
-[geo-mapwork-s1.7.4] Bearings (optional for Higher): the angle measured clockwise from north, from 0° to 360°; E = 090°, S = 180°, W = 270°.
-[geo-mapwork-s1.7.5] Illustrative: from the bridge at R 268 441 to the summit pillar at R 240 405, the pillar is 2.8 km west and 3.6 km south, so the direction of travel is south-west; from the pillar to the bridge it is north-east. The River Dallow flows towards the north-east.
-[geo-mapwork-s1.8.b] The OS map shows height with several devices. Contours are the main one, and you must be able to read a height from each.
-[geo-mapwork-s1.8.0] Contours are lines joining places of equal height above sea level. On the Discovery Series the vertical interval (the height difference between neighbouring contours) is 10 m, and some contours are numbered with their height.
-[geo-mapwork-s1.8.1] Spot heights are dots with the height in metres, which is useful for exact heights; triangulation pillars are survey points with their height; layer colouring (colour bands for ranges of height) is shown in the legend.
-[geo-mapwork-s1.8.2] Height of a point: read the spot height or pillar beside it, or the nearest numbered contour, and count contours up or down at 10 m each.
-[geo-mapwork-s1.8.3] The highest point on the map is the highest spot height or pillar; check the upland areas, because high ground is where the top height will be.
-[geo-mapwork-s1.9.b] The spacing of contours shows how steep the ground is, and the pattern of spacing gives the shape of the slope. This is how you recognise a slope type on the map.
-[geo-mapwork-s1.9.0] Contours close together mean a steep slope, because the ground rises 10 m over a short distance; contours far apart mean a gentle slope; a wide area with no contours is flat ground, such as a floodplain or coastal lowland.
-[geo-mapwork-s1.9.1] Even slope: contours are evenly spaced, so the gradient stays constant, as on a straight ramp.
-[geo-mapwork-s1.9.2] Concave slope: contours close together near the top and widely spaced near the bottom, so the slope is steep above and gentle below, and the whole slope can be seen from the top.
-[geo-mapwork-s1.9.3] Convex slope: contours widely spaced near the top and close together near the bottom, so the slope is gentle above and steep below, and the foot cannot be seen from the top.
-[geo-mapwork-s1.9.4] Stepped slope, for example a terraced hillside: alternating bands of close and wide contour spacing, which gives steep sections and flat sections in turn.
-[geo-mapwork-s1.10.b] Different relief features make distinct contour shapes. Learn the shape of each and you can name the feature from the contours alone.
-[geo-mapwork-s1.10.0] Valley: contours form V or U shapes pointing upstream (towards higher ground, where the river rises), with a river along the floor.
-[geo-mapwork-s1.10.1] Spur: a ridge of land sticking out from a hill, so water runs off it either side, with contours forming V shapes pointing downhill, towards lower ground.
-[geo-mapwork-s1.10.2] Plateau: a high, flat or gently sloping top with steep edges; contours crowd round the edge and are few on the top.
-[geo-mapwork-s1.10.3] Ridge: a long, narrow stretch of high ground, shown by elongated contours along its crest (the top line).
-[geo-mapwork-s1.10.4] Col or saddle: a low pass between two summits, shown as a dip between two high points, so it is a natural route across a range.
-[geo-mapwork-s1.10.5] Escarpment: a steep slope on one side and a gentle slope on the other, so contours are close on one side and wide on the other.
-[geo-mapwork-s1.10.6] Knoll or isolated hill: a closed ring of contours, because the ground falls away on every side.
-[geo-mapwork-s1.11.b] Gradient measures steepness as a number, aspect says which way a slope faces, and intervisibility asks whether two points can see each other. All three use the heights and distances on the map.
-[geo-mapwork-s1.11.0] Gradient is the steepness of a slope: vertical interval (VI, the difference in height) ÷ horizontal equivalent (HE, the ground distance), both in the same units, written as 1 in x or 1:x. A larger x means a gentler slope.
-[geo-mapwork-s1.11.1] Method: find the height of each point and subtract to get the VI; measure the distance on the map and convert it to metres for the HE; divide HE by VI. The result is an average gradient between the two points.
-[geo-mapwork-s1.11.2] Aspect is the direction a slope faces, which is the direction you look when facing downhill, not the uphill direction: a slope falling towards the south is south-facing, with a southerly aspect.
-[geo-mapwork-s1.11.3] In Ireland, south-facing slopes receive more sunshine and are warmer.
-[geo-mapwork-s1.11.4] Intervisibility: whether one point can be seen from another. A convex slope or intervening high ground blocks the view, so check with a cross-section (a side-on drawing of the ground between them).
-[geo-mapwork-s1.11.5] Illustrative: the summit at 512 m to the bridge at 52 m gives VI = 460 m; HE = 4.6 km = 4 600 m; gradient = 4 600 ÷ 460 = 1 in 10.
-[geo-mapwork-s1.12.b] A cross-section is a side-on view of the ground along a line between two points, built from the contours the line crosses. It shows the shape of the relief and lets you test slopes and views.
-[geo-mapwork-s1.12.0] 1. Join the two points with a straight line on the map.
-[geo-mapwork-s1.12.1] 2. Lay a straight paper edge along the line and mark where every contour crosses it, with its height, plus rivers, roads and other features.
-[geo-mapwork-s1.12.2] 3. Draw a horizontal axis the same length as the line (horizontal scale = map scale) and a vertical axis with a chosen height scale.
-[geo-mapwork-s1.12.3] 4. Plot each height above its mark and join the points with a smooth curve.
-[geo-mapwork-s1.12.4] 5. Label the rivers, roads, the summit, the slope types and the ends (X and Y, with grid references); give a title and both scales.
-[geo-mapwork-s1.12.5] Vertical exaggeration: the vertical scale is stretched so that relief shows, since otherwise the hills would look almost flat. It equals the horizontal scale distance ÷ the vertical scale distance for the same map length, and is stated in the title or key.
-[geo-mapwork-s1.12.6] Illustrative: a cross-section north from the summit to the river uses a horizontal scale of 1:50 000 (1 cm = 500 m) and a vertical scale of 1 cm = 50 m (1:5 000); vertical exaggeration = 500 m ÷ 50 m = ×10.
-[geo-mapwork-s1.12.7] Illustrative: the slope from the summit is concave, with contours crowded near the top and widely spaced near the river.
-[geo-mapwork-s1.13.b] In some questions the profile is already drawn for you. Your job is to match each labelled point on it to the map, then read facts off the map at that spot.
-[geo-mapwork-s1.13.0] A printed profile runs along a named easting or northing between points X and Y, with features labelled A to E; match each labelled point to the map by its distance along the line and its height.
-[geo-mapwork-s1.13.1] A river crossing is a dip in the profile, because the land falls to the river, with a blue line on the map at that spot.
-[geo-mapwork-s1.13.2] A road is identified by its number on the map, for example the N99 in the illustrative example below.
-[geo-mapwork-s1.13.3] The height at a point is read from the vertical axis or from the map, so cross-check one against the other.
-[geo-mapwork-s1.13.4] The slope type between two points (concave, convex, even, steep, gentle, flat) is read from the profile curve and the contours.
-[geo-mapwork-s1.13.5] Land use or forestry type is read from the map symbol at that point.
-[geo-mapwork-s1.13.6] A named walk, cycle route or tourist attraction crossing the line, and the townland (the smallest Irish land division) or place name at a point, are read from the map labels.
-[geo-mapwork-s1.13.7] Illustrative: along northing 42 from X (R 200 420) to Y (R 300 420), point A is a dip where the River Dallow crosses, B is on the N99, C is on coniferous plantation, and the slope between D and E is concave.
-[geo-mapwork-s1.14.b] Symbols are drawn or named by copying them from the legend, in proportion and in the legend's colour where colour is used. The legend is provided in the exam, so the skill is knowing its groups and reading it quickly.
-[geo-mapwork-s1.14.0] Legend groups: roads; railways and stations; water features; height; vegetation; antiquities; tourist and leisure information; public services; boundaries.
-[geo-mapwork-s1.14.1] Road letters: M = motorway; N = national road (national primary and national secondary routes); R = regional road. N stands for National and R for Regional, not 'route' or 'rural'.
-[geo-mapwork-s1.14.2] Vegetation: coniferous plantation (pointed, conifer-shaped tree symbols), deciduous woodland (rounded tree symbols) and mixed woodland (both); use the legend's terms.
-[geo-mapwork-s1.14.3] Symbols exams have asked students to draw or name: viewpoint, picnic site, parking, boating activities, triangulation pillar, ringfort, county boundary, wind farm, post office, youth or independent holiday hostel, golf course, camping site, electricity transmission line, waymarked walk and cycle route. Learn them from the legend.
-[geo-mapwork-s1.15.b] Antiquities are historic monuments, and the map labels each one. Some maps also mark a cultural area, so you should know how to spot it.
-[geo-mapwork-s1.15.0] Antiquities are grouped in the legend; name one exactly as the map labels it, e.g. 'Castle (in ruins)', 'Ringfort', 'Standing Stone', 'Megalithic Tomb', 'Church (in ruins)', 'Holy Well' or 'Motte'.
-[geo-mapwork-s1.15.1] Cultural areas: some maps mark a Gaeltacht (Irish-speaking area) boundary, which the legend identifies.
-[geo-mapwork-s1.15.2] Irish-language place names on the map are further evidence of a cultural area.
-[geo-mapwork-s1.16.b] A sketch is a ruled, labelled drawing of the features asked for, placed accurately on a frame. It is never a tracing.
-[geo-mapwork-s1.16.0] Higher asks for a sketch to half scale (20 marks): half the length and half the breadth of the extract. Ordinary asks for a sketch map of the area shown (30 marks); a frame of similar shape, about half size, is safest.
-[geo-mapwork-s1.16.1] Measure the extract, or count squares (each 2 cm square becomes 1 cm), and draw a frame with four ruled sides.
-[geo-mapwork-s1.16.2] Draw light pencil grid lines on the frame at the same eastings and northings (every 1 cm at half scale, or every second line) and label the edge numbers. These let you place features accurately.
-[geo-mapwork-s1.16.3] Draw a coastline as a firm line, so that it stands out from the grid lines; draw a river as a line between the named grid references, or along its entire course; draw broad rivers and lakes as outlined shapes.
-[geo-mapwork-s1.16.4] Draw roads and railways as lines along their entire route where asked; draw areas (land above a contour, plantation, built-up area, golf course) as shaded closed shapes; draw point features (post office, triangulation pillar, viewpoint, camping site) as a symbol or dot.
-[geo-mapwork-s1.16.5] 'Land above 300 m': follow the 300 m contour accurately round every part of the area asked for. 'Entire area' means all of it; 'at' or 'in the south-west of the map' means only that part.
-[geo-mapwork-s1.16.6] Label every feature on the sketch or in a key; an unlabelled feature earns nothing. Add a title, a north arrow and the words 'half scale'.
-[geo-mapwork-s1.16.7] Never trace the map. Draw only the features asked for, in the correct part of the frame, since a feature placed in the wrong part loses marks.
-[geo-mapwork-s1.17.b] Illustrative: the extract is 28 cm × 16 cm, so the frame is 14 cm × 8 cm, with grid lines every 1 cm. Here is how each requested feature of the invented Rivertown map is drawn and labelled.
-[geo-mapwork-s1.17.0] River Dallow, entire course: a line from its entry at R 200 402 in the south-west to its exit at R 340 470 in the north-east, following its meanders across the floodplain east of the town; label it.
-[geo-mapwork-s1.17.1] N99, entire route: a road line from the south-west to the north-east through the town; label it N99.
-[geo-mapwork-s1.17.2] Railway: a line with its station at R 272 445; label it.
-[geo-mapwork-s1.17.3] Built-up area of Rivertown: a shaded closed shape around the town centre and the housing estates on the northern edge, with the industrial estate on the N99 at the north-eastern edge; label it.
-[geo-mapwork-s1.17.4] Area above 300 m at Slievenagh: a shaded closed shape following the 300 m contour round the summit triangulation pillar at R 240 405; label it.
-[geo-mapwork-s1.18.b] A drainage pattern is the shape that a river and its tributaries (the smaller streams that join it) make on the map. Each pattern has a recognisable look, and the shape hints at the rock or land beneath.
-[geo-mapwork-s1.18.0] Dendritic: tree-like, with tributaries joining the main river at acute angles, on rock of uniform resistance (rock that wears away at the same rate everywhere).
-[geo-mapwork-s1.18.1] Trellised: tributaries join the main river at right angles, on alternating bands of hard and soft rock, so the streams follow the soft bands.
+TARGET geo-mapwork-s1 (part 2 of 2): Map interpretation
 [geo-mapwork-s1.18.2] Radial: streams flow outward in all directions from a central hill or mountain, because the water runs downhill every way, as the small streams do around the summit of Slievenagh.
 [geo-mapwork-s1.18.3] Centripetal: streams flow inward to a central lake or lowland, because that is the lowest ground.
 [geo-mapwork-s1.18.4] Deranged: no clear pattern, with many small lakes and marshes, on glacial deposits (material left by ice).
@@ -200,6 +72,61 @@ TARGET geo-mapwork-s1 (part 1 of 2): Map interpretation
 [geo-mapwork-s1.29.4] Illustrative: a motte at R 280 436 and a castle in ruins at R 269 439, beside the bridge.
 [geo-mapwork-s1.30.b] The later periods leave planned towns, large estates and industrial and transport remains. Each tells you about how the country was organised and how it developed.
 [geo-mapwork-s1.30.0] Tower houses are fortified stone houses, built for protection; planned towns have a regular layout with a square or wide main street; demesnes are large houses with estate woodland.
+[geo-mapwork-s1.30.1] 19th and 20th century sites include canals, railways and stations, mills, coastguard stations, later housing and industrial estates.
+[geo-mapwork-s1.30.2] What it shows: the growth of planned towns and estates, and of transport and industry.
+[geo-mapwork-s1.31.b] Many Irish place names are built from Irish words that describe the land or what stood there. Knowing the elements helps you read the history and site of a place from its name.
+[geo-mapwork-s1.31.0] Settlement and building elements: baile/bally (townland or settlement), cill/kil (church), ráth/rath and lios/lis (ringfort), dún/dun (fort), cathair/caher (stone fort), áth/ath (ford), droichead (bridge).
+[geo-mapwork-s1.31.1] Land elements: cnoc/knock (hill), sliabh/slieve (mountain), ard (height), drom/drum (ridge), gleann/glen (valley), mullach/mullagh (summit).
+[geo-mapwork-s1.31.2] Water, vegetation and other elements: loch/lough (lake), inis/inch (island), cluain/clon (meadow), doire (oak wood), carraig/carrick (rock).
+[geo-mapwork-s1.31.3] Size elements: beag/beg (small), mór/more (big).
+[geo-mapwork-s1.31.4] Townlands are the smallest land division in Ireland; townland names are printed on OS maps, and exams ask which townland a point lies in.
+[geo-mapwork-s1.32.b] A 30-mark question asks for three reasons, each named, evidenced from the map with a grid reference and explained. Choose the three for which the map gives the clearest evidence.
+[geo-mapwork-s1.32.0] Bridging point: the town grew where a river could be crossed, and bridges and roads converge on it.
+[geo-mapwork-s1.32.1] Route focus: several N and R roads and a railway meet, so the town became a market and service centre.
+[geo-mapwork-s1.32.2] Defence: a castle, town walls, a hill or a river bend guards the site.
+[geo-mapwork-s1.32.3] River or coastal site: water supply, transport, power for mills, and a harbour or pier for trade and fishing.
+[geo-mapwork-s1.32.4] Flat or gently sloping lowland: easy to build on, with widely spaced contours.
+[geo-mapwork-s1.32.5] Fertile surrounding farmland: dispersed farms and no marsh, so the town serves as a market town for its hinterland (the area around it that it serves).
+[geo-mapwork-s1.32.6] Ecclesiastical origin: an abbey or early church site. Tourism: a coast, beaches, lakes or uplands attract visitors to the town.
+[geo-mapwork-s1.32.7] Illustrative: the bridging point is the bridge at R 268 441, with roads converging on it; the route focus is the N99, the R990 and the railway station at R 272 445; defence is the castle at R 269 439 and the motte at R 280 436, guarding the crossing.
+[geo-mapwork-s1.33.b] A function is a job a town does for its people and surroundings. Name each function, give the symbol or label and its grid reference, and explain it.
+[geo-mapwork-s1.33.0] Residential: built-up area and housing estates, because they show where people live.
+[geo-mapwork-s1.33.1] Market and retail: a route focus and a central square, because people gather where routes meet to buy and sell.
+[geo-mapwork-s1.33.2] Services: hospital, Garda station, post office, schools and courthouse, where labelled.
+[geo-mapwork-s1.33.3] Transport: railway station, bus routes and motorway junction, such as the Rivertown station at R 272 445.
+[geo-mapwork-s1.33.4] Industrial: industrial estate or factory labels, because they show where goods are made.
+[geo-mapwork-s1.33.5] Tourist and recreational: tourist information office, golf course, hostels, camping and caravan sites, marinas, viewpoints and walks.
+[geo-mapwork-s1.33.6] Port or fishing: pier, harbour and slipway, because boats land and load there.
+[geo-mapwork-s1.33.7] Ecclesiastical: churches and abbeys. Defensive in the past: castle.
+[geo-mapwork-s1.34.b] A town's layout records its history, with the oldest parts near the crossing point and newer parts at the edge.
+[geo-mapwork-s1.34.0] Old core, the first part to be built: narrow streets, a square, and a castle or abbey near the bridge.
+[geo-mapwork-s1.34.1] Newer edge, where there is more space: housing estates, industrial estates, a bypass or motorway with junctions, and ribbon development.
+[geo-mapwork-s1.35.b] Choose a site with a six-figure grid reference and give three reasons, each supported by map evidence.
+[geo-mapwork-s1.35.0] Flat land: widely spaced contours, because it is cheaper and easier to build on.
+[geo-mapwork-s1.35.1] Access: an N road, a motorway junction, a railway or a port, so that goods and workers can reach the site.
+[geo-mapwork-s1.35.2] Nearness to a town for labour, services and markets; space to expand; a site off the floodplain and away from protected or scenic areas.
+[geo-mapwork-s1.35.3] Wind farms need exposed high ground away from houses; hotels need to be near tourist attractions.
+[geo-mapwork-s1.35.4] State a disadvantage when asked, e.g. visual impact, traffic, loss of farmland or conflict with residents.
+[geo-mapwork-s1.36.b] Economic activities are the ways people earn a living, grouped as primary, secondary and tertiary. The map shows each through symbols and labels, and tourism can be judged from what the map offers visitors.
+[geo-mapwork-s1.36.0] Primary activity (using natural resources): forestry plantations, farming (shown by dispersed farms and field land), quarries and fishing piers.
+[geo-mapwork-s1.36.1] Secondary activity (making goods): industrial estates and factories, such as the industrial estate on the N99 at the north-eastern edge of Rivertown.
+[geo-mapwork-s1.36.2] Tertiary activity (providing services): services, tourism and transport, such as shops, hotels and railways.
+[geo-mapwork-s1.36.3] Each activity is evidenced by a map symbol or label and its grid reference.
+[geo-mapwork-s1.36.4] Tourism potential, accessibility and services, so that visitors can get there and stay: road access, parking, accommodation and tourist information.
+[geo-mapwork-s1.36.5] Tourism potential, attractions that draw visitors, such as antiquities, viewpoints, walks, cycle routes, beaches, lakes and golf courses.
+[geo-mapwork-s1.36.6] Each factor is evidenced with grid references and explained.
+[geo-mapwork-s1.37.b] Statistical maps show numbers on a map. The OS map links to them through its contours and its key.
+[geo-mapwork-s1.37.0] Contours are isolines (lines joining places of equal value), so they work like the lines on a weather map, the same kind of line used on isoline statistical maps, where the value is a statistic instead of height.
+[geo-mapwork-s1.37.1] Choropleth, dot, isoline, proportional-symbol and flow-line maps are taught in Graph skills; there is more on them there.
+[geo-mapwork-s1.38.b] Map questions fall into short questions, matching questions, sketch maps and long map-evidence questions. Short questions are worth Higher 2 marks each; Ordinary 3–5 marks, often tick-box.
+[geo-mapwork-s1.38.0] Short questions: a six-figure reference for a named building, road junction or exit point; the antiquity, public service or feature at a grid reference; the height of a spot height, pillar or highest point; the length of a road, motorway or railway; the straight-line distance between two points.
+[geo-mapwork-s1.38.1] Short questions also ask for the area of the whole map, of a lake or bay, of land above a contour, or of land east, west, north or south of a grid line or railway.
+[geo-mapwork-s1.38.2] More short questions ask for the direction of travel; the part of the map a feature lies in; the type of forestry; what N or R stands for; a legend symbol; a cultural area (Gaeltacht).
+[geo-mapwork-s1.38.3] Matching questions give features (such as a meander, a drumlin or a headland) to grid references, and ask for two drainage patterns, the type of lake or the aspect of a slope at a grid reference; elevation profile questions and true or false profile statements (Higher).
+[geo-mapwork-s1.38.4] Sketch maps: Higher 20 marks at half scale; Ordinary 30 marks; typically four or five features.
+[geo-mapwork-s1.38.5] 15-mark map-and-process question (Higher): name and locate two landforms with six-figure grid references and explain one; locate a very steep and a very gentle slope.
+[geo-mapwork-s1.38.6] 30-mark map-evidence questions: three reasons a town developed at its location; three rural settlement patterns; variations in settlement distribution; absence and high density of settlement.
+[geo-mapwork-s1.38.7] More 30-mark map-evidence questions: three phases of historic settlement; site suitability with a six-figure reference; economic activity and tourism potential.
 
 CANDIDATES geo-graph-skills-s1: Figure interpretation
 [geo-graph-skills-s1.0.b] Every figure question starts the same way: read the labels and units before reading any value. Most lost marks come from a wrong unit, year or column, because a correct reading of the wrong one still scores nothing.

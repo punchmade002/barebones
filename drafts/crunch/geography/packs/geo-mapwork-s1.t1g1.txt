@@ -128,6 +128,8 @@ TARGET geo-mapwork-s1 (part 1 of 2): Map interpretation
 [geo-mapwork-s1.18.b] A drainage pattern is the shape that a river and its tributaries (the smaller streams that join it) make on the map. Each pattern has a recognisable look, and the shape hints at the rock or land beneath.
 [geo-mapwork-s1.18.0] Dendritic: tree-like, with tributaries joining the main river at acute angles, on rock of uniform resistance (rock that wears away at the same rate everywhere).
 [geo-mapwork-s1.18.1] Trellised: tributaries join the main river at right angles, on alternating bands of hard and soft rock, so the streams follow the soft bands.
+
+CANDIDATES geo-mapwork-s1: Map interpretation
 [geo-mapwork-s1.18.2] Radial: streams flow outward in all directions from a central hill or mountain, because the water runs downhill every way, as the small streams do around the summit of Slievenagh.
 [geo-mapwork-s1.18.3] Centripetal: streams flow inward to a central lake or lowland, because that is the lowest ground.
 [geo-mapwork-s1.18.4] Deranged: no clear pattern, with many small lakes and marshes, on glacial deposits (material left by ice).

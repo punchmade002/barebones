@@ -1,5 +1,77 @@
 MODE: links only (another package rates cost)
 TARGET geo-mapwork-s1 (part 2 of 2): Map interpretation
+[geo-mapwork-s1.18.2] Radial: streams flow outward in all directions from a central hill or mountain, because the water runs downhill every way, as the small streams do around the summit of Slievenagh.
+[geo-mapwork-s1.18.3] Centripetal: streams flow inward to a central lake or lowland, because that is the lowest ground.
+[geo-mapwork-s1.18.4] Deranged: no clear pattern, with many small lakes and marshes, on glacial deposits (material left by ice).
+[geo-mapwork-s1.18.5] Real examples, one clause each: trellised in the Munster ridge and valley; deranged in the Co. Cavan drumlin belt; centripetal at Lough Neagh.
+[geo-mapwork-s1.19.b] Fluvial landforms are those made by rivers. On the map each one has a clue, such as a loop, a flat area with no contours, or contours crowded across the river.
+[geo-mapwork-s1.19.0] V-shaped valley: the upland valley pattern given under landforms read from contours, with sharp contour Vs pointing upstream; the river runs along the floor.
+[geo-mapwork-s1.19.1] Meander: a river swinging in loops, such as those on a flat floodplain. Oxbow lake: a crescent-shaped lake beside a meandering river.
+[geo-mapwork-s1.19.2] Floodplain: wide and flat, with no contours, along a lowland river; often marshy.
+[geo-mapwork-s1.19.3] Levees: embankments (raised banks) along the channel, where the map shows them.
+[geo-mapwork-s1.19.4] Braiding: the river splits, so it looks like a plait, into several channels around islands.
+[geo-mapwork-s1.19.5] Confluence: the point where a tributary joins the main river, which you can see as a Y-shaped junction of blue lines.
+[geo-mapwork-s1.19.6] Delta: deposits where a river enters a lake or the sea.
+[geo-mapwork-s1.19.7] Waterfall: shown by a symbol or name, with contours crowded across the river.
+[geo-mapwork-s1.20.b] Glacial landforms were shaped by ice. They show up on the map as hollows, narrow ridges and groups of small hills, each with a distinctive contour shape.
+[geo-mapwork-s1.20.0] Corrie: an armchair-shaped hollow (the shape ice carves, with a steep back wall), with contours close on three sides and open downhill.
+[geo-mapwork-s1.20.1] Tarn: a small, round lake in a corrie, often high up.
+[geo-mapwork-s1.20.2] Arête: a narrow ridge with very close contours on both sides, because the ground falls steeply away either side.
+[geo-mapwork-s1.20.3] U-shaped valley: a broad, flat floor with steep sides, and contours close together on the valley sides.
+[geo-mapwork-s1.20.4] Ribbon lake: a long, narrow lake on the floor of a U-shaped valley.
+[geo-mapwork-s1.20.5] Drumlins: many small oval closed contour rings, often with small lakes between them.
+[geo-mapwork-s1.20.6] Esker: a long, narrow, winding ridge on lowland, so it stands out from the flat ground around it.
+[geo-mapwork-s1.21.b] Coastal landforms are found where land meets sea. Karst landforms belong to limestone country, where water drains underground. Both are recognised by their shapes, symbols and names.
+[geo-mapwork-s1.21.0] Beach: for example sand or shingle (small rounded stones) shading along the shore.
+[geo-mapwork-s1.21.1] Cliff: a cliff symbol, or contours crowded together at the coast, because the land drops steeply to the sea.
+[geo-mapwork-s1.21.2] Headland: land projecting into the sea, often high.
+[geo-mapwork-s1.21.3] Bay: a curved inlet of the sea, so the coastline bends inland.
+[geo-mapwork-s1.21.4] Sand spit (a narrow strip of sand built out from the coast), tombolo (a ridge joining an island to the mainland) and lagoon (a shallow pool cut off from the sea): identified by their shapes and names on the map.
+[geo-mapwork-s1.21.5] Sand dunes: shown by dune shading or a name.
+[geo-mapwork-s1.21.6] Swallow hole: a stream ends abruptly where it disappears underground; limestone areas have few surface streams.
+[geo-mapwork-s1.22.b] A lake's origin can usually be read from its shape and setting on the map, so questions ask you to give the type at a grid reference.
+[geo-mapwork-s1.22.0] Lake type at a grid reference: glacial (tarn or ribbon lake), fluvial (oxbow), coastal (lagoon) or artificial (reservoir, shown by a straight dam edge, a dam symbol or a 'Reservoir' label).
+[geo-mapwork-s1.23.b] Some Higher questions link the map to mass movement (the downhill movement of rock and soil), and ask you to find extremes of slope. Steepness comes from contour spacing.
+[geo-mapwork-s1.23.0] A very steep area is shown by crowded contours or cliffs; locate it with a six-figure grid reference.
+[geo-mapwork-s1.23.1] A very gentle area is shown by widely spaced contours; locate it with a six-figure grid reference.
+[geo-mapwork-s1.23.2] There is more on mass movement on steep ground in the rocks and weathering chapter.
+[geo-mapwork-s1.24.b] Settlement pattern means how buildings are arranged on the land. Three patterns appear on OS maps, and each has a look and a reason.
+[geo-mapwork-s1.24.0] Nucleated: buildings clustered at a crossroads, bridge, church or village, such as the crossroads village on the invented Rivertown map.
+[geo-mapwork-s1.24.1] Linear (ribbon): buildings strung along a road, sometimes a coast road or a valley floor, such as the houses along the R990 north of Rivertown.
+[geo-mapwork-s1.24.2] Dispersed: individual farmhouses scattered across farmland, each on its own land, so there is no cluster.
+[geo-mapwork-s1.24.3] Nucleated settlement forms around a route focus (where routes meet) or a service; linear settlement forms where a road gives access to services; dispersed settlement reflects farming and land consolidation (joining small plots into larger farms).
+[geo-mapwork-s1.24.4] Ribbon development on the approach roads to a town: linear housing spreads out along the main roads, because of cheaper rural sites, road access and services along the road.
+[geo-mapwork-s1.25.b] Houses are not spread evenly. Map evidence shows where people avoided building and where they chose to cluster, and each reason must be backed by that evidence.
+[geo-mapwork-s1.25.0] Absence from high land above about 200–300 m, which is cold, wet, exposed and has thin soils; give a four-figure grid reference and the map evidence.
+[geo-mapwork-s1.25.1] Absence on steep slopes, shown by crowded contours, because building and farming are difficult there.
+[geo-mapwork-s1.25.2] Absence on poorly drained land, shown by a marsh or bog symbol, and on floodplains liable to flooding, because houses there would be damp or flooded.
+[geo-mapwork-s1.25.3] Absence where forestry plantations cover the land, since the land is used for trees, and on lakes, because they cannot be built on.
+[geo-mapwork-s1.25.4] High density of settlement: give a four-figure grid reference for lowland, gently sloping, well-drained land near roads, a town or the coast.
+[geo-mapwork-s1.25.5] Explain each factor that favours high density: flat or gently sloping land, good drainage, road access, and nearness to a town or the coast.
+[geo-mapwork-s1.26.b] A variations question asks you to compare how settlement is spread in two parts of the map. Use the same set of factors for both parts so that the comparison is fair.
+[geo-mapwork-s1.26.0] A variations question (Higher, 30 marks) usually compares two contrasting parts of the map, e.g. north and south of a named northing.
+[geo-mapwork-s1.26.1] For each part, compare relief and height, drainage, the soils implied by the land use, communications (roads and rail), and the pull of a town or the coast.
+[geo-mapwork-s1.26.2] State each factor with a grid reference and explain it for both areas.
+[geo-mapwork-s1.26.3] Illustrative: settlement is nucleated at the crossroads village, linear along the R990 north of the town and dispersed in the north-west of the lowland; there is no settlement on Slievenagh above 300 m (R 23 40: high, steep, exposed, forestry) or on the floodplain east of the town (flood risk).
+[geo-mapwork-s1.27.b] Historic settlement questions ask you to name monuments on the map and say what period they belong to. The prehistoric period runs from the Stone Age to the Iron Age.
+[geo-mapwork-s1.27.0] Stone Age to Iron Age sites, such as megalithic tombs (stone-built burial monuments: court, portal or dolmen, passage and wedge tombs), standing stones, stone circles and cists (stone-lined graves).
+[geo-mapwork-s1.27.1] Also prehistoric: fulachta fia (Bronze Age cooking sites), promontory forts (forts on land jutting out into water) and crannógs (lake dwellings).
+[geo-mapwork-s1.27.2] Who lived there: early farming communities. Why the site was chosen: defence (promontory forts) and a lake (crannógs). What it shows: farming economy, and burial and ritual sites for religion.
+[geo-mapwork-s1.27.3] Illustrative: a megalithic tomb at R 225 412 and a standing stone at R 231 418.
+[geo-mapwork-s1.28.b] The early Christian (early medieval) period left many farmsteads and church sites. Several different map names point to the same kind of site.
+[geo-mapwork-s1.28.0] Early Christian (early medieval) sites include ringforts, also named rath, lios, dún, caher or cashel on the map; souterrains (underground passages); ecclesiastical (church-related) sites with churches and graveyards; holy wells; round towers; and high crosses.
+[geo-mapwork-s1.28.1] Ringforts were the farmsteads of the period, enclosed by an earth bank (stone in a cashel or caher).
+[geo-mapwork-s1.28.2] Ringforts belong to the early Christian period, not to the prehistoric or Norman periods.
+[geo-mapwork-s1.28.3] What it shows: a farming society, and the spread of Christianity, seen in churches, round towers and high crosses.
+[geo-mapwork-s1.28.4] Illustrative: a ringfort at R 255 430 and a church in ruins with its graveyard at R 262 446.
+[geo-mapwork-s1.29.b] The Normans were medieval invaders who built castles to hold land. Their sites are usually placed to guard something, such as a river crossing.
+[geo-mapwork-s1.29.0] Norman (medieval) sites include mottes and motte-and-bailey sites (earth mounds, with a walled yard in the second type), castles, town walls, abbeys and friaries, and towns at bridging points.
+[geo-mapwork-s1.29.1] Mottes are Norman sites; fulachta fia are Bronze Age, and ringforts are early Christian, so check the label before dating a site.
+[geo-mapwork-s1.29.2] Why the site was chosen: defence, and control of a river crossing, so that the Normans could hold the land around it.
+[geo-mapwork-s1.29.3] What it shows: Norman military control, and the religious life of the abbeys and friaries.
+[geo-mapwork-s1.29.4] Illustrative: a motte at R 280 436 and a castle in ruins at R 269 439, beside the bridge.
+[geo-mapwork-s1.30.b] The later periods leave planned towns, large estates and industrial and transport remains. Each tells you about how the country was organised and how it developed.
+[geo-mapwork-s1.30.0] Tower houses are fortified stone houses, built for protection; planned towns have a regular layout with a square or wide main street; demesnes are large houses with estate woodland.
 [geo-mapwork-s1.30.1] 19th and 20th century sites include canals, railways and stations, mills, coastguard stations, later housing and industrial estates.
 [geo-mapwork-s1.30.2] What it shows: the growth of planned towns and estates, and of transport and industry.
 [geo-mapwork-s1.31.b] Many Irish place names are built from Irish words that describe the land or what stood there. Knowing the elements helps you read the history and site of a place from its name.
@@ -379,99 +451,3 @@ CANDIDATES geo-rocks-weathering-s4: 4. Landforms associated with particular rock
 [geo-rocks-weathering-s4.12.2] Quartzite peaks stand above the surrounding rock: Errigal, Co. Donegal; Croagh Patrick, Co. Mayo; the Great Sugar Loaf, Co. Wicklow.
 [geo-rocks-weathering-s4.12.3] Rock type and drainage: impermeable granite and shale give many surface streams and bog. Permeable limestone takes drainage underground, leaving few rivers and dry surfaces.
 [geo-rocks-weathering-s4.12.4] Lough Corrib roughly divides the limestone lowland of east Co. Galway from the granite and metamorphic uplands of Connemara to the west.
-
-CANDIDATES geo-urban-s2: 2. Rural settlement
-[geo-urban-s2.0.b] Rural settlement is the farmhouses, hamlets (very small groups of houses) and villages in the countryside. Its pattern is the way the buildings are spread over the land, and geographers sort patterns into three types.
-[geo-urban-s2.0.0] Dispersed: individual farmhouses scattered across the land, each on its own farm.
-[geo-urban-s2.0.1] Clustered (also called nucleated): buildings grouped together in one place, usually for a shared reason such as a crossroads or a water supply.
-[geo-urban-s2.0.2] Linear (also called ribbon): houses strung along a line such as a road, a coast road, a valley or a ridge.
-[geo-urban-s2.0.3] Clustered and nucleated mean the same pattern, and linear is the same as ribbon when it extends out of a town along approach roads, so there are three patterns, not four.
-[geo-urban-s2.0.4] In Census 2016 (the national count of the population), about 63% of Ireland's population lived in urban areas and about 37% in rural areas.
-[geo-urban-s2.1.b] Dispersed settlement is the dominant rural pattern in Ireland. It exists for farming, historical and physical reasons.
-[geo-urban-s2.1.0] Irish farms are family-owned, and each family lives on its own holding (its own farm), so the houses end up spread out across the countryside.
-[geo-urban-s2.1.1] The Land Commission was set up in 1881 under the Land Law (Ireland) Act 1881. After the Land Acts, consolidation of holdings (joining scattered plots into one compact farm) moved houses out of clusters onto individual farms.
-[geo-urban-s2.1.2] The Wyndham Land Act of 1903 helped tenants to buy their holdings, which strengthened the pattern of families owning and living on their own land.
-[geo-urban-s2.1.3] Fertile, well-drained lowland with plentiful water lets houses be built almost anywhere, because no site is much better than another.
-[geo-urban-s2.1.4] Pastoral farming (rearing animals, especially cattle and sheep) keeps the farmer close to the animals, so the house sits on the farm.
-[geo-urban-s2.2.b] Buildings are grouped together where a shared reason made the site worth using. Each reason below explains why people chose to build close together instead of apart.
-[geo-urban-s2.2.0] Route focus: a crossroads where roads meet brings travellers and trade, so buildings gather there.
-[geo-urban-s2.2.1] A bridging point or ford (a shallow place where a river can be crossed) draws settlement because routes must pass through it.
-[geo-urban-s2.2.2] A church, a castle or estate gates act as a focus, and people settle beside them for work, worship or protection.
-[geo-urban-s2.2.3] Defence: a hill or other defensible site was chosen so the settlement could be defended.
-[geo-urban-s2.2.4] Water supply at a spring or well gives a wet-point site, where people settle because they need water.
-[geo-urban-s2.2.5] A dry-point site is a patch of dry ground above flood land, chosen so houses stay dry.
-[geo-urban-s2.2.6] A harbour is the reason for a fishing village, because the boats and the catch are landed there.
-[geo-urban-s2.2.7] Services such as a shop, pub, school and Garda station (police station) gather in the cluster, which then attracts further settlement.
-[geo-urban-s2.2.8] Estate village: Enniskerry, Co. Wicklow, lies at the gates of the Powerscourt estate (a large landowner's property), and Adare, Co. Limerick, grew by the Dunraven estate, with thatched cottages.
-[geo-urban-s2.3.b] Before the Famine many farmers in the west lived in clachans instead of on separate farms. The way land was held in common explains why.
-[geo-urban-s2.3.0] A clachan is a cluster of farmhouses of related families, with no church, shop or other services. It is not a village, because a village has services.
-[geo-urban-s2.3.1] Rundale was a landholding system in which families worked land in common, in scattered strips of infield (the better land near the houses) and outfield (poorer land further out). It explains the clachan; it is not a settlement pattern.
-[geo-urban-s2.3.2] Clachans and rundale were common in the west before the Famine.
-[geo-urban-s2.3.3] The Great Famine (1845-49), when the potato crop failed and many people died or emigrated, hit the clachan districts of the west hardest.
-[geo-urban-s2.3.4] Clachans broke up as the population fell and holdings were consolidated. The Congested Districts Board, set up in 1891 for the poor western districts, consolidated holdings, built roads and piers, and rehoused families on separate farms.
-[geo-urban-s2.3.5] The Land Commission also moved houses onto individual farms, which is how dispersed settlement replaced the clachans.
-[geo-urban-s2.3.6] A few clachans survive in the west.
-[geo-urban-s2.4.b] Linear settlement is the third pattern. Houses line up along a feature that offers a route or dry, firm ground.
-[geo-urban-s2.4.0] Houses are strung along a line: a road, a coast road, a valley floor, a river or a raised ridge such as an esker (a long ridge of gravel left by a glacier) or the edge of a drumlin (an oval hill of glacial deposit).
-[geo-urban-s2.4.1] Linear settlement avoids marshy or steep land, because it is hard and costly to build on.
-[geo-urban-s2.5.b] Some land on a map has no settlement at all, and exams ask you to explain why. There is more on reading this from OS maps in Map interpretation.
-[geo-urban-s2.5.0] Uplands are steep, exposed and have poor soils, so they are hard to build on and farm.
-[geo-urban-s2.5.1] Bogs are wet, poorly drained land, so houses cannot be built safely on them.
-[geo-urban-s2.5.2] Flood plains (flat land beside a river that floods) are unsuitable for houses because of the risk of flooding.
-[geo-urban-s2.5.3] Lakes take up land that could hold houses.
-[geo-urban-s2.5.4] Forestry plantations are large areas of planted trees with no houses.
-[geo-urban-s2.6.b] Two European examples show how planning and history shape rural settlement very differently from the Irish pattern.
-[geo-urban-s2.6.0] Noordoostpolder, Netherlands, a polder (land drained from water) drained in 1942, is a planned rural landscape with a central town, Emmeloord, ringed by ten planned villages. There is more on this in Urban settlement: site, hierarchy, hinterland and central place theory.
-[geo-urban-s2.6.1] In southern Italy, the Mezzogiorno's rural population lived in hilltop villages. The 1950 land reform scattered new farmhouses on reclaimed lowlands, so settlement moved from clustered to dispersed. There is more on this in A Peripheral European Region: the Mezzogiorno.
-[geo-urban-s2.7.b] Ribbon development is houses built one plot deep along the roads leading out of towns and villages, and along rural roads generally. Several pressures made roadsides the favoured building sites.
-[geo-urban-s2.7.0] Sites are cheaper than in towns, so buyers get more for their money.
-[geo-urban-s2.7.1] Road frontage gives access to services such as electricity, water mains and phone or broadband lines, which already run along the road.
-[geo-urban-s2.7.2] Farmers sold roadside sites, because these were the easiest plots to sell.
-[geo-urban-s2.7.3] People wanted rural living near a town, with the countryside around them and work or schools close by.
-[geo-urban-s2.7.4] Car ownership made commuting (travelling daily to work) and rural living practical.
-[geo-urban-s2.7.5] Planning control was historically weak, so few limits stopped houses going up along roads.
-[geo-urban-s2.7.6] Tax incentives and the property boom of the Celtic Tiger (the period of rapid economic growth in Ireland) encouraged building.
-[geo-urban-s2.8.b] Ribbon housing suits the people who live in it, but it causes problems for roads, services, the environment and towns.
-[geo-urban-s2.8.0] Traffic hazards: many entrances onto fast roads, because every house needs its own access and drivers have to slow or turn.
-[geo-urban-s2.8.1] It is costly to service. School buses, post, waste collection, water and sewers must all reach scattered houses, which are far apart.
-[geo-urban-s2.8.2] Septic tanks (private tanks that treat a house's own sewage) can pollute groundwater and private wells.
-[geo-urban-s2.8.3] Loss of scenic landscape, because the roadsides fill with houses.
-[geo-urban-s2.8.4] Car dependence: residents need a car for almost every journey, as shops and services are far away.
-[geo-urban-s2.8.5] Town centres decline as people live outside them and spend less in them.
-[geo-urban-s2.8.6] The boundary between town and country becomes blurred, because houses line the roads where the town should end.
-[geo-urban-s2.9.b] Rural people often see ribbon housing differently, because it helps keep their communities going.
-[geo-urban-s2.9.0] Ribbon development keeps rural populations, schools, GAA clubs and shops alive, because they need people living nearby to survive.
-[geo-urban-s2.9.1] It lets families live near relatives and farms.
-[geo-urban-s2.9.2] Housing is cheaper than in towns.
-[geo-urban-s2.10.b] Planning is how the State controls where building takes place. It works through the local authority (the county or city council), with plans made at county and local level.
-[geo-urban-s2.10.0] Planning permission is granted by the local authority.
-[geo-urban-s2.10.1] Decisions can be appealed to An Bord Pleanála, the national planning appeals board, set up in 1977. It was renamed An Coimisiún Pleanála in 2025.
-[geo-urban-s2.10.2] The Planning and Development Act 2000 requires each planning authority to make a County Development Plan every six years.
-[geo-urban-s2.10.3] The County Development Plan sets zoning (deciding which land may be used for housing, industry or farming), rural housing policy, design rules and protected areas.
-[geo-urban-s2.10.4] Local Area Plans cover towns and villages.
-[geo-urban-s2.11.b] National policy sets the aims that county plans must follow. Rural housing is treated differently depending on how much pressure an area is under.
-[geo-urban-s2.11.0] The National Spatial Strategy (2002) and the National Planning Framework (2018, also called Project Ireland 2040) set rural housing aims. There is more on both in Urban planning and renewal.
-[geo-urban-s2.11.1] Sustainable Rural Housing Guidelines for Planning Authorities, 2005, tell councils how to treat different types of rural area.
-[geo-urban-s2.11.2] In areas under strong urban influence (close to a city or large town), rural houses are limited to people with a local economic or social need, to prevent commuter housing spreading.
-[geo-urban-s2.11.3] In structurally weak areas (areas losing people and jobs), rural housing is encouraged to keep the population.
-[geo-urban-s2.12.b] County Development Plans turn national aims into rules for each county. These are the typical rural policies.
-[geo-urban-s2.12.0] Local-needs criteria restrict who may build a house in some rural areas, for example to those with a local economic or social need.
-[geo-urban-s2.12.1] New entrances onto national and regional roads are restricted, because many entrances onto fast roads are a traffic hazard.
-[geo-urban-s2.12.2] New housing is directed into villages and serviced sites (sites with water and sewers), which avoids scattered one-off houses.
-[geo-urban-s2.12.3] Design guidelines cover siting, materials and hedgerows.
-[geo-urban-s2.12.4] Minimum site sizes apply to septic tanks, so that there is enough land to treat the waste safely.
-[geo-urban-s2.12.5] Scenic areas and views are protected from development.
-[geo-urban-s2.12.6] Land is zoned around towns, so that building is guided to where it is planned.
-[geo-urban-s2.13.b] Septic tanks serve houses with no connection to a public sewer, so poorly maintained ones can pollute the water that rural households drink.
-[geo-urban-s2.13.0] Water Services (Amendment) Act 2012: domestic septic tanks must be registered, and they are inspected under an EPA (Environmental Protection Agency) plan.
-[geo-urban-s2.13.1] Ireland has about half a million domestic wastewater treatment systems, mostly septic tanks (EPA estimate).
-[geo-urban-s2.14.b] These programmes respond to rural depopulation (people leaving rural areas) and the decline of services such as post offices, Garda stations and pubs. They aim to sustain rural communities.
-[geo-urban-s2.14.0] LEADER, an EU rural development programme, from 1991.
-[geo-urban-s2.14.1] CLÁR, a State programme for rural areas suffering depopulation, from 2001.
-[geo-urban-s2.14.2] The Town and Village Renewal Scheme, from 2016.
-[geo-urban-s2.14.3] Our Rural Future, the Government's rural development policy for 2021-2025, published in 2021, supports remote working hubs (shared workplaces where people can work remotely from home areas).
-[geo-urban-s2.15.b] To judge how well rural planning works, weigh the aims against each other and against what has happened.
-[geo-urban-s2.15.0] The central tension is keeping rural communities alive while preventing sprawl (unplanned spread of housing).
-[geo-urban-s2.15.1] Local-needs conditions have been criticised as unfair. In 2013 the EU Court of Justice ruled against a Flemish (Belgian) rule restricting who could buy land in some communes, which raised doubts about Irish local-needs conditions.
-[geo-urban-s2.15.2] Planning has reduced ribbon development but has not stopped it.
-[geo-urban-s2.15.3] Villages need sewage treatment before they can take more housing, which limits the policy of directing housing into villages.

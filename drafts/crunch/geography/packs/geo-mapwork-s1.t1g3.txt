@@ -128,157 +128,6 @@ TARGET geo-mapwork-s1 (part 1 of 2): Map interpretation
 [geo-mapwork-s1.18.b] A drainage pattern is the shape that a river and its tributaries (the smaller streams that join it) make on the map. Each pattern has a recognisable look, and the shape hints at the rock or land beneath.
 [geo-mapwork-s1.18.0] Dendritic: tree-like, with tributaries joining the main river at acute angles, on rock of uniform resistance (rock that wears away at the same rate everywhere).
 [geo-mapwork-s1.18.1] Trellised: tributaries join the main river at right angles, on alternating bands of hard and soft rock, so the streams follow the soft bands.
-[geo-mapwork-s1.18.2] Radial: streams flow outward in all directions from a central hill or mountain, because the water runs downhill every way, as the small streams do around the summit of Slievenagh.
-[geo-mapwork-s1.18.3] Centripetal: streams flow inward to a central lake or lowland, because that is the lowest ground.
-[geo-mapwork-s1.18.4] Deranged: no clear pattern, with many small lakes and marshes, on glacial deposits (material left by ice).
-[geo-mapwork-s1.18.5] Real examples, one clause each: trellised in the Munster ridge and valley; deranged in the Co. Cavan drumlin belt; centripetal at Lough Neagh.
-[geo-mapwork-s1.19.b] Fluvial landforms are those made by rivers. On the map each one has a clue, such as a loop, a flat area with no contours, or contours crowded across the river.
-[geo-mapwork-s1.19.0] V-shaped valley: the upland valley pattern given under landforms read from contours, with sharp contour Vs pointing upstream; the river runs along the floor.
-[geo-mapwork-s1.19.1] Meander: a river swinging in loops, such as those on a flat floodplain. Oxbow lake: a crescent-shaped lake beside a meandering river.
-[geo-mapwork-s1.19.2] Floodplain: wide and flat, with no contours, along a lowland river; often marshy.
-[geo-mapwork-s1.19.3] Levees: embankments (raised banks) along the channel, where the map shows them.
-[geo-mapwork-s1.19.4] Braiding: the river splits, so it looks like a plait, into several channels around islands.
-[geo-mapwork-s1.19.5] Confluence: the point where a tributary joins the main river, which you can see as a Y-shaped junction of blue lines.
-[geo-mapwork-s1.19.6] Delta: deposits where a river enters a lake or the sea.
-[geo-mapwork-s1.19.7] Waterfall: shown by a symbol or name, with contours crowded across the river.
-[geo-mapwork-s1.20.b] Glacial landforms were shaped by ice. They show up on the map as hollows, narrow ridges and groups of small hills, each with a distinctive contour shape.
-[geo-mapwork-s1.20.0] Corrie: an armchair-shaped hollow (the shape ice carves, with a steep back wall), with contours close on three sides and open downhill.
-[geo-mapwork-s1.20.1] Tarn: a small, round lake in a corrie, often high up.
-[geo-mapwork-s1.20.2] Arête: a narrow ridge with very close contours on both sides, because the ground falls steeply away either side.
-[geo-mapwork-s1.20.3] U-shaped valley: a broad, flat floor with steep sides, and contours close together on the valley sides.
-[geo-mapwork-s1.20.4] Ribbon lake: a long, narrow lake on the floor of a U-shaped valley.
-[geo-mapwork-s1.20.5] Drumlins: many small oval closed contour rings, often with small lakes between them.
-[geo-mapwork-s1.20.6] Esker: a long, narrow, winding ridge on lowland, so it stands out from the flat ground around it.
-[geo-mapwork-s1.21.b] Coastal landforms are found where land meets sea. Karst landforms belong to limestone country, where water drains underground. Both are recognised by their shapes, symbols and names.
-[geo-mapwork-s1.21.0] Beach: for example sand or shingle (small rounded stones) shading along the shore.
-[geo-mapwork-s1.21.1] Cliff: a cliff symbol, or contours crowded together at the coast, because the land drops steeply to the sea.
-[geo-mapwork-s1.21.2] Headland: land projecting into the sea, often high.
-[geo-mapwork-s1.21.3] Bay: a curved inlet of the sea, so the coastline bends inland.
-[geo-mapwork-s1.21.4] Sand spit (a narrow strip of sand built out from the coast), tombolo (a ridge joining an island to the mainland) and lagoon (a shallow pool cut off from the sea): identified by their shapes and names on the map.
-[geo-mapwork-s1.21.5] Sand dunes: shown by dune shading or a name.
-[geo-mapwork-s1.21.6] Swallow hole: a stream ends abruptly where it disappears underground; limestone areas have few surface streams.
-[geo-mapwork-s1.22.b] A lake's origin can usually be read from its shape and setting on the map, so questions ask you to give the type at a grid reference.
-[geo-mapwork-s1.22.0] Lake type at a grid reference: glacial (tarn or ribbon lake), fluvial (oxbow), coastal (lagoon) or artificial (reservoir, shown by a straight dam edge, a dam symbol or a 'Reservoir' label).
-[geo-mapwork-s1.23.b] Some Higher questions link the map to mass movement (the downhill movement of rock and soil), and ask you to find extremes of slope. Steepness comes from contour spacing.
-[geo-mapwork-s1.23.0] A very steep area is shown by crowded contours or cliffs; locate it with a six-figure grid reference.
-[geo-mapwork-s1.23.1] A very gentle area is shown by widely spaced contours; locate it with a six-figure grid reference.
-[geo-mapwork-s1.23.2] There is more on mass movement on steep ground in the rocks and weathering chapter.
-[geo-mapwork-s1.24.b] Settlement pattern means how buildings are arranged on the land. Three patterns appear on OS maps, and each has a look and a reason.
-[geo-mapwork-s1.24.0] Nucleated: buildings clustered at a crossroads, bridge, church or village, such as the crossroads village on the invented Rivertown map.
-[geo-mapwork-s1.24.1] Linear (ribbon): buildings strung along a road, sometimes a coast road or a valley floor, such as the houses along the R990 north of Rivertown.
-[geo-mapwork-s1.24.2] Dispersed: individual farmhouses scattered across farmland, each on its own land, so there is no cluster.
-[geo-mapwork-s1.24.3] Nucleated settlement forms around a route focus (where routes meet) or a service; linear settlement forms where a road gives access to services; dispersed settlement reflects farming and land consolidation (joining small plots into larger farms).
-[geo-mapwork-s1.24.4] Ribbon development on the approach roads to a town: linear housing spreads out along the main roads, because of cheaper rural sites, road access and services along the road.
-[geo-mapwork-s1.25.b] Houses are not spread evenly. Map evidence shows where people avoided building and where they chose to cluster, and each reason must be backed by that evidence.
-[geo-mapwork-s1.25.0] Absence from high land above about 200–300 m, which is cold, wet, exposed and has thin soils; give a four-figure grid reference and the map evidence.
-[geo-mapwork-s1.25.1] Absence on steep slopes, shown by crowded contours, because building and farming are difficult there.
-[geo-mapwork-s1.25.2] Absence on poorly drained land, shown by a marsh or bog symbol, and on floodplains liable to flooding, because houses there would be damp or flooded.
-[geo-mapwork-s1.25.3] Absence where forestry plantations cover the land, since the land is used for trees, and on lakes, because they cannot be built on.
-[geo-mapwork-s1.25.4] High density of settlement: give a four-figure grid reference for lowland, gently sloping, well-drained land near roads, a town or the coast.
-[geo-mapwork-s1.25.5] Explain each factor that favours high density: flat or gently sloping land, good drainage, road access, and nearness to a town or the coast.
-[geo-mapwork-s1.26.b] A variations question asks you to compare how settlement is spread in two parts of the map. Use the same set of factors for both parts so that the comparison is fair.
-[geo-mapwork-s1.26.0] A variations question (Higher, 30 marks) usually compares two contrasting parts of the map, e.g. north and south of a named northing.
-[geo-mapwork-s1.26.1] For each part, compare relief and height, drainage, the soils implied by the land use, communications (roads and rail), and the pull of a town or the coast.
-[geo-mapwork-s1.26.2] State each factor with a grid reference and explain it for both areas.
-[geo-mapwork-s1.26.3] Illustrative: settlement is nucleated at the crossroads village, linear along the R990 north of the town and dispersed in the north-west of the lowland; there is no settlement on Slievenagh above 300 m (R 23 40: high, steep, exposed, forestry) or on the floodplain east of the town (flood risk).
-[geo-mapwork-s1.27.b] Historic settlement questions ask you to name monuments on the map and say what period they belong to. The prehistoric period runs from the Stone Age to the Iron Age.
-[geo-mapwork-s1.27.0] Stone Age to Iron Age sites, such as megalithic tombs (stone-built burial monuments: court, portal or dolmen, passage and wedge tombs), standing stones, stone circles and cists (stone-lined graves).
-[geo-mapwork-s1.27.1] Also prehistoric: fulachta fia (Bronze Age cooking sites), promontory forts (forts on land jutting out into water) and crannógs (lake dwellings).
-[geo-mapwork-s1.27.2] Who lived there: early farming communities. Why the site was chosen: defence (promontory forts) and a lake (crannógs). What it shows: farming economy, and burial and ritual sites for religion.
-[geo-mapwork-s1.27.3] Illustrative: a megalithic tomb at R 225 412 and a standing stone at R 231 418.
-[geo-mapwork-s1.28.b] The early Christian (early medieval) period left many farmsteads and church sites. Several different map names point to the same kind of site.
-[geo-mapwork-s1.28.0] Early Christian (early medieval) sites include ringforts, also named rath, lios, dún, caher or cashel on the map; souterrains (underground passages); ecclesiastical (church-related) sites with churches and graveyards; holy wells; round towers; and high crosses.
-[geo-mapwork-s1.28.1] Ringforts were the farmsteads of the period, enclosed by an earth bank (stone in a cashel or caher).
-[geo-mapwork-s1.28.2] Ringforts belong to the early Christian period, not to the prehistoric or Norman periods.
-[geo-mapwork-s1.28.3] What it shows: a farming society, and the spread of Christianity, seen in churches, round towers and high crosses.
-[geo-mapwork-s1.28.4] Illustrative: a ringfort at R 255 430 and a church in ruins with its graveyard at R 262 446.
-[geo-mapwork-s1.29.b] The Normans were medieval invaders who built castles to hold land. Their sites are usually placed to guard something, such as a river crossing.
-[geo-mapwork-s1.29.0] Norman (medieval) sites include mottes and motte-and-bailey sites (earth mounds, with a walled yard in the second type), castles, town walls, abbeys and friaries, and towns at bridging points.
-[geo-mapwork-s1.29.1] Mottes are Norman sites; fulachta fia are Bronze Age, and ringforts are early Christian, so check the label before dating a site.
-[geo-mapwork-s1.29.2] Why the site was chosen: defence, and control of a river crossing, so that the Normans could hold the land around it.
-[geo-mapwork-s1.29.3] What it shows: Norman military control, and the religious life of the abbeys and friaries.
-[geo-mapwork-s1.29.4] Illustrative: a motte at R 280 436 and a castle in ruins at R 269 439, beside the bridge.
-[geo-mapwork-s1.30.b] The later periods leave planned towns, large estates and industrial and transport remains. Each tells you about how the country was organised and how it developed.
-[geo-mapwork-s1.30.0] Tower houses are fortified stone houses, built for protection; planned towns have a regular layout with a square or wide main street; demesnes are large houses with estate woodland.
-
-CANDIDATES geo-rocks-weathering-s4: 4. Landforms associated with particular rock types
-[geo-rocks-weathering-s4.0.b] Karst is a landscape on limestone shaped mainly by solution (rock dissolving in water), with few surface streams and many underground features. The name comes from the Kras plateau of Slovenia. Limestone suits this because of its chemistry and the way water moves through it.
-[geo-rocks-weathering-s4.0.0] Limestone is calcium carbonate, which dissolves in weak acid. Carbonation: rainwater containing carbon dioxide forms weak carbonic acid, which reacts with the rock to form soluble calcium bicarbonate: CaCO3 + H2O + CO2 gives Ca(HCO3)2.
-[geo-rocks-weathering-s4.0.1] Permeable rock lets water pass through it, mainly along cracks. Porous rock has tiny spaces between its grains that can hold water. Impermeable rock lets no water pass through.
-[geo-rocks-weathering-s4.0.2] Limestone is permeable because water moves along its bedding planes (horizontal layers) and joints (vertical cracks), not through the solid rock itself.
-[geo-rocks-weathering-s4.0.3] The ground water table is the upper surface of the zone where all cracks in the rock are saturated (completely full of water). Above it lies the zone of aeration (where cracks hold air). The table rises in wet weather and falls in dry weather.
-[geo-rocks-weathering-s4.0.4] Percolation is the downward movement of water through soil and rock, which is how rainwater reaches the limestone's cracks.
-[geo-rocks-weathering-s4.1.b] Limestone pavement is a bare, flat limestone surface. It exists because glacial ice scraped away the soil, leaving jointed rock open to the rain.
-[geo-rocks-weathering-s4.1.0] Stage 1: ice removes the soil cover, exposing the jointed and bedded rock (rock with horizontal layers and vertical cracks) to rain.
-[geo-rocks-weathering-s4.1.1] Stage 2: carbonation, the reaction of the rock with carbonic acid in rainwater, widens the joints into grikes.
-[geo-rocks-weathering-s4.1.2] Stage 3: the blocks left standing between the grikes are clints, because the rock there was not dissolved away.
-[geo-rocks-weathering-s4.1.3] Burren, Co. Clare: Ireland's best-known karst landscape, of Carboniferous limestone with extensive pavement of clints and grikes. Its name comes from the Irish 'Boireann', meaning rocky place.
-[geo-rocks-weathering-s4.1.4] Mullaghmore is a Burren hill with folded, terraced limestone.
-[geo-rocks-weathering-s4.2.b] A pavement is made of a few small features, and exam photographs ask you to name each one.
-[geo-rocks-weathering-s4.2.0] Grikes: deep, narrow vertical cracks, because carbonation widens the rock along joints, where water collects.
-[geo-rocks-weathering-s4.2.1] Clints: flat-topped blocks of limestone between grikes, so together they look like paving.
-[geo-rocks-weathering-s4.2.2] Karren (runnels): small grooves cut into clint surfaces because rainwater running across them slowly dissolves the rock.
-[geo-rocks-weathering-s4.2.3] Solution hollows (kamenitza or solution pans): small enclosed hollows on clint surfaces where rainwater collects and dissolves the rock.
-[geo-rocks-weathering-s4.2.4] Diagram: plan of clints and grikes; cross-section showing bedding planes and joints in the rock.
-[geo-rocks-weathering-s4.3.b] Once water can sink into limestone, the surface develops holes and hollows where streams vanish or the ground dissolves or collapses.
-[geo-rocks-weathering-s4.3.0] Swallow hole (slugga): a surface stream flowing off impermeable rock reaches limestone and disappears underground down a hole widened by carbonation along a joint.
-[geo-rocks-weathering-s4.3.1] Doline (sinkhole): a hollow formed by solution of the surface, or by collapse of a cave roof. A doline formed by cave collapse is still a doline.
-[geo-rocks-weathering-s4.3.2] Uvala: several dolines merged into one larger hollow, as their edges dissolve or collapse into each other.
-[geo-rocks-weathering-s4.3.3] Polje: a large, flat-floored depression that floods seasonally, for example when water cannot drain away fast enough. Poljes occur in Slovenia.
-[geo-rocks-weathering-s4.3.4] Dry valley: a valley cut by a surface river when the ground was frozen (and so impermeable, letting water run over it) or the water table was higher. It now carries no stream.
-[geo-rocks-weathering-s4.4.b] Water that sinks underground can also come back, and in Irish limestone the water table rising and falling makes lakes appear and vanish.
-[geo-rocks-weathering-s4.4.0] Turlough: a seasonal lake in a hollow in limestone. It fills in winter when the water table rises and drains through the floor in summer.
-[geo-rocks-weathering-s4.4.1] Turloughs are common in the Burren and east Co. Galway. Rahasane turlough, near Craughwell, Co. Galway, is one of the largest.
-[geo-rocks-weathering-s4.4.2] River of resurgence: an underground river that re-emerges at the surface, usually where limestone meets impermeable rock below. It is the reverse of a swallow hole, which takes a surface stream underground.
-[geo-rocks-weathering-s4.4.3] Diagram: cross-section from impermeable rock, through a swallow hole, underground to the resurgence.
-[geo-rocks-weathering-s4.5.b] Below the surface, the same solution widens cracks in the limestone into hollow spaces that can be large enough to walk through.
-[geo-rocks-weathering-s4.5.0] Caves and caverns: water dissolves passages along bedding planes and joints, and underground rivers enlarge them by erosion (wearing away rock). A cavern is a very large cave.
-[geo-rocks-weathering-s4.5.1] Caves occur where limestone is dissolved, for example: Aillwee Cave, Co. Clare (Burren); Mitchelstown Cave, Co. Tipperary.
-[geo-rocks-weathering-s4.5.2] Doolin Cave, Co. Clare, holds the Great Stalactite, about 7.3 m long, one of the longest free-hanging stalactites in the world.
-[geo-rocks-weathering-s4.6.b] Cave water carries dissolved limestone, and when it drips it leaves some behind as solid calcite. Over time this builds the decorations seen in caves.
-[geo-rocks-weathering-s4.6.0] Dripstone formation: water dripping from the roof carries dissolved calcium bicarbonate. When it loses carbon dioxide and evaporates, it deposits calcite (calcium carbonate).
-[geo-rocks-weathering-s4.6.1] Stalactites hang from the roof and grow downward. Stalactite: C for ceiling.
-[geo-rocks-weathering-s4.6.2] Stalagmites grow upward from the floor beneath, where the drips land, and are usually thicker and blunter. Stalagmite: G for ground.
-[geo-rocks-weathering-s4.6.3] Pillars (columns) form where a stalactite and a stalagmite join, so the drip has built a solid link from roof to floor.
-[geo-rocks-weathering-s4.6.4] Curtains are sheets of calcite formed where water trickles along a crack in the roof.
-[geo-rocks-weathering-s4.6.5] Diagram: labelled cross-section of a cave showing stalactites, stalagmites, a pillar, a swallow hole and an underground river.
-[geo-rocks-weathering-s4.7.b] A karst landscape develops through three stages.
-[geo-rocks-weathering-s4.7.0] Youth: surface drainage begins to sink, so swallow holes form.
-[geo-rocks-weathering-s4.7.1] Maturity: most drainage goes underground because the swallow holes now take it, with caves, dolines and uvalas.
-[geo-rocks-weathering-s4.7.2] Old age: cave roofs collapse because so much rock below has dissolved, the limestone is mostly removed, and isolated residual hills (left standing as the rest wears away) remain.
-[geo-rocks-weathering-s4.8.b] Ireland has three named karst settings in the syllabus. Besides the Burren, they show streams sinking into limestone and water travelling through it unseen.
-[geo-rocks-weathering-s4.8.0] Marble Arch upland: the Marble Arch Caves lie on the slopes of Cuilcagh Mountain, Co. Fermanagh. They are part of the cross-border Marble Arch Caves Global Geopark with Co. Cavan.
-[geo-rocks-weathering-s4.8.1] Streams flowing off the impermeable shale and sandstone of Cuilcagh sink into swallow holes where they reach the limestone, flow through the caves and re-emerge as the Cladagh River.
-[geo-rocks-weathering-s4.8.2] The Marble Arch is a natural limestone arch over the Cladagh. The Shannon Pot, the source of the River Shannon, is on the slopes of Cuilcagh in Co. Cavan.
-[geo-rocks-weathering-s4.8.3] Mask-Corrib lowland: water from Lough Mask flows underground through the limestone to Lough Corrib near Cong, Co. Mayo.
-[geo-rocks-weathering-s4.8.4] The Cong Canal, built in the mid-1800s to link the two lakes, never held water because it leaked into the permeable limestone. It became known as the dry canal.
-[geo-rocks-weathering-s4.9.b] Karst occurs wherever limestone is dissolved, and each international setting is known for a different feature.
-[geo-rocks-weathering-s4.9.0] Slovenia: Postojna Cave and the Škocjan Caves, a UNESCO World Heritage Site. Poljes occur here.
-[geo-rocks-weathering-s4.9.1] South-west China: Guilin and the Li River have tower karst, steep-sided limestone hills. The South China Karst is a UNESCO World Heritage Site.
-[geo-rocks-weathering-s4.9.2] Kentucky, USA: Mammoth Cave is the longest known cave system in the world.
-[geo-rocks-weathering-s4.9.3] Jamaica: Cockpit Country has cockpit karst, steep conical hills separated by deep, star-shaped hollows.
-[geo-rocks-weathering-s4.10.b] Granite is hard, crystalline and resistant to erosion, and its landscapes reflect how it drains and weathers. Unlike limestone, it keeps water on the surface.
-[geo-rocks-weathering-s4.10.0] Granite is impermeable: water cannot enter it and runs off, so it has many surface streams and boggy ground.
-[geo-rocks-weathering-s4.10.1] Granite is jointed (cracked). It weathers mainly by hydrolysis (a chemical reaction with water) of its feldspar, a mineral in granite, which forms clay.
-[geo-rocks-weathering-s4.10.2] China clay (kaolin) is the clay that results. It is quarried at Lee Moor, on the south-west edge of Dartmoor.
-[geo-rocks-weathering-s4.10.3] The Leinster batholith, the largest granite mass in Ireland and Britain, forms the Wicklow Mountains.
-[geo-rocks-weathering-s4.10.4] Its rounded, dome-shaped uplands are worn down from rock that once covered the granite.
-[geo-rocks-weathering-s4.10.5] Impermeable granite with high rainfall gives thin, acidic soils and blanket bog (a deep cover of wet peat), e.g. on the Sally Gap area of Co. Wicklow.
-[geo-rocks-weathering-s4.10.6] Ice cut deep valleys into the granite. There is more on this in Glacial processes, patterns and associated landforms (Glaciation).
-[geo-rocks-weathering-s4.11.b] Tors are the best-known granite landform. The main explanation is that they formed in two stages, with weathering underground first and stripping of the loose material afterwards.
-[geo-rocks-weathering-s4.11.0] Tor: a block of granite standing on a hilltop.
-[geo-rocks-weathering-s4.11.1] Two-stage formation, put forward by D. L. Linton in 1955. Stage 1: under warm, wet conditions, deep chemical weathering (hydrolysis) attacked the granite along its joints, rotting it most where the joints were closest together.
-[geo-rocks-weathering-s4.11.2] Stage 2: the rotted material was later stripped away, e.g. by mass movement (downslope movement of material) under periglacial conditions (cold conditions beside ice), leaving solid, widely jointed blocks standing as tors.
-[geo-rocks-weathering-s4.11.3] An alternative theory explains tors by freeze-thaw and solifluction alone. Solifluction is the slow flow of waterlogged soil down a slope.
-[geo-rocks-weathering-s4.11.4] Clitter: blockfields of boulders on the slopes below tors, which is where the stripped blocks ended up.
-[geo-rocks-weathering-s4.11.5] Dartmoor, Devon, England: a granite upland with tors such as Haytor and Hound Tor, clitter on its slopes and blanket bog.
-[geo-rocks-weathering-s4.11.6] Diagram: cross-section showing the rotted zone along joints and the standing tor after stripping.
-[geo-rocks-weathering-s4.12.b] Rock type changes across Ireland, and the landscape changes with it. Resistant rock stands up, weaker rock is worn low, and permeability decides whether water flows on the surface or underground.
-[geo-rocks-weathering-s4.12.0] Ireland's saucer shape: a low central lowland of Carboniferous limestone is ringed by uplands of harder, more resistant rocks such as granite, quartzite and sandstone.
-[geo-rocks-weathering-s4.12.1] Differential erosion (different rocks wearing away at different rates): resistant rock forms uplands, headlands and peaks, while weaker rock forms lowlands, valleys and bays.
-[geo-rocks-weathering-s4.12.2] Quartzite peaks stand above the surrounding rock: Errigal, Co. Donegal; Croagh Patrick, Co. Mayo; the Great Sugar Loaf, Co. Wicklow.
-[geo-rocks-weathering-s4.12.3] Rock type and drainage: impermeable granite and shale give many surface streams and bog. Permeable limestone takes drainage underground, leaving few rivers and dry surfaces.
-[geo-rocks-weathering-s4.12.4] Lough Corrib roughly divides the limestone lowland of east Co. Galway from the granite and metamorphic uplands of Connemara to the west.
 
 CANDIDATES geo-urban-s2: 2. Rural settlement
 [geo-urban-s2.0.b] Rural settlement is the farmhouses, hamlets (very small groups of houses) and villages in the countryside. Its pattern is the way the buildings are spread over the land, and geographers sort patterns into three types.
@@ -375,3 +224,247 @@ CANDIDATES geo-urban-s2: 2. Rural settlement
 [geo-urban-s2.15.1] Local-needs conditions have been criticised as unfair. In 2013 the EU Court of Justice ruled against a Flemish (Belgian) rule restricting who could buy land in some communes, which raised doubts about Irish local-needs conditions.
 [geo-urban-s2.15.2] Planning has reduced ribbon development but has not stopped it.
 [geo-urban-s2.15.3] Villages need sewage treatment before they can take more housing, which limits the policy of directing housing into villages.
+
+CANDIDATES geo-urban-s1: 1. Pre-historic and historic settlement
+[geo-urban-s1.0.b] Geographers describe where and why a settlement exists with three terms: site, situation and function. Keeping them apart lets you explain a settlement's location precisely.
+[geo-urban-s1.0.0] Site is the exact ground a settlement is built on, such as a dry point (a patch of dry ground in wet land), a wet point (a water source), a defensive hill, a river loop, a bridging point (where a river can be crossed) or a sheltered harbour.
+[geo-urban-s1.0.1] Example of site: Mount Sandel, near Coleraine, Co. Derry, on a bluff (a steep bank) above the River Bann.
+[geo-urban-s1.0.2] Situation is where the settlement lies relative to the land around it, including its routes, resources and hinterland (the surrounding area it serves). Example: Clonmacnoise, Co. Offaly, beside the River Shannon where the Esker Riada routeway (a ridge of glacial gravel used as a road) crosses it.
+[geo-urban-s1.0.3] Function is the economic and social purpose of a settlement, what people there do. Example: Glendalough, Co. Wicklow, where a monastery (a community of monks) served a religious function.
+[geo-urban-s1.1.b] People in every period chose where to settle using the same practical factors. Later blocks apply these factors to each period in turn, and they are the reasons an exam answer on why a town developed at its location should give.
+[geo-urban-s1.1.0] Water supply: a river, lake or spring gave drinking water, fishing and a means of transport.
+[geo-urban-s1.1.1] Defence: high ground, cliffs, river loops, islands and marsh edges made a site harder to attack.
+[geo-urban-s1.1.2] Fertile, well-drained land: soil that supported crops and grazing without flooding.
+[geo-urban-s1.1.3] Shelter: sheltered valleys, bays and estuaries (wide river mouths where the river meets the sea) protected people and boats from the weather.
+[geo-urban-s1.1.4] Routeways and fords or bridging points: places where roads, valleys or rivers could be crossed easily, so people and trade passed through.
+[geo-urban-s1.1.5] Resources: fish, timber and stone, which were needed for food, fuel and building.
+[geo-urban-s1.1.6] Religious or political importance: a holy site or a seat of power attracted people and the services they needed.
+[geo-urban-s1.1.7] Finding and naming historic settlements on an OS map is a separate skill. There is more on this in Map interpretation.
+[geo-urban-s1.2.b] The Mesolithic (Middle Stone Age) people were the first to live in Ireland. They were hunter-gatherers, meaning they lived by hunting, fishing and collecting wild food rather than farming, so they had no reason to stay in one place.
+[geo-urban-s1.2.0] They made temporary camps on coasts, lakeshores and river banks, where they could fish and gather food. This is why their sites are camps, not farms.
+[geo-urban-s1.2.1] Mount Sandel, near Coleraine, Co. Derry, is the earliest known house site in Ireland. It is Mesolithic and over 9,000 years old, such as a camp beside a river.
+[geo-urban-s1.2.2] The people of Mount Sandel fished for salmon and eels and gathered hazelnuts, which shows how they lived off wild food.
+[geo-urban-s1.3.b] Neolithic (New Stone Age) farmers cleared forest for fields and lived in permanent farmsteads, so settlement became fixed in place. They left large stone tombs and field walls that still survive.
+[geo-urban-s1.3.0] Megalithic tombs (tombs built of huge stones) were built on high, visible ground, so they could be seen across the landscape. The main types are court, portal (dolmen), passage and wedge tombs.
+[geo-urban-s1.3.1] Poulnabrone, in the Burren, Co. Clare, is a portal tomb (dolmen), such as the Neolithic tombs built on high, visible ground.
+[geo-urban-s1.3.2] Brú na Bóinne, Co. Meath, lies in a bend of the River Boyne and holds the passage tombs of Newgrange, Knowth and Dowth.
+[geo-urban-s1.3.3] Newgrange is about 5,000 years old (about 3200 BC). Brú na Bóinne has been a UNESCO World Heritage Site (a place protected as important to all humanity) since 1993.
+[geo-urban-s1.3.4] Céide Fields, near Ballycastle, north Co. Mayo, is a Neolithic field system of stone walls preserved under blanket bog (a thick layer of peat that grew over the land). It is over 5,000 years old.
+[geo-urban-s1.3.5] The walls of the Céide Fields show organised farming in the Neolithic period, because the fields were planned and divided by walls.
+[geo-urban-s1.4.b] In the Bronze Age and Iron Age people learned to work metal, and defence and royal power began to shape where they settled. Some sites were for ceremony or kingship rather than everyday living.
+[geo-urban-s1.4.0] Metalworking developed in the Bronze Age and Iron Age, so tools and weapons improved. Standing stones and stone circles survive from this period.
+[geo-urban-s1.4.1] Fulachta fia were Bronze Age cooking sites beside streams, so water was close at hand.
+[geo-urban-s1.4.2] Hillforts and promontory forts (forts on headlands jutting into the sea) gave defence on high ground and headlands.
+[geo-urban-s1.4.3] Dún Aonghasa, on Inis Mór in the Aran Islands, Co. Galway, is a stone fort on the edge of a sheer sea cliff, so the cliff itself defends one side.
+[geo-urban-s1.4.4] Crannógs were artificial islands in lakes, used over a long period. The water around them made them hard to attack.
+[geo-urban-s1.4.5] The Hill of Tara, Co. Meath, was the traditional seat of the High Kings of Ireland. This is why it was a ceremonial site, not a town.
+[geo-urban-s1.4.6] Navan Fort (Emain Macha), Co. Armagh, was the royal site of Ulster.
+[geo-urban-s1.4.7] The Hill of Tara and Navan Fort were royal and ceremonial sites, not towns.
+[geo-urban-s1.5.b] From the 5th century, in the early Christian (early medieval) period, many farmers lived in defended farmsteads called ringforts. Unlike the later towns, these were spread across the countryside.
+[geo-urban-s1.5.0] Ringforts (raths and lios; stone versions are cashels, cahers and dúns) were dispersed (spread out, not clustered), defended farmsteads, enclosed by a bank and ditch or a stone wall.
+[geo-urban-s1.5.1] Ringforts were built on well-drained hillsides, which kept the farmstead dry and gave a view of approaching danger.
+[geo-urban-s1.5.2] Souterrains were underground stone passages built alongside ringforts, so they are found at ringfort sites.
+[geo-urban-s1.5.3] Over 40,000 ringforts survive in Ireland.
+[geo-urban-s1.5.4] Place-name evidence: kil or cill (church), rath or lios (ringfort) and dun (fort) mark early Christian sites, so a townland name can show an old settlement.
+[geo-urban-s1.5.5] Ringforts are early medieval. They are not prehistoric, Viking or Norman.
+[geo-urban-s1.6.b] Monasteries were the first centres of people and trade in the early Christian period. They were proto-towns (early forms of town), not true towns, because they lacked the full range of town functions.
+[geo-urban-s1.6.0] Monasteries were sited on routeways, rivers, eskers (long ridges of glacial gravel that made dry routes) or remote islands, so they were either easy to reach or secluded.
+[geo-urban-s1.6.1] Glendalough, Co. Wicklow, was founded by St Kevin in the 6th century in a glaciated valley (a valley shaped by ice).
+[geo-urban-s1.6.2] Clonmacnoise, Co. Offaly, was founded by St Ciarán in the mid-6th century beside the River Shannon.
+[geo-urban-s1.6.3] Skellig Michael, Co. Kerry, is an island monastery and a UNESCO World Heritage Site since 1996.
+[geo-urban-s1.6.4] Kells, Co. Meath, and Armagh are towns that grew from early monasteries.
+[geo-urban-s1.6.5] Round towers served as bell towers and refuges, places to shelter from attack.
+[geo-urban-s1.6.6] High crosses (tall carved stone crosses) and holy wells also mark early Christian sites.
+[geo-urban-s1.7.b] The Vikings founded Ireland's first true towns, which began as fortified bases for their ships. They chose sites for trade and access by sea.
+[geo-urban-s1.7.0] From the 9th century, Viking raids were followed by longphorts, fortified ship bases.
+[geo-urban-s1.7.1] The Vikings sited their settlements on sheltered estuaries and harbours at river mouths, for trade and access by sea.
+[geo-urban-s1.7.2] Dublin was founded as a longphort in 841, on the Liffey near its mouth, so ships could come and go by sea.
+[geo-urban-s1.7.3] Waterford was founded by Vikings in 914, on the Suir estuary, so ships could reach the sea.
+[geo-urban-s1.7.4] Limerick was a Viking settlement from about 922, on an island in the Shannon, which made it easy to defend.
+[geo-urban-s1.7.5] Wexford and Cork were also Viking towns. Like Dublin, they were coastal or estuary sites suited to trade by sea.
+[geo-urban-s1.7.6] Norse (Viking) place names include Wexford, Waterford, Wicklow and Arklow. Leixlip, Co. Kildare, comes from Old Norse for salmon leap.
+[geo-urban-s1.7.7] Wood Quay, Dublin: excavations in the 1970s uncovered a large Viking town site. There is more on this in Urban problems in developed-world cities.
+[geo-urban-s1.8.b] The Normans (Anglo-Normans) took over and extended existing Viking towns rather than founding them. They also built castles to hold the land they conquered.
+[geo-urban-s1.8.0] The Normans landed at Bannow Bay, Co. Wexford, in 1169.
+[geo-urban-s1.8.1] Strongbow (Richard de Clare) took Waterford in 1170, a Viking town, which shows the Normans captured towns rather than founding them.
+[geo-urban-s1.8.2] Motte and bailey castles came first. A motte was an earth mound topped by a wooden tower, with a fortified enclosure (the bailey) beside it. Stone castles followed.
+[geo-urban-s1.8.3] Trim Castle, Co. Meath, on the River Boyne, is the largest Anglo-Norman castle in Ireland, a stone castle of the kind that followed the mottes. Hugh de Lacy began it in the 1170s.
+[geo-urban-s1.8.4] Carrickfergus Castle, Co. Antrim, was built by John de Courcy from 1177.
+[geo-urban-s1.9.b] Norman towns were sited at bridging points and on navigable rivers in fertile lowlands, for defence and control of land and trade. They were planned places with a set of recognisable features.
+[geo-urban-s1.9.0] Walled towns had gates, market squares, charters (documents granting the town rights), burgage plots (long narrow strips of land rented by townspeople), parish churches and abbeys. The walls gave defence and the market square supported trade.
+[geo-urban-s1.9.1] Manor villages grew up around a lord's manor (his estate and house), with tenants farming the surrounding land.
+[geo-urban-s1.9.2] Athenry, Co. Galway, and Fethard, Co. Tipperary, have among the most complete medieval town walls in Ireland, which survive as evidence of Norman defence.
+[geo-urban-s1.10.b] Kilkenny shows how a Norman town became a centre of power. Its castle, and later laws and assemblies, tie it to the history of Norman Ireland.
+[geo-urban-s1.10.0] Kilkenny is a Norman town on the River Nore. A stone castle was built there by William Marshal around 1200.
+[geo-urban-s1.10.1] The Statutes of Kilkenny, 1366, tried to stop the Normans adopting Irish language and customs.
+[geo-urban-s1.10.2] The Confederation of Kilkenny was formed in 1642.
+[geo-urban-s1.11.b] After the first Norman phase, lords built fortified homes of their own. Outside the Norman towns, much of the country was run on a different pattern.
+[geo-urban-s1.11.0] Tower houses were fortified homes of local lords, built in the 15th and 16th centuries, so lords could defend themselves.
+[geo-urban-s1.11.1] Gaelic Ireland (the parts ruled by Irish lords, not the Normans) was largely without towns.
+[geo-urban-s1.12.b] A plantation was the official settling of land with new settlers loyal to the Crown. The Laois and Offaly, Munster and Ulster plantations each produced planned towns.
+[geo-urban-s1.12.0] Plantation of Laois and Offaly, 1556: Maryborough (now Portlaoise) and Philipstown (now Daingean) were planned as plantation towns.
+[geo-urban-s1.12.1] Munster Plantation, from the 1580s: Bandon, Co. Cork, is a plantation town.
+[geo-urban-s1.12.2] Plantation towns had a central square or diamond, a wide main street, a market house and an Established (Protestant) church. Donegal town is an Ulster example.
+[geo-urban-s1.12.3] Ulster Plantation, from 1609: Derry was renamed Londonderry in 1613.
+[geo-urban-s1.12.4] Derry's city walls were built 1613–1618. They are the only complete city walls in Ireland.
+[geo-urban-s1.13.b] Improving landlords (estate owners who invested in their land) laid out planned towns beside their estates, with wide streets, squares, malls (tree-lined walks) and market houses. Georgian (18th-century) towns followed the same orderly pattern.
+[geo-urban-s1.13.0] Westport, Co. Mayo, was laid out in the 18th century by the Browne family of Westport House. It has the Octagon and a tree-lined Mall along the Carrowbeg River.
+[geo-urban-s1.13.1] Birr, Co. Offaly, is a Georgian planned town of the Parsons family (Earls of Rosse), built beside Birr Castle, so the landlord's home and his town sit together.
+[geo-urban-s1.13.2] The Leviathan telescope at Birr, built in 1845, was the largest telescope in the world for decades.
+[geo-urban-s1.13.3] Kenmare, Co. Kerry, was laid out in 1775 by the first Marquess of Lansdowne.
+[geo-urban-s1.13.4] Adare, Co. Limerick, is an estate village of the Dunraven estate, with thatched cottages.
+[geo-urban-s1.13.5] The Wide Streets Commissioners were set up in Dublin in 1757. Georgian Dublin has wide streets, squares such as Merrion Square and Fitzwilliam Square, and red-brick terraces (rows of joined houses).
+[geo-urban-s1.13.6] Limerick's Georgian Newtown Pery was laid out in the late 18th century on land of Edmund Sexton Pery.
+[geo-urban-s1.13.7] The full development of Georgian Dublin is a larger story. There is more on this in A Core Irish Region.
+[geo-urban-s1.14.b] In the 19th century transport and industry created new towns, while poverty and famine emptied parts of the countryside.
+[geo-urban-s1.14.0] Canals and railways created railway junction towns, where lines met and traffic changed, and seaside resorts, which people could now reach.
+[geo-urban-s1.14.1] Mills and industrial villages were a feature of the 19th century.
+[geo-urban-s1.14.2] The first railway in Ireland, Dublin–Kingstown (Dún Laoghaire), opened in 1834.
+[geo-urban-s1.14.3] The Irish Poor Law Act of 1838 built a workhouse (an institution housing the poor) in each Poor Law union (a district grouped for poor relief).
+[geo-urban-s1.14.4] The Great Famine (1845–49) and emigration emptied much of the rural west. This is why the west had fewer people afterwards.
+[geo-urban-s1.14.5] Clonmel, Co. Tipperary: Charles Bianconi began Ireland's first public horse-drawn passenger car service there in 1815, so people could travel between towns.
+[geo-urban-s1.14.6] Belfast grew on linen and shipbuilding, such as Harland and Wolff, who built the Titanic, launched in 1911.
+[geo-urban-s1.15.b] In the modern period the State began to plan new towns, and cities spread outward.
+[geo-urban-s1.15.0] Shannon, Co. Clare, was Ireland's first planned new town. It was built from the 1960s for workers at the Shannon Free Zone (an area set up in 1959 to attract industry) beside Shannon Airport.
+[geo-urban-s1.15.1] The Wright Report of 1967 set out new towns for Dublin at Tallaght, Clondalkin, Lucan and Blanchardstown.
+[geo-urban-s1.15.2] Suburban expansion and commuter towns (towns whose residents travel out to work) grew outward from cities.
+[geo-urban-s1.16.b] A modern Irish town keeps the features of each historic phase in its street pattern and buildings. Kilkenny is the worked example.
+[geo-urban-s1.16.0] The street plan links Kilkenny Castle and the cathedral. It is promoted as the Medieval Mile. This is why the old castle and church still shape the town.
+[geo-urban-s1.16.1] St Canice's Cathedral, with its round tower beside it, marks the early Christian monastery that gave the city its name, Cill Chainnigh, meaning church of Canice.
+[geo-urban-s1.16.2] Kilkenny has city status.
+[geo-urban-s1.16.3] In an Irish town, walls and gates date from the Norman period, the market square and market house from the plantation and landlord towns, Georgian terraces from the 18th century, and mills and the railway station from the 19th century.
+
+CANDIDATES geo-urban-s3: 3. Urban settlement: site, hierarchy, hinterland and central place theory
+[geo-urban-s3.0.b] A town's site is the exact ground it is built on. Towns grew where the land gave an advantage for crossing rivers, trading, defence or getting resources, and Irish towns show each type.
+[geo-urban-s3.0.0] Bridging point or ford (a shallow place where a river can be crossed): Dublin, on the Liffey, is the lowest bridging point on the river, so traffic had to cross there.
+[geo-urban-s3.0.1] Route focus, where several roads meet: Athlone, at a crossing of the River Shannon in the centre of Ireland, gathers traffic from many directions.
+[geo-urban-s3.0.2] Island site: Limerick, on King's Island in the Shannon, which gave natural protection from water on all sides.
+[geo-urban-s3.0.3] Sheltered harbour or estuary head (the inner end of a river mouth where it widens to the sea): Waterford, on the Suir estuary, and Galway, at the mouth of the River Corrib, both suit ships.
+[geo-urban-s3.0.4] Defensive sites on a hill, river loop or island, because attackers find them hard to approach, and dry points above wet ground, which are safe to build on.
+[geo-urban-s3.0.5] Resources close to the site, such as water, fish, timber and stone, which settlers need for living and building.
+[geo-urban-s3.0.6] A river confluence (where two rivers join) is another site characteristic.
+[geo-urban-s3.1.b] Site is the spot itself. Situation is the wider picture: where the town lies in relation to the land and trade around it.
+[geo-urban-s3.1.0] Centre of a fertile farming area, so the town can supply goods to farmers and take in their produce.
+[geo-urban-s3.1.1] On a coast facing trade partners, which gives access to sea routes.
+[geo-urban-s3.1.2] At a gap through the uplands (high ground), where routes crossing the high ground are forced to pass through the town.
+[geo-urban-s3.2.b] A function is the job a town does for its own people and for the area around it. Knowing the functions lets you describe what a town is for and, later, how that has changed.
+[geo-urban-s3.2.0] Residential (people live there), market and retail (buying and selling), and services such as health, education and administration.
+[geo-urban-s3.2.1] Industrial (making goods), port (handling ships and cargo) and transport (road and rail links).
+[geo-urban-s3.2.2] Tourism and recreation, ecclesiastical (to do with the Church) and defence or garrison (soldiers and fortifications).
+[geo-urban-s3.2.3] Commuter (dormitory) towns, where most residents work elsewhere and the town is mainly a place to sleep.
+[geo-urban-s3.2.4] Most towns are multi-functional, which means they carry out several of these functions at once.
+[geo-urban-s3.3.b] Settlements are not all alike. A hierarchy ranks them by size and by the number and range of their functions and services.
+[geo-urban-s3.3.0] The ranking runs from hamlet to village, small town, large town, city and capital (primate) city.
+[geo-urban-s3.3.1] There are few large centres and many small ones, so the hierarchy takes the shape of a pyramid.
+[geo-urban-s3.3.2] A place higher in the hierarchy has more functions and services, so it draws people from a wider area.
+[geo-urban-s3.4.b] Ireland's settlements fit this ranking from one very large capital down to many small villages. These are Census 2022 figures for cities and suburbs, and for towns.
+[geo-urban-s3.4.0] Dublin: about 1.26 million people, far above any other city, so it tops the hierarchy.
+[geo-urban-s3.4.1] Regional cities: Cork, about 222,000; Limerick, about 102,000; Galway, about 86,000; Waterford, about 60,000.
+[geo-urban-s3.4.2] Largest towns: Drogheda, about 44,000, which is Ireland's largest town; Dundalk, about 43,000; Swords, about 41,000. Swords is a town in Fingal, not a separate city.
+[geo-urban-s3.4.3] Many smaller county and market towns, and villages. The State's population is about 5.1 million.
+[geo-urban-s3.5.b] In some countries one city dwarfs all the others. A primate city is much larger than the second city in the country and dominates its functions.
+[geo-urban-s3.5.0] Dublin is a primate city: about six times the size of Cork, the second city.
+[geo-urban-s3.5.1] Causes of Dublin's primacy: its role as capital, its port, its routeway focus (where routes meet), colonial administration (rule by Britain), multinational firms and services.
+[geo-urban-s3.5.2] The rank-size rule, in which the nth city is one nth the size of the largest, does not fit Ireland, because Dublin is far bigger than that rule predicts.
+[geo-urban-s3.5.3] The National Spatial Strategy and the National Planning Framework (government plans) try to balance Dublin's growth with other centres. There is more on this in Urban planning and renewal.
+[geo-urban-s3.6.b] Goods and services differ in how often people buy them and how far they will travel for them. This explains why some are in every village and others only in cities.
+[geo-urban-s3.6.0] Low-order goods are for convenience, such as bread and newspapers. They are found in every village, are bought often and have a low threshold (few customers are needed to keep the shop open).
+[geo-urban-s3.6.1] High-order goods are comparison goods (shoppers compare before buying) and specialised services, such as jewellers, department stores, hospitals and universities. They have a high threshold, needing many customers, so they are found only in large centres.
+[geo-urban-s3.7.b] No town serves only its own residents. The hinterland, also called the sphere of influence, catchment area or umland, is the surrounding area a town serves and draws people from.
+[geo-urban-s3.7.0] The size of a hinterland depends on the town's size and functions, on transport, and on competition from nearby centres.
+[geo-urban-s3.8.b] A hinterland has no fixed edge, so geographers find it by collecting evidence of where people come from to use a town.
+[geo-urban-s3.8.0] Newspaper circulation areas (where the town's paper is sold).
+[geo-urban-s3.8.1] Bus routes and timetables, which show where services run to and from the town.
+[geo-urban-s3.8.2] Catchments of schools and hospitals, meaning the areas they draw pupils and patients from.
+[geo-urban-s3.8.3] Shop customer surveys and delivery areas.
+[geo-urban-s3.8.4] Commuter flows, the movements of people travelling to work in the town.
+[geo-urban-s3.8.5] Sports club catchments, such as the areas their members come from.
+[geo-urban-s3.9.b] Hinterlands are not fixed. They shift as travel and shopping habits change.
+[geo-urban-s3.9.0] Hinterlands overlap, because nearby towns compete for the same customers, and they change over time.
+[geo-urban-s3.9.1] Cars, motorways and online shopping widen hinterlands, because people can reach a town from further away.
+[geo-urban-s3.9.2] Bypasses (roads taking traffic around a town) and out-of-town centres change them.
+[geo-urban-s3.9.3] Example: the large hinterland of Galway city across the West.
+[geo-urban-s3.10.b] Central place theory tries to explain why settlements of different sizes are spaced the way they are. Walter Christaller, a German geographer, published it in 1933, based on a study of southern Germany.
+[geo-urban-s3.10.0] A central place is a settlement providing goods and services to people in its surrounding area.
+[geo-urban-s3.10.1] Threshold is the minimum number of customers needed to keep a service in business. It is a number of people.
+[geo-urban-s3.10.2] Range is the maximum distance people will travel to obtain a service. It is a distance.
+[geo-urban-s3.10.3] A service locates where its threshold falls within its range, so it has enough customers and they are prepared to travel to it.
+[geo-urban-s3.11.b] To make the theory work, Christaller imagined an ideal landscape with no differences between places.
+[geo-urban-s3.11.0] A flat, uniform (isotropic, the same in every direction) plain, so nothing blocks movement.
+[geo-urban-s3.11.1] An evenly spread population with equal purchasing power, so demand is the same everywhere.
+[geo-urban-s3.11.2] Equal ease of transport in all directions.
+[geo-urban-s3.11.3] Consumers buy at the nearest centre.
+[geo-urban-s3.11.4] No excess profits, so no centre earns more than the others.
+[geo-urban-s3.12.b] On such an ideal plain, the theory predicts a regular pattern of centres and market areas.
+[geo-urban-s3.12.0] Market areas are hexagonal, because circles overlap or leave gaps and hexagons fit together.
+[geo-urban-s3.12.1] A hierarchy of centres forms: many small, closely spaced low-order centres, and fewer, more widely spaced high-order centres.
+[geo-urban-s3.12.2] Each higher-order centre also supplies all the lower-order goods, so a city has everything a village has.
+[geo-urban-s3.12.3] Nesting (smaller areas fitting inside larger ones): k = 3 is the marketing principle, k = 4 the transport principle and k = 7 the administrative principle.
+[geo-urban-s3.13.b] Some real places roughly match the theory, especially where farming land is fairly even and settlements were planned.
+[geo-urban-s3.13.0] In parts of the Irish Midlands, market towns serving farming areas are regularly spaced.
+[geo-urban-s3.13.1] The Dutch polder (land reclaimed from water) Noordoostpolder, in the Netherlands, was drained in 1942. Emmeloord was planned as the central town, with ten villages around it, including Marknesse, Ens, Kraggenburg and Bant.
+[geo-urban-s3.13.2] The villages were spaced so that farmers could reach one by bicycle. This gives a planned two-level hierarchy, an almost perfect example of the theory.
+[geo-urban-s3.14.b] Real landscapes are not the ideal plain, so the theory has many weaknesses. Each criticism below breaks one of the assumptions or ignores something real.
+[geo-urban-s3.14.0] Relief (the shape of the land), rivers and coasts are not uniform, and population is unevenly spread.
+[geo-urban-s3.14.1] Transport routes are linear, not equal in all directions, so some places are easier to reach.
+[geo-urban-s3.14.2] People shop on the way to work or on multi-purpose trips, not always at the nearest centre.
+[geo-urban-s3.14.3] Car ownership, motorways, out-of-town shopping centres and online shopping change ranges and thresholds.
+[geo-urban-s3.14.4] Government decisions, such as county towns and new towns, and history, such as Viking and Norman towns, fix locations.
+[geo-urban-s3.14.5] Dublin's primacy breaks the regular hierarchy.
+[geo-urban-s3.14.6] The theory was designed for market (service) towns, not for industrial, port or tourist towns.
+[geo-urban-s3.15.b] Irish settlements can be set against the theory to see how well it fits.
+[geo-urban-s3.15.0] Dublin is at the top, the regional cities come next, then county and market towns, then villages.
+[geo-urban-s3.15.1] The Irish hierarchy is broadly hierarchical but distorted by Dublin's primacy and by the coastline.
+[geo-urban-s3.16.b] Towns do not keep the same jobs forever. Across Ireland, some functions have faded and others have grown.
+[geo-urban-s3.16.0] Defence functions were lost, so walls and garrisons no longer shape towns.
+[geo-urban-s3.16.1] Market and fair functions declined, as marts (livestock markets) and supermarkets took over.
+[geo-urban-s3.16.2] Industrial functions moved from the inner city to the suburbs or closed, so those areas lost jobs.
+[geo-urban-s3.16.3] Services grew, such as offices, tourism, education and health.
+[geo-urban-s3.16.4] Many towns near cities became commuter towns, for example Navan and Naas.
+[geo-urban-s3.16.5] Village services such as the post office, Garda station, pub, shop and school have closed.
+[geo-urban-s3.17.b] Galway is the main case study for changing functions. It began as a walled trading port and grew rich on merchant trade before decline set in.
+[geo-urban-s3.17.0] Galway was a Norman town founded by the de Burgo family in the 13th century.
+[geo-urban-s3.17.1] It was governed by 14 merchant families, the Tribes of Galway. A royal charter (a grant of rights from the Crown) of 1484 was granted.
+[geo-urban-s3.17.2] Galway traded wine with Spain and France, which made it a merchant town and port.
+[geo-urban-s3.17.3] The Spanish Arch, built in 1584, is a surviving part of the town walls.
+[geo-urban-s3.17.4] Galway surrendered to Cromwellian forces in 1652, and a long decline followed.
+[geo-urban-s3.18.b] After its decline, Galway gained new functions in education, high-tech industry, culture and tourism, and became the regional capital of the West.
+[geo-urban-s3.18.0] Queen's College Galway was founded in 1845. It is now the University of Galway, renamed in 2022.
+[geo-urban-s3.18.1] Digital Equipment Corporation opened a plant in Galway in 1971 and closed its manufacturing there in 1993.
+[geo-urban-s3.18.2] Galway is now a centre of the medical devices industry, with multinationals such as Medtronic and Boston Scientific.
+[geo-urban-s3.18.3] The National Spatial Strategy of 2002 named Galway a gateway (a centre chosen for growth). The National Planning Framework of 2018 aims for at least 50% growth in Galway by 2040.
+[geo-urban-s3.18.4] Galway was European Capital of Culture in 2020, jointly with Rijeka, Croatia.
+[geo-urban-s3.18.5] The Galway Arts Festival and the Galway Races at Ballybrit attract visitors, which supports its tourism function.
+[geo-urban-s3.18.6] Galway is the regional capital of the West.
+[geo-urban-s3.19.b] Limerick shows a different path: a river-island settlement that became a fortified city and then a trading port.
+[geo-urban-s3.19.0] Limerick began as a Viking settlement, from about 922.
+[geo-urban-s3.19.1] King John's Castle was built in the early 13th century on King's Island, the island site in the Shannon.
+[geo-urban-s3.19.2] The Treaty of Limerick was signed in 1691.
+[geo-urban-s3.19.3] Limerick developed as a Georgian commercial port (Georgian means the 18th-century style of planning and building). Its Georgian Newtown Pery dates from the late 18th century.
+[geo-urban-s3.20.b] Limerick moved from port and milling to multinational manufacturing, then lost some of that industry and has rebuilt through education, culture and new governance.
+[geo-urban-s3.20.0] Limerick became an industrial city based on its port and flour milling.
+[geo-urban-s3.20.1] Later industry linked to the Shannon area brought multinational investment, including the Shannon Free Zone of 1959 and Shannon Airport nearby.
+[geo-urban-s3.20.2] Dell opened in Limerick in 1990. In January 2009 it announced that it would move manufacturing to Łódź, Poland, with the loss of about 1,900 jobs.
+[geo-urban-s3.20.3] The University of Limerick was founded in 1972 as the National Institute for Higher Education and became a university in 1989.
+[geo-urban-s3.20.4] Limerick was Ireland's first National City of Culture, in 2014.
+[geo-urban-s3.20.5] Limerick City and County Councils merged in 2014.
+[geo-urban-s3.20.6] In 2024 Limerick elected Ireland's first directly elected mayor.
+[geo-urban-s3.21.b] Dublin's functions changed in stages as new roles were added to the old ones.
+[geo-urban-s3.21.0] Viking trading port, from 841.
+[geo-urban-s3.21.1] Administrative capital.
+[geo-urban-s3.21.2] Georgian city, with the Wide Streets Commissioners of 1757 (the body that planned wide new streets).
+[geo-urban-s3.21.3] Port and industry.
+[geo-urban-s3.21.4] Services and technology in the Docklands: the International Financial Services Centre (1987), and Google at Grand Canal Dock.
+[geo-urban-s3.22.b] Smaller towns change too. A market town near a big city can lose its old role and take on a new one as a home for people who work elsewhere.
+[geo-urban-s3.22.0] Market functions, such as the mart and shops serving farmers, decline as the town's population changes.
+[geo-urban-s3.22.1] Services, housing and shops shift to serve commuters who travel to work in a larger city.
+[geo-urban-s3.22.2] Commuter towns of the Greater Dublin Area include Navan, Ashbourne, Naas, Newbridge, Maynooth, Bray and Greystones.
+[geo-urban-s3.23.b] When asked why an urban area grew, use this checklist and back each reason with a case study such as Galway or Limerick.
+[geo-urban-s3.23.0] Site and situation: a bridging point, island, estuary or harbour.
+[geo-urban-s3.23.1] Route focus and port: the town gathers traffic from roads, rivers or the sea.
+[geo-urban-s3.23.2] Administrative role: a national capital, a regional capital or a merged council.
+[geo-urban-s3.23.3] Industry and multinationals: manufacturing and foreign investment.
+[geo-urban-s3.23.4] Services and education: universities and hospitals.
+[geo-urban-s3.23.5] Tourism and culture.
+[geo-urban-s3.23.6] Government policy: national gateways and growth targets, as in the National Spatial Strategy and National Planning Framework.
+[geo-urban-s3.23.7] In-migration: people moving in for work and study.

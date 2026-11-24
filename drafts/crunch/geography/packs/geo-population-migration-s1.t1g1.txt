@@ -119,6 +119,8 @@ TARGET geo-population-migration-s1 (part 1 of 2): 1. Changing population charact
 [geo-population-migration-s1.24.b] The DTM is a useful simplification, but it does not fit every country. Know why.
 [geo-population-migration-s1.24.0] The model is based on European experience, so it may not describe other regions.
 [geo-population-migration-s1.24.1] It ignores migration, although moving people can change a country's population sharply.
+
+CANDIDATES geo-population-migration-s1: 1. Changing population characteristics
 [geo-population-migration-s1.24.2] Developing countries' death rates fell much faster than Europe's, because medicine was imported, so their growth has been faster.
 [geo-population-migration-s1.24.3] Some countries may not complete the transition, and it has no fixed time scale.
 [geo-population-migration-s1.25.b] A population pyramid is a graph that shows how a population is made up by age and sex. Planners and geographers read it to understand a country at a glance.
