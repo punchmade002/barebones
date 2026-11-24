@@ -1,0 +1,897 @@
+{
+ "hist-ire1-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s1.5.6",
+    "strength": "helpful",
+    "why": "Clare election of 1829",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.1",
+    "strength": "helpful",
+    "why": "meaning of Repeal",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s1.1.5",
+    "strength": "helpful",
+    "why": "Irish Constabulary of 1836",
+    "confidence": "low"
+   },
+   {
+    "id": "hist-ire1-s2.0.3",
+    "strength": "helpful",
+    "why": "Whig government under Melbourne",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.0.4",
+    "strength": "helpful",
+    "why": "Drummond as Under-Secretary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s1.1.2",
+    "strength": "essential",
+    "why": "closed Protestant town corporations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.0.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.0.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.0.3",
+    "strength": "helpful",
+    "why": "Whig alliance",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s2.1.8",
+    "strength": "helpful",
+    "why": "tithe reform",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s1.0.2",
+    "strength": "helpful",
+    "why": "established Church of Ireland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.1.b",
+    "strength": "helpful",
+    "why": "tithe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.1.b",
+    "strength": "helpful",
+    "why": "tithe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.1.2",
+    "strength": "helpful",
+    "why": "seizures of goods for tithe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.1.2",
+    "strength": "helpful",
+    "why": "process servers and seizures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.1.2",
+    "strength": "helpful",
+    "why": "seizures for tithe arrears",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.1.1",
+    "strength": "helpful",
+    "why": "campaign of non-payment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.0.3",
+    "strength": "helpful",
+    "why": "Whig government and O'Connell alliance",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s2.1.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.1.b",
+    "strength": "essential",
+    "why": "tithe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.2.0",
+    "strength": "helpful",
+    "why": "absence of poor relief",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.2.1",
+    "strength": "essential",
+    "why": "Whately report",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.2.2",
+    "strength": "helpful",
+    "why": "Nicholls recommending workhouses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.2.3",
+    "strength": "essential",
+    "why": "workhouses in unions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.2.4",
+    "strength": "helpful",
+    "why": "workhouse conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.2.3",
+    "strength": "essential",
+    "why": "poor law unions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.2.3",
+    "strength": "helpful",
+    "why": "workhouse system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s1.3.1",
+    "strength": "helpful",
+    "why": "Catholic Rent model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.0",
+    "strength": "essential",
+    "why": "Repeal Association",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.0",
+    "strength": "helpful",
+    "why": "Repeal campaign",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s1.1.2",
+    "strength": "helpful",
+    "why": "Dublin Corporation closed body",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s1.3.4",
+    "strength": "helpful",
+    "why": "clergy as organisers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.2",
+    "strength": "helpful",
+    "why": "Repeal Year campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.4",
+    "strength": "essential",
+    "why": "monster meetings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.2",
+    "strength": "helpful",
+    "why": "Repeal campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.2",
+    "strength": "helpful",
+    "why": "Repeal campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.4",
+    "strength": "essential",
+    "why": "monster meetings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.4.0",
+    "strength": "essential",
+    "why": "Clontarf ban",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.4.1",
+    "strength": "helpful",
+    "why": "aftermath of Clontarf",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s2.5.0",
+    "strength": "helpful",
+    "why": "Charles Gavan Duffy",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.4.2",
+    "strength": "essential",
+    "why": "conviction of O'Connell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.4.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire1-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.1",
+    "strength": "helpful",
+    "why": "Repeal and federalism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.0.3",
+    "strength": "helpful",
+    "why": "alliance with Whigs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.4.1",
+    "strength": "helpful",
+    "why": "Peel and Clontarf",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.0",
+    "strength": "essential",
+    "why": "The Nation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.1",
+    "strength": "helpful",
+    "why": "The Nation's ideas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.1",
+    "strength": "helpful",
+    "why": "Duffy and The Nation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.4.5",
+    "strength": "helpful",
+    "why": "federalism of 1844",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s2.4.4",
+    "strength": "helpful",
+    "why": "Queen's Colleges",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s2.0.3",
+    "strength": "helpful",
+    "why": "Whig alliance",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s2.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.4",
+    "strength": "helpful",
+    "why": "Young Ireland disagreements",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.5",
+    "strength": "essential",
+    "why": "peace resolutions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.6",
+    "strength": "helpful",
+    "why": "Young Ireland leaving the Association",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.1",
+    "strength": "helpful",
+    "why": "The Nation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.6.1",
+    "strength": "helpful",
+    "why": "Lalor's ideas",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s2.6.0",
+    "strength": "helpful",
+    "why": "Irish Confederation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.6.0",
+    "strength": "helpful",
+    "why": "Irish Confederation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.6.2",
+    "strength": "helpful",
+    "why": "Mitchel and open revolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.6.4",
+    "strength": "helpful",
+    "why": "hasty rising after suspension",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.6.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.6.5",
+    "strength": "helpful",
+    "why": "Ballingarry rising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.6.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.6.5",
+    "strength": "helpful",
+    "why": "rising of 1848",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.6.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.6.5",
+    "strength": "helpful",
+    "why": "Ballingarry rising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.1",
+    "strength": "helpful",
+    "why": "Repeal meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s2.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.0.3",
+    "strength": "helpful",
+    "why": "Lichfield House Compact",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s2.3.0",
+    "strength": "helpful",
+    "why": "Repeal Association",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s2.3.2",
+    "strength": "helpful",
+    "why": "Repeal Year",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s2.4.1",
+    "strength": "helpful",
+    "why": "Clontarf cancellation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.7.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.4.1",
+    "strength": "helpful",
+    "why": "Clontarf and Peel's firmness",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s2.5.5",
+    "strength": "helpful",
+    "why": "Young Ireland's challenge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.7.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire1-s2.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.0.3",
+    "strength": "helpful",
+    "why": "dropping Repeal for Whig favours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.7.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.5",
+    "strength": "helpful",
+    "why": "peace resolutions of 1846",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.7.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.3.1",
+    "strength": "helpful",
+    "why": "Repeal failed",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.0",
+    "strength": "essential",
+    "why": "founding of The Nation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.2",
+    "strength": "helpful",
+    "why": "nationality above religion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.4.4",
+    "strength": "essential",
+    "why": "Queen's Colleges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.5",
+    "strength": "helpful",
+    "why": "peace resolutions split",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.8.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.4",
+    "strength": "helpful",
+    "why": "dispute with O'Connell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.8.8": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire1-s2.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.4.1",
+    "strength": "helpful",
+    "why": "Clontarf",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.1.8",
+    "strength": "essential",
+    "why": "1838 tithe settlement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.2.3",
+    "strength": "essential",
+    "why": "Poor Law system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.2",
+    "strength": "helpful",
+    "why": "cultural nationalism of The Nation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.5.5",
+    "strength": "helpful",
+    "why": "1846 split",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s2.6.5",
+    "strength": "helpful",
+    "why": "1848 rising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s2.9.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.6.8",
+    "strength": "helpful",
+    "why": "Fenian movement origins",
+    "confidence": "high"
+   }
+  ]
+ }
+}

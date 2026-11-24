@@ -21,7 +21,7 @@ D={
 '0.1':(1,[]),
 '0.2':(1,[]),
 '0.3':(1,[]),
-'0.4':(1,[('3.0.3',H,'Derry nationalists claim for university','high')]),
+'0.4':(1,[('0.3',H,'Derry nationalists claim for university','high')]),
 '0.5':(1,[('5.3',H,'west of the Bann grievance','high')]),
 '0.6':(1,[]),
 '1.b':(1,[]),
