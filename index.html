@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <script>/* signed-in state: mirrors the app's own check */(function(){try{var s=localStorage.getItem("bb_has_auth_session")==="1";if(!s){var a=JSON.parse(localStorage.getItem("bare-bones-app-v4")||"null");s=!!(a&&a.session&&a.session.currentUser);}if(s)document.documentElement.classList.add("bb-signed-in");}catch(e){}})();</script>
-<title>barebones: Leaving Cert past exam questions, marked as you answer</title>
+<title>barebones: everything you need for the Leaving Cert</title>
 <meta name="description" content="Everything you need for the Leaving Cert: notes, flashcards and real past exam questions, marked against the official marking scheme as you answer. Free, in your browser." />
 <link rel="canonical" href="https://barebones.ie/" />
 <meta name="robots" content="index, follow" />
@@ -15,12 +15,12 @@
 <meta property="og:site_name" content="barebones" />
 <meta property="og:locale" content="en_IE" />
 <meta property="og:url" content="https://barebones.ie/" />
-<meta property="og:title" content="barebones: every past Leaving Cert question, marked" />
+<meta property="og:title" content="barebones: everything you need for the Leaving Cert" />
 <meta property="og:description" content="Real Leaving Cert exam questions, checked against the marking scheme as you answer. Notes, flashcards and timed tests. Free, in your browser." />
 <meta property="og:image" content="https://barebones.ie/design_handoff_barebones_landing/assets/logo-bb.png" />
 <meta property="og:image:alt" content="barebones logo" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="barebones: every past Leaving Cert question, marked" />
+<meta name="twitter:title" content="barebones: everything you need for the Leaving Cert" />
 <meta name="twitter:description" content="Real Leaving Cert exam questions, checked against the marking scheme as you answer. Notes, flashcards and timed tests. Free, in your browser." />
 <meta name="twitter:image" content="https://barebones.ie/design_handoff_barebones_landing/assets/logo-bb.png" />
 
@@ -68,16 +68,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="home.css?v=4" />
+<link rel="stylesheet" href="home.css?v=5" />
 <!-- Vercel Web Analytics -->
 <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
-<body data-hero="a">
+<body>
 
-<!-- ================= HERO: five options, one shown (data-hero) ================= -->
+<!-- ================= HERO: the LED board lists what's inside ================= -->
 <section class="hero" id="top" data-field>
   <header class="top">
     <div class="wrap top-inner">
@@ -92,150 +92,192 @@
     </div>
   </header>
 
-  <!-- A: the board lists what's inside -->
-  <div class="hero-opt" id="hero-a">
-    <div class="wrap hero-body">
-      <div class="led led-word" data-led aria-hidden="true"></div>
-      <h1 class="say">Everything you need for the Leaving Cert.</h1>
-      <div>
-        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_a">Start studying free</a>
-        <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- B: an answer gets marked live -->
-  <div class="hero-opt" id="hero-b">
-    <div class="wrap hero-body b-grid">
-      <div class="b-pitch">
-        <h1 class="say">Every past question. Marked in seconds.</h1>
-        <div>
-          <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_b">Start studying free</a>
-          <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
-        </div>
-      </div>
-      <div class="mk" aria-hidden="true">
-        <p class="mk-src"></p>
-        <p class="mk-q"></p>
-        <p class="mk-ans"></p>
-        <ul class="mk-points"></ul>
-        <div class="led led-score" data-led></div>
-      </div>
-      <svg class="mk-circle" viewBox="0 0 145 100" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M122 14C98 1 32 3 13 31c-15 23 10 56 57 60 40 3 70-14 69-41-1-19-21-33-47-37"/></svg>
-    </div>
-  </div>
-
-  <!-- C: count to 625 -->
-  <div class="hero-opt" id="hero-c">
-    <div class="wrap hero-body">
-      <div class="led led-num" data-led aria-hidden="true"></div>
-      <h1 class="say"><span class="sr-only">625 points. </span>Everything you need for 625.</h1>
-      <div>
-        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_c">Start studying free</a>
-        <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- D: countdown to the first exam -->
-  <div class="hero-opt" id="hero-d">
-    <div class="wrap hero-body">
-      <div class="led led-num" data-led aria-hidden="true"></div>
-      <p class="d-label"><span class="sr-only" data-days></span>days and <span class="clock" data-clock>00:00:00</span> until the Leaving Cert.</p>
-      <h1 class="say">Everything you need before then.</h1>
-      <div>
-        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_d">Start studying free</a>
-        <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- E: everything lands in one pile -->
-  <div class="hero-opt" id="hero-e">
-    <div class="wrap hero-body e-grid">
-      <div class="b-pitch">
-        <h1 class="say">The whole Leaving Cert. One place.</h1>
-        <div>
-          <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_e">Start studying free</a>
-          <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
-        </div>
-      </div>
-      <div class="pile" aria-hidden="true">
-        <div class="card" style="--x:24%;--y:24%;--r:-8deg;--d:0ms"><small>Notes</small><b>Enzymes</b></div>
-        <div class="card dark" style="--x:70%;--y:18%;--r:7deg;--d:160ms"><small>Flashcard</small><b>Define homeostasis.</b></div>
-        <div class="card" style="--x:46%;--y:44%;--r:-3deg;--d:320ms"><small>2019 Paper 1</small><b>Question 5</b></div>
-        <div class="card" style="--x:80%;--y:52%;--r:10deg;--d:480ms"><small>Marking scheme</small><b class="ticks">✓ ✓ ✓ ✗</b></div>
-        <div class="card" style="--x:20%;--y:62%;--r:6deg;--d:640ms"><small>Timed test</small><b>20:00</b></div>
-        <div class="card dark" style="--x:58%;--y:70%;--r:-9deg;--d:800ms"><small>Model answer</small><b>6/6</b></div>
-        <div class="card" style="--x:34%;--y:86%;--r:-4deg;--d:960ms"><small>Points</small><b>589</b></div>
-        <div class="card" style="--x:78%;--y:88%;--r:5deg;--d:1120ms"><small>Exam guide</small><b>Paper 2, Section B</b></div>
-        <div class="card" style="--x:50%;--y:20%;--r:-12deg;--d:1280ms"><small>Progress</small><b>Enzymes 92%</b><i style="--p:92%"></i></div>
-      </div>
+  <div class="wrap hero-body">
+    <div class="led" data-led aria-hidden="true"></div>
+    <h1 class="hl">Everything you need for the Leaving Cert.</h1>
+    <div>
+      <a class="btn btn-ink btn-lg auth-out" href="app.html#signup" data-track="cta_hero">Start studying free</a>
+      <a class="btn btn-ink btn-lg auth-in" href="app.html">Open the app</a>
     </div>
   </div>
 </section>
 
 <main>
-<!-- ================= try one (hidden under option C) ================= -->
-<section class="try" id="try">
+<!-- ================= notes: the most-read part of the app ================= -->
+<section class="notes" id="notes">
   <div class="wrap">
-    <article class="sheet" data-demo="sheet" data-example="1" aria-label="Try a real exam question">
-      <div class="sheet-head"><span><b>Biology</b>, Higher, 2022</span><span>(6 marks)</span></div>
-      <p class="sheet-q"><span class="num">15(b)(vi)</span><span>Describe how ADH (anti-diuretic hormone) affects the volume of urine.</span></p>
-      <div class="answer-tag">
-        <label for="sheetAnswer" data-label>A marked example</label>
-        <button type="button" data-clear>Try your own</button>
-      </div>
-      <textarea class="answer" id="sheetAnswer" rows="5">ADH makes the collecting duct let more water back into the blood. More ADH means a small amount of concentrated urine, less ADH means lots of dilute urine.</textarea>
-      <div class="sheet-actions">
-        <button type="button" class="btn btn-orange" data-mark>Mark it</button>
-        <span class="hint" data-hint aria-live="polite"></span>
-      </div>
-      <div class="result" data-result hidden aria-live="polite">
-        <div class="result-top">
-          <div class="score"><svg viewBox="0 0 84 60" aria-hidden="true"><path d="M70 9C56 1 18 3 8 20c-8 14 6 33 32 35 22 2 40-8 39-24-1-11-12-19-26-21"/></svg><span><span data-earned>0</span><small>/6</small></span></div>
-          <p class="result-say" data-say></p>
-        </div>
-        <ol class="points" data-points></ol>
-      </div>
-      <div class="nudge" data-nudge hidden>
-        <p>Sign up free and every mark you get is saved.</p>
-        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_demo">Start studying free</a>
-        <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
-      </div>
+    <div class="note-tabs" role="tablist" aria-label="Sample notes">
+      <button type="button" role="tab" id="tab-bio" aria-controls="note-bio" aria-selected="true">Biology</button>
+      <button type="button" role="tab" id="tab-chem" aria-controls="note-chem" aria-selected="false" tabindex="-1">Chemistry</button>
+      <button type="button" role="tab" id="tab-geo" aria-controls="note-geo" aria-selected="false" tabindex="-1">Geography</button>
+      <button type="button" role="tab" id="tab-hist" aria-controls="note-hist" aria-selected="false" tabindex="-1">History</button>
+    </div>
+
+    <article class="note" id="note-bio" role="tabpanel" aria-labelledby="tab-bio">
+      <p class="note-path">Biology, Enzymes</p>
+      <h2 class="note-title">Enzymes as catalysts</h2>
+      <h3 class="note-sec">Catalysts and enzymes</h3>
+      <ul>
+        <li>A catalyst is a substance that speeds up a chemical reaction without being used up or permanently changed by it, so it can be used again and again.</li>
+        <li>An enzyme is a biological catalyst: a catalyst made by a living cell.</li>
+        <li>Almost all enzymes are globular proteins, folded into a precise three-dimensional shape.</li>
+        <li>Enzymes are needed only in small amounts, because each molecule is reused many times; catalase, among the fastest, breaks down millions of hydrogen peroxide molecules per second.</li>
+      </ul>
+      <a class="note-more" href="leaving-cert-biology/enzymes/enzymes-as-catalysts/">Read the full note</a>
     </article>
+
+    <article class="note" id="note-chem" role="tabpanel" aria-labelledby="tab-chem" hidden>
+      <p class="note-path">Chemistry, Hydrocarbons</p>
+      <h2 class="note-title">Hydrocarbons: sources, uses and impact</h2>
+      <h3 class="note-sec">Organic compounds and hydrocarbons</h3>
+      <ul>
+        <li>Organic chemistry is the study of the compounds of carbon, and hydrocarbons are the simplest of them.</li>
+        <li>Each carbon atom forms four covalent bonds and carbon atoms bond strongly to each other, giving stable chains, straight or branched, and rings of almost any length.</li>
+        <li>A hydrocarbon is a compound containing carbon and hydrogen only.</li>
+        <li>Other organic families, such as alcohols and carboxylic acids, can be thought of as hydrocarbons with one or more hydrogen atoms replaced by other atoms or groups.</li>
+      </ul>
+      <a class="note-more" href="leaving-cert-chemistry/allotropes-of-carbon-hydrocarbons/hydrocarbons-sources-uses-and-impact/">Read the full note</a>
+    </article>
+
+    <article class="note" id="note-geo" role="tabpanel" aria-labelledby="tab-geo" hidden>
+      <p class="note-path">Geography, Economic activity</p>
+      <h2 class="note-title">Renewable and non-renewable resources</h2>
+      <h3 class="note-sec">Resources and how they are classed</h3>
+      <ul>
+        <li>A resource is anything in the environment that people use to meet their needs. Resources are classed by whether nature can replace them.</li>
+        <li>Non-renewable (stock, finite) resources formed over millions of years, so they are used up far faster than they form: coal, oil, natural gas, peat, metal ores and uranium.</li>
+        <li>Renewable (flow) resources are replaced naturally and will not run out however much is used: wind, solar, hydro, wave, tidal and geothermal heat.</li>
+        <li>Some resources are renewable only if managed sustainably: forests, fish stocks, soils, groundwater and biomass.</li>
+      </ul>
+      <a class="note-more" href="leaving-cert-geography/economic-activity-and-environmental-impact/renewable-and-non-renewable-resources-in-the-economy/">Read the full note</a>
+    </article>
+
+    <article class="note" id="note-hist" role="tabpanel" aria-labelledby="tab-hist" hidden>
+      <p class="note-path">History, Nationalism and state formation in Europe</p>
+      <h2 class="note-title">Italy moves towards unity, 1815–1871</h2>
+      <h3 class="note-sec">Key personality: Giuseppe Mazzini</h3>
+      <ul>
+        <li>Mazzini was born in Genoa in 1805, trained as a lawyer and joined the Carbonari before his arrest and exile in 1830.</li>
+        <li>In 1831 he founded Young Italy at Marseille, a secret society that aimed at a unified republic and whose members were mostly young.</li>
+        <li>He wanted a unitary republic, with the people as the sovereign, and his motto was God and the People (Dio e Popolo).</li>
+        <li>In 1848 he returned to Italy and took part in the Roman Republic of 1849, where he was one of the triumvirs who governed the city.</li>
+      </ul>
+      <a class="note-more" href="leaving-cert-history/europe-t1-nationalism-and-state-formation-in-europe-1815-1871/italy-moves-towards-unity-1815-1871/">Read the full note</a>
+    </article>
+
+    <a class="all-notes" href="leaving-cert-notes/">Browse all the free notes</a>
   </div>
 </section>
 
-<!-- ================= three fragments of the app ================= -->
-<section class="section">
+<!-- ================= what every subject has: one row per feature ================= -->
+<section class="features" id="features">
   <div class="wrap">
-    <ul class="trio">
-      <li>
-        <div class="flash" aria-hidden="true">
-          <span class="lbl">Flashcard</span>
-          <span class="face">What does ADH make more permeable to water?</span>
-          <span class="meta">Biology, Excretion</span>
+    <details class="feat" name="feature" open>
+      <summary>Flashcards</summary>
+      <div class="feat-body">
+        <div class="feat-visual" aria-hidden="true">
+          <div class="flash">
+            <span class="lbl">Flashcard</span>
+            <span class="face">What does ADH make more permeable to water?</span>
+            <span class="chips"><span>collecting duct</span><span>reabsorbed</span><span>concentrated</span></span>
+          </div>
         </div>
-        <p><b>Notes cut to what the exam asks,</b> and flashcards on the exact point.</p>
-      </li>
-      <li>
-        <div class="testbar" aria-hidden="true">
-          <div class="row"><span>Excretion, Higher</span><span class="timer">18:42</span></div>
-          <div class="qs"><span class="done">1</span><span class="done">2</span><span class="done">3</span><span class="now">4</span><span>5</span><span>6</span><span>7</span><span>8</span></div>
-          <div class="row"><span>2019, Q14(b)(ii)</span><span>3 marks</span></div>
+        <p>Cards built from the notes, each one testing a single exact point. Flip it, check yourself against the key words, and mark it learned once it sticks.</p>
+      </div>
+    </details>
+
+    <details class="feat" name="feature">
+      <summary>Notes</summary>
+      <div class="feat-body">
+        <div class="feat-visual" aria-hidden="true">
+          <div class="mini-note">
+            <small>Biology, Enzymes</small>
+            <b>Enzymes as catalysts</b>
+            <ul><li>An enzyme is a biological catalyst.</li><li>Almost all enzymes are globular proteins.</li><li>Each molecule is reused many times.</li></ul>
+          </div>
         </div>
-        <p><b>Timed tests</b> built from real exam questions.</p>
-      </li>
-      <li>
-        <div class="bars" aria-hidden="true">
-          <div class="b"><span>Enzymes</span><span>92%</span><div class="track"><div class="fill" style="width:92%"></div></div></div>
-          <div class="b"><span>Photosynthesis</span><span>71%</span><div class="track"><div class="fill" style="width:71%"></div></div></div>
-          <div class="b low"><span>Excretion</span><span>34%</span><div class="track"><div class="fill" style="width:34%"></div></div></div>
+        <p>Every topic written up in plain bullet points, cut to what the exam actually asks. Free to read, no account needed.</p>
+      </div>
+    </details>
+
+    <details class="feat" name="feature">
+      <summary>Tests</summary>
+      <div class="feat-body">
+        <div class="feat-visual" aria-hidden="true">
+          <div class="testbar">
+            <div class="row"><span>Excretion, Higher</span><span class="timer">18:42</span></div>
+            <div class="qs"><span class="done">1</span><span class="done">2</span><span class="done">3</span><span class="now">4</span><span>5</span><span>6</span><span>7</span><span>8</span></div>
+            <div class="row"><span>2019, Q14(b)(ii)</span><span>3 marks</span></div>
+          </div>
         </div>
-        <p><b>See what's shaky</b> before the exam does.</p>
-      </li>
-    </ul>
+        <p>Timed tests from 5 to 60 minutes, on one chapter, a few, or the whole subject. They mix flashcard recall with real exam question parts, and your written answers are marked against the scheme.</p>
+      </div>
+    </details>
+
+    <details class="feat" name="feature">
+      <summary>Exam questions</summary>
+      <div class="feat-body">
+        <div class="feat-visual" aria-hidden="true">
+          <div class="mini-q">
+            <small>Biology, Higher, 2022, Q15(b)(vi)</small>
+            <b>Describe how ADH affects the volume of urine.</b>
+            <ol>
+              <li><i>✓</i>More water reabsorbed into the blood</li>
+              <li><i>✓</i>More ADH: small volume, concentrated</li>
+              <li><i>½</i>Less ADH: large volume, dilute</li>
+            </ol>
+            <span class="mini-score">5<small>/6</small></span>
+          </div>
+        </div>
+        <p>Real past paper questions, sorted by chapter, by question type, or as full papers. Every one has a model answer checked against the official marking scheme.</p>
+      </div>
+    </details>
+
+    <details class="feat" name="feature">
+      <summary>Exam tips</summary>
+      <div class="feat-body">
+        <div class="feat-visual" aria-hidden="true">
+          <div class="mini-guide">
+            <div class="row"><b>Biology, Higher Level</b><span>2h 30m, 300 marks</span></div>
+            <div class="split"><span style="flex:1">Q1<br /><small>must do</small></span><span style="flex:5">Any five of Q2 to Q7<br /><small>50 marks each</small></span></div>
+            <p class="tip">Only five of the six optional questions count, so you drop one completely.</p>
+          </div>
+        </div>
+        <p>A guide to each paper: how the marks are split, which questions to answer, and how long to spend on each one.</p>
+      </div>
+    </details>
+
+    <details class="feat" name="feature">
+      <summary>Project tips</summary>
+      <div class="feat-body">
+        <div class="feat-visual" aria-hidden="true">
+          <div class="mini-guide">
+            <div class="row"><b>Biology in Practice Investigation</b><span>40%, 200 marks</span></div>
+            <ul class="criteria">
+              <li><b>A</b>Introduction and research<span>50</span></li>
+              <li><b>B</b>Design and experiment<span>50</span></li>
+              <li><b>C</b>Data and conclusions<span>50</span></li>
+              <li><b>D</b>Scientific literacy and hand-in<span>50</span></li>
+            </ul>
+          </div>
+        </div>
+        <p>A step-by-step guide to your coursework, criterion by criterion, with a checklist of exactly what the examiner rewards.</p>
+      </div>
+    </details>
+
+    <details class="feat" name="feature">
+      <summary>Progress</summary>
+      <div class="feat-body">
+        <div class="feat-visual" aria-hidden="true">
+          <div class="bars">
+            <div class="b"><span>Enzymes</span><span>92%</span><div class="track"><div class="fill" style="width:92%"></div></div></div>
+            <div class="b"><span>Photosynthesis</span><span>71%</span><div class="track"><div class="fill" style="width:71%"></div></div></div>
+            <div class="b low"><span>Excretion</span><span>34%</span><div class="track"><div class="fill" style="width:34%"></div></div></div>
+          </div>
+        </div>
+        <p>Every chapter shows how much you've learned, and the study timer logs where your time went, so tonight's study goes where the marks are.</p>
+      </div>
+    </details>
   </div>
 </section>
 
@@ -282,7 +324,7 @@
       <div class="foot-cols">
         <div class="foot-col">
           <h4>Product</h4>
-          <a href="#try">Try a question</a>
+          <a href="#notes">Notes</a>
                     <a href="leaving-cert-points-calculator/">Points calculator</a>
           <a href="app.html#signin" class="auth-out">Sign in</a>
         </div>
@@ -321,42 +363,11 @@
   <form method="dialog"><button class="btn btn-quiet">Close</button></form>
 </dialog>
 
-<!-- hero option switcher: localhost only, remove once a hero is picked -->
-<div class="picker" id="picker" hidden role="group" aria-label="Hero option">
-  <span>Hero</span>
-  <button type="button" data-pick="a">A</button>
-  <button type="button" data-pick="b">B</button>
-  <button type="button" data-pick="c">C</button>
-  <button type="button" data-pick="d">D</button>
-  <button type="button" data-pick="e">E</button>
-</div>
-
 <script src="design_handoff_barebones_landing/pixelfont.js"></script>
-<script src="answer-marker.js"></script>
-<script src="home-hero.js?v=2"></script>
+<script src="home-hero.js?v=3"></script>
 <script>
   (function () {
     function track(name) { try { window.va('event', { name: name }); } catch (e) {} }
-
-    // Hero option: ?hero=a..e, switcher only shown on localhost
-    var body = document.body;
-    var pick = (new URLSearchParams(location.search).get('hero') || '').toLowerCase();
-    if (/^[a-e]$/.test(pick)) body.dataset.hero = pick;
-    var picker = document.getElementById('picker');
-    if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) picker.hidden = false;
-    function syncPicker() {
-      picker.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.pick === body.dataset.hero)); });
-    }
-    picker.addEventListener('click', function (e) {
-      var b = e.target.closest('[data-pick]');
-      if (!b) return;
-      body.dataset.hero = b.dataset.pick;
-      history.replaceState(null, '', '?hero=' + b.dataset.pick);
-      syncPicker();
-      if (window.BBHero) BBHero.show(b.dataset.pick);
-    });
-    syncPicker();
-    if (window.BBHero) BBHero.show(body.dataset.hero);
 
     // Contact opens the dialog; the #contact link still works without JS
     var dialog = document.getElementById('contactDialog');
@@ -375,66 +386,25 @@
       if (t) track(t.dataset.track);
     });
 
-    // Live demos: the same marker the app uses (answer-marker.js), on one real question.
-    var MODEL = 'ADH makes the walls of the collecting duct (and the end of the DCT) more permeable to water, so more water is reabsorbed into the blood. More ADH therefore gives a small volume of concentrated urine; less ADH gives a large volume of dilute urine.';
-    var QUESTION = 'Describe how ADH (anti-diuretic hormone) affects the volume of urine.';
-    var MARKS = 6;
-
-    document.querySelectorAll('[data-demo]').forEach(function (root) {
-      var $ = function (s) { return root.querySelector(s); };
-      var answer = $('textarea');
-      var result = $('[data-result]');
-      var clearBtn = $('[data-clear]');
-      var example = root.dataset.example === '1';
-
-      function own() {
-        if (!example) return;
-        example = false;
-        if ($('[data-label]')) $('[data-label]').textContent = 'Your answer';
-        if (clearBtn) clearBtn.hidden = true;
-      }
-
-      function mark() {
-        var text = answer.value.trim();
-        if (!text) { $('[data-hint]').textContent = 'Write an answer first.'; answer.focus(); return; }
-        $('[data-hint]').textContent = '';
-        var r = window.AnswerMarker.markAnswer({ answer: text, model: MODEL, marks: MARKS, question: QUESTION });
-        $('[data-earned]').textContent = r.earned;
-        var say = r.earned === MARKS ? 'Full marks.'
-          : r.earned === 0 ? 'No marks yet. This is what the scheme wants.'
-          : 'Here is what the scheme gave you, and what you missed.';
-        if (r.confidence === 'low') say += ' Worth checking yourself.';
-        $('[data-say]').textContent = say;
-        var list = $('[data-points]');
-        list.textContent = '';
-        r.points.forEach(function (p) {
-          var li = document.createElement('li');
-          var tick = document.createElement('span');
-          tick.className = 'tick';
-          tick.setAttribute('aria-hidden', 'true');
-          tick.textContent = p.credit >= 1 ? '✓' : p.credit > 0 ? '½' : '✗';
-          var txt = document.createElement('span');
-          txt.textContent = (p.credit >= 1 ? '' : p.credit > 0 ? 'Partly: ' : 'Missed: ') + p.text;
-          if (p.credit === 0) li.className = 'miss';
-          li.append(tick, txt);
-          list.appendChild(li);
-        });
-        result.hidden = false;
-        result.classList.remove('drawn');
-        void result.offsetWidth; // restart the circle animation
-        result.classList.add('drawn');
-        if (!example) { $('[data-nudge]').hidden = false; track('demo_mark_' + root.dataset.demo); }
-      }
-
-      $('[data-mark]').addEventListener('click', mark);
-      answer.addEventListener('input', own);
-      if (clearBtn) clearBtn.addEventListener('click', function () {
-        own();
-        answer.value = '';
-        result.hidden = true;
-        answer.focus();
+    // Notes tabs (arrow keys move between them)
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.note-tabs [role="tab"]'));
+    function select(tab) {
+      tabs.forEach(function (t) {
+        var on = t === tab;
+        t.setAttribute('aria-selected', String(on));
+        t.tabIndex = on ? 0 : -1;
+        document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
       });
-      if (example) mark(); // show the example already marked
+    }
+    tabs.forEach(function (tab, i) {
+      tab.addEventListener('click', function () { select(tab); track('notes_tab'); });
+      tab.addEventListener('keydown', function (e) {
+        var d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+        if (!d) return;
+        var next = tabs[(i + d + tabs.length) % tabs.length];
+        select(next);
+        next.focus();
+      });
     });
   })();
 </script>

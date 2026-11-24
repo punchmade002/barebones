@@ -1,13 +1,12 @@
-// Homepage hero: the logo's LED dot grid as a live field, and five hero scenes
-// that light words and numbers up in it. Needs pixelfont.js (PixelText.FONT).
+// Homepage hero: the logo's LED dot grid as a live field that lights up
+// what's inside the app, word by word. Needs pixelfont.js (PixelText.FONT).
 (function () {
   'use strict';
   var hero = document.querySelector('[data-field]');
   if (!hero || !window.PixelText) return;
 
   var FONT = Object.assign({}, PixelText.FONT, {
-    ' ': ['     ', '     ', '     ', '     ', '     ', '     ', '     '],
-    '/': ['    #', '    #', '   # ', '  #  ', ' #   ', '#    ', '#    ']
+    ' ': ['     ', '     ', '     ', '     ', '     ', '     ', '     ']
   });
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var TAU = Math.PI * 2;
@@ -83,10 +82,6 @@
     ripples.push({ x: x, y: y, t: performance.now(), s: strength || 1 });
     kick();
   }
-  function rippleAt(el, strength) {
-    var hr = hero.getBoundingClientRect(), r = el.getBoundingClientRect();
-    ripple(r.left - hr.left + r.width / 2, r.top - hr.top + r.height / 2, strength);
-  }
 
   function frame(now) {
     raf = 0;
@@ -137,176 +132,14 @@
     ripple(e.clientX - r.left, e.clientY - r.top, 0.8);
   });
 
-  // ---------------- scenes ----------------
-  // Each scene gets its root and a timer kit; everything it schedules dies when the scene changes.
-  function timers() {
-    var ids = [], frames = [];
-    return {
-      later: function (fn, ms) { ids.push(setTimeout(fn, ms)); },
-      every: function (fn, ms) { ids.push(setInterval(fn, ms)); },
-      frame: function (fn) { frames.push(requestAnimationFrame(fn)); },
-      stop: function () { ids.forEach(clearTimeout); ids.forEach(clearInterval); frames.forEach(cancelAnimationFrame); }
-    };
-  }
-
-  var scenes = {
-    // A: the board lists what's inside
-    a: function (root, T) {
-      var slot = root.querySelector('[data-led]');
-      var words = ['NOTES', 'CARDS', 'PAPERS', 'MARKS', 'TESTS'];
-      var i = 0;
-      setText(words[0], slot, { wipe: true, fit: 'PAPERS' });
-      if (reduce) return;
-      T.every(function () {
-        i = (i + 1) % words.length;
-        setText(words[i], slot, { wipe: true, fit: 'PAPERS' });
-      }, 1900);
-    },
-
-    // B: an answer gets marked, the score lights up in the dots and gets circled
-    b: function (root, T) {
-      var items = [
-        { src: 'Biology, Higher, 2022', q: 'Describe how ADH affects the volume of urine.',
-          a: 'ADH makes the collecting duct let more water back into the blood. More ADH means a small amount of concentrated urine, less ADH means lots of dilute urine.',
-          pts: [['✓', 'More water reabsorbed into the blood'], ['✓', 'More ADH: small volume, concentrated'], ['½', 'Less ADH: large volume, dilute']],
-          score: '5/6' },
-        { src: 'Biology, Higher, 2022', q: 'Explain the importance of blood entering the glomerulus under pressure.',
-          a: "The pressure forces small molecules like water, glucose and urea out of the blood into Bowman's capsule. This is filtration.",
-          pts: [['✓', "Small molecules forced into Bowman's capsule"], ['✓', 'This is ultrafiltration'], ['✗', 'Blood cells and proteins stay in the blood']],
-          score: '2/3' }
-      ];
-      var $ = function (s) { return root.querySelector(s); };
-      var card = $('.mk'), src = $('.mk-src'), q = $('.mk-q'), ans = $('.mk-ans'), list = $('.mk-points');
-      var slot = $('[data-led]'), circle = $('.mk-circle');
-      var n = 0;
-
-      function points(it) {
-        list.textContent = '';
-        it.pts.forEach(function (p) {
-          var li = document.createElement('li');
-          if (p[0] === '✗') li.className = 'miss';
-          var tick = document.createElement('b');
-          tick.textContent = p[0];
-          li.append(tick, document.createTextNode(p[1]));
-          list.appendChild(li);
-        });
-      }
-      function ring(box) {
-        var pad = Math.max(18, box.h * 0.32);
-        circle.style.left = (box.x - pad * 1.3) + 'px';
-        circle.style.top = (box.y - pad) + 'px';
-        circle.style.width = (box.w + pad * 2.6) + 'px';
-        circle.style.height = (box.h + pad * 2) + 'px';
-      }
-
-      if (reduce) {
-        var it0 = items[0];
-        src.textContent = it0.src; q.textContent = it0.q; ans.textContent = it0.a; points(it0);
-        list.querySelectorAll('li').forEach(function (li) { li.classList.add('on'); });
-        ring(setText(it0.score, slot, { fit: '5/6' }));
-        circle.classList.add('on');
-        return;
-      }
-
-      function run() {
-        var it = items[n]; n = (n + 1) % items.length;
-        src.textContent = it.src; q.textContent = it.q; ans.textContent = ''; points(it);
-        circle.classList.remove('on');
-        card.classList.add('in');
-        setText('', null);
-        var chars = 0;
-        (function type() {
-          chars = Math.min(it.a.length, chars + 2);
-          ans.textContent = it.a.slice(0, chars);
-          if (chars < it.a.length) T.later(type, 22);
-          else mark();
-        })();
-        function mark() {
-          var lis = list.querySelectorAll('li');
-          lis.forEach(function (li, k) {
-            T.later(function () { li.classList.add('on'); rippleAt(li.querySelector('b'), 0.55); }, 350 + k * 520);
-          });
-          T.later(function () {
-            ring(setText(it.score, slot, { wipe: true, fit: '5/6' }));
-            T.later(function () { circle.classList.add('on'); rippleAt(slot, 1.5); }, 420);
-          }, 350 + lis.length * 520 + 200);
-          T.later(function () { card.classList.remove('in'); circle.classList.remove('on'); }, 350 + lis.length * 520 + 4200);
-          T.later(run, 350 + lis.length * 520 + 4800);
-        }
-      }
-      run();
-    },
-
-    // C: count to 625 in the dots
-    c: function (root, T) {
-      var slot = root.querySelector('[data-led]');
-      if (reduce) { setText('625', slot, { fit: '625' }); return; }
-      function count() {
-        var t0 = performance.now(), dur = 2600;
-        (function step() {
-          var p = Math.min(1, (performance.now() - t0) / dur);
-          var eased = p === 1 ? 1 : 1 - Math.pow(2, -10 * p);
-          setText(String(Math.round(625 * eased)), slot, { fit: '625' });
-          if (p < 1) T.frame(step);
-          else rippleAt(slot, 1.6);
-        })();
-      }
-      count();
-      T.every(count, 10000);
-    },
-
-    // D: live countdown to the first exam
-    d: function (root, T) {
-      var slot = root.querySelector('[data-led]');
-      var clock = root.querySelector('[data-clock]');
-      var sr = root.querySelector('[data-days]');
-      // shortcut: LC 2027 start date assumed (first Wednesday in June, 9:30 Irish time); confirm when the SEC publishes the timetable
-      var START = Date.UTC(2027, 5, 2, 8, 30);
-      var first = true, lastDays = -1;
-      function pad(v) { return String(v).padStart(2, '0'); }
-      function tick() {
-        var ms = Math.max(0, START - Date.now());
-        var days = Math.floor(ms / 864e5);
-        var h = Math.floor(ms / 36e5) % 24, m = Math.floor(ms / 6e4) % 60, s = Math.floor(ms / 1e3) % 60;
-        clock.textContent = pad(h) + ':' + pad(m) + ':' + pad(s);
-        if (days !== lastDays) {
-          lastDays = days;
-          sr.textContent = days + ' ';
-          setText(String(days), slot, { wipe: first, fit: '000' });
-          if (first) T.later(function () { rippleAt(slot, 1.4); }, 600);
-          first = false;
-        }
-      }
-      tick();
-      if (!reduce) T.every(tick, 1000);
-    },
-
-    // E: everything in the app lands in one pile
-    e: function (root, T) {
-      var pile = root.querySelector('.pile');
-      var cards = pile.querySelectorAll('.card');
-      setText('', null);
-      pile.classList.remove('go');
-      void pile.offsetWidth;
-      pile.classList.add('go');
-      if (reduce) return;
-      cards.forEach(function (card) {
-        var d = parseFloat(card.style.getPropertyValue('--d')) || 0;
-        T.later(function () { rippleAt(card, 0.7); }, d + 620);
-      });
-    }
-  };
-
-  var active = null;
-  window.BBHero = {
-    show: function (id) {
-      if (active) active.stop();
-      var root = document.getElementById('hero-' + id);
-      if (!root || !scenes[id]) return;
-      setText('', null);
-      resize();
-      active = timers();
-      scenes[id](root, active);
-    }
-  };
+  // ---------------- the board: what's inside ----------------
+  var slot = hero.querySelector('[data-led]');
+  var words = ['NOTES', 'CARDS', 'PAPERS', 'MARKS', 'TESTS'];
+  var n = 0;
+  resize();
+  setText(words[0], slot, { wipe: true, fit: 'PAPERS' });
+  if (!reduce) setInterval(function () {
+    n = (n + 1) % words.length;
+    setText(words[n], slot, { wipe: true, fit: 'PAPERS' });
+  }, 1900);
 })();
