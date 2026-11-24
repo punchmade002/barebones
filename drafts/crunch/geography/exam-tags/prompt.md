@@ -2,12 +2,12 @@ You are tagging past Leaving Certificate Geography exam answers to the exact not
 
 Read ONLY the batch file you are given, with the Read tool, every line to the end (page through it with offset/limit if the Read is cut off). It holds several questions separated by lines of "=". Each question has:
 - QUESTION: the question id.
-- PART blocks: a part label, its marks and the MODEL ANSWER (written from these notes and checked against the marking scheme).
+- PART blocks: the part label in quotes (e.g. PART "2A(i)"), its marks and the MODEL ANSWER (written from these notes and checked against the marking scheme).
 - CANDIDATES (shortlist): the note points you may tag, each as `[point-id] text`. A script picked them because they share words with the model answer, so many are near misses. Tag only the ones that really state what the answer uses.
 
 For EVERY part, list its marking points. A marking point is one thing the examiner gives marks for:
 - Short parts: usually one marking point per fact asked for (a definition, a named feature, a reason).
-- Long answers (20 and 30 marks) are marked in SRPs (significant relevant points) of 2 marks each, so a 30-mark answer has up to about 15. Each SRP is one marking point. Headings like "Option chosen – …" or "Process – Carbonation:" are not SRPs.
+- Long answers (20 and 30 marks) are marked in SRPs (significant relevant points) of 2 marks each, so a 30-mark answer has up to about 15. Each SRP is one marking point. A part never has more marking points than its marks ÷ 2 (at most 40 for an 80-mark essay), nor more than one per sentence of the model answer: one point that states a sentence's fact is one marking point, not several. Headings like "Option chosen – …" or "Process – Carbonation:" are not SRPs.
 For each marking point, give the note points that let a student write it:
 - {"k": 1, "of": ["id"]}: the student needs that one point.
 - {"k": 1, "of": ["id1", "id2"]}: any ONE of these points earns it (the same fact is stated in two places).
@@ -21,7 +21,7 @@ Rules:
 - Use only ids printed in that question's CANDIDATES. Never invent or shorten ids.
 - You may give one note point to two marking points when it states both facts.
 
-Write ONE file per question, ONLY this JSON, to the output folder you are given, named <question id>.json, with one key per part label exactly as printed, in order:
+Write ONE file per question, ONLY this JSON, to the output folder you are given, named <question id>.json, with one key per part: the label exactly as printed inside the quotes, without the word PART, in order:
 {"2A(i)": [{"k": 1, "of": ["geo-rivers-s4.3.1"]}], "2A(ii)": [], "2B": [{"k": 1, "of": ["geo-rocks-weathering-s5.2.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.2.1", "geo-rocks-weathering-s5.6.0"]}]}
 
 Then check every file: it must parse, have every part label exactly once, every "k" must be between 1 and the length of its "of" list, and every id must be in that question's CANDIDATES.

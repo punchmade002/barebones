@@ -80,7 +80,7 @@ def short_package(q, all_items, short):
     lines = [f"QUESTION {q['id']} ({q['source']}, {q['totalMarks']} marks)", ""]
     keep = set()
     for p in q["parts"]:
-        lines += [f"PART {p['label']} ({p['marks']} marks)", f"MODEL ANSWER: {p.get('model') or '(none)'}", ""]
+        lines += [f"PART \"{p['label']}\" ({p['marks']} marks)", f"MODEL ANSWER: {p.get('model') or '(none)'}", ""]
         keep |= short(p)
     lines.append("CANDIDATES (shortlist):")
     lines += [f"[{i}] {t}" for _, rows in all_items.values() for i, t, _ in rows if i in keep]  # notes order
