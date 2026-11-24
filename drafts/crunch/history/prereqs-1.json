@@ -1,0 +1,337 @@
+{
+ "hist-ire1-s1": [],
+ "hist-ire1-s2": [
+  {
+   "needs": "hist-ire1-s1",
+   "strength": "essential",
+   "why": "uses Catholic Association, Emancipation and O'Connell's early career",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire1-s3": [
+  {
+   "needs": "hist-ire1-s2",
+   "strength": "helpful",
+   "why": "Poor Law 1838 underlies the Poor Law Extension Act",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire1-s1",
+   "strength": "helpful",
+   "why": "Dublin Castle administration and Union government machinery",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire1-s4": [
+  {
+   "needs": "hist-ire1-s3",
+   "strength": "essential",
+   "why": "private relief responds to the Famine and government policy",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire1-s5": [
+  {
+   "needs": "hist-ire1-s4",
+   "strength": "essential",
+   "why": "post-Famine economy builds on Famine population and land impact",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire1-s6": [
+  {
+   "needs": "hist-ire1-s2",
+   "strength": "helpful",
+   "why": "Young Ireland and 1848 precede Fenianism and Repeal legacy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire1-s4",
+   "strength": "helpful",
+   "why": "Famine emigration and bitterness feed Fenianism and Tenant League",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire1-s5",
+   "strength": "helpful",
+   "why": "post-Famine landlordism underlies Tenant League demands",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire1-s7": [
+  {
+   "needs": "hist-ire1-s4",
+   "strength": "helpful",
+   "why": "Famine shaped devotional revolution, language decline and identities",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire1-s2",
+   "strength": "helpful",
+   "why": "Young Ireland and Thomas Davis cultural nationalism",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire2-s1": [],
+ "hist-ire2-s2": [
+  {
+   "needs": "hist-ire2-s1",
+   "strength": "essential",
+   "why": "uses Parnell, the New Departure and Home Rule party",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire2-s3": [
+  {
+   "needs": "hist-ire2-s1",
+   "strength": "essential",
+   "why": "uses Parnell's Irish Party and Home Rule movement",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire2-s2",
+   "strength": "helpful",
+   "why": "uses the Land War and coercion background",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire2-s4": [
+  {
+   "needs": "hist-ire2-s3",
+   "strength": "essential",
+   "why": "uses the First Home Rule Bill and 1885-86 elections",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire2-s2",
+   "strength": "helpful",
+   "why": "uses the Plan of Campaign and land agitation",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire2-s5": [
+  {
+   "needs": "hist-ire2-s3",
+   "strength": "essential",
+   "why": "uses the First Home Rule Bill and unionist mobilisation 1886",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire2-s4",
+   "strength": "helpful",
+   "why": "uses the Second Home Rule Bill and Redmond's party",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire2-s6": [
+  {
+   "needs": "hist-ire2-s4",
+   "strength": "helpful",
+   "why": "uses the Irish Party's attitude to suffrage and nationalism",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-ire2-s5",
+   "strength": "helpful",
+   "why": "uses unionism for suffrage, nationalism and unionism",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire2-s7": [],
+ "hist-ire2-s8": [
+  {
+   "needs": "hist-ire2-s2",
+   "strength": "helpful",
+   "why": "uses Congested Districts Board and constructive unionism",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire2-s9": [
+  {
+   "needs": "hist-ire2-s4",
+   "strength": "helpful",
+   "why": "uses the Parnell split and the IRB",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire2-s10": [
+  {
+   "needs": "hist-ire2-s9",
+   "strength": "essential",
+   "why": "compares the GAA and builds on its founding",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire2-s4",
+   "strength": "helpful",
+   "why": "uses Parnell's fall as backdrop to cultural revival",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire2-s11": [],
+ "hist-ire3-s1": [],
+ "hist-ire3-s2": [
+  {
+   "needs": "hist-ire3-s1",
+   "strength": "essential",
+   "why": "uses the 1916 Rising and its shift in opinion",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire3-s3": [
+  {
+   "needs": "hist-ire3-s1",
+   "strength": "essential",
+   "why": "uses the Home Rule crisis and Ulster Volunteers",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s2",
+   "strength": "helpful",
+   "why": "uses War of Independence violence behind the 1920 Act",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s4": [
+  {
+   "needs": "hist-ire3-s2",
+   "strength": "essential",
+   "why": "uses the War of Independence, Truce and Dáil",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses partition and the Northern Ireland question",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire3-s5": [
+  {
+   "needs": "hist-ire3-s4",
+   "strength": "essential",
+   "why": "uses the Treaty and Dáil debates behind the split",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses the Boundary Commission and Northern state",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s6": [
+  {
+   "needs": "hist-ire3-s5",
+   "strength": "essential",
+   "why": "uses Cosgrave's state and Fianna Fáil's rise to power",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s4",
+   "strength": "essential",
+   "why": "uses the Treaty terms and oath that de Valera dismantles",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses partition and the ports and North in 1938",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s7": [
+  {
+   "needs": "hist-ire3-s6",
+   "strength": "helpful",
+   "why": "uses the Economic War and protectionist policy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s5",
+   "strength": "helpful",
+   "why": "uses Cumann na nGaedheal government and 1932 change",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses partition's economic effects",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire3-s8": [
+  {
+   "needs": "hist-ire3-s6",
+   "strength": "essential",
+   "why": "uses de Valera, 1938 Agreements and Treaty ports for neutrality",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s7",
+   "strength": "helpful",
+   "why": "uses the wartime economy's prewar state",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s9": [
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "essential",
+   "why": "uses the Northern Ireland state and unionist government",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s8",
+   "strength": "helpful",
+   "why": "compares with neutral South's wartime experience",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s10": [
+  {
+   "needs": "hist-ire3-s5",
+   "strength": "helpful",
+   "why": "uses Free State state building and Catholic ethos",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses the Unionist state for education and identity in the North",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s6",
+   "strength": "helpful",
+   "why": "uses the 1937 Constitution and de Valera's cultural aims",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s11": [
+  {
+   "needs": "hist-ire3-s5",
+   "strength": "essential",
+   "why": "uses Cosgrave's Free State and the 1932 transfer of power",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s6",
+   "strength": "helpful",
+   "why": "uses de Valera's government and Governor-General dispute",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses unionist reactions in Northern Ireland",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-ire3-s10",
+   "strength": "helpful",
+   "why": "uses Catholic ethos and Church-state relations",
+   "confidence": "high"
+  }
+ ]
+}

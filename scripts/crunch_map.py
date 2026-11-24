@@ -20,10 +20,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from crunch_points import ROOT, items
+from crunch_exam_tags import tok
 
 # The AAC (coursework) and its share of the overall grade, from <subject>-exam-info.js. The cut covers the written paper only.
 AAC = {"biology": {"name": "Biology in Practice Investigation", "weight": 0.4},
-       "geography": {"name": "Geographical Investigation", "weight": 0.2}}
+       "geography": {"name": "Geographical Investigation", "weight": 0.2},
+       "history": {"name": "Research Study Report", "weight": 0.2}}
 
 
 def geo_track(sid):
@@ -37,6 +39,23 @@ def geo_track(sid):
     if ch == "geo-region-continental":
         return "region:" + sid
     return ""
+
+
+def hist_topics(kind):
+    return [["%s:hist-%s%d" % (kind, kind, n), t] for n, t in enumerate(HIST_TITLES[kind], 1)]
+
+
+HIST_TITLES = {"ire": ["Ireland and the Union, 1815-1870", "Movements for political and social reform, 1870-1914",
+                       "The pursuit of sovereignty and the impact of partition, 1912-1949", "The Irish diaspora, 1840-1966",
+                       "Politics and society in Northern Ireland, 1949-1993", "Government, economy and society in the Republic, 1949-1989"],
+               "eur": ["Nationalism and state formation in Europe, 1815-1871", "Nation states and international tensions, 1871-1920",
+                       "Dictatorship and democracy in Europe, 1920-1945", "Division and realignment in Europe, 1945-1992",
+                       "European retreat from empire and the aftermath, 1945-1990", "The United States and the world, 1945-1989"]}
+
+
+def hist_track(sid):
+    ch = sid.rsplit("-s", 1)[0]  # hist-ire3
+    return ch.split("-")[1][:3] + ":" + ch
 
 
 GEO_OPTIONS = ["global-interdependence", "geoecology", "culture-identity", "atmosphere-ocean"]  # Q13-15, 16-18, 19-21, 22-24
@@ -65,7 +84,31 @@ SUBJECTS = {
                   "picks": {"elective": [["elective:economic", "Economic Activities"], ["elective:human", "Human Environment"]],
                             "option": [["option:" + o, t] for o, t in zip(GEO_OPTIONS, ["Global Interdependence", "Geoecology", "Culture and Identity", "Atmosphere-Ocean Environment"])],
                             "region": [["region:geo-region-continental-s1", "India"], ["region:geo-region-continental-s2", "Brazil"]]}},
+    # HL: Q1 documents (100) on one topic, then three essays (100 each) from the student's other topics, each the
+    # student's pick of four titles; the alternative rules allow any three from two topics, so: the best 3 essays.
+    # Students study two Irish and two European topics. Every essay title is its own question (split), and its
+    # marks follow the model answer's paragraphs to the subsections they draw on (paragraphs).
+    "history": {"groups": {"docs": [0.25, None], "essay": [0.75, 3]},
+                "question": lambda q: ("docs" if q["sectionId"] == "hist-section1" else "essay", hist_track(q["chapterId"] + "-s0")),
+                "track": hist_track, "split": True, "paragraphs": True,
+                "picks": {"ire": hist_topics("ire"), "eur": hist_topics("eur")}, "pickCount": {"ire": 2, "eur": 2}},
 }
+
+
+def paragraph_slots(part, all_items, pos, idf, vec):
+    """One spread slot per model-answer paragraph, on the subsection of the part's notesRefs it shares the most
+    distinctive words with (all of them if it shares none). Each paragraph carries an equal share of the marks."""
+    refs = [r for r in part.get("notesRefs") or [] if r in all_items]
+    if not refs:
+        return []
+    paras = [x for x in (part.get("model") or "").split("\n") if tok(x)] or [""]
+    slots = []
+    for para in paras:
+        words = set(tok(para))
+        best = max(refs, key=lambda r: sum(idf.get(w, 0) for w in words & vec[r]) / len(vec[r]) ** 0.5, default=None)
+        hit = [best] if best and words & vec[best] else refs
+        slots.append([part["marks"] / len(paras), 0, [pos[i] for r in hit for i, _, _ in all_items[r][1]]])
+    return slots
 
 
 def variants(refs, track):
@@ -102,9 +145,22 @@ def exam_marks(qs, track):
 def papers(qs, all_items, pos, tags, cfg):
     """Each paper's questions as marking-point slots over item indexes, with their group in the paper structure."""
     by_year = {}
+    if cfg.get("paragraphs"):
+        import math
+        vec = {sid: {w for _, t, _ in rows for w in tok(t)} for sid, (_, rows) in all_items.items()}
+        df = {}
+        for ws in vec.values():
+            for w in ws:
+                df[w] = df.get(w, 0) + 1
+        idf = {w: math.log(len(vec) / d) for w, d in df.items()}
+    if cfg.get("split"):  # a choice of titles inside one question: each title is a question of its own
+        qs = [q for q0 in qs for q in ([q0] if cfg["question"](q0)[0] == "docs" else [{**q0, "parts": [p]} for p in q0["parts"]])]
     for q in qs:
         slots = []
         for p in q["parts"]:
+            if cfg.get("paragraphs") and q["id"] not in tags:
+                slots += paragraph_slots(p, all_items, pos, idf, vec)
+                continue
             tagged = tags.get(q["id"], {}).get(p["label"])
             if tagged is not None:
                 for s in tagged:
@@ -167,7 +223,7 @@ def main(subject):
     out.mkdir(parents=True, exist_ok=True)
     (out / "data.json").write_text(json.dumps(
         {"subject": subject, "chapters": chapters, "subs": subs, "items": rows, "links": links, "papers": paper_list,
-         "groups": cfg["groups"], "picks": cfg.get("picks", {}), "aac": AAC.get(subject)},
+         "groups": cfg["groups"], "picks": cfg.get("picks", {}), "pickCount": cfg.get("pickCount", {}), "aac": AAC.get(subject)},
         ensure_ascii=False, separators=(",", ":")))
     print(f"{len(rows)} items, {len(links)} links, {len(subs)} subsections, {len(chapters)} chapters, "
           f"{len(paper_list)} papers ({len(tags)} questions tagged to points) → {out / 'data.json'}")

@@ -1,0 +1,331 @@
+{
+ "hist-ire4-s1": [],
+ "hist-ire4-s2": [
+  {
+   "needs": "hist-ire4-s1",
+   "strength": "helpful",
+   "why": "chain-emigration and Famine emigration patterns",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire4-s3": [
+  {
+   "needs": "hist-ire4-s1",
+   "strength": "helpful",
+   "why": "Famine emigrants triggered anti-Irish hostility",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire4-s2",
+   "strength": "helpful",
+   "why": "settlement and occupations of emigrants abroad",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire4-s4": [
+  {
+   "needs": "hist-ire4-s3",
+   "strength": "helpful",
+   "why": "Irish-American political organisation and communities",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire4-s1",
+   "strength": "helpful",
+   "why": "Famine emigrants' bitterness fuelling Fenianism",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire4-s5": [
+  {
+   "needs": "hist-ire4-s4",
+   "strength": "essential",
+   "why": "uses Irish America, Clan na Gael and Devoy's networks",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire4-s3",
+   "strength": "helpful",
+   "why": "Irish-American political participation and leaders",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire4-s6": [
+  {
+   "needs": "hist-ire4-s2",
+   "strength": "helpful",
+   "why": "emigrant settlement and community abroad",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire4-s3",
+   "strength": "helpful",
+   "why": "Church in Irish-American political and social life",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire4-s7": [
+  {
+   "needs": "hist-ire4-s6",
+   "strength": "helpful",
+   "why": "Catholic Church's overseas expansion and clergy",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire4-s8": [
+  {
+   "needs": "hist-ire4-s3",
+   "strength": "helpful",
+   "why": "anti-Irish stereotypes abroad",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire4-s2",
+   "strength": "helpful",
+   "why": "emigration shaping images of Ireland",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire5-s1": [],
+ "hist-ire5-s2": [
+  {
+   "needs": "hist-ire5-s1",
+   "strength": "essential",
+   "why": "uses Unionist government, discrimination and Brookeborough legacy",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s3": [
+  {
+   "needs": "hist-ire5-s2",
+   "strength": "helpful",
+   "why": "civil rights movement and O'Neill's government",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s1",
+   "strength": "helpful",
+   "why": "discrimination against nationalists in public life",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s4": [
+  {
+   "needs": "hist-ire5-s2",
+   "strength": "essential",
+   "why": "civil rights crisis, Paisley and O'Neill's fall",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s1",
+   "strength": "helpful",
+   "why": "IRA border campaign and discrimination",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire5-s5": [
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "essential",
+   "why": "Direct Rule, Faulkner and internment background",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s6": [
+  {
+   "needs": "hist-ire5-s5",
+   "strength": "essential",
+   "why": "Sunningdale collapse and its legacy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "helpful",
+   "why": "Direct Rule and Provisional IRA origins",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s7": [
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "essential",
+   "why": "Provisionals, loyalist paramilitaries and Direct Rule origins",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s6",
+   "strength": "helpful",
+   "why": "hunger strikes and Anglo-Irish Agreement context",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s8": [
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "essential",
+   "why": "outbreak and violence of the Troubles",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s7",
+   "strength": "helpful",
+   "why": "paramilitary campaigns causing deaths and disruption",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire5-s9": [
+  {
+   "needs": "hist-ire5-s2",
+   "strength": "helpful",
+   "why": "Paisley's early career and civil rights",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "helpful",
+   "why": "Troubles context for cultural responses",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire5-s10": [
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "helpful",
+   "why": "Battle of the Bogside and 1969 violence",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire6-s1": [],
+ "hist-ire6-s2": [
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "essential",
+   "why": "uses 1950s stagnation, emigration and economic failure",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire6-s3": [
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "helpful",
+   "why": "Church role in health policy and Mother and Child",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "helpful",
+   "why": "economic expansion funding educational reform",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire6-s4": [
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "essential",
+   "why": "uses Lemass-era economy and free trade before 1970s shocks",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "helpful",
+   "why": "emigration and Fianna F\u00e1il-Inter-Party alternation",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire6-s5": [
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "helpful",
+   "why": "Free Trade Agreement and trade dependence",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "helpful",
+   "why": "1949 Act and anti-partition campaign context",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s4",
+   "strength": "helpful",
+   "why": "Lynch, Haughey and FitzGerald leadership",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire6-s6": [
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "essential",
+   "why": "move to free trade and economic reasons for EEC",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s5",
+   "strength": "helpful",
+   "why": "joint EEC entry with Britain",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire6-s7": [
+  {
+   "needs": "hist-ire6-s6",
+   "strength": "essential",
+   "why": "uses EEC applications, accession and the CAP basis",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "helpful",
+   "why": "free trade and economic modernisation before entry",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire6-s8": [
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "helpful",
+   "why": "1950s emigration and stagnation",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s3",
+   "strength": "helpful",
+   "why": "education and social change shaping women's status",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire6-s9": [
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "helpful",
+   "why": "McQuaid and Church power before Vatican II",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s3",
+   "strength": "helpful",
+   "why": "education reform and changing attitudes",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire6-s10": [
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "helpful",
+   "why": "Lemass-era modernisation behind television policy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s9",
+   "strength": "helpful",
+   "why": "censorship, Church influence and Irish culture",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s4",
+   "strength": "helpful",
+   "why": "Arms Crisis and government pressure on broadcasters",
+   "confidence": "low"
+  }
+ ]
+}

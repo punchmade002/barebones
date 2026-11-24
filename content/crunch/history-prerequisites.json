@@ -1,0 +1,1470 @@
+{
+ "hist-eur1-s1": [],
+ "hist-eur1-s10": [
+  {
+   "needs": "hist-eur1-s6",
+   "strength": "essential",
+   "why": "uses Napoleon III and the Second Empire",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s7",
+   "strength": "essential",
+   "why": "uses urban growth and public health problems",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur1-s11": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "helpful",
+   "why": "uses nationalism under the Vienna settlement",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur1-s2": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "essential",
+   "why": "uses Metternich's system and German Confederation",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s7",
+   "strength": "helpful",
+   "why": "economic and social causes of 1848 unrest",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur1-s3": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "essential",
+   "why": "uses German Confederation and the Zollverein",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s2",
+   "strength": "helpful",
+   "why": "uses failure of 1848 and Frankfurt Assembly",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s4",
+   "strength": "helpful",
+   "why": "Germany and Italy compared; Cavour and 1859 war",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur1-s4": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "essential",
+   "why": "uses Vienna settlement's division of Italy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s6",
+   "strength": "helpful",
+   "why": "uses Napoleon III's role in the 1859 war",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur1-s5": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "helpful",
+   "why": "uses Concert of Europe and Great Power settlement",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur1-s6": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "helpful",
+   "why": "uses Bourbon restoration under the Vienna settlement",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur1-s7": [],
+ "hist-eur1-s8": [
+  {
+   "needs": "hist-eur1-s7",
+   "strength": "essential",
+   "why": "uses factory system, urban growth and working conditions",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur1-s9": [
+  {
+   "needs": "hist-eur1-s7",
+   "strength": "essential",
+   "why": "uses factory system and child labour conditions",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s8",
+   "strength": "helpful",
+   "why": "uses Owen as socialist reformer and factory legislation",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s1": [],
+ "hist-eur2-s10": [
+  {
+   "needs": "hist-eur2-s1",
+   "strength": "essential",
+   "why": "uses Bismarck and the Kulturkampf",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s5",
+   "strength": "helpful",
+   "why": "uses the war that produced its literature",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s8",
+   "strength": "helpful",
+   "why": "uses Tsarist Russia and the pogroms",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s11": [
+  {
+   "needs": "hist-eur2-s7",
+   "strength": "helpful",
+   "why": "uses the second industrial revolution",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur2-s5",
+   "strength": "helpful",
+   "why": "uses wartime medical and technological demands",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s2": [
+  {
+   "needs": "hist-eur2-s1",
+   "strength": "essential",
+   "why": "uses Bismarck's alliance system that ended in 1890",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur2-s3": [
+  {
+   "needs": "hist-eur2-s2",
+   "strength": "essential",
+   "why": "uses colonial rivalry and the two blocs",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s1",
+   "strength": "helpful",
+   "why": "uses the new Reich and Bismarck's naval caution",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s4": [
+  {
+   "needs": "hist-eur2-s2",
+   "strength": "essential",
+   "why": "uses the two alliance blocs and Moroccan crises",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s1",
+   "strength": "helpful",
+   "why": "uses the Eastern Question and Three Emperors' League",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur2-s5": [
+  {
+   "needs": "hist-eur2-s4",
+   "strength": "essential",
+   "why": "uses the outbreak of war and July crisis",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s2",
+   "strength": "helpful",
+   "why": "uses alliance blocs shaping fronts",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s6": [
+  {
+   "needs": "hist-eur2-s5",
+   "strength": "essential",
+   "why": "uses the course and end of the war",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s8",
+   "strength": "helpful",
+   "why": "uses Russian revolution and Brest-Litovsk",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur2-s7": [
+  {
+   "needs": "hist-eur2-s1",
+   "strength": "essential",
+   "why": "uses the new Reich, its constitution and Bismarck's policies",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur2-s8": [
+  {
+   "needs": "hist-eur2-s5",
+   "strength": "helpful",
+   "why": "uses war's impact leading to revolution",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s2",
+   "strength": "helpful",
+   "why": "uses Russo-Japanese rivalry in Asia",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s9": [
+  {
+   "needs": "hist-eur2-s5",
+   "strength": "essential",
+   "why": "uses total war and the mobilisation of manpower",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur3-s1": [],
+ "hist-eur3-s10": [
+  {
+   "needs": "hist-eur3-s9",
+   "strength": "essential",
+   "why": "uses the course of the war and the Blitz",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "helpful",
+   "why": "uses Nazi Germany's economy and foreign labour",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur3-s6",
+   "strength": "helpful",
+   "why": "uses occupied France and Vichy collaboration",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur3-s11": [
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "essential",
+   "why": "uses Nazi ideology and the police state",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s9",
+   "strength": "helpful",
+   "why": "uses the war that enabled ghettos and camps",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s2",
+   "strength": "helpful",
+   "why": "uses Hitler's early antisemitism and Nazi rise",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur3-s12": [
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "essential",
+   "why": "uses Nazi state control, ideology and the Führer cult",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s2",
+   "strength": "helpful",
+   "why": "uses Nazi party's rise and early rallies",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur3-s13": [
+  {
+   "needs": "hist-eur3-s1",
+   "strength": "essential",
+   "why": "uses Mussolini's regime and fascist state",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "essential",
+   "why": "uses the Nazi state and Hitler's consolidation",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s9",
+   "strength": "helpful",
+   "why": "uses wartime context for radio and cinema",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur3-s2": [],
+ "hist-eur3-s3": [
+  {
+   "needs": "hist-eur3-s2",
+   "strength": "essential",
+   "why": "uses Hitler's rise and Weimar's collapse",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s1",
+   "strength": "helpful",
+   "why": "uses Mussolini as ally and fascist model",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur3-s4": [],
+ "hist-eur3-s5": [
+  {
+   "needs": "hist-eur3-s4",
+   "strength": "essential",
+   "why": "uses Stalin, the party struggle and the Five-Year Plans",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur3-s6": [
+  {
+   "needs": "hist-eur3-s9",
+   "strength": "helpful",
+   "why": "uses blitzkrieg and the fall of France",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "helpful",
+   "why": "uses Hitler's foreign policy and German expansion",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur3-s7": [],
+ "hist-eur3-s8": [
+  {
+   "needs": "hist-eur3-s7",
+   "strength": "essential",
+   "why": "uses unemployment, depressed regions and the means test",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur3-s9": [
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "essential",
+   "why": "uses Hitler's expansion and the road to war",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s4",
+   "strength": "helpful",
+   "why": "uses Stalin, the Nazi-Soviet Pact and Barbarossa",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s1",
+   "strength": "helpful",
+   "why": "uses Mussolini's Axis alliance and foreign policy",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s1": [],
+ "hist-eur4-s10": [
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "helpful",
+   "why": "uses de-Stalinisation thaw and Soviet censorship",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s9",
+   "strength": "helpful",
+   "why": "uses Simone de Beauvoir and feminism",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s11",
+   "strength": "helpful",
+   "why": "uses Vatican II and religious change",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur4-s11": [
+  {
+   "needs": "hist-eur4-s4",
+   "strength": "helpful",
+   "why": "uses Pope John Paul II's political role",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur4-s12": [
+  {
+   "needs": "hist-eur4-s9",
+   "strength": "helpful",
+   "why": "uses affluence, consumer society and leisure",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "helpful",
+   "why": "uses Cold War rivalry in sport",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s13": [
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "helpful",
+   "why": "uses nuclear deterrence and arms race",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s2": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "essential",
+   "why": "uses Berlin, German division and NATO origins",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s3": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "essential",
+   "why": "uses Sovietisation of Eastern Europe and Soviet control",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "essential",
+   "why": "uses Khrushchev, de-Stalinisation and Cold War setting",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s4": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "helpful",
+   "why": "builds on Soviet control of Eastern Europe",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "essential",
+   "why": "uses Khrushchev era, détente and Brezhnev-era Cold War",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s3",
+   "strength": "helpful",
+   "why": "1956 Hungary is earlier reform crushed by Soviets",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s5": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "helpful",
+   "why": "uses Marshall aid and Cold War push for unity",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s6",
+   "strength": "helpful",
+   "why": "uses Marshall Aid, OEEC and West European recovery",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur4-s6": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "helpful",
+   "why": "uses Marshall Aid and the Cold War division",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur4-s7": [
+  {
+   "needs": "hist-eur4-s6",
+   "strength": "essential",
+   "why": "uses the post-war boom and Bretton Woods that ended",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s5",
+   "strength": "helpful",
+   "why": "uses the EEC and Thatcher's European policy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "helpful",
+   "why": "uses the second Cold War and Euromissiles",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur4-s8": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "helpful",
+   "why": "uses Soviet-led economic alternatives and Sovietisation",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "helpful",
+   "why": "uses Khrushchev's reform attempts and de-Stalinisation",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s4",
+   "strength": "helpful",
+   "why": "uses Solidarity and Gorbachev's reforms",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s9": [
+  {
+   "needs": "hist-eur4-s6",
+   "strength": "helpful",
+   "why": "uses post-war affluence, welfare state and labour shortages",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s1": [],
+ "hist-eur5-s10": [
+  {
+   "needs": "hist-eur5-s4",
+   "strength": "helpful",
+   "why": "uses French colonial education and civilising mission",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur5-s5",
+   "strength": "helpful",
+   "why": "uses Nigeria and Achebe's post-colonial setting",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s2": [
+  {
+   "needs": "hist-eur5-s1",
+   "strength": "helpful",
+   "why": "uses Japanese conquests and decision to leave empire",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur5-s3": [
+  {
+   "needs": "hist-eur5-s1",
+   "strength": "helpful",
+   "why": "compares British withdrawal and Labour's decision to leave",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s4": [
+  {
+   "needs": "hist-eur5-s3",
+   "strength": "helpful",
+   "why": "uses Suez and Nasser's effect on French and British will",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur5-s5": [
+  {
+   "needs": "hist-eur5-s4",
+   "strength": "helpful",
+   "why": "uses wave of African independence and wind of change",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s6": [
+  {
+   "needs": "hist-eur5-s5",
+   "strength": "essential",
+   "why": "uses Belgian Congo and Lumumba crisis",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s7": [
+  {
+   "needs": "hist-eur5-s5",
+   "strength": "essential",
+   "why": "uses Biafran War, Tanzania and Nyerere's rule",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s8": [
+  {
+   "needs": "hist-eur5-s1",
+   "strength": "helpful",
+   "why": "uses Commonwealth ties and Indian independence",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur5-s4",
+   "strength": "helpful",
+   "why": "uses Algeria and French decolonisation",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s9": [
+  {
+   "needs": "hist-eur5-s8",
+   "strength": "essential",
+   "why": "uses French migration, assimilation and Britain comparison",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur5-s4",
+   "strength": "essential",
+   "why": "uses Algerian war, pieds-noirs and harkis legacy",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s1": [],
+ "hist-eur6-s10": [
+  {
+   "needs": "hist-eur6-s9",
+   "strength": "essential",
+   "why": "uses segregation, legal challenge and King's career",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s11": [
+  {
+   "needs": "hist-eur6-s4",
+   "strength": "essential",
+   "why": "uses the Red Scare and McCarthyism",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s9",
+   "strength": "helpful",
+   "why": "uses King, Black Power and civil rights",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s3",
+   "strength": "helpful",
+   "why": "uses Vietnam War protest behind counter-culture",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s12": [
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses Kennedy's 1960 election and Nixon-era politics",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s13": [
+  {
+   "needs": "hist-eur6-s2",
+   "strength": "helpful",
+   "why": "uses Cold War rivalry and nuclear weapons",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s5",
+   "strength": "helpful",
+   "why": "uses Star Wars and Reagan's military build-up",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s6",
+   "strength": "helpful",
+   "why": "uses the military-industrial complex and defence investment",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s2": [
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses presidents Truman and Kennedy",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s3": [
+  {
+   "needs": "hist-eur6-s2",
+   "strength": "essential",
+   "why": "uses Vietnam to 1972 and containment",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses Johnson's presidency and Great Society",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s4": [
+  {
+   "needs": "hist-eur6-s2",
+   "strength": "helpful",
+   "why": "uses Cold War containment and Korea",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s3",
+   "strength": "helpful",
+   "why": "uses Vietnam escalation fuelling anti-war protest",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s9",
+   "strength": "helpful",
+   "why": "uses civil rights movement and race relations",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s5": [
+  {
+   "needs": "hist-eur6-s2",
+   "strength": "essential",
+   "why": "uses Vietnam to 1972 and Cold War policy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses Nixon, Carter and Reagan presidencies",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s3",
+   "strength": "helpful",
+   "why": "uses Vietnam War damage and credibility loss",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur6-s6": [
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses Truman, Eisenhower and Kennedy presidencies",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur6-s2",
+   "strength": "helpful",
+   "why": "uses Marshall Plan and defence spending",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur6-s7": [
+  {
+   "needs": "hist-eur6-s6",
+   "strength": "essential",
+   "why": "uses the post-war boom and Bretton Woods",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s3",
+   "strength": "helpful",
+   "why": "uses Vietnam costs and the Great Society",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s8": [
+  {
+   "needs": "hist-eur6-s6",
+   "strength": "helpful",
+   "why": "uses the post-war boom behind affluence",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s9": [
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses federal and states' rights and presidents",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s4",
+   "strength": "helpful",
+   "why": "uses race relations and Cold War image",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire1-s1": [],
+ "hist-ire1-s2": [
+  {
+   "needs": "hist-ire1-s1",
+   "strength": "essential",
+   "why": "uses Catholic Association, Emancipation and O'Connell's early career",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire1-s3": [
+  {
+   "needs": "hist-ire1-s2",
+   "strength": "helpful",
+   "why": "Poor Law 1838 underlies the Poor Law Extension Act",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire1-s1",
+   "strength": "helpful",
+   "why": "Dublin Castle administration and Union government machinery",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire1-s4": [
+  {
+   "needs": "hist-ire1-s3",
+   "strength": "essential",
+   "why": "private relief responds to the Famine and government policy",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire1-s5": [
+  {
+   "needs": "hist-ire1-s4",
+   "strength": "essential",
+   "why": "post-Famine economy builds on Famine population and land impact",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire1-s6": [
+  {
+   "needs": "hist-ire1-s2",
+   "strength": "helpful",
+   "why": "Young Ireland and 1848 precede Fenianism and Repeal legacy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire1-s4",
+   "strength": "helpful",
+   "why": "Famine emigration and bitterness feed Fenianism and Tenant League",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire1-s5",
+   "strength": "helpful",
+   "why": "post-Famine landlordism underlies Tenant League demands",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire1-s7": [
+  {
+   "needs": "hist-ire1-s4",
+   "strength": "helpful",
+   "why": "Famine shaped devotional revolution, language decline and identities",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire1-s2",
+   "strength": "helpful",
+   "why": "Young Ireland and Thomas Davis cultural nationalism",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire2-s1": [],
+ "hist-ire2-s10": [
+  {
+   "needs": "hist-ire2-s9",
+   "strength": "essential",
+   "why": "compares the GAA and builds on its founding",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire2-s4",
+   "strength": "helpful",
+   "why": "uses Parnell's fall as backdrop to cultural revival",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire2-s11": [],
+ "hist-ire2-s2": [
+  {
+   "needs": "hist-ire2-s1",
+   "strength": "essential",
+   "why": "uses Parnell, the New Departure and Home Rule party",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire2-s3": [
+  {
+   "needs": "hist-ire2-s1",
+   "strength": "essential",
+   "why": "uses Parnell's Irish Party and Home Rule movement",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire2-s2",
+   "strength": "helpful",
+   "why": "uses the Land War and coercion background",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire2-s4": [
+  {
+   "needs": "hist-ire2-s3",
+   "strength": "essential",
+   "why": "uses the First Home Rule Bill and 1885-86 elections",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire2-s2",
+   "strength": "helpful",
+   "why": "uses the Plan of Campaign and land agitation",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire2-s5": [
+  {
+   "needs": "hist-ire2-s3",
+   "strength": "essential",
+   "why": "uses the First Home Rule Bill and unionist mobilisation 1886",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire2-s4",
+   "strength": "helpful",
+   "why": "uses the Second Home Rule Bill and Redmond's party",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire2-s6": [
+  {
+   "needs": "hist-ire2-s4",
+   "strength": "helpful",
+   "why": "uses the Irish Party's attitude to suffrage and nationalism",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-ire2-s5",
+   "strength": "helpful",
+   "why": "uses unionism for suffrage, nationalism and unionism",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire2-s7": [],
+ "hist-ire2-s8": [
+  {
+   "needs": "hist-ire2-s2",
+   "strength": "helpful",
+   "why": "uses Congested Districts Board and constructive unionism",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire2-s9": [
+  {
+   "needs": "hist-ire2-s4",
+   "strength": "helpful",
+   "why": "uses the Parnell split and the IRB",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire3-s1": [],
+ "hist-ire3-s10": [
+  {
+   "needs": "hist-ire3-s5",
+   "strength": "helpful",
+   "why": "uses Free State state building and Catholic ethos",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses the Unionist state for education and identity in the North",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s6",
+   "strength": "helpful",
+   "why": "uses the 1937 Constitution and de Valera's cultural aims",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s11": [
+  {
+   "needs": "hist-ire3-s5",
+   "strength": "essential",
+   "why": "uses Cosgrave's Free State and the 1932 transfer of power",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s6",
+   "strength": "helpful",
+   "why": "uses de Valera's government and Governor-General dispute",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses unionist reactions in Northern Ireland",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-ire3-s10",
+   "strength": "helpful",
+   "why": "uses Catholic ethos and Church-state relations",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire3-s2": [
+  {
+   "needs": "hist-ire3-s1",
+   "strength": "essential",
+   "why": "uses the 1916 Rising and its shift in opinion",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire3-s3": [
+  {
+   "needs": "hist-ire3-s1",
+   "strength": "essential",
+   "why": "uses the Home Rule crisis and Ulster Volunteers",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s2",
+   "strength": "helpful",
+   "why": "uses War of Independence violence behind the 1920 Act",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s4": [
+  {
+   "needs": "hist-ire3-s2",
+   "strength": "essential",
+   "why": "uses the War of Independence, Truce and Dáil",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses partition and the Northern Ireland question",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire3-s5": [
+  {
+   "needs": "hist-ire3-s4",
+   "strength": "essential",
+   "why": "uses the Treaty and Dáil debates behind the split",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses the Boundary Commission and Northern state",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s6": [
+  {
+   "needs": "hist-ire3-s5",
+   "strength": "essential",
+   "why": "uses Cosgrave's state and Fianna Fáil's rise to power",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s4",
+   "strength": "essential",
+   "why": "uses the Treaty terms and oath that de Valera dismantles",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses partition and the ports and North in 1938",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s7": [
+  {
+   "needs": "hist-ire3-s6",
+   "strength": "helpful",
+   "why": "uses the Economic War and protectionist policy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s5",
+   "strength": "helpful",
+   "why": "uses Cumann na nGaedheal government and 1932 change",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "helpful",
+   "why": "uses partition's economic effects",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire3-s8": [
+  {
+   "needs": "hist-ire3-s6",
+   "strength": "essential",
+   "why": "uses de Valera, 1938 Agreements and Treaty ports for neutrality",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s7",
+   "strength": "helpful",
+   "why": "uses the wartime economy's prewar state",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire3-s9": [
+  {
+   "needs": "hist-ire3-s3",
+   "strength": "essential",
+   "why": "uses the Northern Ireland state and unionist government",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire3-s8",
+   "strength": "helpful",
+   "why": "compares with neutral South's wartime experience",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire4-s1": [],
+ "hist-ire4-s2": [
+  {
+   "needs": "hist-ire4-s1",
+   "strength": "helpful",
+   "why": "chain-emigration and Famine emigration patterns",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire4-s3": [
+  {
+   "needs": "hist-ire4-s1",
+   "strength": "helpful",
+   "why": "Famine emigrants triggered anti-Irish hostility",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire4-s2",
+   "strength": "helpful",
+   "why": "settlement and occupations of emigrants abroad",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire4-s4": [
+  {
+   "needs": "hist-ire4-s3",
+   "strength": "helpful",
+   "why": "Irish-American political organisation and communities",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire4-s1",
+   "strength": "helpful",
+   "why": "Famine emigrants' bitterness fuelling Fenianism",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire4-s5": [
+  {
+   "needs": "hist-ire4-s4",
+   "strength": "essential",
+   "why": "uses Irish America, Clan na Gael and Devoy's networks",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire4-s3",
+   "strength": "helpful",
+   "why": "Irish-American political participation and leaders",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire4-s6": [
+  {
+   "needs": "hist-ire4-s2",
+   "strength": "helpful",
+   "why": "emigrant settlement and community abroad",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire4-s3",
+   "strength": "helpful",
+   "why": "Church in Irish-American political and social life",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire4-s7": [
+  {
+   "needs": "hist-ire4-s6",
+   "strength": "helpful",
+   "why": "Catholic Church's overseas expansion and clergy",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire4-s8": [
+  {
+   "needs": "hist-ire4-s3",
+   "strength": "helpful",
+   "why": "anti-Irish stereotypes abroad",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire4-s2",
+   "strength": "helpful",
+   "why": "emigration shaping images of Ireland",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire5-s1": [],
+ "hist-ire5-s10": [
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "helpful",
+   "why": "Battle of the Bogside and 1969 violence",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s2": [
+  {
+   "needs": "hist-ire5-s1",
+   "strength": "essential",
+   "why": "uses Unionist government, discrimination and Brookeborough legacy",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s3": [
+  {
+   "needs": "hist-ire5-s2",
+   "strength": "helpful",
+   "why": "civil rights movement and O'Neill's government",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s1",
+   "strength": "helpful",
+   "why": "discrimination against nationalists in public life",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s4": [
+  {
+   "needs": "hist-ire5-s2",
+   "strength": "essential",
+   "why": "civil rights crisis, Paisley and O'Neill's fall",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s1",
+   "strength": "helpful",
+   "why": "IRA border campaign and discrimination",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire5-s5": [
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "essential",
+   "why": "Direct Rule, Faulkner and internment background",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s6": [
+  {
+   "needs": "hist-ire5-s5",
+   "strength": "essential",
+   "why": "Sunningdale collapse and its legacy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "helpful",
+   "why": "Direct Rule and Provisional IRA origins",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s7": [
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "essential",
+   "why": "Provisionals, loyalist paramilitaries and Direct Rule origins",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s6",
+   "strength": "helpful",
+   "why": "hunger strikes and Anglo-Irish Agreement context",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire5-s8": [
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "essential",
+   "why": "outbreak and violence of the Troubles",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s7",
+   "strength": "helpful",
+   "why": "paramilitary campaigns causing deaths and disruption",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire5-s9": [
+  {
+   "needs": "hist-ire5-s2",
+   "strength": "helpful",
+   "why": "Paisley's early career and civil rights",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire5-s4",
+   "strength": "helpful",
+   "why": "Troubles context for cultural responses",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire6-s1": [],
+ "hist-ire6-s10": [
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "helpful",
+   "why": "Lemass-era modernisation behind television policy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s9",
+   "strength": "helpful",
+   "why": "censorship, Church influence and Irish culture",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s4",
+   "strength": "helpful",
+   "why": "Arms Crisis and government pressure on broadcasters",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire6-s2": [
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "essential",
+   "why": "uses 1950s stagnation, emigration and economic failure",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire6-s3": [
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "helpful",
+   "why": "Church role in health policy and Mother and Child",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "helpful",
+   "why": "economic expansion funding educational reform",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire6-s4": [
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "essential",
+   "why": "uses Lemass-era economy and free trade before 1970s shocks",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "helpful",
+   "why": "emigration and Fianna Fáil-Inter-Party alternation",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire6-s5": [
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "helpful",
+   "why": "Free Trade Agreement and trade dependence",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "helpful",
+   "why": "1949 Act and anti-partition campaign context",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s4",
+   "strength": "helpful",
+   "why": "Lynch, Haughey and FitzGerald leadership",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire6-s6": [
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "essential",
+   "why": "move to free trade and economic reasons for EEC",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s5",
+   "strength": "helpful",
+   "why": "joint EEC entry with Britain",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire6-s7": [
+  {
+   "needs": "hist-ire6-s6",
+   "strength": "essential",
+   "why": "uses EEC applications, accession and the CAP basis",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s2",
+   "strength": "helpful",
+   "why": "free trade and economic modernisation before entry",
+   "confidence": "high"
+  }
+ ],
+ "hist-ire6-s8": [
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "helpful",
+   "why": "1950s emigration and stagnation",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s3",
+   "strength": "helpful",
+   "why": "education and social change shaping women's status",
+   "confidence": "low"
+  }
+ ],
+ "hist-ire6-s9": [
+  {
+   "needs": "hist-ire6-s1",
+   "strength": "helpful",
+   "why": "McQuaid and Church power before Vatican II",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-ire6-s3",
+   "strength": "helpful",
+   "why": "education reform and changing attitudes",
+   "confidence": "low"
+  }
+ ]
+}

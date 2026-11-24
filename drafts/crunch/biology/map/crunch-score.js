@@ -17,9 +17,9 @@
   const byGroup = qs => { const by = {}; for (const q of qs) (by[gOf(q)] ||= []).push(q); return by; };
 
   // The student's own course: subsections on a track they didn't pick ("option:geoecology" when they study
-  // another option) drop out, and so do questions that need another track. picks = {kind: track}.
+  // another option) drop out, and so do questions that need another track. picks = {kind: track or [tracks]}.
   globalThis.crunchCourse = function (D, picks) {
-    const on = t => !t || picks[t.split(":")[0]] === t;
+    const on = t => !t || [].concat(picks[t.split(":")[0]]).includes(t); // a kind can hold one pick or several (History topics)
     const keep = D.items.map(r => on(D.subs[r[1]][5]));
     const at = new Int32Array(D.items.length).fill(-1);
     let n = 0;

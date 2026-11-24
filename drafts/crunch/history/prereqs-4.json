@@ -1,0 +1,425 @@
+{
+ "hist-eur4-s1": [],
+ "hist-eur4-s2": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "essential",
+   "why": "uses Berlin, German division and NATO origins",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s3": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "essential",
+   "why": "uses Sovietisation of Eastern Europe and Soviet control",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "essential",
+   "why": "uses Khrushchev, de-Stalinisation and Cold War setting",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s4": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "helpful",
+   "why": "builds on Soviet control of Eastern Europe",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "essential",
+   "why": "uses Khrushchev era, d\u00e9tente and Brezhnev-era Cold War",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s3",
+   "strength": "helpful",
+   "why": "1956 Hungary is earlier reform crushed by Soviets",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s5": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "helpful",
+   "why": "uses Marshall aid and Cold War push for unity",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s6",
+   "strength": "helpful",
+   "why": "uses Marshall Aid, OEEC and West European recovery",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur4-s6": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "helpful",
+   "why": "uses Marshall Aid and the Cold War division",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur4-s7": [
+  {
+   "needs": "hist-eur4-s6",
+   "strength": "essential",
+   "why": "uses the post-war boom and Bretton Woods that ended",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s5",
+   "strength": "helpful",
+   "why": "uses the EEC and Thatcher's European policy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "helpful",
+   "why": "uses the second Cold War and Euromissiles",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur4-s8": [
+  {
+   "needs": "hist-eur4-s1",
+   "strength": "helpful",
+   "why": "uses Soviet-led economic alternatives and Sovietisation",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "helpful",
+   "why": "uses Khrushchev's reform attempts and de-Stalinisation",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s4",
+   "strength": "helpful",
+   "why": "uses Solidarity and Gorbachev's reforms",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s9": [
+  {
+   "needs": "hist-eur4-s6",
+   "strength": "helpful",
+   "why": "uses post-war affluence, welfare state and labour shortages",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s10": [
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "helpful",
+   "why": "uses de-Stalinisation thaw and Soviet censorship",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s9",
+   "strength": "helpful",
+   "why": "uses Simone de Beauvoir and feminism",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s11",
+   "strength": "helpful",
+   "why": "uses Vatican II and religious change",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur4-s11": [
+  {
+   "needs": "hist-eur4-s4",
+   "strength": "helpful",
+   "why": "uses Pope John Paul II's political role",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur4-s12": [
+  {
+   "needs": "hist-eur4-s9",
+   "strength": "helpful",
+   "why": "uses affluence, consumer society and leisure",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "helpful",
+   "why": "uses Cold War rivalry in sport",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur4-s13": [
+  {
+   "needs": "hist-eur4-s2",
+   "strength": "helpful",
+   "why": "uses nuclear deterrence and arms race",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s1": [],
+ "hist-eur5-s2": [
+  {
+   "needs": "hist-eur5-s1",
+   "strength": "helpful",
+   "why": "uses Japanese conquests and decision to leave empire",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur5-s3": [
+  {
+   "needs": "hist-eur5-s1",
+   "strength": "helpful",
+   "why": "compares British withdrawal and Labour's decision to leave",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s4": [
+  {
+   "needs": "hist-eur5-s3",
+   "strength": "helpful",
+   "why": "uses Suez and Nasser's effect on French and British will",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur5-s5": [
+  {
+   "needs": "hist-eur5-s4",
+   "strength": "helpful",
+   "why": "uses wave of African independence and wind of change",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s6": [
+  {
+   "needs": "hist-eur5-s5",
+   "strength": "essential",
+   "why": "uses Belgian Congo and Lumumba crisis",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s7": [
+  {
+   "needs": "hist-eur5-s5",
+   "strength": "essential",
+   "why": "uses Biafran War, Tanzania and Nyerere's rule",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s8": [
+  {
+   "needs": "hist-eur5-s1",
+   "strength": "helpful",
+   "why": "uses Commonwealth ties and Indian independence",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur5-s4",
+   "strength": "helpful",
+   "why": "uses Algeria and French decolonisation",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s9": [
+  {
+   "needs": "hist-eur5-s8",
+   "strength": "essential",
+   "why": "uses French migration, assimilation and Britain comparison",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur5-s4",
+   "strength": "essential",
+   "why": "uses Algerian war, pieds-noirs and harkis legacy",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur5-s10": [
+  {
+   "needs": "hist-eur5-s4",
+   "strength": "helpful",
+   "why": "uses French colonial education and civilising mission",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur5-s5",
+   "strength": "helpful",
+   "why": "uses Nigeria and Achebe's post-colonial setting",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s1": [],
+ "hist-eur6-s2": [
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses presidents Truman and Kennedy",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s3": [
+  {
+   "needs": "hist-eur6-s2",
+   "strength": "essential",
+   "why": "uses Vietnam to 1972 and containment",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses Johnson's presidency and Great Society",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s4": [
+  {
+   "needs": "hist-eur6-s2",
+   "strength": "helpful",
+   "why": "uses Cold War containment and Korea",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s3",
+   "strength": "helpful",
+   "why": "uses Vietnam escalation fuelling anti-war protest",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s9",
+   "strength": "helpful",
+   "why": "uses civil rights movement and race relations",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s5": [
+  {
+   "needs": "hist-eur6-s2",
+   "strength": "essential",
+   "why": "uses Vietnam to 1972 and Cold War policy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses Nixon, Carter and Reagan presidencies",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s3",
+   "strength": "helpful",
+   "why": "uses Vietnam War damage and credibility loss",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur6-s6": [
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses Truman, Eisenhower and Kennedy presidencies",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur6-s2",
+   "strength": "helpful",
+   "why": "uses Marshall Plan and defence spending",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur6-s7": [
+  {
+   "needs": "hist-eur6-s6",
+   "strength": "essential",
+   "why": "uses the post-war boom and Bretton Woods",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s3",
+   "strength": "helpful",
+   "why": "uses Vietnam costs and the Great Society",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s8": [
+  {
+   "needs": "hist-eur6-s6",
+   "strength": "helpful",
+   "why": "uses the post-war boom behind affluence",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s9": [
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses federal and states' rights and presidents",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s4",
+   "strength": "helpful",
+   "why": "uses race relations and Cold War image",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur6-s10": [
+  {
+   "needs": "hist-eur6-s9",
+   "strength": "essential",
+   "why": "uses segregation, legal challenge and King's career",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s11": [
+  {
+   "needs": "hist-eur6-s4",
+   "strength": "essential",
+   "why": "uses the Red Scare and McCarthyism",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s9",
+   "strength": "helpful",
+   "why": "uses King, Black Power and civil rights",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s3",
+   "strength": "helpful",
+   "why": "uses Vietnam War protest behind counter-culture",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s12": [
+  {
+   "needs": "hist-eur6-s1",
+   "strength": "helpful",
+   "why": "uses Kennedy's 1960 election and Nixon-era politics",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur6-s13": [
+  {
+   "needs": "hist-eur6-s2",
+   "strength": "helpful",
+   "why": "uses Cold War rivalry and nuclear weapons",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s5",
+   "strength": "helpful",
+   "why": "uses Star Wars and Reagan's military build-up",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur6-s6",
+   "strength": "helpful",
+   "why": "uses the military-industrial complex and defence investment",
+   "confidence": "high"
+  }
+ ]
+}
