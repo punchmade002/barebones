@@ -111,10 +111,10 @@
     }
     const f = Array.from(sum, s => s / (used || 1));
     for (let i = 1; i < f.length; i++) f[i] = Math.max(f[i], f[i - 1]); // keeping more never scores less
-    // realised % for a model level; above the top level everything is kept, which scores 100
+    // realised % for a model level. Points the model calls worthless sit at level 100: a target above f(100) - 5
+    // keeps them too (the backtest can't rank them, so none is hidden).
     return v => {
-      if (v > 100) return 100;
-      const x = Math.max(0, v) / 2, i = Math.min(levels.length - 2, Math.floor(x)), t = x - i;
+      const x = Math.max(0, Math.min(100, v)) / 2, i = Math.min(levels.length - 2, Math.floor(x)), t = x - i;
       return f[i] + (f[i + 1] - f[i]) * t;
     };
   };

@@ -1,0 +1,368 @@
+{
+ "geo-population-migration-s6.0.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.0.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.0.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.0.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.0.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.0.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.1.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.1.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.1.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.1.2": {
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.44.1",
+    "strength": "helpful",
+    "why": "holdings subdivided at inheritance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.1.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.1.4": {
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.8.0",
+    "strength": "helpful",
+    "why": "drought from failed monsoon",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s6.1.5": {
+  "needs": []
+ },
+ "geo-population-migration-s6.2.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.2.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.2.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.2.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.2.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.2.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.2.5": {
+  "needs": []
+ },
+ "geo-population-migration-s6.3.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.3.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.3.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.4.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.4.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.4.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.4.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.4.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.5.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.5.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.5.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.5.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.5.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.5.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.5.5": {
+  "needs": []
+ },
+ "geo-population-migration-s6.6.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.6.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.6.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.6.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.6.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.6.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.6.5": {
+  "needs": []
+ },
+ "geo-population-migration-s6.6.6": {
+  "needs": []
+ },
+ "geo-population-migration-s6.6.7": {
+  "needs": []
+ },
+ "geo-population-migration-s6.7.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.7.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.7.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.7.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.7.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.7.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.8.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.8.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.8.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.8.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.8.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.9.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.9.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.9.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.9.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.9.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.9.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.9.5": {
+  "needs": []
+ },
+ "geo-population-migration-s6.9.6": {
+  "needs": []
+ },
+ "geo-population-migration-s6.9.7": {
+  "needs": []
+ },
+ "geo-population-migration-s6.10.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.10.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.10.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.10.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.10.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.10.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.11.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.11.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.11.1": {
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.44.0",
+    "strength": "helpful",
+    "why": "small fragmented holdings",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.8.0",
+    "strength": "helpful",
+    "why": "drought",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s6.11.2": {
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.59.2",
+    "strength": "helpful",
+    "why": "informal sector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.11.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.11.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.11.5": {
+  "needs": []
+ },
+ "geo-population-migration-s6.12.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.12.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.12.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.12.2": {
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.59.2",
+    "strength": "helpful",
+    "why": "informal work",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s6.12.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.12.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.12.5": {
+  "needs": []
+ },
+ "geo-population-migration-s6.12.6": {
+  "needs": []
+ },
+ "geo-population-migration-s6.13.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.13.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.13.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.13.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.13.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.13.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.13.5": {
+  "needs": []
+ },
+ "geo-population-migration-s6.14.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.14.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.14.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.14.2": {
+  "needs": []
+ },
+ "geo-population-migration-s6.14.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.14.4": {
+  "needs": []
+ },
+ "geo-population-migration-s6.14.5": {
+  "needs": []
+ },
+ "geo-population-migration-s6.14.6": {
+  "needs": []
+ },
+ "geo-population-migration-s6.15.b": {
+  "needs": []
+ },
+ "geo-population-migration-s6.15.0": {
+  "needs": []
+ },
+ "geo-population-migration-s6.15.1": {
+  "needs": []
+ },
+ "geo-population-migration-s6.15.2": {
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.59.2",
+    "strength": "helpful",
+    "why": "informal sector",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s6.15.3": {
+  "needs": []
+ },
+ "geo-population-migration-s6.15.4": {
+  "needs": []
+ }
+}

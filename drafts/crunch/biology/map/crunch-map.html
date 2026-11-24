@@ -94,7 +94,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
         <div class="stat"><span>Target grade</span><b id="s-grade">—</b><span id="s-band">&nbsp;</span></div>
         <div class="stat"><span>Points kept</span><b id="s-kept">—</b><span id="s-kept-of">&nbsp;</span></div>
         <div class="stat"><span>Study effort cut</span><b id="s-effort">—</b><span>long or complex points count double</span></div>
-        <div class="stat"><span>Marks covered</span><b id="s-cov">—</b><span id="s-cov-note">target + 5% margin</span></div>
+        <div class="stat"><span>Expected score</span><b id="s-cov">—</b><span id="s-cov-note">target + 5% margin</span></div>
       </div>
       <div class="chartwrap" id="wrap">
         <canvas id="cv" aria-label="Scatter of all note points by course position and the grade that needs them"></canvas>
@@ -134,13 +134,14 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
             <label for="t-helpw">Helpful link weight (essential = 1) <span class="num" id="v-helpw"></span><input id="t-helpw" type="range" min="0" max="1" step="0.05" value="0.5"></label>
             <label for="t-gape">Marks lost when an essential prerequisite is hidden <span class="num" id="v-gape"></span><input id="t-gape" type="range" min="0" max="1" step="0.05" value="0.5"></label>
             <label for="t-gaph">Marks lost when a helpful prerequisite is hidden <span class="num" id="v-gaph"></span><input id="t-gaph" type="range" min="0" max="1" step="0.05" value="0.2"></label>
+            <label for="t-exact">Marks on the exact points asked before (the rest spreads over their topic) <span class="num" id="v-exact"></span><input id="t-exact" type="range" min="0" max="1" step="0.05" value="0.5"></label>
             <label for="t-half">Recent papers count more: half-life in years <span class="num" id="v-half"></span><input id="t-half" type="range" min="1" max="20" step="1" value="8"></label>
             <label for="t-new">Share of the 2027 paper on new-course content <span class="num" id="v-new"></span><input id="t-new" type="range" min="0" max="0.4" step="0.01" value="0.10"></label>
             <label for="t-choice" style="grid-template-columns:auto minmax(0,1fr);align-items:center"><input id="t-choice" type="checkbox" checked style="grid-column:auto;width:auto">Question choice: drop the optional questions you're least ready for (5 of 6 answered)</label>
             <p class="note" id="t-status">&nbsp;</p>
           </div>
         </details>
-        <p class="note">Exam value: each Higher Level paper from 2015–2025 (old course) is re-marked as if it were the 2027 paper. The old short questions are the compulsory Q1, and the long questions are the ones you choose from. Where exam parts aren’t yet tagged to points, a part’s marks are split evenly across its subsection. Subsections the old papers never tested are new-course content, given course-average value. Points in a loop (each needs the other) are bundled: kept or hidden together, with one shared value.</p>
+        <p class="note">Exam value: each Higher Level paper from 2015–2025 (old course) is re-marked as if it were the 2027 paper. The old short questions are the compulsory Q1, and the long questions are the ones you choose from. Every exam part is tagged to the note points that earn its marks; half its marks go to those points and half spread over their topic, because new papers ask other points of the same topics. Positions are backtested: the cut is chosen from older papers and marked on newer ones, so the grade is what you’d really score. Subsections the old papers never tested are new-course content, given course-average value. Points in a loop (each needs the other) are bundled: kept or hidden together, with one shared value.</p>
       </section>
     </aside>
   </div>
@@ -159,7 +160,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
 
   let D, R, N, totalCost, grade = 55, sel = -1, hover = -1, W = 0, H = 0, grid = null, X, Y;
   const params = () => ({ decay: +$("t-decay").value, helpW: +$("t-helpw").value, gapE: +$("t-gape").value, gapH: +$("t-gaph").value,
-    halfLife: +$("t-half").value, newShare: +$("t-new").value, choice: $("t-choice").checked });
+    halfLife: +$("t-half").value, newShare: +$("t-new").value, choice: $("t-choice").checked, exact: +$("t-exact").value });
   let chance = [];
   const isCut = i => R.y[i] >= grade;
   const sub = i => D.subs[D.items[i][1]];
@@ -170,9 +171,12 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   function score() {
     const t0 = performance.now();
     R = crunchScore(D, params());
+    // Re-place every point by what a student would really score: the cut is backtested on papers it didn't see.
+    const real = crunchCalibrate(D, params());
+    R.y = Float64Array.from(R.y, v => real(v + 5) - 5);
     chance = crunchChance(D, +$("t-half").value);
     $("t-status").textContent = `Scored ${fmt(N)} points in ${Math.round(performance.now() - t0)} ms · ${R.loops.length} loops bundled`;
-    for (const k of ["decay", "helpw", "gape", "gaph", "new"]) $("v-" + k).textContent = (+$("t-" + k).value).toFixed(2);
+    for (const k of ["decay", "helpw", "gape", "gaph", "new", "exact"]) $("v-" + k).textContent = (+$("t-" + k).value).toFixed(2);
     $("v-half").textContent = $("t-half").value;
     layout(); lists(); update();
   }
@@ -258,8 +262,8 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   function update() {
     const cutPts = []; let keptCost = 0, kept = 0;
     for (let i = 0; i < N; i++) if (!isCut(i)) { kept++; keptCost += D.items[i][2]; }
-    // marks covered = coverage after the last cut this target allows
-    let cov = 100; for (const s of R.steps) { if (s >= grade + 5) cov = s; else break; }
+    // backtested marks: the realised score where the cut stops (the lowest hidden point's level)
+    let cov = 100; for (let i = 0; i < N; i++) if (isCut(i)) cov = Math.min(cov, R.y[i] + 5);
     $("s-grade").textContent = grade + "%";
     $("s-band").textContent = `${BAND[grade][0]} · ${BAND[grade][1]} CAO points`;
     $("s-kept").textContent = fmt(kept);
@@ -358,7 +362,9 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   });
 
   let pending;
-  for (const id of ["t-decay", "t-helpw", "t-gape", "t-gaph", "t-half", "t-new", "t-choice"]) $(id).addEventListener("input",() => { clearTimeout(pending); pending = setTimeout(score, 60); });
+  for (const id of ["t-decay", "t-helpw", "t-gape", "t-gaph", "t-half", "t-new", "t-choice", "t-exact"]) $(id).addEventListener("input", () => {
+    clearTimeout(pending); $("t-status").textContent = "Scoring and backtesting…"; pending = setTimeout(score, 150);
+  });
   new ResizeObserver(() => { if (R) { layout(); update(); } }).observe(wrap);
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => R && draw());
   new MutationObserver(() => R && draw()).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });

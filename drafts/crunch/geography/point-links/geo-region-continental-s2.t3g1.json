@@ -1,0 +1,1001 @@
+{
+ "geo-region-continental-s2.62.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.48.1",
+    "strength": "helpful",
+    "why": "Mercosur trade bloc",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.63.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.63.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.54.0",
+    "strength": "helpful",
+    "why": "Carajás iron ore",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.63.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.42.2",
+    "strength": "helpful",
+    "why": "sugar cane ethanol fuel",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s2.63.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.63.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.52.0",
+    "strength": "helpful",
+    "why": "eucalyptus plantations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.63.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.57.0",
+    "strength": "helpful",
+    "why": "Petrobras oil",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s2.64.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.64.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.32.2",
+    "strength": "helpful",
+    "why": "Itaipu Dam",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.64.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.34.1",
+    "strength": "helpful",
+    "why": "Tucuruí Dam",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.64.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.56.0",
+    "strength": "helpful",
+    "why": "rain-fed hydroelectricity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.65.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.65.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.65.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.65.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.60.2",
+    "strength": "helpful",
+    "why": "ABC region",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.65.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.61.2",
+    "strength": "helpful",
+    "why": "Embraer São José dos Campos",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.66.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.66.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.66.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.66.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.67.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.67.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.59.1",
+    "strength": "helpful",
+    "why": "coffee profits financed industry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.67.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.67.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.67.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.68.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.68.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.60.0",
+    "strength": "essential",
+    "why": "import substitution industrialisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.68.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s2.68.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s2.68.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.68.2",
+    "strength": "essential",
+    "why": "SUDENE incentives, \"the same\"",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.69.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.69.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.3.5",
+    "strength": "helpful",
+    "why": "industrial triangle on map",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.69.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s2.69.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.70.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.70.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.60.2",
+    "strength": "helpful",
+    "why": "ABC region car makers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.70.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.61.2",
+    "strength": "helpful",
+    "why": "Embraer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.70.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.60.1",
+    "strength": "helpful",
+    "why": "CSN Volta Redonda",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.70.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.57.0",
+    "strength": "helpful",
+    "why": "Petrobras",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.70.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.70.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.71.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.71.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.71.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.71.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.71.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.69.0",
+    "strength": "helpful",
+    "why": "Southeast industrial concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.72.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.72.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.72.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.73.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.73.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.73.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.27.0",
+    "strength": "helpful",
+    "why": "Sugarloaf granite dome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.73.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.73.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.74.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.74.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.24.2",
+    "strength": "helpful",
+    "why": "Iguaçu Falls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.74.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.50.2",
+    "strength": "helpful",
+    "why": "rubber boom Teatro Amazonas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.74.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.26.0",
+    "strength": "helpful",
+    "why": "Pantanal wetland",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s2.74.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.74.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.74.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.27.1",
+    "strength": "helpful",
+    "why": "Lençóis Maranhenses dunes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.75.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.75.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.75.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.75.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.26.0",
+    "strength": "helpful",
+    "why": "Pantanal",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s2.75.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.75.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.76.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.76.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.76.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.76.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.76.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.76.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.75.4",
+    "strength": "helpful",
+    "why": "2014 World Cup 2016 Olympics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.77.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.77.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.77.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.77.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.76.4",
+    "strength": "helpful",
+    "why": "mega-events investment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.77.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.77.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.78.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.78.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.78.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.75.4",
+    "strength": "helpful",
+    "why": "2016 Olympics Rio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.78.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.78.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.75.4",
+    "strength": "helpful",
+    "why": "2014 World Cup",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.78.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.75.4",
+    "strength": "helpful",
+    "why": "2016 Olympics Rio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.78.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.79.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.79.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.79.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.79.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.79.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.41.3",
+    "strength": "helpful",
+    "why": "soya Mato Grosso",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s2.79.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.80.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.80.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.54.0",
+    "strength": "helpful",
+    "why": "Carajás ore railway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.80.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.36.0",
+    "strength": "helpful",
+    "why": "Amazon as highway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.80.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s2.80.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.41.3",
+    "strength": "helpful",
+    "why": "soya harvest",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s2.81.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.81.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.81.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.81.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s2.82.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.82.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.82.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.82.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.82.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.79.4",
+    "strength": "helpful",
+    "why": "roads open Amazon to clearance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.83.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.83.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.83.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.83.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.84.b": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s2.84.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.84.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s2.84.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.84.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.85.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.85.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.84.1",
+    "strength": "helpful",
+    "why": "fertility collapse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.85.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.85.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.85.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.85.2",
+    "strength": "helpful",
+    "why": "old-age dependency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.86.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.2.b",
+    "strength": "helpful",
+    "why": "five macro-regions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.86.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.2.b",
+    "strength": "essential",
+    "why": "macro-region names",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.86.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.2.0",
+    "strength": "helpful",
+    "why": "North region Amazon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.86.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.86.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.87.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.87.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.87.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.9.1",
+    "strength": "helpful",
+    "why": "São Paulo cooler than Rio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.87.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.15.1",
+    "strength": "helpful",
+    "why": "terra roxa coffee soil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.87.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.87.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.88.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.88.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.88.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.15.2",
+    "strength": "helpful",
+    "why": "massapê soil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.88.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.88.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.8.0",
+    "strength": "helpful",
+    "why": "south-east trade winds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.89.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.89.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.89.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.89.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.13.0",
+    "strength": "helpful",
+    "why": "latosol soils",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.89.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.90.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.90.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.90.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.7.0",
+    "strength": "helpful",
+    "why": "sertão rainfall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.90.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.7.4",
+    "strength": "helpful",
+    "why": "2012-2017 drought",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.90.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.17.0",
+    "strength": "helpful",
+    "why": "sertão thin stony soils",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.91.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.91.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.91.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.91.0",
+    "strength": "essential",
+    "why": "São Paulo state density figure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.91.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.91.1",
+    "strength": "helpful",
+    "why": "density contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.92.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.92.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.92.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.92.0",
+    "strength": "helpful",
+    "why": "Brasília new capital",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.92.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.92.1",
+    "strength": "helpful",
+    "why": "March to the West",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.93.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s2.93.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s2.79.2",
+    "strength": "helpful",
+    "why": "Trans-Amazonian Highway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.93.1": {
+  "cost": 1,
+  "needs": []
+ }
+}

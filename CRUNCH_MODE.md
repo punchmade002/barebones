@@ -128,8 +128,22 @@ first full LC-mode test once exam value exists (25 years of tagged papers).
   in `exam-papers/biology/` but not yet in the bank.
 - `python3 scripts/crunch_exam_tags.py <subject> [merge]`: one package per HL
   question (model answers + candidate points) → `drafts/crunch/<subject>/exam-tags/`,
-  prompt `exam-tags/prompt.md`. Pilot on 3 questions: Sonnet was precise (61k
-  tokens/question), Haiku over-tagged (31 vs 21 marking points on one question).
+  prompt `exam-tags/prompt.md`, audit `exam-tags/audit.py`. Pilot on 3 questions:
+  Sonnet was precise (61k tokens/question), Haiku over-tagged (31 vs 21 marking
+  points on one question).
+  **Done 2026-11-24:** all 175 Biology HL questions tagged by Sonnet in two waves
+  (35 batches) → `content/crunch/biology-exam-tags.json` (2,781 marking points,
+  1,971 distinct points ever tested). 11% of marks are untaggable, almost all
+  parts with no model answer in the exam bank.
+  **Overfitting, and the fix.** Exact tags alone overfit badly: a set chosen from
+  papers up to 2021 to cover 64% scored only 37% on 2022–2025. The cut now gives
+  each part `exact` = 0.5 of its marks on its tagged points and spreads the rest
+  over those points' subsections, which was the best blend in a backtest.
+  The page also calibrates itself with `crunchCalibrate`: it re-cuts from papers
+  up to 2019 and up to 2022, marks the later papers the 2027 way, and maps every
+  point to the grade a student would really score. Calibrated Biology results:
+  85% target cuts 46% of study effort, 75% cuts 67%, 55% cuts 90%, 35% cuts 96%.
+  Only two folds with 3–6 test papers each, so the calibration is noisy.
 - Not under `content/<subject>/`: `build_notes.py` reads every `.json` there as a
   subsection.
 

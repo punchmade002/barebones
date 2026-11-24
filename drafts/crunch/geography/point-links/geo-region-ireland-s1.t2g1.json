@@ -1,0 +1,635 @@
+{
+ "geo-region-ireland-s1.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.20.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.20.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.16.2",
+    "strength": "helpful",
+    "why": "M50 orbital motorway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.20.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.20.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.21.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.21.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.21.1",
+    "strength": "essential",
+    "why": "uses corporation tax",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.21.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.22.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.22.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.22.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.23.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.23.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.1.4",
+    "strength": "helpful",
+    "why": "cumulative causation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.23.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.21.1",
+    "strength": "helpful",
+    "why": "corporation tax advantage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.24.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.15.5",
+    "strength": "helpful",
+    "why": "data centres use electricity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.25.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.27.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.27.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.27.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.27.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.27.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.28.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.28.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.28.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.28.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.28.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.30.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.30.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.29.0",
+    "strength": "helpful",
+    "why": "radial roads and M50",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.30.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.30.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.11.0",
+    "strength": "helpful",
+    "why": "urban sprawl defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.30.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.29.2",
+    "strength": "helpful",
+    "why": "DART as public transport",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.30.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.30.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.31.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.31.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.31.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.31.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.31.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.32.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.32.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.32.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-ireland-s1.32.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.32.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.33.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.33.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.33.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.5.2",
+    "strength": "helpful",
+    "why": "Wicklow upland relief",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.33.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.33.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.5.0",
+    "strength": "helpful",
+    "why": "lowland relief of Meath, Kildare",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.33.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.35.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.35.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.35.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.35.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.35.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.8.0",
+    "strength": "helpful",
+    "why": "River Liffey",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.36.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.35.2",
+    "strength": "helpful",
+    "why": "Wide Streets Commissioners",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-ireland-s1.37.1",
+    "strength": "helpful",
+    "why": "Wright Report",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-ireland-s1.31.2",
+    "strength": "helpful",
+    "why": "Docklands Development Authority",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.37.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.37.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.37.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.37.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.37.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.37.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.31.0",
+    "strength": "helpful",
+    "why": "IFSC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.37.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-ireland-s1.38.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.38.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.11.0",
+    "strength": "helpful",
+    "why": "urban sprawl defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.38.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.38.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.38.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.38.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s1.41.0",
+    "strength": "essential",
+    "why": "national Catholic and no-religion figures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.41.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.4": {
+  "cost": 1,
+  "needs": []
+ }
+}

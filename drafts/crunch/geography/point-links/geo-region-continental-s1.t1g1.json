@@ -1,0 +1,1299 @@
+{
+ "geo-region-continental-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.17.2",
+    "strength": "helpful",
+    "why": "Deccan Plateau",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.2",
+    "strength": "helpful",
+    "why": "Ganges route and places",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.7",
+    "strength": "helpful",
+    "why": "Kolkata on the Hooghly",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.27.3",
+    "strength": "helpful",
+    "why": "Delhi on the Yamuna",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.42.1",
+    "strength": "helpful",
+    "why": "Green Revolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.3",
+    "strength": "helpful",
+    "why": "Chota Nagpur Plateau",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.2.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.0",
+    "strength": "helpful",
+    "why": "monsoon wind reversal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.0",
+    "strength": "helpful",
+    "why": "monsoon wind reversal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.3",
+    "strength": "helpful",
+    "why": "wet season timing",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.0",
+    "strength": "helpful",
+    "why": "monsoon wind reversal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.3.0",
+    "strength": "helpful",
+    "why": "low pressure draws air",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.3.1",
+    "strength": "helpful",
+    "why": "ITCZ shift",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.3.2",
+    "strength": "essential",
+    "why": "south-west winds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.3.3",
+    "strength": "helpful",
+    "why": "monsoon arrival",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.3.4",
+    "strength": "essential",
+    "why": "jet stream position",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.3",
+    "strength": "helpful",
+    "why": "wet monsoon season",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.22.0",
+    "strength": "helpful",
+    "why": "Western Ghats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.17.0",
+    "strength": "helpful",
+    "why": "Himalayan barrier",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.22.0",
+    "strength": "helpful",
+    "why": "Western Ghats",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.24.0",
+    "strength": "helpful",
+    "why": "Konkan and Malabar coasts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.5.0",
+    "strength": "essential",
+    "why": "relief rain",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.17.2",
+    "strength": "helpful",
+    "why": "Deccan Plateau",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.5.0",
+    "strength": "essential",
+    "why": "relief rain",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.4.3",
+    "strength": "helpful",
+    "why": "Bay of Bengal branch",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.4.3",
+    "strength": "helpful",
+    "why": "Bay of Bengal branch",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.4.2",
+    "strength": "essential",
+    "why": "Arabian Sea branch",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.23.2",
+    "strength": "helpful",
+    "why": "Aravalli Range",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.5.0",
+    "strength": "helpful",
+    "why": "relief rain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.4",
+    "strength": "helpful",
+    "why": "cool dry season",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.17.0",
+    "strength": "helpful",
+    "why": "Himalayas",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.6.0",
+    "strength": "helpful",
+    "why": "winter monsoon winds",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.24.1",
+    "strength": "helpful",
+    "why": "Coromandel coast",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.2",
+    "strength": "helpful",
+    "why": "hot season",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.17.0",
+    "strength": "helpful",
+    "why": "Himalayas",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.3",
+    "strength": "helpful",
+    "why": "monsoon rain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.3",
+    "strength": "helpful",
+    "why": "monsoon rain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.8.2",
+    "strength": "helpful",
+    "why": "tropical cyclones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.8.0",
+    "strength": "helpful",
+    "why": "drought risk",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.8.1",
+    "strength": "helpful",
+    "why": "flood risk",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.38.0",
+    "strength": "helpful",
+    "why": "kharif and rabi crops",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.36.1",
+    "strength": "helpful",
+    "why": "agriculture share of GDP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.17.1",
+    "strength": "helpful",
+    "why": "Indo-Gangetic Plain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.10.0",
+    "strength": "essential",
+    "why": "alluvial soil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.23.3",
+    "strength": "helpful",
+    "why": "Thar Desert",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.10.2",
+    "strength": "essential",
+    "why": "desert soils",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.41.0",
+    "strength": "helpful",
+    "why": "Indira Gandhi Canal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.4",
+    "strength": "essential",
+    "why": "Deccan Traps basalt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.11.0",
+    "strength": "helpful",
+    "why": "black soil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.11.1",
+    "strength": "helpful",
+    "why": "clay-rich soil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.11.1",
+    "strength": "essential",
+    "why": "moisture-holding clay",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.0",
+    "strength": "helpful",
+    "why": "Deccan crystalline rock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.12.0",
+    "strength": "helpful",
+    "why": "red soil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.12.1",
+    "strength": "helpful",
+    "why": "poor red soil",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.13.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.22.0",
+    "strength": "helpful",
+    "why": "Western Ghats",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.13.0",
+    "strength": "helpful",
+    "why": "laterite",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.13.0",
+    "strength": "essential",
+    "why": "leaching removes nutrients",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.13.0",
+    "strength": "helpful",
+    "why": "laterite",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.17.0",
+    "strength": "helpful",
+    "why": "Himalayas",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.14.0",
+    "strength": "helpful",
+    "why": "Himalayan slopes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.15.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.3",
+    "strength": "helpful",
+    "why": "monsoon downpours",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.15.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.33.4",
+    "strength": "helpful",
+    "why": "canal irrigation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.42.1",
+    "strength": "helpful",
+    "why": "Green Revolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.11.0",
+    "strength": "essential",
+    "why": "black soil from basalt",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.21.4",
+    "strength": "essential",
+    "why": "Deccan Traps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.13.0",
+    "strength": "essential",
+    "why": "laterite formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.17.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.17.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.17.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.17.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.18.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.18.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.18.0",
+    "strength": "helpful",
+    "why": "Himalayan mountains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.18.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.0.3",
+    "strength": "helpful",
+    "why": "Nepal as neighbour",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.0.3",
+    "strength": "helpful",
+    "why": "Nepal and China neighbours",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.19.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.5.0",
+    "strength": "helpful",
+    "why": "relief rain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.19.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.26.0",
+    "strength": "helpful",
+    "why": "perennial Himalayan rivers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.19.2",
+    "strength": "helpful",
+    "why": "Himalayan rivers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.19.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.18.0",
+    "strength": "helpful",
+    "why": "fold mountain tectonics",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.19.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.7.2",
+    "strength": "helpful",
+    "why": "cold at altitude",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.20.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.20.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.17.1",
+    "strength": "helpful",
+    "why": "Northern Plains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.20.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.20.0",
+    "strength": "helpful",
+    "why": "Northern Plains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.21.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.21.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.0",
+    "strength": "helpful",
+    "why": "Deccan Plateau",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.30.0",
+    "strength": "helpful",
+    "why": "east-flowing rivers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.21.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.17.2",
+    "strength": "helpful",
+    "why": "Deccan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.21.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.22.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.22.0",
+    "strength": "helpful",
+    "why": "Western Ghats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.22.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.22.0",
+    "strength": "helpful",
+    "why": "Western Ghats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.22.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.2",
+    "strength": "helpful",
+    "why": "plateau tilts east",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.23.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.17.1",
+    "strength": "helpful",
+    "why": "Northern Plains",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.17.2",
+    "strength": "helpful",
+    "why": "Deccan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.23.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.23.0",
+    "strength": "helpful",
+    "why": "Vindhya and Satpura",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.23.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.23.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.23.2",
+    "strength": "essential",
+    "why": "Aravalli Range",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.5.0",
+    "strength": "helpful",
+    "why": "relief rain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.24.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.24.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.17.3",
+    "strength": "helpful",
+    "why": "coastal plains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.24.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.2",
+    "strength": "helpful",
+    "why": "rivers flow east",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.25.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.25.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.20.2",
+    "strength": "helpful",
+    "why": "Northern Plains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.25.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.3",
+    "strength": "helpful",
+    "why": "Chota Nagpur minerals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.25.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.19.3",
+    "strength": "helpful",
+    "why": "hydroelectric potential",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.26.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.26.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.19.2",
+    "strength": "helpful",
+    "why": "perennial Himalayan rivers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.26.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.2",
+    "strength": "helpful",
+    "why": "plateau drainage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.26.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.0",
+    "strength": "helpful",
+    "why": "old hard Deccan rock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.27.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.27.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.27.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.0",
+    "strength": "helpful",
+    "why": "Bhagirathi",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.27.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.27.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.2",
+    "strength": "helpful",
+    "why": "Ganges course",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.27.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.27.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.28.2",
+    "strength": "helpful",
+    "why": "Brahmaputra joins Ganges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.27.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.5",
+    "strength": "helpful",
+    "why": "Ganges delta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.27.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.5",
+    "strength": "helpful",
+    "why": "delta and distributaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.28.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.28.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.28.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.28.0",
+    "strength": "helpful",
+    "why": "Brahmaputra course",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.28.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.28.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.29.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.29.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.0.3",
+    "strength": "helpful",
+    "why": "Pakistan as neighbour",
+    "confidence": "high"
+   }
+  ]
+ }
+}

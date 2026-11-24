@@ -1,0 +1,1025 @@
+{
+"geo-option-global-interdependence-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.1.1",
+"strength": "helpful",
+"why": "consumer regions capture value",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.2.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-global-interdependence-s2.2.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.2.4": {
+"cost": 2,
+"needs": []
+},
+"geo-option-global-interdependence-s2.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.2.4",
+"strength": "helpful",
+"why": "Foxconn assembly in China",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.2.6": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.2.4",
+"strength": "helpful",
+"why": "assembly jobs in China",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.2.2",
+"strength": "helpful",
+"why": "TSMC as supplier",
+"confidence": "high"
+},
+{
+"id": "geo-option-global-interdependence-s2.2.4",
+"strength": "helpful",
+"why": "Foxconn as supplier",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.1.2",
+"strength": "essential",
+"why": "value added shared unequally",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.2.4",
+"strength": "helpful",
+"why": "Foxconn Shenzhen factories",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.2.4",
+"strength": "helpful",
+"why": "Foxconn Zhengzhou plant",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.2.5",
+"strength": "essential",
+"why": "assembly shifting to India",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.2.3",
+"strength": "essential",
+"why": "cobalt mined in DR Congo",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.1.2",
+"strength": "helpful",
+"why": "cheap assembly versus value added",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.1.2",
+"strength": "helpful",
+"why": "design and branding capture value",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.4.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.2.4",
+"strength": "helpful",
+"why": "Chinese iPhone assembly chain",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.12.6",
+"strength": "helpful",
+"why": "corporation tax and tax benefits",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.5.2",
+"strength": "essential",
+"why": "the 2016 State aid ruling",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.5.2",
+"strength": "essential",
+"why": "Brussels decision on Apple tax",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.2.5",
+"strength": "helpful",
+"why": "assembly moving to India",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.6.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-global-interdependence-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.6.1",
+"strength": "essential",
+"why": "Mondelez takeover of Cadbury",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.6.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.6.3",
+"strength": "essential",
+"why": "Rathmore plant",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.7.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.7.1",
+"strength": "helpful",
+"why": "low farm incomes of small farmers",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.7.0",
+"strength": "helpful",
+"why": "cocoa in Côte d'Ivoire and Ghana",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.7.3",
+"strength": "helpful",
+"why": "child labour in cocoa",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.6.4",
+"strength": "essential",
+"why": "Rathmore uses Irish milk",
+"confidence": "high"
+},
+{
+"id": "geo-option-global-interdependence-s2.1.0",
+"strength": "essential",
+"why": "producer region term",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.7.0",
+"strength": "helpful",
+"why": "cocoa farms in Côte d'Ivoire",
+"confidence": "high"
+},
+{
+"id": "geo-option-global-interdependence-s2.13.b",
+"strength": "helpful",
+"why": "deforestation meaning",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.7.0",
+"strength": "helpful",
+"why": "dependence on one crop",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.8.1",
+"strength": "essential",
+"why": "2024 price record",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.1.2",
+"strength": "helpful",
+"why": "value added outside producer region",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.9.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.6.1",
+"strength": "helpful",
+"why": "Mondelez company",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.9.0",
+"strength": "essential",
+"why": "Fairtrade Mark",
+"confidence": "high"
+},
+{
+"id": "geo-option-global-interdependence-s2.9.1",
+"strength": "essential",
+"why": "Cocoa Life programme",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.1.2",
+"strength": "helpful",
+"why": "brands take value added",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.1.1",
+"strength": "helpful",
+"why": "consumer region pressure",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.13.b",
+"strength": "helpful",
+"why": "deforestation definition",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.11.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.11.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-global-interdependence-s2.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.11.1",
+"strength": "helpful",
+"why": "wafer fabs stage before assembly",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.11.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.11.1",
+"strength": "helpful",
+"why": "Leixlip fab",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.11.4",
+"strength": "essential",
+"why": "Fab 34 at Leixlip",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.11.6": {
+"cost": 2,
+"needs": []
+},
+"geo-option-global-interdependence-s2.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.1.0",
+"strength": "helpful",
+"why": "producer region",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.12.0",
+"strength": "helpful",
+"why": "exports mainly to USA",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.1.0",
+"strength": "helpful",
+"why": "producer region",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.1.0",
+"strength": "helpful",
+"why": "IDA role attracting foreign firms",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.12.0",
+"strength": "helpful",
+"why": "dependence on US market",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.12.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.2.0",
+"strength": "helpful",
+"why": "low tax attracts firms",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.13.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.13.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.13.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.14.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.13.3",
+"strength": "helpful",
+"why": "demand from other regions",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.14.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.14.0",
+"strength": "helpful",
+"why": "Amazon rainforest",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.13.3",
+"strength": "helpful",
+"why": "soya as deforestation driver",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.14.1",
+"strength": "helpful",
+"why": "clearance in Amazon",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.14.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.14.1",
+"strength": "helpful",
+"why": "clearance in Brazilian Amazon",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.15.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.24.b",
+"strength": "helpful",
+"why": "carbon and global warming",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.14.1",
+"strength": "helpful",
+"why": "share of forest cleared",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.14.1",
+"strength": "helpful",
+"why": "clearing of Amazon holdings",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.15.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.15.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.10.2",
+"strength": "helpful",
+"why": "EU Deforestation Regulation",
+"confidence": "high"
+},
+{
+"id": "geo-option-global-interdependence-s2.14.2",
+"strength": "helpful",
+"why": "soya trade",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.13.3",
+"strength": "helpful",
+"why": "palm oil driving clearance",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.16.0",
+"strength": "helpful",
+"why": "oil palm plantations",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.16.1",
+"strength": "essential",
+"why": "clearing and burning peat",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.16.1",
+"strength": "helpful",
+"why": "forest loss",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.17.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.17.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.17.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-global-interdependence-s2.17.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.17.3",
+"strength": "helpful",
+"why": "foreign buyers of timber",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.18.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.18.1",
+"strength": "essential",
+"why": "clear-felling",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.18.1",
+"strength": "essential",
+"why": "clear-felling",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.18.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.17.2",
+"strength": "helpful",
+"why": "sustainable yield",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.19.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.19.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.19.0",
+"strength": "helpful",
+"why": "current forest cover",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.13.3",
+"strength": "helpful",
+"why": "palm oil and beef drivers",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.20.0",
+"strength": "helpful",
+"why": "drylands",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.20.0",
+"strength": "essential",
+"why": "desertification",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.21.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.21.0",
+"strength": "helpful",
+"why": "unreliable rainfall",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.21.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.20.0",
+"strength": "helpful",
+"why": "causes of desertification",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.24.b",
+"strength": "helpful",
+"why": "global warming",
+"confidence": "high"
+}
+]
+},
+"geo-option-global-interdependence-s2.21.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.21.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.20.0",
+"strength": "helpful",
+"why": "restoring degraded land",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.21.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.21.0",
+"strength": "helpful",
+"why": "low rainfall",
+"confidence": "low"
+}
+]
+},
+"geo-option-global-interdependence-s2.21.7": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.22.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-global-interdependence-s2.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-global-interdependence-s2.22.0",
+"strength": "helpful",
+"why": "Aral Sea",
+"confidence": "high"
+}
+]
+}
+}

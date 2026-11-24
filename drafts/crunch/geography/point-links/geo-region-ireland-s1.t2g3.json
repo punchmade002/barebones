@@ -1,0 +1,466 @@
+{
+ "geo-region-ireland-s1.20.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.20.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.20.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.20.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.20.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.21.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.21.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.21.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.21.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.21.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.22.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.22.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.22.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.22.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.23.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.23.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.23.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.23.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.1.0",
+    "strength": "helpful",
+    "why": "congestion raises business costs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.24.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.24.6": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.25.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.26.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.27.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.27.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.27.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.27.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.27.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.28.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.28.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.28.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.28.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.28.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.2.3",
+    "strength": "helpful",
+    "why": "Port Tunnel removes port traffic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.29.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.29.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.30.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.30.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.0.2",
+    "strength": "helpful",
+    "why": "radial roads converge on centre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.30.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.2.0",
+    "strength": "helpful",
+    "why": "commuters by car cause congestion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.30.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.11.0",
+    "strength": "helpful",
+    "why": "sprawl causes car dependence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.30.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.3.0",
+    "strength": "helpful",
+    "why": "public transport as congestion response",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.30.4": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.3.4",
+    "strength": "helpful",
+    "why": "cycle lanes as response",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.30.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.31.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.31.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.31.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.31.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.31.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.32.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.32.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.32.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.32.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.32.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.33.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.33.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.33.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.33.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.33.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.33.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.34.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.35.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.35.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.35.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.35.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.35.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.36.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.37.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.37.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.37.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.37.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.16.0",
+    "strength": "helpful",
+    "why": "Ballymun tower blocks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.37.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.19.3",
+    "strength": "helpful",
+    "why": "Temple Bar regeneration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.37.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.37.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.38.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.38.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.12.0",
+    "strength": "helpful",
+    "why": "Dublin sprawl",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.38.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.38.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.38.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.0.3",
+    "strength": "helpful",
+    "why": "peak-time commuting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s1.38.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.39.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.40.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s1.41.4": {
+  "needs": []
+ }
+}
