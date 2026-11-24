@@ -91,7 +91,7 @@ p1={
 '46.6':(1,[L('37.0',H,'Rana Plaza')]),
 '47.b':(1,[]),'47.0':(1,[]),'47.1':(2,[]),'47.2':(1,[]),'47.3':(1,[]),
 }
-s1='geo-option-global-interdependence-s1.1.'; e1='geo-economic-development-s1.'
+s1='geo-option-global-interdependence-s1.'; e1='geo-economic-development-s1.'
 s4='geo-economic-development-s4.'; e3='geo-economic-development-s3.'
 p2={ # links only; others empty
 '24.4':[L('1.0',H,'colonial era land and rule','low',s1)],
