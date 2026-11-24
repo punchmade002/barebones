@@ -1,0 +1,176 @@
+0.b|1|
+0.0|1|
+0.1|1|0.0:H:uses state definition:h
+0.2|1|0.0:H:sovereign states counted:h
+0.3|1|
+0.4|1|0.3:H:membership of a nation:h
+0.5|1|0.0:E:state and nation match:h;0.3:E:state and nation match:h
+0.6|1|0.5:E:contrasts with nation state:h
+0.7|1|0.3:E:nation without state:h
+0.8|1|0.5:H:nation state definition:h;0.6:H:multinational state definition:h
+1.b|1|
+1.0|1|
+1.1|1|1.0:H:nation states from nationalism:h
+1.2|1|
+1.3|1|0.5:H:pure nation state:h
+2.b|1|
+2.0|1|
+2.1|1|
+2.2|1|
+2.3|2|
+2.4|1|
+2.5|1|
+3.b|1|
+3.0|1|
+3.1|1|3.0:H:physical boundary example:h
+3.2|1|3.0:H:physical boundary example:h
+3.3|1|3.0:H:physical borders listed:h;s2.4.2:H:language split between states:l
+4.b|1|
+4.0|1|2.1:E:geometric boundary:h
+4.1|1|
+4.2|1|4.1:H:Berlin Conference borders:h;2.4:H:superimposed boundary:h
+4.3|1|4.2:E:straight colonial borders:h
+5.b|1|
+5.0|1|
+5.1|1|3.3:H:Basques split by boundary:l
+5.2|2|2.5:H:Berlin Wall relict boundary:h
+5.3|1|
+5.4|1|5.3:E:Schengen and open borders:h
+5.5|1|
+6.b|1|
+6.0|1|
+6.1|1|6.0:H:two administrations created:h
+6.2|2|6.1:H:Northern Ireland established:h
+6.3|1|6.2:E:other three Ulster counties:h
+6.4|1|6.1:H:border set 1921-22:h
+6.5|2|6.2:H:county boundaries as border:h
+6.6|1|
+7.b|1|
+7.0|1|6.0:E:partition created two states:h
+7.1|1|
+7.2|1|7.1:H:republic and constitution:l
+7.3|2|7.2:E:Articles 2 and 3 changed:h
+7.4|1|7.3:H:Good Friday Agreement context:h
+8.b|1|
+8.0|1|
+8.1|1|
+8.2|1|8.0:H:EU exit and border:h
+8.3|1|8.0:H:border openness after Brexit:h
+9.b|1|
+9.0|1|
+9.1|1|4.2:H:boundaries ignoring culture:h
+9.2|1|
+10.b|1|
+10.0|2|
+10.1|1|10.0:H:regional self-government:h
+10.2|1|
+10.3|1|
+10.4|1|
+10.5|1|
+11.b|1|
+11.0|1|s2.9.6:H:Basque language:l
+11.1|1|10.0:H:autonomy in Spain:h
+11.2|1|11.0:H:Basque autonomy:h
+11.3|1|11.0:H:Catalan autonomy statute:h
+11.4|1|s2.1.2:H:language suppression under Franco:h
+11.5|1|11.0:H:Basque and Catalan identities:h
+12.b|1|
+12.0|1|
+12.1|2|10.1:E:devolution:h
+12.2|1|12.0:H:four UK nations:h
+12.3|2|12.2:H:Scottish voting:l
+13.b|1|
+13.0|1|s2.4.1:H:French spoken in Quebec:l
+13.1|1|s2.13.3:H:Bill 101:h
+13.2|2|13.0:H:Quebec identity:h
+13.3|1|13.0:H:Quebec nation:h
+14.b|1|
+14.0|1|0.6:H:multinational state:h
+14.1|1|0.6:H:multinational state:h
+15.b|1|
+15.0|1|
+15.1|1|
+16.b|1|
+16.0|1|
+16.1|2|16.0:H:Sámi elected bodies:h
+16.2|1|
+17.b|1|
+17.0|1|
+18.b|1|
+18.0|1|
+18.1|2|18.0:H:Kurdish population:h
+18.2|1|s2.6.0:H:Indo-European family:h
+19.b|1|
+19.0|1|
+19.1|1|19.0:E:replaces Sèvres treaty:h
+19.2|1|s2.1.4:H:Kurdish language ban:h
+19.3|2|19.2:H:Turkish suppression:h
+19.4|1|19.3:E:PKK dissolution:h
+20.b|1|
+20.0|1|
+20.1|1|
+20.2|1|
+20.3|2|20.2:H:Kurdistan Region:h
+20.4|1|
+21.b|1|
+21.0|1|s2.0.1:H:language marks identity:h
+22.b|1|
+22.0|1|
+22.1|1|22.0:H:refugees from 1948:h
+22.2|1|
+22.3|2|22.2:H:state of Palestine:l
+23.b|1|
+23.0|1|
+23.1|2|s2.5.0:H:language families:l
+23.2|1|23.0:H:Roma populations:l
+23.3|1|
+23.4|1|
+24.b|1|
+24.0|1|
+24.1|2|24.0:H:Tibet after 1950:h
+24.2|1|24.0:H:Tibet Autonomous Region:h
+24.3|1|
+25.b|1|
+25.0|1|s2.6.6:H:Turkic languages:l
+25.1|1|25.0:H:Uyghur detention:h
+25.2|1|25.1:H:UN report on camps:h
+26.b|1|
+26.0|1|10.0:H:autonomy:h
+27.b|1|
+27.0|1|s2.0.1:H:language marks identity:h
+27.1|1|
+27.2|1|27.1:H:outcomes of responses:h
+28.b|1|
+28.0|1|
+28.1|1|
+28.2|1|s2.1.b:H:suppression of language:h
+28.3|1|
+28.4|1|
+29.b|1|
+29.0|1|
+29.1|1|29.0:E:discrimination against nationalists:h
+29.2|1|29.1:H:Troubles after civil rights:h
+29.3|1|
+30.b|1|
+30.0|2|
+30.1|2|29.0:H:two cultural groups:h;10.2:H:power-sharing:h
+30.2|1|
+30.3|1|30.1:E:restored Assembly:h
+30.4|1|
+31.b|1|
+31.0|1|
+31.1|1|31.0:H:ETA campaign:h
+31.2|1|31.0:H:ETA end:h
+31.3|1|11.1:H:Spanish autonomy:h
+32.b|1|
+32.0|2|11.3:E:Catalan autonomy statute:h
+32.1|2|32.0:H:independence movement:h
+32.2|2|32.1:E:response to referendum:h
+32.3|1|32.2:H:leaders jailed after referendum:h
+33.b|1|
+33.0|1|0.6:H:multinational state:h
+34.b|1|
+34.0|2|
+34.1|1|
+34.2|1|
+34.3|1|
