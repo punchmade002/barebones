@@ -114,6 +114,14 @@ def papers(qs, all_items, pos, tags, cfg):
                 subs_hit = sorted({i.split(".")[0] for s in tagged for i in s["of"]})
                 if subs_hit:
                     slots.append([p["marks"], 0, [pos[i] for r in subs_hit for i, _, _ in all_items[r][1]]])
+                # Tags on one study region (India) give the other regions (Brazil) the same share, spread over their
+                # points both ways (tagged-style and spread), so a student who picked the other region isn't short.
+                on_region = [s for s in tagged if any(cfg["track"](i.split(".")[0]).startswith("region:") for i in s["of"])]
+                for r in {i.split(".")[0] for s in on_region for i in s["of"]}:
+                    for alt in variants([r], cfg["track"])[1:]:
+                        pts = [pos[i] for i, _, _ in all_items[alt[0]][1]]
+                        m = p["marks"] * len(on_region) / len(tagged)
+                        slots += [[m / len(pts), 1, [i]] for i in pts] + [[m, 0, pts]]
             else:
                 for refs in variants(p.get("notesRefs") or [], cfg["track"]):
                     pts = [pos[i] for r in refs if r in all_items for i, _, _ in all_items[r][1]]
