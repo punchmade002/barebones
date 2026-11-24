@@ -39,7 +39,7 @@
 "needs": []
 },
 "geo-economic-environment-s3.1.2": {
-"cost": 1,
+"cost": 2,
 "needs": []
 },
 "geo-economic-environment-s3.2.b": {
@@ -73,6 +73,12 @@
 "strength": "helpful",
 "why": "uses term greenhouse gas",
 "confidence": "high"
+},
+{
+"id": "geo-economic-environment-s2.2.0",
+"strength": "helpful",
+"why": "CO2 released by burning fuels",
+"confidence": "high"
 }
 ]
 },
@@ -100,7 +106,14 @@
 },
 "geo-economic-environment-s3.3.3": {
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "geo-economic-environment-s3.2.0",
+"strength": "helpful",
+"why": "uses term greenhouse gas",
+"confidence": "high"
+}
+]
 },
 "geo-economic-environment-s3.4.b": {
 "cost": 1,
@@ -246,7 +259,14 @@
 },
 "geo-economic-environment-s3.8.2": {
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "geo-economic-environment-s3.4.1",
+"strength": "helpful",
+"why": "warming above pre-industrial levels",
+"confidence": "low"
+}
+]
 },
 "geo-economic-environment-s3.8.3": {
 "cost": 1,
@@ -295,7 +315,14 @@
 },
 "geo-economic-environment-s3.9.4": {
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "geo-economic-environment-s3.3.0",
+"strength": "helpful",
+"why": "CO2 from burning fuels",
+"confidence": "low"
+}
+]
 },
 "geo-economic-environment-s3.9.5": {
 "cost": 2,
@@ -586,7 +613,7 @@
 "needs": []
 },
 "geo-economic-environment-s3.20.1": {
-"cost": 1,
+"cost": 2,
 "needs": []
 },
 "geo-economic-environment-s3.20.2": {

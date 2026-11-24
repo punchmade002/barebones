@@ -96,7 +96,9 @@ def join():
                 if index[n]["cost"]:
                     m["cost"] = r.get("cost")
                 seen = {l["id"] for l in m["needs"]}
-                m["needs"] += [l for l in r.get("needs", []) if l.get("id") not in seen]
+                # links inside the subsection belong to the cost package, which sees the whole subsection
+                own = index[n]["cost"] or (lambda l: not l.get("id", "").startswith(sid + "."))
+                m["needs"] += [l for l in r.get("needs", []) if l.get("id") not in seen and (own is True or own(l))]
         (src / f"{sid}.json").write_text(json.dumps(merged, indent=0, ensure_ascii=False))
         done += 1
     print(f"joined {done} of {len(by_sid)} subsections")

@@ -24,7 +24,14 @@
 "needs": []
 },
 "geo-economic-environment-s3.1.2": {
-"needs": []
+"needs": [
+{
+"id": "geo-rocks-weathering-s2.1.b",
+"strength": "helpful",
+"why": "mining as polluting activity",
+"confidence": "low"
+}
+]
 },
 "geo-economic-environment-s3.2.b": {
 "needs": []
