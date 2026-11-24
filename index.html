@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <script>/* signed-in state: mirrors the app's own check */(function(){try{var s=localStorage.getItem("bb_has_auth_session")==="1";if(!s){var a=JSON.parse(localStorage.getItem("bare-bones-app-v4")||"null");s=!!(a&&a.session&&a.session.currentUser);}if(s)document.documentElement.classList.add("bb-signed-in");}catch(e){}})();</script>
 <title>barebones: Leaving Cert past exam questions, marked as you answer</title>
-<meta name="description" content="3,374 real Leaving Cert exam questions, checked against the official marking scheme as you answer. Plus notes and flashcards for Biology, Chemistry, Maths, Geography, History, Home Economics, PE and Business. Free, in your browser." />
+<meta name="description" content="Everything you need for the Leaving Cert: notes, flashcards and real past exam questions, marked against the official marking scheme as you answer. Free, in your browser." />
 <link rel="canonical" href="https://barebones.ie/" />
 <meta name="robots" content="index, follow" />
 <meta name="theme-color" content="#d6d4cf" />
@@ -16,12 +16,12 @@
 <meta property="og:locale" content="en_IE" />
 <meta property="og:url" content="https://barebones.ie/" />
 <meta property="og:title" content="barebones: every past Leaving Cert question, marked" />
-<meta property="og:description" content="Real Leaving Cert exam questions, checked against the marking scheme as you answer. Notes and flashcards for eight subjects. Free, in your browser." />
+<meta property="og:description" content="Real Leaving Cert exam questions, checked against the marking scheme as you answer. Notes, flashcards and timed tests. Free, in your browser." />
 <meta property="og:image" content="https://barebones.ie/design_handoff_barebones_landing/assets/logo-bb.png" />
 <meta property="og:image:alt" content="barebones logo" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="barebones: every past Leaving Cert question, marked" />
-<meta name="twitter:description" content="Real Leaving Cert exam questions, checked against the marking scheme as you answer. Notes and flashcards for eight subjects. Free, in your browser." />
+<meta name="twitter:description" content="Real Leaving Cert exam questions, checked against the marking scheme as you answer. Notes, flashcards and timed tests. Free, in your browser." />
 <meta name="twitter:image" content="https://barebones.ie/design_handoff_barebones_landing/assets/logo-bb.png" />
 
 <!-- Structured data: tells Google and AI assistants what barebones is -->
@@ -50,7 +50,7 @@
       "url": "https://barebones.ie/app.html",
       "applicationCategory": "EducationalApplication",
       "operatingSystem": "Any (web browser)",
-      "description": "Leaving Cert study app: real past exam questions marked against the official marking scheme, plus notes and flashcards for eight subjects.",
+      "description": "Leaving Cert study app: real past exam questions marked against the official marking scheme, plus notes, flashcards and timed tests.",
       "audience": { "@type": "EducationalAudience", "educationalRole": "student", "audienceType": "Irish Leaving Certificate students" },
       "about": ["Leaving Certificate Biology", "Leaving Certificate Chemistry", "Leaving Certificate Mathematics", "Leaving Certificate Geography", "Leaving Certificate History", "Leaving Certificate Business", "Leaving Certificate Home Economics", "Leaving Certificate Physical Education"],
       "isAccessibleForFree": true,
@@ -68,7 +68,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="home.css?v=2" />
+<link rel="stylesheet" href="home.css?v=3" />
 <!-- Vercel Web Analytics -->
 <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -78,7 +78,7 @@
 <body data-hero="a">
 
 <!-- ================= HERO: five options, one shown (data-hero) ================= -->
-<section class="hero" id="top">
+<section class="hero" id="top" data-field>
   <header class="top">
     <div class="wrap top-inner">
       <a class="brand" href="#top" aria-label="barebones home">
@@ -92,11 +92,11 @@
     </div>
   </header>
 
-  <!-- A: poster -->
+  <!-- A: the board lists what's inside -->
   <div class="hero-opt" id="hero-a">
     <div class="wrap hero-body">
-      <h1 class="poster">Past papers.<br />Marked.</h1>
-      <p class="sub">3,374 real Leaving Cert questions, marked as you answer.</p>
+      <div class="led led-word" data-led aria-hidden="true"></div>
+      <h1 class="say">Everything you need for the Leaving Cert.</h1>
       <div>
         <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_a">Start studying free</a>
         <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
@@ -104,77 +104,73 @@
     </div>
   </div>
 
-  <!-- B: the dot grid spells it -->
+  <!-- B: an answer gets marked live -->
   <div class="hero-opt" id="hero-b">
+    <div class="wrap hero-body b-grid">
+      <div class="b-pitch">
+        <h1 class="say">Every past question. Marked in seconds.</h1>
+        <div>
+          <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_b">Start studying free</a>
+          <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
+        </div>
+      </div>
+      <div class="mk" aria-hidden="true">
+        <p class="mk-src"></p>
+        <p class="mk-q"></p>
+        <p class="mk-ans"></p>
+        <ul class="mk-points"></ul>
+        <div class="led led-score" data-led></div>
+      </div>
+      <svg class="mk-circle" viewBox="0 0 145 100" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M122 14C98 1 32 3 13 31c-15 23 10 56 57 60 40 3 70-14 69-41-1-19-21-33-47-37"/></svg>
+    </div>
+  </div>
+
+  <!-- C: count to 625 -->
+  <div class="hero-opt" id="hero-c">
     <div class="wrap hero-body">
-      <h1 class="matrix"><span class="pix" id="matrixWord" data-text="MARKED." data-color="var(--on-orange)"></span></h1>
-      <p class="sub">Every past Leaving Cert question, marked as you answer.</p>
+      <div class="led led-num" data-led aria-hidden="true"></div>
+      <h1 class="say"><span class="sr-only">625 points. </span>Everything you need for 625.</h1>
       <div>
-        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_b">Start studying free</a>
+        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_c">Start studying free</a>
         <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
       </div>
     </div>
   </div>
 
-  <!-- C: the question is the hero -->
-  <div class="hero-opt" id="hero-c">
+  <!-- D: countdown to the first exam -->
+  <div class="hero-opt" id="hero-d">
     <div class="wrap hero-body">
-      <p class="q-src">Biology, Higher Level, 2022. 6 marks.</p>
-      <h1 class="q-big" id="heroQ">Describe how ADH affects the volume of urine.</h1>
-      <div class="hero-demo" data-demo="hero">
-        <label class="sr-only" for="heroAnswer">Your answer</label>
-        <textarea class="answer" id="heroAnswer" rows="3" placeholder="Type your answer"></textarea>
-        <div class="sheet-actions">
-          <button type="button" class="btn btn-ink" data-mark>Mark my answer</button>
-          <span class="hint" data-hint aria-live="polite"></span>
-        </div>
-        <div class="result" data-result hidden aria-live="polite">
-          <div class="result-top">
-            <div class="score"><svg viewBox="0 0 84 60" aria-hidden="true"><path d="M70 9C56 1 18 3 8 20c-8 14 6 33 32 35 22 2 40-8 39-24-1-11-12-19-26-21"/></svg><span><span data-earned>0</span><small>/6</small></span></div>
-            <p class="result-say" data-say></p>
-          </div>
-          <ol class="points" data-points></ol>
-        </div>
-        <div class="nudge" data-nudge hidden>
-          <p>Save your marks. There are 3,373 more.</p>
-          <a class="btn auth-out" href="app.html#signup" data-track="cta_demo_hero">Start studying free</a>
-          <a class="btn auth-in" href="app.html">Open the app</a>
-        </div>
+      <div class="led led-num" data-led aria-hidden="true"></div>
+      <p class="d-label"><span class="sr-only" data-days></span>days and <span class="clock" data-clock>00:00:00</span> until the Leaving Cert.</p>
+      <h1 class="say">Everything you need before then.</h1>
+      <div>
+        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_d">Start studying free</a>
+        <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
       </div>
     </div>
   </div>
 
-  <!-- D: the examiner's circle -->
-  <div class="hero-opt" id="hero-d">
-    <div class="wrap hero-body d-grid">
-      <div class="big-score" role="img" aria-label="6 out of 6">
-        <svg viewBox="0 0 145 100" aria-hidden="true"><path pathLength="1" d="M122 14C98 1 32 3 13 31c-15 23 10 56 57 60 40 3 70-14 69-41-1-19-21-33-47-37"/></svg>
-        <span aria-hidden="true">6<small>/6</small></span>
-      </div>
-      <div class="hero-body" style="min-height:0;padding:0">
-        <h1 class="sub" style="font-size:clamp(1.5rem,3.2vw,2.4rem);max-width:16ch">Know your mark before June does.</h1>
+  <!-- E: everything lands in one pile -->
+  <div class="hero-opt" id="hero-e">
+    <div class="wrap hero-body e-grid">
+      <div class="b-pitch">
+        <h1 class="say">The whole Leaving Cert. One place.</h1>
         <div>
-          <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_d">Start studying free</a>
+          <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_e">Start studying free</a>
           <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
         </div>
       </div>
-    </div>
-  </div>
-
-  <!-- E: pick your subject -->
-  <div class="hero-opt" id="hero-e">
-    <div class="wrap hero-body">
-      <h1 class="ask">What are you studying?</h1>
-      <nav class="subjects" aria-label="Pick a subject">
-        <a href="app.html#signup" data-track="cta_hero_e">Biology</a>
-        <a href="app.html#signup" data-track="cta_hero_e">Chemistry</a>
-        <a href="app.html#signup" data-track="cta_hero_e">Maths</a>
-        <a href="app.html#signup" data-track="cta_hero_e">Geography</a>
-        <a href="app.html#signup" data-track="cta_hero_e">History</a>
-        <a href="app.html#signup" data-track="cta_hero_e">Home Ec</a>
-        <a href="app.html#signup" data-track="cta_hero_e">PE</a>
-        <a href="app.html#signup" data-track="cta_hero_e">Business</a>
-      </nav>
+      <div class="pile" aria-hidden="true">
+        <div class="card" style="--x:24%;--y:24%;--r:-8deg;--d:0ms"><small>Notes</small><b>Enzymes</b></div>
+        <div class="card dark" style="--x:70%;--y:18%;--r:7deg;--d:160ms"><small>Flashcard</small><b>Define homeostasis.</b></div>
+        <div class="card" style="--x:46%;--y:44%;--r:-3deg;--d:320ms"><small>2019 Paper 1</small><b>Question 5</b></div>
+        <div class="card" style="--x:80%;--y:52%;--r:10deg;--d:480ms"><small>Marking scheme</small><b class="ticks">✓ ✓ ✓ ✗</b></div>
+        <div class="card" style="--x:20%;--y:62%;--r:6deg;--d:640ms"><small>Timed test</small><b>20:00</b></div>
+        <div class="card dark" style="--x:58%;--y:70%;--r:-9deg;--d:800ms"><small>Model answer</small><b>6/6</b></div>
+        <div class="card" style="--x:34%;--y:86%;--r:-4deg;--d:960ms"><small>Points</small><b>589</b></div>
+        <div class="card" style="--x:78%;--y:88%;--r:5deg;--d:1120ms"><small>Exam guide</small><b>Paper 2, Section B</b></div>
+        <div class="card" style="--x:50%;--y:20%;--r:-12deg;--d:1280ms"><small>Progress</small><b>Enzymes 92%</b><i style="--p:92%"></i></div>
+      </div>
     </div>
   </div>
 </section>
@@ -203,7 +199,7 @@
         <ol class="points" data-points></ol>
       </div>
       <div class="nudge" data-nudge hidden>
-        <p>Save your marks. There are 3,373 more.</p>
+        <p>Sign up free and every mark you get is saved.</p>
         <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_demo">Start studying free</a>
         <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
       </div>
@@ -240,27 +236,6 @@
         <p><b>See what's shaky</b> before the exam does.</p>
       </li>
     </ul>
-  </div>
-</section>
-
-<!-- ================= the bank ================= -->
-<section class="section bank" id="subjects">
-  <div class="wrap">
-    <table class="ledger">
-      <caption class="sr-only">Past exam questions by subject</caption>
-      <thead><tr><th scope="col">Subject</th><th scope="col">Papers</th><th scope="col">Questions</th></tr></thead>
-      <tbody>
-        <tr><td><a href="leaving-cert-biology/">Biology</a></td><td class="years">2015 to 2025</td><td class="n">350</td></tr>
-        <tr><td><a href="leaving-cert-chemistry/">Chemistry</a></td><td class="years">2001 to 2025</td><td class="n">548</td></tr>
-        <tr><td><a href="leaving-cert-geography/">Geography</a></td><td class="years">2017 to 2026</td><td class="n">600</td></tr>
-        <tr><td><a href="leaving-cert-history/">History</a></td><td class="years">2006 to 2026</td><td class="n">508</td></tr>
-        <tr><td><a href="leaving-cert-home-economics/">Home Economics</a></td><td class="years">2004 to 2026</td><td class="n">916</td></tr>
-        <tr><td><a href="app.html">Maths</a></td><td class="years">2019 to 2025</td><td class="n">272</td></tr>
-        <tr><td><a href="leaving-cert-pe/">PE</a></td><td class="years">2022 to 2026</td><td class="n">180</td></tr>
-        <tr><td><a href="leaving-cert-business/">Business</a></td><td class="years">Notes</td><td class="soon">Coming</td></tr>
-      </tbody>
-      <tfoot><tr><td colspan="2">All marked against the official scheme</td><td class="n">3,374</td></tr></tfoot>
-    </table>
   </div>
 </section>
 
@@ -308,8 +283,7 @@
         <div class="foot-col">
           <h4>Product</h4>
           <a href="#try">Try a question</a>
-          <a href="#subjects">Subjects</a>
-          <a href="leaving-cert-points-calculator/">Points calculator</a>
+                    <a href="leaving-cert-points-calculator/">Points calculator</a>
           <a href="app.html#signin" class="auth-out">Sign in</a>
         </div>
         <div class="foot-col">
@@ -359,6 +333,7 @@
 
 <script src="design_handoff_barebones_landing/pixelfont.js"></script>
 <script src="answer-marker.js"></script>
+<script src="home-hero.js?v=1"></script>
 <script>
   (function () {
     function track(name) { try { window.va('event', { name: name }); } catch (e) {} }
@@ -378,21 +353,10 @@
       body.dataset.hero = b.dataset.pick;
       history.replaceState(null, '', '?hero=' + b.dataset.pick);
       syncPicker();
-      sizeMatrix();
+      if (window.BBHero) BBHero.show(b.dataset.pick);
     });
     syncPicker();
-
-    // Option B: size the dot-matrix word to the column
-    var matrix = document.getElementById('matrixWord');
-    function sizeMatrix() {
-      if (!window.PixelText) return;
-      var w = matrix.parentElement.clientWidth || (innerWidth - 32);
-      matrix.setAttribute('data-size', Math.max(5, Math.min(22, Math.floor(w / 49))));
-      matrix.setAttribute('data-text', 'MARKED.');
-      PixelText.render(matrix);
-    }
-    sizeMatrix();
-    addEventListener('resize', sizeMatrix);
+    if (window.BBHero) BBHero.show(body.dataset.hero);
 
     // Contact opens the dialog; the #contact link still works without JS
     var dialog = document.getElementById('contactDialog');
