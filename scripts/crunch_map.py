@@ -21,6 +21,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from crunch_points import ROOT, items
 
+# The AAC (coursework) and its share of the overall grade, from <subject>-exam-info.js. The cut covers the written paper only.
+AAC = {"biology": {"name": "Biology in Practice Investigation", "weight": 0.4},
+       "geography": {"name": "Geographical Investigation", "weight": 0.2}}
+
 
 def geo_track(sid):
     ch = sid.rsplit("-s", 1)[0]
@@ -155,7 +159,7 @@ def main(subject):
     out.mkdir(parents=True, exist_ok=True)
     (out / "data.json").write_text(json.dumps(
         {"subject": subject, "chapters": chapters, "subs": subs, "items": rows, "links": links, "papers": paper_list,
-         "groups": cfg["groups"], "picks": cfg.get("picks", {})},
+         "groups": cfg["groups"], "picks": cfg.get("picks", {}), "aac": AAC.get(subject)},
         ensure_ascii=False, separators=(",", ":")))
     print(f"{len(rows)} items, {len(links)} links, {len(subs)} subsections, {len(chapters)} chapters, "
           f"{len(paper_list)} papers ({len(tags)} questions tagged to points) → {out / 'data.json'}")
