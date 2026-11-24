@@ -76,7 +76,7 @@
   "cost": 2,
   "needs": [
    {
-    "id": "geo-economic-eu-s1.2.2.2",
+    "id": "geo-economic-eu-s1.2.2",
     "strength": "helpful",
     "why": "surplus and balance of trade",
     "confidence": "high"
@@ -125,7 +125,7 @@
   "cost": 2,
   "needs": [
    {
-    "id": "geo-economic-eu-s1.1.5.2",
+    "id": "geo-economic-eu-s1.5.2",
     "strength": "helpful",
     "why": "Rotterdam effect, Netherlands",
     "confidence": "low"
@@ -397,7 +397,7 @@
   "cost": 1,
   "needs": [
    {
-    "id": "geo-economic-eu-s1.1.1.0",
+    "id": "geo-economic-eu-s1.1.0",
     "strength": "helpful",
     "why": "single market freedoms",
     "confidence": "high"
