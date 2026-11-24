@@ -115,12 +115,13 @@ a.chip:hover { border-color: var(--ink) }
 .ex { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 380px); gap: 28px; align-items: start }
 .ex.solo { grid-template-columns: minmax(0, 1fr) }
 .ex .graph { position: sticky; top: 20px }
+.ex.stack { grid-template-columns: minmax(0, 1fr) } .ex.stack .graph { position: static; order: -1; max-width: 420px }
 @media (max-width: 1100px) { .ex { grid-template-columns: minmax(0, 1fr) } .ex .graph { position: static; order: -1; max-width: 420px } }
 .step { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 0 12px; margin: 0 0 18px }
 .step .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: #fff; font-weight: 800; font-size: 0.8rem; margin-top: 3px }
 .step .say { font-size: 1.05rem; margin-bottom: 4px }
 .graph svg { width: 100%; height: auto; display: block; overflow: visible }
-.graph text { font-family: var(--font); font-size: 13px; fill: var(--pencil) }
+.graph text { font-family: var(--font); font-size: 13px; fill: var(--pencil); paint-order: stroke; stroke: var(--board); stroke-width: 3.5px; stroke-linejoin: round }  /* a halo keeps labels readable where a line runs under them */
 .graph .lab { font-weight: 700 }
 .answer { display: inline-flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; padding: 12px 18px; border: 2.5px solid var(--ink); border-radius: 10px; background: #fff; margin: 4px 0 0 44px; font-size: 1.1rem }
 .answer small { font-size: 0.66rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--muted) }
@@ -144,6 +145,7 @@ a.chip:hover { border-color: var(--ink) }
   .work { font-size: 0.98rem }
   .answer { margin-left: 0 }
 }
+.nw { white-space: nowrap }
 </style>
 </head>
 <body>
@@ -160,14 +162,18 @@ a.chip:hover { border-color: var(--ink) }
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
-<script src="maths-skills/index.js?v=5079c31dfc"></script>
+<script src="maths-skills/index.js?v=d5718fee22"></script>
 <script src="maths-packs.js"></script>
 <script>
 const KATEX_OPTS = { throwOnError: false, strict: 'ignore', macros: { '\\hl': '\\htmlClass{hl hl-#1}{#2}' }, trust: c => c.command === '\\htmlClass' };
 const tex = (s, display = false) => katex.renderToString(s, { ...KATEX_OPTS, displayMode: display });
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 // text with $maths$ and **bold**
-const rich = s => String(s).split(/(\$[^$]+\$)/).map((p, k) => k % 2 ? tex(p.slice(1, -1)) : esc(p).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')).join('');
+// punctuation right after inline maths stays on its line with it
+const rich = s => String(s).split(/(\$[^$]+\$)/).map((p, k, all) => {
+  if (k % 2) { const pun = (all[k + 1] ?? '').match(/^[.,;:!?)]+/)?.[0] ?? ''; return pun ? `<span class="nw">${tex(p.slice(1, -1))}${pun}</span>` : tex(p.slice(1, -1)) }
+  return esc(k && all[k - 1] ? p.replace(/^[.,;:!?)]+/, '') : p).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+}).join('');
 const say = (s, cls = 'say') => `<p class="${cls}">${rich(s)}</p>`;
 const GRADES = ['Beginner', 'Intermediate', 'Advanced'];
 const gradeTag = g => `<span class="grade" title="${g}"><span class="dots" aria-hidden="true">${GRADES.map((_, k) =>
@@ -278,7 +284,17 @@ function render(S) {
     + tips
     + `<div class="next">${S.lesson ? `<a class="btn btn-primary" href="maths-skill.html?skill=${S.id}">Practice Problems →</a>`
         : `<a class="btn btn-primary" href="maths-skill.html">All skills →</a>`}</div>`;
+  fit(); document.fonts.ready.then(fit);
 }
+
+// a figure beside the working moves above it when it would squeeze a line of maths into a scroll box
+function fit() {
+  const ex = board.querySelector('.ex:not(.solo)');
+  if (!ex) return;
+  ex.classList.remove('stack');
+  if ([...ex.querySelectorAll('.work')].some(w => w.scrollWidth > w.clientWidth + 1)) ex.classList.add('stack');
+}
+addEventListener('resize', fit);
 
 const id = new URLSearchParams(location.search).get('skill'), entry = MathsPacks.byId[id];
 const practise = document.getElementById('practise');

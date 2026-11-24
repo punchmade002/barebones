@@ -1,0 +1,340 @@
+[
+ {
+  "skill": "line-angle-between",
+  "of": "3c046a56b71e",
+  "title": "Find the angle between two lines",
+  "show": "two lines 2x-y+1=0 and x+3y-6=0 crossing with the acute angle between them marked",
+  "example": {
+   "question": "Find the acute angle between the lines $2x - y + 1 = 0$ and $x + 3y - 6 = 0$. Give your answer correct to one decimal place.",
+   "final": "81.9^\\circ",
+   "steps": [
+    {
+     "say": "Write each line as $y = mx + c$ and read off the slope.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= 2x + 1"
+      },
+      {
+       "l": "y",
+       "r": "= -\\frac{1}{3}x + 2"
+      },
+      {
+       "aside": "So $m_1 = \\hl{1}{2}$ and $m_2 = \\hl{2}{-\\frac{1}{3}}$."
+      }
+     ]
+    },
+    {
+     "say": "Put $m_1$ and $m_2$ into the angle formula. Taking the positive value gives the acute angle.",
+     "rows": [
+      {
+       "l": "\\tan\\theta",
+       "r": "= \\frac{\\hl{1}{2} - \\left(\\hl{2}{-\\frac{1}{3}}\\right)}{1 + (\\hl{1}{2})\\left(\\hl{2}{-\\frac{1}{3}}\\right)}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{\\frac{7}{3}}{\\frac{1}{3}}"
+      },
+      {
+       "l": "",
+       "r": "= 7"
+      }
+     ]
+    },
+    {
+     "say": "Use the inverse tangent to turn $\\tan\\theta = 7$ into the angle.",
+     "rows": [
+      {
+       "l": "\\theta",
+       "r": "= \\tan^{-1}(7)"
+      },
+      {
+       "l": "",
+       "r": "= 81.9^\\circ"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-from-distance",
+  "of": "0e872d18c94f",
+  "title": "Find lines through a point at a given distance/angle",
+  "show": "point and two lines through the origin each at perpendicular distance 3 from the point",
+  "example": {
+   "question": "Find the equations of the two lines through the origin that are a perpendicular distance of $3$ from the point $(5, 0)$.",
+   "final": "y = \\frac{3}{4}x \\quad \\text{and} \\quad y = -\\frac{3}{4}x",
+   "steps": [
+    {
+     "say": "A line through the origin is $y = mx$. Write it as $ax + by + c = 0$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{m}x - y",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Use the distance formula from $(5, 0)$ to this line and set it equal to $3$.",
+     "rows": [
+      {
+       "l": "\\frac{|\\hl{1}{m}(5) + (-1)(0)|}{\\sqrt{\\hl{1}{m}^2 + 1}}",
+       "r": "= 3"
+      },
+      {
+       "l": "|5m|",
+       "r": "= 3\\sqrt{m^2 + 1}"
+      }
+     ]
+    },
+    {
+     "say": "Square both sides to remove the root. Then collect the $m^2$ terms.",
+     "rows": [
+      {
+       "l": "25m^2",
+       "r": "= 9(m^2 + 1)"
+      },
+      {
+       "l": "16m^2",
+       "r": "= 9"
+      },
+      {
+       "l": "m^2",
+       "r": "= \\frac{9}{16}"
+      },
+      {
+       "l": "m",
+       "r": "= \\pm\\frac{3}{4}"
+      }
+     ]
+    },
+    {
+     "say": "Each value of $m$ gives one line through the origin.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= \\frac{3}{4}x"
+      },
+      {
+       "l": "y",
+       "r": "= -\\frac{3}{4}x"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-conjugate",
+  "of": "13f494167b6c",
+  "title": "Find the conjugate",
+  "show": "z=4-3i and its conjugate 4+3i reflected in the real axis on an Argand diagram",
+  "example": {
+   "question": "Let $z = 4 - 3i$. Write down $\\bar z$ and find $z\\bar z$.",
+   "final": "\\hl{1}{\\bar z} = 4 + 3i, \\quad z\\hl{1}{\\bar z} = 25",
+   "steps": [
+    {
+     "say": "Keep the real part and flip the sign of the $i$ part. $z = 4 - 3i$ becomes $\\hl{1}{\\bar z}$.",
+     "rows": [
+      {
+       "l": "z",
+       "r": "= 4 - 3i"
+      },
+      {
+       "l": "\\hl{1}{\\bar z}",
+       "r": "= 4 + 3i"
+      }
+     ]
+    },
+    {
+     "say": "Now multiply $z$ by $\\hl{1}{\\bar z}$. Expand the two brackets.",
+     "rows": [
+      {
+       "l": "z\\hl{1}{\\bar z}",
+       "r": "= (4 - 3i)(4 + 3i)"
+      },
+      {
+       "l": "",
+       "r": "= 16 + 12i - 12i - 9i^2"
+      },
+      {
+       "aside": "The two $i$ terms cancel. Remember $i^2 = -1$."
+      }
+     ]
+    },
+    {
+     "say": "With $i^2 = -1$, the last term becomes $+9$. The answer has no $i$ in it.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= 16 + 9"
+      },
+      {
+       "l": "",
+       "r": "= 25"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-argand",
+  "of": "efd2b2b31ae7",
+  "title": "Plot complex numbers on an Argand diagram",
+  "show": "Argand diagram with z=-2+3i, w=4-i and z+w=2+2i plotted, parallelogram completed",
+  "example": {
+   "question": "Let $z = -2 + 3i$ and $w = 4 - i$. Find $z + w$. Plot $z$, $w$ and $z + w$ on an Argand diagram and label each point.",
+   "final": "\\hl{1}{z + w} = 2 + 2i \\text{, the point } (2, 2)",
+   "steps": [
+    {
+     "say": "The real part is the $x$ value. The imaginary part is the $y$ value.",
+     "rows": [
+      {
+       "aside": "$z = -2 + 3i$ is the point $(-2, 3)$."
+      },
+      {
+       "aside": "$w = 4 - i$ is the point $(4, -1)$."
+      }
+     ]
+    },
+    {
+     "say": "Add the real parts together, then the imaginary parts. Call the answer $\\hl{1}{z + w}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{z + w}",
+       "r": "= (-2 + 4) + (3 - 1)i"
+      },
+      {
+       "l": "",
+       "r": "= 2 + 2i"
+      }
+     ]
+    },
+    {
+     "say": "Mark the points $(-2, 3)$, $(4, -1)$ and $(2, 2)$. Count along the Re axis first, then up the Im axis.",
+     "rows": [
+      {
+       "aside": "Label them $z$, $w$ and $z + w$. Unlabelled points lose a mark."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-modulus",
+  "of": "98f8af5db7a2",
+  "title": "Find the modulus as distance from the origin",
+  "show": "z1=2-3i and z2=5+i on an Argand diagram with |z1-z2| as the distance between them",
+  "example": {
+   "question": "$z_1 = 2 - 3i$ and $z_2 = 5 + i$. Find $|z_1 - z_2|$.",
+   "final": "|z_1 - z_2| = \\hl{3}{5}",
+   "steps": [
+    {
+     "say": "The modulus belongs to one number, so combine $z_1 - z_2$ into the form $a + bi$ before you measure it. Subtract the real parts, then the imaginary parts.",
+     "rows": [
+      {
+       "l": "z_1 - z_2",
+       "r": "= (2 - 3i) - (5 + i)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{-3} \\hl{2}{- 4}i"
+      }
+     ]
+    },
+    {
+     "say": "For $a + bi$ the distance from the origin is the hypotenuse of a triangle with sides $a$ and $b$.",
+     "rows": [
+      {
+       "l": "|a + bi|",
+       "r": "= \\sqrt{a^2 + b^2}"
+      }
+     ]
+    },
+    {
+     "say": "Here $a = \\hl{1}{-3}$ and $b = \\hl{2}{-4}$. Square each, so the minus signs disappear, then add.",
+     "rows": [
+      {
+       "l": "|z_1 - z_2|",
+       "r": "= \\sqrt{(\\hl{1}{-3})^2 + (\\hl{2}{-4})^2}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{9 + 16}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{25}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{5}"
+      },
+      {
+       "aside": "If the root does not come out whole, leave it as a surd such as $\\sqrt{98}$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-transformations",
+  "of": "438a8f914fc2",
+  "title": "Interpret operations as transformations on the Argand diagram",
+  "show": "Argand diagram with z=4+2i and iz=-2+4i showing the 90° anticlockwise rotation about the origin",
+  "example": {
+   "question": "$z = 4 + 2i$. Find $iz$. Describe the transformation that takes $z$ to $iz$ on the Argand diagram.",
+   "final": "iz = -2 + 4i,\\; \\text{a rotation of } 90^\\circ \\text{ anticlockwise about the origin}",
+   "steps": [
+    {
+     "say": "Multiply $z$ by $i$. Use $i^2 = -1$.",
+     "rows": [
+      {
+       "l": "iz",
+       "r": "= i(4 + 2i)"
+      },
+      {
+       "l": "",
+       "r": "= 4i + 2i^2"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{-2 + 4i}"
+      }
+     ]
+    },
+    {
+     "say": "Find how far each point is from the origin. If the distances match, the point has turned and not stretched.",
+     "rows": [
+      {
+       "l": "|z|",
+       "r": "= \\sqrt{4^2 + 2^2}"
+      },
+      {
+       "l": "|iz|",
+       "r": "= \\sqrt{(-2)^2 + 4^2}"
+      },
+      {
+       "aside": "Both equal $\\sqrt{20}$. The distance from the origin did not change."
+      }
+     ]
+    },
+    {
+     "say": "The point $(4, 2)$ has moved to $(-2, 4)$ at the same distance from the origin. So it has been turned.",
+     "rows": [
+      {
+       "aside": "Multiplying by $i$ is a rotation of $90°$ anticlockwise about the origin."
+      },
+      {
+       "aside": "Check: $(4, 2)$ is in the first quarter. $(-2, 4)$ is in the second quarter, one quarter turn on."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

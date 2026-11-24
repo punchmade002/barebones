@@ -12,6 +12,7 @@ The index's own ?v= is written into the script tags of maths-learn.html and math
 import hashlib
 import json
 import re
+import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -37,6 +38,11 @@ def write(name, js):
 
 def main():
     learn = globals_in(HERE / 'build/maths-learn.js')['MATHS_LEARN']
+    sys.path.insert(0, str(HERE / 'learn'))
+    from visuals import usable          # only figures a checker passed; a skill with none shows no figure
+    figs = usable()
+    for sid, L in learn.items():
+        L['graph'], L['diagram'] = figs.get(sid, (None, None))
     built = globals_in(HERE / 'build/maths-lessons.js')
     lessons = built['MATHS_LESSONS']
     db = json.loads((HERE / 'skills.json').read_text())

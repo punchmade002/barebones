@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "inf-p-value",
+  "of": "aadbaac7e232",
+  "title": "Calculate and interpret a p-value",
+  "show": "normal curve centred on 500 with the sample mean marked and the tail area shaded",
+  "example": {
+   "question": "A machine is set to fill bags with a mean mass of $500$ g and a standard deviation of $12$ g. A sample of $36$ bags has a mean mass of $504.6$ g. Test, at the $5\\%$ level, whether the mean mass has changed. Use a $p$-value.",
+   "final": "p = 0.0214 < 0.05 \\text{, so the mean mass has changed}",
+   "steps": [
+    {
+     "say": "Standardise the sample mean to find $\\hl{1}{z}$. The spread of a sample mean is $\\sigma/\\sqrt{n}$, not $\\sigma$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{z}",
+       "r": "= \\frac{504.6 - 500}{12/\\sqrt{36}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{4.6}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 2.3"
+      }
+     ]
+    },
+    {
+     "say": "Look up $P(z < 2.3)$ in the normal tables.",
+     "rows": [
+      {
+       "l": "P(z < 2.3)",
+       "r": "= 0.9893"
+      }
+     ]
+    },
+    {
+     "say": "The test is two-tailed, so $\\hl{2}{p}$ counts both tails. Take the tail above $2.3$ and double it.",
+     "rows": [
+      {
+       "l": "\\hl{2}{p}",
+       "r": "= 2\\,[1 - P(z < 2.3)]"
+      },
+      {
+       "l": "",
+       "r": "= 2(1 - 0.9893)"
+      },
+      {
+       "l": "",
+       "r": "= 2(0.0107)"
+      },
+      {
+       "l": "",
+       "r": "= 0.0214"
+      }
+     ]
+    },
+    {
+     "say": "Compare $\\hl{2}{p}$ with $0.05$. Then say what it means for the claim, in the words of the question.",
+     "rows": [
+      {
+       "l": "\\hl{2}{0.0214}",
+       "r": "< 0.05"
+      },
+      {
+       "aside": "$p$ is less than $0.05$, so reject the claim. There is evidence that the mean mass of the bags has changed."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-z-score",
+  "of": "991355f82719",
+  "title": "Standardise a value",
+  "show": "normal curve mean 58 sd 12 with the shaded area for the asked mark",
+  "example": {
+   "question": "The marks in an exam are normally distributed with mean $58$ and standard deviation $12$. Find the percentage of students who scored more than $73$.",
+   "final": "10.56\\%",
+   "steps": [
+    {
+     "say": "Standardise: take away the mean, then divide by the standard deviation. This gives $\\hl{1}{z}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{z}",
+       "r": "= \\frac{73 - 58}{12}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{15}{12}"
+      },
+      {
+       "l": "",
+       "r": "= 1.25"
+      }
+     ]
+    },
+    {
+     "say": "The tables give the area to the **left** of $z$. Look up $P(z < 1.25)$.",
+     "rows": [
+      {
+       "l": "P(z < \\hl{1}{1.25})",
+       "r": "= 0.8944"
+      }
+     ]
+    },
+    {
+     "say": "We want the students above $73$, so take the left area from $1$.",
+     "rows": [
+      {
+       "l": "P(z > 1.25)",
+       "r": "= 1 - 0.8944"
+      },
+      {
+       "l": "",
+       "r": "= 0.1056"
+      },
+      {
+       "l": "",
+       "r": "= 10.56\\%"
+      },
+      {
+       "aside": "About $10.6\\%$ of the students scored more than $73$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-empirical-rule",
+  "of": "e6aedc41554d",
+  "title": "Make decisions with the empirical rule",
+  "show": "normal curve mean 60 sd 5 with 1, 2 and 3 sd bands marked 68%, 95%, 99.7%",
+  "example": {
+   "question": "The lifetime of a battery is normally distributed with mean $60$ hours and standard deviation $5$ hours. Use the empirical rule to find the percentage of batteries that last more than $70$ hours.",
+   "final": "2.5\\%",
+   "steps": [
+    {
+     "say": "Find how far $70$ is above the mean, then divide by $\\sigma$. This is how many $\\hl{1}{\\sigma}$ away it is.",
+     "rows": [
+      {
+       "l": "70 - 60",
+       "r": "= 10"
+      },
+      {
+       "l": "\\frac{10}{5}",
+       "r": "= \\hl{1}{2}"
+      },
+      {
+       "aside": "So $70$ is $2$ standard deviations above the mean."
+      }
+     ]
+    },
+    {
+     "say": "The empirical rule says $95\\%$ of values lie within $2$ standard deviations of the mean. That is between $50$ and $70$ hours.",
+     "rows": [
+      {
+       "aside": "$68\\%$ within $1\\sigma$. $\\hl{2}{95\\%}$ within $2\\sigma$. $99.7\\%$ within $3\\sigma$."
+      }
+     ]
+    },
+    {
+     "say": "The rest lies outside, in the two tails. We want only the **upper** tail, so split it in half.",
+     "rows": [
+      {
+       "l": "100 - \\hl{2}{95}",
+       "r": "= 5"
+      },
+      {
+       "l": "\\frac{5}{2}",
+       "r": "= 2.5"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-normal-prob",
+  "of": "7e3d748236fe",
+  "title": "Read probabilities from normal tables",
+  "show": "normal curve mean 500 sd 8 with the required area shaded",
+  "example": {
+   "question": "The mass of a bag of sugar is normally distributed with mean $500$ g and standard deviation $8$ g. Find the probability that a bag has mass greater than $512$ g.",
+   "final": "0.0668",
+   "steps": [
+    {
+     "say": "Standardise $512$. Subtract the mean, then divide by the standard deviation. This gives $\\hl{1}{z}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{z}",
+       "r": "= \\frac{x - \\mu}{\\sigma} = \\frac{512 - 500}{8}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{12}{8}"
+      },
+      {
+       "l": "",
+       "r": "= 1.5"
+      }
+     ]
+    },
+    {
+     "say": "The tables give $P(z < \\hl{1}{1.5})$, the area to the **left**. Find $1.5$ down the side and read across.",
+     "rows": [
+      {
+       "l": "P(z < \\hl{1}{1.5})",
+       "r": "= \\hl{2}{0.9332}"
+      }
+     ]
+    },
+    {
+     "say": "We want the area to the **right** of $\\hl{1}{1.5}$. The whole area is $1$, so take away $\\hl{2}{0.9332}$.",
+     "rows": [
+      {
+       "l": "P(X > 512)",
+       "r": "= P(z > 1.5)"
+      },
+      {
+       "l": "",
+       "r": "= 1 - \\hl{2}{0.9332}"
+      },
+      {
+       "l": "",
+       "r": "= 0.0668"
+      },
+      {
+       "aside": "That is about $6.7\\%$ of bags."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-normal-inverse",
+  "of": "e21e93c8306c",
+  "title": "Work backwards from a normal probability",
+  "show": "normal curve mean 58 sd 9 with the top 20% tail shaded and the cut-off marked",
+  "example": {
+   "question": "The marks in an exam are normally distributed with mean $58$ and standard deviation $9$. The top $20\\%$ of students get a distinction. Find the lowest mark that gets a distinction, to the nearest whole number.",
+   "final": "66",
+   "steps": [
+    {
+     "say": "Top $20\\%$ means $80\\%$ of students are below the cut-off. So the left area is $0.8$.",
+     "rows": [
+      {
+       "l": "P(z < \\hl{1}{z})",
+       "r": "= 0.8"
+      }
+     ]
+    },
+    {
+     "say": "Look **inside** the table for the area closest to $0.8$. Read $\\hl{1}{z}$ from the edge.",
+     "rows": [
+      {
+       "aside": "The closest entry is $0.7995$."
+      },
+      {
+       "l": "\\hl{1}{z}",
+       "r": "= 0.84"
+      }
+     ]
+    },
+    {
+     "say": "Put $\\hl{1}{0.84}$, the mean and the standard deviation into $z = \\frac{x - \\mu}{\\sigma}$. Then solve for $\\hl{2}{x}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{0.84}",
+       "r": "= \\frac{\\hl{2}{x} - 58}{9}"
+      },
+      {
+       "l": "\\hl{2}{x} - 58",
+       "r": "= 0.84(9)"
+      },
+      {
+       "l": "\\hl{2}{x}",
+       "r": "= 58 + 7.56"
+      },
+      {
+       "l": "",
+       "r": "= 65.56"
+      }
+     ]
+    },
+    {
+     "say": "The question wants a whole mark. $65$ would be just short, so round up to $66$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{x}",
+       "r": "\\approx 66"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-radians",
+  "of": "460b12d2fa2d",
+  "title": "Use radian measure",
+  "show": "sector radius 6 cm angle 150°=5π/6 with the arc marked",
+  "example": {
+   "question": "A sector of a circle has radius $6$ cm and angle $150^\\circ$. (i) Write $150^\\circ$ in radians. (ii) Find the area of the sector, in terms of $\\pi$.",
+   "final": "\\frac{5\\pi}{6}, \\; 15\\pi \\text{ cm}^2",
+   "steps": [
+    {
+     "say": "Multiply the angle in degrees by $\\frac{\\pi}{180}$. Cancel the fraction.",
+     "rows": [
+      {
+       "l": "150^\\circ",
+       "r": "= 150 \\times \\frac{\\pi}{180}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{5\\pi}{6}}"
+      }
+     ]
+    },
+    {
+     "say": "The sector area formula $\\frac{1}{2}r^2\\theta$ needs $\\theta$ in **radians**. Use $\\hl{1}{\\frac{5\\pi}{6}}$, not $150$.",
+     "rows": [
+      {
+       "l": "A",
+       "r": "= \\frac{1}{2}r^2\\theta"
+      }
+     ]
+    },
+    {
+     "say": "Put in $r = 6$ and $\\theta = \\hl{1}{\\frac{5\\pi}{6}}$.",
+     "rows": [
+      {
+       "l": "A",
+       "r": "= \\frac{1}{2}(6)^2\\left(\\hl{1}{\\frac{5\\pi}{6}}\\right)"
+      },
+      {
+       "l": "",
+       "r": "= 18 \\times \\frac{5\\pi}{6}"
+      },
+      {
+       "l": "",
+       "r": "= 15\\pi \\text{ cm}^2"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,8 @@
+{
+"line-midpoint":{"ok":true,"issues":[]},
+"line-slope":{"ok":true,"issues":[]},
+"line-point-on":{"ok":true,"issues":[]},
+"line-distance":{"ok":true,"issues":[]},
+"line-equation":{"ok":false,"issues":["The line crosses the x-axis at -3.5 and runs through the '-4' tick label, so the label is struck through and hard to read.","The dashed run segment at y=1 passes through the y-axis tick label '1'.","Axis tick labels are very small."]},
+"line-collinear":{"ok":true,"issues":["Figure is fine. Not a figure issue: the ANSWER box renders 'A, BandCarecollinear' with spaces lost (final is in math mode without \\text)."]}
+}

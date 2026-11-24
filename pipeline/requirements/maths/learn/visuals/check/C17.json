@@ -1,0 +1,397 @@
+[
+ {
+  "skill": "circ-tangent-test",
+  "of": "3d660730f546",
+  "title": "Show a line is a tangent",
+  "show": "circle centre (2,-1) radius 5 with line 3x+4y-27=0 touching it and the perpendicular from centre equal to the radius",
+  "example": {
+   "question": "Show that the line $3x + 4y - 27 = 0$ is a tangent to the circle $x^2 + y^2 - 4x + 2y - 20 = 0$.",
+   "final": "d = r = 5 \\ \\Rightarrow \\ \\text{the line is a tangent}",
+   "steps": [
+    {
+     "say": "Read off $g = -2$, $f = 1$, $c = -20$. The centre is $(-g, -f)$ and $r = \\sqrt{g^2 + f^2 - c}$.",
+     "rows": [
+      {
+       "aside": "The centre is $(2, -1)$."
+      },
+      {
+       "l": "\\hl{1}{r}",
+       "r": "= \\sqrt{(-2)^2 + 1^2 - (-20)}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{25}"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "Use the perpendicular distance formula with the centre $(2, -1)$ and the line $3x + 4y - 27 = 0$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{d}",
+       "r": "= \\frac{|3(2) + 4(-1) - 27|}{\\sqrt{3^2 + 4^2}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{25}{5}"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "The distance $\\hl{2}{d}$ is $5$ and the radius $\\hl{1}{r}$ is $5$. Say what that means.",
+     "rows": [
+      {
+       "aside": "The distance from the centre to the line equals the radius, so the line touches the circle at exactly one point. It is a tangent."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-line-general",
+  "of": "31714b172239",
+  "title": "Find where a line meets any circle",
+  "show": "circle centre (1,2) with line y=x+1 cutting it at two points",
+  "example": {
+   "question": "The line $y = x + 1$ meets the circle $x^2 + y^2 - 2x - 4y - 3 = 0$ at two points. Find the points.",
+   "final": "(3, 4) \\ \\text{and} \\ (-1, 0)",
+   "steps": [
+    {
+     "say": "The line gives $y = x + 1$. Replace every $y$ in the circle with $x + 1$.",
+     "rows": [
+      {
+       "l": "x^2 + (x+1)^2 - 2x - 4(x+1) - 3",
+       "r": "= 0"
+      },
+      {
+       "l": "2x^2 - 4x - 6",
+       "r": "= 0"
+      },
+      {
+       "aside": "Every term divides by 2. Do that first."
+      },
+      {
+       "l": "x^2 - 2x - 3",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Factorise the quadratic and set each bracket to $0$ to find the $\\hl{1}{x}$ values.",
+     "rows": [
+      {
+       "l": "(x - 3)(x + 1)",
+       "r": "= 0"
+      },
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= 3 \\quad \\text{or} \\quad \\hl{1}{x} = -1"
+      }
+     ]
+    },
+    {
+     "say": "Put each $\\hl{1}{x}$ back into the line $y = x + 1$ to get the $\\hl{2}{y}$ values.",
+     "rows": [
+      {
+       "l": "\\hl{2}{y}",
+       "r": "= 3 + 1"
+      },
+      {
+       "l": "",
+       "r": "= 4"
+      },
+      {
+       "l": "\\hl{2}{y}",
+       "r": "= -1 + 1"
+      },
+      {
+       "l": "",
+       "r": "= 0"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-touching",
+  "of": "defb6cfc9b38",
+  "title": "Decide whether circles touch internally or externally",
+  "show": "two circles touching, centres and radii marked, with distance between centres equal to sum or difference of radii",
+  "example": {
+   "question": "The circle $c$ has equation $x^2 + y^2 + 2x - 4y - 20 = 0$ and the circle $s$ has equation $(x-2)^2 + (y+2)^2 = 100$. Show that the circles touch internally.",
+   "final": "\\text{The distance } \\hl{1}{5} = r_2 - r_1 \\text{, so the circles touch internally.}",
+   "steps": [
+    {
+     "say": "Read $g$, $f$ and $c$ from $x^2 + y^2 + 2gx + 2fy + c = 0$. Here $g = 1$, $f = -2$ and $c = -20$. The centre is $(-g, -f)$ and the radius is $\\sqrt{g^2 + f^2 - c}$.",
+     "rows": [
+      {
+       "l": "\\text{centre}",
+       "r": "= (-g, -f) = (-1, 2)"
+      },
+      {
+       "l": "r_1",
+       "r": "= \\sqrt{g^2 + f^2 - c}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{1 + 4 + 20}"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "The equation of $s$ is already in the form $(x-h)^2 + (y-k)^2 = r^2$. Read the centre and radius straight off.",
+     "rows": [
+      {
+       "l": "\\text{centre}",
+       "r": "= (2, -2)"
+      },
+      {
+       "l": "r_2",
+       "r": "= \\sqrt{100} = 10"
+      }
+     ]
+    },
+    {
+     "say": "Use the distance formula on the two centres. Call the answer $\\hl{1}{d}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{d}",
+       "r": "= \\sqrt{(2 - (-1))^2 + (-2 - 2)^2}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{9 + 16}"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "Work out both the sum and the difference of the radii. The distance $\\hl{1}{d}$ matches one of them.",
+     "rows": [
+      {
+       "l": "r_1 + r_2",
+       "r": "= 5 + 10 = 15"
+      },
+      {
+       "l": "\\hl{2}{r_2 - r_1}",
+       "r": "= 10 - 5 = 5"
+      },
+      {
+       "aside": "$\\hl{1}{d} = \\hl{2}{r_2 - r_1}$, so the circles touch **internally**. Always write that conclusion."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-common-chord",
+  "of": "1e8a98848ab2",
+  "title": "Find the common chord/tangent of two circles",
+  "show": "two intersecting circles with the common chord (a straight line through the two intersection points)",
+  "example": {
+   "question": "The circles $x^2 + y^2 - 2x - 4y - 20 = 0$ and $x^2 + y^2 + 6x - 4y - 28 = 0$ meet at two points. Find the equation of the line through those points.",
+   "final": "\\hl{1}{x} = 1",
+   "steps": [
+    {
+     "say": "A meeting point lies on both circles, so it satisfies both equations. Call them (1) and (2).",
+     "rows": [
+      {
+       "l": "x^2 + y^2 - 2x - 4y - 20",
+       "r": "= 0 \\quad (1)"
+      },
+      {
+       "l": "x^2 + y^2 + 6x - 4y - 28",
+       "r": "= 0 \\quad (2)"
+      }
+     ]
+    },
+    {
+     "say": "Subtract (2) from (1). The $x^2$, $y^2$ and $y$ terms cancel.",
+     "rows": [
+      {
+       "l": "(1) - (2): \\quad -8x + 8",
+       "r": "= 0"
+      },
+      {
+       "aside": "Every term divides by $-8$. Do that first."
+      }
+     ]
+    },
+    {
+     "say": "What is left has only $x$ in it, so it is a vertical line.",
+     "rows": [
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= 1"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-tangents-from-point",
+  "of": "c7160bc18ce2",
+  "title": "Find tangents from an external point",
+  "show": "circle x²+y²=10 with the point (0,10) and the two tangents drawn from it",
+  "example": {
+   "question": "Find the equations of the two tangents to the circle $x^2 + y^2 = 10$ from the point $(0, 10)$.",
+   "final": "y = 3x + 10 \\quad \\text{and} \\quad y = -3x + 10",
+   "steps": [
+    {
+     "say": "Any line through $(0, 10)$ has the form $y - 10 = m(x - 0)$. Put it in the form $ax + by + c = 0$.",
+     "rows": [
+      {
+       "l": "y - 10",
+       "r": "= m(x - 0)"
+      },
+      {
+       "l": "mx - y + 10",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "The circle has centre $(0, 0)$ and radius $\\sqrt{10}$. A tangent is exactly $\\sqrt{10}$ from the centre. Use the distance formula from $(0, 0)$ to the line.",
+     "rows": [
+      {
+       "l": "\\frac{|m(0) - 0 + 10|}{\\sqrt{m^2 + 1}}",
+       "r": "= \\sqrt{10}"
+      },
+      {
+       "l": "\\frac{10}{\\sqrt{m^2 + 1}}",
+       "r": "= \\sqrt{10}"
+      }
+     ]
+    },
+    {
+     "say": "Square both sides, then solve for $\\hl{1}{m}$. There are two slopes, one for each tangent.",
+     "rows": [
+      {
+       "l": "100",
+       "r": "= 10(m^2 + 1)"
+      },
+      {
+       "l": "m^2",
+       "r": "= 9"
+      },
+      {
+       "l": "\\hl{1}{m}",
+       "r": "= \\pm 3"
+      }
+     ]
+    },
+    {
+     "say": "Put each slope into $y = mx + 10$.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= 3x + 10"
+      },
+      {
+       "l": "y",
+       "r": "= -3x + 10"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-from-conditions",
+  "of": "5711e8ad6d38",
+  "title": "Find a circle's equation from conditions",
+  "show": "circle through (1,1), (5,1), (1,-3), the three points forming a right triangle inscribed with centre at (3,-1) midpoint of hypotenuse",
+  "example": {
+   "question": "Find the equation of the circle that passes through $(1, 1)$, $(5, 1)$ and $(1, -3)$.",
+   "final": "x^2 + y^2 - 6x + 2y + 2 = 0",
+   "steps": [
+    {
+     "say": "Put each point into $x^2 + y^2 + 2gx + 2fy + c = 0$. Each one gives an equation in $g$, $f$ and $c$.",
+     "rows": [
+      {
+       "l": "(1, 1): \\quad 2g + 2f + c",
+       "r": "= -2 \\quad (A)"
+      },
+      {
+       "l": "(5, 1): \\quad 10g + 2f + c",
+       "r": "= -26 \\quad (B)"
+      },
+      {
+       "l": "(1, -3): \\quad 2g - 6f + c",
+       "r": "= -10 \\quad (C)"
+      }
+     ]
+    },
+    {
+     "say": "Subtract to cancel $c$. (B) minus (A) leaves only $g$. (A) minus (C) leaves only $f$.",
+     "rows": [
+      {
+       "l": "8g",
+       "r": "= -24"
+      },
+      {
+       "l": "\\hl{1}{g}",
+       "r": "= -3"
+      },
+      {
+       "l": "8f",
+       "r": "= 8"
+      },
+      {
+       "l": "\\hl{2}{f}",
+       "r": "= 1"
+      }
+     ]
+    },
+    {
+     "say": "Put $\\hl{1}{g}$ and $\\hl{2}{f}$ back into (A).",
+     "rows": [
+      {
+       "l": "\\hl{3}{c}",
+       "r": "= -2 - 2g - 2f"
+      },
+      {
+       "l": "",
+       "r": "= -2 + 6 - 2"
+      },
+      {
+       "l": "",
+       "r": "= 2"
+      }
+     ]
+    },
+    {
+     "say": "Put $g = -3$, $f = 1$ and $c = 2$ into the general equation.",
+     "rows": [
+      {
+       "l": "x^2 + y^2 - 6x + 2y + 2",
+       "r": "= 0"
+      },
+      {
+       "aside": "Check: $(1, 1)$ gives $1 + 1 - 6 + 2 + 2 = 0$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

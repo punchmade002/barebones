@@ -1,0 +1,314 @@
+[
+ {
+  "skill": "geo-thm14",
+  "of": "c296565d416c",
+  "title": "Apply Theorem 14: Pythagoras",
+  "show": "right triangle: ladder 7.4 m as hypotenuse, foot 2.1 m from the wall, wall height h",
+  "example": {
+   "question": "A ladder $7{\\cdot}4$ m long leans against a vertical wall. The foot of the ladder is $2{\\cdot}1$ m from the wall. How high up the wall does the ladder reach? Give your answer correct to one decimal place.",
+   "final": "7{\\cdot}1\\text{ m}",
+   "steps": [
+    {
+     "say": "The wall is vertical and the ground is flat, so there is a right angle between them. The ladder is opposite the right angle, so it is the hypotenuse.",
+     "rows": [
+      {
+       "l": "\\text{hypotenuse}",
+       "r": "= 7{\\cdot}4"
+      },
+      {
+       "aside": "Write Pythagoras: hypotenuse$^2$ = sum of the other two sides squared."
+      }
+     ]
+    },
+    {
+     "say": "Let $\\hl{1}{h}$ be the height up the wall. Put the numbers in.",
+     "rows": [
+      {
+       "l": "7{\\cdot}4^2",
+       "r": "= \\hl{1}{h}^2 + 2{\\cdot}1^2"
+      }
+     ]
+    },
+    {
+     "say": "Take $2{\\cdot}1^2$ from both sides to get $h^2$ on its own.",
+     "rows": [
+      {
+       "l": "\\hl{1}{h}^2",
+       "r": "= 7{\\cdot}4^2 - 2{\\cdot}1^2"
+      },
+      {
+       "l": "",
+       "r": "= 50{\\cdot}35"
+      }
+     ]
+    },
+    {
+     "say": "Square root both sides, then round to one decimal place.",
+     "rows": [
+      {
+       "l": "\\hl{1}{h}",
+       "r": "= \\sqrt{50{\\cdot}35}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{7{\\cdot}1}\\text{ m}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm15",
+  "of": "2ec57b920777",
+  "title": "Apply Theorem 15: Converse of Pythagoras",
+  "show": "triangle with sides 20, 99, 101 cm with the right angle marked",
+  "example": {
+   "question": "A triangle has sides of length $20$ cm, $99$ cm and $101$ cm. Show that the triangle is right-angled.",
+   "final": "20^2 + 99^2 = 101^2",
+   "steps": [
+    {
+     "say": "If there is a right angle, it is opposite the longest side, so that side is the hypotenuse. Here it is $\\hl{1}{101}$.",
+     "rows": [
+      {
+       "aside": "Test: does the sum of the other two squares equal $101^2$?"
+      }
+     ]
+    },
+    {
+     "say": "Square the two shorter sides and add them.",
+     "rows": [
+      {
+       "l": "20^2 + 99^2",
+       "r": "= 400 + 9801"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{10201}"
+      }
+     ]
+    },
+    {
+     "say": "Now square the longest side.",
+     "rows": [
+      {
+       "l": "\\hl{1}{101}^2",
+       "r": "= \\hl{2}{10201}"
+      }
+     ]
+    },
+    {
+     "say": "The two results are equal. By the converse of Pythagoras (Theorem 15), the angle opposite the longest side is a right angle.",
+     "rows": [
+      {
+       "l": "20^2 + 99^2",
+       "r": "= 101^2"
+      },
+      {
+       "aside": "So the triangle is right-angled."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-enlargement",
+  "of": "4cf58614eb7d",
+  "title": "Construct and analyse an enlargement",
+  "show": "triangle ABC and its enlargement PQR from centre O with rays through corresponding points, |OB|=5, |OQ|=12",
+  "example": {
+   "question": "The triangle $ABC$ is enlarged with centre $O$ to give the image $PQR$. $|OB| = 5$ cm and $|OQ| = 12$ cm. The area of $ABC$ is $10$ cm$^2$. Find the area of $PQR$.",
+   "final": "\\text{Area of } PQR = 57.6 \\text{ cm}^2",
+   "steps": [
+    {
+     "say": "The scale factor is image length over object length. Use the two lengths from $O$: $\\hl{1}{k} = \\frac{|OQ|}{|OB|}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{k}",
+       "r": "= \\frac{12}{5}"
+      },
+      {
+       "l": "",
+       "r": "= 2.4"
+      }
+     ]
+    },
+    {
+     "say": "Lengths grow by $k$, so areas grow by $\\hl{2}{k^2}$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{k^2}",
+       "r": "= 2.4^2"
+      },
+      {
+       "l": "",
+       "r": "= 5.76"
+      }
+     ]
+    },
+    {
+     "say": "Multiply the area of $ABC$ by $\\hl{2}{k^2}$.",
+     "rows": [
+      {
+       "l": "\\text{Area of } PQR",
+       "r": "= 10 \\times 5.76"
+      },
+      {
+       "l": "",
+       "r": "= 57.6"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm9",
+  "of": "40cb158e60be",
+  "title": "Apply Theorem 9: Parallelogram: opposite sides and opposite angles equal",
+  "show": "parallelogram ABCD with opposite angles (2x+15)° and (4x-35)° marked",
+  "example": {
+   "question": "$ABCD$ is a parallelogram. $|\\angle DAB| = (2x + 15)^\\circ$ and $|\\angle BCD| = (4x - 35)^\\circ$. Find $|\\angle ABC|$.",
+   "final": "|\\angle ABC| = 115^\\circ",
+   "steps": [
+    {
+     "say": "$\\angle DAB$ and $\\angle BCD$ are opposite angles. By Theorem 9 opposite angles of a parallelogram are equal, so put the two expressions equal.",
+     "rows": [
+      {
+       "l": "2x + 15",
+       "r": "= 4x - 35"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "15 + 35",
+       "r": "= 4x - 2x"
+      },
+      {
+       "l": "50",
+       "r": "= 2x"
+      },
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= \\hl{1}{25}"
+      }
+     ]
+    },
+    {
+     "say": "Put $\\hl{1}{x = 25}$ into the expression for $\\angle DAB$.",
+     "rows": [
+      {
+       "l": "|\\angle DAB|",
+       "r": "= 2(25) + 15"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{65^\\circ}"
+      }
+     ]
+    },
+    {
+     "say": "$\\angle ABC$ is next to $\\angle DAB$. Adjacent angles in a parallelogram add to $180^\\circ$, so take $\\hl{2}{65}$ from $180$.",
+     "rows": [
+      {
+       "l": "|\\angle ABC|",
+       "r": "= 180 - 65"
+      },
+      {
+       "l": "",
+       "r": "= 115^\\circ"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm17",
+  "of": "fd6b6e8f4404",
+  "title": "Apply Theorem 17: A diagonal bisects the area of a parallelogram",
+  "show": "parallelogram PQRS with diagonal PR dividing it into two triangles, with area 420 m²",
+  "example": {
+   "question": "The area of the parallelogram $PQRS$ is $420$ m$^2$. (i) Find the area of the triangle $PQR$. (ii) $T$ is the midpoint of $[QR]$. Find the area of the triangle $PQT$.",
+   "final": "210 \\text{ m}^2, \\ 105 \\text{ m}^2",
+   "steps": [
+    {
+     "say": "The diagonal $[PR]$ bisects the area of the parallelogram. So the triangle $PQR$ is half of $420$.",
+     "rows": [
+      {
+       "l": "|\\triangle PQR|",
+       "r": "= \\tfrac{1}{2}(420)"
+      },
+      {
+       "l": "",
+       "r": "= 210 \\text{ m}^2"
+      }
+     ]
+    },
+    {
+     "say": "$T$ is the midpoint of $[QR]$, so $[PT]$ cuts triangle $PQR$ into two triangles with equal bases and the same height. Each is half of $210$.",
+     "rows": [
+      {
+       "l": "|\\triangle PQT|",
+       "r": "= \\tfrac{1}{2}(210)"
+      },
+      {
+       "l": "",
+       "r": "= 105 \\text{ m}^2"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm18",
+  "of": "72e0d1a05c66",
+  "title": "Apply Theorem 18: Area of a parallelogram = base × height",
+  "show": "parallelogram ABCD with base 12 cm and perpendicular height 6 cm marked",
+  "example": {
+   "question": "$ABCD$ is a parallelogram. $|AB| = 12$ cm and the perpendicular distance between $[AB]$ and $[DC]$ is $6$ cm. $|BC| = 8$ cm. Find the area of $ABCD$, and the perpendicular distance between $[BC]$ and $[AD]$.",
+   "final": "72 \\text{ cm}^2, \\ h = 9 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Take $[AB]$ as the base. The height is the perpendicular distance to $[DC]$, which is $6$ cm.",
+     "rows": [
+      {
+       "aside": "Base $= 12$, height $= 6$."
+      }
+     ]
+    },
+    {
+     "say": "Area of a parallelogram is base times perpendicular height.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= 12 \\times 6"
+      },
+      {
+       "l": "",
+       "r": "= 72 \\text{ cm}^2"
+      }
+     ]
+    },
+    {
+     "say": "The area does not change. Now take $[BC]$ as the base, with $|BC| = 8$, and let the new height be $h$.",
+     "rows": [
+      {
+       "l": "72",
+       "r": "= 8h"
+      },
+      {
+       "l": "h",
+       "r": "= 9"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

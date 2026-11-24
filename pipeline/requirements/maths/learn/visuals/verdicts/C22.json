@@ -1,0 +1,26 @@
+{
+ "diff-increasing-interval": {
+  "ok": true,
+  "issues": []
+ },
+ "diff-stationary": {
+  "ok": true,
+  "issues": []
+ },
+ "diff-inflection": {
+  "ok": true,
+  "issues": []
+ },
+ "diff-tangent-circle": {
+  "ok": true,
+  "issues": []
+ },
+ "diff-curve-sketch": {
+  "ok": true,
+  "issues": []
+ },
+ "diff-sketch-derivative": {
+  "ok": true,
+  "issues": []
+ }
+}

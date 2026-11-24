@@ -1,0 +1,26 @@
+{
+ "stat-outlier-effect": {
+  "ok": true,
+  "issues": []
+ },
+ "stat-compare-hl": {
+  "ok": true,
+  "issues": []
+ },
+ "inf-histogram": {
+  "ok": true,
+  "issues": []
+ },
+ "inf-sampling-distribution": {
+  "ok": true,
+  "issues": []
+ },
+ "inf-ci-proportion": {
+  "ok": true,
+  "issues": []
+ },
+ "inf-z-test": {
+  "ok": true,
+  "issues": []
+ }
+}

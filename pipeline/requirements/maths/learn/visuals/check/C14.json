@@ -1,0 +1,453 @@
+[
+ {
+  "skill": "ineq-rational",
+  "of": "4382c8709526",
+  "title": "Solve a rational inequality",
+  "show": "number line with open dot at 1 and closed dot at 5 with the segment between shaded (1<x≤5)",
+  "example": {
+   "question": "Solve $\\frac{x+3}{x-1} \\ge 2$, where $x \\in \\mathbb{R}$, $x \\ne 1$.",
+   "final": "1 < x \\le 5",
+   "steps": [
+    {
+     "say": "Multiply both sides by $\\hl{1}{(x-1)^2}$. It is always positive, so the sign stays the same way round.",
+     "rows": [
+      {
+       "l": "\\frac{x+3}{x-1}",
+       "r": "\\ge 2"
+      },
+      {
+       "l": "(x + 3)(x - 1)",
+       "r": "\\ge 2(x - 1)^2"
+      }
+     ]
+    },
+    {
+     "say": "Multiply out and move everything to one side, so the other side is $0$.",
+     "rows": [
+      {
+       "l": "x^2 + 2x - 3",
+       "r": "\\ge 2x^2 - 4x + 2"
+      },
+      {
+       "l": "0",
+       "r": "\\ge x^2 - 6x + 5"
+      },
+      {
+       "l": "x^2 - 6x + 5",
+       "r": "\\le 0"
+      }
+     ]
+    },
+    {
+     "say": "Factorise, then use the U-shape: it is below the axis between the roots.",
+     "rows": [
+      {
+       "l": "(x - 1)(x - 5)",
+       "r": "\\le 0"
+      },
+      {
+       "l": "1",
+       "r": "\\le x \\le 5"
+      }
+     ]
+    },
+    {
+     "say": "At $x = 1$ the bottom is zero, so the fraction does not exist. Remove $x = \\hl{2}{1}$ from the interval.",
+     "rows": [
+      {
+       "l": "\\hl{2}{1}",
+       "r": "< x \\le 5"
+      },
+      {
+       "aside": "Check $x = 3$: $\\frac{6}{2} = 3 \\ge 2$. It works."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "quad-complete-square-use",
+  "of": "7cfe1932fa3a",
+  "title": "Use completed-square form for roots and turning point",
+  "show": "parabola y=3(x-1)²-12 with the turning point (1,-12) marked and the x-intercepts x=-1 and x=3 and the y-intercept labelled",
+  "example": {
+   "question": "$f(x) = 3(x - 1)^2 - 12$. Find the turning point of the graph of $f$ and the values of $x$ where it crosses the $x$-axis.",
+   "final": "\\text{minimum at } (1, -12); \\ x = -1 \\ \\text{or} \\ x = 3",
+   "steps": [
+    {
+     "say": "A square is never negative, so $f$ is smallest when $(x - 1)^2 = 0$. That happens when $\\hl{1}{x = 1}$.",
+     "rows": [
+      {
+       "l": "x - 1",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{1}"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 1$ into $f$. The bracket is zero, so only the constant is left. That is $\\hl{2}{y}$.",
+     "rows": [
+      {
+       "l": "f(1)",
+       "r": "= 3(1 - 1)^2 - 12"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{-12}"
+      },
+      {
+       "aside": "The turning point is the **minimum** at $(\\hl{1}{1}, \\hl{2}{-12})$."
+      }
+     ]
+    },
+    {
+     "say": "The graph crosses the $x$-axis where $f(x) = 0$. Get the squared bracket on its own.",
+     "rows": [
+      {
+       "l": "3(x - 1)^2 - 12",
+       "r": "= 0"
+      },
+      {
+       "l": "3(x - 1)^2",
+       "r": "= 12"
+      },
+      {
+       "l": "(x - 1)^2",
+       "r": "= 4"
+      }
+     ]
+    },
+    {
+     "say": "A square root has two answers, a plus and a minus. Use both.",
+     "rows": [
+      {
+       "aside": "$x - 1 = 2$ gives $x = 3$."
+      },
+      {
+       "aside": "$x - 1 = -2$ gives $x = -1$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "sim-linear-quadratic",
+  "of": "fd88d8357d3f",
+  "title": "Solve one linear and one order-2 equation",
+  "show": "line y=x-2 cutting the circle x²+y²=34 at (5,3) and (-3,-5)",
+  "example": {
+   "question": "Solve the simultaneous equations:\n$x - y = 2$\n$x^2 + y^2 = 34$",
+   "final": "(\\hl{3}{-3}, \\hl{2}{-5}) \\text{ and } (\\hl{3}{5}, \\hl{2}{3})",
+   "steps": [
+    {
+     "say": "Use the linear equation to write $x$ in terms of $y$.",
+     "rows": [
+      {
+       "l": "x - y",
+       "r": "= 2"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{y + 2}"
+      }
+     ]
+    },
+    {
+     "say": "Replace $x$ with $\\hl{1}{y + 2}$ in the quadratic. Now there is only $y$. Multiply out and collect everything on one side.",
+     "rows": [
+      {
+       "l": "(\\hl{1}{y + 2})^2 + y^2",
+       "r": "= 34"
+      },
+      {
+       "l": "y^2 + 4y + 4 + y^2",
+       "r": "= 34"
+      },
+      {
+       "l": "2y^2 + 4y - 30",
+       "r": "= 0"
+      },
+      {
+       "aside": "Every term divides by 2. Do that first."
+      },
+      {
+       "l": "y^2 + 2y - 15",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Factorise and set each bracket equal to $0$.",
+     "rows": [
+      {
+       "l": "(y + 5)(y - 3)",
+       "r": "= 0"
+      },
+      {
+       "l": "\\hl{2}{y}",
+       "r": "= -5"
+      },
+      {
+       "l": "\\hl{2}{y}",
+       "r": "= 3"
+      }
+     ]
+    },
+    {
+     "say": "Each $y$ goes back into $x = y + 2$. This gives two points.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "= -5 + 2"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{-3}"
+      },
+      {
+       "l": "x",
+       "r": "= 3 + 2"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{5}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "sim-linear-quadratic-hl",
+  "of": "3e1191766555",
+  "title": "Solve linear + order-2 with any coefficients",
+  "show": "line y=3-2x meeting the ellipse x²+xy+y²=3 at its two intersection points",
+  "example": {
+   "question": "Solve the simultaneous equations:\n$2x + y = 3$\n$x^2 + xy + y^2 = 3$",
+   "final": "(\\hl{2}{1}, \\hl{3}{1}) \\text{ and } (\\hl{2}{2}, \\hl{3}{-1})",
+   "steps": [
+    {
+     "say": "The linear equation has $y$ with coefficient $1$. Write $y$ in terms of $x$.",
+     "rows": [
+      {
+       "l": "2x + y",
+       "r": "= 3"
+      },
+      {
+       "l": "y",
+       "r": "= \\hl{1}{3 - 2x}"
+      }
+     ]
+    },
+    {
+     "say": "Replace every $y$ with $\\hl{1}{3 - 2x}$. Multiply out and collect everything on one side.",
+     "rows": [
+      {
+       "l": "x^2 + x(\\hl{1}{3 - 2x}) + (\\hl{1}{3 - 2x})^2",
+       "r": "= 3"
+      },
+      {
+       "l": "3x^2 - 9x + 9",
+       "r": "= 3"
+      },
+      {
+       "l": "3x^2 - 9x + 6",
+       "r": "= 0"
+      },
+      {
+       "aside": "Every term divides by 3. Do that first."
+      },
+      {
+       "l": "x^2 - 3x + 2",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Factorise. If it does not factorise, use the formula instead.",
+     "rows": [
+      {
+       "l": "(x - 1)(x - 2)",
+       "r": "= 0"
+      },
+      {
+       "l": "\\hl{2}{x}",
+       "r": "= 1"
+      },
+      {
+       "l": "\\hl{2}{x}",
+       "r": "= 2"
+      }
+     ]
+    },
+    {
+     "say": "Put each $x$ into $y = 3 - 2x$.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= 3 - 2(1)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{1}"
+      },
+      {
+       "l": "y",
+       "r": "= 3 - 2(2)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{-1}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "eq-word-problem",
+  "of": "b8efa7aefc12",
+  "title": "Form and solve an equation from a context",
+  "show": "rectangle labelled width x and length x+5 with area 84 m²",
+  "example": {
+   "question": "A rectangular garden is $5$ m longer than it is wide. Its area is $84$ m$^2$. Find the width of the garden.",
+   "final": "\\hl{2}{7} \\text{ m}",
+   "steps": [
+    {
+     "say": "Let the width be $\\hl{1}{x}$ metres. The length is $5$ more than the width, so write it in terms of $x$.",
+     "rows": [
+      {
+       "aside": "Width $= x$"
+      },
+      {
+       "aside": "Length $= x + 5$"
+      }
+     ]
+    },
+    {
+     "say": "Area is length times width. Put in the two expressions and set the product equal to $84$.",
+     "rows": [
+      {
+       "l": "x(x + 5)",
+       "r": "= 84"
+      },
+      {
+       "l": "x^2 + 5x",
+       "r": "= 84"
+      },
+      {
+       "l": "x^2 + 5x - 84",
+       "r": "= 0"
+      },
+      {
+       "aside": "A quadratic must equal $0$ before you factorise it."
+      }
+     ]
+    },
+    {
+     "say": "Factorise. A product is $0$ only if one of the brackets is $0$, so set each bracket equal to $0$.",
+     "rows": [
+      {
+       "l": "(x + 12)(x - 7)",
+       "r": "= 0"
+      },
+      {
+       "l": "x + 12",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= -12"
+      },
+      {
+       "l": "x - 7",
+       "r": "= 0"
+      },
+      {
+       "l": "\\hl{2}{x}",
+       "r": "= \\hl{2}{7}"
+      }
+     ]
+    },
+    {
+     "say": "A width cannot be negative, so reject $-12$. Keep $\\hl{2}{x = 7}$ and check it against the story.",
+     "rows": [
+      {
+       "l": "\\text{length}",
+       "r": "= 7 + 5 = 12"
+      },
+      {
+       "l": "7 \\times 12",
+       "r": "= 84"
+      },
+      {
+       "aside": "The area is $84$, so the answer works."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "mens-volume",
+  "of": "bd05ff4aa3a8",
+  "title": "Find volume of solids",
+  "show": "solid cone with base radius 6 cm, vertical height 8 cm and slant 10 cm marked",
+  "example": {
+   "question": "A solid cone has base radius $6$ cm and vertical height $8$ cm. Find its volume, correct to the nearest $\\text{cm}^3$.",
+   "final": "302 \\text{ cm}^3",
+   "steps": [
+    {
+     "say": "Name the solid and write its formula. For a cone, $V = \\frac{1}{3}\\pi r^2 h$. Then pick out the radius $\\hl{1}{r}$ and the height $\\hl{2}{h}$ from the question.",
+     "rows": [
+      {
+       "aside": "The radius is the base radius. The height is the vertical height, not the slant."
+      },
+      {
+       "l": "\\hl{1}{r}",
+       "r": "= 6, \\quad \\hl{2}{h} = 8"
+      }
+     ]
+    },
+    {
+     "say": "Put $\\hl{1}{6}$ in for $r$ and $\\hl{2}{8}$ in for $h$. Square the radius first.",
+     "rows": [
+      {
+       "l": "V",
+       "r": "= \\frac{1}{3}\\pi(\\hl{1}{6})^2(\\hl{2}{8})"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{1}{3}\\pi(36)(8)"
+      },
+      {
+       "l": "",
+       "r": "= 96\\pi"
+      }
+     ]
+    },
+    {
+     "say": "The question wants the nearest $\\text{cm}^3$, so put $\\pi$ into the calculator and round.",
+     "rows": [
+      {
+       "l": "",
+       "r": "\\approx 301.6"
+      },
+      {
+       "l": "",
+       "r": "\\approx 302"
+      },
+      {
+       "aside": "Write the unit: $\\text{cm}^3$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

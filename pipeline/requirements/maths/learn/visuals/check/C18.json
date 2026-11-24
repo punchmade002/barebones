@@ -1,0 +1,343 @@
+[
+ {
+  "skill": "line-midpoint",
+  "of": "5012b25e775a",
+  "title": "Find the midpoint of a segment",
+  "show": "A(-4,3) and B(8,-7) with the line segment and midpoint M(2,-2)",
+  "example": {
+   "question": "Find the midpoint of $A(-4, 3)$ and $B(8, -7)$.",
+   "final": "(2, -2)",
+   "steps": [
+    {
+     "say": "Add the two x-values and halve. This gives the x of the midpoint.",
+     "rows": [
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= \\frac{-4 + 8}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{2}"
+      }
+     ]
+    },
+    {
+     "say": "Do the same with the y-values. This gives the y of the midpoint.",
+     "rows": [
+      {
+       "l": "\\hl{2}{y}",
+       "r": "= \\frac{3 + (-7)}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{-2}"
+      }
+     ]
+    },
+    {
+     "say": "Put the $\\hl{1}{x}$ and the $\\hl{2}{y}$ together as a point.",
+     "rows": [
+      {
+       "l": "\\text{midpoint}",
+       "r": "= (\\hl{1}{2}, \\hl{2}{-2})"
+      },
+      {
+       "aside": "Check: $2$ is exactly halfway between $-4$ and $8$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-slope",
+  "of": "92dae2d9bfff",
+  "title": "Find the slope from two points or an equation",
+  "show": "P(-2,1), Q(4,10) with the line and a right triangle showing rise 9 and run 6",
+  "example": {
+   "question": "Find the slope of the line through $P(-2, 1)$ and $Q(4, 10)$.",
+   "final": "\\frac{3}{2}",
+   "steps": [
+    {
+     "say": "Slope is the change in $y$ over the change in $x$. Take $P$ first and $Q$ second, in the same order top and bottom.",
+     "rows": [
+      {
+       "l": "m",
+       "r": "= \\frac{y_2 - y_1}{x_2 - x_1}"
+      },
+      {
+       "aside": "Subtract in the same order on top and bottom."
+      }
+     ]
+    },
+    {
+     "say": "Put in the $y$-values on top and the $x$-values on the bottom.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= \\frac{10 - 1}{4 - (-2)}"
+      }
+     ]
+    },
+    {
+     "say": "Work out top and bottom, then divide both by 3.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= \\frac{9}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{3}{2}}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-point-on",
+  "of": "847ea4dd36ac",
+  "title": "Test whether a point is on a line; find intercepts",
+  "show": "line 3x-2y-12=0 with (6,3) on it and the axis intercepts (4,0) and (0,-6)",
+  "example": {
+   "question": "The line $l$ has equation $3x - 2y - 12 = 0$.\n(i) Show that $(6, 3)$ is on $l$.\n(ii) Find where $l$ crosses the x-axis and the y-axis.",
+   "final": "(4, 0) \\text{ and } (0, -6)",
+   "steps": [
+    {
+     "say": "A point is on the line if its coordinates make the equation true. Put $x = 6$ and $y = 3$ into the left side.",
+     "rows": [
+      {
+       "l": "3(6) - 2(3) - 12",
+       "r": "= 18 - 6 - 12"
+      },
+      {
+       "l": "",
+       "r": "= 0"
+      },
+      {
+       "aside": "The left side equals $0$, so $(6, 3)$ is on $l$."
+      }
+     ]
+    },
+    {
+     "say": "On the x-axis, $\\hl{1}{y = 0}$. Put that in and solve for $x$.",
+     "rows": [
+      {
+       "l": "3x - 2(0) - 12",
+       "r": "= 0"
+      },
+      {
+       "l": "3x",
+       "r": "= 12"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{2}{4}"
+      },
+      {
+       "aside": "The line crosses the x-axis at $(4, 0)$."
+      }
+     ]
+    },
+    {
+     "say": "On the y-axis, $\\hl{3}{x = 0}$. Put that in and solve for $y$.",
+     "rows": [
+      {
+       "l": "3(0) - 2y - 12",
+       "r": "= 0"
+      },
+      {
+       "l": "-2y",
+       "r": "= 12"
+      },
+      {
+       "l": "y",
+       "r": "= \\hl{4}{-6}"
+      },
+      {
+       "aside": "The line crosses the y-axis at $(0, -6)$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-distance",
+  "of": "35b49ae1ce30",
+  "title": "Find the distance between two points",
+  "show": "A(-2,3) and B(4,11) with right triangle legs 6 and 8 and hypotenuse AB",
+  "example": {
+   "question": "Find the distance between $A(-2, 3)$ and $B(4, 11)$.",
+   "final": "10",
+   "steps": [
+    {
+     "say": "Subtract the x-values, then subtract the y-values. These are the two sides of the right-angled triangle.",
+     "rows": [
+      {
+       "l": "x_2 - x_1",
+       "r": "= 4 - (-2)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{6}"
+      },
+      {
+       "l": "y_2 - y_1",
+       "r": "= 11 - 3"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{8}"
+      }
+     ]
+    },
+    {
+     "say": "Square the $\\hl{1}{x}$ difference and the $\\hl{2}{y}$ difference, add them, and take the square root.",
+     "rows": [
+      {
+       "l": "|AB|",
+       "r": "= \\sqrt{\\hl{1}{6}^2 + \\hl{2}{8}^2}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{36 + 64}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{100}"
+      },
+      {
+       "l": "",
+       "r": "= 10"
+      },
+      {
+       "aside": "If the root does not come out whole, leave it as a surd like $\\sqrt{52}$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-equation",
+  "of": "18b932db9dd9",
+  "title": "Find the equation of a line",
+  "show": "A(-2,1) and B(4,5) on a line with slope triangle and the y-intercept",
+  "example": {
+   "question": "The points $A(-2, 1)$ and $B(4, 5)$ are on a line. Find the equation of the line. Give your answer in the form $ax + by + c = 0$.",
+   "final": "2x - 3y + 7 = 0",
+   "steps": [
+    {
+     "say": "The slope is rise over run. Take the $y$-values and the $x$-values in the same order.",
+     "rows": [
+      {
+       "l": "\\hl{1}{m}",
+       "r": "= \\frac{5 - 1}{4 - (-2)}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{4}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{2}{3}}"
+      }
+     ]
+    },
+    {
+     "say": "Put the slope $\\hl{1}{\\frac{2}{3}}$ and the point $A(-2, 1)$ into $y - y_1 = m(x - x_1)$.",
+     "rows": [
+      {
+       "l": "y - 1",
+       "r": "= \\hl{1}{\\frac{2}{3}}(x + 2)"
+      },
+      {
+       "aside": "The $x - (-2)$ becomes $x + 2$."
+      }
+     ]
+    },
+    {
+     "say": "Multiply both sides by $3$ so there is no fraction.",
+     "rows": [
+      {
+       "l": "3(y - 1)",
+       "r": "= 2(x + 2)"
+      },
+      {
+       "l": "3y - 3",
+       "r": "= 2x + 4"
+      }
+     ]
+    },
+    {
+     "say": "Move every term to one side so the other side is $0$. Keep the $x$ term positive.",
+     "rows": [
+      {
+       "l": "2x - 3y + 7",
+       "r": "= 0"
+      },
+      {
+       "aside": "Check with $B(4, 5)$: $8 - 15 + 7 = 0$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-collinear",
+  "of": "daa1ffa9c5ec",
+  "title": "Show points are collinear",
+  "show": "points A(1,-1), B(3,2), C(7,8) on one straight line with equal slopes AB and BC marked",
+  "example": {
+   "question": "Show that the points $A(1, -1)$, $B(3, 2)$ and $C(7, 8)$ are collinear.",
+   "final": "A, B and C are collinear",
+   "steps": [
+    {
+     "say": "Find the slope of $AB$: rise over run.",
+     "rows": [
+      {
+       "l": "\\hl{1}{m_{AB}}",
+       "r": "= \\frac{2 - (-1)}{3 - 1}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{3}{2}}"
+      }
+     ]
+    },
+    {
+     "say": "Find the slope of $BC$ the same way.",
+     "rows": [
+      {
+       "l": "\\hl{1}{m_{BC}}",
+       "r": "= \\frac{8 - 2}{7 - 3}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{6}{4}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{3}{2}}"
+      }
+     ]
+    },
+    {
+     "say": "The two slopes are equal and both lines pass through $B$. Write the conclusion in words.",
+     "rows": [
+      {
+       "l": "\\hl{1}{m_{AB}} - \\hl{1}{m_{BC}}",
+       "r": "= 0"
+      },
+      {
+       "aside": "Equal slopes and the shared point $B$: $A$, $B$ and $C$ are collinear."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

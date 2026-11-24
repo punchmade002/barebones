@@ -6,7 +6,8 @@
   if (!hero || !window.PixelText) return;
 
   var FONT = Object.assign({}, PixelText.FONT, {
-    ' ': ['     ', '     ', '     ', '     ', '     ', '     ', '     ']
+    ' ': ['     ', '     ', '     ', '     ', '     ', '     ', '     '],
+    'G': [' ### ', '#   #', '#    ', '# ###', '#   #', '#   #', ' ####']  // pixelfont.js has no G
   });
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var TAU = Math.PI * 2;

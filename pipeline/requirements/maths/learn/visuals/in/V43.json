@@ -1,0 +1,262 @@
+[
+ {
+  "skill": "circ-general-form",
+  "title": "Use x² + y² + 2gx + 2fy + c = 0",
+  "show": "circle x²+y²-6x+2y-6=0 with centre (3,-1) and radius 4 marked",
+  "example": {
+   "question": "Find the centre and the radius of the circle $x^2 + y^2 - 6x + 2y - 6 = 0$.",
+   "final": "\\text{centre } (3, -1), \\ r = 4",
+   "steps": [
+    {
+     "say": "Compare with $x^2 + y^2 + 2gx + 2fy + c = 0$. The number in front of $x$ is $2g$ and the number in front of $y$ is $2f$. Halve each.",
+     "rows": [
+      {
+       "l": "2g",
+       "r": "= -6"
+      },
+      {
+       "l": "g",
+       "r": "= -3"
+      },
+      {
+       "l": "2f",
+       "r": "= 2"
+      },
+      {
+       "l": "f",
+       "r": "= 1"
+      },
+      {
+       "l": "c",
+       "r": "= -6"
+      }
+     ]
+    },
+    {
+     "say": "The centre is $(-g, -f)$. Change the sign of each.",
+     "rows": [
+      {
+       "l": "\\hl{1}{-g}",
+       "r": "= -(-3)"
+      },
+      {
+       "l": "",
+       "r": "= 3"
+      },
+      {
+       "l": "\\hl{2}{-f}",
+       "r": "= -(1)"
+      },
+      {
+       "l": "",
+       "r": "= -1"
+      },
+      {
+       "aside": "The centre is $(\\hl{1}{3}, \\hl{2}{-1})$."
+      }
+     ]
+    },
+    {
+     "say": "Put $g$, $f$ and $c$ into $r = \\sqrt{g^2 + f^2 - c}$. Take care with the minus sign in front of $c$.",
+     "rows": [
+      {
+       "l": "\\hl{3}{r}",
+       "r": "= \\sqrt{(-3)^2 + 1^2 - (-6)}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{9 + 1 + 6}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{16}"
+      },
+      {
+       "l": "",
+       "r": "= 4"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The y-axis tick label -2 sits where the circle crosses it (circle at y=-2 is at x about -0.9), so the circle line touches the minus sign of the label."
+  ]
+ },
+ {
+  "skill": "line-equation",
+  "title": "Find the equation of a line",
+  "show": "A(-2,1) and B(4,5) on a line with slope triangle and the y-intercept",
+  "example": {
+   "question": "The points $A(-2, 1)$ and $B(4, 5)$ are on a line. Find the equation of the line. Give your answer in the form $ax + by + c = 0$.",
+   "final": "2x - 3y + 7 = 0",
+   "steps": [
+    {
+     "say": "The slope is rise over run. Take the $y$-values and the $x$-values in the same order.",
+     "rows": [
+      {
+       "l": "\\hl{1}{m}",
+       "r": "= \\frac{5 - 1}{4 - (-2)}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{4}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{2}{3}}"
+      }
+     ]
+    },
+    {
+     "say": "Put the slope $\\hl{1}{\\frac{2}{3}}$ and the point $A(-2, 1)$ into $y - y_1 = m(x - x_1)$.",
+     "rows": [
+      {
+       "l": "y - 1",
+       "r": "= \\hl{1}{\\frac{2}{3}}(x + 2)"
+      },
+      {
+       "aside": "The $x - (-2)$ becomes $x + 2$."
+      }
+     ]
+    },
+    {
+     "say": "Multiply both sides by $3$ so there is no fraction.",
+     "rows": [
+      {
+       "l": "3(y - 1)",
+       "r": "= 2(x + 2)"
+      },
+      {
+       "l": "3y - 3",
+       "r": "= 2x + 4"
+      }
+     ]
+    },
+    {
+     "say": "Move every term to one side so the other side is $0$. Keep the $x$ term positive.",
+     "rows": [
+      {
+       "l": "2x - 3y + 7",
+       "r": "= 0"
+      },
+      {
+       "aside": "Check with $B(4, 5)$: $8 - 15 + 7 = 0$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The line crosses the x-axis at -3.5 and runs through the '-4' tick label, so the label is struck through and hard to read.",
+   "The dashed run segment at y=1 passes through the y-axis tick label '1'.",
+   "Axis tick labels are very small."
+  ]
+ },
+ {
+  "skill": "cx-argand",
+  "title": "Plot complex numbers on an Argand diagram",
+  "show": "Argand diagram with z=-2+3i, w=4-i and z+w=2+2i plotted, parallelogram completed",
+  "example": {
+   "question": "Let $z = -2 + 3i$ and $w = 4 - i$. Find $z + w$. Plot $z$, $w$ and $z + w$ on an Argand diagram and label each point.",
+   "final": "\\hl{1}{z + w} = 2 + 2i \\text{, the point } (2, 2)",
+   "steps": [
+    {
+     "say": "The real part is the $x$ value. The imaginary part is the $y$ value.",
+     "rows": [
+      {
+       "aside": "$z = -2 + 3i$ is the point $(-2, 3)$."
+      },
+      {
+       "aside": "$w = 4 - i$ is the point $(4, -1)$."
+      }
+     ]
+    },
+    {
+     "say": "Add the real parts together, then the imaginary parts. Call the answer $\\hl{1}{z + w}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{z + w}",
+       "r": "= (-2 + 4) + (3 - 1)i"
+      },
+      {
+       "l": "",
+       "r": "= 2 + 2i"
+      }
+     ]
+    },
+    {
+     "say": "Mark the points $(-2, 3)$, $(4, -1)$ and $(2, 2)$. Count along the Re axis first, then up the Im axis.",
+     "rows": [
+      {
+       "aside": "Label them $z$, $w$ and $z + w$. Unlabelled points lose a mark."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The dashed line from the origin to w (4, -1) runs through the Re-axis tick labels 1 and 2, striking them out, and the dashed edge from z+w to w crosses near label 3."
+  ]
+ },
+ {
+  "skill": "cx-modulus",
+  "title": "Find the modulus as distance from the origin",
+  "show": "z1=2-3i and z2=5+i on an Argand diagram with |z1-z2| as the distance between them",
+  "example": {
+   "question": "$z_1 = 2 - 3i$ and $z_2 = 5 + i$. Find $|z_1 - z_2|$.",
+   "final": "|z_1 - z_2| = \\hl{3}{5}",
+   "steps": [
+    {
+     "say": "The modulus belongs to one number, so combine $z_1 - z_2$ into the form $a + bi$ before you measure it. Subtract the real parts, then the imaginary parts.",
+     "rows": [
+      {
+       "l": "z_1 - z_2",
+       "r": "= (2 - 3i) - (5 + i)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{-3} \\hl{2}{- 4}i"
+      }
+     ]
+    },
+    {
+     "say": "For $a + bi$ the distance from the origin is the hypotenuse of a triangle with sides $a$ and $b$.",
+     "rows": [
+      {
+       "l": "|a + bi|",
+       "r": "= \\sqrt{a^2 + b^2}"
+      }
+     ]
+    },
+    {
+     "say": "Here $a = \\hl{1}{-3}$ and $b = \\hl{2}{-4}$. Square each, so the minus signs disappear, then add.",
+     "rows": [
+      {
+       "l": "|z_1 - z_2|",
+       "r": "= \\sqrt{(\\hl{1}{-3})^2 + (\\hl{2}{-4})^2}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{9 + 16}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{25}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{5}"
+      },
+      {
+       "aside": "If the root does not come out whole, leave it as a surd such as $\\sqrt{98}$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The green hypotenuse cuts through the Re-axis tick label 4 and the blue vertical side (x = 5) runs through tick label 5, so both labels are struck through."
+  ]
+ }
+]

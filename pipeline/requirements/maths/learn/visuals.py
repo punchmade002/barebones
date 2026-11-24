@@ -7,7 +7,7 @@
 
 Writers (INSTRUCTIONS.md) draw with figlib.py and save {skill: svg} to out/Vnn.json; render shows their SVG in
 place of the page's own figure. Checkers (CHECK.md) read the screenshots and write verdicts/Cnn.json.
-learn.py assemble then uses a figure only if its latest verdict passed; a figure that failed is dropped,
+package.py then publishes a figure only if its latest verdict passed; a figure that failed is dropped,
 because no picture is better than a wrong one.
 """
 import hashlib
@@ -126,7 +126,7 @@ def render(args):
             if sid in svgs:                     # the writer's figure, in the place the page will show it
                 page.evaluate('''svg => { const ex = document.querySelector('#example .ex'); ex.classList.remove('solo');
                   let g = ex.querySelector('.graph'); if (!g) { g = document.createElement('div'); g.className = 'graph'; ex.append(g) }
-                  g.innerHTML = svg }''', svgs[sid])
+                  g.innerHTML = svg; fit() }''', svgs[sid])
             page.locator('#example').screenshot(path=str(WORK / 'png' / f'{sid}.png'))
             print('png/' + sid + '.png')
         browser.close()

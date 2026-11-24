@@ -1,0 +1,8 @@
+{
+ "geo-thm14": {"ok": true, "issues": []},
+ "geo-thm15": {"ok": true, "issues": []},
+ "geo-enlargement": {"ok": false, "issues": ["The '12' label sits at the midpoint of the dotted segment BQ (about x=697, between B and Q), so it reads as |BQ| = 12. |OQ| = 12 runs from O to Q, and BQ is 7. Centre the 12 on the whole of OQ or add a bracket/brace from O to Q."]},
+ "geo-thm9": {"ok": true, "issues": []},
+ "geo-thm17": {"ok": true, "issues": []},
+ "geo-thm18": {"ok": true, "issues": []}
+}

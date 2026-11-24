@@ -1,0 +1,8 @@
+{
+"geo-thm20": {"ok": true, "issues": []},
+"geo-thm11": {"ok": true, "issues": []},
+"geo-thm13": {"ok": true, "issues": []},
+"geo-similar-triangles": {"ok": false, "issues": ["The bigger triangle is drawn with its base from A to Q, but the orange '14' label and highlight sit on the segment B to Q, so it reads as |BQ| = 14 rather than |PQ| = 14.", "No vertex P is labelled; the bigger triangle shows A, Q, R instead of P, Q, R, so it does not match the question's triangle PQR.", "The two triangles share vertex A and overlap along the base, which hides which sides match.", "Proportions are off: the whole base AQ is about 3 times AB, but the scale factor is 1.75; the shared-base layout makes 8 and 14 look like adjacent segments."]},
+"geo-enlargement-centre": {"ok": true, "issues": []},
+"geo-cor6": {"ok": true, "issues": []}
+}

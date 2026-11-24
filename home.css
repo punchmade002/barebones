@@ -102,17 +102,6 @@ html:not(.bb-signed-in) .auth-in { display: none !important; }
 /* ================= notes ================= */
 .notes { padding: 64px 0 40px; }
 @media (min-width: 960px) { .notes { padding: 96px 0 56px; } }
-.note-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
-.note-tabs button {
-  all: unset; cursor: pointer;
-  padding: 10px 18px; border-radius: 999px;
-  font: 700 16px/1 var(--font-display);
-  color: var(--ink-2); background: var(--bg-2);
-  transition: background-color 180ms var(--ease), color 180ms var(--ease);
-}
-.note-tabs button:hover { color: var(--ink); }
-.note-tabs button[aria-selected="true"] { background: var(--ink); color: var(--on-orange); }
-.note-tabs button:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
 .note {
   position: relative;
   background: var(--paper);
@@ -129,8 +118,7 @@ html:not(.bb-signed-in) .auth-in { display: none !important; }
 .note li::marker { color: var(--orange); }
 .note-more { display: inline-block; margin-top: 22px; font: 800 17px/1 var(--font-display); color: var(--ink); text-underline-offset: 5px; text-decoration-thickness: 2px; text-decoration-color: var(--orange); }
 .note-more:hover { color: var(--orange-ink); }
-.all-notes { display: inline-block; margin-top: 20px; font-weight: 700; color: var(--ink-2); text-underline-offset: 4px; }
-.all-notes:hover { color: var(--ink); }
+.all-notes { margin-top: 24px; }
 
 /* ================= features: one clickable row each ================= */
 .features { padding: 24px 0 64px; }

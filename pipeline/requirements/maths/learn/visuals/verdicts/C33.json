@@ -1,0 +1,26 @@
+{
+ "prob-without-replacement": {
+  "ok": true,
+  "issues": []
+ },
+ "seq-pattern": {
+  "ok": true,
+  "issues": []
+ },
+ "stat-charts": {
+  "ok": true,
+  "issues": []
+ },
+ "stat-quartiles-iqr": {
+  "ok": true,
+  "issues": []
+ },
+ "stat-scatter-correlation": {
+  "ok": true,
+  "issues": []
+ },
+ "stat-outliers": {
+  "ok": true,
+  "issues": []
+ }
+}
