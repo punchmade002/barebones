@@ -1,0 +1,720 @@
+{
+ "geo-option-atmosphere-ocean-s5.18.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.13.1",
+    "strength": "helpful",
+    "why": "cold currents cool coasts",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-option-atmosphere-ocean-s2.13.0",
+    "strength": "helpful",
+    "why": "North Atlantic Drift warms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.14.0",
+    "strength": "helpful",
+    "why": "temperature falls with height",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.18.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.6.1",
+    "strength": "helpful",
+    "why": "Deccan rain shadow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.18.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.1.4",
+    "strength": "helpful",
+    "why": "ITCZ movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.19.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.24.0",
+    "strength": "helpful",
+    "why": "Milankovitch cycles explained there",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.19.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.19.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.19.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.19.0",
+    "strength": "helpful",
+    "why": "oceans redistribute heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.19.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.19.0",
+    "strength": "helpful",
+    "why": "currents carry heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.19.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.3.0",
+    "strength": "essential",
+    "why": "albedo",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.20.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.5.0",
+    "strength": "helpful",
+    "why": "greenhouse effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.23.1",
+    "strength": "helpful",
+    "why": "glacial landforms listed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.21.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.22.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.22.0",
+    "strength": "helpful",
+    "why": "glacial and interglacial",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.22.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.22.0",
+    "strength": "helpful",
+    "why": "glacial period",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.22.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.22.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.0.2",
+    "strength": "helpful",
+    "why": "climate belts by latitude",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.23.3",
+    "strength": "helpful",
+    "why": "loess and dry climates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.23.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.24.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.24.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.9.0",
+    "strength": "helpful",
+    "why": "earth's tilt and seasons",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.24.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.24.0",
+    "strength": "essential",
+    "why": "Milankovitch cycles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.24.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.24.0",
+    "strength": "helpful",
+    "why": "orbital change effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.24.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.3.0",
+    "strength": "essential",
+    "why": "albedo",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.24.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.21.0",
+    "strength": "helpful",
+    "why": "ice core records",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.24.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.19.0",
+    "strength": "helpful",
+    "why": "ocean heat transport",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.24.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.19.3",
+    "strength": "helpful",
+    "why": "volcanic cooling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.26.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.27.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.27.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.5.0",
+    "strength": "essential",
+    "why": "greenhouse effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.27.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.27.0",
+    "strength": "helpful",
+    "why": "extra heat trapped",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.27.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.3.1",
+    "strength": "essential",
+    "why": "albedo of ice and ocean",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.27.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.27.0",
+    "strength": "helpful",
+    "why": "greenhouse gas warming",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.27.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.19.6",
+    "strength": "helpful",
+    "why": "permafrost feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.27.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.0.2",
+    "strength": "helpful",
+    "why": "climate belts",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.28.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.24.0",
+    "strength": "helpful",
+    "why": "thermohaline circulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.28.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s2.22.1",
+    "strength": "helpful",
+    "why": "tropical cyclones draw heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.28.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.27.1",
+    "strength": "helpful",
+    "why": "warming sea expands",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.29.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.29.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.29.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.29.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.30.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.30.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.30.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.30.0",
+    "strength": "essential",
+    "why": "warm pool and trade winds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.30.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.30.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.31.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.31.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.30.0",
+    "strength": "essential",
+    "why": "normal trade winds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.31.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.30.1",
+    "strength": "essential",
+    "why": "normal Walker circulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.31.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.31.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.31.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.31.1",
+    "strength": "essential",
+    "why": "rain zone shifts east",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.32.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.30.2",
+    "strength": "essential",
+    "why": "upwelling and anchoveta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.32.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.31.1",
+    "strength": "helpful",
+    "why": "rain zone shifts east",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.32.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.5.0",
+    "strength": "helpful",
+    "why": "Indian monsoon",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.32.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.33.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.33.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.33.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.33.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.33.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.34.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.31.b",
+    "strength": "helpful",
+    "why": "El Nino reversed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.34.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.30.0",
+    "strength": "helpful",
+    "why": "normal trade winds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.34.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-atmosphere-ocean-s5.32.0",
+    "strength": "helpful",
+    "why": "El Nino effects reversed",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.34.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.35.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.35.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.35.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.35.2": {
+  "cost": 1,
+  "needs": []
+ }
+}
