@@ -1,0 +1,78 @@
+import json,re,sys
+B='/Users/gabrielwhelan/barebones/drafts/crunch/history/'
+def L(i,s,w,c='high'): return {"id":i,"strength":{'E':'essential','H':'helpful'}[s],"why":w,"confidence":c}
+def run(name,spec):
+    txt=open(B+'packs/'+name+'.txt').read()
+    head,cand=txt.split('\nCANDIDATES',1)
+    tids=re.findall(r'^\[([^\]]+)\]',head,re.M)
+    allids=set(re.findall(r'^\[([^\]]+)\]',txt,re.M))
+    assert set(spec)==set(tids) and len(spec)==len(tids),(set(tids)-set(spec),set(spec)-set(tids))
+    out={}
+    for t in tids:
+        c,links=spec[t]
+        for l in links: assert l['id'] in allids and l['id']!=t,(t,l)
+        out[t]={"cost":c,"needs":links}
+    json.dump(out,open(B+'point-links/'+name+'.json','w'),indent=1,ensure_ascii=False)
+    n=sum(len(v['needs']) for v in out.values())
+    print(name,len(out),n,sum(v['cost']==2 for v in out.values()),sum(l['confidence']=='low' for v in out.values() for l in v['needs']))
+
+P='hist-eur3-s12.'
+S={}
+def a(k,c,*l): S[P+k]=(c,[L(*x) if x[0].startswith('hist') else L(P+x[0],*x[1:]) for x in l])
+for k in ['0.b','1.b','2.b','3.b','4.b','5.b','6.b','7.b','8.b','9.b']: a(k,1)
+a('0.0',1); a('0.1',1); a('0.2',2,('0.0','H','ministry took over broadcasting')); a('0.3',1,('0.0','H','Goebbels propaganda ministry'))
+a('0.4',1); a('0.5',1)
+a('1.0',1); a('1.1',2); a('1.2',1); a('1.3',1,('0.3','H','Reich Chamber of Culture control')); a('1.4',1,('1.3','H','Reich Film Chamber control of cinema'))
+a('2.0',1); a('2.1',1,('hist-eur3-s2.6.2','H','Goebbels as Berlin Gauleiter propaganda'))
+a('2.2',1,('hist-eur3-s2.6.2','H','election propaganda methods'))
+a('2.3',1,('0.0','H','Ministry of Propaganda'))
+a('2.4',1,('hist-eur3-s3.8.1','E','Sportpalast total war speech'))
+a('2.5',2,('hist-eur3-s3.1.6','H','Himmler as rival','low'))
+a('3.0',1,('4.0','H','Nuremberg rallies filmed'))
+a('3.1',1,('5.1','E','1934 Nuremberg Rally'))
+a('3.2',1,('1.2','H','1936 Berlin Olympics'))
+a('3.3',2,('3.1','E','Triumph of the Will'),('3.2','H','Olympia'))
+a('3.4',1)
+a('3.5',1,('3.1','H','Triumph of the Will'))
+a('4.0',1)
+a('4.1',1)
+a('4.2',1)
+a('4.3',1,('hist-eur3-s3.8.0','H','Speer as Hitler architect','low'))
+a('4.4',1,('hist-eur3-s3.1.0','H','the SA'),('hist-eur3-s3.1.6','H','the SS'),('hist-eur3-s3.7.2','H','the Hitler Youth'))
+a('4.5',1,('4.3','H','Speer designed rally grounds'))
+a('5.0',1,('hist-eur3-s2.6.11','H','Hitler becoming Chancellor'))
+a('5.1',2,('hist-eur3-s3.1.1','E','Night of the Long Knives'),('3.1','E','Triumph of the Will'))
+a('5.2',1,('hist-eur3-s3.7.6','E','Nuremberg Laws'))
+a('5.3',1,('hist-eur3-s3.2.2','H','Reich Labour Service'))
+a('5.4',1,('hist-eur3-s3.4.2','E','Munich Agreement'),('hist-eur3-s3.4.1','E','the Anschluss'))
+a('5.5',1,('hist-eur3-s3.4.10','H','outbreak of war in 1939'))
+a('6.0',1)
+a('6.1',1,('hist-eur3-s3.1.4','H','oath of loyalty to Hitler','low'))
+a('6.2',1,('3.1','H','Riefenstahl film Triumph of the Will','low'))
+a('6.3',1)
+a('6.4',1)
+a('6.5',1,('hist-eur3-s3.7.6','E','Nuremberg Laws'))
+a('6.6',2,('hist-eur3-s3.1.1','E','murder of Ernst Roehm'),('5.0','H','1933 rally'),('3.1','E','Triumph of the Will'))
+a('6.7',1,('3.1','E','Triumph of the Will'))
+a('7.0',2,('0.0','H','ministry press control'),('2.1','H','Goebbels Der Angriff','low'))
+a('7.1',1,('0.2','H','state-controlled radio'))
+a('7.2',2,('1.3','H','Reich Film Chamber','low'))
+a('7.3',1,('hist-eur3-s3.0.3','H','German Labour Front'))
+a('7.4',2,('hist-eur3-s3.1.5','H','cult of leader and Fuehrer principle'))
+a('8.0',1,('hist-eur3-s3.2.2','H','Labour Service'),('hist-eur3-s3.7.2','H','Hitler Youth'))
+a('8.1',2,('hist-eur3-s3.1.1','E','purge of Roehm and SA'),('4.4','H','Luitpold Arena'),('hist-eur3-s3.1.6','H','Himmler as SS leader'))
+a('8.2',1,('hist-eur3-s2.3.2','E','Munich Putsch of 1923'))
+a('8.3',1,('5.1','H','1934 rally'),('4.5','E','cathedral of light'))
+a('8.4',1,('hist-eur3-s3.2.4','E','Four Year Plan'))
+a('8.5',1)
+a('9.0',1,('6.0','H','rallies gave image of unity','low'))
+a('9.1',1,('hist-eur3-s3.1.8','H','camps used to suppress opposition','low'))
+a('9.2',1,('6.4','H','foreign reaction to rallies','low'))
+a('9.3',2,('hist-eur3-s3.2.1','H','economic recovery','low'))
+a('9.4',1,('3.5','H','Riefenstahl films as propaganda'))
+a('9.5',1,('hist-eur3-s3.8.1','H','total war after Stalingrad','low'))
+run('hist-eur3-s12.t1g1',S)
+
+P='hist-eur1-s5.'
+S={}
+a('0.b',1)
