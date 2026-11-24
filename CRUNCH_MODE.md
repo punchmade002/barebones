@@ -187,8 +187,7 @@ questions are tied to theirs. A part on India also counts for Brazil, because pa
 Geography Crunch map: https://claude.ai/artifact/L8iWBKKiqb1KqdsBfc7uU1. Results for Economic, Global
 Interdependence and India, calibrated on 2017–2026 HL papers with no point tags: an 85% target cuts 48% of
 study effort, 75% cuts 55%, 55% cuts 74% and 35% cuts 89%.
-Not modelled: the "any two of three parts" choice inside long questions, and the Geographical Investigation
-(20%, coursework).
+Not modelled: the "any two of three parts" choice inside long questions.
 
 **Geography exam tags (cheap mode, started 2026-11-24).**
 - `python3 scripts/crunch_exam_tags.py geography short` shows each question only a shortlist of note points: per
@@ -203,7 +202,16 @@ Not modelled: the "any two of three parts" choice inside long questions, and the
 - Untagged marks: 34% of Part One (figure reads, and true/false statements, which the bank doesn't store)
   and 4% of long answers.
 - Tagged India parts give Brazil the same share, spread over its points (`crunch_map.py`).
-- Remaining: 96 long-question batches.
+- Done 2026-11-24: all 360 HL questions (2015–2026) tagged, 118 Haiku batches. Untagged marks: 5% overall (34% of
+  Part One, 39% of the long questions' A parts, ~0% of 20+ mark parts). No part over the marks ÷ 2 cap.
+- Final Sonnet check on the lowest-count essays (batches 79, 98): 129 marking points, 1 WRONG, 3 MISSED. The
+  low counts are notes gaps (monsoon mechanism, Peru upwelling, Hadley cell, Ophelia), not under-tagging.
+- Cuts at a written-paper target with all tags (India / Brazil): 85% → 49% / 54%, 75% → 63% / 64%, 55% → 81% /
+  80%. That's bigger than with wave 1 only (39% / 44% at 85%): precise tags put the marks on fewer points.
+- Notes conflicts the taggers found: the Kurdish broadcasting ban ends in the "early 1990s" in
+  `geo-option-culture-identity` s2.1.4/s5.19.2 but in the "early 2000s" in five model answers; TFR 1.2 vs 1.5 in
+  `geo-population-migration-s1`; the convection-current direction (2018 q103 3C); 2021 q105 5B (India tourism)
+  came back empty, probably a wrong notesRefs link.
 
 ## Status (2026-11-23)
 Biology point graph drafted by Sonnet, one agent per subsection: 10,583 items,
