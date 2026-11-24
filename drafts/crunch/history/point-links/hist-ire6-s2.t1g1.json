@@ -1,0 +1,636 @@
+{
+"hist-ire6-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.0.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.5.3",
+"strength": "helpful",
+"why": "1955-56 crisis met by deflation",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s1.4.1",
+"strength": "helpful",
+"why": "1952 deflationary budget",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.7.0",
+"strength": "helpful",
+"why": "1957 Fianna Fail election win",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.1.0",
+"strength": "helpful",
+"why": "Whitaker at Finance",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.0.0",
+"strength": "helpful",
+"why": "protection and its failings",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.1.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s2.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.0.1",
+"strength": "essential",
+"why": "Control of Manufactures Acts",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.1.1",
+"strength": "essential",
+"why": "Economic Development report",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.0.3",
+"strength": "helpful",
+"why": "emigration problem",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.0.1",
+"strength": "essential",
+"why": "rule on Irish shareholding",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.2.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s2.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.1.4",
+"strength": "helpful",
+"why": "the IDA",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.2.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.1.3",
+"strength": "helpful",
+"why": "productive over social investment",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.2.1",
+"strength": "helpful",
+"why": "the growth target",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.2.1",
+"strength": "essential",
+"why": "the 2 per cent target",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.2.2",
+"strength": "helpful",
+"why": "foreign-owned firms",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.0.3",
+"strength": "helpful",
+"why": "1950s emigration figures",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.3.2",
+"strength": "helpful",
+"why": "falling emigration and population",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s2.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.0.4",
+"strength": "helpful",
+"why": "balance of payments crises",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.3.0",
+"strength": "helpful",
+"why": "growth against target",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.0.3",
+"strength": "helpful",
+"why": "pessimism of the 1950s",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s2.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.2.2",
+"strength": "helpful",
+"why": "openness to foreign investment",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.2.3",
+"strength": "essential",
+"why": "Export Profits Tax Relief",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s2.3.6",
+"strength": "helpful",
+"why": "world boom helping exports",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.2.2",
+"strength": "helpful",
+"why": "foreign firms in Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.5.1": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s2.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.4.0",
+"strength": "helpful",
+"why": "the First Programme and planning",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s2.0.4",
+"strength": "helpful",
+"why": "balance of payments deficit",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s2.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.6.2",
+"strength": "helpful",
+"why": "free trade with Britain",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.6.3",
+"strength": "helpful",
+"why": "lower tariffs",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s2.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.6.6",
+"strength": "essential",
+"why": "Lemass-O Neill meetings",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.0.0",
+"strength": "helpful",
+"why": "protection",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.6.0",
+"strength": "essential",
+"why": "Irelands EEC application",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.6.1",
+"strength": "essential",
+"why": "EEC entry delayed",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.6.2",
+"strength": "essential",
+"why": "the Free Trade Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.6.3",
+"strength": "essential",
+"why": "free trade removing tariffs",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.6.4",
+"strength": "helpful",
+"why": "effects of free trade",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s2.6.6": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.1.5",
+"strength": "helpful",
+"why": "Economic Development and the First Programme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.7.1",
+"strength": "helpful",
+"why": "Whitaker at Finance",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.7.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s2.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.7.1",
+"strength": "helpful",
+"why": "Whitakers role in planning",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s2.5.0",
+"strength": "helpful",
+"why": "Lemass political will",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.8.1": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.0.0",
+"strength": "essential",
+"why": "the protectionist policy of the 1930s",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.1.5",
+"strength": "helpful",
+"why": "the First Programme",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s2.6.0",
+"strength": "helpful",
+"why": "the EEC application",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s2.6.3",
+"strength": "helpful",
+"why": "the Free Trade Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.5.6",
+"strength": "helpful",
+"why": "partition and Northern Ireland meetings",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.7.1",
+"strength": "helpful",
+"why": "Whitaker as author",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s2.8.3",
+"strength": "helpful",
+"why": "Lemass as Taoiseach",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.5.2",
+"strength": "essential",
+"why": "the Second Programme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.3.0",
+"strength": "essential",
+"why": "growth against target",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s2.3.2",
+"strength": "helpful",
+"why": "falling emigration",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.3.4",
+"strength": "helpful",
+"why": "employment and unemployment",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s2.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s2.9.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.3.6",
+"strength": "helpful",
+"why": "European boom",
+"confidence": "high"
+}
+]
+}
+}

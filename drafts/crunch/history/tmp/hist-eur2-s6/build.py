@@ -78,10 +78,10 @@ RAW='''
 9.4|2|6.4.6:E:reparations:H
 9.5|2|s5.3.4:E:Treaty of Brest-Litovsk comparison:H
 '''
-def build(sub,RAW,pack,out):
+
+def build(sub,pre,RAW,pack,out):
     txt=open(D+'packs/'+pack).read()
-    tgt=[]; allids=set()
-    mode=None
+    tgt=[];allids=set();mode=None
     for l in txt.split('\n'):
         if l.startswith('TARGET'): mode='t'
         elif l.startswith('CANDIDATES'): mode='c'
@@ -92,11 +92,17 @@ def build(sub,RAW,pack,out):
     res={}
     for line in RAW.strip().split('\n'):
         i,c,ls=line.split('|')
-        i=sub+'.'+i if not i.startswith('s') else i
+        i=sub+'.'+i
         needs=[]
         for k in filter(None,ls.split(';')):
-            t,s,w,cf=k.split(':')
-            if t.startswith('s'): t='hist-'+sub.split('-')[1]+'-'+t if False else None
-            needs.append((k,))
-        res[i]=(int(c),ls)
-    return tgt,allids,res
+            t,st,w,cf=k.split(':')
+            t=pre+(t if t.startswith('s') else 's'+t)
+            needs.append({"id":t,"strength":"essential" if st=='E' else "helpful","why":w,"confidence":"high" if cf=='H' else "low"})
+        assert i not in res,i
+        res[i]={"cost":int(c),"needs":needs}
+    assert list(res)==tgt,(set(tgt)-set(res),set(res)-set(tgt))
+    for i,v in res.items():
+        for n in v['needs']: assert n['id'] in allids and n['id']!=i,(i,n['id'])
+    json.dump(res,open(out,'w'),indent=1)
+    print(len(res),sum(len(v['needs']) for v in res.values()),sum(v['cost']==2 for v in res.values()),sum(n['confidence']=='low' for v in res.values() for n in v['needs']))
+build('hist-eur2-s6','hist-eur2-',RAW,'hist-eur2-s6.t1g1.txt',D+'point-links/hist-eur2-s6.t1g1.json')
