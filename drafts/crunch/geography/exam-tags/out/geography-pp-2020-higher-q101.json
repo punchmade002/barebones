@@ -1,0 +1,43 @@
+{
+  "1A": [
+    {"k": 2, "of": ["geo-mapwork-s1.16.1", "geo-mapwork-s1.16.6"]},
+    {"k": 2, "of": ["geo-mapwork-s1.16.3", "geo-mapwork-s1.16.6"]},
+    {"k": 2, "of": ["geo-mapwork-s1.16.3", "geo-mapwork-s1.16.6"]},
+    {"k": 2, "of": ["geo-plate-tectonics-s3.0.0", "geo-mapwork-s1.16.4"]},
+    {"k": 2, "of": ["geo-mapwork-s1.14.3", "geo-mapwork-s1.16.6"]},
+    {"k": 2, "of": ["geo-mapwork-s1.16.4", "geo-mapwork-s1.16.6"]}
+  ],
+  "1B": [
+    {"k": 2, "of": ["geo-rocks-weathering-s1.3.1", "geo-rocks-weathering-s1.4.0"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.5.2", "geo-rocks-weathering-s1.2.2"]},
+    {"k": 1, "of": ["geo-rocks-weathering-s1.3.0"]},
+    {"k": 2, "of": ["geo-rocks-weathering-s1.4.0", "geo-rocks-weathering-s1.15.0"]},
+    {"k": 1, "of": ["geo-rocks-weathering-s1.4.b"]},
+    {"k": 2, "of": ["geo-rocks-weathering-s1.13.2", "geo-rocks-weathering-s1.13.5"]},
+    {"k": 1, "of": ["geo-rocks-weathering-s1.4.4"]},
+    {"k": 2, "of": ["geo-rocks-weathering-s1.10.b", "geo-rocks-weathering-s1.12.1"]},
+    {"k": 1, "of": ["geo-rocks-weathering-s1.11.1"]},
+    {"k": 1, "of": ["geo-rocks-weathering-s1.13.5"]},
+    {"k": 1, "of": ["geo-rocks-weathering-s1.10.1"]},
+    {"k": 1, "of": ["geo-rocks-weathering-s1.15.5"]},
+    {"k": 1, "of": ["geo-rocks-weathering-s1.12.4"]},
+    {"k": 2, "of": ["geo-rocks-weathering-s1.11.0", "geo-rocks-weathering-s1.12.5"]}
+  ],
+  "1C": [
+    {"k": 1, "of": ["geo-plate-tectonics-s3.1.b"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.1.0"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.1.1"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.1.2"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.2.b"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.2.0"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.2.0", "geo-plate-tectonics-s3.4.0"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.4.0"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.2.1"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.2.2"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.2.4"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.2.6"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.3.0"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.3.1"]},
+    {"k": 1, "of": ["geo-plate-tectonics-s3.3.2"]}
+  ]
+}
