@@ -1,0 +1,507 @@
+{
+"geo-economic-development-s4.0.b": {
+"needs": []
+},
+"geo-economic-development-s4.0.0": {
+"needs": []
+},
+"geo-economic-development-s4.0.1": {
+"needs": []
+},
+"geo-economic-development-s4.1.b": {
+"needs": []
+},
+"geo-economic-development-s4.1.0": {
+"needs": []
+},
+"geo-economic-development-s4.1.1": {
+"needs": []
+},
+"geo-economic-development-s4.1.2": {
+"needs": []
+},
+"geo-economic-development-s4.2.b": {
+"needs": []
+},
+"geo-economic-development-s4.2.0": {
+"needs": []
+},
+"geo-economic-development-s4.2.1": {
+"needs": []
+},
+"geo-economic-development-s4.2.2": {
+"needs": []
+},
+"geo-economic-development-s4.2.3": {
+"needs": []
+},
+"geo-economic-development-s4.3.b": {
+"needs": []
+},
+"geo-economic-development-s4.3.0": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.14.0",
+"strength": "helpful",
+"why": "raw material exports share",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.3.1": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.0.b",
+"strength": "helpful",
+"why": "exports and imports",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s4.3.2": {
+"needs": []
+},
+"geo-economic-development-s4.3.3": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.1",
+"strength": "helpful",
+"why": "tariffs as trade barriers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.4.b": {
+"needs": []
+},
+"geo-economic-development-s4.4.0": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.1",
+"strength": "helpful",
+"why": "subsidies as trade barrier",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.4.1": {
+"needs": []
+},
+"geo-economic-development-s4.4.2": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.5",
+"strength": "helpful",
+"why": "WTO settles disputes",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.5.b": {
+"needs": []
+},
+"geo-economic-development-s4.5.0": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.4",
+"strength": "helpful",
+"why": "the WTO",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.5.1": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.1",
+"strength": "helpful",
+"why": "tariffs and quotas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.6.b": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.6",
+"strength": "helpful",
+"why": "fair trade minimum price",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.6.0": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.6",
+"strength": "helpful",
+"why": "fair trade price and premium",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.6.1": {
+"needs": []
+},
+"geo-economic-development-s4.6.2": {
+"needs": []
+},
+"geo-economic-development-s4.6.3": {
+"needs": []
+},
+"geo-economic-development-s4.6.4": {
+"needs": []
+},
+"geo-economic-development-s4.7.b": {
+"needs": []
+},
+"geo-economic-development-s4.7.0": {
+"needs": []
+},
+"geo-economic-development-s4.7.1": {
+"needs": []
+},
+"geo-economic-development-s4.7.2": {
+"needs": []
+},
+"geo-economic-development-s4.7.3": {
+"needs": []
+},
+"geo-economic-development-s4.7.4": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.0",
+"strength": "helpful",
+"why": "trade rules and protectionism",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s4.8.b": {
+"needs": []
+},
+"geo-economic-development-s4.8.0": {
+"needs": []
+},
+"geo-economic-development-s4.8.1": {
+"needs": []
+},
+"geo-economic-development-s4.8.2": {
+"needs": []
+},
+"geo-economic-development-s4.8.3": {
+"needs": []
+},
+"geo-economic-development-s4.9.b": {
+"needs": []
+},
+"geo-economic-development-s4.9.0": {
+"needs": []
+},
+"geo-economic-development-s4.9.1": {
+"needs": []
+},
+"geo-economic-development-s4.9.2": {
+"needs": []
+},
+"geo-economic-development-s4.9.3": {
+"needs": []
+},
+"geo-economic-development-s4.10.b": {
+"needs": []
+},
+"geo-economic-development-s4.10.0": {
+"needs": []
+},
+"geo-economic-development-s4.10.1": {
+"needs": []
+},
+"geo-economic-development-s4.11.b": {
+"needs": []
+},
+"geo-economic-development-s4.11.0": {
+"needs": []
+},
+"geo-economic-development-s4.11.1": {
+"needs": []
+},
+"geo-economic-development-s4.11.2": {
+"needs": []
+},
+"geo-economic-development-s4.11.3": {
+"needs": []
+},
+"geo-economic-development-s4.11.4": {
+"needs": []
+},
+"geo-economic-development-s4.11.5": {
+"needs": []
+},
+"geo-economic-development-s4.12.b": {
+"needs": []
+},
+"geo-economic-development-s4.12.0": {
+"needs": []
+},
+"geo-economic-development-s4.12.1": {
+"needs": []
+},
+"geo-economic-development-s4.12.2": {
+"needs": []
+},
+"geo-economic-development-s4.12.3": {
+"needs": []
+},
+"geo-economic-development-s4.12.4": {
+"needs": []
+},
+"geo-economic-development-s4.12.5": {
+"needs": []
+},
+"geo-economic-development-s4.13.b": {
+"needs": []
+},
+"geo-economic-development-s4.13.0": {
+"needs": []
+},
+"geo-economic-development-s4.13.1": {
+"needs": []
+},
+"geo-economic-development-s4.13.2": {
+"needs": []
+},
+"geo-economic-development-s4.14.b": {
+"needs": []
+},
+"geo-economic-development-s4.14.0": {
+"needs": []
+},
+"geo-economic-development-s4.14.1": {
+"needs": []
+},
+"geo-economic-development-s4.14.2": {
+"needs": []
+},
+"geo-economic-development-s4.14.3": {
+"needs": []
+},
+"geo-economic-development-s4.14.4": {
+"needs": []
+},
+"geo-economic-development-s4.14.5": {
+"needs": []
+},
+"geo-economic-development-s4.14.6": {
+"needs": []
+},
+"geo-economic-development-s4.14.7": {
+"needs": []
+},
+"geo-economic-development-s4.15.b": {
+"needs": []
+},
+"geo-economic-development-s4.15.0": {
+"needs": []
+},
+"geo-economic-development-s4.15.1": {
+"needs": []
+},
+"geo-economic-development-s4.15.2": {
+"needs": []
+},
+"geo-economic-development-s4.15.3": {
+"needs": []
+},
+"geo-economic-development-s4.15.4": {
+"needs": []
+},
+"geo-economic-development-s4.15.5": {
+"needs": []
+},
+"geo-economic-development-s4.15.6": {
+"needs": []
+},
+"geo-economic-development-s4.16.b": {
+"needs": []
+},
+"geo-economic-development-s4.16.0": {
+"needs": []
+},
+"geo-economic-development-s4.17.b": {
+"needs": []
+},
+"geo-economic-development-s4.17.0": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.16.0",
+"strength": "helpful",
+"why": "MNCs move assembly to cheap labour",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.17.1": {
+"needs": []
+},
+"geo-economic-development-s4.17.2": {
+"needs": []
+},
+"geo-economic-development-s4.18.b": {
+"needs": []
+},
+"geo-economic-development-s4.18.0": {
+"needs": []
+},
+"geo-economic-development-s4.18.1": {
+"needs": []
+},
+"geo-economic-development-s4.18.2": {
+"needs": []
+},
+"geo-economic-development-s4.18.3": {
+"needs": []
+},
+"geo-economic-development-s4.18.4": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.17.2",
+"strength": "helpful",
+"why": "assembly spreading to Bangladesh",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s4.18.5": {
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.16.0",
+"strength": "helpful",
+"why": "MNCs use low-cost factories",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s4.19.b": {
+"needs": []
+},
+"geo-economic-development-s4.19.0": {
+"needs": []
+},
+"geo-economic-development-s4.19.1": {
+"needs": []
+},
+"geo-economic-development-s4.19.2": {
+"needs": []
+},
+"geo-economic-development-s4.19.3": {
+"needs": []
+},
+"geo-economic-development-s4.20.b": {
+"needs": []
+},
+"geo-economic-development-s4.20.0": {
+"needs": []
+},
+"geo-economic-development-s4.20.1": {
+"needs": []
+},
+"geo-economic-development-s4.21.b": {
+"needs": []
+},
+"geo-economic-development-s4.21.0": {
+"needs": []
+},
+"geo-economic-development-s4.21.1": {
+"needs": []
+},
+"geo-economic-development-s4.21.2": {
+"needs": []
+},
+"geo-economic-development-s4.22.b": {
+"needs": [
+{
+"id": "geo-economic-environment-s3.2.1",
+"strength": "helpful",
+"why": "enhanced greenhouse effect",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.22.0": {
+"needs": [
+{
+"id": "geo-economic-environment-s3.2.1",
+"strength": "helpful",
+"why": "greenhouse emissions cause warming",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.22.1": {
+"needs": [
+{
+"id": "geo-economic-environment-s3.5.0",
+"strength": "helpful",
+"why": "sea-level rise",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.22.2": {
+"needs": [
+{
+"id": "geo-economic-environment-s3.5.0",
+"strength": "helpful",
+"why": "sea-level rise",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.22.3": {
+"needs": [
+{
+"id": "geo-economic-environment-s3.5.1",
+"strength": "helpful",
+"why": "drought from warming",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.22.4": {
+"needs": [
+{
+"id": "geo-economic-environment-s3.8.3",
+"strength": "helpful",
+"why": "COP climate conferences",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s4.22.5": {
+"needs": []
+},
+"geo-economic-development-s4.23.b": {
+"needs": []
+},
+"geo-economic-development-s4.23.0": {
+"needs": []
+},
+"geo-economic-development-s4.23.1": {
+"needs": []
+},
+"geo-economic-development-s4.23.2": {
+"needs": []
+},
+"geo-economic-development-s4.23.3": {
+"needs": []
+},
+"geo-economic-development-s4.23.4": {
+"needs": []
+},
+"geo-economic-development-s4.24.b": {
+"needs": []
+},
+"geo-economic-development-s4.24.0": {
+"needs": []
+}
+}

@@ -16,7 +16,7 @@ for line in open(spec):
         p=x.split(',')
         if len(p)==3: p.append('h')
         t,s,w,cf=p
-        needs.append({"id":P+t,"strength":"essential" if s=='e' else "helpful","why":w,"confidence":"high" if cf=='h' else "low"})
+        needs.append({"id":(t if t.startswith("geo-") else (P+t if t.startswith("s") else "geo-"+t)),"strength":"essential" if s=='e' else "helpful","why":w,"confidence":"high" if cf=='h' else "low"})
     res[P+i]={"cost":int(c),"needs":needs} if c!='-' else {"needs":needs}
 assert list(res)==tids,(set(tids)^set(res))
 for k,v in res.items():
