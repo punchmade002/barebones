@@ -4,7 +4,7 @@ pk=open(P+'packs/hist-eur2-s8.t1g1.txt').read()
 targets=re.findall(r'^\[(hist-eur2-s8\.[^\]]+)\]',pk,re.M)
 allids=set(re.findall(r'^\[([^\]]+)\]',pk,re.M))
 E,H='essential','helpful'
-def n(i,s,w,c='high'):return dict(id='hist-eur2-s8.'+i if i.startswith(tuple('0123456789')) else i,strength=s,why=w,confidence=c)
+def n(i,s,w,c='high'):return dict(id=('hist-eur2-' if i[0]=='s' else 'hist-eur2-s8.')+i,strength=s,why=w,confidence=c)
 D={
 '0.b':(1,[]),'0.0':(1,[]),'0.1':(1,[]),'0.2':(1,[]),'0.3':(1,[]),
 '0.4':(1,[n('0.0',H,'Alexander II and serf emancipation','low')]),

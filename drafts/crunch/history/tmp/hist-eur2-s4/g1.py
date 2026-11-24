@@ -24,7 +24,7 @@ D=[
 ('2.2',2,[L(p+'2.1',E,'League victory in First Balkan War')]),
 ('2.3',2,[L(p+'2.0',E,'Balkan League members')]),
 ('2.4',1,[L(p+'2.3',E,'ends the Second Balkan War')]),
-('2.5',1,[L(p+'2.4',E,'Serbia's gains in 1913'.replace("'","")),L(p+'0.6',H,'Conrad urging preventive war')]),
+('2.5',1,[L(p+'2.4',E,'Serbian gains in 1913'),L(p+'0.6',H,'Conrad urging preventive war')]),
 ('2.6',2,[L(p+'2.2',H,'London Conference diplomacy')]),
 ('3.0',1,[]),
 ('3.1',1,[L(p+'3.0',E,'the Black Hand society')]),
