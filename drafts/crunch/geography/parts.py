@@ -1,68 +1,116 @@
-"""Split big Crunch point packages into parts, and join the parts' agent outputs.
+"""Crunch point packages for big subjects: a grid of target chunks x candidate groups, each about BUDGET bytes.
 
-    python3 drafts/crunch/geography/parts.py split   # points/<sid>.txt over LIMIT items -> points/<sid>.partN.txt
-    python3 drafts/crunch/geography/parts.py join    # point-links/<sid>.partN.json -> point-links/<sid>.json
+    python3 drafts/crunch/geography/parts.py build   # -> drafts/crunch/geography/packs/<sid>.t<T>g<G>.txt + packs.json
+    python3 drafts/crunch/geography/parts.py join    # point-links/<sid>.t*g*.json -> point-links/<sid>.json (then crunch_points.py merge)
 
-Each part keeps the whole package's candidates, and the subsection's other items become candidates too,
-so links inside the subsection are still possible. Parts break at block boundaries.
+Geography packages built the Biology way are ~3x bigger (median 92 KB, max 272 KB), past what agents read reliably.
+So each target chunk (<= CHUNK items) is paired with candidate groups packed up to BUDGET: group 1 holds the
+target's own subsection and rates cost + links; later groups add links only. Join unions the links.
 """
 import json
-import re
 import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-LIMIT = 250
+ROOT = HERE.parents[2]
+sys.path.insert(0, str(ROOT / "scripts"))
+from crunch_points import items  # noqa: E402
+
+SUBJECT = HERE.name
+BUDGET = 75_000
+CHUNK = 200
 
 
-def split():
-    made = []
-    for f in sorted((HERE / "points").glob("*.txt")):
-        if ".part" in f.name:
-            continue
-        head, _, rest = f.read_text().partition("\n\n")
-        lines = head.splitlines()
-        target, items = lines[0], lines[1:]
-        if len(items) <= LIMIT:
-            continue
-        sid = f.stem
-        blocks = {}
-        for line in items:
-            blocks.setdefault(re.match(r"\[[^.]+\.(\d+)\.", line).group(1), []).append(line)
-        parts, cur = [], []
-        for b in blocks.values():
-            if cur and len(cur) + len(b) > LIMIT:
-                parts.append(cur)
-                cur = []
-            cur += b
-        parts.append(cur)
-        for n, part in enumerate(parts, 1):
-            others = [l for l in items if l not in part]
-            text = [target.replace(f"TARGET {sid}:", f"TARGET {sid} (part {n} of {len(parts)}):")] + part
-            text += ["", f"CANDIDATES {sid} (the rest of this subsection):"] + others
-            (HERE / "points" / f"{sid}.part{n}.txt").write_text("\n".join(text) + ("\n\n" + rest if rest else "\n"))
-        f.rename(f.with_suffix(".whole"))
-        made.append((sid, len(items), len(parts)))
-    for m in made:
-        print("split %s: %d items into %d parts" % m)
+def lines(rows):
+    return [f"[{i}] {t}" for i, t, _ in rows]
+
+
+def build():
+    all_items = items(SUBJECT)
+    prereqs = json.loads((ROOT / "content" / "crunch" / f"{SUBJECT}-prerequisites.json").read_text())
+    out = HERE / "packs"
+    out.mkdir(exist_ok=True)
+    for f in out.glob("*.txt"):
+        f.unlink()
+    index = {}
+    for sid, (title, rows) in all_items.items():
+        chunks = [rows[i:i + CHUNK] for i in range(0, len(rows), CHUNK)]
+        # candidate sections: the rest of this subsection first, then each needed subsection, split if one is too big
+        sections = []
+        for n in [sid] + [l["needs"] for l in prereqs.get(sid, [])]:
+            t, rs = all_items[n]
+            for k in range(0, len(rs), CHUNK):
+                sections.append((n, t, rs[k:k + CHUNK]))
+        for ti, chunk in enumerate(chunks, 1):
+            own = {i for i, _, _ in chunk}
+            head = [f"TARGET {sid}" + (f" (part {ti} of {len(chunks)})" if len(chunks) > 1 else "") + f": {title}"] + lines(chunk)
+            size0 = len("\n".join(head).encode())
+            groups, cur, size = [], [], size0
+            for n, t, rs in sections:
+                rs = [r for r in rs if r[0] not in own]
+                if not rs:
+                    continue
+                block = ["", f"CANDIDATES {n}: {t}"] + lines(rs)
+                b = len("\n".join(block).encode())
+                if cur and size + b > BUDGET:
+                    groups.append(cur)
+                    cur, size = [], size0
+                cur += block
+                size += b
+            groups.append(cur)
+            for gi, g in enumerate(groups, 1):
+                mode = "MODE: cost and links" if gi == 1 else "MODE: links only (another package rates cost)"
+                name = f"{sid}.t{ti}g{gi}"
+                (out / f"{name}.txt").write_text("\n".join([mode] + head + g) + "\n")
+                index[name] = {"sid": sid, "cost": gi == 1, "targets": [i for i, _, _ in chunk]}
+    (HERE / "packs.json").write_text(json.dumps(index, indent=0))
+    sizes = sorted((p.stat().st_size for p in out.glob("*.txt")))
+    print(f"{len(sizes)} packages for {len(all_items)} subsections, median {sizes[len(sizes) // 2] // 1000} KB, "
+          f"max {sizes[-1] // 1000} KB, {sum(sizes) / 1e6:.1f} MB total, cost-rating packages {sum(v['cost'] for v in index.values())}")
 
 
 def join():
+    index = json.loads((HERE / "packs.json").read_text())
     src = HERE / "point-links"
-    groups = {}
-    for f in src.glob("*.part*.json"):
-        groups.setdefault(f.name.split(".part")[0], []).append(f)
-    for sid, fs in sorted(groups.items()):
-        expected = len(list((HERE / "points").glob(f"{sid}.part*.txt")))
-        if len(fs) < expected:
-            print(f"{sid}: {len(fs)} of {expected} parts done")
+    by_sid = {}
+    for name, v in index.items():
+        by_sid.setdefault(v["sid"], []).append(name)
+    done = 0
+    for sid, names in sorted(by_sid.items()):
+        missing = [n for n in names if not (src / f"{n}.json").exists()]
+        if missing:
             continue
         merged = {}
-        for f in sorted(fs, key=lambda p: int(p.name.split(".part")[1].split(".")[0])):
-            merged.update(json.loads(f.read_text()))
+        for n in sorted(names, key=lambda n: not index[n]["cost"]):  # cost-rating packages first
+            res = json.loads((src / f"{n}.json").read_text())
+            for i in index[n]["targets"]:
+                r = res.get(i, {})
+                m = merged.setdefault(i, {"cost": None, "needs": []})
+                if index[n]["cost"]:
+                    m["cost"] = r.get("cost")
+                seen = {l["id"] for l in m["needs"]}
+                m["needs"] += [l for l in r.get("needs", []) if l.get("id") not in seen]
         (src / f"{sid}.json").write_text(json.dumps(merged, indent=0, ensure_ascii=False))
-        print(f"joined {sid}: {len(merged)} items from {len(fs)} parts")
+        done += 1
+    print(f"joined {done} of {len(by_sid)} subsections")
+
+
+def check_pack(name, res, index, pack_ids):
+    """Problems with one package's output (crunch_points.check covers the joined file)."""
+    v = index[name]
+    errs = [f"missing {i}" for i in v["targets"] if i not in res]
+    errs += [f"extra {i}" for i in res if i not in v["targets"]]
+    for i, r in res.items():
+        if v["cost"] and r.get("cost") not in (1, 2):
+            errs.append(f"{i} bad cost")
+        for l in r.get("needs", []):
+            if l.get("id") not in pack_ids or l.get("id") == i:
+                errs.append(f"{i} bad link {l.get('id')}")
+    return errs
 
 
 if __name__ == "__main__":
-    {"split": split, "join": join}[sys.argv[1]]()
+    t = {"x": {"sid": "s", "cost": False, "targets": ["a"]}}
+    assert check_pack("x", {"a": {"needs": [{"id": "b"}]}}, t, {"a", "b"}) == []
+    assert len(check_pack("x", {"a": {"needs": [{"id": "z"}]}, "q": {}}, t, {"a", "b"})) == 2
+    {"build": build, "join": join}[sys.argv[1]]()

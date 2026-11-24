@@ -1,0 +1,361 @@
+MODE: links only (another package rates cost)
+TARGET geo-weather-climate-s3: Geographical information systems (GIS)
+[geo-weather-climate-s3.0.b] A geographical information system (GIS) is a computer system that combines data linked to places on the earth's surface, so that data sources for one area can be studied together. Its power comes from combining: one map or photo on its own is not a GIS.
+[geo-weather-climate-s3.0.0] A GIS captures, stores, analyses and displays spatial (geo-referenced) data, meaning data tied to a location, from maps, aerial photographs, satellite images, census and other statistics, and field surveys.
+[geo-weather-climate-s3.0.1] Each data set is stored as a separate layer, such as roads, rivers, land use, population or protected sites, over the same base map (the common background map). Layers can be switched on and off and overlaid to reveal relationships.
+[geo-weather-climate-s3.0.2] Geo-referencing ties every item to coordinates, such as latitude and longitude or a national grid, so layers from different sources line up. Irish maps use the Irish Transverse Mercator (ITM) grid and the older Irish Grid.
+[geo-weather-climate-s3.0.3] Vector data are points, lines and polygons (closed shapes enclosing an area): a monument is shown as a point, a road as a line and a forest as a polygon.
+[geo-weather-climate-s3.0.4] Raster data are a grid of cells or pixels (tiny squares, each holding one value), such as a satellite image or an aerial photograph.
+[geo-weather-climate-s3.0.5] Each feature can carry attribute data, a table of information about it, such as a house's year of building or a field's crop.
+[geo-weather-climate-s3.1.b] A GIS is useful because of what it can do with the layers once they are lined up. Every study follows the same sequence, so the analysis tools below are used in whichever option is chosen.
+[geo-weather-climate-s3.1.0] Overlay combines layers to show where things coincide, such as new housing on former farmland.
+[geo-weather-climate-s3.1.1] Buffering draws a zone of set distance around a feature, such as a zone around a river or monument.
+[geo-weather-climate-s3.1.2] Querying selects the features that meet a condition, such as all Small Areas (the small census districts) whose population grew by more than a set amount.
+[geo-weather-climate-s3.1.3] Change detection compares the same layer at different dates, so you can see what has altered.
+[geo-weather-climate-s3.1.4] Network analysis finds the shortest or fastest route along roads or other links, such as for an ambulance.
+[geo-weather-climate-s3.1.5] Choropleth maps shade each area by a statistic, such as census figures, so high and low areas stand out.
+[geo-weather-climate-s3.1.6] Steps: 1. define the problem and area; 2. collect data layers; 3. geo-reference them to one base map; 4. overlay and analyse; 5. map and present the results; 6. draw conclusions and recommend planning action (decisions about how land should be used).
+[geo-weather-climate-s3.2.b] Beyond the four studies, GIS is used across planning and services. Knowing its strengths, its limits and where Irish data come from lets you judge any GIS study.
+[geo-weather-climate-s3.2.0] Wider uses of GIS: local authority planning and zoning, flood-risk mapping, emergency services, water and electricity networks, retail and service location, environmental monitoring and census mapping.
+[geo-weather-climate-s3.2.1] Advantages: handles very large data sets, combines many sources, analyses and re-analyses quickly, updates easily, gives clear map output and models 'what if' scenarios (testing the effect of a possible change before it happens).
+[geo-weather-climate-s3.2.2] Limitations: software and data are costly and need training; results are only as good as the data, which may be out of date or inaccurate; layers at different scales or dates may not match; personal data raise privacy issues.
+[geo-weather-climate-s3.2.3] Tailte Éireann, set up in 2023 by bringing together Ordnance Survey Ireland, the Property Registration Authority and the Valuation Office, supplies maps and aerial photography. Either name for the mapping body is acceptable.
+[geo-weather-climate-s3.2.4] The Central Statistics Office (CSO) supplies census data by area. Tailte Éireann is not a census body.
+[geo-weather-climate-s3.2.5] Satellite images, such as Landsat and Copernicus Sentinel, are another source; government departments and agencies supply sector statistics. There is more on satellite images in Satellite imagery.
+[geo-weather-climate-s3.3.b] Urban sprawl is the uncontrolled outward spread of low-density urban development, such as housing estates, retail parks and business parks, into the surrounding countryside, often along roads and into commuter towns (towns from which people travel to work in a city) and villages. This study uses aerial photographs, census material and maps.
+[geo-weather-climate-s3.3.0] Aerial photographs of the same area at different dates show farmland replaced by housing estates, new roads, roundabouts and business parks, and ribbon development (building in a line along approach roads). Overlaying them shows exactly where and when land changed.
+[geo-weather-climate-s3.3.1] Census material: population and housing counts by small area show where population grew fastest, the age of the housing stock, household size and commuting (distance and mode of travel to work).
+[geo-weather-climate-s3.3.2] The CSO publishes census results for Small Areas, each generally of 50–200 dwellings, so growth can be mapped in fine detail.
+[geo-weather-climate-s3.3.3] Ireland's censuses were held in 2011, 2016 and 2022; the 2021 census was postponed to 2022 because of COVID-19. Census 2022 counted about 5.1 million people in Ireland and about 1.45 million in Dublin county.
+[geo-weather-climate-s3.3.4] Maps: Ordnance Survey and historic maps of different editions show the built-up area expanding; development plan zoning maps show land zoned (officially set aside) for housing; transport maps show new motorways and rail lines that encouraged growth.
+[geo-weather-climate-s3.4.b] Once the layers are lined up, the analysis tests how and why the city spread. The Dublin findings then show the problems and the planning responses.
+[geo-weather-climate-s3.4.0] Overlay the built-up area at each date to measure how much land was urbanised (turned into built-up land), then overlay census growth on it.
+[geo-weather-climate-s3.4.1] Buffer motorways and rail stations to test whether growth followed transport, and link commuting data to show dependence on the car.
+[geo-weather-climate-s3.4.2] Findings for Dublin: the city and its suburbs spread into the surrounding counties; commuter towns such as Navan, Drogheda, Naas, Newbridge and Portlaoise grew rapidly; many residents commute long distances into Dublin. The Greater Dublin Area comprises Dublin, Meath, Kildare and Wicklow.
+[geo-weather-climate-s3.4.3] Problems shown by the study: loss of farmland and green space; car dependence, long commutes and traffic congestion; services such as schools, transport and shops lagging behind new housing.
+[geo-weather-climate-s3.4.4] Further problems: high cost of extending water, sewerage and public transport to low-density areas, and weakened community life in dormitory settlements (places where people mainly sleep and travel out to work).
+[geo-weather-climate-s3.4.5] Responses: compact growth and higher density near public transport, promoted by the National Planning Framework (2018).
+[geo-weather-climate-s3.4.6] Other responses: planned new communities with services built alongside housing, such as Adamstown, Co. Dublin, a planned Strategic Development Zone (SDZ); and greenbelts (protected rings of open land around a city).
+[geo-weather-climate-s3.5.b] This study combines satellite images with statistics to measure how farmland has changed between dates.
+[geo-weather-climate-s3.5.0] Satellite images from different years show changes in crops and grassland, field size, drainage, reclaimed marginal land (poorer land brought into use), and land lost to housing or forestry.
+[geo-weather-climate-s3.5.1] Satellite images repeat regularly, so changes can be tracked within a single season.
+[geo-weather-climate-s3.5.2] CORINE land cover is an EU inventory (a mapped record) made from satellite images that shows agricultural, forest, wetland and urban land at each date, so change can be measured. Ireland has been mapped for 1990, 2000, 2006, 2012 and 2018.
+[geo-weather-climate-s3.5.3] Statistical information: the CSO Census of Agriculture (about 135,000 farms counted in 2020) and annual crop and livestock surveys give farm numbers, farm size, crop areas and livestock numbers by county.
+[geo-weather-climate-s3.5.4] Department of Agriculture data on farm payments add the financial side of land use.
+[geo-weather-climate-s3.6.b] The satellite layers are overlaid and joined to the statistics, so the pattern of change can be explained by soils, relief and rainfall.
+[geo-weather-climate-s3.6.0] Overlay satellite-derived land use from two dates to map where tillage (growing crops), grassland, forestry and built land changed.
+[geo-weather-climate-s3.6.1] Join county statistics to the map, then relate the change to soils, relief and rainfall layers. For example, tillage is concentrated on the drier, flatter, better-drained land of the east and south-east.
+[geo-weather-climate-s3.6.2] Most Irish farmland is grassland for cattle and sheep; tillage is concentrated in the east and south-east.
+[geo-weather-climate-s3.6.3] Dairy farming expanded after EU milk quotas (limits on how much milk farms could produce) ended in 2015.
+[geo-weather-climate-s3.6.4] Some marginal land in the west has been planted with forestry, and farmland on the edge of cities has been lost to urban growth.
+[geo-weather-climate-s3.6.5] Uses: checking farmers' land-use claims under the EU's Common Agricultural Policy (CAP, the EU farm payment scheme) by satellite, monitoring crop health and forecasting yields, and tracking wetland drainage, hedgerow loss and nitrate pressure on water.
+[geo-weather-climate-s3.6.6] International illustration: satellite images of irrigated desert farming (centre-pivot circles) and of Amazon clearance show agricultural change on a large scale. There is more on this in Satellite imagery.
+[geo-weather-climate-s3.7.b] This study combines aerial photographs, maps and forestry statistics to show where forest has been planted and cleared, and why planting went where it did.
+[geo-weather-climate-s3.7.0] Aerial photographs of different dates show new plantations as dark, uniform blocks with straight edges and firebreaks (gaps that stop fire spreading), clear-felled areas as bare brown patches with brash (leftover branches), and replanting. Species and age can be distinguished by tone and texture.
+[geo-weather-climate-s3.7.1] OS maps show forest areas by symbol (coniferous, deciduous or mixed) and can be compared across editions.
+[geo-weather-climate-s3.7.2] Soil, peat and relief maps show where planting took place, on marginal upland, wet mineral soils and peat.
+[geo-weather-climate-s3.7.3] Maps of protected areas, Special Areas of Conservation and Special Protection Areas (sites protected for habitats and birds), show where planting conflicts with conservation.
+[geo-weather-climate-s3.7.4] Statistical information: the Forest Service's National Forest Inventory (forest area, species, ownership and age by county), annual afforestation (planting new forest) and felling figures, and grant data.
+[geo-weather-climate-s3.7.5] GIS analysis: overlay forest cover at successive dates to map expansion; overlay soils, slope and altitude to explain where planting happened.
+[geo-weather-climate-s3.7.6] GIS analysis, continued: overlay protected sites, rivers and archaeological sites, with buffers, to identify conflicts; query which counties had the largest increase.
+[geo-weather-climate-s3.8.b] The study shows how much forest Ireland has gained, who planted it and what it has cost the environment.
+[geo-weather-climate-s3.8.0] Forest cover was about 1% of Ireland at the start of the 20th century and is about 11% today (National Forest Inventory, 2022).
+[geo-weather-climate-s3.8.1] Most planting has been of conifers, mainly Sitka spruce, which makes up about half of all forest area, largely on marginal land.
+[geo-weather-climate-s3.8.2] Coillte, the state forestry company set up in 1988, manages most public forest; private, largely farm-based, planting grew with grants.
+[geo-weather-climate-s3.8.3] Benefits: timber and jobs, farm income diversification (more than one source of farm income), carbon storage and recreation.
+[geo-weather-climate-s3.8.4] Problems: dense conifer blocks change the landscape and reduce biodiversity; acidification and sediment in streams harm fish and the freshwater pearl mussel; open upland habitat for birds such as the hen harrier is lost.
+[geo-weather-climate-s3.8.5] Further problems: planting on peat releases carbon; clear-felling (cutting all trees in an area) causes erosion; forestry replacing farms has caused local opposition, for example in Co. Leitrim.
+[geo-weather-climate-s3.8.6] Ash dieback, a tree disease first found in Ireland in 2012, is a disease risk.
+[geo-weather-climate-s3.8.7] Management: more broadleaf planting, buffer zones along rivers, environmental assessment of planting, and continuous-cover forestry (harvesting without clear-felling, so the ground is always covered by trees).
+[geo-weather-climate-s3.9.b] The archaeological study uses the official record of known sites, old and new maps, and aerial photographs. The record is the starting point because it says which sites are known and protected.
+[geo-weather-climate-s3.9.0] The Record of Monuments and Places (RMP) is the statutory (legally established) list of known archaeological monuments in each county, set up under section 12 of the National Monuments (Amendment) Act 1994.
+[geo-weather-climate-s3.9.1] It is published as a written list with OS maps on which each site is circled; the database behind it, the Sites and Monuments Record, is viewable in the National Monuments Service's online Historic Environment Viewer.
+[geo-weather-climate-s3.9.2] Anyone intending works at or near a recorded monument must give two months' notice before the works begin, so the site can be assessed.
+[geo-weather-climate-s3.9.3] Types of site: ringforts (about 45,000 in Ireland, the most common field monument), megalithic tombs, standing stones, ecclesiastical (church) sites, castles and tower houses, crannógs (lake dwellings), fulachta fiadh (burnt-mound cooking sites), and buried sites known only from below-ground remains.
+[geo-weather-climate-s3.10.b] Old maps show where sites once stood and aerial photographs reveal what survives, so overlaying them shows what has been lost.
+[geo-weather-climate-s3.10.0] First edition OS six-inch maps of Ireland date from the 1830s–1840s and later editions record sites, for example ringforts drawn as circles. Comparing old maps, modern maps and the RMP shows which sites have disappeared.
+[geo-weather-climate-s3.10.1] Aerial photographs reveal sites that are invisible on the ground. Cropmarks: crops over buried ditches grow taller and greener from extra moisture, while over buried walls they are stunted and parched.
+[geo-weather-climate-s3.10.2] Other marks: parchmarks (dry patches) in dry summers; soil marks in ploughed fields; and shadow marks, where low sun shows earthworks (banks and mounds).
+[geo-weather-climate-s3.10.3] Comparing photographs from different dates shows sites that have been levelled; LiDAR (laser scanning from an aircraft) reveals earthworks under trees.
+[geo-weather-climate-s3.10.4] GIS analysis: overlay the RMP point layer on old and new maps and aerial photographs to record which sites survive, are damaged or are destroyed.
+[geo-weather-climate-s3.10.5] Overlay development layers (new roads, housing, quarries, forestry and land drainage), buffer each monument to predict threats, and map destruction rates by area.
+[geo-weather-climate-s3.11.b] The study identifies what destroys sites, uses named cases to show it, and supports the measures that protect monuments.
+[geo-weather-climate-s3.11.0] Agricultural improvement (land reclamation, drainage, ploughing and removal of field boundaries) causes destruction.
+[geo-weather-climate-s3.11.1] Other causes: road building, urban and housing development, quarrying, afforestation (ploughing, drains and tree roots), and natural erosion such as coastal erosion of promontory forts and middens (ancient rubbish heaps).
+[geo-weather-climate-s3.11.2] Wood Quay, Dublin: a Viking-age site, excavated and largely removed for Dublin Corporation's civic offices after protests in the late 1970s.
+[geo-weather-climate-s3.11.3] M3 motorway through the Tara–Skryne valley, Co. Meath: opened 2010, and passes through the valley near the Hill of Tara; a henge (a circular earthwork) was found at Lismullin during construction in 2007.
+[geo-weather-climate-s3.11.4] Carrickmines Castle on the M50 route, Co. Dublin: a dispute in the early 2000s.
+[geo-weather-climate-s3.11.5] July 2018 drought: a henge at Brú na Bóinne, Co. Meath, was spotted from the air (by drone).
+[geo-weather-climate-s3.11.6] Protection the study supports: the RMP and its notification system; archaeological assessment and excavation before development, which means preservation by record (recording the site before it is removed) or preservation in situ (keeping it in place).
+[geo-weather-climate-s3.11.7] Further protection: planning conditions; rerouting roads; public awareness; and farm schemes that protect monuments.
+
+CANDIDATES geo-aerial-photographs-s1: Aerial photograph interpretation
+[geo-aerial-photographs-s1.0.b] An aerial photograph is taken from the air, and its type depends on the angle of the camera. A vertical photograph is the first type: the camera points straight down.
+[geo-aerial-photographs-s1.0.0] A vertical photograph is taken with the camera pointing straight down, so it shows only roofs and the tops of features, with no horizon (the line where land meets sky).
+[geo-aerial-photographs-s1.0.1] The scale of a vertical photograph (how much real distance is shrunk onto the picture) is roughly constant across the picture, so it looks like a map and can be used for measuring and mapping.
+[geo-aerial-photographs-s1.0.2] Features are harder to recognise on a vertical photograph because their sides and heights are hidden, so you must identify them from the shape of the roof.
+[geo-aerial-photographs-s1.1.b] An oblique photograph is taken with the camera tilted at an angle to the ground, like a photograph taken from a hilltop or aircraft window. This gives depth but changes how the picture can be used.
+[geo-aerial-photographs-s1.1.0] An oblique photograph is taken with the camera at an angle to the ground, so the sides as well as the roofs of buildings are visible.
+[geo-aerial-photographs-s1.1.1] The scale of an oblique photograph is not constant: foreground features (those nearest the camera) look larger than identical features in the background, and the area covered widens towards the background.
+[geo-aerial-photographs-s1.1.2] Features are easier to recognise on an oblique photograph because you can see their sides, but distance and area cannot be measured directly from it.
+[geo-aerial-photographs-s1.1.3] A low oblique photograph does not show the horizon; a high oblique photograph shows the horizon or skyline.
+[geo-aerial-photographs-s1.2.b] To say which type you have, look for the clues below and quote them as your reason.
+[geo-aerial-photographs-s1.2.0] Oblique clues: the sides of buildings are visible, foreground features look larger than background features, and depth or a horizon is shown.
+[geo-aerial-photographs-s1.2.1] Vertical clues: only roofs are visible, the scale looks even, and the picture looks like a map.
+[geo-aerial-photographs-s1.3.b] To say where a feature is on an oblique photograph, imagine the picture divided into nine areas and name the area it lies in. This is called relative location, because it gives the position within the photograph.
+[geo-aerial-photographs-s1.3.0] Three strips run across the picture: left, centre and right, so every feature falls in one of three columns.
+[geo-aerial-photographs-s1.3.1] Three strips run into the picture: foreground at the bottom, nearest the camera; middleground in the centre; background at the top, furthest from the camera.
+[geo-aerial-photographs-s1.3.2] Accepted notation gives one term from each set, across-term first: left foreground, centre middleground, right background. Both parts must be correct to score.
+[geo-aerial-photographs-s1.3.3] Use the exam spelling foreground, middleground and background, and use centre, not middle, for the across strip.
+[geo-aerial-photographs-s1.3.4] Method: draw the grid lightly on the photo in pencil (or fold the picture into thirds in your head), find the feature, and state its zone.
+[geo-aerial-photographs-s1.3.5] The same method answers true or false statements about what lies in a zone, and matches cropped sections of the photo to zones.
+[geo-aerial-photographs-s1.4.b] The nine-area grid applies to oblique photographs. A vertical photograph looks straight down, so there is no near or far.
+[geo-aerial-photographs-s1.4.0] On a vertical photograph foreground and background have no meaning, because the camera looks straight down and nothing is nearer to it than anything else.
+[geo-aerial-photographs-s1.4.1] Use top, centre or bottom with left, centre or right instead, or compass directions such as north-east and south-west if the orientation is known.
+[geo-aerial-photographs-s1.5.b] Rivertown is an invented market town on an invented oblique photograph. Every worked example here uses it and is labelled illustrative.
+[geo-aerial-photographs-s1.5.0] Illustrative: a river flows from the left foreground to the right background, and a stone bridge crosses it in the centre middleground.
+[geo-aerial-photographs-s1.5.1] Illustrative: a church with a spire stands in the left middleground, with a graveyard beside it.
+[geo-aerial-photographs-s1.5.2] Illustrative: a main street and a square lie in the centre middleground.
+[geo-aerial-photographs-s1.5.3] Illustrative: an industrial estate lies in the right foreground, and a housing estate of semi-detached houses lies in the left background.
+[geo-aerial-photographs-s1.5.4] Illustrative: fields with hedgerows lie in the right background, and a GAA pitch lies in the centre background.
+[geo-aerial-photographs-s1.5.5] Illustrative: waste ground lies in the centre foreground.
+[geo-aerial-photographs-s1.5.6] Illustrative true or false: there is waste ground in the centre foreground. This is true, because the waste ground is in the centre foreground.
+[geo-aerial-photographs-s1.6.b] Each feature has a clue that identifies it on the photograph. Use the clue to name the feature, then give its zone.
+[geo-aerial-photographs-s1.6.0] Church: a spire or tower, a cross-shaped plan, and a graveyard beside it.
+[geo-aerial-photographs-s1.6.1] Graveyard: rows of small headstones.
+[geo-aerial-photographs-s1.6.2] School: a large building with a playground, pitches and a car park.
+[geo-aerial-photographs-s1.6.3] Shopping centre: a very large flat roof and an extensive car park, because many shoppers arrive by car.
+[geo-aerial-photographs-s1.6.4] Factory or warehouse: a large flat or sawtooth roof (a row of angled ridges like saw teeth), with yards and lorries but no gardens.
+[geo-aerial-photographs-s1.6.5] Apartments: a large multi-storey block with communal parking, meaning parking shared by all residents.
+[geo-aerial-photographs-s1.7.b] Houses are told apart by how they are joined, and open land by its markings or lack of them.
+[geo-aerial-photographs-s1.7.0] Housing estate: rows of similar houses with gardens, often arranged in cul-de-sacs (dead-end streets).
+[geo-aerial-photographs-s1.7.1] Terraced houses share side walls; semi-detached houses share one wall; detached houses stand alone. This is how you tell the three apart.
+[geo-aerial-photographs-s1.7.2] Car park: marked bays with vehicles in them, so you can tell it from waste ground.
+[geo-aerial-photographs-s1.7.3] Sports pitch: a rectangle with lines and goalposts. Running track: an oval with lanes.
+[geo-aerial-photographs-s1.7.4] Waste or derelict ground: rough, unused land with no clear use.
+[geo-aerial-photographs-s1.8.b] Transport routes and water have their own shapes and surfaces, which make them easy to pick out.
+[geo-aerial-photographs-s1.8.0] Railway: gentle curves, no cars, and crossings of roads by bridges.
+[geo-aerial-photographs-s1.8.1] River and lake: smooth, dark water with a natural outline.
+[geo-aerial-photographs-s1.8.2] Bridge: a structure carrying a road or railway across water or another route; its parapet (the low wall along its edge) is a clue.
+[geo-aerial-photographs-s1.8.3] Harbour, pier or quay: boats moored alongside a structure that projects into the water or lines it.
+[geo-aerial-photographs-s1.8.4] Roundabout: a circular junction with roads leading off it, such as the one at the end of a bridge.
+[geo-aerial-photographs-s1.9.b] A street map, satellite image or street-view images (ground-level photographs) may show the same features, labelled A to E, in a different orientation from the photograph.
+[geo-aerial-photographs-s1.9.0] Find two features common to both, because they give you fixed reference points; such as the river, a bridge, the railway or a large church, and turn the second source mentally until they match. This is needed because it may be oriented differently from the photo.
+[geo-aerial-photographs-s1.9.1] Identify each feature by a distinctive clue: a spire, a cruciform (cross-shaped) roof, pitch markings, a large flat roof beside a car park, a bridge parapet, or shopfronts.
+[geo-aerial-photographs-s1.9.2] Give each feature's zone on the photograph in accepted notation.
+[geo-aerial-photographs-s1.10.b] There are two ways to say where something is. Absolute location uses the map's grid, and relative location uses the photograph itself or neighbouring features.
+[geo-aerial-photographs-s1.10.0] Absolute location is a grid reference read from the OS (Ordnance Survey) map. Relative location is a zone in the nine-area notation, or a position relative to other features, such as beside the bridge, north of the river.
+[geo-aerial-photographs-s1.10.1] To give a grid reference for a feature seen on the photograph, find it on the photograph, locate it on the map from its position relative to roads, the river and junctions, then give a four- or six-figure grid reference as taught in Map interpretation.
+[geo-aerial-photographs-s1.10.2] On a 1:50 000 map individual buildings are often not drawn, so locate the feature from the surrounding road pattern; churches are shown by map symbols.
+[geo-aerial-photographs-s1.10.3] To name a road or river seen on the photograph, trace it on the photograph, find the same route on the map, and read its number (N, R or M) or its name from the map.
+[geo-aerial-photographs-s1.11.b] The map can tell you which way the camera was facing when the photograph was taken. This is also what lets you turn left and right on the photo into compass directions.
+[geo-aerial-photographs-s1.11.0] The direction from a foreground feature to a background feature on the map is the direction the camera was pointing, because the background is the part furthest in front of the camera.
+[geo-aerial-photographs-s1.11.1] Identify one foreground feature and one background feature on the photograph, find both on the map, and state the direction in an eight-point compass term such as north-east.
+[geo-aerial-photographs-s1.11.2] Check the camera direction with a third feature, so that one wrongly identified feature does not mislead you.
+[geo-aerial-photographs-s1.11.3] Illustrative: on the map the bridge (centre middleground) lies due south of the pitch (centre background), and the waste ground (centre foreground) lies south of the bridge.
+[geo-aerial-photographs-s1.11.4] Illustrative: foreground to background runs south to north, so the camera was pointing north.
+[geo-aerial-photographs-s1.12.b] The photograph and the map record different things, so each answers questions the other cannot.
+[geo-aerial-photographs-s1.12.0] The photograph shows what the map does not: individual buildings, land-use type, crops and field use, building height and age, car parks, traffic, temporary features and recent developments.
+[geo-aerial-photographs-s1.12.1] The map shows what the photograph does not: names, road numbers, height and contours (lines joining places of equal height), the grid, labelled antiquities (ancient monuments), boundaries, and features hidden by trees or lying beyond the frame.
+[geo-aerial-photographs-s1.12.2] The map covers the whole area at a constant scale; an oblique photograph gives a partial view with changing scale.
+[geo-aerial-photographs-s1.12.3] The photograph and map were usually made on different dates, so differences between them can reveal change.
+[geo-aerial-photographs-s1.13.b] Whether you can work out a scale depends on the type of photograph.
+[geo-aerial-photographs-s1.13.0] An oblique photograph has no single scale, so measure distances on the map instead.
+[geo-aerial-photographs-s1.13.1] The scale of a vertical photograph is found by comparing a distance on the photograph with the real ground distance, which is read from the map. The map-scale method is taught in Map interpretation.
+[geo-aerial-photographs-s1.13.2] Illustrative: two road junctions are 5 cm apart on a vertical photograph and 2 cm apart on the 1:50 000 map.
+[geo-aerial-photographs-s1.13.3] Illustrative: 2 cm on the 1:50 000 map equals 1 km, which is 100 000 cm on the ground.
+[geo-aerial-photographs-s1.13.4] Illustrative: the photograph scale is 5 cm to 100 000 cm, which is 1:20 000.
+[geo-aerial-photographs-s1.14.b] A sketch map is a drawn copy of the photograph's main features, not a tracing. Following the rules for size, shapes and labels is where the marks are won.
+[geo-aerial-photographs-s1.14.0] Draw a frame with four ruled sides, the same shape as the photograph.
+[geo-aerial-photographs-s1.14.1] The exam usually asks for half the length and half the breadth: each side is halved, so the sketch has a quarter of the photograph's area.
+[geo-aerial-photographs-s1.14.2] Measure the photograph and calculate the sketch size before drawing.
+[geo-aerial-photographs-s1.14.3] Divide the photograph and the frame into the nine-area grid lightly in pencil, so that you can place features accurately.
+[geo-aerial-photographs-s1.14.4] Show only the features asked for, in approximately the correct position, shape and proportion, because a sketch is a simplified copy and not a tracing.
+[geo-aerial-photographs-s1.15.b] Different kinds of feature are drawn in different ways, and every one must be labelled.
+[geo-aerial-photographs-s1.15.0] Draw rivers, roads and railways as lines, with the river as a broad double line; draw areas such as housing, industry, farmland, car parks and lakes as closed outlined shapes; draw single buildings as small blocks or symbols.
+[geo-aerial-photographs-s1.15.1] Label every feature on or beside it, or in a key (a list explaining the symbols), and give the sketch a title. An unlabelled feature scores nothing.
+[geo-aerial-photographs-s1.15.2] A feature specified with a position, such as a car park in the centre foreground, must be drawn in that zone.
+[geo-aerial-photographs-s1.15.3] Common requests to practise: river, coastline, lake, bridge, railway, two connecting streets (two streets drawn meeting at a junction), car park, church, ecclesiastical land use, housing estate, residential land use, industrial building or estate, warehouse, agricultural land, recreational land use, sports ground, waste ground, a historic ruin, and the CBD.
+[geo-aerial-photographs-s1.16.b] This shows the rules applied to the invented Rivertown photograph.
+[geo-aerial-photographs-s1.16.0] Illustrative: a photograph 22 cm by 16 cm gives a sketch frame of 11 cm by 8 cm, because each side is halved.
+[geo-aerial-photographs-s1.16.1] Illustrative request: the river, a bridge, a church, an industrial area in the foreground, and agricultural land in the background.
+[geo-aerial-photographs-s1.16.2] Illustrative: draw the river as a broad double line from the left foreground to the right background.
+[geo-aerial-photographs-s1.16.3] Illustrative: draw the bridge as a short line crossing the river in the centre middleground, and label it.
+[geo-aerial-photographs-s1.16.4] Illustrative: draw the church as a small cross-shaped symbol in the left middleground, and label it.
+[geo-aerial-photographs-s1.16.5] Illustrative: draw the industrial area as a closed outlined shape in the right foreground, because the request places it there, and label it.
+[geo-aerial-photographs-s1.16.6] Illustrative: draw the agricultural land as field outlines with hedgerows in the background of the right side, and label it.
+[geo-aerial-photographs-s1.17.b] Land use means what an area of land is used for. Sorting what you see into categories is the first step in describing a town.
+[geo-aerial-photographs-s1.17.0] Land-use categories: residential, commercial or retail, industrial, ecclesiastical, educational, recreational, transport, agricultural, open space, and waste or derelict ground.
+[geo-aerial-photographs-s1.17.1] Ecclesiastical land use is religious land use: churches, their grounds and graveyards. Schools are educational land use.
+[geo-aerial-photographs-s1.17.2] Agricultural land around the town shows field patterns with hedgerows, and is either pasture (grass, often with livestock) or tillage (ploughed or cropped fields).
+[geo-aerial-photographs-s1.18.b] Industry needs space and good transport, so it sits in particular places in a town.
+[geo-aerial-photographs-s1.18.0] Industrial land is usually on the edge of town: large flat-roofed buildings in an industrial estate, near main roads, a bypass (a road built round a town to take traffic away from its centre), a railway or a port, with space for parking and lorries.
+[geo-aerial-photographs-s1.18.1] Older industry, such as mills, may be found beside the river or quays.
+[geo-aerial-photographs-s1.19.b] Density means how many homes fit into an area. It changes from the centre of a town outwards, and the centre itself has a distinctive look.
+[geo-aerial-photographs-s1.19.0] Older terraced housing near the centre has high density, with small or no gardens, because the houses share walls and are packed together.
+[geo-aerial-photographs-s1.19.1] Suburban estates of semi-detached and detached houses lie further out, at lower density, with gardens and cul-de-sacs.
+[geo-aerial-photographs-s1.19.2] Apartments are high density, because many homes are stacked in one multi-storey block.
+[geo-aerial-photographs-s1.19.3] Residential density usually falls outward from the centre.
+[geo-aerial-photographs-s1.19.4] The CBD (central business district) is the commercial core of the town, found at the centre where roads converge.
+[geo-aerial-photographs-s1.19.5] CBD clues: the tallest and most densely packed buildings, no gardens, shops fronting onto main streets, car parks and heavy traffic, and often a square or main street.
+[geo-aerial-photographs-s1.20.b] A function is a purpose a town serves, such as trade, worship or transport. Each function can be seen on a photograph.
+[geo-aerial-photographs-s1.20.0] Functions visible on photographs: residential; commercial or retail; industrial or manufacturing; ecclesiastical or religious; educational; recreational or leisure; medical, such as a hospital.
+[geo-aerial-photographs-s1.20.1] Further functions: transport (bridge, railway station, converging roads, harbour); port or fishing (piers, boats); tourism (hotels, caravan parks, marinas, beaches, historic sites).
+[geo-aerial-photographs-s1.20.2] Further functions: market (a square, a market house); administrative (courthouse, council offices, Garda station, which is often hard to confirm from a photograph alone); defensive (a historic castle or town walls).
+[geo-aerial-photographs-s1.21.b] A function question wants evidence, a location and a reason. Following the same four steps each time gives a full answer.
+[geo-aerial-photographs-s1.21.0] Answer formula for describing and explaining a function: name the function, give the photograph evidence, give its location in accepted notation, and explain why the town performs it.
+[geo-aerial-photographs-s1.21.1] Explain the reason using its site (the land it stands on), situation (its position relative to surroundings), size or hinterland (the area around it that it serves).
+[geo-aerial-photographs-s1.21.2] Give several pieces of evidence for each function, so that one doubtful clue does not weaken the answer.
+[geo-aerial-photographs-s1.21.3] Illustrative ecclesiastical function: a church with a spire and graveyard in the left middleground.
+[geo-aerial-photographs-s1.21.4] Illustrative industrial function: large flat-roofed units and lorry yards in the right foreground, beside the main road.
+[geo-aerial-photographs-s1.21.5] Illustrative market or commercial function: a square and a main street of shops in the centre middleground, where roads converge at the bridge.
+[geo-aerial-photographs-s1.22.b] A town's history is visible in its buildings and layout, so the photograph can show which parts are old and which are new.
+[geo-aerial-photographs-s1.22.0] Older features show early growth: a castle, tower house or other ruin; an old church or abbey ruin with an old graveyard; town walls or gates.
+[geo-aerial-photographs-s1.22.1] A market square, fair green or market house shows the town's role as a market centre.
+[geo-aerial-photographs-s1.22.2] Old stone bridges, quays and warehouses on the river, and mills and weirs (low dams across a river) show the town's use of the river.
+[geo-aerial-photographs-s1.22.3] A railway line and station show growth in the 19th century.
+[geo-aerial-photographs-s1.22.4] Modern housing estates and industrial estates on the edge of town show recent growth.
+[geo-aerial-photographs-s1.23.b] Towns grow where a site offers an advantage, and many of those advantages can be seen on the photograph.
+[geo-aerial-photographs-s1.23.0] Reasons for the town's location seen on the photograph: a bridging point, a river or coastal site, converging routes, flat land, a harbour, surrounding farmland for a market town, or a defensive site.
+[geo-aerial-photographs-s1.24.b] The layout of the streets shows whether a town was designed or grew bit by bit, and the pattern can be named.
+[geo-aerial-photographs-s1.24.0] A planned town has wide, straight streets, a regular grid, a central square or diamond, and uniform terraces.
+[geo-aerial-photographs-s1.24.1] An unplanned town has narrow, winding, irregular streets, often of medieval origin.
+[geo-aerial-photographs-s1.24.2] Wide streets on their own do not show that a town is unplanned, because planned towns also have wide, straight streets.
+[geo-aerial-photographs-s1.24.3] Linear growth: development along a main road, for example houses strung out beside it.
+[geo-aerial-photographs-s1.24.4] Nucleated growth: development clustered around a centre or junction.
+[geo-aerial-photographs-s1.24.5] Radial pattern: streets radiating from a bridge or square.
+[geo-aerial-photographs-s1.24.6] Grid pattern: streets laid out at right angles in regular blocks.
+[geo-aerial-photographs-s1.24.7] Name the pattern on the photograph and use it as evidence for the type of town.
+[geo-aerial-photographs-s1.25.b] Congestion means roads so full that traffic slows or stops. Several causes can be spotted on a photograph.
+[geo-aerial-photographs-s1.25.0] Narrow streets in the old core of the town, which cannot carry many vehicles.
+[geo-aerial-photographs-s1.25.1] On-street parking that narrows the road.
+[geo-aerial-photographs-s1.25.2] Routes converging on one bridge or junction, so all traffic must squeeze through one point.
+[geo-aerial-photographs-s1.25.3] Through-traffic passing the town centre, meaning vehicles that are only passing through and do not stop there.
+[geo-aerial-photographs-s1.25.4] Delivery vehicles, and limited off-street parking.
+[geo-aerial-photographs-s1.25.5] Schools and shopping centres that generate peak traffic.
+[geo-aerial-photographs-s1.26.b] Traffic management means the measures used to keep traffic moving and safe. Many can be spotted on the photograph.
+[geo-aerial-photographs-s1.26.0] Measures visible on photographs: roundabouts, traffic lights, pedestrian crossings, one-way streets (all parked cars face one way, with arrows on the road), double yellow lines (no parking), bus lanes and cycle lanes.
+[geo-aerial-photographs-s1.26.1] Further measures: off-street and multi-storey car parks, pedestrianised streets (closed to vehicles), bypasses, relief roads and ring roads, bollards (short posts that block vehicles) and traffic-calming ramps.
+[geo-aerial-photographs-s1.26.2] Answer formula for a measure: name it, give its location in accepted notation, and explain how it reduces congestion or improves safety.
+[geo-aerial-photographs-s1.26.3] Answer formula for a problem: name it, locate it, and explain why it causes congestion.
+[geo-aerial-photographs-s1.26.4] A suggested solution, such as a bypass to remove through-traffic, a car park on waste ground, a one-way system or pedestrianisation, must be justified with photograph evidence.
+[geo-aerial-photographs-s1.27.b] This applies the formulas to the invented Rivertown photograph.
+[geo-aerial-photographs-s1.27.0] Illustrative problem: all routes converge on the single bridge in the centre middleground, and on-street parking on the main street narrows the road.
+[geo-aerial-photographs-s1.27.1] Illustrative measures: a roundabout at the end of the bridge, and a car park beside the square.
+[geo-aerial-photographs-s1.27.2] Illustrative solution: a relief road crossing the river further downstream, using the open fields.
+[geo-aerial-photographs-s1.28.b] Land use changes as a town grows. The photograph can be compared with the map to show what a place used to be.
+[geo-aerial-photographs-s1.28.0] Land-use change is found by comparing the map with the photograph, which are dated differently, or by comparing a location's present use with a listed change.
+[geo-aerial-photographs-s1.28.1] Listed changes include agricultural to housing, industrial to residential, green space to recreation, open space to residential, farmland to relief road, and green space to waste ground.
+[geo-aerial-photographs-s1.28.2] Method: find the location, identify its present use, then infer its earlier use from the map or from surrounding clues.
+[geo-aerial-photographs-s1.28.3] Clues to earlier use: new estates on the edge with fields beyond, cleared sites, and new roads cutting across field patterns.
+[geo-aerial-photographs-s1.28.4] Illustrative: the map shows fields where the photograph shows the left background housing estate, so the change is agricultural to residential.
+[geo-aerial-photographs-s1.28.5] Second pair, same method: a site shown as industrial on the map and as housing on the photograph is recorded as industrial to residential.
+[geo-aerial-photographs-s1.29.b] A growing town leaves signs on its edges, which the photograph can show.
+[geo-aerial-photographs-s1.29.0] New estates on the edge of the town.
+[geo-aerial-photographs-s1.29.1] Ribbon development (houses built in a line along a road) along approach roads.
+[geo-aerial-photographs-s1.29.2] Industrial estates and retail parks on the outskirts.
+[geo-aerial-photographs-s1.29.3] New roundabouts and bypasses.
+[geo-aerial-photographs-s1.29.4] Sprawl is the spreading of a town into the countryside. There is more on this wider urban issue in the Urban Geography chapter.
+[geo-aerial-photographs-s1.30.b] A site is chosen or rejected on evidence from the photograph.
+[geo-aerial-photographs-s1.30.0] Choose a site on the photograph for a proposed development, such as a shopping centre, factory, car park or playground, and give three reasons, each with photograph evidence.
+[geo-aerial-photographs-s1.30.1] For example, reasons to look for: available flat land; access to main roads; nearness to the population served; space for parking; a position away from a flood-prone river bank.
+[geo-aerial-photographs-s1.30.2] For industry, a site away from housing is suitable.
+[geo-aerial-photographs-s1.30.3] To show a given site is unsuitable, name the reason it fails these tests and give the photograph evidence for it.
+[geo-aerial-photographs-s1.31.b] The season can be worked out from what plants, animals and people are doing. Reason from the evidence rather than guessing a month.
+[geo-aerial-photographs-s1.31.0] Deciduous trees (trees that lose their leaves in autumn) in full leaf indicate summer; bare trees indicate winter.
+[geo-aerial-photographs-s1.31.1] Crops growing or ripening, golden fields and harvested stubble (the short stalks left after harvest) indicate late summer to autumn.
+[geo-aerial-photographs-s1.31.2] Ploughed fields indicate autumn or spring.
+[geo-aerial-photographs-s1.31.3] Silage or hay bales in fields indicate summer.
+[geo-aerial-photographs-s1.31.4] Cattle grazing outdoors indicate the grazing season, roughly spring to autumn, because Irish cattle are usually housed indoors over winter.
+[geo-aerial-photographs-s1.31.5] People in light clothing, and outdoor activity on beaches or pitches, indicate warm weather.
+[geo-aerial-photographs-s1.31.6] Give two or three pieces of evidence and reason from them, without guessing exact months.
+[geo-aerial-photographs-s1.31.7] Illustrative: trees in full leaf and silage bales in the right background fields indicate summer.
+[geo-aerial-photographs-s1.32.b] Shadows point away from the sun. Use the camera direction from the map to turn a shadow direction into a compass direction.
+[geo-aerial-photographs-s1.32.0] Ireland is in the northern hemisphere, so the midday sun is due south and midday shadows point north, where they are at their shortest.
+[geo-aerial-photographs-s1.32.1] The sun rises in the east and sets in the west, roughly. Morning shadows point west; evening shadows point east.
+[geo-aerial-photographs-s1.32.2] Long shadows mean a low sun, which occurs early or late in the day, or in winter, so long shadows alone do not give the hour.
+[geo-aerial-photographs-s1.32.3] Other clues: busy streets and full car parks in business hours, school car parks full or empty, rush-hour traffic, and street lights on.
+[geo-aerial-photographs-s1.32.4] Illustrative: the camera points north, so left is west and right is east. Building shadows fall to the left, which is west, so the sun is in the east: morning.
+[geo-aerial-photographs-s1.32.5] Illustrative: the shadows are long, so the sun is low and it is early morning.
+
+CANDIDATES geo-weather-climate-s2: Satellite imagery
+[geo-weather-climate-s2.0.b] Satellite imagery is remote sensing: information about the earth's surface gathered from a distance, without contact, by sensors that record reflected or emitted energy. It lets geographers study large areas that nobody could survey on foot.
+[geo-weather-climate-s2.0.0] Sensors on satellites or aircraft record energy in several wavebands (separate bands of the energy spectrum), such as visible light, infrared (heat energy) and microwaves (radar).
+[geo-weather-climate-s2.0.1] Each picture element, or pixel (one tiny square of the image), stores a number for each waveband, and a computer turns these numbers into an image. A satellite image is therefore not a photograph in the ordinary sense.
+[geo-weather-climate-s2.0.2] Resolution is the size of the ground area one pixel covers. High resolution shows individual buildings, while low resolution shows only large patterns such as cloud systems.
+[geo-weather-climate-s2.0.3] A satellite image is taken from far higher than an aerial photograph (a photo taken from an aircraft), covers a much larger area, is repeated on a schedule and can record wavebands the eye cannot see.
+[geo-weather-climate-s2.0.4] An aerial photograph shows more detail of a small area and is vertical (taken straight down) or oblique (taken at a slant). There is more on this in Aerial photograph interpretation.
+[geo-weather-climate-s2.1.b] The height and path of a satellite's orbit decide how much of the earth it sees, how often, and in how much detail. There are two main types, and they trade coverage against detail.
+[geo-weather-climate-s2.1.0] Geostationary satellites orbit about 36,000 km above the equator at the same speed as the earth turns, so they stay over one point and view the same large area, a whole hemisphere (half the globe), continuously.
+[geo-weather-climate-s2.1.1] Geostationary images have low detail and are used for weather, because the satellite can watch cloud systems continuously. Meteosat weather satellites are operated by EUMETSAT, of which Ireland is a member state.
+[geo-weather-climate-s2.1.2] Polar-orbiting satellites fly in much lower orbits of hundreds of km, passing near both poles while the earth turns beneath them, so they cover the whole surface strip by strip over days.
+[geo-weather-climate-s2.1.3] Polar-orbiting images have much greater detail and are used for land use, mapping and environmental monitoring. Landsat (USA) has imaged the earth since 1972, and the Sentinel satellites belong to the EU's Copernicus earth-observation programme.
+[geo-weather-climate-s2.2.b] Different sensors record different energy, so the same place looks different on each type of image. Knowing which type you have tells you what the colours mean.
+[geo-weather-climate-s2.2.0] Visible image: records reflected sunlight, like a photograph, so it works in daytime only. Thick cloud appears bright white.
+[geo-weather-climate-s2.2.1] Infrared image: records heat, so it works day and night. Cold, high cloud tops appear white and warm land and sea appear darker, which is why it is used to show cloud height and sea temperature.
+[geo-weather-climate-s2.2.2] False-colour image: near-infrared (infrared just beyond visible red) is shown as red, so healthy vegetation appears red and towns appear blue-grey. It is used to study crops and forests.
+[geo-weather-climate-s2.2.3] Radar image: the satellite sends microwaves and records the echo. It sees through cloud and works at night, so it is useful for mapping floods in cloudy weather.
+[geo-weather-climate-s2.3.b] Work through the same five steps for any image, then give the answer in geographical terms.
+[geo-weather-climate-s2.3.0] Step 1: read the caption, date, scale or area covered, and check whether the image is true colour (natural colours), false colour or infrared, because this decides what each colour means.
+[geo-weather-climate-s2.3.1] Step 2: find north (usually the top) and any coastline or river to orient yourself.
+[geo-weather-climate-s2.3.2] Step 3: identify features by colour or tone, texture, shape, size, pattern and association, meaning what lies next to what.
+[geo-weather-climate-s2.3.3] Step 4: describe the distribution and pattern, such as linear, clustered or regular, or lying along rivers or coasts.
+[geo-weather-climate-s2.3.4] Step 5: explain the pattern using geographical knowledge.
+[geo-weather-climate-s2.4.b] In a true-colour image each surface has a typical colour. White is the confusing one, because several very different things appear white.
+[geo-weather-climate-s2.4.0] In true colour, water is dark blue to black, and muddy or shallow water is brown or turquoise.
+[geo-weather-climate-s2.4.1] Vegetation is green, because plants reflect green light: forest is dark green, and crops and grass are lighter.
+[geo-weather-climate-s2.4.2] Bare ground and desert are yellow, brown, orange or red; urban areas are grey.
+[geo-weather-climate-s2.4.3] Snow, ice, cloud and salt flats (flat areas of dried salt) all appear white, so decide between them using shape, texture and location.
+[geo-weather-climate-s2.4.4] Cloud is fluffy, streaky or swirling, casts shadows and changes position between images, because it is moving.
+[geo-weather-climate-s2.4.5] Snow and ice follow the shape of the land, filling valleys and lying along mountain ridges and the coastline.
+[geo-weather-climate-s2.5.b] Matching questions depend on recognition clues. Each feature below has a look that identifies it, and you only need to know what the image shows, not how the feature forms.
+[geo-weather-climate-s2.5.0] Depression (mid-latitude storm, a low-pressure system): a large comma-shaped or spiral band of white cloud, with a long trailing cloud band, the front (the boundary between air masses).
+[geo-weather-climate-s2.5.1] Hurricane (tropical cyclone): a huge circular spiral of thick white cloud with a clear, dark eye (the calm centre) at the middle, over the ocean.
+[geo-weather-climate-s2.5.2] Anticyclone (a high-pressure system): a large cloud-free area in which land and sea are clearly visible.
+[geo-weather-climate-s2.5.3] Glacier: a long white or grey-blue river of ice in a valley between dark mountains, with dark stripes of moraine (rock debris carried by the ice) along it and a cracked (crevassed) texture. It may end in the sea or a lake with icebergs.
+[geo-weather-climate-s2.5.4] Ice sheet: a vast, smooth white surface with no visible land.
+[geo-weather-climate-s2.6.b] Hazards change the surface suddenly, and the change shows up in colour. Before-and-after comparison is often the clearest way to spot the damage.
+[geo-weather-climate-s2.6.0] Volcano: a circular cone with a crater at the summit and radial gullies (channels running outward) down its sides.
+[geo-weather-climate-s2.6.1] During an eruption a grey or white ash plume is blown in one direction, and dark lava flows spread downslope.
+[geo-weather-climate-s2.6.2] Wildfire: grey or brown smoke plumes drift downwind from bright red-orange fire fronts.
+[geo-weather-climate-s2.6.3] After a wildfire a dark brown or black burn scar (the burnt ground) lies among green vegetation.
+[geo-weather-climate-s2.6.4] Flood: brown, muddy water spread over land outside the river channel, covering fields and roads. Compare with an image taken before the flood.
+[geo-weather-climate-s2.6.5] Hot desert: a yellow, orange or red-brown surface with no vegetation, sand-dune patterns of ripples or ridges, and dry river beds.
+[geo-weather-climate-s2.7.b] Human land use leaves patterns that nature rarely makes: straight lines, circles and regular grids. These shapes are the main clue.
+[geo-weather-climate-s2.7.0] Irrigated farming (artificial watering of crops) in a dry region: bright green geometric fields, often perfect circles from centre-pivot irrigation (a rotating watering arm) or rectangles, sharply set against brown desert; or a green strip along a river.
+[geo-weather-climate-s2.7.1] Centre-pivot circles are well known in Saudi Arabia and on the Great Plains of the USA. The Nile valley and delta, Egypt, shows as a green strip and fan of farmland through the desert.
+[geo-weather-climate-s2.7.2] Commercial crop farming in temperate lowlands: a regular chequerboard of rectangular fields of different colours, showing crops at different stages, with straight roads on a grid.
+[geo-weather-climate-s2.7.3] Forest: a uniform dark green texture. Deforestation (clearing of forest) shows as light-brown cleared patches, often in a fishbone pattern along new roads, as in Rondônia, Brazil (Amazon).
+[geo-weather-climate-s2.7.4] Urban area: a grey or purple-grey patch with fine texture, a street grid, and roads and railways converging. Parks show as green.
+[geo-weather-climate-s2.7.5] Airport: long straight runways, often crossing, beside large paved areas and terminal buildings.
+[geo-weather-climate-s2.8.b] Coasts and large landforms are recognised by outline, shape and tone. Here you only name what the image shows.
+[geo-weather-climate-s2.8.0] Coastal features: spits, tombolos and sandbars show as narrow pale strips of sand joining or extending from the coast. A spit is a sand strip attached at one end, and a tombolo joins an island to the mainland.
+[geo-weather-climate-s2.8.1] Deltas show as fan-shaped land with branching channels and sediment plumes (clouds of suspended mud) in the sea. Islands, bays and headlands are recognised by outline.
+[geo-weather-climate-s2.8.2] Large landforms: river valleys and meanders (bends in a river), and mountain ranges shown by ridges, shadows and snow.
+[geo-weather-climate-s2.8.3] Canyons appear as deep, branching, steep-sided valleys in bare rock, and salt pans as dazzling white geometric patches in deserts.
+[geo-weather-climate-s2.8.4] Night-time lights images: bright areas show cities and population density; dark areas are sparsely populated. There is more on coastal landform formation in Coastal processes, patterns and associated landforms (The Sea at Work).
+[geo-weather-climate-s2.9.b] For a 'state one use' question, name the use and say what the image shows. These first uses cover forecasting, mapping, farming and long-term change.
+[geo-weather-climate-s2.9.0] Weather forecasting: tracking depressions, fronts and cloud, issuing storm warnings and tracking hurricanes so that coasts can be evacuated. Ex-hurricane Ophelia (October 2017) was tracked by satellite as it approached Ireland.
+[geo-weather-climate-s2.9.1] Mapping: mapping remote or inaccessible areas and updating maps with new roads and housing.
+[geo-weather-climate-s2.9.2] Agriculture: monitoring crop health and yields, irrigation and land-use change, and checking farm area claims.
+[geo-weather-climate-s2.9.3] Environmental change: tracking deforestation, desertification (land turning to desert), shrinking lakes, glacier and ice-sheet retreat, sea-ice extent and sea surface temperature.
+[geo-weather-climate-s2.9.4] The Aral Sea (Kazakhstan-Uzbekistan) has shrunk greatly since the 1960s because the rivers feeding it, the Amu Darya and Syr Darya, were diverted for irrigation. Satellite images from different decades show the shrinkage.
+[geo-weather-climate-s2.10.b] Satellite images also help in emergencies and in planning, and some satellites that people link with 'satellite' do not take images at all.
+[geo-weather-climate-s2.10.0] Natural hazards: tracking volcanic ash plumes, mapping earthquake and flood damage to direct emergency relief, and monitoring wildfires.
+[geo-weather-climate-s2.10.1] Pollution: detecting oil spills at sea, smog and algal blooms (dense growths of algae in water).
+[geo-weather-climate-s2.10.2] Urban growth: measuring urban sprawl (the spread of a city into the countryside) over time, which is a GIS (geographic information system) study. There is more on this in Geographical information systems (GIS).
+[geo-weather-climate-s2.10.3] Navigation (GPS and Galileo) and communications satellites do not take images; they provide positioning and relay signals.
+[geo-weather-climate-s2.10.4] Military and security surveillance.
+[geo-weather-climate-s2.11.b] Satellite images are a source for the rest of the course. They show whole landscapes at once, which suits both physical and human geography.
+[geo-weather-climate-s2.11.0] Physical landscape: plate boundaries (where crustal plates meet) and fold mountains (long parallel ranges), volcanoes, rift valleys, glaciated valleys and ice sheets, river basins and deltas, and coastlines.
+[geo-weather-climate-s2.11.1] Regions: images of Ireland and Europe show regional contrasts, such as the mountainous, wetter, greener west against the flatter, more cultivated east, and cloud-cover patterns. Regional detail is in the regional chapters.
+[geo-weather-climate-s2.11.2] Human landscape: settlement patterns, urban growth, transport routes, field patterns, land-use change and deforestation.
+[geo-weather-climate-s2.12.b] Satellite imagery is powerful for large areas and change over time, but it has weaknesses that affect what it can tell you.
+[geo-weather-climate-s2.12.0] Advantage: one image covers a very large area in a single view, so patterns too big to see on the ground become clear.
+[geo-weather-climate-s2.12.1] Advantage: regular repeat coverage shows change over time, such as a shrinking lake, and archives go back decades.
+[geo-weather-climate-s2.12.2] Advantage: remote and dangerous areas can be reached without a visit, and invisible wavebands such as infrared and radar are recorded.
+[geo-weather-climate-s2.12.3] Advantage: images can be produced quickly, so they are useful in emergencies.
+[geo-weather-climate-s2.12.4] Limitation: cloud blocks visible and infrared images, so the ground beneath cannot be seen.
+[geo-weather-climate-s2.12.5] Limitation: many images have limited resolution, and interpreting them needs skill and software.
+[geo-weather-climate-s2.12.6] Limitation: images carry no names or labels, and relief (the height and shape of the land) is hard to judge on a flat image unless shadows show it.
+[geo-weather-climate-s2.12.7] Limitation: high-resolution imagery can be costly, so not every user can afford it.

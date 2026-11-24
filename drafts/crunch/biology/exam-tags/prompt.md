@@ -27,3 +27,6 @@ If you write any helper script, put it ONLY in /Users/gabrielwhelan/barebones/dr
 Read the full text of the candidates before deciding. Never shorten or truncate text when printing it. Decide EVERY part explicitly, never with a default.
 
 Reply with just this, per question: part count, marking-point count, empty parts, and any part you were unsure about (label and one line why).
+
+Read EVERY line of each package, including every CANDIDATES section, before tagging it. Packages can run to thousands of lines: page through them with the Read tool's offset/limit until you reach the end. Never assume that a section you saw in another package matches this one.
+You may give one note point to two marking points when it states both facts.

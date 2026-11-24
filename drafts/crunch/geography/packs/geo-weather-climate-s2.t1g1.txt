@@ -1,0 +1,192 @@
+MODE: cost and links
+TARGET geo-weather-climate-s2: Satellite imagery
+[geo-weather-climate-s2.0.b] Satellite imagery is remote sensing: information about the earth's surface gathered from a distance, without contact, by sensors that record reflected or emitted energy. It lets geographers study large areas that nobody could survey on foot.
+[geo-weather-climate-s2.0.0] Sensors on satellites or aircraft record energy in several wavebands (separate bands of the energy spectrum), such as visible light, infrared (heat energy) and microwaves (radar).
+[geo-weather-climate-s2.0.1] Each picture element, or pixel (one tiny square of the image), stores a number for each waveband, and a computer turns these numbers into an image. A satellite image is therefore not a photograph in the ordinary sense.
+[geo-weather-climate-s2.0.2] Resolution is the size of the ground area one pixel covers. High resolution shows individual buildings, while low resolution shows only large patterns such as cloud systems.
+[geo-weather-climate-s2.0.3] A satellite image is taken from far higher than an aerial photograph (a photo taken from an aircraft), covers a much larger area, is repeated on a schedule and can record wavebands the eye cannot see.
+[geo-weather-climate-s2.0.4] An aerial photograph shows more detail of a small area and is vertical (taken straight down) or oblique (taken at a slant). There is more on this in Aerial photograph interpretation.
+[geo-weather-climate-s2.1.b] The height and path of a satellite's orbit decide how much of the earth it sees, how often, and in how much detail. There are two main types, and they trade coverage against detail.
+[geo-weather-climate-s2.1.0] Geostationary satellites orbit about 36,000 km above the equator at the same speed as the earth turns, so they stay over one point and view the same large area, a whole hemisphere (half the globe), continuously.
+[geo-weather-climate-s2.1.1] Geostationary images have low detail and are used for weather, because the satellite can watch cloud systems continuously. Meteosat weather satellites are operated by EUMETSAT, of which Ireland is a member state.
+[geo-weather-climate-s2.1.2] Polar-orbiting satellites fly in much lower orbits of hundreds of km, passing near both poles while the earth turns beneath them, so they cover the whole surface strip by strip over days.
+[geo-weather-climate-s2.1.3] Polar-orbiting images have much greater detail and are used for land use, mapping and environmental monitoring. Landsat (USA) has imaged the earth since 1972, and the Sentinel satellites belong to the EU's Copernicus earth-observation programme.
+[geo-weather-climate-s2.2.b] Different sensors record different energy, so the same place looks different on each type of image. Knowing which type you have tells you what the colours mean.
+[geo-weather-climate-s2.2.0] Visible image: records reflected sunlight, like a photograph, so it works in daytime only. Thick cloud appears bright white.
+[geo-weather-climate-s2.2.1] Infrared image: records heat, so it works day and night. Cold, high cloud tops appear white and warm land and sea appear darker, which is why it is used to show cloud height and sea temperature.
+[geo-weather-climate-s2.2.2] False-colour image: near-infrared (infrared just beyond visible red) is shown as red, so healthy vegetation appears red and towns appear blue-grey. It is used to study crops and forests.
+[geo-weather-climate-s2.2.3] Radar image: the satellite sends microwaves and records the echo. It sees through cloud and works at night, so it is useful for mapping floods in cloudy weather.
+[geo-weather-climate-s2.3.b] Work through the same five steps for any image, then give the answer in geographical terms.
+[geo-weather-climate-s2.3.0] Step 1: read the caption, date, scale or area covered, and check whether the image is true colour (natural colours), false colour or infrared, because this decides what each colour means.
+[geo-weather-climate-s2.3.1] Step 2: find north (usually the top) and any coastline or river to orient yourself.
+[geo-weather-climate-s2.3.2] Step 3: identify features by colour or tone, texture, shape, size, pattern and association, meaning what lies next to what.
+[geo-weather-climate-s2.3.3] Step 4: describe the distribution and pattern, such as linear, clustered or regular, or lying along rivers or coasts.
+[geo-weather-climate-s2.3.4] Step 5: explain the pattern using geographical knowledge.
+[geo-weather-climate-s2.4.b] In a true-colour image each surface has a typical colour. White is the confusing one, because several very different things appear white.
+[geo-weather-climate-s2.4.0] In true colour, water is dark blue to black, and muddy or shallow water is brown or turquoise.
+[geo-weather-climate-s2.4.1] Vegetation is green, because plants reflect green light: forest is dark green, and crops and grass are lighter.
+[geo-weather-climate-s2.4.2] Bare ground and desert are yellow, brown, orange or red; urban areas are grey.
+[geo-weather-climate-s2.4.3] Snow, ice, cloud and salt flats (flat areas of dried salt) all appear white, so decide between them using shape, texture and location.
+[geo-weather-climate-s2.4.4] Cloud is fluffy, streaky or swirling, casts shadows and changes position between images, because it is moving.
+[geo-weather-climate-s2.4.5] Snow and ice follow the shape of the land, filling valleys and lying along mountain ridges and the coastline.
+[geo-weather-climate-s2.5.b] Matching questions depend on recognition clues. Each feature below has a look that identifies it, and you only need to know what the image shows, not how the feature forms.
+[geo-weather-climate-s2.5.0] Depression (mid-latitude storm, a low-pressure system): a large comma-shaped or spiral band of white cloud, with a long trailing cloud band, the front (the boundary between air masses).
+[geo-weather-climate-s2.5.1] Hurricane (tropical cyclone): a huge circular spiral of thick white cloud with a clear, dark eye (the calm centre) at the middle, over the ocean.
+[geo-weather-climate-s2.5.2] Anticyclone (a high-pressure system): a large cloud-free area in which land and sea are clearly visible.
+[geo-weather-climate-s2.5.3] Glacier: a long white or grey-blue river of ice in a valley between dark mountains, with dark stripes of moraine (rock debris carried by the ice) along it and a cracked (crevassed) texture. It may end in the sea or a lake with icebergs.
+[geo-weather-climate-s2.5.4] Ice sheet: a vast, smooth white surface with no visible land.
+[geo-weather-climate-s2.6.b] Hazards change the surface suddenly, and the change shows up in colour. Before-and-after comparison is often the clearest way to spot the damage.
+[geo-weather-climate-s2.6.0] Volcano: a circular cone with a crater at the summit and radial gullies (channels running outward) down its sides.
+[geo-weather-climate-s2.6.1] During an eruption a grey or white ash plume is blown in one direction, and dark lava flows spread downslope.
+[geo-weather-climate-s2.6.2] Wildfire: grey or brown smoke plumes drift downwind from bright red-orange fire fronts.
+[geo-weather-climate-s2.6.3] After a wildfire a dark brown or black burn scar (the burnt ground) lies among green vegetation.
+[geo-weather-climate-s2.6.4] Flood: brown, muddy water spread over land outside the river channel, covering fields and roads. Compare with an image taken before the flood.
+[geo-weather-climate-s2.6.5] Hot desert: a yellow, orange or red-brown surface with no vegetation, sand-dune patterns of ripples or ridges, and dry river beds.
+[geo-weather-climate-s2.7.b] Human land use leaves patterns that nature rarely makes: straight lines, circles and regular grids. These shapes are the main clue.
+[geo-weather-climate-s2.7.0] Irrigated farming (artificial watering of crops) in a dry region: bright green geometric fields, often perfect circles from centre-pivot irrigation (a rotating watering arm) or rectangles, sharply set against brown desert; or a green strip along a river.
+[geo-weather-climate-s2.7.1] Centre-pivot circles are well known in Saudi Arabia and on the Great Plains of the USA. The Nile valley and delta, Egypt, shows as a green strip and fan of farmland through the desert.
+[geo-weather-climate-s2.7.2] Commercial crop farming in temperate lowlands: a regular chequerboard of rectangular fields of different colours, showing crops at different stages, with straight roads on a grid.
+[geo-weather-climate-s2.7.3] Forest: a uniform dark green texture. Deforestation (clearing of forest) shows as light-brown cleared patches, often in a fishbone pattern along new roads, as in Rondônia, Brazil (Amazon).
+[geo-weather-climate-s2.7.4] Urban area: a grey or purple-grey patch with fine texture, a street grid, and roads and railways converging. Parks show as green.
+[geo-weather-climate-s2.7.5] Airport: long straight runways, often crossing, beside large paved areas and terminal buildings.
+[geo-weather-climate-s2.8.b] Coasts and large landforms are recognised by outline, shape and tone. Here you only name what the image shows.
+[geo-weather-climate-s2.8.0] Coastal features: spits, tombolos and sandbars show as narrow pale strips of sand joining or extending from the coast. A spit is a sand strip attached at one end, and a tombolo joins an island to the mainland.
+[geo-weather-climate-s2.8.1] Deltas show as fan-shaped land with branching channels and sediment plumes (clouds of suspended mud) in the sea. Islands, bays and headlands are recognised by outline.
+[geo-weather-climate-s2.8.2] Large landforms: river valleys and meanders (bends in a river), and mountain ranges shown by ridges, shadows and snow.
+[geo-weather-climate-s2.8.3] Canyons appear as deep, branching, steep-sided valleys in bare rock, and salt pans as dazzling white geometric patches in deserts.
+[geo-weather-climate-s2.8.4] Night-time lights images: bright areas show cities and population density; dark areas are sparsely populated. There is more on coastal landform formation in Coastal processes, patterns and associated landforms (The Sea at Work).
+[geo-weather-climate-s2.9.b] For a 'state one use' question, name the use and say what the image shows. These first uses cover forecasting, mapping, farming and long-term change.
+[geo-weather-climate-s2.9.0] Weather forecasting: tracking depressions, fronts and cloud, issuing storm warnings and tracking hurricanes so that coasts can be evacuated. Ex-hurricane Ophelia (October 2017) was tracked by satellite as it approached Ireland.
+[geo-weather-climate-s2.9.1] Mapping: mapping remote or inaccessible areas and updating maps with new roads and housing.
+[geo-weather-climate-s2.9.2] Agriculture: monitoring crop health and yields, irrigation and land-use change, and checking farm area claims.
+[geo-weather-climate-s2.9.3] Environmental change: tracking deforestation, desertification (land turning to desert), shrinking lakes, glacier and ice-sheet retreat, sea-ice extent and sea surface temperature.
+[geo-weather-climate-s2.9.4] The Aral Sea (Kazakhstan-Uzbekistan) has shrunk greatly since the 1960s because the rivers feeding it, the Amu Darya and Syr Darya, were diverted for irrigation. Satellite images from different decades show the shrinkage.
+[geo-weather-climate-s2.10.b] Satellite images also help in emergencies and in planning, and some satellites that people link with 'satellite' do not take images at all.
+[geo-weather-climate-s2.10.0] Natural hazards: tracking volcanic ash plumes, mapping earthquake and flood damage to direct emergency relief, and monitoring wildfires.
+[geo-weather-climate-s2.10.1] Pollution: detecting oil spills at sea, smog and algal blooms (dense growths of algae in water).
+[geo-weather-climate-s2.10.2] Urban growth: measuring urban sprawl (the spread of a city into the countryside) over time, which is a GIS (geographic information system) study. There is more on this in Geographical information systems (GIS).
+[geo-weather-climate-s2.10.3] Navigation (GPS and Galileo) and communications satellites do not take images; they provide positioning and relay signals.
+[geo-weather-climate-s2.10.4] Military and security surveillance.
+[geo-weather-climate-s2.11.b] Satellite images are a source for the rest of the course. They show whole landscapes at once, which suits both physical and human geography.
+[geo-weather-climate-s2.11.0] Physical landscape: plate boundaries (where crustal plates meet) and fold mountains (long parallel ranges), volcanoes, rift valleys, glaciated valleys and ice sheets, river basins and deltas, and coastlines.
+[geo-weather-climate-s2.11.1] Regions: images of Ireland and Europe show regional contrasts, such as the mountainous, wetter, greener west against the flatter, more cultivated east, and cloud-cover patterns. Regional detail is in the regional chapters.
+[geo-weather-climate-s2.11.2] Human landscape: settlement patterns, urban growth, transport routes, field patterns, land-use change and deforestation.
+[geo-weather-climate-s2.12.b] Satellite imagery is powerful for large areas and change over time, but it has weaknesses that affect what it can tell you.
+[geo-weather-climate-s2.12.0] Advantage: one image covers a very large area in a single view, so patterns too big to see on the ground become clear.
+[geo-weather-climate-s2.12.1] Advantage: regular repeat coverage shows change over time, such as a shrinking lake, and archives go back decades.
+[geo-weather-climate-s2.12.2] Advantage: remote and dangerous areas can be reached without a visit, and invisible wavebands such as infrared and radar are recorded.
+[geo-weather-climate-s2.12.3] Advantage: images can be produced quickly, so they are useful in emergencies.
+[geo-weather-climate-s2.12.4] Limitation: cloud blocks visible and infrared images, so the ground beneath cannot be seen.
+[geo-weather-climate-s2.12.5] Limitation: many images have limited resolution, and interpreting them needs skill and software.
+[geo-weather-climate-s2.12.6] Limitation: images carry no names or labels, and relief (the height and shape of the land) is hard to judge on a flat image unless shadows show it.
+[geo-weather-climate-s2.12.7] Limitation: high-resolution imagery can be costly, so not every user can afford it.
+
+CANDIDATES geo-weather-climate-s1: Weather maps and weather data
+[geo-weather-climate-s1.0.b] Weather and climate describe the atmosphere (the layer of air around the Earth) over different lengths of time, and every weather map and table uses fixed units. Knowing the units lets you read a value correctly and give it with its unit.
+[geo-weather-climate-s1.0.0] Weather is the state of the atmosphere at a place at a given time, measured over hours and days. For example, a wet, windy afternoon is weather.
+[geo-weather-climate-s1.0.1] Climate is the average weather of a place over a long period, usually calculated over 30 years. A single wet day does not change a place's climate.
+[geo-weather-climate-s1.0.2] Pressure (the weight of the air pressing down on a surface) is measured in hectopascals (hPa); 1 hPa equals 1 millibar (mb), so the two units give the same value and are never converted.
+[geo-weather-climate-s1.0.3] Average sea-level pressure is about 1013 hPa, which gives a reference point for judging whether a pressure reading is high or low.
+[geo-weather-climate-s1.0.4] Units on weather charts and tables: temperature in °C, rainfall in mm, wind speed in km/h or knots (nautical miles per hour), sunshine in hours, cloud cover in oktas (eighths of the sky covered).
+[geo-weather-climate-s1.1.b] A synoptic chart shows the weather over a large area at one moment, giving a general view of the whole (this is what 'synoptic' means).
+[geo-weather-climate-s1.1.0] Observations are taken at the same time from many weather stations, ships, buoys (floating instrument platforms at sea) and satellites, and plotted onto one map, so the chart is a snapshot of one moment.
+[geo-weather-climate-s1.1.1] A surface analysis chart shows the observed situation at a given time; a forecast chart shows the expected situation at a later time.
+[geo-weather-climate-s1.1.2] Charts are issued at fixed times, stated in UTC (Coordinated Universal Time, the standard world time used so that observations from everywhere match).
+[geo-weather-climate-s1.1.3] Met Éireann, Ireland's national meteorological (weather) service, produces Irish weather maps from its network of stations, combined with satellite and radar data. Forecasters combine charts with satellite and radar data to build up a full picture.
+[geo-weather-climate-s1.1.4] Met Éireann stations include Valentia Observatory (Co. Kerry), Malin Head (Co. Donegal), Belmullet (Co. Mayo), Dublin Airport and Shannon Airport.
+[geo-weather-climate-s1.2.b] An isoline joins places of equal value. Read the name of the line before its interval, because each name refers to one quantity and the names are easily swapped.
+[geo-weather-climate-s1.2.0] Isobars join places of equal atmospheric pressure; they are usually drawn at fixed intervals, commonly every 4 hPa, so read the labels to confirm the interval.
+[geo-weather-climate-s1.2.1] Isotherms join places of equal temperature, so they show where it is warmer or colder.
+[geo-weather-climate-s1.2.2] Isohyets join places of equal rainfall.
+[geo-weather-climate-s1.2.3] Isohels join places of equal sunshine.
+[geo-weather-climate-s1.2.4] Isonephs join places of equal cloud cover, so a line labelled with a cloud amount is an isoneph.
+[geo-weather-climate-s1.2.5] Shaded or banded maps, such as rainfall, sunshine, UV or temperature maps, use a colour key: read the class from the key and give the range it states when the map shows a band rather than a single value.
+[geo-weather-climate-s1.2.6] To read a value between isolines, find the two lines either side of the point, note their values and the interval between them, then estimate in proportion to distance. A point halfway between two lines is about halfway between their values.
+[geo-weather-climate-s1.2.7] A value at a closed centre (where an isoline forms a complete loop) is the figure written on it, such as 'L 976', or lies beyond the innermost isobar.
+[geo-weather-climate-s1.3.b] High and low pressure are relative to the surrounding air, so no fixed value marks the boundary between them. Each system has its own marking on the chart and its own typical weather.
+[geo-weather-climate-s1.3.0] A depression (also called a low or cyclone) is marked L or Low with a pressure figure; it has closed isobars with pressure falling towards the centre, and usually has fronts attached. Its isobars are usually tightly packed.
+[geo-weather-climate-s1.3.1] Air rises in a depression, cools and condenses (turns from vapour into water droplets), so rain, cloud and strong winds are associated with depressions.
+[geo-weather-climate-s1.3.2] An anticyclone (also called a high) is marked H or High; it has closed isobars with pressure rising towards the centre, widely spaced isobars, and no fronts.
+[geo-weather-climate-s1.3.3] Air sinks in an anticyclone and warms, so clouds rarely form: summer brings warm, sunny days, and winter brings cold, clear nights with frost and fog.
+[geo-weather-climate-s1.3.4] A trough is an elongated area of low pressure, often unsettled because air rises along it, sometimes drawn as a line.
+[geo-weather-climate-s1.3.5] A ridge is an elongated extension of high pressure, bringing a short settled spell.
+[geo-weather-climate-s1.3.6] A col is a slack area between two highs and two lows, with light winds, uncertain weather, and possible fog or thunderstorms.
+[geo-weather-climate-s1.3.7] An air mass is a large body of air with fairly uniform temperature and humidity (moisture content), named from its source region (polar or tropical; maritime or continental). Ireland's usual air mass is maritime, from the Atlantic. There is more on this in Atmospheric and oceanic circulation.
+[geo-weather-climate-s1.4.b] The values in this example are invented for illustration and are not taken from any real chart. It shows how to answer the usual questions on pressure and wind from isobars.
+[geo-weather-climate-s1.4.0] A depression marked 'L 976' is centred in the Atlantic about 500 km west of Ireland, with closed isobars at 980, 984, 988, 992, 996 and 1000 hPa packed closely over the west coast.
+[geo-weather-climate-s1.4.1] An anticyclone marked 'H 1036' lies over central Europe, with widely spaced isobars at 1032, 1028 and 1024 hPa.
+[geo-weather-climate-s1.4.2] Pressure at the depression's centre is 976 hPa, the figure written on the L, and the isobar interval is 4 hPa, the gap between neighbouring isobars such as 980 and 984.
+[geo-weather-climate-s1.4.3] A point midway between the 988 and 992 hPa isobars is about 990 hPa, because it lies halfway between the two values.
+[geo-weather-climate-s1.4.4] Winds are stronger over the west of Ireland than over central Europe, because the isobars are closer together over the west.
+[geo-weather-climate-s1.4.5] Ireland lies under the depression, so it is likely to be wet and windy; central Europe lies under the high, so it is likely to be calm and dry.
+[geo-weather-climate-s1.5.b] Wind is named from the direction it blows from, and its strength follows the spacing of the isobars. Once you know these rules you can judge the wind anywhere on a chart.
+[geo-weather-climate-s1.5.0] Wind direction is named by the direction the wind blows from: a westerly blows from the west.
+[geo-weather-climate-s1.5.1] Air moves from high to low pressure; closely spaced isobars mean a steep pressure gradient (a big pressure change over a short distance) and strong winds, while widely spaced isobars mean light winds or calm.
+[geo-weather-climate-s1.5.2] In the northern hemisphere the wind blows anticlockwise around a depression and clockwise around an anticyclone. There is more on the cause of this pattern in Atmospheric and oceanic circulation.
+[geo-weather-climate-s1.5.3] Near the surface the wind blows nearly parallel to the isobars, angled slightly in towards a low and out from a high.
+[geo-weather-climate-s1.5.4] Buys Ballot's law: stand with your back to the wind, and low pressure is on your left in the northern hemisphere.
+[geo-weather-climate-s1.5.5] The prevailing wind is the wind that blows most frequently over an area; in Ireland it is south-westerly, from the Atlantic.
+[geo-weather-climate-s1.5.6] The Beaufort scale rates wind force from 0 (calm) to 12 (hurricane force), based on observed effects, such as how trees and the sea look.
+[geo-weather-climate-s1.6.b] A front is the boundary between two air masses of different temperature and humidity. Frontal symbols point in the direction the front is moving.
+[geo-weather-climate-s1.6.0] Warm front: a line with semicircles on the side it moves towards (red on colour charts). Warm air rises gently over cold air, bringing a long period of steady rain and thickening cloud, then rising temperature after it passes.
+[geo-weather-climate-s1.6.1] Cold front: a line with triangles on the side it moves towards (blue on colour charts). Cold air undercuts warm air (pushes underneath it), bringing short heavy showers, possible thunder and falling temperature; clearer, brighter showery weather follows.
+[geo-weather-climate-s1.6.2] Occluded front: triangles and semicircles alternating on the same side (purple on colour charts). It forms where a cold front catches up with a warm front, lifting the warm air off the ground, and it brings cloud and rain.
+[geo-weather-climate-s1.6.3] An occluded front is usually found near the centre of a mature depression (one that is fully developed).
+[geo-weather-climate-s1.6.4] Stationary (quasi-stationary) front: triangles and semicircles alternating on opposite sides.
+[geo-weather-climate-s1.6.5] Worked example W3 (drawing practice): in a box, draw each of the four symbols above, placing the symbol on the side the front moves towards.
+[geo-weather-climate-s1.6.6] Draw a curved line with three triangles for cold and three semicircles for warm. Alternate them on one side for occluded and on opposite sides for stationary.
+[geo-weather-climate-s1.6.7] Diagram cue: a plan of a depression shows the warm front ahead, the warm sector (the area of warm air between the fronts), the cold front behind and the occlusion near the centre.
+[geo-weather-climate-s1.6.8] The isobars are kinked where they cross the fronts. There is more on the weather as a depression passes in Atmospheric and oceanic circulation.
+[geo-weather-climate-s1.7.b] A station model is the cluster of symbols plotted at each weather station on a synoptic chart. Each part gives one reading, so you can pull the cloud, wind, temperature and weather out of one small drawing.
+[geo-weather-climate-s1.7.0] The circle at the station shows cloud cover in oktas: one okta is one eighth of the sky covered by cloud, so an empty circle is clear sky (0 oktas) and a fully shaded circle is overcast (8 oktas).
+[geo-weather-climate-s1.7.1] The wind arrow's shaft points from the station towards the direction the wind is coming from, not where it is going.
+[geo-weather-climate-s1.7.2] Barbs (the short lines on the shaft) give wind speed: a half barb is 5 knots, a full barb 10 knots and a pennant (filled triangle) 50 knots; add them together.
+[geo-weather-climate-s1.7.3] A circle around the station with no shaft means calm, because there is no wind to point from.
+[geo-weather-climate-s1.7.4] Other values around the circle are temperature (°C), dew point (the temperature at which the air is saturated and water vapour condenses), pressure and a present-weather symbol such as rain, drizzle, showers, snow, fog or thunderstorm; read them from the chart's key.
+[geo-weather-climate-s1.7.5] Worked example W2 (illustrative): a circle three-quarters shaded is 6 oktas (three-quarters of 8); a shaft pointing towards the south-west with two full barbs and one half barb is a south-westerly wind of 25 knots (20 + 5); the temperature is 12 °C and the present weather is rain.
+[geo-weather-climate-s1.8.b] Television, websites and apps use simplified symbols for the same features that appear on a synoptic chart. A series of maps at set times can then show how the weather moves.
+[geo-weather-climate-s1.8.0] Media weather symbols include the sun, cloud, sun-and-cloud, rain drops, showers, snow, thunder (a lightning bolt) and fog.
+[geo-weather-climate-s1.8.1] Wind arrows on media maps show speed in km/h, for example 20 km/h, and temperatures appear in coloured boxes.
+[geo-weather-climate-s1.8.2] On rainfall radar (which detects rain in the air), heavier rain is shown in darker or warmer colours.
+[geo-weather-climate-s1.8.3] A rainfall forecast sequence is a series of maps at set times; compare the position of the rain band on successive maps to give its direction of movement, and read each map rather than assuming a direction.
+[geo-weather-climate-s1.8.4] Worked example W5 (illustrative): at 06:00 a rain band covers Munster and Connacht; at 12:00 it covers the midlands; at 18:00 it is over Leinster and the east coast. The rain moves from west to east, and Leinster's rain arrives last.
+[geo-weather-climate-s1.9.b] Forecasts and warnings turn the charts into advice for the public. Knowing what a forecast contains and what the warning colours mean lets you read and use them.
+[geo-weather-climate-s1.9.0] Met Éireann forecasts reach viewers through TV, radio, the website and app, as national, regional and city forecasts.
+[geo-weather-climate-s1.9.1] Sea area and coastal forecasts give wind and sea state for shipping and fishing; farming, UV and pollen forecasts are also issued.
+[geo-weather-climate-s1.9.2] A forecast describes the synoptic situation (what pressure systems and fronts are doing), expected rain, the highs and lows of temperature, wind direction and speed, cloud and sunshine, and how conditions change across the country and through the day.
+[geo-weather-climate-s1.9.3] Warnings are colour-coded Yellow, Orange and Red by expected impact; Red is the most severe, and people should act to protect themselves and property.
+[geo-weather-climate-s1.9.4] Warning types include wind, rain, snow-ice, low temperature, high temperature, fog and thunderstorm.
+[geo-weather-climate-s1.10.b] Naming storms makes warnings easier to communicate, and the UV index gives a simple scale for the strength of the sun. Both appear in media reports.
+[geo-weather-climate-s1.10.0] Storms have been named jointly by Met Éireann and the UK Met Office since 2015, and by the Dutch service KNMI since 2019; names make warnings easier to communicate.
+[geo-weather-climate-s1.10.1] Ex-hurricane Ophelia reached Ireland on 16 October 2017. It had been a major hurricane south of the Azores, unusually far east for an Atlantic hurricane, and arrived as a post-tropical storm; Met Éireann issued Red warnings and three people died in Ireland.
+[geo-weather-climate-s1.10.2] Storm Éowyn, a named storm, crossed Ireland on 24 January 2025, when Met Éireann issued Red wind warnings.
+[geo-weather-climate-s1.10.3] The UV index measures the strength of the sun's ultraviolet radiation (the part of sunlight that burns skin); World Health Organization categories are Low 1-2, Moderate 3-5, High 6-7, Very high 8-10 and Extreme 11 and above.
+[geo-weather-climate-s1.10.4] UV maps are read with isolines or a colour key, like any other map, so give the class or range the key states.
+[geo-weather-climate-s1.11.b] Station tables and graphs record daily, hourly or monthly figures, and each figure comes from a particular instrument. Here you need to name each instrument and say what it measures.
+[geo-weather-climate-s1.11.0] Rain gauge: measures rainfall in mm, so it is the instrument to name for rainfall.
+[geo-weather-climate-s1.11.1] Thermometer: measures air temperature in °C (the instrument to name for temperature), and is kept in a Stevenson screen (a white, louvred box about 1.25 m above the ground) so that it measures shaded air temperature.
+[geo-weather-climate-s1.11.2] Maximum-minimum thermometer: records the highest and lowest temperature in a period.
+[geo-weather-climate-s1.11.3] Barometer: measures pressure in hPa; barograph: gives a continuous record of pressure.
+[geo-weather-climate-s1.11.4] Anemometer: measures wind speed; wind vane: shows wind direction.
+[geo-weather-climate-s1.11.5] Hygrometer or wet-and-dry bulb thermometer: measures humidity (the amount of water vapour in the air); sunshine recorder: measures hours of sunshine.
+[geo-weather-climate-s1.12.b] Once you can name the instrument and read the value, you calculate with the figures in the units given. Exams set a table or graph of a station's daily, hourly or monthly figures.
+[geo-weather-climate-s1.12.0] Total: add the values, for example rainfall over three days or three months.
+[geo-weather-climate-s1.12.1] Mean (the average): total divided by the number of values; mean daily temperature = (maximum + minimum) ÷ 2.
+[geo-weather-climate-s1.12.2] Range: highest minus lowest, for a day or for a year, such as 14 minus 6 for one day.
+[geo-weather-climate-s1.12.3] Other tasks: find the difference between two places; count the months or days above a threshold; find the highest or lowest month. Always give units.
+[geo-weather-climate-s1.12.4] Hourly graphs: read times carefully on the horizontal axis (00:00 is midnight), read the value at a given hour, and count the hours with rain.
+[geo-weather-climate-s1.12.5] Climate graphs (a temperature line with rainfall bars by month) at an Irish station typically show mild winters, cool summers and rain all year, with the wettest months usually in autumn and winter.
+[geo-weather-climate-s1.12.6] This links to the cool temperate oceanic climate in The Concept of a Region. There is more on the graph method in Figure interpretation.
+[geo-weather-climate-s1.13.b] The figures in this example are invented for illustration. Each result is worked out from the values stated.
+[geo-weather-climate-s1.13.0] Monday: maximum 14 °C, minimum 6 °C, rainfall 4 mm, mean wind 20 km/h.
+[geo-weather-climate-s1.13.1] Tuesday: maximum 12 °C, minimum 5 °C, rainfall 11 mm, mean wind 32 km/h.
+[geo-weather-climate-s1.13.2] Wednesday: maximum 15 °C, minimum 8 °C, rainfall 0 mm, mean wind 14 km/h.
+[geo-weather-climate-s1.13.3] Total rainfall over the three days is 15 mm (4 + 11 + 0); Monday's temperature range is 8 °C (14 - 6); Monday's mean temperature is 10 °C ((14 + 6) ÷ 2).
+[geo-weather-climate-s1.13.4] Mean wind speed over the three days is 22 km/h ((20 + 32 + 14) ÷ 3); the wettest day is Tuesday and the driest is Wednesday.
+[geo-weather-climate-s1.13.5] Illustrative monthly rainfall: January 120, February 95, March 80, April 60, May 55 and June 70 mm. The total for April to June is 185 mm; one month (January) is over 100 mm; May is the lowest month.
+[geo-weather-climate-s1.14.b] A two-mark 'state one reason' answer links the pattern to the moist Atlantic air and to the relief (the height and shape) of the land.
+[geo-weather-climate-s1.14.0] The west is wetter than the east: moist air from the Atlantic is forced to rise over the western mountains, where it cools and condenses, producing relief (orographic) rain. There is more on this in Exchanges of water between oceans and atmosphere.
+[geo-weather-climate-s1.14.1] The east and south-east are sunnier and drier because they lie in the rain shadow of the western and central uplands: descending air warms and its cloud evaporates. The south-east is the sunniest part of Ireland.
+[geo-weather-climate-s1.14.2] Coastal areas are milder in winter than the interior, because the sea warms the coast, including through the North Atlantic Drift (a warm ocean current); inland areas have a larger temperature range.
+[geo-weather-climate-s1.14.3] Long-term averages from Met Éireann: most of the east gets about 750-1,000 mm of rain a year, the west about 1,000-1,250 mm, and many mountain areas over 2,000 mm.
+[geo-weather-climate-s1.14.4] The highest rainfall totals are on mountains near the west coast, because that is where the Atlantic air is forced to rise, and the lowest are around Dublin and the east.
