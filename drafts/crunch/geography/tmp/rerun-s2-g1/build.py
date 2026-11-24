@@ -65,3 +65,25 @@ n('32.b'); n('32.0'); n('32.1'); n('32.2',('3.7',H,'road access')); n('32.3')
 n('33.b',('29.3',E,'reason against structure')); n('33.0',('5.0',H,'flat site requirements')); n('33.1'); n('33.2',('4.5',H,'planning permission')); n('33.3')
 n('34.b'); n('34.0',('29.0',E,'reason with evidence structure')); n('34.1',('29.1',E,'explain why factor matters')); n('34.2',('29.3',E,'reason against structure'))
 n('35.b',('29.0',H,'map and photograph answer method')); n('35.0',('s2.35.1',H,'accepted notation for photographs'))
+S['2.3']=(); S['2.4']=(('11.1',H,'Intel graduate labour example','L'),); S['35.0']=(('35.1',H,'accepted notation for photographs'),)
+two.discard('11.7')
+pack=open('packs/geo-economic-activities-s2.t1g1.txt').read()
+tgt=[]
+for l in pack.split('CANDIDATES')[0].splitlines():
+    m=re.match(r'\[(geo-[^\]]+)\]',l)
+    if m: tgt.append(m.group(1))
+allids=set(re.findall(r'^\[(geo-[^\]]+)\]',pack,re.M))
+out={};nl=lo=0
+for t in tgt:
+    k=t[len(P):]
+    assert k in S,k
+    needs=[]
+    for a in S[k]:
+        i=full(a[0]); assert i in allids and i!=t,(k,i)
+        needs.append({'id':i,'strength':a[1],'why':a[2],'confidence':'low' if len(a)>3 else 'high'})
+    nl+=len(needs); lo+=sum(x['confidence']=='low' for x in needs)
+    out[t]={'cost':2 if k in two else 1,'needs':needs}
+assert not set(S)-{t[len(P):] for t in tgt}
+json.dump(out,open('point-links/geo-economic-activities-s2.t1g1.json','w'),indent=1)
+chk=json.load(open('point-links/geo-economic-activities-s2.t1g1.json'))
+print(len(chk),nl,sum(v['cost']==2 for v in chk.values()),lo)
