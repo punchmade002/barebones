@@ -36,7 +36,14 @@
  },
  "geo-aerial-photographs-s1.1.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.1.0",
+    "strength": "helpful",
+    "why": "sides visible on oblique",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.1.3": {
   "cost": 1,
@@ -139,7 +146,14 @@
  },
  "geo-aerial-photographs-s1.4.b": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.b",
+    "strength": "helpful",
+    "why": "nine-area grid",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.4.0": {
   "cost": 1,
@@ -275,7 +289,14 @@
  },
  "geo-aerial-photographs-s1.6.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.7.2",
+    "strength": "helpful",
+    "why": "car park clues",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.6.4": {
   "cost": 1,
@@ -322,7 +343,14 @@
  },
  "geo-aerial-photographs-s1.8.0": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.8.2",
+    "strength": "helpful",
+    "why": "bridge clues",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.8.1": {
   "cost": 1,
@@ -338,7 +366,14 @@
  },
  "geo-aerial-photographs-s1.8.4": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.8.2",
+    "strength": "helpful",
+    "why": "bridge at roundabout",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.9.b": {
   "cost": 1,
@@ -761,7 +796,20 @@
  },
  "geo-aerial-photographs-s1.17.1": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.6.1",
+    "strength": "helpful",
+    "why": "graveyard clues",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.6.2",
+    "strength": "helpful",
+    "why": "school clues",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.17.2": {
   "cost": 1,
@@ -773,7 +821,14 @@
  },
  "geo-aerial-photographs-s1.18.0": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.6.4",
+    "strength": "helpful",
+    "why": "factory roof clues",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.18.1": {
   "cost": 1,
@@ -840,8 +895,15 @@
   "needs": []
  },
  "geo-aerial-photographs-s1.20.0": {
-  "cost": 1,
-  "needs": []
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.17.0",
+    "strength": "helpful",
+    "why": "land-use categories",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.20.1": {
   "cost": 2,
@@ -912,7 +974,7 @@
   "needs": []
  },
  "geo-aerial-photographs-s1.22.0": {
-  "cost": 1,
+  "cost": 2,
   "needs": []
  },
  "geo-aerial-photographs-s1.22.1": {
@@ -925,18 +987,32 @@
  },
  "geo-aerial-photographs-s1.22.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.8.0",
+    "strength": "helpful",
+    "why": "railway clues",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.22.4": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.7.0",
+    "strength": "helpful",
+    "why": "housing estate clues",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.23.b": {
   "cost": 1,
   "needs": []
  },
  "geo-aerial-photographs-s1.23.0": {
-  "cost": 1,
+  "cost": 2,
   "needs": []
  },
  "geo-aerial-photographs-s1.24.b": {
@@ -1008,7 +1084,20 @@
  },
  "geo-aerial-photographs-s1.25.5": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.6.2",
+    "strength": "helpful",
+    "why": "school clues",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.6.3",
+    "strength": "helpful",
+    "why": "shopping centre clues",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.26.b": {
   "cost": 1,
@@ -1105,12 +1194,19 @@
   ]
  },
  "geo-aerial-photographs-s1.28.2": {
-  "cost": 1,
+  "cost": 2,
   "needs": []
  },
  "geo-aerial-photographs-s1.28.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.29.0",
+    "strength": "helpful",
+    "why": "new estates on edge",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.28.4": {
   "cost": 1,
@@ -1148,11 +1244,25 @@
  },
  "geo-aerial-photographs-s1.29.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.18.0",
+    "strength": "helpful",
+    "why": "industrial land on edge",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.29.3": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.8.4",
+    "strength": "helpful",
+    "why": "roundabout clues",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.29.4": {
   "cost": 1,
@@ -1163,7 +1273,7 @@
   "needs": []
  },
  "geo-aerial-photographs-s1.30.0": {
-  "cost": 1,
+  "cost": 2,
   "needs": []
  },
  "geo-aerial-photographs-s1.30.1": {
@@ -1172,7 +1282,14 @@
  },
  "geo-aerial-photographs-s1.30.2": {
   "cost": 1,
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.18.0",
+    "strength": "helpful",
+    "why": "industrial land on edge",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.30.3": {
   "cost": 1,
@@ -1239,12 +1356,26 @@
   "needs": []
  },
  "geo-aerial-photographs-s1.32.0": {
-  "cost": 1,
-  "needs": []
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.0",
+    "strength": "helpful",
+    "why": "compass directions",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.32.1": {
-  "cost": 1,
-  "needs": []
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.0",
+    "strength": "helpful",
+    "why": "compass directions",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.32.2": {
   "cost": 1,

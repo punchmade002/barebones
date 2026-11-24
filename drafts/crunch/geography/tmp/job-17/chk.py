@@ -22,4 +22,4 @@ assert list(res)==tids,(set(tids)^set(res))
 for k,v in res.items():
     for n in v['needs']: assert n['id'] in allids and n['id']!=k,(k,n)
 json.dump(res,open(out,'w'),indent=0)
-print(len(res),sum(len(v['needs']) for v in res.values()),sum(v['cost']==2 for v in res.values()),sum(n['confidence']=='low' for v in res.values() for n in v['needs']))
+print(len(res),sum(len(v['needs']) for v in res.values()),sum(v.get("cost")==2 for v in res.values()),sum(n['confidence']=='low' for v in res.values() for n in v['needs']))

@@ -102,7 +102,14 @@
   "needs": []
  },
  "geo-aerial-photographs-s1.6.3": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-urban-s4.10.0",
+    "strength": "helpful",
+    "why": "retail park car parks",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.6.4": {
   "needs": []
@@ -452,7 +459,14 @@
   "needs": []
  },
  "geo-aerial-photographs-s1.22.1": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.0",
+    "strength": "helpful",
+    "why": "market function",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.22.2": {
   "needs": [
@@ -468,7 +482,14 @@
   "needs": []
  },
  "geo-aerial-photographs-s1.22.4": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-urban-s4.8.1",
+    "strength": "helpful",
+    "why": "industrial estates on edge",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.23.b": {
   "needs": []
@@ -600,7 +621,14 @@
   "needs": []
  },
  "geo-aerial-photographs-s1.29.0": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-urban-s4.9.1",
+    "strength": "helpful",
+    "why": "suburban housing spread",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.29.1": {
   "needs": []
@@ -622,10 +650,24 @@
   ]
  },
  "geo-aerial-photographs-s1.29.3": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-urban-s3.9.2",
+    "strength": "helpful",
+    "why": "bypasses defined",
+    "confidence": "low"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.29.4": {
-  "needs": []
+  "needs": [
+   {
+    "id": "geo-urban-s4.9.1",
+    "strength": "helpful",
+    "why": "sprawl defined",
+    "confidence": "high"
+   }
+  ]
  },
  "geo-aerial-photographs-s1.30.b": {
   "needs": []

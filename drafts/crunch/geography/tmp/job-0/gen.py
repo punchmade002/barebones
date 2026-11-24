@@ -112,6 +112,20 @@ P3={
 '30.1':[l(U5+'27.0','h','flood risk on paved land','low')],
 '28.1':[l(U5+'5.0','h','industry closing in inner city','low')],
 }
+
+cost2|=set(A+x for x in "20.0 22.0 23.0 28.2 30.0 32.0 32.1".split())
+def ext(P,d):
+    for k,v in d.items(): P.setdefault(k,[]).extend(v)
+ext(P1,{'1.2':[l(A+'1.0','h','sides visible on oblique')],'4.b':[l(A+'3.b','h','nine-area grid')],
+'6.3':[l(A+'7.2','h','car park clues')],'8.0':[l(A+'8.2','h','bridge clues')],'8.4':[l(A+'8.2','h','bridge at roundabout','low')],
+'17.1':[l(A+'6.1','h','graveyard clues'),l(A+'6.2','h','school clues')],'18.0':[l(A+'6.4','h','factory roof clues')],
+'20.0':[l(A+'17.0','h','land-use categories')],'22.3':[l(A+'8.0','h','railway clues')],'22.4':[l(A+'7.0','h','housing estate clues')],
+'25.5':[l(A+'6.2','h','school clues'),l(A+'6.3','h','shopping centre clues')],'28.3':[l(A+'29.0','h','new estates on edge','low')],
+'29.2':[l(A+'18.0','h','industrial land on edge')],'29.3':[l(A+'8.4','h','roundabout clues')],'30.2':[l(A+'18.0','h','industrial land on edge')],
+'32.0':[l(M+'7.0','h','compass directions')],'32.1':[l(M+'7.0','h','compass directions')]})
+ext(P2,{'22.1':[l(U3+'2.0','h','market function','low')],'29.0':[l(U4+'9.1','h','suburban housing spread')],
+'29.4':[l(U4+'9.1','h','sprawl defined')],'29.3':[l(U3+'9.2','h','bypasses defined','low')],
+'22.4':[l(U4+'8.1','h','industrial estates on edge','low')],'6.3':[l(U4+'10.0','h','retail park car parks','low')]})
 def run(pack,links,name,cost):
     txt=open(G+'packs/'+pack).read()
     tgt=txt.split('CANDIDATES')[0]
