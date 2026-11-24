@@ -55,25 +55,29 @@ spec2={'8.0':[(D+'0.6',Hl,'plantations used forced labour',L)],
 '22.4':[(D+'14.2',Hl,'racial inequality legacy of slavery',L)],
 '22.0':[(D+'14.0',Hl,'enslaved Africans in Brazil',L)]}
 root='/Users/gabrielwhelan/barebones/drafts/crunch/geography/'
+
+import json,re
 def ids(pack):
-    t=[]
-    for ln in open(root+'packs/'+pack):
+    txt=open(root+'packs/'+pack).read()
+    t=[];allids=set(re.findall(r'^\[([^\]]+)\]',txt,re.M))
+    for ln in txt.split('\n'):
         if ln.startswith('CANDIDATES'):break
         m=re.match(r'\[(geo-option-culture-identity-s1\.[\d.b]+)\]',ln)
         if m:t.append(m.group(1))
-    return t,set(re.findall(r'^\[([^\]]+)\]',open(root+'packs/'+pack).read(),re.M))
-def key(i): return i[len(P):]
-def expand(k):
-    return k
-# spec keys are 'N.x' prefix groups for numbered; expand by 'N.' prefix match for bullets
-def lookup(i):
-    k=key(i)
-    if k in spec: return spec[k]
-    raise KeyError(k)
-def out(pack,dest,costs):
-    t,allids=ids(pack); res={}
-    for i in t:
-        k=key(i)
-        # bullets in spec are keyed as 'N.M' where final index; here spec keys like '1.1' mean block 1 bullet? 
-        res[i]=None
     return t,allids
+def lk(x): return [{"id":a,"strength":b,"why":c,"confidence":d} for a,b,c,d in x]
+t,a=ids('geo-option-culture-identity-s1.t1g1.txt')
+keys={i[len(P):] for i in t}
+assert keys==set(spec),(keys^set(spec))
+r={i:{"cost":spec[i[len(P):]][0],"needs":lk(spec[i[len(P):]][1])} for i in t}
+for v in r.values():
+    for n in v['needs']: assert n['id'] in a,n
+json.dump(r,open(root+'point-links/geo-option-culture-identity-s1.t1g1.json','w'),indent=1)
+print(len(r),sum(len(v['needs']) for v in r.values()),sum(v['cost']==2 for v in r.values()),sum(n['confidence']=='low' for v in r.values() for n in v['needs']))
+t2,a2=ids('geo-option-culture-identity-s1.t1g2.txt')
+assert t2==t
+r2={i:{"needs":lk(spec2.get(i[len(P):],[]))} for i in t2}
+for v in r2.values():
+    for n in v['needs']: assert n['id'] in a2,n
+json.dump(r2,open(root+'point-links/geo-option-culture-identity-s1.t1g2.json','w'),indent=1)
+print(len(r2),sum(len(v['needs']) for v in r2.values()),sum(n['confidence']=='low' for v in r2.values() for n in v['needs']))
