@@ -1,0 +1,383 @@
+[
+ {
+  "skill": "num-fractions",
+  "problems": [
+   {
+    "question": "Calculate $2\\frac{1}{2} + 1\\frac{2}{3}$.\nGive your answer as a fraction in its simplest form.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the mixed numbers as improper fractions",
+       "lines": [
+        {
+         "tex": "2\\frac{1}{2} + 1\\frac{2}{3} &= \\frac{5}{2} + \\frac{5}{3}",
+         "sym": "5/2+5/3"
+        }
+       ]
+      },
+      {
+       "title": "Use the common denominator 6",
+       "lines": [
+        {
+         "tex": "&= \\frac{15}{6} + \\frac{10}{6}",
+         "sym": "15/6+10/6"
+        }
+       ]
+      },
+      {
+       "title": "Add",
+       "lines": [
+        {
+         "tex": "&= \\frac{25}{6}",
+         "sym": "25/6"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{25}{6}"
+    },
+    "finalSym": "Rational(25,6)",
+    "answerSym": "Rational(5,2)+Rational(5,3)"
+   },
+   {
+    "question": "Aoife spends $\\frac{1}{4}$ of her savings on a book and $\\frac{2}{5}$ of her savings on a concert ticket.\nWhat fraction of her savings is left?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Add the fractions spent",
+       "lines": [
+        {
+         "tex": "\\frac{1}{4} + \\frac{2}{5} &= \\frac{5}{20} + \\frac{8}{20}",
+         "sym": "1/4+2/5"
+        },
+        {
+         "tex": "&= \\frac{13}{20}",
+         "sym": "13/20"
+        }
+       ]
+      },
+      {
+       "title": "Subtract from the whole",
+       "lines": [
+        {
+         "tex": "1 - \\frac{13}{20} &= \\frac{20}{20} - \\frac{13}{20}",
+         "sym": "1-13/20",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{7}{20}",
+         "sym": "7/20"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{7}{20}"
+    },
+    "finalSym": "Rational(7,20)",
+    "answerSym": "1-(Rational(1,4)+Rational(2,5))"
+   },
+   {
+    "question": "Calculate $\\frac{3}{4} \\div 1\\frac{1}{8}$.\nGive your answer as a fraction in its simplest form.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the mixed number as an improper fraction",
+       "lines": [
+        {
+         "tex": "1\\frac{1}{8} &= \\frac{9}{8}",
+         "sym": "Eq(1+1/8, 9/8)"
+        }
+       ]
+      },
+      {
+       "title": "Divide by multiplying by the reciprocal",
+       "lines": [
+        {
+         "tex": "\\frac{3}{4} \\div \\frac{9}{8} &= \\frac{3}{4} \\times \\frac{8}{9}",
+         "sym": "3/4*8/9",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{24}{36}",
+         "sym": "24/36"
+        }
+       ]
+      },
+      {
+       "title": "Simplify",
+       "lines": [
+        {
+         "tex": "&= \\frac{2}{3}",
+         "sym": "2/3"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{2}{3}"
+    },
+    "finalSym": "Rational(2,3)",
+    "answerSym": "Rational(3,4)/(1+Rational(1,8))"
+   }
+  ]
+ },
+ {
+  "skill": "num-decimal-fraction",
+  "problems": [
+   {
+    "question": "Write $0.625$ as a fraction in its simplest form.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write over a power of 10",
+       "lines": [
+        {
+         "tex": "0.625 &= \\frac{625}{1000}",
+         "sym": "Eq(0.625, 625/1000)"
+        }
+       ]
+      },
+      {
+       "title": "Divide top and bottom by 125",
+       "lines": [
+        {
+         "tex": "&= \\frac{5}{8}",
+         "sym": "5/8"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{5}{8}"
+    },
+    "finalSym": "Rational(5,8)",
+    "answerSym": "Rational('0.625')"
+   },
+   {
+    "question": "Write $\\frac{7}{16}$ as a decimal.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Divide the numerator by the denominator",
+       "lines": [
+        {
+         "tex": "\\frac{7}{16} &= 7 \\div 16",
+         "sym": "7/16"
+        },
+        {
+         "tex": "&= 0.4375",
+         "sym": "0.4375",
+         "approx": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "0.4375"
+    },
+    "finalSym": "Rational(4375,10000)",
+    "answerSym": "Rational(7,16)"
+   },
+   {
+    "question": "Write $0.\\dot{3}\\dot{6}$ as a fraction in its simplest form.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Let $x$ equal the decimal and multiply by 100",
+       "lines": [
+        {
+         "text": "$x = 0.363636\\ldots$"
+        },
+        {
+         "text": "$100x = 36.363636\\ldots$"
+        }
+       ]
+      },
+      {
+       "title": "Subtract to remove the repeating part",
+       "lines": [
+        {
+         "tex": "100x - x &= 36.\\dot{3}\\dot{6} - 0.\\dot{3}\\dot{6}"
+        },
+        {
+         "tex": "99x &= 36",
+         "sym": "Eq(100*x-x, 36)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$ and simplify",
+       "lines": [
+        {
+         "tex": "x &= \\frac{36}{99}",
+         "sym": "Eq(x, 36/99)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{4}{11}",
+         "sym": "Eq(x, 4/11)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{4}{11}"
+    },
+    "finalSym": "Rational(4,11)",
+    "answerSym": "solve(Eq(100*x - x, 36), x)[0]"
+   }
+  ]
+ },
+ {
+  "skill": "num-sets",
+  "problems": [
+   {
+    "question": "The numbers $-7$, $\\frac{3}{4}$, $\\sqrt{25}$, $\\sqrt{10}$ and $\\frac{-12}{3}$ are given.\nWhich of them belong to $\\mathbb{Z}$ but do not belong to $\\mathbb{N}$?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Simplify each number",
+       "lines": [
+        {
+         "tex": "\\sqrt{25} &= 5",
+         "sym": "Eq(sqrt(25), 5)"
+        },
+        {
+         "tex": "\\frac{-12}{3} &= -4",
+         "sym": "Eq(-12/3, -4)"
+        },
+        {
+         "text": "$\\frac{3}{4}$ is a fraction and $\\sqrt{10}$ is irrational, so neither is an integer."
+        }
+       ]
+      },
+      {
+       "title": "Pick out the integers that are not natural numbers",
+       "lines": [
+        {
+         "text": "$5 \\in \\mathbb{N}$, so it is excluded. The negative integers $-7$ and $-4$ are in $\\mathbb{Z}$ but not $\\mathbb{N}$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-7, -4"
+    },
+    "finalSym": "[-7, -4]",
+    "answerSym": "[-7, Rational(-12,3)]"
+   },
+   {
+    "question": "$x \\in \\mathbb{Z}$ and $-2.5 < x \\le 1.5$.\nList all the possible values of $x$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Whole numbers only",
+       "lines": [
+        {
+         "text": "$x \\in \\mathbb{Z}$ means $x$ is a whole number, positive, negative or zero."
+        }
+       ]
+      },
+      {
+       "title": "Read off the values between $-2.5$ and $1.5$",
+       "lines": [
+        {
+         "text": "The smallest integer above $-2.5$ is $-2$. The largest integer up to $1.5$ is $1$."
+        },
+        {
+         "tex": "x &\\in \\{-2, -1, 0, 1\\}",
+         "sym": "[-2, -1, 0, 1]",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-2, -1, 0, 1"
+    },
+    "finalSym": "[-2, -1, 0, 1]",
+    "answerSym": "sorted(Intersection(Interval.Lopen(Rational(-5,2), Rational(3,2)), Range(-10, 10)))"
+   }
+  ]
+ },
+ {
+  "skill": "num-prime-factors",
+  "problems": [
+   {
+    "question": "Write 84 and 126 each as a product of prime numbers.\nHence find the highest common factor of 84 and 126.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Factorise 84",
+       "lines": [
+        {
+         "tex": "84 &= 2 \\times 42",
+         "sym": "Eq(84, 2*42)"
+        },
+        {
+         "tex": "&= 2 \\times 2 \\times 21",
+         "sym": "Eq(84, 2*2*21)"
+        },
+        {
+         "tex": "&= 2^2 \\times 3 \\times 7",
+         "sym": "Eq(84, 2**2*3*7)"
+        }
+       ]
+      },
+      {
+       "title": "Factorise 126",
+       "lines": [
+        {
+         "tex": "126 &= 2 \\times 63",
+         "sym": "Eq(126, 2*63)",
+         "new": true
+        },
+        {
+         "tex": "&= 2 \\times 3 \\times 21",
+         "sym": "Eq(126, 2*3*21)"
+        },
+        {
+         "tex": "&= 2 \\times 3^2 \\times 7",
+         "sym": "Eq(126, 2*3**2*7)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply the primes common to both, using the lower power of each",
+       "lines": [
+        {
+         "text": "Common: $2^1$, $3^1$ and $7^1$."
+        },
+        {
+         "tex": "\\text{HCF} &= 2 \\times 3 \\times 7",
+         "sym": "2*3*7",
+         "new": true
+        },
+        {
+         "tex": "&= 42",
+         "sym": "42"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "42"
+    },
+    "finalSym": "42",
+    "answerSym": "gcd(84, 126)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,743 @@
+[
+ {
+  "skill": {
+   "id": "inf-confidence-width",
+   "title": "Relate confidence level, sample size and interval width",
+   "level": "HL",
+   "input": "interval requirements",
+   "output": "wider/narrower; n needed for a margin"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p2-q8#(b)(i)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Statement 1: Always true",
+      "lines": [
+       {
+        "text": "A higher confidence level needs a larger $z$-value, so the margin of error, and the interval, gets wider."
+       }
+      ]
+     },
+     {
+      "title": "Statement 2: Sometimes true",
+      "lines": [
+       {
+        "tex": "\\text{SE} &= \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}"
+       },
+       {
+        "text": "$\\hat{p}(1-\\hat{p})$ increases as $\\hat{p}$ rises towards $0.5$ and then decreases, so the standard error does not always increase."
+       }
+      ]
+     },
+     {
+      "title": "Statement 3: Always true",
+      "lines": [
+       {
+        "text": "With $n$ fixed, the standard error is the square root of $\\hat{p}(1-\\hat{p})$ divided by $n$, so it rises whenever $\\hat{p}(1-\\hat{p})$ rises."
+       }
+      ]
+     },
+     {
+      "title": "Statement 4: Never true",
+      "lines": [
+       {
+        "text": "Increasing $n$ makes $\\frac{\\hat{p}(1-\\hat{p})}{n}$ smaller, so the standard error always decreases."
+       }
+      ]
+     }
+    ],
+    "final": "1\\text{ Always},\\ 2\\text{ Sometimes},\\ 3\\text{ Always},\\ 4\\text{ Never}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(c)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "text": "The interval is centred on $\\hat{p} = 0.35$ and its upper limit is $0.435$."
+       },
+       {
+        "tex": "\\text{margin} &= 0.435 - 0.35"
+       },
+       {
+        "tex": "&= 0.085"
+       }
+      ]
+     },
+     {
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1 - \\hat{p}) &= 0.35 \\times 0.65"
+       },
+       {
+        "tex": "&= 0.2275"
+       }
+      ]
+     },
+     {
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.2275}{n}} &= 0.085"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.2275}{n}} &= \\frac{0.085}{1.96}"
+       },
+       {
+        "tex": "\\frac{0.2275}{n} &= \\left(\\frac{0.085}{1.96}\\right)^2"
+       },
+       {
+        "tex": "n &= \\frac{0.2275}{\\left(\\frac{0.085}{1.96}\\right)^2}"
+       },
+       {
+        "tex": "&= 120.96\\ldots"
+       },
+       {
+        "tex": "&\\approx 121"
+       }
+      ]
+     }
+    ],
+    "final": "n = 121"
+   },
+   {
+    "part": "practice-inf-confidence-width-1",
+    "level": "higher",
+    "year": null,
+    "question": "A 95% confidence interval for a population proportion is constructed from a random sample of size $n = 200$. The margin of error is $0.06$.\nThe sample proportion $\\hat{p}$ stays the same. Find the sample size needed to reduce the margin of error to $0.03$, at the same confidence level.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the margin of error using n",
+      "lines": [
+       {
+        "text": "Let $k = 1.96\\sqrt{\\hat{p}(1-\\hat{p})}$. It does not change, so the margin of error is $\\frac{k}{\\sqrt{n}}$."
+       }
+      ]
+     },
+     {
+      "title": "Write the two margins",
+      "lines": [
+       {
+        "tex": "\\frac{k}{\\sqrt{200}} &= 0.06"
+       },
+       {
+        "tex": "\\frac{k}{\\sqrt{n}} &= 0.03"
+       }
+      ]
+     },
+     {
+      "title": "Divide the second by the first",
+      "lines": [
+       {
+        "tex": "\\frac{\\sqrt{200}}{\\sqrt{n}} &= \\frac{1}{2}"
+       },
+       {
+        "tex": "\\frac{200}{n} &= \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "n &= 800"
+       },
+       {
+        "text": "Halving the margin of error needs 4 times the sample size."
+       }
+      ]
+     }
+    ],
+    "final": "n = 800"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-histogram",
+   "title": "Interpret a histogram in terms of distribution",
+   "level": "OL",
+   "input": "histogram",
+   "output": "shape, centre, spread in context"
+  },
+  "candidates": [
+   {
+    "part": "practice-inf-histogram-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A histogram shows the test scores (out of 100) of 40 students. The bars have class width 20 and these heights (frequencies): 0–20: 2, 20–40: 6, 40–60: 20, 60–80: 9, 80–100: 3.\nUse the mid-interval values to estimate the mean score.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the mid-interval values",
+      "lines": [
+       {
+        "text": "The mid-interval values are $10, 30, 50, 70, 90$."
+       }
+      ]
+     },
+     {
+      "title": "Estimate the mean",
+      "lines": [
+       {
+        "tex": "\\text{mean} &= \\frac{10(2) + 30(6) + 50(20) + 70(9) + 90(3)}{40}"
+       },
+       {
+        "tex": "&= \\frac{2100}{40}"
+       },
+       {
+        "tex": "&= 52.5"
+       }
+      ]
+     },
+     {
+      "title": "Describe the distribution",
+      "lines": [
+       {
+        "text": "The tallest bar is $40$–$60$ and the bars fall away evenly on each side, so the distribution is roughly symmetric. The centre is about $50$, which agrees with the mean of $52.5$."
+       }
+      ]
+     }
+    ],
+    "final": "52.5"
+   },
+   {
+    "part": "practice-inf-histogram-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A histogram shows the time, in minutes, that each of 40 customers spent in a shop. The bars have class width 10 and these heights (frequencies): 0–10: 3, 10–20: 12, 20–30: 4, 30–40: 5, 40–50: 14, 50–60: 2.\nWhat percentage of the customers are in the two tallest bars?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Check the total",
+      "lines": [
+       {
+        "tex": "3 + 12 + 4 + 5 + 14 + 2 &= 40"
+       },
+       {
+        "tex": "&= 40"
+       }
+      ]
+     },
+     {
+      "title": "Add the two tallest bars",
+      "lines": [
+       {
+        "text": "The tallest bars are $10$–$20$ and $40$–$50$."
+       },
+       {
+        "tex": "12 + 14 &= 26"
+       },
+       {
+        "tex": "\\frac{26}{40} &= 0.65"
+       },
+       {
+        "tex": "&= 65\\%"
+       }
+      ]
+     },
+     {
+      "title": "Describe the distribution",
+      "lines": [
+       {
+        "text": "There are two separate peaks, so the distribution is bimodal. This suggests two groups of customers: quick visits of about 15 minutes and longer visits of about 45 minutes."
+       }
+      ]
+     }
+    ],
+    "final": "65\\%"
+   },
+   {
+    "part": "practice-inf-histogram-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A histogram shows the yearly pay, in thousands of euro, of 40 employees. The bars have class width 10 and these heights (frequencies): 20–30: 15, 30–40: 12, 40–50: 8, 50–60: 3, 60–70: 1, 70–80: 1.\nWhat fraction of the employees earn less than €40 000?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Check the total",
+      "lines": [
+       {
+        "tex": "15 + 12 + 8 + 3 + 1 + 1 &= 40"
+       },
+       {
+        "tex": "&= 40"
+       }
+      ]
+     },
+     {
+      "title": "Count those earning less than €40 000",
+      "lines": [
+       {
+        "text": "These are the bars $20$–$30$ and $30$–$40$."
+       },
+       {
+        "tex": "15 + 12 &= 27"
+       },
+       {
+        "tex": "\\text{fraction} &= \\frac{27}{40}"
+       }
+      ]
+     },
+     {
+      "title": "Describe the distribution",
+      "lines": [
+       {
+        "text": "The bars are tall on the left and have a long tail to the right, so the distribution is skewed right. The median is in the $30$–$40$ class, because $15 < 20 < 27$. A few high earners pull the mean above the median."
+       }
+      ]
+     }
+    ],
+    "final": "\\dfrac{27}{40}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-hypothesis-concept",
+   "title": "State null and alternative hypotheses",
+   "level": "OL",
+   "input": "claim",
+   "output": "H₀, H₁, possible conclusions"
+  },
+  "candidates": [
+   {
+    "part": "practice-inf-hypothesis-concept-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A café says that 30% of its customers order a vegan meal. A researcher will test this claim using a random sample of customers.\nWrite the null hypothesis $H_0$ as $p = $ a decimal.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Define $p$",
+      "lines": [
+       {
+        "text": "$p$ is the proportion of all the café's customers who order a vegan meal."
+       }
+      ]
+     },
+     {
+      "title": "Write the hypotheses",
+      "lines": [
+       {
+        "text": "$H_0$ says the claim is true."
+       },
+       {
+        "tex": "p &= \\frac{30}{100}"
+       },
+       {
+        "tex": "&= 0.3"
+       },
+       {
+        "text": "$H_1$ says the claim is false: $p \\ne 0.3$."
+       }
+      ]
+     },
+     {
+      "title": "Possible conclusions",
+      "lines": [
+       {
+        "text": "If $0.3$ is inside the confidence interval, do not reject $H_0$: the sample supports the claim. If it is outside, reject $H_0$: there is evidence that the claim is wrong."
+       }
+      ]
+     }
+    ],
+    "final": "H_0: p = 0.3"
+   },
+   {
+    "part": "practice-inf-hypothesis-concept-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A clinic claims that the mean waiting time is 12 minutes. A sample gives a 95% confidence interval of $[13.1,\\ 14.9]$ minutes for the true mean.\nState $H_0$ and $H_1$, test the claim, and find the sample mean at the centre of the interval.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "$H_0$: $\\mu = 12$ (the claim is true)."
+       },
+       {
+        "text": "$H_1$: $\\mu \\ne 12$ (the claim is false)."
+       }
+      ]
+     },
+     {
+      "title": "Test the claim",
+      "lines": [
+       {
+        "tex": "12 &\\notin [13.1,\\ 14.9]"
+       },
+       {
+        "text": "$12$ is outside the interval, so reject $H_0$. The waiting time is probably longer than the clinic claims."
+       }
+      ]
+     },
+     {
+      "title": "Find the sample mean",
+      "lines": [
+       {
+        "tex": "\\frac{13.1 + 14.9}{2} &= \\frac{28}{2}"
+       },
+       {
+        "tex": "&= 14"
+       }
+      ]
+     }
+    ],
+    "final": "14 \\text{ minutes}"
+   },
+   {
+    "part": "practice-inf-hypothesis-concept-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A school says that 20% of its students cycle to school. In a random sample of 100 students, 33% cycle. The margin of error is $\\dfrac{1}{\\sqrt{n}}$, where $n$ is the sample size.\nState $H_0$ and $H_1$ and find the lower end of the interval for the true percentage, to decide if $H_0$ is rejected.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "$H_0$: $p = 20\\%$ (the claim is true)."
+       },
+       {
+        "text": "$H_1$: $p \\ne 20\\%$ (the claim is false)."
+       }
+      ]
+     },
+     {
+      "title": "Find the interval",
+      "lines": [
+       {
+        "tex": "\\frac{1}{\\sqrt{100}} &= \\frac{1}{10}"
+       },
+       {
+        "tex": "&= 10\\%"
+       },
+       {
+        "tex": "33 - 10 &= 23"
+       },
+       {
+        "tex": "33 + 10 &= 43"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "tex": "20 &\\notin [23,\\ 43]"
+       },
+       {
+        "text": "$20\\%$ is outside the interval, so reject $H_0$. There is evidence that more than $20\\%$ of students cycle."
+       }
+      ]
+     }
+    ],
+    "final": "23\\%"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-interpret",
+   "title": "Interpret an analysis and relate it to the original question",
+   "level": "OL",
+   "input": "results of analysis",
+   "output": "conclusion in context"
+  },
+  "candidates": [
+   {
+    "part": "practice-inf-interpret-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A survey asks 400 randomly chosen people whether they prefer brand A to brand B. 56% prefer brand A. The margin of error is $\\dfrac{1}{\\sqrt{n}}$, where $n$ is the sample size.\nFind the lower end of the interval for the true percentage who prefer A, and use it to say whether most people prefer A.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "tex": "\\frac{1}{\\sqrt{400}} &= \\frac{1}{20}"
+       },
+       {
+        "tex": "&= 0.05"
+       },
+       {
+        "tex": "&= 5\\%"
+       }
+      ]
+     },
+     {
+      "title": "Find the interval",
+      "lines": [
+       {
+        "tex": "56 - 5 &= 51"
+       },
+       {
+        "tex": "56 + 5 &= 61"
+       },
+       {
+        "text": "The true percentage is likely to be between $51\\%$ and $61\\%$."
+       }
+      ]
+     },
+     {
+      "title": "Answer the survey question",
+      "lines": [
+       {
+        "text": "The whole interval is above $50\\%$, so the survey suggests that most people prefer brand A."
+       }
+      ]
+     }
+    ],
+    "final": "51\\%"
+   },
+   {
+    "part": "practice-inf-interpret-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A games company claims that 40% of its players buy an upgrade. A random sample of players gives a 95% confidence interval of $[43.1\\%,\\ 52.9\\%]$ for the true percentage who buy an upgrade.\nFind the sample percentage, which is the centre of the interval, and say whether the interval supports the company's claim.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the sample percentage",
+      "lines": [
+       {
+        "tex": "\\frac{43.1 + 52.9}{2} &= \\frac{96}{2}"
+       },
+       {
+        "tex": "&= 48"
+       }
+      ]
+     },
+     {
+      "title": "Compare the claim with the interval",
+      "lines": [
+       {
+        "text": "$H_0$: $p = 40\\%$. $H_1$: $p \\ne 40\\%$."
+       },
+       {
+        "tex": "40 &\\notin [43.1,\\ 52.9]"
+       },
+       {
+        "text": "The claimed $40\\%$ is outside the interval, so reject $H_0$."
+       }
+      ]
+     },
+     {
+      "title": "Conclude in context",
+      "lines": [
+       {
+        "text": "The sample does not support the claim. The percentage of players who buy an upgrade is probably higher than $40\\%$."
+       }
+      ]
+     }
+    ],
+    "final": "48\\%"
+   },
+   {
+    "part": "practice-inf-interpret-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A school says the mean time its students spend on homework is 50 minutes. A random sample of 100 students has a mean of 52 minutes and a standard deviation of 10 minutes. Test $H_0: \\mu = 50$ against $H_1: \\mu \\ne 50$ at the 5% level of significance.\nFind the test statistic $z$ and use it to state your conclusion.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the test statistic",
+      "lines": [
+       {
+        "text": "Use $z = \\dfrac{\\bar{x} - \\mu}{s / \\sqrt{n}}$."
+       },
+       {
+        "tex": "z &= \\frac{52 - 50}{10/\\sqrt{100}}"
+       },
+       {
+        "tex": "&= \\frac{2}{10/10}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the critical values",
+      "lines": [
+       {
+        "text": "At the 5% level, two-tailed, the critical values are $\\pm 1.96$."
+       },
+       {
+        "tex": "2 &> 1.96"
+       }
+      ]
+     },
+     {
+      "title": "Conclude in context",
+      "lines": [
+       {
+        "text": "$z$ is outside $[-1.96,\\ 1.96]$, so reject $H_0$. There is evidence that the mean homework time is not $50$ minutes. It is probably longer."
+       }
+      ]
+     }
+    ],
+    "final": "z = 2 > 1.96\\text{, so reject } H_0"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-sampling-variability",
+   "title": "Recognise how sampling variability affects conclusions",
+   "level": "OL",
+   "input": "sample statistics",
+   "output": "statement about the population with caution"
+  },
+  "candidates": [
+   {
+    "part": "practice-inf-sampling-variability-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "In a poll of 200 voters, 108 said they would vote for candidate X. A second poll of a different 200 voters from the same area found that 96 would vote for X.\nUse both polls to estimate the percentage of voters in the area who will vote for X.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the polls",
+      "lines": [
+       {
+        "tex": "\\frac{108}{200} &= 54\\%"
+       },
+       {
+        "tex": "\\frac{96}{200} &= 48\\%"
+       },
+       {
+        "text": "The two polls differ because each is a different random sample."
+       }
+      ]
+     },
+     {
+      "title": "Combine the polls",
+      "lines": [
+       {
+        "text": "Together there are $200 + 200 = 400$ voters, and $108 + 96$ of them would vote for X."
+       },
+       {
+        "tex": "\\frac{108 + 96}{200 + 200} &= \\frac{204}{400}"
+       },
+       {
+        "tex": "&= 0.51"
+       },
+       {
+        "tex": "&= 51\\%"
+       }
+      ]
+     }
+    ],
+    "final": "51\\%"
+   },
+   {
+    "part": "practice-inf-sampling-variability-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Two random samples of 50 students are taken from the same school. The mean time to travel to school is 22 minutes in the first sample and 26 minutes in the second sample.\nUse both samples to give the best estimate of the mean travel time for the whole school.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the two samples",
+      "lines": [
+       {
+        "tex": "26 - 22 &= 4"
+       },
+       {
+        "text": "The samples give different means because different students were chosen. This is sampling variability."
+       }
+      ]
+     },
+     {
+      "title": "Be cautious",
+      "lines": [
+       {
+        "text": "Neither sample mean is exactly the school mean, so we should not rely on one sample alone."
+       }
+      ]
+     },
+     {
+      "title": "Combine the samples",
+      "lines": [
+       {
+        "text": "The samples are the same size, so average the two means."
+       },
+       {
+        "tex": "\\frac{22 + 26}{2} &= \\frac{48}{2}"
+       },
+       {
+        "tex": "&= 24"
+       }
+      ]
+     }
+    ],
+    "final": "24 \\text{ minutes}"
+   },
+   {
+    "part": "practice-inf-sampling-variability-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A random sample of 400 people is asked whether they support a new bus route. 52% say yes. The margin of error is $\\dfrac{1}{\\sqrt{n}}$, where $n$ is the sample size.\nFind the upper end of the interval in which the true percentage of supporters in the population is likely to lie.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "tex": "\\frac{1}{\\sqrt{400}} &= \\frac{1}{20}"
+       },
+       {
+        "tex": "&= 0.05"
+       },
+       {
+        "tex": "&= 5\\%"
+       }
+      ]
+     },
+     {
+      "title": "Find the interval",
+      "lines": [
+       {
+        "tex": "52 - 5 &= 47"
+       },
+       {
+        "tex": "52 + 5 &= 57"
+       },
+       {
+        "text": "The true percentage is likely to be between $47\\%$ and $57\\%$."
+       }
+      ]
+     },
+     {
+      "title": "Be cautious",
+      "lines": [
+       {
+        "text": "The interval contains $50\\%$, so the sample does not prove that most people support the route."
+       }
+      ]
+     }
+    ],
+    "final": "57\\%"
+   }
+  ]
+ }
+]

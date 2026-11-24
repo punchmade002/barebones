@@ -1,0 +1,319 @@
+[
+ {
+  "skill": "geo-thm20",
+  "of": "7c9599548885",
+  "title": "Apply Theorem 20: Tangent is perpendicular to the radius at the point of contact (and converse)",
+  "show": "circle centre O radius 5 cm, tangent PT at T perpendicular to radius OT, |OP|=13 cm",
+  "example": {
+   "question": "A circle has centre $O$ and radius $5$ cm. $[PT]$ is a tangent to the circle at $T$, and $|OP| = 13$ cm.\n(i) Find $|PT|$.\n(ii) Find the area of the triangle $OTP$.",
+   "final": "|PT| = 12\\ \\text{cm}, \\ \\text{area} = 30\\ \\text{cm}^2",
+   "steps": [
+    {
+     "say": "$[OT]$ is a radius and $[PT]$ is a tangent at $T$. By Theorem 20 they are perpendicular, so $|\\angle OTP| = 90^\\circ$.",
+     "rows": [
+      {
+       "aside": "Triangle $OTP$ is right-angled at $T$. $[OP]$ is the hypotenuse."
+      }
+     ]
+    },
+    {
+     "say": "Write Pythagoras with the numbers in, then solve for $|PT|$.",
+     "rows": [
+      {
+       "l": "|PT|^2",
+       "r": "= 13^2 - 5^2"
+      },
+      {
+       "l": "",
+       "r": "= 144"
+      },
+      {
+       "l": "|PT|",
+       "r": "= 12\\ \\text{cm}"
+      }
+     ]
+    },
+    {
+     "say": "The two shorter sides are perpendicular, so use them as base and height.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= \\tfrac{1}{2} \\times 5 \\times 12"
+      },
+      {
+       "l": "",
+       "r": "= 30\\ \\text{cm}^2"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm11",
+  "of": "60e46d89d8ac",
+  "title": "Apply Theorem 11: Three parallel lines cutting equal segments on one transversal cut equal segments on any",
+  "show": "three parallel lines AD, BE, CF cutting two transversals with AB=BC and corresponding segments marked equal",
+  "example": {
+   "question": "The parallel lines $AD$, $BE$ and $CF$ cut the transversal $[AC]$ with $|AB| = |BC|$. They cut the second transversal $[DF]$ at $D$, $E$ and $F$. $|DE| = (2x + 1)$ cm and $|EF| = (4x - 9)$ cm. Find $x$ and $|DF|$.",
+   "final": "x = 5, \\ |DF| = 22\\ \\text{cm}",
+   "steps": [
+    {
+     "say": "Three parallel lines cut equal pieces $|AB| = |BC|$ on one transversal. By Theorem 11 they cut equal pieces on every transversal.",
+     "rows": [
+      {
+       "aside": "So $|DE| = |EF|$."
+      }
+     ]
+    },
+    {
+     "say": "Put the two lengths equal to each other.",
+     "rows": [
+      {
+       "l": "2x + 1",
+       "r": "= 4x - 9"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "10",
+       "r": "= 2x"
+      },
+      {
+       "l": "x",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "Find $|DE|$, then double it, since $|EF|$ is the same.",
+     "rows": [
+      {
+       "l": "|DE|",
+       "r": "= 2(5) + 1"
+      },
+      {
+       "l": "",
+       "r": "= 11"
+      },
+      {
+       "l": "|DF|",
+       "r": "= 2 \\times 11 = 22\\ \\text{cm}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm13",
+  "of": "e25af03b42c8",
+  "title": "Apply Theorem 13: Similar triangles have proportional sides",
+  "show": "two equiangular triangles ABC and DEF with sides 6, 9 and 8 cm matching",
+  "example": {
+   "question": "In the diagram, triangles $ABC$ and $DEF$ are equiangular. $|AB| = 6$ cm, $|BC| = 9$ cm and $|DE| = 8$ cm. $AB$ and $DE$ are opposite equal angles, and so are $BC$ and $EF$. Find $|EF|$.",
+   "final": "|EF| = 12 \\text{ cm}",
+   "steps": [
+    {
+     "say": "The triangles have equal angles, so they are similar (Theorem 13). $AB$ matches $DE$, and $BC$ matches $\\hl{1}{EF}$.",
+     "rows": [
+      {
+       "l": "\\frac{|AB|}{|DE|}",
+       "r": "= \\frac{|BC|}{\\hl{1}{|EF|}}"
+      },
+      {
+       "aside": "Write the known pair first, then the pair with the unknown."
+      }
+     ]
+    },
+    {
+     "say": "Replace each length with its value. The unknown stays as $\\hl{1}{|EF|}$.",
+     "rows": [
+      {
+       "l": "\\frac{6}{8}",
+       "r": "= \\frac{9}{\\hl{1}{|EF|}}"
+      }
+     ]
+    },
+    {
+     "say": "Cross-multiply, then divide to leave $\\hl{1}{|EF|}$ on its own.",
+     "rows": [
+      {
+       "l": "6 \\times \\hl{1}{|EF|}",
+       "r": "= 9 \\times 8"
+      },
+      {
+       "l": "\\hl{1}{|EF|}",
+       "r": "= \\frac{72}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{12} \\text{ cm}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-similar-triangles",
+  "of": "7442ea47eb58",
+  "title": "Find lengths using similar triangles",
+  "show": "two similar triangles ABC and PQR with matching sides AB=8, PQ=14, AC=12 marked",
+  "example": {
+   "question": "Triangles $ABC$ and $PQR$ are similar. $|AB| = 8$ cm and $|PQ| = 14$ cm are matching sides. $|AC| = 12$ cm. Find $|PR|$, the side that matches $[AC]$.",
+   "final": "|PR| = 21 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Divide a side of the bigger triangle by the matching side of the smaller one. This gives $\\hl{1}{k}$, the number that turns $ABC$ into $PQR$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{k}",
+       "r": "= \\frac{|PQ|}{|AB|}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{14}{8} = 1.75"
+      }
+     ]
+    },
+    {
+     "say": "$PR$ matches $AC$. Multiply $|AC|$ by the scale factor $\\hl{1}{k}$.",
+     "rows": [
+      {
+       "l": "|PR|",
+       "r": "= |AC| \\times \\hl{1}{k}"
+      },
+      {
+       "l": "",
+       "r": "= 12 \\times 1.75"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{21} \\text{ cm}"
+      }
+     ]
+    },
+    {
+     "say": "$PQR$ is the bigger triangle, so $|PR|$ should be bigger than $|AC| = 12$. It is.",
+     "rows": [
+      {
+       "aside": "Always check that the bigger triangle gets the bigger answer."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-enlargement-centre",
+  "of": "ca9747d9f33f",
+  "title": "Find the centre and scale factor of an enlargement",
+  "show": "triangle ABC and its image PQR with lines through corresponding vertices meeting at the centre of enlargement",
+  "example": {
+   "question": "The triangle $PQR$ is the image of the triangle $ABC$ under an enlargement.\n(a) Construct the centre of enlargement and label it $O$.\n(b) Given $|AB| = 4$ cm and $|PQ| = 10$ cm, find the scale factor $k$.\n(c) Check your answer: $|OA| = 6$ cm. Find $|OP|$.",
+   "final": "k = 2.5, \\ |OP| = 15 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Join each point to its image. The lines meet at one point. That point is the **centre** $O$.",
+     "rows": [
+      {
+       "aside": "Join $A$ to $P$ and $B$ to $Q$."
+      },
+      {
+       "aside": "Join $C$ to $R$ as a check. All three lines meet at $O$."
+      }
+     ]
+    },
+    {
+     "say": "The scale factor is image length over object length. $|PQ|$ is the image of $|AB|$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{k}",
+       "r": "= \\frac{|PQ|}{|AB|}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{10}{4}"
+      },
+      {
+       "l": "",
+       "r": "= 2.5"
+      }
+     ]
+    },
+    {
+     "say": "Distances from $O$ scale by the same $\\hl{1}{k}$. Multiply $|OA|$ by $\\hl{1}{k}$ to get $|OP|$.",
+     "rows": [
+      {
+       "l": "|OP|",
+       "r": "= \\hl{1}{k} \\times |OA|"
+      },
+      {
+       "l": "",
+       "r": "= 2.5 \\times 6"
+      },
+      {
+       "l": "",
+       "r": "= 15"
+      },
+      {
+       "aside": "On the diagram you can measure $|OP|$ to confirm. Allow 5 mm either way."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-cor6",
+  "of": "0cc06615119d",
+  "title": "Apply Corollary 6: Circles sharing a tangent at a point: the centres and that point are collinear",
+  "show": "two circles touching externally at T with centres A and B and the line AB passing through T, radii marked",
+  "example": {
+   "question": "Two circles touch externally at $T$. Their centres are $A$ and $B$. The radius of one circle is $4$ cm and the radius of the other is $9$ cm. Find $|AB|$.",
+   "final": "13 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Draw the tangent to both circles at $T$. A radius meets a tangent at a right angle.",
+     "rows": [
+      {
+       "aside": "$[AT]$ and $[BT]$ are both perpendicular to this tangent at $T$."
+      }
+     ]
+    },
+    {
+     "say": "Both radii are perpendicular to the same line at the same point. So $A$, $T$ and $B$ lie on one straight line. This is **Corollary 6**.",
+     "rows": [
+      {
+       "aside": "For external touching, $T$ is between $A$ and $B$."
+      }
+     ]
+    },
+    {
+     "say": "Along the line, $\\hl{1}{|AB|}$ is made of the two radii.",
+     "rows": [
+      {
+       "l": "\\hl{1}{|AB|}",
+       "r": "= |AT| + |TB|"
+      },
+      {
+       "l": "",
+       "r": "= 4 + 9"
+      },
+      {
+       "l": "",
+       "r": "= 13"
+      },
+      {
+       "aside": "If the circles touched internally you would subtract: $9 - 4 = 5$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

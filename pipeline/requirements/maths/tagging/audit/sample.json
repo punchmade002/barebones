@@ -1,0 +1,959 @@
+[
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Substitute C and E into the identity\n12 - 30 + F &= 2\n-18 + F &= 2\n## Solve for F\nF &= 2 + 18\nF &= 20\n## Surface area = faces × area of one face\n\\text{Surface area} &= 20 \\times 5\n&= 100\nANSWER: 100 \\text{ cm}^2",
+  "tagged": {
+   "primary": "mens-surface-area",
+   "skills": [
+    "mens-surface-area",
+    "eq-linear"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q9#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Use the sum formula for an arithmetic series\n$S_n = \\frac{n}{2}\\left[2a + (n-1)d\\right]$ with $a = 3$ and $d = 4$.\nS_n &= \\frac{n}{2}\\left[2(3) + (n - 1)4\\right]\n## Simplify inside the bracket\nS_n &= \\frac{n}{2}\\left[6 + 4n - 4\\right]\nS_n &= \\frac{n}{2}\\left[4n + 2\\right]\n## Multiply out\nS_n &= n(2n + 1)\nS_n &= 2n^2 + n\nANSWER: S_n = 2n^2 + n",
+  "tagged": {
+   "primary": "seq-arith-sum",
+   "skills": [
+    "seq-arith-sum"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q6#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the side by the scale factor\n|QR| &= k \\times |EF|\n&= 2.5 \\times 3\n&= 7.5\nANSWER: |QR| = 7.5 \\text{ cm}",
+  "tagged": {
+   "primary": "geo-enlargement",
+   "skills": [
+    "geo-enlargement"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate each term separately\n\\frac{d}{dx}\\left(\\frac{1}{60}x^2\\right) &= \\frac{2}{60}x = \\frac{1}{30}x\n\\frac{d}{dx}\\left(-\\frac{1}{4}x\\right) &= -\\frac{1}{4}\n\\frac{d}{dx}\\left(\\frac{3}{5}\\right) &= 0\n## Add the derivatives together\nh'(x) &= \\frac{1}{30}x - \\frac{1}{4}\nANSWER: h'(x) = \\frac{1}{30}x - \\frac{1}{4}",
+  "tagged": {
+   "primary": "diff-poly",
+   "skills": [
+    "diff-poly"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Write both sides as powers of 2\n$64 = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2$.\n2^{2x-1} &= 64\n2^{2x-1} &= 2^6\n## Equate the powers\nThe bases are equal, so the indices are equal.\n2x - 1 &= 6\n## Solve for x\n2x &= 7\nx &= \\frac{7}{2}\nANSWER: x = \\frac{7}{2}",
+  "tagged": {
+   "primary": "ind-solve-equation",
+   "skills": [
+    "ind-solve-equation"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q10#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Point where Keith hits the ball\nAt $t = 0$ the height is 1 metre, so $(0, 1)$ is on the graph.\n## Greatest height\nThe greatest height is 5 m after 2 s, so the turning point $(2, 5)$ is on the graph.\n## Use symmetry\nA quadratic is symmetrical about its turning point, at $t = 2$. The point $(0, 1)$ is 2 to the left, so the point 2 to the right is $(4, 1)$.\n## Draw the graph\nPlot $(0, 1)$, $(2, 5)$ and $(4, 1)$. Draw a smooth, upside-down U-shaped curve through them, and continue it until it meets the horizontal axis a little after $t = 4$.\nANSWER: (0, 1),\\ (2, 5),\\ (4, 1)",
+  "tagged": {
+   "primary": "fn-graph-quadratic",
+   "skills": [
+    "fn-graph-quadratic"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Count the corners and faces of a cube\nA cube has 8 corners and 6 faces, so $C = 8$ and $F = 6$.\n## Check the identity\nC - E + F &= 8 - 12 + 6\n&= -4 + 6\n&= 2\nANSWER: C = 8,\\ F = 6,\\ \\text{and } 8 - 12 + 6 = 2",
+  "tagged": {
+   "primary": "mens-nets",
+   "skills": [
+    "mens-nets"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q6#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the commission on the first 1000 of sales\n\\text{Commission} &= 20\\% \\times 1000\n&= 0.2 \\times 1000\n&= \\text{€}200\n## Find the sales above 1000\n3000 - 1000 &= 2000\n## Find the commission at 30% on those sales\n\\text{Commission} &= 30\\% \\times 2000\n&= 0.3 \\times 2000\n&= \\text{€}600\n## Add the basic salary and both commissions\n\\text{Income} &= 150 + 200 + 600\n&= \\text{€}950\nANSWER: \\text{€}950",
+  "tagged": {
+   "primary": "fin-percentages",
+   "skills": [
+    "fin-percentages"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 12 into h(x)\nh(12) &= \\frac{1}{60}(12)^2 - \\frac{1}{4}(12) + \\frac{3}{5}\n## Evaluate each term\n&= \\frac{144}{60} - 3 + \\frac{3}{5}\n&= \\frac{12}{5} - 3 + \\frac{3}{5}\n&= 0\n## State the conclusion\nSince $h(12) = 0$, the swimmer is on the surface of the water 12 m from the block.\nANSWER: h(12) = 0",
+  "tagged": {
+   "primary": "alg-evaluate",
+   "skills": [
+    "alg-evaluate"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Write Pythagoras' theorem\nThe right angle is at $H$, so $GK$ is the hypotenuse.\n|GK|^2 &= |GH|^2 + |HK|^2\n## Substitute the lengths\n30^2 &= 12^2 + |HK|^2\n900 &= 144 + |HK|^2\n## Make |HK|^2 the subject\n|HK|^2 &= 900 - 144\n|HK|^2 &= 756\n## Take the square root and round\nA length is positive, so only the positive root is used.\n|HK| &= \\sqrt{756}\n|HK| &\\approx 27.5 \\text{ cm}\nANSWER: |HK| = 27.5 \\text{ cm}",
+  "tagged": {
+   "primary": "geo-thm14",
+   "skills": [
+    "geo-thm14"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q8#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Write the cosine rule for triangle RQS\nWe know $|RQ| = 5.6$, $|QS| = 8$ and the angle between them, $\\beta = 149^\\circ$.\n|RS|^2 &= |RQ|^2 + |QS|^2 - 2|RQ||QS|\\cos\\beta\n## Substitute the values\n|RS|^2 &= 5.6^2 + 8^2 - 2(5.6)(8)\\cos 149^\\circ\n&= 31.36 + 64 - 89.6\\cos 149^\\circ\n## Evaluate\n$\\cos 149^\\circ = -0.857167$, so the last term becomes positive.\n&= 31.36 + 64 + 76.8022\n&= 172.162\n## Take the square root\n|RS| &= \\sqrt{172.162}\n&= 13.12\n&\\approx 13 \\text{ m}\nANSWER: |RS| = 13 \\text{ m}",
+  "tagged": {
+   "primary": "trig-cosine-rule",
+   "skills": [
+    "trig-cosine-rule"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(f)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Plot each remaining (rainfall, sunshine) pair\nEach year gives one point: rainfall across, sunshine up. The four plotted points are 2001 to 2004.\n2005: (94, 173). 2006: (47, 239). 2007: (149, 159).\n2008: (134, 168). 2009: (94, 228). 2010: (84, 205).\nANSWER: \\text{six points plotted as shown}",
+  "tagged": {
+   "primary": "stat-scatter-correlation",
+   "skills": [
+    "stat-scatter-correlation"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q7#(a)(v)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Say what p'(t) measures\n$p'(t)$ is the rate of change of the number of bacteria with respect to time.\n$p$ is in thousands and $t$ is in hours, so $p'$ is in thousands of bacteria per hour.\n## Interpret p'(4) = 6\np'(4) &= 6 \\text{ thousand per hour}\nThe value is positive, so the number of bacteria is increasing.\nANSWER: \\text{After 4 hours the bacteria are growing at a rate of 6000 per hour}",
+  "tagged": {
+   "primary": "diff-rates-of-change",
+   "skills": [
+    "diff-rates-of-change"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q7#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find the first term and the common difference\nThe tile numbers $5, 8, 11, \\dots$ go up by the same amount each time, so the pattern is arithmetic.\na &= 5\nd &= 8 - 5 = 3\nd &= 3\n## Substitute into the formula for the nth term\nT_n &= a + (n-1)d\nT_n &= 5 + (n-1)3\n&= 5 + 3n - 3\n&= 3n + 2\n## Read off p and q\nCompare $3n+2$ with $pn+q$.\np &= 3\nq &= 2\nANSWER: p = 3,\\ q = 2",
+  "tagged": {
+   "primary": "seq-arith-nth",
+   "skills": [
+    "seq-arith-nth",
+    "seq-classify"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q3#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Add the numbers and divide by 7\n\\text{Mean} &= \\frac{17 + 8 + 9 + 8 + 14 + 11 + 28}{7}\n&= \\frac{95}{7}\n&\\approx 13.6\nANSWER: 13.6",
+  "tagged": {
+   "primary": "stat-averages",
+   "skills": [
+    "stat-averages"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q8#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate each term with respect to x\nA &= 10.5x - x^2\n\\frac{dA}{dx} &= 10.5 - 2x\nANSWER: \\frac{dA}{dx} = 10.5 - 2x",
+  "tagged": {
+   "primary": "diff-poly",
+   "skills": [
+    "diff-poly"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q10#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Find 71% of the sample\n71% as a decimal is 0.71.\n\\text{Number} &= 1500 \\times 0.71\n&= 1065\nANSWER: 1065 \\text{ people}",
+  "tagged": {
+   "primary": "fin-percentages",
+   "skills": [
+    "fin-percentages"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q8#(b)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Set the profit equal to 0\nT_n &= 0\n250n - 4250 &= 0\n## Solve for n\n250n &= 4250\nn &= \\frac{4250}{250}\nn &= 17\nANSWER: n = 17 \\text{ (month 17)}",
+  "tagged": {
+   "primary": "seq-arith-nth",
+   "skills": [
+    "seq-arith-nth",
+    "eq-linear"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(f)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Read the pattern of the points\nAs rainfall goes up, sunshine tends to go down, so the correlation is negative.\nThe points are fairly close to a downward line, so it is moderate to strong. Tick $-0.6$.\nANSWER: -0.6",
+  "tagged": {
+   "primary": "stat-scatter-correlation",
+   "skills": [
+    "stat-scatter-correlation"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q8#(b)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Rule for each angle\nEach angle is the percentage as a fraction of $360^\\circ$. Check with renewable: $6\\% \\to 21.6^\\circ \\approx 22^\\circ$.\n## Angle for oil\n\\text{Oil} &= \\frac{42}{100} \\times 360\n\\text{Oil} &= 151.2\n\\text{Oil} &\\approx 151^\\circ\n## Angle for solid fuel\n\\text{Solid fuel} &= \\frac{13}{100} \\times 360\n\\text{Solid fuel} &= 46.8\n\\text{Solid fuel} &\\approx 47^\\circ\n## Angle for gas\n\\text{Gas} &= \\frac{24}{100} \\times 360\n\\text{Gas} &= 86.4\n\\text{Gas} &\\approx 86^\\circ\n## Angle for electricity\n\\text{Electricity} &= \\frac{15}{100} \\times 360\n\\text{Electricity} &= 54\n\\text{Electricity} &\\approx 54^\\circ\nANSWER: \\text{Oil } 151^\\circ,\\ \\text{Solid fuel } 47^\\circ,\\ \\text{Gas } 86^\\circ,\\ \\text{Electricity } 54^\\circ",
+  "tagged": {
+   "primary": "stat-charts",
+   "skills": [
+    "stat-charts",
+    "fin-percentages"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q7#(f)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Identify a, b and c\n$-1.14x^2 + 5.2x - 0.13 = 0$, so $a = -1.14$, $b = 5.2$, $c = -0.13$.\n## Substitute into the quadratic formula\nx &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\nx &= \\frac{-5.2 \\pm \\sqrt{5.2^2 - 4(-1.14)(-0.13)}}{2(-1.14)}\n## Evaluate the number under the square root\n5.2^2 - 4(-1.14)(-0.13) &= 27.04 - 0.5928\n&= 26.4472\n## Work out both solutions\nx &= \\frac{-5.2 + \\sqrt{26.4472}}{-2.28}\n&\\approx 0.025\nx &= \\frac{-5.2 - \\sqrt{26.4472}}{-2.28}\n&\\approx 4.536\n## Choose the maximum\n$x = 0.025$ is the minimum at the start (the heart-rate dips slightly), so the maximum is at the other solution.\nx &\\approx 4.54\nANSWER: x = 4.54 \\text{ minutes}",
+  "tagged": {
+   "primary": "quad-solve-formula",
+   "skills": [
+    "quad-solve-formula"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q4#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Find where the slope is negative\n$u'(x)$ is negative where the graph is going downhill.\nThe graph falls after its peak near $x = 5.5$, so $x = 8$ works. (The marking scheme accepts any $x > 5$.)\n## Draw the tangent at (4, 2)\nMark $(4, 2)$. Draw a straight line touching the curve there without crossing it.\nThe line passes through $(2, 1)$ and $(6, 3)$.\n## Find the slope of the tangent\nSlope $=\\frac{y_2 - y_1}{x_2 - x_1}$.\nu'(4) &\\approx \\frac{3 - 1}{6 - 2}\n&= \\frac{2}{4}\n&= \\frac{1}{2}\nANSWER: x = 8 \\text{ (any } x > 5), \\quad u'(4) \\approx \\frac{1}{2}",
+  "tagged": {
+   "primary": "diff-increasing",
+   "skills": [
+    "diff-increasing",
+    "diff-slope-tangent"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find the distance from the centre (5, 4) to B(9, 0)\nr &= \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}\n&= \\sqrt{(9-5)^2 + (0-4)^2}\n&= \\sqrt{4^2 + (-4)^2}\n&= \\sqrt{16 + 16}\n&= \\sqrt{32}\n## Write the surd as p times the square root of q\n\\sqrt{32} &= \\sqrt{16 \\times 2}\n&= \\sqrt{16}\\,\\sqrt{2}\n&= 4\\sqrt{2}\nANSWER: 4\\sqrt{2}",
+  "tagged": {
+   "primary": "line-distance",
+   "skills": [
+    "line-distance",
+    "num-surds"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q8#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Set up the mean for 2009 to 2012\nLet $x$ be the landfill waste in 2012. The four values are 1724, 1496, 1344 and $x$.\n\\frac{1724 + 1496 + 1344 + x}{4} &= 1398\n\\frac{4564 + x}{4} &= 1398\n## Solve for x\n4564 + x &= 1398 \\times 4\n4564 + x &= 5592\nx &= 5592 - 4564\nx &= 1028\nANSWER: x = 1028 \\text{ kilotonnes}",
+  "tagged": {
+   "primary": "stat-averages",
+   "skills": [
+    "stat-averages",
+    "eq-linear"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Write each number as a point (Re, Im)\n$z_1 = 1 + 3i$ is the point $(1, 3)$.\n$z_2 = 2 - i$ is the point $(2, -1)$.\n$z_3 = 5 + i$ is the point $(5, 1)$.\n## Plot and label the points\nThe real part is read along the Re axis and the imaginary part up the Im axis.\nANSWER: z_1 = (1, 3),\\; z_2 = (2, -1),\\; z_3 = (5, 1)",
+  "tagged": {
+   "primary": "cx-argand",
+   "skills": [
+    "cx-argand"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q8#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Add 1.5 km each week to complete the table\n7.5 + 1.5 &= 9\n9 + 1.5 &= 10.5\n10.5 + 1.5 &= 12\n12 + 1.5 &= 13.5\n## Identify the arithmetic sequence\nThe first term is $a = 6$ and the common difference is $d = 1.5$. Week $n$ is $T_n = a + (n-1)d$.\n## Substitute n = 100\nT_{100} &= 6 + (100 - 1)(1.5)\n&= 6 + 99(1.5)\n&= 6 + 148.5\n&= 154.5 \\text{ km}\nANSWER: 9,\\ 10.5,\\ 12,\\ 13.5; \\quad T_{100} = 154.5 \\ \\text{km}",
+  "tagged": {
+   "primary": "seq-arith-nth",
+   "skills": [
+    "seq-arith-nth"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q9#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Explain the problem\nThe means treat every age group as equal, but the groups did not have equal numbers of voters.\nTable 2 gives percentages only. The number of voters in each age group is not used, so the means are unreliable.\nThe real result (Table 1) was Leave 52%, so the Remain mean of 52.33% does not reflect the outcome.\nANSWER: \\text{The number of voters in each age group is not used, so the means are unreliable.}",
+  "tagged": {
+   "primary": "stat-choose-display",
+   "skills": [
+    "stat-choose-display"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q9#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find each charge for 2.5 hours\nRead both graphs at $h = 2.5$, or calculate.\nA(2.5) &= 30 + 9.5(2.5) = 53.75\nB(2.5) &= 10(1.74)^{2.5} \\approx 39.94\n## Compare\nCompany B charges less, because its charge is lower than Company A's at $2.5$ hours.\nANSWER: \\text{Company B, as its charge is less at } 2\\tfrac{1}{2} \\text{ hours}",
+  "tagged": {
+   "primary": "fn-compare-graphs",
+   "skills": [
+    "fn-compare-graphs",
+    "fn-evaluate"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q9#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find |TS|\n$Q$ is the foot of the perpendicular from the centre $R$ to the chord $[ST]$, so it is the midpoint of $[ST]$.\n|TS| &= 2|QS|\n&= 2 \\times 80\n&= 160\n## Substitute into the cosine rule\nIn triangle $RST$: $|RS| = |RT| = 100$ and $|TS| = 160$, with $\\theta$ opposite $[TS]$.\n|TS|^2 &= |RT|^2 + |RS|^2 - 2|RT||RS|\\cos\\theta\n160^2 &= 100^2 + 100^2 - 2(100)(100)\\cos\\theta\n25600 &= 20000 - 20000\\cos\\theta\n## Solve for cos θ\n20000\\cos\\theta &= 20000 - 25600\n20000\\cos\\theta &= -5600\n\\cos\\theta &= -\\frac{5600}{20000}\n&= -\\frac{7}{25}\n## Find θ using inverse cosine\n\\theta &= \\cos^{-1}\\left(-\\frac{7}{25}\\right)\n&\\approx 106.26^\\circ\n&\\approx 106^\\circ\nANSWER: \\cos\\theta = -\\frac{7}{25},\\ \\theta = 106^\\circ",
+  "tagged": {
+   "primary": "trig-cosine-rule",
+   "skills": [
+    "trig-cosine-rule"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find the total number of dogs\nThe grand total is 40 and there are 14 cats, so the rest are dogs.\n\\text{Dogs total} &= 40 - 14\n&= 26\n## Find the number of female dogs\nThere are 11 male dogs out of 26 dogs.\n\\text{Female dogs} &= 26 - 11\n&= 15\n## Find the male total\n\\text{Male total} &= 5 + 11\n&= 16\n## Find the female total\n\\text{Female total} &= 9 + 15\n&= 24\nCheck: $16 + 24 = 40$.\nANSWER: \\text{Dogs: female } 15,\\ \\text{total } 26;\\ \\text{Totals: male } 16,\\ \\text{female } 24",
+  "tagged": {
+   "primary": "prob-venn",
+   "skills": [
+    "prob-venn"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q8#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Three non-office keys, then an office key (no replacement)\nThere are $23 - 5 = 18$ non-office keys. Each key drawn is not put back, so the totals drop by one each time.\nP &= \\frac{18}{23} \\times \\frac{17}{22} \\times \\frac{16}{21} \\times \\frac{5}{20}\n&= \\frac{24480}{212520}\n&= 0.1152\nANSWER: 0.1152",
+  "tagged": {
+   "primary": "prob-without-replacement",
+   "skills": [
+    "prob-without-replacement"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of $m$ (and $n$)\n2x + 3y + 1 &= 0\n3y &= -2x - 1\ny &= -\\frac{2}{3}x - \\frac{1}{3}\nSo the slope of $m$ and $n$ is $-\\frac{2}{3}$.\n## Find the slope of $AB$\n$AB$ is perpendicular to $m$, so its slope is the negative reciprocal.\n\\text{slope of } AB &= \\frac{3}{2}\n## Find the equation of $AB$ through $A(-2, 1)$\ny - 1 &= \\frac{3}{2}(x - (-2))\n2(y - 1) &= 3(x + 2)\n2y - 2 &= 3x + 6\n0 &= 3x - 2y + 8\n## Solve $AB$ and $n$ together to find $B$\n3x - 2y + 8 &= 0\n2x + 3y - 51 &= 0\nMultiply the first equation by 3 and the second by 2.\n9x - 6y + 24 &= 0\n4x + 6y - 102 &= 0\nAdd the two equations.\n13x - 78 &= 0\nx &= 6\n## Find $y$ by substituting $x = 6$ into $3x - 2y + 8 = 0$\n3(6) - 2y + 8 &= 0\n26 - 2y &= 0\ny &= 13\nANSWER: B = (6, 13)",
+  "tagged": {
+   "primary": "line-intersection",
+   "skills": [
+    "line-intersection",
+    "line-parallel-perp",
+    "line-equation",
+    "sim-linear-2"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius at F using similar triangles\nThe small cone down to F is similar to the whole cup: its height is $8.37 - 1 = 7.37$ cm.\n\\frac{r}{7.37} &= \\frac{3.3}{8.37}\nr &= \\frac{3.3 \\times 7.37}{8.37}\nr &= 2.9057\n## Volume of the cone of water\nV &= \\frac{1}{3}\\pi r^2 h\n&= \\frac{1}{3}\\pi (2.9057)^2 (7.37)\n&= 65.16\n&= 65.2\nANSWER: 65.2\\text{ cm}^3",
+  "tagged": {
+   "primary": "mens-volume",
+   "skills": [
+    "mens-volume",
+    "geo-thm13"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Write down a and r for the geometric series\nS &= 1+\\omega+\\omega^2+\\cdots+\\omega^{n-1}\nThis is geometric with first term $a=1$, common ratio $r=\\omega$ and $n$ terms.\n## Use the sum formula and substitute\nS &= \\frac{a(1-r^n)}{1-r}\n&= \\frac{1(1-\\omega^n)}{1-\\omega}\nSince $\\omega^n=1$, replace $\\omega^n$ with 1.\n&= \\frac{1(1-1)}{1-\\omega}\n&= \\frac{0}{1-\\omega}\n$\\omega\\ne 1$, so the denominator is not zero.\n&= 0\nANSWER: S = 0",
+  "tagged": {
+   "primary": "seq-geo-sum",
+   "skills": [
+    "seq-geo-sum"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q10#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 3 into P(t)\nP(3) &= 0.82 - 0.12\\ln(3+1)\n&= 0.82 - 0.12\\ln 4\n## Evaluate and round to 2 decimal places\n&= 0.6536\\ldots\n&\\approx 0.65\nANSWER: 0.65",
+  "tagged": {
+   "primary": "fn-evaluate",
+   "skills": [
+    "fn-evaluate"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q6#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Split into cases\nTwo or fewer pass means 0, 1 or 2 pass, each with probability $\\frac12$.\nP(\\le 2) &= P(0) + P(1) + P(2)\n## No one passes\nP(0) &= \\left(\\frac{1}{2}\\right)^n\n&= \\frac{1}{2^n}\n## Exactly one passes\nP(1) &= \\binom{n}{1}\\left(\\frac{1}{2}\\right)^1\\left(\\frac{1}{2}\\right)^{n-1}\n&= n \\times \\frac{1}{2^n}\n## Exactly two pass\nP(2) &= \\binom{n}{2}\\left(\\frac{1}{2}\\right)^2\\left(\\frac{1}{2}\\right)^{n-2}\n&= \\frac{n(n-1)}{2} \\times \\frac{1}{2^n}\n&= \\frac{n(n-1)}{2^{n+1}}\n## Add over the common denominator 2^(n+1)\nP(\\le 2) &= \\frac{1}{2^n} + \\frac{n}{2^n} + \\frac{n(n-1)}{2^{n+1}}\n&= \\frac{2 + 2n + n(n-1)}{2^{n+1}}\n&= \\frac{2 + 2n + n^2 - n}{2^{n+1}}\n&= \\frac{n^2 + n + 2}{2^{n+1}}\n## Compare with the given form\nMatching $an^2 + bn + c$ with $n^2 + n + 2$ gives the values.\na &= 1,\\ b = 1,\\ c = 2\nANSWER: a = 1,\\ b = 1,\\ c = 2",
+  "tagged": {
+   "primary": "prob-binomial",
+   "skills": [
+    "prob-binomial",
+    "prob-ncr"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q10#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Write r(2) in terms of r(0)\nr(2) &= r(1) + I(2)\n&= r(0) + I(1) + I(2)\n## Substitute r(0) = 10 and the formula for I(t)\n&= 10 + \\left(1.5 + \\sin\\frac{\\pi}{5}\\right) + \\left(1.5 + \\sin\\frac{2\\pi}{5}\\right)\n&= 13 + \\sin\\frac{\\pi}{5} + \\sin\\frac{2\\pi}{5}\nSo $a = 13$, $b = 1$, $c = 2$.\nANSWER: r(2) = 13 + \\sin\\frac{\\pi}{5} + \\sin\\frac{2\\pi}{5}",
+  "tagged": {
+   "primary": "seq-pattern",
+   "skills": [
+    "seq-pattern",
+    "fn-evaluate"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Probability the second and third match the first\nThe first person can be born on any day, probability $\\frac{7}{7}$.\nEach of the other two must match that day, probability $\\frac{1}{7}$ each.\n## Multiply the probabilities\nP(\\text{same day}) &= \\frac{7}{7} \\times \\frac{1}{7} \\times \\frac{1}{7}\n&= \\frac{1}{49}\nANSWER: \\frac{1}{49}",
+  "tagged": {
+   "primary": "prob-independent",
+   "skills": [
+    "prob-independent"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Write -8 in polar form\n$-8$ lies on the negative real axis, so $r = 8$ and $\\theta = \\pi$.\n-8 &= 8(\\cos\\pi + i\\sin\\pi)\nz^3 &= 8(\\cos(\\pi + 2n\\pi) + i\\sin(\\pi + 2n\\pi))\n## Apply De Moivre's theorem for the cube root\nz &= \\left[8(\\cos(\\pi + 2n\\pi) + i\\sin(\\pi + 2n\\pi))\\right]^{\\frac{1}{3}}\n&= 8^{\\frac{1}{3}}\\left(\\cos\\frac{\\pi+2n\\pi}{3} + i\\sin\\frac{\\pi+2n\\pi}{3}\\right)\n&= 2\\left(\\cos\\frac{\\pi+2n\\pi}{3} + i\\sin\\frac{\\pi+2n\\pi}{3}\\right)\n## n = 0\nz &= 2\\left(\\cos\\frac{\\pi}{3} + i\\sin\\frac{\\pi}{3}\\right)\n&= 2\\left(\\frac{1}{2} + i\\frac{\\sqrt{3}}{2}\\right)\n&= 1 + \\sqrt{3}\\,i\n## n = 1\nz &= 2\\left(\\cos\\frac{3\\pi}{3} + i\\sin\\frac{3\\pi}{3}\\right)\n&= 2(-1 + 0i)\n&= -2\n## n = 2\nz &= 2\\left(\\cos\\frac{5\\pi}{3} + i\\sin\\frac{5\\pi}{3}\\right)\n&= 2\\left(\\frac{1}{2} - i\\frac{\\sqrt{3}}{2}\\right)\n&= 1 - \\sqrt{3}\\,i\nANSWER: z = 1 + \\sqrt{3}\\,i,\\ -2,\\ 1 - \\sqrt{3}\\,i",
+  "tagged": {
+   "primary": "cx-de-moivre-roots",
+   "skills": [
+    "cx-de-moivre-roots",
+    "cx-polar"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## A square is never negative\nFor every real $x$, a squared number is at least $0$.\n(2x+3)^2 &\\ge 0\n## Add 7 to both sides\n(2x+3)^2 + 7 &\\ge 7\n&> 0\n## Conclude\nThe left-hand side is always greater than $0$, so it can never equal $0$. There are no real solutions.\nANSWER: (2x+3)^2 + 7 \\ge 7 > 0 \\text{, so there are no real solutions}",
+  "tagged": {
+   "primary": "quad-discriminant",
+   "skills": [
+    "quad-discriminant"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Identify the outer and inner functions\n$f(x) = u^{28}$ where $u = 3x^5 - 4$. Use the chain rule: $f'(x) = 28u^{27} \\times \\frac{du}{dx}$.\n## Differentiate the inner function\n\\frac{du}{dx} &= 15x^4\n## Multiply the two results together\nf'(x) &= 28(3x^5 - 4)^{27} \\times 15x^4\nANSWER: f'(x) = 28(3x^5 - 4)^{27}(15x^4)",
+  "tagged": {
+   "primary": "diff-chain",
+   "skills": [
+    "diff-chain"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths1",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Divide the cubic by the factor $(2x+3)$\nSince $(2x+3)$ is a factor, $4x^3 - 12x^2 - 7x + 30 = (2x+3)(ax^2 + bx + c)$.\nThe $x^3$ term: $2x \\times ax^2 = 4x^3$, so $a = 2$.\nThe constant term: $3 \\times c = 30$, so $c = 10$.\n4x^3 - 12x^2 - 7x + 30 &= (2x+3)(2x^2 + bx + 10)\n## Expand the right-hand side\n(2x+3)(2x^2 + bx + 10) &= 4x^3 + 2bx^2 + 20x + 6x^2 + 3bx + 30\n&= 4x^3 + (2b + 6)x^2 + (20 + 3b)x + 30\n## Compare the $x$ terms to find $b$\nThe $x$ term on the left of the cubic is $-7x$.\n20 + 3b &= -7\n3b &= -27\nb &= -9\n## Write the quadratic factor and set it to zero\n2x^2 - 9x + 10 &= 0\n## Factorise the quadratic\nFind two numbers with product $2 \\times 10 = 20$ and sum $-9$: they are $-4$ and $-5$.\n2x^2 - 9x + 10 &= 2x^2 - 4x - 5x + 10\n&= 2x(x - 2) - 5(x - 2)\n&= (2x - 5)(x - 2)\n## Solve the given factor $2x + 3 = 0$\n2x + 3 &= 0\nx &= -\\frac{3}{2}\n## Solve $2x - 5 = 0$\n2x - 5 &= 0\nx &= \\frac{5}{2}\n## Solve $x - 2 = 0$\nx - 2 &= 0\nx &= 2\nANSWER: x = -\\frac{3}{2}, \\quad x = \\frac{5}{2}, \\quad x = 2",
+  "tagged": {
+   "primary": "cubic-solve",
+   "skills": [
+    "cubic-solve",
+    "cubic-unknown-coefficient",
+    "alg-equate-coefficients",
+    "quad-solve-factor"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 5,
+  "solution": "## Find the midpoint of $[BC]$\nThe centroid is where the three medians meet. A median joins a vertex to the midpoint of the opposite side.\nMeasure $|BC|=11.7$ cm and mark the midpoint at 5.85 cm from $B$. Call this midpoint $D$.\n## Find the midpoint of $[AC]$\nMeasure $|AC|=11.1$ cm and mark the midpoint at 5.55 cm from $A$. Call it $E$.\n## Draw two medians\nJoin $A$ to $D$ and $B$ to $E$. Two medians are enough, since all three pass through the same point.\nThe centroid $G$ is where $[AD]$ and $[BE]$ cross. The third median, from $C$ to the midpoint of $[AB]$, also passes through $G$.\nANSWER: \\text{Centroid } G \\text{ is where the medians cross}",
+  "tagged": {
+   "primary": "con-21",
+   "skills": [
+    "con-21"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q9#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Put R = 8 and k = y into the cap formula\nC &= \\frac{\\pi y^2}{3}\\left(3(8) - y\\right)\nC &= \\frac{\\pi y^2}{3}(24 - y)\n## Set the volume equal to 36πy\n\\frac{\\pi y^2}{3}(24 - y) &= 36\\pi y\n## Divide both sides by π\n\\frac{y^2}{3}(24 - y) &= 36y\n## Divide both sides by y\nThis is allowed because $y > 0$.\n\\frac{y}{3}(24 - y) &= 36\n## Multiply both sides by 3\ny(24 - y) &= 108\n## Multiply out the bracket\n24y - y^2 &= 108\n## Rearrange into a quadratic equal to zero\ny^2 - 24y + 108 &= 0\n## Factorise\nTwo numbers that multiply to $108$ and add to $-24$ are $-6$ and $-18$.\n(y - 6)(y - 18) &= 0\n## Solve for y\ny &= 6 \\text{ or } y = 18\n## Reject the value that is too large\nThe sphere has radius $8$, so the height must satisfy $y \\le 8$. Reject $y = 18$.\nANSWER: y = 6",
+  "tagged": {
+   "primary": "mens-equate-volumes",
+   "skills": [
+    "mens-equate-volumes",
+    "mens-volume",
+    "quad-solve-factor"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Write the average value as an integral\nAverage over $[3, 12]$ is $\\frac{1}{12-3}\\int_3^{12} N(t)\\,dt$.\n\\text{Average} &= \\frac{1}{9}\\int_3^{12} 450e^{0.065t}\\,dt\n## Integrate\n$\\int e^{at}\\,dt = \\frac{1}{a}e^{at}$.\n&= \\frac{450}{9(0.065)}\\Big[e^{0.065t}\\Big]_3^{12}\n## Substitute the limits\n&= \\frac{450}{9(0.065)}\\left[e^{0.78} - e^{0.195}\\right]\n&\\approx 743.2\n&\\approx 743\nANSWER: 743 \\text{ bacteria}",
+  "tagged": {
+   "primary": "int-average-value",
+   "skills": [
+    "int-average-value",
+    "int-exponential",
+    "int-definite"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 15,
+  "solution": "## Find the value at the start\nFrom the graph, the least value is at the left-hand end, $x = 0$.\nh(0) &= 2(0)^3 - 28.5(0)^2 + 105(0) + 70\n&= 70\nThe graph at $x = 8$ is higher than at $x = 0$, and $h(8) = 110 > 70$, so the least value is 70.\n## Set the derivative equal to zero\nThe greatest value is at a local maximum, where the slope is zero.\n6x^2 - 57x + 105 &= 0\n2x^2 - 19x + 35 &= 0\n## Factorise and solve for x\n(2x - 5)(x - 7) &= 0\nx &= 2.5 \\text{ or } x = 7\nFrom the graph the local maximum comes first, at $x = 2.5$ (the local minimum is at $x = 7$).\n## Substitute x = 2.5 into h(x)\nh(2.5) &= 2(2.5)^3 - 28.5(2.5)^2 + 105(2.5) + 70\n&= 31.25 - 178.125 + 262.5 + 70\n&= 185.625\nANSWER: \\text{Least value} = 70, \\quad \\text{Greatest value} = 185.625",
+  "tagged": {
+   "primary": "diff-optimisation",
+   "skills": [
+    "diff-optimisation",
+    "diff-stationary",
+    "quad-solve-factor"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Read the centre from the equation\nThe circle $(x-h)^2+(y-k)^2=r^2$ has centre $(h,k)$.\nHere $h=1$ and $k=-6$ (note $y+6=y-(-6)$), so the centre is $(1,-6)$.\n## Find the radius in the form $a\\sqrt{10}$\nr &= \\sqrt{360}\n&= \\sqrt{36 \\times 10}\n&= 6\\sqrt{10}\nANSWER: \\text{Centre } (1,-6), \\quad r = 6\\sqrt{10}",
+  "tagged": {
+   "primary": "circ-eq-centre-radius",
+   "skills": [
+    "circ-eq-centre-radius"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Show $|OB| = 3\\sqrt{2}$ m\nThe diagonals of a square are equal, bisect each other and meet at $90^\\circ$, so $|OA| = |OB|$ and $\\angle AOB = 90^\\circ$.\nIn the right-angled triangle $AOB$ the hypotenuse is $|AB| = 6$.\n|OB|^2 + |OB|^2 &= 6^2\n2|OB|^2 &= 36\n|OB|^2 &= 18\n|OB| &= \\sqrt{18}\n&= \\sqrt{9 \\times 2}\n&= 3\\sqrt{2} \\text{ m}\n## Find $|OP|$ using triangle $POB$\n$P$ is directly above $O$, so $\\angle POB = 90^\\circ$. The hypotenuse is $|PB| = 11$.\n|OB|^2 + |OP|^2 &= |PB|^2\n\\left(3\\sqrt{2}\\right)^2 + |OP|^2 &= 11^2\n18 + |OP|^2 &= 121\n|OP|^2 &= 103\n|OP| &= \\sqrt{103} \\text{ m}\nANSWER: |OB| = 3\\sqrt{2} \\text{ m},\\quad |OP| = \\sqrt{103} \\text{ m}",
+  "tagged": {
+   "primary": "trig-3d",
+   "skills": [
+    "trig-3d",
+    "geo-thm14"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q8#(b)(ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate to find the maximum\nLet $M = \\hat{p}(1-\\hat{p})$ and write it as a function of $\\hat{p}$.\nM &= \\hat{p} - \\hat{p}^2\n\\frac{dM}{d\\hat{p}} &= 1 - 2\\hat{p}\n## Set the derivative equal to zero\n1 - 2\\hat{p} &= 0\n2\\hat{p} &= 1\n\\hat{p} &= \\frac{1}{2}\n## Check it is a maximum\n\\frac{d^2M}{d\\hat{p}^2} &= -2\nThe second derivative is negative, so this is a maximum.\n## Find the maximum value\nM_{max} &= \\frac{1}{2} - \\left(\\frac{1}{2}\\right)^2\n&= \\frac{1}{2} - \\frac{1}{4}\n&= \\frac{1}{4}\n## Find the largest radius for n = 800\nThe radius is $1.96\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}$, which is largest when $\\hat{p}(1-\\hat{p}) = \\frac{1}{4}$.\nr &= 1.96\\sqrt{\\frac{1/4}{800}}\n&= 1.96\\sqrt{\\frac{1}{3200}}\n&\\approx 1.96 \\times 0.017678\n&\\approx 0.0346\nANSWER: \\tfrac{1}{4}; \\text{ radius} \\approx 0.0346 \\;(3.46\\%)",
+  "tagged": {
+   "primary": "diff-optimisation",
+   "skills": [
+    "diff-optimisation",
+    "diff-stationary",
+    "inf-margin-of-error"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q1#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Show the graph must cross the x-axis twice\nThe coefficient of $x^2$ is $a = 2 > 0$, so the graph opens upwards and $f$ has a minimum point.\nFrom part (b) the minimum is at $y = -\\frac{129}{8}$, which is below the x-axis.\nA graph that opens upwards with its lowest point below the x-axis must cross the x-axis twice, so $f$ has two real roots.\nANSWER: \\text{Minimum is below the } x\\text{-axis and } a>0 \\text{, so two real roots}",
+  "tagged": {
+   "primary": "quad-discriminant",
+   "skills": [
+    "quad-discriminant",
+    "quad-complete-square-use"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Complete the first branches\nThe probabilities on the branches from one point add to 1.\nP(\\text{no } R) &= 1 - \\frac{1}{3}\n&= \\frac{2}{3}\n## Complete the traffic branches\nP(\\text{no } T \\mid R) &= 1 - \\frac{1}{2}\n&= \\frac{1}{2}\nP(\\text{no } T \\mid \\text{no } R) &= 1 - \\frac{1}{4}\n&= \\frac{3}{4}\n## Complete the late branches\nWhen it is raining and heavy traffic, $P(L) = \\frac{1}{2}$, so $P(\\text{no } L) = \\frac{1}{2}$.\nIn any other situation $P(L) = \\frac{1}{5}$, so $P(\\text{no } L) = 1 - \\frac{1}{5} = \\frac{4}{5}$.\nWhen it is not raining and no heavy traffic, $P(L) = \\frac{1}{8}$, so $P(\\text{no } L) = \\frac{7}{8}$.\n## Outcome: $R$, $T$, $L$\n\\frac{1}{3} \\times \\frac{1}{2} \\times \\frac{1}{2} &= \\frac{1}{12}\n## Outcome: $R$, $T$, no $L$\n\\frac{1}{3} \\times \\frac{1}{2} \\times \\frac{1}{2} &= \\frac{1}{12}\n## Outcome: $R$, no $T$, $L$\n\\frac{1}{3} \\times \\frac{1}{2} \\times \\frac{1}{5} &= \\frac{1}{30}\n## Outcome: $R$, no $T$, no $L$\n\\frac{1}{3} \\times \\frac{1}{2} \\times \\frac{4}{5} &= \\frac{4}{30}\n## Outcome: no $R$, $T$, $L$\n\\frac{2}{3} \\times \\frac{1}{4} \\times \\frac{1}{5} &= \\frac{2}{60}\n## Outcome: no $R$, $T$, no $L$\n\\frac{2}{3} \\times \\frac{1}{4} \\times \\frac{4}{5} &= \\frac{8}{60}\n## Outcome: no $R$, no $T$, $L$\n\\frac{2}{3} \\times \\frac{3}{4} \\times \\frac{1}{8} &= \\frac{6}{96}\n## Outcome: no $R$, no $T$, no $L$\n\\frac{2}{3} \\times \\frac{3}{4} \\times \\frac{7}{8} &= \\frac{42}{96}\nANSWER: \\text{Completed tree diagram (blue entries added)}",
+  "tagged": {
+   "primary": "prob-tree",
+   "skills": [
+    "prob-tree"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find the y-coordinate of the centre\n$(a, 3)$ and $(a, -5)$ have the same $x$-coordinate, so they are the ends of a vertical chord. The centre is level with the midpoint of that chord.\nk &= \\frac{3 + (-5)}{2}\n&= \\frac{-2}{2}\n&= -1\n## Write the equation with centre (h, -1)\nThe radius is $\\sqrt{20}$, so $r^2 = 20$.\n(x - h)^2 + (y + 1)^2 &= 20\n## Substitute (8, 1) to find h\n(8 - h)^2 + (1 + 1)^2 &= 20\n(8 - h)^2 + 4 &= 20\n(8 - h)^2 &= 16\n8 - h &= 4 \\text{ or } 8 - h = -4\nh &= 4 \\text{ or } h = 12\n## Reject the value of h that does not fit the diagram\nSubstitute $(a, 3)$ into the circle equation to see what $a$ must be.\n(a - h)^2 + (3 + 1)^2 &= 20\n(a - h)^2 &= 4\na &= h + 2 \\text{ or } a = h - 2\nIf $h = 12$, then $a = 14$ or $a = 10$, but $0 < a < 5$, so $h = 12$ is rejected.\nIf $h = 4$, then $a = 2$ (or $6$), and $a = 2$ satisfies $0 < a < 5$. So $h = 4$.\n## State the equation of the circle\n(x - 4)^2 + (y + 1)^2 &= 20\nANSWER: (x - 4)^2 + (y + 1)^2 = 20",
+  "tagged": {
+   "primary": "circ-from-conditions",
+   "skills": [
+    "circ-from-conditions",
+    "circ-chord-length",
+    "circ-eq-centre-radius"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q10#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths4",
+   "maths3",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Write the inequality for P'(x) > 24\n1.1 + 2.73x - 0.078x^2 &> 24\n## Rearrange so one side is zero\nSubtract 24 from both sides.\n-0.078x^2 + 2.73x - 22.9 &> 0\nMultiply both sides by $-1$ and reverse the inequality sign.\n0.078x^2 - 2.73x + 22.9 &< 0\n## Find the roots with the quadratic formula\nSolve $0.078x^2 - 2.73x + 22.9 = 0$ with $a = 0.078$, $b = -2.73$, $c = 22.9$.\nx &= \\frac{2.73 \\pm \\sqrt{(2.73)^2 - 4(0.078)(22.9)}}{2(0.078)}\n&= \\frac{2.73 \\pm \\sqrt{7.4529 - 7.1448}}{0.156}\n&= \\frac{2.73 \\pm \\sqrt{0.3081}}{0.156}\nx &\\approx 21.06 \\text{ or } x \\approx 13.94\n## Choose the values between the roots\nThe graph of $0.078x^2 - 2.73x + 22.9$ opens upwards, so it is below zero between the roots.\n13.94 &< x < 21.06\n## Round each value to the nearest whole number\n14 &\\le x \\le 21\nANSWER: 14 \\le x \\le 21",
+  "tagged": {
+   "primary": "ineq-quadratic",
+   "skills": [
+    "ineq-quadratic",
+    "quad-solve-formula"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q8#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Plot the nine points from the table\nPlot $(t, h)$ using time on the horizontal axis and height on the vertical axis.\nThe points are $(0, 3.1)$, $(3, 1.6)$, $(6, 0.1)$, $(9, 1.6)$, $(12, 3.1)$, $(15, 1.6)$, $(18, 0.1)$, $(21, 1.6)$, $(24, 3.1)$.\n## Join the points with a smooth curve\nIt is a cosine wave: maximum $3.1$ at midnight, midday and the next midnight, minimum $0.1$ at 6 a.m. and 6 p.m. It crosses $1.6$ at 3 a.m., 9 a.m., 3 p.m. and 9 p.m.\nANSWER: \\text{Cosine curve through the nine points}",
+  "tagged": {
+   "primary": "trig-graph-abc",
+   "skills": [
+    "trig-graph-abc"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths18"
+  ],
+  "marks": 15,
+  "solution": "## Step P(1): test n = 1\n\\text{LHS} &= 1^2 = 1\n\\text{RHS} &= \\frac{1(1+1)(2(1)+1)}{6} = \\frac{1(2)(3)}{6} = 1\nLHS = RHS, so $P(1)$ is true.\n## Step P(k): assume true for n = k\nAssume $1^2 + 2^2 + \\cdots + k^2 = \\dfrac{k(k+1)(2k+1)}{6}$.\n## Step P(k+1): state what must be proved\nShow $1^2 + 2^2 + \\cdots + k^2 + (k+1)^2 = \\dfrac{(k+1)(k+2)(2k+3)}{6}$.\n\\text{RHS} &= \\frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}\n&= \\frac{(k+1)(k+2)(2k+3)}{6}\n## Use P(k) on the left-hand side\nReplace $1^2 + \\cdots + k^2$ using the assumption $P(k)$.\n\\text{LHS} &= \\frac{k(k+1)(2k+1)}{6} + (k+1)^2\n&= \\frac{k(k+1)(2k+1) + 6(k+1)^2}{6}\n## Factor out (k + 1)\n&= \\frac{(k+1)\\big[k(2k+1) + 6(k+1)\\big]}{6}\n&= \\frac{(k+1)(2k^2 + k + 6k + 6)}{6}\n&= \\frac{(k+1)(2k^2 + 7k + 6)}{6}\n&= \\frac{(k+1)(k+2)(2k+3)}{6}\n&= \\text{RHS}\n## Conclude\n$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$.\nANSWER: 1^2 + 2^2 + \\cdots + n^2 = \\frac{n(n+1)(2n+1)}{6}",
+  "tagged": {
+   "primary": "induction-sum",
+   "skills": [
+    "induction-sum",
+    "alg-factor-quadratic"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 15,
+  "solution": "## Write the centre and use the point (1, 4)\nThe centre is on the $x$-axis, so let it be $(h, 0)$. The point $(1,4)$ is $5$ units from the centre.\n(1-h)^2 + (4-0)^2 &= 5^2\n(1-h)^2 + 16 &= 25\n(1-h)^2 &= 9\n## Solve for h\nTake the square root of both sides: $1 - h = 3$ or $1 - h = -3$.\nh &= -2 \\text{ or } h = 4\n## Write both equations\nEach circle has radius $5$, so use $(x-h)^2 + y^2 = 25$.\nc_1: \\quad (x+2)^2 + y^2 &= 25\nc_2: \\quad (x-4)^2 + y^2 &= 25\nANSWER: c_1: (x+2)^2 + y^2 = 25, \\quad c_2: (x-4)^2 + y^2 = 25",
+  "tagged": {
+   "primary": "circ-from-conditions",
+   "skills": [
+    "circ-from-conditions",
+    "circ-eq-centre-radius"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths2",
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Simplify the first fraction\nExpand $(n+3)!$ as $(n+3)(n+2)(n+1)!$ and cancel.\n\\frac{(n+3)!}{(n+1)!} &= \\frac{(n+3)(n+2)(n+1)!}{(n+1)!}\n&= (n+3)(n+2)\n## Simplify the second fraction\nExpand $(n+2)!$ as $(n+2)(n+1)!$ and cancel.\n\\frac{(n+2)!}{(n+1)!} &= \\frac{(n+2)(n+1)!}{(n+1)!}\n&= n+2\n## Multiply and expand\n\\text{Product} &= (n+3)(n+2)(n+2)\n&= (n^2 + 5n + 6)(n+2)\n&= n^3 + 2n^2 + 5n^2 + 10n + 6n + 12\n&= n^3 + 7n^2 + 16n + 12\n## Match coefficients with the given form\nMatching the coefficients of each power of $n$ gives the values.\nANSWER: a = 1,\\ b = 7,\\ c = 16,\\ d = 12",
+  "tagged": {
+   "primary": "alg-equate-coefficients",
+   "skills": [
+    "alg-equate-coefficients",
+    "alg-expand-binomials",
+    "prob-factorial"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Use the half-angle formula for cos squared\nFrom $\\cos 2\\theta = 2\\cos^2\\theta - 1$ we get $\\cos^2\\theta = \\frac{1}{2}(1 + \\cos 2\\theta)$.\n\\cos^2\\theta &= \\frac{1}{2}(1 + \\cos 2\\theta)\n## Substitute cos 2θ = 1/9\n\\cos^2\\theta &= \\frac{1}{2}\\left(1 + \\frac{1}{9}\\right)\n&= \\frac{1}{2}\\left(\\frac{10}{9}\\right)\n&= \\frac{5}{9}\n## Take the square root\nTake both the positive and negative roots.\n\\cos\\theta &= \\pm\\sqrt{\\frac{5}{9}}\n\\cos\\theta &= \\pm\\frac{\\sqrt{5}}{3}\nANSWER: \\cos\\theta = \\pm\\frac{\\sqrt{5}}{3}",
+  "tagged": {
+   "primary": "trig-double",
+   "skills": [
+    "trig-double"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Find the modulus r\nFor $1 - \\sqrt{3}i$ the real part is $1$ and the imaginary part is $-\\sqrt{3}$.\nr &= \\sqrt{1^2 + (-\\sqrt{3})^2}\n&= \\sqrt{1 + 3}\n&= \\sqrt{4}\n&= 2\n## Find the argument\nThe point $(1, -\\sqrt{3})$ lies in the fourth quadrant.\n\\tan\\alpha &= \\frac{\\sqrt{3}}{1}\n\\alpha &= \\frac{\\pi}{3}\nIn the fourth quadrant the argument is negative.\n\\theta &= -\\frac{\\pi}{3}\n## Write in polar form\n1 - \\sqrt{3}i &= 2\\left(\\cos\\left(-\\frac{\\pi}{3}\\right) + i\\sin\\left(-\\frac{\\pi}{3}\\right)\\right)\n## Apply de Moivre's theorem\n$\\left[r(\\cos\\theta + i\\sin\\theta)\\right]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n(1 - \\sqrt{3}i)^9 &= 2^9\\left(\\cos\\left(9 \\times -\\frac{\\pi}{3}\\right) + i\\sin\\left(9 \\times -\\frac{\\pi}{3}\\right)\\right)\n&= 512\\left(\\cos(-3\\pi) + i\\sin(-3\\pi)\\right)\n## Evaluate and write as a + bi\n$\\cos(-3\\pi) = -1$ and $\\sin(-3\\pi) = 0$.\n&= 512(-1 + 0i)\n&= -512\nANSWER: -512",
+  "tagged": {
+   "primary": "cx-de-moivre-power",
+   "skills": [
+    "cx-de-moivre-power",
+    "cx-polar"
+   ]
+  }
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q8#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Use the median\nWith 8 numbers the median is the mean of $D$ and $E$.\n\\frac{D + E}{2} &= 12.5\nD + E &= 25\n## Use the lower quartile\nThe lower quartile is the median of $A, B, C, D$, which is the mean of $B$ and $C$.\n\\frac{B + C}{2} &= 7.5\nB + C &= 15\n## Use the interquartile range\nThe upper quartile is the mean of $F$ and $G$.\nQ_3 - 7.5 &= 12\nQ_3 &= 19.5\n\\frac{F + G}{2} &= 19.5\nF + G &= 39\nF + 23 &= 39\nF &= 16\n## Use the mean\nA + B + C + D + E + F + G + H &= 8 \\times 13.5\nA + B + C + D + E + F + G + H &= 108\nA + H + 15 + 25 + 16 + 23 &= 108\nA + H + 79 &= 108\nA + H &= 29\n## Use the range\nH - A &= 21\n2H &= 29 + 21\nH &= 25\nA &= 29 - 25\nA &= 4\n## Split D + E and B + C\n$D + E = 25$ with $D < E$ and a gap of at least 2: $D = 12, E = 13$ fails (gap 1) and $D = 10, E = 15$ fails because $F = 16$ is only 1 above 15. So $D = 11$, $E = 14$.\n$B + C = 15$ with $C \\le 9$ (a gap of at least 2 below $D = 11$) and $B \\ge 6$ (a gap of at least 2 above $A = 4$): $B = 6$, $C = 9$. (B = 7, C = 8 is not allowed because $C$ must be at least 2 more than $B$, so $C \\ge B + 2$. With $B + C = 15$ this gives $B \\le 6.5$, and with $B \\ge 6$ this forces $B = 6$.)\n## Complete the boxes\nThe completed boxes are shown in the figure.\nANSWER: A=4,\\ B=6,\\ C=9,\\ D=11,\\ E=14,\\ F=16,\\ G=23,\\ H=25",
+  "tagged": {
+   "primary": "stat-quartiles-iqr",
+   "skills": [
+    "stat-quartiles-iqr",
+    "stat-averages"
+   ]
+  }
+ }
+]

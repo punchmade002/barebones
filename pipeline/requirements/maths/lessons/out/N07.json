@@ -1,0 +1,183 @@
+[
+{"skill": "diff-tangent-circle", "problems": [
+{"part": "practice-diff-tangent-circle-1", "note": null,
+ "legend": {"1": "the slope, dy/dx", "2": "x of the point", "3": "y of the point"},
+ "steps": [
+  {"ask": "The equation is in x and y, not y = f(x). What do you do to both sides to find the slope?", "title": "Differentiate both sides with respect to $x$",
+   "lines": [{"tex": "x^2 + y^2 &= 169"}, {"text": "Use the chain rule on $y^2$: $\\frac{d}{dx}(y^2) = 2y\\hl{1}{\\frac{dy}{dx}}$."}, {"tex": "2x + 2y\\hl{1}{\\frac{dy}{dx}} &= 0"}]},
+  {"ask": "How do you get dy/dx on its own from this equation?", "title": "Solve for $\\frac{dy}{dx}$",
+   "lines": [{"tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{x}{y}"}]},
+  {"ask": "Which value is x and which is y in the point, and where do they go in your expression?", "title": "Substitute $(5, -12)$",
+   "lines": [{"tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{\\hl{2}{5}}{\\hl{3}{-12}}"}, {"tex": "&= \\hl{1}{\\frac{5}{12}}"}]}
+ ],
+ "final": "\\hl{1}{\\frac{5}{12}}", "graph": null},
+{"part": "practice-diff-tangent-circle-2", "note": "The circle is now shifted, with its centre at $(1, -2)$ instead of the origin, so each bracket is differentiated with the chain rule. The slope is then found and substituted in the same way.",
+ "legend": {"1": "the slope, dy/dx"},
+ "steps": [
+  {"ask": "The brackets are squared, so what does the chain rule give for each bracket?", "title": "Differentiate both sides with respect to $x$",
+   "lines": [{"text": "Use the chain rule on each bracket."}, {"tex": "2(x - 1) + 2(y + 2)\\hl{1}{\\frac{dy}{dx}} &= 0"}]},
+  {"ask": "How do you get dy/dx on its own from this equation?", "title": "Solve for $\\frac{dy}{dx}$",
+   "lines": [{"tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{x - 1}{y + 2}"}]},
+  {"ask": "What are x and y at the point, and what does the slope become when you put them in?", "title": "Substitute $(4, 2)$",
+   "lines": [{"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\hl{1}{-\\frac{3}{4}}"}]}
+ ],
+ "final": "\\hl{1}{-\\frac{3}{4}}", "graph": null},
+{"part": "practice-diff-tangent-circle-3", "note": "Only x is given here, so y must be found from the circle first, taking the positive root. The differentiation and substitution then work as in problem 2.",
+ "legend": {"1": "the slope, dy/dx", "2": "x of the point", "3": "y of the point"},
+ "steps": [
+  {"ask": "Only x is given. What must y² equal when x = −4?", "title": "Find the $y$-coordinate of $P$",
+   "lines": [{"tex": "(\\hl{2}{-4})^2 + y^2 &= 20"}, {"tex": "y^2 &= 4"}, {"text": "Since $y > 0$, $y = \\hl{3}{2}$ and $P = (\\hl{2}{-4}, \\hl{3}{2})$."}]},
+  {"ask": "What is the derivative of y² with respect to x, and how do you get dy/dx on its own?", "title": "Differentiate both sides with respect to $x$",
+   "lines": [{"tex": "2x + 2y\\hl{1}{\\frac{dy}{dx}} &= 0"}, {"tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{x}{y}"}]},
+  {"ask": "Which two values go into x and y, and what does the slope become?", "title": "Substitute $(-4, 2)$",
+   "lines": [{"tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{\\hl{2}{-4}}{\\hl{3}{2}}"}, {"tex": "&= \\hl{1}{2}"}]}
+ ],
+ "final": "\\hl{1}{2}", "graph": null}
+]},
+{"skill": "diff-combined", "problems": [
+{"part": "practice-diff-combined-1", "note": null,
+ "legend": {"1": "the derivative, dy/dx or f′(x) (the answer)", "2": "first part, u", "3": "second part, v"},
+ "steps": [
+  {"ask": "The product rule needs two parts. Which two parts of the product will you call u and v?", "title": "Split into two factors",
+   "lines": [{"tex": "u &= \\hl{2}{e^{3x}}"}, {"tex": "v &= \\hl{3}{\\cos 2x}"}]},
+  {"ask": "What is the derivative of the exponential part, and of the cosine part? Remember the chain rule.", "title": "Differentiate each factor using the chain rule",
+   "lines": [{"tex": "u' &= 3e^{3x}"}, {"tex": "v' &= -2\\sin 2x"}]},
+  {"ask": "How does the product rule combine u, v, u′ and v′ into dy/dx?", "title": "Apply the product rule and simplify",
+   "lines": [{"tex": "\\hl{1}{\\frac{dy}{dx}} &= u'v + uv' = 3e^{3x}\\cos 2x - 2e^{3x}\\sin 2x"}, {"tex": "&= \\hl{1}{e^{3x}(3\\cos 2x - 2\\sin 2x)}"}]}
+ ],
+ "final": "\\hl{1}{e^{3x}(3\\cos 2x - 2\\sin 2x)}", "graph": null},
+{"part": "practice-diff-combined-3", "note": "The two factors are now a power and a logarithm instead of an exponential and a cosine, so the chain rule is needed on the logarithm. The product rule is unchanged.",
+ "legend": {"1": "the derivative, dy/dx or f′(x) (the answer)", "2": "first part, u", "3": "second part, v"},
+ "steps": [
+  {"ask": "Which part of this product will you call u, and which will you call v?", "title": "Split into two factors",
+   "lines": [{"tex": "u &= \\hl{2}{x^2}"}, {"tex": "v &= \\hl{3}{\\ln(3x + 1)}"}]},
+  {"ask": "What is the derivative of the power part, and what does the chain rule give for the logarithm?", "title": "Differentiate each (chain rule for $v$)",
+   "lines": [{"tex": "u' &= 2x"}, {"tex": "v' &= \\frac{3}{3x + 1}"}]},
+  {"ask": "How does the product rule combine u, v, u′ and v′ into f′(x)?", "title": "Apply the product rule",
+   "lines": [{"tex": "\\hl{1}{f'(x)} &= u'v + uv' = 2x\\ln(3x + 1) + x^2 \\cdot \\frac{3}{3x + 1}"}, {"tex": "&= \\hl{1}{2x\\ln(3x + 1) + \\frac{3x^2}{3x + 1}}"}]}
+ ],
+ "final": "\\hl{1}{2x\\ln(3x + 1) + \\dfrac{3x^2}{3x + 1}}", "graph": null},
+{"part": "practice-diff-combined-2", "note": "Now the two parts are divided, so the quotient rule replaces the product rule, and the parts are an exponential and a sine.",
+ "legend": {"1": "the derivative, dy/dx or f′(x) (the answer)", "2": "first part, u", "3": "second part, v"},
+ "steps": [
+  {"ask": "The function is a fraction. Which part is the top, called u, and which is the bottom, called v?", "title": "Identify the numerator and denominator",
+   "lines": [{"tex": "u &= \\hl{2}{e^{2x}}"}, {"tex": "v &= \\hl{3}{\\sin x}"}]},
+  {"ask": "What is the derivative of the top and of the bottom?", "title": "Differentiate each",
+   "lines": [{"tex": "u' &= 2e^{2x}"}, {"tex": "v' &= \\cos x"}]},
+  {"ask": "Which rule is used for a fraction, and how does it combine u, v, u′ and v′?", "title": "Apply the quotient rule",
+   "lines": [{"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\frac{u'v - uv'}{v^2} = \\frac{2e^{2x}\\sin x - e^{2x}\\cos x}{\\sin^2 x}"}, {"tex": "&= \\hl{1}{\\frac{e^{2x}(2\\sin x - \\cos x)}{\\sin^2 x}}"}]}
+ ],
+ "final": "\\hl{1}{\\dfrac{e^{2x}(2\\sin x - \\cos x)}{\\sin^2 x}}", "graph": null}
+]},
+{"skill": "diff-inverse-trig", "problems": [
+{"part": "practice-diff-inverse-trig-1", "note": null,
+ "legend": {"1": "the slope, f′(x) or dy/dx", "2": "x at the point"},
+ "steps": [
+  {"ask": "Which standard result matches tan⁻¹(x/a), and what is a in this question?", "title": "Differentiate using the standard result with $a = 5$",
+   "lines": [{"tex": "\\hl{1}{f'(x)} &= \\frac{5}{25 + x^2}"}]},
+  {"ask": "What value of x goes into f′(x), and what do you get?", "title": "Substitute $x = 5$",
+   "lines": [{"tex": "\\hl{1}{f'}(\\hl{2}{5}) &= \\frac{5}{25 + 25}"}, {"tex": "&= \\hl{1}{\\frac{1}{10}}"}]}
+ ],
+ "final": "\\hl{1}{\\frac{1}{10}}",
+ "graph": {"f": "atan(x/5)", "box": [-3, 1.5, 12, -0.8], "tangent": true, "points": [{"x": 5, "y": 0.7854, "name": "point (5, π/4)"}], "line": null, "slots": {"x": 2, "y": null, "line": null}}},
+{"part": "practice-diff-inverse-trig-3", "note": "Now the curve is sin⁻¹(x/2) and the question asks for a tangent equation, so the point and the line are needed as well as the slope. The standard result is used in the same way, with a = 2.",
+ "legend": {"1": "the slope, f′(x) or dy/dx", "2": "x at the point", "3": "y at the point"},
+ "steps": [
+  {"ask": "To write a tangent you need a point. What is y when x = 1?", "title": "Find the point on the curve",
+   "lines": [{"tex": "y(\\hl{2}{1}) &= \\sin^{-1}\\left(\\tfrac{1}{2}\\right)"}, {"tex": "&= \\hl{3}{\\frac{\\pi}{6}}"}]},
+  {"ask": "Which standard result matches sin⁻¹(x/a), and what is a here?", "title": "Differentiate using the standard result with $a = 2$",
+   "lines": [{"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\frac{1}{\\sqrt{4 - x^2}}"}]},
+  {"ask": "What is the slope at x = 1?", "title": "Find the slope at $x = 1$",
+   "lines": [{"tex": "\\hl{1}{m} &= \\hl{1}{\\frac{1}{\\sqrt{3}}}"}]},
+  {"ask": "Using the point you found and this slope, what is the equation of the line?", "title": "Write the tangent",
+   "lines": [{"tex": "y - \\hl{3}{\\frac{\\pi}{6}} &= \\hl{1}{\\frac{1}{\\sqrt{3}}}(x - 1)"}, {"tex": "y &= \\hl{3}{\\frac{\\pi}{6}} + \\frac{x - 1}{\\sqrt{3}}"}]}
+ ],
+ "final": "y = \\hl{3}{\\dfrac{\\pi}{6}} + \\dfrac{x - 1}{\\sqrt{3}}",
+ "graph": {"f": "asin(x/2)", "box": [-0.6, 1.9, 2.4, -0.4], "tangent": true, "points": [{"x": 1, "y": 0.5236, "name": "point (1, π/6)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}},
+{"part": "practice-diff-inverse-trig-2", "note": "Now the function is a product, x times tan⁻¹(x/2), so the product rule is added to the standard result. The derivative is then evaluated at a point in the same way as problem 1.",
+ "legend": {"1": "the slope, f′(x) or dy/dx"},
+ "steps": [
+  {"ask": "What are u and v here, and what is the derivative of each?", "title": "Use the product rule",
+   "lines": [{"text": "$u = x$, $v = \\tan^{-1}(x/2)$."}, {"tex": "u' &= 1"}, {"tex": "v' &= \\frac{2}{4 + x^2}"}]},
+  {"ask": "How does the product rule combine u, v, u′ and v′ into dy/dx?", "title": "Combine",
+   "lines": [{"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\tan^{-1}\\left(\\tfrac{x}{2}\\right) + \\frac{2x}{4 + x^2}"}]},
+  {"ask": "What do you get when x = 2 goes into each term, and what is tan⁻¹(1)?", "title": "Substitute $x = 2$",
+   "lines": [{"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\tan^{-1}(1) + \\frac{4}{8}"}, {"tex": "&= \\hl{1}{\\frac{\\pi}{4} + \\frac{1}{2}}"}]}
+ ],
+ "final": "\\hl{1}{\\frac{\\pi}{4} + \\frac{1}{2}}",
+ "graph": {"f": "x*atan(x/2)", "box": [-4, 5, 4, -0.5], "tangent": true, "points": [{"x": 2, "y": 1.5708, "name": "point (2, π/2)"}], "line": null, "slots": {"x": null, "y": null, "line": null}}}
+]},
+{"skill": "diff-quotient", "problems": [
+{"part": "maths-pp-2024-higher-p1-q4#(b)", "note": null,
+ "legend": {"1": "the derivative, g′(x) or its value", "2": "u, the top function", "3": "v, the bottom function", "4": "the answer"},
+ "steps": [
+  {"ask": "Which function is the top, called u, and which is the bottom, called v? Find the derivative of each.", "title": "Name u and v and differentiate each",
+   "lines": [{"text": "Use the quotient rule: $\\hl{1}{g'(x)}=\\frac{v\\,u' - u\\,v'}{v^2}$."}, {"tex": "u &= \\hl{2}{6x + 1}"}, {"tex": "\\frac{du}{dx} &= 6"}, {"tex": "v &= \\hl{3}{x^4 + 3}"}, {"tex": "\\frac{dv}{dx} &= 4x^3"}]},
+  {"ask": "What does the quotient rule say, and where do u, v, u′ and v′ go in it?", "title": "Substitute into the quotient rule",
+   "lines": [{"tex": "\\hl{1}{g'(x)} &= \\frac{(\\hl{3}{x^4+3})(6) - (\\hl{2}{6x+1})(4x^3)}{(\\hl{3}{x^4+3})^2}"}]},
+  {"ask": "What do you get when x = −2 goes into the top and bottom?", "title": "Substitute x = −2",
+   "lines": [{"tex": "\\hl{1}{g'(-2)} &= \\frac{((-2)^4+3)(6) - (6(-2)+1)(4(-2)^3)}{((-2)^4+3)^2}"}, {"tex": "&= \\frac{(19)(6) - (-11)(-32)}{(19)^2}"}, {"tex": "&= \\frac{114 - 352}{361}"}, {"tex": "&= \\hl{4}{-\\frac{238}{361}}"}]}
+ ],
+ "final": "\\hl{1}{g'(-2)} = \\hl{4}{-\\frac{238}{361}}", "graph": null},
+{"part": "maths-pp-2025-higher-p1-q3#(b)", "note": "The top function is now the constant 3, and the question asks for a proof that there are no turning points, so an explanation step is added after the derivative. The quotient rule is the same as problem 1.",
+ "legend": {"1": "the derivative, g′(x) or its value", "2": "u, the top function", "3": "v, the bottom function", "4": "the answer"},
+ "steps": [
+  {"ask": "The top function is a constant. What are u and v, and what are u′ and v′?", "title": "Choose the quotient rule parts",
+   "lines": [{"tex": "u &= \\hl{2}{3}, \\quad u' = 0"}, {"tex": "v &= \\hl{3}{2x - 7}, \\quad v' = 2"}]},
+  {"ask": "What goes into the top and bottom of the quotient rule?", "title": "Substitute into the quotient rule",
+   "lines": [{"tex": "\\hl{1}{g'(x)} &= \\frac{v u' - u v'}{v^2}"}, {"tex": "&= \\frac{(\\hl{3}{2x-7})(0) - (\\hl{2}{3})(2)}{(\\hl{3}{2x-7})^2}"}]},
+  {"ask": "What does the numerator become once you simplify it?", "title": "Simplify the numerator",
+   "lines": [{"tex": "&= \\frac{0 - 6}{(\\hl{3}{2x-7})^2}"}, {"tex": "&= \\hl{1}{-\\frac{6}{(2x-7)^2}}"}]},
+  {"ask": "What value must g′(x) take at a turning point, and can this expression ever take that value?", "title": "Explain why there are no turning points",
+   "lines": [{"text": "A turning point needs $\\hl{1}{g'(x)} = 0$, but the numerator is $-6$, which is never $0$."}, {"text": "Also $(2x-7)^2 > 0$ for every $x$ in the domain ($x \\ne 3.5$), so $\\hl{1}{g'(x)} < 0$ always."}, {"text": "So $\\hl{1}{g'(x)} \\ne 0$ for all $x$ in the domain: $g$ has no local maximum or minimum points."}]}
+ ],
+ "final": "\\hl{1}{g'(x)} = -\\frac{6}{(2x-7)^2} < 0 \\text{ for all } x \\text{ in the domain, so there are no turning points}", "graph": null},
+{"part": "practice-diff-quotient-1", "note": "Now the derivative is set to zero and solved for x, instead of proving there are none. The top function is x² again, and the quotient rule steps are the same as problem 2.",
+ "legend": {"1": "the derivative, g′(x) or its value", "2": "u, the top function", "3": "v, the bottom function", "4": "the answer"},
+ "steps": [
+  {"ask": "What are u and v for the function x²/(x − 2), and what are u′ and v′?", "title": "Name $u$ and $v$ and differentiate each",
+   "lines": [{"tex": "u &= \\hl{2}{x^2}, \\quad u' = 2x"}, {"tex": "v &= \\hl{3}{x - 2}, \\quad v' = 1"}]},
+  {"ask": "Substitute u, v, u′ and v′ into the quotient rule. What does the top become?", "title": "Substitute into the quotient rule",
+   "lines": [{"tex": "\\hl{1}{f'(x)} &= \\frac{(\\hl{3}{x-2})(2x) - \\hl{2}{x^2}(1)}{(\\hl{3}{x-2})^2}"}]},
+  {"ask": "What is the numerator once it is simplified, and can it be factorised?", "title": "Simplify the numerator",
+   "lines": [{"tex": "&= \\frac{x^2 - 4x}{(\\hl{3}{x-2})^2}"}, {"tex": "&= \\frac{x(x-4)}{(\\hl{3}{x-2})^2}"}]},
+  {"ask": "For a horizontal tangent, what must f′(x) equal? Which x values make that happen?", "title": "Set $f'(x) = 0$",
+   "lines": [{"tex": "x(x-4) &= 0"}, {"tex": "x &= 0 \\text{ or } x = 4"}]}
+ ],
+ "final": "\\hl{4}{x = 0 \\text{ or } x = 4}",
+ "graph": {"f": "x**2/(x - 2)", "box": [-2, 10, 6, -3], "tangent": true, "points": [{"x": 0, "y": 0, "name": "local max (0, 0)"}, {"x": 4, "y": 8, "name": "local min (4, 8)"}], "line": null, "slots": {"x": 4, "y": null, "line": null}}}
+]},
+{"skill": "diff-rational-power", "problems": [
+{"part": "maths-pp-2015-higher-p1-q5#(b)", "note": null,
+ "legend": {"1": "the derivative, f′(x) or g′(x) or its value", "2": "the answer"},
+ "steps": [
+  {"ask": "How can you write √(x + 6) using a power instead of a root?", "title": "Write the root as a power",
+   "lines": [{"tex": "f(x) &= x - \\sqrt{x+6}"}, {"tex": "&= x - (x+6)^{\\frac{1}{2}}"}]},
+  {"ask": "What is the derivative of x, and what does the power rule give for (x + 6) to the power 1/2?", "title": "Differentiate term by term",
+   "lines": [{"tex": "\\hl{1}{f'(x)} &= 1 - \\frac{1}{2}(x+6)^{-\\frac{1}{2}}"}, {"tex": "&= \\hl{2}{1 - \\frac{1}{2\\sqrt{x+6}}}"}]}
+ ],
+ "final": "\\hl{1}{f'(x)} = \\hl{2}{1 - \\frac{1}{2\\sqrt{x+6}}}", "graph": null},
+{"part": "practice-diff-rational-power-1", "note": "The function is now 6 over a cube root, and the derivative is evaluated at x = 8, so a substitution step is added at the end. The power rule is used in the same way.",
+ "legend": {"1": "the derivative, f′(x) or g′(x) or its value", "2": "the answer"},
+ "steps": [
+  {"ask": "How do you write 6 over the cube root of x as 6 times a power of x?", "title": "Write as a power of $x$",
+   "lines": [{"tex": "f(x) &= 6x^{-\\frac{1}{3}}"}]},
+  {"ask": "What is the power rule for x to the power n, and what is n here?", "title": "Differentiate",
+   "lines": [{"tex": "\\hl{1}{f'(x)} &= 6\\left(-\\tfrac{1}{3}\\right)x^{-\\frac{4}{3}}"}, {"tex": "&= -2x^{-\\frac{4}{3}}"}]},
+  {"ask": "What do you get when x = 8 goes in, and what is 8 to the power −4/3?", "title": "Substitute $x = 8$",
+   "lines": [{"tex": "\\hl{1}{f'(8)} &= -2(8)^{-\\frac{4}{3}} = -\\frac{2}{16}"}, {"tex": "&= \\hl{2}{-\\frac{1}{8}}"}]}
+ ],
+ "final": "\\hl{1}{f'(8)} = \\hl{2}{-\\frac{1}{8}}", "graph": null},
+{"part": "practice-diff-rational-power-2", "note": "Now the function is a sum of two terms, so each term is differentiated separately before the derivative is evaluated at x = 4.",
+ "legend": {"1": "the derivative, f′(x) or g′(x) or its value", "2": "the answer"},
+ "steps": [
+  {"ask": "How can you write each term of (x² + 3)/√x as a power of x?", "title": "Divide through and write as powers",
+   "lines": [{"tex": "g(x) &= x^{\\frac{3}{2}} + 3x^{-\\frac{1}{2}}"}]},
+  {"ask": "What is the derivative of each term using the power rule?", "title": "Differentiate term by term",
+   "lines": [{"tex": "\\hl{1}{g'(x)} &= \\tfrac{3}{2}x^{\\frac{1}{2}} - \\tfrac{3}{2}x^{-\\frac{3}{2}}"}]},
+  {"ask": "What is 4 to the power 1/2, and what is 4 to the power −3/2?", "title": "Substitute $x = 4$",
+   "lines": [{"tex": "\\hl{1}{g'(4)} &= \\tfrac{3}{2}(2) - \\tfrac{3}{2}\\cdot\\tfrac{1}{8}"}, {"tex": "&= 3 - \\tfrac{3}{16} = \\hl{2}{\\tfrac{45}{16}}"}]}
+ ],
+ "final": "\\hl{1}{g'(4)} = \\hl{2}{\\frac{45}{16}}", "graph": null}
+]}
+]

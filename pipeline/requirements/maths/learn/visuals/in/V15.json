@@ -1,0 +1,247 @@
+[
+ {
+  "skill": "diff-optimisation",
+  "title": "Solve a max/min problem from a context",
+  "show": "rectangular pen against a wall with two sides of width x and a side of 60-2x",
+  "example": {
+   "question": "A farmer has $60$ m of fencing for three sides of a rectangular pen. The fourth side is a wall. Find the width $x$ that gives the largest area, and find that area.",
+   "final": "x = 15 \\text{ m}, \\ A = 450 \\text{ m}^2",
+   "steps": [
+    {
+     "say": "Two sides are $x$ and the third side is $l$. Use the $60$ m of fencing to write $l$ in terms of $x$, then write the area.",
+     "rows": [
+      {
+       "aside": "$2x + l = 60$, so $l = 60 - 2x$."
+      },
+      {
+       "l": "A",
+       "r": "= x(60 - 2x)"
+      },
+      {
+       "l": "",
+       "r": "= 60x - 2x^2"
+      }
+     ]
+    },
+    {
+     "say": "The best area is where the slope is zero. Differentiate the area.",
+     "rows": [
+      {
+       "l": "\\frac{dA}{dx}",
+       "r": "= 60 - 4x"
+      }
+     ]
+    },
+    {
+     "say": "Set $\\frac{dA}{dx} = 0$ and solve for $x$.",
+     "rows": [
+      {
+       "l": "60 - 4x",
+       "r": "= 0"
+      },
+      {
+       "l": "4x",
+       "r": "= 60"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{15}"
+      }
+     ]
+    },
+    {
+     "say": "Check it is a maximum with the second derivative. Then put $x = 15$ into the area.",
+     "rows": [
+      {
+       "l": "\\frac{d^2A}{dx^2}",
+       "r": "= -4"
+      },
+      {
+       "aside": "Negative, so it is a **maximum**."
+      },
+      {
+       "l": "A",
+       "r": "= 15(60 - 30)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{450}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-first-principles",
+  "title": "Differentiate from first principles",
+  "show": "curve with a chord between x and x+h and the tangent as h shrinks",
+  "example": {
+   "question": "Differentiate $f(x) = 2x^2 - x + 3$ from first principles.",
+   "final": "f'(x) = 4x - 1",
+   "steps": [
+    {
+     "say": "Replace every $x$ in the function with $x + h$, then multiply out.",
+     "rows": [
+      {
+       "l": "f(x+h)",
+       "r": "= 2(x+h)^2 - (x+h) + 3"
+      },
+      {
+       "l": "",
+       "r": "= 2x^2 + 4xh + 2h^2 - x - h + 3"
+      }
+     ]
+    },
+    {
+     "say": "Take away $f(x)$. Every term without an $h$ cancels.",
+     "rows": [
+      {
+       "l": "f(x+h) - f(x)",
+       "r": "= (2x^2 + 4xh + 2h^2 - x - h + 3) - (2x^2 - x + 3)"
+      },
+      {
+       "l": "",
+       "r": "= 4xh + 2h^2 - h"
+      }
+     ]
+    },
+    {
+     "say": "Every term has an $h$. Divide it out.",
+     "rows": [
+      {
+       "l": "\\dfrac{f(x+h) - f(x)}{h}",
+       "r": "= \\dfrac{4xh + 2h^2 - h}{h}"
+      },
+      {
+       "l": "",
+       "r": "= 4x + 2h - 1"
+      }
+     ]
+    },
+    {
+     "say": "Now let $h$ shrink to zero. The $2h$ term disappears.",
+     "rows": [
+      {
+       "l": "f'(x)",
+       "r": "= \\lim_{h\\to0}\\,(4x + 2h - 1)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{4x - 1}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-definition",
+  "title": "Recognise a function and its domain/codomain/range",
+  "show": "arrow diagram from domain {1,2,3,4} to codomain N showing each input mapped to one output",
+  "example": {
+   "question": "A mapping is given by $f(x) = 2x - 1$, with domain $\\{1, 2, 3, 4\\}$ and codomain $\\mathbb{N}$. Show that $f$ is a function and write down its range.",
+   "final": "\\text{Range} = \\{1, 3, 5, 7\\}",
+   "steps": [
+    {
+     "say": "A function needs exactly one output for every input. Work out the output for each number in the domain.",
+     "rows": [
+      {
+       "l": "f(1)",
+       "r": "= 2(1) - 1 = 1"
+      },
+      {
+       "l": "f(2)",
+       "r": "= 2(2) - 1 = 3"
+      },
+      {
+       "l": "f(3)",
+       "r": "= 2(3) - 1 = 5"
+      },
+      {
+       "l": "f(4)",
+       "r": "= 2(4) - 1 = 7"
+      }
+     ]
+    },
+    {
+     "say": "Look at what you found. Every input has one output and no input has two, so the rule holds.",
+     "rows": [
+      {
+       "aside": "Each input has exactly one output, so $f$ is a function."
+      }
+     ]
+    },
+    {
+     "say": "The **range** is the set of outputs the rule actually produces. The codomain, $\\mathbb{N}$, is the larger set they are allowed to land in. List only the outputs you found.",
+     "rows": [
+      {
+       "l": "\\text{Range}",
+       "r": "= \\hl{1}{\\{1, 3, 5, 7\\}}"
+      },
+      {
+       "aside": "The range is smaller than the codomain: $2$ and $4$ are in $\\mathbb{N}$ but are never hit."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-limit-concept",
+  "title": "Investigate the limit of a function",
+  "show": "graph of (x²-9)/(x-3), the line y=x+3 with an open circle (hole) at (3,6)",
+  "example": {
+   "question": "$f(x) = \\dfrac{x^2 - 9}{x - 3}$. Explain why $f(3)$ cannot be found. Complete a table for $x$ close to $3$ on each side and write down the limit of $f(x)$ as $x \\to 3$.",
+   "final": "\\lim_{x \\to 3} f(x) = 6",
+   "steps": [
+    {
+     "say": "Try $x = 3$ first. The top and the bottom both become $0$, and $\\tfrac{0}{0}$ has no value. So go as close to $3$ as you can instead.",
+     "rows": [
+      {
+       "aside": "$f(3) = \\tfrac{0}{0}$, which is not defined."
+      }
+     ]
+    },
+    {
+     "say": "Choose values just under $3$ and work out $f(x)$ for each.",
+     "rows": [
+      {
+       "l": "f(2.9)",
+       "r": "= \\frac{2.9^2 - 9}{2.9 - 3} = 5.9"
+      },
+      {
+       "l": "f(2.99)",
+       "r": "= \\frac{2.99^2 - 9}{2.99 - 3} = 5.99"
+      }
+     ]
+    },
+    {
+     "say": "Now values just over $3$.",
+     "rows": [
+      {
+       "l": "f(3.1)",
+       "r": "= \\frac{3.1^2 - 9}{3.1 - 3} = 6.1"
+      },
+      {
+       "l": "f(3.01)",
+       "r": "= \\frac{3.01^2 - 9}{3.01 - 3} = 6.01"
+      }
+     ]
+    },
+    {
+     "say": "From both sides the values close in on $\\hl{1}{6}$. That number is the limit.",
+     "rows": [
+      {
+       "l": "\\lim_{x \\to 3} f(x)",
+       "r": "= \\hl{1}{6}"
+      },
+      {
+       "aside": "Check: $x^2 - 9 = (x-3)(x+3)$, so $f(x) = x + 3$ for $x \\ne 3$, and that is $6$ at $x = 3$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

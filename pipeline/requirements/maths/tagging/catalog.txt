@@ -1,0 +1,361 @@
+num-order-operations [JC, maths10] Apply order of operations
+num-fractions [JC, maths10] Operate on fractions
+num-ratio-proportion [JC, maths10] Use ratio and direct/inverse proportion
+num-sets [OL, maths10] Classify numbers into N, Z, Q, R, C
+num-decimal-fraction [OL, maths10] Convert decimals and fractions
+num-prime-factors [OL, maths10] Express a number as a product of primes
+num-surds [OL, maths10] Simplify and operate on surds
+num-sci-notation [OL, maths10] Work in scientific notation
+alg-evaluate [OL, maths2] Evaluate an expression
+alg-collect-like [JC, maths2] Collect like terms
+alg-expand-single [JC, maths2] Expand a bracket by a term
+alg-expand-binomials [OL, maths2] Multiply out two brackets
+alg-add-subtract [OL, maths2] Add/subtract linear and quadratic expressions
+alg-factor-hcf [JC, maths2] Factorise by highest common factor
+alg-factor-grouping [JC, maths2] Factorise by grouping
+alg-factor-dots [OL, maths2] Factorise a difference of two squares
+alg-factor-quadratic [OL, maths2] Factorise a quadratic trinomial
+alg-factor-cubes [HL, maths2] Factorise a sum/difference of two cubes
+alg-fractions-add [OL, maths2] Add/subtract algebraic fractions
+alg-fractions-simplify [HL, maths2] Multiply, divide and simplify rational expressions
+alg-poly-multiply [HL, maths2] Multiply polynomials
+alg-poly-divide [HL, maths2] Divide a polynomial by a linear or quadratic
+alg-surd-expressions [HL, maths2] Simplify algebraic expressions with surds
+alg-rearrange [OL, maths2] Rearrange a formula
+alg-equate-coefficients [HL, maths2] Equate coefficients of identical polynomials
+alg-binomial-expand [HL, maths2] Expand with the binomial theorem
+alg-binomial-term [HL, maths2] Find a given term/coefficient of a binomial expansion
+eq-linear [OL, maths6] Solve a linear equation
+eq-linear-fractions [OL, maths6] Solve a linear equation with fractions
+eq-rational [OL, maths6] Solve a/(bx+c) ± p/(qx+r) = e/f
+eq-rational-hl [HL, maths6] Solve (ax+b)/(ex+f) ± (cx+d)/(qx+r) = k
+eq-surd [HL, maths6] Solve an equation involving a square root
+eq-word-problem [OL, maths6] Form and solve an equation from a context
+quad-solve-factor [OL, maths4] Solve a quadratic by factorising
+quad-solve-formula [OL, maths4] Solve a quadratic with the formula
+quad-form-from-roots [OL, maths4] Form a quadratic from its roots
+quad-discriminant [HL, maths4] Use b² − 4ac for the nature of roots
+quad-complete-square [HL, maths4] Express a quadratic in completed-square form
+quad-complete-square-use [HL, maths4] Use completed-square form for roots and turning point
+cubic-factor-theorem [HL, maths1] Test a factor with the Factor Theorem
+cubic-find-root [HL, maths1] Find an integer root by trial
+cubic-solve [HL, maths1] Solve a cubic with at least one integer root
+cubic-unknown-coefficient [HL, maths1] Find unknown coefficients from given factors
+cubic-form-from-roots [HL, maths1] Form a cubic from its roots
+sim-linear-2 [OL, maths5] Solve two linear equations in two unknowns
+sim-linear-quadratic [OL, maths5] Solve one linear and one order-2 equation
+sim-linear-quadratic-hl [HL, maths5] Solve linear + order-2 with any coefficients
+sim-linear-3 [HL, maths5] Solve three linear equations in three unknowns
+sim-word-problem [OL, maths5] Form simultaneous equations from a context
+ineq-linear [OL, maths3] Solve a linear inequality
+ineq-double [OL, maths3] Solve a combined (double) linear inequality
+ineq-quadratic [HL, maths3] Solve a quadratic inequality
+ineq-rational [HL, maths3] Solve a rational inequality
+ineq-modulus [HL, maths3] Solve modulus inequalities
+ineq-prove [HL, maths3] Prove an algebraic inequality
+ind-laws [OL, maths17] Apply the laws of indices
+ind-negative-fractional [OL, maths17] Evaluate negative and fractional indices
+ind-express-as-power [OL, maths17] Write an expression as a power of a base
+ind-solve-equation [OL, maths17] Solve an exponential equation with a common base
+ind-hidden-quadratic [HL, maths17] Solve an exponential equation reducible to a quadratic
+log-definition [HL, maths17] Convert between log and index form (incl. e and ln)
+log-laws [HL, maths17] Apply the laws of logs
+log-change-base [HL, maths17] Change the base of a log
+log-solve [HL, maths17] Solve a log equation
+log-solve-exponential [HL, maths17] Solve aˣ = b by taking logs
+seq-pattern [OL, maths21] Continue and generalise a pattern
+seq-classify [OL, maths21] Decide if a sequence is arithmetic, geometric or neither
+seq-quadratic [OL, maths21] Find the nth term of a quadratic sequence
+seq-arith-nth [OL, maths21] Find the nth term of an arithmetic sequence
+seq-arith-find-ad [OL, maths21] Find a and d from given terms or sums
+seq-arith-sum [OL, maths21] Sum n terms of an arithmetic series
+seq-sigma [HL, maths21] Evaluate a series in Σ notation
+seq-geo-nth [HL, maths21] Find the nth term of a geometric sequence
+seq-geo-sum [HL, maths21] Sum n terms of a geometric series
+seq-geo-unknown-n [HL, maths21] Find the number of terms needed in a geometric series
+seq-limits [HL, maths21] Find limits of sequences by inspection and limit rules
+seq-geo-sum-infinity [HL, maths21] Sum an infinite geometric series
+seq-derive-sum-infinity [HL, maths21] Derive S∞ as the limit of partial sums
+seq-convergence-range [HL, maths21] Find values of x for which a geometric series converges
+seq-recurring-decimal [HL, maths21] Write a recurring decimal as a fraction
+seq-verify-formula [HL, maths21] Verify and justify a formula from a number pattern
+induction-sum [HL, maths18] Prove a series identity by induction
+induction-geo-sum [HL, maths18] Prove the finite geometric series sum by induction
+induction-divisibility [HL, maths18] Prove a divisibility result by induction
+induction-inequality [HL, maths18] Prove an inequality by induction
+proof-root2-irrational [HL, maths18] Prove √2 is irrational by contradiction
+cx-arithmetic [OL, maths10] Add, subtract and multiply complex numbers
+cx-powers-i [OL, maths10] Simplify powers of i
+cx-conjugate [OL, maths10] Find the conjugate
+cx-divide [OL, maths10] Divide complex numbers
+cx-argand [OL, maths10] Plot complex numbers on an Argand diagram
+cx-modulus [OL, maths10] Find the modulus as distance from the origin
+cx-equate-parts [OL, maths10] Equate real and imaginary parts
+cx-transformations [OL, maths10] Interpret operations as transformations on the Argand diagram
+cx-conjugate-properties [HL, maths10] Use conjugates of sums and products
+cx-quadratic [HL, maths10] Solve a quadratic with complex roots
+cx-conjugate-root [HL, maths10] Use the Conjugate Root Theorem to find all roots
+cx-polar [HL, maths10] Convert between rectangular and polar form
+cx-polar-multiply [HL, maths10] Multiply and divide in polar form
+cx-de-moivre-power [HL, maths10] Raise to a power with De Moivre's Theorem
+cx-de-moivre-roots [HL, maths10] Solve zⁿ = a (incl. nth roots of unity)
+cx-de-moivre-identity [HL, maths10] Derive multiple-angle identities with De Moivre
+cx-de-moivre-prove [HL, maths10] Prove De Moivre's Theorem by induction
+fn-definition [OL, maths14] Recognise a function and its domain/codomain/range
+fn-evaluate [OL, maths14] Evaluate a function
+fn-composite [OL, maths14] Form a composite function
+fn-graph-linear [OL, maths14] Graph a linear function
+fn-graph-quadratic [OL, maths14] Graph a quadratic function
+fn-graph-cubic [OL, maths14] Graph a cubic function
+fn-graph-exponential [OL, maths14] Graph an exponential function
+fn-graph-log [HL, maths14] Graph a logarithmic function
+fn-solve-graphically [OL, maths14] Solve equations approximately from graphs
+fn-compare-graphs [OL, maths14] Interpret f(x) = g(x) as a comparison of functions
+fn-transformations [HL, maths14] Transform a graph
+fn-injective-surjective [HL, maths14] Classify a function as injective, surjective, bijective
+fn-inverse [HL, maths14] Find the inverse of a bijective function
+fn-inverse-sketch [HL, maths14] Sketch the inverse from a graph
+fn-limit-concept [OL, maths14] Investigate the limit of a function
+fn-limits-continuity [HL, maths14] Find limits and explore continuity informally
+fn-exp-model [HL, maths14] Fit an exponential model to data
+diff-first-principles [HL, maths12] Differentiate from first principles
+diff-poly [OL, maths12] Differentiate a polynomial by rule
+diff-second [OL, maths12] Find the second derivative
+diff-rational-power [HL, maths12] Differentiate rational powers
+diff-exponential [HL, maths12] Differentiate exponential functions
+diff-log [HL, maths12] Differentiate logarithms
+diff-trig [HL, maths12] Differentiate trig functions (radians)
+diff-inverse-trig [HL, maths12] Differentiate inverse trig functions
+diff-product [HL, maths12] Apply the product rule
+diff-quotient [HL, maths12] Apply the quotient rule
+diff-chain [HL, maths12] Apply the chain rule
+diff-combined [HL, maths12] Differentiate a function needing several rules
+diff-show-identity [HL, maths12] Show a derivative satisfies a given relation
+diff-slope-tangent [OL, maths11] Find the slope and equation of a tangent
+diff-point-given-slope [OL, maths11] Find where a curve has a given slope
+diff-increasing [OL, maths11] Decide whether a function is increasing or decreasing at a point
+diff-increasing-interval [HL, maths11] Find where a function is increasing/decreasing for all x or on intervals
+diff-stationary [OL, maths11] Find and classify turning points
+diff-inflection [HL, maths11] Find a point of inflection
+diff-curve-sketch [OL, maths11] Sketch a curve using calculus
+diff-sketch-derivative [HL, maths11] Sketch/match the graph of f′ from f
+diff-rates-of-change [OL, maths11] Apply differentiation to rates of change
+diff-related-rates [HL, maths11] Solve connected rates of change
+diff-optimisation [OL, maths11] Solve a max/min problem from a context
+diff-tangent-circle [HL, maths11] Find the slope of a tangent to a circle by differentiation
+diff-apply-hl [HL, maths11] Apply derivatives of exp/log/trig functions to problems
+int-reverse [HL, maths19] Treat integration as reverse differentiation
+int-power [HL, maths19] Integrate powers, sums and constant multiples
+int-reciprocal [HL, maths19] Integrate 1/x
+int-exponential [HL, maths19] Integrate exponentials
+int-trig [HL, maths19] Integrate sin ax and cos ax
+int-trig-identity [HL, maths19] Integrate using a trig formula
+int-definite [HL, maths19] Evaluate a definite integral
+int-find-function [HL, maths19] Find a function from its derivative and a point
+int-area-axis [HL, maths19] Find the area between a curve and the x-axis
+int-area-between [HL, maths19] Find the area between two curves
+int-average-value [HL, maths19] Find the average value of a function on an interval
+fin-percentages [JC, maths13] Calculate percentages and percentage change
+fin-profit-margin [OL, maths13] Calculate cost/selling price, discount, mark-up and margin
+fin-compound-interest [OL, maths13] Apply compound interest
+fin-depreciation [OL, maths13] Apply reducing-balance depreciation
+fin-rate-conversion [OL, maths13] Convert between annual and periodic rates (AER/APR)
+fin-solve-rate-time [HL, maths13] Find the rate or time in a compound interest problem
+fin-income-tax [OL, maths13] Calculate income tax, USC, PRSI and net pay
+fin-costing [OL, maths13] Cost materials, labour and wastage
+fin-units [OL, maths13] Change units (metric, imperial with factors, currency)
+fin-error [OL, maths13] Calculate percentage error, tolerance and accumulated error
+fin-estimate [OL, maths13] Estimate, round and check order of magnitude
+fin-average-rate [OL, maths13] Calculate an average rate of change over time
+fin-present-value [HL, maths13] Find the present value of a future sum
+fin-annuity-fv [HL, maths13] Find the future value of regular savings
+fin-annuity-pv [HL, maths13] Find the present value of a series of payments (pension/annuity)
+fin-mortgage [HL, maths13] Find the repayment on a loan/mortgage
+fin-mortgage-derive [HL, maths13] Derive the mortgage repayment formula
+fin-amortisation [HL, maths13] Build or complete a loan amortisation schedule
+mens-perimeter-area [OL, maths7] Find perimeter and area of plane figures
+mens-arc-sector [OL, maths7] Find arc length and sector area
+mens-nets [OL, maths7] Draw and interpret nets of prisms, cylinders and cones
+mens-surface-area [OL, maths7] Find surface area of solids
+mens-volume [OL, maths7] Find volume of solids
+mens-composite [OL, maths7] Find area/volume of compound solids
+mens-equate-volumes [OL, maths7] Solve recasting, displacement and flow problems
+mens-trapezoidal [OL, maths7] Approximate area with the trapezoidal rule
+line-distance [JC, maths9] Find the distance between two points
+line-midpoint [JC, maths9] Find the midpoint of a segment
+line-slope [JC, maths9] Find the slope from two points or an equation
+line-equation [JC, maths9] Find the equation of a line
+line-point-on [OL, maths9] Test whether a point is on a line; find intercepts
+line-intersection [OL, maths9] Find where two lines intersect
+line-parallel-perp [OL, maths9] Use slopes to show/construct parallel and perpendicular lines
+line-unknown-coefficient [OL, maths9] Find an unknown in a line from a condition
+line-collinear [OL, maths9] Show points are collinear
+line-area-triangle [OL, maths9] Find the area of a triangle from vertices
+line-linear-model [OL, maths9] Interpret a linear relationship in context
+line-perp-distance [HL, maths9] Find the perpendicular distance from a point to a line
+line-angle-between [HL, maths9] Find the angle between two lines
+line-divide-ratio [HL, maths9] Divide a segment internally in a ratio
+line-from-distance [HL, maths9] Find lines through a point at a given distance/angle
+circ-eq-origin [OL, maths8] Write/interpret a circle with centre (0, 0)
+circ-eq-centre-radius [OL, maths8] Write/interpret (x − h)² + (y − k)² = r²
+circ-point-position [OL, maths8] Decide whether a point is inside, on or outside a circle
+circ-line-origin [OL, maths8] Find where a line meets a circle with centre (0, 0)
+circ-tangent-at-point [OL, maths8] Find the tangent at a point on a circle
+circ-chord-length [OL, maths8] Find a chord length or distance from centre
+circ-general-form [HL, maths8] Use x² + y² + 2gx + 2fy + c = 0
+circ-line-general [HL, maths8] Find where a line meets any circle
+circ-tangent-test [HL, maths8] Show a line is a tangent
+circ-tangents-from-point [HL, maths8] Find tangents from an external point
+circ-tangent-length [HL, maths8] Find the length of a tangent from an external point
+circ-from-conditions [HL, maths8] Find a circle's equation from conditions
+circ-touching [HL, maths8] Decide whether circles touch internally or externally
+circ-common-chord [HL, maths8] Find the common chord/tangent of two circles
+geo-thm1 [JC, maths15] Apply Theorem 1: Vertically opposite angles are equal
+geo-thm2 [JC, maths15] Apply Theorem 2: Isosceles triangle: equal sides ⇔ equal base angles
+geo-thm3 [JC, maths15] Apply Theorem 3: Alternate angles are equal ⇔ lines parallel
+geo-thm4 [JC, maths15] Apply Theorem 4: Angles in a triangle sum to 180°
+geo-thm5 [JC, maths15] Apply Theorem 5: Corresponding angles are equal ⇔ lines parallel
+geo-thm6 [JC, maths15] Apply Theorem 6: Exterior angle = sum of interior opposite angles
+geo-thm7 [OL, maths15] Apply Theorem 7: Greater side is opposite the greater angle (and converse)
+geo-thm8 [OL, maths15] Apply Theorem 8: Triangle inequality: two sides together exceed the third
+geo-thm9 [JC, maths15] Apply Theorem 9: Parallelogram: opposite sides and opposite angles equal
+geo-thm10 [JC, maths15] Apply Theorem 10: Diagonals of a parallelogram bisect each other
+geo-thm11 [OL, maths15] Apply Theorem 11: Three parallel lines cutting equal segments on one transversal cut equal segments on any
+geo-thm12 [OL, maths15] Apply Theorem 12: A line parallel to one side of a triangle divides the other two in the same ratio
+geo-thm13 [OL, maths15] Apply Theorem 13: Similar triangles have proportional sides
+geo-thm14 [JC, maths15] Apply Theorem 14: Pythagoras
+geo-thm15 [JC, maths15] Apply Theorem 15: Converse of Pythagoras
+geo-thm16 [OL, maths15] Apply Theorem 16: Base × height is the same for every side of a triangle
+geo-thm17 [OL, maths15] Apply Theorem 17: A diagonal bisects the area of a parallelogram
+geo-thm18 [OL, maths15] Apply Theorem 18: Area of a parallelogram = base × height
+geo-thm19 [HL, maths15] Apply Theorem 19: Angle at the centre is twice the angle at the circle (JC-HL, assumed at LC HL)
+geo-thm20 [OL, maths15] Apply Theorem 20: Tangent is perpendicular to the radius at the point of contact (and converse)
+geo-thm21 [OL, maths15] Apply Theorem 21: Perpendicular from the centre bisects a chord; perpendicular bisector of a chord passes through the centre
+geo-cor1 [HL, maths15] Apply Corollary 1: A diagonal divides a parallelogram into two congruent triangles (JC-HL)
+geo-cor2 [HL, maths15] Apply Corollary 2: Angles standing on the same arc are equal (JC-HL)
+geo-cor3 [JC, maths15] Apply Corollary 3: An angle in a semicircle is a right angle
+geo-cor4 [JC, maths15] Apply Corollary 4: A right angle at the circle stands on a diameter
+geo-cor5 [HL, maths15] Apply Corollary 5: Opposite angles of a cyclic quadrilateral sum to 180° (JC-HL)
+geo-cor6 [OL, maths15] Apply Corollary 6: Circles sharing a tangent at a point: the centres and that point are collinear
+geo-congruence [JC, maths15] Prove triangles congruent (SSS, SAS, ASA, RHS)
+geo-similar-triangles [OL, maths15] Find lengths using similar triangles
+geo-cuts [HL, maths15] Solve a geometry "cut" with a reasoned account
+geo-prove-thm11 [HL, maths15] Prove Theorem 11
+geo-prove-thm12 [HL, maths15] Prove Theorem 12
+geo-prove-thm13 [HL, maths15] Prove Theorem 13
+geo-transformations [JC, maths15] Find images under translation, central symmetry, axial symmetry and rotation
+geo-enlargement [OL, maths15] Construct and analyse an enlargement
+geo-enlargement-centre [OL, maths15] Find the centre and scale factor of an enlargement
+con-1 [JC, maths16] Construction 1: Bisector of a given angle (compass and straight edge only)
+con-2 [JC, maths16] Construction 2: Perpendicular bisector of a segment (compass and straight edge only)
+con-3 [HL, maths16] Construction 3: Line perpendicular to a line l through a point not on l (JC-HL)
+con-4 [JC, maths16] Construction 4: Line perpendicular to a line l through a point on l
+con-5 [JC, maths16] Construction 5: Line parallel to a given line through a given point
+con-6 [JC, maths16] Construction 6: Divide a segment into 2 or 3 equal parts without measuring
+con-7 [HL, maths16] Construction 7: Divide a segment into any number of equal parts without measuring (JC-HL)
+con-8 [JC, maths16] Construction 8: Line segment of given length on a given ray
+con-9 [JC, maths16] Construction 9: Angle of a given number of degrees with a given ray as one arm
+con-10 [JC, maths16] Construction 10: Triangle given three sides (SSS)
+con-11 [JC, maths16] Construction 11: Triangle given SAS data
+con-12 [JC, maths16] Construction 12: Triangle given ASA data
+con-13 [JC, maths16] Construction 13: Right-angled triangle given hypotenuse and one other side
+con-14 [JC, maths16] Construction 14: Right-angled triangle given one side and an acute angle
+con-15 [JC, maths16] Construction 15: Rectangle given side lengths
+con-16 [OL, maths16] Construction 16: Circumcentre and circumcircle of a triangle (straight edge and compass)
+con-17 [OL, maths16] Construction 17: Incentre and incircle of a triangle (straight edge and compass)
+con-18 [OL, maths16] Construction 18: Angle of 60° without protractor or set square
+con-19 [OL, maths16] Construction 19: Tangent to a circle at a given point on it
+con-20 [OL, maths16] Construction 20: Parallelogram given side lengths and angles
+con-21 [OL, maths16] Construction 21: Centroid of a triangle
+con-22 [HL, maths16] Construction 22: Orthocentre of a triangle
+logic-terms [OL, maths16] Use the language of deductive reasoning
+logic-terms-hl [HL, maths16] Use equivalence, "if and only if" and proof by contradiction
+num-construct-root2-3 [HL, maths16] Construct √2 and √3 geometrically
+trig-ratios-right [JC, maths26] Use sin, cos, tan in a right-angled triangle
+trig-pythagoras [OL, maths26] Solve 2D problems with Pythagoras
+trig-elevation [JC, maths26] Solve heights-and-distances problems
+trig-area-triangle [OL, maths26] Find the area of a triangle with ½ab sin C
+trig-sine-rule [OL, maths26] Apply the sine rule
+trig-sine-ambiguous [HL, maths26] Handle the ambiguous case of the sine rule
+trig-cosine-rule [OL, maths26] Apply the cosine rule
+trig-triangle-problems [OL, maths26] Solve multi-step 2D triangle problems
+trig-3d [HL, maths26] Solve 3D trigonometry problems
+trig-unit-circle [OL, maths25] Define sin θ, cos θ, tan θ for all θ (unit circle)
+trig-exact-values [OL, maths25] Use trig ratios in surd form
+trig-solve-basic [OL, maths25] Solve sin θ = k, cos θ = k, tan θ = k in a range
+trig-radians [HL, maths25] Use radian measure
+trig-pythag-identity [HL, maths25] Use cos²A + sin²A = 1 (formula 1)
+trig-compound [HL, maths25] Apply compound angle formulae (4, 5, 7, 8, 9, 10)
+trig-double [HL, maths25] Apply double/half angle formulae (6, 11–16)
+trig-products-sums [HL, maths25] Apply product-to-sum and sum-to-product formulae (17–24)
+trig-prove-identity [HL, maths25] Prove a trig identity
+trig-solve-general [HL, maths25] Solve trig equations giving all solutions
+trig-solve-quadratic [HL, maths25] Solve trig equations reducible to quadratics
+trig-graph [HL, maths25] Graph sin, cos and tan
+trig-graph-abc [HL, maths25] Graph and analyse a + b sin cθ / a + b cos cθ
+trig-derive-1 [HL, maths25] Derive formula 1: cos²A + sin²A = 1
+trig-derive-2 [HL, maths25] Derive formula 2: the sine rule
+trig-derive-3 [HL, maths25] Derive formula 3: the cosine rule
+trig-derive-4 [HL, maths25] Derive formula 4: cos(A − B) = cos A cos B + sin A sin B
+trig-derive-5 [HL, maths25] Derive formula 5: cos(A + B) from formula 4
+trig-derive-6 [HL, maths25] Derive formula 6: cos 2A = cos²A − sin²A from formula 5
+trig-derive-7 [HL, maths25] Derive formula 7: sin(A + B) from formula 4
+trig-derive-9 [HL, maths25] Derive formula 9: tan(A + B) from formulae 5 and 7
+prob-counting-principle [JC, maths20] List outcomes and apply the fundamental principle of counting
+prob-factorial [OL, maths20] Count arrangements of n distinct objects
+prob-npr [OL, maths20] Count arrangements of r objects from n
+prob-arrangement-restrictions [OL, maths20] Count arrangements with restrictions
+prob-ncr [HL, maths20] Count selections and compute binomial coefficients
+prob-selection-restrictions [HL, maths20] Count selections with restrictions
+prob-sample-space [JC, maths20] Construct a sample space for two independent events
+prob-equally-likely [JC, maths20] Find a probability with equally likely outcomes
+prob-relative-frequency [JC, maths20] Estimate probability from experimental data
+prob-venn [OL, maths20] Use set notation and Venn diagrams for probability
+prob-addition-rule [HL, maths20] Apply the addition rule
+prob-independent [OL, maths20] Find the probability two independent events both occur
+prob-independence-test [HL, maths20] Test whether events are independent
+prob-conditional [HL, maths20] Apply conditional probability and the general multiplication rule
+prob-tree [OL, maths20] Use a tree diagram for multi-stage experiments
+prob-without-replacement [HL, maths20] Solve sampling problems with or without replacement
+prob-expected-value [OL, maths20] Calculate expected value and judge fairness
+prob-bernoulli-3 [OL, maths20] Solve problems with up to 3 Bernoulli trials
+prob-first-success [OL, maths20] Find the probability the first success is on trial n
+prob-binomial [HL, maths20] Find the probability of k successes in n trials
+prob-kth-success [HL, maths20] Find the probability the kth success is on trial n
+stat-data-types [OL, maths22] Classify data
+stat-populations-samples [OL, maths22] Distinguish population and sample; judge generalisation
+stat-srs-bias [OL, maths22] Select a simple random sample and spot bias
+stat-study-types [OL, maths22] Identify surveys, observational studies and designed experiments
+stat-sampling-methods-hl [HL, maths22] Define stratified, cluster and quota sampling; role of randomisation and controls
+stat-plan-collect [OL, maths22] Design a plan and questions to collect data
+stat-averages [JC, maths22] Find mean, median and mode (incl. frequency tables)
+stat-grouped-mean [OL, maths22] Estimate the mean of grouped data
+stat-charts [JC, maths22] Draw bar, pie, line plot, histogram and stem-and-leaf
+stat-choose-display [OL, maths22] Select an appropriate graphical/numerical summary
+stat-quartiles-iqr [OL, maths22] Find quartiles and the interquartile range
+stat-sd [OL, maths22] Calculate standard deviation (calculator)
+stat-distribution-shape [OL, maths22] Describe a distribution's shape
+stat-back-to-back [OL, maths22] Compare data sets with back-to-back stem-and-leaf plots
+stat-compare-hl [HL, maths22] Analyse plots to explain differences in centre and spread
+stat-outliers [OL, maths22] Recognise outliers
+stat-outlier-effect [HL, maths22] Explain the effect of outliers on summary statistics
+stat-percentiles [HL, maths22] Use percentiles for relative standing
+stat-scatter-correlation [OL, maths22] Read scatter plots and correlation
+stat-correlation-calc [HL, maths22] Calculate the correlation coefficient (calculator)
+stat-line-best-fit [HL, maths22] Draw a line of best fit by eye and predict
+inf-sampling-variability [OL, maths23] Recognise how sampling variability affects conclusions
+inf-interpret [OL, maths23] Interpret an analysis and relate it to the original question
+inf-histogram [OL, maths23] Interpret a histogram in terms of distribution
+inf-margin-of-error [OL, maths23] Calculate the margin of error for a proportion
+inf-hypothesis-concept [OL, maths23] State null and alternative hypotheses
+inf-hypothesis-moe [OL, maths23] Test a claim about a proportion using margin of error
+inf-sampling-distribution [HL, maths23] Use the sampling distribution of the mean
+inf-ci-mean [HL, maths23] Construct a 95% confidence interval for a mean (large sample)
+inf-ci-proportion [HL, maths23] Construct a 95% confidence interval for a proportion
+inf-confidence-width [HL, maths23] Relate confidence level, sample size and interval width
+inf-z-test [HL, maths23] Perform a two-tailed z-test of a population mean
+inf-p-value [HL, maths23] Calculate and interpret a p-value
+stat-empirical-rule [OL, maths24] Make decisions with the empirical rule
+stat-z-score [HL, maths24] Standardise a value
+stat-normal-prob [HL, maths24] Read probabilities from normal tables
+stat-normal-inverse [HL, maths24] Work backwards from a normal probability

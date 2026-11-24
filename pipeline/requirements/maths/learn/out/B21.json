@@ -1,0 +1,601 @@
+[
+ {
+  "skill": "line-equation",
+  "what": {
+   "say": [
+    "You give it a point on a line and the line's slope, $m$. It writes the **equation** of the line.",
+    "The key idea: every point $(x, y)$ on the line has the same slope to your point, so $y - y_1 = m(x - x_1)$. If you are given two points, find $m$ first."
+   ],
+   "in": "point and slope $m$",
+   "out": "$ax + by + c = 0$"
+  },
+  "how": {
+   "higher": "Higher level uses it almost every year on Paper 2 coordinate geometry, as a part of its own or as a step inside a longer question, for example the equation of a tangent on Paper 1 (10 marks, in four steps).",
+   "ordinary": "Ordinary level asks for it nearly every year on Paper 2, as a 5 or 10 mark part, usually from two points on a diagram and often with the answer in the form $ax + by + c = 0$."
+  },
+  "example": {
+   "question": "The points $A(-2, 1)$ and $B(4, 5)$ are on a line. Find the equation of the line. Give your answer in the form $ax + by + c = 0$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the slope",
+      "say": "The slope is rise over run. Take the $y$-values and the $x$-values in the same order.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{m} &= \\frac{5 - 1}{4 - (-2)}",
+        "sym": "(5-1)/(4+2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{4}{6}",
+        "sym": "4/6"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{2}{3}}",
+        "sym": "2/3"
+       }
+      ]
+     },
+     {
+      "title": "Use the line formula",
+      "say": "Put the slope $\\hl{1}{\\frac{2}{3}}$ and the point $A(-2, 1)$ into $y - y_1 = m(x - x_1)$.",
+      "lines": [
+       {
+        "tex": "y - 1 &= \\hl{1}{\\frac{2}{3}}(x + 2)",
+        "sym": "(2/3)*(x+2)",
+        "new": true
+       },
+       {
+        "text": "The $x - (-2)$ becomes $x + 2$."
+       }
+      ]
+     },
+     {
+      "title": "Clear the fraction",
+      "say": "Multiply both sides by $3$ so there is no fraction.",
+      "lines": [
+       {
+        "tex": "3(y - 1) &= 2(x + 2)",
+        "sym": "2*(x+2)",
+        "new": true
+       },
+       {
+        "tex": "3y - 3 &= 2x + 4",
+        "sym": "2*x+4"
+       }
+      ]
+     },
+     {
+      "title": "Put it in the form asked",
+      "say": "Move every term to one side so the other side is $0$. Keep the $x$ term positive.",
+      "lines": [
+       {
+        "tex": "2x - 3y + 7 &= 0",
+        "sym": "2*x-3*y+7",
+        "new": true
+       },
+       {
+        "text": "Check with $B(4, 5)$: $8 - 15 + 7 = 0$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2x - 3y + 7 = 0"
+   },
+   "finalSym": "2*x-3*y+7",
+   "answerSym": "3*((5-1)/(4+2)*(x+2)-(y-1))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Solutions to tangent and line questions are marked in steps, and the last step is the answer in the form asked. Finish with $ax + by + c = 0$ if the question says so.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q2#(a)(ii)",
+       "quote": "Step 4. Solution in required form"
+      }
+     ]
+    },
+    {
+     "tip": "You need both the slope and a point before the formula can earn credit. Find both, then substitute.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q2#(a)(ii)",
+       "quote": "Both Steps 1 and 2 need to be done"
+      }
+     ]
+    },
+    {
+     "tip": "An equation that is correct but not in the required form loses marks, so check what form is asked for.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q2#(a)",
+       "quote": "equation of line not in required form"
+      }
+     ]
+    },
+    {
+     "tip": "Write the line formula out with the numbers fully substituted. That earns high partial credit even if the tidying goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q2#(a)",
+       "quote": "Equation of line formula fully substituted"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Give the answer in the form asked. If the question wants $ax + by + c = 0$, a line left as $3x + 7y = 6$ loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q4#(a)(ii)",
+       "quote": "Apply a * for answer given as"
+      }
+     ]
+    },
+    {
+     "tip": "Fully substituting the formula earns high partial credit on its own, so always write that line.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q4#(a)(ii)",
+       "quote": "Correct formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "An answer not in the required format drops marks, even when the working is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q1#(b)",
+       "quote": "Answer not in required format"
+      }
+     ]
+    },
+    {
+     "tip": "Write the slope formula and substitute into it. Even some substitution is credited.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q3#(a)",
+       "quote": "Slope formula with some substitution"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-collinear",
+  "what": {
+   "say": [
+    "You give it three points. It shows whether they lie on one **straight line**.",
+    "The key idea: if the slope from $A$ to $B$ equals the slope from $B$ to $C$, and the two lines share the point $B$, they are the same line."
+   ],
+   "in": "three points",
+   "out": "collinear: yes or no"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 2 coordinate geometry, as a 10 to 15 mark part where you must show three points are collinear, by slopes, by area zero or by perpendicular distance zero."
+  },
+  "example": {
+   "question": "Show that the points $A(1, -1)$, $B(3, 2)$ and $C(7, 8)$ are collinear.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Slope of AB",
+      "say": "Find the slope of $AB$: rise over run.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{m_{AB}} &= \\frac{2 - (-1)}{3 - 1}",
+        "sym": "(2+1)/(3-1)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{3}{2}}",
+        "sym": "3/2"
+       }
+      ]
+     },
+     {
+      "title": "Slope of BC",
+      "say": "Find the slope of $BC$ the same way.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{m_{BC}} &= \\frac{8 - 2}{7 - 3}",
+        "sym": "(8-2)/(7-3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{6}{4}",
+        "sym": "6/4"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{3}{2}}",
+        "sym": "3/2"
+       }
+      ]
+     },
+     {
+      "title": "Compare and conclude",
+      "say": "The two slopes are equal and both lines pass through $B$. Write the conclusion in words.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{m_{AB}} - \\hl{1}{m_{BC}} &= 0",
+        "sym": "3/2-3/2",
+        "new": true
+       },
+       {
+        "text": "Equal slopes and the shared point $B$: $A$, $B$ and $C$ are collinear."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "A, B and C are collinear"
+   },
+   "finalSym": "0",
+   "answerSym": "(2+1)/(3-1)-(8-2)/(7-3)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Always end with a sentence saying the points are collinear. Showing the distance is $0$ and stopping loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q1#(a)",
+       "quote": "Distance = 0 but conclusion omitted"
+      }
+     ]
+    },
+    {
+     "tip": "Finding that the area of the triangle is $0$ is accepted too, but say it also means the points are collinear.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q1#(a)",
+       "quote": "Area of triangle ABC = 0 but perp. distance"
+      }
+     ]
+    },
+    {
+     "tip": "Start with the slope formula. Some substitution into it already earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q1#(a)",
+       "quote": "Slope formula with some substitution"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "line-intersection",
+  "what": {
+   "say": [
+    "You give it the equations of two lines. It finds the **point** where they cross.",
+    "The key idea: the crossing point is on both lines, so its $x$ and $y$ satisfy both equations at once. Solve them as simultaneous equations."
+   ],
+   "in": "two line equations",
+   "out": "the point $(x, y)$"
+  },
+  "how": {
+   "higher": "Higher level uses it on Paper 2 as a step in longer coordinate-geometry questions, such as finding a vertex, a foot of a perpendicular or the orthocentre, worth 5 to 10 marks.",
+   "ordinary": "Ordinary level asks for it on Paper 2 as a 5 to 10 mark part, solved by the graph, by substituting or by simultaneous equations."
+  },
+  "example": {
+   "question": "The line $l$ has equation $x + 2y = 7$. The line $k$ has equation $3x - 2y = 5$. Find the point where $l$ and $k$ cross.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Add to cancel y",
+      "say": "The $y$ terms are $+2y$ and $-2y$. Add the two equations and they cancel.",
+      "lines": [
+       {
+        "tex": "(x + 2y) + (3x - 2y) &= 7 + 5",
+        "sym": "7+5",
+        "new": true
+       },
+       {
+        "tex": "4x &= 12",
+        "sym": "12"
+       },
+       {
+        "tex": "\\hl{2}{x} &= 3",
+        "sym": "3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find y",
+      "say": "Put $\\hl{2}{x = 3}$ into the equation of $l$ and solve for $y$.",
+      "lines": [
+       {
+        "tex": "3 + 2y &= 7",
+        "sym": "7",
+        "new": true
+       },
+       {
+        "tex": "2y &= 4",
+        "sym": "4",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{y} &= 2",
+        "sym": "2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Check in the other line",
+      "say": "The point must also be on $k$. Put both values into $3x - 2y$.",
+      "lines": [
+       {
+        "tex": "3(3) - 2(2) &= 9 - 4",
+        "sym": "9-4",
+        "new": true
+       },
+       {
+        "tex": "&= 5",
+        "sym": "5"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(\\hl{2}{3}, \\hl{3}{2})"
+   },
+   "finalSym": "(3,2)",
+   "answerSym": "[(7+5)/4,(7-(7+5)/4)/2]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show that you are solving two equations together. Writing down simultaneous equations earns credit even before you finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q2#(b)(ii)",
+       "quote": "Indication of use of simultaneous equations"
+      }
+     ]
+    },
+    {
+     "tip": "If the point is a vertex or foot, getting to the intersection of the two lines is the step that earns the marks, so always attempt it.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q5#(b)",
+       "quote": "Effort at finding intersection of lines"
+      }
+     ]
+    },
+    {
+     "tip": "Each coordinate is a step of its own. Find one, then the other.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q9#(c)",
+       "quote": "5. Find the other co-ordinate of the point of intersection of the two lines"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Finding both equations but not solving them earns only partial credit. Go on and solve.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q10#(a)(ii)",
+       "quote": "Both equations found but not solved"
+      }
+     ]
+    },
+    {
+     "tip": "Even trying simultaneous equations is credited, so set them up.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q4#(c)",
+       "quote": "Effort to solve using simultaneous equations."
+      }
+     ]
+    },
+    {
+     "tip": "Substituting a value of $x$ into the line equations is credited on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q4#(c)",
+       "quote": "Effort at substituting a value of x into"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-parallel-perp",
+  "what": {
+   "say": [
+    "You give it a line. It gives you the slope of any line **parallel** or **perpendicular** to it.",
+    "The key idea: parallel lines have equal slopes, and perpendicular slopes multiply to $-1$. Turn the slope upside down and change its sign."
+   ],
+   "in": "slope $m$",
+   "out": "parallel $m$, perpendicular $-\\frac{1}{m}$"
+  },
+  "how": {
+   "higher": "Higher level uses it on Paper 2 as a step inside bigger coordinate-geometry questions: finding an altitude, a perpendicular bisector or a perpendicular from a point, worth 10 marks.",
+   "ordinary": "Ordinary level asks for it on Paper 2 almost every year, as a 5 or 10 mark part where you find slopes and decide if lines are parallel or perpendicular, or find a line through a point."
+  },
+  "example": {
+   "question": "The line $l$ has equation $2x + 3y - 6 = 0$. The line $k$ passes through $P(4, 1)$ and is perpendicular to $l$. Find the equation of $k$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the slope of l",
+      "say": "Make $y$ the subject to read off the slope.",
+      "lines": [
+       {
+        "tex": "3y &= -2x + 6",
+        "sym": "-2*x+6",
+        "new": true
+       },
+       {
+        "tex": "y &= -\\frac{2}{3}x + 2",
+        "sym": "(-2*x+6)/3",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{m_l} &= \\hl{1}{-\\frac{2}{3}}",
+        "sym": "-2/3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the perpendicular slope",
+      "say": "Perpendicular slopes multiply to $-1$. Turn $\\hl{1}{-\\frac{2}{3}}$ upside down and change the sign.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{m_k} &= -1 \\div \\left(-\\frac{2}{3}\\right)",
+        "sym": "-1/(-2/3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{3}{2}}",
+        "sym": "3/2"
+       },
+       {
+        "text": "Check: $-\\frac{2}{3} \\times \\frac{3}{2} = -1$."
+       }
+      ]
+     },
+     {
+      "title": "Line through P",
+      "say": "Use the slope $\\hl{2}{\\frac{3}{2}}$ and the point $P(4, 1)$ in $y - y_1 = m(x - x_1)$.",
+      "lines": [
+       {
+        "tex": "y - 1 &= \\hl{2}{\\frac{3}{2}}(x - 4)",
+        "sym": "(3/2)*(x-4)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Tidy the equation",
+      "say": "Multiply by $2$ to clear the fraction, then move every term to one side.",
+      "lines": [
+       {
+        "tex": "2(y - 1) &= 3(x - 4)",
+        "sym": "3*(x-4)",
+        "new": true
+       },
+       {
+        "tex": "2y - 2 &= 3x - 12",
+        "sym": "3*x-12"
+       },
+       {
+        "tex": "3x - 2y - 10 &= 0",
+        "sym": "3*x-2*y-10",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3x - 2y - 10 = 0"
+   },
+   "finalSym": "3*x-2*y-10",
+   "answerSym": "2*((3/2)*(x-4)-(y-1))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Finding the perpendicular slope is a marked step of its own. Write it down.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q9#(c)",
+       "quote": "2. Find the perpendicular slope"
+      }
+     ]
+    },
+    {
+     "tip": "To prove two lines are perpendicular, find both slopes, show the product is $-1$ and write that the lines are perpendicular.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q3#(c)",
+       "quote": "lines are perpendicular"
+      }
+     ]
+    },
+    {
+     "tip": "Start with the slope formula. Some relevant substitution earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q1#(a)",
+       "quote": "slope formula with some relevant"
+      }
+     ]
+    },
+    {
+     "tip": "A line through a vertex parallel to the opposite side is a marked step. Use the parallel slope.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q1#(a)",
+       "quote": "equation of line through B parallel to AC"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Show that you know how perpendicular slopes relate. That alone earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q1#(a)(ii)",
+       "quote": "Shows an understanding of relationship between perpendicular lines and their slopes"
+      }
+     ]
+    },
+    {
+     "tip": "Saying a line is at $90°$ earns nothing. Use slopes to justify it.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q1#(a)(ii)",
+       "quote": "Mention of 90°"
+      }
+     ]
+    },
+    {
+     "tip": "If the question has a box to tick, tick it. Correct work without the box ticked loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q1#(a)(ii)",
+       "quote": "Fully correct work but box not ticked"
+      }
+     ]
+    },
+    {
+     "tip": "A slope question can have three items to earn: the box ticked and the slope of each line. Find both slopes.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q4#(b)",
+       "quote": "Three items involved in solution"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

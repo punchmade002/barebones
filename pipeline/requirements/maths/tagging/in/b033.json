@@ -1,0 +1,448 @@
+[
+ {
+  "part": "maths-pp-2023-ordinary-p1-q5#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the cost of one metre\nDivide the cost by the length.\n\\text{Cost per metre} &= \\frac{12\\,000}{240}\n&= 50\n## Multiply by 320 metres\n\\text{Cost} &= 50 \\times 320\n&= 16\\,000\nANSWER: €16\\,000"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q5#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Find the total person-days of work\nThe job needs the same amount of work however many people share it.\n6 \\times 8 &= 48\n## Divide among 4 people\n\\text{Days} &= \\frac{48}{4}\n&= 12\nANSWER: 12 \\text{ days}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q5#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Use time = distance ÷ speed\n\\text{Time} &= \\frac{120}{180}\n&= \\frac{2}{3}\nANSWER: \\frac{2}{3} \\text{ hour}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q5#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Time from A to B\nT_1 &= \\frac{2}{3}\n## Time from B to A\nT_2 &= \\frac{120}{220}\n&= \\frac{6}{11}\n## Add the times and find the total distance\nTotal distance there and back is $2 \\times 120 = 240$ km.\n\\text{Total time} &= \\frac{2}{3} + \\frac{6}{11}\n&= \\frac{22}{33} + \\frac{18}{33}\n&= \\frac{40}{33}\n## Average speed = total distance ÷ total time\n\\text{Average speed} &= \\frac{240}{\\frac{40}{33}}\n&= 240 \\times \\frac{33}{40}\n&= 198\nANSWER: 198 \\text{ km/hour}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q6#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = −5 into g(x)\ng(-5) &= (-5)^2 + 8(-5) - 6\n&= 25 - 40 - 6\n## Evaluate\n&= -15 - 6\n&= -21\nANSWER: g(-5) = -21"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q6#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate g(x)\nThe graph of $g$ is a U-shape, so the minimum is where the slope is zero.\ng(x) &= x^2 + 8x - 6\ng'(x) &= 2x + 8\n## Set the derivative equal to zero\n2x + 8 &= 0\n2x &= -8\nx &= -4\nANSWER: x = -4"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Write the square as a product\n(2x-4)^2 - 6 &= (2x-4)(2x-4) - 6\n## Multiply out each term\n&= 4x^2 - 8x - 8x + 16 - 6\n## Collect like terms\n&= 4x^2 - 16x + 10\nANSWER: 4x^2 - 16x + 10"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q6#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Identify a, b and c\nCompare $9x^2 + 6x - 5 = 0$ with $ax^2 + bx + c = 0$.\na &= 9\nb &= 6\nc &= -5\n## Write the quadratic formula\nx &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n## Substitute a, b and c\nx &= \\frac{-6 \\pm \\sqrt{6^2 - 4(9)(-5)}}{2(9)}\nx &= \\frac{-6 \\pm \\sqrt{36 + 180}}{18}\nx &= \\frac{-6 \\pm \\sqrt{216}}{18}\n## Find the root using the plus sign\nx &= \\frac{-6 + \\sqrt{216}}{18}\nx &= \\frac{-6 + 14.697}{18}\nx &\\approx 0.483\nx &\\approx 0.48\n## Find the root using the minus sign\nx &= \\frac{-6 - \\sqrt{216}}{18}\nx &= \\frac{-6 - 14.697}{18}\nx &\\approx -1.150\nx &\\approx -1.15\nANSWER: x \\approx 0.48 \\text{ or } x \\approx -1.15"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q7#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Substitute S = 15 into the formula\nC &= \\frac{1000}{15 + 10}\nC &= \\frac{1000}{25}\nC &= 40\nANSWER: C = 40"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q7#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Look at the denominator\nAs $S$ increases, $S + 10$ gets bigger.\nThe numerator stays at $1000$, so dividing by a bigger number gives a smaller result.\nFor example, when $S = 15$, $C = 40$.\n## Check with a larger S\nWhen $S = 20$, $C = \\frac{1000}{30} \\approx 33.3$, which is smaller.\nANSWER: \\text{Decreases: the denominator } S + 10 \\text{ gets bigger while the numerator stays at } 1000"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q7#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Multiply both sides by S + 10\nC &= \\frac{1000}{S + 10}\nC(S + 10) &= 1000\n## Expand the bracket\nCS + 10C &= 1000\n## Subtract 10C from both sides\nCS &= 1000 - 10C\n## Divide both sides by C\nS &= \\frac{1000 - 10C}{C}\nANSWER: S = \\frac{1000 - 10C}{C}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q7#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find S when C = 30\n$C$ gets smaller as $S$ gets bigger, so $C = 30$ gives the largest $S$.\nS &= \\frac{1000 - 10(30)}{30}\nS &= \\frac{1000 - 300}{30}\nS &= \\frac{700}{30}\nS &\\approx 23.33\n## Find S when C = 100\nS &= \\frac{1000 - 10(100)}{100}\nS &= \\frac{1000 - 1000}{100}\nS &= 0\n## State the range\n$S$ goes from $0$ to about $23.3$.\nANSWER: S \\text{ goes from } 0 \\text{ to } 23.3"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q7#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Find P(0)\nP(0) &= 0.3 + 0.02(0)\n&= 0.3 + 0\n&= 0.3\n## Find P(24)\nP(24) &= 0.3 + 0.02(24)\n&= 0.3 + 0.48\n&= 0.78\nANSWER: P(0) = 0.3 \\text{ and } P(24) = 0.78"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q7#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate P(t)\nThe derivative of a constant is $0$, and the derivative of $0.02t$ is $0.02$.\nP(t) &= 0.3 + 0.02t\nP'(t) &= 0.02\n## Explain the meaning\n$P'(t)$ is the rate of change of the probability of rain with respect to time.\nSo the probability that it is raining in Waterville increases by $0.02$ (2%) every hour.\nANSWER: P'(t) = 0.02 \\text{: the probability of rain increases by } 0.02 \\text{ (2\\%) every hour}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q7#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Add one hour of change\nThe probability increases by $P'(t) = 0.02$ each hour.\nP &= 0.35 + 0.02\n&= 0.37\nANSWER: 0.37"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Multiply length by width\nA &= 50 \\times 30\n&= 1500\nANSWER: 1500 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q8#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Write the Trapezoidal Rule\nA &\\approx \\frac{h}{2}\\left[y_0 + y_n + 2(y_1 + y_2 + \\dots + y_{n-1})\\right]\n## Read off h and the widths\nThe strips are $h = 3$ m wide. From the left end the widths are $0, 10, 14, 12, 10, 8, 2$.\nThe first width is $y_0 = 0$ (the pond ends in a point) and the last is $y_n = 2$.\n## Substitute into the rule\nA &= \\frac{3}{2}\\left[0 + 2 + 2(10 + 14 + 12 + 10 + 8)\\right]\n&= \\frac{3}{2}\\left[0 + 2 + 2(54)\\right]\n&= \\frac{3}{2}\\left[2 + 108\\right]\n&= \\frac{3}{2}(110)\n&= 165\nANSWER: 165 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q8#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Use more strips\nMeasure the width of the pond at smaller intervals (more vertical lines, for example every 1.5 m).\nThe trapezoids then follow the curved edge of the pond more closely, and measuring each width more accurately also helps.\nANSWER: \\text{Use more strips (measure the width at smaller intervals)}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q8#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the area of grass\nGrass area is the whole garden minus the pond.\n\\text{Grass} &= 1500 - 172\n&= 1328\n## Find the cost\n\\text{Cost} &= 1328 \\times 2.55\n&= 3386.40\n## Round to the nearest ten euro\n&\\approx 3390\nANSWER: \\text{€}3390"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q8#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Write the price as a percentage\nThe price with duty is $100\\% + 16.9\\% = 116.9\\%$ of the price before duty.\n116.9\\% &\\to \\pounds 840\n## Find 100%\n\\text{Before duty} &= \\frac{840}{116.9} \\times 100\n&\\approx 718.5629\n&\\approx 718.56\nANSWER: \\pounds 718.56"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q8#(f)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Convert pounds to euro\nDividing by the rate $0.8547$ turns pounds into euro.\n\\text{Euro} &= \\frac{840}{0.8547}\n## Add the 2.5% commission\nThe commission is $2.5\\%$ extra, so multiply by $1.025$.\n\\text{Total} &= \\frac{840}{0.8547} \\times 1.025\n&\\approx 1007.371\n&\\approx 1007.37\nANSWER: \\text{€}1007.37"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Read the dot at day 12\nFind $t = 12$ on the horizontal axis and go up to the dot.\nThe dot sits halfway between the $1000$ line and the $2000$ line.\n\\text{Actual cases} &\\approx 1500\nANSWER: 1500"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Use the percentage error formula\nPercentage error is the error divided by the actual value, times $100$.\n\\text{Error} &= \\frac{|1000 - 1500|}{1500} \\times 100\n&= \\frac{500}{1500} \\times 100\n&= 33.33\\ldots\n&\\approx 33\\%\nANSWER: 33\\%"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q9#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Read two values from the curve\nChoose a day on the curve and the day 5 days later.\n\\text{Day } 15 &\\approx 1500\n\\text{Day } 20 &\\approx 3000\n## Compare the two values\n\\frac{3000}{1500} &= 2\nThe number of cases doubles in about 5 days.\nANSWER: \\text{Cases double from about 1500 to 3000 in 5 days}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q9#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Keep doubling every 5 days\nStart at day 15 with $1500$ cases and double each time the day goes up by 5.\n\\text{Day } 15 &= 1500\n\\text{Day } 20 &= 3000\n\\text{Day } 25 &= 6000\n\\text{Day } 30 &= 12000\n\\text{Day } 35 &= 24000\n\\text{Day } 40 &= 48000\n\\text{Day } 45 &= 96000\n## Take one more day\nOn day 45 there are $96000$ cases, which is still under $100000$.\nCases grow by about $15\\%$ a day (doubling in 5 days), so day 46 is about $110000$, which is over $100000$.\nANSWER: t = 46"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q9#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 20,
+  "solution": "## Find D(0)\nD(0) &= 2100 \\times 1.18^0\n&\\approx 2100.00\n&\\approx 2100\n## Find D(1)\nD(1) &= 2100 \\times 1.18^1\n&\\approx 2478.00\n&\\approx 2478\n## Use the value given for D(2)\nThe table already gives $D(2) = 2924$.\n## Find D(3)\nD(3) &= 2100 \\times 1.18^3\n&\\approx 3450.37\n&\\approx 3450\n## Find D(4)\nD(4) &= 2100 \\times 1.18^4\n&\\approx 4071.43\n&\\approx 4071\n## Find D(5)\nD(5) &= 2100 \\times 1.18^5\n&\\approx 4804.29\n&\\approx 4804\n## Use the value given for D(6)\nThe table already gives $D(6) = 5669$.\n## Complete the table\n$t$: 0, 1, 2, 3, 4, 5, 6\n$D(t)$: 2100, 2478, 2924, 3450, 4071, 4804, 5669\n## Plot the points and draw the curve\nPlot each point $(t, D(t))$ on the grid.\nJoin the points with a smooth curve that rises more steeply as $t$ increases.\nANSWER: D(t) = 2100, 2478, 2924, 3450, 4071, 4804, 5669 \\text{ for } t = 0, \\ldots, 6"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q9#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 14 and K = 21309\n21309 &= a \\times 0.83^{14}\n## Divide by 0.83^14\na &= \\frac{21309}{0.83^{14}}\na &\\approx 289380.84\n## Write in the form b × 10^n\na &\\approx 2.89 \\times 10^{5}\nANSWER: a = 2.89 \\times 10^{5}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q10#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Find the radius\nr &= \\frac{18}{2}\nr &= 9\n## Substitute into the cylinder formula\nThe volume of a cylinder is $V = \\pi r^2 h$.\nV &= \\pi (9)^2 (5)\n&= 405\\pi\n&\\approx 1272.345\n&\\approx 1272\nANSWER: 1272 \\text{ mm}^3"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q10#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Subtract the removed cylinder\nThe removed cylinder has radius $14 \\div 2 = 7$ mm and height $5$ mm.\nV &= \\pi (9)^2 (5) - \\pi (7)^2 (5)\n&= 405\\pi - 245\\pi\n&= 160\\pi\n## Evaluate and round\n&\\approx 502.65\n&\\approx 503\nANSWER: 503 \\text{ mm}^3"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q10#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## (i) Write gold as a fraction of the weight\n\\text{Percentage} &= \\frac{3}{8} \\times 100\n&= 37.5\n## (ii) Add up the ratio parts\n15 + 4 + 1 &= 20\n## (ii) Find the gold in 25 grams\nGold is $15$ of the $20$ parts.\n\\text{Gold} &= \\frac{15}{20} \\times 25\n&= 18.75\nANSWER: 37.5\\% \\text{ and } 18.75 \\text{ g}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q10#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Write the percentages as a ratio\na : b : c &= 75 : 22.25 : 2.75\n## Remove the decimals\nMultiply every part by $100$.\na : b : c &= 7500 : 2225 : 275\n## Simplify\nDivide every part by $25$, the highest common factor.\na : b : c &= 300 : 89 : 11\nANSWER: 300 : 89 : 11"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q10#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Insure the first €1000 at 1%\n0.01 \\times 1000 &= 10\n## Insure the excess over €1000 at 2%\n1800 - 1000 &= 800\n0.02 \\times 800 &= 16\n## Add the two amounts\n\\text{Cost} &= 10 + 16\n&= 26\nANSWER: \\text{€}26"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q10#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Decide which band the value is in\nThe first €1000 costs €10, and a value of €10 000 costs €190, so €142.80 is in the middle band.\nLet $V$ be the value. The cost is $10 + 2\\%$ of the excess over €1000.\n## Write an equation\n10 + 0.02(V - 1000) &= 142.80\n## Solve for V\n0.02(V - 1000) &= 132.80\nV - 1000 &= \\frac{132.80}{0.02}\nV - 1000 &= 6640\nV &= 7640\nANSWER: \\text{€}7640"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q10#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Insure the first €10 000\n0.01 \\times 1000 &= 10\n0.02 \\times 9000 &= 180\n10 + 180 &= 190\n## Find the cost for the excess\n435 - 190 &= 245\n## Find the excess value\n17500 - 10000 &= 7500\n## Solve for r\n$r\\%$ of the excess is the €245.\n\\frac{r}{100} \\times 7500 &= 245\n75r &= 245\nr &= \\frac{245}{75}\nr &\\approx 3.267\nr &\\approx 3.3\nANSWER: r \\approx 3.3\\%"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q1#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Write the slope formula\nSlope $m = \\dfrac{y_2 - y_1}{x_2 - x_1}$ for points $(x_1, y_1)$ and $(x_2, y_2)$.\n## Substitute A(4, 2) and B(1, 8)\nm &= \\frac{y_2 - y_1}{x_2 - x_1}\n&= \\frac{8 - 2}{1 - 4}\n&= \\frac{6}{-3}\n&= -2\nANSWER: m = -2"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q1#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Write the distance formula\n$|AB| = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$\n## Substitute A(4, 2) and B(1, 8)\n|AB| &= \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\n&= \\sqrt{(1 - 4)^2 + (8 - 2)^2}\n&= \\sqrt{(-3)^2 + 6^2}\n&= \\sqrt{9 + 36}\n&= \\sqrt{45}\n## Simplify the surd\n\\sqrt{45} &= \\sqrt{9 \\times 5}\n&= 3\\sqrt{5}\nANSWER: |AB| = \\sqrt{45} = 3\\sqrt{5}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Substitute into the point-slope formula\ny - y_1 &= m(x - x_1)\ny - 7 &= \\frac{1}{3}\\left(x - (-2)\\right)\ny - 7 &= \\frac{1}{3}(x + 2)\n## Multiply both sides by 3\n3(y - 7) &= x + 2\n## Expand the bracket\n3y - 21 &= x + 2\n## Move every term to one side\n0 &= x + 2 - 3y + 21\nx - 3y + 23 &= 0\nANSWER: x - 3y + 23 = 0"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q1#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the end points of the slope 2 segment\nSlope 2 means the line is $y - 2 = 2(x - 4)$. The range $-2 \\le y \\le 6$ fixes where the segment stops.\ny - 2 &= 2(x - 4)\ny &= 2x - 6\nWhen $y = -2$: $-2 = 2x - 6$, so $x = 2$. When $y = 6$: $6 = 2x - 6$, so $x = 6$.\n## Draw the slope 2 segment\nPlot $(2, -2)$ and $(6, 6)$, then join them with a straight line through $(4, 2)$. It also passes through $(3, 0)$ and $(5, 4)$.\n## Find the end points of the slope $-\\tfrac{2}{3}$ segment\nThe line is $y - 2 = -\\tfrac{2}{3}(x - 4)$. The domain $-1 \\le x \\le 7$ fixes where the segment stops.\ny - 2 &= -\\frac{2}{3}(x - 4)\ny &= -\\frac{2}{3}x + \\frac{14}{3}\nWhen $x = 7$: $y = 0$. When $x = -1$: $y = \\tfrac{16}{3} \\approx 5.33$.\n## Draw the slope $-\\tfrac{2}{3}$ segment\nFrom $(4, 2)$ go 3 right and 2 down to reach $(7, 0)$. Extend the line left to $x = -1$ (about $y = 5.33$).\nANSWER: y = 2x - 6 \\text{ and } y = -\\tfrac{2}{3}x + \\tfrac{14}{3}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q2#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Read off the centre and radius\nA circle $x^2 + y^2 = r^2$ has its centre at the origin and radius $r$.\nx^2 + y^2 &= 25\nr^2 &= 25\nr &= 5\n## Substitute (3, -4) into the equation\n3^2 + (-4)^2 &= 9 + 16\n&= 25\nThis equals the right-hand side, so $(3, -4)$ is on the circle $s$.\nANSWER: \\text{Centre } (0, 0),\\ r = 5;\\ 3^2 + (-4)^2 = 25"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q2#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Test the point (0, 5)\n0^2 + 5^2 &= 0 + 25\n&= 25\nSo $(0, 5)$ is on the circle.\n## Test the point (5, 0)\n5^2 + 0^2 &= 25 + 0\n&= 25\nSo $(5, 0)$ is on the circle.\nANSWER: (0, 5) \\text{ and } (5, 0)"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8",
+   "maths5"
+  ],
+  "marks": 15,
+  "solution": "## Make y the subject of the line\n5x - y - 13 &= 0\ny &= 5x - 13\n## Substitute y = 5x - 13 into the circle\nx^2 + y^2 &= 13\nx^2 + (5x - 13)^2 &= 13\n## Expand the bracket\n(5x - 13)^2 &= (5x - 13)(5x - 13)\n&= 25x^2 - 65x - 65x + 169\n&= 25x^2 - 130x + 169\n## Simplify to a quadratic equation\nx^2 + 25x^2 - 130x + 169 &= 13\n26x^2 - 130x + 169 &= 13\n26x^2 - 130x + 156 &= 0\nx^2 - 5x + 6 &= 0\n## Factorise and solve for x\nx^2 - 5x + 6 &= 0\n(x - 2)(x - 3) &= 0\nx &= 2 \\text{ or } x = 3\n## Find y when x = 2\ny &= 5(2) - 13\ny &= -3\n## Find y when x = 3\ny &= 5(3) - 13\ny &= 2\n## State the points of intersection\nThe line meets the circle at $(2, -3)$ and $(3, 2)$.\nANSWER: (2, -3) \\text{ and } (3, 2)"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q3#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Arrange all 7 different letters\nCAMOGIE has 7 different letters, so there are $7!$ arrangements.\n\\text{Ways} &= 7!\n&= 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1\n&= 5040\nANSWER: 5040"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q3#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Fix the first and last letters\nThe first letter must be M: 1 way. The last letter is a vowel (A, O, I or E): 4 ways.\n## Arrange the other 5 letters in the middle\nAfter using M and one vowel, 5 letters remain, giving $5!$ ways.\n\\text{Ways} &= 1 \\times 5! \\times 4\n&= 120 \\times 4\n&= 480\nANSWER: 480"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q3#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Choose and order 3 different letters\nOrder matters, and no letter is repeated: 7 choices, then 6, then 5.\n\\text{Ways} &= 7 \\times 6 \\times 5\n&= 210\nANSWER: 210"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q3#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Match the negative correlation\nScatterplot A slopes downward, so it has negative correlation: $-0.95$.\n## Match the strong positive correlation\nScatterplots B and C slope upward. B has its points close to a straight line, so it is the strongest: $0.95$.\n## Match the weaker positive correlation\nScatterplot C is positive but its points are more spread out, so it is $0.6$.\n## Explain the choice for B\nScatterplot B shows strong positive linear correlation: as $x$ goes up, $y$ goes up, and the points all lie close to a positive straight line.\nANSWER: 0.95: \\text{B};\\ 0.6: \\text{C};\\ -0.95: \\text{A}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q4#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the three independent probabilities\nEach throw scores with probability $0.7$, and the throws are independent.\nP(\\text{SSS}) &= 0.7 \\times 0.7 \\times 0.7\n&= 0.343\nANSWER: 0.343"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q4#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find the probability of one arrangement\nMissing a throw has probability $1 - 0.7 = 0.3$. Take scoring, scoring, missing (SSF).\nP(\\text{SSF}) &= 0.7 \\times 0.7 \\times 0.3\n&= 0.147\n## Count the arrangements\nThe one miss can be in 3 places: SSF, SFS or FSS. Each has probability $0.147$.\nP(\\text{exactly 2}) &= 3 \\times 0.147\n&= 0.441\nANSWER: 0.441"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q4#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Give a reason\nPrevious performance may affect future performance. For example, after missing a throw he may lose confidence, or he may get tired as the match goes on.\nANSWER: \\text{Earlier throws may affect how well he scores later throws}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Find the total number of games\n\\sum f &= 4 + 5 + 4 + 2 + 3 + 1\n&= 19\n## Find the total number of points\nMultiply each number of points by its number of games.\n\\sum fx &= 4(0) + 5(6) + 4(8) + 2(10) + 3(12) + 1(16)\n&= 0 + 30 + 32 + 20 + 36 + 16\n&= 134\n## Divide to find the mean\n\\mu &= \\frac{\\sum fx}{\\sum f}\n&= \\frac{134}{19}\n&= 7.0526\\ldots\n&\\approx 7.05\nANSWER: \\mu = 7.05 \\text{ points}"
+ }
+]

@@ -1,0 +1,372 @@
+[
+ {
+  "part": "maths-pp-2015-ordinary-p2-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 20,
+  "solution": "## Find x\nThe top and bottom sides of the parallelogram are parallel, and the diagonal crosses them.\nx &= 30^\\circ\nReason: alternate angles are equal.\n## Find y\nThe triangle at the left has angles $110^\\circ$, $30^\\circ$ and $y^\\circ$.\ny &= 180^\\circ - 110^\\circ - 30^\\circ\n&= 40^\\circ\nReason: the angles in a triangle add up to $180^\\circ$.\n## Find z\n$z$ matches the whole angle at the bottom left, which is $x + y$.\nz &= x + y\n&= 30^\\circ + 40^\\circ\n&= 70^\\circ\nReason: corresponding angles are equal (the left and right sides are parallel). Equivalently, an exterior angle equals the sum of the two opposite interior angles.\nANSWER: x = 30^\\circ,\\; y = 40^\\circ,\\; z = 70^\\circ"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q4#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Find the area of triangle ABD\nThe diagonal $[BD]$ cuts the parallelogram into two triangles of equal area.\n|\\triangle ABD| &= \\tfrac{1}{2}(480)\n&= 240 \\text{ m}^2\n## Find the area of triangle BCE\nTriangle $BCD$ is the other half of the parallelogram, so its area is $240\\text{ m}^2$.\n$E$ is the midpoint of $[CD]$, so $[CE]$ is half of $[CD]$. Triangles $BCE$ and $BCD$ have the same height from $B$, so $BCE$ has half the area.\n|\\triangle BCE| &= \\tfrac{1}{2} \\times 240\n&= 120 \\text{ m}^2\nANSWER: 240 \\text{ m}^2,\\; 120 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q5#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Use the sine rule in triangle BCD\n$|BC|$ is opposite the $42^\\circ$ angle, and $|BD| = 16$ is opposite the $110^\\circ$ angle.\n\\frac{|BC|}{\\sin 42^\\circ} &= \\frac{16}{\\sin 110^\\circ}\n## Solve for |BC|\n|BC| &= \\frac{16 \\sin 42^\\circ}{\\sin 110^\\circ}\n&= 11.393\\ldots\n&= 11.39 \\text{ m}\nANSWER: |BC| = 11.39 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q5#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find the angle at B\n|\\angle DBC| &= 180^\\circ - (42^\\circ + 110^\\circ)\n&= 28^\\circ\n## Use the area formula\nTwo sides and the angle between them: $|BC|$, $|BD|$ and $\\angle DBC$.\n\\text{Area} &= \\tfrac{1}{2}ab\\sin C\n|\\triangle BCD| &= \\tfrac{1}{2}(16)(11.39)\\sin 28^\\circ\n&= 42.778\\ldots\n&= 42.78 \\text{ m}^2\nANSWER: 42.78 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find the angle at D in triangle ABD\n|\\angle BDA| &= 180^\\circ - (63^\\circ + 42^\\circ)\n&= 75^\\circ\n## Use the cosine rule\n$|AD| = 10$ and $|BD| = 16$ enclose the $75^\\circ$ angle.\n|AB|^2 &= 10^2 + 16^2 - 2(10)(16)\\cos 75^\\circ\n&= 273.178\\ldots\n## Take the square root\n|AB| &= \\sqrt{273.178}\n&= 16.528\\ldots\n&= 16.53 \\text{ m}\nANSWER: |AB| = 16.53 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q6#(a)(i), (ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 20,
+  "solution": "## Strong positive correlation: points rise steeply\nPlot at least ten points that rise from bottom left to top right, close to a straight line going up.\nAs $x$ increases, $y$ increases, and the points stay tightly around the line.\n## Strong negative correlation: points fall steeply\nPlot at least ten points that fall from top left to bottom right, close to a straight line going down.\nAs $x$ increases, $y$ decreases, and the points stay tightly around the line.\n## No correlation: points scattered\nPlot at least ten points spread all over the grid with no pattern, neither rising nor falling.\nANSWER: \\text{Three scatter graphs drawn}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q6#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Find the margin of error\nThe margin of error is $E = \\frac{1}{\\sqrt{n}}$, where $n = 1000$ is the sample size.\nE &= \\frac{1}{\\sqrt{n}}\n&= \\frac{1}{\\sqrt{1000}}\n&= 0.0316\\ldots\n&= 3.2\\%\n## Write the 95% confidence interval\nThe interval is $\\hat{p} - E \\le p \\le \\hat{p} + E$, with $\\hat{p} = 54\\%$.\n54 - 3.2 &\\le p \\le 54 + 3.2\n50.8 &\\le p \\le 57.2\nANSWER: E = 3.2\\%, \\quad 50.8\\% \\le p \\le 57.2\\%"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q7#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Join each vertex to its image\nIn an enlargement, a point, its image and the centre lie on one straight line.\nUse a ruler to draw a line through $A$ and $P$, a line through $B$ and $Q$, and a line through $C$ and $R$.\n## Mark the centre\nExtend the lines until they meet. Their meeting point is the centre of enlargement.\nLabel this point $O$. It lies above and to the left of the two triangles.\nANSWER: \\text{Centre } O \\text{ constructed}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q7#(a)(ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Measure |OB| and |OQ|\nMeasure with a ruler, in cm. The printed triangle has $|AB| = 5$ cm. Any answer within 5 mm is accepted.\n|OB| &\\approx 15 \\text{ cm}\n|OQ| &\\approx 22.5 \\text{ cm}\n## Find the scale factor\nThe scale factor is the image distance divided by the original distance.\nk &= \\frac{|OQ|}{|OB|}\n&= \\frac{22.5}{15}\n&= 1.5\nANSWER: k = 1.5"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the area by the scale factor squared\nAreas scale by $k^2$, because both length and width are multiplied by $k$.\n\\text{Area } PQR &= k^2 \\times \\text{Area } ABC\n&= (1.5)^2 \\times 7.5\n&= 2.25 \\times 7.5\n&= 16.875 \\text{ cm}^2\nANSWER: 16.875 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q7#(c)(i), (ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## (i) Find |PQ|\nEach image length is $k$ times the original length.\n|PQ| &= k \\times |AB|\n&= 1.5 \\times 5\n&= 7.5 \\text{ cm}\n## (ii) Find |BC|\nDivide the image length by $k$ to get the original length.\n|BC| &= \\frac{|QR|}{k}\n&= \\frac{8.7}{1.5}\n&= 5.8 \\text{ cm}\n## (iii) Show the angles are equal using cosines\nBoth triangles have a right angle ($A$ and $P$), so $\\cos$ is adjacent over hypotenuse.\n\\cos|\\angle ABC| &= \\frac{|AB|}{|BC|} = \\frac{5}{5.8}\n\\cos|\\angle PQR| &= \\frac{|PQ|}{|QR|} = \\frac{7.5}{8.7}\n&= \\frac{5}{5.8}\n\\cos|\\angle ABC| &= \\cos|\\angle PQR|\nBoth angles are acute, so $|\\angle ABC| = |\\angle PQR|$.\nANSWER: |PQ| = 7.5 \\text{ cm}, \\; |BC| = 5.8 \\text{ cm}, \\; |\\angle ABC| = |\\angle PQR|"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q8#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Halve the diameter\nThe radius is half the diameter.\nr &= \\frac{12}{2}\n&= 6 \\text{ m}\nANSWER: r = 6 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q8#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Write the volume formula for a sphere\nV &= \\frac{4}{3}\\pi r^3\n## Substitute r = 6\nV &= \\frac{4}{3}\\pi (6)^3\n&= \\frac{4}{3}\\pi (216)\n&= 288\\pi\n## Evaluate and round\n&\\approx 904.78\n&\\approx 905 \\text{ m}^3\nANSWER: 905 \\text{ m}^3"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Write the curved surface area of a sphere\nA &= 4\\pi r^2\n## Substitute r = 6\nA &= 4\\pi (6)^2\n&= 4\\pi (36)\n&= 144\\pi\n## Evaluate and round\n&\\approx 452.39\n&\\approx 452.4 \\text{ m}^2\nANSWER: 452.4 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Divide the area by the coverage of one litre\nOne litre covers $3.5 \\text{ m}^2$, so divide the area by $3.5$.\n\\text{Litres} &= \\frac{452.4}{3.5}\n&\\approx 129.26\n&\\approx 129\nANSWER: 129 \\text{ litres}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q8#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find the number of tins\n\\frac{129}{25} &= 5.16\n5 tins hold only 125 litres, which is not enough, so 6 tins are needed.\n## Find the cost\n\\text{Cost} &= 6 \\times \\text{€}180\n&= \\text{€}1080\nANSWER: \\text{€}1080"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q8#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Write the volume of a hemisphere\nA hemisphere is half a sphere.\nV &= \\frac{2}{3}\\pi r^3\n## Substitute r = 4.5\nV &= \\frac{2}{3}\\pi (4.5)^3\n&= \\frac{2}{3}\\pi (91.125)\n&= 60.75\\pi\n## Evaluate and round\n&\\approx 190.85\n&\\approx 191 \\text{ m}^3\nANSWER: 191 \\text{ m}^3"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q8#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the volume of the cylinder\nThe tanks have the same volume, $288\\pi$. Take away the two hemispherical ends.\nV_{\\text{cyl}} &= 288\\pi - 2(60.75\\pi)\n&= 288\\pi - 121.5\\pi\n&= 166.5\\pi\n&\\approx 523 \\text{ m}^3\n## Use the cylinder volume formula\nThe cylinder has radius $4.5$ and length $h$.\n\\pi r^2 h &= 166.5\\pi\n\\pi (4.5)^2 h &= 166.5\\pi\n20.25\\pi h &= 166.5\\pi\n## Solve for h\nh &= \\frac{166.5\\pi}{20.25\\pi}\n&= \\frac{166.5}{20.25}\n&\\approx 8.22\n&\\approx 8.2 \\text{ m}\nANSWER: h = 8.2 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q9#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Decide the type of data\nTick Numerical Continuous.\nHeight is a number that is measured, and it can take any value in a range, such as 164.37 cm, so it is continuous.\nANSWER: \\text{Numerical Continuous}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q9#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 20,
+  "solution": "## Find the mid-interval values\nThe mid-interval value is halfway between the ends of each class, e.g. $\\frac{145+150}{2} = 147.5$.\nx &= 147.5, 152.5, 157.5, 162.5, 167.5, 172.5, 177.5, 182.5\n## Multiply each frequency by its mid-value\n15 \\times 147.5 &= 2212.5\n48 \\times 152.5 &= 7320\n80 \\times 157.5 &= 12600\n112 \\times 162.5 &= 18200\n125 \\times 167.5 &= 20937.5\n81 \\times 172.5 &= 13972.5\n29 \\times 177.5 &= 5147.5\n10 \\times 182.5 &= 1825\n## Add up the products and the frequencies\n\\sum fx &= 82215\n\\sum f &= 500\n## Divide to find the mean\n\\text{Mean} &= \\frac{\\sum fx}{\\sum f}\n&= \\frac{82215}{500}\n&= 164.43 \\text{ cm}\nANSWER: 164.43 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q9#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Use the smallest and largest possible heights\nThe tallest girl is at most $185$ cm and the shortest is at least $145$ cm.\n\\text{Range} &= 185 - 145\n&= 40 \\text{ cm}\nANSWER: 40 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q9#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Interpret the median\nThe median is the middle value. Half of the 500 girls (250 girls) are shorter than $164.5$ cm and half are taller.\nANSWER: \\text{Half the girls are shorter than } 164.5 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q9#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Divide each frequency by 500 and multiply by 100\n\\frac{15}{500} \\times 100 &= 3\n\\frac{48}{500} \\times 100 &= 9.6\n\\frac{80}{500} \\times 100 &= 16\n\\frac{81}{500} \\times 100 &= 16.2\n\\frac{29}{500} \\times 100 &= 5.8\n\\frac{10}{500} \\times 100 &= 2\n## Complete the table\nThe percentages are $3,\\ 9.6,\\ 16,\\ 22.4,\\ 25,\\ 16.2,\\ 5.8,\\ 2$, which add to $100$.\nANSWER: 3,\\ 9.6,\\ 16,\\ 22.4,\\ 25,\\ 16.2,\\ 5.8,\\ 2"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q9#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Draw a bar for each class\nEach bar has width $5$ cm, starting at $145$, with no gaps. The heights are the percentages from Table 2.\nHeights: $3,\\ 9.6,\\ 16,\\ 22.4,\\ 25,\\ 16.2,\\ 5.8,\\ 2$.\nANSWER: \\text{Histogram drawn}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q9#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Compare the 175 to 180 bars\nAnswer: Yes. Girls: $5.8\\%$. Boys: about $11.5\\%$.\nBoth samples have 500 students, so percentages compare numbers directly. $2 \\times 5.8 = 11.6 \\approx 11.5$, so about twice as many boys.\nANSWER: \\text{Yes}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q9#(c)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Compare the tall groups\nAnswer: No. Take tall to mean 175 cm or more.\nGirls: $5.8\\% + 2\\% = 7.8\\%$. Boys: about $11.5\\% + 9.3\\% = 20.8\\%$. A larger percentage of boys are tall, so there are more tall boys than tall girls.\nANSWER: \\text{No}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q9#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Use the Empirical Rule\nAbout 95% of values lie within 2 standard deviations of the mean: $\\bar{x} \\pm 2\\sigma$.\n166.7 - 2(8.9) &\\le h \\le 166.7 + 2(8.9)\n148.9 &\\le h \\le 184.5\nANSWER: 148.9 \\le h \\le 184.5"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q9#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22",
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Compare the spreads\nThe girls' standard deviation ($7.7$ cm) is smaller than the boys' ($8.9$ cm), so the girls' heights are less spread out and closer to their mean. The boys' heights vary more.\nANSWER: \\text{Girls' heights are less spread out}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Use the conjugate root theorem\nThe coefficients $a, b, c$ are real, so complex roots come in conjugate pairs.\n$-4 + 3i$ is a root, so its conjugate is a root.\n\\overline{-4 + 3i} &= -4 - 3i\nANSWER: -4 - 3i"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Find the modulus of 1 + i\nr &= \\sqrt{1^2 + 1^2}\n&= \\sqrt{2}\n## Find the argument of 1 + i\n$1+i$ is in the first quadrant, with $\\tan\\theta = \\frac{1}{1} = 1$.\n\\theta &= \\frac{\\pi}{4}\n## Write 1 + i in polar form and apply De Moivre's Theorem\n(1+i)^8 &= \\left[\\sqrt{2}\\left(\\cos\\tfrac{\\pi}{4} + i\\sin\\tfrac{\\pi}{4}\\right)\\right]^8\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n&= (\\sqrt{2})^8\\left(\\cos\\tfrac{8\\pi}{4} + i\\sin\\tfrac{8\\pi}{4}\\right)\n&= 16(\\cos 2\\pi + i\\sin 2\\pi)\n## Evaluate the trigonometric values\n&= 16(1 + i \\times 0)\n&= 16\nANSWER: 16"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths10",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Use the sum of the roots\nFor $z^2 + bz + c = 0$ the roots add up to $-b$. Here $b = -2 + i$.\n(1+i) + z_1 &= -(-2 + i)\n&= 2 - i\n## Solve for the other root\nz_1 &= 2 - i - (1 + i)\n&= 2 - i - 1 - i\n&= 1 - 2i\nANSWER: 1 - 2i"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths3"
+  ],
+  "marks": 10,
+  "solution": "## Split the modulus into two inequalities\n$|A| \\ge k$ means $A \\ge k$ or $A \\le -k$.\n|x - 4| &\\ge 2\nx - 4 \\ge 2 \\quad &\\text{or} \\quad x - 4 \\le -2\n## Add 4 to both sides of each\nx \\ge 6 \\quad &\\text{or} \\quad x \\le 2\nANSWER: x \\le 2 \\text{ or } x \\ge 6"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths5",
+   "maths4"
+  ],
+  "marks": 15,
+  "solution": "## Make x the subject of the linear equation\n2x + 3y &= -1\n2x &= -3y - 1\nx &= \\frac{-3y - 1}{2}\n## Substitute into the quadratic equation\n\\left(\\frac{-3y-1}{2}\\right)^2 + \\left(\\frac{-3y-1}{2}\\right)y + 2y^2 &= 4\nMultiply every term by 4 to clear the fractions.\n(-3y-1)^2 + 2y(-3y-1) + 8y^2 &= 16\n9y^2 + 6y + 1 - 6y^2 - 2y + 8y^2 &= 16\n11y^2 + 4y + 1 &= 16\n11y^2 + 4y - 15 &= 0\n## Factorise and solve for y\n(11y + 15)(y - 1) &= 0\ny = -\\frac{15}{11} \\quad &\\text{or} \\quad y = 1\n## Find x for each y using x = (-3y - 1)/2\ny = 1: \\quad x &= \\frac{-3(1) - 1}{2}\n&= -2\ny = -\\tfrac{15}{11}: \\quad x &= \\frac{-3\\left(-\\frac{15}{11}\\right) - 1}{2}\n&= \\frac{\\frac{34}{11}}{2}\n&= \\frac{17}{11}\nANSWER: (x, y) = \\left(\\frac{17}{11}, -\\frac{15}{11}\\right) \\text{ or } (-2, 1)"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q3#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Work out f(x) = 2/e^x at each x\nf(0) &= \\frac{2}{e^0}\n&= 2\nf(0.5) &= \\frac{2}{e^{0.5}}\n&\\approx 1.21\nf(1) &= \\frac{2}{e^{1}}\n&\\approx 0.74\nf(\\ln 4) &= \\frac{2}{e^{\\ln 4}}\n&= \\frac{2}{4}\n&= 0.5\n## Work out g(x) = e^x - 1 at each x\ng(0) &= e^0 - 1\n&= 0\ng(0.5) &= e^{0.5} - 1\n&\\approx 0.65\ng(1) &= e^{1} - 1\n&\\approx 1.72\ng(\\ln 4) &= e^{\\ln 4} - 1\n&= 4 - 1\n&= 3\n## Completed table\n$x = 0, 0.5, 1, \\ln 4$: $f(x) = 2,\\ 1.21,\\ 0.74,\\ 0.5$ and $g(x) = 0,\\ 0.65,\\ 1.72,\\ 3$.\nANSWER: \\begin{array}{c|cccc} x & 0 & 0.5 & 1 & \\ln 4 \\\\ \\hline f(x) & 2 & 1.21 & 0.74 & 0.5 \\\\ g(x) & 0 & 0.65 & 1.72 & 3 \\end{array}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q3#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Plot the points from the table\nPlot $(0, 2),\\ (0.5, 1.21),\\ (1, 0.74),\\ (\\ln 4, 0.5)$ for $f(x)$.\nPlot $(0, 0),\\ (0.5, 0.65),\\ (1, 1.72),\\ (\\ln 4, 3)$ for $g(x)$. Note $\\ln 4 \\approx 1.39$.\n## Join each set with a smooth curve and label\nBoth are curves, not straight lines: $f$ falls from 2 and $g$ rises from 0. Label them $f(x)$ and $g(x)$.\nANSWER: \\text{Smooth curves for } f(x) \\text{ and } g(x) \\text{ drawn on the grid}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q3#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Read the x-value where the curves cross\nThe curves meet at about $(0.7, 1)$.\nx &\\approx 0.7\nANSWER: x \\approx 0.7"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Set f(x) equal to g(x) and clear the fraction\ne^x - 1 &= \\frac{2}{e^x}\ne^x(e^x - 1) &= 2\ne^{2x} - e^x &= 2\n## Treat it as a quadratic in e^x\nLet $y = e^x$, so $e^{2x} = y^2$.\ny^2 - y &= 2\ny^2 - y - 2 &= 0\n(y - 2)(y + 1) &= 0\ny = 2 \\quad &\\text{or} \\quad y = -1\n## Reject the impossible value and solve for x\n$e^x$ is always positive, so $e^x = -1$ has no solution.\ne^x &= 2\nx &= \\ln 2\nx &\\approx 0.693\nANSWER: x = \\ln 2 \\approx 0.693"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths18"
+  ],
+  "marks": 15,
+  "solution": "## Check the statement is true for n = 1\n8^1 - 1 &= 8 - 1\n&= 7\n7 is divisible by 7, so the statement $P_1$ is true.\n## Assume the statement is true for n = k\nAssume $8^k - 1$ is divisible by 7, so $8^k - 1 = 7M$ for some whole number $M$.\n8^k - 1 &= 7M\n8^k &= 7M + 1\n## Write 8^(k+1) - 1 using 8^k\n8^{k+1} - 1 &= 8(8^k) - 1\n## Substitute 8^k = 7M + 1\n8^{k+1} - 1 &= 8(7M + 1) - 1\n&= 56M + 8 - 1\n&= 56M + 7\n## Factor out 7\n8^{k+1} - 1 &= 7(8M + 1)\n$8M + 1$ is a whole number, so $8^{k+1} - 1$ is divisible by 7.\n## State the conclusion\n$P_1$ is true, and if $P_k$ is true then $P_{k+1}$ is true. By induction, $8^n - 1$ is divisible by 7 for all $n \\in \\mathbb{N}$.\nANSWER: 8^n - 1 \\text{ is divisible by } 7 \\text{ for all } n \\in \\mathbb{N}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q4#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Split the fraction using the quotient rule\n$\\log_a \\frac{m}{n} = \\log_a m - \\log_a n$.\n\\log_a \\frac{8}{3} &= \\log_a 8 - \\log_a 3\n## Write 8 as a power of 2 and use the power rule\n\\log_a 8 - \\log_a 3 &= \\log_a 2^3 - \\log_a 3\n&= 3\\log_a 2 - \\log_a 3\n## Replace log_a 2 by p and log_a 3 by q\n&= 3p - q\nANSWER: 3p - q"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q4#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Split the fraction using the quotient rule\n\\log_a \\frac{9a^2}{16} &= \\log_a 9a^2 - \\log_a 16\n## Write 9a^2 and 16 as powers\n$9a^2 = (3a)^2$ and $16 = 2^4$.\n\\log_a 9a^2 - \\log_a 16 &= \\log_a (3a)^2 - \\log_a 2^4\n## Use the power rule\n&= 2\\log_a 3a - 4\\log_a 2\n## Split 3a using the product rule\n&= 2\\log_a 3 + 2\\log_a a - 4\\log_a 2\n## Replace with p and q\n$\\log_a a = 1$, $\\log_a 3 = q$ and $\\log_a 2 = p$.\n&= 2q + 2(1) - 4p\n&= 2q + 2 - 4p\nANSWER: 2q + 2 - 4p"
+ }
+]

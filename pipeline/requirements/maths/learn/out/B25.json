@@ -1,0 +1,497 @@
+[
+ {
+  "skill": "cx-conjugate",
+  "what": {
+   "say": [
+    "You give it a complex number, $z = a + bi$. It gives back the **conjugate**, $\\bar z = a - bi$.",
+    "The key idea: only the sign of the $i$ part flips. The real part stays the same, and $z\\bar z$ is always a real number."
+   ],
+   "in": "$z = a + bi$",
+   "out": "$\\bar z = a - bi$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside bigger parts, in 2015, 2020, 2021, 2023 and 2025, mostly to divide complex numbers or plot a conjugate. It is never the main skill.",
+   "ordinary": "Ordinary level uses it every year from 2015 to 2025, nearly always as the first move when dividing complex numbers, or when plotting $\\bar z$ on an Argand diagram. It is the main skill of one part, in 2022."
+  },
+  "example": {
+   "question": "Let $z = 4 - 3i$. Write down $\\bar z$ and find $z\\bar z$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the conjugate",
+      "say": "Keep the real part and flip the sign of the $i$ part. $z = 4 - 3i$ becomes $\\hl{1}{\\bar z}$.",
+      "lines": [
+       {
+        "tex": "z &= 4 - 3i",
+        "sym": "4-3*I"
+       },
+       {
+        "tex": "\\hl{1}{\\bar z} &= 4 + 3i",
+        "sym": "4+3*I",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Multiply z by its conjugate",
+      "say": "Now multiply $z$ by $\\hl{1}{\\bar z}$. Expand the two brackets.",
+      "lines": [
+       {
+        "tex": "z\\hl{1}{\\bar z} &= (4 - 3i)(4 + 3i)",
+        "sym": "(4-3*I)*(4+3*I)",
+        "new": true
+       },
+       {
+        "tex": "&= 16 + 12i - 12i - 9i^2",
+        "sym": "16+12*I-12*I-9*I**2"
+       },
+       {
+        "text": "The two $i$ terms cancel. Remember $i^2 = -1$."
+       }
+      ]
+     },
+     {
+      "title": "Simplify",
+      "say": "With $i^2 = -1$, the last term becomes $+9$. The answer has no $i$ in it.",
+      "lines": [
+       {
+        "tex": "&= 16 + 9",
+        "sym": "16+9"
+       },
+       {
+        "tex": "&= 25",
+        "sym": "25"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{\\bar z} = 4 + 3i, \\quad z\\hl{1}{\\bar z} = 25"
+   },
+   "finalSym": "25",
+   "answerSym": "(4-3*I)*conjugate(4-3*I)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the multiplication of top and bottom by the conjugate. It is a step of its own in the scheme.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(a)",
+       "quote": "Indicates multiplication of top"
+      },
+      {
+       "part": "maths-pp-2015-higher-p1-q4#(a)",
+       "quote": "Correct use of conjugate in"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the conjugate down. 'Conjugate identified' earns partial credit before any multiplying.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q2#(b)",
+       "quote": "Conjugate identified"
+      },
+      {
+       "part": "maths-pp-2020-ordinary-p1-q3#(b)",
+       "quote": "Conjugate identified"
+      }
+     ]
+    },
+    {
+     "tip": "Multiply top and bottom by the same number. That earns marks even if you picked the wrong conjugate.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q3#(b)",
+       "quote": "same number, even if incorrect conjugate"
+      },
+      {
+       "part": "maths-pp-2021-ordinary-p1-q2#(b)",
+       "quote": "Some multiplication above and below"
+      }
+     ]
+    },
+    {
+     "tip": "Finish in the form $a + bi$. A single fraction like $\\frac{15 - 30i}{5}$ loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q2#(b)",
+       "quote": "Apply a * if in the form"
+      },
+      {
+       "part": "maths-pp-2025-ordinary-p1-q2#(b)",
+       "quote": "Apply a * if in the form"
+      }
+     ]
+    },
+    {
+     "tip": "Label every point you plot, including $\\bar z$. Missing labels cost a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q1#(a), (b)",
+       "quote": "Apply F* if labels omitted"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-powers-i",
+  "what": {
+   "say": [
+    "You give it a power of $i$, $i^n$. It gives back one of four values: $1$, $i$, $-1$ or $-i$.",
+    "The key idea: the powers repeat in a cycle of four, and $i^4 = 1$. Divide $n$ by $4$ and only the remainder matters."
+   ],
+   "in": "$i^n$",
+   "out": "$1,\\ i,\\ -1$ or $-i$"
+  },
+  "how": {
+   "higher": "Higher level uses it only as a step inside longer complex-number parts, in 2020, 2022 and 2023, usually as $i^2 = -1$ while expanding brackets.",
+   "ordinary": "Ordinary level used it once, in 2019 on Paper 1 Q2(b), as $i^2 = -1$ when substituting $2 + i$ into a quadratic."
+  },
+  "example": {
+   "question": "Write $i^{23}$ in the form $a + bi$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split off fours",
+      "say": "The powers of $i$ repeat every four, because $i^4 = 1$. Divide $23$ by $4$: it goes in $5$ times with remainder $3$.",
+      "lines": [
+       {
+        "tex": "i^{23} &= (i^4)^5 \\cdot i^3",
+        "sym": "(I**4)**5*I**3"
+       }
+      ]
+     },
+     {
+      "title": "Use i to the four is one",
+      "say": "Replace $i^4$ with $1$. Any power of $1$ is $1$, so only $i^3$ is left.",
+      "lines": [
+       {
+        "tex": "&= 1^5 \\cdot i^3",
+        "sym": "1**5*I**3"
+       },
+       {
+        "tex": "&= i^3",
+        "sym": "I**3"
+       }
+      ]
+     },
+     {
+      "title": "Find i cubed",
+      "say": "Write $i^3$ as $i^2 \\cdot i$ and use $i^2 = -1$.",
+      "lines": [
+       {
+        "tex": "&= i^2 \\cdot i",
+        "sym": "I**2*I"
+       },
+       {
+        "tex": "&= \\hl{1}{-i}",
+        "sym": "-I"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{-i}"
+   },
+   "finalSym": "-I",
+   "answerSym": "I**23"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Watch the sign when $i^2$ appears. Mishandling $-2i^2$ costs a mark even if the rest is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q3#(a)(i)",
+       "quote": "Mishandles −2𝑖², otherwise correct"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "When you test a value, finish with a conclusion. Not drawing one is treated as an error.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q2#(b)",
+       "quote": "failure to draw a relevant conclusion"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-argand",
+  "what": {
+   "say": [
+    "You give it a complex number, $z$. It gives back a **point** on the Argand diagram, $(\\text{Re}, \\text{Im})$.",
+    "The key idea: the real part is the $x$ value and the imaginary part is the $y$ value. So $3 - 2i$ is the point $(3, -2)$."
+   ],
+   "in": "$z$",
+   "out": "point (Re, Im)"
+  },
+  "how": {
+   "higher": "Higher level asks for it in 2023 and 2024 as part of a Paper 1 question: plotting $u$ and its conjugate in 2023, and plotting $u$ in polar form in 2024. In 2024 it is the main skill, inside a 15-mark part.",
+   "ordinary": "Ordinary level asks for it every year from 2015 to 2025 except 2018, always as the main skill: plot two or three numbers, label them, then use the points for a modulus or a sum."
+  },
+  "example": {
+   "question": "Let $z = -2 + 3i$ and $w = 4 - i$. Find $z + w$. Plot $z$, $w$ and $z + w$ on an Argand diagram and label each point.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Read each number as a point",
+      "say": "The real part is the $x$ value. The imaginary part is the $y$ value.",
+      "lines": [
+       {
+        "text": "$z = -2 + 3i$ is the point $(-2, 3)$."
+       },
+       {
+        "text": "$w = 4 - i$ is the point $(4, -1)$."
+       }
+      ]
+     },
+     {
+      "title": "Add the numbers",
+      "say": "Add the real parts together, then the imaginary parts. Call the answer $\\hl{1}{z + w}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{z + w} &= (-2 + 4) + (3 - 1)i",
+        "sym": "(-2+4)+(3-1)*I",
+        "new": true
+       },
+       {
+        "tex": "&= 2 + 2i",
+        "sym": "2+2*I"
+       }
+      ]
+     },
+     {
+      "title": "Plot and label",
+      "say": "Mark the points $(-2, 3)$, $(4, -1)$ and $(2, 2)$. Count along the Re axis first, then up the Im axis.",
+      "lines": [
+       {
+        "text": "Label them $z$, $w$ and $z + w$. Unlabelled points lose a mark."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{z + w} = 2 + 2i \\text{, the point } (2, 2)"
+   },
+   "finalSym": "2+2*I",
+   "answerSym": "(-2+3*I)+(4-I)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Label the point you plot. An otherwise correct diagram without labels loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q2#(c)(i), (ii)",
+       "quote": "plotted but not labelled"
+      },
+      {
+       "part": "maths-pp-2023-higher-p1-q4#(c)(i), (ii), (iii)",
+       "quote": "Diagram not labelled, otherwise"
+      }
+     ]
+    },
+    {
+     "tip": "Plot as accurately as you can. The scheme accepts a small tolerance on each coordinate.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q2#(c)(i), (ii)",
+       "quote": "Tolerance for plotting"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Label every point. Correct points with no or wrong labels lose a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q2#(a)(i)",
+       "quote": "Both points plotted correctly but no or"
+      },
+      {
+       "part": "maths-pp-2023-ordinary-p1-q2#(a)(i), (ii)",
+       "quote": "Award F* if plots all three points correctly"
+      },
+      {
+       "part": "maths-pp-2016-ordinary-p1-q2#(b)",
+       "quote": "2 points correctly plotted but without labels"
+      }
+     ]
+    },
+    {
+     "tip": "Real part goes along the Re axis, imaginary part up the Im axis. Swapping them is a named error.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p1-q2#(b)",
+       "quote": "Mixes up real and imaginary axes"
+      },
+      {
+       "part": "maths-pp-2019-ordinary-p1-q2#(a)(i), (ii)",
+       "quote": "Mixes up axes but finds, plots and"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-arithmetic",
+  "what": {
+   "say": [
+    "You give it two complex numbers, $a + bi$ and $c + di$. It gives back one answer in the form $a + bi$.",
+    "The key idea: treat $i$ like a letter and expand as normal. Then replace every $i^2$ with $-1$."
+   ],
+   "in": "$a + bi,\\ c + di$",
+   "out": "result in $a + bi$ form"
+  },
+  "how": {
+   "higher": "Higher level uses it as a working step in 2015, 2016, 2020, 2021, 2022, 2023 and 2025, and as the main skill in 2022 Q3(a)(i) and 2023 Q4(a), worth 5 marks.",
+   "ordinary": "Ordinary level asks for it as the main skill in 2016 to 2023, usually 5 to 10 marks inside Q1 to Q3: substitute into an expression such as $z_1 z_2 - 2z_1$ and simplify."
+  },
+  "example": {
+   "question": "Let $z_1 = 2 + i$ and $z_2 = 3 - 2i$. Find $z_1 z_2 - 2z_1$. Give your answer in the form $a + bi$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply the brackets",
+      "say": "Expand $z_1 z_2$ term by term, as with any two brackets. Four products, then replace $i^2$ with $-1$.",
+      "lines": [
+       {
+        "tex": "z_1 z_2 &= (2 + i)(3 - 2i)",
+        "sym": "(2+I)*(3-2*I)"
+       },
+       {
+        "tex": "&= 6 - 4i + 3i - 2i^2",
+        "sym": "6-4*I+3*I-2*I**2"
+       },
+       {
+        "tex": "&= 6 - i + 2",
+        "sym": "6-I+2"
+       },
+       {
+        "tex": "&= \\hl{1}{8 - i}",
+        "sym": "8-I"
+       }
+      ]
+     },
+     {
+      "title": "Find twice z1",
+      "say": "Multiply both parts of $z_1$ by $2$.",
+      "lines": [
+       {
+        "tex": "2z_1 &= 2(2 + i)",
+        "sym": "2*(2+I)"
+       },
+       {
+        "tex": "&= \\hl{2}{4 + 2i}",
+        "sym": "4+2*I"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "say": "Subtract $\\hl{2}{4 + 2i}$ from $\\hl{1}{8 - i}$. Take care: the minus sign changes both terms in the bracket.",
+      "lines": [
+       {
+        "tex": "z_1 z_2 - 2z_1 &= (8 - i) - (4 + 2i)",
+        "sym": "(8-I)-(4+2*I)",
+        "new": true
+       },
+       {
+        "tex": "&= 8 - i - 4 - 2i",
+        "sym": "8-I-4-2*I"
+       },
+       {
+        "tex": "&= \\hl{3}{4 - 3i}",
+        "sym": "4-3*I"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{3}{4 - 3i}"
+   },
+   "finalSym": "4-3*I",
+   "answerSym": "(2+I)*(3-2*I)-2*(2+I)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Expand the top line and the bottom line separately. Each is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(a)",
+       "quote": "Step 2. Expands top line"
+      },
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(a)",
+       "quote": "Step 3. Expands bottom line"
+      }
+     ]
+    },
+    {
+     "tip": "Watch $i^2$. Mishandling $-2i^2$ is the usual lost mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q3#(a)(i)",
+       "quote": "Mishandles −2𝑖², otherwise correct"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write out the substitution first, then distribute. Correct substitution on its own earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p1-q2#(a)",
+       "quote": "Some correct substitution"
+      },
+      {
+       "part": "maths-pp-2023-ordinary-p1-q2#(a)(iii)",
+       "quote": "Full substitution and distribution"
+      }
+     ]
+    },
+    {
+     "tip": "Show the multiplication line by line. Some correct multiplication is rewarded even if the final answer is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q3#(a)(i), (ii)",
+       "quote": "Some multiplication above and below"
+      },
+      {
+       "part": "maths-pp-2021-ordinary-p1-q2#(a)",
+       "quote": "Some multiplication above and below"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

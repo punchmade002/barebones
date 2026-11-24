@@ -1,0 +1,178 @@
+[
+ {"skill": "line-intersection", "problems": [
+  {"part": "maths-pp-2016-ordinary-p2-q4#(c)", "note": null,
+   "legend": {"1": "x of the intersection point", "2": "y of the intersection point"},
+   "steps": [
+    {"ask": "Two equations share one point. What do you need to do to the two equations so that you can solve them together?", "title": "Write the two lines as equations",
+     "lines": [{"text": "$l$ is $5x - 2y - 10 = 0$, which is $5x - 2y = 10$. $k$ is $x + 2y = 8$."}, {"tex": "5x - 2y &= 10"}, {"tex": "x + 2y &= 8"}]},
+    {"ask": "If you add the two equations, what happens to the y terms? What is left?", "title": "Add the equations to cancel y",
+     "lines": [{"text": "The $y$ terms are $-2y$ and $+2y$, so adding removes $y$."}, {"tex": "6x &= 18"}, {"tex": "\\hl{1}{x} &= \\hl{1}{3}"}]},
+    {"ask": "You now know x. Which equation is easiest to use to find y?", "title": "Substitute x = 3 into x + 2y = 8",
+     "lines": [{"tex": "\\hl{1}{3} + 2y &= 8"}, {"tex": "2y &= 5"}, {"tex": "\\hl{2}{y} &= \\hl{2}{\\frac{5}{2}}"}]}
+   ],
+   "final": "l \\cap k = \\left(\\hl{1}{3},\\ \\hl{2}{2\\tfrac{1}{2}}\\right)",
+   "graph": null},
+  {"part": "maths-pp-2018-higher-p2-q5#(b)", "note": "This time the $y$ terms are not already opposite, so you multiply both equations first and then add. Finding the two lines comes first, and solving them together is the same as in the first problem.",
+   "legend": {"1": "x of the intersection point", "2": "y of the intersection point"},
+   "steps": [
+    {"ask": "Rewrite the equation in the form y = mx + c. What is the slope?", "title": "Find the slope of $m$ (and $n$)",
+     "lines": [{"tex": "2x + 3y + 1 &= 0"}, {"tex": "3y &= -2x - 1"}, {"tex": "y &= -\\frac{2}{3}x - \\frac{1}{3}"}, {"text": "So the slope of $m$ and $n$ is $-\\frac{2}{3}$."}]},
+    {"ask": "AB is perpendicular to m. What is the slope of a line perpendicular to m?", "title": "Find the slope of $AB$",
+     "lines": [{"text": "$AB$ is perpendicular to $m$, so its slope is the negative reciprocal."}, {"tex": "\\text{slope of } AB &= \\frac{3}{2}"}]},
+    {"ask": "You have the slope of AB and the point A. Which form lets you write the equation from a point and a slope?", "title": "Find the equation of $AB$ through $A(-2, 1)$",
+     "lines": [{"tex": "y - 1 &= \\frac{3}{2}(x - (-2))"}, {"tex": "2(y - 1) &= 3(x + 2)"}, {"tex": "2y - 2 &= 3x + 6"}, {"tex": "0 &= 3x - 2y + 8"}]},
+    {"ask": "Both equations have x and y. Which multipliers make the y terms match so that adding cancels them?", "title": "Solve $AB$ and $n$ together to find $B$",
+     "lines": [{"tex": "3x - 2y + 8 &= 0"}, {"tex": "2x + 3y - 51 &= 0"}, {"text": "Multiply the first equation by 3 and the second by 2."}, {"tex": "9x - 6y + 24 &= 0"}, {"tex": "4x + 6y - 102 &= 0"}, {"text": "Add the two equations."}, {"tex": "13x - 78 &= 0"}, {"tex": "\\hl{1}{x} &= \\hl{1}{6}"}]},
+    {"ask": "Substitute the x you found into one equation. What is y?", "title": "Find $y$ by substituting $x = 6$ into $3x - 2y + 8 = 0$",
+     "lines": [{"tex": "3(\\hl{1}{6}) - 2y + 8 &= 0"}, {"tex": "26 - 2y &= 0"}, {"tex": "\\hl{2}{y} &= \\hl{2}{13}"}]}
+   ],
+   "final": "B = (\\hl{1}{6}, \\hl{2}{13})",
+   "graph": null},
+  {"part": "maths-pp-2019-higher-p2-q2#(b)(ii)", "note": "The lines now contain a letter $m$, so the answer is a formula in $m$ rather than a number. Substitution replaces elimination here, because one equation already has $y$ on its own.",
+   "legend": {"1": "x of the intersection point", "2": "y of the intersection point"},
+   "steps": [
+    {"ask": "P is on both lines. Which equation has y on its own, and what can you put in for y?", "title": "Substitute y = m(x − 6) into k",
+     "lines": [{"text": "P lies on both lines, so substitute the equation of $l$ into $4x + 3y = 25$."}, {"tex": "4x + 3m(x - 6) &= 25"}, {"tex": "4x + 3mx - 18m &= 25"}]},
+    {"ask": "You have one equation with only x and m. What do you need to do to get x on its own?", "title": "Solve for x",
+     "lines": [{"tex": "4x + 3mx &= 25 + 18m"}, {"tex": "x(3m + 4) &= 25 + 18m"}, {"tex": "\\hl{1}{x} &= \\hl{1}{\\frac{25 + 18m}{3m + 4}}"}]},
+    {"ask": "You know x in terms of m. Which equation gives y most directly?", "title": "Substitute x back into y = m(x − 6)",
+     "lines": [{"tex": "\\hl{2}{y} &= m\\left(\\hl{1}{\\frac{25 + 18m}{3m + 4}} - 6\\right)"}, {"tex": "&= m \\times \\frac{25 + 18m - 6(3m + 4)}{3m + 4}"}, {"tex": "&= m \\times \\frac{25 + 18m - 18m - 24}{3m + 4}"}, {"tex": "&= \\hl{2}{\\frac{m}{3m + 4}}"}]}
+   ],
+   "final": "P\\left(\\hl{1}{\\frac{25 + 18m}{3m + 4}},\\ \\hl{2}{\\frac{m}{3m + 4}}\\right)",
+   "graph": null}
+ ]},
+ {"skill": "line-linear-model", "problems": [
+  {"part": "maths-pp-2022-ordinary-p1-q9#(c)(i), (ii)", "note": null,
+   "legend": {"1": "the rate of change (yearly fall)", "2": "the start value", "3": "the time when the value is 0"},
+   "steps": [
+    {"ask": "Two readings are given, each with a time and a value. Which reading is the starting value?", "title": "Plot the two given points",
+     "lines": [{"text": "At $t = 0$ the value is 30 000 and at $t = 1$ it is 24 000."}, {"text": "Draw a straight line through $(0, 30\\,000)$ and $(1, 24\\,000)$."}]},
+    {"ask": "How much does the value change from t = 0 to t = 1? Which operation finds that change?", "title": "Find the fixed fall each year",
+     "lines": [{"tex": "\\hl{2}{30\\,000} - 24\\,000 &= \\hl{1}{6000}"}]},
+    {"ask": "If the value falls by the same amount each year, how many years until the total fall equals the starting value?", "title": "Find when the value reaches 0",
+     "lines": [{"text": "The value falls by 6000 each year, so the line meets the horizontal axis when the total fall is 30 000."}, {"tex": "\\hl{3}{T} &= \\hl{3}{\\frac{30\\,000}{6000}}"}, {"tex": "&= \\hl{3}{5}"}]},
+    {"ask": "At the horizontal axis, the value is 0. What is the time t at that point?", "title": "Mark the point on the axis",
+     "lines": [{"text": "The line reaches the horizontal axis at $(\\hl{3}{5}, 0)$."}]}
+   ],
+   "final": "\\hl{3}{T} = \\hl{3}{5} \\text{ years}",
+   "graph": null},
+  {"part": "maths-pp-2025-ordinary-p1-q7#(e)(i), (ii)", "note": "Same kind of straight-line model as the first problem, but this time the formula is given, so you read the start value and the monthly fall from it. The question also asks for a whole number of months.",
+   "legend": {"1": "the rate of change (monthly fall)", "2": "the start value", "3": "the time n in months", "4": "the value to reach"},
+   "steps": [
+    {"ask": "Which term in the formula is the value at the start, when n is 0?", "title": "(i) Find the starting value of Q(n)",
+     "lines": [{"text": "The highest value is on 1st July, when $m = 6$ and $P(6) = \\hl{2}{9.22}$. At $n = 0$ the share is at that value."}, {"tex": "Q(n) &= \\hl{2}{9.22} - \\hl{1}{0.3}n"}]},
+    {"ask": "The question asks for the value on 1st January. What is n on that day, and what must the formula equal?", "title": "(ii) Set Q(n) equal to the 1st January value",
+     "lines": [{"text": "The value on 1st January is $P(0) = \\hl{4}{2}$."}, {"tex": "\\hl{4}{2} &= \\hl{2}{9.22} - \\hl{1}{0.3}n"}, {"tex": "\\hl{1}{0.3}n &= \\hl{2}{9.22} - \\hl{4}{2}"}, {"tex": "\\hl{1}{0.3}n &= 7.22"}]},
+    {"ask": "You have an equation in n with one unknown. What is multiplying n, and how do you undo it?", "title": "Solve for n",
+     "lines": [{"tex": "\\hl{3}{n} &= \\hl{3}{\\frac{7.22}{0.3}}"}, {"tex": "&= \\hl{3}{24.07}"}]},
+    {"ask": "24.07 is not a whole number of months. Check n = 24: is the value above or below 2?", "title": "Check which whole number of months is needed",
+     "lines": [{"text": "At $\\hl{3}{n} = \\hl{3}{24}$ the value is still above €2, so the value only falls below €2 at $\\hl{3}{n} = \\hl{3}{25}$."}, {"tex": "Q(\\hl{3}{24}) &= \\hl{2}{9.22} - \\hl{1}{0.3} \\times \\hl{3}{24}"}, {"tex": "&= 2.02"}]}
+   ],
+   "final": "\\hl{2}{9.22};\\quad \\hl{3}{n} = \\hl{3}{25}",
+   "graph": null},
+  {"part": "maths-pp-2015-higher-p1-q8#(a)(i)", "note": "Unlike the earlier problems, the line starts at zero, so there is no start value to add. The answer is a list of values, one for each minute.",
+   "legend": {"1": "the rate of change (volume per minute)", "3": "the time in minutes", "4": "the volume at that time"},
+   "steps": [
+    {"ask": "The rate is the volume added each minute. What do you multiply it by to get the volume after 3 minutes?", "title": "Multiply the rate by the number of minutes",
+     "lines": [{"text": "The oil spills at $\\hl{1}{4\\times10^6}$ cm³ per minute, so the volume is $\\hl{1}{4}$ (in units of $10^6$ cm³) for each minute."}, {"tex": "\\hl{3}{1} \\text{ min}:\\ \\hl{1}{4} \\times \\hl{3}{1} &= \\hl{4}{4}"}, {"tex": "\\hl{3}{2} \\text{ min}:\\ \\hl{1}{4} \\times \\hl{3}{2} &= \\hl{4}{8}"}, {"tex": "\\hl{3}{3} \\text{ min}:\\ \\hl{1}{4} \\times \\hl{3}{3} &= \\hl{4}{12}"}, {"tex": "\\hl{3}{4} \\text{ min}:\\ \\hl{1}{4} \\times \\hl{3}{4} &= \\hl{4}{16}"}, {"tex": "\\hl{3}{5} \\text{ min}:\\ \\hl{1}{4} \\times \\hl{3}{5} &= \\hl{4}{20}"}, {"tex": "\\hl{3}{6} \\text{ min}:\\ \\hl{1}{4} \\times \\hl{3}{6} &= \\hl{4}{24}"}]}
+   ],
+   "final": "\\hl{4}{4},\\ \\hl{4}{8},\\ \\hl{4}{12},\\ \\hl{4}{16},\\ \\hl{4}{20},\\ \\hl{4}{24}",
+   "graph": null}
+ ]},
+ {"skill": "line-midpoint", "problems": [
+  {"part": "maths-pp-2018-ordinary-p2-q2#(a)", "note": null,
+   "legend": {"1": "the x-coordinate of the midpoint", "2": "the y-coordinate of the midpoint"},
+   "steps": [
+    {"ask": "What is the midpoint formula? What do you do with the x-coordinates, and with the y-coordinates?", "title": "Use the midpoint formula on P and R",
+     "lines": [{"text": "$V$ is the midpoint of $[PR]$, with $P(7, 10)$ and $R(11, 4)$."}, {"tex": "V &= \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)"}, {"tex": "&= \\left(\\frac{7+11}{2}, \\frac{10+4}{2}\\right)"}, {"tex": "&= \\left(\\frac{18}{2}, \\frac{14}{2}\\right)"}, {"tex": "&= (\\hl{1}{9}, \\hl{2}{7})"}]}
+   ],
+   "final": "V = (\\hl{1}{9}, \\hl{2}{7})",
+   "graph": null},
+  {"part": "maths-pp-2021-ordinary-p2-q4#(a)(ii)", "note": "Same midpoint formula as the first problem, but two of the coordinates are negative, so the signs need care when you add and when you halve.",
+   "legend": {"1": "the x-coordinate of the midpoint", "2": "the y-coordinate of the midpoint"},
+   "steps": [
+    {"ask": "Two of the coordinates are negative. How do you add a negative number, and what happens when you divide by 2?", "title": "Use the midpoint formula",
+     "lines": [{"tex": "M &= \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)"}, {"tex": "M &= \\left(\\frac{6 + (-2)}{2}, \\frac{2 + (-4)}{2}\\right)"}, {"tex": "&= \\left(\\frac{4}{2}, \\frac{-2}{2}\\right)"}, {"tex": "&= (\\hl{1}{2}, \\hl{2}{-1})"}]}
+   ],
+   "final": "(\\hl{1}{2}, \\hl{2}{-1})",
+   "graph": null},
+  {"part": "maths-pp-2018-ordinary-p2-q4#(a)", "note": "Back to positive numbers, but now the question is about a circle: the centre is the midpoint of a diameter, so you must first spot that AB is a diameter.",
+   "legend": {"1": "the x-coordinate of the midpoint", "2": "the y-coordinate of the midpoint"},
+   "steps": [
+    {"ask": "What point of a circle is the midpoint of a diameter? Which two points form the diameter here?", "title": "Find the midpoint of AB",
+     "lines": [{"text": "The centre of a circle is the midpoint of a diameter."}, {"tex": "\\text{Centre} &= \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)"}, {"tex": "&= \\left(\\frac{1+9}{2}, \\frac{8+0}{2}\\right)"}, {"tex": "&= \\left(\\frac{10}{2}, \\frac{8}{2}\\right)"}, {"tex": "&= (\\hl{1}{5}, \\hl{2}{4})"}]}
+   ],
+   "final": "(\\hl{1}{5}, \\hl{2}{4})",
+   "graph": null}
+ ]},
+ {"skill": "line-parallel-perp", "problems": [
+  {"part": "maths-pp-2019-ordinary-p2-q2#(c)", "note": null,
+   "legend": {"1": "the slope of the given line", "2": "the slope of the line wanted"},
+   "steps": [
+    {"ask": "The question gives the slope of one line. What is the rule that links it to the slope of a perpendicular line?", "title": "Use the perpendicular slope rule",
+     "lines": [{"text": "Perpendicular lines have slopes whose product is $-1$, so the perpendicular slope is the negative reciprocal."}, {"tex": "\\hl{2}{m_{\\perp}} &= -\\frac{1}{\\hl{1}{3/4}}"}, {"tex": "&= \\hl{2}{-\\frac{4}{3}}"}]}
+   ],
+   "final": "\\hl{2}{-\\frac{4}{3}}",
+   "graph": null},
+  {"part": "maths-pp-2015-ordinary-p2-q2#(b)", "note": "This time the slope of the given line comes from another line, p, so you find that slope first. The perpendicular rule and the form of the answer stay the same.",
+   "legend": {"1": "the slope of the given line", "2": "the slope of the line wanted"},
+   "steps": [
+    {"ask": "Line p is given in the question. What is its slope, and what product must perpendicular slopes give?", "title": "Find the slope of q",
+     "lines": [{"text": "Perpendicular lines have slopes with product $-1$. The slope of $p$ is $\\hl{1}{1}$."}, {"tex": "\\hl{1}{m_1} \\times \\hl{2}{m_2} &= -1"}, {"tex": "\\hl{1}{1} \\times \\hl{2}{m_2} &= -1"}, {"tex": "\\hl{2}{m_2} &= \\hl{2}{-1}"}]},
+    {"ask": "You now have a slope and the point O. Which form lets you write a line from a point and a slope?", "title": "Write the equation through O(0, 0)",
+     "lines": [{"tex": "y - y_1 &= m(x - x_1)"}, {"tex": "y - 0 &= \\hl{2}{-1}(x - 0)"}, {"tex": "y &= -x"}, {"tex": "x + y &= 0"}]}
+   ],
+   "final": "x + y = 0",
+   "graph": null},
+  {"part": "maths-pp-2021-ordinary-p2-q10#(c)(iii)", "note": "The question now asks for a parallel line, not a perpendicular one, and the line through the point is not at the origin. The given line must be rearranged to read its slope first.",
+   "legend": {"1": "the slope of the given line", "2": "the slope of the line wanted"},
+   "steps": [
+    {"ask": "k is written with x, y and a constant on one side. What do you rearrange to read its slope?", "title": "Find the slope of k",
+     "lines": [{"tex": "x - y - 3 &= 0"}, {"tex": "y &= x - 3"}, {"text": "The slope of $k$ is $\\hl{1}{1}$. Parallel lines have equal slopes, so the slope of $l$ is $\\hl{2}{1}$."}]},
+    {"ask": "l has the same slope as k and passes through C. Which form lets you write a line from a point and a slope?", "title": "Find l through C(-3, 2) with slope 1",
+     "lines": [{"tex": "y - y_1 &= m(x - x_1)"}, {"tex": "y - 2 &= \\hl{2}{1}(x - (-3))"}, {"tex": "y - 2 &= x + 3"}, {"tex": "y &= x + 5"}]}
+   ],
+   "final": "y = x + 5",
+   "graph": null}
+ ]},
+ {"skill": "line-perp-distance", "problems": [
+  {"part": "maths-pp-2024-higher-p2-q6#(b)", "note": null,
+   "legend": {"1": "the line's coefficients a, b, c", "2": "the point (x₁, y₁)", "3": "the distance d"},
+   "steps": [
+    {"ask": "The line is given as y = ... . What form does the distance formula need it in, and what must you move?", "title": "Rewrite the line in the form ax + by + c = 0",
+     "lines": [{"tex": "y &= \\frac{4}{3}x - 11"}, {"tex": "\\frac{4}{3}x - y - 11 &= 0"}, {"text": "So $\\hl{1}{a = \\frac{4}{3}}$, $\\hl{1}{b = -1}$, $\\hl{1}{c = -11}$."}]},
+    {"ask": "Which numbers from the point go into x₁ and y₁, and which numbers from the line go into a, b and c?", "title": "Substitute (5, -2) into the distance formula",
+     "lines": [{"text": "The distance from $(x_1, y_1)$ to $ax + by + c = 0$ is $\\dfrac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$."}, {"tex": "\\hl{3}{d} &= \\frac{\\left|\\hl{1}{\\frac{4}{3}}(\\hl{2}{5}) + \\hl{1}{(-1)}(\\hl{2}{-2}) - 11\\right|}{\\sqrt{\\hl{1}{\\left(\\frac{4}{3}\\right)^2} + \\hl{1}{(-1)^2}}}"}]},
+    {"ask": "Simplify the top and the bottom separately. What is inside the modulus, and what is under the square root?", "title": "Evaluate the numerator and denominator",
+     "lines": [{"tex": "\\hl{3}{d} &= \\frac{\\left|\\frac{20}{3} + 2 - 11\\right|}{\\sqrt{\\frac{16}{9} + 1}}"}, {"tex": "\\hl{3}{d} &= \\frac{\\left|-\\frac{7}{3}\\right|}{\\sqrt{\\frac{25}{9}}}"}, {"tex": "\\hl{3}{d} &= \\frac{\\frac{7}{3}}{\\frac{5}{3}}"}, {"tex": "\\hl{3}{d} &= \\hl{3}{\\frac{7}{5}} = \\hl{3}{1.4}"}]}
+   ],
+   "final": "\\hl{3}{1.4} \\text{ units}",
+   "graph": null},
+  {"part": "maths-pp-2015-higher-p2-q3#(b)", "note": "This time the point has an unknown $k$ in it, so the answer is a formula in $k$ rather than a number. The formula and the steps are the same as in the first problem.",
+   "legend": {"1": "the line's coefficients a, b, c", "2": "the point (x₁, y₁)", "3": "the distance d"},
+   "steps": [
+    {"ask": "What are a, b and c for this line, and what are x₁ and y₁ for the point?", "title": "Write the distance formula",
+     "lines": [{"text": "The distance from $(x_1, y_1)$ to $ax + by + c = 0$ is $\\dfrac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$."}, {"text": "Here $\\hl{1}{a = 3}$, $\\hl{1}{b = -4}$, $\\hl{1}{c = -12}$ and $\\hl{2}{(x_1, y_1) = (10, k)}$."}]},
+    {"ask": "Put each value into the formula and keep k as a letter. What is on top, and what is on the bottom?", "title": "Substitute",
+     "lines": [{"tex": "\\hl{3}{d} &= \\frac{|3(\\hl{2}{10}) - 4(\\hl{2}{k}) - 12|}{\\sqrt{3^2 + (-4)^2}}"}, {"tex": "&= \\frac{|30 - 4\\hl{2}{k} - 12|}{\\sqrt{9 + 16}}"}, {"tex": "&= \\frac{|18 - 4\\hl{2}{k}|}{\\sqrt{25}}"}, {"tex": "&= \\frac{|18 - 4\\hl{2}{k}|}{5}"}]}
+   ],
+   "final": "\\hl{3}{d} = \\dfrac{|18 - 4\\hl{2}{k}|}{5}",
+   "graph": null},
+  {"part": "maths-pp-2023-higher-p2-q4#(a)(ii)", "note": "This time the distance is given as 5 and the unknown is the x-coordinate of the centre, so you solve for h. The answer has a square root, and the modulus gives two answers.",
+   "legend": {"1": "the line's coefficients a, b, c", "2": "the point (x₁, y₁)", "3": "the distance d"},
+   "steps": [
+    {"ask": "The question gives the distance from the centre to the line. Which symbol is that distance, and what is the centre?", "title": "Write the distance from a point to a line",
+     "lines": [{"text": "For the line $ax + by + c = 0$ and the point $(x_1, y_1)$:"}, {"tex": "\\hl{3}{d} &= \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}"}, {"text": "Here $\\hl{1}{a = 1}$, $\\hl{1}{b = -4}$, $\\hl{1}{c = 7}$, and the point is the centre $\\hl{2}{(h, -3)}$."}]},
+    {"ask": "Substitute the centre into the distance formula and set it equal to 5. What can you simplify first?", "title": "Set the distance equal to 5",
+     "lines": [{"tex": "\\frac{|\\hl{2}{h} - 4(\\hl{2}{-3}) + 7|}{\\sqrt{1^2 + (-4)^2}} &= \\hl{3}{5}"}, {"tex": "\\frac{|\\hl{2}{h} - 4(\\hl{2}{-3}) + 7|}{\\sqrt{17}} &= \\hl{3}{5}"}, {"tex": "\\frac{|\\hl{2}{h} + 12 + 7|}{\\sqrt{17}} &= \\hl{3}{5}"}, {"tex": "\\frac{|\\hl{2}{h} + 19|}{\\sqrt{17}} &= \\hl{3}{5}"}]},
+    {"ask": "The square root is on the bottom of the fraction. What do you multiply both sides by to clear it?", "title": "Multiply both sides by the square root",
+     "lines": [{"tex": "|\\hl{2}{h} + 19| &= \\hl{3}{5\\sqrt{17}}"}]},
+    {"ask": "A modulus equal to a positive number gives how many equations? What are they?", "title": "Remove the modulus using both signs",
+     "lines": [{"text": "$|A| = k$ means $A = k$ or $A = -k$."}, {"tex": "\\hl{2}{h} + 19 &= \\hl{3}{5\\sqrt{17}} \\text{ or } \\hl{2}{h} + 19 = -\\hl{3}{5\\sqrt{17}}"}]},
+    {"ask": "In each equation, h has a constant added or taken away. What do you do to both sides to get h alone?", "title": "Subtract 19 in each case",
+     "lines": [{"tex": "\\hl{2}{h} &= \\hl{3}{5\\sqrt{17}} - 19 \\text{ or } \\hl{2}{h} = -\\hl{3}{5\\sqrt{17}} - 19"}]}
+   ],
+   "final": "\\hl{2}{h} = \\hl{3}{5\\sqrt{17}} - 19 \\text{ or } \\hl{2}{h} = -\\hl{3}{5\\sqrt{17}} - 19",
+   "graph": null}
+ ]}
+]

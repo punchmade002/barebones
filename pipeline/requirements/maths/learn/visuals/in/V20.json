@@ -1,0 +1,234 @@
+[
+ {
+  "skill": "prob-addition-rule",
+  "title": "Apply the addition rule",
+  "show": "Venn diagram of A and B with the regions filled in from P(A), P(B), P(A∪B)",
+  "example": {
+   "question": "$A$ and $B$ are events with $P(A) = \\frac{3}{5}$, $P(B) = \\frac{3}{10}$ and $P(A \\cup B) = \\frac{7}{10}$. Find $P(A \\cap B)$. Hence state whether $A$ and $B$ are independent.",
+   "final": "P(A \\cap B) = \\frac{1}{5}, \\text{ so } A \\text{ and } B \\text{ are not independent}",
+   "steps": [
+    {
+     "say": "Start with the rule for $A$ or $B$. It has $P(A \\cap B)$ in it, and that is what we want.",
+     "rows": [
+      {
+       "l": "P(A \\cup B)",
+       "r": "= P(A) + P(B) - P(A \\cap B)"
+      }
+     ]
+    },
+    {
+     "say": "Put the numbers in and make $\\hl{1}{P(A \\cap B)}$ the subject.",
+     "rows": [
+      {
+       "l": "\\hl{1}{P(A \\cap B)}",
+       "r": "= \\frac{3}{5} + \\frac{3}{10} - \\frac{7}{10}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{1}{5}}"
+      }
+     ]
+    },
+    {
+     "say": "Independent events satisfy $P(A) \\times P(B) = P(A \\cap B)$. Multiply $P(A)$ and $P(B)$ and compare with $\\hl{1}{\\frac{1}{5}}$.",
+     "rows": [
+      {
+       "l": "P(A) \\times P(B)",
+       "r": "= \\frac{3}{5} \\times \\frac{3}{10}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{\\frac{9}{50}}"
+      }
+     ]
+    },
+    {
+     "say": "Compare the two values.",
+     "rows": [
+      {
+       "l": "\\hl{2}{\\frac{9}{50}}",
+       "r": "\\neq \\hl{1}{\\frac{1}{5}}"
+      },
+      {
+       "aside": "They are not equal, so $A$ and $B$ are **not independent**."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-tree",
+  "title": "Use a tree diagram for multi-stage experiments",
+  "show": "probability tree for two kicks, each branch scores 7/10 or misses 3/10",
+  "example": {
+   "question": "Sam takes two penalty kicks. The probability that he scores any one kick is $\\frac{7}{10}$. Draw a tree diagram and find the probability that he scores at least one of the two kicks.",
+   "final": "\\frac{91}{100}",
+   "steps": [
+    {
+     "say": "Each kick has two branches: score ($S$) with $\\frac{7}{10}$ and miss ($M$) with $\\frac{3}{10}$. Both first-kick branches split again for the second kick.",
+     "rows": [
+      {
+       "aside": "First kick: $S$ $\\frac{7}{10}$, $M$ $\\frac{3}{10}$."
+      },
+      {
+       "aside": "Second kick: the same two branches from each of those."
+      }
+     ]
+    },
+    {
+     "say": "The probability of one outcome is the product of the numbers along its branches.",
+     "rows": [
+      {
+       "l": "P(S,S)",
+       "r": "= \\frac{7}{10} \\times \\frac{7}{10} = \\frac{49}{100}"
+      },
+      {
+       "l": "P(S,M)",
+       "r": "= \\frac{7}{10} \\times \\frac{3}{10} = \\frac{21}{100}"
+      },
+      {
+       "l": "P(M,S)",
+       "r": "= \\frac{3}{10} \\times \\frac{7}{10} = \\frac{21}{100}"
+      },
+      {
+       "l": "P(M,M)",
+       "r": "= \\frac{3}{10} \\times \\frac{3}{10} = \\hl{2}{\\frac{9}{100}}"
+      }
+     ]
+    },
+    {
+     "say": "At least one score means $S,S$ or $S,M$ or $M,S$. Add those three outcomes.",
+     "rows": [
+      {
+       "l": "P(\\text{at least one})",
+       "r": "= \\frac{49}{100} + \\frac{21}{100} + \\frac{21}{100}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{91}{100}}"
+      }
+     ]
+    },
+    {
+     "say": "The only way to score none is $M,M$. Take $\\hl{2}{\\frac{9}{100}}$ away from $1$.",
+     "rows": [
+      {
+       "l": "1 - P(M,M)",
+       "r": "= 1 - \\hl{2}{\\frac{9}{100}}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{91}{100}}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-independence-test",
+  "title": "Test whether events are independent",
+  "show": "Venn diagram of A and B with P(A)=0.5, P(A∩B)=0.1, P(A∪B)=0.7 filled in",
+  "example": {
+   "question": "$P(A) = 0.5$, $P(A \\cup B) = 0.7$ and $P(A \\cap B) = 0.1$. Find $P(B)$. Hence decide whether $A$ and $B$ are independent events.",
+   "final": "P(B) = 0.3 \\text{ and } P(A)P(B) = 0.15 \\neq 0.1 = P(A \\cap B) \\text{: not independent}",
+   "steps": [
+    {
+     "say": "Use the addition rule, $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$, and solve for $P(B)$.",
+     "rows": [
+      {
+       "l": "0.7",
+       "r": "= 0.5 + P(B) - 0.1"
+      },
+      {
+       "l": "P(B)",
+       "r": "= 0.7 - 0.5 + 0.1"
+      },
+      {
+       "l": "",
+       "r": "= 0.3"
+      }
+     ]
+    },
+    {
+     "say": "Independent events satisfy $P(A \\cap B) = P(A)P(B)$. Work out the product $\\hl{1}{P(A)P(B)}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{P(A)P(B)}",
+       "r": "= 0.5 \\times 0.3"
+      },
+      {
+       "l": "",
+       "r": "= 0.15"
+      }
+     ]
+    },
+    {
+     "say": "Compare the product with $\\hl{2}{P(A \\cap B)}$, which the question gives as $0.1$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{0.15}",
+       "r": "\\neq \\hl{2}{0.1}"
+      },
+      {
+       "aside": "The product and $P(A \\cap B)$ are not equal. So the events are **not independent**. Always write that sentence."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-conditional",
+  "title": "Apply conditional probability and the general multiplication rule",
+  "show": "Venn diagram or tree with bike 60%, bike and car 24%",
+  "example": {
+   "question": "In a survey, $60\\%$ of people own a bike. $24\\%$ own a bike and a car. A person who owns a bike is chosen at random. Find the probability that this person owns a car.",
+   "final": "0.4",
+   "steps": [
+    {
+     "say": "Let $B$ be owning a bike and $C$ be owning a car. We are **told** the person owns a bike, so the bike is the condition.",
+     "rows": [
+      {
+       "l": "P(B)",
+       "r": "= 0.6"
+      },
+      {
+       "l": "P(C \\cap B)",
+       "r": "= 0.24"
+      },
+      {
+       "aside": "We want $P(C \\mid B)$, the chance of a car given a bike."
+      }
+     ]
+    },
+    {
+     "say": "The overlap goes on top. The thing we are told, $\\hl{2}{P(B)}$, goes on the bottom.",
+     "rows": [
+      {
+       "l": "P(C \\mid B)",
+       "r": "= \\frac{\\hl{1}{P(C \\cap B)}}{\\hl{2}{P(B)}}"
+      },
+      {
+       "aside": "This is not $P(B \\mid C)$. That would divide by $P(C)$."
+      }
+     ]
+    },
+    {
+     "say": "Put in the two numbers and divide.",
+     "rows": [
+      {
+       "l": "P(C \\mid B)",
+       "r": "= \\frac{\\hl{1}{0.24}}{\\hl{2}{0.6}}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{0.4}"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,686 @@
+[
+ {
+  "skill": "diff-combined",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-inverse-trig",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-quotient",
+  "verdict": "fixed",
+  "issues": "Corrected 'x² again' (earlier problems had other top functions).",
+  "problems": [
+   {
+    "part": "maths-pp-2024-higher-p1-q4#(b)",
+    "note": null,
+    "legend": {
+     "1": "the derivative, g′(x) or its value",
+     "2": "u, the top function",
+     "3": "v, the bottom function",
+     "4": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which function is the top, called u, and which is the bottom, called v? Find the derivative of each.",
+      "title": "Name u and v and differentiate each",
+      "lines": [
+       {
+        "text": "Use the quotient rule: $\\hl{1}{g'(x)}=\\frac{v\\,u' - u\\,v'}{v^2}$."
+       },
+       {
+        "tex": "u &= \\hl{2}{6x + 1}"
+       },
+       {
+        "tex": "\\frac{du}{dx} &= 6"
+       },
+       {
+        "tex": "v &= \\hl{3}{x^4 + 3}"
+       },
+       {
+        "tex": "\\frac{dv}{dx} &= 4x^3"
+       }
+      ]
+     },
+     {
+      "ask": "What does the quotient rule say, and where do u, v, u′ and v′ go in it?",
+      "title": "Substitute into the quotient rule",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g'(x)} &= \\frac{(\\hl{3}{x^4+3})(6) - (\\hl{2}{6x+1})(4x^3)}{(\\hl{3}{x^4+3})^2}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when x = −2 goes into the top and bottom?",
+      "title": "Substitute x = −2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g'(-2)} &= \\frac{((-2)^4+3)(6) - (6(-2)+1)(4(-2)^3)}{((-2)^4+3)^2}"
+       },
+       {
+        "tex": "&= \\frac{(19)(6) - (-11)(-32)}{(19)^2}"
+       },
+       {
+        "tex": "&= \\frac{114 - 352}{361}"
+       },
+       {
+        "tex": "&= \\hl{4}{-\\frac{238}{361}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{g'(-2)} = \\hl{4}{-\\frac{238}{361}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q3#(b)",
+    "note": "The top function is now the constant 3, and the question asks for a proof that there are no turning points, so an explanation step is added after the derivative. The quotient rule is the same as problem 1.",
+    "legend": {
+     "1": "the derivative, g′(x) or its value",
+     "2": "u, the top function",
+     "3": "v, the bottom function",
+     "4": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "The top function is a constant. What are u and v, and what are u′ and v′?",
+      "title": "Choose the quotient rule parts",
+      "lines": [
+       {
+        "tex": "u &= \\hl{2}{3}, \\quad u' = 0"
+       },
+       {
+        "tex": "v &= \\hl{3}{2x - 7}, \\quad v' = 2"
+       }
+      ]
+     },
+     {
+      "ask": "What goes into the top and bottom of the quotient rule?",
+      "title": "Substitute into the quotient rule",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g'(x)} &= \\frac{v u' - u v'}{v^2}"
+       },
+       {
+        "tex": "&= \\frac{(\\hl{3}{2x-7})(0) - (\\hl{2}{3})(2)}{(\\hl{3}{2x-7})^2}"
+       }
+      ]
+     },
+     {
+      "ask": "What does the numerator become once you simplify it?",
+      "title": "Simplify the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{0 - 6}{(\\hl{3}{2x-7})^2}"
+       },
+       {
+        "tex": "&= \\hl{1}{-\\frac{6}{(2x-7)^2}}"
+       }
+      ]
+     },
+     {
+      "ask": "What value must g′(x) take at a turning point, and can this expression ever take that value?",
+      "title": "Explain why there are no turning points",
+      "lines": [
+       {
+        "text": "A turning point needs $\\hl{1}{g'(x)} = 0$, but the numerator is $-6$, which is never $0$."
+       },
+       {
+        "text": "Also $(2x-7)^2 > 0$ for every $x$ in the domain ($x \\ne 3.5$), so $\\hl{1}{g'(x)} < 0$ always."
+       },
+       {
+        "text": "So $\\hl{1}{g'(x)} \\ne 0$ for all $x$ in the domain: $g$ has no local maximum or minimum points."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{g'(x)} = -\\frac{6}{(2x-7)^2} < 0 \\text{ for all } x \\text{ in the domain, so there are no turning points}",
+    "graph": null
+   },
+   {
+    "part": "practice-diff-quotient-1",
+    "note": "The top function is now x², and the derivative is set to zero and solved for x instead of proving there are none. The quotient rule steps are the same as problem 2.",
+    "legend": {
+     "1": "the derivative, g′(x) or its value",
+     "2": "u, the top function",
+     "3": "v, the bottom function",
+     "4": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What are u and v for the function x²/(x − 2), and what are u′ and v′?",
+      "title": "Name $u$ and $v$ and differentiate each",
+      "lines": [
+       {
+        "tex": "u &= \\hl{2}{x^2}, \\quad u' = 2x"
+       },
+       {
+        "tex": "v &= \\hl{3}{x - 2}, \\quad v' = 1"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute u, v, u′ and v′ into the quotient rule. What does the top become?",
+      "title": "Substitute into the quotient rule",
+      "lines": [
+       {
+        "tex": "\\hl{1}{f'(x)} &= \\frac{(\\hl{3}{x-2})(2x) - \\hl{2}{x^2}(1)}{(\\hl{3}{x-2})^2}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the numerator once it is simplified, and can it be factorised?",
+      "title": "Simplify the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{x^2 - 4x}{(\\hl{3}{x-2})^2}"
+       },
+       {
+        "tex": "&= \\frac{x(x-4)}{(\\hl{3}{x-2})^2}"
+       }
+      ]
+     },
+     {
+      "ask": "For a horizontal tangent, what must f′(x) equal? Which x values make that happen?",
+      "title": "Set $f'(x) = 0$",
+      "lines": [
+       {
+        "tex": "x(x-4) &= 0"
+       },
+       {
+        "tex": "x &= 0 \\text{ or } x = 4"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{x = 0 \\text{ or } x = 4}",
+    "graph": {
+     "f": "x**2/(x - 2)",
+     "box": [
+      -2,
+      10,
+      6,
+      -3
+     ],
+     "tangent": true,
+     "points": [
+      {
+       "x": 0,
+       "y": 0,
+       "name": "local max (0, 0)"
+      },
+      {
+       "x": 4,
+       "y": 8,
+       "name": "local min (4, 8)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 4,
+      "y": null,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": "diff-rational-power",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-show-identity",
+  "verdict": "fixed",
+  "issues": "Problem 3's first ask named the rule; reworded to point at it.",
+  "problems": [
+   {
+    "part": "practice-diff-show-identity-1",
+    "note": null,
+    "legend": {
+     "1": "the first derivative, y′",
+     "2": "the second derivative, y″",
+     "3": "the answer: the left-hand side reduces to 0"
+    },
+    "steps": [
+     {
+      "ask": "What rule do you need to differentiate $xe^{2x}$, which is a product of two functions?",
+      "title": "Find the first derivative (product rule)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y'} &= e^{2x} + 2xe^{2x}"
+       },
+       {
+        "tex": "&= e^{2x}(1 + 2x)"
+       }
+      ]
+     },
+     {
+      "ask": "Which rule do you use when differentiating $y'$ again?",
+      "title": "Find the second derivative",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} &= 2e^{2x}(1 + 2x) + 2e^{2x}"
+       },
+       {
+        "tex": "&= e^{2x}(4 + 4x)"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you put $y''$, $y'$ and $y$ into the left-hand side?",
+      "title": "Substitute into the left-hand side",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} - 4\\hl{1}{y'} + 4y &= e^{2x}(4 + 4x) - 4e^{2x}(1 + 2x) + 4xe^{2x}"
+       },
+       {
+        "tex": "&= e^{2x}(4 + 4x - 4 - 8x + 4x)"
+       },
+       {
+        "tex": "&= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "How does the left-hand side compare with the right-hand side?",
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "The left-hand side equals $\\hl{3}{0}$, the right-hand side, so the relation is shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{0}",
+    "graph": null
+   },
+   {
+    "part": "practice-diff-show-identity-2",
+    "note": "The factor x is replaced by sin 2x and the exponent is -x, so the chain rule is needed for the sine as well. The steps and slots stay the same.",
+    "legend": {
+     "1": "the first derivative, y′",
+     "2": "the second derivative, y″",
+     "3": "the answer: the left-hand side reduces to 0"
+    },
+    "steps": [
+     {
+      "ask": "Which rules do you need to differentiate $e^{-x}\\sin 2x$?",
+      "title": "Find $y'$ (product and chain rules)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y'} &= -e^{-x}\\sin 2x + 2e^{-x}\\cos 2x"
+       },
+       {
+        "tex": "&= e^{-x}(2\\cos 2x - \\sin 2x)"
+       }
+      ]
+     },
+     {
+      "ask": "Which rule do you use when differentiating $y'$ a second time?",
+      "title": "Find $y''$",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} &= -e^{-x}(2\\cos 2x - \\sin 2x) + e^{-x}(-4\\sin 2x - 2\\cos 2x)"
+       },
+       {
+        "tex": "&= e^{-x}(-4\\cos 2x - 3\\sin 2x)"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you put $y''$, $2y'$ and $5y$ into the left-hand side?",
+      "title": "Substitute into the left-hand side",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} + 2\\hl{1}{y'} + 5y &= e^{-x}(-4\\cos 2x - 3\\sin 2x) + 2e^{-x}(2\\cos 2x - \\sin 2x) + 5e^{-x}\\sin 2x"
+       },
+       {
+        "tex": "&= e^{-x}\\big[(-4 + 4)\\cos 2x + (-3 - 2 + 5)\\sin 2x\\big]"
+       },
+       {
+        "tex": "&= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "How does the left-hand side compare with the right-hand side?",
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "The left-hand side equals $\\hl{3}{0}$, so the relation is shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{0}",
+    "graph": null
+   },
+   {
+    "part": "practice-diff-show-identity-3",
+    "note": "The function is now sin(ln x) rather than a product, so y′ uses the chain rule and y″ uses the quotient rule, and the relation has x² and x coefficients. The slots and steps stay the same.",
+    "legend": {
+     "1": "the first derivative, y′",
+     "2": "the second derivative, y″",
+     "3": "the answer: the left-hand side reduces to 0"
+    },
+    "steps": [
+     {
+      "ask": "The sine has $\\ln x$ inside it. Which rule do you need, and what is $y'$?",
+      "title": "Find $y'$ (chain rule)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y'} &= \\cos(\\ln x)\\cdot\\frac{1}{x}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you differentiate $y'$, which is a fraction in $x$?",
+      "title": "Find $y''$ (quotient rule)",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} &= \\frac{-\\sin(\\ln x) \\cdot \\frac{1}{x}\\cdot x - \\cos(\\ln x)\\cdot 1}{x^2}"
+       },
+       {
+        "tex": "&= \\frac{-\\sin(\\ln x) - \\cos(\\ln x)}{x^2}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you multiply $y''$ by $x^2$, $y'$ by $x$, and add $y$?",
+      "title": "Substitute into the left-hand side",
+      "lines": [
+       {
+        "tex": "x^2\\hl{2}{y''} + x\\hl{1}{y'} + y &= -\\sin(\\ln x) - \\cos(\\ln x) + \\cos(\\ln x) + \\sin(\\ln x)"
+       },
+       {
+        "tex": "&= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "How does the left-hand side compare with the right-hand side?",
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "The left-hand side equals $\\hl{3}{0}$, so the relation is shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{0}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-amortisation",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "fin-annuity-fv",
+  "verdict": "fixed",
+  "issues": "Note wrongly said deposits were the same kind as problem 2 (that one is end of month).",
+  "problems": [
+   {
+    "part": "practice-fin-annuity-fv-1",
+    "note": null,
+    "legend": {
+     "1": "the growth factor per period",
+     "2": "the deposit each period",
+     "3": "the total value of savings"
+    },
+    "steps": [
+     {
+      "ask": "What single number multiplies a balance each year when it earns 2%?",
+      "title": "Each deposit grows by 1.02 per year",
+      "lines": [
+       {
+        "text": "$2\\% = 0.02$, so the yearly factor is $\\hl{1}{1.02}$."
+       },
+       {
+        "text": "The first deposit earns interest for 4 years, the last for 1 year."
+       }
+      ]
+     },
+     {
+      "ask": "How many years of interest does each deposit earn, and what power of 1.02 goes with it?",
+      "title": "Write the total as a series",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{500}(\\hl{1}{1.02})^4 + \\hl{2}{500}(\\hl{1}{1.02})^3 + \\hl{2}{500}(\\hl{1}{1.02})^2 + \\hl{2}{500}(\\hl{1}{1.02})"
+       }
+      ]
+     },
+     {
+      "ask": "Which power of 1.02 is smallest, and what do the four terms have in common?",
+      "title": "Reverse the order and take out 500",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{500}\\left[\\hl{1}{1.02} + \\hl{1}{1.02}^2 + \\hl{1}{1.02}^3 + \\hl{1}{1.02}^4\\right]"
+       }
+      ]
+     },
+     {
+      "ask": "Which number is the first term a, which is the common ratio r, and how many terms n are there?",
+      "title": "Identify the geometric series",
+      "lines": [
+       {
+        "text": "The bracket is geometric with $a = \\hl{1}{1.02}$, $r = \\hl{1}{1.02}$ and $n = 4$."
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula fits the bracket, and what do you get when you substitute a, r and n?",
+      "title": "Use the sum formula",
+      "lines": [
+       {
+        "tex": "S_4 &= \\frac{a(r^n - 1)}{r - 1}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{1.02}\\left(\\hl{1}{1.02}^4 - 1\\right)}{0.02}"
+       },
+       {
+        "tex": "&\\approx 4.20404"
+       },
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{500} \\times 4.20404"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{2102.02}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{3}{2102.02}",
+    "graph": null
+   },
+   {
+    "part": "practice-fin-annuity-fv-2",
+    "note": "The payments are €150 at the end of each month for 60 months, so the first earns 59 months of interest and the last earns none. The method is the same as the first problem, but the deposits are monthly and made at the end of each month.",
+    "legend": {
+     "1": "the growth factor per period",
+     "2": "the deposit each period",
+     "3": "the total value of savings"
+    },
+    "steps": [
+     {
+      "ask": "What single number multiplies a balance each month when it earns 0.4%, and how many monthly payments are there?",
+      "title": "Monthly factor and number of payments",
+      "lines": [
+       {
+        "text": "$0.4\\% = 0.004$, so the monthly factor is $\\hl{1}{1.004}$."
+       },
+       {
+        "text": "There are $5 \\times 12 = 60$ payments."
+       }
+      ]
+     },
+     {
+      "ask": "How many months of interest does the first payment earn, and what does the last one earn?",
+      "title": "Write the total as a series",
+      "lines": [
+       {
+        "text": "The first payment earns interest for 59 months. The last earns none."
+       },
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{150}(\\hl{1}{1.004})^{59} + \\hl{2}{150}(\\hl{1}{1.004})^{58} + \\cdots + \\hl{2}{150}(\\hl{1}{1.004}) + \\hl{2}{150}"
+       }
+      ]
+     },
+     {
+      "ask": "Starting from the smallest power, what are a, r and n for this bracket?",
+      "title": "Reverse the order and identify the geometric series",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{150}\\left[1 + \\hl{1}{1.004} + \\hl{1}{1.004}^2 + \\cdots + \\hl{1}{1.004}^{59}\\right]"
+       },
+       {
+        "text": "The bracket is geometric with $a = 1$, $r = \\hl{1}{1.004}$ and $n = 60$."
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula gives the sum of n terms, and what do you substitute into it?",
+      "title": "Use the sum formula",
+      "lines": [
+       {
+        "tex": "S_{60} &= \\frac{1\\left(\\hl{1}{1.004}^{60} - 1\\right)}{\\hl{1}{1.004} - 1}"
+       },
+       {
+        "tex": "&\\approx 67.6602"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply the sum by to get the total?",
+      "title": "Multiply by 150",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{150} \\times 67.6602"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{10149.03}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{3}{10149.03}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q8#(d)(i), (ii)",
+    "note": "The deposits are monthly again, but made at the start of each month, so the first earns 36 months of interest and the last earns 1. The total is fixed at €12 000 and the question asks for the deposit A, so the sum is set equal to 12 000 and solved.",
+    "legend": {
+     "1": "the growth factor per period",
+     "2": "the deposit each period",
+     "3": "the total value of savings"
+    },
+    "steps": [
+     {
+      "ask": "What number multiplies the balance each month when the interest is 0.11%?",
+      "title": "(i) Each month's deposit grows by 1.0011 per month",
+      "lines": [
+       {
+        "text": "$0.11\\% = 0.0011$, so the monthly factor is $\\hl{1}{1.0011}$."
+       },
+       {
+        "text": "The first deposit earns interest for 36 months, the second for 35 months, and so on. The last deposit earns interest for 1 month."
+       }
+      ]
+     },
+     {
+      "ask": "How many months does the first deposit earn interest for, and how many does the last one earn?",
+      "title": "(i) Write the total as a series",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{A}(\\hl{1}{1.0011})^{36} + \\hl{2}{A}(\\hl{1}{1.0011})^{35} + \\cdots + \\hl{2}{A}(\\hl{1}{1.0011})^2 + \\hl{2}{A}(\\hl{1}{1.0011})"
+       }
+      ]
+     },
+     {
+      "ask": "Which way round should the terms go, and what is common to every term?",
+      "title": "(ii) Reverse the order and take out A",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{A}(\\hl{1}{1.0011}) + \\hl{2}{A}(\\hl{1}{1.0011})^2 + \\cdots + \\hl{2}{A}(\\hl{1}{1.0011})^{35} + \\hl{2}{A}(\\hl{1}{1.0011})^{36}"
+       },
+       {
+        "tex": "&= \\hl{2}{A}\\left[\\hl{1}{1.0011} + (\\hl{1}{1.0011})^2 + \\cdots + (\\hl{1}{1.0011})^{35} + (\\hl{1}{1.0011})^{36}\\right]"
+       }
+      ]
+     },
+     {
+      "ask": "Which number is the first term a, which is the common ratio r, and how many terms are there?",
+      "title": "(ii) Identify the geometric series",
+      "lines": [
+       {
+        "text": "The bracket is geometric with first term $a = \\hl{1}{1.0011}$, common ratio $r = \\hl{1}{1.0011}$ and $n = 36$ terms."
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula fits this bracket, and what does the savings total have to be?",
+      "title": "(ii) Use the sum formula and set the total to 12 000",
+      "lines": [
+       {
+        "tex": "S_{36} &= \\frac{a(1 - r^n)}{1 - r}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{1.0011}\\left(1 - \\hl{1}{1.0011}^{36}\\right)}{1 - \\hl{1}{1.0011}}"
+       },
+       {
+        "tex": "&= 36.742"
+       },
+       {
+        "tex": "\\hl{2}{A}(36.742) &= \\hl{3}{12000}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide both sides by to find A?",
+      "title": "(ii) Solve for A",
+      "lines": [
+       {
+        "tex": "\\hl{2}{A} &= \\frac{\\hl{3}{12000}}{36.742}"
+       },
+       {
+        "tex": "&= \\hl{2}{326.60}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{A} = \\text{€}\\hl{2}{326.60}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-annuity-pv",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "fin-estimate",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "fin-mortgage-derive",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ }
+]

@@ -1,0 +1,455 @@
+[
+ {
+  "skill": "con-17",
+  "what": {
+   "say": [
+    "You give it a triangle. It draws the **incircle**, the circle that fits inside and touches all three sides.",
+    "The key idea: the centre is where the **angle bisectors** meet, because that point is the same distance from every side."
+   ],
+   "in": "triangle $ABC$",
+   "out": "incircle with centre $I$"
+  },
+  "how": {
+   "ordinary": "Ordinary level asked for it in 2024 (Paper 2, Q6(a), 15 marks): bisect two angles of a given triangle and mark the incircle."
+  },
+  "example": {
+   "question": "Construct the incircle of the triangle $ABC$ with $|AB| = 8$ cm, $|BC| = 7$ cm and $|AC| = 5$ cm. Show all construction lines.",
+   "level": "ordinary",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the triangle",
+      "say": "Draw $[AB]$ first. Then find $C$ with two arcs, so the sides are accurate.",
+      "lines": [
+       {
+        "text": "Draw $[AB]$ with $|AB| = 8$ cm."
+       },
+       {
+        "text": "With the compass point on $A$, draw an arc of radius $5$ cm."
+       },
+       {
+        "text": "With the compass point on $B$, draw an arc of radius $7$ cm. Where the arcs cross is $C$."
+       },
+       {
+        "text": "Join $A$ to $C$ and $B$ to $C$."
+       }
+      ]
+     },
+     {
+      "title": "Bisect the angle at A",
+      "say": "The incentre lies on each angle bisector. Bisect the angle at $A$ using Construction 1.",
+      "lines": [
+       {
+        "text": "With the compass point on $A$, draw an arc that cuts $[AB]$ and $[AC]$."
+       },
+       {
+        "text": "Keep the same width. Put the point on each cut in turn and draw two arcs that cross inside the angle."
+       },
+       {
+        "text": "Draw a line from $A$ through the crossing point."
+       }
+      ]
+     },
+     {
+      "title": "Bisect the angle at B",
+      "say": "Do the same at $B$. The two bisectors meet at one point, the **incentre** $I$.",
+      "lines": [
+       {
+        "text": "Repeat the construction at $B$."
+       },
+       {
+        "text": "Label the point where the two bisectors cross $I$."
+       },
+       {
+        "text": "Two bisectors are enough. Leave all the arcs showing."
+       }
+      ]
+     },
+     {
+      "title": "Draw the incircle",
+      "say": "The circle must touch each side, so its radius is the shortest distance from $I$ to a side. Drop a perpendicular.",
+      "lines": [
+       {
+        "text": "From $I$, construct the perpendicular to $[AB]$ (Construction 5). Where it meets $[AB]$ is $T$."
+       },
+       {
+        "text": "With the compass point on $I$ and the pencil on $T$, draw the circle."
+       },
+       {
+        "text": "It touches all three sides."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "incircle with centre $I$, the meeting point of the angle bisectors"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><polygon points=\"40.0,190.0 260.0,190.0 100.0,30.0\"/><circle cx=\"122.3\" cy=\"133.0\" r=\"57.0\"/><line x1=\"40\" y1=\"190\" x2=\"122.3\" y2=\"133.0\" stroke-dasharray=\"4 3\"/><line x1=\"260\" y1=\"190\" x2=\"122.3\" y2=\"133.0\" stroke-dasharray=\"4 3\"/><line x1=\"100\" y1=\"30\" x2=\"122.3\" y2=\"133.0\" stroke-dasharray=\"4 3\"/><text x=\"24\" y=\"208\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"264\" y=\"208\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"96\" y=\"22\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"126.3\" y=\"129.0\" fill=\"#1A1916\" stroke=\"none\">I</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Bisect at least two angles. One correct bisector earns only partial credit, and a bisector with no arcs shown earns less.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q6#(a)(i), (ii)",
+       "quote": "One correct bisector"
+      }
+     ]
+    },
+    {
+     "tip": "Make sure the bisectors cross. If they do not meet, the incircle is not found and a mark is lost.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q6#(a)(i), (ii)",
+       "quote": "Bisectors do not intersect"
+      }
+     ]
+    },
+    {
+     "tip": "Even one correct arc is work of merit, so always start the construction and leave the arcs showing.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q6#(a)(i), (ii)",
+       "quote": "Work of merit in (i) OR (ii)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-19",
+  "what": {
+   "say": [
+    "You give it a circle with centre $O$ and a point $P$ on it. It draws the **tangent** at $P$, a line that touches the circle only at $P$.",
+    "The key idea: a tangent is **perpendicular** to the radius at the point of contact, so you draw the radius $[OP]$ and then a perpendicular to it at $P$."
+   ],
+   "in": "circle and point $P$",
+   "out": "tangent at $P$"
+  },
+  "how": {
+   "ordinary": "Ordinary level papers 2015 to 2025 did not test it as a separate part, so it is a learn-and-know construction."
+  },
+  "example": {
+   "question": "A circle has centre $O$ and radius $4$ cm. $P$ is a point on the circle. Construct the tangent to the circle at $P$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the radius",
+      "say": "The tangent is perpendicular to the radius at $P$. Draw the radius first.",
+      "lines": [
+       {
+        "text": "Draw the circle with centre $O$ and radius $4$ cm. Mark $P$ on it."
+       },
+       {
+        "text": "Draw the line from $O$ through $P$, and extend it past $P$."
+       }
+      ]
+     },
+     {
+      "title": "Mark two points either side",
+      "say": "Construction 4 draws a perpendicular to a line through a point on it. First mark two points the same distance from $P$.",
+      "lines": [
+       {
+        "text": "With the compass point on $P$, draw an arc that cuts the extended radius on both sides of $P$."
+       },
+       {
+        "text": "Call the two cuts $X$ and $Y$. Now $|PX| = |PY|$."
+       }
+      ]
+     },
+     {
+      "title": "Find the perpendicular",
+      "say": "Open the compass wider. Draw two arcs that cross above and below the line.",
+      "lines": [
+       {
+        "text": "With the compass point on $X$, draw an arc above the line and one below it."
+       },
+       {
+        "text": "Keep the same width. With the point on $Y$, draw arcs that cross the first two."
+       },
+       {
+        "text": "Mark the crossing points $U$ and $V$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the tangent",
+      "say": "Join $U$ and $V$. This line passes through $P$ at a right angle to $[OP]$, so it is the **tangent**.",
+      "lines": [
+       {
+        "text": "With the straight edge, draw the line $UV$ through $P$."
+       },
+       {
+        "text": "Label it $t$. It touches the circle at $P$ only."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "the line $t$ through $P$, perpendicular to $[OP]$"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><circle cx=\"130\" cy=\"110\" r=\"80\"/><line x1=\"130\" y1=\"110\" x2=\"210\" y2=\"110\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"200\"/><rect x=\"200\" y=\"100\" width=\"10\" height=\"10\"/><text x=\"116\" y=\"106\" fill=\"#1A1916\" stroke=\"none\">O</text><text x=\"214\" y=\"128\" fill=\"#1A1916\" stroke=\"none\">P</text><text x=\"216\" y=\"36\" fill=\"#1A1916\" stroke=\"none\">t</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "con-21",
+  "what": {
+   "say": [
+    "You give it a triangle. It finds the **centroid** $G$, the balance point where the three medians meet.",
+    "The key idea: a median runs from a vertex to the midpoint of the opposite side, and the centroid sits two thirds of the way along it. On coordinates, it is the average of the vertices."
+   ],
+   "in": "triangle $ABC$",
+   "out": "centroid $G$"
+  },
+  "how": {
+   "higher": "Higher level asked for it as a construction in 2015 (Paper 2, Q6(a), 5 marks) and 2024 (Paper 2, Q4(a), 15 marks), then a proof about the medians.",
+   "ordinary": "Ordinary level asked for it in 2025 (Paper 2, Q9(a), 15 marks): construct a midpoint and find the centroid, with measurements."
+  },
+  "example": {
+   "question": "The triangle $ABC$ has vertices $A(1, 2)$, $B(7, 4)$ and $C(4, 9)$. Find the midpoint $D$ of $[BC]$, then find the centroid $G$ of the triangle.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the midpoint D",
+      "say": "A median joins a vertex to the midpoint of the opposite side. Average the coordinates of $B$ and $C$ to find $\\hl{1}{D}$.",
+      "lines": [
+       {
+        "tex": "D_x &= \\frac{7 + 4}{2} = \\frac{11}{2}",
+        "sym": "(7+4)/2",
+        "new": true
+       },
+       {
+        "tex": "D_y &= \\frac{4 + 9}{2} = \\frac{13}{2}",
+        "sym": "(4+9)/2",
+        "new": true
+       },
+       {
+        "text": "So $\\hl{1}{D} = \\left(\\frac{11}{2}, \\frac{13}{2}\\right)$. The median is $[AD]$."
+       }
+      ]
+     },
+     {
+      "title": "Use the 2 to 1 ratio",
+      "say": "The centroid $\\hl{2}{G}$ is two thirds of the way from $A$ to $D$. Find the $x$-coordinate first.",
+      "lines": [
+       {
+        "tex": "G_x &= 1 + \\frac{2}{3}\\left(\\frac{11}{2} - 1\\right)",
+        "sym": "1+Rational(2,3)*(Rational(11,2)-1)",
+        "new": true
+       },
+       {
+        "tex": "&= 1 + \\frac{2}{3}\\cdot\\frac{9}{2}",
+        "sym": "1+Rational(2,3)*Rational(9,2)"
+       },
+       {
+        "tex": "&= 4",
+        "sym": "4"
+       }
+      ]
+     },
+     {
+      "title": "Find the y-coordinate",
+      "say": "Do the same with the $y$-values.",
+      "lines": [
+       {
+        "tex": "G_y &= 2 + \\frac{2}{3}\\left(\\frac{13}{2} - 2\\right)",
+        "sym": "2+Rational(2,3)*(Rational(13,2)-2)",
+        "new": true
+       },
+       {
+        "tex": "&= 2 + \\frac{2}{3}\\cdot\\frac{9}{2}",
+        "sym": "2+Rational(2,3)*Rational(9,2)"
+       },
+       {
+        "tex": "&= 5",
+        "sym": "5"
+       }
+      ]
+     },
+     {
+      "title": "Check with the average",
+      "say": "A quick check: the centroid is the average of the three vertices.",
+      "lines": [
+       {
+        "tex": "\\left(\\frac{1 + 7 + 4}{3}, \\frac{2 + 4 + 9}{3}\\right) &= (4, 5)",
+        "sym": "[(1+7+4)/3,(2+4+9)/3]",
+        "new": true
+       },
+       {
+        "text": "Both methods agree. $\\hl{2}{G} = (4, 5)$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "$D = \\left(\\frac{11}{2}, \\frac{13}{2}\\right)$, $G = (4, 5)$"
+   },
+   "finalSym": "[4, 5]",
+   "answerSym": "[(1+7+4)/3,(2+4+9)/3]"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><polygon points=\"50.0,180.0 260.0,170.0 130.0,30.0\"/><line x1=\"50\" y1=\"180\" x2=\"195.0\" y2=\"100.0\" stroke-dasharray=\"4 3\"/><line x1=\"260\" y1=\"170\" x2=\"90.0\" y2=\"105.0\" stroke-dasharray=\"4 3\"/><line x1=\"130\" y1=\"30\" x2=\"155.0\" y2=\"175.0\" stroke-dasharray=\"4 3\"/><text x=\"34\" y=\"198\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"262\" y=\"188\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"126\" y=\"22\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"151.7\" y=\"126.7\" fill=\"#1A1916\" stroke=\"none\">G</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the construction. Marks go for finding midpoints, and a median drawn with nothing shown earns less.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q4#(a)",
+       "quote": "construction/measurements shown"
+      }
+     ]
+    },
+    {
+     "tip": "Find the midpoint of at least two sides. Two midpoints is a mid-credit step on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q4#(a)",
+       "quote": "Midpoints of 2 sides identified"
+      }
+     ]
+    },
+    {
+     "tip": "Draw at least one full median. It is a high-credit step, and the centroid is where the medians meet.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q6#(a)",
+       "quote": "One median drawn"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Construct the midpoint with arcs. A correct midpoint is worth most of the first step.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q9#(a)(i), (ii)",
+       "quote": "Midpoint of [AB] constructed"
+      }
+     ]
+    },
+    {
+     "tip": "Write down any measurement you use, such as the length of a median or a part of it. A relevant measurement written earns credit even if the rest is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q9#(a)(i), (ii)",
+       "quote": "relevant measurement written"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "logic-terms",
+  "what": {
+   "say": [
+    "You give it a statement or an argument. It uses the right word for each part: **theorem**, **proof**, **axiom**, **corollary**, **converse**, **implies**.",
+    "The key idea: the **converse** swaps the two halves of \"if … then …\". The converse of a true statement can be false."
+   ],
+   "in": "statement \"if $P$ then $Q$\"",
+   "out": "its converse, true or false"
+  },
+  "how": {
+   "ordinary": "Ordinary level uses it as short true or false parts with a reason (Paper 2, Q6 in 2022 and 2023, 10 marks): is a statement about triangles or a parallelogram true, and why."
+  },
+  "example": {
+   "question": "Statement: \"If $x = 3$, then $x^2 = 9$.\" (a) Write down the converse. (b) Is the converse true or false? Give a reason.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the converse",
+      "say": "The statement has the form \"if $P$ then $Q$\". The **converse** swaps them: \"if $Q$ then $P$\".",
+      "lines": [
+       {
+        "text": "$P$: $x = 3$. $Q$: $x^2 = 9$."
+       },
+       {
+        "text": "Converse: \"If $x^2 = 9$, then $x = 3$.\""
+       }
+      ]
+     },
+     {
+      "title": "Test the converse",
+      "say": "To show a statement false you need only one example where it fails. Solve $\\hl{1}{x^2 = 9}$ and see if $x = 3$ is the only answer.",
+      "lines": [
+       {
+        "tex": "x^2 &= 9",
+        "sym": "x**2-9",
+        "new": true
+       },
+       {
+        "tex": "x &= 3 \\text{ or } x = \\hl{2}{-3}",
+        "sym": "[3,-3]",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Give the reason",
+      "say": "The value $\\hl{2}{x = -3}$ makes $x^2 = 9$ true but $x = 3$ false. That is a counterexample.",
+      "lines": [
+       {
+        "text": "So the converse is **false**."
+       },
+       {
+        "text": "Reason: $x = -3$ gives $x^2 = 9$, but $x \\neq 3$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "Converse: if $x^2 = 9$ then $x = 3$. It is **false**, since $x = -3$ is a counterexample."
+   },
+   "finalSym": "[-3, 3]",
+   "answerSym": "solve(x**2-9,x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Give a reason as well as True or False. A correct tick with no reason earns only low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q6#(c)",
+       "quote": "Correct box (True) ticked but no work"
+      }
+     ]
+    },
+    {
+     "tip": "Use the properties of the shape in your reason, for example the sides of a parallelogram being parallel and equal.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q6#(c)",
+       "quote": "Opposite sides are parallel and equal in"
+      }
+     ]
+    },
+    {
+     "tip": "For similar and congruent triangles, say what each word means: same shape, or all sides and angles equal.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q6#(b)(i), (ii)",
+       "quote": "Congruent Triangles are triangles"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

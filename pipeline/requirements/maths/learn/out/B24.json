@@ -1,0 +1,422 @@
+[
+ {
+  "skill": "num-fractions",
+  "what": {
+   "say": [
+    "You give it fractions or mixed numbers. It gives back one **simplified** fraction.",
+    "The key idea: you can only add or subtract fractions with the same denominator, so first rewrite each one over a common denominator."
+   ],
+   "in": "fractions",
+   "out": "one simplified fraction"
+  },
+  "how": {
+   "ordinary": "Ordinary level never asks for it alone. It is a step inside Paper 1 parts, such as working out a value to give a fraction in a 5 mark part, or adding journey times in a longer question."
+  },
+  "example": {
+   "question": "Work out $\\frac{5}{6} + \\frac{3}{4} - \\frac{1}{3}$. Give your answer as a fraction in its simplest form.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a common denominator",
+      "say": "The denominators are $6$, $4$ and $3$. Find the smallest number they all divide into. That is $\\hl{1}{12}$. Rewrite each fraction over $\\hl{1}{12}$.",
+      "lines": [
+       {
+        "tex": "\\frac{5}{6} + \\frac{3}{4} - \\frac{1}{3} &= \\frac{10}{\\hl{1}{12}} + \\frac{9}{\\hl{1}{12}} - \\frac{4}{\\hl{1}{12}}",
+        "sym": "10/12+9/12-4/12",
+        "new": true
+       },
+       {
+        "text": "Multiply top and bottom by the same number each time: by $2$, by $3$ and by $4$."
+       }
+      ]
+     },
+     {
+      "title": "Combine the numerators",
+      "say": "Now the denominators match. Add and subtract the tops. The bottom stays $\\hl{1}{12}$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{10 + 9 - 4}{\\hl{1}{12}}",
+        "sym": "(10+9-4)/12"
+       },
+       {
+        "tex": "&= \\frac{15}{\\hl{1}{12}}",
+        "sym": "15/12"
+       }
+      ]
+     },
+     {
+      "title": "Simplify",
+      "say": "Both $15$ and $12$ divide by $3$. Divide top and bottom by $3$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{15 \\div 3}{12 \\div 3}",
+        "sym": "(15/3)/(12/3)"
+       },
+       {
+        "tex": "&= \\frac{5}{4}",
+        "sym": "5/4"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{5}{4}"
+   },
+   "finalSym": "5/4",
+   "answerSym": "5/6+3/4-1/3"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Show the substitution before you work with fractions. Some correct substitution earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q5#(a)",
+       "quote": "Some correct substitution"
+      }
+     ]
+    },
+    {
+     "tip": "If you cannot finish, still start combining. Work towards a single fraction earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q5#(a)",
+       "quote": "Work towards a single fraction"
+      }
+     ]
+    },
+    {
+     "tip": "Give the answer in the form the question asks for. A correct value in the wrong form loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q5#(a)",
+       "quote": "Apply a * for incorrect form"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "num-decimal-fraction",
+  "what": {
+   "say": [
+    "You give it a decimal, terminating or recurring. It gives back the same number as a **fraction**, or the other way round.",
+    "The key idea for a recurring decimal: multiply to shift the repeating block, then subtract so the repeating part cancels."
+   ],
+   "in": "recurring decimal",
+   "out": "fraction"
+  },
+  "how": {},
+  "example": {
+   "question": "Write $0.454545\\ldots$ as a fraction in its simplest form.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name the number",
+      "say": "Let $\\hl{1}{x}$ be the number. The block $45$ repeats, so it has length two.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= 0.454545\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Shift one block",
+      "say": "Multiply by $100$ to move the decimal point past one whole block. The repeating part stays the same.",
+      "lines": [
+       {
+        "tex": "100\\hl{1}{x} &= 45.454545\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "say": "Subtract the first line from the second. The repeating parts cancel exactly.",
+      "lines": [
+       {
+        "tex": "100\\hl{1}{x} - \\hl{1}{x} &= 45.4545\\ldots - 0.4545\\ldots"
+       },
+       {
+        "tex": "99\\hl{1}{x} &= 45"
+       }
+      ]
+     },
+     {
+      "title": "Divide and simplify",
+      "say": "Divide both sides by $99$. Then divide top and bottom by $9$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= \\frac{45}{99}",
+        "sym": "45/99",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{5}{11}",
+        "sym": "5/11"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{5}{11}"
+   },
+   "finalSym": "5/11",
+   "answerSym": "Rational(45,100)/(1-Rational(1,100))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "num-sets",
+  "what": {
+   "say": [
+    "You give it a number. It tells you the **smallest** set it belongs to: $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$ or $\\mathbb{R}$.",
+    "The key idea: the sets grow outwards. Each one sits inside the next, so ask the questions in order, from the smallest set up."
+   ],
+   "in": "a number",
+   "out": "its smallest set"
+  },
+  "how": {
+   "ordinary": "Ordinary level tests it on Paper 1, in 2023 as the main skill of a 5 mark part: graph inequalities on a number line for $\\mathbb{N}$, $\\mathbb{Z}$ and $\\mathbb{R}$."
+  },
+  "example": {
+   "question": "For each number, write down the smallest of the sets $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$, $\\mathbb{R}$ that contains it.\n$\\sqrt{25}$, $-4$, $\\frac{3}{8}$, $\\sqrt{10}$",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Simplify the roots",
+      "say": "Work out any square root that is a whole number. $\\sqrt{25}$ is $5$, a counting number.",
+      "lines": [
+       {
+        "tex": "\\sqrt{25} &= 5",
+        "sym": "sqrt(25)",
+        "new": true
+       },
+       {
+        "text": "$5$ is in $\\hl{1}{\\mathbb{N}}$, the natural numbers $1, 2, 3, \\ldots$"
+       }
+      ]
+     },
+     {
+      "title": "Check for a minus sign",
+      "say": "$-4$ is a whole number, but it is negative, so it is not in $\\mathbb{N}$. Whole numbers with negatives are the integers.",
+      "lines": [
+       {
+        "text": "$-4$ is in $\\hl{2}{\\mathbb{Z}}$."
+       }
+      ]
+     },
+     {
+      "title": "Try writing as a fraction",
+      "say": "$\\frac{3}{8}$ is a fraction of two integers, and it is not a whole number. It is in the rationals. Its decimal ends.",
+      "lines": [
+       {
+        "tex": "\\frac{3}{8} &= 0.375",
+        "sym": "375/1000",
+        "new": true
+       },
+       {
+        "text": "$\\frac{3}{8}$ is in $\\hl{3}{\\mathbb{Q}}$."
+       }
+      ]
+     },
+     {
+      "title": "Look at the decimal",
+      "say": "$\\sqrt{10}$ is not a whole number. Its decimal never ends and never repeats, so it is not a fraction. That makes it irrational.",
+      "lines": [
+       {
+        "tex": "\\sqrt{10} &\\approx 3.162\\ldots",
+        "sym": "3.162",
+        "new": true,
+        "approx": true
+       },
+       {
+        "text": "$\\sqrt{10}$ is in $\\hl{4}{\\mathbb{R}}$ but not in $\\mathbb{Q}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\sqrt{25}: \\mathbb{N},\\ -4: \\mathbb{Z},\\ \\tfrac{3}{8}: \\mathbb{Q},\\ \\sqrt{10}: \\mathbb{R}"
+   },
+   "finalSym": "0",
+   "answerSym": "0"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Show that you know what $\\mathbb{N}$, $\\mathbb{Z}$ and $\\mathbb{R}$ contain. That alone earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q3#(b)(i), (ii), (iii)",
+       "quote": "Work of merit, for example, shows"
+      }
+     ]
+    },
+    {
+     "tip": "Graph each inequality for its own set. Getting two of the three correct earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q3#(b)(i), (ii), (iii)",
+       "quote": "Two of the inequalities graphed correctly"
+      }
+     ]
+    },
+    {
+     "tip": "Write $\\leq$ where the question has it. Using $\\geq$ by mistake costs a star the first time.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q3#(b)(i), (ii), (iii)",
+       "quote": "Apply a * the first time"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "num-prime-factors",
+  "what": {
+   "say": [
+    "You give it a natural number. It writes it as a product of **primes**, and uses that to find the HCF and LCM.",
+    "The key idea: every number has exactly one prime factorisation. The HCF takes the primes both numbers share. The LCM takes every prime that appears in either."
+   ],
+   "in": "$n$",
+   "out": "primes; HCF, LCM"
+  },
+  "how": {
+   "higher": "Higher level tested it in 2023 on Paper 1 as a 15 mark part: list the factors of a power of 2, then count the factors of a number like $2^{10} \\times 3^{12}$.",
+   "ordinary": "Ordinary level tested it in 2025 on Paper 1 as a 10 mark part: find when two repeating times, every $9$ and every $12$ minutes, line up."
+  },
+  "example": {
+   "question": "(i) Write $252$ and $180$ as products of prime numbers.\n(ii) Hence find the HCF and the LCM of $252$ and $180$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Factorise 252",
+      "say": "Divide by the smallest prime that goes in. Keep going until only primes are left.",
+      "lines": [
+       {
+        "tex": "252 &= 2 \\times 2 \\times 3 \\times 3 \\times 7",
+        "sym": "2*2*3*3*7",
+        "new": true
+       },
+       {
+        "tex": "&= 2^2 \\times 3^2 \\times 7",
+        "sym": "2**2*3**2*7"
+       }
+      ]
+     },
+     {
+      "title": "Factorise 180",
+      "say": "Do the same for $180$.",
+      "lines": [
+       {
+        "tex": "180 &= 2 \\times 2 \\times 3 \\times 3 \\times 5",
+        "sym": "2*2*3*3*5",
+        "new": true
+       },
+       {
+        "tex": "&= 2^2 \\times 3^2 \\times 5",
+        "sym": "2**2*3**2*5"
+       }
+      ]
+     },
+     {
+      "title": "Find the HCF",
+      "say": "The HCF uses only the primes in **both** numbers, each to its smaller power. Both have $\\hl{1}{2^2}$ and $\\hl{1}{3^2}$.",
+      "lines": [
+       {
+        "tex": "\\text{HCF} &= \\hl{1}{2^2 \\times 3^2}",
+        "sym": "2**2*3**2",
+        "new": true
+       },
+       {
+        "tex": "&= 36",
+        "sym": "36"
+       }
+      ]
+     },
+     {
+      "title": "Find the LCM",
+      "say": "The LCM uses every prime in **either** number, each to its larger power. Add the $5$ and the $7$ to the HCF primes.",
+      "lines": [
+       {
+        "tex": "\\text{LCM} &= 2^2 \\times 3^2 \\times \\hl{2}{5} \\times \\hl{2}{7}",
+        "sym": "2**2*3**2*5*7",
+        "new": true
+       },
+       {
+        "tex": "&= 1260",
+        "sym": "1260"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "252 = 2^2 \\times 3^2 \\times 7,\\quad 180 = 2^2 \\times 3^2 \\times 5,\\quad \\text{HCF} = 36,\\quad \\text{LCM} = 1260"
+   },
+   "finalSym": "36+1260",
+   "answerSym": "gcd(252,180)+lcm(252,180)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "To count the factors of a number in index form, add $1$ to each power and multiply the results.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q9#(a)(i), (ii), (iii)",
+       "quote": "will have (11)(13) = 143 factors"
+      }
+     ]
+    },
+    {
+     "tip": "Correct answers without work earn full credit, but show the working.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q9#(a)(i), (ii), (iii)",
+       "quote": "Accept for full credit correct answers"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "If you are stuck, write out multiples of each number. That earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q1#(b)(i), (ii)",
+       "quote": "some multiples of 9 or 12 written"
+      }
+     ]
+    },
+    {
+     "tip": "When the first part is a single value, a correct answer needs no work.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q1#(b)(i), (ii)",
+       "quote": "In (i) Accept correct answer without work"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

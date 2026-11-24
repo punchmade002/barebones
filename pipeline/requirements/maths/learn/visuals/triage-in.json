@@ -1,0 +1,2529 @@
+[
+{
+"skill": "alg-factor-quadratic",
+"title": "Factorise a quadratic trinomial",
+"level": "OL",
+"question": "Factorise $2x^2 + 9x + 10$.",
+"has": null
+},
+{
+"skill": "geo-thm19",
+"title": "Apply Theorem 19: Angle at the centre is twice the angle at the circle",
+"level": "HL",
+"question": "$A$, $B$ and $C$ are points on a circle with centre $O$. The angle at the centre is $|\\angle AOB| = (6x - 10)^\\circ$ and the angle at the circle is $|\\angle ACB| = (2x + 5)^\\circ$. Both stand on the arc $AB$. Find $x$ and $|\\angle ACB|$.",
+"has": "figure"
+},
+{
+"skill": "con-4",
+"title": "Construction 4: Line perpendicular to a line l through a point on l",
+"level": "JC",
+"question": "Draw a line $l$ and mark a point $P$ on it. Construct the line through $P$ perpendicular to $l$.",
+"has": "figure"
+},
+{
+"skill": "induction-sum",
+"title": "Prove a series identity by induction",
+"level": "HL",
+"question": "Prove by induction that $1 + 3 + 5 + \\cdots + (2n - 1) = n^2$ for all $n \\in \\mathbb{N}$.",
+"has": null
+},
+{
+"skill": "stat-sd",
+"title": "Calculate standard deviation (calculator)",
+"level": "OL",
+"question": "Five runners' times in a race, in seconds, are\n$12, 15, 9, 14, 10$.\nFind the mean and the standard deviation of the times. Give the standard deviation correct to one decimal place.",
+"has": null
+},
+{
+"skill": "cubic-factor-theorem",
+"title": "Test a factor with the Factor Theorem",
+"level": "HL",
+"question": "Show that $(x - 2)$ is a factor of $f(x) = x^3 - 4x^2 - 11x + 30$.",
+"has": null
+},
+{
+"skill": "cubic-find-root",
+"title": "Find an integer root by trial",
+"level": "HL",
+"question": "Find the integer root of $f(x) = x^3 - x^2 + x - 6$.",
+"has": null
+},
+{
+"skill": "cubic-form-from-roots",
+"title": "Form a cubic from its roots",
+"level": "HL",
+"question": "A cubic equation has roots $-1$, $2$ and $4$. Write the equation in the form $x^3 + bx^2 + cx + d = 0$.",
+"has": null
+},
+{
+"skill": "cubic-unknown-coefficient",
+"title": "Find unknown coefficients from given factors",
+"level": "HL",
+"question": "$(x + 2)$ is a factor of $f(x) = x^3 + kx^2 - 5x + 6$. Find the value of $k$.",
+"has": null
+},
+{
+"skill": "cubic-solve",
+"title": "Solve a cubic with at least one integer root",
+"level": "HL",
+"question": "Solve $2x^3 - 3x^2 - 11x + 6 = 0$.",
+"has": null
+},
+{
+"skill": "alg-collect-like",
+"title": "Collect like terms",
+"level": "JC",
+"question": "Simplify $7a + 4b - 3a + 6b - 5 + 9$.",
+"has": null
+},
+{
+"skill": "alg-evaluate",
+"title": "Evaluate an expression",
+"level": "OL",
+"question": "$g(x) = 2x^3 - 5x^2 + x - 4$.\nFind $g(3)$.",
+"has": null
+},
+{
+"skill": "alg-expand-single",
+"title": "Expand a bracket by a term",
+"level": "JC",
+"question": "Simplify $4(3x - 5) - 2(x - 6)$.",
+"has": null
+},
+{
+"skill": "alg-factor-hcf",
+"title": "Factorise by highest common factor",
+"level": "JC",
+"question": "Take out the highest common factor of $12x^3 - 18x^2 + 6x$.",
+"has": null
+},
+{
+"skill": "alg-factor-dots",
+"title": "Factorise a difference of two squares",
+"level": "OL",
+"question": "Factorise fully $50x^2 - 72$.",
+"has": null
+},
+{
+"skill": "alg-expand-binomials",
+"title": "Multiply out two brackets",
+"level": "OL",
+"question": "Multiply out and simplify $(3x - 2)(2x + 5)$.",
+"has": null
+},
+{
+"skill": "alg-add-subtract",
+"title": "Add/subtract linear and quadratic expressions",
+"level": "OL",
+"question": "Simplify $(3x^2 - 2x + 5) - (x^2 + 4x - 3)$.",
+"has": null
+},
+{
+"skill": "alg-factor-grouping",
+"title": "Factorise by grouping",
+"level": "JC",
+"question": "Factorise $6xy + 9x - 4y - 6$.",
+"has": null
+},
+{
+"skill": "alg-rearrange",
+"title": "Rearrange a formula",
+"level": "OL",
+"question": "Make $q$ the subject of the formula $m = \\dfrac{2q + 5}{q - 3}$.",
+"has": null
+},
+{
+"skill": "alg-binomial-expand",
+"title": "Expand with the binomial theorem",
+"level": "HL",
+"question": "Expand $(2x - 3)^4$.",
+"has": null
+},
+{
+"skill": "alg-binomial-term",
+"title": "Find a given term/coefficient of a binomial expansion",
+"level": "HL",
+"question": "Find the coefficient of $x^4$ in the expansion of $(3x - 2)^6$.",
+"has": null
+},
+{
+"skill": "alg-poly-multiply",
+"title": "Multiply polynomials",
+"level": "HL",
+"question": "Multiply out $(2x+1)(x^2-3x+5)$.",
+"has": null
+},
+{
+"skill": "alg-factor-cubes",
+"title": "Factorise a sum/difference of two cubes",
+"level": "HL",
+"question": "Factorise $27x^3 - 8$.",
+"has": null
+},
+{
+"skill": "alg-surd-expressions",
+"title": "Simplify algebraic expressions with surds",
+"level": "HL",
+"question": "Multiply out and simplify $(3\\sqrt{x} - 2)(2\\sqrt{x} + 5)$.",
+"has": null
+},
+{
+"skill": "alg-fractions-add",
+"title": "Add/subtract algebraic fractions",
+"level": "OL",
+"question": "Write $\\dfrac{3}{x+2} + \\dfrac{4}{x-1}$ as a single fraction.",
+"has": null
+},
+{
+"skill": "alg-poly-divide",
+"title": "Divide a polynomial by a linear or quadratic",
+"level": "HL",
+"question": "Divide $2x^3 - 3x^2 - 11x + 6$ by $(x - 3)$ and hence solve $2x^3 - 3x^2 - 11x + 6 = 0$.",
+"has": null
+},
+{
+"skill": "alg-equate-coefficients",
+"title": "Equate coefficients of identical polynomials",
+"level": "HL",
+"question": "Given that $x^3 + 2x^2 - 5x + k \\equiv (x - 1)(x^2 + ax + b)$ for all $x$, where $a$, $b$ and $k$ are constants. Find $a$, $b$ and the value of $k$.",
+"has": null
+},
+{
+"skill": "alg-fractions-simplify",
+"title": "Multiply, divide and simplify rational expressions",
+"level": "HL",
+"question": "Simplify $\\dfrac{x^2 - x - 6}{x^2 - 16} \\div \\dfrac{x - 3}{x + 4}$.",
+"has": null
+},
+{
+"skill": "ineq-linear",
+"title": "Solve a linear inequality",
+"level": "OL",
+"question": "Solve $4 - 3(x - 1) \\ge 13$, where $x \\in \\mathbb{R}$.",
+"has": null
+},
+{
+"skill": "ineq-double",
+"title": "Solve a combined (double) linear inequality",
+"level": "OL",
+"question": "Solve $-5 \\le 2x + 3 < 9$, where $x \\in \\mathbb{R}$.",
+"has": null
+},
+{
+"skill": "ineq-quadratic",
+"title": "Solve a quadratic inequality",
+"level": "HL",
+"question": "Solve $2x^2 - 5x - 12 \\le 0$, where $x \\in \\mathbb{R}$.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "ineq-modulus",
+"title": "Solve modulus inequalities",
+"level": "HL",
+"question": "Solve $|2x - 3| \\ge 5$, where $x \\in \\mathbb{R}$.",
+"has": null
+},
+{
+"skill": "ineq-rational",
+"title": "Solve a rational inequality",
+"level": "HL",
+"question": "Solve $\\frac{x+3}{x-1} \\ge 2$, where $x \\in \\mathbb{R}$, $x \\ne 1$.",
+"has": null
+},
+{
+"skill": "ineq-prove",
+"title": "Prove an algebraic inequality",
+"level": "HL",
+"question": "Prove that $(a + 2b)^2 \\ge 8ab$ for all real numbers $a$ and $b$.",
+"has": null
+},
+{
+"skill": "quad-form-from-roots",
+"title": "Form a quadratic from its roots",
+"level": "OL",
+"question": "Write down a quadratic equation, in the form $x^2 + bx + c = 0$, whose roots are $6$ and $-1$.",
+"has": null
+},
+{
+"skill": "quad-solve-factor",
+"title": "Solve a quadratic by factorising",
+"level": "OL",
+"question": "Solve the equation $x^2 = 2x + 15$.",
+"has": null
+},
+{
+"skill": "quad-solve-formula",
+"title": "Solve a quadratic with the formula",
+"level": "OL",
+"question": "Solve $x^2 - 3x - 5 = 0$. Give your answers correct to $2$ decimal places.",
+"has": null
+},
+{
+"skill": "quad-discriminant",
+"title": "Use b² − 4ac for the nature of roots",
+"level": "HL",
+"question": "The equation $4x^2 + kx + 9 = 0$ has equal roots. Find the two values of $k$.",
+"has": null
+},
+{
+"skill": "quad-complete-square",
+"title": "Express a quadratic in completed-square form",
+"level": "HL",
+"question": "Write $3x^2 - 12x + 5$ in the form $a(x + p)^2 + q$.",
+"has": null
+},
+{
+"skill": "quad-complete-square-use",
+"title": "Use completed-square form for roots and turning point",
+"level": "HL",
+"question": "$f(x) = 3(x - 1)^2 - 12$. Find the turning point of the graph of $f$ and the values of $x$ where it crosses the $x$-axis.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "sim-linear-2",
+"title": "Solve two linear equations in two unknowns",
+"level": "OL",
+"question": "Solve the simultaneous equations:\n$4x + 3y = 18$\n$2x - y = 4$",
+"has": null
+},
+{
+"skill": "sim-word-problem",
+"title": "Form simultaneous equations from a context",
+"level": "OL",
+"question": "2 adult tickets and 3 child tickets cost €36. 4 adult tickets and 1 child ticket cost €42.\nFind the price of an adult ticket and the price of a child ticket.",
+"has": null
+},
+{
+"skill": "sim-linear-quadratic",
+"title": "Solve one linear and one order-2 equation",
+"level": "OL",
+"question": "Solve the simultaneous equations:\n$x - y = 2$\n$x^2 + y^2 = 34$",
+"has": null
+},
+{
+"skill": "sim-linear-3",
+"title": "Solve three linear equations in three unknowns",
+"level": "HL",
+"question": "Solve the simultaneous equations:\n$x + y + z = 2$\n$2x - y + z = 3$\n$x + 3y - 2z = 10$",
+"has": null
+},
+{
+"skill": "sim-linear-quadratic-hl",
+"title": "Solve linear + order-2 with any coefficients",
+"level": "HL",
+"question": "Solve the simultaneous equations:\n$2x + y = 3$\n$x^2 + xy + y^2 = 3$",
+"has": null
+},
+{
+"skill": "eq-linear",
+"title": "Solve a linear equation",
+"level": "OL",
+"question": "Solve $4(x - 3) + 5 = 2x + 9$.",
+"has": null
+},
+{
+"skill": "eq-linear-fractions",
+"title": "Solve a linear equation with fractions",
+"level": "OL",
+"question": "Solve $\\dfrac{x + 3}{2} + \\dfrac{x - 1}{4} = 5$.",
+"has": null
+},
+{
+"skill": "eq-surd",
+"title": "Solve an equation involving a square root",
+"level": "HL",
+"question": "Solve $\\sqrt{3x + 10} = x + 2$.",
+"has": null
+},
+{
+"skill": "eq-rational",
+"title": "Solve a/(bx+c) ± p/(qx+r) = e/f",
+"level": "OL",
+"question": "Solve $\\dfrac{1}{x} + \\dfrac{1}{x + 2} = \\dfrac{3}{4}$.",
+"has": null
+},
+{
+"skill": "eq-word-problem",
+"title": "Form and solve an equation from a context",
+"level": "OL",
+"question": "A rectangular garden is $5$ m longer than it is wide. Its area is $84$ m$^2$. Find the width of the garden.",
+"has": null
+},
+{
+"skill": "eq-rational-hl",
+"title": "Solve (ax+b)/(ex+f) ± (cx+d)/(qx+r) = k",
+"level": "HL",
+"question": "Solve $\\dfrac{x+1}{x-1} + \\dfrac{x+2}{x+1} = 3$, giving your answers correct to two decimal places.",
+"has": null
+},
+{
+"skill": "mens-perimeter-area",
+"title": "Find perimeter and area of plane figures",
+"level": "OL",
+"question": "A garden is a rectangle $10$ m long and $6$ m wide with a semicircle added on one of the $6$ m sides. Find the perimeter and the area of the garden, correct to two decimal places.",
+"has": "figure"
+},
+{
+"skill": "mens-nets",
+"title": "Draw and interpret nets of prisms, cylinders and cones",
+"level": "OL",
+"question": "A closed cylinder has radius $4$ cm and height $9$ cm. Draw its net, giving the dimensions of each piece, and find the total area of the net.",
+"has": "figure"
+},
+{
+"skill": "mens-volume",
+"title": "Find volume of solids",
+"level": "OL",
+"question": "A solid cone has base radius $6$ cm and vertical height $8$ cm. Find its volume, correct to the nearest $\\text{cm}^3$.",
+"has": null
+},
+{
+"skill": "mens-arc-sector",
+"title": "Find arc length and sector area",
+"level": "OL",
+"question": "A sector of a circle has radius $9$ cm and angle $80^\\circ$. Find the length of its arc and the area of the sector, in terms of $\\pi$.",
+"has": null
+},
+{
+"skill": "mens-surface-area",
+"title": "Find surface area of solids",
+"level": "OL",
+"question": "A cone has base radius $5$ cm and vertical height $12$ cm. Find its curved surface area, in terms of $\\pi$, and to one decimal place.",
+"has": null
+},
+{
+"skill": "mens-trapezoidal",
+"title": "Approximate area with the trapezoidal rule",
+"level": "OL",
+"question": "A garden is $16$ m long. Its width is measured every $4$ m along the length: $6$, $9$, $11$, $8$ and $5$ metres. Use the trapezoidal rule to estimate the area of the garden.",
+"has": null
+},
+{
+"skill": "mens-composite",
+"title": "Find area/volume of compound solids",
+"level": "OL",
+"question": "A solid is a cylinder with a hemisphere on top. Both have radius $3$ cm. The cylinder has height $7$ cm. Find the total volume, in terms of $\\pi$.",
+"has": "figure"
+},
+{
+"skill": "mens-equate-volumes",
+"title": "Solve recasting, displacement and flow problems",
+"level": "OL",
+"question": "A solid metal sphere of radius $6$ cm is melted and recast as a solid cylinder of radius $4$ cm. Find the height of the cylinder.",
+"has": null
+},
+{
+"skill": "circ-point-position",
+"title": "Decide whether a point is inside, on or outside a circle",
+"level": "OL",
+"question": "Is the point $(6, 3)$ inside, on or outside the circle $(x-2)^2 + (y+1)^2 = 25$?",
+"has": "figure"
+},
+{
+"skill": "circ-eq-origin",
+"title": "Write/interpret a circle with centre (0, 0)",
+"level": "OL",
+"question": "A circle has centre $(0, 0)$ and passes through the point $(2, 5)$. Find the equation of the circle.",
+"has": null
+},
+{
+"skill": "circ-eq-centre-radius",
+"title": "Write/interpret (x − h)² + (y − k)² = r²",
+"level": "OL",
+"question": "A circle has centre $(-2, 3)$ and passes through the point $(1, 7)$.\nFind the equation of the circle.",
+"has": null
+},
+{
+"skill": "circ-line-origin",
+"title": "Find where a line meets a circle with centre (0, 0)",
+"level": "OL",
+"question": "The line $y = x-1$ meets the circle $x^2+y^2=13$ at two points.\nFind the two points.",
+"has": null
+},
+{
+"skill": "circ-chord-length",
+"title": "Find a chord length or distance from centre",
+"level": "OL",
+"question": "The line $3x-4y+20=0$ cuts the circle $(x-1)^2+(y-2)^2=34$ at the points $A$ and $B$.\nFind $|AB|$.",
+"has": "figure"
+},
+{
+"skill": "circ-tangent-at-point",
+"title": "Find the tangent at a point on a circle",
+"level": "OL",
+"question": "The circle $(x-1)^2+(y+2)^2=20$ passes through the point $P(3, -6)$.\nFind the equation of the tangent to the circle at $P$.\nGive your answer in the form $ax+by+c=0$.",
+"has": "figure"
+},
+{
+"skill": "circ-general-form",
+"title": "Use x² + y² + 2gx + 2fy + c = 0",
+"level": "HL",
+"question": "Find the centre and the radius of the circle $x^2 + y^2 - 6x + 2y - 6 = 0$.",
+"has": null
+},
+{
+"skill": "circ-tangent-length",
+"title": "Find the length of a tangent from an external point",
+"level": "HL",
+"question": "The circle $x^2 + y^2 + 2x - 4y - 4 = 0$ has a tangent drawn from the point $P(3, 5)$. Find the length of the tangent from $P$ to the point where it touches the circle.",
+"has": null
+},
+{
+"skill": "circ-tangent-test",
+"title": "Show a line is a tangent",
+"level": "HL",
+"question": "Show that the line $3x + 4y - 27 = 0$ is a tangent to the circle $x^2 + y^2 - 4x + 2y - 20 = 0$.",
+"has": null
+},
+{
+"skill": "circ-line-general",
+"title": "Find where a line meets any circle",
+"level": "HL",
+"question": "The line $y = x + 1$ meets the circle $x^2 + y^2 - 2x - 4y - 3 = 0$ at two points. Find the points.",
+"has": null
+},
+{
+"skill": "circ-touching",
+"title": "Decide whether circles touch internally or externally",
+"level": "HL",
+"question": "The circle $c$ has equation $x^2 + y^2 + 2x - 4y - 20 = 0$ and the circle $s$ has equation $(x-2)^2 + (y+2)^2 = 100$. Show that the circles touch internally.",
+"has": null
+},
+{
+"skill": "circ-common-chord",
+"title": "Find the common chord/tangent of two circles",
+"level": "HL",
+"question": "The circles $x^2 + y^2 - 2x - 4y - 20 = 0$ and $x^2 + y^2 + 6x - 4y - 12 = 0$ meet at two points. Find the equation of the line through those points.",
+"has": null
+},
+{
+"skill": "circ-tangents-from-point",
+"title": "Find tangents from an external point",
+"level": "HL",
+"question": "Find the equations of the two tangents to the circle $x^2 + y^2 = 10$ from the point $(0, 10)$.",
+"has": null
+},
+{
+"skill": "circ-from-conditions",
+"title": "Find a circle's equation from conditions",
+"level": "HL",
+"question": "Find the equation of the circle that passes through $(1, 1)$, $(5, 1)$ and $(1, -3)$.",
+"has": null
+},
+{
+"skill": "line-midpoint",
+"title": "Find the midpoint of a segment",
+"level": "JC",
+"question": "Find the midpoint of $A(-4, 3)$ and $B(8, -7)$.",
+"has": null
+},
+{
+"skill": "line-slope",
+"title": "Find the slope from two points or an equation",
+"level": "JC",
+"question": "Find the slope of the line through $P(-2, 1)$ and $Q(4, 10)$.",
+"has": null
+},
+{
+"skill": "line-point-on",
+"title": "Test whether a point is on a line; find intercepts",
+"level": "OL",
+"question": "The line $l$ has equation $3x - 2y - 12 = 0$.\n(i) Show that $(6, 3)$ is on $l$.\n(ii) Find where $l$ crosses the x-axis and the y-axis.",
+"has": null
+},
+{
+"skill": "line-distance",
+"title": "Find the distance between two points",
+"level": "JC",
+"question": "Find the distance between $A(-2, 3)$ and $B(4, 11)$.",
+"has": null
+},
+{
+"skill": "line-equation",
+"title": "Find the equation of a line",
+"level": "JC",
+"question": "The points $A(-2, 1)$ and $B(4, 5)$ are on a line. Find the equation of the line. Give your answer in the form $ax + by + c = 0$.",
+"has": null
+},
+{
+"skill": "line-collinear",
+"title": "Show points are collinear",
+"level": "OL",
+"question": "Show that the points $A(1, -1)$, $B(3, 2)$ and $C(7, 8)$ are collinear.",
+"has": null
+},
+{
+"skill": "line-intersection",
+"title": "Find where two lines intersect",
+"level": "OL",
+"question": "The line $l$ has equation $x + 2y = 7$. The line $k$ has equation $3x - 2y = 5$. Find the point where $l$ and $k$ cross.",
+"has": null
+},
+{
+"skill": "line-parallel-perp",
+"title": "Use slopes to show/construct parallel and perpendicular lines",
+"level": "OL",
+"question": "The line $l$ has equation $2x + 3y - 6 = 0$. The line $k$ passes through $P(4, 1)$ and is perpendicular to $l$. Find the equation of $k$.",
+"has": null
+},
+{
+"skill": "line-linear-model",
+"title": "Interpret a linear relationship in context",
+"level": "OL",
+"question": "A plumber charges a call-out fee plus an hourly rate. The cost, in euro, of a job lasting $x$ hours is $C = 40 + 30x$.\n(i) What do $40$ and $30$ mean?\n(ii) A job costs $190$ euro. How many hours did it last?",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "line-area-triangle",
+"title": "Find the area of a triangle from vertices",
+"level": "OL",
+"question": "Find the area of the triangle with vertices $A(3, 2)$, $B(7, 5)$ and $C(5, 9)$.",
+"has": null
+},
+{
+"skill": "line-unknown-coefficient",
+"title": "Find an unknown in a line from a condition",
+"level": "OL",
+"question": "The line $kx + 4y = 7$ is parallel to the line $6x - 2y = 5$. Find the value of $k$.",
+"has": null
+},
+{
+"skill": "line-divide-ratio",
+"title": "Divide a segment internally in a ratio",
+"level": "HL",
+"question": "The points are $A(-3, 4)$ and $B(7, -1)$. The point $P$ lies on $[AB]$ so that $|AP| : |PB| = 2 : 3$. Find the coordinates of $P$.",
+"has": null
+},
+{
+"skill": "line-perp-distance",
+"title": "Find the perpendicular distance from a point to a line",
+"level": "HL",
+"question": "Find the perpendicular distance from the point $P(1, -2)$ to the line $y = \\frac{3}{4}x + 2$.",
+"has": null
+},
+{
+"skill": "line-angle-between",
+"title": "Find the angle between two lines",
+"level": "HL",
+"question": "Find the acute angle between the lines $2x - y + 1 = 0$ and $x + 3y - 6 = 0$. Give your answer correct to one decimal place.",
+"has": null
+},
+{
+"skill": "line-from-distance",
+"title": "Find lines through a point at a given distance/angle",
+"level": "HL",
+"question": "Find the equations of the two lines through the origin that are a perpendicular distance of $3$ from the point $(5, 0)$.",
+"has": null
+},
+{
+"skill": "num-order-operations",
+"title": "Apply order of operations",
+"level": "JC",
+"question": "Work out $6 + 3 \\times (7 - 4)^2 - 10 \\div 2$.",
+"has": null
+},
+{
+"skill": "num-fractions",
+"title": "Operate on fractions",
+"level": "JC",
+"question": "Work out $\\frac{5}{6} + \\frac{3}{4} - \\frac{1}{3}$. Give your answer as a fraction in its simplest form.",
+"has": null
+},
+{
+"skill": "num-decimal-fraction",
+"title": "Convert decimals and fractions",
+"level": "OL",
+"question": "Write $0.454545\\ldots$ as a fraction in its simplest form.",
+"has": null
+},
+{
+"skill": "num-sets",
+"title": "Classify numbers into N, Z, Q, R, C",
+"level": "OL",
+"question": "For each number, write down the smallest of the sets $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$, $\\mathbb{R}$ that contains it.\n$\\sqrt{25}$, $-4$, $\\frac{3}{8}$, $\\sqrt{10}$",
+"has": null
+},
+{
+"skill": "num-prime-factors",
+"title": "Express a number as a product of primes",
+"level": "OL",
+"question": "(i) Write $252$ and $180$ as products of prime numbers.\n(ii) Hence find the HCF and the LCM of $252$ and $180$.",
+"has": null
+},
+{
+"skill": "cx-conjugate",
+"title": "Find the conjugate",
+"level": "OL",
+"question": "Let $z = 4 - 3i$. Write down $\\bar z$ and find $z\\bar z$.",
+"has": null
+},
+{
+"skill": "cx-powers-i",
+"title": "Simplify powers of i",
+"level": "OL",
+"question": "Write $i^{23}$ in the form $a + bi$.",
+"has": null
+},
+{
+"skill": "cx-argand",
+"title": "Plot complex numbers on an Argand diagram",
+"level": "OL",
+"question": "Let $z = -2 + 3i$ and $w = 4 - i$. Find $z + w$. Plot $z$, $w$ and $z + w$ on an Argand diagram and label each point.",
+"has": null
+},
+{
+"skill": "cx-arithmetic",
+"title": "Add, subtract and multiply complex numbers",
+"level": "OL",
+"question": "Let $z_1 = 2 + i$ and $z_2 = 3 - 2i$. Find $z_1 z_2 - 2z_1$. Give your answer in the form $a + bi$.",
+"has": null
+},
+{
+"skill": "cx-modulus",
+"title": "Find the modulus as distance from the origin",
+"level": "OL",
+"question": "$z_1 = 2 - 3i$ and $z_2 = 5 + i$. Find $|z_1 - z_2|$.",
+"has": null
+},
+{
+"skill": "num-ratio-proportion",
+"title": "Use ratio and direct/inverse proportion",
+"level": "JC",
+"question": "Dara and Eve share €216 in the ratio $7 : 5$. How much more than Eve does Dara get?",
+"has": null
+},
+{
+"skill": "num-surds",
+"title": "Simplify and operate on surds",
+"level": "OL",
+"question": "Write $\\sqrt{72} - \\sqrt{18} + \\sqrt{50}$ in the form $a\\sqrt{2}$, where $a$ is a whole number.",
+"has": null
+},
+{
+"skill": "num-sci-notation",
+"title": "Work in scientific notation",
+"level": "OL",
+"question": "A hard drive holds $1.8 \\times 10^{12}$ bytes. Each photo uses $4.5 \\times 10^{6}$ bytes. How many photos fit on the drive? Give your answer in the form $a \\times 10^n$, where $1 \\le a < 10$.",
+"has": null
+},
+{
+"skill": "cx-divide",
+"title": "Divide complex numbers",
+"level": "OL",
+"question": "Write $\\dfrac{7 + 4i}{2 - i}$ in the form $a + bi$.",
+"has": null
+},
+{
+"skill": "cx-equate-parts",
+"title": "Equate real and imaginary parts",
+"level": "OL",
+"question": "$a$ and $b$ are real numbers. Find $a$ and $b$ if $(a + bi)(1 + i) = 1 + 5i$.",
+"has": null
+},
+{
+"skill": "cx-transformations",
+"title": "Interpret operations as transformations on the Argand diagram",
+"level": "OL",
+"question": "$z = 4 + 2i$. Find $iz$. Describe the transformation that takes $z$ to $iz$ on the Argand diagram.",
+"has": null
+},
+{
+"skill": "cx-conjugate-properties",
+"title": "Use conjugates of sums and products",
+"level": "HL",
+"question": "Let $z_1 = 1 + i$ and $z_2 = 2 - 3i$. Verify that $\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}$ and $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$.",
+"has": null
+},
+{
+"skill": "cx-quadratic",
+"title": "Solve a quadratic with complex roots",
+"level": "HL",
+"question": "Solve $z^2 + 6z + 25 = 0$, where $z \\in \\mathbb{C}$.",
+"has": null
+},
+{
+"skill": "cx-polar",
+"title": "Convert between rectangular and polar form",
+"level": "HL",
+"question": "Write $z = -2 + 2i$ in polar form.",
+"has": null
+},
+{
+"skill": "cx-polar-multiply",
+"title": "Multiply and divide in polar form",
+"level": "HL",
+"question": "Let $z = 4\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)$ and $w = 2\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)$. Find $zw$ in polar form, and find $\\frac{z}{w}$ in the form $a + bi$.",
+"has": null
+},
+{
+"skill": "cx-de-moivre-power",
+"title": "Raise to a power with De Moivre's Theorem",
+"level": "HL",
+"question": "Use De Moivre's Theorem to evaluate $(-1 + i)^{10}$, giving your answer in the form $a + bi$.",
+"has": null
+},
+{
+"skill": "cx-conjugate-root",
+"title": "Use the Conjugate Root Theorem to find all roots",
+"level": "HL",
+"question": "$2 + i$ is a root of $z^3 - 6z^2 + 13z - 10 = 0$, where $z \\in \\mathbb{C}$. Find all the roots.",
+"has": null
+},
+{
+"skill": "cx-de-moivre-roots",
+"title": "Solve zⁿ = a (incl. nth roots of unity)",
+"level": "HL",
+"question": "Solve $z^4 = -16$, giving your answers in the form $a + bi$.",
+"has": null
+},
+{
+"skill": "cx-de-moivre-identity",
+"title": "Derive multiple-angle identities with De Moivre",
+"level": "HL",
+"question": "Use De Moivre's Theorem to show that $\\cos 4\\theta = 8\\cos^4\\theta - 8\\cos^2\\theta + 1$.",
+"has": null
+},
+{
+"skill": "cx-de-moivre-prove",
+"title": "Prove De Moivre's Theorem by induction",
+"level": "HL",
+"question": "Prove by induction that $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$ for all $n \\in \\mathbb{N}$.",
+"has": null
+},
+{
+"skill": "diff-slope-tangent",
+"title": "Find the slope and equation of a tangent",
+"level": "OL",
+"question": "The curve $y = x^3 - 3x + 1$ has a point where $x = 2$. Find the equation of the tangent to the curve at that point.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "diff-point-given-slope",
+"title": "Find where a curve has a given slope",
+"level": "OL",
+"question": "The tangent to the curve $y = x^3 - 6x^2 + 5$ is parallel to the line $y = -9x + 4$ at two points. Find the $x$-coordinates of these two points.",
+"has": null
+},
+{
+"skill": "diff-increasing",
+"title": "Decide whether a function is increasing or decreasing at a point",
+"level": "OL",
+"question": "$f(x) = x^2 - 6x + 5$. Use differentiation to decide whether $f$ is increasing or decreasing at $x = 1$.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "diff-increasing-interval",
+"title": "Find where a function is increasing/decreasing for all x or on intervals",
+"level": "HL",
+"question": "Show that $f(x) = x^3 + 3x^2 + 5x - 4$ is increasing for all $x \\in \\mathbb{R}$.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "diff-stationary",
+"title": "Find and classify turning points",
+"level": "OL",
+"question": "Find the turning points of $f(x) = x^3 - 12x + 5$, and say which is the maximum and which is the minimum.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "diff-inflection",
+"title": "Find a point of inflection",
+"level": "HL",
+"question": "Find the point of inflection of $f(x) = x^3 - 9x^2 + 5x - 2$.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "diff-rates-of-change",
+"title": "Apply differentiation to rates of change",
+"level": "OL",
+"question": "A particle moves in a straight line. After $t$ seconds its distance from a point is $s = t^3 - 6t^2 + 5t$ metres. Find its velocity and its acceleration when $t = 4$.",
+"has": null
+},
+{
+"skill": "diff-tangent-circle",
+"title": "Find the slope of a tangent to a circle by differentiation",
+"level": "HL",
+"question": "The circle $x^2 + y^2 = 169$ contains the point $(5, 12)$. Find the slope of the tangent to the circle at that point.",
+"has": null
+},
+{
+"skill": "diff-curve-sketch",
+"title": "Sketch a curve using calculus",
+"level": "OL",
+"question": "Sketch the graph of $f(x) = x^3 - 6x^2 + 9x$. Mark where it meets the axes and find its turning points.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "diff-sketch-derivative",
+"title": "Sketch/match the graph of f′ from f",
+"level": "HL",
+"question": "The graph of $f(x) = -x^2 + 4x - 1$ has a maximum at $x = 2$. Sketch the graph of $f'(x)$.",
+"has": null
+},
+{
+"skill": "diff-related-rates",
+"title": "Solve connected rates of change",
+"level": "HL",
+"question": "Air is pumped into a spherical balloon at $72$ cm$^3$ per second. Find the rate at which the radius is increasing when $r = 3$ cm. The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$.",
+"has": null
+},
+{
+"skill": "diff-optimisation",
+"title": "Solve a max/min problem from a context",
+"level": "OL",
+"question": "A farmer has $60$ m of fencing for three sides of a rectangular pen. The fourth side is a wall. Find the width $x$ that gives the largest area, and find that area.",
+"has": null
+},
+{
+"skill": "diff-apply-hl",
+"title": "Apply derivatives of exp/log/trig functions to problems",
+"level": "HL",
+"question": "The temperature of a drink is $T = 70e^{-0.05t}$ degrees Celsius, $t$ minutes after it is poured. Find the rate at which the temperature is changing after $10$ minutes.",
+"has": null
+},
+{
+"skill": "diff-poly",
+"title": "Differentiate a polynomial by rule",
+"level": "OL",
+"question": "Differentiate $f(x) = 4x^3 - 3x^2 + 5x - 8$ and find the slope of the graph at $x = 2$.",
+"has": null
+},
+{
+"skill": "diff-second",
+"title": "Find the second derivative",
+"level": "OL",
+"question": "Find $f''(x)$ for $f(x) = x^3 - 6x^2 + 5x$, and find the value of $x$ for which $f''(x) = 0$.",
+"has": null
+},
+{
+"skill": "diff-rational-power",
+"title": "Differentiate rational powers",
+"level": "HL",
+"question": "Differentiate $f(x) = 4\\sqrt{x} + \\frac{3}{x^2}$ with respect to $x$.",
+"has": null
+},
+{
+"skill": "diff-exponential",
+"title": "Differentiate exponential functions",
+"level": "HL",
+"question": "The mass of a sample is $m(t) = 90e^{-0.2t}$ grams, $t$ hours after it is set up. Find the rate at which the mass is changing when $t = 3$. Give your answer correct to 2 decimal places.",
+"has": null
+},
+{
+"skill": "diff-trig",
+"title": "Differentiate trig functions (radians)",
+"level": "HL",
+"question": "Find the slope of the curve $y = 5\\sin 2x + 3\\cos x$ at the point where $x = \\dfrac{\\pi}{6}$.",
+"has": null
+},
+{
+"skill": "diff-product",
+"title": "Apply the product rule",
+"level": "HL",
+"question": "Find the values of $x$ for which the slope of $f(x) = x^2e^{3x}$ is zero.",
+"has": null
+},
+{
+"skill": "diff-chain",
+"title": "Apply the chain rule",
+"level": "HL",
+"question": "Find the equation of the tangent to the curve $y = \\sqrt{4x^2 + 9}$ at the point where $x = 2$.",
+"has": null
+},
+{
+"skill": "diff-log",
+"title": "Differentiate logarithms",
+"level": "HL",
+"question": "Find the slope of the curve $y = \\ln(3x^2 + 1)$ at $x = 1$.",
+"has": null
+},
+{
+"skill": "diff-inverse-trig",
+"title": "Differentiate inverse trig functions",
+"level": "HL",
+"question": "Differentiate $f(x) = \\tan^{-1}\\!\\left(\\dfrac{x}{4}\\right)$ and find $f'(4)$.",
+"has": null
+},
+{
+"skill": "diff-first-principles",
+"title": "Differentiate from first principles",
+"level": "HL",
+"question": "Differentiate $f(x) = 2x^2 - x + 3$ from first principles.",
+"has": null
+},
+{
+"skill": "diff-quotient",
+"title": "Apply the quotient rule",
+"level": "HL",
+"question": "Given $g(x) = \\dfrac{3x - 2}{x + 4}$, find $g'(1)$.",
+"has": null
+},
+{
+"skill": "diff-combined",
+"title": "Differentiate a function needing several rules",
+"level": "HL",
+"question": "Differentiate $f(x) = e^{3x}\\cos 2x$ with respect to $x$. Write the answer in its simplest form.",
+"has": null
+},
+{
+"skill": "diff-show-identity",
+"title": "Show a derivative satisfies a given relation",
+"level": "HL",
+"question": "Show that $y = xe^{-2x}$ satisfies $y'' + 4y' + 4y = 0$.",
+"has": null
+},
+{
+"skill": "fin-percentages",
+"title": "Calculate percentages and percentage change",
+"level": "JC",
+"question": "The price of a bicycle was increased by $8\\%$. It now costs €486. Find the original price.",
+"has": null
+},
+{
+"skill": "fin-units",
+"title": "Change units (metric, imperial with factors, currency)",
+"level": "OL",
+"question": "A train travels at $72$ km/h. Express its speed in metres per second.",
+"has": null
+},
+{
+"skill": "fin-estimate",
+"title": "Estimate, round and check order of magnitude",
+"level": "OL",
+"question": "A shop sells $19.8$ kg of cheese at $€6.10$ per kg.\n(a) Estimate the cost by rounding each number to one significant figure.\n(b) Calculate the exact cost.\n(c) Is your answer to (b) sensible?",
+"has": null
+},
+{
+"skill": "fin-profit-margin",
+"title": "Calculate cost/selling price, discount, mark-up and margin",
+"level": "OL",
+"question": "A shop buys a bag for $€45$ and sells it for $€60$. Find (a) the profit, (b) the mark-up as a percentage of the cost price, (c) the margin as a percentage of the selling price.",
+"has": null
+},
+{
+"skill": "fin-compound-interest",
+"title": "Apply compound interest",
+"level": "OL",
+"question": "Aoife invests $€7000$ at $2.5\\%$ per year compound interest for $3$ years. Find the value of her investment at the end of $3$ years, to the nearest cent.",
+"has": null
+},
+{
+"skill": "fin-depreciation",
+"title": "Apply reducing-balance depreciation",
+"level": "OL",
+"question": "A van costs $€25\\,000$ new. It loses $10\\%$ of its value each year. Find the value of the van after $4$ years.",
+"has": null
+},
+{
+"skill": "fin-rate-conversion",
+"title": "Convert between annual and periodic rates (AER/APR)",
+"level": "OL",
+"question": "A bank quotes an annual percentage rate (APR) of $3.6\\%$. Find the equivalent monthly rate, correct to 3 significant figures.",
+"has": null
+},
+{
+"skill": "fin-income-tax",
+"title": "Calculate income tax, USC, PRSI and net pay",
+"level": "OL",
+"question": "Ciara earns $€56\\,000$ a year. She pays tax at $20\\%$ on the first $€42\\,000$ and $40\\%$ on the rest. Her tax credits are $€3\\,500$. Find her net pay.",
+"has": null
+},
+{
+"skill": "fin-costing",
+"title": "Cost materials, labour and wastage",
+"level": "OL",
+"question": "A room is $5$ m by $4$ m. The floor is to be tiled. Tiles cost $€30$ per m², and $8\\%$ extra is bought for wastage. The tiler charges $€45$ per hour for $6$ hours. Find the total cost.",
+"has": null
+},
+{
+"skill": "fin-error",
+"title": "Calculate percentage error, tolerance and accumulated error",
+"level": "OL",
+"question": "A table is measured as $1.46$ m long. The true length is $1.50$ m. Find the percentage error, correct to one decimal place.",
+"has": null
+},
+{
+"skill": "fin-average-rate",
+"title": "Calculate an average rate of change over time",
+"level": "OL",
+"question": "A cyclist rides $18$ km in $45$ minutes, then $12$ km in $15$ minutes. Find her average speed for the whole journey, in km/h.",
+"has": null
+},
+{
+"skill": "fin-present-value",
+"title": "Find the present value of a future sum",
+"level": "HL",
+"question": "How much should be invested today at $3.5\\%$ per annum compound interest to have €8000 in $4$ years? Give your answer to the nearest cent.",
+"has": null
+},
+{
+"skill": "fin-solve-rate-time",
+"title": "Find the rate or time in a compound interest problem",
+"level": "HL",
+"question": "€20,000 is invested at $4\\%$ per annum compound interest. After how many whole years will it first be worth at least €30,000?",
+"has": null
+},
+{
+"skill": "fin-annuity-fv",
+"title": "Find the future value of regular savings",
+"level": "HL",
+"question": "Aoife saves €150 at the start of every month for $24$ months. The account pays $0.4\\%$ compound interest per month. Find the value of her savings at the end of the $24$ months, to the nearest cent.",
+"has": null
+},
+{
+"skill": "fin-annuity-pv",
+"title": "Find the present value of a series of payments (pension/annuity)",
+"level": "HL",
+"question": "A pension pays €1500 at the end of each year for 6 years. The interest rate is 3% per year. Find the present value of the pension, correct to the nearest cent.",
+"has": null
+},
+{
+"skill": "fin-mortgage",
+"title": "Find the repayment on a loan/mortgage",
+"level": "HL",
+"question": "Aoife borrows €20 000 at a monthly interest rate of 0.5%. She repays the loan in equal monthly repayments over 24 months. The first repayment is one month after she borrows. Find the amount of each repayment, correct to the nearest cent.",
+"has": null
+},
+{
+"skill": "fin-mortgage-derive",
+"title": "Derive the mortgage repayment formula",
+"level": "HL",
+"question": "A loan of $P$ is repaid by $t$ equal payments of $A$, one at the end of each period. The interest rate is $i$ per period. Show that $A = \\dfrac{Pi(1+i)^t}{(1+i)^t - 1}$.",
+"has": null
+},
+{
+"skill": "fin-amortisation",
+"title": "Build or complete a loan amortisation schedule",
+"level": "HL",
+"question": "A loan of €8000 is repaid by monthly repayments of €400. The monthly interest rate is 0.6%. Find the interest charged, the capital repaid and the balance owed after the first two repayments. Give the final balance correct to the nearest cent.",
+"has": null
+},
+{
+"skill": "fn-definition",
+"title": "Recognise a function and its domain/codomain/range",
+"level": "OL",
+"question": "A mapping is given by $f(x) = 2x - 1$, with domain $\\{1, 2, 3, 4\\}$ and codomain $\\mathbb{N}$. Show that $f$ is a function and write down its range.",
+"has": null
+},
+{
+"skill": "fn-evaluate",
+"title": "Evaluate a function",
+"level": "OL",
+"question": "$f(x) = x^2 - 4x + 5$. (i) Find $f(-3)$. (ii) Find $f(a+1)$ in terms of $a$.",
+"has": null
+},
+{
+"skill": "fn-graph-linear",
+"title": "Graph a linear function",
+"level": "OL",
+"question": "Draw the graph of $f(x) = 2x - 1$ for $-1 \\le x \\le 3$.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "fn-limit-concept",
+"title": "Investigate the limit of a function",
+"level": "OL",
+"question": "$f(x) = \\dfrac{x^2 - 9}{x - 3}$. Explain why $f(3)$ cannot be found. Complete a table for $x$ close to $3$ on each side and write down the limit of $f(x)$ as $x \\to 3$.",
+"has": null
+},
+{
+"skill": "fn-graph-quadratic",
+"title": "Graph a quadratic function",
+"level": "OL",
+"question": "Draw the graph of $f(x) = x^2 - 4x - 5$ for $-1 \\le x \\le 5$. Show where it crosses the axes and find its lowest point.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "fn-graph-cubic",
+"title": "Graph a cubic function",
+"level": "OL",
+"question": "Draw the graph of $f(x) = x^3 - 6x^2 + 9x$ for $-1 \\le x \\le 4$. Find the local maximum point.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "fn-graph-exponential",
+"title": "Graph an exponential function",
+"level": "OL",
+"question": "The number of bacteria is $f(x) = 5 \\cdot 2^x$, where $x$ is the number of hours. Draw the graph of $f$ for $-1 \\le x \\le 4$. Use the graph to find when there are $40$ bacteria.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "fn-composite",
+"title": "Form a composite function",
+"level": "OL",
+"question": "$f(x) = x + 2$ and $g(x) = x^2 - 3$. Find $f(g(x))$ and $g(f(x))$. Hence find the value of $x$ for which $f(g(x)) = g(f(x))$.",
+"has": null
+},
+{
+"skill": "fn-solve-graphically",
+"title": "Solve equations approximately from graphs",
+"level": "OL",
+"question": "The graph of $f(x) = x^2 - 2x - 8$ is drawn for $-4 \\le x \\le 6$. Use the graph to estimate the values of $x$ for which $f(x) = 5$. Give your answers correct to one decimal place.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "fn-compare-graphs",
+"title": "Interpret f(x) = g(x) as a comparison of functions",
+"level": "OL",
+"question": "Let $f(x) = x^2$ and $g(x) = 2x + 3$. Find the values of $x$ for which $f(x) = g(x)$. Hence state the values of $x$ for which $f(x) < g(x)$.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "fn-injective-surjective",
+"title": "Classify a function as injective, surjective, bijective",
+"level": "HL",
+"question": "The function $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = 7 - 2x$. Show that $f$ is bijective.",
+"has": null
+},
+{
+"skill": "fn-transformations",
+"title": "Transform a graph",
+"level": "HL",
+"question": "Let $f(x) = x^2 - 3x$. The graph of $f$ is moved 2 units to the right and then 4 units up. Write the equation of the new graph, $g(x)$, in the form $x^2 + bx + c$.",
+"has": null
+},
+{
+"skill": "fn-inverse",
+"title": "Find the inverse of a bijective function",
+"level": "HL",
+"question": "The function $f : \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = \\frac{3x + 4}{2}$. $f$ is bijective. Find $f^{-1}(x)$.",
+"has": null
+},
+{
+"skill": "fn-inverse-sketch",
+"title": "Sketch the inverse from a graph",
+"level": "HL",
+"question": "The graph of $f(x) = 2^x$ is shown. Sketch the graph of $f^{-1}$ by reflecting in the line $y = x$, and write down $f^{-1}(x)$.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "fn-graph-log",
+"title": "Graph a logarithmic function",
+"level": "HL",
+"question": "Draw the graph of $y = \\log_2 x$ for $\\frac{1}{4} \\le x \\le 8$. Use a table of values.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "fn-limits-continuity",
+"title": "Find limits and explore continuity informally",
+"level": "HL",
+"question": "Find $\\lim_{x \\to 5} \\frac{x^2 - 3x - 10}{x - 5}$. Is $f(x) = \\frac{x^2 - 3x - 10}{x - 5}$ continuous at $x = 5$?",
+"has": null
+},
+{
+"skill": "fn-exp-model",
+"title": "Fit an exponential model to data",
+"level": "HL",
+"question": "The number of bacteria in a dish is modelled by $P(t) = A e^{kt}$, where $t$ is the time in hours. At $t = 0$ there are $80$ bacteria. At $t = 4$ there are $500$. Find $A$ and $k$, and use the model to predict the number of bacteria at $t = 10$.",
+"has": null
+},
+{
+"skill": "geo-thm1",
+"title": "Apply Theorem 1: Vertically opposite angles are equal",
+"level": "JC",
+"question": "Two straight lines cross at a point. One angle is $(3x + 10)°$. The angle vertically opposite it is $(5x - 30)°$. Find $x$ and the size of the angle $(3x + 10)°$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm4",
+"title": "Apply Theorem 4: Angles in a triangle sum to 180°",
+"level": "JC",
+"question": "The angles of a triangle are $(2x + 10)°$, $(3x - 20)°$ and $70°$. Find $x$ and the size of the other two angles.",
+"has": "figure"
+},
+{
+"skill": "geo-thm3",
+"title": "Apply Theorem 3: Alternate angles are equal ⇔ lines parallel",
+"level": "JC",
+"question": "The lines $l$ and $m$ are parallel and are cut by a third line. The angle $(4x - 15)°$ on $l$ and the angle $(2x + 25)°$ on $m$ are alternate. Find $x$ and the size of the angle $(4x - 15)°$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm5",
+"title": "Apply Theorem 5: Corresponding angles are equal ⇔ lines parallel",
+"level": "JC",
+"question": "The lines $l$ and $m$ are parallel. A third line crosses them. The corresponding angles are $(4x + 10)^\\circ$ on $l$ and $(6x - 20)^\\circ$ on $m$. Find $x$ and the size of each angle. Give a reason.",
+"has": "figure"
+},
+{
+"skill": "geo-thm2",
+"title": "Apply Theorem 2: Isosceles triangle: equal sides ⇔ equal base angles",
+"level": "JC",
+"question": "In the triangle $ABC$, $|AB| = |AC|$. The base angles are $|\\angle ABC| = (2x + 10)^\\circ$ and $|\\angle ACB| = (4x - 20)^\\circ$. Find $x$ and $|\\angle BAC|$. Give a reason.",
+"has": "figure"
+},
+{
+"skill": "geo-thm6",
+"title": "Apply Theorem 6: Exterior angle = sum of interior opposite angles",
+"level": "JC",
+"question": "In the triangle $ABC$, the side $[BC]$ is extended to $D$. $|\\angle BAC| = (2x + 10)^\\circ$, $|\\angle ABC| = 40^\\circ$ and the exterior angle is $|\\angle ACD| = (5x - 10)^\\circ$. Find $x$ and $|\\angle ACD|$. Give a reason.",
+"has": "figure"
+},
+{
+"skill": "geo-transformations",
+"title": "Find images under translation, central symmetry, axial symmetry and rotation",
+"level": "JC",
+"question": "A translation maps $A(3, 5)$ to $A'(7, 2)$. (i) Find the image of $B(-1, 4)$ under the same translation. (ii) Find the image of that point under central symmetry in $(0, 0)$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm7",
+"title": "Apply Theorem 7: Greater side is opposite the greater angle (and converse)",
+"level": "OL",
+"question": "In triangle $ABC$, $|\\angle A| = (x + 30)^\\circ$, $|\\angle B| = (2x - 10)^\\circ$ and $|\\angle C| = (3x - 20)^\\circ$. Find $x$, and name the longest side of the triangle.",
+"has": null
+},
+{
+"skill": "geo-thm8",
+"title": "Apply Theorem 8: Triangle inequality: two sides together exceed the third",
+"level": "OL",
+"question": "A triangle has two sides of length $6$ cm and $9$ cm. The third side is $x$ cm, where $x$ is a whole number. How many different values can $x$ have?",
+"has": null
+},
+{
+"skill": "geo-thm14",
+"title": "Apply Theorem 14: Pythagoras",
+"level": "JC",
+"question": "A ladder $7{\\cdot}4$ m long leans against a vertical wall. The foot of the ladder is $2{\\cdot}1$ m from the wall. How high up the wall does the ladder reach? Give your answer correct to one decimal place.",
+"has": null
+},
+{
+"skill": "geo-thm15",
+"title": "Apply Theorem 15: Converse of Pythagoras",
+"level": "JC",
+"question": "A triangle has sides of length $20$ cm, $99$ cm and $101$ cm. Show that the triangle is right-angled.",
+"has": null
+},
+{
+"skill": "geo-cor3",
+"title": "Apply Corollary 3: An angle in a semicircle is a right angle",
+"level": "JC",
+"question": "$[AB]$ is a diameter of a circle and $C$ is a point on the circle. $|\\angle CAB| = 38^\\circ$. Find $|\\angle ABC|$.",
+"has": "figure"
+},
+{
+"skill": "geo-congruence",
+"title": "Prove triangles congruent (SSS, SAS, ASA, RHS)",
+"level": "JC",
+"question": "In the quadrilateral $ABCD$, $|AB| = |AD| = 5$ cm and $|BC| = |DC| = 7$ cm. Prove that $\\Delta ABC$ and $\\Delta ADC$ are congruent.",
+"has": "figure"
+},
+{
+"skill": "geo-enlargement",
+"title": "Construct and analyse an enlargement",
+"level": "OL",
+"question": "The triangle $ABC$ is enlarged with centre $O$ to give the image $PQR$. $|OB| = 5$ cm and $|OQ| = 12$ cm. The area of $ABC$ is $10$ cm$^2$. Find the area of $PQR$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm9",
+"title": "Apply Theorem 9: Parallelogram: opposite sides and opposite angles equal",
+"level": "JC",
+"question": "$ABCD$ is a parallelogram. $|\\angle DAB| = (2x + 15)^\\circ$ and $|\\angle BCD| = (4x - 35)^\\circ$. Find $|\\angle ABC|$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm10",
+"title": "Apply Theorem 10: Diagonals of a parallelogram bisect each other",
+"level": "JC",
+"question": "$ABCD$ is a parallelogram. The diagonals $[AC]$ and $[BD]$ meet at $E$. $|AE| = (3x + 2)$ cm and $|EC| = (5x - 6)$ cm. Find $x$ and $|AC|$.",
+"has": "figure"
+},
+{
+"skill": "geo-cor4",
+"title": "Apply Corollary 4: A right angle at the circle stands on a diameter",
+"level": "JC",
+"question": "$[AB]$ is a diameter of a circle and $C$ is a point on the circle. $|\\angle CAB| = (2x + 5)^\\circ$ and $|\\angle ABC| = (4x - 5)^\\circ$. Find $x$ and $|\\angle ABC|$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm17",
+"title": "Apply Theorem 17: A diagonal bisects the area of a parallelogram",
+"level": "OL",
+"question": "The area of the parallelogram $PQRS$ is $420$ m$^2$. (i) Find the area of the triangle $PQR$. (ii) $T$ is the midpoint of $[QR]$. Find the area of the triangle $PQT$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm18",
+"title": "Apply Theorem 18: Area of a parallelogram = base × height",
+"level": "OL",
+"question": "$ABCD$ is a parallelogram. $|AB| = 12$ cm and the perpendicular distance between $[AB]$ and $[DC]$ is $6$ cm. $|BC| = 8$ cm. Find the area of $ABCD$, and the perpendicular distance between $[BC]$ and $[AD]$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm16",
+"title": "Apply Theorem 16: Base × height is the same for every side of a triangle",
+"level": "OL",
+"question": "$PQRS$ is a parallelogram with area $360\\ \\text{m}^2$. $T$ is the midpoint of $[QR]$.\n(i) Find the area of the triangle $PQS$.\n(ii) Find the area of the triangle $PQT$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm20",
+"title": "Apply Theorem 20: Tangent is perpendicular to the radius at the point of contact (and converse)",
+"level": "OL",
+"question": "A circle has centre $O$ and radius $5$ cm. $[PT]$ is a tangent to the circle at $T$, and $|OP| = 13$ cm.\n(i) Find $|PT|$.\n(ii) Find the area of the triangle $OTP$.",
+"has": "figure"
+},
+{
+"skill": "geo-cor1",
+"title": "Apply Corollary 1: A diagonal divides a parallelogram into two congruent triangles",
+"level": "HL",
+"question": "$ABCD$ is a parallelogram. $|\\angle ABC| = (4x + 10)^\\circ$ and $|\\angle CDA| = (6x - 20)^\\circ$. Find $x$ and $|\\angle ABC|$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm11",
+"title": "Apply Theorem 11: Three parallel lines cutting equal segments on one transversal cut equal segments on any",
+"level": "OL",
+"question": "The parallel lines $AD$, $BE$ and $CF$ cut the transversal $[AC]$ with $|AB| = |BC|$. They cut the second transversal $[DF]$ at $D$, $E$ and $F$. $|DE| = (2x + 1)$ cm and $|EF| = (4x - 9)$ cm. Find $x$ and $|DF|$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm13",
+"title": "Apply Theorem 13: Similar triangles have proportional sides",
+"level": "OL",
+"question": "In the diagram, triangles $ABC$ and $DEF$ are equiangular. $|AB| = 6$ cm, $|BC| = 9$ cm and $|DE| = 8$ cm. $AB$ and $DE$ are opposite equal angles, and so are $BC$ and $EF$. Find $|EF|$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm21",
+"title": "Apply Theorem 21: Perpendicular from the centre bisects a chord; perpendicular bisector of a chord passes through the centre",
+"level": "OL",
+"question": "A circle has centre $O$. A chord $[AB]$ has length $24$ cm. The perpendicular from $O$ meets $[AB]$ at $M$, and $|OM| = 5$ cm. Find the radius of the circle.",
+"has": "figure"
+},
+{
+"skill": "geo-similar-triangles",
+"title": "Find lengths using similar triangles",
+"level": "OL",
+"question": "Triangles $ABC$ and $PQR$ are similar. $|AB| = 8$ cm and $|PQ| = 14$ cm are matching sides. $|AC| = 12$ cm. Find $|PR|$, the side that matches $[AC]$.",
+"has": "figure"
+},
+{
+"skill": "geo-thm12",
+"title": "Apply Theorem 12: A line parallel to one side of a triangle divides the other two in the same ratio",
+"level": "OL",
+"question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$. $DE$ is parallel to $BC$. $|AD| = 4$ cm, $|DB| = 6$ cm and $|AE| = 5$ cm. Find $|EC|$.",
+"has": "figure"
+},
+{
+"skill": "geo-enlargement-centre",
+"title": "Find the centre and scale factor of an enlargement",
+"level": "OL",
+"question": "The triangle $PQR$ is the image of the triangle $ABC$ under an enlargement.\n(a) Construct the centre of enlargement and label it $O$.\n(b) Given $|AB| = 4$ cm and $|PQ| = 10$ cm, find the scale factor $k$.\n(c) Check your answer: $|OA| = 6$ cm. Find $|OP|$.",
+"has": "figure"
+},
+{
+"skill": "geo-cor6",
+"title": "Apply Corollary 6: Circles sharing a tangent at a point: the centres and that point are collinear",
+"level": "OL",
+"question": "Two circles touch externally at $T$. Their centres are $A$ and $B$. The radius of one circle is $4$ cm and the radius of the other is $9$ cm. Find $|AB|$.",
+"has": "figure"
+},
+{
+"skill": "geo-cor5",
+"title": "Apply Corollary 5: Opposite angles of a cyclic quadrilateral sum to 180°",
+"level": "HL",
+"question": "$ABCD$ is a cyclic quadrilateral. $|\\angle A| = (2x + 10)°$ and $|\\angle C| = (3x - 20)°$. Find $x$.",
+"has": "figure"
+},
+{
+"skill": "geo-cor2",
+"title": "Apply Corollary 2: Angles standing on the same arc are equal",
+"level": "HL",
+"question": "$A$, $B$, $C$ and $D$ are on a circle. $|\\angle ACB| = (3x + 5)°$ and $|\\angle ADB| = (5x - 25)°$. Find $x$.",
+"has": "figure"
+},
+{
+"skill": "geo-prove-thm11",
+"title": "Prove Theorem 11",
+"level": "HL",
+"question": "Three parallel lines $AD$, $BE$ and $CF$ cut off equal segments on the transversal $AC$, so $|AB| = |BC|$. Prove that they cut off equal segments on any other transversal $DF$, so $|DE| = |EF|$.",
+"has": "figure"
+},
+{
+"skill": "geo-prove-thm12",
+"title": "Prove Theorem 12",
+"level": "HL",
+"question": "In the triangle $ABC$, the line $XY$ is parallel to $BC$, with $X$ on $[AB]$ and $Y$ on $[AC]$. It cuts $[AB]$ in the ratio $|AX| : |XB| = 2 : 3$. Prove that $|AY| : |YC| = 2 : 3$.",
+"has": "figure"
+},
+{
+"skill": "geo-prove-thm13",
+"title": "Prove Theorem 13",
+"level": "HL",
+"question": "The triangles $ABC$ and $DEF$ are similar, with equal angles at $A$ and $D$, at $B$ and $E$, at $C$ and $F$. Prove that $\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|} = \\dfrac{|CA|}{|FD|}$.",
+"has": "figure"
+},
+{
+"skill": "geo-cuts",
+"title": "Solve a geometry \"cut\" with a reasoned account",
+"level": "HL",
+"question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $|\\angle ADE| = |\\angle ABC|$. Given $|AD| = 4$, $|DB| = 2$ and $|DE| = 5$, prove that triangles $ADE$ and $ABC$ are similar, and find $|BC|$.",
+"has": "figure"
+},
+{
+"skill": "con-8",
+"title": "Construction 8: Line segment of given length on a given ray",
+"level": "JC",
+"question": "Draw a ray starting at $A$. Construct the point $B$ on the ray so that $|AB| = 5$ cm.",
+"has": "figure"
+},
+{
+"skill": "con-1",
+"title": "Construction 1: Bisector of a given angle (compass and straight edge only)",
+"level": "JC",
+"question": "Draw an angle $\\angle BAC$. Construct its bisector.",
+"has": "figure"
+},
+{
+"skill": "con-9",
+"title": "Construction 9: Angle of a given number of degrees with a given ray as one arm",
+"level": "JC",
+"question": "Draw a ray $[AB]$. Construct the angle $\\angle BAC = 50^\\circ$.",
+"has": "figure"
+},
+{
+"skill": "con-15",
+"title": "Construction 15: Rectangle given side lengths",
+"level": "JC",
+"question": "Construct the rectangle $ABCD$ with $|AB| = 6$ cm and $|BC| = 4$ cm.",
+"has": "figure"
+},
+{
+"skill": "con-2",
+"title": "Construction 2: Perpendicular bisector of a segment (compass and straight edge only)",
+"level": "JC",
+"question": "Draw a segment $[AB]$ with $|AB| = 8$ cm. Using only a compass and straight edge, construct the perpendicular bisector of $[AB]$.",
+"has": "figure"
+},
+{
+"skill": "con-10",
+"title": "Construction 10: Triangle given three sides (SSS)",
+"level": "JC",
+"question": "Construct the triangle $ABC$ with $|BC| = 7$ cm, $|AB| = 6$ cm and $|AC| = 4$ cm.",
+"has": "figure"
+},
+{
+"skill": "con-11",
+"title": "Construction 11: Triangle given SAS data",
+"level": "JC",
+"question": "Construct the triangle $ABC$ with $|AB| = 6$ cm, $|BC| = 8$ cm and $|\\angle ABC| = 70^\\circ$.",
+"has": "figure"
+},
+{
+"skill": "con-12",
+"title": "Construction 12: Triangle given ASA data",
+"level": "JC",
+"question": "Construct the triangle $ABC$ with $|BC| = 8$ cm, $|\\angle B| = 40^\\circ$ and $|\\angle C| = 65^\\circ$.",
+"has": "figure"
+},
+{
+"skill": "con-3",
+"title": "Construction 3: Line perpendicular to a line l through a point not on l",
+"level": "HL",
+"question": "Draw a line $l$ and mark a point $P$ above it. Construct the line through $P$ perpendicular to $l$.",
+"has": "figure"
+},
+{
+"skill": "con-5",
+"title": "Construction 5: Line parallel to a given line through a given point",
+"level": "JC",
+"question": "Draw a line $l$ and mark a point $P$ above it. Construct the line through $P$ parallel to $l$.",
+"has": "figure"
+},
+{
+"skill": "con-13",
+"title": "Construction 13: Right-angled triangle given hypotenuse and one other side",
+"level": "JC",
+"question": "Construct a right-angled triangle $ABC$ with $|AB| = 4$ cm, a right angle at $B$, and hypotenuse $|AC| = 7$ cm.",
+"has": "figure"
+},
+{
+"skill": "con-14",
+"title": "Construction 14: Right-angled triangle given one side and an acute angle",
+"level": "JC",
+"question": "Construct a right-angled triangle $ABC$ with $|AB| = 5$ cm, a right angle at $B$, and $\\angle A = 50^\\circ$.",
+"has": "figure"
+},
+{
+"skill": "con-6",
+"title": "Construction 6: Divide a segment into 2 or 3 equal parts without measuring",
+"level": "JC",
+"question": "Divide the segment $[AB]$ into three equal parts using only a compass and straight edge. Show your construction lines.",
+"has": "figure"
+},
+{
+"skill": "con-18",
+"title": "Construction 18: Angle of 60° without protractor or set square",
+"level": "OL",
+"question": "Using only a compass and straight edge, construct an angle of $60^\\circ$ at the point $A$ on the line $[AB]$.",
+"has": "figure"
+},
+{
+"skill": "con-20",
+"title": "Construction 20: Parallelogram given side lengths and angles",
+"level": "OL",
+"question": "Construct the parallelogram $ABCD$ with $|AB| = 6$ cm, $|AD| = 4$ cm and $|\\angle DAB| = 70^\\circ$.",
+"has": "figure"
+},
+{
+"skill": "con-16",
+"title": "Construction 16: Circumcentre and circumcircle of a triangle (straight edge and compass)",
+"level": "OL",
+"question": "Construct the circumcentre and circumcircle of the triangle $ABC$ with $|AB| = 7$ cm, $|BC| = 6$ cm and $|AC| = 5$ cm. Use a compass and straight edge and show your construction lines.",
+"has": "figure"
+},
+{
+"skill": "con-17",
+"title": "Construction 17: Incentre and incircle of a triangle (straight edge and compass)",
+"level": "OL",
+"question": "Construct the incircle of the triangle $ABC$ with $|AB| = 8$ cm, $|BC| = 7$ cm and $|AC| = 5$ cm. Show all construction lines.",
+"has": "figure"
+},
+{
+"skill": "con-19",
+"title": "Construction 19: Tangent to a circle at a given point on it",
+"level": "OL",
+"question": "A circle has centre $O$ and radius $4$ cm. $P$ is a point on the circle. Construct the tangent to the circle at $P$.",
+"has": "figure"
+},
+{
+"skill": "con-21",
+"title": "Construction 21: Centroid of a triangle",
+"level": "OL",
+"question": "The triangle $ABC$ has vertices $A(1, 2)$, $B(7, 4)$ and $C(4, 9)$. Find the midpoint $D$ of $[BC]$, then find the centroid $G$ of the triangle.",
+"has": "figure"
+},
+{
+"skill": "logic-terms",
+"title": "Use the language of deductive reasoning",
+"level": "OL",
+"question": "Statement: \"If $x = 3$, then $x^2 = 9$.\" (a) Write down the converse. (b) Is the converse true or false? Give a reason.",
+"has": null
+},
+{
+"skill": "con-7",
+"title": "Construction 7: Divide a segment into any number of equal parts without measuring",
+"level": "HL",
+"question": "Divide the segment $[AB]$ into three equal parts, using only a compass and straight edge.",
+"has": "figure"
+},
+{
+"skill": "con-22",
+"title": "Construction 22: Orthocentre of a triangle",
+"level": "HL",
+"question": "Construct the orthocentre of the triangle $ABC$.",
+"has": "figure"
+},
+{
+"skill": "num-construct-root2-3",
+"title": "Construct √2 and √3 geometrically",
+"level": "HL",
+"question": "Starting with a segment of length 1 unit, construct a segment of length $\\sqrt{3}$ units. Show by calculation that its length is $\\sqrt{3}$.",
+"has": null
+},
+{
+"skill": "logic-terms-hl",
+"title": "Use equivalence, \"if and only if\" and proof by contradiction",
+"level": "HL",
+"question": "Prove that $2x + 3 = 11$ if and only if $x = 4$.",
+"has": null
+},
+{
+"skill": "ind-laws",
+"title": "Apply the laws of indices",
+"level": "OL",
+"question": "Write $\\dfrac{(3^4)^2 \\times 3^5}{3^9}$ as a single power of $3$, and hence evaluate it.",
+"has": null
+},
+{
+"skill": "ind-negative-fractional",
+"title": "Evaluate negative and fractional indices",
+"level": "OL",
+"question": "Evaluate $16^{-\\frac{3}{4}}$ without a calculator.",
+"has": null
+},
+{
+"skill": "ind-express-as-power",
+"title": "Write an expression as a power of a base",
+"level": "OL",
+"question": "Write $\\dfrac{\\sqrt{27}}{9}$ as a power of $3$.",
+"has": null
+},
+{
+"skill": "ind-solve-equation",
+"title": "Solve an exponential equation with a common base",
+"level": "OL",
+"question": "Solve $4^{x+2} = 32^{x-1}$ for $x$.",
+"has": null
+},
+{
+"skill": "log-definition",
+"title": "Convert between log and index form (incl. e and ln)",
+"level": "HL",
+"question": "Solve $\\ln(2x + 1) = 3$ for $x$. Give your answer correct to 2 decimal places.",
+"has": null
+},
+{
+"skill": "log-laws",
+"title": "Apply the laws of logs",
+"level": "HL",
+"question": "Find the value of $2\\log_3 6 + \\log_3 15 - \\log_3 20$.",
+"has": null
+},
+{
+"skill": "log-change-base",
+"title": "Change the base of a log",
+"level": "HL",
+"question": "Find the value of $\\log_8 32$ as a fraction.",
+"has": null
+},
+{
+"skill": "log-solve",
+"title": "Solve a log equation",
+"level": "HL",
+"question": "Solve $\\log_2(x + 6) + \\log_2 x = 4$.",
+"has": null
+},
+{
+"skill": "log-solve-exponential",
+"title": "Solve aˣ = b by taking logs",
+"level": "HL",
+"question": "A town's population is modelled by $P(t) = 200(1.05)^{t}$, where $t$ is the time in years. Find, correct to one decimal place, when the population reaches $500$.",
+"has": null
+},
+{
+"skill": "ind-hidden-quadratic",
+"title": "Solve an exponential equation reducible to a quadratic",
+"level": "HL",
+"question": "Solve $3^{2x} + 6 \\cdot 3^{x} - 27 = 0$ for $x \\in \\mathbb{R}$.",
+"has": null
+},
+{
+"skill": "induction-geo-sum",
+"title": "Prove the finite geometric series sum by induction",
+"level": "HL",
+"question": "Prove by induction that $5 + 15 + 45 + \\cdots + 5(3^{n-1}) = \\frac{5(3^{n} - 1)}{2}$ for all $n \\in \\mathbb{N}$.",
+"has": null
+},
+{
+"skill": "induction-divisibility",
+"title": "Prove a divisibility result by induction",
+"level": "HL",
+"question": "Prove by induction that $4^{n} + 2$ is divisible by $3$ for all $n \\in \\mathbb{N}$.",
+"has": null
+},
+{
+"skill": "induction-inequality",
+"title": "Prove an inequality by induction",
+"level": "HL",
+"question": "Prove by induction that $2^n > 2n$ for all $n \\ge 3$, $n \\in \\mathbb{N}$.",
+"has": null
+},
+{
+"skill": "proof-root2-irrational",
+"title": "Prove √2 is irrational by contradiction",
+"level": "HL",
+"question": "Prove that $\\sqrt{3}$ is irrational.",
+"has": null
+},
+{
+"skill": "int-reverse",
+"title": "Treat integration as reverse differentiation",
+"level": "HL",
+"question": "Find $\\int 8x^3 \\, dx$.",
+"has": null
+},
+{
+"skill": "int-power",
+"title": "Integrate powers, sums and constant multiples",
+"level": "HL",
+"question": "Find $\\int \\left(6x^2 - 10x + 3\\sqrt{x}\\right) dx$.",
+"has": null
+},
+{
+"skill": "int-reciprocal",
+"title": "Integrate 1/x",
+"level": "HL",
+"question": "Evaluate $\\int_2^6 \\frac{3}{x}\\,dx$. Give your answer in the form $a\\ln b$, where $a, b \\in \\mathbb{N}$.",
+"has": null
+},
+{
+"skill": "int-exponential",
+"title": "Integrate exponentials",
+"level": "HL",
+"question": "Find the value of $k$ such that $\\int_0^k e^{4x}\\,dx = 15$. Give your answer in terms of $\\ln$.",
+"has": null
+},
+{
+"skill": "int-trig",
+"title": "Integrate sin ax and cos ax",
+"level": "HL",
+"question": "Evaluate $\\int_0^{\\pi/6} \\left(\\cos 3x + 2\\sin 3x\\right)dx$.",
+"has": null
+},
+{
+"skill": "int-find-function",
+"title": "Find a function from its derivative and a point",
+"level": "HL",
+"question": "The slope of a curve is given by $f'(x) = 6x^2 - 8x + 3$. The point $(1, 5)$ is on the curve. Find $f(x)$.",
+"has": null
+},
+{
+"skill": "int-definite",
+"title": "Evaluate a definite integral",
+"level": "HL",
+"question": "Evaluate $\\int_0^1 \\left(6x^2 + e^{2x}\\right) dx$. Give your answer in terms of $e$ and as a decimal to 2 places.",
+"has": null
+},
+{
+"skill": "int-average-value",
+"title": "Find the average value of a function on an interval",
+"level": "HL",
+"question": "The speed of a train is $v(t) = 3t^2 + 2t$ km/h, where $t$ is the time in hours and $1 \\le t \\le 3$. Find the average speed of the train over this time.",
+"has": null
+},
+{
+"skill": "int-area-axis",
+"title": "Find the area between a curve and the x-axis",
+"level": "HL",
+"question": "Find the area enclosed between the curve $y = x^2 - 5x + 4$ and the $x$-axis.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "int-trig-identity",
+"title": "Integrate using a trig formula",
+"level": "HL",
+"question": "Find $\\int \\cos^2 2x \\, dx$.",
+"has": null
+},
+{
+"skill": "int-area-between",
+"title": "Find the area between two curves",
+"level": "HL",
+"question": "The curves $y = 4x - x^2$ and $y = x$ cross at two points. Find the area enclosed between them.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "prob-relative-frequency",
+"title": "Estimate probability from experimental data",
+"level": "JC",
+"question": "A drawing pin is dropped 80 times. It lands point up 28 times.\n(a) Find the relative frequency of landing point up.\n(b) Estimate how many times it lands point up in 500 drops.",
+"has": null
+},
+{
+"skill": "prob-counting-principle",
+"title": "List outcomes and apply the fundamental principle of counting",
+"level": "JC",
+"question": "A cafe lunch deal is one soup, one sandwich and one drink. There are 2 soups, 5 sandwiches and 3 drinks.\n(a) How many different deals are there?\n(b) The cafe adds one new item to one group. Which group gives the most deals?",
+"has": null
+},
+{
+"skill": "prob-sample-space",
+"title": "Construct a sample space for two independent events",
+"level": "JC",
+"question": "A fair coin is tossed and a fair spinner numbered 1, 2, 3, 4 is spun.\n(a) List all the possible outcomes.\n(b) Find the probability of a head and an even number.",
+"has": null
+},
+{
+"skill": "prob-equally-likely",
+"title": "Find a probability with equally likely outcomes",
+"level": "JC",
+"question": "Two fair dice are thrown and the scores are added. Find the probability that the sum is $9$ or more.",
+"has": null
+},
+{
+"skill": "prob-factorial",
+"title": "Count arrangements of n distinct objects",
+"level": "OL",
+"question": "A coach lines up $6$ players for a photograph. In how many different ways can this be done if the captain must stand first?",
+"has": null
+},
+{
+"skill": "prob-venn",
+"title": "Use set notation and Venn diagrams for probability",
+"level": "OL",
+"question": "In a class of $40$ students, $18$ take drama and $14$ take choir. $6$ students take both. A student is picked at random. Find the probability that the student takes neither drama nor choir.",
+"has": null
+},
+{
+"skill": "prob-independent",
+"title": "Find the probability two independent events both occur",
+"level": "OL",
+"question": "A fair coin is tossed and a fair six-sided die is rolled. Find the probability of getting a head and a number greater than $4$.",
+"has": null
+},
+{
+"skill": "prob-npr",
+"title": "Count arrangements of r objects from n",
+"level": "OL",
+"question": "A club has $8$ members. A chairperson, a secretary and a treasurer are chosen, in that order. In how many ways can the three jobs be filled?",
+"has": null
+},
+{
+"skill": "prob-addition-rule",
+"title": "Apply the addition rule",
+"level": "HL",
+"question": "$A$ and $B$ are events with $P(A) = \\frac{3}{5}$, $P(B) = \\frac{3}{10}$ and $P(A \\cup B) = \\frac{7}{10}$. Find $P(A \\cap B)$. Hence state whether $A$ and $B$ are independent.",
+"has": null
+},
+{
+"skill": "prob-tree",
+"title": "Use a tree diagram for multi-stage experiments",
+"level": "OL",
+"question": "Sam takes two penalty kicks. The probability that he scores any one kick is $\\frac{7}{10}$. Draw a tree diagram and find the probability that he scores at least one of the two kicks.",
+"has": null
+},
+{
+"skill": "prob-ncr",
+"title": "Count selections and compute binomial coefficients",
+"level": "HL",
+"question": "In a game, $4$ numbers are chosen from the numbers $1$ to $15$, and the order does not matter. (i) How many different selections are possible? (ii) A player buys one ticket. Find the probability that it matches the chosen numbers.",
+"has": null
+},
+{
+"skill": "prob-independence-test",
+"title": "Test whether events are independent",
+"level": "HL",
+"question": "$P(A) = 0.5$, $P(A \\cup B) = 0.7$ and $P(A \\cap B) = 0.1$. Find $P(B)$. Hence decide whether $A$ and $B$ are independent events.",
+"has": null
+},
+{
+"skill": "prob-expected-value",
+"title": "Calculate expected value and judge fairness",
+"level": "OL",
+"question": "A game costs $\\text{€}3$ to play. A spinner pays $\\text{€}8$ with probability $0.2$, $\\text{€}2$ with probability $0.5$ and nothing otherwise. Find the expected value of the prize. Is the game fair? Give a reason.",
+"has": null
+},
+{
+"skill": "prob-arrangement-restrictions",
+"title": "Count arrangements with restrictions",
+"level": "OL",
+"question": "The letters of the word CHAIR are arranged in a row, each used once. Find the number of arrangements that begin with a vowel.",
+"has": null
+},
+{
+"skill": "prob-bernoulli-3",
+"title": "Solve problems with up to 3 Bernoulli trials",
+"level": "OL",
+"question": "The probability that a spinner lands on green is $\\tfrac14$. It is spun three times. Find the probability that it lands on green exactly once.",
+"has": null
+},
+{
+"skill": "prob-first-success",
+"title": "Find the probability the first success is on trial n",
+"level": "OL",
+"question": "A spinner lands on red with probability $\\frac{1}{5}$ on each spin. Find the probability that the first red comes on the 4th spin.",
+"has": null
+},
+{
+"skill": "prob-conditional",
+"title": "Apply conditional probability and the general multiplication rule",
+"level": "HL",
+"question": "In a survey, $60\\%$ of people own a bike. $24\\%$ own a bike and a car. A person who owns a bike is chosen at random. Find the probability that this person owns a car.",
+"has": null
+},
+{
+"skill": "prob-selection-restrictions",
+"title": "Count selections with restrictions",
+"level": "HL",
+"question": "A committee of 4 is chosen from 6 men and 5 women. It must contain exactly 2 women. How many different committees are possible?",
+"has": null
+},
+{
+"skill": "prob-binomial",
+"title": "Find the probability of k successes in n trials",
+"level": "HL",
+"question": "Each bolt a machine makes is faulty with probability $0.1$, independently of the others. A box holds 8 bolts. Find the probability that at least 2 bolts in the box are faulty.",
+"has": null
+},
+{
+"skill": "prob-without-replacement",
+"title": "Solve sampling problems with or without replacement",
+"level": "HL",
+"question": "A bag holds 7 red counters and 5 blue counters. Three counters are drawn at random, one after another, without replacement. Find the probability that exactly two of them are red.",
+"has": null
+},
+{
+"skill": "prob-kth-success",
+"title": "Find the probability the kth success is on trial n",
+"level": "HL",
+"question": "A fair die is rolled repeatedly. Find the probability that the third six comes on the eighth roll. Give your answer correct to four decimal places.",
+"has": null
+},
+{
+"skill": "seq-pattern",
+"title": "Continue and generalise a pattern",
+"level": "OL",
+"question": "The first three patterns in a sequence use 6, 10 and 14 tiles. The pattern continues in the same way.\n(a) Find the number of tiles in patterns 4 and 5.\n(b) Write the number of tiles in pattern $n$ in terms of $n$.\n(c) Which pattern uses 102 tiles?",
+"has": null
+},
+{
+"skill": "seq-classify",
+"title": "Decide if a sequence is arithmetic, geometric or neither",
+"level": "OL",
+"question": "The first four terms of a sequence are 4, 12, 36, 108. State whether the sequence is arithmetic, geometric or neither, giving a reason. Write down the next term.",
+"has": null
+},
+{
+"skill": "seq-arith-nth",
+"title": "Find the nth term of an arithmetic sequence",
+"level": "OL",
+"question": "The first three terms of an arithmetic sequence are $7, 12, 17, \\dots$ Find $T_n$, the $n$th term. Hence find $T_{30}$.",
+"has": null
+},
+{
+"skill": "seq-arith-sum",
+"title": "Sum n terms of an arithmetic series",
+"level": "OL",
+"question": "Find the sum of the first $25$ terms of the series $4 + 9 + 14 + \\dots$",
+"has": null
+},
+{
+"skill": "seq-arith-find-ad",
+"title": "Find a and d from given terms or sums",
+"level": "OL",
+"question": "In an arithmetic sequence, $T_4 = 14$ and $T_9 = 34$. Find $a$, the first term, and $d$, the common difference.",
+"has": null
+},
+{
+"skill": "seq-quadratic",
+"title": "Find the nth term of a quadratic sequence",
+"level": "OL",
+"question": "The first four terms of a quadratic sequence are $6, 11, 18, 27, \\dots$ Find the formula for $T_n$ in the form $T_n = n^2 + bn + c$.",
+"has": null
+},
+{
+"skill": "seq-sigma",
+"title": "Evaluate a series in Σ notation",
+"level": "HL",
+"question": "Evaluate $\\sum_{r=1}^{12}(3r-2)$.",
+"has": null
+},
+{
+"skill": "seq-geo-nth",
+"title": "Find the nth term of a geometric sequence",
+"level": "HL",
+"question": "A geometric sequence has $T_2 = 6$ and $T_5 = 162$. Find $a$, $r$ and a formula for $T_n$.",
+"has": null
+},
+{
+"skill": "seq-geo-sum",
+"title": "Sum n terms of a geometric series",
+"level": "HL",
+"question": "Find the sum of the first $8$ terms of the series $4 + 12 + 36 + \\dots$",
+"has": null
+},
+{
+"skill": "seq-limits",
+"title": "Find limits of sequences by inspection and limit rules",
+"level": "HL",
+"question": "Find $\\lim_{n \\to \\infty}\\left[\\frac{4n+1}{n+3} + \\left(\\frac{2}{5}\\right)^n\\right]$.",
+"has": null
+},
+{
+"skill": "seq-verify-formula",
+"title": "Verify and justify a formula from a number pattern",
+"level": "HL",
+"question": "Prove by induction that $2 + 4 + 6 + \\dots + 2n = n(n+1)$ for all $n \\in \\mathbb{N}$.",
+"has": null
+},
+{
+"skill": "seq-geo-sum-infinity",
+"title": "Sum an infinite geometric series",
+"level": "HL",
+"question": "Find the sum to infinity of the series $20 + 12 + 7{\\cdot}2 + \\dots$",
+"has": null
+},
+{
+"skill": "seq-geo-unknown-n",
+"title": "Find the number of terms needed in a geometric series",
+"level": "HL",
+"question": "A geometric sequence has first term $3$ and common ratio $2$. Find the least value of $n$ for which $T_n > 5000$.",
+"has": null
+},
+{
+"skill": "seq-recurring-decimal",
+"title": "Write a recurring decimal as a fraction",
+"level": "HL",
+"question": "Write $0.272727\\dots$ as a fraction in its simplest form, using the sum to infinity.",
+"has": null
+},
+{
+"skill": "seq-convergence-range",
+"title": "Find values of x for which a geometric series converges",
+"level": "HL",
+"question": "The geometric series $1 + \\dfrac{x+1}{3} + \\left(\\dfrac{x+1}{3}\\right)^2 + \\cdots$ has a sum to infinity. Find the values of $x$ for which the series converges.",
+"has": null
+},
+{
+"skill": "seq-derive-sum-infinity",
+"title": "Derive S∞ as the limit of partial sums",
+"level": "HL",
+"question": "The sum of the first $n$ terms of a geometric series is $S_n = \\dfrac{a(1-r^n)}{1-r}$. Use this to show that $6 + 3 + \\dfrac{3}{2} + \\cdots$ has a sum to infinity of $12$.",
+"has": null
+},
+{
+"skill": "stat-data-types",
+"title": "Classify data",
+"level": "OL",
+"question": "A school collects data on its students. Classify each variable as categorical nominal, categorical ordinal, numerical discrete or numerical continuous. How many of the three are numerical?\n(i) Shoe size (whole and half sizes)\n(ii) Favourite subject\n(iii) Time taken to run 100 m",
+"has": null
+},
+{
+"skill": "stat-populations-samples",
+"title": "Distinguish population and sample; judge generalisation",
+"level": "OL",
+"question": "A researcher asks 100 students in one Dublin school how many hours they sleep. She wants to know about all 400 000 second-level students in Ireland. Name the population and the sample. Can she use the result for all Irish students? Give a reason.",
+"has": null
+},
+{
+"skill": "stat-averages",
+"title": "Find mean, median and mode (incl. frequency tables)",
+"level": "JC",
+"question": "The table shows the number of books 20 students read last month.\nBooks read, $x$: 1, 2, 3, 4, 5\nNumber of students, $f$: 2, 3, 6, 4, 5\nFind the mean, the median and the mode.",
+"has": null
+},
+{
+"skill": "stat-charts",
+"title": "Draw bar, pie, line plot, histogram and stem-and-leaf",
+"level": "JC",
+"question": "60 students were asked how they travel to school.\nBus: 24, Car: 18, Walk: 12, Cycle: 6\nFind the angle for each sector of a pie chart of this data.",
+"has": null
+},
+{
+"skill": "stat-srs-bias",
+"title": "Select a simple random sample and spot bias",
+"level": "OL",
+"question": "A school has 600 students. The principal wants to survey 30 of them about the canteen. She asks the first 30 students who arrive at school in the morning.\nGive one reason this sample could be biased. Describe how to pick a simple random sample of 30 instead.",
+"has": null
+},
+{
+"skill": "stat-study-types",
+"title": "Identify surveys, observational studies and designed experiments",
+"level": "OL",
+"question": "A researcher wants to know if a new fertiliser makes tomato plants grow taller. She splits 40 plants at random into two equal groups. One group gets the fertiliser and the other does not. After 6 weeks she measures every plant.\nWhat type of study is this? Give a reason.",
+"has": null
+},
+{
+"skill": "stat-quartiles-iqr",
+"title": "Find quartiles and the interquartile range",
+"level": "OL",
+"question": "The number of text messages Aoife sent on eight days was:\n$11, 4, 18, 7, 20, 13, 8, 15$\nFind the interquartile range.",
+"has": null
+},
+{
+"skill": "stat-scatter-correlation",
+"title": "Read scatter plots and correlation",
+"level": "OL",
+"question": "A teacher records hours of TV watched, $x$, and test score, $y$, for five students.\n$x$: 1, 2, 3, 4, 5\n$y$: 9, 7, 6, 3, 2\nThe points lie close to a straight line sloping downhill. Choose the value of $r$ from $0.99$, $-0.2$, $-0.99$ and explain your choice.",
+"has": null
+},
+{
+"skill": "stat-outliers",
+"title": "Recognise outliers",
+"level": "OL",
+"question": "Find any outliers in this data set, using the rule that an outlier lies more than $1.5 \\times \\text{IQR}$ above $Q_3$ or below $Q_1$.\n$3, 5, 6, 7, 8, 9, 11, 30$",
+"has": null
+},
+{
+"skill": "stat-grouped-mean",
+"title": "Estimate the mean of grouped data",
+"level": "OL",
+"question": "The table shows the number of minutes 20 students spent on homework.\nMinutes: 0–10, 10–20, 20–30, 30–40\nNumber of students: 3, 7, 6, 4\nEstimate the mean time.",
+"has": null
+},
+{
+"skill": "stat-choose-display",
+"title": "Select an appropriate graphical/numerical summary",
+"level": "OL",
+"question": "Six students are asked how much pocket money they get each week (in euro): $5, 6, 6, 7, 8, 40$. Which average describes a typical student better, the mean or the median? Calculate both and give a reason.",
+"has": null
+},
+{
+"skill": "stat-distribution-shape",
+"title": "Describe a distribution's shape",
+"level": "OL",
+"question": "The number of text messages sent by eight students in one day is: $1, 2, 2, 3, 3, 4, 5, 24$. Find the mean and the median. What does this tell you about the shape of the distribution?",
+"has": null
+},
+{
+"skill": "stat-back-to-back",
+"title": "Compare data sets with back-to-back stem-and-leaf plots",
+"level": "OL",
+"question": "The times, in seconds, that seven students took to finish a puzzle in two weeks are: Week 1: $28, 35, 21, 47, 33, 24, 42$. Week 2: $36, 22, 31, 18, 38, 29, 23$. Show the data on a back-to-back stem-and-leaf plot and compare the two weeks using the median and the range.",
+"has": null
+},
+{
+"skill": "stat-plan-collect",
+"title": "Design a plan and questions to collect data",
+"level": "OL",
+"question": "A school of $800$ students has four year groups of $200$. The principal wants to find out what students think of the canteen, and plans to ask: \"Don't you agree the canteen food is awful?\" She will survey $40$ students. Rewrite the question fairly and say how many students to ask from each year group.",
+"has": null
+},
+{
+"skill": "stat-percentiles",
+"title": "Use percentiles for relative standing",
+"level": "HL",
+"question": "Twenty students sat a test. Their scores, in order, were:\n$34, 41, 45, 48, 52, 55, 57, 60, 62, 64, 66, 68, 70, 71, 73, 75, 78, 82, 85, 91$\nFind the $80$th percentile score.",
+"has": null
+},
+{
+"skill": "stat-sampling-methods-hl",
+"title": "Define stratified, cluster and quota sampling; role of randomisation and controls",
+"level": "HL",
+"question": "A school has $900$ students: $270$ in 1st year, $225$ in 2nd, $180$ in 3rd, $135$ in 4th and $90$ in 5th. A survey needs a stratified random sample of $60$ students, by year group. Name the method and find how many 3rd years are chosen.",
+"has": null
+},
+{
+"skill": "stat-correlation-calc",
+"title": "Calculate the correlation coefficient (calculator)",
+"level": "HL",
+"question": "Five students recorded hours of revision $x$ and test mark $y$:\n$(1, 3), (2, 5), (3, 4), (4, 7), (5, 9)$.\nFind the correlation coefficient $r$, correct to $3$ decimal places, and say what it shows.",
+"has": null
+},
+{
+"skill": "stat-line-best-fit",
+"title": "Draw a line of best fit by eye and predict",
+"level": "HL",
+"question": "The table shows hours of study $x$ and test mark $y$ for eight students.\n$(1, 13), (2, 17), (3, 19), (4, 25), (5, 27), (6, 31), (7, 37), (8, 39)$\nA line of best fit drawn by eye passes through $(2, 16)$ and $(8, 40)$. Find its equation and use it to predict the mark for a student who studies for $6$ hours.",
+"has": null
+},
+{
+"skill": "stat-outlier-effect",
+"title": "Explain the effect of outliers on summary statistics",
+"level": "HL",
+"question": "Seven students recorded the minutes they spent on homework: $12, 14, 15, 17, 18, 19, 45$. The value $45$ is removed. Find how much the mean falls and how much the median falls. Which one is affected more by the outlier, and why?",
+"has": null
+},
+{
+"skill": "stat-compare-hl",
+"title": "Analyse plots to explain differences in centre and spread",
+"level": "HL",
+"question": "Two classes sat the same test. Five scores are taken from each. Class A: $10, 12, 13, 14, 16$. Class B: $8, 12, 14, 16, 20$. Find the mean and standard deviation of each class and compare the two classes.",
+"has": null
+},
+{
+"skill": "inf-sampling-variability",
+"title": "Recognise how sampling variability affects conclusions",
+"level": "OL",
+"question": "A school has $1200$ students. Two different samples of $50$ students are asked if they walk to school. In the first sample $20$ walk. In the second sample $26$ walk. Find the proportion that walk in each sample. Why do the two answers differ, and what can you say about all $1200$ students?",
+"has": null
+},
+{
+"skill": "inf-margin-of-error",
+"title": "Calculate the margin of error for a proportion",
+"level": "OL",
+"question": "A survey asks $750$ people which radio station they prefer. Find the margin of error, as a percentage correct to one decimal place.",
+"has": null
+},
+{
+"skill": "inf-histogram",
+"title": "Interpret a histogram in terms of distribution",
+"level": "OL",
+"question": "The histogram shows the time, in minutes, that 60 students spent on homework one night. The classes and the number of students in each are: 0–20: 5; 20–40: 22; 40–60: 8; 60–80: 4; 80–100: 21.\n(i) Describe the shape of the histogram.\n(ii) Estimate the mean.\n(iii) What does the histogram tell you about the students?",
+"has": null
+},
+{
+"skill": "inf-interpret",
+"title": "Interpret an analysis and relate it to the original question",
+"level": "OL",
+"question": "A survey of 400 adults found that 54% support a new bike lane. A councillor says: \"The survey proves that more than half of all adults support the bike lane.\"\nFind the margin of error and a 95% confidence interval for the percentage of all adults who support the bike lane. Is the councillor right?",
+"has": null
+},
+{
+"skill": "inf-hypothesis-concept",
+"title": "State null and alternative hypotheses",
+"level": "OL",
+"question": "A cinema says that 45% of its customers buy popcorn. In a random sample of 625 customers, 250 bought popcorn.\nWrite down $H_0$ and $H_1$. Use the margin of error to test the cinema's claim and state your conclusion.",
+"has": null
+},
+{
+"skill": "inf-hypothesis-moe",
+"title": "Test a claim about a proportion using margin of error",
+"level": "OL",
+"question": "A company says that 45% of its customers are under 30. In a random sample of 400 customers, 164 were under 30.\nState $H_0$ and $H_1$. Find the margin of error and a 95% confidence interval. Test the company's claim and state your conclusion.",
+"has": null
+},
+{
+"skill": "inf-sampling-distribution",
+"title": "Use the sampling distribution of the mean",
+"level": "HL",
+"question": "The weight of a bag of flour is normally distributed with mean $500$ g and standard deviation $12$ g. A sample of $36$ bags is taken. Find the probability that the mean weight of the sample is greater than $503$ g.",
+"has": null
+},
+{
+"skill": "inf-ci-proportion",
+"title": "Construct a 95% confidence interval for a proportion",
+"level": "HL",
+"question": "In a random sample of $500$ voters, $120$ say they will vote for a new candidate. Find a $95\\%$ confidence interval for the proportion of all voters who will vote for her. Give the limits to $4$ decimal places.",
+"has": null
+},
+{
+"skill": "inf-ci-mean",
+"title": "Construct a 95% confidence interval for a mean (large sample)",
+"level": "HL",
+"question": "A sample of $64$ batteries has a mean life of $41.5$ hours. The standard deviation of the life of all batteries is $6$ hours. Find a $95\\%$ confidence interval for the mean life of all batteries.",
+"has": null
+},
+{
+"skill": "inf-z-test",
+"title": "Perform a two-tailed z-test of a population mean",
+"level": "HL",
+"question": "A machine is set to fill bags with a mean of $250$ g. The standard deviation is $6$ g. A sample of $36$ bags has a mean of $247.9$ g. Test, at the $5\\%$ level of significance, whether the mean fill has changed. State your hypotheses and your conclusion.",
+"has": null
+},
+{
+"skill": "inf-p-value",
+"title": "Calculate and interpret a p-value",
+"level": "HL",
+"question": "A machine is set to fill bags with a mean mass of $500$ g and a standard deviation of $12$ g. A sample of $36$ bags has a mean mass of $504.6$ g. Test, at the $5\\%$ level, whether the mean mass has changed. Use a $p$-value.",
+"has": null
+},
+{
+"skill": "inf-confidence-width",
+"title": "Relate confidence level, sample size and interval width",
+"level": "HL",
+"question": "In a poll, $40\\%$ of the people sampled support a proposal. A $95\\%$ confidence interval for the proportion who support it must have a margin of error of at most $0.03$. Find the smallest sample size, $n$, that does this.",
+"has": null
+},
+{
+"skill": "stat-z-score",
+"title": "Standardise a value",
+"level": "HL",
+"question": "The marks in an exam are normally distributed with mean $58$ and standard deviation $12$. Find the percentage of students who scored more than $73$.",
+"has": null
+},
+{
+"skill": "stat-empirical-rule",
+"title": "Make decisions with the empirical rule",
+"level": "OL",
+"question": "The lifetime of a battery is normally distributed with mean $60$ hours and standard deviation $5$ hours. Use the empirical rule to find the percentage of batteries that last more than $70$ hours.",
+"has": null
+},
+{
+"skill": "stat-normal-prob",
+"title": "Read probabilities from normal tables",
+"level": "HL",
+"question": "The mass of a bag of sugar is normally distributed with mean $500$ g and standard deviation $8$ g. Find the probability that a bag has mass greater than $512$ g.",
+"has": null
+},
+{
+"skill": "stat-normal-inverse",
+"title": "Work backwards from a normal probability",
+"level": "HL",
+"question": "The marks in an exam are normally distributed with mean $58$ and standard deviation $9$. The top $20\\%$ of students get a distinction. Find the lowest mark that gets a distinction, to the nearest whole number.",
+"has": null
+},
+{
+"skill": "trig-radians",
+"title": "Use radian measure",
+"level": "HL",
+"question": "A sector of a circle has radius $6$ cm and angle $150^\\circ$. (i) Write $150^\\circ$ in radians. (ii) Find the area of the sector, in terms of $\\pi$.",
+"has": null
+},
+{
+"skill": "trig-unit-circle",
+"title": "Define sin θ, cos θ, tan θ for all θ (unit circle)",
+"level": "OL",
+"question": "Find the exact value of $\\cos 210^\\circ$.",
+"has": null
+},
+{
+"skill": "trig-pythag-identity",
+"title": "Use cos²A + sin²A = 1 (formula 1)",
+"level": "HL",
+"question": "Given that $\\sin A = \\frac{8}{17}$ and $90° < A < 180°$, find the value of $\\tan A$.",
+"has": null
+},
+{
+"skill": "trig-exact-values",
+"title": "Use trig ratios in surd form",
+"level": "OL",
+"question": "Find the exact value of $\\sin 135° + \\cos 150°$.",
+"has": null
+},
+{
+"skill": "trig-solve-basic",
+"title": "Solve sin θ = k, cos θ = k, tan θ = k in a range",
+"level": "OL",
+"question": "Solve $2\\sin\\theta + 1 = 0$ for $0° \\le \\theta \\le 360°$.",
+"has": null
+},
+{
+"skill": "trig-graph",
+"title": "Graph sin, cos and tan",
+"level": "HL",
+"question": "Sketch the graph of $f(x) = 3\\cos x + 1$ for $0 \\le x \\le 2\\pi$. Write down its period and its range.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "trig-derive-1",
+"title": "Derive formula 1: cos²A + sin²A = 1",
+"level": "HL",
+"question": "The point $P$ lies on the unit circle, at angle $A$ from the positive $x$-axis. Use the right-angled triangle formed by $P$ to prove that $\\cos^2 A + \\sin^2 A = 1$.",
+"has": null
+},
+{
+"skill": "trig-compound",
+"title": "Apply compound angle formulae (4, 5, 7, 8, 9, 10)",
+"level": "HL",
+"question": "Use a compound angle formula to find the exact value of $\\cos 105°$. Give your answer in surd form.",
+"has": null
+},
+{
+"skill": "trig-solve-general",
+"title": "Solve trig equations giving all solutions",
+"level": "HL",
+"question": "Solve $\\sin 2x = -\\dfrac{1}{2}$ for $0 \\le x \\le 2\\pi$. Give your answers in radians, in terms of $\\pi$.",
+"has": null
+},
+{
+"skill": "trig-graph-abc",
+"title": "Graph and analyse a + b sin cθ / a + b cos cθ",
+"level": "HL",
+"question": "The depth of water in a harbour is modelled by $h(t) = 8 + 3\\cos\\left(\\dfrac{\\pi t}{6}\\right)$ metres, where $t$ is the time in hours. Find the period and the range of $h$.",
+"has": "graph of y=f(x)"
+},
+{
+"skill": "trig-derive-2",
+"title": "Derive formula 2: the sine rule",
+"level": "HL",
+"question": "In triangle $ABC$ the sides opposite $A$, $B$ and $C$ are $a$, $b$ and $c$. Using area $=\\tfrac12 ab\\sin C$, prove that $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$.",
+"has": "figure"
+},
+{
+"skill": "trig-solve-quadratic",
+"title": "Solve trig equations reducible to quadratics",
+"level": "HL",
+"question": "Solve $2\\cos^2\\theta + 3\\sin\\theta = 3$ for $0^\\circ \\le \\theta \\le 360^\\circ$.",
+"has": null
+},
+{
+"skill": "trig-products-sums",
+"title": "Apply product-to-sum and sum-to-product formulae (17–24)",
+"level": "HL",
+"question": "Show that $\\dfrac{\\sin 7x-\\sin x}{\\cos 7x+\\cos x}=\\tan 3x$.",
+"has": null
+},
+{
+"skill": "trig-double",
+"title": "Apply double/half angle formulae (6, 11–16)",
+"level": "HL",
+"question": "$A$ is an acute angle and $\\sin A=\\dfrac{5}{13}$. Find the exact value of $\\sin 2A$ and of $\\cos 2A$.",
+"has": null
+},
+{
+"skill": "trig-derive-3",
+"title": "Derive formula 3: the cosine rule",
+"level": "HL",
+"question": "Put $C$ at the origin and $A$ at $(b, 0)$. The side $CB$ has length $a$ and makes angle $C$ with $CA$. Use the distance formula to derive the cosine rule for $c = AB$.",
+"has": null
+},
+{
+"skill": "trig-prove-identity",
+"title": "Prove a trig identity",
+"level": "HL",
+"question": "Prove that $\\dfrac{\\sin 2A}{1 + \\cos 2A} = \\tan A$.",
+"has": null
+},
+{
+"skill": "trig-derive-4",
+"title": "Derive formula 4: cos(A − B) = cos A cos B + sin A sin B",
+"level": "HL",
+"question": "The points $P(\\cos A, \\sin A)$ and $Q(\\cos B, \\sin B)$ lie on the unit circle with centre $O$. The angle $POQ$ is $A - B$. Find $PQ^2$ in two ways and so derive a formula for $\\cos(A - B)$.",
+"has": null
+},
+{
+"skill": "trig-derive-5",
+"title": "Derive formula 5: cos(A + B) from formula 4",
+"level": "HL",
+"question": "Use the formula $\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B$ to derive a formula for $\\cos(A + B)$.",
+"has": null
+},
+{
+"skill": "trig-derive-7",
+"title": "Derive formula 7: sin(A + B) from formula 4",
+"level": "HL",
+"question": "Using $\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$, show that $\\sin(A-B)=\\sin A\\cos B-\\cos A\\sin B$.",
+"has": null
+},
+{
+"skill": "trig-derive-6",
+"title": "Derive formula 6: cos 2A = cos²A − sin²A from formula 5",
+"level": "HL",
+"question": "Using $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$, show that $\\cos 2A=2\\cos^2 A-1$.",
+"has": null
+},
+{
+"skill": "trig-derive-9",
+"title": "Derive formula 9: tan(A + B) from formulae 5 and 7",
+"level": "HL",
+"question": "Using $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$ and $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$, show that $\\tan 2A=\\dfrac{2\\tan A}{1-\\tan^2 A}$.",
+"has": null
+},
+{
+"skill": "trig-ratios-right",
+"title": "Use sin, cos, tan in a right-angled triangle",
+"level": "JC",
+"question": "A ladder 6 m long leans against a vertical wall. The foot of the ladder is 2 m from the wall. Find the angle the ladder makes with the ground. Give your answer correct to one decimal place.",
+"has": "figure"
+},
+{
+"skill": "trig-pythagoras",
+"title": "Solve 2D problems with Pythagoras",
+"level": "OL",
+"question": "A ladder $7$ m long leans against a vertical wall. Its foot is $2$ m from the wall. How high up the wall does the ladder reach? Give your answer correct to one decimal place.",
+"has": "figure"
+},
+{
+"skill": "trig-elevation",
+"title": "Solve heights-and-distances problems",
+"level": "JC",
+"question": "A tree stands on level ground. From a point $45$ m from its base, the angle of elevation of the top of the tree is $28°$. Find the height of the tree, correct to one decimal place.",
+"has": "figure"
+},
+{
+"skill": "trig-area-triangle",
+"title": "Find the area of a triangle with ½ab sin C",
+"level": "OL",
+"question": "In triangle $ABC$, $|AB| = 9$ cm, $|AC| = 12$ cm and $|\\angle BAC| = 40°$. Find the area of the triangle, correct to one decimal place.",
+"has": "figure"
+},
+{
+"skill": "trig-sine-rule",
+"title": "Apply the sine rule",
+"level": "OL",
+"question": "In triangle $PQR$, $|\\angle P| = 48°$, $|\\angle Q| = 65°$ and $|QR| = 14$ cm. Find $|PR|$, correct to one decimal place.",
+"has": "figure"
+},
+{
+"skill": "trig-cosine-rule",
+"title": "Apply the cosine rule",
+"level": "OL",
+"question": "In triangle $ABC$, $|AB| = 9$ cm, $|AC| = 12$ cm and $|\\angle BAC| = 40^\\circ$. Find $|BC|$, correct to two decimal places.",
+"has": "figure"
+},
+{
+"skill": "trig-triangle-problems",
+"title": "Solve multi-step 2D triangle problems",
+"level": "OL",
+"question": "A field $ABCD$ is split by the diagonal $[AC]$. In triangle $ABC$, $|AB| = 7$ m, $|BC| = 9$ m and $|\\angle ABC| = 70^\\circ$. In triangle $ACD$, $|CD| = 8$ m and $|\\angle ACD| = 50^\\circ$. Find the area of the field, correct to one decimal place.",
+"has": null
+},
+{
+"skill": "trig-sine-ambiguous",
+"title": "Handle the ambiguous case of the sine rule",
+"level": "HL",
+"question": "In triangle $ABC$, $|BC| = 10$ cm, $|AC| = 13$ cm and $|\\angle BAC| = 35^\\circ$. Find the two possible values of $|\\angle ABC|$, correct to one decimal place.",
+"has": null
+},
+{
+"skill": "trig-3d",
+"title": "Solve 3D trigonometry problems",
+"level": "HL",
+"question": "A box has a rectangular base $12$ cm by $5$ cm and a height of $6$ cm. Find the angle between a space diagonal and the base, correct to one decimal place.",
+"has": null
+}
+]

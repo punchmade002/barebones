@@ -1,0 +1,215 @@
+[
+ {
+  "skill": "fn-solve-graphically",
+  "title": "Solve equations approximately from graphs",
+  "show": "parabola y=x²-2x-8 for -4≤x≤6 with the roots on the x-axis and the horizontal line drawn for the value asked highlighted",
+  "example": {
+   "question": "The graph of $f(x) = x^2 - 2x - 8$ is drawn for $-4 \\le x \\le 6$. Use the graph to estimate the values of $x$ for which $f(x) = 5$. Give your answers correct to one decimal place.",
+   "final": "x \\approx \\hl{2}{-2.7} \\ \\text{or} \\ x \\approx \\hl{2}{4.7}",
+   "steps": [
+    {
+     "say": "The equation $f(x) = \\hl{1}{5}$ asks: where is the curve at height $\\hl{1}{5}$?",
+     "rows": [
+      {
+       "aside": "On the graph, find the points of the curve whose $y$ value is $\\hl{1}{5}$."
+      }
+     ]
+    },
+    {
+     "say": "Draw a horizontal line across the graph at $y = \\hl{1}{5}$. Mark each point where it cuts the curve.",
+     "rows": [
+      {
+       "aside": "The line cuts the curve in two places, so there are two answers."
+      }
+     ]
+    },
+    {
+     "say": "From each point, go straight down to the $x$-axis and read the value.",
+     "rows": [
+      {
+       "aside": "Left point: $x \\approx \\hl{2}{-2.7}$."
+      },
+      {
+       "aside": "Right point: $x \\approx \\hl{2}{4.7}$."
+      }
+     ]
+    },
+    {
+     "say": "Put the equation equal to zero and solve it. The answers should agree with your readings.",
+     "rows": [
+      {
+       "l": "x^2 - 2x - 8",
+       "r": "= \\hl{1}{5}"
+      },
+      {
+       "l": "x^2 - 2x - 13",
+       "r": "= 0"
+      },
+      {
+       "aside": "The formula gives $x = 1 \\pm \\sqrt{14}$, which is $\\hl{2}{-2.7}$ and $\\hl{2}{4.7}$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-compare-graphs",
+  "title": "Interpret f(x) = g(x) as a comparison of functions",
+  "show": "parabola y=x² and line y=2x+3 meeting at x=-1 and x=3, with the region where the parabola is below the line marked",
+  "example": {
+   "question": "Let $f(x) = x^2$ and $g(x) = 2x + 3$. Find the values of $x$ for which $f(x) = g(x)$. Hence state the values of $x$ for which $f(x) < g(x)$.",
+   "final": "x = \\hl{1}{-1} \\ \\text{or} \\ x = \\hl{1}{3}; \\quad f(x) < g(x) \\ \\text{for} \\ \\hl{1}{-1} < x < \\hl{1}{3}",
+   "steps": [
+    {
+     "say": "The graphs meet where $f(x) = g(x)$. Write that as an equation and move everything to one side.",
+     "rows": [
+      {
+       "l": "x^2",
+       "r": "= 2x + 3"
+      },
+      {
+       "l": "x^2 - 2x - 3",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Factorise. Each bracket can be zero, so $\\hl{1}{x}$ has two values.",
+     "rows": [
+      {
+       "l": "(x + 1)(x - 3)",
+       "r": "= 0"
+      },
+      {
+       "l": "x + 1",
+       "r": "= 0 \\ \\Rightarrow \\ x = \\hl{1}{-1}"
+      },
+      {
+       "l": "x - 3",
+       "r": "= 0 \\ \\Rightarrow \\ x = \\hl{1}{3}"
+      }
+     ]
+    },
+    {
+     "say": "The graphs cross at $\\hl{1}{-1}$ and $\\hl{1}{3}$, so one is above the other all the way between them. Test one value in that gap.",
+     "rows": [
+      {
+       "aside": "Take $x = 0$. Then $f(0) = 0$ and $g(0) = 3$."
+      },
+      {
+       "aside": "So $f$ is below $g$ between the meeting points."
+      }
+     ]
+    },
+    {
+     "say": "Use strict inequalities. At the meeting points the two are equal, not less.",
+     "rows": [
+      {
+       "aside": "$f(x) < g(x)$ when $\\hl{1}{-1} < x < \\hl{1}{3}$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-transformations",
+  "title": "Transform a graph",
+  "show": "parabola y=x²-3x and its image moved 2 right and 4 up with arrows showing the shift",
+  "example": {
+   "question": "Let $f(x) = x^2 - 3x$. The graph of $f$ is moved 2 units to the right and then 4 units up. Write the equation of the new graph, $g(x)$, in the form $x^2 + bx + c$.",
+   "final": "g(x) = x^2 - 7x + 14",
+   "steps": [
+    {
+     "say": "A move of 2 to the right replaces every $x$ with $\\hl{1}{x - 2}$. It acts inside the brackets, so it works the opposite way to what you expect.",
+     "rows": [
+      {
+       "l": "f(x - 2)",
+       "r": "= (\\hl{1}{x - 2})^2 - 3(\\hl{1}{x - 2})"
+      }
+     ]
+    },
+    {
+     "say": "Multiply out both brackets, then collect like terms.",
+     "rows": [
+      {
+       "l": "f(x - 2)",
+       "r": "= x^2 - 4x + 4 - 3x + 6"
+      },
+      {
+       "l": "f(x - 2)",
+       "r": "= x^2 - 7x + 10"
+      }
+     ]
+    },
+    {
+     "say": "A move up of 4 adds $\\hl{2}{4}$ to the whole function. It acts outside the brackets, so it does what you expect.",
+     "rows": [
+      {
+       "l": "g(x)",
+       "r": "= x^2 - 7x + 10 + \\hl{2}{4}"
+      },
+      {
+       "l": "g(x)",
+       "r": "= x^2 - 7x + 14"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-inverse-sketch",
+  "title": "Sketch the inverse from a graph",
+  "show": "curve y=2^x, its reflection y=log2 x, and the mirror line y=x, with a pair of corresponding points swapped",
+  "example": {
+   "question": "The graph of $f(x) = 2^x$ is shown. Sketch the graph of $f^{-1}$ by reflecting in the line $y = x$, and write down $f^{-1}(x)$.",
+   "final": "f^{-1}(x) = \\log_2 x",
+   "steps": [
+    {
+     "say": "Read three points off the graph of $f$. Use easy ones.",
+     "rows": [
+      {
+       "l": "f(0)",
+       "r": "= 2^0 = 1"
+      },
+      {
+       "l": "f(1)",
+       "r": "= 2^1 = 2"
+      },
+      {
+       "l": "f(3)",
+       "r": "= 2^3 = 8"
+      },
+      {
+       "aside": "The points are $(0, 1)$, $(1, 2)$ and $(3, 8)$."
+      }
+     ]
+    },
+    {
+     "say": "A reflection in $y = x$ swaps $x$ and $y$. Each point $(a, b)$ becomes $(b, a)$.",
+     "rows": [
+      {
+       "aside": "$(0, 1) \\to (\\hl{1}{1}, \\hl{2}{0})$"
+      },
+      {
+       "aside": "$(1, 2) \\to (\\hl{1}{2}, \\hl{2}{1})$"
+      },
+      {
+       "aside": "$(3, 8) \\to (\\hl{1}{8}, \\hl{2}{3})$"
+      }
+     ]
+    },
+    {
+     "say": "Draw the line $y = x$, plot the new points and join them with a smooth curve. Label it $f^{-1}$. The curve never touches the $y$-axis.",
+     "rows": [
+      {
+       "aside": "The inverse of $2^x$ is the **log** to base $2$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

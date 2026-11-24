@@ -1,0 +1,256 @@
+[
+ {
+  "skill": "prob-selection-restrictions",
+  "problems": [
+   {
+    "question": "A choir of 6 singers is to be chosen from 5 sopranos and 6 altos.\nThe choir must contain exactly 4 altos.\nIn how many ways can the choir be chosen?",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Choose the altos",
+       "lines": [
+        {
+         "text": "Choose 4 of the 6 altos."
+        },
+        {
+         "tex": "\\binom{6}{4} &= \\frac{6\\times 5\\times 4\\times 3}{4\\times 3\\times 2\\times 1}",
+         "sym": "binomial(6,4)",
+         "new": true
+        },
+        {
+         "tex": "&= 15",
+         "sym": "15"
+        }
+       ]
+      },
+      {
+       "title": "Choose the sopranos",
+       "lines": [
+        {
+         "text": "The other 2 singers are sopranos. Choose 2 of the 5 sopranos."
+        },
+        {
+         "tex": "\\binom{5}{2} &= \\frac{5\\times 4}{2\\times 1}",
+         "sym": "binomial(5,2)",
+         "new": true
+        },
+        {
+         "tex": "&= 10",
+         "sym": "10"
+        }
+       ]
+      },
+      {
+       "title": "Multiply the two choices",
+       "lines": [
+        {
+         "tex": "\\binom{6}{4}\\times\\binom{5}{2} &= 15\\times 10",
+         "sym": "15*10",
+         "new": true
+        },
+        {
+         "tex": "&= 150",
+         "sym": "150"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "150"
+    },
+    "finalSym": "150",
+    "answerSym": "binomial(6,4)*binomial(5,2)"
+   }
+  ]
+ },
+ {
+  "skill": "quad-form-from-roots",
+  "problems": [
+   {
+    "question": "Write down a quadratic equation of the form $x^2 + bx + c = 0$ whose roots are $x = -1$ and $x = 6$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the factors from the roots",
+       "lines": [
+        {
+         "text": "The roots are $-1$ and $6$, so $(x + 1)$ and $(x - 6)$ are the factors."
+        },
+        {
+         "tex": "(x + 1)(x - 6) &= 0",
+         "sym": "Eq((x+1)*(x-6),0)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Expand the brackets",
+       "lines": [
+        {
+         "tex": "x^2 - 6x + x - 6 &= 0",
+         "sym": "Eq(x**2-6*x+x-6,0)"
+        },
+        {
+         "tex": "x^2 - 5x - 6 &= 0",
+         "sym": "Eq(x**2-5*x-6,0)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x^2 - 5x - 6 = 0"
+    },
+    "finalSym": "Eq(x**2 - 5*x - 6, 0)",
+    "answerSym": "Eq(expand((x + 1)*(x - 6)), 0)"
+   }
+  ]
+ },
+ {
+  "skill": "seq-arith-find-ad",
+  "problems": [
+   {
+    "question": "The $n$th term of an arithmetic sequence is $T_n = 3 - 4n$.\nFind the first term $a$ and the common difference $d$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute n = 1 and n = 2",
+       "lines": [
+        {
+         "tex": "T_1 &= 3 - 4(1)",
+         "sym": "3 - 4*1",
+         "new": true
+        },
+        {
+         "tex": "&= -1",
+         "sym": "-1"
+        },
+        {
+         "tex": "T_2 &= 3 - 4(2)",
+         "sym": "3 - 4*2",
+         "new": true
+        },
+        {
+         "tex": "&= -5",
+         "sym": "-5"
+        }
+       ]
+      },
+      {
+       "title": "Read off a and subtract to find d",
+       "lines": [
+        {
+         "tex": "a &= T_1 = -1",
+         "sym": "-1",
+         "new": true
+        },
+        {
+         "tex": "d &= T_2 - T_1",
+         "sym": "-5 - (-1)",
+         "new": true
+        },
+        {
+         "tex": "&= -5 + 1",
+         "sym": "-5 + 1"
+        },
+        {
+         "tex": "&= -4",
+         "sym": "-4"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a = -1,\\ d = -4"
+    },
+    "finalSym": "[-1, -4]",
+    "answerSym": "[3 - 4*1, (3 - 4*2) - (3 - 4*1)]"
+   }
+  ]
+ },
+ {
+  "skill": "seq-classify",
+  "problems": [
+   {
+    "question": "Is the sequence $81, -27, 9, -3, \\dots$ arithmetic, geometric or neither?\nGive a reason and state the common ratio if there is one.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Test the differences",
+       "lines": [
+        {
+         "tex": "T_2 - T_1 &= -27 - 81",
+         "sym": "-27 - 81",
+         "new": true
+        },
+        {
+         "tex": "&= -108",
+         "sym": "-108"
+        },
+        {
+         "tex": "T_3 - T_2 &= 9 - (-27)",
+         "sym": "9 - (-27)",
+         "new": true
+        },
+        {
+         "tex": "&= 36",
+         "sym": "36"
+        },
+        {
+         "text": "The differences are not the same, so it is not arithmetic."
+        }
+       ]
+      },
+      {
+       "title": "Test the ratios",
+       "lines": [
+        {
+         "tex": "\\frac{T_2}{T_1} &= \\frac{-27}{81}",
+         "sym": "Rational(-27,81)",
+         "new": true
+        },
+        {
+         "tex": "&= -\\frac{1}{3}",
+         "sym": "Rational(-1,3)"
+        },
+        {
+         "tex": "\\frac{T_3}{T_2} &= \\frac{9}{-27}",
+         "sym": "Rational(9,-27)",
+         "new": true
+        },
+        {
+         "tex": "&= -\\frac{1}{3}",
+         "sym": "Rational(-1,3)"
+        },
+        {
+         "tex": "\\frac{T_4}{T_3} &= \\frac{-3}{9}",
+         "sym": "Rational(-3,9)",
+         "new": true
+        },
+        {
+         "tex": "&= -\\frac{1}{3}",
+         "sym": "Rational(-1,3)"
+        }
+       ]
+      },
+      {
+       "title": "Conclude",
+       "lines": [
+        {
+         "text": "The ratio is the same each time, so the sequence is geometric with common ratio $r = -\\frac{1}{3}$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "r = -\\frac{1}{3}"
+    },
+    "finalSym": "Rational(-1, 3)",
+    "answerSym": "Rational(-27, 81)"
+   }
+  ]
+ }
+]

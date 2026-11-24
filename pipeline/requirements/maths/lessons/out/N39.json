@@ -1,0 +1,393 @@
+[
+{"skill": "diff-sketch-derivative", "problems": [
+ {"part": "practice-diff-sketch-derivative-1", "note": null,
+  "legend": {"1": "x where f′ = 0 (a root of f′)", "2": "y-value of the extra point of f′ (not a root)"},
+  "steps": [
+   {"ask": "What is the slope of f at a turning point, and so what is f′ there?",
+    "title": "Turning points of $f$ give the roots of $f'$",
+    "lines": [
+     {"text": "At a turning point the slope of $f$ is $0$, so $f'(\\hl{1}{-1}) = 0$ and $f'(\\hl{1}{3}) = 0$."},
+     {"text": "The graph of $f'$ crosses the $x$-axis at $(\\hl{1}{-1}, 0)$ and $(\\hl{1}{3}, 0)$."}
+    ]},
+   {"ask": "Where does a graph cross the y-axis? Which x-value do you put into f′(x)?",
+    "title": "Find the $y$-intercept of $f'$",
+    "lines": [
+     {"tex": "f'(x) &= 3x^2 - 6x - 9"},
+     {"tex": "f'(0) &= \\hl{2}{-9}"},
+     {"text": "The graph of $f'$ crosses the $y$-axis at $(0, \\hl{2}{-9})$."}
+    ]}
+  ],
+  "final": "(\\hl{1}{-1}, 0),\\ (\\hl{1}{3}, 0),\\ (0, \\hl{2}{-9})",
+  "graph": {"f": "3*x**2 - 6*x - 9", "box": [-2, 4, 4, -13], "tangent": false, "points": [{"x": -1, "y": 0, "name": "(-1, 0)"}, {"x": 3, "y": 0, "name": "(3, 0)"}, {"x": 0, "y": -9, "name": "(0, -9)"}], "line": null, "slots": {"x": 1, "y": 2, "line": null}}},
+ {"part": "practice-diff-sketch-derivative-3", "note": "The question gives no formula for $f$, only its turning points and the slope at its inflection point. The roots of $f'$ are found the same way, and one extra point gives the lowest point of $f'$ in place of the $y$-intercept. The three points to plot are the same kind as before.",
+  "legend": {"1": "x where f′ = 0 (a root of f′)", "2": "y-value of the extra point of f′ (not a root)"},
+  "steps": [
+   {"ask": "Where are the turning points of f, and what does that tell you about f′ at those x-values?",
+    "title": "Turning points of $f$ give the roots of $f'$",
+    "lines": [
+     {"text": "At a turning point the slope of $f$ is $0$, so $f'(\\hl{1}{1}) = 0$ and $f'(\\hl{1}{5}) = 0$."},
+     {"text": "The graph of $f'$ crosses the $x$-axis at $(\\hl{1}{1}, 0)$ and $(\\hl{1}{5}, 0)$."}
+    ]},
+   {"ask": "Where is the lowest point of a U-shape, compared with its two roots? Which x-value is that?",
+    "title": "Use the point of inflection",
+    "lines": [
+     {"text": "$f$ is a cubic, so $f'$ is a quadratic: a U-shape, with its lowest point halfway between its roots."},
+     {"tex": "x &= \\frac{1 + 5}{2} = 3"},
+     {"text": "This is the inflection point of $f$, where the slope is least, and it is given as $\\hl{2}{-4}$: $f'(3) = \\hl{2}{-4}$."},
+     {"text": "The lowest point of the graph of $f'$ is $(3, \\hl{2}{-4})$."}
+    ]}
+  ],
+  "final": "(\\hl{1}{1}, 0),\\ (\\hl{1}{5}, 0),\\ (3, \\hl{2}{-4})",
+  "graph": {"f": "x**2 - 6*x + 5", "box": [-0.5, 6, 6.5, -5.5], "tangent": false, "points": [{"x": 1, "y": 0, "name": "(1, 0)"}, {"x": 5, "y": 0, "name": "(5, 0)"}, {"x": 3, "y": -4, "name": "lowest (3, -4)"}], "line": null, "slots": {"x": 1, "y": 2, "line": null}}},
+ {"part": "maths-pp-2022-higher-p1-q6#(c)", "note": "This is a different exam part with a peak at $(2, 1)$ and five points to plot, not three. The method is the same: the turning points give the roots of $p'$, and the other points come from the shape of the quadratic.",
+  "legend": {"1": "x where f′ = 0 (a root of f′)", "2": "y-value of the extra point of f′ (not a root)"},
+  "steps": [
+   {"ask": "What is the gradient of p(x) at a turning point? Use that to find two points on p′(x).",
+    "title": "Read the gradient of p(x) at key points",
+    "lines": [
+     {"text": "The value of $p'(x)$ is the gradient of $p(x)$."},
+     {"text": "At $x = \\hl{1}{1}$ and $x = \\hl{1}{3}$, $p(x)$ has a turning point, so the gradient is $0$: $p'(\\hl{1}{1}) = 0$ and $p'(\\hl{1}{3}) = 0$."},
+     {"text": "$p(x)$ is steepest uphill at its inflection point $x = 2$, where the gradient is at its maximum, so $p'(2) = \\hl{2}{1}$."},
+     {"text": "We are given $p'(0) = \\hl{2}{-3}$."}
+    ]},
+   {"ask": "Quadratics are symmetric about their peak. Which x-value mirrors x = 0 across the peak?",
+    "title": "Use the shape of p'(x) to find the last point",
+    "lines": [
+     {"text": "$p(x)$ is a cubic, so $p'(x)$ is a quadratic: a U-shape upside down, with its peak at $(2, \\hl{2}{1})$."},
+     {"text": "A quadratic is symmetric about its peak, so $x = 4$ matches $x = 0$: $p'(4) = \\hl{2}{-3}$."}
+    ]},
+   {"ask": "Which points do you now have, and how would you join them into one smooth curve?",
+    "title": "Plot the points and join them",
+    "lines": [
+     {"text": "Plot $(0, \\hl{2}{-3})$, $(\\hl{1}{1}, 0)$, $(2, \\hl{2}{1})$, $(\\hl{1}{3}, 0)$ and $(4, \\hl{2}{-3})$, then draw a smooth curve through them."}
+    ]}
+  ],
+  "final": "\\text{Quadratic through } (0,\\hl{2}{-3}),\\ (\\hl{1}{1},0),\\ (2,\\hl{2}{1}),\\ (\\hl{1}{3},0),\\ (4,\\hl{2}{-3})",
+  "graph": {"f": "-x**2 + 4*x - 3", "box": [-0.5, 2, 4.5, -4], "tangent": false, "points": [{"x": 1, "y": 0, "name": "root (1, 0)"}, {"x": 3, "y": 0, "name": "root (3, 0)"}, {"x": 2, "y": 1, "name": "peak (2, 1)"}, {"x": 0, "y": -3, "name": "(0, -3)"}, {"x": 4, "y": -3, "name": "(4, -3)"}], "line": null, "slots": {"x": 1, "y": 2, "line": null}}}
+ ]},
+{"skill": "diff-slope-tangent", "problems": [
+ {"part": "maths-pp-2023-ordinary-p1-q4#(b)(ii)", "note": null,
+  "legend": {"1": "x-value where the tangent touches the curve", "2": "the slope of the tangent (its value)", "3": "y-value of the point on the curve", "4": "the answer: the tangent equation"},
+  "steps": [
+   {"ask": "What does the slope of the tangent equal in terms of h′(x)? Which x-value do you substitute?",
+    "title": "Find the slope at x = 2",
+    "lines": [
+     {"text": "The slope of the tangent is $h'(\\hl{1}{2})$."},
+     {"tex": "h'(\\hl{1}{2}) &= 3(\\hl{1}{2})^2 + 4(\\hl{1}{2}) - 1"},
+     {"tex": "&= 12 + 8 - 1"},
+     {"tex": "&= \\hl{2}{19}"}
+    ]},
+   {"ask": "You know the slope and one point on the line. Which form of the line equation uses both?",
+    "title": "Use the point-slope formula",
+    "lines": [
+     {"text": "With $m = \\hl{2}{19}$ and point $(\\hl{1}{2}, \\hl{3}{6})$: $y - y_1 = m(x - x_1)$."},
+     {"tex": "y - \\hl{3}{6} &= \\hl{2}{19}(x - \\hl{1}{2})"}
+    ]},
+   {"ask": "The question asks for the form ax + by + c = 0. How do you move every term to one side?",
+    "title": "Rearrange (optional)",
+    "lines": [
+     {"tex": "y - \\hl{3}{6} &= 19x - 38"},
+     {"tex": "0 &= \\hl{4}{19x - y - 32}"}
+    ]}
+  ],
+  "final": "\\hl{4}{19x - y - 32} = 0",
+  "graph": {"f": "x**3 + 2*x**2 - x - 8", "box": [0, 36, 3, -9], "tangent": true, "points": [{"x": 2, "y": 6, "name": "(2, 6)"}], "line": [[2, 6], [3, 25]], "slots": {"x": 1, "y": 3, "line": 4}}},
+ {"part": "practice-diff-slope-tangent-1", "note": "Problem 1 gave the point on the curve. Here only $x = -1$ is given, so the $y$-value is read from the curve, and the answer is written as $y = mx + c$. Everything else is the same: differentiate, substitute the $x$-value into the derivative, then use the point-slope formula.",
+  "legend": {"1": "x-value where the tangent touches the curve", "2": "the slope of the tangent (its value)", "3": "y-value of the point on the curve", "4": "the answer: the tangent equation"},
+  "steps": [
+   {"ask": "What is dy/dx for y = x³ − 4x, and which x-value do you substitute into it?",
+    "title": "Find the slope at x = -1",
+    "lines": [
+     {"text": "Differentiate, then substitute $x = \\hl{1}{-1}$."},
+     {"tex": "\\frac{dy}{dx} &= 3x^2 - 4"},
+     {"tex": "m &= 3(\\hl{1}{-1})^2 - 4 = \\hl{2}{-1}"}
+    ]},
+   {"ask": "What is the y-value of the curve at x = −1? Which expression gives it?",
+    "title": "Find the point on the curve",
+    "lines": [
+     {"tex": "y &= (\\hl{1}{-1})^3 - 4(\\hl{1}{-1}) = \\hl{3}{3}"},
+     {"text": "The point is $(\\hl{1}{-1}, \\hl{3}{3})$."}
+    ]},
+   {"ask": "You have a slope and a point on the line. Which formula gives the line, and which values go in it?",
+    "title": "Use the point-slope formula",
+    "lines": [
+     {"text": "With $m = \\hl{2}{-1}$ and point $(\\hl{1}{-1}, \\hl{3}{3})$: $y - y_1 = m(x - x_1)$."},
+     {"tex": "y - \\hl{3}{3} &= \\hl{2}{-1}(x + 1)"},
+     {"tex": "y &= \\hl{4}{-x + 2}"}
+    ]}
+  ],
+  "final": "y = \\hl{4}{-x + 2}",
+  "graph": {"f": "x**3 - 4*x", "box": [-2.5, 6, 2.5, -6], "tangent": true, "points": [{"x": -1, "y": 3, "name": "(-1, 3)"}], "line": [[-1, 3], [0, 2]], "slots": {"x": 1, "y": 3, "line": 4}}},
+ {"part": "maths-pp-2016-ordinary-p1-q4#(c)(ii)", "note": "Problem 2 found the slope from the derivative. Here the slope $3$ is given, so there is no differentiation step, and the line is built straight from the point-slope formula.",
+  "legend": {"1": "x-value where the tangent touches the curve", "2": "the slope of the tangent (its value)", "3": "y-value of the point on the curve", "4": "the answer: the tangent equation"},
+  "steps": [
+   {"ask": "Which formula gives a line when you know one point and its slope?",
+    "title": "Use the point and the slope",
+    "lines": [
+     {"text": "The slope is $m = \\hl{2}{3}$ and the point is $(\\hl{1}{1}, \\hl{3}{7})$."},
+     {"tex": "y - y_1 &= m(x - x_1)"}
+    ]},
+   {"ask": "Which values from the point and the slope go in for m, x₁ and y₁?",
+    "title": "Substitute",
+    "lines": [
+     {"tex": "y - \\hl{3}{7} &= \\hl{2}{3}(x - \\hl{1}{1})"}
+    ]},
+   {"ask": "What is 3 multiplied by each term inside the bracket?",
+    "title": "Multiply out the bracket",
+    "lines": [
+     {"tex": "y - \\hl{3}{7} &= \\hl{2}{3}x - 3"}
+    ]},
+   {"ask": "What do you add to both sides to leave y on its own?",
+    "title": "Add 7 to both sides",
+    "lines": [
+     {"tex": "y &= \\hl{4}{3x + 4}"}
+    ]}
+  ],
+  "final": "y = \\hl{4}{3x + 4}",
+  "graph": null}
+ ]},
+{"skill": "fin-estimate", "problems": [
+ {"part": "practice-fin-estimate-1", "note": null,
+  "legend": {"1": "the exact answer", "2": "the estimate (rounded value)"},
+  "steps": [
+   {"ask": "How do you find the total cost of 198 books at €4.95 each?",
+    "title": "Calculate the exact cost",
+    "lines": [
+     {"tex": "198 \\times 4.95 &= \\hl{1}{980.1}"}
+    ]},
+   {"ask": "Which easy round numbers are close to 198 and 4.95? What do you get when you multiply them?",
+    "title": "Round each number and estimate",
+    "lines": [
+     {"tex": "198 &\\approx 200"},
+     {"tex": "4.95 &\\approx 5"},
+     {"tex": "200 \\times 5 &= \\hl{2}{1000}"}
+    ]},
+   {"ask": "Is the estimate close to the exact cost? What does that tell you?",
+    "title": "Compare",
+    "lines": [
+     {"text": "The estimate €$\\hl{2}{1000}$ is close to the exact cost €$\\hl{1}{980.10}$, so the answer is sensible."}
+    ]}
+  ],
+  "final": "\\text{€}\\hl{1}{980.10} \\text{ (estimate €}\\hl{2}{1000}\\text{)}",
+  "graph": null},
+ {"part": "practice-fin-estimate-2", "note": "Same steps as problem 1. The calculation is a division instead of a multiplication, and the numbers are rounded to 1 significant figure, as the question asks.",
+  "legend": {"1": "the exact answer", "2": "the estimate (rounded value)"},
+  "steps": [
+   {"ask": "Which operation finds the time when you know the total volume and the rate of filling?",
+    "title": "Calculate the exact time",
+    "lines": [
+     {"tex": "612.5 \\div 4.9 &= \\hl{1}{125}"}
+    ]},
+   {"ask": "Which numbers with one significant figure are close to 612.5 and 4.9? What is the estimate?",
+    "title": "Round each number and estimate",
+    "lines": [
+     {"tex": "612.5 &\\approx 600"},
+     {"tex": "4.9 &\\approx 5"},
+     {"tex": "600 \\div 5 &= \\hl{2}{120}"}
+    ]},
+   {"ask": "How close is the estimate to the exact time? Does that make sense?",
+    "title": "Compare",
+    "lines": [
+     {"text": "The estimate of $\\hl{2}{120}$ seconds is close to the exact time of $\\hl{1}{125}$ seconds, so the answer is sensible."}
+    ]}
+  ],
+  "final": "\\hl{1}{125} \\text{ seconds (estimate } \\hl{2}{120}\\text{ seconds)}",
+  "graph": null},
+ {"part": "maths-pp-2017-ordinary-p2-q7#(b)(ii)", "note": "The method is the same, but the estimate is a rounded final answer rather than rounded inputs, and there is no compare step. The exact division comes first, then the rounding.",
+  "legend": {"1": "the exact answer", "2": "the estimate (rounded value)"},
+  "steps": [
+   {"ask": "How many litres do you get when you divide the area by the area one litre covers?",
+    "title": "Divide the area by the area one litre covers",
+    "lines": [
+     {"tex": "\\text{Litres} &= \\frac{497.77}{12.25}"},
+     {"tex": "&= \\hl{1}{40.63}"}
+    ]},
+   {"ask": "The answer needs a whole number of litres. How do you round 40.63 to the nearest whole number?",
+    "title": "Round to the nearest litre",
+    "lines": [
+     {"tex": "&\\approx \\hl{2}{41}"}
+    ]}
+  ],
+  "final": "\\hl{2}{41}\\text{ litres}",
+  "graph": null}
+ ]},
+{"skill": "fin-mortgage-derive", "problems": [
+ {"part": "maths-pp-2017-higher-p1-q8#(a)", "note": null,
+  "legend": {"1": "the loan, P", "2": "the repayment, A"},
+  "steps": [
+   {"ask": "What is one repayment of A, made k periods from now, worth today? What must the sum of all these values equal?",
+    "title": "Write the loan as the sum of the repayments in today's money",
+    "lines": [
+     {"text": "A repayment $\\hl{2}{A}$ made at the end of period $k$ is worth $\\frac{\\hl{2}{A}}{(1+i)^k}$ today. Today's value of all $t$ repayments is the loan $\\hl{1}{P}$."},
+     {"tex": "\\hl{1}{P} &= \\frac{\\hl{2}{A}}{1+i} + \\frac{\\hl{2}{A}}{(1+i)^2} + \\cdots + \\frac{\\hl{2}{A}}{(1+i)^t}"}
+    ]},
+   {"ask": "What kind of sequence are these terms? Which formula gives the sum of its first t terms?",
+    "title": "Use the sum of a geometric series",
+    "lines": [
+     {"text": "This is a geometric series with first term $a = \\frac{\\hl{2}{A}}{1+i}$, common ratio $r = \\frac{1}{1+i}$ and $t$ terms, so $S_t = \\frac{a(1 - r^t)}{1 - r}$."},
+     {"tex": "\\hl{1}{P} &= \\frac{\\frac{\\hl{2}{A}}{1+i}\\left(1 - \\left(\\frac{1}{1+i}\\right)^t\\right)}{1 - \\frac{1}{1+i}}"},
+     {"tex": "&= \\frac{\\frac{\\hl{2}{A}}{1+i}\\left(1 - \\frac{1}{(1+i)^t}\\right)}{1 - \\frac{1}{1+i}}"}
+    ]},
+   {"ask": "What is 1 minus 1/(1+i) written as a single fraction?",
+    "title": "Simplify the denominator",
+    "lines": [
+     {"tex": "1 - \\frac{1}{1+i} &= \\frac{1+i-1}{1+i}"},
+     {"tex": "&= \\frac{i}{1+i}"}
+    ]},
+   {"ask": "What happens when you divide by a fraction? Which factor cancels?",
+    "title": "Cancel the factor 1/(1+i) and tidy up",
+    "lines": [
+     {"tex": "\\hl{1}{P} &= \\frac{\\frac{\\hl{2}{A}}{1+i}\\left(1 - \\frac{1}{(1+i)^t}\\right)}{\\frac{i}{1+i}}"},
+     {"tex": "&= \\frac{\\hl{2}{A}\\left(1 - \\frac{1}{(1+i)^t}\\right)}{i}"},
+     {"tex": "&= \\frac{\\hl{2}{A}\\left(\\frac{(1+i)^t - 1}{(1+i)^t}\\right)}{i}"},
+     {"tex": "&= \\frac{\\hl{2}{A}\\left((1+i)^t - 1\\right)}{i(1+i)^t}"}
+    ]},
+   {"ask": "What do you multiply both sides by to clear the fractions? Then what do you divide by to isolate A?",
+    "title": "Make A the subject",
+    "lines": [
+     {"text": "Multiply both sides by $i(1+i)^t$, then divide both sides by $(1+i)^t - 1$."},
+     {"tex": "\\hl{1}{P}\\, i(1+i)^t &= \\hl{2}{A}\\left((1+i)^t - 1\\right)"},
+     {"tex": "\\hl{2}{A} &= \\frac{\\hl{1}{P}\\, i(1+i)^t}{(1+i)^t - 1}"}
+    ]}
+  ],
+  "final": "\\hl{2}{A} = \\frac{\\hl{1}{P}\\, i(1+i)^t}{(1+i)^t - 1}",
+  "graph": null},
+ {"part": "practice-fin-mortgage-derive-2", "note": "Same method and same timing as problem 1: each repayment is made at the end of a period and discounted for each period. Only the letters change, so $L$ is the loan, $r$ is the annual rate, $n$ is the number of years, and the ratio is written as $\\rho$.",
+  "legend": {"1": "the loan, L", "2": "the repayment, A"},
+  "steps": [
+   {"ask": "What is one annual repayment worth today if it is made at the end of year k?",
+    "title": "Write the loan as the sum of the repayments in today's money",
+    "lines": [
+     {"text": "A repayment $\\hl{2}{A}$ made at the end of year $k$ is worth $\\frac{\\hl{2}{A}}{(1+r)^k}$ today. Today's value of all $n$ repayments is the loan $\\hl{1}{L}$."},
+     {"tex": "\\hl{1}{L} &= \\frac{\\hl{2}{A}}{1+r} + \\frac{\\hl{2}{A}}{(1+r)^2} + \\cdots + \\frac{\\hl{2}{A}}{(1+r)^n}"}
+    ]},
+   {"ask": "Which formula sums a geometric series? What are the first term and the common ratio here?",
+    "title": "Use the sum of a geometric series",
+    "lines": [
+     {"text": "Geometric with first term $a = \\frac{\\hl{2}{A}}{1+r}$, common ratio $\\frac{1}{1+r}$ and $n$ terms, so $S_n = \\frac{a(1 - \\rho^n)}{1 - \\rho}$ with $\\rho = \\frac{1}{1+r}$."},
+     {"tex": "\\hl{1}{L} &= \\frac{\\frac{\\hl{2}{A}}{1+r}\\left(1 - \\frac{1}{(1+r)^n}\\right)}{1 - \\frac{1}{1+r}}"}
+    ]},
+   {"ask": "What is 1 minus 1/(1+r) as a single fraction?",
+    "title": "Simplify the denominator",
+    "lines": [
+     {"tex": "1 - \\frac{1}{1+r} &= \\frac{1+r-1}{1+r}"},
+     {"tex": "&= \\frac{r}{1+r}"}
+    ]},
+   {"ask": "Which factor can you cancel from the top and bottom of the big fraction?",
+    "title": "Cancel the factor 1/(1+r) and tidy up",
+    "lines": [
+     {"tex": "\\hl{1}{L} &= \\frac{\\hl{2}{A}\\left(1 - \\frac{1}{(1+r)^n}\\right)}{r}"},
+     {"tex": "&= \\frac{\\hl{2}{A}\\left((1+r)^n - 1\\right)}{r(1+r)^n}"}
+    ]},
+   {"ask": "What do you multiply both sides by to clear the fractions, then what do you divide by to get A alone?",
+    "title": "Make A the subject",
+    "lines": [
+     {"text": "Multiply both sides by $r(1+r)^n$, then divide both sides by $(1+r)^n - 1$."},
+     {"tex": "\\hl{1}{L}\\,r(1+r)^n &= \\hl{2}{A}\\left((1+r)^n - 1\\right)"},
+     {"tex": "\\hl{2}{A} &= \\frac{\\hl{1}{L}\\,r(1+r)^n}{(1+r)^n - 1}"}
+    ]}
+  ],
+  "final": "\\hl{2}{A} = \\frac{\\hl{1}{L}\\,r(1+r)^n}{(1+r)^n - 1}",
+  "graph": null},
+ {"part": "practice-fin-mortgage-derive-1", "note": "Compared with problem 2, the first repayment is made straight away, so it is not discounted, and the powers run from $0$ to $t-1$, giving $(1+i)^{t-1}$ in the answer. The letters change back to $P$, $i$ and $t$ for monthly periods.",
+  "legend": {"1": "the loan, P", "2": "the repayment, A"},
+  "steps": [
+   {"ask": "Is the first repayment discounted at all? What is it worth today?",
+    "title": "Write the loan as the sum of the repayments in today's money",
+    "lines": [
+     {"text": "The first repayment is made now, so it is worth $\\hl{2}{A}$. A repayment made after $k$ months is worth $\\frac{\\hl{2}{A}}{(1+i)^k}$ today."},
+     {"tex": "\\hl{1}{P} &= \\hl{2}{A} + \\frac{\\hl{2}{A}}{1+i} + \\frac{\\hl{2}{A}}{(1+i)^2} + \\cdots + \\frac{\\hl{2}{A}}{(1+i)^{t-1}}"}
+    ]},
+   {"ask": "What is the first term of this series now, and what is the common ratio?",
+    "title": "Identify the geometric series",
+    "lines": [
+     {"text": "Geometric with first term $a = \\hl{2}{A}$, common ratio $r = \\frac{1}{1+i}$ and $t$ terms."},
+     {"tex": "\\hl{1}{P} &= \\frac{\\hl{2}{A}\\left(1 - \\left(\\frac{1}{1+i}\\right)^t\\right)}{1 - \\frac{1}{1+i}}"}
+    ]},
+   {"ask": "What is 1 minus 1/(1+i) written as one fraction?",
+    "title": "Simplify the denominator",
+    "lines": [
+     {"tex": "1 - \\frac{1}{1+i} &= \\frac{1+i-1}{1+i}"},
+     {"tex": "&= \\frac{i}{1+i}"}
+    ]},
+   {"ask": "What do you get when you divide by a fraction, and which factors cancel?",
+    "title": "Divide by the fraction and tidy up",
+    "lines": [
+     {"tex": "\\hl{1}{P} &= \\frac{\\hl{2}{A}(1+i)\\left(1 - \\frac{1}{(1+i)^t}\\right)}{i}"},
+     {"tex": "&= \\frac{\\hl{2}{A}(1+i)\\left((1+i)^t - 1\\right)}{i(1+i)^t}"},
+     {"tex": "&= \\frac{\\hl{2}{A}\\left((1+i)^t - 1\\right)}{i(1+i)^{t-1}}"}
+    ]},
+   {"ask": "What must you multiply by to clear the fraction, and then what must you divide by?",
+    "title": "Make A the subject",
+    "lines": [
+     {"text": "Multiply both sides by $i(1+i)^{t-1}$, then divide by $(1+i)^t - 1$."},
+     {"tex": "\\hl{2}{A} &= \\frac{\\hl{1}{P}\\,i(1+i)^{t-1}}{(1+i)^t - 1}"}
+    ]}
+  ],
+  "final": "\\hl{2}{A} = \\frac{\\hl{1}{P}\\,i(1+i)^{t-1}}{(1+i)^t - 1}",
+  "graph": null}
+ ]},
+{"skill": "fn-compare-graphs", "problems": [
+ {"part": "practice-fn-compare-graphs-1", "note": null,
+  "legend": {"1": "x-value where the graphs cross, f(x) = g(x)"},
+  "steps": [
+   {"ask": "What equation do you solve to find where the two graphs meet?",
+    "title": "Find where the two graphs cross",
+    "lines": [
+     {"text": "$f(x) = g(x)$ where the graphs meet, at $x = \\hl{1}{-1}$ and $x = \\hl{1}{2}$."}
+    ]},
+   {"ask": "Between the crossing points, which graph is higher? Which graph is higher outside them?",
+    "title": "Find where f(x) is less than g(x)",
+    "lines": [
+     {"text": "Between $x = \\hl{1}{-1}$ and $x = \\hl{1}{2}$ the graph of $f$ is below the graph of $g$."},
+     {"text": "Outside that range $f$ is above $g$. Do not include the endpoints, because there $f(x) = g(x)$."},
+     {"tex": "f(x) < g(x) \\text{ for } \\hl{1}{-1} &< x < \\hl{1}{2}"}
+    ]}
+  ],
+  "final": "\\hl{1}{-1} < x < \\hl{1}{2}",
+  "graph": {"f": "x**2", "box": [-2.5, 7, 3, -1], "tangent": false, "points": [{"x": -1, "y": 1, "name": "(-1, 1)"}, {"x": 2, "y": 4, "name": "(2, 4)"}], "line": [[0, 2], [1, 3]], "slots": {"x": 1, "y": null, "line": null}}},
+ {"part": "practice-fn-compare-graphs-2", "note": "Problem 1 asked for the region where $f(x) < g(x)$. This asks only for the points where $f(x) = g(x)$, so the region step is dropped. The crossing reading and the check are the same.",
+  "legend": {"1": "x-value where the graphs cross, f(x) = g(x)"},
+  "steps": [
+   {"ask": "What is true about f(x) and g(x) at the points where the graphs meet?",
+    "title": "Read where the graphs cross",
+    "lines": [
+     {"text": "$f(x) = g(x)$ at the points where the graph of $f$ meets the graph of $g$."},
+     {"tex": "f(x) = g(x) \\text{ at } x &= \\hl{1}{-3}"},
+     {"tex": "\\text{and } x &= \\hl{1}{2}"}
+    ]},
+   {"ask": "Substitute each x-value into both functions. Do they give the same answer?",
+    "title": "Check",
+    "lines": [
+     {"text": "At $x = \\hl{1}{-3}$: $f = 5$ and $g = 5$. At $x = \\hl{1}{2}$: $f = 0$ and $g = 0$."}
+    ]}
+  ],
+  "final": "x = \\hl{1}{-3} \\text{ or } x = \\hl{1}{2}",
+  "graph": {"f": "x**2 - 4", "box": [-4.5, 6, 3.5, -5], "tangent": false, "points": [{"x": -3, "y": 5, "name": "(-3, 5)"}, {"x": 2, "y": 0, "name": "(2, 0)"}], "line": [[0, 2], [1, 1]], "slots": {"x": 1, "y": null, "line": null}}},
+ {"part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)", "note": "Compared with problem 2, the crossings are not whole numbers, the graphs are read from a diagram, and the region is asked for again. It also starts with an extra step that reads where $m(x) = 0$, which uses slot 2. The method is the same: read the crossings, then read the region between them.",
+  "legend": {"1": "x-value where the graphs cross, k(x) = m(x)", "2": "x-value where m(x) = 0 (where m meets the x-axis)"},
+  "steps": [
+   {"ask": "Which points on the graph of m lie on the x-axis?",
+    "title": "Find where m(x) = 0",
+    "lines": [
+     {"text": "$m(x) = 0$ where the graph of $m$ meets the $x$-axis."},
+     {"tex": "m(x) = 0 \\text{ at } x &= \\hl{2}{1}"},
+     {"tex": "\\text{and } x &= \\hl{2}{4.5}"}
+    ]},
+   {"ask": "Where do the graphs of k and m meet? Which x-values belong to those points?",
+    "title": "Find where the two graphs cross",
+    "lines": [
+     {"text": "The graphs of $k$ and $m$ cross at $x = \\hl{1}{2}$ and $x = \\hl{1}{3.5}$."}
+    ]},
+   {"ask": "Between the two crossing points, which graph is higher? Where is k(x) below m(x)?",
+    "title": "Find where k(x) is less than m(x)",
+    "lines": [
+     {"text": "Between $x = \\hl{1}{2}$ and $x = \\hl{1}{3.5}$ the graph of $m$ is above the graph of $k$."},
+     {"text": "Outside that range, $m$ is below $k$. Do not include the endpoints, because there $k(x) = m(x)$."},
+     {"tex": "k(x) < m(x) \\text{ for } \\hl{1}{2} &< x < \\hl{1}{3.5}"}
+    ]}
+  ],
+  "final": "x = \\hl{2}{1} \\text{ or } x = \\hl{2}{4.5}; \\quad \\hl{1}{2} < x < \\hl{1}{3.5}",
+  "graph": null}
+ ]}
+]

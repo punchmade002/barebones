@@ -1,0 +1,290 @@
+[
+ {
+  "skill": "trig-ratios-right",
+  "of": "page",
+  "title": "Use sin, cos, tan in a right-angled triangle",
+  "show": "right triangle: ladder 6 m hypotenuse, foot 2 m from wall, angle at the ground marked",
+  "example": {
+   "question": "A ladder 6 m long leans against a vertical wall. The foot of the ladder is 2 m from the wall. Find the angle the ladder makes with the ground. Give your answer correct to one decimal place.",
+   "final": "70.5^\\circ",
+   "steps": [
+    {
+     "say": "The angle $A$ is at the foot of the ladder. The ladder is the **hypotenuse**, and the 2 m along the ground is **adjacent** to $A$.",
+     "rows": [
+      {
+       "aside": "Known: adjacent $=2$, hypotenuse $=6$."
+      }
+     ]
+    },
+    {
+     "say": "Adjacent and hypotenuse go together in **cosine**. Write the ratio and put in the numbers.",
+     "rows": [
+      {
+       "l": "\\cos A",
+       "r": "= \\frac{\\text{adjacent}}{\\text{hypotenuse}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{2}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{1}{3}"
+      }
+     ]
+    },
+    {
+     "say": "Use inverse cosine to get the angle from its cosine. Make sure the calculator is in degree mode.",
+     "rows": [
+      {
+       "l": "A",
+       "r": "= \\cos^{-1}\\left(\\frac{1}{3}\\right)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{70.5^\\circ}"
+      },
+      {
+       "aside": "Check: $70.5^\\circ$ is between $0^\\circ$ and $90^\\circ$, as it must be."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-pythagoras",
+  "of": "page",
+  "title": "Solve 2D problems with Pythagoras",
+  "show": "right triangle: ladder 7 m hypotenuse, base 2 m, wall height h",
+  "example": {
+   "question": "A ladder $7$ m long leans against a vertical wall. Its foot is $2$ m from the wall. How high up the wall does the ladder reach? Give your answer correct to one decimal place.",
+   "final": "6.7\\text{ m}",
+   "steps": [
+    {
+     "say": "The wall and the ground meet at a right angle. The ladder is opposite that angle, so it is the longest side. Call the height $\\hl{1}{h}$.",
+     "rows": [
+      {
+       "aside": "Hypotenuse $= 7$. The other two sides are $2$ and $\\hl{1}{h}$."
+      }
+     ]
+    },
+    {
+     "say": "The square on the hypotenuse equals the sum of the squares on the other two sides.",
+     "rows": [
+      {
+       "l": "7^2",
+       "r": "= 2^2 + \\hl{1}{h}^2"
+      }
+     ]
+    },
+    {
+     "say": "Get $\\hl{1}{h}^2$ on its own by taking $2^2$ from both sides.",
+     "rows": [
+      {
+       "l": "\\hl{1}{h}^2",
+       "r": "= 7^2 - 2^2"
+      },
+      {
+       "l": "",
+       "r": "= 45"
+      },
+      {
+       "l": "\\hl{1}{h}",
+       "r": "= \\sqrt{45}"
+      },
+      {
+       "l": "",
+       "r": "= 6.7\\text{ m}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-elevation",
+  "of": "page",
+  "title": "Solve heights-and-distances problems",
+  "show": "right triangle: tree height, 45 m horizontal distance and the angle of elevation at the observer",
+  "example": {
+   "question": "A tree stands on level ground. From a point $45$ m from its base, the angle of elevation of the top of the tree is $28°$. Find the height of the tree, correct to one decimal place.",
+   "final": "23.9\\text{ m}",
+   "steps": [
+    {
+     "say": "Draw the ground, the tree and the line of sight. The angle $28°$ is at your feet. The tree is **opposite** it. The $45$ m is **adjacent** to it.",
+     "rows": [
+      {
+       "aside": "Opposite $= \\hl{1}{h}$. Adjacent $= 45$."
+      }
+     ]
+    },
+    {
+     "say": "We have the adjacent and want the opposite. That is tangent.",
+     "rows": [
+      {
+       "l": "\\tan 28°",
+       "r": "= \\frac{\\hl{1}{h}}{45}"
+      }
+     ]
+    },
+    {
+     "say": "Multiply both sides by $45$. Your calculator must be in degree mode.",
+     "rows": [
+      {
+       "l": "\\hl{1}{h}",
+       "r": "= 45\\tan 28°"
+      },
+      {
+       "l": "",
+       "r": "= 23.9\\text{ m}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-area-triangle",
+  "of": "page",
+  "title": "Find the area of a triangle with ½ab sin C",
+  "show": "triangle ABC with sides 9 cm and 12 cm and the included angle 40° at A",
+  "example": {
+   "question": "In triangle $ABC$, $|AB| = 9$ cm, $|AC| = 12$ cm and $|\\angle BAC| = 40°$. Find the area of the triangle, correct to one decimal place.",
+   "final": "34.7\\text{ cm}^2",
+   "steps": [
+    {
+     "say": "The angle $40°$ is at $A$, between sides $AB$ and $AC$. It is the included angle, so the formula applies.",
+     "rows": [
+      {
+       "aside": "$a = 9$, $b = 12$, $C = 40°$."
+      }
+     ]
+    },
+    {
+     "say": "Write the formula, then put the numbers in.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\text{Area}}",
+       "r": "= \\tfrac12(9)(12)\\sin 40°"
+      }
+     ]
+    },
+    {
+     "say": "Do $\\frac12 \\times 9 \\times 12$ first, then multiply by $\\sin 40°$ in degree mode.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= 54\\sin 40°"
+      },
+      {
+       "l": "",
+       "r": "= 34.7\\text{ cm}^2"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-sine-rule",
+  "of": "page",
+  "title": "Apply the sine rule",
+  "show": "triangle PQR with angles 48° and 65°, side QR 14 cm opposite P and PR unknown opposite Q",
+  "example": {
+   "question": "In triangle $PQR$, $|\\angle P| = 48°$, $|\\angle Q| = 65°$ and $|QR| = 14$ cm. Find $|PR|$, correct to one decimal place.",
+   "final": "17.1\\text{ cm}",
+   "steps": [
+    {
+     "say": "$QR$ is opposite $P$, so we know the pair $48°$ and $14$. We want $\\hl{1}{|PR|}$, which is opposite $Q = 65°$.",
+     "rows": [
+      {
+       "aside": "Known pair: $48°$ and $14$. Wanted side is opposite $65°$."
+      }
+     ]
+    },
+    {
+     "say": "Put the side we want over its angle on one side. Put the known pair on the other.",
+     "rows": [
+      {
+       "l": "\\frac{\\hl{1}{|PR|}}{\\sin 65°}",
+       "r": "= \\frac{14}{\\sin 48°}"
+      }
+     ]
+    },
+    {
+     "say": "Multiply both sides by $\\sin 65°$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{|PR|}",
+       "r": "= \\frac{14\\sin 65°}{\\sin 48°}"
+      },
+      {
+       "l": "",
+       "r": "= 17.1\\text{ cm}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-cosine-rule",
+  "of": "page",
+  "title": "Apply the cosine rule",
+  "show": "triangle ABC with sides 9 and 12 cm and the included 40° angle, BC unknown opposite it",
+  "example": {
+   "question": "In triangle $ABC$, $|AB| = 9$ cm, $|AC| = 12$ cm and $|\\angle BAC| = 40^\\circ$. Find $|BC|$, correct to two decimal places.",
+   "final": "|BC| = 7.72 cm",
+   "steps": [
+    {
+     "say": "You know two sides and the angle between them. Use the cosine rule with $a = |BC|$ opposite the $\\hl{1}{40^\\circ}$ angle.",
+     "rows": [
+      {
+       "l": "a^2",
+       "r": "= b^2 + c^2 - 2bc\\cos A"
+      }
+     ]
+    },
+    {
+     "say": "Put in $b = 12$, $c = 9$ and the angle $\\hl{1}{40^\\circ}$.",
+     "rows": [
+      {
+       "l": "a^2",
+       "r": "= 12^2 + 9^2 - 2(12)(9)\\cos \\hl{1}{40^\\circ}"
+      },
+      {
+       "l": "",
+       "r": "= 225 - 216\\cos 40^\\circ"
+      },
+      {
+       "aside": "Check your calculator is in degree mode."
+      }
+     ]
+    },
+    {
+     "say": "Multiply, then subtract. Do not take the square root yet.",
+     "rows": [
+      {
+       "l": "a^2",
+       "r": "= 59.53"
+      }
+     ]
+    },
+    {
+     "say": "Square root both sides to get the side $a$.",
+     "rows": [
+      {
+       "l": "a",
+       "r": "= \\sqrt{59.53}"
+      },
+      {
+       "l": "",
+       "r": "= 7.72 \\text{ cm}"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

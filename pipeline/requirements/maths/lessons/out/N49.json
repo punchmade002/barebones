@@ -1,0 +1,182 @@
+[
+ {"skill": "cx-conjugate-root", "problems": [
+  {"part": "maths-pp-2019-higher-p1-q5#(a)", "note": null,
+   "legend": {"1": "the other (conjugate) root", "2": "the answer (p and q)"},
+   "steps": [
+    {"ask": "The coefficients are real. Which root must be paired with 3 + 2i?", "title": "Write down the other root",
+     "lines": [{"text": "The coefficients $p, q$ are real, so complex roots come in conjugate pairs."}, {"text": "The other root is $\\hl{1}{3 - 2i}$."}]},
+    {"ask": "For z² + pz + q = 0, how is the sum of the two roots related to p?", "title": "Sum of the roots gives p",
+     "lines": [{"text": "For $z^2 + pz + q = 0$: sum of roots $= -p$."}, {"tex": "-p &= (3+2i) + \\hl{1}{(3-2i)}"}, {"tex": "-p &= 6"}, {"tex": "p &= \\hl{2}{-6}"}]},
+    {"ask": "For z² + pz + q = 0, what does the product of the two roots equal?", "title": "Product of the roots gives q",
+     "lines": [{"text": "Product of roots $= q$."}, {"tex": "q &= (3+2i)\\hl{1}{(3-2i)}"}, {"tex": "&= 9 - 4i^2"}, {"tex": "&= 9 + 4"}, {"tex": "&= \\hl{2}{13}"}]}
+   ],
+   "final": "\\hl{2}{p = -6}, \\quad \\hl{2}{q = 13}",
+   "graph": null},
+  {"part": "practice-cx-conjugate-root-1", "note": "The polynomial is now a cubic with its coefficients given, so after the quadratic factor you divide to find the third root. The conjugate and pair steps are the same as problem 1.",
+   "legend": {"1": "the other (conjugate) root", "2": "the answer (the roots)"},
+   "steps": [
+    {"ask": "The coefficients are real. What must be the partner of 2 − i that is also a root?", "title": "Use the conjugate root theorem",
+     "lines": [{"text": "The coefficients are real, so complex roots come in conjugate pairs."}, {"tex": "\\overline{2 - i} &= \\hl{1}{2 + i}"}]},
+    {"ask": "What are the sum and the product of the pair 2 − i and 2 + i?", "title": "Find the quadratic factor from the pair",
+     "lines": [{"text": "Sum of the pair, then product of the pair."}, {"tex": "(2 - i) + \\hl{1}{(2 + i)} &= 4"}, {"tex": "(2 - i)\\hl{1}{(2 + i)} &= 4 - i^2 = 5"}, {"text": "So the quadratic factor is $z^2 - 4z + 5$."}]},
+    {"ask": "If the cubic is (z² − 4z + 5)(z + c), what must c be for the constant term to be −5?", "title": "Divide to find the linear factor",
+     "lines": [{"text": "Compare constant terms: $5 \\times (\\text{constant}) = -5$, so the constant is $-1$."}, {"tex": "z^3 - 5z^2 + 9z - 5 &= (z^2 - 4z + 5)(z - 1)"}]},
+    {"ask": "Which factor is still unused, and what value of z makes it zero?", "title": "Read off the third root",
+     "lines": [{"tex": "z - 1 &= 0"}, {"tex": "z &= \\hl{2}{1}"}]}
+   ],
+   "final": "\\hl{2}{z = 2 - i},\\ \\hl{1}{2 + i},\\ \\hl{2}{1}",
+   "graph": null},
+  {"part": "practice-cx-conjugate-root-3", "note": "One change from problem 2: the given root 2i is purely imaginary, so the pair adds to 0 and the quadratic factor z² + 4 has no z term. The steps are the same.",
+   "legend": {"1": "the other (conjugate) root", "2": "the answer (the roots)"},
+   "steps": [
+    {"ask": "The coefficients are real. What is the partner of 2i that must also be a root?", "title": "Use the conjugate root theorem",
+     "lines": [{"text": "The coefficients are real, so complex roots come in conjugate pairs."}, {"tex": "\\overline{2i} &= \\hl{1}{-2i}"}]},
+    {"ask": "What are the sum and the product of the pair 2i and −2i?", "title": "Find the quadratic factor from the pair",
+     "lines": [{"text": "Sum of the pair, then product of the pair."}, {"tex": "2i + \\hl{1}{(-2i)} &= 0"}, {"tex": "(2i)\\hl{1}{(-2i)} &= -4i^2 = 4"}, {"text": "So the quadratic factor is $z^2 + 4$."}]},
+    {"ask": "The constant term of the cubic is −12 and the quadratic factor is z² + 4. What must the constant in the linear factor be?", "title": "Divide to find the linear factor",
+     "lines": [{"text": "Compare constant terms: $4 \\times (\\text{constant}) = -12$, so the constant is $-3$."}, {"tex": "z^3 - 3z^2 + 4z - 12 &= (z^2 + 4)(z - 3)"}]},
+    {"ask": "Which factor is still unused, and what value of z makes it zero?", "title": "Read off the third root",
+     "lines": [{"tex": "z - 3 &= 0"}, {"tex": "z &= \\hl{2}{3}"}]}
+   ],
+   "final": "\\hl{2}{z = 2i},\\ \\hl{1}{-2i},\\ \\hl{2}{3}",
+   "graph": null}
+ ]},
+ {"skill": "num-surds", "problems": [
+  {"part": "practice-num-surds-1", "note": null,
+   "legend": {"1": "the square factor inside the surd", "2": "the whole number outside the surd", "3": "the answer"},
+   "steps": [
+    {"ask": "What is the largest square number that divides 72? Then do the same for 18.", "title": "Write each number as a square times 2",
+     "lines": [{"tex": "\\sqrt{72} &= \\sqrt{\\hl{1}{36} \\times 2}"}, {"tex": "\\sqrt{18} &= \\sqrt{\\hl{1}{9} \\times 2}"}]},
+    {"ask": "What is √36, and what goes outside the surd when you take it out? Do the same for √9.", "title": "Take the square roots out",
+     "lines": [{"tex": "\\sqrt{72} &= \\hl{2}{6}\\sqrt{2}"}, {"tex": "\\sqrt{18} &= \\hl{2}{3}\\sqrt{2}"}]},
+    {"ask": "The surds are both √2 now. What do the whole-number parts 6 and 3 add up to?", "title": "Add the like surds",
+     "lines": [{"tex": "\\hl{2}{6}\\sqrt{2} + \\hl{2}{3}\\sqrt{2} &= \\hl{3}{9\\sqrt{2}}"}]}
+   ],
+   "final": "\\hl{3}{9\\sqrt{2}}",
+   "graph": null},
+  {"part": "practice-num-surds-3", "note": "Two things change from problem 1: the sign is minus, and the base is 3 instead of 2. The steps are the same.",
+   "legend": {"1": "the square factor inside the surd", "2": "the whole number outside the surd", "3": "the answer"},
+   "steps": [
+    {"ask": "What is the largest square number that divides 75, and what is the largest one for 12?", "title": "Write each number as a square times 3",
+     "lines": [{"tex": "\\sqrt{75} &= \\sqrt{\\hl{1}{25} \\times 3}"}, {"tex": "\\sqrt{12} &= \\sqrt{\\hl{1}{4} \\times 3}"}]},
+    {"ask": "What are √25 and √4, and what goes outside each surd?", "title": "Take the square roots out",
+     "lines": [{"tex": "\\sqrt{75} &= \\hl{2}{5}\\sqrt{3}"}, {"tex": "\\sqrt{12} &= \\hl{2}{2}\\sqrt{3}"}]},
+    {"ask": "Both surds are now √3. What do the coefficients 5 and 2 give when one is taken from the other?", "title": "Subtract the like surds",
+     "lines": [{"tex": "\\hl{2}{5}\\sqrt{3} - \\hl{2}{2}\\sqrt{3} &= \\hl{3}{3\\sqrt{3}}"}]}
+   ],
+   "final": "\\hl{3}{3\\sqrt{3}}",
+   "graph": null},
+  {"part": "practice-num-surds-4", "note": "Three terms now instead of two, with a minus sign and a base of 5 (a prime, as the question asks). The steps are the same; you combine three like surds.",
+   "legend": {"1": "the square factor inside the surd", "2": "the whole number outside the surd", "3": "the answer"},
+   "steps": [
+    {"ask": "What is the largest square number that divides 20? Then do the same for 45 and 80.", "title": "Write each number as a square times 5",
+     "lines": [{"tex": "\\sqrt{20} &= \\sqrt{\\hl{1}{4} \\times 5}"}, {"tex": "\\sqrt{45} &= \\sqrt{\\hl{1}{9} \\times 5}"}, {"tex": "\\sqrt{80} &= \\sqrt{\\hl{1}{16} \\times 5}"}]},
+    {"ask": "What is √4, and what does 3√20 become once the surd is simplified?", "title": "Take the square roots out",
+     "lines": [{"tex": "3\\sqrt{20} &= 3 \\times \\hl{2}{2}\\sqrt{5} = \\hl{2}{6}\\sqrt{5}"}, {"tex": "\\sqrt{45} &= \\hl{2}{3}\\sqrt{5}"}, {"tex": "\\sqrt{80} &= \\hl{2}{4}\\sqrt{5}"}]},
+    {"ask": "All three surds are √5 now. What do 6, 3 and 4 give when you add the first two and take away the third?", "title": "Add and subtract the like surds",
+     "lines": [{"tex": "\\hl{2}{6}\\sqrt{5} + \\hl{2}{3}\\sqrt{5} - \\hl{2}{4}\\sqrt{5} &= \\hl{3}{5\\sqrt{5}}"}]}
+   ],
+   "final": "\\hl{3}{5\\sqrt{5}}",
+   "graph": null}
+ ]},
+ {"skill": "fin-estimate", "problems": [
+  {"part": "practice-fin-estimate-1", "note": null,
+   "legend": {"1": "the exact answer", "2": "the estimate"},
+   "steps": [
+    {"ask": "What is 198 multiplied by 4.95, exactly?", "title": "Calculate the exact cost",
+     "lines": [{"tex": "198 \\times 4.95 &= \\hl{1}{980.1}"}]},
+    {"ask": "Which easy whole numbers are close to 198 and 4.95? Multiply them to get the estimate.", "title": "Round each number and estimate",
+     "lines": [{"tex": "198 &\\approx 200"}, {"tex": "4.95 &\\approx 5"}, {"tex": "200 \\times 5 &= \\hl{2}{1000}"}]},
+    {"ask": "Is the estimate close to the exact cost? What does that tell you about your answer?", "title": "Compare",
+     "lines": [{"text": "The estimate €$\\hl{2}{1000}$ is close to the exact cost €$\\hl{1}{980.10}$, so the answer is sensible."}]}
+   ],
+   "final": "\\text{€}\\hl{1}{980.10} \\text{ (estimate €}\\hl{2}{1000}\\text{)}",
+   "graph": null},
+  {"part": "practice-fin-estimate-3", "note": "The numbers are now decimals in a money context, rounded to the nearest whole number instead of to 1 significant figure. The steps are the same.",
+   "legend": {"1": "the exact answer", "2": "the estimate"},
+   "steps": [
+    {"ask": "What is the exact cost of 24.8 metres at €5.25 per metre?", "title": "Calculate the exact cost",
+     "lines": [{"tex": "24.8 \\times 5.25 &= \\hl{1}{130.2}"}]},
+    {"ask": "What whole number is each of 24.8 and 5.25 closest to? Multiply those to get the estimate.", "title": "Round each number and estimate",
+     "lines": [{"tex": "24.8 &\\approx 25"}, {"tex": "5.25 &\\approx 5"}, {"tex": "25 \\times 5 &= \\hl{2}{125}"}]},
+    {"ask": "Is the estimate close to the exact cost? Does this make sense?", "title": "Compare",
+     "lines": [{"text": "The estimate €$\\hl{2}{125}$ is close to the exact cost €$\\hl{1}{130.20}$, so the answer is sensible."}]}
+   ],
+   "final": "\\text{€}\\hl{1}{130.20} \\text{ (estimate €}\\hl{2}{125}\\text{)}",
+   "graph": null},
+  {"part": "practice-fin-estimate-2", "note": "Now you divide instead of multiply. Rounding each number, estimating and comparing are the same steps.",
+   "legend": {"1": "the exact answer", "2": "the estimate"},
+   "steps": [
+    {"ask": "How many seconds does it take to fill 612.5 litres at 4.9 litres per second? Which operation gives the time?", "title": "Calculate the exact time",
+     "lines": [{"tex": "612.5 \\div 4.9 &= \\hl{1}{125}"}]},
+    {"ask": "What 1 significant figure numbers are close to 612.5 and 4.9? Divide them to get the estimate.", "title": "Round each number and estimate",
+     "lines": [{"tex": "612.5 &\\approx 600"}, {"tex": "4.9 &\\approx 5"}, {"tex": "600 \\div 5 &= \\hl{2}{120}"}]},
+    {"ask": "Is the estimate close to the exact time? What does that tell you?", "title": "Compare",
+     "lines": [{"text": "The estimate of $\\hl{2}{120}$ seconds is close to the exact time of $\\hl{1}{125}$ seconds, so the answer is sensible."}]}
+   ],
+   "final": "\\hl{1}{125} \\text{ seconds (estimate } \\hl{2}{120}\\text{ seconds)}",
+   "graph": null}
+ ]},
+ {"skill": "fn-injective-surjective", "problems": [
+  {"part": "maths-pp-2016-higher-p1-q5#(b)(i)", "note": null,
+   "legend": {"1": "the equal outputs, f(a) = f(b)", "2": "the conclusion, f is injective"},
+   "steps": [
+    {"ask": "Assume the outputs are equal. What do you need to show about a and b?", "title": "Assume two inputs give the same output",
+     "lines": [{"text": "$f$ is injective if $\\hl{1}{f(a) = f(b)}$ forces $a = b$."}, {"tex": "\\hl{1}{f(a)} &= \\hl{1}{f(b)}"}, {"tex": "\\hl{1}{3a - 2} &= \\hl{1}{3b - 2}"}]},
+    {"ask": "What does 3a − 2 = 3b − 2 tell you about a and b?", "title": "Solve for a",
+     "lines": [{"tex": "3a &= 3b"}, {"tex": "a &= b"}, {"text": "Different inputs always give different outputs, so $\\hl{2}{f}$ is injective."}]}
+   ],
+   "final": "\\hl{1}{f(a) = f(b)} \\Rightarrow a = b \\text{, so } \\hl{2}{f \\text{ is injective}}",
+   "graph": null},
+  {"part": "practice-fn-injective-surjective-2", "note": "The function is now x/3 + 4 instead of 3x − 2, so the input is divided by 3 rather than multiplied. The steps are the same: assume equal outputs, remove the 4, and get a = b.",
+   "legend": {"1": "the equal outputs, f(a) = f(b)", "2": "the conclusion, f is injective"},
+   "steps": [
+    {"ask": "Start from f(a) = f(b). What do you need to show about a and b?", "title": "Assume two inputs give the same output",
+     "lines": [{"text": "$f$ is injective if $\\hl{1}{f(a) = f(b)}$ forces $a = b$."}, {"tex": "\\hl{1}{f(a)} &= \\hl{1}{f(b)}"}, {"tex": "\\hl{1}{\\frac{a}{3} + 4} &= \\hl{1}{\\frac{b}{3} + 4}"}]},
+    {"ask": "What is left on each side when you subtract 4 from both sides?", "title": "Solve for a",
+     "lines": [{"tex": "\\frac{a}{3} &= \\frac{b}{3}"}, {"tex": "a &= b"}, {"text": "Different inputs always give different outputs, so $\\hl{2}{f}$ is injective."}]}
+   ],
+   "final": "\\hl{1}{f(a) = f(b)} \\Rightarrow a = b \\text{, so } \\hl{2}{f \\text{ is injective}}",
+   "graph": null},
+  {"part": "practice-fn-injective-surjective-3", "note": "The function is now 7 − 4x, a decreasing line with a negative coefficient. The steps are the same; the last step divides by −4.",
+   "legend": {"1": "the equal outputs, f(a) = f(b)", "2": "the conclusion, f is injective"},
+   "steps": [
+    {"ask": "Assume f(a) = f(b). What must follow about a and b?", "title": "Assume two inputs give the same output",
+     "lines": [{"text": "$f$ is injective if $\\hl{1}{f(a) = f(b)}$ forces $a = b$."}, {"tex": "\\hl{1}{f(a)} &= \\hl{1}{f(b)}"}, {"tex": "\\hl{1}{7 - 4a} &= \\hl{1}{7 - 4b}"}]},
+    {"ask": "After the 7 is taken from both sides, how do you get a on its own?", "title": "Solve for a",
+     "lines": [{"tex": "-4a &= -4b"}, {"tex": "a &= b"}, {"text": "Different inputs always give different outputs, so $\\hl{2}{f}$ is injective."}]}
+   ],
+   "final": "\\hl{1}{f(a) = f(b)} \\Rightarrow a = b \\text{, so } \\hl{2}{f \\text{ is injective}}",
+   "graph": null}
+ ]},
+ {"skill": "geo-cor3", "problems": [
+  {"part": "maths-pp-2022-ordinary-p2-q6#(a)(i)", "note": null,
+   "legend": {"1": "the right angle from Corollary 3 (also the answer)"},
+   "steps": [
+    {"ask": "[AB] is a diameter and D is on the circle. What can you say about the angle ADB?", "title": "Use the angle in a semicircle",
+     "lines": [{"text": "$[AB]$ is a diameter, so the angle at $D$ on the circle is a right angle."}, {"tex": "|\\angle ADB| &= \\hl{1}{90^\\circ}"}]}
+   ],
+   "final": "\\hl{1}{90^\\circ}",
+   "graph": null},
+  {"part": "practice-geo-cor3-1", "note": "The right angle comes first, as before. Now the unknown is an angle in the triangle, so you use the angle sum of 180 degrees to finish.",
+   "legend": {"1": "the right angle from Corollary 3", "2": "the answer, angle ABC"},
+   "steps": [
+    {"ask": "Which result tells you the size of angle ACB, given that [AB] is a diameter?", "title": "Use the angle in a semicircle",
+     "lines": [{"text": "$[AB]$ is a diameter, so the angle at $C$ on the circle is a right angle."}, {"tex": "|\\angle ACB| &= \\hl{1}{90^\\circ}"}]},
+    {"ask": "Triangle ABC now has two angles known. What must the third angle be?", "title": "Angles in triangle ABC add to 180 degrees",
+     "lines": [{"tex": "|\\angle ABC| &= 180 - \\hl{1}{90} - 38"}, {"tex": "&= \\hl{2}{52^\\circ}"}]}
+   ],
+   "final": "|\\angle ABC| = \\hl{2}{52^\\circ}",
+   "graph": null},
+  {"part": "practice-geo-cor3-2", "note": "The right angle at C is found in the same way. The given values are now side lengths, so Pythagoras finds AB instead of an angle sum.",
+   "legend": {"1": "the right angle from Corollary 3", "2": "the answer, length AB"},
+   "steps": [
+    {"ask": "What does the diameter tell you about the angle at C?", "title": "Use the angle in a semicircle",
+     "lines": [{"text": "$[AB]$ is a diameter, so the angle at $C$ on the circle is a right angle."}, {"tex": "|\\angle ACB| &= \\hl{1}{90^\\circ}"}]},
+    {"ask": "Since the angle at C is a right angle, which rule links the sides AC, BC and AB?", "title": "Use Pythagoras in triangle ABC",
+     "lines": [{"tex": "\\hl{2}{|AB|}^2 &= 6^2 + 8^2"}, {"tex": "&= 100"}, {"tex": "\\hl{2}{|AB|} &= \\hl{2}{10}"}]}
+   ],
+   "final": "\\hl{2}{|AB| = 10 \\text{ cm}}",
+   "graph": null}
+ ]}
+]

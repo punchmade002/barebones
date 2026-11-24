@@ -1,0 +1,407 @@
+[
+ {
+  "part": "maths-pp-2026-ordinary-p1-q5#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Find the common difference\nd &= 17 - 12\nd &= 5\n## Add 5 each time\n22 + 5 &= 27\n27 + 5 &= 32\n32 + 5 &= 37\nANSWER: 27, \\; 32, \\; 37"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q5#(a)(ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Write the formula for the nth term\nT_n &= a + (n-1)d\n## Identify a and d\na &= 12\nd &= 5\n## Substitute a and d\nT_n &= 12 + (n-1)(5)\nT_n &= 12 + 5n - 5\nT_n &= 5n + 7\n## Substitute n = 20 into the formula\nT_{20} &= 5(20) + 7\nT_{20} &= 100 + 7\nT_{20} &= 107\nANSWER: T_n = 5n + 7, \\quad T_{20} = 107"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Use the common difference\nTerms 1 and 3 are two steps apart, so they differ by $2d$.\n-4 - 6 &= 2d\n## Solve for d\n-10 &= 2d\nd &= -5\n## Add d to the first term to find x\nx &= 6 + (-5)\nx &= 1\nANSWER: x = 1"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q5#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths3"
+  ],
+  "marks": 5,
+  "solution": "## Write the formula for the sum\nHere $a = 43$ and $d = -4$.\nS_n &= \\frac{n}{2}\\big(2a + (n-1)d\\big)\n## Substitute a and d\nS_n &= \\frac{n}{2}\\big(2(43) + (n-1)(-4)\\big)\nS_n &= \\frac{n}{2}(86 - 4n + 4)\nS_n &= \\frac{n}{2}(90 - 4n)\n## Make the sum less than zero\n\\frac{n}{2}(90 - 4n) &< 0\n$\\frac{n}{2}$ is positive, so divide both sides by it.\n90 - 4n &< 0\n## Solve the inequality\n90 &< 4n\nn &> 22.5\n## Choose the smallest whole number\n$n$ must be a whole number greater than $22.5$.\nn &= 23\nANSWER: n = 23"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q6#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Substitute x = 4 into g(x) (part i)\nReplace $x$ with $4$ in $g(x) = 2x - 3$.\ng(4) &= 2(4) - 3\n&= 8 - 3\n&= 5\n## Set g(x) equal to 11 (part ii)\n2x - 3 &= 11\n## Add 3 to both sides\n2x - 3 + 3 &= 11 + 3\n2x &= 14\n## Divide both sides by 2\n\\frac{2x}{2} &= \\frac{14}{2}\nx &= 7\nANSWER: g(4) = 5, \\quad x = 7"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate h(x) term by term\nh(x) &= 3x^2 - 2x + 1\nUse $\\frac{d}{dx}(ax^n) = nax^{n-1}$ on each term; the constant $1$ differentiates to $0$.\nh'(x) &= 2(3)x - 2\n&= 6x - 2\n## Set the derivative equal to zero\nA local minimum is a turning point, where the slope is $0$.\n6x - 2 &= 0\n6x &= 2\nx &= \\frac{2}{6}\nx &= \\frac{1}{3}\n## Substitute x = 1/3 into h(x)\nh\\left(\\tfrac{1}{3}\\right) &= 3\\left(\\tfrac{1}{3}\\right)^2 - 2\\left(\\tfrac{1}{3}\\right) + 1\n&= 3\\left(\\tfrac{1}{9}\\right) - \\tfrac{2}{3} + 1\n&= \\tfrac{1}{3} - \\tfrac{2}{3} + 1\n&= \\tfrac{2}{3}\nThe $x^2$ coefficient is positive, so the curve is U-shaped and this turning point is a minimum.\nLocal minimum point $= \\left(\\tfrac{1}{3}, \\tfrac{2}{3}\\right)$.\nANSWER: h'(x) = 6x - 2, \\quad \\left(\\tfrac{1}{3}, \\tfrac{2}{3}\\right)"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q6#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Read the slope of k(x)\n$k(x)$ is U-shaped. Its slope is negative to the left of the minimum point and positive to the right.\nSo $k'(x)$ is a straight line that starts below the $x$-axis and rises: it has a positive slope.\n## Find where k'(x) is zero\nThe slope of $k(x)$ is $0$ at its minimum, which is to the right of the $y$-axis.\nSo the graph of $k'(x)$ crosses the $x$-axis at a positive $x$ value.\n## Compare with A, B and C\nA: positive slope, but it crosses the $x$-axis at or left of the $y$-axis, so it is not correct.\nB: negative slope, so it is not correct.\nC: positive slope and a positive $x$-intercept, so it matches.\nANSWER: \\text{Diagram } C"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q7#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the bus arriving between 18:00 and 21:00 (part i)\nRead the Waterford Bus Station row: A 12:00, B 14:00, C 16:15, D 20:30, E 22:15, F 01:10.\nOnly $20{:}30$ (bus D) is between $18{:}00$ and $21{:}00$.\n## Find the journey time of bus B (part ii)\nBus B leaves Dublin Airport at 10:50 and arrives at 14:00.\n10{:}50 \\text{ to } 11{:}00 &= 10 \\text{ minutes}\n11{:}00 \\text{ to } 14{:}00 &= 3 \\text{ hours}\n10 \\text{ min} + 3 \\text{ h} &= 3 \\text{ h } 10 \\text{ min}\nANSWER: \\text{Bus D}, \\quad 3 \\text{ h } 10 \\text{ min}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q7#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the time from Royal Oak to Thomastown\nBus E is at Royal Oak at 21:24 and at Thomastown at 21:45.\n21{:}45 - 21{:}24 &= 21 \\text{ minutes}\n## Write an equation for the two parts of the journey\nLet $x$ be the minutes from Royal Oak to Gowran. Gowran to Thomastown takes $3$ minutes more, so $x + 3$.\nx + (x + 3) &= 21\n## Solve for x\n2x + 3 &= 21\n2x &= 18\nx &= 9\n## Add 9 minutes to the Royal Oak time\nT &= 21{:}24 + 9 \\text{ minutes}\n&= 21{:}33\nANSWER: T = 21{:}33"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Write the two equations\nAdult ticket costs $x$ and child ticket costs $y$.\n3x + 4y &= 144 \\quad (1)\n2x + y &= 71 \\quad (2)\n## Multiply equation (2) by 4\n8x + 4y &= 284 \\quad (3)\n## Subtract equation (3) from equation (1)\n(3x + 4y) - (8x + 4y) &= 144 - 284\n-5x &= -140\nx &= \\frac{-140}{-5}\nx &= 28\n## Substitute x = 28 into equation (2)\n2(28) + y &= 71\n56 + y &= 71\ny &= 71 - 56\ny &= 15\n## Check in equation (1)\n3(28) + 4(15) &= 84 + 60\n&= 144\nAn adult ticket costs €28 and a child ticket costs €15.\nANSWER: x = 28, \\quad y = 15"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q7#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find the gross tax\nLuan pays only the lower rate of $20\\% = 0.2$.\n\\text{Gross tax} &= 37\\,600 \\times 0.2\n&= 7520\n## Subtract the tax credit to get net annual tax\n\\text{Net tax} &= 7520 - 4000\n&= 3520\n## Find net annual pay\n\\text{Net pay} &= 37\\,600 - 3520\n&= 34\\,080\nANSWER: \\text{Net tax} = 3520, \\quad \\text{Net pay} = 34\\,080"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q7#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the tax at the lower rate\nShea pays $20\\%$ on the first $44\\,000$ and $40\\%$ on the balance.\n44\\,000 \\times 0.2 &= 8800\n## Find the tax at the higher rate\n\\text{Balance} &= 63\\,400 - 44\\,000\n&= 19\\,400\n\\text{Higher rate tax} &= 19\\,400 \\times 0.4\n&= 7760\n## Add to get the gross tax\n\\text{Gross tax} &= 8800 + 7760\n&= 16\\,560\n## Subtract the tax credit\n\\text{Net tax} &= 16\\,560 - 4000\n&= 12\\,560\nANSWER: 12\\,560"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q7#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Add the tax credit back to find the gross tax\n\\text{Gross tax} &= 17\\,000 + 4000\n&= 21\\,000\n## Find the tax paid at the lower rate\n44\\,000 \\times 0.2 &= 8800\n## Find the tax paid at the higher rate\n21\\,000 - 8800 &= 12\\,200\n## Find the income taxed at 40%\n$12\\,200$ is $40\\%$ of this income, so divide by $40$ and multiply by $100$.\n\\frac{12\\,200}{40} \\times 100 &= 30\\,500\n## Add the first 44 000\n\\text{Gross income} &= 44\\,000 + 30\\,500\n&= 74\\,500\nANSWER: 74\\,500"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q8#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute x = 0\nS(0) &= -(0)^3 + 9.6(0)^2 + 25\n&= 25\n## Substitute x = 2\nS(2) &= -(2)^3 + 9.6(2)^2 + 25\n&= -8 + 9.6(4) + 25\n&= -8 + 38.4 + 25\n&= 55.4\n&\\approx 55\n## Substitute x = 3\nS(3) &= -(3)^3 + 9.6(3)^2 + 25\n&= -27 + 9.6(9) + 25\n&= -27 + 86.4 + 25\n&= 84.4\n&\\approx 84\n## Substitute x = 4\nS(4) &= -(4)^3 + 9.6(4)^2 + 25\n&= -64 + 9.6(16) + 25\n&= -64 + 153.6 + 25\n&= 114.6\n&\\approx 115\n## Substitute x = 6\nS(6) &= -(6)^3 + 9.6(6)^2 + 25\n&= -216 + 9.6(36) + 25\n&= -216 + 345.6 + 25\n&= 154.6\n&\\approx 155\n## Plot the eight points\nPlot $(0, 25)$, $(1, 34)$, $(2, 55)$, $(3, 84)$, $(4, 115)$, $(5, 140)$, $(6, 155)$ and $(7, 152)$ using the table values.\n## Join the points with a smooth curve\nDraw one smooth curve through the points from $x = 0$ to $x = 7$. It rises steeply, then levels off near $x = 6$.\nANSWER: S(0)=25,\\; S(2)=55,\\; S(3)=84,\\; S(4)=115,\\; S(6)=155"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q8#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Start at 100 on the vertical axis\nMonthly sales of €100 000 means $S(x) = 100$ (in thousands).\n## Go across to the curve and down to the x-axis\nDraw a horizontal line from $100$ to the curve, then a vertical line down to the $x$-axis.\nIt meets the $x$-axis at about $3.5$.\nANSWER: x \\approx 3.5 \\text{ (about } €3500\\text{)}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q8#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate S(x)\nS(x) &= -x^3 + 9.6x^2 + 25\nS'(x) &= -3x^2 + 2(9.6)x\n&= -3x^2 + 19.2x\n## Set S'(x) equal to zero\nThe maximum is at a turning point, where the slope is $0$.\n-3x^2 + 19.2x &= 0\n## Factorise out x\nx(-3x + 19.2) &= 0\nSo $x = 0$ or $-3x + 19.2 = 0$. The value $x = 0$ gives the minimum sales of $25$, so use the other factor.\n## Solve -3x + 19.2 = 0\n-3x + 19.2 &= 0\n3x &= 19.2\nx &= \\frac{19.2}{3}\nx &= 6.4\nANSWER: x = 6.4"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q8#(a)(v)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Read the predicted value from the table\nAdvertising spend of €5000 is $x = 5$, and the table gives $S(5) = 140$ thousand euro.\nS(5) &= 140 \\text{ thousand}\n&= 140\\,000\n## Find the error\n\\text{Error} &= 140\\,000 - 125\\,000\n&= 15\\,000\n## Divide by the actual sales and multiply by 100\nPercentage error is the error divided by the actual value, as a percentage.\n\\text{Percentage error} &= \\frac{15\\,000}{125\\,000} \\times 100\n&= 12\nANSWER: 12\\%"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Substitute r = 15, h = 39, t = 5\nP &= rh + 2rt\n&= (15)(39) + 2(15)(5)\n&= 585 + 150\n&= 735\nANSWER: P = €735"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q8#(b)(ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Factorise the right-hand side (part ii)\nP &= rh + 2rt\nP &= r(h + 2t)\n## Divide both sides by h + 2t\n\\frac{P}{h + 2t} &= r\nr &= \\frac{P}{h + 2t}\n## Substitute P = 892.5, h = 35, t = 8 (part iii)\nr &= \\frac{892.5}{35 + 2(8)}\n&= \\frac{892.5}{35 + 16}\n&= \\frac{892.5}{51}\n&= 17.5\nThe new hourly rate is €17.50.\nANSWER: r = \\frac{P}{h + 2t}, \\quad r = 17.5"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q9#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Add the times for one set (part i)\nOne set has 4 runs and 4 rests, each lasting 10 seconds.\n8 \\times 10 &= 80 \\text{ seconds}\n## Add the four run distances (part ii)\n38 + 41 &= 79\n79 + 44 &= 123\n123 + 41 &= 164\nANSWER: 80 \\text{ s}, \\quad 164 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q9#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Change 7 minutes to seconds\n7 \\times 60 &= 420 \\text{ seconds}\n## Find the number of full sets\nOne set takes $80$ seconds. Try $5$ sets.\n5 \\times 80 &= 400 \\text{ seconds}\n420 - 400 &= 20 \\text{ seconds left}\n## Find the distance in the last 20 seconds\nRun 1 takes 10 seconds (38 m), then the rest takes 10 seconds, using all 20 seconds. Dean runs $38$ m.\n## Add the distances\n5 \\times 164 &= 820\n820 + 38 &= 858 \\text{ m}\nANSWER: 858 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q9#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the cost per person in sterling\n80 + 145 &= 225\n## Find the total cost for 4 people\n225 \\times 4 &= 900\n## Divide sterling by euro\n£900 equals €1020, so divide by 1020 to find the sterling for €1.\n\\frac{900}{1020} &= 0.8823\\ldots\n&\\approx 0.882\nANSWER: €1 = £0.882"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q9#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Change the distance to metres\n5 \\times 1000 &= 5000 \\text{ m}\n## Change the time to seconds\n25 \\times 60 &= 1500 \\text{ s}\n## Use speed = distance ÷ time\n\\text{Speed} &= \\frac{5000}{1500}\n&= 3.33\\ldots\n&\\approx 3.3\nANSWER: 3.3 \\text{ m/s}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q9#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Compare the speeds\nKayla runs twice as fast as Olor walks, so in the same time she covers twice the distance.\nWhen Kayla reaches B she has run $4.8$ km, so Olor has walked half of that.\n\\frac{4.8}{2} &= 2.4\nANSWER: 2.4 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q9#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the gap when Kayla is at B\nKayla is at B ($4.8$ km from A) and Olor is $2.4$ km from A.\n4.8 - 2.4 &= 2.4\n## Set up an equation for when they meet\nNow they move towards each other. If Olor walks $x$ km more, Kayla runs $2x$ km in the same time. Together they cover the $2.4$ km gap.\nx + 2x &= 2.4\n## Solve for x\n3x &= 2.4\nx &= 0.8\n## Add to the distance Olor had already walked\n2.4 + 0.8 &= 3.2\nANSWER: 3.2 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q10#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Read the height of the slide (part i)\nPoints B and C are both at $y = 2$, so the slide is $2$ m high.\n## Find the length BC (part ii)\nB has $x = -0.4$ and C has $x = 0$.\nBC &= 0 - (-0.4)\n&= 0.4 \\text{ m}\n## Change metres to centimetres\n0.4 \\times 100 &= 40 \\text{ cm}\nANSWER: 2 \\text{ m}, \\quad 40 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q10#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate l(x)\nl(x) &= 2.5x + 3\nThe derivative of $2.5x$ is $2.5$ and the derivative of the constant $3$ is $0$.\nl'(x) &= 2.5\n## Say what it means\n$l'(x)$ is the slope of the ladder: the height rises $2.5$ m for every $1$ m moved horizontally.\nANSWER: l'(x) = 2.5 \\text{ (the slope of the ladder)}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q10#(a)(iv), (v)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute x = 0.4\nd(0.4) &= 2 \\times 0.2^{0.4}\n&\\approx 1.05\n## Substitute x = 0.6\nd(0.6) &= 2 \\times 0.2^{0.6}\n&\\approx 0.76\n## Substitute x = 1\nd(1) &= 2 \\times 0.2^{1}\n&= 0.4\n## Substitute x = 1.2\nd(1.2) &= 2 \\times 0.2^{1.2}\n&\\approx 0.29\n## Substitute x = 1.4\nd(1.4) &= 2 \\times 0.2^{1.4}\n&\\approx 0.21\n## Plot the nine points\nPlot $(0, 2)$, $(0.2, 1.45)$, $(0.4, 1.05)$, $(0.6, 0.76)$, $(0.8, 0.55)$, $(1, 0.4)$, $(1.2, 0.29)$, $(1.4, 0.21)$ and $(1.6, 0.15)$ on the printed axes.\n## Join the points with a smooth curve\nThe curve starts at C $(0, 2)$ and falls, getting flatter as $x$ increases.\nANSWER: d(0.4)=1.05,\\; d(0.6)=0.76,\\; d(1)=0.4,\\; d(1.2)=0.29,\\; d(1.4)=0.21"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q10#(b), (c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths3"
+  ],
+  "marks": 10,
+  "solution": "## Write the height inequality (b)(i)\n\"At least 95\" means $95$ or more, so $h$ can equal $95$.\nh &\\ge 95\n## Graph it on the number line (b)(ii)\nPut a closed (filled) dot at $95$ because $95$ is included. Draw a thick line with an arrow to the right.\n## Write the age inequality (c)(i)\n\"At least 4\" gives $A \\ge 4$. \"Younger than 12\" gives $A < 12$.\n4 &\\le A < 12\n## Graph it on the number line (c)(ii)\nPut a closed dot at $4$ and an open circle at $12$ because $12$ is not included. Join them with a thick line.\nANSWER: h \\ge 95, \\quad 4 \\le A < 12"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q10#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the total work in employee-hours\n13 \\times 4 &= 52\n## Find the work done in the first 2 hours\n4 \\times 2 &= 8\n## Subtract to find the work left\n52 - 8 &= 44\n## Divide by the 3 remaining employees\n\\frac{44}{3} &= 14\\tfrac{2}{3} \\text{ hours}\n## Change the fraction of an hour to minutes\n\\tfrac{2}{3} \\times 60 &= 40 \\text{ minutes}\n## Write the time in hours and minutes\n14\\tfrac{2}{3}\\text{ hours} &= 14 \\text{ hours } 40 \\text{ minutes}\nANSWER: 14 \\text{ h } 40 \\text{ min}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q1#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Substitute the point (0, 6) into the equation\nIf $P=(0,6)$ lies on $l$, then $x=0$ and $y=6$ must satisfy $2x+3y-18=0$.\n\\text{LHS} &= 2(0) + 3(6) - 18\n&= 0 + 18 - 18\n&= 0\n## State the conclusion\nThe left side equals the right side (0), so $(0,6)$ is on $l$. It has $x=0$, so it is on the $y$-axis. Therefore $P=(0,6)$.\nANSWER: P = (0, 6)"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q1#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Use the area of a right-angled triangle\nThe triangle has vertices $(0,0)$, $(9,0)$ and $(0,6)$. The base is 9 along the $x$-axis and the height is 6 along the $y$-axis.\n\\text{Area} &= \\tfrac{1}{2} \\times \\text{base} \\times \\text{height}\n&= \\tfrac{1}{2} \\times 9 \\times 6\n&= \\tfrac{1}{2} \\times 54\n&= 27\nANSWER: 27 \\text{ units}^2"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q1#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Rearrange into the form y = mx + c\n2x + 3y - 18 &= 0\n3y &= -2x + 18\ny &= -\\tfrac{2}{3}x + 6\n## Read off the slope\nThe slope is the coefficient of $x$.\nm &= -\\tfrac{2}{3}\nANSWER: m = -\\tfrac{2}{3}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q1#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of k\nPerpendicular lines have slopes whose product is $-1$, so $m_k = -1 \\div m_l$.\nm_k &= -1 \\div \\left(-\\tfrac{2}{3}\\right)\n&= \\tfrac{3}{2}\n## Write the slope of AB using the slope formula\n$A(4,-2)$ and $B(r,7)$ give a slope of $\\dfrac{y_2-y_1}{x_2-x_1}$, which must equal $\\tfrac{3}{2}$.\n\\frac{7-(-2)}{r-4} &= \\frac{3}{2}\n\\frac{9}{r-4} &= \\frac{3}{2}\n## Cross-multiply\n9 \\times 2 &= 3(r-4)\n18 &= 3r - 12\n## Solve for r\n30 &= 3r\nr &= 10\nANSWER: r = 10"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q2#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Work out how many pairings there are\nEach of the 4 schools in Group 1 can meet each of the 4 schools in Group 2.\n4 \\times 4 &= 16\n## Fill in the table row by row\nRow A: AW, AX, AY, AZ. Row B: BW, BX, BY, BZ. Row C: CW, CX, CY, CZ. Row D: DW, DX, DY, DZ.\nWrite the missing 11 pairings in blue; the 5 printed ones stay as they are.\nANSWER: \\text{All 16 pairings, every Group 1 school with every Group 2 school}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q2#(a)(ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## (ii) Probability that School B plays in the final\nRow B of the table has 4 pairings (BW, BX, BY, BZ) out of 16.\nP(B) &= \\frac{4}{16}\n&= \\frac{1}{4}\n## (iii) Count the pairings now that D has withdrawn\nGroup 1 is now A, B, C, so the table has $3 \\times 4 = 12$ equally likely pairings.\nB but not Z: BW, BX, BY, which is 3 pairings.\nZ but not B: AZ, CZ, which is 2 pairings.\n## (iii) Add the pairings and divide by 12\nP(\\text{B or Z, not both}) &= \\frac{3 + 2}{12}\n&= \\frac{5}{12}\nANSWER: \\text{(ii) } \\tfrac{1}{4} \\qquad \\text{(iii) } \\tfrac{5}{12}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q2#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Use the fact that the probabilities add up to 1\nThere are no draws, so Peter wins every game that Erika does not win.\nP(\\text{Peter wins}) &= 1 - 0.6\n&= 0.4\nANSWER: 0.4"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q2#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## List the ways Erika wins the match\nShe needs two wins before Peter does. Write E for an Erika win and P for a Peter win.\nThe three ways are EE, EPE and PEE.\n## Probability of EE\nP(EE) &= 0.6 \\times 0.6\n&= 0.36\n## Probability of EPE\nP(EPE) &= 0.6 \\times 0.4 \\times 0.6\n&= 0.144\n## Probability of PEE\nP(PEE) &= 0.4 \\times 0.6 \\times 0.6\n&= 0.144\n## Add the three probabilities\nP(\\text{Erika wins}) &= 0.36 + 0.144 + 0.144\n&= 0.648\n&= \\frac{81}{125}\nANSWER: 0.648 = \\tfrac{81}{125}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q3#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## (i) Count the activities in each category\nCategory 1 has 5 activities, Category 2 has 6 and Category 3 has 4.\n## (i) Multiply the numbers of choices\nTara picks one from each category, so multiply the numbers.\n\\text{Choices} &= 5 \\times 6 \\times 4\n&= 30 \\times 4\n&= 120\n## (ii) Remove one from Category 1\n4 \\times 6 \\times 4 &= 24 \\times 4\n&= 96\n## (ii) Remove one from Category 2\n5 \\times 5 \\times 4 &= 25 \\times 4\n&= 100\n## (ii) Remove one from Category 3\n5 \\times 6 \\times 3 &= 30 \\times 3\n&= 90\n## (ii) Compare the three totals\nCategory 2 leaves the most choices (100, against 96 and 90), so tick Category 2.\nANSWER: \\text{(i) } 120 \\qquad \\text{(ii) Category 2}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q3#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Arrange 7 exams in order\nThe first exam can be any of 7, the next any of the remaining 6, and so on. This is $7!$.\n7! &= 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1\n&= 42 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1\n&= 210 \\times 4 \\times 3 \\times 2 \\times 1\n&= 840 \\times 3 \\times 2 \\times 1\n&= 2520 \\times 2 \\times 1\n&= 5040\nANSWER: 5040"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q3#(b)(ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## (ii) Arrange 3 exams chosen from 7\nOrder matters, so use ${}^7P_3$: 7 choices, then 6, then 5.\n{}^7P_3 &= 7 \\times 6 \\times 5\n&= 42 \\times 5\n&= 210\n## (iii) Maths is fixed first, so arrange 2 of the other 6\nTwo Monday slots are left, filled from the other 6 exams: 6 choices, then 5.\n{}^6P_2 &= 6 \\times 5\n&= 30\nANSWER: \\text{(ii) } 210 \\qquad \\text{(iii) } 30"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q4#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find angle A using angles in a triangle\nThe triangle is isosceles, so the two base angles are equal. The angles of a triangle add to $180^\\circ$.\nA + A + 44 &= 180\n2A &= 180 - 44\n2A &= 136\nA &= 68\n## Find angle B using the exterior angle\n$B$ is an exterior angle, so it equals the sum of the two opposite interior angles ($44^\\circ$ and $A$).\nB &= 44 + 68\n&= 112\nANSWER: |\\angle A| = 68^\\circ, \\quad |\\angle B| = 112^\\circ"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q4#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Use the area formula with two sides and the angle between them\nThe two sides of 12 cm meet at the $44^\\circ$ angle. Set your calculator to degrees.\n\\text{Area} &= \\tfrac{1}{2}ab\\sin C\n&= \\tfrac{1}{2}(12)(12)\\sin 44^\\circ\n&= 72 \\sin 44^\\circ\n&= 50.0154\\ldots\n&\\approx 50\nANSWER: 50 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Draw and label the triangle\nDraw triangle $PQR$ with $|PQ|=9$, $|PR|=12$ and $|QR|=10$. Let $\\theta = \\angle QPR$.\n$\\theta$ is the angle at $P$, between sides $PQ$ and $PR$, and it is opposite side $QR$ (10 cm).\n## Write the cosine rule for the side opposite θ\nThe rule is $a^2 = b^2 + c^2 - 2bc\\cos A$, with $a=|QR|$ and the other two sides $b$, $c$.\n10^2 &= 9^2 + 12^2 - 2(9)(12)\\cos\\theta\n## Work out the squares and the product\n100 &= 81 + 144 - 2(9)(12)\\cos\\theta\n100 &= 81 + 144 - 216\\cos\\theta\n100 &= 225 - 216\\cos\\theta\n## Make cos θ the subject\n216\\cos\\theta &= 225 - 100\n216\\cos\\theta &= 125\n\\cos\\theta &= \\frac{125}{216}\n## Use the inverse cosine to find θ\n\\theta &= \\cos^{-1}\\left(\\frac{125}{216}\\right)\n&= 54.6\\ldots^\\circ\n&\\approx 55^\\circ\nANSWER: |\\angle QPR| \\approx 55^\\circ"
+ }
+]

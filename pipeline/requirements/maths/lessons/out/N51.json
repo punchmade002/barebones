@@ -1,0 +1,85 @@
+[
+ {"skill": "trig-unit-circle", "problems": [
+  {"part": "maths-pp-2023-higher-p2-q9#(c)(i)", "note": null,
+   "legend": {"1": "the angle θ", "2": "the related angle", "3": "x co-ordinate, cos θ", "4": "y co-ordinate, sin θ"},
+   "steps": [
+    {"ask": "$P = (-1, 0)$ and $\\angle QOP = 45^\\circ$. What angle does $OQ$ make with the positive $x$-axis?",
+     "title": "Place Q on the unit circle using the angle",
+     "lines": [
+      {"text": "$|\\angle QOP| = 45^\\circ$ and $P = (-1, 0)$, so $OQ$ makes $\\hl{1}{135^\\circ}$ with the positive $x$-axis."},
+      {"text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."},
+      {"tex": "Q &= (\\cos \\hl{1}{135^\\circ}, \\sin \\hl{1}{135^\\circ})"}
+     ]},
+    {"ask": "Is cos positive or negative in the quadrant where OQ lies? What is the related angle?",
+     "title": "Find the x co-ordinate",
+     "lines": [
+      {"tex": "\\cos \\hl{1}{135^\\circ} &= -\\cos \\hl{2}{45^\\circ}"},
+      {"tex": "&= \\hl{3}{-\\frac{1}{\\sqrt{2}}}"}
+     ]},
+    {"ask": "Is sin positive or negative in this quadrant? Use the related angle to find the y co-ordinate.",
+     "title": "Find the y co-ordinate",
+     "lines": [
+      {"tex": "\\sin \\hl{1}{135^\\circ} &= \\sin \\hl{2}{45^\\circ}"},
+      {"tex": "&= \\hl{4}{\\frac{1}{\\sqrt{2}}}"}
+     ]}
+   ],
+   "final": "Q = \\left(\\hl{3}{-\\frac{1}{\\sqrt{2}}}, \\hl{4}{\\frac{1}{\\sqrt{2}}}\\right)",
+   "graph": null},
+  {"part": "practice-trig-unit-circle-2", "note": "This problem gives the angle directly as 300° rather than working it out from the exam diagram, and 300° is in the fourth quadrant, where cos is positive and sin is negative. The steps are the same.",
+   "legend": {"1": "the angle θ", "2": "the related angle", "3": "x co-ordinate, cos θ", "4": "y co-ordinate, sin θ"},
+   "steps": [
+    {"ask": "What are the co-ordinates of any point at angle θ on the unit circle?",
+     "title": "Place P on the unit circle using the angle",
+     "lines": [
+      {"text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."},
+      {"tex": "P &= (\\cos \\hl{1}{300^\\circ}, \\sin \\hl{1}{300^\\circ})"}
+     ]},
+    {"ask": "Which quadrant is 300° in, and is cos positive or negative there? What is the related angle?",
+     "title": "Find the x co-ordinate",
+     "lines": [
+      {"text": "$\\hl{1}{300^\\circ}$ is in the fourth quadrant, where cos is positive. The related angle is $\\hl{2}{60^\\circ}$."},
+      {"tex": "\\cos \\hl{1}{300^\\circ}"},
+      {"tex": "&= \\cos \\hl{2}{60^\\circ}"},
+      {"tex": "&= \\hl{3}{\\frac{1}{2}}"}
+     ]},
+    {"ask": "Is sin positive or negative in this quadrant? What size is sin of the related angle?",
+     "title": "Find the y co-ordinate",
+     "lines": [
+      {"text": "In the fourth quadrant sin is negative."},
+      {"tex": "\\sin \\hl{1}{300^\\circ}"},
+      {"tex": "&= -\\sin \\hl{2}{60^\\circ}"},
+      {"tex": "&= \\hl{4}{-\\frac{\\sqrt{3}}{2}}"}
+     ]}
+   ],
+   "final": "P = \\left(\\hl{3}{\\frac{1}{2}}, \\hl{4}{-\\frac{\\sqrt{3}}{2}}\\right)",
+   "graph": null},
+  {"part": "practice-trig-unit-circle-1", "note": "Only the quadrant changes: 210° is in the third quadrant, where both cos and sin are negative, instead of the fourth. The steps are the same.",
+   "legend": {"1": "the angle θ", "2": "the related angle", "3": "x co-ordinate, cos θ", "4": "y co-ordinate, sin θ"},
+   "steps": [
+    {"ask": "Which two trig ratios give the co-ordinates of a point at angle θ on the unit circle?",
+     "title": "Place P on the unit circle using the angle",
+     "lines": [
+      {"text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."},
+      {"tex": "P &= (\\cos \\hl{1}{210^\\circ}, \\sin \\hl{1}{210^\\circ})"}
+     ]},
+    {"ask": "Which quadrant is 210° in, and is cos positive or negative there? What is the related angle?",
+     "title": "Find the x co-ordinate",
+     "lines": [
+      {"text": "$\\hl{1}{210^\\circ}$ is in the third quadrant, where cos is negative. The related angle is $\\hl{2}{30^\\circ}$."},
+      {"tex": "\\cos \\hl{1}{210^\\circ}"},
+      {"tex": "&= -\\cos \\hl{2}{30^\\circ}"},
+      {"tex": "&= \\hl{3}{-\\frac{\\sqrt{3}}{2}}"}
+     ]},
+    {"ask": "Is sin positive or negative in the third quadrant? What size is sin of the related angle?",
+     "title": "Find the y co-ordinate",
+     "lines": [
+      {"text": "In the third quadrant sin is also negative."},
+      {"tex": "\\sin \\hl{1}{210^\\circ}"},
+      {"tex": "&= -\\sin \\hl{2}{30^\\circ}"},
+      {"tex": "&= \\hl{4}{-\\frac{1}{2}}"}
+     ]}
+   ],
+   "final": "P = \\left(\\hl{3}{-\\frac{\\sqrt{3}}{2}}, \\hl{4}{-\\frac{1}{2}}\\right)",
+   "graph": null}
+ ]}
+]

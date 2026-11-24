@@ -1,0 +1,605 @@
+[
+ {
+  "skill": "cx-modulus",
+  "what": {
+   "say": [
+    "You give it a complex number, $z = a + bi$. It finds $|z|$, the **distance** from the origin to the point $(a, b)$ on the Argand diagram.",
+    "The key idea: $a$ across and $b$ up make a right-angled triangle, so Pythagoras gives $|z| = \\sqrt{a^2 + b^2}$."
+   ],
+   "in": "$z = a + bi$",
+   "out": "$|z|$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside bigger complex-number questions on Paper 1: finding $r$ before writing polar form (2016, 2017, 2023), or checking an identity with moduli (2022, 10 marks).",
+   "ordinary": "Ordinary level asks for it almost every year on Paper 1, as a 5 or 10 mark part of the complex-number question: find $|z|$ directly, or find $z_1 - z_2$ first and then its modulus."
+  },
+  "example": {
+   "question": "$z_1 = 2 - 3i$ and $z_2 = 5 + i$. Find $|z_1 - z_2|$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Subtract first",
+      "say": "The modulus belongs to one number, so combine $z_1 - z_2$ into the form $a + bi$ before you measure it. Subtract the real parts, then the imaginary parts.",
+      "lines": [
+       {
+        "tex": "z_1 - z_2 &= (2 - 3i) - (5 + i)",
+        "sym": "(2-3*I)-(5+I)"
+       },
+       {
+        "tex": "&= \\hl{1}{-3} \\hl{2}{- 4}i",
+        "sym": "-3-4*I"
+       }
+      ]
+     },
+     {
+      "title": "Write the modulus formula",
+      "say": "For $a + bi$ the distance from the origin is the hypotenuse of a triangle with sides $a$ and $b$.",
+      "lines": [
+       {
+        "tex": "|a + bi| &= \\sqrt{a^2 + b^2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute and evaluate",
+      "say": "Here $a = \\hl{1}{-3}$ and $b = \\hl{2}{-4}$. Square each, so the minus signs disappear, then add.",
+      "lines": [
+       {
+        "tex": "|z_1 - z_2| &= \\sqrt{(\\hl{1}{-3})^2 + (\\hl{2}{-4})^2}",
+        "sym": "sqrt((-3)**2+(-4)**2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\sqrt{9 + 16}",
+        "sym": "sqrt(9+16)"
+       },
+       {
+        "tex": "&= \\sqrt{25}",
+        "sym": "sqrt(25)"
+       },
+       {
+        "tex": "&= \\hl{3}{5}",
+        "sym": "5"
+       },
+       {
+        "text": "If the root does not come out whole, leave it as a surd such as $\\sqrt{98}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|z_1 - z_2| = \\hl{3}{5}"
+   },
+   "finalSym": "5",
+   "answerSym": "abs((2-3*I)-(5+I))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "When the question asks you to show two moduli are related, finish with a statement that they are equal. Missing it costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q3#(a)(ii)",
+       "quote": "but no conclusion of equality"
+      }
+     ]
+    },
+    {
+     "tip": "In a polar-form question the modulus on its own is worth something: it is one of the first steps the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q1#(b)",
+       "quote": "modulus or argument correct"
+      },
+      {
+       "part": "maths-pp-2023-higher-p1-q4#(b)",
+       "quote": "4 steps: 1. Finds"
+      }
+     ]
+    },
+    {
+     "tip": "Use polar form when the question asks for it. Without it you get no credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q4#(b)",
+       "quote": "polar form must be used to achieve any credit"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the modulus formula down. The formula alone earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q2#(a)(ii), (iii)",
+       "quote": "Modulus formula written in"
+      },
+      {
+       "part": "maths-pp-2022-ordinary-p1-q1#(c)",
+       "quote": "formula for Modulus"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute fully into the formula. A fully substituted formula moves you to High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q3#(a)(iii)",
+       "quote": "Formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Leave the answer as a surd. You do not need a decimal or a simplified form.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q2#(c)",
+       "quote": "Accept √98 for full credit"
+      },
+      {
+       "part": "maths-pp-2023-ordinary-p1-q2#(a)(iv)",
+       "quote": "√40 𝑜𝑟 2√10"
+      }
+     ]
+    },
+    {
+     "tip": "When the modulus is of a sum or difference, do the arithmetic first. That step is marked on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q2#(c)",
+       "quote": "Work of relevance for"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "num-ratio-proportion",
+  "what": {
+   "say": [
+    "You give it quantities in a **ratio**, or two quantities that change together. It splits an amount into shares, or finds the unknown quantity.",
+    "The key idea: a ratio is a number of equal parts. Find what **one part** is worth, then scale it. Inverse proportion works the same way, but the product stays fixed."
+   ],
+   "in": "amount and a ratio",
+   "out": "each share"
+  },
+  "how": {
+   "higher": "Higher level has used it twice, as a step inside longer questions: scaling a model's lengths by a ratio (2025 Paper 2, 10 marks) and inverse proportion in a graph question (2023 Paper 1).",
+   "ordinary": "Ordinary level uses it nearly every year on Paper 1, usually as a 5 or 10 mark part: best value by cost per unit, sharing in a ratio, or time and speed."
+  },
+  "example": {
+   "question": "Dara and Eve share €216 in the ratio $7 : 5$. How much more than Eve does Dara get?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Count the parts",
+      "say": "A ratio of $7 : 5$ means the money is cut into equal parts. Add the two numbers to count them.",
+      "lines": [
+       {
+        "tex": "7 + 5 &= \\hl{1}{12}\\ \\text{parts}",
+        "sym": "7+5"
+       }
+      ]
+     },
+     {
+      "title": "Value of one part",
+      "say": "Divide the total by the number of parts to find what **one part** is worth.",
+      "lines": [
+       {
+        "tex": "\\text{1 part} &= 216 \\div \\hl{1}{12}",
+        "sym": "216/12"
+       },
+       {
+        "tex": "&= \\hl{2}{18}",
+        "sym": "18"
+       }
+      ]
+     },
+     {
+      "title": "Each person's share",
+      "say": "Dara has $7$ parts and Eve has $5$. Multiply each by $\\hl{2}{18}$.",
+      "lines": [
+       {
+        "tex": "\\text{Dara} &= 7 \\times \\hl{2}{18}",
+        "sym": "7*18",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{126}",
+        "sym": "126"
+       },
+       {
+        "tex": "\\text{Eve} &= 5 \\times \\hl{2}{18}",
+        "sym": "5*18",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{4}{90}",
+        "sym": "90"
+       },
+       {
+        "text": "Check: 126 + 90 = 216."
+       }
+      ]
+     },
+     {
+      "title": "Find the difference",
+      "say": "Dara's share minus Eve's share.",
+      "lines": [
+       {
+        "tex": "\\hl{3}{126} - \\hl{4}{90} &= 36",
+        "sym": "126-90",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Dara gets €}36\\text{ more}"
+   },
+   "finalSym": "36",
+   "answerSym": "216*(7-5)/(7+5)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Do not round part-way through. Rounding an early value and using it later costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q7#(a)(i), (ii)",
+       "quote": "Apply a * once for early rounding in (ii)"
+      }
+     ]
+    },
+    {
+     "tip": "Find the scale factor first. It earns Low Partial Credit before any length is found.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q7#(a)(i), (ii)",
+       "quote": "or in (ii), finds 14"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "For best value, work out the cost per unit for both options. That alone reaches High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q3#(a)",
+       "quote": "the per unit cost of both"
+      },
+      {
+       "part": "maths-pp-2024-ordinary-p1-q3#(a)",
+       "quote": "The per unit cost of both"
+      }
+     ]
+    },
+    {
+     "tip": "Tick the box as well as showing the working. Both are marked.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q3#(a)",
+       "quote": "Correct box ticked"
+      },
+      {
+       "part": "maths-pp-2024-ordinary-p1-q3#(a)",
+       "quote": "Correct box ticked"
+      }
+     ]
+    },
+    {
+     "tip": "When sharing in a ratio, find the value of one part first. Calculating one part is marked on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q4#(b)",
+       "quote": "Calculates one part"
+      }
+     ]
+    },
+    {
+     "tip": "Simplify a ratio fully. Numbers in the right ratio that are not simplified only reach High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q10#(b)(i), (ii)",
+       "quote": "Any 3 natural numbers in the correct ratio, but not simplified"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "num-surds",
+  "what": {
+   "say": [
+    "You give it a surd expression, like $\\sqrt{72} - \\sqrt{18} + \\sqrt{50}$. It simplifies it to one exact form, with no root left on the bottom of a fraction.",
+    "The key idea: pull out the biggest **square factor**, since $\\sqrt{36 \\times 2} = 6\\sqrt{2}$. Then surds with the same root add and subtract like terms."
+   ],
+   "in": "$\\sqrt{72} - \\sqrt{18} + \\sqrt{50}$",
+   "out": "$8\\sqrt{2}$"
+  },
+  "how": {
+   "higher": "Higher level uses it most years as a step inside longer questions on both papers: writing $\\sqrt{32}$ and $\\sqrt{128}$ as $4\\sqrt{2}$ and $8\\sqrt{2}$ (2019), a volume from surd areas (2021, 10 marks), exact trig values (2023).",
+   "ordinary": "Ordinary level uses it on Paper 2 inside coordinate geometry and length questions (2018, 2021, 2023): the distance formula gives something like $\\sqrt{32}$, which you leave as it is or write as $4\\sqrt{2}$."
+  },
+  "example": {
+   "question": "Write $\\sqrt{72} - \\sqrt{18} + \\sqrt{50}$ in the form $a\\sqrt{2}$, where $a$ is a whole number.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Take out square factors",
+      "say": "Write each number under the root as a perfect square times $2$. Then take the square root of the perfect square.",
+      "lines": [
+       {
+        "tex": "\\sqrt{72} &= \\sqrt{36 \\times 2}",
+        "sym": "sqrt(36*2)",
+        "new": true
+       },
+       {
+        "tex": "&= 6\\hl{1}{\\sqrt{2}}",
+        "sym": "6*sqrt(2)"
+       },
+       {
+        "tex": "\\sqrt{18} &= \\sqrt{9 \\times 2}",
+        "sym": "sqrt(9*2)",
+        "new": true
+       },
+       {
+        "tex": "&= 3\\hl{1}{\\sqrt{2}}",
+        "sym": "3*sqrt(2)"
+       },
+       {
+        "tex": "\\sqrt{50} &= \\sqrt{25 \\times 2}",
+        "sym": "sqrt(25*2)",
+        "new": true
+       },
+       {
+        "tex": "&= 5\\hl{1}{\\sqrt{2}}",
+        "sym": "5*sqrt(2)"
+       }
+      ]
+     },
+     {
+      "title": "Add like surds",
+      "say": "Every term now has $\\hl{1}{\\sqrt{2}}$, so treat it like a letter. Add and subtract the numbers in front.",
+      "lines": [
+       {
+        "tex": "\\sqrt{72} - \\sqrt{18} + \\sqrt{50} &= 6\\hl{1}{\\sqrt{2}} - 3\\hl{1}{\\sqrt{2}} + 5\\hl{1}{\\sqrt{2}}",
+        "sym": "6*sqrt(2)-3*sqrt(2)+5*sqrt(2)",
+        "new": true
+       },
+       {
+        "tex": "&= (6 - 3 + 5)\\hl{1}{\\sqrt{2}}",
+        "sym": "(6-3+5)*sqrt(2)"
+       },
+       {
+        "tex": "&= \\hl{2}{8}\\hl{1}{\\sqrt{2}}",
+        "sym": "8*sqrt(2)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{2}{8}\\hl{1}{\\sqrt{2}}"
+   },
+   "finalSym": "8*sqrt(2)",
+   "answerSym": "sqrt(72)-sqrt(18)+sqrt(50)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Keep surds exact. If you convert to decimals you get Low Partial Credit at most.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q6#(a)(i)",
+       "quote": "converted to decimals, then award low partial credit at most"
+      }
+     ]
+    },
+    {
+     "tip": "Start by writing each surd as a multiple of the common root, such as $4\\sqrt{2}$. That earns the first marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q6#(a)(i)",
+       "quote": "√128 in the form"
+      }
+     ]
+    },
+    {
+     "tip": "Simplify the product. Writing out the surds multiplied together, with no simplifying, earns no credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q3#(a)",
+       "quote": "on its own is not awarded any credit"
+      }
+     ]
+    },
+    {
+     "tip": "When you square both sides, check each answer in the original equation. Presenting both solutions costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q6#(a)(i)",
+       "quote": "Both solutions presented"
+      },
+      {
+       "part": "maths-pp-2019-higher-p1-q6#(a)(i)",
+       "quote": "Check solutions"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the distance formula and substitute fully. That is worth High Partial Credit before any surd work.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q1#(a)(ii)",
+       "quote": "Correct formula fully substituted"
+      },
+      {
+       "part": "maths-pp-2018-ordinary-p2-q4#(b)",
+       "quote": "Formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Both $\\sqrt{45}$ and $3\\sqrt{5}$ earned full credit, so a surd left unsimplified is fine, but the simplified form is safer.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q1#(a)(ii)",
+       "quote": "√45 or 3√5"
+      }
+     ]
+    },
+    {
+     "tip": "Model answers finish by simplifying, for example down to $4\\sqrt{2}$.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q4#(b)",
+       "quote": "= √32 = 4√2 units"
+      },
+      {
+       "part": "maths-pp-2021-ordinary-p2-q2#(b)",
+       "quote": "Perimeter = 2 + 2 + 3√8"
+      }
+     ]
+    },
+    {
+     "tip": "Find the missing side by Pythagoras before working out area or perimeter. Finding it earns Mid Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q2#(b)",
+       "quote": "Correct reference to/use of Pythagoras to calculate"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "num-sci-notation",
+  "what": {
+   "say": [
+    "You give it numbers written as $a \\times 10^n$. It multiplies or divides them and gives the answer back in the same form, with $1 \\le a < 10$.",
+    "The key idea: work on the two parts separately. Multiply or divide the $a$ parts, then add or subtract the powers of $10$. If $a$ ends up outside $1$ to $10$, shift the point and change $n$ to match."
+   ],
+   "in": "numbers in $a \\times 10^n$ form",
+   "out": "result as $a \\times 10^n$"
+  },
+  "how": {
+   "higher": "Higher level has used it once, in 2024 on Paper 1 (5 marks): an exponential model gave a number that had to be written as $a \\times 10^n$.",
+   "ordinary": "Ordinary level uses it in most years on either paper, as a 5 to 15 mark part: write a number in the form, multiply or divide two such numbers, or find a distance such as light travels in a year."
+  },
+  "example": {
+   "question": "A hard drive holds $1.8 \\times 10^{12}$ bytes. Each photo uses $4.5 \\times 10^{6}$ bytes. How many photos fit on the drive? Give your answer in the form $a \\times 10^n$, where $1 \\le a < 10$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Set up the division",
+      "say": "The number of photos is the size of the drive divided by the size of one photo.",
+      "lines": [
+       {
+        "tex": "\\text{photos} &= \\frac{1.8 \\times 10^{12}}{4.5 \\times 10^{6}}",
+        "sym": "(1.8*10**12)/(4.5*10**6)"
+       }
+      ]
+     },
+     {
+      "title": "Divide the parts separately",
+      "say": "Divide the front numbers. For the powers of $10$, subtract the indices.",
+      "lines": [
+       {
+        "tex": "&= \\frac{1.8}{4.5} \\times 10^{12 - 6}",
+        "sym": "(1.8/4.5)*10**(12-6)"
+       },
+       {
+        "tex": "&= 0.4 \\times 10^{6}",
+        "sym": "0.4*10**6"
+       }
+      ]
+     },
+     {
+      "title": "Fix the front number",
+      "say": "The front number $a$ must be at least $1$, and $0.4$ is not. Multiply it by $10$ and take one off the power.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{4} \\times 10^{\\hl{2}{5}}",
+        "sym": "4*10**5"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{4} \\times 10^{\\hl{2}{5}}"
+   },
+   "finalSym": "4*10**5",
+   "answerSym": "(18/10*10**12)/(45/10*10**6)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Give the final answer in the form $a \\times 10^n$ when the question asks. Otherwise you get Partial Credit at most.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q6#(b)(i)",
+       "quote": "If answer is not in the form"
+      }
+     ]
+    },
+    {
+     "tip": "Round $a$ to the decimal places asked for. A wrong $a$ costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q6#(b)(i)",
+       "quote": "is not correct to one decimal place"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Make sure $a$ is between $1$ and $10$. A number with $a$ outside that range only earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q5#(a)(i), (ii)",
+       "quote": "one number correctly written in form"
+      }
+     ]
+    },
+    {
+     "tip": "Keep going until $a$ is between $1$ and $10$. Unfinished forms like $165 \\times 10^9$ only earn partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q7#(a)",
+       "quote": "Accept any one of the following"
+      }
+     ]
+    },
+    {
+     "tip": "In a distance-in-a-year question, find the number of seconds first. It is marked on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q6#(b)",
+       "quote": "Finds total number of seconds"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

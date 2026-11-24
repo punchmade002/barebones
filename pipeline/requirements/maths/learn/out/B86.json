@@ -1,0 +1,489 @@
+[
+ {
+  "skill": "trig-derive-1",
+  "what": {
+   "say": [
+    "You give it the unit circle and an angle $A$. It builds the formula $\\cos^2 A + \\sin^2 A = 1$ from **Pythagoras**.",
+    "The point at angle $A$ has coordinates $(\\cos A, \\sin A)$, and it sits exactly 1 from the centre. Pythagoras on that distance is the whole proof."
+   ],
+   "in": "unit circle, angle $A$",
+   "out": "$\\cos^2 A + \\sin^2 A = 1$"
+  },
+  "how": {},
+  "example": {
+   "question": "The point $P$ lies on the unit circle, at angle $A$ from the positive $x$-axis. Use the right-angled triangle formed by $P$ to prove that $\\cos^2 A + \\sin^2 A = 1$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the triangle",
+      "say": "Draw the unit circle, with centre $O$ and radius $1$. Put $P$ at angle $A$ and drop a vertical line from $P$ to the $x$-axis. That makes a right-angled triangle with hypotenuse $OP = 1$.",
+      "lines": [
+       {
+        "text": "Hypotenuse $|OP| = 1$, because $P$ is on the unit circle."
+       }
+      ]
+     },
+     {
+      "title": "Read off the sides",
+      "say": "By definition, the coordinates of $P$ are $(\\cos A, \\sin A)$. So the horizontal side is $\\hl{1}{\\cos A}$ and the vertical side is $\\hl{2}{\\sin A}$.",
+      "lines": [
+       {
+        "tex": "x &= \\hl{1}{\\cos A}"
+       },
+       {
+        "tex": "y &= \\hl{2}{\\sin A}"
+       }
+      ]
+     },
+     {
+      "title": "Apply Pythagoras",
+      "say": "In a right-angled triangle, the squares of the two shorter sides add to the square of the hypotenuse. Write that with the sides from the last step.",
+      "lines": [
+       {
+        "tex": "x^2 + y^2 &= |OP|^2"
+       },
+       {
+        "tex": "\\hl{1}{\\cos A}^2 + \\hl{2}{\\sin A}^2 &= 1^2"
+       },
+       {
+        "tex": "&= 1",
+        "sym": "1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Any angle",
+      "say": "For an angle in another quadrant a coordinate is negative, but squaring removes the sign. The result holds for every $A$.",
+      "lines": [
+       {
+        "text": "$\\cos^2 A + \\sin^2 A = 1$"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\cos^2 A + \\sin^2 A = 1"
+   },
+   "finalSym": "0",
+   "answerSym": "cos(pi/7)**2 + sin(pi/7)**2 - 1"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-compound",
+  "what": {
+   "say": [
+    "You give it a sum or difference of two angles, $A \\pm B$. It writes the sine, cosine or tangent of it in terms of $\\sin$ and $\\cos$ of $A$ and $B$ **separately**.",
+    "To find an exact value, split the angle into two you already know, such as $30°$, $45°$, $60°$ or $90°$, then put their exact values into the formula."
+   ],
+   "in": "$A \\pm B$",
+   "out": "exact value or expansion"
+  },
+  "how": {
+   "higher": "On Paper 2 it is usually a 10 mark part: find an exact value such as $\\sin 75°$, or prove $\\tan(A \\pm B)$ in 2015 and 2022. It also sits inside bigger proofs, such as the De Moivre induction in 2018."
+  },
+  "example": {
+   "question": "Use a compound angle formula to find the exact value of $\\cos 105°$. Give your answer in surd form.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split the angle",
+      "say": "We know exact values for $\\hl{1}{60°}$ and $\\hl{2}{45°}$, and they add to $105°$. So write $105°$ as $\\hl{1}{60°} + \\hl{2}{45°}$.",
+      "lines": [
+       {
+        "tex": "105° &= \\hl{1}{60°} + \\hl{2}{45°}",
+        "sym": "pi/3 + pi/4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the formula",
+      "say": "Cosine of a sum is cosine times cosine **minus** sine times sine. Write the formula, with $A = \\hl{1}{60°}$ and $B = \\hl{2}{45°}$.",
+      "lines": [
+       {
+        "tex": "\\cos(A + B) &= \\cos A \\cos B - \\sin A \\sin B"
+       },
+       {
+        "tex": "\\cos(\\hl{1}{60°} + \\hl{2}{45°}) &= \\cos \\hl{1}{60°} \\cos \\hl{2}{45°} - \\sin \\hl{1}{60°} \\sin \\hl{2}{45°}"
+       }
+      ]
+     },
+     {
+      "title": "Put in exact values",
+      "say": "Use $\\cos 60° = \\frac{1}{2}$, $\\sin 60° = \\frac{\\sqrt{3}}{2}$, and $\\cos 45° = \\sin 45° = \\frac{1}{\\sqrt{2}}$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{1}{2}\\cdot\\frac{1}{\\sqrt{2}} - \\frac{\\sqrt{3}}{2}\\cdot\\frac{1}{\\sqrt{2}}",
+        "sym": "Rational(1,2)/sqrt(2) - sqrt(3)/2/sqrt(2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1 - \\sqrt{3}}{2\\sqrt{2}}",
+        "sym": "(1 - sqrt(3))/(2*sqrt(2))"
+       }
+      ]
+     },
+     {
+      "title": "Rationalise",
+      "say": "Multiply the top and bottom by $\\sqrt{2}$ to remove the surd from the bottom.",
+      "lines": [
+       {
+        "tex": "&= \\frac{(1 - \\sqrt{3})\\sqrt{2}}{2\\sqrt{2}\\cdot\\sqrt{2}}",
+        "sym": "(1 - sqrt(3))*sqrt(2)/(2*sqrt(2)*sqrt(2))"
+       },
+       {
+        "tex": "&= \\frac{\\sqrt{2} - \\sqrt{6}}{4}",
+        "sym": "(sqrt(2) - sqrt(6))/4"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{\\sqrt{2} - \\sqrt{6}}{4}"
+   },
+   "finalSym": "(sqrt(2) - sqrt(6))/4",
+   "answerSym": "cos(7*pi/12)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Split the angle into two you know exactly, such as $30° + 45°$. Writing the split earns work-of-merit credit before any formula is used.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q2#(b)",
+       "quote": "for example 30 + 45"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute the two exact values into the formula in full. That line alone reaches high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q2#(b)",
+       "quote": "sin 30 cos 45 + cos 30 sin 45 or"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-solve-general",
+  "what": {
+   "say": [
+    "You give it an equation such as $\\sin 2x = k$. It finds **every** solution in the range you are given.",
+    "Solve for the whole angle $2x$ first, over the longer range it covers, and divide by $2$ only at the end."
+   ],
+   "in": "$\\sin nx = k$",
+   "out": "all solutions in the range"
+  },
+  "how": {
+   "higher": "On Paper 2 it is a part of its own, 5 to 15 marks, in most years from 2015 to 2024. Some are in degrees and some in radians, and some ask for the general solution with $n$."
+  },
+  "example": {
+   "question": "Solve $\\sin 2x = -\\dfrac{1}{2}$ for $0 \\le x \\le 2\\pi$. Give your answers in radians, in terms of $\\pi$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the reference angle",
+      "say": "Ignore the minus sign and find the acute angle with $\\sin = \\frac{1}{2}$. This is the **reference angle**.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{ref}} &= \\sin^{-1}\\left(\\tfrac{1}{2}\\right)",
+        "sym": "asin(Rational(1,2))",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{\\pi}{6}",
+        "sym": "pi/6"
+       }
+      ]
+     },
+     {
+      "title": "Choose the quadrants",
+      "say": "Sine is negative in the 3rd and 4th quadrants. Measure $2x$ from the reference angle $\\hl{1}{\\frac{\\pi}{6}}$ in each one.",
+      "lines": [
+       {
+        "tex": "2x &= \\pi + \\hl{1}{\\tfrac{\\pi}{6}}",
+        "sym": "pi + pi/6",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{7\\pi}{6}",
+        "sym": "7*pi/6"
+       },
+       {
+        "tex": "2x &= 2\\pi - \\hl{1}{\\tfrac{\\pi}{6}}",
+        "sym": "2*pi - pi/6",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{11\\pi}{6}",
+        "sym": "11*pi/6"
+       }
+      ]
+     },
+     {
+      "title": "Add full turns",
+      "say": "Since $0 \\le x \\le 2\\pi$, the angle $2x$ runs from $0$ to $4\\pi$. Add $2\\pi$ to each answer to find the second lap.",
+      "lines": [
+       {
+        "tex": "2x &= \\frac{7\\pi}{6} + 2\\pi",
+        "sym": "7*pi/6 + 2*pi",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{19\\pi}{6}",
+        "sym": "19*pi/6"
+       },
+       {
+        "tex": "2x &= \\frac{11\\pi}{6} + 2\\pi",
+        "sym": "11*pi/6 + 2*pi",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{23\\pi}{6}",
+        "sym": "23*pi/6"
+       },
+       {
+        "text": "Adding $2\\pi$ again would pass $4\\pi$, so stop."
+       }
+      ]
+     },
+     {
+      "title": "Divide by 2",
+      "say": "Now divide each of the four values of $2x$ by $2$ to get $x$.",
+      "lines": [
+       {
+        "tex": "x &= \\frac{7\\pi}{12},\\ \\frac{11\\pi}{12},\\ \\frac{19\\pi}{12},\\ \\frac{23\\pi}{12}"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = \\frac{7\\pi}{12},\\ \\frac{11\\pi}{12},\\ \\frac{19\\pi}{12},\\ \\frac{23\\pi}{12}"
+   },
+   "finalSym": "[7*pi/12, 11*pi/12, 19*pi/12, 23*pi/12]",
+   "answerSym": "Tuple(*solveset(sin(2*x) + Rational(1,2), x, Interval(0, 2*pi)))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Name the quadrants and the reference angle. Both earn partial credit before any value of the angle is found.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q4#(a)",
+       "quote": "Mention of 2nd or 4th quadrants"
+      },
+      {
+       "part": "maths-pp-2024-higher-p2-q3#(b)",
+       "quote": "Reference angle in 1st and 4th quadrants"
+      }
+     ]
+    },
+    {
+     "tip": "Write each value of the multiple angle, such as $2x$, as well as the final $x$. Values of $2x$ found without the divide-by-2 step still earn high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q3#(b)",
+       "quote": "found but fails"
+      },
+      {
+       "part": "maths-pp-2018-higher-p2-q4#(a)",
+       "quote": "2 relevant values of"
+      }
+     ]
+    },
+    {
+     "tip": "For a radian question, set the calculator to radians. Degree mode costs a mark even if the rest is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q8#(e)",
+       "quote": "Calculator in degree mode,"
+      }
+     ]
+    },
+    {
+     "tip": "Write the general solution with $n$, then put in $n = 0, 1, 2, \\dots$ until you leave the range, so no solution is missed.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q5#(b)",
+       "quote": "x=20 ° +n(120 ° )"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-graph-abc",
+  "what": {
+   "say": [
+    "You give it the numbers $a$, $b$ and $c$ in $a + b\\cos c\\theta$, or the graph itself. It finds the **period** and the **range**, or goes the other way.",
+    "The period is $\\frac{2\\pi}{c}$. The graph swings $|b|$ above and below the middle line $a$, so the range is $[a - |b|,\\ a + |b|]$."
+   ],
+   "in": "$a$, $b$, $c$ or the graph",
+   "out": "period, range, graph"
+  },
+  "how": {
+   "higher": "On both papers it is the most examined trigonometry skill, in every year but 2019, 2020 and 2025. Usually it is a short 5 mark part asking for the period and range of a model such as tides, volume of air or current, and sometimes a sketch."
+  },
+  "example": {
+   "question": "The depth of water in a harbour is modelled by $h(t) = 8 + 3\\cos\\left(\\dfrac{\\pi t}{6}\\right)$ metres, where $t$ is the time in hours. Find the period and the range of $h$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Match the form",
+      "say": "Compare with $a + b\\cos ct$. Here $a = 8$, $b = 3$ and $c = \\frac{\\pi}{6}$.",
+      "lines": [
+       {
+        "text": "$a = 8$, $b = 3$, $c = \\dfrac{\\pi}{6}$"
+       }
+      ]
+     },
+     {
+      "title": "Find the period",
+      "say": "One full wave takes $\\frac{2\\pi}{c}$ hours. Put in $c = \\frac{\\pi}{6}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{period}} &= \\frac{2\\pi}{c}"
+       },
+       {
+        "tex": "&= \\frac{2\\pi}{\\pi/6}",
+        "sym": "2*pi/(pi/6)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{12}",
+        "sym": "12"
+       }
+      ]
+     },
+     {
+      "title": "Find the range",
+      "say": "The cosine swings between $-1$ and $1$, so $h$ swings $3$ above and $3$ below the middle value $8$. Work out the lowest and highest depth.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\text{min}} &= a - |b| = 8 - 3",
+        "sym": "8 - 3",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{5}",
+        "sym": "5"
+       },
+       {
+        "tex": "\\hl{3}{\\text{max}} &= a + |b| = 8 + 3",
+        "sym": "8 + 3",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{11}",
+        "sym": "11"
+       }
+      ]
+     },
+     {
+      "title": "State the range",
+      "say": "Write the range as an interval from the lowest value $\\hl{2}{5}$ to the highest $\\hl{3}{11}$.",
+      "lines": [
+       {
+        "text": "Range $= [\\hl{2}{5},\\ \\hl{3}{11}]$ metres. Period $= \\hl{1}{12}$ hours."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{period} = 12,\\ \\text{range} = [5, 11]"
+   },
+   "finalSym": "[12, 5, 11]",
+   "answerSym": "[2*pi/(pi/6), 8 - 3, 8 + 3]"
+  },
+  "graph": {
+   "f": "8 + 3*cos(pi*x/6)",
+   "box": [
+    0,
+    12,
+    12,
+    4
+   ],
+   "points": [
+    {
+     "x": 0,
+     "y": 11,
+     "name": "max (0, 11)"
+    },
+    {
+     "x": 6,
+     "y": 5,
+     "name": "min (6, 5)"
+    },
+    {
+     "x": 12,
+     "y": 11,
+     "name": "max (12, 11)"
+    }
+   ],
+   "slots": null
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Say which value is the maximum and which is the minimum. Giving $2$ and $40$ without labels loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q8#(b)",
+       "quote": "Answers given as 2 and 40, but"
+      }
+     ]
+    },
+    {
+     "tip": "Keep the period and the range apart. Swapping them loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q8#(c)",
+       "quote": "Period and range correct, but"
+      }
+     ]
+    },
+    {
+     "tip": "When you sketch, show a sine curve of at least one full period and mark both the period and the range on the axes.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q9#(b)(i)",
+       "quote": "sine curve of at least one period,"
+      }
+     ]
+    },
+    {
+     "tip": "Check the calculator mode. Degrees when the question is in radians costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q9#(b)(i)",
+       "quote": "Calculator in incorrect mode"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

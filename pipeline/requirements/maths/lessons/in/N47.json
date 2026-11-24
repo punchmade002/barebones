@@ -1,0 +1,951 @@
+[
+ {
+  "skill": {
+   "id": "mens-nets",
+   "title": "Draw and interpret nets of prisms, cylinders and cones",
+   "level": "OL",
+   "input": "solid",
+   "output": "net and its dimensions"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-ordinary-p1-q8#(a)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the dimensions from the diagram",
+      "lines": [
+       {
+        "text": "A square of side $x$ is cut from each corner, so $x$ is removed from both ends of each 10-unit side."
+       },
+       {
+        "tex": "l &= 10 - x - x"
+       },
+       {
+        "tex": "&= 10 - 2x"
+       },
+       {
+        "tex": "b &= 10 - 2x"
+       },
+       {
+        "text": "The height is the folded-up side of a cut-out square."
+       },
+       {
+        "tex": "h &= x"
+       }
+      ]
+     }
+    ],
+    "final": "l = 10 - 2x, \\quad b = 10 - 2x, \\quad h = x"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q8#(b)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the corners and faces of a cube",
+      "lines": [
+       {
+        "text": "A cube has 8 corners and 6 faces, so $C = 8$ and $F = 6$."
+       }
+      ]
+     },
+     {
+      "title": "Check the identity",
+      "lines": [
+       {
+        "tex": "C - E + F &= 8 - 12 + 6"
+       },
+       {
+        "tex": "&= -4 + 6"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     }
+    ],
+    "final": "C = 8,\\ F = 6,\\ \\text{and } 8 - 12 + 6 = 2"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q10#(a)(i)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Convert each length using the scale 1 : 10",
+      "lines": [
+       {
+        "text": "Divide each length by 10. A scale of 1 : 10 turns 10 cm into 1 cm."
+       },
+       {
+        "tex": "70 \\div 10 &= 7"
+       },
+       {
+        "tex": "30 \\div 10 &= 3"
+       },
+       {
+        "tex": "20 \\div 10 &= 2"
+       },
+       {
+        "text": "The box is 7 cm long, 3 cm wide and 2 cm high on the drawing. Each small square is 1 cm."
+       }
+      ]
+     },
+     {
+      "title": "Draw the net with six rectangles",
+      "lines": [
+       {
+        "text": "Draw a column 7 cm wide made of four rectangles, from top to bottom: $7 \\times 2$, $7 \\times 3$, $7 \\times 2$, $7 \\times 3$."
+       },
+       {
+        "text": "Add a $2 \\times 3$ rectangle to each side of the second rectangle, to make the two ends of the box."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Net of six rectangles: two } 7 \\times 3,\\ \\text{two } 7 \\times 2,\\ \\text{two } 2 \\times 3"
+   },
+   {
+    "part": "practice-mens-nets-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A closed cylinder has radius $4$ cm and height $9$ cm.\nWhen the curved surface is unrolled in its net, it forms a rectangle. Find the dimensions of this rectangle, correct to one decimal place.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the height side of the rectangle",
+      "lines": [
+       {
+        "text": "The curved surface unrolls into a rectangle. One side is the height of the cylinder."
+       },
+       {
+        "tex": "\\text{one side} &= 9 \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "title": "Find the other side using the circumference",
+      "lines": [
+       {
+        "text": "The other side is the circumference of the circular base, $2\\pi r$ with $r = 4$."
+       },
+       {
+        "tex": "2\\pi r &= 2\\pi(4)"
+       },
+       {
+        "tex": "&= 8\\pi"
+       },
+       {
+        "tex": "&= 25.13\\ldots \\approx 25.1"
+       }
+      ]
+     }
+    ],
+    "final": "9 \\text{ cm by } 25.1 \\text{ cm}"
+   },
+   {
+    "part": "practice-mens-nets-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A tin of beans is a cylinder with diameter $10$ cm and height $14$ cm.\nThe label goes once around the curved surface and is a rectangle in the net. Find the dimensions of the label, correct to one decimal place.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the height side of the rectangle",
+      "lines": [
+       {
+        "text": "The label unrolls into a rectangle. One side is the height of the tin."
+       },
+       {
+        "tex": "\\text{one side} &= 14 \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "title": "Find the other side using the circumference",
+      "lines": [
+       {
+        "text": "The other side is the circumference of the circular base, $\\pi d$ with $d = 10$."
+       },
+       {
+        "tex": "\\pi d &= \\pi(10)"
+       },
+       {
+        "tex": "&= 10\\pi"
+       },
+       {
+        "tex": "&= 31.41\\ldots \\approx 31.4"
+       }
+      ]
+     }
+    ],
+    "final": "14 \\text{ cm by } 31.4 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q8#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the height side of the rectangle",
+      "lines": [
+       {
+        "text": "An open cylinder unrolls into a rectangle. One side is the height of the cylinder."
+       },
+       {
+        "tex": "\\text{one side} &= 15 \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "title": "Find the other side using the circumference",
+      "lines": [
+       {
+        "text": "The other side is the circumference of the circular base, $2\\pi r$ with $r = 5$."
+       },
+       {
+        "tex": "2\\pi r &= 2\\pi(5)"
+       },
+       {
+        "tex": "&= 10\\pi"
+       },
+       {
+        "tex": "&= 31.41\\ldots \\approx 31.4"
+       }
+      ]
+     }
+    ],
+    "final": "15 \\text{ cm by } 31.4 \\text{ cm}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "circ-general-form",
+   "title": "Use x² + y² + 2gx + 2fy + c = 0",
+   "level": "HL",
+   "input": "general equation",
+   "output": "centre (−g, −f), r = √(g² + f² − c)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-higher-p2-q3#(a)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Complete the square to find the centre and radius",
+      "lines": [
+       {
+        "text": "Group the $x$ terms and the $y$ terms, then complete each square."
+       },
+       {
+        "tex": "x^2 - 2x + y^2 + 8y + k &= 0"
+       },
+       {
+        "tex": "(x-1)^2 - 1 + (y+4)^2 - 16 + k &= 0"
+       },
+       {
+        "tex": "(x-1)^2 + (y+4)^2 &= 17 - k"
+       }
+      ]
+     },
+     {
+      "title": "Use the radius",
+      "lines": [
+       {
+        "text": "The right-hand side is $r^2$, and $r = 5\\sqrt{3}$."
+       },
+       {
+        "tex": "17 - k &= \\left(5\\sqrt{3}\\right)^2"
+       },
+       {
+        "tex": "17 - k &= 75"
+       },
+       {
+        "tex": "k &= 17 - 75"
+       },
+       {
+        "tex": "k &= -58"
+       }
+      ]
+     }
+    ],
+    "final": "k = -58"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q5#(a)(i)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Compare with the general circle equation",
+      "lines": [
+       {
+        "text": "The general form is $x^2 + y^2 + 2gx + 2fy + c = 0$, with centre $(-g, -f)$ and radius $\\sqrt{g^2 + f^2 - c}$."
+       },
+       {
+        "tex": "2g &= 4 \\Rightarrow g = 2"
+       },
+       {
+        "tex": "2f &= -6 \\Rightarrow f = -3"
+       },
+       {
+        "tex": "c &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Write down the centre",
+      "lines": [
+       {
+        "tex": "\\text{Centre} &= (-g, -f)"
+       },
+       {
+        "tex": "&= (-2, 3)"
+       }
+      ]
+     },
+     {
+      "title": "Find the radius",
+      "lines": [
+       {
+        "tex": "r &= \\sqrt{g^2 + f^2 - c}"
+       },
+       {
+        "tex": "&= \\sqrt{(2)^2 + (-3)^2 - 5}"
+       },
+       {
+        "tex": "&= \\sqrt{4 + 9 - 5}"
+       },
+       {
+        "tex": "&= \\sqrt{8}"
+       },
+       {
+        "tex": "&= 2\\sqrt{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Centre} = (-2, 3), \\quad r = 2\\sqrt{2}"
+   },
+   {
+    "part": "practice-circ-general-form-1",
+    "level": "higher",
+    "year": null,
+    "question": "The circle $c$ has equation $x^2 + y^2 + 6x - 4y - 12 = 0$.\nFind the centre and the radius of $c$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Compare with the general circle equation",
+      "lines": [
+       {
+        "text": "The general form is $x^2 + y^2 + 2gx + 2fy + c = 0$, with centre $(-g, -f)$ and radius $\\sqrt{g^2 + f^2 - c}$."
+       },
+       {
+        "tex": "2g &= 6"
+       },
+       {
+        "tex": "g &= 3"
+       },
+       {
+        "tex": "2f &= -4"
+       },
+       {
+        "tex": "f &= -2"
+       },
+       {
+        "tex": "c &= -12"
+       }
+      ]
+     },
+     {
+      "title": "Write down the centre",
+      "lines": [
+       {
+        "tex": "\\text{Centre} &= (-g, -f)"
+       },
+       {
+        "tex": "&= (-3, 2)"
+       }
+      ]
+     },
+     {
+      "title": "Find the radius",
+      "lines": [
+       {
+        "tex": "r &= \\sqrt{g^2 + f^2 - c}"
+       },
+       {
+        "tex": "&= \\sqrt{(3)^2 + (-2)^2 - (-12)}"
+       },
+       {
+        "tex": "&= \\sqrt{9 + 4 + 12}"
+       },
+       {
+        "tex": "&= \\sqrt{25}"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Centre} = (-3, 2), \\quad r = 5"
+   },
+   {
+    "part": "practice-circ-general-form-2",
+    "level": "higher",
+    "year": null,
+    "question": "A circle has equation $x^2 + y^2 + 10x - 4y + 13 = 0$.\nFind the centre and the radius of the circle.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Compare with the general circle equation",
+      "lines": [
+       {
+        "text": "The general form is $x^2 + y^2 + 2gx + 2fy + c = 0$, with centre $(-g, -f)$ and radius $\\sqrt{g^2 + f^2 - c}$."
+       },
+       {
+        "tex": "2g &= 10"
+       },
+       {
+        "tex": "g &= 5"
+       },
+       {
+        "tex": "2f &= -4"
+       },
+       {
+        "tex": "f &= -2"
+       },
+       {
+        "tex": "c &= 13"
+       }
+      ]
+     },
+     {
+      "title": "Write down the centre",
+      "lines": [
+       {
+        "tex": "\\text{Centre} &= (-g, -f)"
+       },
+       {
+        "tex": "&= (-5, 2)"
+       }
+      ]
+     },
+     {
+      "title": "Find the radius",
+      "lines": [
+       {
+        "tex": "r &= \\sqrt{g^2 + f^2 - c}"
+       },
+       {
+        "tex": "&= \\sqrt{(5)^2 + (-2)^2 - 13}"
+       },
+       {
+        "tex": "&= \\sqrt{25 + 4 - 13}"
+       },
+       {
+        "tex": "&= \\sqrt{16}"
+       },
+       {
+        "tex": "&= 4"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Centre} = (-5, 2), \\quad r = 4"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "circ-touching",
+   "title": "Decide whether circles touch internally or externally",
+   "level": "HL",
+   "input": "two circles",
+   "output": "|c₁c₂| = r₁ + r₂ or |r₁ − r₂|"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-higher-p2-q3#(b)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the line through the two centres",
+      "lines": [
+       {
+        "text": "Any circle touching $c$ externally at the same point as $s$ has its centre on the line through the centres of $c$ and $s$, beyond $s$."
+       },
+       {
+        "tex": "m &= \\frac{13 - 1}{7 - (-2)}"
+       },
+       {
+        "tex": "&= \\frac{12}{9}"
+       },
+       {
+        "tex": "&= \\frac{4}{3}"
+       },
+       {
+        "tex": "y - 1 &= \\frac{4}{3}(x + 2)"
+       }
+      ]
+     },
+     {
+      "title": "Pick a point on that line on the far side of s",
+      "lines": [
+       {
+        "text": "The touching point is $(4, 9)$, so the centre must have $x > 4$. Choose $x = 10$."
+       },
+       {
+        "tex": "y - 1 &= \\frac{4}{3}(10 + 2)"
+       },
+       {
+        "tex": "y - 1 &= 16"
+       },
+       {
+        "tex": "y &= 17"
+       }
+      ]
+     }
+    ],
+    "final": "(10, 17)"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q3#(b)(i)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write circle c in centre-radius form",
+      "lines": [
+       {
+        "text": "Group the $x$ terms and the $y$ terms and move the constant across."
+       },
+       {
+        "tex": "x^2 + y^2 + 4x - 2y - 95 &= 0"
+       },
+       {
+        "tex": "x^2 + 4x + y^2 - 2y &= 95"
+       },
+       {
+        "text": "Complete the square: add $(4 \\div 2)^2 = 4$ and $(2 \\div 2)^2 = 1$ to both sides."
+       },
+       {
+        "tex": "x^2 + 4x + 4 + y^2 - 2y + 1 &= 95 + 4 + 1"
+       },
+       {
+        "tex": "(x+2)^2 + (y-1)^2 &= 100"
+       }
+      ]
+     },
+     {
+      "title": "Read off both centres and radii",
+      "lines": [
+       {
+        "text": "Circle $c$ has centre $(-2, 1)$ and radius $\\sqrt{100} = 10$."
+       },
+       {
+        "text": "Circle $s$, $(x-7)^2 + (y-13)^2 = 25$, has centre $(7, 13)$ and radius $5$."
+       }
+      ]
+     },
+     {
+      "title": "Compare the sum of the radii with the distance between centres",
+      "lines": [
+       {
+        "tex": "r_1 + r_2 &= 10 + 5"
+       },
+       {
+        "tex": "&= 15"
+       },
+       {
+        "tex": "d &= \\sqrt{(7-(-2))^2 + (13-1)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{9^2 + 12^2}"
+       },
+       {
+        "tex": "&= \\sqrt{81 + 144}"
+       },
+       {
+        "tex": "&= \\sqrt{225}"
+       },
+       {
+        "tex": "&= 15"
+       },
+       {
+        "text": "The distance between the centres equals $r_1 + r_2$, so the circles touch externally."
+       }
+      ]
+     }
+    ],
+    "final": "d = r_1 + r_2 = 15 \\text{, so the circles touch externally}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q5#(a)(ii)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read off circle c",
+      "lines": [
+       {
+        "text": "Circle $c$ is $(x-2)^2 + (y+1)^2 = 72$, so its centre is $(2, -1)$."
+       },
+       {
+        "tex": "r_c &= \\sqrt{72}"
+       },
+       {
+        "tex": "&= \\sqrt{36 \\times 2}"
+       },
+       {
+        "tex": "&= 6\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the distance between the centres",
+      "lines": [
+       {
+        "text": "Centres: $(-2, 3)$ for $s$ and $(2, -1)$ for $c$."
+       },
+       {
+        "tex": "d &= \\sqrt{(2-(-2))^2 + (-1-3)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{16 + 16}"
+       },
+       {
+        "tex": "&= \\sqrt{32}"
+       },
+       {
+        "tex": "&= 4\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the difference between the radii",
+      "lines": [
+       {
+        "tex": "r_c - r_s &= 6\\sqrt{2} - 2\\sqrt{2}"
+       },
+       {
+        "tex": "&= 4\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "tex": "d &= 4\\sqrt{2} = r_c - r_s"
+       },
+       {
+        "text": "The distance between the centres equals the difference of the radii, so the circles touch internally."
+       }
+      ]
+     }
+    ],
+    "final": "d = r_c - r_s = 4\\sqrt{2}"
+   },
+   {
+    "part": "practice-circ-touching-1",
+    "level": "higher",
+    "year": null,
+    "question": "The circle $c_1$ has equation $x^2 + y^2 - 4x - 6y - 51 = 0$.\nThe circle $c_2$ has equation $x^2 + y^2 - 10x - 14y + 65 = 0$.\nShow that $c_2$ touches $c_1$ internally.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write $c_1$ in centre-radius form",
+      "lines": [
+       {
+        "text": "Group the $x$ and $y$ terms and complete the square."
+       },
+       {
+        "tex": "x^2 + y^2 - 4x - 6y - 51 &= 0"
+       },
+       {
+        "tex": "x^2 - 4x + y^2 - 6y &= 51"
+       },
+       {
+        "tex": "x^2 - 4x + 4 + y^2 - 6y + 9 &= 51 + 4 + 9"
+       },
+       {
+        "tex": "(x-2)^2 + (y-3)^2 &= 64"
+       },
+       {
+        "text": "Centre $(2, 3)$, radius $\\sqrt{64} = 8$."
+       }
+      ]
+     },
+     {
+      "title": "Write $c_2$ in centre-radius form",
+      "lines": [
+       {
+        "tex": "x^2 + y^2 - 10x - 14y + 65 &= 0"
+       },
+       {
+        "tex": "x^2 - 10x + y^2 - 14y &= -65"
+       },
+       {
+        "tex": "x^2 - 10x + 25 + y^2 - 14y + 49 &= -65 + 25 + 49"
+       },
+       {
+        "tex": "(x-5)^2 + (y-7)^2 &= 9"
+       },
+       {
+        "text": "Centre $(5, 7)$, radius $\\sqrt{9} = 3$."
+       }
+      ]
+     },
+     {
+      "title": "Find the distance between the centres",
+      "lines": [
+       {
+        "tex": "d &= \\sqrt{(5-2)^2 + (7-3)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{9 + 16}"
+       },
+       {
+        "tex": "&= \\sqrt{25}"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     },
+     {
+      "title": "Find the difference between the radii",
+      "lines": [
+       {
+        "tex": "r_1 - r_2 &= 8 - 3"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "The distance between the centres equals the difference of the radii, $d = r_1 - r_2 = 5$, so the circles touch internally."
+       }
+      ]
+     }
+    ],
+    "final": "d = r_1 - r_2 = 5 \\text{, so the circles touch internally}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q2#(b)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the translation from the centre of s to the touching point",
+      "lines": [
+       {
+        "text": "The centres and the touching point are on one straight line, with the touching point between them."
+       },
+       {
+        "tex": "(12 - 22,\\ 11 - 13) &= (-10, -2)"
+       }
+      ]
+     },
+     {
+      "title": "Halve it, since t has half the radius",
+      "lines": [
+       {
+        "tex": "\\tfrac{1}{2}(-10, -2) &= (-5, -1)"
+       }
+      ]
+     },
+     {
+      "title": "Move from the touching point by this amount",
+      "lines": [
+       {
+        "text": "The centre of $t$ is this far from $(12, 11)$, continuing in the same direction."
+       },
+       {
+        "tex": "(12 - 5,\\ 11 - 1) &= (7, 10)"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Centre of } t = (7, 10)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "line-point-on",
+   "title": "Test whether a point is on a line; find intercepts",
+   "level": "OL",
+   "input": "line + point",
+   "output": "yes/no; axis intercepts"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-ordinary-p2-q9#(a)(i)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the point from the graph",
+      "lines": [
+       {
+        "text": "Read across to the $x$-value first, then up to the $y$-value. $F$ is 4 across and 1 up."
+       },
+       {
+        "tex": "F &= (4, 1)"
+       }
+      ]
+     }
+    ],
+    "final": "F = (4, 1)"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q8#(a)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read each point from the grid",
+      "lines": [
+       {
+        "text": "Read across to the $x$-value, then up or down to the $y$-value. Write each as $(x, y)$."
+       },
+       {
+        "tex": "A &= (1, -2)"
+       },
+       {
+        "tex": "B &= (4, 2)"
+       },
+       {
+        "tex": "D &= (6, -6)"
+       },
+       {
+        "tex": "E &= (15, 6)"
+       }
+      ]
+     }
+    ],
+    "final": "A = (1,-2),\\ B = (4,2),\\ D = (6,-6),\\ E = (15,6)"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(a)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read the co-ordinates of T",
+      "lines": [
+       {
+        "text": "In $(x, y) = (-2, -5)$, the first number is the $x$-value: $2$ units to the left of the origin."
+       },
+       {
+        "text": "The second number is the $y$-value: $5$ units down."
+       },
+       {
+        "text": "Mark the point where these meet and label it $T$."
+       }
+      ]
+     }
+    ],
+    "final": "T(-2, -5) \\text{ plotted}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(c)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute x = -2 and y = -5 into x - y - 3",
+      "lines": [
+       {
+        "tex": "x - y - 3 &= (-2) - (-5) - 3"
+       },
+       {
+        "tex": "&= -2 + 5 - 3"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "The left side equals $0$, so $T$ is on $k$."
+       }
+      ]
+     }
+    ],
+    "final": "T \\in k"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(c)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Pick a value for x and find y",
+      "lines": [
+       {
+        "text": "Choose $x = 1$ and put it into $x - y - 3 = 0$."
+       },
+       {
+        "tex": "1 - y - 3 &= 0"
+       },
+       {
+        "tex": "-y - 2 &= 0"
+       },
+       {
+        "tex": "y &= -2"
+       }
+      ]
+     }
+    ],
+    "final": "(1, -2) \\in k"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q4#(a)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read each point off the grid",
+      "lines": [
+       {
+        "text": "Go across to the $x$ value first, then up or down to the $y$ value."
+       },
+       {
+        "text": "$A$ is at $x = 6$, $y = 2$. $B$ is at $x = -2$, $y = -4$."
+       }
+      ]
+     }
+    ],
+    "final": "A = (6, 2),\\ B = (-2, -4)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,288 @@
+[
+ {
+  "skill": "con-2",
+  "of": "59b268f62814",
+  "title": "Construction 2: Perpendicular bisector of a segment (compass and straight edge only)",
+  "show": "compass-and-straight-edge construction: segment AB 8 cm with the arcs and the perpendicular bisector, with arcs left visible",
+  "example": {
+   "question": "Draw a segment $[AB]$ with $|AB| = 8$ cm. Using only a compass and straight edge, construct the perpendicular bisector of $[AB]$.",
+   "final": "|AM| = |MB| = 4 \\text{ cm},\\ \\text{line} \\perp [AB]",
+   "steps": [
+    {
+     "say": "Open the compass to more than half of $|AB|$, about $5$ cm. Put the point on $A$ and draw an arc above and below the segment.",
+     "rows": [
+      {
+       "aside": "Do not change the setting until both arcs are drawn."
+      }
+     ]
+    },
+    {
+     "say": "Keep the same setting. Put the point on $B$ and draw an arc above and below the segment, crossing the first two arcs.",
+     "rows": [
+      {
+       "aside": "The arcs cross at two points, one above $[AB]$ and one below."
+      }
+     ]
+    },
+    {
+     "say": "With the ruler, draw a straight line through the two crossing points. Mark where it cuts $[AB]$ and call that point $M$.",
+     "rows": [
+      {
+       "aside": "Leave every arc on the page. They are your construction lines and the marks are tied to them."
+      },
+      {
+       "aside": "$|AM| = |MB| = 4$ cm and the line meets $[AB]$ at $90^\\circ$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-3",
+  "of": "6b3bff95704b",
+  "title": "Construction 3: Line perpendicular to a line l through a point not on l",
+  "show": "compass-and-straight-edge construction: line l, external point P, arcs and the perpendicular through P, with arcs left visible",
+  "example": {
+   "question": "Draw a line $l$ and mark a point $P$ above it. Construct the line through $P$ perpendicular to $l$.",
+   "final": "PQ \\perp l",
+   "steps": [
+    {
+     "say": "Put the compass point on $P$. Open it wider than the distance from $P$ to $l$. Draw an arc that cuts $l$ in two places. Call them $A$ and $B$.",
+     "rows": [
+      {
+       "aside": "Now $|PA| = |PB|$, because both are the radius of the same arc."
+      }
+     ]
+    },
+    {
+     "say": "Put the compass point on $A$ and draw an arc below $l$. Keep the same setting. Put the point on $B$ and draw a second arc that crosses the first. Call the crossing $Q$.",
+     "rows": [
+      {
+       "aside": "Any setting works, as long as the two arcs cross."
+      }
+     ]
+    },
+    {
+     "say": "With the ruler, draw a straight line from $P$ to $Q$.",
+     "rows": [
+      {
+       "aside": "This line meets $l$ at $90^\\circ$."
+      },
+      {
+       "aside": "Leave every arc on the page. They are the construction lines."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-14",
+  "of": "2b39fe9f8bf1",
+  "title": "Construction 14: Right-angled triangle given one side and an acute angle",
+  "show": "compass-and-straight-edge construction: right triangle with AB 5 cm and angle A 50°, with arcs left visible",
+  "example": {
+   "question": "Construct a right-angled triangle $ABC$ with $|AB| = 5$ cm, a right angle at $B$, and $\\angle A = 50^\\circ$.",
+   "final": "\\text{Triangle } ABC \\text{ with } |AB| = 5 \\text{ cm},\\ \\angle B = 90^\\circ,\\ \\angle A = 50^\\circ",
+   "steps": [
+    {
+     "say": "With the ruler, draw a line segment $AB$ that is $5$ cm long.",
+     "rows": [
+      {
+       "aside": "Mark $A$ and $B$ clearly."
+      }
+     ]
+    },
+    {
+     "say": "Put the centre of the protractor on $A$ with its base along $AB$. Mark $50^\\circ$, then draw a long line from $A$ through the mark.",
+     "rows": [
+      {
+       "aside": "Read from the zero that lies on $AB$."
+      }
+     ]
+    },
+    {
+     "say": "At $B$, construct the perpendicular to $AB$ with compass arcs. Draw a long line upward from $B$.",
+     "rows": [
+      {
+       "aside": "You can use a set square here instead, but arcs show the method."
+      }
+     ]
+    },
+    {
+     "say": "The two long lines cross. Call the crossing $C$.",
+     "rows": [
+      {
+       "aside": "The triangle $ABC$ has angles $50^\\circ$, $90^\\circ$ and $40^\\circ$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-6",
+  "of": "d96a5c578bcf",
+  "title": "Construction 6: Divide a segment into 2 or 3 equal parts without measuring",
+  "show": "compass-and-straight-edge construction: segment AB divided into three equal parts using a ray with equal steps, with arcs left visible",
+  "example": {
+   "question": "Divide the segment $[AB]$ into three equal parts using only a compass and straight edge. Show your construction lines.",
+   "final": "|AP| = |PQ| = |QB|",
+   "steps": [
+    {
+     "say": "Start at $A$. Draw a ray from $A$ at any angle to $[AB]$. Make it fairly long.",
+     "rows": [
+      {
+       "aside": "With the straight edge, draw a ray from $A$ going up and to the right."
+      }
+     ]
+    },
+    {
+     "say": "Set the compass to any small width. Do not change it again.",
+     "rows": [
+      {
+       "aside": "With the compass point on $A$, draw an arc across the ray. Call the crossing $1$."
+      },
+      {
+       "aside": "Move the point to $1$ and, keeping the same width, draw another arc. Call the crossing $2$."
+      },
+      {
+       "aside": "Move the point to $2$, same width, and mark $3$."
+      }
+     ]
+    },
+    {
+     "say": "The three arcs are equal. Join $3$ to $B$.",
+     "rows": [
+      {
+       "aside": "With the straight edge, draw the line from $3$ to $B$."
+      }
+     ]
+    },
+    {
+     "say": "Copy the angle at $3$ to the points $2$ and $1$, so each new line is parallel to $[3B]$.",
+     "rows": [
+      {
+       "aside": "Through $2$, draw a line parallel to $[3B]$. It meets $[AB]$ at $Q$."
+      },
+      {
+       "aside": "Through $1$, draw a line parallel to $[3B]$. It meets $[AB]$ at $P$."
+      },
+      {
+       "aside": "Then $|AP| = |PQ| = |QB|$. Leave all arcs and lines showing."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-18",
+  "of": "ec58eeab3f94",
+  "title": "Construction 18: Angle of 60° without protractor or set square",
+  "show": "compass-and-straight-edge construction: 60° angle at A from an equilateral-triangle arc, with arcs left visible",
+  "example": {
+   "question": "Using only a compass and straight edge, construct an angle of $60^\\circ$ at the point $A$ on the line $[AB]$.",
+   "final": "|\\angle BAC| = 60^\\circ",
+   "steps": [
+    {
+     "say": "Open the compass to the length $|AB|$. Keep it this width for the whole construction.",
+     "rows": [
+      {
+       "aside": "Place the compass point on $A$ and the pencil on $B$."
+      }
+     ]
+    },
+    {
+     "say": "The point $C$ must be $|AB|$ from $A$, so it lies on an arc centred at $A$.",
+     "rows": [
+      {
+       "aside": "With the compass point on $A$, draw a long arc above the line."
+      }
+     ]
+    },
+    {
+     "say": "The point $C$ must also be $|AB|$ from $B$. The two arcs cross at $C$.",
+     "rows": [
+      {
+       "aside": "With the compass point on $B$, same width, draw an arc that crosses the first. Call the crossing $C$."
+      }
+     ]
+    },
+    {
+     "say": "Now $|AB| = |AC| = |BC|$, so triangle $ABC$ is equilateral.",
+     "rows": [
+      {
+       "aside": "With the straight edge, draw $[AC]$."
+      },
+      {
+       "aside": "Every angle of an equilateral triangle is $60^\\circ$, so $|\\angle BAC| = 60^\\circ$."
+      },
+      {
+       "aside": "Leave both arcs showing."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-20",
+  "of": "0bea9bbbaea0",
+  "title": "Construction 20: Parallelogram given side lengths and angles",
+  "show": "compass-and-straight-edge construction: parallelogram with AB 6, AD 4 and angle 70°, with arcs left visible",
+  "example": {
+   "question": "Construct the parallelogram $ABCD$ with $|AB| = 6$ cm, $|AD| = 4$ cm and $|\\angle DAB| = 70^\\circ$.",
+   "final": "ABCD\\text{ with }|AB| = |CD| = 6,\\ |AD| = |BC| = 4",
+   "steps": [
+    {
+     "say": "Start with the side you are given first. Draw it on the horizontal so the angle is easy to measure.",
+     "rows": [
+      {
+       "aside": "With the ruler, draw $[AB]$ of length $6$ cm."
+      }
+     ]
+    },
+    {
+     "say": "The angle sits at $A$, between $[AB]$ and $[AD]$.",
+     "rows": [
+      {
+       "aside": "Put the protractor centre on $A$ with its base along $[AB]$."
+      },
+      {
+       "aside": "Mark $70^\\circ$ and draw a ray from $A$ through the mark."
+      }
+     ]
+    },
+    {
+     "say": "$D$ is on that ray, $4$ cm from $A$.",
+     "rows": [
+      {
+       "aside": "With the ruler, measure $4$ cm along the ray from $A$. Label it $D$."
+      }
+     ]
+    },
+    {
+     "say": "Opposite sides are equal, so $|BC| = 4$ cm and $|DC| = 6$ cm.",
+     "rows": [
+      {
+       "aside": "With the compass point on $B$, open to $4$ cm and draw an arc."
+      },
+      {
+       "aside": "With the compass point on $D$, open to $6$ cm and draw an arc that crosses it. Label the crossing $C$."
+      }
+     ]
+    },
+    {
+     "say": "Join the corners in order.",
+     "rows": [
+      {
+       "aside": "Draw $[BC]$, $[CD]$. Label every corner and leave the arcs showing."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,244 @@
+[
+ {
+  "skill": "diff-increasing",
+  "title": "Decide whether a function is increasing or decreasing at a point",
+  "show": "parabola y=x²-6x+5 with a tangent at x=1 sloping downward, vertex at x=3 marked",
+  "example": {
+   "question": "$f(x) = x^2 - 6x + 5$. Use differentiation to decide whether $f$ is increasing or decreasing at $x = 1$.",
+   "final": "f'(1) = -4 < 0 \\text{, so } f \\text{ is decreasing}",
+   "steps": [
+    {
+     "say": "The slope of the graph is given by the derivative, so find $f'(x)$ first.",
+     "rows": [
+      {
+       "l": "f(x)",
+       "r": "= x^2 - 6x + 5"
+      },
+      {
+       "l": "f'(x)",
+       "r": "= 2x - 6"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 1$ into the derivative, not into $f(x)$.",
+     "rows": [
+      {
+       "l": "f'(1)",
+       "r": "= 2(1) - 6 = \\hl{1}{-4}"
+      }
+     ]
+    },
+    {
+     "say": "The slope $\\hl{1}{-4}$ is negative, so the graph is falling at $x = 1$. Write the conclusion in words.",
+     "rows": [
+      {
+       "l": "\\hl{1}{f'(1)}",
+       "r": "< 0"
+      },
+      {
+       "aside": "Slope is negative, so $f$ is **decreasing** at $x = 1$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-increasing-interval",
+  "title": "Find where a function is increasing/decreasing for all x or on intervals",
+  "show": "curve y=x³+3x²+5x-4 rising everywhere, with f'(x)=3x²+6x+5 drawn below staying above the x-axis",
+  "example": {
+   "question": "Show that $f(x) = x^3 + 3x^2 + 5x - 4$ is increasing for all $x \\in \\mathbb{R}$.",
+   "final": "f'(x) = 3(x+1)^2 + 2 > 0 \\text{ for all } x",
+   "steps": [
+    {
+     "say": "A function is increasing where $f'(x) > 0$. Start by finding $f'(x)$.",
+     "rows": [
+      {
+       "l": "f(x)",
+       "r": "= x^3 + 3x^2 + 5x - 4"
+      },
+      {
+       "l": "\\hl{1}{f'(x)}",
+       "r": "= 3x^2 + 6x + 5"
+      }
+     ]
+    },
+    {
+     "say": "A quadratic with no real roots does not cross the axis. Complete the square to see its smallest value.",
+     "rows": [
+      {
+       "l": "3x^2 + 6x + 5",
+       "r": "= 3(x^2 + 2x) + 5"
+      },
+      {
+       "l": "",
+       "r": "= 3(x + 1)^2 - 3 + 5"
+      },
+      {
+       "l": "",
+       "r": "= 3(x + 1)^2 + 2"
+      }
+     ]
+    },
+    {
+     "say": "A square is never negative, so $3(x + 1)^2 \\ge 0$ for every $x$. Adding $2$ makes the whole thing at least $2$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{f'(x)}",
+       "r": "= 3(x + 1)^2 + 2 \\ge 2 > 0"
+      },
+      {
+       "aside": "So $f'(x) > 0$ for all $x$, and $f$ is increasing for all $x \\in \\mathbb{R}$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-stationary",
+  "title": "Find and classify turning points",
+  "show": "curve y=x³-12x+5 with the local max at x=-2 and local min at x=2 marked and horizontal tangents there",
+  "example": {
+   "question": "Find the turning points of $f(x) = x^3 - 12x + 5$, and say which is the maximum and which is the minimum.",
+   "final": "max $(-2, 21)$, min $(2, -11)$",
+   "steps": [
+    {
+     "say": "At a turning point the slope is zero. Differentiate, then set $\\hl{1}{f'(x)}$ equal to $0$.",
+     "rows": [
+      {
+       "l": "f(x)",
+       "r": "= x^3 - 12x + 5"
+      },
+      {
+       "l": "\\hl{1}{f'(x)}",
+       "r": "= 3x^2 - 12"
+      },
+      {
+       "aside": "Set $\\hl{1}{f'(x)} = 0$. Every term divides by 3. Do that first."
+      },
+      {
+       "l": "x^2 - 4",
+       "r": "= 0"
+      },
+      {
+       "l": "x^2",
+       "r": "= 4"
+      },
+      {
+       "aside": "So $x = \\hl{2}{-2}$ or $x = \\hl{2}{2}$."
+      }
+     ]
+    },
+    {
+     "say": "Each $\\hl{2}{x}$ is only half of a point. Put it into the original $f(x)$, not the derivative, to get $\\hl{3}{y}$.",
+     "rows": [
+      {
+       "l": "f(-2)",
+       "r": "= (-2)^3 - 12(-2) + 5 = \\hl{3}{21}"
+      },
+      {
+       "l": "f(2)",
+       "r": "= (2)^3 - 12(2) + 5 = \\hl{3}{-11}"
+      }
+     ]
+    },
+    {
+     "say": "Differentiate again. If $f''(x)$ is negative the point is a **max**; if it is positive, a **min**.",
+     "rows": [
+      {
+       "l": "f''(x)",
+       "r": "= 6x"
+      },
+      {
+       "l": "f''(-2)",
+       "r": "= 6(-2) = -12"
+      },
+      {
+       "aside": "Negative, so $(-2, 21)$ is a **max**."
+      },
+      {
+       "l": "f''(2)",
+       "r": "= 6(2) = 12"
+      },
+      {
+       "aside": "Positive, so $(2, -11)$ is a **min**."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-inflection",
+  "title": "Find a point of inflection",
+  "show": "cubic y=x³-9x²+5x-2 with the inflection point at x=3 marked where it changes from concave down to concave up",
+  "example": {
+   "question": "Find the point of inflection of $f(x) = x^3 - 9x^2 + 5x - 2$.",
+   "final": "$(3, -41)$",
+   "steps": [
+    {
+     "say": "Differentiate twice. A point of inflection is where $\\hl{1}{f''(x)}$ is zero.",
+     "rows": [
+      {
+       "l": "f(x)",
+       "r": "= x^3 - 9x^2 + 5x - 2"
+      },
+      {
+       "l": "f'(x)",
+       "r": "= 3x^2 - 18x + 5"
+      },
+      {
+       "l": "\\hl{1}{f''(x)}",
+       "r": "= 6x - 18"
+      }
+     ]
+    },
+    {
+     "say": "Set $\\hl{1}{f''(x)}$ equal to $0$ and solve for $\\hl{2}{x}$.",
+     "rows": [
+      {
+       "l": "6x",
+       "r": "= 18"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{2}{3}"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = \\hl{2}{3}$ into the original $f(x)$ to get $\\hl{3}{y}$.",
+     "rows": [
+      {
+       "l": "f(3)",
+       "r": "= 27 - 81 + 15 - 2"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{-41}"
+      }
+     ]
+    },
+    {
+     "say": "$f''(x) = 0$ is not enough on its own. Check that $f''$ has opposite signs either side of $x = 3$.",
+     "rows": [
+      {
+       "l": "f''(2)",
+       "r": "= 6(2) - 18 = -6"
+      },
+      {
+       "l": "f''(4)",
+       "r": "= 6(4) - 18 = 6"
+      },
+      {
+       "aside": "The sign changes from negative to positive, so $(3, -41)$ is a point of inflection."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

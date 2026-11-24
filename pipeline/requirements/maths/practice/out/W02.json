@@ -1,0 +1,390 @@
+[
+ {
+  "skill": "alg-collect-like",
+  "problems": [
+   {
+    "question": "Simplify $5x + 3y - 2x + 7y - y$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Group the like terms",
+       "lines": [
+        {
+         "tex": "5x + 3y - 2x + 7y - y &= (5x - 2x) + (3y + 7y - y)",
+         "sym": "(5*x-2*x)+(3*y+7*y-y)"
+        }
+       ]
+      },
+      {
+       "title": "Combine each group",
+       "lines": [
+        {
+         "tex": "&= 3x + 9y",
+         "sym": "3*x+9*y"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3x + 9y"
+    },
+    "finalSym": "3*x + 9*y",
+    "answerSym": "5*x + 3*y - 2*x + 7*y - y"
+   },
+   {
+    "question": "Simplify $\\frac{1}{2}a - \\frac{3}{4}b + \\frac{3}{2}a + \\frac{1}{4}b$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Group the $a$ terms and the $b$ terms",
+       "lines": [
+        {
+         "tex": "\\frac{1}{2}a - \\frac{3}{4}b + \\frac{3}{2}a + \\frac{1}{4}b &= \\left(\\frac{1}{2}a + \\frac{3}{2}a\\right) + \\left(-\\frac{3}{4}b + \\frac{1}{4}b\\right)",
+         "sym": "(Rational(1,2)*a+Rational(3,2)*a)+(-Rational(3,4)*b+Rational(1,4)*b)"
+        }
+       ]
+      },
+      {
+       "title": "Combine each group",
+       "lines": [
+        {
+         "tex": "&= 2a - \\frac{2}{4}b",
+         "sym": "2*a-Rational(2,4)*b"
+        },
+        {
+         "tex": "&= 2a - \\frac{1}{2}b",
+         "sym": "2*a-Rational(1,2)*b"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2a - \\frac{1}{2}b"
+    },
+    "finalSym": "2*a - Rational(1,2)*b",
+    "answerSym": "Rational(1,2)*a - Rational(3,4)*b + Rational(3,2)*a + Rational(1,4)*b"
+   },
+   {
+    "question": "The sides of a triangle have lengths $(4x + 3)$ cm, $(2x - 5)$ cm and $(x + 7)$ cm.\nWrite the perimeter of the triangle in terms of $x$, in its simplest form.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Add the three sides",
+       "lines": [
+        {
+         "tex": "P &= (4x + 3) + (2x - 5) + (x + 7)",
+         "sym": "(4*x+3)+(2*x-5)+(x+7)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Group the $x$ terms and the numbers",
+       "lines": [
+        {
+         "tex": "&= (4x + 2x + x) + (3 - 5 + 7)",
+         "sym": "(4*x+2*x+x)+(3-5+7)"
+        }
+       ]
+      },
+      {
+       "title": "Combine each group",
+       "lines": [
+        {
+         "tex": "&= 7x + 5",
+         "sym": "7*x+5"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "7x + 5\\text{ cm}"
+    },
+    "finalSym": "7*x + 5",
+    "answerSym": "(4*x + 3) + (2*x - 5) + (x + 7)"
+   }
+  ]
+ },
+ {
+  "skill": "alg-expand-single",
+  "problems": [
+   {
+    "question": "Multiply out $-3(2x - 4y + 5)$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Multiply every term in the bracket by $-3$",
+       "lines": [
+        {
+         "tex": "-3(2x - 4y + 5) &= (-3)(2x) + (-3)(-4y) + (-3)(5)",
+         "sym": "(-3)*(2*x)+(-3)*(-4*y)+(-3)*5"
+        }
+       ]
+      },
+      {
+       "title": "Simplify each term",
+       "lines": [
+        {
+         "tex": "&= -6x + 12y - 15",
+         "sym": "-6*x+12*y-15"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-6x + 12y - 15"
+    },
+    "finalSym": "-6*x + 12*y - 15",
+    "answerSym": "expand(-3*(2*x - 4*y + 5))"
+   }
+  ]
+ },
+ {
+  "skill": "alg-factor-hcf",
+  "problems": [
+   {
+    "question": "Factorise $12x^2y - 18xy^2$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the highest common factor",
+       "lines": [
+        {
+         "text": "The HCF of 12 and 18 is $6$. Both terms contain $x$ and $y$ at least once, so the HCF is $6xy$."
+        }
+       ]
+      },
+      {
+       "title": "Write each term as the HCF times something",
+       "lines": [
+        {
+         "tex": "12x^2y - 18xy^2 &= 6xy\\cdot 2x - 6xy\\cdot 3y",
+         "sym": "6*x*y*2*x-6*x*y*3*y"
+        }
+       ]
+      },
+      {
+       "title": "Take the HCF outside a bracket",
+       "lines": [
+        {
+         "tex": "&= 6xy(2x - 3y)",
+         "sym": "6*x*y*(2*x-3*y)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "6xy(2x - 3y)"
+    },
+    "finalSym": "6*x*y*(2*x - 3*y)",
+    "answerSym": "factor(12*x**2*y - 18*x*y**2)"
+   },
+   {
+    "question": "Factorise $8a^3 - 12a^2 + 4a$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the highest common factor",
+       "lines": [
+        {
+         "text": "The HCF of 8, 12 and 4 is $4$, and every term contains $a$, so the HCF is $4a$."
+        }
+       ]
+      },
+      {
+       "title": "Write each term as the HCF times something",
+       "lines": [
+        {
+         "tex": "8a^3 - 12a^2 + 4a &= 4a\\cdot 2a^2 - 4a\\cdot 3a + 4a\\cdot 1",
+         "sym": "4*a*2*a**2-4*a*3*a+4*a*1"
+        }
+       ]
+      },
+      {
+       "title": "Take the HCF outside a bracket",
+       "lines": [
+        {
+         "tex": "&= 4a(2a^2 - 3a + 1)",
+         "sym": "4*a*(2*a**2-3*a+1)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "4a(2a^2 - 3a + 1)"
+    },
+    "finalSym": "4*a*(2*a**2 - 3*a + 1)",
+    "answerSym": "factor(8*a**3 - 12*a**2 + 4*a)"
+   },
+   {
+    "question": "The total surface area of a closed cylinder with radius $r$ and height $h$ is given by $A = 2\\pi r^2 + 2\\pi rh$.\nWrite the right-hand side as a product of $2\\pi r$ and a bracket.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the highest common factor",
+       "lines": [
+        {
+         "text": "Both terms contain $2\\pi r$, so the HCF is $2\\pi r$."
+        }
+       ]
+      },
+      {
+       "title": "Write each term as the HCF times something",
+       "lines": [
+        {
+         "tex": "A &= 2\\pi r\\cdot r + 2\\pi r\\cdot h",
+         "sym": "2*pi*r*r+2*pi*r*h"
+        }
+       ]
+      },
+      {
+       "title": "Take the HCF outside a bracket",
+       "lines": [
+        {
+         "tex": "&= 2\\pi r(r + h)",
+         "sym": "2*pi*r*(r+h)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "A = 2\\pi r(r + h)"
+    },
+    "finalSym": "2*pi*r*(r + h)",
+    "answerSym": "factor(2*pi*r**2 + 2*pi*r*h)"
+   }
+  ]
+ },
+ {
+  "skill": "alg-factor-dots",
+  "problems": [
+   {
+    "question": "Factorise $4x^2 - 25$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write as a difference of two squares",
+       "lines": [
+        {
+         "tex": "4x^2 - 25 &= (2x)^2 - 5^2",
+         "sym": "(2*x)**2-5**2"
+        }
+       ]
+      },
+      {
+       "title": "Use $a^2 - b^2 = (a - b)(a + b)$ with $a = 2x$ and $b = 5$",
+       "lines": [
+        {
+         "tex": "&= (2x - 5)(2x + 5)",
+         "sym": "(2*x-5)*(2*x+5)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(2x - 5)(2x + 5)"
+    },
+    "finalSym": "(2*x - 5)*(2*x + 5)",
+    "answerSym": "factor(4*x**2 - 25)"
+   },
+   {
+    "question": "Without a calculator, use factors to evaluate $53^2 - 47^2$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Treat it as a difference of two squares",
+       "lines": [
+        {
+         "text": "$a^2 - b^2 = (a - b)(a + b)$ with $a = 53$ and $b = 47$."
+        }
+       ]
+      },
+      {
+       "title": "Factorise",
+       "lines": [
+        {
+         "tex": "53^2 - 47^2 &= (53 - 47)(53 + 47)",
+         "sym": "(53-47)*(53+47)"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate",
+       "lines": [
+        {
+         "tex": "&= 6 \\times 100",
+         "sym": "6*100"
+        },
+        {
+         "tex": "&= 600",
+         "sym": "600"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "600"
+    },
+    "finalSym": "600",
+    "answerSym": "53**2 - 47**2"
+   },
+   {
+    "question": "Solve the equation $9x^2 - 25 = 0$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Factorise the left-hand side as a difference of two squares",
+       "lines": [
+        {
+         "tex": "9x^2 - 25 &= 0",
+         "sym": "Eq(9*x**2-25,0)"
+        },
+        {
+         "tex": "(3x)^2 - 5^2 &= 0",
+         "sym": "Eq((3*x)**2-5**2,0)"
+        },
+        {
+         "tex": "(3x - 5)(3x + 5) &= 0",
+         "sym": "Eq((3*x-5)*(3*x+5),0)"
+        }
+       ]
+      },
+      {
+       "title": "Set each factor equal to zero",
+       "lines": [
+        {
+         "tex": "3x - 5 = 0 \\quad&\\text{or}\\quad 3x + 5 = 0",
+         "sym": "Or(Eq(3*x-5,0),Eq(3*x+5,0))"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "x = \\frac{5}{3} \\quad&\\text{or}\\quad x = -\\frac{5}{3}",
+         "sym": "Or(Eq(x,Rational(5,3)),Eq(x,-Rational(5,3)))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = \\frac{5}{3} \\text{ or } x = -\\frac{5}{3}"
+    },
+    "finalSym": "[Rational(5,3), -Rational(5,3)]",
+    "answerSym": "solve(Eq(9*x**2 - 25, 0), x)"
+   }
+  ]
+ }
+]

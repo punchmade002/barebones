@@ -1,0 +1,265 @@
+{
+  "maths-pp-2019-higher-p1-q7#(a)(i)": {
+    "primary": "seq-pattern",
+    "skills": [
+      "seq-pattern"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q7#(a)(ii)": {
+    "primary": "seq-geo-sum",
+    "skills": [
+      "seq-geo-sum",
+      "seq-classify"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q7#(a)(iii)": {
+    "primary": "seq-geo-sum-infinity",
+    "skills": [
+      "seq-geo-sum-infinity"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q7#(b)(i)": {
+    "primary": "seq-pattern",
+    "skills": [
+      "seq-pattern"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q7#(b)(ii)": {
+    "primary": "seq-geo-sum",
+    "skills": [
+      "seq-geo-sum",
+      "seq-pattern"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q7#(b)(iii)": {
+    "primary": "seq-geo-sum-infinity",
+    "skills": [
+      "seq-geo-sum-infinity",
+      "seq-classify"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q8#(a)": {
+    "primary": "fn-evaluate",
+    "skills": [
+      "fn-evaluate",
+      "trig-radians"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q8#(b)": {
+    "primary": "trig-solve-basic",
+    "skills": [
+      "trig-solve-basic",
+      "trig-exact-values",
+      "trig-radians"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q8#(c)": {
+    "primary": "diff-chain",
+    "skills": [
+      "diff-chain",
+      "diff-trig"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q8#(d)": {
+    "primary": "diff-increasing",
+    "skills": [
+      "diff-increasing",
+      "diff-trig"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q8#(e)": {
+    "primary": "diff-stationary",
+    "skills": [
+      "diff-stationary",
+      "diff-second",
+      "diff-trig",
+      "trig-solve-basic"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q9#(a)(i)": {
+    "primary": "mens-perimeter-area",
+    "skills": [
+      "mens-perimeter-area",
+      "mens-arc-sector"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q9#(a)(ii)": {
+    "primary": "alg-rearrange",
+    "skills": [
+      "alg-rearrange",
+      "ineq-linear"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q9#(b)(i), (ii)": {
+    "primary": "fn-graph-linear",
+    "skills": [
+      "fn-graph-linear"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q9#(b)(iii)": {
+    "primary": "line-slope",
+    "skills": [
+      "line-slope",
+      "line-linear-model"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q9#(c)(i)": {
+    "primary": "mens-perimeter-area",
+    "skills": [
+      "mens-perimeter-area",
+      "alg-expand-single"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q9#(c)(ii)": {
+    "primary": "diff-poly",
+    "skills": [
+      "diff-poly"
+    ]
+  },
+  "maths-pp-2019-higher-p1-q9#(c)(iii)": {
+    "primary": "diff-optimisation",
+    "skills": [
+      "diff-optimisation",
+      "diff-stationary",
+      "diff-second"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q1#(a)(i)": {
+    "primary": "prob-without-replacement",
+    "skills": [
+      "prob-without-replacement"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q1#(a)(ii)": {
+    "primary": "prob-without-replacement",
+    "skills": [
+      "prob-without-replacement"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q1#(b)": {
+    "primary": "prob-selection-restrictions",
+    "skills": [
+      "prob-selection-restrictions",
+      "prob-ncr"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q2#(a)": {
+    "primary": "line-equation",
+    "skills": [
+      "line-equation",
+      "line-slope"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q2#(b)(i)": {
+    "primary": "line-equation",
+    "skills": [
+      "line-equation"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q2#(b)(ii)": {
+    "primary": "line-intersection",
+    "skills": [
+      "line-intersection",
+      "eq-linear"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q3#(a)": {
+    "primary": "circ-eq-centre-radius",
+    "skills": [
+      "circ-eq-centre-radius"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q3#(b)": {
+    "primary": "circ-from-conditions",
+    "skills": [
+      "circ-from-conditions",
+      "line-perp-distance",
+      "circ-eq-centre-radius"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q4#(a)": {
+    "primary": "trig-double",
+    "skills": [
+      "trig-double",
+      "trig-pythag-identity"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q4#(b)": {
+    "primary": "trig-3d",
+    "skills": [
+      "trig-3d",
+      "trig-cosine-rule",
+      "geo-thm14"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q5#(a)": {
+    "primary": "con-22",
+    "skills": [
+      "con-22"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q5#(b)": {
+    "primary": "geo-thm20",
+    "skills": [
+      "geo-thm20",
+      "geo-thm3",
+      "geo-thm4"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q6#(a)": {
+    "primary": "prob-venn",
+    "skills": [
+      "prob-venn",
+      "prob-independent"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q6#(b)": {
+    "primary": "prob-without-replacement",
+    "skills": [
+      "prob-without-replacement",
+      "quad-solve-factor"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q7#(a)(i)": {
+    "primary": "geo-thm14",
+    "skills": [
+      "geo-thm14"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q7#(a)(ii)": {
+    "primary": "trig-ratios-right",
+    "skills": [
+      "trig-ratios-right",
+      "trig-radians"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q7#(a)(iii)": {
+    "primary": "mens-arc-sector",
+    "skills": [
+      "mens-arc-sector",
+      "mens-composite",
+      "trig-radians"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q7#(a)(iv)": {
+    "primary": "mens-volume",
+    "skills": [
+      "mens-volume",
+      "mens-composite"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q7#(b)(i)": {
+    "primary": "mens-composite",
+    "skills": [
+      "mens-composite",
+      "mens-volume"
+    ]
+  },
+  "maths-pp-2019-higher-p2-q7#(b)(ii)": {
+    "primary": "mens-volume",
+    "skills": [
+      "mens-volume",
+      "geo-similar-triangles"
+    ]
+  }
+}

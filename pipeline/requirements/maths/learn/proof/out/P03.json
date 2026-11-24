@@ -1,0 +1,56 @@
+{
+ "alg-equate-coefficients": {
+  "ok": false,
+  "fixes": [
+   {
+    "find": "k = 2",
+    "replace": "a = 3, \\ b = -2, \\ k = 2",
+    "why": "question asks for a, b and k; final answer gave only k"
+   }
+  ]
+ },
+ "alg-fractions-simplify": {
+  "ok": true,
+  "fixes": []
+ },
+ "ineq-prove": {
+  "ok": true,
+  "fixes": []
+ },
+ "quad-form-from-roots": {
+  "ok": true,
+  "fixes": []
+ },
+ "quad-solve-factor": {
+  "ok": true,
+  "fixes": []
+ },
+ "quad-solve-formula": {
+  "ok": true,
+  "fixes": []
+ },
+ "quad-discriminant": {
+  "ok": true,
+  "fixes": []
+ },
+ "quad-complete-square": {
+  "ok": true,
+  "fixes": []
+ },
+ "sim-linear-2": {
+  "ok": true,
+  "fixes": []
+ },
+ "sim-word-problem": {
+  "ok": true,
+  "fixes": []
+ },
+ "sim-linear-3": {
+  "ok": true,
+  "fixes": []
+ },
+ "eq-linear": {
+  "ok": true,
+  "fixes": []
+ }
+}

@@ -1,0 +1,475 @@
+[
+ {
+  "skill": "ineq-prove",
+  "what": {
+   "say": [
+    "You give it an inequality in $a$ and $b$. It turns it into a proof by showing a **square** is never negative.",
+    "The key idea: move everything to one side and simplify. If what is left is a perfect square, it is $\\ge 0$, so the inequality is true for every $a$ and $b$."
+   ],
+   "in": "inequality in $a, b$",
+   "out": "proof via a square $\\ge 0$"
+  },
+  "how": {},
+  "example": {
+   "question": "Prove that $(a + 2b)^2 \\ge 8ab$ for all real numbers $a$ and $b$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Move everything to one side",
+      "say": "Subtract $8ab$ from the left side. You will show the result is never negative.",
+      "lines": [
+       {
+        "tex": "(a + 2b)^2 - 8ab &= a^2 + 4ab + 4b^2 - 8ab",
+        "sym": "a**2+4*a*b+4*b**2-8*a*b",
+        "new": true
+       },
+       {
+        "tex": "&= a^2 - 4ab + 4b^2",
+        "sym": "a**2-4*a*b+4*b**2"
+       }
+      ]
+     },
+     {
+      "title": "Spot the square",
+      "say": "The three terms are the expansion of a bracket squared. Write it as $\\hl{1}{(a - 2b)^2}$.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{(a - 2b)^2}",
+        "sym": "(a-2*b)**2"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "say": "A real number squared is never negative. So $\\hl{1}{(a-2b)^2} \\ge 0$ for all $a$ and $b$.",
+      "lines": [
+       {
+        "tex": "(a + 2b)^2 - 8ab &= \\hl{1}{(a - 2b)^2}",
+        "sym": "(a+2*b)**2-8*a*b",
+        "new": true
+       },
+       {
+        "text": "Because $(a+2b)^2 - 8ab \\ge 0$, we get $(a+2b)^2 \\ge 8ab$. Write that last sentence: it is the proof."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(a+2b)^2 - 8ab = (a-2b)^2 \\ge 0 \\;\\Rightarrow\\; (a+2b)^2 \\ge 8ab"
+   },
+   "finalSym": "0",
+   "answerSym": "expand((a+2*b)**2-8*a*b-(a-2*b)**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "quad-form-from-roots",
+  "what": {
+   "say": [
+    "You give it two roots. It gives you a quadratic equation, $ax^2 + bx + c = 0$, with exactly those roots.",
+    "The key idea: a root $x = r$ means $(x - r)$ is a **factor**. Write one bracket for each root, then multiply them out."
+   ],
+   "in": "two roots",
+   "out": "$ax^2+bx+c=0$"
+  },
+  "how": {
+   "higher": "Higher level asks for it twice, both on Paper 1: building a quadratic from roots given or read off a graph, as a part inside a larger question.",
+   "ordinary": "Ordinary level uses it once, on Paper 1 in 2018, as a step inside a question on a quadratic graph."
+  },
+  "example": {
+   "question": "Write down a quadratic equation, in the form $x^2 + bx + c = 0$, whose roots are $6$ and $-1$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn each root into a factor",
+      "say": "A root of $6$ means $x - 6 = 0$. A root of $-1$ means $x + 1 = 0$. Each gives one bracket.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x - 6} &= 0",
+        "sym": "Eq(x-6,0)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{x + 1} &= 0",
+        "sym": "Eq(x+1,0)",
+        "new": true
+       },
+       {
+        "tex": "(\\hl{1}{x - 6})(\\hl{2}{x + 1}) &= 0",
+        "sym": "Eq((x-6)*(x+1),0)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the brackets",
+      "say": "Multiply every term in the first bracket by every term in the second. Then collect the $x$ terms.",
+      "lines": [
+       {
+        "tex": "x^2 + x - 6x - 6 &= 0",
+        "sym": "Eq(x**2+x-6*x-6,0)"
+       },
+       {
+        "tex": "x^2 - 5x - 6 &= 0",
+        "sym": "Eq(x**2-5*x-6,0)"
+       }
+      ]
+     },
+     {
+      "title": "Check a root",
+      "say": "Put a root back in. If the equation holds, the quadratic is right.",
+      "lines": [
+       {
+        "tex": "6^2 - 5(6) - 6 &= 36 - 30 - 6",
+        "sym": "36-30-6",
+        "new": true
+       },
+       {
+        "tex": "&= 0",
+        "sym": "0"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x^2 - 5x - 6 = 0"
+   },
+   "finalSym": "x**2-5*x-6",
+   "answerSym": "expand((x-6)*(x+1))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the factors from the roots first. Getting $(x+1)(x-3)$ from the roots already earns marks, and multiplying out to the quadratic takes you higher.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q6#(a)",
+       "quote": "Generates (𝑥+ 1)(𝑥−3) from"
+      },
+      {
+       "part": "maths-pp-2021-higher-p1-q6#(a)",
+       "quote": "Generates 𝑥²−2𝑥−3 from graph"
+      }
+     ]
+    },
+    {
+     "tip": "If the quadratic must pass through a given point, write it with a scale factor $a$ in front of the factors, then use the point to find $a$.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q6#(a)",
+       "quote": "Using simultaneous equations, finds"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "quad-solve-factor",
+  "what": {
+   "say": [
+    "You give it a quadratic equation, $ax^2 + bx + c = 0$. It finds the **roots**: the values of $x$ that make it true.",
+    "The key idea: if two brackets multiply to $0$, one of them must be $0$. So factorise, then set each bracket equal to $0$."
+   ],
+   "in": "$ax^2+bx+c=0$",
+   "out": "roots"
+  },
+  "how": {
+   "higher": "Higher level uses it all the time as a step inside bigger Paper 1 questions: finding roots, solving for a variable in a context, or reducing a cubic once one factor is out.",
+   "ordinary": "Ordinary level uses it about twice a year on Paper 1, often in a story about height, area or cost, where you set an expression equal to a number and solve."
+  },
+  "example": {
+   "question": "Solve the equation $x^2 = 2x + 15$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Get zero on one side",
+      "say": "A quadratic must equal $0$ before you factorise. Move $2x$ and $15$ to the left.",
+      "lines": [
+       {
+        "tex": "x^2 &= 2x + 15",
+        "sym": "Eq(x**2,2*x+15)",
+        "new": true
+       },
+       {
+        "tex": "x^2 - 2x - 15 &= 0",
+        "sym": "Eq(x**2-2*x-15,0)"
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "say": "Find two numbers that multiply to $-15$ and add to $-2$. They are $-5$ and $3$.",
+      "lines": [
+       {
+        "tex": "-5 \\times 3 &= -15",
+        "sym": "Eq(-5*3,-15)",
+        "new": true
+       },
+       {
+        "tex": "-5 + 3 &= -2",
+        "sym": "Eq(-5+3,-2)",
+        "new": true
+       },
+       {
+        "tex": "(x - 5)(x + 3) &= 0",
+        "sym": "Eq((x-5)*(x+3),0)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Set each bracket to zero",
+      "say": "One of the two brackets must be $0$. Solve each small equation.",
+      "lines": [
+       {
+        "tex": "x - 5 &= 0",
+        "sym": "Eq(x-5,0)",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{1}{5}",
+        "sym": "Eq(x,5)"
+       },
+       {
+        "tex": "x + 3 &= 0",
+        "sym": "Eq(x+3,0)",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{2}{-3}",
+        "sym": "Eq(x,-3)"
+       },
+       {
+        "text": "Check one root: $5^2 = 25$ and $2(5) + 15 = 25$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = \\hl{1}{5} \\text{ or } x = \\hl{2}{-3}"
+   },
+   "finalSym": "[-3,5]",
+   "answerSym": "solve(Eq(x**2,2*x+15),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Even a first attempt at factorising earns marks, so always write your brackets down.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q3#(b)(i)",
+       "quote": "Effort at factorisation"
+      }
+     ]
+    },
+    {
+     "tip": "If one root makes no sense in the story, say so. A negative length or time must be explicitly excluded.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q3#(b)(i)",
+       "quote": "explicitly excluded"
+      }
+     ]
+    },
+    {
+     "tip": "Correct factors are high partial credit on their own, so show them before you solve.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q6#(a)(i)",
+       "quote": "Factors correct"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Get one side equal to $0$ first. Rearranging is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q10#(a)(iii)",
+       "quote": "Rearranges (one side = 0)"
+      }
+     ]
+    },
+    {
+     "tip": "Showing the correct factors earns high partial credit even if the roots go wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q5#(b)",
+       "quote": "Correct factors"
+      }
+     ]
+    },
+    {
+     "tip": "A bare correct answer with no working is only low partial credit in some parts, so show the factorising.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p1-q4#(d)",
+       "quote": "correct answer without work"
+      }
+     ]
+    },
+    {
+     "tip": "A genuine attempt to factorise earns credit even when it does not finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q5#(a)",
+       "quote": "Effort at factorising"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "quad-solve-formula",
+  "what": {
+   "say": [
+    "You give it a quadratic that will not factorise, $ax^2 + bx + c = 0$. It gives the two **roots** as surds or decimals.",
+    "The key idea: read off $a$, $b$ and $c$, put them into the formula, and the $\\pm$ gives you both roots."
+   ],
+   "in": "$ax^2+bx+c=0$",
+   "out": "two roots"
+  },
+  "how": {
+   "higher": "Higher level uses it a few times across both papers as a step: in complex numbers, in inequalities and in rates of change.",
+   "ordinary": "Ordinary level asks for it directly on Paper 1 about once a year, as a 10-mark part with marks for $a$, $b$ and $c$, the substitution and both values."
+  },
+  "example": {
+   "question": "Solve $x^2 - 3x - 5 = 0$. Give your answers correct to $2$ decimal places.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Identify a, b and c",
+      "say": "Compare $x^2 - 3x - 5 = 0$ with $ax^2 + bx + c = 0$. Write down the formula.",
+      "lines": [
+       {
+        "text": "Here $a = 1$, $b = -3$ and $c = -5$."
+       },
+       {
+        "tex": "x &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+       }
+      ]
+     },
+     {
+      "title": "Work out under the root",
+      "say": "Put in $a$, $b$ and $c$. Take care with the minus signs: $(-3)^2 = 9$.",
+      "lines": [
+       {
+        "tex": "b^2 - 4ac &= (-3)^2 - 4(1)(-5)",
+        "sym": "(-3)**2-4*1*(-5)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{29}",
+        "sym": "29"
+       }
+      ]
+     },
+     {
+      "title": "Find both roots",
+      "say": "Use $+$ for one root and $-$ for the other. Round each to $2$ decimal places.",
+      "lines": [
+       {
+        "tex": "x &= \\frac{3 + \\sqrt{\\hl{1}{29}}}{2}",
+        "sym": "(3+sqrt(29))/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{4.19}",
+        "sym": "4.19",
+        "approx": true
+       },
+       {
+        "tex": "x &= \\frac{3 - \\sqrt{\\hl{1}{29}}}{2}",
+        "sym": "(3-sqrt(29))/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{-1.19}",
+        "sym": "-1.19",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = \\hl{2}{4.19} \\text{ or } x = \\hl{3}{-1.19}"
+   },
+   "finalSym": "[-1.19, 4.19]",
+   "answerSym": "solve(x**2-3*x-5,x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the formula fully substituted. It is its own step in the marking, ahead of finding the roots.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(b)",
+       "quote": "Quadratic formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Even partial substitution into the formula earns low partial credit, so always start by writing it down.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q2#(a)",
+       "quote": "Some correct substitution into the"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Three steps carry the marks: identify $a$, $b$ and $c$, substitute fully, then evaluate both roots.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q5#(b)",
+       "quote": "1. Identifies a, b, and c"
+      },
+      {
+       "part": "maths-pp-2025-ordinary-p1-q5#(b)",
+       "quote": "2. Fully substituted formula"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question says. A wrong or missing rounding costs a mark once.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q5#(b)",
+       "quote": "Apply a * for no or incorrect rounding"
+      }
+     ]
+    },
+    {
+     "tip": "Finding only one root stops you at high partial credit, so work out both.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q3#(b)",
+       "quote": "Second value not found"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

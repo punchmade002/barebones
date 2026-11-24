@@ -1,0 +1,401 @@
+[
+ {
+  "part": "maths-pp-2026-higher-p1-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Write 64 as a power of 4\n64 &= 4 \\times 4 \\times 4\n&= 4^3\n## Write 1/16 as a power of 4\n16 &= 4^2\n\\frac{1}{16} &= \\frac{1}{4^2}\nUse $\\frac{1}{a^n} = a^{-n}$.\n&= 4^{-2}\n## Write 2 as a power of 4\n$2 = \\sqrt{4}$, and a square root is the power $\\tfrac{1}{2}$.\n2 &= \\sqrt{4}\n&= 4^{1/2}\nANSWER: 64 = 4^{3},\\ \\ \\frac{1}{16} = 4^{-2},\\ \\ 2 = 4^{1/2}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q5#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Test each number against set A (4m, m an integer)\n64 &= 4 \\times 16\n12 &= 4 \\times 3\n64 and 12 are integer multiples of 4. The others are not, because $\\tfrac{1}{16}$, $\\sqrt{3}$, $\\sqrt{2}$ and 1 are not $4m$ with $m \\in \\mathbb{Z}$.\n## Test each number against set B (4^r, r rational)\n64 &= 4^3\n\\frac{1}{16} &= 4^{-2}\n1 &= 4^0\n\\sqrt{2} &= 2^{1/2}\n&= 2^{2/4}\n&= (2^2)^{1/4}\n&= 4^{1/4}\nSo 64, $\\tfrac{1}{16}$, 1 and $\\sqrt{2}$ are in B. 12 is not a rational power of 4, and neither is $\\sqrt{3}$.\n## Test each number against set D (irrational)\n$\\sqrt{2}$ and $\\sqrt{3}$ are irrational, so they are in D. 64, 12, $\\tfrac{1}{16}$ and 1 are rational.\n## Place the numbers in the Venn diagram\n12 is in A only. 64 is in both A and B. $\\tfrac{1}{16}$ and 1 are in B only.\n$\\sqrt{2}$ is in B and D, but not A. $\\sqrt{3}$ is in D only.\nThe shaded part, A ∩ D, stays empty because no multiple of 4 is irrational.\n## Choose a number in none of the sets (ii)\nIt must be a rational number that is not a multiple of 4 and not a rational power of 4. For example, 5 is rational, is not $4m$, and $4^r = 5$ needs $r = \\log_4 5$, which is irrational.\nWrite 5 in the rectangle, outside all three ovals.\nANSWER: 12 \\in A \\text{ only};\\ 64 \\in A\\cap B;\\ \\tfrac{1}{16},\\,1 \\in B \\text{ only};\\ \\sqrt{2} \\in B\\cap D;\\ \\sqrt{3} \\in D \\text{ only};\\ 5 \\text{ outside all sets}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q5#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Take log base 3 of both sides\n4^k &= 9\n\\log_3\\left(4^k\\right) &= \\log_3 9\n## Bring the power k down\nUse $\\log_3(x^k) = k\\log_3 x$.\nk\\log_3 4 &= \\log_3 9\n## Evaluate log base 3 of 9\n$9 = 3^2$, so $\\log_3 9 = 2$.\nk\\log_3 4 &= 2\n## Divide both sides by log base 3 of 4\nk &= \\frac{2}{\\log_3 4}\nANSWER: k = \\frac{2}{\\log_3 4}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths18"
+  ],
+  "marks": 15,
+  "solution": "## Check that P(7) is true\nLet $P(n)$ be the statement $n! > 3^n$.\n7! &= 5040\n3^7 &= 2187\n$5040 > 2187$, so $P(7)$ is true.\n## Assume P(k) is true for some k ≥ 7\nAssume $k! > 3^k$ for some $k \\ge 7$.\n## State what P(k+1) must show\nWe must show $(k+1)! > 3^{k+1}$.\n## Write (k+1)! in terms of k!\n(k+1)! &= (k+1) \\times k!\n## Use the assumption P(k)\nSince $k! > 3^k$, multiplying both sides by the positive number $(k+1)$ keeps the inequality.\n(k+1) \\times k! &> (k+1) \\times 3^k\n## Use k ≥ 7 to replace k+1 by 3\nSince $k \\ge 7$, we have $k+1 \\ge 8 > 3$, so $(k+1) \\times 3^k > 3 \\times 3^k$.\n(k+1) \\times 3^k &> 3 \\times 3^k\n## Simplify to a power of 3\n3 \\times 3^k &= 3^{k+1}\n## Combine the chain\n(k+1)! &> 3^{k+1}\nSo $P(k+1)$ is true whenever $P(k)$ is true.\n## Conclude\n$P(7)$ is true, and $P(k)$ true implies $P(k+1)$ true. Therefore $n! > 3^n$ for all $n \\in \\mathbb{N}$, $n \\ge 7$, by induction.\nANSWER: n! > 3^n \\text{ for all } n \\ge 7"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Expand the larger factorial\n$(n+1)! = (n+1) \\times n \\times (n-1)!$.\n\\frac{(n+1)\\,n\\,(n-1)!}{(n-1)!} &= 156\n## Cancel (n-1)!\n(n+1)n &= 156\n## Multiply out\nn^2 + n &= 156\n## Make one side zero\nn^2 + n - 156 &= 0\n## Factorise\nLook for two numbers with product $-156$ and sum $1$: $13$ and $-12$.\n(n-12)(n+13) &= 0\n## Solve each factor\nn - 12 = 0 \\quad\\text{or}\\quad n + 13 &= 0\n## Reject the negative value\n$n \\in \\mathbb{N}$, so $n = -13$ is not allowed.\nn &= 12\nANSWER: n = 12"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q6#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Decide the sign of T1\n$S_3 < 2 = S_2$, so $T_3 < 0$. Also $T_3 = T_1 r^2$ has the same sign as $T_1$, so $T_1 < 0$.\nThen $T_2 = 2 - T_1 > 0$. Choose $T_1 = -1$.\nT_1 &= -1\n## Find T2 from T1 + T2 = 2\nT_2 &= 2 - T_1\n&= 2 - (-1)\n&= 3\n## Find the common ratio\nr &= \\frac{T_2}{T_1}\n&= \\frac{3}{-1}\n&= -3\n## Find T3\nT_3 &= T_2 \\times r\n&= 3 \\times (-3)\n&= -9\n## Find S3\nS_3 &= T_1 + T_2 + T_3\n&= -1 + 3 + (-9)\n&= -7\nCheck: $S_3 = -7 < 2$, so every condition holds.\nANSWER: T_1 = -1,\\ T_2 = 3,\\ T_3 = -9,\\ S_3 = -7"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Convert 1 minute to seconds\n$t$ is in seconds, so 1 minute is $t = 60$.\n## Substitute t = 60 into V(t)\nV(60) &= 0.025(60^3) - 9(60^2) + 550.8(60) + 68900\n## Evaluate each term\nV(60) &= 5400 - 32400 + 33048 + 68900\n&= 74\\,948\nANSWER: 74\\,948 \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate V(t) term by term\nUse $\\frac{d}{dt}(at^n) = nat^{n-1}$ on each term; the constant 68 900 differentiates to 0.\nV(t) &= 0.025t^3 - 9t^2 + 550.8t + 68900\n\\frac{dV}{dt} &= 0.075t^2 - 18t + 550.8\n## Substitute t = 150\n\\frac{dV}{dt} &= 0.075(150^2) - 18(150) + 550.8\n&= 1687.5 - 2700 + 550.8\n&= -461.7\n## Interpret the sign\nThe rate is negative, so the volume is decreasing by 461.7 cm³ every second.\nANSWER: -461.7 \\text{ cm}^3\\text{ per second (decreasing)}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Volume decreasing means the derivative is negative\n0.075t^2 - 18t + 550.8 &< 0\n## Find the roots with the quadratic formula\nHere $a = 0.075$, $b = -18$, $c = 550.8$.\nt &= \\frac{18 \\pm \\sqrt{18^2 - 4(0.075)(550.8)}}{2(0.075)}\n&= \\frac{18 \\pm \\sqrt{324 - 165.24}}{0.15}\n&= \\frac{18 \\pm \\sqrt{158.76}}{0.15}\n&= \\frac{18 \\pm 12.6}{0.15}\n## Evaluate both roots\nt &= \\frac{18 - 12.6}{0.15} = 36\nt &= \\frac{18 + 12.6}{0.15} = 204\n## Choose the correct region\nThe graph of $0.075t^2 - 18t + 550.8$ is a \"u\" shape (positive $t^2$ coefficient), so it is below zero between the roots.\n36 &< t < 204\nBoth values lie inside the allowed range $0 \\le t \\le 240$.\nANSWER: t \\in (36, 204), \\text{ i.e. } 36 < t < 204"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Write V in terms of h\nVolume of a cylinder is $\\pi r^2 h$, with $r = 26$.\nV &= \\pi r^2 h\n&= \\pi (26^2) h\n&= 676\\pi h\n## Differentiate with respect to h\n\\frac{dV}{dh} &= 676\\pi\n## Link the rates with the chain rule\n\\frac{dV}{dt} &= \\frac{dV}{dh} \\times \\frac{dh}{dt}\n\\frac{dh}{dt} &= \\frac{dV}{dt} \\div \\frac{dV}{dh}\n## Substitute the values at t = 150\nFrom part (b), $\\frac{dV}{dt} = -461.7$ when $t = 150$.\n\\frac{dh}{dt} &= \\frac{-461.7}{676\\pi}\n&= -0.2174\\ldots\n&\\approx -0.22\n## State the meaning\nThe height of the water is falling by about 0.22 cm every second.\nANSWER: -0.22 \\text{ cm per second}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q7#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Decide what must be maximised\nThe numerator 20 is constant, so $C(h)$ is smallest when the denominator is largest.\nD(h) &= 16\\pi h - \\pi h^2\n## Differentiate the denominator\nD'(h) &= 16\\pi - 2\\pi h\n## Set the derivative equal to zero\n16\\pi - 2\\pi h &= 0\n2\\pi h &= 16\\pi\nh &= 8\n## Check it is a maximum of D\nD''(h) &= -2\\pi\n$D''(h) < 0$, so $D$ has a maximum at $h = 8$ and $C$ has a minimum there.\n## Find the minimum value of C\nC(8) &= \\frac{20}{16\\pi(8) - \\pi(8^2)}\n&= \\frac{20}{128\\pi - 64\\pi}\n&= \\frac{20}{64\\pi}\n&= \\frac{5}{16\\pi}\n&\\approx 0.1\nANSWER: 0.1 \\text{ cm/s}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q7#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Find where C(h) is undefined\n$C(h)$ is undefined when the denominator is zero.\n16\\pi h - \\pi h^2 &= 0\n\\pi h(16 - h) &= 0\nh &= 0 \\text{ or } h = 16\n## Choose M\nWe need $h > 0$, so the first break in the function after 0 is at $h = 16$. Therefore $C(h)$ is defined for $0 < h < 16$.\nANSWER: M = 16"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 11\nF(11) &= 440 \\times 2^{\\frac{11}{12}}\n&= 830.6\\ldots\n&\\approx 831\nANSWER: 831 \\text{ Hz}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q8#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Use F(-x) for a note below Concert A\nA note 6 notes below uses $x = -6$.\nF(-6) &= 440 \\times 2^{-\\frac{6}{12}}\n## Simplify the power\n&= 440 \\times 2^{-\\frac{1}{2}}\n&= \\frac{440}{\\sqrt{2}}\n## Evaluate and round to 4 significant figures\n&= 311.126\\ldots\n&\\approx 311.1\nANSWER: 311.1 \\text{ Hz}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set F(x) equal to 660\n440 \\times 2^{\\frac{x}{12}} &= 660\n## Isolate the power of 2\n2^{\\frac{x}{12}} &= \\frac{660}{440}\n2^{\\frac{x}{12}} &= 1.5\n## Take natural logs of both sides\n\\ln\\left(2^{\\frac{x}{12}}\\right) &= \\ln 1.5\nBring the power down in front using $\\ln a^k = k\\ln a$.\n\\frac{x}{12}\\ln 2 &= \\ln 1.5\n## Solve for x\nx &= \\frac{12\\ln 1.5}{\\ln 2}\nx &= 7.019\\ldots\nx &\\approx 7.02\nANSWER: x = 7.02"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q8#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate the exponential\nUse $\\frac{d}{dx}\\left(a^{kx}\\right) = k\\ln a \\cdot a^{kx}$ with $a = 2$ and $k = \\frac{1}{12}$.\nF(x) &= 440 \\times 2^{\\frac{x}{12}}\nF'(x) &= 440 \\times 2^{\\frac{x}{12}} \\times \\ln 2 \\times \\frac{1}{12}\n&= \\frac{110\\ln 2}{3} \\times 2^{\\frac{x}{12}}\nANSWER: F'(x) = 440 \\times 2^{\\frac{x}{12}} \\times \\ln 2 \\times \\frac{1}{12}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q8#(e)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## (i) Estimate using the tangent line\nNear $x = k$ the graph is close to its tangent, which has slope $G'(k) = 5.8$. Moving 2 units to the right adds about $2 \\times 5.8$.\nG(k+2) &\\approx 197 + 2 \\times 5.8\n&= 197 + 11.6\n&= 208.6\n## (ii) Find the second derivative of G\nG(x) &= Ae^{bx}\nG'(x) &= Abe^{bx}\nG''(x) &= Ab^2e^{bx}\n## (ii) Decide too big or too small\n$A$ and $b$ are positive and $e^{bx} > 0$, so $G''(x) > 0$ everywhere.\nThe graph curves upwards (concave up), so it lies above its tangent line.\nThe tangent estimate 208.6 is therefore too small. Tick \"the estimate is too small\".\nANSWER: G(k+2) \\approx 208.6 \\text{; the estimate is too small}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q8#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths5",
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Write four equations\nLet $S$, $A$, $T$, $B$ be the numbers of sopranos, altos, tenors and basses.\nS + A + T + B &= 384\nA &= 2S\nT &= B + 12\nS + A &= 3(T + B)\n## Combine the first and fourth equations\nReplace $S + A$ in the total by $3(T + B)$.\n3(T + B) + T + B &= 384\n4T + 4B &= 384\nT + B &= 96\n## Find B and T\n(B + 12) + B &= 96\n2B + 12 &= 96\n2B &= 84\nB &= 42\nT &= 42 + 12 = 54\n## Find S and A\nS + A &= 3(96) = 288\nS + 2S &= 288\n3S &= 288\nS &= 96\nA &= 2(96) = 192\n## Check the total\n96 + 192 + 54 + 42 &= 384\nANSWER: S = 96,\\; A = 192,\\; T = 54,\\; B = 42"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q9#(a), (b)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Set 2: total distance\n20 + 40 + 60 + 40 + 20 &= 180\n&= 180\n## Set 3: number of shuttles\nSet 3 has shuttles 20, 40, 60, 80, 60, 40, 20, which is 7 shuttles.\n## Set 4: list the shuttles\nThe longest shuttle is 20 m longer than Set 3's longest (80 m), so it is 100 m.\nShuttles: 20, 40, 60, 80, 100, 80, 60, 40, 20. That is 9 shuttles.\n## Set 4: total distance\n20 + 40 + 60 + 80 + 100 + 80 + 60 + 40 + 20 &= 500\n&= 500\n## (b) Set 14 has 29 shuttles\nSet $n$ has $2n + 1$ shuttles, so Set 14 has 29 shuttles. The longest is the middle (15th) shuttle.\nShuttles 1 to 15 increase by 20 m each time, and the 12th is before the middle, so shuttle $k$ is $20k$ m.\n12 \\times 20 &= 240\n&= 240\nANSWER: \\text{Set 2: } 180\\text{ m; Set 3: } 7\\text{ shuttles; Set 4: } 9\\text{ shuttles, } 500\\text{ m; (b) } 240\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Set up the quadratic and use three sets\nLet total distance $= an^2 + bn + c$. Use the totals 80, 180, 320 for $n = 1, 2, 3$.\na + b + c &= 80\n4a + 2b + c &= 180\n9a + 3b + c &= 320\n## Subtract to remove c\n(4a + 2b + c) - (a + b + c) &= 180 - 80\n3a + b &= 100\n(9a + 3b + c) - (4a + 2b + c) &= 320 - 180\n5a + b &= 140\n## Subtract again to find a\n(5a + b) - (3a + b) &= 140 - 100\n2a &= 40\na &= 20\n## Find b\n3(20) + b &= 100\n60 + b &= 100\nb &= 40\n## Find c\n20 + 40 + c &= 80\nc &= 20\n## Write the formula\n\\text{Total distance} &= 20n^2 + 40n + 20\nANSWER: 20n^2 + 40n + 20"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Use the middle shuttle\nThe lengths rise then fall symmetrically, so two equal shuttles are the same distance either side of the middle.\n\\text{middle} &= \\frac{21 + 43}{2}\n&= 32\n## Relate the middle shuttle to the set number\nSet $h$ has $2h + 1$ shuttles, so its middle shuttle is number $h + 1$.\nh + 1 &= 32\nh &= 31\nANSWER: h = 31"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q9#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Find the middle shuttle of Set 18\nThe longest shuttle in Set 18 is $20 \\times 19 = 380$ m, and it is shuttle number 19.\n## Count down from shuttle 19\nAfter shuttle 19 each shuttle is 20 m shorter, so shuttle $k$ is $k - 19$ steps down.\nT_k &= 380 - 20(k - 19)\n&= 380 - 20k + 380\n&= 760 - 20k\n## Check with the last shuttle\nT_{37} &= 760 - 20(37) = 20\nANSWER: 760 - 20k"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q9#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Epley formula with r = 5\nM_E &= w\\left(1 + \\frac{5}{30}\\right)\n&= w \\times \\frac{35}{30}\n&= \\frac{7w}{6}\n## Brzycki formula with r = 5\nM_B &= w\\left(\\frac{36}{37 - 5}\\right)\n&= w \\times \\frac{36}{32}\n&= \\frac{9w}{8}\n## Subtract using a common denominator\nM_B - M_E &= \\frac{9w}{8} - \\frac{7w}{6}\n&= \\frac{27w}{24} - \\frac{28w}{24}\n&= -\\frac{w}{24}\n## State the difference\nThe difference is the size of this value.\n\\text{Difference} &= \\frac{w}{24}\nANSWER: \\frac{w}{24}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q9#(g)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Set the two formulas equal\nw\\left(\\frac{r + 30}{30}\\right) &= w\\left(\\frac{36}{37 - r}\\right)\nDivide both sides by $w$ (it is not zero).\n\\frac{r + 30}{30} &= \\frac{36}{37 - r}\n## Cross-multiply\n(37 - r)(r + 30) &= 30 \\times 36\n(37 - r)(r + 30) &= 1080\n## Expand and collect terms\n37r + 1110 - r^2 - 30r &= 1080\n-r^2 + 7r + 1110 &= 1080\n-r^2 + 7r + 30 &= 0\nr^2 - 7r - 30 &= 0\n## Factorise\n(r - 10)(r + 3) &= 0\nr &= 10 \\text{ or } r = -3\n## Reject the negative value\nThe number of reps cannot be negative, so $r = -3$ is rejected.\nr &= 10\nANSWER: r = 10"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q10#(a)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Shift y = g(x) up 3 units\n$g(x)+3$ adds 3 to every $y$-value, so each point of $y=g(x)$ moves up 3 units.\n(-3,-4) &\\to (-3,-1)\n(-1,-2) &\\to (-1,1)\n(1,-1) &\\to (1,2)\n(3,-3) &\\to (3,0)\n## Join the new points and label the graph\nJoin the four new points with straight lines and label the graph $y=g(x)+3$.\n## Shift y = h(x) left 2 units\n$h(x+2)$ replaces $x$ by $x+2$, so the graph of $h(x)$ moves 2 units to the left. Subtract 2 from each $x$-value.\n(-2,-2) &\\to (-4,-2)\n(-1,0) &\\to (-3,0)\n(1,1) &\\to (-1,1)\n(1.5,2) &\\to (-0.5,2)\n## Join the new points and label the graph\nJoin the four new points with straight lines and label the graph $y=h(x+2)$.\nANSWER: y=g(x)+3\\ \\text{drawn up 3 units};\\ y=h(x+2)\\ \\text{drawn left 2 units}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q10#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find the period from the repeating pattern\nThe flat top runs from $x=-4$ to $x=-3$ and again from $x=1$ to $x=2$, so the graph repeats every 5 units.\nThe lowest points at $x=-5$, $x=0$ and $x=5$ are also 5 apart.\n\\text{Period} &= 5\n## Shifting by a multiple of the period gives the same graph\n$f(x+n)$ is the same graph as $f(x)$ when $n$ is a non-zero multiple of 5.\nn &= 5,\\ 20,\\ -10\nANSWER: \\text{Period}=5;\\ n=5,\\ 20,\\ -10"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q10#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Find the equation of each piece of the graph from 0 to 3\nFrom $x=0$ to $x=1$ the line goes from $(0,-2)$ to $(1,1)$, so its slope is 3.\ny &= 3x - 2\nFrom $x=1$ to $x=2$ the graph is flat at height 1.\ny &= 1\nFrom $x=2$ to $x=3$ the line goes from $(2,1)$ to $(3,0)$, so its slope is $-1$.\ny &= 3 - x\n## Integrate over each piece (area below the axis counts as negative)\n\\int_0^1 (3x-2)\\,dx &= \\left[\\frac{3x^2}{2} - 2x\\right]_0^1\n&= \\frac{3}{2} - 2\n&= -\\frac{1}{2}\n## Second piece\n\\int_1^2 1\\,dx &= \\left[x\\right]_1^2\n&= 2 - 1\n&= 1\n## Third piece\n\\int_2^3 (3-x)\\,dx &= \\left[3x - \\frac{x^2}{2}\\right]_2^3\n&= \\left(9 - \\frac{9}{2}\\right) - \\left(6 - 2\\right)\n&= \\frac{9}{2} - 4\n&= \\frac{1}{2}\n## Add the three signed areas\n\\int_0^3 f(x)\\,dx &= -\\frac{1}{2} + 1 + \\frac{1}{2}\n&= 1\nANSWER: 1"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q10#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find the slope of f on 2 < x < 5\n$f$ goes in a straight line from $(2,1)$ to $(5,-2)$.\n\\text{slope} &= \\frac{-2-1}{5-2}\n&= \\frac{-3}{3}\n&= -1\nSo $f'(x)=-1$ for $2<x<5$.\n## Find the slope of f on 5 < x < 6\n$f$ goes in a straight line from $(5,-2)$ to $(6,1)$.\n\\text{slope} &= \\frac{1-(-2)}{6-5}\n&= \\frac{3}{1}\n&= 3\nSo $f'(x)=3$ for $5<x<6$.\n## Draw the two horizontal segments\nDraw $y=-1$ from $x=2$ to $x=5$ and $y=3$ from $x=5$ to $x=6$. Use open circles at $x=2$ and $x=5$ because $f'$ is not defined there, and at $x=6$ because the graph is only drawn for $x<6$.\nANSWER: f'(x)=-1\\ \\text{for}\\ 2<x<5;\\ f'(x)=3\\ \\text{for}\\ 5<x<6"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q10#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 5,
+  "solution": "## Split the integral into two\n\\int_1^a [\\,j(x)+b\\,]\\,dx &= \\int_1^a j(x)\\,dx + \\int_1^a b\\,dx\n## Replace the first integral using the given value\n&= 200 + \\int_1^a b\\,dx\n## Integrate the constant b\nThe integral of a constant $b$ is $bx$.\n&= 200 + \\left[bx\\right]_1^a\n## Substitute the limits\n&= 200 + ba - b(1)\n&= 200 + ab - b\n&= 200 + b(a-1)\nANSWER: 200 + ab - b"
+ },
+ {
+  "part": "maths-pp-2026-higher-p1-q10#(f)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths2"
+  ],
+  "marks": 15,
+  "solution": "## Write both sides of h(x+1) = h(x) + 2\nax^2 + 2ax + a + bx + b + c &= ax^2 + bx + c + 2\n(2a + b)x + a + b + c &= bx + c + 2\nThis must hold for every $x$, so the $x$ terms match and the constant terms match.\n## Compare the x terms\n2a + b &= b\n2a &= 0\na &= 0\n## Compare the constant terms\na + b + c &= c + 2\nSubstitute $a=0$.\n0 + b + c &= c + 2\nb + c &= c + 2\nb &= 2\n## Say what this means for the graph (part ii)\nWith $a=0$ and $b=2$, $h(x)=2x+c$.\nThis is a straight line (not a curve) with slope 2.\nANSWER: a=0,\\ b=2;\\ \\text{a straight line with slope }2"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Write the data in order\nRow by row: 54, 54, 55, 55, 57, 57, 58, 62, 63, 63, 64, 65, 67, 69, 69, 70, 73, 77, 80, 85.\nThere are 20 values, so the median is halfway between the 10th and 11th values.\n## Find the median\nThe 10th value is 63 and the 11th value is 64.\n\\text{Median} &= \\frac{63+64}{2}\n&= 63.5\n## Find the range\nLargest value is 85, smallest value is 54.\n\\text{Range} &= 85 - 54\n&= 31\n## Find the lower quartile Q1\nQ1 is halfway between the 5th and 6th values, which are both 57.\nQ_1 &= \\frac{57+57}{2}\n&= 57\n## Find the upper quartile Q3\nQ3 is halfway between the 15th and 16th values, which are 69 and 70.\nQ_3 &= \\frac{69+70}{2}\n&= 69.5\n## Find the interquartile range\n\\text{IQR} &= Q_3 - Q_1\n&= 69.5 - 57\n&= 12.5\nANSWER: \\text{Median}=63.5,\\ \\text{Range}=31,\\ \\text{IQR}=12.5"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Find the angle for one hour\nThere are 20 hours in total, and a full circle is $360^\\circ$.\n\\text{Angle per hour} &= \\frac{360}{20}\n&= 18^\\circ\n## Count the hours in each class (from the stem-and-leaf graph)\n50 to 59 has 7 values, 60 to 69 has 8, 70 to 79 has 3 and 80 to 89 has 2.\n## Find each angle\n50\\text{ to }59: \\ 7 \\times 18 &= 126^\\circ\n60\\text{ to }69: \\ 8 \\times 18 &= 144^\\circ\n70\\text{ to }79: \\ 3 \\times 18 &= 54^\\circ\n80\\text{ to }89: \\ 2 \\times 18 &= 36^\\circ\nCheck: $126+144+54+36=360$.\n## Draw the pie chart\nStart from the radius already drawn. With a protractor, measure $144^\\circ$ for the 60 to 69 sector, then $126^\\circ$ for 50 to 59, then $36^\\circ$ for 80 to 89. The last sector is $54^\\circ$ for 70 to 79.\nLabel each sector with its class and write its angle inside.\nANSWER: 126^\\circ,\\ 144^\\circ,\\ 54^\\circ,\\ 36^\\circ"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Write the fraction of hours in the range 70 to 79\nNow there are $3+k$ hours in the range 70 to 79, out of $20+k$ hours in total.\n\\frac{3+k}{20+k} &= \\frac{32}{100}\n## Cross-multiply\n100(3+k) &= 32(20+k)\n300 + 100k &= 640 + 32k\n## Collect the k terms on one side\n100k - 32k &= 640 - 300\n68k &= 340\n## Divide both sides by 68\nk &= \\frac{340}{68}\nk &= 5\nANSWER: k = 5"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Write the margin of error as a decimal\n$3.4\\% = 0.034$.\n\\frac{1}{\\sqrt{n}} &= 0.034\n## Remove the fraction and the square root\n\\sqrt{n} &= \\frac{1}{0.034}\nn &= \\left(\\frac{1}{0.034}\\right)^2\nn &= 865.05\\ldots\n## Round to a whole number\n$n$ is a natural number.\nn &= 865\nANSWER: n = 865"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q2#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 15,
+  "solution": "## Write the formula for a 95% confidence interval\n\\text{CI} &= \\bar{x} \\pm 1.96\\,\\frac{s}{\\sqrt{n}}\nHere $\\bar{x}=45.4$, $s=3.1$ and $n=80$.\n## Substitute the values\n\\text{CI} &= 45.4 \\pm 1.96\\left(\\frac{3.1}{\\sqrt{80}}\\right)\n## Work out the margin\n\\frac{3.1}{\\sqrt{80}} &= 0.3466\\ldots\n1.96 \\times 0.3466 &= 0.679\\ldots\n## Work out each end and round to 1 decimal place\n\\text{Lower} &= 45.4 - 0.679\n&= 44.721\n&\\approx 44.7\n\\text{Upper} &= 45.4 + 0.679\n&= 46.079\n&\\approx 46.1\nThe 95% confidence interval is $(44.7,\\ 46.1)$.\n## State the alternative hypothesis (part ii)\nThe company claims the mean is 44, and we test whether it is different from 44 in either direction.\nH_1 &: \\mu \\ne 44\n## Compare 44 with the confidence interval\n44 is outside the interval $(44.7,\\ 46.1)$.\nConclusion: reject the null hypothesis. The mean charging time of the new model is not 44 minutes, so the company's claim is not supported.\nReason: 44 lies outside the 95% confidence interval.\nANSWER: (44.7,\\ 46.1);\\ H_1:\\mu\\ne 44;\\ \\text{reject }H_0\\text{ as 44 is outside the interval}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q2#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Compare each p-value with 0.05\nBoth $p$-values are below 0.05, so both tests reject the null hypothesis at the 5% level.\nThe second $p$-value, 0.0002, is far smaller than 0.046, so the second test gives much stronger evidence against the null hypothesis.\nWe would have more confidence in the conclusion of the second test, and the first test's result is closer to the borderline.\nANSWER: \\text{We have more confidence in the conclusion of the second test.}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Drop a perpendicular from each vertex to l\nAxial symmetry in $l$ sends each point to the point the same distance from $l$ on the other side, along the perpendicular to $l$.\nWith the compass centred on a vertex, draw an arc that cuts $l$ in two places, then bisect between those two points to get the perpendicular from the vertex.\n## Mark each image vertex\nWhere the perpendicular meets $l$, set the compass to the distance from the vertex to $l$.\nSwing an arc from that point on $l$ to cut the perpendicular on the far side of $l$. That point is the image vertex.\nCheck with a ruler: the perpendicular distances from the vertices to $l$ are about 4.1 cm, 1.2 cm and 6.9 cm, and each image vertex is the same distance on the other side.\n## Join the image vertices\nJoin the three image vertices to form $t'$, the image of $t$.\nCheck: the sides of $t'$ are about 3.3 cm, 4.8 cm and 6.2 cm, the same as $t$.\nANSWER: \\text{Triangle } t' \\text{ is the reflection of } t \\text{ in } l"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Substitute the radius and height into the cone volume\nVolume of a cone: $V = \\frac{1}{3}\\pi r^2 h$, with $r = \\frac{h}{4}$ and $V = 36000\\pi$.\n\\frac{1}{3}\\pi \\left(\\frac{h}{4}\\right)^2 h &= 36000\\pi\n## Square the radius\n\\frac{1}{3}\\pi \\cdot \\frac{h^2}{16} \\cdot h &= 36000\\pi\n\\frac{\\pi h^3}{48} &= 36000\\pi\n## Isolate h cubed\nDivide both sides by $\\pi$.\n\\frac{h^3}{48} &= 36000\nMultiply both sides by 48.\nh^3 &= 36000 \\times 48\nh^3 &= 1\\,728\\,000\n## Take the cube root\nh &= \\sqrt[3]{1\\,728\\,000}\nh &= 120\nCheck: $120^3 = 1\\,728\\,000$.\nANSWER: h = 120"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q3#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the diagonal of the smallest face\nThe sphere's diameter is the internal diagonal of the cuboid. Let $x$ be the diagonal of the 24 by 36 face, and $y$ the internal diagonal.\nx^2 &= 24^2 + 36^2\nx^2 &= 576 + 1296\nx^2 &= 1872\n## Find the internal diagonal\nThe internal diagonal is the hypotenuse of a right-angled triangle with sides 60 and $x$.\ny^2 &= 60^2 + x^2\ny^2 &= 3600 + 1872\ny^2 &= 5472\ny &= \\sqrt{5472}\ny &= \\sqrt{144 \\times 38}\ny &= 12\\sqrt{38}\n## Find the radius of the sphere\nThe radius is half the diameter $y$.\nr &= \\frac{y}{2}\nr &= \\frac{12\\sqrt{38}}{2}\nr &= 6\\sqrt{38}\n## Substitute the radius into the sphere volume\nV &= \\frac{4}{3}\\pi r^3\nV &= \\frac{4}{3}\\pi \\left(6\\sqrt{38}\\right)^3\n## Simplify to the required form\nV &= \\frac{4}{3}\\pi \\times 6^3 \\times \\left(\\sqrt{38}\\right)^3\nV &= \\frac{4}{3}\\pi \\times 216 \\times 38\\sqrt{38}\nV &= 288 \\times 38\\sqrt{38}\\,\\pi\nV &= 10\\,944\\sqrt{38}\\,\\pi\nANSWER: 10\\,944\\sqrt{38}\\,\\pi \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of l\nRearrange $3x - 2y = 0$ into the form $y = mx + c$.\n3x - 2y &= 0\n-2y &= -3x\ny &= \\frac{3}{2}x\nm_l &= \\frac{3}{2}\n## Read the slope of k\n$k$ is already in the form $y = mx + c$.\nm_k &= -\\frac{3}{2}\n## Test the perpendicular condition\nPerpendicular lines have slopes whose product is $-1$.\nm_l \\times m_k &= \\frac{3}{2} \\times \\left(-\\frac{3}{2}\\right)\nm_l \\times m_k &= -\\frac{9}{4}\nSince $-\\frac{9}{4} \\ne -1$, the lines are not perpendicular.\nANSWER: \\text{No, because } -\\tfrac{3}{2} \\times \\tfrac{3}{2} \\ne -1"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths3"
+  ],
+  "marks": 10,
+  "solution": "## Find the critical lines\nEvery line $y = mx + 8$ passes through $(0, 8)$. The critical lines go from $(0, 8)$ to the ends of the segment, $(3, 11)$ and $(3, 7)$.\n## Slope of the line through (3, 11)\nm &= \\frac{11 - 8}{3 - 0}\nm &= \\frac{3}{3}\nm &= 1\n## Slope of the line through (3, 7)\nm &= \\frac{7 - 8}{3 - 0}\nm &= -\\frac{1}{3}\n## Decide which slopes miss the segment\nAt $x = 3$ the line has height $3m + 8$. It misses the segment if this height is above 11 or below 7.\n3m + 8 &> 11\n3m &> 3\nm &> 1\n3m + 8 &< 7\n3m &< -1\nm &< -\\frac{1}{3}\nANSWER: m < -\\frac{1}{3} \\quad \\text{or} \\quad m > 1"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q4#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Write the perpendicular distance formula\nDistance from $(x_1, y_1)$ to $Ax + By + C = 0$ is $\\dfrac{|Ax_1 + By_1 + C|}{\\sqrt{A^2 + B^2}}$. Here $A = a$, $B = 1$, $C = -5$ and $(x_1, y_1) = (1, 0)$.\n\\frac{|a(1) + 1(0) - 5|}{\\sqrt{a^2 + 1^2}} &= 5\n\\frac{|a - 5|}{\\sqrt{a^2 + 1}} &= 5\n## Clear the fraction\n|a - 5| &= 5\\sqrt{a^2 + 1}\n## Square both sides\n(a - 5)^2 &= 25(a^2 + 1)\n## Expand both sides\na^2 - 10a + 25 &= 25(a^2 + 1)\na^2 - 10a + 25 &= 25a^2 + 25\n## Collect terms on one side\nSubtract $a^2 - 10a + 25$ from both sides.\n0 &= 24a^2 + 10a\n24a^2 + 10a &= 0\n## Factorise and solve\na(24a + 10) &= 0\na = 0 \\ &\\text{or}\\ 24a + 10 = 0\n24a &= -10\na &= -\\frac{10}{24}\na &= -\\frac{5}{12}\nANSWER: a = 0 \\quad \\text{or} \\quad a = -\\frac{5}{12}"
+ }
+]

@@ -1,0 +1,511 @@
+[
+ {
+  "skill": "prob-without-replacement",
+  "what": {
+   "say": [
+    "You give it a container and the draws you make. It finds the **probability** of getting a particular outcome.",
+    "Without replacement the container shrinks after every draw, so each fraction has a smaller denominator than the one before."
+   ],
+   "in": "container + draws",
+   "out": "probability"
+  },
+  "how": {
+   "higher": "On Paper 2 it is a part of its own, worth 10 to 15 marks, in 2019, 2021 and 2025, often with a table of counts or a large number of items.",
+   "ordinary": "On Paper 2 it appears as a short part (5 to 15 marks) in 2022 and 2024, with a small group of dogs or counters drawn one after another."
+  },
+  "example": {
+   "question": "A bag holds 7 red counters and 5 blue counters. Three counters are drawn at random, one after another, without replacement. Find the probability that exactly two of them are red.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "List the orders",
+      "say": "Exactly two red means one blue. The blue can come first, second or third, so there are three orders: $RRB$, $RBR$ and $BRR$. Each order has the same probability, so find one and multiply.",
+      "lines": [
+       {
+        "text": "Orders: $RRB$, $RBR$, $BRR$"
+       },
+       {
+        "tex": "\\text{number of orders} &= \\hl{2}{3}",
+        "sym": "3"
+       }
+      ]
+     },
+     {
+      "title": "Find one order",
+      "say": "Without replacement the bag shrinks. After each draw, the number of counters left drops by one. Multiply the three fractions for $RRB$.",
+      "lines": [
+       {
+        "tex": "P(RRB) &= \\frac{7}{12}\\times\\frac{6}{11}\\times\\frac{5}{10}",
+        "sym": "Rational(7,12)*Rational(6,11)*Rational(5,10)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{7}{44}}",
+        "sym": "Rational(7,44)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the orders",
+      "say": "The three orders are separate outcomes, so add them. That is the same as multiplying one order by $\\hl{2}{3}$.",
+      "lines": [
+       {
+        "tex": "P(\\text{two red}) &= \\hl{2}{3}\\times\\hl{1}{\\frac{7}{44}}",
+        "sym": "3*Rational(7,44)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{21}{44}",
+        "sym": "Rational(21,44)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{21}{44}"
+   },
+   "finalSym": "Rational(21,44)",
+   "answerSym": "binomial(7,2)*binomial(5,1)/binomial(12,3)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Multiply the fractions together. Writing the fractions without multiplying them earns only a low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(c)(i)",
+       "quote": "Product of four fractions, two of"
+      },
+      {
+       "part": "maths-pp-2025-higher-p2-q3#(b)",
+       "quote": "Finds one relevant probability, for"
+      }
+     ]
+    },
+    {
+     "tip": "Say whether you assume replacement or not. Either is accepted, but the fractions must match what you chose.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(c)(i)",
+       "quote": "Assuming no replacement:"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Without replacement, both the top and the bottom of each fraction change. Marks are given for each correct numerator and denominator.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q7#(c)(i), (ii)",
+       "quote": "3 numerators or 3 denominators"
+      }
+     ]
+    },
+    {
+     "tip": "Round at the end only. Rounding wrongly costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q7#(c)(i), (ii)",
+       "quote": "Incorrect rounding"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-kth-success",
+  "what": {
+   "say": [
+    "You give it the chance of success $p$, the number of successes $k$ you want, and the trial $n$. It finds the **probability** that the $k$th success happens on exactly trial $n$.",
+    "The last trial must be a success. So the first $n-1$ trials hold exactly $k-1$ successes, and then the next one succeeds."
+   ],
+   "in": "$n$, $k$, $p$",
+   "out": "$P(k\\text{th success on trial } n)$"
+  },
+  "how": {
+   "higher": "On Paper 2 it is a part of its own, worth 5 to 10 marks, in 2015, 2017, 2021 and 2023: the third win on the tenth throw, the fourth success on the eighth day, and similar."
+  },
+  "example": {
+   "question": "A fair die is rolled repeatedly. Find the probability that the third six comes on the eighth roll. Give your answer correct to four decimal places.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split the rolls",
+      "say": "The third six is on roll 8, so roll 8 is a six. The first 7 rolls hold exactly two sixes. Find that probability first.",
+      "lines": [
+       {
+        "text": "A six has $P = \\frac{1}{6}$. Not a six has $P = \\frac{5}{6}$."
+       },
+       {
+        "tex": "P(\\text{2 sixes in 7}) &= \\binom{7}{2}\\left(\\frac{1}{6}\\right)^{2}\\left(\\frac{5}{6}\\right)^{5}",
+        "sym": "binomial(7,2)*Rational(1,6)**2*Rational(5,6)**5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Add the last roll",
+      "say": "Roll 8 must be a six. Multiply by $\\frac{1}{6}$.",
+      "lines": [
+       {
+        "tex": "P(\\text{3rd six on roll 8}) &= \\binom{7}{2}\\left(\\frac{1}{6}\\right)^{2}\\left(\\frac{5}{6}\\right)^{5}\\times\\frac{1}{6}",
+        "sym": "binomial(7,2)*Rational(1,6)**2*Rational(5,6)**5*Rational(1,6)",
+        "new": true
+       },
+       {
+        "tex": "&= \\binom{7}{2}\\left(\\frac{1}{6}\\right)^{3}\\left(\\frac{5}{6}\\right)^{5}",
+        "sym": "binomial(7,2)*Rational(1,6)**3*Rational(5,6)**5"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "say": "Put it in the calculator and round to four decimal places.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{0.0391}",
+        "sym": "0.0391",
+        "new": true,
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{0.0391}"
+   },
+   "finalSym": "binomial(7,2)*Rational(1,6)**3*Rational(5,6)**5",
+   "answerSym": "21*5**5/6**8"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the last trial separately: it is a success, so multiply by $p$ at the end. Leaving it out is a typical slip.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q1#(b)",
+       "quote": "for last day"
+      },
+      {
+       "part": "maths-pp-2023-higher-p2-q1#(b)",
+       "quote": "for the last day"
+      }
+     ]
+    },
+    {
+     "tip": "Writing the first line of the solution earns marks even before you evaluate it.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q10#(a)(i)",
+       "quote": "First line of solution indicated"
+      }
+     ]
+    },
+    {
+     "tip": "Give the answer to the number of decimal places asked. Wrong or no rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q1#(b)",
+       "quote": "Incorrect rounding or no rounding"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "seq-pattern",
+  "what": {
+   "say": [
+    "You give it the first few terms of a pattern, or diagrams of it. It continues the pattern and writes the **nth term** as a formula.",
+    "If each step adds the same amount, the pattern is arithmetic: the nth term is the first term plus $n-1$ lots of that amount."
+   ],
+   "in": "terms or diagrams",
+   "out": "next terms, nth term"
+  },
+  "how": {
+   "higher": "On Paper 1 it is a part inside bigger sequence and series questions, and sometimes on Paper 2, where you extend a pattern, find a term or prove a rule for it.",
+   "ordinary": "On Paper 1 it is a question of its own almost every year, 10 to 25 marks: complete a table of tiles or dots, write $T_n$, then use it to find a later term or $n$."
+  },
+  "example": {
+   "question": "The first three patterns in a sequence use 6, 10 and 14 tiles. The pattern continues in the same way.\n(a) Find the number of tiles in patterns 4 and 5.\n(b) Write the number of tiles in pattern $n$ in terms of $n$.\n(c) Which pattern uses 102 tiles?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the difference",
+      "say": "Look at how much each pattern adds. If it is the same every time, the pattern is arithmetic.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{d} &= 10-6",
+        "sym": "10-6",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{4}",
+        "sym": "4"
+       },
+       {
+        "text": "$14-10 = 4$ as well, so the difference is always 4."
+       }
+      ]
+     },
+     {
+      "title": "Continue the pattern",
+      "say": "Add $\\hl{1}{4}$ each time.",
+      "lines": [
+       {
+        "tex": "T_4 &= 14+4 = 18",
+        "sym": "14+4",
+        "new": true
+       },
+       {
+        "tex": "T_5 &= 18+4 = 22",
+        "sym": "18+4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the nth term",
+      "say": "Use $T_n = a + (n-1)d$ with $a = 6$ and $d = \\hl{1}{4}$.",
+      "lines": [
+       {
+        "tex": "T_n &= 6+(n-1)\\hl{1}{4}",
+        "sym": "6+(n-1)*4",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{4n+2}",
+        "sym": "4*n+2"
+       }
+      ]
+     },
+     {
+      "title": "Solve for 102",
+      "say": "Set $T_n$ equal to 102 and solve for $n$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{4n+2} &= 102",
+        "sym": "Eq(4*n+2,102)",
+        "new": true
+       },
+       {
+        "tex": "4n &= 100",
+        "sym": "Eq(4*n,100)"
+       },
+       {
+        "tex": "n &= \\hl{3}{25}",
+        "sym": "Eq(n,25)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "T_4 = 18,\\ T_5 = 22,\\ T_n = \\hl{2}{4n+2},\\ \\text{pattern } \\hl{3}{25}"
+   },
+   "finalSym": "25",
+   "answerSym": "solve(4*n+2-102,n)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "In a proof about a pattern, checking one case is not enough. It earns only low partial credit; you must show it for $n$.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q7#(a)(i)",
+       "quote": "Particular case verification"
+      }
+     ]
+    },
+    {
+     "tip": "Do not assume a pattern is arithmetic. Work out each term from the information given.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q7#(a)(i)",
+       "quote": "it cannot be assumed"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the formula $T_n = a + (n-1)d$ down. Writing it, and picking out $a$ and $d$, earns marks even if the rest goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q9#(a)(i)",
+       "quote": "formula written"
+      },
+      {
+       "part": "maths-pp-2021-ordinary-p1-q9#(a)(i)",
+       "quote": "a and/or d identified"
+      }
+     ]
+    },
+    {
+     "tip": "Table entries that follow from your own earlier entries still earn marks, so fill in every cell.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p1-q7#(a)",
+       "quote": "3 correct or consistent new entries"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute fully into the formula before you simplify.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q9#(a)",
+       "quote": "Formula fully substituted"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "seq-classify",
+  "what": {
+   "say": [
+    "You give it a list of terms. It tells you whether the sequence is **arithmetic**, **geometric** or neither, and gives the reason.",
+    "Arithmetic means the differences between terms are all equal. Geometric means the ratios are all equal. Test both."
+   ],
+   "in": "list of terms",
+   "out": "type, with reason"
+  },
+  "how": {
+   "higher": "On Paper 1 it is a step inside bigger sequence questions in 2015, 2019 and 2022: show three terms are arithmetic by equating common differences, or find a common ratio.",
+   "ordinary": "On Paper 1 it is rarely asked directly. It shows up as a step when you decide how to write $T_n$."
+  },
+  "example": {
+   "question": "The first four terms of a sequence are 4, 12, 36, 108. State whether the sequence is arithmetic, geometric or neither, giving a reason. Write down the next term.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Test the differences",
+      "say": "If the sequence is arithmetic, every difference is the same. Subtract each term from the next.",
+      "lines": [
+       {
+        "tex": "T_2-T_1 &= 12-4",
+        "sym": "12-4",
+        "new": true
+       },
+       {
+        "tex": "&= 8",
+        "sym": "8"
+       },
+       {
+        "tex": "T_3-T_2 &= 36-12",
+        "sym": "36-12",
+        "new": true
+       },
+       {
+        "tex": "&= 24",
+        "sym": "24"
+       },
+       {
+        "text": "$8 \\neq 24$, so it is not arithmetic."
+       }
+      ]
+     },
+     {
+      "title": "Test the ratios",
+      "say": "If the sequence is geometric, every ratio is the same. Divide each term by the one before.",
+      "lines": [
+       {
+        "tex": "\\frac{T_2}{T_1} &= \\frac{12}{4}",
+        "sym": "Rational(12,4)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3}",
+        "sym": "3"
+       },
+       {
+        "tex": "\\frac{T_3}{T_2} &= \\frac{36}{12}",
+        "sym": "Rational(36,12)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3}",
+        "sym": "3"
+       },
+       {
+        "tex": "\\frac{T_4}{T_3} &= \\frac{108}{36}",
+        "sym": "Rational(108,36)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3}",
+        "sym": "3"
+       },
+       {
+        "text": "The ratio is always $\\hl{1}{3}$, so it is geometric."
+       }
+      ]
+     },
+     {
+      "title": "Find the next term",
+      "say": "Multiply the last term by the ratio $\\hl{1}{3}$.",
+      "lines": [
+       {
+        "tex": "T_5 &= 108\\times\\hl{1}{3}",
+        "sym": "108*3",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{324}",
+        "sym": "324"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{geometric, } r = \\hl{1}{3},\\ T_5 = \\hl{2}{324}"
+   },
+   "finalSym": "324",
+   "answerSym": "4*3**4"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "To show three terms are arithmetic, set the two common differences equal. That is the first mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q4#(b)(i)",
+       "quote": "Equates common differences"
+      },
+      {
+       "part": "maths-pp-2022-higher-p1-q4#(b)(i)",
+       "quote": "Finds the common difference in terms"
+      }
+     ]
+    },
+    {
+     "tip": "Write the series formula and substitute $a$ and $r$ into it. Even the formula with some substitution earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q7#(a)(ii)",
+       "quote": "formula with some substitution"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

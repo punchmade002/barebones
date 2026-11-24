@@ -1,0 +1,397 @@
+[
+ {
+  "part": "maths-pp-2016-ordinary-p2-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Add the given percentages\n\\text{Total given} &= 30 + 21 + 12 + 13\n&= 76\n## Subtract from 100%\n\\text{Other} &= 100 - 76\n&= 24\nANSWER: 24\\%"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Find the degrees for 1%\nThe whole circle is 360° and represents 100%.\n1\\% &= \\frac{360}{100}\n&= 3.6^\\circ\nCheck: $13 \\times 3.6 = 46.8$, which matches the given angle.\n## WC flushing\n30\\% &= 30 \\times 3.6\n&= 108^\\circ\n## Personal washing, baths and taps\n21\\% &= 21 \\times 3.6\n&= 75.6^\\circ\n## Personal washing, showers\n12\\% &= 12 \\times 3.6\n&= 43.2^\\circ\n## Other\n24\\% &= 24 \\times 3.6\n&= 86.4^\\circ\nANSWER: 108^\\circ,\\ 75.6^\\circ,\\ 43.2^\\circ,\\ 46.8^\\circ,\\ 86.4^\\circ"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Check the angles add to 360°\n\\text{Sum} &= 108 + 75.6 + 43.2 + 46.8 + 86.4\n&= 360\n## Draw the first sector\nPut the protractor on the centre with its zero line along the printed radius. Measure 108° anticlockwise, draw the radius and label the sector WC flushing, 108°.\n## Draw the other sectors one after another\nStarting from the last radius each time, measure 75.6° (baths and taps), 43.2° (showers) and 46.8° (clothes washing). The remaining sector is Other, 86.4°, and it should end on the printed radius.\n## Label every sector\nWrite the activity name and its angle inside each sector.\nANSWER: \\text{Pie chart with sectors } 108^\\circ,\\ 75.6^\\circ,\\ 43.2^\\circ,\\ 46.8^\\circ,\\ 86.4^\\circ"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q8#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Multiply for each activity\nLitres used = water required per activity × frequency. One bath: $80 \\times 3 = 240$ is given. Use the other rows of the table the same way (shower 125 litres, 20 showers; teeth 6 litres per minute, 32 minutes; WC flush 6 litres, 60 flushes).\n\\text{Shower} &= 125 \\times 20\n&= 2500\n\\text{Teeth brushing} &= 6 \\times 32\n&= 192\n\\text{WC flush} &= 6 \\times 60\n&= 360\n\\text{Washing machine} &= 45 \\times 8\n&= 360\n\\text{Dishwasher} &= 20 \\times 7\n&= 140\n\\text{Car wash} &= 10 \\times 1\n&= 10\n\\text{Hosepipe} &= 9 \\times 15\n&= 135\n## Add all the litres\n\\text{Total} &= 240 + 2500 + 192 + 360 + 360 + 140 + 10 + 135\n&= 3937\nANSWER: \\text{Total} = 3937 \\text{ litres}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q8#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Litres used in one year\nThere are 52 weeks in a year.\n\\text{Litres} &= 3937 \\times 52\n&= 204\\,724\n## Convert to thousands of litres\n\\frac{204\\,724}{1000} &= 204.724\n## Multiply by the price per 1000 litres\n\\text{Cost} &= 204.724 \\times \\text{€}1.85\n&= \\text{€}378.7394\n&\\approx \\text{€}378.74\nANSWER: \\text{€}378.74"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q8#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Add 13.5% VAT\nAdding 13.5% means multiplying by $1.135$.\n\\text{Bill} &= 378.74 \\times 1.135\n&= \\text{€}429.8699\n&\\approx \\text{€}429.87\nANSWER: \\text{€}429.87"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q8#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 20,
+  "solution": "## Price per 1000 litres including VAT\n\\text{Price} &= \\text{€}1.85 \\times 1.135\n&= \\text{€}2.09975\n## Find how many lots of 1000 litres €260 buys\n\\text{Number of lots} &= \\frac{260}{2.09975}\n&= 123.8242648\n## Convert to litres\n\\text{Litres} &= 123.8242648 \\times 1000\n&= 123\\,824.2648\n&\\approx 123\\,824.3\nANSWER: 123\\,824.3 \\text{ litres}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Read the point from the graph\nRead across to the $x$-value first, then up to the $y$-value. $F$ is 4 across and 1 up.\nF &= (4, 1)\nANSWER: F = (4, 1)"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Move 5 units North of F\nNorth is straight up the page, so the $x$-value stays 4 and the $y$-value goes up by 5.\ny_B &= 1 + 5\n&= 6\n## Plot and label the point\nPlot the point $(4, 6)$ and label it $B$.\nB &= (4, 6)\nANSWER: B = (4, 6)"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q9#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the distance formula with B(4, 6) and Q(−2, 7)\n$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$\n|BQ| &= \\sqrt{(-2 - 4)^2 + (7 - 6)^2}\n&= \\sqrt{(-6)^2 + 1^2}\n&= \\sqrt{36 + 1}\n&= \\sqrt{37}\n&= 6.08\nANSWER: |BQ| = 6.08"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q9#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the opposite sides of the parallelogram\nIn $FBQT$, the side $[TQ]$ is parallel and equal to $[FB]$. $[FB]$ goes straight up 5 units, so $T$ is 5 units directly below $Q$.\nx_T &= -2\ny_T &= 7 - 5\n&= 2\n## Plot T\nPlot $T(-2, 2)$ and join $F$, $B$, $Q$ and $T$ to see the parallelogram.\nANSWER: T = (-2, 2)"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q9#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Find the base [FB]\n|FB| &= 6 - 1\n&= 5\n## Find the perpendicular height\nThe sides $[FB]$ and $[QT]$ are vertical, on $x = 4$ and $x = -2$. The distance between them is the height.\nh &= 4 - (-2)\n&= 6\n## Use area = base × perpendicular height\n\\text{Area} &= 5 \\times 6\n&= 30\nANSWER: 30 \\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q9#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 20,
+  "solution": "## Pick out the triangle FBQ\nUse triangle $FBQ$. $|\\angle QFB| = 45^\\circ$ is opposite $[BQ]$, and $|\\angle BQF|$ is opposite $[FB]$.\n$|FB| = 5$ and $|BQ| = \\sqrt{37} = 6.08$.\n## Write the sine rule\n\\frac{\\sin \\angle BQF}{|FB|} &= \\frac{\\sin 45^\\circ}{|BQ|}\n\\frac{\\sin \\angle BQF}{5} &= \\frac{\\sin 45^\\circ}{6.08}\n## Multiply both sides by 5\n\\sin \\angle BQF &= \\frac{5 \\sin 45^\\circ}{6.08}\n&= 0.5815\n## Use inverse sine to find the angle\n\\angle BQF &= \\sin^{-1}(0.5815)\n&= 35.6^\\circ\nANSWER: |\\angle BQF| = 35.6^\\circ"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Factor out the coefficient of x squared\nTake out $a = 2$ so the $x^2$ term has coefficient 1.\nf(x) &= 2x^2 - 7x - 10\n&= 2\\left(x^2 - \\frac{7}{2}x - 5\\right)\n## Complete the square inside the bracket\nHalve the coefficient of $x$: $\\frac{1}{2}\\times\\left(-\\frac{7}{2}\\right) = -\\frac{7}{4}$. Square it to get $\\frac{49}{16}$.\nx^2 - \\frac{7}{2}x &= \\left(x - \\frac{7}{4}\\right)^2 - \\frac{49}{16}\nf(x) &= 2\\left(\\left(x - \\frac{7}{4}\\right)^2 - \\frac{49}{16} - 5\\right)\n&= 2\\left(\\left(x - \\frac{7}{4}\\right)^2 - \\frac{129}{16}\\right)\n## Multiply the 2 back in\nf(x) &= 2\\left(x - \\frac{7}{4}\\right)^2 - \\frac{129}{8}\nANSWER: f(x) = 2\\left(x - \\frac{7}{4}\\right)^2 - \\frac{129}{8}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Read the minimum from the completed square\nA square is never negative, so $2\\left(x - \\frac{7}{4}\\right)^2$ is smallest (zero) when $x - \\frac{7}{4} = 0$.\nx - \\frac{7}{4} &= 0\nx &= \\frac{7}{4}\n## Find the minimum value\nf\\left(\\frac{7}{4}\\right) &= 2(0)^2 - \\frac{129}{8}\n&= -\\frac{129}{8}\nANSWER: \\left(\\frac{7}{4},\\; -\\frac{129}{8}\\right)"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q1#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Show the graph must cross the x-axis twice\nThe coefficient of $x^2$ is $a = 2 > 0$, so the graph opens upwards and $f$ has a minimum point.\nFrom part (b) the minimum is at $y = -\\frac{129}{8}$, which is below the x-axis.\nA graph that opens upwards with its lowest point below the x-axis must cross the x-axis twice, so $f$ has two real roots.\nANSWER: \\text{Minimum is below the } x\\text{-axis and } a>0 \\text{, so two real roots}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q1#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Set the completed-square form equal to zero\n2\\left(x - \\frac{7}{4}\\right)^2 - \\frac{129}{8} &= 0\n2\\left(x - \\frac{7}{4}\\right)^2 &= \\frac{129}{8}\n\\left(x - \\frac{7}{4}\\right)^2 &= \\frac{129}{16}\n## Take the square root of both sides\nx - \\frac{7}{4} &= \\pm\\sqrt{\\frac{129}{16}}\nx &= \\frac{7}{4} \\pm \\sqrt{\\frac{129}{16}}\nANSWER: x = \\frac{7}{4} \\pm \\sqrt{\\frac{129}{16}}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 15,
+  "solution": "## Find the modulus of z\n|z| &= \\sqrt{\\left(-\\sqrt{3}\\right)^2 + 1^2}\n&= \\sqrt{4}\n&= 2\n## Find the argument of z\n$z = -\\sqrt{3} + i$ is in the second quadrant (negative real part, positive imaginary part). Find the reference angle $\\alpha$ first.\n\\tan\\alpha &= \\frac{1}{\\sqrt{3}}\n\\alpha &= \\frac{\\pi}{6}\n\\theta &= \\pi - \\frac{\\pi}{6}\n&= \\frac{5\\pi}{6}\n## Write z in polar form\nz &= 2\\left(\\cos\\frac{5\\pi}{6} + i\\sin\\frac{5\\pi}{6}\\right)\n## Apply De Moivre's Theorem\n$[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\nz^4 &= 2^4\\left(\\cos\\frac{4\\cdot 5\\pi}{6} + i\\sin\\frac{4\\cdot 5\\pi}{6}\\right)\n&= 16\\left(\\cos\\frac{10\\pi}{3} + i\\sin\\frac{10\\pi}{3}\\right)\n## Evaluate the cosine and sine\n$\\frac{10\\pi}{3} - 2\\pi = \\frac{4\\pi}{3}$, which is in the third quadrant, so both values are negative.\n\\cos\\frac{10\\pi}{3} &= -\\frac{1}{2}\n\\sin\\frac{10\\pi}{3} &= -\\frac{\\sqrt{3}}{2}\n## Multiply out and simplify\nz^4 &= 16\\left(-\\frac{1}{2} - \\frac{\\sqrt{3}}{2}i\\right)\n&= -8 - 8\\sqrt{3}\\,i\nANSWER: z^4 = -8 - 8\\sqrt{3}\\,i"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Write w in polar form\n$|w| = 3$ and the angle is $30^\\circ = \\frac{\\pi}{6}$.\nw &= 3\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)\n## Multiply z and w\nTo multiply in polar form, multiply the moduli and add the angles.\nzw &= 2\\left(\\cos\\frac{5\\pi}{6} + i\\sin\\frac{5\\pi}{6}\\right)\\times 3\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)\n&= 6\\left(\\cos\\left(\\frac{5\\pi}{6}+\\frac{\\pi}{6}\\right) + i\\sin\\left(\\frac{5\\pi}{6}+\\frac{\\pi}{6}\\right)\\right)\n&= 6(\\cos\\pi + i\\sin\\pi)\n## Evaluate\nt &= 6(-1 + 0i)\n&= -6\nANSWER: t = -6"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 20,
+  "solution": "## Find f(x + h)\nFirst principles: $f'(x) = \\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}$. Replace $x$ with $x+h$ in $f$.\nf(x+h) &= \\frac{1}{3}(x+h)^2 - (x+h) + 3\n&= \\frac{1}{3}\\left(x^2 + 2xh + h^2\\right) - x - h + 3\n&= \\frac{x^2}{3} + \\frac{2xh}{3} + \\frac{h^2}{3} - x - h + 3\n## Find f(x + h) - f(x)\nf(x+h) - f(x) &= \\left(\\frac{x^2}{3} + \\frac{2xh}{3} + \\frac{h^2}{3} - x - h + 3\\right) - \\left(\\frac{x^2}{3} - x + 3\\right)\n&= \\frac{2xh}{3} + \\frac{h^2}{3} - h\n## Divide by h\n\\frac{f(x+h) - f(x)}{h} &= \\frac{\\frac{2xh}{3} + \\frac{h^2}{3} - h}{h}\n&= \\frac{2x}{3} + \\frac{h}{3} - 1\n## Let h tend to 0\nf'(x) &= \\lim_{h\\to 0}\\left(\\frac{2x}{3} + \\frac{h}{3} - 1\\right)\n&= \\frac{2x}{3} - 1\nANSWER: f'(x) = \\frac{2x}{3} - 1"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Write f(g(x)) as a single function\nf(g(x)) &= \\ln\\left(3(x+5)^2 + 2\\right)\n## Differentiate using the chain rule\n$\\frac{d}{dx}\\ln u = \\frac{u'}{u}$, where $u = 3(x+5)^2 + 2$.\nu &= 3(x+5)^2 + 2\nu' &= 6(x+5)\n\\frac{d}{dx}f(g(x)) &= \\frac{6(x+5)}{3(x+5)^2 + 2}\n## Substitute x = 1/4\nx + 5 &= \\frac{1}{4} + 5\n&= \\frac{21}{4}\n\\frac{d}{dx}f(g(x)) &= \\frac{6\\cdot\\frac{21}{4}}{3\\left(\\frac{21}{4}\\right)^2 + 2}\n&= \\frac{\\frac{63}{2}}{\\frac{1323}{16} + 2}\n&= \\frac{\\frac{63}{2}}{\\frac{1355}{16}}\n&= \\frac{504}{1355}\n&\\approx 0.372\nANSWER: 0.372"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths17"
+  ],
+  "marks": 15,
+  "solution": "## Find the common ratio\nThe percentages form a geometric sequence with first term $a = 95$.\nr &= \\frac{42.75}{95}\n&= \\frac{9}{20}\n## Write the inequality for the nth day\nT_n &= ar^{n-1}\n95\\left(\\frac{9}{20}\\right)^{n-1} &< 0.01\n\\left(\\frac{9}{20}\\right)^{n-1} &< \\frac{0.01}{95}\n## Take logs of both sides\n(n-1)\\log\\left(\\frac{9}{20}\\right) &< \\log\\left(\\frac{0.01}{95}\\right)\n## Divide by $\\log\\left(\\frac{9}{20}\\right)$, which is negative\nDividing by a negative number reverses the inequality.\nn-1 &> \\frac{\\log\\left(\\frac{0.01}{95}\\right)}{\\log\\left(\\frac{9}{20}\\right)}\nn-1 &> 11.47\nn &> 12.47\n## Choose the first whole day\n$n$ must be a whole number, so the first day is the next whole number above $12.47$, which is day 13.\nThe marking scheme prints \"12th day\", but its own working gives $n > 12.47$, so the first day below 0.01% is day 13.\nANSWER: n > 12.47 \\text{, so the first day is day } 13"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find the first perimeter\nP_1 &= 4 \\times 2\n&= 8\n## Find the second perimeter\nA new square joins midpoints, so its side is the hypotenuse of a right-angled triangle with legs $1$ and $1$.\n\\text{side} &= \\sqrt{1^2 + 1^2}\n&= \\sqrt{2}\nP_2 &= 4\\sqrt{2}\n## Find the common ratio\nThe perimeters $8,\\ 4\\sqrt{2},\\ 4,\\ \\dots$ form a geometric series.\nr &= \\frac{4\\sqrt{2}}{8}\n&= \\frac{\\sqrt{2}}{2}\n&= \\frac{1}{\\sqrt{2}}\n## Use the sum to infinity\nS_\\infty &= \\frac{a}{1-r}\n&= \\frac{8}{1 - \\frac{1}{\\sqrt{2}}}\n## Multiply top and bottom by $1 + \\frac{1}{\\sqrt{2}}$\nS_\\infty &= \\frac{8\\left(1 + \\frac{1}{\\sqrt{2}}\\right)}{\\left(1 - \\frac{1}{\\sqrt{2}}\\right)\\left(1 + \\frac{1}{\\sqrt{2}}\\right)}\n&= \\frac{8\\left(1 + \\frac{1}{\\sqrt{2}}\\right)}{1 - \\frac{1}{2}}\n&= \\frac{8\\left(1 + \\frac{1}{\\sqrt{2}}\\right)}{\\frac{1}{2}}\n&= 16\\left(1 + \\frac{1}{\\sqrt{2}}\\right)\n## Expand and simplify\n&= 16 + \\frac{16}{\\sqrt{2}}\n&= 16 + 8\\sqrt{2}\nANSWER: 16 + 8\\sqrt{2}\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths1"
+  ],
+  "marks": 15,
+  "solution": "## Substitute $x = -3$ into $f(x)$\nf(-3) &= 2(-3)^3 + 5(-3)^2 - 4(-3) - 3\n&= -54 + 45 + 12 - 3\n&= 0\nSince $f(-3) = 0$, $x = -3$ is a root and $(x+3)$ is a factor.\n## Divide $f(x)$ by $(x+3)$: first term\nDivide the leading terms.\n2x^3 \\div x &= 2x^2\nMultiply back and subtract.\n2x^2(x+3) &= 2x^3 + 6x^2\n(2x^3 + 5x^2) - (2x^3 + 6x^2) &= -x^2\n## Second term\nBring down $-4x$ and divide the leading terms.\n-x^2 \\div x &= -x\n-x(x+3) &= -x^2 - 3x\n(-x^2 - 4x) - (-x^2 - 3x) &= -x\n## Third term\nBring down $-3$ and divide the leading terms.\n-x \\div x &= -1\n-1(x+3) &= -x - 3\n(-x - 3) - (-x - 3) &= 0\nThe remainder is $0$, so the quotient is $2x^2 - x - 1$.\n## Factorise the quadratic\nf(x) &= (x+3)(2x^2 - x - 1)\n&= (x+3)(2x+1)(x-1)\n## Read off the roots\nSet each factor equal to $0$.\nx + 3 &= 0\nx &= -3\n2x + 1 &= 0\nx &= -\\frac{1}{2}\nx - 1 &= 0\nx &= 1\nANSWER: x = -3,\\ -\\frac{1}{2},\\ 1"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate and set $f'(x) = 0$\nf'(x) &= 6x^2 + 10x - 4\n6x^2 + 10x - 4 &= 0\n3x^2 + 5x - 2 &= 0\n## Factorise and solve\n(3x - 1)(x + 2) &= 0\nx &= \\frac{1}{3} \\text{ or } x = -2\n## Decide which is the maximum\nf''(x) &= 12x + 10\nf''(-2) &= -14\n$f''(-2) < 0$, so $x = -2$ is a local maximum.\nf''\\left(\\tfrac{1}{3}\\right) &= 14\n$f''\\left(\\tfrac{1}{3}\\right) > 0$, so $x = \\tfrac{1}{3}$ is a local minimum.\n## Find $f(-2)$\nf(-2) &= 2(-2)^3 + 5(-2)^2 - 4(-2) - 3\n&= -16 + 20 + 8 - 3\n&= 9\n## Find $f\\left(\\frac{1}{3}\\right)$\nf\\left(\\tfrac{1}{3}\\right) &= 2\\left(\\tfrac{1}{3}\\right)^3 + 5\\left(\\tfrac{1}{3}\\right)^2 - 4\\left(\\tfrac{1}{3}\\right) - 3\n&= \\frac{2}{27} + \\frac{15}{27} - \\frac{36}{27} - \\frac{81}{27}\n&= -\\frac{100}{27}\nANSWER: \\text{Local max } (-2,\\ 9),\\quad \\text{local min } \\left(\\tfrac{1}{3},\\ -\\tfrac{100}{27}\\right)"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q5#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths1"
+  ],
+  "marks": 5,
+  "solution": "## Think about the graph of $f(x) + a$\nAdding $a$ moves the graph of $f$ up (or down) by $a$. A cubic has only one real root when it crosses the $x$-axis once: either the local maximum is below the axis, or the local minimum is above it.\n## Local maximum below the $x$-axis\n9 + a &< 0\na &< -9\n## Local minimum above the $x$-axis\n-\\frac{100}{27} + a &> 0\na &> \\frac{100}{27}\nANSWER: a < -9 \\ \\text{ or } \\ a > \\frac{100}{27}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Rewrite $h(x)$\n$h(x) = e^{-x} = \\dfrac{1}{e^{x}}$, so each $h$ value is $1$ divided by the matching $g$ value.\n## Make a table of values for $h(x)$\nh(0) &= e^{0} = 1\nh(0.2) &= e^{-0.2} \\approx 0.82\nh(0.4) &= e^{-0.4} \\approx 0.67\nh(0.6) &= e^{-0.6} \\approx 0.55\nh(0.8) &= e^{-0.8} \\approx 0.45\nh(1) &= e^{-1} \\approx 0.37\n## Plot and join the points\nPlot $(0, 1)$, $(0.2, 0.82)$, $(0.4, 0.67)$, $(0.6, 0.55)$, $(0.8, 0.45)$ and $(1, 0.37)$, then join them with a smooth curve for $0 \\le x \\le 1$. It starts at the same point as $g$ and falls as $x$ increases.\nANSWER: \\text{Curve through } (0,1),\\ (0.2,0.82),\\ (0.4,0.67),\\ (0.6,0.55),\\ (0.8,0.45),\\ (1,0.37)"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Set up the area between the curves\nFrom $x = 0$ the curves meet, and $g$ is above $h$ for $x > 0$, so the area runs from $x = 0$ to $x = 0.75$ with $g$ on top.\nA &= \\int_0^{0.75} e^{x}\\,dx - \\int_0^{0.75} e^{-x}\\,dx\n&= \\int_0^{0.75} \\left(e^{x} - e^{-x}\\right)dx\n## Integrate\n$\\int e^{-x}\\,dx = -e^{-x}$, so $\\int (e^x - e^{-x})\\,dx = e^x + e^{-x}$.\nA &= \\left[e^{x} + e^{-x}\\right]_0^{0.75}\n## Substitute the limits\nA &= \\left(e^{0.75} + e^{-0.75}\\right) - \\left(e^{0} + e^{0}\\right)\n&= 2.1170 + 0.4724 - 2\n&= 0.5894\nANSWER: 0.5894 \\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 0 into p(t)\nAt the beginning of 2010, $t = 0$ and the population is $1\\,100\\,000$.\np(0) &= S e^{0.1(0)} \\times 10^6\n&= S e^{0} \\times 10^6\n&= S \\times 1 \\times 10^6\n&= S \\times 10^6\n## Set equal to 1 100 000 and solve for S\nS \\times 10^6 &= 1\\,100\\,000\nS &= \\frac{1\\,100\\,000}{10^6}\nS &= 1.1\nANSWER: S = 1.1"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 5 into p(t)\nThe beginning of 2015 is $t = 5$, and $S = 1.1$.\np(5) &= 1.1 e^{0.1(5)} \\times 10^6\n&= 1.1 e^{0.5} \\times 10^6\n&= 1.813593 \\times 10^6\n&= 1\\,813\\,593\nANSWER: 1\\,813\\,593 \\text{ people}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Find the population at the start and end of 2015\n2015 runs from $t = 5$ to $t = 6$.\np(6) &= 1.1 e^{0.6} \\times 10^6\np(5) &= 1.1 e^{0.5} \\times 10^6\n## Subtract to find the change\np(6) - p(5) &= \\left(1.1 e^{0.6} - 1.1 e^{0.5}\\right) \\times 10^6\n&= 0.1907373 \\times 10^6\n&= 190\\,737\nANSWER: 190\\,737 \\text{ people}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Write an equation in k using t = 1\nThe beginning of 2011 is $t = 1$.\nq(1) &= 3.9 e^{k(1)} \\times 10^6\n3.9 e^{k} \\times 10^6 &= 3\\,709\\,795\n## Isolate e^k\n3.9 e^{k} &= 3.709795\ne^{k} &= \\frac{3.709795}{3.9}\n## Take natural logs to solve for k\nk &= \\ln\\left(\\frac{3.709795}{3.9}\\right)\nk &\\approx -0.0499999\nk &\\approx -0.05 \\text{ (2 decimal places)}\nANSWER: k = -0.05"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q7#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Set p(t) equal to q(t)\n1.1 e^{0.1t} \\times 10^6 &= 3.9 e^{-0.05t} \\times 10^6\n1.1 e^{0.1t} &= 3.9 e^{-0.05t}\n## Collect the powers of e on one side\n\\frac{e^{0.1t}}{e^{-0.05t}} &= \\frac{3.9}{1.1}\nDivide powers of the same base by subtracting the indices.\ne^{0.1t - (-0.05t)} &= \\frac{3.9}{1.1}\ne^{0.15t} &= \\frac{3.9}{1.1}\ne^{0.15t} &= \\frac{39}{11}\n## Take natural logs and solve for t\n0.15t &= \\ln\\frac{39}{11}\nt &= \\frac{\\ln\\frac{39}{11}}{0.15}\nt &\\approx 8.44 \\text{ years}\n$t = 8.44$ lies between $t = 8$ (start of 2018) and $t = 9$ (start of 2019), so it is during 2018.\nANSWER: 2018"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q7#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Write the average value as an integral\nThe average value of $q$ from $t = 0$ to $t = 15$ is $\\frac{1}{15}\\int_0^{15} q(t)\\,dt$.\n\\text{average} &= \\frac{1}{15}\\int_0^{15} 3.9 e^{-0.05t} \\times 10^6 \\, dt\n## Integrate and substitute the limits\n$\\int e^{kt}\\,dt = \\frac{e^{kt}}{k}$.\n\\text{average} &= \\frac{10^6}{15} \\times \\frac{3.9}{-0.05}\\left[e^{-0.05t}\\right]_0^{15}\n&= \\frac{10^6}{15} \\times (-78)\\left(e^{-0.75} - e^{0}\\right)\n&= \\frac{10^6}{15} \\times (-78)(0.4723666 - 1)\n&= \\frac{10^6}{15} \\times (-78)(-0.5276334)\n&= 2.743694 \\times 10^6\n&= 2\\,743\\,694\nANSWER: 2\\,743\\,694 \\text{ people}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q7#(g)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate q(t)\nq(t) &= 3.9 e^{-0.05t} \\times 10^6\nThe derivative of $e^{kt}$ is $k e^{kt}$.\nq'(t) &= -0.05 \\times 3.9 e^{-0.05t} \\times 10^6\n## Substitute t = 8\nThe beginning of 2018 is $t = 8$.\nq'(8) &= -0.05 \\times 3.9 e^{-0.05(8)} \\times 10^6\n&= -0.195 e^{-0.4} \\times 10^6\n&= -0.195 \\times 0.670320 \\times 10^6\n&= -130\\,712\nANSWER: -130\\,712 \\text{ people per year}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write the loan as the sum of the repayments in today's money\nA repayment $A$ made at the end of period $k$ is worth $\\frac{A}{(1+i)^k}$ today. Today's value of all $t$ repayments is the loan $P$.\nP &= \\frac{A}{1+i} + \\frac{A}{(1+i)^2} + \\cdots + \\frac{A}{(1+i)^t}\n## Use the sum of a geometric series\nThis is a geometric series with first term $a = \\frac{A}{1+i}$, common ratio $r = \\frac{1}{1+i}$ and $t$ terms, so $S_t = \\frac{a(1 - r^t)}{1 - r}$.\nP &= \\frac{\\frac{A}{1+i}\\left(1 - \\left(\\frac{1}{1+i}\\right)^t\\right)}{1 - \\frac{1}{1+i}}\n&= \\frac{\\frac{A}{1+i}\\left(1 - \\frac{1}{(1+i)^t}\\right)}{1 - \\frac{1}{1+i}}\n## Simplify the denominator\n1 - \\frac{1}{1+i} &= \\frac{1+i-1}{1+i}\n&= \\frac{i}{1+i}\n## Cancel the factor 1/(1+i) and tidy up\nP &= \\frac{\\frac{A}{1+i}\\left(1 - \\frac{1}{(1+i)^t}\\right)}{\\frac{i}{1+i}}\n&= \\frac{A\\left(1 - \\frac{1}{(1+i)^t}\\right)}{i}\n&= \\frac{A\\left(\\frac{(1+i)^t - 1}{(1+i)^t}\\right)}{i}\n&= \\frac{A\\left((1+i)^t - 1\\right)}{i(1+i)^t}\n## Make A the subject\nMultiply both sides by $i(1+i)^t$, then divide both sides by $(1+i)^t - 1$.\nP\\, i(1+i)^t &= A\\left((1+i)^t - 1\\right)\nA &= \\frac{P\\, i(1+i)^t}{(1+i)^t - 1}\nANSWER: A = \\frac{P\\, i(1+i)^t}{(1+i)^t - 1}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find 2.5% of the original debt\nA &= \\frac{2.5}{100} \\times 5000\n&= 125\nANSWER: \\text{€}125"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q8#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Set up the equivalent monthly rate\nAn APR of 21.75% multiplies a balance by $1.2175$ over 12 months. If the monthly rate is $i$, then $(1+i)^{12} = 1.2175$.\n(1+i)^{12} &= 1.2175\n## Take the 12th root\n1+i &= 1.2175^{\\frac{1}{12}}\n1+i &\\approx 1.016535\ni &\\approx 0.016535\nAs a percentage, $i \\approx 1.65\\%$ to 3 significant figures.\nANSWER: 1.65\\%"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q8#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Month 1: interest is 1.65% of the balance, and the payment is €125\nEach month the interest is $1.65\\%$ of the previous balance. The part of the €125 payment left after the interest reduces the debt.\n\\text{Interest} &= 0.0165 \\times 5000\n&= 82.50\n\\text{Previous balance reduced by} &= 125 - 82.50\n&= 42.50\n\\text{New balance} &= 5000 - 42.50\n&= 4957.50\n## Month 2\n\\text{Interest} &= 0.0165 \\times 4957.50\n&\\approx 81.80\n\\text{Previous balance reduced by} &= 125 - 81.80\n&= 43.20\n\\text{New balance} &= 4957.50 - 43.20\n&= 4914.30\n## Month 3\n\\text{Interest} &= 0.0165 \\times 4914.30\n&\\approx 81.09\n\\text{Previous balance reduced by} &= 125 - 81.09\n&= 43.91\n\\text{New balance} &= 4914.30 - 43.91\n&= 4870.39\nANSWER: \\text{Payment } 1\\text{: } 125,\\ 82.50,\\ 42.50,\\ 4957.50 \\quad \\text{Payment } 2\\text{: } 125,\\ 81.80,\\ 43.20,\\ 4914.30 \\quad \\text{Payment } 3\\text{: } 125,\\ 81.09,\\ 43.91,\\ 4870.39"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q8#(b)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Rearrange the formula to get (1+i)^t on its own\nUse $A = \\frac{P\\, i(1+i)^t}{(1+i)^t - 1}$.\nA\\left((1+i)^t - 1\\right) &= P\\, i (1+i)^t\nA(1+i)^t - A &= P\\, i (1+i)^t\nA &= (1+i)^t\\left(A - P\\, i\\right)\n(1+i)^t &= \\frac{A}{A - P\\, i}\n## Substitute A = 125, P = 5000 and i = 0.0165\n(1.0165)^t &= \\frac{125}{125 - 5000(0.0165)}\n&= \\frac{125}{42.5}\n## Take logs and solve for t\n\\ln\\left((1.0165)^t\\right) &= \\ln\\left(\\frac{125}{42.5}\\right)\nt \\ln(1.0165) &= \\ln\\left(\\frac{125}{42.5}\\right)\nt &= \\frac{\\ln\\left(\\frac{125}{42.5}\\right)}{\\ln(1.0165)}\nt &\\approx 65.92\nt &= 66 \\text{ months (to the nearest month)}\nANSWER: 66 \\text{ months}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q8#(b)(v)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Find the weekly interest rate\nAn APR of 8.5% multiplies a balance by $1.085$ over 52 weeks, so $(1+i)^{52} = 1.085$.\n(1+i)^{52} &= 1.085\n1+i &= 1.085^{\\frac{1}{52}}\n1+i &\\approx 1.00157\ni &\\approx 0.00157\n## Substitute P = 5000, i = 0.00157 and t = 156 into the formula\nA &= \\frac{P\\, i (1+i)^t}{(1+i)^t - 1}\n&= \\frac{5000(0.00157)(1.00157)^{156}}{(1.00157)^{156} - 1}\n&\\approx 36.16\nANSWER: \\text{€}36.16"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q8#(b)(vi)",
+  "level": "higher",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Total paid to the credit card company\n\\text{Total} &= 125 \\times 66\n&= \\text{€}8250\n## Total paid to the Credit Union\n\\text{Total} &= 36.16 \\times 156\n&= \\text{€}5640.96\n## Subtract to find the saving\n\\text{Saving} &= 8250 - 5640.96\n&= \\text{€}2609.04\nANSWER: \\text{€}2609.04"
+ }
+]

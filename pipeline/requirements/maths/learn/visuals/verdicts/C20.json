@@ -1,0 +1,8 @@
+{
+"line-angle-between":{"ok":true,"issues":[]},
+"line-from-distance":{"ok":true,"issues":[]},
+"cx-conjugate":{"ok":true,"issues":[]},
+"cx-argand":{"ok":false,"issues":["The dashed line from the origin to w (4, -1) runs through the Re-axis tick labels 1 and 2, striking them out, and the dashed edge from z+w to w crosses near label 3."]},
+"cx-modulus":{"ok":false,"issues":["The green hypotenuse cuts through the Re-axis tick label 4 and the blue vertical side (x = 5) runs through tick label 5, so both labels are struck through."]},
+"cx-transformations":{"ok":false,"issues":["The orange line to iz and the 90 degree arc pass through the Im-axis tick label 1, partly hiding it; the 90 degree label also sits tight against the axis and tick."]}
+}

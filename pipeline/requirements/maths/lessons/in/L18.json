@@ -1,0 +1,1234 @@
+[
+ {
+  "skill": {
+   "id": "seq-arith-sum",
+   "title": "Sum n terms of an arithmetic series",
+   "level": "OL",
+   "input": "a, d, n",
+   "output": "Sₙ = n/2 [2a + (n − 1)d]"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p1-q7#(d)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 30 into S_n",
+      "lines": [
+       {
+        "tex": "S_{30} &= \\frac{3(30)^2 + 7(30)}{2}"
+       },
+       {
+        "tex": "&= \\frac{3(900) + 210}{2}"
+       },
+       {
+        "tex": "&= \\frac{2700 + 210}{2}"
+       },
+       {
+        "tex": "&= \\frac{2910}{2}"
+       },
+       {
+        "tex": "&= 1455"
+       }
+      ]
+     }
+    ],
+    "final": "1455\\text{ tiles}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q8#(b)(vi)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 37 into S_n",
+      "lines": [
+       {
+        "tex": "S_{37} &= \\frac{37}{2}\\left[250(37) - 8250\\right]"
+       },
+       {
+        "tex": "&= \\frac{37}{2}\\left[9250 - 8250\\right]"
+       },
+       {
+        "tex": "&= \\frac{37}{2}(1000)"
+       },
+       {
+        "tex": "&= 18500"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}18500"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q9#(a)(iii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the sum formula with a = 1, d = 1 and n = 20",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[2a + (n-1)d\\right]"
+       },
+       {
+        "tex": "S_{20} &= \\frac{20}{2}\\left[2(1) + (20-1)(1)\\right]"
+       },
+       {
+        "tex": "&= 10\\left[2 + 19\\right]"
+       },
+       {
+        "tex": "&= 10(21)"
+       },
+       {
+        "tex": "&= 210"
+       }
+      ]
+     }
+    ],
+    "final": "S_{20} = 210"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q8#(b)(v)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the formula for the sum of n terms",
+      "lines": [
+       {
+        "text": "$S_n = \\frac{n}{2}\\left[2a + (n-1)d\\right]$ with $a = -4000$ and $d = 250$."
+       },
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[2(-4000) + (n-1)(250)\\right]"
+       }
+      ]
+     },
+     {
+      "title": "Simplify inside the bracket",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[-8000 + 250n - 250\\right]"
+       },
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[250n - 8250\\right]"
+       }
+      ]
+     }
+    ],
+    "final": "S_n = \\frac{n}{2}\\left[250n - 8250\\right]"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q6#(b)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down a and d",
+      "lines": [
+       {
+        "text": "The terms go 4, 9, 14, so $a = 4$ and $d = 9 - 4 = 5$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the sum formula",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[2a + (n-1)d\\right]"
+       },
+       {
+        "tex": "S_{50} &= \\frac{50}{2}\\left[2(4) + (50-1)(5)\\right]"
+       },
+       {
+        "tex": "&= 25\\left[8 + (49)(5)\\right]"
+       },
+       {
+        "tex": "&= 25\\left[8 + 245\\right]"
+       },
+       {
+        "tex": "&= 25(253)"
+       },
+       {
+        "tex": "&= 6325"
+       }
+      ]
+     }
+    ],
+    "final": "S_{50} = 6325"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q8#(b)(iv), (v)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the sum formula",
+      "lines": [
+       {
+        "text": "The sum of the first $n$ terms of an arithmetic sequence is $S_n = \\frac{n}{2}[2a + (n-1)d]$."
+       },
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[2(6) + (n-1)(1.5)\\right]"
+       }
+      ]
+     },
+     {
+      "title": "Substitute n = 10",
+      "lines": [
+       {
+        "tex": "S_{10} &= \\frac{10}{2}\\left[2(6) + (10-1)(1.5)\\right]"
+       },
+       {
+        "tex": "&= 5\\left[12 + 9(1.5)\\right]"
+       },
+       {
+        "tex": "&= 5\\left[12 + 13.5\\right]"
+       },
+       {
+        "tex": "&= 5(25.5)"
+       },
+       {
+        "tex": "&= 127.5 \\text{ km}"
+       }
+      ]
+     }
+    ],
+    "final": "S_n = \\frac{n}{2}\\left[2(6) + (n-1)(1.5)\\right], \\quad S_{10} = 127.5 \\ \\text{km}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-geo-nth",
+   "title": "Find the nth term of a geometric sequence",
+   "level": "HL",
+   "input": "a, r (or terms)",
+   "output": "Tₙ = arⁿ⁻¹"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q9#(b)(i)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot the pattern",
+      "lines": [
+       {
+        "text": "The numbers of black triangles are 1, 3, 9, 27, and each is 3 times the one before."
+       },
+       {
+        "tex": "1, 3, 9, 27 &= 3^0, 3^1, 3^2, 3^3"
+       },
+       {
+        "text": "Step $n$ has $3^n$ black triangles."
+       }
+      ]
+     }
+    ],
+    "final": "3^n"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q9#(d)(i)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the pattern for the perimeter",
+      "lines": [
+       {
+        "text": "Each black triangle has half the side length, but there are 3 times as many, so the total perimeter is multiplied by $\\frac{3}{2}$ each step."
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 3/2 at each step",
+      "lines": [
+       {
+        "tex": "\\text{Step 1: } 3\\times\\frac{3}{2} &= \\frac{9}{2}"
+       },
+       {
+        "tex": "\\text{Step 2: } \\frac{9}{2}\\times\\frac{3}{2} &= \\frac{27}{4}"
+       },
+       {
+        "tex": "\\text{Step 3: } \\frac{27}{4}\\times\\frac{3}{2} &= \\frac{81}{8}"
+       },
+       {
+        "tex": "\\text{Step 4: } \\frac{81}{8}\\times\\frac{3}{2} &= \\frac{243}{16}"
+       }
+      ]
+     }
+    ],
+    "final": "3,\\ \\tfrac{9}{2},\\ \\tfrac{27}{4},\\ \\tfrac{81}{8},\\ \\tfrac{243}{16}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q9#(d)(ii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the perimeter at step n",
+      "lines": [
+       {
+        "text": "A geometric sequence with first term 3 (step 0) and ratio $\\frac{3}{2}$."
+       },
+       {
+        "tex": "P_n &= 3\\left(\\frac{3}{2}\\right)^n"
+       }
+      ]
+     },
+     {
+      "title": "Substitute n = 35",
+      "lines": [
+       {
+        "tex": "P_{35} &= 3\\left(\\frac{3}{2}\\right)^{35}"
+       },
+       {
+        "tex": "&\\approx 4\\,368\\,329"
+       }
+      ]
+     }
+    ],
+    "final": "4\\,368\\,329 \\text{ units}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q7#(a)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 25 into the formula",
+      "lines": [
+       {
+        "tex": "T_n &= 45(0.9)^{n-1}"
+       },
+       {
+        "tex": "T_{25} &= 45(0.9)^{25-1}"
+       },
+       {
+        "tex": "&= 45(0.9)^{24}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and round",
+      "lines": [
+       {
+        "tex": "&= 3.5894..."
+       },
+       {
+        "tex": "&= 3.6"
+       }
+      ]
+     }
+    ],
+    "final": "3.6\\ \\text{cm}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q5#(b)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Relate G11 to G7",
+      "lines": [
+       {
+        "text": "$G_{11}$ is $G_7$ multiplied by $r$ four times."
+       },
+       {
+        "tex": "G_7 \\cdot r^4 &= G_{11}"
+       },
+       {
+        "tex": "6r^4 &= \\frac{3}{8}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for r",
+      "lines": [
+       {
+        "tex": "r^4 &= \\frac{3}{8} \\div 6"
+       },
+       {
+        "tex": "&= \\frac{3}{48}"
+       },
+       {
+        "tex": "&= \\frac{1}{16}"
+       },
+       {
+        "tex": "r &= \\pm\\frac{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "r = \\frac{1}{2} \\text{ or } r = -\\frac{1}{2}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q7#(a)(i)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply by 0.9 for each new swing",
+      "lines": [
+       {
+        "text": "Each swing is 90% of the one before, so $T_n = 45(0.9)^{n-1}$."
+       },
+       {
+        "tex": "T_2 &= 45(0.9)"
+       },
+       {
+        "tex": "&= 40.5"
+       },
+       {
+        "tex": "&= \\frac{81}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the length of swing 4",
+      "lines": [
+       {
+        "tex": "T_4 &= 45(0.9)^3"
+       },
+       {
+        "tex": "&= 32.805"
+       },
+       {
+        "tex": "&= \\frac{6561}{200}"
+       }
+      ]
+     },
+     {
+      "title": "Find the length of swing 5",
+      "lines": [
+       {
+        "tex": "T_5 &= 45(0.9)^4"
+       },
+       {
+        "tex": "&= 29.5245"
+       },
+       {
+        "tex": "&= \\frac{59049}{2000}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{81}{2} = 40.5,\\ \\frac{6561}{200} = 32.805,\\ \\frac{59049}{2000} = 29.5245"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-geo-sum",
+   "title": "Sum n terms of a geometric series",
+   "level": "HL",
+   "input": "a, r, n",
+   "output": "Sₙ = a(1 − rⁿ)/(1 − r)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-higher-p1-q4#(b)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down a and r for the geometric series",
+      "lines": [
+       {
+        "tex": "S &= 1+\\omega+\\omega^2+\\cdots+\\omega^{n-1}"
+       },
+       {
+        "text": "This is geometric with first term $a=1$, common ratio $r=\\omega$ and $n$ terms."
+       }
+      ]
+     },
+     {
+      "title": "Use the sum formula and substitute",
+      "lines": [
+       {
+        "tex": "S &= \\frac{a(1-r^n)}{1-r}"
+       },
+       {
+        "tex": "&= \\frac{1(1-\\omega^n)}{1-\\omega}"
+       },
+       {
+        "text": "Since $\\omega^n=1$, replace $\\omega^n$ with 1."
+       },
+       {
+        "tex": "&= \\frac{1(1-1)}{1-\\omega}"
+       },
+       {
+        "tex": "&= \\frac{0}{1-\\omega}"
+       },
+       {
+        "text": "$\\omega\\ne 1$, so the denominator is not zero."
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     }
+    ],
+    "final": "S = 0"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q7#(a)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot the geometric series",
+      "lines": [
+       {
+        "text": "The lengths removed are $\\frac13, \\frac29, \\frac4{27}, \\dots$, a geometric series."
+       },
+       {
+        "tex": "a &= \\frac{1}{3}"
+       },
+       {
+        "tex": "r &= \\frac{2/9}{1/3} = \\frac{2}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the sum formula",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{a(1-r^n)}{1-r}"
+       },
+       {
+        "tex": "S_n &= \\frac{\\frac{1}{3}\\left(1-\\left(\\frac{2}{3}\\right)^n\\right)}{1-\\frac{2}{3}}"
+       },
+       {
+        "tex": "S_n &= \\frac{\\frac{1}{3}\\left(1-\\left(\\frac{2}{3}\\right)^n\\right)}{\\frac{1}{3}}"
+       },
+       {
+        "tex": "S_n &= 1-\\left(\\frac{2}{3}\\right)^n"
+       }
+      ]
+     }
+    ],
+    "final": "S_n = 1-\\left(\\frac{2}{3}\\right)^n"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q7#(b)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the fractions over a common denominator",
+      "lines": [
+       {
+        "tex": "\\frac{1}{3}-\\frac{1}{9}+\\frac{1}{27}-\\frac{1}{81} &= \\frac{27}{81}-\\frac{9}{81}+\\frac{3}{81}-\\frac{1}{81}"
+       },
+       {
+        "tex": "&= \\frac{20}{81}"
+       }
+      ]
+     },
+     {
+      "title": "Show that this point is never removed",
+      "lines": [
+       {
+        "text": "After step 3 the segment $\\left[\\frac{18}{81}, \\frac{21}{81}\\right]$ remains. Step 4 removes its middle third $\\left(\\frac{19}{81}, \\frac{20}{81}\\right)$, leaving $\\left[\\frac{20}{81}, \\frac{21}{81}\\right]$."
+       },
+       {
+        "text": "So $\\frac{20}{81}$ is an end-point of a segment. End-points are never removed, so it is in the Cantor Set."
+       }
+      ]
+     }
+    ],
+    "final": "\\tfrac{20}{81}\\text{ is an end-point of a segment, so it is never removed}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q9#(c)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Work out what is left from each injection",
+      "lines": [
+       {
+        "text": "Each day the amount from an injection is multiplied by $0.6$ (it decreases by 40%)."
+       },
+       {
+        "text": "$15$ is the amount from the 4th injection, just given."
+       },
+       {
+        "text": "$15(0.6)$ is the amount left from the 3rd injection, given 1 day ago."
+       },
+       {
+        "text": "$15(0.6)^2$ is the amount left from the 2nd injection, given 2 days ago."
+       },
+       {
+        "text": "$15(0.6)^3$ is the amount left from the 1st injection, given 3 days ago."
+       }
+      ]
+     },
+     {
+      "title": "Add the four amounts",
+      "lines": [
+       {
+        "tex": "\\text{Total} &= 15 + 15(0.6) + 15(0.6)^2 + 15(0.6)^3"
+       }
+      ]
+     }
+    ],
+    "final": "15 + 15(0.6) + 15(0.6)^2 + 15(0.6)^3"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q1#(b)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the total distance as a sum",
+      "lines": [
+       {
+        "text": "The ball falls 2 m first. After that, each bounce height is travelled twice (up and down) before the 5th hit."
+       },
+       {
+        "tex": "D &= 2 + 2\\left(\\frac{3}{2} + \\frac{9}{8} + \\frac{27}{32} + \\frac{81}{128}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Write the fractions over 128",
+      "lines": [
+       {
+        "tex": "\\frac{3}{2} + \\frac{9}{8} + \\frac{27}{32} + \\frac{81}{128} &= \\frac{192}{128} + \\frac{144}{128} + \\frac{108}{128} + \\frac{81}{128}"
+       },
+       {
+        "tex": "&= \\frac{525}{128}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute back and simplify",
+      "lines": [
+       {
+        "tex": "D &= 2 + 2 \\times \\frac{525}{128}"
+       },
+       {
+        "tex": "&= 2 + \\frac{525}{64}"
+       },
+       {
+        "tex": "&= \\frac{128}{64} + \\frac{525}{64}"
+       },
+       {
+        "tex": "&= \\frac{653}{64}"
+       },
+       {
+        "tex": "&= 10\\frac{13}{64}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{653}{64} = 10\\frac{13}{64}\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q7#(a)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the volume of sphere A",
+      "lines": [
+       {
+        "text": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$, and $r = 3$."
+       },
+       {
+        "tex": "V_A &= \\frac{4}{3}\\pi (3)^3"
+       },
+       {
+        "tex": "&= \\frac{4}{3}\\pi (27)"
+       },
+       {
+        "tex": "&= 36\\pi"
+       }
+      ]
+     },
+     {
+      "title": "Recognise a geometric sequence",
+      "lines": [
+       {
+        "text": "Each volume is $1.75$ times the one before, so the volumes form a GP with $a = 36\\pi$, $r = 1.75$ and $n = 5$."
+       },
+       {
+        "tex": "S_n &= \\frac{a(1-r^n)}{1-r}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the sum formula",
+      "lines": [
+       {
+        "tex": "S_5 &= \\frac{36\\pi(1 - 1.75^5)}{1 - 1.75}"
+       },
+       {
+        "tex": "&= \\frac{36\\pi(1 - 16.4130859375)}{-0.75}"
+       },
+       {
+        "tex": "&= \\frac{36\\pi(-15.4130859375)}{-0.75}"
+       },
+       {
+        "tex": "&\\approx 2324.24"
+       },
+       {
+        "tex": "&\\approx 2324"
+       }
+      ]
+     }
+    ],
+    "final": "2324 \\text{ cm}^3"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-geo-sum-infinity",
+   "title": "Sum an infinite geometric series",
+   "level": "HL",
+   "input": "a, r with |r| < 1",
+   "output": "S∞ = a/(1 − r)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q9#(a)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the sum to infinity",
+      "lines": [
+       {
+        "text": "The ratio $r = \\frac12$ is between $-1$ and $1$, so the sum to infinity exists."
+       },
+       {
+        "tex": "S_\\infty &= \\frac{a}{1-r}"
+       },
+       {
+        "tex": "S_\\infty &= \\frac{4}{1-\\frac{1}{2}}"
+       },
+       {
+        "tex": "&= \\frac{4}{\\frac12}"
+       },
+       {
+        "tex": "&= 8"
+       }
+      ]
+     }
+    ],
+    "final": "8 \\text{ units}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q7#(a)(iii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the sum to infinity",
+      "lines": [
+       {
+        "text": "Since $|r| = \\frac23 < 1$, the sum to infinity exists."
+       },
+       {
+        "tex": "S_\\infty &= \\frac{a}{1-r}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{1}{3}}{1-\\frac{2}{3}}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{1}{3}}{\\frac{1}{3}}"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     }
+    ],
+    "final": "1"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q9#(e)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the sum to infinity formula",
+      "lines": [
+       {
+        "text": "This applies because $|r| = 0.6 < 1$, with $a = 15$."
+       },
+       {
+        "tex": "S_{\\infty} &= \\frac{a}{1 - r}"
+       },
+       {
+        "tex": "&= \\frac{15}{1 - 0.6}"
+       },
+       {
+        "tex": "&= \\frac{15}{0.4}"
+       },
+       {
+        "tex": "&= 37.5"
+       }
+      ]
+     }
+    ],
+    "final": "37.5 \\text{ mg}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q1#(c)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the sum to infinity of a geometric series",
+      "lines": [
+       {
+        "text": "The bounce heights form a geometric series with $a = \\frac{3}{2}$ and $r = \\frac{3}{4}$. Since $|r| < 1$, it has a sum to infinity."
+       },
+       {
+        "tex": "S_\\infty &= \\frac{a}{1 - r}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{3}{2}}{1 - \\frac{3}{4}}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{3}{2}}{\\frac{1}{4}}"
+       },
+       {
+        "tex": "&= 6"
+       }
+      ]
+     },
+     {
+      "title": "Add the first drop and double the series",
+      "lines": [
+       {
+        "tex": "D &= 2 + 2(6)"
+       },
+       {
+        "tex": "&= 2 + 12"
+       },
+       {
+        "tex": "&= 14"
+       }
+      ]
+     }
+    ],
+    "final": "14\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q7#(b)(iii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Identify the geometric series",
+      "lines": [
+       {
+        "tex": "a &= \\frac{1}{3}"
+       },
+       {
+        "tex": "r &= \\frac{-1/9}{1/3} = -\\frac{1}{3}"
+       },
+       {
+        "text": "$|r| = \\frac13 < 1$, so the sum to infinity exists."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the sum to infinity",
+      "lines": [
+       {
+        "tex": "S_\\infty &= \\frac{a}{1-r}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{1}{3}}{1-\\left(-\\frac{1}{3}\\right)}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{1}{3}}{1+\\frac{1}{3}}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{1}{3}}{\\frac{4}{3}}"
+       },
+       {
+        "tex": "&= \\frac{1}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{4}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q7#(b)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the angles as a geometric series",
+      "lines": [
+       {
+        "text": "Each angle is 90% of the one before, so the angles are $26, 26(0.9), 26(0.9)^2, \\dots$ with $a = 26$ and $r = 0.9$."
+       },
+       {
+        "text": "$|r| < 1$, so the series has a sum to infinity."
+       },
+       {
+        "tex": "S_\\infty &= \\frac{a}{1-r}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute and evaluate",
+      "lines": [
+       {
+        "tex": "S_\\infty &= \\frac{26}{1-0.9}"
+       },
+       {
+        "tex": "&= \\frac{26}{0.1}"
+       },
+       {
+        "tex": "&= 260"
+       }
+      ]
+     }
+    ],
+    "final": "260^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-geo-unknown-n",
+   "title": "Find the number of terms needed in a geometric series",
+   "level": "HL",
+   "input": "a, r, target term/sum",
+   "output": "n via logs"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q9#(a)(i)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Spot the pattern in the distances",
+      "lines": [
+       {
+        "text": "The distances are $4, 2, 1, \\frac12, \\frac14, \\dots$, each half the one before, so this is a geometric sequence."
+       },
+       {
+        "tex": "a &= 4"
+       },
+       {
+        "tex": "r &= \\frac{2}{4}"
+       },
+       {
+        "tex": "r &= \\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Use the sum of n terms and set it equal to 7.9375",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{a(1-r^n)}{1-r}"
+       },
+       {
+        "tex": "S_n &= \\frac{4\\left(1-\\left(\\frac12\\right)^n\\right)}{1-\\frac12}"
+       },
+       {
+        "tex": "S_n &= 8\\left(1-\\frac{1}{2^n}\\right)"
+       },
+       {
+        "tex": "8\\left(1-\\frac{1}{2^n}\\right) &= 7.9375"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "1-\\frac{1}{2^n} &= 0.9921875"
+       },
+       {
+        "tex": "\\frac{1}{2^n} &= 0.0078125"
+       },
+       {
+        "tex": "\\frac{1}{2^n} &= \\frac{1}{128}"
+       },
+       {
+        "tex": "2^n &= 128"
+       },
+       {
+        "tex": "n &= 7"
+       }
+      ]
+     }
+    ],
+    "final": "7 \\text{ stages}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q8#(e)(ii)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the first term",
+      "lines": [
+       {
+        "tex": "a_1 &= p - p_1"
+       },
+       {
+        "tex": "&= 0.75 - 0.7"
+       },
+       {
+        "tex": "&= 0.05"
+       }
+      ]
+     },
+     {
+      "title": "Write the nth term",
+      "lines": [
+       {
+        "tex": "a_n &= 0.05\\left(\\tfrac{1}{5}\\right)^{n-1}"
+       }
+      ]
+     },
+     {
+      "title": "Test n = 6",
+      "lines": [
+       {
+        "tex": "a_6 &= 0.05 \\times 0.2^5"
+       },
+       {
+        "tex": "&= 0.000016"
+       },
+       {
+        "text": "This is not less than $0.00001$."
+       }
+      ]
+     },
+     {
+      "title": "Test n = 7",
+      "lines": [
+       {
+        "tex": "a_7 &= 0.05 \\times 0.2^6"
+       },
+       {
+        "tex": "&= 0.0000032"
+       },
+       {
+        "text": "This is less than $0.00001$, so the smallest $n$ is $7$."
+       }
+      ]
+     }
+    ],
+    "final": "n = 7"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q7#(a)(iv)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set the arc length equal to 2",
+      "lines": [
+       {
+        "tex": "45(0.9)^{n-1} &= 2"
+       },
+       {
+        "tex": "(0.9)^{n-1} &= \\frac{2}{45}"
+       }
+      ]
+     },
+     {
+      "title": "Take logs to bring down the power",
+      "lines": [
+       {
+        "tex": "n-1 &= \\log_{0.9}\\left(\\frac{2}{45}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate n",
+      "lines": [
+       {
+        "tex": "n-1 &= 29.5510..."
+       },
+       {
+        "tex": "n &= 30.5510..."
+       }
+      ]
+     },
+     {
+      "title": "Choose the first whole swing",
+      "lines": [
+       {
+        "text": "$n$ must be a whole number and $T_{30}$ is still more than 2, so the first swing under 2 cm is the next one."
+       },
+       {
+        "tex": "p &= 31"
+       }
+      ]
+     }
+    ],
+    "final": "p = 31"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q4#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the common ratio",
+      "lines": [
+       {
+        "text": "The percentages form a geometric sequence with first term $a = 95$."
+       },
+       {
+        "tex": "r &= \\frac{42.75}{95}"
+       },
+       {
+        "tex": "&= \\frac{9}{20}"
+       }
+      ]
+     },
+     {
+      "title": "Write the inequality for the nth day",
+      "lines": [
+       {
+        "tex": "T_n &= ar^{n-1}"
+       },
+       {
+        "tex": "95\\left(\\frac{9}{20}\\right)^{n-1} &< 0.01"
+       },
+       {
+        "tex": "\\left(\\frac{9}{20}\\right)^{n-1} &< \\frac{0.01}{95}"
+       }
+      ]
+     },
+     {
+      "title": "Take logs of both sides",
+      "lines": [
+       {
+        "tex": "(n-1)\\log\\left(\\frac{9}{20}\\right) &< \\log\\left(\\frac{0.01}{95}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Divide by $\\log\\left(\\frac{9}{20}\\right)$, which is negative",
+      "lines": [
+       {
+        "text": "Dividing by a negative number reverses the inequality."
+       },
+       {
+        "tex": "n-1 &> \\frac{\\log\\left(\\frac{0.01}{95}\\right)}{\\log\\left(\\frac{9}{20}\\right)}"
+       },
+       {
+        "tex": "n-1 &> 11.47"
+       },
+       {
+        "tex": "n &> 12.47"
+       }
+      ]
+     },
+     {
+      "title": "Choose the first whole day",
+      "lines": [
+       {
+        "text": "$n$ must be a whole number, so the first day is the next whole number above $12.47$, which is day 13."
+       },
+       {
+        "text": "The marking scheme prints \"12th day\", but its own working gives $n > 12.47$, so the first day below 0.01% is day 13."
+       }
+      ]
+     }
+    ],
+    "final": "n > 12.47 \\text{, so the first day is day } 13"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q9#(a)(iv)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Keep doubling every 5 days",
+      "lines": [
+       {
+        "text": "Start at day 15 with $1500$ cases and double each time the day goes up by 5."
+       },
+       {
+        "tex": "\\text{Day } 15 &= 1500"
+       },
+       {
+        "tex": "\\text{Day } 20 &= 3000"
+       },
+       {
+        "tex": "\\text{Day } 25 &= 6000"
+       },
+       {
+        "tex": "\\text{Day } 30 &= 12000"
+       },
+       {
+        "tex": "\\text{Day } 35 &= 24000"
+       },
+       {
+        "tex": "\\text{Day } 40 &= 48000"
+       },
+       {
+        "tex": "\\text{Day } 45 &= 96000"
+       }
+      ]
+     },
+     {
+      "title": "Take one more day",
+      "lines": [
+       {
+        "text": "On day 45 there are $96000$ cases, which is still under $100000$."
+       },
+       {
+        "text": "Cases grow by about $15\\%$ a day (doubling in 5 days), so day 46 is about $110000$, which is over $100000$."
+       }
+      ]
+     }
+    ],
+    "final": "t = 46"
+   }
+  ]
+ }
+]

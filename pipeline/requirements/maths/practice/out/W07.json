@@ -1,0 +1,444 @@
+[
+ {
+  "skill": "quad-complete-square-use",
+  "problems": [
+   {
+    "question": "The function $f(x) = -2(x - 3)^2 + 8$ is written in completed-square form.\nUse this form to find the values of $x$ for which the graph of $f$ crosses the $x$-axis.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set the completed-square form equal to zero",
+       "lines": [
+        {
+         "tex": "-2(x-3)^2 + 8 &= 0",
+         "sym": "Eq(-2*(x-3)**2 + 8, 0)"
+        },
+        {
+         "tex": "-2(x-3)^2 &= -8",
+         "sym": "Eq(-2*(x-3)**2, -8)"
+        },
+        {
+         "tex": "(x-3)^2 &= 4",
+         "sym": "Eq((x-3)**2, 4)"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root of both sides",
+       "lines": [
+        {
+         "tex": "x - 3 &= \\pm 2",
+         "sym": "Or(Eq(x-3, 2), Eq(x-3, -2))"
+        },
+        {
+         "tex": "x &= 3 \\pm 2",
+         "sym": "Or(Eq(x, 5), Eq(x, 1))"
+        }
+       ]
+      },
+      {
+       "title": "State the roots",
+       "lines": [
+        {
+         "text": "The graph crosses the $x$-axis at two points."
+        },
+        {
+         "tex": "x &= 1 \\text{ or } x = 5",
+         "sym": "Or(Eq(x, 1), Eq(x, 5))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 1 \\text{ or } x = 5"
+    },
+    "finalSym": "[1, 5]",
+    "answerSym": "solve(Eq(-2*(x - 3)**2 + 8, 0), x)"
+   }
+  ]
+ },
+ {
+  "skill": "sim-word-problem",
+  "problems": [
+   {
+    "question": "A café sells small coffees and large coffees.\n4 small coffees and 3 large coffees cost $€20.50$.\n2 small coffees and 5 large coffees cost $€22.50$.\nFind the price of a small coffee and the price of a large coffee.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Let letters stand for the prices",
+       "lines": [
+        {
+         "text": "Let $s$ be the price of a small coffee and $l$ the price of a large coffee, in euro."
+        }
+       ]
+      },
+      {
+       "title": "Write an equation for each purchase",
+       "lines": [
+        {
+         "tex": "4s + 3l &= 20.5",
+         "sym": "Eq(4*s + 3*l, Rational(41,2))"
+        },
+        {
+         "tex": "2s + 5l &= 22.5",
+         "sym": "Eq(2*s + 5*l, Rational(45,2))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Eliminate $s$",
+       "lines": [
+        {
+         "text": "Multiply the second equation by 2, then subtract the first."
+        },
+        {
+         "tex": "4s + 10l &= 45",
+         "sym": "Eq(4*s + 10*l, 45)",
+         "new": true
+        },
+        {
+         "tex": "7l &= 24.5",
+         "sym": "Eq(7*l, Rational(49,2))",
+         "new": true
+        },
+        {
+         "tex": "l &= 3.5",
+         "sym": "Eq(l, Rational(7,2))"
+        }
+       ]
+      },
+      {
+       "title": "Find $s$ and check",
+       "lines": [
+        {
+         "tex": "4s + 3(3.5) &= 20.5",
+         "sym": "Eq(4*s + 3*Rational(7,2), Rational(41,2))",
+         "new": true
+        },
+        {
+         "tex": "4s &= 10",
+         "sym": "Eq(4*s, 10)"
+        },
+        {
+         "tex": "s &= 2.5",
+         "sym": "Eq(s, Rational(5,2))"
+        },
+        {
+         "text": "Check: $2(2.5) + 5(3.5) = 5 + 17.5 = 22.5$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{small} = €2.50,\\ \\text{large} = €3.50"
+    },
+    "finalSym": "[5/2, 7/2]",
+    "answerSym": "[solve([Eq(4*s + 3*l, Rational(41,2)), Eq(2*s + 5*l, Rational(45,2))], [s, l])[s], solve([Eq(4*s + 3*l, Rational(41,2)), Eq(2*s + 5*l, Rational(45,2))], [s, l])[l]]"
+   },
+   {
+    "question": "A mother is 5 times as old as her daughter.\nIn 6 years' time she will be 3 times as old as her daughter.\nFind the present age of each.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Let letters stand for the ages",
+       "lines": [
+        {
+         "text": "Let $m$ be the mother's age and $d$ the daughter's age now."
+        }
+       ]
+      },
+      {
+       "title": "Write an equation for each statement",
+       "lines": [
+        {
+         "tex": "m &= 5d",
+         "sym": "Eq(m, 5*d)"
+        },
+        {
+         "text": "In 6 years the ages are $m + 6$ and $d + 6$."
+        },
+        {
+         "tex": "m + 6 &= 3(d + 6)",
+         "sym": "Eq(m + 6, 3*(d + 6))",
+         "new": true
+        },
+        {
+         "tex": "m - 3d &= 12",
+         "sym": "Eq(m - 3*d, 12)"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $m = 5d$",
+       "lines": [
+        {
+         "tex": "5d - 3d &= 12",
+         "sym": "Eq(5*d - 3*d, 12)",
+         "new": true
+        },
+        {
+         "tex": "2d &= 12",
+         "sym": "Eq(2*d, 12)"
+        },
+        {
+         "tex": "d &= 6",
+         "sym": "Eq(d, 6)"
+        }
+       ]
+      },
+      {
+       "title": "Find $m$ and check",
+       "lines": [
+        {
+         "tex": "m &= 5(6) = 30",
+         "sym": "Eq(m, 30)",
+         "new": true
+        },
+        {
+         "text": "Check: in 6 years they are 36 and 12, and $36 = 3 \\times 12$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{mother} = 30,\\ \\text{daughter} = 6"
+    },
+    "finalSym": "[30, 6]",
+    "answerSym": "[solve([Eq(m, 5*d), Eq(m + 6, 3*(d + 6))], [m, d])[m], solve([Eq(m, 5*d), Eq(m + 6, 3*(d + 6))], [m, d])[d]]"
+   }
+  ]
+ },
+ {
+  "skill": "sim-linear-quadratic-hl",
+  "problems": [
+   {
+    "question": "Solve the simultaneous equations\n$3x - y = 4$\n$x^2 + y^2 = 2$",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Make $y$ the subject of the linear equation",
+       "lines": [
+        {
+         "tex": "3x - y &= 4",
+         "sym": "Eq(3*x - y, 4)"
+        },
+        {
+         "tex": "y &= 3x - 4",
+         "sym": "Eq(y, 3*x - 4)"
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the quadratic equation",
+       "lines": [
+        {
+         "tex": "x^2 + (3x-4)^2 &= 2",
+         "sym": "Eq(x**2 + (3*x - 4)**2, 2)",
+         "new": true
+        },
+        {
+         "tex": "x^2 + 9x^2 - 24x + 16 &= 2",
+         "sym": "Eq(x**2 + 9*x**2 - 24*x + 16, 2)"
+        },
+        {
+         "tex": "10x^2 - 24x + 14 &= 0",
+         "sym": "Eq(10*x**2 - 24*x + 14, 0)"
+        },
+        {
+         "tex": "5x^2 - 12x + 7 &= 0",
+         "sym": "Eq(5*x**2 - 12*x + 7, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$ with the formula",
+       "lines": [
+        {
+         "tex": "x &= \\frac{12 \\pm \\sqrt{144 - 140}}{10}",
+         "sym": "Or(Eq(x, (12 + sqrt(144 - 140))/10), Eq(x, (12 - sqrt(144 - 140))/10))",
+         "new": true
+        },
+        {
+         "tex": "x &= \\frac{12 \\pm 2}{10}",
+         "sym": "Or(Eq(x, Rational(7,5)), Eq(x, 1))"
+        },
+        {
+         "tex": "x &= \\frac{7}{5} \\text{ or } x = 1",
+         "sym": "Or(Eq(x, Rational(7,5)), Eq(x, 1))"
+        }
+       ]
+      },
+      {
+       "title": "Find $y$ for each $x$ using $y = 3x - 4$",
+       "lines": [
+        {
+         "tex": "x = 1: \\quad y &= 3(1) - 4 = -1",
+         "sym": "Eq(3*1 - 4, -1)",
+         "new": true
+        },
+        {
+         "tex": "x = \\tfrac{7}{5}: \\quad y &= \\tfrac{21}{5} - 4 = \\tfrac{1}{5}",
+         "sym": "Eq(Rational(21,5) - 4, Rational(1,5))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(x, y) = (1, -1) \\text{ or } \\left(\\tfrac{7}{5}, \\tfrac{1}{5}\\right)"
+    },
+    "finalSym": "[(1, -1), (Rational(7,5), Rational(1,5))]",
+    "answerSym": "solve([Eq(3*x - y, 4), Eq(x**2 + y**2, 2)], [x, y])"
+   },
+   {
+    "question": "Solve the simultaneous equations\n$x - y = 2$\n$x^2 + xy + y^2 = 7$\nGive your answers in the form $a + b\\sqrt{2}$, where $a, b \\in \\mathbb{Z}$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Make $x$ the subject of the linear equation",
+       "lines": [
+        {
+         "tex": "x - y &= 2",
+         "sym": "Eq(x - y, 2)"
+        },
+        {
+         "tex": "x &= y + 2",
+         "sym": "Eq(x, y + 2)"
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the quadratic equation",
+       "lines": [
+        {
+         "tex": "(y+2)^2 + (y+2)y + y^2 &= 7",
+         "sym": "Eq((y + 2)**2 + (y + 2)*y + y**2, 7)",
+         "new": true
+        },
+        {
+         "tex": "y^2 + 4y + 4 + y^2 + 2y + y^2 &= 7",
+         "sym": "Eq(y**2 + 4*y + 4 + y**2 + 2*y + y**2, 7)"
+        },
+        {
+         "tex": "3y^2 + 6y - 3 &= 0",
+         "sym": "Eq(3*y**2 + 6*y - 3, 0)"
+        },
+        {
+         "tex": "y^2 + 2y - 1 &= 0",
+         "sym": "Eq(y**2 + 2*y - 1, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $y$ with the formula",
+       "lines": [
+        {
+         "tex": "y &= \\frac{-2 \\pm \\sqrt{4 + 4}}{2}",
+         "sym": "Or(Eq(y, (-2 + sqrt(4 + 4))/2), Eq(y, (-2 - sqrt(4 + 4))/2))",
+         "new": true
+        },
+        {
+         "tex": "y &= -1 \\pm \\sqrt{2}",
+         "sym": "Or(Eq(y, -1 + sqrt(2)), Eq(y, -1 - sqrt(2)))"
+        }
+       ]
+      },
+      {
+       "title": "Find $x$ for each $y$ using $x = y + 2$",
+       "lines": [
+        {
+         "tex": "y = -1 + \\sqrt{2}: \\quad x &= 1 + \\sqrt{2}",
+         "sym": "Eq(-1 + sqrt(2) + 2, 1 + sqrt(2))",
+         "new": true
+        },
+        {
+         "tex": "y = -1 - \\sqrt{2}: \\quad x &= 1 - \\sqrt{2}",
+         "sym": "Eq(-1 - sqrt(2) + 2, 1 - sqrt(2))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(x, y) = (1 + \\sqrt{2},\\ -1 + \\sqrt{2}) \\text{ or } (1 - \\sqrt{2},\\ -1 - \\sqrt{2})"
+    },
+    "finalSym": "[(1 + sqrt(2), -1 + sqrt(2)), (1 - sqrt(2), -1 - sqrt(2))]",
+    "answerSym": "solve([Eq(x - y, 2), Eq(x**2 + x*y + y**2, 7)], [x, y])"
+   }
+  ]
+ },
+ {
+  "skill": "eq-rational",
+  "problems": [
+   {
+    "question": "Solve for $x$:\n$\\frac{3}{x+1} - \\frac{2}{x+2} = \\frac{1}{2}$",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Multiply every term by the common denominator $2(x+1)(x+2)$",
+       "lines": [
+        {
+         "tex": "\\frac{3}{x+1} - \\frac{2}{x+2} &= \\frac{1}{2}",
+         "sym": "Eq(3/(x + 1) - 2/(x + 2), Rational(1,2))"
+        },
+        {
+         "tex": "6(x+2) - 4(x+1) &= (x+1)(x+2)",
+         "sym": "Eq(6*(x + 2) - 4*(x + 1), (x + 1)*(x + 2))"
+        }
+       ]
+      },
+      {
+       "title": "Expand both sides",
+       "lines": [
+        {
+         "tex": "6x + 12 - 4x - 4 &= x^2 + 3x + 2",
+         "sym": "Eq(6*x + 12 - 4*x - 4, x**2 + 3*x + 2)"
+        },
+        {
+         "tex": "2x + 8 &= x^2 + 3x + 2",
+         "sym": "Eq(2*x + 8, x**2 + 3*x + 2)"
+        }
+       ]
+      },
+      {
+       "title": "Move everything to one side",
+       "lines": [
+        {
+         "tex": "x^2 + x - 6 &= 0",
+         "sym": "Eq(x**2 + x - 6, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Factorise and solve",
+       "lines": [
+        {
+         "tex": "(x+3)(x-2) &= 0",
+         "sym": "Eq((x + 3)*(x - 2), 0)"
+        },
+        {
+         "tex": "x &= -3 \\text{ or } x = 2",
+         "sym": "Or(Eq(x, -3), Eq(x, 2))"
+        },
+        {
+         "text": "Both values are allowed, since neither is $-1$ or $-2$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = -3 \\text{ or } x = 2"
+    },
+    "finalSym": "[-3, 2]",
+    "answerSym": "solve(Eq(3/(x + 1) - 2/(x + 2), Rational(1,2)), x)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,342 @@
+[
+ {
+  "skill": "fn-graph-log",
+  "of": "page",
+  "title": "Graph a logarithmic function",
+  "show": "a plain graph of the curve",
+  "example": {
+   "question": "Draw the graph of $y = \\log_2 x$ for $\\frac{1}{4} \\le x \\le 8$. Use a table of values.",
+   "final": "\\text{Curve through } (\\tfrac14,-2),\\ (1,0),\\ (2,1),\\ (8,3)",
+   "steps": [
+    {
+     "say": "A log is hard to evaluate for chosen $x$. Turn it into index form: $y = \\log_2 x$ means $x = 2^y$.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "= 2^{\\hl{1}{y}}"
+      }
+     ]
+    },
+    {
+     "say": "Pick whole numbers for $\\hl{1}{y}$ and work out $x$.",
+     "rows": [
+      {
+       "l": "y = -2:\\quad x",
+       "r": "= 2^{-2} = \\frac{1}{4}"
+      },
+      {
+       "l": "y = -1:\\quad x",
+       "r": "= 2^{-1} = \\frac{1}{2}"
+      },
+      {
+       "l": "y = 0:\\quad x",
+       "r": "= 2^{0} = 1"
+      },
+      {
+       "l": "y = 1:\\quad x",
+       "r": "= 2^{1} = 2"
+      },
+      {
+       "l": "y = 3:\\quad x",
+       "r": "= 2^{3} = 8"
+      }
+     ]
+    },
+    {
+     "say": "Plot $(x, y)$ for each pair and join the points with a smooth curve. It rises slowly and never reaches the $y$-axis.",
+     "rows": [
+      {
+       "aside": "Points: $(\\frac14, -2)$, $(\\frac12, -1)$, $(1, 0)$, $(2, 1)$, $(8, 3)$."
+      },
+      {
+       "aside": "The curve crosses the $x$-axis at $(1, 0)$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm1",
+  "of": "page",
+  "title": "Apply Theorem 1: Vertically opposite angles are equal",
+  "show": "two crossing straight lines with the vertically opposite angles (3x+10)° and (5x-30)° marked",
+  "example": {
+   "question": "Two straight lines cross at a point. One angle is $(3x + 10)°$. The angle vertically opposite it is $(5x - 30)°$. Find $x$ and the size of the angle $(3x + 10)°$.",
+   "final": "x = 20,\\ \\text{angle} = 70°",
+   "steps": [
+    {
+     "say": "These two angles face each other across the crossing point, so they are **vertically opposite**. Vertically opposite angles are equal.",
+     "rows": [
+      {
+       "aside": "Reason: vertically opposite angles are equal."
+      }
+     ]
+    },
+    {
+     "say": "Set the two angles equal.",
+     "rows": [
+      {
+       "l": "3\\hl{1}{x} + 10",
+       "r": "= 5\\hl{1}{x} - 30"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $\\hl{1}{x}$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "40",
+       "r": "= 2\\hl{1}{x}"
+      },
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= \\hl{2}{20}"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 20$ back into $3x + 10$.",
+     "rows": [
+      {
+       "l": "3(20) + 10",
+       "r": "= \\hl{3}{70}"
+      },
+      {
+       "aside": "Check with the other angle: $5(20) - 30 = 70$. They match."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm4",
+  "of": "page",
+  "title": "Apply Theorem 4: Angles in a triangle sum to 180°",
+  "show": "triangle with angles (2x+10)°, (3x-20)° and 70° labelled",
+  "example": {
+   "question": "The angles of a triangle are $(2x + 10)°$, $(3x - 20)°$ and $70°$. Find $x$ and the size of the other two angles.",
+   "final": "x = 24,\\ \\text{angles } 58°\\text{ and }52°",
+   "steps": [
+    {
+     "say": "The three angles of a triangle add to $180°$. Write them all added together.",
+     "rows": [
+      {
+       "l": "(2\\hl{1}{x} + 10) + (3\\hl{1}{x} - 20) + 70",
+       "r": "= 180"
+      },
+      {
+       "aside": "Reason: angles in a triangle add to $180°$."
+      }
+     ]
+    },
+    {
+     "say": "Add the $\\hl{1}{x}$ terms, then add the numbers.",
+     "rows": [
+      {
+       "l": "5\\hl{1}{x} + 60",
+       "r": "= 180"
+      },
+      {
+       "l": "5\\hl{1}{x}",
+       "r": "= 120"
+      }
+     ]
+    },
+    {
+     "say": "Divide both sides by $5$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= \\hl{2}{24}"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 24$ into each expression.",
+     "rows": [
+      {
+       "l": "2(24) + 10",
+       "r": "= \\hl{3}{58}"
+      },
+      {
+       "l": "3(24) - 20",
+       "r": "= \\hl{3}{52}"
+      },
+      {
+       "aside": "Check: $58 + 52 + 70 = 180$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm3",
+  "of": "page",
+  "title": "Apply Theorem 3: Alternate angles are equal ⇔ lines parallel",
+  "show": "two parallel lines l and m cut by a transversal with the alternate angles marked",
+  "example": {
+   "question": "The lines $l$ and $m$ are parallel and are cut by a third line. The angle $(4x - 15)°$ on $l$ and the angle $(2x + 25)°$ on $m$ are alternate. Find $x$ and the size of the angle $(4x - 15)°$.",
+   "final": "x = 20,\\ \\text{angle} = 65°",
+   "steps": [
+    {
+     "say": "The angles are on opposite sides of the cutting line and between the parallels, a Z shape. **Alternate angles** are equal.",
+     "rows": [
+      {
+       "aside": "Reason: alternate angles are equal ($l \\parallel m$)."
+      }
+     ]
+    },
+    {
+     "say": "Set the two angles equal.",
+     "rows": [
+      {
+       "l": "4\\hl{1}{x} - 15",
+       "r": "= 2\\hl{1}{x} + 25"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $\\hl{1}{x}$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "2\\hl{1}{x}",
+       "r": "= 40"
+      },
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= \\hl{2}{20}"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 20$ into $4x - 15$.",
+     "rows": [
+      {
+       "l": "4(20) - 15",
+       "r": "= \\hl{3}{65}"
+      },
+      {
+       "aside": "Check: $2(20) + 25 = 65$. They match."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm5",
+  "of": "page",
+  "title": "Apply Theorem 5: Corresponding angles are equal ⇔ lines parallel",
+  "show": "two parallel lines cut by a transversal with the corresponding angles (4x+10)° marked",
+  "example": {
+   "question": "The lines $l$ and $m$ are parallel. A third line crosses them. The corresponding angles are $(4x + 10)^\\circ$ on $l$ and $(6x - 20)^\\circ$ on $m$. Find $x$ and the size of each angle. Give a reason.",
+   "final": "x = 15, \\ \\text{both angles } = 70^\\circ",
+   "steps": [
+    {
+     "say": "The two angles sit in the same position, one at each line. They are **corresponding angles**. $\\hl{1}{(4x+10)^\\circ}$ is on $l$ and $\\hl{2}{(6x-20)^\\circ}$ is on $m$.",
+     "rows": [
+      {
+       "aside": "The lines are parallel, so Theorem 5 says they are equal."
+      }
+     ]
+    },
+    {
+     "say": "Corresponding angles are equal when the lines are parallel. Set $\\hl{1}{4x+10}$ equal to $\\hl{2}{6x-20}$.",
+     "rows": [
+      {
+       "l": "4x + 10",
+       "r": "= 6x - 20"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "30",
+       "r": "= 2x"
+      },
+      {
+       "l": "x",
+       "r": "= 15"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 15$ into either angle. Check with the other.",
+     "rows": [
+      {
+       "l": "4(15) + 10",
+       "r": "= 70"
+      },
+      {
+       "l": "6(15) - 20",
+       "r": "= 70"
+      },
+      {
+       "aside": "Reason: corresponding angles are equal (Theorem 5)."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm2",
+  "of": "page",
+  "title": "Apply Theorem 2: Isosceles triangle: equal sides ⇔ equal base angles",
+  "show": "isosceles triangle ABC with |AB|=|AC| and the equal base angles marked",
+  "example": {
+   "question": "In the triangle $ABC$, $|AB| = |AC|$. The base angles are $|\\angle ABC| = (2x + 10)^\\circ$ and $|\\angle ACB| = (4x - 20)^\\circ$. Find $x$ and $|\\angle BAC|$. Give a reason.",
+   "final": "x = 15, \\ |\\angle BAC| = 100^\\circ",
+   "steps": [
+    {
+     "say": "$|AB| = |AC|$, so the triangle is isosceles. The base angles are the ones opposite the equal sides: $\\hl{1}{|\\angle ABC|}$ and $\\hl{2}{|\\angle ACB|}$.",
+     "rows": [
+      {
+       "aside": "Reason: isosceles triangle (Theorem 2), base angles are equal."
+      }
+     ]
+    },
+    {
+     "say": "Set $\\hl{1}{2x+10}$ equal to $\\hl{2}{4x-20}$.",
+     "rows": [
+      {
+       "l": "2x + 10",
+       "r": "= 4x - 20"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "30",
+       "r": "= 2x"
+      },
+      {
+       "l": "x",
+       "r": "= 15"
+      }
+     ]
+    },
+    {
+     "say": "Each base angle is $2(15) + 10 = 40^\\circ$. The three angles of a triangle add to $180^\\circ$.",
+     "rows": [
+      {
+       "l": "|\\angle BAC|",
+       "r": "= 180 - 40 - 40"
+      },
+      {
+       "l": "",
+       "r": "= 100^\\circ"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

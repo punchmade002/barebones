@@ -1,0 +1,387 @@
+[
+ {
+  "part": "maths-pp-2019-higher-p2-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Find the sample proportion\n\\hat{p} &= \\frac{174}{800}\n&= 0.2175\n## Find the standard error\n\\text{SE} &= \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}\n&= \\sqrt{\\frac{(0.2175)(0.7825)}{800}}\n&= \\sqrt{0.00021274}\n&= 0.014586\n## Find the margin of error at 95%\nFor a 95% interval the multiplier is $1.96$.\n\\text{Margin} &= 1.96 \\times 0.014586\n&= 0.02859\n## Subtract and add the margin to the proportion\n0.2175 - 0.02859 &= 0.18891\n0.2175 + 0.02859 &= 0.24609\nANSWER: 0.1889 < p < 0.2461"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q8#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 15,
+  "solution": "## Convert 95 km/h to a z-score\nz &= \\frac{x - \\mu}{\\sigma}\n&= \\frac{95 - 87.3}{12}\n&= \\frac{7.7}{12}\n&= 0.64167\n## Use the normal tables\nRound $z$ to $0.64$. From the tables, $P(Z \\le 0.64) = 0.7389$. We want speeds above 95, so subtract from 1.\nP(Z > 0.64) &= 1 - P(Z \\le 0.64)\n&= 1 - 0.7389\n&= 0.2611\nANSWER: 0.2611 \\ (26.11\\%)"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q8#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Find the z-score for the driver\n70% of speeds are higher, so 30% are lower: $P(Z < z) = 0.30$. The tables give $0.70$ at $z = 0.52$, so by symmetry $z = -0.52$.\n## Substitute into the z-score formula\n-0.52 &= \\frac{x - 87.3}{12}\nx - 87.3 &= -0.52 \\times 12\nx - 87.3 &= -6.24\nx &= 81.06\n&\\approx 81\nANSWER: 81 \\text{ km/h}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Compare the p-value with the significance level\nThe significance level is 5%, which is $0.05$.\nThe p-value $0.024$ is less than $0.05$, so we reject the null hypothesis that the average speed is unchanged.\nANSWER: \\text{The average speed has changed, because } p = 0.024 < 0.05."
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q8#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths23",
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Use the p-value to find z\nThe test is for a change in either direction, so it is two-tailed.\n0.024 &= 2\\big(1 - P(Z \\le |z|)\\big)\n1 - P(Z \\le |z|) &= 0.012\nP(Z \\le |z|) &= 0.988\nThe tables give $|z| = 2.26$. The sample mean is lower than $87.3$, so $z = -2.26$.\n## Use the z-score formula for a sample mean\nFor a sample of 100 the standard error is $\\dfrac{12}{\\sqrt{100}} = 1.2$.\n-2.26 &= \\frac{\\bar{x} - 87.3}{12/\\sqrt{100}}\n-2.26 &= \\frac{\\bar{x} - 87.3}{1.2}\n\\bar{x} - 87.3 &= -2.712\n\\bar{x} &= 84.588\n&\\approx 84.6\nANSWER: 84.6 \\text{ km/h}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Use the cosine rule in triangle SGH\nTwo sides, $|GH| = 30$ and $|SH| = 58$, and the angle between them, $68^\\circ$ at $H$, are known.\n|SG|^2 &= |GH|^2 + |SH|^2 - 2|GH||SH|\\cos 68^\\circ\n&= 30^2 + 58^2 - 2(30)(58)\\cos 68^\\circ\n&= 900 + 3364 - 3480\\cos 68^\\circ\n&= 2960.369\n## Take the square root\n|SG| &= \\sqrt{2960.369}\n&= 54.409\n&\\approx 54.4 \\text{ m}\nANSWER: 54.4 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Use the sine rule\n$|SG|$ is opposite the known angle $68^\\circ$, and $|GH| = 30$ is opposite $\\angle HSG$.\n\\frac{54.4}{\\sin 68^\\circ} &= \\frac{30}{\\sin \\angle HSG}\n## Rearrange for sin of the angle\n\\sin \\angle HSG &= \\frac{30 \\sin 68^\\circ}{54.4}\n&= 0.51131\n## Take the inverse sine\n|\\angle HSG| &= \\sin^{-1}(0.51131)\n&= 30.75^\\circ\nANSWER: 30.75^\\circ"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Use the area formula with two sides and the included angle\nThe angle $68^\\circ$ is between the sides $30$ and $58$.\n\\text{Area} &= \\frac{1}{2}ab\\sin C\n&= \\frac{1}{2}(30)(58)\\sin 68^\\circ\n&= 870 \\sin 68^\\circ\n&= 806.65\nANSWER: 806.65 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q9#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Use the radius as the height of triangle HSP\nA radius meets a tangent at $90^\\circ$, so the radius from $P$ to $[SH]$ is perpendicular to $[SH]$. It is the height of $\\triangle HSP$, with base $|SH| = 58$.\n\\text{Area} &= \\frac{1}{2}(58)(r)\n&= 29r\nANSWER: 29r \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q9#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Split triangle SGH into three triangles at P\nJoining $P$ to $G$, $H$ and $S$ gives three triangles. In each, the base is a side of $\\triangle SGH$ and the height is $r$.\n## Area of triangle GHP\n\\text{Area} &= \\frac{1}{2}(30)(r)\n&= 15r\n## Area of triangle SGP\n\\text{Area} &= \\frac{1}{2}(54.4)(r)\n&= 27.2r\n## Area of triangle HSP\n\\text{Area} &= \\frac{1}{2}(58)(r)\n&= 29r\n## Add the three areas\n\\text{Area of } \\triangle SGH &= 15r + 27.2r + 29r\n&= 71.2r\nANSWER: \\text{Area of } \\triangle SGH = 71.2r \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q9#(d)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Equate the two expressions for the area\nFrom (c) the area is $806.65$, and from (d)(ii) it is $71.2r$.\n71.2r &= 806.65\n## Solve for r\nr &= \\frac{806.65}{71.2}\n&= 11.329\n&\\approx 11.3\nANSWER: r = 11.3 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q9#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find the angle PSH\n$P$ is the incentre, so $[SP]$ bisects $\\angle HSG$.\n|\\angle PSH| &= \\frac{30.75}{2}\n&= 15.375^\\circ\n## Find |PS| using the right-angled triangle at the tangent point\nThe radius $11.3$ is perpendicular to $[SH]$, so it is opposite $\\angle PSH$, and $|PS|$ is the hypotenuse.\n\\sin 15.375^\\circ &= \\frac{11.3}{|PS|}\n|PS| &= \\frac{11.3}{\\sin 15.375^\\circ}\n&= 42.62\n## Use the angle of elevation to find the pole height\n$[ST]$ is vertical and $|PS|$ is horizontal, so the angle at $P$ is in a right-angled triangle $PST$.\n\\tan 14^\\circ &= \\frac{|ST|}{|PS|}\n|ST| &= 42.62 \\tan 14^\\circ\n&= 10.626\n&\\approx 10.6 \\text{ m}\nANSWER: 10.6 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Tax at 20% on the first €35 300\nIncome up to the cut-off is taxed at 20%.\n35300 \\times 0.2 &= \\text{€}7060\n## Find the income taxed at 40%\nThe remainder is the gross wage minus the cut-off point.\n40000 - 35300 &= 4700\n## Tax at 40% on the remainder\n4700 \\times 0.4 &= \\text{€}1880\n## Add the two amounts of tax\n7060 + 1880 &= \\text{€}8940\n## Subtract the tax credits\n8940 - 1650 &= \\text{€}7290\nANSWER: \\text{€}7290"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Add the income tax and the health insurance\n7290 + 1500 &= \\text{€}8790\n## Subtract from the gross wage\n40000 - 8790 &= \\text{€}31210\nANSWER: \\text{€}31210"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Tax at 20% on the first €35 300\n35300 \\times 0.2 &= \\text{€}7060\n## Find the income taxed at 40%\n38000 - 35300 &= 2700\n## Tax at 40% on the remainder\n2700 \\times 0.4 &= \\text{€}1080\n## Add the two amounts of tax\n7060 + 1080 &= \\text{€}8140\n## Subtract the tax credits\n8140 - 1650 &= \\text{€}6490\n## Find the net income with Company B\nThe health insurance is paid by the bonus, so only income tax is deducted.\n38000 - 6490 &= \\text{€}31510\n## Find the increase on her current net income\n31510 - 31210 &= \\text{€}300\nANSWER: \\text{€}300"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q2#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Multiply z₁ by 2 to find z₂\nMultiply both the real and imaginary parts by 2.\nz_2 &= 2z_1\n&= 2(2 + i)\n&= 4 + 2i\n## Write down the conjugate of z₁\nThe conjugate changes the sign of the imaginary part.\n\\bar{z}_1 &= 2 - i\n## Plot the points\nA number $a + bi$ is plotted at $(a, b)$: real part across, imaginary part up.\nPlot $z_2$ at $(4, 2)$ and $\\bar{z}_1$ at $(2, -1)$, and label each.\nANSWER: $z_2 = 4 + 2i$, $\\bar{z}_1 = 2 - i$"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q2#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Find the modulus of z₂\nFor $a + bi$, the modulus is $\\sqrt{a^2 + b^2}$.\n|z_2| &= \\sqrt{4^2 + 2^2}\n&= \\sqrt{16 + 4}\n&= \\sqrt{20}\n## Find z₁ + z̄₁\nz_1 + \\bar{z}_1 &= (2 + i) + (2 - i)\n&= 4\n## Find its modulus\n|z_1 + \\bar{z}_1| &= |4|\n&= 4\n## Compare the two moduli\n$4 = \\sqrt{16}$ and $\\sqrt{16} \\ne \\sqrt{20}$, so the two moduli are not equal.\nANSWER: |z_2| = \\sqrt{20} \\ne 4 = |z_1 + \\bar{z}_1|"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Substitute z = 2 + i into the equation\nIf $z_1$ is a solution, the left-hand side must equal $0$.\nz^2 - 4z + 5 &= (2 + i)^2 - 4(2 + i) + 5\n## Expand the brackets\n&= 4 + 4i + i^2 - 8 - 4i + 5\n## Replace i² with −1\n&= 4 + 4i - 1 - 8 - 4i + 5\n## Collect like terms\n&= (4 - 1 - 8 + 5) + (4i - 4i)\n&= 0\nThe left-hand side is $0$, so $z_1 = 2 + i$ is a solution.\nANSWER: z_1 = 2 + i \\text{ satisfies } z^2 - 4z + 5 = 0"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q3#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths1"
+  ],
+  "marks": 15,
+  "solution": "## Substitute x = −1 into f(x)\nf(-1) &= -(-1)^3 + 4(-1)^2 + (-1) - 2\n&= 1 + 4 - 1 - 2\n&= 2\n## Substitute x = 0 into f(x)\nf(0) &= -(0)^3 + 4(0)^2 + 0 - 2\n&= -2\n## Substitute x = 1 into f(x)\nf(1) &= -(1)^3 + 4(1)^2 + 1 - 2\n&= -1 + 4 + 1 - 2\n&= 2\n## Substitute x = 2 into f(x)\nf(2) &= -(2)^3 + 4(2)^2 + 2 - 2\n&= -8 + 16 + 2 - 2\n&= 8\n## Check x = 3 and substitute x = 4\nThe table gives $f(3) = 10$. For $x = 4$:\nf(4) &= -(4)^3 + 4(4)^2 + 4 - 2\n&= -64 + 64 + 4 - 2\n&= 2\n## Complete the table\n$x$: $-1, 0, 1, 2, 3, 4$ gives $f(x)$: $2, -2, 2, 8, 10, 2$.\n## Plot the points and join them with a smooth curve\nPlot $(-1, 2)$, $(0, -2)$, $(1, 2)$, $(2, 8)$, $(3, 10)$ and $(4, 2)$, then draw one smooth curve through them.\nANSWER: f(x) = 2, -2, 2, 8, 10, 2 \\text{ for } x = -1, 0, 1, 2, 3, 4"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q3#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Read where the curve crosses the x-axis\nThe roots are the values of $x$ where $f(x) = 0$, that is, where the curve meets the x-axis.\nIn the domain $-1 \\le x \\le 4$ it crosses just left and just right of the y-axis, at about $x = -0.8$ and $x = 0.6$.\nThe marking scheme printed $-0.7$ and $0.7$.\nANSWER: x \\approx -0.8 \\text{ and } x \\approx 0.6"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Find the first derivative\nDifferentiate each term: $x^n$ becomes $nx^{n-1}$.\nf'(x) &= -3x^2 + 8x + 1\n## Find the second derivative\nf''(x) &= -6x + 8\n## Set the second derivative equal to zero\n-6x + 8 &= 0\n## Solve for x\n-6x &= -8\nx &= \\frac{8}{6}\nx &= \\frac{4}{3}\nANSWER: x = \\frac{4}{3}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Multiply every term by the common denominator 10\nThe denominators are $5$, $2$ and $10$, so the lowest common denominator is $10$.\n\\frac{3x+1}{5} + \\frac{x-2}{2} &= \\frac{47}{10}\n10 \\cdot \\frac{3x+1}{5} + 10 \\cdot \\frac{x-2}{2} &= 10 \\cdot \\frac{47}{10}\n## Cancel the denominators\n2(3x+1) + 5(x-2) &= 47\n## Expand the brackets\n6x + 2 + 5x - 10 &= 47\n## Collect like terms\n11x - 8 &= 47\n## Add 8 to both sides\n11x &= 55\n## Divide both sides by 11\nx &= 5\nANSWER: x = 5"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 15,
+  "solution": "## Make x the subject of the linear equation\nx - 5y &= -13\nx &= 5y - 13\n## Substitute into the quadratic equation\nReplace $x$ in $x^2 + y^2 = 13$ with $5y - 13$.\n(5y-13)^2 + y^2 &= 13\n## Expand the bracket\n25y^2 - 130y + 169 + y^2 &= 13\n## Move everything to the left-hand side\n25y^2 - 130y + 169 + y^2 - 13 &= 0\n## Collect like terms\n26y^2 - 130y + 156 &= 0\n## Divide every term by 26\ny^2 - 5y + 6 &= 0\n## Factorise\n(y-2)(y-3) &= 0\n## Solve for y\nOne of the brackets must be zero.\ny &= 2 \\text{ or } y = 3\n## Find x for y = 2\nx &= 5(2) - 13\n&= -3\n## Find x for y = 3\nx &= 5(3) - 13\n&= 2\nANSWER: (x, y) = (-3, 2) \\text{ and } (2, 3)"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Find the width of each section\nThe diagram is $8$ cm wide and has $8$ equal sections, so each is $1$ cm wide. At $1$ cm = $3$ m, the width is\nh &= 3 \\text{ m}\n## Find the vertical height at each line\nEach box is $0.5$ cm high, which is $1.5$ m. Read the full height of the lawn at each of the 7 inner vertical lines.\nThe heights are $15, 18, 15, 12, 15, 18, 15$ metres, and the heights at the two ends are $0$.\n## Write the trapezoidal rule\nArea $= \\frac{h}{2}[\\text{first} + \\text{last} + 2(\\text{sum of the rest})]$.\nA &= \\frac{3}{2}\\left[0 + 0 + 2(15 + 18 + 15 + 12 + 15 + 18 + 15)\\right]\n## Add the inner heights\nA &= \\frac{3}{2}\\left[2(108)\\right]\n## Multiply out\nA &= \\frac{3}{2}(216)\nA &= 324\nANSWER: 324 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Convert metres per second to metres per hour\nThere are $60$ seconds in a minute and $60$ minutes in an hour.\n1.6 \\times 60 &= 96 \\text{ metres per minute}\n96 \\times 60 &= 5760 \\text{ metres per hour}\n## Convert metres to kilometres\nThere are $1000$ metres in a kilometre, so divide by $1000$.\n5760 \\div 1000 &= 5.76\nANSWER: 5.76 \\text{ km/h}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q6#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths3"
+  ],
+  "marks": 10,
+  "solution": "## Multiply out the bracket\n2(3 - x) &< 8\n6 - 2x &< 8\n## Subtract 6 from both sides\n-2x &< 2\n## Divide both sides by -2\nDividing by a negative number reverses the inequality sign.\nx &> -1\n## Show the solution on the numberline\nPut an open circle at $-1$ (it is not included) and draw an arrow to the right.\nANSWER: x > -1"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Write both sides as powers of 2\n$64 = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2$.\n2^{2x-1} &= 64\n2^{2x-1} &= 2^6\n## Equate the powers\nThe bases are equal, so the indices are equal.\n2x - 1 &= 6\n## Solve for x\n2x &= 7\nx &= \\frac{7}{2}\nANSWER: x = \\frac{7}{2}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q7#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 0 into f(t)\nThe ball is hit at time $t = 0$.\nf(0) &= -4(0)^2 + 16(0) + 1\n&= 0 + 0 + 1\n&= 1\nANSWER: 1 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q7#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 20,
+  "solution": "## Find the height when t = 0\nf(0) &= -4(0)^2 + 16(0) + 1\n&= -4(0) + 0 + 1\n&= 0 + 0 + 1\n&= 1\n## Find the height when t = 0.5\nf(0.5) &= -4(0.5)^2 + 16(0.5) + 1\n&= -4(0.25) + 8 + 1\n&= -1 + 8 + 1\n&= 8\n## Find the height when t = 1\nf(1) &= -4(1)^2 + 16(1) + 1\n&= -4(1) + 16 + 1\n&= -4 + 16 + 1\n&= 13\n## Find the height when t = 1.5\nf(1.5) &= -4(1.5)^2 + 16(1.5) + 1\n&= -4(2.25) + 24 + 1\n&= -9 + 24 + 1\n&= 16\n## Find the height when t = 2\nf(2) &= -4(2)^2 + 16(2) + 1\n&= -4(4) + 32 + 1\n&= -16 + 32 + 1\n&= 17\n## Find the height when t = 2.5\nf(2.5) &= -4(2.5)^2 + 16(2.5) + 1\n&= -4(6.25) + 40 + 1\n&= -25 + 40 + 1\n&= 16\n## Find the height when t = 3\nf(3) &= -4(3)^2 + 16(3) + 1\n&= -4(9) + 48 + 1\n&= -36 + 48 + 1\n&= 13\n## Find the height when t = 3.5\nf(3.5) &= -4(3.5)^2 + 16(3.5) + 1\n&= -4(12.25) + 56 + 1\n&= -49 + 56 + 1\n&= 8\n## Find the height when t = 4\nf(4) &= -4(4)^2 + 16(4) + 1\n&= -4(16) + 64 + 1\n&= -64 + 64 + 1\n&= 1\n## Plot the points and join them with a smooth curve\nPlot each $(t, f(t))$ pair from the table on the grid.\nJoin the points with one smooth curve (a parabola), not straight lines. It starts at $(0, 1)$ and ends where it meets the $t$-axis.\nANSWER: \\text{Heights: } 1, 8, 13, 16, 17, 16, 13, 8, 1 \\text{ m; smooth curve drawn}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q7#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find where the curve meets the t-axis\nThe ball lands when its height is $0$, so look where the curve crosses the $t$-axis.\nRead across from the point where the curve meets the axis: it is at about $t = 4.1$.\nThe ball was hit at $t = 0$, so the time in the air is $4.1 - 0$.\n4.1 - 0 &= 4.1\nANSWER: 4.1 \\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q7#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find where the height is 10 m on the graph\nDraw a horizontal line across the graph at height $10$.\nDraw vertical lines down from the two places the line meets the curve.\nThey meet the $t$-axis at about $t = 0.7$ and $t = 3.3$.\n## Subtract the two times\n3.3 - 0.7 &= 2.6\nThe marking scheme accepted 2.8 from its own readings; an accurately drawn graph gives about 2.6.\nANSWER: 2.6 \\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q7#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate each term\nThe derivative of $at^n$ is $nat^{n-1}$, and the derivative of a constant is $0$.\nf(t) &= -4t^2 + 16t + 1\nf'(t) &= -4(2t) + 16 + 0\n&= -8t + 16\nANSWER: f'(t) = -8t + 16"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q7#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 4 into f'(t)\nThe derivative $f'(t)$ is the velocity of the ball.\nf'(4) &= -8(4) + 16\n&= -32 + 16\n&= -16\n## Take the speed\nSpeed is the size of the velocity, so ignore the minus sign (the ball is moving downwards).\n\\text{speed} &= 16\nANSWER: 16 \\text{ m/s}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q7#(d)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Set the velocity equal to -8\nThe ball is descending, so its velocity is negative: $f'(t) = -8$.\n-8t + 16 &= -8\n## Solve for t\n-8t &= -8 - 16\n-8t &= -24\nt &= \\frac{-24}{-8}\nt &= 3\nANSWER: t = 3 \\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q8#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Substitute R = 2500 and T = 480\nP &= \\frac{480 \\times 2500}{5252}\n&= \\frac{1200000}{5252}\n## Calculate and round\n&\\approx 228.48\n&\\approx 228\nANSWER: P = 228 \\text{ horsepower}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q8#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Multiply both sides by 5252\nP &= \\frac{R \\times T}{5252}\n5252P &= R \\times T\n## Divide both sides by T\nR &= \\frac{5252P}{T}\nANSWER: R = \\frac{5252P}{T}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Add 250 each month\nThe loss falls by €250 each month, so each month's profit is €250 more than the month before.\nT_3 &= -3750 + 250\n&= -3500\nT_5 &= -3250 + 250\n&= -3000\nT_6 &= -3000 + 250\n&= -2750\nANSWER: -3500,\\ -3000,\\ -2750"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Identify the arithmetic sequence\nThe profits go up by the same amount each month, so this is an arithmetic sequence with $a = -4000$ and $d = 250$.\n## Substitute into the nth term formula\nT_n &= a + (n-1)d\nT_n &= -4000 + (n-1)(250)\n## Simplify\nT_n &= -4000 + 250n - 250\nT_n &= 250n - 4250\nANSWER: T_n = 250n - 4250"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q8#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 25 into T_n\nT_{25} &= 250(25) - 4250\n&= 6250 - 4250\n&= 2000\nANSWER: \\text{€}2000"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q8#(b)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Set the profit equal to 0\nT_n &= 0\n250n - 4250 &= 0\n## Solve for n\n250n &= 4250\nn &= \\frac{4250}{250}\nn &= 17\nANSWER: n = 17 \\text{ (month 17)}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q8#(b)(v)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Use the formula for the sum of n terms\n$S_n = \\frac{n}{2}\\left[2a + (n-1)d\\right]$ with $a = -4000$ and $d = 250$.\nS_n &= \\frac{n}{2}\\left[2(-4000) + (n-1)(250)\\right]\n## Simplify inside the bracket\nS_n &= \\frac{n}{2}\\left[-8000 + 250n - 250\\right]\nS_n &= \\frac{n}{2}\\left[250n - 8250\\right]\nANSWER: S_n = \\frac{n}{2}\\left[250n - 8250\\right]"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q8#(b)(vi)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 37 into S_n\nS_{37} &= \\frac{37}{2}\\left[250(37) - 8250\\right]\n&= \\frac{37}{2}\\left[9250 - 8250\\right]\n&= \\frac{37}{2}(1000)\n&= 18500\nANSWER: \\text{€}18500"
+ }
+]

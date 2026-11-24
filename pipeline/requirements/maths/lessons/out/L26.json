@@ -1,0 +1,362 @@
+[
+{"skill": "trig-ratios-right", "problems": [
+ {"part": "maths-pp-2019-ordinary-p2-q9#(a)", "note": null,
+  "legend": {"1": "the sine ratio, sin", "2": "the unknown side or angle"},
+  "steps": [
+   {"ask": "Which ratio uses the side opposite the 30° angle and the hypotenuse? Write it down before you look.",
+    "title": "Choose the trig ratio",
+    "lines": [
+     {"text": "In triangle $PQR$ the right angle is at $Q$, $|PR| = 120$ is the hypotenuse and $\\hl{2}{|QR|}$ is opposite the 30° angle."},
+     {"tex": "\\hl{1}{\\sin} 30^\\circ &= \\frac{\\hl{2}{|QR|}}{120}"},
+     {"tex": "\\hl{2}{|QR|} &= 120\\hl{1}{\\sin} 30^\\circ"},
+     {"tex": "&= 120 \\times \\frac{1}{2}"},
+     {"tex": "&= \\hl{2}{60}"}
+    ]}
+  ],
+  "final": "\\hl{2}{|QR|} = \\hl{2}{60} \\text{ km}",
+  "graph": null},
+ {"part": "maths-pp-2018-ordinary-p2-q8#(b)",
+  "note": "The unknown is now an angle, not a side, so the last step uses sin⁻¹ instead of multiplying. The sine ratio stays the same.",
+  "legend": {"1": "the sine ratio, sin", "2": "the unknown side or angle"},
+  "steps": [
+   {"ask": "Which two sides are you using for α, and which ratio uses them?",
+    "title": "Choose the sine ratio",
+    "lines": [
+     {"text": "In triangle $PRQ$, $PR$ is opposite $\\hl{2}{\\alpha}$ and $PQ$ is the hypotenuse."},
+     {"tex": "\\hl{1}{\\sin}\\hl{2}{\\alpha} &= \\frac{|PR|}{|PQ|}"},
+     {"tex": "&= \\frac{3.3}{6.5}"}
+    ]},
+   {"ask": "To get an angle from its sine, which button do you use on the right-hand side?",
+    "title": "Find α with the calculator",
+    "lines": [
+     {"tex": "\\hl{2}{\\alpha} &= \\hl{1}{\\sin^{-1}}\\left(\\frac{3.3}{6.5}\\right)"},
+     {"tex": "&= \\hl{2}{30.51^\\circ}"},
+     {"tex": "&\\approx \\hl{2}{31^\\circ}"}
+    ]}
+  ],
+  "final": "\\hl{2}{\\alpha} = \\hl{2}{31^\\circ}",
+  "graph": null},
+ {"part": "maths-pp-2020-ordinary-p2-q5#(a)",
+  "note": "The unknown is now the hypotenuse, so h sits on the bottom of the fraction and you divide by sin 55° instead of multiplying. The ratio is still sine.",
+  "legend": {"1": "the sine ratio, sin", "2": "the unknown side or angle"},
+  "steps": [
+   {"ask": "The lake width is opposite the 55° angle and h is the hypotenuse. Which ratio uses those two?",
+    "title": "Set up a sine ratio",
+    "lines": [
+     {"text": "Let $\\hl{2}{h}$ be the distance A swims. It is the hypotenuse; the lake width $100$ m is opposite the $55^\\circ$ angle."},
+     {"tex": "\\hl{1}{\\sin} 55^\\circ &= \\frac{100}{\\hl{2}{h}}"}
+    ]},
+   {"ask": "h is on the bottom of the fraction. What do you do to both sides to get h alone?",
+    "title": "Solve for h",
+    "lines": [
+     {"tex": "\\hl{2}{h} &= \\frac{100}{\\hl{1}{\\sin} 55^\\circ}"},
+     {"tex": "\\hl{2}{h} &= \\hl{2}{122.077}"},
+     {"tex": "\\hl{2}{h} &= \\hl{2}{122}"}
+    ]}
+  ],
+  "final": "\\hl{2}{122} \\text{ m}",
+  "graph": null}
+]},
+{"skill": "trig-sine-rule", "problems": [
+ {"part": "maths-pp-2020-ordinary-p2-q7#(a)(ii)", "note": null,
+  "legend": {"1": "the known side and its opposite angle", "2": "the unknown side or angle"},
+  "steps": [
+   {"ask": "y is the unknown. Which known side and angle form a pair, and which angle is opposite y?",
+    "title": "Write the sine rule for triangle ABC",
+    "lines": [
+     {"text": "Side $\\hl{2}{y}$ is opposite the $30^\\circ$ angle and the side $\\hl{1}{|AB| = 100}$ is opposite the $\\hl{1}{105^\\circ}$ angle."},
+     {"tex": "\\frac{\\hl{2}{y}}{\\sin 30^\\circ} &= \\frac{\\hl{1}{100}}{\\hl{1}{\\sin 105^\\circ}}"}
+    ]},
+   {"ask": "Both sides are fractions. What do you multiply both sides by to get y on its own?",
+    "title": "Solve for y",
+    "lines": [
+     {"tex": "\\hl{2}{y} &= \\frac{\\hl{1}{100} \\sin 30^\\circ}{\\hl{1}{\\sin 105^\\circ}}"},
+     {"tex": "\\hl{2}{y} &\\approx \\hl{2}{51.7638}"},
+     {"tex": "\\hl{2}{y} &\\approx \\hl{2}{51.8}"}
+    ]}
+  ],
+  "final": "\\hl{2}{y} = \\hl{2}{51.8} \\text{ m}",
+  "graph": null},
+ {"part": "maths-pp-2022-ordinary-p2-q9#(e)(ii)",
+  "note": "The unknown is now an angle, so the last step uses sin⁻¹ instead of multiplying. The pairs you set up are the same as before.",
+  "legend": {"1": "the known side and its opposite angle", "2": "the unknown side or angle"},
+  "steps": [
+   {"ask": "Angle C is the unknown, and |AB| is opposite it. Which known side and angle form a pair you can use?",
+    "title": "Use the sine rule",
+    "lines": [
+     {"text": "The side $|AB| = 3$ is opposite angle $\\hl{2}{C}$. The side $\\hl{1}{|BC| = 4.65}$ is opposite the $\\hl{1}{30^\\circ}$ angle."},
+     {"tex": "\\frac{\\hl{2}{\\sin C}}{3} &= \\frac{\\hl{1}{\\sin 30^\\circ}}{\\hl{1}{4.65}}"},
+     {"tex": "\\hl{2}{\\sin C} &= \\frac{3 \\hl{1}{\\sin 30^\\circ}}{\\hl{1}{4.65}}"},
+     {"tex": "\\hl{2}{\\sin C} &= \\frac{1.5}{\\hl{1}{4.65}}"},
+     {"tex": "\\hl{2}{\\sin C} &= \\frac{10}{31}"}
+    ]},
+   {"ask": "To get an angle from its sine, what do you do to both sides?",
+    "title": "Take the inverse sine",
+    "lines": [
+     {"tex": "\\hl{2}{C} &= \\sin^{-1}\\left(\\frac{10}{31}\\right)"},
+     {"tex": "\\hl{2}{C} &\\approx \\hl{2}{18.819063^\\circ}"},
+     {"tex": "\\hl{2}{C} &\\approx \\hl{2}{19^\\circ}"}
+    ]}
+  ],
+  "final": "\\hl{2}{|\\angle ACB|} = \\hl{2}{19^\\circ}",
+  "graph": null},
+ {"part": "maths-pp-2015-ordinary-p2-q5#(a)(i)",
+  "note": "The unknown is a side again, not an angle, so the last step multiplies by sin 42° instead of using sin⁻¹. The sine rule set-up is the same.",
+  "legend": {"1": "the known side and its opposite angle", "2": "the unknown side or angle"},
+  "steps": [
+   {"ask": "|BC| is the unknown. Which known side and angle form a pair you can put on the other side of the equation?",
+    "title": "Use the sine rule in triangle BCD",
+    "lines": [
+     {"text": "$\\hl{2}{|BC|}$ is opposite the $42^\\circ$ angle, and $\\hl{1}{|BD| = 16}$ is opposite the $\\hl{1}{110^\\circ}$ angle."},
+     {"tex": "\\frac{\\hl{2}{|BC|}}{\\sin 42^\\circ} &= \\frac{\\hl{1}{16}}{\\hl{1}{\\sin 110^\\circ}}"}
+    ]},
+   {"ask": "Get |BC| on its own. What must you multiply both sides by?",
+    "title": "Solve for |BC|",
+    "lines": [
+     {"tex": "\\hl{2}{|BC|} &= \\frac{\\hl{1}{16} \\sin 42^\\circ}{\\hl{1}{\\sin 110^\\circ}}"},
+     {"tex": "&= \\hl{2}{11.393\\ldots}"},
+     {"tex": "&= \\hl{2}{11.39} \\text{ m}"}
+    ]}
+  ],
+  "final": "\\hl{2}{|BC|} = \\hl{2}{11.39} \\text{ m}",
+  "graph": null}
+]},
+{"skill": "ineq-linear", "problems": [
+ {"part": "maths-pp-2025-ordinary-p1-q3#(b)", "note": null,
+  "legend": {"1": "the unknown terms (x or n)", "2": "the number on the right (the bound)", "3": "the reversed inequality sign"},
+  "steps": [
+   {"ask": "The x terms are on both sides. Choose one side to collect them on, and say what you move across.",
+    "title": "Get the x terms together",
+    "lines": [
+     {"tex": "\\hl{1}{2x} + 4 &\\ge \\hl{1}{6x} - 8"},
+     {"tex": "\\hl{1}{2x - 6x} + 4 &\\ge -8"},
+     {"tex": "\\hl{1}{-4x} + 4 &\\ge -8"}
+    ]},
+   {"ask": "There is a +4 with the x term. What do you do to both sides to remove it?",
+    "title": "Subtract 4 from both sides",
+    "lines": [
+     {"tex": "\\hl{1}{-4x} &\\ge -8 - 4"},
+     {"tex": "\\hl{1}{-4x} &\\ge \\hl{2}{-12}"}
+    ]},
+   {"ask": "What do you divide both sides by to get x alone? Check the sign of that number before you finish.",
+    "title": "Divide both sides by −4",
+    "lines": [
+     {"text": "Dividing by a negative number reverses the inequality sign."},
+     {"tex": "\\hl{1}{x} &\\hl{3}{\\le} \\frac{\\hl{2}{-12}}{-4}"},
+     {"tex": "\\hl{1}{x} &\\hl{3}{\\le} \\hl{2}{3}"}
+    ]}
+  ],
+  "final": "\\hl{1}{x} \\hl{3}{\\le} \\hl{2}{3}",
+  "graph": null},
+ {"part": "maths-pp-2019-ordinary-p1-q6#(a)",
+  "note": "The x sits in a bracket, so the first step expands it. The sign still reverses when you divide by −2, and you finish by drawing the answer on a number line.",
+  "legend": {"1": "the unknown terms (x or n)", "2": "the number on the right (the bound)", "3": "the reversed inequality sign"},
+  "steps": [
+   {"ask": "Start by removing the bracket on the left. What does the 2 multiply?",
+    "title": "Multiply out the bracket",
+    "lines": [
+     {"tex": "2(3 - \\hl{1}{x}) &< \\hl{2}{8}"},
+     {"tex": "6 - \\hl{1}{2x} &< \\hl{2}{8}"}
+    ]},
+   {"ask": "Move the 6 across. What do you do to both sides?",
+    "title": "Subtract 6 from both sides",
+    "lines": [
+     {"tex": "\\hl{1}{-2x} &< \\hl{2}{2}"}
+    ]},
+   {"ask": "You are dividing by −2. What happens to the inequality sign?",
+    "title": "Divide both sides by -2",
+    "lines": [
+     {"text": "Dividing by a negative number reverses the inequality sign."},
+     {"tex": "\\hl{1}{x} &\\hl{3}{>} \\hl{2}{-1}"}
+    ]},
+   {"ask": "Is −1 included in the answer? What symbol shows that on a number line?",
+    "title": "Show the solution on the numberline",
+    "lines": [
+     {"text": "Put an open circle at $\\hl{2}{-1}$ (it is not included) and draw an arrow to the right."}
+    ]}
+  ],
+  "final": "\\hl{1}{x} \\hl{3}{>} \\hl{2}{-1}",
+  "graph": null},
+ {"part": "maths-pp-2022-ordinary-p2-q10#(e)",
+  "note": "This is a word problem about classes, not bare algebra, and the answer has to be a whole number, so you round up to the next whole number.",
+  "legend": {"1": "the unknown terms (x or n)", "2": "the number on the right (the bound)"},
+  "steps": [
+   {"ask": "Silver costs a fixed amount plus a cost per class. How do you write Silver's cost using n, and what must it be compared to?",
+    "title": "Write an inequality for Gold being cheaper",
+    "lines": [
+     {"text": "Let $\\hl{1}{n}$ be the number of classes. Silver costs €420 plus €6 per class. Gold costs €670."},
+     {"tex": "420 + \\hl{1}{6n} &> \\hl{2}{670}"}
+    ]},
+   {"ask": "Move the 420 across. What do you do to both sides?",
+    "title": "Solve the inequality",
+    "lines": [
+     {"tex": "\\hl{1}{6n} &> \\hl{2}{670 - 420}"},
+     {"tex": "\\hl{1}{6n} &> \\hl{2}{250}"},
+     {"tex": "\\hl{1}{n} &> \\frac{\\hl{2}{250}}{6}"},
+     {"tex": "\\hl{1}{n} &> \\hl{2}{41.66\\ldots}"}
+    ]},
+   {"ask": "n has to be a whole number of classes. Which whole number is the smallest that still works?",
+    "title": "Round up to a whole number of classes",
+    "lines": [
+     {"text": "$\\hl{1}{n}$ must be a whole number greater than 41.66, so the least value is 42."},
+     {"tex": "\\hl{1}{n} &= \\hl{2}{42}"}
+    ]}
+  ],
+  "final": "\\hl{2}{42} \\text{ classes}",
+  "graph": null}
+]},
+{"skill": "ineq-modulus", "problems": [
+ {"part": "maths-pp-2025-higher-p1-q1#(a)", "note": null,
+  "legend": {"1": "the expression inside the modulus", "2": "the +k bound", "3": "the −k bound"},
+  "steps": [
+   {"ask": "|A| ≤ 12 means A is between two numbers. Write that as one double inequality for x − 3.",
+    "title": "Rewrite the modulus as a double inequality",
+    "lines": [
+     {"text": "$|A| \\le k$ means $A$ is between $-k$ and $k$."},
+     {"tex": "|\\hl{1}{x-3}| &\\le \\hl{2}{12}"},
+     {"tex": "\\hl{3}{-12} \\le \\hl{1}{x - 3} &\\le \\hl{2}{12}"}
+    ]},
+   {"ask": "Add 3 to every part of the double inequality. What is x in the middle?",
+    "title": "Add 3 to every part",
+    "lines": [
+     {"tex": "\\hl{3}{-12} + 3 \\le \\hl{1}{x - 3} + 3 &\\le \\hl{2}{12} + 3"},
+     {"tex": "\\hl{3}{-9} \\le \\hl{1}{x} &\\le \\hl{2}{15}"}
+    ]}
+  ],
+  "final": "\\hl{3}{-9} \\le \\hl{1}{x} \\le \\hl{2}{15}",
+  "graph": null},
+ {"part": "maths-pp-2016-higher-p1-q2#(a)",
+  "note": "The inequality is now ≥ rather than ≤, so the answer is two separate pieces joined by 'or' (outside the bounds), not one 'between' interval.",
+  "legend": {"1": "the expression inside the modulus", "2": "the +k bound", "3": "the −k bound"},
+  "steps": [
+   {"ask": "|A| ≥ k gives two separate cases. What are the two cases for |x − 4| ≥ 2?",
+    "title": "Split the modulus into two inequalities",
+    "lines": [
+     {"text": "$|A| \\ge k$ means $A \\ge k$ or $A \\le -k$."},
+     {"tex": "|\\hl{1}{x - 4}| &\\ge \\hl{2}{2}"},
+     {"tex": "\\hl{1}{x - 4} \\ge \\hl{2}{2} \\quad &\\text{or} \\quad \\hl{1}{x - 4} \\le \\hl{3}{-2}"}
+    ]},
+   {"ask": "Add 4 to both sides of each case separately. What is x in each?",
+    "title": "Add 4 to both sides of each",
+    "lines": [
+     {"tex": "\\hl{1}{x} \\ge \\hl{2}{6} \\quad &\\text{or} \\quad \\hl{1}{x} \\le \\hl{3}{2}"}
+    ]}
+  ],
+  "final": "\\hl{1}{x} \\le \\hl{3}{2} \\text{ or } \\hl{1}{x} \\ge \\hl{2}{6}",
+  "graph": null},
+ {"part": "maths-pp-2020-higher-p1-q1#(b)",
+  "note": "The modulus is not on its own at the start, so first move the −1 across. The answer is one 'between' interval like the first problem, and the 2 in front of x means you divide by 2 at the end.",
+  "legend": {"1": "the expression inside the modulus", "2": "the +k bound", "3": "the −k bound"},
+  "steps": [
+   {"ask": "The modulus is not on its own yet. What do you do with the −1 to isolate it?",
+    "title": "Isolate the modulus",
+    "lines": [
+     {"tex": "|\\hl{1}{2x+5}| - 1 &\\le 0"},
+     {"tex": "|\\hl{1}{2x+5}| &\\le \\hl{2}{1}"}
+    ]},
+   {"ask": "|A| ≤ 1 means A sits between two numbers. Write 2x + 5 between those two numbers.",
+    "title": "Rewrite as a double inequality",
+    "lines": [
+     {"text": "$|A| \\le 1$ means $A$ is between $-1$ and $1$."},
+     {"tex": "\\hl{3}{-1} \\le \\hl{1}{2x + 5} &\\le \\hl{2}{1}"}
+    ]},
+   {"ask": "Subtract 5 from every part. What do the outer parts become?",
+    "title": "Subtract 5 from every part",
+    "lines": [
+     {"tex": "\\hl{3}{-6} \\le \\hl{1}{2x} &\\le \\hl{2}{-4}"}
+    ]},
+   {"ask": "Divide every part by 2. Does anything flip, and why?",
+    "title": "Divide every part by 2",
+    "lines": [
+     {"tex": "\\hl{3}{-3} \\le \\hl{1}{x} &\\le \\hl{2}{-2}"}
+    ]}
+  ],
+  "final": "\\hl{3}{-3} \\le \\hl{1}{x} \\le \\hl{2}{-2}",
+  "graph": null}
+]},
+{"skill": "quad-complete-square", "problems": [
+ {"part": "maths-pp-2025-higher-p1-q5#(a)", "note": null,
+  "legend": {"1": "the leading coefficient a", "2": "the shift p in (x + p)", "3": "the constant q outside the square"},
+  "steps": [
+   {"ask": "Which number is in front of x²? Take it out of the x terms first.",
+    "title": "Factor 5 out of the x terms",
+    "lines": [
+     {"tex": "\\hl{1}{5}x^2 + 20x - 12 &= \\hl{1}{5}(x^2 + 4x) - 12"}
+    ]},
+   {"ask": "Half of the x coefficient goes inside the bracket. What is half of 4, and what extra number must you correct for?",
+    "title": "Complete the square inside the bracket",
+    "lines": [
+     {"text": "Half of 4 is 2, so $x^2 + 4x = (x+\\hl{2}{2})^2 - 2^2$."},
+     {"tex": "\\hl{1}{5}(x^2 + 4x) - 12 &= \\hl{1}{5}\\left[(x+\\hl{2}{2})^2 - 4\\right] - 12"}
+    ]},
+   {"ask": "Multiply the 5 back through the bracket. What constant is left outside?",
+    "title": "Multiply out the 5 and collect constants",
+    "lines": [
+     {"tex": "\\hl{1}{5}\\left[(x+\\hl{2}{2})^2 - 4\\right] - 12 &= \\hl{1}{5}(x+\\hl{2}{2})^2 - 20 - 12"},
+     {"tex": "&= \\hl{1}{5}(x+\\hl{2}{2})^2 \\hl{3}{- 32}"}
+    ]}
+  ],
+  "final": "g(x) = \\hl{1}{5}(x+\\hl{2}{2})^2 \\hl{3}{- 32}",
+  "graph": {"f": "5*x**2 + 20*x - 12", "box": [-5, 16, 1, -34], "tangent": false,
+            "points": [{"x": -2, "y": -32, "name": "min (−2, −32)"}], "line": null, "slots": {"x": null, "y": 3, "line": null}}},
+ {"part": "maths-pp-2021-higher-p1-q5#(a)(i)",
+  "note": "The part first needs the derivative, so you complete the square on f′(x), not on f(x). After that the steps are the same as the first problem, now with a = 6.",
+  "legend": {"1": "the leading coefficient a", "2": "the shift p in (x + p)", "3": "the constant q outside the square"},
+  "steps": [
+   {"ask": "The question asks about f′(x), so the first move is to differentiate. What do you do to each term of f(x)?",
+    "title": "Differentiate f(x)",
+    "lines": [
+     {"tex": "f'(x) &= \\hl{1}{6}x^2 + 12x - 12"}
+    ]},
+   {"ask": "All three terms share a factor. What number can you take out?",
+    "title": "Take out the factor 6",
+    "lines": [
+     {"tex": "&= \\hl{1}{6}(x^2 + 2x - 2)"}
+    ]},
+   {"ask": "Half of the x coefficient is the number inside the bracket. What is it, and what extra term must you add and take away?",
+    "title": "Complete the square inside the bracket",
+    "lines": [
+     {"text": "Half of the coefficient of $x$ is $\\hl{2}{1}$, so add and subtract $1^2$."},
+     {"tex": "&= \\hl{1}{6}(x^2 + 2x + 1 - 1 - 2)"},
+     {"tex": "&= \\hl{1}{6}\\left[(x+\\hl{2}{1})^2 - 3\\right]"},
+     {"tex": "&= \\hl{1}{6}(x+\\hl{2}{1})^2 \\hl{3}{- 18}"}
+    ]},
+   {"ask": "Compare with a(x + b)² + c. Which numbers play the roles of a, b and c?",
+    "title": "Compare with a(x + b)^2 + c",
+    "lines": [
+     {"tex": "\\hl{1}{a} &= \\hl{1}{6}, \\quad \\hl{2}{b} = \\hl{2}{1}, \\quad \\hl{3}{c} = \\hl{3}{-18}"}
+    ]}
+  ],
+  "final": "\\hl{1}{a} = \\hl{1}{6}, \\quad \\hl{2}{b} = \\hl{2}{1}, \\quad \\hl{3}{c} = \\hl{3}{-18}",
+  "graph": {"f": "6*x**2 + 12*x - 12", "box": [-3, 8, 1, -20], "tangent": false,
+            "points": [{"x": -1, "y": -18, "name": "min (−1, −18)"}], "line": null, "slots": {"x": null, "y": 3, "line": null}}},
+ {"part": "maths-pp-2017-higher-p1-q1#(a)",
+  "note": "The coefficient of x is now a fraction, −7/2, so the shift −7/4 and the constant −129/8 are fractions too. The method is unchanged.",
+  "legend": {"1": "the leading coefficient a", "2": "the shift p in (x + p)", "3": "the constant q outside the square"},
+  "steps": [
+   {"ask": "The x² term has a coefficient of 2. What would you take out so that x² has coefficient 1 inside?",
+    "title": "Factor out the coefficient of x squared",
+    "lines": [
+     {"text": "Take out $\\hl{1}{a = 2}$ so the $x^2$ term has coefficient 1."},
+     {"tex": "f(x) &= \\hl{1}{2}x^2 - 7x - 10"},
+     {"tex": "&= \\hl{1}{2}\\left(x^2 - \\frac{7}{2}x - 5\\right)"}
+    ]},
+   {"ask": "Half the coefficient of x inside the bracket gives the shift. What is it, sign included?",
+    "title": "Complete the square inside the bracket",
+    "lines": [
+     {"text": "Halve the coefficient of $x$: $\\frac{1}{2}\\times\\left(-\\frac{7}{2}\\right) = \\hl{2}{-\\frac{7}{4}}$. Square it to get $\\frac{49}{16}$."},
+     {"tex": "x^2 - \\frac{7}{2}x &= \\left(x \\hl{2}{- \\frac{7}{4}}\\right)^2 - \\frac{49}{16}"},
+     {"tex": "f(x) &= \\hl{1}{2}\\left(\\left(x \\hl{2}{- \\frac{7}{4}}\\right)^2 - \\frac{49}{16} - 5\\right)"},
+     {"tex": "&= \\hl{1}{2}\\left(\\left(x \\hl{2}{- \\frac{7}{4}}\\right)^2 - \\frac{129}{16}\\right)"}
+    ]},
+   {"ask": "Multiply the 2 back through. What constant is left outside the square?",
+    "title": "Multiply the 2 back in",
+    "lines": [
+     {"tex": "f(x) &= \\hl{1}{2}\\left(x \\hl{2}{- \\frac{7}{4}}\\right)^2 \\hl{3}{- \\frac{129}{8}}"}
+    ]}
+  ],
+  "final": "f(x) = \\hl{1}{2}\\left(x \\hl{2}{- \\frac{7}{4}}\\right)^2 \\hl{3}{- \\frac{129}{8}}",
+  "graph": {"f": "2*x**2 - 7*x - 10", "box": [-2, 14, 5, -20], "tangent": false,
+            "points": [{"x": 1.75, "y": -16.125, "name": "min (7/4, −129/8)"}], "line": null, "slots": {"x": null, "y": 3, "line": null}}}
+]}
+]

@@ -1,0 +1,468 @@
+[
+ {
+  "skill": "diff-increasing-interval",
+  "problems": [
+   {
+    "question": "$f(x) = 2x^3 - 9x^2 + 12x$.\nFind the values of $x$ for which $f(x)$ is increasing.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate $f(x)$",
+       "lines": [
+        {
+         "tex": "f(x) &= 2x^3 - 9x^2 + 12x"
+        },
+        {
+         "tex": "f'(x) &= 6x^2 - 18x + 12",
+         "sym": "6*x**2 - 18*x + 12",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Set up the inequality $f'(x) > 0$",
+       "lines": [
+        {
+         "tex": "6x^2 - 18x + 12 &> 0",
+         "sym": "6*x**2 - 18*x + 12 > 0",
+         "new": true
+        },
+        {
+         "tex": "x^2 - 3x + 2 &> 0",
+         "sym": "x**2 - 3*x + 2 > 0"
+        },
+        {
+         "tex": "(x - 1)(x - 2) &> 0",
+         "sym": "(x - 1)*(x - 2) > 0"
+        }
+       ]
+      },
+      {
+       "title": "Find the roots",
+       "lines": [
+        {
+         "text": "$(x-1)(x-2) = 0$ gives two roots."
+        },
+        {
+         "tex": "x &= 1 \\quad \\text{or} \\quad x = 2",
+         "sym": "Or(Eq(x, 1), Eq(x, 2))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Choose where $f'(x)$ is positive",
+       "lines": [
+        {
+         "text": "The graph of $x^2 - 3x + 2$ is a U-shape, so it is positive outside the roots."
+        },
+        {
+         "tex": "x &< 1 \\quad \\text{or} \\quad x > 2",
+         "sym": "Or(x < 1, x > 2)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x < 1 \\ \\text{ or } \\ x > 2"
+    },
+    "finalSym": "Or(x < 1, x > 2)",
+    "answerSym": "solve_univariate_inequality(diff(2*x**3 - 9*x**2 + 12*x, x) > 0, x, relational=True)"
+   },
+   {
+    "question": "$g(x) = 12x - x^3$.\nFind the values of $x$ for which $g(x)$ is decreasing.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate $g(x)$",
+       "lines": [
+        {
+         "tex": "g(x) &= 12x - x^3"
+        },
+        {
+         "tex": "g'(x) &= 12 - 3x^2",
+         "sym": "12 - 3*x**2",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Set up the inequality $g'(x) < 0$",
+       "lines": [
+        {
+         "tex": "12 - 3x^2 &< 0",
+         "sym": "12 - 3*x**2 < 0",
+         "new": true
+        },
+        {
+         "tex": "x^2 &> 4",
+         "sym": "x**2 > 4"
+        }
+       ]
+      },
+      {
+       "title": "Solve the inequality",
+       "lines": [
+        {
+         "text": "$x^2 = 4$ gives the roots $x = \\pm 2$. The graph of $x^2 - 4$ is a U-shape, so it is positive outside the roots."
+        },
+        {
+         "tex": "x &< -2 \\quad \\text{or} \\quad x > 2",
+         "sym": "Or(x < -2, x > 2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x < -2 \\ \\text{ or } \\ x > 2"
+    },
+    "finalSym": "Or(x < -2, x > 2)",
+    "answerSym": "solve_univariate_inequality(diff(12*x - x**3, x) < 0, x, relational=True)"
+   }
+  ]
+ },
+ {
+  "skill": "diff-tangent-circle",
+  "problems": [
+   {
+    "question": "The circle $x^2 + y^2 = 169$ passes through the point $(5, -12)$.\nFind the slope of the tangent to the circle at this point.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate both sides with respect to $x$",
+       "lines": [
+        {
+         "tex": "x^2 + y^2 &= 169"
+        },
+        {
+         "text": "Use the chain rule on $y^2$: $\\frac{d}{dx}(y^2) = 2y\\frac{dy}{dx}$."
+        },
+        {
+         "tex": "2x + 2y\\frac{dy}{dx} &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $\\frac{dy}{dx}$",
+       "lines": [
+        {
+         "tex": "\\frac{dy}{dx} &= -\\frac{x}{y}",
+         "sym": "-x/y",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute $(5, -12)$",
+       "lines": [
+        {
+         "tex": "\\frac{dy}{dx} &= -\\frac{5}{-12}",
+         "sym": "-5/(-12)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{5}{12}",
+         "sym": "Rational(5, 12)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{5}{12}"
+    },
+    "finalSym": "Rational(5, 12)",
+    "answerSym": "-Rational(5, -12)"
+   },
+   {
+    "question": "The circle $(x-1)^2 + (y+2)^2 = 25$ passes through the point $(4, 2)$.\nFind the slope of the tangent to the circle at this point.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate both sides with respect to $x$",
+       "lines": [
+        {
+         "text": "Use the chain rule on each bracket."
+        },
+        {
+         "tex": "2(x - 1) + 2(y + 2)\\frac{dy}{dx} &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $\\frac{dy}{dx}$",
+       "lines": [
+        {
+         "tex": "\\frac{dy}{dx} &= -\\frac{x - 1}{y + 2}",
+         "sym": "-(x - 1)/(y + 2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute $(4, 2)$",
+       "lines": [
+        {
+         "tex": "\\frac{dy}{dx} &= -\\frac{3}{4}",
+         "sym": "-Rational(3, 4)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-\\frac{3}{4}"
+    },
+    "finalSym": "-Rational(3, 4)",
+    "answerSym": "-(4 - 1)/(2 + 2)"
+   },
+   {
+    "question": "A circle has equation $x^2 + y^2 = 20$.\nThe point $P$ lies on the circle, with $x = -4$ and $y > 0$.\nFind the slope of the tangent to the circle at $P$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the $y$-coordinate of $P$",
+       "lines": [
+        {
+         "tex": "(-4)^2 + y^2 &= 20",
+         "sym": "(-4)**2 + y**2 - 20",
+         "new": true
+        },
+        {
+         "tex": "y^2 &= 4",
+         "sym": "y**2 - 4"
+        },
+        {
+         "text": "Since $y > 0$, $y = 2$ and $P = (-4, 2)$."
+        }
+       ]
+      },
+      {
+       "title": "Differentiate both sides with respect to $x$",
+       "lines": [
+        {
+         "tex": "2x + 2y\\frac{dy}{dx} &= 0"
+        },
+        {
+         "tex": "\\frac{dy}{dx} &= -\\frac{x}{y}",
+         "sym": "-x/y",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute $(-4, 2)$",
+       "lines": [
+        {
+         "tex": "\\frac{dy}{dx} &= -\\frac{-4}{2}",
+         "sym": "-(-4)/2",
+         "new": true
+        },
+        {
+         "tex": "&= 2",
+         "sym": "2"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2"
+    },
+    "finalSym": "2",
+    "answerSym": "-(-4)/sqrt(20 - (-4)**2)"
+   }
+  ]
+ },
+ {
+  "skill": "diff-curve-sketch",
+  "problems": [
+   {
+    "question": "Find the coordinates of the local maximum and the local minimum of the curve $y = x^3 - 6x^2 + 9x$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate",
+       "lines": [
+        {
+         "tex": "y &= x^3 - 6x^2 + 9x"
+        },
+        {
+         "tex": "\\frac{dy}{dx} &= 3x^2 - 12x + 9",
+         "sym": "3*x**2 - 12*x + 9",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Set $\\frac{dy}{dx} = 0$",
+       "lines": [
+        {
+         "tex": "3x^2 - 12x + 9 &= 0",
+         "sym": "Eq(3*x**2 - 12*x + 9, 0)",
+         "new": true
+        },
+        {
+         "tex": "x^2 - 4x + 3 &= 0",
+         "sym": "Eq(x**2 - 4*x + 3, 0)"
+        },
+        {
+         "tex": "(x - 1)(x - 3) &= 0",
+         "sym": "Eq((x - 1)*(x - 3), 0)"
+        },
+        {
+         "tex": "x &= 1 \\quad \\text{or} \\quad x = 3",
+         "sym": "Or(Eq(x, 1), Eq(x, 3))"
+        }
+       ]
+      },
+      {
+       "title": "Find the $y$-values",
+       "lines": [
+        {
+         "tex": "x = 1: \\quad y &= 1 - 6 + 9 = 4",
+         "sym": "1 - 6 + 9",
+         "new": true
+        },
+        {
+         "tex": "x = 3: \\quad y &= 27 - 54 + 27 = 0",
+         "sym": "27 - 54 + 27",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Classify using the second derivative",
+       "lines": [
+        {
+         "tex": "\\frac{d^2y}{dx^2} &= 6x - 12",
+         "sym": "6*x - 12",
+         "new": true
+        },
+        {
+         "text": "At $x = 1$: $6 - 12 = -6 < 0$, so $(1, 4)$ is a local maximum."
+        },
+        {
+         "text": "At $x = 3$: $18 - 12 = 6 > 0$, so $(3, 0)$ is a local minimum."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Local max } (1, 4); \\ \\text{local min } (3, 0)"
+    },
+    "finalSym": "[(1, 4), (3, 0)]",
+    "answerSym": "[(solve(diff(x**3 - 6*x**2 + 9*x, x), x)[0], (x**3 - 6*x**2 + 9*x).subs(x, solve(diff(x**3 - 6*x**2 + 9*x, x), x)[0])), (solve(diff(x**3 - 6*x**2 + 9*x, x), x)[1], (x**3 - 6*x**2 + 9*x).subs(x, solve(diff(x**3 - 6*x**2 + 9*x, x), x)[1]))]"
+   }
+  ]
+ },
+ {
+  "skill": "diff-sketch-derivative",
+  "problems": [
+   {
+    "question": "$f(x) = x^3 - 3x^2 - 9x + 5$ has a local maximum at $x = -1$ and a local minimum at $x = 3$.\nThe graph of $f'(x)$ is a U-shaped curve.\nWrite down the coordinates of the three points where the graph of $f'(x)$ meets the axes.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Turning points of $f$ give the roots of $f'$",
+       "lines": [
+        {
+         "text": "At a turning point the slope of $f$ is $0$, so $f'(-1) = 0$ and $f'(3) = 0$."
+        },
+        {
+         "text": "The graph of $f'$ crosses the $x$-axis at $(-1, 0)$ and $(3, 0)$."
+        }
+       ]
+      },
+      {
+       "title": "Find the $y$-intercept of $f'$",
+       "lines": [
+        {
+         "tex": "f'(x) &= 3x^2 - 6x - 9",
+         "sym": "3*x**2 - 6*x - 9",
+         "new": true
+        },
+        {
+         "tex": "f'(0) &= -9",
+         "sym": "-9",
+         "new": true
+        },
+        {
+         "text": "The graph of $f'$ crosses the $y$-axis at $(0, -9)$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(-1, 0),\\ (3, 0),\\ (0, -9)"
+    },
+    "finalSym": "[(-1, 0), (3, 0), (0, -9)]",
+    "answerSym": "[(solve(diff(x**3 - 3*x**2 - 9*x + 5, x), x)[0], 0), (solve(diff(x**3 - 3*x**2 - 9*x + 5, x), x)[1], 0), (0, diff(x**3 - 3*x**2 - 9*x + 5, x).subs(x, 0))]"
+   },
+   {
+    "question": "$f(x) = x^3 - 6x^2 + 9x + 2$.\nThe graph of $f'(x)$ is a U-shaped curve.\nFind the coordinates of the minimum point of the graph of $f'(x)$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate",
+       "lines": [
+        {
+         "tex": "f'(x) &= 3x^2 - 12x + 9",
+         "sym": "3*x**2 - 12*x + 9",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find the $x$-coordinate of the minimum of $f'$",
+       "lines": [
+        {
+         "text": "The minimum of $f'$ is where its slope, $f''(x)$, is zero."
+        },
+        {
+         "tex": "f''(x) &= 6x - 12",
+         "sym": "6*x - 12",
+         "new": true
+        },
+        {
+         "tex": "6x - 12 &= 0",
+         "sym": "Eq(6*x - 12, 0)",
+         "new": true
+        },
+        {
+         "tex": "x &= 2",
+         "sym": "Eq(x, 2)"
+        }
+       ]
+      },
+      {
+       "title": "Find the $y$-coordinate",
+       "lines": [
+        {
+         "tex": "f'(2) &= 3(4) - 12(2) + 9",
+         "sym": "3*4 - 12*2 + 9",
+         "new": true
+        },
+        {
+         "tex": "&= -3",
+         "sym": "-3"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(2, -3)"
+    },
+    "finalSym": "(2, -3)",
+    "answerSym": "(solve(diff(x**3 - 6*x**2 + 9*x + 2, x, 2), x)[0], diff(x**3 - 6*x**2 + 9*x + 2, x).subs(x, solve(diff(x**3 - 6*x**2 + 9*x + 2, x, 2), x)[0]))"
+   }
+  ]
+ }
+]

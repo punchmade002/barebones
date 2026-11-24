@@ -1,0 +1,8 @@
+{
+"circ-eq-origin": {"ok": true, "issues": []},
+"circ-eq-centre-radius": {"ok": true, "issues": []},
+"circ-line-origin": {"ok": true, "issues": []},
+"circ-tangent-at-point": {"ok": true, "issues": []},
+"circ-general-form": {"ok": false, "issues": ["The y-axis tick label -2 sits where the circle crosses it (circle at y=-2 is at x about -0.9), so the circle line touches the minus sign of the label."]},
+"circ-tangent-length": {"ok": true, "issues": []}
+}

@@ -1,0 +1,810 @@
+[
+ {
+  "skill": {
+   "id": "diff-apply-hl",
+   "title": "Apply derivatives of exp/log/trig functions to problems",
+   "level": "HL",
+   "input": "context with non-polynomial model",
+   "output": "rate, max/min, tangent"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-higher-p1-q9#(d)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the inequality for the rate",
+      "lines": [
+       {
+        "tex": "N'(k) &= 29.25e^{0.065k} > 90"
+       },
+       {
+        "tex": "e^{0.065k} &> \\frac{90}{29.25}"
+       }
+      ]
+     },
+     {
+      "title": "Take logs and solve",
+      "lines": [
+       {
+        "tex": "0.065k &> \\ln\\left(\\frac{90}{29.25}\\right)"
+       },
+       {
+        "tex": "k &> \\frac{\\ln(90/29.25)}{0.065}"
+       },
+       {
+        "tex": "k &> 17.29"
+       }
+      ]
+     },
+     {
+      "title": "Choose the least whole number",
+      "lines": [
+       {
+        "text": "$k$ is a whole number greater than 17.29."
+       },
+       {
+        "tex": "k &= 18"
+       }
+      ]
+     }
+    ],
+    "final": "k = 18"
+   },
+   {
+    "part": "practice-diff-apply-hl-1",
+    "level": "higher",
+    "year": null,
+    "question": "A cup of coffee cools in a room. Its temperature, $T$ degrees Celsius, $t$ minutes after it is poured is $T(t) = 20 + 70e^{-0.1t}$.\nFind the value of $t$ for which the temperature is falling at a rate of $3.5$ degrees per minute.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate to get the rate",
+      "lines": [
+       {
+        "tex": "T'(t) &= -7e^{-0.1t}"
+       }
+      ]
+     },
+     {
+      "title": "Set the rate equal to $-3.5$",
+      "lines": [
+       {
+        "tex": "-7e^{-0.1t} &= -3.5"
+       },
+       {
+        "tex": "e^{-0.1t} &= \\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Take natural logs and solve",
+      "lines": [
+       {
+        "tex": "-0.1t &= \\ln\\left(\\tfrac{1}{2}\\right) = -\\ln 2"
+       },
+       {
+        "tex": "t &= 10\\ln 2"
+       }
+      ]
+     }
+    ],
+    "final": "t = 10\\ln 2 \\approx 6.93 \\text{ minutes}"
+   },
+   {
+    "part": "practice-diff-apply-hl-2",
+    "level": "higher",
+    "year": null,
+    "question": "The concentration of a drug in the blood, in mg per litre, $t$ hours after it is taken is $C(t) = 12te^{-t/2}$, for $t \\ge 0$.\nFind the value of $t$ at which the concentration is greatest. Justify your answer.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate using the product rule",
+      "lines": [
+       {
+        "tex": "C'(t) &= 12e^{-t/2} + 12t\\left(-\\tfrac{1}{2}\\right)e^{-t/2}"
+       },
+       {
+        "tex": "&= 12e^{-t/2}\\left(1 - \\tfrac{t}{2}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Set $C'(t) = 0$",
+      "lines": [
+       {
+        "tex": "12e^{-t/2}\\left(1 - \\tfrac{t}{2}\\right) &= 0"
+       },
+       {
+        "text": "$e^{-t/2}$ is never $0$, so the bracket must be $0$."
+       },
+       {
+        "tex": "1 - \\tfrac{t}{2} &= 0"
+       },
+       {
+        "tex": "t &= 2"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate again to classify",
+      "lines": [
+       {
+        "tex": "C''(t) &= 12e^{-t/2}\\left(\\tfrac{t}{4} - 1\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate at $t = 2$",
+      "lines": [
+       {
+        "tex": "C''(2) &= -12e^{-1} < 0"
+       },
+       {
+        "text": "$C''(2) < 0$, so $t = 2$ gives a maximum."
+       }
+      ]
+     }
+    ],
+    "final": "t = 2 \\text{ hours}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-curve-sketch",
+   "title": "Sketch a curve using calculus",
+   "level": "OL",
+   "input": "f(x)",
+   "output": "sketch with intercepts, turning points"
+  },
+  "candidates": [
+   {
+    "part": "practice-diff-curve-sketch-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Find the coordinates of the local maximum and the local minimum of the curve $y = x^3 - 6x^2 + 9x$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate",
+      "lines": [
+       {
+        "tex": "y &= x^3 - 6x^2 + 9x"
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 3x^2 - 12x + 9"
+       }
+      ]
+     },
+     {
+      "title": "Set $\\frac{dy}{dx} = 0$",
+      "lines": [
+       {
+        "tex": "3x^2 - 12x + 9 &= 0"
+       },
+       {
+        "tex": "x^2 - 4x + 3 &= 0"
+       },
+       {
+        "tex": "(x - 1)(x - 3) &= 0"
+       },
+       {
+        "tex": "x &= 1 \\quad \\text{or} \\quad x = 3"
+       }
+      ]
+     },
+     {
+      "title": "Find the $y$-values",
+      "lines": [
+       {
+        "tex": "x = 1: \\quad y &= 1 - 6 + 9 = 4"
+       },
+       {
+        "tex": "x = 3: \\quad y &= 27 - 54 + 27 = 0"
+       }
+      ]
+     },
+     {
+      "title": "Classify using the second derivative",
+      "lines": [
+       {
+        "tex": "\\frac{d^2y}{dx^2} &= 6x - 12"
+       },
+       {
+        "text": "At $x = 1$: $6 - 12 = -6 < 0$, so $(1, 4)$ is a local maximum."
+       },
+       {
+        "text": "At $x = 3$: $18 - 12 = 6 > 0$, so $(3, 0)$ is a local minimum."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Local max } (1, 4); \\ \\text{local min } (3, 0)"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q5#(c)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Think about the graph of $f(x) + a$",
+      "lines": [
+       {
+        "text": "Adding $a$ moves the graph of $f$ up (or down) by $a$. A cubic has only one real root when it crosses the $x$-axis once: either the local maximum is below the axis, or the local minimum is above it."
+       }
+      ]
+     },
+     {
+      "title": "Local maximum below the $x$-axis",
+      "lines": [
+       {
+        "tex": "9 + a &< 0"
+       },
+       {
+        "tex": "a &< -9"
+       }
+      ]
+     },
+     {
+      "title": "Local minimum above the $x$-axis",
+      "lines": [
+       {
+        "tex": "-\\frac{100}{27} + a &> 0"
+       },
+       {
+        "tex": "a &> \\frac{100}{27}"
+       }
+      ]
+     }
+    ],
+    "final": "a < -9 \\ \\text{ or } \\ a > \\frac{100}{27}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q8#(e)(iii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the number of turning points",
+      "lines": [
+       {
+        "text": "$T'(x) = 0$ at only one value of $x$ in $[0, 8]$, so the graph has exactly one turning point."
+       },
+       {
+        "text": "Graphs A and B each have a minimum followed by a maximum (two turning points), so reject them. The answer is C or D."
+       }
+      ]
+     },
+     {
+      "title": "Find T(0) from part (c)",
+      "lines": [
+       {
+        "text": "$x = 0$ means kayak $S$ to $A$, then run $A$ to $F$."
+       },
+       {
+        "tex": "T(0) &= \\frac{\\sqrt{0^2 + 4}}{6} + \\frac{8 - 0}{12}"
+       },
+       {
+        "tex": "&= 1 \\text{ hour}"
+       }
+      ]
+     },
+     {
+      "title": "Find T(8) from part (d)",
+      "lines": [
+       {
+        "text": "$x = 8$ means kayak straight from $S$ to $F$ (about $82$ minutes)."
+       },
+       {
+        "tex": "T(8) &= \\frac{\\sqrt{8^2 + 4}}{6} + \\frac{8 - 8}{12}"
+       },
+       {
+        "tex": "&= \\frac{\\sqrt{68}}{6}"
+       },
+       {
+        "tex": "&\\approx 1.37 \\text{ hours}"
+       }
+      ]
+     },
+     {
+      "title": "Compare the end values",
+      "lines": [
+       {
+        "text": "$T(0) = 1 < 1.37 \\approx T(8)$, so the graph ends higher than it starts."
+       },
+       {
+        "text": "Of C and D, the one that finishes above its starting height is D."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{D}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-increasing-interval",
+   "title": "Find where a function is increasing/decreasing for all x or on intervals",
+   "level": "HL",
+   "input": "f(x)",
+   "output": "intervals where f′ > 0 / f′ < 0"
+  },
+  "candidates": [
+   {
+    "part": "practice-diff-increasing-interval-2",
+    "level": "higher",
+    "year": null,
+    "question": "$g(x) = 12x - x^3$.\nFind the values of $x$ for which $g(x)$ is decreasing.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate $g(x)$",
+      "lines": [
+       {
+        "tex": "g(x) &= 12x - x^3"
+       },
+       {
+        "tex": "g'(x) &= 12 - 3x^2"
+       }
+      ]
+     },
+     {
+      "title": "Set up the inequality $g'(x) < 0$",
+      "lines": [
+       {
+        "tex": "12 - 3x^2 &< 0"
+       },
+       {
+        "tex": "x^2 &> 4"
+       }
+      ]
+     },
+     {
+      "title": "Solve the inequality",
+      "lines": [
+       {
+        "text": "$x^2 = 4$ gives the roots $x = \\pm 2$. The graph of $x^2 - 4$ is a U-shape, so it is positive outside the roots."
+       },
+       {
+        "tex": "x &< -2 \\quad \\text{or} \\quad x > 2"
+       }
+      ]
+     }
+    ],
+    "final": "x < -2 \\ \\text{ or } \\ x > 2"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q5#(b)(ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate f(x)",
+      "lines": [
+       {
+        "tex": "f(x) &= 2x^3 - 21x^2 + 40x + 63"
+       },
+       {
+        "tex": "f'(x) &= 6x^2 - 42x + 40"
+       }
+      ]
+     },
+     {
+      "title": "Set up the inequality f'(x) < 0",
+      "lines": [
+       {
+        "tex": "6x^2 - 42x + 40 &< 0"
+       }
+      ]
+     },
+     {
+      "title": "Find the roots of 6x² − 42x + 40 = 0",
+      "lines": [
+       {
+        "text": "Use the quadratic formula with $a = 6$, $b = -42$, $c = 40$."
+       },
+       {
+        "tex": "x &= \\frac{42 \\pm \\sqrt{42^2 - 4(6)(40)}}{2(6)}"
+       },
+       {
+        "tex": "&= \\frac{42 \\pm \\sqrt{804}}{12}"
+       },
+       {
+        "tex": "x &\\approx 1.137 \\quad \\text{or} \\quad x \\approx 5.862"
+       }
+      ]
+     },
+     {
+      "title": "Choose the range where f'(x) is negative",
+      "lines": [
+       {
+        "text": "The graph of $6x^2 - 42x + 40$ is a U-shape, so it is negative between the roots."
+       },
+       {
+        "tex": "1.137 &< x < 5.862"
+       },
+       {
+        "tex": "1.14 &< x < 5.86"
+       }
+      ]
+     }
+    ],
+    "final": "1.14 < x < 5.86"
+   },
+   {
+    "part": "practice-diff-increasing-interval-1",
+    "level": "higher",
+    "year": null,
+    "question": "$f(x) = 2x^3 - 9x^2 + 12x$.\nFind the values of $x$ for which $f(x)$ is increasing.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate $f(x)$",
+      "lines": [
+       {
+        "tex": "f(x) &= 2x^3 - 9x^2 + 12x"
+       },
+       {
+        "tex": "f'(x) &= 6x^2 - 18x + 12"
+       }
+      ]
+     },
+     {
+      "title": "Set up the inequality $f'(x) > 0$",
+      "lines": [
+       {
+        "tex": "6x^2 - 18x + 12 &> 0"
+       },
+       {
+        "tex": "x^2 - 3x + 2 &> 0"
+       },
+       {
+        "tex": "(x - 1)(x - 2) &> 0"
+       }
+      ]
+     },
+     {
+      "title": "Find the roots",
+      "lines": [
+       {
+        "text": "$(x-1)(x-2) = 0$ gives two roots."
+       },
+       {
+        "tex": "x &= 1 \\quad \\text{or} \\quad x = 2"
+       }
+      ]
+     },
+     {
+      "title": "Choose where $f'(x)$ is positive",
+      "lines": [
+       {
+        "text": "The graph of $x^2 - 3x + 2$ is a U-shape, so it is positive outside the roots."
+       },
+       {
+        "tex": "x &< 1 \\quad \\text{or} \\quad x > 2"
+       }
+      ]
+     }
+    ],
+    "final": "x < 1 \\ \\text{ or } \\ x > 2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-point-given-slope",
+   "title": "Find where a curve has a given slope",
+   "level": "OL",
+   "input": "f(x) and slope m (or parallel line)",
+   "output": "x (and point)"
+  },
+  "candidates": [
+   {
+    "part": "practice-diff-point-given-slope-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Find the coordinates of the point on the curve $y = x^2 - 6x + 4$ at which the slope of the tangent is $2$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate to get the slope",
+      "lines": [
+       {
+        "tex": "y &= x^2 - 6x + 4"
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 2x - 6"
+       }
+      ]
+     },
+     {
+      "title": "Set the slope equal to 2",
+      "lines": [
+       {
+        "tex": "2x - 6 &= 2"
+       },
+       {
+        "tex": "2x &= 8"
+       },
+       {
+        "tex": "x &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Find y at this x-value",
+      "lines": [
+       {
+        "tex": "y &= (4)^2 - 6(4) + 4"
+       },
+       {
+        "tex": "&= -4"
+       }
+      ]
+     }
+    ],
+    "final": "(4, -4)"
+   },
+   {
+    "part": "practice-diff-point-given-slope-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "The tangent to the curve $y = x^3 - 3x^2 - 9x + 2$ is parallel to the line $y = -9x + 4$ at two points.\nFind the coordinates of the two points.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the slope of the line",
+      "lines": [
+       {
+        "text": "The line $y = -9x + 4$ has slope $-9$, so the tangent has slope $-9$."
+       }
+      ]
+     },
+     {
+      "title": "Differentiate the curve",
+      "lines": [
+       {
+        "tex": "y &= x^3 - 3x^2 - 9x + 2"
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 3x^2 - 6x - 9"
+       }
+      ]
+     },
+     {
+      "title": "Set the slope equal to -9 and solve",
+      "lines": [
+       {
+        "tex": "3x^2 - 6x - 9 &= -9"
+       },
+       {
+        "tex": "3x^2 - 6x &= 0"
+       },
+       {
+        "tex": "3x(x - 2) &= 0"
+       },
+       {
+        "tex": "x &= 0 \\text{ or } x = 2"
+       }
+      ]
+     },
+     {
+      "title": "Find y for each x-value",
+      "lines": [
+       {
+        "tex": "x = 0:\\quad y &= 2"
+       },
+       {
+        "tex": "x = 2:\\quad y &= 8 - 12 - 18 + 2"
+       },
+       {
+        "tex": "&= -20"
+       }
+      ]
+     }
+    ],
+    "final": "(0, 2) \\text{ and } (2, -20)"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q3#(c)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the slope of l",
+      "lines": [
+       {
+        "text": "$l$ passes through $(6, 0)$ and $(10, 2)$."
+       },
+       {
+        "tex": "m &= \\frac{2 - 0}{10 - 6}"
+       },
+       {
+        "tex": "&= \\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Translate the condition into a slope",
+      "lines": [
+       {
+        "text": "$l'(x) = \\frac{1}{2}$ for every $x$, since $l$ is a straight line."
+       },
+       {
+        "text": "So $p'(x) = l'(x)$ means the tangent to $p$ has slope $\\frac{1}{2}$, parallel to $l$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the two parallel tangents",
+      "lines": [
+       {
+        "text": "Place a ruler along $l$ and slide it down and to the left until it just touches the curve near the lower left. Draw this tangent in blue."
+       },
+       {
+        "text": "Slide it up and to the right until it just touches the curve near the maximum. Draw this second tangent in blue."
+       }
+      ]
+     },
+     {
+      "title": "Read the x-values from the touching points",
+      "lines": [
+       {
+        "text": "Draw a vertical line from each touching point down to the x-axis and read off the values."
+       },
+       {
+        "text": "The first touches at about $x = 2.2$ and the second at about $x = 6.8$."
+       }
+      ]
+     }
+    ],
+    "final": "x \\approx 2.2 \\text{ and } x \\approx 6.8"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-sketch-derivative",
+   "title": "Sketch/match the graph of f′ from f",
+   "level": "HL",
+   "input": "graph of f",
+   "output": "graph of f′ (and vice versa)"
+  },
+  "candidates": [
+   {
+    "part": "practice-diff-sketch-derivative-1",
+    "level": "higher",
+    "year": null,
+    "question": "$f(x) = x^3 - 3x^2 - 9x + 5$ has a local maximum at $x = -1$ and a local minimum at $x = 3$.\nThe graph of $f'(x)$ is a U-shaped curve.\nWrite down the coordinates of the three points where the graph of $f'(x)$ meets the axes.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Turning points of $f$ give the roots of $f'$",
+      "lines": [
+       {
+        "text": "At a turning point the slope of $f$ is $0$, so $f'(-1) = 0$ and $f'(3) = 0$."
+       },
+       {
+        "text": "The graph of $f'$ crosses the $x$-axis at $(-1, 0)$ and $(3, 0)$."
+       }
+      ]
+     },
+     {
+      "title": "Find the $y$-intercept of $f'$",
+      "lines": [
+       {
+        "tex": "f'(x) &= 3x^2 - 6x - 9"
+       },
+       {
+        "tex": "f'(0) &= -9"
+       },
+       {
+        "text": "The graph of $f'$ crosses the $y$-axis at $(0, -9)$."
+       }
+      ]
+     }
+    ],
+    "final": "(-1, 0),\\ (3, 0),\\ (0, -9)"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q6#(c)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the gradient of p(x) at key points",
+      "lines": [
+       {
+        "text": "The value of $p'(x)$ is the gradient of $p(x)$."
+       },
+       {
+        "text": "At $x = 1$ and $x = 3$, $p(x)$ has a turning point, so the gradient is $0$: $p'(1) = 0$ and $p'(3) = 0$."
+       },
+       {
+        "text": "$p(x)$ is steepest uphill at its inflection point $x = 2$, where the gradient is at its maximum, so $p'(2) = 1$."
+       },
+       {
+        "text": "We are given $p'(0) = -3$."
+       }
+      ]
+     },
+     {
+      "title": "Use the shape of p'(x) to find the last point",
+      "lines": [
+       {
+        "text": "$p(x)$ is a cubic, so $p'(x)$ is a quadratic: a U-shape upside down, with its peak at $(2, 1)$."
+       },
+       {
+        "text": "A quadratic is symmetric about its peak, so $x = 4$ matches $x = 0$: $p'(4) = -3$."
+       }
+      ]
+     },
+     {
+      "title": "Plot the points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0, -3)$, $(1, 0)$, $(2, 1)$, $(3, 0)$ and $(4, -3)$, then draw a smooth curve through them."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Quadratic through } (0,-3),\\ (1,0),\\ (2,1),\\ (3,0),\\ (4,-3)"
+   },
+   {
+    "part": "practice-diff-sketch-derivative-2",
+    "level": "higher",
+    "year": null,
+    "question": "$f(x) = x^3 - 6x^2 + 9x + 2$.\nThe graph of $f'(x)$ is a U-shaped curve.\nFind the coordinates of the minimum point of the graph of $f'(x)$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate",
+      "lines": [
+       {
+        "tex": "f'(x) &= 3x^2 - 12x + 9"
+       }
+      ]
+     },
+     {
+      "title": "Find the $x$-coordinate of the minimum of $f'$",
+      "lines": [
+       {
+        "text": "The minimum of $f'$ is where its slope, $f''(x)$, is zero."
+       },
+       {
+        "tex": "f''(x) &= 6x - 12"
+       },
+       {
+        "tex": "6x - 12 &= 0"
+       },
+       {
+        "tex": "x &= 2"
+       }
+      ]
+     },
+     {
+      "title": "Find the $y$-coordinate",
+      "lines": [
+       {
+        "tex": "f'(2) &= 3(4) - 12(2) + 9"
+       },
+       {
+        "tex": "&= -3"
+       }
+      ]
+     }
+    ],
+    "final": "(2, -3)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "trig-derive-7": {
+  "ok": false,
+  "fixes": [],
+  "note": "rewritten by hand for sin(A+B)"
+ },
+ "trig-derive-6": {
+  "ok": true,
+  "fixes": []
+ },
+ "trig-derive-9": {
+  "ok": true,
+  "fixes": []
+ }
+}

@@ -1,0 +1,428 @@
+[
+ {
+  "skill": "line-perp-distance",
+  "what": {
+   "say": [
+    "You give it a point and a line written as $ax + by + c = 0$. It gives back the **shortest distance** from the point to the line.",
+    "The key idea: put the point's coordinates into the line's left-hand side, take the size of the answer, and divide by $\\sqrt{a^2+b^2}$."
+   ],
+   "in": "point $(x_1, y_1)$ and line",
+   "out": "distance $d$"
+  },
+  "how": {
+   "higher": "Higher level uses it on Paper 2 in coordinate geometry, in 7 of the 11 years: sometimes as a 10-mark part of its own, more often as a step inside a tangent, circle or collinearity question."
+  },
+  "example": {
+   "question": "Find the perpendicular distance from the point $P(1, -2)$ to the line $y = \\frac{3}{4}x + 2$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Rewrite the line",
+      "say": "The formula needs the line as $ax + by + c = 0$. Multiply every term by $4$ to clear the fraction, then move everything to one side.",
+      "lines": [
+       {
+        "text": "$4y = 3x + 8$"
+       },
+       {
+        "tex": "\\hl{1}{3}x \\hl{2}{- 4}y + \\hl{3}{8} &= 0",
+        "sym": "0",
+        "new": true
+       },
+       {
+        "text": "So $a = \\hl{1}{3}$, $b = \\hl{2}{-4}$, $c = \\hl{3}{8}$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the formula",
+      "say": "Put $a$, $b$, $c$ and the point $(x_1, y_1) = (1, -2)$ into the distance formula.",
+      "lines": [
+       {
+        "tex": "d &= \\frac{|\\hl{1}{3}(1) + (\\hl{2}{-4})(-2) + \\hl{3}{8}|}{\\sqrt{\\hl{1}{3}^2 + (\\hl{2}{-4})^2}}",
+        "sym": "Abs(3*1+(-4)*(-2)+8)/sqrt(3**2+(-4)**2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "say": "Work out the top first and keep it positive, because the bars mean size. Then the square root underneath.",
+      "lines": [
+       {
+        "tex": "&= \\frac{|19|}{\\sqrt{25}}",
+        "sym": "Abs(19)/sqrt(25)"
+       },
+       {
+        "tex": "&= \\frac{19}{5} = 3.8",
+        "sym": "19/5"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{19}{5} = 3.8 \\text{ units}"
+   },
+   "finalSym": "19/5",
+   "answerSym": "Abs(3*1-4*(-2)+8)/sqrt(3**2+4**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the modulus bars in the formula. Leaving them out loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q6#(b)",
+       "quote": "Apply a * if the modulus is omitted"
+      }
+     ]
+    },
+    {
+     "tip": "Show the substitution. A correct answer with no work earns only low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q2#(b)",
+       "quote": "Correct answer without work"
+      }
+     ]
+    },
+    {
+     "tip": "A distance of $0$ means the point is on the line. Say that conclusion in words, or you lose a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q1#(a)",
+       "quote": "Distance = 0 but conclusion omitted"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula and substitute into it. Marks start with a relevant formula and some correct substitution.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q3#(b)",
+       "quote": "Relevant formula with some correct substitution"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-angle-between",
+  "what": {
+   "say": [
+    "You give it the slopes of two lines, $m_1$ and $m_2$. It finds the **angle** between them.",
+    "The key idea: $\\tan\\theta = \\pm\\frac{m_1 - m_2}{1 + m_1 m_2}$. The $\\pm$ is there because two crossing lines make an acute angle and an obtuse one."
+   ],
+   "in": "slopes $m_1$, $m_2$",
+   "out": "angle $\\theta$"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 2 in 3 of the 11 years, always as a coordinate-geometry part worth 10 or 15 marks, either finding an angle or using a known angle to find a slope."
+  },
+  "example": {
+   "question": "Find the acute angle between the lines $2x - y + 1 = 0$ and $x + 3y - 6 = 0$. Give your answer correct to one decimal place.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find both slopes",
+      "say": "Write each line as $y = mx + c$ and read off the slope.",
+      "lines": [
+       {
+        "tex": "y &= 2x + 1",
+        "sym": "2*x+1",
+        "new": true
+       },
+       {
+        "tex": "y &= -\\frac{1}{3}x + 2",
+        "sym": "-x/3+2",
+        "new": true
+       },
+       {
+        "text": "So $m_1 = \\hl{1}{2}$ and $m_2 = \\hl{2}{-\\frac{1}{3}}$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the formula",
+      "say": "Put $m_1$ and $m_2$ into the angle formula. Taking the positive value gives the acute angle.",
+      "lines": [
+       {
+        "tex": "\\tan\\theta &= \\frac{\\hl{1}{2} - \\left(\\hl{2}{-\\frac{1}{3}}\\right)}{1 + (\\hl{1}{2})\\left(\\hl{2}{-\\frac{1}{3}}\\right)}",
+        "sym": "(2-(-Rational(1,3)))/(1+2*(-Rational(1,3)))",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{\\frac{7}{3}}{\\frac{1}{3}}",
+        "sym": "(Rational(7,3))/(Rational(1,3))"
+       },
+       {
+        "tex": "&= 7",
+        "sym": "7"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle",
+      "say": "Use the inverse tangent to turn $\\tan\\theta = 7$ into the angle.",
+      "lines": [
+       {
+        "tex": "\\theta &= \\tan^{-1}(7)",
+        "sym": "atan(7)*180/pi",
+        "new": true
+       },
+       {
+        "tex": "&= 81.9^\\circ",
+        "sym": "81.9",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "81.9^\\circ"
+   },
+   "finalSym": "81.9",
+   "answerSym": "(atan(abs((2-(-Rational(1,3)))/(1+2*(-Rational(1,3)))))*180/pi).evalf(3)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "If you find both the acute and the obtuse angle, say which one is the answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q1#(b)",
+       "quote": "Finds both acute and obtuse angles"
+      }
+     ]
+    },
+    {
+     "tip": "Round correctly to the degree asked for. Wrong or no rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q1#(b)",
+       "quote": "Apply a * for incorrect rounding"
+      }
+     ]
+    },
+    {
+     "tip": "Write the tan formula with both slopes fully substituted. That is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q1#(b)",
+       "quote": "Tan formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Writing the answer without a unit is accepted, but add the degree sign anyway.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q1#(b)",
+       "quote": "Accept correct answer without unit"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-from-distance",
+  "what": {
+   "say": [
+    "You give it a point the line must pass through, and a distance from another point. It finds the **slope** of every line that fits.",
+    "The key idea: write the line with an unknown slope $m$, set the perpendicular distance formula equal to the given distance, and solve. Squaring gives a quadratic, so there are usually two lines."
+   ],
+   "in": "point and distance",
+   "out": "slope(s) $m$ and lines"
+  },
+  "how": {
+   "higher": "Higher level has used it once as the main skill, in 2024 Paper 2 Q9(d), a 15-mark part where a line through a point is tied to a given distance and the unknowns are found by setting up an equation."
+  },
+  "example": {
+   "question": "Find the equations of the two lines through the origin that are a perpendicular distance of $3$ from the point $(5, 0)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the line with slope m",
+      "say": "A line through the origin is $y = mx$. Write it as $ax + by + c = 0$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{m}x - y &= 0",
+        "sym": "0",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Set the distance equal to 3",
+      "say": "Use the distance formula from $(5, 0)$ to this line and set it equal to $3$.",
+      "lines": [
+       {
+        "tex": "\\frac{|\\hl{1}{m}(5) + (-1)(0)|}{\\sqrt{\\hl{1}{m}^2 + 1}} &= 3",
+        "sym": "Abs(5*m)/sqrt(m**2+1)",
+        "new": true
+       },
+       {
+        "tex": "|5m| &= 3\\sqrt{m^2 + 1}",
+        "sym": "3*sqrt(m**2+1)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Square and solve",
+      "say": "Square both sides to remove the root. Then collect the $m^2$ terms.",
+      "lines": [
+       {
+        "tex": "25m^2 &= 9(m^2 + 1)",
+        "sym": "9*(m**2+1)",
+        "new": true
+       },
+       {
+        "tex": "16m^2 &= 9",
+        "sym": "9",
+        "new": true
+       },
+       {
+        "tex": "m^2 &= \\frac{9}{16}",
+        "sym": "Rational(9,16)",
+        "new": true
+       },
+       {
+        "tex": "m &= \\pm\\frac{3}{4}",
+        "sym": "sqrt(Rational(9,16))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the lines",
+      "say": "Each value of $m$ gives one line through the origin.",
+      "lines": [
+       {
+        "tex": "y &= \\frac{3}{4}x",
+        "sym": "3*x/4",
+        "new": true
+       },
+       {
+        "tex": "y &= -\\frac{3}{4}x",
+        "sym": "-3*x/4",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "y = \\frac{3}{4}x \\quad \\text{and} \\quad y = -\\frac{3}{4}x"
+   },
+   "finalSym": "3/4",
+   "answerSym": "Max(*solve(Eq((5*m)**2/(m**2+1),9),m))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write down the inputs you will use, such as the slope and the distance, before you calculate. Work of merit there earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q9#(d)",
+       "quote": "Work of merit in identifying inputs for"
+      }
+     ]
+    },
+    {
+     "tip": "Round once, at the end, and only as the question says. Wrong or no rounding costs a mark once.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q9#(d)",
+       "quote": "no rounding or incorrect"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "num-order-operations",
+  "what": {
+   "say": [
+    "You give it a sum with brackets, powers, multiplying and adding mixed together. It gives back **one number**.",
+    "The key idea: there is a fixed order. Brackets first, then powers, then multiply and divide, then add and subtract."
+   ],
+   "in": "$6 + 3 \\times (7-4)^2$",
+   "out": "one value"
+  },
+  "how": {},
+  "example": {
+   "question": "Work out $6 + 3 \\times (7 - 4)^2 - 10 \\div 2$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Brackets first",
+      "say": "Do the bracket $(7 - 4)$ before anything else.",
+      "lines": [
+       {
+        "tex": "6 + 3 \\times (7 - 4)^2 - 10 \\div 2 &= 6 + 3 \\times \\hl{1}{3}^2 - 10 \\div 2",
+        "sym": "6+3*3**2-10/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Then the power",
+      "say": "Now the power. The square applies to the $\\hl{1}{3}$ only, not to the $3$ in front.",
+      "lines": [
+       {
+        "tex": "&= 6 + 3 \\times \\hl{2}{9} - 10 \\div 2",
+        "sym": "6+3*9-10/2"
+       }
+      ]
+     },
+     {
+      "title": "Multiply and divide",
+      "say": "Next, multiply and divide, working left to right.",
+      "lines": [
+       {
+        "tex": "&= 6 + \\hl{3}{27} - \\hl{4}{5}",
+        "sym": "6+27-5"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract",
+      "say": "Last, add and subtract from left to right.",
+      "lines": [
+       {
+        "tex": "&= 33 - 5",
+        "sym": "28"
+       },
+       {
+        "tex": "&= 28",
+        "sym": "28"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "28"
+   },
+   "finalSym": "28",
+   "answerSym": "6+3*(7-4)**2-Rational(10,2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]

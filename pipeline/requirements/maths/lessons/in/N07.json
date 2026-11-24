@@ -1,0 +1,701 @@
+[
+ {
+  "skill": {
+   "id": "diff-tangent-circle",
+   "title": "Find the slope of a tangent to a circle by differentiation",
+   "level": "HL",
+   "input": "circle equation + point",
+   "output": "slope dy/dx"
+  },
+  "candidates": [
+   {
+    "part": "practice-diff-tangent-circle-1",
+    "level": "higher",
+    "year": null,
+    "question": "The circle $x^2 + y^2 = 169$ passes through the point $(5, -12)$.\nFind the slope of the tangent to the circle at this point.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate both sides with respect to $x$",
+      "lines": [
+       {
+        "tex": "x^2 + y^2 &= 169"
+       },
+       {
+        "text": "Use the chain rule on $y^2$: $\\frac{d}{dx}(y^2) = 2y\\frac{dy}{dx}$."
+       },
+       {
+        "tex": "2x + 2y\\frac{dy}{dx} &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $\\frac{dy}{dx}$",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= -\\frac{x}{y}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $(5, -12)$",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= -\\frac{5}{-12}"
+       },
+       {
+        "tex": "&= \\frac{5}{12}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{5}{12}"
+   },
+   {
+    "part": "practice-diff-tangent-circle-2",
+    "level": "higher",
+    "year": null,
+    "question": "The circle $(x-1)^2 + (y+2)^2 = 25$ passes through the point $(4, 2)$.\nFind the slope of the tangent to the circle at this point.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate both sides with respect to $x$",
+      "lines": [
+       {
+        "text": "Use the chain rule on each bracket."
+       },
+       {
+        "tex": "2(x - 1) + 2(y + 2)\\frac{dy}{dx} &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $\\frac{dy}{dx}$",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= -\\frac{x - 1}{y + 2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $(4, 2)$",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= -\\frac{3}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "-\\frac{3}{4}"
+   },
+   {
+    "part": "practice-diff-tangent-circle-3",
+    "level": "higher",
+    "year": null,
+    "question": "A circle has equation $x^2 + y^2 = 20$.\nThe point $P$ lies on the circle, with $x = -4$ and $y > 0$.\nFind the slope of the tangent to the circle at $P$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the $y$-coordinate of $P$",
+      "lines": [
+       {
+        "tex": "(-4)^2 + y^2 &= 20"
+       },
+       {
+        "tex": "y^2 &= 4"
+       },
+       {
+        "text": "Since $y > 0$, $y = 2$ and $P = (-4, 2)$."
+       }
+      ]
+     },
+     {
+      "title": "Differentiate both sides with respect to $x$",
+      "lines": [
+       {
+        "tex": "2x + 2y\\frac{dy}{dx} &= 0"
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= -\\frac{x}{y}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $(-4, 2)$",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= -\\frac{-4}{2}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     }
+    ],
+    "final": "2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-combined",
+   "title": "Differentiate a function needing several rules",
+   "level": "HL",
+   "input": "product/quotient of composites of exp, log, trig, powers",
+   "output": "simplified derivative"
+  },
+  "candidates": [
+   {
+    "part": "practice-diff-combined-1",
+    "level": "higher",
+    "year": null,
+    "question": "Differentiate $y = e^{3x}\\cos 2x$ with respect to $x$.\nGive your answer in its simplest form.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split into two factors",
+      "lines": [
+       {
+        "tex": "u &= e^{3x}"
+       },
+       {
+        "tex": "v &= \\cos 2x"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate each factor using the chain rule",
+      "lines": [
+       {
+        "tex": "u' &= 3e^{3x}"
+       },
+       {
+        "tex": "v' &= -2\\sin 2x"
+       }
+      ]
+     },
+     {
+      "title": "Apply the product rule and simplify",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= u'v + uv' = 3e^{3x}\\cos 2x - 2e^{3x}\\sin 2x"
+       },
+       {
+        "tex": "&= e^{3x}(3\\cos 2x - 2\\sin 2x)"
+       }
+      ]
+     }
+    ],
+    "final": "e^{3x}(3\\cos 2x - 2\\sin 2x)"
+   },
+   {
+    "part": "practice-diff-combined-2",
+    "level": "higher",
+    "year": null,
+    "question": "Find $\\dfrac{dy}{dx}$ when $y = \\dfrac{e^{2x}}{\\sin x}$.\nWrite your answer as a single fraction.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the numerator and denominator",
+      "lines": [
+       {
+        "tex": "u &= e^{2x}"
+       },
+       {
+        "tex": "v &= \\sin x"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate each",
+      "lines": [
+       {
+        "tex": "u' &= 2e^{2x}"
+       },
+       {
+        "tex": "v' &= \\cos x"
+       }
+      ]
+     },
+     {
+      "title": "Apply the quotient rule",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= \\frac{u'v - uv'}{v^2} = \\frac{2e^{2x}\\sin x - e^{2x}\\cos x}{\\sin^2 x}"
+       },
+       {
+        "tex": "&= \\frac{e^{2x}(2\\sin x - \\cos x)}{\\sin^2 x}"
+       }
+      ]
+     }
+    ],
+    "final": "\\dfrac{e^{2x}(2\\sin x - \\cos x)}{\\sin^2 x}"
+   },
+   {
+    "part": "practice-diff-combined-3",
+    "level": "higher",
+    "year": null,
+    "question": "Differentiate $f(x) = x^2 \\ln(3x + 1)$ with respect to $x$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split into two factors",
+      "lines": [
+       {
+        "tex": "u &= x^2"
+       },
+       {
+        "tex": "v &= \\ln(3x + 1)"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate each (chain rule for $v$)",
+      "lines": [
+       {
+        "tex": "u' &= 2x"
+       },
+       {
+        "tex": "v' &= \\frac{3}{3x + 1}"
+       }
+      ]
+     },
+     {
+      "title": "Apply the product rule",
+      "lines": [
+       {
+        "tex": "f'(x) &= u'v + uv' = 2x\\ln(3x + 1) + x^2 \\cdot \\frac{3}{3x + 1}"
+       },
+       {
+        "tex": "&= 2x\\ln(3x + 1) + \\frac{3x^2}{3x + 1}"
+       }
+      ]
+     }
+    ],
+    "final": "2x\\ln(3x + 1) + \\dfrac{3x^2}{3x + 1}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-inverse-trig",
+   "title": "Differentiate inverse trig functions",
+   "level": "HL",
+   "input": "sin⁻¹(x/a), tan⁻¹(x/a)",
+   "output": "1/√(a² − x²), a/(a² + x²)"
+  },
+  "candidates": [
+   {
+    "part": "practice-diff-inverse-trig-1",
+    "level": "higher",
+    "year": null,
+    "question": "$f(x) = \\tan^{-1}\\left(\\dfrac{x}{5}\\right)$.\nFind the slope of the tangent to the curve $y = f(x)$ at $x = 5$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate using the standard result with $a = 5$",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\frac{5}{25 + x^2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 5$",
+      "lines": [
+       {
+        "tex": "f'(5) &= \\frac{5}{25 + 25}"
+       },
+       {
+        "tex": "&= \\frac{1}{10}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{10}"
+   },
+   {
+    "part": "practice-diff-inverse-trig-2",
+    "level": "higher",
+    "year": null,
+    "question": "Find $\\dfrac{dy}{dx}$ when $x = 2$, given that $y = x\\tan^{-1}\\left(\\dfrac{x}{2}\\right)$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the product rule",
+      "lines": [
+       {
+        "text": "$u = x$, $v = \\tan^{-1}(x/2)$."
+       },
+       {
+        "tex": "u' &= 1"
+       },
+       {
+        "tex": "v' &= \\frac{2}{4 + x^2}"
+       }
+      ]
+     },
+     {
+      "title": "Combine",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= \\tan^{-1}\\left(\\tfrac{x}{2}\\right) + \\frac{2x}{4 + x^2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 2$",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= \\tan^{-1}(1) + \\frac{4}{8}"
+       },
+       {
+        "tex": "&= \\frac{\\pi}{4} + \\frac{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{\\pi}{4} + \\frac{1}{2}"
+   },
+   {
+    "part": "practice-diff-inverse-trig-3",
+    "level": "higher",
+    "year": null,
+    "question": "Find the equation of the tangent to the curve $y = \\sin^{-1}\\left(\\dfrac{x}{2}\\right)$ at the point where $x = 1$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the point on the curve",
+      "lines": [
+       {
+        "tex": "y(1) &= \\sin^{-1}\\left(\\tfrac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= \\frac{\\pi}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate using the standard result with $a = 2$",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= \\frac{1}{\\sqrt{4 - x^2}}"
+       }
+      ]
+     },
+     {
+      "title": "Find the slope at $x = 1$",
+      "lines": [
+       {
+        "tex": "m &= \\frac{1}{\\sqrt{3}}"
+       }
+      ]
+     },
+     {
+      "title": "Write the tangent",
+      "lines": [
+       {
+        "tex": "y - \\frac{\\pi}{6} &= \\frac{1}{\\sqrt{3}}(x - 1)"
+       },
+       {
+        "tex": "y &= \\frac{\\pi}{6} + \\frac{x - 1}{\\sqrt{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "y = \\dfrac{\\pi}{6} + \\dfrac{x - 1}{\\sqrt{3}}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-quotient",
+   "title": "Apply the quotient rule",
+   "level": "HL",
+   "input": "u/v",
+   "output": "(u′v − uv′)/v²"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2024-higher-p1-q4#(b)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Name u and v and differentiate each",
+      "lines": [
+       {
+        "text": "Use the quotient rule: $g'(x)=\\frac{v\\,u' - u\\,v'}{v^2}$."
+       },
+       {
+        "tex": "u &= 6x + 1"
+       },
+       {
+        "tex": "\\frac{du}{dx} &= 6"
+       },
+       {
+        "tex": "v &= x^4 + 3"
+       },
+       {
+        "tex": "\\frac{dv}{dx} &= 4x^3"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quotient rule",
+      "lines": [
+       {
+        "tex": "g'(x) &= \\frac{(x^4+3)(6) - (6x+1)(4x^3)}{(x^4+3)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = −2",
+      "lines": [
+       {
+        "tex": "g'(-2) &= \\frac{((-2)^4+3)(6) - (6(-2)+1)(4(-2)^3)}{((-2)^4+3)^2}"
+       },
+       {
+        "tex": "&= \\frac{(19)(6) - (-11)(-32)}{(19)^2}"
+       },
+       {
+        "tex": "&= \\frac{114 - 352}{361}"
+       },
+       {
+        "tex": "&= -\\frac{238}{361}"
+       }
+      ]
+     }
+    ],
+    "final": "g'(-2) = -\\frac{238}{361}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q3#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Choose the quotient rule parts",
+      "lines": [
+       {
+        "tex": "u &= 3, \\quad u' = 0"
+       },
+       {
+        "tex": "v &= 2x - 7, \\quad v' = 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quotient rule",
+      "lines": [
+       {
+        "tex": "g'(x) &= \\frac{v u' - u v'}{v^2}"
+       },
+       {
+        "tex": "&= \\frac{(2x-7)(0) - (3)(2)}{(2x-7)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{0 - 6}{(2x-7)^2}"
+       },
+       {
+        "tex": "&= -\\frac{6}{(2x-7)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Explain why there are no turning points",
+      "lines": [
+       {
+        "text": "A turning point needs $g'(x) = 0$, but the numerator is $-6$, which is never $0$."
+       },
+       {
+        "text": "Also $(2x-7)^2 > 0$ for every $x$ in the domain ($x \\ne 3.5$), so $g'(x) < 0$ always."
+       },
+       {
+        "text": "So $g'(x) \\ne 0$ for all $x$ in the domain: $g$ has no local maximum or minimum points."
+       }
+      ]
+     }
+    ],
+    "final": "g'(x) = -\\frac{6}{(2x-7)^2} < 0 \\text{ for all } x \\text{ in the domain, so there are no turning points}"
+   },
+   {
+    "part": "practice-diff-quotient-1",
+    "level": "higher",
+    "year": null,
+    "question": "$f(x) = \\dfrac{x^2}{x - 2}$, for $x \\ne 2$.\nFind the values of $x$ at which the tangent to the curve $y = f(x)$ is horizontal.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Name $u$ and $v$ and differentiate each",
+      "lines": [
+       {
+        "tex": "u &= x^2, \\quad u' = 2x"
+       },
+       {
+        "tex": "v &= x - 2, \\quad v' = 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quotient rule",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\frac{(x-2)(2x) - x^2(1)}{(x-2)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{x^2 - 4x}{(x-2)^2}"
+       },
+       {
+        "tex": "&= \\frac{x(x-4)}{(x-2)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Set $f'(x) = 0$",
+      "lines": [
+       {
+        "tex": "x(x-4) &= 0"
+       },
+       {
+        "tex": "x &= 0 \\text{ or } x = 4"
+       }
+      ]
+     }
+    ],
+    "final": "x = 0 \\text{ or } x = 4"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-rational-power",
+   "title": "Differentiate rational powers",
+   "level": "HL",
+   "input": "xⁿ, n ∈ Q (roots, reciprocals)",
+   "output": "nxⁿ⁻¹"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-higher-p1-q5#(b)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the root as a power",
+      "lines": [
+       {
+        "tex": "f(x) &= x - \\sqrt{x+6}"
+       },
+       {
+        "tex": "&= x - (x+6)^{\\frac{1}{2}}"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate term by term",
+      "lines": [
+       {
+        "tex": "f'(x) &= 1 - \\frac{1}{2}(x+6)^{-\\frac{1}{2}}"
+       },
+       {
+        "tex": "&= 1 - \\frac{1}{2\\sqrt{x+6}}"
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = 1 - \\frac{1}{2\\sqrt{x+6}}"
+   },
+   {
+    "part": "practice-diff-rational-power-1",
+    "level": "higher",
+    "year": null,
+    "question": "$f(x) = \\dfrac{6}{\\sqrt[3]{x}}$.\nFind $f'(8)$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write as a power of $x$",
+      "lines": [
+       {
+        "tex": "f(x) &= 6x^{-\\frac{1}{3}}"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate",
+      "lines": [
+       {
+        "tex": "f'(x) &= 6\\left(-\\tfrac{1}{3}\\right)x^{-\\frac{4}{3}}"
+       },
+       {
+        "tex": "&= -2x^{-\\frac{4}{3}}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 8$",
+      "lines": [
+       {
+        "tex": "f'(8) &= -2(8)^{-\\frac{4}{3}} = -\\frac{2}{16}"
+       },
+       {
+        "tex": "&= -\\frac{1}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "f'(8) = -\\frac{1}{8}"
+   },
+   {
+    "part": "practice-diff-rational-power-2",
+    "level": "higher",
+    "year": null,
+    "question": "$g(x) = \\dfrac{x^2 + 3}{\\sqrt{x}}$, for $x > 0$.\nFind $g'(4)$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Divide through and write as powers",
+      "lines": [
+       {
+        "tex": "g(x) &= x^{\\frac{3}{2}} + 3x^{-\\frac{1}{2}}"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate term by term",
+      "lines": [
+       {
+        "tex": "g'(x) &= \\tfrac{3}{2}x^{\\frac{1}{2}} - \\tfrac{3}{2}x^{-\\frac{3}{2}}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 4$",
+      "lines": [
+       {
+        "tex": "g'(4) &= \\tfrac{3}{2}(2) - \\tfrac{3}{2}\\cdot\\tfrac{1}{8}"
+       },
+       {
+        "tex": "&= 3 - \\tfrac{3}{16} = \\tfrac{45}{16}"
+       }
+      ]
+     }
+    ],
+    "final": "g'(4) = \\frac{45}{16}"
+   }
+  ]
+ }
+]

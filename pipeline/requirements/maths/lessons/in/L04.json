@@ -1,0 +1,1130 @@
+[
+ {
+  "skill": {
+   "id": "diff-stationary",
+   "title": "Find and classify turning points",
+   "level": "OL",
+   "input": "f(x)",
+   "output": "max/min points via f′ = 0 and f″"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-ordinary-p1-q8#(d)(iii)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set the derivative equal to zero",
+      "lines": [
+       {
+        "text": "The maximum occurs where the slope is zero."
+       },
+       {
+        "tex": "10.5 - 2x &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "2x &= 10.5"
+       },
+       {
+        "tex": "x &= 5.25"
+       }
+      ]
+     }
+    ],
+    "final": "x = 5.25\\ \\text{m}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q8#(c)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set h'(x) = 0 at the greatest depth",
+      "lines": [
+       {
+        "text": "At the lowest point of the graph the slope is zero."
+       },
+       {
+        "tex": "\\frac{1}{30}x - \\frac{1}{4} &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "\\frac{1}{30}x &= \\frac{1}{4}"
+       },
+       {
+        "tex": "x &= \\frac{30}{4}"
+       },
+       {
+        "tex": "x &= \\frac{15}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\frac{15}{2}\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q10#(a)(iv)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate h",
+      "lines": [
+       {
+        "tex": "\\frac{dh}{dt} &= -4t + 5"
+       }
+      ]
+     },
+     {
+      "title": "Greatest height: set the derivative to 0",
+      "lines": [
+       {
+        "tex": "-4t + 5 &= 0"
+       },
+       {
+        "tex": "-4t &= -5"
+       },
+       {
+        "tex": "t &= \\frac{5}{4}"
+       },
+       {
+        "tex": "t &= 1.25"
+       }
+      ]
+     }
+    ],
+    "final": "t = 1.25 \\text{ seconds}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q4#(a)(iv)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the local maximum",
+      "lines": [
+       {
+        "text": "The local maximum is the top of the hump on the left, at about $x = -1.6$ and $y = -1$."
+       },
+       {
+        "tex": "\\text{Local maximum} &\\approx (-1.6, -1)"
+       }
+      ]
+     },
+     {
+      "title": "Read the local minimum",
+      "lines": [
+       {
+        "text": "The local minimum is the bottom of the dip near the $y$-axis, at about $x = 0.25$ and $y = -3.1$."
+       },
+       {
+        "tex": "\\text{Local minimum} &\\approx (0.25, -3.1)"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Max } (-1.6, -1);\\quad \\text{Min } (0.25, -3.1)"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q6#(a)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate g(x)",
+      "lines": [
+       {
+        "text": "The graph of $g$ is a U-shape, so the minimum is where the slope is zero."
+       },
+       {
+        "tex": "g(x) &= x^2 + 8x - 6"
+       },
+       {
+        "tex": "g'(x) &= 2x + 8"
+       }
+      ]
+     },
+     {
+      "title": "Set the derivative equal to zero",
+      "lines": [
+       {
+        "tex": "2x + 8 &= 0"
+       },
+       {
+        "tex": "2x &= -8"
+       },
+       {
+        "tex": "x &= -4"
+       }
+      ]
+     }
+    ],
+    "final": "x = -4"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q4#(b)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate and set the derivative equal to zero",
+      "lines": [
+       {
+        "text": "At a turning point the slope is zero."
+       },
+       {
+        "tex": "f(x) &= -x^2 + 6x - 4"
+       },
+       {
+        "tex": "f'(x) &= -2x + 6"
+       },
+       {
+        "tex": "-2x + 6 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "-2x &= -6"
+       },
+       {
+        "tex": "x &= 3"
+       }
+      ]
+     },
+     {
+      "title": "Find the y-co-ordinate",
+      "lines": [
+       {
+        "tex": "f(3) &= -(3)^2 + 6(3) - 4"
+       },
+       {
+        "tex": "&= -9 + 18 - 4"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     }
+    ],
+    "final": "(3, 5)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-chain",
+   "title": "Apply the chain rule",
+   "level": "HL",
+   "input": "f(g(x))",
+   "output": "f′(g(x))·g′(x)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p1-q8#(c)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate using the chain rule",
+      "lines": [
+       {
+        "text": "The derivative of $\\cos u$ is $-\\sin u$, multiplied by the derivative of the inside, $\\frac{\\pi}{26}$. The constant $37500$ differentiates to $0$."
+       },
+       {
+        "tex": "r(t) &= 22500\\cos\\left(\\frac{\\pi}{26}t\\right)+37500"
+       },
+       {
+        "tex": "r'(t) &= 22500\\left[-\\sin\\left(\\frac{\\pi}{26}t\\right)\\right]\\left(\\frac{\\pi}{26}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the constant",
+      "lines": [
+       {
+        "tex": "r'(t) &= -\\frac{22500\\pi}{26}\\sin\\left(\\frac{\\pi}{26}t\\right)"
+       },
+       {
+        "tex": "&= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{\\pi}{26}t\\right)"
+       }
+      ]
+     }
+    ],
+    "final": "r'(t) = -\\frac{11250\\pi}{13}\\sin\\left(\\frac{\\pi}{26}t\\right)"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q3#(b)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write f(g(x)) as a single function",
+      "lines": [
+       {
+        "tex": "f(g(x)) &= \\ln\\left(3(x+5)^2 + 2\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate using the chain rule",
+      "lines": [
+       {
+        "text": "$\\frac{d}{dx}\\ln u = \\frac{u'}{u}$, where $u = 3(x+5)^2 + 2$."
+       },
+       {
+        "tex": "u &= 3(x+5)^2 + 2"
+       },
+       {
+        "tex": "u' &= 6(x+5)"
+       },
+       {
+        "tex": "\\frac{d}{dx}f(g(x)) &= \\frac{6(x+5)}{3(x+5)^2 + 2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 1/4",
+      "lines": [
+       {
+        "tex": "x + 5 &= \\frac{1}{4} + 5"
+       },
+       {
+        "tex": "&= \\frac{21}{4}"
+       },
+       {
+        "tex": "\\frac{d}{dx}f(g(x)) &= \\frac{6\\cdot\\frac{21}{4}}{3\\left(\\frac{21}{4}\\right)^2 + 2}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{63}{2}}{\\frac{1323}{16} + 2}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{63}{2}}{\\frac{1355}{16}}"
+       },
+       {
+        "tex": "&= \\frac{504}{1355}"
+       },
+       {
+        "tex": "&\\approx 0.372"
+       }
+      ]
+     }
+    ],
+    "final": "0.372"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q3#(a)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate h(x) to get the slope formula",
+      "lines": [
+       {
+        "text": "The slope of the tangent is $h'(x)$. Use the chain rule: the derivative of $\\cos u$ is $-\\sin u$, times the derivative of $u = 2x$, which is $2$."
+       },
+       {
+        "tex": "h(x) &= \\cos(2x)"
+       },
+       {
+        "tex": "h'(x) &= -2\\sin(2x)"
+       }
+      ]
+     },
+     {
+      "title": "Find the slope at x = pi/3",
+      "lines": [
+       {
+        "tex": "h'\\left(\\frac{\\pi}{3}\\right) &= -2\\sin\\left(\\frac{2\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= -2\\left(\\frac{\\sqrt{3}}{2}\\right)"
+       },
+       {
+        "tex": "&= -\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle from the slope",
+      "lines": [
+       {
+        "text": "The slope equals $\\tan\\theta$, where $\\theta$ is the angle with the positive sense of the $x$-axis."
+       },
+       {
+        "tex": "\\tan\\theta &= -\\sqrt{3}"
+       },
+       {
+        "text": "$\\tan 60^\\circ = \\sqrt{3}$. The slope is negative, so the angle is obtuse: $180^\\circ - 60^\\circ$."
+       },
+       {
+        "tex": "\\theta &= 180^\\circ - 60^\\circ"
+       },
+       {
+        "tex": "\\theta &= 120^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "120^\\circ"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q5#(a)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write f(x) as a power",
+      "lines": [
+       {
+        "tex": "f(x) &= (5x^2 + 7)^{-1}"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate using the chain rule",
+      "lines": [
+       {
+        "text": "Bring down the power, reduce it by 1, then multiply by the derivative of $5x^2 + 7$, which is $10x$."
+       },
+       {
+        "tex": "f'(x) &= -1(5x^2 + 7)^{-2}(10x)"
+       },
+       {
+        "tex": "&= -10x(5x^2 + 7)^{-2}"
+       }
+      ]
+     },
+     {
+      "title": "Write with a positive power",
+      "lines": [
+       {
+        "tex": "&= \\frac{-10x}{(5x^2 + 7)^2}"
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = \\frac{-10x}{(5x^2 + 7)^2}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q3#(a)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the outer and inner functions",
+      "lines": [
+       {
+        "text": "$f(x) = u^{28}$ where $u = 3x^5 - 4$. Use the chain rule: $f'(x) = 28u^{27} \\times \\frac{du}{dx}$."
+       }
+      ]
+     },
+     {
+      "title": "Differentiate the inner function",
+      "lines": [
+       {
+        "tex": "\\frac{du}{dx} &= 15x^4"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the two results together",
+      "lines": [
+       {
+        "tex": "f'(x) &= 28(3x^5 - 4)^{27} \\times 15x^4"
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = 28(3x^5 - 4)^{27}(15x^4)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-exponential",
+   "title": "Differentiate exponential functions",
+   "level": "HL",
+   "input": "e^(ax), aˣ",
+   "output": "ae^(ax), aˣ ln a"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p1-q7#(g)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate q(t)",
+      "lines": [
+       {
+        "tex": "q(t) &= 3.9 e^{-0.05t} \\times 10^6"
+       },
+       {
+        "text": "The derivative of $e^{kt}$ is $k e^{kt}$."
+       },
+       {
+        "tex": "q'(t) &= -0.05 \\times 3.9 e^{-0.05t} \\times 10^6"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 8",
+      "lines": [
+       {
+        "text": "The beginning of 2018 is $t = 8$."
+       },
+       {
+        "tex": "q'(8) &= -0.05 \\times 3.9 e^{-0.05(8)} \\times 10^6"
+       },
+       {
+        "tex": "&= -0.195 e^{-0.4} \\times 10^6"
+       },
+       {
+        "tex": "&= -0.195 \\times 0.670320 \\times 10^6"
+       },
+       {
+        "tex": "&= -130\\,712"
+       }
+      ]
+     }
+    ],
+    "final": "-130\\,712 \\text{ people per year}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q9#(c)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate N(t)",
+      "lines": [
+       {
+        "text": "$\\frac{d}{dt}e^{at} = ae^{at}$."
+       },
+       {
+        "tex": "N'(t) &= 450e^{0.065t} \\times 0.065"
+       },
+       {
+        "tex": "&= 29.25e^{0.065t}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 12",
+      "lines": [
+       {
+        "tex": "N'(12) &= 29.25e^{0.065(12)}"
+       },
+       {
+        "tex": "&= 29.25e^{0.78}"
+       },
+       {
+        "tex": "&\\approx 63.8"
+       }
+      ]
+     },
+     {
+      "title": "Interpret",
+      "lines": [
+       {
+        "text": "After 12 hours the colony is growing at a rate of 63.8 bacteria per hour (about 64)."
+       }
+      ]
+     }
+    ],
+    "final": "63.8 \\text{ bacteria per hour}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q9#(c)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate T(t)",
+      "lines": [
+       {
+        "text": "Chain rule on $e^{-0.081t}$: the derivative is $-0.081e^{-0.081t}$. The constant 20 differentiates to 0."
+       },
+       {
+        "tex": "T(t) &= 75e^{-0.081t} + 20"
+       },
+       {
+        "tex": "T'(t) &= 75(-0.081)e^{-0.081t}"
+       },
+       {
+        "tex": "&= -6.075e^{-0.081t}"
+       }
+      ]
+     },
+     {
+      "title": "Set T'(t) = -4.05 and solve",
+      "lines": [
+       {
+        "tex": "-6.075e^{-0.081t} &= -4.05"
+       },
+       {
+        "tex": "e^{-0.081t} &= \\frac{4.05}{6.075}"
+       },
+       {
+        "tex": "&= \\frac{2}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Find the temperature",
+      "lines": [
+       {
+        "text": "Put $e^{-0.081t} = \\frac{2}{3}$ straight into $T(t)$."
+       },
+       {
+        "tex": "T &= 75\\left(\\frac{2}{3}\\right) + 20"
+       },
+       {
+        "tex": "&= 50 + 20"
+       },
+       {
+        "tex": "&= 70"
+       }
+      ]
+     }
+    ],
+    "final": "70^\\circ\\text{C}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q7#(c)(i)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate F(t)",
+      "lines": [
+       {
+        "text": "Use $\\dfrac{d}{dt}\\left(e^{kt}\\right) = k e^{kt}$."
+       },
+       {
+        "tex": "F(t) &= 5000 e^{0.04t}"
+       },
+       {
+        "tex": "F'(t) &= 5000(0.04)e^{0.04t}"
+       },
+       {
+        "tex": "&= 200 e^{0.04t}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 3.5",
+      "lines": [
+       {
+        "tex": "F'(3.5) &= 200 e^{0.04(3.5)}"
+       },
+       {
+        "tex": "&= 200 e^{0.14}"
+       },
+       {
+        "tex": "&= 230.05\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Round to the nearest euro",
+      "lines": [
+       {
+        "tex": "F'(3.5) &\\approx 230"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}230 \\text{ per year}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-first-principles",
+   "title": "Differentiate from first principles",
+   "level": "HL",
+   "input": "linear or quadratic f(x)",
+   "output": "f′(x) via lim [f(x + h) − f(x)]/h"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p1-q3#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Find f(x + h)",
+      "lines": [
+       {
+        "text": "First principles: $f'(x) = \\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}$. Replace $x$ with $x+h$ in $f$."
+       },
+       {
+        "tex": "f(x+h) &= \\frac{1}{3}(x+h)^2 - (x+h) + 3"
+       },
+       {
+        "tex": "&= \\frac{1}{3}\\left(x^2 + 2xh + h^2\\right) - x - h + 3"
+       },
+       {
+        "tex": "&= \\frac{x^2}{3} + \\frac{2xh}{3} + \\frac{h^2}{3} - x - h + 3"
+       }
+      ]
+     },
+     {
+      "title": "Find f(x + h) - f(x)",
+      "lines": [
+       {
+        "tex": "f(x+h) - f(x) &= \\left(\\frac{x^2}{3} + \\frac{2xh}{3} + \\frac{h^2}{3} - x - h + 3\\right) - \\left(\\frac{x^2}{3} - x + 3\\right)"
+       },
+       {
+        "tex": "&= \\frac{2xh}{3} + \\frac{h^2}{3} - h"
+       }
+      ]
+     },
+     {
+      "title": "Divide by h",
+      "lines": [
+       {
+        "tex": "\\frac{f(x+h) - f(x)}{h} &= \\frac{\\frac{2xh}{3} + \\frac{h^2}{3} - h}{h}"
+       },
+       {
+        "tex": "&= \\frac{2x}{3} + \\frac{h}{3} - 1"
+       }
+      ]
+     },
+     {
+      "title": "Let h tend to 0",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\lim_{h\\to 0}\\left(\\frac{2x}{3} + \\frac{h}{3} - 1\\right)"
+       },
+       {
+        "tex": "&= \\frac{2x}{3} - 1"
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = \\frac{2x}{3} - 1"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q4#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find f(x + h)",
+      "lines": [
+       {
+        "text": "First principles uses $f'(x)=\\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}$."
+       },
+       {
+        "tex": "f(x+h) &= (x+h)^2 - 7(x+h) - 10"
+       },
+       {
+        "tex": "&= x^2 + 2hx + h^2 - 7x - 7h - 10"
+       }
+      ]
+     },
+     {
+      "title": "Find f(x + h) − f(x)",
+      "lines": [
+       {
+        "tex": "f(x+h) - f(x) &= x^2 + 2hx + h^2 - 7x - 7h - 10 - (x^2 - 7x - 10)"
+       },
+       {
+        "tex": "&= x^2 + 2hx + h^2 - 7x - 7h - 10 - x^2 + 7x + 10"
+       },
+       {
+        "tex": "&= 2hx + h^2 - 7h"
+       }
+      ]
+     },
+     {
+      "title": "Divide by h",
+      "lines": [
+       {
+        "tex": "\\frac{f(x+h) - f(x)}{h} &= \\frac{2hx + h^2 - 7h}{h}"
+       },
+       {
+        "tex": "&= \\frac{2hx}{h} + \\frac{h^2}{h} - \\frac{7h}{h}"
+       },
+       {
+        "tex": "&= 2x + h - 7"
+       }
+      ]
+     },
+     {
+      "title": "Let h tend to 0",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\lim_{h \\to 0} (2x + h - 7)"
+       },
+       {
+        "tex": "&= 2x + 0 - 7"
+       },
+       {
+        "tex": "&= 2x - 7"
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = 2x - 7"
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q6#(a)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Expand f(x)",
+      "lines": [
+       {
+        "tex": "f(x) &= (2x+4)^2"
+       },
+       {
+        "tex": "&= 4x^2 + 16x + 16"
+       }
+      ]
+     },
+     {
+      "title": "Find f(x + h)",
+      "lines": [
+       {
+        "tex": "f(x+h) &= 4(x+h)^2 + 16(x+h) + 16"
+       },
+       {
+        "tex": "&= 4x^2 + 8hx + 4h^2 + 16x + 16h + 16"
+       }
+      ]
+     },
+     {
+      "title": "Subtract f(x)",
+      "lines": [
+       {
+        "tex": "f(x+h) - f(x) &= (4x^2 + 8hx + 4h^2 + 16x + 16h + 16) - (4x^2 + 16x + 16)"
+       },
+       {
+        "tex": "&= 8hx + 4h^2 + 16h"
+       }
+      ]
+     },
+     {
+      "title": "Divide by h",
+      "lines": [
+       {
+        "tex": "\\frac{f(x+h) - f(x)}{h} &= \\frac{8hx + 4h^2 + 16h}{h}"
+       },
+       {
+        "tex": "&= \\frac{h(8x + 4h + 16)}{h}"
+       },
+       {
+        "tex": "&= 8x + 4h + 16"
+       }
+      ]
+     },
+     {
+      "title": "Let h tend to 0",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\lim_{h \\to 0} (8x + 4h + 16)"
+       },
+       {
+        "tex": "&= 8x + 16"
+       }
+      ]
+     }
+    ],
+    "final": "8x + 16"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q6#(a)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Multiply out f(x)",
+      "lines": [
+       {
+        "tex": "f(x) &= (3x-5)(2x+4)"
+       },
+       {
+        "tex": "&= 6x^2 + 12x - 10x - 20"
+       },
+       {
+        "tex": "&= 6x^2 + 2x - 20"
+       }
+      ]
+     },
+     {
+      "title": "Find f(x + h)",
+      "lines": [
+       {
+        "tex": "f(x+h) &= 6(x+h)^2 + 2(x+h) - 20"
+       },
+       {
+        "tex": "&= 6(x^2 + 2hx + h^2) + 2x + 2h - 20"
+       },
+       {
+        "tex": "&= 6x^2 + 12hx + 6h^2 + 2x + 2h - 20"
+       }
+      ]
+     },
+     {
+      "title": "Find f(x + h) - f(x)",
+      "lines": [
+       {
+        "tex": "f(x+h) - f(x) &= 6x^2 + 12hx + 6h^2 + 2x + 2h - 20 - (6x^2 + 2x - 20)"
+       },
+       {
+        "tex": "&= 12hx + 6h^2 + 2h"
+       }
+      ]
+     },
+     {
+      "title": "Divide by h",
+      "lines": [
+       {
+        "tex": "\\frac{f(x+h) - f(x)}{h} &= \\frac{12hx + 6h^2 + 2h}{h}"
+       },
+       {
+        "tex": "&= 12x + 6h + 2"
+       }
+      ]
+     },
+     {
+      "title": "Let h tend to 0",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\lim_{h \\to 0} \\left(12x + 6h + 2\\right)"
+       },
+       {
+        "tex": "f'(x) &= 12x + 2"
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = 12x + 2"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q6#(a)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the first-principles definition",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}"
+       }
+      ]
+     },
+     {
+      "title": "Find f(x + h)",
+      "lines": [
+       {
+        "text": "Replace every $x$ in $f(x) = 2x^2 + 4x$ with $x + h$."
+       },
+       {
+        "tex": "f(x + h) &= 2(x + h)^2 + 4(x + h)"
+       },
+       {
+        "tex": "&= 2(x^2 + 2xh + h^2) + 4x + 4h"
+       },
+       {
+        "tex": "&= 2x^2 + 4xh + 2h^2 + 4x + 4h"
+       }
+      ]
+     },
+     {
+      "title": "Find f(x + h) − f(x)",
+      "lines": [
+       {
+        "tex": "f(x + h) - f(x) &= 2x^2 + 4xh + 2h^2 + 4x + 4h - 2x^2 - 4x"
+       },
+       {
+        "tex": "&= 4xh + 2h^2 + 4h"
+       }
+      ]
+     },
+     {
+      "title": "Divide by h",
+      "lines": [
+       {
+        "tex": "\\frac{f(x + h) - f(x)}{h} &= \\frac{4xh + 2h^2 + 4h}{h}"
+       },
+       {
+        "text": "Every term has a factor of $h$, so divide each term by $h$."
+       },
+       {
+        "tex": "&= 4x + 2h + 4"
+       }
+      ]
+     },
+     {
+      "title": "Let h tend to 0",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\lim_{h \\to 0} (4x + 2h + 4)"
+       },
+       {
+        "tex": "&= 4x + 4"
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = 4x + 4"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-log",
+   "title": "Differentiate logarithms",
+   "level": "HL",
+   "input": "ln x, ln f(x)",
+   "output": "1/x, f′(x)/f(x)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-higher-p1-q6#(b)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate the logarithm using the chain rule",
+      "lines": [
+       {
+        "text": "$\\dfrac{d}{dx}\\ln u = \\dfrac{1}{u}\\cdot\\dfrac{du}{dx}$ with $u = 2x+3$, so $\\dfrac{du}{dx} = 2$. The constant $C$ differentiates to 0."
+       },
+       {
+        "tex": "h'(x) &= \\frac{1}{2}\\left(\\frac{1}{2x+3}\\right)(2)"
+       },
+       {
+        "tex": "&= \\frac{1}{2x+3}"
+       }
+      ]
+     }
+    ],
+    "final": "h'(x) = \\frac{1}{2x+3}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q9#(a)(iv)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate c using the chain rule",
+      "lines": [
+       {
+        "text": "For $\\ln u$ with $u=t^2$: $\\frac{d}{dt}\\ln u = \\frac{1}{u}\\cdot\\frac{du}{dt}$, and $\\frac{du}{dt}=2t$."
+       },
+       {
+        "tex": "\\frac{dc}{dt} &= 9 \\cdot \\frac{1}{t^2} \\cdot 2t"
+       },
+       {
+        "tex": "&= \\frac{18t}{t^2}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel a factor of t",
+      "lines": [
+       {
+        "tex": "\\frac{dc}{dt} &= \\frac{18t}{t^2}"
+       },
+       {
+        "tex": "&= \\frac{18}{t}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{dc}{dt} = \\frac{18}{t}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q10#(c)(i), (ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate P(t)",
+      "lines": [
+       {
+        "text": "The derivative of $\\ln(t+1)$ is $\\frac{1}{t+1}$, and the constant $0.82$ differentiates to $0$."
+       },
+       {
+        "tex": "P(t) &= 0.82 - 0.12\\ln(t+1)"
+       },
+       {
+        "tex": "P'(t) &= -0.12 \\times \\frac{1}{t+1}"
+       },
+       {
+        "tex": "&= \\frac{-0.12}{t+1}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 1 into P'(t)",
+      "lines": [
+       {
+        "tex": "P'(1) &= \\frac{-0.12}{1+1}"
+       },
+       {
+        "tex": "&= \\frac{-0.12}{2}"
+       },
+       {
+        "tex": "&= -0.06"
+       }
+      ]
+     },
+     {
+      "title": "Interpret the sign of P'(t) in part (ii)",
+      "lines": [
+       {
+        "text": "$P'(t)$ is the rate of change of the proportion recalled. It is negative, so $P$ is decreasing."
+       },
+       {
+        "text": "The proportion of digits recalled correctly decreases as the time $t$ increases."
+       }
+      ]
+     }
+    ],
+    "final": "P'(1) = -0.06;\\ \\text{the proportion recalled decreases over time}"
+   }
+  ]
+ }
+]

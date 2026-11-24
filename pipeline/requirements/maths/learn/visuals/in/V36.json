@@ -1,0 +1,220 @@
+[
+ {
+  "skill": "geo-thm18",
+  "title": "Apply Theorem 18: Area of a parallelogram = base × height",
+  "show": "parallelogram ABCD with base 12 cm and perpendicular height 6 cm marked",
+  "example": {
+   "question": "$ABCD$ is a parallelogram. $|AB| = 12$ cm and the perpendicular distance between $[AB]$ and $[DC]$ is $6$ cm. $|BC| = 8$ cm. Find the area of $ABCD$, and the perpendicular distance between $[BC]$ and $[AD]$.",
+   "final": "72 \\text{ cm}^2, \\ h = 9 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Take $[AB]$ as the base. The height is the perpendicular distance to $[DC]$, which is $6$ cm.",
+     "rows": [
+      {
+       "aside": "Base $= 12$, height $= 6$."
+      }
+     ]
+    },
+    {
+     "say": "Area of a parallelogram is base times perpendicular height.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= 12 \\times 6"
+      },
+      {
+       "l": "",
+       "r": "= 72 \\text{ cm}^2"
+      }
+     ]
+    },
+    {
+     "say": "The area does not change. Now take $[BC]$ as the base, with $|BC| = 8$, and let the new height be $h$.",
+     "rows": [
+      {
+       "l": "72",
+       "r": "= 8h"
+      },
+      {
+       "l": "h",
+       "r": "= 9"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The height marked h is the 6 cm distance between AB and DC, but in the working h = 9 is the distance between BC and AD, so the label contradicts the working.",
+   "The height is drawn about 0.79 of the base length; it should be 6/12 = 0.5, so proportions are wrong.",
+   "The values 12, 6 and 8 are not labelled on the figure."
+  ]
+ },
+ {
+  "skill": "geo-thm20",
+  "title": "Apply Theorem 20: Tangent is perpendicular to the radius at the point of contact (and converse)",
+  "show": "circle centre O radius 5 cm, tangent PT at T perpendicular to radius OT, |OP|=13 cm",
+  "example": {
+   "question": "A circle has centre $O$ and radius $5$ cm. $[PT]$ is a tangent to the circle at $T$, and $|OP| = 13$ cm.\n(i) Find $|PT|$.\n(ii) Find the area of the triangle $OTP$.",
+   "final": "|PT| = 12\\ \\text{cm}, \\ \\text{area} = 30\\ \\text{cm}^2",
+   "steps": [
+    {
+     "say": "$[OT]$ is a radius and $[PT]$ is a tangent at $T$. By Theorem 20 they are perpendicular, so $|\\angle OTP| = 90^\\circ$.",
+     "rows": [
+      {
+       "aside": "Triangle $OTP$ is right-angled at $T$. $[OP]$ is the hypotenuse."
+      }
+     ]
+    },
+    {
+     "say": "Write Pythagoras with the numbers in, then solve for $|PT|$.",
+     "rows": [
+      {
+       "l": "|PT|^2",
+       "r": "= 13^2 - 5^2"
+      },
+      {
+       "l": "",
+       "r": "= 144"
+      },
+      {
+       "l": "|PT|",
+       "r": "= 12\\ \\text{cm}"
+      }
+     ]
+    },
+    {
+     "say": "The two shorter sides are perpendicular, so use them as base and height.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= \\tfrac{1}{2} \\times 5 \\times 12"
+      },
+      {
+       "l": "",
+       "r": "= 30\\ \\text{cm}^2"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Proportions are off: OT is about 70 px and OP about 133 px (ratio about 1.9), but 13/5 = 2.6; PT is drawn about 1.6 times OT, it should be 2.4.",
+   "The lengths 5, 13 and 12 are not labelled, so the figure does not show the numbers the working uses."
+  ]
+ },
+ {
+  "skill": "geo-thm11",
+  "title": "Apply Theorem 11: Three parallel lines cutting equal segments on one transversal cut equal segments on any",
+  "show": "three parallel lines AD, BE, CF cutting two transversals with AB=BC and corresponding segments marked equal",
+  "example": {
+   "question": "The parallel lines $AD$, $BE$ and $CF$ cut the transversal $[AC]$ with $|AB| = |BC|$. They cut the second transversal $[DF]$ at $D$, $E$ and $F$. $|DE| = (2x + 1)$ cm and $|EF| = (4x - 9)$ cm. Find $x$ and $|DF|$.",
+   "final": "x = 5, \\ |DF| = 22\\ \\text{cm}",
+   "steps": [
+    {
+     "say": "Three parallel lines cut equal pieces $|AB| = |BC|$ on one transversal. By Theorem 11 they cut equal pieces on every transversal.",
+     "rows": [
+      {
+       "aside": "So $|DE| = |EF|$."
+      }
+     ]
+    },
+    {
+     "say": "Put the two lengths equal to each other.",
+     "rows": [
+      {
+       "l": "2x + 1",
+       "r": "= 4x - 9"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "10",
+       "r": "= 2x"
+      },
+      {
+       "l": "x",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "Find $|DE|$, then double it, since $|EF|$ is the same.",
+     "rows": [
+      {
+       "l": "|DE|",
+       "r": "= 2(5) + 1"
+      },
+      {
+       "l": "",
+       "r": "= 11"
+      },
+      {
+       "l": "|DF|",
+       "r": "= 2 \\times 11 = 22\\ \\text{cm}"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Labels A, B, C (and F) sit on the parallel lines and are struck through by them, so they are hard to read.",
+   "No marks showing |AB| = |BC| or |DE| = |EF|, so the figure does not show what the theorem is about."
+  ]
+ },
+ {
+  "skill": "geo-thm13",
+  "title": "Apply Theorem 13: Similar triangles have proportional sides",
+  "show": "two equiangular triangles ABC and DEF with sides 6, 9 and 8 cm matching",
+  "example": {
+   "question": "In the diagram, triangles $ABC$ and $DEF$ are equiangular. $|AB| = 6$ cm, $|BC| = 9$ cm and $|DE| = 8$ cm. $AB$ and $DE$ are opposite equal angles, and so are $BC$ and $EF$. Find $|EF|$.",
+   "final": "|EF| = 12 \\text{ cm}",
+   "steps": [
+    {
+     "say": "The triangles have equal angles, so they are similar (Theorem 13). $AB$ matches $DE$, and $BC$ matches $\\hl{1}{EF}$.",
+     "rows": [
+      {
+       "l": "\\frac{|AB|}{|DE|}",
+       "r": "= \\frac{|BC|}{\\hl{1}{|EF|}}"
+      },
+      {
+       "aside": "Write the known pair first, then the pair with the unknown."
+      }
+     ]
+    },
+    {
+     "say": "Replace each length with its value. The unknown stays as $\\hl{1}{|EF|}$.",
+     "rows": [
+      {
+       "l": "\\frac{6}{8}",
+       "r": "= \\frac{9}{\\hl{1}{|EF|}}"
+      }
+     ]
+    },
+    {
+     "say": "Cross-multiply, then divide to leave $\\hl{1}{|EF|}$ on its own.",
+     "rows": [
+      {
+       "l": "6 \\times \\hl{1}{|EF|}",
+       "r": "= 9 \\times 8"
+      },
+      {
+       "l": "\\hl{1}{|EF|}",
+       "r": "= \\frac{72}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{12} \\text{ cm}"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Sides are not in proportion with the question: |BC| should be 1.5 times |AB| but is drawn about 1.24 times; |EF| should be 1.5 times |DE| but is drawn about 1.12 times, so the triangles do not look equiangular/similar.",
+   "None of the given lengths (6, 9, 8 cm) are marked on the figure."
+  ]
+ }
+]

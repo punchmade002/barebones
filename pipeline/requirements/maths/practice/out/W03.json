@@ -1,0 +1,294 @@
+[
+ {
+  "skill": "alg-expand-binomials",
+  "problems": [
+   {
+    "question": "Multiply out $(4x - 3)(x + 5)$ and simplify.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Multiply each term in the first bracket by the second",
+       "lines": [
+        {
+         "tex": "(4x-3)(x+5) &= 4x(x+5) - 3(x+5)",
+         "sym": "(4*x-3)*(x+5)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Expand each part",
+       "lines": [
+        {
+         "tex": "&= 4x^2 + 20x - 3x - 15",
+         "sym": "4*x**2+20*x-3*x-15"
+        }
+       ]
+      },
+      {
+       "title": "Collect like terms",
+       "lines": [
+        {
+         "tex": "&= 4x^2 + 17x - 15",
+         "sym": "4*x**2+17*x-15"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "4x^2 + 17x - 15"
+    },
+    "finalSym": "4*x**2+17*x-15",
+    "answerSym": "expand((4*x-3)*(x+5))"
+   }
+  ]
+ },
+ {
+  "skill": "alg-add-subtract",
+  "problems": [
+   {
+    "question": "Simplify $(3x^2 + 2x - 5) - (x^2 - 4x + 3)$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Remove the brackets, changing every sign in the second",
+       "lines": [
+        {
+         "tex": "(3x^2+2x-5)-(x^2-4x+3) &= 3x^2 + 2x - 5 - x^2 + 4x - 3",
+         "sym": "3*x**2+2*x-5-x**2+4*x-3",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Collect like terms",
+       "lines": [
+        {
+         "tex": "&= 2x^2 + 6x - 8",
+         "sym": "2*x**2+6*x-8"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2x^2 + 6x - 8"
+    },
+    "finalSym": "2*x**2+6*x-8",
+    "answerSym": "expand((3*x**2+2*x-5)-(x**2-4*x+3))"
+   },
+   {
+    "question": "Simplify $(2x^2 - x + 4) + (x^2 + 5x - 9) - (3x^2 - 2x + 1)$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Remove the brackets, changing signs in the last one",
+       "lines": [
+        {
+         "tex": "&2x^2 - x + 4 + x^2 + 5x - 9 - 3x^2 + 2x - 1",
+         "sym": "2*x**2-x+4+x**2+5*x-9-3*x**2+2*x-1",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Collect the $x^2$ terms",
+       "lines": [
+        {
+         "tex": "2x^2 + x^2 - 3x^2 &= 0",
+         "sym": "2*x**2+x**2-3*x**2",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Collect the $x$ terms and the numbers",
+       "lines": [
+        {
+         "tex": "-x + 5x + 2x &= 6x",
+         "sym": "-x+5*x+2*x",
+         "new": true
+        },
+        {
+         "tex": "4 - 9 - 1 &= -6",
+         "sym": "4-9-1",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Write the result",
+       "lines": [
+        {
+         "tex": "&= 6x - 6",
+         "sym": "6*x-6",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "6x - 6"
+    },
+    "finalSym": "6*x-6",
+    "answerSym": "expand((2*x**2-x+4)+(x**2+5*x-9)-(3*x**2-2*x+1))"
+   }
+  ]
+ },
+ {
+  "skill": "alg-factor-grouping",
+  "problems": [
+   {
+    "question": "Factorise $3ax + 6a + bx + 2b$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Factorise the first pair and the second pair",
+       "lines": [
+        {
+         "tex": "3ax + 6a + bx + 2b &= 3a(x + 2) + b(x + 2)",
+         "sym": "3*a*x+6*a+b*x+2*b"
+        }
+       ]
+      },
+      {
+       "title": "Take out the common bracket",
+       "lines": [
+        {
+         "tex": "&= (3a + b)(x + 2)",
+         "sym": "(3*a+b)*(x+2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(3a + b)(x + 2)"
+    },
+    "finalSym": "(3*a+b)*(x+2)",
+    "answerSym": "factor(3*a*x+6*a+b*x+2*b)"
+   },
+   {
+    "question": "Factorise $2xy - 6x - y + 3$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Take $2x$ out of the first pair and $-1$ out of the second",
+       "lines": [
+        {
+         "tex": "2xy - 6x - y + 3 &= 2x(y - 3) - 1(y - 3)",
+         "sym": "2*x*y-6*x-y+3"
+        }
+       ]
+      },
+      {
+       "title": "Take out the common bracket",
+       "lines": [
+        {
+         "tex": "&= (2x - 1)(y - 3)",
+         "sym": "(2*x-1)*(y-3)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(2x - 1)(y - 3)"
+    },
+    "finalSym": "(2*x-1)*(y-3)",
+    "answerSym": "factor(2*x*y-6*x-y+3)"
+   }
+  ]
+ },
+ {
+  "skill": "alg-factor-quadratic",
+  "problems": [
+   {
+    "question": "Factorise $3x^2 - 10x + 8$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find two numbers with product $3 \\times 8 = 24$ and sum $-10$",
+       "lines": [
+        {
+         "text": "The numbers are $-4$ and $-6$."
+        }
+       ]
+      },
+      {
+       "title": "Split the middle term",
+       "lines": [
+        {
+         "tex": "3x^2 - 10x + 8 &= 3x^2 - 6x - 4x + 8",
+         "sym": "3*x**2-6*x-4*x+8"
+        }
+       ]
+      },
+      {
+       "title": "Factorise by grouping",
+       "lines": [
+        {
+         "tex": "&= 3x(x - 2) - 4(x - 2)",
+         "sym": "3*x*(x-2)-4*(x-2)"
+        },
+        {
+         "tex": "&= (3x - 4)(x - 2)",
+         "sym": "(3*x-4)*(x-2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(3x - 4)(x - 2)"
+    },
+    "finalSym": "(3*x-4)*(x-2)",
+    "answerSym": "factor(3*x**2-10*x+8)"
+   },
+   {
+    "question": "The area of a rectangle is $2x^2 + x - 15$.\nIts sides are two linear expressions in $x$.\nFactorise $2x^2 + x - 15$ to find them.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find two numbers with product $2 \\times (-15) = -30$ and sum $1$",
+       "lines": [
+        {
+         "text": "The numbers are $6$ and $-5$."
+        }
+       ]
+      },
+      {
+       "title": "Split the middle term",
+       "lines": [
+        {
+         "tex": "2x^2 + x - 15 &= 2x^2 + 6x - 5x - 15",
+         "sym": "2*x**2+6*x-5*x-15"
+        }
+       ]
+      },
+      {
+       "title": "Factorise by grouping",
+       "lines": [
+        {
+         "tex": "&= 2x(x + 3) - 5(x + 3)",
+         "sym": "2*x*(x+3)-5*(x+3)"
+        },
+        {
+         "tex": "&= (2x - 5)(x + 3)",
+         "sym": "(2*x-5)*(x+3)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(2x - 5)(x + 3)"
+    },
+    "finalSym": "(2*x-5)*(x+3)",
+    "answerSym": "factor(2*x**2+x-15)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,549 @@
+[
+ {
+  "skill": "inf-histogram",
+  "what": {
+   "say": [
+    "You give it a **histogram**. It tells you the shape, the centre and the spread, in words about the real situation.",
+    "The key idea: the height of each bar is how many values fall in that class, so look at where the bars pile up. Two separate peaks mean two groups."
+   ],
+   "in": "histogram",
+   "out": "shape, centre, spread in context"
+  },
+  "how": {},
+  "example": {
+   "question": "The histogram shows the time, in minutes, that 60 students spent on homework one night. The classes and the number of students in each are: 0–20: 5; 20–40: 22; 40–60: 8; 60–80: 4; 80–100: 21.\n(i) Describe the shape of the histogram.\n(ii) Estimate the mean.\n(iii) What does the histogram tell you about the students?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Read the shape",
+      "say": "Look for where the bars are tallest. Name each peak and say how many students it holds.",
+      "lines": [
+       {
+        "text": "Peak 1: 20–40 minutes, 22 students."
+       },
+       {
+        "text": "Peak 2: 80–100 minutes, 21 students."
+       },
+       {
+        "text": "The bars between the peaks are short. The shape is **bimodal**: it has two peaks."
+       }
+      ]
+     },
+     {
+      "title": "Find the mean",
+      "say": "Use the middle of each class as its value. Multiply by the number of students, add, and divide by the total.",
+      "lines": [
+       {
+        "tex": "n &= 5+22+8+4+21",
+        "sym": "5+22+8+4+21",
+        "new": true
+       },
+       {
+        "tex": "&= 60",
+        "sym": "60"
+       },
+       {
+        "tex": "\\hl{1}{\\bar{x}} &= \\frac{10(5)+30(22)+50(8)+70(4)+90(21)}{60}",
+        "sym": "(10*5+30*22+50*8+70*4+90*21)/60",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{3280}{60}",
+        "sym": "3280/60"
+       },
+       {
+        "tex": "&\\approx 54.7",
+        "sym": "54.7",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Check the mean against the bars",
+      "say": "A mean is only an average. Check how many students are really near it.",
+      "lines": [
+       {
+        "text": "The mean $\\hl{1}{54.7}$ minutes is in the class 40–60."
+       },
+       {
+        "text": "Only 8 of the 60 students are in that class."
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "say": "Say what the shape means for the students, in the words of the question.",
+      "lines": [
+       {
+        "text": "There are two groups: students who worked for about half an hour and students who worked for about an hour and a half. Hardly any student worked for the mean time of $\\hl{1}{54.7}$ minutes, so the mean hides the two groups."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{bimodal: two groups; mean} \\approx 54.7 \\text{ minutes}"
+   },
+   "finalSym": "164/3",
+   "answerSym": "(10*5+30*22+50*8+70*4+90*21)/(5+22+8+4+21)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "inf-interpret",
+  "what": {
+   "say": [
+    "You give it the results of an analysis, such as a sample percentage and its margin of error. It writes a **conclusion** that answers the question that was asked.",
+    "The key idea: a sample only estimates the whole group, so the answer must allow for the margin of error and be written in the words of the question."
+   ],
+   "in": "results of analysis",
+   "out": "conclusion in context"
+  },
+  "how": {
+   "ordinary": "Ordinary level only. It came up once, in 2021 Paper 2 Q7(b)(iii) (5 marks): after the interval is found, you state the conclusion in the words of the question."
+  },
+  "example": {
+   "question": "A survey of 400 adults found that 54% support a new bike lane. A councillor says: \"The survey proves that more than half of all adults support the bike lane.\"\nFind the margin of error and a 95% confidence interval for the percentage of all adults who support the bike lane. Is the councillor right?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the margin of error",
+      "say": "The sample is only 400 adults, so the result is not exact. Find the margin of error, $\\frac{1}{\\sqrt{n}}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{MOE}} &= \\frac{1}{\\sqrt{400}}",
+        "sym": "1/sqrt(400)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.05",
+        "sym": "1/20"
+       },
+       {
+        "tex": "&= 5\\%",
+        "sym": "5/100"
+       }
+      ]
+     },
+     {
+      "title": "Build the interval",
+      "say": "The true percentage lies within the margin of error of the sample percentage. Subtract it, then add it.",
+      "lines": [
+       {
+        "tex": "\\text{lower} &= 54 - \\hl{1}{5}",
+        "sym": "54-5",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{49}",
+        "sym": "49"
+       },
+       {
+        "tex": "\\text{upper} &= 54 + \\hl{1}{5}",
+        "sym": "54+5",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{59}",
+        "sym": "59"
+       },
+       {
+        "tex": "\\hl{2}{49} \\le p \\le \\hl{2}{59}"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the claim",
+      "say": "The councillor says $p$ is more than $50\\%$. Ask: is $50\\%$ inside the interval?",
+      "lines": [
+       {
+        "text": "$50$ lies between $\\hl{2}{49}$ and $\\hl{2}{59}$, so it is **inside** the interval."
+       },
+       {
+        "text": "So the true percentage could be $50\\%$ or less."
+       }
+      ]
+     },
+     {
+      "title": "Answer in context",
+      "say": "Write the conclusion in the words of the question, not just \"yes\" or \"no\".",
+      "lines": [
+       {
+        "text": "No. The survey does not prove that more than half of all adults support the bike lane. The true percentage could be anywhere from 49% to 59%, and that includes 50% or less."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{2}{49}\\% \\le p \\le \\hl{2}{59}\\%, \\text{ so the claim is not proved}"
+   },
+   "finalSym": "(49, 59)",
+   "answerSym": "(54-100/sqrt(400), 54+100/sqrt(400))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Give the conclusion in the words of the question. A correct conclusion that is not in context loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q7#(b)(iii)",
+       "quote": "Conclusion (from correct work) not in context"
+      }
+     ]
+    },
+    {
+     "tip": "Write down $H_0$, $H_1$ and the interval, even if you are unsure of the rest. Any one of them earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q7#(b)(iii)",
+       "quote": "Any one of H0 , H1, or Confidence"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "inf-hypothesis-concept",
+  "what": {
+   "say": [
+    "You give it a **claim**, such as \"$45\\%$ of customers buy popcorn\". It writes two hypotheses: $H_0$ says the claim is still true and $H_1$ says it has changed.",
+    "The key idea: you test $H_0$. The data give enough evidence to **reject** it, or they do not. Either way you say what it means for the claim."
+   ],
+   "in": "claim",
+   "out": "$H_0$, $H_1$, possible conclusions"
+  },
+  "how": {
+   "higher": "Higher level, Paper 2: a step inside a longer hypothesis-test part in most years from 2015 to 2024. The hypotheses are the first of four steps marked (2022 Q5(b), 15 marks).",
+   "ordinary": "Ordinary level, Paper 2, 2017 to 2022: a step inside the confidence-interval question. You write $H_0$ and $H_1$, then the conclusion and reason (2022 Q10(b)(iv), 10 marks)."
+  },
+  "example": {
+   "question": "A cinema says that 45% of its customers buy popcorn. In a random sample of 625 customers, 250 bought popcorn.\nWrite down $H_0$ and $H_1$. Use the margin of error to test the cinema's claim and state your conclusion.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the hypotheses",
+      "say": "$H_0$ is the claim as it stands. $H_1$ says the claim is wrong.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{H_0}: \\; p = 45\\%"
+       },
+       {
+        "tex": "\\hl{2}{H_1}: \\; p \\ne 45\\%"
+       }
+      ]
+     },
+     {
+      "title": "Find the interval",
+      "say": "To test the claim, build the interval $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$ from the sample.",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{250}{625}",
+        "sym": "250/625",
+        "new": true
+       },
+       {
+        "tex": "&= 0.4 = 40\\%",
+        "sym": "2/5"
+       },
+       {
+        "tex": "\\text{MOE} &= \\frac{100}{\\sqrt{625}}",
+        "sym": "100/sqrt(625)",
+        "new": true
+       },
+       {
+        "tex": "&= 4",
+        "sym": "4"
+       },
+       {
+        "tex": "40 - 4 \\le p \\le 40 + 4"
+       },
+       {
+        "tex": "\\hl{3}{36} \\le p \\le \\hl{3}{44}"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the claim",
+      "say": "Is the claimed $45\\%$ inside the interval?",
+      "lines": [
+       {
+        "text": "$45$ is bigger than $\\hl{3}{44}$, so it is **outside** the interval."
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "say": "Outside the interval, so reject $H_0$. Say what that means for the claim.",
+      "lines": [
+       {
+        "text": "Reject $\\hl{1}{H_0}$. There is evidence that the percentage of customers who buy popcorn is not $45\\%$."
+       },
+       {
+        "text": "If $45\\%$ had been inside the interval, you would not reject $\\hl{1}{H_0}$. There would be no evidence against the claim."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{3}{36}\\% \\le p \\le \\hl{3}{44}\\%, \\text{ so reject } H_0"
+   },
+   "finalSym": "(36, 44)",
+   "answerSym": "(250/625*100-100/sqrt(625), 250/625*100+100/sqrt(625))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Four steps are marked: hypotheses, calculations, conclusion, reason. Write all four.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(d)",
+       "quote": "4 steps to check"
+      }
+     ]
+    },
+    {
+     "tip": "Without a confidence interval or a test statistic you cannot earn the conclusion. Always show the calculation first.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(d)",
+       "quote": "a conclusion cannot be drawn"
+      }
+     ]
+    },
+    {
+     "tip": "Your reason must match your calculations. Say where the claimed value sits against the interval or the critical value.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q5#(b)",
+       "quote": "Reason (must match calculations)"
+      }
+     ]
+    },
+    {
+     "tip": "Stating only the null and alternative hypotheses earns partial credit, so write them even if the calculation goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q8#(a)(iii)",
+       "quote": "states null/alternative hypothesis only"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Back the conclusion with the interval: say the claimed figure is outside it (or inside it).",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q10#(b)(iii), (iv)",
+       "quote": "The figure 65% is outside the 95% C.I."
+      }
+     ]
+    },
+    {
+     "tip": "Reject $H_0$ and say what has changed, in the words of the question.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q10#(b)(iii), (iv)",
+       "quote": "Reject the Null hypothesis and conclude"
+      }
+     ]
+    },
+    {
+     "tip": "Write the claimed value against the interval: \"not within\" the interval is the reason for rejecting.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q3#(a)(iii)",
+       "quote": "80% is not within the 95% C.I. above"
+      }
+     ]
+    },
+    {
+     "tip": "Any one of $H_0$, $H_1$ or the interval written correctly earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q7#(b)(iii)",
+       "quote": "Any one of H0 , H1, or Confidence"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "inf-hypothesis-moe",
+  "what": {
+   "say": [
+    "You give it a claimed percentage, a sample percentage $\\hat{p}$ and the sample size $n$. It builds the interval $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$ and checks whether the claim is **inside** it.",
+    "The key idea: if the claimed value is inside the interval, the sample gives no evidence against it, so you do not reject $H_0$. If it is outside, you reject $H_0$."
+   ],
+   "in": "claimed $p$, $\\hat{p}$, $n$",
+   "out": "interval; reject or do not reject"
+  },
+  "how": {
+   "higher": "Higher level, Paper 2: the interval step inside a hypothesis-test part, in 2023 and 2024 (2024 Q7(d), 10 marks, used $\\frac{1}{\\sqrt{n}}$ for a proportion).",
+   "ordinary": "Ordinary level, Paper 2, every year 2017 to 2025. It is the last step of a statistics question: margin of error (5 marks), interval (5 marks), then the test of a claim (5 or 10 marks)."
+  },
+  "example": {
+   "question": "A company says that 45% of its customers are under 30. In a random sample of 400 customers, 164 were under 30.\nState $H_0$ and $H_1$. Find the margin of error and a 95% confidence interval. Test the company's claim and state your conclusion.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the hypotheses",
+      "say": "$H_0$ is the company's claim. $H_1$ says the percentage is different.",
+      "lines": [
+       {
+        "tex": "H_0: \\; p = 45\\%"
+       },
+       {
+        "tex": "H_1: \\; p \\ne 45\\%"
+       }
+      ]
+     },
+     {
+      "title": "Find the margin of error",
+      "say": "First the sample percentage, then the margin of error $\\frac{1}{\\sqrt{n}}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\hat{p}} &= \\frac{164}{400}",
+        "sym": "164/400",
+        "new": true
+       },
+       {
+        "tex": "&= 0.41 = 41\\%",
+        "sym": "41/100"
+       },
+       {
+        "tex": "\\hl{2}{\\text{MOE}} &= \\frac{100}{\\sqrt{400}}",
+        "sym": "100/sqrt(400)",
+        "new": true
+       },
+       {
+        "tex": "&= 5\\%",
+        "sym": "5"
+       }
+      ]
+     },
+     {
+      "title": "Build the interval",
+      "say": "Subtract the margin of error from $\\hat{p}$, then add it.",
+      "lines": [
+       {
+        "tex": "\\text{lower} &= \\hl{1}{41} - \\hl{2}{5}",
+        "sym": "41-5",
+        "new": true
+       },
+       {
+        "tex": "&= 36",
+        "sym": "36"
+       },
+       {
+        "tex": "\\text{upper} &= \\hl{1}{41} + \\hl{2}{5}",
+        "sym": "41+5",
+        "new": true
+       },
+       {
+        "tex": "&= 46",
+        "sym": "46"
+       },
+       {
+        "tex": "\\hl{3}{36} \\le p \\le \\hl{3}{46}"
+       }
+      ]
+     },
+     {
+      "title": "Test the claim",
+      "say": "Is $45\\%$ inside the interval? If it is, do not reject $H_0$.",
+      "lines": [
+       {
+        "text": "$45$ lies between $\\hl{3}{36}$ and $\\hl{3}{46}$, so it is **inside** the interval."
+       },
+       {
+        "text": "Do not reject $H_0$. There is not enough evidence to say that the percentage of customers under 30 is different from 45%."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{3}{36}\\% \\le p \\le \\hl{3}{46}\\%, \\text{ so do not reject } H_0"
+   },
+   "finalSym": "(36, 46)",
+   "answerSym": "(164/400*100-100/sqrt(400), 164/400*100+100/sqrt(400))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the interval or test statistic before you conclude. Without one, no conclusion can be drawn.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(d)",
+       "quote": "a conclusion cannot be drawn"
+      }
+     ]
+    },
+    {
+     "tip": "The reason must come from your calculation. The mark is for saying the claimed value is within or outside the interval.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(d)",
+       "quote": "must be based on relevant calculations"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Round the margin of error properly. Giving no rounding, or the wrong rounding, costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q8#(c)(iii)",
+       "quote": "Apply a * for no or incorrect rounding"
+      }
+     ]
+    },
+    {
+     "tip": "Work out both ends of the interval. One end alone is only partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q7#(b)(iii)",
+       "quote": "One boundary formed"
+      }
+     ]
+    },
+    {
+     "tip": "Give the reason as \"inside the range found\" or \"outside\" it, and state the conclusion too.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q7#(b)(iii)",
+       "quote": "24% is inside the range found."
+      }
+     ]
+    },
+    {
+     "tip": "A rejection is backed by the claimed value being outside the interval.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q10#(b)(iii), (iv)",
+       "quote": "The figure 65% is outside the 95% C.I."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

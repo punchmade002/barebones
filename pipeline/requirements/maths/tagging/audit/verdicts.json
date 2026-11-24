@@ -1,0 +1,477 @@
+[
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(b)(ii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q9#(c)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q6#(b)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(c)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q6#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": [
+   "ind-express-as-power",
+   "eq-linear"
+  ]
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q10#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(b)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q6#(a)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(b)(i)",
+  "primaryOk": false,
+  "primaryShould": "fn-evaluate",
+  "wrong": [],
+  "missing": [
+   "fn-evaluate"
+  ],
+  "note": "evaluating a given function h(x)"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q5#(b)",
+  "primaryOk": false,
+  "primaryShould": "trig-pythagoras",
+  "wrong": [],
+  "missing": [
+   "trig-pythagoras"
+  ],
+  "note": "2D right-triangle Pythagoras"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q8#(d)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(f)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q7#(a)(v)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q7#(c)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q3#(a)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q8#(d)(ii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q10#(b)(ii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q8#(b)(iv)",
+  "primaryOk": false,
+  "primaryShould": "eq-linear",
+  "wrong": [
+   "seq-arith-nth"
+  ],
+  "missing": [],
+  "note": "only solves 250n-4250=0"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(f)(ii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q8#(b)(iv)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q7#(f)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q4#(b)(i), (ii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q4#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q8#(a)(iii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q2#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q8#(b)(i), (ii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q9#(b)(iii)",
+  "primaryOk": false,
+  "primaryShould": "inf-interpret",
+  "wrong": [
+   "stat-choose-display"
+  ],
+  "missing": [
+   "inf-interpret"
+  ],
+  "note": "critiques averaging percentages"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q9#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q9#(d)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": [
+   "geo-thm21"
+  ]
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q7#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q8#(c)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q5#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": [
+   "line-slope"
+  ]
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q7#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q4#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q10#(a)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": [
+   "alg-fractions-add"
+  ]
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q6#(b)(ii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q10#(b)(iii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q1#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q1#(c)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q1#(b)",
+  "primaryOk": false,
+  "primaryShould": "quad-complete-square-use",
+  "wrong": [
+   "quad-discriminant"
+  ],
+  "missing": [
+   "quad-complete-square-use"
+  ],
+  "note": "uses (2x+3)^2+7>0, no discriminant"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q3#(a)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q1#(c)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": [
+   "alg-factor-quadratic",
+   "alg-poly-multiply"
+  ]
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q6#(a)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q9#(b)(i), (ii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q9#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q7#(d)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": [
+   "diff-poly"
+  ]
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q4#(a)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": [
+   "num-surds"
+  ]
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q8#(a)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": [
+   "num-surds"
+  ]
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q8#(b)(ii), (iii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": [
+   "diff-poly",
+   "diff-second"
+  ]
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q1#(c)(i)",
+  "primaryOk": false,
+  "primaryShould": "quad-complete-square-use",
+  "wrong": [
+   "quad-discriminant"
+  ],
+  "missing": [
+   "quad-complete-square-use"
+  ],
+  "note": "uses min point below axis, no discriminant"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q8#(b)(i)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q4#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [
+   "circ-chord-length"
+  ],
+  "missing": [
+   "line-midpoint"
+  ],
+  "note": "midpoint of chord, no length"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q10#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q8#(d)(ii)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q7#(d)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": [
+   "alg-factor-hcf"
+  ]
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q2#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q3#(b)",
+  "primaryOk": false,
+  "primaryShould": "alg-poly-multiply",
+  "wrong": [],
+  "missing": [
+   "alg-poly-multiply"
+  ],
+  "note": "mainly expanding after cancelling factorials"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q3#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q2#(b)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q8#(e)",
+  "primaryOk": true,
+  "primaryShould": null,
+  "wrong": [],
+  "missing": []
+ }
+]

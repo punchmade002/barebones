@@ -1,0 +1,77 @@
+[
+{"skill": "log-change-base", "problems": [
+{"question": "Solve for $x$:\n$\\log_2 x + \\log_4 x + \\log_{16} x = 7$", "level": "higher", "marks": 10,
+ "workedSolution": {"steps": [
+  {"title": "Change every log to base 2", "lines": [{"text": "Use $\\log_a b = \\frac{\\log_2 b}{\\log_2 a}$."}, {"tex": "\\log_2 x + \\log_4 x + \\log_{16} x &= 7", "sym": "Eq(log(x,2) + log(x,4) + log(x,16), 7)", "new": true}, {"tex": "\\log_2 x + \\frac{\\log_2 x}{\\log_2 4} + \\frac{\\log_2 x}{\\log_2 16} &= 7", "sym": "Eq(log(x,2) + log(x,2)/log(4,2) + log(x,2)/log(16,2), 7)"}]},
+  {"title": "Evaluate the base-2 logs in the denominators", "lines": [{"text": "$4 = 2^2$ and $16 = 2^4$."}, {"tex": "\\log_2 x + \\frac{\\log_2 x}{2} + \\frac{\\log_2 x}{4} &= 7", "sym": "Eq(log(x,2) + log(x,2)/2 + log(x,2)/4, 7)"}]},
+  {"title": "Multiply both sides by 4", "lines": [{"tex": "4\\log_2 x + 2\\log_2 x + \\log_2 x &= 28", "sym": "Eq(4*log(x,2) + 2*log(x,2) + log(x,2), 28)"}]},
+  {"title": "Collect like terms and divide by 7", "lines": [{"tex": "7\\log_2 x &= 28", "sym": "Eq(7*log(x,2), 28)"}, {"tex": "\\log_2 x &= 4", "sym": "Eq(log(x,2), 4)"}]},
+  {"title": "Convert from log form to index form", "lines": [{"tex": "x &= 2^4", "sym": "Eq(x, 2**4)", "new": true}, {"tex": "x &= 16", "sym": "Eq(x, 16)"}]}
+ ], "finalAnswer": "x = 16"},
+ "finalSym": "[16]", "answerSym": "solve(Eq(log(x,2) + log(x,4) + log(x,16), 7), x)"},
+{"question": "Solve for $x$:\n$\\log_5 x + 2\\log_{25} x = 6$", "level": "higher", "marks": 10,
+ "workedSolution": {"steps": [
+  {"title": "Change the base-25 log to base 5", "lines": [{"text": "Use $\\log_{25} x = \\frac{\\log_5 x}{\\log_5 25}$."}, {"tex": "\\log_5 x + 2\\log_{25} x &= 6", "sym": "Eq(log(x,5) + 2*log(x,25), 6)", "new": true}, {"tex": "\\log_5 x + 2\\cdot\\frac{\\log_5 x}{\\log_5 25} &= 6", "sym": "Eq(log(x,5) + 2*log(x,5)/log(25,5), 6)"}]},
+  {"title": "Evaluate the base-5 log in the denominator", "lines": [{"text": "$25 = 5^2$, so $\\log_5 25 = 2$."}, {"tex": "\\log_5 x + 2\\cdot\\frac{\\log_5 x}{2} &= 6", "sym": "Eq(log(x,5) + 2*log(x,5)/2, 6)"}, {"tex": "\\log_5 x + \\log_5 x &= 6", "sym": "Eq(log(x,5) + log(x,5), 6)"}]},
+  {"title": "Collect like terms and divide by 2", "lines": [{"tex": "2\\log_5 x &= 6", "sym": "Eq(2*log(x,5), 6)"}, {"tex": "\\log_5 x &= 3", "sym": "Eq(log(x,5), 3)"}]},
+  {"title": "Convert from log form to index form", "lines": [{"tex": "x &= 5^3", "sym": "Eq(x, 5**3)", "new": true}, {"tex": "x &= 125", "sym": "Eq(x, 125)"}]}
+ ], "finalAnswer": "x = 125"},
+ "finalSym": "[125]", "answerSym": "solve(Eq(log(x,5) + 2*log(x,25), 6), x)"}
+]},
+{"skill": "induction-sum", "problems": [
+{"question": "Prove by induction that\n$1\\cdot 2 + 2\\cdot 3 + 3\\cdot 4 + \\cdots + n(n+1) = \\dfrac{n(n+1)(n+2)}{3}$\nfor all $n \\in \\mathbb{N}$.", "level": "higher", "marks": 15,
+ "workedSolution": {"steps": [
+  {"title": "Step P(1): test n = 1", "lines": [{"tex": "\\text{LHS} &= 1\\cdot 2 = 2", "sym": "1*2", "new": true}, {"tex": "\\text{RHS} &= \\frac{1(2)(3)}{3} = 2", "sym": "1*2*3/3", "new": true}, {"text": "LHS = RHS, so $P(1)$ is true."}]},
+  {"title": "Step P(k): assume true for n = k", "lines": [{"text": "Assume $1\\cdot 2 + 2\\cdot 3 + \\cdots + k(k+1) = \\dfrac{k(k+1)(k+2)}{3}$."}]},
+  {"title": "Step P(k+1): state what must be proved", "lines": [{"text": "Show $1\\cdot 2 + \\cdots + k(k+1) + (k+1)(k+2) = \\dfrac{(k+1)(k+2)(k+3)}{3}$."}]},
+  {"title": "Use P(k) on the left-hand side", "lines": [{"text": "Replace $1\\cdot 2 + \\cdots + k(k+1)$ using the assumption $P(k)$."}, {"tex": "\\text{LHS} &= \\frac{k(k+1)(k+2)}{3} + (k+1)(k+2)", "sym": "k*(k+1)*(k+2)/3 + (k+1)*(k+2)", "new": true}, {"tex": "&= \\frac{k(k+1)(k+2) + 3(k+1)(k+2)}{3}", "sym": "(k*(k+1)*(k+2) + 3*(k+1)*(k+2))/3"}]},
+  {"title": "Factor out (k + 1)(k + 2)", "lines": [{"tex": "&= \\frac{(k+1)(k+2)\\left[k + 3\\right]}{3}", "sym": "(k+1)*(k+2)*(k + 3)/3"}, {"tex": "&= \\frac{(k+1)(k+2)(k+3)}{3}", "sym": "(k+1)*(k+2)*(k+3)/3"}, {"tex": "&= \\text{RHS}"}]},
+  {"title": "Conclude", "lines": [{"text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."}]}
+ ], "finalAnswer": "1\\cdot 2 + 2\\cdot 3 + \\cdots + n(n+1) = \\frac{n(n+1)(n+2)}{3}"},
+ "finalSym": "0", "answerSym": "simplify(summation(r*(r+1), (r, 1, n)) - n*(n+1)*(n+2)/3)"}
+]},
+{"skill": "induction-geo-sum", "problems": [
+{"question": "Prove by induction that, for $r \\neq 1$ and all $n \\in \\mathbb{N}$,\n$a + ar + ar^2 + \\cdots + ar^{n-1} = \\dfrac{a(1 - r^n)}{1 - r}$.", "level": "higher", "marks": 15,
+ "workedSolution": {"steps": [
+  {"title": "Step P(1): test n = 1", "lines": [{"tex": "\\text{LHS} &= a", "sym": "a", "new": true}, {"tex": "\\text{RHS} &= \\frac{a(1 - r)}{1 - r} = a", "sym": "a*(1 - r)/(1 - r)"}, {"text": "LHS = RHS, so $P(1)$ is true."}]},
+  {"title": "Step P(k): assume true for n = k", "lines": [{"text": "Assume $a + ar + \\cdots + ar^{k-1} = \\dfrac{a(1 - r^k)}{1 - r}$."}]},
+  {"title": "Step P(k+1): state what must be proved", "lines": [{"text": "Show $a + ar + \\cdots + ar^{k-1} + ar^k = \\dfrac{a(1 - r^{k+1})}{1 - r}$."}]},
+  {"title": "Use P(k) on the left-hand side", "lines": [{"text": "Replace $a + \\cdots + ar^{k-1}$ using the assumption $P(k)$."}, {"tex": "\\text{LHS} &= \\frac{a(1 - r^k)}{1 - r} + ar^k", "sym": "a*(1 - r**k)/(1 - r) + a*r**k", "new": true}, {"tex": "&= \\frac{a(1 - r^k) + ar^k(1 - r)}{1 - r}", "sym": "(a*(1 - r**k) + a*r**k*(1 - r))/(1 - r)"}]},
+  {"title": "Expand and simplify the numerator", "lines": [{"tex": "&= \\frac{a - ar^k + ar^k - ar^{k+1}}{1 - r}", "sym": "(a - a*r**k + a*r**k - a*r**(k+1))/(1 - r)"}, {"tex": "&= \\frac{a(1 - r^{k+1})}{1 - r}", "sym": "a*(1 - r**(k+1))/(1 - r)"}, {"tex": "&= \\text{RHS}"}]},
+  {"title": "Conclude", "lines": [{"text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."}]}
+ ], "finalAnswer": "a + ar + \\cdots + ar^{n-1} = \\frac{a(1 - r^n)}{1 - r}"},
+ "finalSym": "0", "answerSym": "simplify(summation(a*r**j, (j, 0, 4)) - a*(1 - r**5)/(1 - r))"},
+{"question": "Prove by induction that\n$3 + 6 + 12 + \\cdots + 3\\cdot 2^{n-1} = 3(2^n - 1)$\nfor all $n \\in \\mathbb{N}$.", "level": "higher", "marks": 15,
+ "workedSolution": {"steps": [
+  {"title": "Step P(1): test n = 1", "lines": [{"tex": "\\text{LHS} &= 3", "sym": "3", "new": true}, {"tex": "\\text{RHS} &= 3(2^1 - 1) = 3", "sym": "3*(2**1 - 1)"}, {"text": "LHS = RHS, so $P(1)$ is true."}]},
+  {"title": "Step P(k): assume true for n = k", "lines": [{"text": "Assume $3 + 6 + \\cdots + 3\\cdot 2^{k-1} = 3(2^k - 1)$."}]},
+  {"title": "Step P(k+1): state what must be proved", "lines": [{"text": "Show $3 + 6 + \\cdots + 3\\cdot 2^{k-1} + 3\\cdot 2^k = 3(2^{k+1} - 1)$."}]},
+  {"title": "Use P(k) on the left-hand side", "lines": [{"text": "Replace $3 + \\cdots + 3\\cdot 2^{k-1}$ using the assumption $P(k)$."}, {"tex": "\\text{LHS} &= 3(2^k - 1) + 3\\cdot 2^k", "sym": "3*(2**k - 1) + 3*2**k", "new": true}]},
+  {"title": "Factor out 3", "lines": [{"tex": "&= 3(2^k - 1 + 2^k)", "sym": "3*(2**k - 1 + 2**k)"}, {"tex": "&= 3(2\\cdot 2^k - 1)", "sym": "3*(2*2**k - 1)"}, {"tex": "&= 3(2^{k+1} - 1)", "sym": "3*(2**(k+1) - 1)"}, {"tex": "&= \\text{RHS}"}]},
+  {"title": "Conclude", "lines": [{"text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."}]}
+ ], "finalAnswer": "3 + 6 + 12 + \\cdots + 3\\cdot 2^{n-1} = 3(2^n - 1)"},
+ "finalSym": "0", "answerSym": "simplify(summation(3*2**(j-1), (j, 1, 6)) - 3*(2**6 - 1))"},
+{"question": "Prove by induction that\n$1 + \\dfrac{1}{2} + \\dfrac{1}{4} + \\cdots + \\left(\\dfrac{1}{2}\\right)^{n-1} = 2 - \\left(\\dfrac{1}{2}\\right)^{n-1}$\nfor all $n \\in \\mathbb{N}$.", "level": "higher", "marks": 15,
+ "workedSolution": {"steps": [
+  {"title": "Step P(1): test n = 1", "lines": [{"tex": "\\text{LHS} &= 1", "sym": "1", "new": true}, {"tex": "\\text{RHS} &= 2 - \\left(\\tfrac{1}{2}\\right)^0 = 2 - 1 = 1", "sym": "2 - (Rational(1,2))**0"}, {"text": "LHS = RHS, so $P(1)$ is true."}]},
+  {"title": "Step P(k): assume true for n = k", "lines": [{"text": "Assume $1 + \\dfrac{1}{2} + \\cdots + \\left(\\dfrac{1}{2}\\right)^{k-1} = 2 - \\left(\\dfrac{1}{2}\\right)^{k-1}$."}]},
+  {"title": "Step P(k+1): state what must be proved", "lines": [{"text": "Show $1 + \\dfrac{1}{2} + \\cdots + \\left(\\dfrac{1}{2}\\right)^{k-1} + \\left(\\dfrac{1}{2}\\right)^k = 2 - \\left(\\dfrac{1}{2}\\right)^k$."}]},
+  {"title": "Use P(k) on the left-hand side", "lines": [{"text": "Replace $1 + \\cdots + \\left(\\frac{1}{2}\\right)^{k-1}$ using the assumption $P(k)$."}, {"tex": "\\text{LHS} &= 2 - \\left(\\tfrac{1}{2}\\right)^{k-1} + \\left(\\tfrac{1}{2}\\right)^k", "sym": "2 - Rational(1,2)**(k-1) + Rational(1,2)**k", "new": true}]},
+  {"title": "Write $\\left(\\frac{1}{2}\\right)^{k-1}$ as $2\\left(\\frac{1}{2}\\right)^k$ and simplify", "lines": [{"tex": "&= 2 - 2\\left(\\tfrac{1}{2}\\right)^k + \\left(\\tfrac{1}{2}\\right)^k", "sym": "2 - 2*Rational(1,2)**k + Rational(1,2)**k"}, {"tex": "&= 2 - \\left(\\tfrac{1}{2}\\right)^k", "sym": "2 - Rational(1,2)**k"}, {"tex": "&= \\text{RHS}"}]},
+  {"title": "Conclude", "lines": [{"text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."}]}
+ ], "finalAnswer": "1 + \\frac{1}{2} + \\cdots + \\left(\\frac{1}{2}\\right)^{n-1} = 2 - \\left(\\frac{1}{2}\\right)^{n-1}"},
+ "finalSym": "0", "answerSym": "simplify(summation(Rational(1,2)**j, (j, 0, 5)) - (2 - Rational(1,2)**5))"}
+]},
+{"skill": "induction-divisibility", "problems": [
+{"question": "Prove by induction that $7^n - 4^n$ is divisible by 3 for all $n \\in \\mathbb{N}$.", "level": "higher", "marks": 15,
+ "workedSolution": {"steps": [
+  {"title": "Check the statement is true for n = 1", "lines": [{"tex": "7^1 - 4^1 &= 3", "sym": "7**1 - 4**1", "new": true}, {"text": "3 is divisible by 3, so $P(1)$ is true."}]},
+  {"title": "Assume the statement is true for n = k", "lines": [{"text": "Assume $7^k - 4^k$ is divisible by 3, so $7^k - 4^k = 3M$ for some whole number $M$."}, {"tex": "7^k - 4^k &= 3M", "sym": "Eq(7**k - 4**k, 3*M)", "new": true}, {"tex": "7^k &= 3M + 4^k", "sym": "Eq(7**k, 3*M + 4**k)"}]},
+  {"title": "Write 7^(k+1) - 4^(k+1) using 7^k and 4^k", "lines": [{"tex": "7^{k+1} - 4^{k+1} &= 7(7^k) - 4(4^k)", "sym": "7*7**k - 4*4**k", "new": true}]},
+  {"title": "Substitute 7^k = 3M + 4^k", "lines": [{"tex": "7^{k+1} - 4^{k+1} &= 7(3M + 4^k) - 4(4^k)", "sym": "7*(3*M + 4**k) - 4*4**k", "new": true}, {"tex": "&= 21M + 7(4^k) - 4(4^k)", "sym": "21*M + 7*4**k - 4*4**k"}, {"tex": "&= 21M + 3(4^k)", "sym": "21*M + 3*4**k"}]},
+  {"title": "Factor out 3", "lines": [{"tex": "7^{k+1} - 4^{k+1} &= 3(7M + 4^k)", "sym": "3*(7*M + 4**k)"}, {"text": "$7M + 4^k$ is a whole number, so $7^{k+1} - 4^{k+1}$ is divisible by 3."}]},
+  {"title": "State the conclusion", "lines": [{"text": "$P(1)$ is true, and if $P(k)$ is true then $P(k+1)$ is true. By induction, $7^n - 4^n$ is divisible by 3 for all $n \\in \\mathbb{N}$."}]}
+ ], "finalAnswer": "7^n - 4^n \\text{ is divisible by } 3 \\text{ for all } n \\in \\mathbb{N}"},
+ "finalSym": "0", "answerSym": "Mod(7**5 - 4**5, 3)"}
+]}
+]

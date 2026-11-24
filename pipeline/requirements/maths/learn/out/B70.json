@@ -1,0 +1,478 @@
+[
+ {
+  "skill": "prob-first-success",
+  "what": {
+   "say": [
+    "You give it the chance of success on one trial, $p$, and the trial number, $n$. It finds the probability that the first success comes on trial $n$ and not before.",
+    "The key idea: trials $1$ to $n-1$ must all fail, then trial $n$ must succeed. The trials are independent, so multiply: $(1-p)^{n-1}\\,p$."
+   ],
+   "in": "$p$, $n$",
+   "out": "$(1-p)^{n-1}\\,p$"
+  },
+  "how": {
+   "higher": "Higher level used it once, in 2022 on Paper 2 (Q10 (b), 5 marks): three fails in a row, then a success.",
+   "ordinary": "Ordinary level used it once, in 2021 on Paper 2 (Q2 (a)(ii), 10 marks): fail, fail, then success."
+  },
+  "example": {
+   "question": "A spinner lands on red with probability $\\frac{1}{5}$ on each spin. Find the probability that the first red comes on the 4th spin.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the two chances",
+      "say": "The first red is on spin 4, so spins 1, 2 and 3 are **not** red. Find the chance of a fail, $\\hl{1}{q}$, and of a success, $\\hl{2}{p}$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{p} &= \\frac{1}{5}",
+        "sym": "1/5",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{q} &= 1 - \\frac{1}{5}",
+        "sym": "1-1/5",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{4}{5}",
+        "sym": "4/5"
+       },
+       {
+        "text": "A fail is $\\hl{1}{\\frac{4}{5}}$. A success is $\\hl{2}{\\frac{1}{5}}$."
+       }
+      ]
+     },
+     {
+      "title": "Multiply the four spins",
+      "say": "The spins are independent, so multiply: three fails, then one success.",
+      "lines": [
+       {
+        "tex": "P &= \\hl{1}{q} \\times \\hl{1}{q} \\times \\hl{1}{q} \\times \\hl{2}{p}",
+        "sym": "(4/5)*(4/5)*(4/5)*(1/5)",
+        "new": true
+       },
+       {
+        "tex": "&= \\left(\\frac{4}{5}\\right)^3 \\times \\frac{1}{5}",
+        "sym": "(4/5)**3*(1/5)"
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Cube the top and the bottom of the first fraction, then multiply across.",
+      "lines": [
+       {
+        "tex": "&= \\frac{64}{125} \\times \\frac{1}{5}",
+        "sym": "64/125*1/5"
+       },
+       {
+        "tex": "&= \\frac{64}{625}",
+        "sym": "64/625"
+       },
+       {
+        "text": "Write the product before you calculate it. That line earns marks on its own."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{64}{625}"
+   },
+   "finalSym": "64/625",
+   "answerSym": "(1-Rational(1,5))**3*Rational(1,5)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the full formula with every number put in. Fully substituted work earns high partial credit even if you slip on the arithmetic.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q10#(b)",
+       "quote": "Fully substituted correct formula"
+      }
+     ]
+    },
+    {
+     "tip": "Keep the fail and success chances the right way round. Swapping $0.05$ and $0.95$ loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q10#(b)",
+       "quote": "Swaps 0∙05 and 0∙95"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the failure chance as $1 - p$. That line is marked.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q2#(a)(ii)",
+       "quote": "Writes 1 −0·34"
+      }
+     ]
+    },
+    {
+     "tip": "Writing fail, fail, success earns work of merit, so list the trials before you multiply.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q2#(a)(ii)",
+       "quote": "Fail, Fail, Success"
+      }
+     ]
+    },
+    {
+     "tip": "If you set up the product but do not work it out, you still get high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q2#(a)(ii)",
+       "quote": "Correct answer indicated but not"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-conditional",
+  "what": {
+   "say": [
+    "You give it the chance that both events happen, $P(A \\cap B)$, and the chance of the event you are **told** has happened, $P(B)$. It finds $P(A \\mid B)$.",
+    "The key idea: knowing $B$ happened shrinks the world to $B$ alone. Divide the overlap by $P(B)$. Note $P(A \\mid B)$ is not the same as $P(B \\mid A)$."
+   ],
+   "in": "$P(A \\cap B)$, $P(B)$",
+   "out": "$P(A \\mid B)$"
+  },
+  "how": {
+   "higher": "Higher level uses it in 2015, 2017, 2020, 2023, 2024 and 2025, always on Paper 2 as the main skill, for 5 to 15 marks. It is usually the last step after a tree diagram or table is filled in."
+  },
+  "example": {
+   "question": "In a survey, $60\\%$ of people own a bike. $24\\%$ own a bike and a car. A person who owns a bike is chosen at random. Find the probability that this person owns a car.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name the events",
+      "say": "Let $B$ be owning a bike and $C$ be owning a car. We are **told** the person owns a bike, so the bike is the condition.",
+      "lines": [
+       {
+        "tex": "P(B) &= 0.6",
+        "sym": "6/10",
+        "new": true
+       },
+       {
+        "tex": "P(C \\cap B) &= 0.24",
+        "sym": "24/100",
+        "new": true
+       },
+       {
+        "text": "We want $P(C \\mid B)$, the chance of a car given a bike."
+       }
+      ]
+     },
+     {
+      "title": "Write the rule",
+      "say": "The overlap goes on top. The thing we are told, $\\hl{2}{P(B)}$, goes on the bottom.",
+      "lines": [
+       {
+        "tex": "P(C \\mid B) &= \\frac{\\hl{1}{P(C \\cap B)}}{\\hl{2}{P(B)}}"
+       },
+       {
+        "text": "This is not $P(B \\mid C)$. That would divide by $P(C)$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute and divide",
+      "say": "Put in the two numbers and divide.",
+      "lines": [
+       {
+        "tex": "P(C \\mid B) &= \\frac{\\hl{1}{0.24}}{\\hl{2}{0.6}}",
+        "sym": "(24/100)/(6/10)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{0.4}",
+        "sym": "2/5"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "0.4"
+   },
+   "finalSym": "2/5",
+   "answerSym": "Rational(24,100)/Rational(6,10)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the formula for $P(A \\mid B)$ with the numbers put in. A fully substituted formula earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q5#(a)(i)",
+       "quote": "Formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Find the top line and the bottom line separately. Each one that is correct earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q9#(a)(iii), (iv)",
+       "quote": "top or bottom line correct"
+      }
+     ]
+    },
+    {
+     "tip": "Draw the tree diagram and fill in the branches. A tree with some correct values earns credit before you reach the answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(c)",
+       "quote": "Tree diagram with some correct"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "prob-selection-restrictions",
+  "what": {
+   "say": [
+    "You give it some groups of people or things, and a condition on how many to take from each. It finds the number of selections that meet the condition.",
+    "The key idea: split the condition into one choice per group, count each with ${}^nC_r$, then **multiply**."
+   ],
+   "in": "groups + condition",
+   "out": "number of selections"
+  },
+  "how": {
+   "higher": "Higher level used it in 2019 on Paper 2 (Q1 (b), 5 marks) and in 2023 on Paper 2 (Q10 (b)(iii), 10 marks, a code with listed cases)."
+  },
+  "example": {
+   "question": "A committee of 4 is chosen from 6 men and 5 women. It must contain exactly 2 women. How many different committees are possible?",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split by group",
+      "say": "Exactly 2 women means the other 2 members must be men. So make two separate choices: 2 from the 5 women, and 2 from the 6 men.",
+      "lines": [
+       {
+        "text": "Women: choose $2$ from $5$."
+       },
+       {
+        "text": "Men: choose $2$ from $6$."
+       }
+      ]
+     },
+     {
+      "title": "Count each choice",
+      "say": "Order does not matter, so use ${}^nC_r$ for each group.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{{}^5C_2} &= \\frac{5 \\times 4}{2 \\times 1}",
+        "sym": "binomial(5,2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{10}",
+        "sym": "10"
+       },
+       {
+        "tex": "\\hl{2}{{}^6C_2} &= \\frac{6 \\times 5}{2 \\times 1}",
+        "sym": "binomial(6,2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{15}",
+        "sym": "15"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the choices",
+      "say": "Every way of choosing the women can go with every way of choosing the men. Multiply.",
+      "lines": [
+       {
+        "tex": "\\text{committees} &= \\hl{1}{10} \\times \\hl{2}{15}",
+        "sym": "10*15",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{150}",
+        "sym": "150"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "150"
+   },
+   "finalSym": "150",
+   "answerSym": "binomial(5,2)*binomial(6,2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "List the cases when you can. Listing some correct codes earns work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q10#(b)(iii)",
+       "quote": "Work of merit, for example, lists"
+      }
+     ]
+    },
+    {
+     "tip": "Find the combinations first, then multiply by the number of ways to arrange each. Showing both ideas earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q10#(b)(iii)",
+       "quote": "One correct combination and"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "prob-binomial",
+  "what": {
+   "say": [
+    "You give it the number of trials $n$, the number of successes $k$, and the chance of success $p$. It finds the probability of exactly $k$ successes.",
+    "The key idea: each way of getting $k$ successes has chance $p^k(1-p)^{n-k}$, and ${}^nC_k$ counts the ways. For \"at least\", find the opposite and take it from $1$."
+   ],
+   "in": "$n$, $k$, $p$",
+   "out": "${}^nC_k\\,p^k(1-p)^{n-k}$"
+  },
+  "how": {
+   "higher": "Higher level uses it in 2020, 2021, 2022, 2024 and 2025, always on Paper 2 as the main skill, for 5 to 15 marks. 2021 used it six times. Many parts ask for \"at most\" or \"at least\" and a calculator sum."
+  },
+  "example": {
+   "question": "Each bolt a machine makes is faulty with probability $0.1$, independently of the others. A box holds 8 bolts. Find the probability that at least 2 bolts in the box are faulty.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn it round",
+      "say": "\"At least 2\" has many cases. The opposite, 0 or 1 faulty, has only two. So find those and take them from $1$.",
+      "lines": [
+       {
+        "tex": "P(\\text{at least } 2) &= 1 - P(0) - P(1)",
+        "sym": "1-1",
+        "new": true
+       },
+       {
+        "text": "Each probability uses $P(k) = {}^nC_k\\, p^k (1-p)^{n-k}$ with $n = 8$, $p = 0.1$."
+       }
+      ]
+     },
+     {
+      "title": "Find P(0)",
+      "say": "No faulty bolts: all 8 are good, each with chance $0.9$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(0)} &= {}^8C_0 (0.1)^0 (0.9)^8",
+        "sym": "binomial(8,0)*(1/10)**0*(9/10)**8",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{0.43046721}",
+        "sym": "43046721/100000000"
+       }
+      ]
+     },
+     {
+      "title": "Find P(1)",
+      "say": "One faulty bolt: 8 places it could be, one bad at $0.1$, seven good at $0.9$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{P(1)} &= {}^8C_1 (0.1)^1 (0.9)^7",
+        "sym": "binomial(8,1)*(1/10)**1*(9/10)**7",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{0.38263752}",
+        "sym": "38263752/100000000"
+       }
+      ]
+     },
+     {
+      "title": "Take them from 1",
+      "say": "Subtract both from $1$ and round to 4 decimal places.",
+      "lines": [
+       {
+        "tex": "P(\\text{at least } 2) &= 1 - \\hl{1}{0.43046721} - \\hl{2}{0.38263752}",
+        "sym": "1-43046721/100000000-38263752/100000000",
+        "new": true
+       },
+       {
+        "tex": "&= 0.18689527",
+        "sym": "18689527/100000000"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{0.1869}",
+        "sym": "0.1869",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "0.1869"
+   },
+   "finalSym": "0.1869",
+   "answerSym": "1-binomial(8,0)*Rational(9,10)**8-binomial(8,1)*Rational(1,10)*Rational(9,10)**7"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Multiply the terms together. Writing the pieces without multiplying them does not earn the higher marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q1#(a)",
+       "quote": "multiplication between relevant"
+      }
+     ]
+    },
+    {
+     "tip": "Get at least one whole term right: the coefficient, the power of $p$ and the power of $1-p$. A fully correct term earns mid partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q9#(b)",
+       "quote": "One term fully correct"
+      }
+     ]
+    },
+    {
+     "tip": "For \"at most\" or \"at least\", show how you will build the answer from the terms. Saying how to find it earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q9#(b)",
+       "quote": "Indicates how to find"
+      }
+     ]
+    },
+    {
+     "tip": "Do not round early. Round the final answer, and lose a mark if you do not.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(b)(i)",
+       "quote": "Apply a * for incorrect or no"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

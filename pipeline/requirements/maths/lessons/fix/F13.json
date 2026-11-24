@@ -1,0 +1,2840 @@
+[
+ {
+  "skill": {
+   "id": "seq-geo-unknown-n",
+   "title": "Find the number of terms needed in a geometric series",
+   "level": "HL",
+   "input": "a, r, target term/sum",
+   "output": "n via logs"
+  },
+  "errors": [
+   "2017-higher-p1-q4#(a): its solution talks about the marking scheme; choose another candidate"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q9#(a)(i)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Spot the pattern in the distances",
+      "lines": [
+       {
+        "text": "The distances are $4, 2, 1, \\frac12, \\frac14, \\dots$, each half the one before, so this is a geometric sequence."
+       },
+       {
+        "tex": "a &= 4"
+       },
+       {
+        "tex": "r &= \\frac{2}{4}"
+       },
+       {
+        "tex": "r &= \\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Use the sum of n terms and set it equal to 7.9375",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{a(1-r^n)}{1-r}"
+       },
+       {
+        "tex": "S_n &= \\frac{4\\left(1-\\left(\\frac12\\right)^n\\right)}{1-\\frac12}"
+       },
+       {
+        "tex": "S_n &= 8\\left(1-\\frac{1}{2^n}\\right)"
+       },
+       {
+        "tex": "8\\left(1-\\frac{1}{2^n}\\right) &= 7.9375"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "1-\\frac{1}{2^n} &= 0.9921875"
+       },
+       {
+        "tex": "\\frac{1}{2^n} &= 0.0078125"
+       },
+       {
+        "tex": "\\frac{1}{2^n} &= \\frac{1}{128}"
+       },
+       {
+        "tex": "2^n &= 128"
+       },
+       {
+        "tex": "n &= 7"
+       }
+      ]
+     }
+    ],
+    "final": "7 \\text{ stages}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q8#(e)(ii)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the first term",
+      "lines": [
+       {
+        "tex": "a_1 &= p - p_1"
+       },
+       {
+        "tex": "&= 0.75 - 0.7"
+       },
+       {
+        "tex": "&= 0.05"
+       }
+      ]
+     },
+     {
+      "title": "Write the nth term",
+      "lines": [
+       {
+        "tex": "a_n &= 0.05\\left(\\tfrac{1}{5}\\right)^{n-1}"
+       }
+      ]
+     },
+     {
+      "title": "Test n = 6",
+      "lines": [
+       {
+        "tex": "a_6 &= 0.05 \\times 0.2^5"
+       },
+       {
+        "tex": "&= 0.000016"
+       },
+       {
+        "text": "This is not less than $0.00001$."
+       }
+      ]
+     },
+     {
+      "title": "Test n = 7",
+      "lines": [
+       {
+        "tex": "a_7 &= 0.05 \\times 0.2^6"
+       },
+       {
+        "tex": "&= 0.0000032"
+       },
+       {
+        "text": "This is less than $0.00001$, so the smallest $n$ is $7$."
+       }
+      ]
+     }
+    ],
+    "final": "n = 7"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q7#(a)(iv)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set the arc length equal to 2",
+      "lines": [
+       {
+        "tex": "45(0.9)^{n-1} &= 2"
+       },
+       {
+        "tex": "(0.9)^{n-1} &= \\frac{2}{45}"
+       }
+      ]
+     },
+     {
+      "title": "Take logs to bring down the power",
+      "lines": [
+       {
+        "tex": "n-1 &= \\log_{0.9}\\left(\\frac{2}{45}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate n",
+      "lines": [
+       {
+        "tex": "n-1 &= 29.5510..."
+       },
+       {
+        "tex": "n &= 30.5510..."
+       }
+      ]
+     },
+     {
+      "title": "Choose the first whole swing",
+      "lines": [
+       {
+        "text": "$n$ must be a whole number and $T_{30}$ is still more than 2, so the first swing under 2 cm is the next one."
+       },
+       {
+        "tex": "p &= 31"
+       }
+      ]
+     }
+    ],
+    "final": "p = 31"
+   },
+   {
+    "part": "practice-seq-geo-unknown-n-1",
+    "level": "higher",
+    "year": null,
+    "question": "The series $3 + 6 + 12 + 24 + \\dots$ is geometric.\nFind the least value of $n$ for which the sum of the first $n$ terms is greater than $3000$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write $S_n$ and set it greater than 3000",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{3(2^n-1)}{2-1}"
+       },
+       {
+        "tex": "3(2^n - 1) &> 3000"
+       }
+      ]
+     },
+     {
+      "title": "Isolate the power",
+      "lines": [
+       {
+        "tex": "2^n - 1 &> 1000"
+       },
+       {
+        "tex": "2^n &> 1001"
+       }
+      ]
+     },
+     {
+      "title": "Take logs to bring down the power",
+      "lines": [
+       {
+        "tex": "n\\log 2 &> \\log 1001"
+       },
+       {
+        "tex": "n &> \\frac{\\log 1001}{\\log 2}"
+       },
+       {
+        "tex": "n &> 9.967"
+       }
+      ]
+     },
+     {
+      "title": "Choose the least whole number",
+      "lines": [
+       {
+        "text": "$n$ must be a whole number greater than $9.967$."
+       },
+       {
+        "tex": "n &= 10"
+       }
+      ]
+     }
+    ],
+    "final": "n = 10"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q4#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the common ratio",
+      "lines": [
+       {
+        "text": "The percentages form a geometric sequence with first term $a = 95$."
+       },
+       {
+        "tex": "r &= \\frac{42.75}{95}"
+       },
+       {
+        "tex": "&= \\frac{9}{20}"
+       }
+      ]
+     },
+     {
+      "title": "Write the inequality for the nth day",
+      "lines": [
+       {
+        "tex": "T_n &= ar^{n-1}"
+       },
+       {
+        "tex": "95\\left(\\frac{9}{20}\\right)^{n-1} &< 0.01"
+       },
+       {
+        "tex": "\\left(\\frac{9}{20}\\right)^{n-1} &< \\frac{0.01}{95}"
+       }
+      ]
+     },
+     {
+      "title": "Take logs of both sides",
+      "lines": [
+       {
+        "tex": "(n-1)\\log\\left(\\frac{9}{20}\\right) &< \\log\\left(\\frac{0.01}{95}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Divide by $\\log\\left(\\frac{9}{20}\\right)$, which is negative",
+      "lines": [
+       {
+        "text": "Dividing by a negative number reverses the inequality."
+       },
+       {
+        "tex": "n-1 &> \\frac{\\log\\left(\\frac{0.01}{95}\\right)}{\\log\\left(\\frac{9}{20}\\right)}"
+       },
+       {
+        "tex": "n-1 &> 11.47"
+       },
+       {
+        "tex": "n &> 12.47"
+       }
+      ]
+     },
+     {
+      "title": "Choose the first whole day",
+      "lines": [
+       {
+        "text": "$n$ must be a whole number, so the first day is the next whole number above $12.47$, which is day 13."
+       },
+       {
+        "text": "The marking scheme prints \"12th day\", but its own working gives $n > 12.47$, so the first day below 0.01% is day 13."
+       }
+      ]
+     }
+    ],
+    "final": "n > 12.47 \\text{, so the first day is day } 13"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q9#(a)(iv)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Keep doubling every 5 days",
+      "lines": [
+       {
+        "text": "Start at day 15 with $1500$ cases and double each time the day goes up by 5."
+       },
+       {
+        "tex": "\\text{Day } 15 &= 1500"
+       },
+       {
+        "tex": "\\text{Day } 20 &= 3000"
+       },
+       {
+        "tex": "\\text{Day } 25 &= 6000"
+       },
+       {
+        "tex": "\\text{Day } 30 &= 12000"
+       },
+       {
+        "tex": "\\text{Day } 35 &= 24000"
+       },
+       {
+        "tex": "\\text{Day } 40 &= 48000"
+       },
+       {
+        "tex": "\\text{Day } 45 &= 96000"
+       }
+      ]
+     },
+     {
+      "title": "Take one more day",
+      "lines": [
+       {
+        "text": "On day 45 there are $96000$ cases, which is still under $100000$."
+       },
+       {
+        "text": "Cases grow by about $15\\%$ a day (doubling in 5 days), so day 46 is about $110000$, which is over $100000$."
+       }
+      ]
+     }
+    ],
+    "final": "t = 46"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "practice-seq-geo-unknown-n-1",
+    "note": null,
+    "legend": {
+     "1": "the power 2ⁿ",
+     "2": "the number of terms n, exact from logs",
+     "3": "the least whole number n (answer)"
+    },
+    "steps": [
+     {
+      "ask": "Which formula gives the sum of the first n terms, and what must it be greater than?",
+      "title": "Write $S_n$ and set it greater than 3000",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{3(\\hl{1}{2^n}-1)}{2-1}"
+       },
+       {
+        "tex": "3(\\hl{1}{2^n} - 1) &> 3000"
+       }
+      ]
+     },
+     {
+      "ask": "How do you get the power of 2 on its own?",
+      "title": "Isolate the power",
+      "lines": [
+       {
+        "tex": "\\hl{1}{2^n} - 1 &> 1000"
+       },
+       {
+        "tex": "\\hl{1}{2^n} &> 1001"
+       }
+      ]
+     },
+     {
+      "ask": "What does taking logs of both sides do to a power?",
+      "title": "Take logs to bring down the power",
+      "lines": [
+       {
+        "tex": "\\hl{2}{n}\\log 2 &> \\log 1001"
+       },
+       {
+        "tex": "\\hl{2}{n} &> \\frac{\\log 1001}{\\log 2}"
+       },
+       {
+        "tex": "\\hl{2}{n} &> 9.967"
+       }
+      ]
+     },
+     {
+      "ask": "Which whole numbers satisfy the inequality, and which is the least?",
+      "title": "Choose the least whole number",
+      "lines": [
+       {
+        "text": "$\\hl{2}{n}$ must be a whole number greater than $9.967$."
+       },
+       {
+        "tex": "\\hl{3}{n} &= \\hl{3}{10}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{n} = \\hl{3}{10}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q7#(a)(iv)",
+    "note": "Changed: the target is one term equal to 2 cm, not a sum greater than 3000, and the ratio is 0.9 rather than 2. Same: take logs to solve for n, then pick the first whole number that fits.",
+    "legend": {
+     "1": "the power (0.9)ⁿ⁻¹",
+     "2": "the number of terms n, exact from logs",
+     "3": "the first whole swing p (answer)"
+    },
+    "steps": [
+     {
+      "ask": "Which term of the sequence has arc length 2 cm, and how do you write that as an equation?",
+      "title": "Set the arc length equal to 2",
+      "lines": [
+       {
+        "tex": "45\\hl{1}{(0.9)^{n-1}} &= 2"
+       },
+       {
+        "tex": "\\hl{1}{(0.9)^{n-1}} &= \\frac{2}{45}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you use logs to bring the power $n-1$ down to the front?",
+      "title": "Take logs to bring down the power",
+      "lines": [
+       {
+        "tex": "\\hl{2}{n}-1 &= \\log_{0.9}\\left(\\frac{2}{45}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "What is $n - 1$ equal to, and what does that make $n$?",
+      "title": "Evaluate n",
+      "lines": [
+       {
+        "tex": "\\hl{2}{n}-1 &= 29.5510..."
+       },
+       {
+        "tex": "\\hl{2}{n} &= \\hl{2}{30.5510...}"
+       }
+      ]
+     },
+     {
+      "ask": "Does $n$ have to be a whole number, and which whole swing is the first one under 2 cm?",
+      "title": "Choose the first whole swing",
+      "lines": [
+       {
+        "text": "$\\hl{2}{n}$ must be a whole number and $T_{30}$ is still more than 2, so the first swing under 2 cm is the next one."
+       },
+       {
+        "tex": "\\hl{3}{p} &= \\hl{3}{31}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{p} = \\hl{3}{31}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q4#(a)",
+    "note": "Changed: the target is a single term below 0.01 instead of a sum, and the ratio 9/20 is below 1, so dividing by its negative log reverses the inequality. Same: take logs of both sides, solve for n, then choose the first whole day.",
+    "legend": {
+     "1": "the power (9/20)ⁿ⁻¹",
+     "2": "the number of days n, exact from logs",
+     "3": "the first whole day (answer)"
+    },
+    "steps": [
+     {
+      "ask": "Divide the second percentage by the first. What do you get for the common ratio?",
+      "title": "Find the common ratio",
+      "lines": [
+       {
+        "text": "The percentages form a geometric sequence with first term $a = 95$."
+       },
+       {
+        "tex": "r &= \\frac{42.75}{95}"
+       },
+       {
+        "tex": "&= \\frac{9}{20}"
+       }
+      ]
+     },
+     {
+      "ask": "The value on day $n$ must be below 0.01. How do you write that using $T_n = ar^{n-1}$?",
+      "title": "Write the inequality for the nth day",
+      "lines": [
+       {
+        "tex": "T_n &= ar^{n-1}"
+       },
+       {
+        "tex": "95\\hl{1}{\\left(\\frac{9}{20}\\right)^{n-1}} &< 0.01"
+       },
+       {
+        "tex": "\\hl{1}{\\left(\\frac{9}{20}\\right)^{n-1}} &< \\frac{0.01}{95}"
+       }
+      ]
+     },
+     {
+      "ask": "What does applying log to both sides do to the power $n-1$?",
+      "title": "Take logs of both sides",
+      "lines": [
+       {
+        "tex": "(\\hl{2}{n}-1)\\log\\left(\\frac{9}{20}\\right) &< \\log\\left(\\frac{0.01}{95}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "What happens to an inequality when you divide both sides by a negative number?",
+      "title": "Divide by $\\log\\left(\\frac{9}{20}\\right)$, which is negative",
+      "lines": [
+       {
+        "text": "Dividing by a negative number reverses the inequality."
+       },
+       {
+        "tex": "\\hl{2}{n}-1 &> \\frac{\\log\\left(\\frac{0.01}{95}\\right)}{\\log\\left(\\frac{9}{20}\\right)}"
+       },
+       {
+        "tex": "\\hl{2}{n}-1 &> 11.47"
+       },
+       {
+        "tex": "\\hl{2}{n} &> 12.47"
+       }
+      ]
+     },
+     {
+      "ask": "Which whole number of days is the first one that gives a value below 0.01?",
+      "title": "Choose the first whole day",
+      "lines": [
+       {
+        "text": "$\\hl{2}{n}$ must be a whole number, so the first day is the next whole number above $12.47$, which is day 13."
+       },
+       {
+        "text": "The marking scheme prints \"12th day\", but its own working gives $\\hl{2}{n} > 12.47$, so the first day below 0.01% is day 13."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{n} > 12.47 \\text{, so the first day is day } \\hl{3}{13}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-back-to-back",
+   "title": "Compare data sets with back-to-back stem-and-leaf plots",
+   "level": "OL",
+   "input": "two data sets",
+   "output": "plot and comparison of centre/spread"
+  },
+  "errors": [
+   "2022-ordinary-p2-q7#(a)(i): no \\hl marks",
+   "2016-ordinary-p2-q5#(c): no \\hl marks"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the 175 to 180 bars",
+      "lines": [
+       {
+        "text": "Answer: Yes. Girls: $5.8\\%$. Boys: about $11.5\\%$."
+       },
+       {
+        "text": "Both samples have 500 students, so percentages compare numbers directly. $2 \\times 5.8 = 11.6 \\approx 11.5$, so about twice as many boys."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Yes}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(iv)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the tall groups",
+      "lines": [
+       {
+        "text": "Answer: No. Take tall to mean 175 cm or more."
+       },
+       {
+        "text": "Girls: $5.8\\% + 2\\% = 7.8\\%$. Boys: about $11.5\\% + 9.3\\% = 20.8\\%$. A larger percentage of boys are tall, so there are more tall boys than tall girls."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{No}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the two sides of the plot",
+      "lines": [
+       {
+        "text": "Day X: weights run from 4.5 kg to 7.4 kg, with most leaves on stems 5 and 6."
+       },
+       {
+        "text": "Day Y: weights run from 4.8 kg to 8.1 kg, with more leaves on stems 6, 7 and 8."
+       },
+       {
+        "text": "Each dog's Day Y weight is above its Day X weight, so the weights have increased."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The weights of the dogs increased from Day X to Day Y.}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q5#(c)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Put the Week 2 values in order",
+      "lines": [
+       {
+        "text": "6, 9, 12, 15, 15, 16, 16, 17, 18, 18, 23, 27, 28, 29, 32, 40. There are 16 values."
+       }
+      ]
+     },
+     {
+      "title": "Group the values by stem",
+      "lines": [
+       {
+        "text": "Stem 0: 6, 9. Stem 1: 2, 5, 5, 6, 6, 7, 8, 8. Stem 2: 3, 7, 8, 9. Stem 3: 2. Stem 4: 0."
+       }
+      ]
+     },
+     {
+      "title": "Write the leaves on the left of the stem",
+      "lines": [
+       {
+        "text": "Put the smallest leaf of each row next to the stem, so the leaves get bigger as they move left. Check that 2 + 8 + 4 + 1 + 1 = 16 leaves are shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Week 2 leaves added to the left of the stems}"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Put the stem for each value in its row",
+      "lines": [
+       {
+        "text": "The stem is the tens (and hundreds) part. The leaf is the units digit."
+       },
+       {
+        "text": "Sort the leaves in each row so they increase moving away from the stem."
+       }
+      ]
+     },
+     {
+      "title": "Fill in the before-exercise leaves (left side)",
+      "lines": [
+       {
+        "text": "$60, 65, 67, 68$ go in row 6 as leaves $0, 5, 7, 8$."
+       },
+       {
+        "text": "$70, 76, 77$ go in row 7 as leaves $0, 6, 7$."
+       },
+       {
+        "text": "$83, 88, 89$ go in row 8 as leaves $3, 8, 9$."
+       }
+      ]
+     },
+     {
+      "title": "Fill in the after-exercise leaves (right side)",
+      "lines": [
+       {
+        "text": "$71, 79$ in row 7. $81, 83, 87$ in row 8. $91$ in row 9."
+       },
+       {
+        "text": "$102, 108$ in row 10 as leaves $2, 8$. $113, 118$ in row 11 as leaves $3, 8$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Completed back-to-back plot (see diagram)}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Split each weight into a stem and a leaf",
+      "lines": [
+       {
+        "text": "The stem is the whole number of kg. The leaf is the digit after the decimal point."
+       },
+       {
+        "text": "The key $6 | 0 = 6.0$ kg means the stem 6 and leaf 0 give 6.0 kg."
+       }
+      ]
+     },
+     {
+      "title": "List the Day X leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.5, 4.9 so leaves 5, 9."
+       },
+       {
+        "text": "Stem 5: 5.3, 5.3, 5.5, 5.7 so leaves 3, 3, 5, 7."
+       },
+       {
+        "text": "Stem 6: 6.7, 6.9 so leaves 7, 9."
+       },
+       {
+        "text": "Stem 7: 7.3, 7.4 so leaves 3, 4. Stem 8: no leaves."
+       }
+      ]
+     },
+     {
+      "title": "List the Day Y leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.8 so leaf 8."
+       },
+       {
+        "text": "Stem 5: 5.4, 5.5 so leaves 4, 5."
+       },
+       {
+        "text": "Stem 6: 6.0, 6.1, 6.3 so leaves 0, 1, 3."
+       },
+       {
+        "text": "Stem 7: 7.0, 7.6, 7.9 so leaves 0, 6, 9. Stem 8: 8.1 so leaf 1."
+       }
+      ]
+     },
+     {
+      "title": "Draw the plot with leaves in order outwards",
+      "lines": [
+       {
+        "text": "Put Day X leaves on the left of the stem and Day Y leaves on the right, smallest next to the stem."
+       },
+       {
+        "text": "Check: each side has 10 leaves, one for each dog."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Back-to-back stem-and-leaf plot as drawn}"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "the left-side leaves (before exercise)",
+     "2": "the right-side leaves (after exercise)"
+    },
+    "steps": [
+     {
+      "ask": "Which digit of each value is the stem, and which is the leaf?",
+      "title": "Put the stem for each value in its row",
+      "lines": [
+       {
+        "text": "The stem is the tens (and hundreds) part. The leaf is the units digit."
+       },
+       {
+        "text": "Sort the leaves in each row so they increase moving away from the stem."
+       }
+      ]
+     },
+     {
+      "ask": "Which values belong in row 6, and what is the units digit of each?",
+      "title": "Fill in the before-exercise leaves (left side)",
+      "lines": [
+       {
+        "text": "$60, 65, 67, 68$ go in row 6 as leaves $\\hl{1}{0, 5, 7, 8}$."
+       },
+       {
+        "text": "$70, 76, 77$ go in row 7 as leaves $\\hl{1}{0, 6, 7}$."
+       },
+       {
+        "text": "$83, 88, 89$ go in row 8 as leaves $\\hl{1}{3, 8, 9}$."
+       }
+      ]
+     },
+     {
+      "ask": "Which after-exercise values have three digits, and what are their leaves?",
+      "title": "Fill in the after-exercise leaves (right side)",
+      "lines": [
+       {
+        "text": "$71, 79$ in row 7. $81, 83, 87$ in row 8. $91$ in row 9."
+       },
+       {
+        "text": "$102, 108$ in row 10 as leaves $\\hl{2}{2, 8}$. $113, 118$ in row 11 as leaves $\\hl{2}{3, 8}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Completed back-to-back plot (see diagram)}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(i)",
+    "note": "The values are now weights in kg with decimals, so each leaf is the digit after the decimal point and each stem is whole kg. The plot is still back-to-back, with Day X on the left and Day Y on the right.",
+    "legend": {},
+    "steps": [
+     {
+      "ask": "What part of a weight in kg is the stem, and what part is the leaf?",
+      "title": "Split each weight into a stem and a leaf",
+      "lines": [
+       {
+        "text": "The stem is the whole number of kg. The leaf is the digit after the decimal point."
+       },
+       {
+        "text": "The key $6 | 0 = 6.0$ kg means the stem 6 and leaf 0 give 6.0 kg."
+       }
+      ]
+     },
+     {
+      "ask": "Which Day X weights belong to stem 5, and what digit follows the decimal point for each?",
+      "title": "List the Day X leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.5, 4.9 so leaves 5, 9."
+       },
+       {
+        "text": "Stem 5: 5.3, 5.3, 5.5, 5.7 so leaves 3, 3, 5, 7."
+       },
+       {
+        "text": "Stem 6: 6.7, 6.9 so leaves 7, 9."
+       },
+       {
+        "text": "Stem 7: 7.3, 7.4 so leaves 3, 4. Stem 8: no leaves."
+       }
+      ]
+     },
+     {
+      "ask": "Which Day Y weights belong to stem 6, and what digit follows the decimal point for each?",
+      "title": "List the Day Y leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.8 so leaf 8."
+       },
+       {
+        "text": "Stem 5: 5.4, 5.5 so leaves 4, 5."
+       },
+       {
+        "text": "Stem 6: 6.0, 6.1, 6.3 so leaves 0, 1, 3."
+       },
+       {
+        "text": "Stem 7: 7.0, 7.6, 7.9 so leaves 0, 6, 9. Stem 8: 8.1 so leaf 1."
+       }
+      ]
+     },
+     {
+      "ask": "Which side of the stem does each day go on, and in what order are the leaves written?",
+      "title": "Draw the plot with leaves in order outwards",
+      "lines": [
+       {
+        "text": "Put Day X leaves on the left of the stem and Day Y leaves on the right, smallest next to the stem."
+       },
+       {
+        "text": "Check: each side has 10 leaves, one for each dog."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Back-to-back stem-and-leaf plot as drawn}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q5#(c)",
+    "note": "Now there is only one data set, so the leaves go on one side of the stem only. The steps are the same: order the values, group them by stem, then write the leaves next to the stem.",
+    "legend": {},
+    "steps": [
+     {
+      "ask": "What is the smallest Week 2 value, and how many values are there in total?",
+      "title": "Put the Week 2 values in order",
+      "lines": [
+       {
+        "text": "6, 9, 12, 15, 15, 16, 16, 17, 18, 18, 23, 27, 28, 29, 32, 40. There are 16 values."
+       }
+      ]
+     },
+     {
+      "ask": "Which tens digit does each value have, and which values share it?",
+      "title": "Group the values by stem",
+      "lines": [
+       {
+        "text": "Stem 0: 6, 9. Stem 1: 2, 5, 5, 6, 6, 7, 8, 8. Stem 2: 3, 7, 8, 9. Stem 3: 2. Stem 4: 0."
+       }
+      ]
+     },
+     {
+      "ask": "Which leaf should sit closest to the stem, and how can you check that every value is shown?",
+      "title": "Write the leaves on the left of the stem",
+      "lines": [
+       {
+        "text": "Put the smallest leaf of each row next to the stem, so the leaves get bigger as they move left. Check that 2 + 8 + 4 + 1 + 1 = 16 leaves are shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Week 2 leaves added to the left of the stems}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-graph",
+   "title": "Graph sin, cos and tan",
+   "level": "HL",
+   "input": "function + domain",
+   "output": "graph with period and range"
+  },
+  "errors": [
+   "maths-pp-2016-higher-p2-q8#(d)(ii): not one of the candidates"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p2-q9#(b)(iv)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Look at how steep the graph is",
+      "lines": [
+       {
+        "text": "A 1 degree change in $\\alpha$ moves $C$ most where the graph of $f$ is steepest."
+       }
+      ]
+     },
+     {
+      "title": "Compare the three diagrams",
+      "lines": [
+       {
+        "text": "In Diagram 1, $D$ is near $\\alpha = 0^\\circ$, where the graph is almost flat (a maximum), so $C$ hardly moves. In Diagram 3, the graph is also flatter at $D$, so $C$ moves less than in Diagram 2."
+       },
+       {
+        "text": "In Diagram 2, $D$ is between these, on the steep part of the graph, so $C$ moves most. Equivalently, the closer $\\angle CDO$ is to a right angle, the more a small turn of the crank pushes or pulls the rod."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Diagram 2}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q9#(b)(iii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the axes",
+      "lines": [
+       {
+        "text": "Put $\\alpha$ from $0^\\circ$ to $360^\\circ$ on the horizontal axis and $f(\\alpha)$ from $0$ to $30$ on the vertical axis."
+       }
+      ]
+     },
+     {
+      "title": "Plot the five points from the table",
+      "lines": [
+       {
+        "text": "Plot $(0^\\circ, 30)$, $(90^\\circ, 18.28)$, $(180^\\circ, 10)$, $(270^\\circ, 18.28)$ and $(360^\\circ, 30)$."
+       }
+      ]
+     },
+     {
+      "title": "Join them with a smooth curve",
+      "lines": [
+       {
+        "text": "The curve starts at a maximum, falls to a minimum of $10$ at $180^\\circ$ and rises again, like an ordinary cosine wave."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Smooth curve through } (0^\\circ,30),\\ (90^\\circ,18.28),\\ (180^\\circ,10),\\ (270^\\circ,18.28),\\ (360^\\circ,30)"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q6#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "$\\sin x$ has period $2\\pi$."
+       },
+       {
+        "text": "The modulus flips the negative half of each wave upwards, so the graph repeats twice as often, in half the length."
+       },
+       {
+        "tex": "\\text{Period} &= \\frac{1}{2}(2\\pi)"
+       },
+       {
+        "tex": "&= \\pi"
+       }
+      ]
+     },
+     {
+      "title": "Start with the range of |sin x|",
+      "lines": [
+       {
+        "text": "$\\sin x$ lies between $-1$ and $1$, and the modulus removes the negatives."
+       },
+       {
+        "tex": "0 \\le |\\sin x| &\\le 1"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 4",
+      "lines": [
+       {
+        "tex": "0 \\le 4|\\sin x| &\\le 4"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 1",
+      "lines": [
+       {
+        "tex": "-1 \\le 4|\\sin x| - 1 &\\le 3"
+       },
+       {
+        "text": "This matches the graph: the lowest points are at $y = -1$ and the highest at $y = 3$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Period} = \\pi, \\quad \\text{Range} = [-1, 3]"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q8#(a), (b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use h(t) = 72 - 60cos(πt/3) at each t",
+      "lines": [
+       {
+        "text": "Work in radians. $h(1) = 42$ is given, so we find the other eight values."
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 0",
+      "lines": [
+       {
+        "tex": "h(0) &= 72 - 60\\cos\\left(0\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(1\\right)"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 2",
+      "lines": [
+       {
+        "tex": "h(2) &= 72 - 60\\cos\\left(\\frac{2\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 3",
+      "lines": [
+       {
+        "tex": "h(3) &= 72 - 60\\cos\\left(\\pi\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-1\\right)"
+       },
+       {
+        "tex": "&= 72 + 60"
+       },
+       {
+        "tex": "&= 132"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 4",
+      "lines": [
+       {
+        "tex": "h(4) &= 72 - 60\\cos\\left(\\frac{4\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 5",
+      "lines": [
+       {
+        "tex": "h(5) &= 72 - 60\\cos\\left(\\frac{5\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 6",
+      "lines": [
+       {
+        "tex": "h(6) &= 72 - 60\\cos\\left(2\\pi\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(1\\right)"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 7",
+      "lines": [
+       {
+        "tex": "h(7) &= 72 - 60\\cos\\left(\\frac{7\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 8",
+      "lines": [
+       {
+        "tex": "h(8) &= 72 - 60\\cos\\left(\\frac{8\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0,12), (1,42), (2,102), (3,132), (4,102), (5,42), (6,12), (7,42), (8,102)$."
+       },
+       {
+        "text": "Join them with a smooth wave-shaped curve: it starts at its lowest value 12, rises to 132 at $t = 3$, falls to 12 at $t = 6$, then rises again."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } 12,\\ 42,\\ 102,\\ 132,\\ 102,\\ 42,\\ 12,\\ 42,\\ 102"
+   },
+   {
+    "part": "practice-trig-graph-1",
+    "level": "higher",
+    "year": null,
+    "question": "Copy and complete the table of values of $g(x) = 1 - 2\\sin x$, where $x$ is in radians.\n\n| $x$ | $0$ | $\\frac{\\pi}{6}$ | $\\frac{\\pi}{2}$ | $\\frac{5\\pi}{6}$ | $\\pi$ | $\\frac{7\\pi}{6}$ | $\\frac{3\\pi}{2}$ | $\\frac{11\\pi}{6}$ | $2\\pi$ |\n| $g(x)$ | | | | | | | | | |\n\nHence plot the graph of $g(x)$ for $0 \\le x \\le 2\\pi$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use g(x) = 1 - 2sin x at each x",
+      "lines": [
+       {
+        "text": "Work in radians. Find $g(x)$ at $x = 0, \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\pi, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}, \\frac{11\\pi}{6}, 2\\pi$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 0$",
+      "lines": [
+       {
+        "tex": "g\\left(0\\right) &= 1 - 2\\sin\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{\\pi}{2}\\right) &= 1 - 2\\sin\\left(\\frac{\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(1\\right)"
+       },
+       {
+        "tex": "&= -1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{5\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{5\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{5\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\pi$",
+      "lines": [
+       {
+        "tex": "g\\left(\\pi\\right) &= 1 - 2\\sin\\left(\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{7\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{7\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{7\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{3\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{3\\pi}{2}\\right) &= 1 - 2\\sin\\left(\\frac{3\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-1\\right)"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{11\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{11\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{11\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 2\\pi$",
+      "lines": [
+       {
+        "tex": "g\\left(2\\pi\\right) &= 1 - 2\\sin\\left(2\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0,1), (\\frac{\\pi}{6},0), (\\frac{\\pi}{2},-1), (\\frac{5\\pi}{6},0), (\\pi,1), (\\frac{7\\pi}{6},2), (\\frac{3\\pi}{2},3), (\\frac{11\\pi}{6},2), (2\\pi,1)$."
+       },
+       {
+        "text": "Join them with a smooth wave: it falls from 1 to a minimum of $-1$ at $x = \\frac{\\pi}{2}$, rises to a maximum of 3 at $x = \\frac{3\\pi}{2}$ and returns to 1."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } 1,\\ 0,\\ -1,\\ 0,\\ 1,\\ 2,\\ 3,\\ 2,\\ 1"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2022-higher-p1-q8#(a), (b)",
+    "note": null,
+    "legend": {
+     "1": "the output value, h(t)",
+     "2": "the angle inside the cosine, πt/3"
+    },
+    "steps": [
+     {
+      "ask": "Which values of t does the table need, and which one is already given?",
+      "title": "Use h(t) = 72 - 60cos(πt/3) at each t",
+      "lines": [
+       {
+        "text": "Work in radians. $\\hl{1}{h(1)} = \\hl{1}{42}$ is given, so we find the other eight values."
+       }
+      ]
+     },
+     {
+      "ask": "What angle does πt/3 give when t = 0, and what is its cosine?",
+      "title": "Substitute t = 0",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(0)} &= 72 - 60\\cos\\hl{2}{\\left(0\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\left(1\\right)"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= \\hl{1}{12}"
+       }
+      ]
+     },
+     {
+      "ask": "Which angle goes inside the cosine when t = 2? Give it in terms of π.",
+      "title": "Substitute t = 2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(2)} &= 72 - 60\\cos\\hl{2}{\\left(\\frac{2\\pi}{3}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= \\hl{1}{102}"
+       }
+      ]
+     },
+     {
+      "ask": "What is cos π, and what does that do to 72 − 60cos(πt/3) when t = 3?",
+      "title": "Substitute t = 3",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(3)} &= 72 - 60\\cos\\hl{2}{\\left(\\pi\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-1\\right)"
+       },
+       {
+        "tex": "&= 72 + 60"
+       },
+       {
+        "tex": "&= \\hl{1}{132}"
+       }
+      ]
+     },
+     {
+      "ask": "Is cos of 4π/3 positive or negative, and how big is it?",
+      "title": "Substitute t = 4",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(4)} &= 72 - 60\\cos\\hl{2}{\\left(\\frac{4\\pi}{3}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= \\hl{1}{102}"
+       }
+      ]
+     },
+     {
+      "ask": "Which quadrant is 5π/3 in, and what sign does cos have there?",
+      "title": "Substitute t = 5",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(5)} &= 72 - 60\\cos\\hl{2}{\\left(\\frac{5\\pi}{3}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= \\hl{1}{42}"
+       }
+      ]
+     },
+     {
+      "ask": "What is cos of 2π?",
+      "title": "Substitute t = 6",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(6)} &= 72 - 60\\cos\\hl{2}{\\left(2\\pi\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\left(1\\right)"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= \\hl{1}{12}"
+       }
+      ]
+     },
+     {
+      "ask": "How does 7π/3 compare with 2π, and what is its cosine?",
+      "title": "Substitute t = 7",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(7)} &= 72 - 60\\cos\\hl{2}{\\left(\\frac{7\\pi}{3}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= \\hl{1}{42}"
+       }
+      ]
+     },
+     {
+      "ask": "What angle does πt/3 give when t = 8, and what is its cosine?",
+      "title": "Substitute t = 8",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h(8)} &= 72 - 60\\cos\\hl{2}{\\left(\\frac{8\\pi}{3}\\right)}"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= \\hl{1}{102}"
+       }
+      ]
+     },
+     {
+      "ask": "Where does the curve reach its highest and lowest values, and how should it join them?",
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0,12), (1,42), (2,102), (3,132), (4,102), (5,42), (6,12), (7,42), (8,102)$."
+       },
+       {
+        "text": "Join them with a smooth wave-shaped curve: it starts at its lowest value 12, rises to 132 at $t = 3$, falls to 12 at $t = 6$, then rises again."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } \\hl{1}{12},\\ \\hl{1}{42},\\ \\hl{1}{102},\\ \\hl{1}{132},\\ \\hl{1}{102},\\ \\hl{1}{42},\\ \\hl{1}{12},\\ \\hl{1}{42},\\ \\hl{1}{102}",
+    "graph": {
+     "f": "72 - 60*cos(pi*x/3)",
+     "box": [
+      -0.5,
+      150,
+      8.5,
+      0
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 12,
+       "name": "min (0, 12)"
+      },
+      {
+       "x": 3,
+       "y": 132,
+       "name": "max (3, 132)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": 1,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "practice-trig-graph-1",
+    "note": "The function is now g(x) = 1 − 2sin x, using sine and radian fractions of π over one full period from 0 to 2π, instead of the cosine of time. Same steps: substitute each x, then plot the nine points and join them.",
+    "legend": {
+     "1": "the output value, g(x)",
+     "2": "the angle inside the sine"
+    },
+    "steps": [
+     {
+      "ask": "Which x values are in the table, and which function are you evaluating at each one?",
+      "title": "Use g(x) = 1 - 2sin x at each x",
+      "lines": [
+       {
+        "text": "Work in radians. Find $g(x)$ at $x = 0, \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\pi, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}, \\frac{11\\pi}{6}, 2\\pi$."
+       }
+      ]
+     },
+     {
+      "ask": "What is the angle inside the sine when x = 0, and what is its sine?",
+      "title": "Substitute $x = 0$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g\\left(0\\right)} &= 1 - 2\\sin\\hl{2}{\\left(0\\right)}"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= \\hl{1}{1}"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin of π/6, and what does 1 − 2sin x give?",
+      "title": "Substitute $x = \\frac{\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g\\left(\\frac{\\pi}{6}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{\\pi}{6}\\right)}"
+       },
+       {
+        "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= \\hl{1}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "Where is the sine largest, and what value does it take at π/2?",
+      "title": "Substitute $x = \\frac{\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g\\left(\\frac{\\pi}{2}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{\\pi}{2}\\right)}"
+       },
+       {
+        "tex": "&= 1 - 2\\left(1\\right)"
+       },
+       {
+        "tex": "&= \\hl{1}{-1}"
+       }
+      ]
+     },
+     {
+      "ask": "Which quadrant is 5π/6 in, and is sin there positive or negative?",
+      "title": "Substitute $x = \\frac{5\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g\\left(\\frac{5\\pi}{6}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{5\\pi}{6}\\right)}"
+       },
+       {
+        "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= \\hl{1}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin π?",
+      "title": "Substitute $x = \\pi$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g\\left(\\pi\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\pi\\right)}"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= \\hl{1}{1}"
+       }
+      ]
+     },
+     {
+      "ask": "Is sin of 7π/6 positive or negative, and how big is it?",
+      "title": "Substitute $x = \\frac{7\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g\\left(\\frac{7\\pi}{6}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{7\\pi}{6}\\right)}"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= \\hl{1}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "Where is the sine at its lowest, and what value does it take at 3π/2?",
+      "title": "Substitute $x = \\frac{3\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g\\left(\\frac{3\\pi}{2}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{3\\pi}{2}\\right)}"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-1\\right)"
+       },
+       {
+        "tex": "&= \\hl{1}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "Which quadrant is 11π/6 in, and what sign does sin have there?",
+      "title": "Substitute $x = \\frac{11\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g\\left(\\frac{11\\pi}{6}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{11\\pi}{6}\\right)}"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= \\hl{1}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin of 2π?",
+      "title": "Substitute $x = 2\\pi$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{g\\left(2\\pi\\right)} &= 1 - 2\\sin\\hl{2}{\\left(2\\pi\\right)}"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= \\hl{1}{1}"
+       }
+      ]
+     },
+     {
+      "ask": "Where are the lowest and highest points of the wave, and how should the curve join them?",
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0,1), (\\frac{\\pi}{6},0), (\\frac{\\pi}{2},-1), (\\frac{5\\pi}{6},0), (\\pi,1), (\\frac{7\\pi}{6},2), (\\frac{3\\pi}{2},3), (\\frac{11\\pi}{6},2), (2\\pi,1)$."
+       },
+       {
+        "text": "Join them with a smooth wave: it falls from 1 to a minimum of $-1$ at $x = \\frac{\\pi}{2}$, rises to a maximum of 3 at $x = \\frac{3\\pi}{2}$ and returns to 1."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } \\hl{1}{1},\\ \\hl{1}{0},\\ \\hl{1}{-1},\\ \\hl{1}{0},\\ \\hl{1}{1},\\ \\hl{1}{2},\\ \\hl{1}{3},\\ \\hl{1}{2},\\ \\hl{1}{1}",
+    "graph": {
+     "f": "1 - 2*sin(x)",
+     "box": [
+      -0.5,
+      3.6,
+      6.8,
+      -1.6
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 1.5708,
+       "y": -1,
+       "name": "min (π/2, -1)"
+      },
+      {
+       "x": 4.7124,
+       "y": 3,
+       "name": "max (3π/2, 3)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": 1,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q8#(d)(ii)",
+    "note": "The values are already in the table, so there are no substitution steps: you only plot the nine points and join them. It is a cosine wave, the same plotting step as problem 1.",
+    "legend": {
+     "1": "the output value, h(t)"
+    },
+    "steps": [
+     {
+      "ask": "Which quantity goes on each axis, and what does each pair (t, h) mean?",
+      "title": "Plot the nine points from the table",
+      "lines": [
+       {
+        "text": "Plot $(t, h)$ using time on the horizontal axis and height on the vertical axis."
+       },
+       {
+        "text": "The points are $(0, \\hl{1}{3.1})$, $(3, \\hl{1}{1.6})$, $(6, \\hl{1}{0.1})$, $(9, \\hl{1}{1.6})$, $(12, \\hl{1}{3.1})$, $(15, \\hl{1}{1.6})$, $(18, \\hl{1}{0.1})$, $(21, \\hl{1}{1.6})$, $(24, \\hl{1}{3.1})$."
+       }
+      ]
+     },
+     {
+      "ask": "Where are the highest and lowest points, and how should the curve move between them?",
+      "title": "Join the points with a smooth curve",
+      "lines": [
+       {
+        "text": "It is a cosine wave: maximum $\\hl{1}{3.1}$ at midnight, midday and the next midnight, minimum $\\hl{1}{0.1}$ at 6 a.m. and 6 p.m. It crosses $\\hl{1}{1.6}$ at 3 a.m., 9 a.m., 3 p.m. and 9 p.m."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Cosine curve through the nine points}",
+    "graph": {
+     "f": "1.6 + 1.5*cos(pi*x/6)",
+     "box": [
+      -1,
+      3.6,
+      25,
+      -0.2
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 3.1,
+       "name": "max (0, 3.1)"
+      },
+      {
+       "x": 6,
+       "y": 0.1,
+       "name": "min (6, 0.1)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": 1,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-graph-log",
+   "title": "Graph a logarithmic function",
+   "level": "HL",
+   "input": "logₐ x or ln x",
+   "output": "log curve (reflection of aˣ in y = x)"
+  },
+  "errors": [
+   "2018-higher-p1-q7#(c): graph point {'x': 10, 'y': 8, 'name': '(10, 8)'} is not on f (f(10) = 8.345712039032664)"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q7#(c)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Substitute x = 0, 10, 20, 30 into t(x)",
+      "lines": [
+       {
+        "text": "Use $t(x) = -62.5\\ln\\left(1-\\frac{x}{80}\\right)$ and round each answer to a whole number."
+       },
+       {
+        "tex": "t(0) &= -62.5\\ln(1)"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "tex": "t(10) &= -62.5\\ln\\left(1-\\frac{10}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 8"
+       },
+       {
+        "tex": "t(20) &= -62.5\\ln\\left(1-\\frac{20}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 18"
+       },
+       {
+        "tex": "t(30) &= -62.5\\ln\\left(1-\\frac{30}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 29"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 40, 50, 60, 70 into t(x)",
+      "lines": [
+       {
+        "tex": "t(40) &= -62.5\\ln\\left(1-\\frac{40}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 43"
+       },
+       {
+        "tex": "t(50) &= -62.5\\ln\\left(1-\\frac{50}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 61"
+       },
+       {
+        "tex": "t(60) &= -62.5\\ln\\left(1-\\frac{60}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 87"
+       },
+       {
+        "tex": "t(70) &= -62.5\\ln\\left(1-\\frac{70}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 130"
+       }
+      ]
+     },
+     {
+      "title": "Read off the completed table",
+      "lines": [
+       {
+        "text": "$x$: 0, 10, 20, 30, 40, 50, 60, 70."
+       },
+       {
+        "text": "$t(x)$: 0, 8, 18, 29, 43, 61, 87, 130."
+       }
+      ]
+     },
+     {
+      "title": "Plot the points and join them with a smooth curve",
+      "lines": [
+       {
+        "text": "Plot each pair $(x, t(x))$, e.g. $(10, 8)$, $(40, 43)$, $(70, 130)$."
+       },
+       {
+        "text": "Join the points with a smooth curve starting at the origin."
+       }
+      ]
+     }
+    ],
+    "final": "t(x):\\ 0,\\ 8,\\ 18,\\ 29,\\ 43,\\ 61,\\ 87,\\ 130"
+   },
+   {
+    "part": "practice-fn-graph-log-2",
+    "level": "higher",
+    "year": null,
+    "question": "The graph of $y = \\ln(x - 2)$ is the graph of $y = \\ln x$ moved $2$ units to the right.\nFind the coordinates of the point where the graph of $y = \\ln(x-2)$ crosses the $x$-axis.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Put y = 0",
+      "lines": [
+       {
+        "tex": "\\ln(x-2) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Convert to index form",
+      "lines": [
+       {
+        "tex": "x - 2 &= e^0"
+       },
+       {
+        "tex": "x - 2 &= 1"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "x &= 3"
+       }
+      ]
+     },
+     {
+      "title": "Write the point",
+      "lines": [
+       {
+        "text": "The graph crosses the $x$-axis at $(3, 0)$."
+       }
+      ]
+     }
+    ],
+    "final": "(3, 0)"
+   },
+   {
+    "part": "practice-fn-graph-log-1",
+    "level": "higher",
+    "year": null,
+    "question": "A table of values is drawn up for $y = \\log_3 x$.\nFind the values of $y$ when $x = \\frac{1}{9},\\ 1,\\ 3,\\ 9$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Convert to index form",
+      "lines": [
+       {
+        "text": "$y = \\log_3 x$ means $x = 3^y$. Find the power of $3$ that gives each $x$."
+       }
+      ]
+     },
+     {
+      "title": "x = 1/9",
+      "lines": [
+       {
+        "tex": "3^y &= \\frac{1}{9}"
+       },
+       {
+        "tex": "&= 3^{-2}"
+       },
+       {
+        "tex": "y &= -2"
+       }
+      ]
+     },
+     {
+      "title": "x = 1 and x = 3",
+      "lines": [
+       {
+        "tex": "3^y &= 1 = 3^0 \\Rightarrow y = 0"
+       },
+       {
+        "tex": "3^y &= 3 = 3^1 \\Rightarrow y = 1"
+       }
+      ]
+     },
+     {
+      "title": "x = 9",
+      "lines": [
+       {
+        "tex": "3^y &= 9 = 3^2"
+       },
+       {
+        "tex": "y &= 2"
+       }
+      ]
+     },
+     {
+      "title": "Read off the table",
+      "lines": [
+       {
+        "text": "$x$: $\\frac19$, $1$, $3$, $9$. $y$: $-2$, $0$, $1$, $2$."
+       }
+      ]
+     }
+    ],
+    "final": "y:\\ -2,\\ 0,\\ 1,\\ 2"
+   },
+   {
+    "part": "practice-fn-graph-log-3",
+    "level": "higher",
+    "year": null,
+    "question": "Complete the table for $f(x) = \\log_2 x$.\n$x$: $\\frac18$, $\\frac12$, $2$, $8$, $32$.\nWrite down the value of $f(x)$ for each $x$, ready to plot the graph.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Convert to index form",
+      "lines": [
+       {
+        "text": "$y = \\log_2 x$ means $x = 2^y$. Find the power of $2$ that gives each $x$."
+       }
+      ]
+     },
+     {
+      "title": "x = 1/8 and x = 1/2",
+      "lines": [
+       {
+        "tex": "2^y &= \\frac18 = 2^{-3}"
+       },
+       {
+        "tex": "y &= -3"
+       },
+       {
+        "tex": "2^y &= \\frac12 = 2^{-1}"
+       },
+       {
+        "tex": "y &= -1"
+       }
+      ]
+     },
+     {
+      "title": "x = 2 and x = 8",
+      "lines": [
+       {
+        "tex": "2^y &= 2 = 2^1"
+       },
+       {
+        "tex": "y &= 1"
+       },
+       {
+        "tex": "2^y &= 8 = 2^3"
+       },
+       {
+        "tex": "y &= 3"
+       }
+      ]
+     },
+     {
+      "title": "x = 32",
+      "lines": [
+       {
+        "tex": "2^y &= 32 = 2^5"
+       },
+       {
+        "tex": "y &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Read off the table",
+      "lines": [
+       {
+        "text": "$x$: $\\frac18$, $\\frac12$, $2$, $8$, $32$. $f(x)$: $-3$, $-1$, $1$, $3$, $5$."
+       }
+      ]
+     }
+    ],
+    "final": "f(x):\\ -3,\\ -1,\\ 1,\\ 3,\\ 5"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2018-higher-p1-q7#(c)",
+    "note": null,
+    "legend": {
+     "1": "the output at each x (t(x), y or f(x))"
+    },
+    "steps": [
+     {
+      "ask": "What do you get when you put x = 0 into t(x)? Then try x = 10, 20 and 30.",
+      "title": "Substitute x = 0, 10, 20, 30 into t(x)",
+      "lines": [
+       {
+        "text": "Use $t(x) = -62.5\\ln\\left(1-\\frac{x}{80}\\right)$ and round each answer to a whole number."
+       },
+       {
+        "tex": "\\hl{1}{t(0)} &= -62.5\\ln(1)"
+       },
+       {
+        "tex": "&= \\hl{1}{0}"
+       },
+       {
+        "tex": "\\hl{1}{t(10)} &= -62.5\\ln\\left(1-\\frac{10}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{8}"
+       },
+       {
+        "tex": "\\hl{1}{t(20)} &= -62.5\\ln\\left(1-\\frac{20}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{18}"
+       },
+       {
+        "tex": "\\hl{1}{t(30)} &= -62.5\\ln\\left(1-\\frac{30}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{29}"
+       }
+      ]
+     },
+     {
+      "ask": "What is t(40), and what are the values for x = 50, 60 and 70?",
+      "title": "Substitute x = 40, 50, 60, 70 into t(x)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{t(40)} &= -62.5\\ln\\left(1-\\frac{40}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{43}"
+       },
+       {
+        "tex": "\\hl{1}{t(50)} &= -62.5\\ln\\left(1-\\frac{50}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{61}"
+       },
+       {
+        "tex": "\\hl{1}{t(60)} &= -62.5\\ln\\left(1-\\frac{60}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{87}"
+       },
+       {
+        "tex": "\\hl{1}{t(70)} &= -62.5\\ln\\left(1-\\frac{70}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{130}"
+       }
+      ]
+     },
+     {
+      "ask": "Which value of t(x) goes with each x? List them in order.",
+      "title": "Read off the completed table",
+      "lines": [
+       {
+        "text": "$x$: 0, 10, 20, 30, 40, 50, 60, 70."
+       },
+       {
+        "text": "$\\hl{1}{t(x)}$: 0, 8, 18, 29, 43, 61, 87, 130."
+       }
+      ]
+     },
+     {
+      "ask": "Which points do you plot from the table, and how should they be joined?",
+      "title": "Plot the points and join them with a smooth curve",
+      "lines": [
+       {
+        "text": "Plot each pair $(x, t(x))$, e.g. $(10, 8)$, $(40, 43)$, $(70, 130)$."
+       },
+       {
+        "text": "Join the points with a smooth curve starting at the origin."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{t(x)}:\\ \\hl{1}{0},\\ \\hl{1}{8},\\ \\hl{1}{18},\\ \\hl{1}{29},\\ \\hl{1}{43},\\ \\hl{1}{61},\\ \\hl{1}{87},\\ \\hl{1}{130}",
+    "graph": {
+     "f": "-62.5*log(1 - x/80)",
+     "box": [
+      -5,
+      150,
+      80,
+      -10
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 10,
+       "y": 8,
+       "name": "(10, 8)"
+      },
+      {
+       "x": 40,
+       "y": 43,
+       "name": "(40, 43)"
+      },
+      {
+       "x": 70,
+       "y": 130,
+       "name": "(70, 130)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": 1,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "practice-fn-graph-log-1",
+    "note": "The base is now 3, and each y comes from index form instead of substitution. The method is still a table of values, one row for each x.",
+    "legend": {
+     "1": "the output at each x (t(x), y or f(x))"
+    },
+    "steps": [
+     {
+      "ask": "What does y = log₃x mean as a power of 3?",
+      "title": "Convert to index form",
+      "lines": [
+       {
+        "text": "$y = \\log_3 x$ means $x = 3^y$. Find the power of $3$ that gives each $x$."
+       }
+      ]
+     },
+     {
+      "ask": "What power of 3 equals 1/9?",
+      "title": "x = 1/9",
+      "lines": [
+       {
+        "tex": "3^y &= \\frac{1}{9}"
+       },
+       {
+        "tex": "&= 3^{-2}"
+       },
+       {
+        "tex": "\\hl{1}{y} &= \\hl{1}{-2}"
+       }
+      ]
+     },
+     {
+      "ask": "What power of 3 gives 1, and what power gives 3?",
+      "title": "x = 1 and x = 3",
+      "lines": [
+       {
+        "tex": "3^y &= 1 = 3^0 \\Rightarrow \\hl{1}{y = 0}"
+       },
+       {
+        "tex": "3^y &= 3 = 3^1 \\Rightarrow \\hl{1}{y = 1}"
+       }
+      ]
+     },
+     {
+      "ask": "What power of 3 gives 9?",
+      "title": "x = 9",
+      "lines": [
+       {
+        "tex": "3^y &= 9 = 3^2"
+       },
+       {
+        "tex": "\\hl{1}{y} &= \\hl{1}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "Which y goes with each x? List them in order.",
+      "title": "Read off the table",
+      "lines": [
+       {
+        "text": "$x$: $\\frac19$, $1$, $3$, $9$. $\\hl{1}{y}$: $\\hl{1}{-2}$, $\\hl{1}{0}$, $\\hl{1}{1}$, $\\hl{1}{2}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{y}:\\ \\hl{1}{-2},\\ \\hl{1}{0},\\ \\hl{1}{1},\\ \\hl{1}{2}",
+    "graph": {
+     "f": "log(x)/log(3)",
+     "box": [
+      -0.5,
+      3.5,
+      10,
+      -3.5
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 1,
+       "y": 0,
+       "name": "(1, 0)"
+      },
+      {
+       "x": 3,
+       "y": 1,
+       "name": "(3, 1)"
+      },
+      {
+       "x": 9,
+       "y": 2,
+       "name": "(9, 2)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": 1,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "practice-fn-graph-log-3",
+    "note": "The base is now 2 and there are five x values, including 2 and 32, so there are more index-form steps. The method is the same as problem 2.",
+    "legend": {
+     "1": "the output at each x (t(x), y or f(x))"
+    },
+    "steps": [
+     {
+      "ask": "What does f(x) = log₂x mean as a power of 2?",
+      "title": "Convert to index form",
+      "lines": [
+       {
+        "text": "$y = \\log_2 x$ means $x = 2^y$. Find the power of $2$ that gives each $x$."
+       }
+      ]
+     },
+     {
+      "ask": "What power of 2 gives 1/8, and what power gives 1/2?",
+      "title": "x = 1/8 and x = 1/2",
+      "lines": [
+       {
+        "tex": "2^y &= \\frac18 = 2^{-3}"
+       },
+       {
+        "tex": "\\hl{1}{y} &= \\hl{1}{-3}"
+       },
+       {
+        "tex": "2^y &= \\frac12 = 2^{-1}"
+       },
+       {
+        "tex": "\\hl{1}{y} &= \\hl{1}{-1}"
+       }
+      ]
+     },
+     {
+      "ask": "What power of 2 gives 2, and what power gives 8?",
+      "title": "x = 2 and x = 8",
+      "lines": [
+       {
+        "tex": "2^y &= 2 = 2^1"
+       },
+       {
+        "tex": "\\hl{1}{y} &= \\hl{1}{1}"
+       },
+       {
+        "tex": "2^y &= 8 = 2^3"
+       },
+       {
+        "tex": "\\hl{1}{y} &= \\hl{1}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "What power of 2 gives 32?",
+      "title": "x = 32",
+      "lines": [
+       {
+        "tex": "2^y &= 32 = 2^5"
+       },
+       {
+        "tex": "\\hl{1}{y} &= \\hl{1}{5}"
+       }
+      ]
+     },
+     {
+      "ask": "What is f(x) for each x? List them in order.",
+      "title": "Read off the table",
+      "lines": [
+       {
+        "text": "$x$: $\\frac18$, $\\frac12$, $2$, $8$, $32$. $\\hl{1}{f(x)}$: $\\hl{1}{-3}$, $\\hl{1}{-1}$, $\\hl{1}{1}$, $\\hl{1}{3}$, $\\hl{1}{5}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{f(x)}:\\ \\hl{1}{-3},\\ \\hl{1}{-1},\\ \\hl{1}{1},\\ \\hl{1}{3},\\ \\hl{1}{5}",
+    "graph": {
+     "f": "log(x)/log(2)",
+     "box": [
+      -1,
+      6,
+      34,
+      -4
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0.5,
+       "y": -1,
+       "name": "(1/2, -1)"
+      },
+      {
+       "x": 2,
+       "y": 1,
+       "name": "(2, 1)"
+      },
+      {
+       "x": 8,
+       "y": 3,
+       "name": "(8, 3)"
+      },
+      {
+       "x": 32,
+       "y": 5,
+       "name": "(32, 5)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": 1,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-derive-sum-infinity",
+   "title": "Derive S∞ as the limit of partial sums",
+   "level": "HL",
+   "input": "Sₙ formula",
+   "output": "S∞ = a/(1 − r)"
+  },
+  "errors": [
+   "practice-seq-derive-sum-infinity-2: note has LaTeX outside $…$"
+  ],
+  "candidates": [
+   {
+    "part": "practice-seq-derive-sum-infinity-1",
+    "level": "higher",
+    "year": null,
+    "question": "Given that the sum of the first $n$ terms of a geometric series is $S_n = \\frac{a(1-r^n)}{1-r}$, prove that if $|r| < 1$ then $S_\\infty = \\frac{a}{1-r}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split the formula for $S_n$",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{a(1-r^n)}{1-r}"
+       },
+       {
+        "tex": "&= \\frac{a}{1-r} - \\frac{a\\,r^n}{1-r}"
+       }
+      ]
+     },
+     {
+      "title": "Let $n \\to \\infty$ when $|r| < 1$",
+      "lines": [
+       {
+        "text": "If $|r| < 1$ then $r^n \\to 0$ as $n \\to \\infty$, for example $\\left(\\tfrac12\\right)^n \\to 0$."
+       },
+       {
+        "tex": "\\frac{a\\,r^n}{1-r} &\\to 0"
+       }
+      ]
+     },
+     {
+      "title": "Take the limit",
+      "lines": [
+       {
+        "tex": "S_\\infty &= \\lim_{n \\to \\infty} S_n = \\frac{a}{1-r} - 0"
+       },
+       {
+        "tex": "&= \\frac{a}{1-r}"
+       }
+      ]
+     }
+    ],
+    "final": "S_\\infty = \\frac{a}{1-r}"
+   },
+   {
+    "part": "practice-seq-derive-sum-infinity-2",
+    "level": "higher",
+    "year": null,
+    "question": "A geometric series has first term $6$ and common ratio $\\frac{2}{3}$.\nShow that $S_n = 18\\left(1 - \\left(\\frac{2}{3}\\right)^n\\right)$ and prove that $S_n$ gets closer and closer to $\\frac{a}{1-r}$ as $n \\to \\infty$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute into $S_n$",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{6\\left(1-\\left(\\frac{2}{3}\\right)^n\\right)}{1 - \\frac{2}{3}}"
+       },
+       {
+        "tex": "&= 18\\left(1 - \\left(\\frac{2}{3}\\right)^n\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Let $n \\to \\infty$",
+      "lines": [
+       {
+        "text": "Since $\\frac{2}{3} < 1$, $\\left(\\frac{2}{3}\\right)^n \\to 0$."
+       },
+       {
+        "tex": "S_\\infty &= 18(1 - 0) = 18"
+       }
+      ]
+     },
+     {
+      "title": "Compare with $\\frac{a}{1-r}$",
+      "lines": [
+       {
+        "tex": "\\frac{a}{1-r} &= \\frac{6}{1/3} = 18"
+       }
+      ]
+     }
+    ],
+    "final": "S_\\infty = 18 = \\frac{a}{1-r}"
+   },
+   {
+    "part": "practice-seq-derive-sum-infinity-3",
+    "level": "higher",
+    "year": null,
+    "question": "Let $S_n = a + ar + ar^2 + \\dots + ar^{n-1}$.\nBy multiplying $S_n$ by $r$ and subtracting, prove that $S_n = \\frac{a(1-r^n)}{1-r}$ for $r \\neq 1$, and deduce that $S_\\infty = \\frac{a}{1-r}$ when $|r| < 1$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply $S_n$ by $r$",
+      "lines": [
+       {
+        "tex": "rS_n &= ar + ar^2 + \\dots + ar^{n-1} + ar^n"
+       }
+      ]
+     },
+     {
+      "title": "Subtract: all middle terms cancel",
+      "lines": [
+       {
+        "tex": "S_n - rS_n &= a - ar^n"
+       },
+       {
+        "tex": "S_n(1-r) &= a(1-r^n)"
+       }
+      ]
+     },
+     {
+      "title": "Divide by $1 - r$ (so $r \\neq 1$)",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{a(1-r^n)}{1-r}"
+       }
+      ]
+     },
+     {
+      "title": "Let $n \\to \\infty$ when $|r| < 1$",
+      "lines": [
+       {
+        "text": "Then $r^n \\to 0$, so $1 - r^n \\to 1$."
+       },
+       {
+        "tex": "S_\\infty &= \\frac{a}{1-r}"
+       }
+      ]
+     }
+    ],
+    "final": "S_n = \\frac{a(1-r^n)}{1-r}, \\quad S_\\infty = \\frac{a}{1-r}"
+   },
+   {
+    "part": "practice-seq-derive-sum-infinity-4",
+    "level": "higher",
+    "year": null,
+    "question": "A geometric series has first term $12$ and common ratio $-\\frac{1}{3}$. The sum of its first $n$ terms is $S_n$.\nWrite $S_n$ in the form $c\\left(1 - \\left(-\\frac{1}{3}\\right)^n\\right)$ and, by letting $n \\to \\infty$, find $S_\\infty$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute into $S_n$",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{12\\left(1-\\left(-\\frac13\\right)^n\\right)}{1 - \\left(-\\frac13\\right)}"
+       },
+       {
+        "tex": "&= 9\\left(1-\\left(-\\frac13\\right)^n\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Split the formula",
+      "lines": [
+       {
+        "tex": "S_n &= 9 - 9\\left(-\\frac13\\right)^n"
+       }
+      ]
+     },
+     {
+      "title": "Let $n \\to \\infty$ since $\\left|-\\frac13\\right| < 1$",
+      "lines": [
+       {
+        "text": "As $n \\to \\infty$, $\\left(-\\frac13\\right)^n \\to 0$, so the second term tends to $0$."
+       },
+       {
+        "tex": "9\\left(-\\frac13\\right)^n &\\to 0"
+       }
+      ]
+     },
+     {
+      "title": "Take the limit",
+      "lines": [
+       {
+        "tex": "S_\\infty &= 9 - 0"
+       },
+       {
+        "tex": "&= 9"
+       }
+      ]
+     }
+    ],
+    "final": "S_\\infty = 9"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "practice-seq-derive-sum-infinity-1",
+    "note": null,
+    "legend": {
+     "1": "rⁿ, which tends to 0",
+     "2": "the limit S∞ = a/(1−r)"
+    },
+    "steps": [
+     {
+      "ask": "Which part of $S_n$ depends on $n$, and can you separate it from the rest?",
+      "title": "Split the formula for $S_n$",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{a(1-\\hl{1}{r^n})}{1-r}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{a}{1-r}} - \\frac{a\\,\\hl{1}{r^n}}{1-r}"
+       }
+      ]
+     },
+     {
+      "ask": "What happens to $r^n$ as $n$ gets larger when $|r| < 1$?",
+      "title": "Let $n \\to \\infty$ when $|r| < 1$",
+      "lines": [
+       {
+        "text": "If $|r| < 1$ then $\\hl{1}{r^n} \\to 0$ as $n \\to \\infty$, for example $\\left(\\tfrac12\\right)^n \\to 0$."
+       },
+       {
+        "tex": "\\frac{a\\,\\hl{1}{r^n}}{1-r} &\\to 0"
+       }
+      ]
+     },
+     {
+      "ask": "What does $S_n$ approach once the $r^n$ term has gone to 0?",
+      "title": "Take the limit",
+      "lines": [
+       {
+        "tex": "\\hl{2}{S_\\infty} &= \\lim_{n \\to \\infty} S_n = \\hl{2}{\\frac{a}{1-r}} - 0"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{a}{1-r}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{S_\\infty} = \\hl{2}{\\frac{a}{1-r}}",
+    "graph": null
+   },
+   {
+    "part": "practice-seq-derive-sum-infinity-2",
+    "note": "Changed: a and r are now numbers (a = 6, r = 2/3), and the last step checks the limit against a/(1−r). Same: substitute into S_n, let the power term go to 0, then take the limit.",
+    "legend": {
+     "1": "rⁿ = (2/3)ⁿ, which tends to 0",
+     "2": "the limit S∞ = 18 = a/(1−r)"
+    },
+    "steps": [
+     {
+      "ask": "Which values from the question go into the formula for $S_n$?",
+      "title": "Substitute into $S_n$",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{6\\left(1-\\hl{1}{\\left(\\frac{2}{3}\\right)^n}\\right)}{1 - \\frac{2}{3}}"
+       },
+       {
+        "tex": "&= \\hl{2}{18}\\left(1 - \\hl{1}{\\left(\\frac{2}{3}\\right)^n}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "Is the ratio less than 1, and what happens to its power as $n$ grows?",
+      "title": "Let $n \\to \\infty$",
+      "lines": [
+       {
+        "text": "Since $\\frac{2}{3} < 1$, $\\hl{1}{\\left(\\frac{2}{3}\\right)^n} \\to 0$."
+       },
+       {
+        "tex": "\\hl{2}{S_\\infty} &= \\hl{2}{18}(1 - 0) = \\hl{2}{18}"
+       }
+      ]
+     },
+     {
+      "ask": "What is $\\frac{a}{1-r}$ equal to, and how does it compare with the limit you found?",
+      "title": "Compare with $\\frac{a}{1-r}$",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\frac{a}{1-r}} &= \\frac{6}{1/3} = \\hl{2}{18}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{S_\\infty} = \\hl{2}{18} = \\hl{2}{\\frac{a}{1-r}}",
+    "graph": null
+   },
+   {
+    "part": "practice-seq-derive-sum-infinity-4",
+    "note": "Changed: the ratio is negative (−1/3) and the first term is 12, so the power term alternates in sign and the sum is written as c(1 − (−1/3)ⁿ). Same: substitute, split off the power term, let it tend to 0, then take the limit.",
+    "legend": {
+     "1": "rⁿ = (−1/3)ⁿ, which tends to 0",
+     "2": "the limit S∞ = 9"
+    },
+    "steps": [
+     {
+      "ask": "Which values from the question go into the formula for $S_n$, and what is the denominator?",
+      "title": "Substitute into $S_n$",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{12\\left(1-\\hl{1}{\\left(-\\frac13\\right)^n}\\right)}{1 - \\left(-\\frac13\\right)}"
+       },
+       {
+        "tex": "&= \\hl{2}{9}\\left(1-\\hl{1}{\\left(-\\frac13\\right)^n}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "Which part of the expression still depends on $n$, and how can you separate it?",
+      "title": "Split the formula",
+      "lines": [
+       {
+        "tex": "S_n &= \\hl{2}{9} - 9\\hl{1}{\\left(-\\frac13\\right)^n}"
+       }
+      ]
+     },
+     {
+      "ask": "What happens to a power of $-\\frac13$ as $n$ grows, since its size is less than 1?",
+      "title": "Let $n \\to \\infty$ since $\\left|-\\frac13\\right| < 1$",
+      "lines": [
+       {
+        "text": "As $n \\to \\infty$, $\\hl{1}{\\left(-\\frac13\\right)^n} \\to 0$, so the second term tends to $0$."
+       },
+       {
+        "tex": "9\\hl{1}{\\left(-\\frac13\\right)^n} &\\to 0"
+       }
+      ]
+     },
+     {
+      "ask": "What is $S_n$ approaching once the decaying term has gone to 0?",
+      "title": "Take the limit",
+      "lines": [
+       {
+        "tex": "\\hl{2}{S_\\infty} &= \\hl{2}{9} - 0"
+       },
+       {
+        "tex": "&= \\hl{2}{9}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{S_\\infty} = \\hl{2}{9}",
+    "graph": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,263 @@
+[
+ {
+  "skill": "geo-thm20",
+  "problems": [
+   {
+    "question": "A circle has centre $O$ and radius $5$ cm. The point $P$ is outside the circle. The line $PT$ is a tangent to the circle at $T$.\n$|OP| = 13$ cm.\nFind $|PT|$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 20",
+       "lines": [
+        {
+         "text": "A tangent is perpendicular to the radius at the point of contact, so $|\\angle OTP| = 90^\\circ$ and $[OP]$ is the hypotenuse of triangle $OTP$."
+        }
+       ]
+      },
+      {
+       "title": "Use Pythagoras",
+       "lines": [
+        {
+         "tex": "|OT|^2 + |TP|^2 &= |OP|^2"
+        },
+        {
+         "tex": "5^2 + |TP|^2 &= 13^2",
+         "sym": "Eq(5**2 + x**2, 13**2)",
+         "new": true
+        },
+        {
+         "tex": "25 + |TP|^2 &= 169",
+         "sym": "Eq(25 + x**2, 169)"
+        },
+        {
+         "tex": "|TP|^2 &= 144",
+         "sym": "Eq(x**2, 144)"
+        }
+       ]
+      },
+      {
+       "title": "Take the positive square root",
+       "lines": [
+        {
+         "text": "A length cannot be negative."
+        },
+        {
+         "tex": "|TP| &= 12",
+         "sym": "Eq(x, 12)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|PT| = 12 \\text{ cm}"
+    },
+    "finalSym": "12",
+    "answerSym": "sqrt(13**2 - 5**2)"
+   }
+  ]
+ },
+ {
+  "skill": "inf-confidence-width",
+  "problems": [
+   {
+    "question": "A random sample of $n$ people is surveyed and a $95\\%$ confidence interval for the proportion who cycle to work is found to be $(0.5608,\\ 0.6392)$.\nFind the sample size $n$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the sample proportion and margin of error",
+       "lines": [
+        {
+         "tex": "\\hat{p} &= \\frac{0.5608 + 0.6392}{2} = 0.6",
+         "sym": "(Rational(5608,10000) + Rational(6392,10000))/2",
+         "new": true
+        },
+        {
+         "tex": "\\text{margin} &= 0.6392 - 0.6 = 0.0392",
+         "sym": "Rational(6392,10000) - Rational(6,10)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find p-hat times (1 - p-hat)",
+       "lines": [
+        {
+         "tex": "\\hat{p}(1 - \\hat{p}) &= 0.6 \\times 0.4",
+         "sym": "Rational(6,10)*Rational(4,10)",
+         "new": true
+        },
+        {
+         "tex": "&= 0.24",
+         "sym": "Rational(24,100)"
+        }
+       ]
+      },
+      {
+       "title": "Set up the margin of error equation",
+       "lines": [
+        {
+         "tex": "1.96\\sqrt{\\frac{0.24}{n}} &= 0.0392",
+         "sym": "Eq(Rational(196,100)*sqrt(Rational(24,100)/n), Rational(392,10000))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for n",
+       "lines": [
+        {
+         "tex": "\\sqrt{\\frac{0.24}{n}} &= 0.02",
+         "sym": "Eq(sqrt(Rational(24,100)/n), Rational(2,100))"
+        },
+        {
+         "tex": "\\frac{0.24}{n} &= 0.0004",
+         "sym": "Eq(Rational(24,100)/n, Rational(4,10000))"
+        },
+        {
+         "tex": "n &= 600",
+         "sym": "Eq(n, 600)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "n = 600"
+    },
+    "finalSym": "600",
+    "answerSym": "Rational(24,100)/((Rational(6392,10000) - Rational(5608,10000))/2/Rational(196,100))**2"
+   }
+  ]
+ },
+ {
+  "skill": "num-surds",
+  "problems": [
+   {
+    "question": "Write $3\\sqrt{20} + \\sqrt{45} - \\sqrt{80}$ in the form $a\\sqrt{b}$, where $a, b \\in \\mathbb{N}$ and $b$ is prime.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write each number as a square times 5",
+       "lines": [
+        {
+         "tex": "\\sqrt{20} &= \\sqrt{4 \\times 5}",
+         "sym": "sqrt(20)"
+        },
+        {
+         "tex": "\\sqrt{45} &= \\sqrt{9 \\times 5}",
+         "sym": "sqrt(45)",
+         "new": true
+        },
+        {
+         "tex": "\\sqrt{80} &= \\sqrt{16 \\times 5}",
+         "sym": "sqrt(80)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Take the square roots out",
+       "lines": [
+        {
+         "tex": "3\\sqrt{20} &= 3 \\times 2\\sqrt{5} = 6\\sqrt{5}",
+         "sym": "6*sqrt(5)",
+         "new": true
+        },
+        {
+         "tex": "\\sqrt{45} &= 3\\sqrt{5}",
+         "sym": "3*sqrt(5)",
+         "new": true
+        },
+        {
+         "tex": "\\sqrt{80} &= 4\\sqrt{5}",
+         "sym": "4*sqrt(5)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Add and subtract the like surds",
+       "lines": [
+        {
+         "tex": "6\\sqrt{5} + 3\\sqrt{5} - 4\\sqrt{5} &= 5\\sqrt{5}",
+         "sym": "5*sqrt(5)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "5\\sqrt{5}"
+    },
+    "finalSym": "5*sqrt(5)",
+    "answerSym": "3*sqrt(20) + sqrt(45) - sqrt(80)"
+   }
+  ]
+ },
+ {
+  "skill": "seq-arith-find-ad",
+  "problems": [
+   {
+    "question": "The $n$th term of an arithmetic sequence is $T_n = \\frac{3n - 1}{2}$.\nFind $a$, the first term, and $d$, the common difference.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute n = 1 and n = 2",
+       "lines": [
+        {
+         "tex": "T_1 &= \\frac{3(1) - 1}{2}",
+         "sym": "(3*1 - 1)/2",
+         "new": true
+        },
+        {
+         "tex": "&= 1",
+         "sym": "1"
+        },
+        {
+         "tex": "T_2 &= \\frac{3(2) - 1}{2}",
+         "sym": "(3*2 - 1)/2",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{5}{2}",
+         "sym": "Rational(5,2)"
+        }
+       ]
+      },
+      {
+       "title": "Read off a and subtract to find d",
+       "lines": [
+        {
+         "tex": "a &= T_1 = 1",
+         "sym": "1",
+         "new": true
+        },
+        {
+         "tex": "d &= T_2 - T_1",
+         "sym": "Rational(5,2) - 1",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{5}{2} - 1",
+         "sym": "Rational(5,2) - 1"
+        },
+        {
+         "tex": "&= \\frac{3}{2}",
+         "sym": "Rational(3,2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a = 1,\\ d = \\frac{3}{2}"
+    },
+    "finalSym": "(1, Rational(3,2))",
+    "answerSym": "(Rational(3*1 - 1, 2), Rational(3*2 - 1, 2) - Rational(3*1 - 1, 2))"
+   }
+  ]
+ }
+]

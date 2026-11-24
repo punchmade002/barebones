@@ -1,0 +1,69 @@
+[
+ {
+  "skill": "geo-prove-thm11",
+  "of": "811efe77c3ee",
+  "title": "Prove Theorem 11",
+  "show": "three parallel lines cutting transversal AC with AB=BC, and a second transversal with the construction line parallel to AC for the proof",
+  "example": {
+   "question": "Three parallel lines $AD$, $BE$ and $CF$ cut off equal segments on the transversal $AC$, so $|AB| = |BC|$. Prove that they cut off equal segments on any other transversal $DF$, so $|DE| = |EF|$.",
+   "final": "|DE| = |EF|",
+   "steps": [
+    {
+     "say": "Write down what you are given and what you must show, with a diagram.",
+     "rows": [
+      {
+       "aside": "Given: $AD \\parallel BE \\parallel CF$ and $|AB| = |BC|$."
+      },
+      {
+       "aside": "To prove: $|DE| = |EF|$."
+      }
+     ]
+    },
+    {
+     "say": "Draw through $A$ a line parallel to $DE$. It meets $BE$ at $E'$ and $CF$ at $F'$. Draw through $F'$ a line parallel to $AB$, meeting $BE$ at $B'$.",
+     "rows": [
+      {
+       "aside": "Construction: $AF' \\parallel DE$, and $F'B' \\parallel AB$ meeting $BE$ at $B'$."
+      }
+     ]
+    },
+    {
+     "say": "Both pairs of opposite sides are parallel, so $BCF'B'$ is a parallelogram. Opposite sides of a parallelogram are equal.",
+     "rows": [
+      {
+       "aside": "$|B'F'| = |BC|$ (opposite sides in parallelogram $BCF'B'$)."
+      },
+      {
+       "aside": "$|BC| = |AB|$ (given), so $|B'F'| = |AB|$."
+      }
+     ]
+    },
+    {
+     "say": "Look at the triangles $ABE'$ and $F'B'E'$ that meet at $E'$. Find two equal angles and one equal side.",
+     "rows": [
+      {
+       "aside": "$|\\angle BAE'| = |\\angle B'F'E'|$ (alternate angles)."
+      },
+      {
+       "aside": "$|\\angle AE'B| = |\\angle F'E'B'|$ (vertically opposite angles)."
+      },
+      {
+       "aside": "So the triangles are congruent by **ASA**, and $|AE'| = |F'E'|$."
+      }
+     ]
+    },
+    {
+     "say": "$AE'$ and $DE$ are opposite sides of a parallelogram, and so are $F'E'$ and $FE$.",
+     "rows": [
+      {
+       "aside": "$|DE| = |AE'| = |F'E'| = |EF|$ (opposite sides in a parallelogram)."
+      },
+      {
+       "aside": "Hence $|DE| = |EF|$. Done."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

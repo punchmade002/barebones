@@ -1,0 +1,349 @@
+[
+ {
+  "part": "maths-pp-2018-higher-p1-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate h(x) to get the slope formula\nThe slope of the tangent is $h'(x)$. Use the chain rule: the derivative of $\\cos u$ is $-\\sin u$, times the derivative of $u = 2x$, which is $2$.\nh(x) &= \\cos(2x)\nh'(x) &= -2\\sin(2x)\n## Find the slope at x = pi/3\nh'\\left(\\frac{\\pi}{3}\\right) &= -2\\sin\\left(\\frac{2\\pi}{3}\\right)\n&= -2\\left(\\frac{\\sqrt{3}}{2}\\right)\n&= -\\sqrt{3}\n## Find the angle from the slope\nThe slope equals $\\tan\\theta$, where $\\theta$ is the angle with the positive sense of the $x$-axis.\n\\tan\\theta &= -\\sqrt{3}\n$\\tan 60^\\circ = \\sqrt{3}$. The slope is negative, so the angle is obtuse: $180^\\circ - 60^\\circ$.\n\\theta &= 180^\\circ - 60^\\circ\n\\theta &= 120^\\circ\nANSWER: 120^\\circ"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 15,
+  "solution": "## Write the average value formula\nThe average value of $h(x)$ over $a \\le x \\le b$ is $\\dfrac{1}{b-a}\\displaystyle\\int_a^b h(x)\\,dx$. Here $a = 0$ and $b = \\dfrac{\\pi}{4}$.\n\\text{Average} &= \\frac{1}{\\frac{\\pi}{4} - 0}\\int_0^{\\pi/4}\\cos(2x)\\,dx\n&= \\frac{4}{\\pi}\\int_0^{\\pi/4}\\cos(2x)\\,dx\n## Integrate cos(2x)\n$\\displaystyle\\int \\cos(2x)\\,dx = \\dfrac{\\sin(2x)}{2}$, because the derivative of $\\dfrac{\\sin(2x)}{2}$ is $\\cos(2x)$.\n\\text{Average} &= \\frac{4}{\\pi}\\left[\\frac{\\sin(2x)}{2}\\right]_0^{\\pi/4}\n## Substitute the limits\n&= \\frac{4}{\\pi}\\left(\\frac{\\sin\\frac{\\pi}{2}}{2} - \\frac{\\sin 0}{2}\\right)\n&= \\frac{4}{\\pi}\\left(\\frac{1}{2} - 0\\right)\n## Simplify\n&= \\frac{4}{\\pi}\\times\\frac{1}{2}\n&= \\frac{2}{\\pi}\nANSWER: \\frac{2}{\\pi}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths18"
+  ],
+  "marks": 15,
+  "solution": "## Test the result for n = 1\nLet $P(n)$ be the statement $(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)$.\n(\\cos\\theta + i\\sin\\theta)^1 &= \\cos\\theta + i\\sin\\theta\n&= \\cos(1\\theta) + i\\sin(1\\theta)\nSo $P(1)$ is true.\n## Assume the result is true for n = k\n(\\cos\\theta + i\\sin\\theta)^k &= \\cos(k\\theta) + i\\sin(k\\theta)\nThis is $P(k)$. We now test $P(k+1)$.\n## Write the (k + 1) power as a product\n(\\cos\\theta + i\\sin\\theta)^{k+1} &= (\\cos\\theta + i\\sin\\theta)^k (\\cos\\theta + i\\sin\\theta)^1\n&= (\\cos(k\\theta) + i\\sin(k\\theta))(\\cos\\theta + i\\sin\\theta)\n## Multiply out the brackets\n&= \\cos(k\\theta)\\cos\\theta + i\\cos(k\\theta)\\sin\\theta + i\\sin(k\\theta)\\cos\\theta + i^2\\sin(k\\theta)\\sin\\theta\nReplace $i^2$ with $-1$.\n&= \\cos(k\\theta)\\cos\\theta - \\sin(k\\theta)\\sin\\theta + i\\cos(k\\theta)\\sin\\theta + i\\sin(k\\theta)\\cos\\theta\n## Group the real and imaginary parts\n&= [\\cos(k\\theta)\\cos\\theta - \\sin(k\\theta)\\sin\\theta] + i[\\cos(k\\theta)\\sin\\theta + \\sin(k\\theta)\\cos\\theta]\n## Use the addition formulas\n$\\cos(A+B) = \\cos A\\cos B - \\sin A\\sin B$ and $\\sin(A+B) = \\sin A\\cos B + \\cos A\\sin B$, with $A = k\\theta$ and $B = \\theta$.\n&= \\cos(k\\theta + \\theta) + i\\sin(k\\theta + \\theta)\n&= \\cos((k+1)\\theta) + i\\sin((k+1)\\theta)\nSo $P(k+1)$ is true.\n## State the conclusion\n$P(1)$ is true. If $P(k)$ is true then $P(k+1)$ is true. Hence $P(n)$ is true for all positive integers $n$.\nANSWER: (\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Find the modulus\nr &= \\sqrt{\\left(-\\frac{1}{2}\\right)^2 + \\left(\\frac{\\sqrt{3}}{2}\\right)^2}\n&= \\sqrt{\\frac{1}{4} + \\frac{3}{4}}\n&= \\sqrt{1}\n&= 1\n## Find the argument\nThe point $\\left(-\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$ is in the second quadrant. The reference angle $\\alpha$ has $\\tan\\alpha = \\frac{\\sqrt{3}/2}{1/2} = \\sqrt{3}$, so $\\alpha = \\frac{\\pi}{3}$.\n\\theta &= \\pi - \\frac{\\pi}{3}\n&= \\frac{2\\pi}{3}\n## Write in polar form and cube it\nz^3 &= \\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)^3\nUse the result from part (a) with $n = 3$.\n&= \\cos\\left(3 \\times \\frac{2\\pi}{3}\\right) + i\\sin\\left(3 \\times \\frac{2\\pi}{3}\\right)\n&= \\cos 2\\pi + i\\sin 2\\pi\n&= 1 + 0i\n&= 1\nANSWER: 1"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q5#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Identify the first two rows\nRow 1 is $4, 7, 10, 13, \\dots$ so $a = 4$ and $d = 3$.\nRow 2 is $7, 12, 17, 22, \\dots$ so $a = 7$ and $d = 5$.\nUse $S_n = \\frac{n}{2}[2a + (n-1)d]$ with $n = 45$.\n## Sum of the first 45 terms of row 1\nS_{45} &= \\frac{45}{2}[2(4) + (45-1)(3)]\n&= \\frac{45}{2}[8 + 132]\n&= \\frac{45}{2}(140)\n&= 3150\n## Sum of the first 45 terms of row 2\nS_{45} &= \\frac{45}{2}[2(7) + (45-1)(5)]\n&= \\frac{45}{2}[14 + 220]\n&= \\frac{45}{2}(234)\n&= 5265\n## Subtract\n5265 - 3150 &= 2115\nANSWER: 2115"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q5#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## First term of row 60\nThe first column is $4, 7, 10, 13, \\dots$ with $a = 4$ and $d = 3$, so the first term of row 60 is its 60th term.\nT_{60} &= 4 + (60-1)(3)\n&= 4 + 177\n&= 181\n## Second term of row 60\nThe second column is $7, 12, 17, 22, \\dots$ with $a = 7$ and $d = 5$.\nT_{60} &= 7 + (60-1)(5)\n&= 7 + 295\n&= 302\n## Common difference of row 60\nRow 60 begins $181, 302, \\dots$, so $a = 181$.\nd &= 302 - 181\n&= 121\n## 70th term of row 60\nT_{70} &= 181 + (70-1)(121)\n&= 181 + 8349\n&= 8530\nANSWER: 8530"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write out the next terms\na_3 &= a_2 - a_1 = 2 - 4 = -2\na_4 &= a_3 - a_2 = -2 - 2 = -4\na_5 &= a_4 - a_3 = -4 - (-2) = -2\na_6 &= a_5 - a_4 = -2 - (-4) = 2\na_7 &= a_6 - a_5 = 2 - (-2) = 4\na_8 &= a_7 - a_6 = 4 - 2 = 2\n## Spot the repeating pattern\nThe sequence is $4, 2, -2, -4, -2, 2, 4, 2, \\dots$, so $a_7 = a_1$ and $a_8 = a_2$. It repeats every 6 terms.\n6 \\times 336 &= 2016\nSo $a_{2016}$ is the end of a block, the same as $a_6 = 2$, and $a_{2019}$ is 3 terms further on, the same as $a_3$.\na_{2019} &= a_3 = -2\nANSWER: a_{2019} = -2"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Set the functions equal\nThe graphs meet where $k(x) = h(x)$.\nx^3 &= x\nx^3 - x &= 0\n## Factorise\nx(x^2 - 1) &= 0\nx(x-1)(x+1) &= 0\n## Solve and find the y-values\nx &= 0, \\; 1, \\; -1\nSince $h(x) = x$, the $y$-value equals the $x$-value at each point.\nThe points are $(-1, -1)$, $(0, 0)$ and $(1, 1)$.\nANSWER: (-1,-1),\\ (0,0),\\ (1,1)"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q6#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Use symmetry\nBoth graphs are symmetric about the origin, so the area from $-1$ to $0$ equals the area from $0$ to $1$.\nBetween $0$ and $1$ the line $y = x$ is above $y = x^3$.\n\\text{Area} &= 2\\int_0^1 (x - x^3)\\,dx\n## Integrate\n&= 2\\left[\\frac{x^2}{2} - \\frac{x^4}{4}\\right]_0^1\n&= 2\\left[\\left(\\frac{1}{2} - \\frac{1}{4}\\right) - 0\\right]\n&= 2\\left(\\frac{1}{4}\\right)\n&= \\frac{1}{2}\nANSWER: \\frac{1}{2}\\text{ unit}^2"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q6#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Use the reflection property\nThe graph of $k^{-1}$ is the reflection of the graph of $k$ in the line $y = x$. Swap the coordinates of points on $k$.\n$(1, 1)$, $(0, 0)$ and $(-1, -1)$ lie on $y = x$, so they stay fixed.\n## Plot and join\nFor example $(0.5, 0.125)$ on $k$ becomes $(0.125, 0.5)$ on $k^{-1}$.\nDraw a smooth curve through $(-1,-1)$, $(0,0)$ and $(1,1)$ that is steep at the origin.\nk^{-1}(x) &= \\sqrt[3]{x}\nANSWER: k^{-1}(x) = \\sqrt[3]{x}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Substitute x = 35 and t = 35.96\n$t(x) = k\\ln\\left(1-\\frac{x}{80}\\right)$ is the function in terms of $k$. Jack learns 35 wpm in 35.96 days.\n35.96 &= k\\ln\\left(1-\\frac{35}{80}\\right)\n35.96 &= k\\ln\\left(\\frac{45}{80}\\right)\n## Divide both sides by the logarithm\nk &= \\frac{35.96}{\\ln\\left(\\frac{45}{80}\\right)}\nk &= -62.5\nThis is $-62.5$ correct to 1 decimal place.\nANSWER: k = -62.5"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 100\n100 &= -62.5\\ln\\left(1-\\frac{x}{80}\\right)\n## Divide by −62.5\n\\frac{100}{-62.5} &= \\ln\\left(1-\\frac{x}{80}\\right)\n## Remove the ln by raising e to both sides\ne^{\\frac{100}{-62.5}} &= 1-\\frac{x}{80}\n## Solve for x\n\\frac{x}{80} &= 1-e^{-1.6}\nx &= 80\\left(1-e^{-1.6}\\right)\nx &\\approx 64\nANSWER: x \\approx 64 \\text{ wpm}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 20,
+  "solution": "## Substitute x = 0, 10, 20, 30 into t(x)\nUse $t(x) = -62.5\\ln\\left(1-\\frac{x}{80}\\right)$ and round each answer to a whole number.\nt(0) &= -62.5\\ln(1)\n&= 0\nt(10) &= -62.5\\ln\\left(1-\\frac{10}{80}\\right)\n&\\approx 8\nt(20) &= -62.5\\ln\\left(1-\\frac{20}{80}\\right)\n&\\approx 18\nt(30) &= -62.5\\ln\\left(1-\\frac{30}{80}\\right)\n&\\approx 29\n## Substitute x = 40, 50, 60, 70 into t(x)\nt(40) &= -62.5\\ln\\left(1-\\frac{40}{80}\\right)\n&\\approx 43\nt(50) &= -62.5\\ln\\left(1-\\frac{50}{80}\\right)\n&\\approx 61\nt(60) &= -62.5\\ln\\left(1-\\frac{60}{80}\\right)\n&\\approx 87\nt(70) &= -62.5\\ln\\left(1-\\frac{70}{80}\\right)\n&\\approx 130\n## Read off the completed table\n$x$: 0, 10, 20, 30, 40, 50, 60, 70.\n$t(x)$: 0, 8, 18, 29, 43, 61, 87, 130.\n## Plot the points and join them with a smooth curve\nPlot each pair $(x, t(x))$, e.g. $(10, 8)$, $(40, 43)$, $(70, 130)$.\nJoin the points with a smooth curve starting at the origin.\nANSWER: t(x):\\ 0,\\ 8,\\ 18,\\ 29,\\ 43,\\ 61,\\ 87,\\ 130"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find two points on p(x) = 1.5x\nA straight line through the origin needs one more point; use $x = 40$ and $x = 70$.\np(0) &= 1.5(0)\n&= 0\np(40) &= 1.5 \\times 40\n&= 60\np(70) &= 1.5 \\times 70\n&= 105\n## Draw the line\nPlot $(0, 0)$, $(40, 60)$ and $(70, 105)$ and join them with a straight line.\nANSWER: \\text{line through } (0,0),\\ (40,60),\\ (70,105)"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q7#(e)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Read where the graphs cross\n$h(x) = p(x) - t(x) = 0$ means $p(x) = t(x)$, so look for where the two graphs meet.\nThe graphs cross at about $x = 62$, where both are about 93 days.\nANSWER: x \\approx 62 \\text{ wpm}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q7#(e)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Write h(x) in terms of x\nh(x) &= p(x) - t(x)\n&= 1.5x - \\left(-62.5\\ln\\left(1-\\frac{x}{80}\\right)\\right)\n&= 1.5x + 62.5\\ln\\left(1-\\frac{x}{80}\\right)\n## Differentiate h(x)\nThe derivative of $\\ln u$ is $\\frac{1}{u}\\times u'$, here $u = 1-\\frac{x}{80}$ and $u' = -\\frac{1}{80}$.\nh'(x) &= 1.5 + 62.5\\left(\\frac{1}{1-\\frac{x}{80}}\\right)\\left(-\\frac{1}{80}\\right)\n&= 1.5 - \\frac{62.5}{80-x}\n## Set h'(x) = 0 and solve\n1.5 - \\frac{62.5}{80-x} &= 0\n\\frac{62.5}{80-x} &= 1.5\n80-x &= \\frac{62.5}{1.5}\nx &= 80 - \\frac{62.5}{1.5}\nx &= 80 - \\frac{125}{3}\nx &= 38\\tfrac{1}{3}\n## Check it is a maximum\nh''(x) &= -\\frac{62.5}{(80-x)^2}\nThis is negative for every $x < 80$, so $x = 38\\frac{1}{3}$ gives a maximum.\n## Substitute x = 38⅓ into h(x)\nh\\left(\\tfrac{115}{3}\\right) &= 1.5\\left(\\tfrac{115}{3}\\right) + 62.5\\ln\\left(1-\\tfrac{115}{240}\\right)\n&= 57.5 + 62.5\\ln\\left(\\tfrac{25}{48}\\right)\n&\\approx 16.73\n&\\approx 17\nANSWER: 17 \\text{ days}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Substitute x = 0 into f(x)\nf(0) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}(0)^2}\n&= \\frac{1}{\\sqrt{2\\pi}}e^{0}\n&= \\frac{1}{\\sqrt{2\\pi}}(1)\n&= \\frac{1}{\\sqrt{2\\pi}}\n## State the point\nThe graph meets the $y$-axis at $A\\left(0, \\frac{1}{\\sqrt{2\\pi}}\\right)$.\nANSWER: A\\left(0, \\frac{1}{\\sqrt{2\\pi}}\\right)"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q8#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the width of the rectangle\n$B$ is at $x = -1$. The graph is symmetric about the $y$-axis, so $C$ is at $x = 1$.\n\\text{width} &= 1-(-1)\n&= 2\n## Find the height\nThe height is the $y$-coordinate of $B$ (and $C$).\n\\text{height} &= \\frac{1}{\\sqrt{2\\pi e}}\n## Multiply width by height\n\\text{Area} &= 2\\times\\frac{1}{\\sqrt{2\\pi e}}\n&= 0.4839\n&\\approx 0.484\nANSWER: 0.484 \\text{ units}^2"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Find the coordinates of C\nBy symmetry, $C$ is the mirror image of $B\\left(-1, \\frac{1}{\\sqrt{2\\pi e}}\\right)$, so $C\\left(1, \\frac{1}{\\sqrt{2\\pi e}}\\right)$.\n## Differentiate f(x)\nChain rule: the derivative of $e^{u}$ is $e^{u}u'$, with $u = -\\frac{1}{2}x^2$ and $u' = -x$.\nf'(x) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(-x)\n## Substitute x = 1 into f'(x)\nf'(1) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}(1)^2}(-1)\n&= -\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}}\n&= -\\frac{1}{\\sqrt{2\\pi e}}\n&\\approx -0.242\n## Conclude\n$f'(1) < 0$, so $f(x)$ is decreasing at $C$.\nANSWER: f'(1) \\approx -0.242 < 0 \\text{, so } f(x) \\text{ is decreasing at } C"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q8#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Find the first derivative\nChain rule, as in part (c).\nf'(x) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(-x)\n## Differentiate again with the product rule\nTake $u = -x$ and $v = \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}$, so $f''(x) = u'v + uv'$.\nf''(x) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(-1) + (-x)\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(-x)\n&= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}\\left(-1 + x^2\\right)\n&= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(x^2-1)\n## Substitute x = −1 into f''(x)\nf''(-1) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}(-1)^2}\\left((-1)^2-1\\right)\n&= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}}(1-1)\n&= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}}(0)\n&= 0\n## Conclude\n$f''(-1) = 0$, and $x^2-1$ changes sign at $x=-1$ (positive for $x < -1$, negative just after), so $f''$ changes sign.\nTherefore $f(x)$ has a point of inflection at $B$, where $x = -1$.\nANSWER: f''(-1) = 0 \\text{, so there is a point of inflection at } B"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Count the black triangles\nEach black triangle is replaced by 3 smaller black triangles, so the count is multiplied by 3 at each step.\n\\text{Step 1: } 1\\times 3 &= 3\n\\text{Step 2: } 3\\times 3 &= 9\n\\text{Step 3: } 9\\times 3 &= 27\n## Find the fraction of the area remaining\nThe removed triangle is $\\frac{1}{4}$ of each black triangle, so $\\frac{3}{4}$ remains: multiply the fraction by $\\frac{3}{4}$ each step.\n\\text{Step 1: } 1\\times\\frac{3}{4} &= \\frac{3}{4}\n\\text{Step 2: } \\frac{3}{4}\\times\\frac{3}{4} &= \\frac{9}{16}\n\\text{Step 3: } \\frac{9}{16}\\times\\frac{3}{4} &= \\frac{27}{64}\n## Completed table\nBlack triangles for steps 0 to 3: 1, 3, 9, 27.\nFraction remaining for steps 0 to 3: $1$, $\\frac{3}{4}$, $\\frac{9}{16}$, $\\frac{27}{64}$.\nANSWER: \\text{Triangles: } 1, 3, 9, 27 \\quad \\text{Fractions: } 1, \\tfrac{3}{4}, \\tfrac{9}{16}, \\tfrac{27}{64}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q9#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Spot the pattern\nThe numbers of black triangles are 1, 3, 9, 27, and each is 3 times the one before.\n1, 3, 9, 27 &= 3^0, 3^1, 3^2, 3^3\nStep $n$ has $3^n$ black triangles.\nANSWER: 3^n"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q9#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write the inequality\n3^k &> 1\\,000\\,000\\,000\n## Take log base 3 of both sides\n\\log_3 3^k &> \\log_3 10^9\nk &> \\log_3 10^9\n## Evaluate with the change of base rule\nk &> \\frac{9\\ln 10}{\\ln 3}\nk &> 18.863\n## Choose the first whole number\n$k$ is a whole step number, and the first whole number above 18.863 is 19.\nk &= 19\nANSWER: k = 19"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q9#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Write the inequality\nThe fraction remaining at step $h$ is $\\left(\\frac{3}{4}\\right)^h$.\n\\left(\\frac{3}{4}\\right)^h &< \\frac{1}{100}\n## Take ln of both sides\n\\ln\\left(\\frac{3}{4}\\right)^h &< \\ln\\frac{1}{100}\nh\\ln\\left(\\frac{3}{4}\\right) &< \\ln\\frac{1}{100}\n## Divide by ln(3/4)\n$\\ln\\left(\\frac{3}{4}\\right)$ is negative, so dividing reverses the inequality.\nh &> \\frac{\\ln\\frac{1}{100}}{\\ln\\frac{3}{4}}\nh &> 16.008\n## Choose the first whole number\nh &= 17\nANSWER: h = 17"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q9#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Take the limit as n tends to infinity\nThe fraction remaining at step $n$ is $\\left(\\frac{3}{4}\\right)^n$, and $\\frac{3}{4}$ is between $-1$ and $1$.\n\\lim_{n\\to\\infty}\\left(\\frac{3}{4}\\right)^n &= 0\nThe fraction remaining tends to $0$.\nANSWER: 0"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q9#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find the pattern for the perimeter\nEach black triangle has half the side length, but there are 3 times as many, so the total perimeter is multiplied by $\\frac{3}{2}$ each step.\n## Multiply by 3/2 at each step\n\\text{Step 1: } 3\\times\\frac{3}{2} &= \\frac{9}{2}\n\\text{Step 2: } \\frac{9}{2}\\times\\frac{3}{2} &= \\frac{27}{4}\n\\text{Step 3: } \\frac{27}{4}\\times\\frac{3}{2} &= \\frac{81}{8}\n\\text{Step 4: } \\frac{81}{8}\\times\\frac{3}{2} &= \\frac{243}{16}\nANSWER: 3,\\ \\tfrac{9}{2},\\ \\tfrac{27}{4},\\ \\tfrac{81}{8},\\ \\tfrac{243}{16}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q9#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write the perimeter at step n\nA geometric sequence with first term 3 (step 0) and ratio $\\frac{3}{2}$.\nP_n &= 3\\left(\\frac{3}{2}\\right)^n\n## Substitute n = 35\nP_{35} &= 3\\left(\\frac{3}{2}\\right)^{35}\n&\\approx 4\\,368\\,329\nANSWER: 4\\,368\\,329 \\text{ units}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q9#(d)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Area\nFrom (c)(ii) the fraction remaining tends to 0, so the total area of the black triangles tends to 0.\n\\text{Area} &\\to 0\n## Perimeter\nThe perimeter is multiplied by $\\frac{3}{2} > 1$ each step, so it keeps growing.\n\\text{Perimeter} &\\to \\infty\nANSWER: \\text{Area} \\to 0 \\text{ and perimeter} \\to \\infty"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Find the expected prize money\nExpected value is the sum of (probability $\\times$ prize) for each prize.\nE(\\text{prize}) &= \\frac{1}{20}(9000) + \\frac{1}{10}(7000) + \\frac{1}{4}(3000)\n&= 450 + 700 + 750\n&= 1900\n## Subtract the prize money from the entry fee\nMary pays $\\text{€}2000$ to enter and expects to win back $\\text{€}1900$.\n\\text{Expected loss} &= 2000 - 1900\n&= 100\nANSWER: \\text{€}100"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Write the equation for breaking even\nBreaking even means the expected prize money equals the entry fee, $\\text{€}2000$.\n\\frac{1}{20}(9000+x) + \\frac{1}{10}(7000+x) + \\frac{1}{4}(3000+x) &= 2000\n## Expand the brackets\n450 + \\frac{x}{20} + 700 + \\frac{x}{10} + 750 + \\frac{x}{4} &= 2000\n## Collect the numbers and the x terms\n1900 + \\frac{x}{20} + \\frac{x}{10} + \\frac{x}{4} &= 2000\n1900 + \\frac{x}{20} + \\frac{2x}{20} + \\frac{5x}{20} &= 2000\n1900 + \\frac{8x}{20} &= 2000\n## Solve for x\n\\frac{8x}{20} &= 100\n8x &= 2000\nx &= 250\nANSWER: x = \\text{€}250"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Read the shaded area as a probability\nThe shaded area is everything to the left of $z_1$.\nP(z < z_1) &= 0.67\n## Look up 0.67 in the normal tables\nIn the body of the table, $0.6700$ sits at $z = 0.44$.\nz_1 &= 0.44\nANSWER: z_1 = 0.44"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q2#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Convert each mark to a z-score\nUse $z = \\frac{x - \\mu}{\\sigma}$ to compare marks across exams.\nz_{\\text{Maths}} &= \\frac{65 - 70}{15}\n&= \\frac{-5}{15}\n&= -\\frac{1}{3}\n## Do the same for English\nz_{\\text{English}} &= \\frac{68 - 72}{10}\n&= \\frac{-4}{10}\n&= -\\frac{2}{5}\n## Compare the z-scores\nA higher z-score means Mary is further above the class average. $-0.33$ is bigger than $-0.4$.\n-\\frac{1}{3} &> -\\frac{2}{5}\nSo Mary did better in Maths, because her z-score there is higher (closer to the mean).\nANSWER: \\text{Maths, since } -\\frac{1}{3} > -\\frac{2}{5}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q2#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Find the z-score for the top 15%\nP(z > z_1) &= 0.15\nP(z < z_1) &= 1 - 0.15 = 0.85\nFrom the tables, $0.85$ gives $z = 1.04$ (the nearest entry is $0.8508$).\n## Substitute into the z-score formula\nEnglish has mean 72 and standard deviation 10.\n1.04 &= \\frac{x - 72}{10}\n10.4 &= x - 72\nx &= 82.4\n## Round up to a whole mark\n82 is below 82.4, so it is not enough for an A. The least whole number mark is 83.\nx &= 83\nANSWER: 83"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q2#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths24",
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Place 52 and 82 in standard deviations from the mean\n\\frac{82 - 72}{10} &= 1\n&= 1\n\\frac{52 - 72}{10} &= -2\n&= -2\nSo 82 is 1 standard deviation above the mean and 52 is 2 standard deviations below it.\n## Use the empirical rule on each side of the mean\nWithin 1 standard deviation is about 68%, so half of that lies above the mean. Within 2 is about 95%, so half lies below.\n\\frac{68}{2} &= 34\n&= 34\n\\frac{95}{2} &= 47.5\n&= 47.5\n## Add the two parts\n34 + 47.5 &= 81.5\n&= 81.5\nANSWER: 81.5\\%"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q3#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Count the choices for each digit\nThe last digit must be 0, so it has 1 choice. Each of the other 5 digits can be any of 10 digits.\n10 \\times 10 \\times 10 \\times 10 \\times 10 \\times 1 &= 10^5\n&= 100\\,000\nANSWER: 100\\,000"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q3#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Place the block 2018 in the code\nTreat 2018 as a block of four digits. In a six-digit code it can start in position 1, 2 or 3, so there are 3 positions.\nThe 2 remaining digits are free, with 10 choices each.\n## Multiply\n3 \\times 10 \\times 10 &= 3 \\times 10^2\n&= 300\nANSWER: 300"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths2",
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Simplify the first fraction\nExpand $(n+3)!$ as $(n+3)(n+2)(n+1)!$ and cancel.\n\\frac{(n+3)!}{(n+1)!} &= \\frac{(n+3)(n+2)(n+1)!}{(n+1)!}\n&= (n+3)(n+2)\n## Simplify the second fraction\nExpand $(n+2)!$ as $(n+2)(n+1)!$ and cancel.\n\\frac{(n+2)!}{(n+1)!} &= \\frac{(n+2)(n+1)!}{(n+1)!}\n&= n+2\n## Multiply and expand\n\\text{Product} &= (n+3)(n+2)(n+2)\n&= (n^2 + 5n + 6)(n+2)\n&= n^3 + 2n^2 + 5n^2 + 10n + 6n + 12\n&= n^3 + 7n^2 + 16n + 12\n## Match coefficients with the given form\nMatching the coefficients of each power of $n$ gives the values.\nANSWER: a = 1,\\ b = 7,\\ c = 16,\\ d = 12"
+ }
+]

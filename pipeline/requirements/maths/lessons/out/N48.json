@@ -1,0 +1,647 @@
+[
+ {
+  "skill": "diff-slope-tangent",
+  "problems": [
+   {
+    "part": "maths-pp-2023-ordinary-p1-q4#(b)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the slope, m",
+     "2": "x of the point",
+     "3": "y of the point",
+     "4": "the tangent equation"
+    },
+    "steps": [
+     {
+      "ask": "What is the slope of the tangent at x = 2, in terms of h′?",
+      "title": "Find the slope at x = 2",
+      "lines": [
+       {
+        "text": "The slope of the tangent is $\\hl{1}{h'(2)}$."
+       },
+       {
+        "tex": "\\hl{1}{h'(2)} &= 3(2)^2 + 4(2) - 1"
+       },
+       {
+        "tex": "&= 12 + 8 - 1"
+       },
+       {
+        "tex": "&= \\hl{1}{19}"
+       }
+      ]
+     },
+     {
+      "ask": "Which formula links a point and a slope to the equation of a line?",
+      "title": "Use the point-slope formula",
+      "lines": [
+       {
+        "text": "With $m = \\hl{1}{19}$ and point $(\\hl{2}{2}, \\hl{3}{6})$: $y - y_1 = m(x - x_1)$."
+       },
+       {
+        "tex": "y - \\hl{3}{6} &= \\hl{1}{19}(x - \\hl{2}{2})"
+       }
+      ]
+     },
+     {
+      "ask": "How do you move every term to one side so the equation equals 0?",
+      "title": "Rearrange (optional)",
+      "lines": [
+       {
+        "tex": "y - 6 &= 19x - 38"
+       },
+       {
+        "tex": "0 &= \\hl{4}{19x - y - 32}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{19x - y - 32 = 0}",
+    "graph": null
+   },
+   {
+    "part": "practice-diff-slope-tangent-2",
+    "note": "The curve is now a quadratic, so its derivative is the simpler line 4x − 3. The point (2, 7) is still given, and the method is the same as problem 1, except that the derivative is worked out in the first step.",
+    "legend": {
+     "1": "the slope, m",
+     "2": "x of the point",
+     "3": "y of the point",
+     "4": "the tangent equation"
+    },
+    "steps": [
+     {
+      "ask": "What is the derivative of 2x² − 3x + 5? Differentiate each term.",
+      "title": "Differentiate to find the slope",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= 4x - 3"
+       }
+      ]
+     },
+     {
+      "ask": "Which x-value do you substitute into the derivative to get the slope at the point?",
+      "title": "Find the slope at x = 2",
+      "lines": [
+       {
+        "tex": "m &= 4(2) - 3 = \\hl{1}{5}"
+       }
+      ]
+     },
+     {
+      "ask": "Given the slope and the point, what is the point-slope equation?",
+      "title": "Use the point-slope formula",
+      "lines": [
+       {
+        "text": "With $m = \\hl{1}{5}$ and point $(\\hl{2}{2}, \\hl{3}{7})$: $y - y_1 = m(x - x_1)$."
+       },
+       {
+        "tex": "y - \\hl{3}{7} &= \\hl{1}{5}(x - \\hl{2}{2})"
+       }
+      ]
+     },
+     {
+      "ask": "How do you collect the terms so that one side is 0?",
+      "title": "Rearrange",
+      "lines": [
+       {
+        "tex": "y - 7 &= 5x - 10"
+       },
+       {
+        "tex": "0 &= \\hl{4}{5x - y - 3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{5x - y - 3 = 0}",
+    "graph": {
+     "f": "2*x**2 - 3*x + 5",
+     "box": [
+      -1,
+      27,
+      4,
+      2.5
+     ],
+     "tangent": true,
+     "points": [
+      {
+       "x": 2,
+       "y": 7,
+       "name": "point (2, 7)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 2,
+      "y": 3,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "practice-diff-slope-tangent-1",
+    "note": "The point is not given, so you must find it by putting x = −1 into the curve. The answer is in the form y = mx + c rather than ax + by + c = 0. The slope and point-slope steps are the same as problem 1.",
+    "legend": {
+     "1": "the slope, m",
+     "2": "x of the point",
+     "3": "y of the point",
+     "4": "the tangent equation"
+    },
+    "steps": [
+     {
+      "ask": "What is dy/dx, and what is its value at x = −1?",
+      "title": "Find the slope at x = -1",
+      "lines": [
+       {
+        "text": "Differentiate, then substitute $x = -1$."
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 3x^2 - 4"
+       },
+       {
+        "tex": "m &= 3(-1)^2 - 4 = \\hl{1}{-1}"
+       }
+      ]
+     },
+     {
+      "ask": "What is y when x = −1? Put x into the curve.",
+      "title": "Find the point on the curve",
+      "lines": [
+       {
+        "tex": "y &= (-1)^3 - 4(-1) = \\hl{3}{3}"
+       },
+       {
+        "text": "The point is $(\\hl{2}{-1}, \\hl{3}{3})$."
+       }
+      ]
+     },
+     {
+      "ask": "Using the slope and the point, how do you write the line, then make y the subject?",
+      "title": "Use the point-slope formula",
+      "lines": [
+       {
+        "text": "With $m = \\hl{1}{-1}$ and point $(\\hl{2}{-1}, \\hl{3}{3})$: $y - y_1 = m(x - x_1)$."
+       },
+       {
+        "tex": "y - \\hl{3}{3} &= \\hl{1}{-1}(x + 1)"
+       },
+       {
+        "tex": "y &= \\hl{4}{-x + 2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{y = -x + 2}",
+    "graph": {
+     "f": "x**3 - 4*x",
+     "box": [
+      -3,
+      16,
+      3,
+      -16
+     ],
+     "tangent": true,
+     "points": [
+      {
+       "x": -1,
+       "y": 3,
+       "name": "point (-1, 3)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 2,
+      "y": 3,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": "stat-back-to-back",
+  "problems": [
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "left-side leaves (before exercise)",
+     "2": "right-side leaves (after exercise)"
+    },
+    "steps": [
+     {
+      "ask": "Which part of a value like 102 goes in the stem column, and which goes in the leaf column?",
+      "title": "Put the stem for each value in its row",
+      "lines": [
+       {
+        "text": "The stem is the tens (and hundreds) part. The leaf is the units digit."
+       },
+       {
+        "text": "Sort the leaves in each row so they increase moving away from the stem."
+       }
+      ]
+     },
+     {
+      "ask": "Which row does 60 go in, and what digit becomes its leaf?",
+      "title": "Fill in the before-exercise leaves (left side)",
+      "lines": [
+       {
+        "text": "$60, 65, 67, 68$ go in row 6 as leaves $\\hl{1}{0, 5, 7, 8}$."
+       },
+       {
+        "text": "$70, 76, 77$ go in row 7 as leaves $\\hl{1}{0, 6, 7}$."
+       },
+       {
+        "text": "$83, 88, 89$ go in row 8 as leaves $\\hl{1}{3, 8, 9}$."
+       }
+      ]
+     },
+     {
+      "ask": "What digits are the leaves for 102 and 108, and which row do they go in?",
+      "title": "Fill in the after-exercise leaves (right side)",
+      "lines": [
+       {
+        "text": "$71, 79$ in row 7. $81, 83, 87$ in row 8. $91$ in row 9."
+       },
+       {
+        "text": "$102, 108$ in row 10 as leaves $\\hl{2}{2, 8}$. $113, 118$ in row 11 as leaves $\\hl{2}{3, 8}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Completed back-to-back plot (see diagram)}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-back-to-back-1",
+    "note": "Instead of filling in a half-drawn plot, you build both sides from raw marks and add a key. The stem and leaf rules are the same, and the leaf counts are the new check.",
+    "legend": {
+     "1": "left-side leaves (Class A)",
+     "2": "right-side leaves (Class B)",
+     "3": "total leaves"
+    },
+    "steps": [
+     {
+      "ask": "Which digit of a mark such as 38 is the stem, and which is the leaf?",
+      "title": "Split each mark into a stem and a leaf",
+      "lines": [
+       {
+        "text": "The stem is the tens digit and the leaf is the units digit. The key $3 | 5 = 35$ marks means stem 3 and leaf 5 give 35."
+       }
+      ]
+     },
+     {
+      "ask": "Which Class A marks have a tens digit of 2, and what are their units digits?",
+      "title": "List the Class A leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 2: 23, 27, 29 so leaves 3, 7, 9."
+       },
+       {
+        "text": "Stem 3: 31, 31, 35, 36, 38 so leaves 1, 1, 5, 6, 8."
+       },
+       {
+        "text": "Stem 4: 42, 44 so leaves 2, 4."
+       }
+      ]
+     },
+     {
+      "ask": "Which Class B marks have a tens digit of 4, and what are their units digits?",
+      "title": "List the Class B leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 2: 25, 28 so leaves 5, 8."
+       },
+       {
+        "text": "Stem 3: 30, 33, 36, 38 so leaves 0, 3, 6, 8."
+       },
+       {
+        "text": "Stem 4: 41, 41, 45, 47 so leaves 1, 1, 5, 7."
+       }
+      ]
+     },
+     {
+      "ask": "How many leaves does each side have, and how many altogether?",
+      "title": "Draw the plot with leaves in order outwards",
+      "lines": [
+       {
+        "text": "Put Class A leaves on the left of the stem and Class B leaves on the right, smallest next to the stem."
+       },
+       {
+        "tex": "\\begin{array}{r|c|l} \\text{Class A} & & \\text{Class B} \\\\ \\hline 9\\;7\\;3 & 2 & 5\\;8 \\\\ 8\\;6\\;5\\;1\\;1 & 3 & 0\\;3\\;6\\;8 \\\\ 4\\;2 & 4 & 1\\;1\\;5\\;7 \\end{array}"
+       },
+       {
+        "text": "Check: each side has 10 leaves, one for each student."
+       },
+       {
+        "tex": "10 + 10 &= 20"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{20} \\text{ leaves, plot as drawn}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q5#(c)",
+    "note": "Only one data set (Week 2) is plotted, so only the left side of the plot is built. The stem and leaf rules are the same. This part has no maths in $…$, so it has no colour marks.",
+    "legend": {},
+    "steps": [
+     {
+      "ask": "How can you list the 16 Week 2 values from smallest to largest?",
+      "title": "Put the Week 2 values in order",
+      "lines": [
+       {
+        "text": "6, 9, 12, 15, 15, 16, 16, 17, 18, 18, 23, 27, 28, 29, 32, 40. There are 16 values."
+       }
+      ]
+     },
+     {
+      "ask": "Which tens digit does each value have, and which values share it?",
+      "title": "Group the values by stem",
+      "lines": [
+       {
+        "text": "Stem 0: 6, 9. Stem 1: 2, 5, 5, 6, 6, 7, 8, 8. Stem 2: 3, 7, 8, 9. Stem 3: 2. Stem 4: 0."
+       }
+      ]
+     },
+     {
+      "ask": "Which leaf goes next to the stem in each row, and how many leaves should the plot show altogether?",
+      "title": "Write the leaves on the left of the stem",
+      "lines": [
+       {
+        "text": "Put the smallest leaf of each row next to the stem, so the leaves get bigger as they move left. Check that 2 + 8 + 4 + 1 + 1 = 16 leaves are shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Week 2 leaves added to the left of the stems}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "trig-graph-abc",
+  "problems": [
+   {
+    "part": "maths-pp-2016-higher-p2-q8#(a)",
+    "note": null,
+    "legend": {
+     "1": "the period",
+     "2": "the coefficient in the angle",
+     "3": "the minimum value",
+     "4": "the maximum value"
+    },
+    "steps": [
+     {
+      "ask": "What is the period of cos(bt) in terms of b? Which number is b in this function?",
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "For $\\cos(bt)$ the period is $\\dfrac{2\\pi}{b}$. Here $b = \\hl{2}{\\dfrac{\\pi}{6}}$."
+       },
+       {
+        "tex": "\\text{Period} &= \\frac{2\\pi}{\\hl{2}{\\pi/6}}"
+       },
+       {
+        "tex": "&= 2\\pi \\times \\frac{6}{\\pi}"
+       },
+       {
+        "tex": "&= \\hl{1}{12\\text{ hours}}"
+       }
+      ]
+     },
+     {
+      "ask": "What are the largest and smallest values that 1.5 cos(…) can take, and how could you use them with 1.6?",
+      "title": "Find the range",
+      "lines": [
+       {
+        "text": "$\\cos$ always lies between $-1$ and $1$, so the $1.5\\cos(\\cdot)$ term lies between $-1.5$ and $1.5$."
+       },
+       {
+        "tex": "\\text{Minimum} &= 1.6 - 1.5"
+       },
+       {
+        "tex": "&= \\hl{3}{0.1}"
+       },
+       {
+        "tex": "\\text{Maximum} &= 1.6 + 1.5"
+       },
+       {
+        "tex": "&= \\hl{4}{3.1}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Period} = \\hl{1}{12\\text{ hours}},\\quad \\text{Range} = [\\hl{3}{0.1},\\,\\hl{4}{3.1}]\\text{ m}",
+    "graph": null
+   },
+   {
+    "part": "practice-trig-graph-abc-1",
+    "note": "What changed: a sine instead of a cosine, a = 8 and b = −6 instead of 1.6 and 1.5, and a Ferris-wheel setting. The period and range steps are the same.",
+    "legend": {
+     "1": "the period",
+     "2": "the coefficient in the angle",
+     "3": "the minimum value",
+     "4": "the maximum value"
+    },
+    "steps": [
+     {
+      "ask": "What is the period of sin(ct) in terms of c, and what is c in this question?",
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "For $\\sin(ct)$ the period is $\\dfrac{2\\pi}{c}$. Here $c = \\hl{2}{\\dfrac{\\pi}{10}}$."
+       },
+       {
+        "tex": "\\text{Period} &= \\frac{2\\pi}{\\hl{2}{\\pi/10}}"
+       },
+       {
+        "tex": "&= 2\\pi \\times \\frac{10}{\\pi}"
+       },
+       {
+        "tex": "&= \\hl{1}{20\\text{ seconds}}"
+       }
+      ]
+     },
+     {
+      "ask": "What are the largest and smallest values of the sine term, and what does multiplying by −6 do to them before you add 8?",
+      "title": "Find the range",
+      "lines": [
+       {
+        "text": "$\\sin$ always lies between $-1$ and $1$, so the $-6\\sin(\\cdot)$ term lies between $-6$ and $6$."
+       },
+       {
+        "tex": "\\text{Minimum} &= 8 - 6"
+       },
+       {
+        "tex": "&= \\hl{3}{2}"
+       },
+       {
+        "tex": "\\text{Maximum} &= 8 + 6"
+       },
+       {
+        "tex": "&= \\hl{4}{14}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Period} = \\hl{1}{20\\text{ seconds}},\\quad \\text{Range} = [\\hl{3}{2},\\,\\hl{4}{14}]\\text{ m}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q9#(b)(ii)",
+    "note": "Now the period is given and c is the unknown, so the calculation runs backwards: c = 2π ÷ period. The range is not asked here, so only the period and c are marked.",
+    "legend": {
+     "1": "the period",
+     "2": "the coefficient c in the angle"
+    },
+    "steps": [
+     {
+      "ask": "How long is one full cycle, from one high tide to the next?",
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "The period of $\\cos ct$ is $\\frac{2\\pi}{c}$. It is the time between two successive high tides: 02:00 to 14:34."
+       },
+       {
+        "tex": "\\text{period} &= \\hl{1}{12\\frac{34}{60} \\text{ hours}}"
+       }
+      ]
+     },
+     {
+      "ask": "How can you rearrange 2π/c = period so that c is on its own?",
+      "title": "Solve for c",
+      "lines": [
+       {
+        "tex": "\\frac{2\\pi}{c} &= \\hl{1}{12\\frac{34}{60}}"
+       },
+       {
+        "tex": "c &= \\frac{2\\pi}{12\\frac{34}{60}}"
+       },
+       {
+        "tex": "c &\\approx \\hl{2}{0.49999}"
+       },
+       {
+        "tex": "c &\\approx \\hl{2}{0.5} \\text{ (1 decimal place)}"
+       }
+      ]
+     }
+    ],
+    "final": "c = \\hl{2}{0.5}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "line-point-on",
+  "problems": [
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(c)(i)",
+    "note": null,
+    "legend": {
+     "1": "x of the point",
+     "2": "y of the point",
+     "3": "value of the left side",
+     "4": "the answer: on or off the line"
+    },
+    "steps": [
+     {
+      "ask": "What does x − y − 3 become when you put in the x and y of T?",
+      "title": "Substitute x = -2 and y = -5 into x - y - 3",
+      "lines": [
+       {
+        "tex": "x - y - 3 &= (\\hl{1}{-2}) - (\\hl{2}{-5}) - 3"
+       },
+       {
+        "tex": "&= -2 + 5 - 3"
+       },
+       {
+        "tex": "&= \\hl{3}{0}"
+       },
+       {
+        "text": "The left side equals $\\hl{3}{0}$, so $T$ is on $k$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{T \\in k}",
+    "graph": null
+   },
+   {
+    "part": "practice-line-point-on-2",
+    "note": "The line is now 4x + 3y + 5 = 0 and the point is P(−2, 1), so the y-term is added. The answer is still yes, and the steps are the same.",
+    "legend": {
+     "1": "x of the point",
+     "2": "y of the point",
+     "3": "value of the left side",
+     "4": "the answer: on or off the line"
+    },
+    "steps": [
+     {
+      "ask": "What do you get when you put the x and y of P into 4x + 3y + 5?",
+      "title": "Substitute x = -2 and y = 1 into 4x + 3y + 5",
+      "lines": [
+       {
+        "tex": "4x + 3y + 5 &= 4(\\hl{1}{-2}) + 3(\\hl{2}{1}) + 5"
+       },
+       {
+        "tex": "&= -8 + 3 + 5"
+       },
+       {
+        "tex": "&= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "What must the left side equal for P to lie on k?",
+      "title": "Compare both sides of the equation",
+      "lines": [
+       {
+        "text": "The left side equals $\\hl{3}{0}$, which is the right side, so $P$ is on $k$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{P \\in k}",
+    "graph": null
+   },
+   {
+    "part": "practice-line-point-on-1",
+    "note": "This point is not on the line: the left side gives −6, not 0, so the answer is no. The substitution steps are the same, but the comparison now gives a no.",
+    "legend": {
+     "1": "x of the point",
+     "2": "y of the point",
+     "3": "value of the left side",
+     "4": "the answer: on or off the line"
+    },
+    "steps": [
+     {
+      "ask": "What do you get when you put x = −1 and y = 5 into 3x − 2y + 7?",
+      "title": "Substitute x = -1 and y = 5 into 3x - 2y + 7",
+      "lines": [
+       {
+        "tex": "3x - 2y + 7 &= 3(\\hl{1}{-1}) - 2(\\hl{2}{5}) + 7"
+       },
+       {
+        "tex": "&= -3 - 10 + 7"
+       },
+       {
+        "tex": "&= \\hl{3}{-6}"
+       }
+      ]
+     },
+     {
+      "ask": "What must the left side equal if the point lies on l?",
+      "title": "Compare with 0",
+      "lines": [
+       {
+        "text": "The left side equals $\\hl{3}{-6}$, not $0$, so the point is not on $l$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{(-1, 5) \\notin l}",
+    "graph": null
+   }
+  ]
+ }
+]

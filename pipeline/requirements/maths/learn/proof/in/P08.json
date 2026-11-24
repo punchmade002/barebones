@@ -1,0 +1,990 @@
+[
+ {
+  "skill": "fin-present-value",
+  "title": "Find the present value of a future sum",
+  "what": {
+   "say": [
+    "You give it a future sum $F$, a yearly rate $i$ and a time $t$. It finds the amount $P$ you would have to invest **today** to reach $F$.",
+    "The key idea: compound interest multiplies by $(1+i)^t$, so going backwards means dividing by it."
+   ],
+   "in": "$F, i, t$",
+   "out": "$P$"
+  },
+  "example": {
+   "question": "How much should be invested today at $3.5\\%$ per annum compound interest to have €8000 in $4$ years? Give your answer to the nearest cent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Start from compound interest",
+      "say": "After $t$ years, $P$ grows to $F = P(1+i)^t$. The present value goes the other way, so divide to find $P$.",
+      "lines": [
+       {
+        "tex": "F &= P(1+i)^t"
+       },
+       {
+        "tex": "\\hl{1}{P} &= \\frac{F}{(1+i)^t}"
+       }
+      ]
+     },
+     {
+      "title": "Write down the values",
+      "say": "Turn the rate into a decimal: $3.5\\% = 0.035$.",
+      "lines": [
+       {
+        "tex": "F &= 8000",
+        "sym": "8000",
+        "new": true
+       },
+       {
+        "tex": "i &= 0.035",
+        "sym": "0.035",
+        "new": true
+       },
+       {
+        "tex": "t &= 4",
+        "sym": "4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "say": "Put the numbers into the formula for $\\hl{1}{P}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P} &= \\frac{8000}{(1 + 0.035)^4}",
+        "sym": "8000/(1+0.035)**4",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{8000}{1.035^4}",
+        "sym": "8000/1.035**4"
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Use the calculator, and round to the nearest cent at the end.",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{6971.54}",
+        "sym": "6971.54",
+        "approx": true
+       },
+       {
+        "text": "Check: $6971.54 \\times 1.035^4$ comes back to about $8000$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "P = \\hl{2}{\\text{€}6971.54}"
+   },
+   "finalSym": "6971.54",
+   "answerSym": "round(8000/1.035**4,2)"
+  }
+ },
+ {
+  "skill": "fin-solve-rate-time",
+  "title": "Find the rate or time in a compound interest problem",
+  "what": {
+   "say": [
+    "You give it the start amount $P$, the final amount $F$, and either the time $t$ or the rate $i$. It finds the one that is missing.",
+    "The key idea: in $F = P(1+i)^t$, a **root** frees $i$ and a **log** frees $t$."
+   ],
+   "in": "$P, F$ and $t$ (or $i$)",
+   "out": "$i$ (root) or $t$ (log)"
+  },
+  "example": {
+   "question": "€20,000 is invested at $4\\%$ per annum compound interest. After how many whole years will it first be worth at least €30,000?",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the equation",
+      "say": "Use $F = P(1+i)^t$ with $F = 30000$, $P = 20000$ and $i = 0.04$.",
+      "lines": [
+       {
+        "tex": "30000 &= 20000(1.04)^t"
+       }
+      ]
+     },
+     {
+      "title": "Isolate the power",
+      "say": "Divide both sides by $20000$, so that the power of $1.04$ is on its own.",
+      "lines": [
+       {
+        "tex": "1.04^t &= \\frac{30000}{20000}",
+        "sym": "30000/20000",
+        "new": true
+       },
+       {
+        "tex": "&= 1.5",
+        "sym": "1.5"
+       },
+       {
+        "text": "If the rate $i$ were missing instead, you would take a **root**: $(1+i)^4 = 1.5$ gives $1+i = 1.5^{1/4}$."
+       }
+      ]
+     },
+     {
+      "title": "Take logs",
+      "say": "The unknown is in the index. Take $\\ln$ of both sides, and $\\hl{1}{t}$ comes down as a multiplier.",
+      "lines": [
+       {
+        "tex": "\\ln(1.04^t) &= \\ln(1.5)",
+        "sym": "log(1.5)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{t}\\ln(1.04) &= \\ln(1.5)",
+        "sym": "log(1.5)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for t",
+      "say": "Divide by $\\ln(1.04)$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{t} &= \\frac{\\ln(1.5)}{\\ln(1.04)}",
+        "sym": "log(1.5)/log(1.04)",
+        "new": true
+       },
+       {
+        "tex": "&= 10.34",
+        "sym": "10.34",
+        "approx": true
+       },
+       {
+        "text": "After $10$ years it is not yet $30000$, and after $11$ years it is. Round up."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "t = \\hl{2}{11} \\text{ years}"
+   },
+   "finalSym": "11",
+   "answerSym": "ceiling(log(Rational(3,2))/log(Rational(26,25)))"
+  }
+ },
+ {
+  "skill": "fin-annuity-fv",
+  "title": "Find the future value of regular savings",
+  "what": {
+   "say": [
+    "You give it a regular payment $A$, a rate $i$ for each period and the number of payments $n$. It finds what the savings are worth at the end.",
+    "The key idea: each payment grows for a different length of time, so the values form a **geometric series**. One sum formula adds them all."
+   ],
+   "in": "$A, i, n$",
+   "out": "$S_n$ (geometric series)"
+  },
+  "example": {
+   "question": "Aoife saves €150 at the start of every month for $24$ months. The account pays $0.4\\%$ compound interest per month. Find the value of her savings at the end of the $24$ months, to the nearest cent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the series",
+      "say": "The first payment earns interest for $24$ months and the last for $1$ month. Add up the values, starting with the last payment.",
+      "lines": [
+       {
+        "tex": "S &= 150(1.004) + 150(1.004)^2 + \\dots + 150(1.004)^{24}"
+       }
+      ]
+     },
+     {
+      "title": "Read off a, r and n",
+      "say": "This is a geometric series. Find the first term, the common ratio and the number of terms.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 150(1.004)",
+        "sym": "150*1.004",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{r} &= 1.004",
+        "sym": "1.004",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{n} &= 24",
+        "sym": "24",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the sum formula",
+      "say": "Put $\\hl{1}{a}$, $\\hl{2}{r}$ and $\\hl{3}{n}$ into $S_n = \\dfrac{a(r^n - 1)}{r - 1}$.",
+      "lines": [
+       {
+        "tex": "\\hl{4}{S} &= \\frac{150(1.004)(1.004^{24} - 1)}{1.004 - 1}",
+        "sym": "150*1.004*(1.004**24-1)/(1.004-1)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Use the calculator, and round to the nearest cent at the end.",
+      "lines": [
+       {
+        "tex": "&= \\hl{4}{3785.64}",
+        "sym": "3785.64",
+        "approx": true
+       },
+       {
+        "text": "If the money went in at the end of each month, the first term would be $150$, not $150(1.004)$. Check which the question says."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{4}{\\text{€}3785.64}"
+   },
+   "finalSym": "3785.64",
+   "answerSym": "round(150*1.004*(1.004**24-1)/(1.004-1),2)"
+  }
+ },
+ {
+  "skill": "fin-annuity-pv",
+  "title": "Find the present value of a series of payments (pension/annuity)",
+  "what": {
+   "say": [
+    "You give it a payment, a rate $i$ and a number of payments $n$. It gives back what the whole stream of payments is worth **today**.",
+    "The key idea: each payment is divided by $(1+i)$ once for every period it has to wait, and those present values form a **geometric series** you can add with one formula."
+   ],
+   "in": "payment, $i$, $n$",
+   "out": "sum of present values"
+  },
+  "example": {
+   "question": "A pension pays €1500 at the end of each year for 6 years. The interest rate is 3% per year. Find the present value of the pension, correct to the nearest cent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Value each payment today",
+      "say": "A payment made later is worth less now. Divide the first by $1.03$, the second by $1.03^2$, and so on to the sixth.",
+      "lines": [
+       {
+        "tex": "PV &= \\dfrac{1500}{1.03} + \\dfrac{1500}{1.03^2} + \\cdots + \\dfrac{1500}{1.03^6}",
+        "sym": "1500/1.03 + 1500/1.03**2 + 1500/1.03**3 + 1500/1.03**4 + 1500/1.03**5 + 1500/1.03**6"
+       }
+      ]
+     },
+     {
+      "title": "Name a, r and n",
+      "say": "Each term is the one before times the same number. So this is a geometric series. Find the first term $\\hl{1}{a}$, the ratio $\\hl{2}{r}$ and the number of terms $\\hl{3}{n}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= \\dfrac{1500}{1.03}",
+        "sym": "1500/1.03",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\dfrac{1}{1.03}",
+        "sym": "1/1.03",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{n} &= 6",
+        "sym": "6",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the sum formula",
+      "say": "The sum of $n$ terms is $a(1 - r^n)$ over $1 - r$. Put in $\\hl{1}{a}$, $\\hl{2}{r}$ and $\\hl{3}{n}$, then work it out.",
+      "lines": [
+       {
+        "tex": "PV &= \\dfrac{\\hl{1}{\\dfrac{1500}{1.03}}\\left(1 - \\hl{2}{\\dfrac{1}{1.03}}^{\\hl{3}{6}}\\right)}{1 - \\hl{2}{\\dfrac{1}{1.03}}}",
+        "sym": "1500/1.03*(1-(1/1.03)**6)/(1-1/1.03)",
+        "new": true
+       },
+       {
+        "tex": "&= 8125.79",
+        "sym": "8125.79",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{€}8125.79"
+   },
+   "finalSym": "8125.79",
+   "answerSym": "1500/1.03 + 1500/1.03**2 + 1500/1.03**3 + 1500/1.03**4 + 1500/1.03**5 + 1500/1.03**6"
+  }
+ },
+ {
+  "skill": "fin-mortgage",
+  "title": "Find the repayment on a loan/mortgage",
+  "what": {
+   "say": [
+    "You give it the loan $P$, the rate per period $i$ and the number of periods $t$. It gives back the fixed repayment $A$ you make each period.",
+    "The key idea: the loan equals the **present value** of all the repayments, and summing that geometric series gives a single formula for $A$."
+   ],
+   "in": "$P$, $i$, $t$",
+   "out": "repayment $A$"
+  },
+  "example": {
+   "question": "Aoife borrows €20 000 at a monthly interest rate of 0.5%. She repays the loan in equal monthly repayments over 24 months. The first repayment is one month after she borrows. Find the amount of each repayment, correct to the nearest cent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the formula",
+      "say": "For equal repayments the formula is $A = Pi(1+i)^t$ over $(1+i)^t - 1$. First list what you know.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P} &= 20000",
+        "sym": "20000"
+       },
+       {
+        "tex": "\\hl{2}{i} &= 0.005",
+        "sym": "0.005",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{t} &= 24",
+        "sym": "24",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the power",
+      "say": "The power $(1 + \\hl{2}{i})^{\\hl{3}{t}}$ appears twice. Work it out once.",
+      "lines": [
+       {
+        "tex": "(1+\\hl{2}{i})^{\\hl{3}{t}} &= 1.005^{24}",
+        "sym": "1.005**24"
+       },
+       {
+        "tex": "&= 1.12716",
+        "sym": "1.12716",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute and divide",
+      "say": "Put $\\hl{1}{P}$, $\\hl{2}{i}$ and the power into the formula. Divide the top by the bottom.",
+      "lines": [
+       {
+        "tex": "A &= \\dfrac{\\hl{1}{20000}(\\hl{2}{0.005})(1.12716)}{1.12716 - 1}",
+        "sym": "20000*0.005*1.12716/(1.12716-1)",
+        "new": true
+       },
+       {
+        "tex": "&= 886.41",
+        "sym": "886.41",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{€}886.41"
+   },
+   "finalSym": "886.41",
+   "answerSym": "20000*0.005*1.005**24/(1.005**24-1)"
+  }
+ },
+ {
+  "skill": "fin-mortgage-derive",
+  "title": "Derive the mortgage repayment formula",
+  "what": {
+   "say": [
+    "You give it the rule that the loan equals the sum of the present values of the repayments. It gives back the formula for the repayment $A$.",
+    "The key idea: the present values form a **geometric series**. Add it with the sum formula, then make $A$ the subject."
+   ],
+   "in": "loan = sum of PVs",
+   "out": "formula for $A$"
+  },
+  "example": {
+   "question": "A loan of $P$ is repaid by $t$ equal payments of $A$, one at the end of each period. The interest rate is $i$ per period. Show that $A = \\dfrac{Pi(1+i)^t}{(1+i)^t - 1}$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Add the present values",
+      "say": "The loan equals what all the payments are worth today. Divide each payment by $(1+i)$ once for every period it waits.",
+      "lines": [
+       {
+        "tex": "P &= \\dfrac{A}{1+i} + \\dfrac{A}{(1+i)^2} + \\cdots + \\dfrac{A}{(1+i)^t}"
+       }
+      ]
+     },
+     {
+      "title": "Name a, r and n",
+      "say": "This is a geometric series. Find the first term $\\hl{1}{a}$, the ratio $\\hl{2}{r}$ and the number of terms $\\hl{3}{n}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= \\dfrac{A}{1+i}",
+        "sym": "A/(1+i)"
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\dfrac{1}{1+i}",
+        "sym": "1/(1+i)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{n} &= t",
+        "sym": "t",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Sum the series",
+      "say": "Use the sum formula $a(1 - r^n)$ over $1 - r$. Then simplify the bottom: $1 - \\hl{2}{r}$ is $i$ over $1+i$.",
+      "lines": [
+       {
+        "tex": "P &= \\dfrac{\\hl{1}{\\dfrac{A}{1+i}}\\left(1 - \\hl{2}{\\dfrac{1}{1+i}}^{\\hl{3}{t}}\\right)}{1 - \\hl{2}{\\dfrac{1}{1+i}}}",
+        "sym": "A/(1+i)*(1-(1/(1+i))**t)/(1-1/(1+i))",
+        "new": true
+       },
+       {
+        "tex": "&= \\dfrac{A\\left(1 - (1+i)^{-t}\\right)}{i}",
+        "sym": "A*(1-(1+i)**(-t))/i"
+       },
+       {
+        "tex": "&= \\dfrac{A\\left((1+i)^t - 1\\right)}{i(1+i)^t}",
+        "sym": "A*((1+i)**t-1)/(i*(1+i)**t)"
+       }
+      ]
+     },
+     {
+      "title": "Make A the subject",
+      "say": "Multiply both sides by $i(1+i)^t$ and divide by $(1+i)^t - 1$. $A$ is now on its own.",
+      "lines": [
+       {
+        "tex": "A &= \\dfrac{Pi(1+i)^t}{(1+i)^t - 1}",
+        "sym": "P*i*(1+i)**t/((1+i)**t-1)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "A = \\dfrac{Pi(1+i)^t}{(1+i)^t - 1}"
+   },
+   "finalSym": "0",
+   "answerSym": "(P*i*(1+i)**t/((1+i)**t-1))*(1-(1+i)**(-t))/i - P"
+  }
+ },
+ {
+  "skill": "fin-amortisation",
+  "title": "Build or complete a loan amortisation schedule",
+  "what": {
+   "say": [
+    "You give it the loan, the rate and the repayment. It gives back, for each period, the **interest**, the **capital repaid** and the new **balance**.",
+    "The key idea: interest is charged on the balance you still owe. What is left of the repayment pays off capital, and the balance drops by that much."
+   ],
+   "in": "loan, rate, repayment",
+   "out": "interest, capital, balance"
+  },
+  "example": {
+   "question": "A loan of €8000 is repaid by monthly repayments of €400. The monthly interest rate is 0.6%. Find the interest charged, the capital repaid and the balance owed after the first two repayments. Give the final balance correct to the nearest cent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Interest for month 1",
+      "say": "Interest is charged on the balance owed. Take $0.6\\%$ of the loan.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{I_1} &= 8000 \\times 0.006",
+        "sym": "8000*0.006"
+       },
+       {
+        "tex": "&= 48",
+        "sym": "48"
+       }
+      ]
+     },
+     {
+      "title": "Capital and balance, month 1",
+      "say": "The repayment first pays the interest $\\hl{1}{I_1}$. The rest is capital. Take the capital off the balance.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{C_1} &= 400 - 48",
+        "sym": "400-48",
+        "new": true
+       },
+       {
+        "tex": "&= 352",
+        "sym": "352"
+       },
+       {
+        "tex": "\\hl{3}{B_1} &= 8000 - 352",
+        "sym": "8000-352",
+        "new": true
+       },
+       {
+        "tex": "&= 7648",
+        "sym": "7648"
+       }
+      ]
+     },
+     {
+      "title": "Repeat for month 2",
+      "say": "Now the balance owed is $\\hl{3}{B_1}$. Charge interest on that, then find the capital and the new balance.",
+      "lines": [
+       {
+        "tex": "I_2 &= 7648 \\times 0.006",
+        "sym": "7648*0.006",
+        "new": true
+       },
+       {
+        "tex": "&= 45.888",
+        "sym": "45.888"
+       },
+       {
+        "tex": "C_2 &= 400 - 45.888",
+        "sym": "400-45.888",
+        "new": true
+       },
+       {
+        "tex": "&= 354.112",
+        "sym": "354.112"
+       },
+       {
+        "tex": "B_2 &= 7648 - 354.112",
+        "sym": "7648-354.112",
+        "new": true
+       },
+       {
+        "tex": "&= 7293.888",
+        "sym": "7293.888"
+       },
+       {
+        "tex": "&\\approx 7293.89",
+        "sym": "7293.89",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{€}7293.89"
+   },
+   "finalSym": "7293.89",
+   "answerSym": "8000*1.006**2 - 400*(1.006 + 1)"
+  }
+ },
+ {
+  "skill": "fn-evaluate",
+  "title": "Evaluate a function",
+  "what": {
+   "say": [
+    "You give it a function, $f(x)$, and an input. The input can be a number or an expression. It gives back the **output**.",
+    "The key idea: wherever you see $x$ in the rule, write the input in its place, inside brackets, then simplify."
+   ],
+   "in": "$f(x)$ and an input",
+   "out": "the output $f(\\text{input})$"
+  },
+  "example": {
+   "question": "$f(x) = x^2 - 4x + 5$. (i) Find $f(-3)$. (ii) Find $f(a+1)$ in terms of $a$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Substitute the number",
+      "say": "Replace every $x$ with $-3$. Put $-3$ in brackets so the minus sign is squared too.",
+      "lines": [
+       {
+        "tex": "f(-3) &= (-3)^2 - 4(-3) + 5",
+        "sym": "(-3)**2-4*(-3)+5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Work out part (i)",
+      "say": "Square first, then multiply, then add.",
+      "lines": [
+       {
+        "tex": "f(-3) &= 9 + 12 + 5",
+        "sym": "9+12+5"
+       },
+       {
+        "tex": "f(-3) &= \\hl{1}{26}",
+        "sym": "26"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the expression",
+      "say": "This time the input is $a + 1$. Replace every $x$ with the whole bracket $(a + 1)$.",
+      "lines": [
+       {
+        "tex": "f(a+1) &= (a+1)^2 - 4(a+1) + 5",
+        "sym": "(a+1)**2-4*(a+1)+5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand and collect",
+      "say": "Expand $(a+1)^2$ and $-4(a+1)$, then collect like terms.",
+      "lines": [
+       {
+        "tex": "f(a+1) &= a^2 + 2a + 1 - 4a - 4 + 5",
+        "sym": "a**2+2*a+1-4*a-4+5"
+       },
+       {
+        "tex": "f(a+1) &= \\hl{2}{a^2 - 2a + 2}",
+        "sym": "a**2-2*a+2"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f(-3) = 26, \\quad f(a+1) = a^2 - 2a + 2"
+   },
+   "finalSym": "[26, a**2-2*a+2]",
+   "answerSym": "[(-3)**2-4*(-3)+5, expand((a+1)**2-4*(a+1)+5)]"
+  }
+ },
+ {
+  "skill": "fn-composite",
+  "title": "Form a composite function",
+  "what": {
+   "say": [
+    "You give it two functions, $f(x)$ and $g(x)$. It builds the **composite** $f(g(x))$: put $g$ in first, then $f$.",
+    "The key idea: wherever $f$ has an $x$, write the whole of $g(x)$ in brackets instead."
+   ],
+   "in": "$f(x)$ and $g(x)$",
+   "out": "$f(g(x))$"
+  },
+  "example": {
+   "question": "$f(x) = x + 2$ and $g(x) = x^2 - 3$. Find $f(g(x))$ and $g(f(x))$. Hence find the value of $x$ for which $f(g(x)) = g(f(x))$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Put g inside f",
+      "say": "For $f(g(x))$, take $g(x) = x^2 - 3$ and put it into $f$ wherever there is an $x$.",
+      "lines": [
+       {
+        "tex": "f(g(x)) &= f(x^2 - 3)",
+        "sym": "(x**2-3)+2",
+        "new": true
+       },
+       {
+        "tex": "&= (x^2 - 3) + 2",
+        "sym": "(x**2-3)+2"
+       },
+       {
+        "tex": "&= \\hl{1}{x^2 - 1}",
+        "sym": "x**2-1"
+       }
+      ]
+     },
+     {
+      "title": "Put f inside g",
+      "say": "For $g(f(x))$, take $f(x) = x + 2$ and put it into $g$ wherever there is an $x$. Square the whole bracket.",
+      "lines": [
+       {
+        "tex": "g(f(x)) &= g(x + 2)",
+        "sym": "(x+2)**2-3",
+        "new": true
+       },
+       {
+        "tex": "&= (x + 2)^2 - 3",
+        "sym": "(x+2)**2-3"
+       },
+       {
+        "tex": "&= x^2 + 4x + 4 - 3",
+        "sym": "x**2+4*x+4-3"
+       },
+       {
+        "tex": "&= \\hl{2}{x^2 + 4x + 1}",
+        "sym": "x**2+4*x+1"
+       },
+       {
+        "text": "The two composites are not the same. Order matters."
+       }
+      ]
+     },
+     {
+      "title": "Set them equal",
+      "say": "Set $\\hl{1}{f(g(x))}$ equal to $\\hl{2}{g(f(x))}$. The $x^2$ terms cancel, which leaves a linear equation.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x^2 - 1} &= \\hl{2}{x^2 + 4x + 1}",
+        "sym": "(x**2-1)-(x**2+4*x+1)",
+        "new": true
+       },
+       {
+        "tex": "0 &= 4x + 2",
+        "sym": "-(4*x+2)"
+       },
+       {
+        "tex": "x &= \\hl{3}{-\\frac{1}{2}}",
+        "sym": "-1/2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = -\\frac{1}{2}"
+   },
+   "finalSym": "-1/2",
+   "answerSym": "solve((x**2-3)+2-((x+2)**2-3),x)"
+  }
+ },
+ {
+  "skill": "fn-injective-surjective",
+  "title": "Classify a function as injective, surjective, bijective",
+  "what": {
+   "say": [
+    "You give it a function with its domain and codomain. It tells you whether the function is **injective**, **surjective**, both (**bijective**), or neither, and gives the reason.",
+    "The key idea: injective means no two inputs share an output. Surjective means every element of the codomain gets hit. A function that is both has an inverse."
+   ],
+   "in": "$f$ with domain and codomain",
+   "out": "injective, surjective or bijective"
+  },
+  "example": {
+   "question": "The function $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = 7 - 2x$. Show that $f$ is bijective.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Test injective",
+      "say": "Injective means two inputs with the same output must be equal. Take two inputs $a$ and $b$ with $f(a) = f(b)$ and see what that forces.",
+      "lines": [
+       {
+        "tex": "7 - 2a &= 7 - 2b",
+        "sym": "Eq(7-2*a,7-2*b)",
+        "new": true
+       },
+       {
+        "tex": "-2a &= -2b",
+        "sym": "Eq(-2*a,-2*b)"
+       },
+       {
+        "tex": "a &= b",
+        "sym": "Eq(a,b)"
+       },
+       {
+        "text": "So $f$ is **injective**."
+       }
+      ]
+     },
+     {
+      "title": "Solve for x in terms of y",
+      "say": "Surjective means every $y$ in the codomain is an output. Take any $y$ and try to solve $y = f(x)$ for $\\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "y &= 7 - 2x",
+        "sym": "Eq(y,7-2*x)",
+        "new": true
+       },
+       {
+        "tex": "2x &= 7 - y",
+        "sym": "Eq(2*x,7-y)"
+       },
+       {
+        "tex": "x &= \\hl{1}{\\tfrac{7 - y}{2}}",
+        "sym": "Eq(x,(7-y)/2)"
+       }
+      ]
+     },
+     {
+      "title": "Check it is hit",
+      "say": "For every real $y$, $\\hl{1}{\\tfrac{7 - y}{2}}$ is a real number, so it is in the domain. Put it into $f$ to confirm it gives $y$.",
+      "lines": [
+       {
+        "tex": "f\\left(\\hl{1}{\\tfrac{7 - y}{2}}\\right) &= 7 - 2\\left(\\tfrac{7 - y}{2}\\right) = y",
+        "sym": "Eq(7-2*((7-y)/2),y)",
+        "new": true
+       },
+       {
+        "text": "So $f$ is **surjective**. It is injective and surjective, so it is bijective."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f \\ \\text{is injective and surjective, so bijective}"
+   },
+   "finalSym": "0",
+   "answerSym": "7-2*((7-y)/2)-y"
+  }
+ },
+ {
+  "skill": "fn-inverse",
+  "title": "Find the inverse of a bijective function",
+  "what": {
+   "say": [
+    "You give it a function, $f(x)$. It gives back the **inverse**, $f^{-1}(x)$, the function that undoes $f$.",
+    "The key idea: $f$ takes $x$ to $y$, so its inverse takes $y$ back to $x$. Swap the letters $x$ and $y$, then solve for $y$."
+   ],
+   "in": "$y = f(x)$",
+   "out": "$f^{-1}(x)$"
+  },
+  "example": {
+   "question": "The function $f : \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = \\frac{3x + 4}{2}$. $f$ is bijective. Find $f^{-1}(x)$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write f as y",
+      "say": "Replace $f(x)$ with $y$. This is the rule that takes $x$ to $y$.",
+      "lines": [
+       {
+        "tex": "y &= \\frac{3x + 4}{2}",
+        "sym": "(3*x+4)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Swap x and y",
+      "say": "The inverse takes $y$ back to $x$, so swap the two letters. Now $\\hl{1}{y}$ is the output we want.",
+      "lines": [
+       {
+        "tex": "x &= \\frac{3\\hl{1}{y} + 4}{2}",
+        "sym": "(3*y+4)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for y",
+      "say": "Rearrange to get $\\hl{1}{y}$ on its own. Clear the fraction first.",
+      "lines": [
+       {
+        "tex": "2x &= 3\\hl{1}{y} + 4",
+        "sym": "3*y+4",
+        "new": true
+       },
+       {
+        "tex": "3\\hl{1}{y} &= 2x - 4",
+        "sym": "2*x-4",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{y} &= \\frac{2x - 4}{3}",
+        "sym": "(2*x-4)/3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Name the inverse",
+      "say": "This $y$ is the inverse function. Write it as $f^{-1}(x)$.",
+      "lines": [
+       {
+        "tex": "f^{-1}(x) &= \\frac{2x - 4}{3}",
+        "sym": "(2*x-4)/3"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f^{-1}(x) = \\frac{2x - 4}{3}"
+   },
+   "finalSym": "(2*x-4)/3",
+   "answerSym": "solve(Eq(x,(3*y+4)/2),y)"
+  }
+ },
+ {
+  "skill": "fn-exp-model",
+  "title": "Fit an exponential model to data",
+  "what": {
+   "say": [
+    "You give it a growth or decay with two readings, like the amount at $t=0$ and the amount at a later time. It finds the constants in the model, $A$ and $k$ (or $a$ and $b$), so you can **predict** any other time.",
+    "The key idea: the starting reading gives $A$ straight away. The second reading leaves an exponential on its own, and taking logs brings the power down so you can solve for the constant."
+   ],
+   "in": "two readings",
+   "out": "$A$, $k$; a prediction"
+  },
+  "example": {
+   "question": "The number of bacteria in a dish is modelled by $P(t) = A e^{kt}$, where $t$ is the time in hours. At $t = 0$ there are $80$ bacteria. At $t = 4$ there are $500$. Find $A$ and $k$, and use the model to predict the number of bacteria at $t = 10$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find A from t = 0",
+      "say": "At $t = 0$ the power is $e^0 = 1$, so $\\hl{1}{A}$ is just the starting number.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{A} &= 80",
+        "sym": "Eq(A,80)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the second reading",
+      "say": "Put $t = 4$ and $P = 500$ into the model, then divide by $\\hl{1}{80}$ to leave the exponential on its own.",
+      "lines": [
+       {
+        "tex": "80\\,e^{4k} &= 500",
+        "sym": "Eq(80*exp(4*k),500)",
+        "new": true
+       },
+       {
+        "tex": "e^{4k} &= 6.25",
+        "sym": "Eq(exp(4*k),Rational(25,4))"
+       }
+      ]
+     },
+     {
+      "title": "Take logs to find k",
+      "say": "Take $\\ln$ of both sides. $\\ln$ undoes $e$, so the $4k$ comes down. Then divide by $4$ to get $\\hl{2}{k}$.",
+      "lines": [
+       {
+        "tex": "4k &= \\ln 6.25",
+        "sym": "Eq(4*k,log(Rational(25,4)))",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{k} &= \\frac{\\ln 6.25}{4}",
+        "sym": "Eq(k,log(Rational(25,4))/4)"
+       },
+       {
+        "tex": "\\hl{2}{k} &\\approx 0.458",
+        "sym": "Eq(k,0.458145)",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Predict at t = 10",
+      "say": "Keep $\\hl{2}{k}$ exact so no rounding error creeps in. Put $t = 10$ into $P(t) = \\hl{1}{80}\\,e^{\\hl{2}{k}t}$.",
+      "lines": [
+       {
+        "tex": "P(10) &= 80\\,e^{10k}",
+        "sym": "Eq(P,80*exp(10*k))",
+        "new": true
+       },
+       {
+        "tex": "&= 80 \\times 6.25^{2.5}",
+        "sym": "Eq(P,80*Rational(25,4)**Rational(5,2))",
+        "new": true
+       },
+       {
+        "tex": "&= 7812.5",
+        "sym": "Eq(P,Rational(15625,2))"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "A = 80,\\ k \\approx 0.458,\\ P(10) = 7812.5"
+   },
+   "finalSym": "Rational(15625,2)",
+   "answerSym": "80*(Rational(500,80))**Rational(10,4)"
+  }
+ }
+]

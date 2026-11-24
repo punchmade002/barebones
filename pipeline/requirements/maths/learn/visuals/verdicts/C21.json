@@ -1,0 +1,26 @@
+{
+ "cx-polar": {
+  "ok": true,
+  "issues": []
+ },
+ "cx-polar-multiply": {
+  "ok": true,
+  "issues": []
+ },
+ "cx-de-moivre-roots": {
+  "ok": true,
+  "issues": []
+ },
+ "diff-slope-tangent": {
+  "ok": true,
+  "issues": []
+ },
+ "diff-point-given-slope": {
+  "ok": true,
+  "issues": []
+ },
+ "diff-increasing": {
+  "ok": true,
+  "issues": []
+ }
+}

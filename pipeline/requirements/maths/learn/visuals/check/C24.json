@@ -1,0 +1,430 @@
+[
+ {
+  "skill": "fn-graph-quadratic",
+  "of": "955acaa0ad5b",
+  "title": "Graph a quadratic function",
+  "show": "a plain graph of the curve",
+  "example": {
+   "question": "Draw the graph of $f(x) = x^2 - 4x - 5$ for $-1 \\le x \\le 5$. Show where it crosses the axes and find its lowest point.",
+   "final": "\\text{roots } -1 \\text{ and } 5,\\ y\\text{-intercept } -5,\\ \\text{minimum } (2, -9)",
+   "steps": [
+    {
+     "say": "Put each value of $x$ into $f(x)$ and write down the answer. Do the squares and brackets one at a time.",
+     "rows": [
+      {
+       "l": "f(-1)",
+       "r": "= (-1)^2 - 4(-1) - 5"
+      },
+      {
+       "l": "",
+       "r": "= 0"
+      },
+      {
+       "l": "f(0)",
+       "r": "= 0^2 - 4(0) - 5"
+      },
+      {
+       "l": "",
+       "r": "= -5"
+      },
+      {
+       "l": "f(1)",
+       "r": "= 1^2 - 4(1) - 5"
+      },
+      {
+       "l": "",
+       "r": "= -8"
+      },
+      {
+       "aside": "Do the same for $x = 2, 3, 4, 5$. The table gives $0, -5, -8, -9, -8, -5, 0$ for $x = -1$ to $5$."
+      }
+     ]
+    },
+    {
+     "say": "The graph crosses the $x$-axis where $f(x) = 0$. Set $f(x)$ equal to $0$ and factorise.",
+     "rows": [
+      {
+       "l": "x^2 - 4x - 5",
+       "r": "= 0"
+      },
+      {
+       "l": "(x - 5)(x + 1)",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{5} \\text{ or } x = \\hl{1}{-1}"
+      }
+     ]
+    },
+    {
+     "say": "A parabola is symmetric. Its turning point is halfway between the roots $\\hl{1}{-1}$ and $\\hl{1}{5}$. Find the $\\hl{2}{x}$ value, then put it into $f(x)$ for the $\\hl{3}{y}$ value.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "= \\frac{-1 + 5}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{2}"
+      },
+      {
+       "l": "f(2)",
+       "r": "= 2^2 - 4(2) - 5"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{-9}"
+      },
+      {
+       "aside": "The $x^2$ term is positive, so the curve opens up and this is a minimum."
+      }
+     ]
+    },
+    {
+     "say": "Plot the points from the table. Mark the roots $(-1, 0)$ and $(5, 0)$, the $y$-intercept $(0, -5)$ and the minimum $(\\hl{2}{2}, \\hl{3}{-9})$. Join them with one smooth curve, not straight lines.",
+     "rows": [
+      {
+       "aside": "Use a pencil and draw the curve through every point."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-graph-cubic",
+  "of": "ea4aac7b5daf",
+  "title": "Graph a cubic function",
+  "show": "a plain graph of the curve",
+  "example": {
+   "question": "Draw the graph of $f(x) = x^3 - 6x^2 + 9x$ for $-1 \\le x \\le 4$. Find the local maximum point.",
+   "final": "\\text{local maximum } (1, 4)",
+   "steps": [
+    {
+     "say": "Put each value of $x$ into $f(x)$. Take care with the signs when $x$ is negative.",
+     "rows": [
+      {
+       "l": "f(-1)",
+       "r": "= (-1)^3 - 6(-1)^2 + 9(-1)"
+      },
+      {
+       "l": "",
+       "r": "= -1 - 6 - 9"
+      },
+      {
+       "l": "",
+       "r": "= -16"
+      },
+      {
+       "l": "f(2)",
+       "r": "= 2^3 - 6(2)^2 + 9(2)"
+      },
+      {
+       "l": "",
+       "r": "= 8 - 24 + 18"
+      },
+      {
+       "l": "",
+       "r": "= 2"
+      },
+      {
+       "aside": "The rest are $f(0) = 0$, $f(1) = 4$, $f(3) = 0$, $f(4) = 4$."
+      }
+     ]
+    },
+    {
+     "say": "The turning points are where the slope is zero. Differentiate, set $f'(x)$ equal to $0$ and solve.",
+     "rows": [
+      {
+       "l": "f'(x)",
+       "r": "= 3x^2 - 12x + 9"
+      },
+      {
+       "l": "3x^2 - 12x + 9",
+       "r": "= 0"
+      },
+      {
+       "aside": "Every term divides by 3. Do that first."
+      },
+      {
+       "l": "x^2 - 4x + 3",
+       "r": "= 0"
+      },
+      {
+       "l": "(x - 1)(x - 3)",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{1} \\text{ or } x = 3"
+      }
+     ]
+    },
+    {
+     "say": "The curve rises, then falls. So the first turning point, at $x = \\hl{1}{1}$, is the maximum. Put it into $f(x)$ for the $y$ value.",
+     "rows": [
+      {
+       "l": "f(1)",
+       "r": "= 1^3 - 6(1)^2 + 9(1)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{4}"
+      },
+      {
+       "aside": "The local maximum is at $(1, 4)$ and the local minimum is at $(3, 0)$."
+      }
+     ]
+    },
+    {
+     "say": "Plot the points from the table, with the turning points $(\\hl{1}{1}, \\hl{2}{4})$ and $(3, 0)$ among them. Join them with one smooth curve.",
+     "rows": [
+      {
+       "aside": "The curve comes up from the bottom left and goes off to the top right."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-graph-exponential",
+  "of": "d015abbb2030",
+  "title": "Graph an exponential function",
+  "show": "a plain graph of the curve",
+  "example": {
+   "question": "The number of bacteria is $f(x) = 5 \\cdot 2^x$, where $x$ is the number of hours. Draw the graph of $f$ for $-1 \\le x \\le 4$. Use the graph to find when there are $40$ bacteria.",
+   "final": "x = 3 \\text{ hours}",
+   "steps": [
+    {
+     "say": "Put each value of $x$ into $5 \\cdot 2^x$. A negative power means one over the positive power.",
+     "rows": [
+      {
+       "l": "f(-1)",
+       "r": "= 5 \\cdot 2^{-1}"
+      },
+      {
+       "l": "",
+       "r": "= 5 \\cdot \\frac{1}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 2.5"
+      },
+      {
+       "l": "f(0)",
+       "r": "= 5 \\cdot 2^0"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      },
+      {
+       "l": "f(3)",
+       "r": "= 5 \\cdot 2^3"
+      },
+      {
+       "l": "",
+       "r": "= 40"
+      },
+      {
+       "aside": "The rest are $f(1) = 10$, $f(2) = 20$, $f(4) = 80$."
+      }
+     ]
+    },
+    {
+     "say": "Plot the points from the table. Join them with a smooth curve that rises more steeply to the right and gets very close to the $x$-axis on the left, but does not touch it.",
+     "rows": [
+      {
+       "aside": "The curve crosses the $y$-axis at $(0, 5)$, the value of $a$."
+      }
+     ]
+    },
+    {
+     "say": "To find when there are $40$ bacteria, go across from $40$ on the $y$-axis to the curve, then down to the $x$-axis. Check it with the equation.",
+     "rows": [
+      {
+       "l": "5 \\cdot 2^x",
+       "r": "= 40"
+      },
+      {
+       "l": "2^x",
+       "r": "= 8"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{3}"
+      },
+      {
+       "aside": "The curve reads $x = 3$ at $f(x) = \\hl{2}{40}$. After $3$ hours there are $40$ bacteria."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-solve-graphically",
+  "of": "9bb363c96b1b",
+  "title": "Solve equations approximately from graphs",
+  "show": "parabola y=x²-2x-8 for -4≤x≤6 with the roots on the x-axis and the horizontal line drawn for the value asked highlighted",
+  "example": {
+   "question": "The graph of $f(x) = x^2 - 2x - 8$ is drawn for $-4 \\le x \\le 6$. Use the graph to estimate the values of $x$ for which $f(x) = 5$. Give your answers correct to one decimal place.",
+   "final": "x \\approx \\hl{2}{-2.7} \\ \\text{or} \\ x \\approx \\hl{2}{4.7}",
+   "steps": [
+    {
+     "say": "The equation $f(x) = \\hl{1}{5}$ asks: where is the curve at height $\\hl{1}{5}$?",
+     "rows": [
+      {
+       "aside": "On the graph, find the points of the curve whose $y$ value is $\\hl{1}{5}$."
+      }
+     ]
+    },
+    {
+     "say": "Draw a horizontal line across the graph at $y = \\hl{1}{5}$. Mark each point where it cuts the curve.",
+     "rows": [
+      {
+       "aside": "The line cuts the curve in two places, so there are two answers."
+      }
+     ]
+    },
+    {
+     "say": "From each point, go straight down to the $x$-axis and read the value.",
+     "rows": [
+      {
+       "aside": "Left point: $x \\approx \\hl{2}{-2.7}$."
+      },
+      {
+       "aside": "Right point: $x \\approx \\hl{2}{4.7}$."
+      }
+     ]
+    },
+    {
+     "say": "Put the equation equal to zero and solve it. The answers should agree with your readings.",
+     "rows": [
+      {
+       "l": "x^2 - 2x - 8",
+       "r": "= \\hl{1}{5}"
+      },
+      {
+       "l": "x^2 - 2x - 13",
+       "r": "= 0"
+      },
+      {
+       "aside": "The formula gives $x = 1 \\pm \\sqrt{14}$, which is $\\hl{2}{-2.7}$ and $\\hl{2}{4.7}$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-compare-graphs",
+  "of": "728536c443fc",
+  "title": "Interpret f(x) = g(x) as a comparison of functions",
+  "show": "parabola y=x² and line y=2x+3 meeting at x=-1 and x=3, with the region where the parabola is below the line marked",
+  "example": {
+   "question": "Let $f(x) = x^2$ and $g(x) = 2x + 3$. Find the values of $x$ for which $f(x) = g(x)$. Hence state the values of $x$ for which $f(x) < g(x)$.",
+   "final": "x = \\hl{1}{-1} \\ \\text{or} \\ x = \\hl{1}{3}; \\quad f(x) < g(x) \\ \\text{for} \\ \\hl{1}{-1} < x < \\hl{1}{3}",
+   "steps": [
+    {
+     "say": "The graphs meet where $f(x) = g(x)$. Write that as an equation and move everything to one side.",
+     "rows": [
+      {
+       "l": "x^2",
+       "r": "= 2x + 3"
+      },
+      {
+       "l": "x^2 - 2x - 3",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Factorise. Each bracket can be zero, so $\\hl{1}{x}$ has two values.",
+     "rows": [
+      {
+       "l": "(x + 1)(x - 3)",
+       "r": "= 0"
+      },
+      {
+       "l": "x + 1",
+       "r": "= 0 \\ \\Rightarrow \\ x = \\hl{1}{-1}"
+      },
+      {
+       "l": "x - 3",
+       "r": "= 0 \\ \\Rightarrow \\ x = \\hl{1}{3}"
+      }
+     ]
+    },
+    {
+     "say": "The graphs cross at $\\hl{1}{-1}$ and $\\hl{1}{3}$, so one is above the other all the way between them. Test one value in that gap.",
+     "rows": [
+      {
+       "aside": "Take $x = 0$. Then $f(0) = 0$ and $g(0) = 3$."
+      },
+      {
+       "aside": "So $f$ is below $g$ between the meeting points."
+      }
+     ]
+    },
+    {
+     "say": "Use strict inequalities. At the meeting points the two are equal, not less.",
+     "rows": [
+      {
+       "aside": "$f(x) < g(x)$ when $\\hl{1}{-1} < x < \\hl{1}{3}$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-transformations",
+  "of": "b0ff451a346f",
+  "title": "Transform a graph",
+  "show": "parabola y=x²-3x and its image moved 2 right and 4 up with arrows showing the shift",
+  "example": {
+   "question": "Let $f(x) = x^2 - 3x$. The graph of $f$ is moved 2 units to the right and then 4 units up. Write the equation of the new graph, $g(x)$, in the form $x^2 + bx + c$.",
+   "final": "g(x) = x^2 - 7x + 14",
+   "steps": [
+    {
+     "say": "A move of 2 to the right replaces every $x$ with $\\hl{1}{x - 2}$. It acts inside the brackets, so it works the opposite way to what you expect.",
+     "rows": [
+      {
+       "l": "f(x - 2)",
+       "r": "= (\\hl{1}{x - 2})^2 - 3(\\hl{1}{x - 2})"
+      }
+     ]
+    },
+    {
+     "say": "Multiply out both brackets, then collect like terms.",
+     "rows": [
+      {
+       "l": "f(x - 2)",
+       "r": "= x^2 - 4x + 4 - 3x + 6"
+      },
+      {
+       "l": "f(x - 2)",
+       "r": "= x^2 - 7x + 10"
+      }
+     ]
+    },
+    {
+     "say": "A move up of 4 adds $\\hl{2}{4}$ to the whole function. It acts outside the brackets, so it does what you expect.",
+     "rows": [
+      {
+       "l": "g(x)",
+       "r": "= x^2 - 7x + 10 + \\hl{2}{4}"
+      },
+      {
+       "l": "g(x)",
+       "r": "= x^2 - 7x + 14"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

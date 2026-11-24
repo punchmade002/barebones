@@ -1,0 +1,467 @@
+[
+ {
+  "part": "maths-pp-2022-ordinary-p1-q5#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Write 1200 in the form a × 10ⁿ\nMove the decimal point so that $1 \\le a < 10$: three places, so $n = 3$.\n1200 &= 1.2 \\times 10^3\n## Write 0.27 in the form a × 10ⁿ\nMove the decimal point one place right to get $2.7$, so $n = -1$.\n0.27 &= 2.7 \\times 10^{-1}\nANSWER: 1.2 \\times 10^3, \\quad 2.7 \\times 10^{-1}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Change 1 hour to seconds\n1 \\text{ hour} &= 60 \\times 60 = 3600 \\text{ s}\n## Change 120 miles to kilometres\n120 \\times 1.6 &= 192\nSo the falcon travels $192$ km in $3600$ s.\n## Change kilometres to metres\n192 \\text{ km} &= 192 \\times 1000\n&= 192\\,000 \\text{ m}\n## Find the time for 1 metre\n$192\\,000$ m takes $3600$ s.\n\\text{Time for 1 m} &= \\frac{3600}{192000}\n&= 0.01875 \\text{ s}\n## Find the time for 100 metres\n\\text{Time for 100 m} &= 100 \\times 0.01875\n&= 1.875 \\text{ s}\n&\\approx 1.9 \\text{ s}\nANSWER: 1.9 \\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Find where m(x) = 0\n$m(x) = 0$ where the graph of $m$ meets the $x$-axis.\nm(x) = 0 \\text{ at } x &= 1\n\\text{and } x &= 4.5\n## Find where the two graphs cross\nThe graphs of $k$ and $m$ cross at $x = 2$ and $x = 3.5$.\n## Find where k(x) is less than m(x)\nBetween $x = 2$ and $x = 3.5$ the graph of $m$ is above the graph of $k$.\nOutside that range, $m$ is below $k$. Do not include the endpoints, because there $k(x) = m(x)$.\nk(x) < m(x) \\text{ for } 2 &< x < 3.5\nANSWER: x = 1 \\text{ or } x = 4.5; \\quad 2 < x < 3.5"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q6#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 1 into T_n\nT_1 &= -254 + (1-1)(4)\n&= -254 + 0\n&= -254\nANSWER: T_1 = -254"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q6#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 2 to find T_2\nT_2 &= -254 + (2-1)(4)\n&= -254 + 4\n&= -250\n## Subtract T_1 from T_2\nd &= T_2 - T_1\n&= -250 + 254\n&= 4\nANSWER: d = 4"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths3"
+  ],
+  "marks": 10,
+  "solution": "## Multiply out the bracket\n-254 + (n-1)(4) &> 0\n-254 + 4n - 4 &> 0\n4n - 258 &> 0\n## Isolate n\n4n &> 258\nn &> 64.5\n## n must be a whole number\nThe smallest whole number greater than $64.5$ is $65$.\nn &= 65\nANSWER: n = 65"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q6#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Simplify the bracket\n\\frac{n}{2}[2(-254) + 4n - 4] &= 0\n\\frac{n}{2}[-508 + 4n - 4] &= 0\n\\frac{n}{2}[4n - 512] &= 0\n## Set the second factor to zero\nA product is zero when a factor is zero. Since $n \\neq 0$, the bracket must be $0$.\n4n - 512 &= 0\n## Solve for n\n4n &= 512\nn &= 128\nANSWER: n = 128"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q7#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths1"
+  ],
+  "marks": 15,
+  "solution": "## Find h(0)\nh(0) &= -0.38(0)^3 + 2.6(0)^2 - 0.13(0) + 158\n&= 158\n## Find h(2)\nh(2) &= -0.38(2)^3 + 2.6(2)^2 - 0.13(2) + 158\n&= -3.04 + 10.4 - 0.26 + 158\n&= 165.1\n&\\approx 165\n## Find h(4)\nh(4) &= -0.38(4)^3 + 2.6(4)^2 - 0.13(4) + 158\n&= -24.32 + 41.6 - 0.52 + 158\n&= 174.76\n&\\approx 175\n## Find h(5)\nh(5) &= -0.38(5)^3 + 2.6(5)^2 - 0.13(5) + 158\n&= -47.5 + 65 - 0.65 + 158\n&= 174.85\n&\\approx 175\n## Plot the points and join them with a smooth curve\nThe table is $0 \\to 158$, $1 \\to 160$, $2 \\to 165$, $3 \\to 171$, $4 \\to 175$, $5 \\to 175$, $6 \\to 169$.\nPlot each point, including $\\mathbf{A}(6, 169)$, then join them with one smooth curve.\nANSWER: 158,\\ 165,\\ 175,\\ 175"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Read the coordinates as (time, heart-rate)\nThe first co-ordinate is the time in minutes since the start, and the second is the heart-rate in BPM.\nSo $\\mathbf{A}(6, 169)$ means that 6 minutes after the start, Joseph's heart-rate is 169 BPM.\nANSWER: \\text{6 minutes after the start, his heart-rate is 169 BPM}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q7#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Stays at the same level for 2 minutes\nFrom $x = 6$ to $x = 8$ the heart-rate stays at 169, so draw a horizontal line to $(8, 169)$.\n## Decreases by 10 BPM each minute for 2 minutes\n\\text{Drop} &= 10 \\times 2\n&= 20\n\\text{Heart-rate at } x = 10 &= 169 - 20\n&= 149\n## Draw the second line\nDraw a straight line from $(8, 169)$ down to $(10, 149)$.\nANSWER: (6,169) \\to (8,169) \\to (10,149)"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q7#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Use h(6) = 169 from the table or graph\n$c(x) = 0.1\\,h(x) - 7$, and $h(6) = 169$.\n## Substitute into c(x)\nc(6) &= 0.1(169) - 7\n&= 16.9 - 7\n&= 9.9\nANSWER: 9.9 \\text{ calories per minute}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q7#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Find the length of the session\nFrom 2:55 p.m. to 3:00 p.m. is 5 minutes, then 23 more minutes.\n5 + 23 &= 28\n## Find the beeps per minute\n60 \\div 15 &= 4\n## Find the number of gaps between beeps\n4 \\times 28 &= 112\n## Add the first beep\nThere is one more beep than there are gaps.\n112 + 1 &= 113\nANSWER: 113 \\text{ beeps}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q7#(f)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Identify a, b and c\n$-1.14x^2 + 5.2x - 0.13 = 0$, so $a = -1.14$, $b = 5.2$, $c = -0.13$.\n## Substitute into the quadratic formula\nx &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\nx &= \\frac{-5.2 \\pm \\sqrt{5.2^2 - 4(-1.14)(-0.13)}}{2(-1.14)}\n## Evaluate the number under the square root\n5.2^2 - 4(-1.14)(-0.13) &= 27.04 - 0.5928\n&= 26.4472\n## Work out both solutions\nx &= \\frac{-5.2 + \\sqrt{26.4472}}{-2.28}\n&\\approx 0.025\nx &= \\frac{-5.2 - \\sqrt{26.4472}}{-2.28}\n&\\approx 4.536\n## Choose the maximum\n$x = 0.025$ is the minimum at the start (the heart-rate dips slightly), so the maximum is at the other solution.\nx &\\approx 4.54\nANSWER: x = 4.54 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Find 12% of 200 ml\n\\frac{12}{100} \\times 200 &= 24\n&= 24\nANSWER: 24 \\text{ ml}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Acid from Bottle A\nFrom part (i), 200 ml from Bottle A contains 24 ml of acid.\n## Acid from Bottle B\n5\\% \\text{ of } 300 &= 0.05 \\times 300\n&= 15\n## Total acid in the mixture\n24 + 15 &= 39\n## Total volume of the mixture\n200 + 300 &= 500\n## Concentration = acid ÷ total volume × 100\n\\frac{39}{500} \\times 100 &= 7.8\n&= 7.8\nANSWER: 7.8\\%"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Compare 4% with the two bottles\nAny mixture of the two bottles has a concentration between $5\\%$ (all Bottle B) and $12\\%$ (all Bottle A).\n$4\\%$ is below $5\\%$, so it cannot be made.\nANSWER: \\text{Mixtures can only be between } 5\\% \\text{ and } 12\\%"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Percentage error = error ÷ intended value × 100\n\\text{Error} &= 260 - 250\n&= 10\n## Divide by the intended amount and multiply by 100\n\\frac{10}{250} \\times 100 &= 4\n&= 4\nANSWER: 4\\%"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Count the corners and faces of a cube\nA cube has 8 corners and 6 faces, so $C = 8$ and $F = 6$.\n## Check the identity\nC - E + F &= 8 - 12 + 6\n&= -4 + 6\n&= 2\nANSWER: C = 8,\\ F = 6,\\ \\text{and } 8 - 12 + 6 = 2"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Substitute C and E into the identity\n12 - 30 + F &= 2\n-18 + F &= 2\n## Solve for F\nF &= 2 + 18\nF &= 20\n## Surface area = faces × area of one face\n\\text{Surface area} &= 20 \\times 5\n&= 100\nANSWER: 100 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q8#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Multiply every term by 6 to clear the fractions\n\\frac{6h+5p}{3} - \\frac{6h+5p}{2} + h + p &= 2\n2(6h+5p) - 3(6h+5p) + 6h + 6p &= 12\n## Multiply out the brackets\n12h + 10p - 18h - 15p + 6h + 6p &= 12\n## Collect like terms\n(12h - 18h + 6h) + (10p - 15p + 6p) &= 12\n0h + p &= 12\np &= 12\nANSWER: p = 12"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Read the values from the graph\nAt $t = 0$ the graph is at 30 000. At $t = 1$ it is at 24 000.\nV(0) &= 30\\,000\nV(1) &= 24\\,000\nANSWER: V(0) = \\text{€}30\\,000,\\ V(1) = \\text{€}24\\,000"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find the fall in value in year 1\n30\\,000 - 24\\,000 &= 6000\n## Write the fall as a percentage of the starting value\n\\text{Percentage fall} &= \\frac{6000}{30\\,000} \\times 100\n&= 20\nANSWER: 20\\%"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q9#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Turn the 20% fall into a multiplier\nA fall of $20\\%$ leaves $80\\%$ of the value, so each year the value is multiplied by $0.8$.\n## Multiply by 0.8 once for each year\nV(1) &= 30\\,000 \\times 0.8\nV(2) &= 30\\,000 \\times 0.8 \\times 0.8\nV(t) &= 30\\,000(0.8)^t\nANSWER: V(t) = 30\\,000(0.8)^t"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q9#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 4\nV(4) &= 30\\,000(0.8)^4\n## Work out the power of 0.8\n&= 30\\,000(0.4096)\n## Multiply\n&= 12\\,288\nANSWER: \\text{€}12\\,288"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q9#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Plot the two given points\nAt $t = 0$ the value is 30 000 and at $t = 1$ it is 24 000.\nDraw a straight line through $(0, 30\\,000)$ and $(1, 24\\,000)$.\n## Find the fixed fall each year\n30\\,000 - 24\\,000 &= 6000\n## Find when the value reaches 0\nThe value falls by 6000 each year, so the line meets the horizontal axis when the total fall is 30 000.\nT &= \\frac{30\\,000}{6000}\n&= 5\n## Mark the point on the axis\nThe line reaches the horizontal axis at $(5, 0)$.\nANSWER: T = 5 \\text{ years}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q9#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the 30% deposit\n0.3 \\times 19\\,445 &= 5833.5\n## Find the total of the 36 monthly repayments\n3 years is $3 \\times 12 = 36$ months.\n36 \\times 206.97 &= 7450.92\n## Add the deposit, the repayments and the lump sum\n5833.5 + 7450.92 + 7389 &= 20\\,673.42\nANSWER: \\text{€}20\\,673.42"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q9#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Usual time = distance ÷ speed\n\\frac{12}{60} &= 0.2\n&= \\frac{1}{5}\n## Time with roadworks\n\\frac{12}{40} &= 0.3\n&= \\frac{3}{10}\n## Percentage increase = increase ÷ original × 100\n\\frac{0.3 - 0.2}{0.2} \\times 100 &= \\frac{0.1}{0.2} \\times 100\n&= 50\nANSWER: 50\\%"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q10#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 0\nh(0) &= -2(0)^2 + 5(0) + 1.2\n&= 1.2\nANSWER: 1.2 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q10#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 2.4\nh(2.4) &= -2(2.4)^2 + 5(2.4) + 1.2\n&= -2(5.76) + 12 + 1.2\n&= -11.52 + 12 + 1.2\n&= 1.68\nANSWER: 1.68 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q10#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set the height equal to 3.2\n-2t^2 + 5t + 1.2 &= 3.2\n## Rearrange so one side is 0\n-2t^2 + 5t - 2 &= 0\n2t^2 - 5t + 2 &= 0\n## Factorise and solve\n(2t-1)(t-2) &= 0\nt &= \\tfrac{1}{2} \\text{ or } t = 2\n## Pick the time when the ball is falling\n$t = \\tfrac{1}{2}$ is before the highest point (at $t = 1.25$), so the ball is still rising. The ball is decreasing at $t = 2$.\nANSWER: t = 2 \\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q10#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate h\n\\frac{dh}{dt} &= -4t + 5\n## Greatest height: set the derivative to 0\n-4t + 5 &= 0\n-4t &= -5\nt &= \\frac{5}{4}\nt &= 1.25\nANSWER: t = 1.25 \\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q10#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Point where Keith hits the ball\nAt $t = 0$ the height is 1 metre, so $(0, 1)$ is on the graph.\n## Greatest height\nThe greatest height is 5 m after 2 s, so the turning point $(2, 5)$ is on the graph.\n## Use symmetry\nA quadratic is symmetrical about its turning point, at $t = 2$. The point $(0, 1)$ is 2 to the left, so the point 2 to the right is $(4, 1)$.\n## Draw the graph\nPlot $(0, 1)$, $(2, 5)$ and $(4, 1)$. Draw a smooth, upside-down U-shaped curve through them, and continue it until it meets the horizontal axis a little after $t = 4$.\nANSWER: (0, 1),\\ (2, 5),\\ (4, 1)"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q10#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## After a 15% discount, Keith pays 85%\n100\\% - 15\\% &= 85\\%\n## Find 85% of €33\n33 \\times 0.85 &= 28.05\nANSWER: \\text{€}28.05"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q10#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## €49.50 is 123% of the price without VAT\nThe price without VAT is $100\\%$, so with VAT it is $123\\%$.\n## Find 1%\n1\\% &= \\frac{49.50}{123}\n## VAT is 23%, so multiply by 23\n\\text{VAT} &= \\frac{49.50}{123} \\times 23\n&\\approx 9.26\nANSWER: \\text{€}9.26"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q1#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Read the coordinates of A and C\nFrom the diagram, $A = (-2, 0)$ and $C = (0, 3)$.\n## Substitute into the slope formula\nm_{AC} &= \\frac{y_2 - y_1}{x_2 - x_1}\nm_{AC} &= \\frac{3 - 0}{0 - (-2)}\n&= \\frac{3}{0 + 2}\n&= \\frac{3}{2}\nANSWER: m_{AC} = \\frac{3}{2}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q1#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of BC\nFrom the diagram, $B = (5, 0)$ and $C = (0, 3)$.\nm_{BC} &= \\frac{3 - 0}{0 - 5}\n&= \\frac{3}{-5}\n&= -\\frac{3}{5}\n## Multiply the two slopes\nTwo lines are perpendicular only if the product of their slopes is $-1$.\nm_{AC} \\times m_{BC} &= \\frac{3}{2} \\times \\left(-\\frac{3}{5}\\right)\n&= -\\frac{9}{10}\n## Compare with $-1$ and tick the box\nSince $-\\frac{9}{10} \\ne -1$, the lines are not perpendicular.\nTick the box: AC is not perpendicular to BC.\nANSWER: AC \\text{ is not perpendicular to } BC"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q1#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find L using the symmetry about the y-axis\n$L$ is the reflection of $M(9, 1)$ in the $y$-axis, so $L = (-9, 1)$.\n## (i) Find the length of LM\n$L$ and $M$ have the same $y$-value, so the length is the difference in $x$-values.\n|LM| &= 9 - (-9)\n&= 18\n## (ii) Write the equation of LM\nEvery point on $LM$ has $y = 1$, so the horizontal line is $y = 1$.\nANSWER: |LM| = 18, \\quad y = 1"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q1#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## N lies on the y-axis, so x = 0\nSubstitute $x = 0$ into $x + 4y - 13 = 0$.\n0 + 4y - 13 &= 0\n## Solve for y\n4y &= 13\ny &= \\frac{13}{4}\n## Write N as a pair of coordinates\n$x = 0$ and $y = \\frac{13}{4}$.\nANSWER: N = \\left(0, \\frac{13}{4}\\right)"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q2#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Compare with the circle equation\nA circle with centre $(h, k)$ and radius $r$ has equation $(x - h)^2 + (y - k)^2 = r^2$.\n(x - 4)^2 + (y + 2)^2 &= 169\n(x - 4)^2 + (y - (-2))^2 &= 13^2\n## Read off the centre and radius\n$h = 4$ and $k = -2$, so the centre is $(4, -2)$.\nr &= \\sqrt{169}\n&= 13\nANSWER: \\text{Centre} = (4, -2), \\quad \\text{Radius} = 13"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q2#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Substitute (11, 10) into the left-hand side\nA point is on, inside or outside the circle depending on whether the left side equals, is less than, or is greater than $169$.\n&(11 - 4)^2 + (10 + 2)^2\n&= 7^2 + 12^2\n&= 49 + 144\n&= 193\n## Compare with 169 and tick the box\n$193 > 169$, so the point is outside the circle.\nTick the box: (11, 10) is outside k.\nANSWER: (11, 10) \\text{ is outside } k"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q2#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find the translation from (12, 11) to the centre\n(22 - 12,\\ 13 - 11) &= (10, 2)\n## Apply the same translation again\nThe point $(12, 11)$ is on $s$, so the point on the other side of the centre, the same distance away, is also on $s$.\n(22 + 10,\\ 13 + 2) &= (32, 15)\nANSWER: (32, 15) \\text{ (any valid point)}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q2#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Find the translation from the centre of s to the touching point\nThe centres and the touching point are on one straight line, with the touching point between them.\n(12 - 22,\\ 11 - 13) &= (-10, -2)\n## Halve it, since t has half the radius\n\\tfrac{1}{2}(-10, -2) &= (-5, -1)\n## Move from the touching point by this amount\nThe centre of $t$ is this far from $(12, 11)$, continuing in the same direction.\n(12 - 5,\\ 11 - 1) &= (7, 10)\nANSWER: \\text{Centre of } t = (7, 10)"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q3#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Add the numbers and divide by 7\n\\text{Mean} &= \\frac{17 + 8 + 9 + 8 + 14 + 11 + 28}{7}\n&= \\frac{95}{7}\n&\\approx 13.6\nANSWER: 13.6"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q3#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Put the numbers in order\n$8,\\ 8,\\ 9,\\ 11,\\ 14,\\ 17,\\ 28$\n## Pick the middle number\nThere are 7 numbers, so the median is the 4th number, which is $11$.\nANSWER: 11"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q3#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Use the median of 8 numbers\nWith 8 numbers the median is the average of the 4th and 5th numbers.\nThe new 4th and 5th numbers are the new number $x$ and $11$, so the median is their average.\n\\frac{x + 11}{2} &= 10.5\n## Solve for x\nx + 11 &= 21\nx &= 10\nANSWER: 10"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q3#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the number of choices in each group\nBen picks one subject from each group, so the choices multiply.\n3 \\times 4 \\times 5 &= 60\nANSWER: 60"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q3#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Extra subject added to Group A\n4 \\times 4 \\times 5 &= 80\n## Extra subject added to Group B\n3 \\times 5 \\times 5 &= 75\n## Extra subject added to Group C\n3 \\times 4 \\times 6 &= 72\n## Compare the three totals\n$80 > 75 > 72$, so the largest number of choices comes from adding the subject to Group A.\nANSWER: \\text{Group A}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Find the total number of students\n8 + 12 + 39 + 13 &= 72\n## Find the angle for one student\nA full circle is $360^\\circ$, shared between 72 students.\n\\frac{360}{72} &= 5\nCheck: Distinction has $8 \\times 5 = 40^\\circ$, which matches the given sector.\n## Find the angle for each other grade\n\\text{High Merit: } 12 \\times 5 &= 60\n\\text{Merit: } 39 \\times 5 &= 195\n\\text{Achieved: } 13 \\times 5 &= 65\n## Check the angles add to 360\n40 + 60 + 195 + 65 &= 360\n## Draw and label the sectors\nStarting from the $40^\\circ$ Distinction sector, measure $60^\\circ$ anticlockwise for High Merit, then $65^\\circ$ for Achieved. The rest of the circle is Merit, $195^\\circ$.\nANSWER: \\text{Distinction } 40^\\circ,\\ \\text{High Merit } 60^\\circ,\\ \\text{Merit } 195^\\circ,\\ \\text{Achieved } 65^\\circ"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q4#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths24",
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## (i) Write 80 and 120 in terms of the mean and standard deviation\n100 - 20 &= 80\n100 + 20 &= 120\nSo 80 to 120 is within 1 standard deviation of the mean.\n## (i) Apply the empirical rule\nThe empirical rule says about $68\\%$ of values are within 1 standard deviation of the mean.\n$68\\%$ of the people scored between 80 and 120.\n## (ii) Use the 95% rule to find the top 2.5%\n$95\\%$ of values are within 2 standard deviations, so $5\\%$ lie outside.\nThat $5\\%$ is split evenly, so the top $2.5\\%$ are more than 2 standard deviations above the mean.\n## (ii) Find the least score\n100 + 2(20) &= 100 + 40\n&= 140\nANSWER: \\text{(i) } 68\\%, \\quad \\text{(ii) } 140"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p2-q4#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Find the range\nRange = largest value $-$ smallest value.\n\\text{Range} &= 113 - 82\n&= 31\n## Find the mean\n\\bar{x} &= \\frac{104 + 82 + 94 + 113 + 98 + 105}{6}\n&= \\frac{596}{6}\n&= \\frac{298}{3}\n## Substitute into the standard deviation formula\n$\\sigma = \\sqrt{\\dfrac{\\sum (x - \\bar{x})^2}{n}}$ with $n = 6$. You can also read $\\sigma$ straight from a calculator.\n\\sigma &= \\sqrt{\\frac{(104 - \\bar{x})^2 + (82 - \\bar{x})^2 + (94 - \\bar{x})^2 + (113 - \\bar{x})^2 + (98 - \\bar{x})^2 + (105 - \\bar{x})^2}{6}}\n&= \\sqrt{\\frac{\\left(\\frac{14}{3}\\right)^2 + \\left(-\\frac{52}{3}\\right)^2 + \\left(-\\frac{16}{3}\\right)^2 + \\left(\\frac{41}{3}\\right)^2 + \\left(-\\frac{4}{3}\\right)^2 + \\left(\\frac{17}{3}\\right)^2}{6}}\n&= \\sqrt{\\frac{\\frac{196}{9} + \\frac{2704}{9} + \\frac{256}{9} + \\frac{1681}{9} + \\frac{16}{9} + \\frac{289}{9}}{6}}\n&= \\sqrt{\\frac{\\frac{196 + 2704 + 256 + 1681 + 16 + 289}{9}}{6}}\n&= \\sqrt{\\frac{\\frac{5142}{9}}{6}}\n&= \\sqrt{\\frac{857}{9}}\n&= 9.758\\ldots\n## Round to 1 decimal place\n\\sigma &\\approx 9.8\nANSWER: \\text{Range} = 31, \\quad \\sigma = 9.8"
+ }
+]

@@ -1,0 +1,266 @@
+{
+  "maths-pp-2018-ordinary-p1-q5#(a)": {
+    "primary": "fn-graph-quadratic",
+    "skills": [
+      "fn-graph-quadratic"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q5#(b)": {
+    "primary": "quad-form-from-roots",
+    "skills": [
+      "quad-form-from-roots",
+      "alg-expand-binomials"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q5#(c)": {
+    "primary": "diff-stationary",
+    "skills": [
+      "diff-poly",
+      "diff-stationary",
+      "diff-second"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q6#(a)": {
+    "primary": "eq-linear",
+    "skills": [
+      "eq-linear",
+      "alg-expand-binomials"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q6#(b)": {
+    "primary": "eq-rational",
+    "skills": [
+      "eq-rational",
+      "quad-solve-factor"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q7#(a)": {
+    "primary": "seq-arith-nth",
+    "skills": [
+      "seq-arith-nth"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q7#(b)": {
+    "primary": "seq-arith-nth",
+    "skills": [
+      "seq-arith-nth"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q7#(c)": {
+    "primary": "seq-arith-sum",
+    "skills": [
+      "seq-arith-sum"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q7#(d)": {
+    "primary": "seq-arith-sum",
+    "skills": [
+      "seq-arith-sum",
+      "quad-solve-formula"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q7#(e)": {
+    "primary": "fin-costing",
+    "skills": [
+      "fin-costing"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q7#(f)(i)": {
+    "primary": "num-ratio-proportion",
+    "skills": [
+      "num-ratio-proportion"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q7#(f)(ii)": {
+    "primary": "eq-word-problem",
+    "skills": [
+      "eq-word-problem",
+      "eq-linear"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q8#(a)": {
+    "primary": "alg-evaluate",
+    "skills": [
+      "alg-evaluate"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q8#(b)": {
+    "primary": "alg-evaluate",
+    "skills": [
+      "alg-evaluate"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q8#(c)": {
+    "primary": "fn-graph-cubic",
+    "skills": [
+      "fn-graph-cubic"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q8#(d)(i)": {
+    "primary": "fn-solve-graphically",
+    "skills": [
+      "fn-solve-graphically"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q8#(d)(ii)": {
+    "primary": "fn-solve-graphically",
+    "skills": [
+      "fn-solve-graphically"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q8#(e)(i)": {
+    "primary": "diff-poly",
+    "skills": [
+      "diff-poly"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q8#(e)(ii)": {
+    "primary": "diff-rates-of-change",
+    "skills": [
+      "diff-rates-of-change"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q8#(e)(iii)": {
+    "primary": "diff-optimisation",
+    "skills": [
+      "diff-optimisation",
+      "diff-stationary",
+      "quad-solve-factor"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q8#(e)(iv)": {
+    "primary": "diff-rates-of-change",
+    "skills": [
+      "diff-rates-of-change",
+      "diff-poly"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q9#(a)(i)": {
+    "primary": "alg-evaluate",
+    "skills": [
+      "alg-evaluate"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q9#(a)(ii)": {
+    "primary": "fin-units",
+    "skills": [
+      "fin-units"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q9#(b)(i)": {
+    "primary": "alg-rearrange",
+    "skills": [
+      "alg-rearrange"
+    ]
+  },
+  "maths-pp-2018-ordinary-p1-q9#(b)(ii)": {
+    "primary": "alg-evaluate",
+    "skills": [
+      "alg-evaluate"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q1#(a)(i)": {
+    "primary": "prob-sample-space",
+    "skills": [
+      "prob-sample-space"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q1#(a)(ii)": {
+    "primary": "prob-equally-likely",
+    "skills": [
+      "prob-equally-likely"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q1#(a)(iii)": {
+    "primary": "prob-equally-likely",
+    "skills": [
+      "prob-equally-likely"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q1#(b)": {
+    "primary": "prob-venn",
+    "skills": [
+      "prob-venn",
+      "prob-equally-likely"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q2#(a)": {
+    "primary": "line-midpoint",
+    "skills": [
+      "line-midpoint"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q2#(b)": {
+    "primary": "line-parallel-perp",
+    "skills": [
+      "line-slope",
+      "line-parallel-perp"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q2#(c)": {
+    "primary": "line-area-triangle",
+    "skills": [
+      "line-area-triangle"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q2#(d)": {
+    "primary": "geo-transformations",
+    "skills": [
+      "geo-transformations"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q3#(a)(i), (ii)": {
+    "primary": "prob-npr",
+    "skills": [
+      "prob-factorial",
+      "prob-npr"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q3#(b)(i), (ii)": {
+    "primary": "prob-expected-value",
+    "skills": [
+      "prob-expected-value",
+      "prob-equally-likely"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q4#(a)": {
+    "primary": "line-midpoint",
+    "skills": [
+      "line-midpoint"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q4#(b)": {
+    "primary": "line-distance",
+    "skills": [
+      "line-distance",
+      "num-surds"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q4#(c)": {
+    "primary": "circ-eq-centre-radius",
+    "skills": [
+      "circ-eq-centre-radius"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q4#(d)": {
+    "primary": "circ-tangent-at-point",
+    "skills": [
+      "circ-tangent-at-point",
+      "line-slope",
+      "line-equation"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q5#(a)": {
+    "primary": "mens-composite",
+    "skills": [
+      "mens-composite",
+      "mens-perimeter-area"
+    ]
+  },
+  "maths-pp-2018-ordinary-p2-q5#(b)(i), (ii)": {
+    "primary": "mens-perimeter-area",
+    "skills": [
+      "mens-perimeter-area"
+    ]
+  }
+}

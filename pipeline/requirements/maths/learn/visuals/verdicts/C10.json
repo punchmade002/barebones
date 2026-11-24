@@ -1,0 +1,8 @@
+{
+"con-13": {"ok": true, "issues": []},
+"con-14": {"ok": false, "issues": ["The label C is struck through by the vertical line and the long line from A at the top, so it is hard to read."]},
+"con-6": {"ok": false, "issues": ["Only the ray point 3 is labelled. The working says to call the crossings 1 and 2, but those two points have no labels.", "No compass arcs are shown although the working says to leave all arcs showing."]},
+"con-18": {"ok": false, "issues": ["The label C sits on top of the two crossing arcs and is partly struck through.", "The second arc (centre B) is only a tiny stub near C, so the construction lines the working describes are hard to see."]},
+"con-20": {"ok": false, "issues": ["Sides are not in proportion: AB is 6 cm but AD and BC (4 cm) are drawn about half the length of AB, not two thirds. The height is also too small for 4 sin 70 against 6.", "No compass arcs are shown although the working says to leave the arcs showing."]},
+"con-16": {"ok": false, "issues": ["The triangle does not match the lengths: with AB = 7, AC should be about 5/7 of AB and BC about 6/7, but the drawn AC is about 0.89 of AB and BC about 1.02. C is too high and too far left.", "The label O is overlapped by the bisector lines through it.", "No construction arcs are shown for the bisectors or for locating C, although the working says to leave all arcs showing."]}
+}

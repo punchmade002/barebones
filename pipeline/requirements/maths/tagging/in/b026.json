@@ -1,0 +1,412 @@
+[
+ {
+  "part": "maths-pp-2021-ordinary-p2-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths24",
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Find the mean\nBy the empirical rule, 95% of values lie within $2\\sigma$ of the mean, so the range is $\\mu - 2\\sigma$ to $\\mu + 2\\sigma$.\nThe mean is halfway between the ends of the range.\n\\mu &= \\frac{147.9 + 178.7}{2}\n&= \\frac{326.6}{2}\n&= 163.3\n## Find the standard deviation\nThe top of the range is $\\mu + 2\\sigma$.\n2\\sigma &= 178.7 - 163.3\n2\\sigma &= 15.4\n\\sigma &= 7.7\nANSWER: \\mu = 163.3 \\text{ cm},\\ \\sigma = 7.7 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q5#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Plot each male as (height, arm span)\nHeight goes on the horizontal axis and arm span on the vertical axis.\nThe eight males are $(168, 169)$, $(147, 150)$, $(134, 121)$, $(177, 176)$, $(172, 170)$, $(160, 163)$, $(152, 151)$ and $(153, 151)$.\nMark each one as a filled dot at that position.\nANSWER: \\text{Eight male points plotted}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q5#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Judge the strength and direction from the scatter plot\nThe points rise from bottom left to top right, so the correlation is positive. This rules out $-0.6$.\nThey lie close to a straight line, so the correlation is strong. This rules out $0.2$.\nSo $0.9$ is the best choice.\nANSWER: 0.9"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q5#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Say what 0.9 means in context\nThere is a strong positive linear relationship between height and arm span.\nTaller people are very likely to have a longer arm span.\nANSWER: \\text{Strong positive linear relationship}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q6#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 5,
+  "solution": "## Draw arcs from A\nSet the compass to more than half of $|AC|$.\nWith the point on $A$, draw one arc above $AC$ and one below it.\n## Draw arcs from C\nKeep the same compass setting. With the point on $C$, draw arcs that cross the first two.\n## Join the crossing points\nDraw a straight line through the two crossing points. This is the perpendicular bisector of $[AC]$ and it cuts $[AC]$ at its midpoint at $90^\\circ$.\nANSWER: \\text{Perpendicular bisector of } [AC] \\text{ constructed}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q6#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 10,
+  "solution": "## Use the bisector of [AC] from part (i)\nThe circumcentre is the point equally far from $A$, $B$ and $C$. It lies on the perpendicular bisector of every side.\n## Construct the perpendicular bisector of [AB]\nWith the compass on $A$, then on $B$, using the same setting (more than half of $|AB|$), draw crossing arcs above and below $AB$.\nJoin the crossing points with a straight line.\n## Mark the circumcentre\nThe two bisectors cross at a point $O$. This is the circumcentre.\n## Draw the circumcircle\nPut the compass point on $O$ and open it to reach $A$.\nDraw the circle. It passes through $A$, $B$ and $C$.\nANSWER: \\text{Circumcircle: centre } O,\\ \\text{radius } |OA|"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q6#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the side by the scale factor\n|QR| &= k \\times |EF|\n&= 2.5 \\times 3\n&= 7.5\nANSWER: |QR| = 7.5 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q6#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Areas change by the scale factor squared\nLengths are multiplied by $k$, so areas are multiplied by $k^2$.\n\\text{Area } PQR &= k^2 \\times \\text{Area } DEF\n18.75 &= 2.5^2 \\times \\text{Area } DEF\n18.75 &= 6.25 \\times \\text{Area } DEF\n## Divide both sides by 6.25\n\\text{Area } DEF &= \\frac{18.75}{6.25}\n&= 3\nANSWER: \\text{Area } DEF = 3 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q7#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Check the class widths\nEvery age group is 10 years wide, so the height of each bar is just the percentage.\n## Draw one bar for each group\nBars touch each other (no gaps) because the groups run on from one another.\nHeights: $15$–$25$ is $24$, $25$–$35$ is $27$, $35$–$45$ is $25$, $45$–$55$ is $16$, $55$–$65$ is $8$.\nANSWER: \\text{Bars of height } 24,\\ 27,\\ 25,\\ 16,\\ 8"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q7#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Add the percentages for ages 25 to 55\n\\text{Percentage} &= 27 + 25 + 16\n&= 68\n## Find 68% of 1000\n\\text{People} &= \\frac{68}{100} \\times 1000\n&= 680\nANSWER: 680 \\text{ people}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q7#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## The median is at the 50% mark\nAdd up the percentages from the youngest group until the total passes 50.\n24 &< 50\n24 + 27 &= 51\n51 &> 50\nThe 50% mark is reached in the second group.\nANSWER: 25 \\text{ to } 35 \\text{ age group}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q7#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Find the mid-interval value of each group\nMid-value = (lower end + upper end) $\\div 2$.\n\\frac{15 + 25}{2} &= 20\n\\frac{25 + 35}{2} &= 30\n\\frac{35 + 45}{2} &= 40\n\\frac{45 + 55}{2} &= 50\n\\frac{55 + 65}{2} &= 60\n## Multiply each mid-value by its percentage and add\nThe percentages add to 100, so divide the total by 100.\n\\text{Mean} &= \\frac{(24 \\times 20) + (27 \\times 30) + (25 \\times 40) + (16 \\times 50) + (8 \\times 60)}{100}\n&= \\frac{480 + 810 + 1000 + 800 + 480}{100}\n&= \\frac{3570}{100}\n&= 35.7\nANSWER: 35.7 \\text{ years}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q7#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Use the margin of error formula\n\\text{Margin of error} &= \\frac{1}{\\sqrt{n}}\n&= \\frac{1}{\\sqrt{540}}\n&= 0.043\n## Write it as a percentage\n\\text{Margin of error} &= 0.043 \\times 100\n&= 4.3\\%\nANSWER: 4.3\\%"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q7#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Find the sample proportion\n\\hat{p} &= \\frac{372}{540}\n&= 0.6889\n&= 68.9\\%\n## Subtract and add the margin of error\n\\text{Lower} &= 68.9 - 4.3\n&= 64.6\n\\text{Upper} &= 68.9 + 4.3\n&= 73.2\nANSWER: [64.6\\%,\\ 73.2\\%]"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q7#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## State the hypotheses\nThe null hypothesis says nothing has changed from 65%.\nH_0: p &= 65\\%\nH_1: p &\\ne 65\\%\n## Compare 65% with the confidence interval\n65 &\\in [64.6,\\ 73.2]\n65% lies inside the 95% interval, so there is not enough evidence to reject $H_0$.\nConclusion: at the 5% level of significance, the Netflix share of the market has not changed.\nANSWER: \\text{Fail to reject } H_0: \\text{ the Netflix share has not changed}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q8#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Find the width of the lake at each line\nAdd the length above [PQ] to the length below it. Lines are $10$ m apart, from $P$ to $Q$ ($60$ m).\ny_0 &= 0 + 10 = 10\ny_1 &= 20 + 20 = 40\ny_2 &= 10 + 20 = 30\ny_3 &= 30 + 20 = 50\ny_4 &= 30 + 10 = 40\ny_5 &= 20 + 20 = 40\ny_6 &= 0 + 0 = 0\n## Add the middle widths\ny_1 + y_2 + y_3 + y_4 + y_5 &= 40 + 30 + 50 + 40 + 40\n&= 200\n## Write down the Trapezoidal Rule\n$A = \\frac{h}{2}\\left[(\\text{first} + \\text{last}) + 2(\\text{sum of the rest})\\right]$ with $h = 10$.\nA &= \\frac{10}{2}\\left[(10 + 0) + 2(200)\\right]\n&= 5\\left[10 + 400\\right]\n&= 5(410)\n&= 2050\nANSWER: 2050 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q8#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Volume = surface area x depth\nV &= 2050 \\times 8\n&= 16400\nANSWER: 16400 \\text{ m}^3"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Substitute r = 21 into the hemisphere formula\nV &= \\frac{2}{3}\\pi r^3\n&= \\frac{2}{3}\\pi (21)^3\n&= \\frac{2}{3}\\pi (9261)\n&= 6174\\pi\nANSWER: 6174\\pi \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Set the cone volume equal to the hemisphere volume\nThe cone has radius $21$ and height $h_c$.\n\\frac{1}{3}\\pi (21)^2 h_c &= 6174\\pi\n\\frac{1}{3}\\pi (441) h_c &= 6174\\pi\n147\\pi h_c &= 6174\\pi\n## Divide both sides by 147 pi\nh_c &= \\frac{6174\\pi}{147\\pi}\n&= 42\n## Add the height of the hemisphere\nThe hemisphere is $21$ cm deep (its radius).\nh &= 42 + 21\n&= 63\nANSWER: h = 63 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q8#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Use the cosine rule for the angle opposite 60 m\nLet $A = |\\angle QBP|$, opposite the side of $60$ m.\n60^2 &= 26^2 + 43^2 - 2(26)(43)\\cos A\n## Evaluate the squares and the product\n3600 &= 676 + 1849 - 2236\\cos A\n3600 &= 2525 - 2236\\cos A\n## Isolate cos A\n2236\\cos A &= 2525 - 3600\n2236\\cos A &= -1075\n\\cos A &= -\\frac{1075}{2236}\n&= -\\frac{25}{52}\n## Take the inverse cosine\nUse degree mode on the calculator.\nA &= \\cos^{-1}\\left(-\\frac{25}{52}\\right)\n&= 118.74^\\circ\nANSWER: |\\angle QBP| = 118.74^\\circ"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Count the units and multiply by the scale\nThe runway is $10$ units long and $1$ unit is $250$ m.\n\\text{Length} &= 10 \\times 250\n&= 2500 \\text{ m}\n## Change metres to kilometres\nDivide by $1000$.\n&= \\frac{2500}{1000}\n&= 2.5\nANSWER: 2.5 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find where L is on the runway\n$L$ is $1250$ m from $S$. Change this to units.\n\\frac{1250}{250} &= 5\n## Plot L and draw the flight path\nMark $L$ on the runway $5$ units from $S$ (half way).\nAt $L$, use a protractor to draw a line $14^\\circ$ above the runway, going towards $E$. Stop it directly above $E$.\nANSWER: L \\text{ is 5 units from } S"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q9#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the distance flown in the air\nLet $h$ be the flight path from $L$. The ground distance $LE = 1250$ m is the side adjacent to the $14^\\circ$ angle.\n\\cos 14^\\circ &= \\frac{1250}{h}\nh &= \\frac{1250}{\\cos 14^\\circ}\n&= 1288.267\n&= 1288\n## Add the distance on the runway\n\\text{Total} &= 1250 + 1288\n&= 2538\nANSWER: 2538 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q9#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Find the angle at C\n|\\angle C| &= 180 - 47 - 97\n&= 36\n## Use the sine rule\n$x = |BC|$ is opposite the $47^\\circ$ angle, and $260$ is opposite the $36^\\circ$ angle.\n\\frac{x}{\\sin 47^\\circ} &= \\frac{260}{\\sin 36^\\circ}\nx &= \\frac{260 \\sin 47^\\circ}{\\sin 36^\\circ}\n&= 323.506\n&= 324\nANSWER: |BC| = 324 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q9#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the length of the arc\nArc length $= 2\\pi r \\times \\frac{\\theta}{360}$ with $r = 10$ and $\\theta = 70$.\nl &= 2\\pi(10)\\left(\\frac{70}{360}\\right)\n&= 12.217\n## Add the two straight 10 km legs\n\\text{Total} &= 10 + 10 + 12.217\n&= 32.217\n&= 32.22\nANSWER: 32.22 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q10#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Read the co-ordinates of T\nIn $(x, y) = (-2, -5)$, the first number is the $x$-value: $2$ units to the left of the origin.\nThe second number is the $y$-value: $5$ units down.\nMark the point where these meet and label it $T$.\nANSWER: T(-2, -5) \\text{ plotted}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q10#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Equation of the line through A(3, -5) with slope -1\ny - y_1 &= m(x - x_1)\ny - (-5) &= -1(x - 3)\ny + 5 &= -x + 3\nx + y &= -2\n## Equation of the line through B(6, 4) with slope 0\ny - 4 &= 0(x - 6)\ny &= 4\n## Find where the lines meet\nPut $y = 4$ into $x + y = -2$.\nx + 4 &= -2\nx &= -6\n## Draw the lines\nDraw $y = 4$ (horizontal through $B$) and $x + y = -2$ (through $A$, going up to the left). They cross at $F$.\nANSWER: F = (-6, 4)"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q10#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the distance from B to C\nUse $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ with $B(6, 4)$ and $C(-3, 2)$.\nd &= \\sqrt{(6 - (-3))^2 + (4 - 2)^2}\n&= \\sqrt{9^2 + 2^2}\n&= \\sqrt{81 + 4}\n&= \\sqrt{85}\n## Raise d to the power 4\nd^4 &= (\\sqrt{85})^4\n&= 85^2\n&= 7225\nThe marking scheme also accepted $6561$, from rounding $d$ to $9$ first, because the question says $d \\in \\mathbb{N}$.\nANSWER: d^4 = 7225"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q10#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the distance formula for P(2, m) and B(6, 4)\n\\sqrt{(6 - 2)^2 + (4 - m)^2} &= \\sqrt{41}\n\\sqrt{16 + (m - 4)^2} &= \\sqrt{41}\n## Square both sides and expand\n16 + (m - 4)^2 &= 41\n16 + m^2 - 8m + 16 &= 41\nm^2 - 8m - 9 &= 0\n## Factorise and solve\n(m + 1)(m - 9) &= 0\nm &= -1 \\text{ or } m = 9\n$P$ is below the $x$-axis, so $m$ is negative. Reject $m = 9$.\n## Plot P\n$P(2, -1)$ is $2$ across and $1$ down.\nANSWER: m = -1,\\ P(2, -1)"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q10#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = -2 and y = -5 into x - y - 3\nx - y - 3 &= (-2) - (-5) - 3\n&= -2 + 5 - 3\n&= 0\nThe left side equals $0$, so $T$ is on $k$.\nANSWER: T \\in k"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q10#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Pick a value for x and find y\nChoose $x = 1$ and put it into $x - y - 3 = 0$.\n1 - y - 3 &= 0\n-y - 2 &= 0\ny &= -2\nANSWER: (1, -2) \\in k"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q10#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of k\nx - y - 3 &= 0\ny &= x - 3\nThe slope of $k$ is $1$. Parallel lines have equal slopes, so the slope of $l$ is $1$.\n## Find l through C(-3, 2) with slope 1\ny - y_1 &= m(x - x_1)\ny - 2 &= 1(x - (-3))\ny - 2 &= x + 3\ny &= x + 5\nANSWER: y = x + 5"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Use the discriminant for exactly one solution\nExactly one solution means the discriminant is zero.\nb^2 - 4ac &= 0\n## Substitute a = 3, b = -m, c = 3\n(-m)^2 - 4(3)(3) &= 0\nm^2 - 36 &= 0\n## Solve for m\nm^2 &= 36\nm &= \\pm 6\nANSWER: m = 6 \\text{ or } m = -6"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## A square is never negative\nFor every real $x$, a squared number is at least $0$.\n(2x+3)^2 &\\ge 0\n## Add 7 to both sides\n(2x+3)^2 + 7 &\\ge 7\n&> 0\n## Conclude\nThe left-hand side is always greater than $0$, so it can never equal $0$. There are no real solutions.\nANSWER: (2x+3)^2 + 7 \\ge 7 > 0 \\text{, so there are no real solutions}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q1#(c)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths2",
+   "maths1"
+  ],
+  "marks": 15,
+  "solution": "## (i) Substitute x = -1\n3(-1)^2 + 2(-1) + 5 &= 3(1) - 2 + 5\n&= 3 - 2 + 5\n&= 6\nSince $6 \\ne 0$, $x = -1$ is not a solution.\n## (ii) Expand the product\n(x+1)(ax+b) + c &= ax^2 + bx + ax + b + c\n&= ax^2 + (a+b)x + b + c\n## Equate to 3x^2 + 2x + 5\nax^2 + (a+b)x + (b+c) &= 3x^2 + 2x + 5\nCompare coefficients of $x^2$, $x$ and the constants.\n## Coefficient of x^2\na &= 3\n## Coefficient of x\na + b &= 2\n3 + b &= 2\nb &= -1\n## Constant term\nb + c &= 5\n-1 + c &= 5\nc &= 6\nANSWER: c = 6"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 5,
+  "solution": "## Integrate each term\nRaise the power by 1 and divide by the new power: $\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + c$.\n\\int (2x^2 + 5x + 6)\\,dx &= \\int 2x^2\\,dx + \\int 5x\\,dx + \\int 6\\,dx\n&= \\frac{2x^3}{3} + \\frac{5x^2}{2} + 6x + c\nANSWER: \\frac{2x^3}{3} + \\frac{5x^2}{2} + 6x + c"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q2#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Write the area as an integral\nRegion $K$ lies between $x = 0$ and $x = 2$.\n\\int_0^2 (ax^2 + bx + c)\\,dx &= 538\n## Integrate each term\n\\left[\\frac{ax^3}{3} + \\frac{bx^2}{2} + cx\\right]_0^2 &= 538\n## Substitute the limits\nAt $x = 0$ every term is $0$, so only $x = 2$ matters.\n\\frac{a(2^3)}{3} + \\frac{b(2^2)}{2} + c(2) &= 538\n\\frac{8a}{3} + 2b + 2c &= 538\n## Simplify to the given equation\n8a + 6b + 6c &= 1614\n4a + 3b + 3c &= 807\nANSWER: 4a + 3b + 3c = 807"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q2#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 15,
+  "solution": "## Label the equations\n4a + 3b + 3c &= 807 \\quad (1)\n28a + 9b + 3c &= 879 \\quad (2)\n76a + 15b + 3c &= 663 \\quad (3)\n## Subtract (1) from (2) to remove c\n(28a + 9b + 3c) - (4a + 3b + 3c) &= 879 - 807\n24a + 6b &= 72 \\quad (4)\n## Subtract (2) from (3) to remove c\n(76a + 15b + 3c) - (28a + 9b + 3c) &= 663 - 879\n48a + 6b &= -216 \\quad (5)\n## Subtract (4) from (5) to remove b\n(48a + 6b) - (24a + 6b) &= -216 - 72\n24a &= -288\na &= -12\n## Substitute a = -12 into (4)\n24(-12) + 6b &= 72\n-288 + 6b &= 72\n6b &= 360\nb &= 60\n## Substitute a = -12, b = 60 into (1)\n4(-12) + 3(60) + 3c &= 807\n-48 + 180 + 3c &= 807\n132 + 3c &= 807\n3c &= 675\nc &= 225\nANSWER: a = -12,\\; b = 60,\\; c = 225"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q3#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Substitute z = 6 + 2i\nz - iz &= (6 + 2i) - i(6 + 2i)\n&= 6 + 2i - 6i - 2i^2\n## Use i^2 = -1 and collect terms\nz - iz &= 6 + 2i - 6i + 2\n&= 8 - 4i\nANSWER: z - iz = 8 - 4i"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q3#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Find |z|²\nFor $x + yi$, $|x + yi|^2 = x^2 + y^2$.\n|z|^2 &= 6^2 + 2^2\n&= 36 + 4\n&= 40\n## Find iz, then |iz|²\niz &= i(6 + 2i)\n&= 6i + 2i^2\n&= -2 + 6i\n|iz|^2 &= (-2)^2 + 6^2\n&= 4 + 36\n&= 40\n## Find |z - iz|²\nFrom part (i), $z - iz = 8 - 4i$.\n|z - iz|^2 &= 8^2 + (-4)^2\n&= 64 + 16\n&= 80\n## Compare both sides\n|z|^2 + |iz|^2 &= 40 + 40\n&= 80\n&= |z - iz|^2\nANSWER: |z|^2 + |iz|^2 = |z - iz|^2"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q3#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Find the diameter\n$z$ and $iz$ are the ends of a diameter, so the diameter is the distance between them, $|z - iz|$.\nd &= |z - iz|\n&= \\sqrt{8^2 + (-4)^2}\n&= \\sqrt{80}\n## Find the radius\n$\\sqrt{80} = \\sqrt{4 \\times 20} = 2\\sqrt{20}$.\nr &= \\frac{\\sqrt{80}}{2}\n&= \\frac{2\\sqrt{20}}{2}\n&= \\sqrt{20}\n## Find the area\nA &= \\pi r^2\n&= \\pi \\left(\\sqrt{20}\\right)^2\n&= 20\\pi\nANSWER: 20\\pi \\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Find the modulus r\nThe point $\\sqrt{3} - i$ has real part $\\sqrt{3}$ and imaginary part $-1$.\nr &= \\sqrt{(\\sqrt{3})^2 + (-1)^2}\n&= \\sqrt{3 + 1}\n&= \\sqrt{4}\n&= 2\n## Find the argument\nThe point is in the fourth quadrant, so measure the reference angle and subtract it from $360^\\circ$.\n\\tan A &= \\frac{1}{\\sqrt{3}}\nA &= 30^\\circ\n\\theta &= 360^\\circ - 30^\\circ\n&= 330^\\circ\n## Write in polar form\n\\sqrt{3} - i &= 2(\\cos 330^\\circ + i\\sin 330^\\circ)\n## Apply de Moivre's Theorem\n$[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n(\\sqrt{3} - i)^9 &= 2^9\\left(\\cos(9 \\times 330^\\circ) + i\\sin(9 \\times 330^\\circ)\\right)\n&= 512(\\cos 2970^\\circ + i\\sin 2970^\\circ)\n## Reduce the angle and evaluate\n$2970^\\circ - 8 \\times 360^\\circ = 90^\\circ$, so $\\cos 2970^\\circ = 0$ and $\\sin 2970^\\circ = 1$.\n&= 512(\\cos 90^\\circ + i\\sin 90^\\circ)\n&= 512(0 + i(1))\n&= 0 + 512i\n## Read off a and b\na &= 0\nb &= 512\nANSWER: a = 0,\\; b = 512"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Substitute u₁ and u₂ into the rule\nPut $n = 2$ in $u_{n+1} = \\sqrt{\\dfrac{u_n}{u_{n-1}}}$, so $u_3 = \\sqrt{\\dfrac{u_2}{u_1}}$.\nu_3 &= \\sqrt{\\frac{64}{2}}\n&= \\sqrt{32}\n## Write 32 as a power of 2\n&= \\sqrt{2^5}\n## Replace the square root with a power of one half\n&= \\left(2^5\\right)^{\\frac{1}{2}}\n&= 2^{\\frac{5}{2}}\nANSWER: u_3 = 2^{\\frac{5}{2}}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q4#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Set the two common differences equal\nIn an arithmetic sequence $T_2 - T_1 = T_3 - T_2$.\n13 - 5e^{-k} &= 5e^{k} - 13\n## Replace e^k with y\nSince $y = e^k$, we have $e^{-k} = \\dfrac{1}{y}$.\n13 - \\frac{5}{y} &= 5y - 13\n## Multiply every term by y\n13y - 5 &= 5y^2 - 13y\n## Collect all terms on one side\n0 &= 5y^2 - 13y - 13y + 5\n0 &= 5y^2 - 26y + 5\nANSWER: 5y^2 - 26y + 5 = 0"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q4#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Factorise the quadratic in y\n5y^2 - 26y + 5 &= 0\n(y - 5)(5y - 1) &= 0\n## Set each factor equal to zero\ny - 5 &= 0 \\quad \\text{or} \\quad 5y - 1 = 0\ny &= 5 \\quad \\text{or} \\quad y = \\frac{1}{5}\n## Replace y with e^k\ne^k &= 5 \\quad \\text{or} \\quad e^k = \\frac{1}{5}\n## Take natural logs to solve for k\nk &= \\ln 5 \\quad \\text{or} \\quad k = \\ln \\frac{1}{5}\nWrite $\\frac{1}{5} = 5^{-1}$ and use $\\ln(a^b) = b\\ln a$.\nk &= \\ln 5 \\quad \\text{or} \\quad k = -\\ln 5\nANSWER: k = \\ln 5 \\ \\text{or} \\ k = -\\ln 5"
+ }
+]

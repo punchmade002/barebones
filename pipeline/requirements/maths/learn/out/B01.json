@@ -1,0 +1,473 @@
+[
+ {
+  "skill": "alg-factor-quadratic",
+  "what": {
+   "say": [
+    "You give it a quadratic trinomial, $ax^2 + bx + c$. It writes it as a product of two **brackets**.",
+    "The key idea: split the middle term into two pieces whose numbers multiply to $a \\times c$ and add to $b$. Then the brackets pull out."
+   ],
+   "in": "$ax^2+bx+c$",
+   "out": "$(px+q)(rx+s)$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside bigger questions, mostly Paper 1: solving a cubic once one factor is known, or finding where a graph crosses the axis.",
+   "ordinary": "Ordinary level asks for it directly on Paper 1, either as a short part of its own worth 10 marks, or as the step that solves a quadratic equation."
+  },
+  "example": {
+   "question": "Factorise $2x^2 + 9x + 10$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the two numbers",
+      "say": "Multiply the first and last numbers: $2 \\times 10 = 20$. Look for two numbers that multiply to $\\hl{1}{20}$ and add to $\\hl{2}{9}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{4 \\times 5} &= 20",
+        "sym": "4*5",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{4 + 5} &= 9",
+        "sym": "4+5",
+        "new": true
+       },
+       {
+        "text": "The numbers are $4$ and $5$."
+       }
+      ]
+     },
+     {
+      "title": "Split the middle term",
+      "say": "Write the $9x$ as $4x + 5x$. The value of the expression does not change.",
+      "lines": [
+       {
+        "tex": "2x^2 + 9x + 10 &= 2x^2 + 4x + 5x + 10",
+        "sym": "2*x**2+4*x+5*x+10",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Take out common factors",
+      "say": "Pair the terms. Take the common factor out of each pair. Both pairs now leave the same bracket.",
+      "lines": [
+       {
+        "tex": "&= 2x(x + 2) + 5(x + 2)",
+        "sym": "2*x*(x+2)+5*(x+2)"
+       }
+      ]
+     },
+     {
+      "title": "Take out the bracket",
+      "say": "The bracket $(x+2)$ is common to both parts. Take it out, and what is left forms the other bracket.",
+      "lines": [
+       {
+        "tex": "&= (x + 2)(2x + 5)",
+        "sym": "(x+2)*(2*x+5)"
+       },
+       {
+        "text": "Check by multiplying out: you get $2x^2 + 9x + 10$ back."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(x + 2)(2x + 5)"
+   },
+   "finalSym": "(x+2)*(2*x+5)",
+   "answerSym": "factor(2*x**2+9*x+10)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "When you know one root, divide it out and finish the division. A full division with no remainder earns marks on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q4#(b)(ii)",
+       "quote": "Division completed with no remainder"
+      }
+     ]
+    },
+    {
+     "tip": "Once the cubic is reduced to a quadratic, you may factorise it or use the formula. Both are accepted, so use whichever you trust.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q5#(b)(i)",
+       "quote": "OR fully substituted formula"
+      }
+     ]
+    },
+    {
+     "tip": "Partial credit goes for correct division even if you do not finish, so always set the division up and show it.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q5#(b)(i)",
+       "quote": "some correct division, or sets up long division correctly"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Move every term to one side so it equals $0$ before you factorise. That rearranging is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q10#(a)(iii)",
+       "quote": "Rearranges (one side = 0)"
+      }
+     ]
+    },
+    {
+     "tip": "A quadratic gives two answers. If one does not fit the story, say which you keep and why.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q10#(a)(iii)",
+       "quote": "as height was decreasing"
+      }
+     ]
+    },
+    {
+     "tip": "Even one correct factor of the constant earns marks, so write down the factor pairs.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q3#(c)(i), (ii)",
+       "quote": "one factor of 12 given"
+      }
+     ]
+    },
+    {
+     "tip": "Marks are given for the factorised form on its own, so write the brackets out before solving.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q8#(b)(ii)",
+       "quote": "Function factorised correctly"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm19",
+  "what": {
+   "say": [
+    "You give it a diagram with an unknown angle on a circle. It finds the angle and **names the theorem** that justifies it.",
+    "Theorem 19: the angle at the **centre** is twice the angle at the circle, when both stand on the same arc."
+   ],
+   "in": "circle with two angles on one arc",
+   "out": "unknown angle, with Theorem 19 cited"
+  },
+  "how": {
+   "higher": "Higher level has used it in a proof on Paper 2 (2022, a 5-mark part), where the proof is built from the angle at the centre being twice the angle at the circle."
+  },
+  "example": {
+   "question": "$A$, $B$ and $C$ are points on a circle with centre $O$. The angle at the centre is $|\\angle AOB| = (6x - 10)^\\circ$ and the angle at the circle is $|\\angle ACB| = (2x + 5)^\\circ$. Both stand on the arc $AB$. Find $x$ and $|\\angle ACB|$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name the two angles",
+      "say": "Both angles stand on the same arc $AB$. $\\hl{1}{|\\angle AOB|}$ is at the centre. $\\hl{2}{|\\angle ACB|}$ is at the circle.",
+      "lines": [
+       {
+        "text": "Centre: $|\\angle AOB| = 6x - 10$."
+       },
+       {
+        "text": "Circle: $|\\angle ACB| = 2x + 5$."
+       }
+      ]
+     },
+     {
+      "title": "Apply Theorem 19",
+      "say": "By Theorem 19, the angle at the centre is twice the angle at the circle. So $\\hl{1}{|\\angle AOB|} = 2\\hl{2}{|\\angle ACB|}$.",
+      "lines": [
+       {
+        "tex": "6x - 10 &= 2(2x + 5)",
+        "sym": "Eq(6*x-10, 2*(2*x+5))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Multiply out the bracket, then collect the $x$ terms on one side.",
+      "lines": [
+       {
+        "tex": "6x - 10 &= 4x + 10",
+        "sym": "Eq(6*x-10, 4*x+10)"
+       },
+       {
+        "tex": "2x &= 20",
+        "sym": "Eq(2*x, 20)"
+       },
+       {
+        "tex": "x &= 10",
+        "sym": "Eq(x, 10)"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle at the circle",
+      "say": "Substitute $x = 10$ into the angle at the circle.",
+      "lines": [
+       {
+        "tex": "|\\angle ACB| &= 2(10) + 5",
+        "sym": "2*10+5",
+        "new": true
+       },
+       {
+        "tex": "&= 25^\\circ",
+        "sym": "25"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 10, \\ |\\angle ACB| = 25^\\circ"
+   },
+   "finalSym": "[10]",
+   "answerSym": "solve(Eq(6*x-10, 2*(2*x+5)), x)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><circle cx=\"150\" cy=\"110\" r=\"85\"/><path d=\"M80 61 L150 110 L220 61 M80 61 L150 195 L220 61\" /><text x=\"62\" y=\"58\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"224\" y=\"58\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"144\" y=\"212\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"154\" y=\"104\" fill=\"#1A1916\" stroke=\"none\">O</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Say that the two angles stand on the same arc. The scheme gives credit for naming the equal angles on the same arc.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(c)",
+       "quote": "equal angles standing on same arc"
+      }
+     ]
+    },
+    {
+     "tip": "Describing or drawing a construction that supports the proof earns partial credit, even if you cannot finish the proof.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(c)",
+       "quote": "Performs construction / description of construction that would support proof"
+      }
+     ]
+    },
+    {
+     "tip": "Copying out the given first line and nothing else earns nothing.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(c)",
+       "quote": "no other relevant work"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "con-4",
+  "what": {
+   "say": [
+    "You give it a line $l$ and a point $P$ on it. It draws the line through $P$ that meets $l$ at a **right angle**.",
+    "The key idea: mark two points the same distance either side of $P$. Any point the same distance from both of them lies on the perpendicular."
+   ],
+   "in": "line $l$ and point $P$ on $l$",
+   "out": "perpendicular to $l$ through $P$"
+  },
+  "how": {
+   "higher": "It appeared on Paper 2 in 2016 as a 5-mark construction part, where the perpendicular was one stage of a longer construction."
+  },
+  "example": {
+   "question": "Draw a line $l$ and mark a point $P$ on it. Construct the line through $P$ perpendicular to $l$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Mark equal distances",
+      "say": "Put the compass point on $P$. Draw an arc that cuts $l$ on each side of $P$. Call the points $A$ and $B$.",
+      "lines": [
+       {
+        "text": "Keep the compass setting the same for both arcs, so $|PA| = |PB|$."
+       }
+      ]
+     },
+     {
+      "title": "Open the compass wider",
+      "say": "Open the compass wider than $|PA|$. With the point on $A$, draw an arc above the line.",
+      "lines": [
+       {
+        "text": "Do not change the setting yet."
+       }
+      ]
+     },
+     {
+      "title": "Cross the arcs",
+      "say": "Keep the same setting. With the point on $B$, draw an arc that crosses the first one. Call the crossing $Q$.",
+      "lines": [
+       {
+        "text": "Leave all arcs on the page. They are the construction lines."
+       }
+      ]
+     },
+     {
+      "title": "Join the points",
+      "say": "With the ruler, draw a straight line from $P$ through $Q$.",
+      "lines": [
+       {
+        "text": "This line $PQ$ meets $l$ at $90^\\circ$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "PQ \\perp l"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M20 170 L280 170\"/><path d=\"M95 170 A55 55 0 0 1 205 170\" stroke-dasharray=\"3 3\"/><path d=\"M95 120 A70 70 0 0 1 150 70\" stroke-dasharray=\"3 3\"/><path d=\"M205 120 A70 70 0 0 0 150 70\" stroke-dasharray=\"3 3\"/><path d=\"M150 170 L150 40\"/><text x=\"86\" y=\"190\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"144\" y=\"190\" fill=\"#1A1916\" stroke=\"none\">P</text><text x=\"204\" y=\"190\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"156\" y=\"46\" fill=\"#1A1916\" stroke=\"none\">Q</text><text x=\"262\" y=\"190\" fill=\"#1A1916\" stroke=\"none\">l</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Marks are given for the perpendicular drawn at the correct point, so draw it at the point the question names.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q4#(b)",
+       "quote": "perpendicular line drawn at U or T"
+      }
+     ]
+    },
+    {
+     "tip": "A correct mid-point earns marks of its own, so show the arcs that find it.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q4#(b)",
+       "quote": "correct mid-point constructed"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "induction-sum",
+  "what": {
+   "say": [
+    "You give it a formula for a sum, $\\Sigma$, that you are told is true for every $n$. It **proves** it in three moves.",
+    "Show it works for $n = 1$. Assume it works for $n = k$. Then use that to show it works for $n = k + 1$."
+   ],
+   "in": "sum formula for all $n$",
+   "out": "proof by induction"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 1, usually as a 15-mark part at the end of a question (2020 and 2025), where the sum or formula is given and you prove it."
+  },
+  "example": {
+   "question": "Prove by induction that $1 + 3 + 5 + \\cdots + (2n - 1) = n^2$ for all $n \\in \\mathbb{N}$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Check n = 1",
+      "say": "Test the formula for $n = 1$. The sum has one term.",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 1",
+        "sym": "1",
+        "new": true
+       },
+       {
+        "tex": "\\text{RHS} &= 1^2 = 1",
+        "sym": "1**2",
+        "new": true
+       },
+       {
+        "text": "They match, so it is true for $n = 1$."
+       }
+      ]
+     },
+     {
+      "title": "Assume true for k",
+      "say": "Assume the formula is true for $n = k$. This is what you will use.",
+      "lines": [
+       {
+        "text": "Assume $1 + 3 + 5 + \\cdots + (2k - 1) = k^2$."
+       }
+      ]
+     },
+     {
+      "title": "Prove for k + 1",
+      "say": "Now take $n = k + 1$. Add the next term, $2k + 1$, to the sum for $k$. Replace the sum for $k$ with $k^2$.",
+      "lines": [
+       {
+        "text": "To prove: the sum to $k+1$ terms is $(k + 1)^2$."
+       },
+       {
+        "tex": "S_{k+1} &= k^2 + (2k + 1)",
+        "sym": "k**2+(2*k+1)",
+        "new": true
+       },
+       {
+        "tex": "&= k^2 + 2k + 1",
+        "sym": "k**2+2*k+1"
+       },
+       {
+        "tex": "&= (k + 1)^2",
+        "sym": "(k+1)**2"
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "say": "State all three parts of the conclusion. It is a step the marks are tied to.",
+      "lines": [
+       {
+        "text": "True for $n = 1$. If true for $n = k$, then true for $n = k + 1$. So true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{True for all } n \\in \\mathbb{N}"
+   },
+   "finalSym": "0",
+   "answerSym": "simplify(summation(2*k-1,(k,1,n))-n**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Finish with a concluding statement. Leaving it out costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q7#(d)",
+       "quote": "Concluding statement missing"
+      }
+     ]
+    },
+    {
+     "tip": "The conclusion has three parts: true for the first case, true for $k$ implies true for $k+1$, and so true for all $n$. Write all three.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q10#(e)(i), (ii)",
+       "quote": "Conclusion has three"
+      }
+     ]
+    },
+    {
+     "tip": "The base case and the assumption can come in either order, so do not worry about the order.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q7#(d)",
+       "quote": "in any order"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

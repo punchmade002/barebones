@@ -1,0 +1,480 @@
+[
+ {
+  "skill": "geo-thm5",
+  "what": {
+   "say": [
+    "You give it a diagram where a line crosses two lines. It finds the unknown angle and **names the theorem** that justifies it.",
+    "Theorem 5: when a line crosses two lines, **corresponding angles** are equal exactly when the two lines are parallel."
+   ],
+   "in": "two parallel lines cut by a third",
+   "out": "unknown angle, with Theorem 5 cited"
+  },
+  "how": {
+   "higher": "At Higher level it is a step inside a longer proof: in 2021 it gives the parallel line in the 20-mark proof that similar triangles have proportional sides.",
+   "ordinary": "At Ordinary level it is a reason inside bigger geometry questions on Paper 2 (2015 and 2025), not a part of its own."
+  },
+  "example": {
+   "question": "The lines $l$ and $m$ are parallel. A third line crosses them. The corresponding angles are $(4x + 10)^\\circ$ on $l$ and $(6x - 20)^\\circ$ on $m$. Find $x$ and the size of each angle. Give a reason.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Spot the corresponding angles",
+      "say": "The two angles sit in the same position, one at each line. They are **corresponding angles**. $\\hl{1}{(4x+10)^\\circ}$ is on $l$ and $\\hl{2}{(6x-20)^\\circ}$ is on $m$.",
+      "lines": [
+       {
+        "text": "The lines are parallel, so Theorem 5 says they are equal."
+       }
+      ]
+     },
+     {
+      "title": "Make them equal",
+      "say": "Corresponding angles are equal when the lines are parallel. Set $\\hl{1}{4x+10}$ equal to $\\hl{2}{6x-20}$.",
+      "lines": [
+       {
+        "tex": "4x + 10 &= 6x - 20",
+        "sym": "Eq(4*x+10, 6*x-20)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Collect the $x$ terms on one side and the numbers on the other.",
+      "lines": [
+       {
+        "tex": "30 &= 2x",
+        "sym": "Eq(30, 2*x)"
+       },
+       {
+        "tex": "x &= 15",
+        "sym": "Eq(x, 15)"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle",
+      "say": "Put $x = 15$ into either angle. Check with the other.",
+      "lines": [
+       {
+        "tex": "4(15) + 10 &= 70",
+        "sym": "Eq(4*15+10, 70)",
+        "new": true
+       },
+       {
+        "tex": "6(15) - 20 &= 70",
+        "sym": "Eq(6*15-20, 70)",
+        "new": true
+       },
+       {
+        "text": "Reason: corresponding angles are equal (Theorem 5)."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 15, \\ \\text{both angles } = 70^\\circ"
+   },
+   "finalSym": "[15]",
+   "answerSym": "solve(Eq(4*x+10, 6*x-20), x)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M20 70 H280 M20 150 H280 M95 190 L205 30\"/><text x=\"150\" y=\"60\" fill=\"#1A1916\" stroke=\"none\">l</text><text x=\"150\" y=\"172\" fill=\"#1A1916\" stroke=\"none\">m</text><text x=\"24\" y=\"62\" fill=\"#1A1916\" stroke=\"none\">l</text><text x=\"24\" y=\"142\" fill=\"#1A1916\" stroke=\"none\">m</text><text x=\"176\" y=\"66\" fill=\"#1A1916\" stroke=\"none\">a</text><text x=\"141\" y=\"146\" fill=\"#1A1916\" stroke=\"none\">b</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write a reason beside each step of a proof. Steps without reasons cannot get full credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(a)",
+       "quote": "Accept steps without reasons"
+      },
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(a)",
+       "quote": "Reason: corresponding angles,"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Give a reason with each value. A value with its reason scores higher than a bare value.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(a)",
+       "quote": "One correct value and reason."
+      },
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(a)",
+       "quote": "Two correct values, both with reasons."
+      }
+     ]
+    },
+    {
+     "tip": "Write the reason in words: 'corresponding angles'.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(a)",
+       "quote": "Reason: Corresponding angles"
+      }
+     ]
+    },
+    {
+     "tip": "A correct angle with no working can still earn marks, but write the work and the reason anyway.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q5#(a)",
+       "quote": "Accept correct answers without work"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm2",
+  "what": {
+   "say": [
+    "You give it a triangle with two equal sides, or two equal angles. It finds the unknown angle and **names the theorem** that justifies it.",
+    "Theorem 2: in an isosceles triangle the two **base angles** are equal, and the other way round."
+   ],
+   "in": "triangle with two equal sides",
+   "out": "unknown angle, with Theorem 2 cited"
+  },
+  "how": {
+   "higher": "At Higher level it is a step inside circle questions on Paper 2: in 2022 the isosceles triangle gives a 45° angle in a 10-mark part, and it appears again in 2025.",
+   "ordinary": "At Ordinary level it is the main skill in three Paper 2 parts (2019, 2022, 2023), usually as a step in an angle-finding part worth 5 or 10 marks."
+  },
+  "example": {
+   "question": "In the triangle $ABC$, $|AB| = |AC|$. The base angles are $|\\angle ABC| = (2x + 10)^\\circ$ and $|\\angle ACB| = (4x - 20)^\\circ$. Find $x$ and $|\\angle BAC|$. Give a reason.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the base angles",
+      "say": "$|AB| = |AC|$, so the triangle is isosceles. The base angles are the ones opposite the equal sides: $\\hl{1}{|\\angle ABC|}$ and $\\hl{2}{|\\angle ACB|}$.",
+      "lines": [
+       {
+        "text": "Reason: isosceles triangle (Theorem 2), base angles are equal."
+       }
+      ]
+     },
+     {
+      "title": "Make them equal",
+      "say": "Set $\\hl{1}{2x+10}$ equal to $\\hl{2}{4x-20}$.",
+      "lines": [
+       {
+        "tex": "2x + 10 &= 4x - 20",
+        "sym": "Eq(2*x+10, 4*x-20)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Collect the $x$ terms on one side and the numbers on the other.",
+      "lines": [
+       {
+        "tex": "30 &= 2x",
+        "sym": "Eq(30, 2*x)"
+       },
+       {
+        "tex": "x &= 15",
+        "sym": "Eq(x, 15)"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle at A",
+      "say": "Each base angle is $2(15) + 10 = 40^\\circ$. The three angles of a triangle add to $180^\\circ$.",
+      "lines": [
+       {
+        "tex": "|\\angle BAC| &= 180 - 40 - 40",
+        "sym": "180-40-40",
+        "new": true
+       },
+       {
+        "tex": "&= 100^\\circ",
+        "sym": "100"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 15, \\ |\\angle BAC| = 100^\\circ"
+   },
+   "finalSym": "[15]",
+   "answerSym": "solve(Eq(2*x+10, 4*x-20), x)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M150 25 L65 185 L235 185 Z M143 100 L157 94 M69 100 M121 100 L129 96 M171 96 L179 100\"/><text x=\"144\" y=\"18\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"46\" y=\"196\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"240\" y=\"196\" fill=\"#1A1916\" stroke=\"none\">C</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Give the reason in brackets beside each angle you find, such as 'isosceles'.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(b)",
+       "quote": "isosceles, and angles in a"
+      }
+     ]
+    },
+    {
+     "tip": "Mark equal angles on the diagram. It earns partial credit before you finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(b)",
+       "quote": "Indicates two equal angles"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Show the geometry you use. Any correct geometrical property, written or marked on the diagram, earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q6#(a)(ii)",
+       "quote": "Any correct geometrical property"
+      },
+      {
+       "part": "maths-pp-2023-ordinary-p2-q10#(a)",
+       "quote": "Any correct geometrical interpretation"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no working gets full marks in these parts, but write the working in case you slip.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q10#(a)",
+       "quote": "Correct answer without supporting work"
+      }
+     ]
+    },
+    {
+     "tip": "Do not stop after the first angle. Finding 54° and stopping is only High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q10#(a)",
+       "quote": "and stops"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm6",
+  "what": {
+   "say": [
+    "You give it a triangle with one side extended. It finds the unknown angle and **names the theorem** that justifies it.",
+    "Theorem 6: the **exterior angle** of a triangle equals the sum of the two interior opposite angles."
+   ],
+   "in": "triangle with a side extended",
+   "out": "unknown angle, with Theorem 6 cited"
+  },
+  "how": {
+   "ordinary": "At Ordinary level it was used once, in 2015: a 20-mark part where the value of $z$ comes from an exterior angle, with a reason required."
+  },
+  "example": {
+   "question": "In the triangle $ABC$, the side $[BC]$ is extended to $D$. $|\\angle BAC| = (2x + 10)^\\circ$, $|\\angle ABC| = 40^\\circ$ and the exterior angle is $|\\angle ACD| = (5x - 10)^\\circ$. Find $x$ and $|\\angle ACD|$. Give a reason.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Pick out the angles",
+      "say": "The exterior angle is $\\hl{1}{|\\angle ACD|}$. The two interior opposite angles are $\\hl{2}{|\\angle BAC|}$ and $|\\angle ABC|$, the ones not touching $C$.",
+      "lines": [
+       {
+        "text": "Reason: exterior angle equals the sum of the interior opposite angles (Theorem 6)."
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "say": "The exterior angle equals the sum of the other two. Write $\\hl{1}{5x-10}$ equal to $\\hl{2}{2x+10}$ plus $40$.",
+      "lines": [
+       {
+        "tex": "5x - 10 &= 2x + 10 + 40",
+        "sym": "Eq(5*x-10, 2*x+10+40)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Tidy the right side, then collect the $x$ terms.",
+      "lines": [
+       {
+        "tex": "5x - 10 &= 2x + 50",
+        "sym": "Eq(5*x-10, 2*x+50)"
+       },
+       {
+        "tex": "3x &= 60",
+        "sym": "Eq(3*x, 60)"
+       },
+       {
+        "tex": "x &= 20",
+        "sym": "Eq(x, 20)"
+       }
+      ]
+     },
+     {
+      "title": "Find the exterior angle",
+      "say": "Put $x = 20$ into $5x - 10$.",
+      "lines": [
+       {
+        "tex": "|\\angle ACD| &= 5(20) - 10",
+        "sym": "5*20-10",
+        "new": true
+       },
+       {
+        "tex": "&= 90^\\circ",
+        "sym": "90"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 20, \\ |\\angle ACD| = 90^\\circ"
+   },
+   "finalSym": "[20]",
+   "answerSym": "solve(Eq(5*x-10, 2*x+10+40), x)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M30 180 L270 180 M105 50 L30 180 M105 50 L200 180\"/><text x=\"103\" y=\"42\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"14\" y=\"196\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"194\" y=\"198\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"266\" y=\"198\" fill=\"#1A1916\" stroke=\"none\">D</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Name the theorem in words: 'external angle equals sum of opposite interior angles'.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(a)",
+       "quote": "External angle equals sum of opposite interior angles"
+      }
+     ]
+    },
+    {
+     "tip": "Give a reason with every value. One value with its reason earns more than a bare value.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(a)",
+       "quote": "One correct value and reason."
+      },
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(a)",
+       "quote": "Two correct values, both with reasons."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-transformations",
+  "what": {
+   "say": [
+    "You give it a point or a shape and a transformation. It gives back the **image**.",
+    "A translation adds the same shift to every point. Central symmetry in the origin flips the sign of both coordinates."
+   ],
+   "in": "point + transformation",
+   "out": "image point"
+  },
+  "how": {
+   "ordinary": "At Ordinary level it is the main skill in three Paper 2 parts (2018, 2019, 2022), a 5-mark translation inside a coordinate geometry question."
+  },
+  "example": {
+   "question": "A translation maps $A(3, 5)$ to $A'(7, 2)$. (i) Find the image of $B(-1, 4)$ under the same translation. (ii) Find the image of that point under central symmetry in $(0, 0)$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the translation",
+      "say": "Compare $A$ with its image $A'$. The translation is the change in $\\hl{1}{x}$ and the change in $\\hl{2}{y}$.",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{x}, \\hl{2}{y})\\ \\text{shift} &= (7 - 3,\\ 2 - 5)",
+        "sym": "(7-3, 2-5)",
+        "new": true
+       },
+       {
+        "tex": "&= (4, -3)",
+        "sym": "(4, -3)"
+       }
+      ]
+     },
+     {
+      "title": "Translate B",
+      "say": "Apply the same shift to $B(-1, 4)$. Add $4$ to $x$ and $-3$ to $y$.",
+      "lines": [
+       {
+        "tex": "B' &= (-1 + 4,\\ 4 - 3)",
+        "sym": "(-1+4, 4-3)",
+        "new": true
+       },
+       {
+        "tex": "&= (3, 1)",
+        "sym": "(3, 1)"
+       }
+      ]
+     },
+     {
+      "title": "Apply central symmetry",
+      "say": "Central symmetry in $(0, 0)$ changes the sign of both coordinates of $B'(3, 1)$.",
+      "lines": [
+       {
+        "tex": "B'' &= (-3, -1)",
+        "sym": "(-3, -1)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "B' = (3, 1), \\ B'' = (-3, -1)"
+   },
+   "finalSym": "(-3, -1)",
+   "answerSym": "(-(-1+(7-3)), -(4+(2-5)))"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M10 110 H290 M150 10 V210 M90 130 L210 90 M130 30 L210 90\"/><circle cx=\"210\" cy=\"10\" r=\"3\"/><circle cx=\"290\" cy=\"70\" r=\"3\"/><text x=\"216\" y=\"16\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"270\" y=\"60\" fill=\"#1A1916\" stroke=\"none\">A'</text><text x=\"110\" y=\"28\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"214\" y=\"86\" fill=\"#1A1916\" stroke=\"none\">B'</text><text x=\"76\" y=\"148\" fill=\"#1A1916\" stroke=\"none\">B''</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Show the translation itself, as a shift in $x$ and in $y$ or on the diagram. It earns partial credit even if the answer is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q4#(a)",
+       "quote": "Translation identified or indicated"
+      }
+     ]
+    },
+    {
+     "tip": "Apply the same shift to every point. A correct shift applied to the wrong point still earns High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q4#(a)",
+       "quote": "Correct translation applied to an"
+      },
+      {
+       "part": "maths-pp-2018-ordinary-p2-q2#(d)",
+       "quote": "Correct translation applied to an"
+      }
+     ]
+    },
+    {
+     "tip": "Check the direction of the shift. An incorrect translation applied correctly still earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q2#(d)",
+       "quote": "An incorrect translation applied"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,470 @@
+[
+ {
+  "skill": "stat-quartiles-iqr",
+  "what": {
+   "say": [
+    "You give it a list of numbers. It finds the three values that cut the list into four equal parts, $Q_1$, $Q_2$ and $Q_3$, and the **interquartile range**.",
+    "Put the list in order first. The median splits it in half, then $Q_1$ and $Q_3$ are the medians of the two halves."
+   ],
+   "in": "data set",
+   "out": "$Q_1$, $Q_2$, $Q_3$, IQR"
+  },
+  "how": {
+   "higher": "It is a step inside a bigger statistics question on Paper 2, usually worth part of a 30-mark question.",
+   "ordinary": "It turns up as its own part on Paper 2, often 10 marks, and as a step in longer data questions, mostly Question 7 and Question 1."
+  },
+  "example": {
+   "question": "The number of text messages Aoife sent on eight days was:\n$11, 4, 18, 7, 20, 13, 8, 15$\nFind the interquartile range.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Put in order, find median",
+      "say": "Write the numbers in order, smallest first. With eight numbers the median sits between the 4th and 5th, so it splits the list into two halves of four.",
+      "lines": [
+       {
+        "text": "Ordered: $4, 7, 8, 11 \\mid 13, 15, 18, 20$"
+       }
+      ]
+     },
+     {
+      "title": "Find the lower quartile",
+      "say": "$\\hl{1}{Q_1}$ is the median of the lower half. Four numbers, so take the middle two and find their mean.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{Q_1} &= \\frac{7+8}{2}",
+        "sym": "(7+8)/2",
+        "new": true
+       },
+       {
+        "tex": "&= 7.5",
+        "sym": "15/2"
+       }
+      ]
+     },
+     {
+      "title": "Find the upper quartile",
+      "say": "$\\hl{2}{Q_3}$ is the median of the upper half. Same method on $13, 15, 18, 20$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{Q_3} &= \\frac{15+18}{2}",
+        "sym": "(15+18)/2",
+        "new": true
+       },
+       {
+        "tex": "&= 16.5",
+        "sym": "33/2"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "say": "The interquartile range is $\\hl{2}{Q_3}$ minus $\\hl{1}{Q_1}$.",
+      "lines": [
+       {
+        "tex": "\\text{IQR} &= \\hl{2}{16.5} - \\hl{1}{7.5}",
+        "sym": "33/2-15/2",
+        "new": true
+       },
+       {
+        "tex": "&= 9",
+        "sym": "9"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{IQR} = 9"
+   },
+   "finalSym": "9",
+   "answerSym": "(15+18)/2-(7+8)/2"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "A correct answer with no work can still earn full marks, but show the steps anyway: if one slip happens, the working is what earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q4#(a)(i), (ii)",
+       "quote": "Accept correct answer without work"
+      }
+     ]
+    },
+    {
+     "tip": "Mark the quartiles on the diagram or list. Work done there can earn marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q4#(a)(i), (ii)",
+       "quote": "Relevant work on the diagram"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the data in order before anything else. Ordering the list earns marks of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q7#(a)",
+       "quote": "Effort at ordering data"
+      }
+     ]
+    },
+    {
+     "tip": "Finding the median from the list as given, unordered, earns little.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q7#(a)",
+       "quote": "Median taken from an unordered list"
+      }
+     ]
+    },
+    {
+     "tip": "Show how you get $Q_1$ before you subtract. Work towards $Q_1$ earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q1#(b)",
+       "quote": "Relevant work towards finding"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-scatter-correlation",
+  "what": {
+   "say": [
+    "You give it a scatter plot. It tells you the **direction** and the **strength** of the link between the two variables, and which value of $r$ fits.",
+    "$r$ always lies between $-1$ and $1$. The sign is the direction. The closer to $1$ or $-1$, the tighter the points lie on a straight line."
+   ],
+   "in": "scatter plot",
+   "out": "direction, strength, $r$"
+  },
+  "how": {
+   "higher": "It appears as a step in Paper 2 statistics questions, such as describing a trend, drawing a line of best fit, or giving $r$ on the calculator.",
+   "ordinary": "It is a regular part of Paper 2, most years: match $r$ to a plot, describe the relationship in words, or say what a given $r$ tells you."
+  },
+  "example": {
+   "question": "A teacher records hours of TV watched, $x$, and test score, $y$, for five students.\n$x$: 1, 2, 3, 4, 5\n$y$: 9, 7, 6, 3, 2\nThe points lie close to a straight line sloping downhill. Choose the value of $r$ from $0.99$, $-0.2$, $-0.99$ and explain your choice.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Read the direction",
+      "say": "Look at which way the points run. As $x$ goes up, $y$ goes down, so the **direction** is negative. That rules out $0.99$.",
+      "lines": [
+       {
+        "text": "$x$ up, $y$ down: negative"
+       }
+      ]
+     },
+     {
+      "title": "Read the strength",
+      "say": "Look at how tight the points are. They lie close to one straight line, so the link is **strong**. A value near $0$, like $-0.2$, means a loose cloud.",
+      "lines": [
+       {
+        "text": "Close to a line: strong, so $r$ is near $-1$"
+       }
+      ]
+     },
+     {
+      "title": "Choose r and explain",
+      "say": "Strong and negative means $r$ is close to $-1$. Give the value, then say it in words.",
+      "lines": [
+       {
+        "tex": "r &= \\hl{1}{-0.99}",
+        "sym": "-0.99",
+        "new": true
+       },
+       {
+        "text": "Strong negative linear correlation: as TV time goes up, test score goes down."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "r = -0.99"
+   },
+   "finalSym": "-0.99",
+   "answerSym": "round(-18/sqrt(332),2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Label every point you plot. Correct points with no or wrong labels lose a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q8#(a)(v), (b)",
+       "quote": "no or incorrect labels on points"
+      }
+     ]
+    },
+    {
+     "tip": "When asked about a point far outside the data, say it is beyond the data, so the line is unreliable there.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q8#(a)(v), (b)",
+       "quote": "L is well beyond all of the given data"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Give both words: direction and strength. For example, strong and negative.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q7#(f)(i)",
+       "quote": "Correlation is negative and strong."
+      }
+     ]
+    },
+    {
+     "tip": "Say what the points look like: they lie close to a line, and which way it slopes.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q3#(b)(i), (ii)",
+       "quote": "Points all lie close to a positive"
+      }
+     ]
+    },
+    {
+     "tip": "Put the link back into the context of the question, in plain words.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q8#(b)(i), (ii)",
+       "quote": "Cars with greater engine size are less fuel"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-outliers",
+  "what": {
+   "say": [
+    "You give it a data set. It finds any value that sits far away from the rest, an **outlier**.",
+    "Build a fence on each side of the middle half of the data. Anything beyond a fence is an outlier."
+   ],
+   "in": "data set",
+   "out": "outliers"
+  },
+  "how": {},
+  "example": {
+   "question": "Find any outliers in this data set, using the rule that an outlier lies more than $1.5 \\times \\text{IQR}$ above $Q_3$ or below $Q_1$.\n$3, 5, 6, 7, 8, 9, 11, 30$",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the quartiles",
+      "say": "The data is already in order. Find $\\hl{1}{Q_1}$ and $\\hl{2}{Q_3}$, the medians of the lower and upper halves.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{Q_1} &= \\frac{5+6}{2}",
+        "sym": "(5+6)/2",
+        "new": true
+       },
+       {
+        "tex": "&= 5.5",
+        "sym": "11/2"
+       },
+       {
+        "tex": "\\hl{2}{Q_3} &= \\frac{9+11}{2}",
+        "sym": "(9+11)/2",
+        "new": true
+       },
+       {
+        "tex": "&= 10",
+        "sym": "10"
+       }
+      ]
+     },
+     {
+      "title": "Find the IQR",
+      "say": "Subtract the quartiles to get the width of the middle half.",
+      "lines": [
+       {
+        "tex": "\\text{IQR} &= \\hl{2}{10} - \\hl{1}{5.5}",
+        "sym": "10-11/2",
+        "new": true
+       },
+       {
+        "tex": "&= 4.5",
+        "sym": "9/2"
+       }
+      ]
+     },
+     {
+      "title": "Build the fences",
+      "say": "Go $1.5 \\times \\text{IQR}$ beyond each quartile. Beyond these, a value is an outlier.",
+      "lines": [
+       {
+        "tex": "1.5 \\times 4.5 &= 6.75",
+        "sym": "Rational(3,2)*Rational(9,2)",
+        "new": true
+       },
+       {
+        "tex": "\\text{upper fence} &= \\hl{2}{10} + 6.75 = \\hl{3}{16.75}",
+        "sym": "10+Rational(27,4)",
+        "new": true
+       },
+       {
+        "tex": "\\text{lower fence} &= \\hl{1}{5.5} - 6.75 = -1.25",
+        "sym": "Rational(11,2)-Rational(27,4)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Compare each value",
+      "say": "Check the smallest and largest values against the fences. Only $30$ is outside.",
+      "lines": [
+       {
+        "text": "$3$ is above $-1.25$: not an outlier."
+       },
+       {
+        "tex": "30 &> \\hl{3}{16.75}",
+        "sym": "30-Rational(67,4)>0",
+        "new": true
+       },
+       {
+        "text": "So $30$ is an outlier."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "30 \\text{ is an outlier (upper fence } 16.75)"
+   },
+   "finalSym": "Rational(67,4)",
+   "answerSym": "10+Rational(3,2)*(10-Rational(11,2))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "stat-grouped-mean",
+  "what": {
+   "say": [
+    "You give it a frequency table with the data in groups. It estimates the **mean**, because you no longer know the exact values.",
+    "Pretend every value in a group sits at the middle of that group, the **mid-interval value**. Then find the mean the usual way."
+   ],
+   "in": "grouped table",
+   "out": "estimated mean"
+  },
+  "how": {
+   "higher": "It is a step in a longer Paper 2 statistics question, for example forming an equation in an unknown frequency from a given mean.",
+   "ordinary": "It appears as a part of its own on Paper 2, worth about 5 marks, or as a step in a longer question on a frequency table."
+  },
+  "example": {
+   "question": "The table shows the number of minutes 20 students spent on homework.\nMinutes: 0–10, 10–20, 20–30, 30–40\nNumber of students: 3, 7, 6, 4\nEstimate the mean time.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find mid-interval values",
+      "say": "Take the middle of each group. Add the two ends and halve.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= 5,\\ 15,\\ 25,\\ 35",
+        "sym": "5",
+        "new": true
+       },
+       {
+        "text": "For example $\\frac{0+10}{2} = 5$."
+       }
+      ]
+     },
+     {
+      "title": "Multiply by frequency",
+      "say": "Multiply each mid-value $\\hl{1}{x}$ by the number of students $f$, then add them up.",
+      "lines": [
+       {
+        "tex": "\\sum fx &= 3(5)+7(15)+6(25)+4(35)",
+        "sym": "3*5+7*15+6*25+4*35",
+        "new": true
+       },
+       {
+        "tex": "&= 410",
+        "sym": "410"
+       }
+      ]
+     },
+     {
+      "title": "Divide by total frequency",
+      "say": "Add the frequencies to get the number of students, then divide.",
+      "lines": [
+       {
+        "tex": "\\mu &= \\frac{\\sum fx}{\\sum f} = \\frac{410}{20}",
+        "sym": "Rational(410,20)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{20.5}",
+        "sym": "Rational(41,2)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\mu = 20.5 \\text{ minutes}"
+   },
+   "finalSym": "Rational(41,2)",
+   "answerSym": "Rational(5*3+15*7+25*6+35*4,3+7+6+4)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Start by finding the mid-interval values. It is the first step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q4#(c)",
+       "quote": "Finds mid-interval values"
+      }
+     ]
+    },
+    {
+     "tip": "With an unknown frequency, put it in both the top and the bottom of the mean, then write an equation.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q4#(c)",
+       "quote": "Writes an equation in"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Show each mid-value times its frequency, added together, before you divide.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q7#(a)(iv)",
+       "quote": "(24 × 20) + (27 × 30)"
+      }
+     ]
+    },
+    {
+     "tip": "The question tells you to use mid-interval values. Do it: using the group ends loses the marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q9#(b)(i)",
+       "quote": "using mid-"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

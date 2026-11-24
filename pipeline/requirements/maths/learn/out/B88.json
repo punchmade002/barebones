@@ -1,0 +1,356 @@
+[
+ {
+  "skill": "trig-derive-3",
+  "what": {
+   "say": [
+    "You give it a triangle with sides $a$, $b$ and the angle $C$ between them. It derives the **cosine rule**, which gives the third side $c$.",
+    "The key idea: place the triangle on coordinate axes, find $c^2$ with the distance formula, then use $\\cos^2 C + \\sin^2 C = 1$ to tidy it."
+   ],
+   "in": "triangle with $a$, $b$, $C$",
+   "out": "$c^2 = a^2 + b^2 - 2ab\\cos C$"
+  },
+  "how": {},
+  "example": {
+   "question": "Put $C$ at the origin and $A$ at $(b, 0)$. The side $CB$ has length $a$ and makes angle $C$ with $CA$. Use the distance formula to derive the cosine rule for $c = AB$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the coordinates of B",
+      "say": "$B$ is $a$ units from the origin at angle $C$, so $B$ is $(a\\cos C,\\ a\\sin C)$. Now use the distance formula from $A$ to $B$.",
+      "lines": [
+       {
+        "tex": "c^2 &= (a\\cos C - b)^2 + (a\\sin C)^2",
+        "sym": "(a*cos(C)-b)**2+(a*sin(C))**2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand the brackets",
+      "say": "Expand both squares.",
+      "lines": [
+       {
+        "tex": "c^2 &= a^2\\cos^2 C - 2ab\\cos C + b^2 + a^2\\sin^2 C",
+        "sym": "a**2*cos(C)**2-2*a*b*cos(C)+b**2+a**2*sin(C)**2"
+       }
+      ]
+     },
+     {
+      "title": "Group the $a^2$ terms",
+      "say": "Two terms have $a^2$. Take it out as a common factor and spot $\\hl{1}{\\cos^2 C + \\sin^2 C}$.",
+      "lines": [
+       {
+        "tex": "c^2 &= a^2(\\hl{1}{\\cos^2 C + \\sin^2 C}) + b^2 - 2ab\\cos C",
+        "sym": "a**2*(cos(C)**2+sin(C)**2)+b**2-2*a*b*cos(C)"
+       }
+      ]
+     },
+     {
+      "title": "Use formula 1",
+      "say": "By formula 1, $\\hl{1}{\\cos^2 C + \\sin^2 C} = \\hl{2}{1}$. Replace it.",
+      "lines": [
+       {
+        "tex": "c^2 &= a^2(\\hl{2}{1}) + b^2 - 2ab\\cos C",
+        "sym": "a**2+b**2-2*a*b*cos(C)"
+       },
+       {
+        "tex": "&= a^2 + b^2 - 2ab\\cos C",
+        "sym": "a**2+b**2-2*a*b*cos(C)"
+       },
+       {
+        "text": "This is the cosine rule."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "c^2 = a^2 + b^2 - 2ab\\cos C"
+   },
+   "finalSym": "a**2+b**2-2*a*b*cos(C)",
+   "answerSym": "trigsimp(expand((a*cos(C)-b)**2+(a*sin(C))**2))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-prove-identity",
+  "what": {
+   "say": [
+    "You give it an identity such as $\\sin 2A / (1+\\cos 2A) = \\tan A$. It changes **one side** step by step until it matches the other.",
+    "The key idea: start with the more complicated side, replace each angle formula with its expansion, then cancel."
+   ],
+   "in": "identity",
+   "out": "one side turned into the other"
+  },
+  "how": {
+   "higher": "It was asked as a 15-mark part on Paper 2 in 2015 (prove $\\tan(A+B)$), and a sum-to-product simplification was used inside a 25-mark question in 2016."
+  },
+  "example": {
+   "question": "Prove that $\\dfrac{\\sin 2A}{1 + \\cos 2A} = \\tan A$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Expand the double angles",
+      "say": "Start with the left side. Replace $\\sin 2A$ by $2\\sin A\\cos A$ and $\\cos 2A$ by $2\\cos^2 A - 1$.",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= \\dfrac{\\sin 2A}{1 + \\cos 2A}",
+        "sym": "sin(2*A)/(1+cos(2*A))",
+        "new": true
+       },
+       {
+        "tex": "&= \\dfrac{2\\sin A\\cos A}{1 + 2\\cos^2 A - 1}",
+        "sym": "2*sin(A)*cos(A)/(1+2*cos(A)**2-1)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the bottom",
+      "say": "On the bottom, $1$ and $-1$ cancel.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{2\\sin A\\cos A}{2\\cos^2 A}",
+        "sym": "2*sin(A)*cos(A)/(2*cos(A)**2)"
+       }
+      ]
+     },
+     {
+      "title": "Cancel common factors",
+      "say": "Cancel $2\\cos A$ from the top and bottom. What is left is $\\hl{1}{\\sin A}$ over $\\hl{2}{\\cos A}$.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{\\hl{1}{\\sin A}}{\\hl{2}{\\cos A}}",
+        "sym": "sin(A)/cos(A)"
+       },
+       {
+        "tex": "&= \\tan A",
+        "sym": "tan(A)"
+       },
+       {
+        "text": "This is the right side, so $\\text{LHS} = \\text{RHS}$. Write that line."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{\\sin 2A}{1+\\cos 2A} = \\dfrac{\\sin A}{\\cos A} = \\tan A"
+   },
+   "finalSym": "0",
+   "answerSym": "simplify(trigsimp(sin(2*A)/(1+cos(2*A))-tan(A)))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "When you prove a tan identity, write $\\tan$ in terms of $\\sin$ and $\\cos$. It is the first step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q5#(a)",
+       "quote": "Tan function in terms of Sine and Cosine"
+      }
+     ]
+    },
+    {
+     "tip": "Divide top and bottom by the same term, or write one single fraction. Both earn the high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q5#(a)",
+       "quote": "Numerator and denominator divided by cosA.cosB"
+      }
+     ]
+    },
+    {
+     "tip": "With a sum-to-product formula, substitute fully into the formula before you simplify. That alone earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q3#(a)",
+       "quote": "sum to product formula fully substituted"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-derive-4",
+  "what": {
+   "say": [
+    "You give it two angles, $A$ and $B$. It derives a formula for $\\cos(A - B)$ in terms of the sines and cosines of $A$ and $B$ separately.",
+    "The key idea: put two points on the unit circle and find the distance between them twice. Once with the distance formula, once with the cosine rule. The two answers must be equal."
+   ],
+   "in": "angles $A$, $B$",
+   "out": "$\\cos(A-B)$ in terms of $A$ and $B$"
+  },
+  "how": {
+   "higher": "It appeared once, in 2023 Paper 2, where formula 4 was the starting point for deriving $\\sin(A+B)$ (10 marks)."
+  },
+  "example": {
+   "question": "The points $P(\\cos A, \\sin A)$ and $Q(\\cos B, \\sin B)$ lie on the unit circle with centre $O$. The angle $POQ$ is $A - B$. Find $PQ^2$ in two ways and so derive a formula for $\\cos(A - B)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Distance formula",
+      "say": "Use the distance formula on $P$ and $Q$, then expand.",
+      "lines": [
+       {
+        "tex": "PQ^2 &= (\\cos A - \\cos B)^2 + (\\sin A - \\sin B)^2",
+        "sym": "(cos(A)-cos(B))**2+(sin(A)-sin(B))**2",
+        "new": true
+       },
+       {
+        "tex": "&= \\cos^2 A - 2\\cos A\\cos B + \\cos^2 B + \\sin^2 A - 2\\sin A\\sin B + \\sin^2 B",
+        "sym": "cos(A)**2-2*cos(A)*cos(B)+cos(B)**2+sin(A)**2-2*sin(A)*sin(B)+sin(B)**2"
+       }
+      ]
+     },
+     {
+      "title": "Use formula 1 twice",
+      "say": "Pair up $\\cos^2 + \\sin^2$ for $A$ and for $B$. Each pair is $1$.",
+      "lines": [
+       {
+        "tex": "&= (\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2\\cos A\\cos B - 2\\sin A\\sin B",
+        "sym": "(cos(A)**2+sin(A)**2)+(cos(B)**2+sin(B)**2)-2*cos(A)*cos(B)-2*sin(A)*sin(B)"
+       },
+       {
+        "tex": "&= \\hl{1}{2 - 2\\cos A\\cos B - 2\\sin A\\sin B}",
+        "sym": "2-2*cos(A)*cos(B)-2*sin(A)*sin(B)"
+       }
+      ]
+     },
+     {
+      "title": "Cosine rule",
+      "say": "In triangle $POQ$, two sides are $1$ and the angle between them is $A - B$. The cosine rule gives $PQ^2$ a second way.",
+      "lines": [
+       {
+        "tex": "PQ^2 &= 1^2 + 1^2 - 2(1)(1)\\cos(A - B)",
+        "sym": "1**2+1**2-2*1*1*cos(A-B)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{2 - 2\\cos(A - B)}",
+        "sym": "2-2*cos(A-B)"
+       }
+      ]
+     },
+     {
+      "title": "Equate and solve",
+      "say": "Both expressions are $PQ^2$, so set $\\hl{1}{2 - 2\\cos A\\cos B - 2\\sin A\\sin B}$ equal to $\\hl{2}{2 - 2\\cos(A-B)}$. Subtract $2$ and divide by $-2$.",
+      "lines": [
+       {
+        "text": "$2 - 2\\cos(A-B) = 2 - 2\\cos A\\cos B - 2\\sin A\\sin B$"
+       },
+       {
+        "tex": "\\cos(A - B) &= \\cos A\\cos B + \\sin A\\sin B",
+        "sym": "cos(A)*cos(B)+sin(A)*sin(B)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\cos(A-B) = \\cos A\\cos B + \\sin A\\sin B"
+   },
+   "finalSym": "cos(A)*cos(B)+sin(A)*sin(B)",
+   "answerSym": "expand_trig(cos(A-B))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the formula for $\\cos(A-B)$ down at the start. It is work of merit even before you use it.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q2#(a)",
+       "quote": "Work of merit, for example"
+      }
+     ]
+    },
+    {
+     "tip": "Checking the formula with numbers for $A$ and $B$ earns some credit, but it does not replace a derivation.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q2#(a)",
+       "quote": "Verified with one or more values for"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-derive-5",
+  "what": {
+   "say": [
+    "You give it $\\cos(A + B)$. It derives the expansion from formula 4, the one for $\\cos(A - B)$.",
+    "The key idea: write $A + B$ as $A - (-B)$. Then formula 4 applies, and $\\cos(-B) = \\cos B$, $\\sin(-B) = -\\sin B$ finish it."
+   ],
+   "in": "$\\cos(A+B)$",
+   "out": "$\\cos A\\cos B - \\sin A\\sin B$"
+  },
+  "how": {},
+  "example": {
+   "question": "Use the formula $\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B$ to derive a formula for $\\cos(A + B)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Rewrite the sum",
+      "say": "Write the plus as a minus. $A + B$ is the same as $A - (\\hl{1}{-B})$.",
+      "lines": [
+       {
+        "tex": "\\cos(A + B) &= \\cos(A - (\\hl{1}{-B}))",
+        "sym": "cos(A-(-B))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Apply formula 4",
+      "say": "Use formula 4 with $\\hl{1}{-B}$ in place of $B$.",
+      "lines": [
+       {
+        "tex": "&= \\cos A\\cos(\\hl{1}{-B}) + \\sin A\\sin(\\hl{1}{-B})",
+        "sym": "cos(A)*cos(-B)+sin(A)*sin(-B)"
+       }
+      ]
+     },
+     {
+      "title": "Use odd and even",
+      "say": "Cosine is even: $\\cos(-B) = \\cos B$. Sine is odd: $\\sin(-B) = -\\sin B$.",
+      "lines": [
+       {
+        "tex": "&= \\cos A\\cos B + \\sin A(-\\sin B)",
+        "sym": "cos(A)*cos(B)+sin(A)*(-sin(B))"
+       },
+       {
+        "tex": "&= \\cos A\\cos B - \\sin A\\sin B",
+        "sym": "cos(A)*cos(B)-sin(A)*sin(B)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\cos(A+B) = \\cos A\\cos B - \\sin A\\sin B"
+   },
+   "finalSym": "cos(A)*cos(B)-sin(A)*sin(B)",
+   "answerSym": "expand_trig(cos(A+B))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]

@@ -1,0 +1,274 @@
+{
+  "maths-pp-2020-higher-p1-q1#(a)(i)": {
+    "primary": "cubic-factor-theorem",
+    "skills": [
+      "cubic-factor-theorem",
+      "cubic-unknown-coefficient"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q1#(a)(ii)": {
+    "primary": "quad-form-from-roots",
+    "skills": [
+      "quad-form-from-roots",
+      "eq-linear"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q1#(a)(iii)": {
+    "primary": "quad-discriminant",
+    "skills": [
+      "quad-discriminant",
+      "ineq-linear"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q1#(b)": {
+    "primary": "ineq-modulus",
+    "skills": [
+      "ineq-modulus"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q2#(a)": {
+    "primary": "sim-linear-2",
+    "skills": [
+      "sim-linear-2",
+      "cx-powers-i",
+      "cx-arithmetic"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q2#(b)(i)": {
+    "primary": "cx-divide",
+    "skills": [
+      "cx-divide",
+      "cx-conjugate"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q2#(b)(ii)": {
+    "primary": "cx-de-moivre-power",
+    "skills": [
+      "cx-de-moivre-power",
+      "cx-polar",
+      "seq-geo-nth"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q3#(a)": {
+    "primary": "fn-composite",
+    "skills": [
+      "fn-composite"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q3#(b)(i)": {
+    "primary": "log-laws",
+    "skills": [
+      "log-laws"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q3#(b)(ii)": {
+    "primary": "log-solve",
+    "skills": [
+      "log-solve",
+      "log-laws",
+      "quad-solve-factor"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q4#(a)": {
+    "primary": "diff-poly",
+    "skills": [
+      "diff-poly",
+      "eq-linear"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q4#(b)": {
+    "primary": "diff-stationary",
+    "skills": [
+      "diff-stationary",
+      "diff-poly",
+      "quad-solve-factor",
+      "line-slope",
+      "line-equation"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q4#(c)": {
+    "primary": "diff-inflection",
+    "skills": [
+      "diff-inflection",
+      "diff-second",
+      "line-point-on"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q5#(a)": {
+    "primary": "fin-mortgage",
+    "skills": [
+      "fin-mortgage"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q5#(b)": {
+    "primary": "fin-annuity-pv",
+    "skills": [
+      "fin-annuity-pv",
+      "seq-geo-sum"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q6#(a)": {
+    "primary": "diff-first-principles",
+    "skills": [
+      "diff-first-principles",
+      "alg-expand-binomials"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q6#(b)(i)": {
+    "primary": "diff-log",
+    "skills": [
+      "diff-log",
+      "diff-chain"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q6#(b)(ii)": {
+    "primary": "int-definite",
+    "skills": [
+      "int-definite",
+      "int-reciprocal",
+      "log-laws",
+      "log-solve"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q7#(a)(i)": {
+    "primary": "seq-pattern",
+    "skills": [
+      "seq-pattern"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q7#(a)(ii)": {
+    "primary": "quad-solve-factor",
+    "skills": [
+      "quad-solve-factor"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q7#(b)(i)": {
+    "primary": "seq-verify-formula",
+    "skills": [
+      "seq-verify-formula",
+      "alg-factor-hcf"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q7#(b)(ii)": {
+    "primary": "seq-verify-formula",
+    "skills": [
+      "seq-verify-formula",
+      "alg-factor-hcf"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q7#(b)(iii)": {
+    "primary": "seq-quadratic",
+    "skills": [
+      "seq-quadratic",
+      "seq-verify-formula"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q7#(c)": {
+    "primary": "alg-surd-expressions",
+    "skills": [
+      "alg-surd-expressions",
+      "alg-expand-binomials"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q7#(d)": {
+    "primary": "induction-sum",
+    "skills": [
+      "induction-sum",
+      "alg-factor-quadratic"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q8#(a)(i)": {
+    "primary": "trig-unit-circle",
+    "skills": [
+      "trig-unit-circle"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q8#(a)(ii)": {
+    "primary": "trig-double",
+    "skills": [
+      "trig-double"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q8#(a)(iii)": {
+    "primary": "diff-stationary",
+    "skills": [
+      "diff-stationary",
+      "diff-trig",
+      "diff-chain",
+      "diff-second",
+      "trig-solve-basic"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q8#(a)(iv)": {
+    "primary": "mens-perimeter-area",
+    "skills": [
+      "mens-perimeter-area",
+      "num-surds"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q8#(b)": {
+    "primary": "diff-related-rates",
+    "skills": [
+      "diff-related-rates",
+      "geo-similar-triangles"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q9#(a)(i)": {
+    "primary": "fn-evaluate",
+    "skills": [
+      "fn-evaluate"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q9#(a)(ii)": {
+    "primary": "log-solve-exponential",
+    "skills": [
+      "log-solve-exponential"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q9#(b)": {
+    "primary": "int-average-value",
+    "skills": [
+      "int-average-value",
+      "int-exponential",
+      "int-definite"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q9#(c)": {
+    "primary": "diff-exponential",
+    "skills": [
+      "diff-exponential"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q9#(d)": {
+    "primary": "diff-apply-hl",
+    "skills": [
+      "diff-apply-hl",
+      "diff-exponential",
+      "log-solve-exponential"
+    ]
+  },
+  "maths-pp-2020-higher-p1-q9#(e)": {
+    "primary": "log-solve-exponential",
+    "skills": [
+      "log-solve-exponential",
+      "log-laws"
+    ]
+  },
+  "maths-pp-2020-higher-p2-q1#(a)": {
+    "primary": "line-collinear",
+    "skills": [
+      "line-collinear",
+      "line-slope",
+      "line-equation",
+      "line-perp-distance"
+    ]
+  },
+  "maths-pp-2020-higher-p2-q1#(b)": {
+    "primary": "line-angle-between",
+    "skills": [
+      "line-angle-between",
+      "line-slope",
+      "num-surds"
+    ]
+  }
+}

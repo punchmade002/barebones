@@ -1,0 +1,364 @@
+[
+ {
+  "part": "maths-pp-2017-ordinary-p1-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Write the depreciation formula\nDepreciation of 15% each year multiplies the value by $1 - 0.15 = 0.85$ each year, for 5 years.\nA &= 30000(1 - 0.15)^5\n&= 30000(0.85)^5\n## Work out the power\n(0.85)^5 &= 0.4437053125\n## Multiply by 30 000\nA &= 30000 \\times 0.4437053125\n&= 13311.159375\n&\\approx \\text{€}13311.16\nANSWER: \\text{€}13311.16"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Write the compound interest formula\nLet $P$ be the sum invested. After 2 years at 3% it is worth $P(1 + 0.03)^2$.\nP(1 + 0.03)^2 &= 30000\nP(1.03)^2 &= 30000\n## Divide both sides by $1.03^2$\nP &= \\frac{30000}{1.03^2}\n## Evaluate\n1.03^2 &= 1.0609\n## Divide\nP &= \\frac{30000}{1.0609}\n&\\approx \\text{€}28277.88\nANSWER: \\text{€}28277.88"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Write the compound interest formula\nLet $r$ be the yearly rate as a decimal. After 3 years, €25 000 grows to $25000(1 + r)^3$.\n25000(1 + r)^3 &= 26530.2\n## Divide both sides by 25 000\n(1 + r)^3 &= \\frac{26530.2}{25000}\n&= 1.061208\n## Take the cube root of both sides\n1 + r &= \\sqrt[3]{1.061208}\n&= 1.02\n## Subtract 1 and convert to a percentage\nr &= 0.02\n&= 2\\%\nANSWER: r = 2\\%"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q2#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Read the point $z_1$ off the diagram\n$z_1 = a + bi$ is at $(a, b)$: $a$ is across (real axis) and $b$ is up or down (imaginary axis).\nThe point is 3 across and 1 down, so $a = 3$ and $b = -1$.\nANSWER: a = 3, \\; b = -1"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q2#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Write $z_2$ as a point\n$z_2 = -1 + 2i$ has real part $-1$ and imaginary part $2$, so it is the point $(-1, 2)$.\n## Plot it\nGo 1 unit left of the origin along the real axis, then 2 units up. Mark the point and label it $z_2$.\nANSWER: z_2 \\text{ plotted at } (-1, 2)"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q2#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Substitute $z_1$ and $z_2$\nz_3 &= \\frac{z_1}{z_2}\n&= \\frac{3 - i}{-1 + 2i}\n## Multiply top and bottom by the conjugate of the denominator\nThe conjugate of $-1 + 2i$ is $-1 - 2i$.\nz_3 &= \\frac{(3 - i)(-1 - 2i)}{(-1 + 2i)(-1 - 2i)}\n## Expand the numerator\n(3 - i)(-1 - 2i) &= -3 - 6i + i + 2i^2\n&= -3 - 5i + 2i^2\nUse $i^2 = -1$.\n&= -3 - 5i - 2\n&= -5 - 5i\n## Expand the denominator\n(-1 + 2i)(-1 - 2i) &= 1 - 4i^2\n&= 1 + 4\n&= 5\n## Divide\nz_3 &= \\frac{-5 - 5i}{5}\n&= -1 - i\nANSWER: z_3 = -1 - i"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Expand the left-hand bracket\n2z - 6(4 - 6i) &= (-1 + i)(4 - 2i)\n2z - 24 + 36i &= (-1 + i)(4 - 2i)\n## Expand the right-hand side\n(-1 + i)(4 - 2i) &= -4 + 2i + 4i - 2i^2\nUse $i^2 = -1$.\n&= -4 + 6i + 2\n&= -2 + 6i\n## Solve for $z$\n2z - 24 + 36i &= -2 + 6i\n2z &= 22 - 30i\nz &= 11 - 15i\nANSWER: z = 11 - 15i"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Identify $a$, $b$ and $c$\n3x^2 - 6x - 8 &= 0\nHere $a = 3$, $b = -6$ and $c = -8$. It does not factorise, so use the quadratic formula.\n## Substitute into the formula\nx &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n&= \\frac{-(-6) \\pm \\sqrt{(-6)^2 - 4(3)(-8)}}{2(3)}\n&= \\frac{6 \\pm \\sqrt{36 + 96}}{6}\n&= \\frac{6 \\pm \\sqrt{132}}{6}\n## Find the plus root\nx &= \\frac{6 + \\sqrt{132}}{6}\n&\\approx 2.9148\n&\\approx 2.9\n## Find the minus root\nx &= \\frac{6 - \\sqrt{132}}{6}\n&\\approx -0.9148\n&\\approx -0.9\nANSWER: x = 2.9 \\text{ or } x = -0.9"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 15,
+  "solution": "## Differentiate\nf(x) &= 3x^2 - 6x - 8\nf'(x) &= 6x - 6\n## Set the derivative to zero\nAt a turning point the slope is zero.\n6x - 6 &= 0\n6x &= 6\nx &= 1\n## Find the $y$-value\nf(1) &= 3(1)^2 - 6(1) - 8\n&= 3 - 6 - 8\n&= -11\n## Check it is a minimum\nThe $x^2$ coefficient is positive, so the curve is U-shaped and the turning point is a minimum.\nANSWER: (1, -11)"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Expand the brackets\n11x - 5(2x - 1) &= 3(6 - x) + 3\n11x - 10x + 5 &= 3(6 - x) + 3\n11x - 10x + 5 &= 18 - 3x + 3\n## Collect like terms\nx + 5 &= 21 - 3x\n## Get the $x$ terms on one side\n4x + 5 &= 21\n## Solve\n4x &= 16\nx &= 4\nANSWER: x = 4"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 15,
+  "solution": "## Isolate $y$ in the linear equation\ny + 5 &= 2x\ny &= 2x - 5\n## Substitute into the quadratic\nx^2 + y^2 &= 25\nx^2 + (2x - 5)^2 &= 25\n## Expand the bracket\n$(2x - 5)^2 = (2x - 5)(2x - 5) = 4x^2 - 20x + 25$.\nx^2 + 4x^2 - 20x + 25 &= 25\n5x^2 - 20x + 25 &= 25\n5x^2 - 20x &= 0\n## Factorise and solve for $x$\n5x(x - 4) &= 0\nx = 0 \\quad &\\text{or} \\quad x = 4\n## Find $y$ for each $x$ using $y = 2x - 5$\nx = 0: \\quad y &= 2(0) - 5 = -5\nx = 4: \\quad y &= 2(4) - 5 = 3\nANSWER: (x, y) = (0, -5) \\text{ or } (4, 3)"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Write the Trapezoidal rule\n$A = \\frac{h}{2}\\left[\\text{first} + \\text{last} + 2(\\text{sum of the others})\\right]$, with $h = 3$.\nFirst height $= 4$, last height $= 8$. The others are 5.8, 7, 6.5, 6, 4.8, 6, 6.5.\n## Substitute\nA &= \\frac{3}{2}\\left[4 + 8 + 2(5.8 + 7 + 6.5 + 6 + 4.8 + 6 + 6.5)\\right]\n## Add the middle heights\nA &= \\frac{3}{2}\\left[4 + 8 + 2(42.6)\\right]\n## Multiply out\nA &= \\frac{3}{2}\\left[12 + 85.2\\right]\n&= \\frac{3}{2}(97.2)\n&= 145.8 \\text{ m}^2\nANSWER: 145.8 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Write the Trapezoidal rule\nNow $h = 4$. First height $= 4$, last height $= 8$. The others are 6.4, 6.9, 6, $x$, 6.2.\n## Substitute\n145.6 &= \\frac{4}{2}\\left[4 + 8 + 2(6.4 + 6.9 + 6 + x + 6.2)\\right]\n## Simplify inside the brackets\n145.6 &= 2\\left[12 + 2(25.5 + x)\\right]\n145.6 &= 2\\left[12 + 51 + 2x\\right]\n145.6 &= 2(63 + 2x)\n145.6 &= 126 + 4x\n## Solve for $x$\n4x &= 19.6\nx &= 4.9\nANSWER: x = 4.9 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q6#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the commission on the first 1000 of sales\n\\text{Commission} &= 20\\% \\times 1000\n&= 0.2 \\times 1000\n&= \\text{€}200\n## Find the sales above 1000\n3000 - 1000 &= 2000\n## Find the commission at 30% on those sales\n\\text{Commission} &= 30\\% \\times 2000\n&= 0.3 \\times 2000\n&= \\text{€}600\n## Add the basic salary and both commissions\n\\text{Income} &= 150 + 200 + 600\n&= \\text{€}950\nANSWER: \\text{€}950"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 15,
+  "solution": "## Take away the basic salary and the first commission\nBasic salary plus the commission on the first $\\text{€}1000$ is $\\text{€}350$, and $\\text{€}1160$ is more than this, so some sales were above $\\text{€}1000$.\n1160 - 150 - 200 &= 810\n&= \\text{€}810\n## The remaining 810 is 30% of the sales above 1000\n0.3x &= 810\nx &= \\frac{810}{0.3}\nx &= 2700\n## Add the first 1000 of sales\n\\text{Total sales} &= 1000 + 2700\n&= \\text{€}3700\nANSWER: \\text{€}3700"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q7#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Spot how each pattern grows\nPattern $n$ has a top row of $n+2$ tiles and a leg of $n$ tiles hanging below each end.\nPattern 3 has 5 on top and legs of 3, so pattern 4 has 6 on top and legs of 4.\n## Draw pattern 4\nAdd one tile to the top row and one tile to the bottom of each leg. The new pattern is drawn in blue.\nANSWER: \\text{Pattern 4: top row of 6 tiles, a leg of 4 tiles at each end}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Count the tiles in each pattern\n\\text{Pattern 1} &= 3 + 1 + 1 = 5\n\\text{Pattern 2} &= 4 + 2 + 2 = 8\n\\text{Pattern 3} &= 5 + 3 + 3 = 11\n\\text{Pattern 4} &= 6 + 4 + 4 = 14\n## Each pattern has 3 more tiles than the one before\n\\text{Pattern 5} &= 14 + 3 = 17\n## Complete the table\n$n=1$: 5 tiles, $n=2$: 8, $n=3$: 11, $n=4$: 14, $n=5$: 17.\nANSWER: 5,\\ 8,\\ 11,\\ 14,\\ 17"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q7#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find the first term and the common difference\nThe tile numbers $5, 8, 11, \\dots$ go up by the same amount each time, so the pattern is arithmetic.\na &= 5\nd &= 8 - 5 = 3\nd &= 3\n## Substitute into the formula for the nth term\nT_n &= a + (n-1)d\nT_n &= 5 + (n-1)3\n&= 5 + 3n - 3\n&= 3n + 2\n## Read off p and q\nCompare $3n+2$ with $pn+q$.\np &= 3\nq &= 2\nANSWER: p = 3,\\ q = 2"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q7#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 20 into T_n = 3n + 2\nT_{20} &= 3(20) + 2\n&= 60 + 2\n&= 62\nANSWER: 62\\text{ tiles}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q7#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Set T_n equal to 290\n3n + 2 &= 290\n3n &= 290 - 2\n3n &= 288\nn &= \\frac{288}{3}\nn &= 96\nANSWER: \\text{Pattern } 96"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q7#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## Write the formula for the sum of n terms of an arithmetic sequence\nThe total number of tiles in the first $n$ patterns is the sum of the first $n$ terms, with $a = 5$ and $d = 3$.\nS_n &= \\frac{n}{2}\\left(2a + (n-1)d\\right)\n## Substitute a = 5 and d = 3\nS_n &= \\frac{n}{2}\\left(2(5) + (n-1)3\\right)\n&= \\frac{n}{2}\\left(10 + (n-1)3\\right)\n## Multiply out the bracket inside\n&= \\frac{n}{2}\\left(10 + 3n - 3\\right)\n&= \\frac{n}{2}\\left(3n + 7\\right)\n## Multiply out the final bracket\n&= \\frac{n(3n + 7)}{2}\n&= \\frac{3n^2 + 7n}{2}\nANSWER: S_n = \\frac{3n^2 + 7n}{2}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q7#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 30 into S_n\nS_{30} &= \\frac{3(30)^2 + 7(30)}{2}\n&= \\frac{3(900) + 210}{2}\n&= \\frac{2700 + 210}{2}\n&= \\frac{2910}{2}\n&= 1455\nANSWER: 1455\\text{ tiles}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## No cable sold means x = 0\nP(0) &= 275(0) - (0)^2 - 2000\n&= 0 - 0 - 2000\n&= -2000\n## \nANSWER: \\text{€}2000\\text{ loss}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q8#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Set P(x) equal to 8350\n275x - x^2 - 2000 &= 8350\n0 &= x^2 - 275x + 2000 + 8350\n0 &= x^2 - 275x + 10350\n## Solve with the quadratic formula (a = 1, b = -275, c = 10350)\nx &= \\frac{275 \\pm \\sqrt{(-275)^2 - 4(1)(10350)}}{2}\nx &= \\frac{275 \\pm \\sqrt{75625 - 41400}}{2}\nx &= \\frac{275 \\pm \\sqrt{34225}}{2}\nx &= \\frac{275 \\pm 185}{2}\nx &= 230 \\text{ or } x = 45\n## Reject the value that is too big\nThe company can sell at most 200 km a week, so $x = 230$ is not possible.\nx &= 45\nANSWER: x = 45\\text{ km}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q8#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute x = 50 into P(x)\nP(50) &= 275(50) - (50)^2 - 2000\n&= 13750 - 2500 - 2000\n&= 9250\n## Substitute x = 60 into P(x)\nP(60) &= 275(60) - (60)^2 - 2000\n&= 16500 - 3600 - 2000\n&= 10900\n## Substitute x = 80 into P(x)\nP(80) &= 275(80) - (80)^2 - 2000\n&= 22000 - 6400 - 2000\n&= 13600\n## Substitute x = 90 into P(x)\nP(90) &= 275(90) - (90)^2 - 2000\n&= 24750 - 8100 - 2000\n&= 14650\n## Substitute x = 100 into P(x)\nP(100) &= 275(100) - (100)^2 - 2000\n&= 27500 - 10000 - 2000\n&= 15500\n## Check the given value at x = 70\nThe table already shows $P(70) = 12\\,350$, so this column needs no working.\n## Completed table\n$x = 50, 60, 70, 80, 90, 100$ gives $P(x) = 9250,\\ 10\\,900,\\ 12\\,350,\\ 13\\,600,\\ 14\\,650,\\ 15\\,500$.\nANSWER: 9250,\\ 10\\,900,\\ 12\\,350,\\ 13\\,600,\\ 14\\,650,\\ 15\\,500"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q8#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Plot the six points from the table\nPlot $(50, 9250)$, $(60, 10\\,900)$, $(70, 12\\,350)$, $(80, 13\\,600)$, $(90, 14\\,650)$ and $(100, 15\\,500)$.\n## Join the points with a smooth curve\nThe profit function is a quadratic, so the graph curves gently upwards and flattens as it nears its maximum.\nANSWER: \\text{Smooth curve through the six plotted points}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q8#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Draw lines across from 10 000 and 14 000\nDraw a horizontal line from $10\\,000$ on the profit axis to the curve, and another from $14\\,000$.\n## Read the values off the x-axis\nDrop a vertical line from each meeting point to the $x$-axis and read the values.\nLower value $\\approx 54$ km and upper value $\\approx 84$ km.\nThe marking scheme gives 55 and 83; any reading close to the curve is accepted.\nANSWER: \\text{Lower} \\approx 54\\text{ km},\\ \\text{Upper} \\approx 84\\text{ km}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q8#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate the profit function\nP(x) &= 275x - x^2 - 2000\nP'(x) &= 275 - 2x\n## Set the rate of change equal to 105\n275 - 2x &= 105\n-2x &= 105 - 275\n-2x &= -170\nx &= \\frac{-170}{-2}\nx &= 85\nANSWER: x = 85\\text{ km}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q9#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Male height with x = 47.54\nm(47.54) &= 2.3(47.54) + 65.53\n&= 109.342 + 65.53\n&= 174.872\n&\\approx 174.87\n## Female height with x = 47.54\nf(47.54) &= 2.5(47.54) + 54.13\n&= 118.85 + 54.13\n&= 172.98\nANSWER: \\text{Male} = 174.87\\text{ cm},\\ \\text{Female} = 172.98\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q9#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Set m(x) equal to 184\n2.3x + 65.53 &= 184\n2.3x &= 184 - 65.53\n2.3x &= 118.47\nx &= \\frac{118.47}{2.3}\nx &= 51.5087\\ldots\nx &\\approx 51.51\nANSWER: x = 51.51\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q9#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Estimate his height using m(x)\nm(44.2) &= 2.3(44.2) + 65.53\n&= 101.66 + 65.53\n&= 167.19\n## Find the error\n\\text{Error} &= 171 - 167.19\n&= 3.81\n## Write the error as a percentage of the actual height\n\\text{Percentage error} &= \\frac{3.81}{171} \\times 100\n&= 2.228\\ldots\\%\n&\\approx 2.23\\%\nANSWER: 2.23\\%"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q9#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set the male and female heights equal\n2.3x + 65.53 &= 2.5x + 54.13\n## Collect the x terms on one side\n65.53 - 54.13 &= 2.5x - 2.3x\n11.4 &= 0.2x\nx &= \\frac{11.4}{0.2}\nx &= 57\n## Find the height by putting x = 57 into m(x)\nm(57) &= 2.3(57) + 65.53\n&= 131.1 + 65.53\n&= 196.63\nANSWER: \\text{Femur} = 57\\text{ cm},\\ \\text{Height} = 196.63\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q9#(e)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Substitute M = 72.5 and h = 1.6\nP &= \\frac{72.5}{1.6^3}\n&= \\frac{72.5}{4.096}\n&= 17.70\\ldots\n&\\approx 17.7\nANSWER: P = 17.7"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q9#(e)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Multiply both sides by h cubed\nP &= \\frac{M}{h^3}\nPh^3 &= M\n## Divide both sides by P\nh^3 &= \\frac{M}{P}\n## Take the cube root of both sides\nh &= \\sqrt[3]{\\frac{M}{P}}\nANSWER: h = \\sqrt[3]{\\frac{M}{P}}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p1-q9#(e)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Substitute M = 67.5 and P = 13\nh &= \\sqrt[3]{\\frac{67.5}{13}}\n&= \\sqrt[3]{5.1923\\ldots}\n&= 1.7316\\ldots\n&\\approx 1.73\nANSWER: h = 1.73\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q1#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Subtract the girls from the total births\n\\text{Boys} &= 65909 - 32290\n&= 33619\nANSWER: 33619"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q1#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Write the probability as a fraction\n$P(\\text{boy}) = \\dfrac{\\text{number of boys}}{\\text{total births}}$.\nP(\\text{boy}) &= \\frac{33619}{65909}\n## Divide and round to 2 decimal places\n&= 0.5101\\ldots\n&\\approx 0.51\nANSWER: 0.51"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q1#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Find the probability of a boy and of a girl\nEach birth is independent, and $P(\\text{boy}) = 0.51$.\nP(\\text{girl}) &= 1 - 0.51\n&= 0.49\n## (i) Three boys in a row: multiply\nP(\\text{B, B, B}) &= 0.51 \\times 0.51 \\times 0.51\n&= 0.132651\n&\\approx 0.1327\n## (ii) Two boys, then a girl: multiply\nP(\\text{B, B, G}) &= 0.51 \\times 0.51 \\times 0.49\n&= 0.127449\n&\\approx 0.1274\nANSWER: \\text{(i) } 0.1327 \\qquad \\text{(ii) } 0.1274"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q1#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Add the probabilities that are given\n\\text{Sum} &= 0.14 + 0.15 + 0.18 + 0.15 + 0.12 + 0.1\n&= 0.84\n## All the probabilities add up to 1\nP(\\text{Tue}) &= 1 - 0.84\n&= 0.16\nANSWER: 0.16"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q1#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the number of babies by P(Tuesday)\n\\text{Expected} &= 1300 \\times 0.16\n&= 208\nANSWER: 208"
+ }
+]

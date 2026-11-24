@@ -1,0 +1,374 @@
+[
+ {
+  "skill": "prob-first-success",
+  "problems": [
+   {
+    "question": "The probability that a spinner lands on red is $\\frac{1}{5}$.\nThe spinner is spun until it lands on red.\nFind the probability that it first lands on red on the 4th spin.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "List the four spins",
+       "lines": [
+        {
+         "text": "First red on the 4th spin means not red, not red, not red, then red."
+        },
+        {
+         "text": "$P(\\text{not red}) = 1 - \\frac{1}{5} = \\frac{4}{5}$."
+        },
+        {
+         "tex": "P(\\text{not red}) &= 1 - \\frac{1}{5}",
+         "sym": "1 - Rational(1,5)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{4}{5}",
+         "sym": "Rational(4,5)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply the probabilities",
+       "lines": [
+        {
+         "tex": "P &= \\frac{4}{5}\\times\\frac{4}{5}\\times\\frac{4}{5}\\times\\frac{1}{5}",
+         "sym": "Rational(4,5)**3*Rational(1,5)",
+         "new": true
+        },
+        {
+         "tex": "&= \\left(\\frac{4}{5}\\right)^3\\times\\frac{1}{5}",
+         "sym": "Rational(4,5)**3*Rational(1,5)"
+        },
+        {
+         "tex": "&= \\frac{64}{125}\\times\\frac{1}{5}",
+         "sym": "Rational(64,125)*Rational(1,5)"
+        },
+        {
+         "tex": "&= \\frac{64}{625}",
+         "sym": "Rational(64,625)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{64}{625}"
+    },
+    "finalSym": "Rational(64,625)",
+    "answerSym": "(1 - Rational(1,5))**(4 - 1)*Rational(1,5)"
+   }
+  ]
+ },
+ {
+  "skill": "prob-selection-restrictions",
+  "problems": [
+   {
+    "question": "A committee of 5 people is to be chosen from 6 men and 7 women.\nThe committee must have exactly 2 men, and one particular woman, Maria, must be on it.\nIn how many ways can the committee be chosen?",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Choose the men",
+       "lines": [
+        {
+         "text": "Choose 2 of the 6 men."
+        },
+        {
+         "tex": "\\binom{6}{2} &= \\frac{6\\times 5}{2\\times 1}",
+         "sym": "binomial(6,2)",
+         "new": true
+        },
+        {
+         "tex": "&= 15",
+         "sym": "15"
+        }
+       ]
+      },
+      {
+       "title": "Choose the women",
+       "lines": [
+        {
+         "text": "Maria is already on the committee. The other 2 women come from the remaining 6."
+        },
+        {
+         "tex": "\\binom{6}{2} &= \\frac{6\\times 5}{2\\times 1}",
+         "sym": "binomial(6,2)",
+         "new": true
+        },
+        {
+         "tex": "&= 15",
+         "sym": "15"
+        }
+       ]
+      },
+      {
+       "title": "Multiply the two choices",
+       "lines": [
+        {
+         "tex": "\\binom{6}{2}\\times\\binom{6}{2} &= 15\\times 15",
+         "sym": "15*15",
+         "new": true
+        },
+        {
+         "tex": "&= 225",
+         "sym": "225"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "225"
+    },
+    "finalSym": "225",
+    "answerSym": "binomial(6,2)*binomial(7 - 1,5 - 2 - 1)"
+   }
+  ]
+ },
+ {
+  "skill": "seq-classify",
+  "problems": [
+   {
+    "question": "The first four terms of a sequence are $5, 2, -1, -4, \\dots$\nShow that the sequence is arithmetic and write down its common difference.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the differences between consecutive terms",
+       "lines": [
+        {
+         "tex": "T_2 - T_1 &= 2 - 5",
+         "sym": "2 - 5",
+         "new": true
+        },
+        {
+         "tex": "&= -3",
+         "sym": "-3"
+        },
+        {
+         "tex": "T_3 - T_2 &= -1 - 2",
+         "sym": "-1 - 2",
+         "new": true
+        },
+        {
+         "tex": "&= -3",
+         "sym": "-3"
+        },
+        {
+         "tex": "T_4 - T_3 &= -4 - (-1)",
+         "sym": "-4 - (-1)",
+         "new": true
+        },
+        {
+         "tex": "&= -3",
+         "sym": "-3"
+        }
+       ]
+      },
+      {
+       "title": "Conclude",
+       "lines": [
+        {
+         "text": "The difference is the same each time, so the sequence is arithmetic with common difference $d = -3$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "d = -3"
+    },
+    "finalSym": "-3",
+    "answerSym": "-4 - (-1)"
+   }
+  ]
+ },
+ {
+  "skill": "seq-sigma",
+  "problems": [
+   {
+    "question": "Evaluate $\\displaystyle\\sum_{r=1}^{12}(3r - 2)$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the first and last terms",
+       "lines": [
+        {
+         "text": "The terms form an arithmetic series, so find the first term $a$ and last term $l$."
+        },
+        {
+         "tex": "a &= 3(1) - 2 = 1",
+         "sym": "3*1 - 2",
+         "new": true
+        },
+        {
+         "tex": "l &= 3(12) - 2 = 34",
+         "sym": "3*12 - 2",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Count the terms",
+       "lines": [
+        {
+         "tex": "n &= 12 - 1 + 1",
+         "sym": "12 - 1 + 1",
+         "new": true
+        },
+        {
+         "tex": "&= 12",
+         "sym": "12"
+        }
+       ]
+      },
+      {
+       "title": "Use the sum formula",
+       "lines": [
+        {
+         "tex": "S_{12} &= \\frac{12}{2}(a + l)",
+         "sym": "Rational(12,2)*(1 + (34))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{12}{2}(35)",
+         "sym": "Rational(12,2)*(35)"
+        },
+        {
+         "tex": "&= 210",
+         "sym": "210"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "210"
+    },
+    "finalSym": "210",
+    "answerSym": "summation(3*r - 2, (r, 1, 12))"
+   },
+   {
+    "question": "Evaluate $\\displaystyle\\sum_{r=1}^{20}(5 - 2r)$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the first and last terms",
+       "lines": [
+        {
+         "text": "The terms form an arithmetic series, so find the first term $a$ and last term $l$."
+        },
+        {
+         "tex": "a &= 5 - 2(1) = 3",
+         "sym": "5 - 2*1",
+         "new": true
+        },
+        {
+         "tex": "l &= 5 - 2(20) = -35",
+         "sym": "5 - 2*20",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Count the terms",
+       "lines": [
+        {
+         "tex": "n &= 20 - 1 + 1",
+         "sym": "20 - 1 + 1",
+         "new": true
+        },
+        {
+         "tex": "&= 20",
+         "sym": "20"
+        }
+       ]
+      },
+      {
+       "title": "Use the sum formula",
+       "lines": [
+        {
+         "tex": "S_{20} &= \\frac{20}{2}(a + l)",
+         "sym": "Rational(20,2)*(3 + (-35))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{20}{2}(-32)",
+         "sym": "Rational(20,2)*(-32)"
+        },
+        {
+         "tex": "&= -320",
+         "sym": "-320"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-320"
+    },
+    "finalSym": "-320",
+    "answerSym": "summation(5 - 2*r, (r, 1, 20))"
+   },
+   {
+    "question": "Evaluate $\\displaystyle\\sum_{r=4}^{15}(2r + 3)$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the first and last terms",
+       "lines": [
+        {
+         "text": "The terms form an arithmetic series, so find the first term $a$ and last term $l$."
+        },
+        {
+         "tex": "a &= 2(4) + 3 = 11",
+         "sym": "2*4 + 3",
+         "new": true
+        },
+        {
+         "tex": "l &= 2(15) + 3 = 33",
+         "sym": "2*15 + 3",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Count the terms",
+       "lines": [
+        {
+         "tex": "n &= 15 - 4 + 1",
+         "sym": "15 - 4 + 1",
+         "new": true
+        },
+        {
+         "tex": "&= 12",
+         "sym": "12"
+        }
+       ]
+      },
+      {
+       "title": "Use the sum formula",
+       "lines": [
+        {
+         "tex": "S_{12} &= \\frac{12}{2}(a + l)",
+         "sym": "Rational(12,2)*(11 + (33))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{12}{2}(44)",
+         "sym": "Rational(12,2)*(44)"
+        },
+        {
+         "tex": "&= 264",
+         "sym": "264"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "264"
+    },
+    "finalSym": "264",
+    "answerSym": "summation(2*r + 3, (r, 4, 15))"
+   }
+  ]
+ }
+]

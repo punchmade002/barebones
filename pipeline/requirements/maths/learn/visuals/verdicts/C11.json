@@ -1,0 +1,8 @@
+{
+"con-17":{"ok":false,"issues":["Triangle is not to the stated lengths: with |AB| = 8 cm drawn 278 px wide, |AC| = 5 should be about 174 px and |BC| = 7 about 243 px, but AC is about 216 px (6.2 cm) and BC about 285 px (8.2 cm).","The label I sits on the dashed bisector lines.","No construction arcs are shown, although the working says to leave all arcs showing."]},
+"con-19":{"ok":true,"issues":[]},
+"con-21":{"ok":false,"issues":["Triangle is not drawn to the coordinates: B(7,4) is only 2 units above A(1,2) but is drawn about 12 px higher while C at y=9 is about 189 px above A, so the x and y scales differ and B is too low; C is also too far left (it should be 3 units right of A).","The label G sits on the dashed median lines and is hard to read.","D, the midpoint of BC, is not labelled, and the figure has no colours although D and G are coloured in the working."]},
+"con-7":{"ok":true,"issues":[]},
+"con-22":{"ok":false,"issues":["The label H sits on the dashed altitude lines and is partly struck through, so it is hard to read."]},
+"trig-derive-2":{"ok":true,"issues":[]}
+}

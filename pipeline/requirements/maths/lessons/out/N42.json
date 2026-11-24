@@ -1,0 +1,148 @@
+[
+{"skill": "log-definition", "problems": [
+{"part": "practice-log-definition-1", "note": null,
+ "legend": {"1": "the base", "2": "the answer, x", "3": "the index"},
+ "steps": [
+  {"ask": "What is the base of this log, and what does the log equal? Write it in index form.", "title": "Convert to index form", "lines": [{"text": "$\\log_a b = c$ means $a^c = b$."}, {"tex": "\\log_\\hl{1}{2} (x+4) &= \\hl{3}{5}"}, {"tex": "x + 4 &= \\hl{1}{2}^\\hl{3}{5}"}]},
+  {"ask": "What do you do to $x + 4$ to leave $x$ on its own?", "title": "Solve for $x$", "lines": [{"tex": "x + 4 &= 32"}, {"tex": "\\hl{2}{x} &= \\hl{2}{28}"}]},
+  {"ask": "What do you get when you put $x$ back into the original log?", "title": "Check the answer", "lines": [{"text": "Put $\\hl{2}{x} = \\hl{2}{28}$ back in."}, {"tex": "\\log_\\hl{1}{2} 32 &= \\hl{3}{5}"}]}
+ ],
+ "final": "\\hl{2}{x} = \\hl{2}{28}",
+ "graph": null},
+{"part": "practice-log-definition-3", "note": "Changed from problem 1: the base is 5 instead of 2, and the left side is $2x - 3$ instead of $x + 4$. The steps and the check stay the same.",
+ "legend": {"1": "the base", "2": "the answer, x", "3": "the index"},
+ "steps": [
+  {"ask": "What is the base of this log, and what does the log equal? Write it in index form.", "title": "Convert to index form", "lines": [{"text": "$\\log_a b = c$ means $a^c = b$."}, {"tex": "\\log_\\hl{1}{5} (2x-3) &= \\hl{3}{3}"}, {"tex": "2x - 3 &= \\hl{1}{5}^\\hl{3}{3}"}]},
+  {"ask": "What do you do to $2x - 3$ to leave $x$ on its own?", "title": "Solve for $x$", "lines": [{"tex": "2x - 3 &= 125"}, {"tex": "2x &= 128"}, {"tex": "\\hl{2}{x} &= \\hl{2}{64}"}]},
+  {"ask": "What do you get when you put $x$ back into the original log?", "title": "Check the answer", "lines": [{"text": "Put $\\hl{2}{x} = \\hl{2}{64}$ back in."}, {"tex": "\\log_\\hl{1}{5} 125 &= \\hl{3}{3}"}]}
+ ],
+ "final": "\\hl{2}{x} = \\hl{2}{64}",
+ "graph": null},
+{"part": "practice-log-definition-2", "note": "Changed from problem 2: the base is $e$, and the equation is in $e^x$ form, so you first isolate $e^x$. The answer uses $\\ln$ and is not a whole number.",
+ "legend": {"1": "the base, e", "2": "the answer, x"},
+ "steps": [
+  {"ask": "What do you do first to get $e^x$ on its own?", "title": "Isolate $e^x$", "lines": [{"tex": "2\\hl{1}{e}^\\hl{2}{x} - 1 &= 9"}, {"tex": "2\\hl{1}{e}^\\hl{2}{x} &= 10"}, {"tex": "\\hl{1}{e}^\\hl{2}{x} &= 5"}]},
+  {"ask": "If $e^x = a$, what does the definition of $\\ln$ say $x$ equals?", "title": "Convert to log form", "lines": [{"text": "$e^x = a$ means $x = \\ln a$."}, {"tex": "\\hl{2}{x} &= \\hl{2}{\\ln 5}"}]}
+ ],
+ "final": "\\hl{2}{x} = \\hl{2}{\\ln 5}",
+ "graph": null}
+]},
+{"skill": "alg-factor-quadratic", "problems": [
+{"part": "practice-alg-factor-quadratic-1", "note": null,
+ "legend": {"1": "the two numbers that split the middle term", "2": "the factorised answer"},
+ "steps": [
+  {"ask": "Which two numbers multiply to $24$ and add to $-10$?", "title": "Find two numbers with product $3 \\times 8 = 24$ and sum $-10$", "lines": [{"text": "The numbers are $\\hl{1}{-4}$ and $\\hl{1}{-6}$."}]},
+  {"ask": "Use these two numbers to split the middle term. What are the two new terms?", "title": "Split the middle term", "lines": [{"tex": "3x^2 - 10x + 8 &= 3x^2 \\hl{1}{- 6x} \\hl{1}{- 4x} + 8"}]},
+  {"ask": "What factor do the first two terms share, and what factor do the last two share?", "title": "Factorise by grouping", "lines": [{"tex": "&= 3x(x - 2) \\hl{1}{- 4}(x - 2)"}, {"tex": "&= \\hl{2}{(3x - 4)(x - 2)}"}]}
+ ],
+ "final": "\\hl{2}{(3x - 4)(x - 2)}",
+ "graph": null},
+{"part": "practice-alg-factor-quadratic-2", "note": "Changed from problem 1: the leading number is 2 instead of 3, the constant is $-15$ so the two numbers have opposite signs, and the question is about a rectangle's sides. The steps stay the same.",
+ "legend": {"1": "the two numbers that split the middle term", "2": "the factorised answer"},
+ "steps": [
+  {"ask": "Which two numbers multiply to $-30$ and add to $1$?", "title": "Find two numbers with product $2 \\times (-15) = -30$ and sum $1$", "lines": [{"text": "The numbers are $\\hl{1}{6}$ and $\\hl{1}{-5}$."}]},
+  {"ask": "Use these two numbers to split the middle term $+x$. What are the two new terms?", "title": "Split the middle term", "lines": [{"tex": "2x^2 + x - 15 &= 2x^2 \\hl{1}{+ 6x} \\hl{1}{- 5x} - 15"}]},
+  {"ask": "What factor do the first two terms share, and what factor do the last two share?", "title": "Factorise by grouping", "lines": [{"tex": "&= 2x(x + 3) \\hl{1}{- 5}(x + 3)"}, {"tex": "&= \\hl{2}{(2x - 5)(x + 3)}"}]}
+ ],
+ "final": "\\hl{2}{(2x - 5)(x + 3)}",
+ "graph": null},
+{"part": "practice-alg-factor-quadratic-3", "note": "Changed from problem 2: the constant is now $+6$, so both numbers are negative, and there is no area context. The steps stay the same.",
+ "legend": {"1": "the two numbers that split the middle term", "2": "the factorised answer"},
+ "steps": [
+  {"ask": "Which two numbers multiply to $12$ and add to $-7$?", "title": "Find two numbers with product $2 \\times 6 = 12$ and sum $-7$", "lines": [{"text": "The numbers are $\\hl{1}{-3}$ and $\\hl{1}{-4}$."}]},
+  {"ask": "Use these two numbers to split the middle term. What are the two new terms?", "title": "Split the middle term", "lines": [{"tex": "2x^2 - 7x + 6 &= 2x^2 \\hl{1}{- 4x} \\hl{1}{- 3x} + 6"}]},
+  {"ask": "What factor do the first two terms share, and what factor do the last two share?", "title": "Factorise by grouping", "lines": [{"tex": "&= 2x(x - 2) \\hl{1}{- 3}(x - 2)"}, {"tex": "&= \\hl{2}{(2x - 3)(x - 2)}"}]}
+ ],
+ "final": "\\hl{2}{(2x - 3)(x - 2)}",
+ "graph": null}
+]},
+{"skill": "alg-fractions-simplify", "problems": [
+{"part": "practice-alg-fractions-simplify-2", "note": null,
+ "legend": {"1": "the shared factors (cancelled, or the common denominator)", "2": "the simplified answer"},
+ "steps": [
+  {"ask": "What do you do to the second fraction so that division becomes multiplication?", "title": "Turn the division into a multiplication", "lines": [{"text": "Invert the second fraction."}, {"tex": "\\frac{x^2-x-6}{x^2-1} \\div \\frac{x^2-2x-3}{x^2+3x+2} &= \\frac{x^2-x-6}{x^2-1} \\times \\frac{x^2+3x+2}{x^2-2x-3}"}]},
+  {"ask": "What two brackets multiply out to each quadratic?", "title": "Factorise every quadratic", "lines": [{"tex": "x^2 - x - 6 &= (x-3)(x+2)"}, {"tex": "x^2 - 1 &= (x-1)(x+1)"}, {"tex": "x^2 + 3x + 2 &= (x+1)(x+2)"}, {"tex": "x^2 - 2x - 3 &= (x-3)(x+1)"}]},
+  {"ask": "Which factors appear on both the top and the bottom after you substitute?", "title": "Substitute the factors", "lines": [{"tex": "&= \\frac{(x-3)(x+2)}{(x-1)(x+1)} \\times \\frac{(x+1)(x+2)}{(x-3)(x+1)}"}]},
+  {"ask": "Which factors can you cancel from top and bottom?", "title": "Cancel common factors", "lines": [{"text": "Cancel $\\hl{1}{(x-3)}$ and one $\\hl{1}{(x+1)}$ from top and bottom."}, {"tex": "&= \\frac{(x+2)(x+2)}{(x-1)(x+1)}"}, {"tex": "&= \\hl{2}{\\frac{(x+2)^2}{(x-1)(x+1)}}"}]}
+ ],
+ "final": "\\hl{2}{\\frac{(x+2)^2}{(x-1)(x+1)}}",
+ "graph": null},
+{"part": "practice-alg-fractions-simplify-3", "note": "Changed from problem 1: the quadratics now have a leading 2, so the factorising is harder, and three factors cancel instead of two. The steps stay the same.",
+ "legend": {"1": "the shared factors (cancelled, or the common denominator)", "2": "the simplified answer"},
+ "steps": [
+  {"ask": "What do you do to the second fraction so that division becomes multiplication?", "title": "Turn the division into a multiplication", "lines": [{"text": "Invert the second fraction."}, {"tex": "\\frac{2x^2+7x+3}{x^2-9} \\div \\frac{2x^2+x-1}{x^2-2x-3} &= \\frac{2x^2+7x+3}{x^2-9} \\times \\frac{x^2-2x-3}{2x^2+x-1}"}]},
+  {"ask": "What two brackets multiply out to each quadratic?", "title": "Factorise every quadratic", "lines": [{"tex": "2x^2+7x+3 &= (2x+1)(x+3)"}, {"tex": "x^2-9 &= (x-3)(x+3)"}, {"tex": "x^2-2x-3 &= (x-3)(x+1)"}, {"tex": "2x^2+x-1 &= (2x-1)(x+1)"}]},
+  {"ask": "Which factors appear on both the top and the bottom after you substitute?", "title": "Substitute the factors", "lines": [{"tex": "&= \\frac{(2x+1)(x+3)}{(x-3)(x+3)} \\times \\frac{(x-3)(x+1)}{(2x-1)(x+1)}"}]},
+  {"ask": "Which factors can you cancel from top and bottom?", "title": "Cancel common factors", "lines": [{"text": "Cancel $\\hl{1}{(x+3)}$, $\\hl{1}{(x-3)}$ and $\\hl{1}{(x+1)}$ from top and bottom."}, {"tex": "&= \\hl{2}{\\frac{2x+1}{2x-1}}"}]}
+ ],
+ "final": "\\hl{2}{\\frac{2x+1}{2x-1}}",
+ "graph": null},
+{"part": "practice-alg-fractions-simplify-1", "note": "From problem 2: this one subtracts fractions instead of dividing, so the steps combine them over a common denominator rather than cancel. It is the closest candidate available, not the same method; factorising first is the same.",
+ "legend": {"1": "the shared factors (cancelled, or the common denominator)", "2": "the simplified answer"},
+ "steps": [
+  {"ask": "Can you factorise $x^2 - 4$ into two brackets?", "title": "Factorise the first denominator", "lines": [{"tex": "x^2 - 4 &= \\hl{1}{(x-2)(x+2)}"}, {"text": "This is the common denominator, since $x+2$ is already a factor."}]},
+  {"ask": "What is the common denominator of the two fractions?", "title": "Write both fractions over the common denominator", "lines": [{"tex": "\\frac{x}{x^2-4} - \\frac{1}{x+2} &= \\frac{x}{\\hl{1}{(x-2)(x+2)}} - \\frac{1\\cdot(x-2)}{\\hl{1}{(x+2)(x-2)}}"}]},
+  {"ask": "What do you get when you subtract the two numerators over the common denominator?", "title": "Combine and simplify the numerator", "lines": [{"tex": "&= \\frac{x - (x-2)}{\\hl{1}{(x-2)(x+2)}}"}, {"tex": "&= \\frac{x - x + 2}{\\hl{1}{(x-2)(x+2)}}"}, {"tex": "&= \\hl{2}{\\frac{2}{(x-2)(x+2)}}"}]}
+ ],
+ "final": "\\hl{2}{\\frac{2}{(x-2)(x+2)}}",
+ "graph": null}
+]},
+{"skill": "alg-surd-expressions", "problems": [
+{"part": "practice-alg-surd-expressions-2", "note": null,
+ "legend": {"1": "the numerator, 2√x", "2": "the denominator, x − 4", "3": "the answer"},
+ "steps": [
+  {"ask": "What product of the two denominators can you write both fractions over?", "title": "Write over a common denominator", "lines": [{"tex": "\\frac{1}{\\sqrt{x}+2} + \\frac{1}{\\sqrt{x}-2} &= \\frac{(\\sqrt{x}-2) + (\\sqrt{x}+2)}{(\\sqrt{x}+2)(\\sqrt{x}-2)}"}]},
+  {"ask": "What do you get when you add the two brackets in the numerator?", "title": "Simplify the numerator", "lines": [{"tex": "(\\sqrt{x}-2) + (\\sqrt{x}+2) &= \\sqrt{x}-2+\\sqrt{x}+2"}, {"tex": "&= \\hl{1}{2\\sqrt{x}}"}]},
+  {"ask": "What happens to the middle terms when you multiply $\\sqrt{x}+2$ by $\\sqrt{x}-2$?", "title": "Simplify the denominator (difference of two squares)", "lines": [{"tex": "(\\sqrt{x}+2)(\\sqrt{x}-2) &= (\\sqrt{x})^2 - 2^2"}, {"tex": "&= \\hl{2}{x - 4}"}]},
+  {"ask": "How do the numerator and denominator you found combine into one fraction?", "title": "Put the numerator over the denominator", "lines": [{"tex": "\\frac{1}{\\sqrt{x}+2} + \\frac{1}{\\sqrt{x}-2} &= \\hl{3}{\\frac{2\\sqrt{x}}{x-4}}"}]}
+ ],
+ "final": "\\hl{3}{\\frac{2\\sqrt{x}}{x-4}}",
+ "graph": null},
+{"part": "practice-alg-surd-expressions-1", "note": "Changed from problem 1: the numbers become letters $a$ and $b$, and the fractions are subtracted instead of added. The steps stay the same.",
+ "legend": {"1": "the numerator, 2√b", "2": "the denominator, a − b", "3": "the answer"},
+ "steps": [
+  {"ask": "What product of the two denominators can you write both fractions over?", "title": "Write over a common denominator", "lines": [{"tex": "\\frac{1}{\\sqrt{a}-\\sqrt{b}} - \\frac{1}{\\sqrt{a}+\\sqrt{b}} &= \\frac{(\\sqrt{a}+\\sqrt{b}) - (\\sqrt{a}-\\sqrt{b})}{(\\sqrt{a}-\\sqrt{b})(\\sqrt{a}+\\sqrt{b})}"}]},
+  {"ask": "What do you get when you subtract the second bracket from the first?", "title": "Simplify the numerator", "lines": [{"tex": "(\\sqrt{a}+\\sqrt{b}) - (\\sqrt{a}-\\sqrt{b}) &= \\sqrt{a}+\\sqrt{b}-\\sqrt{a}+\\sqrt{b}"}, {"tex": "&= \\hl{1}{2\\sqrt{b}}"}]},
+  {"ask": "What happens to the middle terms when you multiply $\\sqrt{a}-\\sqrt{b}$ by $\\sqrt{a}+\\sqrt{b}$?", "title": "Simplify the denominator (difference of two squares)", "lines": [{"tex": "(\\sqrt{a}-\\sqrt{b})(\\sqrt{a}+\\sqrt{b}) &= (\\sqrt{a})^2 - (\\sqrt{b})^2"}, {"tex": "&= \\hl{2}{a - b}"}]},
+  {"ask": "How do the numerator and denominator you found combine into one fraction?", "title": "Put the numerator over the denominator", "lines": [{"tex": "\\frac{1}{\\sqrt{a}-\\sqrt{b}} - \\frac{1}{\\sqrt{a}+\\sqrt{b}} &= \\hl{3}{\\frac{2\\sqrt{b}}{a-b}}"}]}
+ ],
+ "final": "\\hl{3}{\\frac{2\\sqrt{b}}{a-b}}",
+ "graph": null},
+{"part": "practice-alg-surd-expressions-3", "note": "Changed from problem 2: the numerators are $\\sqrt{x}$ instead of $1$, and the denominators are $\\sqrt{x} \\pm 1$ rather than $\\sqrt{a} \\pm \\sqrt{b}$, so the answer is negative. The steps stay the same.",
+ "legend": {"1": "the numerator, −2√x", "2": "the denominator, x − 1", "3": "the answer"},
+ "steps": [
+  {"ask": "What product of the two denominators can you write both fractions over?", "title": "Write over a common denominator", "lines": [{"tex": "\\frac{\\sqrt{x}}{\\sqrt{x}+1} - \\frac{\\sqrt{x}}{\\sqrt{x}-1} &= \\frac{\\sqrt{x}(\\sqrt{x}-1) - \\sqrt{x}(\\sqrt{x}+1)}{(\\sqrt{x}+1)(\\sqrt{x}-1)}"}]},
+  {"ask": "What do you get when you multiply $\\sqrt{x}$ into each bracket and subtract?", "title": "Simplify the numerator", "lines": [{"tex": "\\sqrt{x}(\\sqrt{x}-1) - \\sqrt{x}(\\sqrt{x}+1) &= (x - \\sqrt{x}) - (x + \\sqrt{x})"}, {"tex": "&= \\hl{1}{-2\\sqrt{x}}"}]},
+  {"ask": "What is $(\\sqrt{x}+1)(\\sqrt{x}-1)$ when you multiply it out?", "title": "Simplify the denominator (difference of two squares)", "lines": [{"tex": "(\\sqrt{x}+1)(\\sqrt{x}-1) &= (\\sqrt{x})^2 - 1^2"}, {"tex": "&= \\hl{2}{x - 1}"}]},
+  {"ask": "How do the numerator and denominator you found combine into one fraction?", "title": "Put the numerator over the denominator", "lines": [{"tex": "\\frac{\\sqrt{x}}{\\sqrt{x}+1} - \\frac{\\sqrt{x}}{\\sqrt{x}-1} &= \\hl{3}{\\frac{-2\\sqrt{x}}{x-1}}"}]}
+ ],
+ "final": "\\hl{3}{\\frac{-2\\sqrt{x}}{x-1}}",
+ "graph": null}
+]},
+{"skill": "prob-relative-frequency", "problems": [
+{"part": "maths-pp-2017-ordinary-p2-q1#(a)(ii)", "note": null,
+ "legend": {"1": "the relative frequency", "2": "the answer, rounded"},
+ "steps": [
+  {"ask": "Which numbers go on the top and the bottom of the fraction for P(boy)?", "title": "Write the probability as a fraction", "lines": [{"text": "$P(\\text{boy}) = \\dfrac{\\text{number of boys}}{\\text{total births}}$."}, {"tex": "P(\\text{boy}) &= \\frac{33619}{65909}"}]},
+  {"ask": "What is 33619 divided by 65909, to 2 decimal places?", "title": "Divide and round to 2 decimal places", "lines": [{"tex": "&= \\hl{1}{0.5101\\ldots}"}, {"tex": "&\\approx \\hl{2}{0.51}"}]}
+ ],
+ "final": "\\hl{2}{0.51}",
+ "graph": null},
+{"part": "practice-prob-relative-frequency-1", "note": "Changed from problem 1: this one also multiplies the relative frequency by the number of spins to get an expected count. The first step, finding the relative frequency, is the same.",
+ "legend": {"1": "the relative frequency, P(red)", "2": "the answer, expected reds"},
+ "steps": [
+  {"ask": "What is the relative frequency of red? Divide the number of reds by the number of spins.", "title": "Find the relative frequency of red", "lines": [{"text": "Relative frequency $= \\dfrac{\\text{number of reds}}{\\text{number of spins}}$."}, {"tex": "P(\\text{red}) &= \\frac{65}{250}"}, {"tex": "&= \\hl{1}{0.26}"}]},
+  {"ask": "What do you multiply the relative frequency by to get an expected count?", "title": "Multiply by the number of spins", "lines": [{"tex": "\\text{Expected reds} &= \\hl{1}{0.26} \\times 800"}, {"tex": "&= \\hl{2}{208}"}]}
+ ],
+ "final": "\\hl{2}{208}",
+ "graph": null},
+{"part": "practice-prob-relative-frequency-2", "note": "Changed from problem 2: the colour is now blue, and the numbers change to 400 spins, 92 blues and 1500 spins. The steps stay the same.",
+ "legend": {"1": "the relative frequency, P(blue)", "2": "the answer, expected blues"},
+ "steps": [
+  {"ask": "What is the relative frequency of blue? Divide the number of blues by the number of spins.", "title": "Find the relative frequency of blue", "lines": [{"text": "Relative frequency $= \\dfrac{\\text{number of blues}}{\\text{number of spins}}$."}, {"tex": "P(\\text{blue}) &= \\frac{92}{400}"}, {"tex": "&= \\hl{1}{0.23}"}]},
+  {"ask": "What do you multiply the relative frequency by to get an expected count?", "title": "Multiply by the number of spins", "lines": [{"tex": "\\text{Expected blues} &= \\hl{1}{0.23} \\times 1500"}, {"tex": "&= \\hl{2}{345}"}]}
+ ],
+ "final": "\\hl{1}{0.23}, \\quad \\hl{2}{345}",
+ "graph": null}
+]}
+]

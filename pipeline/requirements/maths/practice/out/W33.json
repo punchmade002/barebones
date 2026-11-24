@@ -1,0 +1,600 @@
+[
+ {
+  "skill": "seq-verify-formula",
+  "problems": [
+   {
+    "question": "Prove by induction that $1 + 4 + 7 + \\dots + (3n - 2) = \\frac{n(3n-1)}{2}$ for all $n \\in \\mathbb{N}$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Test the formula for $n = 1$",
+       "lines": [
+        {
+         "tex": "\\text{LHS} &= 1",
+         "sym": "1",
+         "new": true
+        },
+        {
+         "tex": "\\text{RHS} &= \\frac{1(3-1)}{2} = 1",
+         "sym": "1"
+        },
+        {
+         "text": "LHS = RHS, so the formula is true for $n = 1$."
+        }
+       ]
+      },
+      {
+       "title": "Assume it is true for $n = k$",
+       "lines": [
+        {
+         "text": "Assume $1 + 4 + \\dots + (3k-2) = \\frac{k(3k-1)}{2}$."
+        }
+       ]
+      },
+      {
+       "title": "Add the next term for $n = k + 1$",
+       "lines": [
+        {
+         "tex": "S_{k+1} &= \\frac{k(3k-1)}{2} + \\big(3(k+1) - 2\\big)",
+         "sym": "k*(3*k-1)/2 + 3*(k+1) - 2",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{k(3k-1) + 2(3k+1)}{2}",
+         "sym": "(k*(3*k-1) + 2*(3*k+1))/2"
+        },
+        {
+         "tex": "&= \\frac{3k^2 + 5k + 2}{2}",
+         "sym": "(3*k**2 + 5*k + 2)/2"
+        },
+        {
+         "tex": "&= \\frac{(k+1)(3k+2)}{2}",
+         "sym": "(k+1)*(3*k+2)/2"
+        }
+       ]
+      },
+      {
+       "title": "Compare with the formula at $n = k + 1$",
+       "lines": [
+        {
+         "tex": "\\frac{(k+1)\\big(3(k+1)-1\\big)}{2} &= \\frac{(k+1)(3k+2)}{2}",
+         "sym": "(k+1)*(3*(k+1)-1)/2",
+         "new": true
+        },
+        {
+         "text": "This matches, so true for $n=k$ implies true for $n=k+1$. By induction the formula holds for all $n \\in \\mathbb{N}$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "1 + 4 + \\dots + (3n-2) = \\frac{n(3n-1)}{2}"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(summation(3*k - 2, (k, 1, n)) - n*(3*n - 1)/2)"
+   }
+  ]
+ },
+ {
+  "skill": "seq-recurring-decimal",
+  "problems": [
+   {
+    "question": "Write $0.727272\\dots$ as a fraction in its simplest form, using the sum to infinity of a geometric series.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the decimal as a geometric series",
+       "lines": [
+        {
+         "tex": "0.727272\\dots &= 0.72 + 0.0072 + 0.000072 + \\dots"
+        }
+       ]
+      },
+      {
+       "title": "Find $a$ and $r$",
+       "lines": [
+        {
+         "tex": "a &= \\frac{72}{100}",
+         "sym": "Rational(72,100)",
+         "new": true
+        },
+        {
+         "tex": "r &= \\frac{1}{100}",
+         "sym": "Rational(1,100)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use $S_\\infty = \\frac{a}{1-r}$",
+       "lines": [
+        {
+         "tex": "S_\\infty &= \\frac{72/100}{1 - 1/100}",
+         "sym": "Rational(72,100)/(1-Rational(1,100))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{72/100}{99/100}",
+         "sym": "Rational(72,100)/(Rational(99,100))"
+        },
+        {
+         "tex": "&= \\frac{72}{99} = \\frac{8}{11}",
+         "sym": "Rational(8,11)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{8}{11}"
+    },
+    "finalSym": "Rational(8,11)",
+    "answerSym": "Rational(72,100)/(1-Rational(1,100))"
+   },
+   {
+    "question": "Express $0.2333\\dots$ as a fraction in its simplest form.\\nHint: write it as $0.2$ plus a geometric series.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Split off the non-recurring part",
+       "lines": [
+        {
+         "tex": "0.2333\\dots &= 0.2 + (0.03 + 0.003 + 0.0003 + \\dots)"
+        }
+       ]
+      },
+      {
+       "title": "Find $a$ and $r$ for the series",
+       "lines": [
+        {
+         "tex": "a &= \\frac{3}{100}",
+         "sym": "Rational(3,100)",
+         "new": true
+        },
+        {
+         "tex": "r &= \\frac{1}{10}",
+         "sym": "Rational(1,10)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Sum the series",
+       "lines": [
+        {
+         "tex": "S_\\infty &= \\frac{3/100}{1 - 1/10}",
+         "sym": "Rational(3,100)/(1-Rational(1,10))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{3/100}{9/10}",
+         "sym": "Rational(3,100)/(Rational(9,10))"
+        },
+        {
+         "tex": "&= \\frac{1}{30}",
+         "sym": "Rational(1,30)"
+        }
+       ]
+      },
+      {
+       "title": "Add the $0.2$ back on",
+       "lines": [
+        {
+         "tex": "0.2 + \\frac{1}{30} &= \\frac{1}{5} + \\frac{1}{30}",
+         "sym": "Rational(1,5)+Rational(1,30)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{6}{30} + \\frac{1}{30}",
+         "sym": "Rational(6,30)+Rational(1,30)"
+        },
+        {
+         "tex": "&= \\frac{7}{30}",
+         "sym": "Rational(7,30)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{7}{30}"
+    },
+    "finalSym": "Rational(7,30)",
+    "answerSym": "Rational(1,5)+Rational(3,100)/(1-Rational(1,10))"
+   },
+   {
+    "question": "Express $2.136136136\\dots$ in the form $\\frac{a}{b}$, where $a, b \\in \\mathbb{N}$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Split into the whole part and a recurring part",
+       "lines": [
+        {
+         "tex": "2.136136\\dots &= 2 + (0.136 + 0.000136 + 0.000000136 + \\dots)"
+        }
+       ]
+      },
+      {
+       "title": "Find $a$ and $r$ for the series",
+       "lines": [
+        {
+         "tex": "a &= \\frac{136}{1000}",
+         "sym": "Rational(136,1000)",
+         "new": true
+        },
+        {
+         "tex": "r &= \\frac{1}{1000}",
+         "sym": "Rational(1,1000)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Sum the series",
+       "lines": [
+        {
+         "tex": "S_\\infty &= \\frac{136/1000}{1 - 1/1000}",
+         "sym": "Rational(136,1000)/(1-Rational(1,1000))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{136/1000}{999/1000}",
+         "sym": "Rational(136,1000)/Rational(999,1000)"
+        },
+        {
+         "tex": "&= \\frac{136}{999}",
+         "sym": "Rational(136,999)"
+        }
+       ]
+      },
+      {
+       "title": "Add the whole part",
+       "lines": [
+        {
+         "tex": "2 + \\frac{136}{999} &= \\frac{1998}{999} + \\frac{136}{999}",
+         "sym": "2+Rational(136,999)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{2134}{999}",
+         "sym": "Rational(2134,999)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{2134}{999}"
+    },
+    "finalSym": "Rational(2134,999)",
+    "answerSym": "2+Rational(136,1000)/(1-Rational(1,1000))"
+   }
+  ]
+ },
+ {
+  "skill": "seq-convergence-range",
+  "problems": [
+   {
+    "question": "The series $1 + (3x-2) + (3x-2)^2 + (3x-2)^3 + \\dots$ has a sum to infinity.\\nFind the range of values of $x$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the common ratio",
+       "lines": [
+        {
+         "tex": "r &= 3x - 2",
+         "sym": "3*x - 2",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "A sum to infinity needs $|r| < 1$",
+       "lines": [
+        {
+         "tex": "|3x - 2| &< 1",
+         "sym": "Abs(3*x - 2) < 1",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Remove the modulus",
+       "lines": [
+        {
+         "tex": "-1 &< 3x - 2 < 1",
+         "sym": "And(-1 < 3*x - 2, 3*x - 2 < 1)"
+        },
+        {
+         "tex": "1 &< 3x < 3",
+         "sym": "And(1 < 3*x, 3*x < 3)"
+        },
+        {
+         "tex": "\\frac{1}{3} &< x < 1",
+         "sym": "And(Rational(1,3) < x, x < 1)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{1}{3} < x < 1"
+    },
+    "finalSym": "And(Rational(1,3) < x, x < 1)",
+    "answerSym": "solve(Abs(3*x - 2) < 1, x)"
+   },
+   {
+    "question": "For what values of $x$ does the series $1 + \\frac{2x+1}{4} + \\frac{(2x+1)^2}{16} + \\frac{(2x+1)^3}{64} + \\dots$ converge?",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the common ratio",
+       "lines": [
+        {
+         "tex": "r &= \\frac{2x+1}{4}",
+         "sym": "(2*x+1)/4",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Convergence needs $|r| < 1$",
+       "lines": [
+        {
+         "tex": "\\left|\\frac{2x+1}{4}\\right| &< 1",
+         "sym": "Abs((2*x+1)/4) < 1",
+         "new": true
+        },
+        {
+         "tex": "|2x+1| &< 4",
+         "sym": "Abs(2*x+1) < 4"
+        }
+       ]
+      },
+      {
+       "title": "Remove the modulus",
+       "lines": [
+        {
+         "tex": "-4 &< 2x + 1 < 4",
+         "sym": "And(-4 < 2*x+1, 2*x+1 < 4)"
+        },
+        {
+         "tex": "-5 &< 2x < 3",
+         "sym": "And(-5 < 2*x, 2*x < 3)"
+        },
+        {
+         "tex": "-\\frac{5}{2} &< x < \\frac{3}{2}",
+         "sym": "And(-Rational(5,2) < x, x < Rational(3,2))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-\\frac{5}{2} < x < \\frac{3}{2}"
+    },
+    "finalSym": "And(-Rational(5,2) < x, x < Rational(3,2))",
+    "answerSym": "solve(Abs((2*x+1)/4) < 1, x)"
+   },
+   {
+    "question": "The infinite series $2 + \\frac{4}{x} + \\frac{8}{x^2} + \\frac{16}{x^3} + \\dots$ has a sum to infinity.\\nFind the values of $x$ for which this is so.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the common ratio",
+       "lines": [
+        {
+         "tex": "r &= \\frac{4/x}{2}",
+         "sym": "(4/x)/2",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{2}{x}",
+         "sym": "2/x"
+        }
+       ]
+      },
+      {
+       "title": "A sum to infinity needs $|r| < 1$",
+       "lines": [
+        {
+         "tex": "\\left|\\frac{2}{x}\\right| &< 1",
+         "sym": "Abs(2/x) < 1",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Clear the fraction (note $x \\neq 0$)",
+       "lines": [
+        {
+         "tex": "|x| &> 2",
+         "sym": "Abs(x) > 2"
+        }
+       ]
+      },
+      {
+       "title": "Remove the modulus",
+       "lines": [
+        {
+         "tex": "x &< -2 \\quad \\text{or} \\quad x > 2",
+         "sym": "Or(x < -2, x > 2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x < -2 \\ \\text{or}\\ x > 2"
+    },
+    "finalSym": "Or(x < -2, x > 2)",
+    "answerSym": "solve(Abs(2/x) < 1, x)"
+   }
+  ]
+ },
+ {
+  "skill": "seq-derive-sum-infinity",
+  "problems": [
+   {
+    "question": "Given that the sum of the first $n$ terms of a geometric series is $S_n = \\frac{a(1-r^n)}{1-r}$, prove that if $|r| < 1$ then $S_\\infty = \\frac{a}{1-r}$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Split the formula for $S_n$",
+       "lines": [
+        {
+         "tex": "S_n &= \\frac{a(1-r^n)}{1-r}",
+         "sym": "a*(1-r**n)/(1-r)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{a}{1-r} - \\frac{a\\,r^n}{1-r}",
+         "sym": "a/(1-r) - a*r**n/(1-r)"
+        }
+       ]
+      },
+      {
+       "title": "Let $n \\to \\infty$ when $|r| < 1$",
+       "lines": [
+        {
+         "text": "If $|r| < 1$ then $r^n \\to 0$ as $n \\to \\infty$, for example $\\left(\\tfrac12\\right)^n \\to 0$."
+        },
+        {
+         "tex": "\\frac{a\\,r^n}{1-r} &\\to 0",
+         "sym": "0",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Take the limit",
+       "lines": [
+        {
+         "tex": "S_\\infty &= \\lim_{n \\to \\infty} S_n = \\frac{a}{1-r} - 0",
+         "sym": "a/(1-r)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{a}{1-r}",
+         "sym": "a/(1-r)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "S_\\infty = \\frac{a}{1-r}"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(limit(a*(1 - Rational(1,2)**n)/(1 - Rational(1,2)), n, oo) - a/(1 - Rational(1,2)))"
+   },
+   {
+    "question": "A geometric series has first term $6$ and common ratio $\\frac{2}{3}$.\\nShow that $S_n = 18\\left(1 - \\left(\\frac{2}{3}\\right)^n\\right)$ and prove that $S_n$ gets closer and closer to $\\frac{a}{1-r}$ as $n \\to \\infty$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute into $S_n$",
+       "lines": [
+        {
+         "tex": "S_n &= \\frac{6\\left(1-\\left(\\frac{2}{3}\\right)^n\\right)}{1 - \\frac{2}{3}}",
+         "sym": "6*(1-Rational(2,3)**n)/(1-Rational(2,3))",
+         "new": true
+        },
+        {
+         "tex": "&= 18\\left(1 - \\left(\\frac{2}{3}\\right)^n\\right)",
+         "sym": "18*(1-Rational(2,3)**n)"
+        }
+       ]
+      },
+      {
+       "title": "Let $n \\to \\infty$",
+       "lines": [
+        {
+         "text": "Since $\\frac{2}{3} < 1$, $\\left(\\frac{2}{3}\\right)^n \\to 0$."
+        },
+        {
+         "tex": "S_\\infty &= 18(1 - 0) = 18",
+         "sym": "18",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Compare with $\\frac{a}{1-r}$",
+       "lines": [
+        {
+         "tex": "\\frac{a}{1-r} &= \\frac{6}{1/3} = 18",
+         "sym": "6/(1-Rational(2,3))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "S_\\infty = 18 = \\frac{a}{1-r}"
+    },
+    "finalSym": "0",
+    "answerSym": "limit(6*(1 - Rational(2,3)**n)/(1 - Rational(2,3)), n, oo) - 18"
+   },
+   {
+    "question": "Let $S_n = a + ar + ar^2 + \\dots + ar^{n-1}$.\\nBy multiplying $S_n$ by $r$ and subtracting, prove that $S_n = \\frac{a(1-r^n)}{1-r}$ for $r \\neq 1$, and deduce that $S_\\infty = \\frac{a}{1-r}$ when $|r| < 1$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Multiply $S_n$ by $r$",
+       "lines": [
+        {
+         "tex": "rS_n &= ar + ar^2 + \\dots + ar^{n-1} + ar^n"
+        }
+       ]
+      },
+      {
+       "title": "Subtract: all middle terms cancel",
+       "lines": [
+        {
+         "tex": "S_n - rS_n &= a - ar^n",
+         "sym": "a - a*r**n",
+         "new": true
+        },
+        {
+         "tex": "S_n(1-r) &= a(1-r^n)",
+         "sym": "a*(1-r**n)"
+        }
+       ]
+      },
+      {
+       "title": "Divide by $1 - r$ (so $r \\neq 1$)",
+       "lines": [
+        {
+         "tex": "S_n &= \\frac{a(1-r^n)}{1-r}",
+         "sym": "a*(1-r**n)/(1-r)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Let $n \\to \\infty$ when $|r| < 1$",
+       "lines": [
+        {
+         "text": "Then $r^n \\to 0$, so $1 - r^n \\to 1$."
+        },
+        {
+         "tex": "S_\\infty &= \\frac{a}{1-r}",
+         "sym": "a/(1-r)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "S_n = \\frac{a(1-r^n)}{1-r}, \\quad S_\\infty = \\frac{a}{1-r}"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(a*(1-r**n)/(1-r)*(1-r) - a*(1-r**n))"
+   }
+  ]
+ }
+]

@@ -1,0 +1,835 @@
+[
+ {
+  "skill": "diff-curve-sketch",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-point-given-slope",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-sketch-derivative",
+  "verdict": "fixed",
+  "issues": "Reworded two asks that gave away the shape (U-shape, symmetry about the peak).",
+  "problems": [
+   {
+    "part": "practice-diff-sketch-derivative-1",
+    "note": null,
+    "legend": {
+     "1": "x where f′ = 0 (a root of f′)",
+     "2": "y-value of the extra point of f′ (not a root)"
+    },
+    "steps": [
+     {
+      "ask": "What is the slope of f at a turning point, and so what is f′ there?",
+      "title": "Turning points of $f$ give the roots of $f'$",
+      "lines": [
+       {
+        "text": "At a turning point the slope of $f$ is $0$, so $f'(\\hl{1}{-1}) = 0$ and $f'(\\hl{1}{3}) = 0$."
+       },
+       {
+        "text": "The graph of $f'$ crosses the $x$-axis at $(\\hl{1}{-1}, 0)$ and $(\\hl{1}{3}, 0)$."
+       }
+      ]
+     },
+     {
+      "ask": "Where does a graph cross the y-axis? Which x-value do you put into f′(x)?",
+      "title": "Find the $y$-intercept of $f'$",
+      "lines": [
+       {
+        "tex": "f'(x) &= 3x^2 - 6x - 9"
+       },
+       {
+        "tex": "f'(0) &= \\hl{2}{-9}"
+       },
+       {
+        "text": "The graph of $f'$ crosses the $y$-axis at $(0, \\hl{2}{-9})$."
+       }
+      ]
+     }
+    ],
+    "final": "(\\hl{1}{-1}, 0),\\ (\\hl{1}{3}, 0),\\ (0, \\hl{2}{-9})",
+    "graph": {
+     "f": "3*x**2 - 6*x - 9",
+     "box": [
+      -2,
+      4,
+      4,
+      -13
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": -1,
+       "y": 0,
+       "name": "(-1, 0)"
+      },
+      {
+       "x": 3,
+       "y": 0,
+       "name": "(3, 0)"
+      },
+      {
+       "x": 0,
+       "y": -9,
+       "name": "(0, -9)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "practice-diff-sketch-derivative-3",
+    "note": "The question gives no formula for $f$, only its turning points and the slope at its inflection point. The roots of $f'$ are found the same way, and one extra point gives the lowest point of $f'$ in place of the $y$-intercept. The three points to plot are the same kind as before.",
+    "legend": {
+     "1": "x where f′ = 0 (a root of f′)",
+     "2": "y-value of the extra point of f′ (not a root)"
+    },
+    "steps": [
+     {
+      "ask": "Where are the turning points of f, and what does that tell you about f′ at those x-values?",
+      "title": "Turning points of $f$ give the roots of $f'$",
+      "lines": [
+       {
+        "text": "At a turning point the slope of $f$ is $0$, so $f'(\\hl{1}{1}) = 0$ and $f'(\\hl{1}{5}) = 0$."
+       },
+       {
+        "text": "The graph of $f'$ crosses the $x$-axis at $(\\hl{1}{1}, 0)$ and $(\\hl{1}{5}, 0)$."
+       }
+      ]
+     },
+     {
+      "ask": "Where does f′ reach its lowest value, compared with its two roots? Which x-value is that?",
+      "title": "Use the point of inflection",
+      "lines": [
+       {
+        "text": "$f$ is a cubic, so $f'$ is a quadratic: a U-shape, with its lowest point halfway between its roots."
+       },
+       {
+        "tex": "x &= \\frac{1 + 5}{2} = 3"
+       },
+       {
+        "text": "This is the inflection point of $f$, where the slope is least, and it is given as $\\hl{2}{-4}$: $f'(3) = \\hl{2}{-4}$."
+       },
+       {
+        "text": "The lowest point of the graph of $f'$ is $(3, \\hl{2}{-4})$."
+       }
+      ]
+     }
+    ],
+    "final": "(\\hl{1}{1}, 0),\\ (\\hl{1}{5}, 0),\\ (3, \\hl{2}{-4})",
+    "graph": {
+     "f": "x**2 - 6*x + 5",
+     "box": [
+      -0.5,
+      6,
+      6.5,
+      -5.5
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 1,
+       "y": 0,
+       "name": "(1, 0)"
+      },
+      {
+       "x": 5,
+       "y": 0,
+       "name": "(5, 0)"
+      },
+      {
+       "x": 3,
+       "y": -4,
+       "name": "lowest (3, -4)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q6#(c)",
+    "note": "This is a different exam part with a peak at $(2, 1)$ and five points to plot, not three. The method is the same: the turning points give the roots of $p'$, and the other points come from the shape of the quadratic.",
+    "legend": {
+     "1": "x where f′ = 0 (a root of f′)",
+     "2": "y-value of the extra point of f′ (not a root)"
+    },
+    "steps": [
+     {
+      "ask": "What is the gradient of p(x) at a turning point? Use that to find two points on p′(x).",
+      "title": "Read the gradient of p(x) at key points",
+      "lines": [
+       {
+        "text": "The value of $p'(x)$ is the gradient of $p(x)$."
+       },
+       {
+        "text": "At $x = \\hl{1}{1}$ and $x = \\hl{1}{3}$, $p(x)$ has a turning point, so the gradient is $0$: $p'(\\hl{1}{1}) = 0$ and $p'(\\hl{1}{3}) = 0$."
+       },
+       {
+        "text": "$p(x)$ is steepest uphill at its inflection point $x = 2$, where the gradient is at its maximum, so $p'(2) = \\hl{2}{1}$."
+       },
+       {
+        "text": "We are given $p'(0) = \\hl{2}{-3}$."
+       }
+      ]
+     },
+     {
+      "ask": "Which other point on p′ must sit at the same height as x = 0, and why?",
+      "title": "Use the shape of p'(x) to find the last point",
+      "lines": [
+       {
+        "text": "$p(x)$ is a cubic, so $p'(x)$ is a quadratic: a U-shape upside down, with its peak at $(2, \\hl{2}{1})$."
+       },
+       {
+        "text": "A quadratic is symmetric about its peak, so $x = 4$ matches $x = 0$: $p'(4) = \\hl{2}{-3}$."
+       }
+      ]
+     },
+     {
+      "ask": "Which points do you now have, and how would you join them into one smooth curve?",
+      "title": "Plot the points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0, \\hl{2}{-3})$, $(\\hl{1}{1}, 0)$, $(2, \\hl{2}{1})$, $(\\hl{1}{3}, 0)$ and $(4, \\hl{2}{-3})$, then draw a smooth curve through them."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Quadratic through } (0,\\hl{2}{-3}),\\ (\\hl{1}{1},0),\\ (2,\\hl{2}{1}),\\ (\\hl{1}{3},0),\\ (4,\\hl{2}{-3})",
+    "graph": {
+     "f": "-x**2 + 4*x - 3",
+     "box": [
+      -0.5,
+      2,
+      4.5,
+      -4
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 1,
+       "y": 0,
+       "name": "root (1, 0)"
+      },
+      {
+       "x": 3,
+       "y": 0,
+       "name": "root (3, 0)"
+      },
+      {
+       "x": 2,
+       "y": 1,
+       "name": "peak (2, 1)"
+      },
+      {
+       "x": 0,
+       "y": -3,
+       "name": "(0, -3)"
+      },
+      {
+       "x": 4,
+       "y": -3,
+       "name": "(4, -3)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": "fin-estimate",
+  "verdict": "fixed",
+  "issues": "Reworded problem 3 ask 1, which stated the operation.",
+  "problems": [
+   {
+    "part": "practice-fin-estimate-1",
+    "note": null,
+    "legend": {
+     "1": "the exact answer",
+     "2": "the estimate (rounded value)"
+    },
+    "steps": [
+     {
+      "ask": "How do you find the total cost of 198 books at €4.95 each?",
+      "title": "Calculate the exact cost",
+      "lines": [
+       {
+        "tex": "198 \\times 4.95 &= \\hl{1}{980.1}"
+       }
+      ]
+     },
+     {
+      "ask": "Which easy round numbers are close to 198 and 4.95? What do you get when you multiply them?",
+      "title": "Round each number and estimate",
+      "lines": [
+       {
+        "tex": "198 &\\approx 200"
+       },
+       {
+        "tex": "4.95 &\\approx 5"
+       },
+       {
+        "tex": "200 \\times 5 &= \\hl{2}{1000}"
+       }
+      ]
+     },
+     {
+      "ask": "Is the estimate close to the exact cost? What does that tell you?",
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "The estimate €$\\hl{2}{1000}$ is close to the exact cost €$\\hl{1}{980.10}$, so the answer is sensible."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{1}{980.10} \\text{ (estimate €}\\hl{2}{1000}\\text{)}",
+    "graph": null
+   },
+   {
+    "part": "practice-fin-estimate-2",
+    "note": "Same steps as problem 1. The calculation is a division instead of a multiplication, and the numbers are rounded to 1 significant figure, as the question asks.",
+    "legend": {
+     "1": "the exact answer",
+     "2": "the estimate (rounded value)"
+    },
+    "steps": [
+     {
+      "ask": "Which operation finds the time when you know the total volume and the rate of filling?",
+      "title": "Calculate the exact time",
+      "lines": [
+       {
+        "tex": "612.5 \\div 4.9 &= \\hl{1}{125}"
+       }
+      ]
+     },
+     {
+      "ask": "Which numbers with one significant figure are close to 612.5 and 4.9? What is the estimate?",
+      "title": "Round each number and estimate",
+      "lines": [
+       {
+        "tex": "612.5 &\\approx 600"
+       },
+       {
+        "tex": "4.9 &\\approx 5"
+       },
+       {
+        "tex": "600 \\div 5 &= \\hl{2}{120}"
+       }
+      ]
+     },
+     {
+      "ask": "How close is the estimate to the exact time? Does that make sense?",
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "The estimate of $\\hl{2}{120}$ seconds is close to the exact time of $\\hl{1}{125}$ seconds, so the answer is sensible."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{125} \\text{ seconds (estimate } \\hl{2}{120}\\text{ seconds)}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q7#(b)(ii)",
+    "note": "The method is the same, but the estimate is a rounded final answer rather than rounded inputs, and there is no compare step. The exact division comes first, then the rounding.",
+    "legend": {
+     "1": "the exact answer",
+     "2": "the estimate (rounded value)"
+    },
+    "steps": [
+     {
+      "ask": "How many litres are needed to cover the whole area, given what one litre covers?",
+      "title": "Divide the area by the area one litre covers",
+      "lines": [
+       {
+        "tex": "\\text{Litres} &= \\frac{497.77}{12.25}"
+       },
+       {
+        "tex": "&= \\hl{1}{40.63}"
+       }
+      ]
+     },
+     {
+      "ask": "The answer needs a whole number of litres. How do you round 40.63 to the nearest whole number?",
+      "title": "Round to the nearest litre",
+      "lines": [
+       {
+        "tex": "&\\approx \\hl{2}{41}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{41}\\text{ litres}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-mortgage-derive",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "fn-graph-log",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "fn-injective-surjective",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "geo-cor1",
+  "verdict": "fixed",
+  "issues": "Made colour slots the same roles in all 3 (1 matched pair, 2 the answer, 3 x on the way).",
+  "problems": [
+   {
+    "part": "practice-geo-cor1-1",
+    "note": null,
+    "legend": {
+     "1": "the matched angle or side (equal by Corollary 1)",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the third angle of triangle ABC, if two of its angles are 35° and 70°?",
+      "title": "Find $|\\angle ABC|$ in triangle $ABC$",
+      "lines": [
+       {
+        "text": "The angles of a triangle add to $180^\\circ$."
+       },
+       {
+        "tex": "\\hl{1}{|\\angle ABC|} &= 180 - 35 - 70"
+       },
+       {
+        "tex": "&= \\hl{1}{75^\\circ}"
+       }
+      ]
+     },
+     {
+      "ask": "Which angle of the parallelogram matches ∠ABC when the diagonal splits it into two congruent triangles?",
+      "title": "Use Corollary 1",
+      "lines": [
+       {
+        "text": "The diagonal $[AC]$ divides the parallelogram into two congruent triangles, $ABC$ and $CDA$, with $B$ matching $D$."
+       },
+       {
+        "text": "So the angles at $B$ and $D$ are equal."
+       },
+       {
+        "tex": "\\hl{2}{|\\angle ADC|} &= \\hl{1}{|\\angle ABC|} = \\hl{1}{75^\\circ}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{75^\\circ}",
+    "graph": null
+   },
+   {
+    "part": "practice-geo-cor1-3",
+    "note": "Same corollary and matched pair, but the matched angles are given as expressions in x, so you set them equal and solve for x. The answer is now x, not an angle.",
+    "legend": {
+     "1": "the matched angle or side (equal by Corollary 1)",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What does Corollary 1 say about these two angles, and what equation follows?",
+      "title": "Use Corollary 1",
+      "lines": [
+       {
+        "text": "The diagonal $[AC]$ divides the parallelogram into congruent triangles $ABC$ and $CDA$, with $C$ matching $A$."
+       },
+       {
+        "text": "So $|\\angle BCA| = |\\angle DAC|$."
+       },
+       {
+        "tex": "\\hl{1}{2x + 10} &= \\hl{1}{3x - 20}"
+       }
+      ]
+     },
+     {
+      "ask": "What value of x makes the two expressions equal?",
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "\\hl{2}{30} &= \\hl{2}{x}"
+       },
+       {
+        "tex": "\\hl{2}{x} &= \\hl{2}{30}"
+       }
+      ]
+     },
+     {
+      "ask": "Does each expression give the same angle when you put x = 30 back in?",
+      "title": "Check",
+      "lines": [
+       {
+        "text": "Each angle is $\\hl{1}{70^\\circ}$."
+       },
+       {
+        "tex": "\\hl{1}{2(30) + 10} &= \\hl{1}{70}"
+       },
+       {
+        "tex": "\\hl{1}{3(30) - 20} &= \\hl{1}{70}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{x = 30}",
+    "graph": null
+   },
+   {
+    "part": "practice-geo-cor1-4",
+    "note": "The matched quantities are now sides, |AB| and |CD|, so the equation comes from lengths, and one more step gives the length asked for.",
+    "legend": {
+     "1": "the matched angle or side (equal by Corollary 1)",
+     "2": "the answer",
+     "3": "x, the value found on the way"
+    },
+    "steps": [
+     {
+      "ask": "Which two sides does Corollary 1 make equal, and what equation does that give?",
+      "title": "Use Corollary 1",
+      "lines": [
+       {
+        "text": "The diagonal $[AC]$ divides the parallelogram into two congruent triangles, $ABC$ and $CDA$, with $B$ matching $D$ and $A$ matching $C$."
+       },
+       {
+        "text": "So the matching sides $[AB]$ and $[CD]$ are equal."
+       },
+       {
+        "tex": "\\hl{1}{3x - 4} &= \\hl{1}{x + 8}"
+       }
+      ]
+     },
+     {
+      "ask": "What value of x satisfies that equation?",
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "2x &= 12"
+       },
+       {
+        "tex": "\\hl{3}{x} &= \\hl{3}{6}"
+       }
+      ]
+     },
+     {
+      "ask": "What is |CD| once you put x back in?",
+      "title": "Find $|CD|$",
+      "lines": [
+       {
+        "tex": "\\hl{2}{|CD|} &= 6 + 8"
+       },
+       {
+        "tex": "&= \\hl{2}{14}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{14}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm11",
+  "verdict": "fixed",
+  "issues": "Unified legend wording; two asks no longer reveal the equation.",
+  "problems": [
+   {
+    "part": "practice-geo-thm11-1",
+    "note": null,
+    "legend": {
+     "1": "|DE|, the first segment",
+     "2": "|EF|, equal to |DE|",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "The equal segments are on one transversal. What does Theorem 11 say about the other one?",
+      "title": "Use Theorem 11",
+      "lines": [
+       {
+        "text": "Three parallel lines cutting equal segments on one transversal cut equal segments on any transversal. $|AB| = |BC|$, so $\\hl{1}{|DE|} = \\hl{2}{|EF|}$."
+       },
+       {
+        "tex": "\\hl{2}{|EF|} &= \\hl{1}{4.5} \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you find the whole length |DF| from its two parts?",
+      "title": "Add the segments",
+      "lines": [
+       {
+        "tex": "\\hl{3}{|DF|} &= \\hl{1}{|DE|} + \\hl{2}{|EF|}"
+       },
+       {
+        "tex": "&= \\hl{1}{4.5} + \\hl{2}{4.5}"
+       },
+       {
+        "tex": "&= \\hl{3}{9} \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{9} \\text{ cm}",
+    "graph": null
+   },
+   {
+    "part": "practice-geo-thm11-2",
+    "note": "Changed: the two segments are now expressions in x, and the question asks for x instead of |DF|. Same: Theorem 11 makes |DE| = |EF|, so you set the two expressions equal.",
+    "legend": {
+     "1": "|DE|, the first segment",
+     "2": "|EF|, equal to |DE|",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What does Theorem 11 tell you about |DE| and |EF|? What equation follows?",
+      "title": "Use Theorem 11",
+      "lines": [
+       {
+        "text": "$|AB| = |BC|$, so the parallel lines cut equal segments on the other transversal: $\\hl{1}{|DE|} = \\hl{2}{|EF|}$."
+       },
+       {
+        "tex": "\\hl{1}{x + 6} &= \\hl{2}{3x - 2}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you collect the x terms on one side, then get x on its own?",
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "8 &= 2\\hl{3}{x}"
+       },
+       {
+        "tex": "\\hl{3}{x} &= 4"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{x = 4}",
+    "graph": null
+   },
+   {
+    "part": "practice-geo-thm11-3",
+    "note": "Changed: you now solve for x first, then use it to find |DE| and add the two segments to get |DF|. Same: Theorem 11 makes |DE| = |EF|.",
+    "legend": {
+     "1": "|DE|, the first segment",
+     "2": "|EF|, equal to |DE|",
+     "3": "the answer",
+     "4": "x, the value found on the way"
+    },
+    "steps": [
+     {
+      "ask": "Which two segments does Theorem 11 make equal, and what equation does that give?",
+      "title": "Use Theorem 11",
+      "lines": [
+       {
+        "text": "$|AB| = |BC|$, so the parallel lines cut equal segments on the other transversal: $\\hl{1}{|DE|} = \\hl{2}{|EF|}$."
+       },
+       {
+        "tex": "\\hl{1}{2x + 1} &= \\hl{2}{5x - 8}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you collect the x terms on one side, then get x on its own?",
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "9 &= 3\\hl{4}{x}"
+       },
+       {
+        "tex": "\\hl{4}{x} &= \\hl{4}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "Once x is known, how long is |DE|, and how does that give |DF|?",
+      "title": "Find $|DF|$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{|DE|} &= 2(\\hl{4}{3}) + 1"
+       },
+       {
+        "tex": "&= \\hl{1}{7} \\text{ cm}"
+       },
+       {
+        "tex": "\\hl{3}{|DF|} &= \\hl{1}{7} + \\hl{2}{7}"
+       },
+       {
+        "tex": "&= \\hl{3}{14} \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{|DF| = 14} \\text{ cm}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm12",
+  "verdict": "fixed",
+  "issues": "Unified legend wording across the 3 problems.",
+  "problems": [
+   {
+    "part": "practice-geo-thm12-1",
+    "note": null,
+    "legend": {
+     "1": "|AD|, the part of [AB] next to A",
+     "2": "|DB|, the other part of [AB]",
+     "3": "|AE|, the part of [AC] next to A",
+     "4": "|EC|, the other part of [AC]"
+    },
+    "steps": [
+     {
+      "ask": "A line parallel to BC cuts both sides. What do you know about the two ratios it creates?",
+      "title": "State the ratio (Theorem 12)",
+      "lines": [
+       {
+        "text": "$DE \\parallel BC$, so $DE$ divides $[AB]$ and $[AC]$ in the same ratio (Theorem 12)."
+       },
+       {
+        "tex": "\\frac{\\hl{1}{|AD|}}{\\hl{2}{|DB|}} &= \\frac{\\hl{3}{|AE|}}{\\hl{4}{|EC|}}"
+       },
+       {
+        "tex": "\\frac{\\hl{1}{6}}{\\hl{2}{4}} &= \\frac{\\hl{3}{9}}{\\hl{4}{|EC|}}"
+       }
+      ]
+     },
+     {
+      "ask": "How can you clear the fractions so that |EC| is on its own?",
+      "title": "Solve for $|EC|$",
+      "lines": [
+       {
+        "tex": "6\\hl{4}{|EC|} &= 36"
+       },
+       {
+        "tex": "\\hl{4}{|EC|} &= \\hl{4}{6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{|EC| = 6} \\text{ cm}",
+    "graph": null
+   },
+   {
+    "part": "practice-geo-thm12-3",
+    "note": "Changed: the unknown is now |AD| instead of |EC|, so x sits in the numerator. Same: the same ratio equation, then cross-multiply.",
+    "legend": {
+     "1": "|AD|, the part of [AB] next to A",
+     "2": "|DB|, the other part of [AB]",
+     "3": "|AE|, the part of [AC] next to A",
+     "4": "|EC|, the other part of [AC]"
+    },
+    "steps": [
+     {
+      "ask": "A line parallel to BC cuts both sides. Which two ratios are equal?",
+      "title": "State the ratio (Theorem 12)",
+      "lines": [
+       {
+        "text": "$DE \\parallel BC$, so $DE$ divides $[AB]$ and $[AC]$ in the same ratio (Theorem 12)."
+       },
+       {
+        "tex": "\\frac{\\hl{1}{|AD|}}{\\hl{2}{|DB|}} &= \\frac{\\hl{3}{|AE|}}{\\hl{4}{|EC|}}"
+       },
+       {
+        "tex": "\\frac{\\hl{1}{x}}{\\hl{2}{4}} &= \\frac{\\hl{3}{9}}{\\hl{4}{6}}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you clear the fractions so that x is on its own?",
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "6\\hl{1}{x} &= 36"
+       },
+       {
+        "tex": "\\hl{1}{x} &= \\hl{1}{6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{x = 6}",
+    "graph": null
+   },
+   {
+    "part": "practice-geo-thm12-2",
+    "note": "Changed (two things): the ratio is given as 4 : 6 and |AC| = 15 cm, so you write |AE| as x and |EC| as 15 − x before cross-multiplying. Same: Theorem 12 makes the two ratios equal.",
+    "legend": {
+     "1": "|AD|, the part of [AB] next to A",
+     "2": "|DB|, the other part of [AB]",
+     "3": "|AE|, the part of [AC] next to A",
+     "4": "|EC|, the other part of [AC]"
+    },
+    "steps": [
+     {
+      "ask": "Which two ratios are equal, and what do the 4 : 6 parts tell you?",
+      "title": "Set up the ratio (Theorem 12)",
+      "lines": [
+       {
+        "text": "$DE \\parallel BC$, so $\\hl{3}{|AE|} : \\hl{4}{|EC|} = \\hl{1}{|AD|} : \\hl{2}{|DB|} = 4 : 6$ (Theorem 12)."
+       },
+       {
+        "text": "Let $\\hl{3}{|AE|} = \\hl{3}{x}$, so $\\hl{4}{|EC|} = \\hl{4}{15 - x}$."
+       },
+       {
+        "tex": "\\frac{\\hl{3}{x}}{\\hl{4}{15 - x}} &= \\frac{\\hl{1}{4}}{\\hl{2}{6}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you cross-multiply, and how do you collect the x terms?",
+      "title": "Cross-multiply and solve",
+      "lines": [
+       {
+        "tex": "6\\hl{3}{x} &= \\hl{1}{4}(\\hl{4}{15 - x})"
+       },
+       {
+        "tex": "10\\hl{3}{x} &= 60"
+       },
+       {
+        "tex": "\\hl{3}{x} &= \\hl{3}{6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{|AE| = 6} \\text{ cm}",
+    "graph": null
+   }
+  ]
+ }
+]

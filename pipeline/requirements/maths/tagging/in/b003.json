@@ -1,0 +1,364 @@
+[
+ {
+  "part": "maths-pp-2015-ordinary-p1-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths2"
+  ],
+  "marks": 15,
+  "solution": "## Multiply out each bracket\n3(4-5x) - 2(5-6x) &= 12 - 15x - 10 + 12x\n## Collect like terms\n&= (12-10) + (-15x+12x)\n&= 2 - 3x\nANSWER: 2-3x"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths3"
+  ],
+  "marks": 5,
+  "solution": "## Subtract 2 from both sides\n2 - 3x &\\ge -6\n-3x &\\ge -8\n## Divide by -3 and reverse the inequality\nDividing by a negative number reverses the inequality sign.\nx &\\le \\frac{8}{3}\n## List the natural numbers up to 8/3\n$\\frac{8}{3} = 2.67$, and $x \\in \\mathbb{N}$ means $x$ is a natural number: $1, 2, 3, \\ldots$\nx &\\in \\{1, 2\\}\nThe marking scheme also accepts $\\{0, 1, 2\\}$.\nANSWER: x = 1, 2"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths2",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Let g(x) be a linear expression\n$15x^2$ divided by $-3x$ gives a term in $x$, so $g(x) = Ax + B$.\n(2-3x)(Ax+B) &= 15x^2 - 22x + 8\n## Multiply out the brackets\n2Ax + 2B - 3Ax^2 - 3Bx &= 15x^2 - 22x + 8\n## Compare the constant terms\n2B &= 8\nB &= 4\n## Compare the x² terms\n-3A &= 15\nA &= -5\n## Write g(x)\ng(x) &= -5x + 4\nANSWER: g(x) = -5x + 4"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 15,
+  "solution": "## Write down a, b and c and the formula\nHere $a = -1$, $b = 6$, $c = -4$.\nx &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n&= \\frac{-6 \\pm \\sqrt{6^2 - 4(-1)(-4)}}{2(-1)}\n## Simplify the square root\n&= \\frac{-6 \\pm \\sqrt{36 - 16}}{-2}\n&= \\frac{-6 \\pm \\sqrt{20}}{-2}\n&= \\frac{-6 \\pm 2\\sqrt{5}}{-2}\n&= 3 \\mp \\sqrt{5}\n## Find both solutions\nx &= 3 + \\sqrt{5} = 5.2360\\ldots\nx &= 3 - \\sqrt{5} = 0.7639\\ldots\n## Round to one decimal place\nx &= 5.2\nx &= 0.8\nANSWER: x = 5.2 \\text{ or } x = 0.8"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate and set the derivative equal to zero\nAt a turning point the slope is zero.\nf(x) &= -x^2 + 6x - 4\nf'(x) &= -2x + 6\n-2x + 6 &= 0\n## Solve for x\n-2x &= -6\nx &= 3\n## Find the y-co-ordinate\nf(3) &= -(3)^2 + 6(3) - 4\n&= -9 + 18 - 4\n&= 5\nANSWER: (3, 5)"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q4#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Mark the points from parts (a) and (b)\nThe curve cuts the x-axis at $0.8$ and $5.2$, and the turning point is $(3, 5)$.\n## Choose the shape\nThe $x^2$ term is negative, so the curve is an upside-down U with its maximum at $(3, 5)$.\n## Draw the curve through the three points\nThe curve is symmetric about $x = 3$. Mark the scale 1 to 6 on both axes.\nANSWER: \\text{Sketch: maximum } (3, 5), \\text{ roots } 0.8 \\text{ and } 5.2"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Set g(x) equal to f(x)\nx + 3 &= 5x - x^2\n## Move everything to one side\nx^2 + x - 5x + 3 &= 0\nx^2 - 4x + 3 &= 0\n## Factorise\n(x-1)(x-3) &= 0\n## Solve for x\nx &= 1 \\text{ or } x = 3\n## Find the y-co-ordinates using g(x) = x + 3\ng(1) &= 1 + 3 = 4\ng(3) &= 3 + 3 = 6\nANSWER: A(1, 4),\\ B(3, 6)"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q5#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15",
+   "maths14",
+   "maths7",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Plot the four points\n$O(0,0)$, $C(5,0)$, $B(3,6)$ and $A(1,4)$.\n## Join them in order O, C, B, A\nDraw $OC$ along the x-axis, then $CB$, $BA$ and $AO$.\n## Split OCBA into a triangle, a trapezium and a triangle\nDrop perpendiculars from $A$ and $B$ to the x-axis, meeting it at $D(1,0)$ and $E(3,0)$.\n\\text{Area} &= |\\triangle ODA| + |ADEB| + |\\triangle BEC|\n## Triangle ODA has base 1 and height 4\n|\\triangle ODA| &= \\frac{1}{2}(1)(4)\n&= 2\n## Trapezium ADEB has parallel sides 4 and 6, width 2\n|ADEB| &= \\frac{1}{2}(4+6)(2)\n&= 10\n## Triangle BEC has base 2 and height 6\n|\\triangle BEC| &= \\frac{1}{2}(2)(6)\n&= 6\n## Add the three areas\n\\text{Area} &= 2 + 10 + 6\n&= 18 \\text{ square units}\nANSWER: 18 \\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q6#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 15,
+  "solution": "## Read the coordinates of z_1\n$z_1$ sits 3 units right of the imaginary axis and 1 unit up.\nz_1 &= 3 + 1i\nCompare with $z_1 = a + bi$.\n## Reflect z_1 in the real axis\nReflecting in the real axis keeps the real part and changes the sign of the imaginary part.\nz_2 &= 3 - 1i\nCompare with $z_2 = c + di$.\nANSWER: a = 3,\\ b = 1,\\ c = 3,\\ d = -1"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q6#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10",
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find the modulus of z_1 and z_2\n|z_1| &= \\sqrt{3^2 + 1^2}\n&= \\sqrt{10}\n$|z_2| = \\sqrt{3^2+(-1)^2} = \\sqrt{10}$ as well.\n## Find the distance between z_1 and z_2\n$z_1 = (3, 1)$ and $z_2 = (3, -1)$.\n|z_1 - z_2| &= \\sqrt{(3-3)^2 + (1-(-1))^2}\n&= \\sqrt{0 + 4}\n&= 2\n## Use the cosine rule in the triangle with sides $|z_1|$, $|z_2|$ and 2\nThe side opposite $\\theta$ is 2, so $\\cos\\theta = \\dfrac{|z_1|^2 + |z_2|^2 - 2^2}{2|z_1||z_2|}$.\n\\cos\\theta &= \\frac{10 + 10 - 4}{2\\sqrt{10}\\sqrt{10}}\n&= \\frac{16}{20}\n&= 0.8\nANSWER: \\cos\\theta = 0.8"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q6#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Work out the left-hand side\n|z_1| \\times |z_2| \\times \\cos\\theta &= \\sqrt{10} \\times \\sqrt{10} \\times 0.8\n&= 10 \\times 0.8\n&= 8\n## Work out the right-hand side\nFrom part (a): $a = 3$, $b = 1$, $c = 3$, $d = -1$.\nac + bd &= 3(3) + 1(-1)\n&= 9 - 1\n&= 8\n## Compare\nBoth sides equal 8, so they are equal.\n|z_1| \\times |z_2| \\times \\cos\\theta &= ac + bd\nANSWER: |z_1| \\times |z_2| \\times \\cos\\theta = ac + bd"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q7#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## Spot how each pattern grows\nPattern 1 has 2 rows, pattern 2 has 3 rows, pattern 3 has 4 rows.\nSo pattern 4 has 5 rows. Row $k$ has $k$ black triangles pointing up, with $k-1$ white triangles pointing down between them.\n## Draw the rows of pattern 4\nRows from the top: 1 black; 2 black and 1 white; 3 black and 2 white; 4 black and 3 white; 5 black and 4 white.\nANSWER: \\text{Pattern 4: 5 rows, 15 black and 10 white triangles}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## Count the black triangles\nPattern $n$ has $n+1$ rows, with $1, 2, 3, \\dots$ black triangles in the rows.\nB_2 &= 1+2+3 = 6\nB_3 &= 1+2+3+4 = 10\nB_4 &= 1+2+3+4+5 = 15\nB_5 &= 1+2+3+4+5+6 = 21\n## Count the white triangles\nRow $k$ has $k-1$ white triangles, so the rows have $0, 1, 2, \\dots$ of them.\nW_2 &= 0+1+2 = 3\nW_3 &= 0+1+2+3 = 6\nW_4 &= 0+1+2+3+4 = 10\nW_5 &= 0+1+2+3+4+5 = 15\n## Add black and white for each total\nT_2 &= 6 + 3 = 9\nT_3 &= 10 + 6 = 16\nT_4 &= 15 + 10 = 25\nT_5 &= 21 + 15 = 36\nANSWER: \\text{Black: } 3, 6, 10, 15, 21;\\ \\text{White: } 1, 3, 6, 10, 15;\\ T: 4, 9, 16, 25, 36"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q7#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write the numbers of black triangles\n&3,\\ 6,\\ 10,\\ 15,\\ 21\n## Find the first differences\n6 - 3 &= 3\n10 - 6 &= 4\n15 - 10 &= 5\n21 - 15 &= 6\n## Find the second differences\n4 - 3 &= 1\n5 - 4 &= 1\n6 - 5 &= 1\nThe second difference is constant (always 1), so the sequence is quadratic.\nANSWER: \\text{second difference constant } (=1),\\ \\text{so quadratic}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q7#(d)(i), (ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## Continue the black triangles using the first differences\nThe first differences go up by 1 each time: 3, 4, 5, 6, 7, 8, 9, 10.\nB_6 &= 21 + 7\n&= 28\nB_7 &= 28 + 8\n&= 36\nB_8 &= 36 + 9\n&= 45\nB_9 &= 45 + 10\n&= 55\n## Continue the white triangles the same way\nThe white numbers are the black numbers shifted one place: 1, 3, 6, 10, 15, 21, 28, 36, 45.\nW_9 &= 36 + 9\n&= 45\n## Add black and white for the total\nT_9 &= 55 + 45\n&= 100\nANSWER: B_9 = 55,\\ W_9 = 45,\\ T_9 = 100"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q7#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Spot the pattern in the totals\nThe totals are square numbers.\nT_1 &= 4 = 2^2\nT_2 &= 9 = 3^2\nT_3 &= 16 = 4^2\nThe square is always one more than the pattern number.\nT_n &= (n+1)^2\nANSWER: T_n = (n+1)^2"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q7#(f)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 1 into the formula\nPattern 1 has 3 black triangles, so $B_1 = 3$.\nB_1 &= \\tfrac{1}{2}(1)^2 + \\tfrac{3}{2}(1) + c\n&= \\tfrac{1}{2} + \\tfrac{3}{2} + c\n&= 2 + c\n## Solve for c\n2 + c &= 3\nc &= 1\nANSWER: c = 1"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q7#(g)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Use white = total − black\n$W_n + B_n = T_n$, so $W_n = T_n - B_n$, with $B_n = \\tfrac12 n^2 + \\tfrac32 n + 1$.\nW_n &= (n+1)^2 - \\left(\\tfrac{1}{2}n^2 + \\tfrac{3}{2}n + 1\\right)\n## Expand and simplify\nW_n &= n^2 + 2n + 1 - \\tfrac{1}{2}n^2 - \\tfrac{3}{2}n - 1\n&= \\tfrac{1}{2}n^2 + \\tfrac{1}{2}n\nANSWER: W_n = \\tfrac{1}{2}n^2 + \\tfrac{1}{2}n"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q7#(h)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Find which pattern has 625 triangles\n(n+1)^2 &= 625\n$625 = 25^2$ and $n+1$ is positive.\nn + 1 &= 25\nn &= 24\n## Find the black triangles in pattern 24\nB_{24} &= \\tfrac{1}{2}(24)^2 + \\tfrac{3}{2}(24) + 1\n&= 288 + 36 + 1\n&= 325\n## Find the white triangles\nW_{24} &= 625 - 325\n&= 300\nANSWER: \\text{Black} = 325,\\ \\text{White} = 300"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths4"
+  ],
+  "marks": 15,
+  "solution": "## Substitute x = 1000\np &= 96(1000) - 0.03(1000)^2\n&= 96\\,000 - 30\\,000\n&= 66000\n## Substitute x = 1500\np &= 96(1500) - 0.03(1500)^2\n&= 144\\,000 - 67\\,500\n&= 76500\n## Substitute x = 2000\np &= 96(2000) - 0.03(2000)^2\n&= 192\\,000 - 120\\,000\n&= 72000\n## Substitute x = 2500\np &= 96(2500) - 0.03(2500)^2\n&= 240\\,000 - 187\\,500\n&= 52500\n## Complete the table\nThe table is completed with 66 000, 76 500, 72 000 and 52 500.\nANSWER: 66\\,000,\\ 76\\,500,\\ 72\\,000,\\ 52\\,500"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q8#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths4"
+  ],
+  "marks": 15,
+  "solution": "## Plot the points from the table\nPlot $(500, 40\\,500)$, $(1000, 66\\,000)$, $(1500, 76\\,500)$, $(2000, 72\\,000)$ and $(2500, 52\\,500)$.\n## Join with a smooth curve\nThe profit function is a quadratic with a negative $x^2$ term, so the graph is a smooth upside-down U shape. Its highest point is at $x = 1600$.\nANSWER: \\text{smooth }\\cap\\text{-shaped curve through the plotted points}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q8#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Read the profit at x = 1750\nDraw a line up from 1750 to the curve, then across to the vertical axis. It reads about €76 000.\nCheck by substituting $x = 1750$.\np &= 96(1750) - 0.03(1750)^2\n&= 168\\,000 - 91\\,875\n&= 76\\,125\n## Read the values of x where p = €60 000\nDraw a horizontal line across from 60 000 on the vertical axis. It meets the curve twice.\nDraw lines straight down from those two points to the horizontal axis.\nx &\\approx 850 \\text{ or } x \\approx 2350\nANSWER: \\text{€}76\\,125;\\ 850 \\text{ or } 2350"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q8#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate the profit function\np &= 96x - 0.03x^2\n\\frac{dp}{dx} &= 96 - 0.06x\n## Set the derivative equal to zero\nThe maximum is where the slope is zero.\n96 - 0.06x &= 0\n0.06x &= 96\nx &= \\frac{96}{0.06}\nx &= 1600\nANSWER: 1600 \\text{ barrels}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q8#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 1600 into p\np &= 96(1600) - 0.03(1600)^2\n&= 153\\,600 - 76\\,800\n&= 76\\,800\nANSWER: \\text{€}76\\,800"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q8#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Find when the profit is zero\nNo profit means $p = 0$.\n96x - 0.03x^2 &= 0\nx(96 - 0.03x) &= 0\nx = 0 \\ \\text{ or } \\ 96 - 0.03x &= 0\nx = 0 \\ \\text{ or } \\ x &= 3200\n## Choose the right value\n$x = 0$ means no barrels traded, so $k$ is the other value.\nANSWER: k = 3200"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths13"
+  ],
+  "marks": 15,
+  "solution": "## Read the times from the graph\nGo across from €15 000 to the curve, then down: about 2.3 years.\nGo across from €10 000 to the curve, then down: about 4.1 years.\n## Subtract\n4.1 - 2.3 &= 1.8\n&= 1.8\nANSWER: 1.8 \\text{ years}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find the pattern in the curve\n$\\dfrac{20\\,000}{25\\,000} = 0.8$ and $\\dfrac{16\\,000}{20\\,000} = 0.8$, so the value is multiplied by 0.8 each year.\nContinue the curve smoothly down through years 7 and 8.\n## Read the value at 7.5 years\nGo up from 7.5 on the horizontal axis to the curve, then across to the value axis.\nCheck with the formula $V = 25\\,000(0.8)^t$.\nV &= 25\\,000(0.8)^{7.5}\n&\\approx 4689\nThis agrees with the graph reading of about €4700.\nANSWER: \\text{about €}4700"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q9#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Name the curve\nA quantity that is multiplied by the same factor (0.8) every year follows an exponential curve.\nANSWER: \\text{Exponential}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q9#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find the fuel cost per km for each car\nA litre costs €1.50 = 150 cent.\n\\text{Amanda: } \\frac{150}{15} &= 10 \\text{ cent per km}\n\\text{Cathal: } \\frac{150}{10} &= 15 \\text{ cent per km}\nSo Amanda pays €0.10 per km and Cathal pays €0.15 per km.\n## Write the total cost of each car after k km\nTotal cost = price of car + fuel cost. Let $k$ be the number of km.\n\\text{Amanda total} &= 25\\,000 + 0.10k\n\\text{Cathal total} &= 22\\,500 + 0.15k\n## Set the two costs equal\n25\\,000 + 0.10k &= 22\\,500 + 0.15k\n## Solve for k\nCollect the numbers on the left and the $k$ terms on the right.\n25\\,000 - 22\\,500 &= 0.15k - 0.10k\n2500 &= 0.05k\nk &= \\frac{2500}{0.05}\nk &= 50\\,000\nANSWER: 50\\,000 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Count the choices for each digit\nEach of the 6 positions can be any digit from 0 to 9, and digits may repeat, so each position has 10 choices.\n\\text{Number of passwords} &= 10 \\times 10 \\times 10 \\times 10 \\times 10 \\times 10\n&= 10^6\n&= 1\\,000\\,000\nANSWER: 1\\,000\\,000"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q1#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Count the passwords with no zero\nWith no zero allowed, each position has 9 choices (the digits 1 to 9).\n\\text{No zero} &= 9 \\times 9 \\times 9 \\times 9 \\times 9 \\times 9\n&= 9^6\n&= 531\\,441\n## Find the probability of at least one zero\n\"At least one zero\" is the opposite of \"no zero\".\nP(\\text{at least one zero}) &= 1 - P(\\text{no zero})\n&= 1 - \\frac{531\\,441}{1\\,000\\,000}\n&= \\frac{468\\,559}{1\\,000\\,000}\n&= 0.468559\nANSWER: 9^6 = 531\\,441, \\quad P = \\frac{468\\,559}{1\\,000\\,000} = 0.468559"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Choose 3 of the 6 boxes\nThe order does not matter, only which 3 boxes are chosen.\n\\binom{6}{3} &= \\frac{6!}{3!\\,3!}\n&= \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1}\n&= \\frac{120}{6}\n&= 20\nANSWER: 20"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q2#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of p\nEqual intercepts: $A$ is $(-k, 0)$ and $B$ is $(0, k)$ for some $k > 0$.\nm &= \\frac{k - 0}{0 - (-k)}\n&= \\frac{k}{k}\n&= 1\n## Write the equation using the point (1, 5)\ny - y_1 &= m(x - x_1)\ny - 5 &= 1(x - 1)\ny - 5 &= x - 1\n0 &= x - y + 4\nANSWER: \\text{slope} = 1, \\quad x - y + 4 = 0"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of q\nPerpendicular lines have slopes with product $-1$. The slope of $p$ is $1$.\nm_1 \\times m_2 &= -1\n1 \\times m_2 &= -1\nm_2 &= -1\n## Write the equation through O(0, 0)\ny - y_1 &= m(x - x_1)\ny - 0 &= -1(x - 0)\ny &= -x\nx + y &= 0\nANSWER: x + y = 0"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Pick out the matching parts of the two triangles\n$|OA| = |OB|$, because $p$ makes equal intercepts on the axes.\n$|OC| = |OC|$, because it is a common side.\n$|\\angle OCA| = |\\angle BCO| = 90^\\circ$, because $q \\perp p$ and $C$ lies on both lines.\n## State the congruence\nEach triangle has a right angle, a hypotenuse ($[OA]$ and $[OB]$ are equal) and one other equal side ($[OC]$).\nThis is the RHS (right angle, hypotenuse, side) condition, so the triangles $OCA$ and $OBC$ are congruent.\nANSWER: \\triangle OCA \\equiv \\triangle OBC \\text{ (RHS)}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Read off the centre and radius\n$x^2 + y^2 = r^2$ is a circle with centre $(0, 0)$.\nr^2 &= 25\nr &= \\sqrt{25}\nr &= 5\n## Scale the axes and draw the circle\nUse 1 unit per grid mark on both axes, from $-6$ to $6$.\nThe circle passes through $(5, 0)$, $(-5, 0)$, $(0, 5)$ and $(0, -5)$. Draw a smooth curve through these four points, centred on the origin.\nANSWER: \\text{Circle, centre } (0,0), \\text{ radius } 5"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Substitute A(-4, 3) into the left side\n$A$ is on $c$ if $x^2 + y^2 = 25$ when $x = -4$ and $y = 3$.\n(-4)^2 + 3^2 &= 16 + 9\n&= 25\nThis equals the right-hand side, so $A$ is on $c$.\nANSWER: (-4)^2 + 3^2 = 25 \\;\\therefore\\; A \\text{ is on } c"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p2-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find the radius\nThe radius is the distance from the centre $(-4, 3)$ to the point $(3, 4)$.\nr &= \\sqrt{(3-(-4))^2 + (4-3)^2}\n&= \\sqrt{7^2 + 1^2}\n&= \\sqrt{49 + 1}\n&= \\sqrt{50}\n## Write the equation of the circle\n(x-h)^2 + (y-k)^2 &= r^2\n(x+4)^2 + (y-3)^2 &= (\\sqrt{50})^2\n(x+4)^2 + (y-3)^2 &= 50\nANSWER: (x+4)^2 + (y-3)^2 = 50"
+ }
+]

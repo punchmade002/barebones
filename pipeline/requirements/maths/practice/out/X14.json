@@ -1,0 +1,377 @@
+[
+ {
+  "skill": "stat-sd",
+  "problems": [
+   {
+    "question": "The number of minutes late that 8 trains arrived at a station is\n$3,\\ 5,\\ 5,\\ 5,\\ 6,\\ 6,\\ 8,\\ 10$\nUse your calculator to find the standard deviation $\\sigma$ of these values.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the calculator in statistics mode",
+       "lines": [
+        {
+         "text": "Enter the 8 values into the calculator and read off the population standard deviation $\\sigma$."
+        }
+       ]
+      },
+      {
+       "title": "Read off the answer",
+       "lines": [
+        {
+         "tex": "\\sigma &= 2",
+         "sym": "2",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2"
+    },
+    "finalSym": "2",
+    "answerSym": "sqrt(Rational(9+25+25+25+36+36+64+100,8) - Rational(48,8)**2)"
+   },
+   {
+    "question": "A caf\u00e9 records how many minutes each of 12 customers waited for their order.\n\n| Minutes | 3 | 6 | 9 | 12 | 15 |\n| Customers | 1 | 2 | 6 | 2 | 1 |\n\nUse your calculator to find the standard deviation $\\sigma$ of the waiting time.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the calculator in statistics mode",
+       "lines": [
+        {
+         "text": "Enter the minutes as the values and the number of customers as their frequencies, then read off the population standard deviation $\\sigma$."
+        }
+       ]
+      },
+      {
+       "title": "Read off the answer",
+       "lines": [
+        {
+         "tex": "\\sigma &= 3",
+         "sym": "3",
+         "new": true
+        },
+        {
+         "text": "The standard deviation is 3 minutes."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3"
+    },
+    "finalSym": "3",
+    "answerSym": "sqrt(Rational(1*9+2*36+6*81+2*144+225,12) - 9**2)"
+   }
+  ]
+ },
+ {
+  "skill": "stat-srs-bias",
+  "problems": [
+   {
+    "question": "A radio station wants to know what the 2500 adults in a town think of a new library opening time. It asks listeners to vote on its website. 600 of the adults in the town do not use the internet.\nExplain why this method is biased, and write the percentage of the adults who are left out.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Spot the bias",
+       "lines": [
+        {
+         "text": "A website vote leaves out adults who do not use the internet, so the sample is biased."
+        }
+       ]
+      },
+      {
+       "title": "Write those left out as a fraction",
+       "lines": [
+        {
+         "tex": "\\frac{600}{2500} &= \\frac{6}{25}",
+         "sym": "Rational(600,2500)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Convert to a percentage",
+       "lines": [
+        {
+         "tex": "\\frac{6}{25} \\times 100 &= 24",
+         "sym": "Rational(6,25)*100",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "24\\%"
+    },
+    "finalSym": "24",
+    "answerSym": "Rational(600,2500)*100"
+   }
+  ]
+ },
+ {
+  "skill": "trig-graph",
+  "problems": [
+   {
+    "question": "Copy and complete the table of values of $g(x) = 1 - 2\\sin x$, where $x$ is in radians.\n\n| $x$ | $0$ | $\\frac{\\pi}{6}$ | $\\frac{\\pi}{2}$ | $\\frac{5\\pi}{6}$ | $\\pi$ | $\\frac{7\\pi}{6}$ | $\\frac{3\\pi}{2}$ | $\\frac{11\\pi}{6}$ | $2\\pi$ |\n| $g(x)$ | | | | | | | | | |\n\nHence plot the graph of $g(x)$ for $0 \\le x \\le 2\\pi$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use g(x) = 1 - 2sin x at each x",
+       "lines": [
+        {
+         "text": "Work in radians. Find $g(x)$ at $x = 0, \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\pi, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}, \\frac{11\\pi}{6}, 2\\pi$."
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = 0$",
+       "lines": [
+        {
+         "tex": "g\\left(0\\right) &= 1 - 2\\sin\\left(0\\right)",
+         "sym": "1 - 2*sin(0)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - 2\\left(0\\right)",
+         "sym": "1 - 2*(0)"
+        },
+        {
+         "tex": "&= 1",
+         "sym": "1"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\frac{\\pi}{6}$",
+       "lines": [
+        {
+         "tex": "g\\left(\\frac{\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{\\pi}{6}\\right)",
+         "sym": "1 - 2*sin(pi/6)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)",
+         "sym": "1 - 2*(Rational(1,2))"
+        },
+        {
+         "tex": "&= 0",
+         "sym": "0"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\frac{\\pi}{2}$",
+       "lines": [
+        {
+         "tex": "g\\left(\\frac{\\pi}{2}\\right) &= 1 - 2\\sin\\left(\\frac{\\pi}{2}\\right)",
+         "sym": "1 - 2*sin(pi/2)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - 2\\left(1\\right)",
+         "sym": "1 - 2*(1)"
+        },
+        {
+         "tex": "&= -1",
+         "sym": "-1"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\frac{5\\pi}{6}$",
+       "lines": [
+        {
+         "tex": "g\\left(\\frac{5\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{5\\pi}{6}\\right)",
+         "sym": "1 - 2*sin(5*pi/6)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)",
+         "sym": "1 - 2*(Rational(1,2))"
+        },
+        {
+         "tex": "&= 0",
+         "sym": "0"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\pi$",
+       "lines": [
+        {
+         "tex": "g\\left(\\pi\\right) &= 1 - 2\\sin\\left(\\pi\\right)",
+         "sym": "1 - 2*sin(pi)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - 2\\left(0\\right)",
+         "sym": "1 - 2*(0)"
+        },
+        {
+         "tex": "&= 1",
+         "sym": "1"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\frac{7\\pi}{6}$",
+       "lines": [
+        {
+         "tex": "g\\left(\\frac{7\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{7\\pi}{6}\\right)",
+         "sym": "1 - 2*sin(7*pi/6)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)",
+         "sym": "1 - 2*(-Rational(1,2))"
+        },
+        {
+         "tex": "&= 2",
+         "sym": "2"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\frac{3\\pi}{2}$",
+       "lines": [
+        {
+         "tex": "g\\left(\\frac{3\\pi}{2}\\right) &= 1 - 2\\sin\\left(\\frac{3\\pi}{2}\\right)",
+         "sym": "1 - 2*sin(3*pi/2)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - 2\\left(-1\\right)",
+         "sym": "1 - 2*(-1)"
+        },
+        {
+         "tex": "&= 3",
+         "sym": "3"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\frac{11\\pi}{6}$",
+       "lines": [
+        {
+         "tex": "g\\left(\\frac{11\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{11\\pi}{6}\\right)",
+         "sym": "1 - 2*sin(11*pi/6)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)",
+         "sym": "1 - 2*(-Rational(1,2))"
+        },
+        {
+         "tex": "&= 2",
+         "sym": "2"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = 2\\pi$",
+       "lines": [
+        {
+         "tex": "g\\left(2\\pi\\right) &= 1 - 2\\sin\\left(2\\pi\\right)",
+         "sym": "1 - 2*sin(2*pi)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - 2\\left(0\\right)",
+         "sym": "1 - 2*(0)"
+        },
+        {
+         "tex": "&= 1",
+         "sym": "1"
+        }
+       ]
+      },
+      {
+       "title": "Plot the nine points and join them",
+       "lines": [
+        {
+         "text": "Plot $(0,1), (\\frac{\\pi}{6},0), (\\frac{\\pi}{2},-1), (\\frac{5\\pi}{6},0), (\\pi,1), (\\frac{7\\pi}{6},2), (\\frac{3\\pi}{2},3), (\\frac{11\\pi}{6},2), (2\\pi,1)$."
+        },
+        {
+         "text": "Join them with a smooth wave: it falls from 1 to a minimum of $-1$ at $x = \\frac{\\pi}{2}$, rises to a maximum of 3 at $x = \\frac{3\\pi}{2}$ and returns to 1."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Table: } 1,\\ 0,\\ -1,\\ 0,\\ 1,\\ 2,\\ 3,\\ 2,\\ 1"
+    },
+    "finalSym": "[1, 0, -1, 0, 1, 2, 3, 2, 1]",
+    "answerSym": "[1 - 2*sin(0), 1 - 2*sin(pi/6), 1 - 2*sin(pi/2), 1 - 2*sin(5*pi/6), 1 - 2*sin(pi), 1 - 2*sin(7*pi/6), 1 - 2*sin(3*pi/2), 1 - 2*sin(11*pi/6), 1 - 2*sin(2*pi)]"
+   }
+  ]
+ },
+ {
+  "skill": "trig-graph-abc",
+  "problems": [
+   {
+    "question": "The height, in metres, of a seat on a Ferris wheel above the ground, $t$ seconds after the ride starts, is\n$h(t) = 8 - 6\\sin\\left(\\frac{\\pi t}{10}\\right)$, where the angle is in radians.\nFind the period and the range of $h$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the period",
+       "lines": [
+        {
+         "text": "For $\\sin(ct)$ the period is $\\dfrac{2\\pi}{c}$. Here $c = \\dfrac{\\pi}{10}$."
+        },
+        {
+         "tex": "\\text{Period} &= \\frac{2\\pi}{\\pi/10}",
+         "sym": "2*pi/(pi/10)",
+         "new": true
+        },
+        {
+         "tex": "&= 2\\pi \\times \\frac{10}{\\pi}",
+         "sym": "2*pi*10/pi"
+        },
+        {
+         "tex": "&= 20\\text{ seconds}",
+         "sym": "20"
+        }
+       ]
+      },
+      {
+       "title": "Find the range",
+       "lines": [
+        {
+         "text": "$\\sin$ always lies between $-1$ and $1$, so the $-6\\sin(\\cdot)$ term lies between $-6$ and $6$."
+        },
+        {
+         "tex": "\\text{Minimum} &= 8 - 6",
+         "sym": "8-6",
+         "new": true
+        },
+        {
+         "tex": "&= 2",
+         "sym": "2"
+        },
+        {
+         "tex": "\\text{Maximum} &= 8 + 6",
+         "sym": "8+6",
+         "new": true
+        },
+        {
+         "tex": "&= 14",
+         "sym": "14"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Period} = 20\\text{ seconds},\\quad \\text{Range} = [2,\\,14]\\text{ m}"
+    },
+    "finalSym": "[20, 2, 14]",
+    "answerSym": "[2*pi/(pi/10), 8 - Abs(-6), 8 + Abs(-6)]"
+   }
+  ]
+ }
+]

@@ -1,0 +1,489 @@
+[
+ {
+  "skill": "stat-normal-prob",
+  "what": {
+   "say": [
+    "You give it a normal variable $X$ and an interval, like $P(X > 512)$. It gives back a **probability** read from the tables.",
+    "The key idea: the tables only give the area to the **left** of a $z$-value. Turn $x$ into $z$, look up the left area, then use $1 - P$ or symmetry for anything else."
+   ],
+   "in": "$X \\sim N(\\mu, \\sigma)$, interval",
+   "out": "probability"
+  },
+  "how": {
+   "higher": "Higher level asks for it every year on Paper 2, usually as a 5 or 10-mark part of the normal distribution question (for example $P(x > 240)$ in 2022), and again inside hypothesis tests."
+  },
+  "example": {
+   "question": "The mass of a bag of sugar is normally distributed with mean $500$ g and standard deviation $8$ g. Find the probability that a bag has mass greater than $512$ g.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the z-score",
+      "say": "Standardise $512$. Subtract the mean, then divide by the standard deviation. This gives $\\hl{1}{z}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{z} &= \\frac{x - \\mu}{\\sigma} = \\frac{512 - 500}{8}",
+        "sym": "(512-500)/8",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{12}{8}",
+        "sym": "12/8"
+       },
+       {
+        "tex": "&= 1.5",
+        "sym": "3/2"
+       }
+      ]
+     },
+     {
+      "title": "Look up the left area",
+      "say": "The tables give $P(z < \\hl{1}{1.5})$, the area to the **left**. Find $1.5$ down the side and read across.",
+      "lines": [
+       {
+        "tex": "P(z < \\hl{1}{1.5}) &= \\hl{2}{0.9332}",
+        "sym": "0.9332",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use 1 minus the table value",
+      "say": "We want the area to the **right** of $\\hl{1}{1.5}$. The whole area is $1$, so take away $\\hl{2}{0.9332}$.",
+      "lines": [
+       {
+        "tex": "P(X > 512) &= P(z > 1.5)"
+       },
+       {
+        "tex": "&= 1 - \\hl{2}{0.9332}",
+        "sym": "1-0.9332",
+        "new": true
+       },
+       {
+        "tex": "&= 0.0668",
+        "sym": "0.0668"
+       },
+       {
+        "text": "That is about $6.7\\%$ of bags."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "0.0668"
+   },
+   "finalSym": "0.0668",
+   "answerSym": "1 - (1 + erf((512-500)/8/sqrt(2)))/2"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Draw the normal curve and shade the area you want. A relevant diagram earns partial credit, and it stops you using the wrong side of the table.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q10#(a)(i)",
+       "quote": "relevant diagram drawn"
+      },
+      {
+       "part": "maths-pp-2025-higher-p2-q10#(a)(ii)",
+       "quote": "normal curve"
+      }
+     ]
+    },
+    {
+     "tip": "Write down the mean and the standard deviation first. Naming them earns marks before any calculation.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(a)(ii)",
+       "quote": "Mean or standard deviation"
+      }
+     ]
+    },
+    {
+     "tip": "Write the table value you read, even if you go no further. A probability found directly from the tables earns credit on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(a)(ii)",
+       "quote": "One relevant probability found"
+      },
+      {
+       "part": "maths-pp-2016-higher-p2-q9#(a)(i)",
+       "quote": "identifies 0·9441"
+      }
+     ]
+    },
+    {
+     "tip": "Round $z$ to two decimal places before the lookup. A neighbouring table value, like $0.30$ for $0.31$, is accepted.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(a)(ii)",
+       "quote": "Also accept use of"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "stat-normal-inverse",
+  "what": {
+   "say": [
+    "You give it a probability, like the top $20\\%$, and the mean and standard deviation. It gives back the **mark** $x$ that fits.",
+    "The key idea: this is the tables run backwards. Turn the percentage into a left area, find that area **inside** the table to get $z$, then put $z$ into $z = \\frac{x - \\mu}{\\sigma}$ and solve for $x$."
+   ],
+   "out": "the value $x$",
+   "in": "probability, $\\mu$, $\\sigma$"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 2 in most years, as a part of its own worth 5 to 15 marks: find the cut-off for the top or bottom percentage (the oldest $10\\%$, the top $10\\%$ of marks)."
+  },
+  "example": {
+   "question": "The marks in an exam are normally distributed with mean $58$ and standard deviation $9$. The top $20\\%$ of students get a distinction. Find the lowest mark that gets a distinction, to the nearest whole number.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn it into a left area",
+      "say": "Top $20\\%$ means $80\\%$ of students are below the cut-off. So the left area is $0.8$.",
+      "lines": [
+       {
+        "tex": "P(z < \\hl{1}{z}) &= 0.8"
+       }
+      ]
+     },
+     {
+      "title": "Find z inside the table",
+      "say": "Look **inside** the table for the area closest to $0.8$. Read $\\hl{1}{z}$ from the edge.",
+      "lines": [
+       {
+        "text": "The closest entry is $0.7995$."
+       },
+       {
+        "tex": "\\hl{1}{z} &= 0.84",
+        "sym": "0.84",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the equation in x",
+      "say": "Put $\\hl{1}{0.84}$, the mean and the standard deviation into $z = \\frac{x - \\mu}{\\sigma}$. Then solve for $\\hl{2}{x}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{0.84} &= \\frac{\\hl{2}{x} - 58}{9}",
+        "sym": "Eq(0.84,(x-58)/9)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{x} - 58 &= 0.84(9)",
+        "sym": "Eq(x-58,0.84*9)"
+       },
+       {
+        "tex": "\\hl{2}{x} &= 58 + 7.56",
+        "sym": "Eq(x,58+7.56)"
+       },
+       {
+        "tex": "&= 65.56",
+        "sym": "Eq(x,65.56)"
+       }
+      ]
+     },
+     {
+      "title": "Round to a whole mark",
+      "say": "The question wants a whole mark. $65$ would be just short, so round up to $66$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{x} &\\approx 66",
+        "sym": "66",
+        "new": true,
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "66"
+   },
+   "finalSym": "66",
+   "answerSym": "ceiling(58 + 9*sqrt(2)*erfinv(2*Rational(8,10)-1))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Say what the percentage means in terms of the left area. Writing that the top $10\\%$ is $90\\%$ below is work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(a)(i)",
+       "quote": "Top 10% means 90% below."
+      },
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(a)(ii)",
+       "quote": "mentions 90%"
+      }
+     ]
+    },
+    {
+     "tip": "Either neighbouring table value is accepted, for example $z = 1.28$ or $1.29$. Pick one and carry on.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(a)(ii)",
+       "quote": "(or 1·29)"
+      },
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(a)(i)",
+       "quote": "Note: Accept use of"
+      }
+     ]
+    },
+    {
+     "tip": "Write the equation in $x$ with $z$ in it. It is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(a)(ii)",
+       "quote": "Writes equation in"
+      }
+     ]
+    },
+    {
+     "tip": "Check the rounding the question asks for. Wrong or missing rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(a)(ii)",
+       "quote": "Apply a * for incorrect or no"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-radians",
+  "what": {
+   "say": [
+    "You give it an angle in degrees or in radians. It gives back the same angle in the **other** unit.",
+    "The key idea: $180^\\circ = \\pi$ radians. To go to radians multiply by $\\frac{\\pi}{180}$. To go to degrees multiply by $\\frac{180}{\\pi}$."
+   ],
+   "in": "angle in degrees",
+   "out": "angle in radians"
+  },
+  "how": {
+   "higher": "Higher level uses it most years as a step inside bigger parts worth 5 to 10 marks: a sector angle in radians, or a function like $V = 2 - 0.4\\cos\\frac{\\pi}{2}t$ evaluated with the calculator in radian mode."
+  },
+  "example": {
+   "question": "A sector of a circle has radius $6$ cm and angle $150^\\circ$. (i) Write $150^\\circ$ in radians. (ii) Find the area of the sector, in terms of $\\pi$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Convert to radians",
+      "say": "Multiply the angle in degrees by $\\frac{\\pi}{180}$. Cancel the fraction.",
+      "lines": [
+       {
+        "tex": "150^\\circ &= 150 \\times \\frac{\\pi}{180}",
+        "sym": "150*pi/180",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{5\\pi}{6}}",
+        "sym": "5*pi/6"
+       }
+      ]
+     },
+     {
+      "title": "Choose the area formula",
+      "say": "The sector area formula $\\frac{1}{2}r^2\\theta$ needs $\\theta$ in **radians**. Use $\\hl{1}{\\frac{5\\pi}{6}}$, not $150$.",
+      "lines": [
+       {
+        "tex": "A &= \\frac{1}{2}r^2\\theta",
+        "sym": "r**2*theta/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute and simplify",
+      "say": "Put in $r = 6$ and $\\theta = \\hl{1}{\\frac{5\\pi}{6}}$.",
+      "lines": [
+       {
+        "tex": "A &= \\frac{1}{2}(6)^2\\left(\\hl{1}{\\frac{5\\pi}{6}}\\right)",
+        "sym": "(1/2)*6**2*(5*pi/6)",
+        "new": true
+       },
+       {
+        "tex": "&= 18 \\times \\frac{5\\pi}{6}",
+        "sym": "18*(5*pi/6)"
+       },
+       {
+        "tex": "&= 15\\pi \\text{ cm}^2",
+        "sym": "15*pi"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{5\\pi}{6}, \\; 15\\pi \\text{ cm}^2"
+   },
+   "finalSym": "15*pi",
+   "answerSym": "Rational(1,2)*6**2*(150*pi/180)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Put the calculator in radian mode when the angle has $\\pi$ in it. Using degrees is a named error.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q7#(e)(i)",
+       "quote": "Calculator in incorrect mode"
+      },
+      {
+       "part": "maths-pp-2019-higher-p1-q8#(a)",
+       "quote": "Uses degrees as unit of"
+      }
+     ]
+    },
+    {
+     "tip": "Give the period and the range separately, the right way round. Swapping them costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q9#(b)(iii)",
+       "quote": "period and range swapped"
+      },
+      {
+       "part": "maths-pp-2022-higher-p1-q8#(a), (b)",
+       "quote": "Period and range correct, but"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula with the numbers substituted before you use the calculator. Substitution earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q9#(b)(iii)",
+       "quote": "Formula with full substitution"
+      },
+      {
+       "part": "maths-pp-2019-higher-p1-q8#(a)",
+       "quote": "Correct substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Give the units and round as the question asks. Missing units or wrong rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q7#(e)(i)",
+       "quote": "No units or incorrect units"
+      },
+      {
+       "part": "maths-pp-2023-higher-p2-q7#(e)(i)",
+       "quote": "No rounding or incorrect rounding"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-unit-circle",
+  "what": {
+   "say": [
+    "You give it any angle, like $240^\\circ$ or $210^\\circ$. It gives back the **value** of $\\sin$, $\\cos$ or $\\tan$, with the right sign.",
+    "The key idea: on the unit circle the point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$. Use the **related angle** to find the size, and the quadrant (CAST) to find the sign."
+   ],
+   "in": "angle $\\theta$",
+   "out": "value with sign"
+  },
+  "how": {
+   "higher": "Higher level asks for it a few times as a 5-mark part on either paper: writing a point on a circle as $(r\\cos\\theta, r\\sin\\theta)$ in 2020, and checking a point such as $(\\cos 135^\\circ, \\sin 135^\\circ)$ in 2023."
+  },
+  "example": {
+   "question": "Find the exact value of $\\cos 210^\\circ$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the quadrant",
+      "say": "$210^\\circ$ is between $180^\\circ$ and $270^\\circ$. That is the third quadrant, where only $\\tan$ is positive. So $\\cos 210^\\circ$ is **negative**.",
+      "lines": [
+       {
+        "text": "CAST: in the third quadrant, $\\sin$ and $\\cos$ are both negative."
+       }
+      ]
+     },
+     {
+      "title": "Find the related angle",
+      "say": "The related angle is the acute angle the line makes with the $x$-axis. In the third quadrant, subtract $180^\\circ$.",
+      "lines": [
+       {
+        "tex": "210 - 180 &= \\hl{1}{30}",
+        "sym": "210-180",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the value",
+      "say": "Take $\\cos \\hl{1}{30^\\circ}$ and put in the **negative** sign from the quadrant.",
+      "lines": [
+       {
+        "tex": "\\cos 210^\\circ &= -\\cos \\hl{1}{30^\\circ}"
+       },
+       {
+        "tex": "&= -\\frac{\\sqrt{3}}{2}",
+        "sym": "-sqrt(3)/2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "-\\frac{\\sqrt{3}}{2}"
+   },
+   "finalSym": "-sqrt(3)/2",
+   "answerSym": "cos(210*pi/180)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Draw the unit circle and the angle. The marking notes tell the examiner to check your drawing for work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q9#(c)(i)",
+       "quote": "Check drawing for relevant"
+      }
+     ]
+    },
+    {
+     "tip": "State which quadrant the point is in. It is what fixes the sign of $x$ and $y$.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q9#(c)(i)",
+       "quote": "But x in 2nd quadrant."
+      }
+     ]
+    },
+    {
+     "tip": "Never write only the answer. A correct answer without work earns only high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q8#(a)(i)",
+       "quote": "Correct answer without work"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

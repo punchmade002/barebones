@@ -1,0 +1,316 @@
+[
+ {
+  "skill": "geo-thm19",
+  "of": "22792b0c0988",
+  "title": "Apply Theorem 19: Angle at the centre is twice the angle at the circle",
+  "show": "circle with centre O, points A,B,C on the circle; angle AOB at the centre and angle ACB at the circle on the same arc AB",
+  "example": {
+   "question": "$A$, $B$ and $C$ are points on a circle with centre $O$. The angle at the centre is $|\\angle AOB| = (6x - 10)^\\circ$ and the angle at the circle is $|\\angle ACB| = (2x + 5)^\\circ$. Both stand on the arc $AB$. Find $x$ and $|\\angle ACB|$.",
+   "final": "x = 10, \\ |\\angle ACB| = 25^\\circ",
+   "steps": [
+    {
+     "say": "Both angles stand on the same arc $AB$. $\\hl{1}{|\\angle AOB|}$ is at the centre. $\\hl{2}{|\\angle ACB|}$ is at the circle.",
+     "rows": [
+      {
+       "aside": "Centre: $|\\angle AOB| = 6x - 10$."
+      },
+      {
+       "aside": "Circle: $|\\angle ACB| = 2x + 5$."
+      }
+     ]
+    },
+    {
+     "say": "By Theorem 19, the angle at the centre is twice the angle at the circle. So $\\hl{1}{|\\angle AOB|} = 2\\hl{2}{|\\angle ACB|}$.",
+     "rows": [
+      {
+       "l": "6x - 10",
+       "r": "= 2(2x + 5)"
+      }
+     ]
+    },
+    {
+     "say": "Multiply out the bracket, then collect the $x$ terms on one side.",
+     "rows": [
+      {
+       "l": "6x - 10",
+       "r": "= 4x + 10"
+      },
+      {
+       "l": "2x",
+       "r": "= 20"
+      },
+      {
+       "l": "x",
+       "r": "= 10"
+      }
+     ]
+    },
+    {
+     "say": "Substitute $x = 10$ into the angle at the circle.",
+     "rows": [
+      {
+       "l": "|\\angle ACB|",
+       "r": "= 2(10) + 5"
+      },
+      {
+       "l": "",
+       "r": "= 25^\\circ"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-4",
+  "of": "6978fe076c95",
+  "title": "Construction 4: Line perpendicular to a line l through a point on l",
+  "show": "compass-and-straight-edge construction: line l with point P on it, arcs and the perpendicular through P, with arcs left visible",
+  "example": {
+   "question": "Draw a line $l$ and mark a point $P$ on it. Construct the line through $P$ perpendicular to $l$.",
+   "final": "PQ \\perp l",
+   "steps": [
+    {
+     "say": "Put the compass point on $P$. Draw an arc that cuts $l$ on each side of $P$. Call the points $A$ and $B$.",
+     "rows": [
+      {
+       "aside": "Keep the compass setting the same for both arcs, so $|PA| = |PB|$."
+      }
+     ]
+    },
+    {
+     "say": "Open the compass wider than $|PA|$. With the point on $A$, draw an arc above the line.",
+     "rows": [
+      {
+       "aside": "Do not change the setting yet."
+      }
+     ]
+    },
+    {
+     "say": "Keep the same setting. With the point on $B$, draw an arc that crosses the first one. Call the crossing $Q$.",
+     "rows": [
+      {
+       "aside": "Leave all arcs on the page. They are the construction lines."
+      }
+     ]
+    },
+    {
+     "say": "With the ruler, draw a straight line from $P$ through $Q$.",
+     "rows": [
+      {
+       "aside": "This line $PQ$ meets $l$ at $90^\\circ$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "ineq-linear",
+  "of": "e518cd177cd3",
+  "title": "Solve a linear inequality",
+  "show": "number line with a closed dot at -2 and everything to the left shaded (x≤-2)",
+  "example": {
+   "question": "Solve $4 - 3(x - 1) \\ge 13$, where $x \\in \\mathbb{R}$.",
+   "final": "x \\le -2",
+   "steps": [
+    {
+     "say": "Multiply every term in the bracket by $-3$. Watch the signs.",
+     "rows": [
+      {
+       "l": "4 - 3(x-1)",
+       "r": "\\ge 13"
+      },
+      {
+       "l": "4 - 3x + 3",
+       "r": "\\ge 13"
+      },
+      {
+       "l": "7 - 3x",
+       "r": "\\ge 13"
+      }
+     ]
+    },
+    {
+     "say": "Subtract $7$ from both sides. Do the same thing to both sides and the sign does not change.",
+     "rows": [
+      {
+       "l": "-3x",
+       "r": "\\ge 6"
+      }
+     ]
+    },
+    {
+     "say": "Divide both sides by $-3$. That is a **negative**, so the sign flips from $\\ge$ to $\\le$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{x}",
+       "r": "\\le -2"
+      },
+      {
+       "aside": "Check with $x = -3$: $4 - 3(-4) = 16$, and $16 \\ge 13$. It works."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "ineq-double",
+  "of": "fc946016caf7",
+  "title": "Solve a combined (double) linear inequality",
+  "show": "number line with closed dot at -4 and open dot at 3 and the segment between shaded",
+  "example": {
+   "question": "Solve $-5 \\le 2x + 3 < 9$, where $x \\in \\mathbb{R}$.",
+   "final": "-4 \\le x < 3",
+   "steps": [
+    {
+     "say": "The $x$ is stuck with a $+3$. Subtract $3$ from all three parts, so the inequality stays balanced.",
+     "rows": [
+      {
+       "l": "-5",
+       "r": "\\le 2x + 3 < 9"
+      },
+      {
+       "l": "-8",
+       "r": "\\le 2x < 6"
+      }
+     ]
+    },
+    {
+     "say": "Now divide all three parts by $2$. It is positive, so the signs stay the same way round.",
+     "rows": [
+      {
+       "l": "\\hl{1}{-4}",
+       "r": "\\le x < \\hl{2}{3}"
+      },
+      {
+       "aside": "Dividing by a negative number would flip the signs. Here it does not."
+      }
+     ]
+    },
+    {
+     "say": "$x$ is at least $\\hl{1}{-4}$ and less than $\\hl{2}{3}$. A $\\le$ includes the end point, a $<$ leaves it out.",
+     "rows": [
+      {
+       "aside": "Check $x = 0$: $2(0) + 3 = 3$, and $-5 \\le 3 < 9$. It works."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "ineq-quadratic",
+  "of": "aba83e9b2920",
+  "title": "Solve a quadratic inequality",
+  "show": "upward parabola y=2x²-5x-12 crossing the x-axis at x=-1.5 and 4, with the part on or below the axis shaded and the interval -1.5≤x≤4 marked on a number line",
+  "example": {
+   "question": "Solve $2x^2 - 5x - 12 \\le 0$, where $x \\in \\mathbb{R}$.",
+   "final": "-\\tfrac{3}{2} \\le x \\le 4",
+   "steps": [
+    {
+     "say": "Treat it as an equation first. Factorise $2x^2 - 5x - 12$ to find where it equals zero.",
+     "rows": [
+      {
+       "l": "2x^2 - 5x - 12",
+       "r": "\\le 0"
+      },
+      {
+       "l": "(2x + 3)(x - 4)",
+       "r": "\\le 0"
+      }
+     ]
+    },
+    {
+     "say": "The roots are where each bracket is zero. They are the end points of the interval.",
+     "rows": [
+      {
+       "l": "2x + 3",
+       "r": "= 0 \\quad \\Rightarrow \\quad x = \\hl{1}{-\\tfrac{3}{2}}"
+      },
+      {
+       "l": "x - 4",
+       "r": "= 0 \\quad \\Rightarrow \\quad x = \\hl{2}{4}"
+      }
+     ]
+    },
+    {
+     "say": "The $x^2$ term is positive, so the graph is a U. It dips below the axis between the roots. We want $\\le 0$, so we want the part between $\\hl{1}{-\\tfrac{3}{2}}$ and $\\hl{2}{4}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{-\\tfrac{3}{2}}",
+       "r": "\\le x \\le \\hl{2}{4}"
+      },
+      {
+       "aside": "Check $x = 0$: $-12 \\le 0$, true. It lies inside the interval."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "ineq-modulus",
+  "of": "d7a71bb112a1",
+  "title": "Solve modulus inequalities",
+  "show": "number line showing x≤-1 and x≥4 shaded with closed dots",
+  "example": {
+   "question": "Solve $|2x - 3| \\ge 5$, where $x \\in \\mathbb{R}$.",
+   "final": "x \\le -1 \\ \\text{ or } \\ x \\ge 4",
+   "steps": [
+    {
+     "say": "A modulus that is at least $5$ means the inside is at least $5$ **or** at most $-5$. Write both.",
+     "rows": [
+      {
+       "l": "|2x - 3|",
+       "r": "\\ge 5"
+      },
+      {
+       "l": "2x - 3 \\ge 5 \\quad",
+       "r": "\\text{or} \\quad 2x - 3 \\le -5"
+      }
+     ]
+    },
+    {
+     "say": "Add $3$ to both sides, then divide by $2$.",
+     "rows": [
+      {
+       "l": "2x",
+       "r": "\\ge 8"
+      },
+      {
+       "l": "\\hl{1}{x}",
+       "r": "\\ge \\hl{1}{4}"
+      }
+     ]
+    },
+    {
+     "say": "Do the same with the other inequality. The sign stays the same way round, because $2$ is positive.",
+     "rows": [
+      {
+       "l": "2x",
+       "r": "\\le -2"
+      },
+      {
+       "l": "\\hl{2}{x}",
+       "r": "\\le \\hl{2}{-1}"
+      }
+     ]
+    },
+    {
+     "say": "Both pieces are answers. Join them with **or**, never with and.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "\\le \\hl{2}{-1} \\quad \\text{or} \\quad x \\ge \\hl{1}{4}"
+      },
+      {
+       "aside": "Check $x = 5$: $|7| = 7 \\ge 5$. It works. Check $x = 0$: $|-3| = 3$, not $\\ge 5$. It is left out."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

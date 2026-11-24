@@ -1,0 +1,977 @@
+[
+ {
+  "skill": "alg-equate-coefficients",
+  "title": "Equate coefficients of identical polynomials",
+  "what": {
+   "say": [
+    "You give it an **identity** with unknown constants in it. It gives back the values of the constants.",
+    "The key idea: if two polynomials are equal for every $x$, the number in front of each power of $x$ must match. Each power gives you one equation."
+   ],
+   "in": "identity with unknowns",
+   "out": "values of the constants"
+  },
+  "example": {
+   "question": "Given that $x^3 + 2x^2 - 5x + k \\equiv (x - 1)(x^2 + ax + b)$ for all $x$, where $a$, $b$ and $k$ are constants. Find $a$, $b$ and the value of $k$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply out",
+      "say": "Multiply out the right-hand side. Then collect the terms by power of $x$.",
+      "lines": [
+       {
+        "tex": "(x-1)(x^2 + ax + b) &= x^3 + ax^2 + bx - x^2 - ax - b",
+        "sym": "x**3+a*x**2+b*x-x**2-a*x-b",
+        "new": true
+       },
+       {
+        "tex": "&= x^3 + (a-1)x^2 + (b-a)x - b",
+        "sym": "x**3+(a-1)*x**2+(b-a)*x-b"
+       }
+      ]
+     },
+     {
+      "title": "Match the $x^2$ terms",
+      "say": "The two sides are equal for every $x$, so the $x^2$ numbers must match. On the left it is $2$.",
+      "lines": [
+       {
+        "tex": "a - 1 &= 2",
+        "sym": "a-1",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{a} &= 3",
+        "sym": "3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Match the $x$ terms",
+      "say": "Now the $x$ numbers. On the left it is $-5$. Use the value of $a$ you just found.",
+      "lines": [
+       {
+        "tex": "b - a &= -5",
+        "sym": "b-a",
+        "new": true
+       },
+       {
+        "tex": "b - 3 &= -5",
+        "sym": "b-3",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{b} &= -2",
+        "sym": "-2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Match the constants",
+      "say": "Last, the numbers with no $x$. On the left it is $k$. On the right it is $-b$.",
+      "lines": [
+       {
+        "tex": "k &= -b",
+        "sym": "-b",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{k} &= 2",
+        "sym": "2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "k = 2"
+   },
+   "finalSym": "[2]",
+   "answerSym": "solve((x**3+2*x**2-5*x+k).subs(x,1), k)"
+  }
+ },
+ {
+  "skill": "alg-fractions-simplify",
+  "title": "Multiply, divide and simplify rational expressions",
+  "what": {
+   "say": [
+    "You give it a fraction, or a product or quotient of fractions, with $x$ in the top and bottom. It gives back one fraction in its **simplest form**.",
+    "The key idea: factorise every top and bottom first. Only a whole bracket that appears on the top and on the bottom can be cancelled."
+   ],
+   "in": "rational expression",
+   "out": "simplified fraction"
+  },
+  "example": {
+   "question": "Simplify $\\dfrac{x^2 - x - 6}{x^2 - 16} \\div \\dfrac{x - 3}{x + 4}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn it into a product",
+      "say": "Dividing by a fraction is the same as multiplying by its flip. Turn the second fraction upside down.",
+      "lines": [
+       {
+        "tex": "\\dfrac{x^2 - x - 6}{x^2 - 16} \\div \\dfrac{x-3}{x+4} &= \\dfrac{x^2 - x - 6}{x^2 - 16} \\times \\dfrac{x+4}{x-3}",
+        "sym": "(x**2-x-6)/(x**2-16)*(x+4)/(x-3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Factorise everything",
+      "say": "Factorise each quadratic. $x^2 - x - 6$ is a trinomial. $x^2 - 16$ is a difference of two squares.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{(x-3)(x+2)}{(x-4)(x+4)} \\times \\dfrac{x+4}{x-3}",
+        "sym": "(x-3)*(x+2)/((x-4)*(x+4))*(x+4)/(x-3)"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the common brackets",
+      "say": "A bracket on the top that matches a bracket on the bottom cancels. $\\hl{1}{(x-3)}$ and $\\hl{2}{(x+4)}$ each appear on both.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{\\cancel{\\hl{1}{(x-3)}}(x+2)}{(x-4)\\cancel{\\hl{2}{(x+4)}}} \\times \\dfrac{\\cancel{\\hl{2}{(x+4)}}}{\\cancel{\\hl{1}{(x-3)}}}",
+        "sym": "(x+2)/(x-4)"
+       },
+       {
+        "text": "What is left is $(x+2)$ on the top and $(x-4)$ on the bottom."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{x+2}{x-4}"
+   },
+   "finalSym": "(x+2)/(x-4)",
+   "answerSym": "cancel((x**2-x-6)/(x**2-16)/((x-3)/(x+4)))"
+  }
+ },
+ {
+  "skill": "ineq-prove",
+  "title": "Prove an algebraic inequality",
+  "what": {
+   "say": [
+    "You give it an inequality in $a$ and $b$. It turns it into a proof by showing a **square** is never negative.",
+    "The key idea: move everything to one side and simplify. If what is left is a perfect square, it is $\\ge 0$, so the inequality is true for every $a$ and $b$."
+   ],
+   "in": "inequality in $a, b$",
+   "out": "proof via a square $\\ge 0$"
+  },
+  "example": {
+   "question": "Prove that $(a + 2b)^2 \\ge 8ab$ for all real numbers $a$ and $b$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Move everything to one side",
+      "say": "Subtract $8ab$ from the left side. You will show the result is never negative.",
+      "lines": [
+       {
+        "tex": "(a + 2b)^2 - 8ab &= a^2 + 4ab + 4b^2 - 8ab",
+        "sym": "a**2+4*a*b+4*b**2-8*a*b",
+        "new": true
+       },
+       {
+        "tex": "&= a^2 - 4ab + 4b^2",
+        "sym": "a**2-4*a*b+4*b**2"
+       }
+      ]
+     },
+     {
+      "title": "Spot the square",
+      "say": "The three terms are the expansion of a bracket squared. Write it as $\\hl{1}{(a - 2b)^2}$.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{(a - 2b)^2}",
+        "sym": "(a-2*b)**2"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "say": "A real number squared is never negative. So $\\hl{1}{(a-2b)^2} \\ge 0$ for all $a$ and $b$.",
+      "lines": [
+       {
+        "tex": "(a + 2b)^2 - 8ab &= \\hl{1}{(a - 2b)^2}",
+        "sym": "(a+2*b)**2-8*a*b",
+        "new": true
+       },
+       {
+        "text": "Because $(a+2b)^2 - 8ab \\ge 0$, we get $(a+2b)^2 \\ge 8ab$. Write that last sentence: it is the proof."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(a+2b)^2 - 8ab = (a-2b)^2 \\ge 0 \\;\\Rightarrow\\; (a+2b)^2 \\ge 8ab"
+   },
+   "finalSym": "0",
+   "answerSym": "expand((a+2*b)**2-8*a*b-(a-2*b)**2)"
+  }
+ },
+ {
+  "skill": "quad-form-from-roots",
+  "title": "Form a quadratic from its roots",
+  "what": {
+   "say": [
+    "You give it two roots. It gives you a quadratic equation, $ax^2 + bx + c = 0$, with exactly those roots.",
+    "The key idea: a root $x = r$ means $(x - r)$ is a **factor**. Write one bracket for each root, then multiply them out."
+   ],
+   "in": "two roots",
+   "out": "$ax^2+bx+c=0$"
+  },
+  "example": {
+   "question": "Write down a quadratic equation, in the form $x^2 + bx + c = 0$, whose roots are $6$ and $-1$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn each root into a factor",
+      "say": "A root of $6$ means $x - 6 = 0$. A root of $-1$ means $x + 1 = 0$. Each gives one bracket.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x - 6} &= 0",
+        "sym": "Eq(x-6,0)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{x + 1} &= 0",
+        "sym": "Eq(x+1,0)",
+        "new": true
+       },
+       {
+        "tex": "(\\hl{1}{x - 6})(\\hl{2}{x + 1}) &= 0",
+        "sym": "Eq((x-6)*(x+1),0)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the brackets",
+      "say": "Multiply every term in the first bracket by every term in the second. Then collect the $x$ terms.",
+      "lines": [
+       {
+        "tex": "x^2 + x - 6x - 6 &= 0",
+        "sym": "Eq(x**2+x-6*x-6,0)"
+       },
+       {
+        "tex": "x^2 - 5x - 6 &= 0",
+        "sym": "Eq(x**2-5*x-6,0)"
+       }
+      ]
+     },
+     {
+      "title": "Check a root",
+      "say": "Put a root back in. If the equation holds, the quadratic is right.",
+      "lines": [
+       {
+        "tex": "6^2 - 5(6) - 6 &= 36 - 30 - 6",
+        "sym": "36-30-6",
+        "new": true
+       },
+       {
+        "tex": "&= 0",
+        "sym": "0"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x^2 - 5x - 6 = 0"
+   },
+   "finalSym": "x**2-5*x-6",
+   "answerSym": "expand((x-6)*(x+1))"
+  }
+ },
+ {
+  "skill": "quad-solve-factor",
+  "title": "Solve a quadratic by factorising",
+  "what": {
+   "say": [
+    "You give it a quadratic equation, $ax^2 + bx + c = 0$. It finds the **roots**: the values of $x$ that make it true.",
+    "The key idea: if two brackets multiply to $0$, one of them must be $0$. So factorise, then set each bracket equal to $0$."
+   ],
+   "in": "$ax^2+bx+c=0$",
+   "out": "roots"
+  },
+  "example": {
+   "question": "Solve the equation $x^2 = 2x + 15$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Get zero on one side",
+      "say": "A quadratic must equal $0$ before you factorise. Move $2x$ and $15$ to the left.",
+      "lines": [
+       {
+        "tex": "x^2 &= 2x + 15",
+        "sym": "Eq(x**2,2*x+15)",
+        "new": true
+       },
+       {
+        "tex": "x^2 - 2x - 15 &= 0",
+        "sym": "Eq(x**2-2*x-15,0)"
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "say": "Find two numbers that multiply to $-15$ and add to $-2$. They are $-5$ and $3$.",
+      "lines": [
+       {
+        "tex": "-5 \\times 3 &= -15",
+        "sym": "Eq(-5*3,-15)",
+        "new": true
+       },
+       {
+        "tex": "-5 + 3 &= -2",
+        "sym": "Eq(-5+3,-2)",
+        "new": true
+       },
+       {
+        "tex": "(x - 5)(x + 3) &= 0",
+        "sym": "Eq((x-5)*(x+3),0)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Set each bracket to zero",
+      "say": "One of the two brackets must be $0$. Solve each small equation.",
+      "lines": [
+       {
+        "tex": "x - 5 &= 0",
+        "sym": "Eq(x-5,0)",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{1}{5}",
+        "sym": "Eq(x,5)"
+       },
+       {
+        "tex": "x + 3 &= 0",
+        "sym": "Eq(x+3,0)",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{2}{-3}",
+        "sym": "Eq(x,-3)"
+       },
+       {
+        "text": "Check one root: $5^2 = 25$ and $2(5) + 15 = 25$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = \\hl{1}{5} \\text{ or } x = \\hl{2}{-3}"
+   },
+   "finalSym": "[-3,5]",
+   "answerSym": "solve(Eq(x**2,2*x+15),x)"
+  }
+ },
+ {
+  "skill": "quad-solve-formula",
+  "title": "Solve a quadratic with the formula",
+  "what": {
+   "say": [
+    "You give it a quadratic that will not factorise, $ax^2 + bx + c = 0$. It gives the two **roots** as surds or decimals.",
+    "The key idea: read off $a$, $b$ and $c$, put them into the formula, and the $\\pm$ gives you both roots."
+   ],
+   "in": "$ax^2+bx+c=0$",
+   "out": "two roots"
+  },
+  "example": {
+   "question": "Solve $x^2 - 3x - 5 = 0$. Give your answers correct to $2$ decimal places.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Identify a, b and c",
+      "say": "Compare $x^2 - 3x - 5 = 0$ with $ax^2 + bx + c = 0$. Write down the formula.",
+      "lines": [
+       {
+        "text": "Here $a = 1$, $b = -3$ and $c = -5$."
+       },
+       {
+        "tex": "x &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+       }
+      ]
+     },
+     {
+      "title": "Work out under the root",
+      "say": "Put in $a$, $b$ and $c$. Take care with the minus signs: $(-3)^2 = 9$.",
+      "lines": [
+       {
+        "tex": "b^2 - 4ac &= (-3)^2 - 4(1)(-5)",
+        "sym": "(-3)**2-4*1*(-5)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{29}",
+        "sym": "29"
+       }
+      ]
+     },
+     {
+      "title": "Find both roots",
+      "say": "Use $+$ for one root and $-$ for the other. Round each to $2$ decimal places.",
+      "lines": [
+       {
+        "tex": "x &= \\frac{3 + \\sqrt{\\hl{1}{29}}}{2}",
+        "sym": "(3+sqrt(29))/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{4.19}",
+        "sym": "4.19",
+        "approx": true
+       },
+       {
+        "tex": "x &= \\frac{3 - \\sqrt{\\hl{1}{29}}}{2}",
+        "sym": "(3-sqrt(29))/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{-1.19}",
+        "sym": "-1.19",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = \\hl{2}{4.19} \\text{ or } x = \\hl{3}{-1.19}"
+   },
+   "finalSym": "[-1.19, 4.19]",
+   "answerSym": "solve(x**2-3*x-5,x)"
+  }
+ },
+ {
+  "skill": "quad-discriminant",
+  "title": "Use b² − 4ac for the nature of roots",
+  "what": {
+   "say": [
+    "You give it a quadratic, $ax^2 + bx + c = 0$, sometimes with an unknown letter in it. It tells you whether the roots are **real**, **equal** or not real, and it finds the unknown that makes a given case true.",
+    "The key idea: the number under the square root in the formula, $b^2 - 4ac$, decides everything. Positive gives two real roots, zero gives one repeated root, negative gives none."
+   ],
+   "in": "$ax^2+bx+c=0$",
+   "out": "nature of roots; the unknown"
+  },
+  "example": {
+   "question": "The equation $4x^2 + kx + 9 = 0$ has equal roots. Find the two values of $k$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "State the condition",
+      "say": "Equal roots means the **discriminant** is zero. Read off $a = 4$, $b = k$ and $c = 9$, then write $\\hl{1}{b^2 - 4ac} = 0$.",
+      "lines": [
+       {
+        "text": "The discriminant is $\\hl{1}{b^2 - 4ac}$. Set it equal to $0$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute in",
+      "say": "Put $a$, $b$ and $c$ into $\\hl{1}{b^2 - 4ac} = 0$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{k^2 - 4(4)(9)} &= 0",
+        "sym": "Eq(k**2-4*4*9,0)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Simplify",
+      "say": "Multiply the numbers: $4 \\times 4 \\times 9 = 144$. Then move it across.",
+      "lines": [
+       {
+        "tex": "k^2 - 144 &= 0",
+        "sym": "Eq(k**2-144,0)"
+       },
+       {
+        "tex": "k^2 &= 144",
+        "sym": "Eq(k**2,144)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for k",
+      "say": "This is a difference of two squares, so it factorises. Each bracket can be zero, so $\\hl{2}{k}$ has two values.",
+      "lines": [
+       {
+        "tex": "(k - 12)(k + 12) &= 0",
+        "sym": "Eq((k-12)*(k+12),0)"
+       },
+       {
+        "text": "So $\\hl{2}{k = 12}$ or $\\hl{2}{k = -12}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "k = 12 \\ \\text{or} \\ k = -12"
+   },
+   "finalSym": "[-12, 12]",
+   "answerSym": "solve(Eq(k**2-4*4*9,0),k)"
+  }
+ },
+ {
+  "skill": "quad-complete-square",
+  "title": "Express a quadratic in completed-square form",
+  "what": {
+   "say": [
+    "You give it a quadratic, $ax^2 + bx + c$. It writes it as a number times a **bracket squared**, plus a number.",
+    "The key idea: $(x + p)^2$ multiplies out to $x^2 + 2px + p^2$. So half of the $x$ coefficient is $p$, and you add or subtract whatever fixes the constant."
+   ],
+   "in": "$ax^2+bx+c$",
+   "out": "$a(x+p)^2+q$"
+  },
+  "example": {
+   "question": "Write $3x^2 - 12x + 5$ in the form $a(x + p)^2 + q$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Take out the leading number",
+      "say": "Take the $3$ out of the $x^2$ and $x$ terms. Leave the last term as it is for now.",
+      "lines": [
+       {
+        "tex": "3x^2 - 12x + 5 &= 3\\left(x^2 - 4x\\right) + 5",
+        "sym": "3*(x**2-4*x)+5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find half the x coefficient",
+      "say": "Half of $-4$ is $\\hl{1}{-2}$. So the bracket is $(x \\hl{1}{- 2})^2$, which is $x^2 - 4x + 4$. That has a spare $4$, so take it off again.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{-4 \\div 2} &= -2",
+        "sym": "-4/2",
+        "new": true
+       },
+       {
+        "tex": "x^2 - 4x &= (x - 2)^2 - 4",
+        "sym": "(x-2)**2-4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Put it back in",
+      "say": "Replace $x^2 - 4x$ inside the bracket with $(x - 2)^2 - 4$.",
+      "lines": [
+       {
+        "tex": "3x^2 - 12x + 5 &= 3\\left[(x - 2)^2 - 4\\right] + 5",
+        "sym": "3*((x-2)**2-4)+5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Multiply out and tidy",
+      "say": "Multiply the $3$ into the square bracket only. The $(x-2)^2$ stays squared. Then add the numbers.",
+      "lines": [
+       {
+        "tex": "&= 3(x - 2)^2 - 12 + 5",
+        "sym": "3*(x-2)**2-12+5"
+       },
+       {
+        "tex": "&= 3(x - 2)^2 - 7",
+        "sym": "3*(x-2)**2-7"
+       },
+       {
+        "text": "Check: $a = 3$, $p = -2$, $q = -7$. Multiply out and you get $3x^2 - 12x + 5$ back."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3(x - 2)^2 - 7"
+   },
+   "finalSym": "3*(x-2)**2-7",
+   "answerSym": "3*(x+(-12)/(2*3))**2+(5-(-12)**2/(4*3))"
+  }
+ },
+ {
+  "skill": "sim-linear-2",
+  "title": "Solve two linear equations in two unknowns",
+  "what": {
+   "say": [
+    "You give it two linear equations, each with $x$ and $y$. It finds the one pair of values, $(x, y)$, that makes both true.",
+    "The key idea: make the $y$ terms (or the $x$ terms) match, then add or subtract the equations. One letter disappears, and you are left with an equation you can already solve."
+   ],
+   "in": "two equations in $x$, $y$",
+   "out": "$(x, y)$"
+  },
+  "example": {
+   "question": "Solve the simultaneous equations:\n$4x + 3y = 18$\n$2x - y = 4$",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Make a letter match",
+      "say": "The $y$ terms are $+3y$ and $-y$. Multiply the whole second equation by $3$, and they become $+3y$ and $-3y$.",
+      "lines": [
+       {
+        "tex": "3(2x - y) &= 3(4)",
+        "sym": "Eq(3*(2*x-y),3*4)",
+        "new": true
+       },
+       {
+        "tex": "6x - 3y &= 12",
+        "sym": "Eq(6*x-3*y,12)"
+       }
+      ]
+     },
+     {
+      "title": "Add the equations",
+      "say": "Add the two equations. The $y$ terms cancel, which leaves one equation in $x$.",
+      "lines": [
+       {
+        "tex": "4x + 3y &= 18",
+        "sym": "Eq(4*x+3*y,18)",
+        "new": true
+       },
+       {
+        "tex": "6x - 3y &= 12",
+        "sym": "Eq(6*x-3*y,12)",
+        "new": true
+       },
+       {
+        "tex": "10x &= 30",
+        "sym": "Eq(10*x,30)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Divide both sides by $10$ to find $\\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= 3",
+        "sym": "Eq(x,3)"
+       }
+      ]
+     },
+     {
+      "title": "Find y",
+      "say": "Put $\\hl{1}{x = 3}$ into the first equation and solve for $\\hl{2}{y}$.",
+      "lines": [
+       {
+        "tex": "4(3) + 3y &= 18",
+        "sym": "Eq(4*3+3*y,18)",
+        "new": true
+       },
+       {
+        "tex": "3y &= 6",
+        "sym": "Eq(3*y,6)"
+       },
+       {
+        "tex": "\\hl{2}{y} &= 2",
+        "sym": "Eq(y,2)"
+       },
+       {
+        "text": "Check in the other equation: $2(3) - 2 = 4$. It works."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 3, \\ y = 2"
+   },
+   "finalSym": "(3, 2)",
+   "answerSym": "linsolve([Eq(4*x+3*y,18),Eq(2*x-y,4)],(x,y)).args[0]"
+  }
+ },
+ {
+  "skill": "sim-word-problem",
+  "title": "Form simultaneous equations from a context",
+  "what": {
+   "say": [
+    "You give it a story with two unknown amounts. It gives back two **equations**, the solution, and what the numbers mean.",
+    "The key idea: every sentence that states a total is one equation. Two unknowns need two such sentences."
+   ],
+   "in": "a verbal problem",
+   "out": "$a = ?,\\ c = ?$"
+  },
+  "example": {
+   "question": "2 adult tickets and 3 child tickets cost €36. 4 adult tickets and 1 child ticket cost €42.\nFind the price of an adult ticket and the price of a child ticket.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the two equations",
+      "say": "Let $\\hl{1}{a}$ be the price of an adult ticket and $\\hl{2}{c}$ the price of a child ticket, in euro. Each sentence gives one equation.",
+      "lines": [
+       {
+        "tex": "2a + 3c &= 36",
+        "sym": "Eq(2*a+3*c,36)",
+        "new": true
+       },
+       {
+        "tex": "4a + c &= 42",
+        "sym": "Eq(4*a+c,42)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Remove one unknown",
+      "say": "Multiply the second equation by $3$ so both equations have $3c$. Then subtract, and the $c$ terms cancel.",
+      "lines": [
+       {
+        "tex": "12a + 3c &= 126",
+        "sym": "Eq(12*a+3*c,126)",
+        "new": true
+       },
+       {
+        "tex": "(12a + 3c) - (2a + 3c) &= 126 - 36",
+        "sym": "Eq((12*a+3*c)-(2*a+3*c),126-36)",
+        "new": true
+       },
+       {
+        "tex": "10a &= 90",
+        "sym": "Eq(10*a,90)"
+       }
+      ]
+     },
+     {
+      "title": "Find the adult price",
+      "say": "Divide both sides by $10$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 9",
+        "sym": "Eq(a,9)"
+       }
+      ]
+     },
+     {
+      "title": "Find the child price",
+      "say": "Put $a = 9$ into the second equation and solve for $c$.",
+      "lines": [
+       {
+        "tex": "4(9) + c &= 42",
+        "sym": "Eq(4*9+c,42)",
+        "new": true
+       },
+       {
+        "tex": "36 + c &= 42",
+        "sym": "Eq(36+c,42)"
+       },
+       {
+        "tex": "\\hl{2}{c} &= 6",
+        "sym": "Eq(c,6)"
+       },
+       {
+        "text": "Check in the first equation: $2(9) + 3(6) = 18 + 18 = 36$. It works."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{adult } €\\hl{1}{9},\\ \\text{child } €\\hl{2}{6}"
+   },
+   "finalSym": "(9, 6)",
+   "answerSym": "linsolve([Eq(2*a+3*c,36), Eq(4*a+c,42)], (a, c)).args[0]"
+  }
+ },
+ {
+  "skill": "sim-linear-3",
+  "title": "Solve three linear equations in three unknowns",
+  "what": {
+   "say": [
+    "You give it three linear equations in $x$, $y$ and $z$. It finds the one **point** $(x, y, z)$ that fits all three.",
+    "The key idea: use the equations in pairs to remove the same letter twice. That leaves two equations in two letters, and you already know how to solve those."
+   ],
+   "in": "3 linear equations",
+   "out": "$(x, y, z)$"
+  },
+  "example": {
+   "question": "Solve the simultaneous equations:\n$x + y + z = 2$\n$2x - y + z = 3$\n$x + 3y - 2z = 10$",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Remove z from the first pair",
+      "say": "Subtract the first equation from the second. The $z$ terms cancel.",
+      "lines": [
+       {
+        "tex": "(2x - y + z) - (x + y + z) &= 3 - 2",
+        "sym": "Eq((2*x-y+z)-(x+y+z),3-2)",
+        "new": true
+       },
+       {
+        "tex": "x - 2y &= 1",
+        "sym": "Eq(x-2*y,1)"
+       }
+      ]
+     },
+     {
+      "title": "Remove z again",
+      "say": "Use the first and third equations. Double the first one, then add. The $z$ terms cancel again.",
+      "lines": [
+       {
+        "tex": "2(x + y + z) + (x + 3y - 2z) &= 2(2) + 10",
+        "sym": "Eq(2*(x+y+z)+(x+3*y-2*z),2*2+10)",
+        "new": true
+       },
+       {
+        "tex": "3x + 5y &= 14",
+        "sym": "Eq(3*x+5*y,14)"
+       }
+      ]
+     },
+     {
+      "title": "Solve the two equations",
+      "say": "Now there are two equations in $x$ and $y$. Write $x$ from the first and put it into the second.",
+      "lines": [
+       {
+        "tex": "x &= 1 + 2y",
+        "sym": "Eq(x,1+2*y)",
+        "new": true
+       },
+       {
+        "tex": "3(1 + 2y) + 5y &= 14",
+        "sym": "Eq(3*(1+2*y)+5*y,14)",
+        "new": true
+       },
+       {
+        "tex": "11y &= 11",
+        "sym": "Eq(11*y,11)"
+       },
+       {
+        "tex": "\\hl{2}{y} &= 1",
+        "sym": "Eq(y,1)"
+       },
+       {
+        "tex": "x &= 1 + 2(1)",
+        "sym": "1+2*1",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3}",
+        "sym": "3"
+       }
+      ]
+     },
+     {
+      "title": "Find z",
+      "say": "Put $x = 3$ and $y = 1$ into the first equation.",
+      "lines": [
+       {
+        "tex": "3 + 1 + z &= 2",
+        "sym": "Eq(3+1+z,2)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{z} &= -2",
+        "sym": "Eq(z,-2)"
+       },
+       {
+        "text": "Check in the second equation: $2(3) - 1 + (-2) = 3$. It works."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(\\hl{1}{3}, \\hl{2}{1}, \\hl{3}{-2})"
+   },
+   "finalSym": "(3, 1, -2)",
+   "answerSym": "linsolve([Eq(x+y+z,2), Eq(2*x-y+z,3), Eq(x+3*y-2*z,10)], (x, y, z)).args[0]"
+  }
+ },
+ {
+  "skill": "eq-linear",
+  "title": "Solve a linear equation",
+  "what": {
+   "say": [
+    "You give it an equation with $x$ on one or both sides. It finds the one value of $\\hl{2}{x}$ that makes both sides equal.",
+    "The key idea: whatever you do to one side, do to the other. Use that to get every $x$ term on one side and every number on the other."
+   ],
+   "in": "$ax+b=cx+d$",
+   "out": "$x$"
+  },
+  "example": {
+   "question": "Solve $4(x - 3) + 5 = 2x + 9$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Remove the bracket",
+      "say": "Multiply every term in the bracket by $4$. Then tidy the numbers on the left.",
+      "lines": [
+       {
+        "tex": "4(x - 3) + 5 &= 2x + 9",
+        "sym": "Eq(4*(x-3)+5,2*x+9)",
+        "new": true
+       },
+       {
+        "tex": "4x - 12 + 5 &= 2x + 9",
+        "sym": "Eq(4*x-12+5,2*x+9)"
+       },
+       {
+        "tex": "4x - 7 &= 2x + 9",
+        "sym": "Eq(4*x-7,2*x+9)"
+       }
+      ]
+     },
+     {
+      "title": "Collect the x terms",
+      "say": "Take $\\hl{1}{2x}$ from both sides so the $x$ terms are on the left. Then add $7$ to both sides so the numbers are on the right.",
+      "lines": [
+       {
+        "tex": "4x - \\hl{1}{2x} &= 9 + 7",
+        "sym": "Eq(4*x-2*x,9+7)"
+       },
+       {
+        "tex": "2x &= 16",
+        "sym": "Eq(2*x,16)"
+       },
+       {
+        "text": "Whatever you do to one side, do to the other."
+       }
+      ]
+     },
+     {
+      "title": "Divide to find x",
+      "say": "Divide both sides by $2$ to leave $\\hl{2}{x}$ on its own.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{x} &= 8",
+        "sym": "Eq(x,8)"
+       }
+      ]
+     },
+     {
+      "title": "Check the answer",
+      "say": "Put $x = 8$ back into the original equation. Both sides must match.",
+      "lines": [
+       {
+        "tex": "4(8 - 3) + 5 &= 25",
+        "sym": "4*(8-3)+5-25+25",
+        "new": true
+       },
+       {
+        "tex": "2(8) + 9 &= 25",
+        "sym": "2*8+9"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 8"
+   },
+   "finalSym": "[8]",
+   "answerSym": "solve(Eq(4*(x-3)+5,2*x+9),x)"
+  }
+ }
+]

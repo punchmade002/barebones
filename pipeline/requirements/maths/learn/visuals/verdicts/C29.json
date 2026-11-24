@@ -1,0 +1,8 @@
+{
+"geo-cor5": {"ok": true, "issues": []},
+"geo-prove-thm11": {"ok": false, "issues": ["The working (steps 4 and 5) uses the point E' (triangles ABE' and F'B'E', |AE'| = |F'E'|, parallelograms with AE' and F'E'), but the figure has no point labelled E' anywhere, so the figure does not match the working.", "The figure labels B', C' and F', and the working says AC' meets BE at B' and CF at C', but the working never says what E' is on the figure; the congruent triangles in the working cannot be found in the figure."]},
+"geo-prove-thm12": {"ok": true, "issues": []},
+"geo-prove-thm13": {"ok": true, "issues": []},
+"geo-cuts": {"ok": true, "issues": []},
+"con-8": {"ok": true, "issues": []}
+}

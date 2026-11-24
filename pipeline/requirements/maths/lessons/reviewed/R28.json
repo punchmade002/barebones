@@ -1,0 +1,773 @@
+[
+ {
+  "skill": "int-trig-identity",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "alg-add-subtract",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "alg-binomial-expand",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "alg-binomial-term",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "alg-collect-like",
+  "verdict": "fixed",
+  "issues": "Legend wording made the same in all 3 problems; note 3 now mentions the added perimeter step",
+  "problems": [
+   {
+    "part": "practice-alg-collect-like-1",
+    "note": null,
+    "legend": {
+     "1": "the first group of like terms, grouped and then combined",
+     "2": "the second group of like terms, grouped and then combined"
+    },
+    "steps": [
+     {
+      "ask": "Which terms share a letter, so they can be grouped together?",
+      "title": "Group the like terms",
+      "lines": [
+       {
+        "tex": "5x + 3y - 2x + 7y - y &= \\hl{1}{(5x - 2x)} + \\hl{2}{(3y + 7y - y)}"
+       }
+      ]
+     },
+     {
+      "ask": "What do the x terms add to, and what do the y terms add to?",
+      "title": "Combine each group",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{3x} + \\hl{2}{9y}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{3x} + \\hl{2}{9y}",
+    "graph": null
+   },
+   {
+    "part": "practice-alg-collect-like-2",
+    "note": "Only change from problem 1: the coefficients are fractions, so each group needs fraction addition. Same two steps.",
+    "legend": {
+     "1": "the first group of like terms, grouped and then combined",
+     "2": "the second group of like terms, grouped and then combined"
+    },
+    "steps": [
+     {
+      "ask": "Which terms share the letter a, and which share the letter b?",
+      "title": "Group the $a$ terms and the $b$ terms",
+      "lines": [
+       {
+        "tex": "\\frac{1}{2}a - \\frac{3}{4}b + \\frac{3}{2}a + \\frac{1}{4}b &= \\hl{1}{\\left(\\frac{1}{2}a + \\frac{3}{2}a\\right)} + \\hl{2}{\\left(-\\frac{3}{4}b + \\frac{1}{4}b\\right)}"
+       }
+      ]
+     },
+     {
+      "ask": "Add the fractions in each group. What do the a terms come to, and what do the b terms come to?",
+      "title": "Combine each group",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{2a} - \\hl{2}{\\frac{2}{4}b}"
+       },
+       {
+        "tex": "&= \\hl{1}{2a} - \\hl{2}{\\frac{1}{2}b}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{2a} - \\hl{2}{\\frac{1}{2}b}",
+    "graph": null
+   },
+   {
+    "part": "practice-alg-collect-like-3",
+    "note": "Changes from problem 2: the terms are now the sides of a triangle, with brackets, a plain-number group, and the answer needs cm. After writing the perimeter as a sum, the steps are the same: group the x terms and the numbers, then combine each group.",
+    "legend": {
+     "1": "the first group of like terms, grouped and then combined",
+     "2": "the second group of like terms, grouped and then combined"
+    },
+    "steps": [
+     {
+      "ask": "The perimeter is the total of the three sides. How do you write that as one sum?",
+      "title": "Add the three sides",
+      "lines": [
+       {
+        "tex": "P &= (4x + 3) + (2x - 5) + (x + 7)"
+       }
+      ]
+     },
+     {
+      "ask": "Which terms have x, and which are plain numbers? Group each kind.",
+      "title": "Group the $x$ terms and the numbers",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{(4x + 2x + x)} + \\hl{2}{(3 - 5 + 7)}"
+       }
+      ]
+     },
+     {
+      "ask": "What do the x terms add to, and what do the numbers add to?",
+      "title": "Combine each group",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{7x} + \\hl{2}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{7x} + \\hl{2}{5}\\text{ cm}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "alg-expand-binomials",
+  "verdict": "fixed",
+  "issues": "Legends made generic; note 3 wrongly said a √x term cancels (it is the x√x terms)",
+  "problems": [
+   {
+    "part": "practice-alg-expand-binomials-1",
+    "note": null,
+    "legend": {
+     "1": "the first term of the first bracket",
+     "2": "the second term of the first bracket",
+     "3": "the x terms, expanded and then collected"
+    },
+    "steps": [
+     {
+      "ask": "What does each term in the first bracket need to be multiplied by?",
+      "title": "Multiply each term in the first bracket by the second",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{4x}-\\hl{2}{3})(x+5) &= \\hl{1}{4x}(x+5) - \\hl{2}{3}(x+5)"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get from each product, such as 4x times x?",
+      "title": "Expand each part",
+      "lines": [
+       {
+        "tex": "&= 4x^2 + \\hl{3}{20x - 3x} - 15"
+       }
+      ]
+     },
+     {
+      "ask": "Which terms are alike, and what do they add to?",
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 4x^2 + \\hl{3}{17x} - 15"
+       }
+      ]
+     }
+    ],
+    "final": "4x^2 + \\hl{3}{17x} - 15",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q6#(b)",
+    "note": "Changes from problem 1: the two brackets are the same and squared, and a -6 follows. The first step turns the square into a product of two brackets, then the same multiply-out and collect steps follow.",
+    "legend": {
+     "1": "the first term of the first bracket",
+     "2": "the second term of the first bracket",
+     "3": "the x terms, expanded and then collected"
+    },
+    "steps": [
+     {
+      "ask": "What does squaring a bracket mean when you multiply it out?",
+      "title": "Write the square as a product",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{2x}-\\hl{2}{4})^2 - 6 &= (\\hl{1}{2x}-\\hl{2}{4})(\\hl{1}{2x}-\\hl{2}{4}) - 6"
+       }
+      ]
+     },
+     {
+      "ask": "Multiply each term in one bracket by each term in the other. What are the four products?",
+      "title": "Multiply out each term",
+      "lines": [
+       {
+        "tex": "&= 4x^2 \\hl{3}{- 8x - 8x} + 16 - 6"
+       }
+      ]
+     },
+     {
+      "ask": "Which terms are alike, and what do the x terms and the numbers come to?",
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 4x^2 \\hl{3}{- 16x} + 10"
+       }
+      ]
+     }
+    ],
+    "final": "4x^2 \\hl{3}{- 16x} + 10",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q1#(b)",
+    "note": "Changes from problem 1: the second bracket has three terms, including surds (√x), and the x√x terms cancel in the answer. The method is the same: multiply the whole second bracket by each term in the first.",
+    "legend": {
+     "1": "the first term of the first bracket",
+     "2": "the second term of the first bracket",
+     "3": "the x terms, expanded and then collected"
+    },
+    "steps": [
+     {
+      "ask": "The first bracket has two terms. What must the whole second bracket be multiplied by?",
+      "title": "Split the first bracket into its two terms",
+      "lines": [
+       {
+        "text": "Multiply the whole second bracket by $\\hl{1}{4x}$, then by $-\\hl{2}{10\\sqrt{x}}$."
+       },
+       {
+        "tex": "(\\hl{1}{4x} - \\hl{2}{10\\sqrt{x}})(2x + 5\\sqrt{x} - 7) &= \\hl{1}{4x}(2x + 5\\sqrt{x} - 7) - \\hl{2}{10\\sqrt{x}}(2x + 5\\sqrt{x} - 7)"
+       }
+      ]
+     },
+     {
+      "ask": "What is 4x times each term in the second bracket?",
+      "title": "Multiply out $4x$ times the second bracket",
+      "lines": [
+       {
+        "tex": "4x(2x + 5\\sqrt{x} - 7) &= 4x \\times 2x + 4x \\times 5\\sqrt{x} - 4x \\times 7"
+       },
+       {
+        "tex": "&= 8x^2 + 20x\\sqrt{x} - 28x"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get for -10√x times each term in the second bracket? What is √x times √x?",
+      "title": "Multiply out $-10\\sqrt{x}$ times the second bracket",
+      "lines": [
+       {
+        "tex": "-10\\sqrt{x}(2x + 5\\sqrt{x} - 7) &= -20x\\sqrt{x} - 50\\sqrt{x}\\sqrt{x} + 70\\sqrt{x}"
+       },
+       {
+        "text": "$\\sqrt{x} \\times \\sqrt{x} = x$, so $-50\\sqrt{x}\\sqrt{x} = -50x$."
+       },
+       {
+        "tex": "&= -20x\\sqrt{x} - 50x + 70\\sqrt{x}"
+       }
+      ]
+     },
+     {
+      "ask": "Which terms cancel, and what do the x terms add to?",
+      "title": "Add the two results and collect like terms",
+      "lines": [
+       {
+        "tex": "&= 8x^2 + 20x\\sqrt{x} - 28x - 20x\\sqrt{x} - 50x + 70\\sqrt{x}"
+       },
+       {
+        "text": "The $x\\sqrt{x}$ terms cancel, and $\\hl{3}{-28x - 50x} = \\hl{3}{-78x}$."
+       },
+       {
+        "tex": "&= 8x^2 \\hl{3}{- 78x} + 70\\sqrt{x}"
+       }
+      ]
+     }
+    ],
+    "final": "8x^2 \\hl{3}{- 78x} + 70\\sqrt{x}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "alg-expand-single",
+  "verdict": "fixed",
+  "issues": "Slot 1 legend unified; removed 'Borderline' wording from student note",
+  "problems": [
+   {
+    "part": "practice-alg-expand-single-1",
+    "note": null,
+    "legend": {
+     "1": "the multiplier outside the bracket",
+     "2": "the x terms, expanded and then collected",
+     "3": "the number terms, expanded and then collected"
+    },
+    "steps": [
+     {
+      "ask": "What must the number outside the bracket multiply?",
+      "title": "Multiply every term in the bracket by $-3$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{-3}(2x - 4y + 5) &= (\\hl{1}{-3})(2x) + (\\hl{1}{-3})(-4y) + (\\hl{1}{-3})(5)"
+       }
+      ]
+     },
+     {
+      "ask": "What is each product, and what happens to the sign when you multiply by a negative number?",
+      "title": "Simplify each term",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{-6x} + 12y \\hl{3}{- 15}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{-6x} + 12y \\hl{3}{- 15}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q3#(a)",
+    "note": "Changes from problem 1: there are two brackets, one with a minus in front, so the outside numbers are 3 and -2 and the answer needs collecting like terms. Same method: multiply each term in each bracket by its outside number.",
+    "legend": {
+     "1": "the multiplier outside the bracket",
+     "2": "the x terms, expanded and then collected",
+     "3": "the number terms, expanded and then collected"
+    },
+    "steps": [
+     {
+      "ask": "What number is outside each bracket, and what must each term inside be multiplied by?",
+      "title": "Multiply out each bracket",
+      "lines": [
+       {
+        "tex": "\\hl{1}{3}(4-5x) \\hl{1}{- 2}(5-6x) &= 12 - 15x - 10 + 12x"
+       }
+      ]
+     },
+     {
+      "ask": "What do the numbers come to, and what do the x terms come to?",
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= \\hl{3}{(12-10)} + \\hl{2}{(-15x+12x)}"
+       },
+       {
+        "tex": "&= \\hl{3}{2} - \\hl{2}{3x}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{2}-\\hl{2}{3x}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q8#(d)(i)",
+    "note": "Changes from problem 1: the multiplier is the letter x, not a number, and the bracket has a decimal (10.5). The first two steps write the area formula and substitute y = 10.5 − x, then the same multiply-out is used.",
+    "legend": {
+     "1": "the multiplier outside the bracket",
+     "2": "the x terms, expanded and then collected"
+    },
+    "steps": [
+     {
+      "ask": "What is the area of a rectangle with sides x and y?",
+      "title": "Write the area formula",
+      "lines": [
+       {
+        "tex": "A &= xy"
+       }
+      ]
+     },
+     {
+      "ask": "What do you put in place of y, and where does it go?",
+      "title": "Substitute y = 10.5 − x",
+      "lines": [
+       {
+        "tex": "A &= \\hl{1}{x}(10.5 - x)"
+       }
+      ]
+     },
+     {
+      "ask": "What is x times 10.5, and what is x times x?",
+      "title": "Multiply out the bracket",
+      "lines": [
+       {
+        "tex": "A &= \\hl{2}{10.5x} - x^2"
+       }
+      ]
+     }
+    ],
+    "final": "A = \\hl{2}{10.5x} - x^2",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "alg-factor-cubes",
+  "verdict": "fixed",
+  "issues": "Legend wording made the same across problems",
+  "problems": [
+   {
+    "part": "practice-alg-factor-cubes-1",
+    "note": null,
+    "legend": {
+     "1": "a, the cube root of the first term",
+     "2": "b, the cube root of the second term",
+     "3": "the first bracket, (a + b) or (a − b)"
+    },
+    "steps": [
+     {
+      "ask": "Can you write 27x³ and 8 as cubes? What are their cube roots?",
+      "title": "Write each term as a cube",
+      "lines": [
+       {
+        "tex": "27x^3 + 8 &= (\\hl{1}{3x})^3 + \\hl{2}{2}^3"
+       }
+      ]
+     },
+     {
+      "ask": "Which formula is for a sum of two cubes, and what are a and b here?",
+      "title": "Use $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$ with $a=3x$, $b=2$",
+      "lines": [
+       {
+        "tex": "&= \\hl{3}{(3x+2)}\\left((3x)^2 - (3x)(2) + 2^2\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "What are (3x)², (3x)(2) and 2² when you simplify them?",
+      "title": "Simplify the second bracket",
+      "lines": [
+       {
+        "tex": "&= \\hl{3}{(3x+2)}(9x^2 - 6x + 4)"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{(3x+2)}(9x^2-6x+4)",
+    "graph": null
+   },
+   {
+    "part": "practice-alg-factor-cubes-2",
+    "note": "Changes from problem 1: the sign between the cubes is minus, so the formula flips to a difference of cubes, and b is 4y, which contains a letter.",
+    "legend": {
+     "1": "a, the cube root of the first term",
+     "2": "b, the cube root of the second term",
+     "3": "the first bracket, (a + b) or (a − b)"
+    },
+    "steps": [
+     {
+      "ask": "What is x³ as a cube, and what is 64y³ as a cube?",
+      "title": "Write each term as a cube",
+      "lines": [
+       {
+        "tex": "x^3 - 64y^3 &= \\hl{1}{x}^3 - (\\hl{2}{4y})^3"
+       }
+      ]
+     },
+     {
+      "ask": "Is this a sum or a difference of cubes? Which formula fits?",
+      "title": "Use $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ with $a=x$, $b=4y$",
+      "lines": [
+       {
+        "tex": "&= \\hl{3}{(x-4y)}\\left(x^2 + x(4y) + (4y)^2\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "What do x times 4y and (4y)² simplify to?",
+      "title": "Simplify the second bracket",
+      "lines": [
+       {
+        "tex": "&= \\hl{3}{(x-4y)}(x^2 + 4xy + 16y^2)"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{(x-4y)}(x^2+4xy+16y^2)",
+    "graph": null
+   },
+   {
+    "part": "practice-alg-factor-cubes-3",
+    "note": "Changes from problem 2: there is a common factor of 2 to take out first, and the cube roots are simpler, 3x and 1. The difference-of-cubes method is the same after that.",
+    "legend": {
+     "1": "a, the cube root of the first term",
+     "2": "b, the cube root of the second term",
+     "3": "the first bracket, (a + b) or (a − b)",
+     "4": "the common factor taken out first"
+    },
+    "steps": [
+     {
+      "ask": "What number divides both 54 and 2, so it can come out first?",
+      "title": "Take out the common factor 2",
+      "lines": [
+       {
+        "tex": "54x^3 - \\hl{4}{2} &= \\hl{4}{2}(27x^3 - 1)"
+       }
+      ]
+     },
+     {
+      "ask": "What are 27x³ and 1 as cubes?",
+      "title": "Write the bracket as a difference of cubes",
+      "lines": [
+       {
+        "tex": "&= \\hl{4}{2}\\left((\\hl{1}{3x})^3 - \\hl{2}{1}^3\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "Is this a sum or a difference? Which formula fits, and what are a and b?",
+      "title": "Use $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ with $a=3x$, $b=1$",
+      "lines": [
+       {
+        "tex": "&= \\hl{4}{2}\\hl{3}{(3x-1)}\\left((3x)^2 + (3x)(1) + 1^2\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "What are (3x)², (3x)(1) and 1² when simplified?",
+      "title": "Simplify the second bracket",
+      "lines": [
+       {
+        "tex": "&= \\hl{4}{2}\\hl{3}{(3x-1)}(9x^2 + 3x + 1)"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{2}\\hl{3}{(3x-1)}(9x^2+3x+1)",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "alg-factor-dots",
+  "verdict": "fixed",
+  "issues": "Legend wording made the same; note 3 rewritten",
+  "problems": [
+   {
+    "part": "practice-alg-factor-dots-1",
+    "note": null,
+    "legend": {
+     "1": "a, the square root of the first term",
+     "2": "b, the square root of the second term",
+     "3": "the factor a − b",
+     "4": "the factor a + b"
+    },
+    "steps": [
+     {
+      "ask": "What is 4x² as a square, and what is 25 as a square?",
+      "title": "Write as a difference of two squares",
+      "lines": [
+       {
+        "tex": "4x^2 - 25 &= (\\hl{1}{2x})^2 - \\hl{2}{5}^2"
+       }
+      ]
+     },
+     {
+      "ask": "Which formula fits a difference of squares, and what are a and b here?",
+      "title": "Use $a^2 - b^2 = (a - b)(a + b)$ with $a = 2x$ and $b = 5$",
+      "lines": [
+       {
+        "tex": "&= \\hl{3}{(2x - 5)}\\hl{4}{(2x + 5)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{(2x - 5)}\\hl{4}{(2x + 5)}",
+    "graph": null
+   },
+   {
+    "part": "practice-alg-factor-dots-2",
+    "note": "Changes from problem 1: the letters are now the numbers 53 and 47, and the answer is found without a calculator. The same formula is used, and the last step only multiplies numbers.",
+    "legend": {
+     "1": "a, the square root of the first term",
+     "2": "b, the square root of the second term",
+     "3": "the factor a − b",
+     "4": "the factor a + b"
+    },
+    "steps": [
+     {
+      "ask": "Which formula is for a difference of squares, and what are a and b here?",
+      "title": "Treat it as a difference of two squares",
+      "lines": [
+       {
+        "text": "$a^2 - b^2 = (a - b)(a + b)$ with $a = \\hl{1}{53}$ and $b = \\hl{2}{47}$."
+       }
+      ]
+     },
+     {
+      "ask": "What are a minus b and a plus b here?",
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "\\hl{1}{53}^2 - \\hl{2}{47}^2 &= \\hl{3}{(53 - 47)}\\hl{4}{(53 + 47)}"
+       }
+      ]
+     },
+     {
+      "ask": "What is 53 − 47, and what is 53 + 47?",
+      "title": "Evaluate",
+      "lines": [
+       {
+        "tex": "&= \\hl{3}{6} \\times \\hl{4}{100}"
+       },
+       {
+        "tex": "&= 600"
+       }
+      ]
+     }
+    ],
+    "final": "600",
+    "graph": null
+   },
+   {
+    "part": "practice-alg-factor-dots-3",
+    "note": "Changes from problem 1: the expression equals 0, so after factorising you set each factor to zero and solve. The factorising step is the same, with a = 3x and b = 5.",
+    "legend": {
+     "1": "a, the square root of the first term",
+     "2": "b, the square root of the second term",
+     "3": "the factor a − b",
+     "4": "the factor a + b"
+    },
+    "steps": [
+     {
+      "ask": "What are 9x² and 25 as squares?",
+      "title": "Factorise the left-hand side as a difference of two squares",
+      "lines": [
+       {
+        "tex": "9x^2 - 25 &= 0"
+       },
+       {
+        "tex": "(\\hl{1}{3x})^2 - \\hl{2}{5}^2 &= 0"
+       },
+       {
+        "tex": "\\hl{3}{(3x - 5)}\\hl{4}{(3x + 5)} &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "If two things multiply to zero, what must each one equal?",
+      "title": "Set each factor equal to zero",
+      "lines": [
+       {
+        "tex": "\\hl{3}{3x - 5} = 0 \\quad&\\text{or}\\quad \\hl{4}{3x + 5} = 0"
+       }
+      ]
+     },
+     {
+      "ask": "What does x equal in each equation?",
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "x = \\frac{5}{3} \\quad&\\text{or}\\quad x = -\\frac{5}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\frac{5}{3} \\text{ or } x = -\\frac{5}{3}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "alg-factor-grouping",
+  "verdict": "fixed",
+  "issues": "Legend wording made generic across problems",
+  "problems": [
+   {
+    "part": "maths-pp-2019-higher-p1-q3#(a)",
+    "note": null,
+    "legend": {
+     "1": "the common bracket",
+     "2": "the other factor"
+    },
+    "steps": [
+     {
+      "ask": "Which pairs of terms share a common factor? Put each pair in brackets.",
+      "title": "Group the terms in pairs",
+      "lines": [
+       {
+        "tex": "3xy - 9x + 4y - 12 &= (3xy - 9x) + (4y - 12)"
+       }
+      ]
+     },
+     {
+      "ask": "What can you take out of 3xy and −9x, and out of 4y and −12, so the same bracket is left in both?",
+      "title": "Take out the common factor of each pair",
+      "lines": [
+       {
+        "tex": "&= 3x\\hl{1}{(y-3)} + 4\\hl{1}{(y-3)}"
+       }
+      ]
+     },
+     {
+      "ask": "Both parts now contain the same bracket. What is left over once you take that bracket out?",
+      "title": "Take out the common bracket",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{(3x+4)}\\hl{1}{(y-3)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{(3x+4)}\\hl{1}{(y-3)}",
+    "graph": null
+   },
+   {
+    "part": "practice-alg-factor-grouping-1",
+    "note": "Changed: the coefficients are now letters a and b, so the outside factor is (3a + b). The working is also shorter, in two steps; the method is the same.",
+    "legend": {
+     "1": "the common bracket",
+     "2": "the other factor"
+    },
+    "steps": [
+     {
+      "ask": "Which two terms share a factor? What is left in each pair once that factor is taken out?",
+      "title": "Factorise the first pair and the second pair",
+      "lines": [
+       {
+        "tex": "3ax + 6a + bx + 2b &= 3a\\hl{1}{(x + 2)} + b\\hl{1}{(x + 2)}"
+       }
+      ]
+     },
+     {
+      "ask": "What bracket is the same in both parts? What is left outside it?",
+      "title": "Take out the common bracket",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{(3a + b)}\\hl{1}{(x + 2)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{(3a + b)}\\hl{1}{(x + 2)}",
+    "graph": null
+   },
+   {
+    "part": "practice-alg-factor-grouping-2",
+    "note": "Changed from problem 2: the second pair now has a minus sign, so −1 is taken out of it, and the coefficients are numbers again. The method is the same.",
+    "legend": {
+     "1": "the common bracket",
+     "2": "the other factor"
+    },
+    "steps": [
+     {
+      "ask": "What can you take out of 2xy and −6x, and out of −y and 3, so the same bracket is left in both?",
+      "title": "Take $2x$ out of the first pair and $-1$ out of the second",
+      "lines": [
+       {
+        "tex": "2xy - 6x - y + 3 &= 2x\\hl{1}{(y - 3)} - 1\\hl{1}{(y - 3)}"
+       }
+      ]
+     },
+     {
+      "ask": "The same bracket appears in both parts. What is left outside it?",
+      "title": "Take out the common bracket",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{(2x - 1)}\\hl{1}{(y - 3)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{(2x - 1)}\\hl{1}{(y - 3)}",
+    "graph": null
+   }
+  ]
+ }
+]

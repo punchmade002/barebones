@@ -1,0 +1,194 @@
+[
+ {
+  "skill": "geo-thm15",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "geo-thm16",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "geo-thm17",
+  "verdict": "fixed",
+  "issues": "Problem 3 colours: both triangle areas now share slot 2 (same role as problems 1-2), slot 3 removed",
+  "problems": [
+   {
+    "part": "practice-geo-thm17-1",
+    "note": null,
+    "legend": {
+     "1": "the answer, the area of triangle PQM",
+     "2": "the area of one triangle cut off by the diagonal",
+     "3": "the whole parallelogram, 84 m\u00b2"
+    },
+    "steps": [
+     {
+      "ask": "The diagonal PR splits the parallelogram. What is the area of triangle PQR?",
+      "title": "Area of triangle $PQR$",
+      "lines": [
+       {
+        "text": "The diagonal $[PR]$ cuts the parallelogram into two triangles of equal area."
+       },
+       {
+        "tex": "\\hl{2}{|\\triangle PQR|} &= \\tfrac{1}{2}(\\hl{3}{84})"
+       },
+       {
+        "tex": "&= \\hl{2}{42} \\text{ m}^2"
+       }
+      ]
+     },
+     {
+      "ask": "M is the midpoint of QR. How does triangle PQM compare with triangle PQR, and what is its area?",
+      "title": "Area of triangle $PQM$",
+      "lines": [
+       {
+        "text": "$M$ is the midpoint of $[QR]$. Triangles $PQM$ and $PQR$ have the same height from $P$, so $PQM$ has half the area."
+       },
+       {
+        "tex": "\\hl{1}{|\\triangle PQM|} &= \\tfrac{1}{2}(\\hl{2}{42})"
+       },
+       {
+        "tex": "&= \\hl{1}{21} \\text{ m}^2"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{21} \\text{ m}^2",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q4#(b)(i), (ii)",
+    "note": "The whole parallelogram is 480 m\u00b2 and E is the midpoint of [CD] rather than M on [QR], and the answer asks for two areas. The same two steps are used: the diagonal halves the area, then a midpoint halves a triangle.",
+    "legend": {
+     "1": "the answer, the area of triangle BCE",
+     "2": "the area of triangle ABD, 240",
+     "3": "the whole parallelogram, 480"
+    },
+    "steps": [
+     {
+      "ask": "The diagonal BD cuts the parallelogram in two. What is the area of triangle ABD?",
+      "title": "Find the area of triangle ABD",
+      "lines": [
+       {
+        "text": "The diagonal $[BD]$ cuts the parallelogram into two triangles of equal area."
+       },
+       {
+        "tex": "\\hl{2}{|\\triangle ABD|} &= \\tfrac{1}{2}(\\hl{3}{480})"
+       },
+       {
+        "tex": "&= \\hl{2}{240} \\text{ m}^2"
+       }
+      ]
+     },
+     {
+      "ask": "E is the midpoint of CD. How does triangle BCE compare with triangle BCD, and what is its area?",
+      "title": "Find the area of triangle BCE",
+      "lines": [
+       {
+        "text": "Triangle $BCD$ is the other half of the parallelogram, so its area is $\\hl{2}{240\\text{ m}^2}$."
+       },
+       {
+        "text": "$E$ is the midpoint of $[CD]$, so $[CE]$ is half of $[CD]$. Triangles $BCE$ and $BCD$ have the same height from $B$, so $BCE$ has half the area."
+       },
+       {
+        "tex": "\\hl{1}{|\\triangle BCE|} &= \\tfrac{1}{2} \\times \\hl{2}{240}"
+       },
+       {
+        "tex": "&= \\hl{1}{120} \\text{ m}^2"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{240} \\text{ m}^2,\\; \\hl{1}{120} \\text{ m}^2",
+    "graph": null
+   },
+   {
+    "part": "practice-geo-thm17-2",
+    "note": "The areas are now algebraic expressions, so the answer is x found from an equation rather than an area. The diagonal still gives equal areas, so the method is the same.",
+    "legend": {
+     "1": "the answer, x",
+     "2": "the area of one triangle cut off by the diagonal"
+    },
+    "steps": [
+     {
+      "ask": "What do you know about the two triangles that the diagonal AC makes?",
+      "title": "Use Theorem 17",
+      "lines": [
+       {
+        "text": "A diagonal bisects the area of a parallelogram, so the two triangles have equal areas."
+       }
+      ]
+     },
+     {
+      "ask": "The two triangles have equal area. Which two expressions should you set equal?",
+      "title": "Form an equation",
+      "lines": [
+       {
+        "tex": "\\hl{2}{3x + 9} &= \\hl{2}{5x - 3}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you need to do to collect the x terms on one side and find x?",
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "12 &= 2\\hl{1}{x}"
+       },
+       {
+        "tex": "\\hl{1}{x} &= \\hl{1}{6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{x} = \\hl{1}{6}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm18",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "geo-thm21",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "geo-thm3",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "geo-thm5",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "geo-thm6",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "geo-thm7",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "geo-thm8",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ }
+]

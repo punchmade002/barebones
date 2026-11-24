@@ -1,0 +1,507 @@
+[
+ {
+  "skill": "fn-definition",
+  "what": {
+   "say": [
+    "You give it a rule, a mapping or a graph. It tells you whether it is a **function**, and names its domain, codomain and range.",
+    "The key idea: a function gives every input exactly **one** output. An input with two arrows leaving it breaks the rule."
+   ],
+   "in": "mapping, rule or graph",
+   "out": "function or not; domain and range"
+  },
+  "how": {},
+  "example": {
+   "question": "A mapping is given by $f(x) = 2x - 1$, with domain $\\{1, 2, 3, 4\\}$ and codomain $\\mathbb{N}$. Show that $f$ is a function and write down its range.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find each output",
+      "say": "A function needs exactly one output for every input. Work out the output for each number in the domain.",
+      "lines": [
+       {
+        "tex": "f(1) &= 2(1) - 1 = 1",
+        "sym": "Eq(2*1-1,1)",
+        "new": true
+       },
+       {
+        "tex": "f(2) &= 2(2) - 1 = 3",
+        "sym": "Eq(2*2-1,3)",
+        "new": true
+       },
+       {
+        "tex": "f(3) &= 2(3) - 1 = 5",
+        "sym": "Eq(2*3-1,5)",
+        "new": true
+       },
+       {
+        "tex": "f(4) &= 2(4) - 1 = 7",
+        "sym": "Eq(2*4-1,7)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Say why it is a function",
+      "say": "Look at what you found. Every input has one output and no input has two, so the rule holds.",
+      "lines": [
+       {
+        "text": "Each input has exactly one output, so $f$ is a function."
+       }
+      ]
+     },
+     {
+      "title": "Name the range",
+      "say": "The **range** is the set of outputs the rule actually produces. The codomain, $\\mathbb{N}$, is the larger set they are allowed to land in. List only the outputs you found.",
+      "lines": [
+       {
+        "tex": "\\text{Range} &= \\hl{1}{\\{1, 3, 5, 7\\}}",
+        "sym": "FiniteSet(1,3,5,7)",
+        "new": true
+       },
+       {
+        "text": "The range is smaller than the codomain: $2$ and $4$ are in $\\mathbb{N}$ but are never hit."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Range} = \\{1, 3, 5, 7\\}"
+   },
+   "finalSym": "[1,3,5,7]",
+   "answerSym": "[2*1-1,2*2-1,2*3-1,2*4-1]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "fn-evaluate",
+  "what": {
+   "say": [
+    "You give it a function, $f(x)$, and an input. The input can be a number or an expression. It gives back the **output**.",
+    "The key idea: wherever you see $x$ in the rule, write the input in its place, inside brackets, then simplify."
+   ],
+   "in": "$f(x)$ and an input",
+   "out": "the output $f(\\text{input})$"
+  },
+  "how": {
+   "higher": "Higher level uses it as the opening 5-mark part of long Paper 1 questions: put a number into a given formula (a cost, a height, a proportion) and give the answer with the right rounding or unit, before calculus or logs take over.",
+   "ordinary": "Ordinary level asks it nearly every year on Paper 1, as the first part of a 50-mark function question: substitute a time or an amount into a given formula, or fill a table of values to draw a graph."
+  },
+  "example": {
+   "question": "$f(x) = x^2 - 4x + 5$. (i) Find $f(-3)$. (ii) Find $f(a+1)$ in terms of $a$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Substitute the number",
+      "say": "Replace every $x$ with $-3$. Put $-3$ in brackets so the minus sign is squared too.",
+      "lines": [
+       {
+        "tex": "f(-3) &= (-3)^2 - 4(-3) + 5",
+        "sym": "(-3)**2-4*(-3)+5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Work out part (i)",
+      "say": "Square first, then multiply, then add.",
+      "lines": [
+       {
+        "tex": "f(-3) &= 9 + 12 + 5",
+        "sym": "9+12+5"
+       },
+       {
+        "tex": "f(-3) &= \\hl{1}{26}",
+        "sym": "26"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the expression",
+      "say": "This time the input is $a + 1$. Replace every $x$ with the whole bracket $(a + 1)$.",
+      "lines": [
+       {
+        "tex": "f(a+1) &= (a+1)^2 - 4(a+1) + 5",
+        "sym": "(a+1)**2-4*(a+1)+5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand and collect",
+      "say": "Expand $(a+1)^2$ and $-4(a+1)$, then collect like terms.",
+      "lines": [
+       {
+        "tex": "f(a+1) &= a^2 + 2a + 1 - 4a - 4 + 5",
+        "sym": "a**2+2*a+1-4*a-4+5"
+       },
+       {
+        "tex": "f(a+1) &= \\hl{2}{a^2 - 2a + 2}",
+        "sym": "a**2-2*a+2"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f(-3) = 26, \\quad f(a+1) = a^2 - 2a + 2"
+   },
+   "finalSym": "[26, a**2-2*a+2]",
+   "answerSym": "[(-3)**2-4*(-3)+5, expand((a+1)**2-4*(a+1)+5)]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "On a short first part the substitution is where the marks sit. Write it out: some correct substitution earns partial credit even if the arithmetic then goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(a)(i)",
+       "quote": "Some correct substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question asks. An answer with incorrect rounding or no rounding loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(a)(i)",
+       "quote": "Incorrect rounding or no rounding"
+      }
+     ]
+    },
+    {
+     "tip": "Give the unit when the question has one. A correct answer with no unit or the wrong unit loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q7#(a)",
+       "quote": "No unit or incorrect unit"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no working still gets full marks on these parts, but a wrong one with no working gets nothing, so show the substitution.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q10#(a)",
+       "quote": "Accept correct answer without work"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Writing the number into the formula earns marks even if the answer is wrong: the scheme gives credit for substituting the value in.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q7#(a)(ii)",
+       "quote": "substitutes in the 15 to the given formula"
+      }
+     ]
+    },
+    {
+     "tip": "When a part asks what your answer means, say it in words and with the unit: the scheme gives marks for the explanation.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q8#(a)(i)",
+       "quote": "Work of merit in the explanation"
+      }
+     ]
+    },
+    {
+     "tip": "Leaving off the unit does not cost you here, but a correct answer needs to be exact: show the value of the formula, not just a rounded guess.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q8#(a)(i)",
+       "quote": "Accept correct answer without units"
+      }
+     ]
+    },
+    {
+     "tip": "If you are stuck on a later part, writing the value you found in the part before still earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q7#(a)(ii)",
+       "quote": "Accept correct answer without supporting work"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-graph-linear",
+  "what": {
+   "say": [
+    "You give it a linear rule, $ax + b$, and a domain. It gives you the **straight-line** graph.",
+    "The key idea: two points fix a line. Find two (a third checks you), plot them and join them with a ruler."
+   ],
+   "in": "$ax + b$ and a domain",
+   "out": "straight-line graph"
+  },
+  "how": {
+   "higher": "Higher level asks it as a plotting part on Paper 1, worth 5 to 15 marks: complete a table or find two points on a line such as $y = 12 - (2+\\pi)x$, then plot and join them over the stated domain.",
+   "ordinary": "Ordinary level asks it on both papers, worth 5 to 15 marks: draw a line from its rule or from a slope and a point, over a stated domain, and then read something off the graph."
+  },
+  "example": {
+   "question": "Draw the graph of $f(x) = 2x - 1$ for $-1 \\le x \\le 3$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Choose some x-values",
+      "say": "Two points fix a straight line. Take the two ends of the domain and a third point in between to check.",
+      "lines": [
+       {
+        "text": "Use $x = -1$, $x = 0$ and $x = 3$."
+       }
+      ]
+     },
+     {
+      "title": "Find the y-values",
+      "say": "Put each $x$ into $f(x) = 2x - 1$.",
+      "lines": [
+       {
+        "tex": "f(-1) &= 2(-1) - 1 = -3",
+        "sym": "Eq(2*(-1)-1,-3)",
+        "new": true
+       },
+       {
+        "tex": "f(0) &= 2(0) - 1 = -1",
+        "sym": "Eq(2*0-1,-1)",
+        "new": true
+       },
+       {
+        "tex": "f(3) &= 2(3) - 1 = 5",
+        "sym": "Eq(2*3-1,5)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the table",
+      "say": "Pair each $x$ with its $y$. These are the points to plot.",
+      "lines": [
+       {
+        "text": "The points are $(-1, -3)$, $(0, -1)$ and $(3, 5)$."
+       }
+      ]
+     },
+     {
+      "title": "Plot and join",
+      "say": "Plot the three points. They should sit on one line. Join them with a **ruler**, starting at $x = -1$ and stopping at $x = 3$.",
+      "lines": [
+       {
+        "text": "The line slopes up by $2$ for every $1$ across and crosses the $y$-axis at $-1$, matching $2x - 1$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Line through } (-1,-3),\\ (0,-1),\\ (3,5)"
+   },
+   "finalSym": "[-3,-1,5]",
+   "answerSym": "[2*(-1)-1, 2*0-1, 2*3-1]"
+  },
+  "graph": {
+   "f": "2*x-1",
+   "box": [
+    -2,
+    6,
+    4,
+    -4
+   ],
+   "points": [
+    {
+     "x": -1,
+     "y": -3,
+     "name": "(-1, -3)"
+    },
+    {
+     "x": 0,
+     "y": -1,
+     "name": "(0, -1)"
+    },
+    {
+     "x": 3,
+     "y": 5,
+     "name": "(3, 5)"
+    }
+   ],
+   "slots": null
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Draw with a ruler. A freehand graph loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q2#(a)(i)",
+       "quote": "Freehand graph drawn"
+      }
+     ]
+    },
+    {
+     "tip": "Finding two points on the line is worth high partial credit before you even draw it, so write them down first.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q2#(a)(i)",
+       "quote": "2 points on line found"
+      }
+     ]
+    },
+    {
+     "tip": "Stay inside the stated domain. A line plotted correctly but not graphed in the stated domain loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q9#(b)(i), (ii)",
+       "quote": "graphed in the stated domain"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Use a ruler. A line not drawn with a ruler loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q3#(a)(i), (ii)",
+       "quote": "Line not drawn with a ruler"
+      }
+     ]
+    },
+    {
+     "tip": "Draw the line over the whole domain given. A line drawn in a reduced domain loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q3#(a)(i), (ii)",
+       "quote": "Line drawn in reduced domain"
+      }
+     ]
+    },
+    {
+     "tip": "Finding a second point is credited as work of merit even if the line is not finished.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q3#(a)(i), (ii)",
+       "quote": "effort at getting another point"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-limit-concept",
+  "what": {
+   "say": [
+    "You give it a function, $f(x)$, and a value $a$ to approach. It tells you the **limiting value** $f(x)$ closes in on, even if $f(a)$ itself is not allowed.",
+    "The key idea: do not put in $a$. Try $x$ values closer and closer to $a$ from below and from above. If both sides head for the same number, that number is the limit."
+   ],
+   "in": "$f(x)$ near $x = a$",
+   "out": "limiting value"
+  },
+  "how": {
+   "higher": "Higher level has tested it once, as a 5-mark Paper 1 part asking what a cooling-temperature formula settles down to as time goes on, to be described in words."
+  },
+  "example": {
+   "question": "$f(x) = \\dfrac{x^2 - 9}{x - 3}$. Explain why $f(3)$ cannot be found. Complete a table for $x$ close to $3$ on each side and write down the limit of $f(x)$ as $x \\to 3$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "See the problem at 3",
+      "say": "Try $x = 3$ first. The top and the bottom both become $0$, and $\\tfrac{0}{0}$ has no value. So go as close to $3$ as you can instead.",
+      "lines": [
+       {
+        "text": "$f(3) = \\tfrac{0}{0}$, which is not defined."
+       }
+      ]
+     },
+     {
+      "title": "Come from below",
+      "say": "Choose values just under $3$ and work out $f(x)$ for each.",
+      "lines": [
+       {
+        "tex": "f(2.9) &= \\frac{2.9^2 - 9}{2.9 - 3} = 5.9",
+        "sym": "Eq((Rational(29,10)**2-9)/(Rational(29,10)-3),Rational(59,10))",
+        "new": true
+       },
+       {
+        "tex": "f(2.99) &= \\frac{2.99^2 - 9}{2.99 - 3} = 5.99",
+        "sym": "Eq((Rational(299,100)**2-9)/(Rational(299,100)-3),Rational(599,100))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Come from above",
+      "say": "Now values just over $3$.",
+      "lines": [
+       {
+        "tex": "f(3.1) &= \\frac{3.1^2 - 9}{3.1 - 3} = 6.1",
+        "sym": "Eq((Rational(31,10)**2-9)/(Rational(31,10)-3),Rational(61,10))",
+        "new": true
+       },
+       {
+        "tex": "f(3.01) &= \\frac{3.01^2 - 9}{3.01 - 3} = 6.01",
+        "sym": "Eq((Rational(301,100)**2-9)/(Rational(301,100)-3),Rational(601,100))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Read the limit",
+      "say": "From both sides the values close in on $\\hl{1}{6}$. That number is the limit.",
+      "lines": [
+       {
+        "tex": "\\lim_{x \\to 3} f(x) &= \\hl{1}{6}",
+        "sym": "Eq(limit((x**2-9)/(x-3),x,3),6)",
+        "new": true
+       },
+       {
+        "text": "Check: $x^2 - 9 = (x-3)(x+3)$, so $f(x) = x + 3$ for $x \\ne 3$, and that is $6$ at $x = 3$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\lim_{x \\to 3} f(x) = 6"
+   },
+   "finalSym": "6",
+   "answerSym": "limit((x**2-9)/(x-3),x,3)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "When asked what a limit means in context, any valid description scores. Name the quantity, for example the lowest temperature the coffee will cool to.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q9#(a)(ii)",
+       "quote": "The lowest temperature the coffee will cool to"
+      }
+     ]
+    },
+    {
+     "tip": "Even a partial answer earns marks if it mentions the quantity or the word limit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q9#(a)(ii)",
+       "quote": "reference to temperature or limit"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

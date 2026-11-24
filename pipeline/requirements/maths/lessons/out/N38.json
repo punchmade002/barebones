@@ -1,0 +1,196 @@
+[
+{"skill": "num-prime-factors", "problems": [
+ {"part": "practice-num-prime-factors-1", "note": null,
+  "legend": {"1": "the common primes, lowest powers", "2": "the HCF, the answer"},
+  "steps": [
+   {"ask": "What is the smallest prime that divides 84, and what is left after dividing?", "title": "Factorise 84",
+    "lines": [{"tex": "84 &= 2 \\times 42"}, {"tex": "&= 2 \\times 2 \\times 21"}, {"tex": "&= 2^2 \\times 3 \\times 7"}]},
+   {"ask": "Using the same method, which prime divides 126 first?", "title": "Factorise 126",
+    "lines": [{"tex": "126 &= 2 \\times 63"}, {"tex": "&= 2 \\times 3 \\times 21"}, {"tex": "&= 2 \\times 3^2 \\times 7"}]},
+   {"ask": "Which primes are in both lists, and which power of each is the lower one?", "title": "Multiply the primes common to both, using the lower power of each",
+    "lines": [{"text": "Common: $\\hl{1}{2^1}$, $\\hl{1}{3^1}$ and $\\hl{1}{7^1}$."}, {"tex": "\\text{HCF} &= \\hl{1}{2 \\times 3 \\times 7}"}, {"tex": "&= \\hl{2}{42}"}]}
+  ],
+  "final": "\\hl{2}{42}",
+  "graph": null},
+ {"part": "practice-num-prime-factors-2", "note": "The numbers change to 180 and 300, and the shared 2 is now squared, so the lower power of 2 is 2 squared. The steps are the same.",
+  "legend": {"1": "the common primes, lowest powers", "2": "the HCF, the answer"},
+  "steps": [
+   {"ask": "What is the smallest prime that divides 84, and what is left after dividing?", "title": "Factorise 180",
+    "lines": [{"tex": "180 &= 2 \\times 90"}, {"tex": "&= 2 \\times 2 \\times 45"}, {"tex": "&= 2^2 \\times 3^2 \\times 5"}]},
+   {"ask": "Using the same method, which prime divides 300 first?", "title": "Factorise 300",
+    "lines": [{"tex": "300 &= 2 \\times 150"}, {"tex": "&= 2 \\times 2 \\times 75"}, {"tex": "&= 2^2 \\times 3 \\times 5^2"}]},
+   {"ask": "Which primes are in both lists, and which power of each is the lower one?", "title": "Multiply the primes common to both, using the lower power of each",
+    "lines": [{"text": "Common: $\\hl{1}{2^2}$, $\\hl{1}{3^1}$ and $\\hl{1}{5^1}$."}, {"tex": "\\text{HCF} &= \\hl{1}{2^2 \\times 3 \\times 5}"}, {"tex": "&= \\hl{2}{60}"}]}
+  ],
+  "final": "\\hl{2}{60}",
+  "graph": null},
+ {"part": "practice-num-prime-factors-3", "note": "This is a word problem with three numbers instead of two, so the HCF is taken across all three. Two things change: the context and the third number. The steps are the same.",
+  "legend": {"1": "the common primes, lowest powers", "2": "the HCF, the answer"},
+  "steps": [
+   {"ask": "What is the smallest prime that divides 84, and what is left after dividing?", "title": "Factorise 60",
+    "lines": [{"tex": "60 &= 2 \\times 30"}, {"tex": "&= 2 \\times 2 \\times 15"}, {"tex": "&= 2^2 \\times 3 \\times 5"}]},
+   {"ask": "Using the same method, which prime divides each of 90 and 150 first?", "title": "Factorise 90 and 150",
+    "lines": [{"tex": "90 &= 2 \\times 3^2 \\times 5"}, {"tex": "150 &= 2 \\times 3 \\times 5^2"}]},
+   {"ask": "Which primes are in all three lists, and what is the lowest power of each?", "title": "The greatest number of boxes is the HCF: multiply the primes common to all three, using the lowest power of each",
+    "lines": [{"text": "Common: $\\hl{1}{2^1}$, $\\hl{1}{3^1}$ and $\\hl{1}{5^1}$."}, {"tex": "\\text{HCF} &= \\hl{1}{2 \\times 3 \\times 5}"}, {"tex": "&= \\hl{2}{30}"}]}
+  ],
+  "final": "\\hl{2}{30} \\text{ boxes}",
+  "graph": null}
+]},
+{"skill": "num-sci-notation", "problems": [
+ {"part": "maths-pp-2022-ordinary-p1-q5#(a)(i), (ii)", "note": null,
+  "legend": {"1": "the number a, with 1 ≤ a < 10", "2": "the power of ten, 10ⁿ"},
+  "steps": [
+   {"ask": "Where must the decimal point go to get a number from 1 to 10, and how many places does it move?", "title": "Write 1200 in the form a × 10ⁿ",
+    "lines": [{"text": "Move the decimal point so that $1 \\le a < 10$: three places, so $n = \\hl{2}{3}$."}, {"tex": "1200 &= \\hl{1}{1.2} \\times \\hl{2}{10^3}"}]},
+   {"ask": "Which way does the decimal point move for 0.27, and so is n positive or negative?", "title": "Write 0.27 in the form a × 10ⁿ",
+    "lines": [{"text": "Move the decimal point one place right to get $\\hl{1}{2.7}$, so $n = \\hl{2}{-1}$."}, {"tex": "0.27 &= \\hl{1}{2.7} \\times \\hl{2}{10^{-1}}"}]}
+  ],
+  "final": "\\hl{1}{1.2} \\times \\hl{2}{10^3}, \\quad \\hl{1}{2.7} \\times \\hl{2}{10^{-1}}",
+  "graph": null},
+ {"part": "maths-pp-2025-ordinary-p1-q6#(b)", "note": "The numbers change from 1200 and 0.27 to 58 000 and 0.036, so the powers become 4 and -2. The steps are the same.",
+  "legend": {"1": "the number a, with 1 ≤ a < 10", "2": "the power of ten, 10ⁿ"},
+  "steps": [
+   {"ask": "Where must the decimal point go to get a number from 1 to 10, and how many places does it move?", "title": "Write 58 000 as a number between 1 and 10 times a power of 10",
+    "lines": [{"text": "Put the decimal point after the first digit: $\\hl{1}{5.8}$. It moved 4 places, so the power is $\\hl{2}{4}$."}, {"tex": "58\\,000 &= \\hl{1}{5.8} \\times \\hl{2}{10\\,000}"}, {"tex": "&= \\hl{1}{5.8} \\times \\hl{2}{10^{4}}"}]},
+   {"ask": "How many places does the decimal point move to get from 0.036 to a number from 1 to 10, and in which direction?", "title": "Write 0.036 as a number between 1 and 10 times a power of 10",
+    "lines": [{"text": "Put the decimal point after the first non-zero digit: $\\hl{1}{3.6}$. It moved 2 places to the right, so the power is $\\hl{2}{-2}$."}, {"tex": "0.036 &= \\hl{1}{3.6} \\times \\hl{2}{\\frac{1}{100}}"}, {"tex": "&= \\hl{1}{3.6} \\times \\hl{2}{10^{-2}}"}]}
+  ],
+  "final": "58\\,000 = \\hl{1}{5.8} \\times \\hl{2}{10^{4}},\\quad 0.036 = \\hl{1}{3.6} \\times \\hl{2}{10^{-2}}",
+  "graph": null},
+ {"part": "practice-num-sci-notation-1", "note": "The number is now written in words, 4600 million, so an extra first step turns million into 10 to the power 6. The decimal move and the final form are the same as before.",
+  "legend": {"1": "the number a, with 1 ≤ a < 10", "2": "the power of ten, 10ⁿ"},
+  "steps": [
+   {"ask": "What power of 10 is a million, and what does that make 4600 million?", "title": "Write 4600 million as a number",
+    "lines": [{"text": "A million is $10^6$."}, {"tex": "4600 \\text{ million} &= 4600 \\times 10^6"}]},
+   {"ask": "Where does the decimal point go to get a number from 1 to 10, and what power of 10 is left?", "title": "Write 4600 in the form a × 10ⁿ with 1 ≤ a < 10",
+    "lines": [{"tex": "4600 \\times 10^6 &= \\hl{1}{4.6} \\times 10^3 \\times 10^6"}, {"tex": "&= \\hl{1}{4.6} \\times \\hl{2}{10^9}"}]}
+  ],
+  "final": "\\hl{1}{4.6} \\times \\hl{2}{10^9}",
+  "graph": null}
+]},
+{"skill": "num-surds", "problems": [
+ {"part": "practice-num-surds-1", "note": null,
+  "legend": {"1": "the surd in the answer", "2": "the whole-number coefficient in the answer"},
+  "steps": [
+   {"ask": "Which square number divides into 72 and into 18, and what is left under each root?", "title": "Write each number as a square times 2",
+    "lines": [{"tex": "\\sqrt{72} &= \\sqrt{36 \\times 2}"}, {"tex": "\\sqrt{18} &= \\sqrt{9 \\times 2}"}]},
+   {"ask": "What is the square root of each square number, and what stays under the root?", "title": "Take the square roots out",
+    "lines": [{"tex": "\\sqrt{72} &= 6\\hl{1}{\\sqrt{2}}"}, {"tex": "\\sqrt{18} &= 3\\hl{1}{\\sqrt{2}}"}]},
+   {"ask": "Which surd do the two terms share, and what do the whole-number parts add to?", "title": "Add the like surds",
+    "lines": [{"tex": "6\\hl{1}{\\sqrt{2}} + 3\\hl{1}{\\sqrt{2}} &= \\hl{2}{9}\\hl{1}{\\sqrt{2}}"}]}
+  ],
+  "final": "\\hl{2}{9}\\hl{1}{\\sqrt{2}}",
+  "graph": null},
+ {"part": "practice-num-surds-3", "note": "Two things change: the sign (subtract instead of add) and the surd, now √3 instead of √2. The steps are the same.",
+  "legend": {"1": "the surd in the answer", "2": "the whole-number coefficient in the answer"},
+  "steps": [
+   {"ask": "Which square numbers divide into 75 and into 12, and what is left under each root?", "title": "Write each number as a square times 3",
+    "lines": [{"tex": "\\sqrt{75} &= \\sqrt{25 \\times 3}"}, {"tex": "\\sqrt{12} &= \\sqrt{4 \\times 3}"}]},
+   {"ask": "What is the square root of each square number, and what stays under the root?", "title": "Take the square roots out",
+    "lines": [{"tex": "\\sqrt{75} &= 5\\hl{1}{\\sqrt{3}}"}, {"tex": "\\sqrt{12} &= 2\\hl{1}{\\sqrt{3}}"}]},
+   {"ask": "Which surd is shared, and what do the whole-number parts give when subtracted?", "title": "Subtract the like surds",
+    "lines": [{"tex": "5\\hl{1}{\\sqrt{3}} - 2\\hl{1}{\\sqrt{3}} &= \\hl{2}{3}\\hl{1}{\\sqrt{3}}"}]}
+  ],
+  "final": "\\hl{2}{3}\\hl{1}{\\sqrt{3}}",
+  "graph": null},
+ {"part": "maths-pp-2021-higher-p1-q3#(a)", "note": "This multiplies three surds and then simplifies the result, rather than adding like surds, and it is a volume rather than a sum. The square-times step at the end is the same idea as in the first problem.",
+  "legend": {"1": "the surd in the answer", "2": "the whole-number coefficient in the answer"},
+  "steps": [
+   {"ask": "Which two dimensions multiply to make each face area?", "title": "Write the three face areas as equations",
+    "lines": [{"text": "Each face area is the product of two of the dimensions."}, {"tex": "xz &= 2\\sqrt{2}"}, {"tex": "yz &= 8\\sqrt{6}"}, {"tex": "xy &= 4\\sqrt{3}"}]},
+   {"ask": "What does the product of the three left-hand sides equal, and what do the right-hand sides multiply to?", "title": "Multiply the three equations",
+    "lines": [{"text": "The volume is $xyz$, and the product of the three areas is $(xyz)^2$."}, {"tex": "(xz)(yz)(xy) &= (2\\sqrt{2})(8\\sqrt{6})(4\\sqrt{3})"}, {"tex": "x^2y^2z^2 &= 2 \\times 8 \\times 4 \\times \\sqrt{2 \\times 6 \\times 3}"}, {"tex": "&= 64\\sqrt{36}"}, {"tex": "&= 64 \\times 6"}, {"tex": "&= 384"}]},
+   {"ask": "Which square number divides into 384, and what is left under the root?", "title": "Take the square root to get the volume",
+    "lines": [{"tex": "xyz &= \\sqrt{384}"}, {"tex": "&= \\sqrt{64 \\times 6}"}, {"tex": "&= \\hl{2}{8}\\hl{1}{\\sqrt{6}}"}]}
+  ],
+  "final": "V = \\hl{2}{8}\\hl{1}{\\sqrt{6}}\\ \\text{cm}^3",
+  "graph": null}
+]},
+{"skill": "diff-curve-sketch", "problems": [
+ {"part": "practice-diff-curve-sketch-1", "note": null,
+  "legend": {"1": "the slope, dy/dx", "2": "x at a turning point", "3": "y at a turning point", "4": "second derivative test (sign)"},
+  "steps": [
+   {"ask": "To find the turning points, which expression do you need first, and what is it?", "title": "Differentiate",
+    "lines": [{"tex": "y &= x^3 - 6x^2 + 9x"}, {"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\hl{1}{3x^2 - 12x + 9}"}]},
+   {"ask": "What is the slope at a turning point? Use that to find x.", "title": "Set $\\frac{dy}{dx} = 0$",
+    "lines": [{"tex": "\\hl{1}{3x^2 - 12x + 9} &= \\hl{1}{0}"}, {"tex": "x^2 - 4x + 3 &= 0"}, {"tex": "(x - 1)(x - 3) &= 0"}, {"tex": "x &= \\hl{2}{1} \\quad \\text{or} \\quad x = \\hl{2}{3}"}]},
+   {"ask": "Which equation do you substitute each x-value into to get y?", "title": "Find the $y$-values",
+    "lines": [{"tex": "x = \\hl{2}{1}: \\quad y &= 1 - 6 + 9 = \\hl{3}{4}"}, {"tex": "x = \\hl{2}{3}: \\quad y &= 27 - 54 + 27 = \\hl{3}{0}"}]},
+   {"ask": "Which sign of the second derivative means a maximum, and what sign does each x-value give?", "title": "Classify using the second derivative",
+    "lines": [{"tex": "\\frac{d^2y}{dx^2} &= 6x - 12"}, {"text": "At $x = \\hl{2}{1}$: $\\hl{4}{6 - 12 = -6 < 0}$, so $(\\hl{2}{1}, \\hl{3}{4})$ is a local maximum."}, {"text": "At $x = \\hl{2}{3}$: $\\hl{4}{18 - 12 = 6 > 0}$, so $(\\hl{2}{3}, \\hl{3}{0})$ is a local minimum."}]}
+  ],
+  "final": "\\text{Local max } (\\hl{2}{1}, \\hl{3}{4}); \\ \\text{local min } (\\hl{2}{3}, \\hl{3}{0})",
+  "graph": {"f": "x**3 - 6*x**2 + 9*x", "box": [-0.5, 6, 3.5, -2], "tangent": true, "points": [{"x": 1, "y": 4, "name": "local max (1, 4)"}, {"x": 3, "y": 0, "name": "local min (3, 0)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}},
+ {"part": "practice-diff-curve-sketch-2", "note": "The x squared term is missing, so the turning points sit at x = 2 and x = -2, and the maximum is at the negative x-value. The steps are the same.",
+  "legend": {"1": "the slope, dy/dx", "2": "x at a turning point", "3": "y at a turning point", "4": "second derivative test (sign)"},
+  "steps": [
+   {"ask": "To find the turning points, which expression do you need first, and what is it?", "title": "Differentiate",
+    "lines": [{"tex": "y &= x^3 - 12x"}, {"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\hl{1}{3x^2 - 12}"}]},
+   {"ask": "What is the slope at a turning point? Use that to find x.", "title": "Set $\\frac{dy}{dx} = 0$",
+    "lines": [{"tex": "\\hl{1}{3x^2 - 12} &= \\hl{1}{0}"}, {"tex": "x^2 - 4 &= 0"}, {"tex": "(x - 2)(x + 2) &= 0"}, {"tex": "x &= \\hl{2}{2} \\quad \\text{or} \\quad x = \\hl{2}{-2}"}]},
+   {"ask": "Which equation do you substitute each x-value into to get y?", "title": "Find the $y$-values",
+    "lines": [{"tex": "x = \\hl{2}{2}: \\quad y &= 8 - 24 = \\hl{3}{-16}"}, {"tex": "x = \\hl{2}{-2}: \\quad y &= -8 + 24 = \\hl{3}{16}"}]},
+   {"ask": "Which sign of the second derivative means a maximum, and what sign does each x-value give?", "title": "Classify using the second derivative",
+    "lines": [{"tex": "\\frac{d^2y}{dx^2} &= 6x"}, {"text": "At $x = \\hl{2}{-2}$: $\\hl{4}{-12 < 0}$, so $(\\hl{2}{-2}, \\hl{3}{16})$ is a local maximum."}, {"text": "At $x = \\hl{2}{2}$: $\\hl{4}{12 > 0}$, so $(\\hl{2}{2}, \\hl{3}{-16})$ is a local minimum."}]}
+  ],
+  "final": "\\text{Local max } (\\hl{2}{-2}, \\hl{3}{16}); \\ \\text{local min } (\\hl{2}{2}, \\hl{3}{-16})",
+  "graph": {"f": "x**3 - 12*x", "box": [-4.5, 22, 4.5, -22], "tangent": true, "points": [{"x": -2, "y": 16, "name": "local max (-2, 16)"}, {"x": 2, "y": -16, "name": "local min (2, -16)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}},
+ {"part": "practice-diff-curve-sketch-3", "note": "The x cubed term is now negative and an x squared term is added, so the curve turns the other way and the maximum is at the larger x-value. The steps are the same.",
+  "legend": {"1": "the slope, dy/dx", "2": "x at a turning point", "3": "y at a turning point", "4": "second derivative test (sign)"},
+  "steps": [
+   {"ask": "To find the turning points, which expression do you need first, and what is it?", "title": "Differentiate",
+    "lines": [{"tex": "y &= -x^3 + 3x^2 + 9x"}, {"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\hl{1}{-3x^2 + 6x + 9}"}]},
+   {"ask": "What is the slope at a turning point? Use that to find x.", "title": "Set $\\frac{dy}{dx} = 0$",
+    "lines": [{"tex": "\\hl{1}{-3x^2 + 6x + 9} &= \\hl{1}{0}"}, {"tex": "x^2 - 2x - 3 &= 0"}, {"tex": "(x - 3)(x + 1) &= 0"}, {"tex": "x &= \\hl{2}{3} \\quad \\text{or} \\quad x = \\hl{2}{-1}"}]},
+   {"ask": "Which equation do you substitute each x-value into to get y?", "title": "Find the $y$-values",
+    "lines": [{"tex": "x = \\hl{2}{3}: \\quad y &= -27 + 27 + 27 = \\hl{3}{27}"}, {"tex": "x = \\hl{2}{-1}: \\quad y &= 1 + 3 - 9 = \\hl{3}{-5}"}]},
+   {"ask": "Which sign of the second derivative means a maximum, and what sign does each x-value give?", "title": "Classify using the second derivative",
+    "lines": [{"tex": "\\frac{d^2y}{dx^2} &= -6x + 6"}, {"text": "At $x = \\hl{2}{3}$: $\\hl{4}{-18 + 6 = -12 < 0}$, so $(\\hl{2}{3}, \\hl{3}{27})$ is a local maximum."}, {"text": "At $x = \\hl{2}{-1}$: $\\hl{4}{6 + 6 = 12 > 0}$, so $(\\hl{2}{-1}, \\hl{3}{-5})$ is a local minimum."}]}
+  ],
+  "final": "\\text{Local max } (\\hl{2}{3}, \\hl{3}{27}); \\ \\text{local min } (\\hl{2}{-1}, \\hl{3}{-5})",
+  "graph": {"f": "-x**3 + 3*x**2 + 9*x", "box": [-2.5, 30, 4.5, -9], "tangent": true, "points": [{"x": 3, "y": 27, "name": "local max (3, 27)"}, {"x": -1, "y": -5, "name": "local min (-1, -5)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}}
+]},
+{"skill": "diff-point-given-slope", "problems": [
+ {"part": "practice-diff-point-given-slope-1", "note": null,
+  "legend": {"1": "the slope, dy/dx", "2": "x at the point", "3": "y at the point"},
+  "steps": [
+   {"ask": "What is the slope of the curve at any x, and which expression gives it?", "title": "Differentiate to get the slope",
+    "lines": [{"tex": "y &= x^2 - 6x + 4"}, {"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\hl{1}{2x - 6}"}]},
+   {"ask": "What equation says the slope is 2? Solve it for x.", "title": "Set the slope equal to 2",
+    "lines": [{"tex": "\\hl{1}{2x - 6} &= \\hl{1}{2}"}, {"tex": "2x &= 8"}, {"tex": "x &= \\hl{2}{4}"}]},
+   {"ask": "Which equation gives y, the curve or its slope? Substitute x into it.", "title": "Find y at this x-value",
+    "lines": [{"tex": "y &= (\\hl{2}{4})^2 - 6(\\hl{2}{4}) + 4"}, {"tex": "&= \\hl{3}{-4}"}]}
+  ],
+  "final": "(\\hl{2}{4}, \\hl{3}{-4})",
+  "graph": {"f": "x**2 - 6*x + 4", "box": [0, 12, 7, -6], "tangent": true, "points": [{"x": 4, "y": -4, "name": "slope 2 at (4, -4)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}},
+ {"part": "practice-diff-point-given-slope-3", "note": "The slope is no longer given directly: it comes from the parallel line 2x + y = 5, which must be rearranged to get -2. The rest is the same.",
+  "legend": {"1": "the slope, dy/dx", "2": "x at the point", "3": "y at the point"},
+  "steps": [
+   {"ask": "How do you rearrange 2x + y = 5 so that y is on its own, and what is the slope of the line?", "title": "Find the slope of the line",
+    "lines": [{"tex": "2x + y &= 5"}, {"tex": "y &= \\hl{1}{-2}x + 5"}, {"text": "The line has slope $\\hl{1}{-2}$, so the tangent has slope $\\hl{1}{-2}$."}]},
+   {"ask": "What is the slope of the curve at any x, and which expression gives it?", "title": "Differentiate the curve",
+    "lines": [{"tex": "y &= x^2 + 4x - 1"}, {"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\hl{1}{2x + 4}"}]},
+   {"ask": "What equation says the slope is -2? Solve it for x.", "title": "Set the slope equal to $-2$ and solve",
+    "lines": [{"tex": "\\hl{1}{2x + 4} &= \\hl{1}{-2}"}, {"tex": "2x &= -6"}, {"tex": "x &= \\hl{2}{-3}"}]},
+   {"ask": "Which equation gives y, and what do you get when you substitute the x-value?", "title": "Find y at this x-value",
+    "lines": [{"tex": "y &= (\\hl{2}{-3})^2 + 4(\\hl{2}{-3}) - 1"}, {"tex": "&= \\hl{3}{-4}"}]}
+  ],
+  "final": "(\\hl{2}{-3}, \\hl{3}{-4})",
+  "graph": {"f": "x**2 + 4*x - 1", "box": [-6, 12, 1, -6], "tangent": true, "points": [{"x": -3, "y": -4, "name": "(-3, -4)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}},
+ {"part": "practice-diff-point-given-slope-2", "note": "The curve is now a cubic, so dy/dx is a quadratic and gives two x-values, and so two points. The slope still comes from the parallel line, and the steps are the same.",
+  "legend": {"1": "the slope, dy/dx", "2": "x at the point", "3": "y at the point"},
+  "steps": [
+   {"ask": "What is the slope of the line, and what does that make the slope of the tangent?", "title": "Find the slope of the line",
+    "lines": [{"text": "The line $y = -9x + 4$ has slope $\\hl{1}{-9}$, so the tangent has slope $\\hl{1}{-9}$."}]},
+   {"ask": "What is the slope of the curve at any x, and which expression gives it?", "title": "Differentiate the curve",
+    "lines": [{"tex": "y &= x^3 - 3x^2 - 9x + 2"}, {"tex": "\\hl{1}{\\frac{dy}{dx}} &= \\hl{1}{3x^2 - 6x - 9}"}]},
+   {"ask": "Which equation says the slope is -9, and how many x-values does it give?", "title": "Set the slope equal to -9 and solve",
+    "lines": [{"tex": "\\hl{1}{3x^2 - 6x - 9} &= \\hl{1}{-9}"}, {"tex": "3x^2 - 6x &= 0"}, {"tex": "3x(x - 2) &= 0"}, {"tex": "x &= \\hl{2}{0} \\text{ or } x = \\hl{2}{2}"}]},
+   {"ask": "Which equation gives y? Substitute each x-value into it.", "title": "Find y for each x-value",
+    "lines": [{"tex": "x = \\hl{2}{0}:\\quad y &= \\hl{3}{2}"}, {"tex": "x = \\hl{2}{2}:\\quad y &= 8 - 12 - 18 + 2"}, {"tex": "&= \\hl{3}{-20}"}]}
+  ],
+  "final": "(\\hl{2}{0}, \\hl{3}{2}) \\text{ and } (\\hl{2}{2}, \\hl{3}{-20})",
+  "graph": {"f": "x**3 - 3*x**2 - 9*x + 2", "box": [-3.5, 10, 5.5, -28], "tangent": true, "points": [{"x": 0, "y": 2, "name": "(0, 2)"}, {"x": 2, "y": -20, "name": "(2, -20)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}}
+]}
+]

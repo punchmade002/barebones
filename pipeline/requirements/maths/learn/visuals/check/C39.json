@@ -1,0 +1,289 @@
+[
+ {
+  "skill": "trig-area-triangle",
+  "of": "686549245848",
+  "title": "Find the area of a triangle with ½ab sin C",
+  "show": "triangle ABC with sides 9 cm and 12 cm and the included angle 40° at A",
+  "example": {
+   "question": "In triangle $ABC$, $|AB| = 9$ cm, $|AC| = 12$ cm and $|\\angle BAC| = 40°$. Find the area of the triangle, correct to one decimal place.",
+   "final": "34.7\\text{ cm}^2",
+   "steps": [
+    {
+     "say": "The angle $40°$ is at $A$, between sides $AB$ and $AC$. It is the included angle, so the formula applies.",
+     "rows": [
+      {
+       "aside": "$a = 9$, $b = 12$, $C = 40°$."
+      }
+     ]
+    },
+    {
+     "say": "Write the formula, then put the numbers in.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\text{Area}}",
+       "r": "= \\tfrac12(9)(12)\\sin 40°"
+      }
+     ]
+    },
+    {
+     "say": "Do $\\frac12 \\times 9 \\times 12$ first, then multiply by $\\sin 40°$ in degree mode.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= 54\\sin 40°"
+      },
+      {
+       "l": "",
+       "r": "= 34.7\\text{ cm}^2"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-cosine-rule",
+  "of": "9bd7bb85f9fd",
+  "title": "Apply the cosine rule",
+  "show": "triangle ABC with sides 9 and 12 cm and the included 40° angle, BC unknown opposite it",
+  "example": {
+   "question": "In triangle $ABC$, $|AB| = 9$ cm, $|AC| = 12$ cm and $|\\angle BAC| = 40^\\circ$. Find $|BC|$, correct to two decimal places.",
+   "final": "|BC| = 7.72 cm",
+   "steps": [
+    {
+     "say": "You know two sides and the angle between them. Use the cosine rule with $a = |BC|$ opposite the $\\hl{1}{40^\\circ}$ angle.",
+     "rows": [
+      {
+       "l": "a^2",
+       "r": "= b^2 + c^2 - 2bc\\cos A"
+      }
+     ]
+    },
+    {
+     "say": "Put in $b = 12$, $c = 9$ and the angle $\\hl{1}{40^\\circ}$.",
+     "rows": [
+      {
+       "l": "a^2",
+       "r": "= 12^2 + 9^2 - 2(12)(9)\\cos \\hl{1}{40^\\circ}"
+      },
+      {
+       "l": "",
+       "r": "= 225 - 216\\cos 40^\\circ"
+      },
+      {
+       "aside": "Check your calculator is in degree mode."
+      }
+     ]
+    },
+    {
+     "say": "Multiply, then subtract. Do not take the square root yet.",
+     "rows": [
+      {
+       "l": "a^2",
+       "r": "= 59.53"
+      }
+     ]
+    },
+    {
+     "say": "Square root both sides to get the side $a$.",
+     "rows": [
+      {
+       "l": "a",
+       "r": "= \\sqrt{59.53}"
+      },
+      {
+       "l": "",
+       "r": "= 7.72 \\text{ cm}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-triangle-problems",
+  "of": "5fec11596328",
+  "title": "Solve multi-step 2D triangle problems",
+  "show": "quadrilateral field ABCD with diagonal AC, triangle ABC with 7 m, 9 m and the included angle",
+  "example": {
+   "question": "A field $ABCD$ is split by the diagonal $[AC]$. In triangle $ABC$, $|AB| = 7$ m, $|BC| = 9$ m and $|\\angle ABC| = 70^\\circ$. In triangle $ACD$, $|CD| = 8$ m and $|\\angle ACD| = 50^\\circ$. Find the area of the field, correct to one decimal place.",
+   "final": "58.2 m^2",
+   "steps": [
+    {
+     "say": "Triangle $ABC$ has two sides and the angle between them. Use the cosine rule to find $\\hl{1}{|AC|}$, which both triangles share.",
+     "rows": [
+      {
+       "l": "|AC|^2",
+       "r": "= 7^2 + 9^2 - 2(7)(9)\\cos 70^\\circ"
+      },
+      {
+       "l": "",
+       "r": "= 86.91"
+      },
+      {
+       "l": "\\hl{1}{|AC|}",
+       "r": "= 9.32"
+      }
+     ]
+    },
+    {
+     "say": "Use the area formula with two sides and the angle between them.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= \\tfrac{1}{2}(7)(9)\\sin 70^\\circ"
+      },
+      {
+       "l": "",
+       "r": "= 29.60"
+      }
+     ]
+    },
+    {
+     "say": "Now use the diagonal $\\hl{1}{9.32}$ with $|CD|$ and the angle between them.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= \\tfrac{1}{2}(9.32)(8)\\sin 50^\\circ"
+      },
+      {
+       "l": "",
+       "r": "= 28.56"
+      }
+     ]
+    },
+    {
+     "say": "The field is the two triangles together.",
+     "rows": [
+      {
+       "l": "29.60 + 28.56",
+       "r": "= 58.16"
+      },
+      {
+       "aside": "To one decimal place, that is $58.2$ m$^2$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-sine-ambiguous",
+  "of": "a56f1c49eaf3",
+  "title": "Handle the ambiguous case of the sine rule",
+  "show": "angle A with BC=10 cm swinging to meet the base at two points giving two triangles",
+  "example": {
+   "question": "In triangle $ABC$, $|BC| = 10$ cm, $|AC| = 13$ cm and $|\\angle BAC| = 35^\\circ$. Find the two possible values of $|\\angle ABC|$, correct to one decimal place.",
+   "final": "48.2^\\circ \\text{ or } 131.8^\\circ",
+   "steps": [
+    {
+     "say": "Match each side with the angle opposite it. $|BC|$ is opposite $35^\\circ$, and $|AC|$ is opposite the angle $B$ we want.",
+     "rows": [
+      {
+       "l": "\\frac{\\sin B}{13}",
+       "r": "= \\frac{\\sin 35^\\circ}{10}"
+      }
+     ]
+    },
+    {
+     "say": "Multiply both sides by $13$ to get $\\hl{1}{\\sin B}$ on its own.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\sin B}",
+       "r": "= \\frac{13\\sin 35^\\circ}{10}"
+      },
+      {
+       "l": "",
+       "r": "= 0.7456"
+      }
+     ]
+    },
+    {
+     "say": "Take the inverse sine for the angle in the first quadrant.",
+     "rows": [
+      {
+       "l": "B",
+       "r": "= \\sin^{-1}(0.7456)"
+      },
+      {
+       "l": "",
+       "r": "= 48.2^\\circ"
+      }
+     ]
+    },
+    {
+     "say": "The sine is positive in the second quadrant too. Subtract from $180^\\circ$. Check that it still fits: $131.8^\\circ + 35^\\circ < 180^\\circ$.",
+     "rows": [
+      {
+       "l": "B",
+       "r": "= 180^\\circ - 48.2^\\circ"
+      },
+      {
+       "l": "",
+       "r": "= 131.8^\\circ"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-3d",
+  "of": "5015018d9f2a",
+  "title": "Solve 3D trigonometry problems",
+  "show": "cuboid 12 by 5 by 6 cm with the space diagonal and the base diagonal marked, and the angle between them",
+  "example": {
+   "question": "A box has a rectangular base $12$ cm by $5$ cm and a height of $6$ cm. Find the angle between a space diagonal and the base, correct to one decimal place.",
+   "final": "24.8^\\circ",
+   "steps": [
+    {
+     "say": "The space diagonal, the base diagonal and the vertical edge form a right-angled triangle. First find the $\\hl{1}{\\text{base diagonal}}$ with Pythagoras.",
+     "rows": [
+      {
+       "l": "d^2",
+       "r": "= 12^2 + 5^2"
+      },
+      {
+       "l": "",
+       "r": "= 169"
+      },
+      {
+       "l": "\\hl{1}{d}",
+       "r": "= 13"
+      }
+     ]
+    },
+    {
+     "say": "The angle $\\theta$ is between the space diagonal and its shadow on the base. The shadow is $\\hl{1}{13}$. The side opposite $\\theta$ is the height, $6$.",
+     "rows": [
+      {
+       "aside": "Opposite $= 6$, adjacent $= 13$."
+      }
+     ]
+    },
+    {
+     "say": "We know the opposite and adjacent sides, so use tan.",
+     "rows": [
+      {
+       "l": "\\tan\\theta",
+       "r": "= \\frac{6}{13}"
+      }
+     ]
+    },
+    {
+     "say": "Take the inverse tan.",
+     "rows": [
+      {
+       "l": "\\theta",
+       "r": "= \\tan^{-1}\\left(\\frac{6}{13}\\right)"
+      },
+      {
+       "l": "",
+       "r": "= 24.8^\\circ"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

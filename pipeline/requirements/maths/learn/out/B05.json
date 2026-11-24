@@ -1,0 +1,314 @@
+[
+ {
+  "skill": "alg-factor-hcf",
+  "what": {
+   "say": [
+    "You give it an expression with several terms, like $6x^2 - 9x$. It writes it as one **common factor** multiplied by a bracket.",
+    "The key idea: find the biggest number and the most $x$'s that every term shares. Pull that out, and what is left goes in the bracket."
+   ],
+   "in": "expression",
+   "out": "factor $\\times$ bracket"
+  },
+  "how": {
+   "higher": "Higher level never tests it on its own. It is a first move inside bigger Paper 1 questions, for example before completing the square or simplifying an expression."
+  },
+  "example": {
+   "question": "Take out the highest common factor of $12x^3 - 18x^2 + 6x$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the common factor",
+      "say": "The numbers are $12$, $18$ and $6$. The biggest number that divides all three is $6$. Every term also has at least one $x$. So the common factor is $\\hl{1}{6x}$.",
+      "lines": [
+       {
+        "text": "Highest common factor: $\\hl{1}{6x}$"
+       }
+      ]
+     },
+     {
+      "title": "Divide each term",
+      "say": "Divide every term by $\\hl{1}{6x}$. Write each term as $\\hl{1}{6x}$ times what is left.",
+      "lines": [
+       {
+        "tex": "12x^3 - 18x^2 + 6x &= \\hl{1}{6x}\\cdot 2x^2 - \\hl{1}{6x}\\cdot 3x + \\hl{1}{6x}\\cdot 1",
+        "sym": "6*x*2*x**2-6*x*3*x+6*x*1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the bracket",
+      "say": "Take $\\hl{1}{6x}$ outside. The leftovers go inside the bracket.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{6x}(2x^2 - 3x + 1)",
+        "sym": "6*x*(2*x**2-3*x+1)"
+       },
+       {
+        "text": "Check: multiply the bracket back out and you get the original."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "6x(2x^2 - 3x + 1)"
+   },
+   "finalSym": "6*x*(2*x**2-3*x+1)",
+   "answerSym": "factor(12*x**3-18*x**2+6*x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Taking out a common factor is a step the marks are tied to. Do it first and write it down, even if the rest goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q5#(a)",
+       "quote": "Work of merit, for example, factors out 5"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "alg-factor-dots",
+  "what": {
+   "say": [
+    "You give it a difference of two squares, $a^2 - b^2$. It writes it as two **brackets**, $(a - b)(a + b)$.",
+    "The key idea: when you multiply those two brackets, the middle terms cancel and only $a^2 - b^2$ is left."
+   ],
+   "in": "$a^2 - b^2$",
+   "out": "$(a-b)(a+b)$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside larger Paper 1 questions, such as simplifying an expression or solving an equation, never as a part of its own."
+  },
+  "example": {
+   "question": "Factorise fully $50x^2 - 72$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Take out the common factor",
+      "say": "Both terms divide by $2$. Take it out first, so the bracket is a clean difference of squares.",
+      "lines": [
+       {
+        "tex": "50x^2 - 72 &= 2(25x^2 - 36)",
+        "sym": "2*(25*x**2-36)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write each as a square",
+      "say": "$25x^2$ is $(\\hl{1}{5x})^2$ and $36$ is $\\hl{2}{6}^2$. So the bracket is $a^2 - b^2$ with $a = \\hl{1}{5x}$ and $b = \\hl{2}{6}$.",
+      "lines": [
+       {
+        "tex": "&= 2\\left[(\\hl{1}{5x})^2 - \\hl{2}{6}^2\\right]",
+        "sym": "2*((5*x)**2-6**2)"
+       }
+      ]
+     },
+     {
+      "title": "Write the two brackets",
+      "say": "$a^2 - b^2$ becomes $(a - b)(a + b)$. Put $\\hl{1}{5x}$ and $\\hl{2}{6}$ in.",
+      "lines": [
+       {
+        "tex": "&= 2(\\hl{1}{5x} - \\hl{2}{6})(\\hl{1}{5x} + \\hl{2}{6})",
+        "sym": "2*(5*x-6)*(5*x+6)"
+       },
+       {
+        "text": "Keep the $2$ at the front. It is part of the answer."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2(5x - 6)(5x + 6)"
+   },
+   "finalSym": "2*(5*x-6)*(5*x+6)",
+   "answerSym": "factor(50*x**2-72)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "alg-expand-binomials",
+  "what": {
+   "say": [
+    "You give it two brackets multiplied together, like $(2x + 3)(x - 4)$. It gives back one expression with no brackets, with like terms collected.",
+    "The key idea: every term in the first bracket multiplies every term in the second. Two terms by two terms makes four products."
+   ],
+   "in": "$(x \\pm y)(w \\pm z)$",
+   "out": "expanded expression"
+  },
+  "how": {
+   "higher": "Higher level uses it mostly as a step inside Paper 1 questions, such as expanding a product before solving or proving something. It is the main skill in one part, a 10 mark Paper 1 question.",
+   "ordinary": "Ordinary level asks for it often, as a short part of its own or as a first step, mostly on Paper 1. It is the main skill in one part, a 10 mark question."
+  },
+  "example": {
+   "question": "Multiply out and simplify $(3x - 2)(2x + 5)$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply by the first term",
+      "say": "Take the first bracket one term at a time. Multiply the whole second bracket by $3x$, then by $-2$.",
+      "lines": [
+       {
+        "tex": "(3x - 2)(2x + 5) &= 3x(2x + 5) - 2(2x + 5)",
+        "sym": "3*x*(2*x+5)-2*(2*x+5)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Remove the brackets",
+      "say": "Multiply each term inside. Watch the signs: $-2$ times $+5$ is $-10$.",
+      "lines": [
+       {
+        "tex": "&= 6x^2 + 15x - 4x - 10",
+        "sym": "6*x**2+15*x-4*x-10"
+       },
+       {
+        "text": "Four products, four terms."
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "say": "The two $x$ terms are like terms. Add them: $15x - 4x = \\hl{1}{11x}$.",
+      "lines": [
+       {
+        "tex": "&= 6x^2 + \\hl{1}{11x} - 10",
+        "sym": "6*x**2+11*x-10"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "6x^2 + 11x - 10"
+   },
+   "finalSym": "6*x**2+11*x-10",
+   "answerSym": "expand((3*x-2)*(2*x+5))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the distributing step. Correct work in multiplying the terms earns marks even if the answer is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q1#(b)",
+       "quote": "some correct work in distributing the terms"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no working only reaches low partial credit in a part like this, so write every product.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q1#(b)",
+       "quote": "Correct answers without supporting work"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "When you square a bracket, include the middle term: twice the product of the two terms. Leaving it out loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q6#(b)",
+       "quote": "Ignores twice the product and just"
+      }
+     ]
+    },
+    {
+     "tip": "Even one correct term in the expansion earns marks, so write the expansion out.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q6#(b)",
+       "quote": "One term correct in expansion of"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "alg-add-subtract",
+  "what": {
+   "say": [
+    "You give it two expressions with $x^2$, $x$ and number terms, joined by a plus or minus. It gives back one simplified expression.",
+    "The key idea: only like terms combine. $x^2$ goes with $x^2$, $x$ with $x$, numbers with numbers. A minus in front of a bracket flips every sign inside it."
+   ],
+   "in": "$(ax^2+bx+c) \\pm (dx^2+ex+f)$",
+   "out": "simplified expression"
+  },
+  "how": {
+   "ordinary": "Ordinary level uses it as a small step inside a longer Paper 1 question, as in the 2015 patterns question, where it was worth 5 marks in a part about a formula."
+  },
+  "example": {
+   "question": "Simplify $(3x^2 - 2x + 5) - (x^2 + 4x - 3)$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Remove the brackets",
+      "say": "The minus sign in front of the second bracket flips every sign inside it. Change them one by one.",
+      "lines": [
+       {
+        "tex": "(3x^2 - 2x + 5) - (x^2 + 4x - 3) &= 3x^2 - 2x + 5 - x^2 - 4x + 3",
+        "sym": "3*x**2-2*x+5-x**2-4*x+3",
+        "new": true
+       },
+       {
+        "text": "$+x^2$ became $-x^2$. $+4x$ became $-4x$. $-3$ became $+3$."
+       }
+      ]
+     },
+     {
+      "title": "Group like terms",
+      "say": "Put the $x^2$ terms together, the $x$ terms together, and the numbers together.",
+      "lines": [
+       {
+        "tex": "&= (3x^2 - x^2) + (-2x - 4x) + (5 + 3)",
+        "sym": "(3*x**2-x**2)+(-2*x-4*x)+(5+3)"
+       }
+      ]
+     },
+     {
+      "title": "Add each group",
+      "say": "Add inside each bracket.",
+      "lines": [
+       {
+        "tex": "&= 2x^2 - 6x + 8",
+        "sym": "2*x**2-6*x+8"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2x^2 - 6x + 8"
+   },
+   "finalSym": "2*x**2-6*x+8",
+   "answerSym": "expand((3*x**2-2*x+5)-(x**2+4*x-3))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]

@@ -1,0 +1,469 @@
+[
+ {
+  "skill": "circ-touching",
+  "problems": [
+   {
+    "question": "The circle $c_1$ has equation $x^2 + y^2 - 4x - 6y - 51 = 0$.\nThe circle $c_2$ has equation $x^2 + y^2 - 10x - 14y + 65 = 0$.\nShow that $c_2$ touches $c_1$ internally.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write $c_1$ in centre-radius form",
+       "lines": [
+        {
+         "text": "Group the $x$ and $y$ terms and complete the square."
+        },
+        {
+         "tex": "x^2 + y^2 - 4x - 6y - 51 &= 0",
+         "sym": "Eq(x**2+y**2-4*x-6*y-51,0)",
+         "new": true
+        },
+        {
+         "tex": "x^2 - 4x + y^2 - 6y &= 51",
+         "sym": "Eq(x**2-4*x+y**2-6*y,51)"
+        },
+        {
+         "tex": "x^2 - 4x + 4 + y^2 - 6y + 9 &= 51 + 4 + 9",
+         "sym": "Eq(x**2-4*x+4+y**2-6*y+9,51+4+9)"
+        },
+        {
+         "tex": "(x-2)^2 + (y-3)^2 &= 64",
+         "sym": "Eq((x-2)**2+(y-3)**2,64)"
+        },
+        {
+         "text": "Centre $(2, 3)$, radius $\\sqrt{64} = 8$."
+        }
+       ]
+      },
+      {
+       "title": "Write $c_2$ in centre-radius form",
+       "lines": [
+        {
+         "tex": "x^2 + y^2 - 10x - 14y + 65 &= 0",
+         "sym": "Eq(x**2+y**2-10*x-14*y+65,0)",
+         "new": true
+        },
+        {
+         "tex": "x^2 - 10x + y^2 - 14y &= -65",
+         "sym": "Eq(x**2-10*x+y**2-14*y,-65)"
+        },
+        {
+         "tex": "x^2 - 10x + 25 + y^2 - 14y + 49 &= -65 + 25 + 49",
+         "sym": "Eq(x**2-10*x+25+y**2-14*y+49,-65+25+49)"
+        },
+        {
+         "tex": "(x-5)^2 + (y-7)^2 &= 9",
+         "sym": "Eq((x-5)**2+(y-7)**2,9)"
+        },
+        {
+         "text": "Centre $(5, 7)$, radius $\\sqrt{9} = 3$."
+        }
+       ]
+      },
+      {
+       "title": "Find the distance between the centres",
+       "lines": [
+        {
+         "tex": "d &= \\sqrt{(5-2)^2 + (7-3)^2}",
+         "sym": "sqrt((5-2)**2+(7-3)**2)",
+         "new": true
+        },
+        {
+         "tex": "&= \\sqrt{9 + 16}",
+         "sym": "sqrt(9+16)"
+        },
+        {
+         "tex": "&= \\sqrt{25}",
+         "sym": "sqrt(25)"
+        },
+        {
+         "tex": "&= 5",
+         "sym": "5"
+        }
+       ]
+      },
+      {
+       "title": "Find the difference between the radii",
+       "lines": [
+        {
+         "tex": "r_1 - r_2 &= 8 - 3",
+         "sym": "8-3",
+         "new": true
+        },
+        {
+         "tex": "&= 5",
+         "sym": "5"
+        }
+       ]
+      },
+      {
+       "title": "Conclude",
+       "lines": [
+        {
+         "text": "The distance between the centres equals the difference of the radii, $d = r_1 - r_2 = 5$, so the circles touch internally."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "d = r_1 - r_2 = 5 \\text{, so the circles touch internally}"
+    },
+    "finalSym": "5",
+    "answerSym": "sqrt((5-2)**2+(7-3)**2)"
+   }
+  ]
+ },
+ {
+  "skill": "cubic-solve",
+  "problems": [
+   {
+    "question": "Solve the equation $x^3 - 3x^2 - 3x + 1 = 0$ for $x \\in \\mathbb{R}$.\nGive any irrational roots in surd form.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute $x = -1$ into $f(x)$",
+       "lines": [
+        {
+         "tex": "f(-1) &= (-1)^3 - 3(-1)^2 - 3(-1) + 1",
+         "sym": "(-1)**3-3*(-1)**2-3*(-1)+1",
+         "new": true
+        },
+        {
+         "tex": "&= -1 - 3 + 3 + 1",
+         "sym": "-1-3+3+1"
+        },
+        {
+         "tex": "&= 0",
+         "sym": "0"
+        },
+        {
+         "text": "So $f(-1) = 0$ and $(x+1)$ is a factor of $f(x)$."
+        }
+       ]
+      },
+      {
+       "title": "Split the terms so $(x + 1)$ can be taken out",
+       "lines": [
+        {
+         "tex": "f(x) &= x^3 - 3x^2 - 3x + 1",
+         "sym": "x**3-3*x**2-3*x+1",
+         "new": true
+        },
+        {
+         "tex": "&= x^3 + x^2 - 4x^2 - 3x + 1",
+         "sym": "x**3+x**2-4*x**2-3*x+1"
+        },
+        {
+         "tex": "&= x^2(x+1) - 4x^2 - 4x + x + 1",
+         "sym": "x**2*(x+1)-4*x**2-4*x+x+1"
+        },
+        {
+         "tex": "&= x^2(x+1) - 4x(x+1) + (x+1)",
+         "sym": "x**2*(x+1)-4*x*(x+1)+(x+1)"
+        },
+        {
+         "tex": "&= (x+1)(x^2 - 4x + 1)",
+         "sym": "(x+1)*(x**2-4*x+1)"
+        }
+       ]
+      },
+      {
+       "title": "Solve the quadratic factor with the formula",
+       "lines": [
+        {
+         "text": "The factor $(x+1)$ gives $x = -1$. For the quadratic, $a = 1$, $b = -4$, $c = 1$."
+        },
+        {
+         "tex": "x^2 - 4x + 1 &= 0",
+         "sym": "Eq(x**2-4*x+1,0)",
+         "new": true
+        },
+        {
+         "tex": "x &= \\frac{4 \\pm \\sqrt{16 - 4}}{2}",
+         "sym": "[(4+sqrt(16-4))/2,(4-sqrt(16-4))/2]",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{4 \\pm \\sqrt{12}}{2}",
+         "sym": "[(4+sqrt(12))/2,(4-sqrt(12))/2]"
+        },
+        {
+         "tex": "&= \\frac{4 \\pm 2\\sqrt{3}}{2}",
+         "sym": "[(4+2*sqrt(3))/2,(4-2*sqrt(3))/2]"
+        },
+        {
+         "tex": "&= 2 \\pm \\sqrt{3}",
+         "sym": "[2+sqrt(3),2-sqrt(3)]"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = -1,\\ 2 + \\sqrt{3},\\ 2 - \\sqrt{3}"
+    },
+    "finalSym": "[-1, 2 - sqrt(3), 2 + sqrt(3)]",
+    "answerSym": "solve(Eq(x**3-3*x**2-3*x+1,0),x)"
+   }
+  ]
+ },
+ {
+  "skill": "cubic-unknown-coefficient",
+  "problems": [
+   {
+    "question": "$(x - 2)$ and $(x + 3)$ are factors of $f(x) = x^3 + ax^2 + bx + 12$, where $a, b \\in \\mathbb{Z}$.\nFind the value of $a$ and the value of $b$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the factor theorem for $(x - 2)$",
+       "lines": [
+        {
+         "text": "Since $(x - 2)$ is a factor, $f(2) = 0$."
+        },
+        {
+         "tex": "8 + 4a + 2b + 12 &= 0",
+         "sym": "Eq(8+4*a+2*b+12,0)",
+         "new": true
+        },
+        {
+         "tex": "4a + 2b &= -20",
+         "sym": "Eq(4*a+2*b,-20)"
+        },
+        {
+         "tex": "2a + b &= -10",
+         "sym": "Eq(2*a+b,-10)"
+        }
+       ]
+      },
+      {
+       "title": "Use the factor theorem for $(x + 3)$",
+       "lines": [
+        {
+         "text": "Since $(x + 3)$ is a factor, $f(-3) = 0$."
+        },
+        {
+         "tex": "-27 + 9a - 3b + 12 &= 0",
+         "sym": "Eq(-27+9*a-3*b+12,0)",
+         "new": true
+        },
+        {
+         "tex": "9a - 3b &= 15",
+         "sym": "Eq(9*a-3*b,15)"
+        },
+        {
+         "tex": "3a - b &= 5",
+         "sym": "Eq(3*a-b,5)"
+        }
+       ]
+      },
+      {
+       "title": "Add the two equations to eliminate $b$",
+       "lines": [
+        {
+         "tex": "(2a + b) + (3a - b) &= -10 + 5",
+         "sym": "Eq((2*a+b)+(3*a-b),-10+5)",
+         "new": true
+        },
+        {
+         "tex": "5a &= -5",
+         "sym": "Eq(5*a,-5)"
+        },
+        {
+         "tex": "a &= -1",
+         "sym": "Eq(a,-1)"
+        }
+       ]
+      },
+      {
+       "title": "Find $b$",
+       "lines": [
+        {
+         "tex": "2(-1) + b &= -10",
+         "sym": "Eq(2*(-1)+b,-10)",
+         "new": true
+        },
+        {
+         "tex": "b &= -8",
+         "sym": "Eq(b,-8)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a = -1, \\quad b = -8"
+    },
+    "finalSym": "(-1, -8)",
+    "answerSym": "linsolve([Eq(2**3+a*2**2+b*2+12,0),Eq((-3)**3+a*(-3)**2+b*(-3)+12,0)],a,b).args[0]"
+   },
+   {
+    "question": "$(x + 1)$ and $(2x - 1)$ are factors of $f(x) = 2x^3 + px^2 + qx - 6$, where $p, q \\in \\mathbb{Z}$.\nFind the value of $p$ and the value of $q$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the factor theorem for $(x + 1)$",
+       "lines": [
+        {
+         "text": "Since $(x + 1)$ is a factor, $f(-1) = 0$."
+        },
+        {
+         "tex": "2(-1)^3 + p(-1)^2 + q(-1) - 6 &= 0",
+         "sym": "Eq(2*(-1)**3+p*(-1)**2+q*(-1)-6,0)",
+         "new": true
+        },
+        {
+         "tex": "-2 + p - q - 6 &= 0",
+         "sym": "Eq(-2+p-q-6,0)"
+        },
+        {
+         "tex": "p - q &= 8",
+         "sym": "Eq(p-q,8)"
+        }
+       ]
+      },
+      {
+       "title": "Use the factor theorem for $(2x - 1)$",
+       "lines": [
+        {
+         "text": "Since $(2x - 1)$ is a factor, $f\\left(\\tfrac{1}{2}\\right) = 0$."
+        },
+        {
+         "tex": "2\\left(\\tfrac{1}{2}\\right)^3 + p\\left(\\tfrac{1}{2}\\right)^2 + q\\left(\\tfrac{1}{2}\\right) - 6 &= 0",
+         "sym": "Eq(2*(1/2)**3+p*(1/2)**2+q*(1/2)-6,0)",
+         "new": true
+        },
+        {
+         "tex": "\\tfrac{1}{4} + \\tfrac{p}{4} + \\tfrac{q}{2} - 6 &= 0",
+         "sym": "Eq(1/4+p/4+q/2-6,0)"
+        },
+        {
+         "text": "Multiply by 4."
+        },
+        {
+         "tex": "1 + p + 2q - 24 &= 0",
+         "sym": "Eq(1+p+2*q-24,0)"
+        },
+        {
+         "tex": "p + 2q &= 23",
+         "sym": "Eq(p+2*q,23)"
+        }
+       ]
+      },
+      {
+       "title": "Subtract to eliminate $p$",
+       "lines": [
+        {
+         "tex": "(p + 2q) - (p - q) &= 23 - 8",
+         "sym": "Eq((p+2*q)-(p-q),23-8)",
+         "new": true
+        },
+        {
+         "tex": "3q &= 15",
+         "sym": "Eq(3*q,15)"
+        },
+        {
+         "tex": "q &= 5",
+         "sym": "Eq(q,5)"
+        }
+       ]
+      },
+      {
+       "title": "Find $p$",
+       "lines": [
+        {
+         "tex": "p - 5 &= 8",
+         "sym": "Eq(p-5,8)",
+         "new": true
+        },
+        {
+         "tex": "p &= 13",
+         "sym": "Eq(p,13)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "p = 13, \\quad q = 5"
+    },
+    "finalSym": "(13, 5)",
+    "answerSym": "linsolve([Eq(2*(-1)**3+p*(-1)**2+q*(-1)-6,0),Eq(2*(1/2)**3+p*(1/2)**2+q*(1/2)-6,0)],p,q).args[0]"
+   }
+  ]
+ },
+ {
+  "skill": "cx-conjugate-properties",
+  "problems": [
+   {
+    "question": "$z_1 = 3 - 2i$ and $z_2 = -1 + 4i$.\nVerify that $\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the sum $z_1 + z_2$",
+       "lines": [
+        {
+         "tex": "z_1 + z_2 &= (3 - 2i) + (-1 + 4i)",
+         "sym": "(3-2*I)+(-1+4*I)"
+        },
+        {
+         "tex": "&= 2 + 2i",
+         "sym": "2+2*I"
+        }
+       ]
+      },
+      {
+       "title": "Conjugate the sum",
+       "lines": [
+        {
+         "text": "Change the sign of the imaginary part."
+        },
+        {
+         "tex": "\\overline{z_1 + z_2} &= 2 - 2i",
+         "sym": "2-2*I",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Add the conjugates",
+       "lines": [
+        {
+         "tex": "\\overline{z_1} &= 3 + 2i",
+         "sym": "3+2*I",
+         "new": true
+        },
+        {
+         "tex": "\\overline{z_2} &= -1 - 4i",
+         "sym": "-1-4*I",
+         "new": true
+        },
+        {
+         "tex": "\\overline{z_1} + \\overline{z_2} &= (3 + 2i) + (-1 - 4i)",
+         "sym": "(3+2*I)+(-1-4*I)",
+         "new": true
+        },
+        {
+         "tex": "&= 2 - 2i",
+         "sym": "2-2*I"
+        }
+       ]
+      },
+      {
+       "title": "Compare",
+       "lines": [
+        {
+         "text": "Both are $2 - 2i$, so $\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\overline{z_1 + z_2} = 2 - 2i = \\overline{z_1} + \\overline{z_2}"
+    },
+    "finalSym": "2 - 2*I",
+    "answerSym": "conjugate((3-2*I)+(-1+4*I))"
+   }
+  ]
+ }
+]

@@ -1,0 +1,415 @@
+[
+ {
+  "part": "maths-pp-2023-ordinary-p2-q5#(a), (b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius of c\nCircle $c$ touches all four sides, so its diameter equals the side of the square, 12 cm.\nr &= \\frac{12}{2}\n&= 6\n## Find the area of c\n\\text{Area} &= \\pi r^2\n&= \\pi (6)^2\n&= 36\\pi\n&= 113.097\\ldots\n&\\approx 113.10\nANSWER: r = 6 \\text{ cm};\\ \\text{Area} = 113.10 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q5#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Find the area of the square\n\\text{Square} &= 12 \\times 12\n&= 144\n## Divide the circle area by the square area\n\\text{Percentage} &= \\frac{113.10}{144} \\times 100\n&= 0.7854 \\times 100\n&= 78.54\n&\\approx 79\\%\nANSWER: 79\\%"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q5#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Use the right-angled triangle from the centre\nThe radius of $k$ is the distance from the centre to a corner. It is the hypotenuse of a right-angled triangle with both legs equal to 6 cm (half a side).\n## Apply Pythagoras\nr^2 &= 6^2 + 6^2\n&= 36 + 36\n&= 72\n## Take the square root and round\nr &= \\sqrt{72}\n&= 8.4853\\ldots\n&\\approx 8.49 \\text{ cm}\nANSWER: r = 8.49 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q5#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Use the circumference formula with r = 8.49\nC &= 2\\pi r\n&= 2\\pi (8.49)\n&= 53.344\\ldots\n&\\approx 53.34 \\text{ cm}\nANSWER: C = 53.34 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q6#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Mark B on the given line\nUse a ruler to measure 8 cm from $A$ along the line and mark the point $B$.\n## Draw the 130° angle at B\nPlace the protractor at $B$ with its base along $BA$.\nMark 130° from $BA$, on the upper side of the line, and join it to $B$.\nThis ray makes 50° with the line extended beyond $B$.\n## Mark C on the ray\nMeasure 6 cm from $B$ along the ray and mark $C$.\n## Find D with two arcs\nOpposite sides of a parallelogram are equal: $|AD| = |BC| = 6$ cm and $|DC| = |AB| = 8$ cm.\nWith the compass on $A$, draw an arc of radius 6 cm above the line.\nWith the compass on $C$, draw an arc of radius 8 cm. It meets the first arc at $D$.\n## Complete the parallelogram\nJoin $A$ to $D$ and $D$ to $C$ to finish $ABCD$.\nANSWER: ABCD \\text{ with } |AB| = 8,\\ |BC| = 6,\\ |\\angle ABC| = 130^\\circ"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Opposite angles are equal: find x\n$(2x-30)^\\circ$ is opposite the $100^\\circ$ angle, so they are equal.\n2x - 30 &= 100\n2x &= 130\nx &= 65\n## Adjacent angles sum to 180°\n$(x+3y)^\\circ$ and $100^\\circ$ are adjacent angles, so they add to $180^\\circ$.\nx + 3y + 100 &= 180\nx + 3y &= 80\n## Substitute x = 65 and solve for y\n65 + 3y &= 80\n3y &= 80 - 65\n3y &= 15\ny &= 5\nANSWER: x = 65,\\ y = 5"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q6#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Recall what makes a parallelogram\nA parallelogram is a four-sided shape whose opposite sides are parallel and equal in length.\n## Check a square against this\nA square has opposite sides parallel and equal in length.\nSo every square is a parallelogram: the statement is True.\nANSWER: \\text{True}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q7#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Substitute into the gradient formula\nGradient as a percentage is $\\dfrac{|BC|}{|AC|} \\times 100$.\n\\text{Gradient} &= \\frac{24}{135} \\times 100\n## Evaluate and round to the nearest percent\n&= 17.78\\%\n&\\approx 18\\%\nANSWER: 18\\%"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q7#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Write the gradient as a fraction\nA gradient of 12% means $\\dfrac{|BC|}{|AC|} = \\dfrac{12}{100}$. Let $x = |AC|$.\n\\frac{12}{100} &= \\frac{16}{x}\n## Cross-multiply\n12x &= 100 \\times 16\n12x &= 1600\n## Divide both sides by 12\nx &= \\frac{1600}{12}\nx &= 133.33\n|AC| &\\approx 133 \\text{ m}\nANSWER: |AC| = 133 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q7#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Write Pythagoras for the right-angled triangle\n$[AB]$ is the hypotenuse, so $|AC|^2 + |BC|^2 = |AB|^2$. Let $x = |AC|$.\nx^2 + 27^2 &= 105^2\n## Square the numbers\nx^2 + 729 &= 11025\n## Subtract 729 from both sides\nx^2 &= 11025 - 729\nx^2 &= 10296\n## Take the positive square root\nA length is positive, so use the positive root only.\nx &= \\sqrt{10296}\nx &= 101.469\n|AC| &\\approx 101 \\text{ m}\nANSWER: |AC| = 101 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q7#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26",
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Write the gradient as a tangent\nGradient is $\\dfrac{|BC|}{|AC|} = \\tan A$, and 9% means $\\dfrac{9}{100}$.\n\\tan A &= \\frac{9}{100}\n## Use the inverse tangent\nMake sure the calculator is in degree mode.\nA &= \\tan^{-1}\\left(\\frac{9}{100}\\right)\nA &= 5.1427^\\circ\nA &\\approx 5^\\circ\nANSWER: \\angle BAC = 5^\\circ"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find the angle at O\nAngles in a triangle add to $180^\\circ$.\n\\angle ROP &= 180 - (88 + 87)\n&= 5^\\circ\n## Write the sine rule\n$|OR|$ is opposite the $87^\\circ$ angle, and $|RP| = 20$ is opposite the $5^\\circ$ angle. Let $x = |OR|$.\n\\frac{x}{\\sin 87^\\circ} &= \\frac{20}{\\sin 5^\\circ}\n## Solve for x\nx &= \\frac{20 \\sin 87^\\circ}{\\sin 5^\\circ}\nx &= 229.16\n|OR| &\\approx 229 \\text{ m}\nANSWER: |OR| = 229 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q7#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Write the cosine rule for the angle at X\nThe side opposite $X$ is $|YZ| = 550$, and the sides next to $X$ are 700 and 800.\n550^2 &= 700^2 + 800^2 - 2(700)(800)\\cos X\n## Make cos X the subject\n\\cos X &= \\frac{700^2 + 800^2 - 550^2}{2(700)(800)}\n## Evaluate the fraction\n\\cos X &= \\frac{490000 + 640000 - 302500}{1120000}\n\\cos X &= \\frac{827500}{1120000}\n\\cos X &= \\frac{331}{448}\n## Use the inverse cosine\nX &= \\cos^{-1}\\left(\\frac{331}{448}\\right)\nX &\\approx 42.4^\\circ\nANSWER: \\angle X = 42.4^\\circ"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius\nThe radius is half the diameter.\nr &= \\frac{2.4}{2}\n&= 1.2 \\text{ m}\n## Substitute into the volume of a cylinder\nThe water depth is $h = 0.75$ m, so $V = \\pi r^2 h$.\nV &= \\pi (1.2)^2 (0.75)\n## Evaluate and round to 2 decimal places\n&= 3.3929\n&\\approx 3.39 \\text{ m}^3\nANSWER: V = 3.39 \\text{ m}^3"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the volume of one cube\nA cube with side 0.5 m has volume length $\\times$ width $\\times$ height.\nV &= 0.5 \\times 0.5 \\times 0.5\n&= 0.125 \\text{ m}^3\n## Multiply by 3 seats\n\\text{Total} &= 3 \\times 0.125\n&= 0.375 \\text{ m}^3\nANSWER: \\text{Total volume} = 0.375 \\text{ m}^3"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Equate the water raised to the seats' volume\nThe water rises by a cylinder of radius $1.2$ m and height $h$, with volume equal to the seats: $0.375$ m$^3$.\n\\pi r^2 h &= 0.375\n\\pi (1.2)^2 h &= 0.375\n## Divide both sides by the other factors\nh &= \\frac{0.375}{\\pi (1.2)^2}\n## Evaluate and round to 2 decimal places\nh &= 0.0829\nh &\\approx 0.08 \\text{ m}\nANSWER: h = 0.08 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q8#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Apply Pythagoras to the right-angled triangle\nThe height 0.8 m and radius 1.3 m are the two shorter sides; $l$ is the hypotenuse.\nl^2 &= 0.8^2 + 1.3^2\nl^2 &= 0.64 + 1.69\nl^2 &= 2.33\n## Take the positive square root\nl &= \\sqrt{2.33}\nl &= 1.5264\\ldots\nl &\\approx 1.53 \\text{ m}\nANSWER: l = 1.53 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q8#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Substitute into the curved surface area formula\nCurved surface area of a cone is $\\pi r l$, with $r = 1.3$ and $l = 1.53$.\n\\text{C.S.A.} &= \\pi (1.3)(1.53)\n## Evaluate and round to 2 decimal places\n&= 6.2486\n&\\approx 6.25 \\text{ m}^2\nANSWER: 6.25 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q8#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Write down x\nThe sector's radius is the slant height of the cone.\nx &= 1.53 \\text{ m}\n## Equate the sector area to the curved surface area\nThe net folds into the cone, so the sector's area equals the C.S.A. $6.25$ m$^2$.\n\\frac{A}{360} \\times \\pi r^2 &= 6.25\n## Make A the subject\nA &= \\frac{6.25 \\times 360}{\\pi (1.53)^2}\n## Evaluate and round to the nearest degree\nA &= 305.95\nA &\\approx 306^\\circ\nANSWER: x = 1.53 \\text{ m},\\ A = 306^\\circ"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q9#(a)(i), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22",
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## (i) Pick the classes that could be over 100\nThe class 90 to 120 includes students above 100, and every class above it is entirely above 100.\nAt most, all 59 students in 90 to 120 read for more than 100 minutes.\n## (i) Add the frequencies\n\\text{Maximum} &= 59 + 18 + 10\n&= 87\n## (iii) Say why the sampling method is limited\nOnly the first 200 students to arrive were asked, so the sample is not random.\nThese could be local students, or students arriving together on school buses.\nStudents who arrive later are left out, so the sample may not be representative.\nANSWER: 87 \\text{ students}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Locate the median position\nThere are 200 students, so the median lies between the 100th and 101st values.\n## Add up the frequencies from the first class\n16 + 35 &= 51\n16 + 35 + 62 &= 113\nAfter 30 to 60 only 51 students are counted, and after 60 to 90 it is 113.\n## Identify the median class\nThe 100th and 101st students are both in the 60 to 90 class, so the median is somewhere in that class. The exact value cannot be found from grouped data.\nANSWER: 60 \\le \\text{median} < 90"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q9#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Choose a histogram\nThe data is grouped into classes of equal width (30 minutes), so a histogram works, with bar heights equal to the frequencies.\n## Set up and label the axes\nPut minutes read per day on the horizontal axis, marked 0, 30, 60, 90, 120, 150, 180.\nPut number of students on the vertical axis, from 0 to 70.\n## Draw one bar for each class\nThe bar heights are 16, 35, 62, 59, 18 and 10, with no gaps between bars.\nANSWER: \\text{Histogram with bar heights } 16, 35, 62, 59, 18, 10"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q9#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Write the sample proportion\n$\\hat{p}$ is the number rated Excellent divided by the sample size.\n\\hat{p} &= \\frac{61}{500}\n&= 0.122\n## Convert to a percentage\n0.122 \\times 100 &= 12.2\\%\nANSWER: 12.2\\%"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q9#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 500 into the margin of error\nThe margin of error is $\\dfrac{1}{\\sqrt{n}}$, with $n = 500$.\n\\text{Margin of error} &= \\frac{1}{\\sqrt{500}}\n&= 0.044721\n## Convert to a percentage and round\n0.044721 \\times 100 &= 4.4721\\%\n4.4721\\% &\\approx 4.5\\%\nANSWER: \\text{Margin of error} = 4.5\\%"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q9#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Form the interval around the sample proportion\nThe interval is $\\hat{p} \\pm$ margin of error, using $\\hat{p} = 12.2\\%$ and margin $4.5\\%$.\n12.2 - 4.5 \\le p &\\le 12.2 + 4.5\n7.7 \\le p &\\le 16.7\n## Compare with the population percentage\nThe population percentage, 10%, lies inside the interval from 7.7% to 16.7%.\n## State the conclusion and reason\nConclusion: there is no difference between the Cork percentage and the population percentage, so the claim is not supported at the 5% level.\nReason: 10% is inside the interval, within the confidence interval.\nANSWER: 7.7\\% \\le p \\le 16.7\\%,\\ \\text{10\\% is inside, so no difference}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q10#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Find the base angle of triangle OBC\n$|OB| = |OC|$, so triangle $OBC$ is isosceles and its base angles are equal.\nAngles in a triangle add to $180^\\circ$, and $|\\angle BOC| = 72^\\circ$.\n|\\angle OBC| &= \\frac{180 - 72}{2}\n&= 54^\\circ\n## Double it to get the angle of the pentagon\n$OB$ splits angle $CBA$ into two equal angles, each $54^\\circ$.\n|\\angle CBA| &= 2 \\times 54\n&= 108^\\circ\nANSWER: |\\angle CBA| = 108^\\circ"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q10#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Area of triangle AOB using two sides and the angle\nTwo sides are $|AO| = |BO| = 6$ and the angle between them is $72^\\circ$, so use $\\frac{1}{2}ab\\sin C$.\n\\text{Area} &= \\frac{1}{2}(6)(6)\\sin 72^\\circ\n&= 17.119\n&\\approx 17.1 \\text{ cm}^2\n## Multiply by 5 for the pentagon\nThe pentagon is made of five congruent triangles.\n\\text{Area of pentagon} &= 5 \\times 17.119\n&= 85.595\n&\\approx 85.6 \\text{ cm}^2\nANSWER: \\text{Triangle} = 17.1 \\text{ cm}^2,\\ \\text{Pentagon} = 85.6 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q10#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Set up the pairs\nWrite each outcome as (first spin, second spin). Each spin has 5 possible results, so there are $5 \\times 5 = 25$ outcomes.\n## List the outcomes by first spin\nFirst spin 1: $(1,1), (1,2), (1,3), (1,4), (1,5)$\nFirst spin 2: $(2,1), (2,2), (2,3), (2,4), (2,5)$\nFirst spin 3: $(3,1), (3,2), (3,3), (3,4), (3,5)$\nFirst spin 4: $(4,1), (4,2), (4,3), (4,4), (4,5)$\nFirst spin 5: $(5,1), (5,2), (5,3), (5,4), (5,5)$\nANSWER: \\text{25 outcomes, from } (1,1) \\text{ to } (5,5)"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q10#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Maximum: add the two largest numbers\n\\text{Maximum} &= 5 + 5\n&= 10\n## Minimum: add the two smallest numbers\n\\text{Minimum} &= 1 + 1\n&= 2\nANSWER: \\text{Maximum} = 10,\\ \\text{Minimum} = 2"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q10#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the outcomes totalling 4\nTotals of 4: $(1,3), (2,2), (3,1)$, which is 3 outcomes out of 25.\nP(4) &= \\frac{3}{25}\n## Count the outcomes totalling 5\nTotals of 5: $(1,4), (2,3), (3,2), (4,1)$, which is 4 outcomes out of 25.\nP(5) &= \\frac{4}{25}\n## Add the probabilities\nA total of 4 and a total of 5 cannot happen together, so add.\nP(4 \\text{ or } 5) &= \\frac{3}{25} + \\frac{4}{25}\n&= \\frac{7}{25}\nANSWER: \\frac{7}{25}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p2-q10#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Write the expected value formula\nExpected value is the sum of each amount multiplied by its probability.\nE(x) &= \\sum x \\, P(x)\n## Substitute the amounts and probabilities\nE(x) &= 1(0.3) + 0.5(0.2) + 0(0.4) + 5(0.1)\n## Multiply each term, then add\n&= 0.3 + 0.1 + 0 + 0.5\n&= 0.90\n## Compare with the cost to play\nJena pays 1 euro to play, but her expected winnings are only 0.90 euro.\nThe expected value is not equal to the cost, so the game is not fair.\nANSWER: E(x) = \\text{€}0.90 < \\text{€}1\\text{, so the game is not fair}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Square both sides\nn - 3 &= \\sqrt{3n+1}\n(n-3)^2 &= 3n + 1\n## Expand the bracket\nn^2 - 6n + 9 &= 3n + 1\n## Collect everything on one side\nn^2 - 6n + 9 - 3n - 1 &= 0\nn^2 - 9n + 8 &= 0\n## Factorise and solve\n(n-8)(n-1) &= 0\nn &= 8 \\text{ or } n = 1\n## Check both answers in the original equation\nSquaring can introduce a false solution, so test each value in $n-3=\\sqrt{3n+1}$.\nn = 1:\\quad 1 - 3 &= -2 \\text{ but } \\sqrt{3(1)+1} = 2\nThe two sides differ, so $n = 1$ is rejected.\nn = 8:\\quad 8 - 3 &= 5 \\text{ and } \\sqrt{3(8)+1} = \\sqrt{25} = 5\nThe two sides agree, so $n = 8$ is the solution.\nANSWER: n = 8"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Write both fractions over the common denominator\nThe common denominator is $(2t+1)(12t)$.\n\\frac{4}{2t+1} - \\frac{7}{12t} &= \\frac{4(12t)}{(2t+1)(12t)} - \\frac{7(2t+1)}{(2t+1)(12t)}\n## Combine into one fraction\n&= \\frac{4(12t) - 7(2t+1)}{(2t+1)(12t)}\n## Expand the brackets in the numerator\n&= \\frac{48t - 14t - 7}{(2t+1)(12t)}\n## Collect like terms in the numerator\n&= \\frac{34t - 7}{(2t+1)(12t)}\nANSWER: \\frac{34t - 7}{(2t+1)(12t)}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Label the equations\nx + 2y &= 143 \\quad (1)\ny + 3w &= -74 \\quad (2)\n4x + 5w &= 4 \\quad (3)\n## Eliminate y from (1) and (2)\nMultiply (2) by $-2$ so the $y$ terms cancel when added to (1).\n-2y - 6w &= 148 \\quad (2\\text{ times }-2)\nAdd this to (1).\nx - 6w &= 291 \\quad (4)\n## Eliminate x from (3) and (4)\nMultiply (4) by 4 so the $x$ terms match (3).\n4x - 24w &= 1164 \\quad (5)\nSubtract (3) from (5).\n4x - 24w - (4x + 5w) &= 1164 - 4\n4x - 24w - 4x - 5w &= 1164 - 4\n-29w &= 1160\n## Solve for w\nw &= \\frac{1160}{-29}\nw &= -40\n## Substitute w = -40 into (4) to find x\nx - 6(-40) &= 291\nx + 240 &= 291\nx &= 51\n## Substitute x = 51 into (1) to find y\n51 + 2y &= 143\n2y &= 92\ny &= 46\nANSWER: x = 51,\\ y = 46,\\ w = -40"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths10",
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Identify a, b and c\nz^2 + 12z + 261 &= 0\nHere $a = 1$, $b = 12$, $c = 261$.\n## Substitute into the quadratic formula\nz &= \\frac{-12 \\pm \\sqrt{12^2 - 4(1)(261)}}{2(1)}\n## Simplify under the square root\nz &= \\frac{-12 \\pm \\sqrt{144 - 1044}}{2}\nz &= \\frac{-12 \\pm \\sqrt{-900}}{2}\n## Write the root using i\n$\\sqrt{-900} = \\sqrt{900} \\times \\sqrt{-1} = 30i$.\nz &= \\frac{-12 \\pm 30i}{2}\n## Divide each term by 2\nz &= -6 \\pm 15i\nz &= -6 + 15i \\text{ or } z = -6 - 15i\nANSWER: -6 + 15i \\text{ and } -6 - 15i"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Find the modulus r\nFor $1 - \\sqrt{3}i$ the real part is $1$ and the imaginary part is $-\\sqrt{3}$.\nr &= \\sqrt{1^2 + (-\\sqrt{3})^2}\n&= \\sqrt{1 + 3}\n&= \\sqrt{4}\n&= 2\n## Find the argument\nThe point $(1, -\\sqrt{3})$ lies in the fourth quadrant.\n\\tan\\alpha &= \\frac{\\sqrt{3}}{1}\n\\alpha &= \\frac{\\pi}{3}\nIn the fourth quadrant the argument is negative.\n\\theta &= -\\frac{\\pi}{3}\n## Write in polar form\n1 - \\sqrt{3}i &= 2\\left(\\cos\\left(-\\frac{\\pi}{3}\\right) + i\\sin\\left(-\\frac{\\pi}{3}\\right)\\right)\n## Apply de Moivre's theorem\n$\\left[r(\\cos\\theta + i\\sin\\theta)\\right]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n(1 - \\sqrt{3}i)^9 &= 2^9\\left(\\cos\\left(9 \\times -\\frac{\\pi}{3}\\right) + i\\sin\\left(9 \\times -\\frac{\\pi}{3}\\right)\\right)\n&= 512\\left(\\cos(-3\\pi) + i\\sin(-3\\pi)\\right)\n## Evaluate and write as a + bi\n$\\cos(-3\\pi) = -1$ and $\\sin(-3\\pi) = 0$.\n&= 512(-1 + 0i)\n&= -512\nANSWER: -512"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q2#(c)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths10",
+   "maths25"
+  ],
+  "marks": 15,
+  "solution": "## Write u in rectangular form\nu &= 4\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)\n&= 4\\left(\\frac{\\sqrt{3}}{2} + \\frac{1}{2}i\\right)\n&= 2\\sqrt{3} + 2i\n&\\approx 3.46 + 2i\n## Plot and label u\n$u$ is the point $(3.46, 2)$: 3.46 units right and 2 units up, level with $w$.\nMark the point and label it $u$ on the diagram.\n## Find the argument of w\n$w = -2 + 2i$ is in the second quadrant.\n\\tan\\alpha &= \\frac{2}{2}\n&= 1\n\\alpha &= \\frac{\\pi}{4}\n\\arg w &= \\pi - \\frac{\\pi}{4}\n&= \\frac{3\\pi}{4}\n## Find the argument of u\nFrom the polar form given, $\\arg u = \\frac{\\pi}{6}$.\n## Subtract the arguments to get the angle wou\n\\angle wou &= \\frac{3\\pi}{4} - \\frac{\\pi}{6}\n&= \\frac{9\\pi}{12} - \\frac{2\\pi}{12}\n&= \\frac{7\\pi}{12}\nANSWER: u = 2\\sqrt{3} + 2i \\approx 3.46 + 2i,\\quad \\angle wou = \\frac{7\\pi}{12}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 5,
+  "solution": "## Use the rule for integrating cos(ax)\n$\\int \\cos ax \\, dx = \\frac{1}{a}\\sin ax + C$. Here $a = 6$.\n## Write the integral\n\\int \\cos 6x \\, dx &= \\frac{1}{6}\\sin 6x + C\nANSWER: \\frac{1}{6}\\sin 6x + C"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q3#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the point of contact\nf(2) &= 2(2)^3 - 9(2)^2 + 5(2) - 11\n&= 16 - 36 + 10 - 11\n&= -21\nThe point is $(2, -21)$.\n## Differentiate f(x)\nf'(x) &= 6x^2 - 18x + 5\n## Find the slope at x = 2\nf'(2) &= 6(2)^2 - 18(2) + 5\n&= 24 - 36 + 5\n&= -7\n## Write the equation of the tangent\nUse $y - y_1 = m(x - x_1)$ with $m = -7$ and $(x_1, y_1) = (2, -21)$.\ny - (-21) &= -7(x - 2)\nANSWER: y - (-21) = -7(x - 2)"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q3#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate twice\nf'(x) &= 6x^2 - 18x + 5\nf''(x) &= 12x - 18\n## Set the second derivative to zero\nA point of inflection is where $f''(x) = 0$.\n12x - 18 &= 0\n## Solve for x\n12x &= 18\nx &= \\frac{18}{12}\nx &= \\frac{3}{2}\nANSWER: x = \\frac{3}{2}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q3#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths9"
+  ],
+  "marks": 15,
+  "solution": "## Find the slope of l\n$l$ passes through $(6, 0)$ and $(10, 2)$.\nm &= \\frac{2 - 0}{10 - 6}\n&= \\frac{1}{2}\n## Translate the condition into a slope\n$l'(x) = \\frac{1}{2}$ for every $x$, since $l$ is a straight line.\nSo $p'(x) = l'(x)$ means the tangent to $p$ has slope $\\frac{1}{2}$, parallel to $l$.\n## Draw the two parallel tangents\nPlace a ruler along $l$ and slide it down and to the left until it just touches the curve near the lower left. Draw this tangent in blue.\nSlide it up and to the right until it just touches the curve near the maximum. Draw this second tangent in blue.\n## Read the x-values from the touching points\nDraw a vertical line from each touching point down to the x-axis and read off the values.\nThe first touches at about $x = 2.2$ and the second at about $x = 6.8$.\nANSWER: x \\approx 2.2 \\text{ and } x \\approx 6.8"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Find f(x + h)\nFirst principles uses $f'(x)=\\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}$.\nf(x+h) &= (x+h)^2 - 7(x+h) - 10\n&= x^2 + 2hx + h^2 - 7x - 7h - 10\n## Find f(x + h) − f(x)\nf(x+h) - f(x) &= x^2 + 2hx + h^2 - 7x - 7h - 10 - (x^2 - 7x - 10)\n&= x^2 + 2hx + h^2 - 7x - 7h - 10 - x^2 + 7x + 10\n&= 2hx + h^2 - 7h\n## Divide by h\n\\frac{f(x+h) - f(x)}{h} &= \\frac{2hx + h^2 - 7h}{h}\n&= \\frac{2hx}{h} + \\frac{h^2}{h} - \\frac{7h}{h}\n&= 2x + h - 7\n## Let h tend to 0\nf'(x) &= \\lim_{h \\to 0} (2x + h - 7)\n&= 2x + 0 - 7\n&= 2x - 7\nANSWER: f'(x) = 2x - 7"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Name u and v and differentiate each\nUse the quotient rule: $g'(x)=\\frac{v\\,u' - u\\,v'}{v^2}$.\nu &= 6x + 1\n\\frac{du}{dx} &= 6\nv &= x^4 + 3\n\\frac{dv}{dx} &= 4x^3\n## Substitute into the quotient rule\ng'(x) &= \\frac{(x^4+3)(6) - (6x+1)(4x^3)}{(x^4+3)^2}\n## Substitute x = −2\ng'(-2) &= \\frac{((-2)^4+3)(6) - (6(-2)+1)(4(-2)^3)}{((-2)^4+3)^2}\n&= \\frac{(19)(6) - (-11)(-32)}{(19)^2}\n&= \\frac{114 - 352}{361}\n&= -\\frac{238}{361}\nANSWER: g'(-2) = -\\frac{238}{361}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q4#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## State the answer\nThe statement is false.\n## Justify using the meaning of local minimum\nA local minimum at $(0,5)$ only means $h(x)\\ge 5$ for $x$ close to $0$.\nAway from $x=0$ the graph can turn and fall below $5$, for example a cubic with a local minimum at $(0,5)$ that goes to $-\\infty$.\nSo $h(x)$ need not be at least $5$ for all real $x$.\nANSWER: \\text{False}"
+ }
+]

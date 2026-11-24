@@ -1,0 +1,796 @@
+[
+ {
+  "skill": {
+   "id": "cubic-factor-theorem",
+   "title": "Test a factor with the Factor Theorem",
+   "level": "HL",
+   "input": "polynomial f(x) and (x − a)",
+   "output": "f(a) = 0 ⇒ factor"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2024-higher-p1-q6#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the factor theorem",
+      "lines": [
+       {
+        "text": "If $x-4$ is a factor of $h(x)$ then $h(4)=0$."
+       },
+       {
+        "tex": "h(4) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 4 and solve for b",
+      "lines": [
+       {
+        "tex": "4^2 + 4b - 12 &= 0"
+       },
+       {
+        "tex": "16 + 4b - 12 &= 0"
+       },
+       {
+        "tex": "4b + 4 &= 0"
+       },
+       {
+        "tex": "4b &= -4"
+       },
+       {
+        "tex": "b &= -1"
+       }
+      ]
+     }
+    ],
+    "final": "b = -1"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q1#(a)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the factor theorem",
+      "lines": [
+       {
+        "text": "If $x+3$ is a factor of $f(x)$, then $x=-3$ is a root, so $f(-3)=0$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = −3 into f(x)",
+      "lines": [
+       {
+        "tex": "f(-3) &= (-3)^2 + 5(-3) + p"
+       },
+       {
+        "tex": "&= 9 - 15 + p"
+       },
+       {
+        "tex": "&= p - 6"
+       }
+      ]
+     },
+     {
+      "title": "Set f(−3) = 0 and solve for p",
+      "lines": [
+       {
+        "tex": "p - 6 &= 0"
+       },
+       {
+        "tex": "p &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "p = 6"
+   },
+   {
+    "part": "practice-cubic-factor-theorem-1",
+    "level": "higher",
+    "year": null,
+    "question": "Given that $(2x - 1)$ is a factor of $f(x) = 4x^2 + tx - 3$, find the value of $t$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the factor theorem",
+      "lines": [
+       {
+        "text": "If $2x - 1$ is a factor, then $x = \\tfrac12$ is a root, so $f(\\tfrac12) = 0$."
+       },
+       {
+        "tex": "2x - 1 &= 0"
+       },
+       {
+        "tex": "x &= \\tfrac12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 1/2 into f(x)",
+      "lines": [
+       {
+        "tex": "f(\\tfrac12) &= 4(\\tfrac12)^2 + t(\\tfrac12) - 3"
+       },
+       {
+        "tex": "&= 1 + \\tfrac{t}{2} - 3"
+       },
+       {
+        "tex": "&= \\tfrac{t}{2} - 2"
+       }
+      ]
+     },
+     {
+      "title": "Set f(1/2) = 0 and solve for t",
+      "lines": [
+       {
+        "tex": "\\tfrac{t}{2} - 2 &= 0"
+       },
+       {
+        "tex": "t &= 4"
+       }
+      ]
+     }
+    ],
+    "final": "t = 4"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cubic-find-root",
+   "title": "Find an integer root by trial",
+   "level": "HL",
+   "input": "cubic with integer coefficients",
+   "output": "integer root (divisor of constant)"
+  },
+  "candidates": [
+   {
+    "part": "practice-cubic-find-root-1",
+    "level": "higher",
+    "year": null,
+    "question": "The cubic $f(x) = x^3 - 3x^2 + 4x - 2$ has exactly one real root, and it is an integer.\nFind this root.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "List the possible integer roots",
+      "lines": [
+       {
+        "text": "An integer root must divide the constant term $-2$, so try $\\pm 1, \\pm 2$."
+       }
+      ]
+     },
+     {
+      "title": "Test x = 1",
+      "lines": [
+       {
+        "tex": "f(1) &= 1^3 - 3(1)^2 + 4(1) - 2"
+       },
+       {
+        "tex": "&= 1 - 3 + 4 - 2"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$f(1) = 0$, so $(x - 1)$ is a factor and $x = 1$ is a root. The other factor, $x^2 - 2x + 2$, has no real roots."
+       }
+      ]
+     }
+    ],
+    "final": "x = 1"
+   },
+   {
+    "part": "practice-cubic-find-root-2",
+    "level": "higher",
+    "year": null,
+    "question": "The cubic $f(x) = x^3 - 3x^2 - 4x + 12$ has three integer roots, exactly one of which is negative.\nFind the negative root.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "List the possible integer roots",
+      "lines": [
+       {
+        "text": "A root must divide the constant term $12$. Try small values, positive and negative."
+       }
+      ]
+     },
+     {
+      "title": "Test x = −1",
+      "lines": [
+       {
+        "tex": "f(-1) &= (-1)^3 - 3(-1)^2 - 4(-1) + 12"
+       },
+       {
+        "tex": "&= -1 - 3 + 4 + 12"
+       },
+       {
+        "tex": "&= 12"
+       },
+       {
+        "text": "$f(-1) \\neq 0$, so $x = -1$ is not a root."
+       }
+      ]
+     },
+     {
+      "title": "Test x = −2",
+      "lines": [
+       {
+        "tex": "f(-2) &= (-2)^3 - 3(-2)^2 - 4(-2) + 12"
+       },
+       {
+        "tex": "&= -8 - 12 + 8 + 12"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "So $(x + 2)$ is a factor and $x = -2$ is a root."
+       }
+      ]
+     }
+    ],
+    "final": "x = -2"
+   },
+   {
+    "part": "practice-cubic-find-root-3",
+    "level": "higher",
+    "year": null,
+    "question": "Find the integer root of $f(x) = 2x^3 - 3x^2 - 11x + 6$ that is greater than $0$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "List the possible roots",
+      "lines": [
+       {
+        "text": "A whole-number root must divide the constant term $6$. Try $1, 2, 3, 6$ in turn."
+       }
+      ]
+     },
+     {
+      "title": "Test x = 1",
+      "lines": [
+       {
+        "tex": "f(1) &= 2 - 3 - 11 + 6"
+       },
+       {
+        "tex": "&= -6"
+       },
+       {
+        "text": "Not a root."
+       }
+      ]
+     },
+     {
+      "title": "Test x = 2",
+      "lines": [
+       {
+        "tex": "f(2) &= 2(8) - 3(4) - 11(2) + 6"
+       },
+       {
+        "tex": "&= 16 - 12 - 22 + 6"
+       },
+       {
+        "tex": "&= -12"
+       },
+       {
+        "text": "Not a root."
+       }
+      ]
+     },
+     {
+      "title": "Test x = 3",
+      "lines": [
+       {
+        "tex": "f(3) &= 2(27) - 3(9) - 11(3) + 6"
+       },
+       {
+        "tex": "&= 54 - 27 - 33 + 6"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "So $(x - 3)$ is a factor and $x = 3$ is a root."
+       }
+      ]
+     }
+    ],
+    "final": "x = 3"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cubic-form-from-roots",
+   "title": "Form a cubic from its roots",
+   "level": "HL",
+   "input": "three roots",
+   "output": "cubic equation"
+  },
+  "candidates": [
+   {
+    "part": "practice-cubic-form-from-roots-3",
+    "level": "higher",
+    "year": null,
+    "question": "A cubic equation with integer coefficients has roots $3$, $1 + \\sqrt{2}$ and $1 - \\sqrt{2}$.\nFind the equation in the form $x^3 + bx^2 + cx + d = 0$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Form the quadratic from the two surd roots",
+      "lines": [
+       {
+        "tex": "(x - 1 - \\sqrt{2})(x - 1 + \\sqrt{2}) &= (x - 1)^2 - (\\sqrt{2})^2"
+       },
+       {
+        "tex": "&= x^2 - 2x + 1 - 2"
+       },
+       {
+        "tex": "&= x^2 - 2x - 1"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the factor for the root 3",
+      "lines": [
+       {
+        "tex": "(x - 3)(x^2 - 2x - 1) &= x^3 - 2x^2 - x - 3x^2 + 6x + 3"
+       },
+       {
+        "tex": "&= x^3 - 5x^2 + 5x + 3"
+       }
+      ]
+     }
+    ],
+    "final": "x^3 - 5x^2 + 5x + 3 = 0"
+   },
+   {
+    "part": "practice-cubic-form-from-roots-1",
+    "level": "higher",
+    "year": null,
+    "question": "Find the cubic equation, with integer coefficients, that has roots $2$, $-1$ and $4$.\nGive your answer in the form $x^3 + bx^2 + cx + d = 0$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write a factor for each root",
+      "lines": [
+       {
+        "tex": "(x - 2)(x + 1)(x - 4) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the first two factors",
+      "lines": [
+       {
+        "tex": "(x - 2)(x + 1) &= x^2 + x - 2x - 2"
+       },
+       {
+        "tex": "&= x^2 - x - 2"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the third factor",
+      "lines": [
+       {
+        "tex": "(x^2 - x - 2)(x - 4) &= x^3 - 4x^2 - x^2 + 4x - 2x + 8"
+       },
+       {
+        "tex": "&= x^3 - 5x^2 + 2x + 8"
+       }
+      ]
+     }
+    ],
+    "final": "x^3 - 5x^2 + 2x + 8 = 0"
+   },
+   {
+    "part": "practice-cubic-form-from-roots-2",
+    "level": "higher",
+    "year": null,
+    "question": "Find the cubic equation, with integer coefficients, that has roots $\\tfrac12$, $-3$ and $2$.\nGive your answer in the form $ax^3 + bx^2 + cx + d = 0$, where $a > 0$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write a factor with integer coefficients for each root",
+      "lines": [
+       {
+        "text": "The root $x = \\tfrac12$ gives $2x - 1 = 0$, so use the factor $(2x - 1)$."
+       },
+       {
+        "tex": "(2x - 1)(x + 3)(x - 2) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the last two factors",
+      "lines": [
+       {
+        "tex": "(x + 3)(x - 2) &= x^2 - 2x + 3x - 6"
+       },
+       {
+        "tex": "&= x^2 + x - 6"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the first factor",
+      "lines": [
+       {
+        "tex": "(2x - 1)(x^2 + x - 6) &= 2x^3 + 2x^2 - 12x - x^2 - x + 6"
+       },
+       {
+        "tex": "&= 2x^3 + x^2 - 13x + 6"
+       }
+      ]
+     }
+    ],
+    "final": "2x^3 + x^2 - 13x + 6 = 0"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cubic-unknown-coefficient",
+   "title": "Find unknown coefficients from given factors",
+   "level": "HL",
+   "input": "polynomial with unknowns + factor(s)",
+   "output": "unknown values"
+  },
+  "candidates": [
+   {
+    "part": "practice-cubic-unknown-coefficient-1",
+    "level": "higher",
+    "year": null,
+    "question": "$(x - 1)$ and $(x + 2)$ are factors of $f(x) = x^3 + px^2 + qx - 6$.\nFind the value of $p$ and the value of $q$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use the factor theorem for (x − 1)",
+      "lines": [
+       {
+        "text": "Since $(x - 1)$ is a factor, $f(1) = 0$."
+       },
+       {
+        "tex": "1 + p + q - 6 &= 0"
+       },
+       {
+        "tex": "p + q &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Use the factor theorem for (x + 2)",
+      "lines": [
+       {
+        "text": "Since $(x + 2)$ is a factor, $f(-2) = 0$."
+       },
+       {
+        "tex": "-8 + 4p - 2q - 6 &= 0"
+       },
+       {
+        "tex": "4p - 2q &= 14"
+       },
+       {
+        "tex": "2p - q &= 7"
+       }
+      ]
+     },
+     {
+      "title": "Add the two equations to eliminate q",
+      "lines": [
+       {
+        "tex": "(p + q) + (2p - q) &= 5 + 7"
+       },
+       {
+        "tex": "3p &= 12"
+       },
+       {
+        "tex": "p &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Find q",
+      "lines": [
+       {
+        "tex": "4 + q &= 5"
+       },
+       {
+        "tex": "q &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "p = 4, \\quad q = 1"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q2#(b)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Use the factor theorem: f(-4) = 0",
+      "lines": [
+       {
+        "text": "Since $(x+4)$ is a factor, $f(-4) = 0$."
+       },
+       {
+        "tex": "(-4)^3 + q(-4)^2 - 22(-4) + 56 &= 0"
+       },
+       {
+        "tex": "-64 + 16q + 88 + 56 &= 0"
+       },
+       {
+        "tex": "16q + 80 &= 0"
+       },
+       {
+        "tex": "16q &= -80"
+       },
+       {
+        "tex": "q &= -5"
+       }
+      ]
+     },
+     {
+      "title": "Write f(x) with q = -5",
+      "lines": [
+       {
+        "tex": "x^3 - 5x^2 - 22x + 56 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Split the middle terms so (x + 4) appears in each group",
+      "lines": [
+       {
+        "text": "Write $-5x^2 = 4x^2 - 9x^2$ and $-22x = -36x + 14x$."
+       },
+       {
+        "tex": "x^3 + 4x^2 - 9x^2 - 36x + 14x + 56 &= 0"
+       },
+       {
+        "tex": "x^2(x+4) - 9x(x+4) + 14(x+4) &= 0"
+       },
+       {
+        "tex": "(x^2 - 9x + 14)(x+4) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "tex": "(x-2)(x-7)(x+4) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Read off the roots",
+      "lines": [
+       {
+        "tex": "x &= 2, \\quad x = 7, \\quad x = -4"
+       }
+      ]
+     }
+    ],
+    "final": "q = -5, \\quad \\text{Roots} = (-4,\\ 2,\\ 7)"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q1#(c)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the cubic as the quadratic times a linear factor",
+      "lines": [
+       {
+        "text": "A quadratic factor of a cubic leaves a linear factor $(x + k)$."
+       },
+       {
+        "tex": "(x^2 - px + 1)(x + k) &= x^3 - 2x - 3r"
+       }
+      ]
+     },
+     {
+      "title": "Expand the left-hand side",
+      "lines": [
+       {
+        "tex": "x^3 + kx^2 - px^2 - pkx + x + k &= x^3 - 2x - 3r"
+       },
+       {
+        "tex": "x^3 + (k - p)x^2 + (1 - pk)x + k &= x^3 - 2x - 3r"
+       }
+      ]
+     },
+     {
+      "title": "Compare the coefficients of x²",
+      "lines": [
+       {
+        "text": "The right-hand side has no $x^2$ term, so its coefficient is $0$."
+       },
+       {
+        "tex": "k - p &= 0"
+       },
+       {
+        "tex": "k &= p"
+       }
+      ]
+     },
+     {
+      "title": "Compare the coefficients of x to find p",
+      "lines": [
+       {
+        "tex": "1 - pk &= -2"
+       },
+       {
+        "tex": "1 - p^2 &= -2"
+       },
+       {
+        "tex": "p^2 &= 3"
+       },
+       {
+        "text": "Since $p < 0$, we take the negative root."
+       },
+       {
+        "tex": "p &= -\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Compare the constant terms to find r",
+      "lines": [
+       {
+        "tex": "k &= -3r"
+       },
+       {
+        "tex": "r &= -\\frac{k}{3}"
+       },
+       {
+        "tex": "r &= -\\frac{-\\sqrt{3}}{3}"
+       },
+       {
+        "tex": "r &= \\frac{\\sqrt{3}}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "p = -\\sqrt{3}, \\quad r = \\frac{\\sqrt{3}}{3}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-conjugate",
+   "title": "Find the conjugate",
+   "level": "OL",
+   "input": "z = a + bi",
+   "output": "z̄ = a − bi"
+  },
+  "candidates": [
+   {
+    "part": "practice-cx-conjugate-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$z = -4 - 7i$.\nWrite down $\\overline{z}$, the complex conjugate of $z$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the real and imaginary parts",
+      "lines": [
+       {
+        "text": "$z = -4 - 7i$ has real part $-4$ and imaginary part $-7$."
+       },
+       {
+        "tex": "z &= -4 - 7i"
+       }
+      ]
+     },
+     {
+      "title": "Change the sign of the imaginary part",
+      "lines": [
+       {
+        "tex": "\\overline{z} &= -4 + 7i"
+       }
+      ]
+     }
+    ],
+    "final": "\\overline{z} = -4 + 7i"
+   },
+   {
+    "part": "practice-cx-conjugate-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "$z = 3i - 8$.\nWrite down $\\overline{z}$, the complex conjugate of $z$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write $z$ in the form $a + bi$",
+      "lines": [
+       {
+        "tex": "z &= 3i - 8"
+       },
+       {
+        "tex": "&= -8 + 3i"
+       }
+      ]
+     },
+     {
+      "title": "Change the sign of the imaginary part",
+      "lines": [
+       {
+        "text": "The real part $-8$ stays the same; $+3i$ becomes $-3i$."
+       },
+       {
+        "tex": "\\overline{z} &= -8 - 3i"
+       }
+      ]
+     }
+    ],
+    "final": "\\overline{z} = -8 - 3i"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q1#(a), (b)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Read z₁ from the diagram",
+      "lines": [
+       {
+        "text": "$z_1$ is at $(-2, -3)$: real part $-2$, imaginary part $-3$."
+       },
+       {
+        "tex": "z_1 &= -2 - 3i"
+       }
+      ]
+     },
+     {
+      "title": "Find the complex conjugate",
+      "lines": [
+       {
+        "text": "Change the sign of the imaginary part."
+       },
+       {
+        "tex": "\\overline{z_1} &= -2 + 3i"
+       }
+      ]
+     },
+     {
+      "title": "Plot the conjugate",
+      "lines": [
+       {
+        "text": "$\\overline{z_1}$ is at $(-2, 3)$: 2 left, 3 up. It is the reflection of $z_1$ in the real axis."
+       }
+      ]
+     },
+     {
+      "title": "Plot z₂ and z₃",
+      "lines": [
+       {
+        "text": "$z_2 = -5 + 3i$ is at $(-5, 3)$: 5 left, 3 up."
+       },
+       {
+        "text": "$z_3 = 4 - 2i$ is at $(4, -2)$: 4 right, 2 down."
+       }
+      ]
+     }
+    ],
+    "final": "z_1 = -2 - 3i, \\quad \\overline{z_1} = -2 + 3i"
+   }
+  ]
+ }
+]

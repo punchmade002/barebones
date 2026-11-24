@@ -1,0 +1,217 @@
+[
+ {
+  "skill": "geo-cor3",
+  "problems": [
+   {
+    "question": "$[AB]$ is a diameter of a circle and $C$ is a point on the circle.\n$|\\angle CAB| = 38^\\circ$.\nFind $|\\angle ABC|$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the angle in a semicircle",
+       "lines": [
+        {
+         "text": "$[AB]$ is a diameter, so the angle at $C$ on the circle is a right angle."
+        },
+        {
+         "tex": "|\\angle ACB| &= 90^\\circ",
+         "sym": "90",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Angles in triangle ABC add to 180 degrees",
+       "lines": [
+        {
+         "tex": "|\\angle ABC| &= 180 - 90 - 38",
+         "sym": "180 - 90 - 38",
+         "new": true
+        },
+        {
+         "tex": "&= 52^\\circ",
+         "sym": "52"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle ABC| = 52^\\circ"
+    },
+    "finalSym": "52",
+    "answerSym": "180 - 90 - 38"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm11",
+  "problems": [
+   {
+    "question": "Three parallel lines cut two transversals. On one transversal they cut off $|AB| = |BC|$. On the other they meet it at $D$, $E$ and $F$, with $|DE| = (2x + 1)$ cm and $|EF| = (5x - 8)$ cm.\nFind $|DF|$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 11",
+       "lines": [
+        {
+         "text": "$|AB| = |BC|$, so the parallel lines cut equal segments on the other transversal: $|DE| = |EF|$."
+        },
+        {
+         "tex": "2x + 1 &= 5x - 8",
+         "sym": "Eq(2*x + 1, 5*x - 8)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "9 &= 3x",
+         "sym": "Eq(9, 3*x)"
+        },
+        {
+         "tex": "x &= 3",
+         "sym": "Eq(x, 3)"
+        }
+       ]
+      },
+      {
+       "title": "Find $|DF|$",
+       "lines": [
+        {
+         "tex": "|DE| &= 2(3) + 1",
+         "sym": "2*3 + 1",
+         "new": true
+        },
+        {
+         "tex": "&= 7 \\text{ cm}",
+         "sym": "7"
+        },
+        {
+         "tex": "|DF| &= 7 + 7",
+         "sym": "7 + 7",
+         "new": true
+        },
+        {
+         "tex": "&= 14 \\text{ cm}",
+         "sym": "14"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|DF| = 14 \\text{ cm}"
+    },
+    "finalSym": "14",
+    "answerSym": "2*(2*3 + 1)"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm12",
+  "problems": [
+   {
+    "question": "In triangle $ABC$, $D$ is a point on $[AB]$ and $E$ is a point on $[AC]$ with $DE \\parallel BC$.\n$|AD| = x$ cm, $|DB| = 4$ cm, $|AE| = 9$ cm and $|EC| = 6$ cm.\nFind the value of $x$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "State the ratio (Theorem 12)",
+       "lines": [
+        {
+         "text": "$DE \\parallel BC$, so $DE$ divides $[AB]$ and $[AC]$ in the same ratio (Theorem 12)."
+        },
+        {
+         "tex": "\\frac{|AD|}{|DB|} &= \\frac{|AE|}{|EC|}"
+        },
+        {
+         "tex": "\\frac{x}{4} &= \\frac{9}{6}",
+         "sym": "Eq(x/4, Rational(9,6))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "6x &= 36",
+         "sym": "Eq(6*x, 36)"
+        },
+        {
+         "tex": "x &= 6",
+         "sym": "Eq(x, 6)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 6"
+    },
+    "finalSym": "6",
+    "answerSym": "4*Rational(9,6)"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm20",
+  "problems": [
+   {
+    "question": "A circle has centre $O$. $P$ is a point outside the circle and $[PT]$ is a tangent to the circle at $T$.\n$|PT| = 15$ cm and $|OP| = 17$ cm.\nFind the radius of the circle.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 20",
+       "lines": [
+        {
+         "text": "A tangent is perpendicular to the radius at the point of contact, so $|\\angle OTP| = 90^\\circ$ and $[OP]$ is the hypotenuse of triangle $OTP$."
+        }
+       ]
+      },
+      {
+       "title": "Use Pythagoras",
+       "lines": [
+        {
+         "tex": "|OT|^2 + |TP|^2 &= |OP|^2"
+        },
+        {
+         "tex": "r^2 + 15^2 &= 17^2",
+         "sym": "Eq(r**2 + 15**2, 17**2)",
+         "new": true
+        },
+        {
+         "tex": "r^2 + 225 &= 289",
+         "sym": "Eq(r**2 + 225, 289)"
+        },
+        {
+         "tex": "r^2 &= 64",
+         "sym": "Eq(r**2, 64)"
+        }
+       ]
+      },
+      {
+       "title": "Take the positive square root",
+       "lines": [
+        {
+         "text": "A radius cannot be negative."
+        },
+        {
+         "tex": "r &= 8",
+         "sym": "Eq(r, 8)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "r = 8 \\text{ cm}"
+    },
+    "finalSym": "8",
+    "answerSym": "sqrt(17**2 - 15**2)"
+   }
+  ]
+ }
+]

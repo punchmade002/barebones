@@ -1,0 +1,396 @@
+[
+ {
+  "skill": "circ-eq-origin",
+  "of": "e76efc33ca02",
+  "title": "Write/interpret a circle with centre (0, 0)",
+  "show": "circle centred at the origin through (2,5) with the radius drawn from O to the point",
+  "example": {
+   "question": "A circle has centre $(0, 0)$ and passes through the point $(2, 5)$. Find the equation of the circle.",
+   "final": "x^2 + y^2 = 29",
+   "steps": [
+    {
+     "say": "With centre $(0,0)$ the equation is $x^2 + y^2 = \\hl{1}{r^2}$. We need $\\hl{1}{r^2}$.",
+     "rows": []
+    },
+    {
+     "say": "The point $(2, 5)$ is on the circle, so it must fit the equation. Put $x = 2$ and $y = 5$ in.",
+     "rows": [
+      {
+       "l": "\\hl{1}{r^2}",
+       "r": "= 2^2 + 5^2"
+      },
+      {
+       "l": "",
+       "r": "= 4 + 25"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{29}"
+      }
+     ]
+    },
+    {
+     "say": "Put $\\hl{1}{29}$ in place of $r^2$.",
+     "rows": [
+      {
+       "l": "x^2 + y^2",
+       "r": "= \\hl{1}{29}"
+      },
+      {
+       "aside": "Leave $r^2$ as $29$. There is no need to find the radius."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-eq-centre-radius",
+  "of": "f46be9e46894",
+  "title": "Write/interpret (x − h)² + (y − k)² = r²",
+  "show": "circle with centre (-2,3) passing through (1,7) with radius segment 5 drawn",
+  "example": {
+   "question": "A circle has centre $(-2, 3)$ and passes through the point $(1, 7)$.\nFind the equation of the circle.",
+   "final": "(x+2)^2+(y-3)^2=25",
+   "steps": [
+    {
+     "say": "The radius is the distance from the centre to a point on the circle. Use the distance formula on $(-2, 3)$ and $(1, 7)$.",
+     "rows": [
+      {
+       "l": "r",
+       "r": "= \\hl{1}{\\sqrt{(1-(-2))^2+(7-3)^2}}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{9+16}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{5}"
+      }
+     ]
+    },
+    {
+     "say": "The centre $(-2, 3)$ gives $\\hl{2}{h=-2}$ and $\\hl{3}{k=3}$. Watch the signs: $(x-h)$ with $h=-2$ becomes $(x+2)$.",
+     "rows": [
+      {
+       "l": "x-h",
+       "r": "= x-(\\hl{2}{-2}) = x+2"
+      },
+      {
+       "l": "y-k",
+       "r": "= y-\\hl{3}{3}"
+      }
+     ]
+    },
+    {
+     "say": "Put the centre and the radius $\\hl{1}{5}$ into $(x-h)^2+(y-k)^2=r^2$. The right side is the radius squared, $5^2=25$.",
+     "rows": [
+      {
+       "l": "(x+2)^2+(y-3)^2",
+       "r": "= \\hl{1}{5}^2"
+      },
+      {
+       "l": "(x+2)^2+(y-3)^2",
+       "r": "= 25"
+      },
+      {
+       "aside": "Check: $(1, 7)$ gives $3^2+4^2=25$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-line-origin",
+  "of": "02bd2c9c7a63",
+  "title": "Find where a line meets a circle with centre (0, 0)",
+  "show": "circle x²+y²=13 and line y=x-1 meeting at (3,2) and (-2,-3)",
+  "example": {
+   "question": "The line $y = x-1$ meets the circle $x^2+y^2=13$ at two points.\nFind the two points.",
+   "final": "(3, 2) \\text{ and } (-2, -3)",
+   "steps": [
+    {
+     "say": "The line gives $y$ in terms of $x$. Put $\\hl{1}{y = x-1}$ into the circle, so that only $x$ is left.",
+     "rows": [
+      {
+       "l": "x^2+y^2",
+       "r": "= 13"
+      },
+      {
+       "l": "x^2+(\\hl{1}{x-1})^2",
+       "r": "= 13"
+      }
+     ]
+    },
+    {
+     "say": "Expand the bracket, collect the terms and move everything to one side.",
+     "rows": [
+      {
+       "l": "2x^2-2x+1",
+       "r": "= 13"
+      },
+      {
+       "l": "2x^2-2x-12",
+       "r": "= 0"
+      },
+      {
+       "aside": "Every term divides by 2. Do that first."
+      },
+      {
+       "l": "x^2-x-6",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Factorise. Each bracket gives one value of $\\hl{2}{x}$.",
+     "rows": [
+      {
+       "l": "(x-3)(x+2)",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{2}{3}"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{2}{-2}"
+      }
+     ]
+    },
+    {
+     "say": "Put each $\\hl{2}{x}$ back into the line $y=x-1$ to get its $\\hl{3}{y}$. Do not put it into the circle: that gives extra answers.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= 3-1 = \\hl{3}{2}"
+      },
+      {
+       "l": "y",
+       "r": "= -2-1 = \\hl{3}{-3}"
+      },
+      {
+       "aside": "The points are $(3, 2)$ and $(-2, -3)$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-tangent-at-point",
+  "of": "2404b5cc4301",
+  "title": "Find the tangent at a point on a circle",
+  "show": "circle centre (1,-2) through P(3,-6) with the radius CP and the tangent at P perpendicular to it",
+  "example": {
+   "question": "The circle $(x-1)^2+(y+2)^2=20$ passes through the point $P(3, -6)$.\nFind the equation of the tangent to the circle at $P$.\nGive your answer in the form $ax+by+c=0$.",
+   "final": "x-2y-15=0",
+   "steps": [
+    {
+     "say": "The centre is $(1, -2)$. The radius runs from the centre to $P(3, -6)$. Find its slope.",
+     "rows": [
+      {
+       "l": "m_r",
+       "r": "= \\frac{-6-(-2)}{3-1}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{-4}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{-2}"
+      }
+     ]
+    },
+    {
+     "say": "The tangent is perpendicular to the radius. Flip $\\hl{1}{-2}$ and change its sign.",
+     "rows": [
+      {
+       "l": "m_t",
+       "r": "= -\\frac{1}{\\hl{1}{-2}}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{\\tfrac12}"
+      }
+     ]
+    },
+    {
+     "say": "Use $y-y_1=m(x-x_1)$ with the slope $\\hl{2}{\\tfrac12}$ and the point $P(3, -6)$.",
+     "rows": [
+      {
+       "l": "y-(-6)",
+       "r": "= \\hl{2}{\\tfrac12}(x-3)"
+      },
+      {
+       "l": "2y+12",
+       "r": "= x-3"
+      },
+      {
+       "aside": "Multiply by 2 to clear the fraction, then move every term to one side."
+      },
+      {
+       "l": "0",
+       "r": "= x-2y-15"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-general-form",
+  "of": "204d33e12057",
+  "title": "Use x² + y² + 2gx + 2fy + c = 0",
+  "show": "circle x²+y²-6x+2y-6=0 with centre (3,-1) and radius 4 marked",
+  "example": {
+   "question": "Find the centre and the radius of the circle $x^2 + y^2 - 6x + 2y - 6 = 0$.",
+   "final": "\\text{centre } (3, -1), \\ r = 4",
+   "steps": [
+    {
+     "say": "Compare with $x^2 + y^2 + 2gx + 2fy + c = 0$. The number in front of $x$ is $2g$ and the number in front of $y$ is $2f$. Halve each.",
+     "rows": [
+      {
+       "l": "2g",
+       "r": "= -6"
+      },
+      {
+       "l": "g",
+       "r": "= -3"
+      },
+      {
+       "l": "2f",
+       "r": "= 2"
+      },
+      {
+       "l": "f",
+       "r": "= 1"
+      },
+      {
+       "l": "c",
+       "r": "= -6"
+      }
+     ]
+    },
+    {
+     "say": "The centre is $(-g, -f)$. Change the sign of each.",
+     "rows": [
+      {
+       "l": "\\hl{1}{-g}",
+       "r": "= -(-3)"
+      },
+      {
+       "l": "",
+       "r": "= 3"
+      },
+      {
+       "l": "\\hl{2}{-f}",
+       "r": "= -(1)"
+      },
+      {
+       "l": "",
+       "r": "= -1"
+      },
+      {
+       "aside": "The centre is $(\\hl{1}{3}, \\hl{2}{-1})$."
+      }
+     ]
+    },
+    {
+     "say": "Put $g$, $f$ and $c$ into $r = \\sqrt{g^2 + f^2 - c}$. Take care with the minus sign in front of $c$.",
+     "rows": [
+      {
+       "l": "\\hl{3}{r}",
+       "r": "= \\sqrt{(-3)^2 + 1^2 - (-6)}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{9 + 1 + 6}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{16}"
+      },
+      {
+       "l": "",
+       "r": "= 4"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-tangent-length",
+  "of": "25b4179a64ae",
+  "title": "Find the length of a tangent from an external point",
+  "show": "circle centre (-1,2) radius 3 with external point P(3,5), the radius to the tangent point and the tangent segment forming a right triangle",
+  "example": {
+   "question": "The circle $x^2 + y^2 + 2x - 4y - 4 = 0$ has a tangent drawn from the point $P(3, 5)$. Find the length of the tangent from $P$ to the point where it touches the circle.",
+   "final": "4",
+   "steps": [
+    {
+     "say": "Read off $g = 1$, $f = -2$, $c = -4$. The centre is $(-g, -f)$ and $r^2 = g^2 + f^2 - c$.",
+     "rows": [
+      {
+       "aside": "The centre is $(-1, 2)$."
+      },
+      {
+       "l": "r^2",
+       "r": "= 1^2 + (-2)^2 - (-4)"
+      },
+      {
+       "l": "",
+       "r": "= 9"
+      }
+     ]
+    },
+    {
+     "say": "Find the distance $d$ from the centre $(-1, 2)$ to $P(3, 5)$. Keep it squared for now.",
+     "rows": [
+      {
+       "l": "d^2",
+       "r": "= (3 + 1)^2 + (5 - 2)^2"
+      },
+      {
+       "l": "",
+       "r": "= 16 + 9"
+      },
+      {
+       "l": "",
+       "r": "= 25"
+      }
+     ]
+    },
+    {
+     "say": "The radius is perpendicular to the tangent, so $d^2 = r^2 + \\hl{1}{t}^2$. Rearrange for $\\hl{1}{t}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{t}^2",
+       "r": "= d^2 - r^2"
+      },
+      {
+       "l": "",
+       "r": "= 16"
+      },
+      {
+       "l": "\\hl{1}{t}",
+       "r": "= \\sqrt{16}"
+      },
+      {
+       "l": "",
+       "r": "= 4"
+      },
+      {
+       "aside": "Shortcut: put $(3, 5)$ into the left side of the circle. $9 + 25 + 6 - 20 - 4 = 16$ is $t^2$ directly."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

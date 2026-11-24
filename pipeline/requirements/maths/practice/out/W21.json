@@ -1,0 +1,638 @@
+[
+ {
+  "skill": "fn-exp-model",
+  "problems": [
+   {
+    "question": "A radioactive sample has a mass of $80$ g at time $t = 0$.\nAfter $5$ hours its mass is $20$ g.\nThe mass $m$ grams at time $t$ hours is modelled by $m = 80e^{kt}$.\nFind the exact value of $k$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute t = 5 and m = 20",
+       "lines": [
+        {
+         "tex": "20 &= 80e^{5k}",
+         "sym": "Eq(20, 80*exp(5*k))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Isolate the exponential",
+       "lines": [
+        {
+         "tex": "e^{5k} &= \\frac{20}{80}",
+         "sym": "Eq(exp(5*k), Rational(20,80))",
+         "new": true
+        },
+        {
+         "tex": "e^{5k} &= \\frac14",
+         "sym": "Eq(exp(5*k), Rational(1,4))"
+        }
+       ]
+      },
+      {
+       "title": "Take natural logs of both sides",
+       "lines": [
+        {
+         "tex": "5k &= \\ln\\left(\\tfrac14\\right)",
+         "sym": "Eq(5*k, log(Rational(1,4)))",
+         "new": true
+        },
+        {
+         "tex": "5k &= -\\ln 4",
+         "sym": "Eq(5*k, -log(4))"
+        },
+        {
+         "tex": "k &= -\\frac{\\ln 4}{5}",
+         "sym": "Eq(k, -log(4)/5)"
+        }
+       ]
+      },
+      {
+       "title": "Check with a decimal",
+       "lines": [
+        {
+         "tex": "k &\\approx -0.277",
+         "sym": "Eq(k, -0.277)",
+         "new": true,
+         "approx": true
+        },
+        {
+         "text": "$k$ is negative, as the mass is decreasing."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "k = -\\frac{\\ln 4}{5} \\approx -0.277"
+    },
+    "finalSym": "-log(4)/5",
+    "answerSym": "expand_log(log(Rational(20,80))/5, force=True)"
+   },
+   {
+    "question": "The value $V$ of a machine, in euro, $t$ years after it was bought is modelled by $V = a \\cdot b^{t}$, where $a$ and $b$ are positive constants.\nThe machine was worth $\\text{\u20ac}20\\,000$ after $1$ year and $\\text{\u20ac}12\\,800$ after $3$ years.\nFind the value of $a$ and the value of $b$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write an equation for each data point",
+       "lines": [
+        {
+         "tex": "ab &= 20000",
+         "sym": "Eq(a*b, 20000)",
+         "new": true
+        },
+        {
+         "tex": "ab^3 &= 12800",
+         "sym": "Eq(a*b**3, 12800)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Divide the second equation by the first",
+       "lines": [
+        {
+         "tex": "\\frac{ab^3}{ab} &= \\frac{12800}{20000}",
+         "sym": "Eq(a*b**3/(a*b), Rational(12800,20000))",
+         "new": true
+        },
+        {
+         "tex": "b^2 &= 0.64",
+         "sym": "Eq(b**2, Rational(16,25))"
+        }
+       ]
+      },
+      {
+       "title": "Take the positive square root",
+       "lines": [
+        {
+         "tex": "b &= 0.8",
+         "sym": "Eq(b, Rational(4,5))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute b into the first equation",
+       "lines": [
+        {
+         "tex": "a(0.8) &= 20000",
+         "sym": "Eq(a*Rational(4,5), 20000)",
+         "new": true
+        },
+        {
+         "tex": "a &= \\frac{20000}{0.8}",
+         "sym": "Eq(a, 20000/Rational(4,5))"
+        },
+        {
+         "tex": "a &= 25000",
+         "sym": "Eq(a, 25000)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a = 25\\,000, \\quad b = 0.8"
+    },
+    "finalSym": "(25000, Rational(4,5))",
+    "answerSym": "(20000/sqrt(Rational(12800,20000)), sqrt(Rational(12800,20000)))"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm1",
+  "problems": [
+   {
+    "question": "The straight lines $AB$ and $CD$ intersect at the point $O$.\n$|\\angle AOC| = (3x + 10)^\\circ$ and $|\\angle BOD| = (5x - 30)^\\circ$.\nFind $|\\angle AOD|$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use vertically opposite angles",
+       "lines": [
+        {
+         "text": "$\\angle AOC$ and $\\angle BOD$ are vertically opposite, so they are equal."
+        },
+        {
+         "tex": "3x + 10 &= 5x - 30",
+         "sym": "Eq(3*x+10, 5*x-30)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for x",
+       "lines": [
+        {
+         "tex": "40 &= 2x",
+         "sym": "Eq(40, 2*x)"
+        },
+        {
+         "tex": "x &= 20",
+         "sym": "Eq(x, 20)"
+        }
+       ]
+      },
+      {
+       "title": "Find the angle AOC",
+       "lines": [
+        {
+         "tex": "|\\angle AOC| &= 3(20) + 10",
+         "sym": "3*20+10",
+         "new": true
+        },
+        {
+         "tex": "&= 70",
+         "sym": "70"
+        }
+       ]
+      },
+      {
+       "title": "Use the straight line AB",
+       "lines": [
+        {
+         "text": "$\\angle AOC$ and $\\angle AOD$ lie on the straight line $CD$, so they add to $180^\\circ$."
+        },
+        {
+         "tex": "|\\angle AOD| &= 180 - 70",
+         "sym": "180-70",
+         "new": true
+        },
+        {
+         "tex": "&= 110",
+         "sym": "110"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle AOD| = 110^\\circ"
+    },
+    "finalSym": "110",
+    "answerSym": "180 - (3*x + 10).subs(x, solve(Eq(3*x + 10, 5*x - 30), x)[0])"
+   },
+   {
+    "question": "The straight lines $AB$ and $CD$ intersect at the point $O$.\n$|\\angle AOC| = (2x + y)^\\circ$, $|\\angle BOD| = 70^\\circ$ and $|\\angle AOD| = (x + 3y)^\\circ$.\nFind the value of $x$ and the value of $y$.",
+    "level": "ordinary",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use vertically opposite angles",
+       "lines": [
+        {
+         "text": "$\\angle AOC$ and $\\angle BOD$ are vertically opposite, so they are equal."
+        },
+        {
+         "tex": "2x + y &= 70",
+         "sym": "Eq(2*x+y, 70)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the straight line CD",
+       "lines": [
+        {
+         "text": "$\\angle AOC$ and $\\angle AOD$ lie on a straight line, so they add to $180^\\circ$."
+        },
+        {
+         "tex": "(2x + y) + (x + 3y) &= 180",
+         "sym": "Eq((2*x+y)+(x+3*y), 180)",
+         "new": true
+        },
+        {
+         "tex": "3x + 4y &= 180",
+         "sym": "Eq(3*x+4*y, 180)"
+        }
+       ]
+      },
+      {
+       "title": "Eliminate y",
+       "lines": [
+        {
+         "tex": "y &= 70 - 2x",
+         "sym": "Eq(y, 70-2*x)",
+         "new": true
+        },
+        {
+         "tex": "3x + 4(70 - 2x) &= 180",
+         "sym": "Eq(3*x+4*(70-2*x), 180)",
+         "new": true
+        },
+        {
+         "tex": "-5x + 280 &= 180",
+         "sym": "Eq(-5*x+280, 180)"
+        },
+        {
+         "tex": "x &= 20",
+         "sym": "Eq(x, 20)"
+        }
+       ]
+      },
+      {
+       "title": "Find y",
+       "lines": [
+        {
+         "tex": "y &= 70 - 2(20)",
+         "sym": "Eq(y, 70-2*20)",
+         "new": true
+        },
+        {
+         "tex": "y &= 30",
+         "sym": "Eq(y, 30)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 20, \\quad y = 30"
+    },
+    "finalSym": "(20, 30)",
+    "answerSym": "linsolve([Eq(2*x + y, 70), Eq((2*x + y) + (x + 3*y), 180)], (x, y)).args[0]"
+   },
+   {
+    "question": "The straight lines $AD$ and $BE$ intersect at the point $C$, with $C$ between $A$ and $D$ and between $B$ and $E$.\nIn the triangle $ABC$, $|\\angle BAC| = 50^\\circ$ and $|\\angle ABC| = 60^\\circ$.\nFind $|\\angle DCE|$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the angle ACB",
+       "lines": [
+        {
+         "text": "The angles in a triangle add to $180^\\circ$."
+        },
+        {
+         "tex": "|\\angle ACB| &= 180 - 50 - 60",
+         "sym": "180-50-60",
+         "new": true
+        },
+        {
+         "tex": "&= 70",
+         "sym": "70"
+        }
+       ]
+      },
+      {
+       "title": "Use vertically opposite angles",
+       "lines": [
+        {
+         "text": "$\\angle ACB$ and $\\angle DCE$ are vertically opposite, so they are equal."
+        },
+        {
+         "tex": "|\\angle DCE| &= |\\angle ACB|",
+         "sym": "70",
+         "new": true
+        },
+        {
+         "tex": "&= 70",
+         "sym": "70"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle DCE| = 70^\\circ"
+    },
+    "finalSym": "70",
+    "answerSym": "180 - 50 - 60"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm3",
+  "problems": [
+   {
+    "question": "$AB$ and $CD$ are parallel lines.\nA line meets $AB$ at $P$ and $CD$ at $Q$, with $A$ and $D$ on opposite sides of $PQ$.\n$|\\angle APQ| = (2x + 15)^\\circ$ and $|\\angle PQD| = (4x - 25)^\\circ$.\nFind $|\\angle PQD|$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use alternate angles",
+       "lines": [
+        {
+         "text": "$\\angle APQ$ and $\\angle PQD$ are alternate angles between parallel lines, so they are equal."
+        },
+        {
+         "tex": "2x + 15 &= 4x - 25",
+         "sym": "Eq(2*x+15, 4*x-25)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for x",
+       "lines": [
+        {
+         "tex": "40 &= 2x",
+         "sym": "Eq(40, 2*x)"
+        },
+        {
+         "tex": "x &= 20",
+         "sym": "Eq(x, 20)"
+        }
+       ]
+      },
+      {
+       "title": "Find the angle PQD",
+       "lines": [
+        {
+         "tex": "|\\angle PQD| &= 4(20) - 25",
+         "sym": "4*20-25",
+         "new": true
+        },
+        {
+         "tex": "&= 55",
+         "sym": "55"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle PQD| = 55^\\circ"
+    },
+    "finalSym": "55",
+    "answerSym": "(4*x - 25).subs(x, solve(Eq(2*x + 15, 4*x - 25), x)[0])"
+   },
+   {
+    "question": "$ABCD$ is a quadrilateral with $[AB] \\parallel [DC]$.\n$|\\angle BAC| = 35^\\circ$ and $|\\angle ACB| = 80^\\circ$.\nFind $|\\angle BCD|$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the angle ACD",
+       "lines": [
+        {
+         "text": "$[AB] \\parallel [DC]$ and $AC$ crosses them, so $\\angle BAC$ and $\\angle ACD$ are alternate angles, and equal."
+        },
+        {
+         "tex": "|\\angle ACD| &= 35",
+         "sym": "35",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Add the two parts of angle BCD",
+       "lines": [
+        {
+         "tex": "|\\angle BCD| &= |\\angle ACB| + |\\angle ACD|",
+         "sym": "80+35",
+         "new": true
+        },
+        {
+         "tex": "&= 80 + 35",
+         "sym": "80+35"
+        },
+        {
+         "tex": "&= 115",
+         "sym": "115"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle BCD| = 115^\\circ"
+    },
+    "finalSym": "115",
+    "answerSym": "80 + 35"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm5",
+  "problems": [
+   {
+    "question": "$AB$ and $CD$ are parallel lines.\nA line meets $AB$ at $P$ and $CD$ at $Q$. $E$ is a point on this line above $P$, and $B$ and $D$ are on the same side of it.\n$|\\angle EPB| = (5x - 20)^\\circ$ and $|\\angle PQD| = (3x + 20)^\\circ$.\nFind $|\\angle PQC|$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use corresponding angles",
+       "lines": [
+        {
+         "text": "$\\angle EPB$ and $\\angle PQD$ are corresponding angles between parallel lines, so they are equal."
+        },
+        {
+         "tex": "5x - 20 &= 3x + 20",
+         "sym": "Eq(5*x-20, 3*x+20)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for x",
+       "lines": [
+        {
+         "tex": "2x &= 40",
+         "sym": "Eq(2*x, 40)"
+        },
+        {
+         "tex": "x &= 20",
+         "sym": "Eq(x, 20)"
+        }
+       ]
+      },
+      {
+       "title": "Find the angle PQD",
+       "lines": [
+        {
+         "tex": "|\\angle PQD| &= 3(20) + 20",
+         "sym": "3*20+20",
+         "new": true
+        },
+        {
+         "tex": "&= 80",
+         "sym": "80"
+        }
+       ]
+      },
+      {
+       "title": "Use the straight line CD",
+       "lines": [
+        {
+         "text": "$\\angle PQC$ and $\\angle PQD$ lie on a straight line, so they add to $180^\\circ$."
+        },
+        {
+         "tex": "|\\angle PQC| &= 180 - 80",
+         "sym": "180-80",
+         "new": true
+        },
+        {
+         "tex": "&= 100",
+         "sym": "100"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle PQC| = 100^\\circ"
+    },
+    "finalSym": "100",
+    "answerSym": "180 - (3*x + 20).subs(x, solve(Eq(5*x - 20, 3*x + 20), x)[0])"
+   },
+   {
+    "question": "In the triangle $ABC$, the point $D$ is on $[AB]$ and the point $E$ is on $[AC]$, with $[DE] \\parallel [BC]$.\n$|\\angle ADE| = 52^\\circ$ and $|\\angle ACB| = 61^\\circ$.\nFind $|\\angle BAC|$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use corresponding angles",
+       "lines": [
+        {
+         "text": "$[DE] \\parallel [BC]$ and $AB$ crosses them, so $\\angle ADE$ and $\\angle ABC$ are corresponding angles, and equal."
+        },
+        {
+         "tex": "|\\angle ABC| &= 52",
+         "sym": "52",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the angles of triangle ABC",
+       "lines": [
+        {
+         "text": "The angles in a triangle add to $180^\\circ$."
+        },
+        {
+         "tex": "|\\angle BAC| &= 180 - 52 - 61",
+         "sym": "180-52-61",
+         "new": true
+        },
+        {
+         "tex": "&= 67",
+         "sym": "67"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle BAC| = 67^\\circ"
+    },
+    "finalSym": "67",
+    "answerSym": "180 - 52 - 61"
+   },
+   {
+    "question": "$AB$ and $CD$ are parallel lines.\nA line meets $AB$ at $P$ and $CD$ at $Q$. $E$ is a point on this line above $P$, and $B$ and $D$ are on the same side of it.\n$|\\angle EPB| = (x + 2y)^\\circ$, $|\\angle PQD| = 70^\\circ$ and $|\\angle PQC| = (3x + y)^\\circ$.\nFind the value of $x$ and the value of $y$.",
+    "level": "ordinary",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use corresponding angles",
+       "lines": [
+        {
+         "text": "$\\angle EPB$ and $\\angle PQD$ are corresponding angles between parallel lines, so they are equal."
+        },
+        {
+         "tex": "x + 2y &= 70",
+         "sym": "Eq(x+2*y, 70)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the straight line CD",
+       "lines": [
+        {
+         "text": "$\\angle PQC$ and $\\angle PQD$ lie on a straight line, so they add to $180^\\circ$."
+        },
+        {
+         "tex": "(3x + y) + 70 &= 180",
+         "sym": "Eq((3*x+y)+70, 180)",
+         "new": true
+        },
+        {
+         "tex": "3x + y &= 110",
+         "sym": "Eq(3*x+y, 110)"
+        }
+       ]
+      },
+      {
+       "title": "Eliminate x",
+       "lines": [
+        {
+         "tex": "x &= 70 - 2y",
+         "sym": "Eq(x, 70-2*y)",
+         "new": true
+        },
+        {
+         "tex": "3(70 - 2y) + y &= 110",
+         "sym": "Eq(3*(70-2*y)+y, 110)",
+         "new": true
+        },
+        {
+         "tex": "210 - 5y &= 110",
+         "sym": "Eq(210-5*y, 110)"
+        },
+        {
+         "tex": "y &= 20",
+         "sym": "Eq(y, 20)"
+        }
+       ]
+      },
+      {
+       "title": "Find x",
+       "lines": [
+        {
+         "tex": "x &= 70 - 2(20)",
+         "sym": "Eq(x, 70-2*20)",
+         "new": true
+        },
+        {
+         "tex": "x &= 30",
+         "sym": "Eq(x, 30)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 30, \\quad y = 20"
+    },
+    "finalSym": "(30, 20)",
+    "answerSym": "linsolve([Eq(x + 2*y, 70), Eq((3*x + y) + 70, 180)], (x, y)).args[0]"
+   }
+  ]
+ }
+]

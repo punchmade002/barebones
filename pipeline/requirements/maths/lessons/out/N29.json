@@ -1,0 +1,140 @@
+[
+{"skill": "trig-derive-6", "problems": [
+{"part": "maths-pp-2021-higher-p2-q4#(a)(i)", "note": null,
+ "legend": {"1": "the double-angle term on the left", "2": "the answer, the squared form"},
+ "steps": [
+  {"ask": "Which formula from the tables do you start from, and what should B be to get a double angle?", "title": "Start from the compound angle formula", "lines": [{"text": "We are given in the tables: $\\cos(A+B) = \\cos A \\cos B - \\sin A \\sin B$."}, {"text": "This is true for any angles, so put $B = A$."}]},
+  {"ask": "What happens to the left side when B is replaced by A? Simplify the angle.", "title": "Replace B with A", "lines": [{"tex": "\\hl{1}{\\cos(A + A)} &= \\cos A \\cos A - \\sin A \\sin A"}, {"tex": "\\hl{1}{\\cos 2A} &= \\hl{2}{\\cos^2 A - \\sin^2 A}"}]}
+ ],
+ "final": "\\hl{1}{\\cos 2A} = \\hl{2}{\\cos^2 A - \\sin^2 A}",
+ "graph": null},
+{"part": "practice-trig-derive-6-1", "note": "What changed: the angle is called θ and the question asks you to prove the result. The steps and the answer have the same shape as problem 1.",
+ "legend": {"1": "the double-angle term on the left", "2": "the answer, the squared form"},
+ "steps": [
+  {"ask": "What must A and B be so that the formula gives cos(θ + θ) on the left?", "title": "Start from the compound angle formula", "lines": [{"text": "$\\cos(A+B) = \\cos A \\cos B - \\sin A \\sin B$ is true for any angles, so we may choose $A = B = \\theta$."}, {"tex": "\\hl{1}{\\cos(\\theta + \\theta)} &= \\cos\\theta \\cos\\theta - \\sin\\theta \\sin\\theta"}]},
+  {"ask": "What are θ + θ, and what do the two products simplify to?", "title": "Simplify both sides", "lines": [{"text": "$\\theta + \\theta = 2\\theta$, and the products are squares."}, {"tex": "\\hl{1}{\\cos 2\\theta} &= \\hl{2}{\\cos^2\\theta - \\sin^2\\theta}"}, {"text": "So $\\hl{1}{\\cos 2\\theta} = \\hl{2}{\\cos^2\\theta - \\sin^2\\theta}$, as required."}]}
+ ],
+ "final": "\\hl{1}{\\cos 2\\theta} = \\hl{2}{\\cos^2\\theta - \\sin^2\\theta}",
+ "graph": null},
+{"part": "practice-trig-derive-6-2", "note": "What changed: the angle is 2x, so the left side is cos 4x and the squared terms are in 2x. The method is the same as problem 1.",
+ "legend": {"1": "the double-angle term on the left", "2": "the answer, the squared form"},
+ "steps": [
+  {"ask": "What should A and B each be, so that A + B equals 4x?", "title": "Choose the angles", "lines": [{"text": "Put $A = 2x$ and $B = 2x$ in the compound angle formula."}, {"tex": "\\hl{1}{\\cos(2x + 2x)} &= \\cos 2x \\cos 2x - \\sin 2x \\sin 2x"}]},
+  {"ask": "What is 2x + 2x, and what do the two products simplify to?", "title": "Simplify both sides", "lines": [{"text": "$2x + 2x = 4x$, and the products are squares."}, {"tex": "\\hl{1}{\\cos 4x} &= \\hl{2}{\\cos^2 2x - \\sin^2 2x}"}, {"text": "So $\\hl{1}{\\cos 4x} = \\hl{2}{\\cos^2 2x - \\sin^2 2x}$, as required."}]}
+ ],
+ "final": "\\hl{1}{\\cos 4x} = \\hl{2}{\\cos^2 2x - \\sin^2 2x}",
+ "graph": null}
+]},
+{"skill": "trig-derive-7", "problems": [
+{"part": "maths-pp-2023-higher-p2-q2#(a)", "note": null,
+ "legend": {"1": "the sine we want, sin(A + B)", "2": "the answer, the expanded form"},
+ "steps": [
+  {"ask": "Which known formula has cos(A − B) on its left? How could a sine be written as a cosine?", "title": "Start from the formula for $\\cos(A - B)$", "lines": [{"text": "We use the known formula, then turn sine into cosine."}, {"tex": "\\cos(A - B) &= \\cos A \\cos B + \\sin A \\sin B"}]},
+  {"ask": "Which cofunction identity turns a sine into a cosine? Apply it to A + B.", "title": "Write the sine as a cosine", "lines": [{"text": "$\\sin \\theta = \\cos(90^\\circ - \\theta)$ for any angle $\\theta$."}, {"tex": "\\hl{1}{\\sin(A+B)} &= \\cos\\big(90^\\circ - (A+B)\\big)"}, {"tex": "&= \\cos\\big((90^\\circ - A) - B\\big)"}]},
+  {"ask": "If you replace A in the cos(A − B) formula with 90° − A, what do you get?", "title": "Use the $\\cos(A-B)$ formula", "lines": [{"text": "Apply it with $90^\\circ - A$ in place of $A$."}, {"tex": "&= \\cos(90^\\circ - A)\\cos B + \\sin(90^\\circ - A)\\sin B"}]},
+  {"ask": "What are cos(90° − A) and sin(90° − A) equal to, in terms of A?", "title": "Change back to sine and cosine of $A$", "lines": [{"text": "$\\cos(90^\\circ - A) = \\sin A$ and $\\sin(90^\\circ - A) = \\cos A$."}, {"tex": "&= \\hl{2}{\\sin A \\cos B + \\cos A \\sin B}"}, {"text": "So $\\hl{1}{\\sin(A+B)} = \\hl{2}{\\sin A \\cos B + \\cos A \\sin B}$, as required."}]}
+ ],
+ "final": "\\hl{1}{\\sin(A+B)} = \\hl{2}{\\sin A \\cos B + \\cos A \\sin B}",
+ "graph": null},
+{"part": "practice-trig-derive-7-1", "note": "What changed: the angles are in radians, so 90° becomes π/2. The formula, the steps and the answer are the same.",
+ "legend": {"1": "the sine we want, sin(A + B)", "2": "the answer, the expanded form"},
+ "steps": [
+  {"ask": "Which known formula has cos(A − B) on its left, and what do you need to turn the sine into a cosine?", "title": "Start from the known formula", "lines": [{"text": "We use $\\cos(A - B)$ and turn the sine into a cosine."}, {"tex": "\\cos(A - B) &= \\cos A \\cos B + \\sin A \\sin B"}]},
+  {"ask": "Using radians, which identity turns sin θ into a cosine? Apply it to A + B.", "title": "Write the sine as a cosine", "lines": [{"text": "$\\sin\\theta = \\cos\\left(\\frac{\\pi}{2} - \\theta\\right)$ for any angle $\\theta$."}, {"tex": "\\hl{1}{\\sin(A+B)} &= \\cos\\left(\\frac{\\pi}{2} - (A+B)\\right)"}, {"tex": "&= \\cos\\left(\\left(\\frac{\\pi}{2} - A\\right) - B\\right)"}]},
+  {"ask": "If you replace A in the cos(A − B) formula with π/2 − A, what do you get?", "title": "Use the $\\cos(A-B)$ formula", "lines": [{"text": "Apply it with $\\frac{\\pi}{2} - A$ in place of $A$."}, {"tex": "&= \\cos\\left(\\frac{\\pi}{2} - A\\right)\\cos B + \\sin\\left(\\frac{\\pi}{2} - A\\right)\\sin B"}]},
+  {"ask": "What are cos(π/2 − A) and sin(π/2 − A) equal to, in terms of A?", "title": "Change back to functions of $A$", "lines": [{"text": "$\\cos\\left(\\frac{\\pi}{2} - A\\right) = \\sin A$ and $\\sin\\left(\\frac{\\pi}{2} - A\\right) = \\cos A$."}, {"tex": "&= \\hl{2}{\\sin A \\cos B + \\cos A \\sin B}"}, {"text": "So $\\hl{1}{\\sin(A+B)} = \\hl{2}{\\sin A \\cos B + \\cos A \\sin B}$, as required."}]}
+ ],
+ "final": "\\hl{1}{\\sin(A+B)} = \\hl{2}{\\sin A \\cos B + \\cos A \\sin B}",
+ "graph": null},
+{"part": "practice-trig-derive-7-2", "note": "What changed: the angle is grouped as (90° − y) − x, so the cos(P − Q) formula is applied with P = 90° − y and Q = x, and the last step reorders the two products. The formulae and the final answer are the same.",
+ "legend": {"1": "the sine we want, sin(A + B)", "2": "the answer, the expanded form"},
+ "steps": [
+  {"ask": "Which identity turns a sine into a cosine? After applying it, how do you regroup the angle so it looks like P − Q?", "title": "Turn the sine into a cosine", "lines": [{"text": "$\\sin\\theta = \\cos(90^\\circ - \\theta)$ for any angle $\\theta$."}, {"tex": "\\hl{1}{\\sin(x+y)} &= \\cos\\big(90^\\circ - (x+y)\\big)"}, {"text": "Regroup so the angle looks like $P - Q$ with $P = 90^\\circ - y$ and $Q = x$."}, {"tex": "&= \\cos\\big((90^\\circ - y) - x\\big)"}]},
+  {"ask": "With P = 90° − y and Q = x, what does the cos(P − Q) formula give?", "title": "Use the $\\cos(P-Q)$ formula", "lines": [{"text": "$\\cos(P - Q) = \\cos P \\cos Q + \\sin P \\sin Q$ with $P = 90^\\circ - y$, $Q = x$."}, {"tex": "&= \\cos(90^\\circ - y)\\cos x + \\sin(90^\\circ - y)\\sin x"}]},
+  {"ask": "What are cos(90° − y) and sin(90° − y) in terms of y?", "title": "Change back to functions of $y$", "lines": [{"text": "$\\cos(90^\\circ - y) = \\sin y$ and $\\sin(90^\\circ - y) = \\cos y$."}, {"tex": "&= \\sin y \\cos x + \\cos y \\sin x"}]},
+  {"ask": "Which order do the two products need to be in to match the required answer?", "title": "Write in the required order", "lines": [{"text": "Multiplication can be done in either order."}, {"tex": "&= \\hl{2}{\\sin x \\cos y + \\cos x \\sin y}"}]}
+ ],
+ "final": "\\hl{1}{\\sin(x+y)} = \\hl{2}{\\sin x \\cos y + \\cos x \\sin y}",
+ "graph": null}
+]},
+{"skill": "trig-derive-9", "problems": [
+{"part": "practice-trig-derive-9-1", "note": null,
+ "legend": {"1": "the sine-over-cosine quotient, sin/cos", "2": "the tangent form, (tan + tan)/(1 − tan·tan)"},
+ "steps": [
+  {"ask": "Which ratio gives tan, and what does it become for the angle A + B?", "title": "Write tan as sine over cosine", "lines": [{"text": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$ for any angle $\\theta$."}, {"tex": "\\tan(A+B) &= \\hl{1}{\\frac{\\sin(A+B)}{\\cos(A+B)}}"}]},
+  {"ask": "Which two formulae from earlier do you substitute into the top and bottom?", "title": "Expand the sine and cosine", "lines": [{"text": "Use the formulae for $\\sin(A+B)$ and $\\cos(A+B)$ with the angles $A$ and $B$."}, {"tex": "&= \\frac{\\sin A \\cos B + \\cos A \\sin B}{\\cos A \\cos B - \\sin A \\sin B}"}]},
+  {"ask": "Which term could you divide every part by so that sin/cos ratios appear?", "title": "Divide top and bottom by the same term", "lines": [{"text": "Divide every term by $\\cos A \\cos B$ (not zero, since the tangents exist)."}, {"tex": "&= \\frac{\\dfrac{\\sin A \\cos B}{\\cos A \\cos B} + \\dfrac{\\cos A \\sin B}{\\cos A \\cos B}}{\\dfrac{\\cos A \\cos B}{\\cos A \\cos B} - \\dfrac{\\sin A \\sin B}{\\cos A \\cos B}}"}]},
+  {"ask": "What does each sine over cosine become, and what is the resulting expression?", "title": "Cancel to get tangents", "lines": [{"text": "$\\dfrac{\\sin A}{\\cos A} = \\tan A$ and $\\dfrac{\\sin B}{\\cos B} = \\tan B$."}, {"tex": "&= \\hl{2}{\\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}}"}, {"text": "So $\\tan(A+B) = \\hl{2}{\\dfrac{\\tan A + \\tan B}{1 - \\tan A \\tan B}}$, as required."}]}
+ ],
+ "final": "\\tan(A+B) = \\hl{2}{\\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}}",
+ "graph": null},
+{"part": "practice-trig-derive-9-3", "note": "What changed: the letters are P and Q instead of A and B, and the question is worth 5 marks instead of 10. The steps and the answer are the same.",
+ "legend": {"1": "the sine-over-cosine quotient, sin/cos", "2": "the tangent form, (tan + tan)/(1 − tan·tan)"},
+ "steps": [
+  {"ask": "Which ratio gives tan, and what does it become for the angle P + Q?", "title": "Write tan as sine over cosine", "lines": [{"text": "$\\tan\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta}$ for any angle $\\theta$."}, {"tex": "\\tan(P+Q) &= \\hl{1}{\\frac{\\sin(P+Q)}{\\cos(P+Q)}}"}]},
+  {"ask": "Which two formulae do you substitute into the top and bottom, with P and Q as the angles?", "title": "Expand the sine and cosine", "lines": [{"text": "Use the formulae for $\\sin(A+B)$ and $\\cos(A+B)$ with the angles $P$ and $Q$."}, {"tex": "&= \\frac{\\sin P \\cos Q + \\cos P \\sin Q}{\\cos P \\cos Q - \\sin P \\sin Q}"}]},
+  {"ask": "What single term should you divide every part by, and why is that allowed?", "title": "Divide top and bottom by the same term", "lines": [{"text": "Divide every term by $\\cos P \\cos Q$ (not zero, since the tangents exist)."}, {"tex": "&= \\frac{\\dfrac{\\sin P \\cos Q}{\\cos P \\cos Q} + \\dfrac{\\cos P \\sin Q}{\\cos P \\cos Q}}{\\dfrac{\\cos P \\cos Q}{\\cos P \\cos Q} - \\dfrac{\\sin P \\sin Q}{\\cos P \\cos Q}}"}]},
+  {"ask": "What does each sine over cosine become, and what is the resulting expression?", "title": "Cancel to get tangents", "lines": [{"text": "$\\dfrac{\\sin P}{\\cos P} = \\tan P$ and $\\dfrac{\\sin Q}{\\cos Q} = \\tan Q$."}, {"tex": "&= \\hl{2}{\\frac{\\tan P + \\tan Q}{1 - \\tan P \\tan Q}}"}, {"text": "So $\\tan(P+Q) = \\hl{2}{\\dfrac{\\tan P + \\tan Q}{1 - \\tan P \\tan Q}}$, as required."}]}
+ ],
+ "final": "\\tan(P+Q) = \\hl{2}{\\frac{\\tan P + \\tan Q}{1 - \\tan P \\tan Q}}",
+ "graph": null},
+{"part": "practice-trig-derive-9-2", "note": "What changed: it starts from the tangent form on the left and multiplies top and bottom by cos x cos y, where problem 2 started from tan(P + Q) and divided. The target is now the sin/cos quotient, and the formulae are the same.",
+ "legend": {"1": "the sine-over-cosine quotient, sin/cos", "2": "the tangent form, (tan + tan)/(1 − tan·tan)"},
+ "steps": [
+  {"ask": "What is tan θ in terms of sin θ and cos θ? Use it for tan x and tan y.", "title": "Write the tangents as sine over cosine", "lines": [{"tex": "\\hl{2}{\\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}} &= \\frac{\\dfrac{\\sin x}{\\cos x} + \\dfrac{\\sin y}{\\cos y}}{1 - \\dfrac{\\sin x}{\\cos x} \\cdot \\dfrac{\\sin y}{\\cos y}}"}]},
+  {"ask": "What must the top and bottom be multiplied by to clear the small fractions?", "title": "Multiply top and bottom by $\\cos x \\cos y$", "lines": [{"text": "This clears every small fraction."}, {"tex": "&= \\frac{\\sin x \\cos y + \\cos x \\sin y}{\\cos x \\cos y - \\sin x \\sin y}"}]},
+  {"ask": "Which compound angle formulae do the new top and bottom match?", "title": "Recognise the compound angle formulae", "lines": [{"text": "The top is $\\sin(x+y)$ and the bottom is $\\cos(x+y)$."}, {"tex": "&= \\hl{1}{\\frac{\\sin(x+y)}{\\cos(x+y)}}"}, {"text": "So the left-hand side equals $\\hl{1}{\\dfrac{\\sin(x+y)}{\\cos(x+y)}}$, as required."}]}
+ ],
+ "final": "\\hl{2}{\\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}} = \\hl{1}{\\frac{\\sin(x+y)}{\\cos(x+y)}}",
+ "graph": null}
+]},
+{"skill": "trig-exact-values", "problems": [
+{"part": "practice-trig-exact-values-2", "note": null,
+ "legend": {"1": "the angle whose exact ratio is used", "2": "the answer, in exact form"},
+ "steps": [
+  {"ask": "Which quadrant is 210° in, and what acute angle does it make with the horizontal axis?", "title": "Find the reference angle", "lines": [{"text": "$210^\\circ$ is in the third quadrant."}, {"tex": "\\text{reference angle} &= 210^\\circ - 180^\\circ"}, {"tex": "&= \\hl{1}{30^\\circ}"}]},
+  {"ask": "Is cosine positive or negative in that quadrant? What does that do to cos 30°?", "title": "Fix the sign", "lines": [{"text": "Cosine is negative in the third quadrant."}, {"tex": "\\cos 210^\\circ &= -\\cos \\hl{1}{30^\\circ}"}]},
+  {"ask": "What is cos 30° in surd form, and what does the minus sign give?", "title": "Use the exact value", "lines": [{"tex": "&= \\hl{2}{-\\frac{\\sqrt{3}}{2}}"}]}
+ ],
+ "final": "\\hl{2}{-\\frac{\\sqrt{3}}{2}}",
+ "graph": null},
+{"part": "practice-trig-exact-values-1", "note": "What changed from problem 1: the question adds two products of ratios, so the steps multiply and add exact fractions instead of fixing a sign. The angles 30° and 60° and the answer form are the same.",
+ "legend": {"1": "the angle whose exact ratio is used", "2": "the answer, in exact form"},
+ "steps": [
+  {"ask": "What exact value does each of sin 60°, cos 30°, cos 60° and sin 30° have?", "title": "Write each ratio as a surd or fraction", "lines": [{"tex": "\\sin \\hl{1}{60^\\circ}\\cos \\hl{1}{30^\\circ} + \\cos \\hl{1}{60^\\circ}\\sin \\hl{1}{30^\\circ} &= \\frac{\\sqrt{3}}{2}\\times\\frac{\\sqrt{3}}{2} + \\frac{1}{2}\\times\\frac{1}{2}"}]},
+  {"ask": "What do the two products come to as fractions?", "title": "Multiply", "lines": [{"tex": "&= \\frac{3}{4} + \\frac{1}{4}"}]},
+  {"ask": "What do the two fractions add to?", "title": "Add", "lines": [{"tex": "&= \\hl{2}{1}"}]}
+ ],
+ "final": "\\hl{2}{1}",
+ "graph": null}
+]},
+{"skill": "trig-products-sums", "problems": [
+{"part": "maths-pp-2016-higher-p2-q3#(a)", "note": null,
+ "legend": {"1": "the expression being converted (the start)", "2": "the converted form after applying the formula", "3": "the answer"},
+ "steps": [
+  {"ask": "Which pair of formulae turns a sum of cosines, and a difference of sines, into products?", "title": "Write the sum-to-product formulas", "lines": [{"tex": "\\cos P + \\cos Q &= 2\\cos\\frac{P + Q}{2}\\cos\\frac{P - Q}{2}"}, {"tex": "\\sin P - \\sin Q &= 2\\cos\\frac{P + Q}{2}\\sin\\frac{P - Q}{2}"}]},
+  {"ask": "With P = 7A and Q = A, what do (P + Q)/2 and (P − Q)/2 become?", "title": "Apply them with P = 7A and Q = A", "lines": [{"tex": "\\hl{1}{\\frac{\\cos 7A + \\cos A}{\\sin 7A - \\sin A}} &= \\frac{2\\cos\\frac{7A + A}{2}\\cos\\frac{7A - A}{2}}{2\\cos\\frac{7A + A}{2}\\sin\\frac{7A - A}{2}}"}, {"tex": "&= \\hl{2}{\\frac{2\\cos 4A\\cos 3A}{2\\cos 4A\\sin 3A}}"}]},
+  {"ask": "Which factor appears on both top and bottom, and what is left after cancelling it?", "title": "Cancel the common factor", "lines": [{"text": "Divide top and bottom by $2\\cos 4A$."}, {"tex": "&= \\frac{\\cos 3A}{\\sin 3A}"}, {"tex": "&= \\hl{3}{\\cot 3A}"}]}
+ ],
+ "final": "\\hl{1}{\\frac{\\cos 7A + \\cos A}{\\sin 7A - \\sin A}} = \\hl{3}{\\cot 3A}",
+ "graph": null},
+{"part": "practice-trig-products-sums-1", "note": "What changed from problem 1: both top and bottom are sums with plus signs (sin P + sin Q and cos P + cos Q), and the ratio is sin over cos, so the answer is tan 3x rather than cot 3x. The same method and the same cancelling step are used.",
+ "legend": {"1": "the expression being converted (the start)", "2": "the converted form after applying the formula", "3": "the answer"},
+ "steps": [
+  {"ask": "Which sum-to-product formulae apply to a sum of sines and a sum of cosines?", "title": "Write the sum-to-product formulae", "lines": [{"tex": "\\sin P + \\sin Q &= 2\\sin\\frac{P + Q}{2}\\cos\\frac{P - Q}{2}"}, {"tex": "\\cos P + \\cos Q &= 2\\cos\\frac{P + Q}{2}\\cos\\frac{P - Q}{2}"}]},
+  {"ask": "With P = 5x and Q = x, what do the top and bottom become?", "title": "Apply them with $P = 5x$, $Q = x$", "lines": [{"tex": "\\hl{1}{\\frac{\\sin 5x + \\sin x}{\\cos 5x + \\cos x}} &= \\hl{2}{\\frac{2\\sin 3x\\cos 2x}{2\\cos 3x\\cos 2x}}"}]},
+  {"ask": "Which factor is common to top and bottom, and what ratio remains after you cancel it?", "title": "Cancel the common factor", "lines": [{"text": "Divide top and bottom by $2\\cos 2x$."}, {"tex": "\\hl{2}{\\frac{2\\sin 3x\\cos 2x}{2\\cos 3x\\cos 2x}} &= \\frac{\\sin 3x}{\\cos 3x}"}, {"tex": "&= \\hl{3}{\\tan 3x}"}]}
+ ],
+ "final": "\\hl{1}{\\frac{\\sin 5x + \\sin x}{\\cos 5x + \\cos x}} = \\hl{3}{\\tan 3x}",
+ "graph": null},
+{"part": "practice-trig-products-sums-2", "note": "What changed from problem 2: the direction is reversed. A product of sine and cosine is turned into a sum and then evaluated with exact values. It uses the product-to-sum formula, the other half of this skill.",
+ "legend": {"1": "the expression being converted (the start)", "2": "the converted form after applying the formula", "3": "the answer"},
+ "steps": [
+  {"ask": "Which product-to-sum formula has 2 sin P cos Q on its left?", "title": "Write the formula", "lines": [{"tex": "2\\sin P\\cos Q &= \\sin(P + Q) + \\sin(P - Q)"}]},
+  {"ask": "With P = 75° and Q = 15°, what are P + Q and P − Q, and what do the two sines become?", "title": "Apply it with $P = 75^\\circ$, $Q = 15^\\circ$", "lines": [{"tex": "\\hl{1}{2\\sin 75^\\circ\\cos 15^\\circ} &= \\hl{2}{\\sin 90^\\circ + \\sin 60^\\circ}"}]},
+  {"ask": "What are sin 90° and sin 60° as exact values?", "title": "Evaluate", "lines": [{"tex": "\\sin 90^\\circ + \\sin 60^\\circ &= \\hl{3}{1 + \\frac{\\sqrt{3}}{2}}"}]}
+ ],
+ "final": "\\hl{3}{1 + \\frac{\\sqrt{3}}{2}}",
+ "graph": null}
+]}
+]

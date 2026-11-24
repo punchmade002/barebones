@@ -1,0 +1,224 @@
+[
+ {
+  "skill": "stat-scatter-correlation",
+  "title": "Read scatter plots and correlation",
+  "show": "scatter plot of the five (x,y) points showing the trend direction",
+  "example": {
+   "question": "A teacher records hours of TV watched, $x$, and test score, $y$, for five students.\n$x$: 1, 2, 3, 4, 5\n$y$: 9, 7, 6, 3, 2\nThe points lie close to a straight line sloping downhill. Choose the value of $r$ from $0.99$, $-0.2$, $-0.99$ and explain your choice.",
+   "final": "r = -0.99",
+   "steps": [
+    {
+     "say": "Look at which way the points run. As $x$ goes up, $y$ goes down, so the **direction** is negative. That rules out $0.99$.",
+     "rows": [
+      {
+       "aside": "$x$ up, $y$ down: negative"
+      }
+     ]
+    },
+    {
+     "say": "Look at how tight the points are. They lie close to one straight line, so the link is **strong**. A value near $0$, like $-0.2$, means a loose cloud.",
+     "rows": [
+      {
+       "aside": "Close to a line: strong, so $r$ is near $-1$"
+      }
+     ]
+    },
+    {
+     "say": "Strong and negative means $r$ is close to $-1$. Give the value, then say it in words.",
+     "rows": [
+      {
+       "l": "r",
+       "r": "= \\hl{1}{-0.99}"
+      },
+      {
+       "aside": "Strong negative linear correlation: as TV time goes up, test score goes down."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-outliers",
+  "title": "Recognise outliers",
+  "show": "box plot with fences at Q1-1.5IQR and Q3+1.5IQR and the outlier point marked beyond",
+  "example": {
+   "question": "Find any outliers in this data set, using the rule that an outlier lies more than $1.5 \\times \\text{IQR}$ above $Q_3$ or below $Q_1$.\n$3, 5, 6, 7, 8, 9, 11, 30$",
+   "final": "30 \\text{ is an outlier (upper fence } 16.75)",
+   "steps": [
+    {
+     "say": "The data is already in order. Find $\\hl{1}{Q_1}$ and $\\hl{2}{Q_3}$, the medians of the lower and upper halves.",
+     "rows": [
+      {
+       "l": "\\hl{1}{Q_1}",
+       "r": "= \\frac{5+6}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 5.5"
+      },
+      {
+       "l": "\\hl{2}{Q_3}",
+       "r": "= \\frac{9+11}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 10"
+      }
+     ]
+    },
+    {
+     "say": "Subtract the quartiles to get the width of the middle half.",
+     "rows": [
+      {
+       "l": "\\text{IQR}",
+       "r": "= \\hl{2}{10} - \\hl{1}{5.5}"
+      },
+      {
+       "l": "",
+       "r": "= 4.5"
+      }
+     ]
+    },
+    {
+     "say": "Go $1.5 \\times \\text{IQR}$ beyond each quartile. Beyond these, a value is an outlier.",
+     "rows": [
+      {
+       "l": "1.5 \\times 4.5",
+       "r": "= 6.75"
+      },
+      {
+       "l": "\\text{upper fence}",
+       "r": "= \\hl{2}{10} + 6.75 = \\hl{3}{16.75}"
+      },
+      {
+       "l": "\\text{lower fence}",
+       "r": "= \\hl{1}{5.5} - 6.75 = -1.25"
+      }
+     ]
+    },
+    {
+     "say": "Check the smallest and largest values against the fences. Only $30$ is outside.",
+     "rows": [
+      {
+       "aside": "$3$ is above $-1.25$: not an outlier."
+      },
+      {
+       "l": "30",
+       "r": "> \\hl{3}{16.75}"
+      },
+      {
+       "aside": "So $30$ is an outlier."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-grouped-mean",
+  "title": "Estimate the mean of grouped data",
+  "show": "histogram of minutes spent on homework with classes 0-10 to 30-40",
+  "example": {
+   "question": "The table shows the number of minutes 20 students spent on homework.\nMinutes: 0–10, 10–20, 20–30, 30–40\nNumber of students: 3, 7, 6, 4\nEstimate the mean time.",
+   "final": "\\mu = 20.5 \\text{ minutes}",
+   "steps": [
+    {
+     "say": "Take the middle of each group. Add the two ends and halve.",
+     "rows": [
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= 5,\\ 15,\\ 25,\\ 35"
+      },
+      {
+       "aside": "For example $\\frac{0+10}{2} = 5$."
+      }
+     ]
+    },
+    {
+     "say": "Multiply each mid-value $\\hl{1}{x}$ by the number of students $f$, then add them up.",
+     "rows": [
+      {
+       "l": "\\sum fx",
+       "r": "= 3(5)+7(15)+6(25)+4(35)"
+      },
+      {
+       "l": "",
+       "r": "= 410"
+      }
+     ]
+    },
+    {
+     "say": "Add the frequencies to get the number of students, then divide.",
+     "rows": [
+      {
+       "l": "\\mu",
+       "r": "= \\frac{\\sum fx}{\\sum f} = \\frac{410}{20}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{20.5}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-choose-display",
+  "title": "Select an appropriate graphical/numerical summary",
+  "show": "dot plot of 5,6,6,7,8,40 showing the outlier pulling the mean",
+  "example": {
+   "question": "Six students are asked how much pocket money they get each week (in euro): $5, 6, 6, 7, 8, 40$. Which average describes a typical student better, the mean or the median? Calculate both and give a reason.",
+   "final": "\\text{Median} = 6.5\\text{, because the extreme value } 40 \\text{ pulls the mean up to } 12",
+   "steps": [
+    {
+     "say": "Look at the data first. One value, $\\hl{1}{40}$, is far bigger than the rest. An extreme value drags the mean up but hardly moves the median.",
+     "rows": [
+      {
+       "aside": "Five students get $8$ or less. One gets $40$."
+      }
+     ]
+    },
+    {
+     "say": "Add the values and divide by how many there are.",
+     "rows": [
+      {
+       "l": "\\text{mean}",
+       "r": "= \\frac{5+6+6+7+8+\\hl{1}{40}}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{72}{6}"
+      },
+      {
+       "l": "",
+       "r": "= 12"
+      }
+     ]
+    },
+    {
+     "say": "The data is already in order. With six values, the median is halfway between the 3rd and 4th.",
+     "rows": [
+      {
+       "l": "\\hl{2}{\\text{median}}",
+       "r": "= \\frac{6+7}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 6.5"
+      }
+     ]
+    },
+    {
+     "say": "The mean of $12$ is bigger than what five of the six students get. The median is not pulled by the $40$.",
+     "rows": [
+      {
+       "aside": "Use the **median**: the $40$ is extreme, so the mean is not typical."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

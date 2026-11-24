@@ -1,0 +1,277 @@
+[
+ {
+  "skill": "stat-outlier-effect",
+  "title": "Explain the effect of outliers on summary statistics",
+  "show": "dot plot of 12,14,15,17,18,19,45 with 45 far from the rest",
+  "example": {
+   "question": "Seven students recorded the minutes they spent on homework: $12, 14, 15, 17, 18, 19, 45$. The value $45$ is removed. Find how much the mean falls and how much the median falls. Which one is affected more by the outlier, and why?",
+   "final": "\\text{mean falls by } \\tfrac{25}{6} \\approx 4.17,\\ \\text{median falls by } 1",
+   "steps": [
+    {
+     "say": "Add all seven values and divide by $7$. With seven values the median is the 4th one.",
+     "rows": [
+      {
+       "l": "\\bar{x}",
+       "r": "= \\frac{12+14+15+17+18+19+45}{7}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{140}{7}"
+      },
+      {
+       "l": "",
+       "r": "= 20"
+      },
+      {
+       "aside": "The middle (4th) value is $17$, so the median is $17$."
+      }
+     ]
+    },
+    {
+     "say": "Now there are six values. Add them and divide by $6$. The median is halfway between the 3rd and 4th values.",
+     "rows": [
+      {
+       "l": "\\bar{x}",
+       "r": "= \\frac{12+14+15+17+18+19}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{95}{6}"
+      },
+      {
+       "l": "\\text{median}",
+       "r": "= \\frac{15+17}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 16"
+      }
+     ]
+    },
+    {
+     "say": "Subtract each new value from the old one. The mean fell by $\\hl{1}{\\frac{25}{6}}$ and the median fell by $\\hl{2}{1}$.",
+     "rows": [
+      {
+       "l": "20-\\frac{95}{6}",
+       "r": "= \\hl{1}{\\frac{25}{6}}"
+      },
+      {
+       "l": "17-16",
+       "r": "= \\hl{2}{1}"
+      }
+     ]
+    },
+    {
+     "say": "Say it in words. The mean uses the total, and $45$ is a big part of that total. The median only uses the middle position.",
+     "rows": [
+      {
+       "aside": "The mean changes a lot because the outlier is added into the total. The median changes little because it depends only on the middle values, not on how large the biggest one is."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-compare-hl",
+  "title": "Analyse plots to explain differences in centre and spread",
+  "show": "two box plots for Class A and Class B on one scale",
+  "example": {
+   "question": "Two classes sat the same test. Five scores are taken from each. Class A: $10, 12, 13, 14, 16$. Class B: $8, 12, 14, 16, 20$. Find the mean and standard deviation of each class and compare the two classes.",
+   "final": "\\text{B higher mean } (14 > 13),\\ \\text{B more spread } (\\sigma = 4 > 2)",
+   "steps": [
+    {
+     "say": "Add the scores and divide by $5$ for each class.",
+     "rows": [
+      {
+       "l": "\\bar{x}_A",
+       "r": "= \\frac{10+12+13+14+16}{5}"
+      },
+      {
+       "l": "",
+       "r": "= 13"
+      },
+      {
+       "l": "\\bar{x}_B",
+       "r": "= \\frac{8+12+14+16+20}{5}"
+      },
+      {
+       "l": "",
+       "r": "= 14"
+      }
+     ]
+    },
+    {
+     "say": "Standard deviation: square each distance from the mean, average them, then take the square root.",
+     "rows": [
+      {
+       "l": "\\sigma_A",
+       "r": "= \\sqrt{\\frac{(-3)^2+(-1)^2+0^2+1^2+3^2}{5}}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{\\frac{20}{5}}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{2}"
+      }
+     ]
+    },
+    {
+     "say": "Do the same for Class B, using its mean of $14$.",
+     "rows": [
+      {
+       "l": "\\sigma_B",
+       "r": "= \\sqrt{\\frac{(-6)^2+(-2)^2+0^2+2^2+6^2}{5}}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{\\frac{80}{5}}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{4}"
+      }
+     ]
+    },
+    {
+     "say": "Say which centre is higher and which spread is larger, with the numbers.",
+     "rows": [
+      {
+       "aside": "Class B has the higher mean ($14$ against $13$), so it did slightly better on average."
+      },
+      {
+       "aside": "Class B also has the larger standard deviation ($4$ against $2$), so its scores are more spread out. Class A is more consistent."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "inf-histogram",
+  "title": "Interpret a histogram in terms of distribution",
+  "show": "histogram of homework times with the class widths and frequency heights",
+  "example": {
+   "question": "The histogram shows the time, in minutes, that 60 students spent on homework one night. The classes and the number of students in each are: 0–20: 5; 20–40: 22; 40–60: 8; 60–80: 4; 80–100: 21.\n(i) Describe the shape of the histogram.\n(ii) Estimate the mean.\n(iii) What does the histogram tell you about the students?",
+   "final": "\\text{bimodal: two groups; mean} \\approx 54.7 \\text{ minutes}",
+   "steps": [
+    {
+     "say": "Look for where the bars are tallest. Name each peak and say how many students it holds.",
+     "rows": [
+      {
+       "aside": "Peak 1: 20–40 minutes, 22 students."
+      },
+      {
+       "aside": "Peak 2: 80–100 minutes, 21 students."
+      },
+      {
+       "aside": "The bars between the peaks are short. The shape is **bimodal**: it has two peaks."
+      }
+     ]
+    },
+    {
+     "say": "Use the middle of each class as its value. Multiply by the number of students, add, and divide by the total.",
+     "rows": [
+      {
+       "l": "n",
+       "r": "= 5+22+8+4+21"
+      },
+      {
+       "l": "",
+       "r": "= 60"
+      },
+      {
+       "l": "\\hl{1}{\\bar{x}}",
+       "r": "= \\frac{10(5)+30(22)+50(8)+70(4)+90(21)}{60}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{3280}{60}"
+      },
+      {
+       "l": "",
+       "r": "\\approx 54.7"
+      }
+     ]
+    },
+    {
+     "say": "A mean is only an average. Check how many students are really near it.",
+     "rows": [
+      {
+       "aside": "The mean $\\hl{1}{54.7}$ minutes is in the class 40–60."
+      },
+      {
+       "aside": "Only 8 of the 60 students are in that class."
+      }
+     ]
+    },
+    {
+     "say": "Say what the shape means for the students, in the words of the question.",
+     "rows": [
+      {
+       "aside": "There are two groups: students who worked for about half an hour and students who worked for about an hour and a half. Hardly any student worked for the mean time of $\\hl{1}{54.7}$ minutes, so the mean hides the two groups."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "inf-sampling-distribution",
+  "title": "Use the sampling distribution of the mean",
+  "show": "normal curve for the sample mean, narrower than for single bags, centred at 500",
+  "example": {
+   "question": "The weight of a bag of flour is normally distributed with mean $500$ g and standard deviation $12$ g. A sample of $36$ bags is taken. Find the probability that the mean weight of the sample is greater than $503$ g.",
+   "final": "0.0668",
+   "steps": [
+    {
+     "say": "The sample mean has the same mean, $500$. Its spread is the standard error: divide $\\sigma$ by $\\sqrt{n}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\text{SE}}",
+       "r": "= \\frac{12}{\\sqrt{36}}"
+      },
+      {
+       "l": "",
+       "r": "= 2"
+      },
+      {
+       "aside": "Use $\\hl{1}{2}$, not $12$, from here on."
+      }
+     ]
+    },
+    {
+     "say": "Turn $503$ into a $z$-score. Use the standard error as the spread.",
+     "rows": [
+      {
+       "l": "\\hl{2}{z}",
+       "r": "= \\frac{503 - 500}{\\hl{1}{2}}"
+      },
+      {
+       "l": "",
+       "r": "= 1.5"
+      }
+     ]
+    },
+    {
+     "say": "The tables give the area to the left of $z$. We want the area to the right, so take it from $1$.",
+     "rows": [
+      {
+       "aside": "From the tables, $P(z < 1.5) = 0.9332$."
+      },
+      {
+       "l": "P(\\bar{x} > 503)",
+       "r": "= 1 - 0.9332"
+      },
+      {
+       "l": "",
+       "r": "= 0.0668"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

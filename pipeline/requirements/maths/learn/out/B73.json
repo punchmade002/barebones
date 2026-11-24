@@ -1,0 +1,473 @@
+[
+ {
+  "skill": "seq-sigma",
+  "what": {
+   "say": [
+    "You give it a sum written with $\\Sigma$, like $\\sum_{r=1}^{12}(3r-2)$. It gives back one **value**.",
+    "The key idea: $\\Sigma$ just means add up the terms for $r = 1, 2, 3, \\dots$ up to the top number. If the terms go up by the same amount each time, it is an arithmetic series and you use its sum formula."
+   ],
+   "in": "$\\sum_{r=1}^{n} T_r$",
+   "out": "the value"
+  },
+  "how": {},
+  "example": {
+   "question": "Evaluate $\\sum_{r=1}^{12}(3r-2)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write out the first terms",
+      "say": "Put $r = 1$, then $r = 2$, then $r = 3$ into $3r - 2$. This shows what series you have.",
+      "lines": [
+       {
+        "tex": "T_1 &= 3(1)-2 = 1",
+        "sym": "3*1-2",
+        "new": true
+       },
+       {
+        "tex": "T_2 &= 3(2)-2 = 4",
+        "sym": "3*2-2",
+        "new": true
+       },
+       {
+        "tex": "T_3 &= 3(3)-2 = 7",
+        "sym": "3*3-2",
+        "new": true
+       },
+       {
+        "text": "The terms go up by $3$ each time. It is an arithmetic series."
+       }
+      ]
+     },
+     {
+      "title": "Read off a, d and n",
+      "say": "The first term is $\\hl{1}{a}$, the common difference is $\\hl{2}{d}$ and the number of terms is $\\hl{3}{n}$. The top number of the sum is $n$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 1",
+        "sym": "1",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{d} &= 3",
+        "sym": "3",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{n} &= 12",
+        "sym": "12",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the sum formula",
+      "say": "Put $\\hl{1}{a}$, $\\hl{2}{d}$ and $\\hl{3}{n}$ into $S_n = \\frac{n}{2}\\left(2a + (n-1)d\\right)$.",
+      "lines": [
+       {
+        "tex": "S_{12} &= \\frac{12}{2}\\left(2(1) + 11(3)\\right)",
+        "sym": "12/2*(2*1+11*3)",
+        "new": true
+       },
+       {
+        "tex": "&= 6(35)",
+        "sym": "6*35"
+       },
+       {
+        "tex": "&= 210",
+        "sym": "210"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "210"
+   },
+   "finalSym": "210",
+   "answerSym": "summation(3*r-2,(r,1,12))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "seq-geo-nth",
+  "what": {
+   "say": [
+    "You give it the first term $a$ and the common ratio $r$ of a geometric sequence. It gives back a formula for the **nth term**, $T_n$.",
+    "The key idea: each step multiplies by $r$. To reach term $n$ you have multiplied $n - 1$ times, so $T_n = ar^{n-1}$."
+   ],
+   "in": "$a,\\ r$",
+   "out": "$T_n = ar^{n-1}$"
+  },
+  "how": {
+   "higher": "Higher level uses it a lot on Paper 1 (14 parts, 8 with it as the main skill): finding $r$ from two terms, a ratio that gives a pattern in a context, or the first step before a sum.",
+   "ordinary": "Ordinary level asks for it in 3 parts, all with it as the main skill, on Paper 1 in the 2019 and 2021 papers, usually growth by a fixed factor each period."
+  },
+  "example": {
+   "question": "A geometric sequence has $T_2 = 6$ and $T_5 = 162$. Find $a$, $r$ and a formula for $T_n$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write both terms",
+      "say": "Use $T_n = ar^{n-1}$ for each term you are given.",
+      "lines": [
+       {
+        "tex": "T_2 &= ar = 6"
+       },
+       {
+        "tex": "T_5 &= ar^4 = 162"
+       }
+      ]
+     },
+     {
+      "title": "Divide to find r",
+      "say": "Divide the second equation by the first. The $a$ cancels, and what is left is a power of $\\hl{1}{r}$.",
+      "lines": [
+       {
+        "tex": "\\frac{ar^4}{ar} &= \\frac{162}{6}"
+       },
+       {
+        "tex": "r^3 &= 27",
+        "sym": "162/6",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{r} &= 3",
+        "sym": "3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find a",
+      "say": "Put $\\hl{1}{r} = 3$ back into $ar = 6$.",
+      "lines": [
+       {
+        "tex": "a(3) &= 6"
+       },
+       {
+        "tex": "\\hl{2}{a} &= 2",
+        "sym": "6/3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write T_n",
+      "say": "Put $\\hl{2}{a}$ and $\\hl{1}{r}$ into $T_n = ar^{n-1}$.",
+      "lines": [
+       {
+        "tex": "T_n &= \\hl{2}{2}\\cdot \\hl{1}{3}^{n-1}",
+        "sym": "2*3**(n-1)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "T_n = 2\\cdot 3^{n-1}"
+   },
+   "finalSym": "2*3**(n-1)",
+   "answerSym": "6*3**(n-2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Check the ratio is constant before you call it geometric. Treating a geometric sequence as arithmetic earns nothing.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q2#(a)",
+       "quote": "Treats as an arithmetic sequence"
+      }
+     ]
+    },
+    {
+     "tip": "Name $a$ and $r$ clearly. Marks are given for identifying them.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q2#(a)",
+       "quote": "GP identified (a and r)"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula with your numbers in it before you simplify. Marks go for the correct substitution.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q2#(a)",
+       "quote": "Relevant substitution into correct formula"
+      }
+     ]
+    },
+    {
+     "tip": "If you are stuck, list the first few terms. That earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q9#(b)(i)",
+       "quote": "Lists two or more terms"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Put your numbers into the formula and show it. Some relevant substitution earns partial credit even if the answer is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q9#(b)",
+       "quote": "Some relevant substitution into"
+      }
+     ]
+    },
+    {
+     "tip": "Trial and improvement is allowed when the unknown is the power. Show the trials you try.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q9#(b)",
+       "quote": "Incomplete trial and improvement to"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "seq-geo-sum",
+  "what": {
+   "say": [
+    "You give it $a$, $r$ and $n$ for a geometric series. It gives back the **sum** of the first $n$ terms.",
+    "The key idea: multiply the whole sum by $r$ and subtract. Nearly every term cancels, which leaves the formula $S_n = \\frac{a(1-r^n)}{1-r}$."
+   ],
+   "in": "$a,\\ r,\\ n$",
+   "out": "$S_n = \\frac{a(1-r^n)}{1-r}$"
+  },
+  "how": {
+   "higher": "Higher level uses it in 18 parts, 12 of them with it as the main skill, mostly on Paper 1: bouncing balls, drug doses, loans and shapes that repeat, often followed by an infinite sum."
+  },
+  "example": {
+   "question": "Find the sum of the first $8$ terms of the series $4 + 12 + 36 + \\dots$",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a and r",
+      "say": "The first term is $\\hl{1}{a}$. Divide any term by the one before it to get $\\hl{2}{r}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 4",
+        "sym": "4",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\frac{12}{4} = 3",
+        "sym": "12/4",
+        "new": true
+       },
+       {
+        "text": "Check with the next pair: $36 \\div 12 = 3$."
+       }
+      ]
+     },
+     {
+      "title": "Choose the formula",
+      "say": "You want the sum of $n = 8$ terms. Put $\\hl{1}{a}$, $\\hl{2}{r}$ and $n$ into the formula.",
+      "lines": [
+       {
+        "tex": "S_8 &= \\frac{4\\left(1-3^8\\right)}{1-3}",
+        "sym": "4*(1-3**8)/(1-3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Do the power first. Then the top and bottom are both negative, so the answer is positive.",
+      "lines": [
+       {
+        "tex": "&= \\frac{4(1-6561)}{-2}",
+        "sym": "4*(1-6561)/(-2)"
+       },
+       {
+        "tex": "&= \\frac{4(-6560)}{-2}",
+        "sym": "4*(-6560)/(-2)"
+       },
+       {
+        "tex": "&= 13120",
+        "sym": "13120"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "13120"
+   },
+   "finalSym": "13120",
+   "answerSym": "summation(4*3**k,(k,0,7))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the sum formula with your values put in, even if you cannot finish. Substituting into the formula earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q7#(a)",
+       "quote": "GP formula with some substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Use the correct formula and a correct substitution. That is what the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q1#(b)",
+       "quote": "Correct Geometric Progression formula with correct substitution"
+      }
+     ]
+    },
+    {
+     "tip": "For a total over several steps, show that you are adding terms. Writing the sum out earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q1#(b)",
+       "quote": "Indicates addition of terms"
+      }
+     ]
+    },
+    {
+     "tip": "Watch units and conversions. Getting them wrong costs marks even when the series is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q7#(b)(i), (ii)",
+       "quote": "Mishandles or omits unit conversion, but"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "seq-limits",
+  "what": {
+   "say": [
+    "You give it a sequence $T_n$. It tells you the **limit**: the number the terms get close to as $n$ gets very large.",
+    "The key idea: fractions like $\\frac{1}{n}$ and powers $r^n$ with $|r| < 1$ go to $0$. Split the sequence into pieces, divide by the top power of $n$, and use the limit rules."
+   ],
+   "in": "$T_n$",
+   "out": "$\\lim_{n \\to \\infty} T_n$"
+  },
+  "how": {
+   "higher": "Higher level uses it in 6 parts, 5 of them with it as the main skill: a limit of a sum of fractions and powers, or a long-run value in a context, mostly on Paper 1."
+  },
+  "example": {
+   "question": "Find $\\lim_{n \\to \\infty}\\left[\\frac{4n+1}{n+3} + \\left(\\frac{2}{5}\\right)^n\\right]$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split the limit",
+      "say": "The limit of a sum is the sum of the limits. Deal with the two pieces one at a time.",
+      "lines": [
+       {
+        "text": "$\\lim \\frac{4n+1}{n+3}$ and $\\lim \\left(\\frac{2}{5}\\right)^n$"
+       }
+      ]
+     },
+     {
+      "title": "Divide by n",
+      "say": "Divide the top and bottom of the fraction by $n$. Now every $n$ is in a term like $\\frac{1}{n}$ that goes to $0$.",
+      "lines": [
+       {
+        "tex": "\\frac{4n+1}{n+3} &= \\frac{4+\\frac{1}{n}}{1+\\frac{3}{n}}",
+        "sym": "(4+1/n)/(1+3/n)"
+       }
+      ]
+     },
+     {
+      "title": "Take the limits",
+      "say": "As $n \\to \\infty$, $\\frac{1}{n} \\to 0$ and $\\frac{3}{n} \\to 0$. Also $\\left(\\frac{2}{5}\\right)^n \\to 0$ because $\\frac{2}{5}$ is between $-1$ and $1$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\lim \\frac{4n+1}{n+3}} &= \\frac{4+0}{1+0} = 4",
+        "sym": "(4+0)/(1+0)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{\\lim \\left(\\frac{2}{5}\\right)^n} &= 0",
+        "sym": "0",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Add the limits",
+      "say": "Add the two limits.",
+      "lines": [
+       {
+        "tex": "4 + 0 &= 4",
+        "sym": "4+0",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "4"
+   },
+   "finalSym": "4",
+   "answerSym": "limit((4*n+1)/(n+3)+Rational(2,5)**n,n,oo)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Simplify before you take limits. Dividing top and bottom by the highest power of $n$ is the step the marks sit on.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q10#(d)(iii)",
+       "quote": "Simplifies (before taking limits)"
+      }
+     ]
+    },
+    {
+     "tip": "Show the step where you take the limits. It is marked as a separate step.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q10#(d)(iii)",
+       "quote": "Takes limits"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no work can still earn full credit, but without work a slip earns nothing. Show the working.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q2#(b)",
+       "quote": "Full credit for correct answer"
+      }
+     ]
+    },
+    {
+     "tip": "For a long-run question, list the first few terms. That earns partial credit and shows the pattern.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q9#(c)(ii)",
+       "quote": "Lists two or more terms"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

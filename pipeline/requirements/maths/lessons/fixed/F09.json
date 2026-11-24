@@ -1,0 +1,1083 @@
+[
+ {
+  "skill": "quad-solve-formula",
+  "problems": [
+   {
+    "part": "maths-pp-2024-ordinary-p1-q3#(b)",
+    "note": null,
+    "legend": {
+     "1": "the coefficients a, b and c",
+     "2": "the discriminant, b² − 4ac",
+     "3": "the values of x"
+    },
+    "steps": [
+     {
+      "ask": "Look at the equation. Which number is a, which is b and which is c? Watch the signs.",
+      "title": "Identify $a$, $b$ and $c$",
+      "lines": [
+       {
+        "text": "Compare $3x^2 - 5x + 1 = 0$ with $ax^2 + bx + c = 0$."
+       },
+       {
+        "tex": "a &= \\hl{1}{3}, \\quad b = \\hl{1}{-5}, \\quad c = \\hl{1}{1}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute a, b and c into the formula. What goes under the square root?",
+      "title": "Substitute into the quadratic formula",
+      "lines": [
+       {
+        "tex": "x &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+       },
+       {
+        "tex": "&= \\frac{-(-5) \\pm \\sqrt{\\hl{2}{(-5)^2 - 4(3)(1)}}}{2(3)}"
+       },
+       {
+        "tex": "&= \\frac{5 \\pm \\sqrt{\\hl{2}{25 - 12}}}{6}"
+       },
+       {
+        "tex": "&= \\frac{5 \\pm \\sqrt{\\hl{2}{13}}}{6}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the first root with the plus sign, and what is it to 2 decimal places?",
+      "title": "Find the first value of $x$",
+      "lines": [
+       {
+        "tex": "x &= \\hl{3}{\\frac{5 + \\sqrt{13}}{6}}"
+       },
+       {
+        "tex": "&= \\hl{3}{1.43426}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{1.43}"
+       }
+      ]
+     },
+     {
+      "ask": "Now use the minus sign. What is the second root, to 2 decimal places?",
+      "title": "Find the second value of $x$",
+      "lines": [
+       {
+        "tex": "x &= \\hl{3}{\\frac{5 - \\sqrt{13}}{6}}"
+       },
+       {
+        "tex": "&= \\hl{3}{0.2324}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{0.23}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\hl{3}{0.23} \\text{ and } x = \\hl{3}{1.43}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q5#(b)",
+    "note": "Compared with problem 1, b and c are now negative, so the signs need more care. The steps are the same.",
+    "legend": {
+     "1": "the coefficients a, b and c",
+     "2": "the discriminant, b² − 4ac",
+     "3": "the values of x"
+    },
+    "steps": [
+     {
+      "ask": "Compare with ax² + bx + c = 0. What are a, b and c, including their signs?",
+      "title": "Identify a, b and c",
+      "lines": [
+       {
+        "text": "Compare with $ax^2 + bx + c = 0$: $a = \\hl{1}{3}$, $b = \\hl{1}{-2}$, $c = \\hl{1}{-4}$."
+       }
+      ]
+     },
+     {
+      "ask": "Where do a, b and c go in the formula, and which minus signs need care?",
+      "title": "Substitute into the quadratic formula",
+      "lines": [
+       {
+        "tex": "x &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+       },
+       {
+        "tex": "&= \\frac{-(-2) \\pm \\sqrt{\\hl{2}{(-2)^2 - 4(3)(-4)}}}{2(3)}"
+       },
+       {
+        "tex": "&= \\frac{2 \\pm \\sqrt{\\hl{2}{4 + 48}}}{6}"
+       },
+       {
+        "tex": "&= \\frac{2 \\pm \\sqrt{\\hl{2}{52}}}{6}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get with the plus sign and then the minus sign, each rounded to 2 decimal places?",
+      "title": "Work out the two roots to 2 decimal places",
+      "lines": [
+       {
+        "tex": "x &= \\hl{3}{\\frac{2 + \\sqrt{52}}{6}}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{1.54}"
+       },
+       {
+        "tex": "x &= \\hl{3}{\\frac{2 - \\sqrt{52}}{6}}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{-0.87}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\hl{3}{1.54} \\text{ or } x = \\hl{3}{-0.87}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q4#(a)",
+    "note": "Compared with problem 2, the leading number a is now negative, and the square root has to be simplified to a surd before you round.",
+    "legend": {
+     "1": "the coefficients a, b and c",
+     "2": "the discriminant, b² − 4ac",
+     "3": "the values of x"
+    },
+    "steps": [
+     {
+      "ask": "Compare with ax² + bx + c = 0. What are a, b and c, and what sign is each one?",
+      "title": "Write down a, b and c and the formula",
+      "lines": [
+       {
+        "text": "Here $a = \\hl{1}{-1}$, $b = \\hl{1}{6}$, $c = \\hl{1}{-4}$."
+       },
+       {
+        "tex": "x &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+       },
+       {
+        "tex": "&= \\frac{-6 \\pm \\sqrt{\\hl{2}{6^2 - 4(-1)(-4)}}}{2(-1)}"
+       }
+      ]
+     },
+     {
+      "ask": "Work out what is under the square root. Can you find a square number that divides it?",
+      "title": "Simplify the square root",
+      "lines": [
+       {
+        "tex": "&= \\frac{-6 \\pm \\sqrt{\\hl{2}{36 - 16}}}{-2}"
+       },
+       {
+        "tex": "&= \\frac{-6 \\pm \\sqrt{\\hl{2}{20}}}{-2}"
+       },
+       {
+        "tex": "&= \\frac{-6 \\pm 2\\sqrt{5}}{-2}"
+       },
+       {
+        "tex": "&= 3 \\mp \\sqrt{5}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get with the plus sign and with the minus sign, as decimals?",
+      "title": "Find both solutions",
+      "lines": [
+       {
+        "tex": "x &= \\hl{3}{3 + \\sqrt{5}} = \\hl{3}{5.2360\\ldots}"
+       },
+       {
+        "tex": "x &= \\hl{3}{3 - \\sqrt{5}} = \\hl{3}{0.7639\\ldots}"
+       }
+      ]
+     },
+     {
+      "ask": "What is each solution rounded to one decimal place?",
+      "title": "Round to one decimal place",
+      "lines": [
+       {
+        "tex": "x &= \\hl{3}{5.2}"
+       },
+       {
+        "tex": "x &= \\hl{3}{0.8}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\hl{3}{5.2} \\text{ or } x = \\hl{3}{0.8}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "sim-linear-2",
+  "problems": [
+   {
+    "part": "maths-pp-2025-ordinary-p1-q5#(a)",
+    "note": null,
+    "legend": {
+     "1": "the y terms, which cancel",
+     "2": "the value of x",
+     "3": "the value of y"
+    },
+    "steps": [
+     {
+      "ask": "Which multiple of the first equation makes its y term match the size of the y term in the second?",
+      "title": "Multiply the first equation by 2",
+      "lines": [
+       {
+        "tex": "3x + \\hl{1}{2y} &= 11"
+       },
+       {
+        "tex": "6x + \\hl{1}{4y} &= 22"
+       }
+      ]
+     },
+     {
+      "ask": "Add the two equations. What happens to the y terms?",
+      "title": "Add the equations to cancel y",
+      "lines": [
+       {
+        "tex": "6x + \\hl{1}{4y} &= 22"
+       },
+       {
+        "tex": "x - \\hl{1}{4y} &= -1"
+       },
+       {
+        "tex": "7x &= 21"
+       }
+      ]
+     },
+     {
+      "ask": "7x = 21. What do you do to get x on its own?",
+      "title": "Divide both sides by 7",
+      "lines": [
+       {
+        "tex": "x &= \\hl{2}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you put x = 3 into 3x + 2y = 11, and what is y?",
+      "title": "Substitute x = 3 into 3x + 2y = 11",
+      "lines": [
+       {
+        "tex": "3(\\hl{2}{3}) + \\hl{1}{2y} &= 11"
+       },
+       {
+        "tex": "9 + \\hl{1}{2y} &= 11"
+       },
+       {
+        "tex": "\\hl{1}{2y} &= 2"
+       },
+       {
+        "tex": "\\hl{3}{y} &= \\hl{3}{1}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\hl{2}{3}, \\quad y = \\hl{3}{1}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q3#(b)(ii)",
+    "note": "Compared with problem 1, you multiply by −4 instead of 2, which makes the y term opposite to the other equation's, so adding cancels it. Substituting back to find y is the same.",
+    "legend": {
+     "1": "the y terms, which cancel",
+     "2": "the value of x",
+     "3": "the value of y"
+    },
+    "steps": [
+     {
+      "ask": "Which multiple of h gives a y term that is the opposite of the y term in l?",
+      "title": "Multiply h by -4 so the y terms cancel",
+      "lines": [
+       {
+        "tex": "2x - \\hl{1}{y} &= 10"
+       },
+       {
+        "tex": "-4(2x - y) &= -4(10)"
+       },
+       {
+        "tex": "-8x + \\hl{1}{4y} &= -40"
+       }
+      ]
+     },
+     {
+      "ask": "Add this new equation to l. What happens to the y terms?",
+      "title": "Add this to l",
+      "lines": [
+       {
+        "tex": "3x - \\hl{1}{4y} &= 5"
+       },
+       {
+        "tex": "(3x - 8x) + (-\\hl{1}{4y} + \\hl{1}{4y}) &= 5 - 40"
+       },
+       {
+        "tex": "-5x &= -35"
+       },
+       {
+        "tex": "x &= \\hl{2}{7}"
+       }
+      ]
+     },
+     {
+      "ask": "What is y when x = 7 goes into the simpler equation?",
+      "title": "Substitute x = 7 into -8x + 4y = -40",
+      "lines": [
+       {
+        "tex": "-8(\\hl{2}{7}) + \\hl{1}{4y} &= -40"
+       },
+       {
+        "tex": "-56 + \\hl{1}{4y} &= -40"
+       },
+       {
+        "tex": "\\hl{1}{4y} &= -40 + 56"
+       },
+       {
+        "tex": "\\hl{1}{4y} &= 16"
+       },
+       {
+        "tex": "\\hl{3}{y} &= \\hl{3}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "(\\hl{2}{7}, \\hl{3}{4})",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q6#(a)",
+    "note": "Compared with problem 2, the two equations come from angle facts, so you must write them first: the angles in a triangle add up to 180° and vertically opposite angles are equal. After that, subtracting to eliminate y and substituting work as before.",
+    "legend": {
+     "1": "the y terms, which cancel",
+     "2": "the value of x",
+     "3": "the value of y"
+    },
+    "steps": [
+     {
+      "ask": "What do the three angles of triangle ABC add up to? Write that as an equation.",
+      "title": "Use the angles of triangle ABC",
+      "lines": [
+       {
+        "text": "The angles in a triangle add up to $180^\\circ$."
+       },
+       {
+        "tex": "(3x+\\hl{1}{y})+(x+\\hl{1}{y})+80 &= 180"
+       },
+       {
+        "tex": "4x+\\hl{1}{2y}+80 &= 180"
+       },
+       {
+        "tex": "4x+\\hl{1}{2y} &= 100"
+       },
+       {
+        "tex": "2x+\\hl{1}{y} &= 50"
+       }
+      ]
+     },
+     {
+      "ask": "Which two angles are equal, and what equation does that give?",
+      "title": "Use vertically opposite angles",
+      "lines": [
+       {
+        "text": "$\\angle BCA$ and $\\angle DCE$ are vertically opposite, so they are equal."
+       },
+       {
+        "tex": "3x+\\hl{1}{y} &= 60"
+       }
+      ]
+     },
+     {
+      "ask": "Subtract one equation from the other. Which letter disappears?",
+      "title": "Subtract the equations to eliminate y",
+      "lines": [
+       {
+        "tex": "(3x+\\hl{1}{y})-(2x+\\hl{1}{y}) &= 60-50"
+       },
+       {
+        "tex": "x &= \\hl{2}{10}"
+       }
+      ]
+     },
+     {
+      "ask": "Put x = 10 into one of the equations. What is y?",
+      "title": "Substitute x = 10 to find y",
+      "lines": [
+       {
+        "tex": "3(\\hl{2}{10})+\\hl{1}{y} &= 60"
+       },
+       {
+        "tex": "30+\\hl{1}{y} &= 60"
+       },
+       {
+        "tex": "\\hl{3}{y} &= \\hl{3}{30}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\hl{2}{10}, \\quad y = \\hl{3}{30}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "sim-linear-quadratic",
+  "problems": [
+   {
+    "part": "maths-pp-2024-ordinary-p1-q3#(c)",
+    "note": null,
+    "legend": {
+     "1": "the expression for y, 5 − 2x",
+     "2": "an x-value where the curves meet",
+     "3": "the y-value found from the line"
+    },
+    "steps": [
+     {
+      "ask": "What do you move across so that y is on its own?",
+      "title": "Write $y$ in terms of $x$",
+      "lines": [
+       {
+        "tex": "2x + y &= 5"
+       },
+       {
+        "tex": "y &= \\hl{1}{5 - 2x}"
+       }
+      ]
+     },
+     {
+      "ask": "Put your expression for y into the circle equation. Where does y go?",
+      "title": "Substitute into $x^2 + y^2 = 25$",
+      "lines": [
+       {
+        "tex": "x^2 + y^2 &= 25"
+       },
+       {
+        "tex": "x^2 + (\\hl{1}{5-2x})^2 &= 25"
+       }
+      ]
+     },
+     {
+      "ask": "What is (5 − 2x) squared? Multiply the bracket out in full.",
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{5-2x})^2 &= (\\hl{1}{5-2x})(\\hl{1}{5-2x})"
+       },
+       {
+        "tex": "&= 25 - 10x - 10x + 4x^2"
+       },
+       {
+        "tex": "&= 25 - 20x + 4x^2"
+       }
+      ]
+     },
+     {
+      "ask": "Put the expansion back into the circle equation. Which terms can you combine?",
+      "title": "Put it back into the equation and collect terms",
+      "lines": [
+       {
+        "tex": "x^2 + 25 - 20x + 4x^2 &= 25"
+       },
+       {
+        "tex": "5x^2 - 20x + 25 &= 25"
+       },
+       {
+        "tex": "5x^2 - 20x &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "What are the two factors, and what x makes each one zero?",
+      "title": "Factorise and solve for $x$",
+      "lines": [
+       {
+        "tex": "5x(x - 4) &= 0"
+       },
+       {
+        "text": "A product is zero when one factor is zero."
+       },
+       {
+        "tex": "x &= \\hl{2}{0} \\text{ or } x = \\hl{2}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "Use y = 5 − 2x with each x-value in turn. What is y when x = 0?",
+      "title": "Find $y$ for each value of $x$",
+      "lines": [
+       {
+        "text": "Use $y = \\hl{1}{5 - 2x}$."
+       },
+       {
+        "tex": "x = \\hl{2}{0}: \\quad y &= 5 - 2(\\hl{2}{0}) = \\hl{3}{5}"
+       },
+       {
+        "tex": "x = \\hl{2}{4}: \\quad y &= 5 - 2(\\hl{2}{4}) = \\hl{3}{-3}"
+       }
+      ]
+     }
+    ],
+    "final": "(x, y) = (\\hl{2}{0}, \\hl{3}{5}) \\text{ and } (\\hl{2}{4}, \\hl{3}{-3})",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q4#(b)",
+    "note": "Same method as Problem 1, with the line 2x − y = 7 and the circle x² + y² = 49. The change that matters is the second x-value, 28/5, which is a fraction, so the y-value needs fraction subtraction.",
+    "legend": {
+     "1": "the expression for y, 2x − 7",
+     "2": "an x-value where the curves meet",
+     "3": "the y-value found from the line"
+    },
+    "steps": [
+     {
+      "ask": "What do you move across to leave y on its own?",
+      "title": "Make $y$ the subject of the linear equation",
+      "lines": [
+       {
+        "tex": "2x - y &= 7"
+       },
+       {
+        "tex": "y &= \\hl{1}{2x - 7}"
+       }
+      ]
+     },
+     {
+      "ask": "Put your expression for y into x² + y² = 49. What do you get after expanding and tidying?",
+      "title": "Substitute into $x^2 + y^2 = 49$",
+      "lines": [
+       {
+        "tex": "x^2 + (\\hl{1}{2x - 7})^2 &= 49"
+       },
+       {
+        "tex": "x^2 + 4x^2 - 28x + 49 &= 49"
+       },
+       {
+        "tex": "5x^2 - 28x + 49 &= 49"
+       },
+       {
+        "tex": "5x^2 - 28x &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "What x makes each factor zero?",
+      "title": "Factorise and solve for $x$",
+      "lines": [
+       {
+        "tex": "x(5x - 28) &= 0"
+       },
+       {
+        "tex": "x &= \\hl{2}{0} \\quad \\text{or} \\quad x = \\hl{2}{\\frac{28}{5}}"
+       }
+      ]
+     },
+     {
+      "ask": "What is y when you put x = 0 into your expression?",
+      "title": "Find $y$ when $x = 0$",
+      "lines": [
+       {
+        "tex": "y &= 2(\\hl{2}{0}) - 7"
+       },
+       {
+        "tex": "&= \\hl{3}{-7}"
+       }
+      ]
+     },
+     {
+      "ask": "Put x = 28/5 into your expression for y. How do you subtract 7 from a fraction?",
+      "title": "Find $y$ when $x = \\frac{28}{5}$",
+      "lines": [
+       {
+        "tex": "y &= 2\\left(\\hl{2}{\\frac{28}{5}}\\right) - 7"
+       },
+       {
+        "tex": "&= \\frac{56}{5} - \\frac{35}{5}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{21}{5}}"
+       }
+      ]
+     }
+    ],
+    "final": "(x, y) = (\\hl{2}{0}, \\hl{3}{-7}) \\quad \\text{or} \\quad \\left(\\hl{2}{\\frac{28}{5}}, \\hl{3}{\\frac{21}{5}}\\right)",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q4#(b)",
+    "note": "The line is now rearranged for x, so the quadratic comes out in y and you solve for y first, then find x from the line. Everything else follows Problem 2, plus a division by 26.",
+    "legend": {
+     "1": "the expression for x, 5y − 13",
+     "2": "a y-value, the solution of the quadratic",
+     "3": "the x-value found from the line"
+    },
+    "steps": [
+     {
+      "ask": "What do you do to the −5y term to leave x on its own?",
+      "title": "Make x the subject of the linear equation",
+      "lines": [
+       {
+        "tex": "x - 5y &= -13"
+       },
+       {
+        "tex": "x &= \\hl{1}{5y - 13}"
+       }
+      ]
+     },
+     {
+      "ask": "Where does your expression for x go in x² + y² = 13?",
+      "title": "Substitute into the quadratic equation",
+      "lines": [
+       {
+        "text": "Replace $x$ in $x^2 + y^2 = 13$ with $\\hl{1}{5y - 13}$."
+       },
+       {
+        "tex": "(\\hl{1}{5y-13})^2 + y^2 &= 13"
+       }
+      ]
+     },
+     {
+      "ask": "What is (5y − 13) squared? Multiply the bracket out in full.",
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "25y^2 - 130y + 169 + y^2 &= 13"
+       }
+      ]
+     },
+     {
+      "ask": "What do you do to the 13 on the right so that the right side is zero?",
+      "title": "Move everything to the left-hand side",
+      "lines": [
+       {
+        "tex": "25y^2 - 130y + 169 + y^2 - 13 &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Which terms are alike? Combine the y² terms and the numbers.",
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "26y^2 - 130y + 156 &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "What number divides 26, 130 and 156 exactly?",
+      "title": "Divide every term by 26",
+      "lines": [
+       {
+        "tex": "y^2 - 5y + 6 &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Which two numbers multiply to 6 and add to −5?",
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "(y-2)(y-3) &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Set each bracket to zero. What is y in each case?",
+      "title": "Solve for y",
+      "lines": [
+       {
+        "text": "One of the brackets must be zero."
+       },
+       {
+        "tex": "y &= \\hl{2}{2} \\text{ or } y = \\hl{2}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "What is x when you put y = 2 into your expression for x?",
+      "title": "Find x for y = 2",
+      "lines": [
+       {
+        "tex": "x &= 5(\\hl{2}{2}) - 13"
+       },
+       {
+        "tex": "&= \\hl{3}{-3}"
+       }
+      ]
+     },
+     {
+      "ask": "What is x when you put y = 3 into the same expression?",
+      "title": "Find x for y = 3",
+      "lines": [
+       {
+        "tex": "x &= 5(\\hl{2}{3}) - 13"
+       },
+       {
+        "tex": "&= \\hl{3}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "(x, y) = (\\hl{3}{-3}, \\hl{2}{2}) \\text{ and } (\\hl{3}{2}, \\hl{2}{3})",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "eq-surd",
+  "problems": [
+   {
+    "part": "maths-pp-2024-higher-p1-q1#(a)",
+    "note": null,
+    "legend": {
+     "1": "the expression under the root, 3n + 1",
+     "2": "the value of n being tested or found"
+    },
+    "steps": [
+     {
+      "ask": "What do you do to both sides to get rid of the square root?",
+      "title": "Square both sides",
+      "lines": [
+       {
+        "tex": "n - 3 &= \\sqrt{\\hl{1}{3n+1}}"
+       },
+       {
+        "tex": "(n-3)^2 &= \\hl{1}{3n + 1}"
+       }
+      ]
+     },
+     {
+      "ask": "What is (n − 3) squared? Multiply the bracket out in full.",
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "n^2 - 6n + 9 &= \\hl{1}{3n + 1}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you move to the left so that the right-hand side is zero?",
+      "title": "Collect everything on one side",
+      "lines": [
+       {
+        "tex": "n^2 - 6n + 9 - 3n - 1 &= 0"
+       },
+       {
+        "tex": "n^2 - 9n + 8 &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "What two numbers multiply to 8 and add to −9?",
+      "title": "Factorise and solve",
+      "lines": [
+       {
+        "tex": "(n-8)(n-1) &= 0"
+       },
+       {
+        "tex": "n &= \\hl{2}{8} \\text{ or } n = \\hl{2}{1}"
+       }
+      ]
+     },
+     {
+      "ask": "Put each value back into the original equation. Do both sides agree?",
+      "title": "Check both answers in the original equation",
+      "lines": [
+       {
+        "text": "Squaring can introduce a false solution, so test each value in $n-3=\\sqrt{\\hl{1}{3n+1}}$."
+       },
+       {
+        "tex": "n = \\hl{2}{1}:\\quad \\hl{2}{1} - 3 &= -2 \\text{ but } \\sqrt{\\hl{1}{3(1)+1}} = 2"
+       },
+       {
+        "text": "The two sides differ, so $n = \\hl{2}{1}$ is rejected."
+       },
+       {
+        "tex": "n = \\hl{2}{8}:\\quad \\hl{2}{8} - 3 &= 5 \\text{ and } \\sqrt{\\hl{1}{3(8)+1}} = \\sqrt{25} = 5"
+       },
+       {
+        "text": "The two sides agree, so $n = \\hl{2}{8}$ is the solution."
+       }
+      ]
+     }
+    ],
+    "final": "n = \\hl{2}{8}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q5#(a)",
+    "note": "Same steps as Problem 1, but the root side is just x, so squaring gives x² = x + 6 with no bracket to expand. The value that fails the check is x = −2.",
+    "legend": {
+     "1": "the expression under the root, x + 6",
+     "2": "the value of x being tested or found"
+    },
+    "steps": [
+     {
+      "ask": "What do you do to both sides to remove the square root?",
+      "title": "Square both sides",
+      "lines": [
+       {
+        "tex": "x &= \\sqrt{\\hl{1}{x+6}}"
+       },
+       {
+        "tex": "x^2 &= \\hl{1}{x+6}"
+       }
+      ]
+     },
+     {
+      "ask": "Which two numbers multiply to −6 and add to −1?",
+      "title": "Rearrange and factorise",
+      "lines": [
+       {
+        "tex": "x^2 - x - 6 &= 0"
+       },
+       {
+        "tex": "(x+2)(x-3) &= 0"
+       },
+       {
+        "tex": "x &= \\hl{2}{-2} \\text{ or } x = \\hl{2}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "Which of the two values fails when you put it back into the original equation?",
+      "title": "Check both answers in the original equation",
+      "lines": [
+       {
+        "text": "Squaring can introduce a false answer, so test each one."
+       },
+       {
+        "tex": "x=\\hl{2}{-2}:\\quad \\sqrt{\\hl{1}{-2+6}} &= \\sqrt{4} = 2 \\ne \\hl{2}{-2}"
+       },
+       {
+        "text": "$x=\\hl{2}{-2}$ is rejected."
+       },
+       {
+        "tex": "x=\\hl{2}{3}:\\quad \\sqrt{\\hl{1}{3+6}} &= \\sqrt{9} = 3"
+       },
+       {
+        "text": "$x=\\hl{2}{3}$ works."
+       }
+      ]
+     }
+    ],
+    "final": "x = \\hl{2}{3}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q8#(e)(ii)",
+    "note": "Same idea as Problem 2: square, solve, check. The change is that the root sits in a denominator, so the fraction is moved and cleared before squaring. The context also means the negative root is thrown out.",
+    "legend": {
+     "1": "the expression under the root, x² + 4",
+     "2": "the value of x found"
+    },
+    "steps": [
+     {
+      "ask": "Which term do you move to the right so that the fraction stands on its own?",
+      "title": "Move the fraction to the other side",
+      "lines": [
+       {
+        "tex": "\\frac{x}{6\\sqrt{\\hl{1}{x^2 + 4}}} - \\frac{1}{12} &= 0"
+       },
+       {
+        "tex": "\\frac{x}{6\\sqrt{\\hl{1}{x^2 + 4}}} &= \\frac{1}{12}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply both sides by to clear the fraction?",
+      "title": "Get rid of the fractions",
+      "lines": [
+       {
+        "text": "Multiply both sides by $12\\sqrt{\\hl{1}{x^2 + 4}}$."
+       },
+       {
+        "tex": "2x &= \\sqrt{\\hl{1}{x^2 + 4}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you square both sides?",
+      "title": "Square both sides",
+      "lines": [
+       {
+        "tex": "4x^2 &= \\hl{1}{x^2 + 4}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you subtract from both sides to collect the x² terms?",
+      "title": "Collect the x² terms",
+      "lines": [
+       {
+        "text": "Subtract $x^2$ from both sides."
+       },
+       {
+        "tex": "3x^2 &= 4"
+       },
+       {
+        "tex": "x^2 &= \\frac{4}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "A distance is positive. Which root do you keep, and what is x?",
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "$x$ is a distance in $[0, 8]$, so reject the negative root."
+       },
+       {
+        "tex": "\\hl{2}{x} &= \\hl{2}{\\frac{2}{\\sqrt{3}}}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{1.155} \\text{ km}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{x} \\approx \\hl{2}{1.155} \\text{ km}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "mens-composite",
+  "problems": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q5#(a)",
+    "note": null,
+    "legend": {
+     "1": "the big square, side 7 and area 49",
+     "2": "one corner triangle, area 5",
+     "3": "the area of PQRS"
+    },
+    "steps": [
+     {
+      "ask": "The corner triangles are right-angled. Using the side of the big square and the 5, how long is QB?",
+      "title": "Find the lengths of the right-angled triangle at corner B",
+      "lines": [
+       {
+        "text": "$|AB| = \\hl{1}{7}$ and $|AQ| = 5$, so $|QB| = 7 - 5 = 2$. The four corner triangles are congruent, each with legs 5 and 2."
+       },
+       {
+        "tex": "|QB| &= 7 - 5"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "ask": "What is the area of one of these triangles, using its two legs?",
+      "title": "Find the area of one corner triangle",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\hl{2}{\\frac{1}{2}(5)(2)}"
+       },
+       {
+        "tex": "&= \\hl{2}{5}"
+       }
+      ]
+     },
+     {
+      "ask": "The four corner triangles are taken out of the large square. What do you do to the square's area?",
+      "title": "Subtract four triangles from the large square",
+      "lines": [
+       {
+        "tex": "\\text{Area of } PQRS &= \\hl{1}{7 \\times 7} - 4(\\hl{2}{5})"
+       },
+       {
+        "tex": "&= \\hl{1}{49} - 20"
+       },
+       {
+        "tex": "&= \\hl{3}{29 \\text{ cm}^2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{29 \\text{ cm}^2}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q10#(a)(ii)",
+    "note": "What changed: the shape is now a solid, so the answer is a volume in mm³ and involves π. The method is the same: take the removed piece away from the whole.",
+    "legend": {
+     "1": "the whole cylinder, before removal",
+     "2": "the removed cylinder",
+     "3": "the volume left"
+    },
+    "steps": [
+     {
+      "ask": "The solid is a bigger cylinder with a smaller one removed. What is the volume of each cylinder?",
+      "title": "Subtract the removed cylinder",
+      "lines": [
+       {
+        "text": "The removed cylinder has radius $14 \\div 2 = 7$ mm and height $5$ mm."
+       },
+       {
+        "tex": "V &= \\hl{1}{\\pi (9)^2 (5)} - \\hl{2}{\\pi (7)^2 (5)}"
+       },
+       {
+        "tex": "&= \\hl{1}{405\\pi} - \\hl{2}{245\\pi}"
+       },
+       {
+        "tex": "&= \\hl{3}{160\\pi}"
+       }
+      ]
+     },
+     {
+      "ask": "What is 160π on your calculator, rounded to a whole number?",
+      "title": "Evaluate and round",
+      "lines": [
+       {
+        "tex": "&\\approx \\hl{3}{502.65}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{503}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{503 \\text{ mm}^3}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q10#(a)(iv)",
+    "note": "What changed: pieces are added to the main shape rather than removed, so the areas are added and the answer is an area again.",
+    "legend": {
+     "1": "the rectangle, the main piece",
+     "2": "one of the two triangles",
+     "3": "the total area"
+    },
+    "steps": [
+     {
+      "ask": "Which simple shapes make up the whole outline, and do you already know their areas?",
+      "title": "Split the shape into a rectangle and two triangles",
+      "lines": [
+       {
+        "text": "$AF \\parallel CD$ and $|AF| = |CD| = 200$, and $AF \\perp AC$, so $ACDF$ is a rectangle with sides 200 m and 288 m."
+       },
+       {
+        "text": "Triangle $DEF$ has $|DE| = |BC|$, $|EF| = |AB|$ and $|DF| = |AC| = 288$, so it is congruent to triangle $ABC$ (SSS). The total area is the rectangle plus two triangles of area 14 095."
+       }
+      ]
+     },
+     {
+      "ask": "Each piece has its own area. How do you combine the areas of the pieces that make up the whole?",
+      "title": "Add the areas",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= 2(\\hl{2}{14\\,095}) + \\hl{1}{(200 \\times 288)}"
+       },
+       {
+        "tex": "&= 28\\,190 + \\hl{1}{57\\,600}"
+       },
+       {
+        "tex": "&= \\hl{3}{85\\,790 \\text{ m}^2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{85\\,790 \\text{ m}^2}",
+    "graph": null
+   }
+  ]
+ }
+]

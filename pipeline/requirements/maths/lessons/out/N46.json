@@ -1,0 +1,198 @@
+[
+ {"skill": "trig-graph", "problems": [
+  {"part": "maths-pp-2022-higher-p1-q8#(a), (b)", "note": null,
+   "legend": {"1": "the output value, h(t)", "2": "the angle inside the cosine, πt/3"},
+   "steps": [
+    {"ask": "Which values of t does the table need, and which one is already given?", "title": "Use h(t) = 72 - 60cos(πt/3) at each t",
+     "lines": [{"text": "Work in radians. $\\hl{1}{h(1)} = \\hl{1}{42}$ is given, so we find the other eight values."}]},
+    {"ask": "What angle does πt/3 give when t = 0, and what is its cosine?", "title": "Substitute t = 0",
+     "lines": [{"tex": "\\hl{1}{h(0)} &= 72 - 60\\cos\\hl{2}{\\left(0\\right)}"}, {"tex": "&= 72 - 60\\left(1\\right)"}, {"tex": "&= 72 - 60"}, {"tex": "&= \\hl{1}{12}"}]},
+    {"ask": "Which angle goes inside the cosine when t = 2? Give it in terms of π.", "title": "Substitute t = 2",
+     "lines": [{"tex": "\\hl{1}{h(2)} &= 72 - 60\\cos\\hl{2}{\\left(\\frac{2\\pi}{3}\\right)}"}, {"tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"}, {"tex": "&= 72 + 30"}, {"tex": "&= \\hl{1}{102}"}]},
+    {"ask": "What is cos π, and what does that do to 72 − 60cos(πt/3) when t = 3?", "title": "Substitute t = 3",
+     "lines": [{"tex": "\\hl{1}{h(3)} &= 72 - 60\\cos\\hl{2}{\\left(\\pi\\right)}"}, {"tex": "&= 72 - 60\\left(-1\\right)"}, {"tex": "&= 72 + 60"}, {"tex": "&= \\hl{1}{132}"}]},
+    {"ask": "Is cos of 4π/3 positive or negative, and how big is it?", "title": "Substitute t = 4",
+     "lines": [{"tex": "\\hl{1}{h(4)} &= 72 - 60\\cos\\hl{2}{\\left(\\frac{4\\pi}{3}\\right)}"}, {"tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"}, {"tex": "&= 72 + 30"}, {"tex": "&= \\hl{1}{102}"}]},
+    {"ask": "Which quadrant is 5π/3 in, and what sign does cos have there?", "title": "Substitute t = 5",
+     "lines": [{"tex": "\\hl{1}{h(5)} &= 72 - 60\\cos\\hl{2}{\\left(\\frac{5\\pi}{3}\\right)}"}, {"tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"}, {"tex": "&= 72 - 30"}, {"tex": "&= \\hl{1}{42}"}]},
+    {"ask": "What is cos of 2π?", "title": "Substitute t = 6",
+     "lines": [{"tex": "\\hl{1}{h(6)} &= 72 - 60\\cos\\hl{2}{\\left(2\\pi\\right)}"}, {"tex": "&= 72 - 60\\left(1\\right)"}, {"tex": "&= 72 - 60"}, {"tex": "&= \\hl{1}{12}"}]},
+    {"ask": "How does 7π/3 compare with 2π, and what is its cosine?", "title": "Substitute t = 7",
+     "lines": [{"tex": "\\hl{1}{h(7)} &= 72 - 60\\cos\\hl{2}{\\left(\\frac{7\\pi}{3}\\right)}"}, {"tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"}, {"tex": "&= 72 - 30"}, {"tex": "&= \\hl{1}{42}"}]},
+    {"ask": "What angle does πt/3 give when t = 8, and what is its cosine?", "title": "Substitute t = 8",
+     "lines": [{"tex": "\\hl{1}{h(8)} &= 72 - 60\\cos\\hl{2}{\\left(\\frac{8\\pi}{3}\\right)}"}, {"tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"}, {"tex": "&= 72 + 30"}, {"tex": "&= \\hl{1}{102}"}]},
+    {"ask": "Where does the curve reach its highest and lowest values, and how should it join them?", "title": "Plot the nine points and join them",
+     "lines": [{"text": "Plot $(0,12), (1,42), (2,102), (3,132), (4,102), (5,42), (6,12), (7,42), (8,102)$."}, {"text": "Join them with a smooth wave-shaped curve: it starts at its lowest value 12, rises to 132 at $t = 3$, falls to 12 at $t = 6$, then rises again."}]}
+   ],
+   "final": "\\text{Table: } \\hl{1}{12},\\ \\hl{1}{42},\\ \\hl{1}{102},\\ \\hl{1}{132},\\ \\hl{1}{102},\\ \\hl{1}{42},\\ \\hl{1}{12},\\ \\hl{1}{42},\\ \\hl{1}{102}",
+   "graph": {"f": "72 - 60*cos(pi*x/3)", "box": [-0.5, 150, 8.5, 0], "tangent": false, "points": [{"x": 0, "y": 12, "name": "min (0, 12)"}, {"x": 3, "y": 132, "name": "max (3, 132)"}], "line": null, "slots": {"x": null, "y": 1, "line": null}}},
+  {"part": "practice-trig-graph-1", "note": "The function is now g(x) = 1 − 2sin x, using sine and radian fractions of π over one full period from 0 to 2π, instead of the cosine of time. Same steps: substitute each x, then plot the nine points and join them.",
+   "legend": {"1": "the output value, g(x)", "2": "the angle inside the sine"},
+   "steps": [
+    {"ask": "Which x values are in the table, and which function are you evaluating at each one?", "title": "Use g(x) = 1 - 2sin x at each x",
+     "lines": [{"text": "Work in radians. Find $g(x)$ at $x = 0, \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\pi, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}, \\frac{11\\pi}{6}, 2\\pi$."}]},
+    {"ask": "What is the angle inside the sine when x = 0, and what is its sine?", "title": "Substitute $x = 0$",
+     "lines": [{"tex": "\\hl{1}{g\\left(0\\right)} &= 1 - 2\\sin\\hl{2}{\\left(0\\right)}"}, {"tex": "&= 1 - 2\\left(0\\right)"}, {"tex": "&= \\hl{1}{1}"}]},
+    {"ask": "What is sin of π/6, and what does 1 − 2sin x give?", "title": "Substitute $x = \\frac{\\pi}{6}$",
+     "lines": [{"tex": "\\hl{1}{g\\left(\\frac{\\pi}{6}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{\\pi}{6}\\right)}"}, {"tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"}, {"tex": "&= \\hl{1}{0}"}]},
+    {"ask": "Where is the sine largest, and what value does it take at π/2?", "title": "Substitute $x = \\frac{\\pi}{2}$",
+     "lines": [{"tex": "\\hl{1}{g\\left(\\frac{\\pi}{2}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{\\pi}{2}\\right)}"}, {"tex": "&= 1 - 2\\left(1\\right)"}, {"tex": "&= \\hl{1}{-1}"}]},
+    {"ask": "Which quadrant is 5π/6 in, and is sin there positive or negative?", "title": "Substitute $x = \\frac{5\\pi}{6}$",
+     "lines": [{"tex": "\\hl{1}{g\\left(\\frac{5\\pi}{6}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{5\\pi}{6}\\right)}"}, {"tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"}, {"tex": "&= \\hl{1}{0}"}]},
+    {"ask": "What is sin π?", "title": "Substitute $x = \\pi$",
+     "lines": [{"tex": "\\hl{1}{g\\left(\\pi\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\pi\\right)}"}, {"tex": "&= 1 - 2\\left(0\\right)"}, {"tex": "&= \\hl{1}{1}"}]},
+    {"ask": "Is sin of 7π/6 positive or negative, and how big is it?", "title": "Substitute $x = \\frac{7\\pi}{6}$",
+     "lines": [{"tex": "\\hl{1}{g\\left(\\frac{7\\pi}{6}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{7\\pi}{6}\\right)}"}, {"tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"}, {"tex": "&= \\hl{1}{2}"}]},
+    {"ask": "Where is the sine at its lowest, and what value does it take at 3π/2?", "title": "Substitute $x = \\frac{3\\pi}{2}$",
+     "lines": [{"tex": "\\hl{1}{g\\left(\\frac{3\\pi}{2}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{3\\pi}{2}\\right)}"}, {"tex": "&= 1 - 2\\left(-1\\right)"}, {"tex": "&= \\hl{1}{3}"}]},
+    {"ask": "Which quadrant is 11π/6 in, and what sign does sin have there?", "title": "Substitute $x = \\frac{11\\pi}{6}$",
+     "lines": [{"tex": "\\hl{1}{g\\left(\\frac{11\\pi}{6}\\right)} &= 1 - 2\\sin\\hl{2}{\\left(\\frac{11\\pi}{6}\\right)}"}, {"tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"}, {"tex": "&= \\hl{1}{2}"}]},
+    {"ask": "What is sin of 2π?", "title": "Substitute $x = 2\\pi$",
+     "lines": [{"tex": "\\hl{1}{g\\left(2\\pi\\right)} &= 1 - 2\\sin\\hl{2}{\\left(2\\pi\\right)}"}, {"tex": "&= 1 - 2\\left(0\\right)"}, {"tex": "&= \\hl{1}{1}"}]},
+    {"ask": "Where are the lowest and highest points of the wave, and how should the curve join them?", "title": "Plot the nine points and join them",
+     "lines": [{"text": "Plot $(0,1), (\\frac{\\pi}{6},0), (\\frac{\\pi}{2},-1), (\\frac{5\\pi}{6},0), (\\pi,1), (\\frac{7\\pi}{6},2), (\\frac{3\\pi}{2},3), (\\frac{11\\pi}{6},2), (2\\pi,1)$."}, {"text": "Join them with a smooth wave: it falls from 1 to a minimum of $-1$ at $x = \\frac{\\pi}{2}$, rises to a maximum of 3 at $x = \\frac{3\\pi}{2}$ and returns to 1."}]}
+   ],
+   "final": "\\text{Table: } \\hl{1}{1},\\ \\hl{1}{0},\\ \\hl{1}{-1},\\ \\hl{1}{0},\\ \\hl{1}{1},\\ \\hl{1}{2},\\ \\hl{1}{3},\\ \\hl{1}{2},\\ \\hl{1}{1}",
+   "graph": {"f": "1 - 2*sin(x)", "box": [-0.5, 3.6, 6.8, -1.6], "tangent": false, "points": [{"x": 1.5708, "y": -1, "name": "min (π/2, -1)"}, {"x": 4.7124, "y": 3, "name": "max (3π/2, 3)"}], "line": null, "slots": {"x": null, "y": 1, "line": null}}},
+  {"part": "maths-pp-2016-higher-p2-q8#(d)(ii)", "note": "The values are already in the table, so there are no substitution steps: you only plot the nine points and join them. It is a cosine wave, the same plotting step as problem 1.",
+   "legend": {"1": "the output value, h(t)"},
+   "steps": [
+    {"ask": "Which quantity goes on each axis, and what does each pair (t, h) mean?", "title": "Plot the nine points from the table",
+     "lines": [{"text": "Plot $(t, h)$ using time on the horizontal axis and height on the vertical axis."}, {"text": "The points are $(0, \\hl{1}{3.1})$, $(3, \\hl{1}{1.6})$, $(6, \\hl{1}{0.1})$, $(9, \\hl{1}{1.6})$, $(12, \\hl{1}{3.1})$, $(15, \\hl{1}{1.6})$, $(18, \\hl{1}{0.1})$, $(21, \\hl{1}{1.6})$, $(24, \\hl{1}{3.1})$."}]},
+    {"ask": "Where are the highest and lowest points, and how should the curve move between them?", "title": "Join the points with a smooth curve",
+     "lines": [{"text": "It is a cosine wave: maximum $\\hl{1}{3.1}$ at midnight, midday and the next midnight, minimum $\\hl{1}{0.1}$ at 6 a.m. and 6 p.m. It crosses $\\hl{1}{1.6}$ at 3 a.m., 9 a.m., 3 p.m. and 9 p.m."}]}
+   ],
+   "final": "\\text{Cosine curve through the nine points}",
+   "graph": {"f": "1.6 + 1.5*cos(pi*x/6)", "box": [-1, 3.6, 25, -0.2], "tangent": false, "points": [{"x": 0, "y": 3.1, "name": "max (0, 3.1)"}, {"x": 6, "y": 0.1, "name": "min (6, 0.1)"}], "line": null, "slots": {"x": null, "y": 1, "line": null}}}
+ ]},
+ {"skill": "trig-graph-abc", "problems": [
+  {"part": "maths-pp-2016-higher-p2-q8#(a)", "note": null,
+   "legend": {"1": "the period", "2": "c, the coefficient of t (π/6 here)", "3": "the minimum value", "4": "the maximum value"},
+   "steps": [
+    {"ask": "What is the period of cos(bt) in terms of b, and what is b in this question?", "title": "Find the period",
+     "lines": [{"text": "For $\\cos(bt)$ the period is $\\dfrac{2\\pi}{b}$. Here $\\hl{2}{b} = \\hl{2}{\\dfrac{\\pi}{6}}$."}, {"tex": "\\hl{1}{\\text{Period}} &= \\frac{2\\pi}{\\pi/6}"}, {"tex": "&= 2\\pi \\times \\frac{6}{\\pi}"}, {"tex": "&= \\hl{1}{12\\text{ hours}}"}]},
+    {"ask": "What are the largest and smallest values of cos, and what do they do to the 1.5cos term?", "title": "Find the range",
+     "lines": [{"text": "$\\cos$ always lies between $-1$ and $1$, so the $1.5\\cos(\\cdot)$ term lies between $-1.5$ and $1.5$."}, {"tex": "\\hl{3}{\\text{Minimum}} &= 1.6 - 1.5"}, {"tex": "&= \\hl{3}{0.1}"}, {"tex": "\\hl{4}{\\text{Maximum}} &= 1.6 + 1.5"}, {"tex": "&= \\hl{4}{3.1}"}]}
+   ],
+   "final": "\\hl{1}{\\text{Period} = 12\\text{ hours}},\\quad \\text{Range} = [\\hl{3}{0.1},\\,\\hl{4}{3.1}]\\text{ m}",
+   "graph": {"f": "1.6 + 1.5*cos(pi*x/6)", "box": [-1, 3.6, 13, -0.2], "tangent": false, "points": [{"x": 0, "y": 3.1, "name": "max (0, 3.1)"}, {"x": 6, "y": 0.1, "name": "min (6, 0.1)"}], "line": null, "slots": {"x": null, "y": null, "line": null}}},
+  {"part": "maths-pp-2017-higher-p1-q9#(b)(ii)", "note": "The period is now read from the tide times, and c is found by rearranging 2π/c = period. The range step is not needed, so the minimum and maximum slots are not used.",
+   "legend": {"1": "the period", "2": "c, the coefficient of t"},
+   "steps": [
+    {"ask": "How long is one full cycle of the tide, from one high tide to the next?", "title": "Find the period",
+     "lines": [{"text": "The period of $\\cos ct$ is $\\frac{2\\pi}{c}$. It is the time between two successive high tides: 02:00 to 14:34."}, {"tex": "\\hl{1}{\\text{period}} &= \\hl{1}{12\\frac{34}{60} \\text{ hours}}"}]},
+    {"ask": "How do you rearrange 2π/c = period to find c, and which period value goes in?", "title": "Solve for c",
+     "lines": [{"tex": "\\frac{2\\pi}{c} &= \\hl{1}{12\\frac{34}{60}}"}, {"tex": "\\hl{2}{c} &= \\frac{2\\pi}{12\\frac{34}{60}}"}, {"tex": "\\hl{2}{c} &\\approx \\hl{2}{0.49999}"}, {"tex": "\\hl{2}{c} &\\approx \\hl{2}{0.5} \\text{ (1 decimal place)}"}]}
+   ],
+   "final": "\\hl{2}{c} = \\hl{2}{0.5}",
+   "graph": null},
+  {"part": "maths-pp-2018-higher-p2-q9#(b)(i)", "note": "Here the period comes from one full turn of the crank rather than from c, and the range is read off from the largest and smallest distances. Only the period is marked in colour.",
+   "legend": {"1": "the period"},
+   "steps": [
+    {"ask": "How much of a turn does the crank make before it returns to the same position?", "title": "Find the period",
+     "lines": [{"text": "The crank returns to the same position after one full turn, so $f$ repeats every $\\hl{1}{2\\pi}$ radians, which is $\\hl{1}{360^\\circ}$."}]},
+    {"ask": "What are the largest and smallest distances |CX| can be?", "title": "Find the range",
+     "lines": [{"text": "The largest $|CX|$ is $30$ (when $D$ is at $X$, $\\alpha = 0$). The smallest is $10$ (when $D$ is on the far side, $\\alpha = 180^\\circ$). So $f$ takes every value from $10$ to $30$."}]}
+   ],
+   "final": "\\hl{1}{\\text{Period} = 2\\pi\\ (360^\\circ)},\\ \\text{Range} = [10, 30]",
+   "graph": null}
+ ]},
+ {"skill": "trig-radians", "problems": [
+  {"part": "practice-trig-radians-1", "note": null,
+   "legend": {"1": "the angle in radians", "2": "the conversion factor, 180/π", "3": "the angle in degrees"},
+   "steps": [
+    {"ask": "Which factor turns radians into degrees, and how can you get it from π radians?", "title": "Use the conversion factor",
+     "lines": [{"text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\hl{2}{\\frac{180}{\\pi}}$."}, {"tex": "\\hl{1}{\\frac{5\\pi}{12}} \\times \\hl{2}{\\frac{180}{\\pi}} &= \\frac{5 \\times 180}{12}"}, {"tex": "&= \\hl{3}{75^\\circ}"}]}
+   ],
+   "final": "\\hl{3}{75^\\circ}",
+   "graph": null},
+  {"part": "practice-trig-radians-2", "note": "The angle is now 7π/6, larger than π, instead of 5π/12, so the answer is over 180°. The factor and steps are the same.",
+   "legend": {"1": "the angle in radians", "2": "the conversion factor, 180/π", "3": "the angle in degrees"},
+   "steps": [
+    {"ask": "Which factor turns radians into degrees, and how can you get it from π radians?", "title": "Use the conversion factor",
+     "lines": [{"text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\hl{2}{\\frac{180}{\\pi}}$."}, {"tex": "\\hl{1}{\\frac{7\\pi}{6}} \\times \\hl{2}{\\frac{180}{\\pi}} &= \\frac{7 \\times 180}{6}"}, {"tex": "&= \\hl{3}{210^\\circ}"}]}
+   ],
+   "final": "\\hl{3}{210^\\circ}",
+   "graph": null},
+  {"part": "practice-trig-radians-3", "note": "The angle is negative because it turns clockwise, so the answer is negative. The factor and steps are the same as before.",
+   "legend": {"1": "the angle in radians", "2": "the conversion factor, 180/π", "3": "the angle in degrees"},
+   "steps": [
+    {"ask": "Which factor turns radians into degrees, and how can you get it from π radians?", "title": "Use the conversion factor",
+     "lines": [{"text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\hl{2}{\\frac{180}{\\pi}}$."}, {"tex": "\\hl{1}{-\\frac{3\\pi}{4}} \\times \\hl{2}{\\frac{180}{\\pi}} &= -\\frac{3 \\times 180}{4}"}, {"tex": "&= \\hl{3}{-135^\\circ}"}]}
+   ],
+   "final": "\\hl{3}{-135^\\circ}",
+   "graph": null}
+ ]},
+ {"skill": "trig-unit-circle", "problems": [
+  {"part": "maths-pp-2023-higher-p2-q9#(c)(i)", "note": null,
+   "legend": {"1": "the given angle, θ", "2": "the x co-ordinate", "3": "the y co-ordinate"},
+   "steps": [
+    {"ask": "What angle does OQ make with the positive x-axis, if OP lies along the negative x-axis?", "title": "Place Q on the unit circle using the angle",
+     "lines": [{"text": "$|\\angle QOP| = 45^\\circ$ and $P = (-1, 0)$, so $OQ$ makes $\\hl{1}{135^\\circ}$ with the positive $x$-axis."}, {"text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."}, {"tex": "Q &= (\\hl{2}{\\cos 135^\\circ}, \\hl{3}{\\sin 135^\\circ})"}]},
+    {"ask": "Is cos negative in the second quadrant, and what is cos 45° as a surd?", "title": "Find the x co-ordinate",
+     "lines": [{"tex": "\\hl{2}{\\cos 135^\\circ} &= -\\cos 45^\\circ"}, {"tex": "&= \\hl{2}{-\\frac{1}{\\sqrt{2}}}"}]},
+    {"ask": "Is sin positive in the second quadrant, and what is sin 45°?", "title": "Find the y co-ordinate",
+     "lines": [{"tex": "\\hl{3}{\\sin 135^\\circ} &= \\sin 45^\\circ"}, {"tex": "&= \\hl{3}{\\frac{1}{\\sqrt{2}}}"}]}
+   ],
+   "final": "Q = \\left(\\hl{2}{-\\frac{1}{\\sqrt{2}}}, \\hl{3}{\\frac{1}{\\sqrt{2}}}\\right)",
+   "graph": null},
+  {"part": "practice-trig-unit-circle-1", "note": "The angle is now 210°, in the third quadrant, so both coordinates are negative, and the related angle is 30° instead of 45°. Same steps as problem 1.",
+   "legend": {"1": "the given angle, θ", "2": "the x co-ordinate", "3": "the y co-ordinate"},
+   "steps": [
+    {"ask": "Which coordinate of a point on the unit circle is cos θ, and which is sin θ?", "title": "Place P on the unit circle using the angle",
+     "lines": [{"text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."}, {"tex": "P &= (\\hl{2}{\\cos 210^\\circ}, \\hl{3}{\\sin 210^\\circ})"}]},
+    {"ask": "Which quadrant is 210° in, and is cos positive or negative there? Which related angle do you use?", "title": "Find the x co-ordinate",
+     "lines": [{"text": "$\\hl{1}{210^\\circ}$ is in the third quadrant, where cos is negative. The related angle is $30^\\circ$."}, {"tex": "\\hl{2}{\\cos 210^\\circ}"}, {"tex": "&= -\\cos 30^\\circ"}, {"tex": "&= \\hl{2}{-\\frac{\\sqrt{3}}{2}}"}]},
+    {"ask": "What sign does sin have in that quadrant, and what is sin 30°?", "title": "Find the y co-ordinate",
+     "lines": [{"text": "In the third quadrant sin is also negative."}, {"tex": "\\hl{3}{\\sin 210^\\circ}"}, {"tex": "&= -\\sin 30^\\circ"}, {"tex": "&= \\hl{3}{-\\frac{1}{2}}"}]}
+   ],
+   "final": "P = \\left(\\hl{2}{-\\frac{\\sqrt{3}}{2}}, \\hl{3}{-\\frac{1}{2}}\\right)",
+   "graph": null},
+  {"part": "maths-pp-2020-higher-p1-q8#(a)(i)", "note": "This circle has radius 5, not 1, so each coordinate is 5 times cos θ or sin θ and you read a and b off the answer. There is no quadrant or sign step. It is the closest available part.",
+   "legend": {"1": "the given angle, θ", "2": "the x co-ordinate", "3": "the y co-ordinate"},
+   "steps": [
+    {"ask": "In a right-angled triangle with hypotenuse 5, which side is adjacent to θ, and what is cos θ in terms of it?", "title": "Use right-angled triangle ratios with radius 5",
+     "lines": [{"tex": "\\cos\\hl{1}{\\theta} &= \\frac{x}{5}"}, {"tex": "\\hl{2}{x} &= 5\\cos\\hl{1}{\\theta}"}, {"tex": "\\sin\\hl{1}{\\theta} &= \\frac{y}{5}"}, {"tex": "\\hl{3}{y} &= 5\\sin\\hl{1}{\\theta}"}]},
+    {"ask": "Which numbers multiply cos θ and sin θ to give the x and y co-ordinates?", "title": "Compare with (a cos θ, b sin θ)",
+     "lines": [{"tex": "(\\hl{2}{x}, \\hl{3}{y}) &= (5\\cos\\hl{1}{\\theta},\\ 5\\sin\\hl{1}{\\theta})"}, {"text": "So $a = 5$ and $b = 5$."}]}
+   ],
+   "final": "a = 5,\\ b = 5",
+   "graph": null}
+ ]},
+ {"skill": "quad-form-from-roots", "problems": [
+  {"part": "maths-pp-2018-ordinary-p1-q5#(b)", "note": null,
+   "legend": {"1": "the factored form from the roots", "2": "the expanded quadratic"},
+   "steps": [
+    {"ask": "Which factors go with the roots −2 and 3, and what does the shape tell you about the leading coefficient?", "title": "Use the roots to write f(x) in factors",
+     "lines": [{"text": "The curve crosses the $x$-axis at $-2$ and $3$, so $\\hl{1}{(x + 2)}$ and $\\hl{1}{(x - 3)}$ are factors. The curve opens downwards, so the leading coefficient is negative."}, {"tex": "f(x) &= \\hl{1}{-(x + 2)(x - 3)}"}]},
+    {"ask": "What do you get when you multiply out the brackets, and how do the signs change?", "title": "Expand the brackets",
+     "lines": [{"tex": "f(x) &= -(x^2 - 3x + 2x - 6)"}, {"tex": "&= -(x^2 - x - 6)"}, {"tex": "&= \\hl{2}{-x^2 + x + 6}"}]},
+    {"ask": "What is f(0) from your factored form, and does it match the point A?", "title": "Check with the point A",
+     "lines": [{"tex": "f(0) &= \\hl{1}{-(0 + 2)(0 - 3)}"}, {"tex": "&= 6"}, {"text": "This matches $A = (0, 6)$."}]}
+   ],
+   "final": "f(x) = \\hl{2}{-x^2 + x + 6}",
+   "graph": null},
+  {"part": "practice-quad-form-from-roots-1", "note": "The curve opens upwards now, so the leading coefficient is 1 with no minus sign, and there is no point check. Same method: factors from the roots, then expand.",
+   "legend": {"1": "the factored form from the roots", "2": "the expanded quadratic"},
+   "steps": [
+    {"ask": "If one root is −1, what factor does it give? Write the two factors for roots −1 and 6.", "title": "Write the factors from the roots",
+     "lines": [{"text": "The roots are $-1$ and $6$, so $\\hl{1}{(x + 1)}$ and $\\hl{1}{(x - 6)}$ are the factors."}, {"tex": "\\hl{1}{(x + 1)(x - 6)} &= 0"}]},
+    {"ask": "What do you get when you multiply the brackets? Collect the x terms.", "title": "Expand the brackets",
+     "lines": [{"tex": "x^2 - 6x + x - 6 &= 0"}, {"tex": "\\hl{2}{x^2 - 5x - 6} &= 0"}]}
+   ],
+   "final": "\\hl{2}{x^2 - 5x - 6} = 0",
+   "graph": null},
+  {"part": "maths-pp-2021-higher-p1-q6#(a)", "note": "The roots are −1 and 3 as in problem 1, but the leading number a is unknown, so the point (0, 6) finds a = −2 first. Same factors and expansion, with one extra step for a.",
+   "legend": {"1": "the factored form from the roots", "2": "the expanded quadratic"},
+   "steps": [
+    {"ask": "The roots are −1 and 3, so which two factors do you write, and what unknown is left in front?", "title": "Write h'(x) using its roots",
+     "lines": [{"text": "The graph crosses the $x$-axis at $x=-1$ and $x=3$, so $\\hl{1}{(x+1)}$ and $\\hl{1}{(x-3)}$ are factors."}, {"tex": "h'(x) &= \\hl{1}{a(x+1)(x-3)}"}, {"tex": "&= a(x^2 - 2x - 3)"}]},
+    {"ask": "Which point on the y-axis gives you a, and what equation do you get from it?", "title": "Use the point (0, 6) to find a",
+     "lines": [{"text": "The graph crosses the $y$-axis at $6$, so $h'(0) = 6$."}, {"tex": "6 &= a(0 + 0 - 3)"}, {"tex": "6 &= -3a"}, {"tex": "a &= -2"}]},
+    {"ask": "What do you get when you put a into the expanded form and multiply it through?", "title": "Substitute a = -2 and expand",
+     "lines": [{"tex": "h'(x) &= -2(x^2 - 2x - 3)"}, {"tex": "&= \\hl{2}{-2x^2 + 4x + 6}"}]}
+   ],
+   "final": "h'(x) = \\hl{2}{-2x^2 + 4x + 6}",
+   "graph": null}
+ ]}
+]

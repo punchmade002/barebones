@@ -1,0 +1,341 @@
+[
+ {"skill": "geo-thm21", "problems": [
+  {"part": "practice-geo-thm21-1", "note": null,
+   "legend": {"1": "the radius, |OA|", "2": "the distance from O to the chord, |OM|", "3": "half the chord, |AM|"},
+   "steps": [
+    {"ask": "What does the perpendicular from the centre O to a chord do to the chord? Use that to find |AM|.", "title": "Bisect the chord (Theorem 21)",
+     "lines": [
+      {"text": "The perpendicular from the centre $O$ to the chord meets it at its midpoint $M$ (Theorem 21)."},
+      {"tex": "\\hl{3}{|AM|} &= \\frac{1}{2} \\times 16"},
+      {"tex": "&= \\hl{3}{8}"}
+     ]},
+    {"ask": "Which triangle has a right angle at M and a known hypotenuse? What does Pythagoras give for |OM|?", "title": "Use Pythagoras in triangle $OMA$",
+     "lines": [
+      {"text": "$OMA$ has a right angle at $M$ and hypotenuse $\\hl{1}{|OA|} = \\hl{1}{10}$."},
+      {"tex": "\\hl{2}{|OM|}^2 &= \\hl{1}{10}^2 - \\hl{3}{8}^2"},
+      {"tex": "&= 100 - 64"},
+      {"tex": "&= 36"}
+     ]},
+    {"ask": "What positive number, squared, gives 36?", "title": "Take the square root",
+     "lines": [
+      {"tex": "\\hl{2}{|OM|} &= \\hl{2}{6}"}
+     ]}
+   ],
+   "final": "\\hl{2}{|OM|} = \\hl{2}{6} \\text{ cm}",
+   "graph": null},
+  {"part": "practice-geo-thm21-2", "note": "Changed: the distance from the centre is now given and the chord is the unknown, so the steps run in reverse order with the midpoint step last. The method is the same: a right-angled triangle, Pythagoras, and Theorem 21.",
+   "legend": {"1": "the radius, |OP|", "2": "the distance from O to the chord, |OM|", "3": "half the chord, |PM|", "4": "the whole chord, |PQ|"},
+   "steps": [
+    {"ask": "Which right-angled triangle contains O, M and P? Which two of its sides do you already know?", "title": "Use Pythagoras in triangle $OMP$",
+     "lines": [
+      {"text": "$\\hl{2}{OM} \\perp PQ$, so $OMP$ has a right angle at $M$ and hypotenuse $\\hl{1}{|OP|} = \\hl{1}{13}$."},
+      {"tex": "\\hl{3}{|PM|}^2 &= \\hl{1}{13}^2 - \\hl{2}{5}^2"},
+      {"tex": "&= 169 - 25"},
+      {"tex": "&= 144"}
+     ]},
+    {"ask": "What positive number, squared, gives 144?", "title": "Find $|PM|$",
+     "lines": [
+      {"tex": "\\hl{3}{|PM|} &= \\hl{3}{12}"}
+     ]},
+    {"ask": "Since M is the midpoint of [PQ], how is |PQ| related to |PM|?", "title": "Double it (Theorem 21)",
+     "lines": [
+      {"text": "The perpendicular from the centre bisects the chord (Theorem 21), so $M$ is the midpoint of $[PQ]$."},
+      {"tex": "\\hl{4}{|PQ|} &= 2 \\times \\hl{3}{12}"},
+      {"tex": "&= \\hl{4}{24}"}
+     ]}
+   ],
+   "final": "\\hl{4}{|PQ|} = \\hl{4}{24} \\text{ cm}",
+   "graph": null},
+  {"part": "practice-geo-thm21-3", "note": "Changed: the question is now about a pipe and the unknown is the radius, so the distance from the centre is written as r - 8 and the Pythagoras equation is solved for r. The method stays the same.",
+   "legend": {"1": "the radius, r", "2": "the distance from O to the chord, |OM| = r - 8", "3": "half the chord, 24 cm"},
+   "steps": [
+    {"ask": "Where is the centre O relative to the water surface, and how far is it from the chord in terms of r?", "title": "Set up the right-angled triangle",
+     "lines": [
+      {"text": "Let $O$ be the centre and $\\hl{1}{r}$ the radius. The line from $O$ to the midpoint $M$ of the chord is perpendicular to the chord (Theorem 21), so it is the vertical line through the deepest point."},
+      {"text": "Half the chord is $\\hl{3}{24}$ cm, and $\\hl{2}{|OM|} = \\hl{1}{r} - 8$."}
+     ]},
+    {"ask": "Which side of this triangle is the hypotenuse? How does Pythagoras relate r, 24 and r - 8?", "title": "Use Pythagoras in the triangle with sides $r$, $24$ and $r-8$",
+     "lines": [
+      {"tex": "\\hl{1}{r}^2 &= \\hl{3}{24}^2 + \\hl{2}{(r-8)}^2"},
+      {"tex": "&= 576 + r^2 - 16r + 64"}
+     ]},
+    {"ask": "After the r² terms cancel, how do you get r on its own?", "title": "Solve for $r$",
+     "lines": [
+      {"tex": "16\\hl{1}{r} &= 640"},
+      {"tex": "\\hl{1}{r} &= \\hl{1}{40}"}
+     ]}
+   ],
+   "final": "\\hl{1}{r} = \\hl{1}{40} \\text{ cm}",
+   "graph": null}
+ ]},
+ {"skill": "geo-thm3", "problems": [
+  {"part": "practice-geo-thm3-2", "note": null,
+   "legend": {"1": "the alternate angle the rule finds, ∠ACD", "2": "the angle it equals, ∠BAC", "3": "the answer, ∠BCD"},
+   "steps": [
+    {"ask": "Which angle at C is the alternate angle to ∠BAC across the parallel lines AB and DC?", "title": "Find the angle ACD",
+     "lines": [
+      {"text": "$[AB] \\parallel [DC]$ and $AC$ crosses them, so $\\hl{2}{\\angle BAC}$ and $\\hl{1}{\\angle ACD}$ are alternate angles, and equal."},
+      {"tex": "\\hl{1}{|\\angle ACD|} &= \\hl{1}{35}"}
+     ]},
+    {"ask": "How is ∠BCD made up of ∠ACB and ∠ACD, and what do you need to add?", "title": "Add the two parts of angle BCD",
+     "lines": [
+      {"tex": "\\hl{3}{|\\angle BCD|} &= |\\angle ACB| + \\hl{1}{|\\angle ACD|}"},
+      {"tex": "&= 80 + \\hl{1}{35}"},
+      {"tex": "&= \\hl{3}{115}"}
+     ]}
+   ],
+   "final": "\\hl{3}{|\\angle BCD|} = \\hl{3}{115}^\\circ",
+   "graph": null},
+  {"part": "practice-geo-thm3-1", "note": "Changed: the angles are now algebraic expressions, so the equal angles give an equation that must be solved for x before the angle is found. The parallel lines and the alternate-angle step are the same.",
+   "legend": {"1": "the alternate angle the rule finds, ∠PQD", "2": "the angle it equals, ∠APQ"},
+   "steps": [
+    {"ask": "Which angles at P and Q are alternate angles across the parallel lines? What can you say about them?", "title": "Use alternate angles",
+     "lines": [
+      {"text": "$\\hl{2}{\\angle APQ}$ and $\\hl{1}{\\angle PQD}$ are alternate angles between parallel lines, so they are equal."},
+      {"tex": "\\hl{2}{2x + 15} &= \\hl{1}{4x - 25}"}
+     ]},
+    {"ask": "What do you get when you gather the x terms on one side and the numbers on the other?", "title": "Solve for x",
+     "lines": [
+      {"tex": "40 &= 2x"},
+      {"tex": "x &= 20"}
+     ]},
+    {"ask": "Once you know x, what does the expression for ∠PQD give?", "title": "Find the angle PQD",
+     "lines": [
+      {"tex": "\\hl{1}{|\\angle PQD|} &= \\hl{1}{4(20) - 25}"},
+      {"tex": "&= \\hl{1}{55}"}
+     ]}
+   ],
+   "final": "\\hl{1}{|\\angle PQD|} = \\hl{1}{55}^\\circ",
+   "graph": null},
+  {"part": "maths-pp-2015-ordinary-p2-q4#(a)", "note": "Only the first step uses the alternate-angle rule. Steps 2 and 3 need the angle sum of a triangle and corresponding angles, so this is a weaker match than the other two.",
+   "legend": {"1": "the alternate angle the rule finds, x"},
+   "steps": [
+    {"ask": "The top and bottom sides are parallel and a diagonal crosses them. Which pair of angles at the two crossings is equal, and which one is x?", "title": "Find x",
+     "lines": [
+      {"text": "The top and bottom sides of the parallelogram are parallel, and the diagonal crosses them."},
+      {"tex": "\\hl{1}{x} &= \\hl{1}{30}^\\circ"},
+      {"text": "Reason: alternate angles are equal."}
+     ]},
+    {"ask": "What do the three angles of a triangle add up to? Use that to find y.", "title": "Find y",
+     "lines": [
+      {"text": "The triangle at the left has angles $110^\\circ$, $\\hl{1}{30}^\\circ$ and $y^\\circ$."},
+      {"tex": "y &= 180^\\circ - 110^\\circ - \\hl{1}{30}^\\circ"},
+      {"tex": "&= 40^\\circ"},
+      {"text": "Reason: the angles in a triangle add up to $180^\\circ$."}
+     ]},
+    {"ask": "Which two angles together make up the whole angle z, and which rule for parallel lines ties z to them?", "title": "Find z",
+     "lines": [
+      {"text": "$z$ matches the whole angle at the bottom left, which is $\\hl{1}{x} + y$."},
+      {"tex": "z &= \\hl{1}{x} + y"},
+      {"tex": "&= \\hl{1}{30}^\\circ + 40^\\circ"},
+      {"tex": "&= 70^\\circ"},
+      {"text": "Reason: corresponding angles are equal (the left and right sides are parallel). Equivalently, an exterior angle equals the sum of the two opposite interior angles."}
+     ]}
+   ],
+   "final": "\\hl{1}{x} = \\hl{1}{30}^\\circ,\\; y = 40^\\circ,\\; z = 70^\\circ",
+   "graph": null}
+ ]},
+ {"skill": "geo-thm5", "problems": [
+  {"part": "practice-geo-thm5-2", "note": null,
+   "legend": {"1": "the corresponding angle, ∠ABC", "2": "the angle it corresponds to, ∠ADE", "3": "the answer, ∠BAC"},
+   "steps": [
+    {"ask": "Which angle at B is in the same position as ∠ADE relative to the parallel lines?", "title": "Use corresponding angles",
+     "lines": [
+      {"text": "$[DE] \\parallel [BC]$ and $AB$ crosses them, so $\\hl{2}{\\angle ADE}$ and $\\hl{1}{\\angle ABC}$ are corresponding angles, and equal."},
+      {"tex": "\\hl{1}{|\\angle ABC|} &= \\hl{1}{52}"}
+     ]},
+    {"ask": "Which angles of triangle ABC do you know now, and what must the third one be?", "title": "Use the angles of triangle ABC",
+     "lines": [
+      {"text": "The angles in a triangle add to $180^\\circ$."},
+      {"tex": "\\hl{3}{|\\angle BAC|} &= 180 - \\hl{1}{52} - 61"},
+      {"tex": "&= \\hl{3}{67}"}
+     ]}
+   ],
+   "final": "\\hl{3}{|\\angle BAC|} = \\hl{3}{67}^\\circ",
+   "graph": null},
+  {"part": "practice-geo-thm5-1", "note": "Changed: the figure is now two parallel lines with the angles written in x, so x must be found before the angle, and the last step uses a straight line instead of a triangle. The corresponding-angle step is the same.",
+   "legend": {"1": "the corresponding angle, ∠PQD", "2": "the angle it corresponds to, ∠EPB", "3": "the answer, ∠PQC"},
+   "steps": [
+    {"ask": "Which angle at Q is in the same position as ∠EPB across the parallel lines?", "title": "Use corresponding angles",
+     "lines": [
+      {"text": "$\\hl{2}{\\angle EPB}$ and $\\hl{1}{\\angle PQD}$ are corresponding angles between parallel lines, so they are equal."},
+      {"tex": "\\hl{2}{5x - 20} &= \\hl{1}{3x + 20}"}
+     ]},
+    {"ask": "What do you get when you gather the x terms on one side and the numbers on the other?", "title": "Solve for x",
+     "lines": [
+      {"tex": "2x &= 40"},
+      {"tex": "x &= 20"}
+     ]},
+    {"ask": "Once x is known, what is the value of the expression for ∠PQD?", "title": "Find the angle PQD",
+     "lines": [
+      {"tex": "\\hl{1}{|\\angle PQD|} &= \\hl{1}{3(20) + 20}"},
+      {"tex": "&= \\hl{1}{80}"}
+     ]},
+    {"ask": "Which angle lies on the same straight line as ∠PQD, and what do the two add up to?", "title": "Use the straight line CD",
+     "lines": [
+      {"text": "$\\hl{3}{\\angle PQC}$ and $\\hl{1}{\\angle PQD}$ lie on a straight line, so they add to $180^\\circ$."},
+      {"tex": "\\hl{3}{|\\angle PQC|} &= 180 - \\hl{1}{80}"},
+      {"tex": "&= \\hl{3}{100}"}
+     ]}
+   ],
+   "final": "\\hl{3}{|\\angle PQC|} = \\hl{3}{100}^\\circ",
+   "graph": null},
+  {"part": "practice-geo-thm5-3", "note": "Changed: the question asks for x and y, so the corresponding-angle equation and the straight-line equation are solved together. The parallel lines and the two angle rules stay the same.",
+   "legend": {"1": "the corresponding angle, ∠PQD", "2": "the angle it corresponds to, ∠EPB", "3": "the angle on the straight line with ∠PQD, ∠PQC"},
+   "steps": [
+    {"ask": "Which angle at Q corresponds to ∠EPB between the parallel lines? What can you say about the two?", "title": "Use corresponding angles",
+     "lines": [
+      {"text": "$\\hl{2}{\\angle EPB}$ and $\\hl{1}{\\angle PQD}$ are corresponding angles between parallel lines, so they are equal."},
+      {"tex": "\\hl{2}{x + 2y} &= \\hl{1}{70}"}
+     ]},
+    {"ask": "Which two angles lie on the straight line at Q, and what do they add up to?", "title": "Use the straight line CD",
+     "lines": [
+      {"text": "$\\hl{3}{\\angle PQC}$ and $\\hl{1}{\\angle PQD}$ lie on a straight line, so they add to $180^\\circ$."},
+      {"tex": "\\hl{3}{(3x + y)} + \\hl{1}{70} &= 180"},
+      {"tex": "\\hl{3}{3x + y} &= 110"}
+     ]},
+    {"ask": "Which equation is easiest to rearrange for x, and what should you substitute into the other?", "title": "Eliminate x",
+     "lines": [
+      {"tex": "x &= 70 - 2y"},
+      {"tex": "3(70 - 2y) + y &= 110"},
+      {"tex": "210 - 5y &= 110"},
+      {"tex": "y &= 20"}
+     ]},
+    {"ask": "Once y is known, which equation gives x most directly?", "title": "Find x",
+     "lines": [
+      {"tex": "x &= 70 - 2(20)"},
+      {"tex": "x &= 30"}
+     ]}
+   ],
+   "final": "x = 30, \\quad y = 20",
+   "graph": null}
+ ]},
+ {"skill": "geo-thm6", "problems": [
+  {"part": "practice-geo-thm6-1", "note": null,
+   "legend": {"1": "the exterior angle, ∠ACD", "2": "the first opposite interior angle, ∠BAC", "3": "the second opposite interior angle, ∠ABC"},
+   "steps": [
+    {"ask": "Which angle at C lies outside the triangle, and which two angles inside the triangle are opposite it?", "title": "Identify the exterior angle",
+     "lines": [
+      {"text": "$\\hl{1}{\\angle ACD}$ is the exterior angle at $C$. The two opposite interior angles are $\\hl{2}{\\angle BAC}$ and $\\hl{3}{\\angle ABC}$."}
+     ]},
+    {"ask": "What does an exterior angle equal in terms of the two opposite angles?", "title": "Add the opposite interior angles",
+     "lines": [
+      {"tex": "\\hl{1}{\\angle ACD} &= \\hl{2}{48}^\\circ + \\hl{3}{57}^\\circ"},
+      {"tex": "&= \\hl{1}{105}^\\circ"},
+      {"text": "Reason: Theorem 6, an exterior angle equals the sum of the two interior opposite angles."}
+     ]}
+   ],
+   "final": "\\hl{1}{\\angle ACD} = \\hl{1}{105}^\\circ",
+   "graph": null},
+  {"part": "practice-geo-thm6-2", "note": "Changed: the angles are now written in x and x is the unknown, so the theorem gives an equation to solve rather than a sum to add. The exterior-angle rule is the same.",
+   "legend": {"1": "the exterior angle, ∠PRS", "2": "the first opposite interior angle, ∠QPR", "3": "the second opposite interior angle, ∠PQR", "4": "the unknown x"},
+   "steps": [
+    {"ask": "Which angle at R is outside the triangle, and which two angles of the triangle does the theorem link it to?", "title": "Use Theorem 6",
+     "lines": [
+      {"text": "$\\hl{1}{\\angle PRS}$ is the exterior angle at $R$. It equals the sum of the opposite interior angles $\\hl{2}{\\angle QPR}$ and $\\hl{3}{\\angle PQR}$."},
+      {"tex": "\\hl{1}{4x + 10} &= \\hl{2}{(x + 20)} + \\hl{3}{(2x + 15)}"}
+     ]},
+    {"ask": "What is the equation once the two opposite angles are added together? Tidy up the x terms and the numbers.", "title": "Simplify",
+     "lines": [
+      {"tex": "\\hl{1}{4x + 10} &= 3x + 35"}
+     ]},
+    {"ask": "How do you get x on its own from this equation? Which term moves across the equals sign, and what happens to its sign?", "title": "Solve for $x$",
+     "lines": [
+      {"tex": "\\hl{4}{x} &= 35 - 10"},
+      {"tex": "&= \\hl{4}{25}"}
+     ]}
+   ],
+   "final": "\\hl{4}{x} = \\hl{4}{25}",
+   "graph": null},
+  {"part": "practice-geo-thm6-3", "note": "Changed: the triangle is isosceles, so one interior angle must be found from the straight line and the equal sides before the exterior-angle rule can be used. The theorem is the same.",
+   "legend": {"1": "the exterior angle, ∠ACD", "2": "the first opposite interior angle, ∠BAC", "3": "the second opposite interior angle, ∠ABC"},
+   "steps": [
+    {"ask": "B, C and D lie on one straight line. What do the angles at C on that line add up to, and so what is ∠ACB?", "title": "Find $\\angle ACB$",
+     "lines": [
+      {"text": "$B$, $C$ and $D$ lie on a straight line."},
+      {"tex": "\\angle ACB &= 180^\\circ - \\hl{1}{130}^\\circ"},
+      {"tex": "&= 50^\\circ"}
+     ]},
+    {"ask": "Which two sides are equal in this triangle, and which angles does that make equal?", "title": "Find $\\angle ABC$",
+     "lines": [
+      {"text": "$|AB| = |AC|$, so the base angles are equal."},
+      {"tex": "\\hl{3}{\\angle ABC} &= \\hl{3}{50}^\\circ"}
+     ]},
+    {"ask": "Which theorem links the exterior angle ∠ACD to the two opposite angles? What must ∠BAC be?", "title": "Use Theorem 6",
+     "lines": [
+      {"text": "The exterior angle $\\hl{1}{\\angle ACD}$ equals $\\hl{2}{\\angle BAC} + \\hl{3}{\\angle ABC}$."},
+      {"tex": "\\hl{1}{130} &= \\hl{2}{\\angle BAC} + \\hl{3}{50}"},
+      {"tex": "\\hl{2}{\\angle BAC} &= \\hl{1}{130} - \\hl{3}{50}"},
+      {"tex": "&= \\hl{2}{80}^\\circ"}
+     ]}
+   ],
+   "final": "\\hl{2}{\\angle BAC} = \\hl{2}{80}^\\circ",
+   "graph": null}
+ ]},
+ {"skill": "geo-thm7", "problems": [
+  {"part": "practice-geo-thm7-1", "note": null,
+   "legend": {"1": "the angle asked for, ∠ABC", "2": "the side opposite it, |AC|"},
+   "steps": [
+    {"ask": "Which angle sits opposite the side AC, at the vertex the side does not touch?", "title": "Match each side to its opposite angle",
+     "lines": [
+      {"text": "$|AB|$ is opposite $\\angle ACB$, $|BC|$ is opposite $\\angle BAC$ and $\\hl{2}{|AC|}$ is opposite $\\hl{1}{\\angle ABC}$."}
+     ]},
+    {"ask": "Which side is the shortest, and which is the longest?", "title": "Order the sides",
+     "lines": [
+      {"tex": "\\hl{2}{5} &< 7 < 9"},
+      {"text": "$\\hl{2}{|AC|}$ is the shortest side."}
+     ]},
+    {"ask": "Theorem 7 links the shortest side to which angle? Which of 33°, 52° and 95° is it?", "title": "Use Theorem 7",
+     "lines": [
+      {"text": "The smaller side is opposite the smaller angle, so $\\hl{2}{|AC|}$ is opposite the smallest angle."},
+      {"tex": "\\hl{1}{\\angle ABC} &= \\hl{1}{33}^\\circ"}
+     ]}
+   ],
+   "final": "\\hl{1}{\\angle ABC} = \\hl{1}{33}^\\circ",
+   "graph": null},
+  {"part": "practice-geo-thm7-2", "note": "Changed: the sides are given only as an order, so the answer comes from the middle side and the angle is found by subtraction from 180°. Matching sides to angles with Theorem 7 is the same.",
+   "legend": {"1": "the angle asked for, ∠DEF", "2": "the side opposite it, |DF|"},
+   "steps": [
+    {"ask": "Which angle sits opposite the side DF, at the vertex the side does not touch?", "title": "Match each side to its opposite angle",
+     "lines": [
+      {"text": "$|DE|$ is opposite $\\angle DFE$, $\\hl{2}{|DF|}$ is opposite $\\hl{1}{\\angle DEF}$ and $|EF|$ is opposite $\\angle EDF$."}
+     ]},
+    {"ask": "Which side is greatest, which is least, and which is in the middle? What does that say about the angles?", "title": "Use Theorem 7",
+     "lines": [
+      {"text": "The greatest side is opposite the greatest angle, so $\\angle DFE = 84^\\circ$."},
+      {"text": "The least side $|EF|$ is opposite the least angle, so $\\angle EDF = 34^\\circ$."},
+      {"text": "$\\hl{2}{|DF|}$ is the middle side, so $\\hl{1}{\\angle DEF}$ is the middle angle."}
+     ]},
+    {"ask": "Once you know two angles of the triangle, what must the third one be?", "title": "Find $\\angle DEF$",
+     "lines": [
+      {"tex": "\\hl{1}{\\angle DEF} &= 180^\\circ - 84^\\circ - 34^\\circ"},
+      {"tex": "&= \\hl{1}{62}^\\circ"}
+     ]}
+   ],
+   "final": "\\hl{1}{\\angle DEF} = \\hl{1}{62}^\\circ",
+   "graph": null},
+  {"part": "practice-geo-thm7-3", "note": "Changed: the angles are given as expressions in x, so x must be found from the angle sum first, and the question asks for the angle opposite the longest side rather than naming the angle. The greatest-angle rule is the same.",
+   "legend": {"1": "the angle asked for, ∠B (opposite the longest side)"},
+   "steps": [
+    {"ask": "What do the three angles add up to? Use that to write an equation for x.", "title": "Find $x$",
+     "lines": [
+      {"text": "The angles in a triangle add up to $180^\\circ$."},
+      {"tex": "40 + 2x + (x + 20) &= 180"},
+      {"tex": "3x + 60 &= 180"},
+      {"tex": "x &= 40"}
+     ]},
+    {"ask": "Substitute x into the expressions for ∠B and ∠C. What do you get for each?", "title": "Find the angles",
+     "lines": [
+      {"tex": "\\hl{1}{\\angle B} &= 2(40) = \\hl{1}{80}^\\circ"},
+      {"tex": "\\angle C &= 40 + 20 = 60^\\circ"}
+     ]},
+    {"ask": "Which of the three angles is greatest, and which side does Theorem 7 place opposite it?", "title": "Use Theorem 7",
+     "lines": [
+      {"tex": "\\hl{1}{80} &> 60 > 40"},
+      {"text": "The greatest side is opposite the greatest angle, so the angle opposite the longest side is $\\hl{1}{\\angle B}$."}
+     ]}
+   ],
+   "final": "\\hl{1}{80}^\\circ",
+   "graph": null}
+ ]}
+]

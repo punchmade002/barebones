@@ -1,0 +1,101 @@
+[
+ {"skill": "line-point-on", "problems": [
+  {"part": "maths-pp-2021-ordinary-p2-q10#(c)(i)", "note": null,
+   "legend": {"1": "x-value of T, −2", "2": "y-value of T, −5", "3": "the line k, x − y − 3", "4": "0, the test result"},
+   "steps": [
+    {"ask": "To test whether T is on k, what do you put in for x and y in the equation of k?",
+     "title": "Substitute x = -2 and y = -5 into x - y - 3",
+     "lines": [
+      {"tex": "\\hl{3}{x - y - 3} &= \\hl{1}{(-2)} - \\hl{2}{(-5)} - 3"},
+      {"tex": "&= \\hl{1}{-2} + 5 - 3"},
+      {"tex": "&= \\hl{4}{0}"},
+      {"text": "The left side equals $\\hl{4}{0}$, so $T$ is on $k$."}
+     ]}
+   ],
+   "final": "T \\in k",
+   "graph": null},
+  {"part": "maths-pp-2021-ordinary-p2-q10#(c)(ii)", "note": "The line is the same, but the point is missing its y-value. You choose x and solve for y instead of testing a point that is given.",
+   "legend": {"1": "x-value you choose, 1", "2": "y-value, to solve for", "3": "the line k, x − y − 3", "4": "0, the value the line gives"},
+   "steps": [
+    {"ask": "The y-value is missing. What can you choose for x, and what do you then solve for?",
+     "title": "Pick a value for x and find y",
+     "lines": [
+      {"text": "Choose $x = \\hl{1}{1}$ and put it into $\\hl{3}{x - y - 3} = \\hl{4}{0}$."},
+      {"tex": "\\hl{1}{1} - \\hl{2}{y} - 3 &= \\hl{4}{0}"},
+      {"tex": "-\\hl{2}{y} - 2 &= \\hl{4}{0}"},
+      {"tex": "\\hl{2}{y} &= \\hl{2}{-2}"}
+     ]}
+   ],
+   "final": "(\\hl{1}{1}, \\hl{2}{-2}) \\in k",
+   "graph": null},
+  {"part": "maths-pp-2016-ordinary-p2-q9#(a)(i)", "note": "There is no equation to test this time. The point is read from the grid: x first, across, then y, up or down, the same (x, y) order as the other two problems.",
+   "legend": {"1": "x-value read across, 4", "2": "y-value read up, 1"},
+   "steps": [
+    {"ask": "The point is plotted, not written as an equation. How do you read its x-value, then its y-value, from the grid?",
+     "title": "Read the point from the graph",
+     "lines": [
+      {"text": "Read across to the $x$-value first, then up to the $y$-value. $F$ is 4 across and 1 up."},
+      {"tex": "F &= (\\hl{1}{4}, \\hl{2}{1})"}
+     ]}
+   ],
+   "final": "F = (\\hl{1}{4}, \\hl{2}{1})",
+   "graph": null}
+ ]},
+ {"skill": "line-slope", "problems": [
+  {"part": "maths-pp-2019-ordinary-p2-q2#(a)", "note": null,
+   "legend": {"1": "y-values of P and Q, the rise", "2": "x-values of P and Q, the run", "3": "the slope m"},
+   "steps": [
+    {"ask": "The formula needs (x₁, y₁) and (x₂, y₂). Which point do you call first, and does the order matter?",
+     "title": "Write the slope formula",
+     "lines": [
+      {"text": "Use $P(\\hl{2}{4}, \\hl{1}{2})$ as $(x_1, y_1)$ and $Q(\\hl{2}{8}, \\hl{1}{5})$ as $(x_2, y_2)$."},
+      {"tex": "\\hl{3}{m} &= \\frac{y_2 - y_1}{x_2 - x_1}"}
+     ]},
+    {"ask": "Put the y-values on top and the x-values underneath. Which numbers from P and Q go where?",
+     "title": "Substitute the co-ordinates",
+     "lines": [
+      {"tex": "\\hl{3}{m} &= \\frac{\\hl{1}{5} - \\hl{1}{2}}{\\hl{2}{8} - \\hl{2}{4}}"}
+     ]},
+    {"ask": "Work out the top and the bottom, then simplify the fraction. What do you get?",
+     "title": "Simplify",
+     "lines": [
+      {"tex": "&= \\hl{3}{\\frac{3}{4}}"}
+     ]}
+   ],
+   "final": "\\hl{3}{m} = \\hl{3}{\\frac{3}{4}}",
+   "graph": null},
+  {"part": "maths-pp-2023-ordinary-p2-q1#(a)(i)", "note": "The formula and the steps are the same. This time x falls from A to B while y rises, so the bottom is negative and the slope comes out negative.",
+   "legend": {"1": "y-values of A and B", "2": "x-values of A and B", "3": "the slope m"},
+   "steps": [
+    {"ask": "The formula needs (x₁, y₁) and (x₂, y₂). Which point do you use as (x₁, y₁), and which as (x₂, y₂)?",
+     "title": "Write the slope formula",
+     "lines": [
+      {"text": "Slope $\\hl{3}{m} = \\dfrac{y_2 - y_1}{x_2 - x_1}$ for points $(x_1, y_1)$ and $(x_2, y_2)$."}
+     ]},
+    {"ask": "Put A and B into the formula. Which numbers go on top, and which go underneath?",
+     "title": "Substitute A(4, 2) and B(1, 8)",
+     "lines": [
+      {"tex": "\\hl{3}{m} &= \\frac{y_2 - y_1}{x_2 - x_1}"},
+      {"tex": "&= \\frac{\\hl{1}{8} - \\hl{1}{2}}{\\hl{2}{1} - \\hl{2}{4}}"},
+      {"tex": "&= \\frac{6}{-3}"},
+      {"tex": "&= \\hl{3}{-2}"}
+     ]}
+   ],
+   "final": "\\hl{3}{m} = \\hl{3}{-2}",
+   "graph": null},
+  {"part": "maths-pp-2025-ordinary-p2-q4#(a)(i)", "note": "The formula is the same. The new feature is a negative x-value, so the bottom has a double minus, 2 − (−5), that turns into a plus.",
+   "legend": {"1": "y-values, 0 and 3", "2": "x-values, 2 and −5", "3": "the slope m"},
+   "steps": [
+    {"ask": "Put A and B into the formula. Which of the numbers is negative, and how do you handle its sign when you subtract it?",
+     "title": "Use the slope formula",
+     "lines": [
+      {"text": "$A(\\hl{2}{-5},\\hl{1}{3})$ and $B(\\hl{2}{2},\\hl{1}{0})$. Slope $= \\frac{y_2-y_1}{x_2-x_1}$, taking $B$ as the second point."},
+      {"tex": "\\hl{3}{m} &= \\frac{\\hl{1}{0}-\\hl{1}{3}}{\\hl{2}{2}-\\hl{2}{(-5)}}"},
+      {"tex": "&= \\frac{-3}{2+5}"},
+      {"tex": "&= \\hl{3}{-\\frac{3}{7}}"}
+     ]}
+   ],
+   "final": "\\hl{3}{m} = \\hl{3}{-\\frac{3}{7}}",
+   "graph": null}
+ ]}
+]

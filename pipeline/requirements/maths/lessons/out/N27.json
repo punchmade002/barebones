@@ -1,0 +1,451 @@
+[
+ {
+  "skill": "inf-confidence-width",
+  "problems": [
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(c)",
+    "note": null,
+    "legend": {"1": "the sample size, n", "2": "the margin of error"},
+    "steps": [
+     {"ask": "What is the distance from the centre of the interval to its upper limit?",
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {"text": "The interval is centred on $\\hat{p} = 0.35$ and its upper limit is $0.435$."},
+       {"tex": "\\hl{2}{\\text{margin}} &= 0.435 - 0.35"},
+       {"tex": "&= \\hl{2}{0.085}"}
+      ]},
+     {"ask": "Which expression do you need for the standard error, and what is it when $\\hat{p} = 0.35$?",
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {"tex": "\\hat{p}(1 - \\hat{p}) &= 0.35 \\times 0.65"},
+       {"tex": "&= 0.2275"}
+      ]},
+     {"ask": "How are the margin of error and the standard error linked by the z-value $1.96$?",
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {"tex": "1.96\\sqrt{\\frac{0.2275}{\\hl{1}{n}}} &= \\hl{2}{0.085}"}
+      ]},
+     {"ask": "How can you remove the square root from the left-hand side?",
+      "title": "Solve for n",
+      "lines": [
+       {"tex": "\\sqrt{\\frac{0.2275}{\\hl{1}{n}}} &= \\frac{\\hl{2}{0.085}}{1.96}"},
+       {"tex": "\\frac{0.2275}{\\hl{1}{n}} &= \\left(\\frac{\\hl{2}{0.085}}{1.96}\\right)^2"},
+       {"tex": "\\hl{1}{n} &= \\frac{0.2275}{\\left(\\frac{\\hl{2}{0.085}}{1.96}\\right)^2}"},
+       {"tex": "&= 120.96\\ldots"},
+       {"tex": "&\\approx \\hl{1}{121}"}
+      ]}
+    ],
+    "final": "\\hl{1}{n} = \\hl{1}{121}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-confidence-width-1",
+    "note": "Same goal as Problem 1, finding the sample size for a given margin. It changes from solving one equation with a known p-hat to comparing two margins with a ratio, and the margin is halved from 0.06 to 0.03.",
+    "legend": {"1": "the sample size, n", "2": "the margin of error"},
+    "steps": [
+     {"ask": "Which part of the margin of error formula changes when $n$ changes, and which part stays the same?",
+      "title": "Write the margin of error using n",
+      "lines": [
+       {"text": "Let $k = 1.96\\sqrt{\\hat{p}(1-\\hat{p})}$. It does not change, so the margin of error is $\\frac{k}{\\sqrt{n}}$."}
+      ]},
+     {"ask": "Write one equation for each margin. Which quantity is different between the two surveys?",
+      "title": "Write the two margins",
+      "lines": [
+       {"tex": "\\frac{k}{\\sqrt{\\hl{1}{200}}} &= \\hl{2}{0.06}"},
+       {"tex": "\\frac{k}{\\sqrt{\\hl{1}{n}}} &= \\hl{2}{0.03}"}
+      ]},
+     {"ask": "If you divide one margin equation by the other, what happens to $k$, and what is left?",
+      "title": "Divide the second by the first",
+      "lines": [
+       {"tex": "\\frac{\\sqrt{\\hl{1}{200}}}{\\sqrt{\\hl{1}{n}}} &= \\frac{1}{2}"},
+       {"tex": "\\frac{\\hl{1}{200}}{\\hl{1}{n}} &= \\frac{1}{4}"}
+      ]},
+     {"ask": "What must $n$ be to halve the margin, and how does that compare with the first sample size?",
+      "title": "Solve for n",
+      "lines": [
+       {"tex": "\\hl{1}{n} &= \\hl{1}{800}"},
+       {"text": "Halving the margin of error needs 4 times the sample size."}
+      ]}
+    ],
+    "final": "\\hl{1}{n} = \\hl{1}{800}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q8#(b)(i)",
+    "note": "Changes from calculating n to judging four statements about how the standard error responds to the sample size and p-hat. No numbers are calculated, so the method is different; it is the only other candidate for this skill.",
+    "legend": {"1": "the sample size, n"},
+    "steps": [
+     {"ask": "A higher confidence level changes which $z$-value is used. What does a bigger $z$-value do to the margin of error?",
+      "title": "Statement 1: Always true",
+      "lines": [
+       {"text": "A higher confidence level needs a larger $z$-value, so the margin of error, and the interval, gets wider."}
+      ]},
+     {"ask": "Does $\\hat{p}(1-\\hat{p})$ always go up or always go down as $\\hat{p}$ changes? Try $\\hat{p} = 0$, $0.5$ and $1$.",
+      "title": "Statement 2: Sometimes true",
+      "lines": [
+       {"tex": "\\text{SE} &= \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{\\hl{1}{n}}}"},
+       {"text": "$\\hat{p}(1-\\hat{p})$ increases as $\\hat{p}$ rises towards $0.5$ and then decreases, so the standard error does not always increase."}
+      ]},
+     {"ask": "With $n$ fixed, what happens to the standard error when $\\hat{p}(1-\\hat{p})$ rises?",
+      "title": "Statement 3: Always true",
+      "lines": [
+       {"text": "With $\\hl{1}{n}$ fixed, the standard error is the square root of $\\hat{p}(1-\\hat{p})$ divided by $\\hl{1}{n}$, so it rises whenever $\\hat{p}(1-\\hat{p})$ rises."}
+      ]},
+     {"ask": "What happens to a fraction when its denominator gets bigger?",
+      "title": "Statement 4: Never true",
+      "lines": [
+       {"text": "Increasing $\\hl{1}{n}$ makes $\\frac{\\hat{p}(1-\\hat{p})}{\\hl{1}{n}}$ smaller, so the standard error always decreases."}
+      ]}
+    ],
+    "final": "1\\text{ Always},\\ 2\\text{ Sometimes},\\ 3\\text{ Always},\\ 4\\text{ Never}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "inf-histogram",
+  "problems": [
+   {
+    "part": "practice-inf-histogram-1",
+    "note": null,
+    "legend": {"1": "the total number of students", "2": "the answer"},
+    "steps": [
+     {"ask": "What is the middle value of the first class, 0 to 20?",
+      "title": "Find the mid-interval values",
+      "lines": [
+       {"text": "The mid-interval values are $10, 30, 50, 70, 90$."}
+      ]},
+     {"ask": "How many students are there altogether, and how do you combine each mid-value with its bar height?",
+      "title": "Estimate the mean",
+      "lines": [
+       {"tex": "\\text{mean} &= \\frac{10(2) + 30(6) + 50(20) + 70(9) + 90(3)}{\\hl{1}{40}}"},
+       {"tex": "&= \\frac{2100}{\\hl{1}{40}}"},
+       {"tex": "&= \\hl{2}{52.5}"}
+      ]},
+     {"ask": "Look at where the tallest bar is and how the bars fall away on each side. What shape does that suggest?",
+      "title": "Describe the distribution",
+      "lines": [
+       {"text": "The tallest bar is $40$–$60$ and the bars fall away evenly on each side, so the distribution is roughly symmetric. The centre is about $50$, which agrees with the mean of $\\hl{2}{52.5}$."}
+      ]}
+    ],
+    "final": "\\hl{2}{52.5}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-histogram-2",
+    "note": "Changes from estimating a mean to finding a percentage of the total from the two tallest bars. The total check and describing the shape stay the same, but the bars are now bimodal.",
+    "legend": {"1": "the total number of customers", "2": "the answer"},
+    "steps": [
+     {"ask": "Do the bar heights add up to the number of customers? What does that total tell you?",
+      "title": "Check the total",
+      "lines": [
+       {"tex": "3 + 12 + 4 + 5 + 14 + 2 &= \\hl{1}{40}"},
+       {"tex": "&= \\hl{1}{40}"}
+      ]},
+     {"ask": "Which two bars are tallest, and what fraction of the 40 customers do they contain?",
+      "title": "Add the two tallest bars",
+      "lines": [
+       {"text": "The tallest bars are $10$–$20$ and $40$–$50$."},
+       {"tex": "12 + 14 &= 26"},
+       {"tex": "\\frac{26}{\\hl{1}{40}} &= 0.65"},
+       {"tex": "&= \\hl{2}{65\\%}"}
+      ]},
+     {"ask": "How many peaks can you see, and what might that say about the customers?",
+      "title": "Describe the distribution",
+      "lines": [
+       {"text": "There are two separate peaks, so the distribution is bimodal. This suggests two groups of customers: quick visits of about 15 minutes and longer visits of about 45 minutes."}
+      ]}
+    ],
+    "final": "\\hl{2}{65\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-histogram-3",
+    "note": "Changes from two tallest bars to counting the bars below a value, which gives a fraction. The shape is skewed to the right instead of symmetric, and the total check stays the same.",
+    "legend": {"1": "the total number of employees", "2": "the answer"},
+    "steps": [
+     {"ask": "Do the frequencies add up to the number of employees?",
+      "title": "Check the total",
+      "lines": [
+       {"tex": "15 + 12 + 8 + 3 + 1 + 1 &= \\hl{1}{40}"},
+       {"tex": "&= \\hl{1}{40}"}
+      ]},
+     {"ask": "Which bars cover pay below €40 000, and how many employees are in them?",
+      "title": "Count those earning less than €40 000",
+      "lines": [
+       {"text": "These are the bars $20$–$30$ and $30$–$40$."},
+       {"tex": "15 + 12 &= 27"},
+       {"tex": "\\text{fraction} &= \\frac{27}{\\hl{1}{40}}"}
+      ]},
+     {"ask": "Are the bars balanced on both sides, or is there a long tail on one side? Where is the middle class?",
+      "title": "Describe the distribution",
+      "lines": [
+       {"text": "The bars are tall on the left and have a long tail to the right, so the distribution is skewed right. The median is in the $30$–$40$ class, because $15 < 20 < 27$. A few high earners pull the mean above the median."}
+      ]}
+    ],
+    "final": "\\hl{2}{\\dfrac{27}{40}}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "inf-hypothesis-concept",
+  "problems": [
+   {
+    "part": "practice-inf-hypothesis-concept-1",
+    "note": null,
+    "legend": {"1": "the claimed value in H₀"},
+    "steps": [
+     {"ask": "What does the letter $p$ stand for in this question? Say it in words.",
+      "title": "Define $p$",
+      "lines": [
+       {"text": "$p$ is the proportion of all the café's customers who order a vegan meal."}
+      ]},
+     {"ask": "What does the null hypothesis say about $p$, and how do you write 30% as a decimal?",
+      "title": "Write the hypotheses",
+      "lines": [
+       {"text": "$H_0$ says the claim is true."},
+       {"tex": "p &= \\hl{1}{\\frac{30}{100}}"},
+       {"tex": "&= \\hl{1}{0.3}"},
+       {"text": "$H_1$ says the claim is false: $p \\ne \\hl{1}{0.3}$."}
+      ]},
+     {"ask": "Where does the claimed value sit relative to the confidence interval, and what does that mean for $H_0$?",
+      "title": "Possible conclusions",
+      "lines": [
+       {"text": "If $\\hl{1}{0.3}$ is inside the confidence interval, do not reject $H_0$: the sample supports the claim. If it is outside, reject $H_0$: there is evidence that the claim is wrong."}
+      ]}
+    ],
+    "final": "H_0: p = \\hl{1}{0.3}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-hypothesis-concept-3",
+    "note": "Changes from writing the hypotheses to also building a confidence interval from a sample and deciding. The parameter is still a proportion, and the claimed value is now 20%.",
+    "legend": {"1": "the claimed value in H₀", "2": "the answer"},
+    "steps": [
+     {"ask": "What value does the claim give for $p$? Write $H_0$ with that value, then $H_1$.",
+      "title": "State the hypotheses",
+      "lines": [
+       {"text": "$H_0$: $p = \\hl{1}{20\\%}$ (the claim is true)."},
+       {"text": "$H_1$: $p \\ne \\hl{1}{20\\%}$ (the claim is false)."}
+      ]},
+     {"ask": "The margin of error is $\\frac{1}{\\sqrt{n}}$ with $n = 100$. How do you find the two ends of the interval around 33%?",
+      "title": "Find the interval",
+      "lines": [
+       {"tex": "\\frac{1}{\\sqrt{100}} &= \\frac{1}{10}"},
+       {"tex": "&= 10\\%"},
+       {"tex": "33 - 10 &= \\hl{2}{23}"},
+       {"tex": "33 + 10 &= 43"}
+      ]},
+     {"ask": "Is the claimed value inside the interval, and what does that mean for $H_0$?",
+      "title": "Conclude",
+      "lines": [
+       {"tex": "\\hl{1}{20} &\\notin [23,\\ 43]"},
+       {"text": "$\\hl{1}{20\\%}$ is outside the interval, so reject $H_0$. There is evidence that more than $\\hl{1}{20\\%}$ of students cycle."}
+      ]}
+    ],
+    "final": "\\hl{2}{23\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-hypothesis-concept-2",
+    "note": "Changes from a proportion to a population mean, and the interval is given rather than built from a sample. The decision steps stay the same.",
+    "legend": {"1": "the claimed value in H₀", "2": "the answer"},
+    "steps": [
+     {"ask": "What does the claim say about $\\mu$? Write $H_0$ with that value, then $H_1$.",
+      "title": "State the hypotheses",
+      "lines": [
+       {"text": "$H_0$: $\\mu = \\hl{1}{12}$ (the claim is true)."},
+       {"text": "$H_1$: $\\mu \\ne \\hl{1}{12}$ (the claim is false)."}
+      ]},
+     {"ask": "Is the claimed value inside the 95% interval, and what does that tell you about $H_0$?",
+      "title": "Test the claim",
+      "lines": [
+       {"tex": "\\hl{1}{12} &\\notin [13.1,\\ 14.9]"},
+       {"text": "$\\hl{1}{12}$ is outside the interval, so reject $H_0$. The waiting time is probably longer than the clinic claims."}
+      ]},
+     {"ask": "How do you find the middle point of 13.1 and 14.9?",
+      "title": "Find the sample mean",
+      "lines": [
+       {"tex": "\\frac{13.1 + 14.9}{2} &= \\frac{28}{2}"},
+       {"tex": "&= \\hl{2}{14}"}
+      ]}
+    ],
+    "final": "\\hl{2}{14} \\text{ minutes}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "inf-interpret",
+  "problems": [
+   {
+    "part": "practice-inf-interpret-1",
+    "note": null,
+    "legend": {"1": "the answer", "2": "the 50% threshold for most"},
+    "steps": [
+     {"ask": "The margin of error is $\\frac{1}{\\sqrt{n}}$. What is $n$ here, and what is the margin as a percentage?",
+      "title": "Find the margin of error",
+      "lines": [
+       {"tex": "\\frac{1}{\\sqrt{400}} &= \\frac{1}{20}"},
+       {"tex": "&= 0.05"},
+       {"tex": "&= 5\\%"}
+      ]},
+     {"ask": "The survey gives 56% and the margin is 5%. How do you find the two ends of the interval?",
+      "title": "Find the interval",
+      "lines": [
+       {"tex": "56 - 5 &= \\hl{1}{51}"},
+       {"tex": "56 + 5 &= 61"},
+       {"text": "The true percentage is likely to be between $\\hl{1}{51\\%}$ and $61\\%$."}
+      ]},
+     {"ask": "Where does the whole interval sit compared with $50\\%$?",
+      "title": "Answer the survey question",
+      "lines": [
+       {"text": "The whole interval is above $\\hl{2}{50\\%}$, so the survey suggests that most people prefer brand A."}
+      ]}
+    ],
+    "final": "\\hl{1}{51\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-interpret-2",
+    "note": "Changes from finding the lower end of an interval to finding its centre and checking a claim. The interval is given, so no margin of error is calculated.",
+    "legend": {"1": "the answer", "2": "the claimed value"},
+    "steps": [
+     {"ask": "The centre of an interval is the midpoint of its two ends. What is the midpoint of 43.1 and 52.9?",
+      "title": "Find the sample percentage",
+      "lines": [
+       {"tex": "\\frac{43.1 + 52.9}{2} &= \\frac{96}{2}"},
+       {"tex": "&= \\hl{1}{48}"}
+      ]},
+     {"ask": "What value does the company claim for $p$, and is that value inside the interval?",
+      "title": "Compare the claim with the interval",
+      "lines": [
+       {"text": "$H_0$: $p = \\hl{2}{40\\%}$. $H_1$: $p \\ne \\hl{2}{40\\%}$."},
+       {"tex": "\\hl{2}{40} &\\notin [43.1,\\ 52.9]"},
+       {"text": "The claimed $\\hl{2}{40\\%}$ is outside the interval, so reject $H_0$."}
+      ]},
+     {"ask": "Does the interval support the claim, and is the true percentage likely to be higher or lower than 40%?",
+      "title": "Conclude in context",
+      "lines": [
+       {"text": "The sample does not support the claim. The percentage of players who buy an upgrade is probably higher than $\\hl{2}{40\\%}$."}
+      ]}
+    ],
+    "final": "\\hl{1}{48\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-interpret-3",
+    "note": "Changes to a z-test on a mean with a standard deviation, so the method is different. The final step still states what the result means in context.",
+    "legend": {"1": "the answer, z", "2": "the claimed mean, 50 minutes"},
+    "steps": [
+     {"ask": "Which numbers go into $\\bar{x}$, $\\mu$, $s$ and $n$ in this formula?",
+      "title": "Find the test statistic",
+      "lines": [
+       {"text": "Use $z = \\dfrac{\\bar{x} - \\mu}{s / \\sqrt{n}}$."},
+       {"tex": "z &= \\frac{52 - \\hl{2}{50}}{10/\\sqrt{100}}"},
+       {"tex": "&= \\frac{2}{10/10}"},
+       {"tex": "&= \\hl{1}{2}"}
+      ]},
+     {"ask": "What are the two-tailed critical values at the 5% level, and how does $z$ compare with them?",
+      "title": "Compare with the critical values",
+      "lines": [
+       {"text": "At the 5% level, two-tailed, the critical values are $\\pm 1.96$."},
+       {"tex": "\\hl{1}{2} &> 1.96"}
+      ]},
+     {"ask": "Is $z$ inside or outside $[-1.96,\\ 1.96]$, and what does that say about the 50-minute claim?",
+      "title": "Conclude in context",
+      "lines": [
+       {"text": "$\\hl{1}{z}$ is outside $[-1.96,\\ 1.96]$, so reject $H_0$. There is evidence that the mean homework time is not $\\hl{2}{50}$ minutes. It is probably longer."}
+      ]}
+    ],
+    "final": "\\hl{1}{z = 2} > 1.96\\text{, so reject } H_0",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "inf-sampling-variability",
+  "problems": [
+   {
+    "part": "practice-inf-sampling-variability-2",
+    "note": null,
+    "legend": {"1": "the answer", "2": "each poll's result"},
+    "steps": [
+     {"ask": "What percentage does each poll give, and why might two polls of the same area disagree?",
+      "title": "Compare the polls",
+      "lines": [
+       {"tex": "\\frac{108}{200} &= \\hl{2}{54\\%}"},
+       {"tex": "\\frac{96}{200} &= \\hl{2}{48\\%}"},
+       {"text": "The two polls differ because each is a different random sample."}
+      ]},
+     {"ask": "How many voters are there altogether, and how many would vote for X across both polls?",
+      "title": "Combine the polls",
+      "lines": [
+       {"text": "Together there are $200 + 200 = 400$ voters, and $108 + 96$ of them would vote for X."},
+       {"tex": "\\frac{108 + 96}{200 + 200} &= \\frac{204}{400}"},
+       {"tex": "&= 0.51"},
+       {"tex": "&= \\hl{1}{51\\%}"}
+      ]}
+    ],
+    "final": "\\hl{1}{51\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-sampling-variability-1",
+    "note": "Changes from proportions of voters to means of travel times, with samples of 50 students instead of 200 voters. The averaging and caution steps stay the same.",
+    "legend": {"1": "the answer", "2": "each sample's mean"},
+    "steps": [
+     {"ask": "What is the difference between the two sample means, and why could it happen?",
+      "title": "Compare the two samples",
+      "lines": [
+       {"tex": "\\hl{2}{26} - \\hl{2}{22} &= 4"},
+       {"text": "The samples give different means because different students were chosen. This is sampling variability."}
+      ]},
+     {"ask": "Is either sample mean exactly the mean for the whole school, and what does that mean for trusting one sample?",
+      "title": "Be cautious",
+      "lines": [
+       {"text": "Neither sample mean is exactly the school mean, so we should not rely on one sample alone."}
+      ]},
+     {"ask": "The two samples are the same size. How should the two means be combined?",
+      "title": "Combine the samples",
+      "lines": [
+       {"text": "The samples are the same size, so average the two means."},
+       {"tex": "\\frac{\\hl{2}{22} + \\hl{2}{26}}{2} &= \\frac{48}{2}"},
+       {"tex": "&= \\hl{1}{24}"}
+      ]}
+    ],
+    "final": "\\hl{1}{24} \\text{ minutes}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-sampling-variability-3",
+    "note": "Changes from combining two samples to finding the upper end of one sample's margin interval, so the method is different. It is the only remaining candidate, and the caution about sampling variability still applies.",
+    "legend": {"1": "the answer", "2": "the sample result"},
+    "steps": [
+     {"ask": "The margin of error is $\\frac{1}{\\sqrt{n}}$. What is $n$ here, and what does the margin come to as a percentage?",
+      "title": "Find the margin of error",
+      "lines": [
+       {"tex": "\\frac{1}{\\sqrt{400}} &= \\frac{1}{20}"},
+       {"tex": "&= 0.05"},
+       {"tex": "&= 5\\%"}
+      ]},
+     {"ask": "The sample gives 52%. How far below and above that does the margin reach?",
+      "title": "Find the interval",
+      "lines": [
+       {"tex": "\\hl{2}{52} - 5 &= 47"},
+       {"tex": "\\hl{2}{52} + 5 &= \\hl{1}{57}"},
+       {"text": "The true percentage is likely to be between $47\\%$ and $\\hl{1}{57\\%}$."}
+      ]},
+     {"ask": "Does the interval include 50%? What can you conclude about the whole population from it?",
+      "title": "Be cautious",
+      "lines": [
+       {"text": "The interval contains $50\\%$, so the sample does not prove that most people support the route."}
+      ]}
+    ],
+    "final": "\\hl{1}{57\\%}",
+    "graph": null
+   }
+  ]
+ }
+]

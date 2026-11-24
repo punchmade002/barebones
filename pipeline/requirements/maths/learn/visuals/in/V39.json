@@ -1,0 +1,173 @@
+[
+ {
+  "skill": "con-8",
+  "title": "Construction 8: Line segment of given length on a given ray",
+  "show": "compass-and-straight-edge construction: ray from A with arc cutting off B at 5 cm, with arcs left visible",
+  "example": {
+   "question": "Draw a ray starting at $A$. Construct the point $B$ on the ray so that $|AB| = 5$ cm.",
+   "final": "|AB| = 5 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Place the compass point on $0$ on the ruler. Open the pencil to $5$ cm.",
+     "rows": [
+      {
+       "aside": "Do not change this setting until you have drawn the arc."
+      }
+     ]
+    },
+    {
+     "say": "Move the compass point to $A$. Swing the pencil so the arc crosses the ray.",
+     "rows": [
+      {
+       "aside": "Leave the arc on the page. It is the construction line."
+      }
+     ]
+    },
+    {
+     "say": "Label the crossing $B$.",
+     "rows": [
+      {
+       "aside": "$|AB| = 5$ cm."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Label B sits above the ray at about x=690, but the arc crosses the ray further right at about x=730, so B is not at the crossing.",
+   "No dot or mark at the crossing point B.",
+   "The lower 5 cm ruler line ends at x=690, not at the arc, so the 5 cm span does not agree with the arc crossing."
+  ]
+ },
+ {
+  "skill": "con-2",
+  "title": "Construction 2: Perpendicular bisector of a segment (compass and straight edge only)",
+  "show": "compass-and-straight-edge construction: segment AB 8 cm with the arcs and the perpendicular bisector, with arcs left visible",
+  "example": {
+   "question": "Draw a segment $[AB]$ with $|AB| = 8$ cm. Using only a compass and straight edge, construct the perpendicular bisector of $[AB]$.",
+   "final": "|AM| = |MB| = 4 \\text{ cm},\\ \\text{line} \\perp [AB]",
+   "steps": [
+    {
+     "say": "Open the compass to more than half of $|AB|$, about $5$ cm. Put the point on $A$ and draw an arc above and below the segment.",
+     "rows": [
+      {
+       "aside": "Do not change the setting until both arcs are drawn."
+      }
+     ]
+    },
+    {
+     "say": "Keep the same setting. Put the point on $B$ and draw an arc above and below the segment, crossing the first two arcs.",
+     "rows": [
+      {
+       "aside": "The arcs cross at two points, one above $[AB]$ and one below."
+      }
+     ]
+    },
+    {
+     "say": "With the ruler, draw a straight line through the two crossing points. Mark where it cuts $[AB]$ and call that point $M$.",
+     "rows": [
+      {
+       "aside": "Leave every arc on the page. They are your construction lines and the marks are tied to them."
+      },
+      {
+       "aside": "$|AM| = |MB| = 4$ cm and the line meets $[AB]$ at $90^\\circ$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The arcs are drawn as a narrow dashed lens only about 10px wide, far smaller than arcs of radius about 5 cm on an 8 cm segment, so the arcs do not look like they come from A and B.",
+   "The label M sits on top of the perpendicular line and the segment, overlapping both.",
+   "The segment ends are not marked as points and there is no right-angle mark, so the figure shows little of what the steps describe."
+  ]
+ },
+ {
+  "skill": "con-3",
+  "title": "Construction 3: Line perpendicular to a line l through a point not on l",
+  "show": "compass-and-straight-edge construction: line l, external point P, arcs and the perpendicular through P, with arcs left visible",
+  "example": {
+   "question": "Draw a line $l$ and mark a point $P$ above it. Construct the line through $P$ perpendicular to $l$.",
+   "final": "PQ \\perp l",
+   "steps": [
+    {
+     "say": "Put the compass point on $P$. Open it wider than the distance from $P$ to $l$. Draw an arc that cuts $l$ in two places. Call them $A$ and $B$.",
+     "rows": [
+      {
+       "aside": "Now $|PA| = |PB|$, because both are the radius of the same arc."
+      }
+     ]
+    },
+    {
+     "say": "Put the compass point on $A$ and draw an arc below $l$. Keep the same setting. Put the point on $B$ and draw a second arc that crosses the first. Call the crossing $Q$.",
+     "rows": [
+      {
+       "aside": "Any setting works, as long as the two arcs cross."
+      }
+     ]
+    },
+    {
+     "say": "With the ruler, draw a straight line from $P$ to $Q$.",
+     "rows": [
+      {
+       "aside": "This line meets $l$ at $90^\\circ$."
+      },
+      {
+       "aside": "Leave every arc on the page. They are the construction lines."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The label Q sits directly on the dashed arcs and the vertical line, so it is hard to read.",
+   "The arcs are mostly short stubs, so the arc crossing at Q is faint."
+  ]
+ },
+ {
+  "skill": "con-14",
+  "title": "Construction 14: Right-angled triangle given one side and an acute angle",
+  "show": "compass-and-straight-edge construction: right triangle with AB 5 cm and angle A 50°, with arcs left visible",
+  "example": {
+   "question": "Construct a right-angled triangle $ABC$ with $|AB| = 5$ cm, a right angle at $B$, and $\\angle A = 50^\\circ$.",
+   "final": "\\text{Triangle } ABC \\text{ with } |AB| = 5 \\text{ cm},\\ \\angle B = 90^\\circ,\\ \\angle A = 50^\\circ",
+   "steps": [
+    {
+     "say": "With the ruler, draw a line segment $AB$ that is $5$ cm long.",
+     "rows": [
+      {
+       "aside": "Mark $A$ and $B$ clearly."
+      }
+     ]
+    },
+    {
+     "say": "Put the centre of the protractor on $A$ with its base along $AB$. Mark $50^\\circ$, then draw a long line from $A$ through the mark.",
+     "rows": [
+      {
+       "aside": "Read from the zero that lies on $AB$."
+      }
+     ]
+    },
+    {
+     "say": "At $B$, construct the perpendicular to $AB$ with compass arcs. Draw a long line upward from $B$.",
+     "rows": [
+      {
+       "aside": "You can use a set square here instead, but arcs show the method."
+      }
+     ]
+    },
+    {
+     "say": "The two long lines cross. Call the crossing $C$.",
+     "rows": [
+      {
+       "aside": "The triangle $ABC$ has angles $50^\\circ$, $90^\\circ$ and $40^\\circ$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The label C is struck through by the vertical line and the long line from A at the top, so it is hard to read."
+  ]
+ }
+]

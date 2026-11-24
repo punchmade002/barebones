@@ -1,0 +1,50 @@
+{
+ "alg-factor-quadratic": {
+  "ok": true,
+  "fixes": []
+ },
+ "induction-sum": {
+  "ok": true,
+  "fixes": []
+ },
+ "stat-sd": {
+  "ok": true,
+  "fixes": []
+ },
+ "cubic-factor-theorem": {
+  "ok": true,
+  "fixes": []
+ },
+ "cubic-find-root": {
+  "ok": true,
+  "fixes": []
+ },
+ "cubic-form-from-roots": {
+  "ok": true,
+  "fixes": []
+ },
+ "cubic-unknown-coefficient": {
+  "ok": true,
+  "fixes": []
+ },
+ "cubic-solve": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-collect-like": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-evaluate": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-expand-single": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-factor-hcf": {
+  "ok": true,
+  "fixes": []
+ }
+}

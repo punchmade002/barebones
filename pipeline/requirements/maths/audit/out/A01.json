@@ -1,0 +1,79 @@
+[
+ {
+  "skill": "cubic-solve",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Divides by (x + 1) with long division instead of splitting terms to factor out the root.",
+  "method": "Substitute the root, split the cubic's terms by grouping so (x - root) factors out, then solve the quadratic factor."
+ },
+ {
+  "skill": "num-sci-notation",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Multiplies a quantity by a number of grams in scientific notation instead of converting numbers to a x 10^n form.",
+  "method": "Rewrite ordinary numbers in the form a x 10^n with 1 <= a < 10."
+ },
+ {
+  "skill": "diff-slope-tangent",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Only writes a line through a point with a given slope; no differentiation to find the slope.",
+  "method": "Differentiate to find the slope at the given x, then use the point-slope formula to get the tangent equation."
+ },
+ {
+  "skill": "diff-slope-tangent",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Only substitutes a given point and slope into the line formula; no differentiation to find the slope.",
+  "method": "Differentiate to find the slope at the given x, then use the point-slope formula to get the tangent equation."
+ },
+ {
+  "skill": "fn-compare-graphs",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Substitutes a value into two formulas and compares the outputs instead of reading where graphs cross or lie above each other.",
+  "method": "Read a graph to find where two functions are equal or one is below the other."
+ },
+ {
+  "skill": "fn-compare-graphs",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Calculates two charges from formulas and compares them rather than reading a graph.",
+  "method": "Read a graph to find where two functions are equal or one is below the other."
+ },
+ {
+  "skill": "fn-transformations",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Finds a translation vector between points and applies it to a point rather than shifting a graph by g(x) + c or g(x + c).",
+  "method": "Apply vertical and horizontal shifts to a graph (g(x) - 2, g(x + 3)) and state the effect on the domain."
+ },
+ {
+  "skill": "geo-cor3",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Chains equal angles in a proof of similar triangles rather than applying the angle in a semicircle to find an angle.",
+  "method": "Use the angle in a semicircle is 90 degrees to find an unknown angle."
+ },
+ {
+  "skill": "geo-thm20",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Proves a triangle equilateral and angle-chases with parallel lines rather than using tangent perpendicular to radius with Pythagoras.",
+  "method": "Use the tangent perpendicular to the radius to form a right-angled triangle and apply Pythagoras."
+ },
+ {
+  "skill": "geo-transformations",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Uses axial symmetry to find a point then a length and line equation instead of finding and applying a translation.",
+  "method": "Find the translation that maps one point to another, then apply the same translation to a second point."
+ },
+ {
+  "skill": "seq-arith-find-ad",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Sets two common differences equal and solves for an unknown instead of finding T_n from a formula and subtracting.",
+  "method": "Substitute n to find the terms from the given expression, then subtract consecutive terms to find d."
+ }
+]

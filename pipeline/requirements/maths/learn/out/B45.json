@@ -1,0 +1,521 @@
+[
+ {
+  "skill": "fn-exp-model",
+  "what": {
+   "say": [
+    "You give it a growth or decay with two readings, like the amount at $t=0$ and the amount at a later time. It finds the constants in the model, $A$ and $k$ (or $a$ and $b$), so you can **predict** any other time.",
+    "The key idea: the starting reading gives $A$ straight away. The second reading leaves an exponential on its own, and taking logs brings the power down so you can solve for the constant."
+   ],
+   "in": "two readings",
+   "out": "$A$, $k$; a prediction"
+  },
+  "how": {
+   "ordinary": "On Ordinary Level it came up once, in Paper 1 in 2023, as a 5-mark part: put a known value into the model $y = a \\times b^x$ and solve for $a$."
+  },
+  "example": {
+   "question": "The number of bacteria in a dish is modelled by $P(t) = A e^{kt}$, where $t$ is the time in hours. At $t = 0$ there are $80$ bacteria. At $t = 4$ there are $500$. Find $A$ and $k$, and use the model to predict the number of bacteria at $t = 10$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find A from t = 0",
+      "say": "At $t = 0$ the power is $e^0 = 1$, so $\\hl{1}{A}$ is just the starting number.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{A} &= 80",
+        "sym": "Eq(A,80)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the second reading",
+      "say": "Put $t = 4$ and $P = 500$ into the model, then divide by $\\hl{1}{80}$ to leave the exponential on its own.",
+      "lines": [
+       {
+        "tex": "80\\,e^{4k} &= 500",
+        "sym": "Eq(80*exp(4*k),500)",
+        "new": true
+       },
+       {
+        "tex": "e^{4k} &= 6.25",
+        "sym": "Eq(exp(4*k),Rational(25,4))"
+       }
+      ]
+     },
+     {
+      "title": "Take logs to find k",
+      "say": "Take $\\ln$ of both sides. $\\ln$ undoes $e$, so the $4k$ comes down. Then divide by $4$ to get $\\hl{2}{k}$.",
+      "lines": [
+       {
+        "tex": "4k &= \\ln 6.25",
+        "sym": "Eq(4*k,log(Rational(25,4)))",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{k} &= \\frac{\\ln 6.25}{4}",
+        "sym": "Eq(k,log(Rational(25,4))/4)"
+       },
+       {
+        "tex": "\\hl{2}{k} &\\approx 0.458",
+        "sym": "Eq(k,0.458145)",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Predict at t = 10",
+      "say": "Keep $\\hl{2}{k}$ exact so no rounding error creeps in. Put $t = 10$ into $P(t) = \\hl{1}{80}\\,e^{\\hl{2}{k}t}$.",
+      "lines": [
+       {
+        "tex": "P(10) &= 80\\,e^{10k}",
+        "sym": "Eq(P,80*exp(10*k))",
+        "new": true
+       },
+       {
+        "tex": "&= 80 \\times 6.25^{2.5}",
+        "sym": "Eq(P,80*Rational(25,4)**Rational(5,2))",
+        "new": true
+       },
+       {
+        "tex": "&= 7812.5",
+        "sym": "Eq(P,Rational(15625,2))"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "A = 80,\\ k \\approx 0.458,\\ P(10) = 7812.5"
+   },
+   "finalSym": "Rational(15625,2)",
+   "answerSym": "80*(Rational(500,80))**Rational(10,4)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Do not round a power like $0.83^{14}$ early. Keep the full calculator value until the last step.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q9#(b)(iii)",
+       "quote": "Early rounding of"
+      }
+     ]
+    },
+    {
+     "tip": "Substituting the known values into the model earns partial credit even if you stop there. Write the substitution out.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q9#(b)(iii)",
+       "quote": "Some correct substitution into"
+      }
+     ]
+    },
+    {
+     "tip": "Round the final answer. An answer that is not rounded, or is rounded wrongly, loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q9#(b)(iii)",
+       "quote": "Apply F* if incorrect or no"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm1",
+  "what": {
+   "say": [
+    "You give it a diagram with two straight lines crossing and an angle you do not know. It finds the unknown and gives the **reason** the marks are tied to.",
+    "The key idea: when two lines cross, the angles facing each other across the crossing point are **vertically opposite**, and they are always equal."
+   ],
+   "in": "crossing lines, one angle unknown",
+   "out": "the angle, with its reason"
+  },
+  "how": {
+   "higher": "Higher Level uses it on Paper 2 in five of the eleven years, always as a reason inside a longer proof, for example one of the angles that makes two triangles congruent.",
+   "ordinary": "Ordinary Level used it as a step in Paper 2 in 2020 and 2025, for finding unknown angles, never as the main skill."
+  },
+  "example": {
+   "question": "Two straight lines cross at a point. One angle is $(3x + 10)°$. The angle vertically opposite it is $(5x - 30)°$. Find $x$ and the size of the angle $(3x + 10)°$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Spot the equal pair",
+      "say": "These two angles face each other across the crossing point, so they are **vertically opposite**. Vertically opposite angles are equal.",
+      "lines": [
+       {
+        "text": "Reason: vertically opposite angles are equal."
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "say": "Set the two angles equal.",
+      "lines": [
+       {
+        "tex": "3\\hl{1}{x} + 10 &= 5\\hl{1}{x} - 30",
+        "sym": "Eq(3*x+10,5*x-30)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Collect the $\\hl{1}{x}$ terms on one side and the numbers on the other.",
+      "lines": [
+       {
+        "tex": "40 &= 2\\hl{1}{x}",
+        "sym": "Eq(40,2*x)"
+       },
+       {
+        "tex": "\\hl{1}{x} &= \\hl{2}{20}",
+        "sym": "Eq(x,20)"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle",
+      "say": "Put $x = 20$ back into $3x + 10$.",
+      "lines": [
+       {
+        "tex": "3(20) + 10 &= \\hl{3}{70}",
+        "sym": "Eq(3*20+10,70)",
+        "new": true
+       },
+       {
+        "text": "Check with the other angle: $5(20) - 30 = 70$. They match."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 20,\\ \\text{angle} = 70°"
+   },
+   "finalSym": "70",
+   "answerSym": "3*((-30-10)/(3-5))+10"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"2\"><line x1=\"40\" y1=\"40\" x2=\"260\" y2=\"180\"/><line x1=\"40\" y1=\"180\" x2=\"260\" y2=\"40\"/><g stroke=\"none\" fill=\"#1A1916\" font-family=\"Outfit\" font-size=\"15\" text-anchor=\"middle\"><text x=\"150\" y=\"82\">a</text><text x=\"150\" y=\"150\">c</text><text x=\"102\" y=\"115\">b</text><text x=\"198\" y=\"115\">d</text><text x=\"150\" y=\"124\" font-size=\"12\" opacity=\"0\">O</text></g></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the reason beside every statement. Work shown only on the diagram counts as a statement with no reason.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q5#(a)",
+       "quote": "Work indicated on the diagram is generally"
+      }
+     ]
+    },
+    {
+     "tip": "A proof with all its statements but no justifications stops short of full marks. Say \"vertically opposite\" in words.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(b)",
+       "quote": "Mentions the relevant justifications"
+      }
+     ]
+    },
+    {
+     "tip": "Full marks need every statement given with its reason.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q5#(a)",
+       "quote": "4 statements with reasons"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Showing that you know vertically opposite angles are equal earns partial credit by itself. Write it down.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q6#(a)",
+       "quote": "Knowledge of vertically opposite angles"
+      }
+     ]
+    },
+    {
+     "tip": "Showing the 180° angle sum for a triangle also earns credit, so state each fact you use.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q6#(a)",
+       "quote": "Knowledge of sum of angles in a"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm4",
+  "what": {
+   "say": [
+    "You give it a triangle with some angles known and one unknown. It finds the missing angle and names the **reason**.",
+    "The key idea: the three angles of any triangle add to $180°$, so the unknown is $180°$ minus the others."
+   ],
+   "in": "triangle, two angles known",
+   "out": "third angle, with its reason"
+  },
+  "how": {
+   "higher": "Higher Level uses it in seven Paper 2 parts, as a short step inside bigger questions: finding the angle you need before the sine rule, or inside a circle-geometry proof.",
+   "ordinary": "Ordinary Level uses it most: thirteen Paper 2 parts, four of them with it as the main skill, such as the 10-mark part finding three angles in 2025 or the 5-mark part finding an angle in 2025 Q2."
+  },
+  "example": {
+   "question": "The angles of a triangle are $(2x + 10)°$, $(3x - 20)°$ and $70°$. Find $x$ and the size of the other two angles.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "State the rule",
+      "say": "The three angles of a triangle add to $180°$. Write them all added together.",
+      "lines": [
+       {
+        "tex": "(2\\hl{1}{x} + 10) + (3\\hl{1}{x} - 20) + 70 &= 180",
+        "sym": "Eq((2*x+10)+(3*x-20)+70,180)",
+        "new": true
+       },
+       {
+        "text": "Reason: angles in a triangle add to $180°$."
+       }
+      ]
+     },
+     {
+      "title": "Simplify",
+      "say": "Add the $\\hl{1}{x}$ terms, then add the numbers.",
+      "lines": [
+       {
+        "tex": "5\\hl{1}{x} + 60 &= 180",
+        "sym": "Eq(5*x+60,180)"
+       },
+       {
+        "tex": "5\\hl{1}{x} &= 120",
+        "sym": "Eq(5*x,120)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Divide both sides by $5$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= \\hl{2}{24}",
+        "sym": "Eq(x,24)"
+       }
+      ]
+     },
+     {
+      "title": "Find the other angles",
+      "say": "Put $x = 24$ into each expression.",
+      "lines": [
+       {
+        "tex": "2(24) + 10 &= \\hl{3}{58}",
+        "sym": "Eq(2*24+10,58)",
+        "new": true
+       },
+       {
+        "tex": "3(24) - 20 &= \\hl{3}{52}",
+        "sym": "Eq(3*24-20,52)",
+        "new": true
+       },
+       {
+        "text": "Check: $58 + 52 + 70 = 180$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 24,\\ \\text{angles } 58°\\text{ and }52°"
+   },
+   "finalSym": "24",
+   "answerSym": "(180-10+20-70)/5"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"2\"><polygon points=\"40,185 260,185 180,35\"/><g stroke=\"none\" fill=\"#1A1916\" font-family=\"Outfit\" font-size=\"15\" text-anchor=\"middle\"><text x=\"75\" y=\"175\">(2x + 10)°</text><text x=\"228\" y=\"175\">70°</text><text x=\"180\" y=\"62\">(3x - 20)°</text></g></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Finding the angle opposite the known side is a marked step before the sine rule. Write it down on its own line.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q8#(c)(i)",
+       "quote": "Finds angle opposite 10 m"
+      }
+     ]
+    },
+    {
+     "tip": "Give the reason for the angle sum in words or short form, beside the line that uses it.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q6#(b)(i)",
+       "quote": "angles in tri. sum to 180"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Showing the angle sum of a triangle is $180°$ earns partial credit, even before you reach an answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q7#(a)(i)",
+       "quote": "Knowledge of sum of angles in a"
+      }
+     ]
+    },
+    {
+     "tip": "Writing 180 or marking it on the diagram is work of merit, so start there.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q5#(a)",
+       "quote": "180 written"
+      }
+     ]
+    },
+    {
+     "tip": "A correct angle with no work still earns the marks, but work protects you if your answer is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q5#(a)",
+       "quote": "Accept correct answers without work"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm3",
+  "what": {
+   "say": [
+    "You give it two parallel lines cut by a third line, and one angle you do not know. It finds the angle and gives the **reason**.",
+    "The key idea: **alternate angles** sit on opposite sides of the cutting line, between the parallels, and are equal. They form a Z shape. The reverse also works: equal alternate angles prove the lines parallel."
+   ],
+   "in": "parallel lines and a transversal",
+   "out": "the angle, with its reason"
+  },
+  "how": {
+   "higher": "Higher Level uses it in six Paper 2 parts, as one of the reasons in a congruent-triangle or similar-triangle proof.",
+   "ordinary": "Ordinary Level used it in Paper 2 in 2015 (Q4(a), finding $x$, $y$ and $z$ with a reason for each) and in 2020 Q5(c)."
+  },
+  "example": {
+   "question": "The lines $l$ and $m$ are parallel and are cut by a third line. The angle $(4x - 15)°$ on $l$ and the angle $(2x + 25)°$ on $m$ are alternate. Find $x$ and the size of the angle $(4x - 15)°$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Spot the equal pair",
+      "say": "The angles are on opposite sides of the cutting line and between the parallels, a Z shape. **Alternate angles** are equal.",
+      "lines": [
+       {
+        "text": "Reason: alternate angles are equal ($l \\parallel m$)."
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "say": "Set the two angles equal.",
+      "lines": [
+       {
+        "tex": "4\\hl{1}{x} - 15 &= 2\\hl{1}{x} + 25",
+        "sym": "Eq(4*x-15,2*x+25)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Collect the $\\hl{1}{x}$ terms on one side and the numbers on the other.",
+      "lines": [
+       {
+        "tex": "2\\hl{1}{x} &= 40",
+        "sym": "Eq(2*x,40)"
+       },
+       {
+        "tex": "\\hl{1}{x} &= \\hl{2}{20}",
+        "sym": "Eq(x,20)"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle",
+      "say": "Put $x = 20$ into $4x - 15$.",
+      "lines": [
+       {
+        "tex": "4(20) - 15 &= \\hl{3}{65}",
+        "sym": "Eq(4*20-15,65)",
+        "new": true
+       },
+       {
+        "text": "Check: $2(20) + 25 = 65$. They match."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 20,\\ \\text{angle} = 65°"
+   },
+   "finalSym": "65",
+   "answerSym": "4*((25+15)/(4-2))-15"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"2\"><line x1=\"30\" y1=\"70\" x2=\"270\" y2=\"70\"/><line x1=\"30\" y1=\"150\" x2=\"270\" y2=\"150\"/><line x1=\"100\" y1=\"195\" x2=\"200\" y2=\"25\"/><g stroke=\"none\" fill=\"#1A1916\" font-family=\"Outfit\" font-size=\"15\" text-anchor=\"middle\"><text x=\"150\" y=\"62\">(4x - 15)°</text><text x=\"150\" y=\"172\">(2x + 25)°</text><text x=\"30\" y=\"60\">l</text><text x=\"30\" y=\"140\">m</text></g></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write \"alternate angles\" as the reason next to the equal angles. Statements need their reasons for full marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q5#(a)",
+       "quote": "alternate angles"
+      }
+     ]
+    },
+    {
+     "tip": "You only need two correct reasons out of the steps S1 to S3, so a clear reason on each angle you use is enough.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q5#(a)",
+       "quote": "accept 2 correct reasons"
+      }
+     ]
+    },
+    {
+     "tip": "Listing the steps without any justification stops you short of full marks. Name the justification for each.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(b)",
+       "quote": "Mentions the relevant justifications"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "A value with its reason earns more than a value on its own. Write the reason beside each answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(a)",
+       "quote": "One correct value and reason"
+      }
+     ]
+    },
+    {
+     "tip": "Full marks need correct values and a reason for each.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(a)",
+       "quote": "Two correct values, both with reasons"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,187 @@
+[
+{"skill": "induction-geo-sum", "problems": [
+ {"part": "practice-induction-geo-sum-1", "note": null,
+  "legend": {"1": "the assumed right side, P(k)", "2": "the new term added at n = k + 1", "3": "the right side needed at n = k + 1"},
+  "steps": [
+   {"ask": "What do the left and right sides equal when n = 1?", "title": "Step P(1): test n = 1", "lines": [{"tex": "\\text{LHS} &= a"}, {"tex": "\\text{RHS} &= \\frac{a(1 - r)}{1 - r} = a"}, {"text": "LHS = RHS, so $P(1)$ is true."}]},
+   {"ask": "What must you assume for n = k before you start the step?", "title": "Step P(k): assume true for n = k", "lines": [{"text": "Assume $a + ar + \\cdots + ar^{k-1} = \\hl{1}{\\dfrac{a(1 - r^k)}{1 - r}}$."}]},
+   {"ask": "How does the left side change when n goes from k to k + 1, and what must the right side become?", "title": "Step P(k+1): state what must be proved", "lines": [{"text": "Show $a + ar + \\cdots + ar^{k-1} + \\hl{2}{ar^k} = \\hl{3}{\\dfrac{a(1 - r^{k+1})}{1 - r}}$."}]},
+   {"ask": "Which part of the left side can you replace using the assumption?", "title": "Use P(k) on the left-hand side", "lines": [{"text": "Replace $a + \\cdots + ar^{k-1}$ using the assumption $P(k)$."}, {"tex": "\\text{LHS} &= \\hl{1}{\\frac{a(1 - r^k)}{1 - r}} + \\hl{2}{ar^k}"}, {"tex": "&= \\frac{a(1 - r^k) + ar^k(1 - r)}{1 - r}"}]},
+   {"ask": "Which terms cancel in the numerator, and what is left?", "title": "Expand and simplify the numerator", "lines": [{"tex": "&= \\frac{a - ar^k + ar^k - ar^{k+1}}{1 - r}"}, {"tex": "&= \\hl{3}{\\frac{a(1 - r^{k+1})}{1 - r}}"}, {"tex": "&= \\text{RHS}"}]},
+   {"ask": "What two facts together give the formula for all n in N?", "title": "Conclude", "lines": [{"text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."}]}
+  ],
+  "final": "a + ar + \\cdots + ar^{n-1} = \\frac{a(1 - r^n)}{1 - r}",
+  "graph": null},
+ {"part": "practice-induction-geo-sum-2", "note": "The sum now has a = 3 and r = 2, with the answer written as 3(2ⁿ − 1). The induction steps are the same; only the factoring step at the end is different.",
+  "legend": {"1": "the assumed right side, P(k)", "2": "the new term added at n = k + 1", "3": "the right side needed at n = k + 1"},
+  "steps": [
+   {"ask": "What do the left and right sides equal when n = 1?", "title": "Step P(1): test n = 1", "lines": [{"tex": "\\text{LHS} &= 3"}, {"tex": "\\text{RHS} &= 3(2^1 - 1) = 3"}, {"text": "LHS = RHS, so $P(1)$ is true."}]},
+   {"ask": "What must you assume for n = k before you start the step?", "title": "Step P(k): assume true for n = k", "lines": [{"text": "Assume $3 + 6 + \\cdots + 3\\cdot 2^{k-1} = \\hl{1}{3(2^k - 1)}$."}]},
+   {"ask": "How does the left side change when n goes from k to k + 1, and what must the right side become?", "title": "Step P(k+1): state what must be proved", "lines": [{"text": "Show $3 + 6 + \\cdots + 3\\cdot 2^{k-1} + \\hl{2}{3\\cdot 2^k} = \\hl{3}{3(2^{k+1} - 1)}$."}]},
+   {"ask": "Which part of the left side can you replace using the assumption?", "title": "Use P(k) on the left-hand side", "lines": [{"text": "Replace $3 + \\cdots + 3\\cdot 2^{k-1}$ using the assumption $P(k)$."}, {"tex": "\\text{LHS} &= \\hl{1}{3(2^k - 1)} + \\hl{2}{3\\cdot 2^k}"}]},
+   {"ask": "What common factor can you take out of the bracket, and what does the rest simplify to?", "title": "Factor out 3", "lines": [{"tex": "&= 3(2^k - 1 + 2^k)"}, {"tex": "&= 3(2\\cdot 2^k - 1)"}, {"tex": "&= \\hl{3}{3(2^{k+1} - 1)}"}, {"tex": "&= \\text{RHS}"}]},
+   {"ask": "What two facts together give the formula for all n in N?", "title": "Conclude", "lines": [{"text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."}]}
+  ],
+  "final": "3 + 6 + 12 + \\cdots + 3\\cdot 2^{n-1} = 3(2^n - 1)",
+  "graph": null},
+ {"part": "practice-induction-geo-sum-3", "note": "The ratio is now 1/2 and the stated answer is 2 − (1/2)ⁿ⁻¹ rather than a fraction in a and r. The induction steps are the same; the algebra step rewrites (1/2)ᵏ⁻¹ as 2(1/2)ᵏ.",
+  "legend": {"1": "the assumed right side, P(k)", "2": "the new term added at n = k + 1", "3": "the right side needed at n = k + 1"},
+  "steps": [
+   {"ask": "What do the left and right sides equal when n = 1?", "title": "Step P(1): test n = 1", "lines": [{"tex": "\\text{LHS} &= 1"}, {"tex": "\\text{RHS} &= 2 - \\left(\\tfrac{1}{2}\\right)^0 = 2 - 1 = 1"}, {"text": "LHS = RHS, so $P(1)$ is true."}]},
+   {"ask": "What must you assume for n = k before you start the step?", "title": "Step P(k): assume true for n = k", "lines": [{"text": "Assume $1 + \\dfrac{1}{2} + \\cdots + \\left(\\dfrac{1}{2}\\right)^{k-1} = \\hl{1}{2 - \\left(\\dfrac{1}{2}\\right)^{k-1}}$."}]},
+   {"ask": "How does the left side change when n goes from k to k + 1, and what must the right side become?", "title": "Step P(k+1): state what must be proved", "lines": [{"text": "Show $1 + \\dfrac{1}{2} + \\cdots + \\left(\\dfrac{1}{2}\\right)^{k-1} + \\hl{2}{\\left(\\dfrac{1}{2}\\right)^k} = \\hl{3}{2 - \\left(\\dfrac{1}{2}\\right)^k}$."}]},
+   {"ask": "Which part of the left side can you replace using the assumption?", "title": "Use P(k) on the left-hand side", "lines": [{"text": "Replace $1 + \\cdots + \\left(\\frac{1}{2}\\right)^{k-1}$ using the assumption $P(k)$."}, {"tex": "\\text{LHS} &= \\hl{1}{2 - \\left(\\tfrac{1}{2}\\right)^{k-1}} + \\hl{2}{\\left(\\tfrac{1}{2}\\right)^k}"}]},
+   {"ask": "How is (1/2)^(k−1) related to (1/2)^k, and what does the expression become once you rewrite it?", "title": "Write $\\left(\\frac{1}{2}\\right)^{k-1}$ as $2\\left(\\frac{1}{2}\\right)^k$ and simplify", "lines": [{"tex": "&= 2 - 2\\left(\\tfrac{1}{2}\\right)^k + \\left(\\tfrac{1}{2}\\right)^k"}, {"tex": "&= \\hl{3}{2 - \\left(\\tfrac{1}{2}\\right)^k}"}, {"tex": "&= \\text{RHS}"}]},
+   {"ask": "What two facts together give the formula for all n in N?", "title": "Conclude", "lines": [{"text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."}]}
+  ],
+  "final": "1 + \\frac{1}{2} + \\cdots + \\left(\\frac{1}{2}\\right)^{n-1} = 2 - \\left(\\frac{1}{2}\\right)^{n-1}",
+  "graph": null}
+]},
+{"skill": "induction-inequality", "problems": [
+ {"part": "maths-pp-2019-higher-p1-q2#(b)", "note": null,
+  "legend": {"1": "the assumed inequality, P(k)", "2": "the left side at n = k + 1", "3": "the right side at n = k + 1"},
+  "steps": [
+   {"ask": "What is the statement P(n), and for which values of n is it claimed?", "title": "State what is to be proved", "lines": [{"text": "Let $P(n)$ be the statement $3^n \\ge 4n+1$, for $n \\ge 2$."}]},
+   {"ask": "What are the two sides equal to when n = 2, and is the inequality true?", "title": "Step 1: show P(2) is true", "lines": [{"tex": "3^2 &= 9"}, {"tex": "4(2)+1 &= 9"}, {"tex": "9 &\\ge 9"}, {"text": "So $P(2)$ is true."}]},
+   {"ask": "What do you assume for some k, and what must you show for k + 1?", "title": "Step 2: assume P(k) is true", "lines": [{"text": "Assume $\\hl{1}{3^k \\ge 4k+1}$ for some $k \\ge 2$."}]},
+   {"ask": "What do the two sides become when you replace n with k + 1?", "title": "Step 3: write down what P(k+1) says", "lines": [{"tex": "\\hl{2}{3^{k+1}} &\\ge \\hl{3}{4(k+1) + 1}"}, {"tex": "\\hl{2}{3^{k+1}} &\\ge \\hl{3}{4k + 5}"}]},
+   {"ask": "What can you multiply the assumption by so that the left side becomes $3^{k+1}$?", "title": "Multiply the assumption by 3", "lines": [{"tex": "\\hl{1}{3^k} &\\ge \\hl{1}{4k+1}"}, {"tex": "3 \\cdot 3^k &\\ge 3(4k+1)"}, {"tex": "\\hl{2}{3^{k+1}} &\\ge 12k + 3"}]},
+   {"ask": "What is the difference between 12k + 3 and 4k + 5, and is it positive for k ≥ 2?", "title": "Show 12k + 3 is at least 4k + 5", "lines": [{"tex": "(12k+3) - (4k+5) &= 8k - 2"}, {"tex": "8k - 2 &\\ge 8(2) - 2 = 14 > 0"}, {"text": "So $12k+3 > \\hl{3}{4k+5}$ for $k \\ge 2$."}]},
+   {"ask": "How can the two inequalities be chained to get the bound needed for P(k+1)?", "title": "Combine the inequalities", "lines": [{"tex": "\\hl{2}{3^{k+1}} &\\ge 12k+3 > \\hl{3}{4k+5}"}, {"tex": "\\hl{2}{3^{k+1}} &\\ge \\hl{3}{4k+5}"}, {"text": "So $P(k+1)$ is true whenever $P(k)$ is true."}]},
+   {"ask": "Which two facts together prove the result for all n ≥ 2?", "title": "Step 4: conclusion", "lines": [{"text": "$P(2)$ is true, and $P(k)$ true implies $P(k+1)$ true. By induction, $P(n)$ is true for all $n \\ge 2$, $n \\in \\mathbb{N}$."}]}
+  ],
+  "final": "3^n \\ge 4n+1 \\text{ for all } n \\ge 2,\\ n \\in \\mathbb{N}",
+  "graph": null},
+ {"part": "practice-induction-inequality-2", "note": "The base is now 2 instead of 3, the bound is 2n + 1 with a strict inequality, and the start is n = 3. The steps are the same: assume P(k), multiply by the base, then show the extra gap is positive.",
+  "legend": {"1": "the assumed inequality, P(k)", "2": "the left side at n = k + 1", "3": "the right side at n = k + 1"},
+  "steps": [
+   {"ask": "What is the statement P(n), and for which values of n is it claimed?", "title": "State what is to be proved", "lines": [{"text": "Let $P(n)$ be the statement $2^n > 2n+1$, for $n \\ge 3$."}]},
+   {"ask": "What are the two sides equal to when n = 3, and is the inequality true?", "title": "Step 1: show P(3) is true", "lines": [{"tex": "2^3 &= 8"}, {"tex": "2(3)+1 &= 7"}, {"text": "$8 > 7$, so $P(3)$ is true."}]},
+   {"ask": "What do you assume for some k, and what must you show for k + 1?", "title": "Step 2: assume P(k) is true", "lines": [{"text": "Assume $\\hl{1}{2^k > 2k+1}$ for some $k \\ge 3$."}]},
+   {"ask": "What do the two sides become when you replace n with k + 1?", "title": "Step 3: write down what P(k+1) says", "lines": [{"tex": "\\hl{2}{2^{k+1}} &> \\hl{3}{2(k+1)+1}"}, {"tex": "\\hl{2}{2^{k+1}} &> \\hl{3}{2k+3}"}]},
+   {"ask": "What can you multiply the assumption by so that the left side becomes $2^{k+1}$?", "title": "Multiply the assumption by 2", "lines": [{"tex": "2\\cdot 2^k &> 2(2k+1)"}, {"tex": "\\hl{2}{2^{k+1}} &> 4k+2"}]},
+   {"ask": "What is (4k+2) − (2k+3), and is it positive for k ≥ 3?", "title": "Show 4k + 2 is bigger than 2k + 3", "lines": [{"tex": "(4k+2) - (2k+3) &= 2k-1"}, {"tex": "2k-1 &\\ge 2(3)-1 = 5 > 0"}, {"text": "So $4k+2 > \\hl{3}{2k+3}$ for $k \\ge 3$."}, {"tex": "\\hl{2}{2^{k+1}} &> 4k+2 > \\hl{3}{2k+3}"}, {"text": "So $P(k+1)$ is true whenever $P(k)$ is true."}]},
+   {"ask": "Which two facts together prove the result for all n ≥ 3?", "title": "Step 4: conclusion", "lines": [{"text": "$P(3)$ is true, and $P(k)$ true implies $P(k+1)$ true. By induction, $P(n)$ is true for all $n \\ge 3$, $n \\in \\mathbb{N}$."}]}
+  ],
+  "final": "2^n > 2n+1 \\text{ for all } n \\ge 3,\\ n \\in \\mathbb{N}",
+  "graph": null},
+ {"part": "practice-induction-inequality-1", "note": "The right side is now 2ⁿ and the left side is n!, so the step multiplies by k + 1 instead of a constant, and the check that k + 1 > 2 is needed. The start is n = 4 and the method is otherwise the same.",
+  "legend": {"1": "the assumed inequality, P(k)", "2": "the left side at n = k + 1", "3": "the right side at n = k + 1"},
+  "steps": [
+   {"ask": "What is the statement P(n), and for which values of n is it claimed?", "title": "State what is to be proved", "lines": [{"text": "Let $P(n)$ be the statement $n! > 2^n$, for $n \\ge 4$."}]},
+   {"ask": "What are 4! and 2⁴, and how do they compare?", "title": "Step 1: show P(4) is true", "lines": [{"tex": "4! &= 24"}, {"tex": "2^4 &= 16"}, {"text": "$24 > 16$, so $P(4)$ is true."}]},
+   {"ask": "What do you assume for some k, and what must you show for k + 1?", "title": "Step 2: assume P(k) is true", "lines": [{"text": "Assume $\\hl{1}{k! > 2^k}$ for some $k \\ge 4$."}]},
+   {"ask": "What does P(k+1) say, written with (k+1)! and 2^(k+1)?", "title": "Step 3: write down what P(k+1) says", "lines": [{"tex": "\\hl{2}{(k+1)!} &> \\hl{3}{2^{k+1}}"}]},
+   {"ask": "How can (k+1)! be written using k!, and what does multiplying the assumption by k + 1 give?", "title": "Use (k+1)! = (k+1) k! and the assumption", "lines": [{"tex": "(k+1)! &= (k+1)\\cdot k!"}, {"tex": "(k+1)\\cdot k! &> (k+1)\\cdot 2^k"}, {"text": "This multiplies both sides of the assumption by $k+1 > 0$."}]},
+   {"ask": "What must be true of k + 1 compared with 2, and how does (k+1)·2^k compare with 2·2^k?", "title": "Show (k+1)·2^k is bigger than 2^(k+1)", "lines": [{"text": "Since $k \\ge 4$, $k+1 \\ge 5 > 2$."}, {"tex": "(k+1)\\cdot 2^k &> 2\\cdot 2^k"}, {"tex": "2\\cdot 2^k &= \\hl{3}{2^{k+1}}"}, {"tex": "\\hl{2}{(k+1)!} &> \\hl{3}{2^{k+1}}"}, {"text": "So $P(k+1)$ is true whenever $P(k)$ is true."}]},
+   {"ask": "Which two facts together prove the result for all n ≥ 4?", "title": "Step 4: conclusion", "lines": [{"text": "$P(4)$ is true, and $P(k)$ true implies $P(k+1)$ true. By induction, $P(n)$ is true for all $n \\ge 4$, $n \\in \\mathbb{N}$."}]}
+  ],
+  "final": "n! > 2^n \\text{ for all } n \\ge 4,\\ n \\in \\mathbb{N}",
+  "graph": null}
+]},
+{"skill": "induction-sum", "problems": [
+ {"part": "maths-pp-2020-higher-p1-q7#(d)", "note": null,
+  "legend": {"1": "the assumed right side, P(k)", "2": "the new term added at n = k + 1", "3": "the right side needed at n = k + 1"},
+  "steps": [
+   {"ask": "What are the left and right sides when n = 1?", "title": "Step P(1): test n = 1", "lines": [{"tex": "\\text{LHS} &= 1^2 = 1"}, {"tex": "\\text{RHS} &= \\frac{1(1+1)(2(1)+1)}{6} = \\frac{1(2)(3)}{6} = 1"}, {"text": "LHS = RHS, so $P(1)$ is true."}]},
+   {"ask": "What do you assume for n = k before starting the step?", "title": "Step P(k): assume true for n = k", "lines": [{"text": "Assume $1^2 + 2^2 + \\cdots + k^2 = \\hl{1}{\\dfrac{k(k+1)(2k+1)}{6}}$."}]},
+   {"ask": "How does the left side change when n goes from k to k + 1, and what must the right side become?", "title": "Step P(k+1): state what must be proved", "lines": [{"text": "Show $1^2 + 2^2 + \\cdots + k^2 + \\hl{2}{(k+1)^2} = \\hl{3}{\\dfrac{(k+1)(k+2)(2k+3)}{6}}$."}, {"tex": "\\text{RHS} &= \\hl{3}{\\frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}}"}, {"tex": "&= \\hl{3}{\\frac{(k+1)(k+2)(2k+3)}{6}}"}]},
+   {"ask": "Which part of the left side can you replace using the assumption?", "title": "Use P(k) on the left-hand side", "lines": [{"text": "Replace $1^2 + \\cdots + k^2$ using the assumption $P(k)$."}, {"tex": "\\text{LHS} &= \\hl{1}{\\frac{k(k+1)(2k+1)}{6}} + \\hl{2}{(k+1)^2}"}, {"tex": "&= \\frac{k(k+1)(2k+1) + 6(k+1)^2}{6}"}]},
+   {"ask": "What common factor can you take out of the numerator, and what is left in the bracket?", "title": "Factor out (k + 1)", "lines": [{"tex": "&= \\frac{(k+1)\\big[k(2k+1) + 6(k+1)\\big]}{6}"}, {"tex": "&= \\frac{(k+1)(2k^2 + k + 6k + 6)}{6}"}, {"tex": "&= \\frac{(k+1)(2k^2 + 7k + 6)}{6}"}, {"tex": "&= \\hl{3}{\\frac{(k+1)(k+2)(2k+3)}{6}}"}, {"tex": "&= \\text{RHS}"}]},
+   {"ask": "What two facts together give the result for all n?", "title": "Conclude", "lines": [{"text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."}]}
+  ],
+  "final": "1^2 + 2^2 + \\cdots + n^2 = \\frac{n(n+1)(2n+1)}{6}",
+  "graph": null},
+ {"part": "practice-induction-sum-1", "note": "The terms are now n(n + 1), so the new term is (k + 1)(k + 2) and the factor taken out at the end is (k + 1)(k + 2) instead of (k + 1). The induction structure is the same.",
+  "legend": {"1": "the assumed right side, P(k)", "2": "the new term added at n = k + 1", "3": "the right side needed at n = k + 1"},
+  "steps": [
+   {"ask": "What are the left and right sides when n = 1?", "title": "Step P(1): test n = 1", "lines": [{"tex": "\\text{LHS} &= 1\\cdot 2 = 2"}, {"tex": "\\text{RHS} &= \\frac{1(2)(3)}{3} = 2"}, {"text": "LHS = RHS, so $P(1)$ is true."}]},
+   {"ask": "What do you assume for n = k before starting the step?", "title": "Step P(k): assume true for n = k", "lines": [{"text": "Assume $1\\cdot 2 + 2\\cdot 3 + \\cdots + k(k+1) = \\hl{1}{\\dfrac{k(k+1)(k+2)}{3}}$."}]},
+   {"ask": "How does the left side change when n goes from k to k + 1, and what must the right side become?", "title": "Step P(k+1): state what must be proved", "lines": [{"text": "Show $1\\cdot 2 + \\cdots + k(k+1) + \\hl{2}{(k+1)(k+2)} = \\hl{3}{\\dfrac{(k+1)(k+2)(k+3)}{3}}$."}]},
+   {"ask": "Which part of the left side can you replace using the assumption?", "title": "Use P(k) on the left-hand side", "lines": [{"text": "Replace $1\\cdot 2 + \\cdots + k(k+1)$ using the assumption $P(k)$."}, {"tex": "\\text{LHS} &= \\hl{1}{\\frac{k(k+1)(k+2)}{3}} + \\hl{2}{(k+1)(k+2)}"}, {"tex": "&= \\frac{k(k+1)(k+2) + 3(k+1)(k+2)}{3}"}]},
+   {"ask": "What common factor can you take out of the numerator, and what remains in the bracket?", "title": "Factor out (k + 1)(k + 2)", "lines": [{"tex": "&= \\frac{(k+1)(k+2)\\left[k + 3\\right]}{3}"}, {"tex": "&= \\hl{3}{\\frac{(k+1)(k+2)(k+3)}{3}}"}, {"tex": "&= \\text{RHS}"}]},
+   {"ask": "What two facts together give the result for all n?", "title": "Conclude", "lines": [{"text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."}]}
+  ],
+  "final": "1\\cdot 2 + 2\\cdot 3 + \\cdots + n(n+1) = \\frac{n(n+1)(n+2)}{3}",
+  "graph": null},
+ {"part": "maths-pp-2025-higher-p1-q10#(e)(i), (ii)", "note": "The first step counts dots, which is not induction. The step from k to k + 1 uses the given rule H(k+1) = H(k) + 2k + 3 instead of adding a term to a sum, so the new term is 2k + 3. The base case and the algebra to reach (k + 2)² are the same kind of work.",
+  "legend": {"1": "the assumed right side, P(k)", "2": "the new term added at n = k + 1", "3": "the right side needed at n = k + 1"},
+  "steps": [
+   {"ask": "How many dots are in Pattern 1, and what does H(1) count?", "title": "(i) Count the dots in Pattern 1", "lines": [{"text": "Pattern 1 has dots at $(1,0)$, $(-1,0)$, $(0,1)$ and $(0,-1)$."}, {"tex": "H(1) &= 4"}]},
+   {"ask": "What is (1+1)², and does it equal H(1)?", "title": "(ii) Check P(1): n = 1", "lines": [{"text": "P(n) is the statement $H(n) = (n+1)^2$."}, {"tex": "(1+1)^2 &= 2^2"}, {"tex": "&= 4"}, {"text": "This equals $H(1)=4$, so P(1) is true."}]},
+   {"ask": "What do you assume for H(k) before starting the induction step?", "title": "State P(k): assume it is true for n = k", "lines": [{"text": "Assume that for some $k\\in\\mathbb{N}$:"}, {"tex": "H(k) &= \\hl{1}{(k+1)^2}"}]},
+   {"ask": "What is H(k+1) when you replace k with k + 1?", "title": "State P(k+1): what we must prove", "lines": [{"text": "Replace $k$ by $k+1$ in $H(k)=(k+1)^2$."}, {"tex": "H(k+1) &= \\hl{3}{\\left((k+1)+1\\right)^2}"}]},
+   {"ask": "How does the given rule link H(k+1) to H(k), and what can you substitute for H(k)?", "title": "Use the given formula for H(k+1)", "lines": [{"tex": "H(k+1) &= H(k) + \\hl{2}{2k + 3}"}, {"text": "Replace $H(k)$ using P(k)."}, {"tex": "&= \\hl{1}{(k+1)^2} + \\hl{2}{2k + 3}"}]},
+   {"ask": "What do you get when you expand and collect like terms, and can you recognise a square?", "title": "Expand and simplify", "lines": [{"tex": "&= k^2 + 2k + 1 + 2k + 3"}, {"tex": "&= k^2 + 4k + 4"}, {"tex": "&= (k+2)^2"}, {"tex": "&= \\hl{3}{\\left((k+1)+1\\right)^2}"}]},
+   {"ask": "Why does P(1) together with the step from P(k) to P(k+1) prove the result for all n?", "title": "Write the conclusion", "lines": [{"text": "This is P(k+1), so P(k+1) is true whenever P(k) is true."}, {"text": "P(1) is true, and P(k) true implies P(k+1) true. By induction, $H(n)=(n+1)^2$ for all $n\\in\\mathbb{N}$."}]}
+  ],
+  "final": "H(1) = 4 \\text{ and } H(n) = (n+1)^2 \\text{ for all } n \\in \\mathbb{N}",
+  "graph": null}
+]},
+{"skill": "proof-root2-irrational", "problems": [
+ {"part": "maths-pp-2019-higher-p1-q6#(b)", "note": null,
+  "legend": {"1": "the assumed fraction", "2": "the numerator, shown even", "3": "the denominator, shown even"},
+  "steps": [
+   {"ask": "What must √2 equal if it is rational, and what must be true of the fraction?", "title": "Assume the opposite", "lines": [{"text": "Suppose $\\sqrt{2}$ is rational."}, {"text": "Then $\\sqrt{2} = \\hl{1}{\\frac{p}{q}}$ with $p, q$ integers having no common factor (the fraction is in simplest form)."}]},
+   {"ask": "Once you have p² = 2q², what can you say about the parity of p², and so of p?", "title": "Show p is even", "lines": [{"tex": "2 &= \\frac{p^2}{q^2}"}, {"tex": "2q^2 &= p^2"}, {"text": "$p^2$ is even (it equals $2q^2$), so $\\hl{2}{p}$ is even. (The square of an odd number is odd.)"}, {"text": "So $\\hl{2}{p} = 2k$ for some integer $k$."}]},
+   {"ask": "Substitute p = 2k into 2q² = p². What does that tell you about q?", "title": "Show q is even", "lines": [{"tex": "2q^2 &= (2k)^2"}, {"tex": "2q^2 &= 4k^2"}, {"tex": "q^2 &= 2k^2"}, {"text": "$q^2$ is even, so $\\hl{3}{q}$ is even. So $\\hl{3}{q} = 2m$ for some integer $m$."}]},
+   {"ask": "Which assumption about the fraction does this break?", "title": "Reach the contradiction", "lines": [{"tex": "\\sqrt{2} &= \\frac{p}{q} = \\frac{2k}{2m}"}, {"text": "$\\hl{2}{p}$ and $\\hl{3}{q}$ now have a common factor of $2$. This contradicts the assumption that they have no common factor."}, {"text": "So the assumption is false."}]}
+  ],
+  "final": "\\sqrt{2} \\text{ is not a rational number}",
+  "graph": null},
+ {"part": "maths-pp-2023-higher-p1-q3#(a)", "note": "The letters are a and b instead of p and q, and the squaring step is written out in full. The method is the same: assume a fraction in lowest terms, show both top and bottom are even, then contradict the lowest-terms assumption.",
+  "legend": {"1": "the assumed fraction", "2": "the numerator, shown even", "3": "the denominator, shown even"},
+  "steps": [
+   {"ask": "What form must √2 take if it is rational, and which conditions must a and b satisfy?", "title": "Assume the opposite", "lines": [{"text": "Assume $\\sqrt{2}$ is rational, so $\\sqrt{2} = \\hl{1}{\\frac{a}{b}}$ with $a, b \\in \\mathbb{Z}$, $b \\neq 0$, and $\\text{HCF}(a, b) = 1$."}, {"tex": "\\sqrt{2} &= \\hl{1}{\\frac{a}{b}}"}]},
+   {"ask": "What do you get when you square both sides, and how do you remove the denominator?", "title": "Square both sides and clear the fraction", "lines": [{"tex": "\\left(\\sqrt{2}\\right)^2 &= \\left(\\frac{a}{b}\\right)^2"}, {"tex": "2 &= \\frac{a^2}{b^2}"}, {"tex": "2b^2 &= a^2"}]},
+   {"ask": "What does a² = 2b² tell you about the parity of a?", "title": "Show that a is even", "lines": [{"text": "$a^2 = 2b^2$ is even, so $a^2$ is even."}, {"text": "The square of an odd number is odd, so $\\hl{2}{a}$ must be even."}, {"tex": "\\hl{2}{a} &= 2k, \\quad k \\in \\mathbb{Z}"}]},
+   {"ask": "Substitute a = 2k into 2b² = a². What does this tell you about b²?", "title": "Substitute a = 2k to show b is even", "lines": [{"tex": "2b^2 &= (2k)^2"}, {"tex": "2b^2 &= 4k^2"}, {"tex": "b^2 &= 2k^2"}, {"text": "So $b^2$ is even, and therefore $\\hl{3}{b}$ is even."}]},
+   {"ask": "Which two numbers now share a factor, and which earlier condition does that break?", "title": "State the contradiction", "lines": [{"text": "Both $\\hl{2}{a}$ and $\\hl{3}{b}$ are even, so they share the factor $2$."}, {"text": "This contradicts $\\text{HCF}(a, b) = 1$, so $\\sqrt{2}$ is not rational."}]}
+  ],
+  "final": "\\sqrt{2} \\text{ is not a rational number}",
+  "graph": null},
+ {"part": "practice-proof-root2-irrational-1", "note": "The odd-square argument is spelled out with p = 2m + 1, so the parity step is shown directly instead of quoted. The contradiction and the argument that q is even are the same as before.",
+  "legend": {"1": "the assumed fraction", "2": "the numerator, shown even", "3": "the denominator, shown even"},
+  "steps": [
+   {"ask": "What form must √2 take if it is rational, and what conditions do p and q satisfy?", "title": "Assume the opposite", "lines": [{"text": "Suppose $\\sqrt{2}$ is rational."}, {"text": "Then $\\sqrt{2} = \\hl{1}{\\frac{p}{q}}$ where $p, q \\in \\mathbb{Z}$, $q \\ne 0$, and $p$, $q$ have no common factor."}]},
+   {"ask": "Square both sides of √2 = p/q. What can you say about p²?", "title": "Clear the fraction", "lines": [{"tex": "2 &= \\frac{p^2}{q^2}"}, {"tex": "p^2 &= 2q^2"}, {"text": "So $p^2$ is even."}]},
+   {"ask": "If p is odd and written as 2m + 1, what is p² when you expand it, and what type of number is it?", "title": "Show that an odd p has an odd square", "lines": [{"text": "Let $p = 2m+1$ be odd."}, {"tex": "p^2 &= (2m+1)^2"}, {"tex": "&= 4m^2 + 4m + 1"}, {"tex": "&= 2(2m^2 + 2m) + 1"}, {"text": "This is odd. So if $p^2$ is even, $p$ cannot be odd, so $\\hl{2}{p}$ is even. Write $\\hl{2}{p} = 2k$."}]},
+   {"ask": "Substitute p = 2k into 2q² = p². What does this say about q²?", "title": "Show q is even", "lines": [{"tex": "2q^2 &= (2k)^2"}, {"tex": "2q^2 &= 4k^2"}, {"tex": "q^2 &= 2k^2"}, {"text": "So $q^2$ is even, and by the same argument $\\hl{3}{q}$ is even."}]},
+   {"ask": "Which assumption about p and q is now broken?", "title": "Reach the contradiction", "lines": [{"text": "$\\hl{2}{p}$ and $\\hl{3}{q}$ are both even, so they have a common factor $2$. This contradicts the assumption that they have no common factor."}, {"text": "So $\\sqrt{2}$ is not rational."}]}
+  ],
+  "final": "\\sqrt{2} \\text{ is irrational}",
+  "graph": null}
+]},
+{"skill": "int-area-axis", "problems": [
+ {"part": "practice-int-area-axis-1", "note": null,
+  "legend": {"1": "the limits, the roots of the curve", "2": "the signed integral", "3": "the area, taken positive"},
+  "steps": [
+   {"ask": "Which equation do you solve to find where the curve meets the x-axis?", "title": "Find where the curve meets the $x$-axis", "lines": [{"tex": "x^2 - 4x + 3 &= 0"}, {"tex": "(x-1)(x-3) &= 0"}, {"tex": "x &= \\hl{1}{1} \\text{ or } x = \\hl{1}{3}"}]},
+   {"ask": "Which integral gives the area between your two x-values, and what is its integrand?", "title": "Integrate between the roots", "lines": [{"tex": "\\hl{2}{\\int_1^3 (x^2 - 4x + 3)\\,dx} &= \\left[\\frac{x^3}{3} - 2x^2 + 3x\\right]_1^3"}]},
+   {"ask": "What do you get when you substitute the upper limit, then the lower limit, into the antiderivative?", "title": "Substitute the limits", "lines": [{"tex": "&= (9 - 18 + 9) - \\left(\\frac{1}{3} - 2 + 3\\right)"}, {"tex": "&= 0 - \\frac{4}{3}"}, {"tex": "&= \\hl{2}{-\\frac{4}{3}}"}]},
+   {"ask": "Is the curve above or below the x-axis between the roots, and what does that say about the sign of the integral?", "title": "Take the area as positive", "lines": [{"text": "The curve is below the $x$-axis between 1 and 3, so the integral is negative."}, {"tex": "\\text{Area} &= \\hl{3}{\\left|-\\frac{4}{3}\\right|}"}, {"tex": "&= \\hl{3}{\\frac{4}{3}}"}]}
+  ],
+  "final": "\\hl{3}{\\frac{4}{3}}\\text{ square units}",
+  "graph": {"f": "x**2 - 4*x + 3", "box": [-0.5, 5.5, 4.5, -1.5], "tangent": false, "points": [{"x": 1, "y": 0, "name": "root x = 1"}, {"x": 3, "y": 0, "name": "root x = 3"}], "line": null, "slots": {"x": 1, "y": null, "line": null}}},
+ {"part": "practice-int-area-axis-3", "note": "The curve is now y = 6 + x − x², which sits above the x-axis between its roots, so the integral is already positive and the take-absolute-value step disappears. The roots and the integral steps are the same as problem 1.",
+  "legend": {"1": "the limits, the roots of the curve", "2": "the signed integral", "3": "the area, taken positive"},
+  "steps": [
+   {"ask": "Which equation do you solve to find where the curve meets the x-axis?", "title": "Find where the curve meets the $x$-axis", "lines": [{"tex": "6 + x - x^2 &= 0"}, {"tex": "x^2 - x - 6 &= 0"}, {"tex": "(x-3)(x+2) &= 0"}, {"tex": "x &= \\hl{1}{3} \\text{ or } x = \\hl{1}{-2}"}]},
+   {"ask": "Which integral gives the area between your two x-values, and what is its integrand?", "title": "Integrate between the roots", "lines": [{"tex": "\\hl{2}{\\int_{-2}^3 (6 + x - x^2)\\,dx} &= \\left[6x + \\frac{x^2}{2} - \\frac{x^3}{3}\\right]_{-2}^3"}]},
+   {"ask": "What do you get when you substitute the upper limit, then the lower limit, into the antiderivative?", "title": "Substitute the limits", "lines": [{"tex": "&= \\left(18 + \\frac{9}{2} - 9\\right) - \\left(-12 + 2 + \\frac{8}{3}\\right)"}, {"tex": "&= \\frac{27}{2} + \\frac{22}{3}"}, {"tex": "&= \\hl{2}{\\frac{125}{6}}"}]},
+   {"ask": "Is the curve above or below the x-axis between the roots, and does the integral need any adjusting?", "title": "State the area", "lines": [{"text": "The curve is above the $x$-axis between $-2$ and $3$, so the integral is already positive."}]}
+  ],
+  "final": "\\hl{3}{\\frac{125}{6}}\\text{ square units}",
+  "graph": {"f": "6 + x - x**2", "box": [-2.8, 7.5, 3.8, -1.5], "tangent": false, "points": [{"x": -2, "y": 0, "name": "root x = -2"}, {"x": 3, "y": 0, "name": "root x = 3"}], "line": null, "slots": {"x": 1, "y": null, "line": null}}},
+ {"part": "practice-int-area-axis-2", "note": "The curve is now the cubic y = x³ − x, which crosses the x-axis at 0 as well, so the area splits into two pieces. Each piece is integrated separately, the negative one is made positive, and then the two are added.",
+  "legend": {"1": "the limits, the roots of the curve", "2": "the signed integral", "3": "the area, taken positive"},
+  "steps": [
+   {"ask": "Can you factorise $x^3 - x$? Where does the curve cross the x-axis?", "title": "Find where the curve crosses the $x$-axis", "lines": [{"tex": "x^3 - x &= x(x-1)(x+1)"}, {"text": "The curve crosses the axis at $x = \\hl{1}{-1}, \\hl{1}{0}, \\hl{1}{1}$, so split the area at $x = \\hl{1}{0}$."}]},
+   {"ask": "What is the antiderivative of $x^3 - x$, and what do you get between $-1$ and $0$?", "title": "Integrate from $-1$ to $0$", "lines": [{"tex": "\\hl{2}{\\int_{-1}^0 (x^3 - x)\\,dx} &= \\left[\\frac{x^4}{4} - \\frac{x^2}{2}\\right]_{-1}^0"}, {"tex": "&= 0 - \\left(\\frac{1}{4} - \\frac{1}{2}\\right)"}, {"tex": "&= \\hl{2}{\\frac{1}{4}}"}]},
+   {"ask": "Is the curve above or below the x-axis between 0 and 1, and what sign should the integral have?", "title": "Integrate from $0$ to $1$", "lines": [{"tex": "\\hl{2}{\\int_0^1 (x^3 - x)\\,dx} &= \\left[\\frac{x^4}{4} - \\frac{x^2}{2}\\right]_0^1"}, {"tex": "&= \\left(\\frac{1}{4} - \\frac{1}{2}\\right) - 0"}, {"tex": "&= \\hl{2}{-\\frac{1}{4}}"}]},
+   {"ask": "Why must the negative integral be turned positive before the two areas are added?", "title": "Add the two areas, both taken positive", "lines": [{"tex": "\\text{Area} &= \\frac{1}{4} + \\hl{3}{\\left|-\\frac{1}{4}\\right|}"}, {"tex": "&= \\hl{3}{\\frac{1}{2}}"}]}
+  ],
+  "final": "\\hl{3}{\\frac{1}{2}}\\text{ square units}",
+  "graph": {"f": "x**3 - x", "box": [-1.3, 1, 1.3, -1], "tangent": false, "points": [{"x": -1, "y": 0, "name": "root x = -1"}, {"x": 0, "y": 0, "name": "root x = 0"}, {"x": 1, "y": 0, "name": "root x = 1"}], "line": null, "slots": {"x": 1, "y": null, "line": null}}}
+]}
+]

@@ -1,0 +1,135 @@
+[
+ {
+  "skill": "trig-radians",
+  "problems": [
+   {
+    "question": "Express $\\frac{7\\pi}{6}$ radians in degrees.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the conversion factor",
+       "lines": [
+        {
+         "text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\frac{180}{\\pi}$."
+        },
+        {
+         "tex": "\\frac{7\\pi}{6} \\times \\frac{180}{\\pi} &= \\frac{7 \\times 180}{6}",
+         "sym": "7*pi/6*180/pi",
+         "new": true
+        },
+        {
+         "tex": "&= 210^\\circ",
+         "sym": "210"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "210^\\circ"
+    },
+    "finalSym": "210",
+    "answerSym": "7*pi/6*180/pi"
+   },
+   {
+    "question": "A rotating arm turns clockwise through an angle of $-\\frac{3\\pi}{4}$ radians.\nExpress this angle in degrees.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the conversion factor",
+       "lines": [
+        {
+         "text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\frac{180}{\\pi}$."
+        },
+        {
+         "tex": "-\\frac{3\\pi}{4} \\times \\frac{180}{\\pi} &= -\\frac{3 \\times 180}{4}",
+         "sym": "-3*pi/4*180/pi",
+         "new": true
+        },
+        {
+         "tex": "&= -135^\\circ",
+         "sym": "-135"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-135^\\circ"
+    },
+    "finalSym": "-135",
+    "answerSym": "-3*pi/4*180/pi"
+   }
+  ]
+ },
+ {
+  "skill": "trig-unit-circle",
+  "problems": [
+   {
+    "question": "$P$ is a point on the unit circle, centre $O = (0, 0)$.\nThe line $OP$ makes an angle of $210^\\circ$ with the positive $x$-axis, measured anticlockwise.\nFind the co-ordinates of $P$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Place P on the unit circle using the angle",
+       "lines": [
+        {
+         "text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."
+        },
+        {
+         "tex": "P &= (\\cos 210^\\circ, \\sin 210^\\circ)"
+        }
+       ]
+      },
+      {
+       "title": "Find the x co-ordinate",
+       "lines": [
+        {
+         "text": "$210^\\circ$ is in the third quadrant, where cos is negative. The related angle is $30^\\circ$."
+        },
+        {
+         "tex": "\\cos 210^\\circ",
+         "sym": "cos(7*pi/6)",
+         "new": true
+        },
+        {
+         "tex": "&= -\\cos 30^\\circ",
+         "sym": "-cos(pi/6)"
+        },
+        {
+         "tex": "&= -\\frac{\\sqrt{3}}{2}",
+         "sym": "-sqrt(3)/2"
+        }
+       ]
+      },
+      {
+       "title": "Find the y co-ordinate",
+       "lines": [
+        {
+         "text": "In the third quadrant sin is also negative."
+        },
+        {
+         "tex": "\\sin 210^\\circ",
+         "sym": "sin(7*pi/6)",
+         "new": true
+        },
+        {
+         "tex": "&= -\\sin 30^\\circ",
+         "sym": "-sin(pi/6)"
+        },
+        {
+         "tex": "&= -\\frac{1}{2}",
+         "sym": "-1/2"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "P = \\left(-\\frac{\\sqrt{3}}{2}, -\\frac{1}{2}\\right)"
+    },
+    "finalSym": "(-sqrt(3)/2, -1/2)",
+    "answerSym": "(cos(7*pi/6), sin(7*pi/6))"
+   }
+  ]
+ }
+]

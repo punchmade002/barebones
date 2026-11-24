@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Learn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" />
+<!-- The "Learn" phase that comes before a skill's practice problems (maths-skill.html): maths-learn.html?skill=<id>.
+     What the skill does, where it fits, how it shows up in the exam, a worked example and exam tips, all on one page.
+     Data: one package per skill in maths-skills/ (pipeline/requirements/maths/learn.py, then package.py), loaded by maths-packs.js. -->
+<style>
+:root {
+  --ink: #1A1916; --muted: #7A7870; --soft: #4a4540; --accent: #fa4c06; --accent-strong: #c23504;
+  --page: #EDEBE6; --board: #ffffff; --line: #e6e0d6; --pencil: #3d3a36;
+  --hl1: #d9480f; --hl1-bg: #ffe3d3;
+  --hl2: #1c5fd1; --hl2-bg: #dce8ff;
+  --hl3: #0f7a4a; --hl3-bg: #d5f2e3;
+  --hl4: #7c3aed; --hl4-bg: #ece3ff;
+  --font: 'Outfit', system-ui, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+* { box-sizing: border-box }
+html { background: var(--page); scroll-behavior: smooth }
+body { margin: 0; color: var(--ink); font-family: var(--font); line-height: 1.5; background: var(--page) }
+button, a { font: inherit }
+
+/* top: where this sits in the skill: Learn, then Practise */
+.bar { max-width: 1240px; margin: 0 auto; padding: 18px 20px 0; display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center }
+.back { font-size: 0.8rem; font-weight: 700; color: var(--muted); text-decoration: none }
+.back:hover { color: var(--ink) }
+.phases { display: flex; gap: 6px; font-size: 0.78rem; font-weight: 700 }
+.phases span, .phases a { padding: 5px 12px; border-radius: 999px; color: var(--muted); background: rgba(255,255,255,.55); text-decoration: none }
+.phases a:hover { color: var(--ink) }
+.phases .now { background: var(--ink); color: #fff }
+
+/* the page: section links on the left, the board on the right */
+.wrap { max-width: 1240px; margin: 0 auto; padding: 16px 20px 80px; display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 28px; align-items: start }
+.rail { position: sticky; top: 24px; list-style: none; margin: 40px 0 0; padding: 0; display: grid; gap: 4px }
+.rail a { display: flex; gap: 10px; align-items: center; font-size: 0.86rem; font-weight: 600; color: var(--muted); padding: 6px 0; text-decoration: none }
+.rail a::before { content: ""; width: 10px; height: 10px; border-radius: 50%; border: 2px solid currentColor; flex-shrink: 0 }
+.rail a:hover { color: var(--ink) }
+.board { background-color: var(--board);
+  background-image: radial-gradient(rgba(26, 25, 22, 0.075) 1px, transparent 1.2px); background-size: 26px 26px;
+  border: 1px solid var(--line); border-radius: 24px; box-shadow: 0 10px 40px rgba(60, 40, 20, .08);
+  padding: 44px clamp(20px, 5vw, 64px) 64px; min-height: 60vh }
+@media (max-width: 900px) {
+  .wrap { grid-template-columns: minmax(0, 1fr); padding: 12px 10px 60px }
+  .rail { display: none }
+  .board { border-radius: 18px; padding: 28px 18px 48px }
+}
+
+/* sections */
+.sec { margin: 0 0 46px; scroll-margin-top: 20px }
+.sec > .lbl { display: block; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-strong); margin: 0 0 10px }
+.kicker { font-size: 0.9rem; font-weight: 700; color: var(--muted); margin: 0 0 4px }
+h1 { margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.02; letter-spacing: -0.03em; font-weight: 800; max-width: 16ch }
+.say { margin: 0 0 14px; font-size: clamp(1.05rem, 1.8vw, 1.2rem); line-height: 1.55; max-width: 38em }
+.say.small { font-size: 0.98rem; color: var(--soft) }
+.say b { font-weight: 700 }
+.status { padding: 40px 0; font-size: 1.1rem; color: var(--soft) }
+
+/* maths lines, aligned on = */
+.work { display: grid; grid-template-columns: max-content minmax(0, 1fr); column-gap: 0.35em; row-gap: 6px; align-items: baseline;
+  font-size: clamp(1.02rem, 1.9vw, 1.22rem); margin: 6px 0 18px; overflow-x: auto; overflow-y: hidden; padding: 6px 2px }
+.work .cell { white-space: nowrap }
+.work .lhs { text-align: right }
+.work .full { grid-column: 1 / -1 }
+.work .aside { grid-column: 1 / -1; font-size: 0.92rem; color: var(--muted); margin: 2px 0 }
+
+/* colour slots: a quantity keeps its colour on every line and on the graph */
+.hl { padding: 0 0.1em; border-radius: 3px }
+.hl-1 { color: var(--hl1); background: linear-gradient(transparent 58%, var(--hl1-bg) 58%) }
+.hl-2 { color: var(--hl2); background: linear-gradient(transparent 58%, var(--hl2-bg) 58%) }
+.hl-3 { color: var(--hl3); background: linear-gradient(transparent 58%, var(--hl3-bg) 58%) }
+.hl-4 { color: var(--hl4); background: linear-gradient(transparent 58%, var(--hl4-bg) 58%) }
+
+/* what it does: input → output */
+.io { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin: 6px 0 20px; font-size: 1.05rem }
+.io .box { border: 2px solid var(--ink); border-radius: 12px; padding: 8px 14px; background: #fff; font-weight: 600 }
+.io .arrow { font-size: 1.4rem; color: var(--muted) }
+
+/* where it fits: needs → this skill → leads to */
+.fit { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 14px; align-items: center; margin: 10px 0 18px }
+.fit h3 { margin: 0 0 8px; font-size: 0.72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--muted) }
+.fit ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px }
+.chip { display: flex; justify-content: space-between; gap: 10px; align-items: center; padding: 9px 12px; border: 1.5px solid var(--line); border-radius: 12px; background: #fff; font-size: 0.92rem; font-weight: 600; color: var(--ink); text-decoration: none }
+a.chip:hover { border-color: var(--ink) }
+.chip .grade { font-size: 0 }
+.this { padding: 14px 16px; border-radius: 14px; background: var(--ink); color: #fff; font-weight: 700; text-align: center; font-size: 0.98rem }
+.fit .to { font-size: 1.5rem; color: var(--muted) }
+.fit .none { font-size: 0.9rem; color: var(--muted); padding: 9px 2px }
+@media (max-width: 900px) { .fit { grid-template-columns: minmax(0, 1fr) } .fit .to { transform: rotate(90deg); justify-self: center } }
+
+.grade { display: inline-flex; align-items: center; gap: 6px; font-size: 0.75rem; font-weight: 700; color: var(--soft); white-space: nowrap }
+.grade .dots { display: inline-flex; gap: 3px }
+.grade i { width: 7px; height: 7px; border-radius: 50%; border: 1.5px solid var(--ink) }
+.grade i.on { background: var(--ink) }
+.this .grade, .this .grade i { color: #fff; border-color: #fff }
+.this .grade i.on { background: #fff }
+
+/* in the exam: one dot per year, size = number of parts */
+.stat { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 14px }
+.stat .big { font-size: clamp(2.6rem, 6vw, 3.8rem); font-weight: 800; letter-spacing: -0.04em; line-height: 1 }
+.stat .of { font-size: 1.05rem; font-weight: 600; color: var(--soft) }
+.years { display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 6px 4px; align-items: center; max-width: 620px; margin: 4px 0 16px }
+.years .yr { font-family: var(--mono); font-size: 0.66rem; color: var(--muted); text-align: center }
+.years .d { justify-self: center; border-radius: 50%; background: var(--ink) }
+.years .d.none { background: transparent; border: 1.5px dashed #c9c2b6; width: 12px !important; height: 12px !important }
+
+/* worked example: steps on the left, the graph or figure on the right */
+.question { border-left: 4px solid var(--ink); padding: 6px 0 6px 16px; margin: 4px 0 22px }
+.question .say { margin: 0 0 6px }
+.ex { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 380px); gap: 28px; align-items: start }
+.ex.solo { grid-template-columns: minmax(0, 1fr) }
+.ex .graph { position: sticky; top: 20px }
+.ex.stack { grid-template-columns: minmax(0, 1fr) } .ex.stack .graph { position: static; order: -1; max-width: 420px }
+@media (max-width: 1100px) { .ex { grid-template-columns: minmax(0, 1fr) } .ex .graph { position: static; order: -1; max-width: 420px } }
+.step { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 0 12px; margin: 0 0 18px }
+.step .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: #fff; font-weight: 800; font-size: 0.8rem; margin-top: 3px }
+.step .say { font-size: 1.05rem; margin-bottom: 4px }
+.graph svg { width: 100%; height: auto; display: block; overflow: visible }
+.graph text { font-family: var(--font); font-size: 13px; fill: var(--pencil); paint-order: stroke; stroke: var(--board); stroke-width: 3.5px; stroke-linejoin: round }  /* a halo keeps labels readable where a line runs under them */
+.graph .lab { font-weight: 700 }
+.answer { display: inline-flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; padding: 12px 18px; border: 2.5px solid var(--ink); border-radius: 10px; background: #fff; margin: 4px 0 0 44px; font-size: 1.1rem; box-sizing: border-box; max-width: calc(100% - 44px); overflow-x: auto }
+@media (min-width: 700px) { .answer .katex { white-space: nowrap } }  /* a phone needs the answer to wrap */
+.answer small { font-size: 0.66rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--muted) }
+
+/* exam tips */
+.tips { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; max-width: 760px }
+.tips li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 10px; align-items: start }
+.tips .k { width: 26px; height: 26px; border-radius: 8px; background: var(--accent); color: #fff; font-weight: 800; font-size: 0.8rem; display: grid; place-items: center; margin-top: 3px }
+.tips .say { margin: 0 }
+.tips .src { margin: 4px 0 0; font-size: 0.8rem; color: var(--muted) }
+
+.next { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center }
+.btn { border: 0; border-radius: 999px; padding: 12px 22px; font-weight: 700; font-size: 0.98rem; cursor: pointer; text-decoration: none; display: inline-flex; gap: 8px; align-items: center }
+.btn-primary { background: var(--accent); color: #fff; box-shadow: 0 4px 16px rgba(250, 76, 6, .28) }
+.btn-primary:hover { background: var(--accent-strong) }
+.btn-plain { background: #fff; color: var(--ink); border: 1.5px solid #cfc8bd }
+
+@media (max-width: 600px) {
+  .step { grid-template-columns: minmax(0, 1fr) }
+  .step .n { margin: 0 0 6px }
+  .work { font-size: 0.98rem }
+  .answer { margin-left: 0 }
+}
+.nw { white-space: nowrap }
+</style>
+</head>
+<body>
+<header class="bar">
+  <a class="back" href="maths-skill.html">← All skills</a>
+  <nav class="phases" aria-label="Skill phases"><span class="now" aria-current="step">1 · Learn</span><span id="practise">2 · Practice Problems</span></nav>
+</header>
+<div class="wrap">
+  <nav aria-label="Sections"><ol class="rail" id="rail">
+    <li><a href="#what">What it does</a></li><li><a href="#fit">Where it fits</a></li><li><a href="#exam">In the exam</a></li>
+    <li><a href="#example">Worked example</a></li><li><a href="#tips">Exam tips</a></li>
+  </ol></nav>
+  <main class="board" id="board"><p class="status">Loading…</p></main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
+<script src="maths-skills/index.js?v=1d8456ef46"></script>
+<script src="maths-packs.js"></script>
+<script>
+const KATEX_OPTS = { throwOnError: false, strict: 'ignore', macros: { '\\hl': '\\htmlClass{hl hl-#1}{#2}' }, trust: c => c.command === '\\htmlClass' };
+const tex = (s, display = false) => katex.renderToString(s, { ...KATEX_OPTS, displayMode: display });
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+// text with $maths$ and **bold**
+// punctuation right after inline maths stays on its line with it
+const rich = s => String(s).split(/(\$[^$]+\$)/).map((p, k, all) => {
+  if (k % 2) { const pun = (all[k + 1] ?? '').match(/^[.,;:!?)]+/)?.[0] ?? ''; return pun ? `<span class="nw">${tex(p.slice(1, -1))}${pun}</span>` : tex(p.slice(1, -1)) }
+  return esc(k && all[k - 1] ? p.replace(/^[.,;:!?)]+/, '') : p).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+}).join('');
+const say = (s, cls = 'say') => `<p class="${cls}">${rich(s)}</p>`;
+const GRADES = ['Beginner', 'Intermediate', 'Advanced'];
+const gradeTag = g => `<span class="grade" title="${g}"><span class="dots" aria-hidden="true">${GRADES.map((_, k) =>
+  `<i class="${k <= GRADES.indexOf(g) ? 'on' : ''}"></i>`).join('')}</span>${g}</span>`;
+const fmt = v => String(Math.round(v * 100) / 100).replace('-', '−');
+const listing = xs => xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs[xs.length - 1]}`;
+const NUM = ['no', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
+const count = (n, word) => `${NUM[n] ?? n} ${word}${n === 1 ? '' : 's'}`;
+const LEVEL = MathsPacks.level, LEVEL_NAME = { higher: 'Higher', ordinary: 'Ordinary' }[LEVEL];
+const COURSE = { JC: 'Junior Cycle, assumed at Leaving Cert', OL: 'Ordinary and Higher', HL: 'Higher only' };
+const board = document.getElementById('board');
+
+// rows: {l, r} for "lhs = rhs" aligned on =, {full} for a line on its own, {aside} for a small note
+const work = rows => `<div class="work">${rows.map(r => r.aside != null ? `<div class="aside">${rich(r.aside)}</div>`
+  : r.full != null ? `<div class="cell full">${tex(r.full)}</div>` : `<div class="cell lhs">${tex(r.l)}</div><div class="cell">${tex(r.r)}</div>`).join('')}</div>`;
+
+// the worked example's graph: the curve, then for each point a dashed line to each axis in the colour its number has in the working
+function graphSvg(G) {
+  const W = 360, H = 320, [x0, y1, x1, y0] = G.box, span = y1 - y0;
+  const f = new Function('x', `return ${G.f}`);
+  const sx = x => ((x - x0) / (x1 - x0)) * W, sy = y => ((y1 - y) / span) * H;
+  const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+  const ax = sy(clamp(0, y0, y1)), ay = sx(clamp(0, x0, x1));      // axes at 0, or on the edge when 0 is off the graph
+  let d = '', prev = null;
+  for (let i = 0; i <= 480; i++) {
+    const x = x0 + ((x1 - x0) * i) / 480, y = f(x);
+    // lift the pencil where f is undefined, far off the graph, or jumps (an asymptote)
+    if (!Number.isFinite(y) || y < y0 - span || y > y1 + span || (prev != null && Math.abs(y - prev) > span)) { prev = null; continue }
+    d += `${prev == null ? 'M' : 'L'}${sx(x).toFixed(1)},${sy(y).toFixed(1)}`;
+    prev = y;
+  }
+  // colours go in style=, not attributes: Safari ignores var() in SVG presentation attributes
+  const slot = G.slots || {}, col = n => n ? `var(--hl${n})` : 'var(--pencil)';
+  const line = (a, b, c, e, stroke, extra = '') => `<path d="M${a},${b}L${c},${e}" style="stroke:${stroke}" stroke-width="2" fill="none" stroke-linecap="round" ${extra}/>`;
+  const text = (x, y, s, attrs = '') => `<text x="${x}" y="${y}" ${attrs}>${esc(s)}</text>`;
+  const above = p => f(p.x) >= (f(p.x - 0.05) + f(p.x + 0.05)) / 2;          // a max or a rising point: label above
+  const anchor = p => sx(p.x) < 50 ? 'start' : sx(p.x) > W - 50 ? 'end' : 'middle';
+  let guides = '', labels = '';
+  for (const p of G.points || []) {
+    const px = sx(p.x), py = sy(p.y), left = px < ay;
+    if (slot.x) {
+      guides += line(px, ax, px, py, col(slot.x), 'stroke-dasharray="5 5"');
+      labels += text(px, ax + (py < ax ? 16 : -8), fmt(p.x), `text-anchor="middle" class="lab" style="fill:${col(slot.x)}"`);
+    }
+    if (slot.y) {
+      guides += line(ay, py, px, py, col(slot.y), 'stroke-dasharray="2 5"');
+      labels += text(ay + (left ? 6 : -6), py + (above(p) ? -6 : 16), fmt(p.y), `text-anchor="${left ? 'start' : 'end'}" class="lab" style="fill:${col(slot.y)}"`);
+    }
+    labels += `<circle cx="${px}" cy="${py}" r="5" style="fill:var(--pencil)"/>`;
+    if (p.name) labels += text(px, py + (above(p) ? -14 : 22), p.name.replace(/-(?=\d)/g, '−'), `text-anchor="${anchor(p)}" class="lab"`);
+  }
+  return `<svg viewBox="-26 -16 ${W + 52} ${H + 34}" role="img" aria-label="Graph of the function in the question">
+    <clipPath id="clipbox"><rect x="0" y="0" width="${W}" height="${H}"/></clipPath>
+    <g filter="url(#pencil)">${line(0, ax, W, ax, 'var(--pencil)')}${line(ay, H, ay, 0, 'var(--pencil)')}
+      <path d="${d}" fill="none" style="stroke:var(--pencil)" stroke-width="2.6" stroke-linecap="round" clip-path="url(#clipbox)"/>${guides}</g>
+    ${text(W + 6, ax + 4, 'x')}${text(ay + 6, -4, 'y')}${labels}</svg>`;
+}
+
+function render(S) {
+  document.title = `Learn: ${S.title}`;
+  const sec = (id, label, html) => `<section class="sec" id="${id}">${label ? `<span class="lbl">${label}</span>` : ''}${html}</section>`;
+  const chip = n => `<li><${n.lesson ? `a href="maths-learn.html?skill=${n.id}"` : 'span'} class="chip">${esc(n.title)} ${gradeTag(n.grade)}</${n.lesson ? 'a' : 'span'}></li>`;
+  const column = (title, items, none) => `<div><h3>${title}</h3><ul>${items.length ? items.map(chip).join('') : `<li class="none">${none}</li>`}</ul></div>`;
+  const arrow = '<span class="to" aria-hidden="true">→</span>';
+
+  // in the exam: only the student's own level
+  const E = S.exam[LEVEL], years = E.byYear.map((n, k) => [2015 + k, n]);
+  const askedIn = years.filter(([, n]) => n).map(([y]) => y), missed = years.filter(([, n]) => !n).map(([y]) => y), parts = E.byYear.reduce((a, b) => a + b, 0);
+  let exam;
+  if (S.level === 'HL' && LEVEL === 'ordinary') exam = say('This is a **Higher Level** skill. It is not on the Ordinary Level course, so it will not come up on your paper.');
+  else {
+    const when = !askedIn.length ? null : !missed.length ? `on **every ${LEVEL_NAME} paper**` : missed.length <= 3 ? `on every ${LEVEL_NAME} paper except ${listing(missed)}`
+      : askedIn.length <= 4 ? `in ${listing(askedIn)}` : `in ${askedIn.length} of the ${years.length} years`;
+    exam = `<div class="stat"><span class="big">${askedIn.length} of ${years.length}</span><span class="of">${LEVEL_NAME} Level exams, 2015–2025</span></div>
+      <div class="years">${years.map(([y]) => `<span class="yr">’${String(y).slice(2)}</span>`).join('')}${years.map(([y, n]) =>
+        `<span class="d${n ? '' : ' none'}" style="width:${8 + n * 5}px;height:${8 + n * 5}px" title="${y}: ${n ? n + ' part' + (n > 1 ? 's' : '') : 'not asked'}"></span>`).join('')}</div>
+      ${say(when ? `It came up ${when}: ${count(parts, 'exam part')}.${askedIn.length > 1 ? ' A bigger dot means more parts that year.' : ''}`
+        : `It has not come up on a ${LEVEL_NAME} Level paper since 2015. It is on the course, so it still could.`)}
+      ${S.how[LEVEL] ? say(S.how[LEVEL], 'say small') : ''}`;
+  }
+
+  // worked example, with the graph or figure beside it
+  const side = S.graph ? graphSvg(S.graph) : S.diagram || '';
+  const intro = S.graph ? 'Here is the graph, so you can see what you are looking for.' : S.diagram ? (S.id.startsWith('con-') ? 'This is what you will end up with.' : 'Here is the figure.') : '';
+  const fin = S.example.final;
+  const example = `<div class="question">${S.example.question.split('\n').filter(s => s.trim()).map(l => say(l)).join('')}</div>
+    ${intro ? say(intro, 'say small') : ''}
+    <div class="ex${side ? '' : ' solo'}"><div>${S.example.steps.map((st, k) =>
+      `<div class="step"><span class="n">${k + 1}</span><div>${say(st.say)}${work(st.rows)}</div></div>`).join('')}
+      <div class="answer"><small>Answer</small>${fin.includes('$') ? rich(fin) : tex(fin)}</div></div>
+      ${side ? `<div class="graph">${side}</div>` : ''}</div>`;
+
+  const T = S.tips[LEVEL] || [];
+  const tips = T.length ? sec('tips', 'Exam tips', `<ul class="tips">${T.map((t, k) => `<li><span class="k">${k + 1}</span><div>${say(t.tip)}
+    <p class="src">From the ${listing(t.years.map(String))} ${LEVEL_NAME} Level marking scheme${t.years.length > 1 ? 's' : ''}</p></div></li>`).join('')}</ul>`) : '';
+  if (!T.length) document.querySelector('#rail a[href="#tips"]').parentNode.remove();
+
+  const [first, ...rest] = S.what.say;
+  const nN = S.needs.length, nL = S.leadsTo.length;
+  board.innerHTML =
+    `<p class="kicker">${esc(S.chapter)} · skill ${S.rank} of ${S.ofRank}</p><h1>${esc(S.title)}</h1>
+     <div style="margin-bottom:26px">${gradeTag(S.grade)} <span class="grade" style="margin-left:14px">${COURSE[S.level]}</span></div>`
+    + sec('what', 'What it does', say(first) + `<div class="io"><span class="box">${rich(S.what.in)}</span><span class="arrow" aria-hidden="true">→</span><span class="box">${rich(S.what.out)}</span></div>` + rest.map(s => say(s)).join(''))
+    + sec('fit', 'Where it fits', say(`${nN ? `You need ${count(nN, 'smaller skill')} first.` : 'You can start this one straight away: it needs no earlier skill.'} ${
+        nL ? `Once you have it, it opens up ${NUM[nL] ?? nL} more.` : 'No later skill builds on it.'}`)
+      + `<div class="fit">${column('You need', S.needs, 'Nothing first')}${arrow}<div class="this">${esc(S.title)}<br>${gradeTag(S.grade)}</div>${arrow}${column('It leads to', S.leadsTo, 'Nothing after it')}</div>`)
+    + sec('exam', 'In the exam', exam)
+    + sec('example', 'Worked example', example)
+    + tips
+    + `<div class="next">${S.lesson ? `<a class="btn btn-primary" href="maths-skill.html?skill=${S.id}">Practice Problems →</a>`
+        : `<a class="btn btn-primary" href="maths-skill.html">All skills →</a>`}</div>`;
+  fit(); document.fonts.ready.then(fit);
+}
+
+// a figure beside the working moves above it when it would squeeze a line of maths into a scroll box
+// then a line of working still too wide is shrunk to fit (to no less than 75%), and only scrolls past that
+function fit() {
+  const works = [...board.querySelectorAll('.work, .answer')], over = w => w.scrollWidth > w.clientWidth + 1;
+  works.forEach(w => w.style.fontSize = '');
+  const ex = board.querySelector('.ex:not(.solo)');
+  if (ex) { ex.classList.remove('stack'); if (works.some(w => ex.contains(w) && over(w))) ex.classList.add('stack') }
+  for (const w of works.filter(over))
+    w.style.fontSize = Math.max(0.75, w.clientWidth / w.scrollWidth) * parseFloat(getComputedStyle(w).fontSize) + 'px';
+}
+addEventListener('resize', fit);
+
+const id = new URLSearchParams(location.search).get('skill'), entry = MathsPacks.byId[id];
+const practise = document.getElementById('practise');
+if (!entry) board.innerHTML = `<p class="status">There is no skill called “${esc(id || '')}”. <a href="maths-skill.html">See all skills</a>.</p>`;
+else {
+  if (entry.lesson) practise.outerHTML = `<a href="maths-skill.html?skill=${id}">2 · Practice Problems</a>`;
+  else practise.remove();                                   // constructions and proofs: Learn only
+  // the second handler catches only a failed download, so a rendering bug still shows in the console
+  const load = () => MathsPacks.skill(id).then(pack => { render(pack.learn); MathsPacks.prefetchNext(id) },
+    () => { board.innerHTML = '<p class="status">This skill didn’t load. Check your connection, then <button class="btn btn-plain" id="retry">Try again</button></p>';
+      document.getElementById('retry').onclick = () => { board.innerHTML = '<p class="status">Loading…</p>'; load() } });
+  load();
+}
+</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="pencil"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" /><feDisplacementMap in="SourceGraphic" scale="2.2" /></filter>
+</svg>
+</body>
+</html>

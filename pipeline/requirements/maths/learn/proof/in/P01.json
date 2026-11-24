@@ -1,0 +1,879 @@
+[
+ {
+  "skill": "alg-factor-quadratic",
+  "title": "Factorise a quadratic trinomial",
+  "what": {
+   "say": [
+    "You give it a quadratic trinomial, $ax^2 + bx + c$. It writes it as a product of two **brackets**.",
+    "The key idea: split the middle term into two pieces whose numbers multiply to $a \\times c$ and add to $b$. Then the brackets pull out."
+   ],
+   "in": "$ax^2+bx+c$",
+   "out": "$(px+q)(rx+s)$"
+  },
+  "example": {
+   "question": "Factorise $2x^2 + 9x + 10$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the two numbers",
+      "say": "Multiply the first and last numbers: $2 \\times 10 = 20$. Look for two numbers that multiply to $\\hl{1}{20}$ and add to $\\hl{2}{9}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{4 \\times 5} &= 20",
+        "sym": "4*5",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{4 + 5} &= 9",
+        "sym": "4+5",
+        "new": true
+       },
+       {
+        "text": "The numbers are $4$ and $5$."
+       }
+      ]
+     },
+     {
+      "title": "Split the middle term",
+      "say": "Write the $9x$ as $4x + 5x$. The value of the expression does not change.",
+      "lines": [
+       {
+        "tex": "2x^2 + 9x + 10 &= 2x^2 + 4x + 5x + 10",
+        "sym": "2*x**2+4*x+5*x+10",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Take out common factors",
+      "say": "Pair the terms. Take the common factor out of each pair. Both pairs now leave the same bracket.",
+      "lines": [
+       {
+        "tex": "&= 2x(x + 2) + 5(x + 2)",
+        "sym": "2*x*(x+2)+5*(x+2)"
+       }
+      ]
+     },
+     {
+      "title": "Take out the bracket",
+      "say": "The bracket $(x+2)$ is common to both parts. Take it out, and what is left forms the other bracket.",
+      "lines": [
+       {
+        "tex": "&= (x + 2)(2x + 5)",
+        "sym": "(x+2)*(2*x+5)"
+       },
+       {
+        "text": "Check by multiplying out: you get $2x^2 + 9x + 10$ back."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(x + 2)(2x + 5)"
+   },
+   "finalSym": "(x+2)*(2*x+5)",
+   "answerSym": "factor(2*x**2+9*x+10)"
+  }
+ },
+ {
+  "skill": "induction-sum",
+  "title": "Prove a series identity by induction",
+  "what": {
+   "say": [
+    "You give it a formula for a sum, $\\Sigma$, that you are told is true for every $n$. It **proves** it in three moves.",
+    "Show it works for $n = 1$. Assume it works for $n = k$. Then use that to show it works for $n = k + 1$."
+   ],
+   "in": "sum formula for all $n$",
+   "out": "proof by induction"
+  },
+  "example": {
+   "question": "Prove by induction that $1 + 3 + 5 + \\cdots + (2n - 1) = n^2$ for all $n \\in \\mathbb{N}$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Check n = 1",
+      "say": "Test the formula for $n = 1$. The sum has one term.",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 1",
+        "sym": "1",
+        "new": true
+       },
+       {
+        "tex": "\\text{RHS} &= 1^2 = 1",
+        "sym": "1**2",
+        "new": true
+       },
+       {
+        "text": "They match, so it is true for $n = 1$."
+       }
+      ]
+     },
+     {
+      "title": "Assume true for k",
+      "say": "Assume the formula is true for $n = k$. This is what you will use.",
+      "lines": [
+       {
+        "text": "Assume $1 + 3 + 5 + \\cdots + (2k - 1) = k^2$."
+       }
+      ]
+     },
+     {
+      "title": "Prove for k + 1",
+      "say": "Now take $n = k + 1$. Add the next term, $2k + 1$, to the sum for $k$. Replace the sum for $k$ with $k^2$.",
+      "lines": [
+       {
+        "text": "To prove: the sum to $k+1$ terms is $(k + 1)^2$."
+       },
+       {
+        "tex": "S_{k+1} &= k^2 + (2k + 1)",
+        "sym": "k**2+(2*k+1)",
+        "new": true
+       },
+       {
+        "tex": "&= k^2 + 2k + 1",
+        "sym": "k**2+2*k+1"
+       },
+       {
+        "tex": "&= (k + 1)^2",
+        "sym": "(k+1)**2"
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "say": "State all three parts of the conclusion. It is a step the marks are tied to.",
+      "lines": [
+       {
+        "text": "True for $n = 1$. If true for $n = k$, then true for $n = k + 1$. So true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{True for all } n \\in \\mathbb{N}"
+   },
+   "finalSym": "0",
+   "answerSym": "simplify(summation(2*k-1,(k,1,n))-n**2)"
+  }
+ },
+ {
+  "skill": "stat-sd",
+  "title": "Calculate standard deviation (calculator)",
+  "what": {
+   "say": [
+    "You give it a data set, or a frequency table. It finds the **standard deviation**, $\\hl{2}{\\sigma}$, a single number for how spread out the data is.",
+    "It measures how far the values sit from the mean, on average: a small $\\hl{2}{\\sigma}$ means the values bunch together, a big one means they are scattered.",
+    "On an Ordinary Level paper you do not need the formula by hand. Put the data into the calculator's statistics mode and read $\\sigma$."
+   ],
+   "in": "data set",
+   "out": "$\\sigma$"
+  },
+  "example": {
+   "question": "Five runners' times in a race, in seconds, are\n$12, 15, 9, 14, 10$.\nFind the mean and the standard deviation of the times. Give the standard deviation correct to one decimal place.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the mean",
+      "say": "The mean is the total of the times divided by how many there are. Add them up and divide by $5$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\bar{x}} &= \\frac{12+15+9+14+10}{5}",
+        "sym": "(12+15+9+14+10)/5",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{60}{5}",
+        "sym": "60/5"
+       },
+       {
+        "tex": "&= \\hl{1}{12}",
+        "sym": "12"
+       }
+      ]
+     },
+     {
+      "title": "Enter the data",
+      "say": "Put the calculator in statistics mode and type in the five times. Check the count reads $5$ before you go on.",
+      "lines": [
+       {
+        "text": "Enter: 12, 15, 9, 14, 10. Then read the mean from the screen: it should be $12$, as above."
+       }
+      ]
+     },
+     {
+      "title": "Read the standard deviation",
+      "say": "Ask the calculator for $\\sigma$. Use the one for the whole data set, $\\sigma_x$ or $\\sigma$, not the sample one $s$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\sigma} &= \\sqrt{\\frac{(12-12)^2+(15-12)^2+(9-12)^2+(14-12)^2+(10-12)^2}{5}}",
+        "sym": "sqrt(((12-12)**2+(15-12)**2+(9-12)**2+(14-12)**2+(10-12)**2)/5)",
+        "new": true
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{26}{5}}",
+        "sym": "sqrt(26/5)"
+       },
+       {
+        "tex": "&= 2.28\\ldots",
+        "sym": "2.2803508",
+        "approx": true
+       },
+       {
+        "text": "The calculator does all this for you. The line above only shows what it computes."
+       }
+      ]
+     },
+     {
+      "title": "Round and state",
+      "say": "The question asks for one decimal place. Round $\\hl{2}{\\sigma}$ and write both answers with units.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\sigma} &= 2.3\\text{ seconds}",
+        "sym": "2.3",
+        "approx": true,
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "Mean $= 12$ seconds, standard deviation $\\sigma \\approx 2.3$ seconds"
+   },
+   "finalSym": "sqrt(26/5)",
+   "answerSym": "sqrt((12**2+15**2+9**2+14**2+10**2)/5-((12+15+9+14+10)/5)**2)"
+  }
+ },
+ {
+  "skill": "cubic-factor-theorem",
+  "title": "Test a factor with the Factor Theorem",
+  "what": {
+   "say": [
+    "You give it a polynomial $f(x)$ and a bracket $(x - a)$. It tells you whether the bracket is a **factor**.",
+    "The key idea: $(x - a)$ is a factor exactly when $f(a) = 0$. Put $a$ in for $x$ and see if you get zero."
+   ],
+   "in": "$f(x)$ and $(x-a)$",
+   "out": "$f(a)=0$, so a factor"
+  },
+  "example": {
+   "question": "Show that $(x - 2)$ is a factor of $f(x) = x^3 - 4x^2 - 11x + 30$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the value to test",
+      "say": "The bracket $(x - 2)$ is zero when $x = \\hl{1}{2}$. So test $f(\\hl{1}{2})$.",
+      "lines": [
+       {
+        "tex": "x - 2 &= 0",
+        "sym": "x-2"
+       },
+       {
+        "tex": "x &= \\hl{1}{2}",
+        "sym": "2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute into f",
+      "say": "Put $\\hl{1}{2}$ in place of every $x$ in $f(x)$.",
+      "lines": [
+       {
+        "tex": "f(\\hl{1}{2}) &= (\\hl{1}{2})^3 - 4(\\hl{1}{2})^2 - 11(\\hl{1}{2}) + 30",
+        "sym": "2**3-4*2**2-11*2+30",
+        "new": true
+       },
+       {
+        "tex": "&= 8 - 16 - 22 + 30",
+        "sym": "8-16-22+30"
+       },
+       {
+        "tex": "&= \\hl{2}{0}",
+        "sym": "0"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "say": "The result is $\\hl{2}{0}$, so $x = \\hl{1}{2}$ is a root. Say that in words to finish.",
+      "lines": [
+       {
+        "text": "$f(2) = 0$, so $(x - 2)$ is a factor of $f(x)$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f(2) = 0 \\text{, so } (x - 2) \\text{ is a factor}"
+   },
+   "finalSym": "0",
+   "answerSym": "(x**3-4*x**2-11*x+30).subs(x,2)"
+  }
+ },
+ {
+  "skill": "cubic-find-root",
+  "title": "Find an integer root by trial",
+  "what": {
+   "say": [
+    "You give it a cubic with whole-number coefficients. It finds one **integer root** by trial.",
+    "The key idea: an integer root must divide the **constant term**. So you only test those divisors, one at a time, until one gives $0$."
+   ],
+   "in": "cubic $f(x)$",
+   "out": "an integer root"
+  },
+  "example": {
+   "question": "Find the integer root of $f(x) = x^3 - x^2 + x - 6$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "List the candidates",
+      "say": "An integer root divides the constant term $-6$. The candidates are $\\pm 1, \\pm 2, \\pm 3, \\pm 6$. Test the small ones first.",
+      "lines": [
+       {
+        "text": "Divisors of $6$: $1, 2, 3, 6$, each with a plus or a minus."
+       }
+      ]
+     },
+     {
+      "title": "Try 1 and −1",
+      "say": "Put $x = 1$ into $f(x)$. If the answer is not $0$, move on.",
+      "lines": [
+       {
+        "tex": "f(1) &= 1 - 1 + 1 - 6",
+        "sym": "1-1+1-6",
+        "new": true
+       },
+       {
+        "tex": "&= -5",
+        "sym": "-5"
+       },
+       {
+        "text": "Not zero, so $1$ is not a root."
+       },
+       {
+        "tex": "f(-1) &= -1 - 1 - 1 - 6",
+        "sym": "-1-1-1-6",
+        "new": true
+       },
+       {
+        "tex": "&= -9",
+        "sym": "-9"
+       },
+       {
+        "text": "Not zero either."
+       }
+      ]
+     },
+     {
+      "title": "Try 2",
+      "say": "Next candidate is $x = 2$.",
+      "lines": [
+       {
+        "tex": "f(\\hl{1}{2}) &= (\\hl{1}{2})^3 - (\\hl{1}{2})^2 + \\hl{1}{2} - 6",
+        "sym": "2**3-2**2+2-6",
+        "new": true
+       },
+       {
+        "tex": "&= 8 - 4 + 2 - 6",
+        "sym": "8-4+2-6"
+       },
+       {
+        "tex": "&= \\hl{2}{0}",
+        "sym": "0"
+       }
+      ]
+     },
+     {
+      "title": "Write the root",
+      "say": "The value is $\\hl{2}{0}$, so $x = \\hl{1}{2}$ is a root and $(x - 2)$ is a factor.",
+      "lines": [
+       {
+        "text": "Root: $x = 2$. Factor: $(x - 2)$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 2"
+   },
+   "finalSym": "2",
+   "answerSym": "sum(real_roots(x**3-x**2+x-6))"
+  }
+ },
+ {
+  "skill": "cubic-form-from-roots",
+  "title": "Form a cubic from its roots",
+  "what": {
+   "say": [
+    "You give it three roots. It builds the **cubic equation** that has exactly those roots.",
+    "The key idea: a root $a$ means a factor $(x - a)$. Multiply the three factors out and set the result equal to $0$."
+   ],
+   "in": "roots $a, b, c$",
+   "out": "$x^3 + \\dots = 0$"
+  },
+  "example": {
+   "question": "A cubic equation has roots $-1$, $2$ and $4$. Write the equation in the form $x^3 + bx^2 + cx + d = 0$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn roots into factors",
+      "say": "A root $a$ gives the factor $(x - a)$. The three roots give three brackets.",
+      "lines": [
+       {
+        "tex": "(x - (-1))(x - 2)(x - 4) &= 0",
+        "sym": "(x+1)*(x-2)*(x-4)",
+        "new": true
+       },
+       {
+        "text": "The first bracket is $(x + 1)$."
+       }
+      ]
+     },
+     {
+      "title": "Multiply two brackets",
+      "say": "Multiply the first two brackets together.",
+      "lines": [
+       {
+        "tex": "(x + 1)(x - 2) &= x^2 - 2x + x - 2",
+        "sym": "(x+1)*(x-2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{x^2 - x - 2}",
+        "sym": "x**2-x-2"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the third",
+      "say": "Now multiply $\\hl{1}{x^2 - x - 2}$ by the last bracket, term by term.",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{x^2 - x - 2})(x - 4) &= x^3 - 4x^2 - x^2 + 4x - 2x + 8",
+        "sym": "(x**2-x-2)*(x-4)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{x^3 - 5x^2 + 2x + 8}",
+        "sym": "x**3-5*x**2+2*x+8"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "say": "Set the cubic equal to $0$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{x^3 - 5x^2 + 2x + 8} &= 0",
+        "sym": "x**3-5*x**2+2*x+8",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x^3 - 5x^2 + 2x + 8 = 0"
+   },
+   "finalSym": "x**3-5*x**2+2*x+8",
+   "answerSym": "expand((x+1)*(x-2)*(x-4))"
+  }
+ },
+ {
+  "skill": "cubic-unknown-coefficient",
+  "title": "Find unknown coefficients from given factors",
+  "what": {
+   "say": [
+    "You give it a polynomial with an unknown letter and a bracket you know is a **factor**. It finds the letter.",
+    "The key idea: if $(x - a)$ is a factor then $f(a) = 0$. Putting $a$ in turns the polynomial into an equation in the unknown alone."
+   ],
+   "in": "$f(x)$ with $k$, and a factor",
+   "out": "the value of $k$"
+  },
+  "example": {
+   "question": "$(x + 2)$ is a factor of $f(x) = x^3 + kx^2 - 5x + 6$. Find the value of $k$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Use the factor",
+      "say": "The factor $(x + 2)$ is zero when $x = \\hl{1}{-2}$. A factor means $f(\\hl{1}{-2}) = 0$.",
+      "lines": [
+       {
+        "tex": "f(\\hl{1}{-2}) &= 0",
+        "sym": "0",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute into f",
+      "say": "Put $\\hl{1}{-2}$ in for every $x$. The only unknown left is $k$.",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{-2})^3 + k(\\hl{1}{-2})^2 - 5(\\hl{1}{-2}) + 6 &= 0",
+        "sym": "(-2)**3+k*(-2)**2-5*(-2)+6",
+        "new": true
+       },
+       {
+        "tex": "-8 + 4k + 10 + 6 &= 0",
+        "sym": "-8+4*k+10+6"
+       },
+       {
+        "tex": "4k + 8 &= 0",
+        "sym": "4*k+8"
+       }
+      ]
+     },
+     {
+      "title": "Solve for k",
+      "say": "Solve the equation in $k$.",
+      "lines": [
+       {
+        "tex": "4k &= -8",
+        "sym": "4*k+8",
+        "new": true
+       },
+       {
+        "tex": "k &= \\hl{2}{-2}",
+        "sym": "-2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "k = -2"
+   },
+   "finalSym": "-2",
+   "answerSym": "solve((-2)**3+k*(-2)**2-5*(-2)+6,k)"
+  }
+ },
+ {
+  "skill": "cubic-solve",
+  "title": "Solve a cubic with at least one integer root",
+  "what": {
+   "say": [
+    "You give it a cubic equation, $f(x) = 0$. It finds **all three roots**.",
+    "The key idea: once one root $a$ is known, $(x-a)$ divides the cubic exactly, and what is left is a quadratic you can already solve."
+   ],
+   "in": "$ax^3+bx^2+cx+d=0$",
+   "out": "three roots"
+  },
+  "example": {
+   "question": "Solve $2x^3 - 3x^2 - 11x + 6 = 0$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find one root by trial",
+      "say": "Try small whole numbers in $f(x)$. A root is a value that makes $f(x) = 0$.",
+      "lines": [
+       {
+        "text": "$f(1) = -6$, $f(-1) = 12$ and $f(2) = -12$. None is zero."
+       },
+       {
+        "tex": "f(\\hl{1}{3}) &= 2(3)^3 - 3(3)^2 - 11(3) + 6",
+        "sym": "2*3**3-3*3**2-11*3+6",
+        "new": true
+       },
+       {
+        "tex": "&= 54 - 27 - 33 + 6",
+        "sym": "54-27-33+6"
+       },
+       {
+        "tex": "&= 0",
+        "sym": "0"
+       },
+       {
+        "text": "So $x = 3$ is a root, and $(x - 3)$ is a factor."
+       }
+      ]
+     },
+     {
+      "title": "Divide by the factor",
+      "say": "Divide the cubic by $(x - 3)$ using long division. Whatever is left is a quadratic.",
+      "lines": [
+       {
+        "text": "$2x^3 \\div x = 2x^2$. Subtract $2x^2(x-3)$, bring down the next term, and repeat."
+       },
+       {
+        "tex": "2x^3 - 3x^2 - 11x + 6 &= (x - 3)(\\hl{2}{2x^2 + 3x - 2})",
+        "sym": "(x-3)*(2*x**2+3*x-2)",
+        "new": true
+       },
+       {
+        "text": "The remainder is $0$, so the division is exact."
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "say": "Now solve $\\hl{2}{2x^2 + 3x - 2} = 0$. Split the middle term: $3x = 4x - x$.",
+      "lines": [
+       {
+        "tex": "2x^2 + 3x - 2 &= (2x - 1)(x + 2)",
+        "sym": "(2*x-1)*(x+2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Read off the three roots",
+      "say": "A product is zero when one factor is zero. Set each factor $(x-3)$, $(2x-1)$ and $(x+2)$ equal to $0$.",
+      "lines": [
+       {
+        "tex": "x &= \\hl{1}{3}",
+        "sym": "3",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{1}{\\tfrac{1}{2}}",
+        "sym": "1/2",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{1}{-2}",
+        "sym": "-2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 3,\\ \\tfrac{1}{2},\\ -2"
+   },
+   "finalSym": "[-2, 1/2, 3]",
+   "answerSym": "solve(2*x**3-3*x**2-11*x+6, x)"
+  }
+ },
+ {
+  "skill": "alg-collect-like",
+  "title": "Collect like terms",
+  "what": {
+   "say": [
+    "You give it an expression with several terms. It gives back a shorter one with each kind of term **added up** once.",
+    "The key idea: only like terms combine, meaning the same letter to the same power. $7a$ and $3a$ combine; $7a$ and $4b$ do not."
+   ],
+   "in": "$7a+4b-3a+6b$",
+   "out": "$4a+10b$"
+  },
+  "example": {
+   "question": "Simplify $7a + 4b - 3a + 6b - 5 + 9$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Group the like terms",
+      "say": "Put the terms with the same letter together. Each term keeps its sign.",
+      "lines": [
+       {
+        "tex": "7a + 4b - 3a + 6b - 5 + 9 &= \\hl{1}{7a - 3a} + \\hl{2}{4b + 6b} + \\hl{3}{(-5 + 9)}",
+        "sym": "7*a-3*a+4*b+6*b-5+9",
+        "new": true
+       },
+       {
+        "text": "The sign in front of a term goes with it when it moves."
+       }
+      ]
+     },
+     {
+      "title": "Add each group",
+      "say": "Add the numbers in front of each letter. The letter stays the same.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{4a} + \\hl{2}{10b} + \\hl{3}{4}",
+        "sym": "4*a+10*b+4"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "4a + 10b + 4"
+   },
+   "finalSym": "4*a+10*b+4",
+   "answerSym": "expand(7*a+4*b-3*a+6*b-5+9)"
+  }
+ },
+ {
+  "skill": "alg-evaluate",
+  "title": "Evaluate an expression",
+  "what": {
+   "say": [
+    "You give it an expression and a value for each letter. It gives back a **number**.",
+    "The key idea: put each value in place of its letter, in brackets, then do the arithmetic in the right order."
+   ],
+   "in": "$g(x)$ and $x=3$",
+   "out": "a number"
+  },
+  "example": {
+   "question": "$g(x) = 2x^3 - 5x^2 + x - 4$.\nFind $g(3)$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Substitute the value",
+      "say": "Replace every $x$ with $\\hl{1}{3}$. Put it in brackets.",
+      "lines": [
+       {
+        "tex": "g(\\hl{1}{3}) &= 2(3)^3 - 5(3)^2 + 3 - 4",
+        "sym": "2*3**3-5*3**2+3-4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Work out the powers",
+      "say": "Powers come before multiplying. Work out $3^3$ and $3^2$ first, then multiply.",
+      "lines": [
+       {
+        "tex": "&= 2(27) - 5(9) + 3 - 4",
+        "sym": "2*27-5*9+3-4"
+       },
+       {
+        "tex": "&= 54 - 45 + 3 - 4",
+        "sym": "54-45+3-4"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract",
+      "say": "Now work from left to right.",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{8}",
+        "sym": "8"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "g(3) = 8"
+   },
+   "finalSym": "8",
+   "answerSym": "(2*x**3-5*x**2+x-4).subs(x,3)"
+  }
+ },
+ {
+  "skill": "alg-expand-single",
+  "title": "Expand a bracket by a term",
+  "what": {
+   "say": [
+    "You give it a bracket with a number or letter outside it. It gives back the same expression **without the bracket**.",
+    "The key idea: the term outside multiplies every term inside, and its sign goes with it."
+   ],
+   "in": "$a(bx+c)$",
+   "out": "$abx+ac$"
+  },
+  "example": {
+   "question": "Simplify $4(3x - 5) - 2(x - 6)$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Expand the first bracket",
+      "say": "Multiply every term in $(3x - 5)$ by $4$.",
+      "lines": [
+       {
+        "tex": "4(3x - 5) &= \\hl{1}{12x - 20}",
+        "sym": "12*x-20",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand the second bracket",
+      "say": "Multiply every term in $(x - 6)$ by $-2$. The minus sign goes with the $2$.",
+      "lines": [
+       {
+        "tex": "-2(x - 6) &= \\hl{2}{-2x + 12}",
+        "sym": "-2*x+12",
+        "new": true
+       },
+       {
+        "text": "$-2 \\times -6 = +12$. Two minus signs make a plus."
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "say": "Write both results together and add the $x$ terms and the numbers.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{12x - 20} \\hl{2}{- 2x + 12} &= 10x - 8",
+        "sym": "10*x-8",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "10x - 8"
+   },
+   "finalSym": "10*x-8",
+   "answerSym": "expand(4*(3*x-5)-2*(x-6))"
+  }
+ },
+ {
+  "skill": "alg-factor-hcf",
+  "title": "Factorise by highest common factor",
+  "what": {
+   "say": [
+    "You give it an expression with several terms, like $6x^2 - 9x$. It writes it as one **common factor** multiplied by a bracket.",
+    "The key idea: find the biggest number and the most $x$'s that every term shares. Pull that out, and what is left goes in the bracket."
+   ],
+   "in": "expression",
+   "out": "factor $\\times$ bracket"
+  },
+  "example": {
+   "question": "Take out the highest common factor of $12x^3 - 18x^2 + 6x$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the common factor",
+      "say": "The numbers are $12$, $18$ and $6$. The biggest number that divides all three is $6$. Every term also has at least one $x$. So the common factor is $\\hl{1}{6x}$.",
+      "lines": [
+       {
+        "text": "Highest common factor: $\\hl{1}{6x}$"
+       }
+      ]
+     },
+     {
+      "title": "Divide each term",
+      "say": "Divide every term by $\\hl{1}{6x}$. Write each term as $\\hl{1}{6x}$ times what is left.",
+      "lines": [
+       {
+        "tex": "12x^3 - 18x^2 + 6x &= \\hl{1}{6x}\\cdot 2x^2 - \\hl{1}{6x}\\cdot 3x + \\hl{1}{6x}\\cdot 1",
+        "sym": "6*x*2*x**2-6*x*3*x+6*x*1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the bracket",
+      "say": "Take $\\hl{1}{6x}$ outside. The leftovers go inside the bracket.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{6x}(2x^2 - 3x + 1)",
+        "sym": "6*x*(2*x**2-3*x+1)"
+       },
+       {
+        "text": "Check: multiply the bracket back out and you get the original."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "6x(2x^2 - 3x + 1)"
+   },
+   "finalSym": "6*x*(2*x**2-3*x+1)",
+   "answerSym": "factor(12*x**3-18*x**2+6*x)"
+  }
+ }
+]

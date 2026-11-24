@@ -1,0 +1,1202 @@
+[
+ {
+  "skill": "geo-thm20",
+  "problems": [
+   {
+    "part": "maths-pp-2015-higher-p2-q7#(a)",
+    "note": null,
+    "legend": {
+     "1": "the hypotenuse, opposite the right angle",
+     "2": "the first leg",
+     "3": "the second leg",
+     "4": "the right angle at T, from Theorem 20"
+    },
+    "steps": [
+     {
+      "ask": "What angle does a tangent make with a radius at the point of contact? What does that tell you about the shape BTHK?",
+      "title": "Draw BT parallel to KH",
+      "lines": [
+       {
+        "text": "$BK$ and $AH$ are both perpendicular to the tangent $HK$, so $BTHK$ has four right angles. It is a rectangle."
+       },
+       {
+        "tex": "|TH| &= |BK| = r"
+       },
+       {
+        "tex": "\\hl{3}{|BT|} &= |HK| = 8r"
+       },
+       {
+        "tex": "\\hl{2}{|AT|} &= 4r - r"
+       },
+       {
+        "tex": "&= \\hl{2}{3r}"
+       }
+      ]
+     },
+     {
+      "ask": "Which side is opposite the right angle at T? Which two sides do you square and add?",
+      "title": "Use Pythagoras in the right-angled triangle ATB",
+      "lines": [
+       {
+        "text": "$|\\hl{4}{\\angle ATB}| = 90^{\\circ}$, so the hypotenuse is $[\\hl{1}{AB}]$."
+       },
+       {
+        "tex": "\\hl{1}{|AB|^2} &= \\hl{2}{|AT|^2} + \\hl{3}{|BT|^2}"
+       },
+       {
+        "tex": "\\hl{1}{\\left(20\\sqrt{73}\\right)^2} &= \\hl{2}{(3r)^2} + \\hl{3}{(8r)^2}"
+       },
+       {
+        "tex": "400 \\times 73 &= 9r^2 + 64r^2"
+       },
+       {
+        "tex": "29200 &= 73r^2"
+       },
+       {
+        "tex": "r^2 &= 400"
+       }
+      ]
+     },
+     {
+      "ask": "Which square roots of 400 can be the length of a radius?",
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A radius cannot be negative."
+       },
+       {
+        "tex": "r &= 20"
+       }
+      ]
+     }
+    ],
+    "final": "r = 20 \\text{ cm}",
+    "graph": null
+   },
+   {
+    "part": "practice-geo-thm20-1",
+    "note": "Same method as problem 1: Theorem 20 gives the right angle, then Pythagoras finds the unknown radius. Changed: there is no rectangle construction, the tangent and the hypotenuse are given directly, and the numbers are simpler.",
+    "legend": {
+     "1": "the hypotenuse, opposite the right angle",
+     "2": "the first leg",
+     "3": "the second leg",
+     "4": "the right angle at T, from Theorem 20"
+    },
+    "steps": [
+     {
+      "ask": "What angle does a tangent make with the radius at the point of contact? Which side of triangle OTP is opposite that angle?",
+      "title": "Use Theorem 20",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius at the point of contact, so $|\\hl{4}{\\angle OTP}| = 90^\\circ$ and $[\\hl{1}{OP}]$ is the hypotenuse of triangle $OTP$."
+       }
+      ]
+     },
+     {
+      "ask": "Which two squared sides add up to the hypotenuse squared? Write that equation with OT, TP and OP.",
+      "title": "Use Pythagoras",
+      "lines": [
+       {
+        "tex": "\\hl{2}{|OT|^2} + \\hl{3}{|TP|^2} &= \\hl{1}{|OP|^2}"
+       },
+       {
+        "tex": "\\hl{2}{r^2} + \\hl{3}{15^2} &= \\hl{1}{17^2}"
+       },
+       {
+        "tex": "\\hl{2}{r^2} + \\hl{3}{225} &= \\hl{1}{289}"
+       },
+       {
+        "tex": "\\hl{2}{r^2} &= 64"
+       }
+      ]
+     },
+     {
+      "ask": "Can a radius be negative? Which square root of 64 do you keep?",
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A radius cannot be negative."
+       },
+       {
+        "tex": "r &= 8"
+       }
+      ]
+     }
+    ],
+    "final": "r = 8 \\text{ cm}",
+    "graph": null
+   },
+   {
+    "part": "practice-geo-thm20-2",
+    "note": "Same method as problem 2: Theorem 20, then Pythagoras in the same right-angled triangle. Changed: the radius is now given and the tangent length is the unknown, so the second leg is the unknown.",
+    "legend": {
+     "1": "the hypotenuse, opposite the right angle",
+     "2": "the first leg",
+     "3": "the second leg",
+     "4": "the right angle at T, from Theorem 20"
+    },
+    "steps": [
+     {
+      "ask": "What angle does a tangent make with the radius at the point of contact? Which side of triangle OTP is opposite that angle?",
+      "title": "Use Theorem 20",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius at the point of contact, so $|\\hl{4}{\\angle OTP}| = 90^\\circ$ and $[\\hl{1}{OP}]$ is the hypotenuse of triangle $OTP$."
+       }
+      ]
+     },
+     {
+      "ask": "Which known lengths go into the squares, and which length is still unknown?",
+      "title": "Use Pythagoras",
+      "lines": [
+       {
+        "tex": "\\hl{2}{|OT|^2} + \\hl{3}{|TP|^2} &= \\hl{1}{|OP|^2}"
+       },
+       {
+        "tex": "\\hl{2}{5^2} + \\hl{3}{|TP|^2} &= \\hl{1}{13^2}"
+       },
+       {
+        "tex": "\\hl{2}{25} + \\hl{3}{|TP|^2} &= \\hl{1}{169}"
+       },
+       {
+        "tex": "\\hl{3}{|TP|^2} &= 144"
+       }
+      ]
+     },
+     {
+      "ask": "Can a length be negative? Which square root of 144 do you keep?",
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A length cannot be negative."
+       },
+       {
+        "tex": "|TP| &= 12"
+       }
+      ]
+     }
+    ],
+    "final": "|PT| = 12 \\text{ cm}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "seq-arith-find-ad",
+  "problems": [
+   {
+    "part": "maths-pp-2022-ordinary-p1-q6#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the first term, T₁ (a)",
+     "2": "the second term, T₂",
+     "3": "the common difference, d"
+    },
+    "steps": [
+     {
+      "ask": "Which value of n gives the second term? What do you get when you substitute it into the formula?",
+      "title": "Substitute n = 2 to find T_2",
+      "lines": [
+       {
+        "tex": "\\hl{2}{T_2} &= -254 + (2-1)(4)"
+       },
+       {
+        "tex": "&= -254 + 4"
+       },
+       {
+        "tex": "&= -250"
+       }
+      ]
+     },
+     {
+      "ask": "How can you find the common difference from the first two terms?",
+      "title": "Subtract T_1 from T_2",
+      "lines": [
+       {
+        "tex": "\\hl{3}{d} &= \\hl{2}{T_2} - \\hl{1}{T_1}"
+       },
+       {
+        "tex": "&= -250 + 254"
+       },
+       {
+        "tex": "&= 4"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{d} = 4",
+    "graph": null
+   },
+   {
+    "part": "practice-seq-arith-find-ad-1",
+    "note": "Same method as problem 1: find the terms, then read off the first term and subtract to get d. Changed: the sequence is given by its nth-term formula, so you substitute n = 1 and n = 2 yourself, and a is asked for as well as d.",
+    "legend": {
+     "1": "the first term, T₁ (a)",
+     "2": "the second term, T₂",
+     "3": "the common difference, d"
+    },
+    "steps": [
+     {
+      "ask": "Which values of n give the first and second terms? Substitute each one into the formula.",
+      "title": "Substitute n = 1 and n = 2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{T_1} &= 3 - 4(1)"
+       },
+       {
+        "tex": "&= -1"
+       },
+       {
+        "tex": "\\hl{2}{T_2} &= 3 - 4(2)"
+       },
+       {
+        "tex": "&= -5"
+       }
+      ]
+     },
+     {
+      "ask": "Which term is the first term a? How do you find d from T₂ and T₁?",
+      "title": "Read off a and subtract to find d",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= \\hl{1}{T_1} = -1"
+       },
+       {
+        "tex": "\\hl{3}{d} &= \\hl{2}{T_2} - \\hl{1}{T_1}"
+       },
+       {
+        "tex": "&= -5 + 1"
+       },
+       {
+        "tex": "&= -4"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{a} = -1,\\ \\hl{3}{d} = -4",
+    "graph": null
+   },
+   {
+    "part": "practice-seq-arith-find-ad-2",
+    "note": "Same method as problems 1 and 2: substitute n = 1 and n = 2, read off a, then subtract. Changed: the nth term is a fraction, so T₁ and T₂ are fractions and d = 3/2 is not a whole number.",
+    "legend": {
+     "1": "the first term, T₁ (a)",
+     "2": "the second term, T₂",
+     "3": "the common difference, d"
+    },
+    "steps": [
+     {
+      "ask": "What do you get for the first two terms when you substitute n = 1 and n = 2?",
+      "title": "Substitute n = 1 and n = 2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{T_1} &= \\frac{3(1) - 1}{2}"
+       },
+       {
+        "tex": "&= 1"
+       },
+       {
+        "tex": "\\hl{2}{T_2} &= \\frac{3(2) - 1}{2}"
+       },
+       {
+        "tex": "&= \\frac{5}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "Which term is the first term a? How do you find d from T₂ and T₁?",
+      "title": "Read off a and subtract to find d",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= \\hl{1}{T_1} = 1"
+       },
+       {
+        "tex": "\\hl{3}{d} &= \\hl{2}{T_2} - \\hl{1}{T_1}"
+       },
+       {
+        "tex": "&= \\frac{5}{2} - 1"
+       },
+       {
+        "tex": "&= \\frac{3}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{a} = 1,\\ \\hl{3}{d} = \\frac{3}{2}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-srs-bias",
+  "problems": [
+   {
+    "part": "practice-stat-srs-bias-2",
+    "note": null,
+    "legend": {
+     "1": "the fraction of people left out",
+     "2": "the percentage left out"
+    },
+    "steps": [
+     {
+      "ask": "Who is out of reach of a phone call at this time of day?",
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "Phoning at 11 a.m. on a weekday leaves out people at work, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "ask": "How many residents are left out, and out of how many in total? Write that as a fraction.",
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\frac{180}{500} &= \\hl{1}{\\frac{9}{25}}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you turn a fraction into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{9}{25}} \\times 100 &= \\hl{2}{36}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{36\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-srs-bias-3",
+    "note": "Same method as problem 1: say who the method leaves out, write that group as a fraction of the whole, then convert to a percentage. Changed: the sample is a website vote rather than a phone call, and the town has 2500 adults, so the fraction is 6/25 and the answer is 24%.",
+    "legend": {
+     "1": "the fraction of people left out",
+     "2": "the percentage left out"
+    },
+    "steps": [
+     {
+      "ask": "Who cannot take part in a vote on a website?",
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "A website vote leaves out adults who do not use the internet, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "ask": "How many adults are left out, and what fraction of all the adults in the town is that?",
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\frac{600}{2500} &= \\hl{1}{\\frac{6}{25}}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you turn a fraction into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{6}{25}} \\times 100 &= \\hl{2}{24}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{24\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-srs-bias-4",
+    "note": "Same method as problems 1 and 2: spot who is left out, write that group as a fraction, then convert to a percentage. Changed: the number left out is not given, so you first subtract 300 from 400. The answer is 25%.",
+    "legend": {
+     "1": "the fraction of people left out",
+     "2": "the percentage left out"
+    },
+    "steps": [
+     {
+      "ask": "Who is left out when only the Saturday morning trainers are asked?",
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "Asking only Saturday morning trainers leaves out members who do not train then, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "ask": "How many members are not among the 300 who train on Saturday?",
+      "title": "Find the number left out",
+      "lines": [
+       {
+        "tex": "400 - 300 &= 100"
+       }
+      ]
+     },
+     {
+      "ask": "Write the number left out as a fraction of all members. Can it be simplified?",
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\frac{100}{400} &= \\hl{1}{\\frac{1}{4}}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you turn a fraction into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{1}{4}} \\times 100 &= \\hl{2}{25}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{25\\%}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "inf-confidence-width",
+  "problems": [
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(c)",
+    "note": null,
+    "legend": {
+     "1": "the margin of error",
+     "2": "p̂(1 − p̂)",
+     "3": "the sample size n, the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the distance from the centre of the interval to its upper limit?",
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "text": "The interval is centred on $\\hat{p} = 0.35$ and its upper limit is $0.435$."
+       },
+       {
+        "tex": "\\hl{1}{\\text{margin}} &= 0.435 - 0.35"
+       },
+       {
+        "tex": "&= \\hl{1}{0.085}"
+       }
+      ]
+     },
+     {
+      "ask": "What is p̂(1 − p̂) when p̂ is 0.35?",
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\hat{p}(1 - \\hat{p})} &= 0.35 \\times 0.65"
+       },
+       {
+        "tex": "&= \\hl{2}{0.2275}"
+       }
+      ]
+     },
+     {
+      "ask": "Which z-value goes with a 95% interval? Put it and the standard error into the margin equation.",
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.2275}{n}} &= \\hl{1}{0.085}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you remove the square root and then the fraction to isolate n?",
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.2275}{n}} &= \\frac{0.085}{1.96}"
+       },
+       {
+        "tex": "\\frac{0.2275}{n} &= \\left(\\frac{0.085}{1.96}\\right)^2"
+       },
+       {
+        "tex": "\\hl{3}{n} &= \\frac{0.2275}{\\left(\\frac{0.085}{1.96}\\right)^2}"
+       },
+       {
+        "tex": "&= 120.96\\ldots"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{121}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{n} = \\hl{3}{121}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-confidence-width-2",
+    "note": "Same method as problem 1: find p̂ and the margin, then solve the margin equation for n. Changed: the interval is given by its two limits, so p̂ is their midpoint and the margin is half the width. The numbers are simpler and n comes out exactly.",
+    "legend": {
+     "1": "the margin of error",
+     "2": "p̂(1 − p̂)",
+     "3": "the sample size n, the answer"
+    },
+    "steps": [
+     {
+      "ask": "How do you find the centre of the interval from its two limits?",
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{0.1608 + 0.2392}{2} = 0.2"
+       },
+       {
+        "tex": "\\hl{1}{\\text{margin}} &= 0.2392 - 0.2 = \\hl{1}{0.0392}"
+       }
+      ]
+     },
+     {
+      "ask": "What is p̂(1 − p̂) when p̂ is the centre you found?",
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\hat{p}(1 - \\hat{p})} &= 0.2 \\times 0.8"
+       },
+       {
+        "tex": "&= \\hl{2}{0.16}"
+       }
+      ]
+     },
+     {
+      "ask": "Which z-value goes with a 95% interval? Put it and the standard error into the margin equation.",
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.16}{n}} &= \\hl{1}{0.0392}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you remove the square root and then the fraction to get n?",
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.16}{n}} &= 0.02"
+       },
+       {
+        "tex": "\\frac{0.16}{n} &= 0.0004"
+       },
+       {
+        "tex": "\\hl{3}{n} &= \\hl{3}{400}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{n} = \\hl{3}{400}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-confidence-width-3",
+    "note": "Same method as problem 2: the two limits give p̂ and the margin, then solve for n. Changed: only the numbers. The centre is 0.6, so p̂(1 − p̂) is 0.24 rather than 0.16, and n = 600.",
+    "legend": {
+     "1": "the margin of error",
+     "2": "p̂(1 − p̂)",
+     "3": "the sample size n, the answer"
+    },
+    "steps": [
+     {
+      "ask": "How do you find the centre of the interval from its two limits?",
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{0.5608 + 0.6392}{2} = 0.6"
+       },
+       {
+        "tex": "\\hl{1}{\\text{margin}} &= 0.6392 - 0.6 = \\hl{1}{0.0392}"
+       }
+      ]
+     },
+     {
+      "ask": "What is p̂(1 − p̂) when p̂ is the centre you found?",
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\hat{p}(1 - \\hat{p})} &= 0.6 \\times 0.4"
+       },
+       {
+        "tex": "&= \\hl{2}{0.24}"
+       }
+      ]
+     },
+     {
+      "ask": "Which z-value goes with a 95% interval? Put it and the standard error into the margin equation.",
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.24}{n}} &= \\hl{1}{0.0392}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you remove the square root and then the fraction to get n?",
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.24}{n}} &= 0.02"
+       },
+       {
+        "tex": "\\frac{0.24}{n} &= 0.0004"
+       },
+       {
+        "tex": "\\hl{3}{n} &= \\hl{3}{600}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{n} = \\hl{3}{600}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "trig-graph",
+  "problems": [
+   {
+    "part": "maths-pp-2022-higher-p1-q8#(a), (b)",
+    "note": null,
+    "legend": {
+     "1": "the input t, the x-coordinate of each point",
+     "2": "the output h(t), the y-coordinate of each point"
+    },
+    "steps": [
+     {
+      "ask": "Which t-values do you need, and what angle does each one give inside the cosine?",
+      "title": "Use h(t) = 72 - 60cos(πt/3) at each t",
+      "lines": [
+       {
+        "text": "Work in radians. $h(1) = 42$ is given, so we find the other eight values."
+       }
+      ]
+     },
+     {
+      "ask": "What is cos(0), and what does that make h(0)?",
+      "title": "Substitute t = 0",
+      "lines": [
+       {
+        "tex": "h(0) &= 72 - 60\\cos\\left(0\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(1\\right)"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "ask": "What is cos(2π/3)? Use the unit circle or a cos graph.",
+      "title": "Substitute t = 2",
+      "lines": [
+       {
+        "tex": "h(2) &= 72 - 60\\cos\\left(\\frac{2\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "ask": "What is cos π, and what is h(3)?",
+      "title": "Substitute t = 3",
+      "lines": [
+       {
+        "tex": "h(3) &= 72 - 60\\cos\\left(\\pi\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-1\\right)"
+       },
+       {
+        "tex": "&= 72 + 60"
+       },
+       {
+        "tex": "&= 132"
+       }
+      ]
+     },
+     {
+      "ask": "What is cos(4π/3)? Is it positive or negative?",
+      "title": "Substitute t = 4",
+      "lines": [
+       {
+        "tex": "h(4) &= 72 - 60\\cos\\left(\\frac{4\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "ask": "What is cos(5π/3)? Is it positive or negative?",
+      "title": "Substitute t = 5",
+      "lines": [
+       {
+        "tex": "h(5) &= 72 - 60\\cos\\left(\\frac{5\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     },
+     {
+      "ask": "What is cos(2π)?",
+      "title": "Substitute t = 6",
+      "lines": [
+       {
+        "tex": "h(6) &= 72 - 60\\cos\\left(2\\pi\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(1\\right)"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "ask": "What is cos(7π/3)? Where does 7π/3 sit on the unit circle?",
+      "title": "Substitute t = 7",
+      "lines": [
+       {
+        "tex": "h(7) &= 72 - 60\\cos\\left(\\frac{7\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     },
+     {
+      "ask": "What is cos(8π/3)? Is it positive or negative?",
+      "title": "Substitute t = 8",
+      "lines": [
+       {
+        "tex": "h(8) &= 72 - 60\\cos\\left(\\frac{8\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "ask": "Which points are the lowest and highest, and how should they be joined?",
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(\\hl{1}{0},\\hl{2}{12}), (\\hl{1}{1},\\hl{2}{42}), (\\hl{1}{2},\\hl{2}{102}), (\\hl{1}{3},\\hl{2}{132}), (\\hl{1}{4},\\hl{2}{102}), (\\hl{1}{5},\\hl{2}{42}), (\\hl{1}{6},\\hl{2}{12}), (\\hl{1}{7},\\hl{2}{42}), (\\hl{1}{8},\\hl{2}{102})$."
+       },
+       {
+        "text": "Join them with a smooth wave-shaped curve: it starts at its lowest value 12, rises to 132 at $t = 3$, falls to 12 at $t = 6$, then rises again."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } 12,\\ 42,\\ 102,\\ 132,\\ 102,\\ 42,\\ 12,\\ 42,\\ 102",
+    "graph": {
+     "f": "72 - 60*cos(pi*x/3)",
+     "box": [
+      -0.6,
+      150,
+      8.6,
+      -10
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 12,
+       "name": "lowest (0, 12)"
+      },
+      {
+       "x": 3,
+       "y": 132,
+       "name": "highest (3, 132)"
+      },
+      {
+       "x": 6,
+       "y": 12,
+       "name": "lowest (6, 12)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "practice-trig-graph-1",
+    "note": "Same method as problem 1: substitute each input into the formula, then plot the points and join them with a smooth wave. Changed: the function is 1 − 2 sin x instead of 72 − 60 cos(πt/3), and the inputs are multiples of π/6 rather than whole numbers.",
+    "legend": {
+     "1": "the input x, the x-coordinate of each point",
+     "2": "the output g(x), the y-coordinate of each point"
+    },
+    "steps": [
+     {
+      "ask": "Which x-values are in the table, and what is sin x at each one?",
+      "title": "Use g(x) = 1 - 2sin x at each x",
+      "lines": [
+       {
+        "text": "Work in radians. Find $g(x)$ at $x = 0, \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\pi, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}, \\frac{11\\pi}{6}, 2\\pi$."
+       }
+      ]
+     },
+     {
+      "ask": "What is sin(0), and what does that make g(0)?",
+      "title": "Substitute $x = 0$",
+      "lines": [
+       {
+        "tex": "g\\left(0\\right) &= 1 - 2\\sin\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin(π/6)? Then what is 1 − 2 times that?",
+      "title": "Substitute $x = \\frac{\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin(π/2)?",
+      "title": "Substitute $x = \\frac{\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{\\pi}{2}\\right) &= 1 - 2\\sin\\left(\\frac{\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(1\\right)"
+       },
+       {
+        "tex": "&= -1"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin(5π/6), and is it positive or negative?",
+      "title": "Substitute $x = \\frac{5\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{5\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{5\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin π?",
+      "title": "Substitute $x = \\pi$",
+      "lines": [
+       {
+        "tex": "g\\left(\\pi\\right) &= 1 - 2\\sin\\left(\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin(7π/6), and is it positive or negative?",
+      "title": "Substitute $x = \\frac{7\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{7\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{7\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin(3π/2)?",
+      "title": "Substitute $x = \\frac{3\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{3\\pi}{2}\\right) &= 1 - 2\\sin\\left(\\frac{3\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-1\\right)"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin(11π/6), and is it positive or negative?",
+      "title": "Substitute $x = \\frac{11\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{11\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{11\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "ask": "What is sin(2π)?",
+      "title": "Substitute $x = 2\\pi$",
+      "lines": [
+       {
+        "tex": "g\\left(2\\pi\\right) &= 1 - 2\\sin\\left(2\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "ask": "Which points are the lowest and highest, and how should they be joined?",
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(\\hl{1}{0},\\hl{2}{1}), (\\hl{1}{\\frac{\\pi}{6}},\\hl{2}{0}), (\\hl{1}{\\frac{\\pi}{2}},\\hl{2}{-1}), (\\hl{1}{\\frac{5\\pi}{6}},\\hl{2}{0}), (\\hl{1}{\\pi},\\hl{2}{1}), (\\hl{1}{\\frac{7\\pi}{6}},\\hl{2}{2}), (\\hl{1}{\\frac{3\\pi}{2}},\\hl{2}{3}), (\\hl{1}{\\frac{11\\pi}{6}},\\hl{2}{2}), (\\hl{1}{2\\pi},\\hl{2}{1})$."
+       },
+       {
+        "text": "Join them with a smooth wave: it falls from 1 to a minimum of $-1$ at $x = \\frac{\\pi}{2}$, rises to a maximum of 3 at $x = \\frac{3\\pi}{2}$ and returns to 1."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } 1,\\ 0,\\ -1,\\ 0,\\ 1,\\ 2,\\ 3,\\ 2,\\ 1",
+    "graph": {
+     "f": "1 - 2*sin(x)",
+     "box": [
+      -0.5,
+      4,
+      6.8,
+      -2.5
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 1.5708,
+       "y": -1,
+       "name": "lowest (π/2, -1)"
+      },
+      {
+       "x": 4.7124,
+       "y": 3,
+       "name": "highest (3π/2, 3)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "practice-trig-graph-2",
+    "note": "Same method as problem 2: substitute each x into the formula, then plot the points and join them with a smooth wave. Changed: the function has 2x inside the sine, so the period is π, and the table has five points over 0 to π instead of nine over 0 to 2π.",
+    "legend": {
+     "1": "the input x, the x-coordinate of each point",
+     "2": "the output f(x), the y-coordinate of each point"
+    },
+    "steps": [
+     {
+      "ask": "What is 2x for each value of x you need?",
+      "title": "Use f(x) = 1 + 2 sin 2x at each x",
+      "lines": [
+       {
+        "text": "Work in radians. Substitute each given value of $x$ into $f(x)$."
+       }
+      ]
+     },
+     {
+      "ask": "What is sin(0), and what is f(0)?",
+      "title": "Substitute $x = 0$",
+      "lines": [
+       {
+        "tex": "f\\left(0\\right) &= 1 + 2\\sin\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1 + 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "ask": "What is 2x when x = π/4? What is sin of that?",
+      "title": "Substitute $x = \\frac{\\pi}{4}$",
+      "lines": [
+       {
+        "tex": "f\\left(\\frac{\\pi}{4}\\right) &= 1 + 2\\sin\\left(\\frac{\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 + 2\\left(1\\right)"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     },
+     {
+      "ask": "What is 2x when x = π/2? What is sin of that?",
+      "title": "Substitute $x = \\frac{\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "f\\left(\\frac{\\pi}{2}\\right) &= 1 + 2\\sin\\left(\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 + 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "ask": "What is 2x when x = 3π/4? What is sin of that?",
+      "title": "Substitute $x = \\frac{3\\pi}{4}$",
+      "lines": [
+       {
+        "tex": "f\\left(\\frac{3\\pi}{4}\\right) &= 1 + 2\\sin\\left(\\frac{3\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 + 2\\left(-1\\right)"
+       },
+       {
+        "tex": "&= -1"
+       }
+      ]
+     },
+     {
+      "ask": "What is 2x when x = π? What is sin of that?",
+      "title": "Substitute $x = \\pi$",
+      "lines": [
+       {
+        "tex": "f\\left(\\pi\\right) &= 1 + 2\\sin\\left(2\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 + 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "ask": "Which points are the highest and lowest, and how should they be joined?",
+      "title": "Plot the five points and join them",
+      "lines": [
+       {
+        "text": "Plot $(\\hl{1}{0},\\hl{2}{1}), (\\hl{1}{\\frac{\\pi}{4}},\\hl{2}{3}), (\\hl{1}{\\frac{\\pi}{2}},\\hl{2}{1}), (\\hl{1}{\\frac{3\\pi}{4}},\\hl{2}{-1}), (\\hl{1}{\\pi},\\hl{2}{1})$."
+       },
+       {
+        "text": "Join them with a smooth wave: it rises from 1 to a maximum of 3 at $x = \\frac{\\pi}{4}$, falls to a minimum of $-1$ at $x = \\frac{3\\pi}{4}$ and returns to 1. One full wave fits in $0 \\le x \\le \\pi$, so the period is $\\pi$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } 1,\\ 3,\\ 1,\\ -1,\\ 1",
+    "graph": {
+     "f": "1 + 2*sin(2*x)",
+     "box": [
+      -0.2,
+      3.6,
+      3.5,
+      -1.5
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0.7854,
+       "y": 3,
+       "name": "highest (π/4, 3)"
+      },
+      {
+       "x": 2.3562,
+       "y": -1,
+       "name": "lowest (3π/4, -1)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 1,
+      "y": 2,
+      "line": null
+     }
+    }
+   }
+  ]
+ }
+]

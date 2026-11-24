@@ -1,0 +1,458 @@
+[
+ {
+  "skill": "stat-choose-display",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "stat-populations-samples",
+  "verdict": "fixed",
+  "issues": "Unified legend wording across the 3 problems (slot 1 and 2 roles differed).",
+  "problems": [
+   {
+    "part": "practice-stat-populations-samples-1",
+    "note": null,
+    "legend": {
+     "1": "the sample compared with the population (fraction or ratio)",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Who is the whole group you want to know about, and who was actually surveyed?",
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: all 1200 students. Sample: the 150 students surveyed."
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of the whole group is the sample, in simplest form?",
+      "title": "Write the sample as a fraction of the population",
+      "lines": [
+       {
+        "tex": "\\text{Fraction} &= \\hl{1}{\\frac{150}{1200}} = \\hl{1}{\\frac{1}{8}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply a fraction by to turn it into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{1}{8}} \\times 100 &= \\hl{2}{12.5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{12.5\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-populations-samples-3",
+    "note": "The context changes from a school to a lake, with 40 of 800 trout measured instead of 150 of 1200 students. The steps are the same.",
+    "legend": {
+     "1": "the sample compared with the population (fraction or ratio)",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the whole group of fish, and what smaller group was measured?",
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: all 800 trout in the lake. Sample: the 40 trout caught and measured."
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of the 800 trout did she measure, in simplest form?",
+      "title": "Write the sample as a fraction of the population",
+      "lines": [
+       {
+        "tex": "\\text{Fraction} &= \\hl{1}{\\frac{40}{800}} = \\hl{1}{\\frac{1}{20}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply a fraction by to turn it into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{1}{20}} \\times 100 &= \\hl{2}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{5\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-populations-samples-2",
+    "note": "The answer is now 1 in every 50 adults, found by dividing the population by the sample, not a percentage. The last step also asks whether the 90 adults can stand for the whole town.",
+    "legend": {
+     "1": "the sample compared with the population (fraction or ratio)",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which group is the whole town, and which group was chosen to be asked?",
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: the 4500 adults in the town. Sample: the 90 adults chosen."
+       }
+      ]
+     },
+     {
+      "ask": "What operation tells you how many sample-sized groups fit into the population?",
+      "title": "Divide the population by the sample",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{4500}{90}} &= \\hl{2}{50}"
+       }
+      ]
+     },
+     {
+      "ask": "Can the views of these 90 adults be taken as the views of the whole town, and why?",
+      "title": "State the result",
+      "lines": [
+       {
+        "text": "The sample is 1 in every 50 adults, so conclusions only generalise if these 90 represent the town."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{50}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-srs-bias",
+  "verdict": "fixed",
+  "issues": "Problem 3 had the answer in slot 1; moved it to slot 2 and unified the legend.",
+  "problems": [
+   {
+    "part": "practice-stat-srs-bias-2",
+    "note": null,
+    "legend": {
+     "1": "the fraction in the group (left out, or chosen)",
+     "2": "the answer (percentage left out, or probability)"
+    },
+    "steps": [
+     {
+      "ask": "Who is missed by phoning at 11 a.m. on a weekday, and is every resident equally likely to be asked?",
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "Phoning at 11 a.m. on a weekday leaves out people at work, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of the 500 residents are left out?",
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{180}{500}} &= \\hl{1}{\\frac{9}{25}}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you turn that fraction into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{9}{25}} \\times 100 &= \\hl{2}{36}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{36\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-srs-bias-3",
+    "note": "The population is 2500 adults and the bias comes from a website vote, not a phone call, so the 600 left out are those without internet. The steps match problem 1.",
+    "legend": {
+     "1": "the fraction in the group (left out, or chosen)",
+     "2": "the answer (percentage left out, or probability)"
+    },
+    "steps": [
+     {
+      "ask": "Which adults cannot take part in a website vote, and is every adult equally likely to be heard?",
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "A website vote leaves out adults who do not use the internet, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of the 2500 adults are left out?",
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{600}{2500}} &= \\hl{1}{\\frac{6}{25}}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you turn that fraction into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{6}{25}} \\times 100 &= \\hl{2}{24}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{24\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-srs-bias-1",
+    "note": "This sample is a simple random sample, so there is no bias to spot. The second step finds the chance of one student being picked (25 out of 300), not a percentage left out, so the calculation changes too.",
+    "legend": {
+     "1": "the fraction in the group (left out, or chosen)",
+     "2": "the answer (percentage left out, or probability)"
+    },
+    "steps": [
+     {
+      "ask": "Does every student have the same chance of being picked by the random number generator?",
+      "title": "Say why the method is a simple random sample",
+      "lines": [
+       {
+        "text": "Every student has the same chance of selection, so there is no bias."
+       }
+      ]
+     },
+     {
+      "ask": "How many of the 300 students are picked, and what fraction does that give?",
+      "title": "Find the probability",
+      "lines": [
+       {
+        "tex": "P &= \\hl{1}{\\frac{25}{300}} = \\hl{2}{\\frac{1}{12}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\frac{1}{12}}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "inf-confidence-width",
+  "verdict": "fixed",
+  "issues": "Problem 3 marked the given n=200 in the answer's slot 2; removed those marks.",
+  "problems": [
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(c)",
+    "note": null,
+    "legend": {
+     "1": "the margin of error",
+     "2": "the sample size, n"
+    },
+    "steps": [
+     {
+      "ask": "What is the distance between the centre $\\hat{p}$ and the upper limit?",
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "text": "The interval is centred on $\\hat{p} = 0.35$ and its upper limit is $0.435$."
+       },
+       {
+        "tex": "\\hl{1}{\\text{margin}} &= 0.435 - 0.35"
+       },
+       {
+        "tex": "&= \\hl{1}{0.085}"
+       }
+      ]
+     },
+     {
+      "ask": "What is $\\hat{p}(1 - \\hat{p})$ when $\\hat{p} = 0.35$?",
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1 - \\hat{p}) &= 0.35 \\times 0.65"
+       },
+       {
+        "tex": "&= 0.2275"
+       }
+      ]
+     },
+     {
+      "ask": "What equation links the margin of error, 1.96, the value you just found, and n?",
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.2275}{\\hl{2}{n}}} &= \\hl{1}{0.085}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you do to the square root, then to the fraction, to get n on its own?",
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.2275}{\\hl{2}{n}}} &= \\frac{\\hl{1}{0.085}}{1.96}"
+       },
+       {
+        "tex": "\\frac{0.2275}{\\hl{2}{n}} &= \\left(\\frac{\\hl{1}{0.085}}{1.96}\\right)^2"
+       },
+       {
+        "tex": "\\hl{2}{n} &= \\frac{0.2275}{\\left(\\frac{\\hl{1}{0.085}}{1.96}\\right)^2}"
+       },
+       {
+        "tex": "&= \\hl{2}{120.96\\ldots}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{121}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{n} = \\hl{2}{121}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-confidence-width-2",
+    "note": "Problem 2 gives both ends of the interval instead of the centre and one end, so the first step finds p̂ as their midpoint. The rest of the steps are the same as problem 1.",
+    "legend": {
+     "1": "the margin of error",
+     "2": "the sample size, n"
+    },
+    "steps": [
+     {
+      "ask": "How can you find the centre $\\hat{p}$ from the two ends, and then the margin from one end?",
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{0.1608 + 0.2392}{2} = 0.2"
+       },
+       {
+        "tex": "\\hl{1}{\\text{margin}} &= 0.2392 - 0.2 = \\hl{1}{0.0392}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you multiply $\\hat{p}$ by $1 - \\hat{p}$?",
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1 - \\hat{p}) &= 0.2 \\times 0.8"
+       },
+       {
+        "tex": "&= 0.16"
+       }
+      ]
+     },
+     {
+      "ask": "What equation links the margin, 1.96, the value you just found, and n?",
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.16}{\\hl{2}{n}}} &= \\hl{1}{0.0392}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you do to the square root, then to the fraction, to get n on its own?",
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.16}{\\hl{2}{n}}} &= 0.02"
+       },
+       {
+        "tex": "\\frac{0.16}{\\hl{2}{n}} &= 0.0004"
+       },
+       {
+        "tex": "\\hl{2}{n} &= 400"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{n} = \\hl{2}{400}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-confidence-width-1",
+    "note": "Problem 3 gives a target margin and a sample size, not an interval, so p̂ is not needed. It divides the two margin equations instead of solving for n directly, so the route differs from problems 1 and 2.",
+    "legend": {
+     "1": "the margin of error",
+     "2": "the sample size, n"
+    },
+    "steps": [
+     {
+      "ask": "Which part of the margin formula stays the same when the sample size changes?",
+      "title": "Write the margin of error using n",
+      "lines": [
+       {
+        "text": "Let $k = 1.96\\sqrt{\\hat{p}(1-\\hat{p})}$. It does not change, so the margin of error is $\\frac{k}{\\sqrt{\\hl{2}{n}}}$."
+       }
+      ]
+     },
+     {
+      "ask": "What is the margin equation for the original sample, and what is it for the new one?",
+      "title": "Write the two margins",
+      "lines": [
+       {
+        "tex": "\\frac{k}{\\sqrt{200}} &= \\hl{1}{0.06}"
+       },
+       {
+        "tex": "\\frac{k}{\\sqrt{\\hl{2}{n}}} &= \\hl{1}{0.03}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you divide the second equation by the first, and what happens to k?",
+      "title": "Divide the second by the first",
+      "lines": [
+       {
+        "tex": "\\frac{\\sqrt{200}}{\\sqrt{\\hl{2}{n}}} &= \\frac{1}{2}"
+       },
+       {
+        "tex": "\\frac{200}{\\hl{2}{n}} &= \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "What value of n makes $\\frac{200}{n}$ equal to $\\frac{1}{4}$?",
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\hl{2}{n} &= \\hl{2}{800}"
+       },
+       {
+        "text": "Halving the margin of error needs 4 times the sample size."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{n} = \\hl{2}{800}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "inf-interpret",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "trig-radians",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "circ-general-form",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ }
+]

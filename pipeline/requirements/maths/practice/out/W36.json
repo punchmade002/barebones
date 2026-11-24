@@ -1,0 +1,400 @@
+[
+ {
+  "skill": "stat-percentiles",
+  "problems": [
+   {
+    "question": "In a test taken by 50 students, Aoife scored more marks than 36 of the other students.\nFind Aoife's percentile rank.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the fraction scoring below",
+       "lines": [
+        {
+         "text": "The percentile rank is the percentage of students who scored below Aoife."
+        },
+        {
+         "tex": "\\frac{36}{50} &= 0.72",
+         "sym": "Eq(Rational(36,50), 0.72)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Convert to a percentage",
+       "lines": [
+        {
+         "tex": "0.72 \\times 100 &= 72",
+         "sym": "Eq(0.72*100, 72)",
+         "new": true
+        },
+        {
+         "text": "Aoife is at the 72nd percentile."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "72"
+    },
+    "finalSym": "72",
+    "answerSym": "Rational(36,50)*100"
+   },
+   {
+    "question": "The times, in minutes, taken by 12 runners to finish a race are:\n$3,\\ 4,\\ 6,\\ 7,\\ 8,\\ 9,\\ 10,\\ 12,\\ 14,\\ 16,\\ 18,\\ 20$\nFind the 75th percentile of the times.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Link the percentile to a quartile",
+       "lines": [
+        {
+         "text": "The 75th percentile is the upper quartile $Q_3$."
+        }
+       ]
+      },
+      {
+       "title": "Find the upper half of the data",
+       "lines": [
+        {
+         "text": "There are 12 values, so the upper half is the 6 largest: $10, 12, 14, 16, 18, 20$."
+        }
+       ]
+      },
+      {
+       "title": "Find the median of the upper half",
+       "lines": [
+        {
+         "tex": "Q_3 &= \\frac{14 + 16}{2}",
+         "sym": "Eq(Symbol('Q3'), (14 + 16)/2)",
+         "new": true
+        },
+        {
+         "tex": "&= 15",
+         "sym": "Eq(Symbol('Q3'), 15)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "15"
+    },
+    "finalSym": "15",
+    "answerSym": "(14 + 16)/Integer(2)"
+   },
+   {
+    "question": "A student's mark in a national exam is at the 85th percentile. 40 students sat the exam.\nHow many students scored lower than this student?",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the meaning of percentile",
+       "lines": [
+        {
+         "text": "The 85th percentile means 85% of the students scored lower."
+        }
+       ]
+      },
+      {
+       "title": "Find 85% of 40",
+       "lines": [
+        {
+         "tex": "\\frac{85}{100} \\times 40 &= 34",
+         "sym": "Eq(Rational(85,100)*40, 34)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "34"
+    },
+    "finalSym": "34",
+    "answerSym": "Rational(85,100)*40"
+   }
+  ]
+ },
+ {
+  "skill": "stat-sampling-methods-hl",
+  "problems": [
+   {
+    "question": "A school has 1200 students: 300 in first year, 400 in second year and 500 in third year.\nA stratified sample of 60 students is taken, with each year group represented in proportion to its size.\nHow many students are chosen from third year?",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find third year's share",
+       "lines": [
+        {
+         "text": "Stratified sampling takes from each group in proportion to its size."
+        },
+        {
+         "tex": "\\text{Share} &= \\frac{500}{1200}",
+         "sym": "Eq(Symbol('s'), Rational(500,1200))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Apply to the sample",
+       "lines": [
+        {
+         "tex": "\\text{Number} &= \\frac{500}{1200} \\times 60",
+         "sym": "Eq(Symbol('n'), Rational(500,1200)*60)",
+         "new": true
+        },
+        {
+         "tex": "&= 25",
+         "sym": "Eq(Symbol('n'), 25)"
+        },
+        {
+         "text": "Choose these 25 students at random from the third-year students."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "25"
+    },
+    "finalSym": "25",
+    "answerSym": "Rational(500,1200)*60"
+   },
+   {
+    "question": "A market researcher uses quota sampling to interview 80 shoppers in a town where 55% of the shoppers are women.\nHow many women must be in the researcher's quota?\nState one way in which quota sampling can give a biased sample.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the number of women",
+       "lines": [
+        {
+         "text": "A quota sample copies the make-up of the population, so 55% of the 80 must be women."
+        },
+        {
+         "tex": "\\frac{55}{100} \\times 80 &= 44",
+         "sym": "Eq(Rational(55,100)*80, 44)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Comment on bias",
+       "lines": [
+        {
+         "text": "The interviewer chooses who to ask, not a random method, so they may pick people who are easy to approach. This can bias the sample."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "44"
+    },
+    "finalSym": "44",
+    "answerSym": "Rational(55,100)*80"
+   }
+  ]
+ },
+ {
+  "skill": "stat-outlier-effect",
+  "problems": [
+   {
+    "question": "Five numbers are $10, 12, 14, 16, 18$. The largest number, 18, is replaced by 38.\nFind how much the mean increases by, and say whether the median changes.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the original and new means",
+       "lines": [
+        {
+         "tex": "\\text{Original mean} &= \\frac{10+12+14+16+18}{5} = 14",
+         "sym": "Eq((10+12+14+16+18)/Integer(5), 14)",
+         "new": true
+        },
+        {
+         "tex": "\\text{New mean} &= \\frac{10+12+14+16+38}{5} = 18",
+         "sym": "Eq((10+12+14+16+38)/Integer(5), 18)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find the increase",
+       "lines": [
+        {
+         "tex": "18 - 14 &= 4",
+         "sym": "Eq(18 - 14, 4)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Check the median",
+       "lines": [
+        {
+         "text": "The median is the middle value, 14, before and after. The median does not change."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{mean increases by } 4;\\ \\text{median unchanged}"
+    },
+    "finalSym": "4",
+    "answerSym": "(10+12+14+16+38)/Integer(5) - (10+12+14+16+18)/Integer(5)"
+   },
+   {
+    "question": "The data set $6, 7, 8, 9, 60$ contains an outlier, 60.\nFind how much the mean decreases by when 60 is removed.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the mean with the outlier",
+       "lines": [
+        {
+         "tex": "\\text{Mean} &= \\frac{6+7+8+9+60}{5} = 18",
+         "sym": "Eq((6+7+8+9+60)/Integer(5), 18)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find the mean without it",
+       "lines": [
+        {
+         "tex": "\\text{Mean} &= \\frac{6+7+8+9}{4} = 7.5",
+         "sym": "Eq((6+7+8+9)/Integer(4), 7.5)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find the change",
+       "lines": [
+        {
+         "tex": "18 - 7.5 &= 10.5",
+         "sym": "Eq(18 - 7.5, 10.5)",
+         "new": true
+        },
+        {
+         "text": "The median only moves from 8 to 7.5, so the outlier affects the mean far more."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "10.5"
+    },
+    "finalSym": "Rational(21,2)",
+    "answerSym": "(6+7+8+9+60)/Integer(5) - (6+7+8+9)/Integer(4)"
+   }
+  ]
+ },
+ {
+  "skill": "stat-compare-hl",
+  "problems": [
+   {
+    "question": "Class X and class Y sat the same test. Five-number summaries (min, $Q_1$, median, $Q_3$, max):\nClass X: $12,\\ 20,\\ 25,\\ 30,\\ 38$\nClass Y: $5,\\ 18,\\ 30,\\ 45,\\ 60$\nFind the difference between the interquartile ranges of the two classes, and say which class has the greater spread.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find each interquartile range",
+       "lines": [
+        {
+         "tex": "\\text{IQR}_X &= 30 - 20 = 10",
+         "sym": "Eq(30 - 20, 10)",
+         "new": true
+        },
+        {
+         "tex": "\\text{IQR}_Y &= 45 - 18 = 27",
+         "sym": "Eq(45 - 18, 27)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find the difference",
+       "lines": [
+        {
+         "tex": "27 - 10 &= 17",
+         "sym": "Eq(27 - 10, 17)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Compare",
+       "lines": [
+        {
+         "text": "Class Y has the greater spread. It also has the higher median (30 against 25), so Y did better on average but was less consistent."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "17;\\ \\text{class Y has the greater spread}"
+    },
+    "finalSym": "17",
+    "answerSym": "(45-18) - (30-20)"
+   },
+   {
+    "question": "Two data sets have the same mean.\nSet P: $8, 12, 8, 12$\nSet Q: $4, 16, 4, 16$\nFind how many times larger the standard deviation of Q is than that of P.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the mean of each set",
+       "lines": [
+        {
+         "tex": "\\text{Mean}_P &= \\frac{8+12+8+12}{4} = 10",
+         "sym": "Eq((8+12+8+12)/Integer(4), 10)",
+         "new": true
+        },
+        {
+         "tex": "\\text{Mean}_Q &= \\frac{4+16+4+16}{4} = 10",
+         "sym": "Eq((4+16+4+16)/Integer(4), 10)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find each standard deviation",
+       "lines": [
+        {
+         "text": "Every value in P is 2 from the mean, so $\\sigma_P = 2$. Every value in Q is 6 from the mean, so $\\sigma_Q = 6$."
+        },
+        {
+         "tex": "\\sigma_P &= \\sqrt{\\frac{2^2+2^2+2^2+2^2}{4}} = 2",
+         "sym": "Eq(sqrt(Rational(4*2**2,4)), 2)",
+         "new": true
+        },
+        {
+         "tex": "\\sigma_Q &= \\sqrt{\\frac{4 \\cdot 6^2}{4}} = 6",
+         "sym": "Eq(sqrt(Rational(4*6**2,4)), 6)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Compare",
+       "lines": [
+        {
+         "tex": "\\frac{6}{2} &= 3",
+         "sym": "Eq(Rational(6,2), 3)",
+         "new": true
+        },
+        {
+         "text": "Same centre, but Q is three times as spread out."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3"
+    },
+    "finalSym": "3",
+    "answerSym": "sqrt(((4-10)**2+(16-10)**2+(4-10)**2+(16-10)**2)/Integer(4))/sqrt(((8-10)**2+(12-10)**2+(8-10)**2+(12-10)**2)/Integer(4))"
+   }
+  ]
+ }
+]

@@ -1,0 +1,56 @@
+{
+ "inf-sampling-variability": {
+  "ok": true,
+  "fixes": []
+ },
+ "inf-margin-of-error": {
+  "ok": true,
+  "fixes": []
+ },
+ "inf-interpret": {
+  "ok": true,
+  "fixes": []
+ },
+ "inf-hypothesis-concept": {
+  "ok": true,
+  "fixes": []
+ },
+ "inf-hypothesis-moe": {
+  "ok": true,
+  "fixes": []
+ },
+ "inf-ci-mean": {
+  "ok": true,
+  "fixes": []
+ },
+ "inf-confidence-width": {
+  "ok": true,
+  "fixes": []
+ },
+ "trig-compound": {
+  "ok": true,
+  "fixes": []
+ },
+ "trig-solve-quadratic": {
+  "ok": false,
+  "fixes": [
+   {
+    "find": "Take 3 from both sides to get $0$ on the right.",
+    "replace": "Move every term to the right-hand side so the $\\sin^2\\theta$ term is positive, leaving $0$ on the left; write it with $0$ on the right.",
+    "why": "Subtracting 3 from both sides gives -2sin^2+3sin-1=0, not the line shown; the shown line comes from moving terms to the other side."
+   }
+  ]
+ },
+ "trig-products-sums": {
+  "ok": true,
+  "fixes": []
+ },
+ "trig-prove-identity": {
+  "ok": true,
+  "fixes": []
+ },
+ "trig-derive-5": {
+  "ok": true,
+  "fixes": []
+ }
+}

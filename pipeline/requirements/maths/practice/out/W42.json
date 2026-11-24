@@ -1,0 +1,135 @@
+[
+ {
+  "skill": "trig-sine-ambiguous",
+  "problems": [
+   {
+    "question": "In triangle $ABC$, $|AB| = 10$ cm, $|BC| = 7$ cm and $\\angle BAC = 30^\\circ$.\nFind the two possible values of $\\angle ACB$, correct to the nearest degree.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set up the sine rule",
+       "lines": [
+        {
+         "text": "$|AB|$ is opposite $\\angle ACB = C$, and $|BC|$ is opposite $\\angle BAC = 30^\\circ$."
+        },
+        {
+         "tex": "\\frac{\\sin C}{10} &= \\frac{\\sin 30^\\circ}{7}",
+         "sym": "Eq(sin(C)/10, sin(pi/6)/7)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $\\sin C$",
+       "lines": [
+        {
+         "tex": "\\sin C &= \\frac{10\\sin 30^\\circ}{7}",
+         "sym": "Eq(sin(C), 10*sin(pi/6)/7)"
+        },
+        {
+         "tex": "&= \\frac{5}{7}",
+         "sym": "Eq(sin(C), Rational(5,7))"
+        }
+       ]
+      },
+      {
+       "title": "Find both angles between $0^\\circ$ and $180^\\circ$",
+       "lines": [
+        {
+         "text": "Sine is positive in the 1st and 2nd quadrants, so there are two angles."
+        },
+        {
+         "tex": "C &= \\sin^{-1}(5/7) = 45.58^\\circ",
+         "sym": "Eq(C, asin(Rational(5,7))*180/pi)",
+         "new": true
+        },
+        {
+         "tex": "C &= 180^\\circ - 45.58^\\circ = 134.42^\\circ",
+         "sym": "Eq(C, 180 - asin(Rational(5,7))*180/pi)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Round to the nearest degree",
+       "lines": [
+        {
+         "tex": "C &= 46^\\circ \\ \\text{or}\\ 134^\\circ"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "C = 46^\\circ \\ \\text{or}\\ 134^\\circ"
+    },
+    "finalSym": "[46, 134]",
+    "answerSym": "[floor(asin(Rational(5,7))*180/pi + Rational(1,2)), floor(180 - asin(Rational(5,7))*180/pi + Rational(1,2))]"
+   },
+   {
+    "question": "In triangle $PQR$, $|PQ| = 12$ cm, $|QR| = 8$ cm and $\\angle QPR = 25^\\circ$.\nFind the two possible values of $\\angle PRQ$, correct to the nearest degree.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set up the sine rule",
+       "lines": [
+        {
+         "text": "$|PQ|$ is opposite $\\angle PRQ = R$, and $|QR|$ is opposite $\\angle QPR = 25^\\circ$."
+        },
+        {
+         "tex": "\\frac{\\sin R}{12} &= \\frac{\\sin 25^\\circ}{8}",
+         "sym": "Eq(sin(R)/12, sin(25*pi/180)/8)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $\\sin R$",
+       "lines": [
+        {
+         "tex": "\\sin R &= \\frac{12\\sin 25^\\circ}{8}",
+         "sym": "Eq(sin(R), 12*sin(25*pi/180)/8)"
+        },
+        {
+         "tex": "&= 0.633927\\ldots",
+         "sym": "Eq(sin(R), 3*sin(25*pi/180)/2)"
+        }
+       ]
+      },
+      {
+       "title": "Find both angles between $0^\\circ$ and $180^\\circ$",
+       "lines": [
+        {
+         "text": "Sine is positive in the 1st and 2nd quadrants, so there are two angles."
+        },
+        {
+         "tex": "R &= \\sin^{-1}(0.6339) = 39.34^\\circ",
+         "sym": "Eq(R, asin(3*sin(25*pi/180)/2)*180/pi)",
+         "new": true
+        },
+        {
+         "tex": "R &= 180^\\circ - 39.34^\\circ = 140.66^\\circ",
+         "sym": "Eq(R, 180 - asin(3*sin(25*pi/180)/2)*180/pi)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Round to the nearest degree",
+       "lines": [
+        {
+         "tex": "R &= 39^\\circ \\ \\text{or}\\ 141^\\circ"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "R = 39^\\circ \\ \\text{or}\\ 141^\\circ"
+    },
+    "finalSym": "[39, 141]",
+    "answerSym": "[floor(asin(3*sin(25*pi/180)/2)*180/pi + Rational(1,2)), floor(180 - asin(3*sin(25*pi/180)/2)*180/pi + Rational(1,2))]"
+   }
+  ]
+ }
+]

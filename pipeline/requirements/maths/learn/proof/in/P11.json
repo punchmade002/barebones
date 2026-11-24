@@ -1,0 +1,841 @@
+[
+ {
+  "skill": "int-trig-identity",
+  "title": "Integrate using a trig formula",
+  "what": {
+   "say": [
+    "You give it an integral of a trig product or a squared trig function, such as $\\cos^2 2x$. It gives back the **antiderivative**.",
+    "The key idea: you cannot integrate $\\cos^2 2x$ directly. Use a formula from the tables to turn the square or the product into a sum of simple $\\sin$ and $\\cos$ terms, then integrate those."
+   ],
+   "in": "$\\cos^2 2x$",
+   "out": "antiderivative $+\\ c$"
+  },
+  "example": {
+   "question": "Find $\\int \\cos^2 2x \\, dx$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Use the half-angle formula",
+      "say": "Use the tables formula $\\cos^2 A = \\tfrac{1}{2}(1 + \\cos 2A)$. Here $A = 2x$, so $2A = \\hl{1}{4x}$.",
+      "lines": [
+       {
+        "tex": "\\cos^2 2x &= \\tfrac{1}{2}\\left(1 + \\cos \\hl{1}{4x}\\right)",
+        "sym": "(1+cos(4*x))/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Integrate each term",
+      "say": "Now every term is simple. $1$ integrates to $x$. $\\cos 4x$ integrates to $\\tfrac{1}{4}\\sin 4x$.",
+      "lines": [
+       {
+        "tex": "\\int \\cos^2 2x \\, dx &= \\tfrac{1}{2}\\int \\left(1 + \\cos 4x\\right) dx"
+       },
+       {
+        "tex": "&= \\tfrac{1}{2}\\left(x + \\tfrac{1}{4}\\sin 4x\\right)",
+        "sym": "(x+sin(4*x)/4)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Tidy and add c",
+      "say": "Multiply out and add the constant.",
+      "lines": [
+       {
+        "tex": "&= \\tfrac{1}{2}x + \\tfrac{1}{8}\\sin 4x + c",
+        "sym": "x/2+sin(4*x)/8"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\tfrac{1}{2}x + \\tfrac{1}{8}\\sin 4x + c"
+   },
+   "finalSym": "x/2+sin(4*x)/8",
+   "answerSym": "integrate(cos(2*x)**2,x)"
+  }
+ },
+ {
+  "skill": "prob-relative-frequency",
+  "title": "Estimate probability from experimental data",
+  "what": {
+   "say": [
+    "You give it the results of an experiment. It gives you the **relative frequency**: how often the event happened out of all the trials.",
+    "The key idea: relative frequency is successes divided by trials, and it is your best estimate of the probability. Multiply it by a new number of trials to get an expected frequency."
+   ],
+   "in": "trial results",
+   "out": "relative frequency"
+  },
+  "example": {
+   "question": "A drawing pin is dropped 80 times. It lands point up 28 times.\n(a) Find the relative frequency of landing point up.\n(b) Estimate how many times it lands point up in 500 drops.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Count successes and trials",
+      "say": "Read off how many times it landed point up, and how many times it was dropped in all.",
+      "lines": [
+       {
+        "tex": "\\text{point up} &= \\hl{1}{28}",
+        "sym": "28",
+        "new": true
+       },
+       {
+        "tex": "\\text{drops} &= \\hl{2}{80}",
+        "sym": "80",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Relative frequency",
+      "say": "Divide the successes by the trials. Cancel to lowest terms.",
+      "lines": [
+       {
+        "tex": "\\text{relative frequency} &= \\frac{\\hl{1}{28}}{\\hl{2}{80}}",
+        "sym": "28/80",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{7}{20}",
+        "sym": "7/20"
+       },
+       {
+        "tex": "&= \\hl{3}{0.35}",
+        "sym": "0.35"
+       }
+      ]
+     },
+     {
+      "title": "Expected frequency",
+      "say": "Multiply the number of new trials by the relative frequency $\\hl{3}{0.35}$.",
+      "lines": [
+       {
+        "tex": "\\text{expected} &= 500 \\times \\hl{3}{0.35}",
+        "sym": "500*0.35",
+        "new": true
+       },
+       {
+        "tex": "&= 175",
+        "sym": "175"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(a) $0.35$  (b) about $175$ times"
+   },
+   "finalSym": "175",
+   "answerSym": "500*28/80"
+  }
+ },
+ {
+  "skill": "prob-factorial",
+  "title": "Count arrangements of n distinct objects",
+  "what": {
+   "say": [
+    "You give it $n$ different objects to put in a row. It finds the number of **arrangements**: $n!$.",
+    "The key idea: the first place has $n$ choices, the next has one fewer, and so on down to $1$. Multiply them."
+   ],
+   "in": "$n$",
+   "out": "$n!$"
+  },
+  "example": {
+   "question": "A coach lines up $6$ players for a photograph. In how many different ways can this be done if the captain must stand first?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Fix the captain",
+      "say": "The captain has only one place, so there is $1$ choice for the first spot. That leaves $5$ players for $5$ places.",
+      "lines": [
+       {
+        "text": "First place: $1$ choice. Remaining places: $5$ players to arrange."
+       }
+      ]
+     },
+     {
+      "title": "Fill the other places",
+      "say": "The next place has $\\hl{1}{5}$ choices, then one fewer each time. Multiply the choices.",
+      "lines": [
+       {
+        "tex": "\\text{ways} &= 1 \\times \\hl{1}{5} \\times 4 \\times 3 \\times 2 \\times 1",
+        "sym": "1*5*4*3*2*1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write as a factorial",
+      "say": "A product that counts down to $1$ is a factorial. Work it out.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{5!}",
+        "sym": "factorial(5)"
+       },
+       {
+        "tex": "&= 120",
+        "sym": "120"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "120"
+   },
+   "finalSym": "120",
+   "answerSym": "factorial(6-1)"
+  }
+ },
+ {
+  "skill": "prob-independent",
+  "title": "Find the probability two independent events both occur",
+  "what": {
+   "say": [
+    "You give it $P(A)$ and $P(B)$ for two **independent** events. It finds the probability that both happen: $P(A) \\times P(B)$.",
+    "The key idea: independent means one event does not change the other, so you can multiply."
+   ],
+   "in": "$P(A)$, $P(B)$",
+   "out": "$P(A) \\times P(B)$"
+  },
+  "example": {
+   "question": "A fair coin is tossed and a fair six-sided die is rolled. Find the probability of getting a head and a number greater than $4$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Check they are independent",
+      "say": "The coin does not affect the die. The events are independent, so you can multiply their probabilities.",
+      "lines": [
+       {
+        "text": "$P(A \\text{ and } B) = P(A) \\times P(B)$ for independent events."
+       }
+      ]
+     },
+     {
+      "title": "Find each probability",
+      "say": "A head is one of two outcomes. Greater than $4$ means a $5$ or a $6$, two of six outcomes.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(H)} &= \\frac{1}{2}",
+        "sym": "Rational(1,2)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{P(>4)} &= \\frac{2}{6}",
+        "sym": "Rational(2,6)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1}{3}",
+        "sym": "Rational(1,3)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply",
+      "say": "Multiply $\\hl{1}{P(H)}$ by $\\hl{2}{P(>4)}$.",
+      "lines": [
+       {
+        "tex": "P(H \\text{ and } >4) &= \\hl{1}{\\frac{1}{2}} \\times \\hl{2}{\\frac{1}{3}}",
+        "sym": "Rational(1,2)*Rational(1,3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1}{6}",
+        "sym": "Rational(1,6)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{1}{6}"
+   },
+   "finalSym": "Rational(1,6)",
+   "answerSym": "Rational(1,2)*Rational(2,6)"
+  }
+ },
+ {
+  "skill": "prob-npr",
+  "title": "Count arrangements of r objects from n",
+  "what": {
+   "say": [
+    "You give it $n$ objects and a number $r$. It counts the ways to pick $r$ of them **in order**, written $^nP_r$.",
+    "The key idea: each pick uses one object up, so the choices shrink by one each time. Multiply the $r$ shrinking numbers."
+   ],
+   "in": "$n,\\ r$",
+   "out": "$^nP_r$"
+  },
+  "example": {
+   "question": "A club has $8$ members. A chairperson, a secretary and a treasurer are chosen, in that order. In how many ways can the three jobs be filled?",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Count the choices",
+      "say": "Fill the jobs one at a time. Eight people can be chairperson. That person is used up, so seven are left for secretary, then six for treasurer.",
+      "lines": [
+       {
+        "text": "Chairperson: $8$ choices. Secretary: $7$. Treasurer: $6$."
+       },
+       {
+        "tex": "n = 8, \\quad r = 3"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the choices",
+      "say": "Order matters, so multiply the numbers of choices.",
+      "lines": [
+       {
+        "tex": "^8P_3 &= 8 \\times 7 \\times 6",
+        "sym": "8*7*6",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{336}",
+        "sym": "336"
+       }
+      ]
+     },
+     {
+      "title": "Check with factorials",
+      "say": "The same count comes from the factorial formula for $^nP_r$.",
+      "lines": [
+       {
+        "tex": "^8P_3 &= \\frac{8!}{5!}",
+        "sym": "factorial(8)/factorial(5)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{336}",
+        "sym": "336"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "336"
+   },
+   "finalSym": "336",
+   "answerSym": "factorial(8)/factorial(5)"
+  }
+ },
+ {
+  "skill": "prob-ncr",
+  "title": "Count selections and compute binomial coefficients",
+  "what": {
+   "say": [
+    "You give it $n$ objects and a number $r$. It counts the ways to **choose** $r$ of them when order does not matter, written $^nC_r$.",
+    "The key idea: count the ordered picks, $^nP_r$, then divide by $r!$, because every group was counted $r!$ times."
+   ],
+   "in": "$n,\\ r$",
+   "out": "$^nC_r$"
+  },
+  "example": {
+   "question": "In a game, $4$ numbers are chosen from the numbers $1$ to $15$, and the order does not matter. (i) How many different selections are possible? (ii) A player buys one ticket. Find the probability that it matches the chosen numbers.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Use the formula",
+      "say": "Order does not matter, so this is a selection. Use $^nC_r = \\frac{n!}{r!\\,(n-r)!}$ with $n = 15$ and $r = 4$.",
+      "lines": [
+       {
+        "tex": "^{15}C_4 &= \\frac{15!}{4!\\,11!}",
+        "sym": "factorial(15)/(factorial(4)*factorial(11))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Cancel the factorials",
+      "say": "Cancel $11!$ from top and bottom. Four numbers are left on each side.",
+      "lines": [
+       {
+        "tex": "&= \\frac{15 \\times 14 \\times 13 \\times 12}{4 \\times 3 \\times 2 \\times 1}",
+        "sym": "15*14*13*12/(4*3*2*1)"
+       },
+       {
+        "tex": "&= \\hl{1}{1365}",
+        "sym": "1365"
+       }
+      ]
+     },
+     {
+      "title": "Find the probability",
+      "say": "Only one of the $\\hl{1}{1365}$ selections matches, so the probability is one over that.",
+      "lines": [
+       {
+        "tex": "P(\\text{match}) &= \\frac{1}{\\hl{1}{1365}}",
+        "sym": "Rational(1,1365)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "1365 \\text{ selections; } P = \\frac{1}{1365}"
+   },
+   "finalSym": "Rational(1,1365)",
+   "answerSym": "1/binomial(15,4)"
+  }
+ },
+ {
+  "skill": "prob-expected-value",
+  "title": "Calculate expected value and judge fairness",
+  "what": {
+   "say": [
+    "You give it the outcomes of a game and the probability of each. It finds the **expected value**, the average result over many plays.",
+    "The key idea: multiply each outcome by its probability, then add. A game is **fair** when the expected value equals what you pay to play."
+   ],
+   "in": "outcomes and probabilities",
+   "out": "$E(x)$ and fair or not"
+  },
+  "example": {
+   "question": "A game costs $\\text{€}3$ to play. A spinner pays $\\text{€}8$ with probability $0.2$, $\\text{€}2$ with probability $0.5$ and nothing otherwise. Find the expected value of the prize. Is the game fair? Give a reason.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the missing probability",
+      "say": "The probabilities add to $1$. Find the chance of winning nothing.",
+      "lines": [
+       {
+        "tex": "P(0) &= 1 - 0.2 - 0.5",
+        "sym": "1-2/10-5/10",
+        "new": true
+       },
+       {
+        "tex": "&= 0.3",
+        "sym": "3/10"
+       }
+      ]
+     },
+     {
+      "title": "Multiply and add",
+      "say": "Use $E(x) = \\sum x\\,P(x)$. Multiply each prize by its probability, then add.",
+      "lines": [
+       {
+        "tex": "E(x) &= 8(0.2) + 2(0.5) + 0(0.3)",
+        "sym": "8*2/10+2*5/10+0*3/10",
+        "new": true
+       },
+       {
+        "tex": "&= 1.6 + 1 + 0",
+        "sym": "16/10+1+0"
+       },
+       {
+        "tex": "&= \\hl{1}{2.6}",
+        "sym": "26/10"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the cost",
+      "say": "A fair game has expected value equal to the cost, $\\hl{2}{3}$. Compare the two.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{2.6} - \\hl{2}{3} &= -0.4",
+        "sym": "26/10-3",
+        "new": true
+       },
+       {
+        "text": "The expected value is $\\text{€}0.40$ less than the cost. The game is **not fair**: on average you lose $\\text{€}0.40$ each play."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "E(x) = \\text{€}2.60 < \\text{€}3 \\text{: not fair}"
+   },
+   "finalSym": "26/10-3",
+   "answerSym": "8*Rational(2,10)+2*Rational(5,10)+0*(1-Rational(2,10)-Rational(5,10))-3"
+  }
+ },
+ {
+  "skill": "prob-arrangement-restrictions",
+  "title": "Count arrangements with restrictions",
+  "what": {
+   "say": [
+    "You give it some objects to arrange and a condition, such as one must be first or the last must be a vowel. It counts the arrangements that obey the condition.",
+    "The key idea: fill the restricted place first, then arrange the rest. Multiply the number of choices for each place."
+   ],
+   "in": "objects and a condition",
+   "out": "number of arrangements"
+  },
+  "example": {
+   "question": "The letters of the word CHAIR are arranged in a row, each used once. Find the number of arrangements that begin with a vowel.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Fill the first place",
+      "say": "The condition is on the first place, so fill it first. Only $A$ and $I$ are vowels.",
+      "lines": [
+       {
+        "text": "The first place can be filled in $\\hl{1}{2}$ ways."
+       }
+      ]
+     },
+     {
+      "title": "Arrange the other letters",
+      "say": "Four letters are left, and they can go in the four remaining places in any order.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{4!} &= 4 \\times 3 \\times 2 \\times 1",
+        "sym": "4*3*2*1",
+        "new": true
+       },
+       {
+        "tex": "&= 24",
+        "sym": "24"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the choices",
+      "say": "Multiply the choices for the first place by the arrangements of the rest.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{2} \\times \\hl{2}{24} &= 48",
+        "sym": "2*24",
+        "new": true
+       },
+       {
+        "text": "There are $48$ arrangements that begin with a vowel."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "48"
+   },
+   "finalSym": "48",
+   "answerSym": "2*factorial(4)"
+  }
+ },
+ {
+  "skill": "prob-bernoulli-3",
+  "title": "Solve problems with up to 3 Bernoulli trials",
+  "what": {
+   "say": [
+    "You give it the chance $p$ of an event happening on one trial, and a few trials, at most three. It finds the probability of the number of successes you are asked for.",
+    "The key idea: multiply the chances along one order, then count how many orders give that result and multiply by that count."
+   ],
+   "in": "$p$ and up to 3 trials",
+   "out": "probability of the outcome"
+  },
+  "example": {
+   "question": "The probability that a spinner lands on green is $\\tfrac14$. It is spun three times. Find the probability that it lands on green exactly once.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the chance of not green",
+      "say": "The chances add to $1$. Find the chance of a spin that is not green.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{q} &= 1 - \\tfrac14",
+        "sym": "1-1/4",
+        "new": true
+       },
+       {
+        "tex": "&= \\tfrac34",
+        "sym": "3/4"
+       }
+      ]
+     },
+     {
+      "title": "One order of results",
+      "say": "Take one order: green, then not green, then not green. Multiply the chances.",
+      "lines": [
+       {
+        "tex": "P(G,N,N) &= \\hl{1}{\\tfrac14} \\times \\hl{2}{\\tfrac34} \\times \\hl{2}{\\tfrac34}",
+        "sym": "1/4*3/4*3/4",
+        "new": true
+       },
+       {
+        "tex": "&= \\tfrac{9}{64}",
+        "sym": "9/64"
+       }
+      ]
+     },
+     {
+      "title": "Count the orders",
+      "say": "The green can come first, second or third. List the orders.",
+      "lines": [
+       {
+        "text": "$GNN$, $NGN$, $NNG$. That is $\\hl{3}{3}$ orders, and each has the same chance."
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the count",
+      "say": "Multiply the chance of one order by the number of orders.",
+      "lines": [
+       {
+        "tex": "P(\\text{exactly one}) &= \\hl{3}{3} \\times \\tfrac{9}{64}",
+        "sym": "3*9/64",
+        "new": true
+       },
+       {
+        "tex": "&= \\tfrac{27}{64}",
+        "sym": "27/64"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\tfrac{27}{64}"
+   },
+   "finalSym": "27/64",
+   "answerSym": "3*Rational(1,4)*Rational(3,4)**2"
+  }
+ },
+ {
+  "skill": "prob-first-success",
+  "title": "Find the probability the first success is on trial n",
+  "what": {
+   "say": [
+    "You give it the chance of success on one trial, $p$, and the trial number, $n$. It finds the probability that the first success comes on trial $n$ and not before.",
+    "The key idea: trials $1$ to $n-1$ must all fail, then trial $n$ must succeed. The trials are independent, so multiply: $(1-p)^{n-1}\\,p$."
+   ],
+   "in": "$p$, $n$",
+   "out": "$(1-p)^{n-1}\\,p$"
+  },
+  "example": {
+   "question": "A spinner lands on red with probability $\\frac{1}{5}$ on each spin. Find the probability that the first red comes on the 4th spin.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the two chances",
+      "say": "The first red is on spin 4, so spins 1, 2 and 3 are **not** red. Find the chance of a fail, $\\hl{1}{q}$, and of a success, $\\hl{2}{p}$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{p} &= \\frac{1}{5}",
+        "sym": "1/5",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{q} &= 1 - \\frac{1}{5}",
+        "sym": "1-1/5",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{4}{5}",
+        "sym": "4/5"
+       },
+       {
+        "text": "A fail is $\\hl{1}{\\frac{4}{5}}$. A success is $\\hl{2}{\\frac{1}{5}}$."
+       }
+      ]
+     },
+     {
+      "title": "Multiply the four spins",
+      "say": "The spins are independent, so multiply: three fails, then one success.",
+      "lines": [
+       {
+        "tex": "P &= \\hl{1}{q} \\times \\hl{1}{q} \\times \\hl{1}{q} \\times \\hl{2}{p}",
+        "sym": "(4/5)*(4/5)*(4/5)*(1/5)",
+        "new": true
+       },
+       {
+        "tex": "&= \\left(\\frac{4}{5}\\right)^3 \\times \\frac{1}{5}",
+        "sym": "(4/5)**3*(1/5)"
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Cube the top and the bottom of the first fraction, then multiply across.",
+      "lines": [
+       {
+        "tex": "&= \\frac{64}{125} \\times \\frac{1}{5}",
+        "sym": "64/125*1/5"
+       },
+       {
+        "tex": "&= \\frac{64}{625}",
+        "sym": "64/625"
+       },
+       {
+        "text": "Write the product before you calculate it. That line earns marks on its own."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{64}{625}"
+   },
+   "finalSym": "64/625",
+   "answerSym": "(1-Rational(1,5))**3*Rational(1,5)"
+  }
+ },
+ {
+  "skill": "prob-selection-restrictions",
+  "title": "Count selections with restrictions",
+  "what": {
+   "say": [
+    "You give it some groups of people or things, and a condition on how many to take from each. It finds the number of selections that meet the condition.",
+    "The key idea: split the condition into one choice per group, count each with ${}^nC_r$, then **multiply**."
+   ],
+   "in": "groups + condition",
+   "out": "number of selections"
+  },
+  "example": {
+   "question": "A committee of 4 is chosen from 6 men and 5 women. It must contain exactly 2 women. How many different committees are possible?",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split by group",
+      "say": "Exactly 2 women means the other 2 members must be men. So make two separate choices: 2 from the 5 women, and 2 from the 6 men.",
+      "lines": [
+       {
+        "text": "Women: choose $2$ from $5$."
+       },
+       {
+        "text": "Men: choose $2$ from $6$."
+       }
+      ]
+     },
+     {
+      "title": "Count each choice",
+      "say": "Order does not matter, so use ${}^nC_r$ for each group.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{{}^5C_2} &= \\frac{5 \\times 4}{2 \\times 1}",
+        "sym": "binomial(5,2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{10}",
+        "sym": "10"
+       },
+       {
+        "tex": "\\hl{2}{{}^6C_2} &= \\frac{6 \\times 5}{2 \\times 1}",
+        "sym": "binomial(6,2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{15}",
+        "sym": "15"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the choices",
+      "say": "Every way of choosing the women can go with every way of choosing the men. Multiply.",
+      "lines": [
+       {
+        "tex": "\\text{committees} &= \\hl{1}{10} \\times \\hl{2}{15}",
+        "sym": "10*15",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{150}",
+        "sym": "150"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "150"
+   },
+   "finalSym": "150",
+   "answerSym": "binomial(5,2)*binomial(6,2)"
+  }
+ },
+ {
+  "skill": "prob-binomial",
+  "title": "Find the probability of k successes in n trials",
+  "what": {
+   "say": [
+    "You give it the number of trials $n$, the number of successes $k$, and the chance of success $p$. It finds the probability of exactly $k$ successes.",
+    "The key idea: each way of getting $k$ successes has chance $p^k(1-p)^{n-k}$, and ${}^nC_k$ counts the ways. For \"at least\", find the opposite and take it from $1$."
+   ],
+   "in": "$n$, $k$, $p$",
+   "out": "${}^nC_k\\,p^k(1-p)^{n-k}$"
+  },
+  "example": {
+   "question": "Each bolt a machine makes is faulty with probability $0.1$, independently of the others. A box holds 8 bolts. Find the probability that at least 2 bolts in the box are faulty.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn it round",
+      "say": "\"At least 2\" has many cases. The opposite, 0 or 1 faulty, has only two. So find those and take them from $1$.",
+      "lines": [
+       {
+        "tex": "P(\\text{at least } 2) &= 1 - P(0) - P(1)",
+        "sym": "1-1",
+        "new": true
+       },
+       {
+        "text": "Each probability uses $P(k) = {}^nC_k\\, p^k (1-p)^{n-k}$ with $n = 8$, $p = 0.1$."
+       }
+      ]
+     },
+     {
+      "title": "Find P(0)",
+      "say": "No faulty bolts: all 8 are good, each with chance $0.9$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(0)} &= {}^8C_0 (0.1)^0 (0.9)^8",
+        "sym": "binomial(8,0)*(1/10)**0*(9/10)**8",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{0.43046721}",
+        "sym": "43046721/100000000"
+       }
+      ]
+     },
+     {
+      "title": "Find P(1)",
+      "say": "One faulty bolt: 8 places it could be, one bad at $0.1$, seven good at $0.9$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{P(1)} &= {}^8C_1 (0.1)^1 (0.9)^7",
+        "sym": "binomial(8,1)*(1/10)**1*(9/10)**7",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{0.38263752}",
+        "sym": "38263752/100000000"
+       }
+      ]
+     },
+     {
+      "title": "Take them from 1",
+      "say": "Subtract both from $1$ and round to 4 decimal places.",
+      "lines": [
+       {
+        "tex": "P(\\text{at least } 2) &= 1 - \\hl{1}{0.43046721} - \\hl{2}{0.38263752}",
+        "sym": "1-43046721/100000000-38263752/100000000",
+        "new": true
+       },
+       {
+        "tex": "&= 0.18689527",
+        "sym": "18689527/100000000"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{0.1869}",
+        "sym": "0.1869",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "0.1869"
+   },
+   "finalSym": "0.1869",
+   "answerSym": "1-binomial(8,0)*Rational(9,10)**8-binomial(8,1)*Rational(1,10)*Rational(9,10)**7"
+  }
+ }
+]

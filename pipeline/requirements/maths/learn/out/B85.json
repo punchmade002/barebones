@@ -1,0 +1,517 @@
+[
+ {
+  "skill": "trig-pythag-identity",
+  "what": {
+   "say": [
+    "You give it one ratio, like $\\sin A$, and the quadrant $A$ lies in. It gives back the **other ratios**.",
+    "The key idea: $\\cos^2 A + \\sin^2 A = 1$ links the two. Find $\\cos^2 A$, take the root, then use the quadrant to pick the sign."
+   ],
+   "in": "$\\sin A$ and the quadrant",
+   "out": "$\\cos A$, $\\tan A$"
+  },
+  "how": {
+   "higher": "It is not a part of its own. It turns up as a step inside a longer proof, for example showing $\\cos 2A = 1 - 2\\sin^2 A$ in a 10 mark part on Paper 2."
+  },
+  "example": {
+   "question": "Given that $\\sin A = \\frac{8}{17}$ and $90° < A < 180°$, find the value of $\\tan A$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find cos squared",
+      "say": "Use $\\cos^2 A + \\sin^2 A = 1$. Rearrange it to get $\\cos^2 A$ from the $\\sin A$ you were given.",
+      "lines": [
+       {
+        "tex": "\\cos^2 A &= 1 - \\sin^2 A",
+        "sym": "1-Rational(8,17)**2",
+        "new": true
+       },
+       {
+        "tex": "&= 1 - \\frac{64}{289}",
+        "sym": "1-Rational(64,289)"
+       },
+       {
+        "tex": "&= \\frac{225}{289}",
+        "sym": "Rational(225,289)"
+       }
+      ]
+     },
+     {
+      "title": "Take the root, pick the sign",
+      "say": "Taking the root gives two answers, positive and negative. The quadrant decides which one is $\\hl{1}{\\cos A}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\cos A} &= \\pm\\frac{15}{17}"
+       },
+       {
+        "text": "$A$ is between $90°$ and $180°$. That is the second quadrant, where cosine is negative."
+       },
+       {
+        "tex": "\\hl{1}{\\cos A} &= -\\frac{15}{17}",
+        "sym": "-Rational(15,17)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Divide to get tan",
+      "say": "Now $\\hl{2}{\\tan A}$ is $\\sin A$ divided by $\\hl{1}{\\cos A}$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\tan A} &= \\frac{\\sin A}{\\cos A}"
+       },
+       {
+        "tex": "&= \\frac{8/17}{-15/17}",
+        "sym": "Rational(8,17)/(-Rational(15,17))",
+        "new": true
+       },
+       {
+        "tex": "&= -\\frac{8}{15}",
+        "sym": "-Rational(8,15)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\tan A = -\\tfrac{8}{15}"
+   },
+   "finalSym": "-Rational(8,15)",
+   "answerSym": "tan(pi - asin(Rational(8,17)))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write $\\cos^2 A + \\sin^2 A = 1$ down. Even before you use it, writing it clearly earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q4#(a)",
+       "quote": "cos²𝐴+ sin²𝐴= 1 indicated or clearly"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-exact-values",
+  "what": {
+   "say": [
+    "You give it an angle like $135°$ or $150°$. It gives back the **exact value** of its sine, cosine or tangent, with surds and no decimals.",
+    "The key idea: every such angle has a reference angle of $30°$, $45°$ or $60°$ in the first quadrant. Use that angle's exact value, then fix the sign from the quadrant."
+   ],
+   "in": "angle, e.g. $135°$",
+   "out": "exact value"
+  },
+  "how": {
+   "higher": "It is a step inside bigger questions, not a part of its own: finding $\\sin 75°$ with a compound angle formula, checking a point on the unit circle, or solving an equation (usually 5 to 10 marks).",
+   "ordinary": "It shows up once as a step in a geometry question: using $\\sin 60°$ in the area formula of an equilateral triangle, in a 10 mark part on Paper 2."
+  },
+  "example": {
+   "question": "Find the exact value of $\\sin 135° + \\cos 150°$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Use reference angles",
+      "say": "Both angles are in the second quadrant. Subtract each from $180°$ to get the reference angle. Sine is positive there and cosine is negative.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\sin 135°} &= \\sin 45°",
+        "sym": "sin(pi/4)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{\\cos 150°} &= -\\cos 30°",
+        "sym": "-cos(pi/6)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the exact values",
+      "say": "Use the exact values you know for $45°$ and $30°$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\sin 135°} &= \\frac{1}{\\sqrt{2}}",
+        "sym": "1/sqrt(2)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{\\cos 150°} &= -\\frac{\\sqrt{3}}{2}",
+        "sym": "-sqrt(3)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Add them",
+      "say": "Add the two exact values. Write $\\frac{1}{\\sqrt{2}}$ as $\\frac{\\sqrt{2}}{2}$ so both terms have denominator $2$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\sin 135°} + \\hl{2}{\\cos 150°} &= \\frac{1}{\\sqrt{2}} - \\frac{\\sqrt{3}}{2}",
+        "sym": "1/sqrt(2)-sqrt(3)/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{3}}{2}",
+        "sym": "sqrt(2)/2-sqrt(3)/2"
+       },
+       {
+        "tex": "&= \\frac{\\sqrt{2} - \\sqrt{3}}{2}",
+        "sym": "(sqrt(2)-sqrt(3))/2"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{\\sqrt{2} - \\sqrt{3}}{2}"
+   },
+   "finalSym": "(sqrt(2)-sqrt(3))/2",
+   "answerSym": "sin(3*pi/4)+cos(5*pi/6)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "When you split an angle such as $75°$ into $30° + 45°$, write the compound formula with the exact values in it. That line alone reaches high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q2#(b)",
+       "quote": "sin 30 cos 45 + cos 30 sin 45 or"
+      }
+     ]
+    },
+    {
+     "tip": "Name the reference angle and the quadrants it sits in. Marks are given for finding the reference angle.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q3#(b)",
+       "quote": "Reference angle in 1st and 4th quadrants"
+      },
+      {
+       "part": "maths-pp-2024-higher-p2-q3#(b)",
+       "quote": "Work of merit in finding reference angle"
+      }
+     ]
+    },
+    {
+     "tip": "On the unit circle the $x$ coordinate is the cosine and the $y$ coordinate is the sine. Work finding either one earns partial credit, and the drawing is checked for it.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q9#(c)(i)",
+       "quote": "Work of merit in finding x or y"
+      }
+     ]
+    },
+    {
+     "tip": "Give the slope or value in the form the question asks for. A correct value in the wrong form loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q2#(c)",
+       "quote": "Correct value for slope, but not in required form"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Show your working for the area. The angle can be accepted without working, but the area line must be shown.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q5#(a)(i), (ii)",
+       "quote": "work must be shown for (a)(ii)"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula down first. A correct formula earns partial credit even if you cannot finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q5#(a)(i), (ii)",
+       "quote": "e.g. correct formula written"
+      }
+     ]
+    },
+    {
+     "tip": "Check your calculator is in degree mode. This is a penalty that applies once in the paper.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q5#(a)(i), (ii)",
+       "quote": "Incorrect calculator mode"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-solve-basic",
+  "what": {
+   "say": [
+    "You give it an equation like $\\sin\\theta = k$ and an interval. It gives back **every angle** in the interval that works.",
+    "The key idea: the calculator gives only one angle. The sign of $k$ tells you which two quadrants hold the answers, and the reference angle gives both."
+   ],
+   "in": "$\\sin\\theta = k$ and interval",
+   "out": "all angles $\\theta$"
+  },
+  "how": {
+   "higher": "It is the main skill in most parts that use it. It is a step inside bigger questions: solving a trig equation (about 10 marks), finding values over several revolutions (5 marks), or solving $\\cos(\\dots) = k$ in a real-life model."
+  },
+  "example": {
+   "question": "Solve $2\\sin\\theta + 1 = 0$ for $0° \\le \\theta \\le 360°$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Isolate the sine",
+      "say": "Get $\\hl{1}{\\sin\\theta}$ on its own.",
+      "lines": [
+       {
+        "tex": "2\\sin\\theta + 1 &= 0",
+        "sym": "0",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{\\sin\\theta} &= -\\frac{1}{2}",
+        "sym": "-Rational(1,2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the reference angle",
+      "say": "Ignore the minus sign for now and find the first-quadrant angle with $\\sin = \\frac{1}{2}$.",
+      "lines": [
+       {
+        "tex": "\\sin^{-1}\\left(\\frac{1}{2}\\right) &= 30°",
+        "sym": "asin(Rational(1,2))*180/pi",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Choose the quadrants",
+      "say": "$\\sin\\theta$ is negative, so $\\theta$ is in the third or fourth quadrant. Measure $30°$ from the $180°$ line and back from $360°$.",
+      "lines": [
+       {
+        "tex": "\\theta &= 180° + 30° = \\hl{2}{210°}",
+        "sym": "180+30",
+        "new": true
+       },
+       {
+        "tex": "\\theta &= 360° - 30° = \\hl{3}{330°}",
+        "sym": "360-30",
+        "new": true
+       },
+       {
+        "text": "Both are between $0°$ and $360°$. Check: $2\\sin 210° + 1 = 0$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\theta = 210°, \\; 330°"
+   },
+   "finalSym": "[210, 330]",
+   "answerSym": "[180+asin(Rational(1,2))*180/pi, 360-asin(Rational(1,2))*180/pi]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Name the quadrants your angles are in. Saying which quadrant the angle lies in earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q4#(b)",
+       "quote": "Quadrants 2 and 4 identified"
+      }
+     ]
+    },
+    {
+     "tip": "Keep every answer inside the interval you were given. Extra values lose a mark, and a value outside the range does not count as the answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q6#(a)",
+       "quote": "Apply a * once for excess values"
+      },
+      {
+       "part": "maths-pp-2021-higher-p2-q4#(b)",
+       "quote": "Solution to equation outside of required range"
+      }
+     ]
+    },
+    {
+     "tip": "Give angles in the unit the question asks for. Values in radians when degrees were asked lose a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q6#(a)",
+       "quote": "Apply a * once for one or more values given in radians"
+      }
+     ]
+    },
+    {
+     "tip": "If the question uses $\\pi$, put your calculator in radians. Working in degrees there loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q8#(b)",
+       "quote": "Uses degrees as unit of measurement"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-graph",
+  "what": {
+   "say": [
+    "You give it a function like $3\\cos x + 1$ and a domain. It gives back its **graph**, with the period and the range.",
+    "The key idea: the number multiplying the trig function stretches the wave and the number added moves it up or down, so the range changes. The period only changes if you change the $x$ inside."
+   ],
+   "in": "$f(x)$ and domain",
+   "out": "graph, period, range"
+  },
+  "how": {
+   "higher": "It is the main skill, either as a part of its own or inside a modelling question: write down the period and range (5 marks), or complete a table, plot the points and join them (10 to 15 marks)."
+  },
+  "example": {
+   "question": "Sketch the graph of $f(x) = 3\\cos x + 1$ for $0 \\le x \\le 2\\pi$. Write down its period and its range.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the range",
+      "say": "$\\cos x$ stays between $-1$ and $1$. Multiply by $3$, then add $1$, to see how high and low $f(x)$ goes.",
+      "lines": [
+       {
+        "tex": "-1 &\\le \\cos x \\le 1"
+       },
+       {
+        "tex": "-3 &\\le 3\\cos x \\le 3"
+       },
+       {
+        "tex": "\\hl{2}{-2} &\\le 3\\cos x + 1 \\le \\hl{2}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Find the period",
+      "say": "Multiplying by $3$ and adding $1$ do not change how often the wave repeats. $\\cos x$ repeats every $2\\pi$.",
+      "lines": [
+       {
+        "tex": "\\text{Period} &= \\hl{3}{2\\pi}"
+       }
+      ]
+     },
+     {
+      "title": "Find the turning points",
+      "say": "The maximum is at $x = \\hl{1}{0}$ and the minimum is at $x = \\hl{1}{\\pi}$. Put them in to find the heights.",
+      "lines": [
+       {
+        "tex": "f(0) &= 3\\cos 0 + 1 = \\hl{2}{4}",
+        "sym": "3*cos(0)+1",
+        "new": true
+       },
+       {
+        "tex": "f(\\pi) &= 3\\cos \\pi + 1 = \\hl{2}{-2}",
+        "sym": "3*cos(pi)+1",
+        "new": true
+       },
+       {
+        "tex": "f\\left(\\tfrac{\\pi}{2}\\right) &= 3\\cos\\tfrac{\\pi}{2} + 1 = 1",
+        "sym": "3*cos(pi/2)+1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Draw the curve",
+      "say": "Plot $(0, 4)$, $\\left(\\frac{\\pi}{2}, 1\\right)$, $(\\pi, -2)$ and mark the same shape back up to $(2\\pi, 4)$. Join them with one smooth wave.",
+      "lines": [
+       {
+        "text": "Start at the top, $(0, 4)$. Go down through $\\left(\\frac{\\pi}{2}, 1\\right)$ to the bottom, $(\\pi, -2)$. Then climb back up to $(2\\pi, 4)$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{period } 2\\pi, \\; \\text{range } [-2, 4]"
+   },
+   "finalSym": "[2*pi, -2, 4]",
+   "answerSym": "[periodicity(3*cos(x)+1, x), minimum(3*cos(x)+1, x, Interval(0,2*pi)), maximum(3*cos(x)+1, x, Interval(0,2*pi))]"
+  },
+  "graph": {
+   "f": "3*cos(x)+1",
+   "box": [
+    -0.5,
+    5.5,
+    6.8,
+    -3
+   ],
+   "points": [
+    {
+     "x": 0,
+     "y": 4,
+     "name": "max (0, 4)"
+    },
+    {
+     "x": 3.141592653589793,
+     "y": -2,
+     "name": "min (π, -2)"
+    }
+   ],
+   "slots": {
+    "x": 1,
+    "y": 2
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Do not swap the period and the range. Getting both right but in the wrong order loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q8#(a), (b)",
+       "quote": "Period and range correct, but swapped"
+      }
+     ]
+    },
+    {
+     "tip": "Join your plotted points with a smooth curve. Correct points that are not joined lose a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q8#(a), (b)",
+       "quote": "points not joined or joined inappropriately"
+      }
+     ]
+    },
+    {
+     "tip": "Give the period in radians when the question uses $\\pi$. A period in degrees loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q6#(b)",
+       "quote": "Period given in degrees"
+      }
+     ]
+    },
+    {
+     "tip": "Fill in the table values and plot them. Marks are given for the points plotted, even a few of them.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q9#(b)(iii)",
+       "quote": "3 points from table plotted"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

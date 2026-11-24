@@ -1,0 +1,240 @@
+[
+{"skill": "fn-graph-quadratic", "problems": [
+ {"part": "maths-pp-2015-ordinary-p1-q4#(c)", "note": null,
+  "legend": {"1": "the roots: where the curve crosses the x-axis", "2": "the turning point (vertex)", "3": "the x² term, which sets the shape"},
+  "steps": [
+   {"ask": "Which points from parts (a) and (b) do you need to sketch this parabola?", "title": "Mark the points from parts (a) and (b)", "lines": [{"text": "The curve cuts the x-axis at $\\hl{1}{0.8}$ and $\\hl{1}{5.2}$, and the turning point is $\\hl{2}{(3, 5)}$."}]},
+   {"ask": "What does a negative x² term tell you about the shape?", "title": "Choose the shape", "lines": [{"text": "The $\\hl{3}{x^2}$ term is negative, so the curve is an upside-down U with its maximum at $\\hl{2}{(3, 5)}$."}]},
+   {"ask": "A parabola is symmetric about its turning point. How does that help you draw the curve through the three points?", "title": "Draw the curve through the three points", "lines": [{"text": "The curve is symmetric about $x = 3$. Mark the scale 1 to 6 on both axes."}]}
+  ],
+  "final": "\\text{Sketch: maximum } \\hl{2}{(3, 5)}, \\text{ roots } \\hl{1}{0.8} \\text{ and } \\hl{1}{5.2}",
+  "graph": null},
+ {"part": "maths-pp-2020-ordinary-p1-q5#(b)(ii)", "note": "Instead of roots and a turning point given, you now plot seven points from a table and join them. The downward shape from the negative x² term is the same idea.",
+  "legend": {"1": "the roots: where the curve crosses the x-axis", "2": "the turning point (vertex)", "3": "the x² term, which sets the shape"},
+  "steps": [
+   {"ask": "What does each pair in the table tell you, and where do you put it on the axes?", "title": "Plot the points from the table", "lines": [{"text": "Plot $(-4,-6)$, $\\hl{1}{(-3,0)}$, $(-2,4)$, $\\hl{2}{(-1,6)}$, $\\hl{2}{(0,6)}$, $(1,4)$ and $\\hl{1}{(2,0)}$."}]},
+   {"ask": "What shape does a negative x² term give, and where does the curve peak?", "title": "Join the points with a smooth curve", "lines": [{"text": "The graph is a downward-opening curve (the $\\hl{3}{x^2}$ term is negative). It peaks between $\\hl{2}{x=-1}$ and $\\hl{2}{x=0}$, then falls on both sides."}]}
+  ],
+  "final": "\\text{Smooth curve through the seven points}",
+  "graph": null},
+ {"part": "maths-pp-2015-ordinary-p1-q8#(b)", "note": "The table is now a profit function with much larger values, so the question is about profit. The plotting and joining steps are the same as before.",
+  "legend": {"2": "the turning point (its x-value)", "3": "the x² term, which sets the shape"},
+  "steps": [
+   {"ask": "The table now gives profit. What do the two numbers in each pair stand for?", "title": "Plot the points from the table", "lines": [{"text": "Plot $(500, 40\\,500)$, $(1000, 66\\,000)$, $(1500, 76\\,500)$, $(2000, 72\\,000)$ and $(2500, 52\\,500)$."}]},
+   {"ask": "Which point is highest on the curve, and what does its x-value tell you?", "title": "Join with a smooth curve", "lines": [{"text": "The profit function is a quadratic with a negative $\\hl{3}{x^2}$ term, so the graph is a smooth upside-down U shape. Its highest point is at $\\hl{2}{x = 1600}$."}]}
+  ],
+  "final": "\\text{smooth }\\cap\\text{-shaped curve through the plotted points}",
+  "graph": null}
+]},
+{"skill": "fn-solve-graphically", "problems": [
+ {"part": "maths-pp-2019-ordinary-p1-q3#(a)(ii)", "note": null,
+  "legend": {"1": "the x-values you read off (the solutions)", "2": "the value f(x) is set equal to (0 here)"},
+  "steps": [
+   {"ask": "If f(x) = 0, what is the height of the curve at a solution? Where do you look on the graph?", "title": "Read where the curve crosses the x-axis", "lines": [
+     {"text": "The roots are the values of $x$ where $f(x) = \\hl{2}{0}$, that is, where the curve meets the x-axis."},
+     {"text": "In the domain $-1 \\le x \\le 4$ it crosses just left and just right of the y-axis, at about $x = \\hl{1}{-0.8}$ and $x = \\hl{1}{0.6}$."},
+     {"text": "The marking scheme printed $\\hl{1}{-0.7}$ and $\\hl{1}{0.7}$."}
+   ]}
+  ],
+  "final": "x \\approx \\hl{1}{-0.8} \\text{ and } x \\approx \\hl{1}{0.6}",
+  "graph": null},
+ {"part": "maths-pp-2018-ordinary-p1-q8#(d)(ii)", "note": "The equation is now f(x) = 100 rather than f(x) = 0, so you start on the vertical axis at 100, go across to the curve, then down to the horizontal axis. The rest is the same.",
+  "legend": {"1": "the x-value you read off (the solution)", "2": "the value f(x) is set equal to (100 here)"},
+  "steps": [
+   {"ask": "To solve f(x) = k, which axis do you start from, and which axis gives the answer?", "title": "Read the graph at C = 100", "lines": [
+     {"text": "Go across from $\\hl{2}{100}$ on the vertical axis to the curve, then straight down to the horizontal axis."},
+     {"text": "The horizontal axis reads about $\\hl{1}{1.7}$ hours, which is about 1 hour 42 minutes."},
+     {"text": "The marking scheme gives 1 hour 45 minutes; any reading close to the curve is accepted."}
+   ]}
+  ],
+  "final": "\\approx \\hl{1}{1.7} \\text{ hours (about 1 hour 42 minutes)}",
+  "graph": null},
+ {"part": "maths-pp-2016-ordinary-p1-q9#(c)", "note": "Now the target is the graph of B rather than a fixed value, so the answer is the point where the two graphs cross. You still read the x-value (h) from that point, as before.",
+  "legend": {"1": "the x-value of the solution (h here)"},
+  "steps": [
+   {"ask": "Where do two graphs have the same height, and what value do you read there?", "title": "Find where the two graphs cross", "lines": [
+     {"text": "The charges are the same where the graph of A meets the graph of B."},
+     {"text": "Read the $\\hl{1}{h}$ value of that crossing point from the graphs: it is just over $\\hl{1}{3}$ hours."}
+   ]}
+  ],
+  "final": "\\hl{1}{h} \\approx \\hl{1}{3.2}",
+  "graph": null}
+]},
+{"skill": "fn-transformations", "problems": [
+ {"part": "maths-pp-2023-higher-p1-q2#(c)(i), (ii)", "note": null,
+  "legend": {"2": "the point before the move", "3": "the point after the move"},
+  "steps": [
+   {"ask": "When you subtract 2 from the output, which coordinate of each point changes?", "title": "(i) g(x) − 2 moves the graph down 2", "lines": [
+     {"text": "Subtracting 2 from the output lowers every point by 2; the domain stays $-2 \\le x \\le 2$."},
+     {"tex": "\\hl{2}{(-2, 4)} &\\to \\hl{3}{(-2, 2)}"},
+     {"tex": "\\hl{2}{(-1, 1)} &\\to \\hl{3}{(-1, -1)}"},
+     {"tex": "\\hl{2}{(2, 3)} &\\to \\hl{3}{(2, 1)}"}
+   ]},
+   {"ask": "When you add 3 to the input, which coordinate changes, and in which direction?", "title": "(ii) g(x + 3) moves the graph left 3", "lines": [
+     {"text": "Adding 3 to the input shifts every point 3 units left."},
+     {"tex": "\\hl{2}{(-2, 4)} &\\to \\hl{3}{(-5, 4)}"},
+     {"tex": "\\hl{2}{(-1, 1)} &\\to \\hl{3}{(-4, 1)}"},
+     {"tex": "\\hl{2}{(2, 3)} &\\to \\hl{3}{(-1, 3)}"}
+   ]},
+   {"ask": "For g(x + 3) the input is x + 3. What range must x + 3 stay in?", "title": "Find the domain of g(x + 3)", "lines": [
+     {"text": "$g$ needs its input between $-2$ and $2$."},
+     {"tex": "-2 \\le x + 3 &\\le 2"},
+     {"tex": "-5 \\le x &\\le -1"}
+   ]}
+  ],
+  "final": "\\text{(i) } g(x) - 2 \\text{ is } g(x) \\text{ down 2; (ii) } g(x+3) \\text{ is } g(x) \\text{ left 3}",
+  "graph": null},
+ {"part": "maths-pp-2016-higher-p1-q8#(a)(iii)", "note": "The shift is now worked out from two points, A and C, with decimals, instead of being given in the question. Applying it to a point works as in the previous problem.",
+  "legend": {"2": "the point before the move (A, then the maximum)", "3": "the point after the move (C, then the new maximum)"},
+  "steps": [
+   {"ask": "How far sideways, and how far up or down, does A have to move to reach C?", "title": "Find the translation that maps A onto C", "lines": [
+     {"tex": "\\hl{2}{A(-0.5,\\ 2.565)} &\\to \\hl{3}{C(0,\\ 2)}"},
+     {"tex": "x\\text{-shift} &= 0 - (-0.5) = 0.5"},
+     {"tex": "y\\text{-shift} &= 2 - 2.565 = -0.565"}
+   ]},
+   {"ask": "Apply the same sideways and up-down shift to the maximum point. What happens to its x and its y?", "title": "Apply the translation to the maximum point (2.177, 4.529)", "lines": [
+     {"text": "Use the maximum height from part (i); the translation moves every point of the curve the same way."},
+     {"tex": "x &= \\hl{2}{2.177} + 0.5"},
+     {"tex": "&= \\hl{3}{2.677}"},
+     {"tex": "y &= \\hl{2}{4.529} - 0.565"},
+     {"tex": "&= \\hl{3}{3.964}"}
+   ]}
+  ],
+  "final": "(\\hl{3}{2.677},\\ \\hl{3}{3.964})",
+  "graph": null},
+ {"part": "maths-pp-2020-ordinary-p1-q5#(b)(iii)", "note": "The change is that the transformation is now a formula in x − 2, so you expand it first and then move each point of f two units right. Plotting and labelling the new graph are the same as before.",
+  "legend": {"2": "the point before the move, (x, y)", "3": "the point after the move, (x + 2, y)"},
+  "steps": [
+   {"ask": "The question gives g in terms of x − 2. What do you do to get it into the form −x² + bx + c?", "title": "Work out the formula for g(x)", "lines": [
+     {"tex": "g(x) &= -(x-2)^2 - (x-2) + 6"},
+     {"tex": "&= -(x^2 - 4x + 4) - x + 2 + 6"},
+     {"tex": "&= -x^2 + 3x + 4"}
+   ]},
+   {"ask": "If every point moves two units right, which coordinate changes, and to what?", "title": "Shift the graph of f two units to the right", "lines": [
+     {"text": "$g(x) = f(x-2)$ moves every point of $f$ two units right, so $\\hl{2}{(x, y)}$ becomes $\\hl{3}{(x+2, y)}$."},
+     {"text": "The points become $\\hl{3}{(-2,-6)}$, $\\hl{3}{(-1,0)}$, $\\hl{3}{(0,4)}$, $\\hl{3}{(1,6)}$, $\\hl{3}{(2,6)}$, $\\hl{3}{(3,4)}$ and $\\hl{3}{(4,0)}$."}
+   ]},
+   {"ask": "Once the new points are plotted, what do you label the two graphs?", "title": "Plot and label g(x)", "lines": [
+     {"text": "Plot these seven points, join them with a smooth curve and label it $g(x)$. Label the first graph $f(x)$."}
+   ]}
+  ],
+  "final": "g(x) = -x^2 + 3x + 4",
+  "graph": {"f": "-(x-2)**2 - (x-2) + 6", "box": [-3, 8, 5, -8], "tangent": false,
+            "points": [{"x": -2, "y": -6, "name": "(-2, -6)"}, {"x": -1, "y": 0, "name": "(-1, 0)"}, {"x": 0, "y": 4, "name": "(0, 4)"}, {"x": 1, "y": 6, "name": "(1, 6)"}, {"x": 2, "y": 6, "name": "(2, 6)"}, {"x": 3, "y": 4, "name": "(3, 4)"}, {"x": 4, "y": 0, "name": "(4, 0)"}],
+            "line": null, "slots": {"x": 3, "y": 3, "line": null}}}
+]},
+{"skill": "geo-congruence", "problems": [
+ {"part": "maths-pp-2025-ordinary-p2-q5#(b)(ii)", "note": null,
+  "legend": {"1": "a pair of equal sides", "2": "the two triangles compared"},
+  "steps": [
+   {"ask": "Which pairs of sides in the two triangles are equal from the information given?", "title": "Find three pairs of equal sides", "lines": [
+     {"text": "Compare triangle $\\hl{2}{ABD}$ with triangle $\\hl{2}{ACD}$."},
+     {"tex": "\\hl{1}{|AB|} &= \\hl{1}{|AC|} \\qquad \\text{(given: triangle } ABC \\text{ is isosceles)}"},
+     {"tex": "\\hl{1}{|BD|} &= \\hl{1}{|DC|} \\qquad \\text{(} D \\text{ is the midpoint of } [BC] \\text{)}"},
+     {"tex": "\\hl{1}{|AD|} &= \\hl{1}{|AD|} \\qquad \\text{(common side)}"}
+   ]},
+   {"ask": "All three sides match. Which congruence test uses only sides, and what is it called?", "title": "State the conclusion", "lines": [
+     {"text": "All three sides of one triangle equal the three sides of the other."},
+     {"tex": "\\hl{2}{\\triangle ABD} &\\equiv \\hl{2}{\\triangle ACD} \\qquad \\text{(SSS)}"}
+   ]}
+  ],
+  "final": "\\hl{2}{\\triangle ABD} \\equiv \\hl{2}{\\triangle ACD} \\text{ (SSS)}",
+  "graph": null},
+ {"part": "maths-pp-2015-ordinary-p2-q2#(c)", "note": "The triangles are now right-angled, so the test changes from three sides to RHS: a right angle, the hypotenuse and one other side. Picking out the equal parts and naming the test are the same steps as before.",
+  "legend": {"1": "a pair of equal sides", "2": "the two triangles compared", "3": "a pair of equal angles"},
+  "steps": [
+   {"ask": "Which sides and angles are equal here, and what does each equality come from?", "title": "Pick out the matching parts of the two triangles", "lines": [
+     {"text": "$\\hl{1}{|OA|} = \\hl{1}{|OB|}$, because $p$ makes equal intercepts on the axes."},
+     {"text": "$\\hl{1}{|OC|} = \\hl{1}{|OC|}$, because it is a common side."},
+     {"text": "$\\hl{3}{|\\angle OCA|} = \\hl{3}{|\\angle BCO|} = 90^\\circ$, because $q \\perp p$ and $C$ lies on both lines."}
+   ]},
+   {"ask": "A triangle with a right angle has its own test. Which three parts does it use?", "title": "State the congruence", "lines": [
+     {"text": "Each triangle has a right angle, a hypotenuse ($\\hl{1}{[OA]}$ and $\\hl{1}{[OB]}$ are equal) and one other equal side ($\\hl{1}{[OC]}$)."},
+     {"text": "This is the RHS (right angle, hypotenuse, side) condition, so the triangles $\\hl{2}{OCA}$ and $\\hl{2}{OBC}$ are congruent."}
+   ]}
+  ],
+  "final": "\\hl{2}{\\triangle OCA} \\equiv \\hl{2}{\\triangle OBC} \\text{ (RHS)}",
+  "graph": null},
+ {"part": "maths-pp-2018-ordinary-p2-q6#(b)(ii)", "note": "The triangles are no longer right-angled, and the test is now SAS: two sides and the angle between them, all from the parallelogram's opposite sides and angles. Matching the parts and naming the test are the same steps as before.",
+  "legend": {"1": "a pair of equal sides", "2": "the two triangles compared", "3": "a pair of equal angles"},
+  "steps": [
+   {"ask": "What does the parallelogram tell you about its opposite sides?", "title": "Match the first pair of sides", "lines": [
+     {"text": "$\\hl{1}{|PQ|} = \\hl{1}{|SR|}$ (opposite sides of a parallelogram are equal)."}
+   ]},
+   {"ask": "Which angle sits between the two sides you have matched?", "title": "Match the angle between those sides", "lines": [
+     {"text": "$\\hl{3}{|\\angle PQR|} = \\hl{3}{|\\angle RSP|}$ (opposite angles of a parallelogram are equal)."}
+   ]},
+   {"ask": "Which other pair of sides is equal, and why?", "title": "Match the second pair of sides", "lines": [
+     {"text": "$\\hl{1}{|QR|} = \\hl{1}{|PS|}$ (opposite sides of a parallelogram are equal)."}
+   ]},
+   {"ask": "You have two sides and the angle between them equal. What is the test called?", "title": "State the congruence", "lines": [
+     {"text": "Two sides and the angle between them are equal in both triangles, so they are congruent by SAS."}
+   ]}
+  ],
+  "final": "\\hl{2}{\\triangle PQR} \\equiv \\hl{2}{\\triangle RSP} \\ \\text{(SAS)}",
+  "graph": null}
+]},
+{"skill": "geo-cor3", "problems": [
+ {"part": "maths-pp-2022-ordinary-p2-q6#(a)(i)", "note": null,
+  "legend": {"1": "the diameter", "2": "the right angle from Corollary 3 (90°)"},
+  "steps": [
+   {"ask": "Which segment is the diameter, and what does that make the angle at D?", "title": "Use the angle in a semicircle", "lines": [
+     {"text": "$\\hl{1}{[AB]}$ is a diameter, so the angle at $D$ on the circle is a right angle."},
+     {"tex": "\\hl{2}{|\\angle ADB|} &= \\hl{2}{90^\\circ}"}
+   ]}
+  ],
+  "final": "\\hl{2}{90^\\circ}",
+  "graph": null},
+ {"part": "maths-pp-2022-higher-p2-q6#(b)", "note": "The right angle from the semicircle is only the first step: it sets up an isosceles triangle, then equal angles on the same arc, then the angle sum finds ∠ADC. In the previous problem the right angle was the answer.",
+  "legend": {"1": "the diameter", "2": "the right angle from Corollary 3 (90°)", "3": "the unknown angle we are asked for"},
+  "steps": [
+   {"ask": "Find the diameter first. What does it give you for the angle at D?", "title": "Use the angle in a semicircle", "lines": [
+     {"text": "$\\hl{1}{[AB]}$ is a diameter, so the angle at $D$ in the semicircle is a right angle."},
+     {"tex": "\\hl{2}{|\\angle ADB|} &= \\hl{2}{90^\\circ}"}
+   ]},
+   {"ask": "Triangle ABD has a right angle at D and two equal sides. What do you know about its base angles?", "title": "Use the isosceles triangle ABD", "lines": [
+     {"text": "Triangle $ABD$ is isosceles with the right angle at $D$, so $|AD| = |DB|$ and the two base angles are equal."},
+     {"tex": "|\\angle ABD| &= \\frac{180 - 90}{2}"},
+     {"tex": "&= 45^\\circ"}
+   ]},
+   {"ask": "Which angles stand on the same arc as ∠ABD? What does that say about ∠ACD?", "title": "Use angles standing on the same arc", "lines": [
+     {"text": "$\\angle ABD$ and $\\angle ACD$ both stand on the arc $AD$, so they are equal."},
+     {"tex": "|\\angle ACD| &= 45^\\circ"}
+   ]},
+   {"ask": "The three angles of triangle ADC add to 180°. Which two are known, and what is left?", "title": "Angles in triangle ADC add to 180 degrees", "lines": [
+     {"tex": "\\hl{3}{|\\angle ADC|} &= 180 - 45 - 40"},
+     {"tex": "&= \\hl{3}{95^\\circ}"}
+   ]}
+  ],
+  "final": "\\hl{3}{|\\angle ADC|} = \\hl{3}{95^\\circ}",
+  "graph": null},
+ {"part": "maths-pp-2024-higher-p2-q8#(c)(i), (ii)", "note": "The diameter is not stated, so you must find it from the symmetry of the diagram before citing Corollary 3. The second half then aims at similar triangles rather than an angle.",
+  "legend": {"1": "the diameter", "2": "the right angle from Corollary 3 (90°)"},
+  "steps": [
+   {"ask": "The diagram is symmetrical about DC. What does that tell you about the line DC?", "title": "(i) Explain why the angle CBD is 90 degrees", "lines": [
+     {"text": "The diagram is symmetrical about $DC$, so $\\hl{1}{[CD]}$ passes through the centre of the circle and is a diameter."},
+     {"text": "$B$ is on the circle, so $\\hl{2}{\\angle CBD}$ is an angle at the circumference standing on the diameter $\\hl{1}{[CD]}$."},
+     {"text": "The angle in a semicircle is $\\hl{2}{90^\\circ}$, so $\\hl{2}{|\\angle CBD|} = \\hl{2}{90^\\circ}$."}
+   ]},
+   {"ask": "By symmetry, what angle does DC make with AB at E?", "title": "(ii) Find the first pair of equal angles", "lines": [
+     {"text": "By symmetry about $DC$, $\\hl{1}{[CD]}$ is perpendicular to $[AB]$ at $E$."},
+     {"tex": "|\\angle CEB| &= 90^\\circ"},
+     {"tex": "|\\angle DEB| &= 90^\\circ"},
+     {"text": "So $|\\angle CEB| = |\\angle DEB|$ (both are $90^\\circ$)."}
+   ]},
+   {"ask": "In triangle BCD one angle is 90°. How do the other two angles relate?", "title": "Find the second pair of equal angles", "lines": [
+     {"text": "In triangle $BCD$, $\\hl{2}{|\\angle CBD|} = \\hl{2}{90^\\circ}$, so $|\\angle BCD|$ and $|\\angle BDC|$ add to $90^\\circ$."},
+     {"text": "In triangle $BED$, $|\\angle DEB| = 90^\\circ$, so $|\\angle DBE|$ and $|\\angle EDB|$ add to $90^\\circ$."},
+     {"tex": "|\\angle ECB| &= 90^\\circ - |\\angle EDB|"},
+     {"tex": "|\\angle DBE| &= 90^\\circ - |\\angle EDB|"},
+     {"text": "So $|\\angle ECB| = |\\angle DBE|$."}
+   ]},
+   {"ask": "If the angles of two triangles all match, what is the relationship between them?", "title": "Find the third pair and conclude", "lines": [
+     {"text": "Angles in a triangle add to $180^\\circ$, so the remaining angles are equal: $|\\angle CBE| = |\\angle BDE|$."},
+     {"text": "Triangles $BCE$ and $DBE$ have all three angles equal, so they are similar."}
+   ]}
+  ],
+  "final": "\\triangle BCE \\text{ and } \\triangle DBE \\text{ are similar (equiangular)}",
+  "graph": null}
+]}
+]

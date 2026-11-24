@@ -1,0 +1,357 @@
+[
+ {"skill": "stat-normal-inverse", "problems": [
+  {"part": "maths-pp-2016-higher-p2-q9#(a)(ii)", "note": null,
+   "legend": {"1": "the z-value from the tables", "2": "the unknown x (the income)", "3": "the mean μ"},
+   "steps": [
+    {"ask": "What z-value cuts off the lowest 10%? Use the tables and symmetry.", "title": "Find the z-value for the lowest 10%",
+     "lines": [{"text": "The tables give $P(z \\le \\hl{1}{1.28}) = 0.9$. By symmetry the value with $10\\%$ below it is $\\hl{1}{z = -1.28}$."}]},
+    {"ask": "Put the z-value into z = (x − μ)/σ. What must you do to get x on its own?", "title": "Convert back to an income",
+     "lines": [
+      {"tex": "\\frac{\\hl{2}{x} - \\hl{3}{39400}}{12920} &= \\hl{1}{-1.28}"},
+      {"tex": "\\hl{2}{x} - \\hl{3}{39400} &= \\hl{1}{-1.28}(12920)"},
+      {"tex": "\\hl{2}{x} - \\hl{3}{39400} &= -16537.6"},
+      {"tex": "\\hl{2}{x} &= \\hl{3}{39400} - 16537.6"},
+      {"tex": "\\hl{2}{x} &= 22862.4"},
+      {"tex": "\\hl{2}{x} &\\approx \\text{€}22\\,862"}
+     ]}
+   ],
+   "final": "\\hl{2}{\\text{€}22\\,862}",
+   "graph": null},
+  {"part": "maths-pp-2017-higher-p2-q8#(a)(ii)", "note": "The percentage is now the top 1.5%, so the table is read at 98.5% and the z-value is positive. The formula and the solving steps stay the same.",
+   "legend": {"1": "the z-value from the tables", "2": "the unknown x (the weight)", "3": "the mean μ"},
+   "steps": [
+    {"ask": "The top 1.5% is a right-hand tail. What area to the left does the table need?", "title": "Find the $z$-value for the top 1.5%",
+     "lines": [
+      {"text": "If $1.5\\%$ are heavier, then $98.5\\%$ are lighter, so $P(z < \\hl{1}{Z}) = 0.985$. From the tables, $\\hl{1}{Z = 2.17}$."},
+      {"tex": "P(z < \\hl{1}{Z}) &= 1 - 0.015"},
+      {"tex": "&= 0.985"}
+     ]},
+    {"ask": "Put the z-value into the z-score formula. How do you isolate x?", "title": "Use the $z$-score formula and solve for the weight",
+     "lines": [
+      {"tex": "\\frac{\\hl{2}{x} - \\hl{3}{63.5}}{10} &= \\hl{1}{2.17}"},
+      {"tex": "\\hl{2}{x} - \\hl{3}{63.5} &= 21.7"},
+      {"tex": "\\hl{2}{x} &= 85.2 \\text{ kg}"}
+     ]}
+   ],
+   "final": "\\hl{2}{x} = 85.2 \\text{ kg}",
+   "graph": null},
+  {"part": "maths-pp-2018-higher-p2-q2#(b)(ii)", "note": "The top 15% and the English mean and standard deviation change the numbers, and the answer must be rounded up to a whole mark. The method stays the same.",
+   "legend": {"1": "the z-value from the tables", "2": "the unknown x (the mark)", "3": "the mean μ"},
+   "steps": [
+    {"ask": "The top 15% is a right-hand tail. Which area to the left does the table need?", "title": "Find the z-score for the top 15%",
+     "lines": [
+      {"tex": "P(z > \\hl{1}{z_1}) &= 0.15"},
+      {"tex": "P(z < \\hl{1}{z_1}) &= 1 - 0.15 = 0.85"},
+      {"text": "From the tables, $0.85$ gives $\\hl{1}{z = 1.04}$ (the nearest entry is $0.8508$)."}
+     ]},
+    {"ask": "Use English's mean and standard deviation in the z-score formula. Which quantity are you solving for?", "title": "Substitute into the z-score formula",
+     "lines": [
+      {"text": "English has mean 72 and standard deviation 10."},
+      {"tex": "\\hl{1}{1.04} &= \\frac{\\hl{2}{x} - \\hl{3}{72}}{10}"},
+      {"tex": "10.4 &= \\hl{2}{x} - \\hl{3}{72}"},
+      {"tex": "\\hl{2}{x} &= 82.4"}
+     ]},
+    {"ask": "Is 82.4 a whole number? What is the least whole mark that reaches it?", "title": "Round up to a whole mark",
+     "lines": [
+      {"text": "82 is below 82.4, so it is not enough for an A. The least whole number mark is 83."},
+      {"tex": "\\hl{2}{x} &= 83"}
+     ]}
+   ],
+   "final": "\\hl{2}{83}",
+   "graph": null}
+  ]},
+ {"skill": "stat-normal-prob", "problems": [
+  {"part": "maths-pp-2022-higher-p2-q10#(a)(i)", "note": null,
+   "legend": {"1": "the z-value", "2": "the value x (time in seconds)", "3": "the probability asked"},
+   "steps": [
+    {"ask": "Which formula turns a value into a z-score, and what are x, μ and σ here?", "title": "Find the z-score for 240 seconds",
+     "lines": [
+      {"text": "$\\hl{1}{z}=\\dfrac{\\hl{2}{x}-\\mu}{\\sigma}$ with $\\hl{2}{x=240}$, $\\mu=225$, $\\sigma=12$."},
+      {"tex": "\\hl{1}{z} &= \\frac{\\hl{2}{240}-225}{12}"},
+      {"tex": "&= \\frac{15}{12}"},
+      {"tex": "&= \\hl{1}{1.25}"}
+     ]},
+    {"ask": "The tables only give the area to the left. How can you get the area to the right?", "title": "Use the tables for the area to the right",
+     "lines": [
+      {"text": "The tables give the area to the left: $P(z<\\hl{1}{1.25})=0.8944$."},
+      {"tex": "P(z>\\hl{1}{1.25}) &= 1 - P(z<\\hl{1}{1.25})"},
+      {"tex": "&= 1 - 0.8944"},
+      {"tex": "&= \\hl{3}{0.1056}"}
+     ]},
+    {"ask": "What do you multiply a decimal probability by to write it as a percentage?", "title": "Write as a percentage",
+     "lines": [
+      {"tex": "\\hl{3}{0.1056} \\times 100 &= \\hl{3}{10.56\\%}"}
+     ]}
+   ],
+   "final": "\\hl{3}{10.56\\%}",
+   "graph": null},
+  {"part": "maths-pp-2016-higher-p2-q9#(a)(i)", "note": "The value is now an income in euro, not a time, so μ and σ are in euro too. The method is the same: standardise, read the tables, then take the area above.",
+   "legend": {"1": "the z-value", "2": "the value x (the income)", "3": "the probability asked"},
+   "steps": [
+    {"ask": "Standardise €60 000 with z = (x − μ)/σ. Which number is x?", "title": "Standardise the income €60 000",
+     "lines": [
+      {"text": "Here $\\mu = \\text{€}39\\,400$ and $\\sigma = \\text{€}12\\,920$. Use $\\hl{1}{z} = \\dfrac{\\hl{2}{x} - \\mu}{\\sigma}$."},
+      {"tex": "\\hl{1}{z} &= \\frac{\\hl{2}{60000} - 39400}{12920}"},
+      {"tex": "&= \\frac{20600}{12920}"},
+      {"tex": "&\\approx \\hl{1}{1.59}"}
+     ]},
+    {"ask": "The tables give P(z < 1.59). What must you subtract from 1 to get the area above?", "title": "Find the probability above this z-value",
+     "lines": [
+      {"text": "From the tables, $P(z < \\hl{1}{1.59}) = 0.9441$."},
+      {"tex": "P(z > \\hl{1}{1.59}) &= 1 - P(z < \\hl{1}{1.59})"},
+      {"tex": "&= 1 - 0.9441"},
+      {"tex": "&= \\hl{3}{0.0559}"},
+      {"tex": "&= 5.59\\%"},
+      {"tex": "&\\approx \\hl{3}{5.6\\%}"}
+     ]}
+   ],
+   "final": "\\hl{3}{5.6\\%}",
+   "graph": null},
+  {"part": "maths-pp-2021-higher-p2-q8#(a)(ii)", "note": "This time the probability is between two values, so there are two z-scores and the answer is a difference of two areas. The method is the same: standardise, read the tables, and convert to a percentage.",
+   "legend": {"1": "a z-value", "2": "a value x (165 or 210)", "3": "the probability asked"},
+   "steps": [
+    {"ask": "Standardise both values with the mean and standard deviation. Which numbers go on the top and bottom?", "title": "Convert 165 and 210 to z-scores",
+     "lines": [
+      {"tex": "\\hl{1}{z_1} &= \\frac{\\hl{2}{165} - 176}{36}"},
+      {"tex": "&= \\hl{1}{-0.31}"},
+      {"tex": "\\hl{1}{z_2} &= \\frac{\\hl{2}{210} - 176}{36}"},
+      {"tex": "&= \\hl{1}{0.94}"}
+     ]},
+    {"ask": "A between probability is a difference of two areas, but the tables only give positive z. How do you get the negative end?", "title": "Write the probability as a difference",
+     "lines": [
+      {"text": "We need $P(\\hl{1}{-0.31} < z < \\hl{1}{0.94}) = P(z < \\hl{1}{0.94}) - P(z < \\hl{1}{-0.31})$."},
+      {"text": "From the tables, $P(z < \\hl{1}{0.94}) = 0.8264$."},
+      {"text": "The tables only give positive $z$, so $P(z < \\hl{1}{-0.31}) = 1 - P(z < \\hl{1}{0.31}) = 1 - 0.6217$."},
+      {"tex": "P(z < \\hl{1}{-0.31}) &= 1 - 0.6217"},
+      {"tex": "&= 0.3783"}
+     ]},
+    {"ask": "How do you combine the two areas, and what do you multiply by to get a percentage?", "title": "Subtract and convert to a percentage",
+     "lines": [
+      {"tex": "\\hl{3}{P} &= 0.8264 - 0.3783"},
+      {"tex": "&= \\hl{3}{0.4481}"},
+      {"tex": "&= \\hl{3}{44.81\\%}"}
+     ]}
+   ],
+   "final": "\\hl{3}{44.81\\%}",
+   "graph": null}
+  ]},
+ {"skill": "stat-z-score", "problems": [
+  {"part": "maths-pp-2024-higher-p2-q7#(a)(i)", "note": null,
+   "legend": {"1": "the z-score", "2": "the value x (50 years)", "3": "the mean μ", "4": "the standard deviation σ"},
+   "steps": [
+    {"ask": "Write z = (x − μ)/σ. Which numbers are x, μ and σ here?", "title": "Convert 50 years to a z-score",
+     "lines": [
+      {"text": "Use $\\hl{1}{z} = \\dfrac{\\hl{2}{x} - \\hl{3}{\\mu}}{\\hl{4}{\\sigma}}$ with $\\hl{3}{\\mu = 48.2}$ and $\\hl{4}{\\sigma = 10.6}$."},
+      {"tex": "\\hl{1}{z} &= \\frac{\\hl{2}{50} - \\hl{3}{48.2}}{\\hl{4}{10.6}}"},
+      {"tex": "\\hl{1}{z} &= \\frac{1.8}{\\hl{4}{10.6}}"},
+      {"tex": "\\hl{1}{z} &= 0.1698\\ldots \\approx \\hl{1}{0.17}"}
+     ]},
+    {"ask": "The tables give the area to the left of a z-score. Which z-value do you look up?", "title": "Read the probability from the z-table",
+     "lines": [
+      {"text": "Use the normal tables for the area to the left of $\\hl{1}{z = 0.17}$."},
+      {"tex": "P(Z < \\hl{1}{0.17}) &= 0.5675"}
+     ]}
+   ],
+   "final": "0.5675 \\;(56.75\\%)",
+   "graph": null},
+  {"part": "maths-pp-2017-higher-p2-q8#(a)(i)", "note": "This time Mariska's weight is below the mean, so the z-score is negative. The formula is the same, and symmetry turns the answer into the chance of a heavier weight.",
+   "legend": {"1": "the z-score", "2": "the value x (the weight)", "3": "the mean μ", "4": "the standard deviation σ"},
+   "steps": [
+    {"ask": "Which two numbers in the question are the mean and the standard deviation?", "title": "Write down the mean and standard deviation",
+     "lines": [
+      {"tex": "\\hl{3}{\\mu} &= \\hl{3}{63.5}"},
+      {"tex": "\\hl{4}{\\sigma} &= \\hl{4}{10}"}
+     ]},
+    {"ask": "Put Mariska's weight into z = (x − μ)/σ. Is her weight above or below the mean?", "title": "Convert Mariska's weight to a $z$-score",
+     "lines": [
+      {"tex": "\\hl{1}{z} &= \\frac{\\hl{2}{x} - \\hl{3}{\\mu}}{\\hl{4}{\\sigma}}"},
+      {"tex": "\\hl{1}{z} &= \\frac{\\hl{2}{50} - \\hl{3}{63.5}}{\\hl{4}{10}}"},
+      {"tex": "&= \\frac{-13.5}{\\hl{4}{10}}"},
+      {"tex": "&= \\hl{1}{-1.35}"}
+     ]},
+    {"ask": "By symmetry, which area equals the chance of a weight greater than a z-score of −1.35?", "title": "Find the probability of a greater weight",
+     "lines": [
+      {"text": "By symmetry of the normal curve, $P(z > \\hl{1}{-1.35}) = P(z < \\hl{1}{1.35})$."},
+      {"tex": "P(z > \\hl{1}{-1.35}) &= P(z < \\hl{1}{1.35})"},
+      {"tex": "&= 0.9115"},
+      {"tex": "&= 91.15\\%"}
+     ]}
+   ],
+   "final": "91.15\\%",
+   "graph": null},
+  {"part": "maths-pp-2018-higher-p2-q2#(b)(i)", "note": "This time two exams are compared, so each mark gets its own z-score and the two are compared. The formula is the same as before.",
+   "legend": {"1": "the z-score", "2": "the value x (the mark)", "3": "the mean μ", "4": "the standard deviation σ"},
+   "steps": [
+    {"ask": "Use z = (x − μ)/σ for Maths first. Which numbers are x, μ and σ?", "title": "Convert each mark to a z-score",
+     "lines": [
+      {"text": "Use $\\hl{1}{z} = \\frac{\\hl{2}{x} - \\hl{3}{\\mu}}{\\hl{4}{\\sigma}}$ to compare marks across exams."},
+      {"tex": "\\hl{1}{z_{\\text{Maths}}} &= \\frac{\\hl{2}{65} - \\hl{3}{70}}{\\hl{4}{15}}"},
+      {"tex": "&= \\frac{-5}{\\hl{4}{15}}"},
+      {"tex": "&= \\hl{1}{-\\frac{1}{3}}"}
+     ]},
+    {"ask": "Repeat the same formula for English. Which mean and standard deviation do you use?", "title": "Do the same for English",
+     "lines": [
+      {"tex": "\\hl{1}{z_{\\text{English}}} &= \\frac{\\hl{2}{68} - \\hl{3}{72}}{\\hl{4}{10}}"},
+      {"tex": "&= \\frac{-4}{\\hl{4}{10}}"},
+      {"tex": "&= \\hl{1}{-\\frac{2}{5}}"}
+     ]},
+    {"ask": "Which z-score is larger, and what does a larger z-score say about Mary's result compared with the class?", "title": "Compare the z-scores",
+     "lines": [
+      {"text": "A higher z-score means Mary is further above the class average. $\\hl{1}{-0.33}$ is bigger than $\\hl{1}{-0.4}$."},
+      {"tex": "\\hl{1}{-\\frac{1}{3}} &> \\hl{1}{-\\frac{2}{5}}"},
+      {"text": "So Mary did better in Maths, because her z-score there is higher (closer to the mean)."}
+     ]}
+   ],
+   "final": "\\text{Maths, since } \\hl{1}{-\\frac{1}{3}} > \\hl{1}{-\\frac{2}{5}}",
+   "graph": null}
+  ]},
+ {"skill": "trig-compound", "problems": [
+  {"part": "maths-pp-2023-higher-p2-q2#(b)", "note": null,
+   "legend": {"1": "angle A, 30°", "2": "angle B, 45°", "3": "the exact value of sin 75°"},
+   "steps": [
+    {"ask": "75° is not a standard angle. Which two standard angles add up to 75°?", "title": "Split 75° into 30° + 45°",
+     "lines": [
+      {"tex": "\\sin 75^\\circ &= \\sin(\\hl{1}{30^\\circ} + \\hl{2}{45^\\circ})"}
+     ]},
+    {"ask": "Which compound formula expands sin(A + B), and what do A and B become here?", "title": "Apply the formula from part (a)",
+     "lines": [
+      {"tex": "&= \\sin \\hl{1}{30^\\circ} \\cos \\hl{2}{45^\\circ} + \\cos \\hl{1}{30^\\circ} \\sin \\hl{2}{45^\\circ}"}
+     ]},
+    {"ask": "Which exact values do sin 30°, cos 30°, sin 45° and cos 45° take?", "title": "Substitute the exact values",
+     "lines": [
+      {"text": "$\\sin 30^\\circ = \\frac{1}{2}$, $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$, $\\sin 45^\\circ = \\cos 45^\\circ = \\frac{1}{\\sqrt{2}}$."},
+      {"tex": "&= \\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2}} + \\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{\\sqrt{2}}"},
+      {"tex": "&= \\frac{1}{2\\sqrt{2}} + \\frac{\\sqrt{3}}{2\\sqrt{2}}"},
+      {"tex": "&= \\frac{1 + \\sqrt{3}}{2\\sqrt{2}}"}
+     ]},
+    {"ask": "How do you get rid of the square root in a denominator?", "title": "Rationalise the denominator",
+     "lines": [
+      {"text": "Multiply top and bottom by $\\sqrt{2}$."},
+      {"tex": "&= \\frac{(1 + \\sqrt{3})\\sqrt{2}}{2\\sqrt{2} \\times \\sqrt{2}}"},
+      {"tex": "&= \\frac{(1 + \\sqrt{3})\\sqrt{2}}{4}"},
+      {"tex": "&= \\hl{3}{\\frac{\\sqrt{2} + \\sqrt{6}}{4}}"}
+     ]}
+   ],
+   "final": "\\sin 75^\\circ = \\hl{3}{\\frac{\\sqrt{2} + \\sqrt{6}}{4}}",
+   "graph": null},
+  {"part": "maths-pp-2022-higher-p2-q4#(a)(ii)", "note": "This time the angle is found as a difference, 60° − 45°, and the formula is for tan rather than sin. The steps keep the same pattern: split the angle, apply the formula, then substitute exact values.",
+   "legend": {"1": "angle A, 60°", "2": "angle B, 45°", "3": "the exact value of tan 15°"},
+   "steps": [
+    {"ask": "15° is not a standard angle. Which two standard angles differ by 15°?", "title": "Write $15^\\circ$ as a difference of known angles",
+     "lines": [
+      {"tex": "\\tan 15^\\circ &= \\tan(\\hl{1}{60^\\circ} - \\hl{2}{45^\\circ})"}
+     ]},
+    {"ask": "What does the formula from part (i) look like with A and B set to these two angles?", "title": "Use the formula from part (i)",
+     "lines": [
+      {"tex": "&= \\frac{\\tan \\hl{1}{60^\\circ} - \\tan \\hl{2}{45^\\circ}}{1 + \\tan \\hl{1}{60^\\circ} \\tan \\hl{2}{45^\\circ}}"}
+     ]},
+    {"ask": "What are the exact values of tan 60° and tan 45°?", "title": "Substitute the exact values",
+     "lines": [
+      {"text": "$\\tan \\hl{1}{60^\\circ} = \\sqrt{3}$ and $\\tan \\hl{2}{45^\\circ} = 1$."},
+      {"tex": "&= \\frac{\\sqrt{3} - 1}{1 + \\sqrt{3}\\times 1}"},
+      {"tex": "&= \\hl{3}{\\frac{\\sqrt{3} - 1}{\\sqrt{3} + 1}}"}
+     ]},
+    {"ask": "Compare this with the form the question asks for. Which number is a?", "title": "Read off $a$",
+     "lines": [
+      {"text": "This is the required form with $a = 3$."}
+     ]}
+   ],
+   "final": "\\tan 15^\\circ = \\hl{3}{\\dfrac{\\sqrt{3}-1}{\\sqrt{3}+1}}",
+   "graph": null},
+  {"part": "maths-pp-2022-higher-p2-q4#(a)(i)", "note": "This time A and B are letters, not angles, so you prove the formula for tan(A − B) instead of finding a number. The method is the same: write the difference as a sum, then use the formula for tan(A + B).",
+   "legend": {"1": "angle A", "2": "angle B"},
+   "steps": [
+    {"ask": "How can a subtraction A − B be written as an addition, so that the sum formula applies?", "title": "Write $A-B$ as a sum",
+     "lines": [
+      {"tex": "\\tan(\\hl{1}{A}-\\hl{2}{B}) &= \\tan\\bigl(\\hl{1}{A} + (-\\hl{2}{B})\\bigr)"}
+     ]},
+    {"ask": "Which formula for tan(A + B) applies, and what goes in place of B?", "title": "Apply the formula for $\\tan(A+B)$",
+     "lines": [
+      {"text": "Use $\\tan(\\hl{1}{A}+\\hl{2}{B}) = \\dfrac{\\tan \\hl{1}{A} + \\tan \\hl{2}{B}}{1 - \\tan \\hl{1}{A} \\tan \\hl{2}{B}}$ with $\\hl{2}{B}$ replaced by $-\\hl{2}{B}$."},
+      {"tex": "&= \\frac{\\tan \\hl{1}{A} + \\tan(-\\hl{2}{B})}{1 - \\tan \\hl{1}{A}\\,\\tan(-\\hl{2}{B})}"}
+     ]},
+    {"ask": "What is the tan of a negative angle in terms of tan B? Use it to clear the minus signs.", "title": "Use $\\tan(-B) = -\\tan B$",
+     "lines": [
+      {"tex": "&= \\frac{\\tan \\hl{1}{A} - \\tan \\hl{2}{B}}{1 - \\tan \\hl{1}{A}\\,(-\\tan \\hl{2}{B})}"},
+      {"tex": "&= \\frac{\\tan \\hl{1}{A} - \\tan \\hl{2}{B}}{1 + \\tan \\hl{1}{A}\\,\\tan \\hl{2}{B}}"}
+     ]}
+   ],
+   "final": "\\tan(\\hl{1}{A}-\\hl{2}{B}) = \\dfrac{\\tan \\hl{1}{A} - \\tan \\hl{2}{B}}{1 + \\tan \\hl{1}{A} \\tan \\hl{2}{B}}",
+   "graph": null}
+  ]},
+ {"skill": "trig-double", "problems": [
+  {"part": "maths-pp-2021-higher-p2-q4#(a)(ii)", "note": null,
+   "legend": {"1": "the given ratio, sin(θ/2)", "2": "the ratio you work out, cos(θ/2)", "3": "the answer, cos θ"},
+   "steps": [
+    {"ask": "Which double-angle formula for cos θ uses only the cos and sin of half the angle?", "title": "Use the formula with A = θ/2",
+     "lines": [
+      {"text": "If $A = \\frac{\\theta}{2}$ then $2A = \\theta$."},
+      {"tex": "\\hl{3}{\\cos\\theta} &= \\hl{2}{\\cos^2\\frac{\\theta}{2}} - \\hl{1}{\\sin^2\\frac{\\theta}{2}}"}
+     ]},
+    {"ask": "Sine gives you the opposite side and the hypotenuse. How do you find the adjacent side?", "title": "Find cos(θ/2) from a right-angled triangle",
+     "lines": [
+      {"text": "$\\hl{1}{\\sin\\frac{\\theta}{2} = \\frac{1}{\\sqrt{5}}}$: opposite side $1$, hypotenuse $\\sqrt{5}$."},
+      {"tex": "\\text{adjacent}^2 &= (\\sqrt{5})^2 - 1^2"},
+      {"tex": "&= 4"},
+      {"text": "So the adjacent side is $2$. Since $0 \\le \\frac{\\theta}{2} \\le \\frac{\\pi}{2}$, the cosine is positive."},
+      {"tex": "\\hl{2}{\\cos\\frac{\\theta}{2}} &= \\frac{2}{\\sqrt{5}}"}
+     ]},
+    {"ask": "Substitute the two squared values into the formula. What do you get?", "title": "Substitute into the formula",
+     "lines": [
+      {"tex": "\\hl{3}{\\cos\\theta} &= \\hl{2}{\\left(\\frac{2}{\\sqrt{5}}\\right)^2} - \\hl{1}{\\left(\\frac{1}{\\sqrt{5}}\\right)^2}"},
+      {"tex": "&= \\frac{4}{5} - \\frac{1}{5}"},
+      {"tex": "&= \\hl{3}{\\frac{3}{5}}"}
+     ]}
+   ],
+   "final": "\\hl{3}{\\cos\\theta} = \\hl{3}{\\frac{3}{5}}",
+   "graph": null},
+  {"part": "maths-pp-2018-higher-p2-q4#(b)", "note": "The given value is now a triangle with side y, so the answer is an expression in y rather than a number. The steps are the same: find the missing side, then use sin 2A = 2 sin A cos A.",
+   "legend": {"1": "the given ratio, cos A = y/2", "2": "the ratio you work out, sin A", "3": "the answer, sin 2A"},
+   "steps": [
+    {"ask": "Cosine is adjacent over hypotenuse. Which Pythagoras relation finds the opposite side?", "title": "Use a right-angled triangle for $\\cos A = \\frac{y}{2}$",
+     "lines": [
+      {"text": "Cosine is adjacent over hypotenuse, so take adjacent $= \\hl{1}{y}$ and hypotenuse $= 2$."},
+      {"text": "Let the opposite side be $z$. By Pythagoras:"},
+      {"tex": "2^2 &= y^2 + z^2"},
+      {"tex": "z^2 &= 4 - y^2"},
+      {"tex": "z &= \\sqrt{4 - y^2}"}
+     ]},
+    {"ask": "Write sin A as opposite over hypotenuse, using the side you just found.", "title": "Write $\\sin A$",
+     "lines": [
+      {"text": "Sine is opposite over hypotenuse."},
+      {"tex": "\\hl{2}{\\sin A} &= \\frac{\\sqrt{4 - y^2}}{2}"}
+     ]},
+    {"ask": "Which double-angle formula links sin 2A to sin A and cos A?", "title": "Use the double angle formula",
+     "lines": [
+      {"text": "$\\hl{3}{\\sin 2A} = 2\\hl{2}{\\sin A}\\hl{1}{\\cos A}$."},
+      {"tex": "\\hl{3}{\\sin 2A} &= 2\\hl{2}{\\left(\\frac{\\sqrt{4 - y^2}}{2}\\right)}\\hl{1}{\\left(\\frac{y}{2}\\right)}"},
+      {"tex": "&= \\hl{3}{\\frac{y\\sqrt{4 - y^2}}{2}}"}
+     ]}
+   ],
+   "final": "\\hl{3}{\\sin 2A} = \\hl{3}{\\frac{y\\sqrt{4 - y^2}}{2}}",
+   "graph": null},
+  {"part": "maths-pp-2016-higher-p2-q3#(b)", "note": "Cos 2θ is now given as a number, not from a triangle, so you rearrange the formula to get cos²θ. The method is the same idea, and the square root gives both signs.",
+   "legend": {"1": "the given ratio, cos 2θ = 1/9", "2": "the ratio you work out, cos²θ", "3": "the answer, cos θ"},
+   "steps": [
+    {"ask": "Rearrange cos 2θ = 2cos²θ − 1 so that cos²θ is on its own.", "title": "Use the half-angle formula for cos squared",
+     "lines": [
+      {"text": "From $\\hl{1}{\\cos 2\\theta} = 2\\hl{2}{\\cos^2\\theta} - 1$ we get $\\hl{2}{\\cos^2\\theta} = \\frac{1}{2}(1 + \\hl{1}{\\cos 2\\theta})$."},
+      {"tex": "\\hl{2}{\\cos^2\\theta} &= \\frac{1}{2}(1 + \\hl{1}{\\cos 2\\theta})"}
+     ]},
+    {"ask": "Substitute the given value for cos 2θ and simplify the fraction.", "title": "Substitute cos 2θ = 1/9",
+     "lines": [
+      {"tex": "\\hl{2}{\\cos^2\\theta} &= \\frac{1}{2}\\left(1 + \\hl{1}{\\frac{1}{9}}\\right)"},
+      {"tex": "&= \\frac{1}{2}\\left(\\frac{10}{9}\\right)"},
+      {"tex": "&= \\hl{2}{\\frac{5}{9}}"}
+     ]},
+    {"ask": "Taking a square root gives how many values? Does the question allow both signs?", "title": "Take the square root",
+     "lines": [
+      {"text": "Take both the positive and negative roots."},
+      {"tex": "\\hl{3}{\\cos\\theta} &= \\pm\\sqrt{\\hl{2}{\\frac{5}{9}}}"},
+      {"tex": "\\hl{3}{\\cos\\theta} &= \\hl{3}{\\pm\\frac{\\sqrt{5}}{3}}"}
+     ]}
+   ],
+   "final": "\\hl{3}{\\cos\\theta} = \\hl{3}{\\pm\\frac{\\sqrt{5}}{3}}",
+   "graph": null}
+  ]}
+]

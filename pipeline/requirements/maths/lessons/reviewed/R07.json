@@ -1,0 +1,1349 @@
+[
+ {
+  "skill": "ind-solve-equation",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "log-laws",
+  "verdict": "fixed",
+  "issues": "Unified legend wording across problems; problem 3 note now compares with problem 2 correctly.",
+  "problems": [
+   {
+    "part": "maths-pp-2016-higher-p1-q4#(b)(i)",
+    "note": null,
+    "legend": {
+     "1": "the index brought down by the power rule",
+     "2": "the basic logs (log of the base, or those named p and q)"
+    },
+    "steps": [
+     {
+      "ask": "The argument of the log is a fraction. Which log law splits it?",
+      "title": "Split the fraction using the quotient rule",
+      "lines": [
+       {
+        "text": "$\\log_a \\frac{m}{n} = \\log_a m - \\log_a n$."
+       },
+       {
+        "tex": "\\log_a \\frac{8}{3} &= \\log_a 8 - \\log_a 3"
+       }
+      ]
+     },
+     {
+      "ask": "Can you write 8 as a power of 2? What does the power rule do to its index?",
+      "title": "Write 8 as a power of 2 and use the power rule",
+      "lines": [
+       {
+        "tex": "\\log_a 8 - \\log_a 3 &= \\log_a 2^\\hl{1}{3} - \\log_a 3"
+       },
+       {
+        "tex": "&= \\hl{1}{3}\\hl{2}{\\log_a 2} - \\hl{2}{\\log_a 3}"
+       }
+      ]
+     },
+     {
+      "ask": "Which logs in the expression are the ones the question calls p and q?",
+      "title": "Replace log_a 2 by p and log_a 3 by q",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{3}\\hl{2}{p} - \\hl{2}{q}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{3}\\hl{2}{p} - \\hl{2}{q}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q3#(b)(i)",
+    "note": "The argument is now a product, $5x^2$, not a fraction, so you use the product rule and then the power rule. The answer is written in the form a + b log₅ x, as the question asks, and the same laws are used.",
+    "legend": {
+     "1": "the index brought down by the power rule",
+     "2": "the basic logs (log of the base, or those named p and q)"
+    },
+    "steps": [
+     {
+      "ask": "Take log base 5 of both sides of y = 5x². What does the left side become?",
+      "title": "Take log base 5 of both sides",
+      "lines": [
+       {
+        "tex": "\\log_5 y &= \\log_5 (5x^2)"
+       }
+      ]
+     },
+     {
+      "ask": "The argument 5x² is a product. Which rule splits it into two logs?",
+      "title": "Split the product into two logs",
+      "lines": [
+       {
+        "text": "Use $\\log (AB) = \\log A + \\log B$."
+       },
+       {
+        "tex": "\\log_5 y &= \\hl{2}{\\log_5 5} + \\log_5 x^\\hl{1}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "What is log base 5 of 5? And what does the square on x become?",
+      "title": "Simplify each log",
+      "lines": [
+       {
+        "text": "$\\log_5 5 = 1$ and $\\log_5 x^2 = 2\\log_5 x$."
+       },
+       {
+        "tex": "\\log_5 y &= \\hl{2}{1} + \\hl{1}{2}\\log_5 x"
+       },
+       {
+        "text": "Comparing with $\\log_5 y = a + b\\log_5 x$ gives $a=1$ and $b=2$."
+       }
+      ]
+     }
+    ],
+    "final": "a = \\hl{2}{1}, \\quad b = \\hl{1}{2}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q4#(b)(ii)",
+    "note": "Back to a fraction as in problem 1, but now $9a^2$ is on top, so you also write $9a^2$ as $(3a)^2$ and $16$ as $2^4$ and split $3a$ with the product rule. Same laws, same replacements for p and q as problem 1.",
+    "legend": {
+     "1": "the index brought down by the power rule",
+     "2": "the basic logs (log of the base, or those named p and q)"
+    },
+    "steps": [
+     {
+      "ask": "The argument is a fraction. Which rule gives a difference of two logs?",
+      "title": "Split the fraction using the quotient rule",
+      "lines": [
+       {
+        "tex": "\\log_a \\frac{9a^2}{16} &= \\log_a 9a^2 - \\log_a 16"
+       }
+      ]
+     },
+     {
+      "ask": "Can you write $9a^2$ as a square and $16$ as a power of 2?",
+      "title": "Write 9a^2 and 16 as powers",
+      "lines": [
+       {
+        "text": "$9a^2 = (3a)^2$ and $16 = 2^4$."
+       },
+       {
+        "tex": "\\log_a 9a^2 - \\log_a 16 &= \\log_a (3a)^\\hl{1}{2} - \\log_a 2^\\hl{1}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "Which rule brings an index in front of its log?",
+      "title": "Use the power rule",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{2}\\log_a 3a - \\hl{1}{4}\\hl{2}{\\log_a 2}"
+       }
+      ]
+     },
+     {
+      "ask": "3a is a product inside a log. Which rule splits it, and what are the two pieces?",
+      "title": "Split 3a using the product rule",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{2}\\hl{2}{\\log_a 3} + \\hl{1}{2}\\hl{2}{\\log_a a} - \\hl{1}{4}\\hl{2}{\\log_a 2}"
+       }
+      ]
+     },
+     {
+      "ask": "Which logs are p and q, and what is log base a of a?",
+      "title": "Replace with p and q",
+      "lines": [
+       {
+        "text": "$\\log_a a = 1$, $\\log_a 3 = q$ and $\\log_a 2 = p$."
+       },
+       {
+        "tex": "&= \\hl{1}{2}\\hl{2}{q} + \\hl{1}{2}(\\hl{2}{1}) - \\hl{1}{4}\\hl{2}{p}"
+       },
+       {
+        "tex": "&= \\hl{1}{2}\\hl{2}{q} + 2 - \\hl{1}{4}\\hl{2}{p}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{2}\\hl{2}{q} + 2 - \\hl{1}{4}\\hl{2}{p}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "log-solve",
+  "verdict": "fixed",
+  "issues": "Problem 2 (factorising) swapped for a context log equation with the same isolate-then-use-e method; legends unified; reordered by difficulty.",
+  "problems": [
+   {
+    "part": "maths-pp-2024-higher-p1-q6#(b)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the log term, ln of the argument",
+     "2": "the argument of the log",
+     "3": "the unknown"
+    },
+    "steps": [
+     {
+      "ask": "Write the equation with the log on the left. Which expression is inside the ln?",
+      "title": "Set up the equation",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\ln\\sqrt{x}} &= 3.5"
+       }
+      ]
+     },
+     {
+      "ask": "What do you do to both sides to undo a natural log?",
+      "title": "Remove the logarithm",
+      "lines": [
+       {
+        "text": "$\\ln A = k$ means $A = e^k$."
+       },
+       {
+        "tex": "\\hl{2}{\\sqrt{x}} &= e^{3.5}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you undo a square root? Apply it to both sides.",
+      "title": "Square both sides",
+      "lines": [
+       {
+        "tex": "\\hl{3}{x} &= \\left(e^{3.5}\\right)^2"
+       },
+       {
+        "tex": "\\hl{3}{x} &= e^{7}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{x} = e^{7}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q10#(b)",
+    "note": "The log now sits in a formula with decimals, so you first isolate it (subtract, then divide) before using e, then subtract 1 and round to 2 decimal places. Removing the log with e is the same.",
+    "legend": {
+     "1": "the log term, ln of the argument",
+     "2": "the argument of the log",
+     "3": "the unknown"
+    },
+    "steps": [
+     {
+      "ask": "Put P(t) equal to 0.55 in the formula. What equation do you get?",
+      "title": "Set P(t) equal to 0.55",
+      "lines": [
+       {
+        "tex": "0.82 - 0.12\\hl{1}{\\ln(t+1)} &= 0.55"
+       }
+      ]
+     },
+     {
+      "ask": "Which numbers move to the other side first to leave the log on its own?",
+      "title": "Isolate ln(t + 1)",
+      "lines": [
+       {
+        "text": "Subtract $0.82$ from both sides."
+       },
+       {
+        "tex": "-0.12\\hl{1}{\\ln(t+1)} &= -0.27"
+       },
+       {
+        "text": "Divide both sides by $-0.12$."
+       },
+       {
+        "tex": "\\hl{1}{\\ln(t+1)} &= \\frac{0.27}{0.12}"
+       },
+       {
+        "tex": "\\hl{1}{\\ln(t+1)} &= 2.25"
+       }
+      ]
+     },
+     {
+      "ask": "Use e to undo the natural log. What does t + 1 equal, and then what is t?",
+      "title": "Remove the log by using e",
+      "lines": [
+       {
+        "text": "$\\ln x = y$ means $x = e^{y}$."
+       },
+       {
+        "tex": "\\hl{2}{t+1} &= e^{2.25}"
+       },
+       {
+        "tex": "\\hl{3}{t} &= e^{2.25} - 1"
+       }
+      ]
+     },
+     {
+      "ask": "Work out e to the power 2.25 on a calculator. How many decimal places should the answer have?",
+      "title": "Evaluate and round",
+      "lines": [
+       {
+        "tex": "\\hl{3}{t} &= 8.487\\ldots"
+       },
+       {
+        "tex": "\\hl{3}{t} &\\approx 8.49 \\text{ hours}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{t} = 8.49\\text{ hours}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q7#(b)",
+    "note": "The unknown now sits inside a bracket in the log's argument, and the number multiplying the log is negative, so after using e you have more steps to get x on its own. Isolating the log and using e are the same as before.",
+    "legend": {
+     "1": "the log term, ln of the argument",
+     "2": "the argument of the log",
+     "3": "the unknown"
+    },
+    "steps": [
+     {
+      "ask": "Which given value replaces t in the formula? What equation do you get?",
+      "title": "Substitute t = 100",
+      "lines": [
+       {
+        "tex": "100 &= -62.5\\hl{1}{\\ln\\left(1-\\frac{x}{80}\\right)}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide both sides by to leave the log on its own?",
+      "title": "Divide by −62.5",
+      "lines": [
+       {
+        "tex": "\\frac{100}{-62.5} &= \\hl{1}{\\ln\\left(1-\\frac{x}{80}\\right)}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you do to both sides to undo a natural log?",
+      "title": "Remove the ln by raising e to both sides",
+      "lines": [
+       {
+        "tex": "e^{\\frac{100}{-62.5}} &= \\hl{2}{1-\\frac{x}{80}}"
+       }
+      ]
+     },
+     {
+      "ask": "x is now inside a fraction in a bracket. Which moves get it alone, and in what order?",
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "\\frac{x}{80} &= 1-e^{-1.6}"
+       },
+       {
+        "tex": "\\hl{3}{x} &= 80\\left(1-e^{-1.6}\\right)"
+       },
+       {
+        "tex": "\\hl{3}{x} &\\approx 64"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{x} \\approx 64 \\text{ wpm}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "log-solve-exponential",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "int-area-between",
+  "verdict": "fixed",
+  "issues": "Marked the lower limits and the limits in the integral lines so the limits slot is followed consistently in problems 2 and 3.",
+  "problems": [
+   {
+    "part": "maths-pp-2023-higher-p1-q6#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "top minus bottom, the strip height",
+     "2": "the limits of integration",
+     "3": "the area"
+    },
+    "steps": [
+     {
+      "ask": "Which curve is on top between x = −1 and x = 2, and how tall is a thin vertical strip?",
+      "title": "Find the height of the shaded strip",
+      "lines": [
+       {
+        "text": "Between $x = \\hl{2}{-1}$ and $x = \\hl{2}{2}$ the line $f$ is above the curve $g$ (the graphs only cross at $x = -2$ and $x = 3$). Area = integral of top minus bottom."
+       },
+       {
+        "tex": "\\hl{1}{f(x) - g(x)} &= x + 4 - (x^2 - 2)"
+       },
+       {
+        "tex": "&= x + 4 - x^2 + 2"
+       },
+       {
+        "tex": "&= \\hl{1}{-x^2 + x + 6}"
+       }
+      ]
+     },
+     {
+      "ask": "The area is the integral of that strip height. Between which two x-values do you integrate?",
+      "title": "Write the area as an integral",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\int_{\\hl{2}{-1}}^{\\hl{2}{2}} \\hl{1}{(-x^2 + x + 6)}\\,dx"
+       }
+      ]
+     },
+     {
+      "ask": "How do you integrate each term of −x² + x + 6?",
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "tex": "&= \\left[-\\frac{x^3}{3} + \\frac{x^2}{2} + 6x\\right]_{\\hl{2}{-1}}^{\\hl{2}{2}}"
+       }
+      ]
+     },
+     {
+      "ask": "Which limit goes in first, and what do you subtract from what?",
+      "title": "Substitute the limits (upper minus lower)",
+      "lines": [
+       {
+        "tex": "&= \\left(-\\frac{2^3}{3} + \\frac{2^2}{2} + 6(2)\\right) - \\left(-\\frac{(-1)^3}{3} + \\frac{(-1)^2}{2} + 6(-1)\\right)"
+       },
+       {
+        "tex": "&= \\left(-\\frac{8}{3} + 2 + 12\\right) - \\left(\\frac13 + \\frac12 - 6\\right)"
+       },
+       {
+        "tex": "&= \\frac{34}{3} - \\left(-\\frac{31}{6}\\right)"
+       },
+       {
+        "tex": "&= \\frac{68}{6} + \\frac{31}{6}"
+       },
+       {
+        "tex": "&= \\frac{99}{6}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{33}{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\frac{33}{2}} \\text{ units}^2",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q6#(b)",
+    "note": "The curves are now exponentials, eˣ and e⁻ˣ, not polynomials. The method is the same: top minus bottom, integrated between the limits.",
+    "legend": {
+     "1": "top minus bottom, the strip height",
+     "2": "the limits of integration",
+     "3": "the area"
+    },
+    "steps": [
+     {
+      "ask": "Which curve is on top here, and what do you subtract from which to get the strip height?",
+      "title": "Set up the area between the curves",
+      "lines": [
+       {
+        "text": "From $x = \\hl{2}{0}$ the curves meet, and $g$ is above $h$ for $x > 0$, so the area runs from $x = \\hl{2}{0}$ to $x = \\hl{2}{0.75}$ with $g$ on top."
+       },
+       {
+        "tex": "A &= \\int_\\hl{2}{0}^{\\hl{2}{0.75}} e^{x}\\,dx - \\int_\\hl{2}{0}^{\\hl{2}{0.75}} e^{-x}\\,dx"
+       },
+       {
+        "tex": "&= \\int_\\hl{2}{0}^{\\hl{2}{0.75}} \\hl{1}{\\left(e^{x} - e^{-x}\\right)}dx"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of eˣ, and what is it for e⁻ˣ? Watch the sign.",
+      "title": "Integrate",
+      "lines": [
+       {
+        "text": "$\\int e^{-x}\\,dx = -e^{-x}$, so $\\int \\hl{1}{(e^x - e^{-x})}\\,dx = e^x + e^{-x}$."
+       },
+       {
+        "tex": "A &= \\left[e^{x} + e^{-x}\\right]_\\hl{2}{0}^{\\hl{2}{0.75}}"
+       }
+      ]
+     },
+     {
+      "ask": "Put the upper limit into the bracket, then take away the bracket at the lower limit. What do you get?",
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "A &= \\left(e^{0.75} + e^{-0.75}\\right) - \\left(e^{0} + e^{0}\\right)"
+       },
+       {
+        "tex": "&= 2.1170 + 0.4724 - 2"
+       },
+       {
+        "tex": "&= \\hl{3}{0.5894}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{0.5894} \\text{ square units}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q6#(b)(i)",
+    "note": "The curves are polynomials again, and the region is symmetric about the origin, so one half is integrated and doubled. The method is still top minus bottom, integrated between limits.",
+    "legend": {
+     "1": "top minus bottom, the strip height",
+     "2": "the limits of integration",
+     "3": "the area"
+    },
+    "steps": [
+     {
+      "ask": "Are the two halves of this region the same size? What does that let you do with the integral?",
+      "title": "Use symmetry",
+      "lines": [
+       {
+        "text": "Both graphs are symmetric about the origin, so the area from $\\hl{2}{-1}$ to $\\hl{2}{0}$ equals the area from $\\hl{2}{0}$ to $\\hl{2}{1}$."
+       },
+       {
+        "text": "Between $\\hl{2}{0}$ and $\\hl{2}{1}$ the line $y = x$ is above $y = x^3$."
+       },
+       {
+        "tex": "\\text{Area} &= 2\\int_\\hl{2}{0}^\\hl{2}{1} \\hl{1}{(x - x^3)}\\,dx"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of x − x³, term by term?",
+      "title": "Integrate",
+      "lines": [
+       {
+        "tex": "&= 2\\left[\\frac{x^2}{2} - \\frac{x^4}{4}\\right]_\\hl{2}{0}^\\hl{2}{1}"
+       },
+       {
+        "tex": "&= 2\\left[\\left(\\frac{1}{2} - \\frac{1}{4}\\right) - 0\\right]"
+       },
+       {
+        "tex": "&= 2\\left(\\frac{1}{4}\\right)"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{1}{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\frac{1}{2}}\\text{ unit}^2",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "int-average-value",
+  "verdict": "fixed",
+  "issues": "Problem 3 note now mentions the changed interval.",
+  "problems": [
+   {
+    "part": "maths-pp-2016-higher-p1-q7#(b)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the function being averaged",
+     "2": "the interval length, b − a",
+     "3": "the average value"
+    },
+    "steps": [
+     {
+      "ask": "What do you divide the integral by when you find the average value of a function over an interval?",
+      "title": "Write the average value as an integral",
+      "lines": [
+       {
+        "text": "The ball is in the air from $x = 0$ to $x = 10$. Average height $= \\frac{1}{\\hl{2}{b-a}}\\int_a^b \\hl{1}{f(x)}\\,dx$."
+       },
+       {
+        "tex": "\\hl{3}{\\text{average}} &= \\frac{1}{\\hl{2}{10-0}}\\int_0^{10}\\hl{1}{(-x^2+10x)}\\,dx"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of −x² + 10x? Integrate each term.",
+      "title": "Integrate",
+      "lines": [
+       {
+        "tex": "&= \\frac{1}{\\hl{2}{10}}\\left[-\\frac{x^3}{3} + 5x^2\\right]_0^{10}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute 10 and then 0 into the bracket. What is the bracket's value?",
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\frac{1}{\\hl{2}{10}}\\left[\\left(-\\frac{1000}{3} + 500\\right) - 0\\right]"
+       },
+       {
+        "tex": "&= \\frac{1}{\\hl{2}{10}}\\times\\frac{500}{3}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{50}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\frac{50}{3}} \\text{ m}",
+    "graph": {
+     "f": "-x**2 + 10*x",
+     "box": [
+      -1,
+      30,
+      11,
+      -15
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 0,
+       "name": "start (0, 0)"
+      },
+      {
+       "x": 10,
+       "y": 0,
+       "name": "end (10, 0)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": null,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q7#(d)",
+    "note": "The function is now a cubic in t, not a quadratic in x. The method is the same: integrate, then divide by the length of the interval.",
+    "legend": {
+     "1": "the function being averaged",
+     "2": "the interval length, b − a",
+     "3": "the average value"
+    },
+    "steps": [
+     {
+      "ask": "What do you divide the integral of v(t) by to get the average over this interval?",
+      "title": "Write the average value as an integral",
+      "lines": [
+       {
+        "text": "Average speed over $0 \\le t \\le 5$ is $\\frac{1}{\\hl{2}{5-0}}$ times the integral of $\\hl{1}{v(t)}$."
+       },
+       {
+        "tex": "\\hl{3}{\\text{average}} &= \\frac{1}{\\hl{2}{5-0}}\\int_0^5 \\hl{1}{\\left(\\frac{2}{3}t^3 - 6t^2 + 13t + 109\\right)}dt"
+       }
+      ]
+     },
+     {
+      "ask": "Integrate each term of v(t). Which power goes up by one for each term?",
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "tex": "&= \\frac{1}{\\hl{2}{5}}\\left[\\frac{2}{3}\\cdot\\frac{t^4}{4} - 6\\cdot\\frac{t^3}{3} + \\frac{13t^2}{2} + 109t\\right]_0^5"
+       },
+       {
+        "tex": "&= \\frac{1}{\\hl{2}{5}}\\left[\\frac{t^4}{6} - 2t^3 + \\frac{13t^2}{2} + 109t\\right]_0^5"
+       }
+      ]
+     },
+     {
+      "ask": "What is the bracket equal to at t = 5, and at t = 0?",
+      "title": "Substitute the limits 5 and 0",
+      "lines": [
+       {
+        "tex": "&= \\frac{1}{\\hl{2}{5}}\\left[\\left(\\frac{5^4}{6} - 2(5)^3 + \\frac{13(5)^2}{2} + 109(5)\\right) - (0)\\right]"
+       },
+       {
+        "tex": "&= \\frac{1}{\\hl{2}{5}}\\left(\\frac{625}{6} - 250 + \\frac{325}{2} + 545\\right)"
+       },
+       {
+        "tex": "&= \\frac{1}{\\hl{2}{5}}\\left(\\frac{1685}{3}\\right)"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{337}{3}}"
+       },
+       {
+        "tex": "&= \\hl{3}{112.33}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{112.33} \\text{ km/hour}",
+    "graph": {
+     "f": "2*x**3/3 - 6*x**2 + 13*x + 109",
+     "box": [
+      -0.5,
+      125,
+      5.5,
+      100
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 109,
+       "name": "start (0, 109)"
+      },
+      {
+       "x": 5,
+       "y": 107.33,
+       "name": "end (5, 107.33)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": null,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q3#(b)",
+    "note": "The function is now cos(2x), a trigonometric function, and the interval is 0 to π/4, so dividing by the length gives 4/π. The method is the same: integrate, then divide by the length of the interval.",
+    "legend": {
+     "1": "the function being averaged",
+     "2": "the interval length, b − a",
+     "3": "the average value"
+    },
+    "steps": [
+     {
+      "ask": "Which quantity goes in the denominator, and which function is integrated?",
+      "title": "Write the average value formula",
+      "lines": [
+       {
+        "text": "The average value of $\\hl{1}{h(x)}$ over $a \\le x \\le b$ is $\\dfrac{1}{\\hl{2}{b-a}}\\displaystyle\\int_a^b \\hl{1}{h(x)}\\,dx$. Here $a = 0$ and $b = \\dfrac{\\pi}{4}$."
+       },
+       {
+        "tex": "\\hl{3}{\\text{Average}} &= \\frac{1}{\\hl{2}{\\frac{\\pi}{4} - 0}}\\int_0^{\\pi/4}\\hl{1}{\\cos(2x)}\\,dx"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{4}{\\pi}}\\int_0^{\\pi/4}\\hl{1}{\\cos(2x)}\\,dx"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of cos(2x)? Check by differentiating your answer.",
+      "title": "Integrate cos(2x)",
+      "lines": [
+       {
+        "text": "$\\displaystyle\\int \\hl{1}{\\cos(2x)}\\,dx = \\dfrac{\\sin(2x)}{2}$, because the derivative of $\\dfrac{\\sin(2x)}{2}$ is $\\hl{1}{\\cos(2x)}$."
+       },
+       {
+        "tex": "\\hl{3}{\\text{Average}} &= \\hl{2}{\\frac{4}{\\pi}}\\left[\\frac{\\sin(2x)}{2}\\right]_0^{\\pi/4}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get at the upper limit and at the lower limit?",
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{\\frac{4}{\\pi}}\\left(\\frac{\\sin\\frac{\\pi}{2}}{2} - \\frac{\\sin 0}{2}\\right)"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{4}{\\pi}}\\left(\\frac{1}{2} - 0\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "Multiply the fractions together and simplify. What do you get?",
+      "title": "Simplify",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{\\frac{4}{\\pi}}\\times\\frac{1}{2}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{2}{\\pi}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\frac{2}{\\pi}}",
+    "graph": {
+     "f": "cos(2*x)",
+     "box": [
+      -0.2,
+      1.3,
+      1.1,
+      -0.7
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 1,
+       "name": "start (0, 1)"
+      },
+      {
+       "x": 0.7854,
+       "y": 0,
+       "name": "end (π/4, 0)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": null,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": "int-definite",
+  "verdict": "fixed",
+  "issues": "Problem 2 swapped (it ended in an off-skill percentage-error step); problem 3 no longer marks a given value in the answer slot; legends unified.",
+  "problems": [
+   {
+    "part": "maths-pp-2023-higher-p1-q10#(e)(i)",
+    "note": null,
+    "legend": {
+     "1": "the integrand",
+     "2": "the antiderivative, evaluated",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "The volume is the integral of the cross-section. Which part of the integrand is constant with respect to x?",
+      "title": "Set up the integral",
+      "lines": [
+       {
+        "tex": "V &= \\int_0^h \\hl{1}{\\frac{x^2 c^2}{h^2}}\\,dx"
+       },
+       {
+        "text": "$\\frac{c^2}{h^2}$ is a constant, so take it outside the integral."
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\int_0^h \\hl{1}{x^2}\\,dx"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of x²?",
+      "title": "Integrate $x^2$",
+      "lines": [
+       {
+        "text": "Add 1 to the power and divide by the new power."
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\hl{2}{\\left[ \\frac{x^3}{3} \\right]_0^h}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute the upper limit h, then the lower limit 0, and subtract. What do you get?",
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\hl{2}{\\left( \\frac{h^3}{3} - \\frac{0^3}{3} \\right)}"
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\times \\frac{h^3}{3}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{c^2 h}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{V = \\frac{c^2 h}{3}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q2#(b)(i)",
+    "note": "The integrand is now a quadratic with unknown coefficients a, b and c, between 0 and 2, and the value of the integral is given, so you finish by simplifying to an equation in a, b and c. The method is the same: find the antiderivative, then upper limit minus lower limit.",
+    "legend": {
+     "1": "the integrand",
+     "2": "the antiderivative, evaluated",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which function is integrated, and between which two x-values?",
+      "title": "Write the area as an integral",
+      "lines": [
+       {
+        "text": "Region $K$ lies between $x = 0$ and $x = 2$."
+       },
+       {
+        "tex": "\\int_0^2 \\hl{1}{(ax^2 + bx + c)}\\,dx &= 538"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of each term, treating a, b and c as constants?",
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\left[\\frac{ax^3}{3} + \\frac{bx^2}{2} + cx\\right]_0^2} &= 538"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute the upper limit, then the lower limit. What happens at x = 0?",
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "text": "At $x = 0$ every term is $0$, so only $x = 2$ matters."
+       },
+       {
+        "tex": "\\hl{2}{\\frac{a(2^3)}{3} + \\frac{b(2^2)}{2} + c(2)} &= 538"
+       },
+       {
+        "tex": "\\hl{2}{\\frac{8a}{3} + 2b + 2c} &= 538"
+       }
+      ]
+     },
+     {
+      "ask": "How can you clear the fraction, and then simplify the equation as far as possible?",
+      "title": "Simplify to the given equation",
+      "lines": [
+       {
+        "tex": "8a + 6b + 6c &= 1614"
+       },
+       {
+        "tex": "\\hl{3}{4a + 3b + 3c} &= \\hl{3}{807}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{4a + 3b + 3c = 807}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q6#(b)(ii)",
+    "note": "The integrand is now 1/(2x+3), a reciprocal, and the upper limit A is unknown, so the answer comes from logs. The method is still integrate between the limits, then set the result equal to the given value.",
+    "legend": {
+     "1": "the integrand",
+     "2": "the antiderivative, evaluated",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which function is integrated from 0 to A, and what must that integral equal?",
+      "title": "Set up the area as an integral",
+      "lines": [
+       {
+        "text": "The area under $\\hl{1}{h'(x)}$ from $0$ to $A$ equals $\\ln 3$."
+       },
+       {
+        "tex": "\\int_0^A \\hl{1}{\\frac{1}{2x+3}}\\,dx &= \\ln 3"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of 1/(2x+3)? Substitute A and 0 into it.",
+      "title": "Integrate and substitute the limits",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\left[\\tfrac{1}{2}\\ln(2x+3)\\right]_0^A} &= \\ln 3"
+       },
+       {
+        "tex": "\\hl{2}{\\tfrac{1}{2}\\left(\\ln(2A+3) - \\ln 3\\right)} &= \\ln 3"
+       }
+      ]
+     },
+     {
+      "ask": "What rule combines the two logarithms into one?",
+      "title": "Combine the logs",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\tfrac{1}{2}\\ln\\left(\\frac{2A+3}{3}\\right)} &= \\ln 3"
+       },
+       {
+        "tex": "\\ln\\left(\\frac{2A+3}{3}\\right) &= 2\\ln 3"
+       },
+       {
+        "tex": "\\ln\\left(\\frac{2A+3}{3}\\right) &= \\ln 9"
+       }
+      ]
+     },
+     {
+      "ask": "If the logs of two expressions are equal, what can you say about the expressions? Then solve for A.",
+      "title": "Remove the logs and solve",
+      "lines": [
+       {
+        "tex": "\\frac{2A+3}{3} &= 9"
+       },
+       {
+        "tex": "2A + 3 &= 27"
+       },
+       {
+        "tex": "2A &= 24"
+       },
+       {
+        "tex": "A &= \\hl{3}{12}"
+       }
+      ]
+     }
+    ],
+    "final": "A = \\hl{3}{12}",
+    "graph": {
+     "f": "1/(2*x + 3)",
+     "box": [
+      -0.5,
+      0.5,
+      13,
+      -0.02
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 0.3333,
+       "name": "start (0, 1/3)"
+      },
+      {
+       "x": 12,
+       "y": 0.037,
+       "name": "end (12, 1/27)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": null,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": "alg-equate-coefficients",
+  "verdict": "fixed",
+  "issues": "Problem 2 note now mentions the part (i) check step.",
+  "problems": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q3#(c)",
+    "note": null,
+    "legend": {
+     "1": "the unknown constants",
+     "2": "the x² term",
+     "3": "the x term",
+     "4": "the constant term"
+    },
+    "steps": [
+     {
+      "ask": "If g(x) times (2 − 3x) gives a quadratic, what kind of expression must g(x) be?",
+      "title": "Let g(x) be a linear expression",
+      "lines": [
+       {
+        "text": "$\\hl{2}{15x^2}$ divided by $-3x$ gives a term in $x$, so $g(x) = \\hl{1}{Ax + B}$."
+       },
+       {
+        "tex": "(2-3x)(\\hl{1}{Ax+B}) &= \\hl{2}{15x^2} - \\hl{3}{22x} + \\hl{4}{8}"
+       }
+      ]
+     },
+     {
+      "ask": "Multiply out both brackets. Which products give an x² term?",
+      "title": "Multiply out the brackets",
+      "lines": [
+       {
+        "tex": "\\hl{3}{2Ax} + \\hl{4}{2B} - \\hl{2}{3Ax^2} - \\hl{3}{3Bx} &= \\hl{2}{15x^2} - \\hl{3}{22x} + \\hl{4}{8}"
+       }
+      ]
+     },
+     {
+      "ask": "Which terms in each side have no x? Set those equal.",
+      "title": "Compare the constant terms",
+      "lines": [
+       {
+        "tex": "\\hl{4}{2B} &= \\hl{4}{8}"
+       },
+       {
+        "tex": "\\hl{1}{B} &= \\hl{1}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "Now match the x² terms on both sides. What does that give for A?",
+      "title": "Compare the x² terms",
+      "lines": [
+       {
+        "tex": "\\hl{2}{-3A} &= \\hl{2}{15}"
+       },
+       {
+        "tex": "\\hl{1}{A} &= \\hl{1}{-5}"
+       }
+      ]
+     },
+     {
+      "ask": "Put A and B into g(x). What is g(x)?",
+      "title": "Write g(x)",
+      "lines": [
+       {
+        "tex": "g(x) &= \\hl{1}{-5}x + \\hl{1}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "g(x) = \\hl{1}{-5}x + \\hl{1}{4}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q1#(c)(i), (ii)",
+    "note": "This time there are three unknowns, a, b and c, and the right side is a full quadratic. Part (i) first checks that x = −1 is not a solution; then, as before, you expand and compare each power of x.",
+    "legend": {
+     "1": "the unknown constants",
+     "2": "the x² term",
+     "3": "the x term",
+     "4": "the constant term"
+    },
+    "steps": [
+     {
+      "ask": "Put x = −1 into the left side. What do you get?",
+      "title": "(i) Substitute x = -1",
+      "lines": [
+       {
+        "tex": "3(-1)^2 + 2(-1) + 5 &= 3(1) - 2 + 5"
+       },
+       {
+        "tex": "&= 3 - 2 + 5"
+       },
+       {
+        "tex": "&= 6"
+       },
+       {
+        "text": "Since $6 \\ne 0$, $x = -1$ is not a solution."
+       }
+      ]
+     },
+     {
+      "ask": "Expand (x + 1)(ax + b) and add c. Which products give x²?",
+      "title": "(ii) Expand the product",
+      "lines": [
+       {
+        "tex": "(x+1)(ax+b) + c &= \\hl{2}{ax^2} + \\hl{3}{bx + ax} + \\hl{4}{b + c}"
+       },
+       {
+        "tex": "&= \\hl{2}{ax^2} + \\hl{3}{(a+b)x} + \\hl{4}{b + c}"
+       }
+      ]
+     },
+     {
+      "ask": "What must match on the two sides for each power of x?",
+      "title": "Equate to 3x^2 + 2x + 5",
+      "lines": [
+       {
+        "tex": "\\hl{2}{ax^2} + \\hl{3}{(a+b)x} + \\hl{4}{(b+c)} &= \\hl{2}{3x^2} + \\hl{3}{2x} + \\hl{4}{5}"
+       },
+       {
+        "text": "Compare coefficients of $x^2$, $x$ and the constants."
+       }
+      ]
+     },
+     {
+      "ask": "Match the x² terms. What is a?",
+      "title": "Coefficient of x^2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= \\hl{1}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute a into the x terms. What equation gives b?",
+      "title": "Coefficient of x",
+      "lines": [
+       {
+        "tex": "\\hl{3}{a + b} &= \\hl{3}{2}"
+       },
+       {
+        "tex": "\\hl{3}{3 + b} &= \\hl{3}{2}"
+       },
+       {
+        "tex": "\\hl{1}{b} &= \\hl{1}{-1}"
+       }
+      ]
+     },
+     {
+      "ask": "Which constant equation contains c, and what is b?",
+      "title": "Constant term",
+      "lines": [
+       {
+        "tex": "\\hl{4}{b + c} &= \\hl{4}{5}"
+       },
+       {
+        "tex": "\\hl{4}{-1 + c} &= \\hl{4}{5}"
+       },
+       {
+        "tex": "\\hl{1}{c} &= \\hl{1}{6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{c} = \\hl{1}{6}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q1#(a)",
+    "note": "The product is now (2x+1) times a quadratic with an unknown p, and the condition relates two coefficients instead of matching a given polynomial. The method is the same: expand, collect like terms, then compare.",
+    "legend": {
+     "1": "the unknown constant",
+     "2": "the x² term",
+     "3": "the x term"
+    },
+    "steps": [
+     {
+      "ask": "Expand (2x + 1)(x² + px + 4). Which terms will be x² terms?",
+      "title": "Multiply out the brackets",
+      "lines": [
+       {
+        "tex": "(2x+1)(x^2+px+4) &= 2x(x^2+px+4) + 1(x^2+px+4)"
+       },
+       {
+        "tex": "&= 2x^3 + 2px^2 + 8x + x^2 + px + 4"
+       }
+      ]
+     },
+     {
+      "ask": "Gather the terms with the same power of x. What is the coefficient of x²?",
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 2x^3 + \\hl{2}{(2p+1)x^2} + \\hl{3}{(8+p)x} + 4"
+       }
+      ]
+     },
+     {
+      "ask": "Which two coefficients does the question's condition compare?",
+      "title": "Read off the two coefficients",
+      "lines": [
+       {
+        "text": "The coefficient of $x^2$ is $\\hl{2}{2p+1}$ and the coefficient of $x$ is $\\hl{3}{8+p}$."
+       }
+      ]
+     },
+     {
+      "ask": "How do you write 'the x coefficient is twice the x² coefficient' as an equation?",
+      "title": "Use \"coefficient of x is twice coefficient of x²\"",
+      "lines": [
+       {
+        "tex": "\\hl{3}{8+p} &= 2\\hl{2}{(2p+1)}"
+       },
+       {
+        "tex": "\\hl{3}{8+p} &= 4p+2"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you collect the terms in p on one side and solve?",
+      "title": "Solve for p",
+      "lines": [
+       {
+        "tex": "8-2 &= 4p-p"
+       },
+       {
+        "tex": "6 &= 3p"
+       },
+       {
+        "tex": "\\hl{1}{p} &= \\hl{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{p} = \\hl{1}{2}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "alg-evaluate",
+  "verdict": "fixed",
+  "issues": "Renumbered slots 1,3 to 1,2 (no gap).",
+  "problems": [
+   {
+    "part": "maths-pp-2017-ordinary-p1-q9#(e)(i)",
+    "note": null,
+    "legend": {
+     "1": "the given values, substituted in",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which part of the formula should you work out first, the power of h or the division?",
+      "title": "Substitute M = 72.5 and h = 1.6",
+      "lines": [
+       {
+        "tex": "P &= \\frac{\\hl{1}{72.5}}{\\hl{1}{1.6}^3}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{72.5}}{4.096}"
+       },
+       {
+        "tex": "&= 17.70\\ldots"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{17.7}"
+       }
+      ]
+     }
+    ],
+    "final": "P = \\hl{2}{17.7}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q9#(a)(i)",
+    "note": "The formula is now a square root of a product, not a power and a division. The method is the same: substitute the values, then calculate.",
+    "legend": {
+     "1": "the given values, substituted in",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the product under the square root before you take the root?",
+      "title": "Substitute d = 2000 and g = 9.8",
+      "lines": [
+       {
+        "tex": "s &= \\sqrt{\\hl{1}{9.8} \\times \\hl{1}{2000}}"
+       },
+       {
+        "tex": "&= \\sqrt{19600}"
+       },
+       {
+        "tex": "&= \\hl{2}{140}"
+       }
+      ]
+     }
+    ],
+    "final": "s = \\hl{2}{140} \\text{ m/s}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q8#(a)",
+    "note": "The formula is now a polynomial with fractions, and the value substituted is 0, so the x terms disappear. The method is still substitute, then calculate.",
+    "legend": {
+     "1": "the given values, substituted in",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which value of x is the starting block, and what does each term become?",
+      "title": "Find h(0), the height at the starting block",
+      "lines": [
+       {
+        "text": "The swimmer is on the block when $x = \\hl{1}{0}$."
+       },
+       {
+        "tex": "h(\\hl{1}{0}) &= \\frac{1}{60}(\\hl{1}{0})^2 - \\frac{1}{4}(\\hl{1}{0}) + \\frac{3}{5}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{3}{5}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\frac{3}{5}}\\text{ m}",
+    "graph": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,643 @@
+[
+ {
+  "skill": {
+   "id": "int-exponential",
+   "title": "Integrate exponentials",
+   "level": "HL",
+   "input": "e^(ax), aˣ",
+   "output": "(1/a)e^(ax) + c, aˣ/ln a + c"
+  },
+  "candidates": [
+   {
+    "part": "practice-int-exponential-3",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\int_0^2 3^x\\,dx$.\nGive your answer in the form $\\frac{k}{\\ln 3}$, where $k \\in \\mathbb{N}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Integrate $3^x$",
+      "lines": [
+       {
+        "text": "$\\int a^x\\,dx = \\frac{a^x}{\\ln a}$, here $a = 3$."
+       },
+       {
+        "tex": "\\int_0^2 3^x\\,dx &= \\left[\\frac{3^x}{\\ln 3}\\right]_0^2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\frac{3^2}{\\ln 3} - \\frac{3^0}{\\ln 3}"
+       },
+       {
+        "tex": "&= \\frac{9 - 1}{\\ln 3}"
+       },
+       {
+        "tex": "&= \\frac{8}{\\ln 3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{8}{\\ln 3}"
+   },
+   {
+    "part": "practice-int-exponential-1",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\int_0^{\\ln 2} e^{3x}\\,dx$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Integrate $e^{3x}$",
+      "lines": [
+       {
+        "text": "$\\int e^{ax}\\,dx = \\frac{1}{a}e^{ax}$, here $a = 3$."
+       },
+       {
+        "tex": "\\int_0^{\\ln 2} e^{3x}\\,dx &= \\left[\\tfrac{1}{3}e^{3x}\\right]_0^{\\ln 2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\tfrac{1}{3}e^{3\\ln 2} - \\tfrac{1}{3}e^{0}"
+       }
+      ]
+     },
+     {
+      "title": "Use $e^{3\\ln 2} = e^{\\ln 8} = 8$",
+      "lines": [
+       {
+        "tex": "&= \\tfrac{8}{3} - \\tfrac{1}{3}"
+       },
+       {
+        "tex": "&= \\tfrac{7}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{7}{3}"
+   },
+   {
+    "part": "practice-int-exponential-2",
+    "level": "higher",
+    "year": null,
+    "question": "Find the area under the curve $y = 4e^{-2x}$ from $x = 0$ to $x = \\ln 3$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the area as an integral",
+      "lines": [
+       {
+        "tex": "A &= \\int_0^{\\ln 3} 4e^{-2x}\\,dx"
+       }
+      ]
+     },
+     {
+      "title": "Integrate",
+      "lines": [
+       {
+        "text": "$\\int e^{-2x}\\,dx = -\\frac{1}{2}e^{-2x}$."
+       },
+       {
+        "tex": "A &= \\left[-2e^{-2x}\\right]_0^{\\ln 3}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "A &= -2e^{-2\\ln 3} + 2e^{0}"
+       },
+       {
+        "tex": "&= -2\\left(\\tfrac{1}{9}\\right) + 2"
+       },
+       {
+        "tex": "&= \\tfrac{16}{9}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{16}{9} \\text{ square units}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "int-find-function",
+   "title": "Find a function from its derivative and a point",
+   "level": "HL",
+   "input": "f′(x) + a value of f",
+   "output": "f(x) with c found"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p1-q4#(b)(i)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Integrate f'(x) to get f(x)",
+      "lines": [
+       {
+        "tex": "f(x) &= \\int (6x^2 - 54x + 109)\\,dx"
+       },
+       {
+        "tex": "f(x) &= 2x^3 - 27x^2 + 109x + C"
+       }
+      ]
+     },
+     {
+      "title": "Use the point A(2, 0) to find C",
+      "lines": [
+       {
+        "text": "$A(2,0)$ is on the graph, so $f(2) = 0$."
+       },
+       {
+        "tex": "2(2)^3 - 27(2)^2 + 109(2) + C &= 0"
+       },
+       {
+        "tex": "2(8) - 27(4) + 218 + C &= 0"
+       },
+       {
+        "tex": "16 - 108 + 218 + C &= 0"
+       },
+       {
+        "tex": "126 + C &= 0"
+       },
+       {
+        "tex": "C &= -126"
+       }
+      ]
+     },
+     {
+      "title": "Write f(x) with C = -126",
+      "lines": [
+       {
+        "tex": "f(x) &= 2x^3 - 27x^2 + 109x - 126"
+       }
+      ]
+     }
+    ],
+    "final": "f(x) = 2x^3 - 27x^2 + 109x - 126"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q6#(c)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Integrate h'(x)",
+      "lines": [
+       {
+        "text": "$h(x)$ is the integral of $h'(x)$."
+       },
+       {
+        "tex": "h(x) &= \\int (-2x^2 + 4x + 6)\\,dx"
+       },
+       {
+        "tex": "&= -\\frac{2x^3}{3} + \\frac{4x^2}{2} + 6x + C"
+       },
+       {
+        "tex": "&= -\\frac{2x^3}{3} + 2x^2 + 6x + C"
+       }
+      ]
+     },
+     {
+      "title": "Use the point (0, -2) to find C",
+      "lines": [
+       {
+        "tex": "-2 &= -\\frac{2(0)^3}{3} + 2(0)^2 + 6(0) + C"
+       },
+       {
+        "tex": "-2 &= C"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "lines": [
+       {
+        "tex": "h(x) &= -\\frac{2x^3}{3} + 2x^2 + 6x - 2"
+       }
+      ]
+     }
+    ],
+    "final": "h(x) = -\\frac{2x^3}{3} + 2x^2 + 6x - 2"
+   },
+   {
+    "part": "practice-int-find-function-1",
+    "level": "higher",
+    "year": null,
+    "question": "The derivative of a function $f$ is $f'(x) = 6x^2 - 5 + \\frac{4}{x^2}$, where $x \\neq 0$.\nThe graph of $f$ passes through the point $(2, 1)$.\nFind $f(x)$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write $f'(x)$ with a negative index",
+      "lines": [
+       {
+        "tex": "f'(x) &= 6x^2 - 5 + 4x^{-2}"
+       }
+      ]
+     },
+     {
+      "title": "Integrate to get $f(x)$",
+      "lines": [
+       {
+        "tex": "f(x) &= \\int \\left(6x^2 - 5 + 4x^{-2}\\right)dx"
+       },
+       {
+        "tex": "&= 2x^3 - 5x - 4x^{-1} + C"
+       }
+      ]
+     },
+     {
+      "title": "Use the point $(2, 1)$ to find $C$",
+      "lines": [
+       {
+        "text": "$f(2) = 1$."
+       },
+       {
+        "tex": "2(2)^3 - 5(2) - \\frac{4}{2} + C &= 1"
+       },
+       {
+        "tex": "16 - 10 - 2 + C &= 1"
+       },
+       {
+        "tex": "4 + C &= 1"
+       },
+       {
+        "tex": "C &= -3"
+       }
+      ]
+     },
+     {
+      "title": "Write $f(x)$ with $C = -3$",
+      "lines": [
+       {
+        "tex": "f(x) &= 2x^3 - 5x - \\frac{4}{x} - 3"
+       }
+      ]
+     }
+    ],
+    "final": "f(x) = 2x^3 - 5x - \\frac{4}{x} - 3"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "int-power",
+   "title": "Integrate powers, sums and constant multiples",
+   "level": "HL",
+   "input": "Σ kxᵃ, a ∈ Q",
+   "output": "antiderivative + c"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p1-q4#(a)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Integrate each term: add 1 to the power, divide by the new power",
+      "lines": [
+       {
+        "text": "Use $\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}$."
+       },
+       {
+        "tex": "\\int (4x^3 - 6x + 10)\\,dx &= \\frac{4x^4}{4} - \\frac{6x^2}{2} + 10x + C"
+       },
+       {
+        "tex": "&= x^4 - 3x^2 + 10x + C"
+       }
+      ]
+     }
+    ],
+    "final": "x^4 - 3x^2 + 10x + C"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q2#(a)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "text": "Raise the power by 1 and divide by the new power: $\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + c$."
+       },
+       {
+        "tex": "\\int (2x^2 + 5x + 6)\\,dx &= \\int 2x^2\\,dx + \\int 5x\\,dx + \\int 6\\,dx"
+       },
+       {
+        "tex": "&= \\frac{2x^3}{3} + \\frac{5x^2}{2} + 6x + c"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{2x^3}{3} + \\frac{5x^2}{2} + 6x + c"
+   },
+   {
+    "part": "practice-int-power-1",
+    "level": "higher",
+    "year": null,
+    "question": "Find $\\int \\left(6\\sqrt{x} + \\frac{8}{x^3}\\right)dx$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each term as a power of x",
+      "lines": [
+       {
+        "tex": "6\\sqrt{x} &= 6x^{1/2}"
+       },
+       {
+        "tex": "\\frac{8}{x^3} &= 8x^{-3}"
+       }
+      ]
+     },
+     {
+      "title": "Integrate each term: add 1 to the power, divide by the new power",
+      "lines": [
+       {
+        "text": "Use $\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}$."
+       },
+       {
+        "tex": "\\int 6x^{1/2}\\,dx &= \\frac{6x^{3/2}}{3/2} = 4x^{3/2}"
+       },
+       {
+        "tex": "\\int 8x^{-3}\\,dx &= \\frac{8x^{-2}}{-2} = -4x^{-2}"
+       }
+      ]
+     },
+     {
+      "title": "Combine and add the constant",
+      "lines": [
+       {
+        "tex": "\\int \\left(6\\sqrt{x} + \\frac{8}{x^3}\\right)dx &= 4x^{3/2} - 4x^{-2} + c"
+       }
+      ]
+     }
+    ],
+    "final": "4x^{3/2} - \\frac{4}{x^2} + c"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "int-reciprocal",
+   "title": "Integrate 1/x",
+   "level": "HL",
+   "input": "1/x",
+   "output": "ln|x| + c"
+  },
+  "candidates": [
+   {
+    "part": "practice-int-reciprocal-1",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\int_2^6 \\frac{3}{x}\\,dx$.\nGive your answer in the form $k\\ln 3$, where $k \\in \\mathbb{N}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Integrate $\\frac{3}{x}$",
+      "lines": [
+       {
+        "text": "$\\int \\frac{1}{x}\\,dx = \\ln|x|$, so the constant 3 stays in front."
+       },
+       {
+        "tex": "\\int_2^6 \\frac{3}{x}\\,dx &= \\left[3\\ln x\\right]_2^6"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= 3\\ln 6 - 3\\ln 2"
+       }
+      ]
+     },
+     {
+      "title": "Combine the logs",
+      "lines": [
+       {
+        "tex": "&= 3\\ln\\left(\\frac{6}{2}\\right)"
+       },
+       {
+        "tex": "&= 3\\ln 3"
+       }
+      ]
+     }
+    ],
+    "final": "3\\ln 3"
+   },
+   {
+    "part": "practice-int-reciprocal-2",
+    "level": "higher",
+    "year": null,
+    "question": "The curve $y = \\frac{6}{x}$ is drawn for $x > 0$.\nFind the area under the curve between $x = 1$ and $x = 4$.\nGive your answer in the form $k\\ln 2$, where $k \\in \\mathbb{N}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the area as an integral",
+      "lines": [
+       {
+        "tex": "A &= \\int_1^4 \\frac{6}{x}\\,dx"
+       }
+      ]
+     },
+     {
+      "title": "Integrate and substitute the limits",
+      "lines": [
+       {
+        "tex": "A &= \\left[6\\ln x\\right]_1^4"
+       },
+       {
+        "tex": "&= 6\\ln 4 - 6\\ln 1"
+       }
+      ]
+     },
+     {
+      "title": "Simplify using $\\ln 4 = 2\\ln 2$ and $\\ln 1 = 0$",
+      "lines": [
+       {
+        "tex": "A &= 6(2\\ln 2) - 0"
+       },
+       {
+        "tex": "&= 12\\ln 2"
+       }
+      ]
+     }
+    ],
+    "final": "12\\ln 2 \\text{ square units}"
+   },
+   {
+    "part": "practice-int-reciprocal-3",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\int_1^4 \\frac{x+2}{x}\\,dx$.\nGive your answer in the form $a + b\\ln 2$, where $a, b \\in \\mathbb{N}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split the fraction",
+      "lines": [
+       {
+        "tex": "\\frac{x+2}{x} &= 1 + \\frac{2}{x}"
+       }
+      ]
+     },
+     {
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "tex": "\\int_1^4 \\left(1 + \\frac{2}{x}\\right)dx &= \\left[x + 2\\ln x\\right]_1^4"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= (4 + 2\\ln 4) - (1 + 2\\ln 1)"
+       },
+       {
+        "tex": "&= 3 + 2\\ln 4"
+       },
+       {
+        "tex": "&= 3 + 4\\ln 2"
+       }
+      ]
+     }
+    ],
+    "final": "3 + 4\\ln 2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "int-reverse",
+   "title": "Treat integration as reverse differentiation",
+   "level": "HL",
+   "input": "f(x)",
+   "output": "F(x) + c with F′ = f"
+  },
+  "candidates": [
+   {
+    "part": "practice-int-reverse-1",
+    "level": "higher",
+    "year": null,
+    "question": "By differentiating $x^5 - 2x^3 + x$, find $\\int (5x^4 - 6x^2 + 1)\\,dx$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate the given expression",
+      "lines": [
+       {
+        "tex": "\\frac{d}{dx}\\left(x^5 - 2x^3 + x\\right) &= 5x^4 - 6x^2 + 1"
+       }
+      ]
+     },
+     {
+      "title": "Reverse it",
+      "lines": [
+       {
+        "text": "The derivative of $x^5 - 2x^3 + x$ is exactly the function to be integrated, so integrating undoes the differentiation."
+       },
+       {
+        "tex": "\\int (5x^4 - 6x^2 + 1)\\,dx &= x^5 - 2x^3 + x + c"
+       }
+      ]
+     }
+    ],
+    "final": "x^5 - 2x^3 + x + c"
+   },
+   {
+    "part": "practice-int-reverse-2",
+    "level": "higher",
+    "year": null,
+    "question": "Given that $\\frac{d}{dx}\\left(x^{-2}\\right) = -2x^{-3}$, find $\\int \\frac{6}{x^3}\\,dx$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the integrand as a power",
+      "lines": [
+       {
+        "tex": "\\frac{6}{x^3} &= 6x^{-3}"
+       }
+      ]
+     },
+     {
+      "title": "Match it to the given derivative",
+      "lines": [
+       {
+        "text": "$-2x^{-3}$ is the derivative of $x^{-2}$. We need $6x^{-3}$, which is $-3$ times $-2x^{-3}$."
+       },
+       {
+        "tex": "\\frac{d}{dx}\\left(-3x^{-2}\\right) &= -3(-2x^{-3}) = 6x^{-3}"
+       }
+      ]
+     },
+     {
+      "title": "Reverse it",
+      "lines": [
+       {
+        "tex": "\\int \\frac{6}{x^3}\\,dx &= -3x^{-2} + c"
+       },
+       {
+        "text": "That is $-\\frac{3}{x^2} + c$."
+       }
+      ]
+     }
+    ],
+    "final": "-\\frac{3}{x^2} + c"
+   },
+   {
+    "part": "practice-int-reverse-3",
+    "level": "higher",
+    "year": null,
+    "question": "By differentiating $x^{3/2}$, find $\\int \\sqrt{x}\\,dx$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate the given power",
+      "lines": [
+       {
+        "tex": "\\frac{d}{dx}\\left(x^{3/2}\\right) &= \\frac{3}{2}x^{1/2}"
+       }
+      ]
+     },
+     {
+      "title": "Scale it to get the integrand",
+      "lines": [
+       {
+        "text": "We want $x^{1/2} = \\sqrt{x}$, so multiply by $\\frac{2}{3}$."
+       },
+       {
+        "tex": "\\frac{d}{dx}\\left(\\frac{2}{3}x^{3/2}\\right) &= \\frac{2}{3}\\cdot\\frac{3}{2}x^{1/2} = x^{1/2}"
+       }
+      ]
+     },
+     {
+      "title": "Reverse it",
+      "lines": [
+       {
+        "tex": "\\int \\sqrt{x}\\,dx &= \\frac{2}{3}x^{3/2} + c"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{2}{3}x^{3/2} + c"
+   }
+  ]
+ }
+]

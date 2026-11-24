@@ -1,0 +1,284 @@
+[
+ {
+  "skill": "circ-line-origin",
+  "title": "Find where a line meets a circle with centre (0, 0)",
+  "show": "circle x²+y²=13 and line y=x-1 meeting at (3,2) and (-2,-3)",
+  "example": {
+   "question": "The line $y = x-1$ meets the circle $x^2+y^2=13$ at two points.\nFind the two points.",
+   "final": "(3, 2) \\text{ and } (-2, -3)",
+   "steps": [
+    {
+     "say": "The line gives $y$ in terms of $x$. Put $\\hl{1}{y = x-1}$ into the circle, so that only $x$ is left.",
+     "rows": [
+      {
+       "l": "x^2+y^2",
+       "r": "= 13"
+      },
+      {
+       "l": "x^2+(\\hl{1}{x-1})^2",
+       "r": "= 13"
+      }
+     ]
+    },
+    {
+     "say": "Expand the bracket, collect the terms and move everything to one side.",
+     "rows": [
+      {
+       "l": "2x^2-2x+1",
+       "r": "= 13"
+      },
+      {
+       "l": "2x^2-2x-12",
+       "r": "= 0"
+      },
+      {
+       "aside": "Every term divides by 2. Do that first."
+      },
+      {
+       "l": "x^2-x-6",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Factorise. Each bracket gives one value of $\\hl{2}{x}$.",
+     "rows": [
+      {
+       "l": "(x-3)(x+2)",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{2}{3}"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{2}{-2}"
+      }
+     ]
+    },
+    {
+     "say": "Put each $\\hl{2}{x}$ back into the line $y=x-1$ to get its $\\hl{3}{y}$. Do not put it into the circle: that gives extra answers.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= 3-1 = \\hl{3}{2}"
+      },
+      {
+       "l": "y",
+       "r": "= -2-1 = \\hl{3}{-3}"
+      },
+      {
+       "aside": "The points are $(3, 2)$ and $(-2, -3)$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-general-form",
+  "title": "Use x² + y² + 2gx + 2fy + c = 0",
+  "show": "circle x²+y²-6x+2y-6=0 with centre (3,-1) and radius 4 marked",
+  "example": {
+   "question": "Find the centre and the radius of the circle $x^2 + y^2 - 6x + 2y - 6 = 0$.",
+   "final": "\\text{centre } (3, -1), \\ r = 4",
+   "steps": [
+    {
+     "say": "Compare with $x^2 + y^2 + 2gx + 2fy + c = 0$. The number in front of $x$ is $2g$ and the number in front of $y$ is $2f$. Halve each.",
+     "rows": [
+      {
+       "l": "2g",
+       "r": "= -6"
+      },
+      {
+       "l": "g",
+       "r": "= -3"
+      },
+      {
+       "l": "2f",
+       "r": "= 2"
+      },
+      {
+       "l": "f",
+       "r": "= 1"
+      },
+      {
+       "l": "c",
+       "r": "= -6"
+      }
+     ]
+    },
+    {
+     "say": "The centre is $(-g, -f)$. Change the sign of each.",
+     "rows": [
+      {
+       "l": "\\hl{1}{-g}",
+       "r": "= -(-3)"
+      },
+      {
+       "l": "",
+       "r": "= 3"
+      },
+      {
+       "l": "\\hl{2}{-f}",
+       "r": "= -(1)"
+      },
+      {
+       "l": "",
+       "r": "= -1"
+      },
+      {
+       "aside": "The centre is $(\\hl{1}{3}, \\hl{2}{-1})$."
+      }
+     ]
+    },
+    {
+     "say": "Put $g$, $f$ and $c$ into $r = \\sqrt{g^2 + f^2 - c}$. Take care with the minus sign in front of $c$.",
+     "rows": [
+      {
+       "l": "\\hl{3}{r}",
+       "r": "= \\sqrt{(-3)^2 + 1^2 - (-6)}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{9 + 1 + 6}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{16}"
+      },
+      {
+       "l": "",
+       "r": "= 4"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-tangent-length",
+  "title": "Find the length of a tangent from an external point",
+  "show": "circle centre (-1,2) radius 3 with external point P(3,5), the radius to the tangent point and the tangent segment forming a right triangle",
+  "example": {
+   "question": "The circle $x^2 + y^2 + 2x - 4y - 4 = 0$ has a tangent drawn from the point $P(3, 5)$. Find the length of the tangent from $P$ to the point where it touches the circle.",
+   "final": "4",
+   "steps": [
+    {
+     "say": "Read off $g = 1$, $f = -2$, $c = -4$. The centre is $(-g, -f)$ and $r^2 = g^2 + f^2 - c$.",
+     "rows": [
+      {
+       "aside": "The centre is $(-1, 2)$."
+      },
+      {
+       "l": "r^2",
+       "r": "= 1^2 + (-2)^2 - (-4)"
+      },
+      {
+       "l": "",
+       "r": "= 9"
+      }
+     ]
+    },
+    {
+     "say": "Find the distance $d$ from the centre $(-1, 2)$ to $P(3, 5)$. Keep it squared for now.",
+     "rows": [
+      {
+       "l": "d^2",
+       "r": "= (3 + 1)^2 + (5 - 2)^2"
+      },
+      {
+       "l": "",
+       "r": "= 16 + 9"
+      },
+      {
+       "l": "",
+       "r": "= 25"
+      }
+     ]
+    },
+    {
+     "say": "The radius is perpendicular to the tangent, so $d^2 = r^2 + \\hl{1}{t}^2$. Rearrange for $\\hl{1}{t}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{t}^2",
+       "r": "= d^2 - r^2"
+      },
+      {
+       "l": "",
+       "r": "= 16"
+      },
+      {
+       "l": "\\hl{1}{t}",
+       "r": "= \\sqrt{16}"
+      },
+      {
+       "l": "",
+       "r": "= 4"
+      },
+      {
+       "aside": "Shortcut: put $(3, 5)$ into the left side of the circle. $9 + 25 + 6 - 20 - 4 = 16$ is $t^2$ directly."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-tangent-test",
+  "title": "Show a line is a tangent",
+  "show": "circle centre (2,-1) radius 5 with line 3x+4y-27=0 touching it and the perpendicular from centre equal to the radius",
+  "example": {
+   "question": "Show that the line $3x + 4y - 27 = 0$ is a tangent to the circle $x^2 + y^2 - 4x + 2y - 20 = 0$.",
+   "final": "d = r = 5 \\ \\Rightarrow \\ \\text{the line is a tangent}",
+   "steps": [
+    {
+     "say": "Read off $g = -2$, $f = 1$, $c = -20$. The centre is $(-g, -f)$ and $r = \\sqrt{g^2 + f^2 - c}$.",
+     "rows": [
+      {
+       "aside": "The centre is $(2, -1)$."
+      },
+      {
+       "l": "\\hl{1}{r}",
+       "r": "= \\sqrt{(-2)^2 + 1^2 - (-20)}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{25}"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "Use the perpendicular distance formula with the centre $(2, -1)$ and the line $3x + 4y - 27 = 0$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{d}",
+       "r": "= \\frac{|3(2) + 4(-1) - 27|}{\\sqrt{3^2 + 4^2}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{25}{5}"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "The distance $\\hl{2}{d}$ is $5$ and the radius $\\hl{1}{r}$ is $5$. Say what that means.",
+     "rows": [
+      {
+       "aside": "The distance from the centre to the line equals the radius, so the line touches the circle at exactly one point. It is a tangent."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

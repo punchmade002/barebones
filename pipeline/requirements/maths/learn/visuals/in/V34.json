@@ -1,0 +1,246 @@
+[
+ {
+  "skill": "geo-thm3",
+  "title": "Apply Theorem 3: Alternate angles are equal ⇔ lines parallel",
+  "show": "two parallel lines l and m cut by a transversal with the alternate angles marked",
+  "example": {
+   "question": "The lines $l$ and $m$ are parallel and are cut by a third line. The angle $(4x - 15)°$ on $l$ and the angle $(2x + 25)°$ on $m$ are alternate. Find $x$ and the size of the angle $(4x - 15)°$.",
+   "final": "x = 20,\\ \\text{angle} = 65°",
+   "steps": [
+    {
+     "say": "The angles are on opposite sides of the cutting line and between the parallels, a Z shape. **Alternate angles** are equal.",
+     "rows": [
+      {
+       "aside": "Reason: alternate angles are equal ($l \\parallel m$)."
+      }
+     ]
+    },
+    {
+     "say": "Set the two angles equal.",
+     "rows": [
+      {
+       "l": "4\\hl{1}{x} - 15",
+       "r": "= 2\\hl{1}{x} + 25"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $\\hl{1}{x}$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "2\\hl{1}{x}",
+       "r": "= 40"
+      },
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= \\hl{2}{20}"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 20$ into $4x - 15$.",
+     "rows": [
+      {
+       "l": "4(20) - 15",
+       "r": "= \\hl{3}{65}"
+      },
+      {
+       "aside": "Check: $2(20) + 25 = 65$. They match."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The labelled angles are outside the parallels (one above l, one below m), not between them in a Z shape as the working says.",
+   "Label (4x - 15)° overlaps the transversal.",
+   "No angle arcs show which angles are meant, so it is unclear they are alternate.",
+   "The working's x terms are coloured but the figure labels are plain, which is acceptable; the main issue is the placement of angles."
+  ]
+ },
+ {
+  "skill": "geo-thm5",
+  "title": "Apply Theorem 5: Corresponding angles are equal ⇔ lines parallel",
+  "show": "two parallel lines cut by a transversal with the corresponding angles (4x+10)° marked",
+  "example": {
+   "question": "The lines $l$ and $m$ are parallel. A third line crosses them. The corresponding angles are $(4x + 10)^\\circ$ on $l$ and $(6x - 20)^\\circ$ on $m$. Find $x$ and the size of each angle. Give a reason.",
+   "final": "x = 15, \\ \\text{both angles } = 70^\\circ",
+   "steps": [
+    {
+     "say": "The two angles sit in the same position, one at each line. They are **corresponding angles**. $\\hl{1}{(4x+10)^\\circ}$ is on $l$ and $\\hl{2}{(6x-20)^\\circ}$ is on $m$.",
+     "rows": [
+      {
+       "aside": "The lines are parallel, so Theorem 5 says they are equal."
+      }
+     ]
+    },
+    {
+     "say": "Corresponding angles are equal when the lines are parallel. Set $\\hl{1}{4x+10}$ equal to $\\hl{2}{6x-20}$.",
+     "rows": [
+      {
+       "l": "4x + 10",
+       "r": "= 6x - 20"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "30",
+       "r": "= 2x"
+      },
+      {
+       "l": "x",
+       "r": "= 15"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 15$ into either angle. Check with the other.",
+     "rows": [
+      {
+       "l": "4(15) + 10",
+       "r": "= 70"
+      },
+      {
+       "l": "6(15) - 20",
+       "r": "= 70"
+      },
+      {
+       "aside": "Reason: corresponding angles are equal (Theorem 5)."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Angles are labelled a and b instead of (4x+10)° and (6x-20)°.",
+   "Stray duplicate labels: l appears twice and m twice; the second l and the second m are not line names for any line.",
+   "Label a is overlapped by the transversal.",
+   "Corresponding angles are not marked with arcs, and the colours used in the working (orange for the angle on l, blue for the angle on m) are not in the figure."
+  ]
+ },
+ {
+  "skill": "geo-thm2",
+  "title": "Apply Theorem 2: Isosceles triangle: equal sides ⇔ equal base angles",
+  "show": "isosceles triangle ABC with |AB|=|AC| and the equal base angles marked",
+  "example": {
+   "question": "In the triangle $ABC$, $|AB| = |AC|$. The base angles are $|\\angle ABC| = (2x + 10)^\\circ$ and $|\\angle ACB| = (4x - 20)^\\circ$. Find $x$ and $|\\angle BAC|$. Give a reason.",
+   "final": "x = 15, \\ |\\angle BAC| = 100^\\circ",
+   "steps": [
+    {
+     "say": "$|AB| = |AC|$, so the triangle is isosceles. The base angles are the ones opposite the equal sides: $\\hl{1}{|\\angle ABC|}$ and $\\hl{2}{|\\angle ACB|}$.",
+     "rows": [
+      {
+       "aside": "Reason: isosceles triangle (Theorem 2), base angles are equal."
+      }
+     ]
+    },
+    {
+     "say": "Set $\\hl{1}{2x+10}$ equal to $\\hl{2}{4x-20}$.",
+     "rows": [
+      {
+       "l": "2x + 10",
+       "r": "= 4x - 20"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "30",
+       "r": "= 2x"
+      },
+      {
+       "l": "x",
+       "r": "= 15"
+      }
+     ]
+    },
+    {
+     "say": "Each base angle is $2(15) + 10 = 40^\\circ$. The three angles of a triangle add to $180^\\circ$.",
+     "rows": [
+      {
+       "l": "|\\angle BAC|",
+       "r": "= 180 - 40 - 40"
+      },
+      {
+       "l": "",
+       "r": "= 100^\\circ"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Angles are out of proportion: the base angles look about 62° and the apex about 57°, but the working gives base angles 40° and apex 100°.",
+   "The equal-side tick marks float in the middle of the triangle instead of sitting on sides AB and AC.",
+   "The base angles are not marked or labelled with (2x+10)° and (4x-20)°; the colours from the working (orange for angle ABC, blue for angle ACB) are not shown."
+  ]
+ },
+ {
+  "skill": "geo-thm6",
+  "title": "Apply Theorem 6: Exterior angle = sum of interior opposite angles",
+  "show": "triangle ABC with BC extended to D and the exterior angle with the two opposite interior angles marked",
+  "example": {
+   "question": "In the triangle $ABC$, the side $[BC]$ is extended to $D$. $|\\angle BAC| = (2x + 10)^\\circ$, $|\\angle ABC| = 40^\\circ$ and the exterior angle is $|\\angle ACD| = (5x - 10)^\\circ$. Find $x$ and $|\\angle ACD|$. Give a reason.",
+   "final": "x = 20, \\ |\\angle ACD| = 90^\\circ",
+   "steps": [
+    {
+     "say": "The exterior angle is $\\hl{1}{|\\angle ACD|}$. The two interior opposite angles are $\\hl{2}{|\\angle BAC|}$ and $|\\angle ABC|$, the ones not touching $C$.",
+     "rows": [
+      {
+       "aside": "Reason: exterior angle equals the sum of the interior opposite angles (Theorem 6)."
+      }
+     ]
+    },
+    {
+     "say": "The exterior angle equals the sum of the other two. Write $\\hl{1}{5x-10}$ equal to $\\hl{2}{2x+10}$ plus $40$.",
+     "rows": [
+      {
+       "l": "5x - 10",
+       "r": "= 2x + 10 + 40"
+      }
+     ]
+    },
+    {
+     "say": "Tidy the right side, then collect the $x$ terms.",
+     "rows": [
+      {
+       "l": "5x - 10",
+       "r": "= 2x + 50"
+      },
+      {
+       "l": "3x",
+       "r": "= 60"
+      },
+      {
+       "l": "x",
+       "r": "= 20"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 20$ into $5x - 10$.",
+     "rows": [
+      {
+       "l": "|\\angle ACD|",
+       "r": "= 5(20) - 10"
+      },
+      {
+       "l": "",
+       "r": "= 90^\\circ"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "No angle marks or labels: the exterior angle ACD (5x-10) and the opposite interior angles BAC (2x+10) and ABC (40) are not marked, so the figure does not show what the example is about",
+   "Angle at B looks about 60 degrees, not the 40 degrees given; the exterior angle at C is not drawn as 90 degrees",
+   "Working colours the exterior angle orange and the opposite angle blue, but nothing in the figure is coloured"
+  ]
+ }
+]

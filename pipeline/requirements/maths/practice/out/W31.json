@@ -1,0 +1,477 @@
+[
+ {
+  "skill": "int-area-axis",
+  "problems": [
+   {
+    "question": "Find the area enclosed by the curve $y = x^2 - 4x + 3$ and the $x$-axis.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find where the curve meets the $x$-axis",
+       "lines": [
+        {
+         "tex": "x^2 - 4x + 3 &= 0",
+         "sym": "Eq(x**2 - 4*x + 3, 0)",
+         "new": true
+        },
+        {
+         "tex": "(x-1)(x-3) &= 0",
+         "sym": "Eq((x-1)*(x-3), 0)"
+        },
+        {
+         "tex": "x &= 1 \\text{ or } x = 3",
+         "sym": "[1, 3]",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Integrate between the roots",
+       "lines": [
+        {
+         "tex": "\\int_1^3 (x^2 - 4x + 3)\\,dx &= \\left[\\frac{x^3}{3} - 2x^2 + 3x\\right]_1^3",
+         "sym": "integrate(x**2 - 4*x + 3, (x, 1, 3))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute the limits",
+       "lines": [
+        {
+         "tex": "&= (9 - 18 + 9) - \\left(\\frac{1}{3} - 2 + 3\\right)",
+         "sym": "(9 - 18 + 9) - (Rational(1,3) - 2 + 3)"
+        },
+        {
+         "tex": "&= 0 - \\frac{4}{3}",
+         "sym": "0 - Rational(4,3)"
+        },
+        {
+         "tex": "&= -\\frac{4}{3}",
+         "sym": "-Rational(4,3)"
+        }
+       ]
+      },
+      {
+       "title": "Take the area as positive",
+       "lines": [
+        {
+         "text": "The curve is below the $x$-axis between 1 and 3, so the integral is negative."
+        },
+        {
+         "tex": "\\text{Area} &= \\left|-\\frac{4}{3}\\right|",
+         "sym": "Abs(-Rational(4,3))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{4}{3}",
+         "sym": "Rational(4,3)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{4}{3}\\text{ square units}"
+    },
+    "finalSym": "Rational(4,3)",
+    "answerSym": "Abs(integrate((x-1)*(x-3), (x, 1, 3)))"
+   },
+   {
+    "question": "Find the total area between the curve $y = x^3 - x$ and the $x$-axis, from $x = -1$ to $x = 1$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find where the curve crosses the $x$-axis",
+       "lines": [
+        {
+         "tex": "x^3 - x &= x(x-1)(x+1)",
+         "sym": "x**3 - x",
+         "new": true
+        },
+        {
+         "text": "The curve crosses the axis at $x = -1, 0, 1$, so split the area at $x = 0$."
+        }
+       ]
+      },
+      {
+       "title": "Integrate from $-1$ to $0$",
+       "lines": [
+        {
+         "tex": "\\int_{-1}^0 (x^3 - x)\\,dx &= \\left[\\frac{x^4}{4} - \\frac{x^2}{2}\\right]_{-1}^0",
+         "sym": "integrate(x**3 - x, (x, -1, 0))",
+         "new": true
+        },
+        {
+         "tex": "&= 0 - \\left(\\frac{1}{4} - \\frac{1}{2}\\right)",
+         "sym": "0 - (Rational(1,4) - Rational(1,2))"
+        },
+        {
+         "tex": "&= \\frac{1}{4}",
+         "sym": "Rational(1,4)"
+        }
+       ]
+      },
+      {
+       "title": "Integrate from $0$ to $1$",
+       "lines": [
+        {
+         "tex": "\\int_0^1 (x^3 - x)\\,dx &= \\left[\\frac{x^4}{4} - \\frac{x^2}{2}\\right]_0^1",
+         "sym": "integrate(x**3 - x, (x, 0, 1))",
+         "new": true
+        },
+        {
+         "tex": "&= \\left(\\frac{1}{4} - \\frac{1}{2}\\right) - 0",
+         "sym": "(Rational(1,4) - Rational(1,2)) - 0"
+        },
+        {
+         "tex": "&= -\\frac{1}{4}",
+         "sym": "-Rational(1,4)"
+        }
+       ]
+      },
+      {
+       "title": "Add the two areas, both taken positive",
+       "lines": [
+        {
+         "tex": "\\text{Area} &= \\frac{1}{4} + \\left|-\\frac{1}{4}\\right|",
+         "sym": "Rational(1,4) + Abs(-Rational(1,4))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{1}{2}",
+         "sym": "Rational(1,2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{1}{2}\\text{ square units}"
+    },
+    "finalSym": "Rational(1,2)",
+    "answerSym": "integrate(x**3 - x, (x, -1, 0)) - integrate(x**3 - x, (x, 0, 1))"
+   },
+   {
+    "question": "The curve $y = 6 + x - x^2$ cuts the $x$-axis at two points.\nFind the area between the curve and the $x$-axis.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find where the curve meets the $x$-axis",
+       "lines": [
+        {
+         "tex": "6 + x - x^2 &= 0",
+         "sym": "Eq(6 + x - x**2, 0)",
+         "new": true
+        },
+        {
+         "tex": "x^2 - x - 6 &= 0",
+         "sym": "Eq(x**2 - x - 6, 0)"
+        },
+        {
+         "tex": "(x-3)(x+2) &= 0",
+         "sym": "Eq((x-3)*(x+2), 0)"
+        },
+        {
+         "tex": "x &= 3 \\text{ or } x = -2",
+         "sym": "[3, -2]",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Integrate between the roots",
+       "lines": [
+        {
+         "tex": "\\int_{-2}^3 (6 + x - x^2)\\,dx &= \\left[6x + \\frac{x^2}{2} - \\frac{x^3}{3}\\right]_{-2}^3",
+         "sym": "integrate(6 + x - x**2, (x, -2, 3))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute the limits",
+       "lines": [
+        {
+         "tex": "&= \\left(18 + \\frac{9}{2} - 9\\right) - \\left(-12 + 2 + \\frac{8}{3}\\right)",
+         "sym": "(18 + Rational(9,2) - 9) - (-12 + 2 + Rational(8,3))"
+        },
+        {
+         "tex": "&= \\frac{27}{2} + \\frac{22}{3}",
+         "sym": "Rational(27,2) + Rational(22,3)"
+        },
+        {
+         "tex": "&= \\frac{125}{6}",
+         "sym": "Rational(125,6)"
+        }
+       ]
+      },
+      {
+       "title": "State the area",
+       "lines": [
+        {
+         "text": "The curve is above the $x$-axis between $-2$ and $3$, so the integral is already positive."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{125}{6}\\text{ square units}"
+    },
+    "finalSym": "Rational(125,6)",
+    "answerSym": "integrate(6 + x - x**2, (x, -2, 3))"
+   }
+  ]
+ },
+ {
+  "skill": "int-trig-identity",
+  "problems": [
+   {
+    "question": "Find $\\int \\cos^2 3x \\,dx$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the half-angle formula",
+       "lines": [
+        {
+         "text": "$\\cos^2 A = \\dfrac{1 + \\cos 2A}{2}$. Here $A = 3x$, so $2A = 6x$."
+        },
+        {
+         "tex": "\\cos^2 3x &= \\frac{1 + \\cos 6x}{2}",
+         "sym": "(1 + cos(6*x))/2",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Write the integral with the formula",
+       "lines": [
+        {
+         "tex": "\\int \\cos^2 3x\\,dx &= \\int \\left(\\frac{1}{2} + \\frac{1}{2}\\cos 6x\\right) dx",
+         "sym": "Rational(1,2) + cos(6*x)/2",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Integrate each term",
+       "lines": [
+        {
+         "text": "$\\int \\cos 6x\\,dx = \\dfrac{\\sin 6x}{6}$."
+        },
+        {
+         "tex": "&= \\frac{x}{2} + \\frac{1}{2}\\cdot\\frac{\\sin 6x}{6} + c",
+         "sym": "x/2 + sin(6*x)/12",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{x}{2} + \\frac{\\sin 6x}{12} + c",
+         "sym": "x/2 + sin(6*x)/12"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{x}{2} + \\frac{\\sin 6x}{12} + c"
+    },
+    "finalSym": "x/2 + sin(6*x)/12",
+    "answerSym": "integrate(cos(3*x)**2, x)"
+   },
+   {
+    "question": "Find $\\int \\sin 5x \\cos 3x \\,dx$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the product-to-sum formula",
+       "lines": [
+        {
+         "text": "$\\sin A\\cos B = \\tfrac{1}{2}\\left[\\sin(A+B) + \\sin(A-B)\\right]$. Here $A = 5x$ and $B = 3x$."
+        },
+        {
+         "tex": "\\sin 5x \\cos 3x &= \\frac{1}{2}\\left[\\sin 8x + \\sin 2x\\right]",
+         "sym": "(sin(8*x) + sin(2*x))/2",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Write the integral with the formula",
+       "lines": [
+        {
+         "tex": "\\int \\sin 5x\\cos 3x\\,dx &= \\frac{1}{2}\\int (\\sin 8x + \\sin 2x)\\,dx",
+         "sym": "(sin(8*x) + sin(2*x))/2",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Integrate each term",
+       "lines": [
+        {
+         "text": "$\\int \\sin kx\\,dx = -\\dfrac{\\cos kx}{k}$."
+        },
+        {
+         "tex": "&= \\frac{1}{2}\\left[-\\frac{\\cos 8x}{8} - \\frac{\\cos 2x}{2}\\right] + c",
+         "sym": "(-cos(8*x)/8 - cos(2*x)/2)/2",
+         "new": true
+        },
+        {
+         "tex": "&= -\\frac{\\cos 8x}{16} - \\frac{\\cos 2x}{4} + c",
+         "sym": "-cos(8*x)/16 - cos(2*x)/4"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-\\frac{\\cos 8x}{16} - \\frac{\\cos 2x}{4} + c"
+    },
+    "finalSym": "-cos(8*x)/16 - cos(2*x)/4",
+    "answerSym": "integrate(sin(5*x)*cos(3*x), x)"
+   },
+   {
+    "question": "Find $\\int (\\sin x + \\cos x)^2 \\,dx$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Expand the square",
+       "lines": [
+        {
+         "tex": "(\\sin x + \\cos x)^2 &= \\sin^2 x + 2\\sin x\\cos x + \\cos^2 x",
+         "sym": "sin(x)**2 + 2*sin(x)*cos(x) + cos(x)**2",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the identities",
+       "lines": [
+        {
+         "text": "$\\sin^2 x + \\cos^2 x = 1$ and $2\\sin x\\cos x = \\sin 2x$."
+        },
+        {
+         "tex": "&= 1 + \\sin 2x",
+         "sym": "1 + sin(2*x)"
+        }
+       ]
+      },
+      {
+       "title": "Integrate each term",
+       "lines": [
+        {
+         "text": "$\\int \\sin 2x\\,dx = -\\dfrac{\\cos 2x}{2}$."
+        },
+        {
+         "tex": "\\int (1 + \\sin 2x)\\,dx &= x - \\frac{\\cos 2x}{2} + c",
+         "sym": "x - cos(2*x)/2",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x - \\frac{\\cos 2x}{2} + c"
+    },
+    "finalSym": "x - cos(2*x)/2",
+    "answerSym": "integrate((sin(t) + cos(t))**2, (t, 0, x)) - Rational(1, 2)"
+   }
+  ]
+ },
+ {
+  "skill": "prob-relative-frequency",
+  "problems": [
+   {
+    "question": "In an experiment, a spinner was spun 250 times and landed on red 65 times.\nUsing these results, how many times would you expect it to land on red in 800 spins?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the relative frequency of red",
+       "lines": [
+        {
+         "text": "Relative frequency $= \\dfrac{\\text{number of reds}}{\\text{number of spins}}$."
+        },
+        {
+         "tex": "P(\\text{red}) &= \\frac{65}{250}",
+         "sym": "Rational(65,250)",
+         "new": true
+        },
+        {
+         "tex": "&= 0.26",
+         "sym": "Rational(26,100)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply by the number of spins",
+       "lines": [
+        {
+         "tex": "\\text{Expected reds} &= 0.26 \\times 800",
+         "sym": "Rational(26,100)*800",
+         "new": true
+        },
+        {
+         "tex": "&= 208",
+         "sym": "208"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "208"
+    },
+    "finalSym": "208",
+    "answerSym": "Rational(65,250)*800"
+   }
+  ]
+ },
+ {
+  "skill": "prob-npr",
+  "problems": [
+   {
+    "question": "A club has 8 members. A chairperson, a secretary and a treasurer are to be chosen from them. No member can hold more than one of these roles.\nIn how many different ways can the three roles be filled?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Count the choices for each role",
+       "lines": [
+        {
+         "text": "Order matters, since each role is different, and no member is used twice."
+        },
+        {
+         "text": "There are 8 choices for chairperson, then 7 for secretary, then 6 for treasurer."
+        }
+       ]
+      },
+      {
+       "title": "Multiply the choices",
+       "lines": [
+        {
+         "tex": "\\text{Ways} &= 8 \\times 7 \\times 6",
+         "sym": "8*7*6",
+         "new": true
+        },
+        {
+         "tex": "&= 56 \\times 6",
+         "sym": "56*6"
+        },
+        {
+         "tex": "&= 336",
+         "sym": "336"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "336"
+    },
+    "finalSym": "336",
+    "answerSym": "factorial(8)/factorial(5)"
+   }
+  ]
+ }
+]

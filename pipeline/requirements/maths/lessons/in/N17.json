@@ -1,0 +1,1233 @@
+[
+ {
+  "skill": {
+   "id": "induction-geo-sum",
+   "title": "Prove the finite geometric series sum by induction",
+   "level": "HL",
+   "input": "a + ar + … + arⁿ⁻¹",
+   "output": "proof"
+  },
+  "candidates": [
+   {
+    "part": "practice-induction-geo-sum-1",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by induction that, for $r \\neq 1$ and all $n \\in \\mathbb{N}$,\n$a + ar + ar^2 + \\cdots + ar^{n-1} = \\dfrac{a(1 - r^n)}{1 - r}$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Step P(1): test n = 1",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= a"
+       },
+       {
+        "tex": "\\text{RHS} &= \\frac{a(1 - r)}{1 - r} = a"
+       },
+       {
+        "text": "LHS = RHS, so $P(1)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step P(k): assume true for n = k",
+      "lines": [
+       {
+        "text": "Assume $a + ar + \\cdots + ar^{k-1} = \\dfrac{a(1 - r^k)}{1 - r}$."
+       }
+      ]
+     },
+     {
+      "title": "Step P(k+1): state what must be proved",
+      "lines": [
+       {
+        "text": "Show $a + ar + \\cdots + ar^{k-1} + ar^k = \\dfrac{a(1 - r^{k+1})}{1 - r}$."
+       }
+      ]
+     },
+     {
+      "title": "Use P(k) on the left-hand side",
+      "lines": [
+       {
+        "text": "Replace $a + \\cdots + ar^{k-1}$ using the assumption $P(k)$."
+       },
+       {
+        "tex": "\\text{LHS} &= \\frac{a(1 - r^k)}{1 - r} + ar^k"
+       },
+       {
+        "tex": "&= \\frac{a(1 - r^k) + ar^k(1 - r)}{1 - r}"
+       }
+      ]
+     },
+     {
+      "title": "Expand and simplify the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{a - ar^k + ar^k - ar^{k+1}}{1 - r}"
+       },
+       {
+        "tex": "&= \\frac{a(1 - r^{k+1})}{1 - r}"
+       },
+       {
+        "tex": "&= \\text{RHS}"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "a + ar + \\cdots + ar^{n-1} = \\frac{a(1 - r^n)}{1 - r}"
+   },
+   {
+    "part": "practice-induction-geo-sum-2",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by induction that\n$3 + 6 + 12 + \\cdots + 3\\cdot 2^{n-1} = 3(2^n - 1)$\nfor all $n \\in \\mathbb{N}$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Step P(1): test n = 1",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 3"
+       },
+       {
+        "tex": "\\text{RHS} &= 3(2^1 - 1) = 3"
+       },
+       {
+        "text": "LHS = RHS, so $P(1)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step P(k): assume true for n = k",
+      "lines": [
+       {
+        "text": "Assume $3 + 6 + \\cdots + 3\\cdot 2^{k-1} = 3(2^k - 1)$."
+       }
+      ]
+     },
+     {
+      "title": "Step P(k+1): state what must be proved",
+      "lines": [
+       {
+        "text": "Show $3 + 6 + \\cdots + 3\\cdot 2^{k-1} + 3\\cdot 2^k = 3(2^{k+1} - 1)$."
+       }
+      ]
+     },
+     {
+      "title": "Use P(k) on the left-hand side",
+      "lines": [
+       {
+        "text": "Replace $3 + \\cdots + 3\\cdot 2^{k-1}$ using the assumption $P(k)$."
+       },
+       {
+        "tex": "\\text{LHS} &= 3(2^k - 1) + 3\\cdot 2^k"
+       }
+      ]
+     },
+     {
+      "title": "Factor out 3",
+      "lines": [
+       {
+        "tex": "&= 3(2^k - 1 + 2^k)"
+       },
+       {
+        "tex": "&= 3(2\\cdot 2^k - 1)"
+       },
+       {
+        "tex": "&= 3(2^{k+1} - 1)"
+       },
+       {
+        "tex": "&= \\text{RHS}"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "3 + 6 + 12 + \\cdots + 3\\cdot 2^{n-1} = 3(2^n - 1)"
+   },
+   {
+    "part": "practice-induction-geo-sum-3",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by induction that\n$1 + \\dfrac{1}{2} + \\dfrac{1}{4} + \\cdots + \\left(\\dfrac{1}{2}\\right)^{n-1} = 2 - \\left(\\dfrac{1}{2}\\right)^{n-1}$\nfor all $n \\in \\mathbb{N}$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Step P(1): test n = 1",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 1"
+       },
+       {
+        "tex": "\\text{RHS} &= 2 - \\left(\\tfrac{1}{2}\\right)^0 = 2 - 1 = 1"
+       },
+       {
+        "text": "LHS = RHS, so $P(1)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step P(k): assume true for n = k",
+      "lines": [
+       {
+        "text": "Assume $1 + \\dfrac{1}{2} + \\cdots + \\left(\\dfrac{1}{2}\\right)^{k-1} = 2 - \\left(\\dfrac{1}{2}\\right)^{k-1}$."
+       }
+      ]
+     },
+     {
+      "title": "Step P(k+1): state what must be proved",
+      "lines": [
+       {
+        "text": "Show $1 + \\dfrac{1}{2} + \\cdots + \\left(\\dfrac{1}{2}\\right)^{k-1} + \\left(\\dfrac{1}{2}\\right)^k = 2 - \\left(\\dfrac{1}{2}\\right)^k$."
+       }
+      ]
+     },
+     {
+      "title": "Use P(k) on the left-hand side",
+      "lines": [
+       {
+        "text": "Replace $1 + \\cdots + \\left(\\frac{1}{2}\\right)^{k-1}$ using the assumption $P(k)$."
+       },
+       {
+        "tex": "\\text{LHS} &= 2 - \\left(\\tfrac{1}{2}\\right)^{k-1} + \\left(\\tfrac{1}{2}\\right)^k"
+       }
+      ]
+     },
+     {
+      "title": "Write $\\left(\\frac{1}{2}\\right)^{k-1}$ as $2\\left(\\frac{1}{2}\\right)^k$ and simplify",
+      "lines": [
+       {
+        "tex": "&= 2 - 2\\left(\\tfrac{1}{2}\\right)^k + \\left(\\tfrac{1}{2}\\right)^k"
+       },
+       {
+        "tex": "&= 2 - \\left(\\tfrac{1}{2}\\right)^k"
+       },
+       {
+        "tex": "&= \\text{RHS}"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "1 + \\frac{1}{2} + \\cdots + \\left(\\frac{1}{2}\\right)^{n-1} = 2 - \\left(\\frac{1}{2}\\right)^{n-1}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "induction-inequality",
+   "title": "Prove an inequality by induction",
+   "level": "HL",
+   "input": "inequality in n with starting value",
+   "output": "proof"
+  },
+  "candidates": [
+   {
+    "part": "practice-induction-inequality-1",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by induction that $n! > 2^n$ for all $n \\in \\mathbb{N}$ with $n \\ge 4$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "State what is to be proved",
+      "lines": [
+       {
+        "text": "Let $P(n)$ be the statement $n! > 2^n$, for $n \\ge 4$."
+       }
+      ]
+     },
+     {
+      "title": "Step 1: show P(4) is true",
+      "lines": [
+       {
+        "tex": "4! &= 24"
+       },
+       {
+        "tex": "2^4 &= 16"
+       },
+       {
+        "text": "$24 > 16$, so $P(4)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step 2: assume P(k) is true",
+      "lines": [
+       {
+        "text": "Assume $k! > 2^k$ for some $k \\ge 4$."
+       }
+      ]
+     },
+     {
+      "title": "Step 3: write down what P(k+1) says",
+      "lines": [
+       {
+        "tex": "(k+1)! &> 2^{k+1}"
+       }
+      ]
+     },
+     {
+      "title": "Use (k+1)! = (k+1) k! and the assumption",
+      "lines": [
+       {
+        "tex": "(k+1)! &= (k+1)\\cdot k!"
+       },
+       {
+        "tex": "(k+1)\\cdot k! &> (k+1)\\cdot 2^k"
+       },
+       {
+        "text": "This multiplies both sides of the assumption by $k+1 > 0$."
+       }
+      ]
+     },
+     {
+      "title": "Show (k+1)·2^k is bigger than 2^(k+1)",
+      "lines": [
+       {
+        "text": "Since $k \\ge 4$, $k+1 \\ge 5 > 2$."
+       },
+       {
+        "tex": "(k+1)\\cdot 2^k &> 2\\cdot 2^k"
+       },
+       {
+        "tex": "2\\cdot 2^k &= 2^{k+1}"
+       },
+       {
+        "tex": "(k+1)! &> 2^{k+1}"
+       },
+       {
+        "text": "So $P(k+1)$ is true whenever $P(k)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step 4: conclusion",
+      "lines": [
+       {
+        "text": "$P(4)$ is true, and $P(k)$ true implies $P(k+1)$ true. By induction, $P(n)$ is true for all $n \\ge 4$, $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "n! > 2^n \\text{ for all } n \\ge 4,\\ n \\in \\mathbb{N}"
+   },
+   {
+    "part": "practice-induction-inequality-2",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by induction that $2^n > 2n + 1$ for all $n \\in \\mathbb{N}$ with $n \\ge 3$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "State what is to be proved",
+      "lines": [
+       {
+        "text": "Let $P(n)$ be the statement $2^n > 2n+1$, for $n \\ge 3$."
+       }
+      ]
+     },
+     {
+      "title": "Step 1: show P(3) is true",
+      "lines": [
+       {
+        "tex": "2^3 &= 8"
+       },
+       {
+        "tex": "2(3)+1 &= 7"
+       },
+       {
+        "text": "$8 > 7$, so $P(3)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step 2: assume P(k) is true",
+      "lines": [
+       {
+        "text": "Assume $2^k > 2k+1$ for some $k \\ge 3$."
+       }
+      ]
+     },
+     {
+      "title": "Step 3: write down what P(k+1) says",
+      "lines": [
+       {
+        "tex": "2^{k+1} &> 2(k+1)+1"
+       },
+       {
+        "tex": "2^{k+1} &> 2k+3"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the assumption by 2",
+      "lines": [
+       {
+        "tex": "2\\cdot 2^k &> 2(2k+1)"
+       },
+       {
+        "tex": "2^{k+1} &> 4k+2"
+       }
+      ]
+     },
+     {
+      "title": "Show 4k + 2 is bigger than 2k + 3",
+      "lines": [
+       {
+        "tex": "(4k+2) - (2k+3) &= 2k-1"
+       },
+       {
+        "tex": "2k-1 &\\ge 2(3)-1 = 5 > 0"
+       },
+       {
+        "text": "So $4k+2 > 2k+3$ for $k \\ge 3$."
+       },
+       {
+        "tex": "2^{k+1} &> 4k+2 > 2k+3"
+       },
+       {
+        "text": "So $P(k+1)$ is true whenever $P(k)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step 4: conclusion",
+      "lines": [
+       {
+        "text": "$P(3)$ is true, and $P(k)$ true implies $P(k+1)$ true. By induction, $P(n)$ is true for all $n \\ge 3$, $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "2^n > 2n+1 \\text{ for all } n \\ge 3,\\ n \\in \\mathbb{N}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q2#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "State what is to be proved",
+      "lines": [
+       {
+        "text": "Let $P(n)$ be the statement $3^n \\ge 4n+1$, for $n \\ge 2$."
+       }
+      ]
+     },
+     {
+      "title": "Step 1: show P(2) is true",
+      "lines": [
+       {
+        "tex": "3^2 &= 9"
+       },
+       {
+        "tex": "4(2)+1 &= 9"
+       },
+       {
+        "tex": "9 &\\ge 9"
+       },
+       {
+        "text": "So $P(2)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step 2: assume P(k) is true",
+      "lines": [
+       {
+        "text": "Assume $3^k \\ge 4k+1$ for some $k \\ge 2$."
+       }
+      ]
+     },
+     {
+      "title": "Step 3: write down what P(k+1) says",
+      "lines": [
+       {
+        "tex": "3^{k+1} &\\ge 4(k+1) + 1"
+       },
+       {
+        "tex": "3^{k+1} &\\ge 4k + 5"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the assumption by 3",
+      "lines": [
+       {
+        "tex": "3^k &\\ge 4k+1"
+       },
+       {
+        "tex": "3 \\cdot 3^k &\\ge 3(4k+1)"
+       },
+       {
+        "tex": "3^{k+1} &\\ge 12k + 3"
+       }
+      ]
+     },
+     {
+      "title": "Show 12k + 3 is at least 4k + 5",
+      "lines": [
+       {
+        "tex": "(12k+3) - (4k+5) &= 8k - 2"
+       },
+       {
+        "tex": "8k - 2 &\\ge 8(2) - 2 = 14 > 0"
+       },
+       {
+        "text": "So $12k+3 > 4k+5$ for $k \\ge 2$."
+       }
+      ]
+     },
+     {
+      "title": "Combine the inequalities",
+      "lines": [
+       {
+        "tex": "3^{k+1} &\\ge 12k+3 > 4k+5"
+       },
+       {
+        "tex": "3^{k+1} &\\ge 4k+5"
+       },
+       {
+        "text": "So $P(k+1)$ is true whenever $P(k)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step 4: conclusion",
+      "lines": [
+       {
+        "text": "$P(2)$ is true, and $P(k)$ true implies $P(k+1)$ true. By induction, $P(n)$ is true for all $n \\ge 2$, $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "3^n \\ge 4n+1 \\text{ for all } n \\ge 2,\\ n \\in \\mathbb{N}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "induction-sum",
+   "title": "Prove a series identity by induction",
+   "level": "HL",
+   "input": "Σ identity",
+   "output": "proof (base case, assume k, prove k + 1)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(d)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Step P(1): test n = 1",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 1^2 = 1"
+       },
+       {
+        "tex": "\\text{RHS} &= \\frac{1(1+1)(2(1)+1)}{6} = \\frac{1(2)(3)}{6} = 1"
+       },
+       {
+        "text": "LHS = RHS, so $P(1)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step P(k): assume true for n = k",
+      "lines": [
+       {
+        "text": "Assume $1^2 + 2^2 + \\cdots + k^2 = \\dfrac{k(k+1)(2k+1)}{6}$."
+       }
+      ]
+     },
+     {
+      "title": "Step P(k+1): state what must be proved",
+      "lines": [
+       {
+        "text": "Show $1^2 + 2^2 + \\cdots + k^2 + (k+1)^2 = \\dfrac{(k+1)(k+2)(2k+3)}{6}$."
+       },
+       {
+        "tex": "\\text{RHS} &= \\frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}"
+       },
+       {
+        "tex": "&= \\frac{(k+1)(k+2)(2k+3)}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Use P(k) on the left-hand side",
+      "lines": [
+       {
+        "text": "Replace $1^2 + \\cdots + k^2$ using the assumption $P(k)$."
+       },
+       {
+        "tex": "\\text{LHS} &= \\frac{k(k+1)(2k+1)}{6} + (k+1)^2"
+       },
+       {
+        "tex": "&= \\frac{k(k+1)(2k+1) + 6(k+1)^2}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Factor out (k + 1)",
+      "lines": [
+       {
+        "tex": "&= \\frac{(k+1)\\big[k(2k+1) + 6(k+1)\\big]}{6}"
+       },
+       {
+        "tex": "&= \\frac{(k+1)(2k^2 + k + 6k + 6)}{6}"
+       },
+       {
+        "tex": "&= \\frac{(k+1)(2k^2 + 7k + 6)}{6}"
+       },
+       {
+        "tex": "&= \\frac{(k+1)(k+2)(2k+3)}{6}"
+       },
+       {
+        "tex": "&= \\text{RHS}"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "1^2 + 2^2 + \\cdots + n^2 = \\frac{n(n+1)(2n+1)}{6}"
+   },
+   {
+    "part": "practice-induction-sum-1",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by induction that\n$1\\cdot 2 + 2\\cdot 3 + 3\\cdot 4 + \\cdots + n(n+1) = \\dfrac{n(n+1)(n+2)}{3}$\nfor all $n \\in \\mathbb{N}$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Step P(1): test n = 1",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 1\\cdot 2 = 2"
+       },
+       {
+        "tex": "\\text{RHS} &= \\frac{1(2)(3)}{3} = 2"
+       },
+       {
+        "text": "LHS = RHS, so $P(1)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Step P(k): assume true for n = k",
+      "lines": [
+       {
+        "text": "Assume $1\\cdot 2 + 2\\cdot 3 + \\cdots + k(k+1) = \\dfrac{k(k+1)(k+2)}{3}$."
+       }
+      ]
+     },
+     {
+      "title": "Step P(k+1): state what must be proved",
+      "lines": [
+       {
+        "text": "Show $1\\cdot 2 + \\cdots + k(k+1) + (k+1)(k+2) = \\dfrac{(k+1)(k+2)(k+3)}{3}$."
+       }
+      ]
+     },
+     {
+      "title": "Use P(k) on the left-hand side",
+      "lines": [
+       {
+        "text": "Replace $1\\cdot 2 + \\cdots + k(k+1)$ using the assumption $P(k)$."
+       },
+       {
+        "tex": "\\text{LHS} &= \\frac{k(k+1)(k+2)}{3} + (k+1)(k+2)"
+       },
+       {
+        "tex": "&= \\frac{k(k+1)(k+2) + 3(k+1)(k+2)}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Factor out (k + 1)(k + 2)",
+      "lines": [
+       {
+        "tex": "&= \\frac{(k+1)(k+2)\\left[k + 3\\right]}{3}"
+       },
+       {
+        "tex": "&= \\frac{(k+1)(k+2)(k+3)}{3}"
+       },
+       {
+        "tex": "&= \\text{RHS}"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "1\\cdot 2 + 2\\cdot 3 + \\cdots + n(n+1) = \\frac{n(n+1)(n+2)}{3}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q10#(e)(i), (ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "(i) Count the dots in Pattern 1",
+      "lines": [
+       {
+        "text": "Pattern 1 has dots at $(1,0)$, $(-1,0)$, $(0,1)$ and $(0,-1)$."
+       },
+       {
+        "tex": "H(1) &= 4"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Check P(1): n = 1",
+      "lines": [
+       {
+        "text": "P(n) is the statement $H(n) = (n+1)^2$."
+       },
+       {
+        "tex": "(1+1)^2 &= 2^2"
+       },
+       {
+        "tex": "&= 4"
+       },
+       {
+        "text": "This equals $H(1)=4$, so P(1) is true."
+       }
+      ]
+     },
+     {
+      "title": "State P(k): assume it is true for n = k",
+      "lines": [
+       {
+        "text": "Assume that for some $k\\in\\mathbb{N}$:"
+       },
+       {
+        "tex": "H(k) &= (k+1)^2"
+       }
+      ]
+     },
+     {
+      "title": "State P(k+1): what we must prove",
+      "lines": [
+       {
+        "text": "Replace $k$ by $k+1$ in $H(k)=(k+1)^2$."
+       },
+       {
+        "tex": "H(k+1) &= \\left((k+1)+1\\right)^2"
+       }
+      ]
+     },
+     {
+      "title": "Use the given formula for H(k+1)",
+      "lines": [
+       {
+        "tex": "H(k+1) &= H(k) + 2k + 3"
+       },
+       {
+        "text": "Replace $H(k)$ using P(k)."
+       },
+       {
+        "tex": "&= (k+1)^2 + 2k + 3"
+       }
+      ]
+     },
+     {
+      "title": "Expand and simplify",
+      "lines": [
+       {
+        "tex": "&= k^2 + 2k + 1 + 2k + 3"
+       },
+       {
+        "tex": "&= k^2 + 4k + 4"
+       },
+       {
+        "tex": "&= (k+2)^2"
+       },
+       {
+        "tex": "&= \\left((k+1)+1\\right)^2"
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "lines": [
+       {
+        "text": "This is P(k+1), so P(k+1) is true whenever P(k) is true."
+       },
+       {
+        "text": "P(1) is true, and P(k) true implies P(k+1) true. By induction, $H(n)=(n+1)^2$ for all $n\\in\\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "H(1) = 4 \\text{ and } H(n) = (n+1)^2 \\text{ for all } n \\in \\mathbb{N}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "proof-root2-irrational",
+   "title": "Prove √2 is irrational by contradiction",
+   "level": "HL",
+   "input": "assumption √2 = p/q in lowest terms",
+   "output": "contradiction"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p1-q6#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Assume the opposite",
+      "lines": [
+       {
+        "text": "Suppose $\\sqrt{2}$ is rational."
+       },
+       {
+        "text": "Then $\\sqrt{2} = \\frac{p}{q}$ with $p, q$ integers having no common factor (the fraction is in simplest form)."
+       }
+      ]
+     },
+     {
+      "title": "Show p is even",
+      "lines": [
+       {
+        "tex": "2 &= \\frac{p^2}{q^2}"
+       },
+       {
+        "tex": "2q^2 &= p^2"
+       },
+       {
+        "text": "$p^2$ is even (it equals $2q^2$), so $p$ is even. (The square of an odd number is odd.)"
+       },
+       {
+        "text": "So $p = 2k$ for some integer $k$."
+       }
+      ]
+     },
+     {
+      "title": "Show q is even",
+      "lines": [
+       {
+        "tex": "2q^2 &= (2k)^2"
+       },
+       {
+        "tex": "2q^2 &= 4k^2"
+       },
+       {
+        "tex": "q^2 &= 2k^2"
+       },
+       {
+        "text": "$q^2$ is even, so $q$ is even. So $q = 2m$ for some integer $m$."
+       }
+      ]
+     },
+     {
+      "title": "Reach the contradiction",
+      "lines": [
+       {
+        "tex": "\\sqrt{2} &= \\frac{p}{q} = \\frac{2k}{2m}"
+       },
+       {
+        "text": "$p$ and $q$ now have a common factor of $2$. This contradicts the assumption that they have no common factor."
+       },
+       {
+        "text": "So the assumption is false."
+       }
+      ]
+     }
+    ],
+    "final": "\\sqrt{2} \\text{ is not a rational number}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q3#(a)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Assume the opposite",
+      "lines": [
+       {
+        "text": "Assume $\\sqrt{2}$ is rational, so $\\sqrt{2} = \\frac{a}{b}$ with $a, b \\in \\mathbb{Z}$, $b \\neq 0$, and $\\text{HCF}(a, b) = 1$."
+       },
+       {
+        "tex": "\\sqrt{2} &= \\frac{a}{b}"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides and clear the fraction",
+      "lines": [
+       {
+        "tex": "\\left(\\sqrt{2}\\right)^2 &= \\left(\\frac{a}{b}\\right)^2"
+       },
+       {
+        "tex": "2 &= \\frac{a^2}{b^2}"
+       },
+       {
+        "tex": "2b^2 &= a^2"
+       }
+      ]
+     },
+     {
+      "title": "Show that a is even",
+      "lines": [
+       {
+        "text": "$a^2 = 2b^2$ is even, so $a^2$ is even."
+       },
+       {
+        "text": "The square of an odd number is odd, so $a$ must be even."
+       },
+       {
+        "tex": "a &= 2k, \\quad k \\in \\mathbb{Z}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute a = 2k to show b is even",
+      "lines": [
+       {
+        "tex": "2b^2 &= (2k)^2"
+       },
+       {
+        "tex": "2b^2 &= 4k^2"
+       },
+       {
+        "tex": "b^2 &= 2k^2"
+       },
+       {
+        "text": "So $b^2$ is even, and therefore $b$ is even."
+       }
+      ]
+     },
+     {
+      "title": "State the contradiction",
+      "lines": [
+       {
+        "text": "Both $a$ and $b$ are even, so they share the factor $2$."
+       },
+       {
+        "text": "This contradicts $\\text{HCF}(a, b) = 1$, so $\\sqrt{2}$ is not rational."
+       }
+      ]
+     }
+    ],
+    "final": "\\sqrt{2} \\text{ is not a rational number}"
+   },
+   {
+    "part": "practice-proof-root2-irrational-1",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by contradiction that $\\sqrt{2}$ is irrational.\nIn your proof, show that if $p^2$ is even then $p$ is even by considering an odd number $p = 2m + 1$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Assume the opposite",
+      "lines": [
+       {
+        "text": "Suppose $\\sqrt{2}$ is rational."
+       },
+       {
+        "text": "Then $\\sqrt{2} = \\frac{p}{q}$ where $p, q \\in \\mathbb{Z}$, $q \\ne 0$, and $p$, $q$ have no common factor."
+       }
+      ]
+     },
+     {
+      "title": "Clear the fraction",
+      "lines": [
+       {
+        "tex": "2 &= \\frac{p^2}{q^2}"
+       },
+       {
+        "tex": "p^2 &= 2q^2"
+       },
+       {
+        "text": "So $p^2$ is even."
+       }
+      ]
+     },
+     {
+      "title": "Show that an odd p has an odd square",
+      "lines": [
+       {
+        "text": "Let $p = 2m+1$ be odd."
+       },
+       {
+        "tex": "p^2 &= (2m+1)^2"
+       },
+       {
+        "tex": "&= 4m^2 + 4m + 1"
+       },
+       {
+        "tex": "&= 2(2m^2 + 2m) + 1"
+       },
+       {
+        "text": "This is odd. So if $p^2$ is even, $p$ cannot be odd, so $p$ is even. Write $p = 2k$."
+       }
+      ]
+     },
+     {
+      "title": "Show q is even",
+      "lines": [
+       {
+        "tex": "2q^2 &= (2k)^2"
+       },
+       {
+        "tex": "2q^2 &= 4k^2"
+       },
+       {
+        "tex": "q^2 &= 2k^2"
+       },
+       {
+        "text": "So $q^2$ is even, and by the same argument $q$ is even."
+       }
+      ]
+     },
+     {
+      "title": "Reach the contradiction",
+      "lines": [
+       {
+        "text": "$p$ and $q$ are both even, so they have a common factor $2$. This contradicts the assumption that they have no common factor."
+       },
+       {
+        "text": "So $\\sqrt{2}$ is not rational."
+       }
+      ]
+     }
+    ],
+    "final": "\\sqrt{2} \\text{ is irrational}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "int-area-axis",
+   "title": "Find the area between a curve and the x-axis",
+   "level": "HL",
+   "input": "curve, limits (or roots)",
+   "output": "area (parts below axis taken positive)"
+  },
+  "candidates": [
+   {
+    "part": "practice-int-area-axis-1",
+    "level": "higher",
+    "year": null,
+    "question": "Find the area enclosed by the curve $y = x^2 - 4x + 3$ and the $x$-axis.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find where the curve meets the $x$-axis",
+      "lines": [
+       {
+        "tex": "x^2 - 4x + 3 &= 0"
+       },
+       {
+        "tex": "(x-1)(x-3) &= 0"
+       },
+       {
+        "tex": "x &= 1 \\text{ or } x = 3"
+       }
+      ]
+     },
+     {
+      "title": "Integrate between the roots",
+      "lines": [
+       {
+        "tex": "\\int_1^3 (x^2 - 4x + 3)\\,dx &= \\left[\\frac{x^3}{3} - 2x^2 + 3x\\right]_1^3"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= (9 - 18 + 9) - \\left(\\frac{1}{3} - 2 + 3\\right)"
+       },
+       {
+        "tex": "&= 0 - \\frac{4}{3}"
+       },
+       {
+        "tex": "&= -\\frac{4}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Take the area as positive",
+      "lines": [
+       {
+        "text": "The curve is below the $x$-axis between 1 and 3, so the integral is negative."
+       },
+       {
+        "tex": "\\text{Area} &= \\left|-\\frac{4}{3}\\right|"
+       },
+       {
+        "tex": "&= \\frac{4}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{4}{3}\\text{ square units}"
+   },
+   {
+    "part": "practice-int-area-axis-2",
+    "level": "higher",
+    "year": null,
+    "question": "Find the total area between the curve $y = x^3 - x$ and the $x$-axis, from $x = -1$ to $x = 1$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find where the curve crosses the $x$-axis",
+      "lines": [
+       {
+        "tex": "x^3 - x &= x(x-1)(x+1)"
+       },
+       {
+        "text": "The curve crosses the axis at $x = -1, 0, 1$, so split the area at $x = 0$."
+       }
+      ]
+     },
+     {
+      "title": "Integrate from $-1$ to $0$",
+      "lines": [
+       {
+        "tex": "\\int_{-1}^0 (x^3 - x)\\,dx &= \\left[\\frac{x^4}{4} - \\frac{x^2}{2}\\right]_{-1}^0"
+       },
+       {
+        "tex": "&= 0 - \\left(\\frac{1}{4} - \\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Integrate from $0$ to $1$",
+      "lines": [
+       {
+        "tex": "\\int_0^1 (x^3 - x)\\,dx &= \\left[\\frac{x^4}{4} - \\frac{x^2}{2}\\right]_0^1"
+       },
+       {
+        "tex": "&= \\left(\\frac{1}{4} - \\frac{1}{2}\\right) - 0"
+       },
+       {
+        "tex": "&= -\\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Add the two areas, both taken positive",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\frac{1}{4} + \\left|-\\frac{1}{4}\\right|"
+       },
+       {
+        "tex": "&= \\frac{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{2}\\text{ square units}"
+   },
+   {
+    "part": "practice-int-area-axis-3",
+    "level": "higher",
+    "year": null,
+    "question": "The curve $y = 6 + x - x^2$ cuts the $x$-axis at two points.\nFind the area between the curve and the $x$-axis.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find where the curve meets the $x$-axis",
+      "lines": [
+       {
+        "tex": "6 + x - x^2 &= 0"
+       },
+       {
+        "tex": "x^2 - x - 6 &= 0"
+       },
+       {
+        "tex": "(x-3)(x+2) &= 0"
+       },
+       {
+        "tex": "x &= 3 \\text{ or } x = -2"
+       }
+      ]
+     },
+     {
+      "title": "Integrate between the roots",
+      "lines": [
+       {
+        "tex": "\\int_{-2}^3 (6 + x - x^2)\\,dx &= \\left[6x + \\frac{x^2}{2} - \\frac{x^3}{3}\\right]_{-2}^3"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\left(18 + \\frac{9}{2} - 9\\right) - \\left(-12 + 2 + \\frac{8}{3}\\right)"
+       },
+       {
+        "tex": "&= \\frac{27}{2} + \\frac{22}{3}"
+       },
+       {
+        "tex": "&= \\frac{125}{6}"
+       }
+      ]
+     },
+     {
+      "title": "State the area",
+      "lines": [
+       {
+        "text": "The curve is above the $x$-axis between $-2$ and $3$, so the integral is already positive."
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{125}{6}\\text{ square units}"
+   }
+  ]
+ }
+]

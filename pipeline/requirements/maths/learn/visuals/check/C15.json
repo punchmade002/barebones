@@ -1,0 +1,322 @@
+[
+ {
+  "skill": "mens-arc-sector",
+  "of": "1b8b4c9eae82",
+  "title": "Find arc length and sector area",
+  "show": "sector of radius 9 cm and angle 80° with the arc marked",
+  "example": {
+   "question": "A sector of a circle has radius $9$ cm and angle $80^\\circ$. Find the length of its arc and the area of the sector, in terms of $\\pi$.",
+   "final": "\\text{arc } \\hl{2}{4\\pi} \\text{ cm}, \\text{ area } \\hl{3}{18\\pi} \\text{ cm}^2",
+   "steps": [
+    {
+     "say": "The sector is part of a full circle. Its angle over $360^\\circ$ gives the fraction.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\frac{80}{360}}",
+       "r": "= \\frac{2}{9}"
+      }
+     ]
+    },
+    {
+     "say": "The arc is that fraction of the circumference, $2\\pi r$.",
+     "rows": [
+      {
+       "l": "l",
+       "r": "= \\hl{1}{\\frac{2}{9}} \\times 2\\pi(9)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{4\\pi}"
+      }
+     ]
+    },
+    {
+     "say": "The area is the same fraction of the full circle, $\\pi r^2$.",
+     "rows": [
+      {
+       "l": "A",
+       "r": "= \\hl{1}{\\frac{2}{9}} \\times \\pi(9)^2"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{18\\pi}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "mens-surface-area",
+  "of": "8dccfc5ddd5b",
+  "title": "Find surface area of solids",
+  "show": "cone radius 5 cm, vertical height 12 cm and slant height 13 cm marked",
+  "example": {
+   "question": "A cone has base radius $5$ cm and vertical height $12$ cm. Find its curved surface area, in terms of $\\pi$, and to one decimal place.",
+   "final": "65\\pi \\approx 204.2 \\text{ cm}^2",
+   "steps": [
+    {
+     "say": "The curved surface needs the slant height $\\hl{1}{l}$, not the vertical height. The radius, height and slant make a right-angled triangle, so use Pythagoras.",
+     "rows": [
+      {
+       "l": "l^2",
+       "r": "= 5^2 + 12^2"
+      },
+      {
+       "l": "",
+       "r": "= 169"
+      },
+      {
+       "l": "l",
+       "r": "= \\sqrt{169}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{13}"
+      }
+     ]
+    },
+    {
+     "say": "The curved surface area of a cone is $\\pi r l$. Put in $r = 5$ and $l = \\hl{1}{13}$.",
+     "rows": [
+      {
+       "l": "\\text{CSA}",
+       "r": "= \\pi(5)(\\hl{1}{13})"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{65\\pi}"
+      }
+     ]
+    },
+    {
+     "say": "Now the decimal.",
+     "rows": [
+      {
+       "l": "",
+       "r": "\\approx 204.2"
+      },
+      {
+       "aside": "Write the unit: $\\text{cm}^2$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "mens-trapezoidal",
+  "of": "c25332c52f17",
+  "title": "Approximate area with the trapezoidal rule",
+  "show": "16 m by varying width field plotted as 5 width lines 4 m apart (6,9,11,8,5) forming trapezium strips",
+  "example": {
+   "question": "A garden is $16$ m long. Its width is measured every $4$ m along the length: $6$, $9$, $11$, $8$ and $5$ metres. Use the trapezoidal rule to estimate the area of the garden.",
+   "final": "134 \\text{ m}^2",
+   "steps": [
+    {
+     "say": "The widths are the heights $y$. The strip width $\\hl{1}{h}$ is the gap between them.",
+     "rows": [
+      {
+       "l": "\\hl{1}{h}",
+       "r": "= 4"
+      },
+      {
+       "aside": "There are five heights and four strips."
+      }
+     ]
+    },
+    {
+     "say": "The rule adds the first and last heights once. It adds every height in between twice.",
+     "rows": [
+      {
+       "l": "\\hl{2}{6 + 5}",
+       "r": "= 11"
+      },
+      {
+       "l": "\\hl{3}{2(9 + 11 + 8)}",
+       "r": "= 56"
+      }
+     ]
+    },
+    {
+     "say": "The rule is $\\frac{h}{2}[\\text{ends} + 2(\\text{middle})]$.",
+     "rows": [
+      {
+       "l": "A",
+       "r": "= \\frac{\\hl{1}{4}}{2}(\\hl{2}{11} + \\hl{3}{56})"
+      },
+      {
+       "l": "",
+       "r": "= 2(67)"
+      },
+      {
+       "l": "",
+       "r": "= 134"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "mens-composite",
+  "of": "9fa22c890b1d",
+  "title": "Find area/volume of compound solids",
+  "show": "cylinder radius 3 cm height 7 cm with a hemisphere of radius 3 cm on top",
+  "example": {
+   "question": "A solid is a cylinder with a hemisphere on top. Both have radius $3$ cm. The cylinder has height $7$ cm. Find the total volume, in terms of $\\pi$.",
+   "final": "81\\pi \\text{ cm}^3",
+   "steps": [
+    {
+     "say": "Take the cylinder first. Its volume is $\\pi r^2 h$ with $r = 3$ and $h = 7$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{V_c}",
+       "r": "= \\pi(3)^2(7)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{63\\pi}"
+      }
+     ]
+    },
+    {
+     "say": "A hemisphere is half a sphere. Use $\\frac{2}{3}\\pi r^3$ with $r = 3$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{V_h}",
+       "r": "= \\frac{2}{3}\\pi(3)^3"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{18\\pi}"
+      }
+     ]
+    },
+    {
+     "say": "The solid is the cylinder and the hemisphere together, so add $\\hl{1}{V_c}$ and $\\hl{2}{V_h}$.",
+     "rows": [
+      {
+       "l": "V",
+       "r": "= \\hl{1}{63\\pi} + \\hl{2}{18\\pi}"
+      },
+      {
+       "l": "",
+       "r": "= 81\\pi"
+      },
+      {
+       "aside": "The question says in terms of $\\pi$, so leave it as $81\\pi$. Do not round."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "mens-equate-volumes",
+  "of": "470843be1504",
+  "title": "Solve recasting, displacement and flow problems",
+  "show": "sphere of radius 6 cm beside a cylinder of radius 4 cm and unknown height h",
+  "example": {
+   "question": "A solid metal sphere of radius $6$ cm is melted and recast as a solid cylinder of radius $4$ cm. Find the height of the cylinder.",
+   "final": "h = 18 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Melting does not change the amount of metal. Start with the volume of the sphere, $\\frac{4}{3}\\pi r^3$ with $r = 6$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{V_s}",
+       "r": "= \\frac{4}{3}\\pi(6)^3"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{288\\pi}"
+      }
+     ]
+    },
+    {
+     "say": "The cylinder has radius $4$ and an unknown height $\\hl{2}{h}$. Write its volume with the formula $\\pi r^2 h$.",
+     "rows": [
+      {
+       "l": "V_c",
+       "r": "= \\pi(4)^2\\hl{2}{h}"
+      },
+      {
+       "l": "",
+       "r": "= 16\\pi \\hl{2}{h}"
+      }
+     ]
+    },
+    {
+     "say": "The two volumes are equal. Put $16\\pi \\hl{2}{h}$ equal to $\\hl{1}{288\\pi}$ and solve for $\\hl{2}{h}$.",
+     "rows": [
+      {
+       "l": "16\\pi \\hl{2}{h}",
+       "r": "= \\hl{1}{288\\pi}"
+      },
+      {
+       "aside": "Divide both sides by $16\\pi$."
+      },
+      {
+       "l": "\\hl{2}{h}",
+       "r": "= \\frac{288\\pi}{16\\pi}"
+      },
+      {
+       "l": "",
+       "r": "= 18"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-point-position",
+  "of": "d5c1f9a9c8c1",
+  "title": "Decide whether a point is inside, on or outside a circle",
+  "show": "circle (x-2)²+(y+1)²=25 centre (2,-1) radius 5 with point (6,3) and its distance from centre drawn against the radius",
+  "example": {
+   "question": "Is the point $(6, 3)$ inside, on or outside the circle $(x-2)^2 + (y+1)^2 = 25$?",
+   "final": "\\text{outside, since } 32 > 25",
+   "steps": [
+    {
+     "say": "The equation is $(x-h)^2 + (y-k)^2 = r^2$. Here the centre is $(2, -1)$ and $\\hl{1}{r^2} = \\hl{1}{25}$.",
+     "rows": [
+      {
+       "aside": "So the radius is $5$."
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 6$ and $y = 3$ into the left side. This gives the distance from the centre, squared.",
+     "rows": [
+      {
+       "l": "\\hl{2}{d^2}",
+       "r": "= (6-2)^2 + (3+1)^2"
+      },
+      {
+       "l": "",
+       "r": "= 16 + 16"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{32}"
+      }
+     ]
+    },
+    {
+     "say": "Compare $\\hl{2}{32}$ with $\\hl{1}{25}$. If it is less, the point is inside. If it is equal, on. If it is more, outside.",
+     "rows": [
+      {
+       "l": "\\hl{2}{32}",
+       "r": "> \\hl{1}{25}"
+      },
+      {
+       "aside": "The point is further from the centre than the radius, so it is **outside** the circle."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

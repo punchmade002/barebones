@@ -1,0 +1,227 @@
+[
+ {
+  "skill": "cx-transformations",
+  "title": "Interpret operations as transformations on the Argand diagram",
+  "show": "Argand diagram with z=4+2i and iz=-2+4i showing the 90° anticlockwise rotation about the origin",
+  "example": {
+   "question": "$z = 4 + 2i$. Find $iz$. Describe the transformation that takes $z$ to $iz$ on the Argand diagram.",
+   "final": "iz = -2 + 4i,\\; \\text{a rotation of } 90^\\circ \\text{ anticlockwise about the origin}",
+   "steps": [
+    {
+     "say": "Multiply $z$ by $i$. Use $i^2 = -1$.",
+     "rows": [
+      {
+       "l": "iz",
+       "r": "= i(4 + 2i)"
+      },
+      {
+       "l": "",
+       "r": "= 4i + 2i^2"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{-2 + 4i}"
+      }
+     ]
+    },
+    {
+     "say": "Find how far each point is from the origin. If the distances match, the point has turned and not stretched.",
+     "rows": [
+      {
+       "l": "|z|",
+       "r": "= \\sqrt{4^2 + 2^2}"
+      },
+      {
+       "l": "|iz|",
+       "r": "= \\sqrt{(-2)^2 + 4^2}"
+      },
+      {
+       "aside": "Both equal $\\sqrt{20}$. The distance from the origin did not change."
+      }
+     ]
+    },
+    {
+     "say": "The point $(4, 2)$ has moved to $(-2, 4)$ at the same distance from the origin. So it has been turned.",
+     "rows": [
+      {
+       "aside": "Multiplying by $i$ is a rotation of $90°$ anticlockwise about the origin."
+      },
+      {
+       "aside": "Check: $(4, 2)$ is in the first quarter. $(-2, 4)$ is in the second quarter, one quarter turn on."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The orange line to iz and the 90 degree arc pass through the Im-axis tick label 1, partly hiding it; the 90 degree label also sits tight against the axis and tick."
+  ]
+ },
+ {
+  "skill": "diff-related-rates",
+  "title": "Solve connected rates of change",
+  "show": "sphere with radius r growing as air is pumped in",
+  "example": {
+   "question": "Air is pumped into a spherical balloon at $72$ cm$^3$ per second. Find the rate at which the radius is increasing when $r = 3$ cm. The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$.",
+   "final": "\\frac{2}{\\pi} \\text{ cm/s}",
+   "steps": [
+    {
+     "say": "We are given $\\frac{dV}{dt} = 72$. We want $\\frac{dr}{dt}$. Differentiate the volume formula with respect to $r$.",
+     "rows": [
+      {
+       "l": "V",
+       "r": "= \\frac{4}{3}\\pi r^3"
+      },
+      {
+       "l": "\\frac{dV}{dr}",
+       "r": "= 4\\pi r^2"
+      }
+     ]
+    },
+    {
+     "say": "Turn it round: $\\frac{dr}{dV}$ is one over $\\frac{dV}{dr}$. Multiply by $\\frac{dV}{dt}$ to get $\\hl{1}{\\frac{dr}{dt}}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\frac{dr}{dt}}",
+       "r": "= \\frac{1}{4\\pi r^2} \\times 72"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{18}{\\pi r^2}"
+      }
+     ]
+    },
+    {
+     "say": "Now put in $r = 3$.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= \\frac{18}{\\pi (3)^2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{\\frac{2}{\\pi}}"
+      },
+      {
+       "aside": "The radius grows at $\\frac{2}{\\pi} \\approx 0.64$ cm per second."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The r = 3 cm radius line and its label are orange, but in the working orange means dr/dt; the radius r is not coloured in the working, so it should be plain grey or dark."
+  ]
+ },
+ {
+  "skill": "fn-solve-graphically",
+  "title": "Solve equations approximately from graphs",
+  "show": "parabola y=x²-2x-8 for -4≤x≤6 with the roots on the x-axis and the horizontal line drawn for the value asked highlighted",
+  "example": {
+   "question": "The graph of $f(x) = x^2 - 2x - 8$ is drawn for $-4 \\le x \\le 6$. Use the graph to estimate the values of $x$ for which $f(x) = 5$. Give your answers correct to one decimal place.",
+   "final": "x \\approx \\hl{2}{-2.7} \\ \\text{or} \\ x \\approx \\hl{2}{4.7}",
+   "steps": [
+    {
+     "say": "The equation $f(x) = \\hl{1}{5}$ asks: where is the curve at height $\\hl{1}{5}$?",
+     "rows": [
+      {
+       "aside": "On the graph, find the points of the curve whose $y$ value is $\\hl{1}{5}$."
+      }
+     ]
+    },
+    {
+     "say": "Draw a horizontal line across the graph at $y = \\hl{1}{5}$. Mark each point where it cuts the curve.",
+     "rows": [
+      {
+       "aside": "The line cuts the curve in two places, so there are two answers."
+      }
+     ]
+    },
+    {
+     "say": "From each point, go straight down to the $x$-axis and read the value.",
+     "rows": [
+      {
+       "aside": "Left point: $x \\approx \\hl{2}{-2.7}$."
+      },
+      {
+       "aside": "Right point: $x \\approx \\hl{2}{4.7}$."
+      }
+     ]
+    },
+    {
+     "say": "Put the equation equal to zero and solve it. The answers should agree with your readings.",
+     "rows": [
+      {
+       "l": "x^2 - 2x - 8",
+       "r": "= \\hl{1}{5}"
+      },
+      {
+       "l": "x^2 - 2x - 13",
+       "r": "= 0"
+      },
+      {
+       "aside": "The formula gives $x = 1 \\pm \\sqrt{14}$, which is $\\hl{2}{-2.7}$ and $\\hl{2}{4.7}$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The parabola runs through the axis tick labels: the curve strikes the x-axis labels -2 and 4 and the y-axis label -6, so they are hard to read.",
+   "The roots -2 and 4 are not marked on the x-axis, though the figure was meant to show them."
+  ]
+ },
+ {
+  "skill": "geo-enlargement",
+  "title": "Construct and analyse an enlargement",
+  "show": "triangle ABC and its enlargement PQR from centre O with rays through corresponding points, |OB|=5, |OQ|=12",
+  "example": {
+   "question": "The triangle $ABC$ is enlarged with centre $O$ to give the image $PQR$. $|OB| = 5$ cm and $|OQ| = 12$ cm. The area of $ABC$ is $10$ cm$^2$. Find the area of $PQR$.",
+   "final": "\\text{Area of } PQR = 57.6 \\text{ cm}^2",
+   "steps": [
+    {
+     "say": "The scale factor is image length over object length. Use the two lengths from $O$: $\\hl{1}{k} = \\frac{|OQ|}{|OB|}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{k}",
+       "r": "= \\frac{12}{5}"
+      },
+      {
+       "l": "",
+       "r": "= 2.4"
+      }
+     ]
+    },
+    {
+     "say": "Lengths grow by $k$, so areas grow by $\\hl{2}{k^2}$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{k^2}",
+       "r": "= 2.4^2"
+      },
+      {
+       "l": "",
+       "r": "= 5.76"
+      }
+     ]
+    },
+    {
+     "say": "Multiply the area of $ABC$ by $\\hl{2}{k^2}$.",
+     "rows": [
+      {
+       "l": "\\text{Area of } PQR",
+       "r": "= 10 \\times 5.76"
+      },
+      {
+       "l": "",
+       "r": "= 57.6"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The '12' label sits at the midpoint of the dotted segment BQ (about x=697, between B and Q), so it reads as |BQ| = 12. |OQ| = 12 runs from O to Q, and BQ is 7. Centre the 12 on the whole of OQ or add a bracket/brace from O to Q."
+  ]
+ }
+]

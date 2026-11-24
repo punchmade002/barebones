@@ -1,0 +1,29 @@
+{
+ "fn-graph-quadratic": {
+  "ok": true,
+  "issues": []
+ },
+ "fn-graph-cubic": {
+  "ok": true,
+  "issues": []
+ },
+ "fn-graph-exponential": {
+  "ok": true,
+  "issues": []
+ },
+ "fn-compare-graphs": {
+  "ok": true,
+  "issues": []
+ },
+ "fn-transformations": {
+  "ok": true,
+  "issues": []
+ },
+ "fn-solve-graphically": {
+  "ok": false,
+  "issues": [
+   "The parabola runs through the axis tick labels: the curve strikes the x-axis labels -2 and 4 and the y-axis label -6, so they are hard to read.",
+   "The roots -2 and 4 are not marked on the x-axis, though the figure was meant to show them."
+  ]
+ }
+}

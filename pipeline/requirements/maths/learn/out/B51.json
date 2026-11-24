@@ -1,0 +1,547 @@
+[
+ {
+  "skill": "geo-thm13",
+  "what": {
+   "say": [
+    "You give it two triangles with the same three angles. It finds a missing **length** in one of them.",
+    "The key idea (Theorem 13): triangles with equal angles have sides in the same **ratio**. Match each side to the side opposite the same angle, then use the ratio."
+   ],
+   "in": "two equiangular triangles",
+   "out": "a missing side"
+  },
+  "how": {
+   "higher": "Higher level tests it on Paper 2 geometry: proving two triangles are similar from equal angles (up to 10 marks in a part), then using the ratio of sides, often inside cone and circle problems.",
+   "ordinary": "Ordinary level uses it as a step inside a longer Paper 2 question, for example finding a length in a 5 or 10 mark part (2022 and 2025)."
+  },
+  "example": {
+   "question": "In the diagram, triangles $ABC$ and $DEF$ are equiangular. $|AB| = 6$ cm, $|BC| = 9$ cm and $|DE| = 8$ cm. $AB$ and $DE$ are opposite equal angles, and so are $BC$ and $EF$. Find $|EF|$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Match the sides",
+      "say": "The triangles have equal angles, so they are similar (Theorem 13). $AB$ matches $DE$, and $BC$ matches $\\hl{1}{EF}$.",
+      "lines": [
+       {
+        "tex": "\\frac{|AB|}{|DE|} &= \\frac{|BC|}{\\hl{1}{|EF|}}"
+       },
+       {
+        "text": "Write the known pair first, then the pair with the unknown."
+       }
+      ]
+     },
+     {
+      "title": "Put in the numbers",
+      "say": "Replace each length with its value. The unknown stays as $\\hl{1}{|EF|}$.",
+      "lines": [
+       {
+        "tex": "\\frac{6}{8} &= \\frac{9}{\\hl{1}{|EF|}}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for the side",
+      "say": "Cross-multiply, then divide to leave $\\hl{1}{|EF|}$ on its own.",
+      "lines": [
+       {
+        "tex": "6 \\times \\hl{1}{|EF|} &= 9 \\times 8",
+        "sym": "9*8",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{|EF|} &= \\frac{72}{6}",
+        "sym": "72/6",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{12} \\text{ cm}",
+        "sym": "12"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|EF| = 12 \\text{ cm}"
+   },
+   "finalSym": "12",
+   "answerSym": "9/(6/8)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"15,180 105,180 45,100\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"150,190 270,190 190,83\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><text x=\"8\" y=\"196\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">A</text><text x=\"110\" y=\"196\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">B</text><text x=\"40\" y=\"92\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">C</text><text x=\"142\" y=\"206\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">D</text><text x=\"276\" y=\"206\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">E</text><text x=\"190\" y=\"74\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">F</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Do not jump to the ratio. The conclusion earns nothing unless the angle steps and \"so the triangles are similar\" come first.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(b)",
+       "quote": "Step 5 is not considered done"
+      }
+     ]
+    },
+    {
+     "tip": "Give a reason beside each equal pair of angles, such as alternate or vertically opposite. Steps without reasons stop at high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(b)",
+       "quote": "All valid steps included but with no justification"
+      }
+     ]
+    },
+    {
+     "tip": "Say why the triangles are similar. Just stating that they are, without justifying it, loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q4#(a)(ii)",
+       "quote": "implies triangles are similar without"
+      }
+     ]
+    },
+    {
+     "tip": "Writing one correct pair of corresponding sides is worth marks on its own, so always write the pair down.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q4#(a)(ii)",
+       "quote": "one set of corresponding sides identified"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Even one correct ratio of corresponding sides earns marks, so write the ratio before anything else.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q8#(b)(ii)",
+       "quote": "One correct ratio of corresponding sides"
+      }
+     ]
+    },
+    {
+     "tip": "Write the scale factor as a fraction. Just the right numerator or denominator is worth marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q9#(b)(i), (ii)",
+       "quote": "relevant numerator or denominator"
+      }
+     ]
+    },
+    {
+     "tip": "Put the unit on your answer. A right value with no unit loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q8#(b)(ii)",
+       "quote": "Correct value but no or incorrect unit"
+      }
+     ]
+    },
+    {
+     "tip": "Round exactly as the question asks. Wrong or missing rounding loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q9#(b)(i), (ii)",
+       "quote": "no or incorrect rounding"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm21",
+  "what": {
+   "say": [
+    "You give it a circle with a chord, and a line from the centre that meets the chord at a right angle. It finds the **half-chord**, then a length such as the radius.",
+    "The key idea (Theorem 21): a perpendicular from the centre **bisects** the chord. That makes a right-angled triangle, so Pythagoras finishes the job."
+   ],
+   "in": "chord and centre",
+   "out": "radius or chord length"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside a coordinate geometry question on Paper 2: finding the radius of a circle from a chord and its distance from the centre (2021, a 15 mark part)."
+  },
+  "example": {
+   "question": "A circle has centre $O$. A chord $[AB]$ has length $24$ cm. The perpendicular from $O$ meets $[AB]$ at $M$, and $|OM| = 5$ cm. Find the radius of the circle.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Halve the chord",
+      "say": "The perpendicular from the centre bisects the chord (Theorem 21). So $M$ is the midpoint of $[AB]$.",
+      "lines": [
+       {
+        "tex": "|AM| &= \\frac{24}{2}",
+        "sym": "24/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{12}",
+        "sym": "12"
+       }
+      ]
+     },
+     {
+      "title": "Draw the radius",
+      "say": "Join $O$ to $A$. Then $OMA$ is a right-angled triangle with the right angle at $M$, and $|OA|$ is the radius $\\hl{2}{r}$.",
+      "lines": [
+       {
+        "text": "Sides: $|AM| = 12$, $|OM| = 5$, hypotenuse $|OA| = r$."
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras",
+      "say": "The square on the hypotenuse equals the sum of the squares on the other two sides.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{r}^2 &= 12^2 + 5^2",
+        "sym": "12**2+5**2",
+        "new": true
+       },
+       {
+        "tex": "&= 144 + 25",
+        "sym": "144+25"
+       },
+       {
+        "tex": "&= 169",
+        "sym": "169"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "say": "The radius is a length, so take the positive root.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{r} &= \\sqrt{169}",
+        "sym": "sqrt(169)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{13} \\text{ cm}",
+        "sym": "13"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "r = 13 \\text{ cm}"
+   },
+   "finalSym": "13",
+   "answerSym": "sqrt((24/2)**2+5**2)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"100\" r=\"78\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><line x1=\"78\" y1=\"130\" x2=\"222\" y2=\"130\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><line x1=\"150\" y1=\"100\" x2=\"150\" y2=\"130\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><line x1=\"150\" y1=\"100\" x2=\"78\" y2=\"130\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><polyline points=\"150,122 158,122 158,130\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><text x=\"66\" y=\"140\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">A</text><text x=\"234\" y=\"140\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">B</text><text x=\"150\" y=\"154\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">M</text><text x=\"150\" y=\"92\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">O</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Mark the right angle where the perpendicular meets the chord, and draw the radius to an end of the chord with its length labelled $r$. Both earn marks before any calculation.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q3#(a)",
+       "quote": "Right angle indicated at"
+      },
+      {
+       "part": "maths-pp-2021-higher-p2-q3#(a)",
+       "quote": "drawn, and length"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "geo-similar-triangles",
+  "what": {
+   "say": [
+    "You give it two **equiangular** triangles and one pair of matching sides. It finds a missing side.",
+    "The key idea: matching sides are all in the same ratio. Find that ratio once, the **scale factor**, then multiply or divide by it."
+   ],
+   "in": "two similar triangles",
+   "out": "missing side"
+  },
+  "how": {
+   "higher": "Higher level tests it on Paper 2, usually as a part of its own worth 5 or 10 marks: a length in a figure built from similar triangles (2017 alone had four such parts), or a step in a cone or radius problem.",
+   "ordinary": "Ordinary level asks for it on Paper 2 in 2015, 2020, 2022 and 2025: finding a scale factor and a missing side, in parts worth 5 or 10 marks."
+  },
+  "example": {
+   "question": "Triangles $ABC$ and $PQR$ are similar. $|AB| = 8$ cm and $|PQ| = 14$ cm are matching sides. $|AC| = 12$ cm. Find $|PR|$, the side that matches $[AC]$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the scale factor",
+      "say": "Divide a side of the bigger triangle by the matching side of the smaller one. This gives $\\hl{1}{k}$, the number that turns $ABC$ into $PQR$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{k} &= \\frac{|PQ|}{|AB|}",
+        "sym": "14/8",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{14}{8} = 1.75",
+        "sym": "1.75"
+       }
+      ]
+     },
+     {
+      "title": "Scale the matching side",
+      "say": "$PR$ matches $AC$. Multiply $|AC|$ by the scale factor $\\hl{1}{k}$.",
+      "lines": [
+       {
+        "tex": "|PR| &= |AC| \\times \\hl{1}{k}",
+        "sym": "12*1.75",
+        "new": true
+       },
+       {
+        "tex": "&= 12 \\times 1.75",
+        "sym": "12*1.75"
+       },
+       {
+        "tex": "&= \\hl{2}{21} \\text{ cm}",
+        "sym": "21"
+       }
+      ]
+     },
+     {
+      "title": "Check the size",
+      "say": "$PQR$ is the bigger triangle, so $|PR|$ should be bigger than $|AC| = 12$. It is.",
+      "lines": [
+       {
+        "text": "Always check that the bigger triangle gets the bigger answer."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|PR| = 21 \\text{ cm}"
+   },
+   "finalSym": "21",
+   "answerSym": "12/(8/14)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"15,180 95,180 40,110\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"130,190 270,190 174,68\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><text x=\"8\" y=\"196\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">A</text><text x=\"102\" y=\"196\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">B</text><text x=\"32\" y=\"106\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">C</text><text x=\"122\" y=\"206\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">P</text><text x=\"278\" y=\"206\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">Q</text><text x=\"174\" y=\"58\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">R</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "List the corresponding sides before you calculate. One correct pair earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q5#(a)",
+       "quote": "One set of corresponding sides identified"
+      }
+     ]
+    },
+    {
+     "tip": "Write the ratios of corresponding sides even if you cannot finish. Ratios that are right but unfinished still reach high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q7#(b)(ii)",
+       "quote": "corresponding ratios identified but fails"
+      }
+     ]
+    },
+    {
+     "tip": "Name the two similar triangles. Indicating them is work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q7#(e)",
+       "quote": "indicates two similar triangles"
+      }
+     ]
+    },
+    {
+     "tip": "Give the answer in the form asked for. A right value in the wrong form loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q7#(e)",
+       "quote": "Correct value found, but not in the correct form"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write a ratio equality of matching sides. A correct one gets high partial credit, and even a wrong one carried through correctly does.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q6#(b)",
+       "quote": "Correct ratio equality"
+      },
+      {
+       "part": "maths-pp-2020-ordinary-p2-q6#(b)",
+       "quote": "Incorrect ratio equality and finished"
+      }
+     ]
+    },
+    {
+     "tip": "Use the scale factor. A correct answer reached without it only gets partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q7#(c)(i), (ii), (iii)",
+       "quote": "Correct answer without use of scale factor"
+      }
+     ]
+    },
+    {
+     "tip": "Put the unit on your answer. A right value with no unit loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q8#(b)(ii)",
+       "quote": "Correct value but no or incorrect unit"
+      }
+     ]
+    },
+    {
+     "tip": "Round exactly as the question asks. Wrong or missing rounding loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q9#(b)(i), (ii)",
+       "quote": "no or incorrect rounding"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm12",
+  "what": {
+   "say": [
+    "You give it a triangle with a line drawn **parallel** to one side. It finds a missing length on the other two sides.",
+    "The key idea (Theorem 12): the parallel line cuts the two sides it meets in the same **ratio**. Write that ratio on both sides and solve."
+   ],
+   "in": "triangle with a parallel line",
+   "out": "a missing length"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step in Paper 2 geometry and coordinate geometry parts worth 5 or 10 marks (2018 Q6, 2021 Q2), often to divide a line in a given ratio.",
+   "ordinary": "Ordinary level asked for it once, in 2020 Paper 2, as a 5 mark part."
+  },
+  "example": {
+   "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$. $DE$ is parallel to $BC$. $|AD| = 4$ cm, $|DB| = 6$ cm and $|AE| = 5$ cm. Find $|EC|$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "State the ratio",
+      "say": "$DE$ is parallel to $BC$, so it cuts $[AB]$ and $[AC]$ in the same ratio (Theorem 12).",
+      "lines": [
+       {
+        "tex": "\\frac{|AD|}{|DB|} &= \\frac{|AE|}{\\hl{1}{|EC|}}"
+       },
+       {
+        "text": "Top and bottom must be in the same order on both sides."
+       }
+      ]
+     },
+     {
+      "title": "Put in the numbers",
+      "say": "Replace each length with its value.",
+      "lines": [
+       {
+        "tex": "\\frac{4}{6} &= \\frac{5}{\\hl{1}{|EC|}}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for the length",
+      "say": "Cross-multiply, then divide by $4$ to leave $\\hl{1}{|EC|}$ on its own.",
+      "lines": [
+       {
+        "tex": "4 \\times \\hl{1}{|EC|} &= 5 \\times 6",
+        "sym": "5*6",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{|EC|} &= \\frac{30}{4}",
+        "sym": "30/4",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{7.5} \\text{ cm}",
+        "sym": "7.5"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|EC| = 7.5 \\text{ cm}"
+   },
+   "finalSym": "7.5",
+   "answerSym": "5*6/4"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"150,20 40,190 260,190\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><line x1=\"106\" y1=\"88\" x2=\"194\" y2=\"88\" stroke=\"#1A1916\" fill=\"none\" stroke-width=\"2\"/><text x=\"150\" y=\"14\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">A</text><text x=\"30\" y=\"200\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">B</text><text x=\"270\" y=\"200\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"middle\" stroke=\"none\">C</text><text x=\"94\" y=\"86\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"end\" stroke=\"none\">D</text><text x=\"206\" y=\"86\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\" text-anchor=\"start\" stroke=\"none\">E</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the equal ratios with one unknown only. That reaches high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q6#(b)",
+       "quote": "Ratios formulated with"
+      }
+     ]
+    },
+    {
+     "tip": "Use Pythagoras to get a missing side first if the diagram needs it. Some correct substitution earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q6#(b)",
+       "quote": "Pythagoras with some substitution"
+      }
+     ]
+    },
+    {
+     "tip": "In coordinate geometry, find the coordinates asked for. Slant distances alone are not given credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q2#(c)(ii)",
+       "quote": "finding slant distances alone is not"
+      }
+     ]
+    },
+    {
+     "tip": "Give a reason for each step. Without reasons you stop at high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(a)",
+       "quote": "Accept steps without reasons for up to"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write a ratio of lengths. Any relevant work with ratio of lengths is work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q6#(b)",
+       "quote": "Any relevant work with ratio of lengths"
+      }
+     ]
+    },
+    {
+     "tip": "Write a correct ratio equality. It gets high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q6#(b)",
+       "quote": "Correct ratio equality"
+      }
+     ]
+    },
+    {
+     "tip": "A wrong setup carried through correctly still gets high partial credit, so always finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q6#(b)",
+       "quote": "Incorrect ratio equality and finished"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

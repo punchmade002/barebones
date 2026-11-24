@@ -1,0 +1,880 @@
+[
+ {
+  "skill": {
+   "id": "diff-slope-tangent",
+   "title": "Find the slope and equation of a tangent",
+   "level": "OL",
+   "input": "f(x) and a point",
+   "output": "slope f′(a); tangent line"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-ordinary-p1-q6#(a)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute x = 1 into f'(x)",
+      "lines": [
+       {
+        "text": "The slope of the tangent at $x = 1$ is $f'(1)$."
+       },
+       {
+        "tex": "f'(1) &= 12(1)^2 - 6(1) + 1"
+       },
+       {
+        "tex": "&= 12 - 6 + 1"
+       },
+       {
+        "tex": "&= 7"
+       }
+      ]
+     }
+    ],
+    "final": "7"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q6#(a)(iii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the line through (1, -5) with slope 7",
+      "lines": [
+       {
+        "text": "Use $y - y_1 = m(x - x_1)$ with $m = 7$ and $(x_1, y_1) = (1, -5)$."
+       },
+       {
+        "tex": "y - (-5) &= 7(x - 1)"
+       },
+       {
+        "tex": "y + 5 &= 7(x - 1)"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange into the form ax + by + c = 0",
+      "lines": [
+       {
+        "tex": "y + 5 &= 7x - 7"
+       },
+       {
+        "tex": "0 &= 7x - 7 - y - 5"
+       },
+       {
+        "tex": "7x - y - 12 &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "7x - y - 12 = 0"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q4#(b)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the slope at x = 2",
+      "lines": [
+       {
+        "text": "The slope of the tangent is $h'(2)$."
+       },
+       {
+        "tex": "h'(2) &= 3(2)^2 + 4(2) - 1"
+       },
+       {
+        "tex": "&= 12 + 8 - 1"
+       },
+       {
+        "tex": "&= 19"
+       }
+      ]
+     },
+     {
+      "title": "Use the point-slope formula",
+      "lines": [
+       {
+        "text": "With $m = 19$ and point $(2, 6)$: $y - y_1 = m(x - x_1)$."
+       },
+       {
+        "tex": "y - 6 &= 19(x - 2)"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange (optional)",
+      "lines": [
+       {
+        "tex": "y - 6 &= 19x - 38"
+       },
+       {
+        "tex": "0 &= 19x - y - 32"
+       }
+      ]
+     }
+    ],
+    "final": "19x - y - 32 = 0"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q4#(b)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate each term",
+      "lines": [
+       {
+        "text": "Use $\\frac{d}{dx}(x^n) = nx^{n-1}$. The constant $-8$ differentiates to 0."
+       },
+       {
+        "tex": "f'(x) &= 3x^2 - 6x + 4"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 2 into f′(x)",
+      "lines": [
+       {
+        "tex": "f'(2) &= 3(2)^2 - 6(2) + 4"
+       },
+       {
+        "tex": "&= 12 - 12 + 4"
+       },
+       {
+        "tex": "&= 4"
+       }
+      ]
+     },
+     {
+      "title": "State the slope",
+      "lines": [
+       {
+        "text": "The slope of the tangent at $(2, -4)$ is the value of $f'(2)$."
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = 3x^2 - 6x + 4, \\quad \\text{slope} = 4"
+   },
+   {
+    "part": "practice-diff-slope-tangent-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Find the equation of the tangent to the curve $y = x^3 - 4x$ at the point where $x = -1$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the slope at x = -1",
+      "lines": [
+       {
+        "text": "Differentiate, then substitute $x = -1$."
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 3x^2 - 4"
+       },
+       {
+        "tex": "m &= 3(-1)^2 - 4 = -1"
+       }
+      ]
+     },
+     {
+      "title": "Find the point on the curve",
+      "lines": [
+       {
+        "tex": "y &= (-1)^3 - 4(-1) = 3"
+       },
+       {
+        "text": "The point is $(-1, 3)$."
+       }
+      ]
+     },
+     {
+      "title": "Use the point-slope formula",
+      "lines": [
+       {
+        "text": "With $m = -1$ and point $(-1, 3)$: $y - y_1 = m(x - x_1)$."
+       },
+       {
+        "tex": "y - 3 &= -1(x + 1)"
+       },
+       {
+        "tex": "y &= -x + 2"
+       }
+      ]
+     }
+    ],
+    "final": "y = -x + 2"
+   },
+   {
+    "part": "practice-diff-slope-tangent-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "The curve $y = 2x^2 - 3x + 5$ passes through the point $(2, 7)$.\nFind the equation of the tangent to the curve at $(2, 7)$, in the form $ax + by + c = 0$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate to find the slope",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= 4x - 3"
+       }
+      ]
+     },
+     {
+      "title": "Find the slope at x = 2",
+      "lines": [
+       {
+        "tex": "m &= 4(2) - 3 = 5"
+       }
+      ]
+     },
+     {
+      "title": "Use the point-slope formula",
+      "lines": [
+       {
+        "text": "With $m = 5$ and point $(2, 7)$: $y - y_1 = m(x - x_1)$."
+       },
+       {
+        "tex": "y - 7 &= 5(x - 2)"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange",
+      "lines": [
+       {
+        "tex": "y - 7 &= 5x - 10"
+       },
+       {
+        "tex": "0 &= 5x - y - 3"
+       }
+      ]
+     }
+    ],
+    "final": "5x - y - 3 = 0"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-back-to-back",
+   "title": "Compare data sets with back-to-back stem-and-leaf plots",
+   "level": "OL",
+   "input": "two data sets",
+   "output": "plot and comparison of centre/spread"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the 175 to 180 bars",
+      "lines": [
+       {
+        "text": "Answer: Yes. Girls: $5.8\\%$. Boys: about $11.5\\%$."
+       },
+       {
+        "text": "Both samples have 500 students, so percentages compare numbers directly. $2 \\times 5.8 = 11.6 \\approx 11.5$, so about twice as many boys."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Yes}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(iv)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the tall groups",
+      "lines": [
+       {
+        "text": "Answer: No. Take tall to mean 175 cm or more."
+       },
+       {
+        "text": "Girls: $5.8\\% + 2\\% = 7.8\\%$. Boys: about $11.5\\% + 9.3\\% = 20.8\\%$. A larger percentage of boys are tall, so there are more tall boys than tall girls."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{No}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the two sides of the plot",
+      "lines": [
+       {
+        "text": "Day X: weights run from 4.5 kg to 7.4 kg, with most leaves on stems 5 and 6."
+       },
+       {
+        "text": "Day Y: weights run from 4.8 kg to 8.1 kg, with more leaves on stems 6, 7 and 8."
+       },
+       {
+        "text": "Each dog's Day Y weight is above its Day X weight, so the weights have increased."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The weights of the dogs increased from Day X to Day Y.}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q5#(c)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Put the Week 2 values in order",
+      "lines": [
+       {
+        "text": "6, 9, 12, 15, 15, 16, 16, 17, 18, 18, 23, 27, 28, 29, 32, 40. There are 16 values."
+       }
+      ]
+     },
+     {
+      "title": "Group the values by stem",
+      "lines": [
+       {
+        "text": "Stem 0: 6, 9. Stem 1: 2, 5, 5, 6, 6, 7, 8, 8. Stem 2: 3, 7, 8, 9. Stem 3: 2. Stem 4: 0."
+       }
+      ]
+     },
+     {
+      "title": "Write the leaves on the left of the stem",
+      "lines": [
+       {
+        "text": "Put the smallest leaf of each row next to the stem, so the leaves get bigger as they move left. Check that 2 + 8 + 4 + 1 + 1 = 16 leaves are shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Week 2 leaves added to the left of the stems}"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Put the stem for each value in its row",
+      "lines": [
+       {
+        "text": "The stem is the tens (and hundreds) part. The leaf is the units digit."
+       },
+       {
+        "text": "Sort the leaves in each row so they increase moving away from the stem."
+       }
+      ]
+     },
+     {
+      "title": "Fill in the before-exercise leaves (left side)",
+      "lines": [
+       {
+        "text": "$60, 65, 67, 68$ go in row 6 as leaves $0, 5, 7, 8$."
+       },
+       {
+        "text": "$70, 76, 77$ go in row 7 as leaves $0, 6, 7$."
+       },
+       {
+        "text": "$83, 88, 89$ go in row 8 as leaves $3, 8, 9$."
+       }
+      ]
+     },
+     {
+      "title": "Fill in the after-exercise leaves (right side)",
+      "lines": [
+       {
+        "text": "$71, 79$ in row 7. $81, 83, 87$ in row 8. $91$ in row 9."
+       },
+       {
+        "text": "$102, 108$ in row 10 as leaves $2, 8$. $113, 118$ in row 11 as leaves $3, 8$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Completed back-to-back plot (see diagram)}"
+   },
+   {
+    "part": "practice-stat-back-to-back-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Two classes sat the same test, marked out of 50.\nClass A: $23, 31, 35, 38, 42, 27, 31, 44, 36, 29$\nClass B: $25, 33, 41, 45, 38, 30, 47, 36, 41, 28$\nDraw a back-to-back stem-and-leaf plot of the marks, with Class A on the left and Class B on the right, and include a key.\nHow many leaves are there in your plot altogether?",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split each mark into a stem and a leaf",
+      "lines": [
+       {
+        "text": "The stem is the tens digit and the leaf is the units digit. The key $3 | 5 = 35$ marks means stem 3 and leaf 5 give 35."
+       }
+      ]
+     },
+     {
+      "title": "List the Class A leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 2: 23, 27, 29 so leaves 3, 7, 9."
+       },
+       {
+        "text": "Stem 3: 31, 31, 35, 36, 38 so leaves 1, 1, 5, 6, 8."
+       },
+       {
+        "text": "Stem 4: 42, 44 so leaves 2, 4."
+       }
+      ]
+     },
+     {
+      "title": "List the Class B leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 2: 25, 28 so leaves 5, 8."
+       },
+       {
+        "text": "Stem 3: 30, 33, 36, 38 so leaves 0, 3, 6, 8."
+       },
+       {
+        "text": "Stem 4: 41, 41, 45, 47 so leaves 1, 1, 5, 7."
+       }
+      ]
+     },
+     {
+      "title": "Draw the plot with leaves in order outwards",
+      "lines": [
+       {
+        "text": "Put Class A leaves on the left of the stem and Class B leaves on the right, smallest next to the stem."
+       },
+       {
+        "tex": "\\begin{array}{r|c|l} \\text{Class A} & & \\text{Class B} \\\\ \\hline 9\\;7\\;3 & 2 & 5\\;8 \\\\ 8\\;6\\;5\\;1\\;1 & 3 & 0\\;3\\;6\\;8 \\\\ 4\\;2 & 4 & 1\\;1\\;5\\;7 \\end{array}"
+       },
+       {
+        "text": "Check: each side has 10 leaves, one for each student."
+       },
+       {
+        "tex": "10 + 10 &= 20"
+       }
+      ]
+     }
+    ],
+    "final": "20 \\text{ leaves, plot as drawn}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-graph-abc",
+   "title": "Graph and analyse a + b sin cθ / a + b cos cθ",
+   "level": "HL",
+   "input": "a, b, c (or the graph)",
+   "output": "graph, period 2π/c, range [a − |b|, a + |b|]; a, b, c from graph"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p2-q8#(e)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the low and high tide from the graph",
+      "lines": [
+       {
+        "text": "High tide is the highest point, $3.1$ m. Low tide is the lowest point, $0.1$ m."
+       },
+       {
+        "tex": "\\text{Difference} &= 3.1 - 0.1"
+       },
+       {
+        "tex": "&= 3\\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "3\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q9#(a)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute t = 76 (calculator in radian mode)",
+      "lines": [
+       {
+        "tex": "f(76) &= 12.25 + 4.75\\sin\\left(\\frac{2\\pi}{365}\\times 76\\right)"
+       },
+       {
+        "tex": "&= 12.25 + 4.75\\sin(1.3083)"
+       },
+       {
+        "tex": "&= 12.25 + 4.75(0.9657)"
+       },
+       {
+        "tex": "&= 12.25 + 4.587"
+       },
+       {
+        "tex": "&= 16.837\\ \\text{hours}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to hours and minutes",
+      "lines": [
+       {
+        "tex": "0.837 \\times 60 &\\approx 50\\ \\text{minutes}"
+       }
+      ]
+     }
+    ],
+    "final": "16\\ \\text{hours } 50\\ \\text{minutes}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q8#(a)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "For $\\cos(bt)$ the period is $\\dfrac{2\\pi}{b}$. Here $b = \\dfrac{\\pi}{6}$."
+       },
+       {
+        "tex": "\\text{Period} &= \\frac{2\\pi}{\\pi/6}"
+       },
+       {
+        "tex": "&= 2\\pi \\times \\frac{6}{\\pi}"
+       },
+       {
+        "tex": "&= 12\\text{ hours}"
+       }
+      ]
+     },
+     {
+      "title": "Find the range",
+      "lines": [
+       {
+        "text": "$\\cos$ always lies between $-1$ and $1$, so the $1.5\\cos(\\cdot)$ term lies between $-1.5$ and $1.5$."
+       },
+       {
+        "tex": "\\text{Minimum} &= 1.6 - 1.5"
+       },
+       {
+        "tex": "&= 0.1"
+       },
+       {
+        "tex": "\\text{Maximum} &= 1.6 + 1.5"
+       },
+       {
+        "tex": "&= 3.1"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Period} = 12\\text{ hours},\\quad \\text{Range} = [0.1,\\,3.1]\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q8#(d)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Plot the nine points from the table",
+      "lines": [
+       {
+        "text": "Plot $(t, h)$ using time on the horizontal axis and height on the vertical axis."
+       },
+       {
+        "text": "The points are $(0, 3.1)$, $(3, 1.6)$, $(6, 0.1)$, $(9, 1.6)$, $(12, 3.1)$, $(15, 1.6)$, $(18, 0.1)$, $(21, 1.6)$, $(24, 3.1)$."
+       }
+      ]
+     },
+     {
+      "title": "Join the points with a smooth curve",
+      "lines": [
+       {
+        "text": "It is a cosine wave: maximum $3.1$ at midnight, midday and the next midnight, minimum $0.1$ at 6 a.m. and 6 p.m. It crosses $1.6$ at 3 a.m., 9 a.m., 3 p.m. and 9 p.m."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Cosine curve through the nine points}"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q9#(b)(ii)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "The period of $\\cos ct$ is $\\frac{2\\pi}{c}$. It is the time between two successive high tides: 02:00 to 14:34."
+       },
+       {
+        "tex": "\\text{period} &= 12\\frac{34}{60} \\text{ hours}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for c",
+      "lines": [
+       {
+        "tex": "\\frac{2\\pi}{c} &= 12\\frac{34}{60}"
+       },
+       {
+        "tex": "c &= \\frac{2\\pi}{12\\frac{34}{60}}"
+       },
+       {
+        "tex": "c &\\approx 0.49999"
+       },
+       {
+        "tex": "c &\\approx 0.5 \\text{ (1 decimal place)}"
+       }
+      ]
+     }
+    ],
+    "final": "c = 0.5"
+   },
+   {
+    "part": "practice-trig-graph-abc-1",
+    "level": "higher",
+    "year": null,
+    "question": "The height, in metres, of a seat on a Ferris wheel above the ground, $t$ seconds after the ride starts, is\n$h(t) = 8 - 6\\sin\\left(\\frac{\\pi t}{10}\\right)$, where the angle is in radians.\nFind the period and the range of $h$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "For $\\sin(ct)$ the period is $\\dfrac{2\\pi}{c}$. Here $c = \\dfrac{\\pi}{10}$."
+       },
+       {
+        "tex": "\\text{Period} &= \\frac{2\\pi}{\\pi/10}"
+       },
+       {
+        "tex": "&= 2\\pi \\times \\frac{10}{\\pi}"
+       },
+       {
+        "tex": "&= 20\\text{ seconds}"
+       }
+      ]
+     },
+     {
+      "title": "Find the range",
+      "lines": [
+       {
+        "text": "$\\sin$ always lies between $-1$ and $1$, so the $-6\\sin(\\cdot)$ term lies between $-6$ and $6$."
+       },
+       {
+        "tex": "\\text{Minimum} &= 8 - 6"
+       },
+       {
+        "tex": "&= 2"
+       },
+       {
+        "tex": "\\text{Maximum} &= 8 + 6"
+       },
+       {
+        "tex": "&= 14"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Period} = 20\\text{ seconds},\\quad \\text{Range} = [2,\\,14]\\text{ m}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "line-point-on",
+   "title": "Test whether a point is on a line; find intercepts",
+   "level": "OL",
+   "input": "line + point",
+   "output": "yes/no; axis intercepts"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-ordinary-p2-q9#(a)(i)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the point from the graph",
+      "lines": [
+       {
+        "text": "Read across to the $x$-value first, then up to the $y$-value. $F$ is 4 across and 1 up."
+       },
+       {
+        "tex": "F &= (4, 1)"
+       }
+      ]
+     }
+    ],
+    "final": "F = (4, 1)"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q8#(a)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read each point from the grid",
+      "lines": [
+       {
+        "text": "Read across to the $x$-value, then up or down to the $y$-value. Write each as $(x, y)$."
+       },
+       {
+        "tex": "A &= (1, -2)"
+       },
+       {
+        "tex": "B &= (4, 2)"
+       },
+       {
+        "tex": "D &= (6, -6)"
+       },
+       {
+        "tex": "E &= (15, 6)"
+       }
+      ]
+     }
+    ],
+    "final": "A = (1,-2),\\ B = (4,2),\\ D = (6,-6),\\ E = (15,6)"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(a)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read the co-ordinates of T",
+      "lines": [
+       {
+        "text": "In $(x, y) = (-2, -5)$, the first number is the $x$-value: $2$ units to the left of the origin."
+       },
+       {
+        "text": "The second number is the $y$-value: $5$ units down."
+       },
+       {
+        "text": "Mark the point where these meet and label it $T$."
+       }
+      ]
+     }
+    ],
+    "final": "T(-2, -5) \\text{ plotted}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(c)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute x = -2 and y = -5 into x - y - 3",
+      "lines": [
+       {
+        "tex": "x - y - 3 &= (-2) - (-5) - 3"
+       },
+       {
+        "tex": "&= -2 + 5 - 3"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "The left side equals $0$, so $T$ is on $k$."
+       }
+      ]
+     }
+    ],
+    "final": "T \\in k"
+   },
+   {
+    "part": "practice-line-point-on-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The line $l$ has equation $3x - 2y + 7 = 0$.\nIs the point $(-1, 5)$ on $l$? Give a reason for your answer.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute x = -1 and y = 5 into 3x - 2y + 7",
+      "lines": [
+       {
+        "tex": "3x - 2y + 7 &= 3(-1) - 2(5) + 7"
+       },
+       {
+        "tex": "&= -3 - 10 + 7"
+       },
+       {
+        "tex": "&= -6"
+       }
+      ]
+     },
+     {
+      "title": "Compare with 0",
+      "lines": [
+       {
+        "text": "The left side equals $-6$, not $0$, so the point is not on $l$."
+       }
+      ]
+     }
+    ],
+    "final": "(-1, 5) \\notin l"
+   },
+   {
+    "part": "practice-line-point-on-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "The line $k$ has equation $4x + 3y + 5 = 0$.\nTest whether the point $P(-2, 1)$ is on $k$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute x = -2 and y = 1 into 4x + 3y + 5",
+      "lines": [
+       {
+        "tex": "4x + 3y + 5 &= 4(-2) + 3(1) + 5"
+       },
+       {
+        "tex": "&= -8 + 3 + 5"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "title": "Compare both sides of the equation",
+      "lines": [
+       {
+        "text": "The left side equals $0$, which is the right side, so $P$ is on $k$."
+       }
+      ]
+     }
+    ],
+    "final": "P \\in k"
+   }
+  ]
+ }
+]

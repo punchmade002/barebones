@@ -1,0 +1,397 @@
+[
+ {
+  "skill": "cx-polar",
+  "of": "0da31f00bf97",
+  "title": "Convert between rectangular and polar form",
+  "show": "Argand diagram with z=-2+2i, modulus 2√2 and argument 3π/4 marked from the positive real axis",
+  "example": {
+   "question": "Write $z = -2 + 2i$ in polar form.",
+   "final": "\\hl{1}{2\\sqrt{2}}\\left(\\cos\\hl{2}{\\tfrac{3\\pi}{4}} + i\\sin\\hl{2}{\\tfrac{3\\pi}{4}}\\right)",
+   "steps": [
+    {
+     "say": "The modulus is the distance from the origin. Use Pythagoras on the real and imaginary parts.",
+     "rows": [
+      {
+       "l": "r",
+       "r": "= \\sqrt{(-2)^2 + 2^2}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{8}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{2\\sqrt{2}}"
+      }
+     ]
+    },
+    {
+     "say": "Ignore the signs and use $\\tan\\alpha = \\frac{2}{2}$ to get the acute angle.",
+     "rows": [
+      {
+       "l": "\\tan\\alpha",
+       "r": "= \\frac{2}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 1"
+      },
+      {
+       "l": "\\alpha",
+       "r": "= \\frac{\\pi}{4}"
+      }
+     ]
+    },
+    {
+     "say": "The real part is negative and the imaginary part positive, so $z$ is in the second quadrant. Take the angle from $\\pi$.",
+     "rows": [
+      {
+       "l": "\\theta",
+       "r": "= \\pi - \\frac{\\pi}{4}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{\\frac{3\\pi}{4}}"
+      }
+     ]
+    },
+    {
+     "say": "Put $\\hl{1}{r}$ and $\\hl{2}{\\theta}$ into $r(\\cos\\theta + i\\sin\\theta)$.",
+     "rows": [
+      {
+       "l": "z",
+       "r": "= \\hl{1}{2\\sqrt{2}}\\left(\\cos\\hl{2}{\\tfrac{3\\pi}{4}} + i\\sin\\hl{2}{\\tfrac{3\\pi}{4}}\\right)"
+      },
+      {
+       "l": "",
+       "r": "= -2 + 2i"
+      },
+      {
+       "aside": "Multiplying out gives $-2 + 2i$ back, so the angle is right."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-polar-multiply",
+  "of": "24fcd047035f",
+  "title": "Multiply and divide in polar form",
+  "show": "Argand diagram with z (modulus 4, angle 2π/3), w (modulus 2, angle π/6) and zw (modulus 8, angle 5π/6)",
+  "example": {
+   "question": "Let $z = 4\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)$ and $w = 2\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)$. Find $zw$ in polar form, and find $\\frac{z}{w}$ in the form $a + bi$.",
+   "final": "zw = \\hl{1}{8}\\left(\\cos\\hl{2}{\\tfrac{5\\pi}{6}} + i\\sin\\hl{2}{\\tfrac{5\\pi}{6}}\\right), \\quad \\frac{z}{w} = 2i",
+   "steps": [
+    {
+     "say": "To find $zw$, first multiply the two moduli.",
+     "rows": [
+      {
+       "l": "|zw|",
+       "r": "= 4 \\times 2"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{8}"
+      }
+     ]
+    },
+    {
+     "say": "Now add the two arguments.",
+     "rows": [
+      {
+       "l": "\\arg(zw)",
+       "r": "= \\frac{2\\pi}{3} + \\frac{\\pi}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{\\frac{5\\pi}{6}}"
+      }
+     ]
+    },
+    {
+     "say": "Put the modulus $\\hl{1}{8}$ and the argument $\\hl{2}{\\frac{5\\pi}{6}}$ into polar form.",
+     "rows": [
+      {
+       "l": "zw",
+       "r": "= \\hl{1}{8}\\left(\\cos\\hl{2}{\\tfrac{5\\pi}{6}} + i\\sin\\hl{2}{\\tfrac{5\\pi}{6}}\\right)"
+      }
+     ]
+    },
+    {
+     "say": "For $\\frac{z}{w}$, divide the moduli and subtract the arguments.",
+     "rows": [
+      {
+       "l": "\\left|\\frac{z}{w}\\right|",
+       "r": "= \\frac{4}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 2"
+      },
+      {
+       "l": "\\arg\\frac{z}{w}",
+       "r": "= \\frac{2\\pi}{3} - \\frac{\\pi}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{\\pi}{2}"
+      },
+      {
+       "l": "\\frac{z}{w}",
+       "r": "= 2\\left(\\cos\\tfrac{\\pi}{2} + i\\sin\\tfrac{\\pi}{2}\\right)"
+      },
+      {
+       "l": "",
+       "r": "= 2i"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-de-moivre-roots",
+  "of": "b4d44868169e",
+  "title": "Solve zⁿ = a (incl. nth roots of unity)",
+  "show": "four roots of z⁴=-16 equally spaced on a circle of radius 2 at 45°,135°,225°,315°",
+  "example": {
+   "question": "Solve $z^4 = -16$, giving your answers in the form $a + bi$.",
+   "final": "z = \\pm\\sqrt{2} \\pm \\sqrt{2}\\,i",
+   "steps": [
+    {
+     "say": "The number $-16$ lies on the negative real axis. Its modulus is $\\hl{1}{16}$ and its angle is $\\hl{2}{\\pi}$. Add $2n\\pi$ so that every angle is covered.",
+     "rows": [
+      {
+       "l": "|-16|",
+       "r": "= \\hl{1}{16}"
+      },
+      {
+       "aside": "$-16 = 16\\big(\\cos(\\hl{2}{\\pi}+2n\\pi) + i\\sin(\\hl{2}{\\pi}+2n\\pi)\\big)$"
+      }
+     ]
+    },
+    {
+     "say": "De Moivre: raise the modulus to the power $\\frac14$ and multiply the angle by $\\frac14$.",
+     "rows": [
+      {
+       "l": "16^{1/4}",
+       "r": "= 2"
+      },
+      {
+       "l": "\\text{angle}",
+       "r": "= \\frac{\\pi + 2n\\pi}{4} = \\frac{\\pi}{4} + \\frac{n\\pi}{2}"
+      },
+      {
+       "aside": "$z = 2\\big(\\cos(\\frac{\\pi}{4}+\\frac{n\\pi}{2}) + i\\sin(\\frac{\\pi}{4}+\\frac{n\\pi}{2})\\big)$"
+      }
+     ]
+    },
+    {
+     "say": "Put $n=0$ and $n=1$ and write each in the form $a+bi$.",
+     "rows": [
+      {
+       "l": "n=0:\\; z",
+       "r": "= 2\\big(\\cos\\tfrac{\\pi}{4} + i\\sin\\tfrac{\\pi}{4}\\big)"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{2} + \\sqrt{2}\\,i"
+      },
+      {
+       "l": "n=1:\\; z",
+       "r": "= 2\\big(\\cos\\tfrac{3\\pi}{4} + i\\sin\\tfrac{3\\pi}{4}\\big)"
+      },
+      {
+       "l": "",
+       "r": "= -\\sqrt{2} + \\sqrt{2}\\,i"
+      }
+     ]
+    },
+    {
+     "say": "The roots are evenly spaced around a circle, so the other two are the negatives of these.",
+     "rows": [
+      {
+       "l": "n=2:\\; z",
+       "r": "= -\\sqrt{2} - \\sqrt{2}\\,i"
+      },
+      {
+       "l": "n=3:\\; z",
+       "r": "= \\sqrt{2} - \\sqrt{2}\\,i"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-slope-tangent",
+  "of": "58d3fc8b9c0a",
+  "title": "Find the slope and equation of a tangent",
+  "show": "curve y=x³-3x+1 with the point at x=2 and the tangent line there drawn with its slope labelled",
+  "example": {
+   "question": "The curve $y = x^3 - 3x + 1$ has a point where $x = 2$. Find the equation of the tangent to the curve at that point.",
+   "final": "y = 9x - 15",
+   "steps": [
+    {
+     "say": "The slope of the tangent is the derivative at $x = 2$. Differentiate, then put in $x = 2$.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= x^3 - 3x + 1"
+      },
+      {
+       "l": "\\frac{dy}{dx}",
+       "r": "= 3x^2 - 3"
+      },
+      {
+       "l": "\\hl{1}{m}",
+       "r": "= 3(2)^2 - 3 = \\hl{1}{9}"
+      }
+     ]
+    },
+    {
+     "say": "The tangent touches the curve, so it passes through the point on the curve where $x = 2$. Put $x = 2$ into the original function, not the derivative.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= (2)^3 - 3(2) + 1 = \\hl{2}{3}"
+      },
+      {
+       "aside": "The point is $(2, \\hl{2}{3})$."
+      }
+     ]
+    },
+    {
+     "say": "Now use the slope $\\hl{1}{9}$ and the point $(2, \\hl{2}{3})$ in the formula for a line.",
+     "rows": [
+      {
+       "l": "y - \\hl{2}{3}",
+       "r": "= \\hl{1}{9}(x - 2)"
+      },
+      {
+       "l": "y",
+       "r": "= 9x - 18 + 3"
+      },
+      {
+       "l": "y",
+       "r": "= 9x - 15"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-point-given-slope",
+  "of": "2783c9b94b5e",
+  "title": "Find where a curve has a given slope",
+  "show": "curve y=x³-6x²+5 with the two points where the tangent is parallel to y=-9x+4 and those tangents drawn",
+  "example": {
+   "question": "The tangent to the curve $y = x^3 - 6x^2 + 5$ is parallel to the line $y = -9x + 4$ at two points. Find the $x$-coordinates of these two points.",
+   "final": "x = 1 \\text{ and } x = 3",
+   "steps": [
+    {
+     "say": "Parallel lines have equal slopes. The line $y = -9x + 4$ has slope $\\hl{1}{-9}$, so the tangent must too.",
+     "rows": [
+      {
+       "aside": "The line has slope $\\hl{1}{-9}$."
+      }
+     ]
+    },
+    {
+     "say": "The slope of the tangent at any point is $\\frac{dy}{dx}$.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= x^3 - 6x^2 + 5"
+      },
+      {
+       "l": "\\frac{dy}{dx}",
+       "r": "= 3x^2 - 12x"
+      }
+     ]
+    },
+    {
+     "say": "Set $\\frac{dy}{dx}$ equal to $\\hl{1}{-9}$ and solve the quadratic.",
+     "rows": [
+      {
+       "l": "3x^2 - 12x",
+       "r": "= \\hl{1}{-9}"
+      },
+      {
+       "l": "3x^2 - 12x + 9",
+       "r": "= 0"
+      },
+      {
+       "l": "x^2 - 4x + 3",
+       "r": "= 0"
+      },
+      {
+       "l": "(x - 1)(x - 3)",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Each bracket gives one point where the tangent has slope $-9$.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "= \\hl{2}{1} \\quad \\text{or} \\quad x = \\hl{2}{3}"
+      },
+      {
+       "aside": "Putting these into the curve gives the points $(1, 0)$ and $(3, -22)$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-increasing",
+  "of": "1f66c3aa1530",
+  "title": "Decide whether a function is increasing or decreasing at a point",
+  "show": "parabola y=x²-6x+5 with a tangent at x=1 sloping downward, vertex at x=3 marked",
+  "example": {
+   "question": "$f(x) = x^2 - 6x + 5$. Use differentiation to decide whether $f$ is increasing or decreasing at $x = 1$.",
+   "final": "f'(1) = -4 < 0 \\text{, so } f \\text{ is decreasing}",
+   "steps": [
+    {
+     "say": "The slope of the graph is given by the derivative, so find $f'(x)$ first.",
+     "rows": [
+      {
+       "l": "f(x)",
+       "r": "= x^2 - 6x + 5"
+      },
+      {
+       "l": "f'(x)",
+       "r": "= 2x - 6"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 1$ into the derivative, not into $f(x)$.",
+     "rows": [
+      {
+       "l": "f'(1)",
+       "r": "= 2(1) - 6 = \\hl{1}{-4}"
+      }
+     ]
+    },
+    {
+     "say": "The slope $\\hl{1}{-4}$ is negative, so the graph is falling at $x = 1$. Write the conclusion in words.",
+     "rows": [
+      {
+       "l": "\\hl{1}{f'(1)}",
+       "r": "< 0"
+      },
+      {
+       "aside": "Slope is negative, so $f$ is **decreasing** at $x = 1$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

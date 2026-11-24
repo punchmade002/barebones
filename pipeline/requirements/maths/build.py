@@ -1,0 +1,131 @@
+"""Build skills.json + skills.md from skills.py and check the graph.
+
+Run: python3 pipeline/requirements/maths/build.py
+Fails (non-zero) on: duplicate ids, unknown prereqs, cycles, an OL/JC skill that
+needs an HL skill, or a syllabus topic / app chapter with no skills.
+"""
+import json
+import re
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).parent
+ROOT = HERE.parents[2]
+sys.path.insert(0, str(HERE))
+from skills import SKILLS  # noqa: E402
+
+TOPICS = {'1.1': 'Counting', '1.2': 'Concepts of probability', '1.3': 'Outcomes of random processes',
+          '1.4': 'Statistical reasoning', '1.5': 'Finding, collecting and organising data',
+          '1.6': 'Representing data graphically and numerically', '1.7': 'Analysing and drawing inferences from data',
+          '2.1': 'Synthetic geometry', '2.2': 'Co-ordinate geometry', '2.3': 'Trigonometry',
+          '2.4': 'Transformation geometry, enlargements', '3.1': 'Number systems', '3.2': 'Indices',
+          '3.3': 'Arithmetic', '3.4': 'Length, area and volume', '4.1': 'Expressions', '4.2': 'Solving equations',
+          '4.3': 'Inequalities', '4.4': 'Complex numbers', '5.1': 'Functions', '5.2': 'Calculus'}
+LEVELS = {'JC': 'assumed Junior Cycle knowledge, examinable at OL and HL',
+          'OL': 'Ordinary and Higher level', 'HL': 'Higher level only'}
+RANK = {'JC': 0, 'OL': 1, 'HL': 2}
+
+
+def chapters():
+    src = (ROOT / 'data.js').read_text()
+    return dict(re.findall(r'id: "(maths\d+)", number: \d+, subject: "maths", title: "([^"]+)"', src))
+
+
+def check(skills, chaps):
+    errors = []
+    by_id = {}
+    for s in skills:
+        if s['id'] in by_id:
+            errors.append(f"duplicate id {s['id']}")
+        by_id[s['id']] = s
+        if not re.fullmatch(r'[a-z0-9]+(-[a-z0-9]+)*', s['id']):
+            errors.append(f"bad id {s['id']}")
+        if s['level'] not in LEVELS:
+            errors.append(f"{s['id']}: bad level {s['level']}")
+        if s['syllabus'] not in TOPICS:
+            errors.append(f"{s['id']}: bad syllabus code {s['syllabus']}")
+        if s['chapter'] not in chaps:
+            errors.append(f"{s['id']}: unknown chapter {s['chapter']}")
+    for s in skills:
+        for p in s['prereqs']:
+            if p not in by_id:
+                errors.append(f"{s['id']}: unknown prereq {p}")
+            elif RANK[by_id[p]['level']] > RANK[s['level']]:
+                errors.append(f"{s['id']} ({s['level']}) needs higher-level {p} ({by_id[p]['level']})")
+    # cycle check (DFS colouring)
+    state = {}
+
+    def visit(i, path):
+        if state.get(i) == 1:
+            errors.append('cycle: ' + ' → '.join(path + [i]))
+            return
+        if state.get(i) == 2 or i not in by_id:
+            return
+        state[i] = 1
+        for p in by_id[i]['prereqs']:
+            visit(p, path + [i])
+        state[i] = 2
+    for i in by_id:
+        visit(i, [])
+    for code in sorted(set(TOPICS) - {s['syllabus'] for s in skills}):
+        errors.append(f'syllabus topic {code} has no skills')
+    for cid in sorted(set(chaps) - {s['chapter'] for s in skills}):
+        errors.append(f'chapter {cid} has no skills')
+    return errors
+
+
+def main():
+    chaps = chapters()
+    errors = check(SKILLS, chaps)
+    if errors:
+        print('\n'.join(errors))
+        sys.exit(1)
+    used_by = {s['id']: [] for s in SKILLS}
+    for s in SKILLS:
+        for p in s['prereqs']:
+            used_by[p].append(s['id'])
+    # difficulty.json (difficulty.py): a grade per skill and each chapter's order, easiest first
+    diff = json.loads((HERE / 'difficulty.json').read_text()) if (HERE / 'difficulty.json').exists() else None
+    if diff:
+        from difficulty import problems
+        errs = problems({s['id']: s for s in SKILLS}, diff['grades'], diff['order'])
+        if errs:
+            print('difficulty.json: ' + '\n'.join(errs))
+            sys.exit(1)
+        rank = {i: n + 1 for ids in diff['order'].values() for n, i in enumerate(ids)}
+        order = {i: n for n, i in enumerate(i for ids in diff['order'].values() for i in ids)}
+        SKILLS.sort(key=lambda s: (int(s['chapter'][5:]), order[s['id']]))
+    out = []
+    for s in SKILLS:
+        extra = dict(grade=diff['grades'][s['id']], rank=rank[s['id']]) if diff else {}
+        out.append(dict(s, strand=int(s['syllabus'][0]), paper=2 if s['syllabus'][0] in '12' else 1,
+                        usedBy=used_by[s['id']], **extra))
+    counts = {lv: sum(s['level'] == lv for s in SKILLS) for lv in LEVELS}
+    (HERE / 'skills.json').write_text(json.dumps(dict(
+        schemaVersion=1, subject='maths',
+        source='pipeline/resources/maths/spec-syllabus.pdf (LC Mathematics syllabus, examinations from 2015)',
+        definition='A skill turns a given input into a definite output. prereqs are the smaller skills it needs.',
+        levels=LEVELS, topics=TOPICS, chapters=chaps, counts=dict(total=len(SKILLS), **counts),
+        skills=out), ensure_ascii=False, indent=1) + '\n')
+
+    md = ['# Leaving Cert Maths skills', '',
+          f'{len(SKILLS)} skills: {counts["JC"]} assumed from Junior Cycle, {counts["OL"]} Ordinary (and Higher), '
+          f'{counts["HL"]} Higher only. Scope comes from the syllabus (`pipeline/resources/maths/spec-syllabus.pdf`), '
+          'not from past papers. **Needs** lists the smaller skills each one depends on.', '',
+          'Generated by `build.py` from `skills.py`. Edit `skills.py`, never this file.', '']
+    for cid, title in sorted(chaps.items(), key=lambda kv: int(kv[0][5:])):
+        rows = [s for s in SKILLS if s['chapter'] == cid]
+        md += [f'## {title} (`{cid}`)', '', '| Skill | Level | Grade | Syllabus | Input → output | Needs | Example |',
+               '|---|---|---|---|---|---|---|']
+        for s in rows:
+            cell = lambda t: t.replace('|', '\\|')
+            md.append(f"| **{cell(s['title'])}**<br>`{s['id']}` | {s['level']} | {diff['grades'][s['id']] if diff else ''} | {s['syllabus']} | "
+                      f"{cell(s['input'])} → {cell(s['output'])} | {', '.join(f'`{p}`' for p in s['prereqs'])} | "
+                      f"{cell(s['example'])} |")
+        md.append('')
+    (HERE / 'skills.md').write_text('\n'.join(md))
+    print(f'{len(SKILLS)} skills OK {counts}')
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,583 @@
+[
+ {
+  "skill": "fin-average-rate",
+  "what": {
+   "say": [
+    "You give it a change in some quantity and the time it took. It finds the **rate**: how much the quantity changes in each unit of time.",
+    "The key idea: rate is change divided by time. For a journey in parts, add up the total change and the total time first, then divide once."
+   ],
+   "in": "change, time",
+   "out": "rate"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside bigger questions: in 2023 Paper 1 Q7(f) it is time = distance ÷ speed for a 10 km journey (5 marks), and in 2017 Paper 2 Q2(d)(i) it compares two journey times (5 marks).",
+   "ordinary": "Ordinary level asks for it on Paper 1 as a part of its own, usually worth 10 marks: speed = distance ÷ time read from a graph (2024 Q8), or the time for a journey at a given speed (2023 Q5, 2021 Q10)."
+  },
+  "example": {
+   "question": "A cyclist rides $18$ km in $45$ minutes, then $12$ km in $15$ minutes. Find her average speed for the whole journey, in km/h.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Change minutes to hours",
+      "say": "Speed in km/h needs the time in **hours**. Divide each number of minutes by $60$.",
+      "lines": [
+       {
+        "tex": "t_1 &= \\frac{45}{60}",
+        "sym": "Rational(45,60)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{3}{4}",
+        "sym": "Rational(3,4)"
+       },
+       {
+        "tex": "t_2 &= \\frac{15}{60}",
+        "sym": "Rational(15,60)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1}{4}",
+        "sym": "Rational(1,4)"
+       }
+      ]
+     },
+     {
+      "title": "Add the totals",
+      "say": "Do not average the two speeds. Add up the whole distance and the whole time.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{D} &= 18 + 12",
+        "sym": "18+12",
+        "new": true
+       },
+       {
+        "tex": "&= 30",
+        "sym": "30"
+       },
+       {
+        "tex": "\\hl{2}{T} &= \\frac{3}{4} + \\frac{1}{4}",
+        "sym": "Rational(3,4)+Rational(1,4)",
+        "new": true
+       },
+       {
+        "tex": "&= 1",
+        "sym": "1"
+       }
+      ]
+     },
+     {
+      "title": "Divide distance by time",
+      "say": "Average speed is the total distance divided by the total time.",
+      "lines": [
+       {
+        "tex": "\\text{speed} &= \\frac{\\hl{1}{D}}{\\hl{2}{T}}"
+       },
+       {
+        "tex": "&= \\frac{30}{1}",
+        "sym": "30/1",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{30}",
+        "sym": "30"
+       },
+       {
+        "text": "The two speeds were $24$ and $48$ km/h. The average is not $36$, because she spent longer at the slower speed."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{3}{30} \\text{ km/h}"
+   },
+   "finalSym": "30",
+   "answerSym": "(18+12)/(Rational(45,60)+Rational(15,60))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the formula you are using, time = distance ÷ speed, before you substitute. Marks are given for it.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q7#(f)",
+       "quote": "Time = Distance/Speed"
+      }
+     ]
+    },
+    {
+     "tip": "Give the unit the question asks for. An answer in the wrong unit loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q7#(f)",
+       "quote": "i.e. incorrect unit"
+      }
+     ]
+    },
+    {
+     "tip": "If the question asks for minutes, convert. An answer left in hours only reaches high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q2#(d)(i)",
+       "quote": "Answer in hours"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Read off both values, distance and time, then substitute into speed = distance ÷ time. Marks are given for each step.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q8#(a)(ii)",
+       "quote": "Both values identified and some"
+      }
+     ]
+    },
+    {
+     "tip": "When a time is asked for in hours, leave it as a fraction such as $\\frac{2}{3}$. Writing 40 minutes or $0.67$ costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q5#(b)(ii)",
+       "quote": "Full Credit -1 : 40 minutes"
+      }
+     ]
+    },
+    {
+     "tip": "Do not round part way through. Rounding early so that it changes the answer is penalised.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q10#(b)(iii)",
+       "quote": "Early Round Off which"
+      }
+     ]
+    },
+    {
+     "tip": "An answer without units can still earn full marks, but write the units anyway.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q8#(a)(ii)",
+       "quote": "Accept correct answer without units"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fin-present-value",
+  "what": {
+   "say": [
+    "You give it a future sum $F$, a yearly rate $i$ and a time $t$. It finds the amount $P$ you would have to invest **today** to reach $F$.",
+    "The key idea: compound interest multiplies by $(1+i)^t$, so going backwards means dividing by it."
+   ],
+   "in": "$F, i, t$",
+   "out": "$P$"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 1: as a 10-mark part of its own (2023 Q8(b), with a definition in words as well), and as the first step inside a loan question (2024 Q7(b))."
+  },
+  "example": {
+   "question": "How much should be invested today at $3.5\\%$ per annum compound interest to have €8000 in $4$ years? Give your answer to the nearest cent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Start from compound interest",
+      "say": "After $t$ years, $P$ grows to $F = P(1+i)^t$. The present value goes the other way, so divide to find $P$.",
+      "lines": [
+       {
+        "tex": "F &= P(1+i)^t"
+       },
+       {
+        "tex": "\\hl{1}{P} &= \\frac{F}{(1+i)^t}"
+       }
+      ]
+     },
+     {
+      "title": "Write down the values",
+      "say": "Turn the rate into a decimal: $3.5\\% = 0.035$.",
+      "lines": [
+       {
+        "tex": "F &= 8000",
+        "sym": "8000",
+        "new": true
+       },
+       {
+        "tex": "i &= 0.035",
+        "sym": "0.035",
+        "new": true
+       },
+       {
+        "tex": "t &= 4",
+        "sym": "4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "say": "Put the numbers into the formula for $\\hl{1}{P}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P} &= \\frac{8000}{(1 + 0.035)^4}",
+        "sym": "8000/(1+0.035)**4",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{8000}{1.035^4}",
+        "sym": "8000/1.035**4"
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Use the calculator, and round to the nearest cent at the end.",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{6971.54}",
+        "sym": "6971.54",
+        "approx": true
+       },
+       {
+        "text": "Check: $6971.54 \\times 1.035^4$ comes back to about $8000$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "P = \\hl{2}{\\text{€}6971.54}"
+   },
+   "finalSym": "6971.54",
+   "answerSym": "round(8000/1.035**4,2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Be ready to say what present value means: the amount invested today that grows to the future sum.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(b)(i), (ii)",
+       "quote": "It is the amount that should be invested"
+      }
+     ]
+    },
+    {
+     "tip": "Write the rate as a decimal first. That alone earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(b)(i), (ii)",
+       "quote": "written as a decimal"
+      }
+     ]
+    },
+    {
+     "tip": "For a series of payments, find the present value of each one separately: the first three are $\\frac{A}{1+i}$, $\\frac{A}{(1+i)^2}$, $\\frac{A}{(1+i)^3}$.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q7#(b)(i), (ii)",
+       "quote": "Present values of the 1st three"
+      }
+     ]
+    },
+    {
+     "tip": "Round the final answer as asked. Rounding wrongly, or not at all, loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q7#(b)(i), (ii)",
+       "quote": "Rounded incorrectly or no rounding"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "fin-solve-rate-time",
+  "what": {
+   "say": [
+    "You give it the start amount $P$, the final amount $F$, and either the time $t$ or the rate $i$. It finds the one that is missing.",
+    "The key idea: in $F = P(1+i)^t$, a **root** frees $i$ and a **log** frees $t$."
+   ],
+   "in": "$P, F$ and $t$ (or $i$)",
+   "out": "$i$ (root) or $t$ (log)"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside a loan question: in 2017 Paper 1 Q8(b)(iv), 5 marks, you take logs to find the number of months.",
+   "ordinary": "Ordinary level asks for the rate again and again on Paper 1, taking a root, as a part worth 5 or 10 marks (2016 Q7, 2017 Q1, 2020 Q7, 2023 Q1)."
+  },
+  "example": {
+   "question": "€20,000 is invested at $4\\%$ per annum compound interest. After how many whole years will it first be worth at least €30,000?",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the equation",
+      "say": "Use $F = P(1+i)^t$ with $F = 30000$, $P = 20000$ and $i = 0.04$.",
+      "lines": [
+       {
+        "tex": "30000 &= 20000(1.04)^t"
+       }
+      ]
+     },
+     {
+      "title": "Isolate the power",
+      "say": "Divide both sides by $20000$, so that the power of $1.04$ is on its own.",
+      "lines": [
+       {
+        "tex": "1.04^t &= \\frac{30000}{20000}",
+        "sym": "30000/20000",
+        "new": true
+       },
+       {
+        "tex": "&= 1.5",
+        "sym": "1.5"
+       },
+       {
+        "text": "If the rate $i$ were missing instead, you would take a **root**: $(1+i)^4 = 1.5$ gives $1+i = 1.5^{1/4}$."
+       }
+      ]
+     },
+     {
+      "title": "Take logs",
+      "say": "The unknown is in the index. Take $\\ln$ of both sides, and $\\hl{1}{t}$ comes down as a multiplier.",
+      "lines": [
+       {
+        "tex": "\\ln(1.04^t) &= \\ln(1.5)",
+        "sym": "log(1.5)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{t}\\ln(1.04) &= \\ln(1.5)",
+        "sym": "log(1.5)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for t",
+      "say": "Divide by $\\ln(1.04)$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{t} &= \\frac{\\ln(1.5)}{\\ln(1.04)}",
+        "sym": "log(1.5)/log(1.04)",
+        "new": true
+       },
+       {
+        "tex": "&= 10.34",
+        "sym": "10.34",
+        "approx": true
+       },
+       {
+        "text": "After $10$ years it is not yet $30000$, and after $11$ years it is. Round up."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "t = \\hl{2}{11} \\text{ years}"
+   },
+   "finalSym": "11",
+   "answerSym": "ceiling(log(Rational(3,2))/log(Rational(26,25)))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Once the power is on its own, take logs so that $t$ is no longer an index. That step earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q8#(b)(iv)",
+       "quote": "no longer an index"
+      }
+     ]
+    },
+    {
+     "tip": "Rearrange the formula carefully before you substitute. Relevant manipulation earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q8#(b)(iv)",
+       "quote": "Some relevant manipulation of"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula with some numbers substituted in. Marks are given for it even if you go no further.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q8#(b)(iv)",
+       "quote": "Formula with some substitution"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write $F = P(1 + \\frac{r}{100})^t$ and substitute whatever you can. Even partial substitution earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q1#(c)",
+       "quote": "Some correct substitution into"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute everything even if you cannot finish. A fully correct substitution earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p1-q7#(d)",
+       "quote": "Fully correct substitution into formula but"
+      }
+     ]
+    },
+    {
+     "tip": "Show your work. A correct answer with no work earns only low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p1-q7#(d)",
+       "quote": "Correct answer no work"
+      }
+     ]
+    },
+    {
+     "tip": "Round the rate as asked, for example to $1$ decimal place. Rounding wrongly or not at all is penalised.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q1#(c)",
+       "quote": "Apply F* for incorrect or no"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fin-annuity-fv",
+  "what": {
+   "say": [
+    "You give it a regular payment $A$, a rate $i$ for each period and the number of payments $n$. It finds what the savings are worth at the end.",
+    "The key idea: each payment grows for a different length of time, so the values form a **geometric series**. One sum formula adds them all."
+   ],
+   "in": "$A, i, n$",
+   "out": "$S_n$ (geometric series)"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 1 as part of a long question: in 2023 Q8(d), 15 marks, you write the series of payments, use the geometric sum formula, then find the payment $A$."
+  },
+  "example": {
+   "question": "Aoife saves €150 at the start of every month for $24$ months. The account pays $0.4\\%$ compound interest per month. Find the value of her savings at the end of the $24$ months, to the nearest cent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the series",
+      "say": "The first payment earns interest for $24$ months and the last for $1$ month. Add up the values, starting with the last payment.",
+      "lines": [
+       {
+        "tex": "S &= 150(1.004) + 150(1.004)^2 + \\dots + 150(1.004)^{24}"
+       }
+      ]
+     },
+     {
+      "title": "Read off a, r and n",
+      "say": "This is a geometric series. Find the first term, the common ratio and the number of terms.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 150(1.004)",
+        "sym": "150*1.004",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{r} &= 1.004",
+        "sym": "1.004",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{n} &= 24",
+        "sym": "24",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the sum formula",
+      "say": "Put $\\hl{1}{a}$, $\\hl{2}{r}$ and $\\hl{3}{n}$ into $S_n = \\dfrac{a(r^n - 1)}{r - 1}$.",
+      "lines": [
+       {
+        "tex": "\\hl{4}{S} &= \\frac{150(1.004)(1.004^{24} - 1)}{1.004 - 1}",
+        "sym": "150*1.004*(1.004**24-1)/(1.004-1)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Use the calculator, and round to the nearest cent at the end.",
+      "lines": [
+       {
+        "tex": "&= \\hl{4}{3785.64}",
+        "sym": "3785.64",
+        "approx": true
+       },
+       {
+        "text": "If the money went in at the end of each month, the first term would be $150$, not $150(1.004)$. Check which the question says."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{4}{\\text{€}3785.64}"
+   },
+   "finalSym": "3785.64",
+   "answerSym": "round(150*1.004*(1.004**24-1)/(1.004-1),2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write out the series first. Finding the geometric series is a step of its own and earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(d)(i), (ii)",
+       "quote": "Finds geometric series"
+      }
+     ]
+    },
+    {
+     "tip": "Then substitute $a$, $r$ and $n$ into the geometric sum formula. That is the next marked step.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(d)(i), (ii)",
+       "quote": "Substitutes into geometric formula"
+      }
+     ]
+    },
+    {
+     "tip": "Include every term, first and last. Leaving out the second or second last term loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(d)(i), (ii)",
+       "quote": "excludes second and/or second last term"
+      }
+     ]
+    },
+    {
+     "tip": "Read whether payments are made at the start or the end of each month. Using the wrong one loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(d)(i), (ii)",
+       "quote": "Investments made at the end of each month"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

@@ -1,0 +1,265 @@
+[
+ {
+  "skill": "log-definition",
+  "problems": [
+   {
+    "question": "Solve for $x$:\n$\\log_5 (2x - 3) = 3$",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Convert to index form",
+       "lines": [
+        {
+         "text": "$\\log_a b = c$ means $a^c = b$."
+        },
+        {
+         "tex": "\\log_5 (2x-3) &= 3",
+         "sym": "Eq(log(2*x-3, 5), 3)",
+         "new": true
+        },
+        {
+         "tex": "2x - 3 &= 5^3",
+         "sym": "Eq(2*x-3, 5**3)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "2x - 3 &= 125",
+         "sym": "Eq(2*x-3, 125)",
+         "new": true
+        },
+        {
+         "tex": "2x &= 128",
+         "sym": "Eq(2*x, 128)"
+        },
+        {
+         "tex": "x &= 64",
+         "sym": "Eq(x, 64)"
+        }
+       ]
+      },
+      {
+       "title": "Check the answer",
+       "lines": [
+        {
+         "text": "Put $x = 64$ back in."
+        },
+        {
+         "tex": "\\log_5 125 &= 3",
+         "sym": "Eq(log(125, 5), 3)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 64"
+    },
+    "finalSym": "[64]",
+    "answerSym": "solve(Eq(log(2*x-3, 5), 3), x)"
+   }
+  ]
+ },
+ {
+  "skill": "logic-terms-hl",
+  "problems": [
+   {
+    "question": "Prove by contradiction that there are no positive integers $a$ and $b$ such that $a^2 - b^2 = 6$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Assume the opposite",
+       "lines": [
+        {
+         "text": "Assume that there are positive integers $a$ and $b$ with the following property."
+        },
+        {
+         "tex": "a^2 - b^2 &= 6",
+         "sym": "Eq(a**2 - b**2, 6)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Factorise",
+       "lines": [
+        {
+         "tex": "(a - b)(a + b) &= 6",
+         "sym": "Eq((a - b)*(a + b), 6)"
+        }
+       ]
+      },
+      {
+       "title": "Compare the two factors",
+       "lines": [
+        {
+         "text": "The factors differ by an even number, so they are both even or both odd."
+        },
+        {
+         "tex": "(a + b) - (a - b) &= 2b",
+         "sym": "Eq((a + b) - (a - b), 2*b)",
+         "new": true
+        },
+        {
+         "text": "The product is $6$, which is even, so the factors cannot both be odd. Both are therefore even."
+        }
+       ]
+      },
+      {
+       "title": "State the contradiction",
+       "lines": [
+        {
+         "text": "If both factors are even, their product is a multiple of $4$. But the product is $6$, which is not a multiple of $4$."
+        },
+        {
+         "text": "This is a contradiction, so the assumption is false. Therefore there are no such integers $a$ and $b$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{No such integers exist}"
+    },
+    "finalSym": "0",
+    "answerSym": "Mod(6, 4) - 2"
+   }
+  ]
+ },
+ {
+  "skill": "mens-nets",
+  "problems": [
+   {
+    "question": "A closed cylinder has radius $4$ cm and height $9$ cm.\nWhen the curved surface is unrolled in its net, it forms a rectangle. Find the dimensions of this rectangle, correct to one decimal place.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the height side of the rectangle",
+       "lines": [
+        {
+         "text": "The curved surface unrolls into a rectangle. One side is the height of the cylinder."
+        },
+        {
+         "tex": "\\text{one side} &= 9 \\text{ cm}"
+        }
+       ]
+      },
+      {
+       "title": "Find the other side using the circumference",
+       "lines": [
+        {
+         "text": "The other side is the circumference of the circular base, $2\\pi r$ with $r = 4$."
+        },
+        {
+         "tex": "2\\pi r &= 2\\pi(4)",
+         "sym": "Eq(2*pi*4, 2*pi*4)",
+         "new": true
+        },
+        {
+         "tex": "&= 8\\pi",
+         "sym": "8*pi"
+        },
+        {
+         "tex": "&= 25.13\\ldots \\approx 25.1",
+         "sym": "25.13",
+         "approx": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "9 \\text{ cm by } 25.1 \\text{ cm}"
+    },
+    "finalSym": "(9, 8*pi)",
+    "answerSym": "(9, 2*pi*4)"
+   },
+   {
+    "question": "A tin of beans is a cylinder with diameter $10$ cm and height $14$ cm.\nThe label goes once around the curved surface and is a rectangle in the net. Find the dimensions of the label, correct to one decimal place.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the height side of the rectangle",
+       "lines": [
+        {
+         "text": "The label unrolls into a rectangle. One side is the height of the tin."
+        },
+        {
+         "tex": "\\text{one side} &= 14 \\text{ cm}"
+        }
+       ]
+      },
+      {
+       "title": "Find the other side using the circumference",
+       "lines": [
+        {
+         "text": "The other side is the circumference of the circular base, $\\pi d$ with $d = 10$."
+        },
+        {
+         "tex": "\\pi d &= \\pi(10)",
+         "sym": "Eq(pi*10, pi*10)",
+         "new": true
+        },
+        {
+         "tex": "&= 10\\pi",
+         "sym": "10*pi"
+        },
+        {
+         "tex": "&= 31.41\\ldots \\approx 31.4",
+         "sym": "31.41",
+         "approx": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "14 \\text{ cm by } 31.4 \\text{ cm}"
+    },
+    "finalSym": "(14, 10*pi)",
+    "answerSym": "(14, pi*10)"
+   }
+  ]
+ },
+ {
+  "skill": "num-decimal-fraction",
+  "problems": [
+   {
+    "question": "Write $3.125$ as a fraction in its simplest form.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write over a power of 10",
+       "lines": [
+        {
+         "tex": "3.125 &= \\frac{3125}{1000}",
+         "sym": "Eq(Rational(3125,1000), Rational(3125,1000))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Divide top and bottom by 125",
+       "lines": [
+        {
+         "tex": "&= \\frac{25}{8}",
+         "sym": "Rational(25,8)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{25}{8}"
+    },
+    "finalSym": "Rational(25, 8)",
+    "answerSym": "Rational(3125, 1000)"
+   }
+  ]
+ }
+]

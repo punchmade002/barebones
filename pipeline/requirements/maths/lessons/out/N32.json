@@ -1,0 +1,482 @@
+[
+ {"skill": "quad-complete-square-use", "problems": [
+  {"part": "maths-pp-2017-higher-p1-q1#(b)", "note": null,
+   "legend": {"1": "the bracket, x − p", "2": "x at the turning point", "3": "y at the turning point"},
+   "steps": [
+    {"ask": "A square is never negative. What value of the bracket makes the whole square as small as possible?",
+     "title": "Read the minimum from the completed square",
+     "lines": [
+      {"text": "A square is never negative, so $2\\left(\\hl{1}{x - \\frac{7}{4}}\\right)^2$ is smallest (zero) when $\\hl{1}{x - \\frac{7}{4}} = 0$."},
+      {"tex": "\\hl{1}{x - \\frac{7}{4}} &= 0"},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{\\frac{7}{4}}"}
+     ]},
+    {"ask": "Put your x back into f(x). What is the value of the function there?",
+     "title": "Find the minimum value",
+     "lines": [
+      {"tex": "f\\left(\\hl{2}{\\frac{7}{4}}\\right) &= 2(0)^2 \\hl{3}{- \\frac{129}{8}}"},
+      {"tex": "&= \\hl{3}{-\\frac{129}{8}}"}
+     ]}
+   ],
+   "final": "\\left(\\hl{2}{\\frac{7}{4}},\\; \\hl{3}{-\\frac{129}{8}}\\right)",
+   "graph": {"f": "2*x**2 - 7*x - 10", "box": [-0.5, 5, 3.5, -18], "tangent": false, "points": [{"x": 1.75, "y": -16.125, "name": "min (7/4, −129/8)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}},
+  {"part": "maths-pp-2017-higher-p1-q1#(c)(ii)", "note": "Same completed-square form as problem 1, but the question now asks where the graph crosses the x-axis (set the form equal to zero), not for the minimum point.",
+   "legend": {"1": "the bracket, x − p", "2": "x at the turning point", "3": "y at the turning point", "4": "the roots"},
+   "steps": [
+    {"ask": "Roots are where the graph meets the x-axis. What must the completed-square form equal there?",
+     "title": "Set the completed-square form equal to zero",
+     "lines": [
+      {"tex": "2\\left(\\hl{1}{x - \\frac{7}{4}}\\right)^2 \\hl{3}{- \\frac{129}{8}} &= 0"},
+      {"tex": "2\\left(\\hl{1}{x - \\frac{7}{4}}\\right)^2 &= \\frac{129}{8}"},
+      {"tex": "\\left(\\hl{1}{x - \\frac{7}{4}}\\right)^2 &= \\frac{129}{16}"}
+     ]},
+    {"ask": "Which square roots does a positive number have, and how many values of x does that give?",
+     "title": "Take the square root of both sides",
+     "lines": [
+      {"tex": "\\hl{1}{x - \\frac{7}{4}} &= \\pm\\sqrt{\\frac{129}{16}}"},
+      {"tex": "x &= \\hl{2}{\\frac{7}{4}} \\pm \\sqrt{\\frac{129}{16}}"}
+     ]}
+   ],
+   "final": "x = \\hl{4}{\\frac{7}{4} \\pm \\sqrt{\\frac{129}{16}}}",
+   "graph": {"f": "2*x**2 - 7*x - 10", "box": [-2.5, 8, 6.5, -18], "tangent": false, "points": [{"x": -1.0895, "y": 0, "name": "root (−1.09, 0)"}, {"x": 4.5895, "y": 0, "name": "root (4.59, 0)"}], "line": null, "slots": {"x": 4, "y": null, "line": null}}},
+  {"part": "practice-quad-complete-square-use-1", "note": "Changes from problem 2: the leading coefficient is now negative (−2, so the curve is ∩-shaped) and the roots are whole numbers. Same method: set the completed square to zero, take the square root, then state the roots.",
+   "legend": {"1": "the bracket, x − p", "2": "x at the turning point", "3": "y at the turning point", "4": "the roots"},
+   "steps": [
+    {"ask": "Roots are where the graph crosses the x-axis. What must −2(x − 3)² + 8 equal there?",
+     "title": "Set the completed-square form equal to zero",
+     "lines": [
+      {"tex": "-2(\\hl{1}{x-3})^2 \\hl{3}{+ 8} &= 0"},
+      {"tex": "-2(\\hl{1}{x-3})^2 &= -8"},
+      {"tex": "(\\hl{1}{x-3})^2 &= 4"}
+     ]},
+    {"ask": "What must you do to get rid of the square, and how many values of x does that give?",
+     "title": "Take the square root of both sides",
+     "lines": [
+      {"tex": "\\hl{1}{x - 3} &= \\pm 2"},
+      {"tex": "x &= \\hl{2}{3} \\pm 2"}
+     ]},
+    {"ask": "How many times does the graph cross the x-axis, and what are those x values?",
+     "title": "State the roots",
+     "lines": [
+      {"text": "The graph crosses the $x$-axis at two points."},
+      {"tex": "x &= \\hl{4}{1} \\text{ or } x = \\hl{4}{5}"}
+     ]}
+   ],
+   "final": "x = \\hl{4}{1} \\text{ or } x = \\hl{4}{5}",
+   "graph": {"f": "-2*(x - 3)**2 + 8", "box": [-0.5, 9, 6.5, -12], "tangent": false, "points": [{"x": 1, "y": 0, "name": "root (1, 0)"}, {"x": 5, "y": 0, "name": "root (5, 0)"}], "line": null, "slots": {"x": 4, "y": null, "line": null}}}
+ ]},
+ {"skill": "sim-linear-quadratic-hl", "problems": [
+  {"part": "practice-sim-linear-quadratic-hl-1", "note": null,
+   "legend": {"1": "the expression for y from the linear equation", "2": "x, the unknown in the quadratic", "3": "y, the other unknown", "4": "the answer pairs"},
+   "steps": [
+    {"ask": "Which letter is easiest to get alone in 3x − y = 4? What do you move across to isolate it?",
+     "title": "Make $y$ the subject of the linear equation",
+     "lines": [
+      {"tex": "3x - y &= 4"},
+      {"tex": "y &= \\hl{1}{3x - 4}"}
+     ]},
+    {"ask": "Replace y in x² + y² = 2 with your expression. What do you get after expanding?",
+     "title": "Substitute into the quadratic equation",
+     "lines": [
+      {"tex": "x^2 + (\\hl{1}{3x-4})^2 &= 2"},
+      {"tex": "x^2 + 9x^2 - 24x + 16 &= 2"},
+      {"tex": "10x^2 - 24x + 14 &= 0"},
+      {"tex": "5x^2 - 12x + 7 &= 0"}
+     ]},
+    {"ask": "This is a quadratic in x. Which formula gives x, and what are a, b and c here?",
+     "title": "Solve for $x$ with the formula",
+     "lines": [
+      {"tex": "\\hl{2}{x} &= \\frac{12 \\pm \\sqrt{144 - 140}}{10}"},
+      {"tex": "\\hl{2}{x} &= \\frac{12 \\pm 2}{10}"},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{\\frac{7}{5}} \\text{ or } \\hl{2}{x} = \\hl{2}{1}"}
+     ]},
+    {"ask": "Put each x value back into y = 3x − 4. What is y for each?",
+     "title": "Find $y$ for each $x$ using $y = 3x - 4$",
+     "lines": [
+      {"tex": "\\hl{2}{x} = \\hl{2}{1}: \\quad \\hl{3}{y} &= 3(\\hl{2}{1}) - 4 = \\hl{3}{-1}"},
+      {"tex": "\\hl{2}{x} = \\hl{2}{\\tfrac{7}{5}}: \\quad \\hl{3}{y} &= \\tfrac{21}{5} - 4 = \\hl{3}{\\tfrac{1}{5}}"}
+     ]}
+   ],
+   "final": "\\hl{4}{(x, y) = (1, -1) \\text{ or } \\left(\\tfrac{7}{5}, \\tfrac{1}{5}\\right)}",
+   "graph": null},
+  {"part": "practice-sim-linear-quadratic-hl-2", "note": "Changes from problem 1: the linear equation is now x − y = 2, so x (not y) is made the subject, and the quadratic gains an xy term (x² + xy + y² = 7). The answers are surds, so the question gives their form.",
+   "legend": {"1": "the expression for x from the linear equation", "2": "y, the unknown in the quadratic", "3": "x, the other unknown", "4": "the answer pairs"},
+   "steps": [
+    {"ask": "Which term can you move across so that x stands alone in x − y = 2?",
+     "title": "Make $x$ the subject of the linear equation",
+     "lines": [
+      {"tex": "x - y &= 2"},
+      {"tex": "x &= \\hl{1}{y + 2}"}
+     ]},
+    {"ask": "Put your expression for x into x² + xy + y² = 7. What do you get after expanding?",
+     "title": "Substitute into the quadratic equation",
+     "lines": [
+      {"tex": "(\\hl{1}{y+2})^2 + (\\hl{1}{y+2})y + y^2 &= 7"},
+      {"tex": "y^2 + 4y + 4 + y^2 + 2y + y^2 &= 7"},
+      {"tex": "3y^2 + 6y - 3 &= 0"},
+      {"tex": "y^2 + 2y - 1 &= 0"}
+     ]},
+    {"ask": "This is a quadratic in y. Which formula gives y, and what are a, b and c?",
+     "title": "Solve for $y$ with the formula",
+     "lines": [
+      {"tex": "\\hl{2}{y} &= \\frac{-2 \\pm \\sqrt{4 + 4}}{2}"},
+      {"tex": "\\hl{2}{y} &= \\hl{2}{-1 \\pm \\sqrt{2}}"}
+     ]},
+    {"ask": "Put each y value into x = y + 2. What is x for each?",
+     "title": "Find $x$ for each $y$ using $x = y + 2$",
+     "lines": [
+      {"tex": "\\hl{2}{y} = \\hl{2}{-1 + \\sqrt{2}}: \\quad \\hl{3}{x} &= \\hl{3}{1 + \\sqrt{2}}"},
+      {"tex": "\\hl{2}{y} = \\hl{2}{-1 - \\sqrt{2}}: \\quad \\hl{3}{x} &= \\hl{3}{1 - \\sqrt{2}}"}
+     ]}
+   ],
+   "final": "\\hl{4}{(x, y) = (1 + \\sqrt{2},\\ -1 + \\sqrt{2}) \\text{ or } (1 - \\sqrt{2},\\ -1 - \\sqrt{2})}",
+   "graph": null},
+  {"part": "maths-pp-2016-higher-p1-q2#(b)", "note": "Changes from problem 2: the linear equation is 2x + 3y = −1, so x = (−3y − 1)/2 has fractions to clear, the quadratic has an xy term and a 2y² term, and the answers are fractions. Same method: make x the subject, substitute, solve, then find x for each y.",
+   "legend": {"1": "the expression for x from the linear equation", "2": "y, the unknown in the quadratic", "3": "x, the other unknown", "4": "the answer pairs"},
+   "steps": [
+    {"ask": "What must you do to 2x + 3y = −1 to get x alone?",
+     "title": "Make x the subject of the linear equation",
+     "lines": [
+      {"tex": "2x + 3y &= -1"},
+      {"tex": "2x &= -3y - 1"},
+      {"tex": "x &= \\hl{1}{\\frac{-3y - 1}{2}}"}
+     ]},
+    {"ask": "Put your expression for x into the quadratic. What would you multiply by to clear the fractions?",
+     "title": "Substitute into the quadratic equation",
+     "lines": [
+      {"tex": "\\left(\\hl{1}{\\frac{-3y-1}{2}}\\right)^2 + \\left(\\hl{1}{\\frac{-3y-1}{2}}\\right)y + 2y^2 &= 4"},
+      {"text": "Multiply every term by 4 to clear the fractions."},
+      {"tex": "(-3y-1)^2 + 2y(-3y-1) + 8y^2 &= 16"},
+      {"tex": "9y^2 + 6y + 1 - 6y^2 - 2y + 8y^2 &= 16"},
+      {"tex": "11y^2 + 4y + 1 &= 16"},
+      {"tex": "11y^2 + 4y - 15 &= 0"}
+     ]},
+    {"ask": "Which two brackets multiply to give 11y² + 4y − 15?",
+     "title": "Factorise and solve for y",
+     "lines": [
+      {"tex": "(11y + 15)(y - 1) &= 0"},
+      {"tex": "\\hl{2}{y} = \\hl{2}{-\\frac{15}{11}} \\quad &\\text{or} \\quad \\hl{2}{y} = \\hl{2}{1}"}
+     ]},
+    {"ask": "Put each y value into x = (−3y − 1)/2. What is x for each?",
+     "title": "Find x for each y using x = (-3y - 1)/2",
+     "lines": [
+      {"tex": "\\hl{2}{y} = \\hl{2}{1}: \\quad \\hl{3}{x} &= \\frac{-3(\\hl{2}{1}) - 1}{2}"},
+      {"tex": "&= \\hl{3}{-2}"},
+      {"tex": "\\hl{2}{y} = \\hl{2}{-\\tfrac{15}{11}}: \\quad \\hl{3}{x} &= \\frac{-3\\left(\\hl{2}{-\\frac{15}{11}}\\right) - 1}{2}"},
+      {"tex": "&= \\frac{\\frac{34}{11}}{2}"},
+      {"tex": "&= \\hl{3}{\\frac{17}{11}}"}
+     ]}
+   ],
+   "final": "\\hl{4}{(x, y) = \\left(\\frac{17}{11}, -\\frac{15}{11}\\right) \\text{ or } (-2, 1)}",
+   "graph": null}
+ ]},
+ {"skill": "sim-word-problem", "problems": [
+  {"part": "practice-sim-word-problem-1", "note": null,
+   "legend": {"1": "the first unknown solved, large coffee l", "2": "the second unknown, small coffee s"},
+   "steps": [
+    {"ask": "What letters will you use for the two prices, and what unit should the answer be in?",
+     "title": "Let letters stand for the prices",
+     "lines": [
+      {"text": "Let $s$ be the price of a small coffee and $l$ the price of a large coffee, in euro."}
+     ]},
+    {"ask": "How much does each purchase cost, in terms of the numbers of small and large coffees?",
+     "title": "Write an equation for each purchase",
+     "lines": [
+      {"tex": "4s + 3l &= 20.5"},
+      {"tex": "2s + 5l &= 22.5"}
+     ]},
+    {"ask": "What do you multiply the second equation by so that the s terms match the first equation?",
+     "title": "Eliminate $s$",
+     "lines": [
+      {"text": "Multiply the second equation by 2, then subtract the first."},
+      {"tex": "4s + 10l &= 45"},
+      {"tex": "7l &= 24.5"},
+      {"tex": "l &= \\hl{1}{3.5}"}
+     ]},
+    {"ask": "Put your value of l into one of the equations. What is s, and how can you check it in the other?",
+     "title": "Find $s$ and check",
+     "lines": [
+      {"tex": "4s + 3(\\hl{1}{3.5}) &= 20.5"},
+      {"tex": "4s &= 10"},
+      {"tex": "s &= \\hl{2}{2.5}"},
+      {"text": "Check: $2(\\hl{2}{2.5}) + 5(\\hl{1}{3.5}) = 5 + 17.5 = 22.5$."}
+     ]}
+   ],
+   "final": "\\text{small} = \\hl{2}{€2.50},\\ \\text{large} = \\hl{1}{€3.50}",
+   "graph": null},
+  {"part": "practice-sim-word-problem-2", "note": "Changes from problem 1: the context is a mother and daughter's ages, not prices, and the second equation is solved by substituting m = 5d instead of eliminating a letter. Same steps: name the letters, write one equation per statement, solve, then check.",
+   "legend": {"1": "the first unknown solved, daughter d", "2": "the second unknown, mother m"},
+   "steps": [
+    {"ask": "Which letters will you use for the two ages, and when are they measured?",
+     "title": "Let letters stand for the ages",
+     "lines": [
+      {"text": "Let $m$ be the mother's age and $d$ the daughter's age now."}
+     ]},
+    {"ask": "What equation does “5 times as old” give? How do both ages change in 6 years?",
+     "title": "Write an equation for each statement",
+     "lines": [
+      {"tex": "m &= 5d"},
+      {"text": "In 6 years the ages are $m + 6$ and $d + 6$."},
+      {"tex": "m + 6 &= 3(d + 6)"},
+      {"tex": "m - 3d &= 12"}
+     ]},
+    {"ask": "Which letter can you replace so that only d is left in m − 3d = 12?",
+     "title": "Substitute $m = 5d$",
+     "lines": [
+      {"tex": "5d - 3d &= 12"},
+      {"tex": "2d &= 12"},
+      {"tex": "d &= \\hl{1}{6}"}
+     ]},
+    {"ask": "Use d to find m. How can you check that both statements hold in 6 years' time?",
+     "title": "Find $m$ and check",
+     "lines": [
+      {"tex": "m &= 5(\\hl{1}{6}) = \\hl{2}{30}"},
+      {"text": "Check: in 6 years they are 36 and 12, and $36 = 3 \\times 12$."}
+     ]}
+   ],
+   "final": "\\text{mother} = \\hl{2}{30},\\ \\text{daughter} = \\hl{1}{6}",
+   "graph": null},
+  {"part": "maths-pp-2022-higher-p2-q1#(c)", "note": "Changes from problem 2: the statements are about fractions of a class (3/5 girls, then the girl fraction after 4 boys and 4 girls join), so the equations come from fractions instead of given totals. Same method: write two equations, substitute, find both unknowns, check. This is a higher-level exam part.",
+   "legend": {"1": "the first unknown solved, girls g", "2": "the second unknown, boys b"},
+   "steps": [
+    {"ask": "If 3/5 of the class are girls, how can you write g over the total as an equation?",
+     "title": "Equation from the first fraction",
+     "lines": [
+      {"text": "$\\frac{3}{5}$ of the class are girls."},
+      {"tex": "\\frac{g}{b+g} &= \\frac{3}{5}"},
+      {"tex": "5g &= 3(b+g)"},
+      {"tex": "5g &= 3b + 3g"},
+      {"tex": "2g &= 3b"}
+     ]},
+    {"ask": "After 4 boys and 4 girls join, how many girls and how many students are there?",
+     "title": "Equation after 4 boys and 4 girls join",
+     "lines": [
+      {"text": "There are now $g+4$ girls and $b+g+8$ students."},
+      {"tex": "\\frac{g+4}{b+g+8} &= \\frac{4}{7}"},
+      {"tex": "7(g+4) &= 4(b+g+8)"},
+      {"tex": "7g + 28 &= 4b + 4g + 32"},
+      {"tex": "3g - 4b &= 4"}
+     ]},
+    {"ask": "Rearrange 2g = 3b to get b alone. Substitute it into 3g − 4b = 4. What is g?",
+     "title": "Substitute b = 2g/3 to find g",
+     "lines": [
+      {"tex": "b &= \\frac{2g}{3}"},
+      {"tex": "3g - 4\\left(\\frac{2g}{3}\\right) &= 4"},
+      {"tex": "3g - \\frac{8g}{3} &= 4"},
+      {"tex": "\\frac{g}{3} &= 4"},
+      {"tex": "\\hl{1}{g} &= \\hl{1}{12}"}
+     ]},
+    {"ask": "Put g back into b = 2g/3. What is b?",
+     "title": "Find b",
+     "lines": [
+      {"tex": "b &= \\frac{2(\\hl{1}{12})}{3}"},
+      {"tex": "b &= \\hl{2}{8}"}
+     ]},
+    {"ask": "Add 4 boys and 4 girls to your values. What fraction of the class are girls now?",
+     "title": "Check",
+     "lines": [
+      {"text": "Now $12$ boys and $16$ girls: $\\frac{16}{28} = \\frac{4}{7}$, as required."}
+     ]}
+   ],
+   "final": "b = \\hl{2}{8},\\ g = \\hl{1}{12}",
+   "graph": null}
+ ]},
+ {"skill": "eq-rational", "problems": [
+  {"part": "maths-pp-2018-ordinary-p1-q6#(b)", "note": null,
+   "legend": {"1": "the quadratic equal to zero", "2": "the solutions for x"},
+   "steps": [
+    {"ask": "What is the common denominator of x + 3, x and 2, and what does each term become when you multiply by it?",
+     "title": "Multiply every term by the common denominator 2x(x + 3)",
+     "lines": [
+      {"text": "The denominators are $x+3$, $x$ and $2$, so the common denominator is $2x(x+3)$."},
+      {"tex": "2x(x+3)\\left(\\frac{5}{x+3} - \\frac{1}{x}\\right) &= \\frac{1}{2}\\,(2x)(x+3)"}
+     ]},
+    {"ask": "After multiplying, what does each term simplify to?",
+     "title": "Cancel the denominators",
+     "lines": [
+      {"tex": "10x - 2(x+3) &= x(x+3)"}
+     ]},
+    {"ask": "Multiply out the brackets on both sides. What do you get?",
+     "title": "Expand both sides",
+     "lines": [
+      {"tex": "10x - 2x - 6 &= x^2 + 3x"},
+      {"tex": "8x - 6 &= x^2 + 3x"}
+     ]},
+    {"ask": "Collect all the terms on one side so that the equation equals zero. What is the quadratic now?",
+     "title": "Move everything to one side",
+     "lines": [
+      {"tex": "0 &= \\hl{1}{x^2 + 3x - 8x + 6}"},
+      {"tex": "\\hl{1}{x^2 - 5x + 6} &= 0"}
+     ]},
+    {"ask": "Which two brackets multiply to give x² − 5x + 6? Where does each bracket equal zero?",
+     "title": "Factorise and solve",
+     "lines": [
+      {"tex": "\\hl{1}{(x-2)(x-3)} &= 0"},
+      {"tex": "x &= \\hl{2}{2} \\text{ or } x = \\hl{2}{3}"},
+      {"text": "Both values are allowed, since neither is $-3$ or $0$."}
+     ]}
+   ],
+   "final": "x = \\hl{2}{2} \\text{ or } x = \\hl{2}{3}",
+   "graph": null},
+  {"part": "practice-eq-rational-1", "note": "Changes from problem 1: the denominators are x + 1 and x + 2 instead of x + 3 and x, and the right side is 1/2 with no x. The cancelling is shown inside the first step, so there is no separate cancel step.",
+   "legend": {"1": "the quadratic equal to zero", "2": "the solutions for x"},
+   "steps": [
+    {"ask": "What is the common denominator of x + 1, x + 2 and 2, and what do you multiply each term by?",
+     "title": "Multiply every term by the common denominator $2(x+1)(x+2)$",
+     "lines": [
+      {"tex": "\\frac{3}{x+1} - \\frac{2}{x+2} &= \\frac{1}{2}"},
+      {"tex": "6(x+2) - 4(x+1) &= (x+1)(x+2)"}
+     ]},
+    {"ask": "Multiply out the brackets on both sides. What do you get?",
+     "title": "Expand both sides",
+     "lines": [
+      {"tex": "6x + 12 - 4x - 4 &= x^2 + 3x + 2"},
+      {"tex": "2x + 8 &= x^2 + 3x + 2"}
+     ]},
+    {"ask": "What must you do so that the equation equals zero? What is the quadratic?",
+     "title": "Move everything to one side",
+     "lines": [
+      {"tex": "\\hl{1}{x^2 + x - 6} &= 0"}
+     ]},
+    {"ask": "Which two numbers multiply to give −6 and add to give +1?",
+     "title": "Factorise and solve",
+     "lines": [
+      {"tex": "\\hl{1}{(x+3)(x-2)} &= 0"},
+      {"tex": "x &= \\hl{2}{-3} \\text{ or } x = \\hl{2}{2}"},
+      {"text": "Both values are allowed, since neither is $-1$ or $-2$."}
+     ]}
+   ],
+   "final": "x = \\hl{2}{-3} \\text{ or } x = \\hl{2}{2}",
+   "graph": null},
+  {"part": "maths-pp-2019-higher-p1-q1#(b)", "note": "Changes from problem 2: there are now three denominators, 2x + 1, 5 and 3x − 1, so the common denominator has three factors and the expansion is longer. The quadratic also has a common factor of 3 to divide out. Same method. This is a higher-level exam part.",
+   "legend": {"1": "the quadratic equal to zero", "2": "the solutions for x"},
+   "steps": [
+    {"ask": "What are the three denominators, and what single expression contains all of them?",
+     "title": "Find a common denominator",
+     "lines": [
+      {"text": "The denominators are $2x+1$, $5$ and $3x-1$, so the common denominator is $5(2x+1)(3x-1)$."},
+      {"tex": "\\frac{3}{2x+1} + \\frac{2}{5} &= \\frac{2}{3x-1}"}
+     ]},
+    {"ask": "Multiply each term by the common denominator. What does each term simplify to?",
+     "title": "Multiply every term by the common denominator",
+     "lines": [
+      {"tex": "15(3x-1) + 2(2x+1)(3x-1) &= 10(2x+1)"}
+     ]},
+    {"ask": "How do you multiply out (2x + 1)(3x − 1)? What happens to the 2 in front of the next product?",
+     "title": "Multiply out each side",
+     "lines": [
+      {"tex": "(2x+1)(3x-1) &= 6x^2 - 2x + 3x - 1"},
+      {"tex": "&= 6x^2 + x - 1"},
+      {"tex": "45x - 15 + 2(6x^2 + x - 1) &= 20x + 10"},
+      {"tex": "45x - 15 + 12x^2 + 2x - 2 &= 20x + 10"},
+      {"tex": "12x^2 + 47x - 17 &= 20x + 10"}
+     ]},
+    {"ask": "Collect every term on one side. Can you divide the whole equation by a common factor?",
+     "title": "Rearrange to a quadratic equal to zero",
+     "lines": [
+      {"tex": "\\hl{1}{12x^2 + 27x - 27} &= 0"},
+      {"tex": "\\hl{1}{4x^2 + 9x - 9} &= 0"}
+     ]},
+    {"ask": "Find two brackets that multiply to 4x² + 9x − 9. What value of x makes each bracket zero?",
+     "title": "Factorise and solve",
+     "lines": [
+      {"tex": "\\hl{1}{(x+3)(4x-3)} &= 0"},
+      {"tex": "x &= \\hl{2}{-3} \\text{ or } x = \\hl{2}{\\tfrac{3}{4}}"}
+     ]}
+   ],
+   "final": "x = \\hl{2}{-3} \\text{ or } x = \\hl{2}{\\tfrac{3}{4}}",
+   "graph": null}
+ ]},
+ {"skill": "eq-rational-hl", "problems": [
+  {"part": "practice-eq-rational-hl-1", "note": null,
+   "legend": {"1": "the quadratic equal to zero", "2": "the solutions for x"},
+   "steps": [
+    {"ask": "What is the common denominator of the two fractions, and what happens to each term when you multiply by it?",
+     "title": "Multiply every term by $(x+2)(x-3)$",
+     "lines": [
+      {"tex": "\\frac{2x+1}{x+2} + \\frac{x-1}{x-3} &= 1"},
+      {"tex": "(2x+1)(x-3) + (x-1)(x+2) &= (x+2)(x-3)"}
+     ]},
+    {"ask": "How do you multiply out each product? What are the two sides now?",
+     "title": "Expand each product",
+     "lines": [
+      {"tex": "2x^2 - 5x - 3 + x^2 + x - 2 &= x^2 - x - 6"},
+      {"tex": "3x^2 - 4x - 5 &= x^2 - x - 6"}
+     ]},
+    {"ask": "Bring every term to one side so the equation equals zero. What is the quadratic?",
+     "title": "Collect into a quadratic equation",
+     "lines": [
+      {"tex": "\\hl{1}{2x^2 - 3x + 1} &= 0"}
+     ]},
+    {"ask": "This is a quadratic. Which values are a, b and c, and which formula gives x?",
+     "title": "Solve with the quadratic formula",
+     "lines": [
+      {"text": "Here $a = 2$, $b = -3$, $c = 1$."},
+      {"tex": "x &= \\frac{3 \\pm \\sqrt{(-3)^2 - 4(2)(1)}}{2(2)}"},
+      {"tex": "&= \\frac{3 \\pm 1}{4}"},
+      {"tex": "x &= \\hl{2}{1} \\text{ or } x = \\hl{2}{\\tfrac{1}{2}}"}
+     ]}
+   ],
+   "final": "x = \\hl{2}{1} \\text{ or } x = \\hl{2}{\\tfrac{1}{2}}",
+   "graph": null},
+  {"part": "practice-eq-rational-hl-3", "note": "Changes from problem 1: the fraction (x + 1)/(x + 2) is taken away from 1, and the left side is 2x/(x − 1), so the brackets are (x − 1)(x + 2) and the answers are negative. Same steps: clear the fractions, expand, collect into a quadratic, then use the formula.",
+   "legend": {"1": "the quadratic equal to zero", "2": "the solutions for x"},
+   "steps": [
+    {"ask": "Which two brackets clear the denominators on both sides, and what does the left side become?",
+     "title": "Multiply every term by $(x-1)(x+2)$",
+     "lines": [
+      {"tex": "\\frac{2x}{x-1} &= 1 - \\frac{x+1}{x+2}"},
+      {"tex": "2x(x+2) &= (x-1)(x+2) - (x+1)(x-1)"}
+     ]},
+    {"ask": "Multiply out each product, taking care with the minus sign in front of the last one. What is the equation now?",
+     "title": "Expand each product",
+     "lines": [
+      {"tex": "2x^2 + 4x &= x^2 + x - 2 - (x^2 - 1)"},
+      {"tex": "2x^2 + 4x &= x - 1"}
+     ]},
+    {"ask": "What must you move across so that the equation is quadratic and equal to zero?",
+     "title": "Collect into a quadratic equation",
+     "lines": [
+      {"tex": "\\hl{1}{2x^2 + 3x + 1} &= 0"}
+     ]},
+    {"ask": "Identify a, b and c in your quadratic. Which formula will you use?",
+     "title": "Solve with the quadratic formula",
+     "lines": [
+      {"text": "Here $a = 2$, $b = 3$, $c = 1$."},
+      {"tex": "x &= \\frac{-3 \\pm \\sqrt{3^2 - 4(2)(1)}}{2(2)}"},
+      {"tex": "&= \\frac{-3 \\pm 1}{4}"},
+      {"tex": "x &= \\hl{2}{-\\tfrac{1}{2}} \\text{ or } x = \\hl{2}{-1}"}
+     ]}
+   ],
+   "final": "x = \\hl{2}{-\\tfrac{1}{2}} \\text{ or } x = \\hl{2}{-1}",
+   "graph": null},
+  {"part": "practice-eq-rational-hl-2", "note": "Changes from problem 2: the right side is −1 instead of a fraction, and the quadratic has no constant term, so you factorise rather than use the formula. Same method: clear the fractions, expand, collect, then solve.",
+   "legend": {"1": "the quadratic equal to zero", "2": "the solutions for x"},
+   "steps": [
+    {"ask": "What are the two denominators, and what product clears both of them?",
+     "title": "Multiply every term by $(x+1)(x-1)$",
+     "lines": [
+      {"tex": "\\frac{3x}{x+1} - \\frac{2x-1}{x-1} &= -1"},
+      {"tex": "3x(x-1) - (2x-1)(x+1) &= -(x+1)(x-1)"}
+     ]},
+    {"ask": "What does the minus sign in front of a bracket do to every term inside it?",
+     "title": "Expand, taking care with the minus sign",
+     "lines": [
+      {"tex": "3x^2 - 3x - (2x^2 + x - 1) &= -(x^2 - 1)"},
+      {"tex": "x^2 - 4x + 1 &= -x^2 + 1"}
+     ]},
+    {"ask": "Gather all the terms on one side. Is there a common factor you can take out?",
+     "title": "Collect into a quadratic equation",
+     "lines": [
+      {"tex": "\\hl{1}{2x^2 - 4x} &= 0"},
+      {"tex": "\\hl{1}{2x(x - 2)} &= 0"}
+     ]},
+    {"ask": "If a product of two factors is zero, what must each factor equal?",
+     "title": "Solve for $x$",
+     "lines": [
+      {"tex": "x &= \\hl{2}{0} \\text{ or } x = \\hl{2}{2}"}
+     ]}
+   ],
+   "final": "x = \\hl{2}{0} \\text{ or } x = \\hl{2}{2}",
+   "graph": null}
+ ]}
+]

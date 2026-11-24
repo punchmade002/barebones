@@ -1,0 +1,421 @@
+[
+ {
+  "skill": "stat-choose-display",
+  "what": {
+   "say": [
+    "You give it a **type of data** and a question. It gives back the graph or number that answers the question, and a reason.",
+    "The key idea: match the tool to the data. Numbers that can have a few extreme values need the **median**; two numerical measures on the same people need a scatter plot; shares of a whole need a pie chart."
+   ],
+   "in": "data type + question",
+   "out": "chosen method + reason"
+  },
+  "how": {
+   "ordinary": "Ordinary level asked for it on Paper 2 in 2017 (Question 9(b)(iii)) and 2018 (Question 7(b)), as a short part: pick the best option, or say whether a mean can be trusted, and give a reason."
+  },
+  "example": {
+   "question": "Six students are asked how much pocket money they get each week (in euro): $5, 6, 6, 7, 8, 40$. Which average describes a typical student better, the mean or the median? Calculate both and give a reason.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Spot the odd value",
+      "say": "Look at the data first. One value, $\\hl{1}{40}$, is far bigger than the rest. An extreme value drags the mean up but hardly moves the median.",
+      "lines": [
+       {
+        "text": "Five students get $8$ or less. One gets $40$."
+       }
+      ]
+     },
+     {
+      "title": "Calculate the mean",
+      "say": "Add the values and divide by how many there are.",
+      "lines": [
+       {
+        "tex": "\\text{mean} &= \\frac{5+6+6+7+8+\\hl{1}{40}}{6}",
+        "sym": "(5+6+6+7+8+40)/6",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{72}{6}",
+        "sym": "72/6"
+       },
+       {
+        "tex": "&= 12",
+        "sym": "12"
+       }
+      ]
+     },
+     {
+      "title": "Calculate the median",
+      "say": "The data is already in order. With six values, the median is halfway between the 3rd and 4th.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\text{median}} &= \\frac{6+7}{2}",
+        "sym": "(6+7)/2",
+        "new": true
+       },
+       {
+        "tex": "&= 6.5",
+        "sym": "13/2"
+       }
+      ]
+     },
+     {
+      "title": "Choose and explain",
+      "say": "The mean of $12$ is bigger than what five of the six students get. The median is not pulled by the $40$.",
+      "lines": [
+       {
+        "text": "Use the **median**: the $40$ is extreme, so the mean is not typical."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Median} = 6.5\\text{, because the extreme value } 40 \\text{ pulls the mean up to } 12"
+   },
+   "finalSym": "13/2",
+   "answerSym": "Rational(6+7,2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Name your choice and give a reason that uses the data. A reason with no choice named earns nothing.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q7#(b)",
+       "quote": "A reason with no year identified."
+      }
+     ]
+    },
+    {
+     "tip": "When the question is open, several answers can be right. Pick one and justify it with the numbers.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q7#(b)",
+       "quote": "Other equally valid choices are"
+      }
+     ]
+    },
+    {
+     "tip": "A mean worked out from percentages, ignoring the group sizes, is unreliable. Say so when asked about it.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p2-q9#(b)(iii)",
+       "quote": "is therefore unreliable"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-distribution-shape",
+  "what": {
+   "say": [
+    "You give it a histogram or stem-and-leaf plot, or the data behind one. It says whether the shape is **symmetric**, or has a long tail to one side (**skew**).",
+    "The key idea: the tail pulls the mean toward it. A long right tail is positive skew, with mean above median. A long left tail is negative skew, with mean below median."
+   ],
+   "in": "histogram or stem plot",
+   "out": "shape, and mean vs median"
+  },
+  "how": {},
+  "example": {
+   "question": "The number of text messages sent by eight students in one day is: $1, 2, 2, 3, 3, 4, 5, 24$. Find the mean and the median. What does this tell you about the shape of the distribution?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the mean",
+      "say": "Add all the values and divide by $8$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{mean}} &= \\frac{1+2+2+3+3+4+5+24}{8}",
+        "sym": "(1+2+2+3+3+4+5+24)/8",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{44}{8}",
+        "sym": "44/8"
+       },
+       {
+        "tex": "&= 5.5",
+        "sym": "11/2"
+       }
+      ]
+     },
+     {
+      "title": "Find the median",
+      "say": "The data is in order. With eight values, the median is halfway between the 4th and 5th.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\text{median}} &= \\frac{3+3}{2}",
+        "sym": "(3+3)/2",
+        "new": true
+       },
+       {
+        "tex": "&= 3",
+        "sym": "3"
+       }
+      ]
+     },
+     {
+      "title": "Compare them",
+      "say": "Subtract. A positive difference means the mean sits above the median.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{mean}} - \\hl{2}{\\text{median}} &= 5.5 - 3",
+        "sym": "11/2-3",
+        "new": true
+       },
+       {
+        "tex": "&= 2.5",
+        "sym": "5/2"
+       }
+      ]
+     },
+     {
+      "title": "Name the shape",
+      "say": "The mean is above the median. The single big value $24$ is a long tail on the right, and it pulls the mean up.",
+      "lines": [
+       {
+        "text": "Mean $>$ median, so the distribution is **positively skewed**."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Mean } 5.5 > \\text{median } 3\\text{: positive skew}"
+   },
+   "finalSym": "11/2-3",
+   "answerSym": "Rational(1+2+2+3+3+4+5+24,8)-Rational(3+3,2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "stat-back-to-back",
+  "what": {
+   "say": [
+    "You give it two data sets. It puts them on one **back-to-back stem-and-leaf plot**, then compares their centre and spread.",
+    "The key idea: both sets share one column of stems. The leaves of one grow to the left, the other to the right, so the two shapes sit side by side."
+   ],
+   "in": "two data sets",
+   "out": "plot + centre and spread"
+  },
+  "how": {
+   "ordinary": "Ordinary level asked for it on Paper 2 in 2015, 2016, 2022 and 2024, in parts worth 5 to 15 marks: complete the plot, find centre and spread, then write a conclusion."
+  },
+  "example": {
+   "question": "The times, in seconds, that seven students took to finish a puzzle in two weeks are: Week 1: $28, 35, 21, 47, 33, 24, 42$. Week 2: $36, 22, 31, 18, 38, 29, 23$. Show the data on a back-to-back stem-and-leaf plot and compare the two weeks using the median and the range.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the plot",
+      "say": "Use the tens as stems. Put Week 1 leaves on the right and Week 2 leaves on the left, each row in order, smallest next to the stem.",
+      "lines": [
+       {
+        "text": "Week 2 | Stem | Week 1"
+       },
+       {
+        "text": "8 | 1 |"
+       },
+       {
+        "text": "9 3 2 | 2 | 1 4 8"
+       },
+       {
+        "text": "8 6 1 | 3 | 3 5"
+       },
+       {
+        "text": "| 4 | 2 7"
+       },
+       {
+        "text": "Key: $2 | 3 | 5$ means $32$ seconds in Week 2 and $35$ in Week 1."
+       }
+      ]
+     },
+     {
+      "title": "Find the medians",
+      "say": "With seven values, the median is the 4th one in order. Read it off the plot.",
+      "lines": [
+       {
+        "text": "Week 1: $21, 24, 28, \\hl{1}{33}, 35, 42, 47$"
+       },
+       {
+        "text": "Week 2: $18, 22, 23, \\hl{2}{29}, 31, 36, 38$"
+       },
+       {
+        "tex": "\\hl{1}{33} - \\hl{2}{29} &= 4",
+        "sym": "33-29",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the ranges",
+      "say": "The range is the biggest value minus the smallest.",
+      "lines": [
+       {
+        "tex": "\\text{Week 1 range} &= 47 - 21",
+        "sym": "47-21",
+        "new": true
+       },
+       {
+        "tex": "&= 26",
+        "sym": "26"
+       },
+       {
+        "tex": "\\text{Week 2 range} &= 38 - 18",
+        "sym": "38-18",
+        "new": true
+       },
+       {
+        "tex": "&= 20",
+        "sym": "20"
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "say": "Say what each number shows, in words, about both weeks.",
+      "lines": [
+       {
+        "text": "Week 2 is quicker: its median is $4$ seconds lower."
+       },
+       {
+        "text": "Week 2 is more consistent: its range is $20$, against $26$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Week 2 was faster (median } 29 < 33\\text{) and less spread out (range } 20 < 26\\text{)}"
+   },
+   "finalSym": "4",
+   "answerSym": "33-29"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Get every value onto the plot first. Leaves out of order are still accepted.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q7#(a)(i)",
+       "quote": "Accept values that are not in order"
+      }
+     ]
+    },
+    {
+     "tip": "If you cannot finish the plot, sort the data. Effort at ordering earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q5#(c)",
+       "quote": "Any effort at ordering results."
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula with the numbers put in before you calculate. That earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q7#(a)(i)",
+       "quote": "Correct formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "A conclusion must say in words what changed, such as increase. A number alone is not enough.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q7#(a)(i)",
+       "quote": "must feature in conclusion"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-plan-collect",
+  "what": {
+   "say": [
+    "You give it a research question. It gives back a **plan** for collecting the data and survey questions that do not push people toward an answer.",
+    "The key idea: every group you care about must get a fair share of the sample, and a question must not hint at the answer you hope for."
+   ],
+   "in": "research question",
+   "out": "plan + fair questions"
+  },
+  "how": {},
+  "example": {
+   "question": "A school of $800$ students has four year groups of $200$. The principal wants to find out what students think of the canteen, and plans to ask: \"Don't you agree the canteen food is awful?\" She will survey $40$ students. Rewrite the question fairly and say how many students to ask from each year group.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Spot the bias",
+      "say": "A question is **leading** if it hints at the answer. The words \"Don't you agree\" and \"awful\" push students toward one reply.",
+      "lines": [
+       {
+        "text": "The question pushes the student to say yes."
+       }
+      ]
+     },
+     {
+      "title": "Reword it fairly",
+      "say": "Take out the hint. Ask for an opinion and offer balanced choices.",
+      "lines": [
+       {
+        "text": "\"How would you rate the canteen food?\" Very good, good, average, poor, very poor."
+       }
+      ]
+     },
+     {
+      "title": "Find the sampling fraction",
+      "say": "Each year group should be represented in proportion. $40$ out of $800$ is the fraction of students to ask.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{40}{800}} &= \\frac{1}{20}",
+        "sym": "40/800",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Students from each year",
+      "say": "Each year group has $200$ students. Take that fraction of each, and choose them at random within the year.",
+      "lines": [
+       {
+        "tex": "200 \\times \\hl{1}{\\frac{1}{20}} &= \\hl{2}{10}",
+        "sym": "10",
+        "new": true
+       },
+       {
+        "text": "Ask $10$ students from each of the four year groups."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Ask } 10 \\text{ from each year group, using a neutral question}"
+   },
+   "finalSym": "10",
+   "answerSym": "Rational(200,800)*40"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]

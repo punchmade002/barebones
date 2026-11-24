@@ -1,0 +1,397 @@
+[
+ {
+  "part": "maths-pp-2022-higher-p2-q5#(a)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## (i) Find the sample proportion\n\\hat{p} &= \\frac{135}{400}\n\\hat{p} &= 0.3375\n## (ii) Find the margin of error\nUse $\\dfrac{1}{\\sqrt{n}}$ with $n = 400$.\n\\frac{1}{\\sqrt{400}} &= \\frac{1}{20}\n&= 0.05\n## (ii) Lower end of the interval\n0.3375 - 0.05 &= 0.2875\n## (ii) Upper end of the interval\n0.3375 + 0.05 &= 0.3875\nANSWER: \\hat{p} = 0.3375 \\quad;\\quad [0.2875,\\ 0.3875]"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q5#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Write the formula for a 95% interval\nUse $\\hat{p} \\pm 1.96\\sqrt{\\dfrac{\\hat{p}(1-\\hat{p})}{n}}$ with $\\hat{p} = 0.3375$ and $n = 400$.\n## Find the margin of error\n1.96\\sqrt{\\frac{0.3375(1-0.3375)}{400}} &= 1.96\\sqrt{\\frac{0.22359375}{400}}\n&\\approx 0.04633\n## Lower end of the interval\n0.3375 - 0.04633 &\\approx 0.2912\n## Upper end of the interval\n0.3375 + 0.04633 &\\approx 0.3838\nANSWER: [0.2912,\\ 0.3838]"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 15,
+  "solution": "## State the hypotheses\nWe test whether the mean differs from the 2019 figure in either direction, so the test is two-tailed.\nH_0: \\mu &= 20.79\nNull hypothesis: the mean monthly spend has not changed.\nH_1: \\mu &\\neq 20.79\nAlternative hypothesis: the mean monthly spend has changed.\n## Calculate the test statistic\nUse $z = \\dfrac{\\bar{x} - \\mu}{\\sigma/\\sqrt{n}}$ with $\\bar{x} = 22.16$, $\\sigma = 8.12$ (the sample standard deviation) and $n = 500$.\nz &= \\frac{22.16 - 20.79}{8.12/\\sqrt{500}}\nz &= \\frac{1.37}{8.12/\\sqrt{500}}\nz &\\approx 3.7726\n## Compare with the critical value\nAt the 5% level, two-tailed, the critical values are $\\pm 1.96$.\n3.7726 &> 1.96\n## State the conclusion and reason\nConclusion: reject $H_0$. The mean monthly spend has changed.\nReason: $z = 3.7726$ lies outside $-1.96 \\le z \\le 1.96$, so the result is significant at the 5% level.\nANSWER: \\text{Reject } H_0\\text{: the mean monthly spend has changed, since } 3.7726 > 1.96"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 15,
+  "solution": "## Recall where the circumcentre is\nThe circumcentre is the point equidistant from all three vertices. It is where the perpendicular bisectors of the sides meet. Two bisectors are enough.\n## Construct the perpendicular bisector of [XY]\nSet the compass wider than half of $|XY|$. Draw arcs centred at $X$ and at $Y$ with the same radius, one pair above and one below [XY].\nJoin the two points where the arcs cross. This line is the perpendicular bisector of [XY].\n## Construct the perpendicular bisector of [YZ]\nRepeat with $Y$ and $Z$: equal arcs centred at each end, then join the two crossing points.\n## Mark the circumcentre\nThe two bisectors cross at one point. Label it $C$. Because the angle at $Z$ is obtuse, $C$ lies outside the triangle, below [XY].\nKeep all arcs and construction lines visible.\nANSWER: \\text{Circumcentre } C \\text{ is where the perpendicular bisectors meet}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Use the angle in a semicircle\n$[AB]$ is a diameter, so the angle at $D$ in the semicircle is a right angle.\n|\\angle ADB| &= 90^\\circ\n## Use the isosceles triangle ABD\nTriangle $ABD$ is isosceles with the right angle at $D$, so $|AD| = |DB|$ and the two base angles are equal.\n|\\angle ABD| &= \\frac{180 - 90}{2}\n&= 45^\\circ\n## Use angles standing on the same arc\n$\\angle ABD$ and $\\angle ACD$ both stand on the arc $AD$, so they are equal.\n|\\angle ACD| &= 45^\\circ\n## Angles in triangle ADC add to 180 degrees\n|\\angle ADC| &= 180 - 45 - 40\n&= 95^\\circ\nANSWER: |\\angle ADC| = 95^\\circ"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q6#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Assume the opposite\nAssume that $O$ is inside the triangle $PQR$.\nJoin $P$ to $O$ and $Q$ to $O$.\n## Bound the angle at the centre\nIf $O$ is inside the triangle, $\\angle POQ$ is an angle inside triangle $POQ$, so it is less than a straight angle.\n|\\angle POQ| &< 180^\\circ\n## Compare with the angle at the circumference\nThe angle at the centre is twice the angle at the circumference on the same arc $PQ$, so $|\\angle PRQ|$ is half of $|\\angle POQ|$.\n|\\angle PRQ| &= \\frac{1}{2}|\\angle POQ|\n&< \\frac{1}{2}(180^\\circ) = 90^\\circ\n## State the contradiction\nBut the angle at $R$ is greater than $90^\\circ$. This contradicts the result above, so the assumption is false.\nTherefore $O$ cannot be inside the triangle $PQR$.\nANSWER: O \\text{ cannot be inside triangle } PQR"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius from the diameter\nr &= \\frac{10}{2}\n&= 5\n## Substitute into the volume of a cylinder\nVolume of a cylinder: $V = \\pi r^2 h$.\n450\\pi &= \\pi (5)^2 h\n450\\pi &= 25\\pi h\n## Solve for h\n450 &= 25h\nh &= \\frac{450}{25}\nh &= 18\nANSWER: h = 18 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Write the volume of the small cone\nVolume of a cone: $V = \\frac{1}{3}\\pi r^2 h$. Let the small cone have radius $r$ and height $h$.\n\\frac{1}{3}\\pi r^2 h &= 12\\pi\nr^2 h &= 36\n## Write the volume of the large cone\nThe large cone has radius $kr$ and height $2h$.\n\\frac{1}{3}\\pi (kr)^2 (2h) &= 150\\pi\n\\frac{2}{3}\\pi k^2 r^2 h &= 150\\pi\nk^2 r^2 h &= 225\n## Substitute r squared times h = 36\nk^2 (r^2 h) &= 225\nk^2 (36) &= 225\nk^2 &= \\frac{225}{36}\n## Take the square root\nA radius ratio is positive, so take the positive root.\nk &= \\sqrt{\\frac{225}{36}}\n&= \\frac{15}{6} = \\frac{5}{2}\nANSWER: k = \\frac{5}{2}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Find the arc length from B to A\nThe arc is $\\frac{216}{360}$ of a full circle of radius 8 cm.\n\\text{arc} &= \\frac{216}{360} \\times 2\\pi(8)\n&= \\frac{3}{5} \\times 16\\pi\n&= 9.6\\pi\n## Link the arc to the cone\nWhen the net is folded into a cone, this arc becomes the circumference of the circular base.\n2\\pi r &= 9.6\\pi\n## Solve for the radius\nr &= \\frac{9.6\\pi}{2\\pi}\nr &= 4.8\nANSWER: \\text{arc} = 9.6\\pi \\text{ cm}, \\quad r = 4.8 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q7#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Substitute r = 2.7 into the volume of a sphere\nVolume of a sphere: $V = \\frac{4}{3}\\pi r^3$.\nV &= \\frac{4}{3}\\pi (2.7)^3\n&= 82.4479\\ldots\n&= 82.448\nANSWER: 82.448 \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q7#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius of the circular base\n\\pi r^2 &= 5.4\nr^2 &= \\frac{5.4}{\\pi}\nr &= 1.311\\ldots\n## Use a right-angled triangle through the centre\nLet $x$ be the height of the sphere's centre above the cut. The radius to the edge of the base is the hypotenuse, 2.7 cm.\nx^2 + r^2 &= 2.7^2\nx^2 &= 7.29 - \\frac{5.4}{\\pi}\n## Solve for x\n$x$ is a length, so take the positive root.\nx &= \\sqrt{7.29 - 1.718\\ldots}\n&= 2.36\\ldots\n## Add the radius of the sphere to find l\nSince $l > 2.7$, the cut is below the centre, so $l$ is the radius plus $x$.\nl &= 2.7 + 2.36\\ldots\n&= 5.06\\ldots\n&\\approx 5.1\nANSWER: l = 5.1 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q7#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find |EB|\n$E$ is the midpoint of $[AB]$, which has length 30.\n|EB| &= \\frac{30}{2}\n&= 15\n## Find |EC| using Pythagoras in triangle EBC\n|EC|^2 &= 15^2 + 30^2\n&= 1125\n|EC| &= 15\\sqrt{5}\n## Use similar triangles\nTriangles $EOB$ and $EBC$ both have a right angle (at $O$ and at $B$) and share the angle at $E$, so they are similar.\n\\frac{|EO|}{|EB|} &= \\frac{|EB|}{|EC|}\n## Solve for |EO|\n|EO| &= \\frac{15 \\times 15}{15\\sqrt{5}}\n&= \\frac{15}{\\sqrt{5}}\n&= \\frac{15\\sqrt{5}}{5}\n&= 3\\sqrt{5}\nANSWER: |EO| = 3\\sqrt{5} \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q8#(a)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Plot car G\nCar G has city 30 and motorway 40, so plot the point $(30, 40)$ and label it G.\n## Plot car H\nCar H has city 17 and motorway 30, so plot the point $(17, 30)$ and label it H.\n## Draw the line of best fit by eye\nDraw one straight line through the middle of the points, with some points above it and some below, rising from left to right.\nThe line shown passes through $(20, 31)$ and $(50, 61)$.\nANSWER: G(30, 40),\\ H(17, 30)\\text{ and a line of best fit}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q8#(a)(iii), (iv)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Estimate the motorway value for K\nK has city 20. Go up from 20 on the city axis to the line of best fit, then across to the motorway axis. This reads about 31.\n## Estimate the city value for L\nL has motorway 60. Go across from 60 on the motorway axis to the line of best fit, then down to the city axis. This reads about 49.\n## Decide which estimate to trust\nK is more reliable. A city value of 20 lies inside the range of the data (15 to 30), so the estimate is interpolation.\nL is well beyond all of the given data points, so the line is being extended into a region with no evidence (extrapolation).\nANSWER: K \\approx 31,\\ L \\approx 49;\\ \\text{more confident in K, as L is well beyond the data}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q8#(a)(v), (b)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Find the sums needed\nLet $x$ be city and $y$ be motorway, with $n = 8$ cars.\n\\sum x &= 172, \\quad \\sum y = 257\n\\sum xy &= 5722, \\quad \\sum x^2 = 3900, \\quad \\sum y^2 = 8461\n## Evaluate the top of the formula\n$r = \\dfrac{n\\sum xy - \\sum x \\sum y}{\\sqrt{\\left(n\\sum x^2 - (\\sum x)^2\\right)\\left(n\\sum y^2 - (\\sum y)^2\\right)}}$\nn\\sum xy - \\sum x \\sum y &= 8(5722) - (172)(257)\n&= 45776 - 44204\n&= 1572\n## Evaluate the bottom of the formula\nn\\sum x^2 - (\\sum x)^2 &= 8(3900) - 172^2\n&= 1616\nn\\sum y^2 - (\\sum y)^2 &= 8(8461) - 257^2\n&= 1639\n## Calculate r\nr &= \\frac{1572}{\\sqrt{1616 \\times 1639}}\n&= 0.9659\\ldots\n&= 0.966\n## Explain why r can be close to 0 in part (b)\nThe correlation coefficient measures how well the points fit a straight line. These points follow a quadratic (U-shaped) curve, which is symmetrical, so no straight line fits them and $r_{FS}$ is close to 0.\nANSWER: r = 0.966;\\ \\text{correlation measures linear relationships, and this data is quadratic}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Find the total of the known scores\n46 + 68 + 24 + 74 + 42 + 30 + 61 + 54 + 28 + 50 + 57 &= 534\n## Use the mean to find S + M\n\\frac{534 + S + M}{13} &= 52\n534 + S + M &= 676\nS + M &= 142\n## Use the median to limit S and M\nIn order, the 11 known scores are 24, 28, 30, 42, 46, 50, 54, 57, 61, 68, 74. With 13 scores the median is the 7th, which must be 54.\nSix known scores are below 54 and only four are above. So both $S$ and $M$ must be above 54 to make 6 below and 6 above.\nThe scores are different whole numbers, so the smallest either can be is 55.\nS_{\\min} &= 55\n## Find the greatest value of S\n$S$ is greatest when $M$ is as small as possible, so $M = 55$.\nS_{\\max} &= 142 - 55\n&= 87\nANSWER: S_{\\min} = 55, \\quad S_{\\max} = 87"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q8#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Expected cost if he does not replace the head gasket\nThe cost is 20 000 euro with probability 0.095.\nE &= 0.095 \\times 20000\n&= 1900\n## Expected cost if he replaces it now\nHe pays 1450 euro for certain, then risks 20 000 euro with probability 0.005.\nE &= 1450 + 0.005 \\times 20000\n&= 1450 + 100\n&= 1550\n## Compare the expected costs\nThe expected cost of replacing now (1550 euro) is less than not replacing (1900 euro). John should replace the head gasket now.\nANSWER: \\text{Replace now: } \\text{€}1550 < \\text{€}1900"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q8#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Use the complement\n\"At least one\" is the opposite of \"none of the events happen\".\nP(\\text{at least one}) &= 1 - P(\\text{none})\n## Find the probability that each event does not happen\nP(\\text{gasket does not blow}) &= 1 - 0.095\n&= 0.905\nP(\\text{belt does not go}) &= 1 - 0.041 = 0.959\nP(\\text{filters do not break}) &= 1 - 0.073 = 0.927\n## Multiply, because the events are independent\nP(\\text{at least one}) &= 1 - (0.905)(0.959)(0.927)\n&= 1 - 0.8045\\ldots\n&= 0.195\nANSWER: 0.195"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Area of Field 1 using the triangle area formula\nArea $=\\frac{1}{2}ab\\sin C$ with $a=35$, $b=30$ and the included angle $C=50^\\circ$.\n\\text{Area}_1 &= \\frac{1}{2}(35)(30)\\sin 50^\\circ\n&= 525\\sin 50^\\circ\n&= 402.17\\ldots\n&\\approx 402\\ \\text{m}^2\n## Area of Field 2 from the ratio of bases\nBoth triangles have the same height from $C$ to $AD$, so their areas are in the ratio of their bases.\n\\frac{\\text{Area}_2}{\\text{Area}_1} &= \\frac{|BD|}{|AB|} = \\frac{10}{30} = \\frac{1}{3}\n\\text{Area}_2 &= \\frac{1}{3}(402.17\\ldots)\n&= 134.06\\ldots\n&\\approx 134\\ \\text{m}^2\nANSWER: \\text{Field 1} \\approx 402\\ \\text{m}^2,\\ \\ \\text{Field 2} \\approx 134\\ \\text{m}^2"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find |CB| with the cosine rule\n$|CB|$ is opposite the $50^\\circ$ angle at $A$.\n|CB|^2 &= 35^2 + 30^2 - 2(35)(30)\\cos 50^\\circ\n&= 1225 + 900 - 2100\\cos 50^\\circ\n&= 2125 - 2100\\cos 50^\\circ\n&= 775.14\\ldots\n## Take the square root\n|CB| &= \\sqrt{775.14\\ldots}\n&= 27.84\\ldots\n&\\approx 28\\ \\text{m}\n## Add the three sides\n\\text{Perimeter} &= 35 + 30 + 28\n&= 93\\ \\text{m}\nANSWER: 93\\ \\text{m}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q9#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find the distance from P1 to O\n$P_1O$ is the hypotenuse of a right-angled triangle with both legs $10$ km.\n|P_1O| &= \\sqrt{10^2 + 10^2}\n&= \\sqrt{200}\n&= 14.142\\ldots\\ \\text{km}\n&= 14\\,142\\ \\text{m}\n## Divide by the speed of sound\nTime $=\\dfrac{\\text{distance}}{\\text{speed}}$.\nT &= \\frac{14\\,142}{343}\n&= 41.2\\ldots\n&\\approx 41\\ \\text{seconds}\nANSWER: T \\approx 41\\ \\text{seconds}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q9#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find how far the airplane flew\nThe airplane flew for 41 seconds at 255 m/s.\n|P_1P_2| &= 41 \\times 255\n&= 10\\,455\\ \\text{m}\n## Find the horizontal position of P2\n$P_1$ is $10\\,000$ m to the left of the $y$-axis, so $P_2$ is $10\\,455 - 10\\,000$ m to the right of it.\nx_{P_2} &= 10\\,455 - 10\\,000\n&= 455\\ \\text{m}\n## Use tan to find the angle\n$\\theta$ is at $O$ between the $y$-axis (height $10\\,000$ m) and $OP_2$ (horizontal distance $455$ m).\n\\tan\\theta &= \\frac{455}{10\\,000}\n\\theta &= \\tan^{-1}(0.0455)\n&= 2.60\\ldots^\\circ\n&\\approx 2.6^\\circ\nANSWER: \\theta \\approx 2.6^\\circ"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q9#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Compare the two journeys\nThe sound from $P_3$ travels the distance $|P_3O|$ at $0.343$ km/s, so the time is $\\dfrac{\\sqrt{100+d^2}}{0.343}$ (Pythagoras: $|P_3O|^2 = 10^2 + d^2$).\nIn that same time the airplane flies from $P_3$ to $P_4$, a distance $2d$ at $0.255$ km/s, so the time is $\\dfrac{2d}{0.255}$.\nThe two times are equal, because the airplane reaches $P_4$ just as the sound from $P_3$ reaches Oscar. So the equation holds.\nANSWER: \\text{time for sound } P_3\\to O = \\text{time for airplane } P_3\\to P_4"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q9#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Get the square root on its own\n\\frac{\\sqrt{100+d^2}}{0.343} &= \\frac{2d}{0.255}\n\\sqrt{100+d^2} &= \\frac{2(0.343)d}{0.255}\n\\sqrt{100+d^2} &= \\frac{686}{255}d\n## Square both sides\n100 + d^2 &= \\left(\\frac{686}{255}\\right)^2 d^2\n100 + d^2 &= 7.2371\\,d^2\n## Collect the d² terms\n100 &= 7.2371\\,d^2 - d^2\n100 &= 6.2371\\,d^2\n## Solve for d\nd^2 &= \\frac{100}{6.2371}\n&= 16.03\\ldots\nd &= \\sqrt{16.03\\ldots}\n&\\approx 4.0\\ \\text{km}\nANSWER: d \\approx 4.0\\ \\text{km}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q10#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Find the z-score for 240 seconds\n$z=\\dfrac{x-\\mu}{\\sigma}$ with $x=240$, $\\mu=225$, $\\sigma=12$.\nz &= \\frac{240-225}{12}\n&= \\frac{15}{12}\n&= 1.25\n## Use the tables for the area to the right\nThe tables give the area to the left: $P(z<1.25)=0.8944$.\nP(z>1.25) &= 1 - P(z<1.25)\n&= 1 - 0.8944\n&= 0.1056\n## Write as a percentage\n0.1056 \\times 100 &= 10.56\\%\nANSWER: 10.56\\%"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q10#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Find the z-score for the fastest 20%\nThe fastest 20% have $P(z<-z_0)=0.2$, so by symmetry $P(z<z_0)=0.8$. The tables give $z_0=0.84$.\nThe time is below the mean, so $z=-0.84$.\n## Substitute into the z-score formula and solve for x\n\\frac{x-225}{12} &= -0.84\nx - 225 &= -0.84(12)\nx - 225 &= -10.08\nx &= 225 - 10.08\n&= 214.92\n&\\approx 215\\ \\text{seconds}\nANSWER: 215\\ \\text{seconds (214 also accepted)}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q10#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Set up the probability\nNo false start in races 1 to 3, then a false start in race 4. $P(\\text{no false start}) = 1-0.05 = 0.95$.\nP &= 0.95 \\times 0.95 \\times 0.95 \\times 0.05\n## Evaluate\n&= 0.0428\\ldots\n&\\approx 0.0429\nANSWER: 0.0429"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q10#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Write the required probability\nEach team drops the baton with probability $0.1$ (not with $0.9$), independently. This is a binomial distribution with $n=20$.\n$P(\\text{at most }2) = P(0)+P(1)+P(2)$.\n## Find P(0)\nP(0) &= (0.9)^{20}\n&= 0.12158\n## Find P(1)\nP(1) &= \\binom{20}{1}(0.1)^1(0.9)^{19}\n&= 0.27017\n## Find P(2)\nP(2) &= \\binom{20}{2}(0.1)^2(0.9)^{18}\n&= 0.28518\n## Add the three probabilities\nP(\\text{at most }2) &= 0.12158 + 0.27017 + 0.28518\n&\\approx 0.6769\nANSWER: 0.6769"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q10#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the pairs that sum to 101\nThe pairs are $1+100,\\ 2+99,\\ \\ldots,\\ 50+51$. There are 50 of them.\n## Count all possible pairs\n\\binom{300}{2} &= \\frac{300 \\times 299}{2}\n&= 44\\,850\n## Divide\nP &= \\frac{50}{44\\,850}\n&= \\frac{1}{897}\nANSWER: \\frac{1}{897}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q10#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 15,
+  "solution": "## Windy: find the proportion of runners faster than Sorcha\n\\frac{5265}{6000} &= 0.8775\n## Windy: find the z-score\nThe tables give $P(z<1.16)=0.8770$, the closest value to $0.8775$.\nz &= 1.16\n## Windy: find Sorcha's time\nUse $x=\\mu+z\\sigma$ with $\\mu=254$, $\\sigma=38$.\nx &= 254 + 1.16(38)\n&= 254 + 44.08\n&= 298.08\\ \\text{minutes}\n## Sunny: find the z-score for the same time\nNow use $\\mu=247$ and $\\sigma=29$.\nz &= \\frac{298.08 - 247}{29}\n&= \\frac{51.08}{29}\n&= 1.76\\ldots\n## Sunny: find the number of runners faster\nThe tables give $P(z<1.76)=0.9608$, so $96.08\\%$ of the runners were faster.\n0.9608 \\times 2000 &= 1921.6\n&\\approx 1922\nSo Sorcha finished about 1922nd in the Sunny Marathon (1921st to 1922nd accepted).\nANSWER: \\text{about } 1922\\text{nd}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q1#(a), (b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 15,
+  "solution": "## Read z₁ from the diagram\n$z_1$ is at $(-2, -3)$: real part $-2$, imaginary part $-3$.\nz_1 &= -2 - 3i\n## Find the complex conjugate\nChange the sign of the imaginary part.\n\\overline{z_1} &= -2 + 3i\n## Plot the conjugate\n$\\overline{z_1}$ is at $(-2, 3)$: 2 left, 3 up. It is the reflection of $z_1$ in the real axis.\n## Plot z₂ and z₃\n$z_2 = -5 + 3i$ is at $(-5, 3)$: 5 left, 3 up.\n$z_3 = 4 - 2i$ is at $(4, -2)$: 4 right, 2 down.\nANSWER: z_1 = -2 - 3i, \\quad \\overline{z_1} = -2 + 3i"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Subtract z₃ from z₂\nz_2 - z_3 &= (-5 + 3i) - (4 - 2i)\n&= -5 + 3i - 4 + 2i\n&= -9 + 5i\n## Find the modulus\n$|a + bi| = \\sqrt{a^2 + b^2}$.\n|z_2 - z_3| &= |-9 + 5i|\n&= \\sqrt{(-9)^2 + 5^2}\n&= \\sqrt{81 + 25}\n&= \\sqrt{106}\nANSWER: z_2 - z_3 = -9 + 5i, \\quad |z_2 - z_3| = \\sqrt{106}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q1#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Substitute z = 4 − 2i\nIf $z_3$ is a solution, the left-hand side must equal $0$.\nz^2 + 2iz - 7i &= (4 - 2i)^2 + 2i(4 - 2i) - 7i\n## Expand the square\n(4 - 2i)^2 &= 16 - 16i + 4i^2\nUse $i^2 = -1$.\n&= 16 - 16i - 4\n&= 12 - 16i\n## Expand the second bracket\n2i(4 - 2i) &= 8i - 4i^2\n&= 8i + 4\n## Add all the terms\n\\text{LHS} &= (12 - 16i) + (4 + 8i) - 7i\n&= 12 + 4 + (-16 + 8 - 7)i\n&= 16 - 15i\n$16 - 15i \\ne 0$, so $z_3$ does not satisfy the equation.\nANSWER: z_3 \\text{ is not a solution}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Expand the bracket\n2(3x - 5) + 8 &= 4x - 5\n6x - 10 + 8 &= 4x - 5\n## Collect like terms on the left\n6x - 2 &= 4x - 5\n## Get the x terms on one side\nSubtract $4x$ from both sides.\n2x - 2 &= -5\n## Get the numbers on the other side\nAdd $2$ to both sides.\n2x &= -3\n## Divide by 2\nx &= -\\frac{3}{2}\nANSWER: x = -\\frac{3}{2}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Simplify the power of a power\nMultiply the indices: $(a^m)^n = a^{mn}$.\n(3^4)^5 &= 3^{4 \\times 5}\n&= 3^{20}\n## Divide the powers\nSubtract the indices: $a^m \\div a^n = a^{m-n}$.\n\\frac{3^{20}}{3^6} &= 3^{20 - 6}\n&= 3^{14}\nANSWER: 3^{14}"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 15,
+  "solution": "## Multiply equation (1) by −5\nEquation (1) is $3x + 2y = 1$ and equation (2) is $7x + 5y = -2$. Make the $y$ terms opposites.\n-5(3x + 2y) &= -5(1)\n-15x - 10y &= -5\n## Multiply equation (2) by 2\n2(7x + 5y) &= 2(-2)\n14x + 10y &= -4\n## Add the two new equations\nThe $y$ terms cancel.\n(-15x - 10y) + (14x + 10y) &= -5 + (-4)\n-x &= -9\nx &= 9\n## Substitute x = 9 into equation (1)\n3(9) + 2y &= 1\n27 + 2y &= 1\n2y &= -26\ny &= -13\nANSWER: x = 9, \\quad y = -13"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the tax at 20%\n\\text{Gross tax} &= 27500 \\times 0.2\n&= \\text{€}5500\n## Subtract the tax credit\n\\text{Tax payable} &= 5500 - 3300\n&= \\text{€}2200\n## Subtract the tax from the gross income\n\\text{Net income} &= 27500 - 2200\n&= \\text{€}25\\,300\nANSWER: \\text{€}25\\,300"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Tax on the first €35 300 at 20%\n35\\,300 \\times 0.2 &= \\text{€}7060\n## Tax on the balance at 40%\n\\text{Balance} &= 43\\,450 - 35\\,300\n&= 8150\n8150 \\times 0.4 &= \\text{€}3260\n## Add to get the gross tax\n\\text{Gross tax} &= 7060 + 3260\n&= \\text{€}10\\,320\n## Subtract the tax credit\n\\text{Tax payable} &= 10\\,320 - 3300\n&= \\text{€}7020\n## Subtract the tax from the gross income\n\\text{Net income} &= 43\\,450 - 7020\n&= \\text{€}36\\,430\nANSWER: \\text{€}36\\,430"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the extra net income needed in a year\n\\text{Extra net income} &= 80 \\times 12\n&= \\text{€}960\n## Work out what fraction of a raise she keeps\nWei already pays the higher rate, so each extra euro is taxed at $40\\%$.\nShe keeps $60\\%$ of the increase, so $60\\%$ of the increase is $960$.\n## Find 1% of the increase\n1\\% \\text{ of increase} &= \\frac{960}{60}\n&= 16\n## Find 100% of the increase\n100\\% \\text{ of increase} &= 16 \\times 100\n&= \\text{€}1600\nANSWER: \\text{€}1600"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q4#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths1"
+  ],
+  "marks": 10,
+  "solution": "## Substitute x = 5 into g(x)\ng(5) &= 5^3 - 7(5)^2 + 5 - 12\n&= 125 - 175 + 5 - 12\n&= -57\nANSWER: g(5) = -57"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q4#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate term by term\nUse $\\frac{d}{dx}(x^n) = nx^{n-1}$ and the derivative of a constant is $0$.\ng(x) &= x^3 - 7x^2 + x - 12\ng'(x) &= 3x^2 - 14x + 1\nANSWER: g'(x) = 3x^2 - 14x + 1"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q4#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Identify the point and the slope\nThe point is $(5, g(5)) = (5, -57)$ from part (i). The slope is $g'(5) = 6$.\n## Substitute into the equation of a line\ny - y_1 &= m(x - x_1)\ny - (-57) &= 6(x - 5)\ny + 57 &= 6(x - 5)\n## Expand the bracket\ny + 57 &= 6x - 30\n## Rearrange into the form ax + by + c = 0\nMove every term to the right-hand side.\n0 &= 6x - y - 87\nANSWER: 6x - y - 87 = 0"
+ },
+ {
+  "part": "maths-pp-2022-ordinary-p1-q4#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Find where the slope is negative\n$u'(x)$ is negative where the graph is going downhill.\nThe graph falls after its peak near $x = 5.5$, so $x = 8$ works. (The marking scheme accepts any $x > 5$.)\n## Draw the tangent at (4, 2)\nMark $(4, 2)$. Draw a straight line touching the curve there without crossing it.\nThe line passes through $(2, 1)$ and $(6, 3)$.\n## Find the slope of the tangent\nSlope $=\\frac{y_2 - y_1}{x_2 - x_1}$.\nu'(4) &\\approx \\frac{3 - 1}{6 - 2}\n&= \\frac{2}{4}\n&= \\frac{1}{2}\nANSWER: x = 8 \\text{ (any } x > 5), \\quad u'(4) \\approx \\frac{1}{2}"
+ }
+]

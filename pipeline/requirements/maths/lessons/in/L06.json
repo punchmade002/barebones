@@ -1,0 +1,1139 @@
+[
+ {
+  "skill": {
+   "id": "fin-costing",
+   "title": "Cost materials, labour and wastage",
+   "level": "OL",
+   "input": "job specification",
+   "output": "total cost"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q8#(b)(iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the number of tins",
+      "lines": [
+       {
+        "tex": "\\frac{129}{25} &= 5.16"
+       },
+       {
+        "text": "5 tins hold only 125 litres, which is not enough, so 6 tins are needed."
+       }
+      ]
+     },
+     {
+      "title": "Find the cost",
+      "lines": [
+       {
+        "tex": "\\text{Cost} &= 6 \\times \\text{€}180"
+       },
+       {
+        "tex": "&= \\text{€}1080"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}1080"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q7#(d)(iii)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the three areas",
+      "lines": [
+       {
+        "tex": "\\text{Total area} &= 1908 + 3170 + 9161"
+       },
+       {
+        "tex": "&= 14\\,239 \\text{ m}^2"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the cost per square metre",
+      "lines": [
+       {
+        "tex": "\\text{Cost} &= 14\\,239 \\times \\text{€}70"
+       },
+       {
+        "tex": "&= \\text{€}996\\,730"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}996\\,730"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q8#(c)(i)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply for each activity",
+      "lines": [
+       {
+        "text": "Litres used = water required per activity × frequency. One bath: $80 \\times 3 = 240$ is given. Use the other rows of the table the same way (shower 125 litres, 20 showers; teeth 6 litres per minute, 32 minutes; WC flush 6 litres, 60 flushes)."
+       },
+       {
+        "tex": "\\text{Shower} &= 125 \\times 20"
+       },
+       {
+        "tex": "&= 2500"
+       },
+       {
+        "tex": "\\text{Teeth brushing} &= 6 \\times 32"
+       },
+       {
+        "tex": "&= 192"
+       },
+       {
+        "tex": "\\text{WC flush} &= 6 \\times 60"
+       },
+       {
+        "tex": "&= 360"
+       },
+       {
+        "tex": "\\text{Washing machine} &= 45 \\times 8"
+       },
+       {
+        "tex": "&= 360"
+       },
+       {
+        "tex": "\\text{Dishwasher} &= 20 \\times 7"
+       },
+       {
+        "tex": "&= 140"
+       },
+       {
+        "tex": "\\text{Car wash} &= 10 \\times 1"
+       },
+       {
+        "tex": "&= 10"
+       },
+       {
+        "tex": "\\text{Hosepipe} &= 9 \\times 15"
+       },
+       {
+        "tex": "&= 135"
+       }
+      ]
+     },
+     {
+      "title": "Add all the litres",
+      "lines": [
+       {
+        "tex": "\\text{Total} &= 240 + 2500 + 192 + 360 + 360 + 140 + 10 + 135"
+       },
+       {
+        "tex": "&= 3937"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Total} = 3937 \\text{ litres}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q8#(d)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Price per 1000 litres including VAT",
+      "lines": [
+       {
+        "tex": "\\text{Price} &= \\text{€}1.85 \\times 1.135"
+       },
+       {
+        "tex": "&= \\text{€}2.09975"
+       }
+      ]
+     },
+     {
+      "title": "Find how many lots of 1000 litres €260 buys",
+      "lines": [
+       {
+        "tex": "\\text{Number of lots} &= \\frac{260}{2.09975}"
+       },
+       {
+        "tex": "&= 123.8242648"
+       }
+      ]
+     },
+     {
+      "title": "Convert to litres",
+      "lines": [
+       {
+        "tex": "\\text{Litres} &= 123.8242648 \\times 1000"
+       },
+       {
+        "tex": "&= 123\\,824.2648"
+       },
+       {
+        "tex": "&\\approx 123\\,824.3"
+       }
+      ]
+     }
+    ],
+    "final": "123\\,824.3 \\text{ litres}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q7#(e)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Income from adult tickets",
+      "lines": [
+       {
+        "tex": "276 \\times 25 &= 6900"
+       },
+       {
+        "text": "That is $\\text{€}6900$."
+       }
+      ]
+     },
+     {
+      "title": "Income from children’s tickets",
+      "lines": [
+       {
+        "tex": "212 \\times 12 &= 2544"
+       },
+       {
+        "text": "That is $\\text{€}2544$."
+       }
+      ]
+     },
+     {
+      "title": "Add the two incomes",
+      "lines": [
+       {
+        "tex": "6900 + 2544 &= 9444"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}9444"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q8#(d)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the area of grass",
+      "lines": [
+       {
+        "text": "Grass area is the whole garden minus the pond."
+       },
+       {
+        "tex": "\\text{Grass} &= 1500 - 172"
+       },
+       {
+        "tex": "&= 1328"
+       }
+      ]
+     },
+     {
+      "title": "Find the cost",
+      "lines": [
+       {
+        "tex": "\\text{Cost} &= 1328 \\times 2.55"
+       },
+       {
+        "tex": "&= 3386.40"
+       }
+      ]
+     },
+     {
+      "title": "Round to the nearest ten euro",
+      "lines": [
+       {
+        "tex": "&\\approx 3390"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}3390"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fin-depreciation",
+   "title": "Apply reducing-balance depreciation",
+   "level": "OL",
+   "input": "P, i, t",
+   "output": "F = P(1 − i)ᵗ"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-ordinary-p1-q7#(c)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Apply 20% depreciation for 3 years",
+      "lines": [
+       {
+        "text": "Losing $20\\%$ each year leaves $80\\% = 0.8$ of the value each year."
+       },
+       {
+        "tex": "\\text{value} &= 32000(0.8)^3"
+       },
+       {
+        "tex": "&= 32000 \\times 0.512"
+       },
+       {
+        "tex": "&= 16384"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}16\\,384"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q9#(a)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the pattern in the curve",
+      "lines": [
+       {
+        "text": "$\\dfrac{20\\,000}{25\\,000} = 0.8$ and $\\dfrac{16\\,000}{20\\,000} = 0.8$, so the value is multiplied by 0.8 each year."
+       },
+       {
+        "text": "Continue the curve smoothly down through years 7 and 8."
+       }
+      ]
+     },
+     {
+      "title": "Read the value at 7.5 years",
+      "lines": [
+       {
+        "text": "Go up from 7.5 on the horizontal axis to the curve, then across to the value axis."
+       },
+       {
+        "text": "Check with the formula $V = 25\\,000(0.8)^t$."
+       },
+       {
+        "tex": "V &= 25\\,000(0.8)^{7.5}"
+       },
+       {
+        "tex": "&\\approx 4689"
+       },
+       {
+        "text": "This agrees with the graph reading of about €4700."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{about €}4700"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q7#(c)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Form an equation for the original value x",
+      "lines": [
+       {
+        "text": "After 3 years at $20\\%$ depreciation, the value is $x(0.8)^3$."
+       },
+       {
+        "tex": "x(0.8)^3 &= 17920"
+       },
+       {
+        "tex": "0.512x &= 17920"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 0.512",
+      "lines": [
+       {
+        "tex": "x &= \\frac{17920}{0.512}"
+       },
+       {
+        "tex": "x &= 35000"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}35\\,000"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q9#(b)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Turn the 20% fall into a multiplier",
+      "lines": [
+       {
+        "text": "A fall of $20\\%$ leaves $80\\%$ of the value, so each year the value is multiplied by $0.8$."
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 0.8 once for each year",
+      "lines": [
+       {
+        "tex": "V(1) &= 30\\,000 \\times 0.8"
+       },
+       {
+        "tex": "V(2) &= 30\\,000 \\times 0.8 \\times 0.8"
+       },
+       {
+        "tex": "V(t) &= 30\\,000(0.8)^t"
+       }
+      ]
+     }
+    ],
+    "final": "V(t) = 30\\,000(0.8)^t"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q1#(a)(i), (ii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the value after 1 year",
+      "lines": [
+       {
+        "text": "A 20% fall leaves 80% of the value, and $80\\% = 0.8$."
+       },
+       {
+        "tex": "\\text{Value after 1 year} &= 30000 \\times 0.8"
+       },
+       {
+        "tex": "&= 24000"
+       }
+      ]
+     },
+     {
+      "title": "Find the value after 2 years",
+      "lines": [
+       {
+        "text": "Take 80% of the value after 1 year."
+       },
+       {
+        "tex": "\\text{Value after 2 years} &= 24000 \\times 0.8"
+       },
+       {
+        "tex": "&= 19200"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) } \\text{€}24\\,000, \\quad \\text{(ii) } \\text{€}19\\,200"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q1#(a)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the depreciation formula",
+      "lines": [
+       {
+        "text": "Depreciation of 15% each year multiplies the value by $1 - 0.15 = 0.85$ each year, for 5 years."
+       },
+       {
+        "tex": "A &= 30000(1 - 0.15)^5"
+       },
+       {
+        "tex": "&= 30000(0.85)^5"
+       }
+      ]
+     },
+     {
+      "title": "Work out the power",
+      "lines": [
+       {
+        "tex": "(0.85)^5 &= 0.4437053125"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 30 000",
+      "lines": [
+       {
+        "tex": "A &= 30000 \\times 0.4437053125"
+       },
+       {
+        "tex": "&= 13311.159375"
+       },
+       {
+        "tex": "&\\approx \\text{€}13311.16"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}13311.16"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fin-error",
+   "title": "Calculate percentage error, tolerance and accumulated error",
+   "level": "OL",
+   "input": "true/estimated values or limits",
+   "output": "% error, range of values"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2023-ordinary-p1-q9#(a)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the percentage error formula",
+      "lines": [
+       {
+        "text": "Percentage error is the error divided by the actual value, times $100$."
+       },
+       {
+        "tex": "\\text{Error} &= \\frac{|1000 - 1500|}{1500} \\times 100"
+       },
+       {
+        "tex": "&= \\frac{500}{1500} \\times 100"
+       },
+       {
+        "tex": "&= 33.33\\ldots"
+       },
+       {
+        "tex": "&\\approx 33\\%"
+       }
+      ]
+     }
+    ],
+    "final": "33\\%"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q8#(a)(iv)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Percentage error = error ÷ intended value × 100",
+      "lines": [
+       {
+        "tex": "\\text{Error} &= 260 - 250"
+       },
+       {
+        "tex": "&= 10"
+       }
+      ]
+     },
+     {
+      "title": "Divide by the intended amount and multiply by 100",
+      "lines": [
+       {
+        "tex": "\\frac{10}{250} \\times 100 &= 4"
+       },
+       {
+        "tex": "&= 4"
+       }
+      ]
+     }
+    ],
+    "final": "4\\%"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q7#(c)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the percentage error as a decimal",
+      "lines": [
+       {
+        "text": "Percentage error is the error divided by the true value, times 100. Let $V$ be the true value."
+       },
+       {
+        "tex": "\\frac{1.50}{V} \\times 100 &= 16.3"
+       },
+       {
+        "tex": "\\frac{1.50}{V} &= 0.163"
+       }
+      ]
+     },
+     {
+      "title": "Solve for V",
+      "lines": [
+       {
+        "tex": "1.50 &= 0.163V"
+       },
+       {
+        "tex": "V &= \\frac{1.50}{0.163}"
+       },
+       {
+        "tex": "&= 9.2025\\ldots"
+       },
+       {
+        "tex": "&= \\text{€}9.20"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}9.20"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q9#(c)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Estimate his height using m(x)",
+      "lines": [
+       {
+        "tex": "m(44.2) &= 2.3(44.2) + 65.53"
+       },
+       {
+        "tex": "&= 101.66 + 65.53"
+       },
+       {
+        "tex": "&= 167.19"
+       }
+      ]
+     },
+     {
+      "title": "Find the error",
+      "lines": [
+       {
+        "tex": "\\text{Error} &= 171 - 167.19"
+       },
+       {
+        "tex": "&= 3.81"
+       }
+      ]
+     },
+     {
+      "title": "Write the error as a percentage of the actual height",
+      "lines": [
+       {
+        "tex": "\\text{Percentage error} &= \\frac{3.81}{171} \\times 100"
+       },
+       {
+        "tex": "&= 2.228\\ldots\\%"
+       },
+       {
+        "tex": "&\\approx 2.23\\%"
+       }
+      ]
+     }
+    ],
+    "final": "2.23\\%"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q6#(b)(ii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the percentage error formula",
+      "lines": [
+       {
+        "text": "Percentage error is the error divided by the actual value, times 100."
+       },
+       {
+        "tex": "\\text{error} &= \\frac{\\text{estimate} - \\text{actual}}{\\text{actual}} \\times 100"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the two areas",
+      "lines": [
+       {
+        "tex": "\\text{error} &= \\frac{32.1 - 31.8}{31.8} \\times 100"
+       }
+      ]
+     },
+     {
+      "title": "Work out the numerator",
+      "lines": [
+       {
+        "tex": "\\text{error} &= \\frac{0.3}{31.8} \\times 100"
+       }
+      ]
+     },
+     {
+      "title": "Calculate and round to 2 decimal places",
+      "lines": [
+       {
+        "tex": "\\text{error} &\\approx 0.9434"
+       },
+       {
+        "tex": "&\\approx 0.94"
+       }
+      ]
+     }
+    ],
+    "final": "0.94\\%"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q8#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the correct angle $A = \\angle CAB$",
+      "lines": [
+       {
+        "text": "In the right-angled triangle, $|BC| = 17.5$ is opposite $A$ and $|AB| = 15$ is adjacent."
+       },
+       {
+        "tex": "\\tan A &= \\frac{17.5}{15}"
+       },
+       {
+        "tex": "A &= \\tan^{-1}\\left(\\frac{17.5}{15}\\right)"
+       },
+       {
+        "tex": "&= 49.39\\ldots^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Work out the percentage error",
+      "lines": [
+       {
+        "text": "Percentage error $= \\frac{\\text{measured} - \\text{true}}{\\text{true}} \\times 100$."
+       },
+       {
+        "tex": "\\% \\text{ error} &= \\frac{52 - 49.39\\ldots}{49.39\\ldots} \\times 100"
+       },
+       {
+        "tex": "&= \\frac{2.60\\ldots}{49.39\\ldots} \\times 100"
+       },
+       {
+        "tex": "&= 5.26\\ldots"
+       },
+       {
+        "tex": "&\\approx 5.3\\%"
+       }
+      ]
+     }
+    ],
+    "final": "5.3\\%"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fin-income-tax",
+   "title": "Calculate income tax, USC, PRSI and net pay",
+   "level": "OL",
+   "input": "gross pay, rates, bands, credits, deductions",
+   "output": "gross tax, net tax, net pay"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-ordinary-p1-q7#(a)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the three bands",
+      "lines": [
+       {
+        "text": "The top rate starts once the first three bands are used up."
+       },
+       {
+        "tex": "12\\,012 + 8472 + 49\\,560 &= 20\\,484 + 49\\,560"
+       },
+       {
+        "tex": "&= 70\\,044"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}70\\,044"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q6#(c)(i), (ii)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Add her three deductions",
+      "lines": [
+       {
+        "text": "The deductions are income tax, USC and PRSI."
+       },
+       {
+        "tex": "234 + 59.11 + 18 &= 311.11"
+       }
+      ]
+     },
+     {
+      "title": "Write the deductions as a percentage of her gross wage",
+      "lines": [
+       {
+        "tex": "\\frac{311.11}{1550} \\times 100 &= 20.07\\ldots"
+       },
+       {
+        "tex": "&\\approx 20.1"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) } \\text{€}311.11 \\quad \\text{(ii) } 20.1\\%"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q1#(b)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the income tax and the health insurance",
+      "lines": [
+       {
+        "tex": "7290 + 1500 &= \\text{€}8790"
+       }
+      ]
+     },
+     {
+      "title": "Subtract from the gross wage",
+      "lines": [
+       {
+        "tex": "40000 - 8790 &= \\text{€}31210"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}31210"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q10#(b)(iii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set the tax credit equal to the tax at 20%",
+      "lines": [
+       {
+        "text": "Tax is $0.2 \\times$ income, and the credit takes off $3550$. No tax is paid when they are equal."
+       },
+       {
+        "tex": "0.2 \\times \\text{income} &= 3550"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 0.2",
+      "lines": [
+       {
+        "tex": "\\text{income} &= \\frac{3550}{0.2}"
+       },
+       {
+        "tex": "&= 17\\,750"
+       }
+      ]
+     }
+    ],
+    "final": "17\\,750"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q10#(b)(iv)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the income that moves to the lower rate",
+      "lines": [
+       {
+        "tex": "42\\,000 - 40\\,000 &= 2000"
+       }
+      ]
+     },
+     {
+      "title": "Find the saving on that income",
+      "lines": [
+       {
+        "text": "This €2000 is now taxed at 20% instead of 40%, a difference of 20%."
+       },
+       {
+        "tex": "2000 \\times 0.2 &= 400"
+       }
+      ]
+     }
+    ],
+    "final": "400"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q7#(d)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Subtract the USC on the first two bands",
+      "lines": [
+       {
+        "text": "Mary pays more than $60.06 + 169.44$, so she is in the 4.5% band."
+       },
+       {
+        "tex": "1602.72 - (60.06 + 169.44) &= 1602.72 - 229.50"
+       },
+       {
+        "tex": "&= 1373.22"
+       }
+      ]
+     },
+     {
+      "title": "Find the income taxed at 4.5%",
+      "lines": [
+       {
+        "text": "Let $x$ be the income in the 4.5% band."
+       },
+       {
+        "tex": "0.045x &= 1373.22"
+       },
+       {
+        "tex": "x &= \\frac{1373.22}{0.045}"
+       },
+       {
+        "tex": "x &= 30\\,516"
+       }
+      ]
+     },
+     {
+      "title": "Add the income in the lower bands",
+      "lines": [
+       {
+        "tex": "\\text{Income} &= 12\\,012 + 8472 + 30\\,516"
+       },
+       {
+        "tex": "&= 20\\,484 + 30\\,516"
+       },
+       {
+        "tex": "&= 51\\,000"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}51\\,000"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fin-mortgage",
+   "title": "Find the repayment on a loan/mortgage",
+   "level": "HL",
+   "input": "P, i, t",
+   "output": "A = P i(1 + i)ᵗ / ((1 + i)ᵗ − 1)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p1-q8#(b)(v)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the weekly interest rate",
+      "lines": [
+       {
+        "text": "An APR of 8.5% multiplies a balance by $1.085$ over 52 weeks, so $(1+i)^{52} = 1.085$."
+       },
+       {
+        "tex": "(1+i)^{52} &= 1.085"
+       },
+       {
+        "tex": "1+i &= 1.085^{\\frac{1}{52}}"
+       },
+       {
+        "tex": "1+i &\\approx 1.00157"
+       },
+       {
+        "tex": "i &\\approx 0.00157"
+       }
+      ]
+     },
+     {
+      "title": "Substitute P = 5000, i = 0.00157 and t = 156 into the formula",
+      "lines": [
+       {
+        "tex": "A &= \\frac{P\\, i (1+i)^t}{(1+i)^t - 1}"
+       },
+       {
+        "tex": "&= \\frac{5000(0.00157)(1.00157)^{156}}{(1.00157)^{156} - 1}"
+       },
+       {
+        "tex": "&\\approx 36.16"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}36.16"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q6#(b)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the repayment formula and its values",
+      "lines": [
+       {
+        "tex": "A &= P\\left[\\frac{i(1+i)^t}{(1+i)^t - 1}\\right]"
+       },
+       {
+        "text": "$P=80\\,000$, $i=0.0035$, and $t=10\\times 12=120$ months."
+       }
+      ]
+     },
+     {
+      "title": "Substitute the values",
+      "lines": [
+       {
+        "tex": "A &= 80\\,000\\left[\\frac{0.0035(1.0035)^{120}}{(1.0035)^{120} - 1}\\right]"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate the power and then the fraction",
+      "lines": [
+       {
+        "tex": "(1.0035)^{120} &= 1.520846"
+       },
+       {
+        "tex": "A &= 80\\,000\\left[\\frac{0.0035 \\times 1.520846}{1.520846 - 1}\\right]"
+       },
+       {
+        "tex": "&= 80\\,000\\left[\\frac{0.00532296}{0.520846}\\right]"
+       },
+       {
+        "tex": "&= 817.59"
+       },
+       {
+        "tex": "&\\approx \\text{€}818"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}818"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q5#(a)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write down the amortisation formula",
+      "lines": [
+       {
+        "text": "$P$ is the loan, $i$ the monthly rate and $n$ the number of months."
+       },
+       {
+        "tex": "A &= \\frac{P\\,i\\,(1+i)^n}{(1+i)^n - 1}"
+       }
+      ]
+     },
+     {
+      "title": "Find i and n",
+      "lines": [
+       {
+        "text": "$i = 0.287\\% = 0.00287$."
+       },
+       {
+        "text": "$n = 25 \\times 12 = 300$ months."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the formula",
+      "lines": [
+       {
+        "tex": "A &= \\frac{250000(0.00287)(1.00287)^{300}}{(1.00287)^{300} - 1}"
+       },
+       {
+        "tex": "A &= \\frac{717.5 \\times 2.36261}{1.36261}"
+       },
+       {
+        "tex": "A &= \\frac{1695.17}{1.36261}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate with a calculator",
+      "lines": [
+       {
+        "tex": "A &= \\text{€}1244.06"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}1244.06"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Count the number of monthly repayments",
+      "lines": [
+       {
+        "text": "Three years is $3 \\times 12$ months."
+       },
+       {
+        "tex": "\\text{number of payments} &= 3 \\times 12"
+       },
+       {
+        "tex": "&= 36"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the repayment by the number of payments",
+      "lines": [
+       {
+        "tex": "\\text{total} &= 443.66 \\times 36"
+       },
+       {
+        "tex": "&= 15971.76"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}15\\,971.76"
+   }
+  ]
+ }
+]

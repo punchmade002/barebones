@@ -1,0 +1,1156 @@
+[
+ {
+  "skill": {
+   "id": "prob-tree",
+   "title": "Use a tree diagram for multi-stage experiments",
+   "level": "OL",
+   "input": "stages with probabilities",
+   "output": "probability of combined outcomes"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2025-ordinary-p2-q7#(a)(iii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the complement of losing both matches",
+      "lines": [
+       {
+        "text": "At least 1 win means every outcome except losing both matches."
+       },
+       {
+        "tex": "P(\\text{at least 1 win}) &= 1 - P(\\text{Lose, Lose})"
+       },
+       {
+        "tex": "&= 1 - 0.12"
+       },
+       {
+        "tex": "&= 0.88"
+       }
+      ]
+     }
+    ],
+    "final": "0.88"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q7#(a)(i), (ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the probability of losing the first match",
+      "lines": [
+       {
+        "tex": "P(\\text{lose first}) &= 1 - 0.6"
+       },
+       {
+        "tex": "&= 0.4"
+       }
+      ]
+     },
+     {
+      "title": "Find the probability of losing the second match",
+      "lines": [
+       {
+        "text": "The matches are independent, so the second-match branches are the same after a win or a loss."
+       },
+       {
+        "tex": "P(\\text{lose second}) &= 1 - 0.7"
+       },
+       {
+        "tex": "&= 0.3"
+       },
+       {
+        "text": "Write $0.7$ and $0.3$ on the second-match branches in the gaps that are empty."
+       }
+      ]
+     },
+     {
+      "title": "Multiply along the branches for each outcome",
+      "lines": [
+       {
+        "text": "Multiply the two branch probabilities for each outcome. (Win, Win) $= 0.42$ and (Lose, Lose) $= 0.12$ are already given."
+       },
+       {
+        "tex": "P(\\text{Win, Lose}) &= 0.6 \\times 0.3"
+       },
+       {
+        "tex": "&= 0.18"
+       },
+       {
+        "tex": "P(\\text{Lose, Win}) &= 0.4 \\times 0.7"
+       },
+       {
+        "tex": "&= 0.28"
+       },
+       {
+        "text": "The four outcomes add to $0.42 + 0.18 + 0.28 + 0.12 = 1$."
+       }
+      ]
+     }
+    ],
+    "final": "0.4,\\; 0.3,\\; 0.7 \\text{ on the branches; } 0.18,\\; 0.28 \\text{ in the final column}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q1#(b)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Complete the tree diagram",
+      "lines": [
+       {
+        "text": "Under Stalls (S), add Monday, Wednesday and Friday. At the end of every day, add V (VIP) and O (show only). This gives $2 \\times 3 \\times 2 = 12$ equally likely outcomes."
+       }
+      ]
+     },
+     {
+      "title": "Find the probability of Balcony, Wednesday, VIP",
+      "lines": [
+       {
+        "text": "All choices are equally likely, so Balcony is $\\frac12$, Wednesday is $\\frac13$ and VIP is $\\frac12$. Multiply along the branches."
+       },
+       {
+        "tex": "P(BWV) &= \\frac{1}{2} \\times \\frac{1}{3} \\times \\frac{1}{2}"
+       },
+       {
+        "tex": "&= \\frac{1}{12}"
+       }
+      ]
+     },
+     {
+      "title": "Find the probability of Stalls, Wednesday, VIP",
+      "lines": [
+       {
+        "tex": "P(SWV) &= \\frac{1}{2} \\times \\frac{1}{3} \\times \\frac{1}{2}"
+       },
+       {
+        "tex": "&= \\frac{1}{12}"
+       }
+      ]
+     },
+     {
+      "title": "Add the two ways to get a VIP ticket on Wednesday",
+      "lines": [
+       {
+        "tex": "P(\\text{VIP on Wednesday}) &= \\frac{1}{12} + \\frac{1}{12}"
+       },
+       {
+        "tex": "&= \\frac{2}{12}"
+       },
+       {
+        "tex": "&= \\frac{1}{6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{6}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q8#(a)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down the three probabilities",
+      "lines": [
+       {
+        "text": "First throw: $0.7$. Second throw after a success: $0.8$. Third throw after a success: $0.8$."
+       },
+       {
+        "tex": "P(S,S,S) &= 0.7 \\times 0.8 \\times 0.8"
+       },
+       {
+        "tex": "&= 0.448"
+       }
+      ]
+     }
+    ],
+    "final": "0.448"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q8#(b)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down the three probabilities",
+      "lines": [
+       {
+        "text": "First throw unsuccessful: $1 - 0.7 = 0.3$. Second throw unsuccessful after an unsuccessful throw: $1 - 0.6 = 0.4$. Third throw successful after an unsuccessful throw: $0.6$."
+       },
+       {
+        "tex": "P(U,U,S) &= 0.3 \\times 0.4 \\times 0.6"
+       },
+       {
+        "tex": "&= 0.072"
+       }
+      ]
+     }
+    ],
+    "final": "0.072"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q8#(b)(ii)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Add the outcomes that end in late",
+      "lines": [
+       {
+        "tex": "P(L) &= \\frac{1}{12} + \\frac{1}{30} + \\frac{2}{60} + \\frac{6}{96}"
+       },
+       {
+        "text": "Use a common denominator of 480."
+       },
+       {
+        "tex": "&= \\frac{40}{480} + \\frac{16}{480} + \\frac{16}{480} + \\frac{30}{480}"
+       },
+       {
+        "tex": "&= \\frac{102}{480}"
+       },
+       {
+        "tex": "&= \\frac{17}{80}"
+       }
+      ]
+     }
+    ],
+    "final": "P(L) = \\frac{17}{80}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-venn",
+   "title": "Use set notation and Venn diagrams for probability",
+   "level": "OL",
+   "input": "event data",
+   "output": "P(A ∪ B), P(A ∩ B), P(A′), mutually exclusive check"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2024-ordinary-p2-q9#(b)(ii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Pick out a cone with a flavour other than vanilla",
+      "lines": [
+       {
+        "text": "This is the part of $C$ outside $V$: $13$ customers out of $100$."
+       },
+       {
+        "tex": "P &= \\frac{13}{100}"
+       },
+       {
+        "tex": "&= 0.13"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{13}{100}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q1#(a)(i)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Put the people who own neither outside the circles",
+      "lines": [
+       {
+        "text": "The question says 19 people own neither a cat nor a dog, so 19 goes inside the rectangle but outside both circles."
+       }
+      ]
+     },
+     {
+      "title": "Subtract the known regions from 168",
+      "lines": [
+       {
+        "text": "The four regions of the diagram add up to all 168 people. Subtract the three known regions to find cats only."
+       },
+       {
+        "tex": "\\text{Cats only} &= 168 - 19 - 64 - 48"
+       },
+       {
+        "tex": "&= 149 - 64 - 48"
+       },
+       {
+        "tex": "&= 85 - 48"
+       },
+       {
+        "tex": "&= 37"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Cats only} = 37,\\ \\text{neither} = 19"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q1#(a)(iii)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the people who own one animal only",
+      "lines": [
+       {
+        "text": "One animal only means cats only plus dogs only."
+       },
+       {
+        "tex": "\\text{One only} &= 37 + 48"
+       },
+       {
+        "tex": "&= 85"
+       }
+      ]
+     },
+     {
+      "title": "Write it as a percentage of 168",
+      "lines": [
+       {
+        "tex": "\\text{Percentage} &= \\frac{85}{168} \\times 100"
+       },
+       {
+        "tex": "&\\approx 50.5952"
+       },
+       {
+        "tex": "&\\approx 50.6"
+       }
+      ]
+     }
+    ],
+    "final": "50.6\\%"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q1#(b)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the cars that are not counted",
+      "lines": [
+       {
+        "text": "A car fails \"Ford or not red\" only if it is a Renault that is red. There are 4 of these."
+       }
+      ]
+     },
+     {
+      "title": "Subtract them from the total",
+      "lines": [
+       {
+        "tex": "P(\\text{Ford or not red}) &= \\frac{30-4}{30}"
+       },
+       {
+        "tex": "&= \\frac{26}{30}"
+       },
+       {
+        "tex": "&= \\frac{13}{15}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{13}{15}"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q9#(b)(i)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find how many bought vanilla or a cone",
+      "lines": [
+       {
+        "text": "$45$ bought neither, so the rest bought at least one."
+       },
+       {
+        "tex": "100 - 45 &= 55"
+       }
+      ]
+     },
+     {
+      "title": "Find the overlap",
+      "lines": [
+       {
+        "text": "Adding $V$ and $C$ counts the overlap twice, so subtract the total."
+       },
+       {
+        "tex": "42 + 37 - 55 &= 24"
+       }
+      ]
+     },
+     {
+      "title": "Find the parts of each circle outside the overlap",
+      "lines": [
+       {
+        "tex": "42 - 24 &= 18"
+       },
+       {
+        "tex": "37 - 24 &= 13"
+       }
+      ]
+     }
+    ],
+    "final": "V \\text{ only } 18, \\; V \\cap C = 24, \\; C \\text{ only } 13"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(b)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the total number of dogs",
+      "lines": [
+       {
+        "text": "The grand total is 40 and there are 14 cats, so the rest are dogs."
+       },
+       {
+        "tex": "\\text{Dogs total} &= 40 - 14"
+       },
+       {
+        "tex": "&= 26"
+       }
+      ]
+     },
+     {
+      "title": "Find the number of female dogs",
+      "lines": [
+       {
+        "text": "There are 11 male dogs out of 26 dogs."
+       },
+       {
+        "tex": "\\text{Female dogs} &= 26 - 11"
+       },
+       {
+        "tex": "&= 15"
+       }
+      ]
+     },
+     {
+      "title": "Find the male total",
+      "lines": [
+       {
+        "tex": "\\text{Male total} &= 5 + 11"
+       },
+       {
+        "tex": "&= 16"
+       }
+      ]
+     },
+     {
+      "title": "Find the female total",
+      "lines": [
+       {
+        "tex": "\\text{Female total} &= 9 + 15"
+       },
+       {
+        "tex": "&= 24"
+       },
+       {
+        "text": "Check: $16 + 24 = 40$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Dogs: female } 15,\\ \\text{total } 26;\\ \\text{Totals: male } 16,\\ \\text{female } 24"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-without-replacement",
+   "title": "Solve sampling problems with or without replacement",
+   "level": "HL",
+   "input": "container contents + draws",
+   "output": "probability"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-higher-p2-q8#(c)(i)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Three non-office keys, then an office key (no replacement)",
+      "lines": [
+       {
+        "text": "There are $23 - 5 = 18$ non-office keys. Each key drawn is not put back, so the totals drop by one each time."
+       },
+       {
+        "tex": "P &= \\frac{18}{23} \\times \\frac{17}{22} \\times \\frac{16}{21} \\times \\frac{5}{20}"
+       },
+       {
+        "tex": "&= \\frac{24480}{212520}"
+       },
+       {
+        "tex": "&= 0.1152"
+       }
+      ]
+     }
+    ],
+    "final": "0.1152"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q8#(c)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Probability of one particular order",
+      "lines": [
+       {
+        "tex": "P(\\text{G, S, O}) &= \\frac{12}{23} \\times \\frac{6}{22} \\times \\frac{5}{21}"
+       },
+       {
+        "tex": "&= \\frac{360}{10626}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the number of orders",
+      "lines": [
+       {
+        "text": "The three different keys can be drawn in $3! = 6$ orders, each with the same probability."
+       },
+       {
+        "tex": "P &= 6 \\times \\frac{360}{10626}"
+       },
+       {
+        "tex": "&= \\frac{360}{1771}"
+       },
+       {
+        "tex": "&= 0.2033"
+       }
+      ]
+     }
+    ],
+    "final": "0.2033"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q1#(a)(i)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Boy first, then girl",
+      "lines": [
+       {
+        "text": "There are 20 students: 12 boys and 8 girls. After one is chosen, 19 remain."
+       },
+       {
+        "tex": "P(\\text{boy, girl}) &= \\frac{12}{20}\\times\\frac{8}{19}"
+       },
+       {
+        "tex": "&= \\frac{96}{380}"
+       }
+      ]
+     },
+     {
+      "title": "Girl first, then boy",
+      "lines": [
+       {
+        "tex": "P(\\text{girl, boy}) &= \\frac{8}{20}\\times\\frac{12}{19}"
+       },
+       {
+        "tex": "&= \\frac{96}{380}"
+       }
+      ]
+     },
+     {
+      "title": "Add the two cases",
+      "lines": [
+       {
+        "text": "A boy and a girl in any order is either boy then girl, or girl then boy."
+       },
+       {
+        "tex": "P &= \\frac{96}{380} + \\frac{96}{380}"
+       },
+       {
+        "tex": "&= \\frac{192}{380}"
+       },
+       {
+        "tex": "&= \\frac{48}{95}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{48}{95}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q1#(a)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write each probability",
+      "lines": [
+       {
+        "text": "Students are not replaced, so the total drops by 1 each time. The boys left also drop with each boy chosen."
+       },
+       {
+        "tex": "P(\\text{1st boy}) &= \\frac{12}{20}"
+       },
+       {
+        "tex": "P(\\text{2nd boy}) &= \\frac{11}{19}"
+       },
+       {
+        "tex": "P(\\text{3rd boy}) &= \\frac{10}{18}"
+       },
+       {
+        "tex": "P(\\text{4th girl}) &= \\frac{8}{17}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the four probabilities",
+      "lines": [
+       {
+        "tex": "P &= \\frac{12}{20}\\times\\frac{11}{19}\\times\\frac{10}{18}\\times\\frac{8}{17}"
+       },
+       {
+        "tex": "&= \\frac{12\\times 11\\times 10\\times 8}{20\\times 19\\times 18\\times 17}"
+       },
+       {
+        "tex": "&= \\frac{10560}{116280}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify by dividing top and bottom by 120",
+      "lines": [
+       {
+        "tex": "&= \\frac{88}{969}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{88}{969}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q3#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Read the two relevant numbers from the diagram",
+      "lines": [
+       {
+        "text": "$6$ people have been to all three countries and $67$ people have been to none."
+       }
+      ]
+     },
+     {
+      "title": "Choose the order of the two people",
+      "lines": [
+       {
+        "text": "The pair can be picked in two orders: all three then none, or none then all three. The people are not replaced, so the second fraction has denominator $239$."
+       },
+       {
+        "tex": "P(\\text{all three, then none}) &= \\frac{6}{240} \\times \\frac{67}{239}"
+       },
+       {
+        "text": "The other order gives the same probability, so multiply by $2$."
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 2",
+      "lines": [
+       {
+        "tex": "P &= 2 \\times \\frac{6}{240} \\times \\frac{67}{239}"
+       },
+       {
+        "tex": "&= \\frac{2 \\times 6 \\times 67}{240 \\times 239}"
+       },
+       {
+        "tex": "&= \\frac{804}{57360}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify by dividing top and bottom by 12",
+      "lines": [
+       {
+        "tex": "&= \\frac{67}{4780}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{67}{4780}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q6#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the numbers of children in terms of n",
+      "lines": [
+       {
+        "text": "Let $n$ be the number of German children. There are twice as many Irish children."
+       },
+       {
+        "tex": "\\text{Irish} &= 2n"
+       },
+       {
+        "text": "Add the 10 Spanish children to get the total."
+       },
+       {
+        "tex": "\\text{Total} &= n + 2n + 10"
+       },
+       {
+        "tex": "&= 3n + 10"
+       }
+      ]
+     },
+     {
+      "title": "Write the probability of German then not German",
+      "lines": [
+       {
+        "text": "First child German: $\\frac{n}{3n+10}$. After one German leaves, $3n + 9$ children remain and $2n + 10$ of them are not German."
+       },
+       {
+        "tex": "\\frac{n}{3n + 10} \\times \\frac{2n + 10}{3n + 9} &= \\frac{1}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Clear the fractions",
+      "lines": [
+       {
+        "tex": "(3n+10)(3n+9) &= 9n^2 + 27n + 30n + 90"
+       },
+       {
+        "tex": "&= 9n^2 + 57n + 90"
+       },
+       {
+        "tex": "n(2n+10) &= 2n^2 + 10n"
+       },
+       {
+        "tex": "\\frac{2n^2 + 10n}{9n^2 + 57n + 90} &= \\frac{1}{6}"
+       },
+       {
+        "tex": "6(2n^2 + 10n) &= 9n^2 + 57n + 90"
+       },
+       {
+        "tex": "12n^2 + 60n &= 9n^2 + 57n + 90"
+       }
+      ]
+     },
+     {
+      "title": "Solve the quadratic",
+      "lines": [
+       {
+        "tex": "3n^2 + 3n - 90 &= 0"
+       },
+       {
+        "tex": "n^2 + n - 30 &= 0"
+       },
+       {
+        "tex": "(n + 6)(n - 5) &= 0"
+       },
+       {
+        "text": "$n$ is a number of children, so $n = -6$ is rejected."
+       },
+       {
+        "tex": "n &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Find the total",
+      "lines": [
+       {
+        "tex": "3n + 10 &= 3(5) + 10"
+       },
+       {
+        "tex": "&= 25"
+       }
+      ]
+     }
+    ],
+    "final": "25 \\text{ children}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-arith-find-ad",
+   "title": "Find a and d from given terms or sums",
+   "level": "OL",
+   "input": "two facts about the sequence",
+   "output": "a, d"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p1-q6#(a)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 2 to find T_2",
+      "lines": [
+       {
+        "tex": "T_2 &= -254 + (2-1)(4)"
+       },
+       {
+        "tex": "&= -254 + 4"
+       },
+       {
+        "tex": "&= -250"
+       }
+      ]
+     },
+     {
+      "title": "Subtract T_1 from T_2",
+      "lines": [
+       {
+        "tex": "d &= T_2 - T_1"
+       },
+       {
+        "tex": "&= -250 + 254"
+       },
+       {
+        "tex": "&= 4"
+       }
+      ]
+     }
+    ],
+    "final": "d = 4"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q6#(a)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set the two common differences equal",
+      "lines": [
+       {
+        "text": "In an arithmetic sequence, $T_2 - T_1 = T_3 - T_2$."
+       },
+       {
+        "tex": "k - (-5) &= 1 - k"
+       },
+       {
+        "tex": "k + 5 &= 1 - k"
+       }
+      ]
+     },
+     {
+      "title": "Solve for k",
+      "lines": [
+       {
+        "tex": "k + k &= 1 - 5"
+       },
+       {
+        "tex": "2k &= -4"
+       },
+       {
+        "tex": "k &= -2"
+       }
+      ]
+     },
+     {
+      "title": "Show the common difference is 3",
+      "lines": [
+       {
+        "tex": "d &= k - (-5)"
+       },
+       {
+        "tex": "&= -2 + 5"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     }
+    ],
+    "final": "k = -2, \\quad d = 3"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q5#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set the two common differences equal",
+      "lines": [
+       {
+        "text": "In an arithmetic sequence $T_2 - T_1 = T_3 - T_2$."
+       },
+       {
+        "tex": "(5p-3) - (2p+1) &= (6p+7) - (5p-3)"
+       },
+       {
+        "tex": "5p - 3 - 2p - 1 &= 6p + 7 - 5p + 3"
+       },
+       {
+        "tex": "3p - 4 &= p + 10"
+       }
+      ]
+     },
+     {
+      "title": "Solve for p",
+      "lines": [
+       {
+        "tex": "2p - 4 &= 10"
+       },
+       {
+        "tex": "2p &= 14"
+       },
+       {
+        "tex": "p &= 7"
+       }
+      ]
+     }
+    ],
+    "final": "p = 7"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q7#(b)(ii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the height of bar A",
+      "lines": [
+       {
+        "text": "A bar is a cylinder, so $V = \\pi r^2 h$ with $r = 1$."
+       },
+       {
+        "tex": "\\pi (1)^2 h &= 71.3\\pi"
+       },
+       {
+        "tex": "\\pi h &= 71.3\\pi"
+       },
+       {
+        "tex": "h &= 71.3"
+       }
+      ]
+     },
+     {
+      "title": "Find the common difference",
+      "lines": [
+       {
+        "text": "The heights form an arithmetic sequence with $a = 71.3$ and, from part (i), $T_5 = 107.3$."
+       },
+       {
+        "tex": "T_5 &= a + 4d"
+       },
+       {
+        "tex": "71.3 + 4d &= 107.3"
+       },
+       {
+        "tex": "4d &= 36"
+       },
+       {
+        "tex": "d &= 9"
+       }
+      ]
+     },
+     {
+      "title": "Add 9 each time",
+      "lines": [
+       {
+        "tex": "B &= 71.3 + 9 = 80.3"
+       },
+       {
+        "tex": "C &= 80.3 + 9 = 89.3"
+       },
+       {
+        "tex": "D &= 89.3 + 9 = 98.3"
+       },
+       {
+        "tex": "E &= 98.3 + 9 = 107.3"
+       }
+      ]
+     }
+    ],
+    "final": "A = 71.3,\\ B = 80.3,\\ C = 89.3,\\ D = 98.3,\\ E = 107.3 \\text{ (cm)}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-arith-nth",
+   "title": "Find the nth term of an arithmetic sequence",
+   "level": "OL",
+   "input": "a, d (or terms)",
+   "output": "Tₙ = a + (n − 1)d"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p1-q7#(c)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 20 into T_n = 3n + 2",
+      "lines": [
+       {
+        "tex": "T_{20} &= 3(20) + 2"
+       },
+       {
+        "tex": "&= 60 + 2"
+       },
+       {
+        "tex": "&= 62"
+       }
+      ]
+     }
+    ],
+    "final": "62\\text{ tiles}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q7#(c)(iii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set T_n equal to 290",
+      "lines": [
+       {
+        "tex": "3n + 2 &= 290"
+       },
+       {
+        "tex": "3n &= 290 - 2"
+       },
+       {
+        "tex": "3n &= 288"
+       },
+       {
+        "tex": "n &= \\frac{288}{3}"
+       },
+       {
+        "tex": "n &= 96"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pattern } 96"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q7#(a)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Recognise the arithmetic sequence",
+      "lines": [
+       {
+        "text": "The first row has 28 seats and each row adds 1, so $a = 28$ and $d = 1$. The $n$th term is $T_n = a + (n-1)d$."
+       },
+       {
+        "tex": "T_{10} &= 28 + (10-1)(1)"
+       },
+       {
+        "tex": "&= 28 + 9"
+       },
+       {
+        "tex": "&= 37"
+       }
+      ]
+     }
+    ],
+    "final": "37"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q8#(b)(iii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 25 into T_n",
+      "lines": [
+       {
+        "tex": "T_{25} &= 250(25) - 4250"
+       },
+       {
+        "tex": "&= 6250 - 4250"
+       },
+       {
+        "tex": "&= 2000"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}2000"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q9#(b)(iii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set T_k = 147 and solve",
+      "lines": [
+       {
+        "tex": "4k - 1 &= 147"
+       },
+       {
+        "tex": "4k &= 148"
+       },
+       {
+        "tex": "k &= 37"
+       }
+      ]
+     }
+    ],
+    "final": "k = 37"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q6#(a)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 1 into T_n",
+      "lines": [
+       {
+        "tex": "T_1 &= -254 + (1-1)(4)"
+       },
+       {
+        "tex": "&= -254 + 0"
+       },
+       {
+        "tex": "&= -254"
+       }
+      ]
+     }
+    ],
+    "final": "T_1 = -254"
+   }
+  ]
+ }
+]

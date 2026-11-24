@@ -1,0 +1,228 @@
+[
+ {"skill": "prob-tree", "problems": [
+  {"part": "maths-pp-2025-ordinary-p2-q7#(a)(i), (ii)", "note": null,
+   "legend": {"1": "a branch probability", "2": "a path probability (product of branches)"},
+   "steps": [
+    {"ask": "The two branches from the start add to 1. What is the lose branch for match 1?", "title": "Find the probability of losing the first match", "lines": [
+      {"tex": "\\hl{1}{P(\\text{lose first})} &= 1 - \\hl{1}{0.6}"},
+      {"tex": "&= \\hl{1}{0.4}"}]},
+    {"ask": "The branches from each point add to 1. What is the chance of losing match 2?", "title": "Find the probability of losing the second match", "lines": [
+      {"text": "The matches are independent, so the second-match branches are the same after a win or a loss."},
+      {"tex": "\\hl{1}{P(\\text{lose second})} &= 1 - \\hl{1}{0.7}"},
+      {"tex": "&= \\hl{1}{0.3}"},
+      {"text": "Write $\\hl{1}{0.7}$ and $\\hl{1}{0.3}$ on the second-match branches in the gaps that are empty."}]},
+    {"ask": "Each outcome is a path through two branches. How do you get the chance of the whole path (Win, Lose)?", "title": "Multiply along the branches for each outcome", "lines": [
+      {"text": "Multiply the two branch probabilities for each outcome. (Win, Win) $= \\hl{2}{0.42}$ and (Lose, Lose) $= \\hl{2}{0.12}$ are already given."},
+      {"tex": "\\hl{2}{P(\\text{Win, Lose})} &= \\hl{1}{0.6} \\times \\hl{1}{0.3}"},
+      {"tex": "&= \\hl{2}{0.18}"},
+      {"tex": "\\hl{2}{P(\\text{Lose, Win})} &= \\hl{1}{0.4} \\times \\hl{1}{0.7}"},
+      {"tex": "&= \\hl{2}{0.28}"},
+      {"text": "The four outcomes add to $\\hl{2}{0.42} + \\hl{2}{0.18} + \\hl{2}{0.28} + \\hl{2}{0.12} = 1$."}]}
+   ],
+   "final": "\\hl{1}{0.4},\\; \\hl{1}{0.3},\\; \\hl{1}{0.7} \\text{ on the branches; } \\hl{2}{0.18},\\; \\hl{2}{0.28} \\text{ in the final column}",
+   "graph": null},
+  {"part": "maths-pp-2016-ordinary-p2-q1#(b)", "note": "Changed: the tree has three stages instead of two, and the answer adds two paths that both end in a VIP ticket on Wednesday. The method stays the same: multiply along each path, then add the paths that match the event.",
+   "legend": {"1": "a branch probability", "2": "a path probability (product of branches)", "3": "the probability of the event (sum of paths)"},
+   "steps": [
+    {"ask": "Count the choices at each stage. How many equally likely outcomes does the tree have?", "title": "Complete the tree diagram", "lines": [
+      {"text": "Under Stalls (S), add Monday, Wednesday and Friday. At the end of every day, add V (VIP) and O (show only). This gives $2 \\times 3 \\times 2 = 12$ equally likely outcomes."}]},
+    {"ask": "Take one branch at each stage. What is the chance of this one full path?", "title": "Find the probability of Balcony, Wednesday, VIP", "lines": [
+      {"text": "All choices are equally likely, so Balcony is $\\hl{1}{\\frac12}$, Wednesday is $\\hl{1}{\\frac13}$ and VIP is $\\hl{1}{\\frac12}$. Multiply along the branches."},
+      {"tex": "\\hl{2}{P(BWV)} &= \\hl{1}{\\frac{1}{2}} \\times \\hl{1}{\\frac{1}{3}} \\times \\hl{1}{\\frac{1}{2}}"},
+      {"tex": "&= \\hl{2}{\\frac{1}{12}}"}]},
+    {"ask": "Stalls replaces Balcony as the first branch. Does that change the chance of the path?", "title": "Find the probability of Stalls, Wednesday, VIP", "lines": [
+      {"tex": "\\hl{2}{P(SWV)} &= \\hl{1}{\\frac{1}{2}} \\times \\hl{1}{\\frac{1}{3}} \\times \\hl{1}{\\frac{1}{2}}"},
+      {"tex": "&= \\hl{2}{\\frac{1}{12}}"}]},
+    {"ask": "Two different paths end in a VIP ticket on Wednesday. How do you combine their chances?", "title": "Add the two ways to get a VIP ticket on Wednesday", "lines": [
+      {"tex": "\\hl{3}{P(\\text{VIP on Wednesday})} &= \\hl{2}{\\frac{1}{12}} + \\hl{2}{\\frac{1}{12}}"},
+      {"tex": "&= \\hl{3}{\\frac{2}{12}}"},
+      {"tex": "&= \\hl{3}{\\frac{1}{6}}"}]}
+   ],
+   "final": "\\hl{3}{\\frac{1}{6}}",
+   "graph": null},
+  {"part": "maths-pp-2015-higher-p2-q8#(a)", "note": "Changed: only one path is needed, so nothing is added, and the branch chances are given in the question. The method is the same: multiply the branches along the path.",
+   "legend": {"1": "a branch probability", "2": "a path probability (product of branches)"},
+   "steps": [
+    {"ask": "Read the three branch chances from the question. Which chance applies to each throw?", "title": "Write down the three probabilities", "lines": [
+      {"text": "First throw: $\\hl{1}{0.7}$. Second throw after a success: $\\hl{1}{0.8}$. Third throw after a success: $\\hl{1}{0.8}$."},
+      {"tex": "\\hl{2}{P(S,S,S)} &= \\hl{1}{0.7} \\times \\hl{1}{0.8} \\times \\hl{1}{0.8}"},
+      {"tex": "&= \\hl{2}{0.448}"}]}
+   ],
+   "final": "\\hl{2}{0.448}",
+   "graph": null}
+ ]},
+ {"skill": "prob-venn", "problems": [
+  {"part": "maths-pp-2024-ordinary-p2-q9#(b)(i)", "note": null,
+   "legend": {"1": "the total in the diagram", "2": "the overlap, both events (V ∩ C)", "3": "the event the question asks for (count or probability)"},
+   "steps": [
+    {"ask": "Some customers bought neither. What do you do with the total of 100 to find those who bought at least one?", "title": "Find how many bought vanilla or a cone", "lines": [
+      {"text": "$45$ bought neither, so the rest bought at least one."},
+      {"tex": "\\hl{1}{100} - 45 &= \\hl{3}{55}"}]},
+    {"ask": "Adding the two circles counts the overlap twice. How much must you take back, using the 55 you found?", "title": "Find the overlap", "lines": [
+      {"text": "Adding $V$ and $C$ counts the overlap twice, so subtract the total."},
+      {"tex": "42 + 37 - \\hl{3}{55} &= \\hl{2}{24}"}]},
+    {"ask": "The overlap sits inside both circles. How much of each circle is outside it?", "title": "Find the parts of each circle outside the overlap", "lines": [
+      {"tex": "42 - \\hl{2}{24} &= \\hl{3}{18}"},
+      {"tex": "37 - \\hl{2}{24} &= \\hl{3}{13}"}]}
+   ],
+   "final": "V \\text{ only } \\hl{3}{18}, \\; V \\cap C = \\hl{2}{24}, \\; C \\text{ only } \\hl{3}{13}",
+   "graph": null},
+  {"part": "maths-pp-2018-ordinary-p2-q1#(b)", "note": "Changed: the question is now a union written in words, 'Ford or not red', and the cars that fail are found first. The total of 30 stays the same, so the method is still to remove the failing cars and divide by the total.",
+   "legend": {"3": "the event the question asks for (count or probability)"},
+   "steps": [
+    {"ask": "Which cars fail 'Ford or not red'? Think about what is not a Ford, and what is red.", "title": "Find the cars that are not counted", "lines": [
+      {"text": "A car fails \"Ford or not red\" only if it is a Renault that is red. There are 4 of these."}]},
+    {"ask": "Take the failing cars away from the 30 in the total. What fraction is left?", "title": "Subtract them from the total", "lines": [
+      {"tex": "\\hl{3}{P(\\text{Ford or not red})} &= \\frac{30-4}{30}"},
+      {"tex": "&= \\hl{3}{\\frac{26}{30}}"},
+      {"tex": "&= \\hl{3}{\\frac{13}{15}}"}]}
+   ],
+   "final": "\\hl{3}{\\frac{13}{15}}",
+   "graph": null},
+  {"part": "maths-pp-2016-ordinary-p2-q1#(a)(iii)", "note": "Changed: the answer is a count of people who own exactly one animal, which means adding two regions, and it is asked as a percentage of 168. The method is the same: read the regions, add what the question asks for, and divide by the total.",
+   "legend": {"3": "the event the question asks for (count or probability)"},
+   "steps": [
+    {"ask": "One animal only means one circle without the overlap. Which two regions do you add?", "title": "Count the people who own one animal only", "lines": [
+      {"text": "One animal only means cats only plus dogs only."},
+      {"tex": "\\hl{3}{\\text{One only}} &= 37 + 48"},
+      {"tex": "&= \\hl{3}{85}"}]},
+    {"ask": "The total is 168. What fraction of the 168 is the answer, and how do you show it as a percentage?", "title": "Write it as a percentage of 168", "lines": [
+      {"tex": "\\text{Percentage} &= \\hl{3}{\\frac{85}{168}} \\times 100"},
+      {"tex": "&\\approx \\hl{3}{50.5952}"},
+      {"tex": "&\\approx \\hl{3}{50.6}"}]}
+   ],
+   "final": "\\hl{3}{50.6}\\%",
+   "graph": null}
+ ]},
+ {"skill": "prob-without-replacement", "problems": [
+  {"part": "maths-pp-2021-higher-p2-q8#(c)(i)", "note": null,
+   "legend": {"1": "one draw's probability (a stage)", "3": "the probability the question asks for"},
+   "steps": [
+    {"ask": "Count the non-office keys first. Once a key is drawn and not put back, what changes for the next draw?", "title": "Three non-office keys, then an office key (no replacement)", "lines": [
+      {"text": "There are $23 - 5 = 18$ non-office keys. Each key drawn is not put back, so the totals drop by one each time."},
+      {"tex": "\\hl{3}{P} &= \\hl{1}{\\frac{18}{23}} \\times \\hl{1}{\\frac{17}{22}} \\times \\hl{1}{\\frac{16}{21}} \\times \\hl{1}{\\frac{5}{20}}"},
+      {"tex": "&= \\hl{3}{\\frac{24480}{212520}}"},
+      {"tex": "&= \\hl{3}{0.1152}"}]}
+   ],
+   "final": "\\hl{3}{0.1152}",
+   "graph": null},
+  {"part": "maths-pp-2019-higher-p2-q1#(a)(i)", "note": "Changed: only two students are picked, but a boy and a girl can come in either order, so both orders are added. The method is the same: multiply the fractions for each order, with the total dropping by one after each pick.",
+   "legend": {"1": "one draw's probability (a stage)", "2": "the probability of one ordered path", "3": "the probability the question asks for"},
+   "steps": [
+    {"ask": "Say the first pick is a boy, then a girl. What is the chance of the first pick, and what is left for the second?", "title": "Boy first, then girl", "lines": [
+      {"text": "There are 20 students: 12 boys and 8 girls. After one is chosen, 19 remain."},
+      {"tex": "\\hl{2}{P(\\text{boy, girl})} &= \\hl{1}{\\frac{12}{20}}\\times\\hl{1}{\\frac{8}{19}}"},
+      {"tex": "&= \\hl{2}{\\frac{96}{380}}"}]},
+    {"ask": "Now the girl comes first. Which numbers change places, and does the product change?", "title": "Girl first, then boy", "lines": [
+      {"tex": "\\hl{2}{P(\\text{girl, boy})} &= \\hl{1}{\\frac{8}{20}}\\times\\hl{1}{\\frac{12}{19}}"},
+      {"tex": "&= \\hl{2}{\\frac{96}{380}}"}]},
+    {"ask": "A boy and a girl can come in either order. How do you combine the two cases?", "title": "Add the two cases", "lines": [
+      {"text": "A boy and a girl in any order is either boy then girl, or girl then boy."},
+      {"tex": "\\hl{3}{P} &= \\hl{2}{\\frac{96}{380}} + \\hl{2}{\\frac{96}{380}}"},
+      {"tex": "&= \\hl{3}{\\frac{192}{380}}"},
+      {"tex": "&= \\hl{3}{\\frac{48}{95}}"}]}
+   ],
+   "final": "\\hl{3}{\\frac{48}{95}}",
+   "graph": null},
+  {"part": "maths-pp-2021-higher-p2-q8#(c)(ii)", "note": "Changed: three different keys are drawn instead of two, so there are 3! = 6 orders instead of 2. The method is the same: find one order's probability, then multiply by the number of orders.",
+   "legend": {"1": "one draw's probability (a stage)", "2": "the probability of one ordered path", "3": "the probability the question asks for"},
+   "steps": [
+    {"ask": "Find the chance of one exact order first. Which key is drawn first, and how many are left in the bag?", "title": "Probability of one particular order", "lines": [
+      {"tex": "\\hl{2}{P(\\text{G, S, O})} &= \\hl{1}{\\frac{12}{23}} \\times \\hl{1}{\\frac{6}{22}} \\times \\hl{1}{\\frac{5}{21}}"},
+      {"tex": "&= \\hl{2}{\\frac{360}{10626}}"}]},
+    {"ask": "Each order has the same chance. How many different orders are there for three different keys?", "title": "Multiply by the number of orders", "lines": [
+      {"text": "The three different keys can be drawn in $3! = 6$ orders, each with the same probability."},
+      {"tex": "\\hl{3}{P} &= 6 \\times \\hl{2}{\\frac{360}{10626}}"},
+      {"tex": "&= \\hl{3}{\\frac{360}{1771}}"},
+      {"tex": "&= \\hl{3}{0.2033}"}]}
+   ],
+   "final": "\\hl{3}{0.2033}",
+   "graph": null}
+ ]},
+ {"skill": "seq-arith-find-ad", "problems": [
+  {"part": "maths-pp-2022-ordinary-p1-q6#(a)(ii)", "note": null,
+   "legend": {"1": "the first term, a (T₁)", "2": "the common difference, d", "3": "a term of the sequence"},
+   "steps": [
+    {"ask": "Which value of n gives the second term? Put it into the rule with a = −254.", "title": "Substitute n = 2 to find T_2", "lines": [
+      {"tex": "\\hl{3}{T_2} &= \\hl{1}{-254} + (2-1)(\\hl{2}{4})"},
+      {"tex": "&= \\hl{1}{-254} + \\hl{2}{4}"},
+      {"tex": "&= \\hl{3}{-250}"}]},
+    {"ask": "The gap between two consecutive terms is d. Which two terms do you subtract, and in what order?", "title": "Subtract T_1 from T_2", "lines": [
+      {"tex": "\\hl{2}{d} &= \\hl{3}{T_2} - \\hl{1}{T_1}"},
+      {"tex": "&= \\hl{3}{-250} + 254"},
+      {"tex": "&= \\hl{2}{4}"}]}
+   ],
+   "final": "\\hl{2}{d} = \\hl{2}{4}",
+   "graph": null},
+  {"part": "maths-pp-2024-higher-p1-q5#(a)", "note": "Changed: the terms are now expressions with an unknown p, so the first step is to set the two gaps equal and solve for p. The method is the same: equal gaps, then solve.",
+   "legend": {"2": "the common difference, d (both gaps)"},
+   "steps": [
+    {"ask": "Two gaps between consecutive terms must match. Which two gaps do you set equal?", "title": "Set the two common differences equal", "lines": [
+      {"text": "In an arithmetic sequence $T_2 - T_1 = T_3 - T_2$."},
+      {"tex": "\\hl{2}{(5p-3) - (2p+1)} &= \\hl{2}{(6p+7) - (5p-3)}"},
+      {"tex": "\\hl{2}{5p - 3 - 2p - 1} &= \\hl{2}{6p + 7 - 5p + 3}"},
+      {"tex": "\\hl{2}{3p - 4} &= \\hl{2}{p + 10}"}]},
+    {"ask": "Gather the p terms on one side and the numbers on the other. What do you do to both sides to get p by itself?", "title": "Solve for p", "lines": [
+      {"tex": "2p - 4 &= 10"},
+      {"tex": "2p &= 14"},
+      {"tex": "p &= 7"}]}
+   ],
+   "final": "p = 7",
+   "graph": null},
+  {"part": "maths-pp-2018-higher-p2-q7#(b)(ii)", "note": "Changed: the first height comes from a cylinder volume, and d is found from the fifth bar's height instead of two neighbouring terms. What stays: find a and d, then add d each time.",
+   "legend": {"1": "the first term, a (bar A)", "2": "the common difference, d", "3": "a term of the sequence"},
+   "steps": [
+    {"ask": "Put r = 1 into the volume of a cylinder. What does that leave for the height?", "title": "Find the height of bar A", "lines": [
+      {"text": "A bar is a cylinder, so $V = \\pi r^2 h$ with $r = 1$."},
+      {"tex": "\\pi (1)^2 h &= \\hl{1}{71.3}\\pi"},
+      {"tex": "\\pi h &= \\hl{1}{71.3}\\pi"},
+      {"tex": "h &= \\hl{1}{71.3}"}]},
+    {"ask": "The heights rise by a fixed amount. Which bar height is known, and how many rises separate it from bar A?", "title": "Find the common difference", "lines": [
+      {"text": "The heights form an arithmetic sequence with $a = \\hl{1}{71.3}$ and, from part (i), $\\hl{3}{T_5} = \\hl{3}{107.3}$."},
+      {"tex": "\\hl{3}{T_5} &= \\hl{1}{a} + 4\\hl{2}{d}"},
+      {"tex": "\\hl{1}{71.3} + 4\\hl{2}{d} &= \\hl{3}{107.3}"},
+      {"tex": "4\\hl{2}{d} &= 36"},
+      {"tex": "\\hl{2}{d} &= \\hl{2}{9}"}]},
+    {"ask": "Each bar is the one before plus the same amount. What do you add to B to get C?", "title": "Add 9 each time", "lines": [
+      {"tex": "\\hl{3}{B} &= \\hl{1}{71.3} + \\hl{2}{9} = \\hl{3}{80.3}"},
+      {"tex": "\\hl{3}{C} &= \\hl{3}{80.3} + \\hl{2}{9} = \\hl{3}{89.3}"},
+      {"tex": "\\hl{3}{D} &= \\hl{3}{89.3} + \\hl{2}{9} = \\hl{3}{98.3}"},
+      {"tex": "\\hl{3}{E} &= \\hl{3}{98.3} + \\hl{2}{9} = \\hl{3}{107.3}"}]}
+   ],
+   "final": "A = \\hl{1}{71.3},\\ B = \\hl{3}{80.3},\\ C = \\hl{3}{89.3},\\ D = \\hl{3}{98.3},\\ E = \\hl{3}{107.3} \\text{ (cm)}",
+   "graph": null}
+ ]},
+ {"skill": "seq-arith-nth", "problems": [
+  {"part": "maths-pp-2018-ordinary-p1-q7#(a)", "note": null,
+   "legend": {"2": "the term found, Tₙ", "3": "the first term, a"},
+   "steps": [
+    {"ask": "The description gives the first row and how each row changes. Which numbers are a and d?", "title": "Recognise the arithmetic sequence", "lines": [
+      {"text": "The first row has 28 seats and each row adds 1, so $a = \\hl{3}{28}$ and $d = 1$. The $n$th term is $T_n = a + (n-1)d$."},
+      {"tex": "\\hl{2}{T_{10}} &= \\hl{3}{28} + (10-1)(1)"},
+      {"tex": "&= \\hl{3}{28} + 9"},
+      {"tex": "&= \\hl{2}{37}"}]}
+   ],
+   "final": "\\hl{2}{37}",
+   "graph": null},
+  {"part": "maths-pp-2017-ordinary-p1-q7#(c)(ii)", "note": "Changed: the rule Tₙ = 3n + 2 is given directly, so there is no a or d to find first. The method is the same: put in n and work out the value.",
+   "legend": {"2": "the term found, Tₙ"},
+   "steps": [
+    {"ask": "Put n = 20 into the rule and work out the value. What do you get?", "title": "Substitute n = 20 into T_n = 3n + 2", "lines": [
+      {"tex": "\\hl{2}{T_{20}} &= 3(20) + 2"},
+      {"tex": "&= 60 + 2"},
+      {"tex": "&= \\hl{2}{62}"}]}
+   ],
+   "final": "\\hl{2}{62}\\text{ tiles}",
+   "graph": null},
+  {"part": "maths-pp-2019-ordinary-p1-q8#(b)(iii)", "note": "Changed: the rule is now a cost in euros with a negative constant term, so the answer is a money amount. The method is the same: put in n and simplify.",
+   "legend": {"2": "the term found, Tₙ"},
+   "steps": [
+    {"ask": "Put n = 25 into the rule. What does the rule give in euros?", "title": "Substitute n = 25 into T_n", "lines": [
+      {"tex": "\\hl{2}{T_{25}} &= 250(25) - 4250"},
+      {"tex": "&= 6250 - 4250"},
+      {"tex": "&= \\hl{2}{2000}"}]}
+   ],
+   "final": "\\text{€}\\hl{2}{2000}",
+   "graph": null}
+ ]}
+]

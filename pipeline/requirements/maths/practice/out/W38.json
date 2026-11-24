@@ -1,0 +1,364 @@
+[
+ {
+  "skill": "inf-confidence-width",
+  "problems": [
+   {
+    "question": "A 95% confidence interval for a population proportion is constructed from a random sample of size $n = 200$. The margin of error is $0.06$.\\nThe sample proportion $\\hat{p}$ stays the same. Find the sample size needed to reduce the margin of error to $0.03$, at the same confidence level.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the margin of error using n",
+       "lines": [
+        {
+         "text": "Let $k = 1.96\\sqrt{\\hat{p}(1-\\hat{p})}$. It does not change, so the margin of error is $\\frac{k}{\\sqrt{n}}$."
+        }
+       ]
+      },
+      {
+       "title": "Write the two margins",
+       "lines": [
+        {
+         "tex": "\\frac{k}{\\sqrt{200}} &= 0.06",
+         "sym": "Eq(k/sqrt(200), Rational(6,100))",
+         "new": true
+        },
+        {
+         "tex": "\\frac{k}{\\sqrt{n}} &= 0.03",
+         "sym": "Eq(k/sqrt(n), Rational(3,100))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Divide the second by the first",
+       "lines": [
+        {
+         "tex": "\\frac{\\sqrt{200}}{\\sqrt{n}} &= \\frac{1}{2}",
+         "sym": "Eq(sqrt(200)/sqrt(n), Rational(1,2))",
+         "new": true
+        },
+        {
+         "tex": "\\frac{200}{n} &= \\frac{1}{4}",
+         "sym": "Eq(200/n, Rational(1,4))"
+        }
+       ]
+      },
+      {
+       "title": "Solve for n",
+       "lines": [
+        {
+         "tex": "n &= 800",
+         "sym": "Eq(n, 800)"
+        },
+        {
+         "text": "Halving the margin of error needs 4 times the sample size."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "n = 800"
+    },
+    "finalSym": "800",
+    "answerSym": "200*(Rational(6,100)/Rational(3,100))**2"
+   }
+  ]
+ },
+ {
+  "skill": "trig-radians",
+  "problems": [
+   {
+    "question": "A wheel turns through an angle of $\\frac{5\\pi}{12}$ radians. Express this angle in degrees.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the conversion factor",
+       "lines": [
+        {
+         "text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\frac{180}{\\pi}$."
+        },
+        {
+         "tex": "\\frac{5\\pi}{12} \\times \\frac{180}{\\pi} &= \\frac{5 \\times 180}{12}",
+         "sym": "5*pi/12*180/pi"
+        },
+        {
+         "tex": "&= 75^\\circ",
+         "sym": "75"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "75^\\circ"
+    },
+    "finalSym": "75",
+    "answerSym": "Rational(5,12)*pi*180/pi"
+   }
+  ]
+ },
+ {
+  "skill": "trig-pythag-identity",
+  "problems": [
+   {
+    "question": "$A$ is an angle in the second quadrant ($90^\\circ < A < 180^\\circ$) and $\\sin A = \\frac{5}{13}$.\\nFind $\\cos A$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the identity",
+       "lines": [
+        {
+         "tex": "\\cos^2 A &= 1 - \\sin^2 A",
+         "sym": "Eq(c**2, 1 - s**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - \\left(\\frac{5}{13}\\right)^2",
+         "sym": "Eq(c**2, 1 - Rational(5,13)**2)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{144}{169}",
+         "sym": "Eq(c**2, Rational(144,169))"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root",
+       "lines": [
+        {
+         "tex": "\\cos A &= \\pm\\frac{12}{13}",
+         "sym": "Or(Eq(c, Rational(12,13)), Eq(c, -Rational(12,13)))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Choose the sign",
+       "lines": [
+        {
+         "text": "In the second quadrant cosine is negative."
+        },
+        {
+         "tex": "\\cos A &= -\\frac{12}{13}",
+         "sym": "Eq(c, -Rational(12,13))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos A = -\\frac{12}{13}"
+    },
+    "finalSym": "-Rational(12,13)",
+    "answerSym": "-sqrt(1 - Rational(5,13)**2)"
+   },
+   {
+    "question": "Simplify $(\\sin\\theta + \\cos\\theta)^2 + (\\sin\\theta - \\cos\\theta)^2$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Expand both brackets",
+       "lines": [
+        {
+         "tex": "(\\sin\\theta + \\cos\\theta)^2 + (\\sin\\theta - \\cos\\theta)^2 &= \\sin^2\\theta + 2\\sin\\theta\\cos\\theta + \\cos^2\\theta + \\sin^2\\theta - 2\\sin\\theta\\cos\\theta + \\cos^2\\theta",
+         "sym": "(sin(t)+cos(t))**2+(sin(t)-cos(t))**2"
+        }
+       ]
+      },
+      {
+       "title": "Collect like terms",
+       "lines": [
+        {
+         "tex": "&= 2\\sin^2\\theta + 2\\cos^2\\theta",
+         "sym": "2*sin(t)**2+2*cos(t)**2"
+        },
+        {
+         "tex": "&= 2(\\sin^2\\theta + \\cos^2\\theta)",
+         "sym": "2*(sin(t)**2+cos(t)**2)"
+        }
+       ]
+      },
+      {
+       "title": "Use the identity",
+       "lines": [
+        {
+         "text": "$\\sin^2\\theta + \\cos^2\\theta = 1$."
+        },
+        {
+         "tex": "&= 2",
+         "sym": "2"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2"
+    },
+    "finalSym": "2",
+    "answerSym": "simplify((sin(t)+cos(t))**2+(sin(t)-cos(t))**2)"
+   },
+   {
+    "question": "Given that $\\cos\\theta = \\frac{4}{5}$ and that $\\theta$ is in the fourth quadrant ($270^\\circ < \\theta < 360^\\circ$), find $\\tan\\theta$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find sin\u00b2 \u03b8",
+       "lines": [
+        {
+         "tex": "\\sin^2\\theta &= 1 - \\cos^2\\theta",
+         "sym": "Eq(s**2, 1 - c**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - \\left(\\frac{4}{5}\\right)^2",
+         "sym": "Eq(s**2, 1 - Rational(4,5)**2)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{9}{25}",
+         "sym": "Eq(s**2, Rational(9,25))"
+        }
+       ]
+      },
+      {
+       "title": "Choose the sign of sin \u03b8",
+       "lines": [
+        {
+         "text": "In the fourth quadrant sine is negative."
+        },
+        {
+         "tex": "\\sin\\theta &= -\\frac{3}{5}",
+         "sym": "Eq(s, -Rational(3,5))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find tan \u03b8",
+       "lines": [
+        {
+         "tex": "\\tan\\theta &= \\frac{\\sin\\theta}{\\cos\\theta}",
+         "sym": "Eq(tn, s/c)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{-3/5}{4/5}",
+         "sym": "Eq(tn, (-Rational(3,5))/Rational(4,5))",
+         "new": true
+        },
+        {
+         "tex": "&= -\\frac{3}{4}",
+         "sym": "Eq(tn, -Rational(3,4))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\tan\\theta = -\\frac{3}{4}"
+    },
+    "finalSym": "-Rational(3,4)",
+    "answerSym": "(-sqrt(1 - Rational(4,5)**2))/Rational(4,5)"
+   }
+  ]
+ },
+ {
+  "skill": "trig-exact-values",
+  "problems": [
+   {
+    "question": "Find the exact value of $\\sin 60^\\circ \\cos 30^\\circ + \\cos 60^\\circ \\sin 30^\\circ$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write each ratio as a surd or fraction",
+       "lines": [
+        {
+         "tex": "\\sin 60^\\circ\\cos 30^\\circ + \\cos 60^\\circ\\sin 30^\\circ &= \\frac{\\sqrt{3}}{2}\\times\\frac{\\sqrt{3}}{2} + \\frac{1}{2}\\times\\frac{1}{2}",
+         "sym": "sin(pi/3)*cos(pi/6)+cos(pi/3)*sin(pi/6)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply",
+       "lines": [
+        {
+         "tex": "&= \\frac{3}{4} + \\frac{1}{4}",
+         "sym": "Rational(3,4)+Rational(1,4)"
+        }
+       ]
+      },
+      {
+       "title": "Add",
+       "lines": [
+        {
+         "tex": "&= 1",
+         "sym": "1"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "1"
+    },
+    "finalSym": "1",
+    "answerSym": "sin(pi/3)*cos(pi/6)+cos(pi/3)*sin(pi/6)"
+   },
+   {
+    "question": "Find the exact value of $\\cos 210^\\circ$.\\nGive your answer in surd form.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the reference angle",
+       "lines": [
+        {
+         "text": "$210^\\circ$ is in the third quadrant."
+        },
+        {
+         "tex": "\\text{reference angle} &= 210^\\circ - 180^\\circ",
+         "sym": "210 - 180"
+        },
+        {
+         "tex": "&= 30^\\circ",
+         "sym": "30"
+        }
+       ]
+      },
+      {
+       "title": "Fix the sign",
+       "lines": [
+        {
+         "text": "Cosine is negative in the third quadrant."
+        },
+        {
+         "tex": "\\cos 210^\\circ &= -\\cos 30^\\circ",
+         "sym": "Eq(cos(7*pi/6), -cos(pi/6))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the exact value",
+       "lines": [
+        {
+         "tex": "&= -\\frac{\\sqrt{3}}{2}",
+         "sym": "-sqrt(3)/2",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-\\frac{\\sqrt{3}}{2}"
+    },
+    "finalSym": "-sqrt(3)/2",
+    "answerSym": "cos(7*pi/6)"
+   }
+  ]
+ }
+]

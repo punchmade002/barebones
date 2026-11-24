@@ -1,0 +1,1459 @@
+[
+ {
+  "skill": {
+   "id": "cubic-solve",
+   "title": "Solve a cubic with at least one integer root",
+   "level": "HL",
+   "input": "cubic equation",
+   "output": "all roots"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q2#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute x = 1 into f(x)",
+      "lines": [
+       {
+        "tex": "f(1) &= (1)^3 - 17(1)^2 + 80(1) - 64"
+       },
+       {
+        "tex": "&= 1 - 17 + 80 - 64"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "So $f(1) = 0$, which means $(x-1)$ is a factor of $f(x)$."
+       }
+      ]
+     },
+     {
+      "title": "Split the terms so (x - 1) can be taken out",
+      "lines": [
+       {
+        "tex": "f(x) &= x^3 - 17x^2 + 80x - 64"
+       },
+       {
+        "tex": "&= x^3 - x^2 - 16x^2 + 80x - 64"
+       },
+       {
+        "tex": "&= x^2(x-1) - 16x^2 + 80x - 64"
+       },
+       {
+        "tex": "&= x^2(x-1) - 16x^2 + 16x + 64x - 64"
+       },
+       {
+        "tex": "&= x^2(x-1) - 16x(x-1) + 64x - 64"
+       },
+       {
+        "tex": "&= x^2(x-1) - 16x(x-1) + 64(x-1)"
+       },
+       {
+        "tex": "&= (x-1)(x^2 - 16x + 64)"
+       }
+      ]
+     },
+     {
+      "title": "Solve the quadratic factor",
+      "lines": [
+       {
+        "text": "Set $f(x) = 0$. The factor $(x-1)$ gives $x = 1$, so look at the quadratic."
+       },
+       {
+        "tex": "x^2 - 16x + 64 &= 0"
+       },
+       {
+        "tex": "(x-8)(x-8) &= 0"
+       },
+       {
+        "tex": "x &= 8"
+       }
+      ]
+     }
+    ],
+    "final": "x = 8"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q6#(a)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set the functions equal",
+      "lines": [
+       {
+        "text": "The graphs meet where $k(x) = h(x)$."
+       },
+       {
+        "tex": "x^3 &= x"
+       },
+       {
+        "tex": "x^3 - x &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "x(x^2 - 1) &= 0"
+       },
+       {
+        "tex": "x(x-1)(x+1) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve and find the y-values",
+      "lines": [
+       {
+        "tex": "x &= 0, \\; 1, \\; -1"
+       },
+       {
+        "text": "Since $h(x) = x$, the $y$-value equals the $x$-value at each point."
+       },
+       {
+        "text": "The points are $(-1, -1)$, $(0, 0)$ and $(1, 1)$."
+       }
+      ]
+     }
+    ],
+    "final": "(-1,-1),\\ (0,0),\\ (1,1)"
+   },
+   {
+    "part": "practice-cubic-solve-1",
+    "level": "higher",
+    "year": null,
+    "question": "Solve the equation $x^3 - 3x^2 - 3x + 1 = 0$ for $x \\in \\mathbb{R}$.\nGive any irrational roots in surd form.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute $x = -1$ into $f(x)$",
+      "lines": [
+       {
+        "tex": "f(-1) &= (-1)^3 - 3(-1)^2 - 3(-1) + 1"
+       },
+       {
+        "tex": "&= -1 - 3 + 3 + 1"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "So $f(-1) = 0$ and $(x+1)$ is a factor of $f(x)$."
+       }
+      ]
+     },
+     {
+      "title": "Split the terms so $(x + 1)$ can be taken out",
+      "lines": [
+       {
+        "tex": "f(x) &= x^3 - 3x^2 - 3x + 1"
+       },
+       {
+        "tex": "&= x^3 + x^2 - 4x^2 - 3x + 1"
+       },
+       {
+        "tex": "&= x^2(x+1) - 4x^2 - 4x + x + 1"
+       },
+       {
+        "tex": "&= x^2(x+1) - 4x(x+1) + (x+1)"
+       },
+       {
+        "tex": "&= (x+1)(x^2 - 4x + 1)"
+       }
+      ]
+     },
+     {
+      "title": "Solve the quadratic factor with the formula",
+      "lines": [
+       {
+        "text": "The factor $(x+1)$ gives $x = -1$. For the quadratic, $a = 1$, $b = -4$, $c = 1$."
+       },
+       {
+        "tex": "x^2 - 4x + 1 &= 0"
+       },
+       {
+        "tex": "x &= \\frac{4 \\pm \\sqrt{16 - 4}}{2}"
+       },
+       {
+        "tex": "&= \\frac{4 \\pm \\sqrt{12}}{2}"
+       },
+       {
+        "tex": "&= \\frac{4 \\pm 2\\sqrt{3}}{2}"
+       },
+       {
+        "tex": "&= 2 \\pm \\sqrt{3}"
+       }
+      ]
+     }
+    ],
+    "final": "x = -1,\\ 2 + \\sqrt{3},\\ 2 - \\sqrt{3}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q4#(b)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the known root x = 2 to get a factor",
+      "lines": [
+       {
+        "text": "$A(2,0)$ is on the graph, so $x = 2$ is a root and $(x-2)$ is a factor."
+       },
+       {
+        "text": "B and C are where $f(x) = 0$. Split $f(x)$ so that every group contains $(x-2)$."
+       }
+      ]
+     },
+     {
+      "title": "Factor (x - 2) out of the cubic",
+      "lines": [
+       {
+        "tex": "f(x) &= 2x^3 - 27x^2 + 109x - 126"
+       },
+       {
+        "tex": "&= 2x^2(x-2) - 23x^2 + 109x - 126"
+       },
+       {
+        "tex": "&= 2x^2(x-2) - 23x(x-2) + 63x - 126"
+       },
+       {
+        "tex": "&= 2x^2(x-2) - 23x(x-2) + 63(x-2)"
+       },
+       {
+        "tex": "&= (x-2)(2x^2 - 23x + 63)"
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "tex": "2x^2 - 23x + 63 &= 2x^2 - 14x - 9x + 63"
+       },
+       {
+        "tex": "&= 2x(x-7) - 9(x-7)"
+       },
+       {
+        "tex": "&= (2x-9)(x-7)"
+       }
+      ]
+     },
+     {
+      "title": "Solve f(x) = 0",
+      "lines": [
+       {
+        "tex": "(x-2)(2x-9)(x-7) &= 0"
+       },
+       {
+        "tex": "x &= 2,\\ \\tfrac{9}{2},\\ 7"
+       },
+       {
+        "text": "$x = 2$ is point $A$, so $B$ and $C$ have $x = 4.5$ and $x = 7$ (B is left of C on the graph). Their $y$-coordinate is $0$."
+       }
+      ]
+     }
+    ],
+    "final": "B = \\left(\\tfrac{9}{2}, 0\\right), \\quad C = (7, 0)"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q5#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Substitute $x = -3$ into $f(x)$",
+      "lines": [
+       {
+        "tex": "f(-3) &= 2(-3)^3 + 5(-3)^2 - 4(-3) - 3"
+       },
+       {
+        "tex": "&= -54 + 45 + 12 - 3"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "Since $f(-3) = 0$, $x = -3$ is a root and $(x+3)$ is a factor."
+       }
+      ]
+     },
+     {
+      "title": "Divide $f(x)$ by $(x+3)$: first term",
+      "lines": [
+       {
+        "text": "Divide the leading terms."
+       },
+       {
+        "tex": "2x^3 \\div x &= 2x^2"
+       },
+       {
+        "text": "Multiply back and subtract."
+       },
+       {
+        "tex": "2x^2(x+3) &= 2x^3 + 6x^2"
+       },
+       {
+        "tex": "(2x^3 + 5x^2) - (2x^3 + 6x^2) &= -x^2"
+       }
+      ]
+     },
+     {
+      "title": "Second term",
+      "lines": [
+       {
+        "text": "Bring down $-4x$ and divide the leading terms."
+       },
+       {
+        "tex": "-x^2 \\div x &= -x"
+       },
+       {
+        "tex": "-x(x+3) &= -x^2 - 3x"
+       },
+       {
+        "tex": "(-x^2 - 4x) - (-x^2 - 3x) &= -x"
+       }
+      ]
+     },
+     {
+      "title": "Third term",
+      "lines": [
+       {
+        "text": "Bring down $-3$ and divide the leading terms."
+       },
+       {
+        "tex": "-x \\div x &= -1"
+       },
+       {
+        "tex": "-1(x+3) &= -x - 3"
+       },
+       {
+        "tex": "(-x - 3) - (-x - 3) &= 0"
+       },
+       {
+        "text": "The remainder is $0$, so the quotient is $2x^2 - x - 1$."
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "tex": "f(x) &= (x+3)(2x^2 - x - 1)"
+       },
+       {
+        "tex": "&= (x+3)(2x+1)(x-1)"
+       }
+      ]
+     },
+     {
+      "title": "Read off the roots",
+      "lines": [
+       {
+        "text": "Set each factor equal to $0$."
+       },
+       {
+        "tex": "x + 3 &= 0"
+       },
+       {
+        "tex": "x &= -3"
+       },
+       {
+        "tex": "2x + 1 &= 0"
+       },
+       {
+        "tex": "x &= -\\frac{1}{2}"
+       },
+       {
+        "tex": "x - 1 &= 0"
+       },
+       {
+        "tex": "x &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "x = -3,\\ -\\frac{1}{2},\\ 1"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q2#",
+    "level": "higher",
+    "year": 2015,
+    "marks": 25,
+    "steps": [
+     {
+      "title": "Test x = 1 in f(x)",
+      "lines": [
+       {
+        "text": "Try small whole numbers. Let $f(x) = x^3 - 3x^2 - 9x + 11$."
+       },
+       {
+        "tex": "f(1) &= 1^3 - 3(1)^2 - 9(1) + 11"
+       },
+       {
+        "tex": "&= 1 - 3 - 9 + 11"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "So $x = 1$ is a root and $(x - 1)$ is a factor."
+       }
+      ]
+     },
+     {
+      "title": "Write the other factor with an unknown",
+      "lines": [
+       {
+        "text": "The cubic has the form $(x-1)$ times a quadratic. The constant of the quadratic is $-11$, because $-1 \\times -11 = 11$."
+       },
+       {
+        "tex": "(x - 1)(x^2 + Ax - 11) &= x^3 - 3x^2 - 9x + 11"
+       }
+      ]
+     },
+     {
+      "title": "Expand the left-hand side",
+      "lines": [
+       {
+        "tex": "(x - 1)(x^2 + Ax - 11) &= x^3 + Ax^2 - 11x - x^2 - Ax + 11"
+       },
+       {
+        "tex": "&= x^3 + (A - 1)x^2 - (11 + A)x + 11"
+       }
+      ]
+     },
+     {
+      "title": "Compare the coefficients of x squared",
+      "lines": [
+       {
+        "tex": "A - 1 &= -3"
+       },
+       {
+        "tex": "A &= -2"
+       },
+       {
+        "text": "The other factor is $x^2 - 2x - 11$."
+       }
+      ]
+     },
+     {
+      "title": "Solve the quadratic with the formula",
+      "lines": [
+       {
+        "text": "$x^2 - 2x - 11 = 0$ does not factorise, so use $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = -2$, $c = -11$."
+       },
+       {
+        "tex": "x &= \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(1)(-11)}}{2(1)}"
+       },
+       {
+        "tex": "&= \\frac{2 \\pm \\sqrt{4 + 44}}{2}"
+       },
+       {
+        "tex": "&= \\frac{2 \\pm \\sqrt{48}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the surd",
+      "lines": [
+       {
+        "tex": "\\sqrt{48} &= \\sqrt{16} \\times \\sqrt{3}"
+       },
+       {
+        "tex": "&= 4\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Divide through by 2",
+      "lines": [
+       {
+        "tex": "x &= \\frac{2 \\pm 4\\sqrt{3}}{2}"
+       },
+       {
+        "tex": "&= 1 \\pm 2\\sqrt{3}"
+       },
+       {
+        "text": "The irrational solutions are $1 + 2\\sqrt{3}$ and $1 - 2\\sqrt{3}$, of the form $a + b\\sqrt{c}$ with $a = 1$, $b = \\pm 2$, $c = 3$."
+       }
+      ]
+     }
+    ],
+    "final": "x = 1,\\ 1 + 2\\sqrt{3},\\ 1 - 2\\sqrt{3}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cubic-unknown-coefficient",
+   "title": "Find unknown coefficients from given factors",
+   "level": "HL",
+   "input": "polynomial with unknowns + factor(s)",
+   "output": "unknown values"
+  },
+  "candidates": [
+   {
+    "part": "practice-cubic-unknown-coefficient-1",
+    "level": "higher",
+    "year": null,
+    "question": "$(x - 1)$ and $(x + 2)$ are factors of $f(x) = x^3 + px^2 + qx - 6$.\nFind the value of $p$ and the value of $q$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use the factor theorem for (x − 1)",
+      "lines": [
+       {
+        "text": "Since $(x - 1)$ is a factor, $f(1) = 0$."
+       },
+       {
+        "tex": "1 + p + q - 6 &= 0"
+       },
+       {
+        "tex": "p + q &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Use the factor theorem for (x + 2)",
+      "lines": [
+       {
+        "text": "Since $(x + 2)$ is a factor, $f(-2) = 0$."
+       },
+       {
+        "tex": "-8 + 4p - 2q - 6 &= 0"
+       },
+       {
+        "tex": "4p - 2q &= 14"
+       },
+       {
+        "tex": "2p - q &= 7"
+       }
+      ]
+     },
+     {
+      "title": "Add the two equations to eliminate q",
+      "lines": [
+       {
+        "tex": "(p + q) + (2p - q) &= 5 + 7"
+       },
+       {
+        "tex": "3p &= 12"
+       },
+       {
+        "tex": "p &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Find q",
+      "lines": [
+       {
+        "tex": "4 + q &= 5"
+       },
+       {
+        "tex": "q &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "p = 4, \\quad q = 1"
+   },
+   {
+    "part": "practice-cubic-unknown-coefficient-2",
+    "level": "higher",
+    "year": null,
+    "question": "$(x - 2)$ and $(x + 3)$ are factors of $f(x) = x^3 + ax^2 + bx + 12$, where $a, b \\in \\mathbb{Z}$.\nFind the value of $a$ and the value of $b$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use the factor theorem for $(x - 2)$",
+      "lines": [
+       {
+        "text": "Since $(x - 2)$ is a factor, $f(2) = 0$."
+       },
+       {
+        "tex": "8 + 4a + 2b + 12 &= 0"
+       },
+       {
+        "tex": "4a + 2b &= -20"
+       },
+       {
+        "tex": "2a + b &= -10"
+       }
+      ]
+     },
+     {
+      "title": "Use the factor theorem for $(x + 3)$",
+      "lines": [
+       {
+        "text": "Since $(x + 3)$ is a factor, $f(-3) = 0$."
+       },
+       {
+        "tex": "-27 + 9a - 3b + 12 &= 0"
+       },
+       {
+        "tex": "9a - 3b &= 15"
+       },
+       {
+        "tex": "3a - b &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Add the two equations to eliminate $b$",
+      "lines": [
+       {
+        "tex": "(2a + b) + (3a - b) &= -10 + 5"
+       },
+       {
+        "tex": "5a &= -5"
+       },
+       {
+        "tex": "a &= -1"
+       }
+      ]
+     },
+     {
+      "title": "Find $b$",
+      "lines": [
+       {
+        "tex": "2(-1) + b &= -10"
+       },
+       {
+        "tex": "b &= -8"
+       }
+      ]
+     }
+    ],
+    "final": "a = -1, \\quad b = -8"
+   },
+   {
+    "part": "practice-cubic-unknown-coefficient-3",
+    "level": "higher",
+    "year": null,
+    "question": "$(x + 1)$ and $(2x - 1)$ are factors of $f(x) = 2x^3 + px^2 + qx - 6$, where $p, q \\in \\mathbb{Z}$.\nFind the value of $p$ and the value of $q$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use the factor theorem for $(x + 1)$",
+      "lines": [
+       {
+        "text": "Since $(x + 1)$ is a factor, $f(-1) = 0$."
+       },
+       {
+        "tex": "2(-1)^3 + p(-1)^2 + q(-1) - 6 &= 0"
+       },
+       {
+        "tex": "-2 + p - q - 6 &= 0"
+       },
+       {
+        "tex": "p - q &= 8"
+       }
+      ]
+     },
+     {
+      "title": "Use the factor theorem for $(2x - 1)$",
+      "lines": [
+       {
+        "text": "Since $(2x - 1)$ is a factor, $f\\left(\\tfrac{1}{2}\\right) = 0$."
+       },
+       {
+        "tex": "2\\left(\\tfrac{1}{2}\\right)^3 + p\\left(\\tfrac{1}{2}\\right)^2 + q\\left(\\tfrac{1}{2}\\right) - 6 &= 0"
+       },
+       {
+        "tex": "\\tfrac{1}{4} + \\tfrac{p}{4} + \\tfrac{q}{2} - 6 &= 0"
+       },
+       {
+        "text": "Multiply by 4."
+       },
+       {
+        "tex": "1 + p + 2q - 24 &= 0"
+       },
+       {
+        "tex": "p + 2q &= 23"
+       }
+      ]
+     },
+     {
+      "title": "Subtract to eliminate $p$",
+      "lines": [
+       {
+        "tex": "(p + 2q) - (p - q) &= 23 - 8"
+       },
+       {
+        "tex": "3q &= 15"
+       },
+       {
+        "tex": "q &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Find $p$",
+      "lines": [
+       {
+        "tex": "p - 5 &= 8"
+       },
+       {
+        "tex": "p &= 13"
+       }
+      ]
+     }
+    ],
+    "final": "p = 13, \\quad q = 5"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q2#(b)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Use the factor theorem: f(-4) = 0",
+      "lines": [
+       {
+        "text": "Since $(x+4)$ is a factor, $f(-4) = 0$."
+       },
+       {
+        "tex": "(-4)^3 + q(-4)^2 - 22(-4) + 56 &= 0"
+       },
+       {
+        "tex": "-64 + 16q + 88 + 56 &= 0"
+       },
+       {
+        "tex": "16q + 80 &= 0"
+       },
+       {
+        "tex": "16q &= -80"
+       },
+       {
+        "tex": "q &= -5"
+       }
+      ]
+     },
+     {
+      "title": "Write f(x) with q = -5",
+      "lines": [
+       {
+        "tex": "x^3 - 5x^2 - 22x + 56 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Split the middle terms so (x + 4) appears in each group",
+      "lines": [
+       {
+        "text": "Write $-5x^2 = 4x^2 - 9x^2$ and $-22x = -36x + 14x$."
+       },
+       {
+        "tex": "x^3 + 4x^2 - 9x^2 - 36x + 14x + 56 &= 0"
+       },
+       {
+        "tex": "x^2(x+4) - 9x(x+4) + 14(x+4) &= 0"
+       },
+       {
+        "tex": "(x^2 - 9x + 14)(x+4) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "tex": "(x-2)(x-7)(x+4) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Read off the roots",
+      "lines": [
+       {
+        "tex": "x &= 2, \\quad x = 7, \\quad x = -4"
+       }
+      ]
+     }
+    ],
+    "final": "q = -5, \\quad \\text{Roots} = (-4,\\ 2,\\ 7)"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q1#(c)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the cubic as the quadratic times a linear factor",
+      "lines": [
+       {
+        "text": "A quadratic factor of a cubic leaves a linear factor $(x + k)$."
+       },
+       {
+        "tex": "(x^2 - px + 1)(x + k) &= x^3 - 2x - 3r"
+       }
+      ]
+     },
+     {
+      "title": "Expand the left-hand side",
+      "lines": [
+       {
+        "tex": "x^3 + kx^2 - px^2 - pkx + x + k &= x^3 - 2x - 3r"
+       },
+       {
+        "tex": "x^3 + (k - p)x^2 + (1 - pk)x + k &= x^3 - 2x - 3r"
+       }
+      ]
+     },
+     {
+      "title": "Compare the coefficients of x²",
+      "lines": [
+       {
+        "text": "The right-hand side has no $x^2$ term, so its coefficient is $0$."
+       },
+       {
+        "tex": "k - p &= 0"
+       },
+       {
+        "tex": "k &= p"
+       }
+      ]
+     },
+     {
+      "title": "Compare the coefficients of x to find p",
+      "lines": [
+       {
+        "tex": "1 - pk &= -2"
+       },
+       {
+        "tex": "1 - p^2 &= -2"
+       },
+       {
+        "tex": "p^2 &= 3"
+       },
+       {
+        "text": "Since $p < 0$, we take the negative root."
+       },
+       {
+        "tex": "p &= -\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Compare the constant terms to find r",
+      "lines": [
+       {
+        "tex": "k &= -3r"
+       },
+       {
+        "tex": "r &= -\\frac{k}{3}"
+       },
+       {
+        "tex": "r &= -\\frac{-\\sqrt{3}}{3}"
+       },
+       {
+        "tex": "r &= \\frac{\\sqrt{3}}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "p = -\\sqrt{3}, \\quad r = \\frac{\\sqrt{3}}{3}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-conjugate-properties",
+   "title": "Use conjugates of sums and products",
+   "level": "HL",
+   "input": "z₁, z₂",
+   "output": "conj(z₁ + z₂) = z̄₁ + z̄₂, conj(z₁z₂) = z̄₁z̄₂"
+  },
+  "candidates": [
+   {
+    "part": "practice-cx-conjugate-properties-1",
+    "level": "higher",
+    "year": null,
+    "question": "Let $z_1 = 2 + i$ and $z_2 = 1 - 4i$.\nFind $\\overline{z_1 z_2}$ and show that it equals $\\overline{z_1}\\,\\overline{z_2}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the product z₁z₂",
+      "lines": [
+       {
+        "tex": "z_1 z_2 &= (2 + i)(1 - 4i)"
+       },
+       {
+        "tex": "&= 2 - 8i + i - 4i^2"
+       },
+       {
+        "text": "Use $i^2 = -1$."
+       },
+       {
+        "tex": "&= 6 - 7i"
+       }
+      ]
+     },
+     {
+      "title": "Conjugate the product",
+      "lines": [
+       {
+        "text": "Change the sign of the imaginary part."
+       },
+       {
+        "tex": "\\overline{z_1 z_2} &= 6 + 7i"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the conjugates",
+      "lines": [
+       {
+        "tex": "\\overline{z_1} &= 2 - i"
+       },
+       {
+        "tex": "\\overline{z_2} &= 1 + 4i"
+       },
+       {
+        "tex": "\\overline{z_1}\\,\\overline{z_2} &= (2 - i)(1 + 4i)"
+       },
+       {
+        "tex": "&= 2 + 8i - i - 4i^2"
+       },
+       {
+        "tex": "&= 6 + 7i"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "Both are $6 + 7i$, so $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\overline{z_1 z_2} = 6 + 7i = \\overline{z_1}\\,\\overline{z_2}"
+   },
+   {
+    "part": "practice-cx-conjugate-properties-3",
+    "level": "higher",
+    "year": null,
+    "question": "Let $z = 1 + 2i$.\nBy finding $\\overline{z}$ first, find $\\overline{z^3}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the product rule for conjugates",
+      "lines": [
+       {
+        "text": "$\\overline{z^3} = \\overline{z}\\,\\overline{z}\\,\\overline{z} = (\\overline{z})^3$, so conjugate first and then cube."
+       }
+      ]
+     },
+     {
+      "title": "Find the conjugate",
+      "lines": [
+       {
+        "tex": "\\overline{z} &= 1 - 2i"
+       }
+      ]
+     },
+     {
+      "title": "Square it",
+      "lines": [
+       {
+        "tex": "(\\overline{z})^2 &= (1 - 2i)^2"
+       },
+       {
+        "tex": "&= 1 - 4i + 4i^2"
+       },
+       {
+        "tex": "&= -3 - 4i"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 1 - 2i again",
+      "lines": [
+       {
+        "tex": "(\\overline{z})^3 &= (-3 - 4i)(1 - 2i)"
+       },
+       {
+        "tex": "&= -3 + 6i - 4i + 8i^2"
+       },
+       {
+        "tex": "&= -11 + 2i"
+       }
+      ]
+     }
+    ],
+    "final": "\\overline{z^3} = -11 + 2i"
+   },
+   {
+    "part": "practice-cx-conjugate-properties-4",
+    "level": "higher",
+    "year": null,
+    "question": "$z_1 = 3 - 2i$ and $z_2 = -1 + 4i$.\nVerify that $\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the sum $z_1 + z_2$",
+      "lines": [
+       {
+        "tex": "z_1 + z_2 &= (3 - 2i) + (-1 + 4i)"
+       },
+       {
+        "tex": "&= 2 + 2i"
+       }
+      ]
+     },
+     {
+      "title": "Conjugate the sum",
+      "lines": [
+       {
+        "text": "Change the sign of the imaginary part."
+       },
+       {
+        "tex": "\\overline{z_1 + z_2} &= 2 - 2i"
+       }
+      ]
+     },
+     {
+      "title": "Add the conjugates",
+      "lines": [
+       {
+        "tex": "\\overline{z_1} &= 3 + 2i"
+       },
+       {
+        "tex": "\\overline{z_2} &= -1 - 4i"
+       },
+       {
+        "tex": "\\overline{z_1} + \\overline{z_2} &= (3 + 2i) + (-1 - 4i)"
+       },
+       {
+        "tex": "&= 2 - 2i"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "Both are $2 - 2i$, so $\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\overline{z_1 + z_2} = 2 - 2i = \\overline{z_1} + \\overline{z_2}"
+   },
+   {
+    "part": "practice-cx-conjugate-properties-2",
+    "level": "higher",
+    "year": null,
+    "question": "Let $z_1 = a + bi$ and $z_2 = c + di$, where $a, b, c, d \\in \\mathbb{R}$.\nProve that $\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Add z₁ and z₂",
+      "lines": [
+       {
+        "tex": "z_1 + z_2 &= (a + bi) + (c + di)"
+       },
+       {
+        "tex": "&= (a + c) + (b + d)i"
+       }
+      ]
+     },
+     {
+      "title": "Conjugate the sum",
+      "lines": [
+       {
+        "text": "Change the sign of the imaginary part."
+       },
+       {
+        "tex": "\\overline{z_1 + z_2} &= (a + c) - (b + d)i"
+       }
+      ]
+     },
+     {
+      "title": "Conjugate each number first",
+      "lines": [
+       {
+        "tex": "\\overline{z_1} &= a - bi"
+       },
+       {
+        "tex": "\\overline{z_2} &= c - di"
+       }
+      ]
+     },
+     {
+      "title": "Add the conjugates",
+      "lines": [
+       {
+        "tex": "\\overline{z_1} + \\overline{z_2} &= (a - bi) + (c - di)"
+       },
+       {
+        "tex": "&= (a + c) - (b + d)i"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "Both equal $(a + c) - (b + d)i$, so the two sides are equal for all $z_1, z_2$."
+       }
+      ]
+     }
+    ],
+    "final": "\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-conjugate-root",
+   "title": "Use the Conjugate Root Theorem to find all roots",
+   "level": "HL",
+   "input": "real polynomial + one complex root",
+   "output": "all roots"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q1#(a)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the conjugate root theorem",
+      "lines": [
+       {
+        "text": "The coefficients $a, b, c$ are real, so complex roots come in conjugate pairs."
+       },
+       {
+        "text": "$-4 + 3i$ is a root, so its conjugate is a root."
+       },
+       {
+        "tex": "\\overline{-4 + 3i} &= -4 - 3i"
+       }
+      ]
+     }
+    ],
+    "final": "-4 - 3i"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q5#(a)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down the other root",
+      "lines": [
+       {
+        "text": "The coefficients $p, q$ are real, so complex roots come in conjugate pairs."
+       },
+       {
+        "text": "The other root is $3 - 2i$."
+       }
+      ]
+     },
+     {
+      "title": "Sum of the roots gives p",
+      "lines": [
+       {
+        "text": "For $z^2 + pz + q = 0$: sum of roots $= -p$."
+       },
+       {
+        "tex": "-p &= (3+2i) + (3-2i)"
+       },
+       {
+        "tex": "-p &= 6"
+       },
+       {
+        "tex": "p &= -6"
+       }
+      ]
+     },
+     {
+      "title": "Product of the roots gives q",
+      "lines": [
+       {
+        "text": "Product of roots $= q$."
+       },
+       {
+        "tex": "q &= (3+2i)(3-2i)"
+       },
+       {
+        "tex": "&= 9 - 4i^2"
+       },
+       {
+        "tex": "&= 9 + 4"
+       },
+       {
+        "tex": "&= 13"
+       }
+      ]
+     }
+    ],
+    "final": "p = -6, \\quad q = 13"
+   },
+   {
+    "part": "practice-cx-conjugate-root-1",
+    "level": "higher",
+    "year": null,
+    "question": "The polynomial $z^3 - 5z^2 + 9z - 5$ has real coefficients.\nGiven that $2 - i$ is a root of $z^3 - 5z^2 + 9z - 5 = 0$, find all three roots.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the conjugate root theorem",
+      "lines": [
+       {
+        "text": "The coefficients are real, so complex roots come in conjugate pairs."
+       },
+       {
+        "tex": "\\overline{2 - i} &= 2 + i"
+       }
+      ]
+     },
+     {
+      "title": "Find the quadratic factor from the pair",
+      "lines": [
+       {
+        "text": "Sum of the pair, then product of the pair."
+       },
+       {
+        "tex": "(2 - i) + (2 + i) &= 4"
+       },
+       {
+        "tex": "(2 - i)(2 + i) &= 4 - i^2 = 5"
+       },
+       {
+        "text": "So the quadratic factor is $z^2 - 4z + 5$."
+       }
+      ]
+     },
+     {
+      "title": "Divide to find the linear factor",
+      "lines": [
+       {
+        "text": "Compare constant terms: $5 \\times (\\text{constant}) = -5$, so the constant is $-1$."
+       },
+       {
+        "tex": "z^3 - 5z^2 + 9z - 5 &= (z^2 - 4z + 5)(z - 1)"
+       }
+      ]
+     },
+     {
+      "title": "Read off the third root",
+      "lines": [
+       {
+        "tex": "z - 1 &= 0"
+       },
+       {
+        "tex": "z &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "z = 2 - i,\\ 2 + i,\\ 1"
+   },
+   {
+    "part": "practice-cx-conjugate-root-2",
+    "level": "higher",
+    "year": null,
+    "question": "The real polynomial $z^3 + 4z^2 + 9z + 10$ has $-1 + 2i$ as a root.\nFind the other two roots.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the conjugate root theorem",
+      "lines": [
+       {
+        "text": "The coefficients are real, so complex roots come in conjugate pairs."
+       },
+       {
+        "tex": "\\overline{-1 + 2i} &= -1 - 2i"
+       }
+      ]
+     },
+     {
+      "title": "Find the quadratic factor from the pair",
+      "lines": [
+       {
+        "text": "Sum of the pair, then product of the pair."
+       },
+       {
+        "tex": "(-1 + 2i) + (-1 - 2i) &= -2"
+       },
+       {
+        "tex": "(-1 + 2i)(-1 - 2i) &= 1 - 4i^2 = 5"
+       },
+       {
+        "text": "So the quadratic factor is $z^2 + 2z + 5$."
+       }
+      ]
+     },
+     {
+      "title": "Divide to find the linear factor",
+      "lines": [
+       {
+        "text": "Compare constant terms: $5 \\times (\\text{constant}) = 10$, so the constant is $2$."
+       },
+       {
+        "tex": "z^3 + 4z^2 + 9z + 10 &= (z^2 + 2z + 5)(z + 2)"
+       }
+      ]
+     },
+     {
+      "title": "Read off the third root",
+      "lines": [
+       {
+        "tex": "z + 2 &= 0"
+       },
+       {
+        "tex": "z &= -2"
+       }
+      ]
+     }
+    ],
+    "final": "z = -1 - 2i,\\ -2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-decimal-fraction",
+   "title": "Convert decimals and fractions",
+   "level": "OL",
+   "input": "terminating/recurring decimal or fraction",
+   "output": "equivalent form"
+  },
+  "candidates": [
+   {
+    "part": "practice-num-decimal-fraction-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\frac{7}{16}$ as a decimal.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Divide the numerator by the denominator",
+      "lines": [
+       {
+        "tex": "\\frac{7}{16} &= 7 \\div 16"
+       },
+       {
+        "tex": "&= 0.4375"
+       }
+      ]
+     }
+    ],
+    "final": "0.4375"
+   },
+   {
+    "part": "practice-num-decimal-fraction-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $0.625$ as a fraction in its simplest form.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write over a power of 10",
+      "lines": [
+       {
+        "tex": "0.625 &= \\frac{625}{1000}"
+       }
+      ]
+     },
+     {
+      "title": "Divide top and bottom by 125",
+      "lines": [
+       {
+        "tex": "&= \\frac{5}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{5}{8}"
+   },
+   {
+    "part": "practice-num-decimal-fraction-4",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $3.125$ as a fraction in its simplest form.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write over a power of 10",
+      "lines": [
+       {
+        "tex": "3.125 &= \\frac{3125}{1000}"
+       }
+      ]
+     },
+     {
+      "title": "Divide top and bottom by 125",
+      "lines": [
+       {
+        "tex": "&= \\frac{25}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{25}{8}"
+   },
+   {
+    "part": "practice-num-decimal-fraction-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $0.\\dot{3}\\dot{6}$ as a fraction in its simplest form.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Let $x$ equal the decimal and multiply by 100",
+      "lines": [
+       {
+        "text": "$x = 0.363636\\ldots$"
+       },
+       {
+        "text": "$100x = 36.363636\\ldots$"
+       }
+      ]
+     },
+     {
+      "title": "Subtract to remove the repeating part",
+      "lines": [
+       {
+        "tex": "100x - x &= 36.\\dot{3}\\dot{6} - 0.\\dot{3}\\dot{6}"
+       },
+       {
+        "tex": "99x &= 36"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$ and simplify",
+      "lines": [
+       {
+        "tex": "x &= \\frac{36}{99}"
+       },
+       {
+        "tex": "&= \\frac{4}{11}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{4}{11}"
+   }
+  ]
+ }
+]

@@ -1,0 +1,554 @@
+[
+ {
+  "skill": "geo-thm21",
+  "problems": [
+   {
+    "question": "$[AB]$ is a chord of a circle with centre $O$ and radius $10$ cm.\n$|AB| = 16$ cm.\nFind the distance from $O$ to the chord $AB$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Bisect the chord (Theorem 21)",
+       "lines": [
+        {
+         "text": "The perpendicular from the centre $O$ to the chord meets it at its midpoint $M$ (Theorem 21)."
+        },
+        {
+         "tex": "|AM| &= \\frac{1}{2} \\times 16",
+         "sym": "Rational(1,2)*16",
+         "new": true
+        },
+        {
+         "tex": "&= 8",
+         "sym": "8"
+        }
+       ]
+      },
+      {
+       "title": "Use Pythagoras in triangle $OMA$",
+       "lines": [
+        {
+         "text": "$OMA$ has a right angle at $M$ and hypotenuse $|OA| = 10$."
+        },
+        {
+         "tex": "|OM|^2 &= 10^2 - 8^2",
+         "sym": "Eq(OM**2, 10**2 - 8**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 100 - 64",
+         "sym": "Eq(OM**2, 100 - 64)"
+        },
+        {
+         "tex": "&= 36",
+         "sym": "Eq(OM**2, 36)"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root",
+       "lines": [
+        {
+         "tex": "|OM| &= 6",
+         "sym": "Eq(OM, 6)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|OM| = 6 \\text{ cm}"
+    },
+    "finalSym": "6",
+    "answerSym": "sqrt(10**2 - (16/2)**2)"
+   },
+   {
+    "question": "A circle has centre $O$ and radius $13$ cm.\n$M$ is the foot of the perpendicular from $O$ to a chord $[PQ]$, and $|OM| = 5$ cm.\nFind $|PQ|$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Pythagoras in triangle $OMP$",
+       "lines": [
+        {
+         "text": "$OM \\perp PQ$, so $OMP$ has a right angle at $M$ and hypotenuse $|OP| = 13$."
+        },
+        {
+         "tex": "|PM|^2 &= 13^2 - 5^2",
+         "sym": "Eq(PM**2, 13**2 - 5**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 169 - 25",
+         "sym": "Eq(PM**2, 169 - 25)"
+        },
+        {
+         "tex": "&= 144",
+         "sym": "Eq(PM**2, 144)"
+        }
+       ]
+      },
+      {
+       "title": "Find $|PM|$",
+       "lines": [
+        {
+         "tex": "|PM| &= 12",
+         "sym": "Eq(PM, 12)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Double it (Theorem 21)",
+       "lines": [
+        {
+         "text": "The perpendicular from the centre bisects the chord (Theorem 21), so $M$ is the midpoint of $[PQ]$."
+        },
+        {
+         "tex": "|PQ| &= 2 \\times 12",
+         "sym": "Eq(PQ, 2*12)",
+         "new": true
+        },
+        {
+         "tex": "&= 24",
+         "sym": "Eq(PQ, 24)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|PQ| = 24 \\text{ cm}"
+    },
+    "finalSym": "24",
+    "answerSym": "2*sqrt(13**2 - 5**2)"
+   },
+   {
+    "question": "A horizontal pipe has a circular cross-section.\nThe surface of the water in the pipe is a chord of the circle of length $48$ cm.\nThe water is $8$ cm deep at its deepest point, which is directly below the midpoint of the chord.\nFind the radius of the pipe.",
+    "level": "ordinary",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set up the right-angled triangle",
+       "lines": [
+        {
+         "text": "Let $O$ be the centre and $r$ the radius. The line from $O$ to the midpoint $M$ of the chord is perpendicular to the chord (Theorem 21), so it is the vertical line through the deepest point."
+        },
+        {
+         "text": "Half the chord is $24$ cm, and $|OM| = r - 8$."
+        }
+       ]
+      },
+      {
+       "title": "Use Pythagoras in the triangle with sides $r$, $24$ and $r-8$",
+       "lines": [
+        {
+         "tex": "r^2 &= 24^2 + (r-8)^2",
+         "sym": "Eq(r**2, 24**2 + (r-8)**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 576 + r^2 - 16r + 64",
+         "sym": "Eq(r**2, 576 + r**2 - 16*r + 64)"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $r$",
+       "lines": [
+        {
+         "tex": "16r &= 640",
+         "sym": "Eq(16*r, 640)"
+        },
+        {
+         "tex": "r &= 40",
+         "sym": "Eq(r, 40)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "r = 40 \\text{ cm}"
+    },
+    "finalSym": "40",
+    "answerSym": "(24**2 + 8**2)/(2*8)"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm12",
+  "problems": [
+   {
+    "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $DE \\parallel BC$.\n$|AD| = 6$ cm, $|DB| = 4$ cm and $|AE| = 9$ cm.\nFind $|EC|$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "State the ratio (Theorem 12)",
+       "lines": [
+        {
+         "text": "$DE \\parallel BC$, so $DE$ divides $[AB]$ and $[AC]$ in the same ratio (Theorem 12)."
+        },
+        {
+         "tex": "\\frac{|AD|}{|DB|} &= \\frac{|AE|}{|EC|}"
+        },
+        {
+         "tex": "\\frac{6}{4} &= \\frac{9}{|EC|}",
+         "sym": "Eq(Rational(6,4), 9/EC)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $|EC|$",
+       "lines": [
+        {
+         "tex": "6|EC| &= 36",
+         "sym": "Eq(6*EC, 36)"
+        },
+        {
+         "tex": "|EC| &= 6",
+         "sym": "Eq(EC, 6)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|EC| = 6 \\text{ cm}"
+    },
+    "finalSym": "6",
+    "answerSym": "9*4/6"
+   },
+   {
+    "question": "In triangle $ABC$, $|AC| = 15$ cm.\nThe point $D$ is on $[AB]$ and $E$ is on $[AC]$ with $DE \\parallel BC$.\n$|AD| : |DB| = 4 : 6$.\nFind $|AE|$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set up the ratio (Theorem 12)",
+       "lines": [
+        {
+         "text": "$DE \\parallel BC$, so $|AE| : |EC| = |AD| : |DB| = 4 : 6$ (Theorem 12)."
+        },
+        {
+         "text": "Let $|AE| = x$, so $|EC| = 15 - x$."
+        },
+        {
+         "tex": "\\frac{x}{15 - x} &= \\frac{4}{6}",
+         "sym": "Eq(x/(15 - x), Rational(4,6))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Cross-multiply and solve",
+       "lines": [
+        {
+         "tex": "6x &= 4(15 - x)",
+         "sym": "Eq(6*x, 4*(15 - x))"
+        },
+        {
+         "tex": "10x &= 60",
+         "sym": "Eq(10*x, 60)"
+        },
+        {
+         "tex": "x &= 6",
+         "sym": "Eq(x, 6)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|AE| = 6 \\text{ cm}"
+    },
+    "finalSym": "6",
+    "answerSym": "15*4/(4 + 6)"
+   }
+  ]
+ },
+ {
+  "skill": "geo-cor6",
+  "problems": [
+   {
+    "question": "Two circles touch externally at the point $T$.\nThe centres are $A$ and $B$, and the radii are $6$ cm and $9$ cm.\nFind $|AB|$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Corollary 6",
+       "lines": [
+        {
+         "text": "The two centres and the point of contact $T$ are collinear, with $T$ between $A$ and $B$ (Corollary 6)."
+        }
+       ]
+      },
+      {
+       "title": "Add the radii",
+       "lines": [
+        {
+         "tex": "|AB| &= |AT| + |TB|"
+        },
+        {
+         "tex": "&= 6 + 9",
+         "sym": "Eq(AB, 6 + 9)",
+         "new": true
+        },
+        {
+         "tex": "&= 15",
+         "sym": "Eq(AB, 15)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|AB| = 15 \\text{ cm}"
+    },
+    "finalSym": "15",
+    "answerSym": "6 + 9"
+   },
+   {
+    "question": "A circle with centre $A$ and radius $12$ cm contains a smaller circle with centre $B$ and radius $5$ cm.\nThe circles touch internally at the point $T$.\nFind $|AB|$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Corollary 6",
+       "lines": [
+        {
+         "text": "The centres $A$, $B$ and the point of contact $T$ are collinear, with $B$ between $A$ and $T$ (Corollary 6)."
+        }
+       ]
+      },
+      {
+       "title": "Subtract the radii",
+       "lines": [
+        {
+         "tex": "|AB| &= |AT| - |BT|"
+        },
+        {
+         "tex": "&= 12 - 5",
+         "sym": "Eq(AB, 12 - 5)",
+         "new": true
+        },
+        {
+         "tex": "&= 7",
+         "sym": "Eq(AB, 7)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|AB| = 7 \\text{ cm}"
+    },
+    "finalSym": "7",
+    "answerSym": "12 - 5"
+   },
+   {
+    "question": "The circle $c_1$ has centre $O(0,0)$ and passes through $T(3,4)$.\nThe circle $c_2$ has radius $10$ and touches $c_1$ externally at $T$.\nFind the coordinates of the centre of $c_2$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the radius of $c_1$",
+       "lines": [
+        {
+         "tex": "|OT|^2 &= 3^2 + 4^2",
+         "sym": "Eq(OT**2, 3**2 + 4**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 25",
+         "sym": "Eq(OT**2, 25)"
+        },
+        {
+         "text": "so the radius of $c_1$ is $5$."
+        }
+       ]
+      },
+      {
+       "title": "Use Corollary 6",
+       "lines": [
+        {
+         "text": "The centre $C$ of $c_2$ lies on the line $OT$, beyond $T$ (Corollary 6)."
+        },
+        {
+         "tex": "|OC| &= 5 + 10",
+         "sym": "Eq(OC, 5 + 10)",
+         "new": true
+        },
+        {
+         "tex": "&= 15",
+         "sym": "Eq(OC, 15)"
+        }
+       ]
+      },
+      {
+       "title": "Scale the point $T$",
+       "lines": [
+        {
+         "text": "$|OC| = 15 = 3 \\times |OT|$, so $C$ is $3$ times as far from $O$ as $T$ is, in the same direction."
+        },
+        {
+         "tex": "C &= (3 \\times 3, \\; 3 \\times 4)",
+         "sym": "[3*3, 3*4]",
+         "new": true
+        },
+        {
+         "tex": "&= (9, 12)",
+         "sym": "[9, 12]"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(9, 12)"
+    },
+    "finalSym": "(9, 12)",
+    "answerSym": "(3 + 10*3/5, 4 + 10*4/5)"
+   }
+  ]
+ },
+ {
+  "skill": "geo-cor5",
+  "problems": [
+   {
+    "question": "$A$, $B$, $C$ and $D$ are four points, in that order, on a circle.\n$\\angle ABC = 105^\\circ$.\nFind $\\angle ADC$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Corollary 5",
+       "lines": [
+        {
+         "text": "$ABCD$ is a cyclic quadrilateral, so opposite angles sum to $180^\\circ$ (Corollary 5)."
+        },
+        {
+         "tex": "\\angle ABC + \\angle ADC &= 180^\\circ"
+        }
+       ]
+      },
+      {
+       "title": "Solve",
+       "lines": [
+        {
+         "tex": "\\angle ADC &= 180^\\circ - 105^\\circ",
+         "sym": "Eq(ADC, 180 - 105)",
+         "new": true
+        },
+        {
+         "tex": "&= 75^\\circ",
+         "sym": "Eq(ADC, 75)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\angle ADC = 75^\\circ"
+    },
+    "finalSym": "75",
+    "answerSym": "180 - 105"
+   },
+   {
+    "question": "$ABCD$ is a cyclic quadrilateral.\n$\\angle DAB = (3x + 10)^\\circ$ and $\\angle BCD = (5x - 30)^\\circ$.\nFind $\\angle BCD$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Corollary 5",
+       "lines": [
+        {
+         "text": "Opposite angles of a cyclic quadrilateral sum to $180^\\circ$ (Corollary 5)."
+        },
+        {
+         "tex": "(3x + 10) + (5x - 30) &= 180",
+         "sym": "Eq((3*x + 10) + (5*x - 30), 180)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "8x - 20 &= 180",
+         "sym": "Eq(8*x - 20, 180)"
+        },
+        {
+         "tex": "8x &= 200",
+         "sym": "Eq(8*x, 200)"
+        },
+        {
+         "tex": "x &= 25",
+         "sym": "Eq(x, 25)"
+        }
+       ]
+      },
+      {
+       "title": "Find $\\angle BCD$",
+       "lines": [
+        {
+         "tex": "\\angle BCD &= 5(25) - 30",
+         "sym": "5*25 - 30",
+         "new": true
+        },
+        {
+         "tex": "&= 95^\\circ",
+         "sym": "95"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\angle BCD = 95^\\circ"
+    },
+    "finalSym": "95",
+    "answerSym": "5*Rational(180 + 20, 8) - 30"
+   },
+   {
+    "question": "$A$, $B$, $C$ and $D$ are points, in that order, on a circle.\nIn triangle $ACD$, $\\angle CAD = 35^\\circ$ and $\\angle ACD = 60^\\circ$.\nFind $\\angle ABC$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $\\angle ADC$ in triangle $ACD$",
+       "lines": [
+        {
+         "text": "The angles of a triangle sum to $180^\\circ$."
+        },
+        {
+         "tex": "\\angle ADC &= 180^\\circ - 35^\\circ - 60^\\circ",
+         "sym": "Eq(ADC, 180 - 35 - 60)",
+         "new": true
+        },
+        {
+         "tex": "&= 85^\\circ",
+         "sym": "Eq(ADC, 85)"
+        }
+       ]
+      },
+      {
+       "title": "Use Corollary 5",
+       "lines": [
+        {
+         "text": "$ABCD$ is a cyclic quadrilateral, so opposite angles sum to $180^\\circ$ (Corollary 5)."
+        },
+        {
+         "tex": "\\angle ABC &= 180^\\circ - 85^\\circ",
+         "sym": "Eq(ABC, 180 - 85)",
+         "new": true
+        },
+        {
+         "tex": "&= 95^\\circ",
+         "sym": "Eq(ABC, 95)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\angle ABC = 95^\\circ"
+    },
+    "finalSym": "95",
+    "answerSym": "180 - (180 - 35 - 60)"
+   }
+  ]
+ }
+]

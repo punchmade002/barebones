@@ -1,0 +1,572 @@
+[
+ {
+  "skill": "circ-eq-centre-radius",
+  "what": {
+   "say": [
+    "You give it a **centre** and a radius, and it writes the equation of the circle. It also works backwards: from the equation it reads off the centre and radius.",
+    "The key idea: every point on the circle is the same distance from the centre. In $(x-h)^2+(y-k)^2=r^2$, the centre is $(h, k)$ and the right-hand side is the radius squared."
+   ],
+   "in": "centre and radius",
+   "out": "$(x-h)^2+(y-k)^2=r^2$"
+  },
+  "how": {
+   "higher": "Higher level uses it as the first part of Paper 2 circle questions, usually 5 to 10 marks: read the centre and radius off an equation, or write the equation of a circle from a diagram, before the harder parts.",
+   "ordinary": "Ordinary level asks for it almost every year on Paper 2, as a part of its own worth 5 to 10 marks: write down the centre and radius, or write the equation from a centre and a point."
+  },
+  "example": {
+   "question": "A circle has centre $(-2, 3)$ and passes through the point $(1, 7)$.\nFind the equation of the circle.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the radius",
+      "say": "The radius is the distance from the centre to a point on the circle. Use the distance formula on $(-2, 3)$ and $(1, 7)$.",
+      "lines": [
+       {
+        "tex": "r &= \\hl{1}{\\sqrt{(1-(-2))^2+(7-3)^2}}",
+        "sym": "sqrt((1+2)**2+(7-3)**2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\sqrt{9+16}",
+        "sym": "sqrt(9+16)"
+       },
+       {
+        "tex": "&= \\hl{1}{5}",
+        "sym": "5"
+       }
+      ]
+     },
+     {
+      "title": "Read off the centre",
+      "say": "The centre $(-2, 3)$ gives $\\hl{2}{h=-2}$ and $\\hl{3}{k=3}$. Watch the signs: $(x-h)$ with $h=-2$ becomes $(x+2)$.",
+      "lines": [
+       {
+        "tex": "x-h &= x-(\\hl{2}{-2}) = x+2",
+        "sym": "x+2",
+        "new": true
+       },
+       {
+        "tex": "y-k &= y-\\hl{3}{3}",
+        "sym": "y-3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "say": "Put the centre and the radius $\\hl{1}{5}$ into $(x-h)^2+(y-k)^2=r^2$. The right side is the radius squared, $5^2=25$.",
+      "lines": [
+       {
+        "tex": "(x+2)^2+(y-3)^2 &= \\hl{1}{5}^2",
+        "sym": "Eq((x+2)**2+(y-3)**2,5**2)",
+        "new": true
+       },
+       {
+        "tex": "(x+2)^2+(y-3)^2 &= 25",
+        "sym": "Eq((x+2)**2+(y-3)**2,25)"
+       },
+       {
+        "text": "Check: $(1, 7)$ gives $3^2+4^2=25$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(x+2)^2+(y-3)^2=25"
+   },
+   "finalSym": "Eq((x+2)**2+(y-3)**2,25)",
+   "answerSym": "Eq((x+2)**2+(y-3)**2,(1+2)**2+(7-3)**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Give the radius as a surd or whole number, not a decimal. A decimal radius costs a mark even when everything else is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q2#(a)(i)",
+       "quote": "Radius given as a decimal, otherwise correct"
+      }
+     ]
+    },
+    {
+     "tip": "Watch the signs. Writing the centre as $(-4, 2)$ instead of $(4, -2)$ and doing nothing more earns only low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q2#(a)(i)",
+       "quote": "(−4, 2) and no further work"
+      }
+     ]
+    },
+    {
+     "tip": "When a circle must pass through a given point, substitute that point into the equation. That substitution alone earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q9#(a)(i)",
+       "quote": "some correct substitution into equation of circle"
+      }
+     ]
+    },
+    {
+     "tip": "Finding just the centre or just the radius still earns high partial credit, so write each one down as soon as you have it.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q4#(a)(i)",
+       "quote": "Centre or radius correct"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Marks go for the centre and the radius separately. Identifying $h$, $k$ or $r^2$ is already work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q4#(a)(i)",
+       "quote": "identifies h or k or r2"
+      }
+     ]
+    },
+    {
+     "tip": "A correct centre and radius with no working still earns full marks, but a wrong one with no working earns nothing. Show where each number came from.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q4#(a)(i)",
+       "quote": "Correct answer without supporting work"
+      }
+     ]
+    },
+    {
+     "tip": "Leaving the radius as $\\sqrt{169}$ instead of $13$ costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q2#(a)(i)",
+       "quote": "Answer as √169"
+      }
+     ]
+    },
+    {
+     "tip": "Write the full equation with the centre and radius substituted before you tidy it. That line has its own marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q4#(a)(iii)",
+       "quote": "Equation of circle fully substituted"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-line-origin",
+  "what": {
+   "say": [
+    "You give it a line and a circle with centre $(0, 0)$. It finds the points where they **meet**.",
+    "The key idea: at a meeting point $x$ and $y$ satisfy both equations. Put the line's $y$ into the circle and you get a quadratic in $x$ alone."
+   ],
+   "in": "line and $x^2+y^2=r^2$",
+   "out": "intersection points"
+  },
+  "how": {
+   "ordinary": "Ordinary level asked for it once, in 2023 on Paper 2: a 15 mark part where you find the two points where a line meets a circle."
+  },
+  "example": {
+   "question": "The line $y = x-1$ meets the circle $x^2+y^2=13$ at two points.\nFind the two points.",
+   "level": "ordinary",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Substitute for y",
+      "say": "The line gives $y$ in terms of $x$. Put $\\hl{1}{y = x-1}$ into the circle, so that only $x$ is left.",
+      "lines": [
+       {
+        "tex": "x^2+y^2 &= 13",
+        "sym": "Eq(x**2+y**2,13)",
+        "new": true
+       },
+       {
+        "tex": "x^2+(\\hl{1}{x-1})^2 &= 13",
+        "sym": "Eq(x**2+(x-1)**2,13)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Make a quadratic",
+      "say": "Expand the bracket, collect the terms and move everything to one side.",
+      "lines": [
+       {
+        "tex": "2x^2-2x+1 &= 13",
+        "sym": "Eq(2*x**2-2*x+1,13)"
+       },
+       {
+        "tex": "2x^2-2x-12 &= 0",
+        "sym": "Eq(2*x**2-2*x-12,0)"
+       },
+       {
+        "text": "Every term divides by 2. Do that first."
+       },
+       {
+        "tex": "x^2-x-6 &= 0",
+        "sym": "Eq(x**2-x-6,0)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Factorise. Each bracket gives one value of $\\hl{2}{x}$.",
+      "lines": [
+       {
+        "tex": "(x-3)(x+2) &= 0",
+        "sym": "Eq((x-3)*(x+2),0)"
+       },
+       {
+        "tex": "x &= \\hl{2}{3}",
+        "sym": "3",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{2}{-2}",
+        "sym": "-2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find each y",
+      "say": "Put each $\\hl{2}{x}$ back into the line $y=x-1$ to get its $\\hl{3}{y}$. Do not put it into the circle: that gives extra answers.",
+      "lines": [
+       {
+        "tex": "y &= 3-1 = \\hl{3}{2}",
+        "sym": "3-1",
+        "new": true
+       },
+       {
+        "tex": "y &= -2-1 = \\hl{3}{-3}",
+        "sym": "-2-1",
+        "new": true
+       },
+       {
+        "text": "The points are $(3, 2)$ and $(-2, -3)$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(3, 2) \\text{ and } (-2, -3)"
+   },
+   "finalSym": "[(3,2),(-2,-3)]",
+   "answerSym": "solve([x**2+y**2-13, y-x+1],[x,y])"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Start by writing one variable in terms of the other. It is the first of four marked steps.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q2#(b)",
+       "quote": "Express one variable in terms of the other"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute into the circle to get a quadratic. This is a step of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q2#(b)",
+       "quote": "Substitutes into the quadratic"
+      }
+     ]
+    },
+    {
+     "tip": "Finish both coordinates of both points. Marks are tied to finding the second variable too.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q2#(b)",
+       "quote": "Find values of second variable"
+      }
+     ]
+    },
+    {
+     "tip": "Trial and error is accepted: test both points in both equations. One point in one equation earns only a little.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q2#(b)",
+       "quote": "One point tested in both equations"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-chord-length",
+  "what": {
+   "say": [
+    "You give it a circle's radius and how far a chord is from the centre. It gives you the **length** of the chord.",
+    "The key idea: the perpendicular from the centre cuts the chord in half. That makes a right-angled triangle with the radius as hypotenuse, so Pythagoras finds half the chord."
+   ],
+   "in": "radius $r$ and distance $d$",
+   "out": "chord length"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 2 circle questions, 15 marks in 2021 and 2023: find the radius or a missing length from a chord, using the right angle at the midpoint."
+  },
+  "example": {
+   "question": "The line $3x-4y+20=0$ cuts the circle $(x-1)^2+(y-2)^2=34$ at the points $A$ and $B$.\nFind $|AB|$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Read the radius",
+      "say": "The circle has centre $(1, 2)$. The right side is $r^2$, so the radius is $\\hl{1}{\\sqrt{34}}$.",
+      "lines": [
+       {
+        "tex": "r &= \\hl{1}{\\sqrt{34}}",
+        "sym": "sqrt(34)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Distance centre to line",
+      "say": "The perpendicular distance $\\hl{2}{d}$ from the centre $(1, 2)$ to the line is the distance from the centre to the chord.",
+      "lines": [
+       {
+        "tex": "d &= \\frac{|3(1)-4(2)+20|}{\\sqrt{3^2+(-4)^2}}",
+        "sym": "Abs(3*1-4*2+20)/sqrt(3**2+(-4)**2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{15}{5}",
+        "sym": "15/5"
+       },
+       {
+        "tex": "&= \\hl{2}{3}",
+        "sym": "3"
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras",
+      "say": "The perpendicular from the centre bisects the chord. Take half the chord as $\\hl{3}{h}$. The radius $\\hl{1}{\\sqrt{34}}$ is the hypotenuse, with legs $\\hl{2}{3}$ and $\\hl{3}{h}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{r}^2 &= \\hl{2}{d}^2+\\hl{3}{h}^2",
+        "sym": "Eq(34,3**2+h**2)",
+        "new": true
+       },
+       {
+        "tex": "34 &= 9+h^2",
+        "sym": "Eq(34,9+h**2)"
+       },
+       {
+        "tex": "h^2 &= 25",
+        "sym": "Eq(h**2,25)"
+       },
+       {
+        "tex": "h &= \\hl{3}{5}",
+        "sym": "5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Double it",
+      "say": "$\\hl{3}{h}$ is only half the chord. The whole chord is twice as long.",
+      "lines": [
+       {
+        "tex": "|AB| &= 2\\times\\hl{3}{5}",
+        "sym": "2*5",
+        "new": true
+       },
+       {
+        "tex": "&= 10",
+        "sym": "10"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "10"
+   },
+   "finalSym": "10",
+   "answerSym": "2*sqrt(34-(Abs(3*1-4*2+20)/sqrt(3**2+4**2))**2)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"2\" font-family=\"Outfit\" font-size=\"16\"><circle cx=\"150\" cy=\"110\" r=\"80\"/><line x1=\"80.7\" y1=\"150\" x2=\"219.3\" y2=\"150\"/><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"150\"/><line x1=\"150\" y1=\"110\" x2=\"219.3\" y2=\"150\"/><path d=\"M150 140 L160 140 L160 150\" stroke-width=\"1.5\"/><g fill=\"#1A1916\" stroke=\"none\"><text x=\"144\" y=\"104\">C</text><text x=\"62\" y=\"166\">A</text><text x=\"224\" y=\"166\">B</text><text x=\"144\" y=\"170\">M</text><text x=\"156\" y=\"136\">d</text><text x=\"192\" y=\"118\">r</text></g></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Mark the right angle at the midpoint of the chord on your diagram. Doing it earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q3#(a)",
+       "quote": "Right angle indicated at"
+      }
+     ]
+    },
+    {
+     "tip": "Show the Pythagoras substitution even if you slip later. Some correct substitution earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q3#(a)",
+       "quote": "Theorem with some relevant substitution"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "circ-tangent-at-point",
+  "what": {
+   "say": [
+    "You give it a circle and a point on it. It gives you the **tangent** line at that point.",
+    "The key idea: the tangent is perpendicular to the radius at the point of contact. Find the slope of the radius, flip and negate it for the tangent, then write the line."
+   ],
+   "in": "circle and point $P$",
+   "out": "tangent line"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 2 almost every year, as a part of its own worth 10 marks or as a step inside a bigger circle question.",
+   "ordinary": "Ordinary level asked for it in 2018 and 2020 on Paper 2, as a 5 to 10 mark part: find the equation of the tangent at a given point."
+  },
+  "example": {
+   "question": "The circle $(x-1)^2+(y+2)^2=20$ passes through the point $P(3, -6)$.\nFind the equation of the tangent to the circle at $P$.\nGive your answer in the form $ax+by+c=0$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Slope of the radius",
+      "say": "The centre is $(1, -2)$. The radius runs from the centre to $P(3, -6)$. Find its slope.",
+      "lines": [
+       {
+        "tex": "m_r &= \\frac{-6-(-2)}{3-1}",
+        "sym": "(-6-(-2))/(3-1)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{-4}{2}",
+        "sym": "-4/2"
+       },
+       {
+        "tex": "&= \\hl{1}{-2}",
+        "sym": "-2"
+       }
+      ]
+     },
+     {
+      "title": "Slope of the tangent",
+      "say": "The tangent is perpendicular to the radius. Flip $\\hl{1}{-2}$ and change its sign.",
+      "lines": [
+       {
+        "tex": "m_t &= -\\frac{1}{\\hl{1}{-2}}",
+        "sym": "-1/(-2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{\\tfrac12}",
+        "sym": "1/2"
+       }
+      ]
+     },
+     {
+      "title": "Equation of the tangent",
+      "say": "Use $y-y_1=m(x-x_1)$ with the slope $\\hl{2}{\\tfrac12}$ and the point $P(3, -6)$.",
+      "lines": [
+       {
+        "tex": "y-(-6) &= \\hl{2}{\\tfrac12}(x-3)",
+        "sym": "Eq(y+6,(x-3)/2)",
+        "new": true
+       },
+       {
+        "tex": "2y+12 &= x-3",
+        "sym": "Eq(2*y+12,x-3)"
+       },
+       {
+        "text": "Multiply by 2 to clear the fraction, then move every term to one side."
+       },
+       {
+        "tex": "0 &= x-2y-15",
+        "sym": "Eq(0,x-2*y-15)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x-2y-15=0"
+   },
+   "finalSym": "Eq(x-2*y-15,0)",
+   "answerSym": "Eq(y+6,(-1/((-6-(-2))/(3-1)))*(x-3))"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"2\" font-family=\"Outfit\" font-size=\"16\"><circle cx=\"120\" cy=\"110\" r=\"70\"/><line x1=\"120\" y1=\"110\" x2=\"180.6\" y2=\"145\"/><line x1=\"150.6\" y1=\"197\" x2=\"210.6\" y2=\"93\"/><path d=\"M171.9 140 L166.9 148.7 L175.6 153.7\" stroke-width=\"1.5\"/><g fill=\"#1A1916\" stroke=\"none\"><circle cx=\"120\" cy=\"110\" r=\"2.5\"/><circle cx=\"180.6\" cy=\"145\" r=\"2.5\"/><text x=\"108\" y=\"104\">C</text><text x=\"186\" y=\"160\">P</text><text x=\"140\" y=\"140\">r</text><text x=\"214\" y=\"96\">tangent</text></g></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Find the slope of the radius first. The tangent slope only counts once that step is done.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q2#(a)(ii)",
+       "quote": "Step 3 is not correct if Step 2 is not completed"
+      }
+     ]
+    },
+    {
+     "tip": "Finish by writing the line in the form the question asks for. The last step is marked on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q2#(a)(ii)",
+       "quote": "Equation in required form"
+      }
+     ]
+    },
+    {
+     "tip": "When the tangent is vertical or horizontal, say so and draw the tangent or the radius. Marks go for seeing the equation is $x=$ a constant.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q9#(b)",
+       "quote": "draws in relevant tangent or normal"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute fully into the equation of a line. A fully substituted line earns high partial credit even if the tidying goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q4#(c)",
+       "quote": "Equation of line fully substituted"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Finding the slope of the radius and stopping earns only low partial credit. Carry on to the tangent slope and the line.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q4#(d)",
+       "quote": "Finds slope of radius and stops"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute fully into the formula for a line. That earns high partial credit on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q4#(d)",
+       "quote": "Eq. of line formula fully substituted"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

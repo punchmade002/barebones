@@ -1,0 +1,50 @@
+{
+ "logic-terms": {
+  "ok": true,
+  "fixes": []
+ },
+ "logic-terms-hl": {
+  "ok": true,
+  "fixes": []
+ },
+ "ind-laws": {
+  "ok": true,
+  "fixes": []
+ },
+ "ind-negative-fractional": {
+  "ok": true,
+  "fixes": []
+ },
+ "ind-express-as-power": {
+  "ok": true,
+  "fixes": []
+ },
+ "ind-solve-equation": {
+  "ok": true,
+  "fixes": []
+ },
+ "log-definition": {
+  "ok": true,
+  "fixes": []
+ },
+ "log-laws": {
+  "ok": true,
+  "fixes": []
+ },
+ "log-change-base": {
+  "ok": true,
+  "fixes": []
+ },
+ "log-solve": {
+  "ok": true,
+  "fixes": []
+ },
+ "log-solve-exponential": {
+  "ok": true,
+  "fixes": []
+ },
+ "ind-hidden-quadratic": {
+  "ok": true,
+  "fixes": []
+ }
+}

@@ -1,0 +1,216 @@
+[
+{"skill": "diff-inflection", "problems": [
+{"part": "maths-pp-2015-higher-p1-q7#(c)", "note": null,
+ "legend": {"1": "the second derivative, f″(x)", "2": "x at the inflection point", "3": "y at the inflection point (the height)"},
+ "steps": [
+  {"ask": "Where does the curve change its bend? Work out the second derivative from f′(x).",
+   "title": "Find the second derivative",
+   "lines": [{"tex": "f'(x) &= 0.0072x^2 + 0.036x"}, {"tex": "\\hl{1}{f''(x)} &= \\hl{1}{0.0144x + 0.036}"}]},
+  {"ask": "Where is the second derivative zero? Solve for x.",
+   "title": "Set f''(x) = 0 and solve",
+   "lines": [{"text": "A point of inflection occurs where $\\hl{1}{f''(x)} = 0$."}, {"tex": "\\hl{1}{0.0144x + 0.036} &= 0"}, {"tex": "0.0144x &= -0.036"}, {"tex": "\\hl{2}{x} &= \\hl{2}{-2.5}"}, {"text": "$\\hl{1}{f''(x)}$ is a line with positive slope, so it changes sign at $\\hl{2}{x = -2.5}$."}]},
+  {"ask": "You have x. Which function gives the y-value, and what is it at that x?",
+   "title": "Find the y-coordinate",
+   "lines": [{"tex": "\\hl{3}{f(\\hl{2}{-2.5})} &= 0.0024(\\hl{2}{-2.5})^3 + 0.018(\\hl{2}{-2.5})^2"}, {"tex": "&= -0.0375 + 0.1125"}, {"tex": "&= \\hl{3}{0.075}"}, {"text": "So the point of inflection is $(\\hl{2}{-2.5}, \\hl{3}{0.075})$."}]}
+ ],
+ "final": "(\\hl{2}{-2.5},\\ \\hl{3}{0.075})",
+ "graph": {"f": "0.0024*x**3 + 0.018*x**2", "box": [-6, 0.2, 1, -0.05], "tangent": true, "points": [{"x": -2.5, "y": 0.075, "name": "inflection (-2.5, 0.075)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}},
+{"part": "maths-pp-2021-higher-p1-q8#(b)(iii)", "note": "This one is a height h(x) in metres, so it is set in a real context rather than bare algebra. The steps stay the same: set the second derivative to zero, then find the height at that x.",
+ "legend": {"1": "the second derivative, h″(x)", "2": "x at the inflection point", "3": "y at the inflection point (the height)"},
+ "steps": [
+  {"ask": "Which derivative of h(x) must be zero at an inflection point, and what x does that give?",
+   "title": "Set h''(x) = 0 to find the inflection point",
+   "lines": [{"tex": "\\hl{1}{0.006x - 0.24} &= 0"}, {"tex": "0.006x &= 0.24"}, {"tex": "\\hl{2}{x} &= \\hl{2}{40}"}]},
+  {"ask": "Which function gives the height? Put x = 40 into that one.",
+   "title": "Find the height at x = 40",
+   "lines": [{"tex": "\\hl{3}{h(\\hl{2}{40})} &= 0.001(\\hl{2}{40})^3 - 0.12(\\hl{2}{40})^2 + 3.6(\\hl{2}{40}) + 5"}, {"tex": "&= 64 - 192 + 144 + 5"}, {"tex": "&= \\hl{3}{21}"}]}
+ ],
+ "final": "\\hl{3}{21}\\ \\text{m}",
+ "graph": {"f": "0.001*x**3 - 0.12*x**2 + 3.6*x + 5", "box": [0, 42, 70, 0], "tangent": true, "points": [{"x": 40, "y": 21, "name": "inflection (40, 21)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}},
+{"part": "maths-pp-2020-higher-p1-q4#(c)", "note": "Back to bare algebra, with whole numbers rather than decimals. The method is the same, and the last step checks the point on the line g(x).",
+ "legend": {"1": "the second derivative, f″(x)", "2": "x at the inflection point", "3": "y at the inflection point (the height)"},
+ "steps": [
+  {"ask": "Where does the curve change its bend? Differentiate f′(x) once more and set the result to zero.",
+   "title": "Find the point of inflection: set f''(x) = 0",
+   "lines": [{"tex": "f'(x) &= 3x^2 - 18x + 15"}, {"tex": "\\hl{1}{f''(x)} &= \\hl{1}{6x - 18}"}, {"tex": "\\hl{1}{6x - 18} &= 0"}, {"tex": "\\hl{2}{x} &= \\hl{2}{3}"}]},
+  {"ask": "You have x = 3. Which function gives y, and what is its value there?",
+   "title": "Find the y-coordinate",
+   "lines": [{"tex": "\\hl{3}{f(\\hl{2}{3})} &= 27 - 81 + 45 + 8"}, {"tex": "\\hl{3}{f(\\hl{2}{3})} &= \\hl{3}{-1}"}, {"text": "The point of inflection is $(\\hl{2}{3}, \\hl{3}{-1})$."}]},
+  {"ask": "Put the point into 8x + y − 23. What should you get if it lies on the line?",
+   "title": "Test the point in g(x)",
+   "lines": [{"text": "Substitute $(\\hl{2}{3}, \\hl{3}{-1})$ into $8x + y - 23$."}, {"tex": "8(\\hl{2}{3}) + (\\hl{3}{-1}) - 23 &= 24 - \\hl{3}{1} - 23"}, {"tex": "&= 0"}, {"text": "So $(\\hl{2}{3},\\hl{3}{-1})$ lies on $g(x)$."}]}
+ ],
+ "final": "(\\hl{2}{3}, \\hl{3}{-1}) \\in g(x)",
+ "graph": {"f": "x**3 - 9*x**2 + 15*x + 8", "box": [0, 18, 6, -20], "tangent": true, "points": [{"x": 3, "y": -1, "name": "inflection (3, -1)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}}
+]},
+{"skill": "diff-optimisation", "problems": [
+{"part": "maths-pp-2015-ordinary-p1-q8#(d)(i)", "note": null,
+ "legend": {"1": "the rate of change, dp/dx", "2": "x at the maximum (barrels)"},
+ "steps": [
+  {"ask": "Differentiate p with respect to x. What do you get for $\\frac{dp}{dx}$?",
+   "title": "Differentiate the profit function",
+   "lines": [{"tex": "p &= 96x - 0.03x^2"}, {"tex": "\\hl{1}{\\frac{dp}{dx}} &= \\hl{1}{96 - 0.06x}"}]},
+  {"ask": "At the maximum, what is the rate of change of profit? Use that to find x.",
+   "title": "Set the derivative equal to zero",
+   "lines": [{"text": "The maximum is where the slope is zero."}, {"tex": "\\hl{1}{96 - 0.06x} &= 0"}, {"tex": "0.06x &= 96"}, {"tex": "\\hl{2}{x} &= \\hl{2}{\\frac{96}{0.06}}"}, {"tex": "\\hl{2}{x} &= \\hl{2}{1600}"}]}
+ ],
+ "final": "\\hl{2}{1600} \\text{ barrels}",
+ "graph": null},
+{"part": "maths-pp-2021-higher-p1-q10#(a)(iii)", "note": "This one is a volume V(t) rather than profit, and the derivative is again linear. The new step is checking the maximum with the second derivative: V″(t) = −6 is negative, so it is a maximum.",
+ "legend": {"1": "the rate of change, V′(t)", "2": "t at the maximum"},
+ "steps": [
+  {"ask": "What is the rate of change V′(t) at a maximum? Set it to zero and solve for t.",
+   "title": "Set V'(t) = 0 for a maximum",
+   "lines": [{"tex": "\\hl{1}{41 - 6t} &= 0"}, {"tex": "41 &= 6t"}, {"tex": "\\hl{2}{t} &= \\hl{2}{\\frac{41}{6}}"}]},
+  {"ask": "What sign must the second derivative have at a maximum? Check it at this t.",
+   "title": "Check that it is a maximum",
+   "lines": [{"tex": "V''(t) &= -6"}, {"text": "$V''(t) < 0$, so the volume is a maximum at $\\hl{2}{t = \\frac{41}{6}}$."}]}
+ ],
+ "final": "\\hl{2}{t = \\frac{41}{6}}",
+ "graph": null},
+{"part": "maths-pp-2018-ordinary-p1-q8#(e)(iii)", "note": "The rate of change is now a quadratic, so you must factorise and reject the root outside 0 ≤ t ≤ 9. The rest is the same: set the rate to zero, then substitute back into the amount.",
+ "legend": {"1": "the rate of change, C′(t)", "2": "t at the maximum", "3": "the maximum amount, C(6)"},
+ "steps": [
+  {"ask": "At a maximum, what must the rate of change equal? Write that as an equation in t.",
+   "title": "Set the rate of change equal to 0",
+   "lines": [{"text": "The maximum is where the rate of change is zero."}, {"tex": "\\hl{1}{-3t^2 + 9t + 54} &= 0"}]},
+  {"ask": "Divide out the −3 and factorise. Which root lies inside 0 ≤ t ≤ 9?",
+   "title": "Divide by −3 and factorise",
+   "lines": [{"tex": "t^2 - 3t - 18 &= 0"}, {"tex": "(t-6)(t+3) &= 0"}, {"tex": "\\hl{2}{t} &= \\hl{2}{6} \\text{ or } t = -3"}, {"text": "$t = -3$ is outside $0 \\le t \\le 9$, so $\\hl{2}{t = 6}$."}]},
+  {"ask": "Substitute the maximum time into the amount function C(t). What do you get?",
+   "title": "Find the amount at t = 6",
+   "lines": [{"tex": "\\hl{3}{C(\\hl{2}{6})} &= -(\\hl{2}{6})^3 + 4.5(\\hl{2}{6})^2 + 54(\\hl{2}{6})"}, {"tex": "&= -216 + 162 + 324"}, {"tex": "&= \\hl{3}{270}"}]}
+ ],
+ "final": "\\hl{3}{270} \\text{ units}",
+ "graph": {"f": "-x**3 + 4.5*x**2 + 54*x", "box": [-1, 300, 10, -60], "tangent": true, "points": [{"x": 6, "y": 270, "name": "max (6, 270)"}], "line": null, "slots": {"x": 2, "y": 3, "line": null}}}
+]},
+{"skill": "diff-rates-of-change", "problems": [
+{"part": "maths-pp-2018-ordinary-p1-q8#(e)(ii)", "note": null,
+ "legend": {"1": "the rate of change, C′(t)", "2": "the time t", "3": "the rate at that time"},
+ "steps": [
+  {"ask": "Substitute the time into the rate of change C′(t). What do you get?",
+   "title": "Substitute t = 4 into C'(t)",
+   "lines": [{"tex": "\\hl{1}{C'(\\hl{2}{4})} &= -3(\\hl{2}{4})^2 + 9(\\hl{2}{4}) + 54"}, {"tex": "&= -48 + 36 + 54"}, {"tex": "&= \\hl{3}{42}"}]}
+ ],
+ "final": "\\hl{3}{42} \\text{ units per hour}",
+ "graph": null},
+{"part": "maths-pp-2018-ordinary-p1-q8#(e)(iv)", "note": "Same amount function, now at t = 7 instead of t = 4. The answer is negative this time, so the explanation step is new.",
+ "legend": {"1": "the rate of change, C′(t)", "2": "the time t", "3": "the rate at that time"},
+ "steps": [
+  {"ask": "Substitute t = 7 into the rate of change. What sign will the answer have?",
+   "title": "Substitute t = 7 into C'(t)",
+   "lines": [{"tex": "\\hl{1}{C'(\\hl{2}{7})} &= -3(\\hl{2}{7})^2 + 9(\\hl{2}{7}) + 54"}, {"tex": "&= -147 + 63 + 54"}, {"tex": "&= \\hl{3}{-30}"}]},
+  {"ask": "What does a negative rate of change tell you about the amount of the drug?",
+   "title": "Explain",
+   "lines": [{"text": "$\\hl{1}{C'(\\hl{2}{7})} = \\hl{3}{-30}$ units per hour. The rate of change is negative, so the amount of the drug is decreasing after 7 hours."}]}
+ ],
+ "final": "\\hl{1}{C'(\\hl{2}{7})} = \\hl{3}{-30} \\text{ units per hour, which is negative, so the amount is decreasing}",
+ "graph": null},
+{"part": "maths-pp-2019-ordinary-p1-q7#(d)(ii)", "note": "This is the velocity of a ball, and the question asks for speed, so the minus sign is dropped at the end. The method is the same: substitute the time into the derivative.",
+ "legend": {"1": "the rate of change (velocity), f′(t)", "2": "the time t", "3": "the rate at that time", "4": "the speed, the size of the velocity"},
+ "steps": [
+  {"ask": "What is the velocity at t = 4? Substitute into f′(t).",
+   "title": "Substitute t = 4 into f'(t)",
+   "lines": [{"text": "The derivative $\\hl{1}{f'(t)}$ is the velocity of the ball."}, {"tex": "\\hl{1}{f'(\\hl{2}{4})} &= -8(\\hl{2}{4}) + 16"}, {"tex": "&= -32 + 16"}, {"tex": "&= \\hl{3}{-16}"}]},
+  {"ask": "The velocity came out negative. What is the question asking for, and how do you get it from −16?",
+   "title": "Take the speed",
+   "lines": [{"text": "Speed is the size of the velocity, so ignore the minus sign (the ball is moving downwards)."}, {"tex": "\\hl{4}{\\text{speed}} &= \\hl{4}{16}"}]}
+ ],
+ "final": "\\hl{4}{16} \\text{ m/s}",
+ "graph": null}
+]},
+{"skill": "diff-related-rates", "problems": [
+{"part": "maths-pp-2016-higher-p1-q7#(a)(i)", "note": null,
+ "legend": {"1": "the known rate, dV/dt", "2": "the radius r at that moment", "3": "the rate asked for, dr/dt"},
+ "steps": [
+  {"ask": "How does the volume change as the radius changes? Differentiate V with respect to r.",
+   "title": "Differentiate the volume of a sphere",
+   "lines": [{"tex": "V &= \\frac{4}{3}\\pi \\hl{2}{r}^3"}, {"tex": "\\frac{dV}{dr} &= 4\\pi \\hl{2}{r}^2"}]},
+  {"ask": "Which rate do you have, and which one do you need? Link them with the chain rule.",
+   "title": "Use the chain rule for the rate of change of the radius",
+   "lines": [{"text": "The rate given is $\\hl{1}{\\frac{dV}{dt} = 250}$, so we need $\\hl{3}{\\frac{dr}{dt}} = \\frac{dr}{dV}\\times\\hl{1}{\\frac{dV}{dt}}$."}, {"tex": "\\hl{3}{\\frac{dr}{dt}} &= \\frac{1}{4\\pi \\hl{2}{r}^2}\\times \\hl{1}{250}"}]},
+  {"ask": "Put the radius at this moment into your chain-rule expression and simplify.",
+   "title": "Substitute r = 20",
+   "lines": [{"tex": "\\hl{3}{\\frac{dr}{dt}} &= \\frac{\\hl{1}{250}}{4\\pi (\\hl{2}{20})^2}"}, {"tex": "&= \\frac{\\hl{1}{250}}{1600\\pi}"}, {"tex": "&= \\hl{3}{\\frac{5}{32\\pi}}"}]}
+ ],
+ "final": "\\hl{3}{\\frac{5}{32\\pi}} \\text{ cm/s}",
+ "graph": null},
+{"part": "maths-pp-2016-higher-p1-q7#(a)(ii)", "note": "The question now asks for the rate of the surface area, not the radius, and the known rate is dr/dt from the problem before. What stays the same is the chain rule.",
+ "legend": {"1": "the known rate, dr/dt", "2": "the radius r at that moment", "3": "the rate asked for, dA/dt"},
+ "steps": [
+  {"ask": "How does the surface area change as the radius changes? Differentiate A with respect to r.",
+   "title": "Differentiate the surface area of a sphere",
+   "lines": [{"tex": "A &= 4\\pi \\hl{2}{r}^2"}, {"tex": "\\frac{dA}{dr} &= 8\\pi \\hl{2}{r}"}]},
+  {"ask": "Which rate do you know, and how does it connect to the rate of change of area?",
+   "title": "Use the chain rule with the result from part (i)",
+   "lines": [{"text": "$\\hl{3}{\\frac{dA}{dt}} = \\frac{dA}{dr}\\times\\hl{1}{\\frac{dr}{dt}}$, and $\\hl{1}{\\frac{dr}{dt} = \\frac{5}{32\\pi}}$ when $\\hl{2}{r = 20}$."}, {"tex": "\\hl{3}{\\frac{dA}{dt}} &= 8\\pi(\\hl{2}{20})\\times\\hl{1}{\\frac{5}{32\\pi}}"}, {"tex": "&= \\frac{800\\pi}{32\\pi}"}, {"tex": "&= \\hl{3}{25}"}]}
+ ],
+ "final": "\\hl{3}{25} \\text{ cm}^2/\\text{s}",
+ "graph": null},
+{"part": "maths-pp-2021-higher-p1-q9#(d)", "note": "The shape is now a cube and the volume is shrinking, so the known rate is negative. The chain rule works the same way, linking the volume rate to the side length.",
+ "legend": {"1": "the known rate, dV/dt", "2": "the side length x at that moment", "3": "the rate asked for, dx/dt"},
+ "steps": [
+  {"ask": "Which way is the volume changing here, and what is V as a function of x?",
+   "title": "Write down the rates",
+   "lines": [{"text": "The volume is decreasing, so the rate is negative."}, {"tex": "\\hl{1}{\\frac{dV}{dt}} &= \\hl{1}{-\\frac{1}{20}}"}, {"tex": "V &= \\hl{2}{x}^3"}, {"tex": "\\frac{dV}{dx} &= 3\\hl{2}{x}^2"}]},
+  {"ask": "What side length gives a volume of 1/64?",
+   "title": "Find the side length when V = 1/64",
+   "lines": [{"tex": "\\hl{2}{x}^3 &= \\frac{1}{64}"}, {"tex": "\\hl{2}{x} &= \\hl{2}{\\frac{1}{4}}"}]},
+  {"ask": "How do you get dx/dt from dV/dt, using dV/dx? Write it in terms of x.",
+   "title": "Use the chain rule",
+   "lines": [{"tex": "\\hl{3}{\\frac{dx}{dt}} &= \\hl{1}{\\frac{dV}{dt}} \\div \\frac{dV}{dx}"}, {"tex": "&= \\hl{1}{-\\frac{1}{20}} \\div 3\\hl{2}{x}^2"}, {"tex": "&= -\\frac{1}{60\\hl{2}{x}^2}"}]},
+  {"ask": "Substitute the side length into the expression. What do you get?",
+   "title": "Substitute x = 1/4",
+   "lines": [{"tex": "\\hl{3}{\\frac{dx}{dt}} &= -\\frac{1}{60\\left(\\hl{2}{\\frac{1}{4}}\\right)^2}"}, {"tex": "&= -\\frac{1}{\\frac{15}{4}}"}, {"tex": "&= \\hl{3}{-\\frac{4}{15}}"}]}
+ ],
+ "final": "\\hl{3}{-\\frac{4}{15}}\\ \\text{cm/sec}",
+ "graph": null}
+]},
+{"skill": "diff-slope-tangent", "problems": [
+{"part": "maths-pp-2023-ordinary-p1-q4#(b)(ii)", "note": null,
+ "legend": {"1": "the slope, f′(a)", "2": "x of the point", "3": "y of the point"},
+ "steps": [
+  {"ask": "The slope of the tangent is the derivative at x = 2. Find the derivative, then put x = 2 in. What is the slope?",
+   "title": "Find the slope at x = 2",
+   "lines": [{"text": "The slope of the tangent is $\\hl{1}{h'(2)}$."}, {"tex": "\\hl{1}{h'(\\hl{2}{2})} &= 3(\\hl{2}{2})^2 + 4(\\hl{2}{2}) - 1"}, {"tex": "&= 12 + 8 - 1"}, {"tex": "&= \\hl{1}{19}"}]},
+  {"ask": "Which formula gives a line from a point and a slope? Put the point and slope in.",
+   "title": "Use the point-slope formula",
+   "lines": [{"text": "With $\\hl{1}{m = 19}$ and point $(\\hl{2}{2}, \\hl{3}{6})$: $y - y_1 = m(x - x_1)$."}, {"tex": "y - \\hl{3}{6} &= \\hl{1}{19}(x - \\hl{2}{2})"}]},
+  {"ask": "Expand the bracket and move every term to one side, giving ax + by + c = 0.",
+   "title": "Rearrange (optional)",
+   "lines": [{"tex": "y - \\hl{3}{6} &= \\hl{1}{19}x - 38"}, {"tex": "0 &= \\hl{1}{19}x - y - 32"}]}
+ ],
+ "final": "\\hl{1}{19}x - y - 32 = 0",
+ "graph": null},
+{"part": "maths-pp-2020-ordinary-p1-q6#(a)(iii)", "note": "The slope is given in the question, so there is no derivative step. The point-slope formula and the rearranging stay the same.",
+ "legend": {"1": "the slope, f′(a)", "2": "x of the point", "3": "y of the point"},
+ "steps": [
+  {"ask": "Which values are the slope and the point here? Put them into the point-slope formula.",
+   "title": "Write the line through (1, -5) with slope 7",
+   "lines": [{"text": "Use $y - y_1 = m(x - x_1)$ with $\\hl{1}{m = 7}$ and $(x_1, y_1) = (\\hl{2}{1}, \\hl{3}{-5})$."}, {"tex": "y - (\\hl{3}{-5}) &= \\hl{1}{7}(x - \\hl{2}{1})"}, {"tex": "y + 5 &= \\hl{1}{7}(x - \\hl{2}{1})"}]},
+  {"ask": "Collect every term on one side to reach ax + by + c = 0.",
+   "title": "Rearrange into the form ax + by + c = 0",
+   "lines": [{"tex": "y + 5 &= \\hl{1}{7}x - 7"}, {"tex": "0 &= \\hl{1}{7}x - 7 - y - 5"}, {"tex": "\\hl{1}{7}x - y - 12 &= 0"}]}
+ ],
+ "final": "\\hl{1}{7}x - y - 12 = 0",
+ "graph": null},
+{"part": "maths-pp-2016-ordinary-p1-q4#(c)(ii)", "note": "The answer is now asked in the form y = mx + c, not ax + by + c = 0. The slope and point change, but the steps are otherwise the same.",
+ "legend": {"1": "the slope, f′(a)", "2": "x of the point", "3": "y of the point"},
+ "steps": [
+  {"ask": "What is the point-slope formula, and what are the slope and the point here?",
+   "title": "Use the point and the slope",
+   "lines": [{"text": "The slope is $\\hl{1}{m = 3}$ and the point is $(\\hl{2}{1}, \\hl{3}{7})$."}, {"tex": "y - y_1 &= m(x - x_1)"}]},
+  {"ask": "Put the slope and point into the formula. Which numbers go where?",
+   "title": "Substitute",
+   "lines": [{"tex": "y - \\hl{3}{7} &= \\hl{1}{3}(x - \\hl{2}{1})"}]},
+  {"ask": "Multiply the bracket out. What is the right-hand side?",
+   "title": "Multiply out the bracket",
+   "lines": [{"tex": "y - \\hl{3}{7} &= \\hl{1}{3}x - 3"}]},
+  {"ask": "What must you add to both sides to get y by itself?",
+   "title": "Add 7 to both sides",
+   "lines": [{"tex": "y &= \\hl{1}{3}x + 4"}]}
+ ],
+ "final": "y = \\hl{1}{3}x + 4",
+ "graph": null}
+]}
+]

@@ -1,0 +1,1840 @@
+[
+ {
+  "skill": {
+   "id": "cubic-solve",
+   "title": "Solve a cubic with at least one integer root",
+   "level": "HL",
+   "input": "cubic equation",
+   "output": "all roots"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q2#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute x = 1 into f(x)",
+      "lines": [
+       {
+        "tex": "f(1) &= (1)^3 - 17(1)^2 + 80(1) - 64"
+       },
+       {
+        "tex": "&= 1 - 17 + 80 - 64"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "So $f(1) = 0$, which means $(x-1)$ is a factor of $f(x)$."
+       }
+      ]
+     },
+     {
+      "title": "Split the terms so (x - 1) can be taken out",
+      "lines": [
+       {
+        "tex": "f(x) &= x^3 - 17x^2 + 80x - 64"
+       },
+       {
+        "tex": "&= x^3 - x^2 - 16x^2 + 80x - 64"
+       },
+       {
+        "tex": "&= x^2(x-1) - 16x^2 + 80x - 64"
+       },
+       {
+        "tex": "&= x^2(x-1) - 16x^2 + 16x + 64x - 64"
+       },
+       {
+        "tex": "&= x^2(x-1) - 16x(x-1) + 64x - 64"
+       },
+       {
+        "tex": "&= x^2(x-1) - 16x(x-1) + 64(x-1)"
+       },
+       {
+        "tex": "&= (x-1)(x^2 - 16x + 64)"
+       }
+      ]
+     },
+     {
+      "title": "Solve the quadratic factor",
+      "lines": [
+       {
+        "text": "Set $f(x) = 0$. The factor $(x-1)$ gives $x = 1$, so look at the quadratic."
+       },
+       {
+        "tex": "x^2 - 16x + 64 &= 0"
+       },
+       {
+        "tex": "(x-8)(x-8) &= 0"
+       },
+       {
+        "tex": "x &= 8"
+       }
+      ]
+     }
+    ],
+    "final": "x = 8"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q6#(a)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set the functions equal",
+      "lines": [
+       {
+        "text": "The graphs meet where $k(x) = h(x)$."
+       },
+       {
+        "tex": "x^3 &= x"
+       },
+       {
+        "tex": "x^3 - x &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "x(x^2 - 1) &= 0"
+       },
+       {
+        "tex": "x(x-1)(x+1) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve and find the y-values",
+      "lines": [
+       {
+        "tex": "x &= 0, \\; 1, \\; -1"
+       },
+       {
+        "text": "Since $h(x) = x$, the $y$-value equals the $x$-value at each point."
+       },
+       {
+        "text": "The points are $(-1, -1)$, $(0, 0)$ and $(1, 1)$."
+       }
+      ]
+     }
+    ],
+    "final": "(-1,-1),\\ (0,0),\\ (1,1)"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q4#(b)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the known root x = 2 to get a factor",
+      "lines": [
+       {
+        "text": "$A(2,0)$ is on the graph, so $x = 2$ is a root and $(x-2)$ is a factor."
+       },
+       {
+        "text": "B and C are where $f(x) = 0$. Split $f(x)$ so that every group contains $(x-2)$."
+       }
+      ]
+     },
+     {
+      "title": "Factor (x - 2) out of the cubic",
+      "lines": [
+       {
+        "tex": "f(x) &= 2x^3 - 27x^2 + 109x - 126"
+       },
+       {
+        "tex": "&= 2x^2(x-2) - 23x^2 + 109x - 126"
+       },
+       {
+        "tex": "&= 2x^2(x-2) - 23x(x-2) + 63x - 126"
+       },
+       {
+        "tex": "&= 2x^2(x-2) - 23x(x-2) + 63(x-2)"
+       },
+       {
+        "tex": "&= (x-2)(2x^2 - 23x + 63)"
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "tex": "2x^2 - 23x + 63 &= 2x^2 - 14x - 9x + 63"
+       },
+       {
+        "tex": "&= 2x(x-7) - 9(x-7)"
+       },
+       {
+        "tex": "&= (2x-9)(x-7)"
+       }
+      ]
+     },
+     {
+      "title": "Solve f(x) = 0",
+      "lines": [
+       {
+        "tex": "(x-2)(2x-9)(x-7) &= 0"
+       },
+       {
+        "tex": "x &= 2,\\ \\tfrac{9}{2},\\ 7"
+       },
+       {
+        "text": "$x = 2$ is point $A$, so $B$ and $C$ have $x = 4.5$ and $x = 7$ (B is left of C on the graph). Their $y$-coordinate is $0$."
+       }
+      ]
+     }
+    ],
+    "final": "B = \\left(\\tfrac{9}{2}, 0\\right), \\quad C = (7, 0)"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q5#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Substitute $x = -3$ into $f(x)$",
+      "lines": [
+       {
+        "tex": "f(-3) &= 2(-3)^3 + 5(-3)^2 - 4(-3) - 3"
+       },
+       {
+        "tex": "&= -54 + 45 + 12 - 3"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "Since $f(-3) = 0$, $x = -3$ is a root and $(x+3)$ is a factor."
+       }
+      ]
+     },
+     {
+      "title": "Divide $f(x)$ by $(x+3)$: first term",
+      "lines": [
+       {
+        "text": "Divide the leading terms."
+       },
+       {
+        "tex": "2x^3 \\div x &= 2x^2"
+       },
+       {
+        "text": "Multiply back and subtract."
+       },
+       {
+        "tex": "2x^2(x+3) &= 2x^3 + 6x^2"
+       },
+       {
+        "tex": "(2x^3 + 5x^2) - (2x^3 + 6x^2) &= -x^2"
+       }
+      ]
+     },
+     {
+      "title": "Second term",
+      "lines": [
+       {
+        "text": "Bring down $-4x$ and divide the leading terms."
+       },
+       {
+        "tex": "-x^2 \\div x &= -x"
+       },
+       {
+        "tex": "-x(x+3) &= -x^2 - 3x"
+       },
+       {
+        "tex": "(-x^2 - 4x) - (-x^2 - 3x) &= -x"
+       }
+      ]
+     },
+     {
+      "title": "Third term",
+      "lines": [
+       {
+        "text": "Bring down $-3$ and divide the leading terms."
+       },
+       {
+        "tex": "-x \\div x &= -1"
+       },
+       {
+        "tex": "-1(x+3) &= -x - 3"
+       },
+       {
+        "tex": "(-x - 3) - (-x - 3) &= 0"
+       },
+       {
+        "text": "The remainder is $0$, so the quotient is $2x^2 - x - 1$."
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "tex": "f(x) &= (x+3)(2x^2 - x - 1)"
+       },
+       {
+        "tex": "&= (x+3)(2x+1)(x-1)"
+       }
+      ]
+     },
+     {
+      "title": "Read off the roots",
+      "lines": [
+       {
+        "text": "Set each factor equal to $0$."
+       },
+       {
+        "tex": "x + 3 &= 0"
+       },
+       {
+        "tex": "x &= -3"
+       },
+       {
+        "tex": "2x + 1 &= 0"
+       },
+       {
+        "tex": "x &= -\\frac{1}{2}"
+       },
+       {
+        "tex": "x - 1 &= 0"
+       },
+       {
+        "tex": "x &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "x = -3,\\ -\\frac{1}{2},\\ 1"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q2#",
+    "level": "higher",
+    "year": 2015,
+    "marks": 25,
+    "steps": [
+     {
+      "title": "Test x = 1 in f(x)",
+      "lines": [
+       {
+        "text": "Try small whole numbers. Let $f(x) = x^3 - 3x^2 - 9x + 11$."
+       },
+       {
+        "tex": "f(1) &= 1^3 - 3(1)^2 - 9(1) + 11"
+       },
+       {
+        "tex": "&= 1 - 3 - 9 + 11"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "So $x = 1$ is a root and $(x - 1)$ is a factor."
+       }
+      ]
+     },
+     {
+      "title": "Write the other factor with an unknown",
+      "lines": [
+       {
+        "text": "The cubic has the form $(x-1)$ times a quadratic. The constant of the quadratic is $-11$, because $-1 \\times -11 = 11$."
+       },
+       {
+        "tex": "(x - 1)(x^2 + Ax - 11) &= x^3 - 3x^2 - 9x + 11"
+       }
+      ]
+     },
+     {
+      "title": "Expand the left-hand side",
+      "lines": [
+       {
+        "tex": "(x - 1)(x^2 + Ax - 11) &= x^3 + Ax^2 - 11x - x^2 - Ax + 11"
+       },
+       {
+        "tex": "&= x^3 + (A - 1)x^2 - (11 + A)x + 11"
+       }
+      ]
+     },
+     {
+      "title": "Compare the coefficients of x squared",
+      "lines": [
+       {
+        "tex": "A - 1 &= -3"
+       },
+       {
+        "tex": "A &= -2"
+       },
+       {
+        "text": "The other factor is $x^2 - 2x - 11$."
+       }
+      ]
+     },
+     {
+      "title": "Solve the quadratic with the formula",
+      "lines": [
+       {
+        "text": "$x^2 - 2x - 11 = 0$ does not factorise, so use $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = -2$, $c = -11$."
+       },
+       {
+        "tex": "x &= \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(1)(-11)}}{2(1)}"
+       },
+       {
+        "tex": "&= \\frac{2 \\pm \\sqrt{4 + 44}}{2}"
+       },
+       {
+        "tex": "&= \\frac{2 \\pm \\sqrt{48}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the surd",
+      "lines": [
+       {
+        "tex": "\\sqrt{48} &= \\sqrt{16} \\times \\sqrt{3}"
+       },
+       {
+        "tex": "&= 4\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Divide through by 2",
+      "lines": [
+       {
+        "tex": "x &= \\frac{2 \\pm 4\\sqrt{3}}{2}"
+       },
+       {
+        "tex": "&= 1 \\pm 2\\sqrt{3}"
+       },
+       {
+        "text": "The irrational solutions are $1 + 2\\sqrt{3}$ and $1 - 2\\sqrt{3}$, of the form $a + b\\sqrt{c}$ with $a = 1$, $b = \\pm 2$, $c = 3$."
+       }
+      ]
+     }
+    ],
+    "final": "x = 1,\\ 1 + 2\\sqrt{3},\\ 1 - 2\\sqrt{3}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q5#(b)(i)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Divide f(x) by (x + 1): first term",
+      "lines": [
+       {
+        "text": "Divide the leading terms: $2x^3 \\div x = 2x^2$."
+       },
+       {
+        "tex": "2x^2(x + 1) &= 2x^3 + 2x^2"
+       },
+       {
+        "tex": "&= 2x^3 + 2x^2"
+       }
+      ]
+     },
+     {
+      "title": "Subtract to leave the remainder so far",
+      "lines": [
+       {
+        "tex": "(2x^3 - 21x^2 + 40x + 63) - (2x^3 + 2x^2) &= -23x^2 + 40x + 63"
+       },
+       {
+        "tex": "&= -23x^2 + 40x + 63"
+       }
+      ]
+     },
+     {
+      "title": "Second term of the quotient",
+      "lines": [
+       {
+        "text": "Divide the leading terms: $-23x^2 \\div x = -23x$."
+       },
+       {
+        "tex": "-23x(x + 1) &= -23x^2 - 23x"
+       },
+       {
+        "tex": "&= -23x^2 - 23x"
+       }
+      ]
+     },
+     {
+      "title": "Subtract again",
+      "lines": [
+       {
+        "tex": "(-23x^2 + 40x + 63) - (-23x^2 - 23x) &= 63x + 63"
+       },
+       {
+        "tex": "&= 63x + 63"
+       }
+      ]
+     },
+     {
+      "title": "Third term of the quotient",
+      "lines": [
+       {
+        "text": "Divide the leading terms: $63x \\div x = 63$."
+       },
+       {
+        "tex": "63(x + 1) &= 63x + 63"
+       },
+       {
+        "tex": "&= 63x + 63"
+       },
+       {
+        "text": "Subtracting leaves $0$, so the quotient is $2x^2 - 23x + 63$."
+       },
+       {
+        "tex": "f(x) &= (x + 1)(2x^2 - 23x + 63)"
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "text": "Find two numbers with product $2 \\times 63 = 126$ and sum $-23$: they are $-14$ and $-9$."
+       },
+       {
+        "tex": "2x^2 - 23x + 63 &= 2x^2 - 14x - 9x + 63"
+       },
+       {
+        "tex": "&= 2x(x - 7) - 9(x - 7)"
+       },
+       {
+        "tex": "&= (2x - 9)(x - 7)"
+       }
+      ]
+     },
+     {
+      "title": "Set f(x) = 0 and solve each factor",
+      "lines": [
+       {
+        "tex": "(x + 1)(2x - 9)(x - 7) &= 0"
+       },
+       {
+        "tex": "x &= -1 \\quad \\text{or} \\quad x = \\frac{9}{2} \\quad \\text{or} \\quad x = 7"
+       }
+      ]
+     }
+    ],
+    "final": "x = -1, \\ 4.5, \\ 7"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-argand",
+   "title": "Plot complex numbers on an Argand diagram",
+   "level": "OL",
+   "input": "z",
+   "output": "point (Re, Im)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p1-q2#(a)(i)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the point $z_1$ off the diagram",
+      "lines": [
+       {
+        "text": "$z_1 = a + bi$ is at $(a, b)$: $a$ is across (real axis) and $b$ is up or down (imaginary axis)."
+       },
+       {
+        "text": "The point is 3 across and 1 down, so $a = 3$ and $b = -1$."
+       }
+      ]
+     }
+    ],
+    "final": "a = 3, \\; b = -1"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q6#(a)(i), (ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Read the coordinates of z_1",
+      "lines": [
+       {
+        "text": "$z_1$ sits 3 units right of the imaginary axis and 1 unit up."
+       },
+       {
+        "tex": "z_1 &= 3 + 1i"
+       },
+       {
+        "text": "Compare with $z_1 = a + bi$."
+       }
+      ]
+     },
+     {
+      "title": "Reflect z_1 in the real axis",
+      "lines": [
+       {
+        "text": "Reflecting in the real axis keeps the real part and changes the sign of the imaginary part."
+       },
+       {
+        "tex": "z_2 &= 3 - 1i"
+       },
+       {
+        "text": "Compare with $z_2 = c + di$."
+       }
+      ]
+     }
+    ],
+    "final": "a = 3,\\ b = 1,\\ c = 3,\\ d = -1"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q2#(b)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each number as a point (Re, Im)",
+      "lines": [
+       {
+        "text": "$z_1 = 1 + 3i$ is the point $(1, 3)$."
+       },
+       {
+        "text": "$z_2 = 2 - i$ is the point $(2, -1)$."
+       },
+       {
+        "text": "$z_3 = 5 + i$ is the point $(5, 1)$."
+       }
+      ]
+     },
+     {
+      "title": "Plot and label the points",
+      "lines": [
+       {
+        "text": "The real part is read along the Re axis and the imaginary part up the Im axis."
+       }
+      ]
+     }
+    ],
+    "final": "z_1 = (1, 3),\\; z_2 = (2, -1),\\; z_3 = (5, 1)"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q2#(a)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write $z_2$ as a point",
+      "lines": [
+       {
+        "text": "$z_2 = -1 + 2i$ has real part $-1$ and imaginary part $2$, so it is the point $(-1, 2)$."
+       }
+      ]
+     },
+     {
+      "title": "Plot it",
+      "lines": [
+       {
+        "text": "Go 1 unit left of the origin along the real axis, then 2 units up. Mark the point and label it $z_2$."
+       }
+      ]
+     }
+    ],
+    "final": "z_2 \\text{ plotted at } (-1, 2)"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q2#(a)(i)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read off the real and imaginary parts",
+      "lines": [
+       {
+        "tex": "z_2 &= 2 + 3i"
+       },
+       {
+        "text": "The real part is 2 and the imaginary part is 3, so $z_2$ is the point $(2, 3)$."
+       },
+       {
+        "tex": "z_3 &= 4 - i"
+       },
+       {
+        "text": "The real part is 4 and the imaginary part is $-1$, so $z_3$ is the point $(4, -1)$."
+       }
+      ]
+     },
+     {
+      "title": "Plot and label both points",
+      "lines": [
+       {
+        "text": "Go 2 right and 3 up for $z_2$. Go 4 right and 1 down for $z_3$. Label each point."
+       }
+      ]
+     }
+    ],
+    "final": "z_2 = (2, 3), \\quad z_3 = (4, -1)"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q2#(a)(i), (ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply z₁ by 2 to find z₂",
+      "lines": [
+       {
+        "text": "Multiply both the real and imaginary parts by 2."
+       },
+       {
+        "tex": "z_2 &= 2z_1"
+       },
+       {
+        "tex": "&= 2(2 + i)"
+       },
+       {
+        "tex": "&= 4 + 2i"
+       }
+      ]
+     },
+     {
+      "title": "Write down the conjugate of z₁",
+      "lines": [
+       {
+        "text": "The conjugate changes the sign of the imaginary part."
+       },
+       {
+        "tex": "\\bar{z}_1 &= 2 - i"
+       }
+      ]
+     },
+     {
+      "title": "Plot the points",
+      "lines": [
+       {
+        "text": "A number $a + bi$ is plotted at $(a, b)$: real part across, imaginary part up."
+       },
+       {
+        "text": "Plot $z_2$ at $(4, 2)$ and $\\bar{z}_1$ at $(2, -1)$, and label each."
+       }
+      ]
+     }
+    ],
+    "final": "$z_2 = 4 + 2i$, $\\bar{z}_1 = 2 - i$"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-arithmetic",
+   "title": "Add, subtract and multiply complex numbers",
+   "level": "OL",
+   "input": "a + bi, c + di",
+   "output": "result in a + bi form"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-ordinary-p1-q2#(a)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute z₁ and z₂",
+      "lines": [
+       {
+        "tex": "z_3 &= z_1 + 2z_2"
+       },
+       {
+        "tex": "&= (1 + 3i) + 2(2 - i)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the bracket",
+      "lines": [
+       {
+        "tex": "&= 1 + 3i + 4 - 2i"
+       }
+      ]
+     },
+     {
+      "title": "Collect real and imaginary parts",
+      "lines": [
+       {
+        "tex": "&= 5 + i"
+       }
+      ]
+     }
+    ],
+    "final": "z_3 = 5 + i"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q2#(b)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Expand the left-hand bracket",
+      "lines": [
+       {
+        "tex": "2z - 6(4 - 6i) &= (-1 + i)(4 - 2i)"
+       },
+       {
+        "tex": "2z - 24 + 36i &= (-1 + i)(4 - 2i)"
+       }
+      ]
+     },
+     {
+      "title": "Expand the right-hand side",
+      "lines": [
+       {
+        "tex": "(-1 + i)(4 - 2i) &= -4 + 2i + 4i - 2i^2"
+       },
+       {
+        "text": "Use $i^2 = -1$."
+       },
+       {
+        "tex": "&= -4 + 6i + 2"
+       },
+       {
+        "tex": "&= -2 + 6i"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $z$",
+      "lines": [
+       {
+        "tex": "2z - 24 + 36i &= -2 + 6i"
+       },
+       {
+        "tex": "2z &= 22 - 30i"
+       },
+       {
+        "tex": "z &= 11 - 15i"
+       }
+      ]
+     }
+    ],
+    "final": "z = 11 - 15i"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q2#(a)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Add the real parts and the imaginary parts",
+      "lines": [
+       {
+        "tex": "z_1 + z_2 &= (-3 + 4i) + (4 + 3i)"
+       },
+       {
+        "tex": "&= (-3 + 4) + (4 + 3)i"
+       },
+       {
+        "tex": "&= 1 + 7i"
+       }
+      ]
+     },
+     {
+      "title": "Read off the points to plot",
+      "lines": [
+       {
+        "text": "Real part goes along the Re axis, imaginary part up the Im axis."
+       },
+       {
+        "tex": "z_1 &= -3 + 4i \\;\\Rightarrow\\; (-3, 4)"
+       },
+       {
+        "tex": "z_2 &= 4 + 3i \\;\\Rightarrow\\; (4, 3)"
+       },
+       {
+        "tex": "z_1 + z_2 &= 1 + 7i \\;\\Rightarrow\\; (1, 7)"
+       }
+      ]
+     },
+     {
+      "title": "Plot the three points and label each one",
+      "lines": [
+       {
+        "text": "Mark a dot at each point and write its label beside it."
+       }
+      ]
+     }
+    ],
+    "final": "z_1 + z_2 = 1 + 7i"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q2#(a)(iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute z₂ and z₃",
+      "lines": [
+       {
+        "tex": "4z_2 - 5z_3 &= 4(5 + i) - 5(6 - 2i)"
+       }
+      ]
+     },
+     {
+      "title": "Expand the brackets",
+      "lines": [
+       {
+        "tex": "&= 20 + 4i - 30 + 10i"
+       }
+      ]
+     },
+     {
+      "title": "Collect real and imaginary parts",
+      "lines": [
+       {
+        "tex": "&= (20 - 30) + (4i + 10i)"
+       },
+       {
+        "tex": "&= -10 + 14i"
+       }
+      ]
+     }
+    ],
+    "final": "-10 + 14i"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q2#(a)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write z₃ as a subtraction",
+      "lines": [
+       {
+        "tex": "z_3 &= z_1 - z_2"
+       },
+       {
+        "tex": "z_3 &= (-2 + 3i) - (-3 - 2i)"
+       }
+      ]
+     },
+     {
+      "title": "Remove the brackets",
+      "lines": [
+       {
+        "text": "Subtracting $-3 - 2i$ changes both signs."
+       },
+       {
+        "tex": "&= -2 + 3i + 3 + 2i"
+       }
+      ]
+     },
+     {
+      "title": "Collect real and imaginary parts",
+      "lines": [
+       {
+        "tex": "&= 1 + 5i"
+       }
+      ]
+     },
+     {
+      "title": "Plot each point as (real part, imaginary part)",
+      "lines": [
+       {
+        "text": "$z_1 = (-2, 3)$, $z_2 = (-3, -2)$ and $z_3 = (1, 5)$. Label each point."
+       }
+      ]
+     }
+    ],
+    "final": "z_3 = 1 + 5i"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q2#(b)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute z = 2 + i into the equation",
+      "lines": [
+       {
+        "text": "If $z_1$ is a solution, the left-hand side must equal $0$."
+       },
+       {
+        "tex": "z^2 - 4z + 5 &= (2 + i)^2 - 4(2 + i) + 5"
+       }
+      ]
+     },
+     {
+      "title": "Expand the brackets",
+      "lines": [
+       {
+        "tex": "&= 4 + 4i + i^2 - 8 - 4i + 5"
+       }
+      ]
+     },
+     {
+      "title": "Replace i² with −1",
+      "lines": [
+       {
+        "tex": "&= 4 + 4i - 1 - 8 - 4i + 5"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= (4 - 1 - 8 + 5) + (4i - 4i)"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "The left-hand side is $0$, so $z_1 = 2 + i$ is a solution."
+       }
+      ]
+     }
+    ],
+    "final": "z_1 = 2 + i \\text{ satisfies } z^2 - 4z + 5 = 0"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-de-moivre-power",
+   "title": "Raise to a power with De Moivre's Theorem",
+   "level": "HL",
+   "input": "zⁿ",
+   "output": "rⁿ(cos nθ + i sin nθ) → a + bi"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q4#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the modulus",
+      "lines": [
+       {
+        "tex": "r &= \\sqrt{\\left(-\\frac{1}{2}\\right)^2 + \\left(\\frac{\\sqrt{3}}{2}\\right)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{1}{4} + \\frac{3}{4}}"
+       },
+       {
+        "tex": "&= \\sqrt{1}"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument",
+      "lines": [
+       {
+        "text": "The point $\\left(-\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$ is in the second quadrant. The reference angle $\\alpha$ has $\\tan\\alpha = \\frac{\\sqrt{3}/2}{1/2} = \\sqrt{3}$, so $\\alpha = \\frac{\\pi}{3}$."
+       },
+       {
+        "tex": "\\theta &= \\pi - \\frac{\\pi}{3}"
+       },
+       {
+        "tex": "&= \\frac{2\\pi}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Write in polar form and cube it",
+      "lines": [
+       {
+        "tex": "z^3 &= \\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)^3"
+       },
+       {
+        "text": "Use the result from part (a) with $n = 3$."
+       },
+       {
+        "tex": "&= \\cos\\left(3 \\times \\frac{2\\pi}{3}\\right) + i\\sin\\left(3 \\times \\frac{2\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= \\cos 2\\pi + i\\sin 2\\pi"
+       },
+       {
+        "tex": "&= 1 + 0i"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     }
+    ],
+    "final": "1"
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q1#(b)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the modulus of 1 + i",
+      "lines": [
+       {
+        "tex": "r &= \\sqrt{1^2 + 1^2}"
+       },
+       {
+        "tex": "&= \\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument of 1 + i",
+      "lines": [
+       {
+        "text": "$1+i$ is in the first quadrant, with $\\tan\\theta = \\frac{1}{1} = 1$."
+       },
+       {
+        "tex": "\\theta &= \\frac{\\pi}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Write 1 + i in polar form and apply De Moivre's Theorem",
+      "lines": [
+       {
+        "tex": "(1+i)^8 &= \\left[\\sqrt{2}\\left(\\cos\\tfrac{\\pi}{4} + i\\sin\\tfrac{\\pi}{4}\\right)\\right]^8"
+       },
+       {
+        "text": "De Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$."
+       },
+       {
+        "tex": "&= (\\sqrt{2})^8\\left(\\cos\\tfrac{8\\pi}{4} + i\\sin\\tfrac{8\\pi}{4}\\right)"
+       },
+       {
+        "tex": "&= 16(\\cos 2\\pi + i\\sin 2\\pi)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate the trigonometric values",
+      "lines": [
+       {
+        "tex": "&= 16(1 + i \\times 0)"
+       },
+       {
+        "tex": "&= 16"
+       }
+      ]
+     }
+    ],
+    "final": "16"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q2#(b)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the formula for the 9th term",
+      "lines": [
+       {
+        "text": "$T_n = ar^{n-1}$ with $a = 3 + 2i$ and $r = 1 - i$."
+       },
+       {
+        "tex": "T_9 &= ar^8"
+       },
+       {
+        "tex": "&= (3 + 2i)(1 - i)^8"
+       }
+      ]
+     },
+     {
+      "title": "Write r in polar form",
+      "lines": [
+       {
+        "text": "$r = 1 - i$ is in the fourth quadrant, so its modulus and argument are:"
+       },
+       {
+        "tex": "|r| &= \\sqrt{1^2 + 1^2}"
+       },
+       {
+        "tex": "&= \\sqrt{2}"
+       },
+       {
+        "text": "$\\tan\\theta = -1$ in the fourth quadrant gives $\\theta = \\frac{7\\pi}{4}$."
+       },
+       {
+        "tex": "r &= \\sqrt{2}\\left(\\cos\\frac{7\\pi}{4} + i\\sin\\frac{7\\pi}{4}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Apply De Moivre's Theorem to r⁸",
+      "lines": [
+       {
+        "text": "Raise the modulus to the power 8 and multiply the argument by 8."
+       },
+       {
+        "tex": "r^8 &= (\\sqrt{2})^8\\left(\\cos\\frac{8 \\times 7\\pi}{4} + i\\sin\\frac{8 \\times 7\\pi}{4}\\right)"
+       },
+       {
+        "tex": "&= 16(\\cos 14\\pi + i\\sin 14\\pi)"
+       },
+       {
+        "tex": "&= 16(1 + 0i)"
+       },
+       {
+        "tex": "&= 16"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by a = 3 + 2i",
+      "lines": [
+       {
+        "tex": "T_9 &= (3 + 2i)(16)"
+       },
+       {
+        "tex": "&= 48 + 32i"
+       }
+      ]
+     }
+    ],
+    "final": "T_9 = 48 + 32i"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q2#(b)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the modulus r",
+      "lines": [
+       {
+        "text": "For $1 - \\sqrt{3}i$ the real part is $1$ and the imaginary part is $-\\sqrt{3}$."
+       },
+       {
+        "tex": "r &= \\sqrt{1^2 + (-\\sqrt{3})^2}"
+       },
+       {
+        "tex": "&= \\sqrt{1 + 3}"
+       },
+       {
+        "tex": "&= \\sqrt{4}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument",
+      "lines": [
+       {
+        "text": "The point $(1, -\\sqrt{3})$ lies in the fourth quadrant."
+       },
+       {
+        "tex": "\\tan\\alpha &= \\frac{\\sqrt{3}}{1}"
+       },
+       {
+        "tex": "\\alpha &= \\frac{\\pi}{3}"
+       },
+       {
+        "text": "In the fourth quadrant the argument is negative."
+       },
+       {
+        "tex": "\\theta &= -\\frac{\\pi}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Write in polar form",
+      "lines": [
+       {
+        "tex": "1 - \\sqrt{3}i &= 2\\left(\\cos\\left(-\\frac{\\pi}{3}\\right) + i\\sin\\left(-\\frac{\\pi}{3}\\right)\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Apply de Moivre's theorem",
+      "lines": [
+       {
+        "text": "$\\left[r(\\cos\\theta + i\\sin\\theta)\\right]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$."
+       },
+       {
+        "tex": "(1 - \\sqrt{3}i)^9 &= 2^9\\left(\\cos\\left(9 \\times -\\frac{\\pi}{3}\\right) + i\\sin\\left(9 \\times -\\frac{\\pi}{3}\\right)\\right)"
+       },
+       {
+        "tex": "&= 512\\left(\\cos(-3\\pi) + i\\sin(-3\\pi)\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and write as a + bi",
+      "lines": [
+       {
+        "text": "$\\cos(-3\\pi) = -1$ and $\\sin(-3\\pi) = 0$."
+       },
+       {
+        "tex": "&= 512(-1 + 0i)"
+       },
+       {
+        "tex": "&= -512"
+       }
+      ]
+     }
+    ],
+    "final": "-512"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q2#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the modulus of z",
+      "lines": [
+       {
+        "tex": "|z| &= \\sqrt{\\left(-\\sqrt{3}\\right)^2 + 1^2}"
+       },
+       {
+        "tex": "&= \\sqrt{4}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument of z",
+      "lines": [
+       {
+        "text": "$z = -\\sqrt{3} + i$ is in the second quadrant (negative real part, positive imaginary part). Find the reference angle $\\alpha$ first."
+       },
+       {
+        "tex": "\\tan\\alpha &= \\frac{1}{\\sqrt{3}}"
+       },
+       {
+        "tex": "\\alpha &= \\frac{\\pi}{6}"
+       },
+       {
+        "tex": "\\theta &= \\pi - \\frac{\\pi}{6}"
+       },
+       {
+        "tex": "&= \\frac{5\\pi}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Write z in polar form",
+      "lines": [
+       {
+        "tex": "z &= 2\\left(\\cos\\frac{5\\pi}{6} + i\\sin\\frac{5\\pi}{6}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Apply De Moivre's Theorem",
+      "lines": [
+       {
+        "text": "$[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$."
+       },
+       {
+        "tex": "z^4 &= 2^4\\left(\\cos\\frac{4\\cdot 5\\pi}{6} + i\\sin\\frac{4\\cdot 5\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 16\\left(\\cos\\frac{10\\pi}{3} + i\\sin\\frac{10\\pi}{3}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate the cosine and sine",
+      "lines": [
+       {
+        "text": "$\\frac{10\\pi}{3} - 2\\pi = \\frac{4\\pi}{3}$, which is in the third quadrant, so both values are negative."
+       },
+       {
+        "tex": "\\cos\\frac{10\\pi}{3} &= -\\frac{1}{2}"
+       },
+       {
+        "tex": "\\sin\\frac{10\\pi}{3} &= -\\frac{\\sqrt{3}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out and simplify",
+      "lines": [
+       {
+        "tex": "z^4 &= 16\\left(-\\frac{1}{2} - \\frac{\\sqrt{3}}{2}i\\right)"
+       },
+       {
+        "tex": "&= -8 - 8\\sqrt{3}\\,i"
+       }
+      ]
+     }
+    ],
+    "final": "z^4 = -8 - 8\\sqrt{3}\\,i"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q3#(b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the modulus r",
+      "lines": [
+       {
+        "text": "The point $\\sqrt{3} - i$ has real part $\\sqrt{3}$ and imaginary part $-1$."
+       },
+       {
+        "tex": "r &= \\sqrt{(\\sqrt{3})^2 + (-1)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{3 + 1}"
+       },
+       {
+        "tex": "&= \\sqrt{4}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument",
+      "lines": [
+       {
+        "text": "The point is in the fourth quadrant, so measure the reference angle and subtract it from $360^\\circ$."
+       },
+       {
+        "tex": "\\tan A &= \\frac{1}{\\sqrt{3}}"
+       },
+       {
+        "tex": "A &= 30^\\circ"
+       },
+       {
+        "tex": "\\theta &= 360^\\circ - 30^\\circ"
+       },
+       {
+        "tex": "&= 330^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Write in polar form",
+      "lines": [
+       {
+        "tex": "\\sqrt{3} - i &= 2(\\cos 330^\\circ + i\\sin 330^\\circ)"
+       }
+      ]
+     },
+     {
+      "title": "Apply de Moivre's Theorem",
+      "lines": [
+       {
+        "text": "$[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$."
+       },
+       {
+        "tex": "(\\sqrt{3} - i)^9 &= 2^9\\left(\\cos(9 \\times 330^\\circ) + i\\sin(9 \\times 330^\\circ)\\right)"
+       },
+       {
+        "tex": "&= 512(\\cos 2970^\\circ + i\\sin 2970^\\circ)"
+       }
+      ]
+     },
+     {
+      "title": "Reduce the angle and evaluate",
+      "lines": [
+       {
+        "text": "$2970^\\circ - 8 \\times 360^\\circ = 90^\\circ$, so $\\cos 2970^\\circ = 0$ and $\\sin 2970^\\circ = 1$."
+       },
+       {
+        "tex": "&= 512(\\cos 90^\\circ + i\\sin 90^\\circ)"
+       },
+       {
+        "tex": "&= 512(0 + i(1))"
+       },
+       {
+        "tex": "&= 0 + 512i"
+       }
+      ]
+     },
+     {
+      "title": "Read off a and b",
+      "lines": [
+       {
+        "tex": "a &= 0"
+       },
+       {
+        "tex": "b &= 512"
+       }
+      ]
+     }
+    ],
+    "final": "a = 0,\\; b = 512"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-de-moivre-roots",
+   "title": "Solve zⁿ = a (incl. nth roots of unity)",
+   "level": "HL",
+   "input": "zⁿ = a",
+   "output": "n roots in polar and rectangular form"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p1-q5#(b)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Take the square root of v",
+      "lines": [
+       {
+        "text": "$w^2 = v$ means $w = \\pm v^{1/2}$."
+       },
+       {
+        "tex": "w &= \\pm\\left[4\\left(\\cos\\frac{5\\pi}{3} + i\\sin\\frac{5\\pi}{3}\\right)\\right]^{\\frac{1}{2}}"
+       }
+      ]
+     },
+     {
+      "title": "Apply De Moivre's theorem",
+      "lines": [
+       {
+        "text": "$\\left[r(\\cos\\theta + i\\sin\\theta)\\right]^{n} = r^n(\\cos n\\theta + i\\sin n\\theta)$. Here $n = \\tfrac12$: square-root the modulus and halve the angle."
+       },
+       {
+        "tex": "w &= \\pm\\, 4^{\\frac{1}{2}}\\left(\\cos\\frac{5\\pi}{6} + i\\sin\\frac{5\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= \\pm\\, 2\\left(\\cos\\frac{5\\pi}{6} + i\\sin\\frac{5\\pi}{6}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate cos and sin",
+      "lines": [
+       {
+        "tex": "\\cos\\frac{5\\pi}{6} &= -\\frac{\\sqrt{3}}{2}, \\quad \\sin\\frac{5\\pi}{6} = \\frac{1}{2}"
+       },
+       {
+        "tex": "w &= \\pm\\, 2\\left(-\\frac{\\sqrt{3}}{2} + \\frac{1}{2}i\\right)"
+       },
+       {
+        "tex": "&= \\pm\\left(-\\sqrt{3} + i\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Write both values of w",
+      "lines": [
+       {
+        "tex": "w &= -\\sqrt{3} + i \\quad\\text{or}\\quad w = \\sqrt{3} - i"
+       }
+      ]
+     }
+    ],
+    "final": "w = -\\sqrt{3} + i \\ \\text{ or } \\ w = \\sqrt{3} - i"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q4#(c)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write -64i in polar form",
+      "lines": [
+       {
+        "text": "$-64i$ lies on the negative imaginary axis, 64 units below the origin."
+       },
+       {
+        "tex": "r &= 64"
+       },
+       {
+        "tex": "\\theta &= \\frac{3\\pi}{2}"
+       },
+       {
+        "tex": "z^6 &= 64\\left(\\cos\\left(\\frac{3\\pi}{2} + 2n\\pi\\right) + i\\sin\\left(\\frac{3\\pi}{2} + 2n\\pi\\right)\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Take the sixth root using de Moivre's theorem",
+      "lines": [
+       {
+        "text": "Raise to the power $\\tfrac16$: divide each angle by 6 and take the sixth root of the modulus."
+       },
+       {
+        "tex": "z &= 64^{\\frac{1}{6}}\\left[\\cos\\left(\\frac{3\\pi/2 + 2n\\pi}{6}\\right) + i\\sin\\left(\\frac{3\\pi/2 + 2n\\pi}{6}\\right)\\right]"
+       },
+       {
+        "text": "The sixth root of $64$ is $2$, because $2^6 = 64$."
+       },
+       {
+        "tex": "&= 2\\left[\\cos\\left(\\frac{3\\pi/2 + 2n\\pi}{6}\\right) + i\\sin\\left(\\frac{3\\pi/2 + 2n\\pi}{6}\\right)\\right]"
+       },
+       {
+        "text": "Divide each term of the angle by $6$."
+       },
+       {
+        "tex": "\\frac{3\\pi/2 + 2n\\pi}{6} &= \\frac{3\\pi}{12} + \\frac{2n\\pi}{6}"
+       },
+       {
+        "tex": "&= \\frac{\\pi}{4} + \\frac{n\\pi}{3}"
+       },
+       {
+        "tex": "z &= 2\\left[\\cos\\left(\\frac{\\pi}{4} + \\frac{n\\pi}{3}\\right) + i\\sin\\left(\\frac{\\pi}{4} + \\frac{n\\pi}{3}\\right)\\right]"
+       }
+      ]
+     },
+     {
+      "title": "First root: n = 0",
+      "lines": [
+       {
+        "tex": "z &= 2\\left(\\cos\\frac{\\pi}{4} + i\\sin\\frac{\\pi}{4}\\right)"
+       },
+       {
+        "tex": "&= 2\\left(\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2}i\\right)"
+       },
+       {
+        "tex": "&= \\sqrt{2} + \\sqrt{2}i"
+       }
+      ]
+     },
+     {
+      "title": "Second root: n = 3",
+      "lines": [
+       {
+        "tex": "\\frac{\\pi}{4} + \\frac{3\\pi}{3} &= \\frac{\\pi}{4} + \\pi"
+       },
+       {
+        "tex": "&= \\frac{5\\pi}{4}"
+       },
+       {
+        "tex": "z &= 2\\left(\\cos\\frac{5\\pi}{4} + i\\sin\\frac{5\\pi}{4}\\right)"
+       },
+       {
+        "text": "$\\cos\\frac{5\\pi}{4} = -\\frac{\\sqrt{2}}{2}$ and $\\sin\\frac{5\\pi}{4} = -\\frac{\\sqrt{2}}{2}$."
+       },
+       {
+        "tex": "&= 2\\left(-\\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{2}}{2}i\\right)"
+       },
+       {
+        "tex": "&= -\\sqrt{2} - \\sqrt{2}i"
+       }
+      ]
+     }
+    ],
+    "final": "z = \\sqrt{2} + \\sqrt{2}i \\quad\\text{and}\\quad z = -\\sqrt{2} - \\sqrt{2}i"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q1#(c)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write -8 in polar form",
+      "lines": [
+       {
+        "text": "$-8$ lies on the negative real axis, so $r = 8$ and $\\theta = \\pi$."
+       },
+       {
+        "tex": "-8 &= 8(\\cos\\pi + i\\sin\\pi)"
+       },
+       {
+        "tex": "z^3 &= 8(\\cos(\\pi + 2n\\pi) + i\\sin(\\pi + 2n\\pi))"
+       }
+      ]
+     },
+     {
+      "title": "Apply De Moivre's theorem for the cube root",
+      "lines": [
+       {
+        "tex": "z &= \\left[8(\\cos(\\pi + 2n\\pi) + i\\sin(\\pi + 2n\\pi))\\right]^{\\frac{1}{3}}"
+       },
+       {
+        "tex": "&= 8^{\\frac{1}{3}}\\left(\\cos\\frac{\\pi+2n\\pi}{3} + i\\sin\\frac{\\pi+2n\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 2\\left(\\cos\\frac{\\pi+2n\\pi}{3} + i\\sin\\frac{\\pi+2n\\pi}{3}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "n = 0",
+      "lines": [
+       {
+        "tex": "z &= 2\\left(\\cos\\frac{\\pi}{3} + i\\sin\\frac{\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 2\\left(\\frac{1}{2} + i\\frac{\\sqrt{3}}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 + \\sqrt{3}\\,i"
+       }
+      ]
+     },
+     {
+      "title": "n = 1",
+      "lines": [
+       {
+        "tex": "z &= 2\\left(\\cos\\frac{3\\pi}{3} + i\\sin\\frac{3\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 2(-1 + 0i)"
+       },
+       {
+        "tex": "&= -2"
+       }
+      ]
+     },
+     {
+      "title": "n = 2",
+      "lines": [
+       {
+        "tex": "z &= 2\\left(\\cos\\frac{5\\pi}{3} + i\\sin\\frac{5\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 2\\left(\\frac{1}{2} - i\\frac{\\sqrt{3}}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 - \\sqrt{3}\\,i"
+       }
+      ]
+     }
+    ],
+    "final": "z = 1 + \\sqrt{3}\\,i,\\ -2,\\ 1 - \\sqrt{3}\\,i"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q4#(b)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the modulus of −1 + √3 i",
+      "lines": [
+       {
+        "tex": "r &= \\sqrt{(-1)^2 + (\\sqrt{3})^2}"
+       },
+       {
+        "tex": "&= \\sqrt{1 + 3}"
+       },
+       {
+        "tex": "&= \\sqrt{4}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Find the reference angle",
+      "lines": [
+       {
+        "text": "The point $(-1, \\sqrt{3})$ is in the second quadrant. Use the positive values $1$ and $\\sqrt{3}$."
+       },
+       {
+        "tex": "\\alpha &= \\tan^{-1}\\left(\\frac{\\sqrt{3}}{1}\\right)"
+       },
+       {
+        "tex": "&= \\frac{\\pi}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument in the second quadrant",
+      "lines": [
+       {
+        "tex": "\\theta &= \\pi - \\frac{\\pi}{3}"
+       },
+       {
+        "tex": "&= \\frac{2\\pi}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Write in general polar form",
+      "lines": [
+       {
+        "text": "Adding $2n\\pi$ to the angle keeps the same point and gives every root."
+       },
+       {
+        "tex": "-1 + \\sqrt{3}\\,i &= 2\\left(\\cos\\left(\\frac{2\\pi}{3} + 2n\\pi\\right) + i\\sin\\left(\\frac{2\\pi}{3} + 2n\\pi\\right)\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root using De Moivre",
+      "lines": [
+       {
+        "text": "$w = (-1 + \\sqrt{3}\\,i)^{1/2}$: raise the modulus to the power $\\tfrac12$ and multiply the angle by $\\tfrac12$."
+       },
+       {
+        "tex": "w &= 2^{\\frac12}\\left(\\cos\\left(\\frac12\\left(\\frac{2\\pi}{3} + 2n\\pi\\right)\\right) + i\\sin\\left(\\frac12\\left(\\frac{2\\pi}{3} + 2n\\pi\\right)\\right)\\right)"
+       },
+       {
+        "tex": "&= \\sqrt{2}\\left(\\cos\\left(\\frac{\\pi}{3} + n\\pi\\right) + i\\sin\\left(\\frac{\\pi}{3} + n\\pi\\right)\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Find the first root using n = 0",
+      "lines": [
+       {
+        "tex": "w &= \\sqrt{2}\\left(\\cos\\frac{\\pi}{3} + i\\sin\\frac{\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= \\sqrt{2}\\left(\\frac12 + \\frac{\\sqrt{3}}{2}i\\right)"
+       },
+       {
+        "tex": "&= \\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{6}}{2}i"
+       }
+      ]
+     },
+     {
+      "title": "Find the second root using n = 1",
+      "lines": [
+       {
+        "tex": "w &= \\sqrt{2}\\left(\\cos\\left(\\frac{\\pi}{3} + \\pi\\right) + i\\sin\\left(\\frac{\\pi}{3} + \\pi\\right)\\right)"
+       },
+       {
+        "tex": "&= \\sqrt{2}\\left(-\\frac12 - \\frac{\\sqrt{3}}{2}i\\right)"
+       },
+       {
+        "tex": "&= -\\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{6}}{2}i"
+       }
+      ]
+     }
+    ],
+    "final": "w = \\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{6}}{2}i \\ \\text{ or } \\ w = -\\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{6}}{2}i"
+   }
+  ]
+ }
+]

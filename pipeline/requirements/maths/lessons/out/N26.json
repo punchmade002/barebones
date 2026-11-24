@@ -1,0 +1,178 @@
+[
+ {"skill": "stat-plan-collect", "problems": [
+  {"part": "practice-stat-plan-collect-1", "note": null,
+   "legend": {"1": "the whole school, 600", "2": "the sample size, 60", "3": "the answer, students to survey from that year", "4": "the year group, 180"},
+   "steps": [
+    {"ask": "Should every year group get the same number of places, or a share that matches its size?", "title": "Set up the plan",
+     "lines": [{"text": "Each year group is sampled in proportion to its size, so every year is fairly represented."}]},
+    {"ask": "What fraction of the whole school is second year? Take that share of the sample of 60.", "title": "Find the number",
+     "lines": [{"tex": "\\frac{\\hl{4}{180}}{\\hl{1}{600}} \\times \\hl{2}{60}"}, {"tex": "&= \\hl{3}{18}"}]}
+   ],
+   "final": "\\hl{3}{18}",
+   "graph": null},
+  {"part": "practice-stat-plan-collect-2", "note": "Changed from problem 1: the plan is now systematic, picking every 30th member after a random start, and the answer is a member number rather than a count from one year group. The steps still find an interval first, then apply it.",
+   "legend": {"1": "the whole list, 1200", "2": "the sample size, 40", "3": "the answer, member number", "4": "the interval k, 30"},
+   "steps": [
+    {"ask": "How many members are on the list, and how many are to be chosen? What do you do with those two numbers to get the gap between picks?", "title": "Find the interval",
+     "lines": [{"tex": "\\hl{4}{k} &= \\frac{\\hl{1}{1200}}{\\hl{2}{40}}"}, {"tex": "&= \\hl{4}{30}"}]},
+    {"ask": "The first pick is member 17. How many gaps come after it before the 5th pick?", "title": "Find the 5th member",
+     "lines": [{"tex": "17 + 4 \\times \\hl{4}{30}"}, {"tex": "&= \\hl{3}{137}"}]}
+   ],
+   "final": "\\hl{3}{137}",
+   "graph": null},
+  {"part": "practice-stat-plan-collect-3", "note": "Changed from problem 2: the question now works backwards from 140 wanted replies and a 35% reply rate to the number to post, using an equation rather than a gap between picks. The idea of a planned share of a target is the same.",
+   "legend": {"1": "the replies wanted, 140", "2": "the reply rate, 0.35", "3": "the answer, questionnaires to send"},
+   "steps": [
+    {"ask": "How would you write the number sent as a letter, and what must 35% of it equal?", "title": "Set up",
+     "lines": [{"text": "Let $\\hl{3}{n}$ be the number sent. Then 35% of $\\hl{3}{n}$ must equal 140."}]},
+    {"ask": "How do you undo multiplying by 0.35 to find the number sent?", "title": "Solve",
+     "lines": [{"tex": "\\hl{2}{0.35} \\hl{3}{n} &= \\hl{1}{140}"}, {"tex": "\\hl{3}{n} &= \\frac{\\hl{1}{140}}{\\hl{2}{0.35}}"}, {"tex": "&= \\hl{3}{400}"}]}
+   ],
+   "final": "\\hl{3}{400}",
+   "graph": null}
+ ]},
+ {"skill": "stat-populations-samples", "problems": [
+  {"part": "practice-stat-populations-samples-2", "note": null,
+   "legend": {"1": "the population, 4500", "2": "the sample, 90", "3": "the answer, 1 in every 50 adults"},
+   "steps": [
+    {"ask": "Which group is every adult in the town, and which group is actually chosen?", "title": "Identify the population and the sample",
+     "lines": [{"text": "Population: the 4500 adults in the town. Sample: the 90 adults chosen."}]},
+    {"ask": "How many adults in the town does each person in the sample stand for? Divide to find out.", "title": "Divide the population by the sample",
+     "lines": [{"tex": "\\frac{\\hl{1}{4500}}{\\hl{2}{90}} &= \\hl{3}{50}"}]},
+    {"ask": "What must be true of the 90 for their views to say something about all 4500 adults?", "title": "State the result",
+     "lines": [{"text": "The sample is 1 in every 50 adults, so conclusions only generalise if these 90 represent the town."}]}
+   ],
+   "final": "\\hl{3}{50}",
+   "graph": null},
+  {"part": "practice-stat-populations-samples-1", "note": "Changed from problem 1: the answer is now a percentage of the population rather than a 1-in-N ratio, so one more step converts a fraction to a percentage. Naming the population and the sample first stays the same.",
+   "legend": {"1": "the population, 1200", "2": "the sample, 150", "3": "the answer, % of the population sampled", "4": "the sample as a fraction, 1/8"},
+   "steps": [
+    {"ask": "Which group is all the students, and which group is surveyed?", "title": "Identify the population and the sample",
+     "lines": [{"text": "Population: all 1200 students. Sample: the 150 students surveyed."}]},
+    {"ask": "Which number goes on top when you write the sample as a fraction of the population?", "title": "Write the sample as a fraction of the population",
+     "lines": [{"tex": "\\text{Fraction} &= \\frac{\\hl{2}{150}}{\\hl{1}{1200}} = \\hl{4}{\\frac{1}{8}}"}]},
+    {"ask": "How do you turn a fraction of the whole into a percentage?", "title": "Convert to a percentage",
+     "lines": [{"tex": "\\hl{4}{\\frac{1}{8}} \\times 100 &= \\hl{3}{12.5}"}]}
+   ],
+   "final": "\\hl{3}{12.5}\\%",
+   "graph": null},
+  {"part": "maths-pp-2022-ordinary-p2-q10#(a)", "note": "Changed from problem 2: there are no numbers to work out. It is a written argument about what a sample gains and loses, but it still rests on whether the sample represents the population.",
+   "legend": {},
+   "steps": [
+    {"ask": "What does a sample save compared with asking everyone in the population?", "title": "Give an advantage of a sample",
+     "lines": [{"text": "A sample is cheaper and faster than surveying everyone in the population."}]},
+    {"ask": "What could go wrong with the answers if the sample does not look like the whole population?", "title": "Give a disadvantage of a sample",
+     "lines": [{"text": "A sample is less accurate, and it may be biased if it does not represent the whole population."}]}
+   ],
+   "final": "\\text{Advantage: cheaper or faster. Disadvantage: less accurate (sampling bias).}",
+   "graph": null}
+ ]},
+ {"skill": "stat-sampling-methods-hl", "problems": [
+  {"part": "practice-stat-sampling-methods-hl-1", "note": null,
+   "legend": {"1": "the whole school, 1200", "2": "the third-year group, 500", "3": "the answer, students from third year", "4": "the sample size, 60"},
+   "steps": [
+    {"ask": "What fraction of the whole school is third year?", "title": "Find third year's share",
+     "lines": [{"text": "Stratified sampling takes from each group in proportion to its size."}, {"tex": "\\text{Share} &= \\frac{\\hl{2}{500}}{\\hl{1}{1200}}"}]},
+    {"ask": "Take that share of the sample of 60. What number of third-year students does that give?", "title": "Apply to the sample",
+     "lines": [{"tex": "\\text{Number} &= \\frac{\\hl{2}{500}}{\\hl{1}{1200}} \\times \\hl{4}{60}"}, {"tex": "&= \\hl{3}{25}"}, {"text": "Choose these 25 students at random from the third-year students."}]}
+   ],
+   "final": "\\hl{3}{25}",
+   "graph": null},
+  {"part": "maths-pp-2025-higher-p2-q10#(d)", "note": "Changed from problem 1: the groups are now split 50/50 by pet ownership out of 2520 students, and the last step judges whether that split helps. The proportional stratified method is the same.",
+   "legend": {"1": "the whole group of students, 2520", "2": "the share of students in each group, 50%", "3": "the answer, size of each sample"},
+   "steps": [
+    {"ask": "Stratified sampling needs groups. What are the two groups here, and what share of the students is each?", "title": "Split the students into two groups",
+     "lines": [{"text": "Stratified sampling takes a sample from each group in proportion to its size. Here the groups are students with a pet and students without a pet."}, {"text": "Each group is 50% of the students, so each should make up 50% of the sample."}]},
+    {"ask": "If each group is half the students, what size should each sample be out of the 2520?", "title": "Work out the size of each sample",
+     "lines": [{"tex": "\\text{Sample size} &= \\hl{2}{\\frac{50}{100}} \\times \\hl{1}{2520}"}, {"tex": "&= \\hl{3}{1260}"}]},
+    {"ask": "How should the students be picked within each group?", "title": "Choose the students at random",
+     "lines": [{"text": "Take a random sample of 1260 from all the students in country Z who have a pet."}, {"text": "Take a random sample of 1260 from all the students in country Z who do not have a pet."}]},
+    {"ask": "Does owning a pet tell you anything about maths scores? What would you expect?", "title": "Why this is probably not useful",
+     "lines": [{"text": "There is probably no connection between owning a pet and maths scores, so splitting by pet ownership gives no better estimate of the scores."}]}
+   ],
+   "final": "\\text{Random sample of \\hl{3}{1260} pet owners and \\hl{3}{1260} non-owners; pet ownership is probably unrelated to maths scores}",
+   "graph": null},
+  {"part": "practice-stat-sampling-methods-hl-2", "note": "Changed from problem 2: this is quota sampling, not stratified random sampling, so the interviewer chooses who to ask. The arithmetic is still a share of a total, as in problem 1.",
+   "legend": {"1": "the shoppers interviewed, 80", "2": "the women's share, 55%", "3": "the answer, women in the quota"},
+   "steps": [
+    {"ask": "If the quota copies the town, what share of the 80 interviews should be women?", "title": "Find the number of women",
+     "lines": [{"text": "A quota sample copies the make-up of the population, so 55% of the 80 must be women."}, {"tex": "\\hl{2}{\\frac{55}{100}} \\times \\hl{1}{80} &= \\hl{3}{44}"}]},
+    {"ask": "Who picks the people in a quota sample, and is that choice random?", "title": "Comment on bias",
+     "lines": [{"text": "The interviewer chooses who to ask, not a random method, so they may pick people who are easy to approach. This can bias the sample."}]}
+   ],
+   "final": "\\hl{3}{44}",
+   "graph": null}
+ ]},
+ {"skill": "stat-srs-bias", "problems": [
+  {"part": "practice-stat-srs-bias-1", "note": null,
+   "legend": {"1": "the whole group of students, 300", "2": "the sample, 25", "3": "the answer, the probability"},
+   "steps": [
+    {"ask": "What must be true of every student's chance for the method to count as simple random?", "title": "Say why the method is a simple random sample",
+     "lines": [{"text": "Every student has the same chance of selection, so there is no bias."}]},
+    {"ask": "How many students are chosen out of how many, and what fraction of the group is that?", "title": "Find the probability",
+     "lines": [{"tex": "\\hl{3}{P} &= \\frac{\\hl{2}{25}}{\\hl{1}{300}} = \\hl{3}{\\frac{1}{12}}"}]}
+   ],
+   "final": "\\hl{3}{\\frac{1}{12}}",
+   "graph": null},
+  {"part": "practice-stat-srs-bias-2", "note": "Changed from problem 1: the method is now a phone poll at 11 a.m. on a weekday, which leaves out people at work, so it is biased. The question asks for the share left out as a percentage, not a probability.",
+   "legend": {"1": "the residents phoned, 500", "2": "the residents left out, 180", "3": "the answer, percentage left out", "4": "the fraction left out, 9/25"},
+   "steps": [
+    {"ask": "Who is likely to be missed by calling at this time of day?", "title": "Spot the bias",
+     "lines": [{"text": "Phoning at 11 a.m. on a weekday leaves out people at work, so the sample is biased."}]},
+    {"ask": "Which number goes on top of the fraction for those left out: the number phoned or the number left out?", "title": "Write those left out as a fraction",
+     "lines": [{"tex": "\\frac{\\hl{2}{180}}{\\hl{1}{500}} &= \\hl{4}{\\frac{9}{25}}"}]},
+    {"ask": "What do you multiply a fraction by to turn it into a percentage?", "title": "Convert to a percentage",
+     "lines": [{"tex": "\\hl{4}{\\frac{9}{25}} \\times 100 &= \\hl{3}{36}"}]}
+   ],
+   "final": "\\hl{3}{36}\\%",
+   "graph": null},
+  {"part": "maths-pp-2023-ordinary-p2-q9#(a)(i), (iii)", "note": "Changed from problem 2: this asks for a maximum count from grouped frequencies rather than a percentage, and the last step judges a non-random sample. Spotting the bias stays the same.",
+   "legend": {"1": "the class 90 to 120, 59", "2": "the frequencies of the classes above, 18 and 10", "3": "the answer, maximum count"},
+   "steps": [
+    {"ask": "Which class could contain students over 100, and which classes lie entirely above it?", "title": "(i) Pick the classes that could be over 100",
+     "lines": [{"text": "The class 90 to 120 includes students above 100, and every class above it is entirely above 100."}, {"text": "At most, all 59 students in 90 to 120 read for more than 100 minutes."}]},
+    {"ask": "Once you know which classes could be over 100, what do you do with their frequencies?", "title": "(i) Add the frequencies",
+     "lines": [{"tex": "\\text{Maximum} &= \\hl{1}{59} + \\hl{2}{18} + \\hl{2}{10}"}, {"tex": "&= \\hl{3}{87}"}]},
+    {"ask": "What is wrong with taking the first 200 students to arrive as the sample?", "title": "(iii) Say why the sampling method is limited",
+     "lines": [{"text": "Only the first 200 students to arrive were asked, so the sample is not random."}, {"text": "These could be local students, or students arriving together on school buses."}, {"text": "Students who arrive later are left out, so the sample may not be representative."}]}
+   ],
+   "final": "\\hl{3}{87} \\text{ students}",
+   "graph": null}
+ ]},
+ {"skill": "stat-study-types", "problems": [
+  {"part": "practice-stat-study-types-1", "note": null,
+   "legend": {"1": "the total patients, 60", "2": "the number of groups, 2", "3": "the answer, patients in each group"},
+   "steps": [
+    {"ask": "Who decides which patients get the tablet: the researchers or the patients?", "title": "Identify the type of study",
+     "lines": [{"text": "The researchers choose who gets the treatment, so this is a designed experiment."}]},
+    {"ask": "How many equal groups are there, and what do you divide the 60 patients by?", "title": "Split the patients equally",
+     "lines": [{"tex": "\\frac{\\hl{1}{60}}{\\hl{2}{2}} &= \\hl{3}{30}"}]}
+   ],
+   "final": "\\hl{3}{30}",
+   "graph": null},
+  {"part": "practice-stat-study-types-2", "note": "Changed from problem 1: the study is observational, so nothing is given to anyone, and the answer is a percentage of the people who are not smokers. Identifying the type first stays the same.",
+   "legend": {"1": "the total people, 240", "2": "the smokers, 48", "3": "the answer, % not smokers", "4": "the non-smokers, 192"},
+   "steps": [
+    {"ask": "Does the researcher change anything for these people, or only record what is already there?", "title": "Identify the type of study",
+     "lines": [{"text": "The researcher only records what is already happening and gives no treatment, so it is observational."}]},
+    {"ask": "How do you find the people who are not smokers from the total and the number who smoke?", "title": "Find the number of non-smokers",
+     "lines": [{"tex": "\\hl{1}{240} - \\hl{2}{48} &= \\hl{4}{192}"}]},
+    {"ask": "What fraction of the 240 are non-smokers, and what do you multiply that fraction by to get a percentage?", "title": "Convert to a percentage",
+     "lines": [{"tex": "\\frac{\\hl{4}{192}}{\\hl{1}{240}} \\times 100 &= \\hl{3}{80}"}]}
+   ],
+   "final": "\\hl{3}{80}\\%",
+   "graph": null},
+  {"part": "practice-stat-study-types-3", "note": "Changed from problem 2: this is a survey, not an observational study, and the percentage is the response rate, replies out of those asked. The steps stay the same: name the type, make a fraction, convert to a percentage.",
+   "legend": {"1": "the people asked, 500", "2": "the replies, 360", "3": "the answer, response rate %", "4": "the fraction who replied, 18/25"},
+   "steps": [
+    {"ask": "What does the researcher do to these people, apart from asking them questions?", "title": "Identify the type of study",
+     "lines": [{"text": "People are only asked questions, so this is a survey, not an experiment."}]},
+    {"ask": "Which number is the replies, and which is the number asked, when you write them as a fraction?", "title": "Write the replies as a fraction of those asked",
+     "lines": [{"tex": "\\frac{\\hl{2}{360}}{\\hl{1}{500}} &= \\hl{4}{\\frac{18}{25}}"}]},
+    {"ask": "How do you convert this fraction into a percentage?", "title": "Convert to a percentage",
+     "lines": [{"tex": "\\hl{4}{\\frac{18}{25}} \\times 100 &= \\hl{3}{72}"}]}
+   ],
+   "final": "\\hl{3}{72}\\%",
+   "graph": null}
+ ]}
+]

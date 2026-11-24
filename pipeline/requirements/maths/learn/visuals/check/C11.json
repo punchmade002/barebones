@@ -1,0 +1,376 @@
+[
+ {
+  "skill": "con-17",
+  "of": "page",
+  "title": "Construction 17: Incentre and incircle of a triangle (straight edge and compass)",
+  "show": "compass-and-straight-edge construction: triangle with angle bisectors meeting at the incentre and the incircle touching the sides, with arcs left visible",
+  "example": {
+   "question": "Construct the incircle of the triangle $ABC$ with $|AB| = 8$ cm, $|BC| = 7$ cm and $|AC| = 5$ cm. Show all construction lines.",
+   "final": "incircle with centre $I$, the meeting point of the angle bisectors",
+   "steps": [
+    {
+     "say": "Draw $[AB]$ first. Then find $C$ with two arcs, so the sides are accurate.",
+     "rows": [
+      {
+       "aside": "Draw $[AB]$ with $|AB| = 8$ cm."
+      },
+      {
+       "aside": "With the compass point on $A$, draw an arc of radius $5$ cm."
+      },
+      {
+       "aside": "With the compass point on $B$, draw an arc of radius $7$ cm. Where the arcs cross is $C$."
+      },
+      {
+       "aside": "Join $A$ to $C$ and $B$ to $C$."
+      }
+     ]
+    },
+    {
+     "say": "The incentre lies on each angle bisector. Bisect the angle at $A$ using Construction 1.",
+     "rows": [
+      {
+       "aside": "With the compass point on $A$, draw an arc that cuts $[AB]$ and $[AC]$."
+      },
+      {
+       "aside": "Keep the same width. Put the point on each cut in turn and draw two arcs that cross inside the angle."
+      },
+      {
+       "aside": "Draw a line from $A$ through the crossing point."
+      }
+     ]
+    },
+    {
+     "say": "Do the same at $B$. The two bisectors meet at one point, the **incentre** $I$.",
+     "rows": [
+      {
+       "aside": "Repeat the construction at $B$."
+      },
+      {
+       "aside": "Label the point where the two bisectors cross $I$."
+      },
+      {
+       "aside": "Two bisectors are enough. Leave all the arcs showing."
+      }
+     ]
+    },
+    {
+     "say": "The circle must touch each side, so its radius is the shortest distance from $I$ to a side. Drop a perpendicular.",
+     "rows": [
+      {
+       "aside": "From $I$, construct the perpendicular to $[AB]$ (Construction 5). Where it meets $[AB]$ is $T$."
+      },
+      {
+       "aside": "With the compass point on $I$ and the pencil on $T$, draw the circle."
+      },
+      {
+       "aside": "It touches all three sides."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-19",
+  "of": "page",
+  "title": "Construction 19: Tangent to a circle at a given point on it",
+  "show": "compass-and-straight-edge construction: circle centre O with P on it, the radius OP and the tangent perpendicular at P, with arcs left visible",
+  "example": {
+   "question": "A circle has centre $O$ and radius $4$ cm. $P$ is a point on the circle. Construct the tangent to the circle at $P$.",
+   "final": "the line $t$ through $P$, perpendicular to $[OP]$",
+   "steps": [
+    {
+     "say": "The tangent is perpendicular to the radius at $P$. Draw the radius first.",
+     "rows": [
+      {
+       "aside": "Draw the circle with centre $O$ and radius $4$ cm. Mark $P$ on it."
+      },
+      {
+       "aside": "Draw the line from $O$ through $P$, and extend it past $P$."
+      }
+     ]
+    },
+    {
+     "say": "Construction 4 draws a perpendicular to a line through a point on it. First mark two points the same distance from $P$.",
+     "rows": [
+      {
+       "aside": "With the compass point on $P$, draw an arc that cuts the extended radius on both sides of $P$."
+      },
+      {
+       "aside": "Call the two cuts $X$ and $Y$. Now $|PX| = |PY|$."
+      }
+     ]
+    },
+    {
+     "say": "Open the compass wider. Draw two arcs that cross above and below the line.",
+     "rows": [
+      {
+       "aside": "With the compass point on $X$, draw an arc above the line and one below it."
+      },
+      {
+       "aside": "Keep the same width. With the point on $Y$, draw arcs that cross the first two."
+      },
+      {
+       "aside": "Mark the crossing points $U$ and $V$."
+      }
+     ]
+    },
+    {
+     "say": "Join $U$ and $V$. This line passes through $P$ at a right angle to $[OP]$, so it is the **tangent**.",
+     "rows": [
+      {
+       "aside": "With the straight edge, draw the line $UV$ through $P$."
+      },
+      {
+       "aside": "Label it $t$. It touches the circle at $P$ only."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-21",
+  "of": "page",
+  "title": "Construction 21: Centroid of a triangle",
+  "show": "compass-and-straight-edge construction: triangle A(1,2) B(7,4) C(4,9) on a grid with midpoint D of BC and the median, with arcs left visible",
+  "example": {
+   "question": "The triangle $ABC$ has vertices $A(1, 2)$, $B(7, 4)$ and $C(4, 9)$. Find the midpoint $D$ of $[BC]$, then find the centroid $G$ of the triangle.",
+   "final": "$D = \\left(\\frac{11}{2}, \\frac{13}{2}\\right)$, $G = (4, 5)$",
+   "steps": [
+    {
+     "say": "A median joins a vertex to the midpoint of the opposite side. Average the coordinates of $B$ and $C$ to find $\\hl{1}{D}$.",
+     "rows": [
+      {
+       "l": "D_x",
+       "r": "= \\frac{7 + 4}{2} = \\frac{11}{2}"
+      },
+      {
+       "l": "D_y",
+       "r": "= \\frac{4 + 9}{2} = \\frac{13}{2}"
+      },
+      {
+       "aside": "So $\\hl{1}{D} = \\left(\\frac{11}{2}, \\frac{13}{2}\\right)$. The median is $[AD]$."
+      }
+     ]
+    },
+    {
+     "say": "The centroid $\\hl{2}{G}$ is two thirds of the way from $A$ to $D$. Find the $x$-coordinate first.",
+     "rows": [
+      {
+       "l": "G_x",
+       "r": "= 1 + \\frac{2}{3}\\left(\\frac{11}{2} - 1\\right)"
+      },
+      {
+       "l": "",
+       "r": "= 1 + \\frac{2}{3}\\cdot\\frac{9}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 4"
+      }
+     ]
+    },
+    {
+     "say": "Do the same with the $y$-values.",
+     "rows": [
+      {
+       "l": "G_y",
+       "r": "= 2 + \\frac{2}{3}\\left(\\frac{13}{2} - 2\\right)"
+      },
+      {
+       "l": "",
+       "r": "= 2 + \\frac{2}{3}\\cdot\\frac{9}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "A quick check: the centroid is the average of the three vertices.",
+     "rows": [
+      {
+       "l": "\\left(\\frac{1 + 7 + 4}{3}, \\frac{2 + 4 + 9}{3}\\right)",
+       "r": "= (4, 5)"
+      },
+      {
+       "aside": "Both methods agree. $\\hl{2}{G} = (4, 5)$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-7",
+  "of": "page",
+  "title": "Construction 7: Divide a segment into any number of equal parts without measuring",
+  "show": "compass-and-straight-edge construction: segment AB divided into three equal parts using a ray with equal steps, with arcs left visible",
+  "example": {
+   "question": "Divide the segment $[AB]$ into three equal parts, using only a compass and straight edge.",
+   "final": "|AD_1| = |D_1D_2| = |D_2B|",
+   "steps": [
+    {
+     "say": "From $A$, draw a ray at any angle to $[AB]$. Make it long enough to hold three equal steps.",
+     "rows": [
+      {
+       "aside": "Any angle works. It only has to be a different direction from $[AB]$."
+      }
+     ]
+    },
+    {
+     "say": "Set the compass to any small width. Put the point on $A$ and mark $C_1$ on the ray. Keep the width. Move to $C_1$ and mark $C_2$. Move to $C_2$ and mark $C_3$.",
+     "rows": [
+      {
+       "aside": "Do not change the compass width between marks, so $|AC_1| = |C_1C_2| = |C_2C_3|$."
+      }
+     ]
+    },
+    {
+     "say": "With the ruler, join $C_3$ to $B$.",
+     "rows": [
+      {
+       "aside": "This line is the one the others will be parallel to."
+      }
+     ]
+    },
+    {
+     "say": "Copy the angle at $C_3$ up to $C_2$ and $C_1$ with the compass. Draw a line through $C_2$ parallel to $C_3B$, meeting $[AB]$ at $D_2$. Draw another through $C_1$, meeting $[AB]$ at $D_1$.",
+     "rows": [
+      {
+       "aside": "Leave all arcs and lines on the page. They are the construction lines."
+      }
+     ]
+    },
+    {
+     "say": "The parallels cut equal pieces on both lines, so the three pieces on $[AB]$ are equal.",
+     "rows": [
+      {
+       "aside": "$|AD_1| = |D_1D_2| = |D_2B|$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-22",
+  "of": "page",
+  "title": "Construction 22: Orthocentre of a triangle",
+  "show": "compass-and-straight-edge construction: triangle with its three altitudes meeting at the orthocentre, with arcs left visible",
+  "example": {
+   "question": "Construct the orthocentre of the triangle $ABC$.",
+   "final": "H \\text{ is the orthocentre}",
+   "steps": [
+    {
+     "say": "Put the compass point on $C$. Draw an arc that cuts $[AB]$ at two points. From each of those points, draw an arc below $[AB]$ with the same width. Join $C$ to where the arcs cross.",
+     "rows": [
+      {
+       "aside": "This is Construction 3: a perpendicular to a line through a point not on it."
+      }
+     ]
+    },
+    {
+     "say": "Repeat from $A$ on the side $[BC]$. Extend $[BC]$ if the arcs cannot reach it. Join $A$ to where the arcs cross.",
+     "rows": [
+      {
+       "aside": "Each altitude meets its side at $90^\\circ$."
+      }
+     ]
+    },
+    {
+     "say": "The two altitudes cross at one point. Label it $H$.",
+     "rows": [
+      {
+       "aside": "Two correct altitudes that do not cross earn only part of the marks. Extend them until they meet."
+      }
+     ]
+    },
+    {
+     "say": "Draw the altitude from $B$ to $[AC]$ in the same way. It should pass through $H$.",
+     "rows": [
+      {
+       "aside": "If it misses $H$, one of the arcs was drawn with a changed compass width."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-derive-2",
+  "of": "page",
+  "title": "Derive formula 2: the sine rule",
+  "show": "triangle ABC with sides a,b,c, height h from B to AC and the area expressions marked",
+  "example": {
+   "question": "In triangle $ABC$ the sides opposite $A$, $B$ and $C$ are $a$, $b$ and $c$. Using area $=\\tfrac12 ab\\sin C$, prove that $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$.",
+   "final": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}",
+   "steps": [
+    {
+     "say": "The area formula works from any vertex: take two sides and the angle between them. Do it at $A$, at $B$ and at $C$.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= \\tfrac12\\,bc\\sin A"
+      },
+      {
+       "l": "",
+       "r": "= \\tfrac12\\,ac\\sin B"
+      },
+      {
+       "l": "",
+       "r": "= \\tfrac12\\,ab\\sin C"
+      },
+      {
+       "aside": "All three are the area of the same triangle, so they are equal."
+      }
+     ]
+    },
+    {
+     "say": "Divide every form of the area by $\\tfrac12 abc$. In each one two letters cancel and a single $\\sin$ over a side is left.",
+     "rows": [
+      {
+       "l": "\\frac{\\tfrac12 bc\\sin A}{\\tfrac12 abc}",
+       "r": "= \\frac{\\sin A}{a}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{\\sin A}{a}}"
+      },
+      {
+       "l": "\\frac{\\tfrac12 ac\\sin B}{\\tfrac12 abc}",
+       "r": "= \\frac{\\sin B}{b}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{\\frac{\\sin B}{b}}"
+      },
+      {
+       "l": "\\frac{\\tfrac12 ab\\sin C}{\\tfrac12 abc}",
+       "r": "= \\frac{\\sin C}{c}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{\\frac{\\sin C}{c}}"
+      }
+     ]
+    },
+    {
+     "say": "The three areas are equal, so the three results are equal. Turn each fraction upside down to get the form in the tables.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\frac{\\sin A}{a}}",
+       "r": "= \\hl{2}{\\frac{\\sin B}{b}} = \\hl{3}{\\frac{\\sin C}{c}}"
+      },
+      {
+       "l": "\\frac{a}{\\sin A}",
+       "r": "= \\frac{b}{\\sin B} = \\frac{c}{\\sin C}"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

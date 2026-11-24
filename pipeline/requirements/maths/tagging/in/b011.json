@@ -1,0 +1,380 @@
+[
+ {
+  "part": "maths-pp-2017-ordinary-p2-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Use the circle formula with centre (0, 0)\nA circle with centre $(0,0)$ and radius $r$ has equation $x^2 + y^2 = r^2$.\nx^2 + y^2 &= 5^2\nx^2 + y^2 &= 25\nANSWER: x^2 + y^2 = 25"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q2#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Substitute P(-4, k) into the equation of the circle\n(-4)^2 + k^2 &= 25\n16 + k^2 &= 25\nk^2 &= 9\n## Take the positive square root\n$P$ is above the $x$-axis, so $k > 0$ and we reject $-3$.\nk &= 3\nANSWER: k = 3"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q2#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find the slope of PA\n$A(-5,0)$, $P(-4,3)$, $B(5,0)$.\nm_{PA} &= \\frac{3 - 0}{-4 - (-5)}\n&= \\frac{3}{1}\n&= 3\n## Find the slope of PB\nm_{PB} &= \\frac{0 - 3}{5 - (-4)}\n&= \\frac{-3}{9}\n&= -\\frac{1}{3}\n## Multiply the slopes\nm_{PA} \\times m_{PB} &= 3 \\times \\left(-\\frac{1}{3}\\right)\n&= -1\nThe product of the slopes is $-1$, so $PA \\perp PB$ and the triangle is right-angled at $P$.\nANSWER: \\angle APB = 90^\\circ"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Area of the semi-circle (radius 5)\nA_{\\text{semi}} &= \\frac{1}{2}\\pi r^2\n&= \\frac{1}{2}\\pi (5)^2\n&= \\frac{25\\pi}{2}\n&\\approx 39.2699\n## Area of the triangle ABP\nThe base is $|AB| = 10$ and the height is $k = 3$.\nA_{\\triangle} &= \\frac{1}{2} \\times 10 \\times 3\n&= 15\n## Subtract the triangle from the semi-circle\nA_{\\text{region}} &= 39.2699 - 15\n&= 24.2699\n&\\approx 24.27\nANSWER: 24.27 \\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q3#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the distance formula with A(2, 1) and D(1, 3)\n|AD| &= \\sqrt{(1-2)^2 + (3-1)^2}\n&= \\sqrt{(-1)^2 + 2^2}\n&= \\sqrt{1 + 4}\n&= \\sqrt{5}\nANSWER: |AD| = \\sqrt{5}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q3#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Find |CD| using C(5, 5) and D(1, 3)\n|CD| &= \\sqrt{(1-5)^2 + (3-5)^2}\n&= \\sqrt{16 + 4}\n&= \\sqrt{20}\n## Area of a rectangle is length times width\n\\text{Area} &= |CD| \\times |AD|\n&= \\sqrt{20} \\times \\sqrt{5}\n&= \\sqrt{100}\n&= 10\nANSWER: 10 \\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of BC using B(6, 3) and C(5, 5)\nm_{BC} &= \\frac{5 - 3}{5 - 6}\n&= \\frac{2}{-1}\n&= -2\n## Write the equation using the point B(6, 3)\ny - 3 &= -2(x - 6)\ny - 3 &= -2x + 12\n## Rearrange to the form ax + by + c = 0\n2x + y - 3 &= 12\n2x + y - 15 &= 0\nANSWER: 2x + y - 15 = 0"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find |BD| using B(6, 3) and D(1, 3)\n$ABCD$ is a rectangle, so triangle $ABD$ is right-angled at $A$, and $BD$ is the hypotenuse.\n|BD| &= \\sqrt{(6-1)^2 + (3-3)^2}\n&= \\sqrt{25}\n&= 5\n## Use sine: opposite over hypotenuse\nThe side opposite angle $ABD$ is $|AD| = \\sqrt{5}$.\n\\sin ABD &= \\frac{|AD|}{|BD|}\n&= \\frac{\\sqrt{5}}{5}\n## Find the angle\n\\angle ABD &= \\sin^{-1}\\left(\\frac{\\sqrt{5}}{5}\\right)\n&\\approx 26.565^\\circ\n&\\approx 27^\\circ\nANSWER: \\angle ABD \\approx 27^\\circ"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 10,
+  "solution": "## Draw a rough sketch first\nSides: $|AB| = 8$ cm, $|AC| = 5$ cm, $|BC| = 7$ cm.\n## Draw the base AB\nUse a ruler to draw a line segment $AB$ exactly 8 cm long.\n## Mark C with two arcs\nSet the compass to 5 cm, put the point on $A$ and draw an arc above $AB$.\nSet the compass to 7 cm, put the point on $B$ and draw an arc that crosses the first.\nLabel the crossing point $C$.\n## Join the vertices\nDraw $AC$ and $BC$ with a ruler, and check the sides measure 5 cm and 7 cm.\nANSWER: \\text{Triangle } ABC \\text{ with } |AB|=8,\\ |AC|=5,\\ |BC|=7 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q4#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Area of a square is side times side\n\\text{Area} &= 2k \\times 2k\n&= 4k^2\nANSWER: 4k^2 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q4#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Use Pythagoras to find k\nThe removed triangle has legs 20 and 20, and hypotenuse $2k$.\n(2k)^2 &= 20^2 + 20^2\n4k^2 &= 400 + 400\n4k^2 &= 800\nk^2 &= 200\n## Take the positive square root\nk &= \\sqrt{200}\n&= 10\\sqrt{2}\n&\\approx 14.14\n## Area of the square\n4k^2 &= 4 \\times 200\n&= 800\n## Area of the removed triangle\n\\tfrac{1}{2} \\times 20 \\times 20 &= 200\n## Subtract to get the shaded area\n\\text{Shaded} &= 800 - 200\n&= 600\nANSWER: k \\approx 14.14, \\quad \\text{shaded area} = 600 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q5#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## The mean goes in the middle\nThe centre of a normal curve is the mean, so the middle box is 100.\n## Add the standard deviation (15) going right\n100 + 15 &= 115\n115 + 15 &= 130\n130 + 15 &= 145\n## Subtract the standard deviation (15) going left\n100 - 15 &= 85\n85 - 15 &= 70\n70 - 15 &= 55\nThe 85 box was already given, which checks the pattern.\nANSWER: 55,\\ 70,\\ 85,\\ 100,\\ 115,\\ 130,\\ 145"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q5#(a)(ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22",
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## (ii) Scores between 70 and 130\n$70 = 100 - 2(15)$ and $130 = 100 + 2(15)$, so this is within 2 standard deviations of the mean.\nThe Empirical Rule says about 95% of values lie within 2 standard deviations.\nP(70 < X < 130) &= 0.95\n## (iii) Scores between 85 and 115\n$85 = 100 - 15$ and $115 = 100 + 15$, so this is within 1 standard deviation of the mean.\nThe Empirical Rule says about 68% of values lie within 1 standard deviation.\n\\text{Number} &= 0.68 \\times 1200\n&= 816\nANSWER: \\text{(ii) } 0.95 \\qquad \\text{(iii) } 816 \\text{ people}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the pupils who are boys or do not study chemistry\nPupils who study chemistry: $6 + 9 = 15$, so $24 - 15 = 9$ do not.\nBoys: 10. Girls who do not study chemistry: $14 - 9 = 5$.\n\\text{Favourable} &= 10 + 5\n&= 15\n## Probability = favourable over total\nP &= \\frac{15}{24}\nANSWER: \\frac{15}{24} = \\frac{5}{8}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q6#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the third angle\nAngles in a triangle add up to $180^\\circ$.\n180 - 65 - 63 &= 52\n## Write the sine rule\n$x$ is opposite the $52^\\circ$ angle and $10$ is opposite the $63^\\circ$ angle.\n\\frac{x}{\\sin 52^\\circ} &= \\frac{10}{\\sin 63^\\circ}\n## Solve for x\nMultiply both sides by $\\sin 52^\\circ$.\nx &= \\frac{10 \\sin 52^\\circ}{\\sin 63^\\circ}\nWith the calculator in degree mode, $10\\sin 52^\\circ \\approx 7.880$ and $\\sin 63^\\circ \\approx 0.8910$.\nx &= 8.84\nANSWER: x = 8.84\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Write the cosine rule\nTwo sides and the angle between them are known, so use the cosine rule for the side opposite that angle.\ny^2 &= 8.5^2 + 10.2^2 - 2(8.5)(10.2)\\cos 53.8^\\circ\n## Work out the numbers\n8.5^2 &= 72.25\n10.2^2 &= 104.04\n2(8.5)(10.2) &= 173.4\n## Substitute and add\ny^2 &= 72.25 + 104.04 - 173.4\\cos 53.8^\\circ\ny^2 &= 176.29 - 173.4\\cos 53.8^\\circ\n## Evaluate with the calculator\nIn degree mode, $\\cos 53.8^\\circ \\approx 0.59057$.\ny^2 &= 73.88\n## Take the square root\nA length is positive, so take the positive root.\ny &= \\sqrt{73.88}\ny &= 8.60\nANSWER: y = 8.60\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q7#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Use height = diameter\nThe diameter is twice the radius.\nh &= 2r\nh &= 2(2.25)\nh &= 4.5\nANSWER: h = 4.5\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q7#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Use Pythagoras on the cone\nThe height, radius and slant height form a right-angled triangle with $l$ as the hypotenuse.\nl^2 &= h^2 + r^2\nl^2 &= 4.5^2 + 2.25^2\nl^2 &= 20.25 + 5.0625\nl^2 &= 25.3125\n## Take the square root\nl &= \\sqrt{25.3125}\nl &= 5.03\nANSWER: l = 5.03\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q7#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Curved surface area of 14 cones\nThe curved surface area of one cone is $\\pi r l$.\n\\text{CSA} &= 14\\pi r l\n&= 14 \\times \\pi (2.25)(5.03)\n&= 497.77\nANSWER: 497.77\\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q7#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Divide the area by the area one litre covers\n\\text{Litres} &= \\frac{497.77}{12.25}\n&= 40.63\n## Round to the nearest litre\n&\\approx 41\nANSWER: 41\\text{ litres}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q7#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the number of containers\nEach container holds 5 litres, so divide 41 by 5.\n\\frac{41}{5} &= 8.2\n## Round up to whole containers\nYou cannot buy part of a container, and 8 would not be enough, so round up.\n\\text{Containers} &= 9\n## Find the cost in Australian dollars\nEach container costs 110 Australian dollars.\n9 \\times 110 &= 990\n## Convert to euro\nThe cost is 990 Australian dollars. Multiply by 0.68.\n990 \\times 0.68 &= \\text{€}673.20\n&\\approx \\text{€}673\nANSWER: 9\\text{ containers, cost } \\text{€}673"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q7#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the arc length p\nThe arc of the sector wraps around the base of the cone, so it equals the circumference of the base (radius 2.25).\np &= 2\\pi r\n&= 2\\pi (2.25)\n&= 14.14\n## Write the arc length as a fraction of the full circle\nThe sector has radius 5.03, so its full circle has circumference $2\\pi(5.03)$.\np &= \\frac{\\theta}{360} \\times 2\\pi (5.03)\n14.14 &= \\frac{\\theta}{360} \\times 2\\pi (5.03)\n## Solve for theta\n\\theta &= \\frac{14.14 \\times 360}{2\\pi (5.03)}\n&= 161.07\n&\\approx 161\nANSWER: p = 14.14\\text{ m}, \\quad \\theta = 161^\\circ"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Read each point from the grid\nRead across to the $x$-value, then up or down to the $y$-value. Write each as $(x, y)$.\nA &= (1, -2)\nB &= (4, 2)\nD &= (6, -6)\nE &= (15, 6)\nANSWER: A = (1,-2),\\ B = (4,2),\\ D = (6,-6),\\ E = (15,6)"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q8#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Slope of [AB]\nSlope $= \\dfrac{y_2 - y_1}{x_2 - x_1}$, with $A(1,-2)$ and $B(4,2)$.\nm_{AB} &= \\frac{2-(-2)}{4-1}\n&= \\frac{4}{3}\n## Slope of [DE]\nUse $D(6,-6)$ and $E(15,6)$.\nm_{DE} &= \\frac{6-(-6)}{15-6}\n&= \\frac{12}{9}\n&= \\frac{4}{3}\n## Conclude\nThe slopes are equal, so the segments are parallel.\nANSWER: m_{AB} = m_{DE} = \\frac{4}{3} \\Rightarrow [AB] \\parallel [DE]"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q8#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Move A to the origin\nSubtract $A(1,-2)$ from each point, so $A$ becomes $(0,0)$.\nB &\\to (4-1,\\ 2-(-2)) = (3, 4)\nC &\\to (4.5-1,\\ 0-(-2)) = (3.5, 2)\n## Use the area formula\nWith one vertex at the origin, area $= \\tfrac12 |x_1 y_2 - x_2 y_1|$.\n\\text{Area} &= \\frac{1}{2}|(3)(2) - (3.5)(4)|\n&= \\frac{1}{2}|6 - 14|\n&= \\frac{1}{2}|-8|\n&= \\frac{1}{2}(8)\n&= 4\nANSWER: \\text{Area} = 4\\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q8#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the distance formula\n$A(1,-2)$ and $B(4,2)$.\n|AB| &= \\sqrt{(4-1)^2 + (2-(-2))^2}\n&= \\sqrt{3^2 + 4^2}\n&= \\sqrt{9 + 16}\n&= \\sqrt{25}\n&= 5\nANSWER: |AB| = 5\\text{ units}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q8#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Divide the matching sides\nScale factor = image length $\\div$ original length. $[DE]$ is the image of $[AB]$.\nk &= \\frac{|DE|}{|AB|}\n&= \\frac{15}{5}\n&= 3\nANSWER: k = 3"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q8#(c)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Areas scale by the square of the scale factor\nLengths are multiplied by $k$, so areas are multiplied by $k^2$.\n\\text{Area } CDE &= k^2 \\times \\text{Area } CBA\n&= 3^2 \\times 4\n&= 9 \\times 4\n&= 36\nANSWER: 36\\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Subtract the valid votes from the total votes\nTotal votes = valid votes + invalid or blank votes.\n33\\,577\\,342 - 33\\,551\\,983 &= 25\\,359\n## Fill in the table\nWrite $25\\,359$ in the \"Invalid or blank votes\" row of Table 1.\nANSWER: 25\\,359"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Leave votes as a fraction of valid votes\nUse the valid votes, not the total votes.\n\\frac{17\\,410\\,742}{33\\,551\\,983} \\times 100 &= 51.89\n&\\approx 52\nANSWER: 52\\%"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q9#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Choose the chart\nTwo percentages for each of six age groups: a bar chart with the Remain and Leave bars side by side for each group lets you compare them.\n## Draw the axes\nPut the age groups along the horizontal axis. Put the percentage on the vertical axis, from 0 to 80.\n## Draw the bars\nFor each age group draw a blue Remain bar and a red Leave bar, with heights taken from Table 2. Add a key.\nANSWER: \\text{Clustered bar chart of Table 2}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q9#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Mean of the Remain values\nMean $= \\dfrac{\\sum x}{n}$, with $n = 6$ age groups.\n\\text{Remain mean} &= \\frac{73+62+52+44+43+40}{6}\n&= \\frac{314}{6}\n&= 52.33\n## Mean of the Leave values\n\\text{Leave mean} &= \\frac{27+38+48+56+57+60}{6}\n&= \\frac{286}{6}\n&= 47.67\nANSWER: \\text{Remain} = 52.33\\%,\\ \\text{Leave} = 47.67\\%"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q9#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Explain the problem\nThe means treat every age group as equal, but the groups did not have equal numbers of voters.\nTable 2 gives percentages only. The number of voters in each age group is not used, so the means are unreliable.\nThe real result (Table 1) was Leave 52%, so the Remain mean of 52.33% does not reflect the outcome.\nANSWER: \\text{The number of voters in each age group is not used, so the means are unreliable.}"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q9#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Use the margin of error formula\nMargin of error $= \\dfrac{1}{\\sqrt{n}}$ with $n = 1200$.\n\\frac{1}{\\sqrt{1200}} &= 0.02887\n&= 2.887\\%\n&\\approx 3\\%\nANSWER: 3\\%"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q9#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Find the sample proportion as a percentage\n\\hat{p} &= \\frac{578}{1200} \\times 100\n&= 48.17\n## Add and subtract the margin of error\nThe confidence interval is $\\hat{p} \\pm$ margin of error.\n48.17 - 3 < p &< 48.17 + 3\n45.17 < p &< 51.17\nANSWER: 45.17\\% < p < 51.17\\%"
+ },
+ {
+  "part": "maths-pp-2017-ordinary-p2-q9#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## State the hypotheses\nH_0 &: p = 53\\%\nH_1 &: p \\ne 53\\%\n## Compare the claim with the confidence interval\nThe 95% confidence interval is $45\\% < p < 51\\%$. The claimed value $53\\%$ is not inside it.\n## Conclude in context\nReject $H_0$ at the 5% level. There is evidence that the party's claim that 53% of the Irish population think the UK leaving the EU would hurt the Irish economy is false.\nANSWER: \\text{Reject } H_0\\text{: the party's claim is false}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 15,
+  "solution": "## Label the equations and plan to eliminate y\nCall the equations (i), (ii) and (iii). Equation (iii) has no $y$, so eliminate $y$ from (i) and (ii) to get a second equation in $x$ and $z$.\n\\text{(i)}\\quad 2x + 3y - z &= -4\n\\text{(ii)}\\quad 3x + 2y + 2z &= 14\n\\text{(iii)}\\quad x - 3z &= -13\n## Multiply (i) by 2 and (ii) by -3\n4x + 6y - 2z &= -8\n-9x - 6y - 6z &= -42\n## Add the two equations to eliminate y\n-5x - 8z &= -50\n## Multiply (iii) by 5\n5x - 15z &= -65\n## Add to eliminate x and find z\n-5x - 8z &= -50\n5x - 15z &= -65\n-23z &= -115\nz &= \\frac{-115}{-23}\nz &= 5\n## Substitute z = 5 into (iii) to find x\nx - 3(5) &= -13\nx - 15 &= -13\nx &= 2\n## Substitute x = 2 and z = 5 into (i) to find y\n2(2) + 3y - 5 &= -4\n3y - 1 &= -4\n3y &= -3\ny &= -1\nANSWER: x = 2,\\; y = -1,\\; z = 5"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths3"
+  ],
+  "marks": 10,
+  "solution": "## Multiply both sides by (x + 2)^2\n$(x+2)^2$ is always positive (as $x \\ne -2$), so the inequality sign does not change.\n\\frac{2x-3}{x+2} &\\ge 3\n(2x-3)(x+2) &\\ge 3(x+2)^2\n## Expand both sides\n2x^2 + 4x - 3x - 6 &\\ge 3(x^2 + 4x + 4)\n2x^2 + x - 6 &\\ge 3x^2 + 12x + 12\n## Collect all terms on one side\n0 &\\ge 3x^2 - 2x^2 + 12x - x + 12 + 6\n0 &\\ge x^2 + 11x + 18\nx^2 + 11x + 18 &\\le 0\n## Factorise to find the roots\n(x+2)(x+9) &\\le 0\nThe roots are $x = -2$ and $x = -9$.\n## Choose the values between the roots\nThe product of two brackets is negative or zero only between the roots, since the $x^2$ coefficient is positive.\n-9 &\\le x \\le -2\nThe original fraction is undefined at $x = -2$, so exclude it.\n-9 &\\le x < -2\nANSWER: -9 \\le x < -2"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths1"
+  ],
+  "marks": 10,
+  "solution": "## Set the two common ratios equal\nIn a geometric series, $\\dfrac{T_2}{T_1} = \\dfrac{T_3}{T_2}$.\n\\frac{5x-8}{x^2} &= \\frac{x+8}{5x-8}\n## Cross-multiply\n(5x-8)^2 &= x^2(x+8)\n## Expand both sides\n(5x-8)(5x-8) &= x^3 + 8x^2\n25x^2 - 80x + 64 &= x^3 + 8x^2\n## Move every term to one side\n0 &= x^3 + 8x^2 - 25x^2 + 80x - 64\n0 &= x^3 - 17x^2 + 80x - 64\nx^3 - 17x^2 + 80x - 64 &= 0\nANSWER: x^3 - 17x^2 + 80x - 64 = 0"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths1"
+  ],
+  "marks": 10,
+  "solution": "## Substitute x = 1 into f(x)\nf(1) &= (1)^3 - 17(1)^2 + 80(1) - 64\n&= 1 - 17 + 80 - 64\n&= 0\nSo $f(1) = 0$, which means $(x-1)$ is a factor of $f(x)$.\n## Split the terms so (x - 1) can be taken out\nf(x) &= x^3 - 17x^2 + 80x - 64\n&= x^3 - x^2 - 16x^2 + 80x - 64\n&= x^2(x-1) - 16x^2 + 80x - 64\n&= x^2(x-1) - 16x^2 + 16x + 64x - 64\n&= x^2(x-1) - 16x(x-1) + 64x - 64\n&= x^2(x-1) - 16x(x-1) + 64(x-1)\n&= (x-1)(x^2 - 16x + 64)\n## Solve the quadratic factor\nSet $f(x) = 0$. The factor $(x-1)$ gives $x = 1$, so look at the quadratic.\nx^2 - 16x + 64 &= 0\n(x-8)(x-8) &= 0\nx &= 8\nANSWER: x = 8"
+ },
+ {
+  "part": "maths-pp-2018-higher-p1-q2#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Test x = 1 in the terms from part (a)\nThe terms are $x^2$, $5x-8$, $x+8$. For $x = 1$ they are $1$, $-3$, $9$.\nr &= \\frac{-3}{1}\nr &= -3\n$|r| > 1$, so this series has no sum to infinity. Reject $x = 1$.\n## Test x = 8 in the terms from part (a)\nFor $x = 8$ the terms are $8^2$, $5(8)-8$, $8+8$, that is $64$, $32$, $16$.\nr &= \\frac{32}{64}\nr &= \\frac{1}{2}\n$|r| < 1$, so the sum to infinity exists. Here $x = 8$, $a = 64$ and $r = \\tfrac{1}{2}$.\n## Use the sum to infinity formula\nS_\\infty &= \\frac{a}{1-r}\n&= \\frac{64}{1 - \\frac{1}{2}}\n&= \\frac{64}{\\frac{1}{2}}\n&= 128\nANSWER: x = 8, \\quad S_\\infty = 128"
+ }
+]

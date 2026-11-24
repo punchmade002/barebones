@@ -1,0 +1,218 @@
+{
+ "alg-factor-quadratic": {
+  "F": 12,
+  "R": 35
+ },
+ "alg-fractions-simplify": {
+  "F": 12,
+  "R": 35
+ },
+ "alg-surd-expressions": {
+  "F": 12,
+  "R": 35
+ },
+ "circ-general-form": {
+  "F": 12,
+  "R": 35
+ },
+ "circ-touching": {
+  "F": 12,
+  "R": 35
+ },
+ "cubic-solve": {
+  "F": 12,
+  "R": 35
+ },
+ "cubic-unknown-coefficient": {
+  "F": 12,
+  "R": 35
+ },
+ "cx-conjugate-properties": {
+  "F": 12,
+  "R": 35
+ },
+ "cx-conjugate-root": {
+  "F": 14,
+  "R": 41
+ },
+ "diff-curve-sketch": {
+  "F": 12,
+  "R": 35
+ },
+ "diff-point-given-slope": {
+  "F": 12,
+  "R": 35
+ },
+ "diff-sketch-derivative": {
+  "F": 12,
+  "R": 35
+ },
+ "diff-slope-tangent": {
+  "F": 14,
+  "R": 35
+ },
+ "fin-estimate": {
+  "F": 14,
+  "R": 41
+ },
+ "fin-mortgage-derive": {
+  "F": 12,
+  "R": 35
+ },
+ "fn-compare-graphs": {
+  "F": 12,
+  "R": 35
+ },
+ "fn-graph-log": {
+  "F": 12,
+  "R": 35
+ },
+ "fn-injective-surjective": {
+  "F": 14,
+  "R": 41
+ },
+ "fn-transformations": {
+  "F": 12,
+  "R": 35
+ },
+ "geo-cor1": {
+  "F": 12,
+  "R": 35
+ },
+ "geo-cor3": {
+  "F": 14,
+  "R": 41
+ },
+ "geo-thm11": {
+  "F": 12,
+  "R": 35
+ },
+ "geo-thm12": {
+  "F": 12,
+  "R": 35
+ },
+ "geo-thm20": {
+  "F": 14,
+  "R": 41
+ },
+ "geo-transformations": {
+  "F": 12,
+  "R": 35
+ },
+ "inf-confidence-width": {
+  "F": 14,
+  "R": 41
+ },
+ "inf-interpret": {
+  "F": 12,
+  "R": 35
+ },
+ "line-point-on": {
+  "F": 14,
+  "R": 41
+ },
+ "log-definition": {
+  "F": 12,
+  "R": 35
+ },
+ "logic-terms-hl": {
+  "F": 12,
+  "R": 35
+ },
+ "mens-nets": {
+  "F": 12,
+  "R": 35
+ },
+ "num-decimal-fraction": {
+  "F": 12,
+  "R": 35
+ },
+ "num-prime-factors": {
+  "F": 12,
+  "R": 35
+ },
+ "num-sci-notation": {
+  "F": 12,
+  "R": 35
+ },
+ "num-surds": {
+  "F": 14,
+  "R": 41
+ },
+ "prob-relative-frequency": {
+  "F": 12,
+  "R": 35
+ },
+ "prob-selection-restrictions": {
+  "F": 12,
+  "R": 35
+ },
+ "quad-form-from-roots": {
+  "F": 12,
+  "R": 35
+ },
+ "seq-arith-find-ad": {
+  "F": 14,
+  "R": 41
+ },
+ "seq-classify": {
+  "F": 12,
+  "R": 35
+ },
+ "seq-derive-sum-infinity": {
+  "F": 12,
+  "R": 35
+ },
+ "seq-geo-unknown-n": {
+  "F": 12,
+  "R": 35
+ },
+ "seq-verify-formula": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-back-to-back": {
+  "F": 14,
+  "R": 41
+ },
+ "stat-choose-display": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-correlation-calc": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-populations-samples": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-quartiles-iqr": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-sd": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-srs-bias": {
+  "F": 14,
+  "R": 41
+ },
+ "trig-graph": {
+  "F": 14,
+  "R": 41
+ },
+ "trig-graph-abc": {
+  "F": 14,
+  "R": 35
+ },
+ "trig-radians": {
+  "F": 12,
+  "R": 35
+ },
+ "trig-unit-circle": {
+  "F": 14,
+  "R": 41
+ }
+}

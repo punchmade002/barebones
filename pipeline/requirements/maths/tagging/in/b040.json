@@ -1,0 +1,388 @@
+[
+ {
+  "part": "maths-pp-2025-higher-p2-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Show one pair of equal sides\n|AC| &= |BC|\nReason: $C$ is the midpoint of $[AB]$.\n## Show the first pair of equal angles\n|\\angle DCA| &= |\\angle BCE|\nReason: vertically opposite angles ($D, C, E$ are on one line and $A, C, B$ are on another).\n## Show the second pair of equal angles\n|\\angle DAC| &= |\\angle CBE|\nReason: alternate angles, since $AD$ is parallel to $EB$ and $AB$ is a transversal.\n## State the congruence\nTwo angles and the side between them are equal in both triangles: angle $DAC$, side $AC$, angle $DCA$ match angle $CBE$, side $BC$, angle $BCE$.\n\\triangle ACD &\\equiv \\triangle BCE\nReason: ASA (angle, side, angle).\nANSWER: \\triangle ACD \\equiv \\triangle BCE \\ \\text{(ASA)}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q5#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find the distance from the centre to Q'\n|XQ'| &= |XQ| + |QQ'|\n&= 8 + 4\n&= 12\n## Divide the image distance by the original distance\nThe scale factor is the distance from the centre to the image point divided by the distance to the original point.\nk &= \\frac{|XQ'|}{|XQ|}\n&= \\frac{12}{8}\n&= 1.5\nANSWER: k = 1.5"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q5#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find |XP'| using the scale factor\n$P'$ is the image of $P$, so its distance from $X$ is $k$ times $|XP|$.\n|XP'| &= 1.5 \\times 3\n&= 4.5\n## Find |P'Q|\n|P'Q| &= |XQ| - |XP'|\n&= 8 - 4.5\n&= 3.5\n## Find |PQ|\n|PQ| &= |XQ| - |XP|\n&= 8 - 3\n&= 5\n## Find the area of the shaded parallelogram\n$P'QRY$ has the same height as $PQRS$, so its area is in the ratio of the bases $|P'Q|$ to $|PQ|$.\n\\text{Area} &= \\frac{|P'Q|}{|PQ|} \\times 20\n&= \\frac{3.5}{5} \\times 20\n&= 14\nANSWER: 14 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Find the reference angle\nA &= \\sin^{-1}\\left(\\frac{1}{2}\\right)\n&= 30^\\circ\n## Find the second angle in the first revolution\n$\\sin A$ is positive in the 1st and 2nd quadrants, so the second angle is $180^\\circ - 30^\\circ$.\nA &= 180^\\circ - 30^\\circ\n&= 150^\\circ\n## Subtract 360° to find angles below 0°\n30^\\circ - 360^\\circ &= -330^\\circ\n150^\\circ - 360^\\circ &= -210^\\circ\n## Add 360° to find angles above 360°\n30^\\circ + 360^\\circ &= 390^\\circ\n150^\\circ + 360^\\circ &= 510^\\circ\nAdding or subtracting another $360^\\circ$ goes outside $-360^\\circ \\le A \\le 720^\\circ$, so these are all six solutions.\nANSWER: A = -330^\\circ,\\ -210^\\circ,\\ 30^\\circ,\\ 150^\\circ,\\ 390^\\circ,\\ 510^\\circ"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Find the period\n$\\sin x$ has period $2\\pi$.\nThe modulus flips the negative half of each wave upwards, so the graph repeats twice as often, in half the length.\n\\text{Period} &= \\frac{1}{2}(2\\pi)\n&= \\pi\n## Start with the range of |sin x|\n$\\sin x$ lies between $-1$ and $1$, and the modulus removes the negatives.\n0 \\le |\\sin x| &\\le 1\n## Multiply by 4\n0 \\le 4|\\sin x| &\\le 4\n## Subtract 1\n-1 \\le 4|\\sin x| - 1 &\\le 3\nThis matches the graph: the lowest points are at $y = -1$ and the highest at $y = 3$.\nANSWER: \\text{Period} = \\pi, \\quad \\text{Range} = [-1, 3]"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q6#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Write the cosine rule for angle B\nAngle $B$ is opposite the side $|AC| = 2$, so $|AC|^2 = |BC|^2 + |AB|^2 - 2|BC||AB|\\cos B$.\n2^2 &= 3^2 + 4^2 - 2(3)(4)\\cos B\n4 &= 25 - 24\\cos B\n## Solve for cos B\n24\\cos B &= 25 - 4\n24\\cos B &= 21\n\\cos B &= \\frac{21}{24}\n## Find the opposite side using Pythagoras\nDraw a right-angled triangle with hypotenuse $24$ and adjacent side $21$. Let the opposite side be $x$.\n24^2 &= x^2 + 21^2\n576 &= x^2 + 441\nx^2 &= 135\nx &= \\sqrt{135}\n&= 3\\sqrt{15}\n## Find tan B\n$\\tan B$ is opposite over adjacent.\n\\tan \\angle CBA &= \\frac{3\\sqrt{15}}{21}\n&= \\frac{\\sqrt{15}}{7}\nANSWER: \\tan \\angle CBA = \\frac{\\sqrt{15}}{7}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q7#(a)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Read the three lengths off the diagram\nMeasure with a ruler, to the nearest cm: $r = 1$ cm, $d = 10$ cm, $h = 3$ cm.\n## Add them to get the total length on the diagram\n1 + 10 + 3 &= 14\nThe 14 cm on the diagram represents the actual length of 90 m.\n## Scale up $r$ to metres\nr &= \\frac{1}{14} \\times 90\n&= 6.428\\ldots\n&\\approx 6.4\n## Scale up $d$ to metres\nd &= \\frac{10}{14} \\times 90\n&= 64.28\\ldots\n&\\approx 64.3\n## Scale up $h$ to metres\nh &= \\frac{3}{14} \\times 90\n&= 19.28\\ldots\n&\\approx 19.3\nANSWER: r = 1,\\ d = 10,\\ h = 3 \\text{ (cm)};\\quad r = 6.4,\\ d = 64.3,\\ h = 19.3 \\text{ (m)}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Write the volume of each part\nThe hemisphere has radius $x$, the cylinder has radius $x$ and length $7x$, and the cone has radius $x$ and height $4x$.\nV_{\\text{hemisphere}} &= \\frac{2}{3}\\pi x^3\nV_{\\text{cylinder}} &= \\pi x^2 (7x)\nV_{\\text{cone}} &= \\frac{1}{3}\\pi x^2 (4x)\n## Add the volumes and set the total equal to 6738\n\\frac{2}{3}\\pi x^3 + \\pi x^2 (7x) + \\frac{1}{3}\\pi x^2 (4x) &= 6738\n## Multiply out each term\n\\frac{2}{3}\\pi x^3 + 7\\pi x^3 + \\frac{4}{3}\\pi x^3 &= 6738\n## Collect the $x^3$ terms\n\\left(\\frac{2}{3} + 7 + \\frac{4}{3}\\right)\\pi x^3 &= 6738\n9\\pi x^3 &= 6738\n## Solve for $x$\nx^3 &= \\frac{6738}{9\\pi}\nx &= \\sqrt[3]{\\frac{6738}{9\\pi}}\n&= 6.19\\ldots\n## Find the total length\nThe total length is the hemisphere radius, the cylinder and the cone: $x + 7x + 4x$.\n\\text{Total length} &= x + 7x + 4x\n&= 12x\n&= 12(6.19\\ldots)\n&= 74.39\\ldots\n&\\approx 74.4 \\text{ m}\nANSWER: 74.4 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q7#(c)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Write the equation of circle $s$\nCircle $s$ has centre $B(20, 0)$ and radius $\\sqrt{178}$.\nThe equation of a circle with centre $(h, k)$ and radius $r$ is $(x-h)^2 + (y-k)^2 = r^2$.\n(x - 20)^2 + (y - 0)^2 &= \\left(\\sqrt{178}\\right)^2\n(x - 20)^2 + y^2 &= 178\n## Substitute $(7, 3)$ into the left-hand side\nIf $(7, 3)$ is on $s$, the left-hand side must equal 178.\n\\text{LHS} &= (7 - 20)^2 + 3^2\n&= (-13)^2 + 3^2\n&= 169 + 9\n&= 178\nThe left-hand side equals the right-hand side, so $(7, 3)$ lies on the circle $s$.\nANSWER: (x-20)^2 + y^2 = 178;\\quad (7,3) \\text{ lies on } s"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q7#(c)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the base $|CD|$\n$C(7, 3)$ and $D(7, -3)$ have the same $x$-coordinate, so $CD$ is a vertical line.\n|CD| &= 3 - (-3)\n&= 6\n## Find the height from $B$ to the line $CD$\nThe line $CD$ is $x = 7$ and $B$ is $(20, 0)$, so the height is the horizontal distance.\n\\text{height} &= 20 - 7\n&= 13\n## Use area of a triangle\n\\text{Area} &= \\frac{1}{2} \\times \\text{base} \\times \\text{height}\n&= \\frac{1}{2}(6)(13)\n&= 39\nANSWER: 39 \\text{ km}^2"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q7#(c)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Split the isosceles triangle in half\n$|BC| = |BD| = \\sqrt{178}$ (both are radii of $s$), so triangle $CBD$ is isosceles.\nLet $M$ be the midpoint of $CD$, so $M = (7, 0)$. The line $BM$ is perpendicular to $CD$ and bisects $\\angle CBD$.\nIn the right-angled triangle $CMB$: $|CM| = 3$ is opposite $\\angle CBM$ and $|BM| = 20 - 7 = 13$ is adjacent.\n## Find $\\angle CBM$ using tan\n\\tan(\\angle CBM) &= \\frac{\\text{opposite}}{\\text{adjacent}}\n\\tan(\\angle CBM) &= \\frac{3}{13}\n\\angle CBM &= \\tan^{-1}\\left(\\frac{3}{13}\\right)\n&= 12.99\\ldots^\\circ\n## Double it to find $\\angle CBD$\n\\angle CBD &= 2 \\times \\angle CBM\n&= 2(12.99\\ldots)\n&= 25.98\\ldots\n&\\approx 26^\\circ\nANSWER: 26^\\circ"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q7#(c)(v)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Find the area of sector $CBD$\nSector $CBD$ has radius $\\sqrt{178}$ and angle $26^\\circ$ at $B$ (from part (iv)).\n\\text{Sector } CBD &= \\frac{26}{360}\\pi\\left(\\sqrt{178}\\right)^2\n&= \\frac{26}{360}\\pi (178)\n&= 40.3869\\ldots\n## Find the area of the segment of $s$ on chord $CD$\nThe part of region $R$ to the left of $CD$ is sector $CBD$ minus triangle $CBD$.\n\\text{Segment}_s &= 40.3869\\ldots - 39\n&= 1.3869\\ldots\n## Find the area of the segment of $k$ on chord $CD$\nThe part of region $R$ to the right of $CD$ is sector $ADC$ minus triangle $ADC$.\n\\text{Segment}_k &= 23.4837 - 21\n&= 2.4837\n## Add the two segments\n\\text{Area of } R &= 1.3869\\ldots + 2.4837\n&= 3.8706\\ldots\n&\\approx 3.87 \\text{ km}^2\nANSWER: 3.87 \\text{ km}^2"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Show $|OB| = 3\\sqrt{2}$ m\nThe diagonals of a square are equal, bisect each other and meet at $90^\\circ$, so $|OA| = |OB|$ and $\\angle AOB = 90^\\circ$.\nIn the right-angled triangle $AOB$ the hypotenuse is $|AB| = 6$.\n|OB|^2 + |OB|^2 &= 6^2\n2|OB|^2 &= 36\n|OB|^2 &= 18\n|OB| &= \\sqrt{18}\n&= \\sqrt{9 \\times 2}\n&= 3\\sqrt{2} \\text{ m}\n## Find $|OP|$ using triangle $POB$\n$P$ is directly above $O$, so $\\angle POB = 90^\\circ$. The hypotenuse is $|PB| = 11$.\n|OB|^2 + |OP|^2 &= |PB|^2\n\\left(3\\sqrt{2}\\right)^2 + |OP|^2 &= 11^2\n18 + |OP|^2 &= 121\n|OP|^2 &= 103\n|OP| &= \\sqrt{103} \\text{ m}\nANSWER: |OB| = 3\\sqrt{2} \\text{ m},\\quad |OP| = \\sqrt{103} \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q8#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find the area of one triangular face\nFace $PAB$ has two sides $|AP| = 11$ and $|AB| = 6$ with the angle $74.2^\\circ$ between them.\n\\text{Area of one face} &= \\frac{1}{2}(6)(11)\\sin 74.2^\\circ\n&= 31.75\\ldots\n## Multiply by four faces\n\\text{Total area} &= 4 \\times 31.75\\ldots\n&= 127.01\\ldots\n&\\approx 127 \\text{ m}^2\nANSWER: 127 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q8#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Set the lengths for the net\nEach triangular face has a base of 6 m (an edge of the square) and two sloping sides of 11 m.\nUse the side of the given square as 6 m. Each 11 m side is then $\\frac{11}{6}$ of the square's side length.\n## Construct the face on the left edge of the square\nSet the compass to the 11 m length. Place the point at one end of the left edge and draw an arc.\nKeep the same radius, place the point at the other end of the left edge and draw a second arc.\nThe two arcs cross at the apex. Join the apex to both ends of the edge.\n## Construct the face on the bottom edge of the square\nRepeat with the compass at the same 11 m setting, using the two ends of the bottom edge.\nJoin the point where the arcs cross to both ends of the edge.\nLeave all arcs showing as the construction lines.\n## Check the net\nThe net now has the square and four triangles. Any valid net will do, provided no two faces overlap when it is folded.\nANSWER: \\text{Net completed with two more triangular faces, each constructed using arcs of radius 11 m (see diagram)}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q8#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the correct angle $A = \\angle CAB$\nIn the right-angled triangle, $|BC| = 17.5$ is opposite $A$ and $|AB| = 15$ is adjacent.\n\\tan A &= \\frac{17.5}{15}\nA &= \\tan^{-1}\\left(\\frac{17.5}{15}\\right)\n&= 49.39\\ldots^\\circ\n## Work out the percentage error\nPercentage error $= \\frac{\\text{measured} - \\text{true}}{\\text{true}} \\times 100$.\n\\% \\text{ error} &= \\frac{52 - 49.39\\ldots}{49.39\\ldots} \\times 100\n&= \\frac{2.60\\ldots}{49.39\\ldots} \\times 100\n&= 5.26\\ldots\n&\\approx 5.3\\%\nANSWER: 5.3\\%"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q8#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Label the triangle\nLet $F$ be the far point (angle $22^\\circ$), $N$ the near point (angle $35^\\circ$) and $T$ the top of the tower.\nIn triangle $FNT$: $|FN| = 10$ and $|FT| = x$.\n## Find the angle opposite $x$\nThe $35^\\circ$ elevation at $N$ is on a straight line with the angle $FNT$ inside the triangle.\n\\angle FNT &= 180 - 35\n&= 145^\\circ\n## Find the angle opposite the 10 m side\nThe angle $35^\\circ$ is the exterior angle at $N$, so it equals $22^\\circ$ plus the angle at $T$.\n\\angle FTN &= 35 - 22\n&= 13^\\circ\n## Use the Sine rule\n\\frac{x}{\\sin 145^\\circ} &= \\frac{10}{\\sin 13^\\circ}\nx &= \\frac{10 \\sin 145^\\circ}{\\sin 13^\\circ}\n&= 25.49\\ldots\n&\\approx 25.5 \\text{ m}\nANSWER: x = 25.5 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q8#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Set up an equation using the 22° triangle\nLet $y = h - 1.25$ be the height of the top of the tower above the level of Ally's eye.\nIn the right-angled triangle with hypotenuse $x = 25.5$, $y$ is opposite the $22^\\circ$ angle.\n\\sin 22^\\circ &= \\frac{y}{25.5}\n## Solve for $y$\ny &= 25.5 \\sin 22^\\circ\n&= 9.55\\ldots\n## Add 1.25 m to get the total height $h$\nh &= y + 1.25\n&= 9.55\\ldots + 1.25\n&= 10.80\\ldots\n&\\approx 10.8 \\text{ m}\nANSWER: h = 10.8 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q9#(a)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Find the probability of not having diabetes\nThe two branches from Population must add to 1.\nP(\\text{no diabetes}) &= 1 - 0.067\n&= 0.933\n## Complete the branches for people with diabetes\nA person with diabetes gets a correct positive result with probability 0.99. The other branch is the rest.\nP(\\text{negative} \\mid \\text{diabetes}) &= 1 - 0.99\n&= 0.01\n## Complete the branches for people without diabetes\nA person without diabetes gets a wrong positive result with probability 0.078. The other branch is the rest.\nP(\\text{negative} \\mid \\text{no diabetes}) &= 1 - 0.078\n&= 0.922\n## Multiply along the branch: diabetes, negative\nMultiply the probabilities along the branches to get each final outcome.\n0.067 \\times 0.01 &= 0.00067\n&\\approx 0.0007\n## Multiply along the branch: no diabetes, positive\n0.933 \\times 0.078 &= 0.072774\n&\\approx 0.0728\n## Multiply along the branch: no diabetes, negative\n0.933 \\times 0.922 &= 0.860226\n&\\approx 0.8602\nANSWER: 0.933,\\; 0.99,\\; 0.01,\\; 0.922,\\; 0.0007,\\; 0.0728,\\; 0.8602"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q9#(a)(iii), (iv)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Add the two positive outcomes (part iii)\nA positive result comes from someone with diabetes or someone without it.\nP(\\text{positive}) &= 0.0663 + 0.0728\n&= 0.1391\n## Write the conditional probability (part iv)\nWe want the chance of diabetes given a positive test, so divide by the total chance of a positive test.\nP(\\text{diabetes} \\mid \\text{positive}) &= \\frac{P(\\text{diabetes and positive})}{P(\\text{positive})}\n&= \\frac{0.0663}{0.1391}\n## Divide and round\n\\frac{0.0663}{0.1391} &= 0.47663\\ldots\n&\\approx 0.4766\nANSWER: P(\\text{positive}) = 0.1391, \\quad P(\\text{diabetes} \\mid \\text{positive}) = 0.4766"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Choose the model and find the other probability\nEach person either has diabetes (probability 0.067) or not. Use the binomial formula with $n = 5$.\nIt is easier to find $P(2 \\text{ or more}) = 1 - P(0) - P(1)$.\nP(\\text{no diabetes}) &= 1 - 0.067\n&= 0.933\n## Find P(0)\nP(0) &= \\binom{5}{0}(0.933)^5\n&= 0.706982\\ldots\n## Find P(1)\nP(1) &= \\binom{5}{1}(0.933)^4(0.067)\n&= 0.253847\\ldots\n## Subtract from 1\nP(2 \\text{ or more}) &= 1 - \\left(0.706982\\ldots + 0.253847\\ldots\\right)\n&= 1 - 0.960829\\ldots\n&= 0.039171\\ldots\n&\\approx 0.0392\nANSWER: 0.0392"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q9#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the ways to pick 10 people from 20\nThe order of choosing does not matter, so use combinations.\n\\binom{20}{10} &= \\frac{20!}{10!\\,10!}\n&= 184\\,756\nANSWER: 184\\,756"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q9#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the ways to pair up one fixed group A\nFix the 10 people in group A. The first person can pair with any of the 10 people in B.\nThe next person has 9 choices left, then 8, and so on down to 1.\n\\text{pairings} &= 10 \\times 9 \\times 8 \\times \\cdots \\times 1\n&= 10!\n&= 3\\,628\\,800\nANSWER: 10! = 3\\,628\\,800"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Fix the 8 people in group X\nCount the ways to give each person in X a pair from the 16 people in Y, for one fixed group X.\n## Line up the 16 people in Y\nArrange the 16 people of Y in a row in any order. The first two go to the first person in X, the next two to the second, and so on.\n\\text{arrangements} &= 16!\n## Remove the order within each pair\nSwapping the two people in a pair gives the same pairing. There are 8 pairs, each counted 2 times.\n\\text{pairings} &= \\frac{16!}{2^8}\n## Evaluate\n\\frac{16!}{2^8} &= \\frac{20\\,922\\,789\\,888\\,000}{256}\n&= 81\\,729\\,648\\,000\n&= 8.1729648 \\times 10^{10}\n## Round to 3 decimal places\n&\\approx 8.173 \\times 10^{10}\nANSWER: 8.173 \\times 10^{10}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q10#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Identify the mean and standard deviation\nThe mean is $\\mu = 400$ and the standard deviation is $\\sigma = 60$. The middle line is the mean.\n## Use 68% to find the two shaded edges\nThe empirical rule says 68% of values lie within 1 standard deviation of the mean.\n400 - 60 &= 340\n400 + 60 &= 460\n## Find the left tick using the given 520\nThe tick at 520 is $520 - 400 = 120 = 2\\sigma$ above the mean. The left tick is the same distance below.\n400 - 2(60) &= 280\nANSWER: 280,\\; 340,\\; 400,\\; 460"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q10#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Find the z-score for 420\nz &= \\frac{x - \\mu}{\\sigma}\n&= \\frac{420 - 400}{60}\n&= \\frac{20}{60}\n&= \\frac{1}{3}\n&\\approx 0.33\n## Find the probability below this z-score\nRead $P(z < 0.33)$ from the normal distribution tables.\nP(z < 0.33) &= 0.6293\n## Find the probability above 420\nThe total area is 1, so the area above is 1 minus the area below.\nP(z > 0.33) &= 1 - P(z < 0.33)\n&= 1 - 0.6293\n&= 0.3707\n&\\approx 0.37\nANSWER: 0.37"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q10#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Write the 95% confidence interval formula\nFor country X: $\\bar{x} = 387$, $s = 66.2$, $n = 2161$. For 95% the multiplier is 1.96.\n\\bar{x} &\\pm 1.96\\,\\frac{s}{\\sqrt{n}}\n## Substitute the values\n&= 387 \\pm 1.96\\left(\\frac{66.2}{\\sqrt{2161}}\\right)\n## Work out the margin of error\n\\frac{66.2}{\\sqrt{2161}} &= 1.424\\ldots\n1.96 \\times 1.424\\ldots &= 2.79\\ldots\n## Find the lower endpoint\n387 - 2.79\\ldots &= 384.2088\\ldots\n&\\approx 384.2\n## Find the upper endpoint\n387 + 2.79\\ldots &= 389.7912\\ldots\n&\\approx 389.8\nANSWER: 384.2 < \\mu < 389.8"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q10#(c)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Find the test statistic (z-score) for country Y\nFor country Y: $\\bar{x} = 403$, $\\mu = 400$, $s = 70.6$, $n = 2724$.\nz &= \\frac{\\bar{x} - \\mu}{s / \\sqrt{n}}\n&= \\frac{403 - 400}{70.6 / \\sqrt{2724}}\n&= 2.2178\\ldots\n&\\approx 2.22\n## Look up the probability below this z-score\nP(z < 2.22) &= 0.9868\n## Find the p-value for a two-tailed test\nThe alternative hypothesis is \"not 400\", so both tails count. Double the tail area.\np &= 2(1 - 0.9868)\n&= 2(0.0132)\n&= 0.0264\n## Compare with 5% and state the conclusion\n$p = 0.0264 < 0.05$, so reject the null hypothesis.\nThe mean score for country Y is significantly different from 400.\nANSWER: z = 2.22,\\quad p = 0.0264;\\ \\text{the mean score for country Y is significantly different from 400}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q10#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Split the students into two groups\nStratified sampling takes a sample from each group in proportion to its size. Here the groups are students with a pet and students without a pet.\nEach group is 50% of the students, so each should make up 50% of the sample.\n## Work out the size of each sample\n\\text{Sample size} &= \\frac{50}{100} \\times 2520\n&= 1260\n## Choose the students at random\nTake a random sample of 1260 from all the students in country Z who have a pet.\nTake a random sample of 1260 from all the students in country Z who do not have a pet.\n## Why this is probably not useful\nThere is probably no connection between owning a pet and maths scores, so splitting by pet ownership gives no better estimate of the scores.\nANSWER: \\text{Random sample of 1260 pet owners and 1260 non-owners; pet ownership is probably unrelated to maths scores}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q10#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Set the sum of probabilities equal to 1\n0.19 + p + 2r + r &= 1\np + 3r &= 0.81\np &= 0.81 - 3r\n## Write the expected value in terms of r\nE[X] &= 0(0.19) + 1(p) + 2(2r) + 3(r)\n&= p + 7r\n&= (0.81 - 3r) + 7r\n&= 0.81 + 4r\n## Make r as large as possible\n$E[X] = 0.81 + 4r$ grows as $r$ grows. Since $p \\ge 0$, the largest $r$ is when $p = 0$.\n3r &= 0.81\nr &= 0.27\n## Find the largest expected value\nE[X]_{\\max} &= 0.81 + 4(0.27)\n&= 0.81 + 1.08\n&= 1.89\nANSWER: 1.89"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q1#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Write the VAT increase as a multiplier\nAdding 23% to the price gives 123% of the price, which is $1.23$ as a decimal.\n## Multiply the price by 1.23\n\\text{Price after VAT} &= 30 \\times 1.23\n&= 36.90\nANSWER: \\text{€}36.90"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q1#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the price of the items separately\n26 + 9 &= 35\n## Find the saving\n35 - 28 &= 7\n## Write the saving as a percentage of the original price\n\\frac{7}{35} \\times 100 &= \\frac{700}{35}\n&= 20\nANSWER: 20\\%"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q1#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## List the times each person finishes a window\nMáiréad finishes at $9, 18, 27, 36, \\ldots$ minutes.\nDiarmuid finishes at $12, 24, 36, \\ldots$ minutes.\nThe first time they match is $36$ minutes (the lowest common multiple of 9 and 12).\n## Windows cleaned in 36 minutes together\n\\text{Máiréad: } 36 \\div 9 &= 4\n\\text{Diarmuid: } 36 \\div 12 &= 3\n\\text{Together: } 4 + 3 &= 7\n## Find how many 36-minute blocks are needed for 35 windows\n35 \\div 7 &= 5\n## Multiply by 36 minutes\n5 \\times 36 &= 180\n$180$ minutes is $3$ hours.\nANSWER: \\text{(i) } 36 \\text{ minutes;}\\quad \\text{(ii) } 180 \\text{ minutes (3 hours)}"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q2#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Read off the real and imaginary parts\nz_2 &= 2 + 3i\nThe real part is 2 and the imaginary part is 3, so $z_2$ is the point $(2, 3)$.\nz_3 &= 4 - i\nThe real part is 4 and the imaginary part is $-1$, so $z_3$ is the point $(4, -1)$.\n## Plot and label both points\nGo 2 right and 3 up for $z_2$. Go 4 right and 1 down for $z_3$. Label each point.\nANSWER: z_2 = (2, 3), \\quad z_3 = (4, -1)"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q2#(a)(ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Write the modulus formula for z₁ = −1 + 2i\nFor $a + bi$ the modulus is $\\sqrt{a^2 + b^2}$. Here $a = -1$ and $b = 2$.\n## Substitute and simplify\n|z_1| &= \\sqrt{(-1)^2 + 2^2}\n&= \\sqrt{1 + 4}\n&= \\sqrt{5}\n## Choose z₄ with a modulus smaller than √5\nSince $\\sqrt{5} \\approx 2.24$, try $z_4 = 1 + i$.\n|z_4| &= \\sqrt{1^2 + 1^2}\n&= \\sqrt{2}\n\\sqrt{2} &< \\sqrt{5}\nSo $z_4 = 1 + i$ works. Any integer point closer to the origin than $\\sqrt{5}$ is fine.\nANSWER: |z_1| = \\sqrt{5}, \\quad z_4 = 1 + i"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Write u/v as a fraction\n\\frac{u}{v} &= \\frac{4 - 6i}{1 + i}\n## Multiply top and bottom by the conjugate of the bottom\nThe conjugate of $1 + i$ is $1 - i$.\n\\frac{u}{v} &= \\frac{4 - 6i}{1 + i} \\times \\frac{1 - i}{1 - i}\n## Expand the top\n(4 - 6i)(1 - i) &= 4 - 4i - 6i + 6i^2\n&= 4 - 10i + 6i^2\nUse $i^2 = -1$.\n&= 4 - 10i - 6\n&= -2 - 10i\n## Expand the bottom\n(1 + i)(1 - i) &= 1 - i + i - i^2\n&= 1 - i^2\n&= 1 + 1\n&= 2\n## Divide each term of the top by 2\n\\frac{u}{v} &= \\frac{-2 - 10i}{2}\n&= -1 - 5i\nANSWER: -1 - 5i"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the cost per bar for Offer A\nThree bars for the price of two bars costs $2 \\times \\text{€}3.30$.\n2 \\times 3.30 &= 6.60\n\\text{Cost per bar} &= \\frac{6.60}{3}\n&= 2.20\n## Find the cost per bar for Offer B\n\\text{Cost per bar} &= \\frac{29.99}{12}\n&\\approx 2.50\n## Compare\n2.20 &< 2.50\nOffer A costs less per bar, so tick Offer A.\nANSWER: \\text{Offer A}"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths3"
+  ],
+  "marks": 10,
+  "solution": "## Get the x terms together\n2x + 4 &\\ge 6x - 8\n2x - 6x + 4 &\\ge -8\n-4x + 4 &\\ge -8\n## Subtract 4 from both sides\n-4x &\\ge -8 - 4\n-4x &\\ge -12\n## Divide both sides by −4\nDividing by a negative number reverses the inequality sign.\nx &\\le \\frac{-12}{-4}\nx &\\le 3\nANSWER: x \\le 3"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q3#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Choose k and t with k × t = 12\nPick a factor pair of 12, for example 6 and 2.\n6 \\times 2 &= 12\nSo $k = 6$ and $t = 2$.\n## Expand (x + 6)(x + 2)\n(x + 6)(x + 2) &= x^2 + 2x + 6x + 12\n&= x^2 + 8x + 12\n## Compare with x² + bx + 12\nThe coefficient of $x$ is $8$, so $b = 8$.\nb &= 8\nANSWER: k = 6,\\; t = 2,\\; b = 8"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Multiply out the bracket\n5(a - 3) &= 2a + 7\n5a - 15 &= 2a + 7\n## Move the a terms to the left and numbers to the right\n5a - 2a &= 7 + 15\n3a &= 22\n## Divide both sides by 3\na &= \\frac{22}{3}\nANSWER: a = \\frac{22}{3}"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate each term\nUse $\\frac{d}{dx}(x^n) = nx^{n-1}$. The constant $-8$ differentiates to 0.\nf'(x) &= 3x^2 - 6x + 4\n## Substitute x = 2 into f′(x)\nf'(2) &= 3(2)^2 - 6(2) + 4\n&= 12 - 12 + 4\n&= 4\n## State the slope\nThe slope of the tangent at $(2, -4)$ is the value of $f'(2)$.\nANSWER: f'(x) = 3x^2 - 6x + 4, \\quad \\text{slope} = 4"
+ },
+ {
+  "part": "maths-pp-2025-ordinary-p1-q4#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 15,
+  "solution": "## Q: the graph slopes downwards\nThe tangent at $Q$ goes down from left to right, so the slope is negative.\nQ matches $g'(x) < 0$.\n## P: the graph is at a turning point\n$P$ is the top of a hill, where the tangent is flat, so the slope is zero.\nP matches $g'(x) = 0$.\n## R: the graph slopes upwards\nThe tangent at $R$ goes up from left to right, so the slope is positive.\nR matches $g'(x) > 0$.\n## Give a reason for P\nReason: $P$ is a turning point, so the slope of the tangent is equal to zero.\nANSWER: Q: g'(x) < 0, \\quad P: g'(x) = 0, \\quad R: g'(x) > 0"
+ }
+]

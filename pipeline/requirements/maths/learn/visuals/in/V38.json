@@ -1,0 +1,260 @@
+[
+ {
+  "skill": "geo-prove-thm11",
+  "title": "Prove Theorem 11",
+  "show": "three parallel lines cutting transversal AC with AB=BC, and a second transversal with the construction line parallel to AC for the proof",
+  "example": {
+   "question": "Three parallel lines $AD$, $BE$ and $CF$ cut off equal segments on the transversal $AC$, so $|AB| = |BC|$. Prove that they cut off equal segments on any other transversal $DF$, so $|DE| = |EF|$.",
+   "final": "|DE| = |EF|",
+   "steps": [
+    {
+     "say": "Write down what you are given and what you must show, with a diagram.",
+     "rows": [
+      {
+       "aside": "Given: $AD \\parallel BE \\parallel CF$ and $|AB| = |BC|$."
+      },
+      {
+       "aside": "To prove: $|DE| = |EF|$."
+      }
+     ]
+    },
+    {
+     "say": "Draw through $A$ a line parallel to $DF$. It meets $BE$ at $B'$ and $CF$ at $C'$. Draw through $B'$ a line parallel to $DF$ too, meeting $CF$ at $F'$.",
+     "rows": [
+      {
+       "aside": "Construction: $AC' \\parallel DF$, and $B'F' \\parallel AC$ meeting $CF$ at $F'$."
+      }
+     ]
+    },
+    {
+     "say": "Both pairs of opposite sides are parallel, so the figure on $B'$ and $C$ is a parallelogram. Opposite sides of a parallelogram are equal.",
+     "rows": [
+      {
+       "aside": "$|B'F'| = |BC|$ (opposite sides in a parallelogram)."
+      },
+      {
+       "aside": "$|BC| = |AB|$ (given), so $|B'F'| = |AB|$."
+      }
+     ]
+    },
+    {
+     "say": "Look at the triangles $ABE'$ and $F'B'E'$ that meet at $E'$. Find two equal angles and one equal side.",
+     "rows": [
+      {
+       "aside": "$|\\angle BAE'| = |\\angle B'F'E'|$ (alternate angles)."
+      },
+      {
+       "aside": "$|\\angle AE'B'| = |\\angle F'E'B'|$ (vertically opposite angles)."
+      },
+      {
+       "aside": "So the triangles are congruent by **ASA**, and $|AE'| = |F'E'|$."
+      }
+     ]
+    },
+    {
+     "say": "$AE'$ and $DE$ are opposite sides of a parallelogram, and so are $F'E'$ and $FE$.",
+     "rows": [
+      {
+       "aside": "$|DE| = |AE'| = |F'E'| = |EF|$ (opposite sides in a parallelogram)."
+      },
+      {
+       "aside": "Hence $|DE| = |EF|$. Done."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Labels A, B, C, D, E, F sit at the ends of the parallel lines, not where the transversals cross them; the transversal AC crosses line AD about 55px to the right of the label A (likewise B, C, D, E, F), so the labelled points are not on the transversals.",
+   "The construction lines (through A parallel to DF, through B' parallel to AC) and points B', C', E', F' used in the working are missing.",
+   "The second transversal DF crosses the line labelled AD at x about 735, well short of D at the end of the line."
+  ]
+ },
+ {
+  "skill": "geo-prove-thm12",
+  "title": "Prove Theorem 12",
+  "show": "triangle ABC with XY parallel to BC cutting AB and AC, with the construction lines for the proof",
+  "example": {
+   "question": "In the triangle $ABC$, the line $XY$ is parallel to $BC$, with $X$ on $[AB]$ and $Y$ on $[AC]$. It cuts $[AB]$ in the ratio $|AX| : |XB| = 2 : 3$. Prove that $|AY| : |YC| = 2 : 3$.",
+   "final": "|AY| : |YC| = 2 : 3",
+   "steps": [
+    {
+     "say": "State the given, the claim, and draw the triangle with $XY \\parallel BC$.",
+     "rows": [
+      {
+       "aside": "Given: triangle $ABC$ with $XY \\parallel BC$ and $|AX| : |XB| = 2 : 3$."
+      },
+      {
+       "aside": "To prove: $|AY| : |YC| = 2 : 3$."
+      }
+     ]
+    },
+    {
+     "say": "The ratio is $2 : 3$, so split $[AB]$ into $2 + 3 = 5$ equal parts. Two parts lie along $[AX]$ and three along $[XB]$.",
+     "rows": [
+      {
+       "aside": "Each part has the same length, call it $m$."
+      },
+      {
+       "aside": "Construction: through each point of division draw a line parallel to $BC$."
+      }
+     ]
+    },
+    {
+     "say": "The new lines are parallel and cut equal segments on the transversal $AB$. By Theorem 11 they cut equal segments on any other transversal, so also on $[AC]$.",
+     "rows": [
+      {
+       "aside": "$[AC]$ is divided into 5 equal parts, 2 of them in $[AY]$ and 3 in $[YC]$."
+      }
+     ]
+    },
+    {
+     "say": "Let $k$ be the length of one part on $[AC]$. Then count parts in $[AY]$ and $[YC]$.",
+     "rows": [
+      {
+       "l": "|AY| : |YC|",
+       "r": "= 2k : 3k"
+      },
+      {
+       "l": "",
+       "r": "= 2 : 3"
+      },
+      {
+       "aside": "Hence $|AY| : |YC| = 2 : 3$. Done."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "XY is drawn at the midpoint of AB (|AX| about half of |AB|, ratio about 1:1), but the question says |AX| : |XB| = 2 : 3, so X should be at 2/5 of the way from A.",
+   "The division points and construction lines parallel to BC are not shown, though the working relies on them."
+  ]
+ },
+ {
+  "skill": "geo-prove-thm13",
+  "title": "Prove Theorem 13",
+  "show": "two equiangular triangles ABC and DEF with matching angles marked, one placed on the other for the proof",
+  "example": {
+   "question": "The triangles $ABC$ and $DEF$ are similar, with equal angles at $A$ and $D$, at $B$ and $E$, at $C$ and $F$. Prove that $\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|} = \\dfrac{|CA|}{|FD|}$.",
+   "final": "\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|} = \\dfrac{|CA|}{|FD|}",
+   "steps": [
+    {
+     "say": "Write down the given, the claim, and draw both triangles.",
+     "rows": [
+      {
+       "aside": "Given: triangles $ABC$ and $DEF$ with equal angles."
+      },
+      {
+       "aside": "To prove: $\\dfrac{|AB|}{|DE|} = \\dfrac{|AC|}{|DF|} = \\dfrac{|BC|}{|EF|}$."
+      }
+     ]
+    },
+    {
+     "say": "Place a copy of $DEF$ inside $ABC$. Put $E'$ on $[AB]$ with $|AE'| = |DE|$ and $F'$ on $[AC]$ with $|AF'| = |DF|$. Join $E'$ to $F'$.",
+     "rows": [
+      {
+       "aside": "Construction: $E'$ on $[AB]$ with $|AE'| = |DE|$, and $F'$ on $[AC]$ with $|AF'| = |DF|$."
+      }
+     ]
+    },
+    {
+     "say": "$AE'F'$ and $DEF$ have two equal sides and the angle between them equal (the angle at $A$ equals the angle at $D$).",
+     "rows": [
+      {
+       "aside": "$\\triangle AE'F'$ is congruent to $\\triangle DEF$. Reason: **SAS**."
+      }
+     ]
+    },
+    {
+     "say": "Congruent triangles have equal angles, so $|\\angle AE'F'| = |\\angle DEF| = |\\angle ABC|$. These are corresponding angles.",
+     "rows": [
+      {
+       "aside": "$E'F' \\parallel BC$. Reason: corresponding angles equal."
+      }
+     ]
+    },
+    {
+     "say": "A line parallel to one side divides the other two sides in the same ratio.",
+     "rows": [
+      {
+       "l": "\\frac{|AB|}{|AE'|}",
+       "r": "= \\frac{|AC|}{|AF'|}"
+      },
+      {
+       "aside": "But $|AE'| = |DE|$ and $|AF'| = |DF|$, so $\\dfrac{|AB|}{|DE|} = \\dfrac{|AC|}{|DF|}$."
+      },
+      {
+       "aside": "Repeat from the vertex $B$ to get $\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|}$. Done."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "No equal angles are marked on either triangle, though the figure is meant to show matching angles.",
+   "The proof's construction (E' on AB, F' on AC, line E'F') is not shown; the two triangles just sit side by side, so the figure does not help the proof.",
+   "Labels C and E sit almost touching under the bottom corners, crowding each other."
+  ]
+ },
+ {
+  "skill": "geo-cuts",
+  "title": "Solve a geometry \"cut\" with a reasoned account",
+  "show": "triangle ABC with D on AB and E on AC where angle ADE=angle ABC, similar triangles ADE and ABC marked",
+  "example": {
+   "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $|\\angle ADE| = |\\angle ABC|$. Given $|AD| = 4$, $|DB| = 2$ and $|DE| = 5$, prove that triangles $ADE$ and $ABC$ are similar, and find $|BC|$.",
+   "final": "|BC| = 7.5",
+   "steps": [
+    {
+     "say": "List what the diagram gives you and the claim to prove. Mark equal angles on it.",
+     "rows": [
+      {
+       "aside": "Given: $|\\angle ADE| = |\\angle ABC|$, $|AD| = 4$, $|AB| = 4 + 2 = 6$, $|DE| = 5$."
+      }
+     ]
+    },
+    {
+     "say": "Both triangles share the angle at $A$. It is the same angle in each, so it is equal.",
+     "rows": [
+      {
+       "aside": "$|\\angle DAE| = |\\angle BAC|$ (common angle)."
+      }
+     ]
+    },
+    {
+     "say": "Angles in a triangle sum to $180^\\circ$ (Theorem 4). Two angles equal means the third is equal.",
+     "rows": [
+      {
+       "aside": "$|\\angle AED| = |\\angle ACB|$ (Theorem 4)."
+      },
+      {
+       "aside": "So $\\triangle ADE$ and $\\triangle ABC$ are **similar**: all three angles equal."
+      }
+     ]
+    },
+    {
+     "say": "By Theorem 13, similar triangles have proportional sides. Match $DE$ with $BC$ and $AD$ with $AB$.",
+     "rows": [
+      {
+       "l": "\\frac{|BC|}{|DE|}",
+       "r": "= \\frac{|AB|}{|AD|}"
+      },
+      {
+       "l": "\\frac{|BC|}{5}",
+       "r": "= \\frac{6}{4}"
+      },
+      {
+       "l": "|BC|",
+       "r": "= 7.5"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "D is drawn at about the midpoint of AB, but |AD| = 4 and |DB| = 2, so D should be two thirds of the way from A to B.",
+   "DE is drawn about three quarters of BC; with the given numbers it should be 5 against 7.5, two thirds.",
+   "The equal angles ADE and ABC (and the common angle at A) are not marked, so the figure does not show the similar triangles."
+  ]
+ }
+]

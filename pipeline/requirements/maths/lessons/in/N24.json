@@ -1,0 +1,674 @@
+[
+ {
+  "skill": {
+   "id": "seq-recurring-decimal",
+   "title": "Write a recurring decimal as a fraction",
+   "level": "HL",
+   "input": "recurring decimal",
+   "output": "fraction via S∞"
+  },
+  "candidates": [
+   {
+    "part": "practice-seq-recurring-decimal-1",
+    "level": "higher",
+    "year": null,
+    "question": "Write $0.727272\\dots$ as a fraction in its simplest form, using the sum to infinity of a geometric series.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the decimal as a geometric series",
+      "lines": [
+       {
+        "tex": "0.727272\\dots &= 0.72 + 0.0072 + 0.000072 + \\dots"
+       }
+      ]
+     },
+     {
+      "title": "Find $a$ and $r$",
+      "lines": [
+       {
+        "tex": "a &= \\frac{72}{100}"
+       },
+       {
+        "tex": "r &= \\frac{1}{100}"
+       }
+      ]
+     },
+     {
+      "title": "Use $S_\\infty = \\frac{a}{1-r}$",
+      "lines": [
+       {
+        "tex": "S_\\infty &= \\frac{72/100}{1 - 1/100}"
+       },
+       {
+        "tex": "&= \\frac{72/100}{99/100}"
+       },
+       {
+        "tex": "&= \\frac{72}{99} = \\frac{8}{11}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{8}{11}"
+   },
+   {
+    "part": "practice-seq-recurring-decimal-2",
+    "level": "higher",
+    "year": null,
+    "question": "Express $0.2333\\dots$ as a fraction in its simplest form.\nHint: write it as $0.2$ plus a geometric series.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split off the non-recurring part",
+      "lines": [
+       {
+        "tex": "0.2333\\dots &= 0.2 + (0.03 + 0.003 + 0.0003 + \\dots)"
+       }
+      ]
+     },
+     {
+      "title": "Find $a$ and $r$ for the series",
+      "lines": [
+       {
+        "tex": "a &= \\frac{3}{100}"
+       },
+       {
+        "tex": "r &= \\frac{1}{10}"
+       }
+      ]
+     },
+     {
+      "title": "Sum the series",
+      "lines": [
+       {
+        "tex": "S_\\infty &= \\frac{3/100}{1 - 1/10}"
+       },
+       {
+        "tex": "&= \\frac{3/100}{9/10}"
+       },
+       {
+        "tex": "&= \\frac{1}{30}"
+       }
+      ]
+     },
+     {
+      "title": "Add the $0.2$ back on",
+      "lines": [
+       {
+        "tex": "0.2 + \\frac{1}{30} &= \\frac{1}{5} + \\frac{1}{30}"
+       },
+       {
+        "tex": "&= \\frac{6}{30} + \\frac{1}{30}"
+       },
+       {
+        "tex": "&= \\frac{7}{30}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{7}{30}"
+   },
+   {
+    "part": "practice-seq-recurring-decimal-3",
+    "level": "higher",
+    "year": null,
+    "question": "Express $2.136136136\\dots$ in the form $\\frac{a}{b}$, where $a, b \\in \\mathbb{N}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split into the whole part and a recurring part",
+      "lines": [
+       {
+        "tex": "2.136136\\dots &= 2 + (0.136 + 0.000136 + 0.000000136 + \\dots)"
+       }
+      ]
+     },
+     {
+      "title": "Find $a$ and $r$ for the series",
+      "lines": [
+       {
+        "tex": "a &= \\frac{136}{1000}"
+       },
+       {
+        "tex": "r &= \\frac{1}{1000}"
+       }
+      ]
+     },
+     {
+      "title": "Sum the series",
+      "lines": [
+       {
+        "tex": "S_\\infty &= \\frac{136/1000}{1 - 1/1000}"
+       },
+       {
+        "tex": "&= \\frac{136/1000}{999/1000}"
+       },
+       {
+        "tex": "&= \\frac{136}{999}"
+       }
+      ]
+     },
+     {
+      "title": "Add the whole part",
+      "lines": [
+       {
+        "tex": "2 + \\frac{136}{999} &= \\frac{1998}{999} + \\frac{136}{999}"
+       },
+       {
+        "tex": "&= \\frac{2134}{999}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{2134}{999}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-sigma",
+   "title": "Evaluate a series in Σ notation",
+   "level": "HL",
+   "input": "Σ expression",
+   "output": "value"
+  },
+  "candidates": [
+   {
+    "part": "practice-seq-sigma-1",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\displaystyle\\sum_{r=1}^{12}(3r - 2)$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the first and last terms",
+      "lines": [
+       {
+        "text": "The terms form an arithmetic series, so find the first term $a$ and last term $l$."
+       },
+       {
+        "tex": "a &= 3(1) - 2 = 1"
+       },
+       {
+        "tex": "l &= 3(12) - 2 = 34"
+       }
+      ]
+     },
+     {
+      "title": "Count the terms",
+      "lines": [
+       {
+        "tex": "n &= 12 - 1 + 1"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Use the sum formula",
+      "lines": [
+       {
+        "tex": "S_{12} &= \\frac{12}{2}(a + l)"
+       },
+       {
+        "tex": "&= \\frac{12}{2}(35)"
+       },
+       {
+        "tex": "&= 210"
+       }
+      ]
+     }
+    ],
+    "final": "210"
+   },
+   {
+    "part": "practice-seq-sigma-2",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\displaystyle\\sum_{r=1}^{20}(5 - 2r)$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the first and last terms",
+      "lines": [
+       {
+        "text": "The terms form an arithmetic series, so find the first term $a$ and last term $l$."
+       },
+       {
+        "tex": "a &= 5 - 2(1) = 3"
+       },
+       {
+        "tex": "l &= 5 - 2(20) = -35"
+       }
+      ]
+     },
+     {
+      "title": "Count the terms",
+      "lines": [
+       {
+        "tex": "n &= 20 - 1 + 1"
+       },
+       {
+        "tex": "&= 20"
+       }
+      ]
+     },
+     {
+      "title": "Use the sum formula",
+      "lines": [
+       {
+        "tex": "S_{20} &= \\frac{20}{2}(a + l)"
+       },
+       {
+        "tex": "&= \\frac{20}{2}(-32)"
+       },
+       {
+        "tex": "&= -320"
+       }
+      ]
+     }
+    ],
+    "final": "-320"
+   },
+   {
+    "part": "practice-seq-sigma-3",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\displaystyle\\sum_{r=4}^{15}(2r + 3)$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the first and last terms",
+      "lines": [
+       {
+        "text": "The terms form an arithmetic series, so find the first term $a$ and last term $l$."
+       },
+       {
+        "tex": "a &= 2(4) + 3 = 11"
+       },
+       {
+        "tex": "l &= 2(15) + 3 = 33"
+       }
+      ]
+     },
+     {
+      "title": "Count the terms",
+      "lines": [
+       {
+        "tex": "n &= 15 - 4 + 1"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Use the sum formula",
+      "lines": [
+       {
+        "tex": "S_{12} &= \\frac{12}{2}(a + l)"
+       },
+       {
+        "tex": "&= \\frac{12}{2}(44)"
+       },
+       {
+        "tex": "&= 264"
+       }
+      ]
+     }
+    ],
+    "final": "264"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-verify-formula",
+   "title": "Verify and justify a formula from a number pattern",
+   "level": "HL",
+   "input": "pattern + proposed formula",
+   "output": "checked/justified formula"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(b)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute the formula for T_n",
+      "lines": [
+       {
+        "tex": "T_{n+1} &= \\frac{n(n+1)}{2} + (n+1)"
+       }
+      ]
+     },
+     {
+      "title": "Write over a common denominator of 2",
+      "lines": [
+       {
+        "tex": "&= \\frac{n(n+1)}{2} + \\frac{2(n+1)}{2}"
+       },
+       {
+        "tex": "&= \\frac{n(n+1) + 2(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Factor out (n + 1)",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)(n+2)}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{(n+1)(n+2)}{2}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(b)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the sum of the two consecutive terms",
+      "lines": [
+       {
+        "tex": "T_{n+1} + T_n &= \\frac{(n+1)(n+2)}{2} + \\frac{n(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Combine and factor out (n + 1)",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)\\big[(n+2) + n\\big]}{2}"
+       },
+       {
+        "tex": "&= \\frac{(n+1)(2n+2)}{2}"
+       },
+       {
+        "tex": "&= \\frac{2(n+1)(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the 2",
+      "lines": [
+       {
+        "tex": "&= (n+1)^2"
+       },
+       {
+        "text": "$n+1 \\in \\mathbb{N}$, so the sum is a square $k^2$ with $k = n+1$."
+       }
+      ]
+     }
+    ],
+    "final": "T_{n+1} + T_n = (n+1)^2"
+   },
+   {
+    "part": "practice-seq-verify-formula-1",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by induction that $1 + 4 + 7 + \\dots + (3n - 2) = \\frac{n(3n-1)}{2}$ for all $n \\in \\mathbb{N}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Test the formula for $n = 1$",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 1"
+       },
+       {
+        "tex": "\\text{RHS} &= \\frac{1(3-1)}{2} = 1"
+       },
+       {
+        "text": "LHS = RHS, so the formula is true for $n = 1$."
+       }
+      ]
+     },
+     {
+      "title": "Assume it is true for $n = k$",
+      "lines": [
+       {
+        "text": "Assume $1 + 4 + \\dots + (3k-2) = \\frac{k(3k-1)}{2}$."
+       }
+      ]
+     },
+     {
+      "title": "Add the next term for $n = k + 1$",
+      "lines": [
+       {
+        "tex": "S_{k+1} &= \\frac{k(3k-1)}{2} + \\big(3(k+1) - 2\\big)"
+       },
+       {
+        "tex": "&= \\frac{k(3k-1) + 2(3k+1)}{2}"
+       },
+       {
+        "tex": "&= \\frac{3k^2 + 5k + 2}{2}"
+       },
+       {
+        "tex": "&= \\frac{(k+1)(3k+2)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the formula at $n = k + 1$",
+      "lines": [
+       {
+        "tex": "\\frac{(k+1)\\big(3(k+1)-1\\big)}{2} &= \\frac{(k+1)(3k+2)}{2}"
+       },
+       {
+        "text": "This matches, so true for $n=k$ implies true for $n=k+1$. By induction the formula holds for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "1 + 4 + \\dots + (3n-2) = \\frac{n(3n-1)}{2}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-choose-display",
+   "title": "Select an appropriate graphical/numerical summary",
+   "level": "OL",
+   "input": "data type + question",
+   "output": "chosen method with reason"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(b)(iii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Explain the problem",
+      "lines": [
+       {
+        "text": "The means treat every age group as equal, but the groups did not have equal numbers of voters."
+       },
+       {
+        "text": "Table 2 gives percentages only. The number of voters in each age group is not used, so the means are unreliable."
+       },
+       {
+        "text": "The real result (Table 1) was Leave 52%, so the Remain mean of 52.33% does not reflect the outcome."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The number of voters in each age group is not used, so the means are unreliable.}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(b)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Choose a year and give a reason",
+      "lines": [
+       {
+        "text": "Answer: 2006."
+       },
+       {
+        "text": "Reason: 2006 had the least rainfall (47 mm) and the most sunshine (239 hours)."
+       }
+      ]
+     }
+    ],
+    "final": "2006"
+   },
+   {
+    "part": "practice-stat-choose-display-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A survey asked 120 students for their favourite sport.\nSoccer 54, GAA 36, rugby 18, other 12.\nA pie chart is a suitable display for this data. Find the angle of the sector for GAA.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Choose the display",
+      "lines": [
+       {
+        "text": "Favourite sport is categorical data and the question compares parts of a whole, so a pie chart suits it."
+       }
+      ]
+     },
+     {
+      "title": "Find the angle for GAA",
+      "lines": [
+       {
+        "tex": "\\text{angle} &= \\frac{36}{120} \\times 360^\\circ"
+       },
+       {
+        "tex": "&= 108"
+       }
+      ]
+     }
+    ],
+    "final": "108^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-compare-hl",
+   "title": "Analyse plots to explain differences in centre and spread",
+   "level": "HL",
+   "input": "two distributions",
+   "output": "reasoned comparison"
+  },
+  "candidates": [
+   {
+    "part": "practice-stat-compare-hl-1",
+    "level": "higher",
+    "year": null,
+    "question": "Class X and class Y sat the same test. Five-number summaries (min, $Q_1$, median, $Q_3$, max):\nClass X: $12,\\ 20,\\ 25,\\ 30,\\ 38$\nClass Y: $5,\\ 18,\\ 30,\\ 45,\\ 60$\nFind the difference between the interquartile ranges of the two classes, and say which class has the greater spread.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find each interquartile range",
+      "lines": [
+       {
+        "tex": "\\text{IQR}_X &= 30 - 20 = 10"
+       },
+       {
+        "tex": "\\text{IQR}_Y &= 45 - 18 = 27"
+       }
+      ]
+     },
+     {
+      "title": "Find the difference",
+      "lines": [
+       {
+        "tex": "27 - 10 &= 17"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "Class Y has the greater spread. It also has the higher median (30 against 25), so Y did better on average but was less consistent."
+       }
+      ]
+     }
+    ],
+    "final": "17;\\ \\text{class Y has the greater spread}"
+   },
+   {
+    "part": "practice-stat-compare-hl-2",
+    "level": "higher",
+    "year": null,
+    "question": "Two data sets have the same mean.\nSet P: $8, 12, 8, 12$\nSet Q: $4, 16, 4, 16$\nFind how many times larger the standard deviation of Q is than that of P.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the mean of each set",
+      "lines": [
+       {
+        "tex": "\\text{Mean}_P &= \\frac{8+12+8+12}{4} = 10"
+       },
+       {
+        "tex": "\\text{Mean}_Q &= \\frac{4+16+4+16}{4} = 10"
+       }
+      ]
+     },
+     {
+      "title": "Find each standard deviation",
+      "lines": [
+       {
+        "text": "Every value in P is 2 from the mean, so $\\sigma_P = 2$. Every value in Q is 6 from the mean, so $\\sigma_Q = 6$."
+       },
+       {
+        "tex": "\\sigma_P &= \\sqrt{\\frac{2^2+2^2+2^2+2^2}{4}} = 2"
+       },
+       {
+        "tex": "\\sigma_Q &= \\sqrt{\\frac{4 \\cdot 6^2}{4}} = 6"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "tex": "\\frac{6}{2} &= 3"
+       },
+       {
+        "text": "Same centre, but Q is three times as spread out."
+       }
+      ]
+     }
+    ],
+    "final": "3"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(iii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the spread on each side of the plot",
+      "lines": [
+       {
+        "text": "Before exercise the rates run from $60$ to $89$, a range of $29$."
+       },
+       {
+        "text": "After exercise they run from $71$ to $118$, a range of $47$."
+       },
+       {
+        "text": "The after-exercise values are more spread out, so the standard deviation increased."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Increased: there is a greater spread in the data}"
+   }
+  ]
+ }
+]

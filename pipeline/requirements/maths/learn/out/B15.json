@@ -1,0 +1,605 @@
+[
+ {
+  "skill": "mens-volume",
+  "what": {
+   "say": [
+    "You give it a solid and its measurements. It gives back the **volume**, the space inside.",
+    "The key idea: every solid has a formula on the tables. Pick the one for your solid, then substitute carefully."
+   ],
+   "in": "solid and its sizes",
+   "out": "volume"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 2 questions on cones, cylinders and spheres (a part or two most years, often 5 to 15 marks), and sometimes with a formula given in a Paper 1 question.",
+   "ordinary": "Ordinary level asks for it almost every year, mostly as a part of its own on Paper 2 (sphere, cylinder, cone, 5 to 10 marks), and often again when two volumes are subtracted."
+  },
+  "example": {
+   "question": "A solid cone has base radius $6$ cm and vertical height $8$ cm. Find its volume, correct to the nearest $\\text{cm}^3$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Pick the formula",
+      "say": "Name the solid and write its formula. For a cone, $V = \\frac{1}{3}\\pi r^2 h$. Then pick out the radius $\\hl{1}{r}$ and the height $\\hl{2}{h}$ from the question.",
+      "lines": [
+       {
+        "text": "The radius is the base radius. The height is the vertical height, not the slant."
+       },
+       {
+        "tex": "\\hl{1}{r} &= 6, \\quad \\hl{2}{h} = 8"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the numbers",
+      "say": "Put $\\hl{1}{6}$ in for $r$ and $\\hl{2}{8}$ in for $h$. Square the radius first.",
+      "lines": [
+       {
+        "tex": "V &= \\frac{1}{3}\\pi(\\hl{1}{6})^2(\\hl{2}{8})",
+        "sym": "pi/3*6**2*8",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1}{3}\\pi(36)(8)",
+        "sym": "pi/3*36*8"
+       },
+       {
+        "tex": "&= 96\\pi",
+        "sym": "96*pi"
+       }
+      ]
+     },
+     {
+      "title": "Round the answer",
+      "say": "The question wants the nearest $\\text{cm}^3$, so put $\\pi$ into the calculator and round.",
+      "lines": [
+       {
+        "tex": "&\\approx 301.6",
+        "sym": "301.6",
+        "approx": true
+       },
+       {
+        "tex": "&\\approx 302",
+        "sym": "302",
+        "approx": true
+       },
+       {
+        "text": "Write the unit: $\\text{cm}^3$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "302 \\text{ cm}^3"
+   },
+   "finalSym": "302",
+   "answerSym": "round(pi*6**2*8/3)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the unit with the final answer. A correct answer with a missing or wrong unit loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q7#(a)",
+       "quote": "Correct answer but no or incorrect unit"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question says. An answer rounded wrongly loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q8#(b)",
+       "quote": "Apply a * if dimensions are not rounded correctly to one decimal place"
+      }
+     ]
+    },
+    {
+     "tip": "Check whether you are given a diameter or a radius. Mixing them up costs marks even if the rest is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q7#(a)",
+       "quote": "Mishandles diameter / radius, but finishes correctly"
+      }
+     ]
+    },
+    {
+     "tip": "Convert units before you substitute. Write the conversion down, as it earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q9#(a)",
+       "quote": "states 3 litres = 3000 cm3"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the formula down first. Marks are given for the formula alone, even if you get stuck.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q10#(a)(i)",
+       "quote": "Writes cylinder formula"
+      }
+     ]
+    },
+    {
+     "tip": "Pick out the radius and write it down. That is a step that earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q8#(a)",
+       "quote": "Identifies r"
+      }
+     ]
+    },
+    {
+     "tip": "Read whether the answer should be rounded or left in $\\pi$. The wrong form loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q8#(a)",
+       "quote": "Leaves answer in terms of"
+      }
+     ]
+    },
+    {
+     "tip": "Round when asked. No rounding, or wrong rounding, loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q7#(c)(i)",
+       "quote": "Apply a * for no or incorrect rounding"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "mens-arc-sector",
+  "what": {
+   "say": [
+    "You give it a radius and an angle. It gives back the **arc length** and the **sector area**.",
+    "The key idea: a sector is a fraction of a circle. The angle over $360^\\circ$ is that fraction, and it multiplies the circumference or the area."
+   ],
+   "in": "$r$ and angle",
+   "out": "arc length and sector area"
+  },
+  "how": {
+   "higher": "Higher level uses it almost every year as a step inside Paper 2 questions on circles, cones made from sectors and segments (usually 5 to 10 marks), and once in radians on Paper 1.",
+   "ordinary": "Ordinary level asks for it nearly every year, mostly as a part of its own on Paper 2, such as the area between two sectors or the length of a curved edge."
+  },
+  "example": {
+   "question": "A sector of a circle has radius $9$ cm and angle $80^\\circ$. Find the length of its arc and the area of the sector, in terms of $\\pi$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the fraction of the circle",
+      "say": "The sector is part of a full circle. Its angle over $360^\\circ$ gives the fraction.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{80}{360}} &= \\frac{2}{9}",
+        "sym": "80/360",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the arc length",
+      "say": "The arc is that fraction of the circumference, $2\\pi r$.",
+      "lines": [
+       {
+        "tex": "l &= \\hl{1}{\\frac{2}{9}} \\times 2\\pi(9)",
+        "sym": "Rational(2,9)*2*pi*9",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{4\\pi}",
+        "sym": "4*pi"
+       }
+      ]
+     },
+     {
+      "title": "Find the sector area",
+      "say": "The area is the same fraction of the full circle, $\\pi r^2$.",
+      "lines": [
+       {
+        "tex": "A &= \\hl{1}{\\frac{2}{9}} \\times \\pi(9)^2",
+        "sym": "Rational(2,9)*pi*9**2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{18\\pi}",
+        "sym": "18*pi"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{arc } \\hl{2}{4\\pi} \\text{ cm}, \\text{ area } \\hl{3}{18\\pi} \\text{ cm}^2"
+   },
+   "finalSym": "[4*pi, 18*pi]",
+   "answerSym": "[Rational(80,360)*2*pi*9, Rational(80,360)*pi*9**2]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the arc length formula and put some numbers in. That earns marks before you finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q7#(a)(iii)",
+       "quote": "Formula for circumference or arc length with some substitution"
+      }
+     ]
+    },
+    {
+     "tip": "When a sector is bent into a cone, the arc length is the circumference of the cone's base. Use that to find the radius.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q7#(c)",
+       "quote": "is the circumference of the cone"
+      }
+     ]
+    },
+    {
+     "tip": "Write the sector area formula and substitute. That earns marks even if you do not finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q7#(a)(iii)",
+       "quote": "Formula for area of sector with some substitution"
+      }
+     ]
+    },
+    {
+     "tip": "For a segment, find the sector and the triangle, then subtract. Both areas must be substituted.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q7#(a)(iii)",
+       "quote": "Both relevant areas fully substituted"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Round as asked. No rounding, or wrong rounding, loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q9#(c)(i)",
+       "quote": "Apply a * for no or incorrect rounding"
+      }
+     ]
+    },
+    {
+     "tip": "To find the area between two sectors, find both and subtract.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q9#(c)(i)",
+       "quote": "Subtract both areas"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula down and substitute. Marks are given for that on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q9#(d)(ii)",
+       "quote": "Arc/circumference formula with some substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Finding the area of one sector earns a mark even if you do not finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q9#(c)(i)",
+       "quote": "Area of a relevant sector found"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "mens-surface-area",
+  "what": {
+   "say": [
+    "You give it a solid and its measurements. It gives back the **surface area**, the area of the outside.",
+    "The key idea: find the area of each face or curved part, then add them. A cone needs its **slant** height, which you get from Pythagoras."
+   ],
+   "in": "solid and its sizes",
+   "out": "surface area"
+  },
+  "how": {
+   "higher": "Higher level uses it rarely, as a step inside Paper 2 cone questions (three parts in eleven years), usually after finding the slant height.",
+   "ordinary": "Ordinary level asks for it most years, usually as a part of its own on Paper 1 or Paper 2 (cylinder, cone, sphere or a block), often worth 5 to 10 marks."
+  },
+  "example": {
+   "question": "A cone has base radius $5$ cm and vertical height $12$ cm. Find its curved surface area, in terms of $\\pi$, and to one decimal place.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the slant height",
+      "say": "The curved surface needs the slant height $\\hl{1}{l}$, not the vertical height. The radius, height and slant make a right-angled triangle, so use Pythagoras.",
+      "lines": [
+       {
+        "tex": "l^2 &= 5^2 + 12^2",
+        "sym": "5**2+12**2",
+        "new": true
+       },
+       {
+        "tex": "&= 169",
+        "sym": "169"
+       },
+       {
+        "tex": "l &= \\sqrt{169}",
+        "sym": "sqrt(169)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{13}",
+        "sym": "13"
+       }
+      ]
+     },
+     {
+      "title": "Use the curved area formula",
+      "say": "The curved surface area of a cone is $\\pi r l$. Put in $r = 5$ and $l = \\hl{1}{13}$.",
+      "lines": [
+       {
+        "tex": "\\text{CSA} &= \\pi(5)(\\hl{1}{13})",
+        "sym": "pi*5*13",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{65\\pi}",
+        "sym": "65*pi"
+       }
+      ]
+     },
+     {
+      "title": "Round",
+      "say": "Now the decimal.",
+      "lines": [
+       {
+        "tex": "&\\approx 204.2",
+        "sym": "204.2",
+        "approx": true
+       },
+       {
+        "text": "Write the unit: $\\text{cm}^2$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "65\\pi \\approx 204.2 \\text{ cm}^2"
+   },
+   "finalSym": "65*pi",
+   "answerSym": "pi*5*sqrt(5**2+12**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "For a cone, find the slant height with Pythagoras first. It earns marks on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q7#(a)(ii)",
+       "quote": "Pythagoras formulated"
+      }
+     ]
+    },
+    {
+     "tip": "Write the curved surface area formula and substitute. That earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q7#(a)(ii)",
+       "quote": "Formula for CSA with some substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Fully substitute the formula before you work it out.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q7#(a)(ii)",
+       "quote": "Formula fully substituted"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the surface area formula and put in some numbers. That earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q10#(b)",
+       "quote": "Some correct substitution into Surface Area formula"
+      }
+     ]
+    },
+    {
+     "tip": "Write the correct formula down. It earns marks even if you stop there.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q10#(b)",
+       "quote": "Work of merit, for example, correct formula"
+      }
+     ]
+    },
+    {
+     "tip": "If a shape has several parts, find every area. Missing one costs marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q9#(a)(iii)",
+       "quote": "Two of the three required areas calculated correctly"
+      }
+     ]
+    },
+    {
+     "tip": "Round as asked. Wrong rounding loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q10#(b)",
+       "quote": "Apply a * for no or incorrect rounding"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "mens-trapezoidal",
+  "what": {
+   "say": [
+    "You give it a strip width and a list of heights. It gives back an **estimate** of the area under a curved edge.",
+    "The key idea: split the area into strips of equal width. The first and last heights count once. Every height between counts twice."
+   ],
+   "in": "$h$ and heights $y$",
+   "out": "area estimate"
+  },
+  "how": {
+   "higher": "Higher level used it once, in 2015 on Paper 1, as a table and an area estimate followed by the percentage error.",
+   "ordinary": "Ordinary level asks for it in five of eleven years, as a part of its own on Paper 1 or Paper 2, worth 5 to 10 marks."
+  },
+  "example": {
+   "question": "A garden is $16$ m long. Its width is measured every $4$ m along the length: $6$, $9$, $11$, $8$ and $5$ metres. Use the trapezoidal rule to estimate the area of the garden.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the strip width",
+      "say": "The widths are the heights $y$. The strip width $\\hl{1}{h}$ is the gap between them.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h} &= 4",
+        "sym": "4",
+        "new": true
+       },
+       {
+        "text": "There are five heights and four strips."
+       }
+      ]
+     },
+     {
+      "title": "Add the ends and the middles",
+      "say": "The rule adds the first and last heights once. It adds every height in between twice.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{6 + 5} &= 11",
+        "sym": "6+5",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{2(9 + 11 + 8)} &= 56",
+        "sym": "2*(9+11+8)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Put it in the rule",
+      "say": "The rule is $\\frac{h}{2}[\\text{ends} + 2(\\text{middle})]$.",
+      "lines": [
+       {
+        "tex": "A &= \\frac{\\hl{1}{4}}{2}(\\hl{2}{11} + \\hl{3}{56})",
+        "sym": "4/2*(11+56)",
+        "new": true
+       },
+       {
+        "tex": "&= 2(67)",
+        "sym": "2*67"
+       },
+       {
+        "tex": "&= 134",
+        "sym": "134"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "134 \\text{ m}^2"
+   },
+   "finalSym": "134",
+   "answerSym": "Rational(16,4)/2*((6+5)+2*(9+11+8))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the trapezoidal rule down. It earns marks on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q3#(a)(i), (ii)",
+       "quote": "Writes formula"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute into the formula. Even some correct substitution earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q3#(a)(i), (ii)",
+       "quote": "Correct formula for trapezoidal rule, and some correct substitution with"
+      }
+     ]
+    },
+    {
+     "tip": "If your table is wrong, still use it in the next part. A correct method on wrong numbers earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q3#(a)(i), (ii)",
+       "quote": "Completely incorrect table but applied correctly in a(ii)"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the trapezoidal rule down. It earns marks on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q8#(b)",
+       "quote": "Trapezoidal Rule written"
+      }
+     ]
+    },
+    {
+     "tip": "When the area has two sections, substitute for both.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q8#(a)(i)",
+       "quote": "Trapezoidal Rule formula with full substitution (for both sections)"
+      }
+     ]
+    },
+    {
+     "tip": "To make the estimate more accurate, use more strips and measure more carefully.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q8#(b)",
+       "quote": "Make more divisions"
+      }
+     ]
+    },
+    {
+     "tip": "Finding the area of one section earns a mark even if you do not finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q8#(a)(i)",
+       "quote": "Area of one section found"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,548 @@
+[
+ {
+  "skill": "cx-conjugate-root",
+  "problems": [
+   {
+    "question": "The polynomial $z^3 - 5z^2 + 9z - 5$ has real coefficients.\\nGiven that $2 - i$ is a root of $z^3 - 5z^2 + 9z - 5 = 0$, find all three roots.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the conjugate root theorem",
+       "lines": [
+        {
+         "text": "The coefficients are real, so complex roots come in conjugate pairs."
+        },
+        {
+         "tex": "\\overline{2 - i} &= 2 + i",
+         "sym": "Eq(conjugate(2 - I), 2 + I)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find the quadratic factor from the pair",
+       "lines": [
+        {
+         "text": "Sum of the pair, then product of the pair."
+        },
+        {
+         "tex": "(2 - i) + (2 + i) &= 4",
+         "sym": "Eq((2 - I) + (2 + I), 4)",
+         "new": true
+        },
+        {
+         "tex": "(2 - i)(2 + i) &= 4 - i^2 = 5",
+         "sym": "Eq(expand((2 - I)*(2 + I)), 5)",
+         "new": true
+        },
+        {
+         "text": "So the quadratic factor is $z^2 - 4z + 5$."
+        }
+       ]
+      },
+      {
+       "title": "Divide to find the linear factor",
+       "lines": [
+        {
+         "text": "Compare constant terms: $5 \\times (\\text{constant}) = -5$, so the constant is $-1$."
+        },
+        {
+         "tex": "z^3 - 5z^2 + 9z - 5 &= (z^2 - 4z + 5)(z - 1)",
+         "sym": "Eq(z**3 - 5*z**2 + 9*z - 5, expand((z**2 - 4*z + 5)*(z - 1)))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Read off the third root",
+       "lines": [
+        {
+         "tex": "z - 1 &= 0",
+         "sym": "Eq(z - 1, 0)",
+         "new": true
+        },
+        {
+         "tex": "z &= 1",
+         "sym": "Eq(z, 1)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "z = 2 - i,\\ 2 + i,\\ 1"
+    },
+    "finalSym": "[2 - I, 2 + I, 1]",
+    "answerSym": "solve(Eq(z**3 - 5*z**2 + 9*z - 5, 0), z)"
+   }
+  ]
+ },
+ {
+  "skill": "cx-de-moivre-identity",
+  "problems": [
+   {
+    "question": "Use De Moivre's theorem to show that\\n$\\cos 3\\theta = 4\\cos^3\\theta - 3\\cos\\theta$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Apply De Moivre's theorem",
+       "lines": [
+        {
+         "tex": "(\\cos\\theta + i\\sin\\theta)^3 &= \\cos 3\\theta + i\\sin 3\\theta"
+        }
+       ]
+      },
+      {
+       "title": "Expand with the binomial theorem",
+       "lines": [
+        {
+         "tex": "(\\cos\\theta + i\\sin\\theta)^3 &= \\cos^3\\theta + 3\\cos^2\\theta(i\\sin\\theta) + 3\\cos\\theta(i\\sin\\theta)^2 + (i\\sin\\theta)^3",
+         "sym": "Eq((cos(theta) + I*sin(theta))**3, cos(theta)**3 + 3*cos(theta)**2*(I*sin(theta)) + 3*cos(theta)*(I*sin(theta))**2 + (I*sin(theta))**3)",
+         "new": true
+        },
+        {
+         "tex": "&= (\\cos^3\\theta - 3\\cos\\theta\\sin^2\\theta) + i(3\\cos^2\\theta\\sin\\theta - \\sin^3\\theta)",
+         "sym": "Eq(cos(theta)**3 + 3*cos(theta)**2*(I*sin(theta)) + 3*cos(theta)*(I*sin(theta))**2 + (I*sin(theta))**3, (cos(theta)**3 - 3*cos(theta)*sin(theta)**2) + I*(3*cos(theta)**2*sin(theta) - sin(theta)**3))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Equate the real parts",
+       "lines": [
+        {
+         "tex": "\\cos 3\\theta &= \\cos^3\\theta - 3\\cos\\theta\\sin^2\\theta",
+         "sym": "Eq(cos(3*theta), cos(theta)**3 - 3*cos(theta)*sin(theta)**2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Replace sin squared using formula 1",
+       "lines": [
+        {
+         "text": "$\\sin^2\\theta = 1 - \\cos^2\\theta$."
+        },
+        {
+         "tex": "\\cos 3\\theta &= \\cos^3\\theta - 3\\cos\\theta(1 - \\cos^2\\theta)",
+         "sym": "Eq(cos(3*theta), cos(theta)**3 - 3*cos(theta)*(1 - cos(theta)**2))",
+         "new": true
+        },
+        {
+         "tex": "&= \\cos^3\\theta - 3\\cos\\theta + 3\\cos^3\\theta",
+         "sym": "Eq(cos(3*theta), cos(theta)**3 - 3*cos(theta) + 3*cos(theta)**3)"
+        },
+        {
+         "tex": "&= 4\\cos^3\\theta - 3\\cos\\theta",
+         "sym": "Eq(cos(3*theta), 4*cos(theta)**3 - 3*cos(theta))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos 3\\theta = 4\\cos^3\\theta - 3\\cos\\theta"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand_trig(cos(3*theta)) - (4*cos(theta)**3 - 3*cos(theta)))"
+   },
+   {
+    "question": "Use De Moivre's theorem to show that\\n$\\sin 3\\theta = 3\\sin\\theta - 4\\sin^3\\theta$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Apply De Moivre's theorem",
+       "lines": [
+        {
+         "tex": "(\\cos\\theta + i\\sin\\theta)^3 &= \\cos 3\\theta + i\\sin 3\\theta"
+        }
+       ]
+      },
+      {
+       "title": "Expand with the binomial theorem",
+       "lines": [
+        {
+         "tex": "(\\cos\\theta + i\\sin\\theta)^3 &= \\cos^3\\theta + 3\\cos^2\\theta(i\\sin\\theta) + 3\\cos\\theta(i\\sin\\theta)^2 + (i\\sin\\theta)^3",
+         "sym": "Eq((cos(theta) + I*sin(theta))**3, cos(theta)**3 + 3*cos(theta)**2*(I*sin(theta)) + 3*cos(theta)*(I*sin(theta))**2 + (I*sin(theta))**3)",
+         "new": true
+        },
+        {
+         "tex": "&= (\\cos^3\\theta - 3\\cos\\theta\\sin^2\\theta) + i(3\\cos^2\\theta\\sin\\theta - \\sin^3\\theta)",
+         "sym": "Eq(cos(theta)**3 + 3*cos(theta)**2*(I*sin(theta)) + 3*cos(theta)*(I*sin(theta))**2 + (I*sin(theta))**3, (cos(theta)**3 - 3*cos(theta)*sin(theta)**2) + I*(3*cos(theta)**2*sin(theta) - sin(theta)**3))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Equate the imaginary parts",
+       "lines": [
+        {
+         "tex": "\\sin 3\\theta &= 3\\cos^2\\theta\\sin\\theta - \\sin^3\\theta",
+         "sym": "Eq(sin(3*theta), 3*cos(theta)**2*sin(theta) - sin(theta)**3)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Replace cos squared using formula 1",
+       "lines": [
+        {
+         "text": "$\\cos^2\\theta = 1 - \\sin^2\\theta$."
+        },
+        {
+         "tex": "\\sin 3\\theta &= 3(1 - \\sin^2\\theta)\\sin\\theta - \\sin^3\\theta",
+         "sym": "Eq(sin(3*theta), 3*(1 - sin(theta)**2)*sin(theta) - sin(theta)**3)",
+         "new": true
+        },
+        {
+         "tex": "&= 3\\sin\\theta - 3\\sin^3\\theta - \\sin^3\\theta",
+         "sym": "Eq(sin(3*theta), 3*sin(theta) - 3*sin(theta)**3 - sin(theta)**3)"
+        },
+        {
+         "tex": "&= 3\\sin\\theta - 4\\sin^3\\theta",
+         "sym": "Eq(sin(3*theta), 3*sin(theta) - 4*sin(theta)**3)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\sin 3\\theta = 3\\sin\\theta - 4\\sin^3\\theta"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand_trig(sin(3*theta)) - (3*sin(theta) - 4*sin(theta)**3))"
+   }
+  ]
+ },
+ {
+  "skill": "cx-de-moivre-prove",
+  "problems": [
+   {
+    "question": "Prove by induction that $(\\cos\\theta - i\\sin\\theta)^n = \\cos n\\theta - i\\sin n\\theta$ for all $n \\in \\mathbb{N}$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Test the result for n = 1",
+       "lines": [
+        {
+         "text": "Let $P(n)$ be the statement $(\\cos\\theta - i\\sin\\theta)^n = \\cos n\\theta - i\\sin n\\theta$."
+        },
+        {
+         "tex": "(\\cos\\theta - i\\sin\\theta)^1 &= \\cos\\theta - i\\sin\\theta"
+        },
+        {
+         "text": "So $P(1)$ is true."
+        }
+       ]
+      },
+      {
+       "title": "Assume the result is true for n = k",
+       "lines": [
+        {
+         "tex": "(\\cos\\theta - i\\sin\\theta)^k &= \\cos k\\theta - i\\sin k\\theta"
+        },
+        {
+         "text": "This is $P(k)$. We now test $P(k+1)$."
+        }
+       ]
+      },
+      {
+       "title": "Write the (k + 1) power as a product",
+       "lines": [
+        {
+         "tex": "(\\cos\\theta - i\\sin\\theta)^{k+1} &= (\\cos\\theta - i\\sin\\theta)^k(\\cos\\theta - i\\sin\\theta)"
+        },
+        {
+         "tex": "&= (\\cos k\\theta - i\\sin k\\theta)(\\cos\\theta - i\\sin\\theta)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply out the brackets",
+       "lines": [
+        {
+         "tex": "&= \\cos k\\theta\\cos\\theta - i\\cos k\\theta\\sin\\theta - i\\sin k\\theta\\cos\\theta + i^2\\sin k\\theta\\sin\\theta",
+         "sym": "Eq((cos(k*theta) - I*sin(k*theta))*(cos(theta) - I*sin(theta)), cos(k*theta)*cos(theta) - I*cos(k*theta)*sin(theta) - I*sin(k*theta)*cos(theta) + I**2*sin(k*theta)*sin(theta))",
+         "new": true
+        },
+        {
+         "text": "Replace $i^2$ with $-1$ and group the real and imaginary parts."
+        },
+        {
+         "tex": "&= [\\cos k\\theta\\cos\\theta - \\sin k\\theta\\sin\\theta] - i[\\cos k\\theta\\sin\\theta + \\sin k\\theta\\cos\\theta]",
+         "sym": "Eq(cos(k*theta)*cos(theta) - I*cos(k*theta)*sin(theta) - I*sin(k*theta)*cos(theta) + I**2*sin(k*theta)*sin(theta), (cos(k*theta)*cos(theta) - sin(k*theta)*sin(theta)) - I*(cos(k*theta)*sin(theta) + sin(k*theta)*cos(theta)))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the addition formulas",
+       "lines": [
+        {
+         "text": "$\\cos(A+B) = \\cos A\\cos B - \\sin A\\sin B$ and $\\sin(A+B) = \\sin A\\cos B + \\cos A\\sin B$, with $A = k\\theta$ and $B = \\theta$."
+        },
+        {
+         "tex": "&= \\cos(k\\theta + \\theta) - i\\sin(k\\theta + \\theta)",
+         "sym": "Eq((cos(k*theta)*cos(theta) - sin(k*theta)*sin(theta)) - I*(cos(k*theta)*sin(theta) + sin(k*theta)*cos(theta)), cos(k*theta + theta) - I*sin(k*theta + theta))",
+         "new": true
+        },
+        {
+         "tex": "&= \\cos(k+1)\\theta - i\\sin(k+1)\\theta"
+        },
+        {
+         "text": "So $P(k+1)$ is true."
+        }
+       ]
+      },
+      {
+       "title": "State the conclusion",
+       "lines": [
+        {
+         "text": "$P(1)$ is true. If $P(k)$ is true then $P(k+1)$ is true. Hence $P(n)$ is true for all $n \\in \\mathbb{N}$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(\\cos\\theta - i\\sin\\theta)^n = \\cos n\\theta - i\\sin n\\theta"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand((cos(pi/6) - I*sin(pi/6))**4 - (cos(4*pi/6) - I*sin(4*pi/6))))"
+   },
+   {
+    "question": "Prove by induction that $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$ for all $n \\in \\mathbb{N}$, where $r > 0$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Test the result for n = 1",
+       "lines": [
+        {
+         "text": "Let $P(n)$ be the statement $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$."
+        },
+        {
+         "tex": "[r(\\cos\\theta + i\\sin\\theta)]^1 &= r^1(\\cos 1\\theta + i\\sin 1\\theta)"
+        },
+        {
+         "text": "So $P(1)$ is true."
+        }
+       ]
+      },
+      {
+       "title": "Assume the result is true for n = k",
+       "lines": [
+        {
+         "tex": "[r(\\cos\\theta + i\\sin\\theta)]^k &= r^k(\\cos k\\theta + i\\sin k\\theta)"
+        },
+        {
+         "text": "This is $P(k)$. We now test $P(k+1)$."
+        }
+       ]
+      },
+      {
+       "title": "Write the (k + 1) power as a product",
+       "lines": [
+        {
+         "tex": "[r(\\cos\\theta + i\\sin\\theta)]^{k+1} &= [r(\\cos\\theta + i\\sin\\theta)]^k\\,[r(\\cos\\theta + i\\sin\\theta)]"
+        },
+        {
+         "tex": "&= r^k(\\cos k\\theta + i\\sin k\\theta)\\cdot r(\\cos\\theta + i\\sin\\theta)",
+         "sym": "Eq(r**k*(cos(k*theta) + I*sin(k*theta))*r*(cos(theta) + I*sin(theta)), r**(k + 1)*(cos(k*theta) + I*sin(k*theta))*(cos(theta) + I*sin(theta)))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Multiply out the brackets",
+       "lines": [
+        {
+         "tex": "&= r^{k+1}[\\cos k\\theta\\cos\\theta + i\\cos k\\theta\\sin\\theta + i\\sin k\\theta\\cos\\theta + i^2\\sin k\\theta\\sin\\theta]",
+         "sym": "Eq(r**(k + 1)*(cos(k*theta) + I*sin(k*theta))*(cos(theta) + I*sin(theta)), r**(k + 1)*(cos(k*theta)*cos(theta) + I*cos(k*theta)*sin(theta) + I*sin(k*theta)*cos(theta) + I**2*sin(k*theta)*sin(theta)))",
+         "new": true
+        },
+        {
+         "text": "Replace $i^2$ with $-1$ and group the real and imaginary parts."
+        },
+        {
+         "tex": "&= r^{k+1}\\{[\\cos k\\theta\\cos\\theta - \\sin k\\theta\\sin\\theta] + i[\\cos k\\theta\\sin\\theta + \\sin k\\theta\\cos\\theta]\\}",
+         "sym": "Eq(r**(k + 1)*(cos(k*theta)*cos(theta) + I*cos(k*theta)*sin(theta) + I*sin(k*theta)*cos(theta) + I**2*sin(k*theta)*sin(theta)), r**(k + 1)*((cos(k*theta)*cos(theta) - sin(k*theta)*sin(theta)) + I*(cos(k*theta)*sin(theta) + sin(k*theta)*cos(theta))))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the addition formulas",
+       "lines": [
+        {
+         "text": "$\\cos(A+B) = \\cos A\\cos B - \\sin A\\sin B$ and $\\sin(A+B) = \\sin A\\cos B + \\cos A\\sin B$, with $A = k\\theta$ and $B = \\theta$."
+        },
+        {
+         "tex": "&= r^{k+1}[\\cos(k\\theta + \\theta) + i\\sin(k\\theta + \\theta)]",
+         "sym": "Eq(r**(k + 1)*((cos(k*theta)*cos(theta) - sin(k*theta)*sin(theta)) + I*(cos(k*theta)*sin(theta) + sin(k*theta)*cos(theta))), r**(k + 1)*(cos(k*theta + theta) + I*sin(k*theta + theta)))",
+         "new": true
+        },
+        {
+         "tex": "&= r^{k+1}[\\cos(k+1)\\theta + i\\sin(k+1)\\theta]"
+        },
+        {
+         "text": "So $P(k+1)$ is true."
+        }
+       ]
+      },
+      {
+       "title": "State the conclusion",
+       "lines": [
+        {
+         "text": "$P(1)$ is true. If $P(k)$ is true then $P(k+1)$ is true. Hence $P(n)$ is true for all $n \\in \\mathbb{N}$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand((2*(cos(pi/6) + I*sin(pi/6)))**3 - 2**3*(cos(3*pi/6) + I*sin(3*pi/6))))"
+   }
+  ]
+ },
+ {
+  "skill": "diff-point-given-slope",
+  "problems": [
+   {
+    "question": "Find the coordinates of the point on the curve $y = x^2 - 6x + 4$ at which the slope of the tangent is $2$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate to get the slope",
+       "lines": [
+        {
+         "tex": "y &= x^2 - 6x + 4",
+         "sym": "x**2 - 6*x + 4"
+        },
+        {
+         "tex": "\\frac{dy}{dx} &= 2x - 6",
+         "sym": "2*x - 6",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Set the slope equal to 2",
+       "lines": [
+        {
+         "tex": "2x - 6 &= 2",
+         "sym": "Eq(2*x - 6, 2)",
+         "new": true
+        },
+        {
+         "tex": "2x &= 8",
+         "sym": "Eq(2*x, 8)"
+        },
+        {
+         "tex": "x &= 4",
+         "sym": "Eq(x, 4)"
+        }
+       ]
+      },
+      {
+       "title": "Find y at this x-value",
+       "lines": [
+        {
+         "tex": "y &= (4)^2 - 6(4) + 4",
+         "sym": "4**2 - 6*4 + 4",
+         "new": true
+        },
+        {
+         "tex": "&= -4",
+         "sym": "-4"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(4, -4)"
+    },
+    "finalSym": "(4, -4)",
+    "answerSym": "(solve(Eq(diff(x**2 - 6*x + 4, x), 2), x)[0], (x**2 - 6*x + 4).subs(x, solve(Eq(diff(x**2 - 6*x + 4, x), 2), x)[0]))"
+   },
+   {
+    "question": "The tangent to the curve $y = x^3 - 3x^2 - 9x + 2$ is parallel to the line $y = -9x + 4$ at two points.\\nFind the coordinates of the two points.",
+    "level": "ordinary",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of the line",
+       "lines": [
+        {
+         "text": "The line $y = -9x + 4$ has slope $-9$, so the tangent has slope $-9$."
+        }
+       ]
+      },
+      {
+       "title": "Differentiate the curve",
+       "lines": [
+        {
+         "tex": "y &= x^3 - 3x^2 - 9x + 2",
+         "sym": "x**3 - 3*x**2 - 9*x + 2"
+        },
+        {
+         "tex": "\\frac{dy}{dx} &= 3x^2 - 6x - 9",
+         "sym": "3*x**2 - 6*x - 9",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Set the slope equal to -9 and solve",
+       "lines": [
+        {
+         "tex": "3x^2 - 6x - 9 &= -9",
+         "sym": "Eq(3*x**2 - 6*x - 9, -9)",
+         "new": true
+        },
+        {
+         "tex": "3x^2 - 6x &= 0",
+         "sym": "Eq(3*x**2 - 6*x, 0)"
+        },
+        {
+         "tex": "3x(x - 2) &= 0",
+         "sym": "Eq(3*x*(x - 2), 0)"
+        },
+        {
+         "tex": "x &= 0 \\text{ or } x = 2",
+         "sym": "Or(Eq(x, 0), Eq(x, 2))"
+        }
+       ]
+      },
+      {
+       "title": "Find y for each x-value",
+       "lines": [
+        {
+         "tex": "x = 0:\\quad y &= 2",
+         "sym": "2",
+         "new": true
+        },
+        {
+         "tex": "x = 2:\\quad y &= 8 - 12 - 18 + 2",
+         "sym": "8 - 12 - 18 + 2",
+         "new": true
+        },
+        {
+         "tex": "&= -20",
+         "sym": "-20"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(0, 2) \\text{ and } (2, -20)"
+    },
+    "finalSym": "[(0, 2), (2, -20)]",
+    "answerSym": "solve([Eq(diff(x**3 - 3*x**2 - 9*x + 2, x), -9), Eq(y, x**3 - 3*x**2 - 9*x + 2)], [x, y])"
+   }
+  ]
+ }
+]

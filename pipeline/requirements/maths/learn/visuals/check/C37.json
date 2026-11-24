@@ -1,0 +1,332 @@
+[
+ {
+  "skill": "trig-unit-circle",
+  "of": "c554bb4a6a7d",
+  "title": "Define sin θ, cos θ, tan θ for all θ (unit circle)",
+  "show": "unit circle with the 210° angle in the third quadrant, reference angle 30° and the cosine as the x-coordinate",
+  "example": {
+   "question": "Find the exact value of $\\cos 210^\\circ$.",
+   "final": "-\\frac{\\sqrt{3}}{2}",
+   "steps": [
+    {
+     "say": "$210^\\circ$ is between $180^\\circ$ and $270^\\circ$. That is the third quadrant, where only $\\tan$ is positive. So $\\cos 210^\\circ$ is **negative**.",
+     "rows": [
+      {
+       "aside": "CAST: in the third quadrant, $\\sin$ and $\\cos$ are both negative."
+      }
+     ]
+    },
+    {
+     "say": "The related angle is the acute angle the line makes with the $x$-axis. In the third quadrant, subtract $180^\\circ$.",
+     "rows": [
+      {
+       "l": "210 - 180",
+       "r": "= \\hl{1}{30}"
+      }
+     ]
+    },
+    {
+     "say": "Take $\\cos \\hl{1}{30^\\circ}$ and put in the **negative** sign from the quadrant.",
+     "rows": [
+      {
+       "l": "\\cos 210^\\circ",
+       "r": "= -\\cos \\hl{1}{30^\\circ}"
+      },
+      {
+       "l": "",
+       "r": "= -\\frac{\\sqrt{3}}{2}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-pythag-identity",
+  "of": "640e0e90e9ca",
+  "title": "Use cos²A + sin²A = 1 (formula 1)",
+  "show": "right triangle 8,15,17 placed in the second quadrant with the angle A marked",
+  "example": {
+   "question": "Given that $\\sin A = \\frac{8}{17}$ and $90° < A < 180°$, find the value of $\\tan A$.",
+   "final": "\\tan A = -\\tfrac{8}{15}",
+   "steps": [
+    {
+     "say": "Use $\\cos^2 A + \\sin^2 A = 1$. Rearrange it to get $\\cos^2 A$ from the $\\sin A$ you were given.",
+     "rows": [
+      {
+       "l": "\\cos^2 A",
+       "r": "= 1 - \\sin^2 A"
+      },
+      {
+       "l": "",
+       "r": "= 1 - \\frac{64}{289}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{225}{289}"
+      }
+     ]
+    },
+    {
+     "say": "Taking the root gives two answers, positive and negative. The quadrant decides which one is $\\hl{1}{\\cos A}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\cos A}",
+       "r": "= \\pm\\frac{15}{17}"
+      },
+      {
+       "aside": "$A$ is between $90°$ and $180°$. That is the second quadrant, where cosine is negative."
+      },
+      {
+       "l": "\\hl{1}{\\cos A}",
+       "r": "= -\\frac{15}{17}"
+      }
+     ]
+    },
+    {
+     "say": "Now $\\hl{2}{\\tan A}$ is $\\sin A$ divided by $\\hl{1}{\\cos A}$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{\\tan A}",
+       "r": "= \\frac{\\sin A}{\\cos A}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{8/17}{-15/17}"
+      },
+      {
+       "l": "",
+       "r": "= -\\frac{8}{15}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-exact-values",
+  "of": "55f6c1a4690a",
+  "title": "Use trig ratios in surd form",
+  "show": "unit circle with 135° and 150° marked and their reference angles",
+  "example": {
+   "question": "Find the exact value of $\\sin 135° + \\cos 150°$.",
+   "final": "\\frac{\\sqrt{2} - \\sqrt{3}}{2}",
+   "steps": [
+    {
+     "say": "Both angles are in the second quadrant. Subtract each from $180°$ to get the reference angle. Sine is positive there and cosine is negative.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\sin 135°}",
+       "r": "= \\sin 45°"
+      },
+      {
+       "l": "\\hl{2}{\\cos 150°}",
+       "r": "= -\\cos 30°"
+      }
+     ]
+    },
+    {
+     "say": "Use the exact values you know for $45°$ and $30°$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\sin 135°}",
+       "r": "= \\frac{1}{\\sqrt{2}}"
+      },
+      {
+       "l": "\\hl{2}{\\cos 150°}",
+       "r": "= -\\frac{\\sqrt{3}}{2}"
+      }
+     ]
+    },
+    {
+     "say": "Add the two exact values. Write $\\frac{1}{\\sqrt{2}}$ as $\\frac{\\sqrt{2}}{2}$ so both terms have denominator $2$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\sin 135°} + \\hl{2}{\\cos 150°}",
+       "r": "= \\frac{1}{\\sqrt{2}} - \\frac{\\sqrt{3}}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{3}}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{\\sqrt{2} - \\sqrt{3}}{2}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-solve-basic",
+  "of": "b0878c05d8ef",
+  "title": "Solve sin θ = k, cos θ = k, tan θ = k in a range",
+  "show": "sine curve over 0 to 360° with the line y=-1/2 and the two intersections at 210° and 330°",
+  "example": {
+   "question": "Solve $2\\sin\\theta + 1 = 0$ for $0° \\le \\theta \\le 360°$.",
+   "final": "\\theta = 210°, \\; 330°",
+   "steps": [
+    {
+     "say": "Get $\\hl{1}{\\sin\\theta}$ on its own.",
+     "rows": [
+      {
+       "l": "2\\sin\\theta + 1",
+       "r": "= 0"
+      },
+      {
+       "l": "\\hl{1}{\\sin\\theta}",
+       "r": "= -\\frac{1}{2}"
+      }
+     ]
+    },
+    {
+     "say": "Ignore the minus sign for now and find the first-quadrant angle with $\\sin = \\frac{1}{2}$.",
+     "rows": [
+      {
+       "l": "\\sin^{-1}\\left(\\frac{1}{2}\\right)",
+       "r": "= 30°"
+      }
+     ]
+    },
+    {
+     "say": "$\\sin\\theta$ is negative, so $\\theta$ is in the third or fourth quadrant. Measure $30°$ from the $180°$ line and back from $360°$.",
+     "rows": [
+      {
+       "l": "\\theta",
+       "r": "= 180° + 30° = \\hl{2}{210°}"
+      },
+      {
+       "l": "\\theta",
+       "r": "= 360° - 30° = \\hl{3}{330°}"
+      },
+      {
+       "aside": "Both are between $0°$ and $360°$. Check: $2\\sin 210° + 1 = 0$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-graph",
+  "of": "d33676a6f8b0",
+  "title": "Graph sin, cos and tan",
+  "show": "cosine curve y=3cos x+1 over 0 to 2π with max 4, min -2, midline y=1 and period 2π marked",
+  "example": {
+   "question": "Sketch the graph of $f(x) = 3\\cos x + 1$ for $0 \\le x \\le 2\\pi$. Write down its period and its range.",
+   "final": "\\text{period } 2\\pi, \\; \\text{range } [-2, 4]",
+   "steps": [
+    {
+     "say": "$\\cos x$ stays between $-1$ and $1$. Multiply by $3$, then add $1$, to see how high and low $f(x)$ goes.",
+     "rows": [
+      {
+       "l": "-1",
+       "r": "\\le \\cos x \\le 1"
+      },
+      {
+       "l": "-3",
+       "r": "\\le 3\\cos x \\le 3"
+      },
+      {
+       "l": "\\hl{2}{-2}",
+       "r": "\\le 3\\cos x + 1 \\le \\hl{2}{4}"
+      }
+     ]
+    },
+    {
+     "say": "Multiplying by $3$ and adding $1$ do not change how often the wave repeats. $\\cos x$ repeats every $2\\pi$.",
+     "rows": [
+      {
+       "l": "\\text{Period}",
+       "r": "= \\hl{3}{2\\pi}"
+      }
+     ]
+    },
+    {
+     "say": "The maximum is at $x = \\hl{1}{0}$ and the minimum is at $x = \\hl{1}{\\pi}$. Put them in to find the heights.",
+     "rows": [
+      {
+       "l": "f(0)",
+       "r": "= 3\\cos 0 + 1 = \\hl{2}{4}"
+      },
+      {
+       "l": "f(\\pi)",
+       "r": "= 3\\cos \\pi + 1 = \\hl{2}{-2}"
+      },
+      {
+       "l": "f\\left(\\tfrac{\\pi}{2}\\right)",
+       "r": "= 3\\cos\\tfrac{\\pi}{2} + 1 = 1"
+      }
+     ]
+    },
+    {
+     "say": "Plot $(0, 4)$, $\\left(\\frac{\\pi}{2}, 1\\right)$, $(\\pi, -2)$ and mark the same shape back up to $(2\\pi, 4)$. Join them with one smooth wave.",
+     "rows": [
+      {
+       "aside": "Start at the top, $(0, 4)$. Go down through $\\left(\\frac{\\pi}{2}, 1\\right)$ to the bottom, $(\\pi, -2)$. Then climb back up to $(2\\pi, 4)$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-derive-1",
+  "of": "1a1bbe3452ee",
+  "title": "Derive formula 1: cos²A + sin²A = 1",
+  "show": "unit circle with point P at angle A and the right triangle with legs cos A and sin A",
+  "example": {
+   "question": "The point $P$ lies on the unit circle, at angle $A$ from the positive $x$-axis. Use the right-angled triangle formed by $P$ to prove that $\\cos^2 A + \\sin^2 A = 1$.",
+   "final": "\\cos^2 A + \\sin^2 A = 1",
+   "steps": [
+    {
+     "say": "Draw the unit circle, with centre $O$ and radius $1$. Put $P$ at angle $A$ and drop a vertical line from $P$ to the $x$-axis. That makes a right-angled triangle with hypotenuse $OP = 1$.",
+     "rows": [
+      {
+       "aside": "Hypotenuse $|OP| = 1$, because $P$ is on the unit circle."
+      }
+     ]
+    },
+    {
+     "say": "By definition, the coordinates of $P$ are $(\\cos A, \\sin A)$. So the horizontal side is $\\hl{1}{\\cos A}$ and the vertical side is $\\hl{2}{\\sin A}$.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "= \\hl{1}{\\cos A}"
+      },
+      {
+       "l": "y",
+       "r": "= \\hl{2}{\\sin A}"
+      }
+     ]
+    },
+    {
+     "say": "In a right-angled triangle, the squares of the two shorter sides add to the square of the hypotenuse. Write that with the sides from the last step.",
+     "rows": [
+      {
+       "l": "x^2 + y^2",
+       "r": "= |OP|^2"
+      },
+      {
+       "l": "\\hl{1}{\\cos A}^2 + \\hl{2}{\\sin A}^2",
+       "r": "= 1^2"
+      },
+      {
+       "l": "",
+       "r": "= 1"
+      }
+     ]
+    },
+    {
+     "say": "For an angle in another quadrant a coordinate is negative, but squaring removes the sign. The result holds for every $A$.",
+     "rows": [
+      {
+       "aside": "$\\cos^2 A + \\sin^2 A = 1$"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

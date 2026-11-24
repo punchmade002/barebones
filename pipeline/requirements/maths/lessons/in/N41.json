@@ -1,0 +1,906 @@
+[
+ {
+  "skill": {
+   "id": "geo-thm11",
+   "title": "Apply Theorem 11: Three parallel lines cutting equal segments on one transversal cut equal segments on any",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 11"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm11-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Three parallel lines cut two transversals, one at $A$, $B$, $C$ and the other at $D$, $E$, $F$.\n$|AB| = |BC|$ and $|DE| = 4.5$ cm.\nFind $|DF|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Theorem 11",
+      "lines": [
+       {
+        "text": "Three parallel lines cutting equal segments on one transversal cut equal segments on any transversal. $|AB| = |BC|$, so $|DE| = |EF|$."
+       },
+       {
+        "tex": "|EF| &= 4.5 \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "title": "Add the segments",
+      "lines": [
+       {
+        "tex": "|DF| &= |DE| + |EF|"
+       },
+       {
+        "tex": "&= 4.5 + 4.5"
+       },
+       {
+        "tex": "&= 9 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "9 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-thm11-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Three parallel lines cut two transversals, one at $A$, $B$, $C$ and the other at $D$, $E$, $F$.\n$|AB| = |BC|$, $|DE| = (x + 6)$ cm and $|EF| = (3x - 2)$ cm.\nFind the value of $x$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Theorem 11",
+      "lines": [
+       {
+        "text": "$|AB| = |BC|$, so the parallel lines cut equal segments on the other transversal: $|DE| = |EF|$."
+       },
+       {
+        "tex": "x + 6 &= 3x - 2"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "8 &= 2x"
+       },
+       {
+        "tex": "x &= 4"
+       }
+      ]
+     }
+    ],
+    "final": "x = 4"
+   },
+   {
+    "part": "practice-geo-thm11-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Three parallel lines cut two transversals. On one transversal they cut off $|AB| = |BC|$. On the other they meet it at $D$, $E$ and $F$, with $|DE| = (2x + 1)$ cm and $|EF| = (5x - 8)$ cm.\nFind $|DF|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Theorem 11",
+      "lines": [
+       {
+        "text": "$|AB| = |BC|$, so the parallel lines cut equal segments on the other transversal: $|DE| = |EF|$."
+       },
+       {
+        "tex": "2x + 1 &= 5x - 8"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "9 &= 3x"
+       },
+       {
+        "tex": "x &= 3"
+       }
+      ]
+     },
+     {
+      "title": "Find $|DF|$",
+      "lines": [
+       {
+        "tex": "|DE| &= 2(3) + 1"
+       },
+       {
+        "tex": "&= 7 \\text{ cm}"
+       },
+       {
+        "tex": "|DF| &= 7 + 7"
+       },
+       {
+        "tex": "&= 14 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "|DF| = 14 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q6#(b) Diagram and Given",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Draw the diagram",
+      "lines": [
+       {
+        "text": "Draw three parallel lines through $A$ and $D$, through $B$ and $E$, and through $C$ and $F$."
+       },
+       {
+        "text": "Draw one transversal cutting them at $A$, $B$, $C$ and another cutting them at $D$, $E$, $F$."
+       },
+       {
+        "text": "Mark $|AB|=|BC|$ with equal tick marks."
+       }
+      ]
+     },
+     {
+      "title": "State what is given and what is to be proved",
+      "lines": [
+       {
+        "text": "Given: $AD \\parallel BE \\parallel CF$, with $|AB|=|BC|$."
+       },
+       {
+        "text": "To prove: $|DE|=|EF|$."
+       }
+      ]
+     }
+    ],
+    "final": "|DE| = |EF|"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm12",
+   "title": "Apply Theorem 12: A line parallel to one side of a triangle divides the other two in the same ratio",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 12"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm12-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $DE \\parallel BC$.\n$|AD| = 6$ cm, $|DB| = 4$ cm and $|AE| = 9$ cm.\nFind $|EC|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "State the ratio (Theorem 12)",
+      "lines": [
+       {
+        "text": "$DE \\parallel BC$, so $DE$ divides $[AB]$ and $[AC]$ in the same ratio (Theorem 12)."
+       },
+       {
+        "tex": "\\frac{|AD|}{|DB|} &= \\frac{|AE|}{|EC|}"
+       },
+       {
+        "tex": "\\frac{6}{4} &= \\frac{9}{|EC|}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $|EC|$",
+      "lines": [
+       {
+        "tex": "6|EC| &= 36"
+       },
+       {
+        "tex": "|EC| &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "|EC| = 6 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-thm12-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $|AC| = 15$ cm.\nThe point $D$ is on $[AB]$ and $E$ is on $[AC]$ with $DE \\parallel BC$.\n$|AD| : |DB| = 4 : 6$.\nFind $|AE|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the ratio (Theorem 12)",
+      "lines": [
+       {
+        "text": "$DE \\parallel BC$, so $|AE| : |EC| = |AD| : |DB| = 4 : 6$ (Theorem 12)."
+       },
+       {
+        "text": "Let $|AE| = x$, so $|EC| = 15 - x$."
+       },
+       {
+        "tex": "\\frac{x}{15 - x} &= \\frac{4}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Cross-multiply and solve",
+      "lines": [
+       {
+        "tex": "6x &= 4(15 - x)"
+       },
+       {
+        "tex": "10x &= 60"
+       },
+       {
+        "tex": "x &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "|AE| = 6 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-thm12-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $D$ is a point on $[AB]$ and $E$ is a point on $[AC]$ with $DE \\parallel BC$.\n$|AD| = x$ cm, $|DB| = 4$ cm, $|AE| = 9$ cm and $|EC| = 6$ cm.\nFind the value of $x$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "State the ratio (Theorem 12)",
+      "lines": [
+       {
+        "text": "$DE \\parallel BC$, so $DE$ divides $[AB]$ and $[AC]$ in the same ratio (Theorem 12)."
+       },
+       {
+        "tex": "\\frac{|AD|}{|DB|} &= \\frac{|AE|}{|EC|}"
+       },
+       {
+        "tex": "\\frac{x}{4} &= \\frac{9}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "6x &= 36"
+       },
+       {
+        "tex": "x &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "x = 6"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q6#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find $|XY|$ by Pythagoras in the right-angled triangle $AXY$",
+      "lines": [
+       {
+        "tex": "|XY|^2 &= 4^2 + 3^2"
+       },
+       {
+        "tex": "&= 25"
+       },
+       {
+        "tex": "|XY| &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Find $|ZC|$",
+      "lines": [
+       {
+        "text": "$XY \\parallel BC$ and $XZ \\parallel AC$, so $XYCZ$ is a parallelogram and opposite sides are equal."
+       },
+       {
+        "tex": "|ZC| &= |XY| = 5"
+       }
+      ]
+     },
+     {
+      "title": "Use the parallel lines to find $|BZ|$",
+      "lines": [
+       {
+        "text": "$XZ \\parallel AC$ cuts $[BA]$ and $[BC]$ in the same ratio, so $|BZ| : |ZC| = |BX| : |XA|$."
+       },
+       {
+        "text": "Since $|AX| : |XB| = 1 : 2$ and $|AX| = 4$, we get $|XB| = 8$."
+       },
+       {
+        "tex": "\\frac{|BZ|}{5} &= \\frac{8}{4}"
+       },
+       {
+        "tex": "|BZ| &= 10"
+       }
+      ]
+     }
+    ],
+    "final": "|BZ| = 10 \\text{ cm}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm20",
+   "title": "Apply Theorem 20: Tangent is perpendicular to the radius at the point of contact (and converse)",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 20"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm20-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A circle has centre $O$. $P$ is a point outside the circle and $[PT]$ is a tangent to the circle at $T$.\n$|PT| = 15$ cm and $|OP| = 17$ cm.\nFind the radius of the circle.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use Theorem 20",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius at the point of contact, so $|\\angle OTP| = 90^\\circ$ and $[OP]$ is the hypotenuse of triangle $OTP$."
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras",
+      "lines": [
+       {
+        "tex": "|OT|^2 + |TP|^2 &= |OP|^2"
+       },
+       {
+        "tex": "r^2 + 15^2 &= 17^2"
+       },
+       {
+        "tex": "r^2 + 225 &= 289"
+       },
+       {
+        "tex": "r^2 &= 64"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A radius cannot be negative."
+       },
+       {
+        "tex": "r &= 8"
+       }
+      ]
+     }
+    ],
+    "final": "r = 8 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q9#(d)(i)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the radius as the height of triangle HSP",
+      "lines": [
+       {
+        "text": "A radius meets a tangent at $90^\\circ$, so the radius from $P$ to $[SH]$ is perpendicular to $[SH]$. It is the height of $\\triangle HSP$, with base $|SH| = 58$."
+       },
+       {
+        "tex": "\\text{Area} &= \\frac{1}{2}(58)(r)"
+       },
+       {
+        "tex": "&= 29r"
+       }
+      ]
+     }
+    ],
+    "final": "29r \\text{ m}^2"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q7#(a)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Draw BT parallel to KH",
+      "lines": [
+       {
+        "text": "$BK$ and $AH$ are both perpendicular to the tangent $HK$, so $BTHK$ has four right angles. It is a rectangle."
+       },
+       {
+        "tex": "|TH| &= |BK| = r"
+       },
+       {
+        "tex": "|BT| &= |HK| = 8r"
+       },
+       {
+        "tex": "|AT| &= 4r - r"
+       },
+       {
+        "tex": "&= 3r"
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras in the right-angled triangle ATB",
+      "lines": [
+       {
+        "text": "$|\\angle ATB| = 90^{\\circ}$, so the hypotenuse is $[AB]$."
+       },
+       {
+        "tex": "|AB|^2 &= |AT|^2 + |BT|^2"
+       },
+       {
+        "tex": "\\left(20\\sqrt{73}\\right)^2 &= (3r)^2 + (8r)^2"
+       },
+       {
+        "tex": "400 \\times 73 &= 9r^2 + 64r^2"
+       },
+       {
+        "tex": "29200 &= 73r^2"
+       },
+       {
+        "tex": "r^2 &= 400"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A radius cannot be negative."
+       },
+       {
+        "tex": "r &= 20"
+       }
+      ]
+     }
+    ],
+    "final": "r = 20 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q5#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Show triangle ODC is equilateral",
+      "lines": [
+       {
+        "text": "$|CD| = \\frac{1}{2}|AB|$ and $|OB|$ is a radius, which is half the diameter, so $|CD| = |OB|$."
+       },
+       {
+        "text": "$|OC|$ and $|OD|$ are also radii, so all three sides of $\\triangle ODC$ are equal."
+       },
+       {
+        "text": "An equilateral triangle has all angles $60^\\circ$, so $|\\angle ODC| = 60^\\circ$."
+       }
+      ]
+     },
+     {
+      "title": "Use the parallel lines",
+      "lines": [
+       {
+        "text": "$CD \\parallel AB$, so the alternate angles are equal."
+       },
+       {
+        "tex": "|\\angle AOD| &= |\\angle ODC| = 60^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle at A in triangle AOD",
+      "lines": [
+       {
+        "text": "$|OA| = |OD|$ (radii), so $\\triangle AOD$ is isosceles and its base angles are equal."
+       },
+       {
+        "tex": "|\\angle OAD| &= \\frac{180 - 60}{2}"
+       },
+       {
+        "tex": "&= 60^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the tangent",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius (diameter) at the point of contact, so $|\\angle ABE| = 90^\\circ$."
+       },
+       {
+        "text": "In $\\triangle ABE$ the angles add to $180^\\circ$, and $|\\angle BAE| = |\\angle OAD| = 60^\\circ$."
+       },
+       {
+        "tex": "|\\angle BEA| &= 180 - 90 - 60"
+       },
+       {
+        "tex": "&= 30^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle BEA| = 30^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-transformations",
+   "title": "Find images under translation, central symmetry, axial symmetry and rotation",
+   "level": "JC",
+   "input": "point/shape + transformation",
+   "output": "image; axes/centre of symmetry"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q2#(d)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the translation that takes U to V",
+      "lines": [
+       {
+        "tex": "U(4, 6) &\\to V(9, 7)"
+       },
+       {
+        "tex": "\\text{Horizontal move} &= 9 - 4 = 5"
+       },
+       {
+        "tex": "\\text{Vertical move} &= 7 - 6 = 1"
+       }
+      ]
+     },
+     {
+      "title": "Apply the same translation to Q",
+      "lines": [
+       {
+        "tex": "Q(1, 2) &\\to (1+5, 2+1)"
+       },
+       {
+        "tex": "S &= (6, 3)"
+       }
+      ]
+     }
+    ],
+    "final": "S = (6, 3)"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q4#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the translation that takes S to P",
+      "lines": [
+       {
+        "text": "$PQRS$ is a square, so $S \\to P$ is the same move as $R \\to Q$."
+       },
+       {
+        "tex": "S(-4, 11) &\\to P(2, 3)"
+       },
+       {
+        "text": "The $x$-co-ordinate goes up by $2 - (-4) = 6$ and the $y$-co-ordinate goes down by $11 - 3 = 8$."
+       }
+      ]
+     },
+     {
+      "title": "Apply the same translation to R",
+      "lines": [
+       {
+        "tex": "R(4, 17) &\\to (4 + 6,\\ 17 - 8)"
+       },
+       {
+        "tex": "&= (10, 9)"
+       }
+      ]
+     }
+    ],
+    "final": "Q(10, 9)"
+   },
+   {
+    "part": "practice-geo-transformations-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The translation that maps $P(-3, 4)$ onto $Q(2, -1)$ also maps $R(-5, -2)$ onto $S$.\nFind the co-ordinates of $S$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the translation that takes P to Q",
+      "lines": [
+       {
+        "tex": "P(-3, 4) &\\to Q(2, -1)"
+       },
+       {
+        "tex": "\\text{Horizontal move} &= 2 - (-3) = 5"
+       },
+       {
+        "tex": "\\text{Vertical move} &= -1 - 4 = -5"
+       }
+      ]
+     },
+     {
+      "title": "Apply the same translation to R",
+      "lines": [
+       {
+        "tex": "R(-5, -2) &\\to (-5 + 5,\\ -2 - 5)"
+       },
+       {
+        "tex": "S &= (0, -7)"
+       }
+      ]
+     }
+    ],
+    "final": "S = (0, -7)"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q1#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find L using the symmetry about the y-axis",
+      "lines": [
+       {
+        "text": "$L$ is the reflection of $M(9, 1)$ in the $y$-axis, so $L = (-9, 1)$."
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the length of LM",
+      "lines": [
+       {
+        "text": "$L$ and $M$ have the same $y$-value, so the length is the difference in $x$-values."
+       },
+       {
+        "tex": "|LM| &= 9 - (-9)"
+       },
+       {
+        "tex": "&= 18"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Write the equation of LM",
+      "lines": [
+       {
+        "text": "Every point on $LM$ has $y = 1$, so the horizontal line is $y = 1$."
+       }
+      ]
+     }
+    ],
+    "final": "|LM| = 18, \\quad y = 1"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "logic-terms-hl",
+   "title": "Use equivalence, \"if and only if\" and proof by contradiction",
+   "level": "HL",
+   "input": "statement",
+   "output": "equivalent form, iff statement, contradiction structure"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2023-higher-p2-q6#(a)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Decide whether the statement is true or false",
+      "lines": [
+       {
+        "text": "\"If and only if\" means the statement must work in both directions."
+       },
+       {
+        "text": "Vertically opposite angles are always equal, but equal angles need not be vertically opposite."
+       },
+       {
+        "text": "So the statement is false."
+       }
+      ]
+     },
+     {
+      "title": "Justify with a counter-example",
+      "lines": [
+       {
+        "text": "In an equilateral triangle all three angles are $60^\\circ$, so they are equal in size."
+       },
+       {
+        "text": "These angles are next to each other, not vertically opposite."
+       },
+       {
+        "text": "So equal angles are not always vertically opposite."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{False}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q6#(c)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Assume the opposite",
+      "lines": [
+       {
+        "text": "Assume that $O$ is inside the triangle $PQR$."
+       },
+       {
+        "text": "Join $P$ to $O$ and $Q$ to $O$."
+       }
+      ]
+     },
+     {
+      "title": "Bound the angle at the centre",
+      "lines": [
+       {
+        "text": "If $O$ is inside the triangle, $\\angle POQ$ is an angle inside triangle $POQ$, so it is less than a straight angle."
+       },
+       {
+        "tex": "|\\angle POQ| &< 180^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the angle at the circumference",
+      "lines": [
+       {
+        "text": "The angle at the centre is twice the angle at the circumference on the same arc $PQ$, so $|\\angle PRQ|$ is half of $|\\angle POQ|$."
+       },
+       {
+        "tex": "|\\angle PRQ| &= \\frac{1}{2}|\\angle POQ|"
+       },
+       {
+        "tex": "&< \\frac{1}{2}(180^\\circ) = 90^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "State the contradiction",
+      "lines": [
+       {
+        "text": "But the angle at $R$ is greater than $90^\\circ$. This contradicts the result above, so the assumption is false."
+       },
+       {
+        "text": "Therefore $O$ cannot be inside the triangle $PQR$."
+       }
+      ]
+     }
+    ],
+    "final": "O \\text{ cannot be inside triangle } PQR"
+   },
+   {
+    "part": "practice-logic-terms-hl-1",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by contradiction that there are no positive integers $a$ and $b$ such that $a^2 - b^2 = 2$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Assume the opposite",
+      "lines": [
+       {
+        "text": "Assume that there are positive integers $a$ and $b$ with the following property."
+       },
+       {
+        "tex": "a^2 - b^2 &= 2"
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "(a - b)(a + b) &= 2"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two factors",
+      "lines": [
+       {
+        "text": "The factors differ by an even number, so they are both even or both odd."
+       },
+       {
+        "tex": "(a + b) - (a - b) &= 2b"
+       },
+       {
+        "text": "The product is $2$, which is even, so the factors cannot both be odd. Both are therefore even."
+       }
+      ]
+     },
+     {
+      "title": "State the contradiction",
+      "lines": [
+       {
+        "text": "If both factors are even, their product is a multiple of $4$. But the product is $2$, which is not a multiple of $4$."
+       },
+       {
+        "text": "This is a contradiction, so the assumption is false. Therefore there are no such integers $a$ and $b$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{No such integers exist}"
+   },
+   {
+    "part": "practice-logic-terms-hl-2",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by contradiction that there are no positive integers $a$ and $b$ such that $a^2 - b^2 = 6$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Assume the opposite",
+      "lines": [
+       {
+        "text": "Assume that there are positive integers $a$ and $b$ with the following property."
+       },
+       {
+        "tex": "a^2 - b^2 &= 6"
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "(a - b)(a + b) &= 6"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two factors",
+      "lines": [
+       {
+        "text": "The factors differ by an even number, so they are both even or both odd."
+       },
+       {
+        "tex": "(a + b) - (a - b) &= 2b"
+       },
+       {
+        "text": "The product is $6$, which is even, so the factors cannot both be odd. Both are therefore even."
+       }
+      ]
+     },
+     {
+      "title": "State the contradiction",
+      "lines": [
+       {
+        "text": "If both factors are even, their product is a multiple of $4$. But the product is $6$, which is not a multiple of $4$."
+       },
+       {
+        "text": "This is a contradiction, so the assumption is false. Therefore there are no such integers $a$ and $b$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{No such integers exist}"
+   }
+  ]
+ }
+]

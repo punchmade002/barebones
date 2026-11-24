@@ -1,0 +1,273 @@
+[
+{"skill": "trig-prove-identity", "problems": [
+{"part": "maths-pp-2015-higher-p2-q5#(a)", "note": null,
+"legend": {"1": "the target, the right-hand side", "2": "tan written as sin over cos"},
+"steps": [
+{"ask": "What is tan(A + B) written in terms of sin(A + B) and cos(A + B)?", "title": "Write tan in terms of sin and cos",
+"lines": [{"tex": "\\tan(A+B) &= \\hl{2}{\\frac{\\sin(A+B)}{\\cos(A+B)}}"}]},
+{"ask": "Which compound angle formulae for sin(A + B) and cos(A + B) do you need here?", "title": "Expand the compound angle formulae",
+"lines": [
+{"text": "Use $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$ and $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$."},
+{"tex": "&= \\frac{\\sin A\\cos B+\\cos A\\sin B}{\\cos A\\cos B-\\sin A\\sin B}"}]},
+{"ask": "What would dividing the top and bottom by cos A cos B do to each term?", "title": "Divide top and bottom by $\\cos A\\cos B$",
+"lines": [{"tex": "&= \\frac{\\dfrac{\\sin A\\cos B}{\\cos A\\cos B}+\\dfrac{\\cos A\\sin B}{\\cos A\\cos B}}{\\dfrac{\\cos A\\cos B}{\\cos A\\cos B}-\\dfrac{\\sin A\\sin B}{\\cos A\\cos B}}"}]},
+{"ask": "Which terms cancel now, and what do the remaining fractions look like?", "title": "Cancel common factors",
+"lines": [{"tex": "&= \\frac{\\dfrac{\\sin A}{\\cos A}+\\dfrac{\\sin B}{\\cos B}}{1-\\dfrac{\\sin A}{\\cos A}\\cdot\\dfrac{\\sin B}{\\cos B}}"}]},
+{"ask": "What do you call sin A divided by cos A? Use that to rewrite the top and bottom.", "title": "Replace $\\frac{\\sin}{\\cos}$ by $\\tan$",
+"lines": [{"tex": "&= \\hl{1}{\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}}"}]}
+],
+"final": "\\tan(A+B) = \\hl{1}{\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}}",
+"graph": null},
+{"part": "practice-trig-prove-identity-2", "note": "Changed from the previous problem: the starting side is a ratio of 1 - tan²A and 1 + tan²A, and the target is cos 2A, so it finishes with a double angle formula instead of the compound angle ones. Same: rewrite tan as sin over cos, then simplify one side until it matches the other.",
+"legend": {"1": "the target, cos 2A", "2": "tan written as sin over cos (squared here)"},
+"steps": [
+{"ask": "How can you rewrite tan²A using sin A and cos A?", "title": "Write $\\tan A$ as $\\frac{\\sin A}{\\cos A}$",
+"lines": [{"tex": "\\frac{1 - \\tan^2 A}{1 + \\tan^2 A} &= \\frac{1 - \\hl{2}{\\dfrac{\\sin^2 A}{\\cos^2 A}}}{1 + \\hl{2}{\\dfrac{\\sin^2 A}{\\cos^2 A}}}"}]},
+{"ask": "What does multiplying the top and bottom by cos²A do to each small fraction inside?", "title": "Multiply top and bottom by $\\cos^2 A$",
+"lines": [{"tex": "&= \\frac{\\cos^2 A - \\sin^2 A}{\\cos^2 A + \\sin^2 A}"}]},
+{"ask": "Which identity turns cos²A + sin²A into a single number?", "title": "Use $\\cos^2 A + \\sin^2 A = 1$",
+"lines": [{"tex": "&= \\cos^2 A - \\sin^2 A"}]},
+{"ask": "Which double angle formula for cos 2A matches cos²A − sin²A?", "title": "Use the double angle formula",
+"lines": [
+{"text": "$\\hl{1}{\\cos 2A} = \\cos^2 A - \\sin^2 A$."},
+{"tex": "&= \\hl{1}{\\cos 2A}"}]}
+],
+"final": "\\dfrac{1 - \\tan^2 A}{1 + \\tan^2 A} = \\hl{1}{\\cos 2A}",
+"graph": null},
+{"part": "practice-trig-prove-identity-1", "note": "Changed from the previous problem: the first move is a sum-to-product formula on sin 3A + sin A, not a tan rewrite, so the tan colour is not used and only the target is marked. Same: transform one side step by step until it matches the other.",
+"legend": {"1": "the target, tan 2A"},
+"steps": [
+{"ask": "Which sum formula turns sin 3A + sin A into a product of two terms?", "title": "Sum-to-product on the numerator",
+"lines": [
+{"tex": "\\sin 3A + \\sin A &= 2\\sin\\left(\\frac{3A + A}{2}\\right)\\cos\\left(\\frac{3A - A}{2}\\right)"},
+{"tex": "&= 2\\sin 2A\\cos A"}]},
+{"ask": "Which cosine sum formula applies to cos 3A + cos A?", "title": "Sum-to-product on the denominator",
+"lines": [
+{"tex": "\\cos 3A + \\cos A &= 2\\cos\\left(\\frac{3A + A}{2}\\right)\\cos\\left(\\frac{3A - A}{2}\\right)"},
+{"tex": "&= 2\\cos 2A\\cos A"}]},
+{"ask": "Which factors appear in both the top and the bottom now, and can they cancel?", "title": "Divide and cancel",
+"lines": [
+{"tex": "\\frac{\\sin 3A + \\sin A}{\\cos 3A + \\cos A} &= \\frac{2\\sin 2A\\cos A}{2\\cos 2A\\cos A}"},
+{"tex": "&= \\frac{\\sin 2A}{\\cos 2A}"}]},
+{"ask": "What do you call sin 2A divided by cos 2A?", "title": "Write as a tangent",
+"lines": [{"tex": "&= \\hl{1}{\\tan 2A}"}]}
+],
+"final": "\\dfrac{\\sin 3A + \\sin A}{\\cos 3A + \\cos A} = \\hl{1}{\\tan 2A}",
+"graph": null}
+]},
+{"skill": "trig-pythag-identity", "problems": [
+{"part": "practice-trig-pythag-identity-1", "note": null,
+"legend": {"1": "the answer, cos A", "2": "the identity, cos²A + sin²A = 1, rearranged", "3": "the given ratio, squared"},
+"steps": [
+{"ask": "Which identity links cos²A and sin²A, and how would you rearrange it to get cos²A?", "title": "Use the identity",
+"lines": [
+{"tex": "\\cos^2 A &= \\hl{2}{1 - \\sin^2 A}"},
+{"tex": "&= 1 - \\hl{3}{\\left(\\frac{5}{13}\\right)^2}"},
+{"tex": "&= \\frac{144}{169}"}]},
+{"ask": "Taking a square root gives how many answers?", "title": "Take the square root",
+"lines": [{"tex": "\\cos A &= \\pm\\frac{12}{13}"}]},
+{"ask": "Which quadrant is A in, and what sign does cosine have there?", "title": "Choose the sign",
+"lines": [
+{"text": "In the second quadrant cosine is negative."},
+{"tex": "\\cos A &= \\hl{1}{-\\frac{12}{13}}"}]}
+],
+"final": "\\cos A = \\hl{1}{-\\frac{12}{13}}",
+"graph": null},
+{"part": "practice-trig-pythag-identity-3", "note": "Changed from the previous problem: the quadrant is now fourth, so the other ratio is negative, and the question asks for tan θ, which needs both sine and cosine. Same: use the identity to find the squared value, choose the sign from the quadrant, then finish.",
+"legend": {"1": "the answer, tan θ", "2": "the identity, sin²θ + cos²θ = 1, rearranged", "3": "the given ratio, squared"},
+"steps": [
+{"ask": "Which identity gives sin²θ from cos²θ, and what is cos θ given as?", "title": "Find sin² θ",
+"lines": [
+{"tex": "\\sin^2\\theta &= \\hl{2}{1 - \\cos^2\\theta}"},
+{"tex": "&= 1 - \\hl{3}{\\left(\\frac{4}{5}\\right)^2}"},
+{"tex": "&= \\frac{9}{25}"}]},
+{"ask": "In which quadrant is θ, and what sign does sine have there?", "title": "Choose the sign of sin θ",
+"lines": [
+{"text": "In the fourth quadrant sine is negative."},
+{"tex": "\\sin\\theta &= -\\frac{3}{5}"}]},
+{"ask": "What is tan θ in terms of sin θ and cos θ? Substitute your values.", "title": "Find tan θ",
+"lines": [
+{"tex": "\\tan\\theta &= \\frac{\\sin\\theta}{\\cos\\theta}"},
+{"tex": "&= \\frac{-3/5}{4/5}"},
+{"tex": "&= \\hl{1}{-\\frac{3}{4}}"}]}
+],
+"final": "\\tan\\theta = \\hl{1}{-\\frac{3}{4}}",
+"graph": null},
+{"part": "practice-trig-pythag-identity-2", "note": "Changed from the previous problem: there is no given ratio or quadrant, the job is simplifying a bracketed expression, and the identity only appears after expanding. It is the only remaining candidate and is mostly expansion, so the method is not the same. Same: finish with cos²θ + sin²θ = 1 to get a number.",
+"legend": {"1": "the answer", "2": "the identity, sin²θ + cos²θ = 1"},
+"steps": [
+{"ask": "What do the two brackets become when they are expanded?", "title": "Expand both brackets",
+"lines": [{"tex": "(\\sin\\theta + \\cos\\theta)^2 + (\\sin\\theta - \\cos\\theta)^2 &= \\sin^2\\theta + 2\\sin\\theta\\cos\\theta + \\cos^2\\theta + \\sin^2\\theta - 2\\sin\\theta\\cos\\theta + \\cos^2\\theta"}]},
+{"ask": "Which terms cancel, and what do the squared terms add up to?", "title": "Collect like terms",
+"lines": [
+{"tex": "&= 2\\sin^2\\theta + 2\\cos^2\\theta"},
+{"tex": "&= 2(\\hl{2}{\\sin^2\\theta + \\cos^2\\theta})"}]},
+{"ask": "Which identity does sin²θ + cos²θ match?", "title": "Use the identity",
+"lines": [
+{"text": "$\\hl{2}{\\sin^2\\theta + \\cos^2\\theta} = 1$."},
+{"tex": "&= \\hl{1}{2}"}]}
+],
+"final": "\\hl{1}{2}",
+"graph": null}
+]},
+{"skill": "trig-radians", "problems": [
+{"part": "practice-trig-radians-1", "note": null,
+"legend": {"1": "the angle in radians, 5π/12", "2": "the answer in degrees", "3": "the conversion factor 180/π"},
+"steps": [
+{"ask": "What number of degrees goes with π radians, and do you multiply the angle by the factor or divide by it?", "title": "Use the conversion factor",
+"lines": [
+{"text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\hl{3}{\\frac{180}{\\pi}}$."},
+{"tex": "\\hl{1}{\\frac{5\\pi}{12}} \\times \\hl{3}{\\frac{180}{\\pi}} &= \\frac{5 \\times 180}{12}"},
+{"tex": "&= \\hl{2}{75^\\circ}"}]}
+],
+"final": "\\hl{2}{75^\\circ}",
+"graph": null},
+{"part": "maths-pp-2023-higher-p2-q7#(e)(i)", "note": "Changed from the previous problem: this is an exam substitution into a cosine, so the radian angle is evaluated on the calculator rather than converted, and the conversion colour is not used. Same: put the given value into the formula in radian mode.",
+"legend": {"1": "the angle in radians inside the cosine", "2": "the answer, volume in litres"},
+"steps": [
+{"ask": "Which mode must the calculator be in before you evaluate the cosine of this angle?", "title": "Substitute t = 0.5 into V(t)",
+"lines": [
+{"text": "Set the calculator to radian mode."},
+{"tex": "V(0.5) &= 2 - 0.4\\cos\\left(\\hl{1}{\\frac{\\pi}{2} \\times 0.5}\\right)"},
+{"tex": "&= 2 - 0.4\\cos\\left(\\hl{1}{\\frac{\\pi}{4}}\\right)"},
+{"tex": "&= \\hl{2}{1.7172\\ldots}"},
+{"tex": "&\\approx \\hl{2}{1.717\\ \\text{litres}}"}]}
+],
+"final": "\\hl{2}{1.717\\ \\text{litres}}",
+"graph": null},
+{"part": "maths-pp-2021-higher-p2-q9#(b)(iii)", "note": "Changed from the previous problem: a larger angle, 120π × 6.67, inside a sine, with a voltage answer. Same: substitute the given value of t and evaluate in radian mode, with no conversion.",
+"legend": {"1": "the angle in radians inside the sine", "2": "the answer, voltage in volts"},
+"steps": [
+{"ask": "What value of t do you put into the formula, and does the angle inside the sine need any multiplying?", "title": "Substitute t = 6.67",
+"lines": [
+{"text": "Make sure the calculator is in radian mode."},
+{"tex": "V(6.67) &= 110\\sqrt{2}\\,\\sin(\\hl{1}{120\\pi \\times 6.67})"},
+{"tex": "&= \\hl{2}{147.95\\ldots}"}]}
+],
+"final": "\\hl{2}{147.95 \\text{ Volts}}",
+"graph": null}
+]},
+{"skill": "trig-solve-quadratic", "problems": [
+{"part": "practice-trig-solve-quadratic-1", "note": null,
+"legend": {"1": "a solved value of the ratio", "2": "the answer angles"},
+"steps": [
+{"ask": "Can this be factorised as a quadratic in cos θ? What two brackets multiply to give it?", "title": "Factorise",
+"lines": [
+{"tex": "2\\cos^2\\theta + \\cos\\theta - 1 &= 0"},
+{"tex": "(2\\cos\\theta - 1)(\\cos\\theta + 1) &= 0"}]},
+{"ask": "What value of cos θ makes each bracket equal to zero?", "title": "Solve each factor",
+"lines": [{"tex": "\\cos\\theta &= \\hl{1}{\\tfrac{1}{2}}\\quad\\text{or}\\quad\\cos\\theta = \\hl{1}{-1}"}]},
+{"ask": "In which quadrants is cosine positive, and in which is it negative?", "title": "Find the angles",
+"lines": [
+{"text": "$\\cos\\theta = \\hl{1}{\\tfrac{1}{2}}$: cosine is positive, so $\\theta = \\hl{2}{60^\\circ}$ or $360^\\circ - 60^\\circ = \\hl{2}{300^\\circ}$."},
+{"text": "$\\cos\\theta = \\hl{1}{-1}$: $\\theta = \\hl{2}{180^\\circ}$."}]}
+],
+"final": "\\theta = \\hl{2}{60^\\circ},\\ \\hl{2}{180^\\circ},\\ \\hl{2}{300^\\circ}",
+"graph": null},
+{"part": "practice-trig-solve-quadratic-2", "note": "Changed from the previous problem: the equation has sin²θ and cos θ, so the first step swaps sin²θ for 1 − cos²θ, and the solutions include the endpoints 0° and 360°. Same: factorise a quadratic in cos θ, then find the angles.",
+"legend": {"1": "a solved value of the ratio", "2": "the answer angles", "3": "the identity substitution for the squared term"},
+"steps": [
+{"ask": "The equation has sin²θ and cos θ together. Which identity can turn sin²θ into cos θ terms?", "title": "Replace $\\sin^2\\theta$",
+"lines": [
+{"text": "Use $\\sin^2\\theta = \\hl{3}{1 - \\cos^2\\theta}$."},
+{"tex": "2(\\hl{3}{1 - \\cos^2\\theta}) + 3\\cos\\theta - 3 &= 0"},
+{"tex": "2\\cos^2\\theta - 3\\cos\\theta + 1 &= 0"}]},
+{"ask": "Can 2cos²θ − 3cosθ + 1 be factorised into two brackets?", "title": "Factorise",
+"lines": [
+{"tex": "(2\\cos\\theta - 1)(\\cos\\theta - 1) &= 0"},
+{"tex": "\\cos\\theta &= \\hl{1}{\\tfrac{1}{2}}\\quad\\text{or}\\quad\\cos\\theta = \\hl{1}{1}"}]},
+{"ask": "For each value of cos θ, which angles between 0° and 360° have that cosine?", "title": "Find the angles",
+"lines": [
+{"text": "$\\cos\\theta = \\hl{1}{\\tfrac{1}{2}}$: $\\theta = \\hl{2}{60^\\circ}$ or $\\hl{2}{300^\\circ}$."},
+{"text": "$\\cos\\theta = \\hl{1}{1}$: $\\theta = \\hl{2}{0^\\circ}$ or $\\hl{2}{360^\\circ}$."}]}
+],
+"final": "\\theta = \\hl{2}{0^\\circ},\\ \\hl{2}{60^\\circ},\\ \\hl{2}{300^\\circ},\\ \\hl{2}{360^\\circ}",
+"graph": null},
+{"part": "practice-trig-solve-quadratic-3", "note": "Changed from the previous problem: the quadratic is now in sin θ, so the identity replaces cos²θ, and the root −2 must be rejected because sine cannot be −2. Same: factorise, then find the angles from the valid value.",
+"legend": {"1": "a solved value of the ratio", "2": "the answer angles", "3": "the identity substitution for the squared term"},
+"steps": [
+{"ask": "Which identity turns cos²θ into an expression in sin θ?", "title": "Replace $\\cos^2\\theta$",
+"lines": [
+{"text": "Use $\\cos^2\\theta = \\hl{3}{1 - \\sin^2\\theta}$."},
+{"tex": "2(\\hl{3}{1 - \\sin^2\\theta}) &= 3\\sin\\theta"},
+{"tex": "2\\sin^2\\theta + 3\\sin\\theta - 2 &= 0"}]},
+{"ask": "Can 2sin²θ + 3sinθ − 2 be factorised into two brackets?", "title": "Factorise",
+"lines": [
+{"tex": "(2\\sin\\theta - 1)(\\sin\\theta + 2) &= 0"},
+{"tex": "\\sin\\theta &= \\hl{1}{\\tfrac{1}{2}}\\quad\\text{or}\\quad\\sin\\theta = -2"}]},
+{"ask": "Can sin θ ever equal −2? What range can sine take?", "title": "Reject and solve",
+"lines": [
+{"text": "$\\sin\\theta = -2$ has no solution, since $-1 \\le \\sin\\theta \\le 1$."},
+{"text": "$\\sin\\theta = \\hl{1}{\\tfrac{1}{2}}$: sine is positive, so $\\theta = \\hl{2}{30^\\circ}$ or $180^\\circ - 30^\\circ = \\hl{2}{150^\\circ}$."}]}
+],
+"final": "\\theta = \\hl{2}{30^\\circ},\\ \\hl{2}{150^\\circ}",
+"graph": null}
+]},
+{"skill": "trig-sine-ambiguous", "problems": [
+{"part": "maths-pp-2024-higher-p2-q3#(c)", "note": null,
+"legend": {"1": "the answer angle θ", "2": "the known ratio, sin of the given angle over the opposite side", "3": "the value of sin θ"},
+"steps": [
+{"ask": "Which side is opposite the angle θ, and which side is opposite the 25° angle?", "title": "Set up the sine rule",
+"lines": [
+{"text": "$|MK|$ is opposite $\\angle KLM = 25^\\circ$, and $|ML|$ is opposite $\\theta = \\angle LKM$."},
+{"tex": "\\frac{\\sin\\theta}{|ML|} &= \\hl{2}{\\frac{\\sin|\\angle KLM|}{|MK|}}"},
+{"tex": "\\frac{\\sin\\theta}{45} &= \\hl{2}{\\frac{\\sin 25^\\circ}{15\\sqrt{3}}}"}]},
+{"ask": "How do you rearrange the sine rule to get sin θ on its own?", "title": "Solve for sin θ",
+"lines": [
+{"tex": "\\sin\\theta &= \\hl{2}{\\frac{45\\sin 25^\\circ}{15\\sqrt{3}}}"},
+{"tex": "&= \\hl{2}{\\frac{45(0.4226\\ldots)}{15\\sqrt{3}}}"},
+{"tex": "&= \\hl{3}{0.73196\\ldots}"}]},
+{"ask": "Between 0° and 180°, how many angles have this sine value?", "title": "Find both angles between 0° and 180°",
+"lines": [
+{"text": "Sine is positive in the 1st and 2nd quadrants, so there are two angles."},
+{"tex": "\\theta &= \\sin^{-1}(\\hl{3}{0.73196}) = 47.05^\\circ"},
+{"tex": "\\theta &= 180^\\circ - 47.05^\\circ = 132.95^\\circ"}]},
+{"ask": "What should you do with the decimal places, given the question asks for the nearest degree?", "title": "Round to the nearest degree",
+"lines": [{"tex": "\\theta &= \\hl{1}{47^\\circ} \\ \\text{or}\\ \\hl{1}{133^\\circ}"}]}
+],
+"final": "\\theta = \\hl{1}{47^\\circ} \\ \\text{or} \\ \\hl{1}{133^\\circ}",
+"graph": null},
+{"part": "practice-trig-sine-ambiguous-1", "note": "Changed from the previous problem: the sides are 10 and 7 and the given angle is 30°, so sin C comes out as an exact fraction, 5/7, with no decimal step. Same steps: sine rule, the two angles between 0° and 180°, then rounding.",
+"legend": {"1": "the answer angle θ", "2": "the known ratio, sin of the given angle over the opposite side", "3": "the value of sin θ"},
+"steps": [
+{"ask": "Which side is opposite angle C, and which side is opposite the 30° angle?", "title": "Set up the sine rule",
+"lines": [
+{"text": "$|AB|$ is opposite $\\angle ACB = C$, and $|BC|$ is opposite $\\angle BAC = 30^\\circ$."},
+{"tex": "\\frac{\\sin C}{10} &= \\hl{2}{\\frac{\\sin 30^\\circ}{7}}"}]},
+{"ask": "What is sin 30° equal to, and what does that do to the fraction?", "title": "Solve for $\\sin C$",
+"lines": [
+{"tex": "\\sin C &= \\hl{2}{\\frac{10\\sin 30^\\circ}{7}}"},
+{"tex": "&= \\hl{3}{\\frac{5}{7}}"}]},
+{"ask": "Between 0° and 180°, how many angles have a positive sine, and how do you find them?", "title": "Find both angles between $0^\\circ$ and $180^\\circ$",
+"lines": [
+{"text": "Sine is positive in the 1st and 2nd quadrants, so there are two angles."},
+{"tex": "C &= \\sin^{-1}(\\hl{3}{5/7}) = 45.58^\\circ"},
+{"tex": "C &= 180^\\circ - 45.58^\\circ = 134.42^\\circ"}]},
+{"ask": "How do you round each angle to the nearest whole degree?", "title": "Round to the nearest degree",
+"lines": [{"tex": "C &= \\hl{1}{46^\\circ} \\ \\text{or}\\ \\hl{1}{134^\\circ}"}]}
+],
+"final": "C = \\hl{1}{46^\\circ} \\ \\text{or}\\ \\hl{1}{134^\\circ}",
+"graph": null},
+{"part": "practice-trig-sine-ambiguous-2", "note": "Changed from the previous problem: the given angle is 25° again, but the sides are 12 and 8, so sin R is a decimal, 0.6339, not an exact fraction. Same steps: sine rule, the two angles between 0° and 180°, then rounding.",
+"legend": {"1": "the answer angle θ", "2": "the known ratio, sin of the given angle over the opposite side", "3": "the value of sin θ"},
+"steps": [
+{"ask": "Which side is opposite angle R, and which side is opposite the 25° angle?", "title": "Set up the sine rule",
+"lines": [
+{"text": "$|PQ|$ is opposite $\\angle PRQ = R$, and $|QR|$ is opposite $\\angle QPR = 25^\\circ$."},
+{"tex": "\\frac{\\sin R}{12} &= \\hl{2}{\\frac{\\sin 25^\\circ}{8}}"}]},
+{"ask": "What does sin R equal once you rearrange the sine rule? Work it out on a calculator.", "title": "Solve for $\\sin R$",
+"lines": [
+{"tex": "\\sin R &= \\hl{2}{\\frac{12\\sin 25^\\circ}{8}}"},
+{"tex": "&= \\hl{3}{0.633927\\ldots}"}]},
+{"ask": "Between 0° and 180°, how many angles have this sine value?", "title": "Find both angles between $0^\\circ$ and $180^\\circ$",
+"lines": [
+{"text": "Sine is positive in the 1st and 2nd quadrants, so there are two angles."},
+{"tex": "R &= \\sin^{-1}(\\hl{3}{0.6339}) = 39.34^\\circ"},
+{"tex": "R &= 180^\\circ - 39.34^\\circ = 140.66^\\circ"}]},
+{"ask": "How do you round each angle to the nearest whole degree?", "title": "Round to the nearest degree",
+"lines": [{"tex": "R &= \\hl{1}{39^\\circ} \\ \\text{or}\\ \\hl{1}{141^\\circ}"}]}
+],
+"final": "R = \\hl{1}{39^\\circ} \\ \\text{or}\\ \\hl{1}{141^\\circ}",
+"graph": null}
+]}
+]

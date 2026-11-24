@@ -1,0 +1,482 @@
+[
+ {
+  "skill": "geo-thm16",
+  "problems": [
+   {
+    "question": "In triangle $ABC$, $|BC| = 10$ cm and the perpendicular distance from $A$ to $BC$ is $6$ cm.\n$|AC| = 8$ cm.\nFind the perpendicular distance from $B$ to $AC$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the area using base $[BC]$",
+       "lines": [
+        {
+         "text": "Area is half the base times the perpendicular height."
+        },
+        {
+         "tex": "|\\triangle ABC| &= \\tfrac{1}{2}(10)(6)",
+         "sym": "Rational(1,2)*10*6"
+        },
+        {
+         "tex": "&= 30 \\text{ cm}^2",
+         "sym": "30"
+        }
+       ]
+      },
+      {
+       "title": "Use base $[AC]$ (Theorem 16)",
+       "lines": [
+        {
+         "text": "By Theorem 16, base × height is the same for every side, so the area is the same using $[AC]$ as base. Let $h$ be the height from $B$."
+        },
+        {
+         "tex": "\\tfrac{1}{2}(8)h &= 30",
+         "sym": "Eq(4*h, 30)",
+         "new": true
+        },
+        {
+         "tex": "4h &= 30",
+         "sym": "Eq(4*h, 30)"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $h$",
+       "lines": [
+        {
+         "tex": "h &= \\tfrac{30}{4}",
+         "sym": "Eq(h, Rational(30,4))"
+        },
+        {
+         "tex": "&= 7.5 \\text{ cm}",
+         "sym": "Eq(h, Rational(15,2))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "7.5 \\text{ cm}"
+    },
+    "finalSym": "Rational(15,2)",
+    "answerSym": "2*Rational(1,2)*10*6/8"
+   },
+   {
+    "question": "In triangle $PQR$, $|PQ| = 15$ cm and the perpendicular distance from $R$ to $PQ$ is $8$ cm.\nThe perpendicular distance from $P$ to $QR$ is $10$ cm.\nFind $|QR|$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the area using base $[PQ]$",
+       "lines": [
+        {
+         "tex": "|\\triangle PQR| &= \\tfrac{1}{2}(15)(8)",
+         "sym": "Rational(1,2)*15*8"
+        },
+        {
+         "tex": "&= 60 \\text{ cm}^2",
+         "sym": "60"
+        }
+       ]
+      },
+      {
+       "title": "Use base $[QR]$ (Theorem 16)",
+       "lines": [
+        {
+         "text": "By Theorem 16 the area is the same with $[QR]$ as base and height $10$. Let $q = |QR|$."
+        },
+        {
+         "tex": "\\tfrac{1}{2}(q)(10) &= 60",
+         "sym": "Eq(Rational(1,2)*q*10, 60)",
+         "new": true
+        },
+        {
+         "tex": "5q &= 60",
+         "sym": "Eq(5*q, 60)"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $q$",
+       "lines": [
+        {
+         "tex": "q &= 12 \\text{ cm}",
+         "sym": "Eq(q, 12)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|QR| = 12 \\text{ cm}"
+    },
+    "finalSym": "12",
+    "answerSym": "2*Rational(1,2)*15*8/10"
+   },
+   {
+    "question": "A triangular plot of land has an area of $54\\text{ m}^2$. One side of the plot is $9$ m long.\nFind the perpendicular distance from the opposite corner to this side.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the area using the $9$ m side as base",
+       "lines": [
+        {
+         "text": "By Theorem 16, any side can be the base. Let $h$ be the height to the $9$ m side."
+        },
+        {
+         "tex": "\\tfrac{1}{2}(9)h &= 54",
+         "sym": "Eq(Rational(1,2)*9*h, 54)",
+         "new": true
+        },
+        {
+         "tex": "9h &= 108",
+         "sym": "Eq(9*h, 108)"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $h$",
+       "lines": [
+        {
+         "tex": "h &= \\tfrac{108}{9}",
+         "sym": "Eq(h, Rational(108,9))"
+        },
+        {
+         "tex": "&= 12 \\text{ m}",
+         "sym": "Eq(h, 12)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "12 \\text{ m}"
+    },
+    "finalSym": "12",
+    "answerSym": "2*54/9"
+   }
+  ]
+ },
+ {
+  "skill": "geo-cor1",
+  "problems": [
+   {
+    "question": "$ABCD$ is a parallelogram.\n$|\\angle CAB| = 35^\\circ$ and $|\\angle ACB| = 70^\\circ$.\nFind $|\\angle ADC|$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $|\\angle ABC|$ in triangle $ABC$",
+       "lines": [
+        {
+         "text": "The angles of a triangle add to $180^\\circ$."
+        },
+        {
+         "tex": "|\\angle ABC| &= 180 - 35 - 70",
+         "sym": "180 - 35 - 70"
+        },
+        {
+         "tex": "&= 75^\\circ",
+         "sym": "75"
+        }
+       ]
+      },
+      {
+       "title": "Use Corollary 1",
+       "lines": [
+        {
+         "text": "The diagonal $[AC]$ divides the parallelogram into two congruent triangles, $ABC$ and $CDA$, with $B$ matching $D$."
+        },
+        {
+         "text": "So the angles at $B$ and $D$ are equal."
+        },
+        {
+         "tex": "|\\angle ADC| &= |\\angle ABC| = 75^\\circ",
+         "sym": "75",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "75^\\circ"
+    },
+    "finalSym": "75",
+    "answerSym": "180 - 35 - 70"
+   },
+   {
+    "question": "$PQRS$ is a parallelogram with $|PQ| = 8$ cm, $|QR| = 6$ cm and diagonal $|PR| = 10$ cm.\nFind the area of $PQRS$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the semi-perimeter of triangle $PQR$",
+       "lines": [
+        {
+         "tex": "s &= \\frac{8 + 6 + 10}{2}",
+         "sym": "(8 + 6 + 10)/2"
+        },
+        {
+         "tex": "&= 12",
+         "sym": "12"
+        }
+       ]
+      },
+      {
+       "title": "Find the area of triangle $PQR$",
+       "lines": [
+        {
+         "text": "Use Heron's formula."
+        },
+        {
+         "tex": "|\\triangle PQR| &= \\sqrt{12(12-8)(12-6)(12-10)}",
+         "sym": "sqrt(12*(12-8)*(12-6)*(12-10))"
+        },
+        {
+         "tex": "&= \\sqrt{576}",
+         "sym": "sqrt(576)"
+        },
+        {
+         "tex": "&= 24 \\text{ cm}^2",
+         "sym": "24"
+        }
+       ]
+      },
+      {
+       "title": "Use Corollary 1",
+       "lines": [
+        {
+         "text": "The diagonal $[PR]$ divides the parallelogram into two congruent triangles, so the parallelogram has twice the area of triangle $PQR$."
+        },
+        {
+         "tex": "|PQRS| &= 2 \\times 24",
+         "sym": "2*24"
+        },
+        {
+         "tex": "&= 48 \\text{ cm}^2",
+         "sym": "48"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "48 \\text{ cm}^2"
+    },
+    "finalSym": "48",
+    "answerSym": "2*Rational(1,2)*8*6*sin(acos(Rational(8**2 + 6**2 - 10**2, 2*8*6)))"
+   },
+   {
+    "question": "$ABCD$ is a parallelogram.\n$|\\angle BCA| = (2x + 10)^\\circ$ and $|\\angle DAC| = (3x - 20)^\\circ$.\nFind the value of $x$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Corollary 1",
+       "lines": [
+        {
+         "text": "The diagonal $[AC]$ divides the parallelogram into congruent triangles $ABC$ and $CDA$, with $C$ matching $A$."
+        },
+        {
+         "text": "So $|\\angle BCA| = |\\angle DAC|$."
+        },
+        {
+         "tex": "2x + 10 &= 3x - 20",
+         "sym": "Eq(2*x + 10, 3*x - 20)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "30 &= x",
+         "sym": "Eq(30, x)"
+        },
+        {
+         "tex": "x &= 30",
+         "sym": "Eq(x, 30)"
+        }
+       ]
+      },
+      {
+       "title": "Check",
+       "lines": [
+        {
+         "text": "Each angle is $70^\\circ$."
+        },
+        {
+         "tex": "2(30) + 10 &= 70",
+         "sym": "2*30 + 10",
+         "new": true
+        },
+        {
+         "tex": "3(30) - 20 &= 70",
+         "sym": "3*30 - 20",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 30"
+    },
+    "finalSym": "[30]",
+    "answerSym": "solve(Eq(2*x + 10, 3*x - 20), x)"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm11",
+  "problems": [
+   {
+    "question": "Three parallel lines cut two transversals, one at $A$, $B$, $C$ and the other at $D$, $E$, $F$.\n$|AB| = |BC|$ and $|DE| = 4.5$ cm.\nFind $|DF|$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 11",
+       "lines": [
+        {
+         "text": "Three parallel lines cutting equal segments on one transversal cut equal segments on any transversal. $|AB| = |BC|$, so $|DE| = |EF|$."
+        },
+        {
+         "tex": "|EF| &= 4.5 \\text{ cm}",
+         "sym": "Rational(9,2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Add the segments",
+       "lines": [
+        {
+         "tex": "|DF| &= |DE| + |EF|"
+        },
+        {
+         "tex": "&= 4.5 + 4.5",
+         "sym": "Rational(9,2) + Rational(9,2)",
+         "new": true
+        },
+        {
+         "tex": "&= 9 \\text{ cm}",
+         "sym": "9"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "9 \\text{ cm}"
+    },
+    "finalSym": "9",
+    "answerSym": "2*Rational(9,2)"
+   },
+   {
+    "question": "Three parallel lines cut two transversals, one at $A$, $B$, $C$ and the other at $D$, $E$, $F$.\n$|AB| = |BC|$, $|DE| = (x + 6)$ cm and $|EF| = (3x - 2)$ cm.\nFind the value of $x$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 11",
+       "lines": [
+        {
+         "text": "$|AB| = |BC|$, so the parallel lines cut equal segments on the other transversal: $|DE| = |EF|$."
+        },
+        {
+         "tex": "x + 6 &= 3x - 2",
+         "sym": "Eq(x + 6, 3*x - 2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "8 &= 2x",
+         "sym": "Eq(8, 2*x)"
+        },
+        {
+         "tex": "x &= 4",
+         "sym": "Eq(x, 4)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 4"
+    },
+    "finalSym": "[4]",
+    "answerSym": "solve(Eq(x + 6, 3*x - 2), x)"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm13",
+  "problems": [
+   {
+    "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $DE \\parallel BC$.\n$|AD| = 4$ cm, $|DB| = 2$ cm and $|DE| = 6$ cm.\nFind $|BC|$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Show the triangles are similar",
+       "lines": [
+        {
+         "text": "$DE \\parallel BC$, so $|\\angle ADE| = |\\angle ABC|$ (corresponding angles). Angle $A$ is common."
+        },
+        {
+         "text": "Triangles $ADE$ and $ABC$ are equiangular, so they are similar."
+        }
+       ]
+      },
+      {
+       "title": "Find $|AB|$",
+       "lines": [
+        {
+         "tex": "|AB| &= 4 + 2",
+         "sym": "4 + 2"
+        },
+        {
+         "tex": "&= 6 \\text{ cm}",
+         "sym": "6"
+        }
+       ]
+      },
+      {
+       "title": "Write the ratio of corresponding sides (Theorem 13)",
+       "lines": [
+        {
+         "text": "$D \\leftrightarrow B$ and $E \\leftrightarrow C$, so $[DE]$ corresponds to $[BC]$ and $[AD]$ to $[AB]$."
+        },
+        {
+         "tex": "\\frac{|BC|}{|DE|} &= \\frac{|AB|}{|AD|}"
+        },
+        {
+         "tex": "\\frac{|BC|}{6} &= \\frac{6}{4}",
+         "sym": "Eq(a/6, Rational(6,4))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $|BC|$",
+       "lines": [
+        {
+         "tex": "|BC| &= 6 \\times \\frac{6}{4}",
+         "sym": "Eq(a, 6*Rational(6,4))"
+        },
+        {
+         "tex": "&= 9 \\text{ cm}",
+         "sym": "Eq(a, 9)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "9 \\text{ cm}"
+    },
+    "finalSym": "9",
+    "answerSym": "6*(4 + 2)/4"
+   }
+  ]
+ }
+]

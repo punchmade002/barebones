@@ -1,0 +1,330 @@
+[
+ {
+  "skill": "geo-cor5",
+  "of": "c5568dc29b0c",
+  "title": "Apply Corollary 5: Opposite angles of a cyclic quadrilateral sum to 180°",
+  "show": "cyclic quadrilateral ABCD with opposite angles A and C marked",
+  "example": {
+   "question": "$ABCD$ is a cyclic quadrilateral. $|\\angle A| = (2x + 10)°$ and $|\\angle C| = (3x - 20)°$. Find $x$.",
+   "final": "x = 38",
+   "steps": [
+    {
+     "say": "$A$ and $C$ are opposite corners of a quadrilateral inscribed in a circle.",
+     "rows": [
+      {
+       "aside": "So Corollary 5 applies: opposite angles sum to $180°$."
+      }
+     ]
+    },
+    {
+     "say": "Add the two angles and set the total equal to $180$.",
+     "rows": [
+      {
+       "l": "(2x + 10) + (3x - 20)",
+       "r": "= 180"
+      },
+      {
+       "l": "5x - 10",
+       "r": "= 180"
+      }
+     ]
+    },
+    {
+     "say": "Add $10$ to both sides, then divide by $5$ to find $\\hl{1}{x}$.",
+     "rows": [
+      {
+       "l": "5x",
+       "r": "= 190"
+      },
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= 38"
+      },
+      {
+       "aside": "Check: $|\\angle A| = 86°$ and $|\\angle C| = 94°$. They add to $180°$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-prove-thm11",
+  "of": "c99037388fea",
+  "title": "Prove Theorem 11",
+  "show": "three parallel lines cutting transversal AC with AB=BC, and a second transversal with the construction line parallel to AC for the proof",
+  "example": {
+   "question": "Three parallel lines $AD$, $BE$ and $CF$ cut off equal segments on the transversal $AC$, so $|AB| = |BC|$. Prove that they cut off equal segments on any other transversal $DF$, so $|DE| = |EF|$.",
+   "final": "|DE| = |EF|",
+   "steps": [
+    {
+     "say": "Write down what you are given and what you must show, with a diagram.",
+     "rows": [
+      {
+       "aside": "Given: $AD \\parallel BE \\parallel CF$ and $|AB| = |BC|$."
+      },
+      {
+       "aside": "To prove: $|DE| = |EF|$."
+      }
+     ]
+    },
+    {
+     "say": "Draw through $A$ a line parallel to $DF$. It meets $BE$ at $B'$ and $CF$ at $C'$. Draw through $B'$ a line parallel to $DF$ too, meeting $CF$ at $F'$.",
+     "rows": [
+      {
+       "aside": "Construction: $AC' \\parallel DF$, and $B'F' \\parallel AC$ meeting $CF$ at $F'$."
+      }
+     ]
+    },
+    {
+     "say": "Both pairs of opposite sides are parallel, so the figure on $B'$ and $C$ is a parallelogram. Opposite sides of a parallelogram are equal.",
+     "rows": [
+      {
+       "aside": "$|B'F'| = |BC|$ (opposite sides in a parallelogram)."
+      },
+      {
+       "aside": "$|BC| = |AB|$ (given), so $|B'F'| = |AB|$."
+      }
+     ]
+    },
+    {
+     "say": "Look at the triangles $ABE'$ and $F'B'E'$ that meet at $E'$. Find two equal angles and one equal side.",
+     "rows": [
+      {
+       "aside": "$|\\angle BAE'| = |\\angle B'F'E'|$ (alternate angles)."
+      },
+      {
+       "aside": "$|\\angle AE'B'| = |\\angle F'E'B'|$ (vertically opposite angles)."
+      },
+      {
+       "aside": "So the triangles are congruent by **ASA**, and $|AE'| = |F'E'|$."
+      }
+     ]
+    },
+    {
+     "say": "$AE'$ and $DE$ are opposite sides of a parallelogram, and so are $F'E'$ and $FE$.",
+     "rows": [
+      {
+       "aside": "$|DE| = |AE'| = |F'E'| = |EF|$ (opposite sides in a parallelogram)."
+      },
+      {
+       "aside": "Hence $|DE| = |EF|$. Done."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-prove-thm12",
+  "of": "433f1f5903da",
+  "title": "Prove Theorem 12",
+  "show": "triangle ABC with XY parallel to BC cutting AB and AC, with the construction lines for the proof",
+  "example": {
+   "question": "In the triangle $ABC$, the line $XY$ is parallel to $BC$, with $X$ on $[AB]$ and $Y$ on $[AC]$. It cuts $[AB]$ in the ratio $|AX| : |XB| = 2 : 3$. Prove that $|AY| : |YC| = 2 : 3$.",
+   "final": "|AY| : |YC| = 2 : 3",
+   "steps": [
+    {
+     "say": "State the given, the claim, and draw the triangle with $XY \\parallel BC$.",
+     "rows": [
+      {
+       "aside": "Given: triangle $ABC$ with $XY \\parallel BC$ and $|AX| : |XB| = 2 : 3$."
+      },
+      {
+       "aside": "To prove: $|AY| : |YC| = 2 : 3$."
+      }
+     ]
+    },
+    {
+     "say": "The ratio is $2 : 3$, so split $[AB]$ into $2 + 3 = 5$ equal parts. Two parts lie along $[AX]$ and three along $[XB]$.",
+     "rows": [
+      {
+       "aside": "Each part has the same length, call it $m$."
+      },
+      {
+       "aside": "Construction: through each point of division draw a line parallel to $BC$."
+      }
+     ]
+    },
+    {
+     "say": "The new lines are parallel and cut equal segments on the transversal $AB$. By Theorem 11 they cut equal segments on any other transversal, so also on $[AC]$.",
+     "rows": [
+      {
+       "aside": "$[AC]$ is divided into 5 equal parts, 2 of them in $[AY]$ and 3 in $[YC]$."
+      }
+     ]
+    },
+    {
+     "say": "Let $k$ be the length of one part on $[AC]$. Then count parts in $[AY]$ and $[YC]$.",
+     "rows": [
+      {
+       "l": "|AY| : |YC|",
+       "r": "= 2k : 3k"
+      },
+      {
+       "l": "",
+       "r": "= 2 : 3"
+      },
+      {
+       "aside": "Hence $|AY| : |YC| = 2 : 3$. Done."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-prove-thm13",
+  "of": "7ff9a9d107f1",
+  "title": "Prove Theorem 13",
+  "show": "two equiangular triangles ABC and DEF with matching angles marked, one placed on the other for the proof",
+  "example": {
+   "question": "The triangles $ABC$ and $DEF$ are similar, with equal angles at $A$ and $D$, at $B$ and $E$, at $C$ and $F$. Prove that $\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|} = \\dfrac{|CA|}{|FD|}$.",
+   "final": "\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|} = \\dfrac{|CA|}{|FD|}",
+   "steps": [
+    {
+     "say": "Write down the given, the claim, and draw both triangles.",
+     "rows": [
+      {
+       "aside": "Given: triangles $ABC$ and $DEF$ with equal angles."
+      },
+      {
+       "aside": "To prove: $\\dfrac{|AB|}{|DE|} = \\dfrac{|AC|}{|DF|} = \\dfrac{|BC|}{|EF|}$."
+      }
+     ]
+    },
+    {
+     "say": "Place a copy of $DEF$ inside $ABC$. Put $E'$ on $[AB]$ with $|AE'| = |DE|$ and $F'$ on $[AC]$ with $|AF'| = |DF|$. Join $E'$ to $F'$.",
+     "rows": [
+      {
+       "aside": "Construction: $E'$ on $[AB]$ with $|AE'| = |DE|$, and $F'$ on $[AC]$ with $|AF'| = |DF|$."
+      }
+     ]
+    },
+    {
+     "say": "$AE'F'$ and $DEF$ have two equal sides and the angle between them equal (the angle at $A$ equals the angle at $D$).",
+     "rows": [
+      {
+       "aside": "$\\triangle AE'F'$ is congruent to $\\triangle DEF$. Reason: **SAS**."
+      }
+     ]
+    },
+    {
+     "say": "Congruent triangles have equal angles, so $|\\angle AE'F'| = |\\angle DEF| = |\\angle ABC|$. These are corresponding angles.",
+     "rows": [
+      {
+       "aside": "$E'F' \\parallel BC$. Reason: corresponding angles equal."
+      }
+     ]
+    },
+    {
+     "say": "A line parallel to one side divides the other two sides in the same ratio.",
+     "rows": [
+      {
+       "l": "\\frac{|AB|}{|AE'|}",
+       "r": "= \\frac{|AC|}{|AF'|}"
+      },
+      {
+       "aside": "But $|AE'| = |DE|$ and $|AF'| = |DF|$, so $\\dfrac{|AB|}{|DE|} = \\dfrac{|AC|}{|DF|}$."
+      },
+      {
+       "aside": "Repeat from the vertex $B$ to get $\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|}$. Done."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-cuts",
+  "of": "993ee78e0d25",
+  "title": "Solve a geometry \"cut\" with a reasoned account",
+  "show": "triangle ABC with D on AB and E on AC where angle ADE=angle ABC, similar triangles ADE and ABC marked",
+  "example": {
+   "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $|\\angle ADE| = |\\angle ABC|$. Given $|AD| = 4$, $|DB| = 2$ and $|DE| = 5$, prove that triangles $ADE$ and $ABC$ are similar, and find $|BC|$.",
+   "final": "|BC| = 7.5",
+   "steps": [
+    {
+     "say": "List what the diagram gives you and the claim to prove. Mark equal angles on it.",
+     "rows": [
+      {
+       "aside": "Given: $|\\angle ADE| = |\\angle ABC|$, $|AD| = 4$, $|AB| = 4 + 2 = 6$, $|DE| = 5$."
+      }
+     ]
+    },
+    {
+     "say": "Both triangles share the angle at $A$. It is the same angle in each, so it is equal.",
+     "rows": [
+      {
+       "aside": "$|\\angle DAE| = |\\angle BAC|$ (common angle)."
+      }
+     ]
+    },
+    {
+     "say": "Angles in a triangle sum to $180^\\circ$ (Theorem 4). Two angles equal means the third is equal.",
+     "rows": [
+      {
+       "aside": "$|\\angle AED| = |\\angle ACB|$ (Theorem 4)."
+      },
+      {
+       "aside": "So $\\triangle ADE$ and $\\triangle ABC$ are **similar**: all three angles equal."
+      }
+     ]
+    },
+    {
+     "say": "By Theorem 13, similar triangles have proportional sides. Match $DE$ with $BC$ and $AD$ with $AB$.",
+     "rows": [
+      {
+       "l": "\\frac{|BC|}{|DE|}",
+       "r": "= \\frac{|AB|}{|AD|}"
+      },
+      {
+       "l": "\\frac{|BC|}{5}",
+       "r": "= \\frac{6}{4}"
+      },
+      {
+       "l": "|BC|",
+       "r": "= 7.5"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-8",
+  "of": "3ad5be204978",
+  "title": "Construction 8: Line segment of given length on a given ray",
+  "show": "compass-and-straight-edge construction: ray from A with arc cutting off B at 5 cm, with arcs left visible",
+  "example": {
+   "question": "Draw a ray starting at $A$. Construct the point $B$ on the ray so that $|AB| = 5$ cm.",
+   "final": "|AB| = 5 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Place the compass point on $0$ on the ruler. Open the pencil to $5$ cm.",
+     "rows": [
+      {
+       "aside": "Do not change this setting until you have drawn the arc."
+      }
+     ]
+    },
+    {
+     "say": "Move the compass point to $A$. Swing the pencil so the arc crosses the ray.",
+     "rows": [
+      {
+       "aside": "Leave the arc on the page. It is the construction line."
+      }
+     ]
+    },
+    {
+     "say": "Label the crossing $B$.",
+     "rows": [
+      {
+       "aside": "$|AB| = 5$ cm."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

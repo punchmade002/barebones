@@ -1,0 +1,593 @@
+[
+ {
+  "skill": "sim-word-problem",
+  "what": {
+   "say": [
+    "You give it a story with two unknown amounts. It gives back two **equations**, the solution, and what the numbers mean.",
+    "The key idea: every sentence that states a total is one equation. Two unknowns need two such sentences."
+   ],
+   "in": "a verbal problem",
+   "out": "$a = ?,\\ c = ?$"
+  },
+  "how": {
+   "higher": "Higher level asked for it once, in 2022 Paper 2 Question 1(c), a 10-mark part: the numbers of boys and girls in a class had to be found from a probability before and after new students joined."
+  },
+  "example": {
+   "question": "2 adult tickets and 3 child tickets cost €36. 4 adult tickets and 1 child ticket cost €42.\nFind the price of an adult ticket and the price of a child ticket.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the two equations",
+      "say": "Let $\\hl{1}{a}$ be the price of an adult ticket and $\\hl{2}{c}$ the price of a child ticket, in euro. Each sentence gives one equation.",
+      "lines": [
+       {
+        "tex": "2a + 3c &= 36",
+        "sym": "Eq(2*a+3*c,36)",
+        "new": true
+       },
+       {
+        "tex": "4a + c &= 42",
+        "sym": "Eq(4*a+c,42)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Remove one unknown",
+      "say": "Multiply the second equation by $3$ so both equations have $3c$. Then subtract, and the $c$ terms cancel.",
+      "lines": [
+       {
+        "tex": "12a + 3c &= 126",
+        "sym": "Eq(12*a+3*c,126)",
+        "new": true
+       },
+       {
+        "tex": "(12a + 3c) - (2a + 3c) &= 126 - 36",
+        "sym": "Eq((12*a+3*c)-(2*a+3*c),126-36)",
+        "new": true
+       },
+       {
+        "tex": "10a &= 90",
+        "sym": "Eq(10*a,90)"
+       }
+      ]
+     },
+     {
+      "title": "Find the adult price",
+      "say": "Divide both sides by $10$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 9",
+        "sym": "Eq(a,9)"
+       }
+      ]
+     },
+     {
+      "title": "Find the child price",
+      "say": "Put $a = 9$ into the second equation and solve for $c$.",
+      "lines": [
+       {
+        "tex": "4(9) + c &= 42",
+        "sym": "Eq(4*9+c,42)",
+        "new": true
+       },
+       {
+        "tex": "36 + c &= 42",
+        "sym": "Eq(36+c,42)"
+       },
+       {
+        "tex": "\\hl{2}{c} &= 6",
+        "sym": "Eq(c,6)"
+       },
+       {
+        "text": "Check in the first equation: $2(9) + 3(6) = 18 + 18 = 36$. It works."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{adult } €\\hl{1}{9},\\ \\text{child } €\\hl{2}{6}"
+   },
+   "finalSym": "(9, 6)",
+   "answerSym": "linsolve([Eq(2*a+3*c,36), Eq(4*a+c,42)], (a, c)).args[0]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "The first two marks in the scheme are for the two equations, so write each one out clearly before you solve.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q1#(c)",
+       "quote": "Initial equation in"
+      },
+      {
+       "part": "maths-pp-2022-higher-p2-q1#(c)",
+       "quote": "Subsequent equation in"
+      }
+     ]
+    },
+    {
+     "tip": "Two correct linear equations in two unknowns already earn high partial credit, even if you do not finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q1#(c)",
+       "quote": "2 correct linear equations in 2"
+      }
+     ]
+    },
+    {
+     "tip": "If you find only one of the two unknowns, you lose a mark off full credit. Go on and find both.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q1#(c)",
+       "quote": "Finds one variable"
+      }
+     ]
+    },
+    {
+     "tip": "A verified answer is accepted: if you test numbers against the question and show the check works, that earns full marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q1#(c)",
+       "quote": "Accept verified correct answer"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "sim-linear-quadratic",
+  "what": {
+   "say": [
+    "You give it a line and a curve, a linear equation and a quadratic one in $x$ and $y$. It finds the points where they **meet**.",
+    "The key idea: use the linear equation to write one letter in terms of the other. Put that into the quadratic and you have one equation in one letter."
+   ],
+   "in": "linear + quadratic",
+   "out": "meeting points"
+  },
+  "how": {
+   "ordinary": "Ordinary level asks for it on Paper 1 in most years, as a part of its own, usually worth 15 marks: where a line meets a circle, or in 2015 where a line meets a curve."
+  },
+  "example": {
+   "question": "Solve the simultaneous equations:\n$x - y = 2$\n$x^2 + y^2 = 34$",
+   "level": "ordinary",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Isolate one letter",
+      "say": "Use the linear equation to write $x$ in terms of $y$.",
+      "lines": [
+       {
+        "tex": "x - y &= 2",
+        "sym": "Eq(x-y,2)",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{1}{y + 2}",
+        "sym": "Eq(x,y+2)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quadratic",
+      "say": "Replace $x$ with $\\hl{1}{y + 2}$ in the quadratic. Now there is only $y$. Multiply out and collect everything on one side.",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{y + 2})^2 + y^2 &= 34",
+        "sym": "Eq((y+2)**2+y**2,34)",
+        "new": true
+       },
+       {
+        "tex": "y^2 + 4y + 4 + y^2 &= 34",
+        "sym": "Eq(y**2+4*y+4+y**2,34)"
+       },
+       {
+        "tex": "2y^2 + 4y - 30 &= 0",
+        "sym": "Eq(2*y**2+4*y-30,0)"
+       },
+       {
+        "text": "Every term divides by 2. Do that first."
+       },
+       {
+        "tex": "y^2 + 2y - 15 &= 0",
+        "sym": "Eq(y**2+2*y-15,0)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for y",
+      "say": "Factorise and set each bracket equal to $0$.",
+      "lines": [
+       {
+        "tex": "(y + 5)(y - 3) &= 0",
+        "sym": "Eq((y+5)*(y-3),0)"
+       },
+       {
+        "tex": "\\hl{2}{y} &= -5",
+        "sym": "Eq(y,-5)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{y} &= 3",
+        "sym": "Eq(y,3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the matching x",
+      "say": "Each $y$ goes back into $x = y + 2$. This gives two points.",
+      "lines": [
+       {
+        "tex": "x &= -5 + 2",
+        "sym": "-5+2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{-3}",
+        "sym": "-3"
+       },
+       {
+        "tex": "x &= 3 + 2",
+        "sym": "3+2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{5}",
+        "sym": "5"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(\\hl{3}{-3}, \\hl{2}{-5}) \\text{ and } (\\hl{3}{5}, \\hl{2}{3})"
+   },
+   "finalSym": "[(-3, -5), (5, 3)]",
+   "answerSym": "solve([Eq(x-y,2), Eq(x**2+y**2,34)], [x, y])"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Start by isolating one letter. That step alone earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p1-q4#(b)",
+       "quote": "isolates one variable"
+      },
+      {
+       "part": "maths-pp-2021-ordinary-p1-q4#(b)",
+       "quote": "isolated"
+      }
+     ]
+    },
+    {
+     "tip": "Writing the equation in one letter after you substitute is worth mid partial credit, so write it out in full.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q2#(b)",
+       "quote": "or equivalent equation in one variable"
+      }
+     ]
+    },
+    {
+     "tip": "Finding one root of the quadratic earns high partial credit. Do not stop there: find the other root too.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q4#(b)",
+       "quote": "1 relevant value (root)"
+      },
+      {
+       "part": "maths-pp-2020-ordinary-p1-q2#(b)",
+       "quote": "1 relevant value (root)"
+      }
+     ]
+    },
+    {
+     "tip": "Finish by finding both pairs of co-ordinates. The last step in the scheme is finding the two co-ordinate sets.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q3#(c)",
+       "quote": "Finds the two co-ordinate sets"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "sim-linear-3",
+  "what": {
+   "say": [
+    "You give it three linear equations in $x$, $y$ and $z$. It finds the one **point** $(x, y, z)$ that fits all three.",
+    "The key idea: use the equations in pairs to remove the same letter twice. That leaves two equations in two letters, and you already know how to solve those."
+   ],
+   "in": "3 linear equations",
+   "out": "$(x, y, z)$"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 1 (2018, 2022 and 2024), in Question 1 or 2, as a part worth 10 or 15 marks. In 2022 the three equations came from an earlier part of the question."
+  },
+  "example": {
+   "question": "Solve the simultaneous equations:\n$x + y + z = 2$\n$2x - y + z = 3$\n$x + 3y - 2z = 10$",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Remove z from the first pair",
+      "say": "Subtract the first equation from the second. The $z$ terms cancel.",
+      "lines": [
+       {
+        "tex": "(2x - y + z) - (x + y + z) &= 3 - 2",
+        "sym": "Eq((2*x-y+z)-(x+y+z),3-2)",
+        "new": true
+       },
+       {
+        "tex": "x - 2y &= 1",
+        "sym": "Eq(x-2*y,1)"
+       }
+      ]
+     },
+     {
+      "title": "Remove z again",
+      "say": "Use the first and third equations. Double the first one, then add. The $z$ terms cancel again.",
+      "lines": [
+       {
+        "tex": "2(x + y + z) + (x + 3y - 2z) &= 2(2) + 10",
+        "sym": "Eq(2*(x+y+z)+(x+3*y-2*z),2*2+10)",
+        "new": true
+       },
+       {
+        "tex": "3x + 5y &= 14",
+        "sym": "Eq(3*x+5*y,14)"
+       }
+      ]
+     },
+     {
+      "title": "Solve the two equations",
+      "say": "Now there are two equations in $x$ and $y$. Write $x$ from the first and put it into the second.",
+      "lines": [
+       {
+        "tex": "x &= 1 + 2y",
+        "sym": "Eq(x,1+2*y)",
+        "new": true
+       },
+       {
+        "tex": "3(1 + 2y) + 5y &= 14",
+        "sym": "Eq(3*(1+2*y)+5*y,14)",
+        "new": true
+       },
+       {
+        "tex": "11y &= 11",
+        "sym": "Eq(11*y,11)"
+       },
+       {
+        "tex": "\\hl{2}{y} &= 1",
+        "sym": "Eq(y,1)"
+       },
+       {
+        "tex": "x &= 1 + 2(1)",
+        "sym": "1+2*1",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3}",
+        "sym": "3"
+       }
+      ]
+     },
+     {
+      "title": "Find z",
+      "say": "Put $x = 3$ and $y = 1$ into the first equation.",
+      "lines": [
+       {
+        "tex": "3 + 1 + z &= 2",
+        "sym": "Eq(3+1+z,2)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{z} &= -2",
+        "sym": "Eq(z,-2)"
+       },
+       {
+        "text": "Check in the second equation: $2(3) - 1 + (-2) = 3$. It works."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(\\hl{1}{3}, \\hl{2}{1}, \\hl{3}{-2})"
+   },
+   "finalSym": "(3, 1, -2)",
+   "answerSym": "linsolve([Eq(x+y+z,2), Eq(2*x-y+z,3), Eq(x+3*y-2*z,10)], (x, y, z)).args[0]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "The scheme counts three steps: two equations in the same two letters, then one equation in one letter, then all three values. Show each stage.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q1#(c)",
+       "quote": "Arrives at 2 equations in the same 2"
+      }
+     ]
+    },
+    {
+     "tip": "Matching the coefficients of one letter in two equations already earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q1#(a)",
+       "quote": "Matches coefficient of 1 variable in 2"
+      }
+     ]
+    },
+    {
+     "tip": "Eliminating one unknown earns mid partial credit, so show that step even if the arithmetic goes wrong later.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q1#(a)",
+       "quote": "Eliminates one unknown"
+      }
+     ]
+    },
+    {
+     "tip": "Substitution is also accepted: write one letter in terms of the other two, then a second letter in terms of one.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q2#(b)(ii)",
+       "quote": "Writes one variable in terms of the"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "sim-linear-quadratic-hl",
+  "what": {
+   "say": [
+    "You give it a linear equation and a quadratic equation in $x$ and $y$, where the quadratic can have an $xy$ term and any coefficients. It finds the points where they **meet**.",
+    "The key idea is the same as before: write one letter from the linear equation and substitute. The quadratic that results may need the formula."
+   ],
+   "in": "linear + quadratic",
+   "out": "meeting points"
+  },
+  "how": {
+   "higher": "Higher level asked for it once, in 2016 Paper 1 Question 2(b), a 15-mark part: a line and a quadratic equation with an $xy$ term, where either letter could be isolated."
+  },
+  "example": {
+   "question": "Solve the simultaneous equations:\n$2x + y = 3$\n$x^2 + xy + y^2 = 3$",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Isolate one letter",
+      "say": "The linear equation has $y$ with coefficient $1$. Write $y$ in terms of $x$.",
+      "lines": [
+       {
+        "tex": "2x + y &= 3",
+        "sym": "Eq(2*x+y,3)",
+        "new": true
+       },
+       {
+        "tex": "y &= \\hl{1}{3 - 2x}",
+        "sym": "Eq(y,3-2*x)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quadratic",
+      "say": "Replace every $y$ with $\\hl{1}{3 - 2x}$. Multiply out and collect everything on one side.",
+      "lines": [
+       {
+        "tex": "x^2 + x(\\hl{1}{3 - 2x}) + (\\hl{1}{3 - 2x})^2 &= 3",
+        "sym": "Eq(x**2+x*(3-2*x)+(3-2*x)**2,3)",
+        "new": true
+       },
+       {
+        "tex": "3x^2 - 9x + 9 &= 3",
+        "sym": "Eq(3*x**2-9*x+9,3)"
+       },
+       {
+        "tex": "3x^2 - 9x + 6 &= 0",
+        "sym": "Eq(3*x**2-9*x+6,0)"
+       },
+       {
+        "text": "Every term divides by 3. Do that first."
+       },
+       {
+        "tex": "x^2 - 3x + 2 &= 0",
+        "sym": "Eq(x**2-3*x+2,0)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Factorise. If it does not factorise, use the formula instead.",
+      "lines": [
+       {
+        "tex": "(x - 1)(x - 2) &= 0",
+        "sym": "Eq((x-1)*(x-2),0)"
+       },
+       {
+        "tex": "\\hl{2}{x} &= 1",
+        "sym": "Eq(x,1)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{x} &= 2",
+        "sym": "Eq(x,2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the matching y",
+      "say": "Put each $x$ into $y = 3 - 2x$.",
+      "lines": [
+       {
+        "tex": "y &= 3 - 2(1)",
+        "sym": "3-2*1",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{1}",
+        "sym": "1"
+       },
+       {
+        "tex": "y &= 3 - 2(2)",
+        "sym": "3-2*2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{-1}",
+        "sym": "-1"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(\\hl{2}{1}, \\hl{3}{1}) \\text{ and } (\\hl{2}{2}, \\hl{3}{-1})"
+   },
+   "finalSym": "[(1, 1), (2, -1)]",
+   "answerSym": "solve([Eq(2*x+y,3), Eq(x**2+x*y+y**2,3)], [x, y])"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Start by isolating x or y. Even the effort to do so earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q2#(b)",
+       "quote": "effort to isolate"
+      }
+     ]
+    },
+    {
+     "tip": "A fully correct substitution into the quadratic earns high partial credit, so take care to substitute into every term.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q2#(b)",
+       "quote": "fully correct substitution into quadratic"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

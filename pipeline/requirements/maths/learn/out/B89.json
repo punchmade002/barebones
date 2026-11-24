@@ -1,0 +1,401 @@
+[
+ {
+  "skill": "trig-derive-7",
+  "what": {
+   "say": [
+    "You give it formula 4, $\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$. It builds a new formula from it, $\\sin(A+B)$, and shows where it comes from.",
+    "The key idea is that a sine is a cosine of the **complement**: $\\sin\\theta=\\cos(90^\\circ-\\theta)$. Turn the sine into a cosine, then use formula 4."
+   ],
+   "in": "$\\cos(A-B)$ formula",
+   "out": "$\\sin(A+B)$ formula"
+  },
+  "how": {
+   "higher": "On Paper 2 it came up once, in 2023, as a 10-mark part of its own: derive $\\sin(A+B)$, then use it to find an exact value such as $\\sin 75^\\circ$."
+  },
+  "example": {
+   "question": "Using $\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$, show that $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn sine into cosine",
+      "say": "A sine is the cosine of the complement. Write $\\sin(A+B)$ as $\\cos\\big(90^\\circ-(A+B)\\big)$, then group it so it looks like $\\cos(X-Y)$.",
+      "lines": [
+       {
+        "tex": "\\sin(A+B) &= \\cos\\big(90^\\circ-(A+B)\\big)",
+        "sym": "cos(pi/2-(A+B))",
+        "new": true
+       },
+       {
+        "tex": "&= \\cos\\big(\\hl{1}{(90^\\circ-A)}-\\hl{2}{B}\\big)",
+        "sym": "cos((pi/2-A)-B)"
+       }
+      ]
+     },
+     {
+      "title": "Use formula 4",
+      "say": "This has the shape $\\cos(X-Y)$ with $X=\\hl{1}{90^\\circ-A}$ and $Y=\\hl{2}{B}$. Write out formula 4 with those two angles.",
+      "lines": [
+       {
+        "tex": "&= \\cos(\\hl{1}{90^\\circ-A})\\cos\\hl{2}{B}+\\sin(\\hl{1}{90^\\circ-A})\\sin\\hl{2}{B}",
+        "sym": "cos(pi/2-A)*cos(B)+sin(pi/2-A)*sin(B)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify each factor",
+      "say": "Use $\\cos(90^\\circ-A)=\\sin A$ and $\\sin(90^\\circ-A)=\\cos A$.",
+      "lines": [
+       {
+        "tex": "&= \\sin A\\cos B+\\cos A\\sin B",
+        "sym": "sin(A)*cos(B)+cos(A)*sin(B)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B"
+   },
+   "finalSym": "0",
+   "answerSym": "sin(A+B)-(sin(A)*cos(B)+cos(A)*sin(B))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Do not rely on trying numbers. Checking the formula for one pair of angles earns only low partial credit, so derive it for general $A$ and $B$.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q2#(a)",
+       "quote": "Verified with one or more values"
+      }
+     ]
+    },
+    {
+     "tip": "Start by writing formula 4 down. Just stating it is work of merit and gets you on the scale.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q2#(a)",
+       "quote": "Work of merit, for example, cos("
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-derive-6",
+  "what": {
+   "say": [
+    "You give it formula 5, $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$. It gives back a formula for the **double angle**, $\\cos 2A$.",
+    "The key idea is that $2A$ is just $A+A$. Put $B=A$ into formula 5 and tidy up."
+   ],
+   "in": "$\\cos(A+B)$ formula",
+   "out": "$\\cos 2A$ formula"
+  },
+  "how": {
+   "higher": "On Paper 2 it came up in 2021, as a 10-mark part of its own: show that $\\cos 2A=\\cos^2 A-\\sin^2 A$, then use the result to find $\\cos\\theta$ from a given value of $\\sin\\frac{\\theta}{2}$."
+  },
+  "example": {
+   "question": "Using $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$, show that $\\cos 2A=2\\cos^2 A-1$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Make the angle a sum",
+      "say": "$2A$ is $A+A$. Write $\\cos 2A$ as $\\cos(A+A)$ so formula 5 applies, with $B=A$.",
+      "lines": [
+       {
+        "tex": "\\cos 2A &= \\cos(A+A)",
+        "sym": "cos(A+A)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use formula 5",
+      "say": "Put $B=A$ into formula 5. Every $B$ becomes an $A$.",
+      "lines": [
+       {
+        "tex": "&= \\cos A\\cos A-\\sin A\\sin A",
+        "sym": "cos(A)*cos(A)-sin(A)*sin(A)"
+       },
+       {
+        "tex": "&= \\hl{1}{\\cos^2 A}-\\hl{2}{\\sin^2 A}",
+        "sym": "cos(A)**2-sin(A)**2"
+       }
+      ]
+     },
+     {
+      "title": "Remove the sine",
+      "say": "The target has only cosines. Replace $\\hl{2}{\\sin^2 A}$ with $1-\\cos^2 A$, since $\\sin^2 A+\\cos^2 A=1$.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{\\cos^2 A}-(1-\\cos^2 A)",
+        "sym": "cos(A)**2-(1-cos(A)**2)"
+       },
+       {
+        "tex": "&= 2\\cos^2 A-1",
+        "sym": "2*cos(A)**2-1"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\cos 2A=2\\cos^2 A-1"
+   },
+   "finalSym": "0",
+   "answerSym": "cos(2*A)-(2*cos(A)**2-1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the substitution. Writing $\\cos(A+A)$ with $B=A$ put in is high partial credit, so do not jump to the answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q4#(a)(i)",
+       "quote": "High Partial Credit:"
+      }
+     ]
+    },
+    {
+     "tip": "Testing the formula with a value of $A$ earns only low partial credit. Derive it for a general $A$.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q4#(a)(i)",
+       "quote": "Tested with one or more values of"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-derive-9",
+  "what": {
+   "say": [
+    "You give it formulae 5 and 7, the expansions of $\\cos(A+B)$ and $\\sin(A+B)$. It gives back a formula for $\\tan(A+B)$ in terms of $\\tan A$ and $\\tan B$.",
+    "The key idea is $\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}$. Write $\\tan(A+B)$ as a fraction, expand top and bottom, then divide every term by $\\cos A\\cos B$."
+   ],
+   "in": "formulae 5 and 7",
+   "out": "$\\tan(A+B)$ formula"
+  },
+  "how": {},
+  "example": {
+   "question": "Using $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$ and $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$, show that $\\tan 2A=\\dfrac{2\\tan A}{1-\\tan^2 A}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write tan as a fraction",
+      "say": "Tangent is sine over cosine, and $2A=A+A$. Write $\\tan 2A$ as $\\dfrac{\\sin(A+A)}{\\cos(A+A)}$.",
+      "lines": [
+       {
+        "tex": "\\tan 2A &= \\frac{\\sin(A+A)}{\\cos(A+A)}",
+        "sym": "sin(A+A)/cos(A+A)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand top and bottom",
+      "say": "Use formula 7 on the top and formula 5 on the bottom, with $B=A$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\sin A\\cos A+\\cos A\\sin A}{\\cos A\\cos A-\\sin A\\sin A}",
+        "sym": "(sin(A)*cos(A)+cos(A)*sin(A))/(cos(A)*cos(A)-sin(A)*sin(A))"
+       },
+       {
+        "tex": "&= \\frac{2\\sin A\\cos A}{\\cos^2 A-\\sin^2 A}",
+        "sym": "2*sin(A)*cos(A)/(cos(A)**2-sin(A)**2)"
+       }
+      ]
+     },
+     {
+      "title": "Divide by cos squared A",
+      "say": "The answer has only tangents. Divide the top and the bottom by $\\hl{1}{\\cos^2 A}$, so that each $\\dfrac{\\sin A}{\\cos A}$ becomes $\\tan A$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\dfrac{2\\sin A\\cos A}{\\hl{1}{\\cos^2 A}}}{\\dfrac{\\cos^2 A}{\\hl{1}{\\cos^2 A}}-\\dfrac{\\sin^2 A}{\\hl{1}{\\cos^2 A}}}",
+        "sym": "(2*sin(A)*cos(A)/cos(A)**2)/(cos(A)**2/cos(A)**2-sin(A)**2/cos(A)**2)"
+       },
+       {
+        "tex": "&= \\frac{2\\tan A}{1-\\tan^2 A}",
+        "sym": "2*tan(A)/(1-tan(A)**2)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\tan 2A=\\dfrac{2\\tan A}{1-\\tan^2 A}"
+   },
+   "finalSym": "0",
+   "answerSym": "tan(2*A)-2*tan(A)/(1-tan(A)**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-ratios-right",
+  "what": {
+   "say": [
+    "You give it a right-angled triangle with an angle and a side, or two sides. It finds a **missing side** or a missing angle.",
+    "Name the sides from the angle you are using: opposite, adjacent, hypotenuse. Then pick the ratio, sine, cosine or tangent, that uses the two sides you are working with."
+   ],
+   "in": "right triangle: two known parts",
+   "out": "missing side or angle"
+  },
+  "how": {
+   "higher": "On Paper 2 it is a step inside bigger Section B questions on circles, bearings and real settings, worth 5 to 10 marks a part, and it came up in every year from 2015 to 2025.",
+   "ordinary": "On Paper 2 it is a part of its own, 5 to 10 marks, in most years from 2015 to 2025, usually in a real setting such as a ladder, a ramp or a slope."
+  },
+  "example": {
+   "question": "A ladder 6 m long leans against a vertical wall. The foot of the ladder is 2 m from the wall. Find the angle the ladder makes with the ground. Give your answer correct to one decimal place.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name the sides",
+      "say": "The angle $A$ is at the foot of the ladder. The ladder is the **hypotenuse**, and the 2 m along the ground is **adjacent** to $A$.",
+      "lines": [
+       {
+        "text": "Known: adjacent $=2$, hypotenuse $=6$."
+       }
+      ]
+     },
+     {
+      "title": "Choose the ratio",
+      "say": "Adjacent and hypotenuse go together in **cosine**. Write the ratio and put in the numbers.",
+      "lines": [
+       {
+        "tex": "\\cos A &= \\frac{\\text{adjacent}}{\\text{hypotenuse}}",
+        "sym": "cos(A)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{2}{6}",
+        "sym": "Rational(2,6)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1}{3}",
+        "sym": "Rational(1,3)"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle",
+      "say": "Use inverse cosine to get the angle from its cosine. Make sure the calculator is in degree mode.",
+      "lines": [
+       {
+        "tex": "A &= \\cos^{-1}\\left(\\frac{1}{3}\\right)",
+        "sym": "acos(Rational(1,3))*180/pi",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{70.5^\\circ}",
+        "sym": "70.5",
+        "approx": true,
+        "new": true
+       },
+       {
+        "text": "Check: $70.5^\\circ$ is between $0^\\circ$ and $90^\\circ$, as it must be."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "70.5^\\circ"
+   },
+   "finalSym": "70.5",
+   "answerSym": "acos(Rational(2,6))*180/pi"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Outfit\" font-size=\"16\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"2\"><path d=\"M60 190 L230 190 L230 30 Z\"/><path d=\"M218 190 V178 H230\"/><path d=\"M92 190 A32 32 0 0 0 87 173\"/><g fill=\"#1A1916\" stroke=\"none\"><text x=\"104\" y=\"180\">A</text><text x=\"135\" y=\"212\">2 m</text><text x=\"236\" y=\"115\">h</text><text x=\"118\" y=\"100\">6 m</text></g></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Check the calculator is in degree mode. A wrong mode costs marks even when the method is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q9#(c)(ii)",
+       "quote": "Calculator in incorrect mode,"
+      }
+     ]
+    },
+    {
+     "tip": "Write the ratio, then put the numbers in before you calculate. Marks are given for the formula with some substitution and again for full substitution.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q7#(f)",
+       "quote": "Tan formula with some substitution"
+      },
+      {
+       "part": "maths-pp-2021-higher-p2-q7#(f)",
+       "quote": "Tan formula with full substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Mark the angle and the sides on the diagram. Relevant work on the diagram earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q7#(f)",
+       "quote": "Relevant work on the diagram, for"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Check the calculator is in degree mode. Radian or gradian mode gives a wrong answer, and it costs marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q8#(b)(i)",
+       "quote": "Incorrect calculator mode but"
+      },
+      {
+       "part": "maths-pp-2021-ordinary-p2-q9#(a)(iii)",
+       "quote": "Incorrect calculator mode but otherwise"
+      }
+     ]
+    },
+    {
+     "tip": "Write the trigonometric ratio first, then put the numbers in. Each stage earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q8#(b)(i)",
+       "quote": "Fully substituted trigonometric ratio"
+      },
+      {
+       "part": "maths-pp-2021-ordinary-p2-q9#(a)(iii)",
+       "quote": "Correct trigonometric ratio or relevant"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question asks and give the unit. Each slip loses a mark from an otherwise full answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q2#(a)(ii)",
+       "quote": "Apply a * for no or incorrect rounding"
+      },
+      {
+       "part": "maths-pp-2025-ordinary-p2-q2#(a)(ii)",
+       "quote": "Apply a * for no units"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

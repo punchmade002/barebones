@@ -1,0 +1,592 @@
+[
+ {
+  "skill": {
+   "id": "cx-polar",
+   "title": "Convert between rectangular and polar form",
+   "level": "HL",
+   "input": "a + bi",
+   "output": "r(cos θ + i sin θ), θ in correct quadrant"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p1-q5#(b)(i)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the modulus r",
+      "lines": [
+       {
+        "tex": "r = |v| &= \\sqrt{2^2 + (2\\sqrt{3})^2}"
+       },
+       {
+        "tex": "&= \\sqrt{4 + 12}"
+       },
+       {
+        "tex": "&= 4"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument",
+      "lines": [
+       {
+        "text": "$v = 2 - 2\\sqrt{3}\\,i$ is in the fourth quadrant (real part positive, imaginary part negative)."
+       },
+       {
+        "tex": "\\tan\\alpha &= \\frac{2\\sqrt{3}}{2} = \\sqrt{3}"
+       },
+       {
+        "tex": "\\alpha &= \\frac{\\pi}{3}"
+       },
+       {
+        "tex": "\\theta &= 2\\pi - \\frac{\\pi}{3} = \\frac{5\\pi}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Write v in polar form",
+      "lines": [
+       {
+        "tex": "v &= 4\\left(\\cos\\frac{5\\pi}{3} + i\\sin\\frac{5\\pi}{3}\\right)"
+       }
+      ]
+     }
+    ],
+    "final": "v = 4\\left(\\cos\\frac{5\\pi}{3} + i\\sin\\frac{5\\pi}{3}\\right)"
+   },
+   {
+    "part": "practice-cx-polar-1",
+    "level": "higher",
+    "year": null,
+    "question": "Write $z = -1 + i\\sqrt{3}$ in polar form $r(\\cos\\theta + i\\sin\\theta)$, with $0 \\le \\theta < 2\\pi$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the modulus",
+      "lines": [
+       {
+        "tex": "r &= \\sqrt{(-1)^2 + (\\sqrt{3})^2}"
+       },
+       {
+        "tex": "&= \\sqrt{4}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument",
+      "lines": [
+       {
+        "text": "The real part is negative and the imaginary part is positive, so $z$ is in the second quadrant."
+       },
+       {
+        "tex": "\\tan\\alpha &= \\frac{\\sqrt{3}}{1} = \\sqrt{3}"
+       },
+       {
+        "tex": "\\alpha &= \\frac{\\pi}{3}"
+       },
+       {
+        "tex": "\\theta &= \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Write in polar form",
+      "lines": [
+       {
+        "tex": "z &= 2\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)"
+       }
+      ]
+     }
+    ],
+    "final": "z = 2\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)"
+   },
+   {
+    "part": "practice-cx-polar-2",
+    "level": "higher",
+    "year": null,
+    "question": "Write $w = -\\sqrt{3} - i$ in the form $r(\\cos\\theta + i\\sin\\theta)$, where $0 \\le \\theta < 2\\pi$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the modulus",
+      "lines": [
+       {
+        "tex": "r &= \\sqrt{(-\\sqrt{3})^2 + (-1)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{4}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument",
+      "lines": [
+       {
+        "text": "Both parts are negative, so $w$ is in the third quadrant."
+       },
+       {
+        "tex": "\\tan\\alpha &= \\frac{1}{\\sqrt{3}}"
+       },
+       {
+        "tex": "\\alpha &= \\frac{\\pi}{6}"
+       },
+       {
+        "tex": "\\theta &= \\pi + \\frac{\\pi}{6} = \\frac{7\\pi}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Write in polar form",
+      "lines": [
+       {
+        "tex": "w &= 2\\left(\\cos\\frac{7\\pi}{6} + i\\sin\\frac{7\\pi}{6}\\right)"
+       }
+      ]
+     }
+    ],
+    "final": "w = 2\\left(\\cos\\frac{7\\pi}{6} + i\\sin\\frac{7\\pi}{6}\\right)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-second",
+   "title": "Find the second derivative",
+   "level": "OL",
+   "input": "f(x)",
+   "output": "f″(x)"
+  },
+  "candidates": [
+   {
+    "part": "practice-diff-second-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$f(x) = x^4 - 2x^3 + 5x$.\nFind $f''(x)$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate once",
+      "lines": [
+       {
+        "tex": "f'(x) &= 4x^3 - 6x^2 + 5"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate again",
+      "lines": [
+       {
+        "tex": "f''(x) &= 12x^2 - 12x"
+       }
+      ]
+     }
+    ],
+    "final": "f''(x) = 12x^2 - 12x"
+   },
+   {
+    "part": "practice-diff-second-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "$f(x) = 2x^3 - 9x^2 + 12x + 1$.\nFind the value of $x$ for which $f''(x) = 0$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find $f'(x)$",
+      "lines": [
+       {
+        "tex": "f'(x) &= 6x^2 - 18x + 12"
+       }
+      ]
+     },
+     {
+      "title": "Find $f''(x)$",
+      "lines": [
+       {
+        "tex": "f''(x) &= 12x - 18"
+       }
+      ]
+     },
+     {
+      "title": "Set $f''(x) = 0$ and solve",
+      "lines": [
+       {
+        "tex": "12x - 18 &= 0"
+       },
+       {
+        "tex": "12x &= 18"
+       },
+       {
+        "tex": "x &= \\frac{3}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\frac{3}{2}"
+   },
+   {
+    "part": "practice-diff-second-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A particle moves in a straight line. Its distance from a point $O$ after $t$ seconds is\n$s = t^3 - 6t^2 + 4t$ metres.\nThe acceleration is $\\dfrac{d^2s}{dt^2}$. Find the acceleration when $t = 4$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the velocity",
+      "lines": [
+       {
+        "tex": "\\frac{ds}{dt} &= 3t^2 - 12t + 4"
+       }
+      ]
+     },
+     {
+      "title": "Find the acceleration",
+      "lines": [
+       {
+        "tex": "\\frac{d^2s}{dt^2} &= 6t - 12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $t = 4$",
+      "lines": [
+       {
+        "tex": "6(4) - 12 &= 24 - 12"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     }
+    ],
+    "final": "12\\text{ m/s}^2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm19",
+   "title": "Apply Theorem 19: Angle at the centre is twice the angle at the circle (JC-HL, assumed at LC HL)",
+   "level": "HL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 19"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm19-1",
+    "level": "higher",
+    "year": null,
+    "question": "$A$, $B$ and $C$ are points on a circle with centre $O$.\n$B$ lies on the major arc $AC$.\n$|\\angle AOC| = 110^\\circ$.\nFind $|\\angle ABC|$, giving a reason.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the arc",
+      "lines": [
+       {
+        "text": "$\\angle AOC$ is the angle at the centre and $\\angle ABC$ is the angle at the circumference, both standing on the arc $AC$."
+       }
+      ]
+     },
+     {
+      "title": "Apply Theorem 19",
+      "lines": [
+       {
+        "text": "The angle at the centre is twice the angle at the circumference on the same arc."
+       },
+       {
+        "tex": "|\\angle ABC| &= \\frac{1}{2}|\\angle AOC|"
+       },
+       {
+        "tex": "&= \\frac{1}{2}(110^\\circ)"
+       },
+       {
+        "tex": "&= 55^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle ABC| = 55^\\circ"
+   },
+   {
+    "part": "practice-geo-thm19-3",
+    "level": "higher",
+    "year": null,
+    "question": "$A$, $B$ and $C$ are points on a circle with centre $O$.\n$B$ lies on the minor arc $AC$.\n$|\\angle AOC| = 140^\\circ$.\nFind $|\\angle ABC|$, giving a reason.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the reflex angle at the centre",
+      "lines": [
+       {
+        "text": "$B$ is on the minor arc, so the arc that $\\angle ABC$ stands on is the major arc $AC$. The angle at the centre on that arc is the reflex angle $AOC$."
+       },
+       {
+        "tex": "\\text{reflex } \\angle AOC &= 360^\\circ - 140^\\circ"
+       },
+       {
+        "tex": "&= 220^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Apply Theorem 19",
+      "lines": [
+       {
+        "text": "The angle at the circumference is half the angle at the centre on the same arc."
+       },
+       {
+        "tex": "|\\angle ABC| &= \\frac{1}{2}(220^\\circ)"
+       },
+       {
+        "tex": "&= 110^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle ABC| = 110^\\circ"
+   },
+   {
+    "part": "practice-geo-thm19-2",
+    "level": "higher",
+    "year": null,
+    "question": "$P$, $Q$ and $R$ are points on a circle with centre $O$.\n$|\\angle PRQ| = 35^\\circ$.\nFind $|\\angle OPQ|$, giving reasons.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Apply Theorem 19",
+      "lines": [
+       {
+        "text": "The angle at the centre is twice the angle at the circumference on the same arc $PQ$."
+       },
+       {
+        "tex": "|\\angle POQ| &= 2 \\times 35^\\circ"
+       },
+       {
+        "tex": "&= 70^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the isosceles triangle",
+      "lines": [
+       {
+        "text": "$|OP| = |OQ|$ because both are radii, so triangle $OPQ$ is isosceles and $|\\angle OPQ| = |\\angle OQP|$."
+       },
+       {
+        "tex": "2|\\angle OPQ| &= 180^\\circ - 70^\\circ"
+       },
+       {
+        "tex": "&= 110^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Solve for the angle",
+      "lines": [
+       {
+        "tex": "|\\angle OPQ| &= \\frac{110^\\circ}{2}"
+       },
+       {
+        "tex": "&= 55^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle OPQ| = 55^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "circ-chord-length",
+   "title": "Find a chord length or distance from centre",
+   "level": "OL",
+   "input": "radius + perpendicular distance (or chord)",
+   "output": "chord length"
+  },
+  "candidates": [
+   {
+    "part": "practice-circ-chord-length-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A circle has centre $O$ and radius $13$ cm.\nA chord $AB$ is $5$ cm from $O$.\nFind $|AB|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Draw the right-angled triangle",
+      "lines": [
+       {
+        "text": "The perpendicular from $O$ to the chord meets $AB$ at its midpoint $M$, so $OMB$ has a right angle at $M$."
+       },
+       {
+        "tex": "|OB| &= 13"
+       },
+       {
+        "tex": "|OM| &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Find half the chord with Pythagoras",
+      "lines": [
+       {
+        "tex": "|MB|^2 &= 13^2 - 5^2"
+       },
+       {
+        "tex": "&= 169 - 25"
+       },
+       {
+        "tex": "&= 144"
+       },
+       {
+        "tex": "|MB| &= 12"
+       }
+      ]
+     },
+     {
+      "title": "Double it to get the chord",
+      "lines": [
+       {
+        "tex": "|AB| &= 2 \\times 12"
+       },
+       {
+        "tex": "&= 24"
+       }
+      ]
+     }
+    ],
+    "final": "|AB| = 24\\text{ cm}"
+   },
+   {
+    "part": "practice-circ-chord-length-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A circular window has radius $17$ cm.\nA straight bar across the window is a chord of length $30$ cm.\nHow far is the bar from the centre of the window?",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find half the chord",
+      "lines": [
+       {
+        "text": "The perpendicular from the centre to the bar bisects it, giving a right-angled triangle with hypotenuse $17$."
+       },
+       {
+        "tex": "\\tfrac{1}{2}(30) &= 15"
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras",
+      "lines": [
+       {
+        "tex": "d^2 &= 17^2 - 15^2"
+       },
+       {
+        "tex": "&= 289 - 225"
+       },
+       {
+        "tex": "&= 64"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "d &= \\sqrt{64}"
+       },
+       {
+        "tex": "&= 8"
+       }
+      ]
+     }
+    ],
+    "final": "d = 8\\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q3#(a)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find half the chord, |DB|",
+      "lines": [
+       {
+        "text": "A line from the centre to the midpoint of a chord is perpendicular to the chord, so $CDB$ is a right-angled triangle with the right angle at $D$."
+       },
+       {
+        "tex": "|DB| &= \\frac{1}{2} \\times 4\\sqrt{3}"
+       },
+       {
+        "tex": "&= 2\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Find |CD| using the distance formula",
+      "lines": [
+       {
+        "tex": "|CD|^2 &= (3-1)^2 + (2-(-2))^2"
+       },
+       {
+        "tex": "&= 2^2 + 4^2"
+       },
+       {
+        "tex": "&= 20"
+       },
+       {
+        "tex": "|CD| &= \\sqrt{20}"
+       },
+       {
+        "tex": "&= 2\\sqrt{5}"
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras in triangle CDB",
+      "lines": [
+       {
+        "text": "The radius is $r = |CB|$, the hypotenuse of the right-angled triangle."
+       },
+       {
+        "tex": "r^2 &= |CD|^2 + |DB|^2"
+       },
+       {
+        "tex": "&= (2\\sqrt{5})^2 + (2\\sqrt{3})^2"
+       },
+       {
+        "tex": "&= 20 + 12"
+       },
+       {
+        "tex": "&= 32"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root and simplify",
+      "lines": [
+       {
+        "tex": "r &= \\sqrt{32}"
+       },
+       {
+        "tex": "&= \\sqrt{16 \\times 2}"
+       },
+       {
+        "tex": "&= 4\\sqrt{2}"
+       }
+      ]
+     }
+    ],
+    "final": "r = 4\\sqrt{2}"
+   }
+  ]
+ }
+]

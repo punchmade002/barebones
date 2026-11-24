@@ -1,0 +1,1084 @@
+[
+ {
+  "id": "calculator-mode",
+  "tip": "Check your calculator mode before any trig step: degrees for angles in degrees, radians when the question uses $\\pi$ or radians. The wrong mode loses marks even when your method is right.",
+  "covers": [
+   "trig-exact-values|ordinary|2",
+   "trig-ratios-right|higher|0",
+   "trig-ratios-right|ordinary|0",
+   "trig-pythagoras|higher|0",
+   "trig-elevation|higher|0",
+   "trig-area-triangle|higher|1",
+   "trig-cosine-rule|ordinary|3",
+   "diff-trig|higher|2",
+   "int-trig|higher|2",
+   "int-average-value|higher|3",
+   "trig-radians|higher|0",
+   "trig-solve-basic|higher|3",
+   "trig-solve-general|higher|2",
+   "trig-graph-abc|higher|3"
+  ]
+ },
+ {
+  "id": "round-at-end",
+  "tip": "Keep the full calculator value all the way through and round only at the end: rounding early can change your answer and loses a mark.",
+  "covers": [
+   "mens-composite|higher|2",
+   "line-from-distance|higher|1",
+   "num-ratio-proportion|higher|0",
+   "fin-average-rate|ordinary|2",
+   "fn-exp-model|ordinary|0",
+   "prob-tree|higher|2",
+   "prob-binomial|higher|3",
+   "prob-without-replacement|ordinary|1",
+   "trig-pythagoras|higher|2",
+   "trig-elevation|higher|1",
+   "trig-cosine-rule|higher|3",
+   "trig-sine-ambiguous|higher|2"
+  ]
+ },
+ {
+  "id": "round-as-asked",
+  "tip": "Round exactly as the question asks (decimal places, nearest euro, whole number): a correct answer with wrong or no rounding loses a mark.",
+  "covers": [
+   "stat-sd|higher|0",
+   "ineq-linear|ordinary|3",
+   "quad-solve-formula|ordinary|1",
+   "eq-word-problem|ordinary|2",
+   "mens-volume|higher|1",
+   "mens-volume|ordinary|3",
+   "mens-arc-sector|ordinary|0",
+   "mens-surface-area|ordinary|3",
+   "mens-composite|ordinary|1",
+   "mens-equate-volumes|higher|2",
+   "mens-equate-volumes|ordinary|3",
+   "line-angle-between|higher|1",
+   "diff-related-rates|higher|2",
+   "diff-optimisation|higher|3",
+   "diff-exponential|higher|2",
+   "fin-percentages|ordinary|3",
+   "fin-units|ordinary|2",
+   "fin-costing|ordinary|3",
+   "fin-error|higher|2",
+   "fin-error|ordinary|2",
+   "fin-present-value|higher|3",
+   "fin-solve-rate-time|ordinary|3",
+   "fin-mortgage-derive|higher|2",
+   "fn-evaluate|higher|1",
+   "fn-graph-quadratic|higher|1",
+   "fn-exp-model|ordinary|2",
+   "geo-thm13|ordinary|3",
+   "geo-similar-triangles|ordinary|3",
+   "log-solve-exponential|higher|3",
+   "int-exponential|higher|2",
+   "int-average-value|higher|2",
+   "prob-equally-likely|higher|1",
+   "prob-independent|higher|0",
+   "prob-independent|ordinary|3",
+   "prob-tree|ordinary|0",
+   "prob-ncr|higher|3",
+   "prob-kth-success|higher|2",
+   "stat-averages|ordinary|2",
+   "stat-charts|ordinary|2",
+   "stat-correlation-calc|higher|0",
+   "inf-margin-of-error|ordinary|0",
+   "inf-hypothesis-moe|ordinary|0",
+   "inf-confidence-width|higher|2",
+   "stat-z-score|higher|3",
+   "stat-normal-inverse|higher|3",
+   "trig-pythagoras|ordinary|2",
+   "trig-elevation|ordinary|1",
+   "trig-area-triangle|ordinary|1",
+   "trig-sine-rule|higher|1"
+  ]
+ },
+ {
+  "id": "unit-on-answer",
+  "tip": "Put the unit on your final answer (for example cm, cm$^2$, euro): a correct number with a missing or wrong unit can lose a mark.",
+  "covers": [
+   "mens-volume|higher|0",
+   "mens-composite|ordinary|2",
+   "line-area-triangle|ordinary|3",
+   "diff-rates-of-change|higher|1",
+   "diff-related-rates|higher|1",
+   "fn-evaluate|higher|2",
+   "geo-thm14|higher|2",
+   "geo-thm13|ordinary|2",
+   "geo-similar-triangles|ordinary|2",
+   "seq-arith-nth|ordinary|3",
+   "seq-arith-sum|ordinary|3",
+   "trig-pythagoras|higher|1",
+   "trig-area-triangle|ordinary|3",
+   "trig-3d|higher|3"
+  ]
+ },
+ {
+  "id": "unit-asked",
+  "tip": "Give the answer in the unit the question asks for and convert if you need to: the right number in the wrong unit loses a mark.",
+  "covers": [
+   "fin-units|higher|1",
+   "fin-units|higher|2",
+   "fin-average-rate|higher|1",
+   "seq-geo-sum|higher|3"
+  ]
+ },
+ {
+  "id": "unit-optional",
+  "tip": "Some parts accept a correct answer without its unit, but write the unit anyway: it is a free safeguard.",
+  "covers": [
+   "line-area-triangle|higher|3",
+   "line-angle-between|higher|3",
+   "fin-units|ordinary|3",
+   "fin-average-rate|ordinary|3",
+   "geo-thm18|higher|0"
+  ]
+ },
+ {
+  "id": "formula-first",
+  "tip": "Write the formula before you put numbers in: the formula on its own, and even a partial substitution, earns marks if you cannot finish.",
+  "covers": [
+   "mens-perimeter-area|ordinary|1",
+   "mens-nets|higher|1",
+   "mens-volume|ordinary|0",
+   "mens-arc-sector|higher|0",
+   "mens-arc-sector|higher|2",
+   "mens-arc-sector|ordinary|2",
+   "mens-surface-area|higher|1",
+   "mens-surface-area|ordinary|0",
+   "mens-surface-area|ordinary|1",
+   "mens-equate-volumes|ordinary|1",
+   "circ-from-conditions|ordinary|1",
+   "line-midpoint|ordinary|0",
+   "line-slope|ordinary|0",
+   "line-distance|ordinary|0",
+   "line-equation|ordinary|3",
+   "line-collinear|higher|2",
+   "line-parallel-perp|higher|2",
+   "line-divide-ratio|higher|2",
+   "line-perp-distance|higher|3",
+   "cx-modulus|ordinary|0",
+   "diff-slope-tangent|ordinary|1",
+   "diff-increasing-interval|higher|1",
+   "fin-compound-interest|ordinary|1",
+   "fin-depreciation|ordinary|0",
+   "fin-rate-conversion|higher|0",
+   "fin-error|ordinary|0",
+   "fin-average-rate|higher|0",
+   "fin-solve-rate-time|higher|2",
+   "fin-annuity-pv|higher|2",
+   "fin-mortgage|higher|0",
+   "prob-addition-rule|higher|0",
+   "prob-expected-value|ordinary|0",
+   "seq-pattern|ordinary|0",
+   "seq-classify|higher|1",
+   "seq-arith-nth|ordinary|0",
+   "seq-arith-sum|ordinary|0",
+   "seq-arith-find-ad|ordinary|0",
+   "seq-quadratic|ordinary|2",
+   "seq-geo-sum|higher|0",
+   "seq-geo-sum-infinity|higher|1",
+   "inf-margin-of-error|ordinary|1",
+   "trig-exact-values|ordinary|1",
+   "trig-derive-4|higher|0",
+   "trig-derive-7|higher|1",
+   "trig-pythagoras|ordinary|0",
+   "trig-elevation|ordinary|0",
+   "trig-area-triangle|higher|0",
+   "trig-cosine-rule|higher|0",
+   "trig-cosine-rule|ordinary|1",
+   "seq-arith-nth|higher|1",
+   "stat-sd|ordinary|2",
+   "quad-solve-formula|higher|1"
+  ]
+ },
+ {
+  "id": "substitute-fully",
+  "tip": "Write the formula with every number put in before you work it out: a fully substituted formula earns most of the marks even if you slip on the arithmetic.",
+  "covers": [
+   "quad-solve-formula|higher|0",
+   "mens-surface-area|higher|2",
+   "circ-eq-origin|ordinary|0",
+   "circ-tangent-at-point|ordinary|1",
+   "line-midpoint|ordinary|1",
+   "line-slope|ordinary|1",
+   "line-distance|ordinary|1",
+   "line-equation|higher|3",
+   "line-equation|ordinary|1",
+   "line-linear-model|ordinary|3",
+   "line-area-triangle|higher|1",
+   "cx-modulus|ordinary|1",
+   "num-surds|ordinary|0",
+   "cx-quadratic|higher|3",
+   "fin-compound-interest|ordinary|0",
+   "fin-annuity-pv|higher|1",
+   "fin-mortgage|higher|1",
+   "fin-mortgage-derive|higher|0",
+   "geo-thm14|ordinary|1",
+   "prob-first-success|higher|0",
+   "prob-conditional|higher|0",
+   "seq-arith-sum|ordinary|1",
+   "seq-geo-nth|higher|2",
+   "stat-averages|ordinary|0",
+   "stat-back-to-back|ordinary|2",
+   "inf-z-test|higher|3",
+   "trig-exact-values|higher|0",
+   "trig-compound|higher|1",
+   "trig-prove-identity|higher|2",
+   "trig-area-triangle|ordinary|0",
+   "trig-cosine-rule|ordinary|2",
+   "prob-independence-test|higher|2"
+  ]
+ },
+ {
+  "id": "answer-protect",
+  "tip": "Show your working even when a bare correct answer can earn full marks: if you slip, the working is what earns you marks, and a wrong answer with no working earns nothing.",
+  "covers": [
+   "alg-evaluate|higher|1",
+   "alg-evaluate|ordinary|3",
+   "ineq-modulus|higher|2",
+   "quad-complete-square|higher|1",
+   "mens-perimeter-area|ordinary|3",
+   "circ-eq-centre-radius|ordinary|1",
+   "line-midpoint|ordinary|3",
+   "fin-profit-margin|ordinary|0",
+   "fin-compound-interest|ordinary|3",
+   "fn-evaluate|higher|3",
+   "geo-thm4|ordinary|2",
+   "geo-thm5|ordinary|2",
+   "geo-thm2|ordinary|1",
+   "geo-thm16|ordinary|2",
+   "ind-negative-fractional|higher|2",
+   "int-find-function|higher|3",
+   "prob-equally-likely|higher|2",
+   "prob-npr|ordinary|3",
+   "prob-addition-rule|ordinary|3",
+   "prob-ncr|higher|2",
+   "prob-arrangement-restrictions|ordinary|2",
+   "seq-arith-nth|ordinary|2",
+   "seq-limits|higher|2",
+   "stat-averages|higher|1",
+   "stat-quartiles-iqr|higher|0"
+  ]
+ },
+ {
+  "id": "bare-answer-low",
+  "tip": "Do not just write down the answer: show the working, because a correct answer with no working here earns only some of the marks.",
+  "covers": [
+   "cubic-solve|higher|2",
+   "alg-expand-binomials|higher|1",
+   "quad-solve-factor|ordinary|2",
+   "eq-word-problem|ordinary|1",
+   "circ-point-position|ordinary|3",
+   "line-perp-distance|higher|1",
+   "cx-divide|ordinary|2",
+   "fin-solve-rate-time|ordinary|2",
+   "ind-solve-equation|ordinary|1",
+   "fn-solve-graphically|ordinary|1",
+   "fn-inverse-sketch|higher|1",
+   "cubic-unknown-coefficient|higher|0",
+   "trig-unit-circle|higher|2",
+   "trig-area-triangle|ordinary|2"
+  ]
+ },
+ {
+  "id": "own-earlier",
+  "tip": "Use your answer from an earlier part in the later parts, even if it might be wrong: work built on your own earlier answer still earns marks.",
+  "covers": [
+   "line-linear-model|ordinary|0",
+   "diff-slope-tangent|ordinary|3",
+   "fin-profit-margin|ordinary|1",
+   "fin-costing|ordinary|2",
+   "fin-amortisation|higher|2",
+   "geo-enlargement-centre|ordinary|2"
+  ]
+ },
+ {
+  "id": "label",
+  "tip": "Label every point, vertex and curve you draw: a correct diagram with missing or wrong labels loses a mark.",
+  "covers": [
+   "cx-conjugate|ordinary|3",
+   "cx-argand|higher|0",
+   "cx-argand|ordinary|0",
+   "cx-transformations|higher|1",
+   "fn-inverse-sketch|higher|0",
+   "fn-graph-exponential|higher|1",
+   "con-9|ordinary|1",
+   "con-2|higher|2",
+   "con-10|ordinary|2",
+   "con-16|higher|0",
+   "con-12|ordinary|2",
+   "stat-charts|ordinary|0",
+   "stat-scatter-correlation|higher|0",
+   "stat-line-best-fit|higher|1"
+  ]
+ },
+ {
+  "id": "pilot-diagram",
+  "tip": "Start with a rough labelled diagram and mark the given information on it: the diagram earns marks on its own, even if the rest goes wrong.",
+  "covers": [
+   "geo-thm11|higher|0",
+   "geo-prove-thm11|higher|0",
+   "geo-prove-thm12|higher|0",
+   "con-9|ordinary|0",
+   "con-10|ordinary|0",
+   "con-11|ordinary|0",
+   "con-12|ordinary|0",
+   "con-20|ordinary|0"
+  ]
+ },
+ {
+  "id": "arcs",
+  "tip": "Leave your construction arcs and lines on the page: a correct result with them missing earns fewer marks.",
+  "covers": [
+   "con-2|higher|0",
+   "con-2|ordinary|1",
+   "con-5|higher|0",
+   "con-17|ordinary|2",
+   "con-1|ordinary|0",
+   "con-8|ordinary|0",
+   "con-10|higher|0",
+   "con-16|higher|1",
+   "con-21|higher|0"
+  ]
+ },
+ {
+  "id": "join-smooth",
+  "tip": "Join your plotted points with a smooth curve: points left unjoined, or joined with straight lines, lose marks.",
+  "covers": [
+   "fn-graph-quadratic|ordinary|1",
+   "fn-graph-cubic|ordinary|1",
+   "fn-graph-exponential|higher|0",
+   "fn-graph-exponential|ordinary|1",
+   "fn-transformations|ordinary|0"
+  ]
+ },
+ {
+  "id": "table-plot-all",
+  "tip": "Fill in every table entry and plot every point: each correct entry earns marks, so never leave the table blank.",
+  "covers": [
+   "fn-graph-quadratic|higher|0",
+   "fn-graph-quadratic|ordinary|0",
+   "fn-graph-cubic|higher|0",
+   "fn-graph-cubic|ordinary|0",
+   "fn-graph-exponential|ordinary|0",
+   "fn-graph-quadratic|ordinary|3",
+   "fn-graph-log|higher|0",
+   "fin-amortisation|higher|0",
+   "seq-pattern|ordinary|1",
+   "prob-sample-space|higher|1",
+   "prob-sample-space|ordinary|0",
+   "fin-amortisation|higher|1"
+  ]
+ },
+ {
+  "id": "domain",
+  "tip": "Draw your graph over the whole domain the question gives, and not beyond it: a graph over the wrong range loses a mark.",
+  "covers": [
+   "fn-graph-linear|higher|2",
+   "fn-graph-linear|ordinary|1",
+   "fn-graph-exponential|higher|2",
+   "fn-graph-quadratic|ordinary|2"
+  ]
+ },
+ {
+  "id": "reason-each-step",
+  "tip": "In a geometry proof or angle problem, write a reason beside every statement (such as 'alternate angles'): a correct step with no reason cannot earn full marks.",
+  "covers": [
+   "geo-thm1|higher|0",
+   "geo-thm1|higher|2",
+   "geo-thm4|higher|1",
+   "geo-thm3|higher|0",
+   "geo-thm3|ordinary|0",
+   "geo-thm3|ordinary|1",
+   "geo-thm5|higher|0",
+   "geo-thm5|ordinary|0",
+   "geo-thm2|higher|0",
+   "geo-thm6|ordinary|1",
+   "geo-cor3|higher|0",
+   "geo-congruence|higher|0",
+   "geo-congruence|ordinary|0",
+   "geo-congruence|ordinary|1",
+   "geo-thm9|higher|0",
+   "geo-thm9|ordinary|0",
+   "geo-thm20|higher|3",
+   "geo-thm13|higher|1",
+   "geo-thm12|higher|3",
+   "geo-cor2|higher|0",
+   "geo-prove-thm11|higher|2",
+   "geo-prove-thm13|higher|1",
+   "geo-thm5|ordinary|1",
+   "geo-thm3|higher|1"
+  ]
+ },
+ {
+  "id": "tf-reason",
+  "tip": "When the question asks you to tick, choose or say true or false, add the reason: a correct choice with no reason earns only part of the marks.",
+  "covers": [
+   "logic-terms|ordinary|0",
+   "logic-terms-hl|higher|1",
+   "stat-compare-hl|ordinary|0",
+   "stat-data-types|ordinary|0",
+   "fn-compare-graphs|ordinary|2"
+  ]
+ },
+ {
+  "id": "conclude-general",
+  "tip": "When you show or test something, finish with a conclusion in words (for example 'the points are collinear'): correct working with no conclusion loses a mark.",
+  "covers": [
+   "mens-composite|higher|3",
+   "circ-point-position|ordinary|0",
+   "circ-eq-origin|ordinary|1",
+   "circ-general-form|higher|2",
+   "circ-general-form|higher|3",
+   "circ-touching|higher|0",
+   "line-distance|higher|1",
+   "line-collinear|higher|0",
+   "line-perp-distance|higher|2",
+   "cx-powers-i|ordinary|0",
+   "cx-modulus|higher|0",
+   "cx-de-moivre-prove|higher|0",
+   "induction-divisibility|higher|2",
+   "induction-inequality|higher|3",
+   "prob-sample-space|higher|0",
+   "prob-independence-test|higher|3",
+   "seq-verify-formula|higher|0",
+   "eq-word-problem|higher|1",
+   "diff-increasing|higher|1"
+  ]
+ },
+ {
+  "id": "conclude-context",
+  "tip": "Write your conclusion in the words of the question, not just as a number: a conclusion that ignores the context loses marks.",
+  "covers": [
+   "inf-interpret|ordinary|0",
+   "inf-z-test|higher|2",
+   "inf-p-value|higher|0",
+   "stat-scatter-correlation|ordinary|2",
+   "stat-back-to-back|ordinary|3",
+   "inf-hypothesis-concept|ordinary|1",
+   "inf-sampling-distribution|higher|3"
+  ]
+ },
+ {
+  "id": "hyp-four",
+  "tip": "A hypothesis test is marked in four parts: hypotheses, calculation, conclusion and reason. Write all four.",
+  "covers": [
+   "inf-margin-of-error|higher|0",
+   "inf-hypothesis-concept|higher|0",
+   "inf-z-test|higher|0"
+  ]
+ },
+ {
+  "id": "conclude-calc",
+  "tip": "Show your interval, test statistic or $z$ working before you conclude: a conclusion with no calculation behind it earns nothing.",
+  "covers": [
+   "inf-hypothesis-concept|higher|1",
+   "inf-hypothesis-moe|higher|0",
+   "inf-z-test|higher|1"
+  ]
+ },
+ {
+  "id": "reason-inside-outside",
+  "tip": "Back your conclusion with your own calculation: say whether the claimed value is inside or outside the interval (or beyond the critical value).",
+  "covers": [
+   "inf-margin-of-error|higher|1",
+   "inf-margin-of-error|ordinary|3",
+   "inf-hypothesis-concept|higher|2",
+   "inf-hypothesis-concept|ordinary|0",
+   "inf-hypothesis-concept|ordinary|2",
+   "inf-hypothesis-moe|higher|1",
+   "inf-hypothesis-moe|ordinary|2"
+  ]
+ },
+ {
+  "id": "induction-conclusion",
+  "tip": "In an induction proof, finish with a concluding sentence: true for the first case, and true for $k$ gives true for $k+1$, so true for all $n$.",
+  "covers": [
+   "induction-sum|higher|0",
+   "induction-sum|higher|1",
+   "seq-verify-formula|higher|3"
+  ]
+ },
+ {
+  "id": "induction-steps",
+  "tip": "In an induction proof, write all three parts (the first case, assuming $P(k)$, then $P(k+1)$) and show where you use $P(k)$: each part earns marks.",
+  "covers": [
+   "cx-de-moivre-prove|higher|1",
+   "induction-divisibility|higher|0",
+   "induction-inequality|higher|0",
+   "induction-divisibility|higher|1",
+   "induction-inequality|higher|2"
+  ]
+ },
+ {
+  "id": "not-examples",
+  "tip": "Checking a result with a few numbers is not a proof: prove it for a general value, because checking examples earns very few marks.",
+  "covers": [
+   "seq-verify-formula|higher|1",
+   "fin-profit-margin|higher|1",
+   "stat-outlier-effect|higher|1",
+   "trig-derive-4|higher|1",
+   "trig-derive-7|higher|0",
+   "trig-derive-6|higher|1",
+   "seq-pattern|higher|0"
+  ]
+ },
+ {
+  "id": "construct-attempt",
+  "tip": "In a construction, always draw something: any correct arc, ray or line earns marks even if you cannot finish.",
+  "covers": [
+   "geo-thm11|higher|2",
+   "geo-enlargement-centre|ordinary|0",
+   "geo-prove-thm11|higher|1",
+   "con-20|ordinary|3",
+   "con-10|ordinary|1",
+   "con-11|ordinary|1",
+   "con-12|ordinary|1",
+   "con-20|ordinary|1"
+  ]
+ },
+ {
+  "id": "use-calculus",
+  "tip": "When a question needs calculus you must differentiate and show it: an answer found any other way earns no marks.",
+  "covers": [
+   "diff-increasing|higher|0",
+   "diff-increasing-interval|higher|0",
+   "diff-stationary|higher|2",
+   "diff-stationary|ordinary|0",
+   "diff-inflection|higher|3",
+   "diff-rates-of-change|higher|0",
+   "diff-optimisation|higher|0",
+   "diff-optimisation|higher|1",
+   "diff-optimisation|ordinary|0",
+   "diff-apply-hl|higher|1",
+   "diff-poly|higher|0",
+   "diff-second|ordinary|1",
+   "diff-exponential|higher|0",
+   "diff-product|higher|0",
+   "diff-chain|higher|1",
+   "diff-curve-sketch|higher|3"
+  ]
+ },
+ {
+  "id": "neg-rate",
+  "tip": "Say what a negative rate of change means (the quantity is decreasing): the explanation earns a mark.",
+  "covers": [
+   "diff-rates-of-change|ordinary|1",
+   "diff-optimisation|ordinary|3",
+   "diff-exponential|higher|3"
+  ]
+ },
+ {
+  "id": "diff-terms",
+  "tip": "Differentiate every term you can and write it down: each correct term earns marks even if the rest goes wrong.",
+  "covers": [
+   "diff-increasing-interval|higher|3",
+   "diff-poly|higher|2",
+   "diff-poly|higher|3",
+   "diff-poly|ordinary|1",
+   "diff-poly|ordinary|2",
+   "diff-second|ordinary|0",
+   "diff-rational-power|higher|0",
+   "diff-exponential|higher|1",
+   "diff-trig|higher|0",
+   "diff-chain|higher|3",
+   "diff-log|higher|0",
+   "fn-graph-cubic|ordinary|3"
+  ]
+ },
+ {
+  "id": "reject-root",
+  "tip": "If a solution does not fit the question (a negative length, or one that fails when you check it), say which answer you reject and why: leaving both in loses a mark.",
+  "covers": [
+   "alg-factor-quadratic|ordinary|1",
+   "quad-solve-factor|higher|1",
+   "eq-surd|higher|0",
+   "eq-surd|higher|3",
+   "circ-point-position|higher|1",
+   "circ-from-conditions|higher|0",
+   "num-surds|higher|3",
+   "diff-optimisation|higher|2",
+   "diff-second|higher|3",
+   "log-laws|higher|3",
+   "ind-hidden-quadratic|higher|1"
+  ]
+ },
+ {
+  "id": "mark-diagram",
+  "tip": "Mark the right angles, equal angles, and given lengths on your diagram: work on the diagram earns marks before you finish.",
+  "covers": [
+   "mens-perimeter-area|higher|3",
+   "circ-chord-length|higher|0",
+   "geo-thm2|higher|1",
+   "geo-congruence|ordinary|3",
+   "geo-thm20|higher|0",
+   "geo-thm21|higher|0",
+   "circ-from-conditions|ordinary|0",
+   "trig-double|higher|1",
+   "trig-ratios-right|higher|2"
+  ]
+ },
+ {
+  "id": "max-min-justify",
+  "tip": "To show a turning point is a maximum or minimum, show $f'(x)=0$ and then give a reason (the sign of the second derivative, or the graph): the reason is marked.",
+  "covers": [
+   "diff-increasing|higher|2",
+   "diff-increasing|higher|3",
+   "diff-stationary|higher|0",
+   "fn-graph-cubic|higher|2"
+  ]
+ },
+ {
+  "id": "both-coords",
+  "tip": "Give a turning point or inflection point as both coordinates: finding only the $x$-value earns only part of the marks, so put $x$ back in to get $y$.",
+  "covers": [
+   "diff-stationary|higher|1",
+   "diff-stationary|ordinary|3",
+   "diff-inflection|higher|1",
+   "quad-complete-square-use|higher|0"
+  ]
+ },
+ {
+  "id": "rate-context",
+  "tip": "When you explain a rate or slope, say it in the words of the question with the unit (for example 'grows by 2% each hour'): a bare number earns less.",
+  "covers": [
+   "diff-rates-of-change|higher|2",
+   "diff-rates-of-change|higher|3",
+   "diff-rates-of-change|ordinary|0",
+   "line-linear-model|higher|0",
+   "line-linear-model|higher|1",
+   "line-linear-model|ordinary|2",
+   "fn-evaluate|ordinary|1"
+  ]
+ },
+ {
+  "id": "as-percentage",
+  "tip": "Give a rate or margin as a percentage when the question asks: an answer left as a decimal, or without the percent sign, loses a mark.",
+  "covers": [
+   "fin-compound-interest|higher|1",
+   "fin-rate-conversion|higher|2",
+   "ind-negative-fractional|higher|1",
+   "inf-margin-of-error|ordinary|2",
+   "inf-ci-proportion|ordinary|1",
+   "fin-error|higher|1"
+  ]
+ },
+ {
+  "id": "read-graph",
+  "tip": "When you read a value from a graph, mark the point or line you used on the graph itself: that work earns marks even if your reading is off.",
+  "covers": [
+   "fn-graph-cubic|ordinary|2",
+   "fn-graph-exponential|ordinary|2",
+   "fn-graph-exponential|ordinary|3",
+   "fn-composite|higher|3",
+   "fn-solve-graphically|higher|0",
+   "fn-solve-graphically|higher|2",
+   "fn-solve-graphically|ordinary|0"
+  ]
+ },
+ {
+  "id": "pythagoras-sub",
+  "tip": "Write Pythagoras down with the numbers put in: it earns marks even if you slip afterwards or cannot finish.",
+  "covers": [
+   "circ-chord-length|higher|1",
+   "circ-tangent-length|higher|1",
+   "geo-thm14|higher|0",
+   "geo-thm14|higher|1",
+   "geo-thm14|ordinary|0",
+   "geo-thm20|higher|2",
+   "geo-thm12|higher|1"
+  ]
+ },
+ {
+  "id": "similar-ratio",
+  "tip": "In similar triangles, write the ratio of corresponding sides first: a correct ratio earns marks even if you cannot finish.",
+  "covers": [
+   "geo-thm13|higher|3",
+   "geo-thm13|ordinary|0",
+   "geo-similar-triangles|higher|0",
+   "geo-similar-triangles|higher|1",
+   "geo-similar-triangles|ordinary|0",
+   "geo-thm12|higher|0",
+   "geo-thm12|ordinary|0",
+   "geo-thm12|ordinary|1"
+  ]
+ },
+ {
+  "id": "same-base",
+  "tip": "Write both sides as powers of the same base instead of listing powers: listing earns very few marks.",
+  "covers": [
+   "ind-laws|ordinary|1",
+   "ind-express-as-power|higher|0",
+   "ind-express-as-power|ordinary|1",
+   "ind-solve-equation|ordinary|2"
+  ]
+ },
+ {
+  "id": "accurate-tolerance",
+  "tip": "Measure and draw carefully with a ruler and protractor: the marking allows only a small tolerance.",
+  "covers": [
+   "geo-enlargement|ordinary|3",
+   "geo-enlargement-centre|ordinary|1",
+   "con-11|ordinary|2",
+   "con-16|ordinary|1"
+  ]
+ },
+ {
+  "id": "named-side",
+  "tip": "Use exactly the side or point the question names: bisecting or drawing at the wrong one loses a mark.",
+  "covers": [
+   "con-4|higher|0",
+   "con-2|ordinary|0",
+   "con-16|ordinary|0"
+  ]
+ },
+ {
+  "id": "proof-every-step",
+  "tip": "In a proof, write every step: one missing step costs marks.",
+  "covers": [
+   "geo-thm11|higher|3",
+   "geo-prove-thm12|higher|3",
+   "geo-prove-thm13|higher|0",
+   "geo-prove-thm13|higher|2",
+   "induction-inequality|higher|1"
+  ]
+ },
+ {
+  "id": "state-fact",
+  "tip": "State each geometry fact you use (for example 'angles in a triangle add to 180'): stating it earns marks even before you reach an answer.",
+  "covers": [
+   "geo-thm1|ordinary|0",
+   "geo-thm1|ordinary|1",
+   "geo-thm4|ordinary|0",
+   "geo-thm4|ordinary|1",
+   "geo-thm6|ordinary|0",
+   "geo-prove-thm11|higher|3",
+   "geo-prove-thm12|higher|2"
+  ]
+ },
+ {
+  "id": "equation-first",
+  "tip": "Write down the equation the question gives you before you solve it: setting it up earns marks on its own.",
+  "covers": [
+   "eq-linear|higher|1",
+   "geo-thm9|ordinary|1",
+   "ind-laws|higher|0",
+   "log-definition|higher|1",
+   "log-solve|higher|0",
+   "fn-compare-graphs|higher|0",
+   "fn-compare-graphs|ordinary|0",
+   "sim-linear-2|higher|1",
+   "sim-word-problem|higher|0",
+   "sim-word-problem|higher|1",
+   "eq-word-problem|higher|0"
+  ]
+ },
+ {
+  "id": "form-asked",
+  "tip": "Give your answer in the form the question asks for (for example $ax+by+c=0$ or $a+bi$): the right value in the wrong form loses a mark.",
+  "covers": [
+   "circ-tangent-at-point|higher|1",
+   "line-equation|higher|0",
+   "line-equation|higher|2",
+   "line-equation|ordinary|0",
+   "line-equation|ordinary|2",
+   "num-fractions|ordinary|2",
+   "cx-conjugate|ordinary|2",
+   "cx-divide|higher|2",
+   "cx-divide|ordinary|3",
+   "num-sci-notation|higher|0",
+   "diff-product|higher|3",
+   "diff-log|higher|3",
+   "geo-similar-triangles|higher|3",
+   "trig-exact-values|higher|3",
+   "diff-slope-tangent|ordinary|2"
+  ]
+ },
+ {
+  "id": "tick-box",
+  "tip": "If the question has a box to tick, tick it as well as showing your working: correct work with the box left blank loses a mark.",
+  "covers": [
+   "line-slope|ordinary|3",
+   "line-parallel-perp|ordinary|2",
+   "num-ratio-proportion|ordinary|1"
+  ]
+ },
+ {
+  "id": "find-both",
+  "tip": "Find both answers (both roots, both coordinates): stopping after one loses a mark.",
+  "covers": [
+   "quad-solve-formula|ordinary|2",
+   "sim-word-problem|higher|2",
+   "sim-linear-quadratic|ordinary|2",
+   "sim-linear-2|ordinary|2",
+   "circ-line-origin|ordinary|2",
+   "sim-linear-quadratic|ordinary|3",
+   "alg-factor-grouping|higher|2",
+   "log-solve|higher|3"
+  ]
+ },
+ {
+  "id": "centre-radius",
+  "tip": "For a circle, write down the centre and the radius as separate answers: each earns marks on its own.",
+  "covers": [
+   "circ-point-position|ordinary|1",
+   "circ-eq-centre-radius|higher|3",
+   "circ-eq-centre-radius|ordinary|0",
+   "circ-general-form|higher|0",
+   "circ-tangent-length|higher|2",
+   "mens-volume|ordinary|1"
+  ]
+ },
+ {
+  "id": "common-denominator",
+  "tip": "Name the common denominator: identifying it is marked on its own.",
+  "covers": [
+   "alg-fractions-add|higher|0",
+   "eq-linear-fractions|ordinary|0",
+   "eq-rational|higher|1",
+   "eq-rational|ordinary|0"
+  ]
+ },
+ {
+  "id": "conjugate",
+  "tip": "Write down the conjugate and multiply top and bottom by it: each of those steps earns marks, even if you chose the wrong conjugate.",
+  "covers": [
+   "cx-conjugate|higher|0",
+   "cx-conjugate|ordinary|0",
+   "cx-conjugate|ordinary|1",
+   "cx-divide|higher|0",
+   "cx-divide|ordinary|0",
+   "cx-divide|ordinary|1"
+  ]
+ },
+ {
+  "id": "polar-form",
+  "tip": "Use polar form when the question asks for it: an answer without it earns no marks, even if it is right.",
+  "covers": [
+   "cx-modulus|higher|2",
+   "cx-de-moivre-power|higher|0",
+   "cx-de-moivre-roots|higher|0"
+  ]
+ },
+ {
+  "id": "long-division",
+  "tip": "Set up the long division and write out each line: even an unfinished division earns marks.",
+  "covers": [
+   "alg-factor-quadratic|higher|2",
+   "cubic-unknown-coefficient|higher|1",
+   "alg-poly-divide|higher|0",
+   "alg-equate-coefficients|ordinary|0",
+   "cx-conjugate-root|higher|2",
+   "alg-equate-coefficients|ordinary|1"
+  ]
+ },
+ {
+  "id": "multiply-out",
+  "tip": "Show multiplying out line by line, one product at a time: even one correct term earns marks.",
+  "covers": [
+   "alg-expand-single|ordinary|0",
+   "alg-expand-single|ordinary|1",
+   "alg-expand-single|ordinary|2",
+   "alg-expand-binomials|higher|0",
+   "alg-expand-binomials|ordinary|1",
+   "alg-rearrange|ordinary|3",
+   "alg-poly-multiply|higher|0",
+   "alg-poly-multiply|higher|1",
+   "alg-equate-coefficients|higher|0",
+   "alg-equate-coefficients|higher|3",
+   "ineq-linear|ordinary|1",
+   "eq-linear|ordinary|1",
+   "eq-linear-fractions|ordinary|1",
+   "cx-arithmetic|ordinary|1"
+  ]
+ },
+ {
+  "id": "show-integration",
+  "tip": "Write the integral and show the integration: a bare answer to an integral earns no marks.",
+  "covers": [
+   "int-power|higher|3",
+   "int-reciprocal|higher|0",
+   "int-exponential|higher|0",
+   "int-trig|higher|1",
+   "int-find-function|higher|0",
+   "int-definite|higher|0",
+   "int-average-value|higher|0"
+  ]
+ },
+ {
+  "id": "integral-start",
+  "tip": "Write the integral with its limits first: it earns marks even if you cannot finish.",
+  "covers": [
+   "int-reciprocal|higher|1",
+   "int-definite|higher|2",
+   "int-area-axis|higher|2",
+   "int-area-between|higher|1",
+   "int-power|higher|2"
+  ]
+ },
+ {
+  "id": "prob-max-one",
+  "tip": "A probability can never be more than 1: if your answer is, something has gone wrong, and it earns nothing.",
+  "covers": [
+   "prob-sample-space|ordinary|2",
+   "prob-equally-likely|ordinary|0",
+   "prob-venn|ordinary|3",
+   "prob-addition-rule|ordinary|0",
+   "prob-bernoulli-3|ordinary|1"
+  ]
+ },
+ {
+  "id": "write-product",
+  "tip": "If you cannot work out a product, write it down anyway: the multiplication, even unfinished, earns marks.",
+  "covers": [
+   "prob-counting-principle|ordinary|3",
+   "prob-factorial|ordinary|0",
+   "prob-factorial|ordinary|1",
+   "prob-independent|higher|1",
+   "prob-independent|ordinary|1",
+   "prob-independent|ordinary|2",
+   "prob-npr|ordinary|0",
+   "prob-bernoulli-3|ordinary|2",
+   "prob-first-success|ordinary|2",
+   "prob-arrangement-restrictions|ordinary|1",
+   "prob-without-replacement|higher|0"
+  ]
+ },
+ {
+  "id": "list-if-stuck",
+  "tip": "If you are stuck, list the outcomes, cases or first few terms: a correct start earns marks.",
+  "covers": [
+   "prob-counting-principle|higher|2",
+   "prob-factorial|higher|1",
+   "prob-selection-restrictions|higher|0",
+   "seq-geo-nth|higher|3",
+   "seq-limits|higher|3",
+   "prob-ncr|ordinary|0",
+   "num-prime-factors|ordinary|0",
+   "prob-equally-likely|ordinary|1"
+  ]
+ },
+ {
+  "id": "check-pattern",
+  "tip": "Do not assume a pattern is arithmetic or geometric: check the gaps or ratio first, then use the formula.",
+  "covers": [
+   "seq-pattern|higher|1",
+   "seq-arith-nth|higher|0",
+   "seq-geo-nth|higher|0"
+  ]
+ },
+ {
+  "id": "name-a",
+  "tip": "Write down $a$ and $d$ (or $a$ and $r$) clearly: identifying them earns marks on its own.",
+  "covers": [
+   "fin-annuity-pv|higher|0",
+   "seq-arith-nth|ordinary|1",
+   "seq-geo-nth|higher|1",
+   "seq-convergence-range|higher|1"
+  ]
+ },
+ {
+  "id": "check-r",
+  "tip": "Check $|r|<1$ before you use the sum to infinity: if it fails there is no sum, and you lose the marks.",
+  "covers": [
+   "seq-geo-sum-infinity|higher|0",
+   "seq-geo-sum-infinity|higher|2",
+   "seq-convergence-range|higher|0",
+   "seq-convergence-range|higher|2"
+  ]
+ },
+ {
+  "id": "hyp-write",
+  "tip": "Write down $H_0$ and $H_1$ even if you are unsure of the rest: each earns marks on its own.",
+  "covers": [
+   "inf-interpret|ordinary|1",
+   "inf-hypothesis-concept|higher|3",
+   "inf-hypothesis-concept|ordinary|3"
+  ]
+ },
+ {
+  "id": "both-ends",
+  "tip": "Work out both ends of an interval: one end alone earns only part of the marks.",
+  "covers": [
+   "inf-hypothesis-moe|ordinary|1",
+   "inf-ci-proportion|higher|2",
+   "inf-ci-proportion|ordinary|2",
+   "inf-ci-mean|higher|0"
+  ]
+ },
+ {
+  "id": "normal-curve",
+  "tip": "Draw the normal curve and shade the area you want: it earns marks even if the final answer is wrong.",
+  "covers": [
+   "stat-z-score|higher|1",
+   "stat-empirical-rule|ordinary|0",
+   "stat-normal-prob|higher|0"
+  ]
+ },
+ {
+  "id": "trig-rule-sub",
+  "tip": "Write the sine or cosine rule with the numbers put in: it earns marks even if the arithmetic goes wrong.",
+  "covers": [
+   "trig-sine-rule|higher|0",
+   "trig-sine-rule|ordinary|1",
+   "trig-triangle-problems|higher|0",
+   "trig-triangle-problems|higher|1",
+   "trig-sine-ambiguous|higher|1",
+   "trig-3d|higher|2"
+  ]
+ },
+ {
+  "id": "quadrants",
+  "tip": "Name the quadrants and the reference angle first: each earns marks before you find any angle.",
+  "covers": [
+   "trig-unit-circle|higher|1",
+   "trig-exact-values|higher|1",
+   "trig-solve-basic|higher|0",
+   "trig-solve-general|higher|0"
+  ]
+ },
+ {
+  "id": "all-solutions",
+  "tip": "Find every solution in the range, including the one in the second quadrant: each one you miss loses marks.",
+  "covers": [
+   "trig-solve-general|higher|3",
+   "trig-double|higher|2",
+   "trig-sine-ambiguous|higher|0",
+   "trig-sine-rule|higher|2"
+  ]
+ },
+ {
+  "id": "period-range",
+  "tip": "Do not swap the period and the range: giving both the wrong way round loses a mark.",
+  "covers": [
+   "trig-radians|higher|1",
+   "trig-graph|higher|0",
+   "trig-graph-abc|higher|1"
+  ]
+ },
+ {
+  "id": "show-substitution",
+  "tip": "Write the substitution out line by line: some correct substitution earns marks even if the arithmetic goes wrong.",
+  "covers": [
+   "alg-evaluate|higher|0",
+   "alg-evaluate|ordinary|0",
+   "alg-fractions-simplify|higher|0",
+   "num-fractions|ordinary|0",
+   "cx-arithmetic|ordinary|0",
+   "fn-evaluate|higher|0",
+   "fn-evaluate|ordinary|0",
+   "fn-exp-model|ordinary|1",
+   "seq-geo-nth|ordinary|0",
+   "fin-solve-rate-time|ordinary|1"
+  ]
+ },
+ {
+  "id": "write-derivative",
+  "tip": "Write the derivative before you substitute a value: it shows you meant to differentiate and earns marks.",
+  "covers": [
+   "diff-rates-of-change|ordinary|2",
+   "diff-related-rates|higher|0",
+   "diff-apply-hl|higher|0"
+  ]
+ }
+]

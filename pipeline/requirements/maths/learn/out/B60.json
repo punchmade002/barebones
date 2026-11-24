@@ -1,0 +1,480 @@
+[
+ {
+  "skill": "ind-laws",
+  "what": {
+   "say": [
+    "You give it an expression made of **powers**. It gives back one simplified power.",
+    "The key idea: when the base is the same, the laws turn the work on the powers into work on the **indices**. Multiply and you add. Divide and you subtract. Power of a power and you multiply."
+   ],
+   "in": "powers of one base",
+   "out": "one power"
+  },
+  "how": {
+   "higher": "On the higher paper it is a step inside a bigger Paper 1 question, here an exponential growth equation worth 15 marks.",
+   "ordinary": "On the ordinary paper it is a step inside Paper 1 questions, for example a 5-mark index calculation or an exponential equation, which only works once the laws are used."
+  },
+  "example": {
+   "question": "Write $\\dfrac{(3^4)^2 \\times 3^5}{3^9}$ as a single power of $3$, and hence evaluate it.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Power of a power",
+      "say": "A power raised to a power: multiply the indices. Do the bracket first.",
+      "lines": [
+       {
+        "tex": "(3^4)^2 &= 3^{4 \\times 2}",
+        "sym": "(3**4)**2",
+        "new": true
+       },
+       {
+        "tex": "&= 3^8",
+        "sym": "3**8"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the top",
+      "say": "Same base, so multiplying means adding the indices.",
+      "lines": [
+       {
+        "tex": "3^8 \\times 3^5 &= 3^{8+5}",
+        "sym": "3**8*3**5",
+        "new": true
+       },
+       {
+        "tex": "&= 3^{13}",
+        "sym": "3**13"
+       }
+      ]
+     },
+     {
+      "title": "Divide by the bottom",
+      "say": "Same base again. Dividing means subtracting the indices.",
+      "lines": [
+       {
+        "tex": "\\dfrac{3^{13}}{3^9} &= 3^{13-9}",
+        "sym": "3**13/3**9",
+        "new": true
+       },
+       {
+        "tex": "&= 3^4",
+        "sym": "3**4"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "say": "Now write the power out as a number.",
+      "lines": [
+       {
+        "tex": "3^4 &= 3 \\times 3 \\times 3 \\times 3",
+        "sym": "3*3*3*3",
+        "new": true
+       },
+       {
+        "tex": "&= 81",
+        "sym": "81"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3^4 = 81"
+   },
+   "finalSym": "81",
+   "answerSym": "(3**4)**2*3**5/3**9"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "When a question gives you two things that must be equal, write the equation first. Writing it down earns marks even before you solve it.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q7#(e)",
+       "quote": "written or implied"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Show the index rule you are using, such as subtracting the powers when you divide. It earns marks even if the arithmetic goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q2#(b)",
+       "quote": "Shows relevant understanding of indices"
+      },
+      {
+       "part": "maths-pp-2022-ordinary-p1-q2#(b)",
+       "quote": "or that power of 6 should be subtracted"
+      }
+     ]
+    },
+    {
+     "tip": "Writing out a list of powers of 2 earns only low partial credit. Use the laws and you can reach full marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q4#(b)",
+       "quote": "List of powers of 2"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "ind-negative-fractional",
+  "what": {
+   "say": [
+    "You give it a power with a **negative** or **fractional** index, like $16^{-3/4}$. It gives back a plain value or a root.",
+    "The key idea: a minus means **flip** to the reciprocal. In a fraction index the bottom is the **root** and the top is the power."
+   ],
+   "in": "$a^{-p/q}$",
+   "out": "value or root form"
+  },
+  "how": {
+   "higher": "On the higher paper it shows up as a step in Paper 1 modelling questions, such as evaluating a decay formula or finding a periodic rate with a $\\tfrac14$ index, usually within 5 or 10 marks."
+  },
+  "example": {
+   "question": "Evaluate $16^{-\\frac{3}{4}}$ without a calculator.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Flip for the minus",
+      "say": "A negative index means the reciprocal. Put the power under $1$ and make the index positive.",
+      "lines": [
+       {
+        "tex": "16^{-\\frac{3}{4}} &= \\dfrac{1}{16^{\\frac{3}{4}}}",
+        "sym": "1/16**Rational(3,4)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Root then power",
+      "say": "In $\\frac{3}{4}$ the bottom is the root and the top is the power. Take the fourth root of $16$ first, then cube it.",
+      "lines": [
+       {
+        "tex": "16^{\\frac{3}{4}} &= \\left(\\sqrt[4]{16}\\right)^3",
+        "sym": "(16**Rational(1,4))**3",
+        "new": true
+       },
+       {
+        "tex": "&= 2^3",
+        "sym": "2**3"
+       },
+       {
+        "tex": "&= 8",
+        "sym": "8"
+       }
+      ]
+     },
+     {
+      "title": "Put it back",
+      "say": "Replace the power underneath with $8$.",
+      "lines": [
+       {
+        "tex": "16^{-\\frac{3}{4}} &= \\dfrac{1}{8}",
+        "sym": "1/8",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{1}{8}"
+   },
+   "finalSym": "1/8",
+   "answerSym": "16**(-Rational(3,4))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Check which number is the root. In $(1.024)^{1/4}$ the denominator is the number of periods, and using 3 or 12 instead of 4 loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(c)",
+       "quote": "Uses 3 or 12 instead of 4, but"
+      }
+     ]
+    },
+    {
+     "tip": "If the question asks for a rate as a percentage, convert it. Leaving the answer as a decimal costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(c)",
+       "quote": "Answer given as a decimal"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer on its own is accepted, but write the substitution too. A correct substitution earns partial credit when the arithmetic slips.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q9#(a)",
+       "quote": "Accept correct answer without work"
+      },
+      {
+       "part": "maths-pp-2022-higher-p1-q9#(a)",
+       "quote": "correct substitution into given"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "ind-express-as-power",
+  "what": {
+   "say": [
+    "You give it an expression with **roots** and fractions, like $\\dfrac{\\sqrt{27}}{9}$. It gives back one base with one index.",
+    "The key idea: write every number as a power of the **same base** first. A root is an index of $\\frac12$, and a fraction is a minus index."
+   ],
+   "in": "roots and fractions",
+   "out": "$a^k$"
+  },
+  "how": {
+   "higher": "On the higher paper it is a step inside a 30-mark Paper 1 question, such as writing $\\sqrt{32}$ as $2^{5/2}$ in a sequence part worth 10 marks.",
+   "ordinary": "On the ordinary paper it is a step inside Paper 1 questions, usually to write both sides of an equation in the same base."
+  },
+  "example": {
+   "question": "Write $\\dfrac{\\sqrt{27}}{9}$ as a power of $3$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Use base 3 everywhere",
+      "say": "Write $27$ and $9$ as powers of $3$.",
+      "lines": [
+       {
+        "tex": "\\dfrac{\\sqrt{27}}{9} &= \\dfrac{\\sqrt{3^3}}{3^2}",
+        "sym": "sqrt(3**3)/3**2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Turn the root into an index",
+      "say": "A square root is the index $\\frac{1}{2}$. Multiply it into the index $3$.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{3^{\\frac{3}{2}}}{3^2}",
+        "sym": "3**Rational(3,2)/3**2"
+       }
+      ]
+     },
+     {
+      "title": "Subtract the indices",
+      "say": "Same base, and we are dividing. Subtract the bottom index from the top.",
+      "lines": [
+       {
+        "tex": "&= 3^{\\frac{3}{2} - 2}",
+        "sym": "3**(Rational(3,2)-2)"
+       },
+       {
+        "tex": "&= 3^{-\\frac{1}{2}}",
+        "sym": "3**(-Rational(1,2))"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3^{-\\frac{1}{2}}"
+   },
+   "finalSym": "3**(-Rational(1,2))",
+   "answerSym": "sqrt(27)/9"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Your first move is to write each number as a power of one base, like 64 or 32 as a power of 2. That is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q4#(a)",
+       "quote": "Writes 64 or 32 as a power of 2"
+      }
+     ]
+    },
+    {
+     "tip": "Deal with the square root as an index of one half. Finishing this step is marked separately.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q4#(a)",
+       "quote": "Finishes (deals with square root)"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Even if you do not finish, some correct work with indices earns partial credit. Always write the base change down.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q4#(c)(i), (ii)",
+       "quote": "Some correct work with indices"
+      }
+     ]
+    },
+    {
+     "tip": "Listing powers of 2 is not enough. Writing both sides in the same base and handling the indices correctly is what earns the high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q4#(b)",
+       "quote": "List of powers of 2"
+      },
+      {
+       "part": "maths-pp-2020-ordinary-p1-q4#(b)",
+       "quote": "Indices handled correctly"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "ind-solve-equation",
+  "what": {
+   "say": [
+    "You give it an equation with powers on both sides, like $4^{x+2} = 32^{x-1}$. It gives back the value of $x$.",
+    "The key idea: if both sides are powers of the **same base**, the indices must be equal. Then you only have a linear equation to solve."
+   ],
+   "in": "$a^{f(x)} = a^{g(x)}$",
+   "out": "$x$"
+  },
+  "how": {
+   "ordinary": "On the ordinary paper it is the main skill of a part of its own in Paper 1, worth 5 to 15 marks, in 2019, 2020 and 2024."
+  },
+  "example": {
+   "question": "Solve $4^{x+2} = 32^{x-1}$ for $x$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write both in base 2",
+      "say": "$4$ is $2^2$ and $32$ is $2^5$. Rewrite each side as a power of $2$, and multiply the indices.",
+      "lines": [
+       {
+        "tex": "4^{x+2} &= (2^2)^{x+2}",
+        "sym": "(2**2)**(x+2)",
+        "new": true
+       },
+       {
+        "tex": "&= 2^{2x+4}",
+        "sym": "2**(2*x+4)"
+       },
+       {
+        "tex": "32^{x-1} &= (2^5)^{x-1}",
+        "sym": "(2**5)**(x-1)",
+        "new": true
+       },
+       {
+        "tex": "&= 2^{5x-5}",
+        "sym": "2**(5*x-5)"
+       }
+      ]
+     },
+     {
+      "title": "Equate the indices",
+      "say": "The bases are the same, so the indices must be equal. Write them as an equation.",
+      "lines": [
+       {
+        "tex": "2x + 4 &= 5x - 5",
+        "sym": "Eq(2*x+4, 5*x-5)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Collect the $x$ terms on one side and the numbers on the other.",
+      "lines": [
+       {
+        "tex": "9 &= 3x",
+        "sym": "Eq(9, 3*x)"
+       },
+       {
+        "tex": "x &= \\hl{1}{3}",
+        "sym": "Eq(x, 3)"
+       }
+      ]
+     },
+     {
+      "title": "Check the answer",
+      "say": "Put $\\hl{1}{x = 3}$ back into both sides. They should match.",
+      "lines": [
+       {
+        "tex": "4^{3+2} &= 4^5 = 1024",
+        "sym": "4**5",
+        "new": true
+       },
+       {
+        "tex": "32^{3-1} &= 32^2 = 1024",
+        "sym": "32**2"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = \\hl{1}{3}"
+   },
+   "finalSym": "3",
+   "answerSym": "solve(Eq(2*(x+2), 5*(x-1)), x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Reach an equation in $x$ from the indices, with the powers handled correctly. That is the step the high partial credit is tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q4#(b)",
+       "quote": "Indices handled correctly"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no work only earns low partial credit. Show the base change and the equation in $x$.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q6#(b)",
+       "quote": "Correct answer no work"
+      }
+     ]
+    },
+    {
+     "tip": "Listing powers of 2 earns only low partial credit. Write both sides in base 2 instead.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q6#(b)",
+       "quote": "List of powers of 2"
+      },
+      {
+       "part": "maths-pp-2020-ordinary-p1-q4#(b)",
+       "quote": "List of powers of 2"
+      }
+     ]
+    },
+    {
+     "tip": "Even a partly right attempt earns marks for correct work with indices, so write each rewrite out.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q4#(c)(i), (ii)",
+       "quote": "Some correct work with indices"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

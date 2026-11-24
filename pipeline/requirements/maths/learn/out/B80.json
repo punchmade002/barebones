@@ -1,0 +1,466 @@
+[
+ {
+  "skill": "stat-outlier-effect",
+  "what": {
+   "say": [
+    "You give it a data set with one **outlier** in it. It tells you which summary statistics move when that value is added or removed, and which stay put.",
+    "The key idea: the mean adds up every value, so one extreme value drags it. The median only counts positions, so it barely notices."
+   ],
+   "in": "data with an outlier",
+   "out": "effect on mean and median"
+  },
+  "how": {
+   "higher": "Higher level tests it as a short explanation on Paper 2 (2025, Q4(b), 5 marks of 30): say which statistic changes and give a reason for the mean and for the median."
+  },
+  "example": {
+   "question": "Seven students recorded the minutes they spent on homework: $12, 14, 15, 17, 18, 19, 45$. The value $45$ is removed. Find how much the mean falls and how much the median falls. Which one is affected more by the outlier, and why?",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Mean and median with 45",
+      "say": "Add all seven values and divide by $7$. With seven values the median is the 4th one.",
+      "lines": [
+       {
+        "tex": "\\bar{x} &= \\frac{12+14+15+17+18+19+45}{7}",
+        "sym": "(12+14+15+17+18+19+45)/7",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{140}{7}",
+        "sym": "140/7"
+       },
+       {
+        "tex": "&= 20",
+        "sym": "20"
+       },
+       {
+        "text": "The middle (4th) value is $17$, so the median is $17$."
+       }
+      ]
+     },
+     {
+      "title": "Mean and median without 45",
+      "say": "Now there are six values. Add them and divide by $6$. The median is halfway between the 3rd and 4th values.",
+      "lines": [
+       {
+        "tex": "\\bar{x} &= \\frac{12+14+15+17+18+19}{6}",
+        "sym": "(12+14+15+17+18+19)/6",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{95}{6}",
+        "sym": "Rational(95,6)"
+       },
+       {
+        "tex": "\\text{median} &= \\frac{15+17}{2}",
+        "sym": "(15+17)/2",
+        "new": true
+       },
+       {
+        "tex": "&= 16",
+        "sym": "16"
+       }
+      ]
+     },
+     {
+      "title": "Compare the falls",
+      "say": "Subtract each new value from the old one. The mean fell by $\\hl{1}{\\frac{25}{6}}$ and the median fell by $\\hl{2}{1}$.",
+      "lines": [
+       {
+        "tex": "20-\\frac{95}{6} &= \\hl{1}{\\frac{25}{6}}",
+        "sym": "Rational(25,6)",
+        "new": true
+       },
+       {
+        "tex": "17-16 &= \\hl{2}{1}",
+        "sym": "1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Explain why",
+      "say": "Say it in words. The mean uses the total, and $45$ is a big part of that total. The median only uses the middle position.",
+      "lines": [
+       {
+        "text": "The mean changes a lot because the outlier is added into the total. The median changes little because it depends only on the middle values, not on how large the biggest one is."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{mean falls by } \\tfrac{25}{6} \\approx 4.17,\\ \\text{median falls by } 1"
+   },
+   "finalSym": "Rational(25,6)",
+   "answerSym": "(12+14+15+17+18+19+45)/7-(12+14+15+17+18+19)/6"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Give a reason for both statistics: why the mean changes and why the median does not. One half alone earns only part of the marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q4#(b)",
+       "quote": "Two parts are required: why the mean changes"
+      }
+     ]
+    },
+    {
+     "tip": "Use a general reason, not a single example. A particular example loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q4#(b)",
+       "quote": "Apply a * if the justification is a particular"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "stat-compare-hl",
+  "what": {
+   "say": [
+    "You give it two distributions. It gives back a reasoned comparison of where each one is centred and how spread out it is.",
+    "The key idea: compare the **centre** (mean or median) and the **spread** (standard deviation or IQR) separately, with a number for each, then say what it means."
+   ],
+   "in": "two distributions",
+   "out": "reasoned comparison"
+  },
+  "how": {
+   "ordinary": "On Ordinary Level it appears on Paper 2 (2024, Q7(a)(iii), 5 marks of 50): decide whether the spread went up or down and give a reason."
+  },
+  "example": {
+   "question": "Two classes sat the same test. Five scores are taken from each. Class A: $10, 12, 13, 14, 16$. Class B: $8, 12, 14, 16, 20$. Find the mean and standard deviation of each class and compare the two classes.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Centre of each class",
+      "say": "Add the scores and divide by $5$ for each class.",
+      "lines": [
+       {
+        "tex": "\\bar{x}_A &= \\frac{10+12+13+14+16}{5}",
+        "sym": "(10+12+13+14+16)/5",
+        "new": true
+       },
+       {
+        "tex": "&= 13",
+        "sym": "13"
+       },
+       {
+        "tex": "\\bar{x}_B &= \\frac{8+12+14+16+20}{5}",
+        "sym": "(8+12+14+16+20)/5",
+        "new": true
+       },
+       {
+        "tex": "&= 14",
+        "sym": "14"
+       }
+      ]
+     },
+     {
+      "title": "Spread of Class A",
+      "say": "Standard deviation: square each distance from the mean, average them, then take the square root.",
+      "lines": [
+       {
+        "tex": "\\sigma_A &= \\sqrt{\\frac{(-3)^2+(-1)^2+0^2+1^2+3^2}{5}}",
+        "sym": "sqrt(((-3)**2+(-1)**2+0**2+1**2+3**2)/5)",
+        "new": true
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{20}{5}}",
+        "sym": "sqrt(Rational(20,5))"
+       },
+       {
+        "tex": "&= \\hl{1}{2}",
+        "sym": "2"
+       }
+      ]
+     },
+     {
+      "title": "Spread of Class B",
+      "say": "Do the same for Class B, using its mean of $14$.",
+      "lines": [
+       {
+        "tex": "\\sigma_B &= \\sqrt{\\frac{(-6)^2+(-2)^2+0^2+2^2+6^2}{5}}",
+        "sym": "sqrt(((-6)**2+(-2)**2+0**2+2**2+6**2)/5)",
+        "new": true
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{80}{5}}",
+        "sym": "sqrt(Rational(80,5))"
+       },
+       {
+        "tex": "&= \\hl{2}{4}",
+        "sym": "4"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "say": "Say which centre is higher and which spread is larger, with the numbers.",
+      "lines": [
+       {
+        "text": "Class B has the higher mean ($14$ against $13$), so it did slightly better on average."
+       },
+       {
+        "text": "Class B also has the larger standard deviation ($4$ against $2$), so its scores are more spread out. Class A is more consistent."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{B higher mean } (14 > 13),\\ \\text{B more spread } (\\sigma = 4 > 2)"
+   },
+   "finalSym": "2",
+   "answerSym": "sqrt(((8-14)**2+(12-14)**2+(14-14)**2+(16-14)**2+(20-14)**2)/5)-sqrt(((10-13)**2+(12-13)**2+(13-13)**2+(14-13)**2+(16-13)**2)/5)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Always write the reason. Ticking the right box with no reason, or a wrong one, earns only partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q7#(a)(iii)",
+       "quote": "Correct box ticked but no or incorrect reason given"
+      }
+     ]
+    },
+    {
+     "tip": "Show your work for the mean and standard deviation. Writing the correct formula or making a real start still earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q7#(a)(iii)",
+       "quote": "Work of merit, for example, effort at"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "inf-sampling-variability",
+  "what": {
+   "say": [
+    "You give it the result of one sample. It gives back a careful statement about the population, not a claim that the sample result is exactly the population value.",
+    "The key idea: a different sample would give a different result, so one sample is an **estimate**, not a fact."
+   ],
+   "in": "sample statistics",
+   "out": "cautious statement about the population"
+  },
+  "how": {},
+  "example": {
+   "question": "A school has $1200$ students. Two different samples of $50$ students are asked if they walk to school. In the first sample $20$ walk. In the second sample $26$ walk. Find the proportion that walk in each sample. Why do the two answers differ, and what can you say about all $1200$ students?",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Proportion in each sample",
+      "say": "Divide the number who walk by $50$ for each sample.",
+      "lines": [
+       {
+        "tex": "\\hat{p}_1 &= \\frac{20}{50}",
+        "sym": "Rational(20,50)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.4",
+        "sym": "Rational(2,5)"
+       },
+       {
+        "tex": "\\hat{p}_2 &= \\frac{26}{50}",
+        "sym": "Rational(26,50)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.52",
+        "sym": "Rational(13,25)"
+       }
+      ]
+     },
+     {
+      "title": "Compare the samples",
+      "say": "Find how far apart the two results are.",
+      "lines": [
+       {
+        "tex": "\\hat{p}_2 - \\hat{p}_1 &= \\hl{1}{0.12}",
+        "sym": "Rational(3,25)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Make a careful statement",
+      "say": "Each sample has different students in it, so each gives a different result. Neither one is the true value for the whole school.",
+      "lines": [
+       {
+        "text": "The two samples differ by $\\hl{1}{0.12}$ only because different students were picked. This is **sampling variability**."
+       },
+       {
+        "text": "So we say: about $40\\%$ to $52\\%$ of the school may walk. We cannot say exactly $40\\%$ or exactly $52\\%$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "0.4 \\text{ and } 0.52;\\ \\text{different samples give different results, so each is only an estimate}"
+   },
+   "finalSym": "Rational(3,25)",
+   "answerSym": "Rational(26,50)-Rational(20,50)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "inf-margin-of-error",
+  "what": {
+   "say": [
+    "You give it the sample size, $n$. It gives back the **margin of error**, how far the sample result could be from the true population value.",
+    "The key idea: a bigger sample is more reliable, so the margin shrinks as $n$ grows. The rule is $\\frac{1}{\\sqrt{n}}$."
+   ],
+   "in": "$n$",
+   "out": "$\\frac{1}{\\sqrt{n}}$"
+  },
+  "how": {
+   "higher": "Higher level uses it on Paper 2 every second year (2016, 2018, 2020, 2022, 2024) as one step of a confidence interval or hypothesis test, or backwards to find $n$.",
+   "ordinary": "Ordinary level asks for it on Paper 2 every year from 2015 to 2025, often as a 5-mark part of its own, then builds a confidence interval and tests a claim with it."
+  },
+  "example": {
+   "question": "A survey asks $750$ people which radio station they prefer. Find the margin of error, as a percentage correct to one decimal place.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the formula",
+      "say": "The margin of error depends only on the sample size $n$.",
+      "lines": [
+       {
+        "tex": "\\text{margin of error} &= \\frac{1}{\\sqrt{n}}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute n",
+      "say": "The sample has $750$ people, so put $n = 750$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{1}{\\sqrt{750}}",
+        "sym": "1/sqrt(750)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.036515\\ldots",
+        "sym": "0.036515",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Change to a percentage",
+      "say": "Multiply by $100$ and round to one decimal place.",
+      "lines": [
+       {
+        "tex": "&= 0.036515 \\times 100",
+        "sym": "3.6515",
+        "new": true,
+        "approx": true
+       },
+       {
+        "tex": "&= \\hl{1}{3.7\\%}",
+        "sym": "3.7",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3.7\\%"
+   },
+   "finalSym": "3.7",
+   "answerSym": "round(100/sqrt(750),1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Hypothesis tests are marked in four steps: hypotheses, calculation, conclusion, reason. Check you have written all four.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(d)",
+       "quote": "Note: 4 steps to check:"
+      }
+     ]
+    },
+    {
+     "tip": "Write the reason using your calculation: say whether the claimed value is inside the interval or not.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(d)",
+       "quote": "must be based on relevant calculations"
+      }
+     ]
+    },
+    {
+     "tip": "When you use the margin to find $n$, the scheme accepts rounding either way.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q9#(d)",
+       "quote": "Accept 493 farmers or 494 farmers"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Round the answer and say so. A mark is lost if the percentage is not rounded or is rounded wrongly.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q8#(c)(i)",
+       "quote": "Apply a * for no or incorrect rounding"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula $\\frac{1}{\\sqrt{n}}$ first. A correct formula alone earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q8#(c)(i)",
+       "quote": "Correct relevant formula"
+      }
+     ]
+    },
+    {
+     "tip": "The margin is a percentage, so multiply by $100$. Leaving it as a decimal only earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q10#(b)(i)",
+       "quote": "Answer given as 0.0258"
+      }
+     ]
+    },
+    {
+     "tip": "Give a conclusion and a reason when you test a claim: whether the value is inside the interval or outside it.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q7#(b)(i)",
+       "quote": "24% is inside the range found"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

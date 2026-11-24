@@ -1,0 +1,512 @@
+[
+ {
+  "skill": "ind-laws",
+  "problems": [
+   {
+    "question": "Simplify $\\frac{(5^2)^6 \\cdot 5^3}{5^8}$, giving your answer in the form $5^k$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Simplify the power of a power",
+       "lines": [
+        {
+         "text": "Multiply the indices: $(a^m)^n = a^{mn}$."
+        },
+        {
+         "tex": "(5^2)^6 &= 5^{2 \\times 6}",
+         "sym": "Eq((5**2)**6, 5**(2*6))",
+         "new": true
+        },
+        {
+         "tex": "&= 5^{12}",
+         "sym": "Eq(5**(2*6), 5**12)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply the powers",
+       "lines": [
+        {
+         "text": "Add the indices: $a^m \\cdot a^n = a^{m+n}$."
+        },
+        {
+         "tex": "5^{12} \\cdot 5^3 &= 5^{12+3}",
+         "sym": "Eq(5**12*5**3, 5**(12+3))",
+         "new": true
+        },
+        {
+         "tex": "&= 5^{15}",
+         "sym": "Eq(5**(12+3), 5**15)"
+        }
+       ]
+      },
+      {
+       "title": "Divide the powers",
+       "lines": [
+        {
+         "text": "Subtract the indices: $a^m \\div a^n = a^{m-n}$."
+        },
+        {
+         "tex": "\\frac{5^{15}}{5^8} &= 5^{15-8}",
+         "sym": "Eq(5**15/5**8, 5**(15-8))",
+         "new": true
+        },
+        {
+         "tex": "&= 5^7",
+         "sym": "Eq(5**(15-8), 5**7)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "5^7"
+    },
+    "finalSym": "5**7",
+    "answerSym": "(5**2)**6*5**3/5**8"
+   },
+   {
+    "question": "Simplify $\\frac{(2a^3)^4}{8a^5}$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Raise the numerator to the power",
+       "lines": [
+        {
+         "text": "Apply the power to the $2$ and to $a^3$."
+        },
+        {
+         "tex": "(2a^3)^4 &= 2^4 a^{3 \\times 4}",
+         "sym": "Eq((2*a**3)**4, 2**4*a**(3*4))",
+         "new": true
+        },
+        {
+         "tex": "&= 16a^{12}",
+         "sym": "Eq(2**4*a**(3*4), 16*a**12)"
+        }
+       ]
+      },
+      {
+       "title": "Divide the numbers and subtract the indices",
+       "lines": [
+        {
+         "tex": "\\frac{16a^{12}}{8a^5} &= \\frac{16}{8}\\, a^{12-5}",
+         "sym": "Eq(16*a**12/(8*a**5), Rational(16,8)*a**(12-5))",
+         "new": true
+        },
+        {
+         "tex": "&= 2a^7",
+         "sym": "Eq(Rational(16,8)*a**(12-5), 2*a**7)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2a^7"
+    },
+    "finalSym": "2*a**7",
+    "answerSym": "(2*a**3)**4/(8*a**5)"
+   }
+  ]
+ },
+ {
+  "skill": "ind-negative-fractional",
+  "problems": [
+   {
+    "question": "Evaluate $16^{-\\frac{3}{4}}$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Remove the negative index",
+       "lines": [
+        {
+         "text": "Use $a^{-n} = \\dfrac{1}{a^n}$."
+        },
+        {
+         "tex": "16^{-\\frac{3}{4}} &= \\frac{1}{16^{\\frac{3}{4}}}",
+         "sym": "Eq(16**Rational(-3,4), 1/16**Rational(3,4))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Take the fourth root of 16",
+       "lines": [
+        {
+         "text": "The denominator of the index is the root: $a^{\\frac{1}{4}} = \\sqrt[4]{a}$."
+        },
+        {
+         "tex": "16^{\\frac{1}{4}} &= 2",
+         "sym": "Eq(16**Rational(1,4), 2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Cube the result",
+       "lines": [
+        {
+         "text": "The numerator of the index is the power."
+        },
+        {
+         "tex": "16^{\\frac{3}{4}} &= \\left(16^{\\frac{1}{4}}\\right)^3",
+         "sym": "Eq(16**Rational(3,4), (16**Rational(1,4))**3)",
+         "new": true
+        },
+        {
+         "tex": "&= 2^3",
+         "sym": "Eq((16**Rational(1,4))**3, 2**3)"
+        },
+        {
+         "tex": "&= 8",
+         "sym": "Eq(2**3, 8)"
+        }
+       ]
+      },
+      {
+       "title": "Write the answer",
+       "lines": [
+        {
+         "tex": "16^{-\\frac{3}{4}} &= \\frac{1}{8}",
+         "sym": "Eq(16**Rational(-3,4), Rational(1,8))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{1}{8}"
+    },
+    "finalSym": "Rational(1,8)",
+    "answerSym": "16**Rational(-3,4)"
+   },
+   {
+    "question": "Evaluate $\\left(\\frac{4}{9}\\right)^{-\\frac{3}{2}}$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Flip the fraction",
+       "lines": [
+        {
+         "text": "A negative index flips the fraction."
+        },
+        {
+         "tex": "\\left(\\frac{4}{9}\\right)^{-\\frac{3}{2}} &= \\left(\\frac{9}{4}\\right)^{\\frac{3}{2}}",
+         "sym": "Eq(Rational(4,9)**Rational(-3,2), Rational(9,4)**Rational(3,2))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Split into a root and a power",
+       "lines": [
+        {
+         "text": "An index of $\\frac{3}{2}$ means square root, then cube."
+        },
+        {
+         "tex": "\\left(\\frac{9}{4}\\right)^{\\frac{3}{2}} &= \\left(\\sqrt{\\frac{9}{4}}\\right)^3",
+         "sym": "Eq(Rational(9,4)**Rational(3,2), sqrt(Rational(9,4))**3)",
+         "new": true
+        },
+        {
+         "tex": "&= \\left(\\frac{3}{2}\\right)^3",
+         "sym": "Eq(sqrt(Rational(9,4))**3, Rational(3,2)**3)"
+        }
+       ]
+      },
+      {
+       "title": "Cube the fraction",
+       "lines": [
+        {
+         "tex": "\\left(\\frac{3}{2}\\right)^3 &= \\frac{27}{8}",
+         "sym": "Eq(Rational(3,2)**3, Rational(27,8))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{27}{8}"
+    },
+    "finalSym": "Rational(27,8)",
+    "answerSym": "Rational(4,9)**Rational(-3,2)"
+   }
+  ]
+ },
+ {
+  "skill": "ind-express-as-power",
+  "problems": [
+   {
+    "question": "Write $\\frac{\\sqrt{2}}{16}$ as a power of $2$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write each part as a power of 2",
+       "lines": [
+        {
+         "tex": "\\sqrt{2} &= 2^{\\frac{1}{2}}",
+         "sym": "Eq(sqrt(2), 2**Rational(1,2))",
+         "new": true
+        },
+        {
+         "tex": "16 &= 2^4",
+         "sym": "Eq(16, 2**4)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Divide the powers",
+       "lines": [
+        {
+         "text": "Subtract the indices."
+        },
+        {
+         "tex": "\\frac{\\sqrt{2}}{16} &= \\frac{2^{\\frac{1}{2}}}{2^4}",
+         "sym": "Eq(sqrt(2)/16, 2**Rational(1,2)/2**4)",
+         "new": true
+        },
+        {
+         "tex": "&= 2^{\\frac{1}{2}-4}",
+         "sym": "Eq(2**Rational(1,2)/2**4, 2**(Rational(1,2)-4))"
+        },
+        {
+         "tex": "&= 2^{-\\frac{7}{2}}",
+         "sym": "Eq(2**(Rational(1,2)-4), 2**Rational(-7,2))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2^{-\\frac{7}{2}}"
+    },
+    "finalSym": "2**Rational(-7,2)",
+    "answerSym": "sqrt(2)/16"
+   },
+   {
+    "question": "Solve for $x$: $9^{x+1} = 27^{x-1}$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write both sides as powers of 3",
+       "lines": [
+        {
+         "tex": "9^{x+1} &= (3^2)^{x+1}",
+         "sym": "Eq(9**(x+1), (3**2)**(x+1))",
+         "new": true
+        },
+        {
+         "tex": "27^{x-1} &= (3^3)^{x-1}",
+         "sym": "Eq(27**(x-1), (3**3)**(x-1))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Multiply the indices",
+       "lines": [
+        {
+         "text": "Use $(a^m)^n = a^{mn}$."
+        },
+        {
+         "tex": "(3^2)^{x+1} &= 3^{2x+2}",
+         "sym": "Eq((3**2)**(x+1), 3**(2*x+2))",
+         "new": true
+        },
+        {
+         "tex": "(3^3)^{x-1} &= 3^{3x-3}",
+         "sym": "Eq((3**3)**(x-1), 3**(3*x-3))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Equate the indices",
+       "lines": [
+        {
+         "text": "The bases are equal, so the powers must be equal."
+        },
+        {
+         "tex": "3^{2x+2} &= 3^{3x-3}",
+         "sym": "Eq(3**(2*x+2), 3**(3*x-3))",
+         "new": true
+        },
+        {
+         "tex": "2x + 2 &= 3x - 3",
+         "sym": "Eq(2*x+2, 3*x-3)",
+         "new": true
+        },
+        {
+         "tex": "x &= 5",
+         "sym": "Eq(x, 5)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 5"
+    },
+    "finalSym": "[5]",
+    "answerSym": "solve(Eq(9**(x+1), 27**(x-1)), x)"
+   },
+   {
+    "question": "Write $\\frac{25}{\\sqrt{5}}$ as a power of $5$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write each part as a power of 5",
+       "lines": [
+        {
+         "tex": "25 &= 5^2",
+         "sym": "Eq(25, 5**2)",
+         "new": true
+        },
+        {
+         "tex": "\\sqrt{5} &= 5^{\\frac{1}{2}}",
+         "sym": "Eq(sqrt(5), 5**Rational(1,2))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Divide the powers",
+       "lines": [
+        {
+         "text": "Subtract the indices."
+        },
+        {
+         "tex": "\\frac{25}{\\sqrt{5}} &= \\frac{5^2}{5^{\\frac{1}{2}}}",
+         "sym": "Eq(25/sqrt(5), 5**2/5**Rational(1,2))",
+         "new": true
+        },
+        {
+         "tex": "&= 5^{2-\\frac{1}{2}}",
+         "sym": "Eq(5**2/5**Rational(1,2), 5**(2-Rational(1,2)))"
+        },
+        {
+         "tex": "&= 5^{\\frac{3}{2}}",
+         "sym": "Eq(5**(2-Rational(1,2)), 5**Rational(3,2))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "5^{\\frac{3}{2}}"
+    },
+    "finalSym": "5**Rational(3,2)",
+    "answerSym": "25/sqrt(5)"
+   }
+  ]
+ },
+ {
+  "skill": "log-definition",
+  "problems": [
+   {
+    "question": "Solve for $x$: $\\log_2 (x + 4) = 5$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Convert to index form",
+       "lines": [
+        {
+         "text": "$\\log_a b = c$ means $a^c = b$."
+        },
+        {
+         "tex": "\\log_2 (x+4) &= 5",
+         "sym": "Eq(log(x+4, 2), 5)",
+         "new": true
+        },
+        {
+         "tex": "x + 4 &= 2^5",
+         "sym": "Eq(x+4, 2**5)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "x + 4 &= 32",
+         "sym": "Eq(x+4, 32)",
+         "new": true
+        },
+        {
+         "tex": "x &= 28",
+         "sym": "Eq(x, 28)"
+        }
+       ]
+      },
+      {
+       "title": "Check the answer",
+       "lines": [
+        {
+         "text": "Put $x = 28$ back in."
+        },
+        {
+         "tex": "\\log_2 32 &= 5",
+         "sym": "Eq(log(32, 2), 5)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 28"
+    },
+    "finalSym": "[28]",
+    "answerSym": "solve(Eq(log(x+4, 2), 5), x)"
+   },
+   {
+    "question": "Solve for $x$, giving your answer in terms of $\\ln$: $2e^x - 1 = 9$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Isolate $e^x$",
+       "lines": [
+        {
+         "tex": "2e^x - 1 &= 9",
+         "sym": "Eq(2*exp(x)-1, 9)",
+         "new": true
+        },
+        {
+         "tex": "2e^x &= 10",
+         "sym": "Eq(2*exp(x), 10)"
+        },
+        {
+         "tex": "e^x &= 5",
+         "sym": "Eq(exp(x), 5)"
+        }
+       ]
+      },
+      {
+       "title": "Convert to log form",
+       "lines": [
+        {
+         "text": "$e^x = a$ means $x = \\ln a$."
+        },
+        {
+         "tex": "x &= \\ln 5",
+         "sym": "Eq(x, log(5))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = \\ln 5"
+    },
+    "finalSym": "[log(5)]",
+    "answerSym": "solve(Eq(2*exp(x)-1, 9), x)"
+   }
+  ]
+ }
+]

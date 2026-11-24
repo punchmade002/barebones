@@ -1,0 +1,407 @@
+[
+ {
+  "part": "maths-pp-2022-higher-p1-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Write 1/x as a power of x\ng(x) &= x^2 - \\frac{1}{x}\n&= x^2 - x^{-1}\n## Differentiate each term\nUse $\\dfrac{d}{dx}(x^n) = nx^{n-1}$ on each term.\ng'(x) &= 2x - (-1)x^{-2}\n&= 2x + x^{-2}\n&= 2x + \\frac{1}{x^2}\nANSWER: g'(x) = 2x + \\frac{1}{x^2}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q5#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths1",
+   "maths2"
+  ],
+  "marks": 15,
+  "solution": "## Divide f(x) by (x + 1): first term\nDivide the leading terms: $2x^3 \\div x = 2x^2$.\n2x^2(x + 1) &= 2x^3 + 2x^2\n&= 2x^3 + 2x^2\n## Subtract to leave the remainder so far\n(2x^3 - 21x^2 + 40x + 63) - (2x^3 + 2x^2) &= -23x^2 + 40x + 63\n&= -23x^2 + 40x + 63\n## Second term of the quotient\nDivide the leading terms: $-23x^2 \\div x = -23x$.\n-23x(x + 1) &= -23x^2 - 23x\n&= -23x^2 - 23x\n## Subtract again\n(-23x^2 + 40x + 63) - (-23x^2 - 23x) &= 63x + 63\n&= 63x + 63\n## Third term of the quotient\nDivide the leading terms: $63x \\div x = 63$.\n63(x + 1) &= 63x + 63\n&= 63x + 63\nSubtracting leaves $0$, so the quotient is $2x^2 - 23x + 63$.\nf(x) &= (x + 1)(2x^2 - 23x + 63)\n## Factorise the quadratic\nFind two numbers with product $2 \\times 63 = 126$ and sum $-23$: they are $-14$ and $-9$.\n2x^2 - 23x + 63 &= 2x^2 - 14x - 9x + 63\n&= 2x(x - 7) - 9(x - 7)\n&= (2x - 9)(x - 7)\n## Set f(x) = 0 and solve each factor\n(x + 1)(2x - 9)(x - 7) &= 0\nx &= -1 \\quad \\text{or} \\quad x = \\frac{9}{2} \\quad \\text{or} \\quad x = 7\nANSWER: x = -1, \\ 4.5, \\ 7"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q5#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate f(x)\nf(x) &= 2x^3 - 21x^2 + 40x + 63\nf'(x) &= 6x^2 - 42x + 40\n## Set up the inequality f'(x) < 0\n6x^2 - 42x + 40 &< 0\n## Find the roots of 6x² − 42x + 40 = 0\nUse the quadratic formula with $a = 6$, $b = -42$, $c = 40$.\nx &= \\frac{42 \\pm \\sqrt{42^2 - 4(6)(40)}}{2(6)}\n&= \\frac{42 \\pm \\sqrt{804}}{12}\nx &\\approx 1.137 \\quad \\text{or} \\quad x \\approx 5.862\n## Choose the range where f'(x) is negative\nThe graph of $6x^2 - 42x + 40$ is a U-shape, so it is negative between the roots.\n1.137 &< x < 5.862\n1.14 &< x < 5.86\nANSWER: 1.14 < x < 5.86"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 15,
+  "solution": "## Write the first-principles definition\nf'(x) &= \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}\n## Find f(x + h)\nReplace every $x$ in $f(x) = 2x^2 + 4x$ with $x + h$.\nf(x + h) &= 2(x + h)^2 + 4(x + h)\n&= 2(x^2 + 2xh + h^2) + 4x + 4h\n&= 2x^2 + 4xh + 2h^2 + 4x + 4h\n## Find f(x + h) − f(x)\nf(x + h) - f(x) &= 2x^2 + 4xh + 2h^2 + 4x + 4h - 2x^2 - 4x\n&= 4xh + 2h^2 + 4h\n## Divide by h\n\\frac{f(x + h) - f(x)}{h} &= \\frac{4xh + 2h^2 + 4h}{h}\nEvery term has a factor of $h$, so divide each term by $h$.\n&= 4x + 2h + 4\n## Let h tend to 0\nf'(x) &= \\lim_{h \\to 0} (4x + 2h + 4)\n&= 4x + 4\nANSWER: f'(x) = 4x + 4"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Write the area in terms of x\nWidth is $x$ and length is $4x$.\nA &= l \\times w\n&= 4x \\times x\n&= 4x^2\n## Find x when the area is 225\n4x^2 &= 225\nx^2 &= \\frac{225}{4}\nTake the positive root, since $x > 0$.\nx &= \\frac{15}{2}\n## Differentiate the area with respect to x\nA &= 4x^2\n\\frac{dA}{dx} &= 8x\n## Substitute x = 15/2\n\\frac{dA}{dx} &= 8\\left(\\frac{15}{2}\\right)\n&= 60\nANSWER: \\frac{dA}{dx} = 60 \\text{ cm}^2/\\text{cm}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q6#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Read the gradient of p(x) at key points\nThe value of $p'(x)$ is the gradient of $p(x)$.\nAt $x = 1$ and $x = 3$, $p(x)$ has a turning point, so the gradient is $0$: $p'(1) = 0$ and $p'(3) = 0$.\n$p(x)$ is steepest uphill at its inflection point $x = 2$, where the gradient is at its maximum, so $p'(2) = 1$.\nWe are given $p'(0) = -3$.\n## Use the shape of p'(x) to find the last point\n$p(x)$ is a cubic, so $p'(x)$ is a quadratic: a U-shape upside down, with its peak at $(2, 1)$.\nA quadratic is symmetric about its peak, so $x = 4$ matches $x = 0$: $p'(4) = -3$.\n## Plot the points and join them\nPlot $(0, -3)$, $(1, 0)$, $(2, 1)$, $(3, 0)$ and $(4, -3)$, then draw a smooth curve through them.\nANSWER: \\text{Quadratic through } (0,-3),\\ (1,0),\\ (2,1),\\ (3,0),\\ (4,-3)"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q7#(a), (b)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Substitute x = 4 into h(x)\nFour minutes after the start means $x = 4$.\nh(4) &= 2(4)^3 - 28.5(4)^2 + 105(4) + 70\n&= 2(64) - 28.5(16) + 420 + 70\n## Work out each term\n&= 128 - 456 + 420 + 70\n&= 162\n## Differentiate each term of h(x)\nUse $\\frac{d}{dx}(ax^n) = nax^{n-1}$ on each term; the constant 70 differentiates to 0.\nh'(x) &= 3(2x^2) - 2(28.5x) + 105\n&= 6x^2 - 57x + 105\nANSWER: h(4) = 162 \\text{ BPM}, \\quad h'(x) = 6x^2 - 57x + 105"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 2 into h'(x)\nh'(2) &= 6(2)^2 - 57(2) + 105\n&= 24 - 114 + 105\n&= 15\n## Say what the derivative means\n$h'(x)$ is the rate of change of heart-rate with time, in beats per minute per minute.\nSince $h'(2) = 15$ is positive, after 2 minutes Hannah's heart-rate is increasing at 15 BPM per minute.\nANSWER: h'(2) = 15 \\text{: her heart-rate is increasing at 15 BPM per minute after 2 minutes}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 15,
+  "solution": "## Find the value at the start\nFrom the graph, the least value is at the left-hand end, $x = 0$.\nh(0) &= 2(0)^3 - 28.5(0)^2 + 105(0) + 70\n&= 70\nThe graph at $x = 8$ is higher than at $x = 0$, and $h(8) = 110 > 70$, so the least value is 70.\n## Set the derivative equal to zero\nThe greatest value is at a local maximum, where the slope is zero.\n6x^2 - 57x + 105 &= 0\n2x^2 - 19x + 35 &= 0\n## Factorise and solve for x\n(2x - 5)(x - 7) &= 0\nx &= 2.5 \\text{ or } x = 7\nFrom the graph the local maximum comes first, at $x = 2.5$ (the local minimum is at $x = 7$).\n## Substitute x = 2.5 into h(x)\nh(2.5) &= 2(2.5)^3 - 28.5(2.5)^2 + 105(2.5) + 70\n&= 31.25 - 178.125 + 262.5 + 70\n&= 185.625\nANSWER: \\text{Least value} = 70, \\quad \\text{Greatest value} = 185.625"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q7#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Decide where the rate is decreasing fastest\nThe heart-rate falls fastest where $h'(x)$ is as negative as possible, that is at the minimum of $h'(x)$.\nThat happens where the slope of $h'(x)$ is zero, so $h''(x) = 0$.\nh'(x) &= 6x^2 - 57x + 105\nh''(x) &= 12x - 57\n## Set h''(x) = 0 and solve\n12x - 57 &= 0\n12x &= 57\nx &= \\frac{57}{12}\nx &= 4.75\n## Convert 0.75 of a minute to seconds\n0.75 \\times 60 &= 45 \\text{ seconds}\nSo $4.75$ minutes is 4 minutes 45 seconds.\nANSWER: 4 \\text{ minutes } 45 \\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q7#(f)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Write b'(x) in terms of h'(x)\nBruno's rate is $b(x) = h(x) + 15$.\nThe derivative of a constant is 0, so the 15 disappears.\nb'(x) &= h'(x) + 0\n&= h'(x)\n## Write k'(x) in terms of h'(x)\nKaren has 10% less, which is 90% of Hannah's rate, so $k(x) = 0.9\\,h(x)$.\nA constant multiplier stays in front when differentiating.\nk'(x) &= 0.9\\,h'(x)\nANSWER: b'(x) = h'(x), \\quad k'(x) = 0.9\\,h'(x)"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q7#(g)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Replace x with 0.8x in h(x)\nm(x) &= 2(0.8x)^3 - 28.5(0.8x)^2 + 105(0.8x) + 70\n## Expand the powers of 0.8x\n&= 2(0.512x^3) - 28.5(0.64x^2) + 105(0.8x) + 70\n## Multiply out each coefficient\n&= 1.024x^3 - 18.24x^2 + 84x + 70\nANSWER: m(x) = 1.024x^3 - 18.24x^2 + 84x + 70"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q8#(a), (b)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Use h(t) = 72 - 60cos(πt/3) at each t\nWork in radians. $h(1) = 42$ is given, so we find the other eight values.\n## Substitute t = 0\nh(0) &= 72 - 60\\cos\\left(0\\right)\n&= 72 - 60\\left(1\\right)\n&= 72 - 60\n&= 12\n## Substitute t = 2\nh(2) &= 72 - 60\\cos\\left(\\frac{2\\pi}{3}\\right)\n&= 72 - 60\\left(-\\frac{1}{2}\\right)\n&= 72 + 30\n&= 102\n## Substitute t = 3\nh(3) &= 72 - 60\\cos\\left(\\pi\\right)\n&= 72 - 60\\left(-1\\right)\n&= 72 + 60\n&= 132\n## Substitute t = 4\nh(4) &= 72 - 60\\cos\\left(\\frac{4\\pi}{3}\\right)\n&= 72 - 60\\left(-\\frac{1}{2}\\right)\n&= 72 + 30\n&= 102\n## Substitute t = 5\nh(5) &= 72 - 60\\cos\\left(\\frac{5\\pi}{3}\\right)\n&= 72 - 60\\left(\\frac{1}{2}\\right)\n&= 72 - 30\n&= 42\n## Substitute t = 6\nh(6) &= 72 - 60\\cos\\left(2\\pi\\right)\n&= 72 - 60\\left(1\\right)\n&= 72 - 60\n&= 12\n## Substitute t = 7\nh(7) &= 72 - 60\\cos\\left(\\frac{7\\pi}{3}\\right)\n&= 72 - 60\\left(\\frac{1}{2}\\right)\n&= 72 - 30\n&= 42\n## Substitute t = 8\nh(8) &= 72 - 60\\cos\\left(\\frac{8\\pi}{3}\\right)\n&= 72 - 60\\left(-\\frac{1}{2}\\right)\n&= 72 + 30\n&= 102\n## Plot the nine points and join them\nPlot $(0,12), (1,42), (2,102), (3,132), (4,102), (5,42), (6,12), (7,42), (8,102)$.\nJoin them with a smooth wave-shaped curve: it starts at its lowest value 12, rises to 132 at $t = 3$, falls to 12 at $t = 6$, then rises again.\nANSWER: \\text{Table: } 12,\\ 42,\\ 102,\\ 132,\\ 102,\\ 42,\\ 12,\\ 42,\\ 102"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Find the period\nThe period of $\\cos(bt)$ is $\\frac{2\\pi}{b}$, and here $b = \\frac{\\pi}{3}$.\n\\text{Period} &= \\frac{2\\pi}{\\pi/3}\n&= 2\\pi \\times \\frac{3}{\\pi}\n&= 6\nThis agrees with the graph: it repeats every 6 minutes.\n## Find the range\nStart from the fact that cosine lies between $-1$ and $1$. Let $c = \\cos\\left(\\frac{\\pi}{3}t\\right)$.\n-1 \\le c &\\le 1\n-60 \\le -60c &\\le 60\n12 \\le 72 - 60c &\\le 132\nANSWER: \\text{Period} = 6, \\quad \\text{Range} = [12, 132]"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q8#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Find the time above 42 m in one period\nFrom part (a), $h(1) = 42$ and $h(5) = 42$, and the graph is above 42 between $t = 1$ and $t = 5$.\n5 - 1 &= 4 \\text{ minutes above 42 m in each period}\n## Count the full periods in 50 minutes\nThe period is 6 minutes.\n50 \\div 6 &= 8 \\text{ remainder } 2\n## Add up the time above 42 m\n8 full periods give $8 \\times 4$ minutes above 42 m.\n8 \\times 4 &= 32\nThe 2 leftover minutes can be chosen to be in the part of the cycle above 42 m, so all 2 count.\n32 + 2 &= 34\nANSWER: 34 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q8#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Isolate the cosine\n72 - 60\\cos\\left(\\frac{\\pi}{3}t\\right) &= 110\n-60\\cos\\left(\\frac{\\pi}{3}t\\right) &= 38\n\\cos\\left(\\frac{\\pi}{3}t\\right) &= -\\frac{38}{60}\n\\cos\\left(\\frac{\\pi}{3}t\\right) &= -\\frac{19}{30}\n## Find the reference angle\nIgnore the minus sign and use inverse cosine (calculator in radian mode).\n\\text{Reference angle} &= \\cos^{-1}\\left(\\frac{19}{30}\\right)\n&= 0.8849\\ldots\n## Choose the quadrant for the second time\nCosine is negative in quadrants 2 and 3. The heart-height first reaches 110 m in quadrant 2 and the second time in quadrant 3.\n\\frac{\\pi}{3}t &= \\pi + 0.8849\\ldots\n## Solve for t\nt &= \\frac{3\\left(\\pi + 0.8849\\ldots\\right)}{\\pi}\n&= 3.8451\\ldots\n&\\approx 3.85\nANSWER: t \\approx 3.85 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q8#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Write the average value as an integral\nAverage value $= \\frac{1}{b-a}\\int_a^b h(t)\\,dt$, with $a = 0$ and $b = 8$.\n\\text{Average} &= \\frac{1}{8}\\int_0^8 \\left(72 - 60\\cos\\left(\\frac{\\pi}{3}t\\right)\\right)dt\n## Integrate\n$\\int \\cos(kt)\\,dt = \\frac{1}{k}\\sin(kt)$, with $k = \\frac{\\pi}{3}$, so $\\int 60\\cos\\left(\\frac{\\pi}{3}t\\right)dt = \\frac{180}{\\pi}\\sin\\left(\\frac{\\pi}{3}t\\right)$.\n\\text{Average} &= \\frac{1}{8}\\left[72t - \\frac{180}{\\pi}\\sin\\left(\\frac{\\pi}{3}t\\right)\\right]_0^8\n## Substitute the limits\n&= \\frac{1}{8}\\left(72(8) - \\frac{180}{\\pi}\\sin\\frac{8\\pi}{3}\\right) - \\frac{1}{8}\\left(72(0) - \\frac{180}{\\pi}\\sin 0\\right)\n## Evaluate (calculator in radian mode)\n&= \\frac{1}{8}\\left(576 - 49.6196\\ldots\\right) - 0\n&= 65.7975\\ldots\n&\\approx 65.8\nANSWER: 65.8 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 2.5\n\\text{Amount} &= 15(0.6)^{2.5}\n&= 4.1828\\ldots\n&\\approx 4.18\nANSWER: 4.18 \\text{ mg}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Set the amount equal to 1 and isolate the power\n15(0.6)^t &= 1\n(0.6)^t &= \\frac{1}{15}\n## Take logs of both sides\n\\ln\\left(0.6^t\\right) &= \\ln\\frac{1}{15}\nBring the power down in front: $\\ln(a^t) = t\\ln a$.\nt\\ln 0.6 &= \\ln\\frac{1}{15}\n## Solve for t\nt &= \\frac{\\ln\\frac{1}{15}}{\\ln 0.6}\nt &= 5.3013\\ldots\nt &\\approx 5.3\nANSWER: t \\approx 5.3 \\text{ days}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Work out what is left from each injection\nEach day the amount from an injection is multiplied by $0.6$ (it decreases by 40%).\n$15$ is the amount from the 4th injection, just given.\n$15(0.6)$ is the amount left from the 3rd injection, given 1 day ago.\n$15(0.6)^2$ is the amount left from the 2nd injection, given 2 days ago.\n$15(0.6)^3$ is the amount left from the 1st injection, given 3 days ago.\n## Add the four amounts\n\\text{Total} &= 15 + 15(0.6) + 15(0.6)^2 + 15(0.6)^3\nANSWER: 15 + 15(0.6) + 15(0.6)^2 + 15(0.6)^3"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Recognise a geometric series\nThe terms are $15 + 15(0.6) + \\dots + 15(0.6)^9$: first term $a = 15$, common ratio $r = 0.6$, and $n = 10$ terms.\n## Write down the sum formula and substitute\nS_{n} &= \\frac{a\\left(1 - r^{n}\\right)}{1 - r}\nS_{10} &= \\frac{15\\left(1 - 0.6^{10}\\right)}{1 - 0.6}\n&= \\frac{15\\left(1 - 0.6^{10}\\right)}{0.4}\n&= 37.5\\left(1 - 0.6^{10}\\right)\n## Evaluate\n&= 37.2733\\ldots\n&\\approx 37.27\nANSWER: 37.27 \\text{ mg}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q9#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Use the sum to infinity formula\nThis applies because $|r| = 0.6 < 1$, with $a = 15$.\nS_{\\infty} &= \\frac{a}{1 - r}\n&= \\frac{15}{1 - 0.6}\n&= \\frac{15}{0.4}\n&= 37.5\nANSWER: 37.5 \\text{ mg}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q9#(f)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Write the amounts from each injection\nA 15% decrease each day means each amount is multiplied by $0.85$.\nJust after the $n$th injection: $d$ from the newest, $0.85d$ from the one before, and so on back to the first.\nS_{n} &= d + d(0.85) + d(0.85)^2 + \\dots + d(0.85)^{n-1}\n## Identify the geometric series\nFirst term $a = d$, common ratio $r = 0.85$, and $n$ terms.\nS_{n} &= \\frac{a\\left(1 - r^{n}\\right)}{1 - r}\n## Substitute a = d and r = 0.85\n&= \\frac{d\\left(1 - 0.85^{n}\\right)}{1 - 0.85}\n&= \\frac{d\\left(1 - 0.85^{n}\\right)}{0.15}\n## Simplify the fraction\n&= \\frac{100}{15}\\,d\\left(1 - 0.85^{n}\\right)\n&= \\frac{20}{3}\\,d\\left(1 - 0.85^{n}\\right)\n&= \\frac{20d\\left(1 - 0.85^{n}\\right)}{3}\nANSWER: S_n = \\frac{20d\\left(1 - 0.85^{n}\\right)}{3}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q9#(f)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Put n = 7 and the total equal to 50\n\\frac{20d\\left(1 - 0.85^{7}\\right)}{3} &= 50\n## Solve for d\n20d\\left(1 - 0.85^{7}\\right) &= 150\nd &= \\frac{150}{20\\left(1 - 0.85^{7}\\right)}\n## Evaluate and round to the nearest mg\nd &= 11.0388\\ldots\nd &\\approx 11\nANSWER: 11 \\text{ mg}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q10#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 3 into P(t)\nP(3) &= 0.82 - 0.12\\ln(3+1)\n&= 0.82 - 0.12\\ln 4\n## Evaluate and round to 2 decimal places\n&= 0.6536\\ldots\n&\\approx 0.65\nANSWER: 0.65"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q10#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set P(t) equal to 0.55\n0.82 - 0.12\\ln(t+1) &= 0.55\n## Isolate ln(t + 1)\nSubtract $0.82$ from both sides.\n-0.12\\ln(t+1) &= -0.27\nDivide both sides by $-0.12$.\n\\ln(t+1) &= \\frac{0.27}{0.12}\n\\ln(t+1) &= 2.25\n## Remove the log by using e\n$\\ln x = y$ means $x = e^{y}$.\nt+1 &= e^{2.25}\nt &= e^{2.25} - 1\n## Evaluate and round\nt &= 8.487\\ldots\nt &\\approx 8.49 \\text{ hours}\nANSWER: t = 8.49\\text{ hours}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q10#(c)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate P(t)\nThe derivative of $\\ln(t+1)$ is $\\frac{1}{t+1}$, and the constant $0.82$ differentiates to $0$.\nP(t) &= 0.82 - 0.12\\ln(t+1)\nP'(t) &= -0.12 \\times \\frac{1}{t+1}\n&= \\frac{-0.12}{t+1}\n## Substitute t = 1 into P'(t)\nP'(1) &= \\frac{-0.12}{1+1}\n&= \\frac{-0.12}{2}\n&= -0.06\n## Interpret the sign of P'(t) in part (ii)\n$P'(t)$ is the rate of change of the proportion recalled. It is negative, so $P$ is decreasing.\nThe proportion of digits recalled correctly decreases as the time $t$ increases.\nANSWER: P'(1) = -0.06;\\ \\text{the proportion recalled decreases over time}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q10#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Points of inflection need the second derivative\nAt a point of inflection $P''(t) = 0$, so find $P''(t)$.\n## Find P''(t)\nP'(t) &= -0.12(t+1)^{-1}\nP''(t) &= -0.12 \\times \\left(-(t+1)^{-2}\\right)\n&= \\frac{0.12}{(t+1)^2}\n## Try to solve P''(t) = 0\n\\frac{0.12}{(t+1)^2} &= 0\nMultiply both sides by $(t+1)^2$, which is positive on $0 \\le t \\le 12$.\n0.12 &= 0\nThis is a contradiction, since $0.12 \\neq 0$. So $P''(t) \\neq 0$ for every $t$.\n## State the conclusion\n$P''(t)$ is never zero, so the graph of $y = P(t)$ has no points of inflection.\nANSWER: P''(t) = \\frac{0.12}{(t+1)^2} \\neq 0 \\text{, so no points of inflection}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q10#(e)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Take log base 10 of both sides\nA &= B(t+1)^c\n\\log_{10} A &= \\log_{10}\\left[B(t+1)^c\\right]\n## Split the product into a sum\n$\\log(xy) = \\log x + \\log y$.\n\\log_{10} A &= \\log_{10} B + \\log_{10}(t+1)^c\n## Bring the power down\n$\\log(x^n) = n\\log x$.\n\\log_{10} A &= \\log_{10} B + c\\log_{10}(t+1)\n## Solve for c\n\\log_{10} A - \\log_{10} B &= c\\log_{10}(t+1)\nc &= \\frac{\\log_{10} A - \\log_{10} B}{\\log_{10}(t+1)}\nANSWER: c = \\frac{\\log_{10} A - \\log_{10} B}{\\log_{10}(t+1)}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p1-q10#(e)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Identify the values\n$A = 80$ (the first exam) and $B = 47$ (the exam after two years).\n$t$ is in months: $2 \\text{ years} = 24 \\text{ months}$, so $t + 1 = 25$.\n## Substitute into the formula from (i)\nc &= \\frac{\\log_{10} 80 - \\log_{10} 47}{\\log_{10}(24+1)}\n&= \\frac{\\log_{10} 80 - \\log_{10} 47}{\\log_{10} 25}\n## Evaluate and round to 3 decimal places\n&= 0.1652\\ldots\n&\\approx 0.165\nANSWER: c = 0.165"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q1#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Postgraduate total\nPostgraduates are the total students minus the undergraduates.\n\\text{Postgraduate total} &= 22\\,714 - 15\\,707\n&= 7007\n## Postgraduates aged 24 or older\nPostgraduates are $7007$ in total, and $1353$ of them are 23 or younger.\n\\text{Postgrad, 24 or older} &= 7007 - 1353\n&= 5654\n## Total aged 23 or younger\nAdd the two numbers in the 23 or younger column.\n\\text{Total, 23 or younger} &= 12\\,785 + 1353\n&= 14\\,138\n## Completed table\nPostgraduate row: $1353$, $5654$, total $7007$. Total row: $14\\,138$, $8576$, total $22\\,714$.\nANSWER: 14\\,138,\\ 5654,\\ 7007"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q1#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## State the test for independence\n$O$ and $U$ are independent if $P(O)\\times P(U) = P(O \\cap U)$.\n## Find P(O) and P(U)\nP(O) &= \\frac{8576}{22\\,714}\n&= 0.3776\\ldots\nP(U) &= \\frac{15\\,707}{22\\,714}\n&= 0.6915\\ldots\n## Multiply P(O) and P(U)\nP(O)\\times P(U) &= 0.3776 \\times 0.6915\n&= 0.2611\\ldots\n## Find P(O and U)\nStudents who are 24 or older and undergraduates: $2922$.\nP(O \\cap U) &= \\frac{2922}{22\\,714}\n&= 0.1286\\ldots\n## Compare and conclude\nP(O \\cap U) = 0.1286 &\\neq 0.2611 = P(O)\\times P(U)\nConclusion: the events $O$ and $U$ are not independent.\nANSWER: O \\text{ and } U \\text{ are not independent}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Probability the second and third match the first\nThe first person can be born on any day, probability $\\frac{7}{7}$.\nEach of the other two must match that day, probability $\\frac{1}{7}$ each.\n## Multiply the probabilities\nP(\\text{same day}) &= \\frac{7}{7} \\times \\frac{1}{7} \\times \\frac{1}{7}\n&= \\frac{1}{49}\nANSWER: \\frac{1}{49}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths5",
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Equation from the first fraction\n$\\frac{3}{5}$ of the class are girls.\n\\frac{g}{b+g} &= \\frac{3}{5}\n5g &= 3(b+g)\n5g &= 3b + 3g\n2g &= 3b\n## Equation after 4 boys and 4 girls join\nThere are now $g+4$ girls and $b+g+8$ students.\n\\frac{g+4}{b+g+8} &= \\frac{4}{7}\n7(g+4) &= 4(b+g+8)\n7g + 28 &= 4b + 4g + 32\n3g - 4b &= 4\n## Substitute b = 2g/3 to find g\nb &= \\frac{2g}{3}\n3g - 4\\left(\\frac{2g}{3}\\right) &= 4\n3g - \\frac{8g}{3} &= 4\n\\frac{g}{3} &= 4\ng &= 12\n## Find b\nb &= \\frac{2(12)}{3}\nb &= 8\n## Check\nNow $12$ boys and $16$ girls: $\\frac{16}{28} = \\frac{4}{7}$, as required.\nANSWER: b = 8,\\ g = 12"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Write the section formula\nDividing $[AB]$ in the ratio $4:1$ gives $C = \\frac{1\\cdot A + 4\\cdot B}{4+1}$ (the 1 goes with $A$, the 4 with $B$).\n## Find the x-coordinate\nx_C &= \\frac{1(8) + 4(-1)}{4+1}\n&= \\frac{8 - 4}{5}\n&= \\frac{4}{5}\n## Find the y-coordinate\ny_C &= \\frac{1(-4) + 4(3)}{4+1}\n&= \\frac{-4 + 12}{5}\n&= \\frac{8}{5}\n## State the point\n$C = \\left(\\frac{4}{5}, \\frac{8}{5}\\right)$.\nANSWER: C = \\left(\\frac{4}{5}, \\frac{8}{5}\\right)"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Write the line in the form y = mx + c\nThe $y$-axis crossing is $(0, c)$.\ny &= mx + c\n## Substitute the point (q, r)\nr &= mq + c\n## Solve for c\nSubtract $mq$ from both sides.\nc &= r - mq\n## State the point\nThe line cuts the $y$-axis where $x = 0$, so $y = c$.\nThe point is $(0, r - mq)$.\nANSWER: (0,\\ r - mq)"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q2#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths25"
+  ],
+  "marks": 15,
+  "solution": "## Write the angle formula\nThe angle $\\theta$ between lines with slopes $m_1$ and $m_2$ satisfies $\\tan\\theta = \\frac{m_1 - m_2}{1 + m_1 m_2}$.\nLet $m_1 = -2$, $m_2 = m$ (the slope of $j$) and $\\theta = 30^\\circ$.\n## Substitute the values\n\\tan 30^\\circ &= \\frac{-2 - m}{1 + (-2)m}\n\\frac{1}{\\sqrt{3}} &= \\frac{-2 - m}{1 - 2m}\n## Clear the fraction\nMultiply both sides by $\\sqrt{3}(1-2m)$.\n1 - 2m &= \\sqrt{3}(-2 - m)\n1 - 2m &= -2\\sqrt{3} - \\sqrt{3}m\n## Collect the m terms\nAdd $2\\sqrt{3}$ and $2m$ to both sides.\n1 + 2\\sqrt{3} &= 2m - \\sqrt{3}m\n1 + 2\\sqrt{3} &= m(2 - \\sqrt{3})\nm &= \\frac{1 + 2\\sqrt{3}}{2 - \\sqrt{3}}\n## Rationalise the denominator\nMultiply top and bottom by $2 + \\sqrt{3}$.\nm &= \\frac{(1 + 2\\sqrt{3})(2 + \\sqrt{3})}{(2 - \\sqrt{3})(2 + \\sqrt{3})}\n&= \\frac{2 + \\sqrt{3} + 4\\sqrt{3} + 6}{4 - 3}\n&= \\frac{8 + 5\\sqrt{3}}{1}\n&= 8 + 5\\sqrt{3}\nANSWER: 8 + 5\\sqrt{3}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Complete the square to find the centre and radius\nGroup the $x$ terms and the $y$ terms, then complete each square.\nx^2 - 2x + y^2 + 8y + k &= 0\n(x-1)^2 - 1 + (y+4)^2 - 16 + k &= 0\n(x-1)^2 + (y+4)^2 &= 17 - k\n## Use the radius\nThe right-hand side is $r^2$, and $r = 5\\sqrt{3}$.\n17 - k &= \\left(5\\sqrt{3}\\right)^2\n17 - k &= 75\nk &= 17 - 75\nk &= -58\nANSWER: k = -58"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths8",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Identify the centre\n(x-5)^2 + (y+2)^2 &= 20\nThis has the form $(x-h)^2 + (y-k)^2 = r^2$, so the centre is $(5,-2)$.\n## Find the slope of the radius to the point of contact\nThe radius to $(9,-4)$ is perpendicular to the tangent, so it is the normal.\nm_{\\text{normal}} &= \\frac{-4-(-2)}{9-5}\n&= \\frac{-2}{4}\n&= -\\frac{1}{2}\n## Use perpendicular slopes to find the tangent slope\nPerpendicular slopes multiply to $-1$.\nm_{\\text{tangent}} &= -1 \\div \\left(-\\frac{1}{2}\\right)\nm_{\\text{tangent}} &= 2\nANSWER: \\text{slope} = 2"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q3#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 15,
+  "solution": "## Write the centre in terms of the radius\nBoth axes are tangents, so the centre is $r$ units from each axis. The point $(1,-8)$ is in the fourth quadrant, so the centre is $(r,-r)$.\n## Use the fact that $(1,-8)$ is on the circle\nThe distance from the centre $(r,-r)$ to $(1,-8)$ equals the radius $r$.\n(1-r)^2 + \\left(-8-(-r)\\right)^2 &= r^2\n(1-r)^2 + (r-8)^2 &= r^2\n## Expand the brackets\n(1-r)^2 &= 1 - 2r + r^2\n(r-8)^2 &= r^2 - 16r + 64\n1 - 2r + r^2 + r^2 - 16r + 64 &= r^2\n## Collect terms into a quadratic\n2r^2 - 18r + 65 &= r^2\nr^2 - 18r + 65 &= 0\n## Factorise and solve\n(r-13)(r-5) &= 0\nr &= 13 \\quad\\text{or}\\quad r = 5\n## Write the equation of each circle\nEquation: $(x-r)^2 + (y+r)^2 = r^2$.\nr = 13:\\quad (x-13)^2 + (y+13)^2 &= 169\nr = 5:\\quad (x-5)^2 + (y+5)^2 &= 25\nANSWER: (x-13)^2 + (y+13)^2 = 169 \\quad\\text{and}\\quad (x-5)^2 + (y+5)^2 = 25"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q4#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Write $A-B$ as a sum\n\\tan(A-B) &= \\tan\\bigl(A + (-B)\\bigr)\n## Apply the formula for $\\tan(A+B)$\nUse $\\tan(A+B) = \\dfrac{\\tan A + \\tan B}{1 - \\tan A \\tan B}$ with $B$ replaced by $-B$.\n&= \\frac{\\tan A + \\tan(-B)}{1 - \\tan A\\,\\tan(-B)}\n## Use $\\tan(-B) = -\\tan B$\n&= \\frac{\\tan A - \\tan B}{1 - \\tan A\\,(-\\tan B)}\n&= \\frac{\\tan A - \\tan B}{1 + \\tan A\\,\\tan B}\nANSWER: \\tan(A-B) = \\dfrac{\\tan A - \\tan B}{1 + \\tan A \\tan B}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q4#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Write $15^\\circ$ as a difference of known angles\n\\tan 15^\\circ &= \\tan(60^\\circ - 45^\\circ)\n## Use the formula from part (i)\n&= \\frac{\\tan 60^\\circ - \\tan 45^\\circ}{1 + \\tan 60^\\circ \\tan 45^\\circ}\n## Substitute the exact values\n$\\tan 60^\\circ = \\sqrt{3}$ and $\\tan 45^\\circ = 1$.\n&= \\frac{\\sqrt{3} - 1}{1 + \\sqrt{3}\\times 1}\n&= \\frac{\\sqrt{3} - 1}{\\sqrt{3} + 1}\n## Read off $a$\nThis is the required form with $a = 3$.\nANSWER: \\tan 15^\\circ = \\dfrac{\\sqrt{3}-1}{\\sqrt{3}+1}"
+ },
+ {
+  "part": "maths-pp-2022-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Set up the cosine rule\nLet $|AC| = |BC| = x$. The angle opposite $|AB|$ is $\\angle ACB = 45^\\circ$, so $|AB|^2 = x^2 + x^2 - 2(x)(x)\\cos 45^\\circ$.\n\\left(10\\sqrt{2-\\sqrt{2}}\\right)^2 &= x^2 + x^2 - 2(x)(x)\\cos 45^\\circ\n## Simplify both sides\nThe left side is $100(2-\\sqrt{2})$ and $\\cos 45^\\circ = \\frac{\\sqrt{2}}{2}$.\n100(2-\\sqrt{2}) &= 2x^2 - 2x^2\\cdot\\frac{\\sqrt{2}}{2}\n100(2-\\sqrt{2}) &= 2x^2 - \\sqrt{2}\\,x^2\n100(2-\\sqrt{2}) &= (2-\\sqrt{2})\\,x^2\n## Solve for $x$\nDivide both sides by $2-\\sqrt{2}$.\nx^2 &= 100\nA length is positive, so take the positive root.\nx &= 10\nANSWER: |AC| = 10"
+ }
+]

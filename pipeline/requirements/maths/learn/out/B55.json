@@ -1,0 +1,455 @@
+[
+ {
+  "skill": "con-2",
+  "what": {
+   "say": [
+    "You give it a segment $[AB]$. It draws the line that cuts $[AB]$ in half and meets it at a **right angle**.",
+    "The key idea: a point the same distance from $A$ and from $B$ lies on this line. Two such points are enough to draw it."
+   ],
+   "in": "segment $[AB]$",
+   "out": "perpendicular bisector of $[AB]$"
+  },
+  "how": {
+   "higher": "It turned up in 2016, 2022 and 2024 on Paper 2, never as the main skill: it was a step inside a longer construction (the midpoint of a side, or the circumcentre).",
+   "ordinary": "It was a part of its own in 2021 (5 marks, Paper 2, the bisector of a side of a triangle) and a step in 2025 (finding a midpoint)."
+  },
+  "example": {
+   "question": "Draw a segment $[AB]$ with $|AB| = 8$ cm. Using only a compass and straight edge, construct the perpendicular bisector of $[AB]$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Set the compass",
+      "say": "Open the compass to more than half of $|AB|$, about $5$ cm. Put the point on $A$ and draw an arc above and below the segment.",
+      "lines": [
+       {
+        "text": "Do not change the setting until both arcs are drawn."
+       }
+      ]
+     },
+     {
+      "title": "Repeat from the other end",
+      "say": "Keep the same setting. Put the point on $B$ and draw an arc above and below the segment, crossing the first two arcs.",
+      "lines": [
+       {
+        "text": "The arcs cross at two points, one above $[AB]$ and one below."
+       }
+      ]
+     },
+     {
+      "title": "Join the crossings",
+      "say": "With the ruler, draw a straight line through the two crossing points. Mark where it cuts $[AB]$ and call that point $M$.",
+      "lines": [
+       {
+        "text": "Leave every arc on the page. They are your construction lines and the marks are tied to them."
+       },
+       {
+        "text": "$|AM| = |MB| = 4$ cm and the line meets $[AB]$ at $90^\\circ$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|AM| = |MB| = 4 \\text{ cm},\\ \\text{line} \\perp [AB]"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M50.0 150.0 L250.0 150.0\"/><path d=\"M150 104 A110 110 0 0 1 150 196\" stroke-dasharray=\"3 3\"/><path d=\"M150 104 A110 110 0 0 0 150 196\" stroke-dasharray=\"3 3\"/><path d=\"M150.0 85.0 L150.0 215.0\"/><text x=\"36\" y=\"170\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"246\" y=\"170\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"156\" y=\"146\" fill=\"#1A1916\" stroke=\"none\">M</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show your construction. Marks are given when the arcs or measurements are visible, and less when only the line is drawn.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q4#(a)",
+       "quote": "construction/measurements shown"
+      },
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(a)",
+       "quote": "Centre correct, no construction"
+      }
+     ]
+    },
+    {
+     "tip": "Finding the midpoint is a mark of its own. Do it first and show it.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q4#(a)",
+       "quote": "Midpoints of 2 sides identified"
+      }
+     ]
+    },
+    {
+     "tip": "Label the point you are asked for. Leaving it unlabelled costs a mark even when the construction is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(a)",
+       "quote": "circumcentre not labelled"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Draw the bisector of the side the question names. The wrong side loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q6#(a)(i)",
+       "quote": "Draws perpendicular bisector of the side"
+      }
+     ]
+    },
+    {
+     "tip": "Show the arcs. A midpoint or a perpendicular drawn without visible construction only earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q6#(a)(i)",
+       "quote": "visible construction or perpendicular"
+      }
+     ]
+    },
+    {
+     "tip": "The perpendicular must pass through the midpoint of the segment.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q6#(a)(i)",
+       "quote": "not through mid-point"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-10",
+  "what": {
+   "say": [
+    "You give it the three side lengths of a triangle. It draws the triangle, accurately, with the arcs left showing.",
+    "The key idea: draw one side, then find the third vertex as the point where two arcs cross, one from each end of that side."
+   ],
+   "in": "three side lengths",
+   "out": "the triangle $ABC$"
+  },
+  "how": {
+   "higher": "It appeared once, in 2025 on Paper 2: a 5-mark part asking for a net, where one triangle was constructed from its three sides with the construction lines visible.",
+   "ordinary": "It was the main skill in 2017 on Paper 2: a 10-mark part, constructing a triangle from three given lengths."
+  },
+  "example": {
+   "question": "Construct the triangle $ABC$ with $|BC| = 7$ cm, $|AB| = 6$ cm and $|AC| = 4$ cm.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Make a pilot sketch",
+      "say": "Sketch a rough triangle first and write the three lengths on it. This is the plan for the construction.",
+      "lines": [
+       {
+        "text": "A labelled pilot diagram earns marks even if the construction goes wrong."
+       }
+      ]
+     },
+     {
+      "title": "Draw the base",
+      "say": "With the ruler, draw $[BC]$ with $|BC| = 7$ cm. Label $B$ and $C$.",
+      "lines": [
+       {
+        "text": "Measure from the $0$ mark, not from the end of the ruler."
+       }
+      ]
+     },
+     {
+      "title": "Arc from B",
+      "say": "Set the compass to $6$ cm. Put the point on $B$ and draw an arc above $[BC]$.",
+      "lines": [
+       {
+        "text": "This arc holds every point that is $6$ cm from $B$."
+       }
+      ]
+     },
+     {
+      "title": "Arc from C",
+      "say": "Set the compass to $4$ cm. Put the point on $C$ and draw an arc that crosses the first one. Label the crossing $A$.",
+      "lines": [
+       {
+        "text": "$A$ is $6$ cm from $B$ and $4$ cm from $C$."
+       }
+      ]
+     },
+     {
+      "title": "Join up",
+      "say": "Join $A$ to $B$ and $A$ to $C$ with the ruler. Leave both arcs on the page.",
+      "lines": [
+       {
+        "text": "Check $|AB| = 6$ cm and $|AC| = 4$ cm with the ruler."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\triangle ABC:\\ |BC|=7,\\ |AB|=6,\\ |AC|=4 \\text{ cm}"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M45.0 180.0 L255.0 180.0\"/><path d=\"M45.0 180.0 L192.9 77.3\"/><path d=\"M255.0 180.0 L192.9 77.3\"/><path d=\"M205.7 98.9 A180 180 0 0 0 177.1 57.8\" stroke-dasharray=\"3 3\"/><path d=\"M207.7 69.7 A120 120 0 0 0 179.2 87.0\" stroke-dasharray=\"3 3\"/><text x=\"31\" y=\"196\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"259\" y=\"196\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"187\" y=\"67\" fill=\"#1A1916\" stroke=\"none\">A</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Leave the construction lines on the page. A correct triangle with them missing loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q8#(a)(iii)",
+       "quote": "Construction lines missing, otherwise correct"
+      },
+      {
+       "part": "maths-pp-2025-higher-p2-q8#(a)(iii)",
+       "quote": "1 triangle constructed correctly (construction lines visible)"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Draw a labelled pilot sketch first. It earns marks on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p2-q4#(a)",
+       "quote": "Pilot diagram drawn."
+      }
+     ]
+    },
+    {
+     "tip": "Each correct length drawn earns marks, so get one side right before moving on.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p2-q4#(a)",
+       "quote": "TWO correct lengths drawn."
+      }
+     ]
+    },
+    {
+     "tip": "Label the vertices. A correct construction with them named or omitted is not full marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p2-q4#(a)",
+       "quote": "Correct construction with sides or"
+      },
+      {
+       "part": "maths-pp-2017-ordinary-p2-q4#(a)",
+       "quote": "Construction correct but vertices"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-11",
+  "what": {
+   "say": [
+    "You give it two sides of a triangle and the angle **between** them. It draws the triangle.",
+    "The key idea: the angle fixes the direction of the second side, and its length fixes where it stops. The third side is then just the line that joins the ends."
+   ],
+   "in": "two sides and the angle between them",
+   "out": "the triangle $ABC$"
+  },
+  "how": {
+   "ordinary": "It was the main skill in 2016 on Paper 2: part of a 5-mark question where the student drew a triangle from two sides and the angle between them, then measured the rest."
+  },
+  "example": {
+   "question": "Construct the triangle $ABC$ with $|AB| = 6$ cm, $|BC| = 8$ cm and $|\\angle ABC| = 70^\\circ$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Make a pilot sketch",
+      "say": "Sketch a rough triangle and write $6$ cm, $8$ cm and $70^\\circ$ on it, with the angle at $B$.",
+      "lines": [
+       {
+        "text": "The angle sits between the two given sides, so it goes at $B$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the base",
+      "say": "With the ruler, draw $[BC]$ with $|BC| = 8$ cm. Label $B$ and $C$.",
+      "lines": [
+       {
+        "text": "Measure from the $0$ mark on the ruler."
+       }
+      ]
+     },
+     {
+      "title": "Measure the angle",
+      "say": "Put the protractor centre on $B$ with its base line along $[BC]$. Mark a dot at $70^\\circ$. Draw a ray from $B$ through the dot.",
+      "lines": [
+       {
+        "text": "Read the scale that starts at $0^\\circ$ on $[BC]$."
+       }
+      ]
+     },
+     {
+      "title": "Mark off the length",
+      "say": "On the ray, measure $6$ cm from $B$. Mark the point $A$.",
+      "lines": [
+       {
+        "text": "Make an arc or a clear mark so the $6$ cm can be seen."
+       }
+      ]
+     },
+     {
+      "title": "Join up",
+      "say": "Join $A$ to $C$ with the ruler. Label all three vertices.",
+      "lines": [
+       {
+        "text": "Leave the angle mark and the arc on the page."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\triangle ABC:\\ |AB|=6,\\ |BC|=8 \\text{ cm},\\ |\\angle ABC|=70^\\circ"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M50.0 180.0 L250.0 180.0\"/><path d=\"M50.0 180.0 L101.3 39.0\"/><path d=\"M250.0 180.0 L101.3 39.0\"/><path d=\"M90.0 180.0 A40 40 0 0 0 63.7 142.4\" stroke-dasharray=\"3 3\"/><path d=\"M115.8 45.2 A150 150 0 0 0 86.3 34.5\" stroke-dasharray=\"3 3\"/><text x=\"36\" y=\"196\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"254\" y=\"196\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"95\" y=\"29\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"94\" y=\"172\" fill=\"#1A1916\" stroke=\"none\">70°</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Draw a pilot diagram first. Marks are given for it even if the construction fails.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q6#(a)(i), (ii)",
+       "quote": "Any triangle drawn.(Pilot Diagram)"
+      }
+     ]
+    },
+    {
+     "tip": "Each correct element drawn (a line, an angle) earns marks, so draw them carefully one at a time.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q6#(a)(i), (ii)",
+       "quote": "One correct line or angle drawn."
+      },
+      {
+       "part": "maths-pp-2016-ordinary-p2-q6#(a)(i), (ii)",
+       "quote": "Two correct elements drawn & stops."
+      }
+     ]
+    },
+    {
+     "tip": "Be accurate with the ruler and protractor. The marking allows only a small tolerance.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q6#(a)(i), (ii)",
+       "quote": "Tolerance : "
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-12",
+  "what": {
+   "say": [
+    "You give it one side of a triangle and the two angles at its ends. It draws the triangle.",
+    "The key idea: each angle gives a ray from one end of the side. The third vertex is where the two rays meet."
+   ],
+   "in": "one side and the two angles at its ends",
+   "out": "the triangle $ABC$"
+  },
+  "how": {
+   "ordinary": "It was the main skill in 2018 on Paper 2: a 10-mark part, constructing a triangle from a side and two angles, then reading off the length of another side."
+  },
+  "example": {
+   "question": "Construct the triangle $ABC$ with $|BC| = 8$ cm, $|\\angle B| = 40^\\circ$ and $|\\angle C| = 65^\\circ$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Make a pilot sketch",
+      "say": "Sketch a rough triangle. Write $8$ cm on $[BC]$, $40^\\circ$ at $B$ and $65^\\circ$ at $C$.",
+      "lines": [
+       {
+        "text": "Label the vertices now so you do not lose marks later."
+       }
+      ]
+     },
+     {
+      "title": "Draw the base",
+      "say": "With the ruler, draw $[BC]$ with $|BC| = 8$ cm. Label $B$ and $C$.",
+      "lines": [
+       {
+        "text": "The side is between the two angles, so both angles sit on it."
+       }
+      ]
+     },
+     {
+      "title": "Angle at B",
+      "say": "Put the protractor centre on $B$ with its base line along $[BC]$. Mark $40^\\circ$ and draw a ray from $B$ through the mark.",
+      "lines": [
+       {
+        "text": "Read the scale that starts at $0^\\circ$ on $[BC]$."
+       }
+      ]
+     },
+     {
+      "title": "Angle at C",
+      "say": "Put the protractor centre on $C$ with its base line along $[CB]$. Mark $65^\\circ$ and draw a ray from $C$ through the mark.",
+      "lines": [
+       {
+        "text": "Now the base line points the other way, so start again from $0^\\circ$ on $[CB]$."
+       }
+      ]
+     },
+     {
+      "title": "Find the vertex",
+      "say": "The two rays cross at one point. Label it $A$.",
+      "lines": [
+       {
+        "text": "Leave the angle marks on the page."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\triangle ABC:\\ |BC|=8 \\text{ cm},\\ |\\angle B|=40^\\circ,\\ |\\angle C|=65^\\circ"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M40.0 180.0 L240.0 180.0\"/><path d=\"M40.0 180.0 L183.8 59.4\"/><path d=\"M240.0 180.0 L183.8 59.4\"/><path d=\"M80.0 180.0 A40 40 0 0 0 70.6 154.3\" stroke-dasharray=\"3 3\"/><path d=\"M223.1 143.7 A40 40 0 0 0 200.0 180.0\" stroke-dasharray=\"3 3\"/><text x=\"26\" y=\"196\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"244\" y=\"196\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"178\" y=\"49\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"84\" y=\"174\" fill=\"#1A1916\" stroke=\"none\">40°</text><text x=\"160\" y=\"172\" fill=\"#1A1916\" stroke=\"none\">65°</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Draw a labelled pilot sketch first. It earns marks on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q6#(a)(i), (ii)",
+       "quote": "A labelled pilot diagram drawn."
+      }
+     ]
+    },
+    {
+     "tip": "Each correct length or angle earns marks, so draw each one carefully.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q6#(a)(i), (ii)",
+       "quote": "One correct length or angle drawn."
+      }
+     ]
+    },
+    {
+     "tip": "Name the vertices. A correct construction with them missing or wrong loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q6#(a)(i), (ii)",
+       "quote": "Construction correct but vertices"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

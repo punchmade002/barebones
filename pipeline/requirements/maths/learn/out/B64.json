@@ -1,0 +1,439 @@
+[
+ {
+  "skill": "int-reciprocal",
+  "what": {
+   "say": [
+    "You give it $\\frac{1}{x}$. It gives back $\\ln|x| + c$, the function whose slope is $\\frac{1}{x}$.",
+    "The key idea: $\\frac{d}{dx}\\ln x = \\frac{1}{x}$, so integrating runs it backwards. A constant on top just comes along for the ride."
+   ],
+   "in": "$\\frac{1}{x}$",
+   "out": "$\\ln|x| + c$"
+  },
+  "how": {
+   "higher": "Higher level uses it inside a Paper 1 integration question, for example $\\int \\frac{1}{2x+3}\\,dx$ with limits to solve for an unknown (5 marks of a 30-mark question)."
+  },
+  "example": {
+   "question": "Evaluate $\\int_2^6 \\frac{3}{x}\\,dx$. Give your answer in the form $a\\ln b$, where $a, b \\in \\mathbb{N}$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Integrate",
+      "say": "The $3$ stays out front. $\\frac{1}{x}$ integrates to $\\ln|x|$. Write the limits beside the bracket.",
+      "lines": [
+       {
+        "tex": "\\int_2^6 \\frac{3}{x}\\,dx &= \\Big[\\hl{1}{3\\ln|x|}\\Big]_2^6"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "say": "Put in the top limit, then subtract what you get from the bottom limit.",
+      "lines": [
+       {
+        "tex": "&= 3\\ln 6 - 3\\ln 2",
+        "sym": "3*log(6)-3*log(2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Combine the logs",
+      "say": "Both terms have the same factor $3$. Take it out, then use $\\ln a - \\ln b = \\ln\\frac{a}{b}$.",
+      "lines": [
+       {
+        "tex": "&= 3\\left(\\ln 6 - \\ln 2\\right)",
+        "sym": "3*(log(6)-log(2))"
+       },
+       {
+        "tex": "&= 3\\ln\\frac{6}{2}",
+        "sym": "3*log(Rational(6,2))"
+       },
+       {
+        "tex": "&= \\hl{2}{3\\ln 3}",
+        "sym": "3*log(3)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3\\ln 3"
+   },
+   "finalSym": "3*log(3)",
+   "answerSym": "integrate(3/x,(x,2,6))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the integration. The scheme gives no credit for a bare answer here, so write the integral and then the antiderivative.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q6#(b)(ii)",
+       "quote": "Note: Must have integration to gain any credit"
+      }
+     ]
+    },
+    {
+     "tip": "Even an integral set up and not finished earns a mark. Write the integral sign and the limits first.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q6#(b)(ii)",
+       "quote": "Integration indicated"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "int-exponential",
+  "what": {
+   "say": [
+    "You give it $e^{ax}$. It gives back $\\frac{1}{a}e^{ax} + c$.",
+    "The key idea: differentiating $e^{ax}$ brings down a factor of $a$. To undo that, divide by $a$."
+   ],
+   "in": "$e^{ax}$",
+   "out": "$\\frac{1}{a}e^{ax} + c$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 1 questions on definite integrals: finding an area, an average value, or an unknown limit $k$ (about 5 to 10 marks inside a bigger question)."
+  },
+  "example": {
+   "question": "Find the value of $k$ such that $\\int_0^k e^{4x}\\,dx = 15$. Give your answer in terms of $\\ln$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Integrate",
+      "say": "Integrating $e^{4x}$ gives $\\frac{1}{4}e^{4x}$. Divide by the number in front of $x$.",
+      "lines": [
+       {
+        "tex": "\\int_0^k e^{4x}\\,dx &= \\left[\\hl{1}{\\tfrac14 e^{4x}}\\right]_0^k"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "say": "Top limit minus bottom limit, and set it equal to $15$.",
+      "lines": [
+       {
+        "tex": "\\tfrac14 e^{4k} - \\tfrac14 e^{0} &= 15",
+        "sym": "exp(4*k)/4-exp(0)/4-15",
+        "new": true
+       },
+       {
+        "tex": "\\tfrac14\\left(e^{4k} - 1\\right) &= 15",
+        "sym": "(exp(4*k)-1)/4-15"
+       }
+      ]
+     },
+     {
+      "title": "Isolate the exponential",
+      "say": "Multiply by $4$ and add $1$ so that $e^{4k}$ stands alone.",
+      "lines": [
+       {
+        "tex": "e^{4k} - 1 &= 60",
+        "sym": "exp(4*k)-1-60",
+        "new": true
+       },
+       {
+        "tex": "e^{4k} &= 61",
+        "sym": "exp(4*k)-61"
+       }
+      ]
+     },
+     {
+      "title": "Take logs to find k",
+      "say": "Take $\\ln$ of both sides. $\\ln e^{4k} = 4k$.",
+      "lines": [
+       {
+        "tex": "4k &= \\ln 61",
+        "sym": "4*k-log(61)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{k} &= \\frac{\\ln 61}{4}",
+        "sym": "k-log(61)/4",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "k = \\frac{\\ln 61}{4}"
+   },
+   "finalSym": "log(61)/4",
+   "answerSym": "log(1+4*15)/4"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the integral with its limits before you do anything else. Indicating the integration is required to get any credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q7#(c)(ii)",
+       "quote": "Indication of integration is required to be awarded any credit"
+      }
+     ]
+    },
+    {
+     "tip": "Give the steps in order: integrate, put in the limits, then evaluate. The marks follow those stages.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q7#(c)(ii)",
+       "quote": "Integrates correctly"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question asks. A missing or wrong rounding costs a mark off a full-credit answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q7#(c)(ii)",
+       "quote": "Apply a * for incorrect rounding or no rounding"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "int-trig",
+  "what": {
+   "say": [
+    "You give it $\\sin ax$ or $\\cos ax$. It gives back $-\\frac{1}{a}\\cos ax$ or $\\frac{1}{a}\\sin ax$, plus $c$.",
+    "The key idea: differentiating $\\sin ax$ gives $a\\cos ax$, so you divide by $a$ to undo it. Watch the sign: $\\sin$ integrates to a **negative** cosine."
+   ],
+   "in": "$\\sin ax,\\ \\cos ax$",
+   "out": "$-\\frac{1}{a}\\cos ax,\\ \\frac{1}{a}\\sin ax$"
+  },
+  "how": {
+   "higher": "Higher level asks for it as a part of its own (a 5-mark indefinite integral such as $\\int \\cos 6x\\,dx$ on Paper 1) and as a step in definite integrals for average values, in radians."
+  },
+  "example": {
+   "question": "Evaluate $\\int_0^{\\pi/6} \\left(\\cos 3x + 2\\sin 3x\\right)dx$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Integrate each term",
+      "say": "Divide by $3$ each time. $\\cos 3x$ gives a positive sine. $\\sin 3x$ gives a negative cosine.",
+      "lines": [
+       {
+        "tex": "\\int (\\cos 3x + 2\\sin 3x)\\,dx &= \\hl{1}{\\tfrac13\\sin 3x} \\hl{2}{- \\tfrac23\\cos 3x}"
+       },
+       {
+        "text": "Work in radians. Your calculator must be in radian mode."
+       }
+      ]
+     },
+     {
+      "title": "Put in the top limit",
+      "say": "At $x = \\frac{\\pi}{6}$, we have $3x = \\frac{\\pi}{2}$.",
+      "lines": [
+       {
+        "tex": "F\\left(\\tfrac{\\pi}{6}\\right) &= \\tfrac13\\sin\\tfrac{\\pi}{2} - \\tfrac23\\cos\\tfrac{\\pi}{2}",
+        "sym": "sin(pi/2)/3-2*cos(pi/2)/3",
+        "new": true
+       },
+       {
+        "tex": "&= \\tfrac13",
+        "sym": "Rational(1,3)"
+       }
+      ]
+     },
+     {
+      "title": "Put in the bottom limit",
+      "say": "At $x = 0$, we have $\\sin 0 = 0$ and $\\cos 0 = 1$.",
+      "lines": [
+       {
+        "tex": "F(0) &= \\tfrac13\\sin 0 - \\tfrac23\\cos 0",
+        "sym": "sin(0)/3-2*cos(0)/3",
+        "new": true
+       },
+       {
+        "tex": "&= -\\tfrac23",
+        "sym": "-Rational(2,3)"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "say": "Top limit minus bottom limit.",
+      "lines": [
+       {
+        "tex": "F\\left(\\tfrac{\\pi}{6}\\right) - F(0) &= \\tfrac13 - \\left(-\\tfrac23\\right)",
+        "sym": "Rational(1,3)-(-Rational(2,3))",
+        "new": true
+       },
+       {
+        "tex": "&= 1",
+        "sym": "1"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "1"
+   },
+   "finalSym": "1",
+   "answerSym": "integrate(cos(3*x)+2*sin(3*x),(x,0,pi/6))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Do not stop at the first term. Some correct integration earns marks, but each term must be integrated to get full credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q3#(a)",
+       "quote": "Some correct integration, for example"
+      }
+     ]
+    },
+    {
+     "tip": "Show the integration in a definite integral. No credit is given without it.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q8#(f)",
+       "quote": "integration is required in order to be awarded any credit"
+      }
+     ]
+    },
+    {
+     "tip": "Check your calculator is in radian mode for trig integrals. Degree mode costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q8#(f)",
+       "quote": "Calculator in degree mode"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "int-find-function",
+  "what": {
+   "say": [
+    "You give it the slope function $f'(x)$ and one value of $f$. It finds the function $f(x)$ itself.",
+    "The key idea: integrating leaves an unknown $c$. The given point must sit on the curve, so put it in and solve for $c$."
+   ],
+   "in": "$f'(x)$ and a point",
+   "out": "$f(x)$ with $c$ found"
+  },
+  "how": {
+   "higher": "Higher level asks for it as the main skill in a 10-mark part of Paper 1: integrate a polynomial slope function, then use a point on the curve to find $c$."
+  },
+  "example": {
+   "question": "The slope of a curve is given by $f'(x) = 6x^2 - 8x + 3$. The point $(1, 5)$ is on the curve. Find $f(x)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Integrate",
+      "say": "Raise each power by one and divide by the new power. Add $\\hl{1}{c}$ at the end.",
+      "lines": [
+       {
+        "tex": "f(x) &= \\int (6x^2 - 8x + 3)\\,dx"
+       },
+       {
+        "tex": "&= 2x^3 - 4x^2 + 3x + \\hl{1}{c}"
+       }
+      ]
+     },
+     {
+      "title": "Use the point",
+      "say": "The point $(1, 5)$ is on the curve, so $f(1) = 5$. Put $x = 1$ into $f(x)$.",
+      "lines": [
+       {
+        "tex": "f(1) &= 2(1)^3 - 4(1)^2 + 3(1) + c"
+       },
+       {
+        "tex": "5 &= 2 - 4 + 3 + c"
+       }
+      ]
+     },
+     {
+      "title": "Solve for c",
+      "say": "Tidy the right side and solve the linear equation.",
+      "lines": [
+       {
+        "tex": "5 &= 1 + c"
+       },
+       {
+        "tex": "\\hl{1}{c} &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Write the function",
+      "say": "Put $\\hl{1}{c} = 4$ back into $f(x)$.",
+      "lines": [
+       {
+        "tex": "f(x) &= 2x^3 - 4x^2 + 3x + \\hl{1}{4}",
+        "sym": "2*x**3-4*x**2+3*x+4",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f(x) = 2x^3 - 4x^2 + 3x + 4"
+   },
+   "finalSym": "2*x**3-4*x**2+3*x+4",
+   "answerSym": "integrate(6*x**2-8*x+3,x)+5-integrate(6*x**2-8*x+3,x).subs(x,1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "You must integrate, or show that you are integrating. Without it there is no credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q4#(b)(i)",
+       "quote": "Must integrate or indicate"
+      }
+     ]
+    },
+    {
+     "tip": "Any relevant integration earns marks. Start with the integral sign and integrate every term.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q4#(b)(i)",
+       "quote": "Any relevant integration"
+      }
+     ]
+    },
+    {
+     "tip": "Put the point in to make an equation in $c$. That equation is worth its own marks, even if you do not solve it.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q4#(b)(i)",
+       "quote": "Relevant equation in"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no work is accepted, but writing the steps protects you if there is a slip.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q6#(c)",
+       "quote": "Accept correct answer without work."
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

@@ -1,0 +1,1003 @@
+[
+ {
+  "skill": {
+   "id": "cx-conjugate-root",
+   "title": "Use the Conjugate Root Theorem to find all roots",
+   "level": "HL",
+   "input": "real polynomial + one complex root",
+   "output": "all roots"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p1-q5#(a)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down the other root",
+      "lines": [
+       {
+        "text": "The coefficients $p, q$ are real, so complex roots come in conjugate pairs."
+       },
+       {
+        "text": "The other root is $3 - 2i$."
+       }
+      ]
+     },
+     {
+      "title": "Sum of the roots gives p",
+      "lines": [
+       {
+        "text": "For $z^2 + pz + q = 0$: sum of roots $= -p$."
+       },
+       {
+        "tex": "-p &= (3+2i) + (3-2i)"
+       },
+       {
+        "tex": "-p &= 6"
+       },
+       {
+        "tex": "p &= -6"
+       }
+      ]
+     },
+     {
+      "title": "Product of the roots gives q",
+      "lines": [
+       {
+        "text": "Product of roots $= q$."
+       },
+       {
+        "tex": "q &= (3+2i)(3-2i)"
+       },
+       {
+        "tex": "&= 9 - 4i^2"
+       },
+       {
+        "tex": "&= 9 + 4"
+       },
+       {
+        "tex": "&= 13"
+       }
+      ]
+     }
+    ],
+    "final": "p = -6, \\quad q = 13"
+   },
+   {
+    "part": "practice-cx-conjugate-root-1",
+    "level": "higher",
+    "year": null,
+    "question": "The polynomial $z^3 - 5z^2 + 9z - 5$ has real coefficients.\nGiven that $2 - i$ is a root of $z^3 - 5z^2 + 9z - 5 = 0$, find all three roots.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the conjugate root theorem",
+      "lines": [
+       {
+        "text": "The coefficients are real, so complex roots come in conjugate pairs."
+       },
+       {
+        "tex": "\\overline{2 - i} &= 2 + i"
+       }
+      ]
+     },
+     {
+      "title": "Find the quadratic factor from the pair",
+      "lines": [
+       {
+        "text": "Sum of the pair, then product of the pair."
+       },
+       {
+        "tex": "(2 - i) + (2 + i) &= 4"
+       },
+       {
+        "tex": "(2 - i)(2 + i) &= 4 - i^2 = 5"
+       },
+       {
+        "text": "So the quadratic factor is $z^2 - 4z + 5$."
+       }
+      ]
+     },
+     {
+      "title": "Divide to find the linear factor",
+      "lines": [
+       {
+        "text": "Compare constant terms: $5 \\times (\\text{constant}) = -5$, so the constant is $-1$."
+       },
+       {
+        "tex": "z^3 - 5z^2 + 9z - 5 &= (z^2 - 4z + 5)(z - 1)"
+       }
+      ]
+     },
+     {
+      "title": "Read off the third root",
+      "lines": [
+       {
+        "tex": "z - 1 &= 0"
+       },
+       {
+        "tex": "z &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "z = 2 - i,\\ 2 + i,\\ 1"
+   },
+   {
+    "part": "practice-cx-conjugate-root-2",
+    "level": "higher",
+    "year": null,
+    "question": "The real polynomial $z^3 + 4z^2 + 9z + 10$ has $-1 + 2i$ as a root.\nFind the other two roots.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the conjugate root theorem",
+      "lines": [
+       {
+        "text": "The coefficients are real, so complex roots come in conjugate pairs."
+       },
+       {
+        "tex": "\\overline{-1 + 2i} &= -1 - 2i"
+       }
+      ]
+     },
+     {
+      "title": "Find the quadratic factor from the pair",
+      "lines": [
+       {
+        "text": "Sum of the pair, then product of the pair."
+       },
+       {
+        "tex": "(-1 + 2i) + (-1 - 2i) &= -2"
+       },
+       {
+        "tex": "(-1 + 2i)(-1 - 2i) &= 1 - 4i^2 = 5"
+       },
+       {
+        "text": "So the quadratic factor is $z^2 + 2z + 5$."
+       }
+      ]
+     },
+     {
+      "title": "Divide to find the linear factor",
+      "lines": [
+       {
+        "text": "Compare constant terms: $5 \\times (\\text{constant}) = 10$, so the constant is $2$."
+       },
+       {
+        "tex": "z^3 + 4z^2 + 9z + 10 &= (z^2 + 2z + 5)(z + 2)"
+       }
+      ]
+     },
+     {
+      "title": "Read off the third root",
+      "lines": [
+       {
+        "tex": "z + 2 &= 0"
+       },
+       {
+        "tex": "z &= -2"
+       }
+      ]
+     }
+    ],
+    "final": "z = -1 - 2i,\\ -2"
+   },
+   {
+    "part": "practice-cx-conjugate-root-3",
+    "level": "higher",
+    "year": null,
+    "question": "$z^3 - 3z^2 + 4z - 12 = 0$ is a cubic equation with real coefficients.\nGiven that $2i$ is a root, find all the roots.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the conjugate root theorem",
+      "lines": [
+       {
+        "text": "The coefficients are real, so complex roots come in conjugate pairs."
+       },
+       {
+        "tex": "\\overline{2i} &= -2i"
+       }
+      ]
+     },
+     {
+      "title": "Find the quadratic factor from the pair",
+      "lines": [
+       {
+        "text": "Sum of the pair, then product of the pair."
+       },
+       {
+        "tex": "2i + (-2i) &= 0"
+       },
+       {
+        "tex": "(2i)(-2i) &= -4i^2 = 4"
+       },
+       {
+        "text": "So the quadratic factor is $z^2 + 4$."
+       }
+      ]
+     },
+     {
+      "title": "Divide to find the linear factor",
+      "lines": [
+       {
+        "text": "Compare constant terms: $4 \\times (\\text{constant}) = -12$, so the constant is $-3$."
+       },
+       {
+        "tex": "z^3 - 3z^2 + 4z - 12 &= (z^2 + 4)(z - 3)"
+       }
+      ]
+     },
+     {
+      "title": "Read off the third root",
+      "lines": [
+       {
+        "tex": "z - 3 &= 0"
+       },
+       {
+        "tex": "z &= 3"
+       }
+      ]
+     }
+    ],
+    "final": "z = 2i,\\ -2i,\\ 3"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-surds",
+   "title": "Simplify and operate on surds",
+   "level": "OL",
+   "input": "surd expression",
+   "output": "simplified surd, rational denominator"
+  },
+  "candidates": [
+   {
+    "part": "practice-num-surds-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\sqrt{72} + \\sqrt{18}$ in the form $a\\sqrt{2}$, where $a \\in \\mathbb{N}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each number as a square times 2",
+      "lines": [
+       {
+        "tex": "\\sqrt{72} &= \\sqrt{36 \\times 2}"
+       },
+       {
+        "tex": "\\sqrt{18} &= \\sqrt{9 \\times 2}"
+       }
+      ]
+     },
+     {
+      "title": "Take the square roots out",
+      "lines": [
+       {
+        "tex": "\\sqrt{72} &= 6\\sqrt{2}"
+       },
+       {
+        "tex": "\\sqrt{18} &= 3\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Add the like surds",
+      "lines": [
+       {
+        "tex": "6\\sqrt{2} + 3\\sqrt{2} &= 9\\sqrt{2}"
+       }
+      ]
+     }
+    ],
+    "final": "9\\sqrt{2}"
+   },
+   {
+    "part": "practice-num-surds-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\dfrac{4}{3 - \\sqrt{5}}$ in the form $a + b\\sqrt{5}$, where $a, b \\in \\mathbb{N}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply top and bottom by the conjugate of the denominator",
+      "lines": [
+       {
+        "tex": "\\frac{4}{3 - \\sqrt{5}} &= \\frac{4(3 + \\sqrt{5})}{(3 - \\sqrt{5})(3 + \\sqrt{5})}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the denominator",
+      "lines": [
+       {
+        "text": "$(3 - \\sqrt{5})(3 + \\sqrt{5}) = 9 - 5 = 4$."
+       },
+       {
+        "tex": "&= \\frac{4(3 + \\sqrt{5})}{9 - 5}"
+       },
+       {
+        "tex": "&= \\frac{4(3 + \\sqrt{5})}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the 4",
+      "lines": [
+       {
+        "tex": "&= 3 + \\sqrt{5}"
+       }
+      ]
+     }
+    ],
+    "final": "3 + \\sqrt{5}"
+   },
+   {
+    "part": "practice-num-surds-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Express $\\sqrt{75} - \\sqrt{12}$ in the form $a\\sqrt{b}$, where $a, b \\in \\mathbb{N}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each number as a square times 3",
+      "lines": [
+       {
+        "tex": "\\sqrt{75} &= \\sqrt{25 \\times 3}"
+       },
+       {
+        "tex": "\\sqrt{12} &= \\sqrt{4 \\times 3}"
+       }
+      ]
+     },
+     {
+      "title": "Take the square roots out",
+      "lines": [
+       {
+        "tex": "\\sqrt{75} &= 5\\sqrt{3}"
+       },
+       {
+        "tex": "\\sqrt{12} &= 2\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Subtract the like surds",
+      "lines": [
+       {
+        "tex": "5\\sqrt{3} - 2\\sqrt{3} &= 3\\sqrt{3}"
+       }
+      ]
+     }
+    ],
+    "final": "3\\sqrt{3}"
+   },
+   {
+    "part": "practice-num-surds-4",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $3\\sqrt{20} + \\sqrt{45} - \\sqrt{80}$ in the form $a\\sqrt{b}$, where $a, b \\in \\mathbb{N}$ and $b$ is prime.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each number as a square times 5",
+      "lines": [
+       {
+        "tex": "\\sqrt{20} &= \\sqrt{4 \\times 5}"
+       },
+       {
+        "tex": "\\sqrt{45} &= \\sqrt{9 \\times 5}"
+       },
+       {
+        "tex": "\\sqrt{80} &= \\sqrt{16 \\times 5}"
+       }
+      ]
+     },
+     {
+      "title": "Take the square roots out",
+      "lines": [
+       {
+        "tex": "3\\sqrt{20} &= 3 \\times 2\\sqrt{5} = 6\\sqrt{5}"
+       },
+       {
+        "tex": "\\sqrt{45} &= 3\\sqrt{5}"
+       },
+       {
+        "tex": "\\sqrt{80} &= 4\\sqrt{5}"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract the like surds",
+      "lines": [
+       {
+        "tex": "6\\sqrt{5} + 3\\sqrt{5} - 4\\sqrt{5} &= 5\\sqrt{5}"
+       }
+      ]
+     }
+    ],
+    "final": "5\\sqrt{5}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fin-estimate",
+   "title": "Estimate, round and check order of magnitude",
+   "level": "OL",
+   "input": "calculation",
+   "output": "estimate, rounded result, sense check"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q9#(a)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Test each statement against a sensible height",
+      "lines": [
+       {
+        "text": "The shed is 8.5 m high at its highest point. A person is usually about 1.5 m to 2 m tall."
+       },
+       {
+        "text": "Height of Seán if the shed is 3 times as high: $8.5 \\div 3 \\approx 2.8$ m. This is too tall for most people."
+       },
+       {
+        "text": "Height of Seán if the shed is 8 times as high: $8.5 \\div 8 \\approx 1.06$ m. This is too short for an adult."
+       }
+      ]
+     },
+     {
+      "title": "Check the 5 times statement",
+      "lines": [
+       {
+        "tex": "8.5 \\div 5 &= 1.7"
+       },
+       {
+        "tex": "&= 1.7"
+       },
+       {
+        "text": "1.7 m is a realistic height, so tick '5 times as high as Seán'."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{5 times as high; Seán} = 1.7 \\text{ m}"
+   },
+   {
+    "part": "practice-fin-estimate-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A school buys $198$ books at €$4.95$ each.\nCalculate the exact total cost. Then check your answer is sensible by rounding $198$ to $200$ and $4.95$ to $5$ and estimating the cost.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Calculate the exact cost",
+      "lines": [
+       {
+        "tex": "198 \\times 4.95 &= 980.1"
+       }
+      ]
+     },
+     {
+      "title": "Round each number and estimate",
+      "lines": [
+       {
+        "tex": "198 &\\approx 200"
+       },
+       {
+        "tex": "4.95 &\\approx 5"
+       },
+       {
+        "tex": "200 \\times 5 &= 1000"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "The estimate €$1000$ is close to the exact cost €$980.10$, so the answer is sensible."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}980.10 \\text{ (estimate €}1000\\text{)}"
+   },
+   {
+    "part": "practice-fin-estimate-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A tank holds $612.5$ litres of water. It is filled by a pump at a rate of $4.9$ litres per second.\nCalculate how many seconds it takes to fill the tank. Then round each number to 1 significant figure to estimate the time, and compare your estimate with your answer.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Calculate the exact time",
+      "lines": [
+       {
+        "tex": "612.5 \\div 4.9 &= 125"
+       }
+      ]
+     },
+     {
+      "title": "Round each number and estimate",
+      "lines": [
+       {
+        "tex": "612.5 &\\approx 600"
+       },
+       {
+        "tex": "4.9 &\\approx 5"
+       },
+       {
+        "tex": "600 \\div 5 &= 120"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "The estimate of $120$ seconds is close to the exact time of $125$ seconds, so the answer is sensible."
+       }
+      ]
+     }
+    ],
+    "final": "125 \\text{ seconds (estimate } 120\\text{ seconds)}"
+   },
+   {
+    "part": "practice-fin-estimate-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Fabric costs €$5.25$ per metre.\nFind the exact cost of $24.8$ metres of the fabric.\nBy rounding each number to the nearest whole number, estimate the cost and check that your answer is sensible.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Calculate the exact cost",
+      "lines": [
+       {
+        "tex": "24.8 \\times 5.25 &= 130.2"
+       }
+      ]
+     },
+     {
+      "title": "Round each number and estimate",
+      "lines": [
+       {
+        "tex": "24.8 &\\approx 25"
+       },
+       {
+        "tex": "5.25 &\\approx 5"
+       },
+       {
+        "tex": "25 \\times 5 &= 125"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "The estimate €$125$ is close to the exact cost €$130.20$, so the answer is sensible."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}130.20 \\text{ (estimate €}125\\text{)}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-injective-surjective",
+   "title": "Classify a function as injective, surjective, bijective",
+   "level": "HL",
+   "input": "function with domain and codomain",
+   "output": "classification with reason"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q5#(b)(i)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Assume two inputs give the same output",
+      "lines": [
+       {
+        "text": "$f$ is injective if $f(a) = f(b)$ forces $a = b$."
+       },
+       {
+        "tex": "f(a) &= f(b)"
+       },
+       {
+        "tex": "3a - 2 &= 3b - 2"
+       }
+      ]
+     },
+     {
+      "title": "Solve for a",
+      "lines": [
+       {
+        "tex": "3a &= 3b"
+       },
+       {
+        "tex": "a &= b"
+       },
+       {
+        "text": "Different inputs always give different outputs, so $f$ is injective."
+       }
+      ]
+     }
+    ],
+    "final": "f(a) = f(b) \\Rightarrow a = b \\text{, so } f \\text{ is injective}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q5#(c)(i), (ii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Follow 3 through f, then through g",
+      "lines": [
+       {
+        "text": "In the diagram, $f$ sends $3$ to the globe."
+       },
+       {
+        "tex": "f(3) &= \\text{globe}"
+       },
+       {
+        "text": "$g$ sends the globe to $w$."
+       },
+       {
+        "tex": "g(f(3)) &= g(\\text{globe}) = w"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Show g is injective (one-to-one)",
+      "lines": [
+       {
+        "text": "The three elements of $B$ (plane, globe, cloud) go to three different elements of $C$: $x$, $w$ and $z$."
+       },
+       {
+        "text": "No element of $C$ is used more than once, so $g$ is injective."
+       }
+      ]
+     },
+     {
+      "title": "(ii) Show g is not surjective (not onto)",
+      "lines": [
+       {
+        "text": "The element $y$ in $C$ has no arrow pointing to it."
+       },
+       {
+        "text": "So the range $\\{x, w, z\\}$ is not all of $C$, and $g$ is not surjective."
+       }
+      ]
+     }
+    ],
+    "final": "g(f(3)) = w"
+   },
+   {
+    "part": "practice-fn-injective-surjective-2",
+    "level": "higher",
+    "year": null,
+    "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be given by $f(x) = \\frac{x}{3} + 4$.\nProve that $f$ is injective.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Assume two inputs give the same output",
+      "lines": [
+       {
+        "text": "$f$ is injective if $f(a) = f(b)$ forces $a = b$."
+       },
+       {
+        "tex": "f(a) &= f(b)"
+       },
+       {
+        "tex": "\\frac{a}{3} + 4 &= \\frac{b}{3} + 4"
+       }
+      ]
+     },
+     {
+      "title": "Solve for a",
+      "lines": [
+       {
+        "tex": "\\frac{a}{3} &= \\frac{b}{3}"
+       },
+       {
+        "tex": "a &= b"
+       },
+       {
+        "text": "Different inputs always give different outputs, so $f$ is injective."
+       }
+      ]
+     }
+    ],
+    "final": "f(a) = f(b) \\Rightarrow a = b \\text{, so } f \\text{ is injective}"
+   },
+   {
+    "part": "practice-fn-injective-surjective-3",
+    "level": "higher",
+    "year": null,
+    "question": "The function $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = 7 - 4x$.\nProve that $f$ is injective.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Assume two inputs give the same output",
+      "lines": [
+       {
+        "text": "$f$ is injective if $f(a) = f(b)$ forces $a = b$."
+       },
+       {
+        "tex": "f(a) &= f(b)"
+       },
+       {
+        "tex": "7 - 4a &= 7 - 4b"
+       }
+      ]
+     },
+     {
+      "title": "Solve for a",
+      "lines": [
+       {
+        "tex": "-4a &= -4b"
+       },
+       {
+        "tex": "a &= b"
+       },
+       {
+        "text": "Different inputs always give different outputs, so $f$ is injective."
+       }
+      ]
+     }
+    ],
+    "final": "f(a) = f(b) \\Rightarrow a = b \\text{, so } f \\text{ is injective}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-cor3",
+   "title": "Apply Corollary 3: An angle in a semicircle is a right angle",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Corollary 3"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q6#(a)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the angle in a semicircle",
+      "lines": [
+       {
+        "text": "$[AB]$ is a diameter, so the angle at $D$ on the circle is a right angle."
+       },
+       {
+        "tex": "|\\angle ADB| &= 90^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "90^\\circ"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q8#(c)(i), (ii)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "(i) Explain why the angle CBD is 90 degrees",
+      "lines": [
+       {
+        "text": "The diagram is symmetrical about $DC$, so $[CD]$ passes through the centre of the circle and is a diameter."
+       },
+       {
+        "text": "$B$ is on the circle, so $\\angle CBD$ is an angle at the circumference standing on the diameter $[CD]$."
+       },
+       {
+        "text": "The angle in a semicircle is $90^\\circ$, so $|\\angle CBD| = 90^\\circ$."
+       }
+      ]
+     },
+     {
+      "title": "(ii) Find the first pair of equal angles",
+      "lines": [
+       {
+        "text": "By symmetry about $DC$, $[CD]$ is perpendicular to $[AB]$ at $E$."
+       },
+       {
+        "tex": "|\\angle CEB| &= 90^\\circ"
+       },
+       {
+        "tex": "|\\angle DEB| &= 90^\\circ"
+       },
+       {
+        "text": "So $|\\angle CEB| = |\\angle DEB|$ (both are $90^\\circ$)."
+       }
+      ]
+     },
+     {
+      "title": "Find the second pair of equal angles",
+      "lines": [
+       {
+        "text": "In triangle $BCD$, $|\\angle CBD| = 90^\\circ$, so $|\\angle BCD|$ and $|\\angle BDC|$ add to $90^\\circ$."
+       },
+       {
+        "text": "In triangle $BED$, $|\\angle DEB| = 90^\\circ$, so $|\\angle DBE|$ and $|\\angle EDB|$ add to $90^\\circ$."
+       },
+       {
+        "tex": "|\\angle ECB| &= 90^\\circ - |\\angle EDB|"
+       },
+       {
+        "tex": "|\\angle DBE| &= 90^\\circ - |\\angle EDB|"
+       },
+       {
+        "text": "So $|\\angle ECB| = |\\angle DBE|$."
+       }
+      ]
+     },
+     {
+      "title": "Find the third pair and conclude",
+      "lines": [
+       {
+        "text": "Angles in a triangle add to $180^\\circ$, so the remaining angles are equal: $|\\angle CBE| = |\\angle BDE|$."
+       },
+       {
+        "text": "Triangles $BCE$ and $DBE$ have all three angles equal, so they are similar."
+       }
+      ]
+     }
+    ],
+    "final": "\\triangle BCE \\text{ and } \\triangle DBE \\text{ are similar (equiangular)}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q4#(a)(i)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find a right angle in each triangle",
+      "lines": [
+       {
+        "text": "$[BD] \\perp [AC]$, so both triangles have a right angle at $B$."
+       },
+       {
+        "tex": "|\\angle ABD| &= |\\angle CBD| = 90^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the angle in a semicircle",
+      "lines": [
+       {
+        "text": "The angle in a semicircle is a right angle, so $\\angle ADC$ is $90^\\circ$."
+       },
+       {
+        "tex": "|\\angle ADB| + |\\angle BDC| &= 90^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the angle sum in triangle DBC",
+      "lines": [
+       {
+        "text": "Angles in triangle $DBC$ add to $180^\\circ$ and $\\angle DBC = 90^\\circ$."
+       },
+       {
+        "tex": "|\\angle BDC| + |\\angle BCD| &= 90^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two equations",
+      "lines": [
+       {
+        "text": "Both sums equal $90^\\circ$ and both contain $|\\angle BDC|$."
+       },
+       {
+        "tex": "|\\angle ADB| + |\\angle BDC| &= |\\angle BDC| + |\\angle BCD|"
+       },
+       {
+        "text": "Subtract $|\\angle BDC|$ from both sides."
+       },
+       {
+        "tex": "|\\angle ADB| &= |\\angle BCD|"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "lines": [
+       {
+        "text": "Two angles of $ABD$ equal two angles of $DBC$ ($90^\\circ$ at $B$, and $\\angle ADB = \\angle BCD$), so the triangles are equiangular, hence similar."
+       }
+      ]
+     }
+    ],
+    "final": "\\triangle ABD \\text{ and } \\triangle DBC \\text{ are similar}"
+   },
+   {
+    "part": "practice-geo-cor3-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$[AB]$ is a diameter of a circle and $C$ is a point on the circle.\n$|\\angle CAB| = 38^\\circ$.\nFind $|\\angle ABC|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the angle in a semicircle",
+      "lines": [
+       {
+        "text": "$[AB]$ is a diameter, so the angle at $C$ on the circle is a right angle."
+       },
+       {
+        "tex": "|\\angle ACB| &= 90^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Angles in triangle ABC add to 180 degrees",
+      "lines": [
+       {
+        "tex": "|\\angle ABC| &= 180 - 90 - 38"
+       },
+       {
+        "tex": "&= 52^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle ABC| = 52^\\circ"
+   },
+   {
+    "part": "practice-geo-cor3-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "$A$, $B$ and $C$ are points on a circle and $[AB]$ is a diameter.\n$|AC| = 6$ cm and $|BC| = 8$ cm.\nFind the length of the diameter $|AB|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the angle in a semicircle",
+      "lines": [
+       {
+        "text": "$[AB]$ is a diameter, so the angle at $C$ on the circle is a right angle."
+       },
+       {
+        "tex": "|\\angle ACB| &= 90^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras in triangle ABC",
+      "lines": [
+       {
+        "tex": "|AB|^2 &= 6^2 + 8^2"
+       },
+       {
+        "tex": "&= 100"
+       },
+       {
+        "tex": "|AB| &= 10"
+       }
+      ]
+     }
+    ],
+    "final": "|AB| = 10 \\text{ cm}"
+   }
+  ]
+ }
+]

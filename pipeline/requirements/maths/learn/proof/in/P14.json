@@ -1,0 +1,930 @@
+[
+ {
+  "skill": "inf-sampling-variability",
+  "title": "Recognise how sampling variability affects conclusions",
+  "what": {
+   "say": [
+    "You give it the result of one sample. It gives back a careful statement about the population, not a claim that the sample result is exactly the population value.",
+    "The key idea: a different sample would give a different result, so one sample is an **estimate**, not a fact."
+   ],
+   "in": "sample statistics",
+   "out": "cautious statement about the population"
+  },
+  "example": {
+   "question": "A school has $1200$ students. Two different samples of $50$ students are asked if they walk to school. In the first sample $20$ walk. In the second sample $26$ walk. Find the proportion that walk in each sample. Why do the two answers differ, and what can you say about all $1200$ students?",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Proportion in each sample",
+      "say": "Divide the number who walk by $50$ for each sample.",
+      "lines": [
+       {
+        "tex": "\\hat{p}_1 &= \\frac{20}{50}",
+        "sym": "Rational(20,50)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.4",
+        "sym": "Rational(2,5)"
+       },
+       {
+        "tex": "\\hat{p}_2 &= \\frac{26}{50}",
+        "sym": "Rational(26,50)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.52",
+        "sym": "Rational(13,25)"
+       }
+      ]
+     },
+     {
+      "title": "Compare the samples",
+      "say": "Find how far apart the two results are.",
+      "lines": [
+       {
+        "tex": "\\hat{p}_2 - \\hat{p}_1 &= \\hl{1}{0.12}",
+        "sym": "Rational(3,25)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Make a careful statement",
+      "say": "Each sample has different students in it, so each gives a different result. Neither one is the true value for the whole school.",
+      "lines": [
+       {
+        "text": "The two samples differ by $\\hl{1}{0.12}$ only because different students were picked. This is **sampling variability**."
+       },
+       {
+        "text": "So we say: about $40\\%$ to $52\\%$ of the school may walk. We cannot say exactly $40\\%$ or exactly $52\\%$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "0.4 \\text{ and } 0.52;\\ \\text{different samples give different results, so each is only an estimate}"
+   },
+   "finalSym": "Rational(3,25)",
+   "answerSym": "Rational(26,50)-Rational(20,50)"
+  }
+ },
+ {
+  "skill": "inf-margin-of-error",
+  "title": "Calculate the margin of error for a proportion",
+  "what": {
+   "say": [
+    "You give it the sample size, $n$. It gives back the **margin of error**, how far the sample result could be from the true population value.",
+    "The key idea: a bigger sample is more reliable, so the margin shrinks as $n$ grows. The rule is $\\frac{1}{\\sqrt{n}}$."
+   ],
+   "in": "$n$",
+   "out": "$\\frac{1}{\\sqrt{n}}$"
+  },
+  "example": {
+   "question": "A survey asks $750$ people which radio station they prefer. Find the margin of error, as a percentage correct to one decimal place.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the formula",
+      "say": "The margin of error depends only on the sample size $n$.",
+      "lines": [
+       {
+        "tex": "\\text{margin of error} &= \\frac{1}{\\sqrt{n}}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute n",
+      "say": "The sample has $750$ people, so put $n = 750$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{1}{\\sqrt{750}}",
+        "sym": "1/sqrt(750)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.036515\\ldots",
+        "sym": "0.036515",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Change to a percentage",
+      "say": "Multiply by $100$ and round to one decimal place.",
+      "lines": [
+       {
+        "tex": "&= 0.036515 \\times 100",
+        "sym": "3.6515",
+        "new": true,
+        "approx": true
+       },
+       {
+        "tex": "&= \\hl{1}{3.7\\%}",
+        "sym": "3.7",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3.7\\%"
+   },
+   "finalSym": "3.7",
+   "answerSym": "round(100/sqrt(750),1)"
+  }
+ },
+ {
+  "skill": "inf-interpret",
+  "title": "Interpret an analysis and relate it to the original question",
+  "what": {
+   "say": [
+    "You give it the results of an analysis, such as a sample percentage and its margin of error. It writes a **conclusion** that answers the question that was asked.",
+    "The key idea: a sample only estimates the whole group, so the answer must allow for the margin of error and be written in the words of the question."
+   ],
+   "in": "results of analysis",
+   "out": "conclusion in context"
+  },
+  "example": {
+   "question": "A survey of 400 adults found that 54% support a new bike lane. A councillor says: \"The survey proves that more than half of all adults support the bike lane.\"\nFind the margin of error and a 95% confidence interval for the percentage of all adults who support the bike lane. Is the councillor right?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the margin of error",
+      "say": "The sample is only 400 adults, so the result is not exact. Find the margin of error, $\\frac{1}{\\sqrt{n}}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{MOE}} &= \\frac{1}{\\sqrt{400}}",
+        "sym": "1/sqrt(400)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.05",
+        "sym": "1/20"
+       },
+       {
+        "tex": "&= 5\\%",
+        "sym": "5/100"
+       }
+      ]
+     },
+     {
+      "title": "Build the interval",
+      "say": "The true percentage lies within the margin of error of the sample percentage. Subtract it, then add it.",
+      "lines": [
+       {
+        "tex": "\\text{lower} &= 54 - \\hl{1}{5}",
+        "sym": "54-5",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{49}",
+        "sym": "49"
+       },
+       {
+        "tex": "\\text{upper} &= 54 + \\hl{1}{5}",
+        "sym": "54+5",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{59}",
+        "sym": "59"
+       },
+       {
+        "tex": "\\hl{2}{49} \\le p \\le \\hl{2}{59}"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the claim",
+      "say": "The councillor says $p$ is more than $50\\%$. Ask: is $50\\%$ inside the interval?",
+      "lines": [
+       {
+        "text": "$50$ lies between $\\hl{2}{49}$ and $\\hl{2}{59}$, so it is **inside** the interval."
+       },
+       {
+        "text": "So the true percentage could be $50\\%$ or less."
+       }
+      ]
+     },
+     {
+      "title": "Answer in context",
+      "say": "Write the conclusion in the words of the question, not just \"yes\" or \"no\".",
+      "lines": [
+       {
+        "text": "No. The survey does not prove that more than half of all adults support the bike lane. The true percentage could be anywhere from 49% to 59%, and that includes 50% or less."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{2}{49}\\% \\le p \\le \\hl{2}{59}\\%, \\text{ so the claim is not proved}"
+   },
+   "finalSym": "(49, 59)",
+   "answerSym": "(54-100/sqrt(400), 54+100/sqrt(400))"
+  }
+ },
+ {
+  "skill": "inf-hypothesis-concept",
+  "title": "State null and alternative hypotheses",
+  "what": {
+   "say": [
+    "You give it a **claim**, such as \"$45\\%$ of customers buy popcorn\". It writes two hypotheses: $H_0$ says the claim is still true and $H_1$ says it has changed.",
+    "The key idea: you test $H_0$. The data give enough evidence to **reject** it, or they do not. Either way you say what it means for the claim."
+   ],
+   "in": "claim",
+   "out": "$H_0$, $H_1$, possible conclusions"
+  },
+  "example": {
+   "question": "A cinema says that 45% of its customers buy popcorn. In a random sample of 625 customers, 250 bought popcorn.\nWrite down $H_0$ and $H_1$. Use the margin of error to test the cinema's claim and state your conclusion.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the hypotheses",
+      "say": "$H_0$ is the claim as it stands. $H_1$ says the claim is wrong.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{H_0}: \\; p = 45\\%"
+       },
+       {
+        "tex": "\\hl{2}{H_1}: \\; p \\ne 45\\%"
+       }
+      ]
+     },
+     {
+      "title": "Find the interval",
+      "say": "To test the claim, build the interval $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$ from the sample.",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{250}{625}",
+        "sym": "250/625",
+        "new": true
+       },
+       {
+        "tex": "&= 0.4 = 40\\%",
+        "sym": "2/5"
+       },
+       {
+        "tex": "\\text{MOE} &= \\frac{100}{\\sqrt{625}}",
+        "sym": "100/sqrt(625)",
+        "new": true
+       },
+       {
+        "tex": "&= 4",
+        "sym": "4"
+       },
+       {
+        "tex": "40 - 4 \\le p \\le 40 + 4"
+       },
+       {
+        "tex": "\\hl{3}{36} \\le p \\le \\hl{3}{44}"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the claim",
+      "say": "Is the claimed $45\\%$ inside the interval?",
+      "lines": [
+       {
+        "text": "$45$ is bigger than $\\hl{3}{44}$, so it is **outside** the interval."
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "say": "Outside the interval, so reject $H_0$. Say what that means for the claim.",
+      "lines": [
+       {
+        "text": "Reject $\\hl{1}{H_0}$. There is evidence that the percentage of customers who buy popcorn is not $45\\%$."
+       },
+       {
+        "text": "If $45\\%$ had been inside the interval, you would not reject $\\hl{1}{H_0}$. There would be no evidence against the claim."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{3}{36}\\% \\le p \\le \\hl{3}{44}\\%, \\text{ so reject } H_0"
+   },
+   "finalSym": "(36, 44)",
+   "answerSym": "(250/625*100-100/sqrt(625), 250/625*100+100/sqrt(625))"
+  }
+ },
+ {
+  "skill": "inf-hypothesis-moe",
+  "title": "Test a claim about a proportion using margin of error",
+  "what": {
+   "say": [
+    "You give it a claimed percentage, a sample percentage $\\hat{p}$ and the sample size $n$. It builds the interval $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$ and checks whether the claim is **inside** it.",
+    "The key idea: if the claimed value is inside the interval, the sample gives no evidence against it, so you do not reject $H_0$. If it is outside, you reject $H_0$."
+   ],
+   "in": "claimed $p$, $\\hat{p}$, $n$",
+   "out": "interval; reject or do not reject"
+  },
+  "example": {
+   "question": "A company says that 45% of its customers are under 30. In a random sample of 400 customers, 164 were under 30.\nState $H_0$ and $H_1$. Find the margin of error and a 95% confidence interval. Test the company's claim and state your conclusion.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the hypotheses",
+      "say": "$H_0$ is the company's claim. $H_1$ says the percentage is different.",
+      "lines": [
+       {
+        "tex": "H_0: \\; p = 45\\%"
+       },
+       {
+        "tex": "H_1: \\; p \\ne 45\\%"
+       }
+      ]
+     },
+     {
+      "title": "Find the margin of error",
+      "say": "First the sample percentage, then the margin of error $\\frac{1}{\\sqrt{n}}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\hat{p}} &= \\frac{164}{400}",
+        "sym": "164/400",
+        "new": true
+       },
+       {
+        "tex": "&= 0.41 = 41\\%",
+        "sym": "41/100"
+       },
+       {
+        "tex": "\\hl{2}{\\text{MOE}} &= \\frac{100}{\\sqrt{400}}",
+        "sym": "100/sqrt(400)",
+        "new": true
+       },
+       {
+        "tex": "&= 5\\%",
+        "sym": "5"
+       }
+      ]
+     },
+     {
+      "title": "Build the interval",
+      "say": "Subtract the margin of error from $\\hat{p}$, then add it.",
+      "lines": [
+       {
+        "tex": "\\text{lower} &= \\hl{1}{41} - \\hl{2}{5}",
+        "sym": "41-5",
+        "new": true
+       },
+       {
+        "tex": "&= 36",
+        "sym": "36"
+       },
+       {
+        "tex": "\\text{upper} &= \\hl{1}{41} + \\hl{2}{5}",
+        "sym": "41+5",
+        "new": true
+       },
+       {
+        "tex": "&= 46",
+        "sym": "46"
+       },
+       {
+        "tex": "\\hl{3}{36} \\le p \\le \\hl{3}{46}"
+       }
+      ]
+     },
+     {
+      "title": "Test the claim",
+      "say": "Is $45\\%$ inside the interval? If it is, do not reject $H_0$.",
+      "lines": [
+       {
+        "text": "$45$ lies between $\\hl{3}{36}$ and $\\hl{3}{46}$, so it is **inside** the interval."
+       },
+       {
+        "text": "Do not reject $H_0$. There is not enough evidence to say that the percentage of customers under 30 is different from 45%."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{3}{36}\\% \\le p \\le \\hl{3}{46}\\%, \\text{ so do not reject } H_0"
+   },
+   "finalSym": "(36, 46)",
+   "answerSym": "(164/400*100-100/sqrt(400), 164/400*100+100/sqrt(400))"
+  }
+ },
+ {
+  "skill": "inf-ci-mean",
+  "title": "Construct a 95% confidence interval for a mean (large sample)",
+  "what": {
+   "say": [
+    "You give it a sample mean $\\bar{x}$, a standard deviation and a sample size $n$. It gives an interval that the population mean lies in, with $95\\%$ confidence.",
+    "The key idea: the sample mean is off from $\\mu$ by about one standard error, $\\frac{\\sigma}{\\sqrt{n}}$. Go $1.96$ standard errors either side of $\\bar{x}$."
+   ],
+   "in": "$\\bar{x},\\ \\sigma,\\ n$",
+   "out": "interval for $\\mu$"
+  },
+  "example": {
+   "question": "A sample of $64$ batteries has a mean life of $41.5$ hours. The standard deviation of the life of all batteries is $6$ hours. Find a $95\\%$ confidence interval for the mean life of all batteries.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the standard error",
+      "say": "Divide the standard deviation by the square root of the sample size.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{\\sigma}{\\sqrt{n}}} &= \\frac{6}{\\sqrt{64}}",
+        "sym": "6/sqrt(64)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.75",
+        "sym": "0.75"
+       }
+      ]
+     },
+     {
+      "title": "Find the margin of error",
+      "say": "Multiply the standard error by $1.96$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{E} &= 1.96 \\times \\hl{1}{0.75}",
+        "sym": "1.96*0.75",
+        "new": true
+       },
+       {
+        "tex": "&= 1.47",
+        "sym": "1.47"
+       }
+      ]
+     },
+     {
+      "title": "Go either side of the mean",
+      "say": "Subtract $\\hl{2}{E}$ from $\\bar{x}$, then add it.",
+      "lines": [
+       {
+        "tex": "\\bar{x} - E &= 41.5 - 1.47",
+        "sym": "41.5-1.47",
+        "new": true
+       },
+       {
+        "tex": "&= 40.03",
+        "sym": "40.03"
+       },
+       {
+        "tex": "\\bar{x} + E &= 41.5 + 1.47",
+        "sym": "41.5+1.47",
+        "new": true
+       },
+       {
+        "tex": "&= 42.97",
+        "sym": "42.97"
+       },
+       {
+        "text": "State it as an interval: $40.03 \\le \\mu \\le 42.97$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "40.03 \\le \\mu \\le 42.97"
+   },
+   "finalSym": "[40.03, 42.97]",
+   "answerSym": "[41.5-1.96*6/sqrt(64), 41.5+1.96*6/sqrt(64)]"
+  }
+ },
+ {
+  "skill": "inf-confidence-width",
+  "title": "Relate confidence level, sample size and interval width",
+  "what": {
+   "say": [
+    "You give it what you want from a confidence interval: a confidence level, or a target margin of error. It tells you whether the interval gets **wider** or narrower, or how big the sample must be.",
+    "The key idea: the margin is $z\\sqrt{\\hat p(1-\\hat p)/n}$, so it grows with the confidence level and shrinks with $\\sqrt{n}$. Halving the margin needs **four times** the sample."
+   ],
+   "in": "interval requirements",
+   "out": "wider or narrower, or $n$ needed"
+  },
+  "example": {
+   "question": "In a poll, $40\\%$ of the people sampled support a proposal. A $95\\%$ confidence interval for the proportion who support it must have a margin of error of at most $0.03$. Find the smallest sample size, $n$, that does this.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Set up the margin of error",
+      "say": "The margin of error is the part added to and taken from $\\hat p$: $1.96\\sqrt{\\hat p(1-\\hat p)/n}$. Put in $\\hat p = 0.4$ and set the margin equal to $0.03$ to find the borderline $\\hl{1}{n}$.",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.4 \\times 0.6}{\\hl{1}{n}}} &= 0.03",
+        "sym": "Eq(1.96*sqrt(0.24/n),0.03)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Isolate the root",
+      "say": "Divide both sides by $1.96$.",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.24}{\\hl{1}{n}}} &= \\frac{0.03}{1.96}",
+        "sym": "Eq(sqrt(0.24/n),0.03/1.96)"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides",
+      "say": "Square to remove the root, then $n$ can be brought up from the bottom.",
+      "lines": [
+       {
+        "tex": "\\frac{0.24}{\\hl{1}{n}} &= \\left(\\frac{0.03}{1.96}\\right)^2",
+        "sym": "Eq(0.24/n,(0.03/1.96)**2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "say": "Swap $n$ and the square, then work it out.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{n} &= 0.24\\left(\\frac{1.96}{0.03}\\right)^2",
+        "sym": "Eq(n,0.24*(1.96/0.03)**2)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{n} &= 1024.4",
+        "sym": "Eq(n,1024.43)",
+        "approx": true
+       },
+       {
+        "text": "A bigger $n$ gives a smaller margin, and $n$ must be a whole number. Round **up**."
+       },
+       {
+        "tex": "\\hl{1}{n} &= 1025",
+        "sym": "Eq(n,1025)",
+        "new": true,
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "n = 1025"
+   },
+   "finalSym": "1025",
+   "answerSym": "ceiling(Rational(24,100)*(Rational(196,100)/Rational(3,100))**2)"
+  }
+ },
+ {
+  "skill": "trig-compound",
+  "title": "Apply compound angle formulae (4, 5, 7, 8, 9, 10)",
+  "what": {
+   "say": [
+    "You give it a sum or difference of two angles, $A \\pm B$. It writes the sine, cosine or tangent of it in terms of $\\sin$ and $\\cos$ of $A$ and $B$ **separately**.",
+    "To find an exact value, split the angle into two you already know, such as $30°$, $45°$, $60°$ or $90°$, then put their exact values into the formula."
+   ],
+   "in": "$A \\pm B$",
+   "out": "exact value or expansion"
+  },
+  "example": {
+   "question": "Use a compound angle formula to find the exact value of $\\cos 105°$. Give your answer in surd form.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split the angle",
+      "say": "We know exact values for $\\hl{1}{60°}$ and $\\hl{2}{45°}$, and they add to $105°$. So write $105°$ as $\\hl{1}{60°} + \\hl{2}{45°}$.",
+      "lines": [
+       {
+        "tex": "105° &= \\hl{1}{60°} + \\hl{2}{45°}",
+        "sym": "pi/3 + pi/4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the formula",
+      "say": "Cosine of a sum is cosine times cosine **minus** sine times sine. Write the formula, with $A = \\hl{1}{60°}$ and $B = \\hl{2}{45°}$.",
+      "lines": [
+       {
+        "tex": "\\cos(A + B) &= \\cos A \\cos B - \\sin A \\sin B"
+       },
+       {
+        "tex": "\\cos(\\hl{1}{60°} + \\hl{2}{45°}) &= \\cos \\hl{1}{60°} \\cos \\hl{2}{45°} - \\sin \\hl{1}{60°} \\sin \\hl{2}{45°}"
+       }
+      ]
+     },
+     {
+      "title": "Put in exact values",
+      "say": "Use $\\cos 60° = \\frac{1}{2}$, $\\sin 60° = \\frac{\\sqrt{3}}{2}$, and $\\cos 45° = \\sin 45° = \\frac{1}{\\sqrt{2}}$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{1}{2}\\cdot\\frac{1}{\\sqrt{2}} - \\frac{\\sqrt{3}}{2}\\cdot\\frac{1}{\\sqrt{2}}",
+        "sym": "Rational(1,2)/sqrt(2) - sqrt(3)/2/sqrt(2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1 - \\sqrt{3}}{2\\sqrt{2}}",
+        "sym": "(1 - sqrt(3))/(2*sqrt(2))"
+       }
+      ]
+     },
+     {
+      "title": "Rationalise",
+      "say": "Multiply the top and bottom by $\\sqrt{2}$ to remove the surd from the bottom.",
+      "lines": [
+       {
+        "tex": "&= \\frac{(1 - \\sqrt{3})\\sqrt{2}}{2\\sqrt{2}\\cdot\\sqrt{2}}",
+        "sym": "(1 - sqrt(3))*sqrt(2)/(2*sqrt(2)*sqrt(2))"
+       },
+       {
+        "tex": "&= \\frac{\\sqrt{2} - \\sqrt{6}}{4}",
+        "sym": "(sqrt(2) - sqrt(6))/4"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{\\sqrt{2} - \\sqrt{6}}{4}"
+   },
+   "finalSym": "(sqrt(2) - sqrt(6))/4",
+   "answerSym": "cos(7*pi/12)"
+  }
+ },
+ {
+  "skill": "trig-solve-quadratic",
+  "title": "Solve trig equations reducible to quadratics",
+  "what": {
+   "say": [
+    "You give it a trig equation with $\\sin\\theta$ and $\\cos\\theta$ in it, squared as well as to the first power. It finds **every** angle in the range that fits.",
+    "Use $\\cos^2\\theta+\\sin^2\\theta=1$ to leave one trig ratio, call it $x$, and the equation is a quadratic in $x$. Solve that, then turn each value back into angles."
+   ],
+   "in": "equation in $\\sin\\theta$, $\\cos\\theta$",
+   "out": "all the angles"
+  },
+  "example": {
+   "question": "Solve $2\\cos^2\\theta + 3\\sin\\theta = 3$ for $0^\\circ \\le \\theta \\le 360^\\circ$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Leave only sine",
+      "say": "The equation has $\\cos^2\\theta$ and $\\sin\\theta$. Replace $\\cos^2\\theta$ with $1-\\sin^2\\theta$ so that only $\\hl{1}{\\sin\\theta}$ is left.",
+      "lines": [
+       {
+        "tex": "2(1-\\sin^2\\theta)+3\\sin\\theta &= 3",
+        "sym": "2*(1-s**2)+3*s"
+       },
+       {
+        "tex": "2-2\\sin^2\\theta+3\\sin\\theta &= 3",
+        "sym": "2-2*s**2+3*s"
+       },
+       {
+        "text": "Take 3 from both sides to get $0$ on the right."
+       },
+       {
+        "tex": "2\\sin^2\\theta-3\\sin\\theta+1 &= 0",
+        "sym": "2*s**2-3*s+1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "say": "This is a quadratic in $\\hl{1}{\\sin\\theta}$. Factorise it, then set each bracket equal to $0$.",
+      "lines": [
+       {
+        "tex": "(2\\hl{1}{\\sin\\theta}-1)(\\hl{1}{\\sin\\theta}-1) &= 0",
+        "sym": "(2*s-1)*(s-1)"
+       },
+       {
+        "tex": "\\hl{1}{\\sin\\theta} &= \\hl{2}{\\frac12}\\ \\text{or}\\ \\hl{3}{1}",
+        "sym": "[Rational(1,2),1]",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the angles",
+      "say": "Sine is positive in the first and second quadrants, so $\\hl{2}{\\frac12}$ gives two angles. $\\hl{3}{1}$ gives only $90^\\circ$.",
+      "lines": [
+       {
+        "tex": "\\sin\\theta=\\hl{2}{\\frac12}:\\quad \\theta &= 30^\\circ,\\ 150^\\circ",
+        "sym": "[30,150]",
+        "new": true
+       },
+       {
+        "tex": "\\sin\\theta=\\hl{3}{1}:\\quad \\theta &= 90^\\circ",
+        "sym": "[90]",
+        "new": true
+       },
+       {
+        "text": "Both fall inside the range, so keep all three."
+       },
+       {
+        "tex": "\\theta &= 30^\\circ,\\ 90^\\circ,\\ 150^\\circ",
+        "sym": "[30,90,150]",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\theta = 30^\\circ,\\ 90^\\circ,\\ 150^\\circ"
+   },
+   "finalSym": "[30, 90, 150]",
+   "answerSym": "[asin(Rational(1,2))*180/pi, asin(1)*180/pi, 180 - asin(Rational(1,2))*180/pi]"
+  }
+ },
+ {
+  "skill": "trig-products-sums",
+  "title": "Apply product-to-sum and sum-to-product formulae (17–24)",
+  "what": {
+   "say": [
+    "You give it a **sum or difference** of two sines or cosines, such as $\\sin 5x+\\sin x$. It gives back a **product** you can factorise or cancel.",
+    "Take half the sum of the two angles and half the difference. They become the angles in the product, and the formula tells you which pair of $\\sin$ and $\\cos$ to use."
+   ],
+   "in": "$\\sin P \\pm \\sin Q$, $\\cos P \\pm \\cos Q$",
+   "out": "a product"
+  },
+  "example": {
+   "question": "Show that $\\dfrac{\\sin 7x-\\sin x}{\\cos 7x+\\cos x}=\\tan 3x$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Top line as a product",
+      "say": "The top is a difference of sines. Use $\\sin P-\\sin Q = 2\\cos\\frac{P+Q}{2}\\sin\\frac{P-Q}{2}$ with $P=7x$ and $Q=x$.",
+      "lines": [
+       {
+        "tex": "\\sin 7x-\\sin x &= 2\\cos\\frac{7x+x}{2}\\sin\\frac{7x-x}{2}",
+        "sym": "2*cos((7*x+x)/2)*sin((7*x-x)/2)"
+       },
+       {
+        "tex": "&= 2\\hl{1}{\\cos 4x}\\hl{2}{\\sin 3x}",
+        "sym": "2*cos(4*x)*sin(3*x)"
+       }
+      ]
+     },
+     {
+      "title": "Bottom line as a product",
+      "say": "The bottom is a sum of cosines. Use $\\cos P+\\cos Q = 2\\cos\\frac{P+Q}{2}\\cos\\frac{P-Q}{2}$.",
+      "lines": [
+       {
+        "tex": "\\cos 7x+\\cos x &= 2\\cos\\frac{7x+x}{2}\\cos\\frac{7x-x}{2}",
+        "sym": "2*cos((7*x+x)/2)*cos((7*x-x)/2)"
+       },
+       {
+        "tex": "&= 2\\hl{1}{\\cos 4x}\\hl{3}{\\cos 3x}",
+        "sym": "2*cos(4*x)*cos(3*x)"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the common factor",
+      "say": "Both lines contain $2\\hl{1}{\\cos 4x}$. Cancel it and what is left is $\\sin 3x$ over $\\cos 3x$.",
+      "lines": [
+       {
+        "tex": "\\frac{2\\hl{1}{\\cos 4x}\\hl{2}{\\sin 3x}}{2\\hl{1}{\\cos 4x}\\hl{3}{\\cos 3x}} &= \\frac{\\hl{2}{\\sin 3x}}{\\hl{3}{\\cos 3x}}",
+        "sym": "(2*cos(4*x)*sin(3*x))/(2*cos(4*x)*cos(3*x))"
+       },
+       {
+        "tex": "&= \\tan 3x",
+        "sym": "tan(3*x)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\tan 3x"
+   },
+   "finalSym": "0",
+   "answerSym": "(sin(7*x)-sin(x))/(cos(7*x)+cos(x)) - tan(3*x)"
+  }
+ },
+ {
+  "skill": "trig-prove-identity",
+  "title": "Prove a trig identity",
+  "what": {
+   "say": [
+    "You give it an identity such as $\\sin 2A / (1+\\cos 2A) = \\tan A$. It changes **one side** step by step until it matches the other.",
+    "The key idea: start with the more complicated side, replace each angle formula with its expansion, then cancel."
+   ],
+   "in": "identity",
+   "out": "one side turned into the other"
+  },
+  "example": {
+   "question": "Prove that $\\dfrac{\\sin 2A}{1 + \\cos 2A} = \\tan A$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Expand the double angles",
+      "say": "Start with the left side. Replace $\\sin 2A$ by $2\\sin A\\cos A$ and $\\cos 2A$ by $2\\cos^2 A - 1$.",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= \\dfrac{\\sin 2A}{1 + \\cos 2A}",
+        "sym": "sin(2*A)/(1+cos(2*A))",
+        "new": true
+       },
+       {
+        "tex": "&= \\dfrac{2\\sin A\\cos A}{1 + 2\\cos^2 A - 1}",
+        "sym": "2*sin(A)*cos(A)/(1+2*cos(A)**2-1)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the bottom",
+      "say": "On the bottom, $1$ and $-1$ cancel.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{2\\sin A\\cos A}{2\\cos^2 A}",
+        "sym": "2*sin(A)*cos(A)/(2*cos(A)**2)"
+       }
+      ]
+     },
+     {
+      "title": "Cancel common factors",
+      "say": "Cancel $2\\cos A$ from the top and bottom. What is left is $\\hl{1}{\\sin A}$ over $\\hl{2}{\\cos A}$.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{\\hl{1}{\\sin A}}{\\hl{2}{\\cos A}}",
+        "sym": "sin(A)/cos(A)"
+       },
+       {
+        "tex": "&= \\tan A",
+        "sym": "tan(A)"
+       },
+       {
+        "text": "This is the right side, so $\\text{LHS} = \\text{RHS}$. Write that line."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{\\sin 2A}{1+\\cos 2A} = \\dfrac{\\sin A}{\\cos A} = \\tan A"
+   },
+   "finalSym": "0",
+   "answerSym": "simplify(trigsimp(sin(2*A)/(1+cos(2*A))-tan(A)))"
+  }
+ },
+ {
+  "skill": "trig-derive-5",
+  "title": "Derive formula 5: cos(A + B) from formula 4",
+  "what": {
+   "say": [
+    "You give it $\\cos(A + B)$. It derives the expansion from formula 4, the one for $\\cos(A - B)$.",
+    "The key idea: write $A + B$ as $A - (-B)$. Then formula 4 applies, and $\\cos(-B) = \\cos B$, $\\sin(-B) = -\\sin B$ finish it."
+   ],
+   "in": "$\\cos(A+B)$",
+   "out": "$\\cos A\\cos B - \\sin A\\sin B$"
+  },
+  "example": {
+   "question": "Use the formula $\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B$ to derive a formula for $\\cos(A + B)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Rewrite the sum",
+      "say": "Write the plus as a minus. $A + B$ is the same as $A - (\\hl{1}{-B})$.",
+      "lines": [
+       {
+        "tex": "\\cos(A + B) &= \\cos(A - (\\hl{1}{-B}))",
+        "sym": "cos(A-(-B))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Apply formula 4",
+      "say": "Use formula 4 with $\\hl{1}{-B}$ in place of $B$.",
+      "lines": [
+       {
+        "tex": "&= \\cos A\\cos(\\hl{1}{-B}) + \\sin A\\sin(\\hl{1}{-B})",
+        "sym": "cos(A)*cos(-B)+sin(A)*sin(-B)"
+       }
+      ]
+     },
+     {
+      "title": "Use odd and even",
+      "say": "Cosine is even: $\\cos(-B) = \\cos B$. Sine is odd: $\\sin(-B) = -\\sin B$.",
+      "lines": [
+       {
+        "tex": "&= \\cos A\\cos B + \\sin A(-\\sin B)",
+        "sym": "cos(A)*cos(B)+sin(A)*(-sin(B))"
+       },
+       {
+        "tex": "&= \\cos A\\cos B - \\sin A\\sin B",
+        "sym": "cos(A)*cos(B)-sin(A)*sin(B)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\cos(A+B) = \\cos A\\cos B - \\sin A\\sin B"
+   },
+   "finalSym": "cos(A)*cos(B)-sin(A)*sin(B)",
+   "answerSym": "expand_trig(cos(A+B))"
+  }
+ }
+]

@@ -1,0 +1,806 @@
+[
+ {
+  "skill": {
+   "id": "fn-graph-log",
+   "title": "Graph a logarithmic function",
+   "level": "HL",
+   "input": "logₐ x or ln x",
+   "output": "log curve (reflection of aˣ in y = x)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q7#(c)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Substitute x = 0, 10, 20, 30 into t(x)",
+      "lines": [
+       {
+        "text": "Use $t(x) = -62.5\\ln\\left(1-\\frac{x}{80}\\right)$ and round each answer to a whole number."
+       },
+       {
+        "tex": "t(0) &= -62.5\\ln(1)"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "tex": "t(10) &= -62.5\\ln\\left(1-\\frac{10}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 8"
+       },
+       {
+        "tex": "t(20) &= -62.5\\ln\\left(1-\\frac{20}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 18"
+       },
+       {
+        "tex": "t(30) &= -62.5\\ln\\left(1-\\frac{30}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 29"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 40, 50, 60, 70 into t(x)",
+      "lines": [
+       {
+        "tex": "t(40) &= -62.5\\ln\\left(1-\\frac{40}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 43"
+       },
+       {
+        "tex": "t(50) &= -62.5\\ln\\left(1-\\frac{50}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 61"
+       },
+       {
+        "tex": "t(60) &= -62.5\\ln\\left(1-\\frac{60}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 87"
+       },
+       {
+        "tex": "t(70) &= -62.5\\ln\\left(1-\\frac{70}{80}\\right)"
+       },
+       {
+        "tex": "&\\approx 130"
+       }
+      ]
+     },
+     {
+      "title": "Read off the completed table",
+      "lines": [
+       {
+        "text": "$x$: 0, 10, 20, 30, 40, 50, 60, 70."
+       },
+       {
+        "text": "$t(x)$: 0, 8, 18, 29, 43, 61, 87, 130."
+       }
+      ]
+     },
+     {
+      "title": "Plot the points and join them with a smooth curve",
+      "lines": [
+       {
+        "text": "Plot each pair $(x, t(x))$, e.g. $(10, 8)$, $(40, 43)$, $(70, 130)$."
+       },
+       {
+        "text": "Join the points with a smooth curve starting at the origin."
+       }
+      ]
+     }
+    ],
+    "final": "t(x):\\ 0,\\ 8,\\ 18,\\ 29,\\ 43,\\ 61,\\ 87,\\ 130"
+   },
+   {
+    "part": "practice-fn-graph-log-2",
+    "level": "higher",
+    "year": null,
+    "question": "The graph of $y = \\ln(x - 2)$ is the graph of $y = \\ln x$ moved $2$ units to the right.\nFind the coordinates of the point where the graph of $y = \\ln(x-2)$ crosses the $x$-axis.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Put y = 0",
+      "lines": [
+       {
+        "tex": "\\ln(x-2) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Convert to index form",
+      "lines": [
+       {
+        "tex": "x - 2 &= e^0"
+       },
+       {
+        "tex": "x - 2 &= 1"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "x &= 3"
+       }
+      ]
+     },
+     {
+      "title": "Write the point",
+      "lines": [
+       {
+        "text": "The graph crosses the $x$-axis at $(3, 0)$."
+       }
+      ]
+     }
+    ],
+    "final": "(3, 0)"
+   },
+   {
+    "part": "practice-fn-graph-log-1",
+    "level": "higher",
+    "year": null,
+    "question": "A table of values is drawn up for $y = \\log_3 x$.\nFind the values of $y$ when $x = \\frac{1}{9},\\ 1,\\ 3,\\ 9$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Convert to index form",
+      "lines": [
+       {
+        "text": "$y = \\log_3 x$ means $x = 3^y$. Find the power of $3$ that gives each $x$."
+       }
+      ]
+     },
+     {
+      "title": "x = 1/9",
+      "lines": [
+       {
+        "tex": "3^y &= \\frac{1}{9}"
+       },
+       {
+        "tex": "&= 3^{-2}"
+       },
+       {
+        "tex": "y &= -2"
+       }
+      ]
+     },
+     {
+      "title": "x = 1 and x = 3",
+      "lines": [
+       {
+        "tex": "3^y &= 1 = 3^0 \\Rightarrow y = 0"
+       },
+       {
+        "tex": "3^y &= 3 = 3^1 \\Rightarrow y = 1"
+       }
+      ]
+     },
+     {
+      "title": "x = 9",
+      "lines": [
+       {
+        "tex": "3^y &= 9 = 3^2"
+       },
+       {
+        "tex": "y &= 2"
+       }
+      ]
+     },
+     {
+      "title": "Read off the table",
+      "lines": [
+       {
+        "text": "$x$: $\\frac19$, $1$, $3$, $9$. $y$: $-2$, $0$, $1$, $2$."
+       }
+      ]
+     }
+    ],
+    "final": "y:\\ -2,\\ 0,\\ 1,\\ 2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-injective-surjective",
+   "title": "Classify a function as injective, surjective, bijective",
+   "level": "HL",
+   "input": "function with domain and codomain",
+   "output": "classification with reason"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q5#(b)(i)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Assume two inputs give the same output",
+      "lines": [
+       {
+        "text": "$f$ is injective if $f(a) = f(b)$ forces $a = b$."
+       },
+       {
+        "tex": "f(a) &= f(b)"
+       },
+       {
+        "tex": "3a - 2 &= 3b - 2"
+       }
+      ]
+     },
+     {
+      "title": "Solve for a",
+      "lines": [
+       {
+        "tex": "3a &= 3b"
+       },
+       {
+        "tex": "a &= b"
+       },
+       {
+        "text": "Different inputs always give different outputs, so $f$ is injective."
+       }
+      ]
+     }
+    ],
+    "final": "f(a) = f(b) \\Rightarrow a = b \\text{, so } f \\text{ is injective}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q5#(c)(i), (ii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Follow 3 through f, then through g",
+      "lines": [
+       {
+        "text": "In the diagram, $f$ sends $3$ to the globe."
+       },
+       {
+        "tex": "f(3) &= \\text{globe}"
+       },
+       {
+        "text": "$g$ sends the globe to $w$."
+       },
+       {
+        "tex": "g(f(3)) &= g(\\text{globe}) = w"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Show g is injective (one-to-one)",
+      "lines": [
+       {
+        "text": "The three elements of $B$ (plane, globe, cloud) go to three different elements of $C$: $x$, $w$ and $z$."
+       },
+       {
+        "text": "No element of $C$ is used more than once, so $g$ is injective."
+       }
+      ]
+     },
+     {
+      "title": "(ii) Show g is not surjective (not onto)",
+      "lines": [
+       {
+        "text": "The element $y$ in $C$ has no arrow pointing to it."
+       },
+       {
+        "text": "So the range $\\{x, w, z\\}$ is not all of $C$, and $g$ is not surjective."
+       }
+      ]
+     }
+    ],
+    "final": "g(f(3)) = w"
+   },
+   {
+    "part": "practice-fn-injective-surjective-1",
+    "level": "higher",
+    "year": null,
+    "question": "$f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = x^2 - 6x + 5$.\nShow that $f$ is not injective by finding a value $b \\neq 0$ such that $f(b) = f(0)$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find $f(0)$",
+      "lines": [
+       {
+        "tex": "f(0) &= 0^2 - 6(0) + 5 = 5"
+       }
+      ]
+     },
+     {
+      "title": "Look for another input with the same output",
+      "lines": [
+       {
+        "text": "$f$ is injective only if $f(a) = f(b)$ forces $a = b$. Set $f(b) = 5$."
+       },
+       {
+        "tex": "b^2 - 6b + 5 &= 5"
+       },
+       {
+        "tex": "b^2 - 6b &= 0"
+       },
+       {
+        "tex": "b(b - 6) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Choose the value other than 0",
+      "lines": [
+       {
+        "tex": "b &= 0 \\text{ or } b = 6"
+       },
+       {
+        "text": "Since $b \\neq 0$, $b = 6$. Then $f(6) = 36 - 36 + 5 = 5 = f(0)$ with $6 \\neq 0$, so $f$ is not injective."
+       }
+      ]
+     }
+    ],
+    "final": "b = 6"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-inverse",
+   "title": "Find the inverse of a bijective function",
+   "level": "HL",
+   "input": "y = f(x)",
+   "output": "f⁻¹(x)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q5#(b)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write y = f(x)",
+      "lines": [
+       {
+        "tex": "y &= 3x - 2"
+       }
+      ]
+     },
+     {
+      "title": "Swap x and y",
+      "lines": [
+       {
+        "tex": "x &= 3y - 2"
+       }
+      ]
+     },
+     {
+      "title": "Solve for y",
+      "lines": [
+       {
+        "tex": "x + 2 &= 3y"
+       },
+       {
+        "tex": "y &= \\frac{x+2}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Write the inverse",
+      "lines": [
+       {
+        "tex": "f^{-1}(x) &= \\frac{x+2}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "f^{-1}(x) = \\frac{x+2}{3}"
+   },
+   {
+    "part": "practice-fn-inverse-1",
+    "level": "higher",
+    "year": null,
+    "question": "The function $f:\\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = \\frac{5 - 2x}{3}$.\nFind $f^{-1}(x)$, the inverse of $f$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write y = f(x)",
+      "lines": [
+       {
+        "tex": "y &= \\frac{5-2x}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Swap x and y",
+      "lines": [
+       {
+        "tex": "x &= \\frac{5-2y}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for y",
+      "lines": [
+       {
+        "tex": "3x &= 5 - 2y"
+       },
+       {
+        "tex": "2y &= 5 - 3x"
+       },
+       {
+        "tex": "y &= \\frac{5-3x}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Write the inverse",
+      "lines": [
+       {
+        "tex": "f^{-1}(x) &= \\frac{5-3x}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "f^{-1}(x) = \\frac{5-3x}{2}"
+   },
+   {
+    "part": "practice-fn-inverse-2",
+    "level": "higher",
+    "year": null,
+    "question": "$f(x) = \\frac{x+1}{x-2}$ is a bijective function from $\\mathbb{R}\\setminus\\{2\\}$ to $\\mathbb{R}\\setminus\\{1\\}$.\nFind $f^{-1}(x)$, the inverse of $f$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write y = f(x) and swap x and y",
+      "lines": [
+       {
+        "tex": "y &= \\frac{x+1}{x-2}"
+       },
+       {
+        "tex": "x &= \\frac{y+1}{y-2}"
+       }
+      ]
+     },
+     {
+      "title": "Clear the fraction",
+      "lines": [
+       {
+        "tex": "x(y-2) &= y+1"
+       },
+       {
+        "tex": "xy - 2x &= y + 1"
+       }
+      ]
+     },
+     {
+      "title": "Collect the y terms and factorise",
+      "lines": [
+       {
+        "tex": "xy - y &= 2x + 1"
+       },
+       {
+        "tex": "y(x-1) &= 2x + 1"
+       }
+      ]
+     },
+     {
+      "title": "Solve for y",
+      "lines": [
+       {
+        "tex": "y &= \\frac{2x+1}{x-1}"
+       }
+      ]
+     },
+     {
+      "title": "Write the inverse",
+      "lines": [
+       {
+        "tex": "f^{-1}(x) &= \\frac{2x+1}{x-1}"
+       }
+      ]
+     }
+    ],
+    "final": "f^{-1}(x) = \\frac{2x+1}{x-1}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-inverse-sketch",
+   "title": "Sketch the inverse from a graph",
+   "level": "HL",
+   "input": "graph of f",
+   "output": "reflection in y = x"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q6#(b)(ii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the reflection property",
+      "lines": [
+       {
+        "text": "The graph of $k^{-1}$ is the reflection of the graph of $k$ in the line $y = x$. Swap the coordinates of points on $k$."
+       },
+       {
+        "text": "$(1, 1)$, $(0, 0)$ and $(-1, -1)$ lie on $y = x$, so they stay fixed."
+       }
+      ]
+     },
+     {
+      "title": "Plot and join",
+      "lines": [
+       {
+        "text": "For example $(0.5, 0.125)$ on $k$ becomes $(0.125, 0.5)$ on $k^{-1}$."
+       },
+       {
+        "text": "Draw a smooth curve through $(-1,-1)$, $(0,0)$ and $(1,1)$ that is steep at the origin."
+       },
+       {
+        "tex": "k^{-1}(x) &= \\sqrt[3]{x}"
+       }
+      ]
+     }
+    ],
+    "final": "k^{-1}(x) = \\sqrt[3]{x}"
+   },
+   {
+    "part": "practice-fn-inverse-sketch-1",
+    "level": "higher",
+    "year": null,
+    "question": "The graph of $f(x) = 3^x$ passes through the points $(0, 1)$, $(1, 3)$ and $(2, 9)$.\nThe graph of $f^{-1}$ is the reflection of the graph of $f$ in the line $y = x$.\nWrite down the coordinates of the point where the graph of $f^{-1}$ crosses the $x$-axis.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the reflection property",
+      "lines": [
+       {
+        "text": "Reflecting in $y = x$ swaps the coordinates of each point $(a, b)$ to $(b, a)$."
+       }
+      ]
+     },
+     {
+      "title": "Swap the coordinates of the point on f with x = 0",
+      "lines": [
+       {
+        "tex": "f(0) &= 3^0"
+       },
+       {
+        "tex": "&= 1"
+       },
+       {
+        "tex": "(0, 1) &\\to (1, 0)"
+       }
+      ]
+     },
+     {
+      "title": "Check with the inverse",
+      "lines": [
+       {
+        "text": "$f^{-1}(x) = \\log_3 x$, which is $0$ when $x = 1$, so the graph crosses the $x$-axis at $(1, 0)$."
+       }
+      ]
+     }
+    ],
+    "final": "(1, 0)"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q2#(b)(i), (ii), (iii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "(i) Find the slope of each segment",
+      "lines": [
+       {
+        "text": "$g'(x)$ is the slope of the graph. Find the slope of each line segment."
+       },
+       {
+        "tex": "\\text{First segment, } (0,0) \\text{ to } (3,1): \\quad m &= \\frac{1 - 0}{3 - 0}"
+       },
+       {
+        "tex": "&= \\frac{1}{3}"
+       },
+       {
+        "tex": "\\text{Second segment, } (3,1) \\text{ to } (4,4): \\quad m &= \\frac{4 - 1}{4 - 3}"
+       },
+       {
+        "tex": "&= 3"
+       },
+       {
+        "text": "Only the second segment has slope greater than $2$, so $g'(x) > 2$ for $3 < x \\le 4$."
+       }
+      ]
+     },
+     {
+      "title": "(ii) Find $g(3)$ from the graph",
+      "lines": [
+       {
+        "text": "Go up from $x = 3$ to the graph at $(3, 1)$ (blue dashed line on the diagram). So $g(3) = 1$."
+       },
+       {
+        "tex": "g(3) &= 1"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Find $g(1)$, the value of $g(g(3))$",
+      "lines": [
+       {
+        "text": "Now find $g(1)$. Go across from $(3, 1)$ to the line $y = x$ at $(1, 1)$. Go straight down to the graph at $(1, \\frac{1}{3})$, then across to the $y$-axis."
+       },
+       {
+        "text": "The first segment passes through $(0,0)$ with slope $\\frac{1}{3}$, so it has equation $y = \\frac{1}{3}x$."
+       },
+       {
+        "tex": "g(g(3)) &= g(1)"
+       },
+       {
+        "tex": "&= \\frac{1}{3}(1)"
+       },
+       {
+        "tex": "&= \\frac{1}{3}"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Swap the $x$ and $y$ coordinates of key points",
+      "lines": [
+       {
+        "text": "Reflecting in $y = x$ swaps each point $(x, y)$ to $(y, x)$."
+       },
+       {
+        "tex": "(0, 0) &\\to (0, 0)"
+       },
+       {
+        "tex": "(3, 1) &\\to (1, 3)"
+       },
+       {
+        "tex": "(4, 4) &\\to (4, 4)"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Draw and label $g^{-1}$",
+      "lines": [
+       {
+        "text": "Join $(0,0)$ to $(1,3)$, then $(1,3)$ to $(4,4)$, with straight lines."
+       },
+       {
+        "text": "Label the new graph $y = g^{-1}(x)$ (blue in the diagram)."
+       }
+      ]
+     }
+    ],
+    "final": "3 < x \\le 4, \\quad g(g(3)) = \\frac{1}{3}, \\quad g^{-1} \\text{ joins } (0,0),\\ (1,3),\\ (4,4)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-limit-concept",
+   "title": "Investigate the limit of a function",
+   "level": "OL",
+   "input": "f(x) near x = a (table/graph)",
+   "output": "limiting value"
+  },
+  "candidates": [
+   {
+    "part": "practice-fn-limit-concept-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "The temperature of a drink $t$ minutes after it is poured is $T(t) = 5 + 40e^{-0.2t}$ °C.\nFind the temperature that $T(t)$ approaches as $t$ gets very large.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "See what happens to the exponential",
+      "lines": [
+       {
+        "text": "As $t$ gets very large, $e^{-0.2t}$ gets closer and closer to $0$."
+       },
+       {
+        "tex": "\\lim_{t \\to \\infty} e^{-0.2t} &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Put this into $T(t)$",
+      "lines": [
+       {
+        "tex": "T(t) &\\to 5 + 40(0)"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     }
+    ],
+    "final": "5"
+   },
+   {
+    "part": "practice-fn-limit-concept-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$f(x) = \\frac{x^2 - 9}{x - 3}$, where $x \\neq 3$.\nBy investigating the values of $f(x)$ for $x$ close to $3$, find the limiting value of $f(x)$ as $x \\to 3$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Simplify the function for $x \\neq 3$",
+      "lines": [
+       {
+        "tex": "\\frac{x^2 - 9}{x - 3} &= \\frac{(x-3)(x+3)}{x-3}"
+       },
+       {
+        "tex": "&= x + 3"
+       }
+      ]
+     },
+     {
+      "title": "Try values just below and just above 3",
+      "lines": [
+       {
+        "tex": "f(2.99) &= 2.99 + 3 = 5.99"
+       },
+       {
+        "tex": "f(3.01) &= 3.01 + 3 = 6.01"
+       }
+      ]
+     },
+     {
+      "title": "State the limiting value",
+      "lines": [
+       {
+        "text": "From both sides, $f(x)$ gets closer and closer to $6$."
+       },
+       {
+        "tex": "\\lim_{x \\to 3} f(x) &= 3 + 3 = 6"
+       }
+      ]
+     }
+    ],
+    "final": "6"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q9#(a)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "See what happens as time goes on",
+      "lines": [
+       {
+        "text": "As $t$ gets very large, $e^{-0.081t}$ gets closer and closer to 0."
+       },
+       {
+        "text": "So $75e^{-0.081t}$ approaches 0 and $T(t)$ approaches 20."
+       }
+      ]
+     },
+     {
+      "title": "Interpret in context",
+      "lines": [
+       {
+        "text": "20 is the lowest temperature the coffee will cool to: the room temperature."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The temperature the coffee cools towards (room temperature, 20 °C)}"
+   }
+  ]
+ }
+]

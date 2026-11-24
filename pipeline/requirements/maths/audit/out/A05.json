@@ -1,0 +1,79 @@
+[
+ {
+  "skill": "cx-conjugate-root",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Only states the conjugate root; no quadratic factor or division to find the third root.",
+  "method": "Use the conjugate root theorem, build the quadratic factor from the pair, divide to get the linear factor and read off the third root."
+ },
+ {
+  "skill": "fin-estimate",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Rounds the final answer to the nearest litre with no estimate-by-rounded-inputs and no comparison.",
+  "method": "Calculate the exact value, estimate by rounding each input, then compare the two to check the answer is sensible."
+ },
+ {
+  "skill": "fn-injective-surjective",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Finds a counterexample input to show f is not injective instead of proving equal outputs force equal inputs.",
+  "method": "Assume f(a)=f(b) and solve algebraically to show a=b, proving injectivity."
+ },
+ {
+  "skill": "geo-cor3",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Mostly uses isosceles triangle, same-arc angles and angle sums, with the semicircle corollary only one of four steps.",
+  "method": "Spot the diameter, use the angle in a semicircle to get a right angle, then do a short angle calculation."
+ },
+ {
+  "skill": "geo-thm20",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Uses the radius as the height of a triangle to find an area rather than tangent-radius perpendicularity with Pythagoras.",
+  "method": "Use the tangent-radius right angle to form a right-angled triangle, apply Pythagoras and solve for the unknown length."
+ },
+ {
+  "skill": "num-surds",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Multiplies three surds to get a volume instead of simplifying and adding or subtracting like surds.",
+  "method": "Write each surd as a square times the same number, take the roots out, then add or subtract the like surds."
+ },
+ {
+  "skill": "seq-arith-find-ad",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Reads a from a volume and finds d from T5 = a + 4d using a bar chart rather than substituting n=1 and n=2 into the formula.",
+  "method": "Substitute n=1 and n=2 into T_n to get a and T_2, then subtract to find d."
+ },
+ {
+  "skill": "stat-srs-bias",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Justifies a simple random sample and finds a selection probability with no bias to spot or percentage left out.",
+  "method": "Spot the bias in the sampling method, then compute the fraction and percentage of the population left out."
+ },
+ {
+  "skill": "trig-unit-circle",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Uses right-triangle ratios on a radius 5 circle to read a and b, with no quadrant or sign step.",
+  "method": "Place the point on the unit circle from its angle, then read cos as the x co-ordinate and sin as the y co-ordinate using the related angle and quadrant signs."
+ },
+ {
+  "skill": "inf-confidence-width",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Divides two margin-of-error equations to find n with no p-hat, instead of solving the margin equation directly.",
+  "method": "Find p-hat and the margin of error from the interval, set up the margin formula with p-hat(1-p-hat) and solve for n."
+ },
+ {
+  "skill": "trig-graph",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Only plots given table values and joins them, with no substitution into the function.",
+  "method": "Substitute each given value into the function to build the table, then plot the points and join them with a smooth curve."
+ }
+]

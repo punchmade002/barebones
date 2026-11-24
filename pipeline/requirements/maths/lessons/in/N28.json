@@ -1,0 +1,830 @@
+[
+ {
+  "skill": {
+   "id": "trig-derive-1",
+   "title": "Derive formula 1: cos²A + sin²A = 1",
+   "level": "HL",
+   "input": "earlier formulae in the appendix order",
+   "output": "derivation"
+  },
+  "candidates": [
+   {
+    "part": "practice-trig-derive-1-1",
+    "level": "higher",
+    "year": null,
+    "question": "$P$ is a point on the unit circle with centre $O$, in the first quadrant. $OP$ makes an angle $A$ with the positive $x$-axis, and $N$ is the foot of the perpendicular from $P$ to the $x$-axis.\nUse the definitions of $\\cos A$ and $\\sin A$ and Pythagoras' theorem to prove that $\\cos^2 A + \\sin^2 A = 1$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read off the sides of the triangle",
+      "lines": [
+       {
+        "text": "In right-angled triangle $ONP$, the hypotenuse $OP$ is a radius, so $OP = 1$."
+       },
+       {
+        "tex": "ON &= \\cos A"
+       },
+       {
+        "tex": "NP &= \\sin A"
+       }
+      ]
+     },
+     {
+      "title": "Apply Pythagoras",
+      "lines": [
+       {
+        "tex": "ON^2 + NP^2 &= OP^2"
+       },
+       {
+        "tex": "\\cos^2 A + \\sin^2 A &= 1^2"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "tex": "\\cos^2 A + \\sin^2 A &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos^2 A + \\sin^2 A = 1"
+   },
+   {
+    "part": "practice-trig-derive-1-2",
+    "level": "higher",
+    "year": null,
+    "question": "A right-angled triangle has legs of length $a$ and $b$ and hypotenuse $c$. The angle $A$ is opposite the side of length $a$.\nUse the definitions of $\\sin A$ and $\\cos A$ and Pythagoras' theorem to prove that $\\cos^2 A + \\sin^2 A = 1$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the ratios",
+      "lines": [
+       {
+        "tex": "\\sin A &= \\frac{a}{c}"
+       },
+       {
+        "tex": "\\cos A &= \\frac{b}{c}"
+       }
+      ]
+     },
+     {
+      "title": "Square and add",
+      "lines": [
+       {
+        "tex": "\\cos^2 A + \\sin^2 A &= \\frac{b^2}{c^2} + \\frac{a^2}{c^2}"
+       },
+       {
+        "tex": "&= \\frac{a^2 + b^2}{c^2}"
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras",
+      "lines": [
+       {
+        "text": "Pythagoras gives $a^2 + b^2 = c^2$."
+       },
+       {
+        "tex": "\\cos^2 A + \\sin^2 A &= \\frac{c^2}{c^2}"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos^2 A + \\sin^2 A = 1"
+   },
+   {
+    "part": "practice-trig-derive-1-3",
+    "level": "higher",
+    "year": null,
+    "question": "$P(x, y)$ is a point on the unit circle with centre $O$, with $x < 0$ and $y > 0$. $OP$ makes an angle $A$ with the positive $x$-axis, where $90^\\circ < A < 180^\\circ$.\nUsing the unit circle definitions of $\\cos A$ and $\\sin A$ and Pythagoras' theorem, prove that $\\cos^2 A + \\sin^2 A = 1$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "State the definitions",
+      "lines": [
+       {
+        "tex": "\\cos A &= x"
+       },
+       {
+        "tex": "\\sin A &= y"
+       }
+      ]
+     },
+     {
+      "title": "Make a right-angled triangle",
+      "lines": [
+       {
+        "text": "Let $N$ be the foot of the perpendicular from $P$ to the $x$-axis. Then $ON = -x$ (a length, since $x < 0$), $NP = y$ and $OP = 1$."
+       },
+       {
+        "tex": "(-x)^2 + y^2 &= 1^2"
+       }
+      ]
+     },
+     {
+      "title": "Remove the sign",
+      "lines": [
+       {
+        "tex": "(-x)^2 &= x^2"
+       },
+       {
+        "tex": "x^2 + y^2 &= 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the definitions",
+      "lines": [
+       {
+        "tex": "\\cos^2 A + \\sin^2 A &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos^2 A + \\sin^2 A = 1"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-derive-2",
+   "title": "Derive formula 2: the sine rule",
+   "level": "HL",
+   "input": "earlier formulae in the appendix order",
+   "output": "derivation"
+  },
+  "candidates": [
+   {
+    "part": "practice-trig-derive-2-1",
+    "level": "higher",
+    "year": null,
+    "question": "In triangle $ABC$ the sides opposite $A$, $B$, $C$ are $a$, $b$, $c$.\nUse the area formula $\\tfrac{1}{2}ab\\sin C$ to prove that $\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the area in two ways",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}bc\\sin A"
+       },
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}ac\\sin B"
+       }
+      ]
+     },
+     {
+      "title": "Equate and cancel",
+      "lines": [
+       {
+        "tex": "\\tfrac{1}{2}bc\\sin A &= \\tfrac{1}{2}ac\\sin B"
+       },
+       {
+        "text": "Multiply by $2$ and divide by $c$."
+       },
+       {
+        "tex": "\\frac{\\tfrac{1}{2}bc\\sin A}{\\tfrac{1}{2}c} &= b\\sin A"
+       },
+       {
+        "tex": "b\\sin A &= a\\sin B"
+       }
+      ]
+     },
+     {
+      "title": "Divide by $\\sin A\\sin B$",
+      "lines": [
+       {
+        "tex": "\\frac{b}{\\sin B} &= \\frac{a}{\\sin A}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B}"
+   },
+   {
+    "part": "practice-trig-derive-2-2",
+    "level": "higher",
+    "year": null,
+    "question": "In triangle $ABC$ the sides opposite $A$, $B$, $C$ are $a$, $b$, $c$.\nUse the area formula $\\tfrac{1}{2}ab\\sin C$ to prove that $\\dfrac{b}{\\sin B} = \\dfrac{c}{\\sin C}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the area in two ways",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}ab\\sin C"
+       },
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}ac\\sin B"
+       }
+      ]
+     },
+     {
+      "title": "Equate and cancel",
+      "lines": [
+       {
+        "tex": "\\tfrac{1}{2}ab\\sin C &= \\tfrac{1}{2}ac\\sin B"
+       },
+       {
+        "text": "Multiply by $2$ and divide by $a$."
+       },
+       {
+        "tex": "\\frac{\\tfrac{1}{2}ab\\sin C}{\\tfrac{1}{2}a} &= b\\sin C"
+       },
+       {
+        "tex": "b\\sin C &= c\\sin B"
+       }
+      ]
+     },
+     {
+      "title": "Divide by $\\sin B\\sin C$",
+      "lines": [
+       {
+        "tex": "\\frac{b}{\\sin B} &= \\frac{c}{\\sin C}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{b}{\\sin B} = \\frac{c}{\\sin C}"
+   },
+   {
+    "part": "practice-trig-derive-2-3",
+    "level": "higher",
+    "year": null,
+    "question": "In triangle $ABC$ the sides opposite $A$, $B$, $C$ are $a$, $b$, $c$.\nBy writing the area of the triangle in three ways, prove the sine rule: $\\dfrac{\\sin A}{a} = \\dfrac{\\sin B}{b} = \\dfrac{\\sin C}{c}$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the area in three ways",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}bc\\sin A"
+       },
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}ac\\sin B"
+       },
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}ab\\sin C"
+       }
+      ]
+     },
+     {
+      "title": "Equate them",
+      "lines": [
+       {
+        "tex": "\\tfrac{1}{2}bc\\sin A &= \\tfrac{1}{2}ac\\sin B = \\tfrac{1}{2}ab\\sin C"
+       }
+      ]
+     },
+     {
+      "title": "Divide each by $\\tfrac{1}{2}abc$",
+      "lines": [
+       {
+        "tex": "\\frac{\\tfrac{1}{2}bc\\sin A}{\\tfrac{1}{2}abc} &= \\frac{\\sin A}{a}"
+       },
+       {
+        "tex": "\\frac{\\tfrac{1}{2}ac\\sin B}{\\tfrac{1}{2}abc} &= \\frac{\\sin B}{b}"
+       },
+       {
+        "tex": "\\frac{\\tfrac{1}{2}ab\\sin C}{\\tfrac{1}{2}abc} &= \\frac{\\sin C}{c}"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "tex": "\\frac{\\sin A}{a} &= \\frac{\\sin B}{b} = \\frac{\\sin C}{c}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{\\sin A}{a} = \\frac{\\sin B}{b} = \\frac{\\sin C}{c}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-derive-3",
+   "title": "Derive formula 3: the cosine rule",
+   "level": "HL",
+   "input": "earlier formulae in the appendix order",
+   "output": "derivation"
+  },
+  "candidates": [
+   {
+    "part": "practice-trig-derive-3-3",
+    "level": "higher",
+    "year": null,
+    "question": "In triangle $ABC$, let $a = |BC|$, $b = |CA|$ and $c = |AB|$. The angle $A$ is obtuse. $D$ is the foot of the perpendicular from $C$ to the line $BA$ extended, so that $A$ lies between $B$ and $D$.\nProve that $a^2 = b^2 + c^2 - 2bc\\cos A$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find $AD$ and $CD$ in triangle $ACD$",
+      "lines": [
+       {
+        "text": "$\\angle CAD = 180^\\circ - A$, and triangle $ACD$ is right-angled at $D$ with hypotenuse $AC = b$."
+       },
+       {
+        "tex": "AD &= b\\cos(180^\\circ - A) = -b\\cos A"
+       },
+       {
+        "tex": "CD &= b\\sin(180^\\circ - A) = b\\sin A"
+       }
+      ]
+     },
+     {
+      "title": "Find $BD$",
+      "lines": [
+       {
+        "text": "$A$ lies between $B$ and $D$, so $BD = AB + AD$."
+       },
+       {
+        "tex": "BD &= c - b\\cos A"
+       }
+      ]
+     },
+     {
+      "title": "Apply Pythagoras in triangle $BDC$",
+      "lines": [
+       {
+        "tex": "a^2 &= CD^2 + BD^2"
+       },
+       {
+        "tex": "&= (b\\sin A)^2 + (c - b\\cos A)^2"
+       }
+      ]
+     },
+     {
+      "title": "Expand and simplify",
+      "lines": [
+       {
+        "tex": "a^2 &= b^2\\sin^2 A + c^2 - 2bc\\cos A + b^2\\cos^2 A"
+       },
+       {
+        "tex": "&= b^2(\\sin^2 A + \\cos^2 A) + c^2 - 2bc\\cos A"
+       },
+       {
+        "tex": "&= b^2 + c^2 - 2bc\\cos A"
+       }
+      ]
+     }
+    ],
+    "final": "a^2 = b^2 + c^2 - 2bc\\cos A"
+   },
+   {
+    "part": "practice-trig-derive-3-1",
+    "level": "higher",
+    "year": null,
+    "question": "In triangle $ABC$, let $a = |BC|$, $b = |CA|$ and $c = |AB|$. The angle $A$ is acute. $D$ is the foot of the perpendicular from $C$ to $AB$, and $D$ lies between $A$ and $B$.\nProve that $a^2 = b^2 + c^2 - 2bc\\cos A$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find $CD$ and $AD$ in triangle $ACD$",
+      "lines": [
+       {
+        "text": "Triangle $ACD$ is right-angled at $D$ and its hypotenuse is $AC = b$."
+       },
+       {
+        "tex": "AD &= b\\cos A"
+       },
+       {
+        "tex": "CD &= b\\sin A"
+       }
+      ]
+     },
+     {
+      "title": "Find $DB$",
+      "lines": [
+       {
+        "text": "$D$ lies between $A$ and $B$, so $DB = AB - AD$."
+       },
+       {
+        "tex": "DB &= c - b\\cos A"
+       }
+      ]
+     },
+     {
+      "title": "Apply Pythagoras in triangle $BDC$",
+      "lines": [
+       {
+        "tex": "a^2 &= CD^2 + DB^2"
+       },
+       {
+        "tex": "&= (b\\sin A)^2 + (c - b\\cos A)^2"
+       }
+      ]
+     },
+     {
+      "title": "Expand the brackets",
+      "lines": [
+       {
+        "tex": "a^2 &= b^2\\sin^2 A + c^2 - 2bc\\cos A + b^2\\cos^2 A"
+       },
+       {
+        "tex": "&= b^2(\\sin^2 A + \\cos^2 A) + c^2 - 2bc\\cos A"
+       }
+      ]
+     },
+     {
+      "title": "Use $\\cos^2 A + \\sin^2 A = 1$",
+      "lines": [
+       {
+        "tex": "a^2 &= b^2 + c^2 - 2bc\\cos A"
+       }
+      ]
+     }
+    ],
+    "final": "a^2 = b^2 + c^2 - 2bc\\cos A"
+   },
+   {
+    "part": "practice-trig-derive-3-2",
+    "level": "higher",
+    "year": null,
+    "question": "In triangle $ABC$, let $a = |BC|$, $b = |CA|$ and $c = |AB|$. The angle $C$ is acute. $D$ is the foot of the perpendicular from $A$ to $BC$, and $D$ lies between $B$ and $C$.\nProve that $c^2 = a^2 + b^2 - 2ab\\cos C$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find $AD$ and $CD$ in triangle $ACD$",
+      "lines": [
+       {
+        "text": "Triangle $ACD$ is right-angled at $D$ and its hypotenuse is $AC = b$."
+       },
+       {
+        "tex": "CD &= b\\cos C"
+       },
+       {
+        "tex": "AD &= b\\sin C"
+       }
+      ]
+     },
+     {
+      "title": "Find $DB$",
+      "lines": [
+       {
+        "text": "$D$ lies between $B$ and $C$, so $DB = BC - CD$."
+       },
+       {
+        "tex": "DB &= a - b\\cos C"
+       }
+      ]
+     },
+     {
+      "title": "Apply Pythagoras in triangle $ABD$",
+      "lines": [
+       {
+        "tex": "c^2 &= AD^2 + DB^2"
+       },
+       {
+        "tex": "&= (b\\sin C)^2 + (a - b\\cos C)^2"
+       }
+      ]
+     },
+     {
+      "title": "Expand the brackets",
+      "lines": [
+       {
+        "tex": "c^2 &= b^2\\sin^2 C + a^2 - 2ab\\cos C + b^2\\cos^2 C"
+       },
+       {
+        "tex": "&= b^2(\\sin^2 C + \\cos^2 C) + a^2 - 2ab\\cos C"
+       }
+      ]
+     },
+     {
+      "title": "Use $\\cos^2 C + \\sin^2 C = 1$",
+      "lines": [
+       {
+        "tex": "c^2 &= a^2 + b^2 - 2ab\\cos C"
+       }
+      ]
+     }
+    ],
+    "final": "c^2 = a^2 + b^2 - 2ab\\cos C"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-derive-4",
+   "title": "Derive formula 4: cos(A − B) = cos A cos B + sin A sin B",
+   "level": "HL",
+   "input": "earlier formulae in the appendix order",
+   "output": "derivation"
+  },
+  "candidates": [
+   {
+    "part": "practice-trig-derive-4-3",
+    "level": "higher",
+    "year": null,
+    "question": "$P$ and $Q$ are the points $(r\\cos A, r\\sin A)$ and $(r\\cos B, r\\sin B)$ on a circle of radius $r$ with centre $O$, where $A > B$, so that $\\angle POQ = A - B$.\nFind $|PQ|^2$ by the distance formula and by the cosine rule, and so prove that $\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Distance formula",
+      "lines": [
+       {
+        "tex": "|PQ|^2 &= (r\\cos A - r\\cos B)^2 + (r\\sin A - r\\sin B)^2"
+       },
+       {
+        "tex": "&= r^2\\left[(\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2(\\cos A\\cos B + \\sin A\\sin B)\\right]"
+       },
+       {
+        "tex": "&= r^2\\left[2 - 2(\\cos A\\cos B + \\sin A\\sin B)\\right]"
+       }
+      ]
+     },
+     {
+      "title": "Cosine rule in triangle $OPQ$",
+      "lines": [
+       {
+        "text": "$|OP| = |OQ| = r$ and $\\angle POQ = A - B$."
+       },
+       {
+        "tex": "|PQ|^2 &= r^2 + r^2 - 2r^2\\cos(A - B)"
+       },
+       {
+        "tex": "&= r^2\\left[2 - 2\\cos(A - B)\\right]"
+       }
+      ]
+     },
+     {
+      "title": "Equate and cancel $r^2$",
+      "lines": [
+       {
+        "tex": "r^2\\left[2 - 2\\cos(A - B)\\right] &= r^2\\left[2 - 2(\\cos A\\cos B + \\sin A\\sin B)\\right]"
+       },
+       {
+        "tex": "\\cos(A - B) &= \\cos A\\cos B + \\sin A\\sin B"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B"
+   },
+   {
+    "part": "practice-trig-derive-4-1",
+    "level": "higher",
+    "year": null,
+    "question": "$P$ and $Q$ are the points $(\\cos A, \\sin A)$ and $(\\cos B, \\sin B)$ on the unit circle with centre $O$, where $A > B$, so that $\\angle POQ = A - B$.\nFind $|PQ|^2$ by the distance formula, then by the cosine rule in triangle $OPQ$, and so prove that $\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Distance formula",
+      "lines": [
+       {
+        "tex": "|PQ|^2 &= (\\cos A - \\cos B)^2 + (\\sin A - \\sin B)^2"
+       }
+      ]
+     },
+     {
+      "title": "Expand and group",
+      "lines": [
+       {
+        "tex": "|PQ|^2 &= \\cos^2 A - 2\\cos A\\cos B + \\cos^2 B + \\sin^2 A - 2\\sin A\\sin B + \\sin^2 B"
+       },
+       {
+        "tex": "&= (\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2(\\cos A\\cos B + \\sin A\\sin B)"
+       },
+       {
+        "tex": "&= 2 - 2(\\cos A\\cos B + \\sin A\\sin B)"
+       }
+      ]
+     },
+     {
+      "title": "Cosine rule in triangle $OPQ$",
+      "lines": [
+       {
+        "text": "$|OP| = |OQ| = 1$ and $\\angle POQ = A - B$."
+       },
+       {
+        "tex": "|PQ|^2 &= 1^2 + 1^2 - 2(1)(1)\\cos(A - B)"
+       },
+       {
+        "tex": "&= 2 - 2\\cos(A - B)"
+       }
+      ]
+     },
+     {
+      "title": "Equate the two results",
+      "lines": [
+       {
+        "tex": "2 - 2\\cos(A - B) &= 2 - 2(\\cos A\\cos B + \\sin A\\sin B)"
+       },
+       {
+        "tex": "\\cos(A - B) &= \\cos A\\cos B + \\sin A\\sin B"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B"
+   },
+   {
+    "part": "practice-trig-derive-4-2",
+    "level": "higher",
+    "year": null,
+    "question": "On the unit circle with centre $O$, let $P = (\\cos A, \\sin A)$, $Q = (\\cos B, \\sin B)$, $R = (1, 0)$ and $S = (\\cos(A - B), \\sin(A - B))$, where $A > B$. The chords $[PQ]$ and $[RS]$ are equal in length, because each subtends an angle $A - B$ at $O$.\nUse this to prove that $\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find $|RS|^2$",
+      "lines": [
+       {
+        "tex": "|RS|^2 &= (\\cos(A - B) - 1)^2 + (\\sin(A - B) - 0)^2"
+       },
+       {
+        "tex": "&= \\cos^2(A - B) - 2\\cos(A - B) + 1 + \\sin^2(A - B)"
+       },
+       {
+        "tex": "&= 2 - 2\\cos(A - B)"
+       }
+      ]
+     },
+     {
+      "title": "Find $|PQ|^2$",
+      "lines": [
+       {
+        "tex": "|PQ|^2 &= (\\cos A - \\cos B)^2 + (\\sin A - \\sin B)^2"
+       },
+       {
+        "tex": "&= (\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2\\cos A\\cos B - 2\\sin A\\sin B"
+       },
+       {
+        "tex": "&= 2 - 2\\cos A\\cos B - 2\\sin A\\sin B"
+       }
+      ]
+     },
+     {
+      "title": "Equate the squared lengths",
+      "lines": [
+       {
+        "tex": "2 - 2\\cos(A - B) &= 2 - 2\\cos A\\cos B - 2\\sin A\\sin B"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $\\cos(A - B)$",
+      "lines": [
+       {
+        "tex": "\\cos(A - B) &= \\cos A\\cos B + \\sin A\\sin B"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-derive-5",
+   "title": "Derive formula 5: cos(A + B) from formula 4",
+   "level": "HL",
+   "input": "earlier formulae in the appendix order",
+   "output": "derivation"
+  },
+  "candidates": [
+   {
+    "part": "practice-trig-derive-5-1",
+    "level": "higher",
+    "year": null,
+    "question": "Given that $\\cos(X - Y) = \\cos X\\cos Y + \\sin X\\sin Y$ for all angles $X$ and $Y$, and that $\\cos(-\\theta) = \\cos\\theta$ and $\\sin(-\\theta) = -\\sin\\theta$, prove that $\\cos(A + B) = \\cos A\\cos B - \\sin A\\sin B$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write $A + B$ as a difference",
+      "lines": [
+       {
+        "tex": "\\cos(A + B) &= \\cos\\big(A - (-B)\\big)"
+       }
+      ]
+     },
+     {
+      "title": "Use the formula for $\\cos(X - Y)$",
+      "lines": [
+       {
+        "text": "Take $X = A$ and $Y = -B$."
+       },
+       {
+        "tex": "&= \\cos A\\cos(-B) + \\sin A\\sin(-B)"
+       }
+      ]
+     },
+     {
+      "title": "Use $\\cos(-B)$ and $\\sin(-B)$",
+      "lines": [
+       {
+        "tex": "&= \\cos A\\cos B + \\sin A(-\\sin B)"
+       },
+       {
+        "tex": "&= \\cos A\\cos B - \\sin A\\sin B"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos(A + B) = \\cos A\\cos B - \\sin A\\sin B"
+   },
+   {
+    "part": "practice-trig-derive-5-3",
+    "level": "higher",
+    "year": null,
+    "question": "Given that $\\cos(X - Y) = \\cos X\\cos Y + \\sin X\\sin Y$ for all angles $X$ and $Y$, prove that $\\cos(P + Q) = \\cos P\\cos Q - \\sin P\\sin Q$, using $\\cos(-\\theta) = \\cos\\theta$ and $\\sin(-\\theta) = -\\sin\\theta$.\nThen check the result for $P = 60^\\circ$ and $Q = 30^\\circ$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write $P + Q$ as a difference and apply the formula",
+      "lines": [
+       {
+        "tex": "\\cos(P + Q) &= \\cos\\big(P - (-Q)\\big)"
+       },
+       {
+        "tex": "&= \\cos P\\cos(-Q) + \\sin P\\sin(-Q)"
+       }
+      ]
+     },
+     {
+      "title": "Use $\\cos(-Q) = \\cos Q$ and $\\sin(-Q) = -\\sin Q$",
+      "lines": [
+       {
+        "tex": "&= \\cos P\\cos Q - \\sin P\\sin Q"
+       }
+      ]
+     },
+     {
+      "title": "Check with $P = 60^\\circ$, $Q = 30^\\circ$",
+      "lines": [
+       {
+        "tex": "\\cos 90^\\circ &= 0"
+       },
+       {
+        "tex": "\\cos 60^\\circ\\cos 30^\\circ - \\sin 60^\\circ\\sin 30^\\circ &= \\frac12\\cdot\\frac{\\sqrt3}{2} - \\frac{\\sqrt3}{2}\\cdot\\frac12 = 0"
+       },
+       {
+        "text": "Both sides equal $0$, so the formula checks out."
+       }
+      ]
+     }
+    ],
+    "final": "\\cos(P + Q) = \\cos P\\cos Q - \\sin P\\sin Q"
+   },
+   {
+    "part": "practice-trig-derive-5-2",
+    "level": "higher",
+    "year": null,
+    "question": "Given that $\\cos(X - Y) = \\cos X\\cos Y + \\sin X\\sin Y$ for all angles $X$ and $Y$, prove that $\\cos(A + B) = \\cos A\\cos B - \\sin A\\sin B$.\nYou may use that reflecting the point $(\\cos\\theta, \\sin\\theta)$ on the unit circle in the $x$-axis gives the point $(\\cos(-\\theta), \\sin(-\\theta))$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find $\\cos(-B)$ and $\\sin(-B)$",
+      "lines": [
+       {
+        "text": "The reflection keeps the $x$-coordinate and changes the sign of the $y$-coordinate."
+       },
+       {
+        "tex": "\\cos(-B) &= \\cos B"
+       },
+       {
+        "tex": "\\sin(-B) &= -\\sin B"
+       }
+      ]
+     },
+     {
+      "title": "Write $A + B$ as a difference",
+      "lines": [
+       {
+        "tex": "A + B &= A - (-B)"
+       }
+      ]
+     },
+     {
+      "title": "Apply the formula for $\\cos(X - Y)$",
+      "lines": [
+       {
+        "text": "Take $X = A$ and $Y = -B$."
+       },
+       {
+        "tex": "\\cos(A + B) &= \\cos A\\cos(-B) + \\sin A\\sin(-B)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute for $\\cos(-B)$ and $\\sin(-B)$",
+      "lines": [
+       {
+        "tex": "&= \\cos A(\\cos B) + \\sin A(-\\sin B)"
+       },
+       {
+        "tex": "&= \\cos A\\cos B - \\sin A\\sin B"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos(A + B) = \\cos A\\cos B - \\sin A\\sin B"
+   }
+  ]
+ }
+]

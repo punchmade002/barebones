@@ -1,0 +1,731 @@
+[
+ {
+  "skill": "num-order-operations",
+  "verdict": "fixed",
+  "issues": "note on problem 2 did not mention the common denominator",
+  "problems": [
+   {
+    "part": "practice-num-order-operations-1",
+    "note": null,
+    "legend": {
+     "1": "the power, worked out",
+     "2": "the product (multiply step), worked out",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which part of the expression must be worked out first, and why?",
+      "title": "Brackets first",
+      "lines": [
+       {
+        "tex": "20 - 3 \\times (4-7)^2 + 5 &= 20 - 3 \\times \\hl{1}{(-3)^2} + 5"
+       }
+      ]
+     },
+     {
+      "ask": "What do you do with (−3) before multiplying by 3?",
+      "title": "Then the power",
+      "lines": [
+       {
+        "tex": "&= 20 - 3 \\times \\hl{1}{9} + 5"
+       }
+      ]
+     },
+     {
+      "ask": "Which comes next: the multiplication or the adding and subtracting?",
+      "title": "Then multiply",
+      "lines": [
+       {
+        "tex": "&= 20 - \\hl{2}{27} + 5"
+       }
+      ]
+     },
+     {
+      "ask": "Working from the left, what is the first addition or subtraction to do?",
+      "title": "Then add and subtract from left to right",
+      "lines": [
+       {
+        "tex": "&= -7 + 5"
+       },
+       {
+        "tex": "&= \\hl{3}{-2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{-2}",
+    "graph": null
+   },
+   {
+    "part": "practice-num-order-operations-2",
+    "note": "Changed from problem 1: the numbers are fractions, so the power is on a fraction instead of a bracket of integers, and the final step needs a common denominator. The order stays the same: powers, then multiply, then add and subtract.",
+    "legend": {
+     "1": "the power, worked out",
+     "2": "the product (multiply step), worked out",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is (½)² as a single fraction?",
+      "title": "Powers first",
+      "lines": [
+       {
+        "tex": "\\left(\\frac12\\right)^2 + 6 \\times \\frac13 - \\frac34 &= \\hl{1}{\\frac14} + 6 \\times \\frac13 - \\frac34"
+       }
+      ]
+     },
+     {
+      "ask": "Which comes next: the multiplication 6 × ⅓, or the adding and subtracting?",
+      "title": "Then multiply",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{\\frac14} + \\hl{2}{2} - \\frac34"
+       }
+      ]
+     },
+     {
+      "ask": "What common denominator can you use for ¼, 2 and ¾ so they can be added?",
+      "title": "Write over a common denominator",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{\\frac14} + \\frac84 - \\frac34"
+       }
+      ]
+     },
+     {
+      "ask": "What is the numerator when you calculate 1 + 8 − 3?",
+      "title": "Add and subtract",
+      "lines": [
+       {
+        "tex": "&= \\frac64"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac32}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\frac32}",
+    "graph": null
+   },
+   {
+    "part": "practice-num-order-operations-3",
+    "note": "Changed from problem 2: there is now a fraction bar and a square root, so the top and the bottom are worked out separately first. The order of operations is the same.",
+    "legend": {
+     "1": "the power, worked out",
+     "2": "the product (multiply step), worked out",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is 5 − 2, and what do you do with the power next?",
+      "title": "Brackets and powers on the top",
+      "lines": [
+       {
+        "tex": "(5-2)^3 + 9 &= \\hl{1}{3^3} + 9"
+       },
+       {
+        "tex": "&= \\hl{1}{27} + 9"
+       },
+       {
+        "tex": "&= 36"
+       }
+      ]
+     },
+     {
+      "ask": "What must you multiply on the bottom before you subtract 6?",
+      "title": "Multiply on the bottom",
+      "lines": [
+       {
+        "tex": "\\hl{2}{4 \\times 3} - 6 &= \\hl{2}{12} - 6"
+       },
+       {
+        "tex": "&= 6"
+       }
+      ]
+     },
+     {
+      "ask": "What is the square root of 49, and how does the fraction bar treat 36 and 6?",
+      "title": "Divide, and find the root",
+      "lines": [
+       {
+        "tex": "\\frac{36}{6} - \\sqrt{49} &= 6 - 7"
+       }
+      ]
+     },
+     {
+      "ask": "What is 6 − 7?",
+      "title": "Subtract",
+      "lines": [
+       {
+        "tex": "6 - 7 &= \\hl{3}{-1}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{-1}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "num-prime-factors",
+  "verdict": "fixed",
+  "issues": "note on problem 3 wrongly said problem 2 used 84 and 126",
+  "problems": [
+   {
+    "part": "practice-num-prime-factors-1",
+    "note": null,
+    "legend": {
+     "1": "the working value (prime factors, LCM or factor count)",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the smallest prime that divides 84?",
+      "title": "Factorise 84",
+      "lines": [
+       {
+        "tex": "84 &= 2 \\times 42"
+       },
+       {
+        "tex": "&= 2 \\times 2 \\times 21"
+       },
+       {
+        "tex": "&= \\hl{1}{2^2 \\times 3 \\times 7}"
+       }
+      ]
+     },
+     {
+      "ask": "Which prime divides 126, and what do you get when you divide it out?",
+      "title": "Factorise 126",
+      "lines": [
+       {
+        "tex": "126 &= 2 \\times 63"
+       },
+       {
+        "tex": "&= 2 \\times 3 \\times 21"
+       },
+       {
+        "tex": "&= \\hl{1}{2 \\times 3^2 \\times 7}"
+       }
+      ]
+     },
+     {
+      "ask": "Which primes appear in both lists, and which power of each is the smaller?",
+      "title": "Multiply the primes common to both, using the lower power of each",
+      "lines": [
+       {
+        "text": "Common: $2^1$, $3^1$ and $7^1$."
+       },
+       {
+        "tex": "\\text{HCF} &= \\hl{1}{2 \\times 3 \\times 7}"
+       },
+       {
+        "tex": "&= \\hl{2}{42}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{42}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q1#(b)(i), (ii)",
+    "note": "Changed from problem 1: this is a timing question, and the lowest common multiple (36) is found by listing multiples, not by prime factors or an HCF. The 36 is marked as the working value.",
+    "legend": {
+     "1": "the working value (prime factors, LCM or factor count)",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "At what times does each person finish a window, and when do they both finish together?",
+      "title": "List the times each person finishes a window",
+      "lines": [
+       {
+        "text": "Máiréad finishes at $9, 18, 27, \\hl{1}{36}, \\ldots$ minutes."
+       },
+       {
+        "text": "Diarmuid finishes at $12, 24, \\hl{1}{36}, \\ldots$ minutes."
+       },
+       {
+        "text": "The first time they match is $\\hl{1}{36}$ minutes (the lowest common multiple of 9 and 12)."
+       }
+      ]
+     },
+     {
+      "ask": "In 36 minutes, how many windows does each person clean?",
+      "title": "Windows cleaned in 36 minutes together",
+      "lines": [
+       {
+        "tex": "\\text{Máiréad: } \\hl{1}{36} \\div 9 &= 4"
+       },
+       {
+        "tex": "\\text{Diarmuid: } \\hl{1}{36} \\div 12 &= 3"
+       },
+       {
+        "tex": "\\text{Together: } 4 + 3 &= 7"
+       }
+      ]
+     },
+     {
+      "ask": "How many blocks of 7 windows does it take to clean 35 windows?",
+      "title": "Find how many 36-minute blocks are needed for 35 windows",
+      "lines": [
+       {
+        "tex": "35 \\div 7 &= 5"
+       }
+      ]
+     },
+     {
+      "ask": "How many minutes do 5 blocks of 36 minutes take, and how many hours is that?",
+      "title": "Multiply by 36 minutes",
+      "lines": [
+       {
+        "tex": "5 \\times \\hl{1}{36} &= \\hl{2}{180}"
+       },
+       {
+        "text": "$\\hl{2}{180}$ minutes is $3$ hours."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) } \\hl{1}{36} \\text{ minutes;}\\quad \\text{(ii) } \\hl{2}{180} \\text{ minutes (3 hours)}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q9#(a)(i), (ii), (iii)",
+    "note": "Changed from problem 2: there is no timing context and no lowest common multiple. Instead you count the factors of prime powers such as $2^{10}$ and $3^{12}$, so prime factors are used for counting rather than for a common multiple.",
+    "legend": {
+     "1": "the working value (prime factors, LCM or factor count)",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which powers of 2 divide exactly into 2⁴?",
+      "title": "(i) List the factors of 2^4",
+      "lines": [
+       {
+        "text": "The factors of $2^4$ are the powers of 2 from $2^0$ up to $2^4$."
+       },
+       {
+        "text": "They are $2^0, 2^1, 2^2, 2^3, 2^4$, that is $1, 2, 4, 8, 16$."
+       }
+      ]
+     },
+     {
+      "ask": "How many powers of 3, from 3⁰ up to 3⁷, are there?",
+      "title": "(ii) Count the factors of 3^7",
+      "lines": [
+       {
+        "text": "The factors are $3^0, 3^1, 3^2, 3^3, 3^4, 3^5, 3^6, 3^7$."
+       },
+       {
+        "text": "That is 8 different factors."
+       }
+      ]
+     },
+     {
+      "ask": "If the two primes share no factors, how do the counts for each prime combine?",
+      "title": "(iii) Count the factors of 2^10 × 3^12",
+      "lines": [
+       {
+        "text": "$\\hl{1}{2^{10}}$ and $\\hl{1}{3^{12}}$ share no factors, so every factor is a factor of $\\hl{1}{2^{10}}$ times a factor of $\\hl{1}{3^{12}}$."
+       },
+       {
+        "text": "$\\hl{1}{2^{10}}$ has 11 factors ($2^0$ to $\\hl{1}{2^{10}}$) and $\\hl{1}{3^{12}}$ has 13 factors ($3^0$ to $\\hl{1}{3^{12}}$)."
+       },
+       {
+        "tex": "\\text{factors} &= (10 + 1)(12 + 1)"
+       },
+       {
+        "tex": "&= \\hl{1}{11 \\times 13}"
+       },
+       {
+        "tex": "&= \\hl{2}{143}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) } 1, 2, 4, 8, 16 \\quad \\text{(ii) } 8 \\quad \\text{(iii) } \\hl{2}{143}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "num-sets",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "num-surds",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-apply-hl",
+  "verdict": "fixed",
+  "issues": "note on problem 2 claimed problem 1 differentiated",
+  "problems": [
+   {
+    "part": "maths-pp-2020-higher-p1-q9#(d)",
+    "note": null,
+    "legend": {
+     "1": "the rate, N′(k)",
+     "2": "the variable k",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "The rate must be more than 90. How do you get $e^{0.065k}$ on its own?",
+      "title": "Set up the inequality for the rate",
+      "lines": [
+       {
+        "tex": "\\hl{1}{N'(k)} &= \\hl{1}{29.25e^{0.065k}} > 90"
+       },
+       {
+        "tex": "e^{0.065k} &> \\frac{90}{29.25}"
+       }
+      ]
+     },
+     {
+      "ask": "Which function undoes e raised to a power, and what must you do to both sides of the inequality?",
+      "title": "Take logs and solve",
+      "lines": [
+       {
+        "tex": "0.065k &> \\ln\\left(\\frac{90}{29.25}\\right)"
+       },
+       {
+        "tex": "\\hl{2}{k} &> \\frac{\\ln(90/29.25)}{0.065}"
+       },
+       {
+        "tex": "\\hl{2}{k} &> 17.29"
+       }
+      ]
+     },
+     {
+      "ask": "Which whole numbers are greater than 17.29, and which one is the least?",
+      "title": "Choose the least whole number",
+      "lines": [
+       {
+        "text": "$\\hl{2}{k}$ is a whole number greater than 17.29."
+       },
+       {
+        "tex": "\\hl{2}{k} &= \\hl{3}{18}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{k} = \\hl{3}{18}",
+    "graph": null
+   },
+   {
+    "part": "practice-diff-apply-hl-1",
+    "note": "Changed from problem 1: the model is a cooling curve with a negative exponent, you must differentiate it first to get the rate, and the question gives an exact rate value (an equation) instead of an inequality. Setting the rate and taking logs stay the same.",
+    "legend": {
+     "1": "the rate, T′(t)",
+     "2": "the variable t",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the derivative of $e^{-0.1t}$ with respect to $t$?",
+      "title": "Differentiate to get the rate",
+      "lines": [
+       {
+        "tex": "\\hl{1}{T'(t)} &= \\hl{1}{-7e^{-0.1t}}"
+       }
+      ]
+     },
+     {
+      "ask": "The temperature falls at 3.5 degrees per minute. What equation does that give for the rate?",
+      "title": "Set the rate equal to $-3.5$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{-7e^{-0.1t}} &= -3.5"
+       },
+       {
+        "tex": "e^{-0.1t} &= \\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you undo the e in $e^{-0.1t} = \\frac{1}{2}$, so that you can solve for t?",
+      "title": "Take natural logs and solve",
+      "lines": [
+       {
+        "tex": "-0.1t &= \\ln\\left(\\tfrac{1}{2}\\right) = -\\ln 2"
+       },
+       {
+        "tex": "\\hl{2}{t} &= \\hl{3}{10\\ln 2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{t} = \\hl{3}{10\\ln 2 \\approx 6.93 \\text{ minutes}}",
+    "graph": null
+   },
+   {
+    "part": "practice-diff-apply-hl-2",
+    "note": "Changed from the second problem: the model is now t times an exponential, so the rate needs the product rule, and the question asks for the time of a maximum that you justify with a second derivative, not a rate value. Setting the rate to zero and solving for t stay the same.",
+    "legend": {
+     "1": "the rate, C′(t)",
+     "2": "the variable t",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "The model is $t$ times an exponential. Which rule do you use, and what is the derivative of each part?",
+      "title": "Differentiate using the product rule",
+      "lines": [
+       {
+        "tex": "\\hl{1}{C'(t)} &= 12e^{-t/2} + 12t\\left(-\\tfrac{1}{2}\\right)e^{-t/2}"
+       },
+       {
+        "tex": "&= \\hl{1}{12e^{-t/2}\\left(1 - \\tfrac{t}{2}\\right)}"
+       }
+      ]
+     },
+     {
+      "ask": "When is a product equal to zero, and can the exponential $e^{-t/2}$ ever be zero?",
+      "title": "Set $C'(t) = 0$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{12e^{-t/2}\\left(1 - \\tfrac{t}{2}\\right)} &= 0"
+       },
+       {
+        "text": "$e^{-t/2}$ is never $0$, so the bracket must be $0$."
+       },
+       {
+        "tex": "1 - \\tfrac{t}{2} &= 0"
+       },
+       {
+        "tex": "\\hl{2}{t} &= \\hl{3}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "To tell a maximum from a minimum, what do you differentiate again, and what do you check at the turning point?",
+      "title": "Differentiate again to classify",
+      "lines": [
+       {
+        "tex": "C''(t) &= 12e^{-t/2}\\left(\\tfrac{t}{4} - 1\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "What does a negative second derivative at a turning point tell you about it?",
+      "title": "Evaluate at $t = 2$",
+      "lines": [
+       {
+        "tex": "C''(2) &= -12e^{-1} < 0"
+       },
+       {
+        "text": "$C''(2) < 0$, so $\\hl{2}{t} = \\hl{3}{2}$ gives a maximum."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{t} = \\hl{3}{2 \\text{ hours}}",
+    "graph": {
+     "f": "12*x*exp(-x/2)",
+     "box": [
+      -0.5,
+      10,
+      10,
+      -0.5
+     ],
+     "tangent": true,
+     "points": [
+      {
+       "x": 2,
+       "y": 8.829,
+       "name": "max (2, 8.83)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 2,
+      "y": null,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": "diff-curve-sketch",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-increasing-interval",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-point-given-slope",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-sketch-derivative",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-tangent-circle",
+  "verdict": "fixed",
+  "issues": "note on problem 3 referred to the wrong circle/problem",
+  "problems": [
+   {
+    "part": "practice-diff-tangent-circle-1",
+    "note": null,
+    "legend": {
+     "1": "the slope, dy/dx",
+     "2": "x of the point",
+     "3": "y of the point"
+    },
+    "steps": [
+     {
+      "ask": "The equation is in x and y, not y = f(x). What do you do to both sides to find the slope?",
+      "title": "Differentiate both sides with respect to $x$",
+      "lines": [
+       {
+        "tex": "x^2 + y^2 &= 169"
+       },
+       {
+        "text": "Use the chain rule on $y^2$: $\\frac{d}{dx}(y^2) = 2y\\hl{1}{\\frac{dy}{dx}}$."
+       },
+       {
+        "tex": "2x + 2y\\hl{1}{\\frac{dy}{dx}} &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "How do you get dy/dx on its own from this equation?",
+      "title": "Solve for $\\frac{dy}{dx}$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{x}{y}"
+       }
+      ]
+     },
+     {
+      "ask": "Which value is x and which is y in the point, and where do they go in your expression?",
+      "title": "Substitute $(5, -12)$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{\\hl{2}{5}}{\\hl{3}{-12}}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{5}{12}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{\\frac{5}{12}}",
+    "graph": null
+   },
+   {
+    "part": "practice-diff-tangent-circle-2",
+    "note": "The circle is now shifted, with its centre at $(1, -2)$ instead of the origin, so each bracket is differentiated with the chain rule. The slope is then found and substituted in the same way.",
+    "legend": {
+     "1": "the slope, dy/dx"
+    },
+    "steps": [
+     {
+      "ask": "The brackets are squared, so what does the chain rule give for each bracket?",
+      "title": "Differentiate both sides with respect to $x$",
+      "lines": [
+       {
+        "text": "Use the chain rule on each bracket."
+       },
+       {
+        "tex": "2(x - 1) + 2(y + 2)\\hl{1}{\\frac{dy}{dx}} &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "How do you get dy/dx on its own from this equation?",
+      "title": "Solve for $\\frac{dy}{dx}$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{x - 1}{y + 2}"
+       }
+      ]
+     },
+     {
+      "ask": "What are x and y at the point, and what does the slope become when you put them in?",
+      "title": "Substitute $(4, 2)$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{dy}{dx}} &= \\hl{1}{-\\frac{3}{4}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{-\\frac{3}{4}}",
+    "graph": null
+   },
+   {
+    "part": "practice-diff-tangent-circle-3",
+    "note": "Changed from problem 2: the circle is centred at the origin again, but only x is given, so y must be found from the circle first, taking the positive root. The differentiation and substitution then work as in problem 1.",
+    "legend": {
+     "1": "the slope, dy/dx",
+     "2": "x of the point",
+     "3": "y of the point"
+    },
+    "steps": [
+     {
+      "ask": "Only x is given. What must y² equal when x = −4?",
+      "title": "Find the $y$-coordinate of $P$",
+      "lines": [
+       {
+        "tex": "(\\hl{2}{-4})^2 + y^2 &= 20"
+       },
+       {
+        "tex": "y^2 &= 4"
+       },
+       {
+        "text": "Since $y > 0$, $y = \\hl{3}{2}$ and $P = (\\hl{2}{-4}, \\hl{3}{2})$."
+       }
+      ]
+     },
+     {
+      "ask": "What is the derivative of y² with respect to x, and how do you get dy/dx on its own?",
+      "title": "Differentiate both sides with respect to $x$",
+      "lines": [
+       {
+        "tex": "2x + 2y\\hl{1}{\\frac{dy}{dx}} &= 0"
+       },
+       {
+        "tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{x}{y}"
+       }
+      ]
+     },
+     {
+      "ask": "Which two values go into x and y, and what does the slope become?",
+      "title": "Substitute $(-4, 2)$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{\\hl{2}{-4}}{\\hl{3}{2}}"
+       },
+       {
+        "tex": "&= \\hl{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{2}",
+    "graph": null
+   }
+  ]
+ }
+]

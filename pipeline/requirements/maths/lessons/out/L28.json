@@ -1,0 +1,511 @@
+[
+{"skill": "sim-linear-3", "problems": [
+  {"part": "maths-pp-2018-higher-p1-q1#(a)", "note": null,
+   "legend": {"1": "the variable eliminated first, y", "2": "the first unknown solved, z", "3": "its value, 5"},
+   "steps": [
+    {"ask": "Which equation has no y, and what can you remove from the other two?", "title": "Label the equations and plan to eliminate y",
+     "lines": [
+      {"text": "Call the equations (i), (ii) and (iii). Equation (iii) has no $\\hl{1}{y}$, so eliminate $\\hl{1}{y}$ from (i) and (ii) to get a second equation in $x$ and $\\hl{2}{z}$."},
+      {"tex": "\\text{(i)}\\quad 2x + \\hl{1}{3y} - \\hl{2}{z} &= -4"},
+      {"tex": "\\text{(ii)}\\quad 3x + \\hl{1}{2y} + \\hl{2}{2z} &= 14"},
+      {"tex": "\\text{(iii)}\\quad x - \\hl{2}{3z} &= -13"}
+     ]},
+    {"ask": "Which numbers make the y terms in (i) and (ii) equal and opposite?", "title": "Multiply (i) by 2 and (ii) by -3",
+     "lines": [
+      {"tex": "4x + \\hl{1}{6y} - \\hl{2}{2z} &= -8"},
+      {"tex": "-9x - \\hl{1}{6y} - \\hl{2}{6z} &= -42"}
+     ]},
+    {"ask": "What do the y terms become when you add these two equations?", "title": "Add the two equations to eliminate y",
+     "lines": [
+      {"tex": "-5x - \\hl{2}{8z} &= -50"}
+     ]},
+    {"ask": "Which number makes the x term in (iii) match the x term you just found?", "title": "Multiply (iii) by 5",
+     "lines": [
+      {"tex": "5x - \\hl{2}{15z} &= -65"}
+     ]},
+    {"ask": "Add the two equations to remove x. What does that leave for z?", "title": "Add to eliminate x and find z",
+     "lines": [
+      {"tex": "-5x - \\hl{2}{8z} &= -50"},
+      {"tex": "5x - \\hl{2}{15z} &= -65"},
+      {"tex": "\\hl{2}{-23z} &= -115"},
+      {"tex": "\\hl{2}{z} &= \\frac{-115}{-23}"},
+      {"tex": "\\hl{2}{z} &= \\hl{3}{5}"}
+     ]},
+    {"ask": "Which equation has only x and z? Put the value of z into it.", "title": "Substitute z = 5 into (iii) to find x",
+     "lines": [
+      {"tex": "x - 3(\\hl{3}{5}) &= -13"},
+      {"tex": "x - 15 &= -13"},
+      {"tex": "x &= 2"}
+     ]},
+    {"ask": "Put x and z into equation (i). What is left to solve for?", "title": "Substitute x = 2 and z = 5 into (i) to find y",
+     "lines": [
+      {"tex": "2(2) + \\hl{1}{3y} - \\hl{3}{5} &= -4"},
+      {"tex": "\\hl{1}{3y} - 1 &= -4"},
+      {"tex": "\\hl{1}{3y} &= -3"},
+      {"tex": "\\hl{1}{y} &= -1"}
+     ]}
+   ],
+   "final": "x = 2,\\; \\hl{1}{y} = -1,\\; \\hl{2}{z} = \\hl{3}{5}",
+   "graph": null},
+  {"part": "maths-pp-2024-higher-p1-q1#(c)", "note": "Same method as Problem 1: remove y from two equations, then remove x from the two results. The one change is the last division, 1160 divided by −29, which makes w negative.",
+   "legend": {"1": "the variable eliminated first, y", "2": "the first unknown solved, w", "3": "its value, -40"},
+   "steps": [
+    {"ask": "Which variable appears in both (1) and (2)? That is the one to remove first.", "title": "Label the equations",
+     "lines": [
+      {"tex": "x + \\hl{1}{2y} &= 143 \\quad (1)"},
+      {"tex": "\\hl{1}{y} + \\hl{2}{3w} &= -74 \\quad (2)"},
+      {"tex": "4x + \\hl{2}{5w} &= 4 \\quad (3)"}
+     ]},
+    {"ask": "What do you multiply (2) by so its y term cancels with the 2y in (1)?", "title": "Eliminate y from (1) and (2)",
+     "lines": [
+      {"text": "Multiply (2) by $-2$ so the $\\hl{1}{y}$ terms cancel when added to (1)."},
+      {"tex": "\\hl{1}{-2y} - \\hl{2}{6w} &= 148 \\quad (2\\text{ times }-2)"},
+      {"text": "Add this to (1)."},
+      {"tex": "x - \\hl{2}{6w} &= 291 \\quad (4)"}
+     ]},
+    {"ask": "What do you multiply (4) by so its x term matches the 4x in (3)?", "title": "Eliminate x from (3) and (4)",
+     "lines": [
+      {"text": "Multiply (4) by 4 so the $x$ terms match (3)."},
+      {"tex": "4x - \\hl{2}{24w} &= 1164 \\quad (5)"},
+      {"text": "Subtract (3) from (5)."},
+      {"tex": "4x - \\hl{2}{24w} - (4x + \\hl{2}{5w}) &= 1164 - 4"},
+      {"tex": "4x - \\hl{2}{24w} - 4x - \\hl{2}{5w} &= 1164 - 4"},
+      {"tex": "\\hl{2}{-29w} &= 1160"}
+     ]},
+    {"ask": "What is w once you divide 1160 by the number in front of w?", "title": "Solve for w",
+     "lines": [
+      {"tex": "\\hl{2}{w} &= \\frac{1160}{-29}"},
+      {"tex": "\\hl{2}{w} &= \\hl{3}{-40}"}
+     ]},
+    {"ask": "Put the value of w into equation (4). What does it leave for x?", "title": "Substitute w = -40 into (4) to find x",
+     "lines": [
+      {"tex": "x - 6(\\hl{3}{-40}) &= 291"},
+      {"tex": "x + 240 &= 291"},
+      {"tex": "x &= 51"}
+     ]},
+    {"ask": "Which equation has x and y but not w? Put x in and solve for y.", "title": "Substitute x = 51 into (1) to find y",
+     "lines": [
+      {"tex": "51 + \\hl{1}{2y} &= 143"},
+      {"tex": "\\hl{1}{2y} &= 92"},
+      {"tex": "\\hl{1}{y} &= 46"}
+     ]}
+   ],
+   "final": "x = 51,\\ \\hl{1}{y} = 46,\\ \\hl{2}{w} = \\hl{3}{-40}",
+   "graph": null},
+  {"part": "maths-pp-2022-higher-p1-q2#(b)(ii)", "note": "Same method, but the c terms already match in all three equations (3c each), so you subtract straight away and never multiply. The unknown solved first is a, then b, then c.",
+   "legend": {"1": "the variable eliminated first, c", "2": "the first unknown solved, a", "3": "its value, -12"},
+   "steps": [
+    {"ask": "Which variable has the same coefficient in all three equations?", "title": "Label the equations",
+     "lines": [
+      {"tex": "\\hl{2}{4a} + 3b + \\hl{1}{3c} &= 807 \\quad (1)"},
+      {"tex": "\\hl{2}{28a} + 9b + \\hl{1}{3c} &= 879 \\quad (2)"},
+      {"tex": "\\hl{2}{76a} + 15b + \\hl{1}{3c} &= 663 \\quad (3)"}
+     ]},
+    {"ask": "What happens to the c terms when you subtract (1) from (2)?", "title": "Subtract (1) from (2) to remove c",
+     "lines": [
+      {"tex": "(\\hl{2}{28a} + 9b + \\hl{1}{3c}) - (\\hl{2}{4a} + 3b + \\hl{1}{3c}) &= 879 - 807"},
+      {"tex": "\\hl{2}{24a} + 6b &= 72 \\quad (4)"}
+     ]},
+    {"ask": "Do the same with (2) and (3). What is left once the c terms go?", "title": "Subtract (2) from (3) to remove c",
+     "lines": [
+      {"tex": "(\\hl{2}{76a} + 15b + \\hl{1}{3c}) - (\\hl{2}{28a} + 9b + \\hl{1}{3c}) &= 663 - 879"},
+      {"tex": "\\hl{2}{48a} + 6b &= -216 \\quad (5)"}
+     ]},
+    {"ask": "What does subtracting (4) from (5) do to the 6b terms, and what is left?", "title": "Subtract (4) from (5) to remove b",
+     "lines": [
+      {"tex": "(\\hl{2}{48a} + 6b) - (\\hl{2}{24a} + 6b) &= -216 - 72"},
+      {"tex": "\\hl{2}{24a} &= -288"},
+      {"tex": "\\hl{2}{a} &= \\hl{3}{-12}"}
+     ]},
+    {"ask": "Which equation has only a and b? Put a in and solve for b.", "title": "Substitute a = -12 into (4)",
+     "lines": [
+      {"tex": "24(\\hl{3}{-12}) + 6b &= 72"},
+      {"tex": "-288 + 6b &= 72"},
+      {"tex": "6b &= 360"},
+      {"tex": "b &= 60"}
+     ]},
+    {"ask": "Put a and b into equation (1). What is left to solve for?", "title": "Substitute a = -12, b = 60 into (1)",
+     "lines": [
+      {"tex": "4(\\hl{3}{-12}) + 3(60) + \\hl{1}{3c} &= 807"},
+      {"tex": "-48 + 180 + \\hl{1}{3c} &= 807"},
+      {"tex": "132 + \\hl{1}{3c} &= 807"},
+      {"tex": "\\hl{1}{3c} &= 675"},
+      {"tex": "\\hl{1}{c} &= 225"}
+     ]}
+   ],
+   "final": "\\hl{2}{a} = \\hl{3}{-12},\\; b = 60,\\; \\hl{1}{c} = 225",
+   "graph": null}
+ ]},
+{"skill": "sim-linear-quadratic", "problems": [
+  {"part": "maths-pp-2024-ordinary-p1-q3#(c)", "note": null,
+   "legend": {"1": "the expression for y, 5 − 2x", "2": "an x-value where the curves meet", "3": "the y-value found from the line"},
+   "steps": [
+    {"ask": "What do you move across so that y is on its own?", "title": "Write $y$ in terms of $x$",
+     "lines": [
+      {"tex": "2x + y &= 5"},
+      {"tex": "y &= \\hl{1}{5 - 2x}"}
+     ]},
+    {"ask": "Put your expression for y into the circle equation. Where does y go?", "title": "Substitute into $x^2 + y^2 = 25$",
+     "lines": [
+      {"tex": "x^2 + y^2 &= 25"},
+      {"tex": "x^2 + (\\hl{1}{5-2x})^2 &= 25"}
+     ]},
+    {"ask": "What is (5 − 2x) squared? Multiply the bracket out in full.", "title": "Expand the bracket",
+     "lines": [
+      {"tex": "(\\hl{1}{5-2x})^2 &= (\\hl{1}{5-2x})(\\hl{1}{5-2x})"},
+      {"tex": "&= 25 - 10x - 10x + 4x^2"},
+      {"tex": "&= 25 - 20x + 4x^2"}
+     ]},
+    {"ask": "Put the expansion back into the circle equation. Which terms can you combine?", "title": "Put it back into the equation and collect terms",
+     "lines": [
+      {"tex": "x^2 + 25 - 20x + 4x^2 &= 25"},
+      {"tex": "5x^2 - 20x + 25 &= 25"},
+      {"tex": "5x^2 - 20x &= 0"}
+     ]},
+    {"ask": "What are the two factors, and what x makes each one zero?", "title": "Factorise and solve for $x$",
+     "lines": [
+      {"tex": "5x(x - 4) &= 0"},
+      {"text": "A product is zero when one factor is zero."},
+      {"tex": "x &= \\hl{2}{0} \\text{ or } x = \\hl{2}{4}"}
+     ]},
+    {"ask": "Use y = 5 − 2x with each x-value in turn. What is y when x = 0?", "title": "Find $y$ for each value of $x$",
+     "lines": [
+      {"text": "Use $y = \\hl{1}{5 - 2x}$."},
+      {"tex": "x = \\hl{2}{0}: \\quad y &= 5 - 2(\\hl{2}{0}) = \\hl{3}{5}"},
+      {"tex": "x = \\hl{2}{4}: \\quad y &= 5 - 2(\\hl{2}{4}) = \\hl{3}{-3}"}
+     ]}
+   ],
+   "final": "(x, y) = (\\hl{2}{0}, \\hl{3}{5}) \\text{ and } (\\hl{2}{4}, \\hl{3}{-3})",
+   "graph": null},
+  {"part": "maths-pp-2021-ordinary-p1-q4#(b)", "note": "Same method as Problem 1, with the line 2x − y = 7 and the circle x² + y² = 49. The change that matters is the second x-value, 28/5, which is a fraction, so the y-value needs fraction subtraction.",
+   "legend": {"1": "the expression for y, 2x − 7", "2": "an x-value where the curves meet", "3": "the y-value found from the line"},
+   "steps": [
+    {"ask": "What do you move across to leave y on its own?", "title": "Make $y$ the subject of the linear equation",
+     "lines": [
+      {"tex": "2x - y &= 7"},
+      {"tex": "y &= \\hl{1}{2x - 7}"}
+     ]},
+    {"ask": "Put your expression for y into x² + y² = 49. What do you get after expanding and tidying?", "title": "Substitute into $x^2 + y^2 = 49$",
+     "lines": [
+      {"tex": "x^2 + (\\hl{1}{2x - 7})^2 &= 49"},
+      {"tex": "x^2 + 4x^2 - 28x + 49 &= 49"},
+      {"tex": "5x^2 - 28x + 49 &= 49"},
+      {"tex": "5x^2 - 28x &= 0"}
+     ]},
+    {"ask": "What x makes each factor zero?", "title": "Factorise and solve for $x$",
+     "lines": [
+      {"tex": "x(5x - 28) &= 0"},
+      {"tex": "x &= \\hl{2}{0} \\quad \\text{or} \\quad x = \\hl{2}{\\frac{28}{5}}"}
+     ]},
+    {"ask": "Put x = 0 into your expression for y.", "title": "Find $y$ when $x = 0$",
+     "lines": [
+      {"tex": "y &= 2(\\hl{2}{0}) - 7"},
+      {"tex": "&= \\hl{3}{-7}"}
+     ]},
+    {"ask": "Put x = 28/5 into your expression for y. How do you subtract 7 from a fraction?", "title": "Find $y$ when $x = \\frac{28}{5}$",
+     "lines": [
+      {"tex": "y &= 2\\left(\\hl{2}{\\frac{28}{5}}\\right) - 7"},
+      {"tex": "&= \\frac{56}{5} - \\frac{35}{5}"},
+      {"tex": "&= \\hl{3}{\\frac{21}{5}}"}
+     ]}
+   ],
+   "final": "(x, y) = (\\hl{2}{0}, \\hl{3}{-7}) \\quad \\text{or} \\quad \\left(\\hl{2}{\\frac{28}{5}}, \\hl{3}{\\frac{21}{5}}\\right)",
+   "graph": null},
+  {"part": "maths-pp-2019-ordinary-p1-q4#(b)", "note": "The line is now rearranged for x, so the quadratic comes out in y and you solve for y first, then find x from the line. Everything else follows Problem 2, plus a division by 26.",
+   "legend": {"1": "the expression for x, 5y − 13", "2": "a y-value, the solution of the quadratic", "3": "the x-value found from the line"},
+   "steps": [
+    {"ask": "What do you do to the −5y term to leave x on its own?", "title": "Make x the subject of the linear equation",
+     "lines": [
+      {"tex": "x - 5y &= -13"},
+      {"tex": "x &= \\hl{1}{5y - 13}"}
+     ]},
+    {"ask": "Where does your expression for x go in x² + y² = 13?", "title": "Substitute into the quadratic equation",
+     "lines": [
+      {"text": "Replace $x$ in $x^2 + y^2 = 13$ with $\\hl{1}{5y - 13}$."},
+      {"tex": "(\\hl{1}{5y-13})^2 + y^2 &= 13"}
+     ]},
+    {"ask": "What is (5y − 13) squared? Multiply the bracket out in full.", "title": "Expand the bracket",
+     "lines": [
+      {"tex": "25y^2 - 130y + 169 + y^2 &= 13"}
+     ]},
+    {"ask": "What do you do to the 13 on the right so that the right side is zero?", "title": "Move everything to the left-hand side",
+     "lines": [
+      {"tex": "25y^2 - 130y + 169 + y^2 - 13 &= 0"}
+     ]},
+    {"ask": "Which terms are alike? Combine the y² terms and the numbers.", "title": "Collect like terms",
+     "lines": [
+      {"tex": "26y^2 - 130y + 156 &= 0"}
+     ]},
+    {"ask": "What number divides 26, 130 and 156 exactly?", "title": "Divide every term by 26",
+     "lines": [
+      {"tex": "y^2 - 5y + 6 &= 0"}
+     ]},
+    {"ask": "Which two numbers multiply to 6 and add to −5?", "title": "Factorise",
+     "lines": [
+      {"tex": "(y-2)(y-3) &= 0"}
+     ]},
+    {"ask": "Set each bracket to zero. What is y in each case?", "title": "Solve for y",
+     "lines": [
+      {"text": "One of the brackets must be zero."},
+      {"tex": "y &= \\hl{2}{2} \\text{ or } y = \\hl{2}{3}"}
+     ]},
+    {"ask": "Put your value of y into your expression for x.", "title": "Find x for y = 2",
+     "lines": [
+      {"tex": "x &= 5(\\hl{2}{2}) - 13"},
+      {"tex": "&= \\hl{3}{-3}"}
+     ]},
+    {"ask": "Now do the same with y = 3.", "title": "Find x for y = 3",
+     "lines": [
+      {"tex": "x &= 5(\\hl{2}{3}) - 13"},
+      {"tex": "&= \\hl{3}{2}"}
+     ]}
+   ],
+   "final": "(x, y) = (\\hl{3}{-3}, \\hl{2}{2}) \\text{ and } (\\hl{3}{2}, \\hl{2}{3})",
+   "graph": null}
+ ]},
+{"skill": "eq-linear", "problems": [
+  {"part": "maths-pp-2021-ordinary-p1-q4#(a)", "note": null,
+   "legend": {"1": "the x terms, collected on one side", "2": "the numbers, collected on the other side", "3": "the value of x"},
+   "steps": [
+    {"ask": "Multiply out both brackets. Which terms now have x in them?", "title": "Multiply out the brackets",
+     "lines": [
+      {"tex": "4(2x + 3) - 7 &= 3(x - 5)"},
+      {"tex": "8x + 12 - 7 &= 3(x - 5)"},
+      {"tex": "8x + 12 - 7 &= 3x - 15"},
+      {"tex": "\\hl{1}{8x} + \\hl{2}{5} &= \\hl{1}{3x} - \\hl{2}{15}"}
+     ]},
+    {"ask": "Which side should the x terms go to, and what happens to the numbers?", "title": "Collect the $x$ terms on one side and numbers on the other",
+     "lines": [
+      {"tex": "\\hl{1}{8x} - \\hl{1}{3x} &= \\hl{2}{-15} - \\hl{2}{5}"},
+      {"tex": "\\hl{1}{5x} &= \\hl{2}{-20}"}
+     ]},
+    {"ask": "What do you divide both sides by to leave x on its own?", "title": "Divide both sides by 5",
+     "lines": [
+      {"tex": "x &= \\hl{3}{-4}"}
+     ]}
+   ],
+   "final": "x = \\hl{3}{-4}",
+   "graph": null},
+  {"part": "maths-pp-2024-ordinary-p1-q4#(a)", "note": "Same steps as Problem 1, with different brackets and signs. The change that matters is that the answer does not come out whole: 5x = 28 gives x = 28/5, which is 5.6.",
+   "legend": {"1": "the x terms, collected on one side", "2": "the numbers, collected on the other side", "3": "the value of x"},
+   "steps": [
+    {"ask": "Multiply the 4 into the bracket. What do you get?", "title": "Multiply out the bracket",
+     "lines": [
+      {"tex": "4(2x - 5) - 1 &= 3x + 7"},
+      {"tex": "8x - 20 - 1 &= 3x + 7"},
+      {"tex": "\\hl{1}{8x} - \\hl{2}{21} &= \\hl{1}{3x} + \\hl{2}{7}"}
+     ]},
+    {"ask": "Which side should the x terms go to? What do you do to the 21 and the 7?", "title": "Get the $x$ terms on one side and numbers on the other",
+     "lines": [
+      {"text": "Subtract $\\hl{1}{3x}$ from both sides and add $\\hl{2}{21}$ to both sides."},
+      {"tex": "\\hl{1}{8x} - \\hl{1}{3x} &= \\hl{2}{7} + \\hl{2}{21}"},
+      {"tex": "\\hl{1}{5x} &= \\hl{2}{28}"}
+     ]},
+    {"ask": "What do you divide both sides by to leave x on its own?", "title": "Divide both sides by 5",
+     "lines": [
+      {"tex": "x &= \\hl{3}{\\frac{28}{5}}"},
+      {"tex": "&= \\hl{3}{5.6}"}
+     ]}
+   ],
+   "final": "x = \\hl{3}{\\frac{28}{5}} = \\hl{3}{5.6}",
+   "graph": null},
+  {"part": "maths-pp-2024-ordinary-p1-q9#(c)(ii)", "note": "Same three moves as the last problem, but the x term starts negative (−160x). The last division is by −160, and the two negative signs cancel to give +30.",
+   "legend": {"1": "the x term, −160x", "2": "the numbers, collected", "3": "the value of x"},
+   "steps": [
+    {"ask": "Which terms have x in them, and which are just numbers?", "title": "Set A(x) equal to 12 800",
+     "lines": [
+      {"tex": "\\hl{2}{17\\,600} - \\hl{1}{160x} &= \\hl{2}{12\\,800}"}
+     ]},
+    {"ask": "What do you do to the 17 600 to get the x term on its own?", "title": "Subtract 17 600 from both sides",
+     "lines": [
+      {"tex": "\\hl{1}{-160x} &= \\hl{2}{12\\,800} - \\hl{2}{17\\,600}"},
+      {"tex": "\\hl{1}{-160x} &= \\hl{2}{-4800}"}
+     ]},
+    {"ask": "Divide both sides by −160. What sign does the answer have?", "title": "Divide both sides by −160",
+     "lines": [
+      {"tex": "x &= \\hl{3}{\\frac{-4800}{-160}}"},
+      {"tex": "x &= \\hl{3}{30}"}
+     ]}
+   ],
+   "final": "x = \\hl{3}{30}",
+   "graph": null}
+ ]},
+{"skill": "eq-linear-fractions", "problems": [
+  {"part": "maths-pp-2019-ordinary-p1-q4#(a)", "note": null,
+   "legend": {"1": "the x terms, collected on one side", "2": "the value of x"},
+   "steps": [
+    {"ask": "What is the lowest number that 5, 2 and 10 all divide into?", "title": "Multiply every term by the common denominator 10",
+     "lines": [
+      {"text": "The denominators are $5$, $2$ and $10$, so the lowest common denominator is $10$."},
+      {"tex": "\\frac{3x+1}{5} + \\frac{x-2}{2} &= \\frac{47}{10}"},
+      {"tex": "10 \\cdot \\frac{3x+1}{5} + 10 \\cdot \\frac{x-2}{2} &= 10 \\cdot \\frac{47}{10}"}
+     ]},
+    {"ask": "After multiplying by 10, what does each fraction simplify to?", "title": "Cancel the denominators",
+     "lines": [
+      {"tex": "2(3x+1) + 5(x-2) &= 47"}
+     ]},
+    {"ask": "Multiply out each bracket. Which terms have x in them?", "title": "Expand the brackets",
+     "lines": [
+      {"tex": "\\hl{1}{6x} + 2 + \\hl{1}{5x} - 10 &= 47"}
+     ]},
+    {"ask": "Which terms are alike? Add the x terms together.", "title": "Collect like terms",
+     "lines": [
+      {"tex": "\\hl{1}{11x} - 8 &= 47"}
+     ]},
+    {"ask": "What do you do to the −8 to leave the x term on its own?", "title": "Add 8 to both sides",
+     "lines": [
+      {"tex": "\\hl{1}{11x} &= 55"}
+     ]},
+    {"ask": "What do you divide 55 by to find x?", "title": "Divide both sides by 11",
+     "lines": [
+      {"tex": "\\hl{2}{x} &= \\hl{2}{5}"}
+     ]}
+   ],
+   "final": "\\hl{2}{x} = \\hl{2}{5}",
+   "graph": null},
+  {"part": "maths-pp-2020-ordinary-p1-q2#(a)", "note": "Same method as Problem 1, now with denominators 2, 3 and 4 and common denominator 12. The change that matters is that the answer is a fraction, so the last step ends at −4/3.",
+   "legend": {"1": "the x terms, collected on one side", "2": "the value of x"},
+   "steps": [
+    {"ask": "Which number do 2, 3 and 4 all divide into? Multiply every term by it.", "title": "Multiply every term by the common denominator 12",
+     "lines": [
+      {"text": "The denominators 2, 3 and 4 all divide into 12."},
+      {"tex": "\\frac{9x-6}{2} &= \\frac{3x-14}{3} + \\frac{9x}{4}"},
+      {"tex": "12\\left(\\frac{9x-6}{2}\\right) &= 12\\left(\\frac{3x-14}{3}\\right) + 12\\left(\\frac{9x}{4}\\right)"}
+     ]},
+    {"ask": "After multiplying by 12, what does each fraction cancel to?", "title": "Cancel each denominator",
+     "lines": [
+      {"tex": "6(9x-6) &= 4(3x-14) + 3(9x)"}
+     ]},
+    {"ask": "Expand the brackets. Which terms have x in them?", "title": "Expand the brackets",
+     "lines": [
+      {"tex": "\\hl{1}{54x} - 36 &= \\hl{1}{12x} - 56 + \\hl{1}{27x}"}
+     ]},
+    {"ask": "Which x terms can you combine, and on which side should they go?", "title": "Collect like terms",
+     "lines": [
+      {"tex": "\\hl{1}{54x} - 36 &= \\hl{1}{39x} - 56"},
+      {"tex": "\\hl{1}{54x} - \\hl{1}{39x} &= -56 + 36"},
+      {"tex": "\\hl{1}{15x} &= -20"}
+     ]},
+    {"ask": "What do you divide both sides by to leave x alone? Simplify the fraction.", "title": "Divide both sides by 15",
+     "lines": [
+      {"tex": "\\hl{2}{x} &= \\hl{2}{-\\frac{20}{15}}"},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{-\\frac{4}{3}}"}
+     ]}
+   ],
+   "final": "\\hl{2}{x} = \\hl{2}{-\\frac{4}{3}}",
+   "graph": null},
+  {"part": "maths-pp-2022-ordinary-p1-q8#(b)(iii)", "note": "Same method as Problem 2, but the top of each fraction is a bracket with two letters, (6h + 5p). You expand it and collect only the p terms.",
+   "legend": {"1": "the p terms, collected", "2": "the value of p"},
+   "steps": [
+    {"ask": "What do you multiply every term by to remove both denominators?", "title": "Multiply every term by 6 to clear the fractions",
+     "lines": [
+      {"tex": "\\frac{6h+5p}{3} - \\frac{6h+5p}{2} + h + p &= 2"},
+      {"tex": "2(6h+5p) - 3(6h+5p) + 6h + 6p &= 12"}
+     ]},
+    {"ask": "Multiply out each bracket. Which terms have p in them?", "title": "Multiply out the brackets",
+     "lines": [
+      {"tex": "12h + \\hl{1}{10p} - 18h - \\hl{1}{15p} + 6h + \\hl{1}{6p} &= 12"}
+     ]},
+    {"ask": "Combine the h terms and the p terms separately. What is left?", "title": "Collect like terms",
+     "lines": [
+      {"tex": "(12h - 18h + 6h) + (\\hl{1}{10p} - \\hl{1}{15p} + \\hl{1}{6p}) &= 12"},
+      {"tex": "0h + \\hl{1}{p} &= 12"},
+      {"tex": "\\hl{2}{p} &= \\hl{2}{12}"}
+     ]}
+   ],
+   "final": "\\hl{2}{p} = \\hl{2}{12}",
+   "graph": null}
+ ]},
+{"skill": "eq-surd", "problems": [
+  {"part": "maths-pp-2024-higher-p1-q1#(a)", "note": null,
+   "legend": {"1": "the expression under the root, 3n + 1", "2": "the value of n being tested or found"},
+   "steps": [
+    {"ask": "What do you do to both sides to get rid of the square root?", "title": "Square both sides",
+     "lines": [
+      {"tex": "n - 3 &= \\sqrt{\\hl{1}{3n+1}}"},
+      {"tex": "(n-3)^2 &= \\hl{1}{3n + 1}"}
+     ]},
+    {"ask": "What is (n − 3) squared? Multiply the bracket out in full.", "title": "Expand the bracket",
+     "lines": [
+      {"tex": "n^2 - 6n + 9 &= \\hl{1}{3n + 1}"}
+     ]},
+    {"ask": "Gather all the terms on the left so that the right side is zero.", "title": "Collect everything on one side",
+     "lines": [
+      {"tex": "n^2 - 6n + 9 - 3n - 1 &= 0"},
+      {"tex": "n^2 - 9n + 8 &= 0"}
+     ]},
+    {"ask": "What two numbers multiply to 8 and add to −9?", "title": "Factorise and solve",
+     "lines": [
+      {"tex": "(n-8)(n-1) &= 0"},
+      {"tex": "n &= \\hl{2}{8} \\text{ or } n = \\hl{2}{1}"}
+     ]},
+    {"ask": "Put each value back into the original equation. Do both sides agree?", "title": "Check both answers in the original equation",
+     "lines": [
+      {"text": "Squaring can introduce a false solution, so test each value in $n-3=\\sqrt{\\hl{1}{3n+1}}$."},
+      {"tex": "n = \\hl{2}{1}:\\quad \\hl{2}{1} - 3 &= -2 \\text{ but } \\sqrt{\\hl{1}{3(1)+1}} = 2"},
+      {"text": "The two sides differ, so $n = \\hl{2}{1}$ is rejected."},
+      {"tex": "n = \\hl{2}{8}:\\quad \\hl{2}{8} - 3 &= 5 \\text{ and } \\sqrt{\\hl{1}{3(8)+1}} = \\sqrt{25} = 5"},
+      {"text": "The two sides agree, so $n = \\hl{2}{8}$ is the solution."}
+     ]}
+   ],
+   "final": "n = \\hl{2}{8}",
+   "graph": null},
+  {"part": "maths-pp-2015-higher-p1-q5#(a)", "note": "Same steps as Problem 1, but the root side is just x, so squaring gives x² = x + 6 with no bracket to expand. The value that fails the check is x = −2.",
+   "legend": {"1": "the expression under the root, x + 6", "2": "the value of x being tested or found"},
+   "steps": [
+    {"ask": "What do you do to both sides to remove the square root?", "title": "Square both sides",
+     "lines": [
+      {"tex": "x &= \\sqrt{\\hl{1}{x+6}}"},
+      {"tex": "x^2 &= \\hl{1}{x+6}"}
+     ]},
+    {"ask": "Which two numbers multiply to −6 and add to −1?", "title": "Rearrange and factorise",
+     "lines": [
+      {"tex": "x^2 - x - 6 &= 0"},
+      {"tex": "(x+2)(x-3) &= 0"},
+      {"tex": "x &= \\hl{2}{-2} \\text{ or } x = \\hl{2}{3}"}
+     ]},
+    {"ask": "Which of the two values fails when you put it back into the original equation?", "title": "Check both answers in the original equation",
+     "lines": [
+      {"text": "Squaring can introduce a false answer, so test each one."},
+      {"tex": "x=\\hl{2}{-2}:\\quad \\sqrt{\\hl{1}{-2+6}} &= \\sqrt{4} = 2 \\ne \\hl{2}{-2}"},
+      {"text": "$x=\\hl{2}{-2}$ is rejected."},
+      {"tex": "x=\\hl{2}{3}:\\quad \\sqrt{\\hl{1}{3+6}} &= \\sqrt{9} = 3"},
+      {"text": "$x=\\hl{2}{3}$ works."}
+     ]}
+   ],
+   "final": "x = \\hl{2}{3}",
+   "graph": null},
+  {"part": "maths-pp-2025-higher-p1-q8#(e)(ii)", "note": "Same idea as Problem 2: square, solve, check. The change is that the root sits in a denominator, so the fraction is moved and cleared before squaring. The context also means the negative root is thrown out.",
+   "legend": {"1": "the expression under the root, x² + 4", "2": "the value of x found"},
+   "steps": [
+    {"ask": "Which term do you move to the right so that the fraction stands on its own?", "title": "Move the fraction to the other side",
+     "lines": [
+      {"tex": "\\frac{x}{6\\sqrt{\\hl{1}{x^2 + 4}}} - \\frac{1}{12} &= 0"},
+      {"tex": "\\frac{x}{6\\sqrt{\\hl{1}{x^2 + 4}}} &= \\frac{1}{12}"}
+     ]},
+    {"ask": "What do you multiply both sides by to clear the fraction?", "title": "Get rid of the fractions",
+     "lines": [
+      {"text": "Multiply both sides by $12\\sqrt{\\hl{1}{x^2 + 4}}$."},
+      {"tex": "2x &= \\sqrt{\\hl{1}{x^2 + 4}}"}
+     ]},
+    {"ask": "What do you get when you square both sides?", "title": "Square both sides",
+     "lines": [
+      {"tex": "4x^2 &= \\hl{1}{x^2 + 4}"}
+     ]},
+    {"ask": "What do you subtract from both sides to collect the x² terms?", "title": "Collect the x² terms",
+     "lines": [
+      {"text": "Subtract $x^2$ from both sides."},
+      {"tex": "3x^2 &= 4"},
+      {"tex": "x^2 &= \\frac{4}{3}"}
+     ]},
+    {"ask": "A distance is positive. Which root do you keep, and what is x?", "title": "Take the positive square root",
+     "lines": [
+      {"text": "$x$ is a distance in $[0, 8]$, so reject the negative root."},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{\\frac{2}{\\sqrt{3}}}"},
+      {"tex": "&\\approx \\hl{2}{1.155} \\text{ km}"}
+     ]}
+   ],
+   "final": "\\hl{2}{x} \\approx \\hl{2}{1.155} \\text{ km}",
+   "graph": null}
+ ]}
+]

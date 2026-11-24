@@ -1,0 +1,428 @@
+[
+ {
+  "skill": "geo-thm16",
+  "what": {
+   "say": [
+    "You give it a diagram with triangles and a parallelogram that share a base and a height. It finds the unknown **area**, and cites Theorem 16.",
+    "Theorem 16: the area of a triangle is half of $\\text{base} \\times \\text{height}$, and it is the same whichever side you take as the base."
+   ],
+   "in": "triangle or parallelogram, with area given",
+   "out": "unknown area, with Theorem 16 cited"
+  },
+  "how": {
+   "ordinary": "Ordinary level used it once, on Paper 2 in 2015: a 5-mark part finding the areas of triangles inside a parallelogram."
+  },
+  "example": {
+   "question": "$PQRS$ is a parallelogram with area $360\\ \\text{m}^2$. $T$ is the midpoint of $[QR]$.\n(i) Find the area of the triangle $PQS$.\n(ii) Find the area of the triangle $PQT$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Triangle on the same base",
+      "say": "Triangle $PQS$ has the same base $[PS]$ and the same height as the parallelogram. By Theorem 16 it is **half** the parallelogram.",
+      "lines": [
+       {
+        "tex": "|PQS| &= \\tfrac{1}{2} \\times 360",
+        "sym": "360/2",
+        "new": true
+       },
+       {
+        "tex": "&= 180\\ \\text{m}^2",
+        "sym": "180"
+       }
+      ]
+     },
+     {
+      "title": "Triangle on side QR",
+      "say": "Take $[QR]$ as the base. Triangle $PQR$ has the same base and height as the parallelogram, so its area is half again.",
+      "lines": [
+       {
+        "tex": "|PQR| &= \\tfrac{1}{2} \\times 360",
+        "sym": "360/2",
+        "new": true
+       },
+       {
+        "tex": "&= 180\\ \\text{m}^2",
+        "sym": "180"
+       }
+      ]
+     },
+     {
+      "title": "Halve the base",
+      "say": "$T$ is the midpoint, so $|QT| = \\tfrac{1}{2}|QR|$. The height from $P$ is the same, so triangle $PQT$ has **half** the area of $PQR$.",
+      "lines": [
+       {
+        "tex": "|PQT| &= \\tfrac{1}{2} \\times 180",
+        "sym": "180/2",
+        "new": true
+       },
+       {
+        "tex": "&= 90\\ \\text{m}^2",
+        "sym": "90"
+       },
+       {
+        "text": "Same height, half the base: half the area."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|PQS| = 180\\ \\text{m}^2, \\ |PQT| = 90\\ \\text{m}^2"
+   },
+   "finalSym": "[180, 90]",
+   "answerSym": "[360/2, 360/4]"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M90 50 L40 170 L210 170 L260 50 Z\"/><path d=\"M40 170 L260 50 M90 50 L125 170\"/><path d=\"M90 50 L90 170\" stroke-dasharray=\"4 4\"/><text x=\"80\" y=\"44\" fill=\"#1A1916\" stroke=\"none\">P</text><text x=\"26\" y=\"184\" fill=\"#1A1916\" stroke=\"none\">Q</text><text x=\"208\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">R</text><text x=\"264\" y=\"46\" fill=\"#1A1916\" stroke=\"none\">S</text><text x=\"120\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">T</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Show some work on the area of a triangle. It earns partial credit even if the final area is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(b)(i), (ii)",
+       "quote": "Any correct relevant work on the area of triangle in either part"
+      }
+     ]
+    },
+    {
+     "tip": "One correct area earns high partial credit, so do not leave a part blank if the other is hard.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(b)(i), (ii)",
+       "quote": "One correct area"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no work still earns full marks, but write the work anyway in case the answer is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q4#(b)(i), (ii)",
+       "quote": "Accept correct answer without work"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm20",
+  "what": {
+   "say": [
+    "You give it a circle with a tangent. It finds an unknown **length** or angle, and cites Theorem 20.",
+    "Theorem 20: a tangent is **perpendicular** to the radius at the point of contact. That gives you a right angle, so Pythagoras and trigonometry work."
+   ],
+   "in": "circle with a tangent line",
+   "out": "right angle, then the unknown"
+  },
+  "how": {
+   "higher": "Higher level used it in six parts on Paper 2 between 2015 and 2020, three of them with Theorem 20 as the main skill: the right angle at the point of contact is the first step of a longer part, worth 10 to 15 marks."
+  },
+  "example": {
+   "question": "A circle has centre $O$ and radius $5$ cm. $[PT]$ is a tangent to the circle at $T$, and $|OP| = 13$ cm.\n(i) Find $|PT|$.\n(ii) Find the area of the triangle $OTP$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Mark the right angle",
+      "say": "$[OT]$ is a radius and $[PT]$ is a tangent at $T$. By Theorem 20 they are perpendicular, so $|\\angle OTP| = 90^\\circ$.",
+      "lines": [
+       {
+        "text": "Triangle $OTP$ is right-angled at $T$. $[OP]$ is the hypotenuse."
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras",
+      "say": "Write Pythagoras with the numbers in, then solve for $|PT|$.",
+      "lines": [
+       {
+        "tex": "|PT|^2 &= 13^2 - 5^2",
+        "sym": "13**2-5**2",
+        "new": true
+       },
+       {
+        "tex": "&= 144",
+        "sym": "144"
+       },
+       {
+        "tex": "|PT| &= 12\\ \\text{cm}",
+        "sym": "12",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the area",
+      "say": "The two shorter sides are perpendicular, so use them as base and height.",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2} \\times 5 \\times 12",
+        "sym": "5*12/2",
+        "new": true
+       },
+       {
+        "tex": "&= 30\\ \\text{cm}^2",
+        "sym": "30"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|PT| = 12\\ \\text{cm}, \\ \\text{area} = 30\\ \\text{cm}^2"
+   },
+   "finalSym": "[12, 30]",
+   "answerSym": "[sqrt(13**2-5**2), 5*sqrt(13**2-5**2)/2]"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><circle cx=\"80\" cy=\"110\" r=\"55\"/><path d=\"M135 110 L135 20 L80 110 M135 20 L135 200 M135 110 L80 110\"/><path d=\"M135 98 L123 98 L123 110\"/><text x=\"66\" y=\"106\" fill=\"#1A1916\" stroke=\"none\">O</text><text x=\"142\" y=\"116\" fill=\"#1A1916\" stroke=\"none\">T</text><text x=\"142\" y=\"22\" fill=\"#1A1916\" stroke=\"none\">P</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Mark the right angle where the radius meets the tangent on your diagram. The scheme gives credit for it.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q9#(d)(i)",
+       "quote": "Right angle indicated"
+      }
+     ]
+    },
+    {
+     "tip": "Pick out the right-angled triangle on the diagram before you calculate.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q9#(d)(i)",
+       "quote": "Relevant triangle indicated on diagram"
+      }
+     ]
+    },
+    {
+     "tip": "Write Pythagoras with the numbers substituted in. That is a mark on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q6#(a)",
+       "quote": "Pythagoras fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Give a reason for each step. Correct steps with no justification do not get full marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q5#(b)",
+       "quote": "All valid steps included but with no justification"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "geo-cor1",
+  "what": {
+   "say": [
+    "You give it a parallelogram with a diagonal drawn. It finds an unknown **angle** or side, and cites Corollary 1.",
+    "Corollary 1: a diagonal splits a parallelogram into **two congruent triangles**, so the matching angles and sides are equal."
+   ],
+   "in": "parallelogram with a diagonal",
+   "out": "matching angle or side found"
+  },
+  "how": {},
+  "example": {
+   "question": "$ABCD$ is a parallelogram. $|\\angle ABC| = (4x + 10)^\\circ$ and $|\\angle CDA| = (6x - 20)^\\circ$. Find $x$ and $|\\angle ABC|$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the diagonal",
+      "say": "Draw the diagonal $[AC]$. By Corollary 1, triangles $ABC$ and $CDA$ are congruent.",
+      "lines": [
+       {
+        "text": "$B$ in the first triangle matches $D$ in the second."
+       }
+      ]
+     },
+     {
+      "title": "Matching angles are equal",
+      "say": "In congruent triangles the matching angles are equal. $|\\angle ABC|$ matches $|\\angle CDA|$, so set them equal.",
+      "lines": [
+       {
+        "tex": "4x + 10 &= 6x - 20",
+        "sym": "Eq(4*x+10, 6*x-20)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Collect the $x$ terms on one side and the numbers on the other.",
+      "lines": [
+       {
+        "tex": "30 &= 2x",
+        "sym": "Eq(30, 2*x)"
+       },
+       {
+        "tex": "x &= 15",
+        "sym": "Eq(x, 15)"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle",
+      "say": "Put $x = 15$ into $|\\angle ABC|$.",
+      "lines": [
+       {
+        "tex": "|\\angle ABC| &= 4(15) + 10",
+        "sym": "4*15+10",
+        "new": true
+       },
+       {
+        "tex": "&= 70^\\circ",
+        "sym": "70"
+       },
+       {
+        "text": "Check: $6(15) - 20 = 70$, so $|\\angle CDA|$ agrees."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 15, \\ |\\angle ABC| = 70^\\circ"
+   },
+   "finalSym": "[15]",
+   "answerSym": "solve(Eq(4*x+10, 6*x-20), x)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M80 50 L30 170 L200 170 L250 50 Z\"/><path d=\"M80 50 L200 170\"/><text x=\"70\" y=\"44\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"16\" y=\"184\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"200\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"254\" y=\"46\" fill=\"#1A1916\" stroke=\"none\">D</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "geo-thm11",
+  "what": {
+   "say": [
+    "You give it three parallel lines cutting one transversal into **equal** pieces. It finds the pieces on a second transversal, and cites Theorem 11.",
+    "Theorem 11: if the pieces are equal on one transversal, they are equal on **every** transversal."
+   ],
+   "in": "three parallel lines, equal on one transversal",
+   "out": "equal segments on the other"
+  },
+  "how": {
+   "higher": "Higher level has used it twice on Paper 2: in 2015 as the proof of the theorem itself (20 marks in Question 6), and in 2018 as the step inside the proof of the ratio theorem (a 15-mark part)."
+  },
+  "example": {
+   "question": "The parallel lines $AD$, $BE$ and $CF$ cut the transversal $[AC]$ with $|AB| = |BC|$. They cut the second transversal $[DF]$ at $D$, $E$ and $F$. $|DE| = (2x + 1)$ cm and $|EF| = (4x - 9)$ cm. Find $x$ and $|DF|$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "State the theorem",
+      "say": "Three parallel lines cut equal pieces $|AB| = |BC|$ on one transversal. By Theorem 11 they cut equal pieces on every transversal.",
+      "lines": [
+       {
+        "text": "So $|DE| = |EF|$."
+       }
+      ]
+     },
+     {
+      "title": "Make the equation",
+      "say": "Put the two lengths equal to each other.",
+      "lines": [
+       {
+        "tex": "2x + 1 &= 4x - 9",
+        "sym": "Eq(2*x+1, 4*x-9)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Collect the $x$ terms on one side and the numbers on the other.",
+      "lines": [
+       {
+        "tex": "10 &= 2x",
+        "sym": "Eq(10, 2*x)"
+       },
+       {
+        "tex": "x &= 5",
+        "sym": "Eq(x, 5)"
+       }
+      ]
+     },
+     {
+      "title": "Find the whole length",
+      "say": "Find $|DE|$, then double it, since $|EF|$ is the same.",
+      "lines": [
+       {
+        "tex": "|DE| &= 2(5) + 1",
+        "sym": "2*5+1",
+        "new": true
+       },
+       {
+        "tex": "&= 11",
+        "sym": "11"
+       },
+       {
+        "tex": "|DF| &= 2 \\times 11 = 22\\ \\text{cm}",
+        "sym": "22",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 5, \\ |DF| = 22\\ \\text{cm}"
+   },
+   "finalSym": "[5]",
+   "answerSym": "solve(Eq(2*x+1, 4*x-9), x)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M60 30 L40 190 M130 30 L110 190 M200 30 L180 190\"/><path d=\"M52 70 L196 70\"/><path d=\"M45 140 L190 160\"/><text x=\"48\" y=\"64\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"124\" y=\"64\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"190\" y=\"64\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"30\" y=\"156\" fill=\"#1A1916\" stroke=\"none\">D</text><text x=\"100\" y=\"168\" fill=\"#1A1916\" stroke=\"none\">E</text><text x=\"172\" y=\"176\" fill=\"#1A1916\" stroke=\"none\">F</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Draw the diagram and label it. A relevant diagram earns credit on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q6#(a)",
+       "quote": "Relevant diagram drawn"
+      }
+     ]
+    },
+    {
+     "tip": "Show the construction on the diagram, not just in words.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q6#(a)",
+       "quote": "Construction clearly indicated"
+      }
+     ]
+    },
+    {
+     "tip": "Attempting the construction earns marks, as a diagram or a description.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q6#(b) Diagram and Given",
+       "quote": "Construction attempted (diagram and/or description)"
+      }
+     ]
+    },
+    {
+     "tip": "A proof with one step missing loses marks, so write every step.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q6#(a)",
+       "quote": "Proof missing 1 relevant step"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

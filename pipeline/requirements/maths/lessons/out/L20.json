@@ -1,0 +1,878 @@
+[
+ {
+  "skill": "stat-charts",
+  "problems": [
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(b)(v)",
+    "note": null,
+    "legend": {
+     "1": "the angle of each sector",
+     "2": "the check total, 360°"
+    },
+    "steps": [
+     {
+      "ask": "Where does the first sector start, and which way do you turn the protractor?",
+      "title": "Draw the sectors one after another",
+      "lines": [
+       {
+        "text": "Start from the radius at the end of the renewable sector (the $\\hl{1}{22^\\circ}$ line)."
+       },
+       {
+        "text": "Using a protractor, measure each angle anticlockwise and draw a radius: oil $\\hl{1}{151^\\circ}$, solid fuel $\\hl{1}{47^\\circ}$, gas $\\hl{1}{86^\\circ}$, then electricity $\\hl{1}{54^\\circ}$."
+       },
+       {
+        "text": "The angles add to $22 + 151 + 47 + 86 + 54 = \\hl{2}{360^\\circ}$, so the last radius closes back onto the starting line."
+       },
+       {
+        "text": "Label each sector with its energy type."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pie chart with sectors } \\hl{1}{22^\\circ}, \\hl{1}{151^\\circ}, \\hl{1}{47^\\circ}, \\hl{1}{86^\\circ}, \\hl{1}{54^\\circ}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(ii)",
+    "note": "What changed: the pie chart used angles, but this histogram uses the percentages directly as bar heights, with a fixed width and no gaps. What stays the same: the values come from the percentages in the table.",
+    "legend": {
+     "1": "the height of each bar, a percentage",
+     "3": "the width of each bar",
+     "4": "where the first bar starts"
+    },
+    "steps": [
+     {
+      "ask": "What must you know about each bar, and where does the first bar start?",
+      "title": "Draw a bar for each class",
+      "lines": [
+       {
+        "text": "Each bar has width $\\hl{3}{5}$ cm, starting at $\\hl{4}{145}$, with no gaps. The heights are the percentages from Table 2."
+       },
+       {
+        "text": "Heights: $\\hl{1}{3,\\ 9.6,\\ 16,\\ 22.4,\\ 25,\\ 16.2,\\ 5.8,\\ 2}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Histogram drawn}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q1#(a)",
+    "note": "The histogram had percentages to draw as bars. This time the data is a list of raw ages, so each age is split into a tens stem and a units leaf, and the check counts every value.",
+    "legend": {
+     "2": "the check total, 28 values"
+    },
+    "steps": [
+     {
+      "ask": "Which digit of each age is the stem, and which is the leaf?",
+      "title": "Sort the ages by their tens digit",
+      "lines": [
+       {
+        "text": "The stem is the tens digit and the leaf is the units digit. Go through the 28 ages in order and put each leaf on its stem."
+       },
+       {
+        "text": "Stem 1: 18, 19, 18. Stem 2: 21, 21, 22, 20. Stem 3: 32, 35, 33, 34, 39, 33, 34."
+       },
+       {
+        "text": "Stem 4: 41, 43, 42, 49, 43. Stem 5: 57, 54, 58, 55, 57. Stem 6: 64, 63, 65, 63."
+       }
+      ]
+     },
+     {
+      "ask": "Once every leaf sits on its stem, how should each row look before you check the count?",
+      "title": "Write each stem in increasing order",
+      "lines": [
+       {
+        "text": "Put the leaves in order, smallest first, on each row."
+       },
+       {
+        "text": "Check: $3+4+7+5+5+4 = \\hl{2}{28}$ leaves, one for every employee."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{See the completed diagram}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-correlation-calc",
+  "problems": [
+   {
+    "part": "maths-pp-2017-higher-p2-q2#(a)",
+    "note": null,
+    "legend": {
+     "1": "the x values, speeds",
+     "2": "the y values, fuel consumption",
+     "3": "the correlation coefficient, r"
+    },
+    "steps": [
+     {
+      "ask": "Which values go in as x and which as y, before the calculator gives r?",
+      "title": "Use the statistics mode on the calculator",
+      "lines": [
+       {
+        "text": "Enter the speeds as the $\\hl{1}{x}$ values and the fuel consumption as the $\\hl{2}{y}$ values."
+       },
+       {
+        "text": "Read off the correlation coefficient $\\hl{3}{r}$."
+       },
+       {
+        "tex": "\\hl{3}{r} &= \\hl{3}{-0.957}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{r} = \\hl{3}{-0.957}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q1#(b), (c)",
+    "note": "What changed: the data is about two swim tests, and r is positive, so the answer must also be explained in words. What stays the same: enter the two lists in statistics mode and read r.",
+    "legend": {
+     "1": "the x values, initial test",
+     "2": "the y values, re-test",
+     "3": "the correlation coefficient, r"
+    },
+    "steps": [
+     {
+      "ask": "Looking at each student, does everyone improve, and are the gains the same size?",
+      "title": "Compare the two tests",
+      "lines": [
+       {
+        "text": "Every student swam further in the re-test than in the initial test, so everyone improved."
+       },
+       {
+        "text": "The improvements were not equal: 22 m rose by 3 m, but 61 m rose by 289 m."
+       },
+       {
+        "text": "The points curve upwards, not along a straight line, so the stronger swimmers improved by much more than the weaker ones."
+       }
+      ]
+     },
+     {
+      "ask": "Which values go in as x and which as y, and what does the calculator give you?",
+      "title": "Find r with the calculator",
+      "lines": [
+       {
+        "text": "Enter the initial test distances as $\\hl{1}{x}$ and the re-test distances as $\\hl{2}{y}$ in statistics mode, then read the correlation coefficient."
+       },
+       {
+        "tex": "r &= \\hl{3}{0.91451\\ldots}"
+       },
+       {
+        "tex": "r &\\approx \\hl{3}{0.9145}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The better swimmers improved more;}\\; r = \\hl{3}{0.9145}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q8#(a)(v), (b)",
+    "note": "What changed: the calculator is replaced by the formula, with the sums worked out by hand. What stays the same: r measures the same thing, found from the same data points.",
+    "legend": {
+     "1": "the x values, city",
+     "2": "the y values, motorway",
+     "3": "the correlation coefficient, r"
+    },
+    "steps": [
+     {
+      "ask": "Which letter is city and which is motorway, and which sums does the formula need?",
+      "title": "Find the sums needed",
+      "lines": [
+       {
+        "text": "Let $\\hl{1}{x}$ be city and $\\hl{2}{y}$ be motorway, with $n = 8$ cars."
+       },
+       {
+        "tex": "\\sum x &= 172, \\quad \\sum y = 257"
+       },
+       {
+        "tex": "\\sum xy &= 5722, \\quad \\sum x^2 = 3900, \\quad \\sum y^2 = 8461"
+       }
+      ]
+     },
+     {
+      "ask": "What do you need in the top of the formula before you can divide?",
+      "title": "Evaluate the top of the formula",
+      "lines": [
+       {
+        "text": "$r = \\dfrac{n\\sum xy - \\sum x \\sum y}{\\sqrt{\\left(n\\sum x^2 - (\\sum x)^2\\right)\\left(n\\sum y^2 - (\\sum y)^2\\right)}}$"
+       },
+       {
+        "tex": "n\\sum xy - \\sum x \\sum y &= 8(5722) - (172)(257)"
+       },
+       {
+        "tex": "&= 45776 - 44204"
+       },
+       {
+        "tex": "&= 1572"
+       }
+      ]
+     },
+     {
+      "ask": "The bottom has two brackets under one square root. What do you work out inside each?",
+      "title": "Evaluate the bottom of the formula",
+      "lines": [
+       {
+        "tex": "n\\sum x^2 - (\\sum x)^2 &= 8(3900) - 172^2"
+       },
+       {
+        "tex": "&= 1616"
+       },
+       {
+        "tex": "n\\sum y^2 - (\\sum y)^2 &= 8(8461) - 257^2"
+       },
+       {
+        "tex": "&= 1639"
+       }
+      ]
+     },
+     {
+      "ask": "Divide the top by the square root. What do you get, and how many decimal places?",
+      "title": "Calculate r",
+      "lines": [
+       {
+        "tex": "r &= \\hl{3}{\\frac{1572}{\\sqrt{1616 \\times 1639}}}"
+       },
+       {
+        "tex": "&= \\hl{3}{0.9659\\ldots}"
+       },
+       {
+        "tex": "&= \\hl{3}{0.966}"
+       }
+      ]
+     },
+     {
+      "ask": "Why would a straight-line measure give a value close to 0 for a curved pattern?",
+      "title": "Explain why r can be close to 0 in part (b)",
+      "lines": [
+       {
+        "text": "The correlation coefficient measures how well the points fit a straight line. These points follow a quadratic (U-shaped) curve, which is symmetrical, so no straight line fits them and $r_{FS}$ is close to 0."
+       }
+      ]
+     }
+    ],
+    "final": "r = \\hl{3}{0.966};\\ \\text{correlation measures linear relationships, and this data is quadratic}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-grouped-mean",
+  "problems": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(b)(i)",
+    "note": null,
+    "legend": {
+     "1": "the mid-interval value, x",
+     "2": "the frequency, f",
+     "3": "the sum of fx",
+     "4": "the sum of f, the total frequency"
+    },
+    "steps": [
+     {
+      "ask": "What is the middle value of a class that runs from 145 to 150?",
+      "title": "Find the mid-interval values",
+      "lines": [
+       {
+        "text": "The mid-interval value is halfway between the ends of each class, e.g. $\\frac{145+150}{2} = \\hl{1}{147.5}$."
+       },
+       {
+        "tex": "\\hl{1}{x} &= 147.5, 152.5, 157.5, 162.5, 167.5, 172.5, 177.5, 182.5"
+       }
+      ]
+     },
+     {
+      "ask": "What do you do with each frequency and its mid-value before you add anything?",
+      "title": "Multiply each frequency by its mid-value",
+      "lines": [
+       {
+        "tex": "\\hl{2}{15} \\times \\hl{1}{147.5} &= 2212.5"
+       },
+       {
+        "tex": "\\hl{2}{48} \\times \\hl{1}{152.5} &= 7320"
+       },
+       {
+        "tex": "\\hl{2}{80} \\times \\hl{1}{157.5} &= 12600"
+       },
+       {
+        "tex": "\\hl{2}{112} \\times \\hl{1}{162.5} &= 18200"
+       },
+       {
+        "tex": "\\hl{2}{125} \\times \\hl{1}{167.5} &= 20937.5"
+       },
+       {
+        "tex": "\\hl{2}{81} \\times \\hl{1}{172.5} &= 13972.5"
+       },
+       {
+        "tex": "\\hl{2}{29} \\times \\hl{1}{177.5} &= 5147.5"
+       },
+       {
+        "tex": "\\hl{2}{10} \\times \\hl{1}{182.5} &= 1825"
+       }
+      ]
+     },
+     {
+      "ask": "Which two totals do you need before you can divide?",
+      "title": "Add up the products and the frequencies",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\sum fx} &= 82215"
+       },
+       {
+        "tex": "\\hl{4}{\\sum f} &= 500"
+       }
+      ]
+     },
+     {
+      "ask": "Which total goes on top and which on the bottom to get the mean?",
+      "title": "Divide to find the mean",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{\\sum fx}{\\sum f}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{3}{82215}}{\\hl{4}{500}}"
+       },
+       {
+        "tex": "&= 164.43 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "164.43 \\text{ cm}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q7#(a)(iv)",
+    "note": "What changed: the frequencies are percentages rather than counts, so they add to 100 and the total is divided by 100. What stays the same: each class is replaced by its mid-value, and the products are added.",
+    "legend": {
+     "1": "the mid-interval value, x",
+     "2": "the percentage (the frequency)",
+     "3": "the sum of fx"
+    },
+    "steps": [
+     {
+      "ask": "How do you find the middle of a class that runs from 15 to 25?",
+      "title": "Find the mid-interval value of each group",
+      "lines": [
+       {
+        "text": "Mid-value = (lower end + upper end) $\\div 2$."
+       },
+       {
+        "tex": "\\frac{15 + 25}{2} &= \\hl{1}{20}"
+       },
+       {
+        "tex": "\\frac{25 + 35}{2} &= \\hl{1}{30}"
+       },
+       {
+        "tex": "\\frac{35 + 45}{2} &= \\hl{1}{40}"
+       },
+       {
+        "tex": "\\frac{45 + 55}{2} &= \\hl{1}{50}"
+       },
+       {
+        "tex": "\\frac{55 + 65}{2} &= \\hl{1}{60}"
+       }
+      ]
+     },
+     {
+      "ask": "Each class has a percentage and a mid-value. What do you do with each pair, and what do you divide the total by?",
+      "title": "Multiply each mid-value by its percentage and add",
+      "lines": [
+       {
+        "text": "The percentages add to 100, so divide the total by 100."
+       },
+       {
+        "tex": "\\text{Mean} &= \\frac{(\\hl{2}{24} \\times \\hl{1}{20}) + (\\hl{2}{27} \\times \\hl{1}{30}) + (\\hl{2}{25} \\times \\hl{1}{40}) + (\\hl{2}{16} \\times \\hl{1}{50}) + (\\hl{2}{8} \\times \\hl{1}{60})}{100}"
+       },
+       {
+        "tex": "&= \\frac{480 + 810 + 1000 + 800 + 480}{100}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{3}{3570}}{100}"
+       },
+       {
+        "tex": "&= 35.7"
+       }
+      ]
+     }
+    ],
+    "final": "35.7 \\text{ years}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q4#(c)",
+    "note": "What changed: the frequencies are counts again, but the mean is given and one frequency, k, is unknown. What stays the same: each mid-value is multiplied by its frequency, and the mean is the sum of fx over the sum of f.",
+    "legend": {
+     "1": "the mid-interval value, x",
+     "2": "the frequency, here the unknown k",
+     "3": "the sum of fx",
+     "4": "the sum of f, the total frequency"
+    },
+    "steps": [
+     {
+      "ask": "What do you do with the two ends of each class to get its middle?",
+      "title": "Find the mid-interval value of each class",
+      "lines": [
+       {
+        "text": "Add the ends of each interval and halve: $24$–$30$ gives $\\hl{1}{27}$, $30$–$36$ gives $\\hl{1}{33}$, $36$–$42$ gives $\\hl{1}{39}$."
+       },
+       {
+        "text": "$42$–$48$ gives $\\hl{1}{45}$, $48$–$54$ gives $\\hl{1}{51}$, $54$–$60$ gives $\\hl{1}{57}$."
+       }
+      ]
+     },
+     {
+      "ask": "One frequency is unknown. How do you write it, and what do you multiply it by?",
+      "title": "Find the sum of (mid-value × frequency)",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\sum fx} &= 27(4) + 33(5) + 39(9) + 45(\\hl{2}{k}) + 51(4) + 57(2)"
+       },
+       {
+        "tex": "&= 108 + 165 + 351 + 45k + 204 + 114"
+       },
+       {
+        "tex": "&= \\hl{3}{942 + 45k}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you add up to get the total number of people?",
+      "title": "Find the total number of people",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\sum f} &= 4 + 5 + 9 + \\hl{2}{k} + 4 + 2"
+       },
+       {
+        "tex": "&= \\hl{4}{k + 24}"
+       }
+      ]
+     },
+     {
+      "ask": "The mean is given. How does that turn into an equation in k?",
+      "title": "Set mean = 40.4 and solve for k",
+      "lines": [
+       {
+        "text": "The mean is $\\hl{3}{\\sum fx}$ divided by $\\hl{4}{\\sum f}$."
+       },
+       {
+        "tex": "\\frac{\\hl{3}{942 + 45k}}{\\hl{4}{k + 24}} &= 40.4"
+       },
+       {
+        "tex": "942 + 45k &= 40.4(k + 24)"
+       },
+       {
+        "tex": "942 + 45k &= 40.4k + 969.6"
+       },
+       {
+        "tex": "45k - 40.4k &= 969.6 - 942"
+       },
+       {
+        "tex": "4.6k &= 27.6"
+       },
+       {
+        "tex": "\\hl{2}{k} &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{k} = 6",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-line-best-fit",
+  "problems": [
+   {
+    "part": "maths-pp-2017-higher-p2-q2#(b)",
+    "note": null,
+    "legend": {
+     "1": "a point the line passes through",
+     "2": "the slope"
+    },
+    "steps": [
+     {
+      "ask": "Each point is a (speed, fuel) pair. Which value goes across the page and which goes up?",
+      "title": "Plot the seven points",
+      "lines": [
+       {
+        "text": "Each point is (speed, fuel consumption): (40, 21), (48, 16), (56, 18), (64, 16), (88, 13), (96, 11), (112, 9)."
+       }
+      ]
+     },
+     {
+      "ask": "Where should the line go so the points balance on each side of it?",
+      "title": "Draw the line of best fit by eye",
+      "lines": [
+       {
+        "text": "The points slope downward, with about as many above the line as below."
+       },
+       {
+        "text": "The mean point is $\\hl{1}{(72,\\ 14.9)}$, and the slope is about $\\hl{2}{-0.15}$, so the line runs from about $\\hl{1}{(40,\\ 19.7)}$ to $\\hl{1}{(112,\\ 8.9)}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Line of best fit drawn through the plotted points}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q8#(a)(i), (ii)",
+    "note": "What changed: the points are cars with city and motorway values, and they rise from left to right rather than fall. What stays the same: plot each pair, then draw one straight line through the middle by eye.",
+    "legend": {
+     "1": "a point the line passes through"
+    },
+    "steps": [
+     {
+      "ask": "Car G has a city value and a motorway value. Which one goes across the page?",
+      "title": "Plot car G",
+      "lines": [
+       {
+        "text": "Car G has city 30 and motorway 40, so plot the point $(30, 40)$ and label it G."
+       }
+      ]
+     },
+     {
+      "ask": "Car H is plotted the same way. Where does it sit compared with car G?",
+      "title": "Plot car H",
+      "lines": [
+       {
+        "text": "Car H has city 17 and motorway 30, so plot the point $(17, 30)$ and label it H."
+       }
+      ]
+     },
+     {
+      "ask": "Where should one straight line go so that points sit on both sides of it?",
+      "title": "Draw the line of best fit by eye",
+      "lines": [
+       {
+        "text": "Draw one straight line through the middle of the points, with some points above it and some below, rising from left to right."
+       },
+       {
+        "text": "The line shown passes through $\\hl{1}{(20, 31)}$ and $\\hl{1}{(50, 61)}$."
+       }
+      ]
+     }
+    ],
+    "final": "G(30, 40),\\ H(17, 30)\\text{ and a line of best fit}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q8#(a)(iii), (iv)",
+    "note": "What changed: the line is now used to predict, not drawn. What stays the same: the same line, read by going across and then along the axes.",
+    "legend": {
+     "3": "a value read off the line"
+    },
+    "steps": [
+     {
+      "ask": "Starting from a city value of 20, which way do you go to reach the line, and which axis do you read?",
+      "title": "Estimate the motorway value for K",
+      "lines": [
+       {
+        "text": "K has city 20. Go up from 20 on the city axis to the line of best fit, then across to the motorway axis. This reads about 31."
+       }
+      ]
+     },
+     {
+      "ask": "Starting from a motorway value of 60, which way do you go to reach the line?",
+      "title": "Estimate the city value for L",
+      "lines": [
+       {
+        "text": "L has motorway 60. Go across from 60 on the motorway axis to the line of best fit, then down to the city axis. This reads about 49."
+       }
+      ]
+     },
+     {
+      "ask": "Is each value inside the range of the data, or beyond it?",
+      "title": "Decide which estimate to trust",
+      "lines": [
+       {
+        "text": "K is more reliable. A city value of 20 lies inside the range of the data (15 to 30), so the estimate is interpolation."
+       },
+       {
+        "text": "L is well beyond all of the given data points, so the line is being extended into a region with no evidence (extrapolation)."
+       }
+      ]
+     }
+    ],
+    "final": "K \\approx \\hl{3}{31},\\ L \\approx \\hl{3}{49};\\ \\text{more confident in K, as L is well beyond the data}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-quartiles-iqr",
+  "problems": [
+   {
+    "part": "maths-pp-2025-ordinary-p2-q1#(b)",
+    "note": null,
+    "legend": {
+     "2": "the lower quartile, Q₁",
+     "3": "the upper quartile, Q₃",
+     "4": "the interquartile range"
+    },
+    "steps": [
+     {
+      "ask": "The values are already in order. How many go in the lower half, and which ones?",
+      "title": "Split the 12 ranked values into a lower and upper half",
+      "lines": [
+       {
+        "text": "There are 12 values, so the lower half is the first 6: $42, 64, 93, 94, 114, 114$."
+       }
+      ]
+     },
+     {
+      "ask": "Q1 is a median. For six values, which two sit in the middle?",
+      "title": "Find Q1 as the median of the lower half",
+      "lines": [
+       {
+        "text": "The median of 6 values is the mean of the 3rd and 4th values: $93$ and $94$."
+       },
+       {
+        "tex": "\\hl{2}{Q_1} &= \\frac{93+94}{2}"
+       },
+       {
+        "tex": "&= \\frac{187}{2}"
+       },
+       {
+        "tex": "&= \\hl{2}{93.5} \\text{ mm}"
+       }
+      ]
+     },
+     {
+      "ask": "The IQR measures the middle half. Which two quartiles do you subtract?",
+      "title": "Subtract to get the interquartile range",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\text{IQR}} &= \\hl{3}{Q_3} - \\hl{2}{Q_1}"
+       },
+       {
+        "tex": "&= \\hl{3}{183} - \\hl{2}{93.5}"
+       },
+       {
+        "tex": "&= \\hl{4}{89.5} \\text{ mm}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{Q_1} = \\hl{2}{93.5} \\text{ mm}, \\quad \\hl{4}{\\text{IQR}} = \\hl{4}{89.5} \\text{ mm}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q4#(a)(i), (ii)",
+    "note": "What changed: one age, x, is missing, so the median is used first to find it. What stays the same: each quartile is the median of a half, and the IQR is Q3 minus Q1.",
+    "legend": {
+     "1": "the median",
+     "2": "the lower quartile, Q₁",
+     "3": "the upper quartile, Q₃",
+     "4": "the interquartile range"
+    },
+    "steps": [
+     {
+      "ask": "With 12 ages, which two values does the median come from?",
+      "title": "Write the median using the middle two values",
+      "lines": [
+       {
+        "text": "There are 12 ages, so the median is the mean of the 6th and 7th values. These are $x$ and $18$."
+       },
+       {
+        "tex": "\\hl{1}{\\text{Median}} &= \\frac{x + 18}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you get x on its own from this fraction?",
+      "title": "Set the median equal to 17.5 and solve",
+      "lines": [
+       {
+        "tex": "\\frac{x + 18}{2} &= \\hl{1}{17.5}"
+       },
+       {
+        "tex": "x + 18 &= 35"
+       },
+       {
+        "tex": "x &= 17"
+       }
+      ]
+     },
+     {
+      "ask": "Which two of the top six ages give the upper quartile?",
+      "title": "Find Q3 from the top six ages",
+      "lines": [
+       {
+        "text": "With $x = 17$ the top six ages are $18, 18, 19, 22, 25, 30$. $\\hl{3}{Q_3}$ is the median of these, the mean of the 3rd and 4th."
+       },
+       {
+        "tex": "\\hl{3}{Q_3} &= \\frac{19 + 22}{2}"
+       },
+       {
+        "tex": "&= \\frac{41}{2}"
+       },
+       {
+        "tex": "&= \\hl{3}{20.5}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the IQR made from, and which two quartiles give it?",
+      "title": "Work out the interquartile range",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\text{IQR}} &= \\hl{3}{Q_3} - \\hl{2}{Q_1}"
+       },
+       {
+        "tex": "&= \\hl{3}{20.5} - \\hl{2}{13}"
+       },
+       {
+        "tex": "&= \\hl{4}{7.5}"
+       }
+      ]
+     }
+    ],
+    "final": "x = 17, \\quad \\hl{4}{\\text{IQR}} = \\hl{4}{7.5}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(e)",
+    "note": "What changed: all eight values are unknown, so the median, both quartiles, the mean and the range each give an equation to solve in turn. What stays the same: the quartiles are medians of halves, and the IQR is Q3 minus Q1.",
+    "legend": {
+     "1": "the median",
+     "2": "the lower quartile, Q₁",
+     "3": "the upper quartile, Q₃",
+     "4": "the interquartile range"
+    },
+    "steps": [
+     {
+      "ask": "With 8 numbers, which two values give the median?",
+      "title": "Use the median",
+      "lines": [
+       {
+        "text": "With 8 numbers the median is the mean of $D$ and $E$."
+       },
+       {
+        "tex": "\\frac{D + E}{2} &= \\hl{1}{12.5}"
+       },
+       {
+        "tex": "D + E &= 25"
+       }
+      ]
+     },
+     {
+      "ask": "Which four values does the lower quartile come from, and which two are its middle?",
+      "title": "Use the lower quartile",
+      "lines": [
+       {
+        "text": "The lower quartile is the median of $A, B, C, D$, which is the mean of $B$ and $C$."
+       },
+       {
+        "tex": "\\frac{B + C}{2} &= \\hl{2}{7.5}"
+       },
+       {
+        "tex": "B + C &= 15"
+       }
+      ]
+     },
+     {
+      "ask": "The IQR links the two quartiles. How can it help you find the upper quartile?",
+      "title": "Use the interquartile range",
+      "lines": [
+       {
+        "text": "The upper quartile is the mean of $F$ and $G$."
+       },
+       {
+        "tex": "\\hl{3}{Q_3} - \\hl{2}{7.5} &= \\hl{4}{12}"
+       },
+       {
+        "tex": "\\hl{3}{Q_3} &= \\hl{3}{19.5}"
+       },
+       {
+        "tex": "\\frac{F + G}{2} &= \\hl{3}{19.5}"
+       },
+       {
+        "tex": "F + G &= 39"
+       },
+       {
+        "tex": "F + 23 &= 39"
+       },
+       {
+        "tex": "F &= 16"
+       }
+      ]
+     },
+     {
+      "ask": "The mean is given. What total do all eight values add up to?",
+      "title": "Use the mean",
+      "lines": [
+       {
+        "tex": "A + B + C + D + E + F + G + H &= 8 \\times 13.5"
+       },
+       {
+        "tex": "A + B + C + D + E + F + G + H &= 108"
+       },
+       {
+        "tex": "A + H + 15 + 25 + 16 + 23 &= 108"
+       },
+       {
+        "tex": "A + H + 79 &= 108"
+       },
+       {
+        "tex": "A + H &= 29"
+       }
+      ]
+     },
+     {
+      "ask": "Which two letters are the largest and smallest, and what does their range say?",
+      "title": "Use the range",
+      "lines": [
+       {
+        "tex": "H - A &= 21"
+       },
+       {
+        "tex": "2H &= 29 + 21"
+       },
+       {
+        "tex": "H &= 25"
+       },
+       {
+        "tex": "A &= 29 - 25"
+       },
+       {
+        "tex": "A &= 4"
+       }
+      ]
+     },
+     {
+      "ask": "D and E add to 25. Which pairs fit the ordering rules?",
+      "title": "Split D + E and B + C",
+      "lines": [
+       {
+        "text": "$D + E = 25$ with $D < E$ and a gap of at least 2: $D = 12, E = 13$ fails (gap 1) and $D = 10, E = 15$ fails because $F = 16$ is only 1 above 15. So $D = 11$, $E = 14$."
+       },
+       {
+        "text": "$B + C = 15$ with $C \\le 9$ (a gap of at least 2 below $D = 11$) and $B \\ge 6$ (a gap of at least 2 above $A = 4$): $B = 6$, $C = 9$. (B = 7, C = 8 is not allowed because $C$ must be at least 2 more than $B$, so $C \\ge B + 2$. With $B + C = 15$ this gives $B \\le 6.5$, and with $B \\ge 6$ this forces $B = 6$.)"
+       }
+      ]
+     },
+     {
+      "ask": "All eight values are now known. Which box does each one go in?",
+      "title": "Complete the boxes",
+      "lines": [
+       {
+        "text": "The completed boxes are shown in the figure."
+       }
+      ]
+     }
+    ],
+    "final": "A=4,\\ B=6,\\ C=9,\\ D=11,\\ E=14,\\ F=16,\\ G=23,\\ H=25",
+    "graph": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,226 @@
+[
+ {
+  "skill": "fn-limits-continuity",
+  "title": "Find limits and explore continuity informally",
+  "show": "graph of (x²-3x-10)/(x-5)=x+2 with an open circle at (5,7)",
+  "example": {
+   "question": "Find $\\lim_{x \\to 5} \\frac{x^2 - 3x - 10}{x - 5}$. Is $f(x) = \\frac{x^2 - 3x - 10}{x - 5}$ continuous at $x = 5$?",
+   "final": "\\text{limit} = 7;\\ f \\text{ is not continuous at } x = 5",
+   "steps": [
+    {
+     "say": "Put $x = 5$ straight in. If it fails, we need to simplify.",
+     "rows": [
+      {
+       "l": "5^2 - 3(5) - 10",
+       "r": "= 0"
+      },
+      {
+       "aside": "The bottom is $5 - 5 = 0$ too, so we get $\\frac{0}{0}$. That means nothing yet."
+      }
+     ]
+    },
+    {
+     "say": "The top is a quadratic, so factorise it. Look for a factor $(x - 5)$ to cancel.",
+     "rows": [
+      {
+       "l": "\\frac{x^2 - 3x - 10}{x - 5}",
+       "r": "= \\frac{(x - 5)(x + 2)}{x - 5}"
+      }
+     ]
+    },
+    {
+     "say": "For $x \\ne 5$ the $(x - 5)$ cancels. The limit only cares about $x$ near $5$, not at $5$. Put $x = 5$ into what is left.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= x + 2"
+      },
+      {
+       "l": "\\lim_{x \\to 5} (x + 2)",
+       "r": "= \\hl{1}{7}"
+      }
+     ]
+    },
+    {
+     "say": "Continuous at $5$ needs $f(5)$ to exist and to equal the limit.",
+     "rows": [
+      {
+       "aside": "$f(5) = \\frac{0}{0}$ is not defined, so $f$ is **not continuous** at $x = 5$."
+      },
+      {
+       "aside": "The limit $\\hl{1}{7}$ exists, but there is a gap in the graph at $x = 5$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm7",
+  "title": "Apply Theorem 7: Greater side is opposite the greater angle (and converse)",
+  "show": "triangle ABC with angles (x+30)°, (2x-10)°, (3x-20)° labelled",
+  "example": {
+   "question": "In triangle $ABC$, $|\\angle A| = (x + 30)^\\circ$, $|\\angle B| = (2x - 10)^\\circ$ and $|\\angle C| = (3x - 20)^\\circ$. Find $x$, and name the longest side of the triangle.",
+   "final": "x = 30,\\ [AB]\\text{ is the longest side (opposite }\\hl{2}{70^\\circ}\\text{)}",
+   "steps": [
+    {
+     "say": "The angles of a triangle add to $180^\\circ$. Write that as an equation and collect the terms.",
+     "rows": [
+      {
+       "l": "(x + 30) + (2x - 10) + (3x - 20)",
+       "r": "= 180"
+      },
+      {
+       "l": "6x",
+       "r": "= 180"
+      }
+     ]
+    },
+    {
+     "say": "Divide both sides by $6$ to find $\\hl{1}{x}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= 30"
+      }
+     ]
+    },
+    {
+     "say": "Put $\\hl{1}{x = 30}$ into each angle.",
+     "rows": [
+      {
+       "l": "|\\angle A|",
+       "r": "= 30 + 30 = 60^\\circ"
+      },
+      {
+       "l": "|\\angle B|",
+       "r": "= 2(30) - 10 = 50^\\circ"
+      },
+      {
+       "l": "|\\angle C|",
+       "r": "= 3(30) - 20 = \\hl{2}{70^\\circ}"
+      },
+      {
+       "aside": "Check: $60 + 50 + 70 = 180$."
+      }
+     ]
+    },
+    {
+     "say": "Theorem 7: the greater angle is opposite the greater side. The greatest angle is $\\hl{2}{70^\\circ}$ at $C$, so the longest side is the one opposite $C$.",
+     "rows": [
+      {
+       "aside": "The side opposite $C$ is $[AB]$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm8",
+  "title": "Apply Theorem 8: Triangle inequality: two sides together exceed the third",
+  "show": "triangle with sides 6 cm, 9 cm and x cm showing the triangle inequality",
+  "example": {
+   "question": "A triangle has two sides of length $6$ cm and $9$ cm. The third side is $x$ cm, where $x$ is a whole number. How many different values can $x$ have?",
+   "final": "11",
+   "steps": [
+    {
+     "say": "Theorem 8: two sides together are longer than the third. The two given sides must together be longer than $\\hl{1}{x}$.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "< 6 + 9"
+      },
+      {
+       "l": "",
+       "r": "< 15"
+      }
+     ]
+    },
+    {
+     "say": "Now $6$ and $\\hl{1}{x}$ together must be longer than $9$.",
+     "rows": [
+      {
+       "l": "6 + x",
+       "r": "> 9"
+      },
+      {
+       "l": "x",
+       "r": "> 3"
+      },
+      {
+       "aside": "The third pair, $9 + x > 6$, is true for every $x$ here."
+      }
+     ]
+    },
+    {
+     "say": "$x$ is between $3$ and $15$, and not equal to either. The whole numbers are $4, 5, \\dots, 14$. Count them.",
+     "rows": [
+      {
+       "l": "\\hl{2}{14} - 4 + 1",
+       "r": "= \\hl{3}{11}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm14",
+  "title": "Apply Theorem 14: Pythagoras",
+  "show": "right triangle: ladder 7.4 m as hypotenuse, foot 2.1 m from the wall, wall height h",
+  "example": {
+   "question": "A ladder $7{\\cdot}4$ m long leans against a vertical wall. The foot of the ladder is $2{\\cdot}1$ m from the wall. How high up the wall does the ladder reach? Give your answer correct to one decimal place.",
+   "final": "7{\\cdot}1\\text{ m}",
+   "steps": [
+    {
+     "say": "The wall is vertical and the ground is flat, so there is a right angle between them. The ladder is opposite the right angle, so it is the hypotenuse.",
+     "rows": [
+      {
+       "l": "\\text{hypotenuse}",
+       "r": "= 7{\\cdot}4"
+      },
+      {
+       "aside": "Write Pythagoras: hypotenuse$^2$ = sum of the other two sides squared."
+      }
+     ]
+    },
+    {
+     "say": "Let $\\hl{1}{h}$ be the height up the wall. Put the numbers in.",
+     "rows": [
+      {
+       "l": "7{\\cdot}4^2",
+       "r": "= \\hl{1}{h}^2 + 2{\\cdot}1^2"
+      }
+     ]
+    },
+    {
+     "say": "Take $2{\\cdot}1^2$ from both sides to get $h^2$ on its own.",
+     "rows": [
+      {
+       "l": "\\hl{1}{h}^2",
+       "r": "= 7{\\cdot}4^2 - 2{\\cdot}1^2"
+      },
+      {
+       "l": "",
+       "r": "= 50{\\cdot}35"
+      }
+     ]
+    },
+    {
+     "say": "Square root both sides, then round to one decimal place.",
+     "rows": [
+      {
+       "l": "\\hl{1}{h}",
+       "r": "= \\sqrt{50{\\cdot}35}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{7{\\cdot}1}\\text{ m}"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

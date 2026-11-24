@@ -1,0 +1,232 @@
+[
+ {
+  "skill": "prob-counting-principle",
+  "title": "List outcomes and apply the fundamental principle of counting",
+  "show": "tree or list showing soup choices branching into sandwiches then drinks",
+  "example": {
+   "question": "A cafe lunch deal is one soup, one sandwich and one drink. There are 2 soups, 5 sandwiches and 3 drinks.\n(a) How many different deals are there?\n(b) The cafe adds one new item to one group. Which group gives the most deals?",
+   "final": "(a) $30$ deals  (b) add a soup, giving $45$ deals",
+   "steps": [
+    {
+     "say": "Each stage can be chosen in any way, whatever was picked before. So multiply the number of choices at each stage.",
+     "rows": [
+      {
+       "l": "\\text{deals}",
+       "r": "= 2 \\times 5 \\times 3"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{30}"
+      }
+     ]
+    },
+    {
+     "say": "Add one to one group at a time and multiply again.",
+     "rows": [
+      {
+       "l": "\\text{extra soup}",
+       "r": "= 3 \\times 5 \\times 3 = \\hl{2}{45}"
+      },
+      {
+       "l": "\\text{extra sandwich}",
+       "r": "= 2 \\times 6 \\times 3 = 36"
+      },
+      {
+       "l": "\\text{extra drink}",
+       "r": "= 2 \\times 5 \\times 4 = 40"
+      }
+     ]
+    },
+    {
+     "say": "The biggest total wins. State the answer in words.",
+     "rows": [
+      {
+       "aside": "$\\hl{2}{45}$ is the largest, so the cafe should add a **soup**."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-sample-space",
+  "title": "Construct a sample space for two independent events",
+  "show": "table/grid of outcomes: H and T against spinner 1 to 4",
+  "example": {
+   "question": "A fair coin is tossed and a fair spinner numbered 1, 2, 3, 4 is spun.\n(a) List all the possible outcomes.\n(b) Find the probability of a head and an even number.",
+   "final": "(a) $8$ outcomes listed above  (b) $\\frac{1}{4}$",
+   "steps": [
+    {
+     "say": "Pair each coin result with each spinner number. Do one row at a time so none are missed.",
+     "rows": [
+      {
+       "l": "\\text{Head}",
+       "r": ": (H,1),\\ (H,2),\\ (H,3),\\ (H,4)"
+      },
+      {
+       "l": "\\text{Tail}",
+       "r": ": (T,1),\\ (T,2),\\ (T,3),\\ (T,4)"
+      },
+      {
+       "l": "\\text{total}",
+       "r": "= 2 \\times 4 = \\hl{1}{8}"
+      }
+     ]
+    },
+    {
+     "say": "Look for a head and an even number: the pairs $(H,2)$ and $(H,4)$.",
+     "rows": [
+      {
+       "l": "\\text{wanted}",
+       "r": "= (H,2),\\ (H,4)"
+      },
+      {
+       "l": "\\text{count}",
+       "r": "= \\hl{2}{2}"
+      }
+     ]
+    },
+    {
+     "say": "Divide the wanted outcomes by all outcomes.",
+     "rows": [
+      {
+       "l": "P(\\text{head, even})",
+       "r": "= \\frac{\\hl{2}{2}}{\\hl{1}{8}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{1}{4}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-equally-likely",
+  "title": "Find a probability with equally likely outcomes",
+  "show": "6 by 6 grid of two-dice sums with the sums of 9 or more highlighted",
+  "example": {
+   "question": "Two fair dice are thrown and the scores are added. Find the probability that the sum is $9$ or more.",
+   "final": "P(\\text{sum} \\geq 9) = \\frac{5}{18}",
+   "steps": [
+    {
+     "say": "Each die has $6$ faces and any face can go with any face. Multiply to get the total number of outcomes.",
+     "rows": [
+      {
+       "l": "\\hl{2}{n(S)}",
+       "r": "= 6 \\times 6"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{36}"
+      }
+     ]
+    },
+    {
+     "say": "List the pairs that give a sum of $9$ or more. Count how many pairs give each sum.",
+     "rows": [
+      {
+       "aside": "Sum $9$: $(3,6), (4,5), (5,4), (6,3)$. That is $4$ pairs."
+      },
+      {
+       "l": "\\hl{1}{n(E)}",
+       "r": "= 4 + 3 + 2 + 1"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{10}"
+      },
+      {
+       "aside": "Sums $10$, $11$ and $12$ give $3$, $2$ and $1$ pairs."
+      }
+     ]
+    },
+    {
+     "say": "Divide the $\\hl{1}{10}$ favourable outcomes by the $\\hl{2}{36}$ possible outcomes. Cancel to simplest form.",
+     "rows": [
+      {
+       "l": "P(E)",
+       "r": "= \\frac{\\hl{1}{10}}{\\hl{2}{36}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{5}{18}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-venn",
+  "title": "Use set notation and Venn diagrams for probability",
+  "show": "Venn diagram of 40 students: drama only 12, both 6, choir only 8, neither 14",
+  "example": {
+   "question": "In a class of $40$ students, $18$ take drama and $14$ take choir. $6$ students take both. A student is picked at random. Find the probability that the student takes neither drama nor choir.",
+   "final": "\\frac{7}{20}",
+   "steps": [
+    {
+     "say": "Write $\\hl{1}{6}$ in the part where the circles overlap. Subtract it from each circle to get the parts with one subject only.",
+     "rows": [
+      {
+       "l": "\\text{drama only}",
+       "r": "= 18 - \\hl{1}{6}"
+      },
+      {
+       "l": "",
+       "r": "= 12"
+      },
+      {
+       "l": "\\text{choir only}",
+       "r": "= 14 - \\hl{1}{6}"
+      },
+      {
+       "l": "",
+       "r": "= 8"
+      }
+     ]
+    },
+    {
+     "say": "Add the three parts inside the circles. This is everyone who takes at least one subject.",
+     "rows": [
+      {
+       "l": "n(D \\cup C)",
+       "r": "= 12 + \\hl{1}{6} + 8"
+      },
+      {
+       "l": "",
+       "r": "= 26"
+      }
+     ]
+    },
+    {
+     "say": "Everyone not in a circle takes neither. Subtract from the total of $40$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{n(\\text{neither})}",
+       "r": "= 40 - 26"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{14}"
+      }
+     ]
+    },
+    {
+     "say": "Put the $\\hl{2}{14}$ students over the $40$ in the class and cancel.",
+     "rows": [
+      {
+       "l": "P(\\text{neither})",
+       "r": "= \\frac{\\hl{2}{14}}{40}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{7}{20}"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

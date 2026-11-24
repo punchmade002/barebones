@@ -1,0 +1,336 @@
+[
+ {
+  "skill": "fn-definition",
+  "problems": [
+   {
+    "question": "The function $f$ is given by the set of pairs $\\{(1, 2), (2, 4), (3, 6), (4, 8)\\}$.\nWrite down the range of $f$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Check that it is a function",
+       "lines": [
+        {
+         "text": "Each input (first number) appears once, so each input has exactly one output. It is a function."
+        }
+       ]
+      },
+      {
+       "title": "Read off the outputs",
+       "lines": [
+        {
+         "text": "The range is the set of second numbers."
+        },
+        {
+         "tex": "\\text{Range} &= \\{2, 4, 6, 8\\}",
+         "sym": "[2, 4, 6, 8]",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\{2, 4, 6, 8\\}"
+    },
+    "finalSym": "[2, 4, 6, 8]",
+    "answerSym": "[2*1, 2*2, 2*3, 2*4]"
+   },
+   {
+    "question": "A function is defined by $f(x) = 3x - 1$ with domain $\\{-1, 0, 1, 2\\}$.\nFind the range of $f$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Put each domain value into the rule",
+       "lines": [
+        {
+         "tex": "f(-1) &= 3(-1) - 1 = -4",
+         "sym": "Eq(3*(-1) - 1, -4)",
+         "new": true
+        },
+        {
+         "tex": "f(0) &= 3(0) - 1 = -1",
+         "sym": "Eq(3*0 - 1, -1)",
+         "new": true
+        },
+        {
+         "tex": "f(1) &= 3(1) - 1 = 2",
+         "sym": "Eq(3*1 - 1, 2)",
+         "new": true
+        },
+        {
+         "tex": "f(2) &= 3(2) - 1 = 5",
+         "sym": "Eq(3*2 - 1, 5)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Collect the outputs",
+       "lines": [
+        {
+         "text": "The range is the set of all the outputs."
+        },
+        {
+         "tex": "\\text{Range} &= \\{-4, -1, 2, 5\\}",
+         "sym": "[-4, -1, 2, 5]",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\{-4, -1, 2, 5\\}"
+    },
+    "finalSym": "[-4, -1, 2, 5]",
+    "answerSym": "[3*(-1) - 1, 3*0 - 1, 3*1 - 1, 3*2 - 1]"
+   },
+   {
+    "question": "A relation $R$ is given by the set of pairs $\\{(0, 3), (1, 5), (2, 7), (2, 9), (3, 11)\\}$.\n$R$ is not a function.\nWrite down the value of $x$ in the domain that is mapped to two different values.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Recall what a function needs",
+       "lines": [
+        {
+         "text": "In a function, every input has exactly one output."
+        }
+       ]
+      },
+      {
+       "title": "Look for a repeated input",
+       "lines": [
+        {
+         "text": "The inputs are $0, 1, 2, 2, 3$. Only $2$ appears twice."
+        },
+        {
+         "text": "$(2, 7)$ and $(2, 9)$ give two different outputs for the same input."
+        },
+        {
+         "tex": "x &= 2",
+         "sym": "2",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2"
+    },
+    "finalSym": "2",
+    "answerSym": "Integer(2)"
+   }
+  ]
+ },
+ {
+  "skill": "fn-limit-concept",
+  "problems": [
+   {
+    "question": "$f(x) = \\frac{x^2 - 9}{x - 3}$, where $x \\neq 3$.\nBy investigating the values of $f(x)$ for $x$ close to $3$, find the limiting value of $f(x)$ as $x \\to 3$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Simplify the function for $x \\neq 3$",
+       "lines": [
+        {
+         "tex": "\\frac{x^2 - 9}{x - 3} &= \\frac{(x-3)(x+3)}{x-3}",
+         "sym": "(x**2 - 9)/(x - 3)"
+        },
+        {
+         "tex": "&= x + 3",
+         "sym": "x + 3"
+        }
+       ]
+      },
+      {
+       "title": "Try values just below and just above 3",
+       "lines": [
+        {
+         "tex": "f(2.99) &= 2.99 + 3 = 5.99",
+         "sym": "Eq(Rational(299,100) + 3, Rational(599,100))",
+         "new": true
+        },
+        {
+         "tex": "f(3.01) &= 3.01 + 3 = 6.01",
+         "sym": "Eq(Rational(301,100) + 3, Rational(601,100))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "State the limiting value",
+       "lines": [
+        {
+         "text": "From both sides, $f(x)$ gets closer and closer to $6$."
+        },
+        {
+         "tex": "\\lim_{x \\to 3} f(x) &= 3 + 3 = 6",
+         "sym": "Eq(limit(x + 3, x, 3), 6)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "6"
+    },
+    "finalSym": "6",
+    "answerSym": "limit((x**2 - 9)/(x - 3), x, 3)"
+   },
+   {
+    "question": "The temperature of a drink $t$ minutes after it is poured is $T(t) = 5 + 40e^{-0.2t}$ °C.\nFind the temperature that $T(t)$ approaches as $t$ gets very large.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "See what happens to the exponential",
+       "lines": [
+        {
+         "text": "As $t$ gets very large, $e^{-0.2t}$ gets closer and closer to $0$."
+        },
+        {
+         "tex": "\\lim_{t \\to \\infty} e^{-0.2t} &= 0",
+         "sym": "Eq(limit(exp(-t/5), t, oo), 0)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Put this into $T(t)$",
+       "lines": [
+        {
+         "tex": "T(t) &\\to 5 + 40(0)",
+         "sym": "5 + 40*0",
+         "new": true
+        },
+        {
+         "tex": "&= 5",
+         "sym": "5"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "5"
+    },
+    "finalSym": "5",
+    "answerSym": "limit(5 + 40*exp(-t/5), t, oo)"
+   }
+  ]
+ },
+ {
+  "skill": "fn-composite",
+  "problems": [
+   {
+    "question": "$f(x) = 3x - 2$ and $g(x) = x^2 + 1$.\nFind $g(f(x))$, in the form $ax^2 + bx + c$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Put $f(x)$ in place of $x$ in $g$",
+       "lines": [
+        {
+         "tex": "g(f(x)) &= g(3x - 2)"
+        },
+        {
+         "tex": "&= (3x - 2)^2 + 1",
+         "sym": "(3*x - 2)**2 + 1",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Multiply out the bracket",
+       "lines": [
+        {
+         "tex": "&= (3x-2)(3x-2) + 1",
+         "sym": "(3*x - 2)*(3*x - 2) + 1"
+        },
+        {
+         "tex": "&= 9x^2 - 12x + 4 + 1",
+         "sym": "9*x**2 - 12*x + 4 + 1"
+        }
+       ]
+      },
+      {
+       "title": "Collect like terms",
+       "lines": [
+        {
+         "tex": "&= 9x^2 - 12x + 5",
+         "sym": "9*x**2 - 12*x + 5"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "9x^2 - 12x + 5"
+    },
+    "finalSym": "9*x**2 - 12*x + 5",
+    "answerSym": "expand((x**2 + 1).subs(x, 3*x - 2))"
+   }
+  ]
+ },
+ {
+  "skill": "fn-injective-surjective",
+  "problems": [
+   {
+    "question": "$f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = x^2 - 6x + 5$.\nShow that $f$ is not injective by finding a value $b \\neq 0$ such that $f(b) = f(0)$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $f(0)$",
+       "lines": [
+        {
+         "tex": "f(0) &= 0^2 - 6(0) + 5 = 5",
+         "sym": "Eq(0**2 - 6*0 + 5, 5)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Look for another input with the same output",
+       "lines": [
+        {
+         "text": "$f$ is injective only if $f(a) = f(b)$ forces $a = b$. Set $f(b) = 5$."
+        },
+        {
+         "tex": "b^2 - 6b + 5 &= 5",
+         "sym": "Eq(b**2 - 6*b + 5, 5)",
+         "new": true
+        },
+        {
+         "tex": "b^2 - 6b &= 0",
+         "sym": "Eq(b**2 - 6*b, 0)"
+        },
+        {
+         "tex": "b(b - 6) &= 0",
+         "sym": "Eq(b*(b - 6), 0)"
+        }
+       ]
+      },
+      {
+       "title": "Choose the value other than 0",
+       "lines": [
+        {
+         "tex": "b &= 0 \\text{ or } b = 6",
+         "sym": "Or(Eq(b, 0), Eq(b, 6))",
+         "new": true
+        },
+        {
+         "text": "Since $b \\neq 0$, $b = 6$. Then $f(6) = 36 - 36 + 5 = 5 = f(0)$ with $6 \\neq 0$, so $f$ is not injective."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "b = 6"
+    },
+    "finalSym": "6",
+    "answerSym": "Max(*solve(Eq(x**2 - 6*x + 5, 5), x))"
+   }
+  ]
+ }
+]

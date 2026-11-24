@@ -1,0 +1,534 @@
+[
+ {
+  "skill": "prob-independence-test",
+  "what": {
+   "say": [
+    "You give it $P(A)$, $P(B)$ and $P(A \\cap B)$. It tells you whether the events are **independent**.",
+    "The key idea: independent events do not affect each other, so the chance of both is just the two chances multiplied. If $P(A \\cap B)$ equals $P(A)P(B)$, they are independent. If not, they are not."
+   ],
+   "in": "$P(A)$, $P(B)$, $P(A \\cap B)$",
+   "out": "independent or not"
+  },
+  "how": {
+   "higher": "Higher level asks for it as a part of its own on Paper 2, usually worth 5 or 10 marks, often after you read the probabilities from a table or Venn diagram.",
+   "ordinary": "Ordinary level only touched it once, in 2023 on Paper 2, as a 5 mark part asking in words whether one result affects the next."
+  },
+  "example": {
+   "question": "$P(A) = 0.5$, $P(A \\cup B) = 0.7$ and $P(A \\cap B) = 0.1$. Find $P(B)$. Hence decide whether $A$ and $B$ are independent events.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find P(B)",
+      "say": "Use the addition rule, $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$, and solve for $P(B)$.",
+      "lines": [
+       {
+        "tex": "0.7 &= 0.5 + P(B) - 0.1",
+        "sym": "0.5+B-0.1",
+        "new": true
+       },
+       {
+        "tex": "P(B) &= 0.7 - 0.5 + 0.1",
+        "sym": "7/10-5/10+1/10",
+        "new": true
+       },
+       {
+        "tex": "&= 0.3",
+        "sym": "3/10"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the two chances",
+      "say": "Independent events satisfy $P(A \\cap B) = P(A)P(B)$. Work out the product $\\hl{1}{P(A)P(B)}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(A)P(B)} &= 0.5 \\times 0.3",
+        "sym": "1/2*3/10",
+        "new": true
+       },
+       {
+        "tex": "&= 0.15",
+        "sym": "15/100"
+       }
+      ]
+     },
+     {
+      "title": "Compare and conclude",
+      "say": "Compare the product with $\\hl{2}{P(A \\cap B)}$, which the question gives as $0.1$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{0.15} &\\neq \\hl{2}{0.1}"
+       },
+       {
+        "text": "The product and $P(A \\cap B)$ are not equal. So the events are **not independent**. Always write that sentence."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "P(B) = 0.3 \\text{ and } P(A)P(B) = 0.15 \\neq 0.1 = P(A \\cap B) \\text{: not independent}"
+   },
+   "finalSym": "1/2*3/10-1/10",
+   "answerSym": "Rational(1,2)*(Rational(7,10)-Rational(1,2)+Rational(1,10))-Rational(1,10)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the condition for independence before you use it. The condition alone earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q5#(a)(ii)",
+       "quote": "Condition for independent events"
+      }
+     ]
+    },
+    {
+     "tip": "Either test is accepted: the product test or the conditional test. Use the one that suits the numbers, and show it fully substituted.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q1#(a)(ii)",
+       "quote": "Based on independent iff"
+      }
+     ]
+    },
+    {
+     "tip": "Writing the formula, fully substituted, is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q5#(b)",
+       "quote": "formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "End with a clear conclusion. A check with no valid conclusion loses the last marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q5#(a)(ii)",
+       "quote": "with a valid conclusion"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "If the question asks you to explain in words, say that an earlier result may change the chance of the next one.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q4#(a)(iii)",
+       "quote": "Previous performance levels may affect"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-expected-value",
+  "what": {
+   "say": [
+    "You give it the outcomes of a game and the probability of each. It finds the **expected value**, the average result over many plays.",
+    "The key idea: multiply each outcome by its probability, then add. A game is **fair** when the expected value equals what you pay to play."
+   ],
+   "in": "outcomes and probabilities",
+   "out": "$E(x)$ and fair or not"
+  },
+  "how": {
+   "higher": "Higher level uses it as a part inside bigger Paper 2 questions (once on Paper 1), worth 10 or 15 marks, often with an unknown such as $x$ or $r$ to find first, or two expected values to compare.",
+   "ordinary": "Ordinary level asks for it on Paper 2 almost every year since 2017, as a part worth 5, 10 or 15 marks, often from a table and sometimes with 'is it a fair game?'."
+  },
+  "example": {
+   "question": "A game costs $\\text{€}3$ to play. A spinner pays $\\text{€}8$ with probability $0.2$, $\\text{€}2$ with probability $0.5$ and nothing otherwise. Find the expected value of the prize. Is the game fair? Give a reason.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the missing probability",
+      "say": "The probabilities add to $1$. Find the chance of winning nothing.",
+      "lines": [
+       {
+        "tex": "P(0) &= 1 - 0.2 - 0.5",
+        "sym": "1-2/10-5/10",
+        "new": true
+       },
+       {
+        "tex": "&= 0.3",
+        "sym": "3/10"
+       }
+      ]
+     },
+     {
+      "title": "Multiply and add",
+      "say": "Use $E(x) = \\sum x\\,P(x)$. Multiply each prize by its probability, then add.",
+      "lines": [
+       {
+        "tex": "E(x) &= 8(0.2) + 2(0.5) + 0(0.3)",
+        "sym": "8*2/10+2*5/10+0*3/10",
+        "new": true
+       },
+       {
+        "tex": "&= 1.6 + 1 + 0",
+        "sym": "16/10+1+0"
+       },
+       {
+        "tex": "&= \\hl{1}{2.6}",
+        "sym": "26/10"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the cost",
+      "say": "A fair game has expected value equal to the cost, $\\hl{2}{3}$. Compare the two.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{2.6} - \\hl{2}{3} &= -0.4",
+        "sym": "26/10-3",
+        "new": true
+       },
+       {
+        "text": "The expected value is $\\text{€}0.40$ less than the cost. The game is **not fair**: on average you lose $\\text{€}0.40$ each play."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "E(x) = \\text{€}2.60 < \\text{€}3 \\text{: not fair}"
+   },
+   "finalSym": "26/10-3",
+   "answerSym": "8*Rational(2,10)+2*Rational(5,10)+0*(1-Rational(2,10)-Rational(5,10))-3"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "When $E(x)$ is given and one value is unknown, write the full equation. A fully correct equation earns most of the marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q2#(a)",
+       "quote": "Fully correct equation"
+      }
+     ]
+    },
+    {
+     "tip": "To compare two options, find both expected values and then state which is better. Finding both with no conclusion loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q8#(d)(i)",
+       "quote": "Both expected values found, no or"
+      }
+     ]
+    },
+    {
+     "tip": "Take the viewpoint of the right person. The organisers' gain is the player's loss, so state who gains.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q1#(a)",
+       "quote": "expected gain for organisers of"
+      }
+     ]
+    },
+    {
+     "tip": "Probabilities that add to 1 give you a missing value. Writing that equation is a step of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q10#(e)",
+       "quote": "Sets sum of probabilities = 1"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the formula $E(x) = \\sum x\\,P(x)$ first. A correct formula alone earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q7#(d)",
+       "quote": "correct relevant formula"
+      }
+     ]
+    },
+    {
+     "tip": "Even one correct term, such as one outcome times its probability, earns marks. Write each product out.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q9#(c)",
+       "quote": "One correct term OR operation indicated"
+      }
+     ]
+    },
+    {
+     "tip": "For a fair game, give the conclusion and the reason. Missing either one costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q10#(d)",
+       "quote": "Either conclusion or explanation missing"
+      }
+     ]
+    },
+    {
+     "tip": "A good reason compares the expected value with the cost, or says it is not equal to zero.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q10#(d)",
+       "quote": "Expected value not equal to Zero"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-arrangement-restrictions",
+  "what": {
+   "say": [
+    "You give it some objects to arrange and a condition, such as one must be first or the last must be a vowel. It counts the arrangements that obey the condition.",
+    "The key idea: fill the restricted place first, then arrange the rest. Multiply the number of choices for each place."
+   ],
+   "in": "objects and a condition",
+   "out": "number of arrangements"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 2 in 2018, 2023 and 2024, as parts worth 5 or 10 marks about codes and PINs, where digits may or may not repeat.",
+   "ordinary": "Ordinary level asked for it once, in 2023 on Paper 2, as a 10 mark part: arrangements of the letters of a word with a vowel in a fixed place."
+  },
+  "example": {
+   "question": "The letters of the word CHAIR are arranged in a row, each used once. Find the number of arrangements that begin with a vowel.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Fill the first place",
+      "say": "The condition is on the first place, so fill it first. Only $A$ and $I$ are vowels.",
+      "lines": [
+       {
+        "text": "The first place can be filled in $\\hl{1}{2}$ ways."
+       }
+      ]
+     },
+     {
+      "title": "Arrange the other letters",
+      "say": "Four letters are left, and they can go in the four remaining places in any order.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{4!} &= 4 \\times 3 \\times 2 \\times 1",
+        "sym": "4*3*2*1",
+        "new": true
+       },
+       {
+        "tex": "&= 24",
+        "sym": "24"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the choices",
+      "say": "Multiply the choices for the first place by the arrangements of the rest.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{2} \\times \\hl{2}{24} &= 48",
+        "sym": "2*24",
+        "new": true
+       },
+       {
+        "text": "There are $48$ arrangements that begin with a vowel."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "48"
+   },
+   "finalSym": "48",
+   "answerSym": "2*factorial(4)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Digits that cannot repeat give one fewer choice for each place. Do not stop at $9 \\times 9 \\times 9 \\times 9$.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q10#(b)(i)",
+       "quote": "9 × 9 × 9 × 9 evaluated"
+      }
+     ]
+    },
+    {
+     "tip": "When a condition fixes a place, write a 1 for that place and multiply the rest. Showing the pattern earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q10#(c)(ii), (iii)",
+       "quote": "lists some correct patterns"
+      }
+     ]
+    },
+    {
+     "tip": "For a sum condition, list every combination first, then multiply by the arrangements of each.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q10#(b)(i)",
+       "quote": "All 7 combinations listed"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Remember to multiply by the number of choices for the restricted place, such as the vowels.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q3#(a)(ii)",
+       "quote": "Indicates × 4 for vowels"
+      }
+     ]
+    },
+    {
+     "tip": "Write out the terms to be multiplied, even if you cannot finish. Terms listed earn partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q3#(a)(ii)",
+       "quote": "Terms listed but not multiplied"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no work can earn full credit, but show the product in case of a slip.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q3#(a)(ii)",
+       "quote": "Correct answer without supporting work"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-bernoulli-3",
+  "what": {
+   "say": [
+    "You give it the chance $p$ of an event happening on one trial, and a few trials, at most three. It finds the probability of the number of successes you are asked for.",
+    "The key idea: multiply the chances along one order, then count how many orders give that result and multiply by that count."
+   ],
+   "in": "$p$ and up to 3 trials",
+   "out": "probability of the outcome"
+  },
+  "how": {
+   "ordinary": "Ordinary level asks for it on Paper 2 most years from 2017 to 2023, as a part worth 5 or 10 marks, usually 'exactly two' or 'exactly one' out of three, sometimes after a part on a single trial."
+  },
+  "example": {
+   "question": "The probability that a spinner lands on green is $\\tfrac14$. It is spun three times. Find the probability that it lands on green exactly once.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the chance of not green",
+      "say": "The chances add to $1$. Find the chance of a spin that is not green.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{q} &= 1 - \\tfrac14",
+        "sym": "1-1/4",
+        "new": true
+       },
+       {
+        "tex": "&= \\tfrac34",
+        "sym": "3/4"
+       }
+      ]
+     },
+     {
+      "title": "One order of results",
+      "say": "Take one order: green, then not green, then not green. Multiply the chances.",
+      "lines": [
+       {
+        "tex": "P(G,N,N) &= \\hl{1}{\\tfrac14} \\times \\hl{2}{\\tfrac34} \\times \\hl{2}{\\tfrac34}",
+        "sym": "1/4*3/4*3/4",
+        "new": true
+       },
+       {
+        "tex": "&= \\tfrac{9}{64}",
+        "sym": "9/64"
+       }
+      ]
+     },
+     {
+      "title": "Count the orders",
+      "say": "The green can come first, second or third. List the orders.",
+      "lines": [
+       {
+        "text": "$GNN$, $NGN$, $NNG$. That is $\\hl{3}{3}$ orders, and each has the same chance."
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the count",
+      "say": "Multiply the chance of one order by the number of orders.",
+      "lines": [
+       {
+        "tex": "P(\\text{exactly one}) &= \\hl{3}{3} \\times \\tfrac{9}{64}",
+        "sym": "3*9/64",
+        "new": true
+       },
+       {
+        "tex": "&= \\tfrac{27}{64}",
+        "sym": "27/64"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\tfrac{27}{64}"
+   },
+   "finalSym": "27/64",
+   "answerSym": "3*Rational(1,4)*Rational(3,4)**2"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Count the orders and multiply. Saying there are three arrangements earns marks on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q4#(a)(ii)",
+       "quote": "indicates three arrangements"
+      }
+     ]
+    },
+    {
+     "tip": "A probability can never be more than 1. An answer above 1 earns nothing, so check yours.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q4#(a)(ii)",
+       "quote": "Probability greater than 1"
+      }
+     ]
+    },
+    {
+     "tip": "Write the product of the chances even if you do not work it out. It earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q2#(a)(i)",
+       "quote": "Correct answer indicated but not"
+      }
+     ]
+    },
+    {
+     "tip": "List the orders with their chances. A list of orders is work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q3#(c)",
+       "quote": "List given"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

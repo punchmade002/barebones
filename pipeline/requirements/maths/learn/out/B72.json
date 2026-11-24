@@ -1,0 +1,592 @@
+[
+ {
+  "skill": "seq-arith-nth",
+  "what": {
+   "say": [
+    "You give it the first term $a$ and the common difference $d$. It gives back a formula for **any** term, $T_n$.",
+    "The key idea: to reach the $n$th term you start at $a$ and add $d$ exactly $n-1$ times."
+   ],
+   "in": "$a$ and $d$",
+   "out": "$T_n = a + (n-1)d$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside bigger Paper 1 questions, for example writing a formula for a pattern and then finding the 100th term (2025 Q7) or a term with an unknown (2021 Q4).",
+   "ordinary": "Ordinary level asks for it almost every year on Paper 1, usually as a 5 or 10 mark part of a pattern question: find a term such as $T_{10}$, or find which term equals a given number."
+  },
+  "example": {
+   "question": "The first three terms of an arithmetic sequence are $7, 12, 17, \\dots$ Find $T_n$, the $n$th term. Hence find $T_{30}$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a and d",
+      "say": "$a$ is the first term. $d$ is the **common difference**, the gap from one term to the next. Subtract a term from the one after it.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 7",
+        "sym": "7",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{d} &= 12 - 7",
+        "sym": "12-7",
+        "new": true
+       },
+       {
+        "tex": "&= 5",
+        "sym": "5"
+       },
+       {
+        "text": "Check the next gap: $17 - 12 = 5$. Same gap, so it is arithmetic."
+       }
+      ]
+     },
+     {
+      "title": "Write the formula",
+      "say": "Every term is $a$ plus some $d$'s. The $n$th term has $n - 1$ of them. Put in $\\hl{1}{a}$ and $\\hl{2}{d}$.",
+      "lines": [
+       {
+        "tex": "T_n &= a + (n-1)d"
+       },
+       {
+        "tex": "&= \\hl{1}{7} + (n-1)\\hl{2}{5}",
+        "sym": "7+(n-1)*5",
+        "new": true
+       },
+       {
+        "tex": "&= 7 + 5n - 5",
+        "sym": "7+5*n-5"
+       },
+       {
+        "tex": "&= \\hl{3}{5n + 2}",
+        "sym": "5*n+2"
+       }
+      ]
+     },
+     {
+      "title": "Find T30",
+      "say": "Put $n = 30$ into $\\hl{3}{5n + 2}$.",
+      "lines": [
+       {
+        "tex": "T_{30} &= 5(30) + 2",
+        "sym": "5*30+2",
+        "new": true
+       },
+       {
+        "tex": "&= 150 + 2",
+        "sym": "150+2"
+       },
+       {
+        "tex": "&= \\hl{4}{152}",
+        "sym": "152"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "T_n = \\hl{3}{5n + 2}, \\ T_{30} = \\hl{4}{152}"
+   },
+   "finalSym": "(5*n+2, 152)",
+   "answerSym": "(7+(n-1)*(12-7), 7+(30-1)*(12-7))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Do not assume a pattern is arithmetic. Check the gaps are equal before you use the formula.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q7#(a)(ii), (iii)",
+       "quote": "it cannot be assumed"
+      }
+     ]
+    },
+    {
+     "tip": "Start substituting into the formula even if you cannot finish. A formula with some substitution earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q4#(b)(i)",
+       "quote": "formula with some substitution"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the formula $T_n = a + (n-1)d$ down first. Writing it earns partial credit even if the rest goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q6#(a)(i)",
+       "quote": "formula written"
+      }
+     ]
+    },
+    {
+     "tip": "Name $a$ and $d$ clearly. Identifying them earns marks on their own.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q6#(a)(ii)",
+       "quote": "a and/or d identified"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no working can earn full marks, but a slip with no working earns nothing. Show the substitution.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q6#(a)(ii)",
+       "quote": "Accept correct answer without"
+      }
+     ]
+    },
+    {
+     "tip": "If the question has units, write them. Leaving them off costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q8#(b)(i), (ii)",
+       "quote": "Apply a * for no units"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "seq-arith-sum",
+  "what": {
+   "say": [
+    "You give it $a$, $d$ and the number of terms $n$. It adds up the first $n$ terms in one go, without listing them.",
+    "The key idea: pair the first term with the last, the second with the second last, and so on. Every pair has the same total, so the sum is the number of pairs times that total."
+   ],
+   "in": "$a$, $d$, $n$",
+   "out": "$S_n$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 1 pattern questions worth 5 to 10 marks, for example finding a total in a table of rows (2018 Q5) or showing that $S_n$ is quadratic (2025 Q7).",
+   "ordinary": "Ordinary level asks for it nearly every year on Paper 1, as a 5 or 10 mark part: find $S_{10}$ or $S_{50}$, or solve $S_n$ = a given total to find $n$."
+  },
+  "example": {
+   "question": "Find the sum of the first $25$ terms of the series $4 + 9 + 14 + \\dots$",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a, d and n",
+      "say": "Read off the first term $\\hl{1}{a}$, the common difference $\\hl{2}{d}$ and the number of terms $n$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 4",
+        "sym": "4",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{d} &= 9 - 4",
+        "sym": "9-4",
+        "new": true
+       },
+       {
+        "tex": "&= 5",
+        "sym": "5"
+       },
+       {
+        "tex": "n &= 25",
+        "sym": "25",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Put them in the formula",
+      "say": "Write the sum formula. Then put in $\\hl{1}{a} = 4$, $\\hl{2}{d} = 5$ and $n = 25$.",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[2a + (n-1)d\\right]"
+       },
+       {
+        "tex": "S_{25} &= \\frac{25}{2}\\left[2(\\hl{1}{4}) + (25-1)(\\hl{2}{5})\\right]",
+        "sym": "25*(2*4+(25-1)*5)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Do the brackets first, then multiply.",
+      "lines": [
+       {
+        "tex": "&= \\frac{25}{2}\\left[8 + 120\\right]",
+        "sym": "25*(8+120)/2"
+       },
+       {
+        "tex": "&= \\frac{25}{2}(128)",
+        "sym": "25*128/2"
+       },
+       {
+        "tex": "&= \\hl{3}{1600}",
+        "sym": "1600"
+       },
+       {
+        "text": "Check: the last term is $4 + 24(5) = 124$. The average of first and last is $64$, and $64 \\times 25 = 1600$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{3}{1600}"
+   },
+   "finalSym": "1600",
+   "answerSym": "summation(4+(k-1)*5,(k,1,25))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "In an arithmetic series $S_n$ is always a quadratic in $n$. Use that to check a formula or to fit one from three sums.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q7#(a)(iv)",
+       "quote": "partial sums form a quadratic pattern"
+      }
+     ]
+    },
+    {
+     "tip": "If a question asks for a difference between two sums, finish by subtracting. Forgetting costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q5#(a)(i)",
+       "quote": "Fails to subtract"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the sum formula before you substitute. Writing it earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q9#(a)(iii)",
+       "quote": "formula written"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute every value, then work it out. A fully substituted formula earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q6#(b)",
+       "quote": "Formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Adding the terms one by one is allowed. A correct running total still earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q8#(b)(iv), (v)",
+       "quote": "Some correct addition in (v)"
+      }
+     ]
+    },
+    {
+     "tip": "Put the units on a real-life answer. Leaving them off costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q8#(b)(iv), (v)",
+       "quote": "Apply a * for no units"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "seq-arith-find-ad",
+  "what": {
+   "say": [
+    "You give it two facts about an arithmetic sequence, such as two of its terms. It finds the first term $a$ and the common difference $d$.",
+    "The key idea: each fact becomes an equation in $a$ and $d$ using $T_n = a + (n-1)d$. Two equations in two unknowns can then be solved."
+   ],
+   "in": "two facts",
+   "out": "$a$ and $d$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 1 questions, for example setting up an equation from three terms given in terms of $x$ (2024 Q5(a), 5 marks) or finding $a$ and $d$ for a pattern (2018, 2025).",
+   "ordinary": "Ordinary level asks for it as a 5 mark part on Paper 1, for example finding the first term and the common difference from given terms (2021 Q6, 2022 Q6)."
+  },
+  "example": {
+   "question": "In an arithmetic sequence, $T_4 = 14$ and $T_9 = 34$. Find $a$, the first term, and $d$, the common difference.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write two equations",
+      "say": "Use $T_n = a + (n-1)d$ for each fact. $T_4$ has three $d$'s and $T_9$ has eight.",
+      "lines": [
+       {
+        "tex": "a + 3d &= 14",
+        "sym": "Eq(a+3*d,14)",
+        "new": true
+       },
+       {
+        "tex": "a + 8d &= 34",
+        "sym": "Eq(a+8*d,34)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Subtract to find d",
+      "say": "Subtract the first equation from the second. The $a$ terms cancel and only $\\hl{2}{d}$ is left.",
+      "lines": [
+       {
+        "tex": "(a + 8d) - (a + 3d) &= 34 - 14",
+        "sym": "Eq((a+8*d)-(a+3*d),34-14)",
+        "new": true
+       },
+       {
+        "tex": "5d &= 20",
+        "sym": "Eq(5*d,20)"
+       },
+       {
+        "tex": "\\hl{2}{d} &= 4",
+        "sym": "Eq(d,4)"
+       }
+      ]
+     },
+     {
+      "title": "Find a",
+      "say": "Put $\\hl{2}{d = 4}$ into the first equation and solve for $\\hl{1}{a}$.",
+      "lines": [
+       {
+        "tex": "a + 3(4) &= 14",
+        "sym": "Eq(a+3*4,14)",
+        "new": true
+       },
+       {
+        "tex": "a + 12 &= 14",
+        "sym": "Eq(a+12,14)"
+       },
+       {
+        "tex": "\\hl{1}{a} &= 2",
+        "sym": "Eq(a,2)"
+       },
+       {
+        "text": "Check: $T_9 = 2 + 8(4) = 34$. It works."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "a = \\hl{1}{2}, \\ d = \\hl{2}{4}"
+   },
+   "finalSym": "(2, 4)",
+   "answerSym": "linsolve([Eq(a+3*d,14),Eq(a+8*d,34)],(a,d)).args[0]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Get one correct equation in the unknown first. Setting up the equation is where the marks start.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q5#(a)",
+       "quote": "Correct equation in"
+      }
+     ]
+    },
+    {
+     "tip": "Do not stop at an equation. Writing a term in terms of $a$ and $d$ and putting it equal to the given value earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q5#(a)",
+       "quote": "Work of merit in establishing equation"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the formula $T_n = a + (n-1)d$ down first. It earns partial credit on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q6#(a)(i)",
+       "quote": "formula written"
+      }
+     ]
+    },
+    {
+     "tip": "State the common difference clearly. It must be shown, not just implied.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q6#(a)(i)",
+       "quote": "Common difference must be"
+      }
+     ]
+    },
+    {
+     "tip": "Even a first step such as substituting $n = 1$ or $n = 2$ earns marks, so always start.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q6#(a)(ii)",
+       "quote": "substitutes 2 for"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "seq-quadratic",
+  "what": {
+   "say": [
+    "You give it terms where the **second difference** is the same every time. It finds the formula $T_n = an^2 + bn + c$.",
+    "The key idea: the second difference equals $2a$, which gives $a$ straight away. Two terms then give two equations for $b$ and $c$."
+   ],
+   "in": "terms, constant second difference",
+   "out": "$T_n = an^2 + bn + c$"
+  },
+  "how": {
+   "higher": "Higher level used it once, in 2020 Paper 1 Q7, as a small step inside a longer question on triangular numbers.",
+   "ordinary": "Ordinary level asks for it most years on Paper 1, as a 5 or 10 mark part of a pattern question: show the second difference is constant, then find $b$ and $c$ (2015, 2016, 2018, 2021, 2025)."
+  },
+  "example": {
+   "question": "The first four terms of a quadratic sequence are $6, 11, 18, 27, \\dots$ Find the formula for $T_n$ in the form $T_n = n^2 + bn + c$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Check the second difference",
+      "say": "Find the gaps between terms, then the gaps between the gaps. If the second gaps are equal, the sequence is quadratic.",
+      "lines": [
+       {
+        "text": "Terms: $6, 11, 18, 27$"
+       },
+       {
+        "text": "First differences: $5, 7, 9$"
+       },
+       {
+        "text": "Second differences: $2, 2$. Constant, so it is quadratic."
+       },
+       {
+        "tex": "2a &= 2",
+        "sym": "Eq(2*a,2)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{a} &= 1",
+        "sym": "Eq(a,1)"
+       }
+      ]
+     },
+     {
+      "title": "Use two terms",
+      "say": "Put $n = 1$ and $n = 2$ into $T_n = \\hl{1}{1}n^2 + bn + c$. Each gives an equation in $b$ and $c$.",
+      "lines": [
+       {
+        "tex": "1 + b + c &= 6",
+        "sym": "Eq(1+b+c,6)",
+        "new": true
+       },
+       {
+        "tex": "b + c &= 5",
+        "sym": "Eq(b+c,5)"
+       },
+       {
+        "tex": "4 + 2b + c &= 11",
+        "sym": "Eq(4+2*b+c,11)",
+        "new": true
+       },
+       {
+        "tex": "2b + c &= 7",
+        "sym": "Eq(2*b+c,7)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for b and c",
+      "say": "Subtract the first equation from the second to find $\\hl{2}{b}$. Then find $\\hl{3}{c}$.",
+      "lines": [
+       {
+        "tex": "(2b + c) - (b + c) &= 7 - 5",
+        "sym": "Eq((2*b+c)-(b+c),7-5)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{b} &= 2",
+        "sym": "Eq(b,2)"
+       },
+       {
+        "tex": "2 + c &= 5",
+        "sym": "Eq(2+c,5)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{c} &= 3",
+        "sym": "Eq(c,3)"
+       }
+      ]
+     },
+     {
+      "title": "Write the formula",
+      "say": "Put $a = 1$, $b = 2$ and $c = 3$ into $T_n = an^2 + bn + c$.",
+      "lines": [
+       {
+        "tex": "T_n &= n^2 + \\hl{2}{2}n + \\hl{3}{3}",
+        "sym": "n**2+2*n+3",
+        "new": true
+       },
+       {
+        "text": "Check: $T_3 = 9 + 6 + 3 = 18$ and $T_4 = 16 + 8 + 3 = 27$. Both match."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "T_n = n^2 + \\hl{2}{2}n + \\hl{3}{3}"
+   },
+   "finalSym": "n**2+2*n+3",
+   "answerSym": "interpolate([(1,6),(2,11),(3,18),(4,27)],n)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Show the second difference is constant before you say the sequence is quadratic. Write the two rows of differences.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p1-q5#(b)",
+       "quote": "2nd difference is constant implies quadratic"
+      }
+     ]
+    },
+    {
+     "tip": "Use $n = 1$ and $n = 2$ to get two equations in $b$ and $c$. Two correct equations earn high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p1-q5#(b)",
+       "quote": "Derives two correct equations"
+      },
+      {
+       "part": "maths-pp-2018-ordinary-p1-q4#(c)",
+       "quote": "2 relevant equations derived"
+      }
+     ]
+    },
+    {
+     "tip": "Start the substitution even if you stall. Any relevant substitution into the formula earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q9#(b)(ii)",
+       "quote": "Any relevant substitution"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

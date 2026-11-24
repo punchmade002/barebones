@@ -1,0 +1,1429 @@
+[
+ {
+  "skill": {
+   "id": "line-intersection",
+   "title": "Find where two lines intersect",
+   "level": "OL",
+   "input": "two line equations",
+   "output": "point"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-ordinary-p2-q4#(c)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the two lines as equations",
+      "lines": [
+       {
+        "text": "$l$ is $5x - 2y - 10 = 0$, which is $5x - 2y = 10$. $k$ is $x + 2y = 8$."
+       },
+       {
+        "tex": "5x - 2y &= 10"
+       },
+       {
+        "tex": "x + 2y &= 8"
+       }
+      ]
+     },
+     {
+      "title": "Add the equations to cancel y",
+      "lines": [
+       {
+        "text": "The $y$ terms are $-2y$ and $+2y$, so adding removes $y$."
+       },
+       {
+        "tex": "6x &= 18"
+       },
+       {
+        "tex": "x &= 3"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 3 into x + 2y = 8",
+      "lines": [
+       {
+        "tex": "3 + 2y &= 8"
+       },
+       {
+        "tex": "2y &= 5"
+       },
+       {
+        "tex": "y &= \\frac{5}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "l \\cap k = \\left(3,\\ 2\\tfrac{1}{2}\\right)"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(a)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Equation of the line through A(3, -5) with slope -1",
+      "lines": [
+       {
+        "tex": "y - y_1 &= m(x - x_1)"
+       },
+       {
+        "tex": "y - (-5) &= -1(x - 3)"
+       },
+       {
+        "tex": "y + 5 &= -x + 3"
+       },
+       {
+        "tex": "x + y &= -2"
+       }
+      ]
+     },
+     {
+      "title": "Equation of the line through B(6, 4) with slope 0",
+      "lines": [
+       {
+        "tex": "y - 4 &= 0(x - 6)"
+       },
+       {
+        "tex": "y &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Find where the lines meet",
+      "lines": [
+       {
+        "text": "Put $y = 4$ into $x + y = -2$."
+       },
+       {
+        "tex": "x + 4 &= -2"
+       },
+       {
+        "tex": "x &= -6"
+       }
+      ]
+     },
+     {
+      "title": "Draw the lines",
+      "lines": [
+       {
+        "text": "Draw $y = 4$ (horizontal through $B$) and $x + y = -2$ (through $A$, going up to the left). They cross at $F$."
+       }
+      ]
+     }
+    ],
+    "final": "F = (-6, 4)"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q2#(b)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute y = m(x − 6) into k",
+      "lines": [
+       {
+        "text": "P lies on both lines, so substitute the equation of $l$ into $4x + 3y = 25$."
+       },
+       {
+        "tex": "4x + 3m(x - 6) &= 25"
+       },
+       {
+        "tex": "4x + 3mx - 18m &= 25"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "4x + 3mx &= 25 + 18m"
+       },
+       {
+        "tex": "x(3m + 4) &= 25 + 18m"
+       },
+       {
+        "tex": "x &= \\frac{25 + 18m}{3m + 4}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x back into y = m(x − 6)",
+      "lines": [
+       {
+        "tex": "y &= m\\left(\\frac{25 + 18m}{3m + 4} - 6\\right)"
+       },
+       {
+        "tex": "&= m \\times \\frac{25 + 18m - 6(3m + 4)}{3m + 4}"
+       },
+       {
+        "tex": "&= m \\times \\frac{25 + 18m - 18m - 24}{3m + 4}"
+       },
+       {
+        "tex": "&= \\frac{m}{3m + 4}"
+       }
+      ]
+     }
+    ],
+    "final": "P\\left(\\frac{25 + 18m}{3m + 4},\\ \\frac{m}{3m + 4}\\right)"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q1#(b)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Plan: intersect two altitudes",
+      "lines": [
+       {
+        "text": "The orthocentre is where the altitudes meet. The altitude from $B$ is the line from part (a): $3x - 2y = 9$."
+       },
+       {
+        "text": "Find a second altitude, from $C$ perpendicular to $AB$."
+       }
+      ]
+     },
+     {
+      "title": "Find the slope of AB",
+      "lines": [
+       {
+        "tex": "\\text{Slope } AB &= \\frac{3 - (-2)}{5 - 6}"
+       },
+       {
+        "tex": "&= \\frac{5}{-1}"
+       },
+       {
+        "tex": "&= -5"
+       }
+      ]
+     },
+     {
+      "title": "Find the perpendicular slope",
+      "lines": [
+       {
+        "tex": "\\text{Perpendicular slope} &= \\frac{1}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Write the altitude from C(-3, 4)",
+      "lines": [
+       {
+        "tex": "y - 4 &= \\frac{1}{5}(x + 3)"
+       },
+       {
+        "tex": "5(y - 4) &= x + 3"
+       },
+       {
+        "tex": "5y - 20 &= x + 3"
+       },
+       {
+        "tex": "x - 5y &= -23"
+       }
+      ]
+     },
+     {
+      "title": "Solve the two altitudes together",
+      "lines": [
+       {
+        "tex": "3x - 2y &= 9"
+       },
+       {
+        "tex": "x &= 5y - 23"
+       },
+       {
+        "text": "Substitute $x = 5y - 23$ into $3x - 2y = 9$."
+       },
+       {
+        "tex": "3(5y - 23) - 2y &= 9"
+       },
+       {
+        "tex": "15y - 69 - 2y &= 9"
+       },
+       {
+        "tex": "13y &= 78"
+       },
+       {
+        "tex": "y &= 6"
+       },
+       {
+        "tex": "x &= 5(6) - 23"
+       },
+       {
+        "tex": "x &= 7"
+       }
+      ]
+     }
+    ],
+    "final": "(7, 6)"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q5#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the slope of $m$ (and $n$)",
+      "lines": [
+       {
+        "tex": "2x + 3y + 1 &= 0"
+       },
+       {
+        "tex": "3y &= -2x - 1"
+       },
+       {
+        "tex": "y &= -\\frac{2}{3}x - \\frac{1}{3}"
+       },
+       {
+        "text": "So the slope of $m$ and $n$ is $-\\frac{2}{3}$."
+       }
+      ]
+     },
+     {
+      "title": "Find the slope of $AB$",
+      "lines": [
+       {
+        "text": "$AB$ is perpendicular to $m$, so its slope is the negative reciprocal."
+       },
+       {
+        "tex": "\\text{slope of } AB &= \\frac{3}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the equation of $AB$ through $A(-2, 1)$",
+      "lines": [
+       {
+        "tex": "y - 1 &= \\frac{3}{2}(x - (-2))"
+       },
+       {
+        "tex": "2(y - 1) &= 3(x + 2)"
+       },
+       {
+        "tex": "2y - 2 &= 3x + 6"
+       },
+       {
+        "tex": "0 &= 3x - 2y + 8"
+       }
+      ]
+     },
+     {
+      "title": "Solve $AB$ and $n$ together to find $B$",
+      "lines": [
+       {
+        "tex": "3x - 2y + 8 &= 0"
+       },
+       {
+        "tex": "2x + 3y - 51 &= 0"
+       },
+       {
+        "text": "Multiply the first equation by 3 and the second by 2."
+       },
+       {
+        "tex": "9x - 6y + 24 &= 0"
+       },
+       {
+        "tex": "4x + 6y - 102 &= 0"
+       },
+       {
+        "text": "Add the two equations."
+       },
+       {
+        "tex": "13x - 78 &= 0"
+       },
+       {
+        "tex": "x &= 6"
+       }
+      ]
+     },
+     {
+      "title": "Find $y$ by substituting $x = 6$ into $3x - 2y + 8 = 0$",
+      "lines": [
+       {
+        "tex": "3(6) - 2y + 8 &= 0"
+       },
+       {
+        "tex": "26 - 2y &= 0"
+       },
+       {
+        "tex": "y &= 13"
+       }
+      ]
+     }
+    ],
+    "final": "B = (6, 13)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "line-linear-model",
+   "title": "Interpret a linear relationship in context",
+   "level": "OL",
+   "input": "table/graph/equation of a real situation",
+   "output": "rate of change (slope) and start value (intercept); predictions"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2023-ordinary-p1-q7#(b)(iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add one hour of change",
+      "lines": [
+       {
+        "text": "The probability increases by $P'(t) = 0.02$ each hour."
+       },
+       {
+        "tex": "P &= 0.35 + 0.02"
+       },
+       {
+        "tex": "&= 0.37"
+       }
+      ]
+     }
+    ],
+    "final": "0.37"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q9#(c)(i), (ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Plot the two given points",
+      "lines": [
+       {
+        "text": "At $t = 0$ the value is 30 000 and at $t = 1$ it is 24 000."
+       },
+       {
+        "text": "Draw a straight line through $(0, 30\\,000)$ and $(1, 24\\,000)$."
+       }
+      ]
+     },
+     {
+      "title": "Find the fixed fall each year",
+      "lines": [
+       {
+        "tex": "30\\,000 - 24\\,000 &= 6000"
+       }
+      ]
+     },
+     {
+      "title": "Find when the value reaches 0",
+      "lines": [
+       {
+        "text": "The value falls by 6000 each year, so the line meets the horizontal axis when the total fall is 30 000."
+       },
+       {
+        "tex": "T &= \\frac{30\\,000}{6000}"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     },
+     {
+      "title": "Mark the point on the axis",
+      "lines": [
+       {
+        "text": "The line reaches the horizontal axis at $(5, 0)$."
+       }
+      ]
+     }
+    ],
+    "final": "T = 5 \\text{ years}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q7#(e)(i), (ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Find the starting value of Q(n)",
+      "lines": [
+       {
+        "text": "The highest value is on 1st July, when $m = 6$ and $P(6) = 9.22$. At $n = 0$ the share is at that value."
+       },
+       {
+        "tex": "Q(n) &= 9.22 - 0.3n"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Set Q(n) equal to the 1st January value",
+      "lines": [
+       {
+        "text": "The value on 1st January is $P(0) = 2$."
+       },
+       {
+        "tex": "2 &= 9.22 - 0.3n"
+       },
+       {
+        "tex": "0.3n &= 9.22 - 2"
+       },
+       {
+        "tex": "0.3n &= 7.22"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "n &= \\frac{7.22}{0.3}"
+       },
+       {
+        "tex": "&= 24.07"
+       }
+      ]
+     },
+     {
+      "title": "Check which whole number of months is needed",
+      "lines": [
+       {
+        "text": "At $n = 24$ the value is still above €2, so the value only falls below €2 at $n = 25$."
+       },
+       {
+        "tex": "Q(24) &= 9.22 - 0.3 \\times 24"
+       },
+       {
+        "tex": "&= 2.02"
+       }
+      ]
+     }
+    ],
+    "final": "9.22;\\quad n = 25"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q8#(a)(i)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply the rate by the number of minutes",
+      "lines": [
+       {
+        "text": "The oil spills at $4\\times10^6$ cm³ per minute, so the volume is $4$ (in units of $10^6$ cm³) for each minute."
+       },
+       {
+        "tex": "1 \\text{ min}:\\ 4 \\times 1 &= 4"
+       },
+       {
+        "tex": "2 \\text{ min}:\\ 4 \\times 2 &= 8"
+       },
+       {
+        "tex": "3 \\text{ min}:\\ 4 \\times 3 &= 12"
+       },
+       {
+        "tex": "4 \\text{ min}:\\ 4 \\times 4 &= 16"
+       },
+       {
+        "tex": "5 \\text{ min}:\\ 4 \\times 5 &= 20"
+       },
+       {
+        "tex": "6 \\text{ min}:\\ 4 \\times 6 &= 24"
+       }
+      ]
+     }
+    ],
+    "final": "4,\\ 8,\\ 12,\\ 16,\\ 20,\\ 24"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q2#(c)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the slope as a rate of change",
+      "lines": [
+       {
+        "text": "The slope is the change in fuel consumption (km/litre) for each 1 km/h change in speed."
+       },
+       {
+        "text": "It is negative, so fuel consumption falls as speed rises."
+       },
+       {
+        "text": "A slope of $-0.15$ means each extra 1 km/h reduces the distance per litre by 0.15 km."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{For each 1 km/h increase in speed, the car travels 0.15 km less per litre}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q8#(d)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the area when the slick reaches land",
+      "lines": [
+       {
+        "text": "1 km $= 1000$ m $= 10^5$ cm, so the radius is $r = 10^5$ cm."
+       },
+       {
+        "tex": "A &= \\pi(10^5)^2"
+       },
+       {
+        "tex": "&= \\pi \\times 10^{10}\\ \\text{cm}^2"
+       }
+      ]
+     },
+     {
+      "title": "Use the constant rate from part (c)",
+      "lines": [
+       {
+        "text": "The area grows by $4\\times10^7$ cm² each minute, starting from 0."
+       },
+       {
+        "tex": "4\\times10^7\\, t &= \\pi \\times 10^{10}"
+       },
+       {
+        "tex": "t &= \\frac{\\pi \\times 10^{10}}{4\\times10^7}"
+       },
+       {
+        "tex": "t &= 250\\pi"
+       },
+       {
+        "tex": "t &\\approx 785.4\\ \\text{minutes}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to hours",
+      "lines": [
+       {
+        "tex": "\\frac{785.4}{60} &\\approx 13.09"
+       },
+       {
+        "tex": "&\\approx 13\\ \\text{hours}"
+       }
+      ]
+     }
+    ],
+    "final": "13\\ \\text{hours}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "line-midpoint",
+   "title": "Find the midpoint of a segment",
+   "level": "JC",
+   "input": "two points",
+   "output": "((x₁ + x₂)/2, (y₁ + y₂)/2)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q2#(a)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the midpoint formula on P and R",
+      "lines": [
+       {
+        "text": "$V$ is the midpoint of $[PR]$, with $P(7, 10)$ and $R(11, 4)$."
+       },
+       {
+        "tex": "V &= \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)"
+       },
+       {
+        "tex": "&= \\left(\\frac{7+11}{2}, \\frac{10+4}{2}\\right)"
+       },
+       {
+        "tex": "&= \\left(\\frac{18}{2}, \\frac{14}{2}\\right)"
+       },
+       {
+        "tex": "&= (9, 7)"
+       }
+      ]
+     }
+    ],
+    "final": "V = (9, 7)"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q4#(a)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the midpoint of AB",
+      "lines": [
+       {
+        "text": "The centre of a circle is the midpoint of a diameter."
+       },
+       {
+        "tex": "\\text{Centre} &= \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)"
+       },
+       {
+        "tex": "&= \\left(\\frac{1+9}{2}, \\frac{8+0}{2}\\right)"
+       },
+       {
+        "tex": "&= \\left(\\frac{10}{2}, \\frac{8}{2}\\right)"
+       },
+       {
+        "tex": "&= (5, 4)"
+       }
+      ]
+     }
+    ],
+    "final": "(5, 4)"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q2#(b)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the midpoint formula",
+      "lines": [
+       {
+        "text": "The midpoint is $\\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$."
+       },
+       {
+        "tex": "D &= \\left( \\frac{4 + (-2)}{2}, \\frac{6 + 2}{2} \\right)"
+       },
+       {
+        "tex": "&= \\left( \\frac{2}{2}, \\frac{8}{2} \\right)"
+       },
+       {
+        "tex": "&= (1, 4)"
+       }
+      ]
+     }
+    ],
+    "final": "D = (1, 4)"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q4#(a)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the midpoint formula",
+      "lines": [
+       {
+        "tex": "M &= \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)"
+       },
+       {
+        "tex": "M &= \\left(\\frac{6 + (-2)}{2}, \\frac{2 + (-4)}{2}\\right)"
+       },
+       {
+        "tex": "&= \\left(\\frac{4}{2}, \\frac{-2}{2}\\right)"
+       },
+       {
+        "tex": "&= (2, -1)"
+       }
+      ]
+     }
+    ],
+    "final": "(2, -1)"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q4#(b)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the midpoint of the diagonal PR",
+      "lines": [
+       {
+        "text": "The centre of the circle is the centre of the square, which is the midpoint of $PR$."
+       },
+       {
+        "tex": "\\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right) &= \\left(\\frac{2 + 4}{2},\\ \\frac{3 + 17}{2}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Work out each co-ordinate",
+      "lines": [
+       {
+        "tex": "x &= \\frac{2 + 4}{2}"
+       },
+       {
+        "tex": "&= 3"
+       },
+       {
+        "tex": "y &= \\frac{3 + 17}{2}"
+       },
+       {
+        "tex": "&= 10"
+       }
+      ]
+     }
+    ],
+    "final": "(3, 10)"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q7#(d)(ii)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the midpoint",
+      "lines": [
+       {
+        "text": "Let the image be $(a, b)$. The point of inflection $(-2.5, 0.075)$ is the midpoint of the point and its image."
+       },
+       {
+        "tex": "\\frac{-x-5+a}{2} &= -2.5"
+       },
+       {
+        "tex": "\\frac{-y+0.15+b}{2} &= 0.075"
+       }
+      ]
+     },
+     {
+      "title": "Solve for a",
+      "lines": [
+       {
+        "tex": "-x-5+a &= -5"
+       },
+       {
+        "tex": "a &= x"
+       }
+      ]
+     },
+     {
+      "title": "Solve for b",
+      "lines": [
+       {
+        "tex": "-y+0.15+b &= 0.15"
+       },
+       {
+        "tex": "b &= y"
+       }
+      ]
+     }
+    ],
+    "final": "(x,\\ y)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "line-parallel-perp",
+   "title": "Use slopes to show/construct parallel and perpendicular lines",
+   "level": "OL",
+   "input": "lines or points",
+   "output": "m₁ = m₂ or m₁m₂ = −1; required line"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q2#(c)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the perpendicular slope rule",
+      "lines": [
+       {
+        "text": "Perpendicular lines have slopes whose product is $-1$, so the perpendicular slope is the negative reciprocal."
+       },
+       {
+        "tex": "m_{\\perp} &= -\\frac{1}{3/4}"
+       },
+       {
+        "tex": "&= -\\frac{4}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "-\\frac{4}{3}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q2#(b)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the slope of q",
+      "lines": [
+       {
+        "text": "Perpendicular lines have slopes with product $-1$. The slope of $p$ is $1$."
+       },
+       {
+        "tex": "m_1 \\times m_2 &= -1"
+       },
+       {
+        "tex": "1 \\times m_2 &= -1"
+       },
+       {
+        "tex": "m_2 &= -1"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation through O(0, 0)",
+      "lines": [
+       {
+        "tex": "y - y_1 &= m(x - x_1)"
+       },
+       {
+        "tex": "y - 0 &= -1(x - 0)"
+       },
+       {
+        "tex": "y &= -x"
+       },
+       {
+        "tex": "x + y &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "x + y = 0"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(c)(iii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the slope of k",
+      "lines": [
+       {
+        "tex": "x - y - 3 &= 0"
+       },
+       {
+        "tex": "y &= x - 3"
+       },
+       {
+        "text": "The slope of $k$ is $1$. Parallel lines have equal slopes, so the slope of $l$ is $1$."
+       }
+      ]
+     },
+     {
+      "title": "Find l through C(-3, 2) with slope 1",
+      "lines": [
+       {
+        "tex": "y - y_1 &= m(x - x_1)"
+       },
+       {
+        "tex": "y - 2 &= 1(x - (-3))"
+       },
+       {
+        "tex": "y - 2 &= x + 3"
+       },
+       {
+        "tex": "y &= x + 5"
+       }
+      ]
+     }
+    ],
+    "final": "y = x + 5"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q2#(b)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the slope of PA",
+      "lines": [
+       {
+        "text": "$A(-5,0)$, $P(-4,3)$, $B(5,0)$."
+       },
+       {
+        "tex": "m_{PA} &= \\frac{3 - 0}{-4 - (-5)}"
+       },
+       {
+        "tex": "&= \\frac{3}{1}"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     },
+     {
+      "title": "Find the slope of PB",
+      "lines": [
+       {
+        "tex": "m_{PB} &= \\frac{0 - 3}{5 - (-4)}"
+       },
+       {
+        "tex": "&= \\frac{-3}{9}"
+       },
+       {
+        "tex": "&= -\\frac{1}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the slopes",
+      "lines": [
+       {
+        "tex": "m_{PA} \\times m_{PB} &= 3 \\times \\left(-\\frac{1}{3}\\right)"
+       },
+       {
+        "tex": "&= -1"
+       },
+       {
+        "text": "The product of the slopes is $-1$, so $PA \\perp PB$ and the triangle is right-angled at $P$."
+       }
+      ]
+     }
+    ],
+    "final": "\\angle APB = 90^\\circ"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q8#(b)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Slope of [AB]",
+      "lines": [
+       {
+        "text": "Slope $= \\dfrac{y_2 - y_1}{x_2 - x_1}$, with $A(1,-2)$ and $B(4,2)$."
+       },
+       {
+        "tex": "m_{AB} &= \\frac{2-(-2)}{4-1}"
+       },
+       {
+        "tex": "&= \\frac{4}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Slope of [DE]",
+      "lines": [
+       {
+        "text": "Use $D(6,-6)$ and $E(15,6)$."
+       },
+       {
+        "tex": "m_{DE} &= \\frac{6-(-6)}{15-6}"
+       },
+       {
+        "tex": "&= \\frac{12}{9}"
+       },
+       {
+        "tex": "&= \\frac{4}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "The slopes are equal, so the segments are parallel."
+       }
+      ]
+     }
+    ],
+    "final": "m_{AB} = m_{DE} = \\frac{4}{3} \\Rightarrow [AB] \\parallel [DE]"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q2#(b)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the slope of UV",
+      "lines": [
+       {
+        "text": "$U(4, 6)$ and $V(9, 7)$."
+       },
+       {
+        "tex": "m_{UV} &= \\frac{y_2-y_1}{x_2-x_1}"
+       },
+       {
+        "tex": "&= \\frac{7-6}{9-4}"
+       },
+       {
+        "tex": "&= \\frac{1}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Find the slope of QR",
+      "lines": [
+       {
+        "text": "$Q(1, 2)$ and $R(11, 4)$."
+       },
+       {
+        "tex": "m_{QR} &= \\frac{4-2}{11-1}"
+       },
+       {
+        "tex": "&= \\frac{2}{10}"
+       },
+       {
+        "tex": "&= \\frac{1}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Compare the slopes",
+      "lines": [
+       {
+        "text": "Both slopes equal $\\frac{1}{5}$, so $UV$ and $QR$ are parallel."
+       }
+      ]
+     }
+    ],
+    "final": "UV \\parallel QR"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "line-perp-distance",
+   "title": "Find the perpendicular distance from a point to a line",
+   "level": "HL",
+   "input": "point + ax + by + c = 0",
+   "output": "|ax₁ + by₁ + c| / √(a² + b²)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-higher-p2-q3#(b)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the distance formula",
+      "lines": [
+       {
+        "text": "The distance from $(x_1, y_1)$ to $ax + by + c = 0$ is $\\dfrac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$."
+       },
+       {
+        "text": "Here $a = 3$, $b = -4$, $c = -12$ and $(x_1, y_1) = (10, k)$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "lines": [
+       {
+        "tex": "d &= \\frac{|3(10) - 4(k) - 12|}{\\sqrt{3^2 + (-4)^2}}"
+       },
+       {
+        "tex": "&= \\frac{|30 - 4k - 12|}{\\sqrt{9 + 16}}"
+       },
+       {
+        "tex": "&= \\frac{|18 - 4k|}{\\sqrt{25}}"
+       },
+       {
+        "tex": "&= \\frac{|18 - 4k|}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "d = \\dfrac{|18 - 4k|}{5}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q6#(b)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Rewrite the line in the form ax + by + c = 0",
+      "lines": [
+       {
+        "tex": "y &= \\frac{4}{3}x - 11"
+       },
+       {
+        "tex": "\\frac{4}{3}x - y - 11 &= 0"
+       },
+       {
+        "text": "So $a = \\frac{4}{3}$, $b = -1$, $c = -11$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute (5, -2) into the distance formula",
+      "lines": [
+       {
+        "text": "The distance from $(x_1, y_1)$ to $ax + by + c = 0$ is $\\dfrac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$."
+       },
+       {
+        "tex": "d &= \\frac{\\left|\\frac{4}{3}(5) + (-1)(-2) - 11\\right|}{\\sqrt{\\left(\\frac{4}{3}\\right)^2 + (-1)^2}}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate the numerator and denominator",
+      "lines": [
+       {
+        "tex": "d &= \\frac{\\left|\\frac{20}{3} + 2 - 11\\right|}{\\sqrt{\\frac{16}{9} + 1}}"
+       },
+       {
+        "tex": "d &= \\frac{\\left|-\\frac{7}{3}\\right|}{\\sqrt{\\frac{25}{9}}}"
+       },
+       {
+        "tex": "d &= \\frac{\\frac{7}{3}}{\\frac{5}{3}}"
+       },
+       {
+        "tex": "d &= \\frac{7}{5} = 1.4"
+       }
+      ]
+     }
+    ],
+    "final": "1.4 \\text{ units}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q3#(c)(i), (ii)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Distance from P to l2",
+      "lines": [
+       {
+        "text": "Use the same formula with $a = 5$, $b = 12$, $c = -20$."
+       },
+       {
+        "tex": "d_2 &= \\frac{|5(10) + 12(k) - 20|}{\\sqrt{5^2 + 12^2}}"
+       },
+       {
+        "tex": "&= \\frac{|30 + 12k|}{\\sqrt{169}}"
+       },
+       {
+        "tex": "&= \\frac{|30 + 12k|}{13}"
+       }
+      ]
+     },
+     {
+      "title": "Equate the distances",
+      "lines": [
+       {
+        "text": "$P$ is on a bisector, so it is the same distance from both lines."
+       },
+       {
+        "tex": "\\frac{|18 - 4k|}{5} &= \\frac{|30 + 12k|}{13}"
+       },
+       {
+        "tex": "13|18 - 4k| &= 5|30 + 12k|"
+       }
+      ]
+     },
+     {
+      "title": "Case 1: the insides are equal",
+      "lines": [
+       {
+        "tex": "13(18 - 4k) &= 5(30 + 12k)"
+       },
+       {
+        "tex": "234 - 52k &= 150 + 60k"
+       },
+       {
+        "tex": "84 &= 112k"
+       },
+       {
+        "tex": "k &= \\frac{3}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Case 2: the insides are opposite",
+      "lines": [
+       {
+        "tex": "13(18 - 4k) &= -5(30 + 12k)"
+       },
+       {
+        "tex": "234 - 52k &= -150 - 60k"
+       },
+       {
+        "tex": "384 &= -8k"
+       },
+       {
+        "tex": "k &= -48"
+       },
+       {
+        "text": "So $k = \\frac{3}{4}$ or $k = -48$."
+       }
+      ]
+     },
+     {
+      "title": "(ii) Distance from P to l1 when k = 3/4",
+      "lines": [
+       {
+        "tex": "d &= \\frac{|18 - 4k|}{5}"
+       },
+       {
+        "tex": "&= \\frac{|18 - 3|}{5}"
+       },
+       {
+        "tex": "&= \\frac{15}{5}"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     }
+    ],
+    "final": "k = \\dfrac{3}{4} \\text{ or } k = -48; \\quad d = 3"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write s in terms of t using the first line",
+      "lines": [
+       {
+        "tex": "s - 2t - 8 &= 0"
+       },
+       {
+        "tex": "s &= 2t + 8"
+       }
+      ]
+     },
+     {
+      "title": "Use the distance from a point to a line formula",
+      "lines": [
+       {
+        "text": "Distance from $(s,t)$ to $4x + 3y + 6 = 0$ is 1."
+       },
+       {
+        "tex": "\\frac{|4s + 3t + 6|}{\\sqrt{4^2 + 3^2}} &= 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute s = 2t + 8",
+      "lines": [
+       {
+        "tex": "\\frac{|4(2t+8) + 3t + 6|}{\\sqrt{4^2+3^2}} &= 1"
+       },
+       {
+        "tex": "\\frac{|8t + 32 + 3t + 6|}{5} &= 1"
+       },
+       {
+        "tex": "|11t + 38| &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Remove the modulus and solve for t",
+      "lines": [
+       {
+        "tex": "11t + 38 &= 5 \\text{ or } 11t + 38 = -5"
+       },
+       {
+        "tex": "t &= -3 \\text{ or } t = -\\frac{43}{11}"
+       }
+      ]
+     },
+     {
+      "title": "Find s for each value of t",
+      "lines": [
+       {
+        "tex": "s &= 2(-3) + 8"
+       },
+       {
+        "tex": "&= 2"
+       },
+       {
+        "tex": "s &= 2\\left(-\\frac{43}{11}\\right) + 8"
+       },
+       {
+        "tex": "&= \\frac{2}{11}"
+       }
+      ]
+     }
+    ],
+    "final": "(s, t) = (2, -3) \\text{ or } \\left(\\frac{2}{11}, -\\frac{43}{11}\\right)"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q4#(a)(ii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the distance from a point to a line",
+      "lines": [
+       {
+        "text": "For the line $ax + by + c = 0$ and the point $(x_1, y_1)$:"
+       },
+       {
+        "tex": "d &= \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}"
+       },
+       {
+        "text": "Here $a = 1$, $b = -4$, $c = 7$, and the point is the centre $(h, -3)$."
+       }
+      ]
+     },
+     {
+      "title": "Set the distance equal to 5",
+      "lines": [
+       {
+        "tex": "\\frac{|h - 4(-3) + 7|}{\\sqrt{1^2 + (-4)^2}} &= 5"
+       },
+       {
+        "tex": "\\frac{|h - 4(-3) + 7|}{\\sqrt{17}} &= 5"
+       },
+       {
+        "tex": "\\frac{|h + 12 + 7|}{\\sqrt{17}} &= 5"
+       },
+       {
+        "tex": "\\frac{|h + 19|}{\\sqrt{17}} &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Multiply both sides by the square root",
+      "lines": [
+       {
+        "tex": "|h + 19| &= 5\\sqrt{17}"
+       }
+      ]
+     },
+     {
+      "title": "Remove the modulus using both signs",
+      "lines": [
+       {
+        "text": "$|A| = k$ means $A = k$ or $A = -k$."
+       },
+       {
+        "tex": "h + 19 &= 5\\sqrt{17} \\text{ or } h + 19 = -5\\sqrt{17}"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 19 in each case",
+      "lines": [
+       {
+        "tex": "h &= 5\\sqrt{17} - 19 \\text{ or } h = -5\\sqrt{17} - 19"
+       }
+      ]
+     }
+    ],
+    "final": "h = 5\\sqrt{17} - 19 \\text{ or } h = -5\\sqrt{17} - 19"
+   }
+  ]
+ }
+]

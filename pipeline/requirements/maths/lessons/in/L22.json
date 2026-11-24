@@ -1,0 +1,1098 @@
+[
+ {
+  "skill": {
+   "id": "inf-margin-of-error",
+   "title": "Calculate the margin of error for a proportion",
+   "level": "OL",
+   "input": "n",
+   "output": "1/√n"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(c)(i)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the margin of error formula",
+      "lines": [
+       {
+        "text": "Margin of error $= \\dfrac{1}{\\sqrt{n}}$ with $n = 1200$."
+       },
+       {
+        "tex": "\\frac{1}{\\sqrt{1200}} &= 0.02887"
+       },
+       {
+        "tex": "&= 2.887\\%"
+       },
+       {
+        "tex": "&\\approx 3\\%"
+       }
+      ]
+     }
+    ],
+    "final": "3\\%"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q9#(b)(i)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the margin of error formula",
+      "lines": [
+       {
+        "tex": "\\text{MOE} &= \\frac{1}{\\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{1560}}"
+       },
+       {
+        "tex": "&= 0.025318"
+       },
+       {
+        "tex": "&\\approx 2.5\\%"
+       }
+      ]
+     }
+    ],
+    "final": "2.5\\%"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(b)(i)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the margin of error formula",
+      "lines": [
+       {
+        "text": "Margin of error for a proportion is $\\frac{1}{\\sqrt{n}}$, with $n = 355$."
+       },
+       {
+        "tex": "\\text{Margin} &= \\frac{1}{\\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{355}}"
+       },
+       {
+        "tex": "&= 0.05307"
+       },
+       {
+        "tex": "&= 5.307\\%"
+       },
+       {
+        "text": "To 1 decimal place this is $5.3\\%$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Margin of error} = 5.3\\%"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q8#(c)(i)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the margin of error formula",
+      "lines": [
+       {
+        "text": "The margin of error is $\\dfrac{1}{\\sqrt{n}}$, with $n = 815$."
+       },
+       {
+        "tex": "\\text{margin of error} &= \\frac{1}{\\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{815}}"
+       },
+       {
+        "tex": "&= 0.035028\\ldots"
+       },
+       {
+        "tex": "&\\approx 3.5\\%"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{margin of error} = 3.5\\%"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q6#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "text": "The margin of error is $E = \\frac{1}{\\sqrt{n}}$, where $n = 1000$ is the sample size."
+       },
+       {
+        "tex": "E &= \\frac{1}{\\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{1000}}"
+       },
+       {
+        "tex": "&= 0.0316\\ldots"
+       },
+       {
+        "tex": "&= 3.2\\%"
+       }
+      ]
+     },
+     {
+      "title": "Write the 95% confidence interval",
+      "lines": [
+       {
+        "text": "The interval is $\\hat{p} - E \\le p \\le \\hat{p} + E$, with $\\hat{p} = 54\\%$."
+       },
+       {
+        "tex": "54 - 3.2 &\\le p \\le 54 + 3.2"
+       },
+       {
+        "tex": "50.8 &\\le p \\le 57.2"
+       }
+      ]
+     }
+    ],
+    "final": "E = 3.2\\%, \\quad 50.8\\% \\le p \\le 57.2\\%"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(c)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the sample proportion as a percentage",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{578}{1200} \\times 100"
+       },
+       {
+        "tex": "&= 48.17"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract the margin of error",
+      "lines": [
+       {
+        "text": "The confidence interval is $\\hat{p} \\pm$ margin of error."
+       },
+       {
+        "tex": "48.17 - 3 < p &< 48.17 + 3"
+       },
+       {
+        "tex": "45.17 < p &< 51.17"
+       }
+      ]
+     }
+    ],
+    "final": "45.17\\% < p < 51.17\\%"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-p-value",
+   "title": "Calculate and interpret a p-value",
+   "level": "HL",
+   "input": "test statistic",
+   "output": "p-value; compare with 0.05"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p2-q8#(b)(i)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the p-value with the significance level",
+      "lines": [
+       {
+        "text": "The significance level is 5%, which is $0.05$."
+       },
+       {
+        "text": "The p-value $0.024$ is less than $0.05$, so we reject the null hypothesis that the average speed is unchanged."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The average speed has changed, because } p = 0.024 < 0.05."
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q8#(b)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the two-tailed p-value",
+      "lines": [
+       {
+        "text": "Round $|z|$ to $1.79$. The test is two-tailed, so $p = 2\\left[1 - P(z < 1.79)\\right]$."
+       },
+       {
+        "text": "From the tables, $P(z < 1.79) = 0.9633$."
+       },
+       {
+        "tex": "p &= 2(1 - 0.9633)"
+       },
+       {
+        "tex": "&= 2(0.0367)"
+       },
+       {
+        "tex": "&= 0.0734"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the 5% level and conclude",
+      "lines": [
+       {
+        "text": "$0.0734 > 0.05$, so we do not reject the null hypothesis."
+       },
+       {
+        "text": "There is not enough evidence to say the news report's claim of 21 hours is incorrect."
+       }
+      ]
+     }
+    ],
+    "final": "p = 0.0734; \\text{ not enough evidence to reject the claim}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q2#(c)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the probability in the tail",
+      "lines": [
+       {
+        "text": "Because the test is two-tailed, $p$ is twice the area below $z = -1.71$."
+       },
+       {
+        "tex": "P(z < -1.71) &= 1 - P(z < 1.71)"
+       },
+       {
+        "tex": "&= 1 - 0.9564"
+       },
+       {
+        "tex": "&= 0.0436"
+       }
+      ]
+     },
+     {
+      "title": "Double it for both tails",
+      "lines": [
+       {
+        "tex": "p &= 2 \\times 0.0436"
+       },
+       {
+        "tex": "&= 0.0872"
+       }
+      ]
+     },
+     {
+      "title": "Explain what it represents",
+      "lines": [
+       {
+        "text": "If the true mean spend really were $\\text{€}94$, there would be about an 8.72% chance of getting a sample mean at least as far from $\\text{€}94$ as $\\text{€}90.45$ (that is, $\\text{€}90.45$ or less, or $\\text{€}97.55$ or more)."
+       },
+       {
+        "text": "Since $0.0872 > 0.05$, this is not unusual enough to reject $H_0$."
+       }
+      ]
+     }
+    ],
+    "final": "p = 0.0872"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-sampling-distribution",
+   "title": "Use the sampling distribution of the mean",
+   "level": "HL",
+   "input": "μ, σ, n (or simulation)",
+   "output": "mean μ, standard error σ/√n; probabilities for x̄"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p2-q9#(c)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Give a reason",
+      "lines": [
+       {
+        "text": "Farm size is not normally distributed, but the sampling distribution of the sample means from many large samples will be approximately normal (central limit theorem)."
+       },
+       {
+        "text": "So normal-distribution methods, such as confidence intervals, can be used for the mean farm size."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The distribution of sample means will be normally distributed.}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q8#(b)(i)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the z-score of a sample mean",
+      "lines": [
+       {
+        "text": "$z = \\dfrac{\\bar{x} - \\mu}{s/\\sqrt{n}}$ with $\\bar{x} = 19.8$, $\\mu = 21$, $s = 5.2$, $n = 60$."
+       },
+       {
+        "tex": "z &= \\frac{19.8 - 21}{5.2/\\sqrt{60}}"
+       },
+       {
+        "tex": "&= \\frac{-1.2}{0.6713...}"
+       },
+       {
+        "tex": "&= -1.787"
+       }
+      ]
+     }
+    ],
+    "final": "z = -1.787"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(d)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Convert the total weight to an average weight",
+      "lines": [
+       {
+        "text": "The total is over 3000 kg exactly when the average of the 40 passengers is over $3000 \\div 40$."
+       },
+       {
+        "tex": "\\bar{x} &= \\frac{3000}{40}"
+       },
+       {
+        "tex": "&= 75"
+       }
+      ]
+     },
+     {
+      "title": "Find the z-score of the sample mean",
+      "lines": [
+       {
+        "text": "For means of samples of 40: $\\mu = 73$ and standard error $\\sigma/\\sqrt{n} = 12/\\sqrt{40}$."
+       },
+       {
+        "tex": "z &= \\frac{75 - 73}{12 / \\sqrt{40}}"
+       },
+       {
+        "tex": "&= \\frac{2}{1.8974}"
+       },
+       {
+        "tex": "&= 1.054"
+       }
+      ]
+     },
+     {
+      "title": "Find the probability",
+      "lines": [
+       {
+        "text": "From the tables, $P(Z < 1.054) = 0.8531$."
+       },
+       {
+        "tex": "P(Z > 1.054) &= 1 - P(Z < 1.054)"
+       },
+       {
+        "tex": "&= 1 - 0.8531"
+       },
+       {
+        "tex": "&= 0.1469"
+       },
+       {
+        "tex": "&= 14.69\\%"
+       }
+      ]
+     }
+    ],
+    "final": "14.69\\%"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q8#(a)(i)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Find the standard error of the sample mean",
+      "lines": [
+       {
+        "text": "For samples of size $n$, the sample mean has mean $4.64$ and standard error $\\frac{\\sigma}{\\sqrt{n}}$."
+       },
+       {
+        "tex": "\\frac{\\sigma}{\\sqrt{n}} &= \\frac{0.12}{\\sqrt{10}}"
+       },
+       {
+        "tex": "&\\approx 0.03795"
+       }
+      ]
+     },
+     {
+      "title": "Convert 4.6 to a z-score",
+      "lines": [
+       {
+        "tex": "z_1 &= \\frac{4.6 - 4.64}{0.12/\\sqrt{10}}"
+       },
+       {
+        "tex": "&= \\frac{-0.04}{0.03795}"
+       },
+       {
+        "tex": "&\\approx -1.05"
+       }
+      ]
+     },
+     {
+      "title": "Convert 4.7 to a z-score",
+      "lines": [
+       {
+        "tex": "z_2 &= \\frac{4.7 - 4.64}{0.12/\\sqrt{10}}"
+       },
+       {
+        "tex": "&= \\frac{0.06}{0.03795}"
+       },
+       {
+        "tex": "&\\approx 1.58"
+       }
+      ]
+     },
+     {
+      "title": "Use the normal tables",
+      "lines": [
+       {
+        "tex": "P(4.6 < \\bar{x} < 4.7) &= P(-1.05 < z < 1.58)"
+       },
+       {
+        "text": "From the tables, $P(z < 1.58) = 0.9429$ and $P(z < 1.05) = 0.8531$, so $P(z < -1.05) = 1 - 0.8531$."
+       },
+       {
+        "tex": "&= 0.9429 - (1 - 0.8531)"
+       },
+       {
+        "tex": "&= 0.9429 - 0.1469"
+       },
+       {
+        "tex": "&= 0.796"
+       }
+      ]
+     }
+    ],
+    "final": "0.796"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-z-test",
+   "title": "Perform a two-tailed z-test of a population mean",
+   "level": "HL",
+   "input": "H₀ μ, x̄, σ, n",
+   "output": "z statistic vs ±1.96; conclusion"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p2-q8#(b)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the p-value to find z",
+      "lines": [
+       {
+        "text": "The test is for a change in either direction, so it is two-tailed."
+       },
+       {
+        "tex": "0.024 &= 2\\big(1 - P(Z \\le |z|)\\big)"
+       },
+       {
+        "tex": "1 - P(Z \\le |z|) &= 0.012"
+       },
+       {
+        "tex": "P(Z \\le |z|) &= 0.988"
+       },
+       {
+        "text": "The tables give $|z| = 2.26$. The sample mean is lower than $87.3$, so $z = -2.26$."
+       }
+      ]
+     },
+     {
+      "title": "Use the z-score formula for a sample mean",
+      "lines": [
+       {
+        "text": "For a sample of 100 the standard error is $\\dfrac{12}{\\sqrt{100}} = 1.2$."
+       },
+       {
+        "tex": "-2.26 &= \\frac{\\bar{x} - 87.3}{12/\\sqrt{100}}"
+       },
+       {
+        "tex": "-2.26 &= \\frac{\\bar{x} - 87.3}{1.2}"
+       },
+       {
+        "tex": "\\bar{x} - 87.3 &= -2.712"
+       },
+       {
+        "tex": "\\bar{x} &= 84.588"
+       },
+       {
+        "tex": "&\\approx 84.6"
+       }
+      ]
+     }
+    ],
+    "final": "84.6 \\text{ km/h}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(c)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "$H_0$: the mean weight of carry-on luggage has not changed ($\\mu = 12$ kg)."
+       },
+       {
+        "text": "$H_1$: the mean weight of carry-on luggage has changed ($\\mu \\ne 12$ kg)."
+       }
+      ]
+     },
+     {
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "tex": "z &= \\frac{\\bar{x} - \\mu}{\\sigma / \\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{13.1 - 12}{4.5 / \\sqrt{80}}"
+       },
+       {
+        "tex": "&= \\frac{1.1}{0.5031}"
+       },
+       {
+        "tex": "&= 2.186"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the critical value and conclude",
+      "lines": [
+       {
+        "text": "At the 5% level (two-tailed) the critical values are $\\pm 1.96$."
+       },
+       {
+        "tex": "2.186 &> 1.96"
+       },
+       {
+        "text": "$z$ is outside $-1.96 \\le z \\le 1.96$, so reject $H_0$. There is evidence that the mean weight of carry-on luggage has changed."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0\\text{: the mean weight of carry-on luggage has changed}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "tex": "H_0:\\ \\mu &= 94"
+       },
+       {
+        "text": "The null hypothesis $H_0$: the mean spend is $\\text{€}94$ (the supermarket is right)."
+       },
+       {
+        "tex": "H_1:\\ \\mu &\\ne 94"
+       },
+       {
+        "text": "The alternative hypothesis $H_1$: the mean spend is not $\\text{€}94$."
+       }
+      ]
+     },
+     {
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "text": "Use $z = \\dfrac{\\bar{x} - \\mu}{s / \\sqrt{n}}$."
+       },
+       {
+        "tex": "z &= \\frac{90.45 - 94}{20.73 / \\sqrt{100}}"
+       },
+       {
+        "tex": "&= \\frac{-3.55}{2.073}"
+       },
+       {
+        "tex": "&= -1.71"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the 5% critical values",
+      "lines": [
+       {
+        "text": "At the 5% level (two-tailed) the critical values are $\\pm 1.96$."
+       },
+       {
+        "tex": "-1.96 &< -1.71 < 1.96"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$z$ lies between $-1.96$ and $1.96$, so we do not reject $H_0$. There is not enough evidence to reject $H_0$ (the claim of $\\text{€}94$)."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Do not reject } H_0\\ (z = -1.71).\\ \\text{There is not enough evidence to reject } H_0 \\text{ (the claim of } \\text{€}94\\text{).}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q9#(a)(iii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "The population mean was $\\text{€}39\\,400$. We test whether it has changed (either direction), so the test is two-tailed."
+       },
+       {
+        "tex": "H_0:\\ \\mu &= 39400"
+       },
+       {
+        "tex": "H_1:\\ \\mu &\\ne 39400"
+       }
+      ]
+     },
+     {
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "text": "The sample has $n = 1000$ and $\\bar{x} = 38\\,280$; $\\sigma = 12\\,920$."
+       },
+       {
+        "tex": "z &= \\frac{\\bar{x} - \\mu}{\\sigma/\\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{38280 - 39400}{12920/\\sqrt{1000}}"
+       },
+       {
+        "tex": "&= \\frac{-1120}{12920/\\sqrt{1000}}"
+       },
+       {
+        "tex": "&= \\frac{-1120}{408.57}"
+       },
+       {
+        "tex": "&\\approx -2.74"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the 5% critical values",
+      "lines": [
+       {
+        "text": "At the $5\\%$ level, two-tailed, the critical values are $\\pm 1.96$."
+       },
+       {
+        "tex": "-2.74 &< -1.96"
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "lines": [
+       {
+        "text": "$z$ lies outside $[-1.96, 1.96]$, so the result is significant. Reject $H_0$."
+       },
+       {
+        "text": "There is evidence that the mean annual income of full-time workers has changed since the national data were published."
+       }
+      ]
+     }
+    ],
+    "final": "z = -2.74 < -1.96\\text{, so reject } H_0\\text{: the mean income has changed}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q5#(b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "We test whether the mean differs from the 2019 figure in either direction, so the test is two-tailed."
+       },
+       {
+        "tex": "H_0: \\mu &= 20.79"
+       },
+       {
+        "text": "Null hypothesis: the mean monthly spend has not changed."
+       },
+       {
+        "tex": "H_1: \\mu &\\neq 20.79"
+       },
+       {
+        "text": "Alternative hypothesis: the mean monthly spend has changed."
+       }
+      ]
+     },
+     {
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "text": "Use $z = \\dfrac{\\bar{x} - \\mu}{\\sigma/\\sqrt{n}}$ with $\\bar{x} = 22.16$, $\\sigma = 8.12$ (the sample standard deviation) and $n = 500$."
+       },
+       {
+        "tex": "z &= \\frac{22.16 - 20.79}{8.12/\\sqrt{500}}"
+       },
+       {
+        "tex": "z &= \\frac{1.37}{8.12/\\sqrt{500}}"
+       },
+       {
+        "tex": "z &\\approx 3.7726"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the critical value",
+      "lines": [
+       {
+        "text": "At the 5% level, two-tailed, the critical values are $\\pm 1.96$."
+       },
+       {
+        "tex": "3.7726 &> 1.96"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion and reason",
+      "lines": [
+       {
+        "text": "Conclusion: reject $H_0$. The mean monthly spend has changed."
+       },
+       {
+        "text": "Reason: $z = 3.7726$ lies outside $-1.96 \\le z \\le 1.96$, so the result is significant at the 5% level."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0\\text{: the mean monthly spend has changed, since } 3.7726 > 1.96"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q10#(c)(i), (ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the test statistic (z-score) for country Y",
+      "lines": [
+       {
+        "text": "For country Y: $\\bar{x} = 403$, $\\mu = 400$, $s = 70.6$, $n = 2724$."
+       },
+       {
+        "tex": "z &= \\frac{\\bar{x} - \\mu}{s / \\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{403 - 400}{70.6 / \\sqrt{2724}}"
+       },
+       {
+        "tex": "&= 2.2178\\ldots"
+       },
+       {
+        "tex": "&\\approx 2.22"
+       }
+      ]
+     },
+     {
+      "title": "Look up the probability below this z-score",
+      "lines": [
+       {
+        "tex": "P(z < 2.22) &= 0.9868"
+       }
+      ]
+     },
+     {
+      "title": "Find the p-value for a two-tailed test",
+      "lines": [
+       {
+        "text": "The alternative hypothesis is \"not 400\", so both tails count. Double the tail area."
+       },
+       {
+        "tex": "p &= 2(1 - 0.9868)"
+       },
+       {
+        "tex": "&= 2(0.0132)"
+       },
+       {
+        "tex": "&= 0.0264"
+       }
+      ]
+     },
+     {
+      "title": "Compare with 5% and state the conclusion",
+      "lines": [
+       {
+        "text": "$p = 0.0264 < 0.05$, so reject the null hypothesis."
+       },
+       {
+        "text": "The mean score for country Y is significantly different from 400."
+       }
+      ]
+     }
+    ],
+    "final": "z = 2.22,\\quad p = 0.0264;\\ \\text{the mean score for country Y is significantly different from 400}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-empirical-rule",
+   "title": "Make decisions with the empirical rule",
+   "level": "OL",
+   "input": "μ, σ",
+   "output": "68% / 95% / 99.7% ranges"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(d)(i)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the Empirical Rule",
+      "lines": [
+       {
+        "text": "About 95% of values lie within 2 standard deviations of the mean: $\\bar{x} \\pm 2\\sigma$."
+       },
+       {
+        "tex": "166.7 - 2(8.9) &\\le h \\le 166.7 + 2(8.9)"
+       },
+       {
+        "tex": "148.9 &\\le h \\le 184.5"
+       }
+      ]
+     }
+    ],
+    "final": "148.9 \\le h \\le 184.5"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q3#(b)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the boundaries one standard deviation from the mean",
+      "lines": [
+       {
+        "text": "The shaded area runs from $\\mu - \\sigma$ to $\\mu + \\sigma$, with $\\mu = 480$ and $\\sigma = 90$."
+       },
+       {
+        "tex": "A &= 480 - 90"
+       },
+       {
+        "tex": "&= 390"
+       },
+       {
+        "tex": "B &= 480 + 90"
+       },
+       {
+        "tex": "&= 570"
+       }
+      ]
+     }
+    ],
+    "final": "A = 390,\\ B = 570"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q5#(a)(ii), (iii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "(ii) Scores between 70 and 130",
+      "lines": [
+       {
+        "text": "$70 = 100 - 2(15)$ and $130 = 100 + 2(15)$, so this is within 2 standard deviations of the mean."
+       },
+       {
+        "text": "The Empirical Rule says about 95% of values lie within 2 standard deviations."
+       },
+       {
+        "tex": "P(70 < X < 130) &= 0.95"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Scores between 85 and 115",
+      "lines": [
+       {
+        "text": "$85 = 100 - 15$ and $115 = 100 + 15$, so this is within 1 standard deviation of the mean."
+       },
+       {
+        "text": "The Empirical Rule says about 68% of values lie within 1 standard deviation."
+       },
+       {
+        "tex": "\\text{Number} &= 0.68 \\times 1200"
+       },
+       {
+        "tex": "&= 816"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(ii) } 0.95 \\qquad \\text{(iii) } 816 \\text{ people}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q7#(c)(iii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the interval within one standard deviation",
+      "lines": [
+       {
+        "text": "Add and subtract the standard deviation from the mean."
+       },
+       {
+        "tex": "112 - 51 &= 61"
+       },
+       {
+        "tex": "112 + 51 &= 163"
+       },
+       {
+        "text": "So the interval is $[61, 163]$."
+       }
+      ]
+     },
+     {
+      "title": "List the countries outside the interval",
+      "lines": [
+       {
+        "text": "Meat values below 61 are Macedonia (56) and Poland (54). The value above 163 is Switzerland (254)."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Macedonia, Poland and Switzerland}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q3#(b)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the Empirical Rule",
+      "lines": [
+       {
+        "text": "About $68\\%$ of values lie within one standard deviation of the mean."
+       }
+      ]
+     },
+     {
+      "title": "Find 68% of the candidates",
+      "lines": [
+       {
+        "tex": "\\text{Candidates} &= 68\\% \\times 6500"
+       },
+       {
+        "tex": "&= 4420"
+       }
+      ]
+     }
+    ],
+    "final": "4420"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q5#(a)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the mean",
+      "lines": [
+       {
+        "text": "By the empirical rule, 95% of values lie within $2\\sigma$ of the mean, so the range is $\\mu - 2\\sigma$ to $\\mu + 2\\sigma$."
+       },
+       {
+        "text": "The mean is halfway between the ends of the range."
+       },
+       {
+        "tex": "\\mu &= \\frac{147.9 + 178.7}{2}"
+       },
+       {
+        "tex": "&= \\frac{326.6}{2}"
+       },
+       {
+        "tex": "&= 163.3"
+       }
+      ]
+     },
+     {
+      "title": "Find the standard deviation",
+      "lines": [
+       {
+        "text": "The top of the range is $\\mu + 2\\sigma$."
+       },
+       {
+        "tex": "2\\sigma &= 178.7 - 163.3"
+       },
+       {
+        "tex": "2\\sigma &= 15.4"
+       },
+       {
+        "tex": "\\sigma &= 7.7"
+       }
+      ]
+     }
+    ],
+    "final": "\\mu = 163.3 \\text{ cm},\\ \\sigma = 7.7 \\text{ cm}"
+   }
+  ]
+ }
+]

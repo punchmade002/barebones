@@ -1,0 +1,354 @@
+[
+{"skill": "diff-poly", "problems": [
+ {"part": "maths-pp-2022-ordinary-p1-q4#(a)(ii)", "note": null,
+  "legend": {"1": "the x³ term, becoming 3x²", "2": "the −7x² term, becoming −14x", "3": "the x term, becoming 1"},
+  "steps": [
+   {"ask": "Apply the power rule to each term. What comes down in front, and what happens to the power? What happens to the −12?", "title": "Differentiate term by term",
+    "lines": [
+     {"text": "Use $\\frac{d}{dx}(x^n) = nx^{n-1}$ and the derivative of a constant is $0$."},
+     {"tex": "g(x) &= \\hl{1}{x^3} \\hl{2}{- 7x^2} + \\hl{3}{x} - 12"},
+     {"tex": "g'(x) &= \\hl{1}{3x^2} \\hl{2}{- 14x} + \\hl{3}{1}"}
+    ]}
+  ],
+  "final": "g'(x) = \\hl{1}{3x^2} \\hl{2}{- 14x} + \\hl{3}{1}",
+  "graph": null},
+ {"part": "maths-pp-2018-ordinary-p1-q8#(e)(i)", "note": "The rule is the same, but this function is a cost in t rather than bare algebra in x, and its cubic term is negative.",
+  "legend": {"1": "the cubic term, −t³, becoming −3t²", "2": "the t² term, 4.5t², becoming 9t", "3": "the t term, 54t, becoming 54"},
+  "steps": [
+   {"ask": "Take each term of C(t) in turn. What is the new power of t and the new coefficient for each one?", "title": "Differentiate each term",
+    "lines": [
+     {"text": "Use $\\frac{d}{dt}\\left(at^n\\right) = nat^{n-1}$."},
+     {"tex": "C(t) &= \\hl{1}{-t^3} + \\hl{2}{4.5t^2} + \\hl{3}{54t}"},
+     {"tex": "C'(t) &= \\hl{1}{-3t^2} + \\hl{2}{9t} + \\hl{3}{54}"}
+    ]}
+  ],
+  "final": "C'(t) = \\hl{1}{-3t^2} + \\hl{2}{9t} + \\hl{3}{54}",
+  "graph": null},
+ {"part": "maths-pp-2016-ordinary-p1-q4#(c)(i)", "note": "The function is bare algebra again, with a constant 7, and the question then asks for a slope, which adds a second step.",
+  "legend": {"1": "the x³ term, becoming 3x²", "2": "the x² term, becoming 2x", "3": "the −2x term, becoming −2", "4": "the slope at x = 1"},
+  "steps": [
+   {"ask": "Differentiate each term of f(x) in turn. What do you do with the constant 7?", "title": "Differentiate each term",
+    "lines": [
+     {"text": "Use $\\frac{d}{dx}(x^n) = nx^{n-1}$; the derivative of a constant is $0$."},
+     {"tex": "f(x) &= \\hl{1}{x^3} + \\hl{2}{x^2} \\hl{3}{- 2x} + 7"},
+     {"tex": "f'(x) &= \\hl{1}{3x^2} + \\hl{2}{2x} \\hl{3}{- 2}"}
+    ]},
+   {"ask": "The slope is f′ at x = 1, not f itself. Which function do you put x = 1 into?", "title": "Substitute x = 1 to find the slope",
+    "lines": [
+     {"tex": "\\hl{4}{f'(1)} &= 3(1)^2 + 2(1) - 2"},
+     {"tex": "&= 3 + 2 - 2"},
+     {"tex": "&= \\hl{4}{3}"}
+    ]}
+  ],
+  "final": "f'(x) = \\hl{1}{3x^2} + \\hl{2}{2x} \\hl{3}{- 2}, \\quad \\text{slope} = \\hl{4}{3}",
+  "graph": null}
+]},
+{"skill": "diff-product", "problems": [
+ {"part": "maths-pp-2023-higher-p1-q5#(b)", "note": null,
+  "legend": {"1": "u, the factor tan(x/2)", "2": "v, the factor ln x", "3": "u′, the derivative of u", "4": "v′, the derivative of v"},
+  "steps": [
+   {"ask": "g(x) is two functions multiplied together. Which is u, which is v, and what is the derivative of each?", "title": "Name the two factors and differentiate each",
+    "lines": [
+     {"text": "$g(x)$ is a product, so use the product rule with $u$ and $v$."},
+     {"tex": "u &= \\hl{1}{\\tan\\frac{x}{2}}"},
+     {"tex": "\\hl{3}{\\frac{du}{dx}} &= \\hl{3}{\\frac12\\sec^2\\frac{x}{2}}"},
+     {"tex": "v &= \\hl{2}{\\ln x}"},
+     {"tex": "\\hl{4}{\\frac{dv}{dx}} &= \\hl{4}{\\frac1x}"}
+    ]},
+   {"ask": "When two functions are multiplied, how do u, v and their derivatives combine? Write the formula before checking.", "title": "Apply the product rule",
+    "lines": [
+     {"text": "$g'(x) = \\hl{1}{u}\\,\\hl{4}{\\frac{dv}{dx}} + \\hl{2}{v}\\,\\hl{3}{\\frac{du}{dx}}$"},
+     {"tex": "g'(x) &= \\hl{1}{\\tan\\frac{x}{2}}\\cdot\\hl{4}{\\frac1x} + \\hl{2}{\\ln x}\\cdot\\hl{3}{\\frac12\\sec^2\\frac{x}{2}}"}
+    ]},
+   {"ask": "Put x = π/2 into the expression for g′(x). What does the angle x/2 become?", "title": "Substitute x = π/2",
+    "lines": [
+     {"tex": "g'\\left(\\frac{\\pi}{2}\\right) &= \\hl{1}{\\tan\\frac{\\pi}{4}}\\cdot\\hl{4}{\\frac{1}{\\pi/2}} + \\hl{2}{\\ln\\frac{\\pi}{2}}\\cdot\\hl{3}{\\frac12\\sec^2\\frac{\\pi}{4}}"}
+    ]},
+   {"ask": "What are tan(π/4) and sec²(π/4) exactly? Use exact values, not decimals.", "title": "Evaluate the trig values",
+    "lines": [
+     {"text": "$\\tan\\frac{\\pi}{4} = 1$ and $\\sec^2\\frac{\\pi}{4} = \\frac{1}{(1/\\sqrt{2})^2} = 2$."},
+     {"tex": "&= \\hl{1}{1}\\cdot\\hl{4}{\\frac{2}{\\pi}} + \\hl{2}{\\ln\\frac{\\pi}{2}}\\cdot\\hl{3}{\\frac12\\cdot 2}"},
+     {"tex": "&= \\hl{4}{\\frac{2}{\\pi}} + \\hl{2}{\\ln\\frac{\\pi}{2}}"}
+    ]}
+  ],
+  "final": "g'\\left(\\frac{\\pi}{2}\\right) = \\hl{4}{\\frac{2}{\\pi}} + \\hl{2}{\\ln\\frac{\\pi}{2}}",
+  "graph": null},
+ {"part": "maths-pp-2016-higher-p1-q6#(b)(i), (ii)", "note": "Same product rule, but the second factor is a sine of 1/x, so v′ needs the chain rule, and the final step is in radians.",
+  "legend": {"1": "u, the factor x", "2": "v, the factor sin(1/x)", "3": "u′, the derivative of u, equal to 1", "4": "v′, the derivative of v"},
+  "steps": [
+   {"ask": "Name the two factors in y. Which one is u, which is v, and what is du/dx?", "title": "Set up the product rule",
+    "lines": [
+     {"text": "$y = uv$ with $u = \\hl{1}{x}$ and $v = \\hl{2}{\\sin\\left(\\frac{1}{x}\\right)}$, so $\\frac{dy}{dx} = \\hl{1}{u}\\hl{4}{\\frac{dv}{dx}} + \\hl{2}{v}\\hl{3}{\\frac{du}{dx}}$."},
+     {"tex": "\\hl{3}{\\frac{du}{dx}} &= \\hl{3}{1}"}
+    ]},
+   {"ask": "sin(1/x) is a function inside a function. What do you differentiate first, and what does the chain rule multiply by?", "title": "Differentiate v with the chain rule",
+    "lines": [
+     {"text": "Write $\\frac{1}{x} = x^{-1}$, which differentiates to $-\\frac{1}{x^2}$."},
+     {"tex": "\\hl{4}{\\frac{dv}{dx}} &= \\hl{4}{\\cos\\left(\\frac{1}{x}\\right)\\left(-\\frac{1}{x^2}\\right)}"}
+    ]},
+   {"ask": "Put u, v, du/dx and dv/dx into the product rule. What is dy/dx before simplifying?", "title": "Combine",
+    "lines": [
+     {"tex": "\\frac{dy}{dx} &= \\hl{1}{x}\\hl{4}{\\cos\\left(\\frac{1}{x}\\right)\\left(-\\frac{1}{x^2}\\right)} + \\hl{2}{\\sin\\left(\\frac{1}{x}\\right)}\\hl{3}{(1)}"},
+     {"tex": "&= \\hl{2}{\\sin\\left(\\frac{1}{x}\\right)} - \\frac{1}{x}\\cos\\left(\\frac{1}{x}\\right)"}
+    ]},
+   {"ask": "When x = 4/π, what is 1/x? Substitute it into both terms.", "title": "Substitute x = 4/pi",
+    "lines": [
+     {"text": "When $x = \\frac{4}{\\pi}$, $\\frac{1}{x} = \\frac{\\pi}{4}$."},
+     {"tex": "\\frac{dy}{dx} &= \\hl{2}{\\sin\\frac{\\pi}{4}} - \\frac{\\pi}{4}\\cos\\frac{\\pi}{4}"}
+    ]},
+   {"ask": "Which angle mode must the calculator be in for sin(π/4), and what decimal do you get?", "title": "Evaluate in radians",
+    "lines": [
+     {"text": "Put the calculator in radian mode."},
+     {"tex": "\\frac{dy}{dx} &= \\hl{2}{0.7071} - 0.5554"},
+     {"tex": "&\\approx 0.15"}
+    ]}
+  ],
+  "final": "0.15",
+  "graph": null},
+ {"part": "maths-pp-2019-higher-p1-q3#(c)", "note": "This time both factors are simple (3x and ln x), so no chain rule is needed, but the answer has two extra terms, −9 and 4/x, which are differentiated one term at a time.",
+  "legend": {"1": "u, the factor 3x", "2": "v, the factor ln x", "3": "u′, the derivative of u, equal to 3", "4": "v′, the derivative of v, equal to 1/x"},
+  "steps": [
+   {"ask": "3x ln x is a product. What are u and v, and what are u′ and v′?", "title": "Differentiate $3x\\ln x$ with the product rule",
+    "lines": [
+     {"text": "Product rule: $\\frac{d}{dx}(uv) = \\hl{1}{u}\\,\\hl{4}{v'} + \\hl{2}{v}\\,\\hl{3}{u'}$ with $u=\\hl{1}{3x}$, $v=\\hl{2}{\\ln x}$."},
+     {"tex": "g'(x) &= \\hl{1}{3x}\\hl{4}{\\left(\\frac{1}{x}\\right)} + \\hl{3}{3}\\hl{2}{\\ln x} - 9 + 4\\left(\\frac{1}{x}\\right)"}
+    ]},
+   {"ask": "What does 3x times 1/x simplify to? Which terms can you now combine?", "title": "Simplify the derivative",
+    "lines": [
+     {"tex": "&= 3 + \\hl{3}{3}\\hl{2}{\\ln x} - 9 + \\frac{4}{x}"},
+     {"tex": "&= \\hl{3}{3}\\hl{2}{\\ln x} - 6 + \\frac{4}{x}"}
+    ]},
+   {"ask": "What is ln e? Substitute x = e into the derivative and simplify.", "title": "Substitute x = e",
+    "lines": [
+     {"tex": "g'(e) &= \\hl{3}{3}\\hl{2}{\\ln e} - 6 + \\frac{4}{e}"},
+     {"text": "Since $\\hl{2}{\\ln e} = 1$:"},
+     {"tex": "&= 3 - 6 + \\frac{4}{e}"},
+     {"tex": "&= -3 + \\frac{4}{e}"}
+    ]},
+   {"ask": "Work out −3 + 4/e on your calculator and round to 2 decimal places.", "title": "Evaluate to 2 decimal places",
+    "lines": [
+     {"tex": "&= -1.53"}
+    ]}
+  ],
+  "final": "g'(e) = -1.53",
+  "graph": null}
+]},
+{"skill": "diff-trig", "problems": [
+ {"part": "maths-pp-2021-higher-p2-q9#(b)(v)", "note": null,
+  "legend": {"1": "the amplitude, 110√2", "2": "the rate k, 120π", "3": "the sine in V(t)", "4": "the cosine in V′(t)"},
+  "steps": [
+   {"ask": "The function uses sin of 120πt, not sin of t. What extra factor does the chain rule bring out?", "title": "Differentiate V(t)",
+    "lines": [
+     {"text": "The rate of change is the derivative. Use the chain rule: the derivative of $\\hl{3}{\\sin(120\\pi t)}$ is $\\hl{2}{120\\pi}\\hl{4}{\\cos(120\\pi t)}$."},
+     {"tex": "V(t) &= \\hl{1}{110\\sqrt{2}}\\,\\hl{3}{\\sin(120\\pi t)}"},
+     {"tex": "V'(t) &= \\hl{2}{120\\pi} \\times \\hl{1}{110\\sqrt{2}}\\,\\hl{4}{\\cos(120\\pi t)}"}
+    ]},
+   {"ask": "Put t = 2 into V′(t). What do the angle 120π × 2 and its cosine work out to?", "title": "Substitute t = 2",
+    "lines": [
+     {"tex": "V'(2) &= \\hl{2}{120\\pi} \\times \\hl{1}{110\\sqrt{2}}\\,\\hl{4}{\\cos(120\\pi \\times 2)}"},
+     {"tex": "&= 58\\,646.0\\ldots"}
+    ]}
+  ],
+  "final": "58\\,646 \\text{ Volts per second}",
+  "graph": null},
+ {"part": "maths-pp-2023-higher-p2-q7#(e)(ii)", "note": "The chain rule is the same as before, but this function uses cos, has a constant 2 and a negative amplitude, so the minus signs need care.",
+  "legend": {"1": "the amplitude, −0.4", "2": "the rate k, π/2", "3": "the cosine in V(t)", "4": "the sine in V′(t), with its minus sign"},
+  "steps": [
+   {"ask": "The constant 2 does not change. What is the derivative of cos(kt), and what extra factor does the chain rule bring?", "title": "Differentiate V(t)",
+    "lines": [
+     {"text": "The derivative of $\\cos(kt)$ is $-k\\sin(kt)$, and the constant $2$ differentiates to $0$."},
+     {"tex": "V(t) &= 2 \\hl{1}{- 0.4}\\hl{3}{\\cos\\left(\\frac{\\pi}{2}t\\right)}"},
+     {"tex": "V'(t) &= \\hl{1}{-0.4}\\left(\\hl{4}{-\\sin\\left(\\frac{\\pi}{2}t\\right)}\\right)\\hl{2}{\\frac{\\pi}{2}}"},
+     {"tex": "&= 0.2\\pi\\sin\\left(\\frac{\\pi}{2}t\\right)"}
+    ]},
+   {"ask": "Put t = 0.5 into V′(t). What is the angle inside the sine first?", "title": "Substitute t = 0.5",
+    "lines": [
+     {"tex": "V'(0.5) &= 0.2\\pi\\sin\\left(\\hl{2}{\\frac{\\pi}{2}} \\times 0.5\\right)"},
+     {"tex": "&= 0.2\\pi\\sin\\left(\\frac{\\pi}{4}\\right)"},
+     {"tex": "&= 0.4442\\ldots"},
+     {"tex": "&\\approx 0.444\\ \\text{litres/second}"}
+    ]}
+  ],
+  "final": "0.444\\ \\text{litres/second}",
+  "graph": null},
+ {"part": "maths-pp-2016-higher-p2-q8#(c)", "note": "The chain rule steps match the last problem, but the amplitude is now positive, and the question is about a tide, so the sign of the answer tells you whether it is rising or falling.",
+  "legend": {"1": "the amplitude, 1.5", "2": "the rate k, π/6", "3": "the cosine in h(t)", "4": "the sine in h′(t), with its minus sign"},
+  "steps": [
+   {"ask": "The tide height has a constant part and a cos(πt/6) part. What does each differentiate to?", "title": "Differentiate h(t)",
+    "lines": [
+     {"text": "The rate of change of height is $h'(t)$. The constant $1.6$ differentiates to $0$. Use the chain rule on $\\hl{3}{\\cos\\left(\\dfrac{\\pi}{6}t\\right)}$."},
+     {"tex": "h'(t) &= \\hl{1}{1.5}\\left(\\hl{4}{-\\sin\\left(\\frac{\\pi}{6}t\\right)}\\right)\\cdot\\hl{2}{\\frac{\\pi}{6}}"},
+     {"tex": "&= -\\frac{\\pi}{4}\\sin\\left(\\frac{\\pi}{6}t\\right)"}
+    ]},
+   {"ask": "At t = 2, what is the angle πt/6, and what is its sine?", "title": "Substitute t = 2",
+    "lines": [
+     {"tex": "h'(2) &= -\\frac{\\pi}{4}\\sin\\left(\\frac{2\\pi}{6}\\right)"},
+     {"tex": "&= -\\frac{\\pi}{4}\\sin\\left(\\frac{\\pi}{3}\\right)"},
+     {"tex": "&= -\\frac{\\pi}{4}\\times\\frac{\\sqrt{3}}{2}"},
+     {"tex": "&\\approx -0.68\\text{ m/h}"}
+    ]},
+   {"ask": "Is your rate positive or negative? What does that tell you about the tide at 2 a.m.?", "title": "Explain the answer",
+    "lines": [
+     {"text": "The rate is negative, so the height is falling. At $t = 2$ (2 a.m.) the tide is going out at $0.68$ m per hour."}
+    ]}
+  ],
+  "final": "h'(2) \\approx -0.68\\text{ m/h}",
+  "graph": null}
+]},
+{"skill": "fin-average-rate", "problems": [
+ {"part": "maths-pp-2024-ordinary-p1-q8#(a)(ii)", "note": null,
+  "legend": {"1": "the distance, D, 12 km", "2": "the time, T, 0.5 hours", "3": "the average speed, S"},
+  "steps": [
+   {"ask": "What is speed as a rate? Write it in terms of distance D and time T.", "title": "Write the speed formula",
+    "lines": [
+     {"tex": "\\hl{3}{S} &= \\frac{D}{T}"}
+    ]},
+   {"ask": "The distance from A to B is the difference between the two readings. Which way round do you subtract?", "title": "Find the distance from A to B",
+    "lines": [
+     {"tex": "\\hl{1}{D} &= 32 - 20"},
+     {"tex": "&= \\hl{1}{12} \\text{ km}"}
+    ]},
+   {"ask": "A leaves at 08:30 and reaches B at 09:00. How many minutes is that, and what is it in hours?", "title": "Find the time from A to B",
+    "lines": [
+     {"text": "A is at 08:30 and B is at 09:00, so the time is 30 minutes."},
+     {"tex": "\\hl{2}{T} &= 30 \\text{ min} = 0.5 \\text{ hours}"}
+    ]},
+   {"ask": "Divide your distance by your time, with the time in hours. What is the speed?", "title": "Divide distance by time",
+    "lines": [
+     {"tex": "\\hl{3}{S} &= \\frac{12}{0.5}"},
+     {"tex": "&= \\hl{3}{24}"}
+    ]}
+  ],
+  "final": "\\hl{3}{24} \\ \\text{km/hour}",
+  "graph": null},
+ {"part": "maths-pp-2023-ordinary-p1-q5#(b)(ii)", "note": "Now there are two legs of 120 km at different speeds, so you add the two times before dividing, rather than using one leg.",
+  "legend": {"1": "the total distance, 240 km", "2": "the total time, 40/33 hours", "3": "the average speed, 198 km/h"},
+  "steps": [
+   {"ask": "Time is distance divided by speed. What is the time for the outward leg?", "title": "Time from A to B",
+    "lines": [
+     {"tex": "T_1 &= \\frac{2}{3}"}
+    ]},
+   {"ask": "The return leg is also 120 km. Use the same formula, with the return speed, to get its time.", "title": "Time from B to A",
+    "lines": [
+     {"tex": "T_2 &= \\frac{120}{220}"},
+     {"tex": "&= \\frac{6}{11}"}
+    ]},
+   {"ask": "How far do you travel altogether, and how long does the whole trip take? Add the two times as fractions.", "title": "Add the times and find the total distance",
+    "lines": [
+     {"text": "Total distance there and back is $\\hl{1}{2 \\times 120 = 240}$ km."},
+     {"tex": "\\hl{2}{\\text{Total time}} &= \\frac{2}{3} + \\frac{6}{11}"},
+     {"tex": "&= \\frac{22}{33} + \\frac{18}{33}"},
+     {"tex": "&= \\hl{2}{\\frac{40}{33}}"}
+    ]},
+   {"ask": "Divide the total distance by the total time. What do you get when you divide by a fraction?", "title": "Average speed = total distance ÷ total time",
+    "lines": [
+     {"tex": "\\hl{3}{\\text{Average speed}} &= \\frac{240}{\\frac{40}{33}}"},
+     {"tex": "&= \\hl{1}{240} \\times \\frac{33}{40}"},
+     {"tex": "&= \\hl{3}{198}"}
+    ]}
+  ],
+  "final": "\\hl{3}{198} \\text{ km/hour}",
+  "graph": null},
+ {"part": "maths-pp-2023-higher-p1-q7#(g)", "note": "This asks for the rate at which the speed changes, so you find the drop in speed and divide it by the 4 minutes, rather than dividing distance by time.",
+  "legend": {"2": "the time, 4 minutes", "3": "the rate of change, 15 km/h per minute"},
+  "steps": [
+   {"ask": "The car runs at 120 km/h for 2 minutes. Convert 2 minutes to hours, then multiply. How far is that?", "title": "Distance covered in the first 2 minutes",
+    "lines": [
+     {"tex": "d &= 120 \\times \\frac{2}{60}"},
+     {"tex": "&= 4 \\text{ km}"},
+     {"tex": "10 - 4 &= 6"},
+     {"text": "So 6 km remain to get to $B$."}
+    ]},
+   {"ask": "At an average of 100 km/h, how many minutes do the whole 10 km take? How many of those are already used?", "title": "Total time for an average of 100 km/hour",
+    "lines": [
+     {"tex": "\\text{total time} &= \\frac{10}{100}"},
+     {"tex": "&= \\frac{1}{10} \\text{ hour}"},
+     {"tex": "&= 6 \\text{ minutes}"},
+     {"tex": "6 - 2 &= \\hl{2}{4}"},
+     {"text": "So the last 6 km take 4 minutes."}
+    ]},
+   {"ask": "The last 6 km take some minutes. Convert them to hours before dividing 6 km by that time.", "title": "Average speed over the last 6 km",
+    "lines": [
+     {"tex": "\\text{speed} &= \\frac{6}{4/60}"},
+     {"tex": "&= 90"}
+    ]},
+   {"ask": "Speed falls at a steady rate, so the average is the mean of the starting and final speeds. Which two speeds does that involve?", "title": "Find the speed v at B",
+    "lines": [
+     {"text": "Constant deceleration means the average speed is the mean of the starting speed 120 and the final speed $v$."},
+     {"tex": "\\frac{120 + v}{2} &= 90"},
+     {"tex": "120 + v &= 180"},
+     {"tex": "v &= 60"}
+    ]},
+   {"ask": "How much does the speed drop in those 4 minutes? Divide that drop by the time to get the rate.", "title": "Deceleration over the 4 minutes",
+    "lines": [
+     {"tex": "\\hl{3}{a} &= \\frac{120 - 60}{4}"},
+     {"tex": "&= \\hl{3}{15}"}
+    ]}
+  ],
+  "final": "\\hl{3}{15} \\text{ km/hour per minute}",
+  "graph": null}
+]},
+{"skill": "fin-compound-interest", "problems": [
+ {"part": "maths-pp-2016-ordinary-p1-q7#(b)", "note": null,
+  "legend": {"1": "the principal, €8000", "2": "the growth factor, 1.037", "3": "the final amount, F"},
+  "steps": [
+   {"ask": "The rate of 3.7% adds to the money each year. What single number multiplies the amount each year?", "title": "Write the compound interest formula",
+    "lines": [
+     {"text": "Compound interest at 3.7% for 3 years multiplies by $\\hl{2}{1.037}$ three times."},
+     {"tex": "\\hl{3}{F} &= \\hl{1}{8000}\\hl{2}{(1.037)}^3"}
+    ]},
+   {"ask": "Multiply the €8000 by the growth factor for year 1. What is the amount at the end of year 1?", "title": "Find the value after each year",
+    "lines": [
+     {"tex": "\\hl{1}{8000} \\times \\hl{2}{1.037} &= 8296"},
+     {"tex": "8296 \\times \\hl{2}{1.037} &= 8602.952"},
+     {"tex": "8602.952 \\times \\hl{2}{1.037} &= \\hl{3}{8921.26}"}
+    ]}
+  ],
+  "final": "\\text{€}\\hl{3}{8921.26}",
+  "graph": null},
+ {"part": "maths-pp-2016-ordinary-p1-q7#(a)", "note": "The principal is the same, but the rate changes each year (2%, then 3%, then 5%), so you use a different growth factor each year instead of one factor repeated.",
+  "legend": {"1": "the principal, €8000", "2": "the growth factor for that year", "3": "the final amount after 3 years"},
+  "steps": [
+   {"ask": "What single number multiplies an amount to increase it by 2%? Use it on the €8000.", "title": "Increase by 2% in Year 1",
+    "lines": [
+     {"text": "Increasing by 2% means multiplying by $\\hl{2}{1.02}$."},
+     {"tex": "\\hl{1}{8000} \\times \\hl{2}{1.02} &= 8160"}
+    ]},
+   {"ask": "Now the rate is 3%. Which growth factor do you use on the Year 1 amount?", "title": "Increase by 3% in Year 2",
+    "lines": [
+     {"tex": "8160 \\times \\hl{2}{1.03} &= 8404.8"}
+    ]},
+   {"ask": "Repeat with the 5% rate on the Year 2 amount. What is the amount at the end of Year 3?", "title": "Increase by 5% in Year 3",
+    "lines": [
+     {"tex": "8404.8 \\times \\hl{2}{1.05} &= \\hl{3}{8825.04}"}
+    ]}
+  ],
+  "final": "\\text{€}\\hl{3}{8825.04}",
+  "graph": null},
+ {"part": "maths-pp-2017-ordinary-p1-q1#(b)", "note": "The rate is 3% again, but the unknown is now the starting sum P, so the formula is solved backwards by dividing rather than multiplying.",
+  "legend": {"1": "the principal P, the sum invested", "2": "the growth factor, 1 + 0.03 per year", "3": "the amount after 2 years, €30000"},
+  "steps": [
+   {"ask": "The €30000 is the amount after 2 years. How is it built from the unknown P and the growth factor?", "title": "Write the compound interest formula",
+    "lines": [
+     {"text": "Let $\\hl{1}{P}$ be the sum invested. After 2 years at 3% it is worth $\\hl{1}{P}\\hl{2}{(1 + 0.03)}^2$."},
+     {"tex": "\\hl{1}{P}\\hl{2}{(1 + 0.03)}^2 &= \\hl{3}{30000}"},
+     {"tex": "\\hl{1}{P}\\hl{2}{(1.03)}^2 &= \\hl{3}{30000}"}
+    ]},
+   {"ask": "To get P on its own, what do you do to the factor 1.03² on the left?", "title": "Divide both sides by $1.03^2$",
+    "lines": [
+     {"tex": "\\hl{1}{P} &= \\frac{30000}{1.03^2}"}
+    ]},
+   {"ask": "What is 1.03² on your calculator?", "title": "Evaluate",
+    "lines": [
+     {"tex": "1.03^2 &= 1.0609"}
+    ]},
+   {"ask": "Divide €30000 by 1.0609, to the nearest cent.", "title": "Divide",
+    "lines": [
+     {"tex": "\\hl{1}{P} &= \\frac{30000}{1.0609}"},
+     {"tex": "&\\approx \\text{€}\\hl{1}{28277.88}"}
+    ]}
+  ],
+  "final": "\\text{€}\\hl{1}{28277.88}",
+  "graph": null}
+]}
+]

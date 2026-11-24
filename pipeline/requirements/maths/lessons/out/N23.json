@@ -1,0 +1,367 @@
+[
+{"skill": "prob-relative-frequency", "problems": [
+ {"part": "practice-prob-relative-frequency-1", "note": null,
+  "legend": {"1": "reds in the trial (count)", "2": "spins in the trial (total)", "3": "relative frequency, P(red)", "4": "expected reds in 800 spins, the answer"},
+  "steps": [
+   {"ask": "How do you estimate a probability from trial results? Which counts go on top and bottom?",
+    "title": "Find the relative frequency of red",
+    "lines": [
+      {"text": "Relative frequency $= \\dfrac{\\text{number of reds}}{\\text{number of spins}}$."},
+      {"tex": "\\hl{3}{P(\\text{red})} &= \\frac{\\hl{1}{65}}{\\hl{2}{250}}"},
+      {"tex": "&= \\hl{3}{0.26}"}
+    ]},
+   {"ask": "Using your estimate, how many reds would you expect in 800 spins?",
+    "title": "Multiply by the number of spins",
+    "lines": [
+      {"tex": "\\hl{4}{\\text{Expected reds}} &= \\hl{3}{0.26} \\times 800"},
+      {"tex": "&= \\hl{4}{208}"}
+    ]}
+  ],
+  "final": "\\hl{4}{208}",
+  "graph": null},
+ {"part": "maths-pp-2017-ordinary-p2-q1#(a)(ii)", "note": "Same count-over-total division, but with real birth data. It stops at the probability: there is no multiply-by-spins step, and the answer is rounded to 2 decimal places.",
+  "legend": {"1": "boys in the births (count)", "2": "total births (total)", "3": "relative frequency, P(boy), unrounded", "4": "the answer, rounded to 2 decimal places"},
+  "steps": [
+   {"ask": "How do you write the probability of a boy as a fraction? Which number goes on top?",
+    "title": "Write the probability as a fraction",
+    "lines": [
+      {"text": "$P(\\text{boy}) = \\dfrac{\\text{number of boys}}{\\text{total births}}$."},
+      {"tex": "\\hl{3}{P(\\text{boy})} &= \\frac{\\hl{1}{33619}}{\\hl{2}{65909}}"}
+    ]},
+   {"ask": "What is the decimal value of this fraction, and how do you round it to 2 decimal places?",
+    "title": "Divide and round to 2 decimal places",
+    "lines": [
+      {"tex": "&= \\hl{3}{0.5101\\ldots}"},
+      {"tex": "&\\approx \\hl{4}{0.51}"}
+    ]}
+  ],
+  "final": "\\hl{4}{0.51}",
+  "graph": null},
+ {"part": "maths-pp-2017-ordinary-p2-q1#(a)(i)", "note": "Weak backup: changed from problem 2 by stopping before any probability. It is only the subtraction that finds the boys, which is the first step of (a)(ii), so it is mainly a different skill.",
+  "legend": {"1": "boys in the births (count)", "2": "total births (total)"},
+  "steps": [
+   {"ask": "The number of girls is given. How can you find the number of boys from the total births?",
+    "title": "Subtract the girls from the total births",
+    "lines": [
+      {"tex": "\\hl{1}{\\text{Boys}} &= \\hl{2}{65909} - 32290"},
+      {"tex": "&= \\hl{1}{33619}"}
+    ]}
+  ],
+  "final": "\\hl{1}{33619}",
+  "graph": null}
+]},
+{"skill": "prob-selection-restrictions", "problems": [
+ {"part": "maths-pp-2019-higher-p2-q1#(b)", "note": null,
+  "legend": {"1": "ways to choose Section A (3 of the 6 other questions)", "2": "ways to choose Section B (4 of 8)", "3": "total selections, the answer"},
+  "steps": [
+   {"ask": "Question 1 is compulsory. How many questions are still free to choose in Section A, and how many do you pick?",
+    "title": "Choose the questions from Section A",
+    "lines": [
+      {"text": "Question 1 is compulsory, so choose 3 more from the other 6 questions."},
+      {"tex": "\\hl{1}{\\binom{6}{3}} &= \\frac{6\\times 5\\times 4}{3\\times 2\\times 1}"},
+      {"tex": "&= \\hl{1}{20}"}
+    ]},
+   {"ask": "How many ways can you choose 4 questions from 8 when the order does not matter?",
+    "title": "Choose the questions from Section B",
+    "lines": [
+      {"text": "Choose 4 from the 8 questions."},
+      {"tex": "\\hl{2}{\\binom{8}{4}} &= \\frac{8\\times 7\\times 6\\times 5}{4\\times 3\\times 2\\times 1}"},
+      {"tex": "&= \\hl{2}{70}"}
+    ]},
+   {"ask": "How do you combine the two counts when each choice in one section can go with each choice in the other?",
+    "title": "Multiply the two choices",
+    "lines": [
+      {"text": "Each choice from Section A can go with each choice from Section B."},
+      {"tex": "\\hl{1}{\\binom{6}{3}}\\times\\hl{2}{\\binom{8}{4}} &= \\hl{1}{20} \\times \\hl{2}{70}"},
+      {"tex": "&= \\hl{3}{1400}"}
+    ]}
+  ],
+  "final": "\\hl{3}{1400}",
+  "graph": null},
+ {"part": "practice-prob-selection-restrictions-1", "note": "Same method: count each group with a binomial coefficient and multiply. Changed: the context is a committee of men and women, and a named woman (Maria) is fixed in, so the other 2 women come from 6.",
+  "legend": {"1": "ways to choose the men (2 of 6)", "2": "ways to choose the other women (2 of 6)", "3": "total committees, the answer"},
+  "steps": [
+   {"ask": "How many ways are there to choose 2 men from the 6?",
+    "title": "Choose the men",
+    "lines": [
+      {"text": "Choose 2 of the 6 men."},
+      {"tex": "\\hl{1}{\\binom{6}{2}} &= \\frac{6\\times 5}{2\\times 1}"},
+      {"tex": "&= \\hl{1}{15}"}
+    ]},
+   {"ask": "Maria is already on the committee. How many women are still to be chosen, and from how many?",
+    "title": "Choose the women",
+    "lines": [
+      {"text": "Maria is already on the committee. The other 2 women come from the remaining 6."},
+      {"tex": "\\hl{2}{\\binom{6}{2}} &= \\frac{6\\times 5}{2\\times 1}"},
+      {"tex": "&= \\hl{2}{15}"}
+    ]},
+   {"ask": "The choice of men and the choice of women do not affect each other. How do you combine them?",
+    "title": "Multiply the two choices",
+    "lines": [
+      {"tex": "\\hl{1}{\\binom{6}{2}}\\times\\hl{2}{\\binom{6}{2}} &= \\hl{1}{15}\\times \\hl{2}{15}"},
+      {"tex": "&= \\hl{3}{225}"}
+    ]}
+  ],
+  "final": "\\hl{3}{225}",
+  "graph": null},
+ {"part": "maths-pp-2023-higher-p2-q10#(b)(iii)", "note": "Weak backup, and a different method: the digit sets are listed by hand and the orders are counted with 3!, instead of binomials. Changed from problem 2: a list of digit sets with a sum rule, worth 10 marks. The idea of counting each choice and multiplying is the same.",
+  "legend": {"1": "number of digit sets (the choice)", "2": "arrangements of each set", "3": "total, the answer"},
+  "steps": [
+   {"ask": "Which sets of three different digits can have a sum that is a digit from 6 to 9? How will you make sure none are missed?",
+    "title": "List the sets of three different digits that can add up to a digit",
+    "lines": [
+      {"text": "The first three digits are different and add to the fourth digit, which is at most 9."},
+      {"text": "The smallest sum is $1 + 2 + 3 = 6$, so the fourth digit is 6 to 9."},
+      {"tex": "1 + 2 + 3 &= 6"},
+      {"tex": "1 + 2 + 4 &= 7"},
+      {"tex": "1 + 2 + 5 &= 8"},
+      {"tex": "1 + 3 + 4 &= 8"},
+      {"tex": "1 + 2 + 6 &= 9"},
+      {"tex": "1 + 3 + 5 &= 9"},
+      {"tex": "2 + 3 + 4 &= 9"},
+      {"text": "There are 7 sets, and the fourth digit is always new because it is bigger than each of the three."}
+    ]},
+   {"ask": "The three digits can be in any order, but the fourth digit is fixed. How many ways can the three digits be arranged?",
+    "title": "Count the orders for each set",
+    "lines": [
+      {"text": "The three digits can be arranged in $3!$ ways, and the fourth digit is fixed."},
+      {"tex": "\\hl{2}{3!} &= \\hl{2}{6}"}
+    ]},
+   {"ask": "How do you combine the number of sets with the number of orders for each set?",
+    "title": "Multiply",
+    "lines": [
+      {"tex": "\\hl{1}{7} \\times \\hl{2}{6} &= \\hl{3}{42}"}
+    ]}
+  ],
+  "final": "\\hl{3}{42}",
+  "graph": null}
+]},
+{"skill": "seq-classify", "problems": [
+ {"part": "practice-seq-classify-1", "note": null,
+  "legend": {"1": "difference between consecutive terms", "2": "common difference, d"},
+  "steps": [
+   {"ask": "What must you compare between consecutive terms to decide the type of sequence? Work out each one.",
+    "title": "Find the differences between consecutive terms",
+    "lines": [
+      {"tex": "\\hl{1}{T_2 - T_1} &= 2 - 5"},
+      {"tex": "&= \\hl{2}{-3}"},
+      {"tex": "\\hl{1}{T_3 - T_2} &= -1 - 2"},
+      {"tex": "&= \\hl{2}{-3}"},
+      {"tex": "\\hl{1}{T_4 - T_3} &= -4 - (-1)"},
+      {"tex": "&= \\hl{2}{-3}"}
+    ]},
+   {"ask": "Are the differences all the same? What type of sequence does that make it?",
+    "title": "Conclude",
+    "lines": [
+      {"text": "The difference is the same each time, so the sequence is arithmetic with common difference $\\hl{2}{d = -3}$."}
+    ]}
+  ],
+  "final": "\\hl{2}{d = -3}",
+  "graph": null},
+ {"part": "maths-pp-2015-higher-p2-q8#(e)(i)", "note": "Changed from problem 1: the test is a ratio, not a difference, so the sequence is geometric. The ratio needs algebra first, because a_{n+1} must be written as 0.2 times a_n.",
+  "legend": {"1": "consecutive ratio, aₙ₊₁ / aₙ", "2": "common ratio, 1/5"},
+  "steps": [
+   {"ask": "What ratio of consecutive terms must be constant? Write it using aₙ₊₁ and aₙ.",
+    "title": "Write a_{n+1} using p_{n+1}",
+    "lines": [
+      {"tex": "a_{n+1} &= p - p_{n+1}"},
+      {"tex": "&= 0.75 - (0.6 + 0.2\\,p_n)"},
+      {"tex": "&= 0.75 - 0.6 - 0.2\\,p_n"},
+      {"tex": "&= 0.15 - 0.2\\,p_n"},
+      {"tex": "&= 0.2(0.75 - p_n)"},
+      {"tex": "&= 0.2\\,a_n"}
+    ]},
+   {"ask": "Divide the two expressions. What can you cancel from the top and bottom?",
+    "title": "Form the ratio",
+    "lines": [
+      {"tex": "\\hl{1}{\\frac{a_{n+1}}{a_n}} &= \\frac{0.2(0.75 - p_n)}{0.75 - p_n}"},
+      {"tex": "&= \\hl{2}{\\frac{1}{5}}"},
+      {"text": "The ratio is the same constant for every $n$, so $a_n$ is geometric with common ratio $\\hl{2}{\\frac{1}{5}}$."}
+    ]}
+  ],
+  "final": "\\hl{1}{\\frac{a_{n+1}}{a_n}} = \\hl{2}{\\frac{1}{5}}",
+  "graph": null},
+ {"part": "maths-pp-2022-higher-p1-q4#(b)(i)", "note": "Weak backup: the first step is the same test (set the two differences equal), but then the work is solving for k, which becomes a quadratic in y = eᵏ. Mostly a different skill.",
+  "legend": {"1": "the two consecutive differences being compared"},
+  "steps": [
+   {"ask": "If the sequence is arithmetic, what must be true about the two differences?",
+    "title": "Set the two common differences equal",
+    "lines": [
+      {"text": "In an arithmetic sequence $T_2 - T_1 = T_3 - T_2$."},
+      {"tex": "\\hl{1}{13 - 5e^{-k}} &= \\hl{1}{5e^{k} - 13}"}
+    ]},
+   {"ask": "What is e⁻ᵏ in terms of y = eᵏ, and what do you substitute?",
+    "title": "Replace e^k with y",
+    "lines": [
+      {"text": "Since $y = e^k$, we have $e^{-k} = \\dfrac{1}{y}$."},
+      {"tex": "13 - \\frac{5}{y} &= 5y - 13"}
+    ]},
+   {"ask": "What do you multiply every term by to clear the fraction 5/y?",
+    "title": "Multiply every term by y",
+    "lines": [
+      {"tex": "13y - 5 &= 5y^2 - 13y"}
+    ]},
+   {"ask": "How do you get all the terms onto one side, so that the equation equals zero?",
+    "title": "Collect all terms on one side",
+    "lines": [
+      {"tex": "0 &= 5y^2 - 13y - 13y + 5"},
+      {"tex": "0 &= 5y^2 - 26y + 5"}
+    ]}
+  ],
+  "final": "5y^2 - 26y + 5 = 0",
+  "graph": null}
+]},
+{"skill": "seq-convergence-range", "problems": [
+ {"part": "practice-seq-convergence-range-1", "note": null,
+  "legend": {"1": "common ratio, r", "2": "size of the ratio, |r|", "3": "bounds on x, the answer"},
+  "steps": [
+   {"ask": "What do you get when you divide the second term by the first?",
+    "title": "Find the common ratio",
+    "lines": [
+      {"tex": "\\hl{1}{r} &= \\hl{1}{3x - 2}"}
+    ]},
+   {"ask": "For the sum to infinity to exist, what must be true about the size of r? Write it with the modulus.",
+    "title": "A sum to infinity needs $|r| < 1$",
+    "lines": [
+      {"tex": "\\hl{2}{|3x - 2|} &< 1"}
+    ]},
+   {"ask": "How can you write |3x − 2| < 1 without the modulus, and what do you do then to solve for x?",
+    "title": "Remove the modulus",
+    "lines": [
+      {"tex": "-1 &< \\hl{1}{3x - 2} < 1"},
+      {"tex": "1 &< 3x < 3"},
+      {"tex": "\\hl{3}{\\frac{1}{3}} &< x < \\hl{3}{1}"}
+    ]}
+  ],
+  "final": "\\hl{3}{\\frac{1}{3}} < x < \\hl{3}{1}",
+  "graph": null},
+ {"part": "practice-seq-convergence-range-2", "note": "Changed from problem 1: r is a fraction, (2x + 1)/4, not a simple linear expression, so the modulus step first becomes |2x + 1| < 4. The steps stay the same.",
+  "legend": {"1": "common ratio, r", "2": "size of the ratio, |r|", "3": "bounds on x, the answer"},
+  "steps": [
+   {"ask": "The ratio is the second term divided by the first. What is it here, as a single fraction?",
+    "title": "Find the common ratio",
+    "lines": [
+      {"tex": "\\hl{1}{r} &= \\hl{1}{\\frac{2x+1}{4}}"}
+    ]},
+   {"ask": "How do you write the size of r being less than 1 as an inequality with the modulus?",
+    "title": "Convergence needs $|r| < 1$",
+    "lines": [
+      {"tex": "\\hl{2}{\\left|\\frac{2x+1}{4}\\right|} &< 1"},
+      {"tex": "|2x+1| &< 4"}
+    ]},
+   {"ask": "How do you split |2x + 1| < 4 into two inequalities, and then solve for x?",
+    "title": "Remove the modulus",
+    "lines": [
+      {"tex": "-4 &< 2x + 1 < 4"},
+      {"tex": "-5 &< 2x < 3"},
+      {"tex": "\\hl{3}{-\\frac{5}{2}} &< x < \\hl{3}{\\frac{3}{2}}"}
+    ]}
+  ],
+  "final": "\\hl{3}{-\\frac{5}{2}} < x < \\hl{3}{\\frac{3}{2}}",
+  "graph": null},
+ {"part": "practice-seq-convergence-range-3", "note": "Changed from problem 2: x is now in the denominator, so r = 2/x, x cannot be 0, and the answer is two pieces (x < -2 or x > 2) rather than one interval. Two things changed, and the method is the same.",
+  "legend": {"1": "common ratio, r", "2": "size of the ratio, |r|", "3": "bounds on x, the answer"},
+  "steps": [
+   {"ask": "What is the second term divided by the first, and what does it simplify to?",
+    "title": "Find the common ratio",
+    "lines": [
+      {"tex": "\\hl{1}{r} &= \\hl{1}{\\frac{4/x}{2}}"},
+      {"tex": "&= \\hl{1}{\\frac{2}{x}}"}
+    ]},
+   {"ask": "For the sum to infinity, what must the size of r be? Write that inequality with the modulus.",
+    "title": "A sum to infinity needs $|r| < 1$",
+    "lines": [
+      {"tex": "\\hl{2}{\\left|\\frac{2}{x}\\right|} &< 1"}
+    ]},
+   {"ask": "What do you multiply both sides by to clear the fraction, and why must x not be 0?",
+    "title": "Clear the fraction (note $x \\neq 0$)",
+    "lines": [
+      {"tex": "|x| &> 2"}
+    ]},
+   {"ask": "How can |x| > 2 be written without the modulus? How many cases does that give?",
+    "title": "Remove the modulus",
+    "lines": [
+      {"tex": "x &< \\hl{3}{-2} \\quad \\text{or} \\quad x > \\hl{3}{2}"}
+    ]}
+  ],
+  "final": "x < \\hl{3}{-2} \\ \\text{or}\\ x > \\hl{3}{2}",
+  "graph": null}
+]},
+{"skill": "seq-derive-sum-infinity", "problems": [
+ {"part": "practice-seq-derive-sum-infinity-1", "note": null,
+  "legend": {"1": "the sum to infinity, S∞ = a/(1 − r)", "2": "rⁿ, which tends to 0 when |r| < 1"},
+  "steps": [
+   {"ask": "Which part of Sₙ depends on n, and how can you separate it from the fixed part?",
+    "title": "Split the formula for $S_n$",
+    "lines": [
+      {"tex": "S_n &= \\frac{a(1-\\hl{2}{r^n})}{1-r}"},
+      {"tex": "&= \\hl{1}{\\frac{a}{1-r}} - \\frac{a\\,\\hl{2}{r^n}}{1-r}"}
+    ]},
+   {"ask": "If |r| is less than 1, what happens to rⁿ as n gets very large?",
+    "title": "Let $n \\to \\infty$ when $|r| < 1$",
+    "lines": [
+      {"text": "If $|r| < 1$ then $\\hl{2}{r^n} \\to 0$ as $n \\to \\infty$, for example $\\left(\\tfrac12\\right)^n \\to 0$."},
+      {"tex": "\\frac{a\\,\\hl{2}{r^n}}{1-r} &\\to 0"}
+    ]},
+   {"ask": "Once the part that depends on n goes to 0, what is left of the expression for Sₙ?",
+    "title": "Take the limit",
+    "lines": [
+      {"tex": "\\hl{1}{S_\\infty} &= \\lim_{n \\to \\infty} S_n = \\hl{1}{\\frac{a}{1-r}} - 0"},
+      {"tex": "&= \\hl{1}{\\frac{a}{1-r}}"}
+    ]}
+  ],
+  "final": "\\hl{1}{S_\\infty} = \\hl{1}{\\frac{a}{1-r}}",
+  "graph": null},
+ {"part": "practice-seq-derive-sum-infinity-2", "note": "Changed from problem 1: a = 6 and r = 2/3 are given, so the formula for Sₙ is used with numbers and the value 18 is checked against a/(1 − r). The limit step is the same.",
+  "legend": {"1": "the sum to infinity, S∞ = a/(1 − r)", "2": "rⁿ, which tends to 0 when |r| < 1"},
+  "steps": [
+   {"ask": "Put a = 6 and r = 2/3 into the formula. What is 1 − r here?",
+    "title": "Substitute into $S_n$",
+    "lines": [
+      {"tex": "S_n &= \\frac{6\\left(1-\\hl{2}{\\left(\\frac{2}{3}\\right)^n}\\right)}{1 - \\frac{2}{3}}"},
+      {"tex": "&= 18\\left(1 - \\hl{2}{\\left(\\frac{2}{3}\\right)^n}\\right)"}
+    ]},
+   {"ask": "Since 2/3 is less than 1, what happens to (2/3)ⁿ as n gets very large?",
+    "title": "Let $n \\to \\infty$",
+    "lines": [
+      {"text": "Since $\\frac{2}{3} < 1$, $\\hl{2}{\\left(\\frac{2}{3}\\right)^n} \\to 0$."},
+      {"tex": "\\hl{1}{S_\\infty} &= 18(1 - 0) = \\hl{1}{18}"}
+    ]},
+   {"ask": "What is a/(1 − r) for these values, and does it match the limit?",
+    "title": "Compare with $\\frac{a}{1-r}$",
+    "lines": [
+      {"tex": "\\hl{1}{\\frac{a}{1-r}} &= \\frac{6}{1/3} = \\hl{1}{18}"}
+    ]}
+  ],
+  "final": "\\hl{1}{S_\\infty} = \\hl{1}{18} = \\hl{1}{\\frac{a}{1-r}}",
+  "graph": null},
+ {"part": "practice-seq-derive-sum-infinity-3", "note": "Changed from problem 2: the formula for Sₙ is not given but derived, by multiplying by r and subtracting. The limit step at the end is the same as in problem 1.",
+  "legend": {"1": "the sum to infinity, S∞ = a/(1 − r)", "2": "rⁿ, which tends to 0 when |r| < 1"},
+  "steps": [
+   {"ask": "If you multiply Sₙ by r, which terms line up with the terms of Sₙ?",
+    "title": "Multiply $S_n$ by $r$",
+    "lines": [
+      {"tex": "rS_n &= ar + ar^2 + \\dots + ar^{n-1} + a\\hl{2}{r^n}"}
+    ]},
+   {"ask": "When you subtract rSₙ from Sₙ, which terms are left over?",
+    "title": "Subtract: all middle terms cancel",
+    "lines": [
+      {"tex": "S_n - rS_n &= a - a\\hl{2}{r^n}"},
+      {"tex": "S_n(1-r) &= a(1-\\hl{2}{r^n})"}
+    ]},
+   {"ask": "How do you get Sₙ on its own? What must be true about r for dividing by 1 − r to be allowed?",
+    "title": "Divide by $1 - r$ (so $r \\neq 1$)",
+    "lines": [
+      {"tex": "S_n &= \\frac{a(1-\\hl{2}{r^n})}{1-r}"}
+    ]},
+   {"ask": "What happens to rⁿ when |r| is less than 1, and so what happens to 1 − rⁿ?",
+    "title": "Let $n \\to \\infty$ when $|r| < 1$",
+    "lines": [
+      {"text": "Then $\\hl{2}{r^n} \\to 0$, so $1 - \\hl{2}{r^n} \\to 1$."},
+      {"tex": "\\hl{1}{S_\\infty} &= \\hl{1}{\\frac{a}{1-r}}"}
+    ]}
+  ],
+  "final": "S_n = \\frac{a(1-\\hl{2}{r^n})}{1-r}, \\quad \\hl{1}{S_\\infty} = \\hl{1}{\\frac{a}{1-r}}",
+  "graph": null}
+]}
+]

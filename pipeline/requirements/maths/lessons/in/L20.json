@@ -1,0 +1,1147 @@
+[
+ {
+  "skill": {
+   "id": "stat-charts",
+   "title": "Draw bar, pie, line plot, histogram and stem-and-leaf",
+   "level": "JC",
+   "input": "data set",
+   "output": "correct graph"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Draw a bar for each class",
+      "lines": [
+       {
+        "text": "Each bar has width $5$ cm, starting at $145$, with no gaps. The heights are the percentages from Table 2."
+       },
+       {
+        "text": "Heights: $3,\\ 9.6,\\ 16,\\ 22.4,\\ 25,\\ 16.2,\\ 5.8,\\ 2$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Histogram drawn}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(b)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Subtract the other sources from 100%",
+      "lines": [
+       {
+        "text": "The percentages for Denmark add up to 100. Add the five given values."
+       },
+       {
+        "tex": "r &= 100 - (31 + 11 + 13 + 12 + 13)"
+       },
+       {
+        "tex": "r &= 100 - 80"
+       },
+       {
+        "tex": "r &= 20"
+       }
+      ]
+     }
+    ],
+    "final": "20\\%"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(b)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the renewable column with Ireland",
+      "lines": [
+       {
+        "text": "Ireland used $6\\%$ renewable energy. Look for countries below 6: Cyprus 5, Luxembourg 4, Malta 2, Netherlands 4."
+       },
+       {
+        "text": "Bulgaria (8) and France (7) are above 6, so they do not count. Denmark is also excluded because its renewable value from (b)(i) is 20, which is above 6."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Cyprus, Luxembourg, Malta, Netherlands}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(b)(iii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find a country with 0% in the gas column",
+      "lines": [
+       {
+        "text": "Cyprus and Malta both show 0 for gas, so either is correct."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Cyprus (or Malta)}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(b)(v)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Draw the sectors one after another",
+      "lines": [
+       {
+        "text": "Start from the radius at the end of the renewable sector (the $22^\\circ$ line)."
+       },
+       {
+        "text": "Using a protractor, measure each angle anticlockwise and draw a radius: oil $151^\\circ$, solid fuel $47^\\circ$, gas $86^\\circ$, then electricity $54^\\circ$."
+       },
+       {
+        "text": "The angles add to $22 + 151 + 47 + 86 + 54 = 360^\\circ$, so the last radius closes back onto the starting line."
+       },
+       {
+        "text": "Label each sector with its energy type."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pie chart with sectors } 22^\\circ, 151^\\circ, 47^\\circ, 86^\\circ, 54^\\circ"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q1#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Sort the ages by their tens digit",
+      "lines": [
+       {
+        "text": "The stem is the tens digit and the leaf is the units digit. Go through the 28 ages in order and put each leaf on its stem."
+       },
+       {
+        "text": "Stem 1: 18, 19, 18. Stem 2: 21, 21, 22, 20. Stem 3: 32, 35, 33, 34, 39, 33, 34."
+       },
+       {
+        "text": "Stem 4: 41, 43, 42, 49, 43. Stem 5: 57, 54, 58, 55, 57. Stem 6: 64, 63, 65, 63."
+       }
+      ]
+     },
+     {
+      "title": "Write each stem in increasing order",
+      "lines": [
+       {
+        "text": "Put the leaves in order, smallest first, on each row."
+       },
+       {
+        "text": "Check: $3+4+7+5+5+4 = 28$ leaves, one for every employee."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{See the completed diagram}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-correlation-calc",
+   "title": "Calculate the correlation coefficient (calculator)",
+   "level": "HL",
+   "input": "bivariate data",
+   "output": "r"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p2-q2#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the statistics mode on the calculator",
+      "lines": [
+       {
+        "text": "Enter the speeds as the $x$ values and the fuel consumption as the $y$ values."
+       },
+       {
+        "text": "Read off the correlation coefficient $r$."
+       },
+       {
+        "tex": "r &= -0.957"
+       }
+      ]
+     }
+    ],
+    "final": "r = -0.957"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q1#(b), (c)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Compare the two tests",
+      "lines": [
+       {
+        "text": "Every student swam further in the re-test than in the initial test, so everyone improved."
+       },
+       {
+        "text": "The improvements were not equal: 22 m rose by 3 m, but 61 m rose by 289 m."
+       },
+       {
+        "text": "The points curve upwards, not along a straight line, so the stronger swimmers improved by much more than the weaker ones."
+       }
+      ]
+     },
+     {
+      "title": "Find r with the calculator",
+      "lines": [
+       {
+        "text": "Enter the initial test distances as $x$ and the re-test distances as $y$ in statistics mode, then read the correlation coefficient."
+       },
+       {
+        "tex": "r &= 0.91451\\ldots"
+       },
+       {
+        "tex": "r &\\approx 0.9145"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The better swimmers improved more;}\\; r = 0.9145"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q8#(a)(v), (b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the sums needed",
+      "lines": [
+       {
+        "text": "Let $x$ be city and $y$ be motorway, with $n = 8$ cars."
+       },
+       {
+        "tex": "\\sum x &= 172, \\quad \\sum y = 257"
+       },
+       {
+        "tex": "\\sum xy &= 5722, \\quad \\sum x^2 = 3900, \\quad \\sum y^2 = 8461"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate the top of the formula",
+      "lines": [
+       {
+        "text": "$r = \\dfrac{n\\sum xy - \\sum x \\sum y}{\\sqrt{\\left(n\\sum x^2 - (\\sum x)^2\\right)\\left(n\\sum y^2 - (\\sum y)^2\\right)}}$"
+       },
+       {
+        "tex": "n\\sum xy - \\sum x \\sum y &= 8(5722) - (172)(257)"
+       },
+       {
+        "tex": "&= 45776 - 44204"
+       },
+       {
+        "tex": "&= 1572"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate the bottom of the formula",
+      "lines": [
+       {
+        "tex": "n\\sum x^2 - (\\sum x)^2 &= 8(3900) - 172^2"
+       },
+       {
+        "tex": "&= 1616"
+       },
+       {
+        "tex": "n\\sum y^2 - (\\sum y)^2 &= 8(8461) - 257^2"
+       },
+       {
+        "tex": "&= 1639"
+       }
+      ]
+     },
+     {
+      "title": "Calculate r",
+      "lines": [
+       {
+        "tex": "r &= \\frac{1572}{\\sqrt{1616 \\times 1639}}"
+       },
+       {
+        "tex": "&= 0.9659\\ldots"
+       },
+       {
+        "tex": "&= 0.966"
+       }
+      ]
+     },
+     {
+      "title": "Explain why r can be close to 0 in part (b)",
+      "lines": [
+       {
+        "text": "The correlation coefficient measures how well the points fit a straight line. These points follow a quadratic (U-shaped) curve, which is symmetrical, so no straight line fits them and $r_{FS}$ is close to 0."
+       }
+      ]
+     }
+    ],
+    "final": "r = 0.966;\\ \\text{correlation measures linear relationships, and this data is quadratic}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q5#(a)(i), (ii), (iii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "(i) List the red cubes and find their total",
+      "lines": [
+       {
+        "text": "Red cubes per trial (A to G): $0, 3, 2, 2, 4, 5, 1$."
+       },
+       {
+        "tex": "\\sum x &= 0 + 3 + 2 + 2 + 4 + 5 + 1"
+       },
+       {
+        "tex": "&= 17"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the mean",
+      "lines": [
+       {
+        "tex": "\\bar{x} &= \\frac{\\sum x}{n} = \\frac{17}{7}"
+       },
+       {
+        "tex": "&= 2.42\\ldots"
+       },
+       {
+        "tex": "&= 2.4"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the sum of the squares of the red values",
+      "lines": [
+       {
+        "tex": "\\sum x^2 &= 0^2 + 3^2 + 2^2 + 2^2 + 4^2 + 5^2 + 1^2"
+       },
+       {
+        "tex": "&= 0 + 9 + 4 + 4 + 16 + 25 + 1"
+       },
+       {
+        "tex": "&= 59"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the variance",
+      "lines": [
+       {
+        "text": "Use $\\sigma^2 = \\dfrac{\\sum x^2}{n} - \\bar{x}^2$."
+       },
+       {
+        "tex": "\\sigma^2 &= \\frac{59}{7} - \\left(\\frac{17}{7}\\right)^2"
+       },
+       {
+        "tex": "&= \\frac{413}{49} - \\frac{289}{49}"
+       },
+       {
+        "tex": "&= \\frac{124}{49}"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the standard deviation",
+      "lines": [
+       {
+        "tex": "\\sigma &= \\sqrt{\\frac{124}{49}}"
+       },
+       {
+        "tex": "&= 1.59\\ldots"
+       },
+       {
+        "tex": "&= 1.6"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Set up the correlation calculation",
+      "lines": [
+       {
+        "text": "Let $x$ be the red cubes and $y$ the green cubes, with $n = 7$. Green cubes per trial: $4, 2, 0, 3, 0, 0, 2$."
+       },
+       {
+        "tex": "\\sum y &= 4 + 2 + 0 + 3 + 0 + 0 + 2"
+       },
+       {
+        "tex": "&= 11"
+       },
+       {
+        "tex": "\\sum y^2 &= 16 + 4 + 0 + 9 + 0 + 0 + 4"
+       },
+       {
+        "tex": "&= 33"
+       },
+       {
+        "tex": "\\sum xy &= 0(4) + 3(2) + 2(0) + 2(3) + 4(0) + 5(0) + 1(2)"
+       },
+       {
+        "tex": "&= 0 + 6 + 0 + 6 + 0 + 0 + 2"
+       },
+       {
+        "tex": "&= 14"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Substitute into the correlation formula",
+      "lines": [
+       {
+        "text": "Use $\\sum x = 17$, $\\sum x^2 = 59$, $\\sum y = 11$, $\\sum y^2 = 33$, $\\sum xy = 14$."
+       },
+       {
+        "tex": "r &= \\frac{n\\sum xy - \\sum x \\sum y}{\\sqrt{\\left(n\\sum x^2 - (\\sum x)^2\\right)\\left(n\\sum y^2 - (\\sum y)^2\\right)}}"
+       },
+       {
+        "tex": "&= \\frac{7(14) - (17)(11)}{\\sqrt{\\left(7(59) - 17^2\\right)\\left(7(33) - 11^2\\right)}}"
+       },
+       {
+        "tex": "&= \\frac{98 - 187}{\\sqrt{(413 - 289)(231 - 121)}}"
+       },
+       {
+        "tex": "&= \\frac{-89}{\\sqrt{124 \\times 110}}"
+       },
+       {
+        "tex": "&= \\frac{-89}{\\sqrt{13640}}"
+       },
+       {
+        "tex": "&= -0.76204\\ldots"
+       },
+       {
+        "tex": "&= -0.762"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Explain why the correlation is negative",
+      "lines": [
+       {
+        "text": "Each trial picks exactly $5$ cubes, so the red, green and blue counts always add to $5$."
+       },
+       {
+        "text": "If a trial has more red cubes, there is less room for green cubes, so fewer green cubes are likely."
+       },
+       {
+        "text": "As the number of red cubes increases, the number of green cubes tends to decrease, so the correlation coefficient is negative."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{mean} = 2.4, \\quad \\sigma = 1.6, \\quad r = -0.762"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-grouped-mean",
+   "title": "Estimate the mean of grouped data",
+   "level": "OL",
+   "input": "grouped frequency table",
+   "output": "mean via mid-interval values"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-ordinary-p2-q7#(a)(iv)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the mid-interval value of each group",
+      "lines": [
+       {
+        "text": "Mid-value = (lower end + upper end) $\\div 2$."
+       },
+       {
+        "tex": "\\frac{15 + 25}{2} &= 20"
+       },
+       {
+        "tex": "\\frac{25 + 35}{2} &= 30"
+       },
+       {
+        "tex": "\\frac{35 + 45}{2} &= 40"
+       },
+       {
+        "tex": "\\frac{45 + 55}{2} &= 50"
+       },
+       {
+        "tex": "\\frac{55 + 65}{2} &= 60"
+       }
+      ]
+     },
+     {
+      "title": "Multiply each mid-value by its percentage and add",
+      "lines": [
+       {
+        "text": "The percentages add to 100, so divide the total by 100."
+       },
+       {
+        "tex": "\\text{Mean} &= \\frac{(24 \\times 20) + (27 \\times 30) + (25 \\times 40) + (16 \\times 50) + (8 \\times 60)}{100}"
+       },
+       {
+        "tex": "&= \\frac{480 + 810 + 1000 + 800 + 480}{100}"
+       },
+       {
+        "tex": "&= \\frac{3570}{100}"
+       },
+       {
+        "tex": "&= 35.7"
+       }
+      ]
+     }
+    ],
+    "final": "35.7 \\text{ years}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(b)(i)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Find the mid-interval values",
+      "lines": [
+       {
+        "text": "The mid-interval value is halfway between the ends of each class, e.g. $\\frac{145+150}{2} = 147.5$."
+       },
+       {
+        "tex": "x &= 147.5, 152.5, 157.5, 162.5, 167.5, 172.5, 177.5, 182.5"
+       }
+      ]
+     },
+     {
+      "title": "Multiply each frequency by its mid-value",
+      "lines": [
+       {
+        "tex": "15 \\times 147.5 &= 2212.5"
+       },
+       {
+        "tex": "48 \\times 152.5 &= 7320"
+       },
+       {
+        "tex": "80 \\times 157.5 &= 12600"
+       },
+       {
+        "tex": "112 \\times 162.5 &= 18200"
+       },
+       {
+        "tex": "125 \\times 167.5 &= 20937.5"
+       },
+       {
+        "tex": "81 \\times 172.5 &= 13972.5"
+       },
+       {
+        "tex": "29 \\times 177.5 &= 5147.5"
+       },
+       {
+        "tex": "10 \\times 182.5 &= 1825"
+       }
+      ]
+     },
+     {
+      "title": "Add up the products and the frequencies",
+      "lines": [
+       {
+        "tex": "\\sum fx &= 82215"
+       },
+       {
+        "tex": "\\sum f &= 500"
+       }
+      ]
+     },
+     {
+      "title": "Divide to find the mean",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{\\sum fx}{\\sum f}"
+       },
+       {
+        "tex": "&= \\frac{82215}{500}"
+       },
+       {
+        "tex": "&= 164.43 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "164.43 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q4#(c)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the mid-interval value of each class",
+      "lines": [
+       {
+        "text": "Add the ends of each interval and halve: $24$–$30$ gives $27$, $30$–$36$ gives $33$, $36$–$42$ gives $39$."
+       },
+       {
+        "text": "$42$–$48$ gives $45$, $48$–$54$ gives $51$, $54$–$60$ gives $57$."
+       }
+      ]
+     },
+     {
+      "title": "Find the sum of (mid-value × frequency)",
+      "lines": [
+       {
+        "tex": "\\sum fx &= 27(4) + 33(5) + 39(9) + 45(k) + 51(4) + 57(2)"
+       },
+       {
+        "tex": "&= 108 + 165 + 351 + 45k + 204 + 114"
+       },
+       {
+        "tex": "&= 942 + 45k"
+       }
+      ]
+     },
+     {
+      "title": "Find the total number of people",
+      "lines": [
+       {
+        "tex": "\\sum f &= 4 + 5 + 9 + k + 4 + 2"
+       },
+       {
+        "tex": "&= k + 24"
+       }
+      ]
+     },
+     {
+      "title": "Set mean = 40.4 and solve for k",
+      "lines": [
+       {
+        "text": "The mean is $\\sum fx$ divided by $\\sum f$."
+       },
+       {
+        "tex": "\\frac{942 + 45k}{k + 24} &= 40.4"
+       },
+       {
+        "tex": "942 + 45k &= 40.4(k + 24)"
+       },
+       {
+        "tex": "942 + 45k &= 40.4k + 969.6"
+       },
+       {
+        "tex": "45k - 40.4k &= 969.6 - 942"
+       },
+       {
+        "tex": "4.6k &= 27.6"
+       },
+       {
+        "tex": "k &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "k = 6"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-line-best-fit",
+   "title": "Draw a line of best fit by eye and predict",
+   "level": "HL",
+   "input": "scatter plot",
+   "output": "line, equation, prediction"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Plot the seven points",
+      "lines": [
+       {
+        "text": "Each point is (speed, fuel consumption): (40, 21), (48, 16), (56, 18), (64, 16), (88, 13), (96, 11), (112, 9)."
+       }
+      ]
+     },
+     {
+      "title": "Draw the line of best fit by eye",
+      "lines": [
+       {
+        "text": "The points slope downward, with about as many above the line as below."
+       },
+       {
+        "text": "The mean point is $(72,\\ 14.9)$, and the slope is about $-0.15$, so the line runs from about $(40,\\ 19.7)$ to $(112,\\ 8.9)$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Line of best fit drawn through the plotted points}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q8#(a)(i), (ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Plot car G",
+      "lines": [
+       {
+        "text": "Car G has city 30 and motorway 40, so plot the point $(30, 40)$ and label it G."
+       }
+      ]
+     },
+     {
+      "title": "Plot car H",
+      "lines": [
+       {
+        "text": "Car H has city 17 and motorway 30, so plot the point $(17, 30)$ and label it H."
+       }
+      ]
+     },
+     {
+      "title": "Draw the line of best fit by eye",
+      "lines": [
+       {
+        "text": "Draw one straight line through the middle of the points, with some points above it and some below, rising from left to right."
+       },
+       {
+        "text": "The line shown passes through $(20, 31)$ and $(50, 61)$."
+       }
+      ]
+     }
+    ],
+    "final": "G(30, 40),\\ H(17, 30)\\text{ and a line of best fit}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q8#(a)(iii), (iv)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Estimate the motorway value for K",
+      "lines": [
+       {
+        "text": "K has city 20. Go up from 20 on the city axis to the line of best fit, then across to the motorway axis. This reads about 31."
+       }
+      ]
+     },
+     {
+      "title": "Estimate the city value for L",
+      "lines": [
+       {
+        "text": "L has motorway 60. Go across from 60 on the motorway axis to the line of best fit, then down to the city axis. This reads about 49."
+       }
+      ]
+     },
+     {
+      "title": "Decide which estimate to trust",
+      "lines": [
+       {
+        "text": "K is more reliable. A city value of 20 lies inside the range of the data (15 to 30), so the estimate is interpolation."
+       },
+       {
+        "text": "L is well beyond all of the given data points, so the line is being extended into a region with no evidence (extrapolation)."
+       }
+      ]
+     }
+    ],
+    "final": "K \\approx 31,\\ L \\approx 49;\\ \\text{more confident in K, as L is well beyond the data}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-quartiles-iqr",
+   "title": "Find quartiles and the interquartile range",
+   "level": "OL",
+   "input": "data set",
+   "output": "Q₁, Q₂, Q₃, IQR"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(b)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the smallest and largest possible heights",
+      "lines": [
+       {
+        "text": "The tallest girl is at most $185$ cm and the shortest is at least $145$ cm."
+       },
+       {
+        "tex": "\\text{Range} &= 185 - 145"
+       },
+       {
+        "tex": "&= 40 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "40 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(a)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Range = highest minus lowest",
+      "lines": [
+       {
+        "text": "Highest rainfall is 155 mm (2003). Lowest is 47 mm (2006)."
+       },
+       {
+        "tex": "\\text{Range} &= 155 - 47"
+       },
+       {
+        "tex": "&= 108 \\text{ mm}"
+       }
+      ]
+     },
+     {
+      "title": "Year of highest rainfall",
+      "lines": [
+       {
+        "text": "The largest rainfall value, 155 mm, is in 2003."
+       }
+      ]
+     },
+     {
+      "title": "Year of least sunshine",
+      "lines": [
+       {
+        "text": "The smallest sunshine value, 124 hours, is in 2002."
+       }
+      ]
+     }
+    ],
+    "final": "108 \\text{ mm}, \\ 2003, \\ 2002"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q7#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the maximum, minimum and range for Fish",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 177"
+       },
+       {
+        "tex": "\\text{Minimum} &= 59"
+       },
+       {
+        "tex": "\\text{Range} &= 177 - 59"
+       },
+       {
+        "tex": "&= 118"
+       }
+      ]
+     },
+     {
+      "title": "Find the maximum, minimum and range for Milk, Cheese and Eggs",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 175"
+       },
+       {
+        "tex": "\\text{Minimum} &= 65"
+       },
+       {
+        "tex": "\\text{Range} &= 175 - 65"
+       },
+       {
+        "tex": "&= 110"
+       }
+      ]
+     },
+     {
+      "title": "Find the maximum, minimum and range for Fruits, Vegetables and Potatoes",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 172"
+       },
+       {
+        "tex": "\\text{Minimum} &= 48"
+       },
+       {
+        "tex": "\\text{Range} &= 172 - 48"
+       },
+       {
+        "tex": "&= 124"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Fish } 177, 59, 118;\\ \\text{Milk } 175, 65, 110;\\ \\text{Fruit } 172, 48, 124"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q1#(b)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split the 12 ranked values into a lower and upper half",
+      "lines": [
+       {
+        "text": "There are 12 values, so the lower half is the first 6: $42, 64, 93, 94, 114, 114$."
+       }
+      ]
+     },
+     {
+      "title": "Find Q1 as the median of the lower half",
+      "lines": [
+       {
+        "text": "The median of 6 values is the mean of the 3rd and 4th values: $93$ and $94$."
+       },
+       {
+        "tex": "Q_1 &= \\frac{93+94}{2}"
+       },
+       {
+        "tex": "&= \\frac{187}{2}"
+       },
+       {
+        "tex": "&= 93.5 \\text{ mm}"
+       }
+      ]
+     },
+     {
+      "title": "Subtract to get the interquartile range",
+      "lines": [
+       {
+        "tex": "\\text{IQR} &= Q_3 - Q_1"
+       },
+       {
+        "tex": "&= 183 - 93.5"
+       },
+       {
+        "tex": "&= 89.5 \\text{ mm}"
+       }
+      ]
+     }
+    ],
+    "final": "Q_1 = 93.5 \\text{ mm}, \\quad \\text{IQR} = 89.5 \\text{ mm}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q4#(a)(i), (ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the median using the middle two values",
+      "lines": [
+       {
+        "text": "There are 12 ages, so the median is the mean of the 6th and 7th values. These are $x$ and $18$."
+       },
+       {
+        "tex": "\\text{Median} &= \\frac{x + 18}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Set the median equal to 17.5 and solve",
+      "lines": [
+       {
+        "tex": "\\frac{x + 18}{2} &= 17.5"
+       },
+       {
+        "tex": "x + 18 &= 35"
+       },
+       {
+        "tex": "x &= 17"
+       }
+      ]
+     },
+     {
+      "title": "Find Q3 from the top six ages",
+      "lines": [
+       {
+        "text": "With $x = 17$ the top six ages are $18, 18, 19, 22, 25, 30$. $Q_3$ is the median of these, the mean of the 3rd and 4th."
+       },
+       {
+        "tex": "Q_3 &= \\frac{19 + 22}{2}"
+       },
+       {
+        "tex": "&= \\frac{41}{2}"
+       },
+       {
+        "tex": "&= 20.5"
+       }
+      ]
+     },
+     {
+      "title": "Work out the interquartile range",
+      "lines": [
+       {
+        "tex": "\\text{IQR} &= Q_3 - Q_1"
+       },
+       {
+        "tex": "&= 20.5 - 13"
+       },
+       {
+        "tex": "&= 7.5"
+       }
+      ]
+     }
+    ],
+    "final": "x = 17, \\quad \\text{IQR} = 7.5"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(e)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the median",
+      "lines": [
+       {
+        "text": "With 8 numbers the median is the mean of $D$ and $E$."
+       },
+       {
+        "tex": "\\frac{D + E}{2} &= 12.5"
+       },
+       {
+        "tex": "D + E &= 25"
+       }
+      ]
+     },
+     {
+      "title": "Use the lower quartile",
+      "lines": [
+       {
+        "text": "The lower quartile is the median of $A, B, C, D$, which is the mean of $B$ and $C$."
+       },
+       {
+        "tex": "\\frac{B + C}{2} &= 7.5"
+       },
+       {
+        "tex": "B + C &= 15"
+       }
+      ]
+     },
+     {
+      "title": "Use the interquartile range",
+      "lines": [
+       {
+        "text": "The upper quartile is the mean of $F$ and $G$."
+       },
+       {
+        "tex": "Q_3 - 7.5 &= 12"
+       },
+       {
+        "tex": "Q_3 &= 19.5"
+       },
+       {
+        "tex": "\\frac{F + G}{2} &= 19.5"
+       },
+       {
+        "tex": "F + G &= 39"
+       },
+       {
+        "tex": "F + 23 &= 39"
+       },
+       {
+        "tex": "F &= 16"
+       }
+      ]
+     },
+     {
+      "title": "Use the mean",
+      "lines": [
+       {
+        "tex": "A + B + C + D + E + F + G + H &= 8 \\times 13.5"
+       },
+       {
+        "tex": "A + B + C + D + E + F + G + H &= 108"
+       },
+       {
+        "tex": "A + H + 15 + 25 + 16 + 23 &= 108"
+       },
+       {
+        "tex": "A + H + 79 &= 108"
+       },
+       {
+        "tex": "A + H &= 29"
+       }
+      ]
+     },
+     {
+      "title": "Use the range",
+      "lines": [
+       {
+        "tex": "H - A &= 21"
+       },
+       {
+        "tex": "2H &= 29 + 21"
+       },
+       {
+        "tex": "H &= 25"
+       },
+       {
+        "tex": "A &= 29 - 25"
+       },
+       {
+        "tex": "A &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Split D + E and B + C",
+      "lines": [
+       {
+        "text": "$D + E = 25$ with $D < E$ and a gap of at least 2: $D = 12, E = 13$ fails (gap 1) and $D = 10, E = 15$ fails because $F = 16$ is only 1 above 15. So $D = 11$, $E = 14$."
+       },
+       {
+        "text": "$B + C = 15$ with $C \\le 9$ (a gap of at least 2 below $D = 11$) and $B \\ge 6$ (a gap of at least 2 above $A = 4$): $B = 6$, $C = 9$. (B = 7, C = 8 is not allowed because $C$ must be at least 2 more than $B$, so $C \\ge B + 2$. With $B + C = 15$ this gives $B \\le 6.5$, and with $B \\ge 6$ this forces $B = 6$.)"
+       }
+      ]
+     },
+     {
+      "title": "Complete the boxes",
+      "lines": [
+       {
+        "text": "The completed boxes are shown in the figure."
+       }
+      ]
+     }
+    ],
+    "final": "A=4,\\ B=6,\\ C=9,\\ D=11,\\ E=14,\\ F=16,\\ G=23,\\ H=25"
+   }
+  ]
+ }
+]
