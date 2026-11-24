@@ -147,6 +147,31 @@ first full LC-mode test once exam value exists (25 years of tagged papers).
 - Not under `content/<subject>/`: `build_notes.py` reads every `.json` there as a
   subsection.
 
+**Geography (2026-11-24, forked session).** Subsection graph: 98 subsections, 317 links. Point graph:
+13,753 items, 8,726 links (23% essential), 1,822 cost-2 items, 63 two-way loops. The loops are almost all one
+fact told in two subsections; bundling handles them. Geography packages built the Biology way were about 3×
+too big for agents to read reliably, so `drafts/crunch/geography/parts.py` makes a grid instead. Each target chunk
+(≤200 items) pairs with candidate groups (≤75 KB). Group 1 rates cost and links; later groups add links only.
+`parts.py check` audits the packages, and `parts.py join` unions the groups into one file per subsection before
+`crunch_points.py geography merge`. The run was 152 Sonnet jobs in 8 waves. Packages were sent back for:
+- default-filled cost packages;
+- raising cost to reach an expected cost-2 rate;
+- keyword-scanning candidates;
+- links from one target to another in links-only packages.
+**Student picks.** Each Geography student studies 1 of 2 electives, 1 of 4 options and 1 of 2 continental study
+regions (India or Brazil). The map asks for all three and drops the rest as "not your course". This is not a
+crunch cut. In `crunch_map.py`, each subsection gets a track (e.g. `option:geoecology`), and elective and option
+questions are tied to theirs. A part on India also counts for Brazil, because past papers tag only India.
+**Paper structure** is per subject in `crunch_map.py` `SUBJECTS`, as `groups` {group: [share, best K]}:
+- Geography: Part One is 1/5, best 10 of 12; physical, regional, elective and option are 1/5 each, best 1.
+- Biology: Q1 is 1/6; the optional questions are 5/6, best 5 of 6.
+`crunch-score.js` reads the groups (Biology's results are unchanged) and gives `crunchCourse(D, picks)`.
+Geography Crunch map: https://claude.ai/artifact/L8iWBKKiqb1KqdsBfc7uU1. Results for Economic, Global
+Interdependence and India, calibrated on 2017–2026 HL papers with no point tags: an 85% target cuts 48% of
+study effort, 75% cuts 55%, 55% cuts 74% and 35% cuts 89%.
+Not modelled: the "any two of three parts" choice inside long questions, and the Geographical Investigation
+(20%, coursework).
+
 ## Status (2026-11-23)
 Biology point graph drafted by Sonnet, one agent per subsection: 10,583 items,
 8,389 links (3,590 essential), 2,113 cost-2 items (total cost 12,696), 29 two-way

@@ -2,9 +2,12 @@
 
     python3 scripts/crunch_map.py biology   # writes drafts/crunch/<subject>/map/data.json
 
-data.json is one object: chapters [[id, title]], subs [[sid, title, chapter index, exam marks, [years examined]]],
+data.json is one object: chapters [[id, title]], subs [[sid, title, chapter index, exam marks, [years examined], track]],
 items [[id, sub index, cost, text]], links [[item index, needs index, 1 essential | 0 helpful]],
-papers [{year, qs: [{opt: 0 compulsory | 1 optional, slots: [[marks, k, [item index]]]}]}] (Higher Level).
+papers [{year, qs: [{g: group, need: track, slots: [[marks, k, [item index]]]}]}] (Higher Level),
+groups {group: [share of the paper, how many to answer]}, picks {kind: [[track, label]]}.
+A track ("kind:value", e.g. "option:geoecology") marks content only some students study; the page keeps the
+student's pick and drops the rest, and a question with `need` set is only on the paper for that track.
 A slot is one marking point, earned by knowing any k of its items. Parts tagged to points
 (content/crunch/<subject>-exam-tags.json) use those tags; untagged parts fall back to one slot per
 point of their subsections, the part's marks split evenly.
@@ -19,25 +22,81 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from crunch_points import ROOT, items
 
 
+def geo_track(sid):
+    ch = sid.rsplit("-s", 1)[0]
+    if ch.startswith("geo-economic-"):
+        return "elective:economic"
+    if ch in ("geo-population-migration", "geo-urban"):
+        return "elective:human"
+    if ch.startswith("geo-option-"):
+        return "option:" + ch[len("geo-option-"):]
+    if ch == "geo-region-continental":
+        return "region:" + sid
+    return ""
+
+
+GEO_OPTIONS = ["global-interdependence", "geoecology", "culture-identity", "atmosphere-ocean"]  # Q13-15, 16-18, 19-21, 22-24
+
+
+def geo_question(q):
+    n, sec = q["questionNumber"], q["sectionId"]
+    if sec == "geo-sectionP1":
+        return "short", ""
+    if sec == "geo-sectioncore":
+        return ("physical" if n <= 3 else "regional"), ""
+    if sec == "geo-sectionelective":
+        return "elective", "elective:" + ("economic" if n <= 9 else "human")
+    return "option", "option:" + GEO_OPTIONS[(n - 13) // 3]
+
+
+# Paper structure per subject. groups: {group: [share of the paper, answer K]}, K None = all, marks-weighted;
+# 0 < K < 1 = that share of the group's questions; K >= 1 = the best K. question(q) -> (group, track it needs or "").
+SUBJECTS = {
+    "biology": {"groups": {"A": [1 / 6, None], "BC": [5 / 6, 5 / 6]},
+                "question": lambda q: ("A" if q["sectionId"] == "bio-sectionA" else "BC", ""), "track": lambda sid: ""},
+    # HL written paper: Part One 80 (best 10 of 12 short questions), then 80 each for one physical, one regional,
+    # one elective and one option question.
+    "geography": {"groups": {"short": [0.2, 10], "physical": [0.2, 1], "regional": [0.2, 1], "elective": [0.2, 1], "option": [0.2, 1]},
+                  "question": geo_question, "track": geo_track,
+                  "picks": {"elective": [["elective:economic", "Economic Activities"], ["elective:human", "Human Environment"]],
+                            "option": [["option:" + o, t] for o, t in zip(GEO_OPTIONS, ["Global Interdependence", "Geoecology", "Culture and Identity", "Atmosphere-Ocean Environment"])],
+                            "region": [["region:geo-region-continental-s1", "India"], ["region:geo-region-continental-s2", "Brazil"]]}},
+}
+
+
+def variants(refs, track):
+    """A part on one study region counts for every region a student could have studied instead (India or Brazil)."""
+    out = [refs]
+    for r in refs:
+        kind = track(r).split(":")[0]
+        if kind == "region":
+            alts = [s for s in ALL_SIDS if track(s).split(":")[0] == kind and s != r]
+            out += [[a if x == r else x for x in refs] for a in alts]
+    return out
+
+
+ALL_SIDS = []
+
+
 def higher_questions(subject):
     s = (ROOT / f"{subject}-exam-questions.js").read_text()
     return [q for q in json.loads(s[s.index("[", s.index("concat(")):s.rindex("]") + 1]) if q.get("level") == "higher"]
 
 
-def exam_marks(qs):
+def exam_marks(qs, track):
     """Higher Level past-paper marks and years per subsection; a part tagged to several subsections splits its marks evenly."""
     marks, years = {}, {}
     for q in qs:
         for p in q["parts"]:
-            refs = p.get("notesRefs") or []
-            for r in refs:
-                marks[r] = marks.get(r, 0) + p["marks"] / len(refs)
-                years.setdefault(r, set()).add(q["year"])
+            for refs in variants(p.get("notesRefs") or [], track):
+                for r in refs:
+                    marks[r] = marks.get(r, 0) + p["marks"] / len(refs)
+                    years.setdefault(r, set()).add(q["year"])
     return marks, years
 
 
-def papers(qs, all_items, pos, tags):
-    """Each paper's questions as marking-point slots over item indexes. Section A is compulsory (the 2027 Q1); B and C are optional."""
+def papers(qs, all_items, pos, tags, cfg):
+    """Each paper's questions as marking-point slots over item indexes, with their group in the paper structure."""
     by_year = {}
     for q in qs:
         slots = []
@@ -52,10 +111,12 @@ def papers(qs, all_items, pos, tags):
                 if subs_hit:
                     slots.append([p["marks"], 0, [pos[i] for r in subs_hit for i, _, _ in all_items[r][1]]])
             else:
-                pts = [pos[i] for r in p.get("notesRefs") or [] if r in all_items for i, _, _ in all_items[r][1]]
-                slots += [[p["marks"] / len(pts), 1, [i]] for i in pts]
+                for refs in variants(p.get("notesRefs") or [], cfg["track"]):
+                    pts = [pos[i] for r in refs if r in all_items for i, _, _ in all_items[r][1]]
+                    slots += [[p["marks"] / len(pts), 1, [i]] for i in pts]
         if slots:
-            by_year.setdefault(q["year"], []).append({"opt": 0 if q["sectionId"] == "bio-sectionA" else 1,
+            g, need = cfg["question"](q)
+            by_year.setdefault(q["year"], []).append({"g": g, **({"need": need} if need else {}),
                                                       "slots": [[round(m, 4), k, o] for m, k, o in slots]})
     return [{"year": y, "qs": by_year[y]} for y in sorted(by_year)]
 
@@ -64,19 +125,22 @@ def main(subject):
     all_items = items(subject)
     points = json.loads((ROOT / "content" / "crunch" / f"{subject}-points.json").read_text())
     index_js = (ROOT / "subject-index.js").read_text()
-    chapter_ids = sorted({sid.split("-")[0] for sid in all_items}, key=lambda c: int(re.sub(r"\D", "", c)))
+    cfg = SUBJECTS[subject]
+    chap = lambda sid: sid.rsplit("-s", 1)[0]
+    chapter_ids = sorted({chap(sid) for sid in all_items}, key=lambda c: index_js.index('"id":"%s"' % c))
     chapters = []
     for c in chapter_ids:
         m = re.search(r'\{"id":"%s","title":"([^"]+)"' % c, index_js)
         chapters.append([c, m.group(1) if m else c])
     ch_index = {c: i for i, (c, _) in enumerate(chapters)}
-    sids = sorted(all_items, key=lambda s: [int(n) for n in re.findall(r"\d+", s)])
+    sids = sorted(all_items, key=lambda s: (ch_index[chap(s)], int(s.rsplit("-s", 1)[1])))
+    ALL_SIDS[:] = sids
     qs = higher_questions(subject)
-    marks, years = exam_marks(qs)
+    marks, years = exam_marks(qs, cfg["track"])
     subs, rows = [], []
     for si, sid in enumerate(sids):
         title, its = all_items[sid]
-        subs.append([sid, title, ch_index[sid.split("-")[0]], round(marks.get(sid, 0), 2), sorted(years.get(sid, []))])
+        subs.append([sid, title, ch_index[chap(sid)], round(marks.get(sid, 0), 2), sorted(years.get(sid, [])), cfg["track"](sid)])
         for iid, text, h in its:
             p = points[iid]
             assert p["hash"] == h, f"{iid} text changed since it was rated; re-run that package"
@@ -86,11 +150,12 @@ def main(subject):
              for iid, *_ in rows for l in points[iid]["needs"]]
     tag_file = ROOT / "content" / "crunch" / f"{subject}-exam-tags.json"
     tags = json.loads(tag_file.read_text()) if tag_file.exists() else {}
-    paper_list = papers(qs, all_items, pos, tags)
+    paper_list = papers(qs, all_items, pos, tags, cfg)
     out = ROOT / "drafts" / "crunch" / subject / "map"
     out.mkdir(parents=True, exist_ok=True)
     (out / "data.json").write_text(json.dumps(
-        {"subject": subject, "chapters": chapters, "subs": subs, "items": rows, "links": links, "papers": paper_list},
+        {"subject": subject, "chapters": chapters, "subs": subs, "items": rows, "links": links, "papers": paper_list,
+         "groups": cfg["groups"], "picks": cfg.get("picks", {})},
         ensure_ascii=False, separators=(",", ":")))
     print(f"{len(rows)} items, {len(links)} links, {len(subs)} subsections, {len(chapters)} chapters, "
           f"{len(paper_list)} papers ({len(tags)} questions tagged to points) → {out / 'data.json'}")

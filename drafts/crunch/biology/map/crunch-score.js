@@ -8,7 +8,28 @@
 // answers 5 in 6 and drops the ones they're least prepared for. Papers are weighted by recency (half-life in
 // years). Subsections the old papers never tested (new-course content) are assumed to carry course-average
 // marks, newShare of the paper. Without D.papers, every point carries the same share.
+// D.groups gives the paper structure: {group: [share of the paper, K]} where K null = every question, marks-weighted;
+// 0 < K < 1 = that share of the group's questions; K >= 1 = the best K. Old data without groups is Biology's.
 (function () {
+  const groupsOf = D => D.groups || { 0: [1 / 6, null], 1: [5 / 6, 5 / 6] };
+  const gOf = q => (q.g ?? q.opt);
+  const answerK = (k, n, choice) => (k == null ? null : !choice ? n : k < 1 ? k * n : Math.min(k, n));
+  const byGroup = qs => { const by = {}; for (const q of qs) (by[gOf(q)] ||= []).push(q); return by; };
+
+  // The student's own course: subsections on a track they didn't pick ("option:geoecology" when they study
+  // another option) drop out, and so do questions that need another track. picks = {kind: track}.
+  globalThis.crunchCourse = function (D, picks) {
+    const on = t => !t || picks[t.split(":")[0]] === t;
+    const keep = D.items.map(r => on(D.subs[r[1]][5]));
+    const at = new Int32Array(D.items.length).fill(-1);
+    let n = 0;
+    keep.forEach((k, i) => { if (k) at[i] = n++; });
+    const papers = (D.papers || []).map(p => ({ year: p.year, qs: p.qs.filter(q => on(q.need))
+      .map(q => ({ ...q, slots: q.slots.map(([m, k, o]) => [m, k, o.filter(i => keep[i]).map(i => at[i])]).filter(x => x[2].length) }))
+      .filter(q => q.slots.length) }));
+    return { ...D, items: D.items.filter((_, i) => keep[i]), links: D.links.filter(([a, b]) => keep[a] && keep[b]).map(([a, b, e]) => [at[a], at[b], e]),
+      papers, notInCourse: D.items.length - n };
+  };
   function scc(N, needs) {
     // Tarjan, iterative. Components come out prerequisites-first: if v needs w, comp[w] <= comp[v].
     const idx = new Int32Array(N).fill(-1), low = new Int32Array(N), onS = new Uint8Array(N), comp = new Int32Array(N);
@@ -72,18 +93,24 @@
     return D.subs.map(s => (s[4].reduce((a, y) => a + w(y), 0) + 0.5) / (W + 1));
   };
 
-  // Score one real paper the 2027 way, using only what was actually asked (tagged slots):
-  // Section A is 1/6, and the best 5 in 6 optional questions make up the other 5/6.
-  function realPaperScore(p, kept, choice) {
+  // Score one real paper the 2027 way, using only what was actually asked (tagged slots): each group of
+  // questions earns its share of the paper, from the best K answered (for Biology, Q1 is 1/6 and the best
+  // 5 in 6 optional questions the other 5/6).
+  function realPaperScore(p, kept, choice, GR) {
     const real = q => q.slots.filter(x => x[1] > 0);
     const marks = q => real(q).reduce((t, x) => t + x[0], 0);
     const cov = q => { const m = marks(q); return m ? real(q).reduce((a, [mk, k, o]) => a + mk * Math.min(1, o.filter(i => kept[i]).length / k), 0) / m : 0; };
-    const A = p.qs.filter(q => !q.opt && marks(q)), O = p.qs.filter(q => q.opt && marks(q));
-    const attA = A.reduce((s, q) => s + marks(q), 0);
-    const sA = attA ? A.reduce((s, q) => s + (cov(q) * marks(q)) / attA, 0) : 0;
-    const oc = O.map(cov).sort((a, b) => b - a), K = choice ? (5 / 6) * O.length : O.length;
-    let sO = 0; for (let i = 0; i < oc.length; i++) sO += oc[i] * Math.max(0, Math.min(1, K - i));
-    return attA && K ? (sA + (5 * sO) / K) / 6 : K ? sO / K : sA;
+    const by = byGroup(p.qs.filter(marks));
+    let s = 0, shares = 0;
+    for (const g in by) {
+      const qs = by[g], [share, k] = GR[g], K = answerK(k, qs.length, choice);
+      shares += share;
+      if (K == null) { const m = qs.reduce((a, q) => a + marks(q), 0); s += (share * qs.reduce((a, q) => a + cov(q) * marks(q), 0)) / m; continue; }
+      const oc = qs.map(cov).sort((a, b) => b - a);
+      let t = 0; for (let i = 0; i < oc.length; i++) t += oc[i] * Math.max(0, Math.min(1, K - i));
+      s += (share * t) / K;
+    }
+    return shares ? s / shares : 0;
   }
 
   // Backtest the cut: choose points from older papers, mark them on newer ones. Returns f(level) = the share of marks a
@@ -104,7 +131,7 @@
         const kept = new Uint8Array(N);
         let newKept = 0;
         for (let i = 0; i < N; i++) if (r.y[i] + 5 < L) { kept[i] = 1; if (r.isNew[i]) newKept++; }
-        const paper = test.reduce((s, p) => s + realPaperScore(p, kept, P.choice), 0) / test.length;
+        const paper = test.reduce((s, p) => s + realPaperScore(p, kept, P.choice, groupsOf(D)), 0) / test.length;
         sum[li] += 100 * ((1 - r.rho) * paper + r.rho * (nNew ? newKept / nNew : 1));
       });
       used++;
@@ -143,16 +170,16 @@
     const pwSum = pw.reduce((a, b) => a + b, 0) || 1;
     const slots = [], questions = [], pointSlots = Array.from({ length: N }, () => []);
     const paperQs = papers.map(() => []);
+    const GR = groupsOf(D);
     papers.forEach((p, pi) => {
-      const comp_ = p.qs.filter(q => !q.opt), opt = p.qs.filter(q => q.opt);
       const attOf = q => q.slots.filter(x => x[1] > 0 || !q.slots.some(y => y[1] > 0)).reduce((s, x) => s + x[0], 0);
-      const attA = comp_.reduce((a, q) => a + attOf(q), 0);
-      const K = P.choice ? (5 / 6) * opt.length : opt.length;
+      const by = byGroup(p.qs);
+      const shares = Object.keys(by).reduce((a, g) => a + GR[g][0], 0); // a group missing from a paper gives its share to the rest
       for (const q of p.qs) {
-        const att = q.slots.filter(x => x[1] > 0 || !q.slots.some(y => y[1] > 0)).reduce((s, x) => s + x[0], 0);
-        const optShare = attA ? 5 / 6 : 1; // a paper with no short questions puts everything on the optional ones
-        const w = q.opt ? optShare / K : (1 / 6) * (att / attA);
-        const Q = { paper: pi, opt: q.opt, att, w, cov: 1, inTop: 1, slots: [], K };
+        const g = gOf(q), [share, k] = GR[g], K = answerK(k, by[g].length, P.choice);
+        const att = attOf(q), attG = by[g].reduce((a, x) => a + attOf(x), 0);
+        const w = K == null ? (share / shares) * (attG ? att / attG : 0) : share / shares / K;
+        const Q = { paper: pi, g, att, w, cov: 1, inTop: 1, slots: [], K };
         // Tagged slots carry `exact` of a part's marks; a spread slot (k = 0) carries the rest, one point each.
         const exact = P.exact == null ? 1 : P.exact, spreadOnly = !q.slots.some(x => x[1] > 0);
         const add = (marks, k, opts) => {
@@ -169,7 +196,7 @@
         questions.push(Q); paperQs[pi].push(Q);
       }
     });
-    const setTop = pi => { const opt = paperQs[pi].filter(q => q.opt); if (opt.length) counted(opt, opt[0].K); };
+    const setTop = pi => { const by = byGroup(paperQs[pi].filter(q => q.K != null)); for (const g in by) counted(by[g], by[g][0].K); };
     papers.forEach((_, pi) => setTop(pi));
     const slotCov = s => s.marks * Math.min(1, s.G / s.k);
     const rawScore = pi => paperQs[pi].reduce((a, q) => a + q.w * q.inTop * q.cov, 0);
