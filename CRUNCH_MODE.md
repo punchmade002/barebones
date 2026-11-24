@@ -27,6 +27,16 @@ overall grade. The cut targets the written paper (target − weight × AAC) ÷
 reaches the grade, everything is hidden. If the written paper would need over 100%,
 everything is kept and the page says it's out of reach.
 
+**Map view (2026-11-24).** The x-axis is the overall grade at which a point is
+first needed (its calibrated written level, put through the AAC). A line counts
+the points in each 5% grade bracket. The vertical bar is the target grade: points
+to its left are kept, points to its right are hidden. Clicking a bracket lists its
+points. Under the chart, a Chapters panel shows each chapter's kept and total
+counts and how much it is cut at the target. Clicking a chapter filters the
+chart, stats and lists to that chapter. The Biology line is very lopsided: with
+an 80% AAC, most points sit at 85–90% overall, because they only matter for a
+near-perfect written paper.
+
 **Target maths.**
 - Coursework is subtracted first. For example, Biology 80% overall with 95%
   expected on the 40% investigation: written paper needs (80 − 0.4×95)/0.6 = 70%.
