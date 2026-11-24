@@ -1,0 +1,693 @@
+{
+ "geo-economic-globalisation-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.4",
+    "strength": "helpful",
+    "why": "air freight of light goods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.0.1",
+    "strength": "helpful",
+    "why": "headquarters and branch structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.2.2",
+    "strength": "helpful",
+    "why": "EU single market",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.4.1",
+    "strength": "helpful",
+    "why": "IDA grants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.0.2",
+    "strength": "helpful",
+    "why": "plants compete for investment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.4.1",
+    "strength": "helpful",
+    "why": "grants as location factor",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.2.2",
+    "strength": "helpful",
+    "why": "single market without tariffs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.0",
+    "strength": "helpful",
+    "why": "market access as location factor",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.2.2",
+    "strength": "helpful",
+    "why": "labour skills as location factor",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.4.0",
+    "strength": "helpful",
+    "why": "Intel arrival at Leixlip",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.6.0",
+    "strength": "helpful",
+    "why": "Dell 2009 move to Poland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.1.2",
+    "strength": "helpful",
+    "why": "tariffs and trade blocs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.2.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.16.1",
+    "strength": "helpful",
+    "why": "India iPhone assembly",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.4.2",
+    "strength": "helpful",
+    "why": "Fab 34 at Leixlip",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.1.2",
+    "strength": "helpful",
+    "why": "trade bloc strategy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.5.2",
+    "strength": "helpful",
+    "why": "Dell in Limerick",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.5.2",
+    "strength": "helpful",
+    "why": "Dell in Limerick",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.1.0",
+    "strength": "helpful",
+    "why": "labour and land costs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.3.0",
+    "strength": "helpful",
+    "why": "Intel company background",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.4.4",
+    "strength": "helpful",
+    "why": "Fab 34 joint venture",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.4.1",
+    "strength": "essential",
+    "why": "CHIPS Act subsidy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.8.b": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.0.1",
+    "strength": "helpful",
+    "why": "core and headquarters R&D",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.8.1",
+    "strength": "helpful",
+    "why": "core versus other countries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.8.2",
+    "strength": "essential",
+    "why": "maturity stage relocation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.8.2",
+    "strength": "essential",
+    "why": "maturity stage standardisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.6.0",
+    "strength": "helpful",
+    "why": "Dell move to Poland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.8.2",
+    "strength": "essential",
+    "why": "mature-stage pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.3.3",
+    "strength": "helpful",
+    "why": "Hillsboro development fab",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.4.3",
+    "strength": "essential",
+    "why": "Fab 34 Intel 4 and 3",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.10.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.10.0",
+    "strength": "helpful",
+    "why": "Nvidia and rivals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.8.b",
+    "strength": "helpful",
+    "why": "product life cycle",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.3.3",
+    "strength": "helpful",
+    "why": "what a fab is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.0.2",
+    "strength": "helpful",
+    "why": "ICT lets HQ direct branches",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.5.1",
+    "strength": "essential",
+    "why": "Dell direct model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.9.1",
+    "strength": "helpful",
+    "why": "cloud computing server makers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.11.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.12.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.1.0",
+    "strength": "helpful",
+    "why": "IDA Ireland role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.13.2",
+    "strength": "helpful",
+    "why": "AppleCare in Cork",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.1.2",
+    "strength": "helpful",
+    "why": "Microsoft in Ireland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.12.b",
+    "strength": "helpful",
+    "why": "teleservices meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.1.2",
+    "strength": "helpful",
+    "why": "Google Dublin headquarters",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.1.2",
+    "strength": "helpful",
+    "why": "Meta Dublin headquarters",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.14.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.14.1",
+    "strength": "helpful",
+    "why": "data centre share of electricity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.15.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.5.1",
+    "strength": "essential",
+    "why": "Dell direct online model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.15.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.16.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-globalisation-s2.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.4.4",
+    "strength": "essential",
+    "why": "reshoring defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2.16.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.2.0",
+    "strength": "essential",
+    "why": "15% minimum tax rate",
+    "confidence": "high"
+   }
+  ]
+ }
+}
