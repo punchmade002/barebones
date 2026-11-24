@@ -271,3 +271,15 @@ At a 55% target, kept points missing an essential foundation fell from 2.7% to 0
 - History: 85% → 51%, 75% → 77%, 55% → 85%, 35% → 92%.
 History's past-year range is very wide (as low as about 20% in 3 of 16 years at most targets), because a whole
 essay rides on one topic coming up.
+
+## 2026 Biology paper (2026-11-24)
+The exam-bank work (gap-filled model answers and the 2026 HL paper, 17 questions) was cherry-picked onto `uxtinker`
+as a2e9c1a7. A full merge of `claude/zealous-banach-62c911` would also have brought in three unrelated master commits
+and conflicted. `crunch_map.py` now flags a paper as `untagged` when a point-tagged subject has questions without
+point tags. `crunchBacktest` trains on such a paper but doesn't test on it, because its fallback marking (every point
+of the part's subsections) is far harsher: 2026 scored 16% where tagged years scored 45–66%.
+Even in training, untagged 2026 acts like exact = 0 on the newest paper. It shrinks cuts (85% overall with AAC 80:
+44% → 34%), and that is an artifact. Leaving 2026 out reproduces the pre-merge numbers exactly. The gap-filled answers
+change nothing until their 30 parts (1.2% of marks, 20 questions) are re-tagged: their tags are still empty.
+To do: point-tag the 17 2026 questions and re-tag those 20, then rebuild and republish. Published Biology map v7
+is still the pre-merge state.

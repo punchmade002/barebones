@@ -127,7 +127,9 @@
     const N = D.items.length, levels = [];
     for (let L = 0; L <= 100; L += 2) levels.push(L);
     const all = D.papers.map(p => p.year).sort((a, b) => a - b);
-    const testYears = all.slice(Math.min(minTrain, Math.max(1, all.length - 3))); // at least 3 test years where there are 4+ papers
+    // a paper flagged `untagged` (a new paper not point-tagged yet) is marked far more harshly, so it trains but isn't a test year
+    const testYears = all.slice(Math.min(minTrain, Math.max(1, all.length - 3))) // at least 3 test years where there are 4+ papers
+      .filter(Y => !D.papers.find(p => p.year === Y).untagged);
     const years = [], curves = [];
     for (const Y of testYears) {
       const test = D.papers.find(p => p.year === Y);

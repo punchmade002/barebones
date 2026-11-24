@@ -155,8 +155,11 @@ def papers(qs, all_items, pos, tags, cfg):
         idf = {w: math.log(len(vec) / d) for w, d in df.items()}
     if cfg.get("split"):  # a choice of titles inside one question: each title is a question of its own
         qs = [q for q0 in qs for q in ([q0] if cfg["question"](q0)[0] == "docs" else [{**q0, "parts": [p]} for p in q0["parts"]])]
+    untagged = set()  # years with questions a point-tagged subject hasn't tagged yet (e.g. a new paper)
     for q in qs:
         slots = []
+        if tags and q["id"] not in tags and not cfg.get("paragraphs"):
+            untagged.add(q["year"])
         for p in q["parts"]:
             if cfg.get("paragraphs") and q["id"] not in tags:
                 slots += paragraph_slots(p, all_items, pos, idf, vec)
@@ -186,7 +189,9 @@ def papers(qs, all_items, pos, tags, cfg):
             g, need = cfg["question"](q)
             by_year.setdefault(q["year"], []).append({"g": g, **({"need": need} if need else {}),
                                                       "slots": [[round(m, 4), k, o] for m, k, o in slots]})
-    return [{"year": y, "qs": by_year[y]} for y in sorted(by_year)]
+    # An untagged year is marked the fallback way (every point of its subsections), far harsher than tagged years:
+    # the page trains on it but doesn't use it as a backtest year (crunchBacktest).
+    return [{"year": y, "qs": by_year[y], **({"untagged": True} if y in untagged else {})} for y in sorted(by_year)]
 
 
 def main(subject):
