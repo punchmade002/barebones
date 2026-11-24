@@ -6,8 +6,8 @@ Read ONLY the batch file you are given, with the Read tool, every line to the en
 - CANDIDATES (shortlist): the note points you may tag, each as `[point-id] text`. A script picked them because they share words with the model answer, so many are near misses. Tag only the ones that really state what the answer uses.
 
 For EVERY part, list its marking points. A marking point is one thing the examiner gives marks for:
-- Short parts: usually one marking point per fact asked for (a definition, a named feature, a reason).
-- Long answers (20 and 30 marks) are marked in SRPs (significant relevant points) of 2 marks each, so a 30-mark answer has up to about 15. Each SRP is one marking point. A part never has more marking points than its marks ÷ 2 (at most 40 for an 80-mark essay), nor more than one per sentence of the model answer: one point that states a sentence's fact is one marking point, not several. Headings like "Option chosen – …" or "Process – Carbonation:" are not SRPs.
+- Short parts: one marking point per fact asked for (a definition, a named feature, a reason, one match in a matching question).
+- Long answers (20 and 30 marks) are marked in SRPs (significant relevant points) of 2 marks each, so a 30-mark answer has up to about 15. Each SRP is one marking point. A long part never has more marking points than its marks ÷ 2 (at most 40 for an 80-mark essay), nor more than one per sentence of the model answer: one point that states a sentence's fact is one marking point, not several. Headings like "Option chosen – …" or "Process – Carbonation:" are not SRPs.
 For each marking point, give the note points that let a student write it:
 - {"k": 1, "of": ["id"]}: the student needs that one point.
 - {"k": 1, "of": ["id1", "id2"]}: any ONE of these points earns it (the same fact is stated in two places).
