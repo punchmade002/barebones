@@ -162,34 +162,34 @@ button { font: inherit; cursor: pointer }
 
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsxgraph@1.8.0/distrib/jsxgraphcore.js"></script>
-<script src="maths-lessons.js"></script>
+<script src="maths-skills/index.js?v=5079c31dfc"></script>
+<script src="maths-packs.js"></script>
 <script>
-const LESSONS = window.MATHS_LESSONS || {}, CHAPTERS = window.MATHS_CHAPTERS || {};
 const KATEX_OPTS = { throwOnError: false, strict: 'ignore', macros: { '\\hl': '\\htmlClass{hl hl-#1}{#2}' },
   trust: ctx => ctx.command === '\\htmlClass' };
 const tex = (s, display) => katex.renderToString(s, { ...KATEX_OPTS, displayMode: display });
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const inline = s => String(s ?? '').split(/\$([^$]+)\$/).map((bit, i) => (i % 2 ? tex(bit, false) : esc(bit))).join('');
 const slotsIn = step => new Set([...JSON.stringify(step.lines).matchAll(/\\\\hl\{(\d)\}/g)].map(m => m[1]));
-const link = (n, text) => LESSONS[n.id] ? `<a href="?skill=${encodeURIComponent(n.id)}">${text}</a>` : text;
+const link = (n, text) => MathsPacks.byId[n.id]?.lesson ? `<a href="?skill=${encodeURIComponent(n.id)}">${text}</a>` : text;
 const app = document.getElementById('app');
 // difficulty: filled dots out of 3 plus the word, so it never relies on colour
 const GRADES = ['Beginner', 'Intermediate', 'Advanced'];
 const gradeTag = g => GRADES.includes(g)
   ? `<span class="grade" title="${g}"><span class="dots" aria-hidden="true">${GRADES.map((_, k) => `<i class="${k <= GRADES.indexOf(g) ? 'on' : ''}"></i>`).join('')}</span>${g}</span>` : '';
 
-const LESSON = LESSONS[new URLSearchParams(location.search).get('skill')];
+// one skill at a time (maths-packs.js): its first problem now, the other two once the student starts practising
+const SKILL_ID = new URLSearchParams(location.search).get('skill');
+let LESSON = null;
 
 // ── no ?skill= (or an unknown one): the list of lessons by chapter ──
 function renderIndex() {
   const by = {};
-  for (const l of Object.values(LESSONS)) (by[l.chapter] ||= []).push(l);
-  for (const c in by) by[c].sort((a, b) => (a.rank ?? 1e9) - (b.rank ?? 1e9));   // easiest first (difficulty.json)
-  const order = Object.keys(CHAPTERS).filter(c => by[c]);
+  for (const l of MathsPacks.list) (by[l.chapter] ||= []).push(l);      // already in chapter order, easiest first
   document.title = 'Maths skills';
   app.innerHTML = `<section class="index"><h1>Maths skills</h1>
-    <p>${Object.keys(LESSONS).length} skills, each taught through a real exam part with two backups.</p>
-    ${order.map(c => `<div class="chapter"><h2>${esc(CHAPTERS[c])}</h2><ul>${by[c].map(l =>
+    <p>${MathsPacks.list.length} skills${MathsPacks.level === 'ordinary' ? ' on the Ordinary Level course' : ''}. Each one starts with a short lesson, then exam problems to work through.</p>
+    ${Object.keys(by).map(c => `<div class="chapter"><h2>${esc(MathsPacks.chapters[c])}</h2><ul>${by[c].map(l =>
       `<li><a href="maths-learn.html?skill=${encodeURIComponent(l.id)}"><span>${esc(l.title)}</span><span class="tags">${gradeTag(l.grade)}<span class="lvl">${l.level}</span></span></a></li>`).join('')}</ul></div>`).join('')}
   </section>`;
 }
@@ -209,7 +209,7 @@ function stepHtml(step, k) {
 function header() {
   const p = LESSON.problems[state.i], first = state.i === 0 && !state.end;
   // a written practice problem is never called an exam problem
-  const label = state.i === 0 ? (p.image ? 'Exam problem' : 'Practice problem') : `Another one (${state.i} of ${LESSON.problems.length - 1})`;
+  const label = state.i === 0 ? (p.image ? 'Exam problem' : 'Practice problem') : `Another one (${state.i} of ${LESSON.count - 1})`;
   const where = state.end ? '' : label + (p.image ? ` · ${esc(p.source)}` : state.i ? ' · Practice problem' : '');
   const nec = first && LESSON.necessary.length
     ? `<button class="linkish" data-act="nec" aria-expanded="${state.showNec}">Necessary skills (${LESSON.necessary.length})</button>` : '';
@@ -264,7 +264,7 @@ function render() {
       if (done) work += `<div class="answer"><small>Answer</small>${tex(p.final, false)}</div>
         <div class="verdict"><p>Did every line make sense?</p><div class="row">
           <button class="btn btn-primary" data-act="got">Got it</button>
-          <button class="btn btn-plain" data-act="notyet">${state.i < LESSON.problems.length - 1 ? 'Not yet: give me another' : 'Not yet'}</button></div></div>`;
+          <button class="btn btn-plain" data-act="notyet">${state.i < LESSON.count - 1 ? 'Not yet: give me another' : 'Not yet'}</button></div></div>`;
     }
     const showSketch = state.started && p.graph;
     body = `${p.note ? `<p class="note"><span class="lbl">What's different</span>${inline(p.note)}</p>` : ''}
@@ -339,9 +339,12 @@ app.addEventListener('mouseover', e => { const h = e.target.closest('.hl'); if (
   const k = [...h.classList].find(c => /^hl-\d$/.test(c))?.slice(3); if (k) focusSlot(k) });
 app.addEventListener('mouseout', e => { if (e.target.closest('.hl')) focusSlot(null) });
 
-app.addEventListener('click', e => {
+app.addEventListener('click', async e => {
   const act = e.target.closest('[data-act]')?.dataset.act; if (!act) return;
-  const last = LESSON.problems.length - 1;
+  const last = LESSON.count - 1;
+  if (act === 'notyet' && state.i < last) {     // problems 2 and 3: usually loaded long before; if that failed, try again now
+    try { await LESSON.more } catch { LESSON.more = loadMore(); try { await LESSON.more } catch { return } }
+  }
   if (act === 'nec') state.showNec = !state.showNec;
   if (act === 'start') Object.assign(state, { started: true, shown: 0 });
   if (act === 'step') state.shown++;
@@ -357,7 +360,21 @@ app.addEventListener('click', e => {
   }
 });
 
-if (LESSON) { document.title = 'Skill: ' + LESSON.title; render() } else renderIndex();
+const loadMore = () => MathsPacks.more(SKILL_ID).then(more => { LESSON.problems.splice(1, Infinity, ...more) });
+if (!MathsPacks.byId[SKILL_ID]?.lesson) renderIndex();
+else {
+  const load = () => MathsPacks.skill(SKILL_ID).then(pack => {
+    LESSON = { ...pack.lesson, problems: [...pack.problems] };
+    LESSON.more = loadMore();
+    document.title = 'Skill: ' + LESSON.title;
+    render();
+    MathsPacks.prefetchNext(SKILL_ID);
+  }, () => {                                            // only a failed download lands here
+    app.innerHTML = '<p class="note">This skill didn’t load. Check your connection, then <button class="btn btn-plain" data-retry>Try again</button></p>';
+    app.querySelector('[data-retry]').onclick = load;
+  });
+  load();
+}
 </script>
 </body>
 </html>
