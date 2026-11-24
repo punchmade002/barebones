@@ -1,0 +1,826 @@
+{
+ "geo-urban-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s1.0.2",
+    "strength": "helpful",
+    "why": "situation defined there",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s1.0.3",
+    "strength": "helpful",
+    "why": "function defined there",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.3.0",
+    "strength": "helpful",
+    "why": "hierarchy ranking",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.4.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s3.4.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s3.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.5.b",
+    "strength": "helpful",
+    "why": "primate city defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.5.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s3.5.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s3.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.6.0",
+    "strength": "helpful",
+    "why": "contrasts low-order goods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.7.b",
+    "strength": "helpful",
+    "why": "hinterland defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.7.b",
+    "strength": "helpful",
+    "why": "hinterland idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.7.b",
+    "strength": "helpful",
+    "why": "hinterland idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s3.10.1",
+    "strength": "essential",
+    "why": "threshold",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s3.10.2",
+    "strength": "essential",
+    "why": "range",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.10.b",
+    "strength": "helpful",
+    "why": "central place theory",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.11.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.11.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.12.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.11.b",
+    "strength": "helpful",
+    "why": "ideal plain assumptions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.6.0",
+    "strength": "helpful",
+    "why": "low-order and high-order goods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.12.1",
+    "strength": "helpful",
+    "why": "hierarchy of centres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.12.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s3.12.0",
+    "strength": "helpful",
+    "why": "hexagonal market areas",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s3.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.13.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s3.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.12.1",
+    "strength": "helpful",
+    "why": "two-level hierarchy",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s3.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.11.0",
+    "strength": "helpful",
+    "why": "uniform plain assumption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.11.2",
+    "strength": "helpful",
+    "why": "equal transport assumption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.11.3",
+    "strength": "helpful",
+    "why": "nearest centre assumption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.10.1",
+    "strength": "helpful",
+    "why": "threshold",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s3.10.2",
+    "strength": "helpful",
+    "why": "range",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s1.7.b",
+    "strength": "helpful",
+    "why": "Viking towns",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s3.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.5.0",
+    "strength": "helpful",
+    "why": "Dublin primacy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.14.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.1",
+    "strength": "helpful",
+    "why": "town function types",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s3.15.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.10.b",
+    "strength": "helpful",
+    "why": "central place theory",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.3.0",
+    "strength": "helpful",
+    "why": "hierarchy ranking",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.5.0",
+    "strength": "helpful",
+    "why": "Dublin primacy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.16.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.b",
+    "strength": "helpful",
+    "why": "functions defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.16.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.16.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.16.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.3",
+    "strength": "helpful",
+    "why": "commuter towns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.16.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.17.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.17.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s3.17.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.17.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.17.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.18.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.18.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.18.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.18.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s3.5.3",
+    "strength": "helpful",
+    "why": "NSS and NPF plans",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.18.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.18.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.18.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.19.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.0.2",
+    "strength": "helpful",
+    "why": "island site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.19.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.0.2",
+    "strength": "helpful",
+    "why": "island site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.19.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s1.13.6",
+    "strength": "helpful",
+    "why": "Newtown Pery",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s3.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.20.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.20.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s1.15.0",
+    "strength": "helpful",
+    "why": "Shannon Free Zone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.20.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s3.20.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s3.20.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.20.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.20.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.21.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s1.7.2",
+    "strength": "helpful",
+    "why": "Dublin Viking longphort",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s3.21.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s1.13.5",
+    "strength": "helpful",
+    "why": "Wide Streets Commissioners",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.21.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.21.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s3.22.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.3",
+    "strength": "helpful",
+    "why": "commuter towns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.22.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.3",
+    "strength": "helpful",
+    "why": "commuter towns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.22.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.3",
+    "strength": "helpful",
+    "why": "commuter towns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.23.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.0.b",
+    "strength": "helpful",
+    "why": "site types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.23.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.0.1",
+    "strength": "helpful",
+    "why": "route focus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.23.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.23.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.23.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.23.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s3.23.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s3.5.3",
+    "strength": "helpful",
+    "why": "NSS and NPF",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s3.23.7": {
+  "cost": 1,
+  "needs": []
+ }
+}

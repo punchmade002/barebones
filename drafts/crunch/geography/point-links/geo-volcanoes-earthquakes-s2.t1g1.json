@@ -1,0 +1,985 @@
+{
+ "geo-volcanoes-earthquakes-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.0.b",
+    "strength": "helpful",
+    "why": "plate movement types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.0.b",
+    "strength": "helpful",
+    "why": "four-step cycle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.0.2",
+    "strength": "helpful",
+    "why": "rupture along a fault",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.0",
+    "strength": "essential",
+    "why": "point above the focus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.0",
+    "strength": "essential",
+    "why": "focus",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.1",
+    "strength": "essential",
+    "why": "epicentre",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.2",
+    "strength": "essential",
+    "why": "fault",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.3",
+    "strength": "essential",
+    "why": "seismic waves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.0",
+    "strength": "essential",
+    "why": "focus depth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.3",
+    "strength": "helpful",
+    "why": "seismic waves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.2.0",
+    "strength": "essential",
+    "why": "compared with P waves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.2.0",
+    "strength": "helpful",
+    "why": "arrival order vs P waves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.3",
+    "strength": "helpful",
+    "why": "seismic waves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.2.0",
+    "strength": "essential",
+    "why": "P wave speed",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s2.2.1",
+    "strength": "essential",
+    "why": "S wave speed",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s2.3.0",
+    "strength": "helpful",
+    "why": "seismograph records",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.3.2",
+    "strength": "essential",
+    "why": "distance from arrival gap",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.1",
+    "strength": "essential",
+    "why": "epicentre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.3.0",
+    "strength": "helpful",
+    "why": "seismogram wave record",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.4.0",
+    "strength": "essential",
+    "why": "Richter magnitude",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.4.0",
+    "strength": "essential",
+    "why": "magnitude scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.4.3",
+    "strength": "essential",
+    "why": "intensity",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s2.4.0",
+    "strength": "essential",
+    "why": "magnitude",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.1",
+    "strength": "helpful",
+    "why": "distance from epicentre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.0.b",
+    "strength": "helpful",
+    "why": "boundary types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.13.0",
+    "strength": "helpful",
+    "why": "Ring of Fire",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.0.0",
+    "strength": "helpful",
+    "why": "constructive boundary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.2.0",
+    "strength": "helpful",
+    "why": "shallow ridge earthquakes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.2.4",
+    "strength": "helpful",
+    "why": "Iceland on the ridge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.5.1",
+    "strength": "essential",
+    "why": "subduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.6.3",
+    "strength": "helpful",
+    "why": "quakes along sinking plate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.5.1",
+    "strength": "helpful",
+    "why": "subduction zone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.7.b",
+    "strength": "helpful",
+    "why": "subduction examples",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.8.0",
+    "strength": "helpful",
+    "why": "collision and fold mountains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.8.b",
+    "strength": "essential",
+    "why": "collision boundaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.8.0",
+    "strength": "helpful",
+    "why": "Himalayan collision setting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.0.4",
+    "strength": "essential",
+    "why": "elastic rebound",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.9.b",
+    "strength": "helpful",
+    "why": "transform boundary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.9.b",
+    "strength": "helpful",
+    "why": "transform boundary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.9.1",
+    "strength": "helpful",
+    "why": "San Andreas Fault",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.9.1",
+    "strength": "helpful",
+    "why": "San Andreas system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.9.b",
+    "strength": "helpful",
+    "why": "transform fault",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.2",
+    "strength": "helpful",
+    "why": "ground rupture along fault",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.10.b",
+    "strength": "helpful",
+    "why": "contrast with primary effects",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.7.1",
+    "strength": "helpful",
+    "why": "undersea quake tsunamis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.11.1",
+    "strength": "essential",
+    "why": "Tohoku tsunami",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.11.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.11.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.11.4",
+    "strength": "helpful",
+    "why": "liquefaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.11.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.12.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.4.0",
+    "strength": "helpful",
+    "why": "magnitude",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.4.0",
+    "strength": "essential",
+    "why": "magnitude as energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.5",
+    "strength": "essential",
+    "why": "shallow vs deep focus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.1",
+    "strength": "essential",
+    "why": "epicentre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.11.4",
+    "strength": "helpful",
+    "why": "liquefaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.12.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.12.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.12.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.12.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.12.6",
+    "strength": "helpful",
+    "why": "development and preparedness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.5",
+    "strength": "helpful",
+    "why": "shallow focus damage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.13.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.0",
+    "strength": "helpful",
+    "why": "shallow focus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.4.2",
+    "strength": "helpful",
+    "why": "moment magnitude scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.13.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.5.1",
+    "strength": "essential",
+    "why": "subduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.14.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.1.5",
+    "strength": "helpful",
+    "why": "shallow focus damage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.11.0",
+    "strength": "helpful",
+    "why": "fires after quakes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.11.4",
+    "strength": "essential",
+    "why": "liquefaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.14.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.12.5",
+    "strength": "helpful",
+    "why": "building codes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.15.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.7.1",
+    "strength": "helpful",
+    "why": "undersea quake tsunami",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.15.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s3.5.1",
+    "strength": "essential",
+    "why": "subduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.15.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.16.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.15.2",
+    "strength": "helpful",
+    "why": "no earlier warning system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.17.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.17.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.17.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.0.1",
+    "strength": "essential",
+    "why": "stress build-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.17.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.0.5",
+    "strength": "helpful",
+    "why": "foreshocks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.17.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.18.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.17.b",
+    "strength": "helpful",
+    "why": "prediction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.18.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.0.5",
+    "strength": "helpful",
+    "why": "foreshocks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.18.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.18.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.18.2",
+    "strength": "essential",
+    "why": "the conviction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.19.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.17.b",
+    "strength": "helpful",
+    "why": "prediction limits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.19.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.2.0",
+    "strength": "essential",
+    "why": "P waves",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s2.2.2",
+    "strength": "essential",
+    "why": "surface waves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.19.0",
+    "strength": "essential",
+    "why": "early warning seconds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.19.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.15.2",
+    "strength": "helpful",
+    "why": "Indian Ocean warning gap",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.20.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.20.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.20.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.20.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.20.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.20.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.21.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.12.3",
+    "strength": "helpful",
+    "why": "soft ground shakes more",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.21.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s2.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s2.11.1",
+    "strength": "helpful",
+    "why": "Tohoku tsunami",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2.21.3": {
+  "cost": 1,
+  "needs": []
+ }
+}

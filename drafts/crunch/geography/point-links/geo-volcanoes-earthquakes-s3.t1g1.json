@@ -1,0 +1,1003 @@
+{
+ "geo-volcanoes-earthquakes-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.3.1",
+    "strength": "helpful",
+    "why": "plutonic rock cools slowly underground",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.0.1",
+    "strength": "helpful",
+    "why": "exogenic weathering and erosion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.3.b",
+    "strength": "helpful",
+    "why": "igneous rock from cooled magma",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.4.0",
+    "strength": "helpful",
+    "why": "granite as plutonic rock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.0.1",
+    "strength": "helpful",
+    "why": "weathering and erosion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.2.0",
+    "strength": "helpful",
+    "why": "basic lava is runny",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.2.0",
+    "strength": "helpful",
+    "why": "runny basic lava",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.2.1",
+    "strength": "helpful",
+    "why": "lava flows spreading",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.2.3",
+    "strength": "helpful",
+    "why": "plateau shape being drawn",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.7.2",
+    "strength": "helpful",
+    "why": "Antrim basalts from fissure eruptions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.9.4",
+    "strength": "helpful",
+    "why": "chalk lies beneath Antrim basalt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.13.3",
+    "strength": "helpful",
+    "why": "Mourne granite age",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s3.14.b",
+    "strength": "helpful",
+    "why": "Leinster granite comparison",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.3.2",
+    "strength": "essential",
+    "why": "Slieve Donard is in Mournes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.1.0",
+    "strength": "helpful",
+    "why": "joint pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.1.1",
+    "strength": "helpful",
+    "why": "joints form by cooling contraction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.4.0",
+    "strength": "essential",
+    "why": "cracks from contraction in columnar jointing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.4.1",
+    "strength": "essential",
+    "why": "cracks at 120 degrees",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.4.2",
+    "strength": "helpful",
+    "why": "six-sided basalt columns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.4.2",
+    "strength": "helpful",
+    "why": "columnar jointing",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.4.3",
+    "strength": "helpful",
+    "why": "Giant's Causeway columns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.4.2",
+    "strength": "essential",
+    "why": "columns at right angles to surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.2.0",
+    "strength": "helpful",
+    "why": "low viscosity runny lava",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.2.0",
+    "strength": "helpful",
+    "why": "basic lava is low viscosity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.2.1",
+    "strength": "essential",
+    "why": "effusive eruptions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.0.1",
+    "strength": "helpful",
+    "why": "main (central) vent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.5.1",
+    "strength": "helpful",
+    "why": "broad gentle cone shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.6.1",
+    "strength": "helpful",
+    "why": "Hawaii over a hot spot",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.5.0",
+    "strength": "helpful",
+    "why": "runny lava spreads far",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.5.b",
+    "strength": "helpful",
+    "why": "shield contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.2.2",
+    "strength": "helpful",
+    "why": "viscous acidic lava",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.2.3",
+    "strength": "helpful",
+    "why": "acidic lava explosive eruptions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.0.3",
+    "strength": "helpful",
+    "why": "crater at summit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.0.2",
+    "strength": "helpful",
+    "why": "secondary vent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.7.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.0.6",
+    "strength": "helpful",
+    "why": "labelled volcano cross-section",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.1.2",
+    "strength": "helpful",
+    "why": "pyroclastic fragments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.8.0",
+    "strength": "helpful",
+    "why": "cinder cone shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.0.0",
+    "strength": "helpful",
+    "why": "magma chamber",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.9.0",
+    "strength": "essential",
+    "why": "caldera forms by collapse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.9.0",
+    "strength": "essential",
+    "why": "caldera filling with water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.9.2",
+    "strength": "helpful",
+    "why": "crater lake in caldera",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.9.0",
+    "strength": "helpful",
+    "why": "caldera definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.9.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.9.0",
+    "strength": "helpful",
+    "why": "caldera definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s1.0.1",
+    "strength": "helpful",
+    "why": "vent of volcano",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.10.0",
+    "strength": "helpful",
+    "why": "plug in the vent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.10.1",
+    "strength": "helpful",
+    "why": "cone eroded leaving plug",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.10.2",
+    "strength": "helpful",
+    "why": "volcanic plug",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.10.2",
+    "strength": "essential",
+    "why": "plug standing above eroded cone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.11.0",
+    "strength": "essential",
+    "why": "contrast with geyser",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.11.0",
+    "strength": "essential",
+    "why": "geyser definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.12.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.2.0",
+    "strength": "helpful",
+    "why": "fissure eruption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.12.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.2.0",
+    "strength": "helpful",
+    "why": "fissure eruption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.11.0",
+    "strength": "essential",
+    "why": "geyser definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.0.1",
+    "strength": "helpful",
+    "why": "plutonic cooling underground",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.4.1",
+    "strength": "helpful",
+    "why": "batholith dome-shaped plutonic mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.11.0",
+    "strength": "helpful",
+    "why": "metamorphic aureole",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.13.0",
+    "strength": "essential",
+    "why": "batholith being exposed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.14.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.13.0",
+    "strength": "helpful",
+    "why": "batholith",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.13.5",
+    "strength": "helpful",
+    "why": "Caledonian mountain building",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.13.2",
+    "strength": "helpful",
+    "why": "erosion exposes granite",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.13.1",
+    "strength": "essential",
+    "why": "metamorphic aureole",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.13.2",
+    "strength": "helpful",
+    "why": "granite uplands",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.14.4",
+    "strength": "essential",
+    "why": "Lugnaquilla named",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.7.1",
+    "strength": "helpful",
+    "why": "layers and bedding",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.15.0",
+    "strength": "essential",
+    "why": "laccolith",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.15.0",
+    "strength": "helpful",
+    "why": "contrast with laccolith",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.4.3",
+    "strength": "helpful",
+    "why": "sill along bedding planes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.16.0",
+    "strength": "essential",
+    "why": "sill definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.16.0",
+    "strength": "helpful",
+    "why": "dolerite sill",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.16.0",
+    "strength": "helpful",
+    "why": "sill definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.4.2",
+    "strength": "helpful",
+    "why": "dyke cuts across beds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.16.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.16.4",
+    "strength": "essential",
+    "why": "dyke definition",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s3.17.b",
+    "strength": "helpful",
+    "why": "differential erosion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.16.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.16.4",
+    "strength": "essential",
+    "why": "dyke definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.17.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.17.b",
+    "strength": "helpful",
+    "why": "differential erosion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.17.0",
+    "strength": "essential",
+    "why": "resistant rock stands as upland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.17.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.13.0",
+    "strength": "essential",
+    "why": "batholith",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s3.15.0",
+    "strength": "essential",
+    "why": "laccolith",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s3.15.2",
+    "strength": "essential",
+    "why": "lopolith",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s3.16.0",
+    "strength": "essential",
+    "why": "sill",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s3.16.4",
+    "strength": "essential",
+    "why": "dyke",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-volcanoes-earthquakes-s3.10.2",
+    "strength": "essential",
+    "why": "volcanic plug",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.18.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.13.b",
+    "strength": "helpful",
+    "why": "exposed batholith",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.18.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-volcanoes-earthquakes-s3.14.b",
+    "strength": "helpful",
+    "why": "Wicklow granite comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3.18.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-volcanoes-earthquakes-s3.18.2": {
+  "cost": 1,
+  "needs": []
+ }
+}

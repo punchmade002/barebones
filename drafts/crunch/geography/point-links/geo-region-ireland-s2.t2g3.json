@@ -1,0 +1,662 @@
+{
+ "geo-region-ireland-s2.21.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.21.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.22.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.22.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.22.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.22.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.23.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.23.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.23.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.23.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.23.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.24.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.24.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.24.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.24.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.24.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.24.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.0": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.4",
+    "strength": "helpful",
+    "why": "summer colleges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.26.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.6": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.7": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.3": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.5",
+    "strength": "helpful",
+    "why": "English enters Gaeltacht via tourism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.28.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.31.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.31.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.31.1": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.9.1",
+    "strength": "helpful",
+    "why": "decentralisation programme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.32.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.0": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.5.4",
+    "strength": "helpful",
+    "why": "Galway city about 85,000",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.33.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.2": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.9.0",
+    "strength": "helpful",
+    "why": "gateways and hubs",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-population-migration-s6.9.5",
+    "strength": "helpful",
+    "why": "National Planning Framework growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.33.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.4": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.5.3",
+    "strength": "helpful",
+    "why": "commuter towns near city",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.33.5": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.6.4",
+    "strength": "helpful",
+    "why": "urban sprawl",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.33.6": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.6.5",
+    "strength": "helpful",
+    "why": "traffic congestion",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.34.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.2": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.7.2",
+    "strength": "helpful",
+    "why": "Mayo density versus Dublin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.35.3": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.7.2",
+    "strength": "helpful",
+    "why": "density contrast with Dublin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.35.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.6": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.7": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.3": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.7.3",
+    "strength": "helpful",
+    "why": "ageing population from youth leaving",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.36.4": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.3.0",
+    "strength": "helpful",
+    "why": "counter-urbanisation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.36.5": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.7.0",
+    "strength": "helpful",
+    "why": "every county grew 2016-2022",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.37.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.2": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.8.0",
+    "strength": "helpful",
+    "why": "closure of schools and post offices",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.37.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.b": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.9.b",
+    "strength": "helpful",
+    "why": "State plans for regions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.0": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.9.3",
+    "strength": "helpful",
+    "why": "CLAR programme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.4": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.9.6",
+    "strength": "helpful",
+    "why": "remote working hubs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.5": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.9.2",
+    "strength": "helpful",
+    "why": "Western Development Commission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.6": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s6.9.4",
+    "strength": "helpful",
+    "why": "Udaras na Gaeltachta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.39.b": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.1.b",
+    "strength": "helpful",
+    "why": "Gaeltacht defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.39.0": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.1.1",
+    "strength": "helpful",
+    "why": "Conamara and Aran largest area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.39.1": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.1.0",
+    "strength": "helpful",
+    "why": "Mayo Gaeltacht county",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.39.2": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.1.0",
+    "strength": "helpful",
+    "why": "Gaeltacht counties",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.39.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.40.b": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.5",
+    "strength": "helpful",
+    "why": "threats to Irish",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.40.0": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.6",
+    "strength": "helpful",
+    "why": "72,000 daily speakers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.40.1": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.5",
+    "strength": "helpful",
+    "why": "out-migration of young",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.40.2": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.5",
+    "strength": "helpful",
+    "why": "English-language media",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.40.3": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.5",
+    "strength": "helpful",
+    "why": "in-migration of English speakers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.41.b": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.b",
+    "strength": "helpful",
+    "why": "State backing for Irish",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.41.0": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.1",
+    "strength": "helpful",
+    "why": "Udaras na Gaeltachta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.41.1": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.2",
+    "strength": "helpful",
+    "why": "TG4 broadcasts in Irish",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.41.2": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.2",
+    "strength": "helpful",
+    "why": "Raidio na Gaeltachta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.41.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.5": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.4",
+    "strength": "helpful",
+    "why": "Irish-medium schools",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.41.6": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.5",
+    "strength": "helpful",
+    "why": "holiday homes and in-migration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.41.7": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.2.1",
+    "strength": "helpful",
+    "why": "Udaras jobs in Gaeltacht",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.42.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.0": {
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.6.0",
+    "strength": "helpful",
+    "why": "69% Catholic Census 2022",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.42.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.5": {
+  "needs": []
+ }
+}

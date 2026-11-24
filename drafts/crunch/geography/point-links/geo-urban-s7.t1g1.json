@@ -1,0 +1,1130 @@
+{
+"geo-urban-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.0.4": {
+"cost": 2,
+"needs": []
+},
+"geo-urban-s7.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s6.0.4",
+"strength": "helpful",
+"why": "megacities forming in Asia and Africa",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.0.6": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s6.0.1",
+"strength": "helpful",
+"why": "natural increase as a driver",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s6.1.b",
+"strength": "helpful",
+"why": "push factors idea",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s6.2.b",
+"strength": "helpful",
+"why": "pull factors idea",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s3.5.b",
+"strength": "helpful",
+"why": "primate city definition",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.2.3": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.3.0",
+"strength": "helpful",
+"why": "waste near homes spreads disease",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.4.b",
+"strength": "helpful",
+"why": "informal sector definition",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.4.b",
+"strength": "helpful",
+"why": "informal sector definition",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.4.2": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.5.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.5.2": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.6.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.6.2": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.7.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.8.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.9.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.9.0",
+"strength": "essential",
+"why": "slum clearance by eviction",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.10.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.10.0",
+"strength": "essential",
+"why": "serviced plots",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.11.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.2.2",
+"strength": "helpful",
+"why": "insecure tenure and eviction",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.27.0",
+"strength": "helpful",
+"why": "Navi Mumbai new town",
+"confidence": "high"
+},
+{
+"id": "geo-urban-s7.21.3",
+"strength": "helpful",
+"why": "Salt Lake new town",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.14.b",
+"strength": "helpful",
+"why": "Curitiba bus system",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.14.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.13.0",
+"strength": "helpful",
+"why": "bus rapid transit idea",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.14.2": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.13.0",
+"strength": "helpful",
+"why": "bus rapid transit idea",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.1.1",
+"strength": "essential",
+"why": "push factors in the countryside",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.21.6",
+"strength": "helpful",
+"why": "Missionaries of Charity",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.16.0": {
+"cost": 2,
+"needs": []
+},
+"geo-urban-s7.16.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.16.2": {
+"cost": 2,
+"needs": []
+},
+"geo-urban-s7.16.3": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.16.4": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.1.2",
+"strength": "helpful",
+"why": "pull factors of jobs",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.17.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.17.2": {
+"cost": 2,
+"needs": []
+},
+"geo-urban-s7.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.1.0",
+"strength": "helpful",
+"why": "natural increase",
+"confidence": "high"
+},
+{
+"id": "geo-urban-s7.1.3",
+"strength": "helpful",
+"why": "primacy",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.17.4": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.2.0",
+"strength": "helpful",
+"why": "slums and bustees",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.2.3",
+"strength": "helpful",
+"why": "pavement dwellers",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.18.2": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.17.2",
+"strength": "essential",
+"why": "Partition of 1947",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.4.b",
+"strength": "helpful",
+"why": "informal sector",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.4.0",
+"strength": "helpful",
+"why": "informal work examples",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.3.b",
+"strength": "helpful",
+"why": "sanitation definition",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.16.0",
+"strength": "helpful",
+"why": "low-lying delta site",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.20.2": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.21.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.11.0",
+"strength": "helpful",
+"why": "slum upgrading measures",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.13.0",
+"strength": "helpful",
+"why": "metros ease congestion",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.21.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.12.0",
+"strength": "helpful",
+"why": "planned new towns",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.21.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.12.0",
+"strength": "helpful",
+"why": "planned new towns",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.21.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.6.1",
+"strength": "helpful",
+"why": "untreated sewage",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.21.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.15.1",
+"strength": "helpful",
+"why": "NGO work",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.22.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.21.1",
+"strength": "essential",
+"why": "bustee improvement programme",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.21.3",
+"strength": "essential",
+"why": "new towns Salt Lake, New Town",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.23.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.23.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.23.2": {
+"cost": 2,
+"needs": []
+},
+"geo-urban-s7.23.3": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.23.4": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.23.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s6.11.0",
+"strength": "helpful",
+"why": "migrants from Bihar and UP",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.23.6": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.24.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.24.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.2.0",
+"strength": "helpful",
+"why": "slums",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.24.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.25.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.25.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.5.1",
+"strength": "helpful",
+"why": "overcrowded transport",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.25.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.5.0",
+"strength": "helpful",
+"why": "congestion",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.25.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.7.0",
+"strength": "helpful",
+"why": "monsoon flooding",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.25.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.3.0",
+"strength": "helpful",
+"why": "services and sanitation",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.26.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.26.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.26.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.26.0",
+"strength": "essential",
+"why": "mill closures",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.27.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.27.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.12.0",
+"strength": "helpful",
+"why": "new town idea",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.27.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.27.0",
+"strength": "essential",
+"why": "Navi Mumbai",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.28.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.28.0": {
+"cost": 2,
+"needs": []
+},
+"geo-urban-s7.28.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.24.0",
+"strength": "essential",
+"why": "Dharavi slum",
+"confidence": "high"
+},
+{
+"id": "geo-urban-s7.28.0",
+"strength": "helpful",
+"why": "rehabilitation scheme",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.29.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.29.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.25.0",
+"strength": "helpful",
+"why": "overcrowded roads and trains",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.29.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.29.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.27.0",
+"strength": "helpful",
+"why": "Navi Mumbai",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.30.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.30.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.28.0",
+"strength": "essential",
+"why": "Slum Rehabilitation Authority",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.30.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.24.0",
+"strength": "essential",
+"why": "Dharavi industries",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.31.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.31.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.31.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.31.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.31.0",
+"strength": "helpful",
+"why": "Santos and the plateau",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.32.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.32.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.31.2",
+"strength": "helpful",
+"why": "Santos port",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.32.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.32.2": {
+"cost": 2,
+"needs": []
+},
+"geo-urban-s7.32.3": {
+"cost": 2,
+"needs": []
+},
+"geo-urban-s7.32.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s6.13.0",
+"strength": "helpful",
+"why": "nordestino migration",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.33.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.33.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.33.1": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.33.2": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.34.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.34.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.2.0",
+"strength": "helpful",
+"why": "favelas",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.34.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.2.0",
+"strength": "helpful",
+"why": "favelas",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.34.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.8.0",
+"strength": "helpful",
+"why": "crime as social problem",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.35.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.35.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.5.0",
+"strength": "helpful",
+"why": "congestion",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.35.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.6.0",
+"strength": "helpful",
+"why": "air pollution",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.35.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.7.0",
+"strength": "helpful",
+"why": "flooding in heavy rain",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.36.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.36.0": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.36.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.36.0",
+"strength": "essential",
+"why": "Cantareira reservoirs",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.37.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.37.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.35.0",
+"strength": "helpful",
+"why": "congestion it addresses",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.37.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.13.0",
+"strength": "helpful",
+"why": "metros ease roads",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.37.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.35.0",
+"strength": "helpful",
+"why": "congestion it addresses",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.37.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.2.0",
+"strength": "helpful",
+"why": "favelas",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.37.4": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.38.b": {
+"cost": 1,
+"needs": []
+},
+"geo-urban-s7.38.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.11.0",
+"strength": "helpful",
+"why": "slum upgrading",
+"confidence": "low"
+},
+{
+"id": "geo-urban-s7.37.1",
+"strength": "helpful",
+"why": "transport improvement",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.38.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.35.0",
+"strength": "helpful",
+"why": "congestion",
+"confidence": "low"
+}
+]
+}
+}

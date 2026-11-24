@@ -1,0 +1,43 @@
+from p23 import *
+E={}
+for i in "21.1 21.2 22.b 22.0 22.1 22.2 23.b 23.0 23.1 23.2 23.3 24.b 24.0 24.1 24.2 24.3 24.4 25.b 25.0 25.1 25.2 25.3 25.4 26.b 26.1 26.2 26.3 26.4 26.5 26.6 26.7 27.b 27.0 27.1 27.2 28.b 28.0 28.1 28.2 28.4 29.b 29.0 29.1 29.2 29.3 29.4 29.5 30.b 30.0 30.1 30.2 30.3 30.4 31.b 31.0 32.b 32.0 32.1 32.2 32.3 32.4 33.b 33.1 33.3 34.b 34.0 34.1 34.2 34.3 34.4 34.5 35.b 35.0 35.1 35.4 35.5 35.6 35.7 36.b 36.0 36.1 36.2 36.5x 37.b 37.0 37.1 37.3 38.1 38.2 38.3 39.3 41.3 41.4 41.6x 42.b 42.1 42.2 42.3 42.4 42.5".split(): E[i]=[]
+E.pop('36.5x'); E.pop('41.6x')
+E.update({
+"26.0":[L("c3:2.4",H,"summer colleges")],
+"28.3":[L("c3:2.5",H,"English enters Gaeltacht via tourism")],
+"31.1":[L("m6:9.1",H,"decentralisation programme")],
+"33.0":[L("m6:5.4",H,"Galway city about 85,000")],
+"33.2":[L("m6:9.0",H,"gateways and hubs"),L("m6:9.5",H,"National Planning Framework growth")],
+"33.4":[L("m6:5.3",H,"commuter towns near city","low")],
+"33.5":[L("m6:6.4",H,"urban sprawl")],
+"33.6":[L("m6:6.5",H,"traffic congestion","low")],
+"35.2":[L("m6:7.2",H,"Mayo density versus Dublin")],
+"35.3":[L("m6:7.2",H,"density contrast with Dublin")],
+"36.3":[L("m6:7.3",H,"ageing population from youth leaving")],
+"36.4":[L("m6:6.3.0".replace('6.3.0','3.0'),H,"counter-urbanisation","low")],
+"36.5":[L("m6:7.0",H,"every county grew 2016-2022")],
+"37.2":[L("m6:8.0",H,"closure of schools and post offices")],
+"38.b":[L("m6:9.b",H,"State plans for regions")],
+"38.0":[L("m6:9.3",H,"CLAR programme")],
+"38.4":[L("m6:9.6",H,"remote working hubs")],
+"38.5":[L("m6:9.2",H,"Western Development Commission")],
+"38.6":[L("m6:9.4",H,"Udaras na Gaeltachta")],
+"39.b":[L("c3:1.b",H,"Gaeltacht defined")],
+"39.0":[L("c3:1.1",H,"Conamara and Aran largest area")],
+"39.1":[L("c3:1.0",H,"Mayo Gaeltacht county","low")],
+"39.2":[L("c3:1.0",H,"Gaeltacht counties")],
+"40.b":[L("c3:2.5",H,"threats to Irish")],
+"40.0":[L("c3:2.6",H,"72,000 daily speakers")],
+"40.1":[L("c3:2.5",H,"out-migration of young")],
+"40.2":[L("c3:2.5",H,"English-language media")],
+"40.3":[L("c3:2.5",H,"in-migration of English speakers")],
+"41.b":[L("c3:2.b",H,"State backing for Irish")],
+"41.0":[L("c3:2.1",H,"Udaras na Gaeltachta")],
+"41.1":[L("c3:2.2",H,"TG4 broadcasts in Irish")],
+"41.2":[L("c3:2.2",H,"Raidio na Gaeltachta")],
+"41.5":[L("c3:2.4",H,"Irish-medium schools")],
+"41.6":[L("c3:2.5",H,"holiday homes and in-migration","low")],
+"41.7":[L("c3:2.1",H,"Udaras jobs in Gaeltacht")],
+"42.0":[L("c3:6.0",H,"69% Catholic Census 2022")],
+})
+run('geo-region-ireland-s2.t2g3',E)
