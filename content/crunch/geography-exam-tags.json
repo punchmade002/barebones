@@ -7,14 +7,9 @@
 "(i)": [],
 "(ii)": [
 {
-"k": 1,
+"k": 2,
 "of": [
-"geo-glaciation-s1.11.b"
-]
-},
-{
-"k": 1,
-"of": [
+"geo-glaciation-s1.11.b",
 "geo-glaciation-s1.7.3"
 ]
 },
@@ -50,41 +45,25 @@
 "geography-pp-2017-higher-q4": {
 "(i)": [
 {
-"k": 1,
+"k": 2,
 "of": [
-"geo-rocks-weathering-s3.6.2"
+"geo-rocks-weathering-s3.6.2",
+"geo-rocks-weathering-s3.5.b"
 ]
 },
 {
-"k": 1,
+"k": 2,
 "of": [
-"geo-rocks-weathering-s3.5.b",
-"geo-rocks-weathering-s3.5.3"
-]
-},
-{
-"k": 1,
-"of": [
-"geo-rocks-weathering-s3.2.0"
-]
-},
-{
-"k": 1,
-"of": [
+"geo-rocks-weathering-s3.2.0",
 "geo-rocks-weathering-s3.1.b"
 ]
 }
 ],
 "(ii)": [
 {
-"k": 1,
+"k": 2,
 "of": [
-"geo-rocks-weathering-s3.6.b"
-]
-},
-{
-"k": 1,
-"of": [
+"geo-rocks-weathering-s3.6.b",
 "geo-rocks-weathering-s3.5.b"
 ]
 },
@@ -99,59 +78,31 @@
 "geography-pp-2017-higher-q5": {
 "": [
 {
-"k": 1,
+"k": 2,
 "of": [
-"geo-region-concept-s1.8.0",
-"geo-region-concept-s1.9.b"
+"geo-region-concept-s1.13.0",
+"geo-region-concept-s1.13.2"
 ]
 },
 {
-"k": 1,
+"k": 2,
 "of": [
-"geo-region-concept-s1.8.0",
-"geo-region-concept-s1.12.b"
+"geo-region-concept-s3.3.1",
+"geo-region-concept-s5.0.b"
 ]
 },
 {
-"k": 1,
-"of": [
-"geo-region-concept-s3.0.1",
-"geo-region-concept-s3.3.1"
-]
-},
-{
-"k": 1,
-"of": [
-"geo-region-concept-s5.0.b",
-"geo-region-concept-s5.7.5"
-]
-},
-{
-"k": 1,
+"k": 2,
 "of": [
 "geo-region-concept-s2.0.3",
-"geo-region-concept-s2.9.b"
+"geo-region-concept-s2.1.1"
 ]
 },
 {
-"k": 1,
-"of": [
-"geo-region-concept-s2.1.1",
-"geo-region-concept-s2.4.1"
-]
-},
-{
-"k": 1,
+"k": 2,
 "of": [
 "geo-region-concept-s3.7.b",
-"geo-region-concept-s3.7.2"
-]
-},
-{
-"k": 1,
-"of": [
-"geo-region-concept-s1.2.b",
-"geo-region-concept-s1.2.1"
+"geo-region-concept-s1.2.b"
 ]
 }
 ]
@@ -173,12 +124,6 @@
 "of": [
 "geo-rivers-s1.6.5"
 ]
-},
-{
-"k": 1,
-"of": [
-"geo-rivers-s1.6.5"
-]
 }
 ]
 },
@@ -194,29 +139,18 @@
 "(ii)": [],
 "(iii)": [
 {
-"k": 1,
+"k": 2,
 "of": [
-"geo-mapwork-s1.0.4"
-]
-},
-{
-"k": 1,
-"of": [
+"geo-mapwork-s1.0.4",
 "geo-mapwork-s1.5.b"
 ]
 }
 ],
 "(iv)": [
 {
-"k": 1,
+"k": 2,
 "of": [
 "geo-mapwork-s1.6.b",
-"geo-mapwork-s1.0.4"
-]
-},
-{
-"k": 1,
-"of": [
 "geo-mapwork-s1.6.1"
 ]
 }
@@ -293,12 +227,6 @@
 "of": [
 "geo-graph-skills-s1.0.4"
 ]
-},
-{
-"k": 1,
-"of": [
-"geo-graph-skills-s1.0.4"
-]
 }
 ],
 "(iv)": []
@@ -313,11 +241,2595 @@
 "of": [
 "geo-graph-skills-s2.14.1"
 ]
+}
+]
+},
+"geography-pp-2017-higher-q101": {
+"1A": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.16.0",
+"geo-mapwork-s1.38.4"
+]
 },
 {
 "k": 1,
 "of": [
-"geo-graph-skills-s2.14.b"
+"geo-mapwork-s1.16.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.16.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.22.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.14.2"
+]
+}
+],
+"1B": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.0.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.14.b",
+"geo-volcanoes-earthquakes-s3.14.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.13.1",
+"geo-volcanoes-earthquakes-s3.14.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.14.2",
+"geo-volcanoes-earthquakes-s3.13.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.14.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.16.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.16.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.0.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.3.0",
+"geo-volcanoes-earthquakes-s3.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.2.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.4.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.4.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.10.0"
+]
+}
+],
+"1C": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.0.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.13.1",
+"geo-rivers-s4.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.10.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.13.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.16.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.15.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.13.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.15.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.14.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s4.17.1"
+]
+}
+]
+},
+"geography-pp-2017-higher-q102": {
+"2A(i)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.1.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.6.b",
+"geo-rivers-s2.1.2"
+]
+}
+],
+"2A(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.2.0",
+"geo-rivers-s2.3.3"
+]
+}
+],
+"2A(iii)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.4.1",
+"geo-rivers-s2.4.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.5.b"
+]
+}
+],
+"2A(iv)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.7.0",
+"geo-rivers-s2.7.b"
+]
+}
+],
+"2B": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.1",
+"geo-rocks-weathering-s3.5.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.7.3"
+]
+}
+],
+"2C": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.13.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.13.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.13.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.1.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.1.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.1.2",
+"geo-plate-tectonics-s3.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.2.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.0.1",
+"geo-plate-tectonics-s3.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.5.2",
+"geo-plate-tectonics-s3.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.6.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.6.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.7.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.8.1",
+"geo-plate-tectonics-s3.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.11.0"
+]
+}
+]
+},
+"geography-pp-2017-higher-q103": {
+"3A(i)": [],
+"3A(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.13.1",
+"geo-rocks-weathering-s1.12.0"
+]
+}
+],
+"3A(iii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.6.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.6.4"
+]
+}
+],
+"3A(iv)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.4.0"
+]
+}
+],
+"3A(v)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.11.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.10.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.12.0"
+]
+}
+],
+"3B(i)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.8.0",
+"geo-rivers-s1.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.2.3",
+"geo-rivers-s1.7.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.8.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.8.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.8.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.8.7"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.8.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.8.5"
+]
+}
+],
+"3B(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.5.b",
+"geo-rocks-weathering-s5.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.0.0",
+"geo-rocks-weathering-s5.0.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.0.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.9.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.9.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.10.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.10.2",
+"geo-rocks-weathering-s5.10.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.10.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.5.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.5.3"
+]
+}
+],
+"3C": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.0.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.0.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.17.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.17.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.17.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.17.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.17.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.18.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.18.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.19.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.20.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.20.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.20.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.21.0"
+]
+}
+]
+},
+"geography-pp-2017-higher-q104": {
+"4A": [],
+"4B": [
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.23.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.23.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.1.0",
+"geo-region-european-s1.14.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.24.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.24.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.24.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.25.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.24.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.23.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.23.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.23.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.23.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.1.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.23.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-european-s1.2.2"
+]
+}
+],
+"4C": [
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.3.0",
+"geo-region-ireland-s2.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.3.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.3.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.4.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.4.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.5.0",
+"geo-region-ireland-s2.1.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.10.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.5.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.6.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.8.2",
+"geo-region-ireland-s2.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.10.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.10.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s2.2.4",
+"geo-region-ireland-s2.2.5"
+]
+}
+]
+},
+"geography-pp-2017-higher-q105": {
+"5A(i)": [],
+"5A(ii)": [],
+"5A(iii)": [],
+"5A(iv)": [],
+"5B": [
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.88.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.88.1",
+"geo-region-continental-s1.88.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.88.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.86.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.25.0",
+"geo-region-continental-s1.35.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.86.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.86.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.89.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.87.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.87.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.87.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.87.3",
+"geo-region-continental-s1.5.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.42.b",
+"geo-region-continental-s1.42.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.1.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.1.3"
+]
+}
+],
+"5C": [
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.32.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.20.0",
+"geo-economic-eu-s3.20.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.26.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s1.7.1",
+"geo-economic-eu-s3.30.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s1.13.1",
+"geo-economic-eu-s1.9.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s1.11.1",
+"geo-economic-eu-s1.10.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s1.7.3",
+"geo-economic-eu-s3.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s1.13.0"
+]
+}
+]
+},
+"geography-pp-2017-higher-q106": {
+"6A(i)": [],
+"6A(ii)": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.36.0",
+"geo-population-migration-s1.35.4"
+]
+}
+],
+"6A(iii)": [],
+"6A(iv)": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.30.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.23.0"
+]
+}
+],
+"6B": [
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.0.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.58.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.50.1",
+"geo-region-continental-s1.21.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.54.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.58.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.58.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.54.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.58.2",
+"geo-region-continental-s1.54.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.62.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.55.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.55.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.55.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.56.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.57.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.57.2",
+"geo-region-continental-s1.57.0"
+]
+}
+],
+"6C": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.1.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.3.2",
+"geo-region-concept-s4.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.1.2",
+"geo-region-concept-s4.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.0.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.1.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.3.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.3.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.1.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.1.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.1.5"
+]
+}
+]
+},
+"geography-pp-2017-higher-q107": {
+"7A(i)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.6.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.6.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.7.4",
+"geo-graph-skills-s1.7.5"
+]
+}
+],
+"7A(ii)": [
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s2.16.1",
+"geo-economic-environment-s2.18.1"
+]
+}
+],
+"7B": [
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.30.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.29.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.12.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.30.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.29.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.6.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.30.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.33.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.33.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.29.0"
+]
+}
+],
+"7C": [
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.4.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.4.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.4.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.8.b",
+"geo-economic-development-s3.8.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.4.3",
+"geo-economic-development-s3.0.7"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.5.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.5.2",
+"geo-economic-development-s3.5.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.5.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.1.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.7.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.7.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.7.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-development-s3.7.0",
+"geo-economic-development-s3.7.1"
+]
+}
+]
+},
+"geography-pp-2017-higher-q108": {
+"8A": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.16.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.16.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.16.6"
+]
+}
+],
+"8B": [
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.3.0",
+"geo-economic-globalisation-s1.3.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s3.5.b",
+"geo-economic-globalisation-s3.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.8.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.0.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.7.3",
+"geo-economic-globalisation-s1.7.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.8.1",
+"geo-economic-globalisation-s1.8.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s3.5.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.3.b",
+"geo-economic-globalisation-s3.16.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.8.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.4.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.10.7",
+"geo-economic-globalisation-s3.6.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.10.0",
+"geo-economic-globalisation-s1.10.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s1.11.1"
+]
+}
+],
+"8C": [
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.0.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.0.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.10.1",
+"geo-economic-environment-s4.10.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.11.1",
+"geo-economic-environment-s4.12.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.12.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.12.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.14.0",
+"geo-economic-environment-s4.14.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.15.1",
+"geo-economic-environment-s4.15.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.17.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.17.1",
+"geo-economic-environment-s4.17.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.4.1",
+"geo-economic-environment-s4.4.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.19.0",
+"geo-economic-environment-s4.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.20.1",
+"geo-economic-environment-s4.20.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s4.21.0",
+"geo-economic-environment-s4.21.1"
+]
+}
+]
+},
+"geography-pp-2017-higher-q109": {
+"9A(i)": [],
+"9A(ii)": [
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s3.22.2"
+]
+}
+],
+"9A(iii)": [],
+"9A(iv)": [
+{
+"k": 1,
+"of": [
+"geo-economic-globalisation-s3.0.3",
+"geo-economic-globalisation-s3.2.0"
+]
+}
+],
+"9A(v)": [],
+"9B": [
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.1.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.4.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.4.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.1.0",
+"geo-economic-activities-s2.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.16.0",
+"geo-economic-activities-s2.16.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.11.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.11.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.11.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.11.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.20.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.12.0",
+"geo-economic-activities-s2.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.12.1",
+"geo-economic-activities-s2.12.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.12.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.17.0",
+"geo-economic-activities-s2.17.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s2.21.1"
+]
+}
+],
+"9C": [
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.20.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.21.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.23.0",
+"geo-economic-eu-s3.23.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.21.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.23.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.4.0",
+"geo-economic-eu-s3.4.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.7.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.11.0",
+"geo-economic-eu-s3.11.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.16.0",
+"geo-economic-eu-s3.15.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.13.2",
+"geo-economic-eu-s3.17.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.28.0",
+"geo-economic-eu-s3.28.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.25.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.26.0",
+"geo-economic-eu-s3.26.1"
+]
+}
+]
+},
+"geography-pp-2017-higher-q110": {
+"10A": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.14.0",
+"geo-aerial-photographs-s1.14.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.7.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.6.0"
+]
+}
+],
+"10B": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.39.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.40.0",
+"geo-population-migration-s1.40.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.34.0",
+"geo-population-migration-s1.39.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.43.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.43.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.41.0",
+"geo-population-migration-s1.41.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.36.0",
+"geo-population-migration-s1.36.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.34.1",
+"geo-population-migration-s1.43.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.43.1",
+"geo-population-migration-s1.30.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.21.0",
+"geo-population-migration-s1.21.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.21.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.21.1",
+"geo-population-migration-s1.23.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.20.2",
+"geo-population-migration-s1.20.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.16.0",
+"geo-population-migration-s1.16.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.31.0"
+]
+}
+],
+"10C": [
+{
+"k": 1,
+"of": [
+"geo-urban-s5.10.b",
+"geo-urban-s5.12.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s5.10.1",
+"geo-urban-s5.10.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s6.3.b",
+"geo-urban-s6.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s6.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s6.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s5.12.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s6.6.4",
+"geo-urban-s6.6.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s6.5.3",
+"geo-urban-s5.13.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s5.0.2",
+"geo-urban-s5.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s5.1.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s5.2.2",
+"geo-urban-s5.3.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s5.11.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s5.11.4",
+"geo-urban-s5.11.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s6.8.0",
+"geo-urban-s6.8.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s6.8.5",
+"geo-urban-s6.8.3"
+]
+}
+]
+},
+"geography-pp-2017-higher-q111": {
+"11A(i)": [],
+"11A(ii)": [],
+"11A(iii)": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s3.0.1"
+]
+}
+],
+"11A(iv)": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s3.20.0",
+"geo-population-migration-s3.20.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s3.20.0",
+"geo-population-migration-s3.20.b"
+]
+}
+],
+"11A(v)": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.0.3",
+"geo-population-migration-s3.0.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s3.0.1"
+]
+}
+],
+"11A(vi)": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s3.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s3.2.0"
+]
+}
+],
+"11B": [
+{
+"k": 1,
+"of": [
+"geo-urban-s4.1.0",
+"geo-urban-s4.12.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.1.1",
+"geo-urban-s4.12.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.1.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.1.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.6.4",
+"geo-urban-s4.17.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.0.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.10.1",
+"geo-urban-s4.10.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.6.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.8.5",
+"geo-urban-s4.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.6.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.6.7"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s4.6.7"
+]
+}
+],
+"11C": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.32.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.18.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.39.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.39.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.42.0",
+"geo-population-migration-s3.6.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.40.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.40.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.22.0",
+"geo-population-migration-s1.40.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.40.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.40.4",
+"geo-population-migration-s1.22.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.39.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.39.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s3.9.0",
+"geo-population-migration-s1.43.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s3.12.0",
+"geo-population-migration-s1.1.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.38.3"
+]
+}
+]
+},
+"geography-pp-2017-higher-q112": {
+"12A(i)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.6.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.6.0"
+]
+}
+],
+"12A(ii)": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s6.0.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s6.2.0",
+"geo-population-migration-s6.1.3"
+]
+}
+],
+"12B": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.7.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.7.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.2.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.2.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.7.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.7.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.7.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.8.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.11.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.11.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s5.4.1"
+]
+}
+],
+"12C": [
+{
+"k": 1,
+"of": [
+"geo-urban-s3.0.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s3.0.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s3.0.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s3.0.5"
 ]
 }
 ]
@@ -351,7 +2863,8 @@
 {
 "k": 1,
 "of": [
-"geo-option-global-interdependence-s3.2.b"
+"geo-option-global-interdependence-s3.2.2",
+"geo-option-global-interdependence-s3.2.3"
 ]
 },
 {
@@ -369,6 +2882,7 @@
 {
 "k": 1,
 "of": [
+"geo-option-global-interdependence-s3.4.1",
 "geo-option-global-interdependence-s3.4.b"
 ]
 },
@@ -477,6 +2991,7 @@
 {
 "k": 1,
 "of": [
+"geo-option-global-interdependence-s3.23.2",
 "geo-option-global-interdependence-s3.23.3"
 ]
 },
@@ -489,7 +3004,8 @@
 {
 "k": 1,
 "of": [
-"geo-option-global-interdependence-s3.24.0"
+"geo-option-global-interdependence-s3.24.0",
+"geo-option-global-interdependence-s3.24.1"
 ]
 },
 {
@@ -507,6 +3023,7 @@
 {
 "k": 1,
 "of": [
+"geo-option-global-interdependence-s3.26.1",
 "geo-option-global-interdependence-s3.26.2"
 ]
 }
@@ -518,12 +3035,6 @@
 "k": 1,
 "of": [
 "geo-option-global-interdependence-s4.9.4"
-]
-},
-{
-"k": 1,
-"of": [
-"geo-option-global-interdependence-s4.2.2"
 ]
 }
 ]
@@ -539,7 +3050,8 @@
 {
 "k": 1,
 "of": [
-"geo-option-global-interdependence-s4.16.0"
+"geo-option-global-interdependence-s4.16.0",
+"geo-option-global-interdependence-s4.16.1"
 ]
 },
 {
@@ -611,7 +3123,8 @@
 {
 "k": 1,
 "of": [
-"geo-option-global-interdependence-s4.22.3"
+"geo-option-global-interdependence-s4.22.3",
+"geo-option-global-interdependence-s4.20.4"
 ]
 },
 {
@@ -647,6 +3160,7 @@
 {
 "k": 1,
 "of": [
+"geo-option-global-interdependence-s4.24.1",
 "geo-option-global-interdependence-s4.24.2"
 ]
 },
@@ -681,5 +3195,5456 @@
 ]
 }
 ]
+},
+"geography-pp-2017-higher-q116": {
+"16": [
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.5.2",
+"geo-option-geoecology-s2.0.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.15.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.1.0",
+"geo-option-geoecology-s1.5.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.13.0",
+"geo-option-geoecology-s1.13.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.20.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.2.1",
+"geo-option-geoecology-s1.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.25.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.6.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.7.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.6.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.7.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.7.2",
+"geo-option-geoecology-s2.7.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.24.3",
+"geo-option-geoecology-s2.25.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.18.1",
+"geo-option-geoecology-s2.23.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.10.3",
+"geo-option-geoecology-s2.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.9.0",
+"geo-option-geoecology-s2.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.5.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.7.4",
+"geo-option-geoecology-s2.7.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s1.8.2",
+"geo-option-geoecology-s1.8.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.20.0",
+"geo-option-geoecology-s2.10.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.10.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.9.1",
+"geo-option-geoecology-s2.9.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s2.8.b",
+"geo-option-geoecology-s2.8.2"
+]
+}
+]
+},
+"geography-pp-2017-higher-q117": {
+"17": [
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.4.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.4.2",
+"geo-option-geoecology-s3.4.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.3.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.4.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.4.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.7.0",
+"geo-option-geoecology-s3.7.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.8.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.6.0",
+"geo-option-geoecology-s3.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.6.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.11.1",
+"geo-option-geoecology-s3.11.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.12.1",
+"geo-option-geoecology-s3.12.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.21.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.21.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.22.0",
+"geo-option-geoecology-s3.22.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.22.3",
+"geo-option-geoecology-s3.22.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.23.0",
+"geo-option-geoecology-s3.23.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.23.3",
+"geo-option-geoecology-s3.23.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.23.4",
+"geo-option-geoecology-s3.23.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.15.0",
+"geo-option-geoecology-s3.15.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.15.3",
+"geo-option-geoecology-s3.15.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.16.0",
+"geo-option-geoecology-s3.16.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.19.0",
+"geo-option-geoecology-s3.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.19.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.26.6",
+"geo-option-geoecology-s3.24.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s3.26.0",
+"geo-option-geoecology-s3.26.1"
+]
+}
+]
+},
+"geography-pp-2017-higher-q118": {
+"18": [
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.9.0",
+"geo-option-geoecology-s5.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.10.0",
+"geo-option-geoecology-s5.10.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.10.2",
+"geo-option-geoecology-s5.10.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.8.1",
+"geo-option-geoecology-s5.8.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.11.0",
+"geo-option-geoecology-s5.11.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.11.2",
+"geo-option-geoecology-s5.11.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.11.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.11.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.12.0",
+"geo-option-geoecology-s5.12.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.16.0",
+"geo-option-geoecology-s5.16.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.17.0",
+"geo-option-geoecology-s5.17.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.17.2",
+"geo-option-geoecology-s5.17.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.18.0",
+"geo-option-geoecology-s5.18.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.17.4",
+"geo-option-geoecology-s5.18.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.18.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.21.1",
+"geo-option-geoecology-s5.21.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.21.2",
+"geo-option-geoecology-s5.21.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.21.4",
+"geo-option-geoecology-s5.21.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.22.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.22.1",
+"geo-option-geoecology-s5.22.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.22.4",
+"geo-option-geoecology-s5.22.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.23.0",
+"geo-option-geoecology-s5.23.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.24.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.24.1",
+"geo-option-geoecology-s5.24.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.25.0",
+"geo-option-geoecology-s5.25.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.26.1",
+"geo-option-geoecology-s5.26.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-geoecology-s5.27.1",
+"geo-option-geoecology-s5.27.2"
+]
+}
+]
+},
+"geography-pp-2017-higher-q119": {
+"19": [
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.29.0",
+"geo-option-culture-identity-s5.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.6.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.29.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.30.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.30.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.7.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.11.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.11.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.31.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.32.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.32.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.32.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.32.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.18.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.19.0",
+"geo-option-culture-identity-s5.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.19.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.19.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.20.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.20.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.21.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.24.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.24.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.24.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.25.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.25.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s5.25.2"
+]
+}
+]
+},
+"geography-pp-2017-higher-q120": {
+"20": [
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.0.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.3.0",
+"geo-option-culture-identity-s2.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.1.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.1.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.4.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.4.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.13.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.19.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.5.0",
+"geo-option-culture-identity-s2.5.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.6.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.6.1",
+"geo-option-culture-identity-s2.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.9.0",
+"geo-option-culture-identity-s2.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.9.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.9.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.11.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.15.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.19.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.22.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.20.1",
+"geo-option-culture-identity-s2.20.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.14.0",
+"geo-option-culture-identity-s2.14.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.27.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.25.4",
+"geo-option-culture-identity-s2.26.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.17.0",
+"geo-option-culture-identity-s2.29.3"
+]
+}
+]
+},
+"geography-pp-2017-higher-q121": {
+"21": [
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.5.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.6.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.5.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.7.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.23.0",
+"geo-option-culture-identity-s4.23.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.9.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.10.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.8.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.11.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.11.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.11.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.12.0",
+"geo-option-culture-identity-s4.12.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.21.0",
+"geo-option-culture-identity-s4.21.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.22.0",
+"geo-option-culture-identity-s4.22.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.16.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.16.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.15.0",
+"geo-option-culture-identity-s4.15.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.24.0",
+"geo-option-culture-identity-s4.24.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.26.0",
+"geo-option-culture-identity-s4.26.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.2.b",
+"geo-option-culture-identity-s4.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s4.17.0",
+"geo-option-culture-identity-s4.17.1"
+]
+}
+]
+},
+"geography-pp-2017-higher-q122": {
+"22": [
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.36.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.3.0",
+"geo-option-atmosphere-ocean-s3.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.8.1",
+"geo-option-atmosphere-ocean-s3.8.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.4.0",
+"geo-option-atmosphere-ocean-s3.4.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.6.2",
+"geo-option-atmosphere-ocean-s3.5.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.10.0",
+"geo-option-atmosphere-ocean-s3.10.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.12.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.27.b",
+"geo-option-atmosphere-ocean-s3.27.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.28.b",
+"geo-option-atmosphere-ocean-s3.28.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.28.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.29.0",
+"geo-option-atmosphere-ocean-s3.29.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.24.1",
+"geo-option-atmosphere-ocean-s3.25.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.31.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.36.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.36.1",
+"geo-option-atmosphere-ocean-s3.33.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.31.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.35.0",
+"geo-option-atmosphere-ocean-s3.35.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.31.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.32.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.36.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.33.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.34.1",
+"geo-option-atmosphere-ocean-s3.34.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.34.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.32.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.14.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s3.31.3"
+]
+}
+]
+},
+"geography-pp-2017-higher-q123": {
+"23": [
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.18.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.18.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.18.3",
+"geo-option-atmosphere-ocean-s1.18.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.18.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.26.2",
+"geo-option-atmosphere-ocean-s1.26.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.28.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.28.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.19.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.19.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.19.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.19.2",
+"geo-option-atmosphere-ocean-s1.28.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.28.0",
+"geo-option-atmosphere-ocean-s1.28.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.20.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.20.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.20.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.21.0",
+"geo-option-atmosphere-ocean-s1.21.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.28.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.26.0",
+"geo-option-atmosphere-ocean-s1.28.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.28.3",
+"geo-option-atmosphere-ocean-s1.28.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.22.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.22.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.22.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.22.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.22.3",
+"geo-option-atmosphere-ocean-s1.22.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s1.24.0"
+]
+}
+]
+},
+"geography-pp-2017-higher-q124": {
+"24": [
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.8.0",
+"geo-option-atmosphere-ocean-s5.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.8.1",
+"geo-option-atmosphere-ocean-s5.8.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.10.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.10.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.14.4",
+"geo-option-atmosphere-ocean-s5.18.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.10.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.9.2",
+"geo-option-atmosphere-ocean-s5.10.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.9.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.9.2",
+"geo-option-atmosphere-ocean-s5.9.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.10.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.9.2",
+"geo-option-atmosphere-ocean-s5.18.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.10.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.10.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.15.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.10.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.9.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.9.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-atmosphere-ocean-s5.9.5"
+]
+}
+]
+},
+"geography-pp-2018-higher-q1": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.10.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.18.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.18.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.21.6"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.18.2"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.20.4",
+"geo-mapwork-s1.22.0"
+]
+}
+]
+},
+"geography-pp-2018-higher-q2": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.1.0",
+"geo-aerial-photographs-s1.1.b"
+]
+}
+]
+},
+"geography-pp-2018-higher-q3": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": [],
+"(v)": [],
+"(vi)": [],
+"(vii)": [],
+"(viii)": []
+},
+"geography-pp-2018-higher-q4": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2018-higher-q5": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.0.3",
+"geo-region-concept-s1.0.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.3.b",
+"geo-region-concept-s1.1.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s3.0.b",
+"geo-region-concept-s3.0.1"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.13.0",
+"geo-region-concept-s1.9.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.6.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s3.7.b"
+]
+}
+]
+},
+"geography-pp-2018-higher-q6": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.5.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.5.1"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.5.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.5.2"
+]
+}
+],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.0.0"
+]
+}
+]
+},
+"geography-pp-2018-higher-q7": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.0"
+]
+}
+],
+"(ii)": []
+},
+"geography-pp-2018-higher-q8": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.15.b",
+"geo-volcanoes-earthquakes-s5.15.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.16.1",
+"geo-volcanoes-earthquakes-s5.16.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.14.b",
+"geo-volcanoes-earthquakes-s5.14.0"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.0.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.0.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.0.1"
+]
+}
+],
+"(iii)": []
+},
+"geography-pp-2018-higher-q9": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.7.3",
+"geo-rivers-s1.7.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.17.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.12.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.13.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.7.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s6.5.2"
+]
+}
+],
+"(ii)": []
+},
+"geography-pp-2018-higher-q10": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.6.2"
+]
+}
+],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2018-higher-q11": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s2.13.2"
+]
+}
+],
+"(ii)": [],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2018-higher-q12": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2018-higher-q101": {
+"1A(i)": [],
+"1A(ii)": [],
+"1A(iii)": [],
+"1A(iv)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.6.0"
+]
+}
+],
+"1A(v)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.1"
+]
+}
+],
+"1A(vi)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s4.0.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s4.0.3"
+]
+}
+],
+"1B": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.1.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.6",
+"geo-glaciation-s2.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.4.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.7.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.7.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.7.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.4.4"
+]
+}
+],
+"1C": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.6.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.0.6"
+]
+}
+]
+},
+"geography-pp-2018-higher-q102": {
+"2A(i)": [],
+"2A(ii)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.4.0",
+"geo-plate-tectonics-s1.4.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.4.0",
+"geo-plate-tectonics-s1.4.b"
+]
+}
+],
+"2A(iii)": [],
+"2A(iv)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.5.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.5.b"
+]
+}
+],
+"2A(v)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.7.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.7.0"
+]
+}
+],
+"2B": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.b",
+"geo-rocks-weathering-s3.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.8.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.4"
+]
+}
+],
+"2C(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.6.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.9.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.9.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.11.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.0.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.11.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.11.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.11.5"
+]
+}
+],
+"2C(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.23.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.23.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.0.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.3"
+]
+}
+]
+},
+"geography-pp-2019-higher-q1": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-sea-s1.16.b",
+"geo-sea-s1.16.1"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-sea-s1.4.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-sea-s1.4.0"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-sea-s1.15.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-sea-s1.7.3"
+]
+}
+],
+"(iv)": []
+},
+"geography-pp-2019-higher-q2": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.8.3",
+"geo-glaciation-s1.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.19.2"
+]
+}
+]
+},
+"geography-pp-2019-higher-q3": {
+"(i)": [],
+"(ii)": []
+},
+"geography-pp-2019-higher-q4": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.1"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.7.0",
+"geo-glaciation-s2.10.1"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.1.b"
+]
+}
+],
+"(iv)": []
+},
+"geography-pp-2019-higher-q5": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.9.b",
+"geo-region-concept-s1.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.13.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s3.7.b"
+]
+}
+],
+"(ii)(a)": [],
+"(ii)(b)": []
+},
+"geography-pp-2019-higher-q6": {
+"": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.35.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.9.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.19.0"
+]
+}
+]
+},
+"geography-pp-2019-higher-q7": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.5.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.0.4",
+"geo-mapwork-s1.5.0"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.14.2"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.0.4",
+"geo-mapwork-s1.6.b"
+]
+}
+]
+},
+"geography-pp-2019-higher-q8": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.11.1"
+]
+}
+],
+"(ii)": [],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.5"
+]
+}
+]
+},
+"geography-pp-2019-higher-q9": {
+"": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.7.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.7.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2"
+]
+}
+]
+},
+"geography-pp-2019-higher-q10": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.12.0"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.12.2"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.12.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.12.1"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.5.5"
+]
+}
+]
+},
+"geography-pp-2019-higher-q11": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s2.11.2"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s4.0.1",
+"geo-population-migration-s4.10.0"
+]
+}
+]
+},
+"geography-pp-2019-higher-q12": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-economic-activities-s1.58.1",
+"geo-economic-activities-s1.58.2"
+]
+}
+]
+},
+"geography-pp-2020-higher-q1": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.13.0",
+"geo-volcanoes-earthquakes-s2.5.0"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.5.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.5.1"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.12.2"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.3.0"
+]
+}
+]
+},
+"geography-pp-2020-higher-q2": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.12.0",
+"geo-rocks-weathering-s1.15.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.12.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.12.1"
+]
+}
+],
+"(ii)": []
+},
+"geography-pp-2020-higher-q3": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.10.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.4.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s6.5.b",
+"geo-rocks-weathering-s6.6.2"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.16.2",
+"geo-rivers-s1.13.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-sea-s1.11.b",
+"geo-sea-s1.11.1"
+]
+}
+]
+},
+"geography-pp-2020-higher-q4": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.18.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.7.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.17.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.21.b",
+"geo-glaciation-s1.21.1"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.19.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.19.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.19.3",
+"geo-glaciation-s1.19.b"
+]
+}
+]
+},
+"geography-pp-2020-higher-q5": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.2.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.1.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s3.0.b"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-ireland-s1.0.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s3.5.0"
+]
+}
+]
+},
+"geography-pp-2020-higher-q6": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.19.0",
+"geo-mapwork-s1.10.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.19.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.21.0"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.8.1"
+]
+}
+]
+},
+"geography-pp-2020-higher-q7": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.14.3"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.1.6",
+"geo-mapwork-s1.1.5"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.5.3"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.6.0",
+"geo-mapwork-s1.6.4"
+]
+}
+]
+},
+"geography-pp-2020-higher-q8": {
+"": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2"
+]
+}
+]
+},
+"geography-pp-2020-higher-q9": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.14.2",
+"geo-mapwork-s1.13.5"
+]
+}
+],
+"(ii)": [],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.8.1"
+]
+}
+],
+"(iv)": []
+},
+"geography-pp-2020-higher-q10": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2020-higher-q11": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s2.11.2"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s2.5.0",
+"geo-graph-skills-s2.5.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.3.4"
+]
+}
+]
+},
+"geography-pp-2020-higher-q12": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.3.1"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s2.18.b",
+"geo-economic-environment-s2.10.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-environment-s2.12.b",
+"geo-economic-environment-s2.12.0"
+]
+}
+]
+},
+"geography-pp-2021-higher-q1": {
+"": []
+},
+"geography-pp-2021-higher-q2": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.5.4",
+"geo-plate-tectonics-s2.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.3.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.13.3",
+"geo-plate-tectonics-s2.9.2"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.12.1",
+"geo-plate-tectonics-s3.8.5"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.0.1"
+]
+}
+]
+},
+"geography-pp-2021-higher-q3": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.13.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.5",
+"geo-rocks-weathering-s5.4.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.19.2"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.19.1",
+"geo-glaciation-s1.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.19.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.b"
+]
+}
+]
+},
+"geography-pp-2021-higher-q4": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.0"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.4.0",
+"geo-rocks-weathering-s1.3.1"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.12.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.12.1"
+]
+}
+]
+},
+"geography-pp-2021-higher-q5": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.6.b"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.6.1",
+"geo-volcanoes-earthquakes-s1.6.2"
+]
+}
+]
+},
+"geography-pp-2021-higher-q6": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s5.7.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.5.1",
+"geo-region-concept-s4.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.7.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.11.b",
+"geo-region-concept-s1.13.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s3.5.0"
+]
+}
+],
+"(ii)": []
+},
+"geography-pp-2021-higher-q7": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.12.0",
+"geo-mapwork-s1.5.b"
+]
+}
+],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2021-higher-q8": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.2.2"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.7.5"
+]
+}
+],
+"(iv)": []
+},
+"geography-pp-2021-higher-q9": {
+"": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.28.4",
+"geo-aerial-photographs-s1.28.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.28.4",
+"geo-aerial-photographs-s1.28.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.28.4",
+"geo-aerial-photographs-s1.28.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.28.4",
+"geo-aerial-photographs-s1.28.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.28.4",
+"geo-aerial-photographs-s1.28.5"
+]
+}
+]
+},
+"geography-pp-2021-higher-q10": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.2.2"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.3.0"
+]
+}
+]
+},
+"geography-pp-2021-higher-q11": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.3.0"
+]
+}
+],
+"(ii)": [],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2021-higher-q12": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s2.9.2"
+]
+}
+]
+},
+"geography-pp-2022-higher-q1": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.4.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.1.3",
+"geo-plate-tectonics-s1.1.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.3.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.1.0",
+"geo-plate-tectonics-s1.1.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.4.1"
+]
+}
+],
+"(ii)": []
+},
+"geography-pp-2022-higher-q2": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.16.b",
+"geo-volcanoes-earthquakes-s5.16.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.14.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.15.1"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.0.2",
+"geo-volcanoes-earthquakes-s5.16.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.0.1",
+"geo-volcanoes-earthquakes-s5.14.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.0.0",
+"geo-volcanoes-earthquakes-s5.15.0"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s5.19.0"
+]
+}
+]
+},
+"geography-pp-2022-higher-q3": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.4.1"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.2.0"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.5.b",
+"geo-glaciation-s1.5.0"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.17.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.20.b",
+"geo-glaciation-s1.20.2"
+]
+}
+]
+},
+"geography-pp-2022-higher-q4": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-sea-s1.11.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-sea-s1.9.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.10.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.7.b"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.6.1",
+"geo-rivers-s1.6.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.6.0",
+"geo-rivers-s1.6.5"
+]
+}
+]
+},
+"geography-pp-2022-higher-q5": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s4.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s4.6.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s4.6.2"
+]
+}
+],
+"(ii)": []
+},
+"geography-pp-2022-higher-q6": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.15.0"
+]
+}
+],
+"(ii)": [],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.5.b",
+"geo-mapwork-s1.5.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.0.4"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.0.4",
+"geo-mapwork-s1.6.2"
+]
+}
+]
+},
+"geography-pp-2022-higher-q7": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.13.5"
+]
+}
+],
+"(iv)": []
+},
+"geography-pp-2022-higher-q8": {
+"": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1",
+"geo-aerial-photographs-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1",
+"geo-aerial-photographs-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1",
+"geo-aerial-photographs-s1.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1",
+"geo-aerial-photographs-s1.3.2"
+]
+}
+]
+},
+"geography-pp-2022-higher-q9": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s3.0.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.0.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.3.b",
+"geo-region-concept-s1.1.2"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.9.b",
+"geo-region-concept-s1.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.5.1",
+"geo-region-concept-s4.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s3.1.b",
+"geo-region-concept-s3.1.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.8.b"
+]
+}
+]
+},
+"geography-pp-2022-higher-q10": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2022-higher-q11": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.0.5"
+]
+}
+],
+"(ii)": [],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.3.2"
+]
+}
+],
+"(iv)": []
+},
+"geography-pp-2022-higher-q12": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2023-higher-q1": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.19.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.9.b"
+]
+}
+],
+"(ii)": []
+},
+"geography-pp-2023-higher-q2": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s3.15.0"
+]
+}
+]
+},
+"geography-pp-2023-higher-q3": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-sea-s1.13.0",
+"geo-sea-s1.15.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-sea-s1.15.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-sea-s1.15.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-sea-s1.15.1",
+"geo-sea-s1.12.1"
+]
+}
+]
+},
+"geography-pp-2023-higher-q4": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.12.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.12.2"
+]
+}
+]
+},
+"geography-pp-2023-higher-q5": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.3.4"
+]
+}
+]
+},
+"geography-pp-2023-higher-q6": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.0.4",
+"geo-region-concept-s5.0.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.6.3",
+"geo-region-concept-s4.3.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.2.b",
+"geo-region-concept-s1.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.8.b",
+"geo-region-concept-s1.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.2.b",
+"geo-region-concept-s2.0.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.8.0",
+"geo-region-concept-s4.7.b"
+]
+}
+],
+"(ii)(a)": [],
+"(ii)(b)": []
+},
+"geography-pp-2023-higher-q7": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.8.2"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.5.3",
+"geo-mapwork-s1.5.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.0.4",
+"geo-mapwork-s1.5.0"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.1.5"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.6.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.0.4"
+]
+}
+]
+},
+"geography-pp-2023-higher-q8": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.2.5",
+"geo-mapwork-s1.2.4"
+]
+}
+],
+"(ii)": [],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.2.0"
+]
+}
+]
+},
+"geography-pp-2023-higher-q9": {
+"A": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+],
+"B": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+],
+"C": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+],
+"D": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+]
+},
+"geography-pp-2023-higher-q10": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.6.2"
+]
+}
+],
+"(ii)": [],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.5.5"
+]
+}
+]
+},
+"geography-pp-2023-higher-q11": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s2.11.2"
+]
+}
+],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2023-higher-q12": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s2.5.b",
+"geo-graph-skills-s2.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s2.5.5"
+]
+}
+]
+},
+"geography-pp-2024-higher-q1": {
+"": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.19.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.21.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.20.1"
+]
+}
+]
+},
+"geography-pp-2024-higher-q2": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.6.0"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.6.b"
+]
+}
+]
+},
+"geography-pp-2024-higher-q3": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.4.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.3.b"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.1.b"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.1.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rivers-s2.0.2",
+"geo-rivers-s2.1.b"
+]
+}
+]
+},
+"geography-pp-2024-higher-q4": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-sea-s1.12.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-sea-s1.13.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-sea-s1.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-sea-s1.12.1"
+]
+}
+],
+"(ii)(a)": [],
+"(ii)(b)": []
+},
+"geography-pp-2024-higher-q5": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.1.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.1.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.1.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.11.4"
+]
+}
+],
+"(ii)": []
+},
+"geography-pp-2024-higher-q6": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.0.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.2.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.0.3"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s5.7.7"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.2.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.2.0"
+]
+}
+]
+},
+"geography-pp-2024-higher-q7": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.1.5"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.5.1"
+]
+}
+],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.6.0"
+]
+}
+]
+},
+"geography-pp-2024-higher-q8": {
+"": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+]
+},
+"geography-pp-2024-higher-q9": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.9.1",
+"geo-mapwork-s1.13.4"
+]
+}
+],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.14.2",
+"geo-mapwork-s1.13.5"
+]
+}
+]
+},
+"geography-pp-2024-higher-q10": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.2.3"
+]
+}
+]
+},
+"geography-pp-2024-higher-q11": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.0.0"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.1.3"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.9.2",
+"geo-graph-skills-s1.9.5"
+]
+}
+],
+"(iv)": []
+},
+"geography-pp-2024-higher-q12": {
+"": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s2.5.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s2.7.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s2.6.4"
+]
+}
+]
+},
+"geography-pp-2025-higher-q1": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.5.4"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.5.1"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s3.5.3",
+"geo-plate-tectonics-s3.6.0"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.3.4"
+]
+}
+]
+},
+"geography-pp-2025-higher-q2": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.7.3"
+]
+}
+],
+"(ii)(a)": [],
+"(ii)(b)": []
+},
+"geography-pp-2025-higher-q3": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.b",
+"geo-rocks-weathering-s4.0.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s4.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s4.2.0"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.b",
+"geo-rocks-weathering-s3.5.1"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s4.0.1"
+]
+}
+]
+},
+"geography-pp-2025-higher-q4": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.12.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.12.2"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.10.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.1.3",
+"geo-rocks-weathering-s1.2.1"
+]
+}
+]
+},
+"geography-pp-2025-higher-q5": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.b",
+"geo-rocks-weathering-s5.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.4.b",
+"geo-rocks-weathering-s5.4.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.6.1"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.1"
+]
+}
+]
+},
+"geography-pp-2025-higher-q6": {
+"": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s3.1.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.13.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s4.2.2",
+"geo-region-concept-s5.7.0"
+]
+}
+]
+},
+"geography-pp-2025-higher-q7": {
+"(i)": [],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.6.b",
+"geo-mapwork-s1.0.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.6.2"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.5.b"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.15.1"
+]
+}
+]
+},
+"geography-pp-2025-higher-q8": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.10.3"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.10.0"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.10.3"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.11.1"
+]
+}
+]
+},
+"geography-pp-2025-higher-q9": {
+"A": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+],
+"B": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+],
+"C": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+],
+"D": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+]
+},
+"geography-pp-2025-higher-q10": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.4.2"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.5.b"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.2.0"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.6.2"
+]
+}
+]
+},
+"geography-pp-2025-higher-q11": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.18.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-option-culture-identity-s2.21.b"
+]
+}
+]
+},
+"geography-pp-2025-higher-q12": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2026-higher-q1": {
+"": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.19.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.19.0",
+"geo-mapwork-s1.10.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.18.1"
+]
+}
+]
+},
+"geography-pp-2026-higher-q2": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rivers-s1.11.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.16.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.12.b"
+]
+}
+],
+"(ii)(a)": [],
+"(ii)(b)": []
+},
+"geography-pp-2026-higher-q3": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-sea-s1.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.0",
+"geo-sea-s1.3.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.0"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.9.0",
+"geo-glaciation-s2.9.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.9.3"
+]
+}
+]
+},
+"geography-pp-2026-higher-q4": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.4",
+"geo-rocks-weathering-s1.12.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.3",
+"geo-rocks-weathering-s1.8.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.1",
+"geo-rocks-weathering-s1.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s1.15.2",
+"geo-rocks-weathering-s1.8.0"
+]
+}
+],
+"(ii)(a)": [],
+"(ii)(b)": []
+},
+"geography-pp-2026-higher-q5": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.1.2",
+"geo-volcanoes-earthquakes-s5.13.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.1.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.1.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s2.1.0"
+]
+}
+],
+"(ii)(a)": [],
+"(ii)(b)": []
+},
+"geography-pp-2026-higher-q6": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.0.3",
+"geo-region-concept-s1.0.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.0.2",
+"geo-region-concept-s3.0.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.0.4",
+"geo-region-concept-s5.0.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.8.b"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-region-concept-s2.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s3.1.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s5.7.7"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-concept-s1.9.b",
+"geo-region-concept-s1.13.0"
+]
+}
+]
+},
+"geography-pp-2026-higher-q7": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.1.b"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.0.0"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.5.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.0.4"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.0.4",
+"geo-mapwork-s1.6.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.6.3",
+"geo-mapwork-s1.6.1"
+]
+}
+]
+},
+"geography-pp-2026-higher-q8": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.14.2"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.38.0"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.13.3",
+"geo-mapwork-s1.13.0"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.1.5"
+]
+}
+]
+},
+"geography-pp-2026-higher-q9": {
+"A": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+],
+"B": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+],
+"C": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+],
+"E": [
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.2",
+"geo-aerial-photographs-s1.3.3"
+]
+}
+]
+},
+"geography-pp-2026-higher-q10": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.10.3"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.10.3"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.2.3"
+]
+}
+],
+"(iv)": [
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.14.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-weather-climate-s1.14.0"
+]
+}
+]
+},
+"geography-pp-2026-higher-q11": {
+"(i)": [],
+"(ii)": [],
+"(iii)": [],
+"(iv)": []
+},
+"geography-pp-2026-higher-q12": {
+"(i)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.0.2",
+"geo-graph-skills-s1.0.b"
+]
+}
+],
+"(ii)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.0.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.0.2"
+]
+}
+],
+"(iii)": [
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.0.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-graph-skills-s1.4.3",
+"geo-graph-skills-s1.4.4"
+]
+}
+],
+"(iv)": []
 }
 }
