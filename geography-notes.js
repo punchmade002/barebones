@@ -15258,7 +15258,7 @@
     "term": "Language as a cultural indicator: three reasons it matters"
    },
    {
-    "definition": "The Gaelic League (1893, Douglas Hyde and Eoin MacNeill) led a language revival that fed the Irish independence movement. Suppression: Basque and Catalan banned under Franco (1939–1975); the Welsh Not in some 19th-century schools; Kurdish banned in Turkey until the early 1990s.",
+    "definition": "The Gaelic League (1893, Douglas Hyde and Eoin MacNeill) led a language revival that fed the Irish independence movement. Suppression: Basque and Catalan banned under Franco (1939–1975); the Welsh Not in some 19th-century schools; Kurdish banned in public life in Turkey until 1991 and in broadcasting until the early 2000s.",
     "term": "Language and nationalism: one revival movement and three cases of suppression"
    },
    {
@@ -15377,7 +15377,7 @@
      "The Gaelic League (Conradh na Gaeilge), founded in 1893 by Douglas Hyde and Eoin MacNeill, led a language revival that fed the Irish independence movement, though it was founded as a non-political body.",
      "Suppressing a language has been used to weaken a group. Basque and Catalan were banned from public life and schools under Franco (1939–1975).",
      "The Welsh Not was a wooden board hung round the neck of children caught speaking Welsh in some 19th-century schools, so children were punished for using their own language.",
-     "Kurdish was banned in public life and broadcasting in Turkey until the early 1990s, which is an example of a state weakening a group by silencing its language."
+     "Kurdish was banned in public life in Turkey until 1991 and in broadcasting until the early 2000s, which is an example of a state weakening a group by silencing its language."
     ],
     "tip": "Nationalism and the nation state is one of the expected aspects of the language essay. Use the Gaelic League for revival and Franco's Spain, the Welsh Not and Turkey's Kurdish ban for suppression."
    },
@@ -15732,7 +15732,7 @@
    },
    {
     "marks": 80,
-    "model": "Language is an identity marker: it carries a group's history, literature and ways of thinking, and it shows belonging. Irish place-name elements such as baile, cill, dún, inis and cluain record the Irish-speaking past of areas that are now English-speaking. Language is tied to nationalism: many nation states were built around one language, and the Gaelic League, founded in 1893, drove a language revival that fed the independence movement. Suppression shows how much language matters to power: Basque and Catalan were banned under Franco from 1939 to 1975, the Welsh Not punished children in some 19th-century schools for speaking Welsh, and Kurdish was banned in Turkey until the early 1990s. Language and colonialism are linked. English is an official language of India and Nigeria, French of Senegal and Côte d'Ivoire, Spanish across most of Latin America, and Portuguese in Brazil. Within Indo-European, Europe's Germanic, Romance, Slavic and Celtic branches show how Latin and other languages spread. The mass media is a modern force: about half of all websites are in English, young people adopt English words, and states such as France have responded with laws such as the Toubon Law of 1994. Language can also unite or divide, as Belgium's language border shows. Revival of minority languages is an assertion of identity: Irish and Welsh have been revived through law, schooling and broadcasting, so that language is both a marker of identity and a target of policy.",
+    "model": "Language is an identity marker: it carries a group's history, literature and ways of thinking, and it shows belonging. Irish place-name elements such as baile, cill, dún, inis and cluain record the Irish-speaking past of areas that are now English-speaking. Language is tied to nationalism: many nation states were built around one language, and the Gaelic League, founded in 1893, drove a language revival that fed the independence movement. Suppression shows how much language matters to power: Basque and Catalan were banned under Franco from 1939 to 1975, the Welsh Not punished children in some 19th-century schools for speaking Welsh, and Kurdish was banned in public life in Turkey until 1991 and in broadcasting until the early 2000s. Language and colonialism are linked. English is an official language of India and Nigeria, French of Senegal and Côte d'Ivoire, Spanish across most of Latin America, and Portuguese in Brazil. Within Indo-European, Europe's Germanic, Romance, Slavic and Celtic branches show how Latin and other languages spread. The mass media is a modern force: about half of all websites are in English, young people adopt English words, and states such as France have responded with laws such as the Toubon Law of 1994. Language can also unite or divide, as Belgium's language border shows. Revival of minority languages is an assertion of identity: Irish and Welsh have been revived through law, schooling and broadcasting, so that language is both a marker of identity and a target of policy.",
     "prompt": "Examine the importance of language as a cultural indicator.",
     "type": "short"
    },
@@ -16786,7 +16786,7 @@
     "term": "Kurds: numbers, homeland and the treaties that denied them a state"
    },
    {
-    "definition": "Turkey long denied a Kurdish identity and banned Kurdish in public life and broadcasting until the early 1990s. The PKK, founded 1978, began an armed campaign in 1984; the conflict cost about 40,000 lives; the PKK announced its dissolution in May 2025.",
+    "definition": "Turkey long denied a Kurdish identity and banned Kurdish in public life until 1991 and in broadcasting until the early 2000s. The PKK, founded 1978, began an armed campaign in 1984; the conflict cost about 40,000 lives; the PKK announced its dissolution in May 2025.",
     "term": "Kurds in Turkey: suppression and the PKK conflict"
    },
    {
@@ -17050,7 +17050,7 @@
     "points": [
      "The Treaty of Sèvres (1920) provided for a possible Kurdish state.",
      "The Treaty of Lausanne (1923) replaced it and drew the borders of modern Turkey with no Kurdish state.",
-     "Turkey long denied a separate Kurdish identity and banned Kurdish in public life and broadcasting until the early 1990s.",
+     "Turkey long denied a separate Kurdish identity and banned Kurdish in public life until 1991 and in broadcasting until the early 2000s.",
      "The PKK (Kurdistan Workers’ Party), founded in 1978, began an armed campaign in 1984; the conflict cost about 40,000 lives.",
      "The PKK announced its dissolution in May 2025."
     ],
@@ -23775,7 +23775,7 @@
     ]
    },
    {
-    "b": "Where two plates converge, one plate is forced down into the mantle. Which one sinks depends on the density of the crust.",
+    "b": "Where two plates converge, pushed together by convection currents in the mantle, one plate is forced down into the mantle. Which one sinks depends on the density of the crust.",
     "h": "Destructive boundaries: crust is destroyed",
     "points": [
      "Oceanic crust is denser than continental crust, so where the two meet the oceanic plate is forced down into the mantle.",

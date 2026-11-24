@@ -21220,7 +21220,99 @@
 "5A(iii)": [],
 "5A(iv)": [],
 "5A(v)": [],
-"5B": [],
+"5B": [
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.72.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.69.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.69.1"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-region-continental-s1.69.2",
+"geo-region-continental-s1.69.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.71.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.69.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.70.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.70.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.71.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.72.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.72.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.72.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.74.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.72.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.73.2"
+]
+}
+],
 "5C": [
 {
 "k": 1,

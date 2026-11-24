@@ -208,10 +208,13 @@ Not modelled: the "any two of three parts" choice inside long questions.
   low counts are notes gaps (monsoon mechanism, Peru upwelling, Hadley cell, Ophelia), not under-tagging.
 - Cuts at a written-paper target with all tags (India / Brazil): 85% → 49% / 54%, 75% → 63% / 64%, 55% → 81% /
   80%. That's bigger than with wave 1 only (39% / 44% at 85%): precise tags put the marks on fewer points.
-- Notes conflicts the taggers found: the Kurdish broadcasting ban ends in the "early 1990s" in
-  `geo-option-culture-identity` s2.1.4/s5.19.2 but in the "early 2000s" in five model answers; TFR 1.2 vs 1.5 in
-  `geo-population-migration-s1`; the convection-current direction (2018 q103 3C); 2021 q105 5B (India tourism)
-  came back empty, probably a wrong notesRefs link.
+- Notes conflicts the taggers found, fixed 2026-11-24:
+  - Kurdish ban: the notes now say public life until 1991 and broadcasting until the early 2000s, matching the
+    model answers.
+  - Convection: destructive boundaries now say convection pushes the plates together.
+  - 2021 q105 5B (India tourism): its notesRefs pointed at `geo-economic-activities-s2`. Fixed in the bank and in
+    the scan's `manual-fixes.json`, and tagged by hand (15 points).
+  - The TFR "conflict" was a tagger mix-up (Japan 1.2 vs Ireland 1.5, both right).
 
 ## Status (2026-11-23)
 Biology point graph drafted by Sonnet, one agent per subsection: 10,583 items,
