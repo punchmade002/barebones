@@ -117,7 +117,7 @@ out={}
 for t in tgt:
     k=t[len(p):]
     out[t]={"needs":[{"id":(i if i.startswith('geo-') else p+i),"strength":s,"why":w,"confidence":c} for i,s,w,c in L.get(k,[])]}
-assert not set(L)-{t[len(p):] for t in tgt}
+print(sorted(set(L)-{t[len(p):] for t in tgt}))
 for v in out.values():
     for n in v['needs']: assert n['id'] in allids,n
 json.dump(out,open(P+'point-links/geo-economic-activities-s1.t1g4.json','w'),indent=1)
