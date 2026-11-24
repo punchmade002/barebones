@@ -4,9 +4,13 @@
 //
 // Rolling backtest: for each year Y (after the first 5 papers), cut using only papers before Y, then mark the
 // paper of year Y the 2027 way. Score = average real mark across study budgets (keep 5%, 10% … 60% of the
-// study effort), averaged over years: the most marks for the least study. Only settings past papers can judge
-// are tuned (exact, halfLife, newShare). Dependency settings (decay, helpW, gapE, gapH) are about how students
-// learn, which old papers can't measure, so they stay at the shared defaults.
+// study effort), averaged over years: the most marks for the least study. Every pair on the grid is tried.
+// Only settings past papers can judge are tuned: exact and halfLife. Not tuned:
+// - decay, helpW, gapE, gapH: about how students learn, which old papers can't measure.
+// - newShare: in a backtest, "new" means "not asked yet", and those subsections mostly stay unasked, so the
+//   backtest always says 0. Real new-course content is on the 2027 syllabus, which is a different thing.
+// The tuned pair is kept only if it beats the defaults by 2 standard errors across the test years; otherwise
+// the subject's papers can't tell them apart and the defaults stay.
 const ROOT = new URL("../", import.meta.url).pathname;
 await import(ROOT + "drafts/crunch/biology/map/crunch-score.js");
 
@@ -17,7 +21,7 @@ const PICKS = {
   history: { ire: ["ire:hist-ire2", "ire:hist-ire3"], eur: ["eur:hist-eur3", "eur:hist-eur4"] },
 };
 const BASE = { decay: 0.5, helpW: 0.5, gapE: 0.5, gapH: 0.2, halfLife: 8, newShare: 0.1, choice: true, exact: 0.5 };
-const GRID = { exact: [0, 0.25, 0.5, 0.75, 1], halfLife: [2, 4, 8, 16, 50], newShare: [0, 0.05, 0.1, 0.2] };
+const GRID = { exact: [0, 0.25, 0.5, 0.75, 1], halfLife: [2, 4, 8, 16, 50] };
 const BUDGETS = [5, 10, 15, 20, 25, 30, 40, 50, 60];
 
 let F = JSON.parse(await Deno.readTextFile(`${ROOT}drafts/crunch/${subject}/map/data.json`));
@@ -55,20 +59,21 @@ const base = foldScores(BASE);
 console.log(`${subject}: ${D.items.length} points, ${years.length} papers, test years ${testYears.join(" ")} (${Math.round(performance.now() - t0)} ms per setting)`);
 console.log(`  Biology defaults: ${mean(base).toFixed(2)}% average real mark over budgets`);
 
-// Coordinate search, two passes: each setting in turn over its grid, others held.
-let best = { ...BASE }, bestS = foldScores(best);
-const tried = [];
-for (let pass = 0; pass < 2; pass++) for (const key of Object.keys(GRID)) for (const v of GRID[key]) {
-  if (v === best[key]) continue;
-  const P = { ...best, [key]: v }, s = foldScores(P);
-  tried.push({ [key]: v, score: +mean(s).toFixed(2) });
+let best = BASE, bestS = base;
+const table = {};
+for (const exact of GRID.exact) for (const halfLife of GRID.halfLife) {
+  const P = { ...BASE, exact, halfLife }, s = (exact === BASE.exact && halfLife === BASE.halfLife) ? base : foldScores(P);
+  table[`${exact}/${halfLife}`] = +mean(s).toFixed(2);
   if (mean(s) > mean(bestS) + 1e-9) { best = P; bestS = s; }
 }
-// paired comparison with the defaults: is the gain bigger than year-to-year noise?
+// paired comparison with the defaults, year by year: is the gain bigger than year-to-year noise?
 const diff = bestS.map((s, i) => s - base[i]), se = sd(diff) / Math.sqrt(diff.length);
-const out = { subject, exact: best.exact, halfLife: best.halfLife, newShare: best.newShare,
-  score: +mean(bestS).toFixed(2), defaultScore: +mean(base).toFixed(2), gain: +mean(diff).toFixed(2), gainSE: +se.toFixed(2),
-  testYears, budgets: BUDGETS, picks: PICKS[subject] || null, tuned: new Date().toISOString().slice(0, 10) };
-console.log(`  tuned: exact ${best.exact}, half-life ${best.halfLife}, newShare ${best.newShare}: ${out.score}% (gain ${out.gain} ± ${out.gainSE} per year)`);
-console.log("  tried:", tried.map(t => JSON.stringify(t)).join(" "));
+const adopt = mean(diff) >= 2 * se && mean(diff) > 0;
+const use = adopt ? best : BASE;
+const out = { subject, exact: use.exact, halfLife: use.halfLife,
+  adopted: adopt, best: { exact: best.exact, halfLife: best.halfLife, score: +mean(bestS).toFixed(2) },
+  defaultScore: +mean(base).toFixed(2), gain: +mean(diff).toFixed(2), gainSE: +se.toFixed(2),
+  testYears, budgets: BUDGETS, picks: PICKS[subject] || null, grid: table, tuned: new Date().toISOString().slice(0, 10) };
+console.log(`  best: exact ${best.exact}, half-life ${best.halfLife}: ${out.best.score}% (gain ${out.gain} ± ${out.gainSE} per year) → ${adopt ? "adopted" : "within noise, defaults kept"}`);
+for (const e of GRID.exact) console.log(`  exact ${String(e).padEnd(4)}`, GRID.halfLife.map(h => `hl${h}: ${table[`${e}/${h}`].toFixed(2)}`).join("  "));
 await Deno.writeTextFile(`${ROOT}content/crunch/${subject}-tuning.json`, JSON.stringify(out, null, 1) + "\n");

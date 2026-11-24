@@ -235,3 +235,20 @@ Gabriel. The loops must be resolved before any scoring code runs.
 - *Results* for Ireland T2+T3 and Europe T3+T4, calibrated: an 85% written target cuts 70% of study effort, 75% cuts 76%, 55% cuts 87%, 35% cuts 93%.
 - Map: https://claude.ai/artifact/Rf3zBxq8Bpe19xbMYBr5Ji (`drafts/crunch/history/map/`).
 - Not modelled: the essay marking split (60 content + 40 overall evaluation); Q1's document-comprehension parts are treated like note-based marks.
+
+## Per-subject tuning (2026-11-24)
+`deno run -A scripts/crunch_tune.js <subject>` → `content/crunch/<subject>-tuning.json`. This is a rolling
+backtest: each year from the 6th paper on is predicted from the papers before it. Each setting is scored by
+the average real mark over study budgets (keeping 5–60% of study effort). Every `exact` × `halfLife` pair is
+tried. The best pair is adopted only if it beats the defaults by 2 standard errors year by year.
+- **Biology** (6 test years): best is exact 0.75 / half-life 16, +0.8 ± 0.7 points. Defaults kept.
+- **Geography** (5 test years): best is exact 1 / half-life 8, +1.0 ± 2.8 points. The surface is flat and noisy.
+  Defaults kept.
+- **History** (16 test years): its own best is half-life 8. `exact` has no effect, because essays have no
+  point tags. Defaults kept.
+So each subject's own papers agree with the shared defaults, within noise.
+Not tunable from past papers:
+- decay, helpW, gapE, gapH: these are about how students learn.
+- newShare: in a backtest, "new" means "not asked yet". Those subsections mostly stay unasked, so the
+  backtest always says 0. That is a different thing from new-syllabus content.
+These are hand-set judgements for every subject, Biology included.
