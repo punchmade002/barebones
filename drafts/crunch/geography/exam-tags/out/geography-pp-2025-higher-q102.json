@@ -1,0 +1,45 @@
+{
+"2A(i)": [],
+"2A(ii)": [],
+"2A(iii)": [],
+"2A(iv)": [{"k": 2, "of": ["geo-volcanoes-earthquakes-s1.12.0", "geo-volcanoes-earthquakes-s1.12.2", "geo-volcanoes-earthquakes-s1.12.4"]}],
+"2A(v)": [{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.3.0"]}],
+"2A(vi)": [
+{"k": 2, "of": ["geo-volcanoes-earthquakes-s2.20.b", "geo-volcanoes-earthquakes-s2.20.2"]},
+{"k": 2, "of": ["geo-volcanoes-earthquakes-s2.21.1", "geo-volcanoes-earthquakes-s2.21.b"]}
+],
+"2B": [
+{"k": 2, "of": ["geo-sea-s1.12.1", "geo-sea-s1.12.5"]},
+{"k": 1, "of": ["geo-sea-s1.11.b"]},
+{"k": 2, "of": ["geo-sea-s1.11.1", "geo-sea-s1.2.1"]},
+{"k": 1, "of": ["geo-sea-s1.11.0"]},
+{"k": 1, "of": ["geo-sea-s1.11.2"]},
+{"k": 1, "of": ["geo-sea-s1.10.1"]},
+{"k": 2, "of": ["geo-sea-s1.10.1", "geo-sea-s1.10.2"]},
+{"k": 1, "of": ["geo-sea-s1.12.0"]},
+{"k": 1, "of": ["geo-sea-s1.12.1"]},
+{"k": 1, "of": ["geo-sea-s1.12.2"]},
+{"k": 1, "of": ["geo-sea-s1.12.3"]},
+{"k": 1, "of": ["geo-sea-s1.12.5"]},
+{"k": 2, "of": ["geo-sea-s1.10.4", "geo-sea-s1.12.5"]},
+{"k": 1, "of": ["geo-sea-s1.12.6"]},
+{"k": 2, "of": ["geo-sea-s1.12.4", "geo-sea-s1.13.0"]}
+],
+"2C": [
+{"k": 2, "of": ["geo-rocks-weathering-s3.0.3", "geo-rocks-weathering-s3.1.b"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.1.b"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.1.0"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.1.1"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.1.2"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.1.3"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.1.4"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.1.5"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.5.b"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.5.0"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.5.1"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.5.1"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.5.b"]},
+{"k": 1, "of": ["geo-rocks-weathering-s3.5.3"]},
+{"k": 2, "of": ["geo-rocks-weathering-s3.7.3", "geo-rocks-weathering-s3.7.1"]}
+]
+}
