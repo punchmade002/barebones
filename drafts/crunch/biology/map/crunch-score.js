@@ -1,6 +1,7 @@
 // Crunch Mode scoring (see CRUNCH_MODE.md). Plain script: defines globalThis.crunchScore.
 // D = data.json from scripts/crunch_map.py.
-// P = {decay, helpW, gapE, gapH, halfLife, newShare (null = its share of the course), choice (true/false)}.
+// P = {decay, helpW, gapE, gapH, halfLife, newShare (null = its share of the course), choice (true/false),
+//      exact (0..1: share of a part's marks on the exact points it was tagged to; the rest spreads over their subsections)}.
 //
 // Exam value: every Higher Level past paper is re-marked as if set in the 2027 format. Old Section A is the
 // compulsory Q1 (1/6 of the paper); old Sections B and C are the optional questions, of which the student
@@ -97,10 +98,11 @@
     const paperQs = papers.map(() => []);
     papers.forEach((p, pi) => {
       const comp_ = p.qs.filter(q => !q.opt), opt = p.qs.filter(q => q.opt);
-      const attA = comp_.reduce((a, q) => a + q.slots.reduce((s, x) => s + x[0], 0), 0);
+      const attOf = q => q.slots.filter(x => x[1] > 0 || !q.slots.some(y => y[1] > 0)).reduce((s, x) => s + x[0], 0);
+      const attA = comp_.reduce((a, q) => a + attOf(q), 0);
       const K = P.choice ? (5 / 6) * opt.length : opt.length;
       for (const q of p.qs) {
-        const att = q.slots.reduce((s, x) => s + x[0], 0);
+        const att = q.slots.filter(x => x[1] > 0 || !q.slots.some(y => y[1] > 0)).reduce((s, x) => s + x[0], 0);
         const optShare = attA ? 5 / 6 : 1; // a paper with no short questions puts everything on the optional ones
         const w = q.opt ? optShare / K : (1 / 6) * (att / attA);
         const Q = { paper: pi, opt: q.opt, att, w, cov: 1, inTop: 1, slots: [], K };
