@@ -6,7 +6,7 @@
                                                          # → exam-tags/batches/batch-NN.txt + batches.json
 
 Cheap mode shows each question only the note points that share the most distinctive words (idf-weighted) with
-each line of its model answer: the top 8 per line. Tested on Biology's Sonnet tags: 91% of marking points keep
+each line of its model answer: the top 8 per line (4 for parts of 20+ marks). Tested on Biology's Sonnet tags: 91% of marking points keep
 at least one of their tagged points, from 12% of the candidates. A missed point just leaves that marking point
 untagged, and the map's spread share still covers its subsection.
 
@@ -52,8 +52,9 @@ def tok(t):
     return [w for w in re.findall(r"[a-z0-9]+", t.lower()) if len(w) > 2 and w not in STOP]
 
 
-def shortlister(all_items, top=8):
-    """part -> the candidate ids worth showing: for each model-answer line, its `top` best word matches."""
+def shortlister(all_items, top=8, top_long=4):
+    """part -> the candidate ids worth showing: for each model-answer line, its `top` best word matches
+    (`top_long` for parts of 20+ marks, whose 40-line answers would otherwise show nearly the whole subsection)."""
     df, n = {}, 0
     for _, rows in all_items.values():
         for _, t, _ in rows:
@@ -70,7 +71,7 @@ def shortlister(all_items, top=8):
             if not lw:
                 continue
             ranked = sorted(((sum(idf.get(w, 0) for w in lw & ws) / math.sqrt(len(ws) or 1), i) for i, ws in pts), reverse=True)
-            keep |= {i for sc, i in ranked[:top] if sc > 0}
+            keep |= {i for sc, i in ranked[:top if part["marks"] < 20 else top_long] if sc > 0}
         return keep
     return short
 
@@ -82,12 +83,11 @@ def short_package(q, all_items, short):
         lines += [f"PART {p['label']} ({p['marks']} marks)", f"MODEL ANSWER: {p.get('model') or '(none)'}", ""]
         keep |= short(p)
     lines.append("CANDIDATES (shortlist):")
-    text = {i: t for _, rows in all_items.values() for i, t, _ in rows}
-    lines += [f"[{i}] {text[i]}" for i in sorted(keep, key=lambda i: [int(x) if x.isdigit() else x for x in re.split(r"[.-]", i)])]
+    lines += [f"[{i}] {t}" for _, rows in all_items.values() for i, t, _ in rows if i in keep]  # notes order
     return "\n".join(lines) + "\n"
 
 
-def batches(subject, budget=50_000):
+def batches(subject, budget=60_000):
     """Questions in paper order, short ones together and long ones together, packed into batches of up to `budget` bytes."""
     all_items = items(subject)
     short = shortlister(all_items)
