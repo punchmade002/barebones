@@ -1,0 +1,551 @@
+{
+ "hist-eur4-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.1.0",
+    "strength": "helpful",
+    "why": "uses Rákosi's Stalinist rule",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s3.1.6",
+    "strength": "helpful",
+    "why": "New Course explained there",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.1.0",
+    "strength": "helpful",
+    "why": "Rákosi's Stalinist leadership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.6.3",
+    "strength": "helpful",
+    "why": "the Warsaw Pact",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.4.3",
+    "strength": "helpful",
+    "why": "Kádár's government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.4.2",
+    "strength": "helpful",
+    "why": "Pál Maléter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.0.5",
+    "strength": "helpful",
+    "why": "the execution being commemorated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.1.0",
+    "strength": "helpful",
+    "why": "Rákosi's leadership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.1.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s3.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.0.1",
+    "strength": "helpful",
+    "why": "Nagy's New Course policies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.1.0",
+    "strength": "helpful",
+    "why": "AVH under Rákosi",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.1.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.0.b",
+    "strength": "helpful",
+    "why": "Imre Nagy as reformer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.2.0",
+    "strength": "helpful",
+    "why": "the demands being broadcast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.1.7",
+    "strength": "helpful",
+    "why": "the AVH secret police",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.1.3",
+    "strength": "helpful",
+    "why": "Gerő as leader",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.2.0",
+    "strength": "helpful",
+    "why": "demand for Nagy's return",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.3.0",
+    "strength": "helpful",
+    "why": "Nagy's reinstatement as prime minister",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.6.3",
+    "strength": "helpful",
+    "why": "the Warsaw Pact",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.4.3",
+    "strength": "helpful",
+    "why": "Kádár's Soviet-backed government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.3.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s3.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.1.7",
+    "strength": "helpful",
+    "why": "the AVH men attacked",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.1.5",
+    "strength": "helpful",
+    "why": "Mindszenty's 1949 jailing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.3.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.3.3",
+    "strength": "helpful",
+    "why": "declaration of neutrality",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s3.6.0",
+    "strength": "helpful",
+    "why": "the Suez crisis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.4.1",
+    "strength": "essential",
+    "why": "Nagy's refuge in the Yugoslav embassy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.3.2",
+    "strength": "helpful",
+    "why": "workers' councils",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.5.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s3.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.4.3",
+    "strength": "helpful",
+    "why": "Kádár's government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.4.4",
+    "strength": "helpful",
+    "why": "leaving the Yugoslav embassy",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s3.4.2",
+    "strength": "helpful",
+    "why": "Maléter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.4.3",
+    "strength": "helpful",
+    "why": "Kádár's regime",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s3.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.5.1",
+    "strength": "essential",
+    "why": "refugees who fled to Austria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.6.1",
+    "strength": "helpful",
+    "why": "Radio Free Europe broadcasts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.6.3",
+    "strength": "helpful",
+    "why": "the Warsaw Pact",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.7.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s3.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.5.4",
+    "strength": "helpful",
+    "why": "goulash communism policy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.0.6",
+    "strength": "helpful",
+    "why": "Nagy's reburial",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.7.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.3.3",
+    "strength": "essential",
+    "why": "neutrality and Pact withdrawal",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s3.1.4",
+    "strength": "helpful",
+    "why": "Gomułka's Polish October",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.4.0",
+    "strength": "helpful",
+    "why": "the second Soviet intervention",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.7.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.8.3",
+    "strength": "helpful",
+    "why": "Prague Spring 1968",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.3.1",
+    "strength": "helpful",
+    "why": "multi-party coalition government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s3.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s3.8.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s3.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s3.0.6",
+    "strength": "helpful",
+    "why": "1989 rehabilitation and reburial",
+    "confidence": "high"
+   }
+  ]
+ }
+}
