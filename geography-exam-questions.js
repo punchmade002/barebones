@@ -20041,7 +20041,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "diagramRelation": "none",
     "offSpec": false,
     "notesRefs": [
-     "geo-economic-activities-s2"
+     "geo-region-continental-s1"
     ]
    },
    {
