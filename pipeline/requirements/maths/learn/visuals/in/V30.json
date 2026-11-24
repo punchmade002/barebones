@@ -1,0 +1,119 @@
+[
+ {
+  "skill": "trig-sine-ambiguous",
+  "title": "Handle the ambiguous case of the sine rule",
+  "show": "angle A with BC=10 cm swinging to meet the base at two points giving two triangles",
+  "example": {
+   "question": "In triangle $ABC$, $|BC| = 10$ cm, $|AC| = 13$ cm and $|\\angle BAC| = 35^\\circ$. Find the two possible values of $|\\angle ABC|$, correct to one decimal place.",
+   "final": "48.2^\\circ \\text{ or } 131.8^\\circ",
+   "steps": [
+    {
+     "say": "Match each side with the angle opposite it. $|BC|$ is opposite $35^\\circ$, and $|AC|$ is opposite the angle $B$ we want.",
+     "rows": [
+      {
+       "l": "\\frac{\\sin B}{13}",
+       "r": "= \\frac{\\sin 35^\\circ}{10}"
+      }
+     ]
+    },
+    {
+     "say": "Multiply both sides by $13$ to get $\\hl{1}{\\sin B}$ on its own.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\sin B}",
+       "r": "= \\frac{13\\sin 35^\\circ}{10}"
+      },
+      {
+       "l": "",
+       "r": "= 0.7456"
+      }
+     ]
+    },
+    {
+     "say": "Take the inverse sine for the angle in the first quadrant.",
+     "rows": [
+      {
+       "l": "B",
+       "r": "= \\sin^{-1}(0.7456)"
+      },
+      {
+       "l": "",
+       "r": "= 48.2^\\circ"
+      }
+     ]
+    },
+    {
+     "say": "The sine is positive in the second quadrant too. Subtract from $180^\\circ$. Check that it still fits: $131.8^\\circ + 35^\\circ < 180^\\circ$.",
+     "rows": [
+      {
+       "l": "B",
+       "r": "= 180^\\circ - 48.2^\\circ"
+      },
+      {
+       "l": "",
+       "r": "= 131.8^\\circ"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-3d",
+  "title": "Solve 3D trigonometry problems",
+  "show": "cuboid 12 by 5 by 6 cm with the space diagonal and the base diagonal marked, and the angle between them",
+  "example": {
+   "question": "A box has a rectangular base $12$ cm by $5$ cm and a height of $6$ cm. Find the angle between a space diagonal and the base, correct to one decimal place.",
+   "final": "24.8^\\circ",
+   "steps": [
+    {
+     "say": "The space diagonal, the base diagonal and the vertical edge form a right-angled triangle. First find the $\\hl{1}{\\text{base diagonal}}$ with Pythagoras.",
+     "rows": [
+      {
+       "l": "d^2",
+       "r": "= 12^2 + 5^2"
+      },
+      {
+       "l": "",
+       "r": "= 169"
+      },
+      {
+       "l": "\\hl{1}{d}",
+       "r": "= 13"
+      }
+     ]
+    },
+    {
+     "say": "The angle $\\theta$ is between the space diagonal and its shadow on the base. The shadow is $\\hl{1}{13}$. The side opposite $\\theta$ is the height, $6$.",
+     "rows": [
+      {
+       "aside": "Opposite $= 6$, adjacent $= 13$."
+      }
+     ]
+    },
+    {
+     "say": "We know the opposite and adjacent sides, so use tan.",
+     "rows": [
+      {
+       "l": "\\tan\\theta",
+       "r": "= \\frac{6}{13}"
+      }
+     ]
+    },
+    {
+     "say": "Take the inverse tan.",
+     "rows": [
+      {
+       "l": "\\theta",
+       "r": "= \\tan^{-1}\\left(\\frac{6}{13}\\right)"
+      },
+      {
+       "l": "",
+       "r": "= 24.8^\\circ"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

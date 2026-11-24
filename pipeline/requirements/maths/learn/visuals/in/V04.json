@@ -1,0 +1,213 @@
+[
+ {
+  "skill": "mens-trapezoidal",
+  "title": "Approximate area with the trapezoidal rule",
+  "show": "16 m by varying width field plotted as 5 width lines 4 m apart (6,9,11,8,5) forming trapezium strips",
+  "example": {
+   "question": "A garden is $16$ m long. Its width is measured every $4$ m along the length: $6$, $9$, $11$, $8$ and $5$ metres. Use the trapezoidal rule to estimate the area of the garden.",
+   "final": "134 \\text{ m}^2",
+   "steps": [
+    {
+     "say": "The widths are the heights $y$. The strip width $\\hl{1}{h}$ is the gap between them.",
+     "rows": [
+      {
+       "l": "\\hl{1}{h}",
+       "r": "= 4"
+      },
+      {
+       "aside": "There are five heights and four strips."
+      }
+     ]
+    },
+    {
+     "say": "The rule adds the first and last heights once. It adds every height in between twice.",
+     "rows": [
+      {
+       "l": "\\hl{2}{6 + 5}",
+       "r": "= 11"
+      },
+      {
+       "l": "\\hl{3}{2(9 + 11 + 8)}",
+       "r": "= 56"
+      }
+     ]
+    },
+    {
+     "say": "The rule is $\\frac{h}{2}[\\text{ends} + 2(\\text{middle})]$.",
+     "rows": [
+      {
+       "l": "A",
+       "r": "= \\frac{\\hl{1}{4}}{2}(\\hl{2}{11} + \\hl{3}{56})"
+      },
+      {
+       "l": "",
+       "r": "= 2(67)"
+      },
+      {
+       "l": "",
+       "r": "= 134"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "mens-equate-volumes",
+  "title": "Solve recasting, displacement and flow problems",
+  "show": "sphere of radius 6 cm beside a cylinder of radius 4 cm and unknown height h",
+  "example": {
+   "question": "A solid metal sphere of radius $6$ cm is melted and recast as a solid cylinder of radius $4$ cm. Find the height of the cylinder.",
+   "final": "h = 18 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Melting does not change the amount of metal. Start with the volume of the sphere, $\\frac{4}{3}\\pi r^3$ with $r = 6$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{V_s}",
+       "r": "= \\frac{4}{3}\\pi(6)^3"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{288\\pi}"
+      }
+     ]
+    },
+    {
+     "say": "The cylinder has radius $4$ and an unknown height $\\hl{2}{h}$. Write its volume with the formula $\\pi r^2 h$.",
+     "rows": [
+      {
+       "l": "V_c",
+       "r": "= \\pi(4)^2\\hl{2}{h}"
+      },
+      {
+       "l": "",
+       "r": "= 16\\pi \\hl{2}{h}"
+      }
+     ]
+    },
+    {
+     "say": "The two volumes are equal. Put $16\\pi \\hl{2}{h}$ equal to $\\hl{1}{288\\pi}$ and solve for $\\hl{2}{h}$.",
+     "rows": [
+      {
+       "l": "16\\pi \\hl{2}{h}",
+       "r": "= \\hl{1}{288\\pi}"
+      },
+      {
+       "aside": "Divide both sides by $16\\pi$."
+      },
+      {
+       "l": "\\hl{2}{h}",
+       "r": "= \\frac{288\\pi}{16\\pi}"
+      },
+      {
+       "l": "",
+       "r": "= 18"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-eq-origin",
+  "title": "Write/interpret a circle with centre (0, 0)",
+  "show": "circle centred at the origin through (2,5) with the radius drawn from O to the point",
+  "example": {
+   "question": "A circle has centre $(0, 0)$ and passes through the point $(2, 5)$. Find the equation of the circle.",
+   "final": "x^2 + y^2 = 29",
+   "steps": [
+    {
+     "say": "With centre $(0,0)$ the equation is $x^2 + y^2 = \\hl{1}{r^2}$. We need $\\hl{1}{r^2}$.",
+     "rows": []
+    },
+    {
+     "say": "The point $(2, 5)$ is on the circle, so it must fit the equation. Put $x = 2$ and $y = 5$ in.",
+     "rows": [
+      {
+       "l": "\\hl{1}{r^2}",
+       "r": "= 2^2 + 5^2"
+      },
+      {
+       "l": "",
+       "r": "= 4 + 25"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{29}"
+      }
+     ]
+    },
+    {
+     "say": "Put $\\hl{1}{29}$ in place of $r^2$.",
+     "rows": [
+      {
+       "l": "x^2 + y^2",
+       "r": "= \\hl{1}{29}"
+      },
+      {
+       "aside": "Leave $r^2$ as $29$. There is no need to find the radius."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-eq-centre-radius",
+  "title": "Write/interpret (x − h)² + (y − k)² = r²",
+  "show": "circle with centre (-2,3) passing through (1,7) with radius segment 5 drawn",
+  "example": {
+   "question": "A circle has centre $(-2, 3)$ and passes through the point $(1, 7)$.\nFind the equation of the circle.",
+   "final": "(x+2)^2+(y-3)^2=25",
+   "steps": [
+    {
+     "say": "The radius is the distance from the centre to a point on the circle. Use the distance formula on $(-2, 3)$ and $(1, 7)$.",
+     "rows": [
+      {
+       "l": "r",
+       "r": "= \\hl{1}{\\sqrt{(1-(-2))^2+(7-3)^2}}"
+      },
+      {
+       "l": "",
+       "r": "= \\sqrt{9+16}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{5}"
+      }
+     ]
+    },
+    {
+     "say": "The centre $(-2, 3)$ gives $\\hl{2}{h=-2}$ and $\\hl{3}{k=3}$. Watch the signs: $(x-h)$ with $h=-2$ becomes $(x+2)$.",
+     "rows": [
+      {
+       "l": "x-h",
+       "r": "= x-(\\hl{2}{-2}) = x+2"
+      },
+      {
+       "l": "y-k",
+       "r": "= y-\\hl{3}{3}"
+      }
+     ]
+    },
+    {
+     "say": "Put the centre and the radius $\\hl{1}{5}$ into $(x-h)^2+(y-k)^2=r^2$. The right side is the radius squared, $5^2=25$.",
+     "rows": [
+      {
+       "l": "(x+2)^2+(y-3)^2",
+       "r": "= \\hl{1}{5}^2"
+      },
+      {
+       "l": "(x+2)^2+(y-3)^2",
+       "r": "= 25"
+      },
+      {
+       "aside": "Check: $(1, 7)$ gives $3^2+4^2=25$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

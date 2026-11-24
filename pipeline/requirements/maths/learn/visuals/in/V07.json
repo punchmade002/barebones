@@ -1,0 +1,241 @@
+[
+ {
+  "skill": "circ-from-conditions",
+  "title": "Find a circle's equation from conditions",
+  "show": "circle through (1,1), (5,1), (1,-3), the three points forming a right triangle inscribed with centre at (3,-1) midpoint of hypotenuse",
+  "example": {
+   "question": "Find the equation of the circle that passes through $(1, 1)$, $(5, 1)$ and $(1, -3)$.",
+   "final": "x^2 + y^2 - 6x + 2y + 2 = 0",
+   "steps": [
+    {
+     "say": "Put each point into $x^2 + y^2 + 2gx + 2fy + c = 0$. Each one gives an equation in $g$, $f$ and $c$.",
+     "rows": [
+      {
+       "l": "(1, 1): \\quad 2g + 2f + c",
+       "r": "= -2 \\quad (A)"
+      },
+      {
+       "l": "(5, 1): \\quad 10g + 2f + c",
+       "r": "= -26 \\quad (B)"
+      },
+      {
+       "l": "(1, -3): \\quad 2g - 6f + c",
+       "r": "= -10 \\quad (C)"
+      }
+     ]
+    },
+    {
+     "say": "Subtract to cancel $c$. (B) minus (A) leaves only $g$. (A) minus (C) leaves only $f$.",
+     "rows": [
+      {
+       "l": "8g",
+       "r": "= -24"
+      },
+      {
+       "l": "\\hl{1}{g}",
+       "r": "= -3"
+      },
+      {
+       "l": "8f",
+       "r": "= 8"
+      },
+      {
+       "l": "\\hl{2}{f}",
+       "r": "= 1"
+      }
+     ]
+    },
+    {
+     "say": "Put $\\hl{1}{g}$ and $\\hl{2}{f}$ back into (A).",
+     "rows": [
+      {
+       "l": "\\hl{3}{c}",
+       "r": "= -2 - 2g - 2f"
+      },
+      {
+       "l": "",
+       "r": "= -2 + 6 - 2"
+      },
+      {
+       "l": "",
+       "r": "= 2"
+      }
+     ]
+    },
+    {
+     "say": "Put $g = -3$, $f = 1$ and $c = 2$ into the general equation.",
+     "rows": [
+      {
+       "l": "x^2 + y^2 - 6x + 2y + 2",
+       "r": "= 0"
+      },
+      {
+       "aside": "Check: $(1, 1)$ gives $1 + 1 - 6 + 2 + 2 = 0$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-midpoint",
+  "title": "Find the midpoint of a segment",
+  "show": "A(-4,3) and B(8,-7) with the line segment and midpoint M(2,-2)",
+  "example": {
+   "question": "Find the midpoint of $A(-4, 3)$ and $B(8, -7)$.",
+   "final": "(2, -2)",
+   "steps": [
+    {
+     "say": "Add the two x-values and halve. This gives the x of the midpoint.",
+     "rows": [
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= \\frac{-4 + 8}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{2}"
+      }
+     ]
+    },
+    {
+     "say": "Do the same with the y-values. This gives the y of the midpoint.",
+     "rows": [
+      {
+       "l": "\\hl{2}{y}",
+       "r": "= \\frac{3 + (-7)}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{-2}"
+      }
+     ]
+    },
+    {
+     "say": "Put the $\\hl{1}{x}$ and the $\\hl{2}{y}$ together as a point.",
+     "rows": [
+      {
+       "l": "\\text{midpoint}",
+       "r": "= (\\hl{1}{2}, \\hl{2}{-2})"
+      },
+      {
+       "aside": "Check: $2$ is exactly halfway between $-4$ and $8$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-slope",
+  "title": "Find the slope from two points or an equation",
+  "show": "P(-2,1), Q(4,10) with the line and a right triangle showing rise 9 and run 6",
+  "example": {
+   "question": "Find the slope of the line through $P(-2, 1)$ and $Q(4, 10)$.",
+   "final": "\\frac{3}{2}",
+   "steps": [
+    {
+     "say": "Slope is the change in $y$ over the change in $x$. Take $P$ first and $Q$ second, in the same order top and bottom.",
+     "rows": [
+      {
+       "l": "m",
+       "r": "= \\frac{y_2 - y_1}{x_2 - x_1}"
+      },
+      {
+       "aside": "Subtract in the same order on top and bottom."
+      }
+     ]
+    },
+    {
+     "say": "Put in the $y$-values on top and the $x$-values on the bottom.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= \\frac{10 - 1}{4 - (-2)}"
+      }
+     ]
+    },
+    {
+     "say": "Work out top and bottom, then divide both by 3.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= \\frac{9}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{3}{2}}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-point-on",
+  "title": "Test whether a point is on a line; find intercepts",
+  "show": "line 3x-2y-12=0 with (6,3) on it and the axis intercepts (4,0) and (0,-6)",
+  "example": {
+   "question": "The line $l$ has equation $3x - 2y - 12 = 0$.\n(i) Show that $(6, 3)$ is on $l$.\n(ii) Find where $l$ crosses the x-axis and the y-axis.",
+   "final": "(4, 0) \\text{ and } (0, -6)",
+   "steps": [
+    {
+     "say": "A point is on the line if its coordinates make the equation true. Put $x = 6$ and $y = 3$ into the left side.",
+     "rows": [
+      {
+       "l": "3(6) - 2(3) - 12",
+       "r": "= 18 - 6 - 12"
+      },
+      {
+       "l": "",
+       "r": "= 0"
+      },
+      {
+       "aside": "The left side equals $0$, so $(6, 3)$ is on $l$."
+      }
+     ]
+    },
+    {
+     "say": "On the x-axis, $\\hl{1}{y = 0}$. Put that in and solve for $x$.",
+     "rows": [
+      {
+       "l": "3x - 2(0) - 12",
+       "r": "= 0"
+      },
+      {
+       "l": "3x",
+       "r": "= 12"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{2}{4}"
+      },
+      {
+       "aside": "The line crosses the x-axis at $(4, 0)$."
+      }
+     ]
+    },
+    {
+     "say": "On the y-axis, $\\hl{3}{x = 0}$. Put that in and solve for $y$.",
+     "rows": [
+      {
+       "l": "3(0) - 2y - 12",
+       "r": "= 0"
+      },
+      {
+       "l": "-2y",
+       "r": "= 12"
+      },
+      {
+       "l": "y",
+       "r": "= \\hl{4}{-6}"
+      },
+      {
+       "aside": "The line crosses the y-axis at $(0, -6)$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

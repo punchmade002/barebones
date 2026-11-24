@@ -1,0 +1,272 @@
+[
+ {
+  "skill": "geo-prove-thm13",
+  "of": "page",
+  "title": "Prove Theorem 13",
+  "show": "two equiangular triangles ABC and DEF with matching angles marked, one placed on the other for the proof",
+  "example": {
+   "question": "The triangles $ABC$ and $DEF$ are similar, with equal angles at $A$ and $D$, at $B$ and $E$, at $C$ and $F$. Prove that $\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|} = \\dfrac{|CA|}{|FD|}$.",
+   "final": "\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|} = \\dfrac{|CA|}{|FD|}",
+   "steps": [
+    {
+     "say": "Write down the given, the claim, and draw both triangles.",
+     "rows": [
+      {
+       "aside": "Given: triangles $ABC$ and $DEF$ with equal angles."
+      },
+      {
+       "aside": "To prove: $\\dfrac{|AB|}{|DE|} = \\dfrac{|AC|}{|DF|} = \\dfrac{|BC|}{|EF|}$."
+      }
+     ]
+    },
+    {
+     "say": "Place a copy of $DEF$ inside $ABC$. Put $E'$ on $[AB]$ with $|AE'| = |DE|$ and $F'$ on $[AC]$ with $|AF'| = |DF|$. Join $E'$ to $F'$.",
+     "rows": [
+      {
+       "aside": "Construction: $E'$ on $[AB]$ with $|AE'| = |DE|$, and $F'$ on $[AC]$ with $|AF'| = |DF|$."
+      }
+     ]
+    },
+    {
+     "say": "$AE'F'$ and $DEF$ have two equal sides and the angle between them equal (the angle at $A$ equals the angle at $D$).",
+     "rows": [
+      {
+       "aside": "$\\triangle AE'F'$ is congruent to $\\triangle DEF$. Reason: **SAS**."
+      }
+     ]
+    },
+    {
+     "say": "Congruent triangles have equal angles, so $|\\angle AE'F'| = |\\angle DEF| = |\\angle ABC|$. These are corresponding angles.",
+     "rows": [
+      {
+       "aside": "$E'F' \\parallel BC$. Reason: corresponding angles equal."
+      }
+     ]
+    },
+    {
+     "say": "A line parallel to one side divides the other two sides in the same ratio.",
+     "rows": [
+      {
+       "l": "\\frac{|AB|}{|AE'|}",
+       "r": "= \\frac{|AC|}{|AF'|}"
+      },
+      {
+       "aside": "But $|AE'| = |DE|$ and $|AF'| = |DF|$, so $\\dfrac{|AB|}{|DE|} = \\dfrac{|AC|}{|DF|}$."
+      },
+      {
+       "aside": "Repeat from the vertex $B$ to get $\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|}$. Done."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-cuts",
+  "of": "page",
+  "title": "Solve a geometry \"cut\" with a reasoned account",
+  "show": "triangle ABC with D on AB and E on AC where angle ADE=angle ABC, similar triangles ADE and ABC marked",
+  "example": {
+   "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $|\\angle ADE| = |\\angle ABC|$. Given $|AD| = 4$, $|DB| = 2$ and $|DE| = 5$, prove that triangles $ADE$ and $ABC$ are similar, and find $|BC|$.",
+   "final": "|BC| = 7.5",
+   "steps": [
+    {
+     "say": "List what the diagram gives you and the claim to prove. Mark equal angles on it.",
+     "rows": [
+      {
+       "aside": "Given: $|\\angle ADE| = |\\angle ABC|$, $|AD| = 4$, $|AB| = 4 + 2 = 6$, $|DE| = 5$."
+      }
+     ]
+    },
+    {
+     "say": "Both triangles share the angle at $A$. It is the same angle in each, so it is equal.",
+     "rows": [
+      {
+       "aside": "$|\\angle DAE| = |\\angle BAC|$ (common angle)."
+      }
+     ]
+    },
+    {
+     "say": "Angles in a triangle sum to $180^\\circ$ (Theorem 4). Two angles equal means the third is equal.",
+     "rows": [
+      {
+       "aside": "$|\\angle AED| = |\\angle ACB|$ (Theorem 4)."
+      },
+      {
+       "aside": "So $\\triangle ADE$ and $\\triangle ABC$ are **similar**: all three angles equal."
+      }
+     ]
+    },
+    {
+     "say": "By Theorem 13, similar triangles have proportional sides. Match $DE$ with $BC$ and $AD$ with $AB$.",
+     "rows": [
+      {
+       "l": "\\frac{|BC|}{|DE|}",
+       "r": "= \\frac{|AB|}{|AD|}"
+      },
+      {
+       "l": "\\frac{|BC|}{5}",
+       "r": "= \\frac{6}{4}"
+      },
+      {
+       "l": "|BC|",
+       "r": "= 7.5"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-8",
+  "of": "page",
+  "title": "Construction 8: Line segment of given length on a given ray",
+  "show": "compass-and-straight-edge construction: ray from A with arc cutting off B at 5 cm, with arcs left visible",
+  "example": {
+   "question": "Draw a ray starting at $A$. Construct the point $B$ on the ray so that $|AB| = 5$ cm.",
+   "final": "|AB| = 5 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Place the compass point on $0$ on the ruler. Open the pencil to $5$ cm.",
+     "rows": [
+      {
+       "aside": "Do not change this setting until you have drawn the arc."
+      }
+     ]
+    },
+    {
+     "say": "Move the compass point to $A$. Swing the pencil so the arc crosses the ray.",
+     "rows": [
+      {
+       "aside": "Leave the arc on the page. It is the construction line."
+      }
+     ]
+    },
+    {
+     "say": "Label the crossing $B$.",
+     "rows": [
+      {
+       "aside": "$|AB| = 5$ cm."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-1",
+  "of": "page",
+  "title": "Construction 1: Bisector of a given angle (compass and straight edge only)",
+  "show": "compass-and-straight-edge construction: angle BAC with arcs and the bisector, with arcs left visible",
+  "example": {
+   "question": "Draw an angle $\\angle BAC$. Construct its bisector.",
+   "final": "AR \\text{ bisects } \\angle BAC",
+   "steps": [
+    {
+     "say": "Put the compass point on $A$. Draw an arc that cuts both arms. Call the points $P$ and $Q$.",
+     "rows": [
+      {
+       "aside": "Both points are the same distance from $A$."
+      }
+     ]
+    },
+    {
+     "say": "Put the point on $P$ and draw an arc inside the angle. Keep the same setting, put the point on $Q$ and draw a second arc. Call the crossing $R$.",
+     "rows": [
+      {
+       "aside": "Leave all arcs on the page."
+      }
+     ]
+    },
+    {
+     "say": "With the straight edge, join $A$ to $R$ and extend it.",
+     "rows": [
+      {
+       "aside": "Line $AR$ splits $\\angle BAC$ into two equal angles."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-9",
+  "of": "page",
+  "title": "Construction 9: Angle of a given number of degrees with a given ray as one arm",
+  "show": "compass-and-straight-edge construction: ray AB with a 50° angle drawn by protractor, with arcs left visible",
+  "example": {
+   "question": "Draw a ray $[AB]$. Construct the angle $\\angle BAC = 50^\\circ$.",
+   "final": "\\angle BAC = 50^\\circ",
+   "steps": [
+    {
+     "say": "Put the centre of the protractor on $A$. Line its base up along the ray $AB$.",
+     "rows": [
+      {
+       "aside": "The ray must pass through the $0^\\circ$ mark."
+      }
+     ]
+    },
+    {
+     "say": "Read round from $0^\\circ$ on the side the ray points to, until you reach $50^\\circ$. Make a small dot there. Call it $C$.",
+     "rows": [
+      {
+       "aside": "Check you used the scale that starts at $0^\\circ$ on the ray."
+      }
+     ]
+    },
+    {
+     "say": "Remove the protractor. With the ruler, draw a line from $A$ through $C$.",
+     "rows": [
+      {
+       "aside": "$\\angle BAC = 50^\\circ$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-15",
+  "of": "page",
+  "title": "Construction 15: Rectangle given side lengths",
+  "show": "compass-and-straight-edge construction: 6 cm by 4 cm rectangle ABCD, with arcs left visible",
+  "example": {
+   "question": "Construct the rectangle $ABCD$ with $|AB| = 6$ cm and $|BC| = 4$ cm.",
+   "final": "ABCD \\text{ is a } 6 \\times 4 \\text{ rectangle}",
+   "steps": [
+    {
+     "say": "Draw a line. Mark $A$. Set the compass to $6$ cm and mark $B$ on the line.",
+     "rows": [
+      {
+       "aside": "$|AB| = 6$ cm."
+      }
+     ]
+    },
+    {
+     "say": "At $A$ and at $B$, use the protractor to draw a line at $90^\\circ$ to $AB$, on the same side.",
+     "rows": [
+      {
+       "aside": "Both lines go up from the base."
+      }
+     ]
+    },
+    {
+     "say": "Set the compass to $4$ cm. With the point on $A$, mark $D$ on the upright line. With the point on $B$, mark $C$ on the other.",
+     "rows": [
+      {
+       "aside": "$|AD| = |BC| = 4$ cm."
+      }
+     ]
+    },
+    {
+     "say": "Join $D$ to $C$ with the ruler.",
+     "rows": [
+      {
+       "aside": "Check that $|DC| = 6$ cm and the angles are $90^\\circ$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

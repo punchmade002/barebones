@@ -1,0 +1,8 @@
+{
+"con-2": {"ok": false, "issues": ["The arcs are drawn as a narrow dashed lens only about 10px wide, far smaller than arcs of radius about 5 cm on an 8 cm segment, so the arcs do not look like they come from A and B.", "The label M sits on top of the perpendicular line and the segment, overlapping both.", "The segment ends are not marked as points and there is no right-angle mark, so the figure shows little of what the steps describe."]},
+"con-10": {"ok": true, "issues": []},
+"con-11": {"ok": true, "issues": []},
+"con-12": {"ok": true, "issues": []},
+"con-3": {"ok": false, "issues": ["The label Q sits directly on the dashed arcs and the vertical line, so it is hard to read.", "The arcs are mostly short stubs, so the arc crossing at Q is faint."]},
+"con-5": {"ok": true, "issues": []}
+}

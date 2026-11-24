@@ -1,0 +1,264 @@
+[
+ {
+  "skill": "geo-thm15",
+  "title": "Apply Theorem 15: Converse of Pythagoras",
+  "show": "triangle with sides 20, 99, 101 cm with the right angle marked",
+  "example": {
+   "question": "A triangle has sides of length $20$ cm, $99$ cm and $101$ cm. Show that the triangle is right-angled.",
+   "final": "20^2 + 99^2 = 101^2",
+   "steps": [
+    {
+     "say": "If there is a right angle, it is opposite the longest side, so that side is the hypotenuse. Here it is $\\hl{1}{101}$.",
+     "rows": [
+      {
+       "aside": "Test: does the sum of the other two squares equal $101^2$?"
+      }
+     ]
+    },
+    {
+     "say": "Square the two shorter sides and add them.",
+     "rows": [
+      {
+       "l": "20^2 + 99^2",
+       "r": "= 400 + 9801"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{10201}"
+      }
+     ]
+    },
+    {
+     "say": "Now square the longest side.",
+     "rows": [
+      {
+       "l": "\\hl{1}{101}^2",
+       "r": "= \\hl{2}{10201}"
+      }
+     ]
+    },
+    {
+     "say": "The two results are equal. By the converse of Pythagoras (Theorem 15), the angle opposite the longest side is a right angle.",
+     "rows": [
+      {
+       "l": "20^2 + 99^2",
+       "r": "= 101^2"
+      },
+      {
+       "aside": "So the triangle is right-angled."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "num-construct-root2-3",
+  "title": "Construct √2 and √3 geometrically",
+  "show": "right triangle with legs 1 and √2 giving hypotenuse √3, built on a unit segment",
+  "example": {
+   "question": "Starting with a segment of length 1 unit, construct a segment of length $\\sqrt{3}$ units. Show by calculation that its length is $\\sqrt{3}$.",
+   "final": "|AD| = \\sqrt{3}",
+   "steps": [
+    {
+     "say": "Draw a line and mark $A$ and $B$ with $|AB| = 1$. Construct a perpendicular to $[AB]$ at $B$ (Construction 4). Mark $C$ on it with $|BC| = 1$.",
+     "rows": [
+      {
+       "aside": "Use the compass to copy the unit length each time."
+      }
+     ]
+    },
+    {
+     "say": "Join $A$ to $C$. By Pythagoras, the square of $|AC|$ is the sum of the squares of the other two sides.",
+     "rows": [
+      {
+       "l": "|AC|^2",
+       "r": "= 1^2 + 1^2"
+      },
+      {
+       "l": "",
+       "r": "= 2"
+      },
+      {
+       "l": "|AC|",
+       "r": "= \\hl{1}{\\sqrt{2}}"
+      }
+     ]
+    },
+    {
+     "say": "Construct a perpendicular to $[AC]$ at $C$. Mark $D$ on it with $|CD| = 1$. Join $A$ to $D$.",
+     "rows": [
+      {
+       "aside": "The two sides of the new triangle are $|AC| = \\sqrt{2}$ and $|CD| = 1$."
+      }
+     ]
+    },
+    {
+     "say": "Apply Pythagoras to the new triangle.",
+     "rows": [
+      {
+       "l": "|AD|^2",
+       "r": "= (\\hl{1}{\\sqrt{2}})^2 + 1^2"
+      },
+      {
+       "l": "",
+       "r": "= 2 + 1"
+      },
+      {
+       "l": "",
+       "r": "= 3"
+      },
+      {
+       "l": "|AD|",
+       "r": "= \\hl{2}{\\sqrt{3}}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "int-area-axis",
+  "title": "Find the area between a curve and the x-axis",
+  "show": "parabola y=x²-5x+4 with the area between it and the x-axis from x=1 to x=4 shaded below the axis",
+  "example": {
+   "question": "Find the area enclosed between the curve $y = x^2 - 5x + 4$ and the $x$-axis.",
+   "final": "\\frac{9}{2} \\text{ square units}",
+   "steps": [
+    {
+     "say": "The area is enclosed between the points where $y = 0$. Set the function equal to $0$ and factorise.",
+     "rows": [
+      {
+       "l": "x^2 - 5x + 4",
+       "r": "= 0"
+      },
+      {
+       "l": "(x - 1)(x - 4)",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{1} \\ \\text{or} \\ x = \\hl{1}{4}"
+      }
+     ]
+    },
+    {
+     "say": "Integrate between the roots $\\hl{1}{1}$ and $\\hl{1}{4}$.",
+     "rows": [
+      {
+       "l": "\\int_1^4 \\left(x^2 - 5x + 4\\right) dx",
+       "r": "= \\left[\\, \\tfrac{x^3}{3} - \\tfrac{5x^2}{2} + 4x \\,\\right]_1^4"
+      }
+     ]
+    },
+    {
+     "say": "Top limit first, then subtract the bottom limit.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= \\left(\\tfrac{64}{3} - 40 + 16\\right) - \\left(\\tfrac{1}{3} - \\tfrac{5}{2} + 4\\right)"
+      },
+      {
+       "l": "",
+       "r": "= -\\tfrac{8}{3} - \\tfrac{11}{6}"
+      },
+      {
+       "l": "",
+       "r": "= -\\tfrac{9}{2}"
+      }
+     ]
+    },
+    {
+     "say": "The curve is below the $x$-axis between the roots, so the integral is negative. An area cannot be negative, so take the positive value.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= \\left| -\\tfrac{9}{2} \\right| = \\tfrac{9}{2}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "int-area-between",
+  "title": "Find the area between two curves",
+  "show": "parabola y=4x-x² and line y=x crossing at x=0 and x=3 with the enclosed region shaded",
+  "example": {
+   "question": "The curves $y = 4x - x^2$ and $y = x$ cross at two points. Find the area enclosed between them.",
+   "final": "$\\frac{9}{2}$ square units",
+   "steps": [
+    {
+     "say": "The limits are where the curves meet. Set the two $y$ values equal and solve for $x$.",
+     "rows": [
+      {
+       "l": "4x - x^2 - x",
+       "r": "= 0"
+      },
+      {
+       "l": "3x - x^2",
+       "r": "= 0"
+      },
+      {
+       "l": "x(3 - x)",
+       "r": "= 0"
+      },
+      {
+       "aside": "So $x = \\hl{1}{0}$ or $x = \\hl{1}{3}$. These are the limits."
+      }
+     ]
+    },
+    {
+     "say": "Test one $x$ between the limits. The curve with the bigger $y$ is the top curve.",
+     "rows": [
+      {
+       "l": "\\text{curve at } x=1",
+       "r": "= 4(1) - (1)^2 = 3"
+      },
+      {
+       "l": "\\text{line at } x=1",
+       "r": "= 1"
+      },
+      {
+       "aside": "The curve is on top, so the integrand is curve minus line."
+      }
+     ]
+    },
+    {
+     "say": "Subtract bottom from top to get one function. Integrate it from $\\hl{1}{0}$ to $\\hl{1}{3}$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{(4x - x^2) - x}",
+       "r": "= 3x - x^2"
+      },
+      {
+       "l": "A",
+       "r": "= \\int_{\\hl{1}{0}}^{\\hl{1}{3}} (3x - x^2)\\,dx"
+      },
+      {
+       "l": "",
+       "r": "= \\left[ \\frac{3x^2}{2} - \\frac{x^3}{3} \\right]_{0}^{3}"
+      }
+     ]
+    },
+    {
+     "say": "Put in the upper limit, then take away the value at the lower limit.",
+     "rows": [
+      {
+       "l": "A",
+       "r": "= \\left( \\frac{3(3)^2}{2} - \\frac{3^3}{3} \\right) - 0"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{27}{2} - 9"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{9}{2}"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

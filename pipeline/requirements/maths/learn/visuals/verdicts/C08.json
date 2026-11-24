@@ -1,0 +1,8 @@
+{
+"geo-prove-thm13":{"ok":false,"issues":["No equal angles are marked on either triangle, though the figure is meant to show matching angles.","The proof's construction (E' on AB, F' on AC, line E'F') is not shown; the two triangles just sit side by side, so the figure does not help the proof.","Labels C and E sit almost touching under the bottom corners, crowding each other."]},
+"geo-cuts":{"ok":false,"issues":["D is drawn at about the midpoint of AB, but |AD| = 4 and |DB| = 2, so D should be two thirds of the way from A to B.","DE is drawn about three quarters of BC; with the given numbers it should be 5 against 7.5, two thirds.","The equal angles ADE and ABC (and the common angle at A) are not marked, so the figure does not show the similar triangles."]},
+"con-8":{"ok":false,"issues":["Label B sits above the ray at about x=690, but the arc crosses the ray further right at about x=730, so B is not at the crossing.","No dot or mark at the crossing point B.","The lower 5 cm ruler line ends at x=690, not at the arc, so the 5 cm span does not agree with the arc crossing."]},
+"con-1":{"ok":true,"issues":[]},
+"con-9":{"ok":true,"issues":[]},
+"con-15":{"ok":true,"issues":[]}
+}

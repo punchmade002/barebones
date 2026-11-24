@@ -1,0 +1,314 @@
+[
+ {
+  "skill": "geo-thm10",
+  "of": "page",
+  "title": "Apply Theorem 10: Diagonals of a parallelogram bisect each other",
+  "show": "parallelogram ABCD with diagonals meeting at E, |AE|=3x+2 and |EC|=5x-4 marked",
+  "example": {
+   "question": "$ABCD$ is a parallelogram. The diagonals $[AC]$ and $[BD]$ meet at $E$. $|AE| = (3x + 2)$ cm and $|EC| = (5x - 6)$ cm. Find $x$ and $|AC|$.",
+   "final": "x = 4, \\ |AC| = 28 \\text{ cm}",
+   "steps": [
+    {
+     "say": "$E$ is where the diagonals cross. $\\hl{1}{|AE|}$ and $\\hl{2}{|EC|}$ are the two halves of the diagonal $[AC]$.",
+     "rows": [
+      {
+       "aside": "$|AE| = 3x + 2$"
+      },
+      {
+       "aside": "$|EC| = 5x - 6$"
+      }
+     ]
+    },
+    {
+     "say": "By Theorem 10, the diagonals of a parallelogram bisect each other. So $\\hl{1}{|AE|} = \\hl{2}{|EC|}$.",
+     "rows": [
+      {
+       "l": "3x + 2",
+       "r": "= 5x - 6"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "8",
+       "r": "= 2x"
+      },
+      {
+       "l": "x",
+       "r": "= 4"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 4$ into $|AE|$, then double it, because $E$ is the midpoint of $[AC]$.",
+     "rows": [
+      {
+       "l": "|AE|",
+       "r": "= 3(4) + 2"
+      },
+      {
+       "aside": "$|AE| = 14$ cm"
+      },
+      {
+       "l": "|AC|",
+       "r": "= 2 \\times 14"
+      },
+      {
+       "l": "",
+       "r": "= 28 \\text{ cm}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-cor4",
+  "of": "page",
+  "title": "Apply Corollary 4: A right angle at the circle stands on a diameter",
+  "show": "circle with diameter AB, point C on circle, angle CAB=(2x+5)° and right angle at C",
+  "example": {
+   "question": "$[AB]$ is a diameter of a circle and $C$ is a point on the circle. $|\\angle CAB| = (2x + 5)^\\circ$ and $|\\angle ABC| = (4x - 5)^\\circ$. Find $x$ and $|\\angle ABC|$.",
+   "final": "x = 15, \\ |\\angle ABC| = 55^\\circ",
+   "steps": [
+    {
+     "say": "$[AB]$ is a diameter and $C$ is on the circle. By Corollary 4, the angle opposite the diameter is a right angle.",
+     "rows": [
+      {
+       "aside": "$|\\angle ACB| = 90^\\circ$ (Corollary 4)"
+      }
+     ]
+    },
+    {
+     "say": "The three angles of triangle $ABC$ add to $180^\\circ$. Write that with the $90^\\circ$ you just found.",
+     "rows": [
+      {
+       "l": "(2x + 5) + (4x - 5) + 90",
+       "r": "= 180"
+      }
+     ]
+    },
+    {
+     "say": "Collect like terms, then divide by $6$.",
+     "rows": [
+      {
+       "l": "6x + 90",
+       "r": "= 180"
+      },
+      {
+       "l": "6x",
+       "r": "= 90"
+      },
+      {
+       "l": "x",
+       "r": "= 15"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 15$ into $|\\angle ABC|$.",
+     "rows": [
+      {
+       "l": "|\\angle ABC|",
+       "r": "= 4(15) - 5"
+      },
+      {
+       "l": "",
+       "r": "= 55^\\circ"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm17",
+  "of": "page",
+  "title": "Apply Theorem 17: A diagonal bisects the area of a parallelogram",
+  "show": "parallelogram PQRS with diagonal PR dividing it into two triangles, with area 420 m²",
+  "example": {
+   "question": "The area of the parallelogram $PQRS$ is $420$ m$^2$. (i) Find the area of the triangle $PQR$. (ii) $T$ is the midpoint of $[QR]$. Find the area of the triangle $PQT$.",
+   "final": "210 \\text{ m}^2, \\ 105 \\text{ m}^2",
+   "steps": [
+    {
+     "say": "The diagonal $[PR]$ bisects the area of the parallelogram. So the triangle $PQR$ is half of $420$.",
+     "rows": [
+      {
+       "l": "|\\triangle PQR|",
+       "r": "= \\tfrac{1}{2}(420)"
+      },
+      {
+       "l": "",
+       "r": "= 210 \\text{ m}^2"
+      }
+     ]
+    },
+    {
+     "say": "$T$ is the midpoint of $[QR]$, so $[PT]$ cuts triangle $PQR$ into two triangles with equal bases and the same height. Each is half of $210$.",
+     "rows": [
+      {
+       "l": "|\\triangle PQT|",
+       "r": "= \\tfrac{1}{2}(210)"
+      },
+      {
+       "l": "",
+       "r": "= 105 \\text{ m}^2"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm18",
+  "of": "page",
+  "title": "Apply Theorem 18: Area of a parallelogram = base × height",
+  "show": "parallelogram ABCD with base 12 cm and perpendicular height 6 cm marked",
+  "example": {
+   "question": "$ABCD$ is a parallelogram. $|AB| = 12$ cm and the perpendicular distance between $[AB]$ and $[DC]$ is $6$ cm. $|BC| = 8$ cm. Find the area of $ABCD$, and the perpendicular distance between $[BC]$ and $[AD]$.",
+   "final": "72 \\text{ cm}^2, \\ h = 9 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Take $[AB]$ as the base. The height is the perpendicular distance to $[DC]$, which is $6$ cm.",
+     "rows": [
+      {
+       "aside": "Base $= 12$, height $= 6$."
+      }
+     ]
+    },
+    {
+     "say": "Area of a parallelogram is base times perpendicular height.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= 12 \\times 6"
+      },
+      {
+       "l": "",
+       "r": "= 72 \\text{ cm}^2"
+      }
+     ]
+    },
+    {
+     "say": "The area does not change. Now take $[BC]$ as the base, with $|BC| = 8$, and let the new height be $h$.",
+     "rows": [
+      {
+       "l": "72",
+       "r": "= 8h"
+      },
+      {
+       "l": "h",
+       "r": "= 9"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm16",
+  "of": "page",
+  "title": "Apply Theorem 16: Base × height is the same for every side of a triangle",
+  "show": "parallelogram PQRS area 360 m² with T the midpoint of QR and triangle shaded",
+  "example": {
+   "question": "$PQRS$ is a parallelogram with area $360\\ \\text{m}^2$. $T$ is the midpoint of $[QR]$.\n(i) Find the area of the triangle $PQS$.\n(ii) Find the area of the triangle $PQT$.",
+   "final": "|PQS| = 180\\ \\text{m}^2, \\ |PQT| = 90\\ \\text{m}^2",
+   "steps": [
+    {
+     "say": "Triangle $PQS$ has the same base $[PS]$ and the same height as the parallelogram. By Theorem 16 it is **half** the parallelogram.",
+     "rows": [
+      {
+       "l": "|PQS|",
+       "r": "= \\tfrac{1}{2} \\times 360"
+      },
+      {
+       "l": "",
+       "r": "= 180\\ \\text{m}^2"
+      }
+     ]
+    },
+    {
+     "say": "Take $[QR]$ as the base. Triangle $PQR$ has the same base and height as the parallelogram, so its area is half again.",
+     "rows": [
+      {
+       "l": "|PQR|",
+       "r": "= \\tfrac{1}{2} \\times 360"
+      },
+      {
+       "l": "",
+       "r": "= 180\\ \\text{m}^2"
+      }
+     ]
+    },
+    {
+     "say": "$T$ is the midpoint, so $|QT| = \\tfrac{1}{2}|QR|$. The height from $P$ is the same, so triangle $PQT$ has **half** the area of $PQR$.",
+     "rows": [
+      {
+       "l": "|PQT|",
+       "r": "= \\tfrac{1}{2} \\times 180"
+      },
+      {
+       "l": "",
+       "r": "= 90\\ \\text{m}^2"
+      },
+      {
+       "aside": "Same height, half the base: half the area."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm20",
+  "of": "page",
+  "title": "Apply Theorem 20: Tangent is perpendicular to the radius at the point of contact (and converse)",
+  "show": "circle centre O radius 5 cm, tangent PT at T perpendicular to radius OT, |OP|=13 cm",
+  "example": {
+   "question": "A circle has centre $O$ and radius $5$ cm. $[PT]$ is a tangent to the circle at $T$, and $|OP| = 13$ cm.\n(i) Find $|PT|$.\n(ii) Find the area of the triangle $OTP$.",
+   "final": "|PT| = 12\\ \\text{cm}, \\ \\text{area} = 30\\ \\text{cm}^2",
+   "steps": [
+    {
+     "say": "$[OT]$ is a radius and $[PT]$ is a tangent at $T$. By Theorem 20 they are perpendicular, so $|\\angle OTP| = 90^\\circ$.",
+     "rows": [
+      {
+       "aside": "Triangle $OTP$ is right-angled at $T$. $[OP]$ is the hypotenuse."
+      }
+     ]
+    },
+    {
+     "say": "Write Pythagoras with the numbers in, then solve for $|PT|$.",
+     "rows": [
+      {
+       "l": "|PT|^2",
+       "r": "= 13^2 - 5^2"
+      },
+      {
+       "l": "",
+       "r": "= 144"
+      },
+      {
+       "l": "|PT|",
+       "r": "= 12\\ \\text{cm}"
+      }
+     ]
+    },
+    {
+     "say": "The two shorter sides are perpendicular, so use them as base and height.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= \\tfrac{1}{2} \\times 5 \\times 12"
+      },
+      {
+       "l": "",
+       "r": "= 30\\ \\text{cm}^2"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

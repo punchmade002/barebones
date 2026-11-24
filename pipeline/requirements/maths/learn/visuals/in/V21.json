@@ -1,0 +1,235 @@
+[
+ {
+  "skill": "prob-without-replacement",
+  "title": "Solve sampling problems with or without replacement",
+  "show": "probability tree for three draws without replacement from 7 red and 5 blue, with changing denominators",
+  "example": {
+   "question": "A bag holds 7 red counters and 5 blue counters. Three counters are drawn at random, one after another, without replacement. Find the probability that exactly two of them are red.",
+   "final": "\\frac{21}{44}",
+   "steps": [
+    {
+     "say": "Exactly two red means one blue. The blue can come first, second or third, so there are three orders: $RRB$, $RBR$ and $BRR$. Each order has the same probability, so find one and multiply.",
+     "rows": [
+      {
+       "aside": "Orders: $RRB$, $RBR$, $BRR$"
+      },
+      {
+       "l": "\\text{number of orders}",
+       "r": "= \\hl{2}{3}"
+      }
+     ]
+    },
+    {
+     "say": "Without replacement the bag shrinks. After each draw, the number of counters left drops by one. Multiply the three fractions for $RRB$.",
+     "rows": [
+      {
+       "l": "P(RRB)",
+       "r": "= \\frac{7}{12}\\times\\frac{6}{11}\\times\\frac{5}{10}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{\\frac{7}{44}}"
+      }
+     ]
+    },
+    {
+     "say": "The three orders are separate outcomes, so add them. That is the same as multiplying one order by $\\hl{2}{3}$.",
+     "rows": [
+      {
+       "l": "P(\\text{two red})",
+       "r": "= \\hl{2}{3}\\times\\hl{1}{\\frac{7}{44}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{21}{44}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "seq-pattern",
+  "title": "Continue and generalise a pattern",
+  "show": "the first three tile patterns with 6, 10, 14 tiles drawn, each growing by 4",
+  "example": {
+   "question": "The first three patterns in a sequence use 6, 10 and 14 tiles. The pattern continues in the same way.\n(a) Find the number of tiles in patterns 4 and 5.\n(b) Write the number of tiles in pattern $n$ in terms of $n$.\n(c) Which pattern uses 102 tiles?",
+   "final": "T_4 = 18,\\ T_5 = 22,\\ T_n = \\hl{2}{4n+2},\\ \\text{pattern } \\hl{3}{25}",
+   "steps": [
+    {
+     "say": "Look at how much each pattern adds. If it is the same every time, the pattern is arithmetic.",
+     "rows": [
+      {
+       "l": "\\hl{1}{d}",
+       "r": "= 10-6"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{4}"
+      },
+      {
+       "aside": "$14-10 = 4$ as well, so the difference is always 4."
+      }
+     ]
+    },
+    {
+     "say": "Add $\\hl{1}{4}$ each time.",
+     "rows": [
+      {
+       "l": "T_4",
+       "r": "= 14+4 = 18"
+      },
+      {
+       "l": "T_5",
+       "r": "= 18+4 = 22"
+      }
+     ]
+    },
+    {
+     "say": "Use $T_n = a + (n-1)d$ with $a = 6$ and $d = \\hl{1}{4}$.",
+     "rows": [
+      {
+       "l": "T_n",
+       "r": "= 6+(n-1)\\hl{1}{4}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{4n+2}"
+      }
+     ]
+    },
+    {
+     "say": "Set $T_n$ equal to 102 and solve for $n$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{4n+2}",
+       "r": "= 102"
+      },
+      {
+       "l": "4n",
+       "r": "= 100"
+      },
+      {
+       "l": "n",
+       "r": "= \\hl{3}{25}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-charts",
+  "title": "Draw bar, pie, line plot, histogram and stem-and-leaf",
+  "show": "pie chart with angles for Bus 144°, Car 108°, Walk 72°, Cycle 36° and a matching bar chart",
+  "example": {
+   "question": "60 students were asked how they travel to school.\nBus: 24, Car: 18, Walk: 12, Cycle: 6\nFind the angle for each sector of a pie chart of this data.",
+   "final": "144^\\circ,\\ 108^\\circ,\\ 72^\\circ,\\ 36^\\circ",
+   "steps": [
+    {
+     "say": "A pie chart is a full circle, $360^\\circ$, shared among all $60$ students. Divide to find the angle for one student.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\frac{360}{60}}",
+       "r": "= 6"
+      },
+      {
+       "aside": "Each student gets $6^\\circ$."
+      }
+     ]
+    },
+    {
+     "say": "Multiply each frequency by $\\hl{1}{6}$.",
+     "rows": [
+      {
+       "l": "\\text{Bus: } 24 \\times 6",
+       "r": "= \\hl{2}{144}^\\circ"
+      },
+      {
+       "l": "\\text{Car: } 18 \\times 6",
+       "r": "= \\hl{2}{108}^\\circ"
+      },
+      {
+       "l": "\\text{Walk: } 12 \\times 6",
+       "r": "= \\hl{2}{72}^\\circ"
+      },
+      {
+       "l": "\\text{Cycle: } 6 \\times 6",
+       "r": "= \\hl{2}{36}^\\circ"
+      }
+     ]
+    },
+    {
+     "say": "The sectors must fill the circle. Add the angles and check you get $360^\\circ$.",
+     "rows": [
+      {
+       "l": "144 + 108 + 72 + 36",
+       "r": "= 360"
+      },
+      {
+       "aside": "Now draw each sector with a protractor and label it with its group name."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-quartiles-iqr",
+  "title": "Find quartiles and the interquartile range",
+  "show": "box plot of 4,7,8,11,13,15,18,20 with Q1, median, Q3 marked and IQR bracket",
+  "example": {
+   "question": "The number of text messages Aoife sent on eight days was:\n$11, 4, 18, 7, 20, 13, 8, 15$\nFind the interquartile range.",
+   "final": "\\text{IQR} = 9",
+   "steps": [
+    {
+     "say": "Write the numbers in order, smallest first. With eight numbers the median sits between the 4th and 5th, so it splits the list into two halves of four.",
+     "rows": [
+      {
+       "aside": "Ordered: $4, 7, 8, 11 \\mid 13, 15, 18, 20$"
+      }
+     ]
+    },
+    {
+     "say": "$\\hl{1}{Q_1}$ is the median of the lower half. Four numbers, so take the middle two and find their mean.",
+     "rows": [
+      {
+       "l": "\\hl{1}{Q_1}",
+       "r": "= \\frac{7+8}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 7.5"
+      }
+     ]
+    },
+    {
+     "say": "$\\hl{2}{Q_3}$ is the median of the upper half. Same method on $13, 15, 18, 20$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{Q_3}",
+       "r": "= \\frac{15+18}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 16.5"
+      }
+     ]
+    },
+    {
+     "say": "The interquartile range is $\\hl{2}{Q_3}$ minus $\\hl{1}{Q_1}$.",
+     "rows": [
+      {
+       "l": "\\text{IQR}",
+       "r": "= \\hl{2}{16.5} - \\hl{1}{7.5}"
+      },
+      {
+       "l": "",
+       "r": "= 9"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

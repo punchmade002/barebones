@@ -1,0 +1,264 @@
+[
+ {
+  "skill": "trig-graph",
+  "title": "Graph sin, cos and tan",
+  "show": "cosine curve y=3cos x+1 over 0 to 2π with max 4, min -2, midline y=1 and period 2π marked",
+  "example": {
+   "question": "Sketch the graph of $f(x) = 3\\cos x + 1$ for $0 \\le x \\le 2\\pi$. Write down its period and its range.",
+   "final": "\\text{period } 2\\pi, \\; \\text{range } [-2, 4]",
+   "steps": [
+    {
+     "say": "$\\cos x$ stays between $-1$ and $1$. Multiply by $3$, then add $1$, to see how high and low $f(x)$ goes.",
+     "rows": [
+      {
+       "l": "-1",
+       "r": "\\le \\cos x \\le 1"
+      },
+      {
+       "l": "-3",
+       "r": "\\le 3\\cos x \\le 3"
+      },
+      {
+       "l": "\\hl{2}{-2}",
+       "r": "\\le 3\\cos x + 1 \\le \\hl{2}{4}"
+      }
+     ]
+    },
+    {
+     "say": "Multiplying by $3$ and adding $1$ do not change how often the wave repeats. $\\cos x$ repeats every $2\\pi$.",
+     "rows": [
+      {
+       "l": "\\text{Period}",
+       "r": "= \\hl{3}{2\\pi}"
+      }
+     ]
+    },
+    {
+     "say": "The maximum is at $x = \\hl{1}{0}$ and the minimum is at $x = \\hl{1}{\\pi}$. Put them in to find the heights.",
+     "rows": [
+      {
+       "l": "f(0)",
+       "r": "= 3\\cos 0 + 1 = \\hl{2}{4}"
+      },
+      {
+       "l": "f(\\pi)",
+       "r": "= 3\\cos \\pi + 1 = \\hl{2}{-2}"
+      },
+      {
+       "l": "f\\left(\\tfrac{\\pi}{2}\\right)",
+       "r": "= 3\\cos\\tfrac{\\pi}{2} + 1 = 1"
+      }
+     ]
+    },
+    {
+     "say": "Plot $(0, 4)$, $\\left(\\frac{\\pi}{2}, 1\\right)$, $(\\pi, -2)$ and mark the same shape back up to $(2\\pi, 4)$. Join them with one smooth wave.",
+     "rows": [
+      {
+       "aside": "Start at the top, $(0, 4)$. Go down through $\\left(\\frac{\\pi}{2}, 1\\right)$ to the bottom, $(\\pi, -2)$. Then climb back up to $(2\\pi, 4)$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-derive-1",
+  "title": "Derive formula 1: cos²A + sin²A = 1",
+  "show": "unit circle with point P at angle A and the right triangle with legs cos A and sin A",
+  "example": {
+   "question": "The point $P$ lies on the unit circle, at angle $A$ from the positive $x$-axis. Use the right-angled triangle formed by $P$ to prove that $\\cos^2 A + \\sin^2 A = 1$.",
+   "final": "\\cos^2 A + \\sin^2 A = 1",
+   "steps": [
+    {
+     "say": "Draw the unit circle, with centre $O$ and radius $1$. Put $P$ at angle $A$ and drop a vertical line from $P$ to the $x$-axis. That makes a right-angled triangle with hypotenuse $OP = 1$.",
+     "rows": [
+      {
+       "aside": "Hypotenuse $|OP| = 1$, because $P$ is on the unit circle."
+      }
+     ]
+    },
+    {
+     "say": "By definition, the coordinates of $P$ are $(\\cos A, \\sin A)$. So the horizontal side is $\\hl{1}{\\cos A}$ and the vertical side is $\\hl{2}{\\sin A}$.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "= \\hl{1}{\\cos A}"
+      },
+      {
+       "l": "y",
+       "r": "= \\hl{2}{\\sin A}"
+      }
+     ]
+    },
+    {
+     "say": "In a right-angled triangle, the squares of the two shorter sides add to the square of the hypotenuse. Write that with the sides from the last step.",
+     "rows": [
+      {
+       "l": "x^2 + y^2",
+       "r": "= |OP|^2"
+      },
+      {
+       "l": "\\hl{1}{\\cos A}^2 + \\hl{2}{\\sin A}^2",
+       "r": "= 1^2"
+      },
+      {
+       "l": "",
+       "r": "= 1"
+      }
+     ]
+    },
+    {
+     "say": "For an angle in another quadrant a coordinate is negative, but squaring removes the sign. The result holds for every $A$.",
+     "rows": [
+      {
+       "aside": "$\\cos^2 A + \\sin^2 A = 1$"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-solve-general",
+  "title": "Solve trig equations giving all solutions",
+  "show": "sine curve of sin2x over 0 to 2π with the line y=-1/2 and its four intersections",
+  "example": {
+   "question": "Solve $\\sin 2x = -\\dfrac{1}{2}$ for $0 \\le x \\le 2\\pi$. Give your answers in radians, in terms of $\\pi$.",
+   "final": "x = \\frac{7\\pi}{12},\\ \\frac{11\\pi}{12},\\ \\frac{19\\pi}{12},\\ \\frac{23\\pi}{12}",
+   "steps": [
+    {
+     "say": "Ignore the minus sign and find the acute angle with $\\sin = \\frac{1}{2}$. This is the **reference angle**.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\text{ref}}",
+       "r": "= \\sin^{-1}\\left(\\tfrac{1}{2}\\right)"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{\\pi}{6}"
+      }
+     ]
+    },
+    {
+     "say": "Sine is negative in the 3rd and 4th quadrants. Measure $2x$ from the reference angle $\\hl{1}{\\frac{\\pi}{6}}$ in each one.",
+     "rows": [
+      {
+       "l": "2x",
+       "r": "= \\pi + \\hl{1}{\\tfrac{\\pi}{6}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{7\\pi}{6}"
+      },
+      {
+       "l": "2x",
+       "r": "= 2\\pi - \\hl{1}{\\tfrac{\\pi}{6}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{11\\pi}{6}"
+      }
+     ]
+    },
+    {
+     "say": "Since $0 \\le x \\le 2\\pi$, the angle $2x$ runs from $0$ to $4\\pi$. Add $2\\pi$ to each answer to find the second lap.",
+     "rows": [
+      {
+       "l": "2x",
+       "r": "= \\frac{7\\pi}{6} + 2\\pi"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{19\\pi}{6}"
+      },
+      {
+       "l": "2x",
+       "r": "= \\frac{11\\pi}{6} + 2\\pi"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{23\\pi}{6}"
+      },
+      {
+       "aside": "Adding $2\\pi$ again would pass $4\\pi$, so stop."
+      }
+     ]
+    },
+    {
+     "say": "Now divide each of the four values of $2x$ by $2$ to get $x$.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "= \\frac{7\\pi}{12},\\ \\frac{11\\pi}{12},\\ \\frac{19\\pi}{12},\\ \\frac{23\\pi}{12}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-graph-abc",
+  "title": "Graph and analyse a + b sin cθ / a + b cos cθ",
+  "show": "cosine curve h(t)=8+3cos(πt/6) with midline y=8, max 11, min 5 and period 12 marked",
+  "example": {
+   "question": "The depth of water in a harbour is modelled by $h(t) = 8 + 3\\cos\\left(\\dfrac{\\pi t}{6}\\right)$ metres, where $t$ is the time in hours. Find the period and the range of $h$.",
+   "final": "\\text{period} = 12,\\ \\text{range} = [5, 11]",
+   "steps": [
+    {
+     "say": "Compare with $a + b\\cos ct$. Here $a = 8$, $b = 3$ and $c = \\frac{\\pi}{6}$.",
+     "rows": [
+      {
+       "aside": "$a = 8$, $b = 3$, $c = \\dfrac{\\pi}{6}$"
+      }
+     ]
+    },
+    {
+     "say": "One full wave takes $\\frac{2\\pi}{c}$ hours. Put in $c = \\frac{\\pi}{6}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\text{period}}",
+       "r": "= \\frac{2\\pi}{c}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{2\\pi}{\\pi/6}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{12}"
+      }
+     ]
+    },
+    {
+     "say": "The cosine swings between $-1$ and $1$, so $h$ swings $3$ above and $3$ below the middle value $8$. Work out the lowest and highest depth.",
+     "rows": [
+      {
+       "l": "\\hl{2}{\\text{min}}",
+       "r": "= a - |b| = 8 - 3"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{5}"
+      },
+      {
+       "l": "\\hl{3}{\\text{max}}",
+       "r": "= a + |b| = 8 + 3"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{11}"
+      }
+     ]
+    },
+    {
+     "say": "Write the range as an interval from the lowest value $\\hl{2}{5}$ to the highest $\\hl{3}{11}$.",
+     "rows": [
+      {
+       "aside": "Range $= [\\hl{2}{5},\\ \\hl{3}{11}]$ metres. Period $= \\hl{1}{12}$ hours."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

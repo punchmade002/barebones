@@ -1,0 +1,8 @@
+{
+"trig-ratios-right":{"ok":false,"issues":["Triangle is not in proportion: the 2 m base is drawn about three-quarters as long as the 6 m ladder and the angle A looks about 42 degrees, but it should be 70.5 degrees (base one third of the hypotenuse, a steep ladder)."]},
+"trig-pythagoras":{"ok":false,"issues":["Not in proportion: the 2 m base is drawn about two thirds the length of the 7 m ladder and the wall h is shorter than the ladder by far less than it should be; h should be about 6.7 m, over three times the base, but is drawn shorter than 1.5 times the base.","The label h is plain black while h is coloured in the working."]},
+"trig-elevation":{"ok":true,"issues":[]},
+"trig-area-triangle":{"ok":false,"issues":["The side labelled 12 cm is AB along the bottom, but the question gives |AB| = 9 cm and |AC| = 12 cm.","No 9 cm label anywhere; AC has no length.","AB and AC are drawn about equal in length (and the angle at A about 47 degrees), not 9 and 12 with 40 degrees."]},
+"trig-sine-rule":{"ok":true,"issues":[]},
+"trig-cosine-rule":{"ok":false,"issues":["The figure shows no numbers: no 9 cm, 12 cm or 40 degrees, only the letters a, b, c, so it does not match the question and the coloured 40 degrees in the working has no counterpart.","AB and AC are drawn the same length although they are 9 and 12 cm, and the angle at A looks about 47 degrees."]}
+}

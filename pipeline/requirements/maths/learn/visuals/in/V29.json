@@ -1,0 +1,262 @@
+[
+ {
+  "skill": "trig-double",
+  "title": "Apply double/half angle formulae (6, 11–16)",
+  "show": "right triangle with opposite 5, hypotenuse 13, adjacent 12 and angle A",
+  "example": {
+   "question": "$A$ is an acute angle and $\\sin A=\\dfrac{5}{13}$. Find the exact value of $\\sin 2A$ and of $\\cos 2A$.",
+   "final": "\\sin 2A=\\frac{120}{169},\\ \\cos 2A=\\frac{119}{169}",
+   "steps": [
+    {
+     "say": "The formula for $\\sin 2A$ needs $\\cos A$ as well. Use $\\cos^2A+\\sin^2A=1$ to find it.",
+     "rows": [
+      {
+       "l": "\\cos^2A",
+       "r": "= 1-\\sin^2A"
+      },
+      {
+       "l": "",
+       "r": "= 1-\\frac{25}{169}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{144}{169}"
+      },
+      {
+       "aside": "$A$ is acute, so $\\cos A$ is positive."
+      },
+      {
+       "l": "\\cos A",
+       "r": "= \\hl{2}{\\frac{12}{13}}"
+      }
+     ]
+    },
+    {
+     "say": "Use $\\sin 2A=2\\sin A\\cos A$ and put in $\\hl{1}{\\sin A}$ and $\\hl{2}{\\cos A}$.",
+     "rows": [
+      {
+       "l": "\\sin 2A",
+       "r": "= 2\\times\\hl{1}{\\frac{5}{13}}\\times\\hl{2}{\\frac{12}{13}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{120}{169}"
+      }
+     ]
+    },
+    {
+     "say": "You know $\\hl{1}{\\sin A}$, so use the form $\\cos 2A=1-2\\sin^2A$.",
+     "rows": [
+      {
+       "l": "\\cos 2A",
+       "r": "= 1-2\\left(\\hl{1}{\\frac{5}{13}}\\right)^2"
+      },
+      {
+       "l": "",
+       "r": "= 1-\\frac{50}{169}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{119}{169}"
+      }
+     ]
+    },
+    {
+     "say": "A quick check: $\\sin^2 2A+\\cos^2 2A$ must be $1$.",
+     "rows": [
+      {
+       "l": "\\left(\\frac{120}{169}\\right)^2+\\left(\\frac{119}{169}\\right)^2",
+       "r": "= \\frac{14400+14161}{28561}"
+      },
+      {
+       "l": "",
+       "r": "= 1"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-derive-3",
+  "title": "Derive formula 3: the cosine rule",
+  "show": "triangle with C at the origin, A at (b,0) and B at (a cos C, a sin C), with side c from A to B",
+  "example": {
+   "question": "Put $C$ at the origin and $A$ at $(b, 0)$. The side $CB$ has length $a$ and makes angle $C$ with $CA$. Use the distance formula to derive the cosine rule for $c = AB$.",
+   "final": "c^2 = a^2 + b^2 - 2ab\\cos C",
+   "steps": [
+    {
+     "say": "$B$ is $a$ units from the origin at angle $C$, so $B$ is $(a\\cos C,\\ a\\sin C)$. Now use the distance formula from $A$ to $B$.",
+     "rows": [
+      {
+       "l": "c^2",
+       "r": "= (a\\cos C - b)^2 + (a\\sin C)^2"
+      }
+     ]
+    },
+    {
+     "say": "Expand both squares.",
+     "rows": [
+      {
+       "l": "c^2",
+       "r": "= a^2\\cos^2 C - 2ab\\cos C + b^2 + a^2\\sin^2 C"
+      }
+     ]
+    },
+    {
+     "say": "Two terms have $a^2$. Take it out as a common factor and spot $\\hl{1}{\\cos^2 C + \\sin^2 C}$.",
+     "rows": [
+      {
+       "l": "c^2",
+       "r": "= a^2(\\hl{1}{\\cos^2 C + \\sin^2 C}) + b^2 - 2ab\\cos C"
+      }
+     ]
+    },
+    {
+     "say": "By formula 1, $\\hl{1}{\\cos^2 C + \\sin^2 C} = \\hl{2}{1}$. Replace it.",
+     "rows": [
+      {
+       "l": "c^2",
+       "r": "= a^2(\\hl{2}{1}) + b^2 - 2ab\\cos C"
+      },
+      {
+       "l": "",
+       "r": "= a^2 + b^2 - 2ab\\cos C"
+      },
+      {
+       "aside": "This is the cosine rule."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-derive-4",
+  "title": "Derive formula 4: cos(A − B) = cos A cos B + sin A sin B",
+  "show": "unit circle with P(cos A, sin A), Q(cos B, sin B) and the angle POQ=A-B",
+  "example": {
+   "question": "The points $P(\\cos A, \\sin A)$ and $Q(\\cos B, \\sin B)$ lie on the unit circle with centre $O$. The angle $POQ$ is $A - B$. Find $PQ^2$ in two ways and so derive a formula for $\\cos(A - B)$.",
+   "final": "\\cos(A-B) = \\cos A\\cos B + \\sin A\\sin B",
+   "steps": [
+    {
+     "say": "Use the distance formula on $P$ and $Q$, then expand.",
+     "rows": [
+      {
+       "l": "PQ^2",
+       "r": "= (\\cos A - \\cos B)^2 + (\\sin A - \\sin B)^2"
+      },
+      {
+       "l": "",
+       "r": "= \\cos^2 A - 2\\cos A\\cos B + \\cos^2 B + \\sin^2 A - 2\\sin A\\sin B + \\sin^2 B"
+      }
+     ]
+    },
+    {
+     "say": "Pair up $\\cos^2 + \\sin^2$ for $A$ and for $B$. Each pair is $1$.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= (\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2\\cos A\\cos B - 2\\sin A\\sin B"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{2 - 2\\cos A\\cos B - 2\\sin A\\sin B}"
+      }
+     ]
+    },
+    {
+     "say": "In triangle $POQ$, two sides are $1$ and the angle between them is $A - B$. The cosine rule gives $PQ^2$ a second way.",
+     "rows": [
+      {
+       "l": "PQ^2",
+       "r": "= 1^2 + 1^2 - 2(1)(1)\\cos(A - B)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{2 - 2\\cos(A - B)}"
+      }
+     ]
+    },
+    {
+     "say": "Both expressions are $PQ^2$, so set $\\hl{1}{2 - 2\\cos A\\cos B - 2\\sin A\\sin B}$ equal to $\\hl{2}{2 - 2\\cos(A-B)}$. Subtract $2$ and divide by $-2$.",
+     "rows": [
+      {
+       "aside": "$2 - 2\\cos(A-B) = 2 - 2\\cos A\\cos B - 2\\sin A\\sin B$"
+      },
+      {
+       "l": "\\cos(A - B)",
+       "r": "= \\cos A\\cos B + \\sin A\\sin B"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-triangle-problems",
+  "title": "Solve multi-step 2D triangle problems",
+  "show": "quadrilateral field ABCD with diagonal AC, triangle ABC with 7 m, 9 m and the included angle",
+  "example": {
+   "question": "A field $ABCD$ is split by the diagonal $[AC]$. In triangle $ABC$, $|AB| = 7$ m, $|BC| = 9$ m and $|\\angle ABC| = 70^\\circ$. In triangle $ACD$, $|CD| = 8$ m and $|\\angle ACD| = 50^\\circ$. Find the area of the field, correct to one decimal place.",
+   "final": "58.2 m^2",
+   "steps": [
+    {
+     "say": "Triangle $ABC$ has two sides and the angle between them. Use the cosine rule to find $\\hl{1}{|AC|}$, which both triangles share.",
+     "rows": [
+      {
+       "l": "|AC|^2",
+       "r": "= 7^2 + 9^2 - 2(7)(9)\\cos 70^\\circ"
+      },
+      {
+       "l": "",
+       "r": "= 86.91"
+      },
+      {
+       "l": "\\hl{1}{|AC|}",
+       "r": "= 9.32"
+      }
+     ]
+    },
+    {
+     "say": "Use the area formula with two sides and the angle between them.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= \\tfrac{1}{2}(7)(9)\\sin 70^\\circ"
+      },
+      {
+       "l": "",
+       "r": "= 29.60"
+      }
+     ]
+    },
+    {
+     "say": "Now use the diagonal $\\hl{1}{9.32}$ with $|CD|$ and the angle between them.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= \\tfrac{1}{2}(9.32)(8)\\sin 50^\\circ"
+      },
+      {
+       "l": "",
+       "r": "= 28.56"
+      }
+     ]
+    },
+    {
+     "say": "The field is the two triangles together.",
+     "rows": [
+      {
+       "l": "29.60 + 28.56",
+       "r": "= 58.16"
+      },
+      {
+       "aside": "To one decimal place, that is $58.2$ m$^2$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

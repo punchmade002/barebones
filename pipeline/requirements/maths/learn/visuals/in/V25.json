@@ -1,0 +1,245 @@
+[
+ {
+  "skill": "inf-ci-proportion",
+  "title": "Construct a 95% confidence interval for a proportion",
+  "show": "number line with the sample proportion and the 95% confidence interval either side",
+  "example": {
+   "question": "In a random sample of $500$ voters, $120$ say they will vote for a new candidate. Find a $95\\%$ confidence interval for the proportion of all voters who will vote for her. Give the limits to $4$ decimal places.",
+   "final": "0.2026 \\le p \\le 0.2774",
+   "steps": [
+    {
+     "say": "The sample proportion is the number who said yes, divided by the sample size.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\hat{p}}",
+       "r": "= \\frac{120}{500}"
+      },
+      {
+       "l": "",
+       "r": "= 0.24"
+      }
+     ]
+    },
+    {
+     "say": "The margin of error is $1.96$ times the standard error. Put $\\hl{1}{0.24}$ and $n = 500$ into the formula.",
+     "rows": [
+      {
+       "l": "\\hl{2}{E}",
+       "r": "= 1.96\\sqrt{\\frac{0.24 \\times 0.76}{500}}"
+      },
+      {
+       "l": "",
+       "r": "= 0.0374"
+      }
+     ]
+    },
+    {
+     "say": "Subtract $\\hl{2}{E}$ for the lower limit and add it for the upper limit.",
+     "rows": [
+      {
+       "l": "\\hat{p} - E",
+       "r": "= 0.24 - 0.0374"
+      },
+      {
+       "l": "",
+       "r": "= 0.2026"
+      },
+      {
+       "l": "\\hat{p} + E",
+       "r": "= 0.24 + 0.0374"
+      },
+      {
+       "l": "",
+       "r": "= 0.2774"
+      },
+      {
+       "aside": "State it as an interval: $0.2026 \\le p \\le 0.2774$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "inf-z-test",
+  "title": "Perform a two-tailed z-test of a population mean",
+  "show": "normal curve for the null mean with the rejection region tails shaded and the sample mean marked",
+  "example": {
+   "question": "A machine is set to fill bags with a mean of $250$ g. The standard deviation is $6$ g. A sample of $36$ bags has a mean of $247.9$ g. Test, at the $5\\%$ level of significance, whether the mean fill has changed. State your hypotheses and your conclusion.",
+   "final": "z = -2.1 < -1.96 \\text{, so reject } H_0",
+   "steps": [
+    {
+     "say": "The null hypothesis says nothing has changed. The alternative says the mean is different, in either direction.",
+     "rows": [
+      {
+       "aside": "$H_0$: the mean fill is $250$ g."
+      },
+      {
+       "aside": "$H_1$: the mean fill is not $250$ g."
+      }
+     ]
+    },
+    {
+     "say": "Subtract the claimed mean from $\\bar{x}$. Divide by the standard error, $\\frac{\\sigma}{\\sqrt{n}}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{z}",
+       "r": "= \\frac{\\bar{x} - \\mu_0}{\\sigma / \\sqrt{n}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{247.9 - 250}{6 / \\sqrt{36}}"
+      },
+      {
+       "l": "",
+       "r": "= -2.1"
+      }
+     ]
+    },
+    {
+     "say": "At the $5\\%$ level, the limits are $-1.96$ and $1.96$. Is $\\hl{1}{z}$ outside them?",
+     "rows": [
+      {
+       "aside": "$-2.1$ is less than $-1.96$, so $z$ is in the rejection zone."
+      }
+     ]
+    },
+    {
+     "say": "Say what it means for the machine, not just for $H_0$.",
+     "rows": [
+      {
+       "aside": "Reject $H_0$. There is evidence that the mean fill of the machine has changed."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "inf-p-value",
+  "title": "Calculate and interpret a p-value",
+  "show": "normal curve centred on 500 with the sample mean marked and the tail area shaded",
+  "example": {
+   "question": "A machine is set to fill bags with a mean mass of $500$ g and a standard deviation of $12$ g. A sample of $36$ bags has a mean mass of $504.6$ g. Test, at the $5\\%$ level, whether the mean mass has changed. Use a $p$-value.",
+   "final": "p = 0.0214 < 0.05 \\text{, so the mean mass has changed}",
+   "steps": [
+    {
+     "say": "Standardise the sample mean to find $\\hl{1}{z}$. The spread of a sample mean is $\\sigma/\\sqrt{n}$, not $\\sigma$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{z}",
+       "r": "= \\frac{504.6 - 500}{12/\\sqrt{36}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{4.6}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 2.3"
+      }
+     ]
+    },
+    {
+     "say": "Look up $P(z < 2.3)$ in the normal tables.",
+     "rows": [
+      {
+       "l": "P(z < 2.3)",
+       "r": "= 0.9893"
+      }
+     ]
+    },
+    {
+     "say": "The test is two-tailed, so $\\hl{2}{p}$ counts both tails. Take the tail above $2.3$ and double it.",
+     "rows": [
+      {
+       "l": "\\hl{2}{p}",
+       "r": "= 2\\,[1 - P(z < 2.3)]"
+      },
+      {
+       "l": "",
+       "r": "= 2(1 - 0.9893)"
+      },
+      {
+       "l": "",
+       "r": "= 2(0.0107)"
+      },
+      {
+       "l": "",
+       "r": "= 0.0214"
+      }
+     ]
+    },
+    {
+     "say": "Compare $\\hl{2}{p}$ with $0.05$. Then say what it means for the claim, in the words of the question.",
+     "rows": [
+      {
+       "l": "\\hl{2}{0.0214}",
+       "r": "< 0.05"
+      },
+      {
+       "aside": "$p$ is less than $0.05$, so reject the claim. There is evidence that the mean mass of the bags has changed."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-z-score",
+  "title": "Standardise a value",
+  "show": "normal curve mean 58 sd 12 with the shaded area for the asked mark",
+  "example": {
+   "question": "The marks in an exam are normally distributed with mean $58$ and standard deviation $12$. Find the percentage of students who scored more than $73$.",
+   "final": "10.56\\%",
+   "steps": [
+    {
+     "say": "Standardise: take away the mean, then divide by the standard deviation. This gives $\\hl{1}{z}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{z}",
+       "r": "= \\frac{73 - 58}{12}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{15}{12}"
+      },
+      {
+       "l": "",
+       "r": "= 1.25"
+      }
+     ]
+    },
+    {
+     "say": "The tables give the area to the **left** of $z$. Look up $P(z < 1.25)$.",
+     "rows": [
+      {
+       "l": "P(z < \\hl{1}{1.25})",
+       "r": "= 0.8944"
+      }
+     ]
+    },
+    {
+     "say": "We want the students above $73$, so take the left area from $1$.",
+     "rows": [
+      {
+       "l": "P(z > 1.25)",
+       "r": "= 1 - 0.8944"
+      },
+      {
+       "l": "",
+       "r": "= 0.1056"
+      },
+      {
+       "l": "",
+       "r": "= 10.56\\%"
+      },
+      {
+       "aside": "About $10.6\\%$ of the students scored more than $73$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

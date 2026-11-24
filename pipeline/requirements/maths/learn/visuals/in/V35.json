@@ -1,0 +1,220 @@
+[
+ {
+  "skill": "geo-transformations",
+  "title": "Find images under translation, central symmetry, axial symmetry and rotation",
+  "show": "co-ordinate grid with A(3,5), A'(7,2), B(-1,4) and its image and the translation arrow (4,-3)",
+  "example": {
+   "question": "A translation maps $A(3, 5)$ to $A'(7, 2)$. (i) Find the image of $B(-1, 4)$ under the same translation. (ii) Find the image of that point under central symmetry in $(0, 0)$.",
+   "final": "B' = (3, 1), \\ B'' = (-3, -1)",
+   "steps": [
+    {
+     "say": "Compare $A$ with its image $A'$. The translation is the change in $\\hl{1}{x}$ and the change in $\\hl{2}{y}$.",
+     "rows": [
+      {
+       "l": "(\\hl{1}{x}, \\hl{2}{y})\\ \\text{shift}",
+       "r": "= (7 - 3,\\ 2 - 5)"
+      },
+      {
+       "l": "",
+       "r": "= (4, -3)"
+      }
+     ]
+    },
+    {
+     "say": "Apply the same shift to $B(-1, 4)$. Add $4$ to $x$ and $-3$ to $y$.",
+     "rows": [
+      {
+       "l": "B'",
+       "r": "= (-1 + 4,\\ 4 - 3)"
+      },
+      {
+       "l": "",
+       "r": "= (3, 1)"
+      }
+     ]
+    },
+    {
+     "say": "Central symmetry in $(0, 0)$ changes the sign of both coordinates of $B'(3, 1)$.",
+     "rows": [
+      {
+       "l": "B''",
+       "r": "= (-3, -1)"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "A' (7,2) sits on the right edge of the figure and is cut off",
+   "No grid, tick marks or axis numbers, so coordinates cannot be read",
+   "The translation arrow (4,-3) from A to A' is missing; instead B is joined to B' and B' to B'' by plain lines, which is misleading",
+   "Labels B, B', A, A' are small and the B'-B'' line passes through the origin area without explanation",
+   "x and y shifts are coloured in the working but not shown in the figure"
+  ]
+ },
+ {
+  "skill": "geo-enlargement",
+  "title": "Construct and analyse an enlargement",
+  "show": "triangle ABC and its enlargement PQR from centre O with rays through corresponding points, |OB|=5, |OQ|=12",
+  "example": {
+   "question": "The triangle $ABC$ is enlarged with centre $O$ to give the image $PQR$. $|OB| = 5$ cm and $|OQ| = 12$ cm. The area of $ABC$ is $10$ cm$^2$. Find the area of $PQR$.",
+   "final": "\\text{Area of } PQR = 57.6 \\text{ cm}^2",
+   "steps": [
+    {
+     "say": "The scale factor is image length over object length. Use the two lengths from $O$: $\\hl{1}{k} = \\frac{|OQ|}{|OB|}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{k}",
+       "r": "= \\frac{12}{5}"
+      },
+      {
+       "l": "",
+       "r": "= 2.4"
+      }
+     ]
+    },
+    {
+     "say": "Lengths grow by $k$, so areas grow by $\\hl{2}{k^2}$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{k^2}",
+       "r": "= 2.4^2"
+      },
+      {
+       "l": "",
+       "r": "= 5.76"
+      }
+     ]
+    },
+    {
+     "say": "Multiply the area of $ABC$ by $\\hl{2}{k^2}$.",
+     "rows": [
+      {
+       "l": "\\text{Area of } PQR",
+       "r": "= 10 \\times 5.76"
+      },
+      {
+       "l": "",
+       "r": "= 57.6"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Labels C and P overlap each other and the lines near the top of the figure",
+   "Triangle ABC is tiny and crowded against O; vertices A and C nearly coincide, so the triangles are hard to read",
+   "Image PQR does not look like a consistent 2.4x enlargement of ABC from O (R is not on the ray through C at 2.4 times the distance)",
+   "Colour k (orange) and k^2 (blue) in the working have no counterpart in the figure; |OB|=5 and |OQ|=12 are not labelled"
+  ]
+ },
+ {
+  "skill": "geo-thm9",
+  "title": "Apply Theorem 9: Parallelogram: opposite sides and opposite angles equal",
+  "show": "parallelogram ABCD with opposite angles (2x+15)° and (4x-35)° marked",
+  "example": {
+   "question": "$ABCD$ is a parallelogram. $|\\angle DAB| = (2x + 15)^\\circ$ and $|\\angle BCD| = (4x - 35)^\\circ$. Find $|\\angle ABC|$.",
+   "final": "|\\angle ABC| = 115^\\circ",
+   "steps": [
+    {
+     "say": "$\\angle DAB$ and $\\angle BCD$ are opposite angles. By Theorem 9 opposite angles of a parallelogram are equal, so put the two expressions equal.",
+     "rows": [
+      {
+       "l": "2x + 15",
+       "r": "= 4x - 35"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "15 + 35",
+       "r": "= 4x - 2x"
+      },
+      {
+       "l": "50",
+       "r": "= 2x"
+      },
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= \\hl{1}{25}"
+      }
+     ]
+    },
+    {
+     "say": "Put $\\hl{1}{x = 25}$ into the expression for $\\angle DAB$.",
+     "rows": [
+      {
+       "l": "|\\angle DAB|",
+       "r": "= 2(25) + 15"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{65^\\circ}"
+      }
+     ]
+    },
+    {
+     "say": "$\\angle ABC$ is next to $\\angle DAB$. Adjacent angles in a parallelogram add to $180^\\circ$, so take $\\hl{2}{65}$ from $180$.",
+     "rows": [
+      {
+       "l": "|\\angle ABC|",
+       "r": "= 180 - 65"
+      },
+      {
+       "l": "",
+       "r": "= 115^\\circ"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Opposite angles DAB (2x+15) and BCD (4x-35) are not marked or labelled, so the figure does not show the point of the example",
+   "Angle ABC, the one asked for, is not marked",
+   "Working colours x=25 orange and 65 blue, but nothing in the figure is coloured or marked"
+  ]
+ },
+ {
+  "skill": "geo-thm17",
+  "title": "Apply Theorem 17: A diagonal bisects the area of a parallelogram",
+  "show": "parallelogram PQRS with diagonal PR dividing it into two triangles, with area 420 m²",
+  "example": {
+   "question": "The area of the parallelogram $PQRS$ is $420$ m$^2$. (i) Find the area of the triangle $PQR$. (ii) $T$ is the midpoint of $[QR]$. Find the area of the triangle $PQT$.",
+   "final": "210 \\text{ m}^2, \\ 105 \\text{ m}^2",
+   "steps": [
+    {
+     "say": "The diagonal $[PR]$ bisects the area of the parallelogram. So the triangle $PQR$ is half of $420$.",
+     "rows": [
+      {
+       "l": "|\\triangle PQR|",
+       "r": "= \\tfrac{1}{2}(420)"
+      },
+      {
+       "l": "",
+       "r": "= 210 \\text{ m}^2"
+      }
+     ]
+    },
+    {
+     "say": "$T$ is the midpoint of $[QR]$, so $[PT]$ cuts triangle $PQR$ into two triangles with equal bases and the same height. Each is half of $210$.",
+     "rows": [
+      {
+       "l": "|\\triangle PQT|",
+       "r": "= \\tfrac{1}{2}(210)"
+      },
+      {
+       "l": "",
+       "r": "= 105 \\text{ m}^2"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Part (ii) and step 2 use [PT], but the segment PT is not drawn; T is only a tick on QR, so the figure does not show triangle PQT.",
+   "No area (420 m2) or equal-halves marking, so the figure does not show what the example is about."
+  ]
+ }
+]

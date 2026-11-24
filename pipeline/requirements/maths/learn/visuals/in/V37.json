@@ -1,0 +1,223 @@
+[
+ {
+  "skill": "geo-similar-triangles",
+  "title": "Find lengths using similar triangles",
+  "show": "two similar triangles ABC and PQR with matching sides AB=8, PQ=14, AC=12 marked",
+  "example": {
+   "question": "Triangles $ABC$ and $PQR$ are similar. $|AB| = 8$ cm and $|PQ| = 14$ cm are matching sides. $|AC| = 12$ cm. Find $|PR|$, the side that matches $[AC]$.",
+   "final": "|PR| = 21 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Divide a side of the bigger triangle by the matching side of the smaller one. This gives $\\hl{1}{k}$, the number that turns $ABC$ into $PQR$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{k}",
+       "r": "= \\frac{|PQ|}{|AB|}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{14}{8} = 1.75"
+      }
+     ]
+    },
+    {
+     "say": "$PR$ matches $AC$. Multiply $|AC|$ by the scale factor $\\hl{1}{k}$.",
+     "rows": [
+      {
+       "l": "|PR|",
+       "r": "= |AC| \\times \\hl{1}{k}"
+      },
+      {
+       "l": "",
+       "r": "= 12 \\times 1.75"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{21} \\text{ cm}"
+      }
+     ]
+    },
+    {
+     "say": "$PQR$ is the bigger triangle, so $|PR|$ should be bigger than $|AC| = 12$. It is.",
+     "rows": [
+      {
+       "aside": "Always check that the bigger triangle gets the bigger answer."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Proportions contradict the question: |AC| = 12 is longer than |AB| = 8, but in triangle ABC the side AC is drawn shorter than AB (about 95 vs 102). Likewise |PR| = 21 should be longer than |PQ| = 14, but PR is drawn shorter than PQ (about 163 vs 181).",
+   "Given lengths 8, 14 and 12 cm are not marked on the figure."
+  ]
+ },
+ {
+  "skill": "geo-enlargement-centre",
+  "title": "Find the centre and scale factor of an enlargement",
+  "show": "triangle ABC and its image PQR with lines through corresponding vertices meeting at the centre of enlargement",
+  "example": {
+   "question": "The triangle $PQR$ is the image of the triangle $ABC$ under an enlargement.\n(a) Construct the centre of enlargement and label it $O$.\n(b) Given $|AB| = 4$ cm and $|PQ| = 10$ cm, find the scale factor $k$.\n(c) Check your answer: $|OA| = 6$ cm. Find $|OP|$.",
+   "final": "k = 2.5, \\ |OP| = 15 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Join each point to its image. The lines meet at one point. That point is the **centre** $O$.",
+     "rows": [
+      {
+       "aside": "Join $A$ to $P$ and $B$ to $Q$."
+      },
+      {
+       "aside": "Join $C$ to $R$ as a check. All three lines meet at $O$."
+      }
+     ]
+    },
+    {
+     "say": "The scale factor is image length over object length. $|PQ|$ is the image of $|AB|$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{k}",
+       "r": "= \\frac{|PQ|}{|AB|}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{10}{4}"
+      },
+      {
+       "l": "",
+       "r": "= 2.5"
+      }
+     ]
+    },
+    {
+     "say": "Distances from $O$ scale by the same $\\hl{1}{k}$. Multiply $|OA|$ by $\\hl{1}{k}$ to get $|OP|$.",
+     "rows": [
+      {
+       "l": "|OP|",
+       "r": "= \\hl{1}{k} \\times |OA|"
+      },
+      {
+       "l": "",
+       "r": "= 2.5 \\times 6"
+      },
+      {
+       "l": "",
+       "r": "= 15"
+      },
+      {
+       "aside": "On the diagram you can measure $|OP|$ to confirm. Allow 5 mm either way."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "A, B, P and Q all lie on one line through O, so the lines A-P and B-Q coincide and do not meet at a point; the centre cannot be found by construction from this figure.",
+   "Scale is wrong: |AB| is about 20px and |PQ| about 65px (ratio about 3.2, not 2.5); |OP|/|OA| is about 3.4, not 2.5.",
+   "Labels A and B sit on the dotted lines and crowd each other; the figure is tiny."
+  ]
+ },
+ {
+  "skill": "geo-cor6",
+  "title": "Apply Corollary 6: Circles sharing a tangent at a point: the centres and that point are collinear",
+  "show": "two circles touching externally at T with centres A and B and the line AB passing through T, radii marked",
+  "example": {
+   "question": "Two circles touch externally at $T$. Their centres are $A$ and $B$. The radius of one circle is $4$ cm and the radius of the other is $9$ cm. Find $|AB|$.",
+   "final": "13 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Draw the tangent to both circles at $T$. A radius meets a tangent at a right angle.",
+     "rows": [
+      {
+       "aside": "$[AT]$ and $[BT]$ are both perpendicular to this tangent at $T$."
+      }
+     ]
+    },
+    {
+     "say": "Both radii are perpendicular to the same line at the same point. So $A$, $T$ and $B$ lie on one straight line. This is **Corollary 6**.",
+     "rows": [
+      {
+       "aside": "For external touching, $T$ is between $A$ and $B$."
+      }
+     ]
+    },
+    {
+     "say": "Along the line, $\\hl{1}{|AB|}$ is made of the two radii.",
+     "rows": [
+      {
+       "l": "\\hl{1}{|AB|}",
+       "r": "= |AT| + |TB|"
+      },
+      {
+       "l": "",
+       "r": "= 4 + 9"
+      },
+      {
+       "l": "",
+       "r": "= 13"
+      },
+      {
+       "aside": "If the circles touched internally you would subtract: $9 - 4 = 5$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Radii are not in proportion with 4 cm and 9 cm: the left circle has radius about 75px and the right about 57px (ratio about 1.3, should be about 2.25).",
+   "Radii and lengths 4 and 9 are not marked, though the figure is meant to show them.",
+   "Label T sits on the dashed line AB."
+  ]
+ },
+ {
+  "skill": "geo-cor5",
+  "title": "Apply Corollary 5: Opposite angles of a cyclic quadrilateral sum to 180°",
+  "show": "cyclic quadrilateral ABCD with opposite angles A and C marked",
+  "example": {
+   "question": "$ABCD$ is a cyclic quadrilateral. $|\\angle A| = (2x + 10)°$ and $|\\angle C| = (3x - 20)°$. Find $x$.",
+   "final": "x = 38",
+   "steps": [
+    {
+     "say": "$A$ and $C$ are opposite corners of a quadrilateral inscribed in a circle.",
+     "rows": [
+      {
+       "aside": "So Corollary 5 applies: opposite angles sum to $180°$."
+      }
+     ]
+    },
+    {
+     "say": "Add the two angles and set the total equal to $180$.",
+     "rows": [
+      {
+       "l": "(2x + 10) + (3x - 20)",
+       "r": "= 180"
+      },
+      {
+       "l": "5x - 10",
+       "r": "= 180"
+      }
+     ]
+    },
+    {
+     "say": "Add $10$ to both sides, then divide by $5$ to find $\\hl{1}{x}$.",
+     "rows": [
+      {
+       "l": "5x",
+       "r": "= 190"
+      },
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= 38"
+      },
+      {
+       "aside": "Check: $|\\angle A| = 86°$ and $|\\angle C| = 94°$. They add to $180°$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The quadrilateral is an isosceles trapezoid with the longer side DC at the bottom, so angle A is about 95 degrees (obtuse) and angle C about 85 degrees; the working says |angle A| = 86 and |angle C| = 94, the opposite way round.",
+   "Angles A and C are not marked on the figure."
+  ]
+ }
+]

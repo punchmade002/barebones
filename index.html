@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <script>/* signed-in state: mirrors the app's own check */(function(){try{var s=localStorage.getItem("bb_has_auth_session")==="1";if(!s){var a=JSON.parse(localStorage.getItem("bare-bones-app-v4")||"null");s=!!(a&&a.session&&a.session.currentUser);}if(s)document.documentElement.classList.add("bb-signed-in");}catch(e){}})();</script>
 <title>barebones: everything you need for the Leaving Cert</title>
-<meta name="description" content="Everything you need for the Leaving Cert: notes, flashcards and real past exam questions, marked against the official marking scheme as you answer. Free, in your browser." />
+<meta name="description" content="Everything you need for the Leaving Cert: notes, flashcards, real past exam questions and exam guides. Free, in your browser." />
 <link rel="canonical" href="https://barebones.ie/" />
 <meta name="robots" content="index, follow" />
 <meta name="theme-color" content="#d6d4cf" />
@@ -16,12 +16,12 @@
 <meta property="og:locale" content="en_IE" />
 <meta property="og:url" content="https://barebones.ie/" />
 <meta property="og:title" content="barebones: everything you need for the Leaving Cert" />
-<meta property="og:description" content="Real Leaving Cert exam questions, checked against the marking scheme as you answer. Notes, flashcards and timed tests. Free, in your browser." />
+<meta property="og:description" content="Notes, flashcards, real past exam questions and timed tests for the Leaving Cert. Free, in your browser." />
 <meta property="og:image" content="https://barebones.ie/design_handoff_barebones_landing/assets/logo-bb.png" />
 <meta property="og:image:alt" content="barebones logo" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="barebones: everything you need for the Leaving Cert" />
-<meta name="twitter:description" content="Real Leaving Cert exam questions, checked against the marking scheme as you answer. Notes, flashcards and timed tests. Free, in your browser." />
+<meta name="twitter:description" content="Notes, flashcards, real past exam questions and timed tests for the Leaving Cert. Free, in your browser." />
 <meta name="twitter:image" content="https://barebones.ie/design_handoff_barebones_landing/assets/logo-bb.png" />
 
 <!-- Structured data: tells Google and AI assistants what barebones is -->
@@ -50,7 +50,7 @@
       "url": "https://barebones.ie/app.html",
       "applicationCategory": "EducationalApplication",
       "operatingSystem": "Any (web browser)",
-      "description": "Leaving Cert study app: real past exam questions marked against the official marking scheme, plus notes, flashcards and timed tests.",
+      "description": "Leaving Cert study app: notes, flashcards, real past exam questions with model answers, timed tests and exam guides.",
       "audience": { "@type": "EducationalAudience", "educationalRole": "student", "audienceType": "Irish Leaving Certificate students" },
       "about": ["Leaving Certificate Biology", "Leaving Certificate Chemistry", "Leaving Certificate Mathematics", "Leaving Certificate Geography", "Leaving Certificate History", "Leaving Certificate Business", "Leaving Certificate Home Economics", "Leaving Certificate Physical Education"],
       "isAccessibleForFree": true,
@@ -68,7 +68,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="home.css?v=5" />
+<link rel="stylesheet" href="home.css?v=8" />
 <!-- Vercel Web Analytics -->
 <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -179,10 +179,9 @@
           <div class="flash">
             <span class="lbl">Flashcard</span>
             <span class="face">What does ADH make more permeable to water?</span>
-            <span class="chips"><span>collecting duct</span><span>reabsorbed</span><span>concentrated</span></span>
           </div>
         </div>
-        <p>Cards built from the notes, each one testing a single exact point. Flip it, check yourself against the key words, and mark it learned once it sticks.</p>
+        <p>Cards built from the notes, each one testing a single exact point. Flip it, see if you were right, and mark it learned once it sticks.</p>
       </div>
     </details>
 
@@ -210,7 +209,7 @@
             <div class="row"><span>2019, Q14(b)(ii)</span><span>3 marks</span></div>
           </div>
         </div>
-        <p>Timed tests from 5 to 60 minutes, on one chapter, a few, or the whole subject. They mix flashcard recall with real exam question parts, and your written answers are marked against the scheme.</p>
+        <p>Timed tests from 5 to 60 minutes, on one chapter, a few, or the whole subject. They mix flashcard recall with real exam question parts.</p>
       </div>
     </details>
 
@@ -221,15 +220,11 @@
           <div class="mini-q">
             <small>Biology, Higher, 2022, Q15(b)(vi)</small>
             <b>Describe how ADH affects the volume of urine.</b>
-            <ol>
-              <li><i>✓</i>More water reabsorbed into the blood</li>
-              <li><i>✓</i>More ADH: small volume, concentrated</li>
-              <li><i>½</i>Less ADH: large volume, dilute</li>
-            </ol>
-            <span class="mini-score">5<small>/6</small></span>
+            <span class="model-tag">Model answer</span>
+            <p class="model">ADH makes the walls of the collecting duct more permeable to water, so more water is reabsorbed into the blood. More ADH gives a small volume of concentrated urine; less ADH gives a large volume of dilute urine.</p>
           </div>
         </div>
-        <p>Real past paper questions, sorted by chapter, by question type, or as full papers. Every one has a model answer checked against the official marking scheme.</p>
+        <p>Real past paper questions, sorted by chapter, by question type, or as full papers. Every one comes with a model answer written to the marking scheme.</p>
       </div>
     </details>
 
@@ -238,12 +233,25 @@
       <div class="feat-body">
         <div class="feat-visual" aria-hidden="true">
           <div class="mini-guide">
-            <div class="row"><b>Biology, Higher Level</b><span>2h 30m, 300 marks</span></div>
-            <div class="split"><span style="flex:1">Q1<br /><small>must do</small></span><span style="flex:5">Any five of Q2 to Q7<br /><small>50 marks each</small></span></div>
-            <p class="tip">Only five of the six optional questions count, so you drop one completely.</p>
+            <div class="row"><b>Biology, Higher Level</b><span>2h 30m, 300 marks, 60% of your grade</span></div>
+            <div class="plan">
+              <span class="seg pick" style="flex:5"></span>
+              <span class="seg q1" style="flex:25">Q1</span>
+              <span class="seg" style="flex:24"></span><span class="seg" style="flex:24"></span><span class="seg" style="flex:24"></span><span class="seg" style="flex:24"></span><span class="seg" style="flex:24"></span>
+            </div>
+            <div class="plan-key">
+              <span>9:30 pick your five, then Q1 for 25 min</span>
+              <span>Five of Q2 to Q7, 24 min each, done by 12:00</span>
+            </div>
+            <ul class="tips">
+              <li>Only five of the six optional questions count, so choose which one to drop before you start.</li>
+              <li>That's under half a minute per mark. When a question's 24 minutes are up, move on.</li>
+              <li>Graphs and diagrams eat time: start them with 6 minutes left in the question.</li>
+              <li>Never leave a part blank. A wrong answer loses nothing.</li>
+            </ul>
           </div>
         </div>
-        <p>A guide to each paper: how the marks are split, which questions to answer, and how long to spend on each one.</p>
+        <p>A guide to every paper: how the marks are split, which questions to answer, a minute-by-minute plan for the day, and the habits that save marks.</p>
       </div>
     </details>
 
@@ -287,10 +295,6 @@
     <details>
       <summary>Is it free?</summary>
       <p>Yes. Sign up and start studying for free, in your browser.</p>
-    </details>
-    <details>
-      <summary>How does the marking work?</summary>
-      <p>Your answer is checked point by point against the marking scheme. Spelling slips and different wording are forgiven, and you can overrule a mark you disagree with. Maths and diagram labels are self-marked against the solution.</p>
     </details>
     <details>
       <summary>Do I need to download anything?</summary>
@@ -364,7 +368,7 @@
 </dialog>
 
 <script src="design_handoff_barebones_landing/pixelfont.js"></script>
-<script src="home-hero.js?v=3"></script>
+<script src="home-hero.js?v=4"></script>
 <script>
   (function () {
     function track(name) { try { window.va('event', { name: name }); } catch (e) {} }

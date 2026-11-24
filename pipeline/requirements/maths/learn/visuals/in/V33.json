@@ -1,0 +1,266 @@
+[
+ {
+  "skill": "fn-graph-exponential",
+  "title": "Graph an exponential function",
+  "show": "a plain graph of the curve",
+  "example": {
+   "question": "The number of bacteria is $f(x) = 5 \\cdot 2^x$, where $x$ is the number of hours. Draw the graph of $f$ for $-1 \\le x \\le 4$. Use the graph to find when there are $40$ bacteria.",
+   "final": "x = 3 \\text{ hours}",
+   "steps": [
+    {
+     "say": "Put each value of $x$ into $5 \\cdot 2^x$. A negative power means one over the positive power.",
+     "rows": [
+      {
+       "l": "f(-1)",
+       "r": "= 5 \\cdot 2^{-1}"
+      },
+      {
+       "l": "",
+       "r": "= 5 \\cdot \\frac{1}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 2.5"
+      },
+      {
+       "l": "f(0)",
+       "r": "= 5 \\cdot 2^0"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      },
+      {
+       "l": "f(3)",
+       "r": "= 5 \\cdot 2^3"
+      },
+      {
+       "l": "",
+       "r": "= 40"
+      },
+      {
+       "aside": "The rest are $f(1) = 10$, $f(2) = 20$, $f(4) = 80$."
+      }
+     ]
+    },
+    {
+     "say": "Plot the points from the table. Join them with a smooth curve that rises more steeply to the right and gets very close to the $x$-axis on the left, but does not touch it.",
+     "rows": [
+      {
+       "aside": "The curve crosses the $y$-axis at $(0, 5)$, the value of $a$."
+      }
+     ]
+    },
+    {
+     "say": "To find when there are $40$ bacteria, go across from $40$ on the $y$-axis to the curve, then down to the $x$-axis. Check it with the equation.",
+     "rows": [
+      {
+       "l": "5 \\cdot 2^x",
+       "r": "= 40"
+      },
+      {
+       "l": "2^x",
+       "r": "= 8"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{3}"
+      },
+      {
+       "aside": "The curve reads $x = 3$ at $f(x) = \\hl{2}{40}$. After $3$ hours there are $40$ bacteria."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Labels at the bottom left collide: 'y-intercept (0, 5)', '(-1, 2.5)', '5' and '0' overlap each other and the curve, unreadable.",
+   "The '(3, 40)' label is crossed by the curve and the curve is drawn through other labels.",
+   "The curve continues past x = 4 (domain is -1 to 4) at the top right."
+  ]
+ },
+ {
+  "skill": "fn-graph-log",
+  "title": "Graph a logarithmic function",
+  "show": "a plain graph of the curve",
+  "example": {
+   "question": "Draw the graph of $y = \\log_2 x$ for $\\frac{1}{4} \\le x \\le 8$. Use a table of values.",
+   "final": "\\text{Curve through } (\\tfrac14,-2),\\ (1,0),\\ (2,1),\\ (8,3)",
+   "steps": [
+    {
+     "say": "A log is hard to evaluate for chosen $x$. Turn it into index form: $y = \\log_2 x$ means $x = 2^y$.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "= 2^{\\hl{1}{y}}"
+      }
+     ]
+    },
+    {
+     "say": "Pick whole numbers for $\\hl{1}{y}$ and work out $x$.",
+     "rows": [
+      {
+       "l": "y = -2:\\quad x",
+       "r": "= 2^{-2} = \\frac{1}{4}"
+      },
+      {
+       "l": "y = -1:\\quad x",
+       "r": "= 2^{-1} = \\frac{1}{2}"
+      },
+      {
+       "l": "y = 0:\\quad x",
+       "r": "= 2^{0} = 1"
+      },
+      {
+       "l": "y = 1:\\quad x",
+       "r": "= 2^{1} = 2"
+      },
+      {
+       "l": "y = 3:\\quad x",
+       "r": "= 2^{3} = 8"
+      }
+     ]
+    },
+    {
+     "say": "Plot $(x, y)$ for each pair and join the points with a smooth curve. It rises slowly and never reaches the $y$-axis.",
+     "rows": [
+      {
+       "aside": "Points: $(\\frac14, -2)$, $(\\frac12, -1)$, $(1, 0)$, $(2, 1)$, $(8, 3)$."
+      },
+      {
+       "aside": "The curve crosses the $x$-axis at $(1, 0)$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Labels (1, 0) and (2, 1) sit on the curve and the curve runs through the text.",
+   "The point (1/4, -2) from the working and answer is not marked or labelled; only (1,0), (2,1), (8,3) are.",
+   "Axes have no tick marks or scale, so the points cannot be read against the axes."
+  ]
+ },
+ {
+  "skill": "geo-thm1",
+  "title": "Apply Theorem 1: Vertically opposite angles are equal",
+  "show": "two crossing straight lines with the vertically opposite angles (3x+10)° and (5x-30)° marked",
+  "example": {
+   "question": "Two straight lines cross at a point. One angle is $(3x + 10)°$. The angle vertically opposite it is $(5x - 30)°$. Find $x$ and the size of the angle $(3x + 10)°$.",
+   "final": "x = 20,\\ \\text{angle} = 70°",
+   "steps": [
+    {
+     "say": "These two angles face each other across the crossing point, so they are **vertically opposite**. Vertically opposite angles are equal.",
+     "rows": [
+      {
+       "aside": "Reason: vertically opposite angles are equal."
+      }
+     ]
+    },
+    {
+     "say": "Set the two angles equal.",
+     "rows": [
+      {
+       "l": "3\\hl{1}{x} + 10",
+       "r": "= 5\\hl{1}{x} - 30"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $\\hl{1}{x}$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "40",
+       "r": "= 2\\hl{1}{x}"
+      },
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= \\hl{2}{20}"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 20$ back into $3x + 10$.",
+     "rows": [
+      {
+       "l": "3(20) + 10",
+       "r": "= \\hl{3}{70}"
+      },
+      {
+       "aside": "Check with the other angle: $5(20) - 30 = 70$. They match."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Angles are labelled a, b, c, d instead of (3x+10)° and (5x-30)° from the question.",
+   "No marking shows which pair of angles is vertically opposite and equal, so the figure does not match the working."
+  ]
+ },
+ {
+  "skill": "geo-thm4",
+  "title": "Apply Theorem 4: Angles in a triangle sum to 180°",
+  "show": "triangle with angles (2x+10)°, (3x-20)° and 70° labelled",
+  "example": {
+   "question": "The angles of a triangle are $(2x + 10)°$, $(3x - 20)°$ and $70°$. Find $x$ and the size of the other two angles.",
+   "final": "x = 24,\\ \\text{angles } 58°\\text{ and }52°",
+   "steps": [
+    {
+     "say": "The three angles of a triangle add to $180°$. Write them all added together.",
+     "rows": [
+      {
+       "l": "(2\\hl{1}{x} + 10) + (3\\hl{1}{x} - 20) + 70",
+       "r": "= 180"
+      },
+      {
+       "aside": "Reason: angles in a triangle add to $180°$."
+      }
+     ]
+    },
+    {
+     "say": "Add the $\\hl{1}{x}$ terms, then add the numbers.",
+     "rows": [
+      {
+       "l": "5\\hl{1}{x} + 60",
+       "r": "= 180"
+      },
+      {
+       "l": "5\\hl{1}{x}",
+       "r": "= 120"
+      }
+     ]
+    },
+    {
+     "say": "Divide both sides by $5$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{x}",
+       "r": "= \\hl{2}{24}"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 24$ into each expression.",
+     "rows": [
+      {
+       "l": "2(24) + 10",
+       "r": "= \\hl{3}{58}"
+      },
+      {
+       "l": "3(24) - 20",
+       "r": "= \\hl{3}{52}"
+      },
+      {
+       "aside": "Check: $58 + 52 + 70 = 180$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Angles are not in proportion: the top angle labelled (3x-20)° = 52° looks about 70°, the left (2x+10)° = 58° about 47°, and the 70° angle about 62°.",
+   "Labels (3x - 20)° and (2x + 10)° sit on the triangle's sides and vertices, overlapping the lines.",
+   "Vertex letters are absent and no arcs show which angle each label belongs to, so (3x-20)° at the apex is ambiguous."
+  ]
+ }
+]

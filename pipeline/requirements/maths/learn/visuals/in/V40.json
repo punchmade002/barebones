@@ -1,0 +1,235 @@
+[
+ {
+  "skill": "con-6",
+  "title": "Construction 6: Divide a segment into 2 or 3 equal parts without measuring",
+  "show": "compass-and-straight-edge construction: segment AB divided into three equal parts using a ray with equal steps, with arcs left visible",
+  "example": {
+   "question": "Divide the segment $[AB]$ into three equal parts using only a compass and straight edge. Show your construction lines.",
+   "final": "|AP| = |PQ| = |QB|",
+   "steps": [
+    {
+     "say": "Start at $A$. Draw a ray from $A$ at any angle to $[AB]$. Make it fairly long.",
+     "rows": [
+      {
+       "aside": "With the straight edge, draw a ray from $A$ going up and to the right."
+      }
+     ]
+    },
+    {
+     "say": "Set the compass to any small width. Do not change it again.",
+     "rows": [
+      {
+       "aside": "With the compass point on $A$, draw an arc across the ray. Call the crossing $1$."
+      },
+      {
+       "aside": "Move the point to $1$ and, keeping the same width, draw another arc. Call the crossing $2$."
+      },
+      {
+       "aside": "Move the point to $2$, same width, and mark $3$."
+      }
+     ]
+    },
+    {
+     "say": "The three arcs are equal. Join $3$ to $B$.",
+     "rows": [
+      {
+       "aside": "With the straight edge, draw the line from $3$ to $B$."
+      }
+     ]
+    },
+    {
+     "say": "Copy the angle at $3$ to the points $2$ and $1$, so each new line is parallel to $[3B]$.",
+     "rows": [
+      {
+       "aside": "Through $2$, draw a line parallel to $[3B]$. It meets $[AB]$ at $Q$."
+      },
+      {
+       "aside": "Through $1$, draw a line parallel to $[3B]$. It meets $[AB]$ at $P$."
+      },
+      {
+       "aside": "Then $|AP| = |PQ| = |QB|$. Leave all arcs and lines showing."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Only the ray point 3 is labelled. The working says to call the crossings 1 and 2, but those two points have no labels.",
+   "No compass arcs are shown although the working says to leave all arcs showing."
+  ]
+ },
+ {
+  "skill": "con-18",
+  "title": "Construction 18: Angle of 60° without protractor or set square",
+  "show": "compass-and-straight-edge construction: 60° angle at A from an equilateral-triangle arc, with arcs left visible",
+  "example": {
+   "question": "Using only a compass and straight edge, construct an angle of $60^\\circ$ at the point $A$ on the line $[AB]$.",
+   "final": "|\\angle BAC| = 60^\\circ",
+   "steps": [
+    {
+     "say": "Open the compass to the length $|AB|$. Keep it this width for the whole construction.",
+     "rows": [
+      {
+       "aside": "Place the compass point on $A$ and the pencil on $B$."
+      }
+     ]
+    },
+    {
+     "say": "The point $C$ must be $|AB|$ from $A$, so it lies on an arc centred at $A$.",
+     "rows": [
+      {
+       "aside": "With the compass point on $A$, draw a long arc above the line."
+      }
+     ]
+    },
+    {
+     "say": "The point $C$ must also be $|AB|$ from $B$. The two arcs cross at $C$.",
+     "rows": [
+      {
+       "aside": "With the compass point on $B$, same width, draw an arc that crosses the first. Call the crossing $C$."
+      }
+     ]
+    },
+    {
+     "say": "Now $|AB| = |AC| = |BC|$, so triangle $ABC$ is equilateral.",
+     "rows": [
+      {
+       "aside": "With the straight edge, draw $[AC]$."
+      },
+      {
+       "aside": "Every angle of an equilateral triangle is $60^\\circ$, so $|\\angle BAC| = 60^\\circ$."
+      },
+      {
+       "aside": "Leave both arcs showing."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The label C sits on top of the two crossing arcs and is partly struck through.",
+   "The second arc (centre B) is only a tiny stub near C, so the construction lines the working describes are hard to see."
+  ]
+ },
+ {
+  "skill": "con-20",
+  "title": "Construction 20: Parallelogram given side lengths and angles",
+  "show": "compass-and-straight-edge construction: parallelogram with AB 6, AD 4 and angle 70°, with arcs left visible",
+  "example": {
+   "question": "Construct the parallelogram $ABCD$ with $|AB| = 6$ cm, $|AD| = 4$ cm and $|\\angle DAB| = 70^\\circ$.",
+   "final": "ABCD\\text{ with }|AB| = |CD| = 6,\\ |AD| = |BC| = 4",
+   "steps": [
+    {
+     "say": "Start with the side you are given first. Draw it on the horizontal so the angle is easy to measure.",
+     "rows": [
+      {
+       "aside": "With the ruler, draw $[AB]$ of length $6$ cm."
+      }
+     ]
+    },
+    {
+     "say": "The angle sits at $A$, between $[AB]$ and $[AD]$.",
+     "rows": [
+      {
+       "aside": "Put the protractor centre on $A$ with its base along $[AB]$."
+      },
+      {
+       "aside": "Mark $70^\\circ$ and draw a ray from $A$ through the mark."
+      }
+     ]
+    },
+    {
+     "say": "$D$ is on that ray, $4$ cm from $A$.",
+     "rows": [
+      {
+       "aside": "With the ruler, measure $4$ cm along the ray from $A$. Label it $D$."
+      }
+     ]
+    },
+    {
+     "say": "Opposite sides are equal, so $|BC| = 4$ cm and $|DC| = 6$ cm.",
+     "rows": [
+      {
+       "aside": "With the compass point on $B$, open to $4$ cm and draw an arc."
+      },
+      {
+       "aside": "With the compass point on $D$, open to $6$ cm and draw an arc that crosses it. Label the crossing $C$."
+      }
+     ]
+    },
+    {
+     "say": "Join the corners in order.",
+     "rows": [
+      {
+       "aside": "Draw $[BC]$, $[CD]$. Label every corner and leave the arcs showing."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Sides are not in proportion: AB is 6 cm but AD and BC (4 cm) are drawn about half the length of AB, not two thirds. The height is also too small for 4 sin 70 against 6.",
+   "No compass arcs are shown although the working says to leave the arcs showing."
+  ]
+ },
+ {
+  "skill": "con-16",
+  "title": "Construction 16: Circumcentre and circumcircle of a triangle (straight edge and compass)",
+  "show": "compass-and-straight-edge construction: triangle with its three perpendicular bisectors meeting at the circumcentre and the circumcircle, with arcs left visible",
+  "example": {
+   "question": "Construct the circumcentre and circumcircle of the triangle $ABC$ with $|AB| = 7$ cm, $|BC| = 6$ cm and $|AC| = 5$ cm. Use a compass and straight edge and show your construction lines.",
+   "final": "O\\text{ is where the perpendicular bisectors meet; circle with centre }O\\text{ through }A,B,C",
+   "steps": [
+    {
+     "say": "Draw the longest side first, then find the third corner with two arcs.",
+     "rows": [
+      {
+       "aside": "Draw $[AB]$ of length $7$ cm."
+      },
+      {
+       "aside": "From $A$, draw an arc of radius $5$ cm. From $B$, draw an arc of radius $6$ cm. Label the crossing $C$ and join up the triangle."
+      }
+     ]
+    },
+    {
+     "say": "The circumcentre is the same distance from $A$ and $B$, so it lies on the perpendicular bisector of $[AB]$.",
+     "rows": [
+      {
+       "aside": "Open the compass past half of $|AB|$. Draw an arc above and below $[AB]$ from $A$, then from $B$ with the same width."
+      },
+      {
+       "aside": "Join the two crossings with the straight edge."
+      }
+     ]
+    },
+    {
+     "say": "It is also the same distance from $A$ and $C$, so it lies on the perpendicular bisector of $[AC]$.",
+     "rows": [
+      {
+       "aside": "Repeat the construction on $[AC]$."
+      },
+      {
+       "aside": "The two bisectors cross. Label that point $O$."
+      }
+     ]
+    },
+    {
+     "say": "$O$ is the same distance from all three corners.",
+     "rows": [
+      {
+       "aside": "Put the compass point on $O$ and the pencil on $A$."
+      },
+      {
+       "aside": "Draw the circle. It passes through $A$, $B$ and $C$. Leave all arcs showing."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The triangle does not match the lengths: with AB = 7, AC should be about 5/7 of AB and BC about 6/7, but the drawn AC is about 0.89 of AB and BC about 1.02. C is too high and too far left.",
+   "The label O is overlapped by the bisector lines through it.",
+   "No construction arcs are shown for the bisectors or for locating C, although the working says to leave all arcs showing."
+  ]
+ }
+]

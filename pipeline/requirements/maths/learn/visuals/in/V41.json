@@ -1,0 +1,256 @@
+[
+ {
+  "skill": "con-17",
+  "title": "Construction 17: Incentre and incircle of a triangle (straight edge and compass)",
+  "show": "compass-and-straight-edge construction: triangle with angle bisectors meeting at the incentre and the incircle touching the sides, with arcs left visible",
+  "example": {
+   "question": "Construct the incircle of the triangle $ABC$ with $|AB| = 8$ cm, $|BC| = 7$ cm and $|AC| = 5$ cm. Show all construction lines.",
+   "final": "incircle with centre $I$, the meeting point of the angle bisectors",
+   "steps": [
+    {
+     "say": "Draw $[AB]$ first. Then find $C$ with two arcs, so the sides are accurate.",
+     "rows": [
+      {
+       "aside": "Draw $[AB]$ with $|AB| = 8$ cm."
+      },
+      {
+       "aside": "With the compass point on $A$, draw an arc of radius $5$ cm."
+      },
+      {
+       "aside": "With the compass point on $B$, draw an arc of radius $7$ cm. Where the arcs cross is $C$."
+      },
+      {
+       "aside": "Join $A$ to $C$ and $B$ to $C$."
+      }
+     ]
+    },
+    {
+     "say": "The incentre lies on each angle bisector. Bisect the angle at $A$ using Construction 1.",
+     "rows": [
+      {
+       "aside": "With the compass point on $A$, draw an arc that cuts $[AB]$ and $[AC]$."
+      },
+      {
+       "aside": "Keep the same width. Put the point on each cut in turn and draw two arcs that cross inside the angle."
+      },
+      {
+       "aside": "Draw a line from $A$ through the crossing point."
+      }
+     ]
+    },
+    {
+     "say": "Do the same at $B$. The two bisectors meet at one point, the **incentre** $I$.",
+     "rows": [
+      {
+       "aside": "Repeat the construction at $B$."
+      },
+      {
+       "aside": "Label the point where the two bisectors cross $I$."
+      },
+      {
+       "aside": "Two bisectors are enough. Leave all the arcs showing."
+      }
+     ]
+    },
+    {
+     "say": "The circle must touch each side, so its radius is the shortest distance from $I$ to a side. Drop a perpendicular.",
+     "rows": [
+      {
+       "aside": "From $I$, construct the perpendicular to $[AB]$ (Construction 5). Where it meets $[AB]$ is $T$."
+      },
+      {
+       "aside": "With the compass point on $I$ and the pencil on $T$, draw the circle."
+      },
+      {
+       "aside": "It touches all three sides."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Triangle is not to the stated lengths: with |AB| = 8 cm drawn 278 px wide, |AC| = 5 should be about 174 px and |BC| = 7 about 243 px, but AC is about 216 px (6.2 cm) and BC about 285 px (8.2 cm).",
+   "The label I sits on the dashed bisector lines.",
+   "No construction arcs are shown, although the working says to leave all arcs showing."
+  ]
+ },
+ {
+  "skill": "con-21",
+  "title": "Construction 21: Centroid of a triangle",
+  "show": "compass-and-straight-edge construction: triangle A(1,2) B(7,4) C(4,9) on a grid with midpoint D of BC and the median, with arcs left visible",
+  "example": {
+   "question": "The triangle $ABC$ has vertices $A(1, 2)$, $B(7, 4)$ and $C(4, 9)$. Find the midpoint $D$ of $[BC]$, then find the centroid $G$ of the triangle.",
+   "final": "$D = \\left(\\frac{11}{2}, \\frac{13}{2}\\right)$, $G = (4, 5)$",
+   "steps": [
+    {
+     "say": "A median joins a vertex to the midpoint of the opposite side. Average the coordinates of $B$ and $C$ to find $\\hl{1}{D}$.",
+     "rows": [
+      {
+       "l": "D_x",
+       "r": "= \\frac{7 + 4}{2} = \\frac{11}{2}"
+      },
+      {
+       "l": "D_y",
+       "r": "= \\frac{4 + 9}{2} = \\frac{13}{2}"
+      },
+      {
+       "aside": "So $\\hl{1}{D} = \\left(\\frac{11}{2}, \\frac{13}{2}\\right)$. The median is $[AD]$."
+      }
+     ]
+    },
+    {
+     "say": "The centroid $\\hl{2}{G}$ is two thirds of the way from $A$ to $D$. Find the $x$-coordinate first.",
+     "rows": [
+      {
+       "l": "G_x",
+       "r": "= 1 + \\frac{2}{3}\\left(\\frac{11}{2} - 1\\right)"
+      },
+      {
+       "l": "",
+       "r": "= 1 + \\frac{2}{3}\\cdot\\frac{9}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 4"
+      }
+     ]
+    },
+    {
+     "say": "Do the same with the $y$-values.",
+     "rows": [
+      {
+       "l": "G_y",
+       "r": "= 2 + \\frac{2}{3}\\left(\\frac{13}{2} - 2\\right)"
+      },
+      {
+       "l": "",
+       "r": "= 2 + \\frac{2}{3}\\cdot\\frac{9}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "A quick check: the centroid is the average of the three vertices.",
+     "rows": [
+      {
+       "l": "\\left(\\frac{1 + 7 + 4}{3}, \\frac{2 + 4 + 9}{3}\\right)",
+       "r": "= (4, 5)"
+      },
+      {
+       "aside": "Both methods agree. $\\hl{2}{G} = (4, 5)$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Triangle is not drawn to the coordinates: B(7,4) is only 2 units above A(1,2) but is drawn about 12 px higher while C at y=9 is about 189 px above A, so the x and y scales differ and B is too low; C is also too far left (it should be 3 units right of A).",
+   "The label G sits on the dashed median lines and is hard to read.",
+   "D, the midpoint of BC, is not labelled, and the figure has no colours although D and G are coloured in the working."
+  ]
+ },
+ {
+  "skill": "con-22",
+  "title": "Construction 22: Orthocentre of a triangle",
+  "show": "compass-and-straight-edge construction: triangle with its three altitudes meeting at the orthocentre, with arcs left visible",
+  "example": {
+   "question": "Construct the orthocentre of the triangle $ABC$.",
+   "final": "H \\text{ is the orthocentre}",
+   "steps": [
+    {
+     "say": "Put the compass point on $C$. Draw an arc that cuts $[AB]$ at two points. From each of those points, draw an arc below $[AB]$ with the same width. Join $C$ to where the arcs cross.",
+     "rows": [
+      {
+       "aside": "This is Construction 3: a perpendicular to a line through a point not on it."
+      }
+     ]
+    },
+    {
+     "say": "Repeat from $A$ on the side $[BC]$. Extend $[BC]$ if the arcs cannot reach it. Join $A$ to where the arcs cross.",
+     "rows": [
+      {
+       "aside": "Each altitude meets its side at $90^\\circ$."
+      }
+     ]
+    },
+    {
+     "say": "The two altitudes cross at one point. Label it $H$.",
+     "rows": [
+      {
+       "aside": "Two correct altitudes that do not cross earn only part of the marks. Extend them until they meet."
+      }
+     ]
+    },
+    {
+     "say": "Draw the altitude from $B$ to $[AC]$ in the same way. It should pass through $H$.",
+     "rows": [
+      {
+       "aside": "If it misses $H$, one of the arcs was drawn with a changed compass width."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The label H sits on the dashed altitude lines and is partly struck through, so it is hard to read."
+  ]
+ },
+ {
+  "skill": "trig-ratios-right",
+  "title": "Use sin, cos, tan in a right-angled triangle",
+  "show": "right triangle: ladder 6 m hypotenuse, foot 2 m from wall, angle at the ground marked",
+  "example": {
+   "question": "A ladder 6 m long leans against a vertical wall. The foot of the ladder is 2 m from the wall. Find the angle the ladder makes with the ground. Give your answer correct to one decimal place.",
+   "final": "70.5^\\circ",
+   "steps": [
+    {
+     "say": "The angle $A$ is at the foot of the ladder. The ladder is the **hypotenuse**, and the 2 m along the ground is **adjacent** to $A$.",
+     "rows": [
+      {
+       "aside": "Known: adjacent $=2$, hypotenuse $=6$."
+      }
+     ]
+    },
+    {
+     "say": "Adjacent and hypotenuse go together in **cosine**. Write the ratio and put in the numbers.",
+     "rows": [
+      {
+       "l": "\\cos A",
+       "r": "= \\frac{\\text{adjacent}}{\\text{hypotenuse}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{2}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{1}{3}"
+      }
+     ]
+    },
+    {
+     "say": "Use inverse cosine to get the angle from its cosine. Make sure the calculator is in degree mode.",
+     "rows": [
+      {
+       "l": "A",
+       "r": "= \\cos^{-1}\\left(\\frac{1}{3}\\right)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{70.5^\\circ}"
+      },
+      {
+       "aside": "Check: $70.5^\\circ$ is between $0^\\circ$ and $90^\\circ$, as it must be."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Triangle is not in proportion: the 2 m base is drawn about three-quarters as long as the 6 m ladder and the angle A looks about 42 degrees, but it should be 70.5 degrees (base one third of the hypotenuse, a steep ladder)."
+  ]
+ }
+]

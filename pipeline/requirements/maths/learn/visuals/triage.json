@@ -1,0 +1,1807 @@
+{
+ "alg-factor-quadratic": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "geo-thm19": {
+  "need": true,
+  "show": "circle with centre O, points A,B,C on the circle; angle AOB at the centre and angle ACB at the circle on the same arc AB",
+  "keep": null
+ },
+ "con-4": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: line l with point P on it, arcs and the perpendicular through P, with arcs left visible",
+  "keep": null
+ },
+ "induction-sum": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-sd": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cubic-factor-theorem": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cubic-find-root": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cubic-form-from-roots": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cubic-unknown-coefficient": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cubic-solve": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-collect-like": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-evaluate": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-expand-single": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-factor-hcf": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-factor-dots": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-expand-binomials": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-add-subtract": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-factor-grouping": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-rearrange": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-binomial-expand": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-binomial-term": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-poly-multiply": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-factor-cubes": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-surd-expressions": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-fractions-add": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-poly-divide": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-equate-coefficients": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "alg-fractions-simplify": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "ineq-linear": {
+  "need": true,
+  "show": "number line with a closed dot at -2 and everything to the left shaded (x≤-2)",
+  "keep": null
+ },
+ "ineq-double": {
+  "need": true,
+  "show": "number line with closed dot at -4 and open dot at 3 and the segment between shaded",
+  "keep": null
+ },
+ "ineq-quadratic": {
+  "need": true,
+  "show": "upward parabola y=2x²-5x-12 crossing the x-axis at x=-1.5 and 4, with the part on or below the axis shaded and the interval -1.5≤x≤4 marked on a number line",
+  "keep": false
+ },
+ "ineq-modulus": {
+  "need": true,
+  "show": "number line showing x≤-1 and x≥4 shaded with closed dots",
+  "keep": null
+ },
+ "ineq-rational": {
+  "need": true,
+  "show": "number line with open dot at 1 and closed dot at 5 with the segment between shaded (1<x≤5)",
+  "keep": null
+ },
+ "ineq-prove": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "quad-form-from-roots": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "quad-solve-factor": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "quad-solve-formula": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "quad-discriminant": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "quad-complete-square": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "quad-complete-square-use": {
+  "need": true,
+  "show": "parabola y=3(x-1)²-12 with the turning point (1,-12) marked and the x-intercepts x=-1 and x=3 and the y-intercept labelled",
+  "keep": false
+ },
+ "sim-linear-2": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "sim-word-problem": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "sim-linear-quadratic": {
+  "need": true,
+  "show": "line y=x-2 cutting the circle x²+y²=34 at (5,3) and (-3,-5)",
+  "keep": null
+ },
+ "sim-linear-3": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "sim-linear-quadratic-hl": {
+  "need": true,
+  "show": "line y=3-2x meeting the ellipse x²+xy+y²=3 at its two intersection points",
+  "keep": null
+ },
+ "eq-linear": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "eq-linear-fractions": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "eq-surd": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "eq-rational": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "eq-word-problem": {
+  "need": true,
+  "show": "rectangle labelled width x and length x+5 with area 84 m²",
+  "keep": null
+ },
+ "eq-rational-hl": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "mens-perimeter-area": {
+  "need": true,
+  "show": "rectangle 10 m by 6 m with a semicircle of diameter 6 m attached on a 6 m side",
+  "keep": null
+ },
+ "mens-nets": {
+  "need": true,
+  "show": "net of the cylinder radius 4 cm height 9 cm: 8π by 9 rectangle with two discs of radius 4 attached",
+  "keep": null
+ },
+ "mens-volume": {
+  "need": true,
+  "show": "solid cone with base radius 6 cm, vertical height 8 cm and slant 10 cm marked",
+  "keep": null
+ },
+ "mens-arc-sector": {
+  "need": true,
+  "show": "sector of radius 9 cm and angle 80° with the arc marked",
+  "keep": null
+ },
+ "mens-surface-area": {
+  "need": true,
+  "show": "cone radius 5 cm, vertical height 12 cm and slant height 13 cm marked",
+  "keep": null
+ },
+ "mens-trapezoidal": {
+  "need": true,
+  "show": "16 m by varying width field plotted as 5 width lines 4 m apart (6,9,11,8,5) forming trapezium strips",
+  "keep": null
+ },
+ "mens-composite": {
+  "need": true,
+  "show": "cylinder radius 3 cm height 7 cm with a hemisphere of radius 3 cm on top",
+  "keep": null
+ },
+ "mens-equate-volumes": {
+  "need": true,
+  "show": "sphere of radius 6 cm beside a cylinder of radius 4 cm and unknown height h",
+  "keep": null
+ },
+ "circ-point-position": {
+  "need": true,
+  "show": "circle (x-2)²+(y+1)²=25 centre (2,-1) radius 5 with point (6,3) and its distance from centre drawn against the radius",
+  "keep": null
+ },
+ "circ-eq-origin": {
+  "need": true,
+  "show": "circle centred at the origin through (2,5) with the radius drawn from O to the point",
+  "keep": null
+ },
+ "circ-eq-centre-radius": {
+  "need": true,
+  "show": "circle with centre (-2,3) passing through (1,7) with radius segment 5 drawn",
+  "keep": null
+ },
+ "circ-line-origin": {
+  "need": true,
+  "show": "circle x²+y²=13 and line y=x-1 meeting at (3,2) and (-2,-3)",
+  "keep": null
+ },
+ "circ-chord-length": {
+  "need": true,
+  "show": "circle (x-1)²+(y-2)²=34, line 3x-4y+20=0 cutting chord AB, perpendicular from centre to the chord forming a right triangle with the radius",
+  "keep": null
+ },
+ "circ-tangent-at-point": {
+  "need": true,
+  "show": "circle centre (1,-2) through P(3,-6) with the radius CP and the tangent at P perpendicular to it",
+  "keep": null
+ },
+ "circ-general-form": {
+  "need": true,
+  "show": "circle x²+y²-6x+2y-6=0 with centre (3,-1) and radius 4 marked",
+  "keep": null
+ },
+ "circ-tangent-length": {
+  "need": true,
+  "show": "circle centre (-1,2) radius 3 with external point P(3,5), the radius to the tangent point and the tangent segment forming a right triangle",
+  "keep": null
+ },
+ "circ-tangent-test": {
+  "need": true,
+  "show": "circle centre (2,-1) radius 5 with line 3x+4y-27=0 touching it and the perpendicular from centre equal to the radius",
+  "keep": null
+ },
+ "circ-line-general": {
+  "need": true,
+  "show": "circle centre (1,2) with line y=x+1 cutting it at two points",
+  "keep": null
+ },
+ "circ-touching": {
+  "need": true,
+  "show": "two circles touching, centres and radii marked, with distance between centres equal to sum or difference of radii",
+  "keep": null
+ },
+ "circ-common-chord": {
+  "need": true,
+  "show": "two intersecting circles with the common chord (a straight line through the two intersection points)",
+  "keep": null
+ },
+ "circ-tangents-from-point": {
+  "need": true,
+  "show": "circle x²+y²=10 with the point (0,10) and the two tangents drawn from it",
+  "keep": null
+ },
+ "circ-from-conditions": {
+  "need": true,
+  "show": "circle through (1,1), (5,1), (1,-3), the three points forming a right triangle inscribed with centre at (3,-1) midpoint of hypotenuse",
+  "keep": null
+ },
+ "line-midpoint": {
+  "need": true,
+  "show": "A(-4,3) and B(8,-7) with the line segment and midpoint M(2,-2)",
+  "keep": null
+ },
+ "line-slope": {
+  "need": true,
+  "show": "P(-2,1), Q(4,10) with the line and a right triangle showing rise 9 and run 6",
+  "keep": null
+ },
+ "line-point-on": {
+  "need": true,
+  "show": "line 3x-2y-12=0 with (6,3) on it and the axis intercepts (4,0) and (0,-6)",
+  "keep": null
+ },
+ "line-distance": {
+  "need": true,
+  "show": "A(-2,3) and B(4,11) with right triangle legs 6 and 8 and hypotenuse AB",
+  "keep": null
+ },
+ "line-equation": {
+  "need": true,
+  "show": "A(-2,1) and B(4,5) on a line with slope triangle and the y-intercept",
+  "keep": null
+ },
+ "line-collinear": {
+  "need": true,
+  "show": "points A(1,-1), B(3,2), C(7,8) on one straight line with equal slopes AB and BC marked",
+  "keep": null
+ },
+ "line-intersection": {
+  "need": true,
+  "show": "lines x+2y=7 and 3x-2y=5 meeting at (3,2)",
+  "keep": null
+ },
+ "line-parallel-perp": {
+  "need": true,
+  "show": "line 2x+3y-6=0 and the perpendicular line through P(4,1) with right-angle mark",
+  "keep": null
+ },
+ "line-linear-model": {
+  "need": true,
+  "show": "straight line C=40+25x style cost graph with the y-intercept (call-out fee) and the slope (hourly rate) marked",
+  "keep": false
+ },
+ "line-area-triangle": {
+  "need": true,
+  "show": "triangle A(3,2), B(7,5), C(5,9) on a grid, maybe with enclosing rectangle",
+  "keep": null
+ },
+ "line-unknown-coefficient": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "line-divide-ratio": {
+  "need": true,
+  "show": "A(-3,4) and B(7,-1) with P dividing AB in ratio 2:3 marked on the segment",
+  "keep": null
+ },
+ "line-perp-distance": {
+  "need": true,
+  "show": "point P(1,-2) and line y=3x/4+2 with the perpendicular from P to the line marked with right angle",
+  "keep": null
+ },
+ "line-angle-between": {
+  "need": true,
+  "show": "two lines 2x-y+1=0 and x+3y-6=0 crossing with the acute angle between them marked",
+  "keep": null
+ },
+ "line-from-distance": {
+  "need": true,
+  "show": "point and two lines through the origin each at perpendicular distance 3 from the point",
+  "keep": null
+ },
+ "num-order-operations": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "num-fractions": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "num-decimal-fraction": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "num-sets": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "num-prime-factors": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-conjugate": {
+  "need": true,
+  "show": "z=4-3i and its conjugate 4+3i reflected in the real axis on an Argand diagram",
+  "keep": null
+ },
+ "cx-powers-i": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-argand": {
+  "need": true,
+  "show": "Argand diagram with z=-2+3i, w=4-i and z+w=2+2i plotted, parallelogram completed",
+  "keep": null
+ },
+ "cx-arithmetic": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-modulus": {
+  "need": true,
+  "show": "z1=2-3i and z2=5+i on an Argand diagram with |z1-z2| as the distance between them",
+  "keep": null
+ },
+ "num-ratio-proportion": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "num-surds": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "num-sci-notation": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-divide": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-equate-parts": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-transformations": {
+  "need": true,
+  "show": "Argand diagram with z=4+2i and iz=-2+4i showing the 90° anticlockwise rotation about the origin",
+  "keep": null
+ },
+ "cx-conjugate-properties": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-quadratic": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-polar": {
+  "need": true,
+  "show": "Argand diagram with z=-2+2i, modulus 2√2 and argument 3π/4 marked from the positive real axis",
+  "keep": null
+ },
+ "cx-polar-multiply": {
+  "need": true,
+  "show": "Argand diagram with z (modulus 4, angle 2π/3), w (modulus 2, angle π/6) and zw (modulus 8, angle 5π/6)",
+  "keep": null
+ },
+ "cx-de-moivre-power": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-conjugate-root": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-de-moivre-roots": {
+  "need": true,
+  "show": "four roots of z⁴=-16 equally spaced on a circle of radius 2 at 45°,135°,225°,315°",
+  "keep": null
+ },
+ "cx-de-moivre-identity": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "cx-de-moivre-prove": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-slope-tangent": {
+  "need": true,
+  "show": "curve y=x³-3x+1 with the point at x=2 and the tangent line there drawn with its slope labelled",
+  "keep": false
+ },
+ "diff-point-given-slope": {
+  "need": true,
+  "show": "curve y=x³-6x²+5 with the two points where the tangent is parallel to y=-9x+4 and those tangents drawn",
+  "keep": null
+ },
+ "diff-increasing": {
+  "need": true,
+  "show": "parabola y=x²-6x+5 with a tangent at x=1 sloping downward, vertex at x=3 marked",
+  "keep": false
+ },
+ "diff-increasing-interval": {
+  "need": true,
+  "show": "curve y=x³+3x²+5x-4 rising everywhere, with f'(x)=3x²+6x+5 drawn below staying above the x-axis",
+  "keep": false
+ },
+ "diff-stationary": {
+  "need": true,
+  "show": "curve y=x³-12x+5 with the local max at x=-2 and local min at x=2 marked and horizontal tangents there",
+  "keep": false
+ },
+ "diff-inflection": {
+  "need": true,
+  "show": "cubic y=x³-9x²+5x-2 with the inflection point at x=3 marked where it changes from concave down to concave up",
+  "keep": false
+ },
+ "diff-rates-of-change": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-tangent-circle": {
+  "need": true,
+  "show": "circle x²+y²=169 with the radius to (5,12) and the tangent perpendicular to it",
+  "keep": null
+ },
+ "diff-curve-sketch": {
+  "need": true,
+  "show": "curve y=x³-6x²+9x through (0,0) and touching the x-axis at (3,0), local max (1,4) and local min (3,0) marked",
+  "keep": false
+ },
+ "diff-sketch-derivative": {
+  "need": true,
+  "show": "parabola f(x)=-x²+4x-1 with max at x=2, and f'(x) straight line below crossing zero at x=2",
+  "keep": null
+ },
+ "diff-related-rates": {
+  "need": true,
+  "show": "sphere with radius r growing as air is pumped in",
+  "keep": null
+ },
+ "diff-optimisation": {
+  "need": true,
+  "show": "rectangular pen against a wall with two sides of width x and a side of 60-2x",
+  "keep": null
+ },
+ "diff-apply-hl": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-poly": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-second": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-rational-power": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-exponential": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-trig": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-product": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-chain": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-log": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-inverse-trig": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-first-principles": {
+  "need": true,
+  "show": "curve with a chord between x and x+h and the tangent as h shrinks",
+  "keep": null
+ },
+ "diff-quotient": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-combined": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "diff-show-identity": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-percentages": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-units": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-estimate": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-profit-margin": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-compound-interest": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-depreciation": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-rate-conversion": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-income-tax": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-costing": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-error": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-average-rate": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-present-value": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-solve-rate-time": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-annuity-fv": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-annuity-pv": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-mortgage": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-mortgage-derive": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fin-amortisation": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fn-definition": {
+  "need": true,
+  "show": "arrow diagram from domain {1,2,3,4} to codomain N showing each input mapped to one output",
+  "keep": null
+ },
+ "fn-evaluate": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fn-graph-linear": {
+  "need": true,
+  "show": "a plain graph of the curve",
+  "keep": true
+ },
+ "fn-limit-concept": {
+  "need": true,
+  "show": "graph of (x²-9)/(x-3), the line y=x+3 with an open circle (hole) at (3,6)",
+  "keep": null
+ },
+ "fn-graph-quadratic": {
+  "need": true,
+  "show": "a plain graph of the curve",
+  "keep": true
+ },
+ "fn-graph-cubic": {
+  "need": true,
+  "show": "a plain graph of the curve",
+  "keep": true
+ },
+ "fn-graph-exponential": {
+  "need": true,
+  "show": "a plain graph of the curve",
+  "keep": true
+ },
+ "fn-composite": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fn-solve-graphically": {
+  "need": true,
+  "show": "parabola y=x²-2x-8 for -4≤x≤6 with the roots on the x-axis and the horizontal line drawn for the value asked highlighted",
+  "keep": false
+ },
+ "fn-compare-graphs": {
+  "need": true,
+  "show": "parabola y=x² and line y=2x+3 meeting at x=-1 and x=3, with the region where the parabola is below the line marked",
+  "keep": false
+ },
+ "fn-injective-surjective": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fn-transformations": {
+  "need": true,
+  "show": "parabola y=x²-3x and its image moved 2 right and 4 up with arrows showing the shift",
+  "keep": null
+ },
+ "fn-inverse": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "fn-inverse-sketch": {
+  "need": true,
+  "show": "curve y=2^x, its reflection y=log2 x, and the mirror line y=x, with a pair of corresponding points swapped",
+  "keep": false
+ },
+ "fn-graph-log": {
+  "need": true,
+  "show": "a plain graph of the curve",
+  "keep": true
+ },
+ "fn-limits-continuity": {
+  "need": true,
+  "show": "graph of (x²-3x-10)/(x-5)=x+2 with an open circle at (5,7)",
+  "keep": null
+ },
+ "fn-exp-model": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "geo-thm1": {
+  "need": true,
+  "show": "two crossing straight lines with the vertically opposite angles (3x+10)° and (5x-30)° marked",
+  "keep": null
+ },
+ "geo-thm4": {
+  "need": true,
+  "show": "triangle with angles (2x+10)°, (3x-20)° and 70° labelled",
+  "keep": null
+ },
+ "geo-thm3": {
+  "need": true,
+  "show": "two parallel lines l and m cut by a transversal with the alternate angles marked",
+  "keep": null
+ },
+ "geo-thm5": {
+  "need": true,
+  "show": "two parallel lines cut by a transversal with the corresponding angles (4x+10)° marked",
+  "keep": null
+ },
+ "geo-thm2": {
+  "need": true,
+  "show": "isosceles triangle ABC with |AB|=|AC| and the equal base angles marked",
+  "keep": null
+ },
+ "geo-thm6": {
+  "need": true,
+  "show": "triangle ABC with BC extended to D and the exterior angle with the two opposite interior angles marked",
+  "keep": null
+ },
+ "geo-transformations": {
+  "need": true,
+  "show": "co-ordinate grid with A(3,5), A'(7,2), B(-1,4) and its image and the translation arrow (4,-3)",
+  "keep": null
+ },
+ "geo-thm7": {
+  "need": true,
+  "show": "triangle ABC with angles (x+30)°, (2x-10)°, (3x-20)° labelled",
+  "keep": null
+ },
+ "geo-thm8": {
+  "need": true,
+  "show": "triangle with sides 6 cm, 9 cm and x cm showing the triangle inequality",
+  "keep": null
+ },
+ "geo-thm14": {
+  "need": true,
+  "show": "right triangle: ladder 7.4 m as hypotenuse, foot 2.1 m from the wall, wall height h",
+  "keep": null
+ },
+ "geo-thm15": {
+  "need": true,
+  "show": "triangle with sides 20, 99, 101 cm with the right angle marked",
+  "keep": null
+ },
+ "geo-cor3": {
+  "need": true,
+  "show": "circle with diameter AB, C on circle, the right angle at C and angle CAB=38°",
+  "keep": null
+ },
+ "geo-congruence": {
+  "need": true,
+  "show": "kite ABCD with |AB|=|AD|=5, |BC|=|DC|=7 and diagonal AC drawn splitting into two triangles with tick marks",
+  "keep": null
+ },
+ "geo-enlargement": {
+  "need": true,
+  "show": "triangle ABC and its enlargement PQR from centre O with rays through corresponding points, |OB|=5, |OQ|=12",
+  "keep": null
+ },
+ "geo-thm9": {
+  "need": true,
+  "show": "parallelogram ABCD with opposite angles (2x+15)° and (4x-35)° marked",
+  "keep": null
+ },
+ "geo-thm10": {
+  "need": true,
+  "show": "parallelogram ABCD with diagonals meeting at E, |AE|=3x+2 and |EC|=5x-4 marked",
+  "keep": null
+ },
+ "geo-cor4": {
+  "need": true,
+  "show": "circle with diameter AB, point C on circle, angle CAB=(2x+5)° and right angle at C",
+  "keep": null
+ },
+ "geo-thm17": {
+  "need": true,
+  "show": "parallelogram PQRS with diagonal PR dividing it into two triangles, with area 420 m²",
+  "keep": null
+ },
+ "geo-thm18": {
+  "need": true,
+  "show": "parallelogram ABCD with base 12 cm and perpendicular height 6 cm marked",
+  "keep": null
+ },
+ "geo-thm16": {
+  "need": true,
+  "show": "parallelogram PQRS area 360 m² with T the midpoint of QR and triangle shaded",
+  "keep": null
+ },
+ "geo-thm20": {
+  "need": true,
+  "show": "circle centre O radius 5 cm, tangent PT at T perpendicular to radius OT, |OP|=13 cm",
+  "keep": null
+ },
+ "geo-cor1": {
+  "need": true,
+  "show": "parallelogram ABCD with opposite angles (4x+10)° and (6x-20)° marked",
+  "keep": null
+ },
+ "geo-thm11": {
+  "need": true,
+  "show": "three parallel lines AD, BE, CF cutting two transversals with AB=BC and corresponding segments marked equal",
+  "keep": null
+ },
+ "geo-thm13": {
+  "need": true,
+  "show": "two equiangular triangles ABC and DEF with sides 6, 9 and 8 cm matching",
+  "keep": null
+ },
+ "geo-thm21": {
+  "need": true,
+  "show": "circle centre O, chord AB=24 cm, perpendicular OM to the chord bisecting it, right triangle OMA",
+  "keep": null
+ },
+ "geo-similar-triangles": {
+  "need": true,
+  "show": "two similar triangles ABC and PQR with matching sides AB=8, PQ=14, AC=12 marked",
+  "keep": null
+ },
+ "geo-thm12": {
+  "need": true,
+  "show": "triangle ABC with DE parallel to BC, D on AB, E on AC, |AD|=4, |DB|=6",
+  "keep": null
+ },
+ "geo-enlargement-centre": {
+  "need": true,
+  "show": "triangle ABC and its image PQR with lines through corresponding vertices meeting at the centre of enlargement",
+  "keep": null
+ },
+ "geo-cor6": {
+  "need": true,
+  "show": "two circles touching externally at T with centres A and B and the line AB passing through T, radii marked",
+  "keep": null
+ },
+ "geo-cor5": {
+  "need": true,
+  "show": "cyclic quadrilateral ABCD with opposite angles A and C marked",
+  "keep": null
+ },
+ "geo-cor2": {
+  "need": true,
+  "show": "circle with chord AB and points C and D on the same arc, angles ACB and ADB equal",
+  "keep": null
+ },
+ "geo-prove-thm11": {
+  "need": true,
+  "show": "three parallel lines cutting transversal AC with AB=BC, and a second transversal with the construction line parallel to AC for the proof",
+  "keep": null
+ },
+ "geo-prove-thm12": {
+  "need": true,
+  "show": "triangle ABC with XY parallel to BC cutting AB and AC, with the construction lines for the proof",
+  "keep": null
+ },
+ "geo-prove-thm13": {
+  "need": true,
+  "show": "two equiangular triangles ABC and DEF with matching angles marked, one placed on the other for the proof",
+  "keep": null
+ },
+ "geo-cuts": {
+  "need": true,
+  "show": "triangle ABC with D on AB and E on AC where angle ADE=angle ABC, similar triangles ADE and ABC marked",
+  "keep": null
+ },
+ "con-8": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: ray from A with arc cutting off B at 5 cm, with arcs left visible",
+  "keep": null
+ },
+ "con-1": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: angle BAC with arcs and the bisector, with arcs left visible",
+  "keep": null
+ },
+ "con-9": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: ray AB with a 50° angle drawn by protractor, with arcs left visible",
+  "keep": null
+ },
+ "con-15": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: 6 cm by 4 cm rectangle ABCD, with arcs left visible",
+  "keep": null
+ },
+ "con-2": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: segment AB 8 cm with the arcs and the perpendicular bisector, with arcs left visible",
+  "keep": null
+ },
+ "con-10": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: triangle with sides 7, 6, 4 cm built by arcs, with arcs left visible",
+  "keep": null
+ },
+ "con-11": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: triangle with AB 6, BC 8 and angle B 70°, with arcs left visible",
+  "keep": null
+ },
+ "con-12": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: triangle with BC 8 cm and angles 40° and 65°, with arcs left visible",
+  "keep": null
+ },
+ "con-3": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: line l, external point P, arcs and the perpendicular through P, with arcs left visible",
+  "keep": null
+ },
+ "con-5": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: line l, external point P, parallel line through P, with arcs left visible",
+  "keep": null
+ },
+ "con-13": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: right triangle with AB 4 cm and hypotenuse AC 7 cm, with arcs left visible",
+  "keep": null
+ },
+ "con-14": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: right triangle with AB 5 cm and angle A 50°, with arcs left visible",
+  "keep": null
+ },
+ "con-6": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: segment AB divided into three equal parts using a ray with equal steps, with arcs left visible",
+  "keep": null
+ },
+ "con-18": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: 60° angle at A from an equilateral-triangle arc, with arcs left visible",
+  "keep": null
+ },
+ "con-20": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: parallelogram with AB 6, AD 4 and angle 70°, with arcs left visible",
+  "keep": null
+ },
+ "con-16": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: triangle with its three perpendicular bisectors meeting at the circumcentre and the circumcircle, with arcs left visible",
+  "keep": null
+ },
+ "con-17": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: triangle with angle bisectors meeting at the incentre and the incircle touching the sides, with arcs left visible",
+  "keep": null
+ },
+ "con-19": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: circle centre O with P on it, the radius OP and the tangent perpendicular at P, with arcs left visible",
+  "keep": null
+ },
+ "con-21": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: triangle A(1,2) B(7,4) C(4,9) on a grid with midpoint D of BC and the median, with arcs left visible",
+  "keep": null
+ },
+ "logic-terms": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "con-7": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: segment AB divided into three equal parts using a ray with equal steps, with arcs left visible",
+  "keep": null
+ },
+ "con-22": {
+  "need": true,
+  "show": "compass-and-straight-edge construction: triangle with its three altitudes meeting at the orthocentre, with arcs left visible",
+  "keep": null
+ },
+ "num-construct-root2-3": {
+  "need": true,
+  "show": "right triangle with legs 1 and √2 giving hypotenuse √3, built on a unit segment",
+  "keep": null
+ },
+ "logic-terms-hl": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "ind-laws": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "ind-negative-fractional": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "ind-express-as-power": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "ind-solve-equation": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "log-definition": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "log-laws": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "log-change-base": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "log-solve": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "log-solve-exponential": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "ind-hidden-quadratic": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "induction-geo-sum": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "induction-divisibility": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "induction-inequality": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "proof-root2-irrational": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "int-reverse": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "int-power": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "int-reciprocal": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "int-exponential": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "int-trig": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "int-find-function": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "int-definite": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "int-average-value": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "int-area-axis": {
+  "need": true,
+  "show": "parabola y=x²-5x+4 with the area between it and the x-axis from x=1 to x=4 shaded below the axis",
+  "keep": false
+ },
+ "int-trig-identity": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "int-area-between": {
+  "need": true,
+  "show": "parabola y=4x-x² and line y=x crossing at x=0 and x=3 with the enclosed region shaded",
+  "keep": false
+ },
+ "prob-relative-frequency": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-counting-principle": {
+  "need": true,
+  "show": "tree or list showing soup choices branching into sandwiches then drinks",
+  "keep": null
+ },
+ "prob-sample-space": {
+  "need": true,
+  "show": "table/grid of outcomes: H and T against spinner 1 to 4",
+  "keep": null
+ },
+ "prob-equally-likely": {
+  "need": true,
+  "show": "6 by 6 grid of two-dice sums with the sums of 9 or more highlighted",
+  "keep": null
+ },
+ "prob-factorial": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-venn": {
+  "need": true,
+  "show": "Venn diagram of 40 students: drama only 12, both 6, choir only 8, neither 14",
+  "keep": null
+ },
+ "prob-independent": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-npr": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-addition-rule": {
+  "need": true,
+  "show": "Venn diagram of A and B with the regions filled in from P(A), P(B), P(A∪B)",
+  "keep": null
+ },
+ "prob-tree": {
+  "need": true,
+  "show": "probability tree for two kicks, each branch scores 7/10 or misses 3/10",
+  "keep": null
+ },
+ "prob-ncr": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-independence-test": {
+  "need": true,
+  "show": "Venn diagram of A and B with P(A)=0.5, P(A∩B)=0.1, P(A∪B)=0.7 filled in",
+  "keep": null
+ },
+ "prob-expected-value": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-arrangement-restrictions": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-bernoulli-3": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-first-success": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-conditional": {
+  "need": true,
+  "show": "Venn diagram or tree with bike 60%, bike and car 24%",
+  "keep": null
+ },
+ "prob-selection-restrictions": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-binomial": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "prob-without-replacement": {
+  "need": true,
+  "show": "probability tree for three draws without replacement from 7 red and 5 blue, with changing denominators",
+  "keep": null
+ },
+ "prob-kth-success": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-pattern": {
+  "need": true,
+  "show": "the first three tile patterns with 6, 10, 14 tiles drawn, each growing by 4",
+  "keep": null
+ },
+ "seq-classify": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-arith-nth": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-arith-sum": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-arith-find-ad": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-quadratic": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-sigma": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-geo-nth": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-geo-sum": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-limits": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-verify-formula": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-geo-sum-infinity": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-geo-unknown-n": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-recurring-decimal": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-convergence-range": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "seq-derive-sum-infinity": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-data-types": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-populations-samples": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-averages": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-charts": {
+  "need": true,
+  "show": "pie chart with angles for Bus 144°, Car 108°, Walk 72°, Cycle 36° and a matching bar chart",
+  "keep": null
+ },
+ "stat-srs-bias": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-study-types": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-quartiles-iqr": {
+  "need": true,
+  "show": "box plot of 4,7,8,11,13,15,18,20 with Q1, median, Q3 marked and IQR bracket",
+  "keep": null
+ },
+ "stat-scatter-correlation": {
+  "need": true,
+  "show": "scatter plot of the five (x,y) points showing the trend direction",
+  "keep": null
+ },
+ "stat-outliers": {
+  "need": true,
+  "show": "box plot with fences at Q1-1.5IQR and Q3+1.5IQR and the outlier point marked beyond",
+  "keep": null
+ },
+ "stat-grouped-mean": {
+  "need": true,
+  "show": "histogram of minutes spent on homework with classes 0-10 to 30-40",
+  "keep": null
+ },
+ "stat-choose-display": {
+  "need": true,
+  "show": "dot plot of 5,6,6,7,8,40 showing the outlier pulling the mean",
+  "keep": null
+ },
+ "stat-distribution-shape": {
+  "need": true,
+  "show": "histogram or dot plot of 1,2,2,3,3,4,5,24 showing a skewed distribution with a long right tail",
+  "keep": null
+ },
+ "stat-back-to-back": {
+  "need": true,
+  "show": "back-to-back stem-and-leaf plot of Week 1 and Week 2 puzzle times",
+  "keep": null
+ },
+ "stat-plan-collect": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-percentiles": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-sampling-methods-hl": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-correlation-calc": {
+  "need": true,
+  "show": "scatter plot of (1,3),(2,5),(3,4),(4,7),(5,9) showing positive correlation",
+  "keep": null
+ },
+ "stat-line-best-fit": {
+  "need": true,
+  "show": "scatter plot of the eight (hours, mark) points with the line of best fit drawn",
+  "keep": null
+ },
+ "stat-outlier-effect": {
+  "need": true,
+  "show": "dot plot of 12,14,15,17,18,19,45 with 45 far from the rest",
+  "keep": null
+ },
+ "stat-compare-hl": {
+  "need": true,
+  "show": "two box plots for Class A and Class B on one scale",
+  "keep": null
+ },
+ "inf-sampling-variability": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "inf-margin-of-error": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "inf-histogram": {
+  "need": true,
+  "show": "histogram of homework times with the class widths and frequency heights",
+  "keep": null
+ },
+ "inf-interpret": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "inf-hypothesis-concept": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "inf-hypothesis-moe": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "inf-sampling-distribution": {
+  "need": true,
+  "show": "normal curve for the sample mean, narrower than for single bags, centred at 500",
+  "keep": null
+ },
+ "inf-ci-proportion": {
+  "need": true,
+  "show": "number line with the sample proportion and the 95% confidence interval either side",
+  "keep": null
+ },
+ "inf-ci-mean": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "inf-z-test": {
+  "need": true,
+  "show": "normal curve for the null mean with the rejection region tails shaded and the sample mean marked",
+  "keep": null
+ },
+ "inf-p-value": {
+  "need": true,
+  "show": "normal curve centred on 500 with the sample mean marked and the tail area shaded",
+  "keep": null
+ },
+ "inf-confidence-width": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "stat-z-score": {
+  "need": true,
+  "show": "normal curve mean 58 sd 12 with the shaded area for the asked mark",
+  "keep": null
+ },
+ "stat-empirical-rule": {
+  "need": true,
+  "show": "normal curve mean 60 sd 5 with 1, 2 and 3 sd bands marked 68%, 95%, 99.7%",
+  "keep": null
+ },
+ "stat-normal-prob": {
+  "need": true,
+  "show": "normal curve mean 500 sd 8 with the required area shaded",
+  "keep": null
+ },
+ "stat-normal-inverse": {
+  "need": true,
+  "show": "normal curve mean 58 sd 9 with the top 20% tail shaded and the cut-off marked",
+  "keep": null
+ },
+ "trig-radians": {
+  "need": true,
+  "show": "sector radius 6 cm angle 150°=5π/6 with the arc marked",
+  "keep": null
+ },
+ "trig-unit-circle": {
+  "need": true,
+  "show": "unit circle with the 210° angle in the third quadrant, reference angle 30° and the cosine as the x-coordinate",
+  "keep": null
+ },
+ "trig-pythag-identity": {
+  "need": true,
+  "show": "right triangle 8,15,17 placed in the second quadrant with the angle A marked",
+  "keep": null
+ },
+ "trig-exact-values": {
+  "need": true,
+  "show": "unit circle with 135° and 150° marked and their reference angles",
+  "keep": null
+ },
+ "trig-solve-basic": {
+  "need": true,
+  "show": "sine curve over 0 to 360° with the line y=-1/2 and the two intersections at 210° and 330°",
+  "keep": null
+ },
+ "trig-graph": {
+  "need": true,
+  "show": "cosine curve y=3cos x+1 over 0 to 2π with max 4, min -2, midline y=1 and period 2π marked",
+  "keep": false
+ },
+ "trig-derive-1": {
+  "need": true,
+  "show": "unit circle with point P at angle A and the right triangle with legs cos A and sin A",
+  "keep": null
+ },
+ "trig-compound": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "trig-solve-general": {
+  "need": true,
+  "show": "sine curve of sin2x over 0 to 2π with the line y=-1/2 and its four intersections",
+  "keep": null
+ },
+ "trig-graph-abc": {
+  "need": true,
+  "show": "cosine curve h(t)=8+3cos(πt/6) with midline y=8, max 11, min 5 and period 12 marked",
+  "keep": false
+ },
+ "trig-derive-2": {
+  "need": true,
+  "show": "triangle ABC with sides a,b,c, height h from B to AC and the area expressions marked",
+  "keep": null
+ },
+ "trig-solve-quadratic": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "trig-products-sums": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "trig-double": {
+  "need": true,
+  "show": "right triangle with opposite 5, hypotenuse 13, adjacent 12 and angle A",
+  "keep": null
+ },
+ "trig-derive-3": {
+  "need": true,
+  "show": "triangle with C at the origin, A at (b,0) and B at (a cos C, a sin C), with side c from A to B",
+  "keep": null
+ },
+ "trig-prove-identity": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "trig-derive-4": {
+  "need": true,
+  "show": "unit circle with P(cos A, sin A), Q(cos B, sin B) and the angle POQ=A-B",
+  "keep": null
+ },
+ "trig-derive-5": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "trig-derive-7": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "trig-derive-6": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "trig-derive-9": {
+  "need": false,
+  "show": null,
+  "keep": null
+ },
+ "trig-ratios-right": {
+  "need": true,
+  "show": "right triangle: ladder 6 m hypotenuse, foot 2 m from wall, angle at the ground marked",
+  "keep": null
+ },
+ "trig-pythagoras": {
+  "need": true,
+  "show": "right triangle: ladder 7 m hypotenuse, base 2 m, wall height h",
+  "keep": null
+ },
+ "trig-elevation": {
+  "need": true,
+  "show": "right triangle: tree height, 45 m horizontal distance and the angle of elevation at the observer",
+  "keep": null
+ },
+ "trig-area-triangle": {
+  "need": true,
+  "show": "triangle ABC with sides 9 cm and 12 cm and the included angle 40° at A",
+  "keep": null
+ },
+ "trig-sine-rule": {
+  "need": true,
+  "show": "triangle PQR with angles 48° and 65°, side QR 14 cm opposite P and PR unknown opposite Q",
+  "keep": null
+ },
+ "trig-cosine-rule": {
+  "need": true,
+  "show": "triangle ABC with sides 9 and 12 cm and the included 40° angle, BC unknown opposite it",
+  "keep": null
+ },
+ "trig-triangle-problems": {
+  "need": true,
+  "show": "quadrilateral field ABCD with diagonal AC, triangle ABC with 7 m, 9 m and the included angle",
+  "keep": null
+ },
+ "trig-sine-ambiguous": {
+  "need": true,
+  "show": "angle A with BC=10 cm swinging to meet the base at two points giving two triangles",
+  "keep": null
+ },
+ "trig-3d": {
+  "need": true,
+  "show": "cuboid 12 by 5 by 6 cm with the space diagonal and the base diagonal marked, and the angle between them",
+  "keep": null
+ }
+}

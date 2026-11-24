@@ -1,0 +1,224 @@
+[
+ {
+  "skill": "geo-thm19",
+  "title": "Apply Theorem 19: Angle at the centre is twice the angle at the circle",
+  "show": "circle with centre O, points A,B,C on the circle; angle AOB at the centre and angle ACB at the circle on the same arc AB",
+  "example": {
+   "question": "$A$, $B$ and $C$ are points on a circle with centre $O$. The angle at the centre is $|\\angle AOB| = (6x - 10)^\\circ$ and the angle at the circle is $|\\angle ACB| = (2x + 5)^\\circ$. Both stand on the arc $AB$. Find $x$ and $|\\angle ACB|$.",
+   "final": "x = 10, \\ |\\angle ACB| = 25^\\circ",
+   "steps": [
+    {
+     "say": "Both angles stand on the same arc $AB$. $\\hl{1}{|\\angle AOB|}$ is at the centre. $\\hl{2}{|\\angle ACB|}$ is at the circle.",
+     "rows": [
+      {
+       "aside": "Centre: $|\\angle AOB| = 6x - 10$."
+      },
+      {
+       "aside": "Circle: $|\\angle ACB| = 2x + 5$."
+      }
+     ]
+    },
+    {
+     "say": "By Theorem 19, the angle at the centre is twice the angle at the circle. So $\\hl{1}{|\\angle AOB|} = 2\\hl{2}{|\\angle ACB|}$.",
+     "rows": [
+      {
+       "l": "6x - 10",
+       "r": "= 2(2x + 5)"
+      }
+     ]
+    },
+    {
+     "say": "Multiply out the bracket, then collect the $x$ terms on one side.",
+     "rows": [
+      {
+       "l": "6x - 10",
+       "r": "= 4x + 10"
+      },
+      {
+       "l": "2x",
+       "r": "= 20"
+      },
+      {
+       "l": "x",
+       "r": "= 10"
+      }
+     ]
+    },
+    {
+     "say": "Substitute $x = 10$ into the angle at the circle.",
+     "rows": [
+      {
+       "l": "|\\angle ACB|",
+       "r": "= 2(10) + 5"
+      },
+      {
+       "l": "",
+       "r": "= 25^\\circ"
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The angles are not in proportion to the working: the working gives |AOB| = 50 and |ACB| = 25 degrees, but the figure draws AOB at about 107 degrees and ACB at about 55 degrees (chord AB is drawn far too wide for a 50 degree centre angle).",
+   "The label O sits on the line OB, touching the stroke."
+  ]
+ },
+ {
+  "skill": "con-4",
+  "title": "Construction 4: Line perpendicular to a line l through a point on l",
+  "show": "compass-and-straight-edge construction: line l with point P on it, arcs and the perpendicular through P, with arcs left visible",
+  "example": {
+   "question": "Draw a line $l$ and mark a point $P$ on it. Construct the line through $P$ perpendicular to $l$.",
+   "final": "PQ \\perp l",
+   "steps": [
+    {
+     "say": "Put the compass point on $P$. Draw an arc that cuts $l$ on each side of $P$. Call the points $A$ and $B$.",
+     "rows": [
+      {
+       "aside": "Keep the compass setting the same for both arcs, so $|PA| = |PB|$."
+      }
+     ]
+    },
+    {
+     "say": "Open the compass wider than $|PA|$. With the point on $A$, draw an arc above the line.",
+     "rows": [
+      {
+       "aside": "Do not change the setting yet."
+      }
+     ]
+    },
+    {
+     "say": "Keep the same setting. With the point on $B$, draw an arc that crosses the first one. Call the crossing $Q$.",
+     "rows": [
+      {
+       "aside": "Leave all arcs on the page. They are the construction lines."
+      }
+     ]
+    },
+    {
+     "say": "With the ruler, draw a straight line from $P$ through $Q$.",
+     "rows": [
+      {
+       "aside": "This line $PQ$ meets $l$ at $90^\\circ$."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Q is not at the crossing of the two arcs: the arcs from A and B meet the perpendicular at about y=255 but Q is labelled well above that, at the top end of the line, so the figure does not show Q as the crossing.",
+   "The two upper arcs look like they are not clearly crossing each other; they stop at the perpendicular, so the step 'draw an arc that crosses the first one' is not clearly shown.",
+   "The line label l renders like a capital I and is hard to read."
+  ]
+ },
+ {
+  "skill": "mens-composite",
+  "title": "Find area/volume of compound solids",
+  "show": "cylinder radius 3 cm height 7 cm with a hemisphere of radius 3 cm on top",
+  "example": {
+   "question": "A solid is a cylinder with a hemisphere on top. Both have radius $3$ cm. The cylinder has height $7$ cm. Find the total volume, in terms of $\\pi$.",
+   "final": "81\\pi \\text{ cm}^3",
+   "steps": [
+    {
+     "say": "Take the cylinder first. Its volume is $\\pi r^2 h$ with $r = 3$ and $h = 7$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{V_c}",
+       "r": "= \\pi(3)^2(7)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{63\\pi}"
+      }
+     ]
+    },
+    {
+     "say": "A hemisphere is half a sphere. Use $\\frac{2}{3}\\pi r^3$ with $r = 3$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{V_h}",
+       "r": "= \\frac{2}{3}\\pi(3)^3"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{18\\pi}"
+      }
+     ]
+    },
+    {
+     "say": "The solid is the cylinder and the hemisphere together, so add $\\hl{1}{V_c}$ and $\\hl{2}{V_h}$.",
+     "rows": [
+      {
+       "l": "V",
+       "r": "= \\hl{1}{63\\pi} + \\hl{2}{18\\pi}"
+      },
+      {
+       "l": "",
+       "r": "= 81\\pi"
+      },
+      {
+       "aside": "The question says in terms of $\\pi$, so leave it as $81\\pi$. Do not round."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "The cylinder is drawn shorter than it is wide (about 128 wide by 113 tall) although the question has r = 3 (width 6) and h = 7, so it should be taller than wide (about 6 by 7, cylinder height roughly 149 px against a 64 px radius).",
+   "The h = 7 label floats to the right of the shape with no dimension line or marker, and r = 3 has no radius line, so it is unclear what each label measures."
+  ]
+ },
+ {
+  "skill": "circ-point-position",
+  "title": "Decide whether a point is inside, on or outside a circle",
+  "show": "circle (x-2)²+(y+1)²=25 centre (2,-1) radius 5 with point (6,3) and its distance from centre drawn against the radius",
+  "example": {
+   "question": "Is the point $(6, 3)$ inside, on or outside the circle $(x-2)^2 + (y+1)^2 = 25$?",
+   "final": "\\text{outside, since } 32 > 25",
+   "steps": [
+    {
+     "say": "The equation is $(x-h)^2 + (y-k)^2 = r^2$. Here the centre is $(2, -1)$ and $\\hl{1}{r^2} = \\hl{1}{25}$.",
+     "rows": [
+      {
+       "aside": "So the radius is $5$."
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 6$ and $y = 3$ into the left side. This gives the distance from the centre, squared.",
+     "rows": [
+      {
+       "l": "\\hl{2}{d^2}",
+       "r": "= (6-2)^2 + (3+1)^2"
+      },
+      {
+       "l": "",
+       "r": "= 16 + 16"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{32}"
+      }
+     ]
+    },
+    {
+     "say": "Compare $\\hl{2}{32}$ with $\\hl{1}{25}$. If it is less, the point is inside. If it is equal, on. If it is more, outside.",
+     "rows": [
+      {
+       "l": "\\hl{2}{32}",
+       "r": "> \\hl{1}{25}"
+      },
+      {
+       "aside": "The point is further from the centre than the radius, so it is **outside** the circle."
+      }
+     ]
+    }
+   ]
+  },
+  "issues": [
+   "Point P is drawn in the wrong place: for centre (2, -1) and P (6, 3) it should be 4 right and 4 up of C (45 degrees, about 1.13 radii away), but it is drawn about 126 px right and 65 px up, roughly 1.9 radii away and at about 27 degrees.",
+   "The dashed segment CP therefore exaggerates the distance; it should only just clear the circle (distance sqrt 32 = 5.66 against radius 5)."
+  ]
+ }
+]

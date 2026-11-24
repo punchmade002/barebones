@@ -1,0 +1,8 @@
+{
+"geo-cor1": {"ok": true, "issues": []},
+"geo-thm11": {"ok": false, "issues": ["Labels A, B, C (and F) sit on the parallel lines and are struck through by them, so they are hard to read.", "No marks showing |AB| = |BC| or |DE| = |EF|, so the figure does not show what the theorem is about."]},
+"geo-thm13": {"ok": false, "issues": ["Sides are not in proportion with the question: |BC| should be 1.5 times |AB| but is drawn about 1.24 times; |EF| should be 1.5 times |DE| but is drawn about 1.12 times, so the triangles do not look equiangular/similar.", "None of the given lengths (6, 9, 8 cm) are marked on the figure."]},
+"geo-thm21": {"ok": true, "issues": []},
+"geo-similar-triangles": {"ok": false, "issues": ["Proportions contradict the question: |AC| = 12 is longer than |AB| = 8, but in triangle ABC the side AC is drawn shorter than AB (about 95 vs 102). Likewise |PR| = 21 should be longer than |PQ| = 14, but PR is drawn shorter than PQ (about 163 vs 181).", "Given lengths 8, 14 and 12 cm are not marked on the figure."]},
+"geo-thm12": {"ok": true, "issues": []}
+}

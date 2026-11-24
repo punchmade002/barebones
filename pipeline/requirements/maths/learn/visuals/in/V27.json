@@ -1,0 +1,207 @@
+[
+ {
+  "skill": "trig-unit-circle",
+  "title": "Define sin θ, cos θ, tan θ for all θ (unit circle)",
+  "show": "unit circle with the 210° angle in the third quadrant, reference angle 30° and the cosine as the x-coordinate",
+  "example": {
+   "question": "Find the exact value of $\\cos 210^\\circ$.",
+   "final": "-\\frac{\\sqrt{3}}{2}",
+   "steps": [
+    {
+     "say": "$210^\\circ$ is between $180^\\circ$ and $270^\\circ$. That is the third quadrant, where only $\\tan$ is positive. So $\\cos 210^\\circ$ is **negative**.",
+     "rows": [
+      {
+       "aside": "CAST: in the third quadrant, $\\sin$ and $\\cos$ are both negative."
+      }
+     ]
+    },
+    {
+     "say": "The related angle is the acute angle the line makes with the $x$-axis. In the third quadrant, subtract $180^\\circ$.",
+     "rows": [
+      {
+       "l": "210 - 180",
+       "r": "= \\hl{1}{30}"
+      }
+     ]
+    },
+    {
+     "say": "Take $\\cos \\hl{1}{30^\\circ}$ and put in the **negative** sign from the quadrant.",
+     "rows": [
+      {
+       "l": "\\cos 210^\\circ",
+       "r": "= -\\cos \\hl{1}{30^\\circ}"
+      },
+      {
+       "l": "",
+       "r": "= -\\frac{\\sqrt{3}}{2}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-pythag-identity",
+  "title": "Use cos²A + sin²A = 1 (formula 1)",
+  "show": "right triangle 8,15,17 placed in the second quadrant with the angle A marked",
+  "example": {
+   "question": "Given that $\\sin A = \\frac{8}{17}$ and $90° < A < 180°$, find the value of $\\tan A$.",
+   "final": "\\tan A = -\\tfrac{8}{15}",
+   "steps": [
+    {
+     "say": "Use $\\cos^2 A + \\sin^2 A = 1$. Rearrange it to get $\\cos^2 A$ from the $\\sin A$ you were given.",
+     "rows": [
+      {
+       "l": "\\cos^2 A",
+       "r": "= 1 - \\sin^2 A"
+      },
+      {
+       "l": "",
+       "r": "= 1 - \\frac{64}{289}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{225}{289}"
+      }
+     ]
+    },
+    {
+     "say": "Taking the root gives two answers, positive and negative. The quadrant decides which one is $\\hl{1}{\\cos A}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\cos A}",
+       "r": "= \\pm\\frac{15}{17}"
+      },
+      {
+       "aside": "$A$ is between $90°$ and $180°$. That is the second quadrant, where cosine is negative."
+      },
+      {
+       "l": "\\hl{1}{\\cos A}",
+       "r": "= -\\frac{15}{17}"
+      }
+     ]
+    },
+    {
+     "say": "Now $\\hl{2}{\\tan A}$ is $\\sin A$ divided by $\\hl{1}{\\cos A}$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{\\tan A}",
+       "r": "= \\frac{\\sin A}{\\cos A}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{8/17}{-15/17}"
+      },
+      {
+       "l": "",
+       "r": "= -\\frac{8}{15}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-exact-values",
+  "title": "Use trig ratios in surd form",
+  "show": "unit circle with 135° and 150° marked and their reference angles",
+  "example": {
+   "question": "Find the exact value of $\\sin 135° + \\cos 150°$.",
+   "final": "\\frac{\\sqrt{2} - \\sqrt{3}}{2}",
+   "steps": [
+    {
+     "say": "Both angles are in the second quadrant. Subtract each from $180°$ to get the reference angle. Sine is positive there and cosine is negative.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\sin 135°}",
+       "r": "= \\sin 45°"
+      },
+      {
+       "l": "\\hl{2}{\\cos 150°}",
+       "r": "= -\\cos 30°"
+      }
+     ]
+    },
+    {
+     "say": "Use the exact values you know for $45°$ and $30°$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\sin 135°}",
+       "r": "= \\frac{1}{\\sqrt{2}}"
+      },
+      {
+       "l": "\\hl{2}{\\cos 150°}",
+       "r": "= -\\frac{\\sqrt{3}}{2}"
+      }
+     ]
+    },
+    {
+     "say": "Add the two exact values. Write $\\frac{1}{\\sqrt{2}}$ as $\\frac{\\sqrt{2}}{2}$ so both terms have denominator $2$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\sin 135°} + \\hl{2}{\\cos 150°}",
+       "r": "= \\frac{1}{\\sqrt{2}} - \\frac{\\sqrt{3}}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{3}}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{\\sqrt{2} - \\sqrt{3}}{2}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-solve-basic",
+  "title": "Solve sin θ = k, cos θ = k, tan θ = k in a range",
+  "show": "sine curve over 0 to 360° with the line y=-1/2 and the two intersections at 210° and 330°",
+  "example": {
+   "question": "Solve $2\\sin\\theta + 1 = 0$ for $0° \\le \\theta \\le 360°$.",
+   "final": "\\theta = 210°, \\; 330°",
+   "steps": [
+    {
+     "say": "Get $\\hl{1}{\\sin\\theta}$ on its own.",
+     "rows": [
+      {
+       "l": "2\\sin\\theta + 1",
+       "r": "= 0"
+      },
+      {
+       "l": "\\hl{1}{\\sin\\theta}",
+       "r": "= -\\frac{1}{2}"
+      }
+     ]
+    },
+    {
+     "say": "Ignore the minus sign for now and find the first-quadrant angle with $\\sin = \\frac{1}{2}$.",
+     "rows": [
+      {
+       "l": "\\sin^{-1}\\left(\\frac{1}{2}\\right)",
+       "r": "= 30°"
+      }
+     ]
+    },
+    {
+     "say": "$\\sin\\theta$ is negative, so $\\theta$ is in the third or fourth quadrant. Measure $30°$ from the $180°$ line and back from $360°$.",
+     "rows": [
+      {
+       "l": "\\theta",
+       "r": "= 180° + 30° = \\hl{2}{210°}"
+      },
+      {
+       "l": "\\theta",
+       "r": "= 360° - 30° = \\hl{3}{330°}"
+      },
+      {
+       "aside": "Both are between $0°$ and $360°$. Check: $2\\sin 210° + 1 = 0$."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

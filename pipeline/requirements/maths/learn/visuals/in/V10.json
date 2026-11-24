@@ -1,0 +1,227 @@
+[
+ {
+  "skill": "line-perp-distance",
+  "title": "Find the perpendicular distance from a point to a line",
+  "show": "point P(1,-2) and line y=3x/4+2 with the perpendicular from P to the line marked with right angle",
+  "example": {
+   "question": "Find the perpendicular distance from the point $P(1, -2)$ to the line $y = \\frac{3}{4}x + 2$.",
+   "final": "\\frac{19}{5} = 3.8 \\text{ units}",
+   "steps": [
+    {
+     "say": "The formula needs the line as $ax + by + c = 0$. Multiply every term by $4$ to clear the fraction, then move everything to one side.",
+     "rows": [
+      {
+       "aside": "$4y = 3x + 8$"
+      },
+      {
+       "l": "\\hl{1}{3}x \\hl{2}{- 4}y + \\hl{3}{8}",
+       "r": "= 0"
+      },
+      {
+       "aside": "So $a = \\hl{1}{3}$, $b = \\hl{2}{-4}$, $c = \\hl{3}{8}$."
+      }
+     ]
+    },
+    {
+     "say": "Put $a$, $b$, $c$ and the point $(x_1, y_1) = (1, -2)$ into the distance formula.",
+     "rows": [
+      {
+       "l": "d",
+       "r": "= \\frac{|\\hl{1}{3}(1) + (\\hl{2}{-4})(-2) + \\hl{3}{8}|}{\\sqrt{\\hl{1}{3}^2 + (\\hl{2}{-4})^2}}"
+      }
+     ]
+    },
+    {
+     "say": "Work out the top first and keep it positive, because the bars mean size. Then the square root underneath.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= \\frac{|19|}{\\sqrt{25}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{19}{5} = 3.8"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-angle-between",
+  "title": "Find the angle between two lines",
+  "show": "two lines 2x-y+1=0 and x+3y-6=0 crossing with the acute angle between them marked",
+  "example": {
+   "question": "Find the acute angle between the lines $2x - y + 1 = 0$ and $x + 3y - 6 = 0$. Give your answer correct to one decimal place.",
+   "final": "81.9^\\circ",
+   "steps": [
+    {
+     "say": "Write each line as $y = mx + c$ and read off the slope.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= 2x + 1"
+      },
+      {
+       "l": "y",
+       "r": "= -\\frac{1}{3}x + 2"
+      },
+      {
+       "aside": "So $m_1 = \\hl{1}{2}$ and $m_2 = \\hl{2}{-\\frac{1}{3}}$."
+      }
+     ]
+    },
+    {
+     "say": "Put $m_1$ and $m_2$ into the angle formula. Taking the positive value gives the acute angle.",
+     "rows": [
+      {
+       "l": "\\tan\\theta",
+       "r": "= \\frac{\\hl{1}{2} - \\left(\\hl{2}{-\\frac{1}{3}}\\right)}{1 + (\\hl{1}{2})\\left(\\hl{2}{-\\frac{1}{3}}\\right)}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{\\frac{7}{3}}{\\frac{1}{3}}"
+      },
+      {
+       "l": "",
+       "r": "= 7"
+      }
+     ]
+    },
+    {
+     "say": "Use the inverse tangent to turn $\\tan\\theta = 7$ into the angle.",
+     "rows": [
+      {
+       "l": "\\theta",
+       "r": "= \\tan^{-1}(7)"
+      },
+      {
+       "l": "",
+       "r": "= 81.9^\\circ"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-from-distance",
+  "title": "Find lines through a point at a given distance/angle",
+  "show": "point and two lines through the origin each at perpendicular distance 3 from the point",
+  "example": {
+   "question": "Find the equations of the two lines through the origin that are a perpendicular distance of $3$ from the point $(5, 0)$.",
+   "final": "y = \\frac{3}{4}x \\quad \\text{and} \\quad y = -\\frac{3}{4}x",
+   "steps": [
+    {
+     "say": "A line through the origin is $y = mx$. Write it as $ax + by + c = 0$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{m}x - y",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Use the distance formula from $(5, 0)$ to this line and set it equal to $3$.",
+     "rows": [
+      {
+       "l": "\\frac{|\\hl{1}{m}(5) + (-1)(0)|}{\\sqrt{\\hl{1}{m}^2 + 1}}",
+       "r": "= 3"
+      },
+      {
+       "l": "|5m|",
+       "r": "= 3\\sqrt{m^2 + 1}"
+      }
+     ]
+    },
+    {
+     "say": "Square both sides to remove the root. Then collect the $m^2$ terms.",
+     "rows": [
+      {
+       "l": "25m^2",
+       "r": "= 9(m^2 + 1)"
+      },
+      {
+       "l": "16m^2",
+       "r": "= 9"
+      },
+      {
+       "l": "m^2",
+       "r": "= \\frac{9}{16}"
+      },
+      {
+       "l": "m",
+       "r": "= \\pm\\frac{3}{4}"
+      }
+     ]
+    },
+    {
+     "say": "Each value of $m$ gives one line through the origin.",
+     "rows": [
+      {
+       "l": "y",
+       "r": "= \\frac{3}{4}x"
+      },
+      {
+       "l": "y",
+       "r": "= -\\frac{3}{4}x"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-conjugate",
+  "title": "Find the conjugate",
+  "show": "z=4-3i and its conjugate 4+3i reflected in the real axis on an Argand diagram",
+  "example": {
+   "question": "Let $z = 4 - 3i$. Write down $\\bar z$ and find $z\\bar z$.",
+   "final": "\\hl{1}{\\bar z} = 4 + 3i, \\quad z\\hl{1}{\\bar z} = 25",
+   "steps": [
+    {
+     "say": "Keep the real part and flip the sign of the $i$ part. $z = 4 - 3i$ becomes $\\hl{1}{\\bar z}$.",
+     "rows": [
+      {
+       "l": "z",
+       "r": "= 4 - 3i"
+      },
+      {
+       "l": "\\hl{1}{\\bar z}",
+       "r": "= 4 + 3i"
+      }
+     ]
+    },
+    {
+     "say": "Now multiply $z$ by $\\hl{1}{\\bar z}$. Expand the two brackets.",
+     "rows": [
+      {
+       "l": "z\\hl{1}{\\bar z}",
+       "r": "= (4 - 3i)(4 + 3i)"
+      },
+      {
+       "l": "",
+       "r": "= 16 + 12i - 12i - 9i^2"
+      },
+      {
+       "aside": "The two $i$ terms cancel. Remember $i^2 = -1$."
+      }
+     ]
+    },
+    {
+     "say": "With $i^2 = -1$, the last term becomes $+9$. The answer has no $i$ in it.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= 16 + 9"
+      },
+      {
+       "l": "",
+       "r": "= 25"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

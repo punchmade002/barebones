@@ -1,0 +1,8 @@
+{
+"geo-thm10":{"ok":true,"issues":[]},
+"geo-cor4":{"ok":true,"issues":[]},
+"geo-thm17":{"ok":false,"issues":["Part (ii) and step 2 use [PT], but the segment PT is not drawn; T is only a tick on QR, so the figure does not show triangle PQT.","No area (420 m2) or equal-halves marking, so the figure does not show what the example is about."]},
+"geo-thm18":{"ok":false,"issues":["The height marked h is the 6 cm distance between AB and DC, but in the working h = 9 is the distance between BC and AD, so the label contradicts the working.","The height is drawn about 0.79 of the base length; it should be 6/12 = 0.5, so proportions are wrong.","The values 12, 6 and 8 are not labelled on the figure."]},
+"geo-thm16":{"ok":true,"issues":[]},
+"geo-thm20":{"ok":false,"issues":["Proportions are off: OT is about 70 px and OP about 133 px (ratio about 1.9), but 13/5 = 2.6; PT is drawn about 1.6 times OT, it should be 2.4.","The lengths 5, 13 and 12 are not labelled, so the figure does not show the numbers the working uses."]}
+}

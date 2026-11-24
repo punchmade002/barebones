@@ -1,0 +1,332 @@
+[
+ {
+  "skill": "geo-cor1",
+  "of": "page",
+  "title": "Apply Corollary 1: A diagonal divides a parallelogram into two congruent triangles",
+  "show": "parallelogram ABCD with opposite angles (4x+10)° and (6x-20)° marked",
+  "example": {
+   "question": "$ABCD$ is a parallelogram. $|\\angle ABC| = (4x + 10)^\\circ$ and $|\\angle CDA| = (6x - 20)^\\circ$. Find $x$ and $|\\angle ABC|$.",
+   "final": "x = 15, \\ |\\angle ABC| = 70^\\circ",
+   "steps": [
+    {
+     "say": "Draw the diagonal $[AC]$. By Corollary 1, triangles $ABC$ and $CDA$ are congruent.",
+     "rows": [
+      {
+       "aside": "$B$ in the first triangle matches $D$ in the second."
+      }
+     ]
+    },
+    {
+     "say": "In congruent triangles the matching angles are equal. $|\\angle ABC|$ matches $|\\angle CDA|$, so set them equal.",
+     "rows": [
+      {
+       "l": "4x + 10",
+       "r": "= 6x - 20"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "30",
+       "r": "= 2x"
+      },
+      {
+       "l": "x",
+       "r": "= 15"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 15$ into $|\\angle ABC|$.",
+     "rows": [
+      {
+       "l": "|\\angle ABC|",
+       "r": "= 4(15) + 10"
+      },
+      {
+       "l": "",
+       "r": "= 70^\\circ"
+      },
+      {
+       "aside": "Check: $6(15) - 20 = 70$, so $|\\angle CDA|$ agrees."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm11",
+  "of": "page",
+  "title": "Apply Theorem 11: Three parallel lines cutting equal segments on one transversal cut equal segments on any",
+  "show": "three parallel lines AD, BE, CF cutting two transversals with AB=BC and corresponding segments marked equal",
+  "example": {
+   "question": "The parallel lines $AD$, $BE$ and $CF$ cut the transversal $[AC]$ with $|AB| = |BC|$. They cut the second transversal $[DF]$ at $D$, $E$ and $F$. $|DE| = (2x + 1)$ cm and $|EF| = (4x - 9)$ cm. Find $x$ and $|DF|$.",
+   "final": "x = 5, \\ |DF| = 22\\ \\text{cm}",
+   "steps": [
+    {
+     "say": "Three parallel lines cut equal pieces $|AB| = |BC|$ on one transversal. By Theorem 11 they cut equal pieces on every transversal.",
+     "rows": [
+      {
+       "aside": "So $|DE| = |EF|$."
+      }
+     ]
+    },
+    {
+     "say": "Put the two lengths equal to each other.",
+     "rows": [
+      {
+       "l": "2x + 1",
+       "r": "= 4x - 9"
+      }
+     ]
+    },
+    {
+     "say": "Collect the $x$ terms on one side and the numbers on the other.",
+     "rows": [
+      {
+       "l": "10",
+       "r": "= 2x"
+      },
+      {
+       "l": "x",
+       "r": "= 5"
+      }
+     ]
+    },
+    {
+     "say": "Find $|DE|$, then double it, since $|EF|$ is the same.",
+     "rows": [
+      {
+       "l": "|DE|",
+       "r": "= 2(5) + 1"
+      },
+      {
+       "l": "",
+       "r": "= 11"
+      },
+      {
+       "l": "|DF|",
+       "r": "= 2 \\times 11 = 22\\ \\text{cm}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm13",
+  "of": "page",
+  "title": "Apply Theorem 13: Similar triangles have proportional sides",
+  "show": "two equiangular triangles ABC and DEF with sides 6, 9 and 8 cm matching",
+  "example": {
+   "question": "In the diagram, triangles $ABC$ and $DEF$ are equiangular. $|AB| = 6$ cm, $|BC| = 9$ cm and $|DE| = 8$ cm. $AB$ and $DE$ are opposite equal angles, and so are $BC$ and $EF$. Find $|EF|$.",
+   "final": "|EF| = 12 \\text{ cm}",
+   "steps": [
+    {
+     "say": "The triangles have equal angles, so they are similar (Theorem 13). $AB$ matches $DE$, and $BC$ matches $\\hl{1}{EF}$.",
+     "rows": [
+      {
+       "l": "\\frac{|AB|}{|DE|}",
+       "r": "= \\frac{|BC|}{\\hl{1}{|EF|}}"
+      },
+      {
+       "aside": "Write the known pair first, then the pair with the unknown."
+      }
+     ]
+    },
+    {
+     "say": "Replace each length with its value. The unknown stays as $\\hl{1}{|EF|}$.",
+     "rows": [
+      {
+       "l": "\\frac{6}{8}",
+       "r": "= \\frac{9}{\\hl{1}{|EF|}}"
+      }
+     ]
+    },
+    {
+     "say": "Cross-multiply, then divide to leave $\\hl{1}{|EF|}$ on its own.",
+     "rows": [
+      {
+       "l": "6 \\times \\hl{1}{|EF|}",
+       "r": "= 9 \\times 8"
+      },
+      {
+       "l": "\\hl{1}{|EF|}",
+       "r": "= \\frac{72}{6}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{12} \\text{ cm}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm21",
+  "of": "page",
+  "title": "Apply Theorem 21: Perpendicular from the centre bisects a chord; perpendicular bisector of a chord passes through the centre",
+  "show": "circle centre O, chord AB=24 cm, perpendicular OM to the chord bisecting it, right triangle OMA",
+  "example": {
+   "question": "A circle has centre $O$. A chord $[AB]$ has length $24$ cm. The perpendicular from $O$ meets $[AB]$ at $M$, and $|OM| = 5$ cm. Find the radius of the circle.",
+   "final": "r = 13 \\text{ cm}",
+   "steps": [
+    {
+     "say": "The perpendicular from the centre bisects the chord (Theorem 21). So $M$ is the midpoint of $[AB]$.",
+     "rows": [
+      {
+       "l": "|AM|",
+       "r": "= \\frac{24}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{12}"
+      }
+     ]
+    },
+    {
+     "say": "Join $O$ to $A$. Then $OMA$ is a right-angled triangle with the right angle at $M$, and $|OA|$ is the radius $\\hl{2}{r}$.",
+     "rows": [
+      {
+       "aside": "Sides: $|AM| = 12$, $|OM| = 5$, hypotenuse $|OA| = r$."
+      }
+     ]
+    },
+    {
+     "say": "The square on the hypotenuse equals the sum of the squares on the other two sides.",
+     "rows": [
+      {
+       "l": "\\hl{2}{r}^2",
+       "r": "= 12^2 + 5^2"
+      },
+      {
+       "l": "",
+       "r": "= 144 + 25"
+      },
+      {
+       "l": "",
+       "r": "= 169"
+      }
+     ]
+    },
+    {
+     "say": "The radius is a length, so take the positive root.",
+     "rows": [
+      {
+       "l": "\\hl{2}{r}",
+       "r": "= \\sqrt{169}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{13} \\text{ cm}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-similar-triangles",
+  "of": "page",
+  "title": "Find lengths using similar triangles",
+  "show": "two similar triangles ABC and PQR with matching sides AB=8, PQ=14, AC=12 marked",
+  "example": {
+   "question": "Triangles $ABC$ and $PQR$ are similar. $|AB| = 8$ cm and $|PQ| = 14$ cm are matching sides. $|AC| = 12$ cm. Find $|PR|$, the side that matches $[AC]$.",
+   "final": "|PR| = 21 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Divide a side of the bigger triangle by the matching side of the smaller one. This gives $\\hl{1}{k}$, the number that turns $ABC$ into $PQR$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{k}",
+       "r": "= \\frac{|PQ|}{|AB|}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{14}{8} = 1.75"
+      }
+     ]
+    },
+    {
+     "say": "$PR$ matches $AC$. Multiply $|AC|$ by the scale factor $\\hl{1}{k}$.",
+     "rows": [
+      {
+       "l": "|PR|",
+       "r": "= |AC| \\times \\hl{1}{k}"
+      },
+      {
+       "l": "",
+       "r": "= 12 \\times 1.75"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{21} \\text{ cm}"
+      }
+     ]
+    },
+    {
+     "say": "$PQR$ is the bigger triangle, so $|PR|$ should be bigger than $|AC| = 12$. It is.",
+     "rows": [
+      {
+       "aside": "Always check that the bigger triangle gets the bigger answer."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm12",
+  "of": "page",
+  "title": "Apply Theorem 12: A line parallel to one side of a triangle divides the other two in the same ratio",
+  "show": "triangle ABC with DE parallel to BC, D on AB, E on AC, |AD|=4, |DB|=6",
+  "example": {
+   "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$. $DE$ is parallel to $BC$. $|AD| = 4$ cm, $|DB| = 6$ cm and $|AE| = 5$ cm. Find $|EC|$.",
+   "final": "|EC| = 7.5 \\text{ cm}",
+   "steps": [
+    {
+     "say": "$DE$ is parallel to $BC$, so it cuts $[AB]$ and $[AC]$ in the same ratio (Theorem 12).",
+     "rows": [
+      {
+       "l": "\\frac{|AD|}{|DB|}",
+       "r": "= \\frac{|AE|}{\\hl{1}{|EC|}}"
+      },
+      {
+       "aside": "Top and bottom must be in the same order on both sides."
+      }
+     ]
+    },
+    {
+     "say": "Replace each length with its value.",
+     "rows": [
+      {
+       "l": "\\frac{4}{6}",
+       "r": "= \\frac{5}{\\hl{1}{|EC|}}"
+      }
+     ]
+    },
+    {
+     "say": "Cross-multiply, then divide by $4$ to leave $\\hl{1}{|EC|}$ on its own.",
+     "rows": [
+      {
+       "l": "4 \\times \\hl{1}{|EC|}",
+       "r": "= 5 \\times 6"
+      },
+      {
+       "l": "\\hl{1}{|EC|}",
+       "r": "= \\frac{30}{4}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{7.5} \\text{ cm}"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

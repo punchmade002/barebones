@@ -1,0 +1,454 @@
+[
+ {
+  "skill": "circ-chord-length",
+  "of": "page",
+  "title": "Find a chord length or distance from centre",
+  "show": "circle (x-1)²+(y-2)²=34, line 3x-4y+20=0 cutting chord AB, perpendicular from centre to the chord forming a right triangle with the radius",
+  "example": {
+   "question": "The line $3x-4y+20=0$ cuts the circle $(x-1)^2+(y-2)^2=34$ at the points $A$ and $B$.\nFind $|AB|$.",
+   "final": "10",
+   "steps": [
+    {
+     "say": "The circle has centre $(1, 2)$. The right side is $r^2$, so the radius is $\\hl{1}{\\sqrt{34}}$.",
+     "rows": [
+      {
+       "l": "r",
+       "r": "= \\hl{1}{\\sqrt{34}}"
+      }
+     ]
+    },
+    {
+     "say": "The perpendicular distance $\\hl{2}{d}$ from the centre $(1, 2)$ to the line is the distance from the centre to the chord.",
+     "rows": [
+      {
+       "l": "d",
+       "r": "= \\frac{|3(1)-4(2)+20|}{\\sqrt{3^2+(-4)^2}}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{15}{5}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{3}"
+      }
+     ]
+    },
+    {
+     "say": "The perpendicular from the centre bisects the chord. Take half the chord as $\\hl{3}{h}$. The radius $\\hl{1}{\\sqrt{34}}$ is the hypotenuse, with legs $\\hl{2}{3}$ and $\\hl{3}{h}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{r}^2",
+       "r": "= \\hl{2}{d}^2+\\hl{3}{h}^2"
+      },
+      {
+       "l": "34",
+       "r": "= 9+h^2"
+      },
+      {
+       "l": "h^2",
+       "r": "= 25"
+      },
+      {
+       "l": "h",
+       "r": "= \\hl{3}{5}"
+      }
+     ]
+    },
+    {
+     "say": "$\\hl{3}{h}$ is only half the chord. The whole chord is twice as long.",
+     "rows": [
+      {
+       "l": "|AB|",
+       "r": "= 2\\times\\hl{3}{5}"
+      },
+      {
+       "l": "",
+       "r": "= 10"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-tangent-at-point",
+  "of": "page",
+  "title": "Find the tangent at a point on a circle",
+  "show": "circle centre (1,-2) through P(3,-6) with the radius CP and the tangent at P perpendicular to it",
+  "example": {
+   "question": "The circle $(x-1)^2+(y+2)^2=20$ passes through the point $P(3, -6)$.\nFind the equation of the tangent to the circle at $P$.\nGive your answer in the form $ax+by+c=0$.",
+   "final": "x-2y-15=0",
+   "steps": [
+    {
+     "say": "The centre is $(1, -2)$. The radius runs from the centre to $P(3, -6)$. Find its slope.",
+     "rows": [
+      {
+       "l": "m_r",
+       "r": "= \\frac{-6-(-2)}{3-1}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{-4}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{1}{-2}"
+      }
+     ]
+    },
+    {
+     "say": "The tangent is perpendicular to the radius. Flip $\\hl{1}{-2}$ and change its sign.",
+     "rows": [
+      {
+       "l": "m_t",
+       "r": "= -\\frac{1}{\\hl{1}{-2}}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{\\tfrac12}"
+      }
+     ]
+    },
+    {
+     "say": "Use $y-y_1=m(x-x_1)$ with the slope $\\hl{2}{\\tfrac12}$ and the point $P(3, -6)$.",
+     "rows": [
+      {
+       "l": "y-(-6)",
+       "r": "= \\hl{2}{\\tfrac12}(x-3)"
+      },
+      {
+       "l": "2y+12",
+       "r": "= x-3"
+      },
+      {
+       "aside": "Multiply by 2 to clear the fraction, then move every term to one side."
+      },
+      {
+       "l": "0",
+       "r": "= x-2y-15"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-graph-linear",
+  "of": "page",
+  "title": "Graph a linear function",
+  "show": "a plain graph of the curve",
+  "example": {
+   "question": "Draw the graph of $f(x) = 2x - 1$ for $-1 \\le x \\le 3$.",
+   "final": "\\text{Line through } (-1,-3),\\ (0,-1),\\ (3,5)",
+   "steps": [
+    {
+     "say": "Two points fix a straight line. Take the two ends of the domain and a third point in between to check.",
+     "rows": [
+      {
+       "aside": "Use $x = -1$, $x = 0$ and $x = 3$."
+      }
+     ]
+    },
+    {
+     "say": "Put each $x$ into $f(x) = 2x - 1$.",
+     "rows": [
+      {
+       "l": "f(-1)",
+       "r": "= 2(-1) - 1 = -3"
+      },
+      {
+       "l": "f(0)",
+       "r": "= 2(0) - 1 = -1"
+      },
+      {
+       "l": "f(3)",
+       "r": "= 2(3) - 1 = 5"
+      }
+     ]
+    },
+    {
+     "say": "Pair each $x$ with its $y$. These are the points to plot.",
+     "rows": [
+      {
+       "aside": "The points are $(-1, -3)$, $(0, -1)$ and $(3, 5)$."
+      }
+     ]
+    },
+    {
+     "say": "Plot the three points. They should sit on one line. Join them with a **ruler**, starting at $x = -1$ and stopping at $x = 3$.",
+     "rows": [
+      {
+       "aside": "The line slopes up by $2$ for every $1$ across and crosses the $y$-axis at $-1$, matching $2x - 1$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-graph-quadratic",
+  "of": "page",
+  "title": "Graph a quadratic function",
+  "show": "a plain graph of the curve",
+  "example": {
+   "question": "Draw the graph of $f(x) = x^2 - 4x - 5$ for $-1 \\le x \\le 5$. Show where it crosses the axes and find its lowest point.",
+   "final": "\\text{roots } -1 \\text{ and } 5,\\ y\\text{-intercept } -5,\\ \\text{minimum } (2, -9)",
+   "steps": [
+    {
+     "say": "Put each value of $x$ into $f(x)$ and write down the answer. Do the squares and brackets one at a time.",
+     "rows": [
+      {
+       "l": "f(-1)",
+       "r": "= (-1)^2 - 4(-1) - 5"
+      },
+      {
+       "l": "",
+       "r": "= 0"
+      },
+      {
+       "l": "f(0)",
+       "r": "= 0^2 - 4(0) - 5"
+      },
+      {
+       "l": "",
+       "r": "= -5"
+      },
+      {
+       "l": "f(1)",
+       "r": "= 1^2 - 4(1) - 5"
+      },
+      {
+       "l": "",
+       "r": "= -8"
+      },
+      {
+       "aside": "Do the same for $x = 2, 3, 4, 5$. The table gives $0, -5, -8, -9, -8, -5, 0$ for $x = -1$ to $5$."
+      }
+     ]
+    },
+    {
+     "say": "The graph crosses the $x$-axis where $f(x) = 0$. Set $f(x)$ equal to $0$ and factorise.",
+     "rows": [
+      {
+       "l": "x^2 - 4x - 5",
+       "r": "= 0"
+      },
+      {
+       "l": "(x - 5)(x + 1)",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{5} \\text{ or } x = \\hl{1}{-1}"
+      }
+     ]
+    },
+    {
+     "say": "A parabola is symmetric. Its turning point is halfway between the roots $\\hl{1}{-1}$ and $\\hl{1}{5}$. Find the $\\hl{2}{x}$ value, then put it into $f(x)$ for the $\\hl{3}{y}$ value.",
+     "rows": [
+      {
+       "l": "x",
+       "r": "= \\frac{-1 + 5}{2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{2}"
+      },
+      {
+       "l": "f(2)",
+       "r": "= 2^2 - 4(2) - 5"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{-9}"
+      },
+      {
+       "aside": "The $x^2$ term is positive, so the curve opens up and this is a minimum."
+      }
+     ]
+    },
+    {
+     "say": "Plot the points from the table. Mark the roots $(-1, 0)$ and $(5, 0)$, the $y$-intercept $(0, -5)$ and the minimum $(\\hl{2}{2}, \\hl{3}{-9})$. Join them with one smooth curve, not straight lines.",
+     "rows": [
+      {
+       "aside": "Use a pencil and draw the curve through every point."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-graph-cubic",
+  "of": "page",
+  "title": "Graph a cubic function",
+  "show": "a plain graph of the curve",
+  "example": {
+   "question": "Draw the graph of $f(x) = x^3 - 6x^2 + 9x$ for $-1 \\le x \\le 4$. Find the local maximum point.",
+   "final": "\\text{local maximum } (1, 4)",
+   "steps": [
+    {
+     "say": "Put each value of $x$ into $f(x)$. Take care with the signs when $x$ is negative.",
+     "rows": [
+      {
+       "l": "f(-1)",
+       "r": "= (-1)^3 - 6(-1)^2 + 9(-1)"
+      },
+      {
+       "l": "",
+       "r": "= -1 - 6 - 9"
+      },
+      {
+       "l": "",
+       "r": "= -16"
+      },
+      {
+       "l": "f(2)",
+       "r": "= 2^3 - 6(2)^2 + 9(2)"
+      },
+      {
+       "l": "",
+       "r": "= 8 - 24 + 18"
+      },
+      {
+       "l": "",
+       "r": "= 2"
+      },
+      {
+       "aside": "The rest are $f(0) = 0$, $f(1) = 4$, $f(3) = 0$, $f(4) = 4$."
+      }
+     ]
+    },
+    {
+     "say": "The turning points are where the slope is zero. Differentiate, set $f'(x)$ equal to $0$ and solve.",
+     "rows": [
+      {
+       "l": "f'(x)",
+       "r": "= 3x^2 - 12x + 9"
+      },
+      {
+       "l": "3x^2 - 12x + 9",
+       "r": "= 0"
+      },
+      {
+       "aside": "Every term divides by 3. Do that first."
+      },
+      {
+       "l": "x^2 - 4x + 3",
+       "r": "= 0"
+      },
+      {
+       "l": "(x - 1)(x - 3)",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{1} \\text{ or } x = 3"
+      }
+     ]
+    },
+    {
+     "say": "The curve rises, then falls. So the first turning point, at $x = \\hl{1}{1}$, is the maximum. Put it into $f(x)$ for the $y$ value.",
+     "rows": [
+      {
+       "l": "f(1)",
+       "r": "= 1^3 - 6(1)^2 + 9(1)"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{4}"
+      },
+      {
+       "aside": "The local maximum is at $(1, 4)$ and the local minimum is at $(3, 0)$."
+      }
+     ]
+    },
+    {
+     "say": "Plot the points from the table, with the turning points $(\\hl{1}{1}, \\hl{2}{4})$ and $(3, 0)$ among them. Join them with one smooth curve.",
+     "rows": [
+      {
+       "aside": "The curve comes up from the bottom left and goes off to the top right."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-graph-exponential",
+  "of": "page",
+  "title": "Graph an exponential function",
+  "show": "a plain graph of the curve",
+  "example": {
+   "question": "The number of bacteria is $f(x) = 5 \\cdot 2^x$, where $x$ is the number of hours. Draw the graph of $f$ for $-1 \\le x \\le 4$. Use the graph to find when there are $40$ bacteria.",
+   "final": "x = 3 \\text{ hours}",
+   "steps": [
+    {
+     "say": "Put each value of $x$ into $5 \\cdot 2^x$. A negative power means one over the positive power.",
+     "rows": [
+      {
+       "l": "f(-1)",
+       "r": "= 5 \\cdot 2^{-1}"
+      },
+      {
+       "l": "",
+       "r": "= 5 \\cdot \\frac{1}{2}"
+      },
+      {
+       "l": "",
+       "r": "= 2.5"
+      },
+      {
+       "l": "f(0)",
+       "r": "= 5 \\cdot 2^0"
+      },
+      {
+       "l": "",
+       "r": "= 5"
+      },
+      {
+       "l": "f(3)",
+       "r": "= 5 \\cdot 2^3"
+      },
+      {
+       "l": "",
+       "r": "= 40"
+      },
+      {
+       "aside": "The rest are $f(1) = 10$, $f(2) = 20$, $f(4) = 80$."
+      }
+     ]
+    },
+    {
+     "say": "Plot the points from the table. Join them with a smooth curve that rises more steeply to the right and gets very close to the $x$-axis on the left, but does not touch it.",
+     "rows": [
+      {
+       "aside": "The curve crosses the $y$-axis at $(0, 5)$, the value of $a$."
+      }
+     ]
+    },
+    {
+     "say": "To find when there are $40$ bacteria, go across from $40$ on the $y$-axis to the curve, then down to the $x$-axis. Check it with the equation.",
+     "rows": [
+      {
+       "l": "5 \\cdot 2^x",
+       "r": "= 40"
+      },
+      {
+       "l": "2^x",
+       "r": "= 8"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{3}"
+      },
+      {
+       "aside": "The curve reads $x = 3$ at $f(x) = \\hl{2}{40}$. After $3$ hours there are $40$ bacteria."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

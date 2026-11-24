@@ -134,7 +134,7 @@
 
   // ---------------- the board: what's inside ----------------
   var slot = hero.querySelector('[data-led]');
-  var words = ['NOTES', 'CARDS', 'PAPERS', 'MARKS', 'TESTS'];
+  var words = ['NOTES', 'CARDS', 'PAPERS', 'GUIDES', 'TESTS'];
   var n = 0;
   resize();
   setText(words[0], slot, { wipe: true, fit: 'PAPERS' });

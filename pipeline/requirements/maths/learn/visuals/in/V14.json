@@ -1,0 +1,257 @@
+[
+ {
+  "skill": "diff-tangent-circle",
+  "title": "Find the slope of a tangent to a circle by differentiation",
+  "show": "circle x²+y²=169 with the radius to (5,12) and the tangent perpendicular to it",
+  "example": {
+   "question": "The circle $x^2 + y^2 = 169$ contains the point $(5, 12)$. Find the slope of the tangent to the circle at that point.",
+   "final": "$-\\dfrac{5}{12}$",
+   "steps": [
+    {
+     "say": "Differentiate each term with respect to $x$. Because $y$ depends on $x$, the term $y^2$ gives $2y\\,\\hl{1}{\\frac{dy}{dx}}$.",
+     "rows": [
+      {
+       "aside": "$\\frac{d}{dx}(x^2) = 2x$, $\\frac{d}{dx}(y^2) = 2y\\,\\hl{1}{\\frac{dy}{dx}}$, and $\\frac{d}{dx}(169) = 0$."
+      },
+      {
+       "l": "2x + 2y\\,\\hl{1}{\\frac{dy}{dx}}",
+       "r": "= 0"
+      }
+     ]
+    },
+    {
+     "say": "Get $\\hl{1}{\\frac{dy}{dx}}$ on its own.",
+     "rows": [
+      {
+       "l": "2y\\,\\hl{1}{\\frac{dy}{dx}}",
+       "r": "= -2x"
+      },
+      {
+       "l": "\\hl{1}{\\frac{dy}{dx}}",
+       "r": "= -\\frac{x}{y}"
+      }
+     ]
+    },
+    {
+     "say": "Now put in $x = 5$ and $y = 12$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\frac{dy}{dx}}",
+       "r": "= -\\frac{5}{12}"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-curve-sketch",
+  "title": "Sketch a curve using calculus",
+  "show": "curve y=x³-6x²+9x through (0,0) and touching the x-axis at (3,0), local max (1,4) and local min (3,0) marked",
+  "example": {
+   "question": "Sketch the graph of $f(x) = x^3 - 6x^2 + 9x$. Mark where it meets the axes and find its turning points.",
+   "final": "\\text{max } (1, 4), \\ \\text{min } (3, 0)",
+   "steps": [
+    {
+     "say": "The graph meets the $x$-axis where $f(x) = 0$, so factorise. It meets the $y$-axis where $x = 0$.",
+     "rows": [
+      {
+       "l": "f(x)",
+       "r": "= x^3 - 6x^2 + 9x"
+      },
+      {
+       "l": "",
+       "r": "= x(x^2 - 6x + 9)"
+      },
+      {
+       "l": "",
+       "r": "= x(x - 3)^2"
+      },
+      {
+       "aside": "So it meets the $x$-axis at $x = 0$ and $x = 3$. It meets the $y$-axis at $(0, 0)$."
+      }
+     ]
+    },
+    {
+     "say": "At a turning point the slope is zero. Differentiate, then set $f'(x)$ equal to $0$.",
+     "rows": [
+      {
+       "l": "f'(x)",
+       "r": "= 3x^2 - 12x + 9"
+      },
+      {
+       "l": "3x^2 - 12x + 9",
+       "r": "= 0"
+      },
+      {
+       "l": "x^2 - 4x + 3",
+       "r": "= 0"
+      },
+      {
+       "l": "(x - 1)(x - 3)",
+       "r": "= 0"
+      },
+      {
+       "aside": "So the turning points are at $\\hl{1}{x = 1}$ and $\\hl{1}{x = 3}$."
+      }
+     ]
+    },
+    {
+     "say": "Put each $x$ back into $f$ to get the $\\hl{2}{y}$-value.",
+     "rows": [
+      {
+       "l": "f(1)",
+       "r": "= 1 - 6 + 9"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{4}"
+      },
+      {
+       "l": "f(3)",
+       "r": "= 27 - 54 + 27"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{0}"
+      }
+     ]
+    },
+    {
+     "say": "Use the second derivative. Negative means a maximum, positive means a minimum.",
+     "rows": [
+      {
+       "l": "f''(x)",
+       "r": "= 6x - 12"
+      },
+      {
+       "l": "f''(1)",
+       "r": "= 6(1) - 12"
+      },
+      {
+       "l": "",
+       "r": "= -6"
+      },
+      {
+       "l": "f''(3)",
+       "r": "= 6(3) - 12"
+      },
+      {
+       "l": "",
+       "r": "= 6"
+      },
+      {
+       "aside": "$(1, 4)$ is a **maximum** and $(3, 0)$ is a **minimum**. Draw the curve rising through $(0, 0)$ to $(1, 4)$, falling to touch the $x$-axis at $(3, 0)$, then rising."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-sketch-derivative",
+  "title": "Sketch/match the graph of f′ from f",
+  "show": "parabola f(x)=-x²+4x-1 with max at x=2, and f'(x) straight line below crossing zero at x=2",
+  "example": {
+   "question": "The graph of $f(x) = -x^2 + 4x - 1$ has a maximum at $x = 2$. Sketch the graph of $f'(x)$.",
+   "final": "f'(x) = -2x + 4",
+   "steps": [
+    {
+     "say": "Differentiate $f$ to get the equation of $\\hl{1}{f'(x)}$.",
+     "rows": [
+      {
+       "l": "f(x)",
+       "r": "= -x^2 + 4x - 1"
+      },
+      {
+       "l": "\\hl{1}{f'(x)}",
+       "r": "= -2x + 4"
+      }
+     ]
+    },
+    {
+     "say": "The maximum of $f$ is a turning point, so $f'$ is zero there. Check that $f'$ meets the $x$-axis at $\\hl{2}{x = 2}$.",
+     "rows": [
+      {
+       "l": "-2x + 4",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{2}{2}"
+      }
+     ]
+    },
+    {
+     "say": "Put $x = 0$ into $f'$ to get one more point.",
+     "rows": [
+      {
+       "l": "f'(0)",
+       "r": "= -2(0) + 4"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{3}{4}"
+      },
+      {
+       "aside": "$f'$ is a straight line sloping down. Draw it through $(0, \\hl{3}{4})$ and $(\\hl{2}{2}, 0)$. It is above the axis where $f$ rises and below it where $f$ falls."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-related-rates",
+  "title": "Solve connected rates of change",
+  "show": "sphere with radius r growing as air is pumped in",
+  "example": {
+   "question": "Air is pumped into a spherical balloon at $72$ cm$^3$ per second. Find the rate at which the radius is increasing when $r = 3$ cm. The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$.",
+   "final": "\\frac{2}{\\pi} \\text{ cm/s}",
+   "steps": [
+    {
+     "say": "We are given $\\frac{dV}{dt} = 72$. We want $\\frac{dr}{dt}$. Differentiate the volume formula with respect to $r$.",
+     "rows": [
+      {
+       "l": "V",
+       "r": "= \\frac{4}{3}\\pi r^3"
+      },
+      {
+       "l": "\\frac{dV}{dr}",
+       "r": "= 4\\pi r^2"
+      }
+     ]
+    },
+    {
+     "say": "Turn it round: $\\frac{dr}{dV}$ is one over $\\frac{dV}{dr}$. Multiply by $\\frac{dV}{dt}$ to get $\\hl{1}{\\frac{dr}{dt}}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{\\frac{dr}{dt}}",
+       "r": "= \\frac{1}{4\\pi r^2} \\times 72"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{18}{\\pi r^2}"
+      }
+     ]
+    },
+    {
+     "say": "Now put in $r = 3$.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= \\frac{18}{\\pi (3)^2}"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{\\frac{2}{\\pi}}"
+      },
+      {
+       "aside": "The radius grows at $\\frac{2}{\\pi} \\approx 0.64$ cm per second."
+      }
+     ]
+    }
+   ]
+  }
+ }
+]
