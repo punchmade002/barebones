@@ -1,0 +1,289 @@
+[
+ {
+  "skill": "fn-solve-graphically",
+  "of": "7cf04d1b96c5",
+  "title": "Solve equations approximately from graphs",
+  "show": "parabola y=x²-2x-8 for -4≤x≤6 with the roots on the x-axis and the horizontal line drawn for the value asked highlighted",
+  "example": {
+   "question": "The graph of $f(x) = x^2 - 2x - 8$ is drawn for $-4 \\le x \\le 6$. Use the graph to estimate the values of $x$ for which $f(x) = 5$. Give your answers correct to one decimal place.",
+   "final": "x \\approx \\hl{2}{-2.7} \\ \\text{or} \\ x \\approx \\hl{2}{4.7}",
+   "steps": [
+    {
+     "say": "The equation $f(x) = \\hl{1}{5}$ asks: where is the curve at height $\\hl{1}{5}$?",
+     "rows": [
+      {
+       "aside": "On the graph, find the points of the curve whose $y$ value is $\\hl{1}{5}$."
+      }
+     ]
+    },
+    {
+     "say": "Draw a horizontal line across the graph at $y = \\hl{1}{5}$. Mark each point where it cuts the curve.",
+     "rows": [
+      {
+       "aside": "The line cuts the curve in two places, so there are two answers."
+      }
+     ]
+    },
+    {
+     "say": "From each point, go straight down to the $x$-axis and read the value.",
+     "rows": [
+      {
+       "aside": "Left point: $x \\approx \\hl{2}{-2.7}$."
+      },
+      {
+       "aside": "Right point: $x \\approx \\hl{2}{4.7}$."
+      }
+     ]
+    },
+    {
+     "say": "Put the equation equal to zero and solve it. The answers should agree with your readings.",
+     "rows": [
+      {
+       "l": "x^2 - 2x - 8",
+       "r": "= \\hl{1}{5}"
+      },
+      {
+       "l": "x^2 - 2x - 13",
+       "r": "= 0"
+      },
+      {
+       "aside": "The formula gives $x = 1 \\pm \\sqrt{14}$, which is $\\hl{2}{-2.7}$ and $\\hl{2}{4.7}$."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-enlargement",
+  "of": "52105385e864",
+  "title": "Construct and analyse an enlargement",
+  "show": "triangle ABC and its enlargement PQR from centre O with rays through corresponding points, |OB|=5, |OQ|=12",
+  "example": {
+   "question": "The triangle $ABC$ is enlarged with centre $O$ to give the image $PQR$. $|OB| = 5$ cm and $|OQ| = 12$ cm. The area of $ABC$ is $10$ cm$^2$. Find the area of $PQR$.",
+   "final": "\\text{Area of } PQR = 57.6 \\text{ cm}^2",
+   "steps": [
+    {
+     "say": "The scale factor is image length over object length. Use the two lengths from $O$: $\\hl{1}{k} = \\frac{|OQ|}{|OB|}$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{k}",
+       "r": "= \\frac{12}{5}"
+      },
+      {
+       "l": "",
+       "r": "= 2.4"
+      }
+     ]
+    },
+    {
+     "say": "Lengths grow by $k$, so areas grow by $\\hl{2}{k^2}$.",
+     "rows": [
+      {
+       "l": "\\hl{2}{k^2}",
+       "r": "= 2.4^2"
+      },
+      {
+       "l": "",
+       "r": "= 5.76"
+      }
+     ]
+    },
+    {
+     "say": "Multiply the area of $ABC$ by $\\hl{2}{k^2}$.",
+     "rows": [
+      {
+       "l": "\\text{Area of } PQR",
+       "r": "= 10 \\times 5.76"
+      },
+      {
+       "l": "",
+       "r": "= 57.6"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-similar-triangles",
+  "of": "81e6f86cb12b",
+  "title": "Find lengths using similar triangles",
+  "show": "two similar triangles ABC and PQR with matching sides AB=8, PQ=14, AC=12 marked",
+  "example": {
+   "question": "Triangles $ABC$ and $PQR$ are similar. $|AB| = 8$ cm and $|PQ| = 14$ cm are matching sides. $|AC| = 12$ cm. Find $|PR|$, the side that matches $[AC]$.",
+   "final": "|PR| = 21 \\text{ cm}",
+   "steps": [
+    {
+     "say": "Divide a side of the bigger triangle by the matching side of the smaller one. This gives $\\hl{1}{k}$, the number that turns $ABC$ into $PQR$.",
+     "rows": [
+      {
+       "l": "\\hl{1}{k}",
+       "r": "= \\frac{|PQ|}{|AB|}"
+      },
+      {
+       "l": "",
+       "r": "= \\frac{14}{8} = 1.75"
+      }
+     ]
+    },
+    {
+     "say": "$PR$ matches $AC$. Multiply $|AC|$ by the scale factor $\\hl{1}{k}$.",
+     "rows": [
+      {
+       "l": "|PR|",
+       "r": "= |AC| \\times \\hl{1}{k}"
+      },
+      {
+       "l": "",
+       "r": "= 12 \\times 1.75"
+      },
+      {
+       "l": "",
+       "r": "= \\hl{2}{21} \\text{ cm}"
+      }
+     ]
+    },
+    {
+     "say": "$PQR$ is the bigger triangle, so $|PR|$ should be bigger than $|AC| = 12$. It is.",
+     "rows": [
+      {
+       "aside": "Always check that the bigger triangle gets the bigger answer."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-prove-thm11",
+  "of": "811efe77c3ee",
+  "title": "Prove Theorem 11",
+  "show": "three parallel lines cutting transversal AC with AB=BC, and a second transversal with the construction line parallel to AC for the proof",
+  "example": {
+   "question": "Three parallel lines $AD$, $BE$ and $CF$ cut off equal segments on the transversal $AC$, so $|AB| = |BC|$. Prove that they cut off equal segments on any other transversal $DF$, so $|DE| = |EF|$.",
+   "final": "|DE| = |EF|",
+   "steps": [
+    {
+     "say": "Write down what you are given and what you must show, with a diagram.",
+     "rows": [
+      {
+       "aside": "Given: $AD \\parallel BE \\parallel CF$ and $|AB| = |BC|$."
+      },
+      {
+       "aside": "To prove: $|DE| = |EF|$."
+      }
+     ]
+    },
+    {
+     "say": "Draw through $A$ a line parallel to $DF$. It meets $BE$ at $B'$ and $CF$ at $C'$. Draw through $B'$ a line parallel to $DF$ too, meeting $CF$ at $F'$.",
+     "rows": [
+      {
+       "aside": "Construction: $AC' \\parallel DF$, and $B'F' \\parallel AC$ meeting $CF$ at $F'$."
+      }
+     ]
+    },
+    {
+     "say": "Both pairs of opposite sides are parallel, so the figure on $B'$ and $C$ is a parallelogram. Opposite sides of a parallelogram are equal.",
+     "rows": [
+      {
+       "aside": "$|B'F'| = |BC|$ (opposite sides in a parallelogram)."
+      },
+      {
+       "aside": "$|BC| = |AB|$ (given), so $|B'F'| = |AB|$."
+      }
+     ]
+    },
+    {
+     "say": "Look at the triangles $ABE'$ and $F'B'E'$ that meet at $E'$. Find two equal angles and one equal side.",
+     "rows": [
+      {
+       "aside": "$|\\angle BAE'| = |\\angle B'F'E'|$ (alternate angles)."
+      },
+      {
+       "aside": "$|\\angle AE'B'| = |\\angle F'E'B'|$ (vertically opposite angles)."
+      },
+      {
+       "aside": "So the triangles are congruent by **ASA**, and $|AE'| = |F'E'|$."
+      }
+     ]
+    },
+    {
+     "say": "$AE'$ and $DE$ are opposite sides of a parallelogram, and so are $F'E'$ and $FE$.",
+     "rows": [
+      {
+       "aside": "$|DE| = |AE'| = |F'E'| = |EF|$ (opposite sides in a parallelogram)."
+      },
+      {
+       "aside": "Hence $|DE| = |EF|$. Done."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "int-area-axis",
+  "of": "cc2d92772a36",
+  "title": "Find the area between a curve and the x-axis",
+  "show": "parabola y=x²-5x+4 with the area between it and the x-axis from x=1 to x=4 shaded below the axis",
+  "example": {
+   "question": "Find the area enclosed between the curve $y = x^2 - 5x + 4$ and the $x$-axis.",
+   "final": "\\frac{9}{2} \\text{ square units}",
+   "steps": [
+    {
+     "say": "The area is enclosed between the points where $y = 0$. Set the function equal to $0$ and factorise.",
+     "rows": [
+      {
+       "l": "x^2 - 5x + 4",
+       "r": "= 0"
+      },
+      {
+       "l": "(x - 1)(x - 4)",
+       "r": "= 0"
+      },
+      {
+       "l": "x",
+       "r": "= \\hl{1}{1} \\ \\text{or} \\ x = \\hl{1}{4}"
+      }
+     ]
+    },
+    {
+     "say": "Integrate between the roots $\\hl{1}{1}$ and $\\hl{1}{4}$.",
+     "rows": [
+      {
+       "l": "\\int_1^4 \\left(x^2 - 5x + 4\\right) dx",
+       "r": "= \\left[\\, \\tfrac{x^3}{3} - \\tfrac{5x^2}{2} + 4x \\,\\right]_1^4"
+      }
+     ]
+    },
+    {
+     "say": "Top limit first, then subtract the bottom limit.",
+     "rows": [
+      {
+       "l": "",
+       "r": "= \\left(\\tfrac{64}{3} - 40 + 16\\right) - \\left(\\tfrac{1}{3} - \\tfrac{5}{2} + 4\\right)"
+      },
+      {
+       "l": "",
+       "r": "= -\\tfrac{8}{3} - \\tfrac{11}{6}"
+      },
+      {
+       "l": "",
+       "r": "= -\\tfrac{9}{2}"
+      }
+     ]
+    },
+    {
+     "say": "The curve is below the $x$-axis between the roots, so the integral is negative. An area cannot be negative, so take the positive value.",
+     "rows": [
+      {
+       "l": "\\text{Area}",
+       "r": "= \\left| -\\tfrac{9}{2} \\right| = \\tfrac{9}{2}"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]
