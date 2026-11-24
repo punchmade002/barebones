@@ -8,7 +8,7 @@ d={
 '0.b':(1,[]),'0.0':(1,[]),
 '0.1':(1,[('0.0',H,'economic development vs growth','high')]),
 '0.2':(1,[('0.0',H,'output and income','high')]),
-'0.3':(1,[('1.1.3',H,'GNI definition','high')]),
+'0.3':(1,[('1.3',H,'GNI definition','high')]),
 '0.4':(2,[('0.2',H,'developed vs developing','high')]),
 '1.b':(1,[]),'1.0':(1,[]),
 '1.1':(2,[('1.0',E,'GDP as base measure','high')]),
