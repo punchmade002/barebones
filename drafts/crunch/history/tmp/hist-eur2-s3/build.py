@@ -19,7 +19,7 @@ P='/Users/gabrielwhelan/barebones/drafts/crunch/history/'
 a='hist-eur2-s3.'
 s1=[
 (a+'0.b',1,[]),(a+'0.0',1,[]),
-(a+'0.1',1,[n('hist-eur2-s1.7.4',H,'Bismarck's resignation'.replace("'","")) ]),
+(a+'0.1',1,[n('hist-eur2-s1.7.4',H,'Bismarck resignation') ]),
 (a+'0.2',1,[n('hist-eur2-s1.1.1',H,'Anti-Socialist Law')]),
 (a+'0.3',1,[]),(a+'0.4',1,[]),
 (a+'0.5',1,[n(a+'0.4',E,'Daily Telegraph affair')]),
@@ -57,7 +57,7 @@ s1=[
 (a+'5.1',1,[]),(a+'5.2',1,[]),(a+'5.3',1,[]),(a+'5.4',1,[]),(a+'5.5',1,[]),
 (a+'6.0',1,[]),(a+'6.1',1,[]),(a+'6.2',1,[]),
 (a+'6.3',2,[n(a+'1.b',H,'Weltpolitik','low')]),
-(a+'6.4',2,[n(a+'2.4',H,'Tirpitz's domestic motives'.replace("'",""))]),
+(a+'6.4',2,[n(a+'2.4',H,'Tirpitz domestic motives')]),
 (a+'6.5',1,[]),
 (a+'7.0',1,[]),(a+'7.1',1,[]),
 (a+'7.2',1,[n(a+'1.3',H,'Kiaochow and Samoa')]),

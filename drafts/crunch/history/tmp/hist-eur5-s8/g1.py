@@ -1,0 +1,76 @@
+import json,re
+P='hist-eur5-s8.'
+def L(i,s,w,c='high'):return {"id":i,"strength":s,"why":w,"confidence":c}
+E='essential';H='helpful'
+d={
+'0.b':(1,[]),
+'0.0':(1,[]),
+'0.1':(1,[L(P+'0.0',H,'Commonwealth citizens entering Britain')]),
+'0.2':(1,[]),
+'0.3':(1,[]),
+'0.4':(1,[L(P+'2.0',H,'the new 1962 restrictions')]),
+'0.5':(1,[L(P+'0.0',H,'Commonwealth citizenship rights of 1948')]),
+'0.6':(1,[]),
+'1.0':(1,[]),
+'1.1':(1,[L(P+'1.0',E,'the 1958 disturbances explained')]),
+'1.2':(1,[L(P+'5.1',H,'Notting Hill Carnival','low')]),
+'1.3':(1,[L(P+'1.0',H,'Notting Hill racial tension 1958')]),
+'2.0':(1,[L(P+'0.0',H,'Commonwealth citizens right to enter')]),
+'2.1':(1,[L(P+'2.0',E,'builds on the 1962 Act')]),
+'2.2':(2,[L(P+'2.1',H,'immigration controls of 1968','low')]),
+'2.3':(1,[]),
+'2.4':(2,[]),
+'2.5':(1,[]),
+'2.6':(1,[L(P+'2.4',E,'campaigns against the National Front')]),
+'3.0':(1,[]),
+'3.1':(1,[L(P+'3.0',E,'extends the 1965 Act')]),
+'3.2':(1,[L(P+'3.1',H,'extends earlier Race Relations Acts')]),
+'3.3':(1,[L(P+'3.0',H,'the Race Relations laws')]),
+'3.4':(1,[]),
+'4.0':(1,[]),
+'4.1':(2,[L(P+'4.0',E,'police stop-and-search powers'),]),
+'4.2':(1,[L(P+'4.1',H,'the Brixton riots of 1981')]),
+'4.3':(2,[L(P+'4.1',E,'the 1981 riots examined')]),
+'4.4':(1,[L(P+'4.3',E,'the Scarman Report'),L(P+'4.0',H,'the sus law')]),
+'5.b':(1,[]),
+'5.0':(1,[]),
+'5.1':(1,[]),
+'5.2':(1,[]),
+'5.3':(1,[L(P+'3.0',H,'the Race Relations Acts','low')]),
+'5.4':(2,[]),
+'5.5':(2,[]),
+'6.0':(1,[L('hist-eur5-s4.5.3',H,'Algerian independence in 1962')]),
+'6.1':(1,[]),
+'6.2':(1,[]),
+'6.3':(1,[L('hist-eur5-s4.6.1',E,'who the harkis were')]),
+'6.4':(1,[L(P+'6.1',H,'labour immigration being suspended')]),
+'6.5':(1,[L(P+'6.1',H,'second generation of migrants','low')]),
+'6.6':(1,[L(P+'6.0',H,'Algerian nationals and free movement')]),
+'6.7':(1,[L('hist-eur5-s4.6.2',H,'harkis placed in camps')]),
+'6.8':(1,[]),
+'6.9':(1,[]),
+'6.10':(1,[L(P+'6.4',H,'labour immigration halted 1974')]),
+'7.0':(1,[]),
+'7.1':(1,[L(P+'7.0',E,'universal citizenship model')]),
+'7.2':(1,[]),
+'7.3':(1,[L(P+'7.0',H,'state ignoring ethnic communities')]),
+'7.4':(1,[]),
+'8.0':(2,[L(P+'6.4',H,'French 1974 immigration suspension'),L(P+'2.4',H,'British far-right groups')]),
+'8.1':(1,[L(P+'0.0',E,'Commonwealth citizens right of entry'),L(P+'6.0',E,'Algerian legal status')]),
+'8.2':(1,[L(P+'5.3',E,'British multiculturalism'),L(P+'7.1',E,'French assimilation')]),
+'8.3':(1,[L(P+'0.b',H,'Caribbean and South Asian migration'),L(P+'6.1',H,'French migration sources','low')]),
+'9.0':(1,[L(P+'3.1',H,'anti-discrimination laws')]),
+'9.1':(1,[L(P+'4.3',H,'causes of the 1981 riots')]),
+'9.2':(1,[L(P+'7.0',H,'universal citizenship')]),
+'9.3':(1,[L(P+'7.1',E,'the assimilation model')]),
+'9.4':(1,[]),
+'9.5':(2,[L(P+'7.0',E,'the French republican model'),L(P+'5.3',H,'British race-relations model')]),
+}
+out={P+k:{"cost":c,"needs":n} for k,(c,n) in d.items()}
+json.dump(out,open('/Users/gabrielwhelan/barebones/drafts/crunch/history/point-links/hist-eur5-s8.t1g1.json','w'),indent=1)
+txt=open('/Users/gabrielwhelan/barebones/drafts/crunch/history/packs/hist-eur5-s8.t1g1.txt').read()
+ids=re.findall(r'^\[([^\]]+)\]',txt,re.M)
+tg=[i for i in ids if i.startswith(P)]
+assert list(out)==tg,(set(tg)^set(out))
+assert all(n['id'] in ids and n['id']!=k for k,v in out.items() for n in v['needs'])
+print(len(out),sum(len(v['needs']) for v in out.values()),sum(v['cost']==2 for v in out.values()),sum(n['confidence']=='low' for v in out.values() for n in v['needs']))
