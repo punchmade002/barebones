@@ -1,0 +1,414 @@
+{
+ "geo-urban-s7": [
+  {
+   "needs": "geo-population-migration-s6",
+   "strength": "essential",
+   "why": "rural-to-urban migration drives rapid developing-world city growth",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s5",
+   "strength": "helpful",
+   "why": "compares with developed-world urban problems like housing, traffic",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s6",
+   "strength": "helpful",
+   "why": "planning and renewal ideas behind slum clearance and new towns",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "developing-world context, informal economy and inequality",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s1",
+   "strength": "helpful",
+   "why": "India context for Kolkata and Mumbai case studies",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s8": [
+  {
+   "needs": "geo-urban-s5",
+   "strength": "essential",
+   "why": "builds on housing, transport, sprawl problems of cities",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s6",
+   "strength": "helpful",
+   "why": "planning approaches such as compact city and renewal",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s7",
+   "strength": "helpful",
+   "why": "developing-world futures issue uses developing-world city problems",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "helpful",
+   "why": "ageing populations and urban population trends",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s1": [
+  {
+   "needs": "geo-weather-climate-s1",
+   "strength": "helpful",
+   "why": "weather data, instruments and observing networks",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s2": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s1",
+   "strength": "essential",
+   "why": "uses atmosphere layers, ocean temperature and heat capacity",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s3": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s1",
+   "strength": "essential",
+   "why": "uses atmospheric humidity, temperature and ocean-atmosphere linkage",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s2",
+   "strength": "helpful",
+   "why": "heat redistribution drives evaporation and cooling",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s4": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s2",
+   "strength": "essential",
+   "why": "uses heat budget, Hadley cell and ocean currents",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s3",
+   "strength": "essential",
+   "why": "depressions use condensation, fronts, adiabatic cooling",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s1",
+   "strength": "helpful",
+   "why": "uses pressure, salinity and density basics",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-weather-climate-s1",
+   "strength": "helpful",
+   "why": "depression weather sequence read from weather maps",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s5": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s2",
+   "strength": "essential",
+   "why": "climate types explained by latitude, heat and circulation",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s4",
+   "strength": "essential",
+   "why": "monsoon and oceanic climates use winds, pressure belts, currents",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s3",
+   "strength": "helpful",
+   "why": "precipitation and humidity patterns of each climate",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s6": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s5",
+   "strength": "essential",
+   "why": "uses monsoon, oceanic and arid climate characteristics",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "climate effects on economic development and regions",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s3",
+   "strength": "helpful",
+   "why": "rainfall, drought and water supply link to hydrological cycle",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s1": [
+  {
+   "needs": "geo-population-migration-s5",
+   "strength": "helpful",
+   "why": "ethnic and racial groups and migration flows",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "helpful",
+   "why": "migration patterns such as refugees and labour migration",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s2": [
+  {
+   "needs": "geo-option-culture-identity-s5",
+   "strength": "helpful",
+   "why": "language links to nationalism and the nation state",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s3": [
+  {
+   "needs": "geo-option-culture-identity-s5",
+   "strength": "helpful",
+   "why": "church-state relations and nationality",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s4": [
+  {
+   "needs": "geo-option-culture-identity-s2",
+   "strength": "helpful",
+   "why": "language and Irish-language culture in everyday expression",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-globalisation-s4",
+   "strength": "helpful",
+   "why": "globalisation pressures on local culture",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s5": [
+  {
+   "needs": "geo-option-culture-identity-s2",
+   "strength": "helpful",
+   "why": "language divides cultural groups within states",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-culture-identity-s3",
+   "strength": "helpful",
+   "why": "religion divides cultural groups within states",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s6": [
+  {
+   "needs": "geo-option-culture-identity-s2",
+   "strength": "essential",
+   "why": "Swiss languages use language as cultural indicator",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s3",
+   "strength": "essential",
+   "why": "Swiss religious geography uses religion as cultural indicator",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s5",
+   "strength": "essential",
+   "why": "boundaries, federalism and accommodating cultural groups",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s4",
+   "strength": "helpful",
+   "why": "Swiss music, sport and festivals as everyday expressions",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-geoecology-s1": [
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "essential",
+   "why": "parent material forms by weathering of rock",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "helpful",
+   "why": "rock types supply soil parent material",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-geoecology-s2": [
+  {
+   "needs": "geo-option-geoecology-s1",
+   "strength": "essential",
+   "why": "uses soil profile, texture, humus, pH",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "helpful",
+   "why": "weathering as a soil-forming process",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s5",
+   "strength": "helpful",
+   "why": "zonal soils tied to climatic environments",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-geoecology-s3": [
+  {
+   "needs": "geo-option-geoecology-s1",
+   "strength": "essential",
+   "why": "uses soil structure, fertility and erosion effects",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s2",
+   "strength": "essential",
+   "why": "uses erosion, leaching, soil processes and soil types",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s5",
+   "strength": "helpful",
+   "why": "Sahel desertification relates to rainfall and climate",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-geoecology-s4": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s5",
+   "strength": "essential",
+   "why": "biome climate and causes of aridity from climate and circulation",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s2",
+   "strength": "helpful",
+   "why": "desert and rainforest soils such as latosol",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s6",
+   "strength": "helpful",
+   "why": "desert landscape shaped by wind erosion",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-geoecology-s5": [
+  {
+   "needs": "geo-option-geoecology-s4",
+   "strength": "essential",
+   "why": "altering biomes uses biome characteristics, e.g. rainforest",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s3",
+   "strength": "helpful",
+   "why": "clearance leads to soil erosion and degradation",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s1": [
+  {
+   "needs": "geo-economic-development-s1",
+   "strength": "essential",
+   "why": "uses measures of development such as HDI",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s4",
+   "strength": "helpful",
+   "why": "global justice perspective on development",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s2": [
+  {
+   "needs": "geo-economic-globalisation-s1",
+   "strength": "essential",
+   "why": "uses MNC structure and operation",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s3",
+   "strength": "helpful",
+   "why": "world trade patterns and producer-consumer regions",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s2",
+   "strength": "helpful",
+   "why": "MNC impact on regions",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-eu-s2",
+   "strength": "helpful",
+   "why": "Irish trade and multinationals in Ireland",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s3": [
+  {
+   "needs": "geo-option-global-interdependence-s1",
+   "strength": "essential",
+   "why": "uses development theory, growth versus development, dependency",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s1",
+   "strength": "helpful",
+   "why": "uses development indicators",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-development-s4",
+   "strength": "helpful",
+   "why": "debt, aid and global justice issues",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s4": [
+  {
+   "needs": "geo-economic-environment-s4",
+   "strength": "essential",
+   "why": "uses sustainable economic development concepts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-global-interdependence-s1",
+   "strength": "helpful",
+   "why": "sustainable development as a development view",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "helpful",
+   "why": "Irish energy and renewable resource use",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-global-interdependence-s2",
+   "strength": "helpful",
+   "why": "fair trade relates to interdependent trade",
+   "confidence": "low"
+  }
+ ]
+}

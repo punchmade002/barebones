@@ -1,0 +1,284 @@
+{
+ "geo-economic-activities-s2": [
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "uses primary, secondary, tertiary sector terms",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-environment-s1": [],
+ "geo-economic-environment-s2": [
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "essential",
+   "why": "uses fossil fuel and renewable resource classes",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-environment-s3": [
+  {
+   "needs": "geo-economic-environment-s2",
+   "strength": "helpful",
+   "why": "builds on greenhouse effect from burning fossil fuels",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-environment-s4": [
+  {
+   "needs": "geo-economic-environment-s3",
+   "strength": "helpful",
+   "why": "sustainability responds to pollution and warming",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-environment-s5": [
+  {
+   "needs": "geo-economic-environment-s4",
+   "strength": "essential",
+   "why": "uses EIA, sustainability and EPA control",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "helpful",
+   "why": "Corrib gas conflict uses gas and energy supply",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-eu-s3",
+   "strength": "helpful",
+   "why": "fishing quotas come from Common Fisheries Policy",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-eu-s1": [
+  {
+   "needs": "geo-economic-globalisation-s3",
+   "strength": "helpful",
+   "why": "uses visible trade, balance of trade vocabulary",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads trade pie charts and tables",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-eu-s2": [
+  {
+   "needs": "geo-economic-eu-s1",
+   "strength": "essential",
+   "why": "compares Irish trade with EU trading patterns",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "Irish economic history, sectors and exports",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-eu-s3": [
+  {
+   "needs": "geo-economic-eu-s2",
+   "strength": "helpful",
+   "why": "EU influence builds on Irish trade and membership",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "CAP and CFP affect Irish farming and fishing",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-globalisation-s1": [
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "helpful",
+   "why": "MNC location uses footloose industry location factors",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-globalisation-s2": [
+  {
+   "needs": "geo-economic-globalisation-s1",
+   "strength": "essential",
+   "why": "extends Intel and MNC case studies",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "helpful",
+   "why": "mobility and location factors of activities",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-globalisation-s3": [
+  {
+   "needs": "geo-economic-eu-s1",
+   "strength": "helpful",
+   "why": "EU as trading bloc within the triad",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-globalisation-s4": [
+  {
+   "needs": "geo-economic-globalisation-s3",
+   "strength": "essential",
+   "why": "uses new international division of labour and trade",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s1",
+   "strength": "helpful",
+   "why": "uses MNC and basic processing unit ideas",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "core and periphery link to uneven development",
+   "confidence": "high"
+  }
+ ],
+ "geo-population-migration-s1": [
+  {
+   "needs": "geo-graph-skills-s2",
+   "strength": "helpful",
+   "why": "uses census data and population statistics",
+   "confidence": "high"
+  }
+ ],
+ "geo-population-migration-s2": [
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "essential",
+   "why": "uses density, growth rates and demographic transition",
+   "confidence": "high"
+  }
+ ],
+ "geo-population-migration-s3": [
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "helpful",
+   "why": "migration is a component of population change",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-graph-skills-s2",
+   "strength": "helpful",
+   "why": "reads census migration data",
+   "confidence": "low"
+  }
+ ],
+ "geo-population-migration-s4": [
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "essential",
+   "why": "uses push and pull factors and migration concepts",
+   "confidence": "high"
+  }
+ ],
+ "geo-population-migration-s5": [
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "essential",
+   "why": "uses migration concepts and Irish immigration patterns",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s4",
+   "strength": "helpful",
+   "why": "government approaches to migrants and asylum",
+   "confidence": "low"
+  }
+ ],
+ "geo-population-migration-s6": [
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "essential",
+   "why": "uses push and pull factors and donor/receiver regions",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "helpful",
+   "why": "uses population distribution and growth",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s1": [],
+ "geo-urban-s2": [
+  {
+   "needs": "geo-urban-s1",
+   "strength": "helpful",
+   "why": "settlement history explains rural patterns like clachans",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "identifies settlement patterns on OS maps",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s3": [
+  {
+   "needs": "geo-urban-s1",
+   "strength": "essential",
+   "why": "uses site, situation and function",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "identifies site and functions on OS maps",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s4": [
+  {
+   "needs": "geo-urban-s3",
+   "strength": "essential",
+   "why": "uses urban functions, CBD and hierarchy",
+   "confidence": "high"
+  }
+ ],
+ "geo-urban-s5": [
+  {
+   "needs": "geo-urban-s4",
+   "strength": "essential",
+   "why": "uses land-use zones and urban expansion",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s6",
+   "strength": "helpful",
+   "why": "rural-to-urban migration drives city growth",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s6": [
+  {
+   "needs": "geo-urban-s5",
+   "strength": "essential",
+   "why": "planning responds to urban problems",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s4",
+   "strength": "helpful",
+   "why": "uses land-use zones and planning issues",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s2",
+   "strength": "helpful",
+   "why": "uses the planning system and development plans",
+   "confidence": "low"
+  }
+ ]
+}
