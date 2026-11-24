@@ -20,7 +20,7 @@ const PICKS = {
   geography: { elective: "elective:economic", option: "option:global-interdependence", region: "region:geo-region-continental-s1" },
   history: { ire: ["ire:hist-ire2", "ire:hist-ire3"], eur: ["eur:hist-eur3", "eur:hist-eur4"] },
 };
-const BASE = { decay: 0.5, helpW: 0.5, gapE: 0.5, gapH: 0.2, halfLife: 8, newShare: 0.1, choice: true, exact: 0.5 };
+const BASE = { decay: 0.65, helpW: 0.5, gapE: 0.75, gapH: 0.35, halfLife: 8, newShare: 0.1, choice: true, exact: 0.5 };
 const GRID = { exact: [0, 0.25, 0.5, 0.75, 1], halfLife: [2, 4, 8, 16, 50] };
 const BUDGETS = [5, 10, 15, 20, 25, 30, 40, 50, 60];
 

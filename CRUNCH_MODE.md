@@ -23,7 +23,7 @@ and LC mode or Test mode.
 are in `scripts/crunch_map.py` `AAC`, taken from `<subject>-exam-info.js`: Biology
 in Practice Investigation 40%, Geographical Investigation 20%. The grade bar is the
 overall grade. The cut targets the written paper (target − weight × AAC) ÷
-(1 − weight), and the 5% margin applies to the written paper. If the AAC alone
+(1 − weight), and the safety margin applies to the written paper. If the AAC alone
 reaches the grade, everything is hidden. If the written paper would need over 100%,
 everything is kept and the page says it's out of reach.
 
@@ -40,7 +40,8 @@ near-perfect written paper.
 **Target maths.**
 - Coursework is subtracted first. For example, Biology 80% overall with 95%
   expected on the 40% investigation: written paper needs (80 − 0.4×95)/0.6 = 70%.
-- Add a 5% margin → keep items covering 75% of expected written marks.
+- Safety margin (since 2026-11-24, replacing a flat +5%): keep enough that the written target would have been
+  reached in about 4 past years in 5. See "Year-by-year backtest" below.
 - Assume the student gets full marks on every item they keep.
 
 **Pure scoring, no absolutes.** No item is ever force-kept. A 40% target can cut
@@ -157,7 +158,7 @@ first full LC-mode test once exam value exists (25 years of tagged papers).
   papers up to 2021 to cover 64% scored only 37% on 2022–2025. The cut now gives
   each part `exact` = 0.5 of its marks on its tagged points and spreads the rest
   over those points' subsections, which was the best blend in a backtest.
-  The page also calibrates itself with `crunchCalibrate`: it re-cuts from papers
+  (Replaced 2026-11-24 by `crunchBacktest`, see below.) The page also calibrated itself with `crunchCalibrate`: it re-cuts from papers
   up to 2019 and up to 2022, marks the later papers the 2027 way, and maps every
   point to the grade a student would really score. Calibrated Biology results:
   85% target cuts 46% of study effort, 75% cuts 67%, 55% cuts 90%, 35% cuts 96%.
@@ -252,3 +253,21 @@ Not tunable from past papers:
 - newShare: in a backtest, "new" means "not asked yet". Those subsections mostly stay unasked, so the
   backtest always says 0. That is a different thing from new-syllabus content.
 These are hand-set judgements for every subject, Biology included.
+
+## Year-by-year backtest and foundation weights (2026-11-24, user's call)
+**Backtest.** `crunchBacktest(D, P, q = 0.2)` in `crunch-score.js` replaces the old two-fold `crunchCalibrate`.
+For each past year after the first 5 papers, it cuts using only earlier papers and marks that year's real paper.
+Each point's level is then the mark a student would get in a bad year: the 20th percentile across years, so the
+target is reached in about 4 years in 5. There is no flat +5% margin any more. A subject whose papers swing more
+gets a lower bad-year mark, so it keeps more. The maps' fourth stat shows the range of past-year marks for the
+current plan and how many years it reached the target. Test years: Biology 2020–25 (6), Geography 2022–26 (5),
+History 2011–26 (16). History scores about 6 s per change (16 re-cuts).
+**Foundations.** Defaults raised to hop decay 0.65, gap discount 0.75 essential / 0.35 helpful (was 0.5 / 0.5 / 0.2).
+At a 55% target, kept points missing an essential foundation fell from 2.7% to 0.7% (Biology). Off entirely it is
+31%, and real marks at a 15% study budget were 2–5 points lower, so foundations do help exam marks.
+**Results with both** (written-paper target, default picks):
+- Biology: 85% → cut 54%, 75% → 70%, 55% → 91%, 35% → 96%.
+- Geography: 85% → 53%, 75% → 61%, 55% → 84%, 35% → 94%.
+- History: 85% → 51%, 75% → 77%, 55% → 85%, 35% → 92%.
+History's past-year range is very wide (as low as about 20% in 3 of 16 years at most targets), because a whole
+essay rides on one topic coming up.
