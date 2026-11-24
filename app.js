@@ -4087,7 +4087,7 @@ function getExamDisclaimer(subject) {
     biology: {
       tone: "info",
       status: "Previous course",
-      body: "These papers (2015 to 2025) were set on the previous Biology course; the new course is first examined in 2027. Most of the content carries over. Parts on dropped topics have no model answer, and questions made up entirely of dropped topics are hidden.",
+      body: "These papers (2015 to 2026) were set on the previous Biology course; the new course is first examined in 2027. Most of the content carries over. Parts on dropped topics have no model answer, and questions made up entirely of dropped topics are hidden.",
     },
     chemistry: {
       tone: "warning",

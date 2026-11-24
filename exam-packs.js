@@ -4,7 +4,7 @@
 // Bump a pack's ?v= when its file changes, as with the tags in app.html.
 (function () {
   var PACKS = {
-    biology: "./biology-exam-questions.js?v=1",
+    biology: "./biology-exam-questions.js?v=2",
     history: "./history-exam-questions.js?v=5",
     chemistry: "./chemistry-exam-questions.js?v=2",
     "home-economics": "./home-economics-exam-questions.js?v=2",

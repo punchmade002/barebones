@@ -1050,15 +1050,18 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(b)(i)",
     "marks": 9,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "notes-gap",
+    "model": "Tadpoles from one mother are alike, so there is less natural variation between individuals. They are therefore likely to respond to the iodine in the same way, so any difference in growth is due to the iodine.",
+    "model_source": "notes",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "bio2-s2",
+     "question"
+    ]
    },
    {
     "label": "(b)(ii)1",
@@ -1944,28 +1947,33 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(c)(ii)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "notes-gap",
+    "model": "Very small mesh nets catch too many fish, harvesting faster than the population can replace itself (overfishing), which depletes fish stocks. Loss of fish species through overexploitation reduces biodiversity and can lead to extinction.",
+    "model_source": "notes",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "bio31-s2"
+    ]
    },
    {
     "label": "(c)(iii)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "notes-gap",
+    "model": "Spring and summer is the bird nesting season, so cutting the hedgerow then destroys nests and disrupts nesting. It also removes the habitat of the animals that live in it, endangering them, and breaks food chains such as oak leaves, caterpillar, blue tit.",
+    "model_source": "notes",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "bio31-s2",
+     "bio31-s7"
+    ]
    },
    {
     "label": "(c)(iv)",
@@ -11364,15 +11372,17 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(f)",
     "marks": 2,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "notes-gap",
+    "model": "Bioprocessing is using microorganisms, enzymes or cells to make useful products.",
+    "model_source": "notes",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "bio33-s3"
+    ]
    },
    {
     "label": "(g)",
@@ -21569,28 +21579,32 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(e)",
     "marks": 2,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "notes-gap",
+    "model": "In a scientific journal.",
+    "model_source": "notes",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "bio1-s2"
+    ]
    },
    {
     "label": "(f)",
     "marks": 6,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "notes-gap",
+    "model": "So that the work can be peer reviewed (checked by independent experts), and so that other scientists can read it and try to repeat it.",
+    "model_source": "notes",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "bio1-s2"
+    ]
    }
   ]
  },
@@ -32571,7 +32585,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "marks": 4,
     "model": "",
     "model_source": "",
-    "answerStatus": "flagged",
+    "answerStatus": "notes-gap",
     "type": [
      "short-answer"
     ],
@@ -51044,15 +51058,17 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
    {
     "label": "(a)",
     "marks": 3,
-    "model": "",
-    "model_source": "",
-    "answerStatus": "flagged",
+    "model": "A hypothesis is a proposed (possible) explanation for an observation.",
+    "model_source": "notes",
+    "answerStatus": "written",
     "type": [
      "short-answer"
     ],
     "diagramRelation": "none",
     "offSpec": false,
-    "notesRefs": []
+    "notesRefs": [
+     "bio2-s1"
+    ]
    },
    {
     "label": "(b)",
@@ -51896,7 +51912,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "marks": 5,
     "model": "",
     "model_source": "",
-    "answerStatus": "flagged",
+    "answerStatus": "notes-gap",
     "type": [
      "long-answer"
     ],
@@ -51950,7 +51966,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "diagramRelation": "none",
     "offSpec": false,
     "notesRefs": [
-     "2.5.7"
+     "bio24-s1"
     ]
    },
    {
@@ -51965,7 +51981,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "diagramRelation": "none",
     "offSpec": false,
     "notesRefs": [
-     "2.5.7"
+     "bio24-s1"
     ]
    },
    {
@@ -51980,7 +51996,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "diagramRelation": "label-the-figure",
     "offSpec": false,
     "notesRefs": [
-     "2.5.7",
+     "bio24-s1",
      "question"
     ]
    },
@@ -52012,7 +52028,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "diagramRelation": "refers-to-figure",
     "offSpec": false,
     "notesRefs": [
-     "2.5.7",
+     "bio24-s1",
      "question"
     ]
    },
@@ -52041,7 +52057,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "diagramRelation": "none",
     "offSpec": false,
     "notesRefs": [
-     "2.5.7"
+     "bio24-s1"
     ]
    },
    {
@@ -52056,7 +52072,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "diagramRelation": "none",
     "offSpec": false,
     "notesRefs": [
-     "2.5.8"
+     "bio24-s3"
     ]
    },
    {
@@ -52086,7 +52102,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "diagramRelation": "none",
     "offSpec": false,
     "notesRefs": [
-     "2.5.8"
+     "bio24-s3"
     ]
    },
    {
@@ -62702,6 +62718,3330 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     "diagramRelation": "none",
     "offSpec": true,
     "notesRefs": []
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q1",
+  "subject": "biology",
+  "chapterId": "bio8",
+  "sectionId": "bio-sectionA",
+  "source": "LC Biology Higher 2026 — Section A — Q1",
+  "year": 2026,
+  "level": "higher",
+  "paper": "A+B",
+  "questionNumber": 1,
+  "legacy": true,
+  "totalMarks": 20,
+  "images": [
+   "exam-images/biology/2026/higher-q1-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 4,
+    "model": "For energy. To provide raw materials for growth (and repair).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio8-s3"
+    ]
+   },
+   {
+    "label": "(b)",
+    "marks": 4,
+    "model": "Carbon, hydrogen and oxygen.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio8-s2"
+    ]
+   },
+   {
+    "label": "(c)",
+    "marks": 4,
+    "model": "Triglyceride (one glycerol joined to three fatty acids).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio8-s2"
+    ]
+   },
+   {
+    "label": "(d)",
+    "marks": 4,
+    "model": "Lipids are respired to provide energy (they also act as an energy store).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio8-s3"
+    ]
+   },
+   {
+    "label": "(e)",
+    "marks": 4,
+    "model": "Vitamin D.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio8-s5"
+    ]
+   },
+   {
+    "label": "(f)",
+    "marks": 4,
+    "model": "Lack of vitamin D causes rickets (soft, bent bones in children).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio8-s5"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q2",
+  "subject": "biology",
+  "chapterId": "bio7",
+  "sectionId": "bio-sectionA",
+  "source": "LC Biology Higher 2026 — Section A — Q2",
+  "year": 2026,
+  "level": "higher",
+  "paper": "A+B",
+  "questionNumber": 2,
+  "legacy": true,
+  "totalMarks": 20,
+  "images": [
+   "exam-images/biology/2026/higher-q2-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 2,
+    "model": "Nucleus. Draw an arrow from the box to the nucleus (the dark-stained structure inside the cell), and write 'nucleus' in the box.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram",
+     "short-answer"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio7-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(b)",
+    "marks": 3,
+    "model": "Prokaryotic.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio7-s1"
+    ]
+   },
+   {
+    "label": "(c)",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(d)",
+    "marks": 6,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(e)",
+    "marks": 6,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": true,
+    "notesRefs": []
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q3",
+  "subject": "biology",
+  "chapterId": "bio28",
+  "sectionId": "bio-sectionA",
+  "source": "LC Biology Higher 2026 — Section A — Q3",
+  "year": 2026,
+  "level": "higher",
+  "paper": "A+B",
+  "questionNumber": 3,
+  "legacy": true,
+  "totalMarks": 20,
+  "images": [
+   "exam-images/biology/2026/higher-q3-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 3,
+    "model": "The thoracic (chest) cavity.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio28-s1"
+    ]
+   },
+   {
+    "label": "(b)",
+    "marks": 3,
+    "model": "It closes over the entrance to the trachea (larynx) during swallowing so food does not enter the trachea.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio28-s1"
+    ]
+   },
+   {
+    "label": "(c)",
+    "marks": 3,
+    "model": "The rings keep the trachea open so it does not collapse when the pressure inside falls during inhalation.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio28-s1"
+    ]
+   },
+   {
+    "label": "(d)(i)",
+    "marks": 3,
+    "model": "Draw a dome-shaped sheet of muscle across the bottom of the thorax, directly beneath the lungs and above the abdomen, and label it 'diaphragm'.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "draw-a-diagram",
+    "offSpec": false,
+    "notesRefs": [
+     "bio28-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(d)(ii)",
+    "marks": 2,
+    "model": "Draw a downward arrow on the diaphragm (it contracts, flattens and moves down during inhalation).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio28-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(e)",
+    "marks": 3,
+    "model": "Intercostal muscles (external intercostals).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio28-s1"
+    ]
+   },
+   {
+    "label": "(f)",
+    "marks": 3,
+    "model": "The ribs (and sternum) move upwards and outwards, increasing the volume of the thorax.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio28-s1"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q4",
+  "subject": "biology",
+  "chapterId": "bio30",
+  "sectionId": "bio-sectionA",
+  "source": "LC Biology Higher 2026 — Section A — Q4",
+  "year": 2026,
+  "level": "higher",
+  "paper": "A+B",
+  "questionNumber": 4,
+  "legacy": true,
+  "totalMarks": 20,
+  "images": [
+   "exam-images/biology/2026/higher-q4-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 3,
+    "model": "Stomata.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s4"
+    ]
+   },
+   {
+    "label": "(b)",
+    "marks": 3,
+    "model": "Carbon dioxide (CO2).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s4"
+    ]
+   },
+   {
+    "label": "(c)",
+    "marks": 3,
+    "model": "As the concentration of gas X (CO2) increases, the size of the openings P (stomata) decreases. They are inversely related.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s4",
+     "question"
+    ]
+   },
+   {
+    "label": "(d)",
+    "marks": 2,
+    "model": "Continue the curve from its end point upwards (rising), because as the concentration of gas X falls the guard cells become turgid and the openings P get larger.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s4",
+     "question"
+    ]
+   },
+   {
+    "label": "(e)(i)",
+    "marks": 3,
+    "model": "Dermal tissue (the epidermis).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s1"
+    ]
+   },
+   {
+    "label": "(e)(ii)",
+    "marks": 3,
+    "model": "Protection (the epidermis is the outer protective layer).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s1"
+    ]
+   },
+   {
+    "label": "(f)",
+    "marks": 3,
+    "model": "Lenticels.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s1"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q5",
+  "subject": "biology",
+  "chapterId": "bio10",
+  "sectionId": "bio-sectionA",
+  "source": "LC Biology Higher 2026 — Section A — Q5",
+  "year": 2026,
+  "level": "higher",
+  "paper": "A+B",
+  "questionNumber": 5,
+  "legacy": true,
+  "totalMarks": 20,
+  "images": [
+   "exam-images/biology/2026/higher-q5-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 3,
+    "model": "Transcription.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio17-s2"
+    ]
+   },
+   {
+    "label": "(b)",
+    "marks": 3,
+    "model": "In the nucleus.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio17-s2"
+    ]
+   },
+   {
+    "label": "(c)",
+    "marks": 3,
+    "model": "Ribosome.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio17-s2"
+    ]
+   },
+   {
+    "label": "(d)",
+    "marks": 3,
+    "model": "Transfer RNA (tRNA).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio17-s2"
+    ]
+   },
+   {
+    "label": "(e)",
+    "marks": 3,
+    "model": "Codons.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio10-s3"
+    ]
+   },
+   {
+    "label": "(f)",
+    "marks": 3,
+    "model": "mRNA C U A G U A A C A: DNA gene sequence G A T  C A T  T G T (A pairs with T, C with G, U pairs with A).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio10-s1",
+     "bio10-s3",
+     "question"
+    ]
+   },
+   {
+    "label": "(g)",
+    "marks": 2,
+    "model": "The chain of amino acids folds into its correct three-dimensional shape.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio10-s2"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q6",
+  "subject": "biology",
+  "chapterId": "bio34",
+  "sectionId": "bio-sectionA",
+  "source": "LC Biology Higher 2026 — Section A — Q6",
+  "year": 2026,
+  "level": "higher",
+  "paper": "A+B",
+  "questionNumber": 6,
+  "legacy": true,
+  "totalMarks": 20,
+  "images": [
+   "exam-images/biology/2026/higher-q6-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 4,
+    "model": "Denitrification. Draw an arrow from nitrate (or molecule X or Y) to nitrogen gas and write 'denitrification' in the box.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram",
+     "short-answer"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio34-s2",
+     "question"
+    ]
+   },
+   {
+    "label": "(b)A",
+    "marks": 2,
+    "model": "Nitrogen fixation.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio34-s2"
+    ]
+   },
+   {
+    "label": "(b)B",
+    "marks": 2,
+    "model": "Assimilation.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio34-s2"
+    ]
+   },
+   {
+    "label": "(b)C",
+    "marks": 2,
+    "model": "Nitrification.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio34-s2"
+    ]
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 3,
+    "model": "Nitrogen-fixing bacteria (in the soil or in legume root nodules) convert nitrogen gas into ammonium.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio34-s2"
+    ]
+   },
+   {
+    "label": "(c)(ii)",
+    "marks": 3,
+    "model": "It makes nitrogen available to plants in a form they can absorb (ammonium or nitrate), to make amino acids and proteins.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio34-s2"
+    ]
+   },
+   {
+    "label": "(d)X",
+    "marks": 2,
+    "model": "Ammonium (ammonia).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio34-s2"
+    ]
+   },
+   {
+    "label": "(d)Y",
+    "marks": 2,
+    "model": "Nitrite.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio34-s2"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q7",
+  "subject": "biology",
+  "chapterId": "bio29",
+  "sectionId": "bio-sectionA",
+  "source": "LC Biology Higher 2026 — Section A — Q7",
+  "year": 2026,
+  "level": "higher",
+  "paper": "A+B",
+  "questionNumber": 7,
+  "legacy": true,
+  "totalMarks": 20,
+  "images": [
+   "exam-images/biology/2026/higher-q7-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 4,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(b)",
+    "marks": 4,
+    "model": "Location: in the wall of the right atrium of the heart. Function: it is the pacemaker; it produces regular impulses that set the rate of the heartbeat.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s3"
+    ]
+   },
+   {
+    "label": "(c)",
+    "marks": 4,
+    "model": "Location: a small sac underneath the liver. Function: stores (and concentrates) bile.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio27-s1"
+    ]
+   },
+   {
+    "label": "(d)",
+    "marks": 4,
+    "model": "Location: on top of each kidney. Function: produces adrenaline (for fight or flight).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio20-s1"
+    ]
+   },
+   {
+    "label": "(e)",
+    "marks": 4,
+    "model": "Location: at the back of the brain, below the cerebrum. Function: coordinates muscular movement and controls balance and posture.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio19-s1"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q8",
+  "subject": "biology",
+  "chapterId": "bio2",
+  "sectionId": "bio-sectionB",
+  "source": "LC Biology Higher 2026 — Section B — Q8",
+  "year": 2026,
+  "level": "higher",
+  "paper": "A+B",
+  "questionNumber": 8,
+  "legacy": true,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/biology/2026/higher-q8-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)1",
+    "marks": 3,
+    "model": "Qualitative data describe the presence or absence of a substance or organism (or a description) and are not numerical.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio2-s4"
+    ]
+   },
+   {
+    "label": "(a)2",
+    "marks": 3,
+    "model": "Quantitative data are numerical measurements or counts, e.g. the amount of a substance or number of organisms.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio2-s4"
+    ]
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 6,
+    "model": "Put 2 cm3 of the food solution in a test tube and add an equal volume of Benedict's solution (blue). Heat in a hot water bath (about 80 C or above) for about 5 minutes. A brick-red (orange) precipitate forms if a reducing sugar is present.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio8-s7"
+    ]
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 12,
+    "model": "Cut an onion and peel a thin, one-cell-thick layer of epidermis from a scale leaf. Place it on a clean microscope slide in a drop of water. Add a drop of a named stain, iodine solution. Lower a coverslip at an angle of about 45 degrees with a mounted needle to avoid air bubbles, blot off excess liquid, then place the slide on the microscope stage.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer",
+     "experiment"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio7-s4",
+     "bio7-s2"
+    ]
+   },
+   {
+    "label": "(b)(iii)1",
+    "marks": 3,
+    "model": "The detergent (washing-up liquid) breaks down the cell membranes (and nuclear envelope), releasing the DNA.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio35-s3"
+    ]
+   },
+   {
+    "label": "(b)(iii)2",
+    "marks": 3,
+    "model": "DNA is insoluble in cold ethanol, so it precipitates out of solution and can be seen and collected.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio35-s3"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q9",
+  "subject": "biology",
+  "chapterId": "bio13",
+  "sectionId": "bio-sectionB",
+  "source": "LC Biology Higher 2026 — Section B — Q9",
+  "year": 2026,
+  "level": "higher",
+  "paper": "A+B",
+  "questionNumber": 9,
+  "legacy": true,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/biology/2026/higher-q9-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 3,
+    "model": "An enzyme is a biological catalyst: a protein made by a living cell that speeds up a chemical reaction without being used up.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio13-s1"
+    ]
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 3,
+    "model": "The enzyme's shape (including its active site) is permanently changed, so the substrate no longer fits and the enzyme can no longer function.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio13-s2"
+    ]
+   },
+   {
+    "label": "(b)",
+    "marks": 24,
+    "model": "Enzyme and substrate: catalase (from celery) and hydrogen peroxide. Preparation: blend a fixed mass of chopped celery with distilled water and filter through muslin to give one batch of catalase extract used for every test. Method: into each 100 cm3 graduated cylinder put 10 cm3 of a buffer of a different pH (e.g. pH 4, 5, 6, 7, 8, 9, 10), 2 cm3 of celery extract and one drop of washing-up liquid. Stand the cylinders in a 25 C water bath for 5 minutes. Note the starting volume, add 2 cm3 of hydrogen peroxide with a syringe and start the stopwatch. Fair test: only pH is changed; the same volumes and concentration of hydrogen peroxide, same extract, same temperature, same time and same size of cylinder are used; a control with boiled extract gives no foam; repeat three times for each pH and take the mean. Measuring the rate: the catalase releases oxygen, which the washing-up liquid traps as foam; after 2 minutes read the top of the foam at eye level on the graduated cylinder, and foam volume (cm3) per minute is the rate. Results: most foam at about pH 7 (the optimum), less foam at lower (acidic) and higher (alkaline) pH, and very little at the extremes because the enzyme is denatured. Safety precaution: hydrogen peroxide irritates eyes and skin, so wear safety glasses (and gloves) and wash any splash off with plenty of water. Diagram: graduated cylinder in a water bath with thermometer, holding buffer, celery extract and washing-up liquid with a column of foam above and a syringe adding hydrogen peroxide, all labelled.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer",
+     "experiment"
+    ],
+    "diagramRelation": "draw-a-diagram",
+    "offSpec": false,
+    "notesRefs": [
+     "bio13-s3"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q10",
+  "subject": "biology",
+  "chapterId": "",
+  "sectionId": "bio-sectionB",
+  "source": "LC Biology Higher 2026 — Section B — Q10",
+  "year": 2026,
+  "level": "higher",
+  "paper": "A+B",
+  "questionNumber": 10,
+  "legacy": true,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/biology/2026/higher-q10-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 3,
+    "model": "In the meristem (tip of the shoot or root).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio16-s2",
+     "bio24-s3"
+    ]
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 21,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "long-answer",
+     "experiment"
+    ],
+    "diagramRelation": "draw-a-diagram",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": true,
+    "notesRefs": []
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q11",
+  "subject": "biology",
+  "chapterId": "bio14",
+  "sectionId": "bio-sectionC",
+  "source": "LC Biology Higher 2026 — Section C — Q11",
+  "year": 2026,
+  "level": "higher",
+  "paper": "C",
+  "questionNumber": 11,
+  "legacy": true,
+  "totalMarks": 60,
+  "images": [
+   "exam-images/biology/2026/higher-q11-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 3,
+    "model": "Metabolism is all the chemical reactions in a cell (or organism).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio8-s1"
+    ]
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 3,
+    "model": "Adenosine triphosphate.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio9-s1"
+    ]
+   },
+   {
+    "label": "(a)(iii)",
+    "marks": 3,
+    "model": "ATP carries (transfers) energy from reactions that release it to reactions that use it, i.e. it supplies energy.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio9-s1"
+    ]
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 3,
+    "model": "Glycolysis.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio15-s3"
+    ]
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 6,
+    "model": "Glucose (6C) is converted to two molecules of pyruvate (pyruvic acid). ATP is produced from ADP and phosphate (net 2 ATP), and NADH is produced from NAD+ with electrons and protons.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio15-s3"
+    ]
+   },
+   {
+    "label": "(b)(iii)1",
+    "marks": 3,
+    "model": "Oxygen.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio15-s4"
+    ]
+   },
+   {
+    "label": "(b)(iii)2",
+    "marks": 3,
+    "model": "In the mitochondrion (the matrix and the cristae of the inner membrane).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio15-s5"
+    ]
+   },
+   {
+    "label": "(b)(iii)3",
+    "marks": 12,
+    "model": "Pyruvate is converted to acetyl (acetyl coenzyme A), which enters the Krebs (citric acid) cycle in the matrix. CO2 is released. ATP is produced from ADP and phosphate. NADH is produced from NAD+ with electrons and protons. The NADH breaks down to electrons and protons, and the electrons pass along the electron transport chain. At the end of the chain, the electrons and protons combine with oxygen to form water.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio15-s4",
+     "bio15-s5"
+    ]
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 3,
+    "model": "It requires (uses) light energy.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio14-s3"
+    ]
+   },
+   {
+    "label": "(c)(ii)1",
+    "marks": 3,
+    "model": "Chlorophyll.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio14-s3"
+    ]
+   },
+   {
+    "label": "(c)(ii)2",
+    "marks": 3,
+    "model": "They return to the chlorophyll.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio14-s3"
+    ]
+   },
+   {
+    "label": "(c)(iii)1",
+    "marks": 3,
+    "model": "Photolysis.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio14-s3"
+    ]
+   },
+   {
+    "label": "(c)(iii)2",
+    "marks": 3,
+    "model": "The chloroplast (on the thylakoid membranes).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio14-s5"
+    ]
+   },
+   {
+    "label": "(c)(iv)",
+    "marks": 6,
+    "model": "The protons combine with NADP+ (and electrons) to form NADPH. In the light-independent stage, the protons and electrons from NADPH reduce carbon dioxide to glucose (carbohydrate).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio14-s3",
+     "bio14-s4"
+    ]
+   },
+   {
+    "label": "(c)(v)",
+    "marks": 3,
+    "model": "Increase the carbon dioxide level in the greenhouse.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio14-s2"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q12",
+  "subject": "biology",
+  "chapterId": "bio31",
+  "sectionId": "bio-sectionC",
+  "source": "LC Biology Higher 2026 — Section C — Q12",
+  "year": 2026,
+  "level": "higher",
+  "paper": "C",
+  "questionNumber": 12,
+  "legacy": true,
+  "totalMarks": 60,
+  "images": [
+   "exam-images/biology/2026/higher-q12-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 3,
+    "model": "Competition is the struggle between organisms for a resource that is in short supply.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio32-s4"
+    ]
+   },
+   {
+    "label": "(a)(ii)1",
+    "marks": 3,
+    "model": "Contest competition.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio32-s4"
+    ]
+   },
+   {
+    "label": "(a)(ii)2",
+    "marks": 3,
+    "model": "There is an active physical contest for the resource and the winner takes it, e.g. stags fighting over mates (or birds fighting over territory).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio32-s4"
+    ]
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 3,
+    "model": "Adult weevils are mainly active after dark (nocturnal).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "question"
+    ]
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 3,
+    "model": "Being active at night avoids predation by hedgehogs and shrews, so more weevils survive to feed and breed.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "question"
+    ]
+   },
+   {
+    "label": "(b)(iii)",
+    "marks": 3,
+    "model": "Not all of the weevils are killed by the predators, and there is plenty of food (a wide range of plants), so the survivors breed and numbers increase.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "question",
+     "bio31-s5"
+    ]
+   },
+   {
+    "label": "(b)(iv)",
+    "marks": 3,
+    "model": "Hydrangea (plant) -> vine weevil -> shrew.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "question",
+     "bio31-s7"
+    ]
+   },
+   {
+    "label": "(b)(v)",
+    "marks": 3,
+    "model": "A pyramid of numbers with three horizontal bars, labelled from the bottom: Hydrangea (producer) as the widest bar at the base, vine weevil in the middle, shrew as the narrowest bar at the top.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "draw-a-diagram",
+    "offSpec": false,
+    "notesRefs": [
+     "bio31-s8",
+     "question"
+    ]
+   },
+   {
+    "label": "(b)(vi)1",
+    "marks": 2,
+    "model": "A.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "question",
+     "bio31-s6"
+    ]
+   },
+   {
+    "label": "(b)(vi)2",
+    "marks": 1,
+    "model": "Line A has the higher peaks (higher population), and it peaks before line B; the prey peak comes first, followed by the predator.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "question",
+     "bio31-s6"
+    ]
+   },
+   {
+    "label": "(b)(vii)",
+    "marks": 3,
+    "model": "It takes time for the shrews to breed and increase after the weevil numbers rise (a time lag between prey and predator).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio31-s6"
+    ]
+   },
+   {
+    "label": "(b)(viii)1",
+    "marks": 3,
+    "model": "Parasitism.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio32-s4"
+    ]
+   },
+   {
+    "label": "(b)(viii)2",
+    "marks": 3,
+    "model": "Symbiosis (e.g. mutualism).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio32-s4"
+    ]
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 3,
+    "model": "Conservation is the protection and management of organisms or the environment, to maintain biodiversity while allowing sustainable use.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio31-s2"
+    ]
+   },
+   {
+    "label": "(c)(ii)",
+    "marks": 6,
+    "model": "Agriculture: farmers delay mowing until chicks can fly and mow from the centre of the field outwards, leaving tall vegetation as cover. Benefit: corncrake chicks escape and survive, so the species and the biodiversity of the farmland are protected.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio31-s2"
+    ]
+   },
+   {
+    "label": "(c)(iii)",
+    "marks": 3,
+    "model": "Agriculture: animal slurry (and crop waste) is broken down in sealed tanks by microorganisms (anaerobic digestion) to give biogas, with the digestate spread as fertiliser (or plant waste is composted).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio33-s3"
+    ]
+   },
+   {
+    "label": "(c)(iv)",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "notes-gap",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": []
+   },
+   {
+    "label": "(c)(v)1",
+    "marks": 3,
+    "model": "Excess nitrogen and phosphorus from fertiliser or slurry (nutrients).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio31-s2"
+    ]
+   },
+   {
+    "label": "(c)(v)2",
+    "marks": 3,
+    "model": "It causes eutrophication: an algal bloom blocks light, the algae and plants die, decomposers use up the oxygen as they decay, and fish die.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio31-s2",
+     "bio34-s3",
+     "bio3-s3"
+    ]
+   },
+   {
+    "label": "(c)(vi)",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "notes-gap",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": []
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q13",
+  "subject": "biology",
+  "chapterId": "bio11",
+  "sectionId": "bio-sectionC",
+  "source": "LC Biology Higher 2026 — Section C — Q13",
+  "year": 2026,
+  "level": "higher",
+  "paper": "C",
+  "questionNumber": 13,
+  "legacy": true,
+  "totalMarks": 60,
+  "images": [
+   "exam-images/biology/2026/higher-q13-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 9,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "notes-gap",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "draw-a-diagram",
+    "offSpec": false,
+    "notesRefs": []
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 6,
+    "model": "Sex-linked: the gene (allele) is located on a sex chromosome (the X chromosome). Recessive: the allele's effect is masked (hidden) by a dominant allele, so it shows only when no dominant allele is present.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio11-s11",
+     "bio11-s7"
+    ]
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 3,
+    "model": "XNXn",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio11-s11"
+    ]
+   },
+   {
+    "label": "(b)(iii)",
+    "marks": 3,
+    "model": "XnY",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio11-s11"
+    ]
+   },
+   {
+    "label": "(b)(iv)",
+    "marks": 12,
+    "model": "XNXn: normal (carrier) female; XnXn: colour-blind female; XNY: normal male; XnY: colour-blind male.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio11-s11"
+    ]
+   },
+   {
+    "label": "(b)(v)",
+    "marks": 3,
+    "model": "Males have only one X chromosome (and the Y has no matching allele), so one recessive allele n is enough to make a male colour-blind; a female needs two recessive alleles because her dominant allele masks it.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio11-s11"
+    ]
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 6,
+    "model": "Evolution: the change in the inherited characteristics of a species (population) over many generations. Variation: the differences between members of the same species.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio12-s2",
+     "bio12-s1"
+    ]
+   },
+   {
+    "label": "(c)(ii)",
+    "marks": 6,
+    "model": "Gene (point) mutation and chromosome (chromosomal) mutation.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio17-s3"
+    ]
+   },
+   {
+    "label": "(c)(iii)",
+    "marks": 3,
+    "model": "Charles Darwin and Alfred Russel Wallace.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio12-s2"
+    ]
+   },
+   {
+    "label": "(c)(iv)",
+    "marks": 3,
+    "model": "Organisms produce more offspring than can survive, because many die (predation, disease, competition), so producing large numbers means at least some survive to reproduce.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio12-s2"
+    ]
+   },
+   {
+    "label": "(c)(v)",
+    "marks": 3,
+    "model": "Individuals with favourable (inherited) traits are better adapted, so they are more likely to survive and reproduce and pass those alleles to the next generation, so the traits become more common.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio12-s2"
+    ]
+   },
+   {
+    "label": "(c)(vi)",
+    "marks": 3,
+    "model": "Fossils (older fossils lie in deeper rock layers and show life changing over time).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio12-s3"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q14",
+  "subject": "biology",
+  "chapterId": "bio24",
+  "sectionId": "bio-sectionC",
+  "source": "LC Biology Higher 2026 — Section C — Q14",
+  "year": 2026,
+  "level": "higher",
+  "paper": "C",
+  "questionNumber": 14,
+  "legacy": true,
+  "totalMarks": 60,
+  "images": [
+   "exam-images/biology/2026/higher-q14-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 3,
+    "model": "A seed leaf (part of the embryo in a seed).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio24-s3"
+    ]
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 6,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "notes-gap",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": []
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 3,
+    "model": "The ovule.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio24-s1"
+    ]
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 3,
+    "model": "Wind.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio24-s4"
+    ]
+   },
+   {
+    "label": "(b)(iii)",
+    "marks": 3,
+    "model": "It reduces competition between the young plants and the parent for light, water, minerals and space.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio24-s4"
+    ]
+   },
+   {
+    "label": "(b)(iv)",
+    "marks": 3,
+    "model": "Dormancy lets the seed survive unfavourable conditions (e.g. winter or drought) and germinate later when conditions suit.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio24-s3"
+    ]
+   },
+   {
+    "label": "(b)(v)1",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(b)(v)2",
+    "marks": 2,
+    "model": "Testa.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio24-s3"
+    ]
+   },
+   {
+    "label": "(b)(v)3B",
+    "marks": 2,
+    "model": "B: radicle (the embryonic root).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio24-s3"
+    ]
+   },
+   {
+    "label": "(b)(v)3C",
+    "marks": 2,
+    "model": "C: plumule (the embryonic shoot).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio24-s3"
+    ]
+   },
+   {
+    "label": "(b)(vi)",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(b)(vii)",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 3,
+    "model": "Minerals (dissolved mineral ions, e.g. nitrate).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s1",
+     "bio30-s2"
+    ]
+   },
+   {
+    "label": "(c)(ii)",
+    "marks": 6,
+    "model": "Xylem vessels are long continuous hollow tubes (dead cells with no end walls and no cytoplasm), so water flows through without obstruction. Walls are thickened with lignin, which stops the vessels collapsing under tension.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s1"
+    ]
+   },
+   {
+    "label": "(c)(iii)1",
+    "marks": 3,
+    "model": "Henry Dixon and John Joly.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s2"
+    ]
+   },
+   {
+    "label": "(c)(iii)2",
+    "marks": 12,
+    "model": "Water evaporates from the leaves (transpiration), which puts the water column in the xylem under tension (pull). Water molecules stick together by hydrogen bonds (cohesion), so the column does not break. Water molecules are also attracted to the xylem walls (adhesion), which helps hold the column up. So the water is pulled up the xylem as one continuous column, passively, with no ATP used.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio30-s2"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q15",
+  "subject": "biology",
+  "chapterId": "bio23",
+  "sectionId": "bio-sectionC",
+  "source": "LC Biology Higher 2026 — Section C — Q15",
+  "year": 2026,
+  "level": "higher",
+  "paper": "C",
+  "questionNumber": 15,
+  "legacy": true,
+  "totalMarks": 60,
+  "images": [
+   "exam-images/biology/2026/higher-q15-1.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 3,
+    "model": "The deliberate prevention of pregnancy (preventing fertilisation or implantation).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s8"
+    ]
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 6,
+    "model": "Condom; the pill; copper coil (IUD).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s8"
+    ]
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 12,
+    "model": "Draw the female reproductive system from the front: the uterus (pear-shaped) in the centre, with a Fallopian tube leaving each upper corner and ending near an ovary on each side; the cervix as the narrow neck at the base of the uterus, leading into the vagina, a tube running down from it. Draw the endometrium as the lining (thick inner layer) of the uterus. Labels: ovary, Fallopian tube, uterus, endometrium, cervix, vagina.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "draw-a-diagram",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s2"
+    ]
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 3,
+    "model": "Oestrogen repairs and thickens the endometrium.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s4"
+    ]
+   },
+   {
+    "label": "(b)(iii)",
+    "marks": 6,
+    "model": "Progesterone: it maintains (and further thickens) the endometrium, making it ready for implantation.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s4",
+     "bio23-s6"
+    ]
+   },
+   {
+    "label": "(b)(iv)",
+    "marks": 6,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "notes-gap",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": []
+   },
+   {
+    "label": "(c)(i)A",
+    "marks": 1,
+    "model": "Zygote.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s3"
+    ]
+   },
+   {
+    "label": "(c)(i)B",
+    "marks": 1,
+    "model": "Morula.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s5"
+    ]
+   },
+   {
+    "label": "(c)(i)C",
+    "marks": 1,
+    "model": "Blastocyst.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s5"
+    ]
+   },
+   {
+    "label": "(c)(ii)",
+    "marks": 3,
+    "model": "In the Fallopian tube (oviduct).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s5"
+    ]
+   },
+   {
+    "label": "(c)(iii)",
+    "marks": 3,
+    "model": "It must implant: it sinks into and embeds in the thick endometrium of the uterus (trophoblast first).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s5"
+    ]
+   },
+   {
+    "label": "(c)(iv)",
+    "marks": 9,
+    "model": "Ectoderm: epidermis of the skin. Mesoderm: muscle. Endoderm: lining of the digestive system.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s5"
+    ]
+   },
+   {
+    "label": "(c)(v)",
+    "marks": 6,
+    "model": "IVF (fertilisation in a dish, then embryo placed in the uterus); fertility drugs (hormone treatment) to stimulate ovulation.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio23-s8"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q16",
+  "subject": "biology",
+  "chapterId": "bio16",
+  "sectionId": "bio-sectionC",
+  "source": "LC Biology Higher 2026 — Section C — Q16",
+  "year": 2026,
+  "level": "higher",
+  "paper": "C",
+  "questionNumber": 16,
+  "legacy": true,
+  "totalMarks": 60,
+  "images": [
+   "exam-images/biology/2026/higher-q16-1.webp",
+   "exam-images/biology/2026/higher-q16-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)1",
+    "marks": 3,
+    "model": "Mitosis is the division of one nucleus to produce two nuclei that are genetically identical to each other and to the parent nucleus (2n to 2n, as in diagram A).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio16-s2",
+     "question"
+    ]
+   },
+   {
+    "label": "(a)(i)2",
+    "marks": 3,
+    "model": "Meiosis is the division of one diploid (2n) nucleus to produce four haploid (n) daughter nuclei that are genetically different from each other.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio16-s2"
+    ]
+   },
+   {
+    "label": "(a)(ii)1",
+    "marks": 3,
+    "model": "Growth of the organism (or repair and replacement of damaged or worn-out cells, e.g. skin cells or blood cells).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio16-s2"
+    ]
+   },
+   {
+    "label": "(a)(ii)2",
+    "marks": 3,
+    "model": "Production of gametes (sex cells) for sexual reproduction.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio16-s2"
+    ]
+   },
+   {
+    "label": "(a)(iii)",
+    "marks": 6,
+    "model": "Haploid: a cell with one set of chromosomes, i.e. one copy of every chromosome (n), e.g. a gamete. Diploid: a cell with two sets of chromosomes, i.e. two copies of every chromosome, in homologous pairs (2n), e.g. a body cell.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio16-s1",
+     "bio16-s2"
+    ]
+   },
+   {
+    "label": "(a)(iv)",
+    "marks": 9,
+    "model": "Draw a cell with 2n = 4, so eight chromatids, now separate chromosomes, in total. Draw four chromosomes (V-shaped, centromere leading) moving towards each of the two opposite poles of the cell, the chromosomes not joined to their partners, pulled by spindle fibres running from the poles to the centromeres. Label any three of: spindle fibre, centromere, chromosome (chromatid), pole.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "draw-a-diagram",
+    "offSpec": false,
+    "notesRefs": [
+     "bio16-s1"
+    ]
+   },
+   {
+    "label": "(a)(v)",
+    "marks": 3,
+    "model": "Cancer.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio16-s4"
+    ]
+   },
+   {
+    "label": "(b)(i)X",
+    "marks": 2,
+    "model": "Protein.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio6-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(b)(i)Y",
+    "marks": 1,
+    "model": "DNA (or RNA, a nucleic acid).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio6-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 3,
+    "model": "Rod-shaped (helical), e.g. tobacco mosaic virus (or complex, with a head and tail, e.g. a bacteriophage).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio6-s1"
+    ]
+   },
+   {
+    "label": "(b)(iii)",
+    "marks": 12,
+    "model": "The virus attaches to the host cell and its nucleic acid (DNA or RNA) enters the cell. The viral genes take over the cell, which uses its own ribosomes, enzymes, ATP and raw materials to copy the viral nucleic acid and make viral proteins. New virus particles are assembled from these parts, often hundreds per cell. The cell bursts (lysis) and releases the new viruses, which infect other cells.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio22-s4",
+     "question"
+    ]
+   },
+   {
+    "label": "(b)(iv)",
+    "marks": 3,
+    "model": "A red blood cell has no nucleus (and no mitochondria), so the virus has no nucleic acid or machinery to use to copy itself.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s4",
+     "bio22-s4"
+    ]
+   },
+   {
+    "label": "(b)(v)",
+    "marks": 6,
+    "model": "HIV (causes AIDS) and influenza virus (also acceptable: measles, mumps, COVID-19/SARS-CoV-2, hepatitis B, chickenpox).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio6-s1",
+     "bio22-s1"
+    ]
+   },
+   {
+    "label": "(b)(vi)",
+    "marks": 3,
+    "model": "Modified, harmless viruses are used as vectors to carry a working gene into a patient's cells in gene therapy (or bacteriophages as vectors to carry genes into bacteria).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio35-s1"
+    ]
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 3,
+    "model": "The cell lost water by osmosis, so the cytoplasm and cell membrane have shrunk away from the cell wall (plasmolysis).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio25-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(c)(ii)",
+    "marks": 3,
+    "model": "Turgid.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio25-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(c)(iii)1",
+    "marks": 3,
+    "model": "Diffusion is the net movement of molecules from a region of higher concentration to a region of lower concentration, down a concentration gradient.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio25-s1"
+    ]
+   },
+   {
+    "label": "(c)(iii)2",
+    "marks": 3,
+    "model": "Osmosis is diffusion of water only: water molecules move from a region of higher water concentration to a region of lower water concentration, across a selectively (semi-) permeable membrane.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio25-s1"
+    ]
+   },
+   {
+    "label": "(c)(iii)3",
+    "marks": 3,
+    "model": "Because it needs no energy (no ATP) from the cell; it happens through the random movement of particles.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio25-s1"
+    ]
+   },
+   {
+    "label": "(c)(iv)",
+    "marks": 6,
+    "model": "Cell wall: it is rigid and made of cellulose, so it resists the water that enters by osmosis and stops the cell bursting, giving it a fixed shape. (Alternative: the vacuole fills with water and pushes the cytoplasm against the wall, keeping the cell turgid.)",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio7-s3",
+     "bio25-s1"
+    ]
+   },
+   {
+    "label": "(c)(v)",
+    "marks": 3,
+    "model": "Solution B is more dilute: it has a lower solute concentration and a higher water concentration than solution A, which has a higher solute concentration and lower water concentration (B is hypotonic, A is hypertonic to the cell).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio25-s1"
+    ]
+   },
+   {
+    "label": "(c)(vi)",
+    "marks": 3,
+    "model": "The animal cell would gain water by osmosis, swell and burst, as it has no cell wall.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio25-s1"
+    ]
+   },
+   {
+    "label": "(c)(vii)",
+    "marks": 3,
+    "model": "Solution A. Its high solute concentration draws water out of micro-organisms by osmosis, so they shrivel and die and the food does not spoil.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio25-s2",
+     "bio25-s1"
+    ]
+   },
+   {
+    "label": "(d)(i)",
+    "marks": 3,
+    "model": "Fungi.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio6-s3",
+     "bio33-s1"
+    ]
+   },
+   {
+    "label": "(d)(ii)",
+    "marks": 3,
+    "model": "Budding.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio33-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(d)(iii)",
+    "marks": 3,
+    "model": "It is fast (or needs only one parent, or the offspring are identical so a successful set of genes is passed on unchanged).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio16-s2"
+    ]
+   },
+   {
+    "label": "(d)(iv)",
+    "marks": 3,
+    "model": "Copy the diagram and label any three of: bud, nucleus, vacuole, cell wall, cell membrane, mitochondrion, cytoplasm.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio7-s3",
+     "bio33-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(d)(v)",
+    "marks": 6,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "notes-gap",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": []
+   },
+   {
+    "label": "(d)(vi)",
+    "marks": 3,
+    "model": "Rhizopus (black bread mould).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio33-s1"
+    ]
+   },
+   {
+    "label": "(d)(vii)",
+    "marks": 3,
+    "model": "Rhizopus reproduces asexually by spores (produced in a sporangium), whereas yeast buds.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio33-s1"
+    ]
+   },
+   {
+    "label": "(d)(viii)",
+    "marks": 6,
+    "model": "Amoeba, which belongs to the kingdom Protista.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio6-s3",
+     "bio16-s2"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biology-pp-2026-higher-q17",
+  "subject": "biology",
+  "chapterId": "bio29",
+  "sectionId": "bio-sectionC",
+  "source": "LC Biology Higher 2026 — Section C — Q17",
+  "year": 2026,
+  "level": "higher",
+  "paper": "C",
+  "questionNumber": 17,
+  "legacy": true,
+  "totalMarks": 60,
+  "images": [
+   "exam-images/biology/2026/higher-q17-1.webp",
+   "exam-images/biology/2026/higher-q17-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)X",
+    "marks": 2,
+    "model": "Arteriole.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s5",
+     "question"
+    ]
+   },
+   {
+    "label": "(a)(i)Y",
+    "marks": 2,
+    "model": "Venule.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s5",
+     "question"
+    ]
+   },
+   {
+    "label": "(a)(ii)1",
+    "marks": 3,
+    "model": "Blood pressure is the force that the blood exerts on the walls of the blood vessels, produced by the contraction of the ventricles.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s3"
+    ]
+   },
+   {
+    "label": "(a)(ii)2",
+    "marks": 3,
+    "model": "The pulse is the wave of expansion (stretching) of an artery wall, followed by recoil, caused by the surge of blood forced into the arteries each time the ventricles contract.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s3"
+    ]
+   },
+   {
+    "label": "(a)(iii)",
+    "marks": 3,
+    "model": "Blood pressure decreases (falls) as blood flows through the capillary network from the arteriole to the venule.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s5",
+     "question"
+    ]
+   },
+   {
+    "label": "(a)(iv)",
+    "marks": 8,
+    "model": "Draw three labelled diagrams, in transverse section, side by side.\nVein: thin wall (thin muscle and elastic layer) around a wide lumen, often drawn flattened.\nArtery: thick wall (thick muscle and elastic layer) around a narrow round lumen.\nCapillary: wall one cell thick (endothelium only) around a very narrow lumen, just wide enough for one red blood cell.\nLabels: lumen, muscle (and elastic) wall, endothelium (inner lining) on each; valve may be labelled on a vein drawn in longitudinal section.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "draw-a-diagram",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s5"
+    ]
+   },
+   {
+    "label": "(a)(v)",
+    "marks": 3,
+    "model": "Lymph vessel (lymphatic vessel).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s5"
+    ]
+   },
+   {
+    "label": "(a)(vi)1",
+    "marks": 3,
+    "model": "Exercise raises the heart rate (and pulse), so blood flows faster and delivers more oxygen and glucose to the muscles and carries away more CO2. Regular exercise makes a person fitter, so the pulse recovers more quickly after exercise and the resting pulse is lower, and it helps reduce the risk of high blood pressure and heart disease.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s3"
+    ]
+   },
+   {
+    "label": "(a)(vi)2",
+    "marks": 3,
+    "model": "A diet high in saturated fat raises blood cholesterol, so fatty deposits (atheroma) build up in the artery walls and narrow them (atherosclerosis), which can cause angina or a heart attack. Too much salt in the diet raises blood pressure. A balanced diet reduces these risks.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio29-s3"
+    ]
+   },
+   {
+    "label": "(b)(i)1",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(b)(i)2",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 4,
+    "model": "Water and salt.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio26-s1"
+    ]
+   },
+   {
+    "label": "(b)(iii)",
+    "marks": 6,
+    "model": "Sweat glands produce sweat onto the skin surface. The water in the sweat evaporates, which takes heat from the skin (uses body heat), so the body cools down.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio21-s2"
+    ]
+   },
+   {
+    "label": "(b)(iv)",
+    "marks": 6,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "off-spec",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": true,
+    "notesRefs": []
+   },
+   {
+    "label": "(b)(v)",
+    "marks": 3,
+    "model": "",
+    "model_source": "",
+    "answerStatus": "notes-gap",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": []
+   },
+   {
+    "label": "(b)(vi)",
+    "marks": 3,
+    "model": "Homeostasis.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio21-s2"
+    ]
+   },
+   {
+    "label": "(b)(vii)",
+    "marks": 2,
+    "model": "Enzymes work best within a narrow range of temperature and pH, so a constant internal environment lets metabolic reactions work efficiently.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio21-s2"
+    ]
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 3,
+    "model": "Excretion is the removal of the waste products of metabolism from the body.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio26-s1"
+    ]
+   },
+   {
+    "label": "(c)(ii)1",
+    "marks": 10,
+    "model": "Large diagram, front view: two bean-shaped kidneys at the back of the abdomen, one on each side, the right slightly lower than the left. A ureter runs from each kidney down to the bladder, which is a bag in the lower abdomen where both ureters enter. One urethra leaves the bottom of the bladder. Labels: kidney, ureter, bladder, urethra.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "draw-a-diagram",
+    "offSpec": false,
+    "notesRefs": [
+     "bio26-s1"
+    ]
+   },
+   {
+    "label": "(c)(ii)2",
+    "marks": 2,
+    "model": "An arrow drawn on a ureter pointing down from the kidney towards the bladder.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio26-s1"
+    ]
+   },
+   {
+    "label": "(c)(iii)1",
+    "marks": 2,
+    "model": "Nephron.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio26-s2",
+     "question"
+    ]
+   },
+   {
+    "label": "(c)(iii)2A",
+    "marks": 2,
+    "model": "Bowman's capsule.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio26-s2",
+     "question"
+    ]
+   },
+   {
+    "label": "(c)(iii)2B",
+    "marks": 2,
+    "model": "Loop of Henle.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio26-s2",
+     "question"
+    ]
+   },
+   {
+    "label": "(c)(iii)3A",
+    "marks": 3,
+    "model": "Filtration (ultrafiltration): high pressure in the glomerulus forces small molecules (water, glucose, amino acids, salts, urea) out of the blood into the capsule. Blood cells and plasma proteins are too large and stay in the blood.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio26-s2"
+    ]
+   },
+   {
+    "label": "(c)(iii)3B",
+    "marks": 3,
+    "model": "Reabsorption: water is reabsorbed by osmosis, and salts (sodium and chloride ions) are pumped out of the ascending limb into the medulla, making it salty, and so water leaves the descending limb into the blood.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio26-s2"
+    ]
+   },
+   {
+    "label": "(c)(iv)",
+    "marks": 3,
+    "model": "Protein molecules are too big (large) to pass through the pores of the glomerulus and Bowman's capsule, so they are not filtered and stay in the blood.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio26-s2"
+    ]
+   },
+   {
+    "label": "(d)(i)",
+    "marks": 2,
+    "model": "Cerebrospinal fluid.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio19-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(d)(ii)1",
+    "marks": 2,
+    "model": "Meninges.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio19-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(d)(ii)2",
+    "marks": 2,
+    "model": "Vertebrae (the vertebral column).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio19-s1",
+     "bio18-s2"
+    ]
+   },
+   {
+    "label": "(d)(iii)P",
+    "marks": 2,
+    "model": "White matter.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio19-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(d)(iii)Q",
+    "marks": 2,
+    "model": "Grey matter.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "short-answer"
+    ],
+    "diagramRelation": "refers-to-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio19-s1",
+     "question"
+    ]
+   },
+   {
+    "label": "(d)(iv)1",
+    "marks": 6,
+    "model": "Large diagram of a neuron showing: a cell body containing a nucleus; several short branched dendrites coming off the cell body; one long axon leaving the cell body, wrapped in a myelin sheath, ending in axon terminals (synaptic knobs).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "draw-a-diagram",
+    "offSpec": false,
+    "notesRefs": [
+     "bio19-s3"
+    ]
+   },
+   {
+    "label": "(d)(iv)2",
+    "marks": 3,
+    "model": "Label: axon (the long fibre leaving the cell body), dendrite (a short branched extension on the cell body), myelin sheath (the fatty covering around the axon).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio19-s3"
+    ]
+   },
+   {
+    "label": "(d)(iv)3",
+    "marks": 2,
+    "model": "An arrow along the neuron pointing from the dendrites, through the cell body, along the axon towards the axon terminals (away from the cell body).",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "diagram"
+    ],
+    "diagramRelation": "label-the-figure",
+    "offSpec": false,
+    "notesRefs": [
+     "bio19-s3"
+    ]
+   },
+   {
+    "label": "(d)(v)",
+    "marks": 9,
+    "model": "A receptor detects the stimulus and an impulse is generated. The impulse travels along a sensory neuron to the spinal cord (CNS). It passes across a synapse to an interneuron in the grey matter, then on to a motor neuron. The motor neuron carries the impulse to the effector (a muscle), which responds, e.g. the muscle contracts.",
+    "model_source": "notes",
+    "answerStatus": "written",
+    "type": [
+     "long-answer"
+    ],
+    "diagramRelation": "none",
+    "offSpec": false,
+    "notesRefs": [
+     "bio19-s2",
+     "bio19-s1"
+    ]
    }
   ]
  }
