@@ -109,4 +109,4 @@ S4=[
 ('8.3',2,[('5.3',Hh,'Redmond’s standing',l)]),
 ('8.4',1,[('5.4',Hh,'war and Volunteer split',h)]),
 ]
-run('packs/hist-ire2-s4.t1g1.txt','point-links/hist-ire2-s4.t1g1.json','hist-ire2-s4','hist-ire2-',[(k,c,l_) for k,c,l_ in S4])
+run('hist-ire2-s4.t1g1.txt','point-links/hist-ire2-s4.t1g1.json','hist-ire2-s4','hist-ire2-',[(k,c,l_) for k,c,l_ in S4])
