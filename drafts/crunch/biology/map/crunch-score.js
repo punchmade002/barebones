@@ -115,6 +115,8 @@
     return shares ? s / shares : 0;
   }
 
+  globalThis.crunchRealScore = (p, kept, choice, D) => realPaperScore(p, kept, choice, groupsOf(D)); // for scripts/crunch_tune.js
+
   // Backtest the cut: choose points from older papers, mark them on newer ones. Returns f(level) = the share of marks a
   // student would really get if they keep what the model keeps at that coverage level (0..100), averaged over the folds.
   // New-course content has no test papers, so its share is counted at the model's own estimate.

@@ -1,0 +1,34 @@
+{
+ "subject": "geography",
+ "exact": 1,
+ "halfLife": 4,
+ "newShare": 0.05,
+ "score": 71.79,
+ "defaultScore": 69.02,
+ "gain": 2.77,
+ "gainSE": 2.48,
+ "testYears": [
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "budgets": [
+  5,
+  10,
+  15,
+  20,
+  25,
+  30,
+  40,
+  50,
+  60
+ ],
+ "picks": {
+  "elective": "elective:economic",
+  "option": "option:global-interdependence",
+  "region": "region:geo-region-continental-s1"
+ },
+ "tuned": "2026-11-24"
+}
