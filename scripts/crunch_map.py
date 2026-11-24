@@ -46,6 +46,11 @@ def papers(qs, all_items, pos, tags):
             if tagged is not None:
                 for s in tagged:
                     slots.append([p["marks"] / len(tagged), s["k"], [pos[i] for i in s["of"]]])
+                # the same marks again, spread over every point of the subsections the tags fall in (k = 0 means
+                # "spread"). The page blends the two, because new papers ask other points of the same topics.
+                subs_hit = sorted({i.split(".")[0] for s in tagged for i in s["of"]})
+                if subs_hit:
+                    slots.append([p["marks"], 0, [pos[i] for r in subs_hit for i, _, _ in all_items[r][1]]])
             else:
                 pts = [pos[i] for r in p.get("notesRefs") or [] if r in all_items for i, _, _ in all_items[r][1]]
                 slots += [[p["marks"] / len(pts), 1, [i]] for i in pts]

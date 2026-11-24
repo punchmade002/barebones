@@ -104,11 +104,18 @@
         const optShare = attA ? 5 / 6 : 1; // a paper with no short questions puts everything on the optional ones
         const w = q.opt ? optShare / K : (1 / 6) * (att / attA);
         const Q = { paper: pi, opt: q.opt, att, w, cov: 1, inTop: 1, slots: [], K };
-        for (const [marks, k, opts] of q.slots) {
+        // Tagged slots carry `exact` of a part's marks; a spread slot (k = 0) carries the rest, one point each.
+        const exact = P.exact == null ? 1 : P.exact, spreadOnly = !q.slots.some(x => x[1] > 0);
+        const add = (marks, k, opts) => {
+          if (marks <= 0) return;
           const s = { marks, k, opts, G: opts.length, q: questions.length };
           Q.slots.push(slots.length);
           for (const o of opts) pointSlots[o].push(slots.length);
           slots.push(s);
+        };
+        for (const [marks, k, opts] of q.slots) {
+          if (k > 0) add(marks * exact, k, opts);
+          else for (const o of opts) add((marks * (spreadOnly ? 1 : 1 - exact)) / opts.length, 1, [o]);
         }
         questions.push(Q); paperQs[pi].push(Q);
       }
