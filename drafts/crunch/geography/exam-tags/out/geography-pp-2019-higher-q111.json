@@ -1,0 +1,41 @@
+{
+  "11A(i)": [],
+  "11A(ii)": [],
+  "11A(iii)": [{"k": 1, "of": ["geo-population-migration-s4.16.b"]}],
+  "11A(iv)": [],
+  "11A(v)": [{"k": 1, "of": ["geo-population-migration-s3.20.b"]}],
+  "11B": [
+    {"k": 1, "of": ["geo-urban-s4.8.0"]},
+    {"k": 1, "of": ["geo-urban-s4.8.4"]},
+    {"k": 2, "of": ["geo-urban-s4.8.1", "geo-urban-s4.8.2"]},
+    {"k": 1, "of": ["geo-urban-s4.6.5"]},
+    {"k": 1, "of": ["geo-urban-s4.8.2"]},
+    {"k": 1, "of": ["geo-urban-s4.8.5"]},
+    {"k": 2, "of": ["geo-urban-s4.8.3", "geo-urban-s4.8.5"]},
+    {"k": 2, "of": ["geo-urban-s4.2.0", "geo-urban-s4.2.1"]},
+    {"k": 2, "of": ["geo-urban-s4.1.0", "geo-urban-s4.1.4"]},
+    {"k": 2, "of": ["geo-urban-s4.10.b", "geo-urban-s4.10.0"]},
+    {"k": 1, "of": ["geo-urban-s4.10.1"]},
+    {"k": 1, "of": ["geo-urban-s4.10.0"]},
+    {"k": 1, "of": ["geo-urban-s4.10.2"]},
+    {"k": 2, "of": ["geo-urban-s4.10.3", "geo-urban-s4.10.4"]},
+    {"k": 1, "of": ["geo-urban-s4.14.2"]}
+  ],
+  "11C": [
+    {"k": 1, "of": ["geo-population-migration-s2.2.0", "geo-population-migration-s2.4.2"]},
+    {"k": 1, "of": ["geo-population-migration-s2.2.1"]},
+    {"k": 2, "of": ["geo-population-migration-s2.4.1", "geo-population-migration-s2.17.2"]},
+    {"k": 1, "of": ["geo-population-migration-s2.2.2"]},
+    {"k": 2, "of": ["geo-population-migration-s2.7.2", "geo-population-migration-s2.7.0"]},
+    {"k": 1, "of": ["geo-population-migration-s2.7.1"]},
+    {"k": 1, "of": ["geo-population-migration-s2.6.0"]},
+    {"k": 1, "of": ["geo-population-migration-s2.7.3"]},
+    {"k": 2, "of": ["geo-population-migration-s2.7.4", "geo-population-migration-s2.18.1"]},
+    {"k": 1, "of": ["geo-population-migration-s2.8.1"]},
+    {"k": 1, "of": ["geo-population-migration-s2.10.0"]},
+    {"k": 1, "of": ["geo-population-migration-s2.10.2"]},
+    {"k": 2, "of": ["geo-population-migration-s2.20.0", "geo-population-migration-s2.20.3"]},
+    {"k": 2, "of": ["geo-population-migration-s2.20.2", "geo-population-migration-s2.18.0"]},
+    {"k": 1, "of": ["geo-population-migration-s2.18.1"]}
+  ]
+}
