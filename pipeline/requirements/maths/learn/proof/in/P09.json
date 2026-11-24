@@ -1,0 +1,884 @@
+[
+ {
+  "skill": "logic-terms",
+  "title": "Use the language of deductive reasoning",
+  "what": {
+   "say": [
+    "You give it a statement or an argument. It uses the right word for each part: **theorem**, **proof**, **axiom**, **corollary**, **converse**, **implies**.",
+    "The key idea: the **converse** swaps the two halves of \"if … then …\". The converse of a true statement can be false."
+   ],
+   "in": "statement \"if $P$ then $Q$\"",
+   "out": "its converse, true or false"
+  },
+  "example": {
+   "question": "Statement: \"If $x = 3$, then $x^2 = 9$.\" (a) Write down the converse. (b) Is the converse true or false? Give a reason.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the converse",
+      "say": "The statement has the form \"if $P$ then $Q$\". The **converse** swaps them: \"if $Q$ then $P$\".",
+      "lines": [
+       {
+        "text": "$P$: $x = 3$. $Q$: $x^2 = 9$."
+       },
+       {
+        "text": "Converse: \"If $x^2 = 9$, then $x = 3$.\""
+       }
+      ]
+     },
+     {
+      "title": "Test the converse",
+      "say": "To show a statement false you need only one example where it fails. Solve $\\hl{1}{x^2 = 9}$ and see if $x = 3$ is the only answer.",
+      "lines": [
+       {
+        "tex": "x^2 &= 9",
+        "sym": "x**2-9",
+        "new": true
+       },
+       {
+        "tex": "x &= 3 \\text{ or } x = \\hl{2}{-3}",
+        "sym": "[3,-3]",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Give the reason",
+      "say": "The value $\\hl{2}{x = -3}$ makes $x^2 = 9$ true but $x = 3$ false. That is a counterexample.",
+      "lines": [
+       {
+        "text": "So the converse is **false**."
+       },
+       {
+        "text": "Reason: $x = -3$ gives $x^2 = 9$, but $x \\neq 3$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "Converse: if $x^2 = 9$ then $x = 3$. It is **false**, since $x = -3$ is a counterexample."
+   },
+   "finalSym": "[-3, 3]",
+   "answerSym": "solve(x**2-9,x)"
+  }
+ },
+ {
+  "skill": "logic-terms-hl",
+  "title": "Use equivalence, \"if and only if\" and proof by contradiction",
+  "what": {
+   "say": [
+    "You give it a statement. It tells you whether $P \\Leftrightarrow Q$ (\"$P$ if and only if $Q$\") is **true**, by checking both directions, or whether a **contradiction** shows it cannot hold.",
+    "The key idea: $P \\Leftrightarrow Q$ means $P \\Rightarrow Q$ and $Q \\Rightarrow P$. If either direction fails, the statement is false."
+   ],
+   "in": "statement $P \\Leftrightarrow Q$",
+   "out": "true or false, with proof"
+  },
+  "example": {
+   "question": "Prove that $2x + 3 = 11$ if and only if $x = 4$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split into two directions",
+      "say": "\"If and only if\" has two parts. Prove each one on its own.",
+      "lines": [
+       {
+        "text": "First: $2x + 3 = 11 \\Rightarrow x = 4$."
+       },
+       {
+        "text": "Second: $x = 4 \\Rightarrow 2x + 3 = 11$."
+       }
+      ]
+     },
+     {
+      "title": "Prove the first direction",
+      "say": "Assume $2x + 3 = 11$. Subtract $3$, then divide by $2$.",
+      "lines": [
+       {
+        "tex": "2x &= 11 - 3",
+        "sym": "11-3",
+        "new": true
+       },
+       {
+        "tex": "&= 8",
+        "sym": "8"
+       },
+       {
+        "tex": "x &= \\hl{1}{8 \\div 2}",
+        "sym": "8/2",
+        "new": true
+       },
+       {
+        "tex": "&= 4",
+        "sym": "4"
+       }
+      ]
+     },
+     {
+      "title": "Prove the second direction",
+      "say": "Assume $x = 4$. Substitute it into $2x + 3$.",
+      "lines": [
+       {
+        "tex": "2x + 3 &= 2(\\hl{1}{4}) + 3",
+        "sym": "2*4+3",
+        "new": true
+       },
+       {
+        "tex": "&= 11",
+        "sym": "11"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "say": "Both directions hold, so the two statements are equivalent.",
+      "lines": [
+       {
+        "text": "$2x + 3 = 11 \\Leftrightarrow x = 4$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2x + 3 = 11 \\Leftrightarrow x = 4"
+   },
+   "finalSym": "0",
+   "answerSym": "(2*x+3-11)-2*(x-4)"
+  }
+ },
+ {
+  "skill": "ind-laws",
+  "title": "Apply the laws of indices",
+  "what": {
+   "say": [
+    "You give it an expression made of **powers**. It gives back one simplified power.",
+    "The key idea: when the base is the same, the laws turn the work on the powers into work on the **indices**. Multiply and you add. Divide and you subtract. Power of a power and you multiply."
+   ],
+   "in": "powers of one base",
+   "out": "one power"
+  },
+  "example": {
+   "question": "Write $\\dfrac{(3^4)^2 \\times 3^5}{3^9}$ as a single power of $3$, and hence evaluate it.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Power of a power",
+      "say": "A power raised to a power: multiply the indices. Do the bracket first.",
+      "lines": [
+       {
+        "tex": "(3^4)^2 &= 3^{4 \\times 2}",
+        "sym": "(3**4)**2",
+        "new": true
+       },
+       {
+        "tex": "&= 3^8",
+        "sym": "3**8"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the top",
+      "say": "Same base, so multiplying means adding the indices.",
+      "lines": [
+       {
+        "tex": "3^8 \\times 3^5 &= 3^{8+5}",
+        "sym": "3**8*3**5",
+        "new": true
+       },
+       {
+        "tex": "&= 3^{13}",
+        "sym": "3**13"
+       }
+      ]
+     },
+     {
+      "title": "Divide by the bottom",
+      "say": "Same base again. Dividing means subtracting the indices.",
+      "lines": [
+       {
+        "tex": "\\dfrac{3^{13}}{3^9} &= 3^{13-9}",
+        "sym": "3**13/3**9",
+        "new": true
+       },
+       {
+        "tex": "&= 3^4",
+        "sym": "3**4"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "say": "Now write the power out as a number.",
+      "lines": [
+       {
+        "tex": "3^4 &= 3 \\times 3 \\times 3 \\times 3",
+        "sym": "3*3*3*3",
+        "new": true
+       },
+       {
+        "tex": "&= 81",
+        "sym": "81"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3^4 = 81"
+   },
+   "finalSym": "81",
+   "answerSym": "(3**4)**2*3**5/3**9"
+  }
+ },
+ {
+  "skill": "ind-negative-fractional",
+  "title": "Evaluate negative and fractional indices",
+  "what": {
+   "say": [
+    "You give it a power with a **negative** or **fractional** index, like $16^{-3/4}$. It gives back a plain value or a root.",
+    "The key idea: a minus means **flip** to the reciprocal. In a fraction index the bottom is the **root** and the top is the power."
+   ],
+   "in": "$a^{-p/q}$",
+   "out": "value or root form"
+  },
+  "example": {
+   "question": "Evaluate $16^{-\\frac{3}{4}}$ without a calculator.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Flip for the minus",
+      "say": "A negative index means the reciprocal. Put the power under $1$ and make the index positive.",
+      "lines": [
+       {
+        "tex": "16^{-\\frac{3}{4}} &= \\dfrac{1}{16^{\\frac{3}{4}}}",
+        "sym": "1/16**Rational(3,4)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Root then power",
+      "say": "In $\\frac{3}{4}$ the bottom is the root and the top is the power. Take the fourth root of $16$ first, then cube it.",
+      "lines": [
+       {
+        "tex": "16^{\\frac{3}{4}} &= \\left(\\sqrt[4]{16}\\right)^3",
+        "sym": "(16**Rational(1,4))**3",
+        "new": true
+       },
+       {
+        "tex": "&= 2^3",
+        "sym": "2**3"
+       },
+       {
+        "tex": "&= 8",
+        "sym": "8"
+       }
+      ]
+     },
+     {
+      "title": "Put it back",
+      "say": "Replace the power underneath with $8$.",
+      "lines": [
+       {
+        "tex": "16^{-\\frac{3}{4}} &= \\dfrac{1}{8}",
+        "sym": "1/8",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{1}{8}"
+   },
+   "finalSym": "1/8",
+   "answerSym": "16**(-Rational(3,4))"
+  }
+ },
+ {
+  "skill": "ind-express-as-power",
+  "title": "Write an expression as a power of a base",
+  "what": {
+   "say": [
+    "You give it an expression with **roots** and fractions, like $\\dfrac{\\sqrt{27}}{9}$. It gives back one base with one index.",
+    "The key idea: write every number as a power of the **same base** first. A root is an index of $\\frac12$, and a fraction is a minus index."
+   ],
+   "in": "roots and fractions",
+   "out": "$a^k$"
+  },
+  "example": {
+   "question": "Write $\\dfrac{\\sqrt{27}}{9}$ as a power of $3$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Use base 3 everywhere",
+      "say": "Write $27$ and $9$ as powers of $3$.",
+      "lines": [
+       {
+        "tex": "\\dfrac{\\sqrt{27}}{9} &= \\dfrac{\\sqrt{3^3}}{3^2}",
+        "sym": "sqrt(3**3)/3**2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Turn the root into an index",
+      "say": "A square root is the index $\\frac{1}{2}$. Multiply it into the index $3$.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{3^{\\frac{3}{2}}}{3^2}",
+        "sym": "3**Rational(3,2)/3**2"
+       }
+      ]
+     },
+     {
+      "title": "Subtract the indices",
+      "say": "Same base, and we are dividing. Subtract the bottom index from the top.",
+      "lines": [
+       {
+        "tex": "&= 3^{\\frac{3}{2} - 2}",
+        "sym": "3**(Rational(3,2)-2)"
+       },
+       {
+        "tex": "&= 3^{-\\frac{1}{2}}",
+        "sym": "3**(-Rational(1,2))"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3^{-\\frac{1}{2}}"
+   },
+   "finalSym": "3**(-Rational(1,2))",
+   "answerSym": "sqrt(27)/9"
+  }
+ },
+ {
+  "skill": "ind-solve-equation",
+  "title": "Solve an exponential equation with a common base",
+  "what": {
+   "say": [
+    "You give it an equation with powers on both sides, like $4^{x+2} = 32^{x-1}$. It gives back the value of $x$.",
+    "The key idea: if both sides are powers of the **same base**, the indices must be equal. Then you only have a linear equation to solve."
+   ],
+   "in": "$a^{f(x)} = a^{g(x)}$",
+   "out": "$x$"
+  },
+  "example": {
+   "question": "Solve $4^{x+2} = 32^{x-1}$ for $x$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write both in base 2",
+      "say": "$4$ is $2^2$ and $32$ is $2^5$. Rewrite each side as a power of $2$, and multiply the indices.",
+      "lines": [
+       {
+        "tex": "4^{x+2} &= (2^2)^{x+2}",
+        "sym": "(2**2)**(x+2)",
+        "new": true
+       },
+       {
+        "tex": "&= 2^{2x+4}",
+        "sym": "2**(2*x+4)"
+       },
+       {
+        "tex": "32^{x-1} &= (2^5)^{x-1}",
+        "sym": "(2**5)**(x-1)",
+        "new": true
+       },
+       {
+        "tex": "&= 2^{5x-5}",
+        "sym": "2**(5*x-5)"
+       }
+      ]
+     },
+     {
+      "title": "Equate the indices",
+      "say": "The bases are the same, so the indices must be equal. Write them as an equation.",
+      "lines": [
+       {
+        "tex": "2x + 4 &= 5x - 5",
+        "sym": "Eq(2*x+4, 5*x-5)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Collect the $x$ terms on one side and the numbers on the other.",
+      "lines": [
+       {
+        "tex": "9 &= 3x",
+        "sym": "Eq(9, 3*x)"
+       },
+       {
+        "tex": "x &= \\hl{1}{3}",
+        "sym": "Eq(x, 3)"
+       }
+      ]
+     },
+     {
+      "title": "Check the answer",
+      "say": "Put $\\hl{1}{x = 3}$ back into both sides. They should match.",
+      "lines": [
+       {
+        "tex": "4^{3+2} &= 4^5 = 1024",
+        "sym": "4**5",
+        "new": true
+       },
+       {
+        "tex": "32^{3-1} &= 32^2 = 1024",
+        "sym": "32**2"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = \\hl{1}{3}"
+   },
+   "finalSym": "3",
+   "answerSym": "solve(Eq(2*(x+2), 5*(x-1)), x)"
+  }
+ },
+ {
+  "skill": "log-definition",
+  "title": "Convert between log and index form (incl. e and ln)",
+  "what": {
+   "say": [
+    "You give it a log or an exponential statement. It gives back the same statement in the **other** form, or a value.",
+    "The key idea: a log is a **power**. $\\log_a b = c$ means $a^c = b$, and $\\ln$ is just $\\log_e$."
+   ],
+   "in": "$\\log_a b = c$",
+   "out": "$a^c = b$"
+  },
+  "example": {
+   "question": "Solve $\\ln(2x + 1) = 3$ for $x$. Give your answer correct to 2 decimal places.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write it as a power",
+      "say": "$\\ln$ means $\\log_e$, and $\\log_e A = B$ means $e^B = A$. So the log disappears and the number $3$ becomes a power of $e$.",
+      "lines": [
+       {
+        "tex": "\\ln(2x+1) &= 3"
+       },
+       {
+        "tex": "2x + 1 &= e^{3}",
+        "sym": "exp(3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Now it is an ordinary equation. Take away $1$, then divide by $2$ to find $\\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "2x &= e^{3} - 1",
+        "sym": "exp(3) - 1",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{x} &= \\dfrac{e^{3} - 1}{2}",
+        "sym": "(exp(3) - 1)/2",
+        "new": true
+       },
+       {
+        "tex": "&= 9.54",
+        "sym": "9.54",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 9.54"
+   },
+   "finalSym": "9.54",
+   "answerSym": "solve(log(2*x + 1) - 3, x)"
+  }
+ },
+ {
+  "skill": "log-laws",
+  "title": "Apply the laws of logs",
+  "what": {
+   "say": [
+    "You give it a log expression. It gives back a **single log** or a value.",
+    "The key idea: logs of the same base turn multiplying into adding, dividing into subtracting, and a power into a number in front."
+   ],
+   "in": "$\\log_a x + \\log_a y - \\log_a z$",
+   "out": "$\\log_a \\dfrac{xy}{z}$"
+  },
+  "example": {
+   "question": "Find the value of $2\\log_3 6 + \\log_3 15 - \\log_3 20$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Move the 2 inside",
+      "say": "A number in front of a log is a power. So $2\\log_3 6$ is $\\log_3 6^2$.",
+      "lines": [
+       {
+        "tex": "2\\log_3 6 &= \\log_3 6^2",
+        "sym": "log(36)/log(3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\log_3 36",
+        "sym": "log(36)/log(3)"
+       }
+      ]
+     },
+     {
+      "title": "Make one log",
+      "say": "Adding logs means multiplying. Taking one away means dividing. Put it all in a single log.",
+      "lines": [
+       {
+        "tex": "\\log_3 36 + \\log_3 15 - \\log_3 20 &= \\log_3 \\dfrac{36 \\times 15}{20}",
+        "sym": "log(36*15/20)/log(3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\log_3 27",
+        "sym": "log(27)/log(3)"
+       }
+      ]
+     },
+     {
+      "title": "Write 27 as a power of 3",
+      "say": "$\\log_3 27$ asks: what power of $3$ gives $27$? Since $27 = 3^3$, the log is that power.",
+      "lines": [
+       {
+        "tex": "\\log_3 27 &= \\log_3 3^3",
+        "sym": "log(27)/log(3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3}",
+        "sym": "3"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3"
+   },
+   "finalSym": "3",
+   "answerSym": "2*log(6, 3) + log(15, 3) - log(20, 3)"
+  }
+ },
+ {
+  "skill": "log-change-base",
+  "title": "Change the base of a log",
+  "what": {
+   "say": [
+    "You give it a log in a base you do not like, $\\log_a x$. It gives back a **fraction** of two logs in a base you choose.",
+    "The key idea: $\\log_a x = \\dfrac{\\log_b x}{\\log_b a}$. Pick a base $b$ that makes both logs easy, usually the base both numbers are powers of."
+   ],
+   "in": "$\\log_a x$",
+   "out": "$\\dfrac{\\log_b x}{\\log_b a}$"
+  },
+  "example": {
+   "question": "Find the value of $\\log_8 32$ as a fraction.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Pick a base",
+      "say": "Both $8$ and $32$ are powers of $2$. So change the base to $\\hl{1}{2}$.",
+      "lines": [
+       {
+        "tex": "8 &= 2^3",
+        "sym": "2**3"
+       },
+       {
+        "tex": "32 &= 2^5",
+        "sym": "2**5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Change the base",
+      "say": "Put the log of the number on top and the log of the old base underneath, both in base $\\hl{1}{2}$.",
+      "lines": [
+       {
+        "tex": "\\log_8 32 &= \\dfrac{\\log_{\\hl{1}{2}} 32}{\\log_{\\hl{1}{2}} 8}",
+        "sym": "log(32, 2)/log(8, 2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Read off each log",
+      "say": "$\\log_2 32$ is the power of $2$ that gives $32$, which is $5$. In the same way $\\log_2 8 = 3$.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{5}{3}",
+        "sym": "5/3"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{5}{3}"
+   },
+   "finalSym": "5/3",
+   "answerSym": "log(32)/log(8)"
+  }
+ },
+ {
+  "skill": "log-solve",
+  "title": "Solve a log equation",
+  "what": {
+   "say": [
+    "You give it an equation with logs in it. It gives back $x$, and throws away any value that makes a log undefined.",
+    "The key idea: combine the logs into one, write it as a power to remove the log, solve what is left, then **check** each answer."
+   ],
+   "in": "$\\log_a(\\ldots) + \\log_a(\\ldots) = c$",
+   "out": "$x$, with invalid roots rejected"
+  },
+  "example": {
+   "question": "Solve $\\log_2(x + 6) + \\log_2 x = 4$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Combine into one log",
+      "say": "Adding logs of the same base means multiplying what is inside.",
+      "lines": [
+       {
+        "tex": "\\log_2(x+6) + \\log_2 x &= \\log_2 x(x+6)",
+        "sym": "log(x*(x + 6))/log(2)",
+        "new": true
+       },
+       {
+        "tex": "\\log_2 x(x+6) &= 4",
+        "sym": "4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Remove the log",
+      "say": "$\\log_2 A = 4$ means $A = 2^4$. Write it as a power and multiply out.",
+      "lines": [
+       {
+        "tex": "x(x+6) &= 2^4",
+        "sym": "16",
+        "new": true
+       },
+       {
+        "tex": "x^2 + 6x &= 16",
+        "sym": "16"
+       }
+      ]
+     },
+     {
+      "title": "Solve the quadratic",
+      "say": "Collect everything on one side and factorise.",
+      "lines": [
+       {
+        "tex": "x^2 + 6x - 16 &= 0",
+        "sym": "0",
+        "new": true
+       },
+       {
+        "tex": "(x + 8)(x - 2) &= 0",
+        "sym": "0"
+       },
+       {
+        "text": "So $x = -8$ or $x = 2$."
+       }
+      ]
+     },
+     {
+      "title": "Reject the invalid root",
+      "say": "A log needs a positive number inside it. $x = -8$ would give $\\log_2(-8)$, which does not exist. Reject it and keep $\\hl{1}{x} = 2$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= 2",
+        "sym": "2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 2"
+   },
+   "finalSym": "2",
+   "answerSym": "solve(log(x + 6)/log(2) + log(x)/log(2) - 4, x)"
+  }
+ },
+ {
+  "skill": "log-solve-exponential",
+  "title": "Solve aˣ = b by taking logs",
+  "what": {
+   "say": [
+    "You give it an equation with the unknown in the **power**, like $a^{x} = b$. It finds $x$.",
+    "The key idea: taking a log of both sides lets the log law $\\ln a^{x} = x \\ln a$ bring the exponent down to ground level, where you can solve for it."
+   ],
+   "in": "$a^{x} = b$",
+   "out": "$x$"
+  },
+  "example": {
+   "question": "A town's population is modelled by $P(t) = 200(1.05)^{t}$, where $t$ is the time in years. Find, correct to one decimal place, when the population reaches $500$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Isolate the power",
+      "say": "Put $P = 500$. Then get the power $1.05^{\\hl{1}{t}}$ on its own by dividing both sides by $200$.",
+      "lines": [
+       {
+        "tex": "200(1.05)^{\\hl{1}{t}} &= 500",
+        "sym": "Eq(200*1.05**t, 500)",
+        "new": true
+       },
+       {
+        "tex": "(1.05)^{\\hl{1}{t}} &= 2.5",
+        "sym": "Eq(1.05**t, 2.5)"
+       }
+      ]
+     },
+     {
+      "title": "Take logs",
+      "say": "Take $\\ln$ of both sides. The log law brings the exponent $\\hl{1}{t}$ down in front.",
+      "lines": [
+       {
+        "tex": "\\ln (1.05)^{\\hl{1}{t}} &= \\ln 2.5",
+        "sym": "Eq(log(1.05**t), log(2.5))",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{t} \\ln 1.05 &= \\ln 2.5",
+        "sym": "Eq(t*log(1.05), log(2.5))",
+        "new": true
+       },
+       {
+        "text": "Any base works. Use the same log on both sides."
+       }
+      ]
+     },
+     {
+      "title": "Solve for t",
+      "say": "Divide both sides by $\\ln 1.05$. Then use the calculator and round.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{t} &= \\frac{\\ln 2.5}{\\ln 1.05}",
+        "sym": "Eq(t, log(2.5)/log(1.05))",
+        "new": true
+       },
+       {
+        "tex": "&\\approx 18.8",
+        "sym": "Eq(t, 18.8)",
+        "new": true,
+        "approx": true
+       },
+       {
+        "text": "The population reaches $500$ after $18.8$ years."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "t \\approx 18.8"
+   },
+   "finalSym": "log(5/2)/log(1.05)",
+   "answerSym": "solve(Eq(200*1.05**t, 500), t)"
+  }
+ },
+ {
+  "skill": "ind-hidden-quadratic",
+  "title": "Solve an exponential equation reducible to a quadratic",
+  "what": {
+   "say": [
+    "You give it an equation with $a^{2x}$, $a^{x}$ and a number, like $a^{2x} + b\\,a^{x} + c = 0$. It finds $x$.",
+    "The key idea: $a^{2x} = (a^{x})^{2}$, so call $a^{x}$ by one letter and the equation is an ordinary **quadratic**. Solve it, then turn each answer back into $x$."
+   ],
+   "in": "$a^{2x} + b\\,a^{x} + c = 0$",
+   "out": "$x$"
+  },
+  "example": {
+   "question": "Solve $3^{2x} + 6 \\cdot 3^{x} - 27 = 0$ for $x \\in \\mathbb{R}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "See the quadratic",
+      "say": "Write $3^{2x}$ as $(3^{x})^{2}$. Now the equation is a quadratic in $\\hl{1}{3^{x}}$.",
+      "lines": [
+       {
+        "tex": "3^{2x} + 6 \\cdot 3^{x} - 27 &= 0",
+        "sym": "Eq(3**(2*x) + 6*3**x - 27, 0)"
+       },
+       {
+        "tex": "(\\hl{1}{3^{x}})^{2} + 6(\\hl{1}{3^{x}}) - 27 &= 0",
+        "sym": "Eq((3**x)**2 + 6*3**x - 27, 0)"
+       }
+      ]
+     },
+     {
+      "title": "Use a new letter",
+      "say": "Let $\\hl{1}{y} = \\hl{1}{3^{x}}$. It is easier to factorise with a plain letter.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y}^{2} + 6\\hl{1}{y} - 27 &= 0",
+        "sym": "Eq(y**2 + 6*y - 27, 0)",
+        "new": true
+       },
+       {
+        "tex": "(\\hl{1}{y} + 9)(\\hl{1}{y} - 3) &= 0",
+        "sym": "Eq((y + 9)*(y - 3), 0)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for y",
+      "say": "Each bracket gives a value of $\\hl{1}{y}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y} &= -9",
+        "sym": "Eq(y, -9)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{y} &= 3",
+        "sym": "Eq(y, 3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Go back to x",
+      "say": "Replace $\\hl{1}{y}$ with $3^{x}$. A power of $3$ is never negative, so $3^{x} = -9$ has no solution. Cross it out.",
+      "lines": [
+       {
+        "text": "$3^{x} = -9$ is impossible."
+       },
+       {
+        "tex": "3^{x} &= 3",
+        "sym": "Eq(3**x, 3)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{x} &= 1",
+        "sym": "Eq(x, 1)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 1"
+   },
+   "finalSym": "1",
+   "answerSym": "nsolve(3**(2*x) + 6*3**x - 27, x, 0.5)"
+  }
+ }
+]

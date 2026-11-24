@@ -24,7 +24,7 @@
       "say": "The denominator is $2 - i$. Its conjugate is $\\hl{1}{2 + i}$: same numbers, opposite sign on the $i$ term.",
       "lines": [
        {
-        "tex": "\\hl{1}{\\bar{w}} &= \\hl{1}{2 + i}",
+        "tex": "\\hl{1}{\\overline{2 - i}} &= \\hl{1}{2 + i}",
         "sym": "Eq(w,2+I)",
         "new": true
        }

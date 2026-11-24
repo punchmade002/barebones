@@ -1,0 +1,50 @@
+{
+ "prob-kth-success": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-classify": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-arith-nth": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-arith-sum": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-arith-find-ad": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-quadratic": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-sigma": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-geo-nth": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-geo-sum": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-limits": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-verify-formula": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-geo-sum-infinity": {
+  "ok": true,
+  "fixes": []
+ }
+}

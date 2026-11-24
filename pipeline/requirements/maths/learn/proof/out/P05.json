@@ -1,0 +1,62 @@
+{
+ "num-ratio-proportion": {
+  "ok": true,
+  "fixes": []
+ },
+ "num-surds": {
+  "ok": true,
+  "fixes": []
+ },
+ "num-sci-notation": {
+  "ok": true,
+  "fixes": []
+ },
+ "cx-divide": {
+  "ok": false,
+  "fixes": [
+   {
+    "find": "\\bar{w}",
+    "replace": "\\overline{2 - i}",
+    "why": "w is never defined; the conjugate is of the denominator 2 - i"
+   }
+  ]
+ },
+ "cx-equate-parts": {
+  "ok": true,
+  "fixes": []
+ },
+ "cx-conjugate-properties": {
+  "ok": true,
+  "fixes": []
+ },
+ "cx-quadratic": {
+  "ok": true,
+  "fixes": []
+ },
+ "cx-de-moivre-power": {
+  "ok": false,
+  "fixes": [
+   {
+    "find": "three-and-a-half turns",
+    "replace": "three-and-three-quarter turns",
+    "why": "15pi/2 divided by 2pi is 3.75 turns"
+   }
+  ]
+ },
+ "cx-conjugate-root": {
+  "ok": true,
+  "fixes": []
+ },
+ "cx-de-moivre-identity": {
+  "ok": true,
+  "fixes": []
+ },
+ "cx-de-moivre-prove": {
+  "ok": true,
+  "fixes": []
+ },
+ "diff-rates-of-change": {
+  "ok": true,
+  "fixes": []
+ }
+}

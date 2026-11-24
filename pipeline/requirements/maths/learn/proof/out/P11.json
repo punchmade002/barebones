@@ -1,0 +1,50 @@
+{
+ "int-trig-identity": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-relative-frequency": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-factorial": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-independent": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-npr": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-ncr": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-expected-value": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-arrangement-restrictions": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-bernoulli-3": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-first-success": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-selection-restrictions": {
+  "ok": true,
+  "fixes": []
+ },
+ "prob-binomial": {
+  "ok": true,
+  "fixes": []
+ }
+}

@@ -1,0 +1,801 @@
+[
+ {
+  "skill": "alg-factor-dots",
+  "title": "Factorise a difference of two squares",
+  "what": {
+   "say": [
+    "You give it a difference of two squares, $a^2 - b^2$. It writes it as two **brackets**, $(a - b)(a + b)$.",
+    "The key idea: when you multiply those two brackets, the middle terms cancel and only $a^2 - b^2$ is left."
+   ],
+   "in": "$a^2 - b^2$",
+   "out": "$(a-b)(a+b)$"
+  },
+  "example": {
+   "question": "Factorise fully $50x^2 - 72$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Take out the common factor",
+      "say": "Both terms divide by $2$. Take it out first, so the bracket is a clean difference of squares.",
+      "lines": [
+       {
+        "tex": "50x^2 - 72 &= 2(25x^2 - 36)",
+        "sym": "2*(25*x**2-36)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write each as a square",
+      "say": "$25x^2$ is $(\\hl{1}{5x})^2$ and $36$ is $\\hl{2}{6}^2$. So the bracket is $a^2 - b^2$ with $a = \\hl{1}{5x}$ and $b = \\hl{2}{6}$.",
+      "lines": [
+       {
+        "tex": "&= 2\\left[(\\hl{1}{5x})^2 - \\hl{2}{6}^2\\right]",
+        "sym": "2*((5*x)**2-6**2)"
+       }
+      ]
+     },
+     {
+      "title": "Write the two brackets",
+      "say": "$a^2 - b^2$ becomes $(a - b)(a + b)$. Put $\\hl{1}{5x}$ and $\\hl{2}{6}$ in.",
+      "lines": [
+       {
+        "tex": "&= 2(\\hl{1}{5x} - \\hl{2}{6})(\\hl{1}{5x} + \\hl{2}{6})",
+        "sym": "2*(5*x-6)*(5*x+6)"
+       },
+       {
+        "text": "Keep the $2$ at the front. It is part of the answer."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2(5x - 6)(5x + 6)"
+   },
+   "finalSym": "2*(5*x-6)*(5*x+6)",
+   "answerSym": "factor(50*x**2-72)"
+  }
+ },
+ {
+  "skill": "alg-expand-binomials",
+  "title": "Multiply out two brackets",
+  "what": {
+   "say": [
+    "You give it two brackets multiplied together, like $(2x + 3)(x - 4)$. It gives back one expression with no brackets, with like terms collected.",
+    "The key idea: every term in the first bracket multiplies every term in the second. Two terms by two terms makes four products."
+   ],
+   "in": "$(x \\pm y)(w \\pm z)$",
+   "out": "expanded expression"
+  },
+  "example": {
+   "question": "Multiply out and simplify $(3x - 2)(2x + 5)$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply by the first term",
+      "say": "Take the first bracket one term at a time. Multiply the whole second bracket by $3x$, then by $-2$.",
+      "lines": [
+       {
+        "tex": "(3x - 2)(2x + 5) &= 3x(2x + 5) - 2(2x + 5)",
+        "sym": "3*x*(2*x+5)-2*(2*x+5)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Remove the brackets",
+      "say": "Multiply each term inside. Watch the signs: $-2$ times $+5$ is $-10$.",
+      "lines": [
+       {
+        "tex": "&= 6x^2 + 15x - 4x - 10",
+        "sym": "6*x**2+15*x-4*x-10"
+       },
+       {
+        "text": "Four products, four terms."
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "say": "The two $x$ terms are like terms. Add them: $15x - 4x = \\hl{1}{11x}$.",
+      "lines": [
+       {
+        "tex": "&= 6x^2 + \\hl{1}{11x} - 10",
+        "sym": "6*x**2+11*x-10"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "6x^2 + 11x - 10"
+   },
+   "finalSym": "6*x**2+11*x-10",
+   "answerSym": "expand((3*x-2)*(2*x+5))"
+  }
+ },
+ {
+  "skill": "alg-add-subtract",
+  "title": "Add/subtract linear and quadratic expressions",
+  "what": {
+   "say": [
+    "You give it two expressions with $x^2$, $x$ and number terms, joined by a plus or minus. It gives back one simplified expression.",
+    "The key idea: only like terms combine. $x^2$ goes with $x^2$, $x$ with $x$, numbers with numbers. A minus in front of a bracket flips every sign inside it."
+   ],
+   "in": "$(ax^2+bx+c) \\pm (dx^2+ex+f)$",
+   "out": "simplified expression"
+  },
+  "example": {
+   "question": "Simplify $(3x^2 - 2x + 5) - (x^2 + 4x - 3)$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Remove the brackets",
+      "say": "The minus sign in front of the second bracket flips every sign inside it. Change them one by one.",
+      "lines": [
+       {
+        "tex": "(3x^2 - 2x + 5) - (x^2 + 4x - 3) &= 3x^2 - 2x + 5 - x^2 - 4x + 3",
+        "sym": "3*x**2-2*x+5-x**2-4*x+3",
+        "new": true
+       },
+       {
+        "text": "$+x^2$ became $-x^2$. $+4x$ became $-4x$. $-3$ became $+3$."
+       }
+      ]
+     },
+     {
+      "title": "Group like terms",
+      "say": "Put the $x^2$ terms together, the $x$ terms together, and the numbers together.",
+      "lines": [
+       {
+        "tex": "&= (3x^2 - x^2) + (-2x - 4x) + (5 + 3)",
+        "sym": "(3*x**2-x**2)+(-2*x-4*x)+(5+3)"
+       }
+      ]
+     },
+     {
+      "title": "Add each group",
+      "say": "Add inside each bracket.",
+      "lines": [
+       {
+        "tex": "&= 2x^2 - 6x + 8",
+        "sym": "2*x**2-6*x+8"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2x^2 - 6x + 8"
+   },
+   "finalSym": "2*x**2-6*x+8",
+   "answerSym": "expand((3*x**2-2*x+5)-(x**2+4*x-3))"
+  }
+ },
+ {
+  "skill": "alg-factor-grouping",
+  "title": "Factorise by grouping",
+  "what": {
+   "say": [
+    "You give it an expression with four terms, like $ax + ay + bx + by$. It writes it as a product of two **brackets**.",
+    "The key idea: pair the terms so each pair has a common factor. Both pairs then leave the same bracket, and that bracket comes out."
+   ],
+   "in": "four terms",
+   "out": "$(\\ldots)(\\ldots)$"
+  },
+  "example": {
+   "question": "Factorise $6xy + 9x - 4y - 6$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Group in pairs",
+      "say": "Put the first two terms in one bracket and the last two in another. Keep the sign in front of each term.",
+      "lines": [
+       {
+        "tex": "6xy + 9x - 4y - 6 &= (6xy + 9x) + (-4y - 6)",
+        "sym": "(6*x*y+9*x)+(-4*y-6)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Take out each common factor",
+      "say": "Take the common factor out of each pair. Choose the second one so it leaves the **same** bracket as the first.",
+      "lines": [
+       {
+        "tex": "&= 3x(2y + 3) - 2(2y + 3)",
+        "sym": "3*x*(2*y+3)-2*(2*y+3)"
+       },
+       {
+        "text": "In the second pair the factor is $-2$, not $2$. That is what makes $-4y - 6$ become $-2(2y+3)$."
+       }
+      ]
+     },
+     {
+      "title": "Take out the common bracket",
+      "say": "The bracket $\\hl{1}{(2y + 3)}$ is common to both parts. Take it out. What is left forms the second bracket.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{(2y + 3)}(3x - 2)",
+        "sym": "(2*y+3)*(3*x-2)"
+       },
+       {
+        "text": "Check by multiplying out: you get $6xy + 9x - 4y - 6$ back."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(3x - 2)(2y + 3)"
+   },
+   "finalSym": "(3*x-2)*(2*y+3)",
+   "answerSym": "factor(6*x*y+9*x-4*y-6)"
+  }
+ },
+ {
+  "skill": "alg-rearrange",
+  "title": "Rearrange a formula",
+  "what": {
+   "say": [
+    "You give it a formula and the letter you want as the subject. It gives you that letter on its own, equal to an expression in the others.",
+    "The key idea: do the same thing to both sides, one move at a time. If the letter appears twice, gather it onto one side and **factorise** it out."
+   ],
+   "in": "formula, new subject",
+   "out": "$q = \\ldots$"
+  },
+  "example": {
+   "question": "Make $q$ the subject of the formula $m = \\dfrac{2q + 5}{q - 3}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Clear the fraction",
+      "say": "Multiply both sides by $q - 3$ to remove the fraction. Then multiply out the bracket.",
+      "lines": [
+       {
+        "tex": "m(q - 3) &= 2q + 5",
+        "sym": "Eq(m*(q-3), 2*q+5)",
+        "new": true
+       },
+       {
+        "tex": "mq - 3m &= 2q + 5",
+        "sym": "Eq(m*q-3*m, 2*q+5)"
+       }
+      ]
+     },
+     {
+      "title": "Gather the q terms",
+      "say": "$\\hl{1}{q}$ is on both sides. Move every term with $\\hl{1}{q}$ to the left and every other term to the right.",
+      "lines": [
+       {
+        "tex": "mq - 2q &= 5 + 3m",
+        "sym": "Eq(m*q-2*q, 5+3*m)"
+       }
+      ]
+     },
+     {
+      "title": "Factorise out q",
+      "say": "Take $\\hl{1}{q}$ out as a common factor, so it appears only once.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{q}(m - 2) &= 5 + 3m",
+        "sym": "Eq(q*(m-2), 5+3*m)"
+       }
+      ]
+     },
+     {
+      "title": "Divide to isolate q",
+      "say": "Divide both sides by $m - 2$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{q} &= \\dfrac{5 + 3m}{m - 2}",
+        "sym": "Eq(q, (5+3*m)/(m-2))"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "q = \\dfrac{5 + 3m}{m - 2}"
+   },
+   "finalSym": "[(5+3*m)/(m-2)]",
+   "answerSym": "solve(Eq(m,(2*q+5)/(q-3)), q)"
+  }
+ },
+ {
+  "skill": "alg-binomial-expand",
+  "title": "Expand with the binomial theorem",
+  "what": {
+   "say": [
+    "You give it a bracket raised to a power, $(a + b)^n$. It writes it out as a sum of $n + 1$ terms.",
+    "The key idea: each term is a **binomial coefficient** times a power of $a$ times a power of $b$. The power of $a$ goes down by one as the power of $b$ goes up by one."
+   ],
+   "in": "$(a+b)^n$",
+   "out": "sum of $n+1$ terms"
+  },
+  "example": {
+   "question": "Expand $(2x - 3)^4$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the coefficients",
+      "say": "The coefficients are the numbers $\\binom{4}{r}$ for $r = 0$ to $4$.",
+      "lines": [
+       {
+        "tex": "\\binom{4}{0} &= \\hl{1}{1}",
+        "sym": "binomial(4,0)",
+        "new": true
+       },
+       {
+        "tex": "\\binom{4}{1} &= \\hl{1}{4}",
+        "sym": "binomial(4,1)",
+        "new": true
+       },
+       {
+        "tex": "\\binom{4}{2} &= \\hl{1}{6}",
+        "sym": "binomial(4,2)",
+        "new": true
+       },
+       {
+        "text": "The row is symmetric, so $\\binom{4}{3} = 4$ and $\\binom{4}{4} = 1$."
+       }
+      ]
+     },
+     {
+      "title": "Write out the five terms",
+      "say": "Take $a = 2x$ and $b = -3$. In each term the power of $2x$ goes down and the power of $-3$ goes up. The two powers always add to $4$.",
+      "lines": [
+       {
+        "tex": "(2x - 3)^4 &= \\hl{1}{1}(2x)^4 + \\hl{1}{4}(2x)^3(-3) + \\hl{1}{6}(2x)^2(-3)^2 + \\hl{1}{4}(2x)(-3)^3 + \\hl{1}{1}(-3)^4",
+        "sym": "1*(2*x)**4+4*(2*x)**3*(-3)+6*(2*x)**2*(-3)**2+4*(2*x)*(-3)**3+1*(-3)**4",
+        "new": true
+       },
+       {
+        "text": "Put the $-3$ in brackets. The sign is raised to the power too."
+       }
+      ]
+     },
+     {
+      "title": "Work out each term",
+      "say": "Evaluate the powers, then multiply each term out.",
+      "lines": [
+       {
+        "tex": "&= 16x^4 + 4(8x^3)(-3) + 6(4x^2)(9) + 4(2x)(-27) + 81",
+        "sym": "16*x**4+4*(8*x**3)*(-3)+6*(4*x**2)*9+4*(2*x)*(-27)+81"
+       },
+       {
+        "tex": "&= 16x^4 - 96x^3 + 216x^2 - 216x + 81",
+        "sym": "16*x**4-96*x**3+216*x**2-216*x+81"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "16x^4 - 96x^3 + 216x^2 - 216x + 81"
+   },
+   "finalSym": "16*x**4-96*x**3+216*x**2-216*x+81",
+   "answerSym": "expand((2*x-3)**4)"
+  }
+ },
+ {
+  "skill": "alg-binomial-term",
+  "title": "Find a given term/coefficient of a binomial expansion",
+  "what": {
+   "say": [
+    "You give it a bracket $(a + b)^n$ and the power you want. It gives the one term, or its coefficient, without expanding the rest.",
+    "The key idea: the general term is $T_{r+1} = \\binom{n}{r}a^{n-r}b^r$. Match the power you want to find $r$."
+   ],
+   "in": "$(a+b)^n$, a power",
+   "out": "that term"
+  },
+  "example": {
+   "question": "Find the coefficient of $x^4$ in the expansion of $(3x - 2)^6$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the general term",
+      "say": "Take $a = 3x$ and $b = -2$. The general term has $\\hl{1}{r}$ as the power of $b$.",
+      "lines": [
+       {
+        "tex": "T_{r+1} &= \\binom{6}{\\hl{1}{r}}(3x)^{6-\\hl{1}{r}}(-2)^{\\hl{1}{r}}",
+        "sym": "binomial(6,r)*(3*x)**(6-r)*(-2)**r",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find r",
+      "say": "The power of $x$ in this term is $6 - \\hl{1}{r}$. Set it equal to $4$ and solve.",
+      "lines": [
+       {
+        "tex": "6 - r &= 4",
+        "sym": "Eq(6-r, 4)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{r} &= 2",
+        "sym": "Eq(r, 2)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute r",
+      "say": "Put $r = 2$ into the general term. Evaluate the coefficient and the power of $-2$.",
+      "lines": [
+       {
+        "tex": "T_3 &= \\binom{6}{2}(3x)^4(-2)^2",
+        "sym": "binomial(6,2)*(3*x)**4*(-2)**2",
+        "new": true
+       },
+       {
+        "tex": "&= 15 \\times 81x^4 \\times 4",
+        "sym": "15*81*x**4*4"
+       },
+       {
+        "tex": "&= 4860x^4",
+        "sym": "4860*x**4"
+       },
+       {
+        "text": "The question asks for the **coefficient**: the number in front of $x^4$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "4860"
+   },
+   "finalSym": "4860",
+   "answerSym": "expand((3*x-2)**6).coeff(x,4)"
+  }
+ },
+ {
+  "skill": "alg-poly-multiply",
+  "title": "Multiply polynomials",
+  "what": {
+   "say": [
+    "You give it two polynomials. It gives back one **expanded** polynomial with no brackets.",
+    "The key idea: every term in the first bracket multiplies every term in the second, then you collect like terms."
+   ],
+   "in": "two polynomials",
+   "out": "expanded polynomial"
+  },
+  "example": {
+   "question": "Multiply out $(2x+1)(x^2-3x+5)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply each term across",
+      "say": "Take each term of the first bracket and multiply it by the whole second bracket. Here $\\hl{1}{2x}$ and $\\hl{2}{1}$ each go through $x^2-3x+5$.",
+      "lines": [
+       {
+        "tex": "(2x+1)(x^2-3x+5) &= \\hl{1}{2x}(x^2-3x+5) + \\hl{2}{1}(x^2-3x+5)",
+        "sym": "2*x*(x**2-3*x+5)+1*(x**2-3*x+5)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Open the brackets",
+      "say": "Multiply every term inside. Take care with the signs.",
+      "lines": [
+       {
+        "tex": "&= 2x^3 - 6x^2 + 10x + x^2 - 3x + 5",
+        "sym": "2*x**3-6*x**2+10*x+x**2-3*x+5"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "say": "Add the $x^2$ terms together and the $x$ terms together.",
+      "lines": [
+       {
+        "tex": "&= 2x^3 - 5x^2 + 7x + 5",
+        "sym": "2*x**3-5*x**2+7*x+5"
+       },
+       {
+        "text": "Check one value: at $x=1$ both forms give $9$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2x^3 - 5x^2 + 7x + 5"
+   },
+   "finalSym": "2*x**3-5*x**2+7*x+5",
+   "answerSym": "expand((2*x+1)*(x**2-3*x+5))"
+  }
+ },
+ {
+  "skill": "alg-factor-cubes",
+  "title": "Factorise a sum/difference of two cubes",
+  "what": {
+   "say": [
+    "You give it an expression of the form $a^3 \\pm b^3$. It gives back a product of a **linear** bracket and a **quadratic** bracket.",
+    "The key idea: both terms are perfect cubes, so a fixed pattern factorises them. Only the signs differ between the sum and the difference."
+   ],
+   "in": "$a^3 \\pm b^3$",
+   "out": "$(a \\pm b)(a^2 \\mp ab + b^2)$"
+  },
+  "example": {
+   "question": "Factorise $27x^3 - 8$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write both as cubes",
+      "say": "Check that each term is a perfect cube. $27x^3 = (3x)^3$ and $8 = 2^3$, so $\\hl{1}{a=3x}$ and $\\hl{2}{b=2}$.",
+      "lines": [
+       {
+        "tex": "27x^3 - 8 &= (3x)^3 - 2^3",
+        "sym": "(3*x)**3-2**3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the pattern",
+      "say": "For a difference of cubes, the bracket keeps the minus sign and the quadratic has plus signs.",
+      "lines": [
+       {
+        "text": "$a^3 - b^3 = (a-b)(a^2 + ab + b^2)$"
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "say": "Put $a=3x$ and $b=2$ into the pattern.",
+      "lines": [
+       {
+        "tex": "&= (3x-2)\\big((3x)^2 + (3x)(2) + 2^2\\big)",
+        "sym": "(3*x-2)*((3*x)**2+(3*x)*2+2**2)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the quadratic",
+      "say": "Work out each term in the second bracket.",
+      "lines": [
+       {
+        "tex": "&= (3x-2)(9x^2 + 6x + 4)",
+        "sym": "(3*x-2)*(9*x**2+6*x+4)"
+       },
+       {
+        "text": "Check by multiplying out: you get $27x^3 - 8$ back."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(3x-2)(9x^2 + 6x + 4)"
+   },
+   "finalSym": "(3*x-2)*(9*x**2+6*x+4)",
+   "answerSym": "factor(27*x**3-8)"
+  }
+ },
+ {
+  "skill": "alg-surd-expressions",
+  "title": "Simplify algebraic expressions with surds",
+  "what": {
+   "say": [
+    "You give it an expression with surds and brackets, like $(\\sqrt{x}+1)(\\sqrt{x}-1)$. It gives back a **simplified** form.",
+    "The key idea: multiply out the brackets as usual, then use $\\sqrt{x}\\times\\sqrt{x} = x$ to remove the surds that cancel."
+   ],
+   "in": "surds and brackets",
+   "out": "simplified form"
+  },
+  "example": {
+   "question": "Multiply out and simplify $(3\\sqrt{x} - 2)(2\\sqrt{x} + 5)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply out the brackets",
+      "say": "Multiply each term in the first bracket by each term in the second. One product is $\\sqrt{x}\\times\\sqrt{x}$.",
+      "lines": [
+       {
+        "tex": "(3\\sqrt{x}-2)(2\\sqrt{x}+5) &= 6\\hl{1}{\\sqrt{x}\\sqrt{x}} + 15\\sqrt{x} - 4\\sqrt{x} - 10",
+        "sym": "6*sqrt(x)*sqrt(x)+15*sqrt(x)-4*sqrt(x)-10",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Remove the square root pair",
+      "say": "A square root times itself gives what is inside: $\\hl{1}{\\sqrt{x}\\sqrt{x}} = \\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "&= 6\\hl{1}{x} + 15\\sqrt{x} - 4\\sqrt{x} - 10",
+        "sym": "6*x+15*sqrt(x)-4*sqrt(x)-10"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "say": "The two $\\sqrt{x}$ terms are like terms. Add them.",
+      "lines": [
+       {
+        "tex": "&= 6x + 11\\sqrt{x} - 10",
+        "sym": "6*x+11*sqrt(x)-10"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "6x + 11\\sqrt{x} - 10"
+   },
+   "finalSym": "6*x+11*sqrt(x)-10",
+   "answerSym": "expand((3*sqrt(x)-2)*(2*sqrt(x)+5))"
+  }
+ },
+ {
+  "skill": "alg-fractions-add",
+  "title": "Add/subtract algebraic fractions",
+  "what": {
+   "say": [
+    "You give it two fractions with $x$ in the denominators. It gives back **one** fraction.",
+    "The key idea: fractions only add when the denominators match, so multiply top and bottom of each by what the other denominator has."
+   ],
+   "in": "$\\frac{a}{bx+c} \\pm \\frac{p}{qx+r}$",
+   "out": "single fraction"
+  },
+  "example": {
+   "question": "Write $\\dfrac{3}{x+2} + \\dfrac{4}{x-1}$ as a single fraction.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a common denominator",
+      "say": "The denominators are different, so multiply them together. Top and bottom of the first fraction get $\\hl{1}{(x-1)}$. Top and bottom of the second get $\\hl{2}{(x+2)}$.",
+      "lines": [
+       {
+        "tex": "\\frac{3}{x+2} + \\frac{4}{x-1} &= \\frac{3\\hl{1}{(x-1)}}{(x+2)\\hl{1}{(x-1)}} + \\frac{4\\hl{2}{(x+2)}}{(x-1)\\hl{2}{(x+2)}}",
+        "sym": "3*(x-1)/((x+2)*(x-1))+4*(x+2)/((x-1)*(x+2))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Add the numerators",
+      "say": "The denominators now match. Write one fraction with one denominator.",
+      "lines": [
+       {
+        "tex": "&= \\frac{3(x-1) + 4(x+2)}{(x+2)(x-1)}",
+        "sym": "(3*(x-1)+4*(x+2))/((x+2)*(x-1))"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the top",
+      "say": "Open the brackets in the numerator, then collect like terms. Leave the denominator as it is.",
+      "lines": [
+       {
+        "tex": "&= \\frac{3x - 3 + 4x + 8}{(x+2)(x-1)}",
+        "sym": "(3*x-3+4*x+8)/((x+2)*(x-1))"
+       },
+       {
+        "tex": "&= \\frac{7x + 5}{(x+2)(x-1)}",
+        "sym": "(7*x+5)/((x+2)*(x-1))"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{7x+5}{(x+2)(x-1)}"
+   },
+   "finalSym": "(7*x+5)/((x+2)*(x-1))",
+   "answerSym": "together(3/(x+2)+4/(x-1))"
+  }
+ },
+ {
+  "skill": "alg-poly-divide",
+  "title": "Divide a polynomial by a linear or quadratic",
+  "what": {
+   "say": [
+    "You give it a polynomial and a linear divisor. It gives back the **quotient**, and the remainder if there is one.",
+    "The key idea: divide the first term of what is left by the first term of the divisor, multiply back, subtract, and repeat until the degree drops below the divisor's."
+   ],
+   "in": "$f(x)$, $(x-a)$",
+   "out": "quotient and remainder"
+  },
+  "example": {
+   "question": "Divide $2x^3 - 3x^2 - 11x + 6$ by $(x - 3)$ and hence solve $2x^3 - 3x^2 - 11x + 6 = 0$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Divide the first terms",
+      "say": "Divide the first term, $2x^3$, by the first term of the divisor, $x$. That gives the first term of the quotient. Multiply it back and subtract.",
+      "lines": [
+       {
+        "tex": "2x^3 \\div x &= \\hl{1}{2x^2}",
+        "sym": "2*x**3/x",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{2x^2}(x-3) &= 2x^3 - 6x^2",
+        "sym": "2*x**2*(x-3)",
+        "new": true
+       },
+       {
+        "tex": "(2x^3 - 3x^2 - 11x + 6) - (2x^3 - 6x^2) &= 3x^2 - 11x + 6",
+        "sym": "(2*x**3-3*x**2-11*x+6)-(2*x**3-6*x**2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Repeat on what is left",
+      "say": "Do the same with $3x^2 - 11x + 6$. The first term $3x^2$ divided by $x$ is the next term of the quotient.",
+      "lines": [
+       {
+        "tex": "3x^2 \\div x &= \\hl{1}{3x}",
+        "sym": "3*x**2/x",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{3x}(x-3) &= 3x^2 - 9x",
+        "sym": "3*x*(x-3)",
+        "new": true
+       },
+       {
+        "tex": "(3x^2 - 11x + 6) - (3x^2 - 9x) &= -2x + 6",
+        "sym": "(3*x**2-11*x+6)-(3*x**2-9*x)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Finish the division",
+      "say": "One more round. If the remainder is $0$, then $(x-3)$ is a factor.",
+      "lines": [
+       {
+        "tex": "-2x \\div x &= \\hl{1}{-2}",
+        "sym": "-2*x/x",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{-2}(x-3) &= -2x + 6",
+        "sym": "-2*(x-3)",
+        "new": true
+       },
+       {
+        "tex": "(-2x + 6) - (-2x + 6) &= 0",
+        "sym": "(-2*x+6)-(-2*x+6)",
+        "new": true
+       },
+       {
+        "text": "The remainder is $0$, so the quotient is $2x^2 + 3x - 2$."
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve",
+      "say": "Write $f(x)$ as a product. Then factorise the quadratic and set each bracket to $0$.",
+      "lines": [
+       {
+        "tex": "f(x) &= (x-3)(2x^2 + 3x - 2)",
+        "sym": "(x-3)*(2*x**2+3*x-2)",
+        "new": true
+       },
+       {
+        "tex": "&= (x-3)(2x-1)(x+2)",
+        "sym": "(x-3)*(2*x-1)*(x+2)"
+       },
+       {
+        "tex": "x &= \\hl{2}{3}, \\ \\hl{2}{\\tfrac{1}{2}}, \\ \\hl{2}{-2}"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 3, \\ \\tfrac{1}{2}, \\ -2"
+   },
+   "finalSym": "[3, Rational(1,2), -2]",
+   "answerSym": "solve(2*x**3-3*x**2-11*x+6, x)"
+  }
+ }
+]

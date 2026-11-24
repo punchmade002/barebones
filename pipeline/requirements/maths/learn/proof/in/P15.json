@@ -1,0 +1,191 @@
+[
+ {
+  "skill": "trig-derive-7",
+  "title": "Derive formula 7: sin(A + B) from formula 4",
+  "what": {
+   "say": [
+    "You give it formula 4, $\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$. It builds a new formula from it, $\\sin(A+B)$, and shows where it comes from.",
+    "The key idea is that a sine is a cosine of the **complement**: $\\sin\\theta=\\cos(90^\\circ-\\theta)$. Turn the sine into a cosine, then use formula 4."
+   ],
+   "in": "$\\cos(A-B)$ formula",
+   "out": "$\\sin(A+B)$ formula"
+  },
+  "example": {
+   "question": "Using $\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$, show that $\\sin(A-B)=\\sin A\\cos B-\\cos A\\sin B$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn sine into cosine",
+      "say": "A sine is the cosine of the complement. Write $\\sin(A-B)$ as $\\cos\\big(90^\\circ-(A-B)\\big)$, then move the brackets so it looks like $\\cos(X-Y)$.",
+      "lines": [
+       {
+        "tex": "\\sin(A-B) &= \\cos\\big(90^\\circ-(A-B)\\big)",
+        "sym": "cos(pi/2-(A-B))",
+        "new": true
+       },
+       {
+        "tex": "&= \\cos\\big(\\hl{1}{(90^\\circ-A)}-\\hl{2}{(-B)}\\big)",
+        "sym": "cos((pi/2-A)-(-B))"
+       }
+      ]
+     },
+     {
+      "title": "Use formula 4",
+      "say": "This has the shape $\\cos(X-Y)$ with $X=\\hl{1}{90^\\circ-A}$ and $Y=\\hl{2}{-B}$. Write out formula 4 with those two angles.",
+      "lines": [
+       {
+        "tex": "&= \\cos(\\hl{1}{90^\\circ-A})\\cos(\\hl{2}{-B})+\\sin(\\hl{1}{90^\\circ-A})\\sin(\\hl{2}{-B})",
+        "sym": "cos(pi/2-A)*cos(-B)+sin(pi/2-A)*sin(-B)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify each factor",
+      "say": "Use $\\cos(90^\\circ-A)=\\sin A$ and $\\sin(90^\\circ-A)=\\cos A$. Cosine is even and sine is odd, so $\\cos(-B)=\\cos B$ and $\\sin(-B)=-\\sin B$.",
+      "lines": [
+       {
+        "tex": "&= \\sin A\\cos B+\\cos A\\,(-\\sin B)",
+        "sym": "sin(A)*cos(B)+cos(A)*(-sin(B))"
+       },
+       {
+        "tex": "&= \\sin A\\cos B-\\cos A\\sin B",
+        "sym": "sin(A)*cos(B)-cos(A)*sin(B)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\sin(A-B)=\\sin A\\cos B-\\cos A\\sin B"
+   },
+   "finalSym": "0",
+   "answerSym": "sin(A-B)-(sin(A)*cos(B)-cos(A)*sin(B))"
+  }
+ },
+ {
+  "skill": "trig-derive-6",
+  "title": "Derive formula 6: cos 2A = cos²A − sin²A from formula 5",
+  "what": {
+   "say": [
+    "You give it formula 5, $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$. It gives back a formula for the **double angle**, $\\cos 2A$.",
+    "The key idea is that $2A$ is just $A+A$. Put $B=A$ into formula 5 and tidy up."
+   ],
+   "in": "$\\cos(A+B)$ formula",
+   "out": "$\\cos 2A$ formula"
+  },
+  "example": {
+   "question": "Using $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$, show that $\\cos 2A=2\\cos^2 A-1$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Make the angle a sum",
+      "say": "$2A$ is $A+A$. Write $\\cos 2A$ as $\\cos(A+A)$ so formula 5 applies, with $B=A$.",
+      "lines": [
+       {
+        "tex": "\\cos 2A &= \\cos(A+A)",
+        "sym": "cos(A+A)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use formula 5",
+      "say": "Put $B=A$ into formula 5. Every $B$ becomes an $A$.",
+      "lines": [
+       {
+        "tex": "&= \\cos A\\cos A-\\sin A\\sin A",
+        "sym": "cos(A)*cos(A)-sin(A)*sin(A)"
+       },
+       {
+        "tex": "&= \\hl{1}{\\cos^2 A}-\\hl{2}{\\sin^2 A}",
+        "sym": "cos(A)**2-sin(A)**2"
+       }
+      ]
+     },
+     {
+      "title": "Remove the sine",
+      "say": "The target has only cosines. Replace $\\hl{2}{\\sin^2 A}$ with $1-\\cos^2 A$, since $\\sin^2 A+\\cos^2 A=1$.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{\\cos^2 A}-(1-\\cos^2 A)",
+        "sym": "cos(A)**2-(1-cos(A)**2)"
+       },
+       {
+        "tex": "&= 2\\cos^2 A-1",
+        "sym": "2*cos(A)**2-1"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\cos 2A=2\\cos^2 A-1"
+   },
+   "finalSym": "0",
+   "answerSym": "cos(2*A)-(2*cos(A)**2-1)"
+  }
+ },
+ {
+  "skill": "trig-derive-9",
+  "title": "Derive formula 9: tan(A + B) from formulae 5 and 7",
+  "what": {
+   "say": [
+    "You give it formulae 5 and 7, the expansions of $\\cos(A+B)$ and $\\sin(A+B)$. It gives back a formula for $\\tan(A+B)$ in terms of $\\tan A$ and $\\tan B$.",
+    "The key idea is $\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}$. Write $\\tan(A+B)$ as a fraction, expand top and bottom, then divide every term by $\\cos A\\cos B$."
+   ],
+   "in": "formulae 5 and 7",
+   "out": "$\\tan(A+B)$ formula"
+  },
+  "example": {
+   "question": "Using $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$ and $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$, show that $\\tan 2A=\\dfrac{2\\tan A}{1-\\tan^2 A}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write tan as a fraction",
+      "say": "Tangent is sine over cosine, and $2A=A+A$. Write $\\tan 2A$ as $\\dfrac{\\sin(A+A)}{\\cos(A+A)}$.",
+      "lines": [
+       {
+        "tex": "\\tan 2A &= \\frac{\\sin(A+A)}{\\cos(A+A)}",
+        "sym": "sin(A+A)/cos(A+A)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand top and bottom",
+      "say": "Use formula 7 on the top and formula 5 on the bottom, with $B=A$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\sin A\\cos A+\\cos A\\sin A}{\\cos A\\cos A-\\sin A\\sin A}",
+        "sym": "(sin(A)*cos(A)+cos(A)*sin(A))/(cos(A)*cos(A)-sin(A)*sin(A))"
+       },
+       {
+        "tex": "&= \\frac{2\\sin A\\cos A}{\\cos^2 A-\\sin^2 A}",
+        "sym": "2*sin(A)*cos(A)/(cos(A)**2-sin(A)**2)"
+       }
+      ]
+     },
+     {
+      "title": "Divide by cos squared A",
+      "say": "The answer has only tangents. Divide the top and the bottom by $\\hl{1}{\\cos^2 A}$, so that each $\\dfrac{\\sin A}{\\cos A}$ becomes $\\tan A$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\dfrac{2\\sin A\\cos A}{\\hl{1}{\\cos^2 A}}}{\\dfrac{\\cos^2 A}{\\hl{1}{\\cos^2 A}}-\\dfrac{\\sin^2 A}{\\hl{1}{\\cos^2 A}}}",
+        "sym": "(2*sin(A)*cos(A)/cos(A)**2)/(cos(A)**2/cos(A)**2-sin(A)**2/cos(A)**2)"
+       },
+       {
+        "tex": "&= \\frac{2\\tan A}{1-\\tan^2 A}",
+        "sym": "2*tan(A)/(1-tan(A)**2)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\tan 2A=\\dfrac{2\\tan A}{1-\\tan^2 A}"
+   },
+   "finalSym": "0",
+   "answerSym": "tan(2*A)-2*tan(A)/(1-tan(A)**2)"
+  }
+ }
+]

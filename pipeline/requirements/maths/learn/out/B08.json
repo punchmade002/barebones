@@ -1,1 +1,530 @@
-[{"skill": "alg-poly-divide", "what": {"say": ["You give it a polynomial and a linear divisor. It gives back the **quotient**, and the remainder if there is one.", "The key idea: divide the first term of what is left by the first term of the divisor, multiply back, subtract, and repeat until the degree drops below the divisor's."], "in": "$f(x)$, $(x-a)$", "out": "quotient and remainder"}, "how": {"higher": "Higher level uses it as a step inside bigger Paper 1 questions (2017, 2022): divide out a known factor of a cubic, then solve the quadratic that is left."}, "example": {"question": "Divide $2x^3 - 3x^2 - 11x + 6$ by $(x - 3)$ and hence solve $2x^3 - 3x^2 - 11x + 6 = 0$.", "level": "higher", "marks": 10, "workedSolution": {"steps": [{"title": "Divide the first terms", "say": "Divide the first term, $2x^3$, by the first term of the divisor, $x$. That gives the first term of the quotient. Multiply it back and subtract.", "lines": [{"tex": "2x^3 \\div x &= \\hl{1}{2x^2}", "sym": "2*x**3/x", "new": true}, {"tex": "\\hl{1}{2x^2}(x-3) &= 2x^3 - 6x^2", "sym": "2*x**2*(x-3)", "new": true}, {"tex": "(2x^3 - 3x^2 - 11x + 6) - (2x^3 - 6x^2) &= 3x^2 - 11x + 6", "sym": "(2*x**3-3*x**2-11*x+6)-(2*x**3-6*x**2)", "new": true}]}, {"title": "Repeat on what is left", "say": "Do the same with $3x^2 - 11x + 6$. The first term $3x^2$ divided by $x$ is the next term of the quotient.", "lines": [{"tex": "3x^2 \\div x &= \\hl{1}{3x}", "sym": "3*x**2/x", "new": true}, {"tex": "\\hl{1}{3x}(x-3) &= 3x^2 - 9x", "sym": "3*x*(x-3)", "new": true}, {"tex": "(3x^2 - 11x + 6) - (3x^2 - 9x) &= -2x + 6", "sym": "(3*x**2-11*x+6)-(3*x**2-9*x)", "new": true}]}, {"title": "Finish the division", "say": "One more round. If the remainder is $0$, then $(x-3)$ is a factor.", "lines": [{"tex": "-2x \\div x &= \\hl{1}{-2}", "sym": "-2*x/x", "new": true}, {"tex": "\\hl{1}{-2}(x-3) &= -2x + 6", "sym": "-2*(x-3)", "new": true}, {"tex": "(-2x + 6) - (-2x + 6) &= 0", "sym": "(-2*x+6)-(-2*x+6)", "new": true}, {"text": "The remainder is $0$, so the quotient is $2x^2 + 3x - 2$."}]}, {"title": "Factorise and solve", "say": "Write $f(x)$ as a product. Then factorise the quadratic and set each bracket to $0$.", "lines": [{"tex": "f(x) &= (x-3)(2x^2 + 3x - 2)", "sym": "(x-3)*(2*x**2+3*x-2)", "new": true}, {"tex": "&= (x-3)(2x-1)(x+2)", "sym": "(x-3)*(2*x-1)*(x+2)"}, {"tex": "x &= \\hl{2}{3}, \\ \\hl{2}{\\tfrac{1}{2}}, \\ \\hl{2}{-2}"}]}], "finalAnswer": "x = 3, \\ \\tfrac{1}{2}, \\ -2"}, "finalSym": "[3, Rational(1,2), -2]", "answerSym": "solve(2*x**3-3*x**2-11*x+6, x)"}, "graph": null, "diagram": null, "tips": {"higher": [{"tip": "Set the long division up correctly and show it. Even an incomplete division earns partial credit.", "sources": [{"part": "maths-pp-2022-higher-p1-q5#(b)(i)", "quote": "sets up long division correctly"}]}, {"tip": "Once the cubic is reduced to a quadratic, you may factorise it or use the formula. Both are accepted.", "sources": [{"part": "maths-pp-2022-higher-p1-q5#(b)(i)", "quote": "OR fully substituted formula"}]}, {"tip": "Finding the quadratic factor is worth High Partial Credit on its own. Get that far even if you cannot finish.", "sources": [{"part": "maths-pp-2017-higher-p1-q5#(a)", "quote": "quadratic factor of"}]}, {"tip": "To show a value is a root, you may state that the division leaves no remainder. That is accepted as the reason.", "sources": [{"part": "maths-pp-2017-higher-p1-q5#(a)", "quote": "No remainder in division may be stated"}]}], "ordinary": []}}, {"skill": "alg-equate-coefficients", "what": {"say": ["You give it an **identity** with unknown constants in it. It gives back the values of the constants.", "The key idea: if two polynomials are equal for every $x$, the number in front of each power of $x$ must match. Each power gives you one equation."], "in": "identity with unknowns", "out": "values of the constants"}, "how": {"higher": "Higher level uses it on Paper 1, usually early in Question 1, as a part worth 5 to 15 marks: multiply out a product, then match coefficients to find the unknown constants. It is the main skill in 3 of the 6 parts.", "ordinary": "Ordinary level asks for it once, in 2015 Paper 1 Question 3(c), as a 5-mark part: find the missing factor $g(x)$ in a product, by long division or by matching coefficients."}, "example": {"question": "Given that $x^3 + 2x^2 - 5x + k \\equiv (x - 1)(x^2 + ax + b)$ for all $x$, where $a$, $b$ and $k$ are constants. Find $a$, $b$ and the value of $k$.", "level": "higher", "marks": 10, "workedSolution": {"steps": [{"title": "Multiply out", "say": "Multiply out the right-hand side. Then collect the terms by power of $x$.", "lines": [{"tex": "(x-1)(x^2 + ax + b) &= x^3 + ax^2 + bx - x^2 - ax - b", "sym": "x**3+a*x**2+b*x-x**2-a*x-b", "new": true}, {"tex": "&= x^3 + (a-1)x^2 + (b-a)x - b", "sym": "x**3+(a-1)*x**2+(b-a)*x-b"}]}, {"title": "Match the $x^2$ terms", "say": "The two sides are equal for every $x$, so the $x^2$ numbers must match. On the left it is $2$.", "lines": [{"tex": "a - 1 &= 2", "sym": "a-1", "new": true}, {"tex": "\\hl{1}{a} &= 3", "sym": "3", "new": true}]}, {"title": "Match the $x$ terms", "say": "Now the $x$ numbers. On the left it is $-5$. Use the value of $a$ you just found.", "lines": [{"tex": "b - a &= -5", "sym": "b-a", "new": true}, {"tex": "b - 3 &= -5", "sym": "b-3", "new": true}, {"tex": "\\hl{2}{b} &= -2", "sym": "-2", "new": true}]}, {"title": "Match the constants", "say": "Last, the numbers with no $x$. On the left it is $k$. On the right it is $-b$.", "lines": [{"tex": "k &= -b", "sym": "-b", "new": true}, {"tex": "\\hl{3}{k} &= 2", "sym": "2", "new": true}]}], "finalAnswer": "k = 2"}, "finalSym": "[2]", "answerSym": "solve((x**3+2*x**2-5*x+k).subs(x,1), k)"}, "graph": null, "diagram": null, "tips": {"higher": [{"tip": "Start by multiplying out the product. Any relevant multiplication earns Low Partial Credit.", "sources": [{"part": "maths-pp-2019-higher-p1-q1#(a)", "quote": "Any relevant multiplication"}]}, {"tip": "Write the equation you get from each power of $x$. Equating the relevant coefficients is worth High Partial Credit.", "sources": [{"part": "maths-pp-2019-higher-p1-q1#(a)", "quote": "Relevant coefficients equated"}]}, {"tip": "You can put in numerical values for $n$ instead. With four unknowns you need four simultaneous equations.", "sources": [{"part": "maths-pp-2018-higher-p2-q3#(b)", "quote": "Four simultaneous equations"}]}, {"tip": "Expand the product even if you cannot finish. Some correct expansion of the given product earns Low Partial Credit.", "sources": [{"part": "maths-pp-2022-higher-p1-q1#(c)(i), (ii)", "quote": "some expansion of given product"}]}], "ordinary": [{"tip": "Setting up the division, or attempting to factorise, earns Low Partial Credit. Write it down even if you are unsure.", "sources": [{"part": "maths-pp-2015-ordinary-p1-q3#(c)", "quote": "Formulate division"}]}, {"tip": "One full correct step of the division is worth High Partial Credit. Do not stop after the first line.", "sources": [{"part": "maths-pp-2015-ordinary-p1-q3#(c)", "quote": "One full correct step in division"}]}]}}, {"skill": "alg-fractions-simplify", "what": {"say": ["You give it a fraction, or a product or quotient of fractions, with $x$ in the top and bottom. It gives back one fraction in its **simplest form**.", "The key idea: factorise every top and bottom first. Only a whole bracket that appears on the top and on the bottom can be cancelled."], "in": "rational expression", "out": "simplified fraction"}, "how": {"higher": "Higher level asks for it once, in 2025 Paper 1 Question 10(d)(ii), as a 10-mark part: substitute into an expression and simplify the fraction that results."}, "example": {"question": "Simplify $\\dfrac{x^2 - x - 6}{x^2 - 16} \\div \\dfrac{x - 3}{x + 4}$.", "level": "higher", "marks": 10, "workedSolution": {"steps": [{"title": "Turn it into a product", "say": "Dividing by a fraction is the same as multiplying by its flip. Turn the second fraction upside down.", "lines": [{"tex": "\\dfrac{x^2 - x - 6}{x^2 - 16} \\div \\dfrac{x-3}{x+4} &= \\dfrac{x^2 - x - 6}{x^2 - 16} \\times \\dfrac{x+4}{x-3}", "sym": "(x**2-x-6)/(x**2-16)*(x+4)/(x-3)", "new": true}]}, {"title": "Factorise everything", "say": "Factorise each quadratic. $x^2 - x - 6$ is a trinomial. $x^2 - 16$ is a difference of two squares.", "lines": [{"tex": "&= \\dfrac{(x-3)(x+2)}{(x-4)(x+4)} \\times \\dfrac{x+4}{x-3}", "sym": "(x-3)*(x+2)/((x-4)*(x+4))*(x+4)/(x-3)"}]}, {"title": "Cancel the common brackets", "say": "A bracket on the top that matches a bracket on the bottom cancels. $\\hl{1}{(x-3)}$ and $\\hl{2}{(x+4)}$ each appear on both.", "lines": [{"tex": "&= \\dfrac{\\cancel{\\hl{1}{(x-3)}}(x+2)}{(x-4)\\cancel{\\hl{2}{(x+4)}}} \\times \\dfrac{\\cancel{\\hl{2}{(x+4)}}}{\\cancel{\\hl{1}{(x-3)}}}", "sym": "(x+2)/(x-4)"}, {"text": "What is left is $(x+2)$ on the top and $(x-4)$ on the bottom."}]}], "finalAnswer": "\\dfrac{x+2}{x-4}"}, "finalSym": "(x+2)/(x-4)", "answerSym": "cancel((x**2-x-6)/(x**2-16)/((x-3)/(x+4)))"}, "graph": null, "diagram": null, "tips": {"higher": [{"tip": "When you substitute into an expression, write the substitution out. It earns Low Partial Credit before any simplifying.", "sources": [{"part": "maths-pp-2025-higher-p1-q10#(d)(ii)", "quote": "Substitutes in"}]}, {"tip": "Work through the squaring and the brackets in full. Showing the squaring step on the top is worth High Partial Credit.", "sources": [{"part": "maths-pp-2025-higher-p1-q10#(d)(ii)", "quote": "and completes squaring"}]}], "ordinary": []}}, {"skill": "ineq-linear", "what": {"say": ["You give it a linear inequality, such as $4 - 3x \\ge 13$. It gives back the **solution set**: every value of $x$ that makes it true.", "The key idea: solve it like an equation, with one change. Multiply or divide both sides by a **negative** and the inequality sign flips."], "in": "$ax + b \\le k$", "out": "solution set"}, "how": {"higher": "Higher level uses it as a step inside a longer part, such as 2023 Paper 1 Question 10(d), where the answer to the inequality gives the smallest whole number that works.", "ordinary": "Ordinary level asks for it as a short part of its own, mostly on Paper 1 and usually worth 10 marks. It is the main skill in 7 of the 8 parts."}, "example": {"question": "Solve $4 - 3(x - 1) \\ge 13$, where $x \\in \\mathbb{R}$.", "level": "ordinary", "marks": 10, "workedSolution": {"steps": [{"title": "Multiply out the bracket", "say": "Multiply every term in the bracket by $-3$. Watch the signs.", "lines": [{"tex": "4 - 3(x-1) &\\ge 13", "sym": "4-3*(x-1)>=13", "new": true}, {"tex": "4 - 3x + 3 &\\ge 13", "sym": "4-3*x+3>=13"}, {"tex": "7 - 3x &\\ge 13", "sym": "7-3*x>=13"}]}, {"title": "Get the $x$ term on its own", "say": "Subtract $7$ from both sides. Do the same thing to both sides and the sign does not change.", "lines": [{"tex": "-3x &\\ge 6", "sym": "-3*x>=6", "new": true}]}, {"title": "Divide by the number in front", "say": "Divide both sides by $-3$. That is a **negative**, so the sign flips from $\\ge$ to $\\le$.", "lines": [{"tex": "\\hl{1}{x} &\\le -2", "sym": "x<=-2", "new": true}, {"text": "Check with $x = -3$: $4 - 3(-4) = 16$, and $16 \\ge 13$. It works."}]}], "finalAnswer": "x \\le -2"}, "finalSym": "x <= -2", "answerSym": "solve(4-3*(x-1)>=13, x)"}, "graph": null, "diagram": null, "tips": {"higher": [{"tip": "Setting up the inequality from the story is worth Mid Partial Credit. Write it down before you solve.", "sources": [{"part": "maths-pp-2023-higher-p1-q10#(d)", "quote": "Forms the correct inequality"}]}, {"tip": "If you multiply both sides by $n^2$, you must find the boundary value $n = 20$ to earn High Partial Credit.", "sources": [{"part": "maths-pp-2023-higher-p1-q10#(d)", "quote": "where candidates multiply both sides by"}]}], "ordinary": [{"tip": "Each correct step earns credit, so write one move per line. A single correct transposition scores.", "sources": [{"part": "maths-pp-2025-ordinary-p1-q3#(b)", "quote": "One correct transposition"}]}, {"tip": "Multiply out any bracket first. A correct multiplication earns Low Partial Credit even if the rest goes wrong.", "sources": [{"part": "maths-pp-2019-ordinary-p1-q6#(a)", "quote": "Any correct multiplication"}]}, {"tip": "If the question asks you to plot the answer, plot it on the number line. A correct answer with no plot, or a wrong plot, loses marks.", "sources": [{"part": "maths-pp-2019-ordinary-p1-q6#(a)", "quote": "but no plot or incorrectly plotted"}]}, {"tip": "When the answer must be a whole number, round the right way and state it. No rounding, or the wrong rounding, costs a mark.", "sources": [{"part": "maths-pp-2022-ordinary-p2-q10#(e)", "quote": "but no or incorrect rounding"}]}]}}]
+[
+ {
+  "skill": "alg-poly-divide",
+  "what": {
+   "say": [
+    "You give it a polynomial and a linear divisor. It gives back the **quotient**, and the remainder if there is one.",
+    "The key idea: divide the first term of what is left by the first term of the divisor, multiply back, subtract, and repeat until the degree drops below the divisor's."
+   ],
+   "in": "$f(x)$, $(x-a)$",
+   "out": "quotient and remainder"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside bigger Paper 1 questions (2017, 2022): divide out a known factor of a cubic, then solve the quadratic that is left."
+  },
+  "example": {
+   "question": "Divide $2x^3 - 3x^2 - 11x + 6$ by $(x - 3)$ and hence solve $2x^3 - 3x^2 - 11x + 6 = 0$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Divide the first terms",
+      "say": "Divide the first term, $2x^3$, by the first term of the divisor, $x$. That gives the first term of the quotient. Multiply it back and subtract.",
+      "lines": [
+       {
+        "tex": "2x^3 \\div x &= \\hl{1}{2x^2}",
+        "sym": "2*x**3/x",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{2x^2}(x-3) &= 2x^3 - 6x^2",
+        "sym": "2*x**2*(x-3)",
+        "new": true
+       },
+       {
+        "tex": "(2x^3 - 3x^2 - 11x + 6) - (2x^3 - 6x^2) &= 3x^2 - 11x + 6",
+        "sym": "(2*x**3-3*x**2-11*x+6)-(2*x**3-6*x**2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Repeat on what is left",
+      "say": "Do the same with $3x^2 - 11x + 6$. The first term $3x^2$ divided by $x$ is the next term of the quotient.",
+      "lines": [
+       {
+        "tex": "3x^2 \\div x &= \\hl{1}{3x}",
+        "sym": "3*x**2/x",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{3x}(x-3) &= 3x^2 - 9x",
+        "sym": "3*x*(x-3)",
+        "new": true
+       },
+       {
+        "tex": "(3x^2 - 11x + 6) - (3x^2 - 9x) &= -2x + 6",
+        "sym": "(3*x**2-11*x+6)-(3*x**2-9*x)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Finish the division",
+      "say": "One more round. If the remainder is $0$, then $(x-3)$ is a factor.",
+      "lines": [
+       {
+        "tex": "-2x \\div x &= \\hl{1}{-2}",
+        "sym": "-2*x/x",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{-2}(x-3) &= -2x + 6",
+        "sym": "-2*(x-3)",
+        "new": true
+       },
+       {
+        "tex": "(-2x + 6) - (-2x + 6) &= 0",
+        "sym": "(-2*x+6)-(-2*x+6)",
+        "new": true
+       },
+       {
+        "text": "The remainder is $0$, so the quotient is $2x^2 + 3x - 2$."
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve",
+      "say": "Write $f(x)$ as a product. Then factorise the quadratic and set each bracket to $0$.",
+      "lines": [
+       {
+        "tex": "f(x) &= (x-3)(2x^2 + 3x - 2)",
+        "sym": "(x-3)*(2*x**2+3*x-2)",
+        "new": true
+       },
+       {
+        "tex": "&= (x-3)(2x-1)(x+2)",
+        "sym": "(x-3)*(2*x-1)*(x+2)"
+       },
+       {
+        "tex": "x &= \\hl{2}{3}, \\ \\hl{2}{\\tfrac{1}{2}}, \\ \\hl{2}{-2}"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 3, \\ \\tfrac{1}{2}, \\ -2"
+   },
+   "finalSym": "[3, Rational(1,2), -2]",
+   "answerSym": "solve(2*x**3-3*x**2-11*x+6, x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Set the long division up correctly and show it. Even an incomplete division earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q5#(b)(i)",
+       "quote": "sets up long division correctly"
+      }
+     ]
+    },
+    {
+     "tip": "Once the cubic is reduced to a quadratic, you may factorise it or use the formula. Both are accepted.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q5#(b)(i)",
+       "quote": "OR fully substituted formula"
+      }
+     ]
+    },
+    {
+     "tip": "Finding the quadratic factor is worth High Partial Credit on its own. Get that far even if you cannot finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q5#(a)",
+       "quote": "quadratic factor of"
+      }
+     ]
+    },
+    {
+     "tip": "To show a value is a root, you may state that the division leaves no remainder. That is accepted as the reason.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q5#(a)",
+       "quote": "No remainder in division may be stated"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "alg-equate-coefficients",
+  "what": {
+   "say": [
+    "You give it an **identity** with unknown constants in it. It gives back the values of the constants.",
+    "The key idea: if two polynomials are equal for every $x$, the number in front of each power of $x$ must match. Each power gives you one equation."
+   ],
+   "in": "identity with unknowns",
+   "out": "values of the constants"
+  },
+  "how": {
+   "higher": "Higher level uses it on Paper 1, usually early in Question 1, as a part worth 5 to 15 marks: multiply out a product, then match coefficients to find the unknown constants. It is the main skill in 3 of the 6 parts.",
+   "ordinary": "Ordinary level asks for it once, in 2015 Paper 1 Question 3(c), as a 5-mark part: find the missing factor $g(x)$ in a product, by long division or by matching coefficients."
+  },
+  "example": {
+   "question": "Given that $x^3 + 2x^2 - 5x + k \\equiv (x - 1)(x^2 + ax + b)$ for all $x$, where $a$, $b$ and $k$ are constants. Find $a$, $b$ and the value of $k$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply out",
+      "say": "Multiply out the right-hand side. Then collect the terms by power of $x$.",
+      "lines": [
+       {
+        "tex": "(x-1)(x^2 + ax + b) &= x^3 + ax^2 + bx - x^2 - ax - b",
+        "sym": "x**3+a*x**2+b*x-x**2-a*x-b",
+        "new": true
+       },
+       {
+        "tex": "&= x^3 + (a-1)x^2 + (b-a)x - b",
+        "sym": "x**3+(a-1)*x**2+(b-a)*x-b"
+       }
+      ]
+     },
+     {
+      "title": "Match the $x^2$ terms",
+      "say": "The two sides are equal for every $x$, so the $x^2$ numbers must match. On the left it is $2$.",
+      "lines": [
+       {
+        "tex": "a - 1 &= 2",
+        "sym": "a-1",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{a} &= 3",
+        "sym": "3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Match the $x$ terms",
+      "say": "Now the $x$ numbers. On the left it is $-5$. Use the value of $a$ you just found.",
+      "lines": [
+       {
+        "tex": "b - a &= -5",
+        "sym": "b-a",
+        "new": true
+       },
+       {
+        "tex": "b - 3 &= -5",
+        "sym": "b-3",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{b} &= -2",
+        "sym": "-2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Match the constants",
+      "say": "Last, the numbers with no $x$. On the left it is $k$. On the right it is $-b$.",
+      "lines": [
+       {
+        "tex": "k &= -b",
+        "sym": "-b",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{k} &= 2",
+        "sym": "2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "a = 3, \\ b = -2, \\ k = 2"
+   },
+   "finalSym": "[2]",
+   "answerSym": "solve((x**3+2*x**2-5*x+k).subs(x,1), k)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Start by multiplying out the product. Any relevant multiplication earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q1#(a)",
+       "quote": "Any relevant multiplication"
+      }
+     ]
+    },
+    {
+     "tip": "Write the equation you get from each power of $x$. Equating the relevant coefficients is worth High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q1#(a)",
+       "quote": "Relevant coefficients equated"
+      }
+     ]
+    },
+    {
+     "tip": "You can put in numerical values for $n$ instead. With four unknowns you need four simultaneous equations.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q3#(b)",
+       "quote": "Four simultaneous equations"
+      }
+     ]
+    },
+    {
+     "tip": "Expand the product even if you cannot finish. Some correct expansion of the given product earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q1#(c)(i), (ii)",
+       "quote": "some expansion of given product"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Setting up the division, or attempting to factorise, earns Low Partial Credit. Write it down even if you are unsure.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p1-q3#(c)",
+       "quote": "Formulate division"
+      }
+     ]
+    },
+    {
+     "tip": "One full correct step of the division is worth High Partial Credit. Do not stop after the first line.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p1-q3#(c)",
+       "quote": "One full correct step in division"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "alg-fractions-simplify",
+  "what": {
+   "say": [
+    "You give it a fraction, or a product or quotient of fractions, with $x$ in the top and bottom. It gives back one fraction in its **simplest form**.",
+    "The key idea: factorise every top and bottom first. Only a whole bracket that appears on the top and on the bottom can be cancelled."
+   ],
+   "in": "rational expression",
+   "out": "simplified fraction"
+  },
+  "how": {
+   "higher": "Higher level asks for it once, in 2025 Paper 1 Question 10(d)(ii), as a 10-mark part: substitute into an expression and simplify the fraction that results."
+  },
+  "example": {
+   "question": "Simplify $\\dfrac{x^2 - x - 6}{x^2 - 16} \\div \\dfrac{x - 3}{x + 4}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn it into a product",
+      "say": "Dividing by a fraction is the same as multiplying by its flip. Turn the second fraction upside down.",
+      "lines": [
+       {
+        "tex": "\\dfrac{x^2 - x - 6}{x^2 - 16} \\div \\dfrac{x-3}{x+4} &= \\dfrac{x^2 - x - 6}{x^2 - 16} \\times \\dfrac{x+4}{x-3}",
+        "sym": "(x**2-x-6)/(x**2-16)*(x+4)/(x-3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Factorise everything",
+      "say": "Factorise each quadratic. $x^2 - x - 6$ is a trinomial. $x^2 - 16$ is a difference of two squares.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{(x-3)(x+2)}{(x-4)(x+4)} \\times \\dfrac{x+4}{x-3}",
+        "sym": "(x-3)*(x+2)/((x-4)*(x+4))*(x+4)/(x-3)"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the common brackets",
+      "say": "A bracket on the top that matches a bracket on the bottom cancels. $\\hl{1}{(x-3)}$ and $\\hl{2}{(x+4)}$ each appear on both.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{\\cancel{\\hl{1}{(x-3)}}(x+2)}{(x-4)\\cancel{\\hl{2}{(x+4)}}} \\times \\dfrac{\\cancel{\\hl{2}{(x+4)}}}{\\cancel{\\hl{1}{(x-3)}}}",
+        "sym": "(x+2)/(x-4)"
+       },
+       {
+        "text": "What is left is $(x+2)$ on the top and $(x-4)$ on the bottom."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{x+2}{x-4}"
+   },
+   "finalSym": "(x+2)/(x-4)",
+   "answerSym": "cancel((x**2-x-6)/(x**2-16)/((x-3)/(x+4)))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "When you substitute into an expression, write the substitution out. It earns Low Partial Credit before any simplifying.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q10#(d)(ii)",
+       "quote": "Substitutes in"
+      }
+     ]
+    },
+    {
+     "tip": "Work through the squaring and the brackets in full. Showing the squaring step on the top is worth High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q10#(d)(ii)",
+       "quote": "and completes squaring"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "ineq-linear",
+  "what": {
+   "say": [
+    "You give it a linear inequality, such as $4 - 3x \\ge 13$. It gives back the **solution set**: every value of $x$ that makes it true.",
+    "The key idea: solve it like an equation, with one change. Multiply or divide both sides by a **negative** and the inequality sign flips."
+   ],
+   "in": "$ax + b \\le k$",
+   "out": "solution set"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside a longer part, such as 2023 Paper 1 Question 10(d), where the answer to the inequality gives the smallest whole number that works.",
+   "ordinary": "Ordinary level asks for it as a short part of its own, mostly on Paper 1 and usually worth 10 marks. It is the main skill in 7 of the 8 parts."
+  },
+  "example": {
+   "question": "Solve $4 - 3(x - 1) \\ge 13$, where $x \\in \\mathbb{R}$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply out the bracket",
+      "say": "Multiply every term in the bracket by $-3$. Watch the signs.",
+      "lines": [
+       {
+        "tex": "4 - 3(x-1) &\\ge 13",
+        "sym": "4-3*(x-1)>=13",
+        "new": true
+       },
+       {
+        "tex": "4 - 3x + 3 &\\ge 13",
+        "sym": "4-3*x+3>=13"
+       },
+       {
+        "tex": "7 - 3x &\\ge 13",
+        "sym": "7-3*x>=13"
+       }
+      ]
+     },
+     {
+      "title": "Get the $x$ term on its own",
+      "say": "Subtract $7$ from both sides. Do the same thing to both sides and the sign does not change.",
+      "lines": [
+       {
+        "tex": "-3x &\\ge 6",
+        "sym": "-3*x>=6",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Divide by the number in front",
+      "say": "Divide both sides by $-3$. That is a **negative**, so the sign flips from $\\ge$ to $\\le$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &\\le -2",
+        "sym": "x<=-2",
+        "new": true
+       },
+       {
+        "text": "Check with $x = -3$: $4 - 3(-4) = 16$, and $16 \\ge 13$. It works."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x \\le -2"
+   },
+   "finalSym": "x <= -2",
+   "answerSym": "solve(4-3*(x-1)>=13, x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Setting up the inequality from the story is worth Mid Partial Credit. Write it down before you solve.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q10#(d)",
+       "quote": "Forms the correct inequality"
+      }
+     ]
+    },
+    {
+     "tip": "If you multiply both sides by $n^2$, you must find the boundary value $n = 20$ to earn High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q10#(d)",
+       "quote": "where candidates multiply both sides by"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Each correct step earns credit, so write one move per line. A single correct transposition scores.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q3#(b)",
+       "quote": "One correct transposition"
+      }
+     ]
+    },
+    {
+     "tip": "Multiply out any bracket first. A correct multiplication earns Low Partial Credit even if the rest goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q6#(a)",
+       "quote": "Any correct multiplication"
+      }
+     ]
+    },
+    {
+     "tip": "If the question asks you to plot the answer, plot it on the number line. A correct answer with no plot, or a wrong plot, loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q6#(a)",
+       "quote": "but no plot or incorrectly plotted"
+      }
+     ]
+    },
+    {
+     "tip": "When the answer must be a whole number, round the right way and state it. No rounding, or the wrong rounding, costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q10#(e)",
+       "quote": "but no or incorrect rounding"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

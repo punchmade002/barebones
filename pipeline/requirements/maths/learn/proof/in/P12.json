@@ -1,0 +1,992 @@
+[
+ {
+  "skill": "prob-kth-success",
+  "title": "Find the probability the kth success is on trial n",
+  "what": {
+   "say": [
+    "You give it the chance of success $p$, the number of successes $k$ you want, and the trial $n$. It finds the **probability** that the $k$th success happens on exactly trial $n$.",
+    "The last trial must be a success. So the first $n-1$ trials hold exactly $k-1$ successes, and then the next one succeeds."
+   ],
+   "in": "$n$, $k$, $p$",
+   "out": "$P(k\\text{th success on trial } n)$"
+  },
+  "example": {
+   "question": "A fair die is rolled repeatedly. Find the probability that the third six comes on the eighth roll. Give your answer correct to four decimal places.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split the rolls",
+      "say": "The third six is on roll 8, so roll 8 is a six. The first 7 rolls hold exactly two sixes. Find that probability first.",
+      "lines": [
+       {
+        "text": "A six has $P = \\frac{1}{6}$. Not a six has $P = \\frac{5}{6}$."
+       },
+       {
+        "tex": "P(\\text{2 sixes in 7}) &= \\binom{7}{2}\\left(\\frac{1}{6}\\right)^{2}\\left(\\frac{5}{6}\\right)^{5}",
+        "sym": "binomial(7,2)*Rational(1,6)**2*Rational(5,6)**5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Add the last roll",
+      "say": "Roll 8 must be a six. Multiply by $\\frac{1}{6}$.",
+      "lines": [
+       {
+        "tex": "P(\\text{3rd six on roll 8}) &= \\binom{7}{2}\\left(\\frac{1}{6}\\right)^{2}\\left(\\frac{5}{6}\\right)^{5}\\times\\frac{1}{6}",
+        "sym": "binomial(7,2)*Rational(1,6)**2*Rational(5,6)**5*Rational(1,6)",
+        "new": true
+       },
+       {
+        "tex": "&= \\binom{7}{2}\\left(\\frac{1}{6}\\right)^{3}\\left(\\frac{5}{6}\\right)^{5}",
+        "sym": "binomial(7,2)*Rational(1,6)**3*Rational(5,6)**5"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "say": "Put it in the calculator and round to four decimal places.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{0.0391}",
+        "sym": "0.0391",
+        "new": true,
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{0.0391}"
+   },
+   "finalSym": "binomial(7,2)*Rational(1,6)**3*Rational(5,6)**5",
+   "answerSym": "21*5**5/6**8"
+  }
+ },
+ {
+  "skill": "seq-classify",
+  "title": "Decide if a sequence is arithmetic, geometric or neither",
+  "what": {
+   "say": [
+    "You give it a list of terms. It tells you whether the sequence is **arithmetic**, **geometric** or neither, and gives the reason.",
+    "Arithmetic means the differences between terms are all equal. Geometric means the ratios are all equal. Test both."
+   ],
+   "in": "list of terms",
+   "out": "type, with reason"
+  },
+  "example": {
+   "question": "The first four terms of a sequence are 4, 12, 36, 108. State whether the sequence is arithmetic, geometric or neither, giving a reason. Write down the next term.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Test the differences",
+      "say": "If the sequence is arithmetic, every difference is the same. Subtract each term from the next.",
+      "lines": [
+       {
+        "tex": "T_2-T_1 &= 12-4",
+        "sym": "12-4",
+        "new": true
+       },
+       {
+        "tex": "&= 8",
+        "sym": "8"
+       },
+       {
+        "tex": "T_3-T_2 &= 36-12",
+        "sym": "36-12",
+        "new": true
+       },
+       {
+        "tex": "&= 24",
+        "sym": "24"
+       },
+       {
+        "text": "$8 \\neq 24$, so it is not arithmetic."
+       }
+      ]
+     },
+     {
+      "title": "Test the ratios",
+      "say": "If the sequence is geometric, every ratio is the same. Divide each term by the one before.",
+      "lines": [
+       {
+        "tex": "\\frac{T_2}{T_1} &= \\frac{12}{4}",
+        "sym": "Rational(12,4)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3}",
+        "sym": "3"
+       },
+       {
+        "tex": "\\frac{T_3}{T_2} &= \\frac{36}{12}",
+        "sym": "Rational(36,12)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3}",
+        "sym": "3"
+       },
+       {
+        "tex": "\\frac{T_4}{T_3} &= \\frac{108}{36}",
+        "sym": "Rational(108,36)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3}",
+        "sym": "3"
+       },
+       {
+        "text": "The ratio is always $\\hl{1}{3}$, so it is geometric."
+       }
+      ]
+     },
+     {
+      "title": "Find the next term",
+      "say": "Multiply the last term by the ratio $\\hl{1}{3}$.",
+      "lines": [
+       {
+        "tex": "T_5 &= 108\\times\\hl{1}{3}",
+        "sym": "108*3",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{324}",
+        "sym": "324"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{geometric, } r = \\hl{1}{3},\\ T_5 = \\hl{2}{324}"
+   },
+   "finalSym": "324",
+   "answerSym": "4*3**4"
+  }
+ },
+ {
+  "skill": "seq-arith-nth",
+  "title": "Find the nth term of an arithmetic sequence",
+  "what": {
+   "say": [
+    "You give it the first term $a$ and the common difference $d$. It gives back a formula for **any** term, $T_n$.",
+    "The key idea: to reach the $n$th term you start at $a$ and add $d$ exactly $n-1$ times."
+   ],
+   "in": "$a$ and $d$",
+   "out": "$T_n = a + (n-1)d$"
+  },
+  "example": {
+   "question": "The first three terms of an arithmetic sequence are $7, 12, 17, \\dots$ Find $T_n$, the $n$th term. Hence find $T_{30}$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a and d",
+      "say": "$a$ is the first term. $d$ is the **common difference**, the gap from one term to the next. Subtract a term from the one after it.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 7",
+        "sym": "7",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{d} &= 12 - 7",
+        "sym": "12-7",
+        "new": true
+       },
+       {
+        "tex": "&= 5",
+        "sym": "5"
+       },
+       {
+        "text": "Check the next gap: $17 - 12 = 5$. Same gap, so it is arithmetic."
+       }
+      ]
+     },
+     {
+      "title": "Write the formula",
+      "say": "Every term is $a$ plus some $d$'s. The $n$th term has $n - 1$ of them. Put in $\\hl{1}{a}$ and $\\hl{2}{d}$.",
+      "lines": [
+       {
+        "tex": "T_n &= a + (n-1)d"
+       },
+       {
+        "tex": "&= \\hl{1}{7} + (n-1)\\hl{2}{5}",
+        "sym": "7+(n-1)*5",
+        "new": true
+       },
+       {
+        "tex": "&= 7 + 5n - 5",
+        "sym": "7+5*n-5"
+       },
+       {
+        "tex": "&= \\hl{3}{5n + 2}",
+        "sym": "5*n+2"
+       }
+      ]
+     },
+     {
+      "title": "Find T30",
+      "say": "Put $n = 30$ into $\\hl{3}{5n + 2}$.",
+      "lines": [
+       {
+        "tex": "T_{30} &= 5(30) + 2",
+        "sym": "5*30+2",
+        "new": true
+       },
+       {
+        "tex": "&= 150 + 2",
+        "sym": "150+2"
+       },
+       {
+        "tex": "&= \\hl{4}{152}",
+        "sym": "152"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "T_n = \\hl{3}{5n + 2}, \\ T_{30} = \\hl{4}{152}"
+   },
+   "finalSym": "(5*n+2, 152)",
+   "answerSym": "(7+(n-1)*(12-7), 7+(30-1)*(12-7))"
+  }
+ },
+ {
+  "skill": "seq-arith-sum",
+  "title": "Sum n terms of an arithmetic series",
+  "what": {
+   "say": [
+    "You give it $a$, $d$ and the number of terms $n$. It adds up the first $n$ terms in one go, without listing them.",
+    "The key idea: pair the first term with the last, the second with the second last, and so on. Every pair has the same total, so the sum is the number of pairs times that total."
+   ],
+   "in": "$a$, $d$, $n$",
+   "out": "$S_n$"
+  },
+  "example": {
+   "question": "Find the sum of the first $25$ terms of the series $4 + 9 + 14 + \\dots$",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a, d and n",
+      "say": "Read off the first term $\\hl{1}{a}$, the common difference $\\hl{2}{d}$ and the number of terms $n$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 4",
+        "sym": "4",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{d} &= 9 - 4",
+        "sym": "9-4",
+        "new": true
+       },
+       {
+        "tex": "&= 5",
+        "sym": "5"
+       },
+       {
+        "tex": "n &= 25",
+        "sym": "25",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Put them in the formula",
+      "say": "Write the sum formula. Then put in $\\hl{1}{a} = 4$, $\\hl{2}{d} = 5$ and $n = 25$.",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[2a + (n-1)d\\right]"
+       },
+       {
+        "tex": "S_{25} &= \\frac{25}{2}\\left[2(\\hl{1}{4}) + (25-1)(\\hl{2}{5})\\right]",
+        "sym": "25*(2*4+(25-1)*5)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Do the brackets first, then multiply.",
+      "lines": [
+       {
+        "tex": "&= \\frac{25}{2}\\left[8 + 120\\right]",
+        "sym": "25*(8+120)/2"
+       },
+       {
+        "tex": "&= \\frac{25}{2}(128)",
+        "sym": "25*128/2"
+       },
+       {
+        "tex": "&= \\hl{3}{1600}",
+        "sym": "1600"
+       },
+       {
+        "text": "Check: the last term is $4 + 24(5) = 124$. The average of first and last is $64$, and $64 \\times 25 = 1600$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{3}{1600}"
+   },
+   "finalSym": "1600",
+   "answerSym": "summation(4+(k-1)*5,(k,1,25))"
+  }
+ },
+ {
+  "skill": "seq-arith-find-ad",
+  "title": "Find a and d from given terms or sums",
+  "what": {
+   "say": [
+    "You give it two facts about an arithmetic sequence, such as two of its terms. It finds the first term $a$ and the common difference $d$.",
+    "The key idea: each fact becomes an equation in $a$ and $d$ using $T_n = a + (n-1)d$. Two equations in two unknowns can then be solved."
+   ],
+   "in": "two facts",
+   "out": "$a$ and $d$"
+  },
+  "example": {
+   "question": "In an arithmetic sequence, $T_4 = 14$ and $T_9 = 34$. Find $a$, the first term, and $d$, the common difference.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write two equations",
+      "say": "Use $T_n = a + (n-1)d$ for each fact. $T_4$ has three $d$'s and $T_9$ has eight.",
+      "lines": [
+       {
+        "tex": "a + 3d &= 14",
+        "sym": "Eq(a+3*d,14)",
+        "new": true
+       },
+       {
+        "tex": "a + 8d &= 34",
+        "sym": "Eq(a+8*d,34)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Subtract to find d",
+      "say": "Subtract the first equation from the second. The $a$ terms cancel and only $\\hl{2}{d}$ is left.",
+      "lines": [
+       {
+        "tex": "(a + 8d) - (a + 3d) &= 34 - 14",
+        "sym": "Eq((a+8*d)-(a+3*d),34-14)",
+        "new": true
+       },
+       {
+        "tex": "5d &= 20",
+        "sym": "Eq(5*d,20)"
+       },
+       {
+        "tex": "\\hl{2}{d} &= 4",
+        "sym": "Eq(d,4)"
+       }
+      ]
+     },
+     {
+      "title": "Find a",
+      "say": "Put $\\hl{2}{d = 4}$ into the first equation and solve for $\\hl{1}{a}$.",
+      "lines": [
+       {
+        "tex": "a + 3(4) &= 14",
+        "sym": "Eq(a+3*4,14)",
+        "new": true
+       },
+       {
+        "tex": "a + 12 &= 14",
+        "sym": "Eq(a+12,14)"
+       },
+       {
+        "tex": "\\hl{1}{a} &= 2",
+        "sym": "Eq(a,2)"
+       },
+       {
+        "text": "Check: $T_9 = 2 + 8(4) = 34$. It works."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "a = \\hl{1}{2}, \\ d = \\hl{2}{4}"
+   },
+   "finalSym": "(2, 4)",
+   "answerSym": "linsolve([Eq(a+3*d,14),Eq(a+8*d,34)],(a,d)).args[0]"
+  }
+ },
+ {
+  "skill": "seq-quadratic",
+  "title": "Find the nth term of a quadratic sequence",
+  "what": {
+   "say": [
+    "You give it terms where the **second difference** is the same every time. It finds the formula $T_n = an^2 + bn + c$.",
+    "The key idea: the second difference equals $2a$, which gives $a$ straight away. Two terms then give two equations for $b$ and $c$."
+   ],
+   "in": "terms, constant second difference",
+   "out": "$T_n = an^2 + bn + c$"
+  },
+  "example": {
+   "question": "The first four terms of a quadratic sequence are $6, 11, 18, 27, \\dots$ Find the formula for $T_n$ in the form $T_n = n^2 + bn + c$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Check the second difference",
+      "say": "Find the gaps between terms, then the gaps between the gaps. If the second gaps are equal, the sequence is quadratic.",
+      "lines": [
+       {
+        "text": "Terms: $6, 11, 18, 27$"
+       },
+       {
+        "text": "First differences: $5, 7, 9$"
+       },
+       {
+        "text": "Second differences: $2, 2$. Constant, so it is quadratic."
+       },
+       {
+        "tex": "2a &= 2",
+        "sym": "Eq(2*a,2)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{a} &= 1",
+        "sym": "Eq(a,1)"
+       }
+      ]
+     },
+     {
+      "title": "Use two terms",
+      "say": "Put $n = 1$ and $n = 2$ into $T_n = \\hl{1}{1}n^2 + bn + c$. Each gives an equation in $b$ and $c$.",
+      "lines": [
+       {
+        "tex": "1 + b + c &= 6",
+        "sym": "Eq(1+b+c,6)",
+        "new": true
+       },
+       {
+        "tex": "b + c &= 5",
+        "sym": "Eq(b+c,5)"
+       },
+       {
+        "tex": "4 + 2b + c &= 11",
+        "sym": "Eq(4+2*b+c,11)",
+        "new": true
+       },
+       {
+        "tex": "2b + c &= 7",
+        "sym": "Eq(2*b+c,7)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for b and c",
+      "say": "Subtract the first equation from the second to find $\\hl{2}{b}$. Then find $\\hl{3}{c}$.",
+      "lines": [
+       {
+        "tex": "(2b + c) - (b + c) &= 7 - 5",
+        "sym": "Eq((2*b+c)-(b+c),7-5)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{b} &= 2",
+        "sym": "Eq(b,2)"
+       },
+       {
+        "tex": "2 + c &= 5",
+        "sym": "Eq(2+c,5)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{c} &= 3",
+        "sym": "Eq(c,3)"
+       }
+      ]
+     },
+     {
+      "title": "Write the formula",
+      "say": "Put $a = 1$, $b = 2$ and $c = 3$ into $T_n = an^2 + bn + c$.",
+      "lines": [
+       {
+        "tex": "T_n &= n^2 + \\hl{2}{2}n + \\hl{3}{3}",
+        "sym": "n**2+2*n+3",
+        "new": true
+       },
+       {
+        "text": "Check: $T_3 = 9 + 6 + 3 = 18$ and $T_4 = 16 + 8 + 3 = 27$. Both match."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "T_n = n^2 + \\hl{2}{2}n + \\hl{3}{3}"
+   },
+   "finalSym": "n**2+2*n+3",
+   "answerSym": "interpolate([(1,6),(2,11),(3,18),(4,27)],n)"
+  }
+ },
+ {
+  "skill": "seq-sigma",
+  "title": "Evaluate a series in Σ notation",
+  "what": {
+   "say": [
+    "You give it a sum written with $\\Sigma$, like $\\sum_{r=1}^{12}(3r-2)$. It gives back one **value**.",
+    "The key idea: $\\Sigma$ just means add up the terms for $r = 1, 2, 3, \\dots$ up to the top number. If the terms go up by the same amount each time, it is an arithmetic series and you use its sum formula."
+   ],
+   "in": "$\\sum_{r=1}^{n} T_r$",
+   "out": "the value"
+  },
+  "example": {
+   "question": "Evaluate $\\sum_{r=1}^{12}(3r-2)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write out the first terms",
+      "say": "Put $r = 1$, then $r = 2$, then $r = 3$ into $3r - 2$. This shows what series you have.",
+      "lines": [
+       {
+        "tex": "T_1 &= 3(1)-2 = 1",
+        "sym": "3*1-2",
+        "new": true
+       },
+       {
+        "tex": "T_2 &= 3(2)-2 = 4",
+        "sym": "3*2-2",
+        "new": true
+       },
+       {
+        "tex": "T_3 &= 3(3)-2 = 7",
+        "sym": "3*3-2",
+        "new": true
+       },
+       {
+        "text": "The terms go up by $3$ each time. It is an arithmetic series."
+       }
+      ]
+     },
+     {
+      "title": "Read off a, d and n",
+      "say": "The first term is $\\hl{1}{a}$, the common difference is $\\hl{2}{d}$ and the number of terms is $\\hl{3}{n}$. The top number of the sum is $n$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 1",
+        "sym": "1",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{d} &= 3",
+        "sym": "3",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{n} &= 12",
+        "sym": "12",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the sum formula",
+      "say": "Put $\\hl{1}{a}$, $\\hl{2}{d}$ and $\\hl{3}{n}$ into $S_n = \\frac{n}{2}\\left(2a + (n-1)d\\right)$.",
+      "lines": [
+       {
+        "tex": "S_{12} &= \\frac{12}{2}\\left(2(1) + 11(3)\\right)",
+        "sym": "12/2*(2*1+11*3)",
+        "new": true
+       },
+       {
+        "tex": "&= 6(35)",
+        "sym": "6*35"
+       },
+       {
+        "tex": "&= 210",
+        "sym": "210"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "210"
+   },
+   "finalSym": "210",
+   "answerSym": "summation(3*r-2,(r,1,12))"
+  }
+ },
+ {
+  "skill": "seq-geo-nth",
+  "title": "Find the nth term of a geometric sequence",
+  "what": {
+   "say": [
+    "You give it the first term $a$ and the common ratio $r$ of a geometric sequence. It gives back a formula for the **nth term**, $T_n$.",
+    "The key idea: each step multiplies by $r$. To reach term $n$ you have multiplied $n - 1$ times, so $T_n = ar^{n-1}$."
+   ],
+   "in": "$a,\\ r$",
+   "out": "$T_n = ar^{n-1}$"
+  },
+  "example": {
+   "question": "A geometric sequence has $T_2 = 6$ and $T_5 = 162$. Find $a$, $r$ and a formula for $T_n$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write both terms",
+      "say": "Use $T_n = ar^{n-1}$ for each term you are given.",
+      "lines": [
+       {
+        "tex": "T_2 &= ar = 6"
+       },
+       {
+        "tex": "T_5 &= ar^4 = 162"
+       }
+      ]
+     },
+     {
+      "title": "Divide to find r",
+      "say": "Divide the second equation by the first. The $a$ cancels, and what is left is a power of $\\hl{1}{r}$.",
+      "lines": [
+       {
+        "tex": "\\frac{ar^4}{ar} &= \\frac{162}{6}"
+       },
+       {
+        "tex": "r^3 &= 27",
+        "sym": "162/6",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{r} &= 3",
+        "sym": "3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find a",
+      "say": "Put $\\hl{1}{r} = 3$ back into $ar = 6$.",
+      "lines": [
+       {
+        "tex": "a(3) &= 6"
+       },
+       {
+        "tex": "\\hl{2}{a} &= 2",
+        "sym": "6/3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write T_n",
+      "say": "Put $\\hl{2}{a}$ and $\\hl{1}{r}$ into $T_n = ar^{n-1}$.",
+      "lines": [
+       {
+        "tex": "T_n &= \\hl{2}{2}\\cdot \\hl{1}{3}^{n-1}",
+        "sym": "2*3**(n-1)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "T_n = 2\\cdot 3^{n-1}"
+   },
+   "finalSym": "2*3**(n-1)",
+   "answerSym": "6*3**(n-2)"
+  }
+ },
+ {
+  "skill": "seq-geo-sum",
+  "title": "Sum n terms of a geometric series",
+  "what": {
+   "say": [
+    "You give it $a$, $r$ and $n$ for a geometric series. It gives back the **sum** of the first $n$ terms.",
+    "The key idea: multiply the whole sum by $r$ and subtract. Nearly every term cancels, which leaves the formula $S_n = \\frac{a(1-r^n)}{1-r}$."
+   ],
+   "in": "$a,\\ r,\\ n$",
+   "out": "$S_n = \\frac{a(1-r^n)}{1-r}$"
+  },
+  "example": {
+   "question": "Find the sum of the first $8$ terms of the series $4 + 12 + 36 + \\dots$",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a and r",
+      "say": "The first term is $\\hl{1}{a}$. Divide any term by the one before it to get $\\hl{2}{r}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 4",
+        "sym": "4",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\frac{12}{4} = 3",
+        "sym": "12/4",
+        "new": true
+       },
+       {
+        "text": "Check with the next pair: $36 \\div 12 = 3$."
+       }
+      ]
+     },
+     {
+      "title": "Choose the formula",
+      "say": "You want the sum of $n = 8$ terms. Put $\\hl{1}{a}$, $\\hl{2}{r}$ and $n$ into the formula.",
+      "lines": [
+       {
+        "tex": "S_8 &= \\frac{4\\left(1-3^8\\right)}{1-3}",
+        "sym": "4*(1-3**8)/(1-3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Do the power first. Then the top and bottom are both negative, so the answer is positive.",
+      "lines": [
+       {
+        "tex": "&= \\frac{4(1-6561)}{-2}",
+        "sym": "4*(1-6561)/(-2)"
+       },
+       {
+        "tex": "&= \\frac{4(-6560)}{-2}",
+        "sym": "4*(-6560)/(-2)"
+       },
+       {
+        "tex": "&= 13120",
+        "sym": "13120"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "13120"
+   },
+   "finalSym": "13120",
+   "answerSym": "summation(4*3**k,(k,0,7))"
+  }
+ },
+ {
+  "skill": "seq-limits",
+  "title": "Find limits of sequences by inspection and limit rules",
+  "what": {
+   "say": [
+    "You give it a sequence $T_n$. It tells you the **limit**: the number the terms get close to as $n$ gets very large.",
+    "The key idea: fractions like $\\frac{1}{n}$ and powers $r^n$ with $|r| < 1$ go to $0$. Split the sequence into pieces, divide by the top power of $n$, and use the limit rules."
+   ],
+   "in": "$T_n$",
+   "out": "$\\lim_{n \\to \\infty} T_n$"
+  },
+  "example": {
+   "question": "Find $\\lim_{n \\to \\infty}\\left[\\frac{4n+1}{n+3} + \\left(\\frac{2}{5}\\right)^n\\right]$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split the limit",
+      "say": "The limit of a sum is the sum of the limits. Deal with the two pieces one at a time.",
+      "lines": [
+       {
+        "text": "$\\lim \\frac{4n+1}{n+3}$ and $\\lim \\left(\\frac{2}{5}\\right)^n$"
+       }
+      ]
+     },
+     {
+      "title": "Divide by n",
+      "say": "Divide the top and bottom of the fraction by $n$. Now every $n$ is in a term like $\\frac{1}{n}$ that goes to $0$.",
+      "lines": [
+       {
+        "tex": "\\frac{4n+1}{n+3} &= \\frac{4+\\frac{1}{n}}{1+\\frac{3}{n}}",
+        "sym": "(4+1/n)/(1+3/n)"
+       }
+      ]
+     },
+     {
+      "title": "Take the limits",
+      "say": "As $n \\to \\infty$, $\\frac{1}{n} \\to 0$ and $\\frac{3}{n} \\to 0$. Also $\\left(\\frac{2}{5}\\right)^n \\to 0$ because $\\frac{2}{5}$ is between $-1$ and $1$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\lim \\frac{4n+1}{n+3}} &= \\frac{4+0}{1+0} = 4",
+        "sym": "(4+0)/(1+0)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{\\lim \\left(\\frac{2}{5}\\right)^n} &= 0",
+        "sym": "0",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Add the limits",
+      "say": "Add the two limits.",
+      "lines": [
+       {
+        "tex": "4 + 0 &= 4",
+        "sym": "4+0",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "4"
+   },
+   "finalSym": "4",
+   "answerSym": "limit((4*n+1)/(n+3)+Rational(2,5)**n,n,oo)"
+  }
+ },
+ {
+  "skill": "seq-verify-formula",
+  "title": "Verify and justify a formula from a number pattern",
+  "what": {
+   "say": [
+    "You give it a formula that claims to give the sum, or the $n$th term, of a pattern. It proves the formula is true for **every** $n$, not just the ones you tried.",
+    "The key idea is induction: show it works for $n = 1$, then show that if it works for one number $k$, it must work for the next one, $k+1$. Each case then pulls the next one along."
+   ],
+   "in": "pattern + formula",
+   "out": "formula proved for all $n$"
+  },
+  "example": {
+   "question": "Prove by induction that $2 + 4 + 6 + \\dots + 2n = n(n+1)$ for all $n \\in \\mathbb{N}$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Check n equals 1",
+      "say": "Test the formula on the first case, $n = 1$. The sum has one term, so check both sides give the same number.",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 2",
+        "sym": "2",
+        "new": true
+       },
+       {
+        "tex": "\\text{RHS} &= 1(1+1)",
+        "sym": "1*(1+1)"
+       },
+       {
+        "text": "Both sides are $2$. So $P(1)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Assume it works for k",
+      "say": "Now assume the formula is true for $n = k$. This is the statement $P(k)$ and you may use it.",
+      "lines": [
+       {
+        "tex": "2 + 4 + \\dots + 2k &= \\hl{1}{k(k+1)}"
+       }
+      ]
+     },
+     {
+      "title": "Prove it for k plus 1",
+      "say": "Now look at $n = k+1$. Add the next term, $2(k+1)$, to both sides of $P(k)$. The left side becomes the sum up to $k+1$. Replace the old sum with $\\hl{1}{k(k+1)}$.",
+      "lines": [
+       {
+        "tex": "2 + 4 + \\dots + 2(k+1) &= \\hl{1}{k(k+1)} + 2(k+1)",
+        "sym": "k*(k+1)+2*(k+1)",
+        "new": true
+       },
+       {
+        "tex": "&= (k+1)(k+2)",
+        "sym": "(k+1)*(k+2)"
+       },
+       {
+        "text": "This is the formula with $n = k+1$: $(k+1)\\big((k+1)+1\\big)$."
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "say": "Say what you have shown. A proof by induction is not finished without this sentence.",
+      "lines": [
+       {
+        "text": "$P(1)$ is true. If $P(k)$ is true then $P(k+1)$ is true. So $P(n)$ is true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2 + 4 + \\dots + 2n = n(n+1)"
+   },
+   "finalSym": "0",
+   "answerSym": "summation(2*j,(j,1,n))-n*(n+1)"
+  }
+ },
+ {
+  "skill": "seq-geo-sum-infinity",
+  "title": "Sum an infinite geometric series",
+  "what": {
+   "say": [
+    "You give it a geometric series with first term $a$ and common ratio $r$, where $r$ is between $-1$ and $1$. It gives back the **sum** of all the terms, even though there are infinitely many.",
+    "The key idea: when $|r| < 1$ the terms shrink towards zero, so the total settles at a fixed number, $S_\\infty = \\dfrac{a}{1-r}$."
+   ],
+   "in": "$a$ and $r$, $|r|<1$",
+   "out": "$S_\\infty$"
+  },
+  "example": {
+   "question": "Find the sum to infinity of the series $20 + 12 + 7{\\cdot}2 + \\dots$",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a and r",
+      "say": "The first term is $\\hl{1}{a}$. The common ratio $\\hl{2}{r}$ is any term divided by the one before it.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 20",
+        "sym": "20",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\frac{12}{20}",
+        "sym": "Rational(12,20)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{3}{5}",
+        "sym": "Rational(3,5)"
+       }
+      ]
+     },
+     {
+      "title": "Check r is allowed",
+      "say": "The sum to infinity only exists when $|r| < 1$. Check it before you use the formula.",
+      "lines": [
+       {
+        "text": "$|\\hl{2}{r}| = \\frac{3}{5} < 1$, so the series has a sum to infinity."
+       }
+      ]
+     },
+     {
+      "title": "Use the formula",
+      "say": "Put $\\hl{1}{a}$ and $\\hl{2}{r}$ into $S_\\infty = \\dfrac{a}{1-r}$.",
+      "lines": [
+       {
+        "tex": "\\hl{3}{S_\\infty} &= \\frac{20}{1 - \\frac{3}{5}}",
+        "sym": "20/(1-Rational(3,5))",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{20}{\\frac{2}{5}}",
+        "sym": "20/Rational(2,5)"
+       },
+       {
+        "tex": "&= 50",
+        "sym": "50"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "50"
+   },
+   "finalSym": "50",
+   "answerSym": "summation(20*Rational(3,5)**n,(n,0,oo))"
+  }
+ }
+]

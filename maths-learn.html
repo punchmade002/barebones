@@ -123,8 +123,8 @@ a.chip:hover { border-color: var(--ink) }
 .graph svg { width: 100%; height: auto; display: block; overflow: visible }
 .graph text { font-family: var(--font); font-size: 13px; fill: var(--pencil); paint-order: stroke; stroke: var(--board); stroke-width: 3.5px; stroke-linejoin: round }  /* a halo keeps labels readable where a line runs under them */
 .graph .lab { font-weight: 700 }
-.answer { display: inline-flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; padding: 12px 18px; border: 2.5px solid var(--ink); border-radius: 10px; background: #fff; margin: 4px 0 0 44px; font-size: 1.1rem }
-.answer .katex { white-space: nowrap }
+.answer { display: inline-flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; padding: 12px 18px; border: 2.5px solid var(--ink); border-radius: 10px; background: #fff; margin: 4px 0 0 44px; font-size: 1.1rem; box-sizing: border-box; max-width: calc(100% - 44px); overflow-x: auto }
+@media (min-width: 700px) { .answer .katex { white-space: nowrap } }  /* a phone needs the answer to wrap */
 .answer small { font-size: 0.66rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--muted) }
 
 /* exam tips */
@@ -163,7 +163,7 @@ a.chip:hover { border-color: var(--ink) }
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
-<script src="maths-skills/index.js?v=eb265f3985"></script>
+<script src="maths-skills/index.js?v=1d8456ef46"></script>
 <script src="maths-packs.js"></script>
 <script>
 const KATEX_OPTS = { throwOnError: false, strict: 'ignore', macros: { '\\hl': '\\htmlClass{hl hl-#1}{#2}' }, trust: c => c.command === '\\htmlClass' };
@@ -206,8 +206,9 @@ function graphSvg(G) {
     d += `${prev == null ? 'M' : 'L'}${sx(x).toFixed(1)},${sy(y).toFixed(1)}`;
     prev = y;
   }
+  // colours go in style=, not attributes: Safari ignores var() in SVG presentation attributes
   const slot = G.slots || {}, col = n => n ? `var(--hl${n})` : 'var(--pencil)';
-  const line = (a, b, c, e, stroke, extra = '') => `<path d="M${a},${b}L${c},${e}" stroke="${stroke}" stroke-width="2" fill="none" stroke-linecap="round" ${extra}/>`;
+  const line = (a, b, c, e, stroke, extra = '') => `<path d="M${a},${b}L${c},${e}" style="stroke:${stroke}" stroke-width="2" fill="none" stroke-linecap="round" ${extra}/>`;
   const text = (x, y, s, attrs = '') => `<text x="${x}" y="${y}" ${attrs}>${esc(s)}</text>`;
   const above = p => f(p.x) >= (f(p.x - 0.05) + f(p.x + 0.05)) / 2;          // a max or a rising point: label above
   const anchor = p => sx(p.x) < 50 ? 'start' : sx(p.x) > W - 50 ? 'end' : 'middle';
@@ -222,13 +223,13 @@ function graphSvg(G) {
       guides += line(ay, py, px, py, col(slot.y), 'stroke-dasharray="2 5"');
       labels += text(ay + (left ? 6 : -6), py + (above(p) ? -6 : 16), fmt(p.y), `text-anchor="${left ? 'start' : 'end'}" class="lab" style="fill:${col(slot.y)}"`);
     }
-    labels += `<circle cx="${px}" cy="${py}" r="5" fill="var(--pencil)"/>`;
+    labels += `<circle cx="${px}" cy="${py}" r="5" style="fill:var(--pencil)"/>`;
     if (p.name) labels += text(px, py + (above(p) ? -14 : 22), p.name.replace(/-(?=\d)/g, '−'), `text-anchor="${anchor(p)}" class="lab"`);
   }
   return `<svg viewBox="-26 -16 ${W + 52} ${H + 34}" role="img" aria-label="Graph of the function in the question">
     <clipPath id="clipbox"><rect x="0" y="0" width="${W}" height="${H}"/></clipPath>
     <g filter="url(#pencil)">${line(0, ax, W, ax, 'var(--pencil)')}${line(ay, H, ay, 0, 'var(--pencil)')}
-      <path d="${d}" fill="none" stroke="var(--pencil)" stroke-width="2.6" stroke-linecap="round" clip-path="url(#clipbox)"/>${guides}</g>
+      <path d="${d}" fill="none" style="stroke:var(--pencil)" stroke-width="2.6" stroke-linecap="round" clip-path="url(#clipbox)"/>${guides}</g>
     ${text(W + 6, ax + 4, 'x')}${text(ay + 6, -4, 'y')}${labels}</svg>`;
 }
 
@@ -289,11 +290,14 @@ function render(S) {
 }
 
 // a figure beside the working moves above it when it would squeeze a line of maths into a scroll box
+// then a line of working still too wide is shrunk to fit (to no less than 75%), and only scrolls past that
 function fit() {
+  const works = [...board.querySelectorAll('.work, .answer')], over = w => w.scrollWidth > w.clientWidth + 1;
+  works.forEach(w => w.style.fontSize = '');
   const ex = board.querySelector('.ex:not(.solo)');
-  if (!ex) return;
-  ex.classList.remove('stack');
-  if ([...ex.querySelectorAll('.work')].some(w => w.scrollWidth > w.clientWidth + 1)) ex.classList.add('stack');
+  if (ex) { ex.classList.remove('stack'); if (works.some(w => ex.contains(w) && over(w))) ex.classList.add('stack') }
+  for (const w of works.filter(over))
+    w.style.fontSize = Math.max(0.75, w.clientWidth / w.scrollWidth) * parseFloat(getComputedStyle(w).fontSize) + 'px';
 }
 addEventListener('resize', fit);
 

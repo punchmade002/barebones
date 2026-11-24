@@ -1,0 +1,50 @@
+{
+ "seq-geo-unknown-n": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-recurring-decimal": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-convergence-range": {
+  "ok": true,
+  "fixes": []
+ },
+ "seq-derive-sum-infinity": {
+  "ok": true,
+  "fixes": []
+ },
+ "stat-data-types": {
+  "ok": true,
+  "fixes": []
+ },
+ "stat-populations-samples": {
+  "ok": true,
+  "fixes": []
+ },
+ "stat-averages": {
+  "ok": true,
+  "fixes": []
+ },
+ "stat-srs-bias": {
+  "ok": true,
+  "fixes": []
+ },
+ "stat-study-types": {
+  "ok": true,
+  "fixes": []
+ },
+ "stat-plan-collect": {
+  "ok": true,
+  "fixes": []
+ },
+ "stat-percentiles": {
+  "ok": true,
+  "fixes": []
+ },
+ "stat-sampling-methods-hl": {
+  "ok": true,
+  "fixes": []
+ }
+}

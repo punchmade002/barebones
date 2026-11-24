@@ -1,0 +1,50 @@
+{
+ "eq-linear-fractions": {
+  "ok": true,
+  "fixes": []
+ },
+ "eq-surd": {
+  "ok": true,
+  "fixes": []
+ },
+ "eq-rational": {
+  "ok": true,
+  "fixes": []
+ },
+ "eq-rational-hl": {
+  "ok": true,
+  "fixes": []
+ },
+ "line-unknown-coefficient": {
+  "ok": true,
+  "fixes": []
+ },
+ "num-order-operations": {
+  "ok": true,
+  "fixes": []
+ },
+ "num-fractions": {
+  "ok": true,
+  "fixes": []
+ },
+ "num-decimal-fraction": {
+  "ok": true,
+  "fixes": []
+ },
+ "num-sets": {
+  "ok": true,
+  "fixes": []
+ },
+ "num-prime-factors": {
+  "ok": true,
+  "fixes": []
+ },
+ "cx-powers-i": {
+  "ok": true,
+  "fixes": []
+ },
+ "cx-arithmetic": {
+  "ok": true,
+  "fixes": []
+ }
+}

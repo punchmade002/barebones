@@ -121,7 +121,7 @@
         "sym": "2-2*s**2+3*s"
        },
        {
-        "text": "Take 3 from both sides to get $0$ on the right."
+        "text": "Move every term to the right-hand side so the $\\sin^2\\theta$ term is positive, leaving $0$ on the left; write it with $0$ on the right."
        },
        {
         "tex": "2\\sin^2\\theta-3\\sin\\theta+1 &= 0",

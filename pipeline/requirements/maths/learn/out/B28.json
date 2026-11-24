@@ -453,7 +453,7 @@
      },
      {
       "title": "Evaluate",
-      "say": "$\\frac{15\\pi}{2}$ is three-and-a-half turns, the same as $\\frac{3\\pi}{2}$. There cosine is $0$ and sine is $-1$.",
+      "say": "$\\frac{15\\pi}{2}$ is three-and-three-quarter turns, the same as $\\frac{3\\pi}{2}$. There cosine is $0$ and sine is $-1$.",
       "lines": [
        {
         "tex": "\\cos\\tfrac{15\\pi}{2} &= 0",

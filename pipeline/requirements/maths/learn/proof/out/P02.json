@@ -1,0 +1,50 @@
+{
+ "alg-factor-dots": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-expand-binomials": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-add-subtract": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-factor-grouping": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-rearrange": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-binomial-expand": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-binomial-term": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-poly-multiply": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-factor-cubes": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-surd-expressions": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-fractions-add": {
+  "ok": true,
+  "fixes": []
+ },
+ "alg-poly-divide": {
+  "ok": true,
+  "fixes": []
+ }
+}

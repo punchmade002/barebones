@@ -1,0 +1,975 @@
+[
+ {
+  "skill": "diff-show-identity",
+  "title": "Show a derivative satisfies a given relation",
+  "what": {
+   "say": [
+    "You give it a function $y$ and an equation that links $y$, $y'$ and $y''$. It **shows** the equation is true.",
+    "The key idea: find $y'$ and $y''$, put all three into the left side, and simplify until it equals the right side."
+   ],
+   "in": "$y$ and a relation",
+   "out": "identity shown true"
+  },
+  "example": {
+   "question": "Show that $y = xe^{-2x}$ satisfies $y'' + 4y' + 4y = 0$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the first derivative",
+      "say": "Use the product rule on $xe^{-2x}$ to find $\\hl{1}{y'}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y'} &= e^{-2x} - 2xe^{-2x}",
+        "sym": "exp(-2*x)-2*x*exp(-2*x)",
+        "new": true
+       },
+       {
+        "tex": "&= e^{-2x}(1 - 2x)",
+        "sym": "exp(-2*x)*(1-2*x)"
+       }
+      ]
+     },
+     {
+      "title": "Find the second derivative",
+      "say": "Differentiate $\\hl{1}{y'}$ again to find $\\hl{2}{y''}$. It is a product again.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} &= -2e^{-2x}(1 - 2x) + e^{-2x}(-2)",
+        "sym": "-2*exp(-2*x)*(1-2*x)+exp(-2*x)*(-2)",
+        "new": true
+       },
+       {
+        "tex": "&= e^{-2x}(4x - 4)",
+        "sym": "exp(-2*x)*(4*x-4)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the left side",
+      "say": "Put $y$, $\\hl{1}{y'}$ and $\\hl{2}{y''}$ into $y'' + 4y' + 4y$.",
+      "lines": [
+       {
+        "tex": "y'' + 4y' + 4y &= \\hl{2}{e^{-2x}(4x-4)} + 4\\,\\hl{1}{e^{-2x}(1-2x)} + 4xe^{-2x}",
+        "sym": "exp(-2*x)*(4*x-4)+4*exp(-2*x)*(1-2*x)+4*x*exp(-2*x)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Simplify to zero",
+      "say": "Take out $e^{-2x}$ and collect the terms in the bracket.",
+      "lines": [
+       {
+        "tex": "&= e^{-2x}(4x - 4 + 4 - 8x + 4x)",
+        "sym": "exp(-2*x)*(4*x-4+4-8*x+4*x)"
+       },
+       {
+        "tex": "&= e^{-2x}(0) = 0",
+        "sym": "0"
+       },
+       {
+        "text": "The left side equals $0$, the right side. So the equation is satisfied."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "y'' + 4y' + 4y = 0"
+   },
+   "finalSym": "0",
+   "answerSym": "diff(x*exp(-2*x),x,2)+4*diff(x*exp(-2*x),x)+4*x*exp(-2*x)"
+  }
+ },
+ {
+  "skill": "fin-percentages",
+  "title": "Calculate percentages and percentage change",
+  "what": {
+   "say": [
+    "You give it quantities. It finds a **percentage**, a percentage change, or the original amount.",
+    "The key idea: turn the percentage into a **multiplier**. An increase of $8\\%$ is $\\times 1.08$. To undo it, divide."
+   ],
+   "in": "quantities",
+   "out": "% change or original amount"
+  },
+  "example": {
+   "question": "The price of a bicycle was increased by $8\\%$. It now costs €486. Find the original price.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the new price as a percentage",
+      "say": "The original price is $100\\%$. After the increase the price is $100\\% + 8\\%$ of the original.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{100\\% + 8\\%} &= 108\\%",
+        "sym": "108",
+        "new": true
+       },
+       {
+        "text": "As a multiplier, $108\\%$ is $1.08$."
+       }
+      ]
+     },
+     {
+      "title": "Divide by the multiplier",
+      "say": "€486 is $\\hl{1}{1.08}$ times the original. To go back, divide by $\\hl{1}{1.08}$.",
+      "lines": [
+       {
+        "tex": "\\text{original} &= \\frac{486}{\\hl{1}{1.08}}",
+        "sym": "486/1.08",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{450}",
+        "sym": "450"
+       }
+      ]
+     },
+     {
+      "title": "Check the answer",
+      "say": "Increase $\\hl{2}{450}$ by $8\\%$ and see if you get €486.",
+      "lines": [
+       {
+        "tex": "8\\% \\text{ of } 450 &= 36",
+        "sym": "0.08*450",
+        "new": true
+       },
+       {
+        "tex": "450 + 36 &= 486",
+        "sym": "450+36",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{€}450"
+   },
+   "finalSym": "450",
+   "answerSym": "486/1.08"
+  }
+ },
+ {
+  "skill": "fin-units",
+  "title": "Change units (metric, imperial with factors, currency)",
+  "what": {
+   "say": [
+    "You give it a quantity and a conversion factor. It gives back the same quantity in **new units**.",
+    "The key idea: change one unit at a time. Multiply when the new unit is smaller, divide when it is bigger."
+   ],
+   "in": "quantity + factor",
+   "out": "converted quantity"
+  },
+  "example": {
+   "question": "A train travels at $72$ km/h. Express its speed in metres per second.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Change km to metres",
+      "say": "There are $1000$ metres in $1$ km. Multiply the distance by $\\hl{1}{1000}$.",
+      "lines": [
+       {
+        "tex": "72 \\text{ km} &= 72 \\times \\hl{1}{1000} \\text{ m}",
+        "sym": "72*1000",
+        "new": true
+       },
+       {
+        "tex": "&= 72\\,000 \\text{ m}",
+        "sym": "72000"
+       }
+      ]
+     },
+     {
+      "title": "Change hours to seconds",
+      "say": "There are $60 \\times 60$ seconds in $1$ hour. So $72\\,000$ m in $1$ hour is the same as $72\\,000$ m in $\\hl{2}{3600}$ s.",
+      "lines": [
+       {
+        "tex": "1 \\text{ hour} &= 60 \\times 60 = \\hl{2}{3600} \\text{ s}",
+        "sym": "60*60",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Divide distance by time",
+      "say": "Metres per second is the distance in metres divided by the time in seconds.",
+      "lines": [
+       {
+        "tex": "\\text{speed} &= \\frac{72\\,000}{\\hl{2}{3600}}",
+        "sym": "72000/3600",
+        "new": true
+       },
+       {
+        "tex": "&= 20 \\text{ m/s}",
+        "sym": "20"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "20 \\text{ m/s}"
+   },
+   "finalSym": "20",
+   "answerSym": "72*1000/3600"
+  }
+ },
+ {
+  "skill": "fin-estimate",
+  "title": "Estimate, round and check order of magnitude",
+  "what": {
+   "say": [
+    "You give it a calculation. It gives back a quick **estimate**, close to the real answer, that you can do in your head.",
+    "The key idea: round every number to one **significant figure** first. Then the sum is easy, and the answer shows if your calculator work is sensible."
+   ],
+   "in": "a calculation",
+   "out": "estimate and check"
+  },
+  "example": {
+   "question": "A shop sells $19.8$ kg of cheese at $€6.10$ per kg.\n(a) Estimate the cost by rounding each number to one significant figure.\n(b) Calculate the exact cost.\n(c) Is your answer to (b) sensible?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Round each number",
+      "say": "Round each number to one significant figure. Keep the first digit that is not zero and round the rest.",
+      "lines": [
+       {
+        "tex": "19.8 &\\approx 20",
+        "sym": "20",
+        "new": true,
+        "approx": true
+       },
+       {
+        "tex": "6.10 &\\approx 6",
+        "sym": "6",
+        "new": true,
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Multiply the rounded numbers",
+      "say": "Now multiply the easy numbers. This is the **estimate**.",
+      "lines": [
+       {
+        "tex": "\\text{estimate} &= 20 \\times 6",
+        "sym": "20*6",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{120}",
+        "sym": "120"
+       }
+      ]
+     },
+     {
+      "title": "Calculate exactly",
+      "say": "Use the original numbers. Multiply the weight by the price per kg.",
+      "lines": [
+       {
+        "tex": "\\text{cost} &= 19.8 \\times 6.10",
+        "sym": "Rational(198,10)*Rational(61,10)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{120.78}",
+        "sym": "Rational(12078,100)"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two",
+      "say": "Put the exact answer next to the estimate. They should be close.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{120.78} - \\hl{1}{120} &= 0.78",
+        "sym": "Rational(12078,100)-120",
+        "new": true
+       },
+       {
+        "text": "The difference is under €1. The exact cost of $\\hl{2}{€120.78}$ is sensible."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{estimate } €120, \\text{ exact cost } €120.78"
+   },
+   "finalSym": "Rational(12078,100)",
+   "answerSym": "Rational(198,10)*Rational(61,10)"
+  }
+ },
+ {
+  "skill": "fin-profit-margin",
+  "title": "Calculate cost/selling price, discount, mark-up and margin",
+  "what": {
+   "say": [
+    "You give it a cost price and a selling price. It finds the **profit**, the **mark-up** and the **margin**.",
+    "The key idea: profit is selling price minus cost price. Mark-up is that profit as a percentage of the **cost price**. Margin is the same profit as a percentage of the **selling price**."
+   ],
+   "in": "cost price and selling price",
+   "out": "profit, mark-up, margin"
+  },
+  "example": {
+   "question": "A shop buys a bag for $€45$ and sells it for $€60$. Find (a) the profit, (b) the mark-up as a percentage of the cost price, (c) the margin as a percentage of the selling price.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the profit",
+      "say": "Profit is the selling price minus the cost price.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{profit}} &= 60 - 45",
+        "sym": "60-45",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{15}",
+        "sym": "15"
+       }
+      ]
+     },
+     {
+      "title": "Find the mark-up",
+      "say": "Mark-up divides the profit by the cost price. The cost price is the one the shop paid.",
+      "lines": [
+       {
+        "tex": "\\text{mark-up} &= \\frac{\\hl{1}{15}}{45} \\times 100",
+        "sym": "Rational(15,45)*100",
+        "new": true
+       },
+       {
+        "tex": "&\\approx \\hl{2}{33.3}\\%",
+        "sym": "Rational(100,3)",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Find the margin",
+      "say": "Margin divides the same profit by the selling price instead.",
+      "lines": [
+       {
+        "tex": "\\text{margin} &= \\frac{\\hl{1}{15}}{60} \\times 100",
+        "sym": "Rational(15,60)*100",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{25}\\%",
+        "sym": "25"
+       }
+      ]
+     },
+     {
+      "title": "Check the two",
+      "say": "The profit is the same in both. Only the number you divide by changes.",
+      "lines": [
+       {
+        "text": "Mark-up divides by $45$, the cost. Margin divides by $60$, the selling price."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{profit } €15, \\text{ mark-up } 33.3\\%, \\text{ margin } 25\\%"
+   },
+   "finalSym": "Tuple(15,Rational(100,3),25)",
+   "answerSym": "Tuple(60-45,Rational(60-45,45)*100,Rational(60-45,60)*100)"
+  }
+ },
+ {
+  "skill": "fin-compound-interest",
+  "title": "Apply compound interest",
+  "what": {
+   "say": [
+    "You give it a starting amount $P$, a yearly rate and a number of years. It gives back the **final value** $F$.",
+    "The key idea: each year the amount is multiplied by the same number, $1 + i$. So after $t$ years you multiply $t$ times, which is $F = P(1 + i)^t$."
+   ],
+   "in": "$P$, $i$, $t$",
+   "out": "$F = P(1+i)^t$"
+  },
+  "example": {
+   "question": "Aoife invests $€7000$ at $2.5\\%$ per year compound interest for $3$ years. Find the value of her investment at the end of $3$ years, to the nearest cent.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the formula",
+      "say": "Each year the amount grows by the rate. Write the formula for $t$ years.",
+      "lines": [
+       {
+        "tex": "F &= P(1 + i)^t",
+        "sym": "P*(1+i)**t",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write down what you know",
+      "say": "Change $2.5\\%$ to a decimal. Then list the three values.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{i} &= 2.5\\% = 0.025",
+        "sym": "Rational(25,1000)",
+        "new": true
+       },
+       {
+        "text": "$P = 7000$ and $t = 3$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "say": "Put the numbers into the formula. Add $1$ to $\\hl{1}{i}$ first.",
+      "lines": [
+       {
+        "tex": "F &= 7000(1 + \\hl{1}{0.025})^3",
+        "sym": "7000*(1+Rational(25,1000))**3",
+        "new": true
+       },
+       {
+        "tex": "&= 7000(1.025)^3",
+        "sym": "7000*Rational(1025,1000)**3"
+       }
+      ]
+     },
+     {
+      "title": "Calculate",
+      "say": "Work out the power, then multiply. Round to the cent at the end.",
+      "lines": [
+       {
+        "tex": "F &= 7000 \\times 1.076890625",
+        "sym": "7000*Rational(1076890625,10**9)"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{7538.23}",
+        "sym": "Rational(753823,100)",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "€7538.23"
+   },
+   "finalSym": "Rational(753823,100)",
+   "answerSym": "round(7000*(1+Rational(25,10)/100)**3,2)"
+  }
+ },
+ {
+  "skill": "fin-depreciation",
+  "title": "Apply reducing-balance depreciation",
+  "what": {
+   "say": [
+    "You give it a starting value $P$, a yearly rate of loss and a number of years. It gives back the **value** $F$ after those years.",
+    "The key idea: each year the value is multiplied by the same number, $1 - i$, because the car keeps $100\\% - i$ of what it was worth. So $F = P(1 - i)^t$."
+   ],
+   "in": "$P$, $i$, $t$",
+   "out": "$F = P(1-i)^t$"
+  },
+  "example": {
+   "question": "A van costs $€25\\,000$ new. It loses $10\\%$ of its value each year. Find the value of the van after $4$ years.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the yearly multiplier",
+      "say": "The van keeps $90\\%$ of its value each year. Write that as a decimal.",
+      "lines": [
+       {
+        "tex": "1 - \\hl{1}{i} &= 1 - 0.10",
+        "sym": "1-Rational(10,100)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{0.9}",
+        "sym": "Rational(9,10)"
+       }
+      ]
+     },
+     {
+      "title": "Write the formula",
+      "say": "Each year the value is multiplied by $\\hl{2}{0.9}$. After $t$ years that is $t$ times.",
+      "lines": [
+       {
+        "tex": "F &= P(1 - i)^t",
+        "sym": "P*(1-i)**t",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "say": "Put in $P = 25\\,000$, the multiplier $\\hl{2}{0.9}$ and $t = 4$.",
+      "lines": [
+       {
+        "tex": "F &= 25\\,000(\\hl{2}{0.9})^4",
+        "sym": "25000*Rational(9,10)**4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Calculate",
+      "say": "Work out $0.9^4$, then multiply.",
+      "lines": [
+       {
+        "tex": "F &= 25\\,000 \\times 0.6561",
+        "sym": "25000*Rational(6561,10000)"
+       },
+       {
+        "tex": "&= \\hl{3}{€16\\,402.50}",
+        "sym": "Rational(32805,2)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "€16\\,402.50"
+   },
+   "finalSym": "Rational(32805,2)",
+   "answerSym": "25000*(1-Rational(10,100))**4"
+  }
+ },
+ {
+  "skill": "fin-rate-conversion",
+  "title": "Convert between annual and periodic rates (AER/APR)",
+  "what": {
+   "say": [
+    "You give it a rate for one period, such as a yearly rate. It gives back the **equivalent** rate for a different period, such as a month.",
+    "The key idea: growth multiplies. Twelve months of growth at rate $i$ must give the same result as one year at the annual rate, so $(1+i)^{12} = 1 + \\text{annual rate}$."
+   ],
+   "in": "annual rate",
+   "out": "monthly rate"
+  },
+  "example": {
+   "question": "A bank quotes an annual percentage rate (APR) of $3.6\\%$. Find the equivalent monthly rate, correct to 3 significant figures.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Set up the equation",
+      "say": "One year is $12$ months. Growth at the monthly rate $\\hl{1}{i}$ twelve times must equal the growth at the annual rate.",
+      "lines": [
+       {
+        "tex": "(1 + \\hl{1}{i})^{12} &= 1.036",
+        "sym": "1.036"
+       }
+      ]
+     },
+     {
+      "title": "Take the 12th root",
+      "say": "To undo the power of $12$, raise both sides to the power $\\frac{1}{12}$.",
+      "lines": [
+       {
+        "tex": "1 + \\hl{1}{i} &= 1.036^{\\frac{1}{12}}",
+        "sym": "1.036**(1/12)",
+        "new": true
+       },
+       {
+        "tex": "&= 1.002952",
+        "sym": "1.002952",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Subtract 1",
+      "say": "Take away the $1$ to leave $\\hl{1}{i}$ alone, then write it as a percentage.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{i} &= 1.002952 - 1",
+        "sym": "1.002952-1",
+        "new": true
+       },
+       {
+        "tex": "&= 0.002952",
+        "sym": "0.002952"
+       },
+       {
+        "tex": "&= 0.295\\%",
+        "sym": "0.295/100",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "0.295\\%"
+   },
+   "finalSym": "0.295",
+   "answerSym": "100*(1.036**(1/12)-1)"
+  }
+ },
+ {
+  "skill": "fin-income-tax",
+  "title": "Calculate income tax, USC, PRSI and net pay",
+  "what": {
+   "say": [
+    "You give it a gross pay, the tax rates and bands, and the tax credits. It gives back the **gross tax**, the **net tax** and the **net pay**.",
+    "The key idea: each rate applies only to its own slice of the pay, and the tax credits come off the tax, not off the pay."
+   ],
+   "in": "gross pay, rates, credits",
+   "out": "net tax and net pay"
+  },
+  "example": {
+   "question": "Ciara earns $€56\\,000$ a year. She pays tax at $20\\%$ on the first $€42\\,000$ and $40\\%$ on the rest. Her tax credits are $€3\\,500$. Find her net pay.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Tax at the 20% rate",
+      "say": "The $20\\%$ rate applies only to the first $€42\\,000$.",
+      "lines": [
+       {
+        "tex": "20\\% \\text{ tax} &= 0.2 \\times 42000",
+        "sym": "0.2*42000"
+       },
+       {
+        "tex": "&= 8400",
+        "sym": "8400"
+       }
+      ]
+     },
+     {
+      "title": "Tax at the 40% rate",
+      "say": "The rest of the pay is what is left after the first $€42\\,000$. Tax that at $40\\%$.",
+      "lines": [
+       {
+        "tex": "\\text{rest} &= 56000 - 42000",
+        "sym": "56000-42000"
+       },
+       {
+        "tex": "&= 14000",
+        "sym": "14000"
+       },
+       {
+        "tex": "40\\% \\text{ tax} &= 0.4 \\times 14000",
+        "sym": "0.4*14000",
+        "new": true
+       },
+       {
+        "tex": "&= 5600",
+        "sym": "5600"
+       }
+      ]
+     },
+     {
+      "title": "Add to get gross tax",
+      "say": "Add the two amounts to get the $\\hl{1}{\\text{gross tax}}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{gross tax}} &= 8400 + 5600",
+        "sym": "8400+5600",
+        "new": true
+       },
+       {
+        "tex": "&= 14000",
+        "sym": "14000"
+       }
+      ]
+     },
+     {
+      "title": "Take off the credits",
+      "say": "The credits come off the tax. What is left is the $\\hl{2}{\\text{net tax}}$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\text{net tax}} &= \\hl{1}{14000} - 3500",
+        "sym": "14000-3500",
+        "new": true
+       },
+       {
+        "tex": "&= 10500",
+        "sym": "10500"
+       }
+      ]
+     },
+     {
+      "title": "Find the net pay",
+      "say": "Take the $\\hl{2}{\\text{net tax}}$ from the gross pay.",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{net pay}} &= 56000 - \\hl{2}{10500}",
+        "sym": "56000-10500",
+        "new": true
+       },
+       {
+        "tex": "&= 45500",
+        "sym": "45500"
+       },
+       {
+        "text": "Only the tax is reduced by the credits. The pay is not."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{€}45500"
+   },
+   "finalSym": "45500",
+   "answerSym": "56000-(0.2*42000+0.4*(56000-42000)-3500)"
+  }
+ },
+ {
+  "skill": "fin-costing",
+  "title": "Cost materials, labour and wastage",
+  "what": {
+   "say": [
+    "You give it a job: the amounts of materials, the price of each, the wastage and the labour. It gives back the **total cost**.",
+    "The key idea: cost each part of the job on its own, then add them. Wastage means buying more than you need, so the amount goes up by that percentage."
+   ],
+   "in": "materials, wastage, labour",
+   "out": "total cost"
+  },
+  "example": {
+   "question": "A room is $5$ m by $4$ m. The floor is to be tiled. Tiles cost $€30$ per m², and $8\\%$ extra is bought for wastage. The tiler charges $€45$ per hour for $6$ hours. Find the total cost.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Area of the floor",
+      "say": "Multiply the length by the width.",
+      "lines": [
+       {
+        "tex": "\\text{area} &= 5 \\times 4",
+        "sym": "5*4"
+       },
+       {
+        "tex": "&= 20",
+        "sym": "20"
+       },
+       {
+        "text": "The unit is m²."
+       }
+      ]
+     },
+     {
+      "title": "Add the wastage",
+      "say": "$8\\%$ extra means $108\\%$ of the area. Multiply by $1.08$.",
+      "lines": [
+       {
+        "tex": "\\text{to buy} &= 20 \\times 1.08",
+        "sym": "20*1.08",
+        "new": true
+       },
+       {
+        "tex": "&= 21.6",
+        "sym": "21.6"
+       }
+      ]
+     },
+     {
+      "title": "Cost of the tiles",
+      "say": "Multiply the area to buy by the price per m². This is the cost of the $\\hl{1}{\\text{tiles}}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{tiles}} &= 21.6 \\times 30",
+        "sym": "21.6*30",
+        "new": true
+       },
+       {
+        "tex": "&= 648",
+        "sym": "648"
+       }
+      ]
+     },
+     {
+      "title": "Cost of the labour",
+      "say": "Multiply the hours by the rate per hour to get the $\\hl{2}{\\text{labour}}$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\text{labour}} &= 6 \\times 45",
+        "sym": "6*45",
+        "new": true
+       },
+       {
+        "tex": "&= 270",
+        "sym": "270"
+       }
+      ]
+     },
+     {
+      "title": "Add for the total",
+      "say": "Add the $\\hl{1}{\\text{tiles}}$ and the $\\hl{2}{\\text{labour}}$.",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{total}} &= \\hl{1}{648} + \\hl{2}{270}",
+        "sym": "648+270",
+        "new": true
+       },
+       {
+        "tex": "&= 918",
+        "sym": "918"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{€}918"
+   },
+   "finalSym": "918",
+   "answerSym": "5*4*1.08*30+6*45"
+  }
+ },
+ {
+  "skill": "fin-error",
+  "title": "Calculate percentage error, tolerance and accumulated error",
+  "what": {
+   "say": [
+    "You give it an estimated value and the true value. It gives back the **percentage error**: how far off the estimate is, as a percentage of the truth.",
+    "The key idea: the error is the difference between the two values, and you always divide it by the **true** value."
+   ],
+   "in": "estimate and true value",
+   "out": "percentage error"
+  },
+  "example": {
+   "question": "A table is measured as $1.46$ m long. The true length is $1.50$ m. Find the percentage error, correct to one decimal place.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the error",
+      "say": "The error is the difference between the true value and the estimate.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{error}} &= 1.50 - 1.46",
+        "sym": "1.50-1.46"
+       },
+       {
+        "tex": "&= 0.04",
+        "sym": "0.04"
+       }
+      ]
+     },
+     {
+      "title": "Divide by the true value",
+      "say": "Divide the $\\hl{1}{\\text{error}}$ by the true value, $1.50$. Multiply by $100$ to make it a percentage.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\text{percentage error}} &= \\dfrac{\\hl{1}{0.04}}{1.50} \\times 100",
+        "sym": "0.04/1.50*100",
+        "new": true
+       },
+       {
+        "tex": "&= 2.666\\ldots",
+        "sym": "2.6667",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Round the answer",
+      "say": "Round to one decimal place and write the percent sign.",
+      "lines": [
+       {
+        "tex": "&= 2.7\\%",
+        "sym": "2.7",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2.7\\%"
+   },
+   "finalSym": "2.7",
+   "answerSym": "abs(Rational(150,100)-Rational(146,100))/Rational(150,100)*100"
+  }
+ },
+ {
+  "skill": "fin-average-rate",
+  "title": "Calculate an average rate of change over time",
+  "what": {
+   "say": [
+    "You give it a change in some quantity and the time it took. It finds the **rate**: how much the quantity changes in each unit of time.",
+    "The key idea: rate is change divided by time. For a journey in parts, add up the total change and the total time first, then divide once."
+   ],
+   "in": "change, time",
+   "out": "rate"
+  },
+  "example": {
+   "question": "A cyclist rides $18$ km in $45$ minutes, then $12$ km in $15$ minutes. Find her average speed for the whole journey, in km/h.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Change minutes to hours",
+      "say": "Speed in km/h needs the time in **hours**. Divide each number of minutes by $60$.",
+      "lines": [
+       {
+        "tex": "t_1 &= \\frac{45}{60}",
+        "sym": "Rational(45,60)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{3}{4}",
+        "sym": "Rational(3,4)"
+       },
+       {
+        "tex": "t_2 &= \\frac{15}{60}",
+        "sym": "Rational(15,60)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1}{4}",
+        "sym": "Rational(1,4)"
+       }
+      ]
+     },
+     {
+      "title": "Add the totals",
+      "say": "Do not average the two speeds. Add up the whole distance and the whole time.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{D} &= 18 + 12",
+        "sym": "18+12",
+        "new": true
+       },
+       {
+        "tex": "&= 30",
+        "sym": "30"
+       },
+       {
+        "tex": "\\hl{2}{T} &= \\frac{3}{4} + \\frac{1}{4}",
+        "sym": "Rational(3,4)+Rational(1,4)",
+        "new": true
+       },
+       {
+        "tex": "&= 1",
+        "sym": "1"
+       }
+      ]
+     },
+     {
+      "title": "Divide distance by time",
+      "say": "Average speed is the total distance divided by the total time.",
+      "lines": [
+       {
+        "tex": "\\text{speed} &= \\frac{\\hl{1}{D}}{\\hl{2}{T}}"
+       },
+       {
+        "tex": "&= \\frac{30}{1}",
+        "sym": "30/1",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{30}",
+        "sym": "30"
+       },
+       {
+        "text": "The two speeds were $24$ and $48$ km/h. The average is not $36$, because she spent longer at the slower speed."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{3}{30} \\text{ km/h}"
+   },
+   "finalSym": "30",
+   "answerSym": "(18+12)/(Rational(45,60)+Rational(15,60))"
+  }
+ }
+]

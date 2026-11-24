@@ -1,0 +1,954 @@
+[
+ {
+  "skill": "eq-linear-fractions",
+  "title": "Solve a linear equation with fractions",
+  "what": {
+   "say": [
+    "You give it a linear equation where the $x$ terms sit over numbers, like $\\frac{x+3}{2}$. It finds $\\hl{2}{x}$ the same way as any linear equation, once the fractions are gone.",
+    "The key idea: multiply **every** term by the common denominator. The fractions cancel and a plain linear equation is left."
+   ],
+   "in": "equation with fractions",
+   "out": "$x$"
+  },
+  "example": {
+   "question": "Solve $\\dfrac{x + 3}{2} + \\dfrac{x - 1}{4} = 5$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the common denominator",
+      "say": "The denominators are $2$ and $4$. The smallest number both go into is $\\hl{1}{4}$.",
+      "lines": [
+       {
+        "tex": "\\dfrac{x + 3}{2} + \\dfrac{x - 1}{4} &= 5",
+        "sym": "Eq((x+3)/2+(x-1)/4,5)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Multiply every term",
+      "say": "Multiply each term by $\\hl{1}{4}$, including the $5$ on the right. Each fraction cancels.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{4}\\cdot\\dfrac{x + 3}{2} + \\hl{1}{4}\\cdot\\dfrac{x - 1}{4} &= \\hl{1}{4}\\cdot 5",
+        "sym": "Eq(4*((x+3)/2)+4*((x-1)/4),4*5)"
+       },
+       {
+        "tex": "2(x + 3) + (x - 1) &= 20",
+        "sym": "Eq(2*(x+3)+(x-1),20)"
+       },
+       {
+        "text": "The $5$ on the right is multiplied too. It is easy to forget."
+       }
+      ]
+     },
+     {
+      "title": "Tidy the left side",
+      "say": "Remove the bracket and collect the $x$ terms and the numbers.",
+      "lines": [
+       {
+        "tex": "2x + 6 + x - 1 &= 20",
+        "sym": "Eq(2*x+6+x-1,20)"
+       },
+       {
+        "tex": "3x + 5 &= 20",
+        "sym": "Eq(3*x+5,20)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Take $5$ from both sides, then divide by $3$.",
+      "lines": [
+       {
+        "tex": "3x &= 15",
+        "sym": "Eq(3*x,15)"
+       },
+       {
+        "tex": "\\hl{2}{x} &= 5",
+        "sym": "Eq(x,5)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 5"
+   },
+   "finalSym": "[5]",
+   "answerSym": "solve(Eq((x+3)/2+(x-1)/4,5),x)"
+  }
+ },
+ {
+  "skill": "eq-surd",
+  "title": "Solve an equation involving a square root",
+  "what": {
+   "say": [
+    "You give it an equation with $x$ under a square root, like $\\sqrt{f(x)} = g(x)$. It finds the values of $x$ that really work.",
+    "The key idea: square both sides to remove the root. Squaring can add false answers, so every solution must be **checked** in the original equation."
+   ],
+   "in": "$\\sqrt{f(x)}=g(x)$",
+   "out": "$x$, false roots rejected"
+  },
+  "example": {
+   "question": "Solve $\\sqrt{3x + 10} = x + 2$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Square both sides",
+      "say": "Square both sides to remove the root. Square the whole of $x + 2$, not each term.",
+      "lines": [
+       {
+        "tex": "\\sqrt{3x + 10} &= x + 2",
+        "sym": "Eq(sqrt(3*x+10),x+2)",
+        "new": true
+       },
+       {
+        "tex": "3x + 10 &= (x + 2)^2",
+        "sym": "Eq(3*x+10,(x+2)**2)",
+        "new": true
+       },
+       {
+        "tex": "3x + 10 &= x^2 + 4x + 4",
+        "sym": "Eq(3*x+10,x**2+4*x+4)"
+       }
+      ]
+     },
+     {
+      "title": "Make a quadratic",
+      "say": "Move everything to one side so it equals $0$, then factorise.",
+      "lines": [
+       {
+        "tex": "0 &= x^2 + x - 6",
+        "sym": "Eq(0,x**2+x-6)"
+       },
+       {
+        "tex": "0 &= (x + 3)(x - 2)",
+        "sym": "Eq(0,(x+3)*(x-2))"
+       },
+       {
+        "tex": "x &= 2",
+        "sym": "Eq(x,2)",
+        "new": true
+       },
+       {
+        "tex": "x &= -3",
+        "sym": "Eq(x,-3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Test x = 2",
+      "say": "Put $x = 2$ into the original equation, not the squared one.",
+      "lines": [
+       {
+        "tex": "\\sqrt{3(2) + 10} &= \\sqrt{16}",
+        "sym": "sqrt(3*2+10)",
+        "new": true
+       },
+       {
+        "tex": "&= 4",
+        "sym": "4"
+       },
+       {
+        "tex": "2 + 2 &= 4",
+        "sym": "2+2"
+       },
+       {
+        "text": "Both sides are $4$. So $x = 2$ works."
+       }
+      ]
+     },
+     {
+      "title": "Test x = -3",
+      "say": "Do the same for $x = -3$.",
+      "lines": [
+       {
+        "tex": "\\sqrt{3(-3) + 10} &= \\sqrt{1}",
+        "sym": "sqrt(3*(-3)+10)",
+        "new": true
+       },
+       {
+        "tex": "&= 1",
+        "sym": "1"
+       },
+       {
+        "tex": "-3 + 2 &= -1",
+        "sym": "-3+2",
+        "new": true
+       },
+       {
+        "text": "The sides are $1$ and $-1$. They are not equal, so reject $x = -3$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 2"
+   },
+   "finalSym": "[2]",
+   "answerSym": "solve(Eq(sqrt(3*x+10),x+2),x)"
+  }
+ },
+ {
+  "skill": "eq-rational",
+  "title": "Solve a/(bx+c) ± p/(qx+r) = e/f",
+  "what": {
+   "say": [
+    "You give it an equation where $x$ sits in the denominators, like $\\frac{1}{x}$. It finds the values of $\\hl{2}{x}$ that solve it.",
+    "The key idea: multiply every term by the common denominator to clear the fractions. That leaves a quadratic. Then check that no answer makes a denominator $0$."
+   ],
+   "in": "$\\frac{a}{bx+c}\\pm\\frac{p}{qx+r}=\\frac{e}{f}$",
+   "out": "$x$ (denominators $\\neq 0$)"
+  },
+  "example": {
+   "question": "Solve $\\dfrac{1}{x} + \\dfrac{1}{x + 2} = \\dfrac{3}{4}$.",
+   "level": "ordinary",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Common denominator",
+      "say": "The denominators are $x$, $x + 2$ and $4$. Their common denominator is $\\hl{1}{4x(x + 2)}$. $x$ cannot be $0$ or $-2$.",
+      "lines": [
+       {
+        "tex": "\\dfrac{1}{x} + \\dfrac{1}{x + 2} &= \\dfrac{3}{4}",
+        "sym": "Eq(1/x+1/(x+2),Rational(3,4))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Clear the fractions",
+      "say": "Multiply every term by $\\hl{1}{4x(x + 2)}$. Each fraction cancels.",
+      "lines": [
+       {
+        "tex": "4(x + 2) + 4x &= 3x(x + 2)",
+        "sym": "Eq(4*(x+2)+4*x,3*x*(x+2))",
+        "new": true
+       },
+       {
+        "tex": "8x + 8 &= 3x^2 + 6x",
+        "sym": "Eq(8*x+8,3*x**2+6*x)"
+       }
+      ]
+     },
+     {
+      "title": "Make a quadratic",
+      "say": "Move everything to the right side so one side is $0$. Then factorise.",
+      "lines": [
+       {
+        "tex": "0 &= 3x^2 - 2x - 8",
+        "sym": "Eq(0,3*x**2-2*x-8)"
+       },
+       {
+        "tex": "0 &= (3x + 4)(x - 2)",
+        "sym": "Eq(0,(3*x+4)*(x-2))"
+       }
+      ]
+     },
+     {
+      "title": "Read off the roots",
+      "say": "Each bracket can be $0$. Check neither answer is $0$ or $-2$.",
+      "lines": [
+       {
+        "tex": "x &= \\hl{2}{2}",
+        "sym": "Eq(x,2)",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{2}{-\\dfrac{4}{3}}",
+        "sym": "Eq(x,Rational(-4,3))",
+        "new": true
+       },
+       {
+        "text": "Neither is $0$ or $-2$, so both are allowed."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 2 \\text{ or } x = -\\dfrac{4}{3}"
+   },
+   "finalSym": "[Rational(-4,3), 2]",
+   "answerSym": "solve(Eq(1/x+1/(x+2),Rational(3,4)),x)"
+  }
+ },
+ {
+  "skill": "eq-rational-hl",
+  "title": "Solve (ax+b)/(ex+f) ± (cx+d)/(qx+r) = k",
+  "what": {
+   "say": [
+    "You give it an equation with $x$ in the **denominators**. It finds the values of $x$ that make both sides equal.",
+    "The key idea: multiply every term by the product of the denominators. The fractions disappear and an ordinary equation is left."
+   ],
+   "in": "$\\frac{ax+b}{ex+f} \\pm \\frac{cx+d}{qx+r} = k$",
+   "out": "$x$"
+  },
+  "example": {
+   "question": "Solve $\\dfrac{x+1}{x-1} + \\dfrac{x+2}{x+1} = 3$, giving your answers correct to two decimal places.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Clear the fractions",
+      "say": "Multiply every term by $(x-1)(x+1)$. Each fraction loses its denominator, and the right-hand side gains both brackets.",
+      "lines": [
+       {
+        "tex": "\\frac{x+1}{x-1} + \\frac{x+2}{x+1} &= 3",
+        "sym": "Eq((x+1)/(x-1)+(x+2)/(x+1),3)",
+        "new": true
+       },
+       {
+        "tex": "(x+1)(x+1) + (x+2)(x-1) &= 3(x-1)(x+1)",
+        "sym": "Eq((x+1)*(x+1)+(x+2)*(x-1),3*(x-1)*(x+1))"
+       },
+       {
+        "text": "$x$ cannot be $1$ or $-1$, since those make a denominator $0$."
+       }
+      ]
+     },
+     {
+      "title": "Multiply out",
+      "say": "Expand every bracket on both sides, then collect like terms.",
+      "lines": [
+       {
+        "tex": "x^2 + 2x + 1 + x^2 + x - 2 &= 3x^2 - 3",
+        "sym": "Eq(x**2+2*x+1+x**2+x-2,3*x**2-3)"
+       },
+       {
+        "tex": "2x^2 + 3x - 1 &= 3x^2 - 3",
+        "sym": "Eq(2*x**2+3*x-1,3*x**2-3)"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange to equal zero",
+      "say": "Move everything to the side where $x^2$ is positive. A quadratic that does not factorise needs the formula.",
+      "lines": [
+       {
+        "tex": "x^2 - 3x - 2 &= 0",
+        "sym": "Eq(x**2-3*x-2,0)"
+       },
+       {
+        "text": "Here $a = 1$, $b = -3$, $c = -2$."
+       }
+      ]
+     },
+     {
+      "title": "Use the formula",
+      "say": "Put $a$, $b$ and $c$ into the quadratic formula. Work out $b^2 - 4ac$ first.",
+      "lines": [
+       {
+        "tex": "b^2 - 4ac &= (-3)^2 - 4(1)(-2) = 17",
+        "sym": "(-3)**2-4*1*(-2)",
+        "new": true
+       },
+       {
+        "tex": "x &= \\frac{3 \\pm \\sqrt{17}}{2}"
+       },
+       {
+        "tex": "\\hl{2}{x} &= \\hl{2}{3.56} \\text{ or } \\hl{2}{-0.56}"
+       },
+       {
+        "text": "Neither is $1$ or $-1$, so both are solutions."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 3.56 \\text{ or } x = -0.56"
+   },
+   "finalSym": "[(3+sqrt(17))/2,(3-sqrt(17))/2]",
+   "answerSym": "solve(Eq((x+1)/(x-1)+(x+2)/(x+1),3),x)"
+  }
+ },
+ {
+  "skill": "line-unknown-coefficient",
+  "title": "Find an unknown in a line from a condition",
+  "what": {
+   "say": [
+    "You give it a line with an unknown number in its equation, and a condition such as **parallel** or perpendicular to another line. It finds the unknown.",
+    "The key idea: the condition becomes an equation in the slopes. Parallel lines have equal slopes. Perpendicular lines have slopes that multiply to $-1$."
+   ],
+   "in": "line with $k$ and a condition",
+   "out": "value of $k$"
+  },
+  "example": {
+   "question": "The line $kx + 4y = 7$ is parallel to the line $6x - 2y = 5$. Find the value of $k$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Slope of the first line",
+      "say": "Make $y$ the subject. The number in front of $x$ is the slope.",
+      "lines": [
+       {
+        "tex": "4y &= 7 - kx",
+        "sym": "Eq(4*y, 7-k*x)",
+        "new": true
+       },
+       {
+        "tex": "y &= \\tfrac{7}{4} - \\tfrac{k}{4}x",
+        "sym": "Eq(y, 7/4-k*x/4)"
+       },
+       {
+        "tex": "m_1 &= \\hl{1}{-\\tfrac{k}{4}}",
+        "sym": "Eq(m1, -k/4)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Slope of the second line",
+      "say": "Do the same for $6x - 2y = 5$.",
+      "lines": [
+       {
+        "tex": "-2y &= 5 - 6x",
+        "sym": "Eq(-2*y, 5-6*x)",
+        "new": true
+       },
+       {
+        "tex": "y &= 3x - \\tfrac{5}{2}",
+        "sym": "Eq(y, 3*x-5/2)"
+       },
+       {
+        "tex": "m_2 &= \\hl{2}{3}",
+        "sym": "Eq(m2, 3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Make the slopes equal",
+      "say": "Parallel lines have the same slope. Set $\\hl{1}{-\\tfrac{k}{4}} = \\hl{2}{3}$ and solve for $k$.",
+      "lines": [
+       {
+        "tex": "-\\tfrac{k}{4} &= 3",
+        "sym": "Eq(-k/4, 3)",
+        "new": true
+       },
+       {
+        "tex": "k &= \\hl{3}{-12}",
+        "sym": "Eq(k, -12)"
+       },
+       {
+        "text": "Check: with $k = -12$ the first slope is $-\\tfrac{-12}{4} = 3$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "k = -12"
+   },
+   "finalSym": "-12",
+   "answerSym": "solve(Eq(k*(-2), 6*4), k)"
+  }
+ },
+ {
+  "skill": "num-order-operations",
+  "title": "Apply order of operations",
+  "what": {
+   "say": [
+    "You give it a sum with brackets, powers, multiplying and adding mixed together. It gives back **one number**.",
+    "The key idea: there is a fixed order. Brackets first, then powers, then multiply and divide, then add and subtract."
+   ],
+   "in": "$6 + 3 \\times (7-4)^2$",
+   "out": "one value"
+  },
+  "example": {
+   "question": "Work out $6 + 3 \\times (7 - 4)^2 - 10 \\div 2$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Brackets first",
+      "say": "Do the bracket $(7 - 4)$ before anything else.",
+      "lines": [
+       {
+        "tex": "6 + 3 \\times (7 - 4)^2 - 10 \\div 2 &= 6 + 3 \\times \\hl{1}{3}^2 - 10 \\div 2",
+        "sym": "6+3*3**2-10/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Then the power",
+      "say": "Now the power. The square applies to the $\\hl{1}{3}$ only, not to the $3$ in front.",
+      "lines": [
+       {
+        "tex": "&= 6 + 3 \\times \\hl{2}{9} - 10 \\div 2",
+        "sym": "6+3*9-10/2"
+       }
+      ]
+     },
+     {
+      "title": "Multiply and divide",
+      "say": "Next, multiply and divide, working left to right.",
+      "lines": [
+       {
+        "tex": "&= 6 + \\hl{3}{27} - \\hl{4}{5}",
+        "sym": "6+27-5"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract",
+      "say": "Last, add and subtract from left to right.",
+      "lines": [
+       {
+        "tex": "&= 33 - 5",
+        "sym": "28"
+       },
+       {
+        "tex": "&= 28",
+        "sym": "28"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "28"
+   },
+   "finalSym": "28",
+   "answerSym": "6+3*(7-4)**2-Rational(10,2)"
+  }
+ },
+ {
+  "skill": "num-fractions",
+  "title": "Operate on fractions",
+  "what": {
+   "say": [
+    "You give it fractions or mixed numbers. It gives back one **simplified** fraction.",
+    "The key idea: you can only add or subtract fractions with the same denominator, so first rewrite each one over a common denominator."
+   ],
+   "in": "fractions",
+   "out": "one simplified fraction"
+  },
+  "example": {
+   "question": "Work out $\\frac{5}{6} + \\frac{3}{4} - \\frac{1}{3}$. Give your answer as a fraction in its simplest form.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a common denominator",
+      "say": "The denominators are $6$, $4$ and $3$. Find the smallest number they all divide into. That is $\\hl{1}{12}$. Rewrite each fraction over $\\hl{1}{12}$.",
+      "lines": [
+       {
+        "tex": "\\frac{5}{6} + \\frac{3}{4} - \\frac{1}{3} &= \\frac{10}{\\hl{1}{12}} + \\frac{9}{\\hl{1}{12}} - \\frac{4}{\\hl{1}{12}}",
+        "sym": "10/12+9/12-4/12",
+        "new": true
+       },
+       {
+        "text": "Multiply top and bottom by the same number each time: by $2$, by $3$ and by $4$."
+       }
+      ]
+     },
+     {
+      "title": "Combine the numerators",
+      "say": "Now the denominators match. Add and subtract the tops. The bottom stays $\\hl{1}{12}$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{10 + 9 - 4}{\\hl{1}{12}}",
+        "sym": "(10+9-4)/12"
+       },
+       {
+        "tex": "&= \\frac{15}{\\hl{1}{12}}",
+        "sym": "15/12"
+       }
+      ]
+     },
+     {
+      "title": "Simplify",
+      "say": "Both $15$ and $12$ divide by $3$. Divide top and bottom by $3$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{15 \\div 3}{12 \\div 3}",
+        "sym": "(15/3)/(12/3)"
+       },
+       {
+        "tex": "&= \\frac{5}{4}",
+        "sym": "5/4"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{5}{4}"
+   },
+   "finalSym": "5/4",
+   "answerSym": "5/6+3/4-1/3"
+  }
+ },
+ {
+  "skill": "num-decimal-fraction",
+  "title": "Convert decimals and fractions",
+  "what": {
+   "say": [
+    "You give it a decimal, terminating or recurring. It gives back the same number as a **fraction**, or the other way round.",
+    "The key idea for a recurring decimal: multiply to shift the repeating block, then subtract so the repeating part cancels."
+   ],
+   "in": "recurring decimal",
+   "out": "fraction"
+  },
+  "example": {
+   "question": "Write $0.454545\\ldots$ as a fraction in its simplest form.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name the number",
+      "say": "Let $\\hl{1}{x}$ be the number. The block $45$ repeats, so it has length two.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= 0.454545\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Shift one block",
+      "say": "Multiply by $100$ to move the decimal point past one whole block. The repeating part stays the same.",
+      "lines": [
+       {
+        "tex": "100\\hl{1}{x} &= 45.454545\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "say": "Subtract the first line from the second. The repeating parts cancel exactly.",
+      "lines": [
+       {
+        "tex": "100\\hl{1}{x} - \\hl{1}{x} &= 45.4545\\ldots - 0.4545\\ldots"
+       },
+       {
+        "tex": "99\\hl{1}{x} &= 45"
+       }
+      ]
+     },
+     {
+      "title": "Divide and simplify",
+      "say": "Divide both sides by $99$. Then divide top and bottom by $9$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= \\frac{45}{99}",
+        "sym": "45/99",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{5}{11}",
+        "sym": "5/11"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{5}{11}"
+   },
+   "finalSym": "5/11",
+   "answerSym": "Rational(45,100)/(1-Rational(1,100))"
+  }
+ },
+ {
+  "skill": "num-sets",
+  "title": "Classify numbers into N, Z, Q, R, C",
+  "what": {
+   "say": [
+    "You give it a number. It tells you the **smallest** set it belongs to: $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$ or $\\mathbb{R}$.",
+    "The key idea: the sets grow outwards. Each one sits inside the next, so ask the questions in order, from the smallest set up."
+   ],
+   "in": "a number",
+   "out": "its smallest set"
+  },
+  "example": {
+   "question": "For each number, write down the smallest of the sets $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$, $\\mathbb{R}$ that contains it.\n$\\sqrt{25}$, $-4$, $\\frac{3}{8}$, $\\sqrt{10}$",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Simplify the roots",
+      "say": "Work out any square root that is a whole number. $\\sqrt{25}$ is $5$, a counting number.",
+      "lines": [
+       {
+        "tex": "\\sqrt{25} &= 5",
+        "sym": "sqrt(25)",
+        "new": true
+       },
+       {
+        "text": "$5$ is in $\\hl{1}{\\mathbb{N}}$, the natural numbers $1, 2, 3, \\ldots$"
+       }
+      ]
+     },
+     {
+      "title": "Check for a minus sign",
+      "say": "$-4$ is a whole number, but it is negative, so it is not in $\\mathbb{N}$. Whole numbers with negatives are the integers.",
+      "lines": [
+       {
+        "text": "$-4$ is in $\\hl{2}{\\mathbb{Z}}$."
+       }
+      ]
+     },
+     {
+      "title": "Try writing as a fraction",
+      "say": "$\\frac{3}{8}$ is a fraction of two integers, and it is not a whole number. It is in the rationals. Its decimal ends.",
+      "lines": [
+       {
+        "tex": "\\frac{3}{8} &= 0.375",
+        "sym": "375/1000",
+        "new": true
+       },
+       {
+        "text": "$\\frac{3}{8}$ is in $\\hl{3}{\\mathbb{Q}}$."
+       }
+      ]
+     },
+     {
+      "title": "Look at the decimal",
+      "say": "$\\sqrt{10}$ is not a whole number. Its decimal never ends and never repeats, so it is not a fraction. That makes it irrational.",
+      "lines": [
+       {
+        "tex": "\\sqrt{10} &\\approx 3.162\\ldots",
+        "sym": "3.162",
+        "new": true,
+        "approx": true
+       },
+       {
+        "text": "$\\sqrt{10}$ is in $\\hl{4}{\\mathbb{R}}$ but not in $\\mathbb{Q}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\sqrt{25}: \\mathbb{N},\\ -4: \\mathbb{Z},\\ \\tfrac{3}{8}: \\mathbb{Q},\\ \\sqrt{10}: \\mathbb{R}"
+   },
+   "finalSym": "0",
+   "answerSym": "0"
+  }
+ },
+ {
+  "skill": "num-prime-factors",
+  "title": "Express a number as a product of primes",
+  "what": {
+   "say": [
+    "You give it a natural number. It writes it as a product of **primes**, and uses that to find the HCF and LCM.",
+    "The key idea: every number has exactly one prime factorisation. The HCF takes the primes both numbers share. The LCM takes every prime that appears in either."
+   ],
+   "in": "$n$",
+   "out": "primes; HCF, LCM"
+  },
+  "example": {
+   "question": "(i) Write $252$ and $180$ as products of prime numbers.\n(ii) Hence find the HCF and the LCM of $252$ and $180$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Factorise 252",
+      "say": "Divide by the smallest prime that goes in. Keep going until only primes are left.",
+      "lines": [
+       {
+        "tex": "252 &= 2 \\times 2 \\times 3 \\times 3 \\times 7",
+        "sym": "2*2*3*3*7",
+        "new": true
+       },
+       {
+        "tex": "&= 2^2 \\times 3^2 \\times 7",
+        "sym": "2**2*3**2*7"
+       }
+      ]
+     },
+     {
+      "title": "Factorise 180",
+      "say": "Do the same for $180$.",
+      "lines": [
+       {
+        "tex": "180 &= 2 \\times 2 \\times 3 \\times 3 \\times 5",
+        "sym": "2*2*3*3*5",
+        "new": true
+       },
+       {
+        "tex": "&= 2^2 \\times 3^2 \\times 5",
+        "sym": "2**2*3**2*5"
+       }
+      ]
+     },
+     {
+      "title": "Find the HCF",
+      "say": "The HCF uses only the primes in **both** numbers, each to its smaller power. Both have $\\hl{1}{2^2}$ and $\\hl{1}{3^2}$.",
+      "lines": [
+       {
+        "tex": "\\text{HCF} &= \\hl{1}{2^2 \\times 3^2}",
+        "sym": "2**2*3**2",
+        "new": true
+       },
+       {
+        "tex": "&= 36",
+        "sym": "36"
+       }
+      ]
+     },
+     {
+      "title": "Find the LCM",
+      "say": "The LCM uses every prime in **either** number, each to its larger power. Add the $5$ and the $7$ to the HCF primes.",
+      "lines": [
+       {
+        "tex": "\\text{LCM} &= 2^2 \\times 3^2 \\times \\hl{2}{5} \\times \\hl{2}{7}",
+        "sym": "2**2*3**2*5*7",
+        "new": true
+       },
+       {
+        "tex": "&= 1260",
+        "sym": "1260"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "252 = 2^2 \\times 3^2 \\times 7,\\quad 180 = 2^2 \\times 3^2 \\times 5,\\quad \\text{HCF} = 36,\\quad \\text{LCM} = 1260"
+   },
+   "finalSym": "36+1260",
+   "answerSym": "gcd(252,180)+lcm(252,180)"
+  }
+ },
+ {
+  "skill": "cx-powers-i",
+  "title": "Simplify powers of i",
+  "what": {
+   "say": [
+    "You give it a power of $i$, $i^n$. It gives back one of four values: $1$, $i$, $-1$ or $-i$.",
+    "The key idea: the powers repeat in a cycle of four, and $i^4 = 1$. Divide $n$ by $4$ and only the remainder matters."
+   ],
+   "in": "$i^n$",
+   "out": "$1,\\ i,\\ -1$ or $-i$"
+  },
+  "example": {
+   "question": "Write $i^{23}$ in the form $a + bi$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split off fours",
+      "say": "The powers of $i$ repeat every four, because $i^4 = 1$. Divide $23$ by $4$: it goes in $5$ times with remainder $3$.",
+      "lines": [
+       {
+        "tex": "i^{23} &= (i^4)^5 \\cdot i^3",
+        "sym": "(I**4)**5*I**3"
+       }
+      ]
+     },
+     {
+      "title": "Use i to the four is one",
+      "say": "Replace $i^4$ with $1$. Any power of $1$ is $1$, so only $i^3$ is left.",
+      "lines": [
+       {
+        "tex": "&= 1^5 \\cdot i^3",
+        "sym": "1**5*I**3"
+       },
+       {
+        "tex": "&= i^3",
+        "sym": "I**3"
+       }
+      ]
+     },
+     {
+      "title": "Find i cubed",
+      "say": "Write $i^3$ as $i^2 \\cdot i$ and use $i^2 = -1$.",
+      "lines": [
+       {
+        "tex": "&= i^2 \\cdot i",
+        "sym": "I**2*I"
+       },
+       {
+        "tex": "&= \\hl{1}{-i}",
+        "sym": "-I"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{-i}"
+   },
+   "finalSym": "-I",
+   "answerSym": "I**23"
+  }
+ },
+ {
+  "skill": "cx-arithmetic",
+  "title": "Add, subtract and multiply complex numbers",
+  "what": {
+   "say": [
+    "You give it two complex numbers, $a + bi$ and $c + di$. It gives back one answer in the form $a + bi$.",
+    "The key idea: treat $i$ like a letter and expand as normal. Then replace every $i^2$ with $-1$."
+   ],
+   "in": "$a + bi,\\ c + di$",
+   "out": "result in $a + bi$ form"
+  },
+  "example": {
+   "question": "Let $z_1 = 2 + i$ and $z_2 = 3 - 2i$. Find $z_1 z_2 - 2z_1$. Give your answer in the form $a + bi$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply the brackets",
+      "say": "Expand $z_1 z_2$ term by term, as with any two brackets. Four products, then replace $i^2$ with $-1$.",
+      "lines": [
+       {
+        "tex": "z_1 z_2 &= (2 + i)(3 - 2i)",
+        "sym": "(2+I)*(3-2*I)"
+       },
+       {
+        "tex": "&= 6 - 4i + 3i - 2i^2",
+        "sym": "6-4*I+3*I-2*I**2"
+       },
+       {
+        "tex": "&= 6 - i + 2",
+        "sym": "6-I+2"
+       },
+       {
+        "tex": "&= \\hl{1}{8 - i}",
+        "sym": "8-I"
+       }
+      ]
+     },
+     {
+      "title": "Find twice z1",
+      "say": "Multiply both parts of $z_1$ by $2$.",
+      "lines": [
+       {
+        "tex": "2z_1 &= 2(2 + i)",
+        "sym": "2*(2+I)"
+       },
+       {
+        "tex": "&= \\hl{2}{4 + 2i}",
+        "sym": "4+2*I"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "say": "Subtract $\\hl{2}{4 + 2i}$ from $\\hl{1}{8 - i}$. Take care: the minus sign changes both terms in the bracket.",
+      "lines": [
+       {
+        "tex": "z_1 z_2 - 2z_1 &= (8 - i) - (4 + 2i)",
+        "sym": "(8-I)-(4+2*I)",
+        "new": true
+       },
+       {
+        "tex": "&= 8 - i - 4 - 2i",
+        "sym": "8-I-4-2*I"
+       },
+       {
+        "tex": "&= \\hl{3}{4 - 3i}",
+        "sym": "4-3*I"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{3}{4 - 3i}"
+   },
+   "finalSym": "4-3*I",
+   "answerSym": "(2+I)*(3-2*I)-2*(2+I)"
+  }
+ }
+]

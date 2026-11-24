@@ -1,0 +1,980 @@
+[
+ {
+  "skill": "num-ratio-proportion",
+  "title": "Use ratio and direct/inverse proportion",
+  "what": {
+   "say": [
+    "You give it quantities in a **ratio**, or two quantities that change together. It splits an amount into shares, or finds the unknown quantity.",
+    "The key idea: a ratio is a number of equal parts. Find what **one part** is worth, then scale it. Inverse proportion works the same way, but the product stays fixed."
+   ],
+   "in": "amount and a ratio",
+   "out": "each share"
+  },
+  "example": {
+   "question": "Dara and Eve share €216 in the ratio $7 : 5$. How much more than Eve does Dara get?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Count the parts",
+      "say": "A ratio of $7 : 5$ means the money is cut into equal parts. Add the two numbers to count them.",
+      "lines": [
+       {
+        "tex": "7 + 5 &= \\hl{1}{12}\\ \\text{parts}",
+        "sym": "7+5"
+       }
+      ]
+     },
+     {
+      "title": "Value of one part",
+      "say": "Divide the total by the number of parts to find what **one part** is worth.",
+      "lines": [
+       {
+        "tex": "\\text{1 part} &= 216 \\div \\hl{1}{12}",
+        "sym": "216/12"
+       },
+       {
+        "tex": "&= \\hl{2}{18}",
+        "sym": "18"
+       }
+      ]
+     },
+     {
+      "title": "Each person's share",
+      "say": "Dara has $7$ parts and Eve has $5$. Multiply each by $\\hl{2}{18}$.",
+      "lines": [
+       {
+        "tex": "\\text{Dara} &= 7 \\times \\hl{2}{18}",
+        "sym": "7*18",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{126}",
+        "sym": "126"
+       },
+       {
+        "tex": "\\text{Eve} &= 5 \\times \\hl{2}{18}",
+        "sym": "5*18",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{4}{90}",
+        "sym": "90"
+       },
+       {
+        "text": "Check: 126 + 90 = 216."
+       }
+      ]
+     },
+     {
+      "title": "Find the difference",
+      "say": "Dara's share minus Eve's share.",
+      "lines": [
+       {
+        "tex": "\\hl{3}{126} - \\hl{4}{90} &= 36",
+        "sym": "126-90",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Dara gets €}36\\text{ more}"
+   },
+   "finalSym": "36",
+   "answerSym": "216*(7-5)/(7+5)"
+  }
+ },
+ {
+  "skill": "num-surds",
+  "title": "Simplify and operate on surds",
+  "what": {
+   "say": [
+    "You give it a surd expression, like $\\sqrt{72} - \\sqrt{18} + \\sqrt{50}$. It simplifies it to one exact form, with no root left on the bottom of a fraction.",
+    "The key idea: pull out the biggest **square factor**, since $\\sqrt{36 \\times 2} = 6\\sqrt{2}$. Then surds with the same root add and subtract like terms."
+   ],
+   "in": "$\\sqrt{72} - \\sqrt{18} + \\sqrt{50}$",
+   "out": "$8\\sqrt{2}$"
+  },
+  "example": {
+   "question": "Write $\\sqrt{72} - \\sqrt{18} + \\sqrt{50}$ in the form $a\\sqrt{2}$, where $a$ is a whole number.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Take out square factors",
+      "say": "Write each number under the root as a perfect square times $2$. Then take the square root of the perfect square.",
+      "lines": [
+       {
+        "tex": "\\sqrt{72} &= \\sqrt{36 \\times 2}",
+        "sym": "sqrt(36*2)",
+        "new": true
+       },
+       {
+        "tex": "&= 6\\hl{1}{\\sqrt{2}}",
+        "sym": "6*sqrt(2)"
+       },
+       {
+        "tex": "\\sqrt{18} &= \\sqrt{9 \\times 2}",
+        "sym": "sqrt(9*2)",
+        "new": true
+       },
+       {
+        "tex": "&= 3\\hl{1}{\\sqrt{2}}",
+        "sym": "3*sqrt(2)"
+       },
+       {
+        "tex": "\\sqrt{50} &= \\sqrt{25 \\times 2}",
+        "sym": "sqrt(25*2)",
+        "new": true
+       },
+       {
+        "tex": "&= 5\\hl{1}{\\sqrt{2}}",
+        "sym": "5*sqrt(2)"
+       }
+      ]
+     },
+     {
+      "title": "Add like surds",
+      "say": "Every term now has $\\hl{1}{\\sqrt{2}}$, so treat it like a letter. Add and subtract the numbers in front.",
+      "lines": [
+       {
+        "tex": "\\sqrt{72} - \\sqrt{18} + \\sqrt{50} &= 6\\hl{1}{\\sqrt{2}} - 3\\hl{1}{\\sqrt{2}} + 5\\hl{1}{\\sqrt{2}}",
+        "sym": "6*sqrt(2)-3*sqrt(2)+5*sqrt(2)",
+        "new": true
+       },
+       {
+        "tex": "&= (6 - 3 + 5)\\hl{1}{\\sqrt{2}}",
+        "sym": "(6-3+5)*sqrt(2)"
+       },
+       {
+        "tex": "&= \\hl{2}{8}\\hl{1}{\\sqrt{2}}",
+        "sym": "8*sqrt(2)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{2}{8}\\hl{1}{\\sqrt{2}}"
+   },
+   "finalSym": "8*sqrt(2)",
+   "answerSym": "sqrt(72)-sqrt(18)+sqrt(50)"
+  }
+ },
+ {
+  "skill": "num-sci-notation",
+  "title": "Work in scientific notation",
+  "what": {
+   "say": [
+    "You give it numbers written as $a \\times 10^n$. It multiplies or divides them and gives the answer back in the same form, with $1 \\le a < 10$.",
+    "The key idea: work on the two parts separately. Multiply or divide the $a$ parts, then add or subtract the powers of $10$. If $a$ ends up outside $1$ to $10$, shift the point and change $n$ to match."
+   ],
+   "in": "numbers in $a \\times 10^n$ form",
+   "out": "result as $a \\times 10^n$"
+  },
+  "example": {
+   "question": "A hard drive holds $1.8 \\times 10^{12}$ bytes. Each photo uses $4.5 \\times 10^{6}$ bytes. How many photos fit on the drive? Give your answer in the form $a \\times 10^n$, where $1 \\le a < 10$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Set up the division",
+      "say": "The number of photos is the size of the drive divided by the size of one photo.",
+      "lines": [
+       {
+        "tex": "\\text{photos} &= \\frac{1.8 \\times 10^{12}}{4.5 \\times 10^{6}}",
+        "sym": "(1.8*10**12)/(4.5*10**6)"
+       }
+      ]
+     },
+     {
+      "title": "Divide the parts separately",
+      "say": "Divide the front numbers. For the powers of $10$, subtract the indices.",
+      "lines": [
+       {
+        "tex": "&= \\frac{1.8}{4.5} \\times 10^{12 - 6}",
+        "sym": "(1.8/4.5)*10**(12-6)"
+       },
+       {
+        "tex": "&= 0.4 \\times 10^{6}",
+        "sym": "0.4*10**6"
+       }
+      ]
+     },
+     {
+      "title": "Fix the front number",
+      "say": "The front number $a$ must be at least $1$, and $0.4$ is not. Multiply it by $10$ and take one off the power.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{4} \\times 10^{\\hl{2}{5}}",
+        "sym": "4*10**5"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{4} \\times 10^{\\hl{2}{5}}"
+   },
+   "finalSym": "4*10**5",
+   "answerSym": "(18/10*10**12)/(45/10*10**6)"
+  }
+ },
+ {
+  "skill": "cx-divide",
+  "title": "Divide complex numbers",
+  "what": {
+   "say": [
+    "You give it one complex number divided by another, $\\dfrac{z_1}{z_2}$. It writes the answer as $a + bi$, with no $i$ left in the denominator.",
+    "The key idea: multiply top and bottom by the **conjugate** of the denominator. Then the denominator becomes a real number."
+   ],
+   "in": "$\\dfrac{z_1}{z_2}$",
+   "out": "$a + bi$"
+  },
+  "example": {
+   "question": "Write $\\dfrac{7 + 4i}{2 - i}$ in the form $a + bi$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the conjugate",
+      "say": "The denominator is $2 - i$. Its conjugate is $\\hl{1}{2 + i}$: same numbers, opposite sign on the $i$ term.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\bar{w}} &= \\hl{1}{2 + i}",
+        "sym": "Eq(w,2+I)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Multiply top and bottom",
+      "say": "Multiply the top and the bottom by $\\hl{1}{2 + i}$. This does not change the value, because it is the same as multiplying by $1$.",
+      "lines": [
+       {
+        "tex": "\\dfrac{7 + 4i}{2 - i} &= \\dfrac{(7 + 4i)\\,\\hl{1}{(2 + i)}}{(2 - i)\\,\\hl{1}{(2 + i)}}",
+        "sym": "Eq((7+4*I)/(2-I),((7+4*I)*(2+I))/((2-I)*(2+I)))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand top and bottom",
+      "say": "Expand each line separately. Use $i^2 = -1$ to get rid of the $i^2$ terms.",
+      "lines": [
+       {
+        "tex": "\\text{top} &= 14 + 7i + 8i + 4i^2",
+        "sym": "Eq(t,14+7*I+8*I+4*I**2)",
+        "new": true
+       },
+       {
+        "tex": "&= 10 + 15i",
+        "sym": "Eq(t,10+15*I)"
+       },
+       {
+        "tex": "\\text{bottom} &= 4 + 2i - 2i - i^2",
+        "sym": "Eq(b,4+2*I-2*I-I**2)",
+        "new": true
+       },
+       {
+        "tex": "&= 5",
+        "sym": "Eq(b,5)"
+       },
+       {
+        "text": "The $i$ terms in the bottom always cancel. The bottom is always a real number."
+       }
+      ]
+     },
+     {
+      "title": "Divide and write a + bi",
+      "say": "Divide each part of the top by $5$ to write the answer as $a + bi$.",
+      "lines": [
+       {
+        "tex": "\\dfrac{10 + 15i}{5} &= \\dfrac{10}{5} + \\dfrac{15}{5}i",
+        "sym": "Eq((10+15*I)/5,10/5+15*I/5)",
+        "new": true
+       },
+       {
+        "tex": "&= 2 + 3i",
+        "sym": "Eq((10+15*I)/5,2+3*I)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2 + 3i"
+   },
+   "finalSym": "2+3*I",
+   "answerSym": "simplify((7+4*I)/(2-I))"
+  }
+ },
+ {
+  "skill": "cx-equate-parts",
+  "title": "Equate real and imaginary parts",
+  "what": {
+   "say": [
+    "You give it an equation with complex numbers and unknowns $a$ and $b$. It finds the values of $a$ and $b$.",
+    "The key idea: two complex numbers are equal only if their **real parts** match and their **imaginary parts** match. One complex equation gives you two ordinary equations."
+   ],
+   "in": "complex equation",
+   "out": "$a$ and $b$"
+  },
+  "example": {
+   "question": "$a$ and $b$ are real numbers. Find $a$ and $b$ if $(a + bi)(1 + i) = 1 + 5i$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Expand the left side",
+      "say": "Multiply out the brackets. Use $i^2 = -1$, then collect the real terms and the $i$ terms.",
+      "lines": [
+       {
+        "tex": "(a + bi)(1 + i) &= 1 + 5i",
+        "sym": "Eq((a+b*I)*(1+I),1+5*I)",
+        "new": true
+       },
+       {
+        "tex": "a + ai + bi + bi^2 &= 1 + 5i",
+        "sym": "Eq(a+a*I+b*I+b*I**2,1+5*I)"
+       },
+       {
+        "tex": "(a - b) + (a + b)i &= 1 + 5i",
+        "sym": "Eq((a-b)+(a+b)*I,1+5*I)"
+       }
+      ]
+     },
+     {
+      "title": "Equate the parts",
+      "say": "Match the real parts, then match the $i$ parts. Each gives an equation in $\\hl{1}{a}$ and $\\hl{2}{b}$.",
+      "lines": [
+       {
+        "tex": "\\text{Real: } a - b &= 1",
+        "sym": "Eq(a-b,1)",
+        "new": true
+       },
+       {
+        "tex": "\\text{Imaginary: } a + b &= 5",
+        "sym": "Eq(a+b,5)",
+        "new": true
+       },
+       {
+        "text": "Do not include the $i$ when you match the imaginary parts."
+       }
+      ]
+     },
+     {
+      "title": "Solve the pair",
+      "say": "Add the two equations to eliminate $b$. That gives $\\hl{1}{a}$. Then put it back to find $\\hl{2}{b}$.",
+      "lines": [
+       {
+        "tex": "2a &= 6",
+        "sym": "Eq(2*a,6)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{a} &= 3",
+        "sym": "Eq(a,3)"
+       },
+       {
+        "tex": "3 + b &= 5",
+        "sym": "Eq(3+b,5)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{b} &= 2",
+        "sym": "Eq(b,2)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "a = 3,\\; b = 2"
+   },
+   "finalSym": "[3,2]",
+   "answerSym": "linsolve([Eq(expand((a+b*I)*(1+I)).subs(I,0),1),Eq((expand((a+b*I)*(1+I))-expand((a+b*I)*(1+I)).subs(I,0)).subs(I,1),5)],[a,b]).args[0]"
+  }
+ },
+ {
+  "skill": "cx-conjugate-properties",
+  "title": "Use conjugates of sums and products",
+  "what": {
+   "say": [
+    "You give it two complex numbers, $z_1$ and $z_2$. It shows that the conjugate of their sum is the sum of their conjugates, and the same for their product.",
+    "The key idea: taking the conjugate just flips the sign of every $i$. It does not matter whether you do it before or after you add or multiply."
+   ],
+   "in": "$z_1$ and $z_2$",
+   "out": "$\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$"
+  },
+  "example": {
+   "question": "Let $z_1 = 1 + i$ and $z_2 = 2 - 3i$. Verify that $\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}$ and $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Sum: conjugate of the sum",
+      "say": "Add first, then take the conjugate of the answer.",
+      "lines": [
+       {
+        "tex": "z_1 + z_2 &= 3 - 2i",
+        "sym": "Eq(z,(1+I)+(2-3*I))",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{\\overline{z_1 + z_2}} &= \\hl{1}{3 + 2i}",
+        "sym": "Eq(w,conjugate(3-2*I))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Sum: sum of the conjugates",
+      "say": "Now take each conjugate first, then add.",
+      "lines": [
+       {
+        "tex": "\\overline{z_1} + \\overline{z_2} &= (1 - i) + (2 + 3i)",
+        "sym": "(1-I)+(2+3*I)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3 + 2i}",
+        "sym": "3+2*I"
+       },
+       {
+        "text": "Both sides are $3 + 2i$, so the sum rule holds."
+       }
+      ]
+     },
+     {
+      "title": "Product: conjugate of the product",
+      "say": "Multiply first, then take the conjugate. Use $i^2 = -1$.",
+      "lines": [
+       {
+        "tex": "z_1 z_2 &= (1 + i)(2 - 3i)",
+        "sym": "(1+I)*(2-3*I)",
+        "new": true
+       },
+       {
+        "tex": "&= 2 - 3i + 2i - 3i^2",
+        "sym": "2-3*I+2*I-3*I**2"
+       },
+       {
+        "tex": "&= 5 - i",
+        "sym": "5-I"
+       },
+       {
+        "tex": "\\hl{2}{\\overline{z_1 z_2}} &= \\hl{2}{5 + i}",
+        "sym": "conjugate(5-I)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Product: product of the conjugates",
+      "say": "Now take each conjugate first, then multiply.",
+      "lines": [
+       {
+        "tex": "\\overline{z_1}\\,\\overline{z_2} &= (1 - i)(2 + 3i)",
+        "sym": "(1-I)*(2+3*I)",
+        "new": true
+       },
+       {
+        "tex": "&= 2 + 3i - 2i - 3i^2",
+        "sym": "2+3*I-2*I-3*I**2"
+       },
+       {
+        "tex": "&= \\hl{2}{5 + i}",
+        "sym": "5+I"
+       },
+       {
+        "text": "Both sides are $5 + i$, so the product rule holds."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2} = 3 + 2i, \\quad \\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2} = 5 + i"
+   },
+   "finalSym": "0",
+   "answerSym": "(conjugate((1+I)+(2-3*I))-(conjugate(1+I)+conjugate(2-3*I)))+(conjugate((1+I)*(2-3*I))-conjugate(1+I)*conjugate(2-3*I))"
+  }
+ },
+ {
+  "skill": "cx-quadratic",
+  "title": "Solve a quadratic with complex roots",
+  "what": {
+   "say": [
+    "You give it a quadratic whose **discriminant** is negative. It gives back two complex roots that are a **conjugate pair**.",
+    "The key idea: $\\sqrt{-1} = i$, so the square root of a negative number is a real number times $i$."
+   ],
+   "in": "$az^2+bz+c=0$, $b^2-4ac<0$",
+   "out": "$p+qi$ and $p-qi$"
+  },
+  "example": {
+   "question": "Solve $z^2 + 6z + 25 = 0$, where $z \\in \\mathbb{C}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the discriminant",
+      "say": "Find $b^2 - 4ac$ with $a = 1$, $b = 6$, $c = 25$. If it is negative, the roots are complex.",
+      "lines": [
+       {
+        "tex": "b^2 - 4ac &= 6^2 - 4(1)(25)",
+        "sym": "6**2-4*1*25",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{-64}",
+        "sym": "-64"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "say": "The square root of $\\hl{1}{-64}$ is a real number times $i$, because $\\sqrt{-1} = i$.",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\hl{1}{-64}} &= \\sqrt{64}\\sqrt{-1}",
+        "sym": "sqrt(64)*sqrt(-1)",
+        "new": true
+       },
+       {
+        "tex": "&= 8i",
+        "sym": "8*I"
+       }
+      ]
+     },
+     {
+      "title": "Use the formula",
+      "say": "Put it in $z = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$. Take the plus, then the minus.",
+      "lines": [
+       {
+        "tex": "z_1 &= \\frac{-6 + 8i}{2}",
+        "sym": "(-6+8*I)/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{-3 + 4i}",
+        "sym": "-3+4*I"
+       },
+       {
+        "tex": "z_2 &= \\frac{-6 - 8i}{2}",
+        "sym": "(-6-8*I)/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{-3 - 4i}",
+        "sym": "-3-4*I"
+       },
+       {
+        "text": "The roots are a conjugate pair: same real part, opposite imaginary part."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "z = \\hl{2}{-3 + 4i} \\text{ or } z = \\hl{3}{-3 - 4i}"
+   },
+   "finalSym": "[-3+4*I, -3-4*I]",
+   "answerSym": "solve(z**2+6*z+25, z)"
+  }
+ },
+ {
+  "skill": "cx-de-moivre-power",
+  "title": "Raise to a power with De Moivre's Theorem",
+  "what": {
+   "say": [
+    "You give it a complex number raised to a power, $z^n$. It gives back the answer as $a + bi$.",
+    "The key idea: write $z$ in polar form first. Then $r$ is raised to the power $n$ and the angle is **multiplied** by $n$."
+   ],
+   "in": "$z^n$",
+   "out": "$a + bi$"
+  },
+  "example": {
+   "question": "Use De Moivre's Theorem to evaluate $(-1 + i)^{10}$, giving your answer in the form $a + bi$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the modulus",
+      "say": "Write $-1 + i$ in polar form. First the modulus, by Pythagoras.",
+      "lines": [
+       {
+        "tex": "r &= \\sqrt{(-1)^2 + 1^2}",
+        "sym": "sqrt((-1)**2+1**2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{\\sqrt{2}}",
+        "sym": "sqrt(2)"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument",
+      "say": "The number is in the second quadrant, so take the reference angle $\\frac{\\pi}{4}$ away from $\\pi$.",
+      "lines": [
+       {
+        "tex": "\\theta &= \\pi - \\frac{\\pi}{4}",
+        "sym": "pi-pi/4",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{3\\pi}{4}}",
+        "sym": "3*pi/4"
+       }
+      ]
+     },
+     {
+      "title": "Apply De Moivre",
+      "say": "Raise $\\hl{1}{r}$ to the power $10$ and multiply $\\hl{2}{\\theta}$ by $10$.",
+      "lines": [
+       {
+        "tex": "(-1+i)^{10} &= \\left(\\hl{1}{\\sqrt{2}}\\right)^{10}\\left(\\cos 10\\cdot\\hl{2}{\\tfrac{3\\pi}{4}} + i\\sin 10\\cdot\\hl{2}{\\tfrac{3\\pi}{4}}\\right)",
+        "sym": "(sqrt(2))**10*(cos(10*3*pi/4)+I*sin(10*3*pi/4))",
+        "new": true
+       },
+       {
+        "tex": "&= 32\\left(\\cos\\tfrac{15\\pi}{2} + i\\sin\\tfrac{15\\pi}{2}\\right)",
+        "sym": "32*(cos(15*pi/2)+I*sin(15*pi/2))"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "say": "$\\frac{15\\pi}{2}$ is three-and-a-half turns, the same as $\\frac{3\\pi}{2}$. There cosine is $0$ and sine is $-1$.",
+      "lines": [
+       {
+        "tex": "\\cos\\tfrac{15\\pi}{2} &= 0",
+        "sym": "0",
+        "new": true
+       },
+       {
+        "tex": "\\sin\\tfrac{15\\pi}{2} &= -1",
+        "sym": "-1",
+        "new": true
+       },
+       {
+        "tex": "(-1+i)^{10} &= 32(0 - i)",
+        "sym": "32*(0-I)",
+        "new": true
+       },
+       {
+        "tex": "&= -32i",
+        "sym": "-32*I"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "-32i"
+   },
+   "finalSym": "-32*I",
+   "answerSym": "expand((-1+I)**10)"
+  }
+ },
+ {
+  "skill": "cx-conjugate-root",
+  "title": "Use the Conjugate Root Theorem to find all roots",
+  "what": {
+   "say": [
+    "You give it a polynomial with real coefficients and one complex root. It finds **all** the roots.",
+    "The key idea: complex roots of a real polynomial come in **conjugate** pairs, so $a+bi$ being a root forces $a-bi$ to be one too."
+   ],
+   "in": "real polynomial + one complex root",
+   "out": "all roots"
+  },
+  "example": {
+   "question": "$2 + i$ is a root of $z^3 - 6z^2 + 13z - 10 = 0$, where $z \\in \\mathbb{C}$. Find all the roots.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write down the conjugate",
+      "say": "The coefficients are all real, so complex roots come in conjugate pairs. The root $\\hl{1}{2+i}$ forces the root $\\hl{2}{2-i}$.",
+      "lines": [
+       {
+        "text": "Two roots so far: $\\hl{1}{2+i}$ and $\\hl{2}{2-i}$."
+       }
+      ]
+     },
+     {
+      "title": "Build the quadratic factor",
+      "say": "Multiply the two linear factors. The imaginary parts cancel in the sum, and the product of a number and its conjugate is real.",
+      "lines": [
+       {
+        "tex": "(z-(2+i))(z-(2-i)) &= z^2-(2+i+2-i)z+(2+i)(2-i)",
+        "sym": "z**2-(2+i+2-i)*z+(2+i)*(2-i)",
+        "new": true
+       },
+       {
+        "tex": "&= z^2-4z+5",
+        "sym": "z**2-4*z+5"
+       }
+      ]
+     },
+     {
+      "title": "Divide to find the last factor",
+      "say": "The cubic is the quadratic times a linear factor $(z+c)$. The leading term gives $z$, and the constant term $-10$ must equal $5c$, so $c=-2$.",
+      "lines": [
+       {
+        "tex": "z^3-6z^2+13z-10 &= (z^2-4z+5)(z-2)",
+        "sym": "(z**2-4*z+5)*(z-2)",
+        "new": true
+       },
+       {
+        "text": "Multiply out to check: you get the cubic back."
+       }
+      ]
+     },
+     {
+      "title": "Read off the third root",
+      "say": "The last factor is zero when $z = 2$.",
+      "lines": [
+       {
+        "tex": "z-2 &= 0"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2,\\; 2 - i,\\; 2 + i"
+   },
+   "finalSym": "[2, 2-I, 2+I]",
+   "answerSym": "solve(z**3-6*z**2+13*z-10,z)"
+  }
+ },
+ {
+  "skill": "cx-de-moivre-identity",
+  "title": "Derive multiple-angle identities with De Moivre",
+  "what": {
+   "say": [
+    "You give it $\\cos n\\theta$ or $\\sin n\\theta$. It writes it as an identity in powers of $\\cos\\theta$ or $\\sin\\theta$.",
+    "The key idea: expand $(\\cos\\theta + i\\sin\\theta)^n$ with the binomial theorem, and **equate real parts** (for cosine) or imaginary parts (for sine) with De Moivre's $\\cos n\\theta + i\\sin n\\theta$."
+   ],
+   "in": "$\\cos n\\theta$ or $\\sin n\\theta$",
+   "out": "identity in powers of $\\cos\\theta$"
+  },
+  "example": {
+   "question": "Use De Moivre's Theorem to show that $\\cos 4\\theta = 8\\cos^4\\theta - 8\\cos^2\\theta + 1$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Apply De Moivre",
+      "say": "De Moivre says the fourth power of $\\cos\\theta + i\\sin\\theta$ is found by multiplying the angle by 4. Its real part is $\\hl{1}{\\cos 4\\theta}$.",
+      "lines": [
+       {
+        "tex": "(\\cos\\theta + i\\sin\\theta)^4 &= \\hl{1}{\\cos 4\\theta} + i\\sin 4\\theta",
+        "sym": "cos(4*t)+I*sin(4*t)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand with the binomial theorem",
+      "say": "Expand the same bracket the long way. Use $i^2=-1$, $i^3=-i$ and $i^4=1$.",
+      "lines": [
+       {
+        "tex": "(\\cos\\theta + i\\sin\\theta)^4 &= \\cos^4\\theta + 4\\cos^3\\theta(i\\sin\\theta) + 6\\cos^2\\theta(i\\sin\\theta)^2 + 4\\cos\\theta(i\\sin\\theta)^3 + (i\\sin\\theta)^4",
+        "sym": "cos(t)**4+4*cos(t)**3*(I*sin(t))+6*cos(t)**2*(I*sin(t))**2+4*cos(t)*(I*sin(t))**3+(I*sin(t))**4",
+        "new": true
+       },
+       {
+        "tex": "&= \\cos^4\\theta + 4i\\cos^3\\theta\\sin\\theta - 6\\cos^2\\theta\\sin^2\\theta - 4i\\cos\\theta\\sin^3\\theta + \\sin^4\\theta",
+        "sym": "cos(t)**4+4*I*cos(t)**3*sin(t)-6*cos(t)**2*sin(t)**2-4*I*cos(t)*sin(t)**3+sin(t)**4"
+       }
+      ]
+     },
+     {
+      "title": "Equate real parts",
+      "say": "The two expansions are equal, so their real parts are equal. Pick out the terms without $i$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\cos 4\\theta} &= \\cos^4\\theta - 6\\cos^2\\theta\\sin^2\\theta + \\sin^4\\theta",
+        "sym": "cos(t)**4-6*cos(t)**2*sin(t)**2+sin(t)**4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Remove the sines",
+      "say": "The target has only cosines. Replace $\\sin^2\\theta$ with $1-\\cos^2\\theta$, then simplify.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\cos 4\\theta} &= \\cos^4\\theta - 6\\cos^2\\theta(1-\\cos^2\\theta) + (1-\\cos^2\\theta)^2",
+        "sym": "cos(t)**4-6*cos(t)**2*(1-cos(t)**2)+(1-cos(t)**2)**2",
+        "new": true
+       },
+       {
+        "tex": "&= 8\\cos^4\\theta - 8\\cos^2\\theta + 1",
+        "sym": "8*cos(t)**4-8*cos(t)**2+1"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{\\cos 4\\theta} = 8\\cos^4\\theta - 8\\cos^2\\theta + 1"
+   },
+   "finalSym": "0",
+   "answerSym": "cos(4*t)-(8*cos(t)**4-8*cos(t)**2+1)"
+  }
+ },
+ {
+  "skill": "cx-de-moivre-prove",
+  "title": "Prove De Moivre's Theorem by induction",
+  "what": {
+   "say": [
+    "You give it the statement $(\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta$ for whole numbers $n$. It proves it by induction.",
+    "The key idea: assume it for $n=k$, multiply by one more $(\\cos\\theta + i\\sin\\theta)$, and the **compound angle formulae** turn the product into the $n=k+1$ case."
+   ],
+   "in": "$(\\cos\\theta + i\\sin\\theta)^n$",
+   "out": "proof for all $n$"
+  },
+  "example": {
+   "question": "Prove by induction that $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$ for all $n \\in \\mathbb{N}$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Test $n=1$",
+      "say": "Put $n=1$ into both sides. They match.",
+      "lines": [
+       {
+        "tex": "[r(\\cos\\theta + i\\sin\\theta)]^1 &= r^1(\\cos 1\\theta + i\\sin 1\\theta)",
+        "sym": "r*(cos(t)+I*sin(t))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Assume $n=k$",
+      "say": "Suppose the statement is true for $n=k$. This is the one fact we are allowed to use.",
+      "lines": [
+       {
+        "tex": "[r(\\cos\\theta + i\\sin\\theta)]^k &= r^k(\\cos k\\theta + i\\sin k\\theta)",
+        "sym": "r**k*(cos(k*t)+I*sin(k*t))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Prove it for $n=k+1$",
+      "say": "Write the power $k+1$ as the power $k$ times one more bracket. Replace the power $k$ with the assumption, then multiply out. $i^2=-1$.",
+      "lines": [
+       {
+        "tex": "[r(\\cos\\theta + i\\sin\\theta)]^{k+1} &= [r(\\cos\\theta + i\\sin\\theta)]^k \\cdot r(\\cos\\theta + i\\sin\\theta)",
+        "sym": "(r*(cos(t)+I*sin(t)))**k*r*(cos(t)+I*sin(t))",
+        "new": true
+       },
+       {
+        "tex": "&= r^k(\\cos k\\theta + i\\sin k\\theta) \\cdot r(\\cos\\theta + i\\sin\\theta)",
+        "sym": "r**k*(cos(k*t)+I*sin(k*t))*r*(cos(t)+I*sin(t))",
+        "new": true
+       },
+       {
+        "tex": "&= r^{k+1}\\big[(\\cos k\\theta\\cos\\theta - \\sin k\\theta\\sin\\theta) + i(\\sin k\\theta\\cos\\theta + \\cos k\\theta\\sin\\theta)\\big]",
+        "sym": "r**(k+1)*((cos(k*t)*cos(t)-sin(k*t)*sin(t))+I*(sin(k*t)*cos(t)+cos(k*t)*sin(t)))"
+       },
+       {
+        "text": "The two brackets are the compound angle formulae for $\\cos(A+B)$ and $\\sin(A+B)$."
+       },
+       {
+        "tex": "&= r^{k+1}\\big(\\cos(k+1)\\theta + i\\sin(k+1)\\theta\\big)",
+        "sym": "r**(k+1)*(cos((k+1)*t)+I*sin((k+1)*t))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "say": "Say what has been shown, in words. The marks are tied to the conclusion.",
+      "lines": [
+       {
+        "text": "True for $n=1$. If true for $n=k$ then true for $n=k+1$. Therefore true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)"
+   },
+   "finalSym": "0",
+   "answerSym": "expand(expand_trig((r*(cos(t)+I*sin(t)))**3-r**3*(cos(3*t)+I*sin(3*t))))"
+  }
+ },
+ {
+  "skill": "diff-rates-of-change",
+  "title": "Apply differentiation to rates of change",
+  "what": {
+   "say": [
+    "You give it a quantity that changes with time, such as distance $s(t)$. It gives back how fast it is changing: the **rate**, which is the velocity for distance and the acceleration for velocity.",
+    "The key idea: a rate of change is a derivative. Differentiate, then put in the time."
+   ],
+   "in": "$s(t)$",
+   "out": "$v$ and $a$ at a time"
+  },
+  "example": {
+   "question": "A particle moves in a straight line. After $t$ seconds its distance from a point is $s = t^3 - 6t^2 + 5t$ metres. Find its velocity and its acceleration when $t = 4$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the velocity",
+      "say": "Velocity is the rate of change of distance. Differentiate $s$ with respect to $t$, then put in $t = 4$.",
+      "lines": [
+       {
+        "tex": "s &= t^3 - 6t^2 + 5t",
+        "sym": "t**3-6*t**2+5*t",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{v} &= \\frac{ds}{dt} = 3t^2 - 12t + 5",
+        "sym": "3*t**2-12*t+5",
+        "new": true
+       },
+       {
+        "tex": "v(4) &= 3(4)^2 - 12(4) + 5",
+        "sym": "3*16-12*4+5",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{5}",
+        "sym": "5"
+       },
+       {
+        "text": "Velocity: $5$ m/s."
+       }
+      ]
+     },
+     {
+      "title": "Find the acceleration",
+      "say": "Acceleration is the rate of change of velocity. Differentiate $\\hl{1}{v}$, then put in $t = 4$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{a} &= \\frac{dv}{dt} = 6t - 12",
+        "sym": "6*t-12",
+        "new": true
+       },
+       {
+        "tex": "a(4) &= 6(4) - 12",
+        "sym": "6*4-12",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{12}",
+        "sym": "12"
+       },
+       {
+        "text": "Acceleration: $12$ m/s$^2$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "velocity $5$ m/s, acceleration $12$ m/s$^2$"
+   },
+   "finalSym": "[5, 12]",
+   "answerSym": "[diff(t**3-6*t**2+5*t,t).subs(t,4), diff(t**3-6*t**2+5*t,t,2).subs(t,4)]"
+  }
+ }
+]
