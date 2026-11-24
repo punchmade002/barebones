@@ -1,0 +1,1709 @@
+{
+"geo-economic-development-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.b",
+"strength": "helpful",
+"why": "uses colonialism",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.b",
+"strength": "helpful",
+"why": "names colonial powers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.b",
+"strength": "helpful",
+"why": "colonisation periods",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.2",
+"strength": "helpful",
+"why": "Africa colonised last",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.b",
+"strength": "helpful",
+"why": "colony economy shaped by ruler",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.4",
+"strength": "essential",
+"why": "imports of manufactured goods",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.4",
+"strength": "helpful",
+"why": "cheap raw materials",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.4",
+"strength": "helpful",
+"why": "colonies supplied raw materials",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.b",
+"strength": "helpful",
+"why": "colonial rule",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.4",
+"strength": "essential",
+"why": "raw materials exported",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.0",
+"strength": "helpful",
+"why": "routes from interior to ports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.3",
+"strength": "helpful",
+"why": "infrastructure built for colonial power",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.0",
+"strength": "helpful",
+"why": "infrastructure built for exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.3",
+"strength": "helpful",
+"why": "Europeans dividing territory",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.4",
+"strength": "helpful",
+"why": "groups set against each other",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.1.6": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.1.7": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.5",
+"strength": "helpful",
+"why": "colonial industry destroyed",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.4",
+"strength": "essential",
+"why": "raw material export dependence",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.1",
+"strength": "helpful",
+"why": "dependence on loans and exports",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.2",
+"strength": "helpful",
+"why": "privatising state firms",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.1",
+"strength": "helpful",
+"why": "dependence on few raw materials",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.2.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.2.6": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.3.0",
+"strength": "helpful",
+"why": "East India Company",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.3.1",
+"strength": "helpful",
+"why": "Company rule before Crown",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.3.2",
+"strength": "helpful",
+"why": "end of British rule",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.5",
+"strength": "helpful",
+"why": "local industry destroyed",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.4.b",
+"strength": "helpful",
+"why": "deindustrialisation",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.4.0",
+"strength": "helpful",
+"why": "Lancashire mills",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s1.1.0",
+"strength": "essential",
+"why": "uses GDP",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.7",
+"strength": "essential",
+"why": "cash crops replace food crops",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.4.3",
+"strength": "helpful",
+"why": "jute cash crop",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.5.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-development-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.5.0",
+"strength": "essential",
+"why": "land tax burden on peasants",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.5.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.5.2",
+"strength": "essential",
+"why": "Bengal famine 1943",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.5.b",
+"strength": "helpful",
+"why": "money flowing to Britain",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.0",
+"strength": "helpful",
+"why": "colonial infrastructure serves exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.0",
+"strength": "essential",
+"why": "railways run to export ports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.2",
+"strength": "helpful",
+"why": "debated positive legacies",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.1",
+"strength": "helpful",
+"why": "ports grow into cities",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.6.3",
+"strength": "helpful",
+"why": "Calcutta colonial city",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.2",
+"strength": "helpful",
+"why": "world language legacy",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.7",
+"strength": "helpful",
+"why": "institutions inherited at independence",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.7.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.3.3",
+"strength": "essential",
+"why": "Partition 1947",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.7.3",
+"strength": "helpful",
+"why": "Partition",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.4.0",
+"strength": "essential",
+"why": "Lancashire cloth trade",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.7.5",
+"strength": "helpful",
+"why": "independence movement",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.0",
+"strength": "helpful",
+"why": "import substitution",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.0",
+"strength": "essential",
+"why": "import substitution and tariffs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.8.0",
+"strength": "helpful",
+"why": "state-led planning",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.8.0",
+"strength": "helpful",
+"why": "planned economy",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.8.3",
+"strength": "helpful",
+"why": "licensing restricted growth",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.7",
+"strength": "helpful",
+"why": "food crops replaced by cash crops",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.9.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.9.0",
+"strength": "helpful",
+"why": "Green Revolution output",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.9.1",
+"strength": "helpful",
+"why": "food output rise",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.8.b",
+"strength": "helpful",
+"why": "state-led development before 1991",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.10.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.2",
+"strength": "helpful",
+"why": "IMF loans",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.3",
+"strength": "helpful",
+"why": "liberalisation",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.5",
+"strength": "essential",
+"why": "WTO defined",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.10.2",
+"strength": "helpful",
+"why": "1991 reforms",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s1.1.0",
+"strength": "helpful",
+"why": "uses GDP",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.11.0",
+"strength": "helpful",
+"why": "services growth",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.10.2",
+"strength": "helpful",
+"why": "welcoming foreign investment",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s1.1.0",
+"strength": "essential",
+"why": "uses GDP",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.6",
+"strength": "essential",
+"why": "remittances defined",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.11.b",
+"strength": "helpful",
+"why": "growth after reforms",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.12.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s2.5.1",
+"strength": "helpful",
+"why": "same Kerala Bihar literacy contrast",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.12.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s1.6.b",
+"strength": "essential",
+"why": "uses the HDI",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.12.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.13.b": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.4",
+"strength": "helpful",
+"why": "colony as raw material supplier",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.13.0",
+"strength": "helpful",
+"why": "Portuguese claim to east",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.13.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.13.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.13.b",
+"strength": "helpful",
+"why": "export cycles",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.13.b",
+"strength": "helpful",
+"why": "export cycles",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.13.b",
+"strength": "helpful",
+"why": "export cycles",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.13.7": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.13.b",
+"strength": "helpful",
+"why": "export cycles",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.14.b": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.6",
+"strength": "helpful",
+"why": "forced labour",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.6",
+"strength": "helpful",
+"why": "forced and slave labour",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.14.0",
+"strength": "helpful",
+"why": "enslaved Africans in Brazil",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.14.0",
+"strength": "helpful",
+"why": "slavery legacy",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.14.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.14.3",
+"strength": "helpful",
+"why": "indigenous peoples",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.14.b",
+"strength": "helpful",
+"why": "land concentrated in few hands",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.14.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.14.5",
+"strength": "essential",
+"why": "latifundia concentrate land",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.14.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.14.6",
+"strength": "essential",
+"why": "unequal land ownership",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.15.b": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.13.b",
+"strength": "essential",
+"why": "export cycles tied to regions",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.13.4",
+"strength": "essential",
+"why": "sugar export cycle",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.13.6",
+"strength": "helpful",
+"why": "coffee and gold in South-East",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.15.1",
+"strength": "helpful",
+"why": "wealth shifted to South-East",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.15.0",
+"strength": "helpful",
+"why": "North-East left poor",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.1",
+"strength": "helpful",
+"why": "dependence on raw material prices",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.16.b": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.0",
+"strength": "essential",
+"why": "import substitution industrialisation",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.16.b",
+"strength": "helpful",
+"why": "state-led industrialisation",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.16.0",
+"strength": "helpful",
+"why": "state-led industry",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.16.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.1",
+"strength": "helpful",
+"why": "development concentrated on coast",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.16.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.16.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.17.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.16.b",
+"strength": "helpful",
+"why": "industrialisation funded by loans",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.17.b",
+"strength": "helpful",
+"why": "growth paid by foreign loans",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.17.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.2",
+"strength": "essential",
+"why": "debt crises and IMF programmes",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.17.1",
+"strength": "essential",
+"why": "hyperinflation",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.18.b": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.3",
+"strength": "essential",
+"why": "liberalisation",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.2",
+"strength": "helpful",
+"why": "privatisation",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.5",
+"strength": "essential",
+"why": "regional trading blocs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.18.b",
+"strength": "helpful",
+"why": "commodity boom",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.18.2",
+"strength": "essential",
+"why": "commodity exports to China",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.18.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.18.2",
+"strength": "helpful",
+"why": "soya and coffee exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.18.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.18.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.4",
+"strength": "essential",
+"why": "export diversification",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.19.b": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.18.b",
+"strength": "helpful",
+"why": "opening economy and commodities",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.19.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.19.0",
+"strength": "essential",
+"why": "Bolsa Familia",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s1.6.b",
+"strength": "essential",
+"why": "uses the HDI",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.14.6",
+"strength": "helpful",
+"why": "unequal land and income",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.18.2",
+"strength": "helpful",
+"why": "soya export boom",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.19.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.15.4",
+"strength": "helpful",
+"why": "commodity price dependence",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.19.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.15.0",
+"strength": "essential",
+"why": "North-East decline after sugar",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.19.7": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.20.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.b",
+"strength": "helpful",
+"why": "colonial rule",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.20.1": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-development-s3.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.20.1",
+"strength": "helpful",
+"why": "Mahdist state",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.20.2",
+"strength": "helpful",
+"why": "British victory at Omdurman",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.20.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.21.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.4",
+"strength": "helpful",
+"why": "colony supplier of raw material",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.21.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.21.0",
+"strength": "essential",
+"why": "the Gezira Scheme",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.21.0",
+"strength": "helpful",
+"why": "the Gezira Scheme",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.4.0",
+"strength": "helpful",
+"why": "Lancashire mills",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.21.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.21.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.1",
+"strength": "helpful",
+"why": "dependence on one export",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.21.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.1",
+"strength": "helpful",
+"why": "development concentrated in one area",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.22.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.4",
+"strength": "helpful",
+"why": "colonial borders",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.22.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.22.0",
+"strength": "helpful",
+"why": "separate north and south",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.22.0",
+"strength": "helpful",
+"why": "separate north and south",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.22.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.22.0",
+"strength": "helpful",
+"why": "north and south joined",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.22.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.4",
+"strength": "essential",
+"why": "artificial colonial borders",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.23.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.22.b",
+"strength": "helpful",
+"why": "divided colonial legacy",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.23.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.23.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.23.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.23.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.23.b",
+"strength": "helpful",
+"why": "separation of south",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.23.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.20.b",
+"strength": "essential",
+"why": "Sudan before 2011",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.24.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.21.b",
+"strength": "helpful",
+"why": "Gezira cotton economy",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.24.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.21.5",
+"strength": "essential",
+"why": "cotton dependence",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.24.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.24.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.2",
+"strength": "essential",
+"why": "debt and IMF programmes",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.24.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.25.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.23.3",
+"strength": "helpful",
+"why": "south separated in 2011",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.25.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.25.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.25.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.25.0",
+"strength": "helpful",
+"why": "oil exports began",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.25.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.23.3",
+"strength": "essential",
+"why": "South Sudan independence 2011",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.25.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.25.3",
+"strength": "essential",
+"why": "oil lost to South Sudan",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.25.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.25.3",
+"strength": "helpful",
+"why": "South Sudan oil",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.26.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.26.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.26.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.2",
+"strength": "helpful",
+"why": "debt burden",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.26.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.26.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.2.1",
+"strength": "helpful",
+"why": "primary product dependence",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.27.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.27.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.27.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.27.0",
+"strength": "helpful",
+"why": "2019 removal of Bashir",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.27.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-development-s3.27.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.27.2",
+"strength": "helpful",
+"why": "war since 2023",
+"confidence": "high"
+}
+]
+},
+"geo-economic-development-s3.27.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.27.3",
+"strength": "helpful",
+"why": "displacement crisis",
+"confidence": "low"
+}
+]
+},
+"geo-economic-development-s3.27.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s1.6.6",
+"strength": "helpful",
+"why": "low HDI category",
+"confidence": "high"
+}
+]
+}
+}

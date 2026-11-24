@@ -1,0 +1,1003 @@
+{
+"geo-economic-environment-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.2.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s1.0.3",
+"strength": "helpful",
+"why": "sustainable management of resources",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.3.0",
+"strength": "helpful",
+"why": "the Corrib gas field",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s1.2.3",
+"strength": "helpful",
+"why": "energy security",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.3.0",
+"strength": "helpful",
+"why": "Corrib gas being piped ashore",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.4.0",
+"strength": "essential",
+"why": "onshore raw gas hazard",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.4.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.4.0",
+"strength": "helpful",
+"why": "the pipeline work",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.5.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.4.2",
+"strength": "essential",
+"why": "the protected estuary",
+"confidence": "high"
+},
+{
+"id": "geo-economic-environment-s5.4.0",
+"strength": "helpful",
+"why": "pipeline route near houses",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.6.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s5.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s4.17.0",
+"strength": "helpful",
+"why": "total allowable catches and quotas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.6.1",
+"strength": "helpful",
+"why": "national quotas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.6.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.6.1",
+"strength": "essential",
+"why": "quotas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.7.0",
+"strength": "helpful",
+"why": "smaller quota",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.8.0",
+"strength": "essential",
+"why": "the drift-net ban",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.8.0",
+"strength": "essential",
+"why": "the drift-net ban",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.6.1",
+"strength": "helpful",
+"why": "quotas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s5.9.0",
+"strength": "essential",
+"why": "the mackerel dispute",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.9.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.10.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s5.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.10.0",
+"strength": "helpful",
+"why": "Burren limestone",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s5.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.10.1",
+"strength": "essential",
+"why": "Mullaghmore location",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.10.2",
+"strength": "essential",
+"why": "the visitor centre",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.10.2",
+"strength": "essential",
+"why": "the visitor centre",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.10.2",
+"strength": "helpful",
+"why": "the State building the centre",
+"confidence": "high"
+},
+{
+"id": "geo-economic-environment-s5.2.0",
+"strength": "helpful",
+"why": "planning permission",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.2.0",
+"strength": "helpful",
+"why": "planning permission and appeal",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.13.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.13.2": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s5.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.13.0",
+"strength": "helpful",
+"why": "Skellig Michael",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.14.0",
+"strength": "helpful",
+"why": "rising visitor demand",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.14.0",
+"strength": "helpful",
+"why": "demand for visits",
+"confidence": "high"
+},
+{
+"id": "geo-economic-environment-s4.27.3",
+"strength": "helpful",
+"why": "controlled access at Skellig",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.14.2",
+"strength": "helpful",
+"why": "landing limits",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.15.0",
+"strength": "helpful",
+"why": "the Hill of Tara",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.16.0",
+"strength": "helpful",
+"why": "the M3 route",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.15.0",
+"strength": "helpful",
+"why": "the Hill of Tara",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.15.1",
+"strength": "essential",
+"why": "archaeological landscape",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.15.1",
+"strength": "helpful",
+"why": "archaeology of the valley",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.16.0",
+"strength": "helpful",
+"why": "the M3",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.18.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.18.1",
+"strength": "essential",
+"why": "raised bogs",
+"confidence": "high"
+},
+{
+"id": "geo-economic-environment-s5.2.2",
+"strength": "helpful",
+"why": "EU law protecting habitats",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.18.2",
+"strength": "essential",
+"why": "raised-bog SACs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.19.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s5.2.3",
+"strength": "helpful",
+"why": "compensation",
+"confidence": "high"
+},
+{
+"id": "geo-economic-environment-s5.19.0",
+"strength": "essential",
+"why": "the turf-cutting ban",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.19.0",
+"strength": "essential",
+"why": "the turf-cutting ban",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.20.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.20.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s4.12.4",
+"strength": "helpful",
+"why": "Derrybrien peat slide",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.20.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s4.8.0",
+"strength": "helpful",
+"why": "environmental impact assessment",
+"confidence": "high"
+},
+{
+"id": "geo-economic-environment-s5.20.2",
+"strength": "helpful",
+"why": "Derrybrien",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s1.9.4",
+"strength": "helpful",
+"why": "offshore wind",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.21.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.21.0",
+"strength": "helpful",
+"why": "more milk output",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.21.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.21.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.21.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.22.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s1.14.2",
+"strength": "helpful",
+"why": "data centre electricity use",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.22.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.22.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.22.2",
+"strength": "helpful",
+"why": "grid strain",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.23.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.23.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.23.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.23.3": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s5.23.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.23.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.24.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.24.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.24.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.24.0",
+"strength": "helpful",
+"why": "carbon stored in forest",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.25.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.25.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s5.25.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.25.0",
+"strength": "essential",
+"why": "the 2004 baseline",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.25.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.25.1",
+"strength": "helpful",
+"why": "the 2012 low",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.26.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.26.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.26.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.26.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.26.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.25.2",
+"strength": "helpful",
+"why": "deforestation rising again",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s5.27.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.27.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.27.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.27.0",
+"strength": "essential",
+"why": "Chico Mendes murder",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.28.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.28.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.28.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.28.0",
+"strength": "helpful",
+"why": "Hambach mine",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.28.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.28.0",
+"strength": "essential",
+"why": "the forest and mine",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.28.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.28.0",
+"strength": "helpful",
+"why": "Hambach Forest",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.29.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.29.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.28.0",
+"strength": "helpful",
+"why": "lignite mining",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.29.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.28.3",
+"strength": "helpful",
+"why": "coal phase-out",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.30.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.30.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.30.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.30.0",
+"strength": "helpful",
+"why": "the Three Gorges Dam",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.30.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.31.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.31.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.30.0",
+"strength": "helpful",
+"why": "the dam and reservoir",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.31.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.31.2": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s5.32.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.32.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.32.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.32.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.33.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.33.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.33.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s5.33.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.1.0",
+"strength": "helpful",
+"why": "stakeholder groups",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s5.33.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s5.33.2",
+"strength": "essential",
+"why": "groups for and against",
+"confidence": "high"
+}
+]
+}
+}

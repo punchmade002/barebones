@@ -157,4 +157,4 @@ if __name__ == "__main__":
     if sys.argv[1] == "build":
         build(keep=set(sys.argv[2:]))
     else:
-        join()
+        {"join": join, "check": check}[sys.argv[1]]()

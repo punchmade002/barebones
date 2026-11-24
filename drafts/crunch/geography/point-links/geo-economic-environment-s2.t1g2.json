@@ -1,0 +1,473 @@
+{
+ "geo-economic-environment-s2.0.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.0.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.0.1": {
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.14.0",
+    "strength": "helpful",
+    "why": "fracking of shale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.0.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.0.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.0.4": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.1.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.1.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.1.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.1.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.2.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.2.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.2.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.2.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.2.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.3.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.3.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.4.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.4.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.4.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.4.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.4.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.4.4": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.5.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.5.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.5.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.5.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.5.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.6.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.6.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.6.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.6.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.6.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.6.4": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.6.5": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.6.6": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.7.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.7.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.7.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.7.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.7.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.8.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.8.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.8.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.8.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.8.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.8.4": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.8.5": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.8.6": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.9.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.9.0": {
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.13.0",
+    "strength": "helpful",
+    "why": "oil spill example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.9.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.9.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.10.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.10.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.10.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.10.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.10.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.10.4": {
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.2.4",
+    "strength": "helpful",
+    "why": "slide as mass movement",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.11.b": {
+  "needs": [
+   {
+    "id": "geo-rivers-s4.1.b",
+    "strength": "helpful",
+    "why": "falling water drives turbines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.11.0": {
+  "needs": [
+   {
+    "id": "geo-rivers-s4.1.0",
+    "strength": "helpful",
+    "why": "reservoir releasing water through turbines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.11.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.11.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.11.3": {
+  "needs": [
+   {
+    "id": "geo-rivers-s4.4.b",
+    "strength": "helpful",
+    "why": "Ardnacrusha and Shannon Scheme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.11.4": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.11.5": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.11.6": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.11.7": {
+  "needs": [
+   {
+    "id": "geo-rivers-s4.8.b",
+    "strength": "helpful",
+    "why": "Three Gorges effects",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.12.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.12.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.12.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.13.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.13.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.13.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.13.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.13.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.14.b": {
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.15.b",
+    "strength": "helpful",
+    "why": "earth heat as energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.14.0": {
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.18.0",
+    "strength": "helpful",
+    "why": "Iceland geothermal case",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.14.1": {
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.19.2",
+    "strength": "helpful",
+    "why": "ground-source heat pumps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.14.2": {
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.15.2",
+    "strength": "helpful",
+    "why": "heat near plate boundaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.15.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.15.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.15.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.15.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.15.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.16.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.16.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.16.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.16.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.16.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.16.4": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.17.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.17.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.17.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.17.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.17.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.18.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.18.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.18.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.18.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.18.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.18.4": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.18.5": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.19.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.19.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.19.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.19.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.19.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.19.4": {
+  "needs": [
+   {
+    "id": "geo-rivers-s4.3.5",
+    "strength": "helpful",
+    "why": "dams harm habitats",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.20.b": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.20.0": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.20.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.20.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.20.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.20.4": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.20.5": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.21.b": {
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.35.b",
+    "strength": "helpful",
+    "why": "site choice method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.21.0": {
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.35.3",
+    "strength": "helpful",
+    "why": "wind farm site needs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s2.21.1": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.21.2": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.21.3": {
+  "needs": []
+ },
+ "geo-economic-environment-s2.21.4": {
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.35.4",
+    "strength": "helpful",
+    "why": "site disadvantages conflict",
+    "confidence": "high"
+   }
+  ]
+ }
+}

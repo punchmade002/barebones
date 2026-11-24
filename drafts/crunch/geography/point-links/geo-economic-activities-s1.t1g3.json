@@ -1,0 +1,686 @@
+{
+ "geo-economic-activities-s1.0.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.0.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.0.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.0.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.0.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.0.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.1.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.1.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.1.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.1.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.1.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.2.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.2.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.2.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.2.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.3.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.3.0": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.1.0",
+    "strength": "helpful",
+    "why": "IDA agency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.3.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.3.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.3.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.3.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.4.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.4.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.4.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.4.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.5.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.5.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.5.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.5.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.5.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.6.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.6.0": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.1.b",
+    "strength": "helpful",
+    "why": "FDI defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.6.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.6.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.6.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.7.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.7.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.7.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.7.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.7.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.8.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.8.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.8.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.8.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.8.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.9.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.9.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.9.1": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.0.0",
+    "strength": "essential",
+    "why": "multinational company",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.9.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.10.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.10.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.10.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.10.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.10.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.10.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.11.b": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.0.0",
+    "strength": "helpful",
+    "why": "multinational company",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.11.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.11.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.12.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.12.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.12.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.12.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.12.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.12.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.13.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.13.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.13.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.13.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.13.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.13.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.14.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.14.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.14.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.14.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.14.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.14.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.14.5": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.14.6": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.15.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.15.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.15.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.15.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.15.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.15.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.16.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.16.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.16.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.16.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.16.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.17.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.17.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.17.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.17.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.17.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.18.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.18.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.18.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.18.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.18.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.19.b": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.2.b",
+    "strength": "helpful",
+    "why": "MNC advantages of Ireland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.19.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.19.1": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.1.0",
+    "strength": "helpful",
+    "why": "IDA agency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.19.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.19.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.19.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.19.5": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.20.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.20.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.20.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.20.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.21.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.21.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.21.1": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.4.b",
+    "strength": "helpful",
+    "why": "Intel at Leixlip",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.21.2": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.4.2",
+    "strength": "helpful",
+    "why": "EUV lithography",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.21.3": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.13.b",
+    "strength": "helpful",
+    "why": "Apple Cork role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.22.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.22.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.22.1": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.0.0",
+    "strength": "essential",
+    "why": "multinational company",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.22.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.22.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.23.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.23.0": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.0.0",
+    "strength": "essential",
+    "why": "multinational company",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.23.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.23.2": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s1.18.2",
+    "strength": "helpful",
+    "why": "state aid recovery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-activities-s1.23.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.23.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.23.5": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.23.6": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.23.7": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.24.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.24.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.24.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.25.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.25.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.25.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.25.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.25.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.26.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.26.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.26.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.26.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.26.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.26.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.27.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.27.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.27.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.27.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.28.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.28.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.28.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.28.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.29.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.29.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.29.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.29.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.29.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.30.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.30.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.30.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.30.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.30.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.30.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.31.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.31.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.32.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.32.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.32.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.32.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.33.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.33.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.33.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.33.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.34.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.34.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.34.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.35.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.35.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.35.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.35.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.36.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.36.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.36.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.36.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.36.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.36.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.37.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.37.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.37.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.37.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.37.3": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.37.4": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.38.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.38.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.38.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.39.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.39.0": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.39.1": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.39.2": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.40.b": {
+  "needs": []
+ },
+ "geo-economic-activities-s1.40.0": {
+  "needs": []
+ }
+}
