@@ -1,0 +1,485 @@
+{
+"hist-eur3-s8.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s7.2.3",
+"strength": "helpful",
+"why": "shipbuilding collapse in the 1930s",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.0.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s8.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s8.0.3",
+"strength": "essential",
+"why": "uses National Shipbuilders Security",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.0.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s8.1.0",
+"strength": "helpful",
+"why": "uses Ellen Wilkinson",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.0.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s7.2.4",
+"strength": "helpful",
+"why": "regional unemployment figures",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.0.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.6.0",
+"strength": "helpful",
+"why": "Special Areas Act of 1934",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.1.0",
+"strength": "helpful",
+"why": "uses Ellen Wilkinson",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.0.6",
+"strength": "helpful",
+"why": "the proposed steelworks",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s8.2.5",
+"strength": "helpful",
+"why": "Communist-led marches feared",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.5.0",
+"strength": "helpful",
+"why": "the NUWM and hunger marches",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.3.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s8.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.2.2",
+"strength": "helpful",
+"why": "the petition carried",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.7.0",
+"strength": "helpful",
+"why": "Baldwin National Government",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s8.4.0",
+"strength": "essential",
+"why": "answers Baldwin on falling unemployment",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.2.2",
+"strength": "helpful",
+"why": "the petition",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.5.2",
+"strength": "helpful",
+"why": "Unemployment Assistance Board means test",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.0.5",
+"strength": "helpful",
+"why": "Palmers site after NSS purchase",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s7.6.0",
+"strength": "essential",
+"why": "the 1934 Special Areas Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.8.4",
+"strength": "helpful",
+"why": "rearmament revives depressed regions",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.1.2",
+"strength": "helpful",
+"why": "David Riley as march leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.2.3",
+"strength": "helpful",
+"why": "discipline of the marchers",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.6.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s8.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s7.3.2",
+"strength": "helpful",
+"why": "formation of the National Government",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.7.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s8.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.8.3",
+"strength": "helpful",
+"why": "national unemployment figures",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.5.2",
+"strength": "helpful",
+"why": "household means test",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s8.1.0",
+"strength": "helpful",
+"why": "uses Ellen Wilkinson",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.1.3",
+"strength": "helpful",
+"why": "cross-party respectable appeal",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.0",
+"strength": "helpful",
+"why": "Baldwin's unemployment claim",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.2.4",
+"strength": "helpful",
+"why": "Labour and TUC feared Communists",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.2",
+"strength": "helpful",
+"why": "rearmament revived the town",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s8.8.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.3",
+"strength": "helpful",
+"why": "marchers lost benefit",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.2",
+"strength": "helpful",
+"why": "rearmament and war recovery",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.9.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.9.5": {
+"cost": 1,
+"needs": []
+}
+}

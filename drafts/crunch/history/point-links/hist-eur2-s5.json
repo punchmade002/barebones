@@ -1,0 +1,583 @@
+{
+"hist-eur2-s5.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s4.7.1",
+"strength": "helpful",
+"why": "Schlieffen Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.0.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s4.4.5",
+"strength": "helpful",
+"why": "Schlieffen Plan through Belgium",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.0.0",
+"strength": "helpful",
+"why": "German advance into France",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s5.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.0.0",
+"strength": "helpful",
+"why": "the German advance",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.0.2",
+"strength": "helpful",
+"why": "Germans dug in at the Aisne",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.0.1",
+"strength": "helpful",
+"why": "the BEF",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.0.6": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.0.4",
+"strength": "helpful",
+"why": "First Battle of Ypres",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s5.1.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s5.1.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.1.5",
+"strength": "helpful",
+"why": "tanks as part of combined arms",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.1.4",
+"strength": "helpful",
+"why": "gas used at Ypres",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.2.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s5.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.2.1",
+"strength": "essential",
+"why": "the battle of Verdun",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.2.1",
+"strength": "essential",
+"why": "relieve Verdun",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.2.3",
+"strength": "essential",
+"why": "the Somme offensive",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s5.6.1",
+"strength": "helpful",
+"why": "Kitchener's volunteers",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.2.2",
+"strength": "helpful",
+"why": "Pétain at Verdun",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s5.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.0.4",
+"strength": "helpful",
+"why": "Ypres salient",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s5.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.1.5",
+"strength": "helpful",
+"why": "tanks first used",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.3.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s5.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.3.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s5.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.3.3",
+"strength": "helpful",
+"why": "Provisional Government and the war",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.3.4",
+"strength": "essential",
+"why": "Treaty of Brest-Litovsk",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.4.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s5.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.4.0",
+"strength": "essential",
+"why": "the Gallipoli campaign",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.4.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s5.4.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s5.4.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s5.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.5.0",
+"strength": "helpful",
+"why": "the blockade of Germany",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s5.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.5.1",
+"strength": "helpful",
+"why": "German fleet inactive after Jutland",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s5.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.5.2",
+"strength": "essential",
+"why": "earlier submarine campaign limited",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.5.3",
+"strength": "essential",
+"why": "unrestricted submarine warfare",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.6.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s5.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.6.1",
+"strength": "essential",
+"why": "conscription in Britain",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.6.1",
+"strength": "essential",
+"why": "Military Service Act 1916",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.7.0",
+"strength": "helpful",
+"why": "Zimmermann Telegram",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.3.4",
+"strength": "helpful",
+"why": "Russia out of the war",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.7.2",
+"strength": "essential",
+"why": "the Spring Offensive",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.7.3",
+"strength": "helpful",
+"why": "German advance 1918",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.7.4",
+"strength": "helpful",
+"why": "Hundred Days defeat",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.7.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.8.b",
+"strength": "helpful",
+"why": "Haig as BEF commander",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.2.3",
+"strength": "helpful",
+"why": "the Somme offensive",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.7.4",
+"strength": "helpful",
+"why": "Hundred Days",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s5.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.8.2",
+"strength": "helpful",
+"why": "Haig's battles Lloyd George judged",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s5.8.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.8.5",
+"strength": "helpful",
+"why": "contemporary views of Haig",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s5.8.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.8.6",
+"strength": "helpful",
+"why": "earlier critical memoirs and Clark",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s5.8.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.8.7",
+"strength": "helpful",
+"why": "the historians debate on Haig",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.5.0",
+"strength": "helpful",
+"why": "the blockade",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.2.6",
+"strength": "helpful",
+"why": "Passchendaele",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.7.2",
+"strength": "helpful",
+"why": "spring 1918 offensive",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.0.0",
+"strength": "helpful",
+"why": "Schlieffen Plan failing",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s5.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.8.7",
+"strength": "helpful",
+"why": "Clark and Sheffield views",
+"confidence": "high"
+}
+]
+}
+}

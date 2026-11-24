@@ -1,0 +1,730 @@
+{
+"hist-ire3-s6.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.4.b",
+"strength": "helpful",
+"why": "Treaty settlement",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.4.b",
+"strength": "helpful",
+"why": "the Treaty registered",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.3.2",
+"strength": "essential",
+"why": "Boundary Commission crisis, Tripartite Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.3.3",
+"strength": "helpful",
+"why": "Kevin O'Higgins",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.0.2",
+"strength": "helpful",
+"why": "builds on Balfour Declaration",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.4.2",
+"strength": "essential",
+"why": "the oath",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s4.4.1",
+"strength": "helpful",
+"why": "the Governor-General",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s4.4.3",
+"strength": "helpful",
+"why": "the Treaty ports",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.4.4",
+"strength": "helpful",
+"why": "land annuities and 1920s finance",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s5.2.6",
+"strength": "helpful",
+"why": "Land Acts and tenants",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s6.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.0.3",
+"strength": "essential",
+"why": "Statute of Westminster",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s4.4.2",
+"strength": "helpful",
+"why": "the oath",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.4.5",
+"strength": "helpful",
+"why": "1932 election and election of de Valera",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.2.1",
+"strength": "essential",
+"why": "James McNeill as Governor-General",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.4.2",
+"strength": "essential",
+"why": "the oath of fidelity",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.2.0",
+"strength": "helpful",
+"why": "Constitution's Crown and Governor-General",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.1.5",
+"strength": "essential",
+"why": "the 1936 amendment removing the Crown",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.0.3",
+"strength": "essential",
+"why": "Statute of Westminster",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.0.5",
+"strength": "helpful",
+"why": "land annuities",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.0.5",
+"strength": "essential",
+"why": "land annuities",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.0",
+"strength": "essential",
+"why": "stopped annuity payments",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s6.0.1",
+"strength": "helpful",
+"why": "1925 agreement",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s6.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.1",
+"strength": "essential",
+"why": "British special duties",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.1",
+"strength": "helpful",
+"why": "British duties on cattle",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.1",
+"strength": "helpful",
+"why": "the trade conflict",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.2.b",
+"strength": "helpful",
+"why": "Cumann na nGaedheal",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s6.3.0",
+"strength": "essential",
+"why": "Army Comrades Association",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s5.2.2",
+"strength": "helpful",
+"why": "O'Duffy as Garda Commissioner",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.3.1",
+"strength": "essential",
+"why": "O'Duffy's movement",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s6.3.1",
+"strength": "helpful",
+"why": "O'Duffy and the Blueshirts",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s5.6.3",
+"strength": "helpful",
+"why": "Cosgrave leading Fine Gael",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.3.1",
+"strength": "essential",
+"why": "O'Duffy",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.2.0",
+"strength": "helpful",
+"why": "1922 Constitution",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.1.0",
+"strength": "helpful",
+"why": "partition of 26 and six counties",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.4.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.4.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.4.3",
+"strength": "helpful",
+"why": "Treaty ports",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.4.3",
+"strength": "essential",
+"why": "Treaty ports",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.0",
+"strength": "essential",
+"why": "land annuities dispute",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.1",
+"strength": "essential",
+"why": "special duties",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s6.5.0",
+"strength": "essential",
+"why": "surrender of the ports",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.0.b",
+"strength": "helpful",
+"why": "partition",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.5.0",
+"strength": "essential",
+"why": "the ports handed over",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.1.6",
+"strength": "essential",
+"why": "External Relations Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s6.3.3",
+"strength": "helpful",
+"why": "Fine Gael founding",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.1.6",
+"strength": "essential",
+"why": "External Relations Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.6.1",
+"strength": "essential",
+"why": "repeal of External Relations Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.6.1",
+"strength": "essential",
+"why": "repeal of External Relations Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s6.6.3",
+"strength": "essential",
+"why": "Republic of Ireland Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s6.6.4",
+"strength": "essential",
+"why": "British Ireland Act",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s3.1.0",
+"strength": "helpful",
+"why": "Northern Ireland parliament",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.0.b",
+"strength": "helpful",
+"why": "partition",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.7.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s6.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.1.2",
+"strength": "helpful",
+"why": "oath removal",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s6.4.b",
+"strength": "helpful",
+"why": "1937 constitution",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s6.5.0",
+"strength": "helpful",
+"why": "ports in 1938",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.3.4",
+"strength": "helpful",
+"why": "banning of the IRA",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.b",
+"strength": "essential",
+"why": "Economic War",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s6.3.b",
+"strength": "helpful",
+"why": "Blueshirts",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.7.6": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s6.7.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s6.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s6.0.b",
+"strength": "helpful",
+"why": "Cosgrave's Commonwealth strategy",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.0.4",
+"strength": "essential",
+"why": "oath, Governor-General, ports",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s6.1.2",
+"strength": "helpful",
+"why": "removal of oath",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s6.5.0",
+"strength": "helpful",
+"why": "ports",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s6.5.1",
+"strength": "helpful",
+"why": "annuities settlement",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s6.4.b",
+"strength": "helpful",
+"why": "1937 constitution",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s6.2.b",
+"strength": "essential",
+"why": "Economic War",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s6.0.2",
+"strength": "helpful",
+"why": "Imperial Conferences",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.b",
+"strength": "helpful",
+"why": "Economic War",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s6.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.6.3",
+"strength": "essential",
+"why": "Republic of Ireland Act",
+"confidence": "high"
+}
+]
+}
+}

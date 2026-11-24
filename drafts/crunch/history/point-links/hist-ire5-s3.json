@@ -1,0 +1,634 @@
+{
+"hist-ire5-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.0.3",
+"strength": "helpful",
+"why": "Derry nationalists claim for university",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.5.3",
+"strength": "helpful",
+"why": "west of the Bann grievance",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.0.1",
+"strength": "helpful",
+"why": "Robbins expansion, second university",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s3.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.0.0",
+"strength": "helpful",
+"why": "Magee College as existing college",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.0",
+"strength": "essential",
+"why": "uses the Lockwood Committee",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.4",
+"strength": "essential",
+"why": "protest against Lockwood decision",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.0",
+"strength": "helpful",
+"why": "evidence heard by Lockwood Committee",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.4",
+"strength": "helpful",
+"why": "Lockwood recommendation",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.4",
+"strength": "essential",
+"why": "Lockwood recommended Coleraine",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "choice of Coleraine",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "vote on Coleraine decision",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "government choice of Coleraine",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "essential",
+"why": "Coleraine decision",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "Coleraine decision",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.1",
+"strength": "helpful",
+"why": "University for Derry Committee",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.1",
+"strength": "helpful",
+"why": "University for Derry Committee",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.5",
+"strength": "helpful",
+"why": "1965 protests",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s3.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.3.1",
+"strength": "helpful",
+"why": "Hume chaired the campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s2.5.5",
+"strength": "helpful",
+"why": "Derry Citizens Action Committee",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.0.1",
+"strength": "essential",
+"why": "Robbins Report",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s3.1.0",
+"strength": "helpful",
+"why": "Lockwood Committee",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.0",
+"strength": "helpful",
+"why": "Lockwood Committee",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s3.1.1",
+"strength": "helpful",
+"why": "University for Derry Committee",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.4",
+"strength": "essential",
+"why": "Lockwood report",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s3.1.5",
+"strength": "helpful",
+"why": "motorcade to Stormont",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "Stormont accepted Coleraine",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "Coleraine university decision",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "Coleraine university",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s2.5.0",
+"strength": "essential",
+"why": "uses the Derry march 5 October",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s2.5.5",
+"strength": "helpful",
+"why": "Derry Citizens Action Committee",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "Coleraine decision",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.1.1",
+"strength": "helpful",
+"why": "Derry campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.3",
+"strength": "helpful",
+"why": "government case for Coleraine",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.6.2",
+"strength": "helpful",
+"why": "Craigavon drawing investment east",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.5.3",
+"strength": "helpful",
+"why": "west of the Bann grievance",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s2.4.0",
+"strength": "helpful",
+"why": "civil rights movement",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.6.0",
+"strength": "essential",
+"why": "Derry Road closure",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s2.0.1",
+"strength": "helpful",
+"why": "Matthew Report and Craigavon",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.3.3",
+"strength": "essential",
+"why": "Londonderry Corporation 1936 boundaries",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.3.2",
+"strength": "helpful",
+"why": "council housing allocation",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s3.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "university decision",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "Coleraine decision",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.3.1",
+"strength": "helpful",
+"why": "Hume chaired the campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s2.4.0",
+"strength": "helpful",
+"why": "civil rights movement in Derry",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s3.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s2.0.5",
+"strength": "helpful",
+"why": "modernising programme",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.7.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s3.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s3.0.0",
+"strength": "helpful",
+"why": "Magee College",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s3.1.3",
+"strength": "helpful",
+"why": "Derry campaign arguments",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s3.2.3",
+"strength": "helpful",
+"why": "government case for Coleraine",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s3.2.1",
+"strength": "essential",
+"why": "faceless men allegation",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s3.2.0",
+"strength": "helpful",
+"why": "choice of Coleraine",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s3.2.1",
+"strength": "helpful",
+"why": "nationalist view of decision",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s3.5.4",
+"strength": "helpful",
+"why": "wider public investment inequality",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s3.8.6": {
+"cost": 1,
+"needs": []
+}
+}

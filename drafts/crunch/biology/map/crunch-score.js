@@ -97,9 +97,11 @@
   // questions earns its share of the paper, from the best K answered (for Biology, Q1 is 1/6 and the best
   // 5 in 6 optional questions the other 5/6).
   function realPaperScore(p, kept, choice, GR) {
-    const real = q => q.slots.filter(x => x[1] > 0);
+    // tagged slots are the real marking points; a question with none (History essays) is marked on its spread
+    // slots, each earned in proportion to the share of its points kept
+    const real = q => (q.slots.some(x => x[1] > 0) ? q.slots.filter(x => x[1] > 0) : q.slots);
     const marks = q => real(q).reduce((t, x) => t + x[0], 0);
-    const cov = q => { const m = marks(q); return m ? real(q).reduce((a, [mk, k, o]) => a + mk * Math.min(1, o.filter(i => kept[i]).length / k), 0) / m : 0; };
+    const cov = q => { const m = marks(q); return m ? real(q).reduce((a, [mk, k, o]) => a + mk * Math.min(1, o.filter(i => kept[i]).length / (k || o.length)), 0) / m : 0; };
     const by = byGroup(p.qs.filter(marks));
     let s = 0, shares = 0;
     for (const g in by) {
@@ -164,7 +166,7 @@
     if (papers.length) D.items.forEach((r, i) => { if (!D.subs[r[1]][4].length) isNew[i] = 1; });
     else isNew.fill(1); // no papers: every point is "unknown", so every point carries the same share
     const nNew = isNew.reduce((a, b) => a + b, 0);
-    const rho = papers.length ? (P.newShare == null ? nNew / N : P.newShare) : 1;
+    const rho = !papers.length ? 1 : !nNew ? 0 : P.newShare == null ? nNew / N : P.newShare; // no new-course content, no share for it
     const lastYear = Math.max(0, ...papers.map(p => p.year));
     const pw = papers.map(p => Math.pow(0.5, (lastYear - p.year) / P.halfLife));
     const pwSum = pw.reduce((a, b) => a + b, 0) || 1;

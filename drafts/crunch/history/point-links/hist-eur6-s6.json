@@ -1,0 +1,473 @@
+{
+"hist-eur6-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.0.4",
+"strength": "essential",
+"why": "uses the GI Bill home loans",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.1.0",
+"strength": "helpful",
+"why": "the Bretton Woods system",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.1.1",
+"strength": "essential",
+"why": "dollar as gold-pegged reserve currency",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s6.1.2",
+"strength": "helpful",
+"why": "Marshall aid spent on US goods",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.0.7",
+"strength": "essential",
+"why": "uses NSC-68",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.2.3",
+"strength": "helpful",
+"why": "uses Sputnik and the space race",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s6.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.2.0",
+"strength": "essential",
+"why": "the Interstate programme",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.2.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.3.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.3.0",
+"strength": "essential",
+"why": "uses the farewell address warning",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.3.0",
+"strength": "helpful",
+"why": "Eisenhower speech echoing Mills",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.4.0",
+"strength": "essential",
+"why": "uses Whyte and his book",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.4.1",
+"strength": "essential",
+"why": "uses Whyte social ethic argument",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.4.0",
+"strength": "helpful",
+"why": "Whyte study of suburban communities",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.4.1",
+"strength": "helpful",
+"why": "the conformity worry Whyte described",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.4.1",
+"strength": "helpful",
+"why": "the Organization Man as conformist",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.4.5",
+"strength": "helpful",
+"why": "similar corporate figure",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.4.5",
+"strength": "essential",
+"why": "uses the Organization Man",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.4.1",
+"strength": "helpful",
+"why": "Whyte conformity thesis",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.5.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s6.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.0.b",
+"strength": "helpful",
+"why": "uses containment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.5.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.5.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.5.8": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.6.0",
+"strength": "helpful",
+"why": "strong unions in core industries",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.6.1",
+"strength": "essential",
+"why": "uses the Treaty of Detroit agreements",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.6.2",
+"strength": "helpful",
+"why": "the postwar bargain with unions",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s6.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.7.0",
+"strength": "helpful",
+"why": "Keynesian demand management",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.7.1",
+"strength": "helpful",
+"why": "tax cut Heller argued for",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.7.2",
+"strength": "essential",
+"why": "uses the 1964 tax cut",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.7.0",
+"strength": "helpful",
+"why": "Keynesian demand management",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.0.1",
+"strength": "helpful",
+"why": "US dominance of world production in 1945",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.1.4",
+"strength": "helpful",
+"why": "defence spending fed growth",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s6.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.0.4",
+"strength": "helpful",
+"why": "uses GI Bill benefits",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.8.5": {
+"cost": 1,
+"needs": []
+}
+}

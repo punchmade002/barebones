@@ -1,0 +1,713 @@
+{
+"hist-ire3-s5.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.5.7",
+"strength": "helpful",
+"why": "Dáil vote on the Treaty",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.5.7",
+"strength": "essential",
+"why": "Dáil approval of Treaty",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s4.5.9",
+"strength": "helpful",
+"why": "Provisional Government under Collins",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.5.7",
+"strength": "helpful",
+"why": "anti-Treaty rejection of Dáil",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.0.0",
+"strength": "helpful",
+"why": "pro- and anti-Treaty forces",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s5.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.0.1",
+"strength": "helpful",
+"why": "anti-Treaty IRA",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s4.5.b",
+"strength": "helpful",
+"why": "Treaty split in Sinn Féin",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.0.4",
+"strength": "helpful",
+"why": "election pact context",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.0.3",
+"strength": "essential",
+"why": "Four Courts garrison",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.0.3",
+"strength": "essential",
+"why": "Four Courts garrison",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.0.0",
+"strength": "helpful",
+"why": "National Army",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.0.3",
+"strength": "essential",
+"why": "Four Courts occupation",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.1.0",
+"strength": "helpful",
+"why": "Dublin fighting began with Four Courts",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.0.0",
+"strength": "helpful",
+"why": "National Army",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.1.2",
+"strength": "helpful",
+"why": "towns taken by National Army",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s4.6.b",
+"strength": "helpful",
+"why": "Griffith",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s4.7.b",
+"strength": "helpful",
+"why": "Collins",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.1.4",
+"strength": "essential",
+"why": "deaths of Griffith and Collins",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.1.3",
+"strength": "helpful",
+"why": "guerrilla warfare context",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s5.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.1.6",
+"strength": "essential",
+"why": "Emergency Powers Resolution",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s4.1.1",
+"strength": "helpful",
+"why": "Childers as delegation secretary",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s5.1.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.1.7",
+"strength": "helpful",
+"why": "executions policy",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s5.0.1",
+"strength": "helpful",
+"why": "Rory O'Connor, IRA leader",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.9": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.1.7",
+"strength": "helpful",
+"why": "executions began",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.10": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.1.3",
+"strength": "helpful",
+"why": "guerrilla phase",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s5.1.11": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.0.1",
+"strength": "helpful",
+"why": "Lynch as IRA leader",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.1.12": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.1.b",
+"strength": "helpful",
+"why": "the Civil War",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s4.4.2",
+"strength": "helpful",
+"why": "the Treaty oath",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s4.4.1",
+"strength": "helpful",
+"why": "Governor-General",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.2.0",
+"strength": "helpful",
+"why": "Governor-General in Constitution",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.2.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s5.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.2.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.2.7": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s5.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.1.6",
+"strength": "helpful",
+"why": "Boundary Commission",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.0.0",
+"strength": "helpful",
+"why": "National Army demobilisation",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.3.0",
+"strength": "essential",
+"why": "the Army Mutiny",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s3.1.6",
+"strength": "essential",
+"why": "Boundary Commission and leak",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.3.1",
+"strength": "helpful",
+"why": "O'Higgins reorganised army",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s5.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.3.3",
+"strength": "essential",
+"why": "Kevin O'Higgins",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.3.4",
+"strength": "essential",
+"why": "O'Higgins assassination",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s5.4.0",
+"strength": "helpful",
+"why": "founding of Fianna Fáil",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s4.4.2",
+"strength": "helpful",
+"why": "the oath",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s4.4.2",
+"strength": "helpful",
+"why": "the oath",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.4.0",
+"strength": "essential",
+"why": "Fianna Fáil founded",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.3.4",
+"strength": "essential",
+"why": "O'Higgins murder",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s5.4.0",
+"strength": "helpful",
+"why": "Fianna Fáil",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.2.0",
+"strength": "helpful",
+"why": "Constitution and Governor-General",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.4.0",
+"strength": "helpful",
+"why": "Fianna Fáil",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.4.1",
+"strength": "helpful",
+"why": "earlier election results",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s5.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.4.5",
+"strength": "essential",
+"why": "1932 election result",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.4.0",
+"strength": "helpful",
+"why": "Fianna Fáil founded",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s5.2.b",
+"strength": "helpful",
+"why": "Cumann na nGaedheal",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.2.b",
+"strength": "helpful",
+"why": "Cumann na nGaedheal",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.6.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s5.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.1.4",
+"strength": "essential",
+"why": "deaths of Griffith and Collins",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.2.b",
+"strength": "helpful",
+"why": "Cumann na nGaedheal",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.3.1",
+"strength": "helpful",
+"why": "the mutiny",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s5.3.4",
+"strength": "helpful",
+"why": "O'Higgins assassination",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.6.4",
+"strength": "helpful",
+"why": "his government's record",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s5.6.b",
+"strength": "helpful",
+"why": "judgement of Cosgrave",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s5.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.6.4",
+"strength": "helpful",
+"why": "surviving civil war, mutiny, assassination",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.4.6",
+"strength": "essential",
+"why": "peaceful transfer of power",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.2.7",
+"strength": "essential",
+"why": "Shannon Scheme and ESB",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.1.6",
+"strength": "helpful",
+"why": "military courts and executions",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s5.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.3.2",
+"strength": "essential",
+"why": "Boundary Commission outcome",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s5.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.6.5",
+"strength": "helpful",
+"why": "contemporary views of Cosgrave",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s5.7.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.6.6",
+"strength": "helpful",
+"why": "historians' views of Cosgrave",
+"confidence": "high"
+}
+]
+}
+}

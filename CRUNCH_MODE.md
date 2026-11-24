@@ -222,3 +222,16 @@ Biology point graph drafted by Sonnet, one agent per subsection: 10,583 items,
 loops. Four packages were re-run after their agents misbehaved (truncated reads,
 confidence set to mean strength, default-filled items). Not yet reviewed by
 Gabriel. The loops must be resolved before any scoring code runs.
+
+**History (2026-11-24).**
+- *Subsection graph:* 128 subsections, 205 links (4 Sonnet batches of 3 topics each). Links stay inside a topic, because students study and are examined on topics separately.
+- *Point graph:* 9,504 items, 6,338 links, 2,088 cost-2 items, 32 two-way loops. That's 128 packages: 64 Sonnet jobs of 2 packages each, all clean on the first run (`drafts/crunch/history/parts.py`, copied from Geography's).
+- *Student picks:* 2 Irish and 2 European topics (tracks `ire:hist-ire3`, `eur:hist-eur4`). `crunchCourse` now accepts a list of picks per kind.
+- *Paper:* Q1 documents (1/4 of the paper) counts when it's on one of your topics. Essays are the other 3/4: the best 3 from your topics, which is legal under the alternative instructions. Each essay title is its own question (`split`).
+- *No point tags, by choice.* The bank tags every essay to every subsection of its topic, so the exporter (`paragraph_slots`) sends each model-answer paragraph to the subsection it shares the most idf-weighted words with. The paragraph's share of the marks spreads over that subsection's points. Most essays land on 1–3 subsections, and every subsection is hit at least once.
+- *Scoring fixes this needed (Biology and Geography results unchanged):*
+  - The backtest marks spread-only questions by the share of points kept.
+  - The new-course share is 0 when a subject has no never-examined subsections.
+- *Results* for Ireland T2+T3 and Europe T3+T4, calibrated: an 85% written target cuts 70% of study effort, 75% cuts 76%, 55% cuts 87%, 35% cuts 93%.
+- Map: https://claude.ai/artifact/Rf3zBxq8Bpe19xbMYBr5Ji (`drafts/crunch/history/map/`).
+- Not modelled: the essay marking split (60 content + 40 overall evaluation); Q1's document-comprehension parts are treated like note-based marks.

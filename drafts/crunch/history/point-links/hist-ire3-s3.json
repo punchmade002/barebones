@@ -1,0 +1,669 @@
+{
+"hist-ire3-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.1.1",
+"strength": "helpful",
+"why": "uses the Ulster Covenant",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s1.1.2",
+"strength": "helpful",
+"why": "uses the UVF",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s1.2.0",
+"strength": "essential",
+"why": "county option proposal",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s1.2.2",
+"strength": "essential",
+"why": "Buckingham Palace Conference",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s1.6.7",
+"strength": "essential",
+"why": "Lloyd George proposals of 1916",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.6.7",
+"strength": "essential",
+"why": "the 1916 Lloyd George plan",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.6.b",
+"strength": "helpful",
+"why": "effect of the Rising on opinion",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s3.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s2.2.2",
+"strength": "essential",
+"why": "1918 election seat results",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s3.0.4",
+"strength": "helpful",
+"why": "1918 election divide",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s3.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.1.0",
+"strength": "helpful",
+"why": "Government of Ireland Act detail",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.1.0",
+"strength": "essential",
+"why": "the Northern parliament created by the Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.7.3",
+"strength": "helpful",
+"why": "Craig becoming Prime Minister",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.1.0",
+"strength": "essential",
+"why": "Southern Ireland parliament created by the Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.1.0",
+"strength": "helpful",
+"why": "Northern Ireland created by the Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s3.1.4",
+"strength": "helpful",
+"why": "Treaty opt-out of Northern Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.1.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s3.1.5",
+"strength": "essential",
+"why": "the Boundary Commission and its members",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.1.6",
+"strength": "essential",
+"why": "the 1925 agreement on the border",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s2.3.0",
+"strength": "helpful",
+"why": "the Dáil that organised the boycott",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s3.2.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.2.3",
+"strength": "helpful",
+"why": "the Special Constabulary context",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s3.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.7.5",
+"strength": "helpful",
+"why": "Craig negotiating with Collins",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s3.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.2.5",
+"strength": "helpful",
+"why": "internment after the IRA offensive",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.2.6",
+"strength": "helpful",
+"why": "internment under the Special Powers Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s2.2.4",
+"strength": "helpful",
+"why": "Devlin and the Nationalist Party",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.3.2",
+"strength": "helpful",
+"why": "earlier abolition of PR locally",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.3.2",
+"strength": "helpful",
+"why": "redrawn electoral areas and gerrymandering",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s3.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s3.4.b",
+"strength": "helpful",
+"why": "the discrimination debate",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.3.0",
+"strength": "helpful",
+"why": "nationalist abstention",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.5.1",
+"strength": "helpful",
+"why": "unemployment behind the strike",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.5.0",
+"strength": "helpful",
+"why": "linen and shipbuilding industries",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.1.2",
+"strength": "helpful",
+"why": "uses the UVF",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s1.1.4",
+"strength": "essential",
+"why": "the Larne gun-running",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.1.0",
+"strength": "helpful",
+"why": "Carson as Unionist leader",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.1.5",
+"strength": "essential",
+"why": "the Boundary Commission",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s3.2.5",
+"strength": "helpful",
+"why": "Craig-Collins pacts",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.2.4",
+"strength": "essential",
+"why": "creation of the RUC",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s3.2.6",
+"strength": "essential",
+"why": "the Special Powers Act",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s3.3.2",
+"strength": "essential",
+"why": "abolition of PR",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.7.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.5.3",
+"strength": "helpful",
+"why": "copying British social policy",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.7.8": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.7.9": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.1.2",
+"strength": "helpful",
+"why": "uses the UVF",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.2.6",
+"strength": "essential",
+"why": "the Special Powers Act",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s3.2.4",
+"strength": "helpful",
+"why": "the RUC",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.3.2",
+"strength": "essential",
+"why": "Local Government Act 1922",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s3.3.3",
+"strength": "essential",
+"why": "1929 change for Stormont",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.2.6",
+"strength": "helpful",
+"why": "powers under the Special Powers Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.8.5": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.5.3",
+"strength": "essential",
+"why": "step-by-step welfare policy",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.2.6",
+"strength": "essential",
+"why": "emergency powers",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s3.2.4",
+"strength": "helpful",
+"why": "largely Protestant police",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s3.3.2",
+"strength": "helpful",
+"why": "manipulated electoral rules",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.3.5",
+"strength": "helpful",
+"why": "one-party permanent majority",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s3.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s3.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.4.5",
+"strength": "helpful",
+"why": "the discrimination debate among historians",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,552 @@
+{
+"hist-ire6-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.0.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.2.b",
+"strength": "helpful",
+"why": "First Programme for growth",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.0.3",
+"strength": "essential",
+"why": "the OECD-assisted survey",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.0.4",
+"strength": "essential",
+"why": "Investment in Education report",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.0.5",
+"strength": "helpful",
+"why": "report’s recommended expansion",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.1.0",
+"strength": "essential",
+"why": "comprehensive schools",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.0.0",
+"strength": "helpful",
+"why": "fee-charging secondary schools",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.1.2",
+"strength": "essential",
+"why": "O’Malley’s free education announcement",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.1.2",
+"strength": "essential",
+"why": "the free education announcement",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.1.4",
+"strength": "essential",
+"why": "the free education scheme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.1.2",
+"strength": "helpful",
+"why": "O’Malley as minister",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.0.0",
+"strength": "helpful",
+"why": "leaving at 14, Primary Certificate",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.1.0",
+"strength": "helpful",
+"why": "comprehensive schools",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.1.4",
+"strength": "helpful",
+"why": "free second-level expansion",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.3.0",
+"strength": "essential",
+"why": "the 1971 curriculum",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.3.0",
+"strength": "helpful",
+"why": "the 1971 curriculum",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.3.0",
+"strength": "helpful",
+"why": "the 1971 curriculum",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.2.7",
+"strength": "essential",
+"why": "replaced Mother and Child Scheme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.4.1",
+"strength": "helpful",
+"why": "old county health authorities",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.4.3",
+"strength": "helpful",
+"why": "hospital services reform",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s3.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.4.0",
+"strength": "helpful",
+"why": "means-tested eligibility",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.1.7",
+"strength": "helpful",
+"why": "Hospitals Sweepstake funding",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.5.1",
+"strength": "helpful",
+"why": "the single social insurance system",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.5.6": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.6.0",
+"strength": "helpful",
+"why": "local authority housing",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.6.0",
+"strength": "helpful",
+"why": "local authority flats",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.6.4",
+"strength": "essential",
+"why": "rural electrification",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s3.6.5",
+"strength": "helpful",
+"why": "group water schemes",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.0.4",
+"strength": "essential",
+"why": "Investment in Education",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s3.1.0",
+"strength": "essential",
+"why": "comprehensive schools",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.1.2",
+"strength": "essential",
+"why": "free second-level education",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.7.1",
+"strength": "helpful",
+"why": "Hillery’s groundwork",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s3.7.3",
+"strength": "helpful",
+"why": "O’Malley’s announcement",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s3.8.3",
+"strength": "helpful",
+"why": "costs remaining after free fees",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.2.0",
+"strength": "helpful",
+"why": "comprehensive and community schools",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.1.5",
+"strength": "helpful",
+"why": "enrolment rise after 1967",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.0.0",
+"strength": "helpful",
+"why": "secondary versus vocational schools",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.1.4",
+"strength": "essential",
+"why": "free second-level scheme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s3.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.1.4",
+"strength": "helpful",
+"why": "free post-primary education",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s3.4.4",
+"strength": "helpful",
+"why": "health board structure",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s3.5.4",
+"strength": "helpful",
+"why": "lone mothers’ payments",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.4.2",
+"strength": "helpful",
+"why": "the VHI",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s3.6.2",
+"strength": "helpful",
+"why": "Ballymun’s problems",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s3.8.0",
+"strength": "helpful",
+"why": "churches keeping school control",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s3.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s3.7.4",
+"strength": "helpful",
+"why": "historians’ view of the reforms",
+"confidence": "low"
+}
+]
+}
+}

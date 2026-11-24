@@ -1,0 +1,832 @@
+{
+"hist-eur5-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.0.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s5.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.0.1",
+"strength": "helpful",
+"why": "three main ethnic groups",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.0.2",
+"strength": "helpful",
+"why": "federation of regions",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.0.2",
+"strength": "essential",
+"why": "the three regions",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.0.3",
+"strength": "helpful",
+"why": "Azikiwe and the Queen as head of state",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.0.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.0.1",
+"strength": "helpful",
+"why": "regional ethnic groups",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.0.2",
+"strength": "helpful",
+"why": "the Eastern Region",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.0.6",
+"strength": "helpful",
+"why": "the federal prime minister Balewa",
+"confidence": "low"
+},
+{
+"id": "hist-eur5-s5.0.1",
+"strength": "helpful",
+"why": "Igbo and northern groups",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.1.0",
+"strength": "essential",
+"why": "the January 1966 coup",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.1.1",
+"strength": "helpful",
+"why": "Gowon coup and unrest in 1966",
+"confidence": "low"
+},
+{
+"id": "hist-eur5-s5.0.1",
+"strength": "helpful",
+"why": "Igbo in the north",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.0.2",
+"strength": "essential",
+"why": "the Eastern Region",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.1.2",
+"strength": "helpful",
+"why": "massacres driving Igbo east",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.1.3",
+"strength": "essential",
+"why": "Biafra and the blockade",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.1.3",
+"strength": "essential",
+"why": "Biafra",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.1.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.1.3",
+"strength": "essential",
+"why": "Biafra's declaration",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.1.1",
+"strength": "helpful",
+"why": "Gowon taking power",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.0.7",
+"strength": "helpful",
+"why": "oil in the Eastern Region",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.1.4",
+"strength": "essential",
+"why": "the Biafran War ending",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.1.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.1.4",
+"strength": "helpful",
+"why": "the famine in Biafra",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.2.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.2.0",
+"strength": "helpful",
+"why": "the Congo Free State before 1908",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.2.5",
+"strength": "helpful",
+"why": "Belgian promise of independence",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.2.4",
+"strength": "essential",
+"why": "Lumumba and the MNC",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.2.6",
+"strength": "helpful",
+"why": "independence date",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.3.0",
+"strength": "helpful",
+"why": "Lumumba as prime minister",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.2.3",
+"strength": "essential",
+"why": "the Force Publique and Belgian officers",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.2.2",
+"strength": "helpful",
+"why": "Katanga's mineral wealth",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s5.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.3.2",
+"strength": "helpful",
+"why": "the mutiny and Belgian troops",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.3.0",
+"strength": "essential",
+"why": "Kasa-Vubu and Lumumba in office",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.3.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.3.5",
+"strength": "essential",
+"why": "the dismissal dispute",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.3.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.3.6",
+"strength": "essential",
+"why": "Lumumba confined under Mobutu",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.3.3",
+"strength": "helpful",
+"why": "Katanga",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.3.6",
+"strength": "essential",
+"why": "Mobutu's earlier intervention",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.4.0",
+"strength": "helpful",
+"why": "Mobutu's regime",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.4.1",
+"strength": "helpful",
+"why": "Zaire and Mobutu's regime",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.4.0",
+"strength": "helpful",
+"why": "Mobutu's regime",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.4.0",
+"strength": "helpful",
+"why": "Mobutu's regime",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.3.3",
+"strength": "helpful",
+"why": "Katanga secession",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s5.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.4.3",
+"strength": "essential",
+"why": "the one-party state",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.5.1",
+"strength": "essential",
+"why": "Nyerere and TANU",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.5.2",
+"strength": "helpful",
+"why": "Tanganyika's independence",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s5.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.5.2",
+"strength": "essential",
+"why": "Tanganyika",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.5.3",
+"strength": "essential",
+"why": "Zanzibar's revolution",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.5.4",
+"strength": "helpful",
+"why": "the united Tanzania",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.5.2",
+"strength": "helpful",
+"why": "Nyerere as leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.5.4",
+"strength": "helpful",
+"why": "Tanzania",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.6.0",
+"strength": "essential",
+"why": "Portuguese rule of Angola",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.6.1",
+"strength": "helpful",
+"why": "the war of independence",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.6.0",
+"strength": "essential",
+"why": "Portugal's Estado Novo regime",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.6.2",
+"strength": "essential",
+"why": "the three movements",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.6.3",
+"strength": "essential",
+"why": "Portuguese agreement to independence",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.6.2",
+"strength": "essential",
+"why": "the MPLA, UNITA and FNLA",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.6.4",
+"strength": "helpful",
+"why": "the Alvor breakdown",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.6.5",
+"strength": "helpful",
+"why": "independence in 1975",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.0.5",
+"strength": "essential",
+"why": "the republic of 1963",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.0.7",
+"strength": "helpful",
+"why": "Shell-BP oil",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.2.2",
+"strength": "essential",
+"why": "the Union Minière",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.6.5",
+"strength": "helpful",
+"why": "the war that followed independence",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.5.7",
+"strength": "helpful",
+"why": "Tanzania and Britain",
+"confidence": "low"
+},
+{
+"id": "hist-eur5-s5.1.5",
+"strength": "helpful",
+"why": "British arms to Nigeria",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s5.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s4.0.7",
+"strength": "helpful",
+"why": "co-operation accords with France",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.0.0",
+"strength": "helpful",
+"why": "indirect rule",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.0.1",
+"strength": "essential",
+"why": "the three main ethnic groups",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.1.0",
+"strength": "essential",
+"why": "the 1966 coups",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.1.2",
+"strength": "helpful",
+"why": "the massacres",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.2.4",
+"strength": "helpful",
+"why": "Lumumba's MNC",
+"confidence": "low"
+},
+{
+"id": "hist-eur5-s5.3.0",
+"strength": "helpful",
+"why": "Kasa-Vubu",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.3.3",
+"strength": "helpful",
+"why": "Katanga",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.3.3",
+"strength": "essential",
+"why": "Katanga's secession",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.5.5",
+"strength": "essential",
+"why": "Swahili as national language",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.5.4",
+"strength": "helpful",
+"why": "Tanzania's union",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.2.3",
+"strength": "helpful",
+"why": "few trained Congolese",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.3.2",
+"strength": "essential",
+"why": "the mutiny",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.3.3",
+"strength": "essential",
+"why": "Katanga's secession",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.1.4",
+"strength": "essential",
+"why": "the Biafran War",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.0.7",
+"strength": "helpful",
+"why": "Nigeria's oil",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.1.0",
+"strength": "essential",
+"why": "the 1966 coups",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.1.4",
+"strength": "essential",
+"why": "the Biafran War",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s5.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.9.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s5.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.6.2",
+"strength": "essential",
+"why": "the three movements",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.6.5",
+"strength": "essential",
+"why": "the civil war",
+"confidence": "high"
+}
+]
+}
+}
