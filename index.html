@@ -67,217 +67,235 @@
 <meta name="apple-mobile-web-app-title" content="barebones" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="home.css?v=1" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="home.css?v=2" />
 <!-- Vercel Web Analytics -->
 <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
-<body>
+<body data-hero="a">
 
-<header class="top">
-  <div class="wrap top-inner">
-    <a class="brand" href="#top" aria-label="barebones home">
-      <img src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" width="1240" height="210" />
-    </a>
-    <nav class="top-links" aria-label="Main">
-      <a class="btn btn-quiet hide-sm" href="leaving-cert-notes/">Free notes</a>
-      <a class="btn btn-quiet auth-out" href="app.html#signin">Sign in</a>
-      <a class="btn btn-primary auth-out" href="app.html#signup" data-track="cta_nav">Start free</a>
-      <a class="btn btn-primary auth-in" href="app.html">Open app</a>
-    </nav>
-  </div>
-</header>
+<!-- ================= HERO: five options, one shown (data-hero) ================= -->
+<section class="hero" id="top">
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="#top" aria-label="barebones home">
+        <img src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" width="1240" height="210" />
+      </a>
+      <nav class="top-links" aria-label="Main">
+        <a class="btn btn-quiet auth-out" href="app.html#signin">Sign in</a>
+        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_nav">Start free</a>
+        <a class="btn btn-ink auth-in" href="app.html">Open app</a>
+      </nav>
+    </div>
+  </header>
 
-<main id="top">
-
-<!-- HERO: the pitch on grey, a real exam question on the orange desk -->
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="kicker">Leaving Cert · 8 subjects · Higher &amp; Ordinary</p>
-      <h1>Every past exam question. <em>Marked like the examiner would.</em></h1>
-      <p class="lede"><strong>3,374 real Leaving Cert questions</strong>, checked against the official marking scheme as you answer. Learn the notes, then prove it on the paper.</p>
-      <div class="cta-stack">
-        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero">Start studying free <span class="arrow" aria-hidden="true">→</span></a>
-        <a class="btn btn-ink auth-in" href="app.html">Open the app <span class="arrow" aria-hidden="true">→</span></a>
-        <p class="reassure"><span>No install</span><span>Works on your phone</span></p>
+  <!-- A: poster -->
+  <div class="hero-opt" id="hero-a">
+    <div class="wrap hero-body">
+      <h1 class="poster">Past papers.<br />Marked.</h1>
+      <p class="sub">3,374 real Leaving Cert questions, marked as you answer.</p>
+      <div>
+        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_a">Start studying free</a>
+        <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
       </div>
     </div>
+  </div>
 
-    <div class="desk" id="try">
-      <div class="wrap">
-        <p class="desk-label">Try a real question. We'll mark it.</p>
-
-        <article class="sheet" aria-labelledby="qText">
-          <div class="sheet-head">
-            <span><b>Biology</b> · Higher · 2022</span>
-            <span>Q15 (b)(vi)</span>
-            <span class="marks">(6 marks)</span>
-          </div>
-          <p class="sheet-q" id="qText"><span class="num">(vi)</span><span>Describe how ADH (anti-diuretic hormone) affects the volume of urine.</span></p>
-
-          <div class="answer-tag">
-            <label for="answer" id="answerLabel">Example answer, already marked</label>
-            <button type="button" id="clearBtn">Write your own</button>
-          </div>
-          <textarea class="answer" id="answer" rows="4" spellcheck="true">ADH makes the collecting duct let more water back into the blood. More ADH means a small amount of concentrated urine, less ADH means lots of dilute urine.</textarea>
-
-          <div class="sheet-actions">
-            <button type="button" class="btn btn-primary" id="markBtn">Mark it</button>
-            <span class="hint" id="hint" aria-live="polite"></span>
-          </div>
-
-          <div class="result" id="result" hidden aria-live="polite">
-            <div class="result-top">
-              <div class="score" aria-label="Score">
-                <svg viewBox="0 0 84 60" aria-hidden="true"><path d="M70 9C56 1 18 3 8 20c-8 14 6 33 32 35 22 2 40-8 39-24-1-11-12-19-26-21"/></svg>
-                <span><span id="earned">0</span><small>/6</small></span>
-              </div>
-              <p class="result-say" id="resultSay"></p>
-            </div>
-            <ol class="points" id="points"></ol>
-          </div>
-
-          <div class="nudge" id="nudge" hidden>
-            <p>That's one of 3,374. Sign up free and we'll save every mark you get.</p>
-            <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_demo">Start studying free <span class="arrow" aria-hidden="true">→</span></a>
-            <a class="btn btn-ink auth-in" href="app.html">Open the app <span class="arrow" aria-hidden="true">→</span></a>
-          </div>
-        </article>
+  <!-- B: the dot grid spells it -->
+  <div class="hero-opt" id="hero-b">
+    <div class="wrap hero-body">
+      <h1 class="matrix"><span class="pix" id="matrixWord" data-text="MARKED." data-color="var(--on-orange)"></span></h1>
+      <p class="sub">Every past Leaving Cert question, marked as you answer.</p>
+      <div>
+        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_b">Start studying free</a>
+        <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
       </div>
+    </div>
+  </div>
+
+  <!-- C: the question is the hero -->
+  <div class="hero-opt" id="hero-c">
+    <div class="wrap hero-body">
+      <p class="q-src">Biology, Higher Level, 2022. 6 marks.</p>
+      <h1 class="q-big" id="heroQ">Describe how ADH affects the volume of urine.</h1>
+      <div class="hero-demo" data-demo="hero">
+        <label class="sr-only" for="heroAnswer">Your answer</label>
+        <textarea class="answer" id="heroAnswer" rows="3" placeholder="Type your answer"></textarea>
+        <div class="sheet-actions">
+          <button type="button" class="btn btn-ink" data-mark>Mark my answer</button>
+          <span class="hint" data-hint aria-live="polite"></span>
+        </div>
+        <div class="result" data-result hidden aria-live="polite">
+          <div class="result-top">
+            <div class="score"><svg viewBox="0 0 84 60" aria-hidden="true"><path d="M70 9C56 1 18 3 8 20c-8 14 6 33 32 35 22 2 40-8 39-24-1-11-12-19-26-21"/></svg><span><span data-earned>0</span><small>/6</small></span></div>
+            <p class="result-say" data-say></p>
+          </div>
+          <ol class="points" data-points></ol>
+        </div>
+        <div class="nudge" data-nudge hidden>
+          <p>Save your marks. There are 3,373 more.</p>
+          <a class="btn auth-out" href="app.html#signup" data-track="cta_demo_hero">Start studying free</a>
+          <a class="btn auth-in" href="app.html">Open the app</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- D: the examiner's circle -->
+  <div class="hero-opt" id="hero-d">
+    <div class="wrap hero-body d-grid">
+      <div class="big-score" role="img" aria-label="6 out of 6">
+        <svg viewBox="0 0 145 100" aria-hidden="true"><path pathLength="1" d="M122 14C98 1 32 3 13 31c-15 23 10 56 57 60 40 3 70-14 69-41-1-19-21-33-47-37"/></svg>
+        <span aria-hidden="true">6<small>/6</small></span>
+      </div>
+      <div class="hero-body" style="min-height:0;padding:0">
+        <h1 class="sub" style="font-size:clamp(1.5rem,3.2vw,2.4rem);max-width:16ch">Know your mark before June does.</h1>
+        <div>
+          <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_hero_d">Start studying free</a>
+          <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- E: pick your subject -->
+  <div class="hero-opt" id="hero-e">
+    <div class="wrap hero-body">
+      <h1 class="ask">What are you studying?</h1>
+      <nav class="subjects" aria-label="Pick a subject">
+        <a href="app.html#signup" data-track="cta_hero_e">Biology</a>
+        <a href="app.html#signup" data-track="cta_hero_e">Chemistry</a>
+        <a href="app.html#signup" data-track="cta_hero_e">Maths</a>
+        <a href="app.html#signup" data-track="cta_hero_e">Geography</a>
+        <a href="app.html#signup" data-track="cta_hero_e">History</a>
+        <a href="app.html#signup" data-track="cta_hero_e">Home Ec</a>
+        <a href="app.html#signup" data-track="cta_hero_e">PE</a>
+        <a href="app.html#signup" data-track="cta_hero_e">Business</a>
+      </nav>
     </div>
   </div>
 </section>
 
-<!-- HOW IT WORKS -->
-<section class="section" id="how">
+<main>
+<!-- ================= try one (hidden under option C) ================= -->
+<section class="try" id="try">
   <div class="wrap">
-    <div class="section-head">
-      <h2>Learn it. Test it. Know where you stand.</h2>
-    </div>
-    <ol class="steps">
-      <li class="step">
-        <div>
-          <span class="pix" data-text="01" data-size="6"></span>
-          <h3>Learn only what the exam asks</h3>
-          <p>Notes cut down to what actually comes up, and flashcards that test you on the exact point. No vague "what is…" cards.</p>
+    <article class="sheet" data-demo="sheet" data-example="1" aria-label="Try a real exam question">
+      <div class="sheet-head"><span><b>Biology</b>, Higher, 2022</span><span>(6 marks)</span></div>
+      <p class="sheet-q"><span class="num">15(b)(vi)</span><span>Describe how ADH (anti-diuretic hormone) affects the volume of urine.</span></p>
+      <div class="answer-tag">
+        <label for="sheetAnswer" data-label>A marked example</label>
+        <button type="button" data-clear>Try your own</button>
+      </div>
+      <textarea class="answer" id="sheetAnswer" rows="5">ADH makes the collecting duct let more water back into the blood. More ADH means a small amount of concentrated urine, less ADH means lots of dilute urine.</textarea>
+      <div class="sheet-actions">
+        <button type="button" class="btn btn-orange" data-mark>Mark it</button>
+        <span class="hint" data-hint aria-live="polite"></span>
+      </div>
+      <div class="result" data-result hidden aria-live="polite">
+        <div class="result-top">
+          <div class="score"><svg viewBox="0 0 84 60" aria-hidden="true"><path d="M70 9C56 1 18 3 8 20c-8 14 6 33 32 35 22 2 40-8 39-24-1-11-12-19-26-21"/></svg><span><span data-earned>0</span><small>/6</small></span></div>
+          <p class="result-say" data-say></p>
         </div>
-        <div class="frag" aria-hidden="true">
-          <div class="flash">
-            <span class="lbl">Flashcard</span>
-            <span class="face">What does ADH make more permeable to water?</span>
-            <span class="meta"><span>Biology · Excretion</span><span>Tap to flip</span></span>
-          </div>
-        </div>
-      </li>
-      <li class="step">
-        <div>
-          <span class="pix" data-text="02" data-size="6"></span>
-          <h3>Test yourself on real papers</h3>
-          <p>Timed tests from 5 to 60 minutes mix flashcard recall with real exam question parts. Pick one chapter, a few, or the whole subject.</p>
-        </div>
-        <div class="frag" aria-hidden="true">
-          <div class="testbar">
-            <div class="row"><span>Excretion · Higher</span><span class="timer">18:42</span></div>
-            <div class="qs"><span class="done">1</span><span class="done">2</span><span class="done">3</span><span class="now">4</span><span>5</span><span>6</span><span>7</span><span>8</span></div>
-            <div class="row"><span>2019 Q14 (b)(ii)</span><span>3 marks</span></div>
-          </div>
-        </div>
-      </li>
-      <li class="step">
-        <div>
-          <span class="pix" data-text="03" data-size="6"></span>
-          <h3>See where the marks are hiding</h3>
-          <p>Every chapter shows what you've nailed and what's still shaky, so tonight's study goes where it counts.</p>
-        </div>
-        <div class="frag" aria-hidden="true">
-          <div class="bars">
-            <div class="b"><span>Enzymes</span><span>92%</span><div class="track"><div class="fill" style="width:92%"></div></div></div>
-            <div class="b"><span>Photosynthesis</span><span>71%</span><div class="track"><div class="fill" style="width:71%"></div></div></div>
-            <div class="b low"><span>Excretion</span><span>34%</span><div class="track"><div class="fill" style="width:34%"></div></div></div>
-          </div>
-        </div>
-      </li>
-    </ol>
+        <ol class="points" data-points></ol>
+      </div>
+      <div class="nudge" data-nudge hidden>
+        <p>Save your marks. There are 3,373 more.</p>
+        <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_demo">Start studying free</a>
+        <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
+      </div>
+    </article>
   </div>
 </section>
 
-<!-- THE BANK -->
+<!-- ================= three fragments of the app ================= -->
+<section class="section">
+  <div class="wrap">
+    <ul class="trio">
+      <li>
+        <div class="flash" aria-hidden="true">
+          <span class="lbl">Flashcard</span>
+          <span class="face">What does ADH make more permeable to water?</span>
+          <span class="meta">Biology, Excretion</span>
+        </div>
+        <p><b>Notes cut to what the exam asks,</b> and flashcards on the exact point.</p>
+      </li>
+      <li>
+        <div class="testbar" aria-hidden="true">
+          <div class="row"><span>Excretion, Higher</span><span class="timer">18:42</span></div>
+          <div class="qs"><span class="done">1</span><span class="done">2</span><span class="done">3</span><span class="now">4</span><span>5</span><span>6</span><span>7</span><span>8</span></div>
+          <div class="row"><span>2019, Q14(b)(ii)</span><span>3 marks</span></div>
+        </div>
+        <p><b>Timed tests</b> built from real exam questions.</p>
+      </li>
+      <li>
+        <div class="bars" aria-hidden="true">
+          <div class="b"><span>Enzymes</span><span>92%</span><div class="track"><div class="fill" style="width:92%"></div></div></div>
+          <div class="b"><span>Photosynthesis</span><span>71%</span><div class="track"><div class="fill" style="width:71%"></div></div></div>
+          <div class="b low"><span>Excretion</span><span>34%</span><div class="track"><div class="fill" style="width:34%"></div></div></div>
+        </div>
+        <p><b>See what's shaky</b> before the exam does.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= the bank ================= -->
 <section class="section bank" id="subjects">
   <div class="wrap">
-    <div class="section-head">
-      <h2>Your subjects are in here.</h2>
-      <p>Every question comes from a real State Exams paper, with its marks. Tap a subject for its free notes.</p>
-    </div>
     <table class="ledger">
+      <caption class="sr-only">Past exam questions by subject</caption>
       <thead><tr><th scope="col">Subject</th><th scope="col">Papers</th><th scope="col">Questions</th></tr></thead>
       <tbody>
-        <tr><td><a href="leaving-cert-biology/">Biology</a></td><td class="years">2015–2025</td><td class="n">350</td></tr>
-        <tr><td><a href="leaving-cert-chemistry/">Chemistry</a></td><td class="years">2001–2025</td><td class="n">548</td></tr>
-        <tr><td><a href="leaving-cert-geography/">Geography</a></td><td class="years">2017–2026</td><td class="n">600</td></tr>
-        <tr><td><a href="leaving-cert-history/">History</a></td><td class="years">2006–2026</td><td class="n">508</td></tr>
-        <tr><td><a href="leaving-cert-home-economics/">Home Economics</a></td><td class="years">2004–2026</td><td class="n">916</td></tr>
-        <tr><td><a href="app.html">Maths</a></td><td class="years">2019–2025</td><td class="n">272</td></tr>
-        <tr><td><a href="leaving-cert-pe/">PE</a></td><td class="years">2022–2026</td><td class="n">180</td></tr>
-        <tr><td><a href="leaving-cert-business/">Business</a></td><td class="years">Notes</td><td class="soon">Questions soon</td></tr>
+        <tr><td><a href="leaving-cert-biology/">Biology</a></td><td class="years">2015 to 2025</td><td class="n">350</td></tr>
+        <tr><td><a href="leaving-cert-chemistry/">Chemistry</a></td><td class="years">2001 to 2025</td><td class="n">548</td></tr>
+        <tr><td><a href="leaving-cert-geography/">Geography</a></td><td class="years">2017 to 2026</td><td class="n">600</td></tr>
+        <tr><td><a href="leaving-cert-history/">History</a></td><td class="years">2006 to 2026</td><td class="n">508</td></tr>
+        <tr><td><a href="leaving-cert-home-economics/">Home Economics</a></td><td class="years">2004 to 2026</td><td class="n">916</td></tr>
+        <tr><td><a href="app.html">Maths</a></td><td class="years">2019 to 2025</td><td class="n">272</td></tr>
+        <tr><td><a href="leaving-cert-pe/">PE</a></td><td class="years">2022 to 2026</td><td class="n">180</td></tr>
+        <tr><td><a href="leaving-cert-business/">Business</a></td><td class="years">Notes</td><td class="soon">Coming</td></tr>
       </tbody>
-      <tfoot><tr><td colspan="2">Questions in the bank</td><td class="n">3,374</td></tr></tfoot>
+      <tfoot><tr><td colspan="2">All marked against the official scheme</td><td class="n">3,374</td></tr></tfoot>
     </table>
-    <p class="bank-note">Your subject not here yet? <a href="#contact" class="open-contact">Tell us which one</a>.</p>
   </div>
 </section>
 
-<!-- FAQ -->
-<section class="section faq" id="faq">
-  <div class="wrap faq-grid">
-    <div class="section-head">
-      <h2>Fair questions.</h2>
-    </div>
-    <div>
-      <details>
-        <summary>Is it free?</summary>
-        <p>Yes. Sign up and start studying for free, right in your browser.</p>
-      </details>
-      <details>
-        <summary>How does the marking work?</summary>
-        <p>Your written answer is checked point by point against the marking scheme, the way an examiner awards marks. Spelling slips and different wording are forgiven. If you think it got one wrong, you can overrule it. Worked maths and diagram labels are self-marked against the solution.</p>
-      </details>
-      <details>
-        <summary>Higher or Ordinary level?</summary>
-        <p>Both, wherever the papers exist.</p>
-      </details>
-      <details>
-        <summary>Do I need to download anything?</summary>
-        <p>No. It runs in your browser on your phone, tablet or laptop.</p>
-      </details>
-      <details>
-        <summary>Spotted a mistake?</summary>
-        <p>Flag it on the question and we'll fix it. Every answer is checked against the marking scheme, but we'd rather hear about a slip than leave it there.</p>
-      </details>
-      <details>
-        <summary>Is barebones made by the State Exams Commission?</summary>
-        <p>No. We're independent, made in Ireland, and not affiliated with the SEC.</p>
-      </details>
-    </div>
-  </div>
-</section>
-
-<!-- FINAL CALL -->
-<section class="section final">
-  <div class="wrap">
-    <h2>The exam is in June. <em>Start tonight.</em></h2>
-    <div class="cta-stack">
-      <a class="btn btn-primary auth-out" href="app.html#signup" data-track="cta_final">Start studying free <span class="arrow" aria-hidden="true">→</span></a>
-      <a class="btn btn-primary auth-in" href="app.html">Open the app <span class="arrow" aria-hidden="true">→</span></a>
-      <p class="auth-out">Already have an account? <a href="app.html#signin">Sign in</a></p>
-    </div>
+<!-- ================= faq ================= -->
+<section class="section">
+  <div class="wrap faq">
+    <details>
+      <summary>Is it free?</summary>
+      <p>Yes. Sign up and start studying for free, in your browser.</p>
+    </details>
+    <details>
+      <summary>How does the marking work?</summary>
+      <p>Your answer is checked point by point against the marking scheme. Spelling slips and different wording are forgiven, and you can overrule a mark you disagree with. Maths and diagram labels are self-marked against the solution.</p>
+    </details>
+    <details>
+      <summary>Do I need to download anything?</summary>
+      <p>No. It works on your phone, tablet or laptop.</p>
+    </details>
+    <details>
+      <summary>Is this from the SEC?</summary>
+      <p>No. We're independent and made in Ireland.</p>
+    </details>
   </div>
 </section>
 
 </main>
+
+<!-- ================= final ================= -->
+<section class="hero final">
+  <div class="wrap">
+    <a class="btn btn-ink auth-out" href="app.html#signup" data-track="cta_final">Start studying free</a>
+    <a class="btn btn-ink auth-in" href="app.html">Open the app</a>
+    <p class="auth-out">Free. No install. <a href="app.html#signin">Sign in</a></p>
+  </div>
+</section>
 
 <footer class="site">
   <div class="wrap">
@@ -329,11 +347,52 @@
   <form method="dialog"><button class="btn btn-quiet">Close</button></form>
 </dialog>
 
+<!-- hero option switcher: localhost only, remove once a hero is picked -->
+<div class="picker" id="picker" hidden role="group" aria-label="Hero option">
+  <span>Hero</span>
+  <button type="button" data-pick="a">A</button>
+  <button type="button" data-pick="b">B</button>
+  <button type="button" data-pick="c">C</button>
+  <button type="button" data-pick="d">D</button>
+  <button type="button" data-pick="e">E</button>
+</div>
+
 <script src="design_handoff_barebones_landing/pixelfont.js"></script>
 <script src="answer-marker.js"></script>
 <script>
   (function () {
     function track(name) { try { window.va('event', { name: name }); } catch (e) {} }
+
+    // Hero option: ?hero=a..e, switcher only shown on localhost
+    var body = document.body;
+    var pick = (new URLSearchParams(location.search).get('hero') || '').toLowerCase();
+    if (/^[a-e]$/.test(pick)) body.dataset.hero = pick;
+    var picker = document.getElementById('picker');
+    if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) picker.hidden = false;
+    function syncPicker() {
+      picker.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.pick === body.dataset.hero)); });
+    }
+    picker.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-pick]');
+      if (!b) return;
+      body.dataset.hero = b.dataset.pick;
+      history.replaceState(null, '', '?hero=' + b.dataset.pick);
+      syncPicker();
+      sizeMatrix();
+    });
+    syncPicker();
+
+    // Option B: size the dot-matrix word to the column
+    var matrix = document.getElementById('matrixWord');
+    function sizeMatrix() {
+      if (!window.PixelText) return;
+      var w = matrix.parentElement.clientWidth || (innerWidth - 32);
+      matrix.setAttribute('data-size', Math.max(5, Math.min(22, Math.floor(w / 49))));
+      matrix.setAttribute('data-text', 'MARKED.');
+      PixelText.render(matrix);
+    }
+    sizeMatrix();
+    addEventListener('resize', sizeMatrix);
 
     // Contact opens the dialog; the #contact link still works without JS
     var dialog = document.getElementById('contactDialog');
@@ -352,66 +411,67 @@
       if (t) track(t.dataset.track);
     });
 
-    // Live demo: the same marker the app uses (answer-marker.js), on one real question.
+    // Live demos: the same marker the app uses (answer-marker.js), on one real question.
     var MODEL = 'ADH makes the walls of the collecting duct (and the end of the DCT) more permeable to water, so more water is reabsorbed into the blood. More ADH therefore gives a small volume of concentrated urine; less ADH gives a large volume of dilute urine.';
     var QUESTION = 'Describe how ADH (anti-diuretic hormone) affects the volume of urine.';
     var MARKS = 6;
-    var answer = document.getElementById('answer');
-    var label = document.getElementById('answerLabel');
-    var clearBtn = document.getElementById('clearBtn');
-    var hint = document.getElementById('hint');
-    var result = document.getElementById('result');
-    var nudge = document.getElementById('nudge');
-    var example = true;
 
-    function own() {
-      if (!example) return;
-      example = false;
-      label.textContent = 'Your answer';
-      clearBtn.hidden = true;
-    }
+    document.querySelectorAll('[data-demo]').forEach(function (root) {
+      var $ = function (s) { return root.querySelector(s); };
+      var answer = $('textarea');
+      var result = $('[data-result]');
+      var clearBtn = $('[data-clear]');
+      var example = root.dataset.example === '1';
 
-    function mark() {
-      var text = answer.value.trim();
-      if (!text) { hint.textContent = 'Write an answer first.'; answer.focus(); return; }
-      hint.textContent = '';
-      var r = window.AnswerMarker.markAnswer({ answer: text, model: MODEL, marks: MARKS, question: QUESTION });
-      document.getElementById('earned').textContent = r.earned;
-      var say = r.earned === MARKS ? 'Full marks. The examiner would agree.'
-        : r.earned === 0 ? 'No marks yet. Here is what the scheme is looking for.'
-        : 'Ticks where you made a scheme point. Here is what you missed.';
-      if (r.confidence === 'low') say += ' This one is worth checking against the scheme yourself.';
-      document.getElementById('resultSay').textContent = say;
-      var list = document.getElementById('points');
-      list.textContent = '';
-      r.points.forEach(function (p) {
-        var li = document.createElement('li');
-        var tick = document.createElement('span');
-        tick.className = 'tick';
-        tick.setAttribute('aria-hidden', 'true');
-        tick.textContent = p.credit >= 1 ? '✓' : p.credit > 0 ? '½' : '✗';
-        var body = document.createElement('span');
-        body.textContent = (p.credit >= 1 ? '' : p.credit > 0 ? 'Partly: ' : 'Missed: ') + p.text;
-        if (p.credit === 0) li.className = 'miss';
-        li.append(tick, body);
-        list.appendChild(li);
+      function own() {
+        if (!example) return;
+        example = false;
+        if ($('[data-label]')) $('[data-label]').textContent = 'Your answer';
+        if (clearBtn) clearBtn.hidden = true;
+      }
+
+      function mark() {
+        var text = answer.value.trim();
+        if (!text) { $('[data-hint]').textContent = 'Write an answer first.'; answer.focus(); return; }
+        $('[data-hint]').textContent = '';
+        var r = window.AnswerMarker.markAnswer({ answer: text, model: MODEL, marks: MARKS, question: QUESTION });
+        $('[data-earned]').textContent = r.earned;
+        var say = r.earned === MARKS ? 'Full marks.'
+          : r.earned === 0 ? 'No marks yet. This is what the scheme wants.'
+          : 'Here is what the scheme gave you, and what you missed.';
+        if (r.confidence === 'low') say += ' Worth checking yourself.';
+        $('[data-say]').textContent = say;
+        var list = $('[data-points]');
+        list.textContent = '';
+        r.points.forEach(function (p) {
+          var li = document.createElement('li');
+          var tick = document.createElement('span');
+          tick.className = 'tick';
+          tick.setAttribute('aria-hidden', 'true');
+          tick.textContent = p.credit >= 1 ? '✓' : p.credit > 0 ? '½' : '✗';
+          var txt = document.createElement('span');
+          txt.textContent = (p.credit >= 1 ? '' : p.credit > 0 ? 'Partly: ' : 'Missed: ') + p.text;
+          if (p.credit === 0) li.className = 'miss';
+          li.append(tick, txt);
+          list.appendChild(li);
+        });
+        result.hidden = false;
+        result.classList.remove('drawn');
+        void result.offsetWidth; // restart the circle animation
+        result.classList.add('drawn');
+        if (!example) { $('[data-nudge]').hidden = false; track('demo_mark_' + root.dataset.demo); }
+      }
+
+      $('[data-mark]').addEventListener('click', mark);
+      answer.addEventListener('input', own);
+      if (clearBtn) clearBtn.addEventListener('click', function () {
+        own();
+        answer.value = '';
+        result.hidden = true;
+        answer.focus();
       });
-      result.hidden = false;
-      result.classList.remove('drawn');
-      void result.offsetWidth; // restart the circle animation
-      result.classList.add('drawn');
-      if (!example) { nudge.hidden = false; track('demo_mark'); }
-    }
-
-    document.getElementById('markBtn').addEventListener('click', mark);
-    answer.addEventListener('input', own);
-    clearBtn.addEventListener('click', function () {
-      own();
-      answer.value = '';
-      result.hidden = true;
-      answer.focus();
+      if (example) mark(); // show the example already marked
     });
-    mark(); // show the example already marked
   })();
 </script>
 
