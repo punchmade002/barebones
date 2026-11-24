@@ -1,0 +1,428 @@
+{
+ "hist-eur2-s9.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s5.2.0",
+    "strength": "helpful",
+    "why": "the 1915 shell shortages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s5.5.3",
+    "strength": "helpful",
+    "why": "the submarine campaign cutting supplies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s5.5.0",
+    "strength": "essential",
+    "why": "the British blockade of Germany",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.2.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur2-s9.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.3.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur2-s9.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.0.2",
+    "strength": "essential",
+    "why": "the shell shortage and Munitions Ministry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.4.0",
+    "strength": "helpful",
+    "why": "the Ministry of Munitions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.4.0",
+    "strength": "helpful",
+    "why": "women filling munitions work",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.4.2",
+    "strength": "helpful",
+    "why": "women munitions workers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.4.2",
+    "strength": "helpful",
+    "why": "women munitions workers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.4.3",
+    "strength": "helpful",
+    "why": "poor munitions working conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.4.2",
+    "strength": "helpful",
+    "why": "British munitionettes parallel",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur2-s9.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.0.3",
+    "strength": "essential",
+    "why": "the Hindenburg Programme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.1.3",
+    "strength": "helpful",
+    "why": "German food shortages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s5.5.3",
+    "strength": "helpful",
+    "why": "the submarine campaign threatening food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.4.1",
+    "strength": "essential",
+    "why": "the dilution agreement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.7.2",
+    "strength": "essential",
+    "why": "the WSPU suspending militancy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.7.3",
+    "strength": "helpful",
+    "why": "the Pankhursts and the war",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.8.0",
+    "strength": "helpful",
+    "why": "the 1918 vote for women",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.3.3",
+    "strength": "helpful",
+    "why": "women lacking the vote before the war",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.8.0",
+    "strength": "essential",
+    "why": "the 1918 limited franchise",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.8.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.7.1",
+    "strength": "helpful",
+    "why": "restoring pre-war practices",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.8.0",
+    "strength": "helpful",
+    "why": "women winning the vote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.8.4",
+    "strength": "helpful",
+    "why": "women losing jobs after 1918",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.9.2",
+    "strength": "helpful",
+    "why": "Marwick thesis it challenges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s9.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s9.9.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s9.8.0",
+    "strength": "helpful",
+    "why": "British women gaining the vote",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur2-s9.8.3",
+    "strength": "helpful",
+    "why": "French women denied the vote",
+    "confidence": "high"
+   }
+  ]
+ }
+}
