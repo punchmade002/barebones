@@ -1,0 +1,485 @@
+{
+ "geo-region-concept-s4.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s1.0.3",
+    "strength": "helpful",
+    "why": "socio-economic criteria",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-concept-s1.1.2",
+    "strength": "helpful",
+    "why": "multiple indices",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.1",
+    "strength": "helpful",
+    "why": "primary/secondary/tertiary mix",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-concept-s1.1.2",
+    "strength": "helpful",
+    "why": "multiple indices together",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-concept-s1.1.2",
+    "strength": "helpful",
+    "why": "peripheral region defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.2",
+    "strength": "essential",
+    "why": "core and periphery idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.2",
+    "strength": "helpful",
+    "why": "core in core-periphery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.0",
+    "strength": "helpful",
+    "why": "GDP per head indicator",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.1",
+    "strength": "essential",
+    "why": "tertiary sector defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.1.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-concept-s4.1.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.1.b",
+    "strength": "helpful",
+    "why": "what a core region is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.1.b",
+    "strength": "helpful",
+    "why": "core region idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.25.1",
+    "strength": "helpful",
+    "why": "Google docklands cluster",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s4.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.1.b",
+    "strength": "helpful",
+    "why": "core region idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.1.b",
+    "strength": "helpful",
+    "why": "core region idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.2",
+    "strength": "helpful",
+    "why": "periphery in core-periphery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.1",
+    "strength": "essential",
+    "why": "primary activity defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.1.3",
+    "strength": "helpful",
+    "why": "net migration meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.3.b",
+    "strength": "helpful",
+    "why": "peripheral region falling behind",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.3.b",
+    "strength": "helpful",
+    "why": "peripheral region defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.58.1",
+    "strength": "helpful",
+    "why": "West of Ireland economy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.0",
+    "strength": "helpful",
+    "why": "GDP per head indicator",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.3.b",
+    "strength": "helpful",
+    "why": "peripheral region defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.3.b",
+    "strength": "essential",
+    "why": "peripheral region defined",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-concept-s4.6.0",
+    "strength": "essential",
+    "why": "less-developed region defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.58.2",
+    "strength": "helpful",
+    "why": "BMW region EU designation",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-concept-s4.6.1",
+    "strength": "helpful",
+    "why": "EU aid categories",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.7.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-concept-s4.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.7.3",
+    "strength": "helpful",
+    "why": "effects being responded to",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.7.0",
+    "strength": "helpful",
+    "why": "coal and steel decline",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.7.0",
+    "strength": "helpful",
+    "why": "coal and steel decline",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.7.5",
+    "strength": "helpful",
+    "why": "reuse of industrial heritage",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-concept-s4.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.7.0",
+    "strength": "helpful",
+    "why": "coalfield decline",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.8.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.32.b",
+    "strength": "helpful",
+    "why": "IFSC regeneration case study",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.8.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.1",
+    "strength": "essential",
+    "why": "primary/secondary/tertiary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-concept-s4.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-concept-s4.9.2": {
+  "cost": 1,
+  "needs": []
+ }
+}

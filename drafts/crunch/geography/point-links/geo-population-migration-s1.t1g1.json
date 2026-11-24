@@ -1,0 +1,915 @@
+{
+"geo-population-migration-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.0",
+"strength": "essential",
+"why": "uses birth rate",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.0.1",
+"strength": "essential",
+"why": "uses death rate",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.0",
+"strength": "helpful",
+"why": "contrasts with crude birth rate",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.4",
+"strength": "essential",
+"why": "uses total fertility rate",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.0.6": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.0.7": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.2",
+"strength": "essential",
+"why": "uses natural change",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.0.3",
+"strength": "essential",
+"why": "uses net migration",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s1.1.0",
+"strength": "essential",
+"why": "splits change into natural and migration",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.0.2",
+"strength": "essential",
+"why": "uses natural increase",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.0.3",
+"strength": "helpful",
+"why": "uses net migration",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.1.1",
+"strength": "helpful",
+"why": "census count",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.1.1",
+"strength": "helpful",
+"why": "census count",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.1.1",
+"strength": "helpful",
+"why": "census count",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.1.1",
+"strength": "helpful",
+"why": "census count",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-graph-skills-s2.8.0",
+"strength": "helpful",
+"why": "age structure groups",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-graph-skills-s2.6.0",
+"strength": "helpful",
+"why": "constituency review by census",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.3.4": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.1",
+"strength": "essential",
+"why": "uses density formula",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.5.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.5.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.6.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.6.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.6.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.6.4": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.5.0",
+"strength": "helpful",
+"why": "opposite of relief factor",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.5.2",
+"strength": "helpful",
+"why": "water supply for farming",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.5.2",
+"strength": "helpful",
+"why": "soils limit farming",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.6.0",
+"strength": "helpful",
+"why": "jobs attract people",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.0",
+"strength": "helpful",
+"why": "uses dense and distribution",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.0",
+"strength": "helpful",
+"why": "uses sparse distribution",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.8.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.0",
+"strength": "helpful",
+"why": "uses dense distribution",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.9.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.1",
+"strength": "helpful",
+"why": "uses density",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.9.2",
+"strength": "essential",
+"why": "uses Netherlands density",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.10.0": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.1",
+"strength": "helpful",
+"why": "uses density",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.10.3": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.11.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.11.0",
+"strength": "essential",
+"why": "contrasts with pre-Famine pattern",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.10.0",
+"strength": "helpful",
+"why": "Greater Dublin Area counties",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.11.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.1",
+"strength": "essential",
+"why": "uses density formula",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.1",
+"strength": "helpful",
+"why": "uses density",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.2",
+"strength": "essential",
+"why": "uses natural increase",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.0.3",
+"strength": "essential",
+"why": "uses net immigration",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.4.1",
+"strength": "helpful",
+"why": "uses density formula",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.13.0": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s1.13.1": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s1.13.2": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.4",
+"strength": "essential",
+"why": "uses total fertility rate",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.13.4": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.4",
+"strength": "helpful",
+"why": "fertility high",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.4",
+"strength": "helpful",
+"why": "fertility low",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.15.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.0",
+"strength": "helpful",
+"why": "uses birth rate",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.0.1",
+"strength": "helpful",
+"why": "uses death rate",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.2",
+"strength": "helpful",
+"why": "births and deaths cancel out",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.15.0",
+"strength": "essential",
+"why": "stage 1 definition",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.16.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s1.15.0",
+"strength": "helpful",
+"why": "compares with stage 1",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.0.2",
+"strength": "helpful",
+"why": "uses natural change",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.1",
+"strength": "helpful",
+"why": "explains falling death rate",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.16.0",
+"strength": "essential",
+"why": "stage 2 definition",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.16.0",
+"strength": "helpful",
+"why": "follows stage 2",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.17.0",
+"strength": "essential",
+"why": "stage 3 definition",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.0.4",
+"strength": "essential",
+"why": "uses total fertility rate",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.17.0",
+"strength": "helpful",
+"why": "follows stage 3",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.18.0",
+"strength": "essential",
+"why": "stage 4 definition",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.2",
+"strength": "essential",
+"why": "uses natural decrease",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.19.0",
+"strength": "essential",
+"why": "stage 5 definition",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.20.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.16.0",
+"strength": "helpful",
+"why": "Niger is stage 2",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.20.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.4",
+"strength": "essential",
+"why": "uses total fertility rate",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.20.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.25.0",
+"strength": "helpful",
+"why": "population pyramid reading",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s1.20.5": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.21.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.21.1": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s1.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.5",
+"strength": "essential",
+"why": "uses replacement level",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.0.4",
+"strength": "essential",
+"why": "uses total fertility rate",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.21.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.21.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.26.2",
+"strength": "helpful",
+"why": "top-heavy pyramid shape",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.22.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.17.0",
+"strength": "helpful",
+"why": "stage 3 falling births",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.22.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.22.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.6",
+"strength": "essential",
+"why": "uses infant mortality",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.22.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.22.4": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.22.5": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.23.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s1.19.0",
+"strength": "helpful",
+"why": "uses natural decrease",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.23.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s1.24.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.15.b",
+"strength": "helpful",
+"why": "refers to the DTM",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.24.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.15.b",
+"strength": "helpful",
+"why": "refers to the DTM",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s1.24.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.3",
+"strength": "helpful",
+"why": "uses migration",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.15.b",
+"strength": "helpful",
+"why": "refers to the DTM",
+"confidence": "high"
+}
+]
+}
+}
