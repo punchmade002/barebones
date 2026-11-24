@@ -1,0 +1,874 @@
+{
+ "hist-ire3-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.6.3",
+    "strength": "helpful",
+    "why": "Joseph Plunkett executed in 1916",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.6.1",
+    "strength": "helpful",
+    "why": "internment of 1916 prisoners",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.5.2",
+    "strength": "helpful",
+    "why": "de Valera in 1916",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.5.7",
+    "strength": "helpful",
+    "why": "Ashe’s role in 1916",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.0.0",
+    "strength": "helpful",
+    "why": "Griffith’s Sinn Féin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.0.5",
+    "strength": "helpful",
+    "why": "de Valera elected president",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.1.5",
+    "strength": "helpful",
+    "why": "the Irish Volunteers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.1.0",
+    "strength": "essential",
+    "why": "the Military Service Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.1.1",
+    "strength": "helpful",
+    "why": "the anti-conscription campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.1.0",
+    "strength": "helpful",
+    "why": "Britain’s conscription crisis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.1.3",
+    "strength": "essential",
+    "why": "the German Plot arrests",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.1.3",
+    "strength": "essential",
+    "why": "the German Plot arrests",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire3-s1.3.8",
+    "strength": "helpful",
+    "why": "Redmond’s party losing influence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.0.0",
+    "strength": "helpful",
+    "why": "the Irish Parliamentary Party",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.2.2",
+    "strength": "helpful",
+    "why": "the 1918 result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.2.2",
+    "strength": "helpful",
+    "why": "the 1918 result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.2.0",
+    "strength": "helpful",
+    "why": "Ulster exclusion and partition",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.8.1",
+    "strength": "helpful",
+    "why": "Markievicz held in Holloway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.0.3",
+    "strength": "helpful",
+    "why": "de Valera winning East Clare",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.2.2",
+    "strength": "essential",
+    "why": "the 1918 election of deputies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.0",
+    "strength": "essential",
+    "why": "the First Dáil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.0",
+    "strength": "helpful",
+    "why": "the Dáil electing a head",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.2",
+    "strength": "essential",
+    "why": "the Dáil ministry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.3",
+    "strength": "helpful",
+    "why": "Collins as Finance minister",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.0",
+    "strength": "helpful",
+    "why": "loyalty to the Dáil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.0",
+    "strength": "helpful",
+    "why": "the Dáil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.1.5",
+    "strength": "helpful",
+    "why": "the Volunteers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.3.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.0",
+    "strength": "essential",
+    "why": "the First Dáil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.0",
+    "strength": "helpful",
+    "why": "the Dáil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.4.0",
+    "strength": "helpful",
+    "why": "start of the IRA campaign",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.4.1",
+    "strength": "helpful",
+    "why": "attacks on RIC barracks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.4.3",
+    "strength": "helpful",
+    "why": "Collins’s intelligence network",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.4.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire3-s2.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.4.4",
+    "strength": "essential",
+    "why": "the Squad",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.4.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.4.7",
+    "strength": "essential",
+    "why": "Bloody Sunday killings",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire3-s2.5.1",
+    "strength": "helpful",
+    "why": "the Auxiliaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.4.9": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.1",
+    "strength": "essential",
+    "why": "the Auxiliaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.4.10": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.4.11": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.4.1",
+    "strength": "helpful",
+    "why": "RIC withdrawal and attacks",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.0",
+    "strength": "helpful",
+    "why": "the Black and Tans",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.0",
+    "strength": "helpful",
+    "why": "the Black and Tans",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.3",
+    "strength": "helpful",
+    "why": "the reprisals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.9.5",
+    "strength": "helpful",
+    "why": "partition in 1920",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.5",
+    "strength": "essential",
+    "why": "the Northern parliament",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.6",
+    "strength": "helpful",
+    "why": "talks following the invitation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.5.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.3",
+    "strength": "helpful",
+    "why": "reprisals damaging Britain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.5.9": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.7.4",
+    "strength": "helpful",
+    "why": "de Valera in America",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.5.0",
+    "strength": "helpful",
+    "why": "the GPO in 1916",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire3-s1.6.1",
+    "strength": "helpful",
+    "why": "Frongoch internment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.0.4",
+    "strength": "essential",
+    "why": "Ashe’s funeral",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.4",
+    "strength": "essential",
+    "why": "the Dáil Loan",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire3-s2.4.4",
+    "strength": "essential",
+    "why": "the Squad",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire3-s2.4.3",
+    "strength": "helpful",
+    "why": "Director of Intelligence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.6.3",
+    "strength": "helpful",
+    "why": "Collins’s wartime role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.6.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.6.3",
+    "strength": "helpful",
+    "why": "Collins’s wartime role",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.6.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.6.3",
+    "strength": "helpful",
+    "why": "Collins’s wartime role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.5.2",
+    "strength": "helpful",
+    "why": "Boland’s Mill garrison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.0.3",
+    "strength": "essential",
+    "why": "winning East Clare",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.1.3",
+    "strength": "essential",
+    "why": "the German Plot arrest",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire3-s2.3.2",
+    "strength": "essential",
+    "why": "the Lincoln escape and Dáil head",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.9",
+    "strength": "essential",
+    "why": "the American mission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.6",
+    "strength": "essential",
+    "why": "Lloyd George’s invitation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.7.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire3-s2.7.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s1.8.4",
+    "strength": "helpful",
+    "why": "her release at the 1917 amnesty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.1.3",
+    "strength": "essential",
+    "why": "the German Plot",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire3-s2.2.6",
+    "strength": "helpful",
+    "why": "her 1918 election",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.3",
+    "strength": "helpful",
+    "why": "the Dáil ministry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.7",
+    "strength": "essential",
+    "why": "the Truce",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.8.2",
+    "strength": "helpful",
+    "why": "her ministerial role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.8.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.8.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.2.2",
+    "strength": "essential",
+    "why": "the 1918 result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.5.8",
+    "strength": "helpful",
+    "why": "why Britain went to talks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire3-s2.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.2.2",
+    "strength": "helpful",
+    "why": "the 1918 result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s2.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.0",
+    "strength": "helpful",
+    "why": "the Dáil",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s2.9.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire3-s2.9.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire3-s2.3.0",
+    "strength": "essential",
+    "why": "the Dáil",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire3-s2.3.7",
+    "strength": "helpful",
+    "why": "the IRA",
+    "confidence": "high"
+   }
+  ]
+ }
+}
