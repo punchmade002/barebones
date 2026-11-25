@@ -5182,7 +5182,8 @@ function rerenderCrunch() {
 function bindCrunch() {
   const panel = els.sectionPanel;
   panel.addEventListener("click", (event) => {
-    const go = event.target.closest("[data-crunch-go]");
+    // The whole dark head of the bar opens it; the CRUNCH button is its keyboard control
+    const go = event.target.closest("[data-crunch-go]") || (event.target.closest(".crunch-bar-head") && panel.querySelector("[data-crunch-go]"));
     if (go) {
       if (crunchDraft) { crunchDraft = null; repaintCrunchBar(); return; }
       const s = crunchSettings(PAGE_SUBJECT);

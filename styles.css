@@ -6036,6 +6036,7 @@ body.onboarding-open .timer-widget {
 }
 
 .crunch-bar-head {
+  cursor: pointer;
   display: grid;
   grid-template-columns: minmax(10rem, 27%) minmax(0, 1fr);
   align-items: stretch;
@@ -6086,11 +6087,11 @@ body.onboarding-open .timer-widget {
   font-variation-settings: "wdth" 125;
 }
 
-.crunch-go:hover { background: none; color: var(--accent-2); transform: none; }
+.crunch-go:hover,
+.crunch-bar-head:hover .crunch-go { background: none; color: var(--accent-2); transform: none; }
 .crunch-go:focus-visible { outline: 2px solid var(--accent-3); outline-offset: -2px; border-radius: var(--r-md); }
 
 /* Open: the word steps back and the setup takes over (pressing it again closes) */
-.crunch-bar.is-open .crunch-go:hover { color: var(--accent-2); }
 
 
 .crunch-setup { display: grid; gap: 1.1rem; }
