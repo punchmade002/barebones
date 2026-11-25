@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "int-trig",
+  "title": "Integrate sin ax and cos ax",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "sin ax, cos ax",
+  "output": "−(1/a)cos ax + c, (1/a)sin ax + c",
+  "example": "∫sin 3x dx → −⅓cos 3x + c",
+  "what": [
+   "You give it $\\sin ax$ or $\\cos ax$. It gives back $-\\frac{1}{a}\\cos ax$ or $\\frac{1}{a}\\sin ax$, plus $c$.",
+   "The key idea: differentiating $\\sin ax$ gives $a\\cos ax$, so you divide by $a$ to undo it. Watch the sign: $\\sin$ integrates to a **negative** cosine."
+  ],
+  "question": "Evaluate $\\int_0^{\\pi/6} \\left(\\cos 3x + 2\\sin 3x\\right)dx$."
+ },
+ {
+  "skill": "int-find-function",
+  "title": "Find a function from its derivative and a point",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "f′(x) + a value of f",
+  "output": "f(x) with c found",
+  "example": "f′(x) = 6x, f(1) = 5 → f(x) = 3x² + 2",
+  "what": [
+   "You give it the slope function $f'(x)$ and one value of $f$. It finds the function $f(x)$ itself.",
+   "The key idea: integrating leaves an unknown $c$. The given point must sit on the curve, so put it in and solve for $c$."
+  ],
+  "question": "The slope of a curve is given by $f'(x) = 6x^2 - 8x + 3$. The point $(1, 5)$ is on the curve. Find $f(x)$."
+ },
+ {
+  "skill": "int-definite",
+  "title": "Evaluate a definite integral",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "∫ₐᵇ f(x) dx",
+  "output": "number",
+  "example": "∫₀² 3x² dx → 8",
+  "what": [
+   "You give it an integral with limits, $\\int_a^b f(x)\\,dx$. It gives back one **number**: the signed area under the graph from $a$ to $b$.",
+   "The key idea: find an antiderivative $F(x)$, then the answer is $F(b) - F(a)$. Put in the top limit first, then subtract the bottom one."
+  ],
+  "question": "Evaluate $\\int_0^1 \\left(6x^2 + e^{2x}\\right) dx$. Give your answer in terms of $e$ and as a decimal to 2 places."
+ },
+ {
+  "skill": "int-average-value",
+  "title": "Find the average value of a function on an interval",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "f(x), [a, b]",
+  "output": "(1/(b − a))∫ₐᵇ f",
+  "example": "x² on [0, 3] → 3",
+  "what": [
+   "You give it a function $f(x)$ and an interval $[a, b]$. It gives back the **average value** of $f$ over that interval.",
+   "The key idea: the integral gives the total, and dividing by the length of the interval, $b - a$, turns the total into an average."
+  ],
+  "question": "The speed of a train is $v(t) = 3t^2 + 2t$ km/h, where $t$ is the time in hours and $1 \\le t \\le 3$. Find the average speed of the train over this time."
+ },
+ {
+  "skill": "int-area-axis",
+  "title": "Find the area between a curve and the x-axis",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "curve, limits (or roots)",
+  "output": "area (parts below axis taken positive)",
+  "example": "y = 4 − x², x-axis → 32/3",
+  "what": [
+   "You give it a curve and limits, or you find them as the places where the curve meets the $x$-axis. It gives back the **area** between the curve and the axis.",
+   "The key idea: an integral counts area below the axis as **negative**. So find the roots, integrate between them, and take the answer as positive."
+  ],
+  "question": "Find the area enclosed between the curve $y = x^2 - 5x + 4$ and the $x$-axis."
+ },
+ {
+  "skill": "int-trig-identity",
+  "title": "Integrate using a trig formula",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "sin²x, cos²x, sin A cos B, …",
+  "output": "antiderivative + c",
+  "example": "∫sin²x dx → ½x − ¼sin 2x + c",
+  "what": [
+   "You give it an integral of a trig product or a squared trig function, such as $\\cos^2 2x$. It gives back the **antiderivative**.",
+   "The key idea: you cannot integrate $\\cos^2 2x$ directly. Use a formula from the tables to turn the square or the product into a sum of simple $\\sin$ and $\\cos$ terms, then integrate those."
+  ],
+  "question": "Find $\\int \\cos^2 2x \\, dx$."
+ },
+ {
+  "skill": "int-area-between",
+  "title": "Find the area between two curves",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "two curves",
+  "output": "area via ∫(top − bottom)",
+  "example": "y = 2x and y = x² → 4/3",
+  "what": [
+   "You give it two curves. It finds the area of the region **enclosed** between them.",
+   "The key idea: the area is the integral of the top curve minus the bottom curve, taken between the two $x$-values where the curves cross."
+  ],
+  "question": "The curves $y = 4x - x^2$ and $y = x$ cross at two points. Find the area enclosed between them."
+ },
+ {
+  "skill": "prob-relative-frequency",
+  "title": "Estimate probability from experimental data",
+  "chapter": "Probability",
+  "level": "JC",
+  "input": "trial results",
+  "output": "relative frequency; expected frequency",
+  "example": "18 heads in 50 → 0.36",
+  "what": [
+   "You give it the results of an experiment. It gives you the **relative frequency**: how often the event happened out of all the trials.",
+   "The key idea: relative frequency is successes divided by trials, and it is your best estimate of the probability. Multiply it by a new number of trials to get an expected frequency."
+  ],
+  "question": "A drawing pin is dropped 80 times. It lands point up 28 times.\n(a) Find the relative frequency of landing point up.\n(b) Estimate how many times it lands point up in 500 drops."
+ },
+ {
+  "skill": "prob-counting-principle",
+  "title": "List outcomes and apply the fundamental principle of counting",
+  "chapter": "Probability",
+  "level": "JC",
+  "input": "multi-stage choice",
+  "output": "total number of outcomes",
+  "example": "3 starters × 4 mains → 12 meals",
+  "what": [
+   "You give it a choice made in stages. It gives you the **total number** of outcomes.",
+   "The key idea: if there are $m$ ways for the first stage and $n$ for the second, there are $m \\times n$ in all. Multiply the stages, do not add them."
+  ],
+  "question": "A cafe lunch deal is one soup, one sandwich and one drink. There are 2 soups, 5 sandwiches and 3 drinks.\n(a) How many different deals are there?\n(b) The cafe adds one new item to one group. Which group gives the most deals?"
+ },
+ {
+  "skill": "prob-sample-space",
+  "title": "Construct a sample space for two independent events",
+  "chapter": "Probability",
+  "level": "JC",
+  "input": "two experiments",
+  "output": "table/list of outcomes",
+  "example": "two dice → 36 outcomes",
+  "what": [
+   "You give it two experiments. It lists every possible pair of results, the **sample space**, as a table or a list.",
+   "The key idea: pair each result of the first experiment with each result of the second. Count the pairs, then count the ones you want."
+  ],
+  "question": "A fair coin is tossed and a fair spinner numbered 1, 2, 3, 4 is spun.\n(a) List all the possible outcomes.\n(b) Find the probability of a head and an even number."
+ },
+ {
+  "skill": "prob-equally-likely",
+  "title": "Find a probability with equally likely outcomes",
+  "chapter": "Probability",
+  "level": "JC",
+  "input": "sample space + event",
+  "output": "favourable/total",
+  "example": "two dice, sum 7 → 1/6",
+  "what": [
+   "You give it a sample space and an event. It finds the **probability**: how likely the event is, as a fraction between $0$ and $1$.",
+   "The key idea: when every outcome is equally likely, the probability is the number of favourable outcomes over the number of all outcomes."
+  ],
+  "question": "Two fair dice are thrown and the scores are added. Find the probability that the sum is $9$ or more."
+ },
+ {
+  "skill": "prob-factorial",
+  "title": "Count arrangements of n distinct objects",
+  "chapter": "Probability",
+  "level": "OL",
+  "input": "n",
+  "output": "n!",
+  "example": "5 people in a row → 120",
+  "what": [
+   "You give it $n$ different objects to put in a row. It finds the number of **arrangements**: $n!$.",
+   "The key idea: the first place has $n$ choices, the next has one fewer, and so on down to $1$. Multiply them."
+  ],
+  "question": "A coach lines up $6$ players for a photograph. In how many different ways can this be done if the captain must stand first?"
+ },
+ {
+  "skill": "prob-venn",
+  "title": "Use set notation and Venn diagrams for probability",
+  "chapter": "Probability",
+  "level": "OL",
+  "input": "event data",
+  "output": "P(A ∪ B), P(A ∩ B), P(A′), mutually exclusive check",
+  "example": "30 students, 12 A, 15 B, 5 both → P(neither) = 8/30",
+  "what": [
+   "You give it counts for two events in a group. It reads the **Venn diagram** and finds probabilities such as $P(A \\cup B)$, $P(A \\cap B)$ and $P(A')$.",
+   "The key idea: put the overlap in first and subtract it from each circle, so every person is counted once."
+  ],
+  "question": "In a class of $40$ students, $18$ take drama and $14$ take choir. $6$ students take both. A student is picked at random. Find the probability that the student takes neither drama nor choir."
+ },
+ {
+  "skill": "prob-independent",
+  "title": "Find the probability two independent events both occur",
+  "chapter": "Probability",
+  "level": "OL",
+  "input": "P(A), P(B)",
+  "output": "P(A)P(B)",
+  "example": "P(head and six) → 1/12",
+  "what": [
+   "You give it $P(A)$ and $P(B)$ for two **independent** events. It finds the probability that both happen: $P(A) \\times P(B)$.",
+   "The key idea: independent means one event does not change the other, so you can multiply."
+  ],
+  "question": "A fair coin is tossed and a fair six-sided die is rolled. Find the probability of getting a head and a number greater than $4$."
+ },
+ {
+  "skill": "prob-npr",
+  "title": "Count arrangements of r objects from n",
+  "chapter": "Probability",
+  "level": "OL",
+  "input": "n, r",
+  "output": "ⁿPᵣ",
+  "example": "3 from 5 in order → 60",
+  "what": [
+   "You give it $n$ objects and a number $r$. It counts the ways to pick $r$ of them **in order**, written $^nP_r$.",
+   "The key idea: each pick uses one object up, so the choices shrink by one each time. Multiply the $r$ shrinking numbers."
+  ],
+  "question": "A club has $8$ members. A chairperson, a secretary and a treasurer are chosen, in that order. In how many ways can the three jobs be filled?"
+ },
+ {
+  "skill": "prob-addition-rule",
+  "title": "Apply the addition rule",
+  "chapter": "Probability",
+  "level": "HL",
+  "input": "P(A), P(B), P(A ∩ B)",
+  "output": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+  "example": "0.5 + 0.4 − 0.2 → 0.7",
+  "what": [
+   "You give it $P(A)$, $P(B)$ and $P(A \\cap B)$. It gives you the probability of $A$ **or** $B$, $P(A \\cup B)$.",
+   "The key idea: adding $P(A)$ and $P(B)$ counts the overlap twice, so take the overlap away once."
+  ],
+  "question": "$A$ and $B$ are events with $P(A) = \\frac{3}{5}$, $P(B) = \\frac{3}{10}$ and $P(A \\cup B) = \\frac{7}{10}$. Find $P(A \\cap B)$. Hence state whether $A$ and $B$ are independent."
+ },
+ {
+  "skill": "prob-tree",
+  "title": "Use a tree diagram for multi-stage experiments",
+  "chapter": "Probability",
+  "level": "OL",
+  "input": "stages with probabilities",
+  "output": "probability of combined outcomes",
+  "example": "two coins → P(at least one head) = 3/4",
+  "what": [
+   "You give it a list of stages, each with its probabilities. It draws a **tree** and gives the probability of any combined outcome.",
+   "The key idea: multiply along the branches to get one outcome, and add the outcomes you want."
+  ],
+  "question": "Sam takes two penalty kicks. The probability that he scores any one kick is $\\frac{7}{10}$. Draw a tree diagram and find the probability that he scores at least one of the two kicks."
+ },
+ {
+  "skill": "prob-ncr",
+  "title": "Count selections and compute binomial coefficients",
+  "chapter": "Probability",
+  "level": "HL",
+  "input": "n, r",
+  "output": "ⁿCᵣ",
+  "example": "3 from 10 → 120",
+  "what": [
+   "You give it $n$ objects and a number $r$. It counts the ways to **choose** $r$ of them when order does not matter, written $^nC_r$.",
+   "The key idea: count the ordered picks, $^nP_r$, then divide by $r!$, because every group was counted $r!$ times."
+  ],
+  "question": "In a game, $4$ numbers are chosen from the numbers $1$ to $15$, and the order does not matter. (i) How many different selections are possible? (ii) A player buys one ticket. Find the probability that it matches the chosen numbers."
+ },
+ {
+  "skill": "prob-independence-test",
+  "title": "Test whether events are independent",
+  "chapter": "Probability",
+  "level": "HL",
+  "input": "P(A), P(B), P(A ∩ B)",
+  "output": "independent iff P(A ∩ B) = P(A)P(B)",
+  "example": "0.5 × 0.4 = 0.2 → independent",
+  "what": [
+   "You give it $P(A)$, $P(B)$ and $P(A \\cap B)$. It tells you whether the events are **independent**.",
+   "The key idea: independent events do not affect each other, so the chance of both is just the two chances multiplied. If $P(A \\cap B)$ equals $P(A)P(B)$, they are independent. If not, they are not."
+  ],
+  "question": "$P(A) = 0.5$, $P(A \\cup B) = 0.7$ and $P(A \\cap B) = 0.1$. Find $P(B)$. Hence decide whether $A$ and $B$ are independent events."
+ },
+ {
+  "skill": "prob-expected-value",
+  "title": "Calculate expected value and judge fairness",
+  "chapter": "Probability",
+  "level": "OL",
+  "input": "outcomes with probabilities/payoffs",
+  "output": "E(X) = Σ x P(x); fair or not",
+  "example": "win €10 (p = 0.2) else lose €3 → −€0.40",
+  "what": [
+   "You give it the outcomes of a game and the probability of each. It finds the **expected value**, the average result over many plays.",
+   "The key idea: multiply each outcome by its probability, then add. A game is **fair** when the expected value equals what you pay to play."
+  ],
+  "question": "A game costs $\\text{€}3$ to play. A spinner pays $\\text{€}8$ with probability $0.2$, $\\text{€}2$ with probability $0.5$ and nothing otherwise. Find the expected value of the prize. Is the game fair? Give a reason."
+ },
+ {
+  "skill": "prob-arrangement-restrictions",
+  "title": "Count arrangements with restrictions",
+  "chapter": "Probability",
+  "level": "OL",
+  "input": "objects + condition (together, at ends, even…)",
+  "output": "number of arrangements",
+  "example": "letters of MATHS with M first → 24",
+  "what": [
+   "You give it some objects to arrange and a condition, such as one must be first or the last must be a vowel. It counts the arrangements that obey the condition.",
+   "The key idea: fill the restricted place first, then arrange the rest. Multiply the number of choices for each place."
+  ],
+  "question": "The letters of the word CHAIR are arranged in a row, each used once. Find the number of arrangements that begin with a vowel."
+ },
+ {
+  "skill": "prob-bernoulli-3",
+  "title": "Solve problems with up to 3 Bernoulli trials",
+  "chapter": "Probability",
+  "level": "OL",
+  "input": "p, up to 3 trials",
+  "output": "probability of the outcomes asked for",
+  "example": "P(exactly 2 sixes in 3 rolls) → 15/216",
+  "what": [
+   "You give it the chance $p$ of an event happening on one trial, and a few trials, at most three. It finds the probability of the number of successes you are asked for.",
+   "The key idea: multiply the chances along one order, then count how many orders give that result and multiply by that count."
+  ],
+  "question": "The probability that a spinner lands on green is $\\tfrac14$. It is spun three times. Find the probability that it lands on green exactly once."
+ },
+ {
+  "skill": "prob-first-success",
+  "title": "Find the probability the first success is on trial n",
+  "chapter": "Probability",
+  "level": "OL",
+  "input": "p, n",
+  "output": "(1 − p)ⁿ⁻¹ p",
+  "example": "first six on 3rd roll → 25/216",
+  "what": [
+   "You give it the chance of success on one trial, $p$, and the trial number, $n$. It finds the probability that the first success comes on trial $n$ and not before.",
+   "The key idea: trials $1$ to $n-1$ must all fail, then trial $n$ must succeed. The trials are independent, so multiply: $(1-p)^{n-1}\\,p$."
+  ],
+  "question": "A spinner lands on red with probability $\\frac{1}{5}$ on each spin. Find the probability that the first red comes on the 4th spin."
+ },
+ {
+  "skill": "prob-conditional",
+  "title": "Apply conditional probability and the general multiplication rule",
+  "chapter": "Probability",
+  "level": "HL",
+  "input": "P(A ∩ B), P(B) (or table)",
+  "output": "P(A|B); note P(A|B) ≠ P(B|A)",
+  "example": "P(A ∩ B) = 0.2, P(B) = 0.5 → 0.4",
+  "what": [
+   "You give it the chance that both events happen, $P(A \\cap B)$, and the chance of the event you are **told** has happened, $P(B)$. It finds $P(A \\mid B)$.",
+   "The key idea: knowing $B$ happened shrinks the world to $B$ alone. Divide the overlap by $P(B)$. Note $P(A \\mid B)$ is not the same as $P(B \\mid A)$."
+  ],
+  "question": "In a survey, $60\\%$ of people own a bike. $24\\%$ own a bike and a car. A person who owns a bike is chosen at random. Find the probability that this person owns a car."
+ },
+ {
+  "skill": "prob-selection-restrictions",
+  "title": "Count selections with restrictions",
+  "chapter": "Probability",
+  "level": "HL",
+  "input": "groups + condition",
+  "output": "number of selections",
+  "example": "committee of 3 from 4 men, 5 women with exactly 1 woman → 30",
+  "what": [
+   "You give it some groups of people or things, and a condition on how many to take from each. It finds the number of selections that meet the condition.",
+   "The key idea: split the condition into one choice per group, count each with ${}^nC_r$, then **multiply**."
+  ],
+  "question": "A committee of 4 is chosen from 6 men and 5 women. It must contain exactly 2 women. How many different committees are possible?"
+ }
+]

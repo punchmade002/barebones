@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "line-intersection",
+  "title": "Find where two lines intersect",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "OL",
+  "input": "two line equations",
+  "output": "point",
+  "example": "x + y = 5, x − y = 1 → (3, 2)",
+  "what": [
+   "You give it the equations of two lines. It finds the **point** where they cross.",
+   "The key idea: the crossing point is on both lines, so its $x$ and $y$ satisfy both equations at once. Solve them as simultaneous equations."
+  ],
+  "question": "The line $l$ has equation $x + 2y = 7$. The line $k$ has equation $3x - 2y = 5$. Find the point where $l$ and $k$ cross."
+ },
+ {
+  "skill": "line-parallel-perp",
+  "title": "Use slopes to show/construct parallel and perpendicular lines",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "OL",
+  "input": "lines or points",
+  "output": "m₁ = m₂ or m₁m₂ = −1; required line",
+  "example": "⟂ to y = 2x through (0, 0) → x + 2y = 0",
+  "what": [
+   "You give it a line. It gives you the slope of any line **parallel** or **perpendicular** to it.",
+   "The key idea: parallel lines have equal slopes, and perpendicular slopes multiply to $-1$. Turn the slope upside down and change its sign."
+  ],
+  "question": "The line $l$ has equation $2x + 3y - 6 = 0$. The line $k$ passes through $P(4, 1)$ and is perpendicular to $l$. Find the equation of $k$."
+ },
+ {
+  "skill": "line-linear-model",
+  "title": "Interpret a linear relationship in context",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "OL",
+  "input": "table/graph/equation of a real situation",
+  "output": "rate of change (slope) and start value (intercept); predictions",
+  "example": "taxi: €4 + €1.50/km → slope 1.5",
+  "what": [
+   "You give it a straight-line situation: a table, a graph or an equation. It finds the **slope** (the rate of change) and the start value, then uses them to predict.",
+   "The slope is how much the answer changes for each $1$ step in $x$. The start value is the answer when $x = 0$."
+  ],
+  "question": "A plumber charges a call-out fee plus an hourly rate. The cost, in euro, of a job lasting $x$ hours is $C = 40 + 30x$.\n(i) What do $40$ and $30$ mean?\n(ii) A job costs $190$ euro. How many hours did it last?"
+ },
+ {
+  "skill": "line-area-triangle",
+  "title": "Find the area of a triangle from vertices",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "OL",
+  "input": "three points",
+  "output": "½|x₁y₂ − x₂y₁| after translating a vertex to (0, 0)",
+  "example": "(0, 0), (4, 1), (2, 5) → 9",
+  "what": [
+   "You give it three points, the corners of a triangle. It finds the **area**.",
+   "The key idea: slide one corner to $(0, 0)$. Then the area is $\\tfrac{1}{2}|x_1y_2 - x_2y_1|$, using the other two corners."
+  ],
+  "question": "Find the area of the triangle with vertices $A(3, 2)$, $B(7, 5)$ and $C(5, 9)$."
+ },
+ {
+  "skill": "line-unknown-coefficient",
+  "title": "Find an unknown in a line from a condition",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "OL",
+  "input": "line with parameter + condition",
+  "output": "parameter value",
+  "example": "kx + 2y = 5 ∥ 3x − y = 1 → k = −6",
+  "what": [
+   "You give it a line with an unknown number in its equation, and a condition such as **parallel** or perpendicular to another line. It finds the unknown.",
+   "The key idea: the condition becomes an equation in the slopes. Parallel lines have equal slopes. Perpendicular lines have slopes that multiply to $-1$."
+  ],
+  "question": "The line $kx + 4y = 7$ is parallel to the line $6x - 2y = 5$. Find the value of $k$."
+ },
+ {
+  "skill": "line-divide-ratio",
+  "title": "Divide a segment internally in a ratio",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "HL",
+  "input": "two points, ratio m : n",
+  "output": "((nx₁ + mx₂)/(m + n), (ny₁ + my₂)/(m + n))",
+  "example": "(2, 1), (8, 7) in 1 : 2 → (4, 3)",
+  "what": [
+   "You give it two points, $A$ and $B$, and a ratio $m : n$. It finds the point $P$ on the segment $[AB]$ that splits it in that **ratio**.",
+   "The key idea: the segment is $m + n$ equal parts, and $P$ is $m$ parts from $A$. Each coordinate is a weighted average of the two ends."
+  ],
+  "question": "The points are $A(-3, 4)$ and $B(7, -1)$. The point $P$ lies on $[AB]$ so that $|AP| : |PB| = 2 : 3$. Find the coordinates of $P$."
+ },
+ {
+  "skill": "line-perp-distance",
+  "title": "Find the perpendicular distance from a point to a line",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "HL",
+  "input": "point + ax + by + c = 0",
+  "output": "|ax₁ + by₁ + c| / √(a² + b²)",
+  "example": "(1, 2) to 3x + 4y − 1 = 0 → 2",
+  "what": [
+   "You give it a point and a line written as $ax + by + c = 0$. It gives back the **shortest distance** from the point to the line.",
+   "The key idea: put the point's coordinates into the line's left-hand side, take the size of the answer, and divide by $\\sqrt{a^2+b^2}$."
+  ],
+  "question": "Find the perpendicular distance from the point $P(1, -2)$ to the line $y = \\frac{3}{4}x + 2$."
+ },
+ {
+  "skill": "line-angle-between",
+  "title": "Find the angle between two lines",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "HL",
+  "input": "two slopes",
+  "output": "tan θ = ±(m₁ − m₂)/(1 + m₁m₂)",
+  "example": "m = 2, m = −3 → 45°",
+  "what": [
+   "You give it the slopes of two lines, $m_1$ and $m_2$. It finds the **angle** between them.",
+   "The key idea: $\\tan\\theta = \\pm\\frac{m_1 - m_2}{1 + m_1 m_2}$. The $\\pm$ is there because two crossing lines make an acute angle and an obtuse one."
+  ],
+  "question": "Find the acute angle between the lines $2x - y + 1 = 0$ and $x + 3y - 6 = 0$. Give your answer correct to one decimal place."
+ },
+ {
+  "skill": "line-from-distance",
+  "title": "Find lines through a point at a given distance/angle",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "HL",
+  "input": "point + distance or angle condition",
+  "output": "slope(s) via quadratic, line equations",
+  "example": "through (0, 0), distance 2 from (4, 0) → m = ±1/√3",
+  "what": [
+   "You give it a point the line must pass through, and a distance from another point. It finds the **slope** of every line that fits.",
+   "The key idea: write the line with an unknown slope $m$, set the perpendicular distance formula equal to the given distance, and solve. Squaring gives a quadratic, so there are usually two lines."
+  ],
+  "question": "Find the equations of the two lines through the origin that are a perpendicular distance of $3$ from the point $(5, 0)$."
+ },
+ {
+  "skill": "num-order-operations",
+  "title": "Apply order of operations",
+  "chapter": "Complex Numbers",
+  "level": "JC",
+  "input": "numerical expression with brackets/powers",
+  "output": "single value",
+  "example": "3 + 4 × (2 − 5)² → 39",
+  "what": [
+   "You give it a sum with brackets, powers, multiplying and adding mixed together. It gives back **one number**.",
+   "The key idea: there is a fixed order. Brackets first, then powers, then multiply and divide, then add and subtract."
+  ],
+  "question": "Work out $6 + 3 \\times (7 - 4)^2 - 10 \\div 2$."
+ },
+ {
+  "skill": "num-fractions",
+  "title": "Operate on fractions",
+  "chapter": "Complex Numbers",
+  "level": "JC",
+  "input": "fractions/mixed numbers",
+  "output": "simplified fraction",
+  "example": "2/3 + 5/6 → 3/2",
+  "what": [
+   "You give it fractions or mixed numbers. It gives back one **simplified** fraction.",
+   "The key idea: you can only add or subtract fractions with the same denominator, so first rewrite each one over a common denominator."
+  ],
+  "question": "Work out $\\frac{5}{6} + \\frac{3}{4} - \\frac{1}{3}$. Give your answer as a fraction in its simplest form."
+ },
+ {
+  "skill": "num-decimal-fraction",
+  "title": "Convert decimals and fractions",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "terminating/recurring decimal or fraction",
+  "output": "equivalent form",
+  "example": "0.375 → 3/8",
+  "what": [
+   "You give it a decimal, terminating or recurring. It gives back the same number as a **fraction**, or the other way round.",
+   "The key idea for a recurring decimal: multiply to shift the repeating block, then subtract so the repeating part cancels."
+  ],
+  "question": "Write $0.454545\\ldots$ as a fraction in its simplest form."
+ },
+ {
+  "skill": "num-sets",
+  "title": "Classify numbers into N, Z, Q, R, C",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "a number",
+  "output": "its smallest set; place on number line",
+  "example": "√9 ∈ N, √2 ∈ R∖Q",
+  "what": [
+   "You give it a number. It tells you the **smallest** set it belongs to: $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$ or $\\mathbb{R}$.",
+   "The key idea: the sets grow outwards. Each one sits inside the next, so ask the questions in order, from the smallest set up."
+  ],
+  "question": "For each number, write down the smallest of the sets $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$, $\\mathbb{R}$ that contains it.\n$\\sqrt{25}$, $-4$, $\\frac{3}{8}$, $\\sqrt{10}$"
+ },
+ {
+  "skill": "num-prime-factors",
+  "title": "Express a number as a product of primes",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "natural number",
+  "output": "prime factorisation; HCF/LCM",
+  "example": "360 → 2³·3²·5",
+  "what": [
+   "You give it a natural number. It writes it as a product of **primes**, and uses that to find the HCF and LCM.",
+   "The key idea: every number has exactly one prime factorisation. The HCF takes the primes both numbers share. The LCM takes every prime that appears in either."
+  ],
+  "question": "(i) Write $252$ and $180$ as products of prime numbers.\n(ii) Hence find the HCF and the LCM of $252$ and $180$."
+ },
+ {
+  "skill": "cx-conjugate",
+  "title": "Find the conjugate",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "z = a + bi",
+  "output": "z̄ = a − bi",
+  "example": "3 − 4i → 3 + 4i",
+  "what": [
+   "You give it a complex number, $z = a + bi$. It gives back the **conjugate**, $\\bar z = a - bi$.",
+   "The key idea: only the sign of the $i$ part flips. The real part stays the same, and $z\\bar z$ is always a real number."
+  ],
+  "question": "Let $z = 4 - 3i$. Write down $\\bar z$ and find $z\\bar z$."
+ },
+ {
+  "skill": "cx-powers-i",
+  "title": "Simplify powers of i",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "iⁿ",
+  "output": "1, i, −1 or −i",
+  "example": "i⁷ → −i",
+  "what": [
+   "You give it a power of $i$, $i^n$. It gives back one of four values: $1$, $i$, $-1$ or $-i$.",
+   "The key idea: the powers repeat in a cycle of four, and $i^4 = 1$. Divide $n$ by $4$ and only the remainder matters."
+  ],
+  "question": "Write $i^{23}$ in the form $a + bi$."
+ },
+ {
+  "skill": "cx-argand",
+  "title": "Plot complex numbers on an Argand diagram",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "z",
+  "output": "point (Re, Im)",
+  "example": "3 − 2i → (3, −2)",
+  "what": [
+   "You give it a complex number, $z$. It gives back a **point** on the Argand diagram, $(\\text{Re}, \\text{Im})$.",
+   "The key idea: the real part is the $x$ value and the imaginary part is the $y$ value. So $3 - 2i$ is the point $(3, -2)$."
+  ],
+  "question": "Let $z = -2 + 3i$ and $w = 4 - i$. Find $z + w$. Plot $z$, $w$ and $z + w$ on an Argand diagram and label each point."
+ },
+ {
+  "skill": "cx-arithmetic",
+  "title": "Add, subtract and multiply complex numbers",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "a + bi, c + di",
+  "output": "result in a + bi form",
+  "example": "(2 + 3i)(1 − i) → 5 + i",
+  "what": [
+   "You give it two complex numbers, $a + bi$ and $c + di$. It gives back one answer in the form $a + bi$.",
+   "The key idea: treat $i$ like a letter and expand as normal. Then replace every $i^2$ with $-1$."
+  ],
+  "question": "Let $z_1 = 2 + i$ and $z_2 = 3 - 2i$. Find $z_1 z_2 - 2z_1$. Give your answer in the form $a + bi$."
+ },
+ {
+  "skill": "cx-modulus",
+  "title": "Find the modulus as distance from the origin",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "z = a + bi",
+  "output": "|z| = √(a² + b²)",
+  "example": "|3 − 4i| → 5",
+  "what": [
+   "You give it a complex number, $z = a + bi$. It finds $|z|$, the **distance** from the origin to the point $(a, b)$ on the Argand diagram.",
+   "The key idea: $a$ across and $b$ up make a right-angled triangle, so Pythagoras gives $|z| = \\sqrt{a^2 + b^2}$."
+  ],
+  "question": "$z_1 = 2 - 3i$ and $z_2 = 5 + i$. Find $|z_1 - z_2|$."
+ },
+ {
+  "skill": "num-ratio-proportion",
+  "title": "Use ratio and direct/inverse proportion",
+  "chapter": "Complex Numbers",
+  "level": "JC",
+  "input": "quantities in proportion",
+  "output": "divided shares or unknown quantity",
+  "example": "€120 in ratio 3:5 → €45, €75",
+  "what": [
+   "You give it quantities in a **ratio**, or two quantities that change together. It splits an amount into shares, or finds the unknown quantity.",
+   "The key idea: a ratio is a number of equal parts. Find what **one part** is worth, then scale it. Inverse proportion works the same way, but the product stays fixed."
+  ],
+  "question": "Dara and Eve share €216 in the ratio $7 : 5$. How much more than Eve does Dara get?"
+ },
+ {
+  "skill": "num-surds",
+  "title": "Simplify and operate on surds",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "surd expression",
+  "output": "simplified surd, rational denominator",
+  "example": "√50 → 5√2; 1/(√3−1) → (√3+1)/2",
+  "what": [
+   "You give it a surd expression, like $\\sqrt{72} - \\sqrt{18} + \\sqrt{50}$. It simplifies it to one exact form, with no root left on the bottom of a fraction.",
+   "The key idea: pull out the biggest **square factor**, since $\\sqrt{36 \\times 2} = 6\\sqrt{2}$. Then surds with the same root add and subtract like terms."
+  ],
+  "question": "Write $\\sqrt{72} - \\sqrt{18} + \\sqrt{50}$ in the form $a\\sqrt{2}$, where $a$ is a whole number."
+ },
+ {
+  "skill": "num-sci-notation",
+  "title": "Work in scientific notation",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "numbers in a×10ⁿ form",
+  "output": "result in a×10ⁿ, 1 ≤ a < 10",
+  "example": "(3×10⁴)(5×10⁻⁷) → 1.5×10⁻²",
+  "what": [
+   "You give it numbers written as $a \\times 10^n$. It multiplies or divides them and gives the answer back in the same form, with $1 \\le a < 10$.",
+   "The key idea: work on the two parts separately. Multiply or divide the $a$ parts, then add or subtract the powers of $10$. If $a$ ends up outside $1$ to $10$, shift the point and change $n$ to match."
+  ],
+  "question": "A hard drive holds $1.8 \\times 10^{12}$ bytes. Each photo uses $4.5 \\times 10^{6}$ bytes. How many photos fit on the drive? Give your answer in the form $a \\times 10^n$, where $1 \\le a < 10$."
+ },
+ {
+  "skill": "cx-divide",
+  "title": "Divide complex numbers",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "z₁ / z₂",
+  "output": "a + bi via conjugate of denominator",
+  "example": "(3 + 4i)/(1 − 2i) → −1 + 2i",
+  "what": [
+   "You give it one complex number divided by another, $\\dfrac{z_1}{z_2}$. It writes the answer as $a + bi$, with no $i$ left in the denominator.",
+   "The key idea: multiply top and bottom by the **conjugate** of the denominator. Then the denominator becomes a real number."
+  ],
+  "question": "Write $\\dfrac{7 + 4i}{2 - i}$ in the form $a + bi$."
+ },
+ {
+  "skill": "cx-equate-parts",
+  "title": "Equate real and imaginary parts",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "equation in complex numbers with unknowns",
+  "output": "values of unknowns",
+  "example": "a + bi = (2 + i)² → a = 3, b = 4",
+  "what": [
+   "You give it an equation with complex numbers and unknowns $a$ and $b$. It finds the values of $a$ and $b$.",
+   "The key idea: two complex numbers are equal only if their **real parts** match and their **imaginary parts** match. One complex equation gives you two ordinary equations."
+  ],
+  "question": "$a$ and $b$ are real numbers. Find $a$ and $b$ if $(a + bi)(1 + i) = 1 + 5i$."
+ },
+ {
+  "skill": "cx-transformations",
+  "title": "Interpret operations as transformations on the Argand diagram",
+  "chapter": "Complex Numbers",
+  "level": "OL",
+  "input": "z and an operation (+w, ×i, ×k)",
+  "output": "translation / rotation / enlargement",
+  "example": "×i → rotation 90° anticlockwise",
+  "what": [
+   "You give it a complex number $z$ and an operation on it. It tells you what happens to the point $z$ on the Argand diagram.",
+   "The key idea: adding $w$ **slides** the point. Multiplying by $i$ **turns** it $90°$ anticlockwise about the origin. Multiplying by a real number $k$ **stretches** it away from the origin."
+  ],
+  "question": "$z = 4 + 2i$. Find $iz$. Describe the transformation that takes $z$ to $iz$ on the Argand diagram."
+ }
+]

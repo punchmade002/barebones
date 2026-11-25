@@ -234,7 +234,7 @@ function graphSvg(G) {
 }
 
 function render(S) {
-  document.title = `Learn: ${S.title}`;
+  MathsPacks.tagPage(S, 'learn');
   const sec = (id, label, html) => `<section class="sec" id="${id}">${label ? `<span class="lbl">${label}</span>` : ''}${html}</section>`;
   const chip = n => `<li><${n.lesson ? `a href="maths-learn.html?skill=${n.id}"` : 'span'} class="chip">${esc(n.title)} ${gradeTag(n.grade)}</${n.lesson ? 'a' : 'span'}></li>`;
   const column = (title, items, none) => `<div><h3>${title}</h3><ul>${items.length ? items.map(chip).join('') : `<li class="none">${none}</li>`}</ul></div>`;
@@ -311,7 +311,8 @@ else {
   const load = () => MathsPacks.skill(id).then(pack => { render(pack.learn); MathsPacks.prefetchNext(id) },
     () => { board.innerHTML = '<p class="status">This skill didn’t load. Check your connection, then <button class="btn btn-plain" id="retry">Try again</button></p>';
       document.getElementById('retry').onclick = () => { board.innerHTML = '<p class="status">Loading…</p>'; load() } });
-  load();
+  if (MathsPacks.mayOpen(id)) load();
+  else { board.innerHTML = MathsPacks.gateHtml(); document.getElementById('rail')?.remove() }
 }
 </script>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">

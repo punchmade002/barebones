@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "cubic-factor-theorem",
+  "title": "Test a factor with the Factor Theorem",
+  "chapter": "Algebra - Cubics",
+  "level": "HL",
+  "input": "polynomial f(x) and (x − a)",
+  "output": "f(a) = 0 ⇒ factor",
+  "example": "f(x) = x³ − 7x + 6, f(1) = 0 → (x − 1) is a factor",
+  "what": [
+   "You give it a polynomial $f(x)$ and a bracket $(x - a)$. It tells you whether the bracket is a **factor**.",
+   "The key idea: $(x - a)$ is a factor exactly when $f(a) = 0$. Put $a$ in for $x$ and see if you get zero."
+  ],
+  "question": "Show that $(x - 2)$ is a factor of $f(x) = x^3 - 4x^2 - 11x + 30$."
+ },
+ {
+  "skill": "cubic-find-root",
+  "title": "Find an integer root by trial",
+  "chapter": "Algebra - Cubics",
+  "level": "HL",
+  "input": "cubic with integer coefficients",
+  "output": "integer root (divisor of constant)",
+  "example": "x³ − 6x² + 11x − 6 → f(1) = 0",
+  "what": [
+   "You give it a cubic with whole-number coefficients. It finds one **integer root** by trial.",
+   "The key idea: an integer root must divide the **constant term**. So you only test those divisors, one at a time, until one gives $0$."
+  ],
+  "question": "Find the integer root of $f(x) = x^3 - x^2 + x - 6$."
+ },
+ {
+  "skill": "cubic-form-from-roots",
+  "title": "Form a cubic from its roots",
+  "chapter": "Algebra - Cubics",
+  "level": "HL",
+  "input": "three roots",
+  "output": "cubic equation",
+  "example": "roots 1, −2, 3 → x³ − 2x² − 5x + 6 = 0",
+  "what": [
+   "You give it three roots. It builds the **cubic equation** that has exactly those roots.",
+   "The key idea: a root $a$ means a factor $(x - a)$. Multiply the three factors out and set the result equal to $0$."
+  ],
+  "question": "A cubic equation has roots $-1$, $2$ and $4$. Write the equation in the form $x^3 + bx^2 + cx + d = 0$."
+ },
+ {
+  "skill": "cubic-unknown-coefficient",
+  "title": "Find unknown coefficients from given factors",
+  "chapter": "Algebra - Cubics",
+  "level": "HL",
+  "input": "polynomial with unknowns + factor(s)",
+  "output": "unknown values",
+  "example": "(x − 2) is a factor of x³ + kx² − 4x + 12 → k = −3",
+  "what": [
+   "You give it a polynomial with an unknown letter and a bracket you know is a **factor**. It finds the letter.",
+   "The key idea: if $(x - a)$ is a factor then $f(a) = 0$. Putting $a$ in turns the polynomial into an equation in the unknown alone."
+  ],
+  "question": "$(x + 2)$ is a factor of $f(x) = x^3 + kx^2 - 5x + 6$. Find the value of $k$."
+ },
+ {
+  "skill": "cubic-solve",
+  "title": "Solve a cubic with at least one integer root",
+  "chapter": "Algebra - Cubics",
+  "level": "HL",
+  "input": "cubic equation",
+  "output": "all roots",
+  "example": "x³ − 6x² + 11x − 6 = 0 → x = 1, 2, 3",
+  "what": [
+   "You give it a cubic equation, $f(x) = 0$. It finds **all three roots**.",
+   "The key idea: once one root $a$ is known, $(x-a)$ divides the cubic exactly, and what is left is a quadratic you can already solve."
+  ],
+  "question": "Solve $2x^3 - 3x^2 - 11x + 6 = 0$."
+ },
+ {
+  "skill": "alg-collect-like",
+  "title": "Collect like terms",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "JC",
+  "input": "expression",
+  "output": "simplified expression",
+  "example": "3x + 2y − x + 4y → 2x + 6y",
+  "what": [
+   "You give it an expression with several terms. It gives back a shorter one with each kind of term **added up** once.",
+   "The key idea: only like terms combine, meaning the same letter to the same power. $7a$ and $3a$ combine; $7a$ and $4b$ do not."
+  ],
+  "question": "Simplify $7a + 4b - 3a + 6b - 5 + 9$."
+ },
+ {
+  "skill": "alg-evaluate",
+  "title": "Evaluate an expression",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "OL",
+  "input": "expression + values of variables",
+  "output": "number",
+  "example": "3x² − 2y at x=2, y=5 → 2",
+  "what": [
+   "You give it an expression and a value for each letter. It gives back a **number**.",
+   "The key idea: put each value in place of its letter, in brackets, then do the arithmetic in the right order."
+  ],
+  "question": "$g(x) = 2x^3 - 5x^2 + x - 4$.\nFind $g(3)$."
+ },
+ {
+  "skill": "alg-expand-single",
+  "title": "Expand a bracket by a term",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "JC",
+  "input": "a(bx ± cy ± d)",
+  "output": "expanded expression",
+  "example": "3(2x − 5) → 6x − 15",
+  "what": [
+   "You give it a bracket with a number or letter outside it. It gives back the same expression **without the bracket**.",
+   "The key idea: the term outside multiplies every term inside, and its sign goes with it."
+  ],
+  "question": "Simplify $4(3x - 5) - 2(x - 6)$."
+ },
+ {
+  "skill": "alg-factor-hcf",
+  "title": "Factorise by highest common factor",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "JC",
+  "input": "expression",
+  "output": "factor × bracket",
+  "example": "6x² − 9x → 3x(2x − 3)",
+  "what": [
+   "You give it an expression with several terms, like $6x^2 - 9x$. It writes it as one **common factor** multiplied by a bracket.",
+   "The key idea: find the biggest number and the most $x$'s that every term shares. Pull that out, and what is left goes in the bracket."
+  ],
+  "question": "Take out the highest common factor of $12x^3 - 18x^2 + 6x$."
+ },
+ {
+  "skill": "alg-factor-dots",
+  "title": "Factorise a difference of two squares",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "OL",
+  "input": "a² − b²",
+  "output": "(a − b)(a + b)",
+  "example": "9x² − 16 → (3x − 4)(3x + 4)",
+  "what": [
+   "You give it a difference of two squares, $a^2 - b^2$. It writes it as two **brackets**, $(a - b)(a + b)$.",
+   "The key idea: when you multiply those two brackets, the middle terms cancel and only $a^2 - b^2$ is left."
+  ],
+  "question": "Factorise fully $50x^2 - 72$."
+ },
+ {
+  "skill": "alg-expand-binomials",
+  "title": "Multiply out two brackets",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "OL",
+  "input": "(x ± y)(w ± z)",
+  "output": "expanded, simplified expression",
+  "example": "(2x + 3)(x − 4) → 2x² − 5x − 12",
+  "what": [
+   "You give it two brackets multiplied together, like $(2x + 3)(x - 4)$. It gives back one expression with no brackets, with like terms collected.",
+   "The key idea: every term in the first bracket multiplies every term in the second. Two terms by two terms makes four products."
+  ],
+  "question": "Multiply out and simplify $(3x - 2)(2x + 5)$."
+ },
+ {
+  "skill": "alg-add-subtract",
+  "title": "Add/subtract linear and quadratic expressions",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "OL",
+  "input": "(ax²+bx+c) ± (dx²+ex+f)",
+  "output": "simplified expression",
+  "example": "(2x²−3x+1) − (x²+x−4) → x² − 4x + 5",
+  "what": [
+   "You give it two expressions with $x^2$, $x$ and number terms, joined by a plus or minus. It gives back one simplified expression.",
+   "The key idea: only like terms combine. $x^2$ goes with $x^2$, $x$ with $x$, numbers with numbers. A minus in front of a bracket flips every sign inside it."
+  ],
+  "question": "Simplify $(3x^2 - 2x + 5) - (x^2 + 4x - 3)$."
+ },
+ {
+  "skill": "alg-factor-grouping",
+  "title": "Factorise by grouping",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "JC",
+  "input": "four-term expression",
+  "output": "product of two brackets",
+  "example": "ax + ay + bx + by → (a + b)(x + y)",
+  "what": [
+   "You give it an expression with four terms, like $ax + ay + bx + by$. It writes it as a product of two **brackets**.",
+   "The key idea: pair the terms so each pair has a common factor. Both pairs then leave the same bracket, and that bracket comes out."
+  ],
+  "question": "Factorise $6xy + 9x - 4y - 6$."
+ },
+ {
+  "skill": "alg-factor-quadratic",
+  "title": "Factorise a quadratic trinomial",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "OL",
+  "input": "ax² + bx + c",
+  "output": "(px + q)(rx + s)",
+  "example": "2x² + 7x + 3 → (2x + 1)(x + 3)",
+  "what": [
+   "You give it a quadratic trinomial, $ax^2 + bx + c$. It writes it as a product of two **brackets**.",
+   "The key idea: split the middle term into two pieces whose numbers multiply to $a \\times c$ and add to $b$. Then the brackets pull out."
+  ],
+  "question": "Factorise $2x^2 + 9x + 10$."
+ },
+ {
+  "skill": "alg-rearrange",
+  "title": "Rearrange a formula",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "OL",
+  "input": "formula + new subject",
+  "output": "subject = expression",
+  "example": "v² = u² + 2as → a = (v² − u²)/(2s)",
+  "what": [
+   "You give it a formula and the letter you want as the subject. It gives you that letter on its own, equal to an expression in the others.",
+   "The key idea: do the same thing to both sides, one move at a time. If the letter appears twice, gather it onto one side and **factorise** it out."
+  ],
+  "question": "Make $q$ the subject of the formula $m = \\dfrac{2q + 5}{q - 3}$."
+ },
+ {
+  "skill": "alg-binomial-expand",
+  "title": "Expand with the binomial theorem",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "HL",
+  "input": "(a + b)ⁿ, n ∈ N",
+  "output": "full expansion",
+  "example": "(1 + 2x)⁴ → 1 + 8x + 24x² + 32x³ + 16x⁴",
+  "what": [
+   "You give it a bracket raised to a power, $(a + b)^n$. It writes it out as a sum of $n + 1$ terms.",
+   "The key idea: each term is a **binomial coefficient** times a power of $a$ times a power of $b$. The power of $a$ goes down by one as the power of $b$ goes up by one."
+  ],
+  "question": "Expand $(2x - 3)^4$."
+ },
+ {
+  "skill": "alg-binomial-term",
+  "title": "Find a given term/coefficient of a binomial expansion",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "HL",
+  "input": "(a + b)ⁿ + required power",
+  "output": "general term Tᵣ₊₁ and its value",
+  "example": "coefficient of x² in (2 + x)⁵ → 80",
+  "what": [
+   "You give it a bracket $(a + b)^n$ and the power you want. It gives the one term, or its coefficient, without expanding the rest.",
+   "The key idea: the general term is $T_{r+1} = \\binom{n}{r}a^{n-r}b^r$. Match the power you want to find $r$."
+  ],
+  "question": "Find the coefficient of $x^4$ in the expansion of $(3x - 2)^6$."
+ },
+ {
+  "skill": "alg-poly-multiply",
+  "title": "Multiply polynomials",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "HL",
+  "input": "two polynomials",
+  "output": "expanded polynomial",
+  "example": "(x − 1)(x² + x + 1) → x³ − 1",
+  "what": [
+   "You give it two polynomials. It gives back one **expanded** polynomial with no brackets.",
+   "The key idea: every term in the first bracket multiplies every term in the second, then you collect like terms."
+  ],
+  "question": "Multiply out $(2x+1)(x^2-3x+5)$."
+ },
+ {
+  "skill": "alg-factor-cubes",
+  "title": "Factorise a sum/difference of two cubes",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "HL",
+  "input": "a³ ± b³",
+  "output": "(a ± b)(a² ∓ ab + b²)",
+  "example": "8x³ − 27 → (2x − 3)(4x² + 6x + 9)",
+  "what": [
+   "You give it an expression of the form $a^3 \\pm b^3$. It gives back a product of a **linear** bracket and a **quadratic** bracket.",
+   "The key idea: both terms are perfect cubes, so a fixed pattern factorises them. Only the signs differ between the sum and the difference."
+  ],
+  "question": "Factorise $27x^3 - 8$."
+ },
+ {
+  "skill": "alg-surd-expressions",
+  "title": "Simplify algebraic expressions with surds",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "HL",
+  "input": "expression with surds and brackets",
+  "output": "simplified / rationalised form",
+  "example": "(√x + 1)(√x − 1) → x − 1",
+  "what": [
+   "You give it an expression with surds and brackets, like $(\\sqrt{x}+1)(\\sqrt{x}-1)$. It gives back a **simplified** form.",
+   "The key idea: multiply out the brackets as usual, then use $\\sqrt{x}\\times\\sqrt{x} = x$ to remove the surds that cancel."
+  ],
+  "question": "Multiply out and simplify $(3\\sqrt{x} - 2)(2\\sqrt{x} + 5)$."
+ },
+ {
+  "skill": "alg-fractions-add",
+  "title": "Add/subtract algebraic fractions",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "OL",
+  "input": "a/(bx+c) ± p/(qx+r)",
+  "output": "single fraction",
+  "example": "2/(x+1) + 3/(x−2) → (5x − 1)/((x+1)(x−2))",
+  "what": [
+   "You give it two fractions with $x$ in the denominators. It gives back **one** fraction.",
+   "The key idea: fractions only add when the denominators match, so multiply top and bottom of each by what the other denominator has."
+  ],
+  "question": "Write $\\dfrac{3}{x+2} + \\dfrac{4}{x-1}$ as a single fraction."
+ },
+ {
+  "skill": "alg-poly-divide",
+  "title": "Divide a polynomial by a linear or quadratic",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "HL",
+  "input": "dividend, divisor",
+  "output": "quotient (and remainder)",
+  "example": "(x³ − 7x + 6) ÷ (x − 1) → x² + x − 6",
+  "what": [
+   "You give it a polynomial and a linear divisor. It gives back the **quotient**, and the remainder if there is one.",
+   "The key idea: divide the first term of what is left by the first term of the divisor, multiply back, subtract, and repeat until the degree drops below the divisor's."
+  ],
+  "question": "Divide $2x^3 - 3x^2 - 11x + 6$ by $(x - 3)$ and hence solve $2x^3 - 3x^2 - 11x + 6 = 0$."
+ },
+ {
+  "skill": "alg-equate-coefficients",
+  "title": "Equate coefficients of identical polynomials",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "HL",
+  "input": "identity with unknown constants",
+  "output": "values of the constants",
+  "example": "x² + 6x + c ≡ (x + a)² → a = 3, c = 9",
+  "what": [
+   "You give it an **identity** with unknown constants in it. It gives back the values of the constants.",
+   "The key idea: if two polynomials are equal for every $x$, the number in front of each power of $x$ must match. Each power gives you one equation."
+  ],
+  "question": "Given that $x^3 + 2x^2 - 5x + k \\equiv (x - 1)(x^2 + ax + b)$ for all $x$, where $a$, $b$ and $k$ are constants. Find $a$, $b$ and the value of $k$."
+ },
+ {
+  "skill": "alg-fractions-simplify",
+  "title": "Multiply, divide and simplify rational expressions",
+  "chapter": "Algebra - Expressions & Factorising",
+  "level": "HL",
+  "input": "rational algebraic expressions",
+  "output": "simplified fraction",
+  "example": "(x² − 4)/(x² + x − 6) → (x + 2)/(x + 3)",
+  "what": [
+   "You give it a fraction, or a product or quotient of fractions, with $x$ in the top and bottom. It gives back one fraction in its **simplest form**.",
+   "The key idea: factorise every top and bottom first. Only a whole bracket that appears on the top and on the bottom can be cancelled."
+  ],
+  "question": "Simplify $\\dfrac{x^2 - x - 6}{x^2 - 16} \\div \\dfrac{x - 3}{x + 4}$."
+ },
+ {
+  "skill": "ineq-linear",
+  "title": "Solve a linear inequality",
+  "chapter": "Algebra - Inequalities",
+  "level": "OL",
+  "input": "ax + b ≤ k (and <, >, ≥), domain N/Z/R",
+  "output": "solution set on number line",
+  "example": "3 − 2x < 7 → x > −2",
+  "what": [
+   "You give it a linear inequality, such as $4 - 3x \\ge 13$. It gives back the **solution set**: every value of $x$ that makes it true.",
+   "The key idea: solve it like an equation, with one change. Multiply or divide both sides by a **negative** and the inequality sign flips."
+  ],
+  "question": "Solve $4 - 3(x - 1) \\ge 13$, where $x \\in \\mathbb{R}$."
+ }
+]

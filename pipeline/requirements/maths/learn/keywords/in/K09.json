@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "geo-thm19",
+  "title": "Apply Theorem 19: Angle at the centre is twice the angle at the circle",
+  "chapter": "Geometry",
+  "level": "HL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 19",
+  "example": "",
+  "what": [
+   "You give it a diagram with an unknown angle on a circle. It finds the angle and **names the theorem** that justifies it.",
+   "Theorem 19: the angle at the **centre** is twice the angle at the circle, when both stand on the same arc."
+  ],
+  "question": "$A$, $B$ and $C$ are points on a circle with centre $O$. The angle at the centre is $|\\angle AOB| = (6x - 10)^\\circ$ and the angle at the circle is $|\\angle ACB| = (2x + 5)^\\circ$. Both stand on the arc $AB$. Find $x$ and $|\\angle ACB|$."
+ },
+ {
+  "skill": "geo-cor2",
+  "title": "Apply Corollary 2: Angles standing on the same arc are equal",
+  "chapter": "Geometry",
+  "level": "HL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Corollary 2",
+  "example": "",
+  "what": [
+   "You give it two angles at the circle that stand on the same **arc**. It tells you they are equal.",
+   "The key idea: each one is half the angle the arc makes at the centre. Same arc, same centre angle, so the two angles match."
+  ],
+  "question": "$A$, $B$, $C$ and $D$ are on a circle. $|\\angle ACB| = (3x + 5)°$ and $|\\angle ADB| = (5x - 25)°$. Find $x$."
+ },
+ {
+  "skill": "geo-prove-thm11",
+  "title": "Prove Theorem 11",
+  "chapter": "Geometry",
+  "level": "HL",
+  "input": "statement",
+  "output": "formal proof",
+  "example": "three parallel lines → equal intercepts",
+  "what": [
+   "You give it a statement, Theorem 11. It writes a **formal proof**: given, to prove, construction and proof.",
+   "The key idea: build a **parallelogram** so equal segments on one transversal copy across to the other, then use congruent triangles."
+  ],
+  "question": "Three parallel lines $AD$, $BE$ and $CF$ cut off equal segments on the transversal $AC$, so $|AB| = |BC|$. Prove that they cut off equal segments on any other transversal $DF$, so $|DE| = |EF|$."
+ },
+ {
+  "skill": "geo-prove-thm12",
+  "title": "Prove Theorem 12",
+  "chapter": "Geometry",
+  "level": "HL",
+  "input": "statement",
+  "output": "formal proof",
+  "example": "parallel line divides sides in same ratio",
+  "what": [
+   "You give it a statement, Theorem 12. It writes a **formal proof** that a line parallel to one side of a triangle divides the other two sides in the same ratio.",
+   "The key idea: cut one side into equal parts, draw parallels, and let Theorem 11 carry the equal parts to the other side."
+  ],
+  "question": "In the triangle $ABC$, the line $XY$ is parallel to $BC$, with $X$ on $[AB]$ and $Y$ on $[AC]$. It cuts $[AB]$ in the ratio $|AX| : |XB| = 2 : 3$. Prove that $|AY| : |YC| = 2 : 3$."
+ },
+ {
+  "skill": "geo-prove-thm13",
+  "title": "Prove Theorem 13",
+  "chapter": "Geometry",
+  "level": "HL",
+  "input": "statement",
+  "output": "formal proof",
+  "example": "similar triangles → proportional sides",
+  "what": [
+   "You give it a statement, Theorem 13. It writes a **formal proof** that similar triangles have proportional sides.",
+   "The key idea: fit a copy of the smaller triangle inside the larger, show the copy gives a **parallel** line, then use Theorem 12."
+  ],
+  "question": "The triangles $ABC$ and $DEF$ are similar, with equal angles at $A$ and $D$, at $B$ and $E$, at $C$ and $F$. Prove that $\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|} = \\dfrac{|CA|}{|FD|}$."
+ },
+ {
+  "skill": "geo-cuts",
+  "title": "Solve a geometry \"cut\" with a reasoned account",
+  "chapter": "Geometry",
+  "level": "HL",
+  "input": "diagram + claim to prove",
+  "output": "step-by-step deduction citing theorems",
+  "example": "prove two triangles similar, then a length ratio",
+  "what": [
+   "You give it a diagram and a claim. It writes a **step-by-step deduction**, naming the theorem behind every step.",
+   "The key idea: find equal angles first. Equal angles give similar triangles, and similar triangles give ratios of sides."
+  ],
+  "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $|\\angle ADE| = |\\angle ABC|$. Given $|AD| = 4$, $|DB| = 2$ and $|DE| = 5$, prove that triangles $ADE$ and $ABC$ are similar, and find $|BC|$."
+ },
+ {
+  "skill": "con-8",
+  "title": "Construction 8: Line segment of given length on a given ray",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a ray from $A$ and a length. It marks the point $B$ on the ray so that $|AB|$ is exactly that length.",
+   "The key idea: the compass holds the length. Set it against the ruler, then swing it from $A$ and the arc cuts the ray at the right distance."
+  ],
+  "question": "Draw a ray starting at $A$. Construct the point $B$ on the ray so that $|AB| = 5$ cm."
+ },
+ {
+  "skill": "con-1",
+  "title": "Construction 1: Bisector of a given angle (compass and straight edge only)",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it an angle. It draws the line that cuts the angle into two **equal** angles, using only a compass and a straight edge.",
+   "The key idea: two points the same distance from the vertex, then two equal arcs from those points. The arcs cross on the bisector."
+  ],
+  "question": "Draw an angle $\\angle BAC$. Construct its bisector."
+ },
+ {
+  "skill": "con-9",
+  "title": "Construction 9: Angle of a given number of degrees with a given ray as one arm",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a ray and a number of degrees. It draws a second arm from the end of the ray so the angle between them is exactly that size.",
+   "The key idea: the protractor does the measuring. Line up its centre and its zero, then mark the angle on the scale."
+  ],
+  "question": "Draw a ray $[AB]$. Construct the angle $\\angle BAC = 50^\\circ$."
+ },
+ {
+  "skill": "con-15",
+  "title": "Construction 15: Rectangle given side lengths",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it two side lengths. It builds a **rectangle** with those sides, with all four angles right angles.",
+   "The key idea: draw one side, build a right angle at each end, then measure the other side up each of them."
+  ],
+  "question": "Construct the rectangle $ABCD$ with $|AB| = 6$ cm and $|BC| = 4$ cm."
+ },
+ {
+  "skill": "con-2",
+  "title": "Construction 2: Perpendicular bisector of a segment (compass and straight edge only)",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a segment $[AB]$. It draws the line that cuts $[AB]$ in half and meets it at a **right angle**.",
+   "The key idea: a point the same distance from $A$ and from $B$ lies on this line. Two such points are enough to draw it."
+  ],
+  "question": "Draw a segment $[AB]$ with $|AB| = 8$ cm. Using only a compass and straight edge, construct the perpendicular bisector of $[AB]$."
+ },
+ {
+  "skill": "con-10",
+  "title": "Construction 10: Triangle given three sides (SSS)",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it the three side lengths of a triangle. It draws the triangle, accurately, with the arcs left showing.",
+   "The key idea: draw one side, then find the third vertex as the point where two arcs cross, one from each end of that side."
+  ],
+  "question": "Construct the triangle $ABC$ with $|BC| = 7$ cm, $|AB| = 6$ cm and $|AC| = 4$ cm."
+ },
+ {
+  "skill": "con-11",
+  "title": "Construction 11: Triangle given SAS data",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it two sides of a triangle and the angle **between** them. It draws the triangle.",
+   "The key idea: the angle fixes the direction of the second side, and its length fixes where it stops. The third side is then just the line that joins the ends."
+  ],
+  "question": "Construct the triangle $ABC$ with $|AB| = 6$ cm, $|BC| = 8$ cm and $|\\angle ABC| = 70^\\circ$."
+ },
+ {
+  "skill": "con-12",
+  "title": "Construction 12: Triangle given ASA data",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it one side of a triangle and the two angles at its ends. It draws the triangle.",
+   "The key idea: each angle gives a ray from one end of the side. The third vertex is where the two rays meet."
+  ],
+  "question": "Construct the triangle $ABC$ with $|BC| = 8$ cm, $|\\angle B| = 40^\\circ$ and $|\\angle C| = 65^\\circ$."
+ },
+ {
+  "skill": "con-3",
+  "title": "Construction 3: Line perpendicular to a line l through a point not on l",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "HL",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a line $l$ and a point $P$ that is **not** on $l$. It draws the line through $P$ that meets $l$ at a right angle.",
+   "The key idea: two points on $l$ that are the same distance from $P$ are found by one arc. Any point the same distance from both of them lies on the perpendicular through $P$."
+  ],
+  "question": "Draw a line $l$ and mark a point $P$ above it. Construct the line through $P$ perpendicular to $l$."
+ },
+ {
+  "skill": "con-4",
+  "title": "Construction 4: Line perpendicular to a line l through a point on l",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a line $l$ and a point $P$ on it. It draws the line through $P$ that meets $l$ at a **right angle**.",
+   "The key idea: mark two points the same distance either side of $P$. Any point the same distance from both of them lies on the perpendicular."
+  ],
+  "question": "Draw a line $l$ and mark a point $P$ on it. Construct the line through $P$ perpendicular to $l$."
+ },
+ {
+  "skill": "con-5",
+  "title": "Construction 5: Line parallel to a given line through a given point",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a line $l$ and a point $P$ not on $l$. It draws the line through $P$ that is **parallel** to $l$.",
+   "The key idea: copy an angle. If a line through $P$ makes the same angle with a transversal as $l$ does, the two lines are parallel (corresponding angles are equal)."
+  ],
+  "question": "Draw a line $l$ and mark a point $P$ above it. Construct the line through $P$ parallel to $l$."
+ },
+ {
+  "skill": "con-13",
+  "title": "Construction 13: Right-angled triangle given hypotenuse and one other side",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it the length of the hypotenuse and the length of one other side. It draws the right-angled triangle.",
+   "The key idea: the hypotenuse is opposite the right angle. So draw the known side, make a right angle at its end, and swing an arc of the hypotenuse length from the other end."
+  ],
+  "question": "Construct a right-angled triangle $ABC$ with $|AB| = 4$ cm, a right angle at $B$, and hypotenuse $|AC| = 7$ cm."
+ },
+ {
+  "skill": "con-14",
+  "title": "Construction 14: Right-angled triangle given one side and an acute angle",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it one side and one acute angle of a right-angled triangle. It draws the triangle.",
+   "The key idea: you build two lines from the ends of the known side, one at the given angle and one at $90^\\circ$. The triangle is closed where they meet."
+  ],
+  "question": "Construct a right-angled triangle $ABC$ with $|AB| = 5$ cm, a right angle at $B$, and $\\angle A = 50^\\circ$."
+ },
+ {
+  "skill": "con-6",
+  "title": "Construction 6: Divide a segment into 2 or 3 equal parts without measuring",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "JC",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a line segment $[AB]$. It splits it into **equal parts** with no ruler marks, only a compass and straight edge.",
+   "The key idea: equal steps along a slanted ray, joined back to $B$ with parallel lines, cut $[AB]$ into equal steps too."
+  ],
+  "question": "Divide the segment $[AB]$ into three equal parts using only a compass and straight edge. Show your construction lines."
+ },
+ {
+  "skill": "con-18",
+  "title": "Construction 18: Angle of 60° without protractor or set square",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "OL",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a line segment $[AB]$. It builds an angle of **60°** at $A$ with no protractor and no set square.",
+   "The key idea: a triangle with three equal sides has three angles of $60^\\circ$, and a compass makes equal sides."
+  ],
+  "question": "Using only a compass and straight edge, construct an angle of $60^\\circ$ at the point $A$ on the line $[AB]$."
+ },
+ {
+  "skill": "con-20",
+  "title": "Construction 20: Parallelogram given side lengths and angles",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "OL",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it two side lengths and the angle between them. It builds the **parallelogram** to exact size.",
+   "The key idea: opposite sides of a parallelogram are equal, so the fourth corner is where two arcs, one from each end, cross."
+  ],
+  "question": "Construct the parallelogram $ABCD$ with $|AB| = 6$ cm, $|AD| = 4$ cm and $|\\angle DAB| = 70^\\circ$."
+ },
+ {
+  "skill": "con-16",
+  "title": "Construction 16: Circumcentre and circumcircle of a triangle (straight edge and compass)",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "OL",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a triangle. It finds the **circumcentre** and draws the circle that passes through all three corners.",
+   "The key idea: every point on the perpendicular bisector of a side is the same distance from both ends of that side, so where two bisectors meet is the same distance from all three corners."
+  ],
+  "question": "Construct the circumcentre and circumcircle of the triangle $ABC$ with $|AB| = 7$ cm, $|BC| = 6$ cm and $|AC| = 5$ cm. Use a compass and straight edge and show your construction lines."
+ },
+ {
+  "skill": "con-17",
+  "title": "Construction 17: Incentre and incircle of a triangle (straight edge and compass)",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "OL",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a triangle. It draws the **incircle**, the circle that fits inside and touches all three sides.",
+   "The key idea: the centre is where the **angle bisectors** meet, because that point is the same distance from every side."
+  ],
+  "question": "Construct the incircle of the triangle $ABC$ with $|AB| = 8$ cm, $|BC| = 7$ cm and $|AC| = 5$ cm. Show all construction lines."
+ },
+ {
+  "skill": "con-19",
+  "title": "Construction 19: Tangent to a circle at a given point on it",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "OL",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a circle with centre $O$ and a point $P$ on it. It draws the **tangent** at $P$, a line that touches the circle only at $P$.",
+   "The key idea: a tangent is **perpendicular** to the radius at the point of contact, so you draw the radius $[OP]$ and then a perpendicular to it at $P$."
+  ],
+  "question": "A circle has centre $O$ and radius $4$ cm. $P$ is a point on the circle. Construct the tangent to the circle at $P$."
+ }
+]

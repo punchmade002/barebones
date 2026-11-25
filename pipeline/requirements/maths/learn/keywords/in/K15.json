@@ -1,0 +1,156 @@
+[
+ {
+  "skill": "trig-derive-6",
+  "title": "Derive formula 6: cos 2A = cos²A − sin²A from formula 5",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "earlier formulae in the appendix order",
+  "output": "derivation",
+  "example": "",
+  "what": [
+   "You give it formula 5, $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$. It gives back a formula for the **double angle**, $\\cos 2A$.",
+   "The key idea is that $2A$ is just $A+A$. Put $B=A$ into formula 5 and tidy up."
+  ],
+  "question": "Using $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$, show that $\\cos 2A=2\\cos^2 A-1$."
+ },
+ {
+  "skill": "trig-derive-9",
+  "title": "Derive formula 9: tan(A + B) from formulae 5 and 7",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "earlier formulae in the appendix order",
+  "output": "derivation",
+  "example": "",
+  "what": [
+   "You give it formulae 5 and 7, the expansions of $\\cos(A+B)$ and $\\sin(A+B)$. It gives back a formula for $\\tan(A+B)$ in terms of $\\tan A$ and $\\tan B$.",
+   "The key idea is $\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}$. Write $\\tan(A+B)$ as a fraction, expand top and bottom, then divide every term by $\\cos A\\cos B$."
+  ],
+  "question": "Using $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$ and $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$, show that $\\tan 2A=\\dfrac{2\\tan A}{1-\\tan^2 A}$."
+ },
+ {
+  "skill": "trig-ratios-right",
+  "title": "Use sin, cos, tan in a right-angled triangle",
+  "chapter": "Trigonometry - Triangles",
+  "level": "JC",
+  "input": "right triangle with a side and angle (or two sides)",
+  "output": "missing side or angle",
+  "example": "opposite 5, hypotenuse 10 → 30°",
+  "what": [
+   "You give it a right-angled triangle with an angle and a side, or two sides. It finds a **missing side** or a missing angle.",
+   "Name the sides from the angle you are using: opposite, adjacent, hypotenuse. Then pick the ratio, sine, cosine or tangent, that uses the two sides you are working with."
+  ],
+  "question": "A ladder 6 m long leans against a vertical wall. The foot of the ladder is 2 m from the wall. Find the angle the ladder makes with the ground. Give your answer correct to one decimal place."
+ },
+ {
+  "skill": "trig-pythagoras",
+  "title": "Solve 2D problems with Pythagoras",
+  "chapter": "Trigonometry - Triangles",
+  "level": "OL",
+  "input": "right-angled situation",
+  "output": "missing length",
+  "example": "ladder 5 m, foot 3 m from wall → 4 m high",
+  "what": [
+   "You give it a **right-angled** triangle with two sides known. It gives back the third side.",
+   "The key idea: the square on the longest side (the hypotenuse) equals the sum of the squares on the other two. Find which side is the longest first."
+  ],
+  "question": "A ladder $7$ m long leans against a vertical wall. Its foot is $2$ m from the wall. How high up the wall does the ladder reach? Give your answer correct to one decimal place."
+ },
+ {
+  "skill": "trig-elevation",
+  "title": "Solve heights-and-distances problems",
+  "chapter": "Trigonometry - Triangles",
+  "level": "JC",
+  "input": "angles of elevation/depression + a distance",
+  "output": "height or distance",
+  "example": "20 m away, elevation 35° → height ≈ 14.0 m",
+  "what": [
+   "You give it an **angle of elevation** (or depression) and one distance. It gives back a height or a distance.",
+   "The key idea: the angle is measured from the **horizontal**. Draw the right-angled triangle, label the sides from that angle, and pick sine, cosine or tangent."
+  ],
+  "question": "A tree stands on level ground. From a point $45$ m from its base, the angle of elevation of the top of the tree is $28°$. Find the height of the tree, correct to one decimal place."
+ },
+ {
+  "skill": "trig-area-triangle",
+  "title": "Find the area of a triangle with ½ab sin C",
+  "chapter": "Trigonometry - Triangles",
+  "level": "OL",
+  "input": "two sides + included angle",
+  "output": "area (or a missing side/angle from area)",
+  "example": "a = 5, b = 8, C = 30° → 10",
+  "what": [
+   "You give it **two sides** and the angle **between** them. It gives back the area of the triangle.",
+   "The key idea: the angle must be the included angle, the one the two sides make. Then area $= \\frac12 ab\\sin C$."
+  ],
+  "question": "In triangle $ABC$, $|AB| = 9$ cm, $|AC| = 12$ cm and $|\\angle BAC| = 40°$. Find the area of the triangle, correct to one decimal place."
+ },
+ {
+  "skill": "trig-sine-rule",
+  "title": "Apply the sine rule",
+  "chapter": "Trigonometry - Triangles",
+  "level": "OL",
+  "input": "side–angle pairs",
+  "output": "missing side or angle",
+  "example": "a = 10, A = 30°, B = 45° → b ≈ 14.14",
+  "what": [
+   "You give it a triangle where you know an **angle and the side opposite it**, plus one more angle or side. It gives back a missing side or angle.",
+   "The key idea: each side divided by the sine of the angle **opposite** it gives the same number. Find the third angle first if you need it."
+  ],
+  "question": "In triangle $PQR$, $|\\angle P| = 48°$, $|\\angle Q| = 65°$ and $|QR| = 14$ cm. Find $|PR|$, correct to one decimal place."
+ },
+ {
+  "skill": "trig-cosine-rule",
+  "title": "Apply the cosine rule",
+  "chapter": "Trigonometry - Triangles",
+  "level": "OL",
+  "input": "SAS (find side) or SSS (find angle)",
+  "output": "missing side or angle",
+  "example": "b = 5, c = 7, A = 60° → a = √39 ≈ 6.24",
+  "what": [
+   "You give it two sides of a triangle and the **angle** between them, or all three sides. It finds the missing side or angle.",
+   "The key idea: the cosine rule is Pythagoras with a correction. It works in any triangle, not just a right-angled one."
+  ],
+  "question": "In triangle $ABC$, $|AB| = 9$ cm, $|AC| = 12$ cm and $|\\angle BAC| = 40^\\circ$. Find $|BC|$, correct to two decimal places."
+ },
+ {
+  "skill": "trig-triangle-problems",
+  "title": "Solve multi-step 2D triangle problems",
+  "chapter": "Trigonometry - Triangles",
+  "level": "OL",
+  "input": "context with several triangles",
+  "output": "chained use of sine/cosine rules and area",
+  "example": "quadrilateral split by a diagonal",
+  "what": [
+   "You give it a shape made of several triangles, such as a field split by a diagonal. It finds the lengths, angles and **areas** one triangle at a time.",
+   "The key idea: the answer from one triangle becomes the input to the next. Start with the triangle where you know enough."
+  ],
+  "question": "A field $ABCD$ is split by the diagonal $[AC]$. In triangle $ABC$, $|AB| = 7$ m, $|BC| = 9$ m and $|\\angle ABC| = 70^\\circ$. In triangle $ACD$, $|CD| = 8$ m and $|\\angle ACD| = 50^\\circ$. Find the area of the field, correct to one decimal place."
+ },
+ {
+  "skill": "trig-sine-ambiguous",
+  "title": "Handle the ambiguous case of the sine rule",
+  "chapter": "Trigonometry - Triangles",
+  "level": "HL",
+  "input": "two sides + non-included angle",
+  "output": "both possible triangles",
+  "example": "a = 6, b = 8, A = 40° → B ≈ 59.0° or 121.0°",
+  "what": [
+   "You give it two sides and an angle that is **not** between them. It finds the angle you want, and checks whether there are two triangles.",
+   "The key idea: $\\sin \\theta$ has two angles between $0^\\circ$ and $180^\\circ$. If the second one still fits in the triangle, both answers count."
+  ],
+  "question": "In triangle $ABC$, $|BC| = 10$ cm, $|AC| = 13$ cm and $|\\angle BAC| = 35^\\circ$. Find the two possible values of $|\\angle ABC|$, correct to one decimal place."
+ },
+ {
+  "skill": "trig-3d",
+  "title": "Solve 3D trigonometry problems",
+  "chapter": "Trigonometry - Triangles",
+  "level": "HL",
+  "input": "3D context (pyramid, mast, box)",
+  "output": "lengths/angles via right/non-right triangles",
+  "example": "angle between space diagonal and base of a cube → 35.3°",
+  "what": [
+   "You give it a solid, such as a box, a pyramid or a mast with wires. It finds a length or an **angle** inside it.",
+   "The key idea: pick out a flat triangle, usually right-angled, that contains what you want. Then use Pythagoras, trigonometry, or the sine or cosine rule on it."
+  ],
+  "question": "A box has a rectangular base $12$ cm by $5$ cm and a height of $6$ cm. Find the angle between a space diagonal and the base, correct to one decimal place."
+ }
+]

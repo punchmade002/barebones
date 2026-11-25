@@ -43,6 +43,8 @@ def main():
     figs = usable()
     for sid, L in learn.items():
         L['graph'], L['diagram'] = figs.get(sid, (None, None))
+    from keywords import written            # search keywords per skill (learn/keywords.py), plus the terms they all share
+    kw = written()
     built = globals_in(HERE / 'build/maths-lessons.js')
     lessons = built['MATHS_LESSONS']
     db = json.loads((HERE / 'skills.json').read_text())
@@ -56,6 +58,11 @@ def main():
         assert sid in learn, f'{sid} has no Learn phase: run learn.py assemble'
         les = lessons.get(sid)
         head = {k: v for k, v in les.items() if k != 'problems'} | {'count': len(les['problems'])} if les else None
+        levels = ['higher level'] if s['level'] == 'HL' else ['higher level', 'ordinary level']
+        shared = ['leaving cert maths', 'leaving certificate mathematics', 'lc maths', s['title'].lower(), chapters[s['chapter']].lower(),
+                  f"leaving cert maths paper {s['paper']}", 'leaving cert maths exam questions', 'leaving cert maths worked solutions',
+                  *[f'leaving cert {lv} maths' for lv in levels]]
+        learn[sid]['keywords'] = list(dict.fromkeys(k.strip().lower() for k in kw.get(sid, []) + shared if k.strip()))
         pack = {'learn': learn[sid], 'lesson': head, 'problems': les['problems'][:1] if les else []}
         row = {'id': sid, 'title': s['title'], 'level': s['level'], 'grade': s['grade'], 'chapter': s['chapter'],
                'lesson': bool(les), 'v': write(f'{sid}.js', f'(window.MATHS_PACKS = window.MATHS_PACKS || {{}})[{dump(sid)}] = {dump(pack)};\n')}

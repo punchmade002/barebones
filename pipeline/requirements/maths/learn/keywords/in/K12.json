@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "prob-binomial",
+  "title": "Find the probability of k successes in n trials",
+  "chapter": "Probability",
+  "level": "HL",
+  "input": "n, k, p",
+  "output": "ⁿCₖ pᵏ(1 − p)ⁿ⁻ᵏ (incl. \"at least\")",
+  "example": "exactly 2 heads in 5 tosses → 0.3125",
+  "what": [
+   "You give it the number of trials $n$, the number of successes $k$, and the chance of success $p$. It finds the probability of exactly $k$ successes.",
+   "The key idea: each way of getting $k$ successes has chance $p^k(1-p)^{n-k}$, and ${}^nC_k$ counts the ways. For \"at least\", find the opposite and take it from $1$."
+  ],
+  "question": "Each bolt a machine makes is faulty with probability $0.1$, independently of the others. A box holds 8 bolts. Find the probability that at least 2 bolts in the box are faulty."
+ },
+ {
+  "skill": "prob-without-replacement",
+  "title": "Solve sampling problems with or without replacement",
+  "chapter": "Probability",
+  "level": "HL",
+  "input": "container contents + draws",
+  "output": "probability",
+  "example": "3 red, 2 blue, two drawn → P(both red) = 3/10",
+  "what": [
+   "You give it a container and the draws you make. It finds the **probability** of getting a particular outcome.",
+   "Without replacement the container shrinks after every draw, so each fraction has a smaller denominator than the one before."
+  ],
+  "question": "A bag holds 7 red counters and 5 blue counters. Three counters are drawn at random, one after another, without replacement. Find the probability that exactly two of them are red."
+ },
+ {
+  "skill": "prob-kth-success",
+  "title": "Find the probability the kth success is on trial n",
+  "chapter": "Probability",
+  "level": "HL",
+  "input": "n, k, p",
+  "output": "ⁿ⁻¹Cₖ₋₁ pᵏ(1 − p)ⁿ⁻ᵏ",
+  "example": "2nd six on 5th roll → ≈ 0.0643",
+  "what": [
+   "You give it the chance of success $p$, the number of successes $k$ you want, and the trial $n$. It finds the **probability** that the $k$th success happens on exactly trial $n$.",
+   "The last trial must be a success. So the first $n-1$ trials hold exactly $k-1$ successes, and then the next one succeeds."
+  ],
+  "question": "A fair die is rolled repeatedly. Find the probability that the third six comes on the eighth roll. Give your answer correct to four decimal places."
+ },
+ {
+  "skill": "seq-pattern",
+  "title": "Continue and generalise a pattern",
+  "chapter": "Sequences & Series",
+  "level": "OL",
+  "input": "terms or diagrams of a pattern",
+  "output": "next terms; nth term in algebraic form",
+  "example": "1, 4, 9, 16 → 25, Tₙ = n²",
+  "what": [
+   "You give it the first few terms of a pattern, or diagrams of it. It continues the pattern and writes the **nth term** as a formula.",
+   "If each step adds the same amount, the pattern is arithmetic: the nth term is the first term plus $n-1$ lots of that amount."
+  ],
+  "question": "The first three patterns in a sequence use 6, 10 and 14 tiles. The pattern continues in the same way.\n(a) Find the number of tiles in patterns 4 and 5.\n(b) Write the number of tiles in pattern $n$ in terms of $n$.\n(c) Which pattern uses 102 tiles?"
+ },
+ {
+  "skill": "seq-classify",
+  "title": "Decide if a sequence is arithmetic, geometric or neither",
+  "chapter": "Sequences & Series",
+  "level": "OL",
+  "input": "list of terms",
+  "output": "type with reason (differences/ratios)",
+  "example": "3, 6, 12 → geometric, r = 2",
+  "what": [
+   "You give it a list of terms. It tells you whether the sequence is **arithmetic**, **geometric** or neither, and gives the reason.",
+   "Arithmetic means the differences between terms are all equal. Geometric means the ratios are all equal. Test both."
+  ],
+  "question": "The first four terms of a sequence are 4, 12, 36, 108. State whether the sequence is arithmetic, geometric or neither, giving a reason. Write down the next term."
+ },
+ {
+  "skill": "seq-arith-nth",
+  "title": "Find the nth term of an arithmetic sequence",
+  "chapter": "Sequences & Series",
+  "level": "OL",
+  "input": "a, d (or terms)",
+  "output": "Tₙ = a + (n − 1)d",
+  "example": "5, 8, 11 → Tₙ = 3n + 2, T₂₀ = 62",
+  "what": [
+   "You give it the first term $a$ and the common difference $d$. It gives back a formula for **any** term, $T_n$.",
+   "The key idea: to reach the $n$th term you start at $a$ and add $d$ exactly $n-1$ times."
+  ],
+  "question": "The first three terms of an arithmetic sequence are $7, 12, 17, \\dots$ Find $T_n$, the $n$th term. Hence find $T_{30}$."
+ },
+ {
+  "skill": "seq-arith-sum",
+  "title": "Sum n terms of an arithmetic series",
+  "chapter": "Sequences & Series",
+  "level": "OL",
+  "input": "a, d, n",
+  "output": "Sₙ = n/2 [2a + (n − 1)d]",
+  "example": "5 + 8 + … to 20 terms → 670",
+  "what": [
+   "You give it $a$, $d$ and the number of terms $n$. It adds up the first $n$ terms in one go, without listing them.",
+   "The key idea: pair the first term with the last, the second with the second last, and so on. Every pair has the same total, so the sum is the number of pairs times that total."
+  ],
+  "question": "Find the sum of the first $25$ terms of the series $4 + 9 + 14 + \\dots$"
+ },
+ {
+  "skill": "seq-arith-find-ad",
+  "title": "Find a and d from given terms or sums",
+  "chapter": "Sequences & Series",
+  "level": "OL",
+  "input": "two facts about the sequence",
+  "output": "a, d",
+  "example": "T₃ = 11, T₇ = 23 → a = 5, d = 3",
+  "what": [
+   "You give it two facts about an arithmetic sequence, such as two of its terms. It finds the first term $a$ and the common difference $d$.",
+   "The key idea: each fact becomes an equation in $a$ and $d$ using $T_n = a + (n-1)d$. Two equations in two unknowns can then be solved."
+  ],
+  "question": "In an arithmetic sequence, $T_4 = 14$ and $T_9 = 34$. Find $a$, the first term, and $d$, the common difference."
+ },
+ {
+  "skill": "seq-quadratic",
+  "title": "Find the nth term of a quadratic sequence",
+  "chapter": "Sequences & Series",
+  "level": "OL",
+  "input": "terms with constant second difference",
+  "output": "Tₙ = an² + bn + c",
+  "example": "2, 7, 14, 23 → n² + 2n − 1",
+  "what": [
+   "You give it terms where the **second difference** is the same every time. It finds the formula $T_n = an^2 + bn + c$.",
+   "The key idea: the second difference equals $2a$, which gives $a$ straight away. Two terms then give two equations for $b$ and $c$."
+  ],
+  "question": "The first four terms of a quadratic sequence are $6, 11, 18, 27, \\dots$ Find the formula for $T_n$ in the form $T_n = n^2 + bn + c$."
+ },
+ {
+  "skill": "seq-sigma",
+  "title": "Evaluate a series in Σ notation",
+  "chapter": "Sequences & Series",
+  "level": "HL",
+  "input": "Σ expression",
+  "output": "value",
+  "example": "Σ_{r=1}^{10} (2r + 1) → 120",
+  "what": [
+   "You give it a sum written with $\\Sigma$, like $\\sum_{r=1}^{12}(3r-2)$. It gives back one **value**.",
+   "The key idea: $\\Sigma$ just means add up the terms for $r = 1, 2, 3, \\dots$ up to the top number. If the terms go up by the same amount each time, it is an arithmetic series and you use its sum formula."
+  ],
+  "question": "Evaluate $\\sum_{r=1}^{12}(3r-2)$."
+ },
+ {
+  "skill": "seq-geo-nth",
+  "title": "Find the nth term of a geometric sequence",
+  "chapter": "Sequences & Series",
+  "level": "HL",
+  "input": "a, r (or terms)",
+  "output": "Tₙ = arⁿ⁻¹",
+  "example": "3, 6, 12 → Tₙ = 3·2ⁿ⁻¹",
+  "what": [
+   "You give it the first term $a$ and the common ratio $r$ of a geometric sequence. It gives back a formula for the **nth term**, $T_n$.",
+   "The key idea: each step multiplies by $r$. To reach term $n$ you have multiplied $n - 1$ times, so $T_n = ar^{n-1}$."
+  ],
+  "question": "A geometric sequence has $T_2 = 6$ and $T_5 = 162$. Find $a$, $r$ and a formula for $T_n$."
+ },
+ {
+  "skill": "seq-geo-sum",
+  "title": "Sum n terms of a geometric series",
+  "chapter": "Sequences & Series",
+  "level": "HL",
+  "input": "a, r, n",
+  "output": "Sₙ = a(1 − rⁿ)/(1 − r)",
+  "example": "3 + 6 + … to 6 terms → 189",
+  "what": [
+   "You give it $a$, $r$ and $n$ for a geometric series. It gives back the **sum** of the first $n$ terms.",
+   "The key idea: multiply the whole sum by $r$ and subtract. Nearly every term cancels, which leaves the formula $S_n = \\frac{a(1-r^n)}{1-r}$."
+  ],
+  "question": "Find the sum of the first $8$ terms of the series $4 + 12 + 36 + \\dots$"
+ },
+ {
+  "skill": "seq-limits",
+  "title": "Find limits of sequences by inspection and limit rules",
+  "chapter": "Sequences & Series",
+  "level": "HL",
+  "input": "sequence",
+  "output": "limit",
+  "example": "lim n/(n + 1) → 1; lim rⁿ (|r| < 1) → 0",
+  "what": [
+   "You give it a sequence $T_n$. It tells you the **limit**: the number the terms get close to as $n$ gets very large.",
+   "The key idea: fractions like $\\frac{1}{n}$ and powers $r^n$ with $|r| < 1$ go to $0$. Split the sequence into pieces, divide by the top power of $n$, and use the limit rules."
+  ],
+  "question": "Find $\\lim_{n \\to \\infty}\\left[\\frac{4n+1}{n+3} + \\left(\\frac{2}{5}\\right)^n\\right]$."
+ },
+ {
+  "skill": "seq-verify-formula",
+  "title": "Verify and justify a formula from a number pattern",
+  "chapter": "Sequences & Series",
+  "level": "HL",
+  "input": "pattern + proposed formula",
+  "output": "checked/justified formula",
+  "example": "1 + 3 + 5 + … + (2n − 1) = n²",
+  "what": [
+   "You give it a formula that claims to give the sum, or the $n$th term, of a pattern. It proves the formula is true for **every** $n$, not just the ones you tried.",
+   "The key idea is induction: show it works for $n = 1$, then show that if it works for one number $k$, it must work for the next one, $k+1$. Each case then pulls the next one along."
+  ],
+  "question": "Prove by induction that $2 + 4 + 6 + \\dots + 2n = n(n+1)$ for all $n \\in \\mathbb{N}$."
+ },
+ {
+  "skill": "seq-geo-sum-infinity",
+  "title": "Sum an infinite geometric series",
+  "chapter": "Sequences & Series",
+  "level": "HL",
+  "input": "a, r with |r| < 1",
+  "output": "S∞ = a/(1 − r)",
+  "example": "8 + 4 + 2 + … → 16",
+  "what": [
+   "You give it a geometric series with first term $a$ and common ratio $r$, where $r$ is between $-1$ and $1$. It gives back the **sum** of all the terms, even though there are infinitely many.",
+   "The key idea: when $|r| < 1$ the terms shrink towards zero, so the total settles at a fixed number, $S_\\infty = \\dfrac{a}{1-r}$."
+  ],
+  "question": "Find the sum to infinity of the series $20 + 12 + 7{\\cdot}2 + \\dots$"
+ },
+ {
+  "skill": "seq-geo-unknown-n",
+  "title": "Find the number of terms needed in a geometric series",
+  "chapter": "Sequences & Series",
+  "level": "HL",
+  "input": "a, r, target term/sum",
+  "output": "n via logs",
+  "example": "2ⁿ⁻¹ > 1000 → n = 11",
+  "what": [
+   "You give it a geometric series and a target, such as a term that must pass a value. It finds the **number of terms** $n$ needed.",
+   "The key idea: $n$ sits in a power, so take logs to bring it down. Then round $n$ to a whole number the right way."
+  ],
+  "question": "A geometric sequence has first term $3$ and common ratio $2$. Find the least value of $n$ for which $T_n > 5000$."
+ },
+ {
+  "skill": "seq-recurring-decimal",
+  "title": "Write a recurring decimal as a fraction",
+  "chapter": "Sequences & Series",
+  "level": "HL",
+  "input": "recurring decimal",
+  "output": "fraction via S∞",
+  "example": "0.454545… → 5/11",
+  "what": [
+   "You give it a recurring decimal such as $0.272727\\dots$ It gives back the same number as a **fraction**.",
+   "The key idea: a recurring decimal is a geometric series. The repeating block is the first term $a$, and shifting along one block multiplies by $r = \\frac{1}{10^k}$, so $S_\\infty$ gives the fraction."
+  ],
+  "question": "Write $0.272727\\dots$ as a fraction in its simplest form, using the sum to infinity."
+ },
+ {
+  "skill": "seq-convergence-range",
+  "title": "Find values of x for which a geometric series converges",
+  "chapter": "Sequences & Series",
+  "level": "HL",
+  "input": "series with r in terms of x",
+  "output": "interval of x",
+  "example": "Σ (2x)ⁿ → −½ < x < ½",
+  "what": [
+   "You give it a geometric series whose ratio $r$ contains $x$. It finds the interval of $x$ for which the series has a **sum to infinity**.",
+   "The key idea: a geometric series converges only when $|r| < 1$. So write $r$ in terms of $x$, then solve that modulus inequality."
+  ],
+  "question": "The geometric series $1 + \\dfrac{x+1}{3} + \\left(\\dfrac{x+1}{3}\\right)^2 + \\cdots$ has a sum to infinity. Find the values of $x$ for which the series converges."
+ },
+ {
+  "skill": "seq-derive-sum-infinity",
+  "title": "Derive S∞ as the limit of partial sums",
+  "chapter": "Sequences & Series",
+  "level": "HL",
+  "input": "Sₙ formula",
+  "output": "S∞ = a/(1 − r)",
+  "example": "lim a(1 − rⁿ)/(1 − r) = a/(1 − r)",
+  "what": [
+   "You give it the formula for the sum of the first $n$ terms, $S_n$. It finds what $S_n$ settles down to as $n$ grows, which is $S_\\infty = \\dfrac{a}{1-r}$.",
+   "The key idea: when $|r| < 1$, the power $r^n$ shrinks to $0$. The only part of $S_n$ left is $\\dfrac{a}{1-r}$."
+  ],
+  "question": "The sum of the first $n$ terms of a geometric series is $S_n = \\dfrac{a(1-r^n)}{1-r}$. Use this to show that $6 + 3 + \\dfrac{3}{2} + \\cdots$ has a sum to infinity of $12$."
+ },
+ {
+  "skill": "stat-data-types",
+  "title": "Classify data",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "variable description",
+  "output": "categorical (nominal/ordinal) or numerical (discrete/continuous); univariate/bivariate",
+  "example": "shoe size → numerical discrete",
+  "what": [
+   "You give it a description of a variable. It says whether the data is **categorical** (nominal or ordinal) or **numerical** (discrete or continuous).",
+   "The key idea: ask two questions. Is it a number you can do arithmetic with? If so, can it take any value in a range (continuous) or only separate values like whole numbers (discrete)?"
+  ],
+  "question": "A school collects data on its students. Classify each variable as categorical nominal, categorical ordinal, numerical discrete or numerical continuous. How many of the three are numerical?\n(i) Shoe size (whole and half sizes)\n(ii) Favourite subject\n(iii) Time taken to run 100 m"
+ },
+ {
+  "skill": "stat-populations-samples",
+  "title": "Distinguish population and sample; judge generalisation",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "study description",
+  "output": "population, sample, how far conclusions generalise",
+  "example": "100 students from one school ≠ all Irish students",
+  "what": [
+   "You give it a description of a study. It names the **population** (everyone the question is about), the **sample** (the part actually studied) and says how far the conclusions reach.",
+   "The key idea: conclusions only apply to the population the sample was drawn from. A sample from one school cannot speak for all schools."
+  ],
+  "question": "A researcher asks 100 students in one Dublin school how many hours they sleep. She wants to know about all 400 000 second-level students in Ireland. Name the population and the sample. Can she use the result for all Irish students? Give a reason."
+ },
+ {
+  "skill": "stat-averages",
+  "title": "Find mean, median and mode (incl. frequency tables)",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "JC",
+  "input": "data set or frequency table",
+  "output": "mean, median, mode",
+  "example": "2, 3, 3, 8 → mean 4, median 3, mode 3",
+  "what": [
+   "You give it a list of numbers, or a **frequency table**. It gives back three ways to say what is typical: the mean, the median and the mode.",
+   "The key idea: the mean shares the total out equally, the median is the middle value once the data is in order, and the mode is the value that turns up most."
+  ],
+  "question": "The table shows the number of books 20 students read last month.\nBooks read, $x$: 1, 2, 3, 4, 5\nNumber of students, $f$: 2, 3, 6, 4, 5\nFind the mean, the median and the mode."
+ },
+ {
+  "skill": "stat-charts",
+  "title": "Draw bar, pie, line plot, histogram and stem-and-leaf",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "JC",
+  "input": "data set",
+  "output": "correct graph",
+  "example": "pie: 15 of 60 → 90° sector",
+  "what": [
+   "You give it a set of data. It gives back a **graph** that shows the data clearly: bar chart, pie chart, line plot, histogram or stem-and-leaf.",
+   "The key idea: each item must be drawn in proportion to its size. For a pie chart that means sharing $360^\\circ$ out in proportion to the frequencies."
+  ],
+  "question": "60 students were asked how they travel to school.\nBus: 24, Car: 18, Walk: 12, Cycle: 6\nFind the angle for each sector of a pie chart of this data."
+ },
+ {
+  "skill": "stat-srs-bias",
+  "title": "Select a simple random sample and spot bias",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "population + sampling method",
+  "output": "SRS procedure; source of bias",
+  "example": "phone poll at 11am → biased against workers",
+  "what": [
+   "You give it a population and a way of picking people from it. It tells you whether the sample is a **simple random sample**, and if not, where the bias comes from.",
+   "The key idea: in a simple random sample every member has the same chance of being picked. If some people are more likely to be picked, or left out, the sample is biased."
+  ],
+  "question": "A school has 600 students. The principal wants to survey 30 of them about the canteen. She asks the first 30 students who arrive at school in the morning.\nGive one reason this sample could be biased. Describe how to pick a simple random sample of 30 instead."
+ },
+ {
+  "skill": "stat-study-types",
+  "title": "Identify surveys, observational studies and designed experiments",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "study description",
+  "output": "type with reason",
+  "example": "random diet assignment → designed experiment",
+  "what": [
+   "You give it a description of a study. It names the type: a **survey**, an observational study or a designed experiment.",
+   "The key idea: ask whether the researcher changed anything. A survey asks questions, an observational study only watches, and an experiment assigns people to different treatments."
+  ],
+  "question": "A researcher wants to know if a new fertiliser makes tomato plants grow taller. She splits 40 plants at random into two equal groups. One group gets the fertiliser and the other does not. After 6 weeks she measures every plant.\nWhat type of study is this? Give a reason."
+ }
+]

@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "con-21",
+  "title": "Construction 21: Centroid of a triangle",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "OL",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a triangle. It finds the **centroid** $G$, the balance point where the three medians meet.",
+   "The key idea: a median runs from a vertex to the midpoint of the opposite side, and the centroid sits two thirds of the way along it. On coordinates, it is the average of the vertices."
+  ],
+  "question": "The triangle $ABC$ has vertices $A(1, 2)$, $B(7, 4)$ and $C(4, 9)$. Find the midpoint $D$ of $[BC]$, then find the centroid $G$ of the triangle."
+ },
+ {
+  "skill": "logic-terms",
+  "title": "Use the language of deductive reasoning",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "OL",
+  "input": "statement or argument",
+  "output": "correct use of theorem, proof, axiom, corollary, converse, implies",
+  "example": "converse of Theorem 14 is Theorem 15",
+  "what": [
+   "You give it a statement or an argument. It uses the right word for each part: **theorem**, **proof**, **axiom**, **corollary**, **converse**, **implies**.",
+   "The key idea: the **converse** swaps the two halves of \"if … then …\". The converse of a true statement can be false."
+  ],
+  "question": "Statement: \"If $x = 3$, then $x^2 = 9$.\" (a) Write down the converse. (b) Is the converse true or false? Give a reason."
+ },
+ {
+  "skill": "con-7",
+  "title": "Construction 7: Divide a segment into any number of equal parts without measuring",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "HL",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a segment $[AB]$ and a number $n$. It cuts the segment into $n$ **equal parts** without measuring.",
+   "The key idea: parallel lines cut equal pieces off any two lines they cross. Step off equal pieces on a spare ray, then carry them across to $[AB]$ with parallels."
+  ],
+  "question": "Divide the segment $[AB]$ into three equal parts, using only a compass and straight edge."
+ },
+ {
+  "skill": "con-22",
+  "title": "Construction 22: Orthocentre of a triangle",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "HL",
+  "input": "given points/lines/measurements",
+  "output": "accurate construction with construction lines shown",
+  "example": "",
+  "what": [
+   "You give it a triangle. It finds the **orthocentre**, the point where the three altitudes meet.",
+   "The key idea: an altitude is a line from a vertex perpendicular to the opposite side. Draw two of them and where they cross is the orthocentre."
+  ],
+  "question": "Construct the orthocentre of the triangle $ABC$."
+ },
+ {
+  "skill": "num-construct-root2-3",
+  "title": "Construct √2 and √3 geometrically",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "HL",
+  "input": "unit length",
+  "output": "segments of length √2, √3",
+  "example": "right triangle 1, 1 → √2; then 1, √2 → √3",
+  "what": [
+   "You give it a unit length. It builds segments of length $\\sqrt{2}$ and $\\sqrt{3}$ with a compass and straight edge.",
+   "The key idea: Pythagoras. A right angle with sides $1$ and $1$ has hypotenuse $\\sqrt{2}$. Put $1$ against that, and the hypotenuse is $\\sqrt{3}$."
+  ],
+  "question": "Starting with a segment of length 1 unit, construct a segment of length $\\sqrt{3}$ units. Show by calculation that its length is $\\sqrt{3}$."
+ },
+ {
+  "skill": "logic-terms-hl",
+  "title": "Use equivalence, \"if and only if\" and proof by contradiction",
+  "chapter": "Geometry - Constructions & Proofs",
+  "level": "HL",
+  "input": "statement",
+  "output": "equivalent form, iff statement, contradiction structure",
+  "example": "P ⇔ Q means P ⇒ Q and Q ⇒ P",
+  "what": [
+   "You give it a statement. It tells you whether $P \\Leftrightarrow Q$ (\"$P$ if and only if $Q$\") is **true**, by checking both directions, or whether a **contradiction** shows it cannot hold.",
+   "The key idea: $P \\Leftrightarrow Q$ means $P \\Rightarrow Q$ and $Q \\Rightarrow P$. If either direction fails, the statement is false."
+  ],
+  "question": "Prove that $2x + 3 = 11$ if and only if $x = 4$."
+ },
+ {
+  "skill": "ind-laws",
+  "title": "Apply the laws of indices",
+  "chapter": "Indices and Logs",
+  "level": "OL",
+  "input": "expression with powers",
+  "output": "simplified power",
+  "example": "a³·a⁵ / a² → a⁶",
+  "what": [
+   "You give it an expression made of **powers**. It gives back one simplified power.",
+   "The key idea: when the base is the same, the laws turn the work on the powers into work on the **indices**. Multiply and you add. Divide and you subtract. Power of a power and you multiply."
+  ],
+  "question": "Write $\\dfrac{(3^4)^2 \\times 3^5}{3^9}$ as a single power of $3$, and hence evaluate it."
+ },
+ {
+  "skill": "ind-negative-fractional",
+  "title": "Evaluate negative and fractional indices",
+  "chapter": "Indices and Logs",
+  "level": "OL",
+  "input": "a^(−p/q)",
+  "output": "value or root form",
+  "example": "8^(−2/3) → 1/4",
+  "what": [
+   "You give it a power with a **negative** or **fractional** index, like $16^{-3/4}$. It gives back a plain value or a root.",
+   "The key idea: a minus means **flip** to the reciprocal. In a fraction index the bottom is the **root** and the top is the power."
+  ],
+  "question": "Evaluate $16^{-\\frac{3}{4}}$ without a calculator."
+ },
+ {
+  "skill": "ind-express-as-power",
+  "title": "Write an expression as a power of a base",
+  "chapter": "Indices and Logs",
+  "level": "OL",
+  "input": "expression with roots/fractions",
+  "output": "base^k",
+  "example": "√8 / 4 → 2^(−1/2)",
+  "what": [
+   "You give it an expression with **roots** and fractions, like $\\dfrac{\\sqrt{27}}{9}$. It gives back one base with one index.",
+   "The key idea: write every number as a power of the **same base** first. A root is an index of $\\frac12$, and a fraction is a minus index."
+  ],
+  "question": "Write $\\dfrac{\\sqrt{27}}{9}$ as a power of $3$."
+ },
+ {
+  "skill": "ind-solve-equation",
+  "title": "Solve an exponential equation with a common base",
+  "chapter": "Indices and Logs",
+  "level": "OL",
+  "input": "aᶠ⁽ˣ⁾ = aᵍ⁽ˣ⁾",
+  "output": "x",
+  "example": "4ˣ = 8^(x − 1) → x = 3",
+  "what": [
+   "You give it an equation with powers on both sides, like $4^{x+2} = 32^{x-1}$. It gives back the value of $x$.",
+   "The key idea: if both sides are powers of the **same base**, the indices must be equal. Then you only have a linear equation to solve."
+  ],
+  "question": "Solve $4^{x+2} = 32^{x-1}$ for $x$."
+ },
+ {
+  "skill": "log-definition",
+  "title": "Convert between log and index form (incl. e and ln)",
+  "chapter": "Indices and Logs",
+  "level": "HL",
+  "input": "log or exponential statement",
+  "output": "equivalent form / value",
+  "example": "log₂ 8 = 3 ⇔ 2³ = 8; eˣ = 5 ⇔ x = ln 5",
+  "what": [
+   "You give it a log or an exponential statement. It gives back the same statement in the **other** form, or a value.",
+   "The key idea: a log is a **power**. $\\log_a b = c$ means $a^c = b$, and $\\ln$ is just $\\log_e$."
+  ],
+  "question": "Solve $\\ln(2x + 1) = 3$ for $x$. Give your answer correct to 2 decimal places."
+ },
+ {
+  "skill": "log-laws",
+  "title": "Apply the laws of logs",
+  "chapter": "Indices and Logs",
+  "level": "HL",
+  "input": "log expression",
+  "output": "single log or value",
+  "example": "log₂ 12 − log₂ 3 → 2",
+  "what": [
+   "You give it a log expression. It gives back a **single log** or a value.",
+   "The key idea: logs of the same base turn multiplying into adding, dividing into subtracting, and a power into a number in front."
+  ],
+  "question": "Find the value of $2\\log_3 6 + \\log_3 15 - \\log_3 20$."
+ },
+ {
+  "skill": "log-change-base",
+  "title": "Change the base of a log",
+  "chapter": "Indices and Logs",
+  "level": "HL",
+  "input": "logₐ x",
+  "output": "log_b x / log_b a",
+  "example": "log₄ 8 → 3/2",
+  "what": [
+   "You give it a log in a base you do not like, $\\log_a x$. It gives back a **fraction** of two logs in a base you choose.",
+   "The key idea: $\\log_a x = \\dfrac{\\log_b x}{\\log_b a}$. Pick a base $b$ that makes both logs easy, usually the base both numbers are powers of."
+  ],
+  "question": "Find the value of $\\log_8 32$ as a fraction."
+ },
+ {
+  "skill": "log-solve",
+  "title": "Solve a log equation",
+  "chapter": "Indices and Logs",
+  "level": "HL",
+  "input": "equation in logs",
+  "output": "x (reject invalid arguments)",
+  "example": "log₂(x + 2) + log₂ x = 3 → x = 2",
+  "what": [
+   "You give it an equation with logs in it. It gives back $x$, and throws away any value that makes a log undefined.",
+   "The key idea: combine the logs into one, write it as a power to remove the log, solve what is left, then **check** each answer."
+  ],
+  "question": "Solve $\\log_2(x + 6) + \\log_2 x = 4$."
+ },
+ {
+  "skill": "log-solve-exponential",
+  "title": "Solve aˣ = b by taking logs",
+  "chapter": "Indices and Logs",
+  "level": "HL",
+  "input": "aˣ = b",
+  "output": "x",
+  "example": "3ˣ = 20 → x = ln 20 / ln 3 ≈ 2.727",
+  "what": [
+   "You give it an equation with the unknown in the **power**, like $a^{x} = b$. It finds $x$.",
+   "The key idea: taking a log of both sides lets the log law $\\ln a^{x} = x \\ln a$ bring the exponent down to ground level, where you can solve for it."
+  ],
+  "question": "A town's population is modelled by $P(t) = 200(1.05)^{t}$, where $t$ is the time in years. Find, correct to one decimal place, when the population reaches $500$."
+ },
+ {
+  "skill": "ind-hidden-quadratic",
+  "title": "Solve an exponential equation reducible to a quadratic",
+  "chapter": "Indices and Logs",
+  "level": "HL",
+  "input": "a^(2x) + b·aˣ + c = 0",
+  "output": "x",
+  "example": "2^(2x) − 6·2ˣ + 8 = 0 → x = 1, 2",
+  "what": [
+   "You give it an equation with $a^{2x}$, $a^{x}$ and a number, like $a^{2x} + b\\,a^{x} + c = 0$. It finds $x$.",
+   "The key idea: $a^{2x} = (a^{x})^{2}$, so call $a^{x}$ by one letter and the equation is an ordinary **quadratic**. Solve it, then turn each answer back into $x$."
+  ],
+  "question": "Solve $3^{2x} + 6 \\cdot 3^{x} - 27 = 0$ for $x \\in \\mathbb{R}$."
+ },
+ {
+  "skill": "induction-sum",
+  "title": "Prove a series identity by induction",
+  "chapter": "Induction",
+  "level": "HL",
+  "input": "Σ identity",
+  "output": "proof (base case, assume k, prove k + 1)",
+  "example": "1 + 2 + … + n = n(n + 1)/2",
+  "what": [
+   "You give it a formula for a sum, $\\Sigma$, that you are told is true for every $n$. It **proves** it in three moves.",
+   "Show it works for $n = 1$. Assume it works for $n = k$. Then use that to show it works for $n = k + 1$."
+  ],
+  "question": "Prove by induction that $1 + 3 + 5 + \\cdots + (2n - 1) = n^2$ for all $n \\in \\mathbb{N}$."
+ },
+ {
+  "skill": "induction-geo-sum",
+  "title": "Prove the finite geometric series sum by induction",
+  "chapter": "Induction",
+  "level": "HL",
+  "input": "a + ar + … + arⁿ⁻¹",
+  "output": "proof",
+  "example": "Sₙ = a(1 − rⁿ)/(1 − r)",
+  "what": [
+   "You give it the sum formula for a geometric series, $a + ar + \\cdots + ar^{n-1} = \\frac{a(1 - r^{n})}{1 - r}$. It **proves** it is true for every $n \\ge 1$.",
+   "Induction is a line of dominoes. Show the first one falls. Then show that any one falling knocks the next. For a sum, the next sum is the last sum plus one new term."
+  ],
+  "question": "Prove by induction that $5 + 15 + 45 + \\cdots + 5(3^{n-1}) = \\frac{5(3^{n} - 1)}{2}$ for all $n \\in \\mathbb{N}$."
+ },
+ {
+  "skill": "induction-divisibility",
+  "title": "Prove a divisibility result by induction",
+  "chapter": "Induction",
+  "level": "HL",
+  "input": "statement \"d divides f(n)\"",
+  "output": "proof",
+  "example": "3 divides 4ⁿ − 1",
+  "what": [
+   "You give it a claim that a number $d$ divides an expression in $n$, like \"$3$ divides $4^{n} + 2$\". It **proves** it for every $n \\ge 1$.",
+   "The key idea: assume it for $n = k$ by writing the expression as a multiple of $d$. Then rebuild the $n = k + 1$ expression out of that multiple and take out a factor of $d$."
+  ],
+  "question": "Prove by induction that $4^{n} + 2$ is divisible by $3$ for all $n \\in \\mathbb{N}$."
+ },
+ {
+  "skill": "induction-inequality",
+  "title": "Prove an inequality by induction",
+  "chapter": "Induction",
+  "level": "HL",
+  "input": "inequality in n with starting value",
+  "output": "proof",
+  "example": "n! > 2ⁿ (n ≥ 4); (1 + x)ⁿ ≥ 1 + nx",
+  "what": [
+   "You give it an inequality in $n$ and a starting value. It **proves** the inequality holds for every $n$ from that value on.",
+   "The key idea: show it is true for the first value, then show that if it is true for $n = k$ it must be true for $n = k+1$. The first value starts the chain and the step keeps it going."
+  ],
+  "question": "Prove by induction that $2^n > 2n$ for all $n \\ge 3$, $n \\in \\mathbb{N}$."
+ },
+ {
+  "skill": "proof-root2-irrational",
+  "title": "Prove √2 is irrational by contradiction",
+  "chapter": "Induction",
+  "level": "HL",
+  "input": "assumption √2 = p/q in lowest terms",
+  "output": "contradiction",
+  "example": "p² = 2q² ⇒ p, q both even",
+  "what": [
+   "You start by assuming $\\sqrt{2} = \\frac{p}{q}$ in lowest terms. The method shows this assumption **contradicts** itself, so $\\sqrt{2}$ cannot be rational.",
+   "The key idea: squaring gives $p^2 = 2q^2$, which forces $p$ and then $q$ to be even. Two even numbers share a factor $2$, and that breaks \"lowest terms\"."
+  ],
+  "question": "Prove that $\\sqrt{3}$ is irrational."
+ },
+ {
+  "skill": "int-reverse",
+  "title": "Treat integration as reverse differentiation",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "f(x)",
+  "output": "F(x) + c with F′ = f",
+  "example": "d/dx(x³) = 3x² → ∫3x² dx = x³ + c",
+  "what": [
+   "You give it a function $f(x)$. It finds a function $F(x)$ whose **derivative** is $f(x)$, then adds $+c$.",
+   "The key idea: integrating undoes differentiating. Ask which expression you would differentiate to get $f(x)$, and check by differentiating your answer."
+  ],
+  "question": "Find $\\int 8x^3 \\, dx$."
+ },
+ {
+  "skill": "int-power",
+  "title": "Integrate powers, sums and constant multiples",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "Σ kxᵃ, a ∈ Q",
+  "output": "antiderivative + c",
+  "example": "∫(3x² − 4x) dx → x³ − 2x² + c; ∫√x dx → ⅔x^(3/2) + c",
+  "what": [
+   "You give it a sum of terms $kx^a$. It integrates each term and adds $+c$.",
+   "The key idea: for each term, **add 1** to the power, then **divide** by the new power. Turn roots and fractions into powers first."
+  ],
+  "question": "Find $\\int \\left(6x^2 - 10x + 3\\sqrt{x}\\right) dx$."
+ },
+ {
+  "skill": "int-reciprocal",
+  "title": "Integrate 1/x",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "1/x",
+  "output": "ln|x| + c",
+  "example": "∫(2/x) dx → 2 ln|x| + c",
+  "what": [
+   "You give it $\\frac{1}{x}$. It gives back $\\ln|x| + c$, the function whose slope is $\\frac{1}{x}$.",
+   "The key idea: $\\frac{d}{dx}\\ln x = \\frac{1}{x}$, so integrating runs it backwards. A constant on top just comes along for the ride."
+  ],
+  "question": "Evaluate $\\int_2^6 \\frac{3}{x}\\,dx$. Give your answer in the form $a\\ln b$, where $a, b \\in \\mathbb{N}$."
+ },
+ {
+  "skill": "int-exponential",
+  "title": "Integrate exponentials",
+  "chapter": "Integration",
+  "level": "HL",
+  "input": "e^(ax), aˣ",
+  "output": "(1/a)e^(ax) + c, aˣ/ln a + c",
+  "example": "∫e^(2x) dx → ½e^(2x) + c",
+  "what": [
+   "You give it $e^{ax}$. It gives back $\\frac{1}{a}e^{ax} + c$.",
+   "The key idea: differentiating $e^{ax}$ brings down a factor of $a$. To undo that, divide by $a$."
+  ],
+  "question": "Find the value of $k$ such that $\\int_0^k e^{4x}\\,dx = 15$. Give your answer in terms of $\\ln$."
+ }
+]
