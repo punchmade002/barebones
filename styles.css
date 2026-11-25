@@ -6242,6 +6242,26 @@ body.onboarding-open .timer-widget {
 .crunch-switch input:focus-visible + .crunch-switch-track { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .crunch-setup { --crunch-control-w: min(100%, 38rem); }
+/* Options the student studies (Geography, History) */
+.crunch-picks { display: flex; flex-wrap: wrap; gap: 0.4rem; width: var(--crunch-control-w); }
+.crunch-picks button {
+  width: auto;
+  padding: 0.4rem 0.8rem;
+  background: var(--panel-2);
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-full);
+  box-shadow: none;
+  color: var(--ink-2);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: left;
+}
+.crunch-picks button:hover { border-color: var(--accent-light); background: var(--panel-2); color: var(--accent-strong); transform: none; }
+.crunch-picks button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fffaf5; }
+.crunch-label small { font-weight: 600; letter-spacing: 0; text-transform: none; }
+.crunch-bar .crunch-picks button { background: rgba(237, 235, 230, 0.06); border-color: rgba(237, 235, 230, 0.14); color: #D8D4CB; }
+.crunch-bar .crunch-picks button:hover { border-color: var(--accent-3); color: var(--accent-3); }
+.crunch-bar .crunch-picks button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fffaf5; }
 .crunch-grades {
   display: flex;
   width: var(--crunch-control-w);

@@ -353,7 +353,12 @@ Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the
   - Study time per skill comes from its lesson pack (maths-skills/): Learn-phase words at 40 a minute, plus every
     practice problem at 1 minute a mark (twice exam pace: 150 minutes for 300 marks). Higher totals 181 h against
     the syllabus's 180 hours. Ordinary is 93 h. cost = minutes / 30.
-- shortcut: this branch's bank stops at 2025, so the script reads maths-older's bank (2015–2026) while that's unmerged.
+- The bank on this branch now covers 2015–2026 HL and OL (maths-older's finished 2026 work, committed there as
+  71c4bf9f and brought in with its crops, 2026-11-25). Master still stops at 2025.
+- 2026 out of sample: plans built from 2015–2025 only, marked on the real 2026 papers. Higher reaches H1 (95%),
+  H2 (87%), H3 (80%) and H5 (57%), and misses H4 (64.6 for 65) and H6 (41 for 45). Ordinary reaches O1 (96%), O2 (87%),
+  O3 (81%), O5 (56%) and O6 (48%), and misses O4 (62 for 65). Adding 2026 to training changes 3–17 skills a grade
+  and the cut by 1% at most, so the plan is stable.
 - Backtest (test years 2020–2026):
   - Higher: H1 cuts 29% of study time and 6 of 7 papers reach H1; H2 48%, 6/7; H3 60%, 5/7; H4 71%, 6/7.
   - Ordinary: O1 39%, 6/7; O2 58%, 5/7; O3 68%, 6/7; O4 75%, 6/7.

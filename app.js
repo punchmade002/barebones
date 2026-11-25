@@ -2453,7 +2453,8 @@ function renderOutcomes() {
   // Crunch Mode: crunched flashcards leave the deck unless "Show crunched points" is on (see crunchFilter)
   const crunchAt = ownDeck ? null : crunchFilter();
   const sourceId = String(outcome.id).replace(/-core$/, "");
-  const crunchStates = cardsForOutcome(outcome, selectedSubjectId).map((c, i) => [c, crunchAt ? crunchAt.card(sourceId, i) : 0]);
+  const sourceNotes = crunchAt ? getOriginalChapter(chapter.id)?.learningOutcomes?.find((lo) => lo.id === sourceId)?.notes : null;
+  const crunchStates = cardsForOutcome(outcome, selectedSubjectId).map((c) => [c, crunchAt ? crunchAt.card(sourceId, c, sourceNotes) : 0]);
   const crunchedCards = crunchStates.filter(([, st]) => st === 1).length;
   const crunchHiddenCards = crunchStates.filter(([, st]) => st).length;
   const deck = crunchStates.filter(([, st]) => st === 0 || (st === 1 && crunchReveal)).map(([c, st]) => (st ? { ...c, crunched: true } : c));
@@ -5021,15 +5022,47 @@ const crunchEffective = (s) => (crunchFirstPass(s) ? { ...s, grade: CRUNCH_FIRST
 
 // null when Crunch Mode is off (or the subject has no Crunch data); otherwise each point's state:
 // 0 shown, 1 crunched ("Show crunched points" brings it back), 2 gone (low value, with "Completely hide" on).
-// .card(outcomeId, index) gives the same for a flashcard.
+// .card(outcomeId, card, notes) gives the same for a flashcard (see crunchCardLevel).
 function crunchFilter(subjectId = selectedSubjectId) {
   const data = crunchData(subjectId), settings = crunchSettings(subjectId);
   if (!data || !settings.on) return null;
   const core = crunchNeed(data, crunchEffective(settings)), target = crunchNeed(data, settings);
-  const state = (level) => (level == null || level < core ? 0 : settings.hideAll && level >= target ? 2 : 1);
+  const fix = crunchLevelFor(data, settings);
+  const state = (raw) => { const level = fix(raw); return level == null || level < core ? 0 : settings.hideAll && level >= target ? 2 : 1; };
   const filter = (outcomeId, key) => state(data.levels[outcomeId]?.[key]?.[0]);
-  filter.card = (outcomeId, index) => state(data.cards?.[outcomeId]?.[index]);
+  filter.card = (outcomeId, card, notes) => state(crunchCardLevel(data, outcomeId, card, notes));
   return filter;
+}
+
+// A flashcard's level: the export's (matched by term), or else the level of the note point in its subsection that
+// shares the most words with it, the term's words counting triple (the same rule as scripts/crunch_export.js).
+// Some subjects show more flashcards than their content files' key terms. null = never crunched.
+const CRUNCH_STOP = new Set("the and for are that this with from into its their they them than then also which what when where while been being have has had was were will can not but all any each other such these those more most some only very used use uses using one two how why does".split(" "));
+const crunchWordSet = (t) => new Set((String(t).toLowerCase().match(/[a-z0-9]+/g) || []).filter((w) => w.length > 2 && !CRUNCH_STOP.has(w)));
+const crunchPointWords = new Map(); // "subject|subsection" → [[key, words]]
+function crunchCardLevel(data, sid, card, notes) {
+  const exported = data.cards?.[sid]?.[String(card.term || "").trim().toLowerCase()];
+  if (exported !== undefined || !notes?.length) return exported ?? null;
+  const cacheKey = `${data.subject}|${sid}`;
+  let pts = crunchPointWords.get(cacheKey);
+  if (!pts) {
+    pts = [];
+    notes.forEach((block, bi) => {
+      if (block.b && String(block.b).trim()) pts.push([`${bi}.b`, crunchWordSet(`${block.h || ""} ${block.b}`)]);
+      (block.points || []).forEach((pt, pi) => { if (String(pt).trim()) pts.push([`${bi}.${pi}`, crunchWordSet(`${block.h || ""} ${pt}`)]); });
+    });
+    crunchPointWords.set(cacheKey, pts);
+  }
+  const term = crunchWordSet(card.term), def = crunchWordSet(card.definition);
+  let best = null, bestScore = 0;
+  for (const [key, words] of pts) {
+    if (!data.levels[sid]?.[key]) continue;
+    let score = 0;
+    for (const w of term) if (words.has(w)) score += 3;
+    for (const w of def) if (words.has(w)) score++;
+    if (score > bestScore) { bestScore = score; best = key; }
+  }
+  return best ? data.levels[sid][best][0] : null;
 }
 
 function crunchPageNote() {
@@ -5046,7 +5079,7 @@ function crunchPageNote() {
 }
 
 // Subjects with Crunch data. The file loads with the subject page itself: the home shows the Crunch bar or tile.
-const CRUNCH_FILES = { biology: "./biology-crunch.js?v=3", pe: "./pe-crunch.js?v=2", maths: ["./maths-crunch.js?v=1", "./maths-ordinary-crunch.js?v=1"] };
+const CRUNCH_FILES = { biology: "./biology-crunch.js?v=4", pe: "./pe-crunch.js?v=4", geography: "./geography-crunch.js?v=2", maths: ["./maths-crunch.js?v=1", "./maths-ordinary-crunch.js?v=1"] };
 let crunchDraft = null; // the bar's setup before it is saved: { grade, aac }
 let crunchJustSet = false; // the tile's first appearance gets an entrance
 
@@ -5061,14 +5094,54 @@ function loadCrunchData() {
   });
 }
 
-// Points and study hours hidden at a written-paper target (each point is [level, minutes])
-function crunchStats(data, need) {
+// Subjects with optional parts (Geography, History): the student's picks, {kind: track or [tracks]}, defaulting to
+// the first option(s) of each kind. Their course is everything not on another track.
+function crunchPicks(data, s) {
+  if (!data?.picks) return null;
+  const out = {};
+  for (const [kind, { count, options }] of Object.entries(data.picks)) {
+    const have = [].concat(s?.picks?.[kind] || []).filter((t) => options.some(([o]) => o === t));
+    const chosen = (have.length === count ? have : options.slice(0, count).map(([o]) => o));
+    out[kind] = count === 1 ? chosen[0] : chosen;
+  }
+  return out;
+}
+
+// Levels are averaged over every combination of picks; the student's own course has a correction curve
+// (scripts/crunch_export.js) that maps them onto its exact levels. Returns level => corrected level.
+function crunchLevelFor(data, s) {
+  const picks = crunchPicks(data, s);
+  const curve = picks && data.curves?.[Object.values(picks).flat().sort().join("|")];
+  if (!curve) return (level) => level;
+  const [xs, ys] = curve, last = xs.length - 1;
+  return (level) => {
+    if (level == null) return level;
+    if (level <= xs[0]) return ys[0] + (level - xs[0]);
+    if (level >= xs[last]) return ys[last] + (level - xs[last]);
+    let i = 1;
+    while (xs[i] < level) i++;
+    return xs[i] === xs[i - 1] ? ys[i] : ys[i - 1] + ((level - xs[i - 1]) * (ys[i] - ys[i - 1])) / (xs[i] - xs[i - 1]);
+  };
+}
+
+// Is this subsection in the student's course? (always, for subjects without picks)
+function crunchInCourse(data, s) {
+  const picks = crunchPicks(data, s);
+  if (!picks) return () => true;
+  const on = new Set(Object.values(picks).flat());
+  return (sid) => !data.tracks?.[sid] || on.has(data.tracks[sid]);
+}
+
+// Points and study hours hidden at a written-paper target (each point is [level, minutes]), over the student's course
+function crunchStats(data, need, s = null) {
   let hidden = 0, total = 0, saved = 0, all = 0;
-  for (const points of Object.values(data.levels)) {
+  const fix = crunchLevelFor(data, s), inCourse = crunchInCourse(data, s);
+  for (const [sid, points] of Object.entries(data.levels)) {
+    if (!inCourse(sid)) continue;
     for (const [level, minutes] of Object.values(points)) {
       total++;
       all += minutes;
-      if (level >= need) { hidden++; saved += minutes; }
+      if (fix(level) >= need) { hidden++; saved += minutes; }
     }
   }
   return { hidden, total, savedHours: saved / 60, allHours: all / 60 };
@@ -5083,7 +5156,7 @@ const CRUNCH_HOW_URL = "blog/how-crunch-mode-works/";
 
 function crunchReadoutHtml(data, s) {
   const need = crunchNeed(data, crunchEffective(s));
-  const st = crunchStats(data, need);
+  const st = crunchStats(data, need, s);
   const w = crunchWords(), grade = crunchGrade(s.grade);
   const note = need > 100
     ? `${grade} needs over 100% ${w.paper}, so nothing can be cut.`
@@ -5107,8 +5180,22 @@ function crunchHideHtml(s) {
     </label>`;
 }
 
+// Optional parts (Geography's elective/option/region, History's topics): what the student studies
+function crunchPicksHtml(data, s) {
+  const picks = crunchPicks(data, s);
+  if (!picks) return "";
+  return Object.entries(data.picks).map(([kind, { label, count, options }]) => `
+    <div class="crunch-field">
+      <span class="crunch-label" id="crunchPick-${kind}">${escapeHtml(label)}${count > 1 ? ` <small>(pick ${count})</small>` : ""}</span>
+      <div class="crunch-picks" role="group" aria-labelledby="crunchPick-${kind}">
+        ${options.map(([track, name]) => `<button type="button" data-crunch-pick="${escapeHtml(track)}" aria-pressed="${[].concat(picks[kind]).includes(track)}">${escapeHtml(name)}</button>`).join("")}
+      </div>
+    </div>`).join("");
+}
+
 function crunchControlsHtml(data, s) {
   return `
+    ${crunchPicksHtml(data, s)}
     <div class="crunch-field">
       <span class="crunch-label" id="crunchGradeLabel">Target grade</span>
       <div class="crunch-grades" role="radiogroup" aria-labelledby="crunchGradeLabel">
@@ -5159,7 +5246,7 @@ function withCrunchTile(tilesHtml) {
   if (!data || !s.set) return tilesHtml;
   const need = crunchNeed(data, crunchEffective(s));
   const grade = crunchGrade(s.grade);
-  const meta = !s.on ? "Off" : need > 100 ? `${grade} · keeps everything` : `${grade} · cuts ${crunchCut(crunchStats(data, need))}%`;
+  const meta = !s.on ? "Off" : need > 100 ? `${grade} · keeps everything` : `${grade} · cuts ${crunchCut(crunchStats(data, need, s))}%`;
   const tile = `
     <li><a class="section-tile crunch-tile${crunchJustSet ? " is-new" : ""}" href="app/${PAGE_SUBJECT}/#crunch">${iconHtml("crunch")}<span>Crunch Mode<small>${meta}</small></span></a></li>`;
   crunchJustSet = false;
@@ -5187,7 +5274,7 @@ function crunchStateKey() {
   if (!crunchData(PAGE_SUBJECT)) return "";
   if (subjectSection === "crunch") return "ready";
   const s = crunchSettings(PAGE_SUBJECT);
-  return [s.set, s.on, s.grade, s.aac, s.hideAll].join(",");
+  return [s.set, s.on, s.grade, s.aac, s.hideAll, JSON.stringify(s.picks || "")].join(",");
 }
 
 function repaintCrunchBar() {
@@ -5204,6 +5291,8 @@ function updateCrunchSetup(setup, patch) {
   else saveCrunchSettings({ ...patch, on: true }, PAGE_SUBJECT);
   const s = draft ? crunchDraft : crunchSettings(PAGE_SUBJECT);
   setup.querySelectorAll("[data-crunch-grade]").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.crunchGrade === s.grade)));
+  const picked = new Set(Object.values(crunchPicks(crunchData(PAGE_SUBJECT), s) || {}).flat());
+  setup.querySelectorAll("[data-crunch-pick]").forEach((b) => b.setAttribute("aria-pressed", String(picked.has(b.dataset.crunchPick))));
   setup.querySelector(".crunch-result").innerHTML = crunchReadoutHtml(crunchData(PAGE_SUBJECT), s);
   if (!draft) {
     const toggle = document.getElementById("crunchOn");
@@ -5226,13 +5315,25 @@ function bindCrunch() {
     if (go) {
       if (crunchDraft) { crunchDraft = null; repaintCrunchBar(); return; }
       const s = crunchSettings(PAGE_SUBJECT);
-      crunchDraft = { grade: s.grade, aac: s.aac, hideAll: Boolean(s.hideAll) };
+      crunchDraft = { grade: s.grade, aac: s.aac, hideAll: Boolean(s.hideAll), picks: crunchPicks(crunchData(PAGE_SUBJECT), s) };
       repaintCrunchBar();
       panel.querySelector('.crunch-setup [aria-checked="true"]')?.focus();
       return;
     }
     const grade = event.target.closest("[data-crunch-grade]");
     if (grade) { updateCrunchSetup(grade.closest("[data-crunch-setup]"), { grade: grade.dataset.crunchGrade }); return; }
+    // A pick replaces the kind's only choice, or (History's two topics) the older of the two
+    const pick = event.target.closest("[data-crunch-pick]");
+    if (pick) {
+      const setup = pick.closest("[data-crunch-setup]"), data = crunchData(PAGE_SUBJECT);
+      const track = pick.dataset.crunchPick, kind = track.split(":")[0];
+      const current = crunchPicks(data, setup.dataset.crunchSetup === "draft" ? crunchDraft : crunchSettings(PAGE_SUBJECT));
+      const cur = [].concat(current[kind]);
+      if (cur.includes(track)) return;
+      const next = data.picks[kind].count === 1 ? track : [...cur.slice(1), track];
+      updateCrunchSetup(setup, { picks: { ...current, [kind]: next } });
+      return;
+    }
     if (event.target.closest("[data-crunch-save]")) {
       saveCrunchSettings({ ...crunchDraft, on: true, set: true }, PAGE_SUBJECT);
       crunchDraft = null;

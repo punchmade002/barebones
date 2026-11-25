@@ -23,9 +23,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 REQ = ROOT / "pipeline" / "requirements" / "maths"
-# shortcut: the bank on this branch stops at 2025; maths-older has 2015-2026. Read it from there while it's unmerged.
-OLDER = ROOT / ".claude" / "worktrees" / "maths-older" / "maths-exam-questions.js"
-BANK = OLDER if OLDER.exists() else ROOT / "maths-exam-questions.js"
+BANK = ROOT / "maths-exam-questions.js"
 SKIP = {"keywords", "svg", "graph", "diagram", "needs", "leadsTo", "exam", "image", "id", "chapter"}
 
 
