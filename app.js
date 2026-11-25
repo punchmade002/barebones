@@ -5034,7 +5034,7 @@ function crunchReadoutHtml(data, s) {
   const st = crunchStats(data, need);
   const withAac = data.aac ? ` with ${Number(s.aac) || 0}% in your ${escapeHtml(data.aac.name)}` : "";
   const why = need > 100
-    ? `${s.grade} needs over 100% on the written paper${withAac}, so you need every point. Try a lower grade or a higher AAC mark.`
+    ? `${s.grade} needs over 100% on the written paper${withAac}, so you need every point. Try a lower grade or a higher ${escapeHtml(data.aac?.short || "AAC")} mark.`
     : need <= 0
     ? `Your ${escapeHtml(data.aac?.name || "coursework")} alone reaches ${s.grade}, so the notes can all go.`
     : `You need ${Math.round(need)}% on the written paper${withAac}. Crunch Mode hides ${st.hidden.toLocaleString("en-IE")} of ${st.total.toLocaleString("en-IE")} points, the ones the last ${data.years.length} papers rewarded least.`;
@@ -5054,7 +5054,7 @@ function crunchControlsHtml(data, s) {
     </div>
     ${data.aac ? `
     <label class="crunch-field">
-      <span class="crunch-label">Expected AAC mark</span>
+      <span class="crunch-label">Expected ${escapeHtml(data.aac.short || "AAC")} mark</span>
       <span class="crunch-aac"><input id="crunchAac" type="number" min="0" max="100" step="1" inputmode="numeric" value="${Number(s.aac) || 0}"><span aria-hidden="true">%</span></span>
     </label>` : ""}
     <div class="crunch-result" aria-live="polite">${crunchReadoutHtml(data, s)}</div>
@@ -5071,10 +5071,10 @@ function crunchBarHtml() {
     <section class="crunch-bar${open ? " is-open" : ""}" aria-label="Crunch Mode">
       <div class="crunch-bar-head">
         <div class="crunch-bar-text">
-          <h2 class="crunch-hero">Study less. Score more.</h2>
+          <h2 class="crunch-hero"><span>Study less.</span> <span>Score more.</span></h2>
           <p>Cut ${title} down to what your grade needs.</p>
         </div>
-        <button class="crunch-go${open ? " is-crunched" : ""}" type="button" data-crunch-go aria-expanded="${open}"><span>Crunch</span></button>
+        <button class="crunch-go" type="button" data-crunch-go aria-expanded="${open}"><span>Crunch</span></button>
       </div>
       ${open ? `
       <div class="crunch-setup" data-crunch-setup="draft">
@@ -5128,14 +5128,7 @@ function repaintCrunchBar() {
   if (!bar) return;
   const wasOpen = bar.classList.contains("is-open");
   bar.outerHTML = crunchBarHtml();
-  if (wasOpen && !crunchDraft) {
-    // closing: the word springs back out from its crunched width
-    const go = els.sectionPanel.querySelector("[data-crunch-go]");
-    go.classList.add("is-crunched");
-    void go.offsetWidth;
-    go.classList.remove("is-crunched");
-    go.focus();
-  }
+  if (wasOpen && !crunchDraft) els.sectionPanel.querySelector("[data-crunch-go]")?.focus();
 }
 
 function updateCrunchSetup(setup, patch) {
@@ -5166,8 +5159,9 @@ function bindCrunch() {
       if (crunchDraft) { crunchDraft = null; repaintCrunchBar(); return; }
       const s = crunchSettings(PAGE_SUBJECT);
       crunchDraft = { grade: s.grade, aac: s.aac };
-      go.classList.add("is-crunched"); // the word squeezes, then the setup opens under it
-      const wait = matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 480;
+      go.classList.add("is-crushing"); // crushed under a press, then it pops and the setup opens
+      go.disabled = true;
+      const wait = matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 1000;
       setTimeout(() => {
         repaintCrunchBar();
         panel.querySelector('.crunch-setup [aria-checked="true"]')?.focus();

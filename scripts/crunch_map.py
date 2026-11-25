@@ -25,7 +25,9 @@ from crunch_exam_tags import tok
 # The AAC (coursework) and its share of the overall grade, from <subject>-exam-info.js. The cut covers the written paper only.
 AAC = {"biology": {"name": "Biology in Practice Investigation", "weight": 0.4},
        "geography": {"name": "Geographical Investigation", "weight": 0.2},
-       "history": {"name": "Research Study Report", "weight": 0.2}}
+       "history": {"name": "Research Study Report", "weight": 0.2},
+       # PE's coursework is two parts, the Physical Activity Project (20%) and the Performance Assessment (30%)
+       "pe": {"name": "coursework (project and performance)", "short": "coursework", "weight": 0.5}}
 
 
 def geo_track(sid):
@@ -92,6 +94,10 @@ SUBJECTS = {
                 "question": lambda q: ("docs" if q["sectionId"] == "hist-section1" else "essay", hist_track(q["chapterId"] + "-s0")),
                 "track": hist_track, "split": True, "paragraphs": True,
                 "picks": {"ire": hist_topics("ire"), "eur": hist_topics("eur")}, "pickCount": {"ire": 2, "eur": 2}},
+    # HL (2023-2026 rules): Section A best 10 of 12 short questions (80), Section B the case study (50),
+    # Section C best 3 of 5 long questions (120). Physical activity areas are left out (crunch_points.LEFT_OUT).
+    "pe": {"groups": {"A": [80 / 250, 10], "B": [50 / 250, None], "C": [120 / 250, 3]},
+           "question": lambda q: (q["sectionId"][-1], ""), "track": lambda sid: ""},
 }
 
 

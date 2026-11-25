@@ -6025,86 +6025,129 @@ body.onboarding-open .timer-widget {
 }
 
 /* ── Crunch Mode: hides the note points a student doesn't need for their target grade ── */
-/* The bar on the subject home, before Crunch Mode is set up */
+/* The bar on the subject home, before Crunch Mode is set up. Type is the landing hero's: Archivo, caps, tight. */
 .crunch-bar {
-  --crunch-face: "Anybody", var(--font);
+  --crunch-face: "Archivo", var(--font);
   margin-bottom: 1rem;
-  padding: 1.5rem 1.5rem 1.5rem 1.75rem;
+  padding: 6px;
   background: var(--ink);
   border-radius: var(--r-lg);
   color: #EDEBE6;
 }
 
 .crunch-bar-head {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.85rem 1.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(13rem, 42%);
+  align-items: stretch;
+  gap: 1rem;
 }
 
-.crunch-bar-text { display: grid; gap: 0.35rem; max-width: 48ch; }
+.crunch-bar-text { display: grid; align-self: center; gap: 0.5rem; padding: 1.25rem 0 1.25rem 1.4rem; }
 .crunch-bar-text p { margin: 0; color: #C9C5BC; font-size: 1.02rem; line-height: 1.45; }
 
 .crunch-hero {
   margin: 0;
   color: #F6F4EF;
-  font-family: "Anybody", var(--font);
-  font-size: clamp(1.9rem, 5vw, 2.75rem);
-  font-weight: 900;
-  font-variation-settings: "wdth" 70;
-  letter-spacing: -0.01em;
-  line-height: 0.95;
+  font-family: var(--crunch-face);
+  font-size: clamp(1.9rem, 4.6vw, 2.9rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 0.98;
+  text-transform: uppercase;
 }
 
-/* The word itself crunches: Anybody's width axis runs from 150 (wide) to 50 (condensed) */
+.crunch-hero span { display: block; }
+
+/* The button fills the bar's right side and the word fills the button (cqi = 1% of the button's width).
+   Pressing it crushes it down under a press, squeezing the word to Archivo's narrowest width, then it pops. */
 .crunch-go {
-  flex: none;
-  width: 12.5rem;
-  height: 3.6rem;
+  position: relative;
+  min-height: 7.5rem;
+  width: 100%;
   padding: 0;
   background: var(--accent);
   border: 0;
-  border-radius: var(--r-md);
-  box-shadow: var(--so);
+  border-radius: calc(var(--r-lg) - 6px);
+  box-shadow: none;
   color: #fffaf5;
+  container-type: inline-size;
+  transform-origin: 50% 100%;
+  transition: background var(--t) var(--ease);
+}
+
+.crunch-go span {
+  display: block;
   font-family: var(--crunch-face);
-  font-size: 1.7rem;
+  font-size: 16.5cqi;
   font-weight: 900;
-  font-variation-settings: "wdth" 150;
-  letter-spacing: 0.02em;
+  font-variation-settings: "wdth" 125;
+  letter-spacing: -0.01em;
   line-height: 1;
   text-transform: uppercase;
-  transition: font-variation-settings 460ms cubic-bezier(0.16, 1, 0.3, 1), letter-spacing 460ms cubic-bezier(0.16, 1, 0.3, 1), background var(--t) var(--ease);
+  transition: font-variation-settings 460ms cubic-bezier(0.16, 1, 0.3, 1), letter-spacing 460ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .crunch-go:hover { background: var(--accent-2); transform: none; }
 .crunch-go:focus-visible { outline: 2px solid var(--accent-3); outline-offset: 3px; }
-.crunch-go span { display: block; }
 
-.crunch-go.is-crunched {
-  font-variation-settings: "wdth" 50;
-  letter-spacing: -0.01em;
-  animation: crunch-squeeze 460ms cubic-bezier(0.16, 1, 0.3, 1);
+.crunch-go::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 0 3px var(--accent-3);
+  opacity: 0;
+  pointer-events: none;
 }
 
-.crunch-bar.is-open .crunch-go { animation: none; background: #2C2A25; box-shadow: none; color: var(--accent-3); }
+.crunch-go.is-crushing { animation: crunch-press 1100ms linear both; }
+.crunch-go.is-crushing span { animation: crunch-word 1100ms linear both; }
+.crunch-go.is-crushing::after { animation: crunch-burst 1100ms linear both; }
 
-@keyframes crunch-squeeze {
-  35% { transform: scale(0.9, 1.05); }
-  to { transform: none; }
+/* Pressure builds slowly then faster, it shudders at full squeeze, then it pops back out */
+@keyframes crunch-press {
+  0% { transform: none; animation-timing-function: cubic-bezier(0.55, 0, 0.9, 0.55); }
+  56% { transform: scale(1.05, 0.5); }
+  60% { transform: translateX(-2px) scale(1.06, 0.46); }
+  64% { transform: translateX(2px) scale(1.06, 0.44); }
+  68% { transform: translateX(-2px) scale(1.07, 0.42); }
+  72% { transform: translateX(2px) scale(1.07, 0.4); }
+  76% { transform: scale(1.08, 0.38); filter: brightness(1.12); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+  86% { transform: scale(1.06, 1.14); filter: none; }
+  100% { transform: none; }
+}
+
+@keyframes crunch-word {
+  0% { font-variation-settings: "wdth" 125; letter-spacing: -0.01em; animation-timing-function: cubic-bezier(0.55, 0, 0.9, 0.55); }
+  60% { font-variation-settings: "wdth" 62; letter-spacing: -0.05em; }
+  76% { font-variation-settings: "wdth" 62; letter-spacing: -0.06em; animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+  90%, 100% { font-variation-settings: "wdth" 125; letter-spacing: -0.01em; }
+}
+
+@keyframes crunch-burst {
+  0%, 76% { opacity: 0; transform: none; }
+  80% { opacity: 1; }
+  100% { opacity: 0; transform: scale(1.12, 1.4); }
+}
+
+/* Open: the button steps back and the setup takes over (pressing it again closes) */
+.crunch-bar.is-open .crunch-go { background: #2C2A25; color: var(--accent-3); animation: crunch-settle 500ms var(--ease) both; }
+.crunch-bar.is-open .crunch-go:hover { background: #34312B; }
+
+@keyframes crunch-settle {
+  from { background: var(--accent); color: #fffaf5; }
 }
 
 .crunch-setup { display: grid; gap: 1.1rem; }
 .crunch-bar .crunch-setup {
-  margin-top: 1.25rem;
+  margin: 0.75rem 1.4rem 1.25rem;
   padding-top: 1.25rem;
   border-top: 1px solid rgba(237, 235, 230, 0.12);
-  animation: crunch-open 360ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: crunch-open 420ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 @keyframes crunch-open {
-  from { opacity: 0; transform: translateY(-6px); }
+  from { opacity: 0; transform: translateY(-10px); }
 }
 
 .crunch-field { display: grid; gap: 0.45rem; justify-items: start; }
@@ -6114,10 +6157,10 @@ body.onboarding-open .timer-widget {
 
 .crunch-hours {
   color: var(--accent-strong);
-  font-family: "Anybody", var(--font);
+  font-family: "Archivo", var(--font);
   font-size: clamp(3.4rem, 9vw, 4.75rem);
   font-weight: 900;
-  font-variation-settings: "wdth" 72;
+  font-variation-settings: "wdth" 75;
   font-variant-numeric: tabular-nums;
   line-height: 0.82;
 }
@@ -6148,7 +6191,7 @@ body.onboarding-open .timer-widget {
 
 /* The tile it becomes once set up */
 .crunch-tile .tile-icon { background: var(--ink); color: var(--accent-3); }
-.crunch-tile > span:last-child { font-family: "Anybody", var(--font); font-weight: 850; font-variation-settings: "wdth" 88; }
+.crunch-tile > span:last-child { font-family: "Archivo", var(--font); font-weight: 800; letter-spacing: -0.02em; text-transform: uppercase; }
 .crunch-tile small { display: block; margin-top: 0.3rem; color: var(--muted); font-family: var(--font); font-size: 0.9rem; font-weight: 600; letter-spacing: 0; font-variation-settings: normal; }
 .crunch-tile.is-new { animation: crunch-tile-in 520ms cubic-bezier(0.16, 1, 0.3, 1) both; }
 
@@ -6162,7 +6205,8 @@ body.onboarding-open .timer-widget {
 .crunch-settings.is-off .crunch-setup { opacity: 0.45; }
 
 @media (prefers-reduced-motion: reduce) {
-  .crunch-go, .crunch-go.is-crunched, .crunch-bar .crunch-setup, .crunch-tile.is-new { animation: none; transition: none; }
+  .crunch-go, .crunch-go span, .crunch-go::after, .crunch-bar .crunch-setup, .crunch-tile.is-new,
+  .crunch-bar.is-open .crunch-go { animation: none !important; transition: none; }
 }
 
 .crunch-switch {
@@ -6289,8 +6333,11 @@ body.onboarding-open .timer-widget {
 .crunch-reveal:hover { background: none; color: var(--accent-dark); transform: none; }
 
 @media (max-width: 640px) {
-  .crunch-bar { padding: 1rem; }
-  .crunch-go { width: 100%; }
+  .crunch-bar-head { grid-template-columns: 1fr; gap: 0.5rem; }
+  .crunch-bar-text { padding: 1rem 1rem 0.5rem; }
+  .crunch-go { min-height: 5.5rem; }
+  .crunch-go span { font-size: 16cqi; }
+  .crunch-bar .crunch-setup { margin-inline: 1rem; }
   .crunch-field { justify-items: stretch; }
   .crunch-grades { width: 100%; justify-content: space-between; }
   .crunch-grades button { min-width: 0; flex: 1; padding-inline: 0; }

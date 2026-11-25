@@ -1,0 +1,21 @@
+{
+"pe-performance-demands-s1.0.b": {"cost": 1, "needs": []},
+"pe-performance-demands-s1.0.0": {"cost": 1, "needs": []},
+"pe-performance-demands-s1.0.1": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.0.0", "strength": "essential", "why": "uses WHO definition of health", "confidence": "high"}, {"id": "pe-performance-demands-s1.0.2", "strength": "helpful", "why": "compares health with fitness", "confidence": "high"}]},
+"pe-performance-demands-s1.0.2": {"cost": 1, "needs": []},
+"pe-performance-demands-s1.0.3": {"cost": 2, "needs": []},
+"pe-performance-demands-s1.1.b": {"cost": 1, "needs": []},
+"pe-performance-demands-s1.1.0": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.0.0", "strength": "helpful", "why": "links to good health", "confidence": "low"}]},
+"pe-performance-demands-s1.1.1": {"cost": 2, "needs": [{"id": "pe-performance-demands-s1.1.0", "strength": "helpful", "why": "defines HRF", "confidence": "high"}]},
+"pe-performance-demands-s1.1.2": {"cost": 2, "needs": []},
+"pe-performance-demands-s1.1.3": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.1.1", "strength": "essential", "why": "HRF component list", "confidence": "high"}, {"id": "pe-performance-demands-s1.1.2", "strength": "essential", "why": "PRF component list", "confidence": "high"}]},
+"pe-performance-demands-s1.2.b": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.1.0", "strength": "helpful", "why": "the two categories compared", "confidence": "low"}]},
+"pe-performance-demands-s1.2.0": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.1.0", "strength": "essential", "why": "uses HRF", "confidence": "high"}, {"id": "pe-performance-demands-s1.1.2", "strength": "essential", "why": "uses PRF", "confidence": "high"}]},
+"pe-performance-demands-s1.2.1": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.1.0", "strength": "essential", "why": "uses HRF", "confidence": "high"}, {"id": "pe-performance-demands-s1.1.2", "strength": "essential", "why": "uses PRF", "confidence": "high"}]},
+"pe-performance-demands-s1.2.2": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.1.0", "strength": "essential", "why": "uses HRF", "confidence": "high"}, {"id": "pe-performance-demands-s1.1.2", "strength": "essential", "why": "uses PRF", "confidence": "high"}]},
+"pe-performance-demands-s1.2.3": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.1.0", "strength": "essential", "why": "uses HRF", "confidence": "high"}, {"id": "pe-performance-demands-s1.1.2", "strength": "essential", "why": "uses PRF", "confidence": "high"}]},
+"pe-performance-demands-s1.3.b": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.2.b", "strength": "helpful", "why": "the four differences", "confidence": "low"}]},
+"pe-performance-demands-s1.3.0": {"cost": 2, "needs": [{"id": "pe-performance-demands-s1.2.b", "strength": "essential", "why": "four contrasts between HRF and PRF", "confidence": "high"}]},
+"pe-performance-demands-s1.3.1": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.1.1", "strength": "helpful", "why": "cardio-respiratory endurance as HRF", "confidence": "high"}]},
+"pe-performance-demands-s1.3.2": {"cost": 1, "needs": [{"id": "pe-performance-demands-s1.1.2", "strength": "essential", "why": "power and agility as PRF", "confidence": "high"}, {"id": "pe-performance-demands-s1.1.1", "strength": "helpful", "why": "strength and flexibility as HRF", "confidence": "high"}]}
+}
