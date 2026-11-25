@@ -1,0 +1,92 @@
+TARGET bio31-s8: Pyramids of numbers
+[bio31-s8.0.b] A food chain tells you who eats whom, but not how many of each organism there are. A pyramid of numbers adds the counts, giving a quick picture of how an ecosystem is built level by level.
+[bio31-s8.0.0] A pyramid of numbers is a diagram showing the number of organisms at each trophic level (feeding level) of a food chain or food web in an area at one time. Each level is drawn as a horizontal bar whose width is proportional to the number of organisms.
+[bio31-s8.0.1] The producers (organisms that make their own food, such as plants) form the bottom bar. The primary, secondary and tertiary consumers (the animals that eat the level below) are drawn above them in order.
+[bio31-s8.0.2] In most ecosystems the pyramid is upright: there are many producers, fewer primary consumers, fewer still secondary consumers, and very few top consumers. For example, many grass plants → fewer grasshoppers → fewer frogs → one heron; or grass → rabbits → foxes.
+[bio31-s8.0.3] Numbers usually decrease up the pyramid because about 90% of energy is lost at each trophic level, so each level can support fewer organisms than the one below.
+[bio31-s8.0.4] A second reason is size: predators are usually larger than their prey, so each predator needs to eat many prey, which means the prey must be more numerous.
+[bio31-s8.0.5] Pyramids, like food chains, are usually restricted to three or four levels. So little energy reaches the top level that it cannot support a further level of consumers. There is more on this in Energy and nutrient transfer.
+[bio31-s8.1.b] Ecologists use pyramids of numbers because they turn a food chain into something they can measure, compare and use to make predictions. Drawing one is a short, step-by-step skill.
+[bio31-s8.1.0] Feeding relationships: a pyramid shows a food chain quantitatively, that is, how many of each organism there are. It also shows how many prey each predator depends on.
+[bio31-s8.1.1] Comparison: it lets two ecosystems, or one ecosystem at different times, be compared, because the bars for each level can be set side by side.
+[bio31-s8.1.2] Prediction: it helps to predict the effect of a change in one level on the others. For example, if a disease reduces the primary consumers, the secondary consumers will decline because they have less food.
+[bio31-s8.1.3] It also shows why top predators are few and vulnerable: there are only a few of them, so a small loss in their food supply or numbers has a large effect.
+[bio31-s8.1.4] How the numbers are found: by sampling the area, for example counting plants in quadrats (square frames laid on the ground) and animals caught in traps or nets, then scaling up to the whole area.
+[bio31-s8.1.5] Each organism is then assigned to a trophic level. There is more on sampling methods in Investigating an Ecosystem.
+[bio31-s8.1.6] To draw one, step 1: write out the food chain and count, or take from the data, the organisms at each level. Step 2: draw a horizontal bar for each level, with the producers at the bottom, all centred on a vertical line.
+[bio31-s8.1.7] Step 3: make each bar's width proportional to the number. Alternatively use a scale, or a logarithmic scale (one that handles very large numbers), or draw it “not to scale” and say so. Step 4: label each bar with the trophic level, the organism and the number.
+[bio31-s8.1.8] Diagram: upright pyramid of numbers for grass → grasshopper → frog → heron, with these labels: producer, primary consumer, secondary consumer, tertiary consumer, organism name on each bar, number (illustrative) on each bar.
+[bio31-s8.2.b] Pyramids of numbers are not always the same shape. The shape depends on how big the producers are and whether the top level is made of parasites, so you need to recognise three cases.
+[bio31-s8.2.0] Upright pyramid: the usual shape, wide at the base and narrowing to the top. It occurs when the producers are small and numerous and each consumer is larger than its prey.
+[bio31-s8.2.1] Inverted pyramid (narrow base): when one large producer supports many small herbivores, the base is narrower than the level above. For example, one oak tree supports thousands of caterpillars, which support a few blue tits, which support one sparrowhawk, so the second bar is wider than the first.
+[bio31-s8.2.2] Another narrow-base example: one rose bush supports many caterpillars or aphids, which support a few blackbirds, which support one hawk. One big plant provides enough food for many small animals.
+[bio31-s8.2.3] Because the upper levels still narrow, the narrow-base pyramid is spindle- or diamond-shaped rather than a full upside-down triangle.
+[bio31-s8.2.4] Inverted at the top: when the top level is made of parasites (organisms that live on or in a host), which are smaller and more numerous than their host, the top bar is wider than the one below.
+[bio31-s8.2.5] Examples of the parasite shape: grass → rabbits → fleas, or one tree → birds → many lice and fleas on each bird.
+[bio31-s8.2.6] Diagram: three pyramids side by side. Upright: grass → grasshopper → frog → heron, narrow-base: oak tree → caterpillars → blue tits → sparrowhawk, top-heavy with parasites: grass → rabbits → fleas. Label each level (illustrative numbers).
+[bio31-s8.3.b] Counting organisms is a simple idea but it gives a limited picture of an ecosystem. Each of the following weaknesses is a possible exam answer.
+[bio31-s8.3.0] They take no account of the size of organisms: one oak tree counts the same as one blade of grass. The shape can therefore be inverted and misleading about how much food each level provides.
+[bio31-s8.3.1] The numbers at different levels can differ so much, for example millions of grass plants and one fox, that the pyramid cannot be drawn to scale.
+[bio31-s8.3.2] It is hard to decide what counts as an individual for some organisms, for example grass and clover plants that spread by runners (stems growing along the ground), or a clump of moss.
+[bio31-s8.3.3] Organisms that feed at more than one trophic level are hard to place. Examples are omnivores, which eat both plants and animals, such as a fox eating rabbits and beetles, or a badger.
+[bio31-s8.3.4] Counting is difficult and usually based on samples. Small, hidden, nocturnal or very mobile animals are hard to count accurately, so the numbers are estimates.
+[bio31-s8.3.5] It shows the numbers at one moment only, so it changes with the seasons, for example there are many more caterpillars in early summer.
+[bio31-s8.3.6] It does not show the amount of biomass (the mass of living material) or the energy at each level, and it usually leaves out decomposers (organisms such as fungi and bacteria that break down dead matter).
+[bio31-s8.3.7] The fix for the size problem is a pyramid of biomass, which takes the mass of organisms into account. There is more on this in Pyramids of biomass.
+
+CANDIDATES bio31-s7: Energy and nutrient transfer
+[bio31-s7.0.b] Every ecosystem sorts its organisms by how they get energy and nutrients. Producers bring energy in, consumers pass it along, and decomposers return the nutrients to the soil or water.
+[bio31-s7.0.0] Producers are autotrophs: organisms that make their own food from simple inorganic substances, mostly by photosynthesis, using light energy. They include green plants, algae, phytoplankton (microscopic floating algae) and photosynthetic bacteria.
+[bio31-s7.0.1] Producers are the entry point of energy and matter into every food chain, because no other group can turn light energy and inorganic substances into organic food. There is more on this in Photosynthesis as an anabolic process.
+[bio31-s7.0.2] Consumers are heterotrophs, meaning they cannot make their own food and obtain energy and nutrients by eating other organisms. Primary consumers (herbivores) eat producers, e.g. rabbits, slugs, caterpillars and limpets.
+[bio31-s7.0.3] Secondary consumers eat primary consumers, e.g. thrushes, frogs and crabs. Tertiary consumers eat secondary consumers, e.g. sparrowhawks, foxes and herons.
+[bio31-s7.0.4] A top (apex) consumer is at the end of a chain and is not normally eaten. Carnivores eat animals; omnivores eat plants and animals, e.g. badgers, foxes and humans.
+[bio31-s7.0.5] Decomposers, mainly bacteria and fungi, feed on dead organisms and waste. They secrete enzymes onto the dead matter and absorb the products (saprophytic nutrition), and so release minerals and CO₂ for producers to reuse.
+[bio31-s7.0.6] Detritivores are animals that eat dead organic matter (detritus), e.g. earthworms and woodlice. They break it into smaller pieces, which gives decomposers a larger surface to act on, so decomposition is faster. There is more on this in Bacteria and fungi.
+[bio31-s7.1.b] A food chain shows who eats whom, and each step is a trophic (feeding) level. Following the chain shows how energy and nutrients are passed on from one organism to the next.
+[bio31-s7.1.0] A trophic (feeding) level is the position an organism occupies in a food chain, according to how it obtains its energy. Producers are trophic level 1, primary consumers level 2, secondary consumers level 3 and tertiary consumers level 4.
+[bio31-s7.1.1] A food chain is a sequence of organisms in which each is eaten by the next, showing the transfer of energy and nutrients from one trophic level to the next.
+[bio31-s7.1.2] Arrows point from the organism that is eaten towards the organism that eats it, which is the direction of energy flow ("is eaten by").
+[bio31-s7.1.3] Irish examples, one per ecosystem. Grassland: grass → rabbit → fox. Hedgerow or woodland: oak leaves → caterpillar → blue tit → sparrowhawk. Rocky shore: seaweed → periwinkle → crab → herring gull.
+[bio31-s7.1.4] Two more Irish examples. Freshwater: phytoplankton → water flea → minnow → heron (or pike). Sea: phytoplankton → zooplankton → herring → seal.
+[bio31-s7.1.5] Grazing food chains start with living producers. Detritus (decomposer) food chains start with dead organic matter, e.g. dead leaves → earthworm → blackbird. Much of the energy in a woodland passes through detritus chains.
+[bio31-s7.1.6] Food chains rarely have more than four or five trophic levels, because so much energy is lost at each level that too little is left to support a further level.
+[bio31-s7.2.b] Real organisms rarely eat just one thing or get eaten by just one thing. A food web joins the separate food chains of an ecosystem into one network, which is why it is a more realistic picture.
+[bio31-s7.2.0] A food web is a set of interlinked food chains in an ecosystem. It is more realistic than a single chain because most organisms eat more than one type of food and are eaten by more than one predator.
+[bio31-s7.2.1] An organism may also feed at more than one trophic level, as an omnivore does, or as a fox does when it eats rabbits and also beetles.
+[bio31-s7.2.2] Example grassland and hedgerow web to draw: grass → rabbit, grass → slug and grass → caterpillar; grass seeds → wood mouse; slug → thrush and caterpillar → thrush; rabbit → fox; wood mouse → fox and wood mouse → barn owl; thrush → sparrowhawk.
+[bio31-s7.2.3] Decomposers (bacteria, fungi and earthworms) feed on dead material from every level of this web, because every organism eventually dies or produces waste.
+[bio31-s7.2.4] Food webs show interdependence: a change in one population affects many others, directly through feeding and indirectly through competition for the same food. For example, the fox and the barn owl both eat wood mice, so they compete.
+[bio31-s7.2.5] Diagram: the food web drawn with arrows pointing towards the consumer, organisms placed in rows by trophic level, and decomposers shown at the side receiving arrows from all levels.
+[bio31-s7.3.b] Energy enters an ecosystem once, as sunlight, and then dwindles as it is passed along a food chain. Most of it is lost at every step, and this explains both the shape of food chains and how we should feed people.
+[bio31-s7.3.0] Energy enters ecosystems as light. Producers capture only a small fraction of the light that reaches them, around 1–2%, and store it as chemical energy in organic molecules. The rest is reflected, passes through leaves, or is lost as heat.
+[bio31-s7.3.1] On average only about 10% of the energy in one trophic level is passed on to, and stored in, the next. The figure varies, roughly from 5% to 20%, so about 90% is lost at each transfer.
+[bio31-s7.3.2] Respiration releases energy for movement, growth, active transport and keeping warm, and this ends up as heat lost to the surroundings. Birds and mammals lose the most, because they keep a constant body temperature.
+[bio31-s7.3.3] Roots, bark, wood, bones and fur are left uneaten. Undigested food is egested as faeces, e.g. cellulose eaten by herbivores, and some energy is lost in excretory products such as urea. The energy in uneaten parts, faeces and dead bodies passes to decomposers, not to the next level.
+[bio31-s7.3.4] Energy flows in one direction through an ecosystem and is not recycled: it enters as light and leaves as heat, so an ecosystem needs a continuous input of energy from the Sun.
+[bio31-s7.3.5] Worked example (illustrative, using the 10% figure, not measured data): grass in a field stores 10 000 kJ, the rabbits that eat it store about 1 000 kJ, and the foxes about 100 kJ. A fourth level would store about 10 kJ, too little to support a population.
+[bio31-s7.3.6] So there are fewer top predators, they often need large territories, and they are especially vulnerable to habitat loss.
+[bio31-s7.3.7] Consequence for food production: eating plants directly, a shorter chain, uses the energy captured by crops more efficiently than feeding crops to animals and then eating the animals. A given area of land can therefore feed more people on plant-based food.
+[bio31-s7.4.b] Matter, unlike energy, passes along a food chain in the form of the food organisms eat. Some is lost at each level, but the ecosystem as a whole does not lose it, because decomposers send it back to producers.
+[bio31-s7.4.0] Nutrients (matter) pass between trophic levels when one organism eats another. The carbohydrates, lipids, proteins and nucleic acids of the food are digested, absorbed and built into the consumer's own body (assimilated).
+[bio31-s7.4.1] The elements involved are carbon, hydrogen and oxygen (in all biomolecules), nitrogen (in proteins and nucleic acids), phosphorus (in DNA, ATP and phospholipids), and minerals such as calcium and iron.
+[bio31-s7.4.2] The amount of matter passed on also decreases at each level. Much of the food eaten is respired (carbon leaves as CO₂, hydrogen as water), egested in faeces, or excreted (nitrogen as urea or ammonia). So biomass (the mass of living material) also decreases up a food chain.
+[bio31-s7.4.3] Unlike energy, matter is not lost from the ecosystem. Decomposers break down dead bodies, faeces and urine, releasing CO₂ and minerals such as nitrate, phosphate and ammonium that producers absorb and reuse, so nutrients cycle.
+[bio31-s7.4.4] Contrast: energy flows one way through the ecosystem and is lost as heat, whereas nutrients cycle and are reused again and again.
+[bio31-s7.4.5] Persistent substances that are not broken down or excreted, such as the insecticide DDT and mercury, pass up the food chain with the food and build up in the bodies of organisms at each level. They reach the highest concentrations in top consumers, which is called biomagnification.
+[bio31-s7.4.6] Biomagnification is how DDT thinned the eggshells of birds of prey, which sit at the top of food chains and so carry the highest doses.
+[bio31-s7.4.7] Diagram: a flow diagram of one food chain, with energy arrows getting narrower at each level, heat-loss arrows from every level, and a separate loop of nutrient arrows from all levels to decomposers and back to producers.
+[bio31-s7.5.b] A food chain or web is a model: a simplified picture that lets you work out what happens when one population goes up or down. Following a set method keeps the prediction logical.
+[bio31-s7.5.0] The method has five steps. 1. Find the organisms that eat the changed species (its predators).
+[bio31-s7.5.1] 2. Find what the changed species eats (its food).
+[bio31-s7.5.2] 3. Find its competitors, the species that share its food.
+[bio31-s7.5.3] 4. Predict the direction of each change, giving reasons.
+[bio31-s7.5.4] 5. Note other effects, e.g. on plants and habitat.
+[bio31-s7.5.5] Worked prediction using the food web above, if a disease such as myxomatosis (a viral disease of rabbits) kills most of the rabbits: (a) grass is grazed less and grows taller, providing more food and cover for slugs, caterpillars and wood mice.
+[bio31-s7.5.6] Continued: (b) foxes lose their main prey, so they eat more wood mice and the eggs and chicks of ground-nesting birds, and fox numbers may fall. (c) Wood mice decline from the extra fox predation, so barn owls, which compete with foxes for wood mice, have less food.
+[bio31-s7.5.7] Real outcomes depend on how flexible each predator's diet is, because a predator that can switch to other food will be affected less.
+[bio31-s7.6.b] Changes spread through a web both when a species is removed and when one is added. Because the model is simplified, its predictions have limits.
+[bio31-s7.6.0] Removing a top predator can cause a trophic cascade, a chain of effects passing down the food web. In Ireland, with no wolves, deer numbers increase, they browse young trees, and the woodland cannot regenerate, which affects every species that depends on the woodland.
+[bio31-s7.6.1] Adding a species also spreads through a web. An invasive filter-feeder such as the zebra mussel removes phytoplankton at the base of a lake food web, reducing food for zooplankton and for the fish that eat them. There is more on this in Biodiversity loss and conservation.
+[bio31-s7.6.2] Food chains and webs simplify real feeding, because many links are left out and diets change with the season and with age.
+[bio31-s7.6.3] They usually show no numbers or amounts of energy, which pyramids do, and decomposers are often left out. There is more on models in general in Models.

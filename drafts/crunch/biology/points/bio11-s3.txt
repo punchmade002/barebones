@@ -1,0 +1,256 @@
+TARGET bio11-s3: Nuclear and non-nuclear inheritance
+[bio11-s3.0.b] Most of your genes sit on the chromosomes inside the nucleus of each cell, and nuclear inheritance is how those genes pass from parents to offspring. It follows a tidy, predictable route from the parent's nucleus to the child's.
+[bio11-s3.0.0] Nuclear inheritance is the inheritance of genes carried on the chromosomes in the nucleus. Nearly all of an organism's genes are nuclear; in humans, about 20,000 protein-coding genes.
+[bio11-s3.0.1] 1. The DNA in the nucleus is copied before division, so each new cell can receive a full set of genetic information.
+[bio11-s3.0.2] 2. Meiosis (the division that makes gametes, the sex cells) separates each homologous pair (the two matching chromosomes, one from each parent). Each gamete therefore receives one chromosome of every pair, and so one allele (version) of each gene.
+[bio11-s3.0.3] 3. At fertilisation the nuclei of a male and a female gamete fuse, so the zygote (the first cell of the new individual) receives one set of chromosomes from each parent.
+[bio11-s3.0.4] 4. Mitosis (ordinary cell division) then passes the full set of chromosomes to every body cell as the zygote grows.
+[bio11-s3.0.5] Both parents contribute equally: the offspring inherits one allele of each autosomal gene (a gene on a non-sex chromosome) from its mother and one from its father. So for nuclear genes it does not matter which parent carries an allele.
+[bio11-s3.0.6] For example, a tall male crossed with a short female gives the same results as a short male crossed with a tall female (reciprocal crosses). The exception is genes on the sex chromosomes.
+[bio11-s3.0.7] Each gamete gets only one allele of each pair, chosen at random, so nuclear genes are inherited in the predictable ratios described by Mendel's laws, and new combinations of alleles arise in every generation. There is more on this in Monohybrid crosses.
+[bio11-s3.1.b] The nucleus is not the only place in a cell that holds DNA. Mitochondria and chloroplasts carry a little of their own, and genes in this DNA are inherited by a different route from nuclear genes.
+[bio11-s3.1.0] Non-nuclear (also called extranuclear or cytoplasmic) inheritance is the inheritance of genes carried in DNA outside the nucleus. This DNA is in mitochondria, which are found in all eukaryotes, and in chloroplasts, which are found in plants and algae only.
+[bio11-s3.1.1] Each mitochondrion and chloroplast contains several copies of its own small, circular DNA molecule, like the DNA of a bacterium. It is not wound around histones (the proteins that nuclear DNA is wrapped around). Each organelle also has its own small (70S) ribosomes.
+[bio11-s3.1.2] A cell contains many such organelles, so it has hundreds to thousands of copies of the organelle DNA, compared with two copies of each nuclear gene.
+[bio11-s3.1.3] Organelle genes code for some of the proteins the organelle needs: for mitochondria, some proteins of aerobic respiration (releasing energy from food using oxygen); for chloroplasts, some proteins of photosynthesis. They also code for the organelle's own rRNA and tRNA (the RNA parts of its ribosomes and protein-making machinery).
+[bio11-s3.1.4] Most proteins in these organelles are coded by nuclear genes and imported, so the organelle depends on both its own genes and the nuclear genes.
+[bio11-s3.1.5] Mitochondria and chloroplasts are thought to be descended from bacteria that came to live inside an ancestral cell, which is why they have their own DNA. Evidence includes their circular DNA, 70S ribosomes, double membrane and division by splitting in two.
+[bio11-s3.1.6] New mitochondria and chloroplasts come only from the division of existing ones; the cell does not make them from scratch. This is why the organelle DNA is passed on only along with the cytoplasm that holds the organelles.
+[bio11-s3.2.b] Chromosomes are moved around by a precise mechanism, but organelles are not. This difference, together with the way the egg and sperm differ in size, explains why non-nuclear genes usually come from the mother only.
+[bio11-s3.2.0] Organelles lie in the cytoplasm (the cell contents outside the nucleus), and they are shared out between daughter cells at random when the cytoplasm divides, not by the spindle (the fibres that pull chromosomes apart) as chromosomes are.
+[bio11-s3.2.1] Their genes therefore do not segregate (separate into different gametes) in meiosis, and do not follow Mendel's laws or Mendelian ratios.
+[bio11-s3.2.2] In humans and most animals, the egg contributes nearly all the cytoplasm of the zygote, including its mitochondria. The sperm contributes almost only its nucleus; the few sperm mitochondria, in its midpiece, that enter the egg are destroyed.
+[bio11-s3.2.3] So mitochondrial genes are inherited from the mother only. In most flowering plants, chloroplasts (and mitochondria) are likewise inherited through the egg cell, from the female parent.
+[bio11-s3.2.4] Consequence 1: all the offspring of a mother share her mitochondrial DNA, whatever the father.
+[bio11-s3.2.5] Consequence 2: reciprocal crosses give different results, with the offspring resembling the female parent for the trait, unlike nuclear genes where reciprocal crosses give the same results.
+[bio11-s3.2.6] Consequence 3: mitochondrial DNA does not mix between two parents, so it changes only by mutation and passes down the female line almost unchanged.
+[bio11-s3.3.b] An early experiment on plants showed non-nuclear inheritance in action. It is a worked example of offspring copying the female parent rather than following Mendel's ratios.
+[bio11-s3.3.0] In 1909 Carl Correns studied the four-o'clock plant (Mirabilis jalapa), which has branches bearing green, white or variegated (green-and-white) leaves. The white areas lack working chloroplasts, so they cannot photosynthesise.
+[bio11-s3.3.1] Seeds from flowers on green branches gave green seedlings, and seeds from flowers on white branches gave white seedlings, which soon died.
+[bio11-s3.3.2] Seeds from variegated branches gave a mixture of seedlings, whatever branch the pollen came from.
+[bio11-s3.3.3] The offspring took the leaf type of the female parent. Leaf colour was inherited through the chloroplasts in the egg's cytoplasm, which made this one of the first demonstrations of non-nuclear inheritance.
+[bio11-s3.4.b] Human mitochondrial DNA is tiny, but because of maternal inheritance it has medical and scientific uses. Faults in it cause disease, and its unmixed female line makes it a useful record.
+[bio11-s3.4.0] Human mitochondrial DNA is about 16,600 base pairs long and carries 37 genes. By comparison, there are about 20,000 protein-coding genes on nuclear chromosomes of up to hundreds of millions of base pairs each.
+[bio11-s3.4.1] Mutations in mitochondrial DNA can cause diseases that mostly affect tissues with high energy demands, such as muscle, nerves, brain and eyes, because they reduce aerobic respiration, the process that supplies those tissues' energy. Example: Leber's hereditary optic neuropathy (LHON), which causes loss of central vision, usually in young adults.
+[bio11-s3.4.2] An affected mother can pass a mitochondrial disease to all her children, sons and daughters, because every child gets its mitochondria from her egg. An affected father passes it to none, because his mitochondria are not passed on. Sons inherit their mother's mitochondria too, but only daughters pass them on.
+[bio11-s3.4.3] Severity varies: a cell may contain a mixture of normal and mutant mitochondria, and the proportion passed to each egg varies, so children of the same mother can be affected to different degrees.
+[bio11-s3.4.4] Mitochondrial donation (“three-parent IVF”) replaces a mother's faulty mitochondria with healthy mitochondria from a donor egg, keeping the nuclear DNA of both parents. In 2015 the UK became the first country to allow it by law.
+[bio11-s3.4.5] In mitochondrial donation the child's nuclear DNA comes from its two parents and its small amount of mitochondrial DNA from the donor. There is more on the ethics in Ethics of genetic technologies.
+[bio11-s3.4.6] Because mitochondrial DNA passes down the female line without mixing and changes only by mutation, it is used to trace maternal ancestry and human migration and evolution.
+[bio11-s3.4.7] It is also used to identify remains when nuclear DNA is too damaged, since there are many copies per cell and it survives better.
+[bio11-s3.5.b] Putting the two systems side by side shows how a difference in where the DNA is kept leads to differences in how it is passed on. Each point below pairs nuclear inheritance with non-nuclear inheritance.
+[bio11-s3.5.0] Location: nuclear DNA is in chromosomes in the nucleus; non-nuclear DNA is in mitochondria and chloroplasts in the cytoplasm.
+[bio11-s3.5.1] Form: nuclear DNA is long, linear molecules wound around histones; non-nuclear DNA is small, circular molecules without histones.
+[bio11-s3.5.2] Amount: most of the genes are nuclear (about 20,000 protein-coding genes in humans); few are non-nuclear (37 in human mitochondria), coding mainly for the organelle's own proteins and RNA.
+[bio11-s3.5.3] Copies: two copies of each autosomal gene in a diploid cell (one with two sets of chromosomes); hundreds to thousands of copies of organelle DNA per cell.
+[bio11-s3.5.4] Parents contributing: both parents equally for nuclear genes; usually the mother only for non-nuclear genes (maternal inheritance).
+[bio11-s3.5.5] Distribution to gametes and daughter cells: chromosomes are separated precisely by the spindle in meiosis and mitosis; organelles are shared out randomly when the cytoplasm divides.
+[bio11-s3.5.6] Patterns: nuclear inheritance follows Mendel's laws with predictable ratios, and reciprocal crosses give the same results; non-nuclear inheritance gives no Mendelian ratios, and reciprocal crosses give different results.
+[bio11-s3.5.7] Variation between generations: nuclear inheritance gives new combinations of alleles from both parents each generation; non-nuclear DNA does not mix, and changes only by mutation.
+[bio11-s3.6.b] Despite their differences, the two kinds of DNA are the same kind of molecule working in the same way. A comparison answer should say what they share as well as how they differ.
+[bio11-s3.6.0] Both are DNA, using the same genetic code (with minor differences in mitochondria) and the same base pairing, so the same rules read and copy them.
+[bio11-s3.6.1] Both are copied before cell division, so that each daughter cell or organelle receives genetic information.
+[bio11-s3.6.2] Both can mutate and so cause inherited disease, such as LHON for mitochondrial DNA.
+[bio11-s3.6.3] Diagram: sperm and egg fusing. Egg large, nucleus plus many mitochondria in cytoplasm; sperm nucleus in head, few mitochondria in midpiece. Arrows: nuclear DNA from both parents, mitochondria from egg only. Labels: nucleus (nuclear DNA, both parents), mitochondria (mitochondrial DNA, mother).
+
+CANDIDATES bio11-s2: Key concepts of information transfer
+[bio11-s2.0.b] Inheritance starts with a few basic ideas: what counts as one kind of organism, what is passed on, and what carries it. These terms are used throughout genetics.
+[bio11-s2.0.0] A species is a group of organisms with similar features that can interbreed in natural conditions to produce fertile offspring (offspring that can themselves reproduce). A horse and a donkey can mate, but their offspring, the mule, is sterile, so horses and donkeys are different species.
+[bio11-s2.0.1] The species definition has limits: it cannot be applied to organisms that reproduce only asexually, because they never interbreed, or to fossils, because dead organisms cannot be tested for interbreeding. There is more on how new species form in Evidence for evolution.
+[bio11-s2.0.2] Heredity is the passing of characteristics (traits), by means of genes, from parents to offspring, that is, from one generation to the next. A gene is a section of DNA that carries the instructions for a trait.
+[bio11-s2.0.3] Genetics is the study of heredity (how traits are passed on) and of variation (the differences between individuals).
+[bio11-s2.0.4] A chromosome is the structure that carries genes from one generation to the next. Body cells carry chromosomes in homologous pairs (two matching chromosomes, one from each parent), and each gamete carries one chromosome from each pair.
+[bio11-s2.1.b] Parents pass genes on through special sex cells. Following the chromosome number from parent to gametes to zygote shows how each generation gets its genes and why the number stays constant.
+[bio11-s2.1.0] A gamete is a sex cell: a sperm or egg in animals, or in flowering plants the male gamete nucleus in the pollen grain and the egg cell in the ovule.
+[bio11-s2.1.1] Gametes are haploid, with one set of chromosomes (one from each pair), so a human gamete has 23 chromosomes. They are made by meiosis. Gametes must be haploid because fertilisation adds the two sets together, so otherwise the chromosome number would double every generation.
+[bio11-s2.1.2] Sexual reproduction involves the fusion of two gametes, usually from two parents. The offspring receive half their chromosomes from each parent, so they are genetically different from both parents and from each other. There is more on this in Variation.
+[bio11-s2.1.3] Asexual reproduction involves one parent and no gametes, so it produces genetically identical offspring, called clones.
+[bio11-s2.1.4] Fertilisation is the fusion of the nucleus of a male gamete with the nucleus of a female gamete to form a diploid zygote (a cell with two sets of chromosomes), the first cell of the new organism. It restores the diploid number: in humans 23 + 23 = 46 chromosomes.
+[bio11-s2.1.5] The zygote divides by mitosis, so every body cell carries the same set of chromosomes.
+[bio11-s2.1.6] Diagram: life-cycle flow: parent (2n = 46) → meiosis → gametes (n = 23, sperm and egg) → fertilisation → zygote (2n = 46) → mitosis → offspring; label haploid, diploid, meiosis, fertilisation and mitosis.
+[bio11-s2.2.b] A gene is a section of DNA for one trait, such as seed shape. Genes come in slightly different versions, and these versions, called alleles, are what make individuals differ.
+[bio11-s2.2.0] An allele is one of the alternative forms of a gene, found at the same locus (position) on homologous chromosomes. Alleles differ slightly in base sequence, as they arise by mutation, so they may produce different versions of the trait.
+[bio11-s2.2.1] In peas, the gene for seed shape has an allele for round seeds (R) and one for wrinkled seeds (r).
+[bio11-s2.2.2] A diploid organism has two alleles for each autosomal gene (a gene on a non-sex chromosome), one on each homologous chromosome, one inherited from each parent.
+[bio11-s2.2.3] A population may have more than two alleles of a gene, but each individual carries only two, because it has only two homologous chromosomes. The human ABO blood-group gene has three alleles (A, B and O) in the population.
+[bio11-s2.2.4] Homozygous means having two identical alleles of a gene (RR or rr). A homozygous organism is also called pure-breeding, because it passes on the same allele in every gamete.
+[bio11-s2.2.5] Heterozygous means having two different alleles of a gene (Rr). A heterozygous organism is also called a hybrid for that gene.
+[bio11-s2.2.6] Diagram: a pair of homologous chromosomes with one gene locus marked, one chromosome carrying R and the other r (heterozygous); a second pair carrying r and r (homozygous); label homologous chromosomes, locus and allele.
+[bio11-s2.3.b] Two terms separate what an organism's genes are from what it looks like or does. They are not always the same, because the environment and dominance both play a part.
+[bio11-s2.3.0] Genotype is the genetic make-up of an organism: the alleles it has for a particular trait, written with letters, such as RR, Rr or rr.
+[bio11-s2.3.1] Phenotype is the observable (physical, chemical or behavioural) characteristics of an organism that result from its genotype, such as round or wrinkled seeds, or blood group A.
+[bio11-s2.3.2] Phenotype = genotype + environment. The genotype sets the possible range, and the environment affects how it is expressed.
+[bio11-s2.3.3] Identical twins have the same genotype but may differ in mass because of diet and exercise, so the same genes can give different phenotypes.
+[bio11-s2.3.4] Hydrangea plants of the same variety have blue flowers in acid soil and pink flowers in alkaline soil, so soil pH changes the phenotype.
+[bio11-s2.3.5] A plant with the genes for chlorophyll is pale yellow if grown in the dark, because the environment (no light) stops the pigment forming.
+[bio11-s2.3.6] Different genotypes can give the same phenotype: RR and Rr are both round, because one allele is dominant. So the phenotype does not always reveal the genotype. There is more on how to find the genotype (the test cross) in Monohybrid crosses.
+[bio11-s2.4.b] When an organism is heterozygous, the two alleles do not always show equally. Dominant and recessive describe which allele is seen in the phenotype and which is hidden.
+[bio11-s2.4.0] A dominant allele is expressed in the phenotype of a heterozygote, masking the effect of the other allele. It is written with a capital letter (R), and a dominant trait shows in both RR and Rr.
+[bio11-s2.4.1] A recessive allele is expressed in the phenotype only when no dominant allele is present, that is, only in the homozygous condition (rr). It is written with the lower-case letter (r).
+[bio11-s2.4.2] In a heterozygote, a recessive allele is present but hidden, and it can still be passed on to offspring. It does not disappear and is not weaker.
+[bio11-s2.4.3] Often the dominant allele codes for a working protein and the recessive allele for a non-working one. One working copy makes enough protein, so Rr looks the same as RR.
+[bio11-s2.4.4] In peas, R codes for a working starch-branching enzyme; rr seeds make less starch and wrinkle. There is more on this chain in Genes, proteins and traits.
+[bio11-s2.4.5] Dominant does not mean common or better. The allele causing Huntington's disease is dominant but rare, and harmful.
+[bio11-s2.4.6] Cystic fibrosis and albinism are caused by recessive alleles, so two carriers (heterozygotes) can have an affected child.
+[bio11-s2.4.7] A carrier is a heterozygous individual who carries a recessive allele for a condition but does not show it.
+[bio11-s2.5.b] Having a gene is not the same as using it. Gene expression is how a cell turns the information in a gene into something that affects the organism.
+[bio11-s2.5.0] Gene expression is the process by which the information in a gene is used to make its product (a protein or a functional RNA), so that the gene affects the phenotype.
+[bio11-s2.5.1] A gene that is being used is switched on (expressed); one that is not is switched off.
+[bio11-s2.5.2] Every body cell has the same genes, but each cell type expresses only some of them, which is why cells become specialised.
+[bio11-s2.5.3] Expression is controlled by regulatory DNA (stretches of DNA that switch genes on or off), by signals such as hormones, and by the environment: some genes are switched on only in response to a stimulus.
+[bio11-s2.5.4] There is more on how the environment and behaviour change expression in Genetic and epigenetic mechanisms.
+[bio11-s2.6.b] Four more terms extend the basic vocabulary. Each has a short definition and, where there is one, a named example.
+[bio11-s2.6.0] Epigenetic expression is a change in gene expression that is not caused by a change in the DNA base sequence, but by chemical tags on the DNA or on the histones (the proteins DNA is wound around) that switch genes on or off.
+[bio11-s2.6.1] Epigenetic tags can be caused by the environment and behaviour, can be passed on when cells divide, and some are reversible.
+[bio11-s2.6.2] Incomplete dominance means neither allele is dominant over the other, so the heterozygote has a phenotype intermediate between the two homozygotes. For example, red-flowered and white-flowered snapdragons give pink-flowered heterozygotes. This contrasts with complete dominance, where the heterozygote looks like the dominant homozygote.
+[bio11-s2.6.3] Linkage: genes located on the same chromosome are linked and tend to be inherited together, because they do not separate into different gametes. Linked genes do not assort independently.
+[bio11-s2.6.4] Sex-linkage: a gene located on a sex chromosome (in humans almost always the X chromosome) is sex-linked, so the trait's inheritance pattern differs between males and females. Examples are red–green colour blindness and haemophilia, which are much more common in males.
+
+CANDIDATES bio7-s3: Structures and organelles of animal and plant cells
+[bio7-s3.0.b] Every cell needs a boundary that holds it together and controls what gets in and out. Plant cells have two layers of boundary: a tough cell wall outside and a thin cell membrane just inside it.
+[bio7-s3.0.0] Cell wall: a rigid layer outside the cell membrane, made mainly of cellulose fibres in plants. It is fully permeable, so water and dissolved substances pass through it freely.
+[bio7-s3.0.1] The cell wall gives strength, support and a fixed shape. It stops the cell bursting when it takes in water by osmosis (water moving in across the membrane), so the cell becomes firm (turgid), which supports non-woody plants.
+[bio7-s3.0.2] Cell walls are found in plant cells, in fungi (where they are made of chitin) and in bacteria, but not in animal cells. The cell wall is visible with the light microscope.
+[bio7-s3.0.3] Cell membrane (plasma membrane): a very thin, flexible boundary around every cell, made of a double layer of phospholipids (fatty molecules) with proteins in it. It is selectively permeable, so it controls which substances enter and leave, and it holds the cell contents together.
+[bio7-s3.0.4] Proteins in the cell membrane act as receptors that recognise hormones and other signals, and as markers that let cells recognise each other.
+[bio7-s3.0.5] The cell membrane is found in all cells, and lies inside the wall in plant cells. With the light microscope it is seen only as a line. There is more on this in Transport Across Membranes.
+[bio7-s3.1.b] Inside the membrane, the cell's contents sit in a watery fluid, and plant cells also have a large fluid-filled sac that helps hold them firm. Together these provide the setting for the cell's chemistry and its support.
+[bio7-s3.1.0] Cytoplasm: everything inside the cell membrane except the nucleus. It is a watery, jelly-like fluid (cytosol) containing dissolved nutrients, salts and enzymes (proteins that speed up reactions), in which the organelles (the cell's specialised working parts) are suspended.
+[bio7-s3.1.1] The cytoplasm is the site of many metabolic reactions (the chemical reactions of the cell), for example the first stage of respiration (glucose broken down to pyruvate) and anaerobic respiration (respiration without oxygen). It is also where proteins are made at free ribosomes. It is found in all cells.
+[bio7-s3.1.2] Vacuole: a fluid-filled sac surrounded by a single membrane. A mature plant cell has one large permanent central vacuole filled with cell sap, which is water containing sugars, salts and sometimes pigments, for example the red of beetroot.
+[bio7-s3.1.3] The plant vacuole stores water, food and waste. It takes in water by osmosis and pushes the cytoplasm against the wall, which keeps the cell turgid and the plant upright. When water is lost, plants wilt.
+[bio7-s3.1.4] Animal cells have only small, temporary vacuoles, for example food vacuoles. Some single-celled protists such as Amoeba have contractile vacuoles that pump out excess water.
+[bio7-s3.1.5] The plant vacuole is visible with the light microscope.
+[bio7-s3.2.b] Cells need a constant supply of usable energy. Mitochondria are the organelles that release it from food, so cells with high energy demands are packed with them.
+[bio7-s3.2.0] Mitochondrion (plural mitochondria): a rod- or sausage-shaped organelle with a double membrane. The outer membrane is smooth, and the inner membrane is folded into cristae.
+[bio7-s3.2.1] The folds of the cristae give a large surface area for the enzymes of the later stages of aerobic respiration (respiration using oxygen). The fluid inside the inner membrane is the matrix.
+[bio7-s3.2.2] Function: the site of most of aerobic respiration, releasing energy from food to make most of the cell's ATP (the molecule that carries energy for cell activities).
+[bio7-s3.2.3] Mitochondria are found in almost all eukaryotic cells (cells with a nucleus), in plants as well as animals. Plant cells respire as well as photosynthesise, so they need mitochondria too.
+[bio7-s3.2.4] Cells that need a lot of energy have many mitochondria, for example muscle cells, liver cells, nerve cells and the middle section of sperm.
+[bio7-s3.2.5] Mitochondria contain their own DNA and ribosomes. They are too small to show detail with the light microscope, so their structure is seen with the electron microscope.
+[bio7-s3.2.6] Diagram: a mitochondrion in section labelled outer membrane, inner membrane, cristae and matrix.
+[bio7-s3.3.b] Plants make their own food by photosynthesis, and the organelle that does this is the chloroplast. Its green pigment captures light, and its fluid interior builds sugar.
+[bio7-s3.3.0] Chloroplast: a disc-shaped organelle with a double membrane. It contains stacks of flattened membrane sacs (thylakoids; a stack is a granum) that carry the green pigment chlorophyll.
+[bio7-s3.3.1] The chloroplast is surrounded by a fluid called the stroma, and starch grains may be stored in the stroma.
+[bio7-s3.3.2] Function: the site of photosynthesis. Chlorophyll in the thylakoid membranes absorbs light energy (the light-dependent stage). The stroma contains the enzymes that use this energy to make glucose from carbon dioxide (the light-independent stage).
+[bio7-s3.3.3] The many stacked membranes give a large surface area for absorbing light. There is more on this in Photosynthesis.
+[bio7-s3.3.4] Chloroplasts are found only in plant cells (and algae), in parts exposed to light, especially the palisade cells of leaves and guard cells.
+[bio7-s3.3.5] Not all plant cells have chloroplasts. They are not found in root cells or in onion bulb cells, which are not exposed to light, and they are never found in animal cells.
+[bio7-s3.3.6] Chloroplasts are visible as green discs with the light microscope. They contain their own DNA and ribosomes.
+[bio7-s3.3.7] Diagram: a chloroplast labelled double membrane, thylakoids, granum, stroma and starch grain.
+[bio7-s3.4.b] The nucleus is the cell's control centre. It holds the instructions for making proteins, and nuclear pores are the gateways that let the right materials move between the nucleus and the rest of the cell.
+[bio7-s3.4.0] Nucleus: usually the largest organelle, round or oval, surrounded by a double membrane called the nuclear envelope. It contains the cell's DNA as chromatin, which is DNA wound around histone proteins.
+[bio7-s3.4.1] Function: the nucleus controls the cell's activities, because its DNA carries the genes that code for the cell's proteins, including the enzymes that control every reaction.
+[bio7-s3.4.2] The nucleus is where DNA is copied before cell division, and where genes are copied into messenger RNA (mRNA, the working copy of a gene that carries the code out to the ribosomes).
+[bio7-s3.4.3] The nucleolus is a dense region inside the nucleus where ribosomes are made.
+[bio7-s3.4.4] The nucleus is found in all eukaryotic cells except a few that lose it, for example mature human red blood cells. It is visible with the light microscope, especially when stained.
+[bio7-s3.4.5] Nuclear pore: one of many openings through the nuclear envelope, each lined with proteins that control what passes through it.
+[bio7-s3.4.6] mRNA and ribosome parts pass out to the cytoplasm. Proteins such as enzymes and histones, nucleotides (the building blocks of DNA and RNA) and ATP pass in. The DNA is too large to leave, so it stays protected in the nucleus.
+[bio7-s3.4.7] Nuclear pores are seen only with the electron microscope, because they are too small for the light microscope.
+[bio7-s3.5.b] The DNA in the nucleus is not a loose tangle. It is organised into chromosomes, which carry the genes and are passed on when cells divide and when organisms reproduce.
+[bio7-s3.5.0] Chromosome: a long thread of DNA wound around proteins (histones), carrying many genes (sections of DNA that code for proteins).
+[bio7-s3.5.1] For most of the cell's life the chromosomes are long, thin and spread out as chromatin, which is why they cannot be seen.
+[bio7-s3.5.2] Before division the chromosomes coil up tightly, becoming short and thick, and can then be seen with the light microscope when stained.
+[bio7-s3.5.3] Human body cells have 46 chromosomes (23 pairs).
+[bio7-s3.5.4] Function: chromosomes carry genetic information and pass it to new cells and offspring. There is more on this in Genetic Inheritance, and division is in Cell Division and Cancer.
+[bio7-s3.6.b] Proteins are made on tiny organelles called ribosomes, which read the code carried by mRNA. Every cell needs them, so they are one of the few organelles found in all cells.
+[bio7-s3.6.0] Ribosome: a very small organelle with no membrane, made of ribosomal RNA (rRNA) and protein, in two subunits.
+[bio7-s3.6.1] Function: the ribosome is the site of protein synthesis, where amino acids (the building blocks of proteins) are joined in the order coded for by mRNA.
+[bio7-s3.6.2] Ribosomes are found in all cells, prokaryotic (without a nucleus) and eukaryotic, free in the cytoplasm. There are many in cells making a lot of protein.
+[bio7-s3.6.3] Ribosomes are seen only with the electron microscope, as dots, because they are very small. There is more on this in DNA Replication, Protein Synthesis and Mutations.
+[bio7-s3.6.4] RNA but no DNA is found in ribosomes and in the cytoplasm of eukaryotic cells. DNA is in the nucleus, mitochondria and chloroplasts.
+[bio7-s3.7.b] Some proteins are not used inside the cell but are exported, such as digestive enzymes. The endoplasmic reticulum is the first stage of the assembly line that folds and transports them, and it also makes lipids.
+[bio7-s3.7.0] Endoplasmic reticulum (ER): a network of membrane-bound flattened sacs and tubes running through the cytoplasm, continuous with the outer membrane of the nuclear envelope. It forms channels that transport materials through the cell.
+[bio7-s3.7.1] Rough ER is covered with ribosomes. Proteins made at these ribosomes enter the ER, where they are folded and transported. These are mainly proteins that will be secreted from the cell (for example digestive enzymes made by pancreas cells, and antibodies) or built into membranes.
+[bio7-s3.7.2] Proteins made at free ribosomes stay in the cytoplasm. Cells that secrete a lot of protein have a lot of rough ER, as in pancreas cells secreting digestive enzymes.
+[bio7-s3.7.3] Smooth ER has no ribosomes. It makes lipids, including phospholipids for membranes and steroid hormones. In liver cells it helps to break down (detoxify) drugs and alcohol.
+[bio7-s3.7.4] The ER is found in plant and animal cells, and is seen only with the electron microscope.
+[bio7-s3.8.b] The Golgi apparatus is the second stage of the assembly line: it modifies, sorts and packages proteins from the ER and ships them out of the cell.
+[bio7-s3.8.0] Golgi apparatus (Golgi body): a stack of flattened, curved membrane sacs, usually near the nucleus, with small membrane bubbles (vesicles) budding off it.
+[bio7-s3.8.1] The Golgi apparatus receives proteins from the ER in vesicles, modifies them (for example adding carbohydrate to make glycoproteins), and sorts and packages them into vesicles that carry them to where they are needed.
+[bio7-s3.8.2] Secretory vesicles move to the cell membrane, fuse with it and release their contents outside the cell (exocytosis). In plant cells the Golgi apparatus also makes materials for the cell wall.
+[bio7-s3.8.3] The Golgi apparatus is found in plant and animal cells, and is seen only with the electron microscope.
+[bio7-s3.8.4] Secretory pathway, in order: gene in the nucleus, then mRNA leaves through a nuclear pore, then protein is made at a ribosome on the rough ER, then folded and carried in the ER.
+[bio7-s3.8.5] The protein then moves in a transport vesicle to the Golgi apparatus (modified and packaged), then in a secretory vesicle, which fuses with the cell membrane, and the protein is released, for example a digestive enzyme.
+[bio7-s3.8.6] Diagram: add rough ER (with ribosomes), smooth ER and the Golgi apparatus (with vesicles) to the animal-cell diagram, with arrows showing the secretory pathway.
+[bio7-s3.9.b] Plant and animal cells share the same core set of organelles, but plant cells have three extra structures that suit a life of making food and standing upright without a skeleton.
+[bio7-s3.9.0] Both have a cell membrane, cytoplasm, a nucleus with nuclear pores and chromosomes, mitochondria and ribosomes.
+[bio7-s3.9.1] Only plant cells have a cellulose cell wall, a large permanent central vacuole, and chloroplasts in green parts.
+[bio7-s3.9.2] Plant cells usually have a fixed, regular (often rectangular) shape, because the rigid wall holds them in place, and they store carbohydrate as starch.
+[bio7-s3.9.3] Animal cells have a flexible, irregular or rounded shape, no wall, only small temporary vacuoles, and store carbohydrate as glycogen.
+[bio7-s3.9.4] Seen with the light microscope: the cell wall, vacuole, chloroplasts and nucleus, with the cell membrane seen only as a line. Mitochondria, nuclear pores and ribosomes need the electron microscope.
+[bio7-s3.9.5] Diagram: a typical animal cell as seen with the electron microscope, labelled cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, nucleolus, chromatin, mitochondrion and ribosomes.
+[bio7-s3.9.6] Diagram: a typical plant cell (for example a palisade cell) as seen with the electron microscope, labelled cell wall, cell membrane, cytoplasm, large vacuole, chloroplast, mitochondrion, nucleus, nuclear pore and ribosomes.
+
+CANDIDATES bio23-s3: Gametes and fertilisation
+[bio23-s3.0.b] Gametes are the cells that carry genes from one generation to the next, and they are made by a special kind of cell division. Knowing where this division happens, and which cells do it, is the starting point for sperm and egg production.
+[bio23-s3.0.0] A gamete is a haploid sex cell, meaning it has only one chromosome of each pair. In humans the haploid number is 23 (n = 23).
+[bio23-s3.0.1] Sperm and eggs are made by meiosis (the cell division that halves the chromosome number), so each gamete carries one chromosome of each pair, and each gamete is genetically different from the others. There is more on this in Mitosis and meiosis.
+[bio23-s3.0.2] At fertilisation two haploid gametes fuse to give a diploid zygote (the first cell of a new individual, with both chromosomes of each pair) with 46 chromosomes (2n = 46).
+[bio23-s3.0.3] Meiosis happens only in the gonads (the organs that make gametes): in the seminiferous tubules (the coiled tubes inside the testes) for sperm, and in the ovaries for eggs.
+[bio23-s3.0.4] The cells that undergo meiosis are diploid. Every other cell in the body divides by mitosis, which keeps the chromosome number the same.
+[bio23-s3.1.b] Unlike eggs, sperm are made continuously, in huge numbers, from puberty onwards. The process happens in the testes and finishes in a storage tube beside them.
+[bio23-s3.1.0] Sperm production begins at puberty and then continues every day throughout a man's life, though it declines in old age.
+[bio23-s3.1.1] Many millions of sperm are made each day in the walls of the seminiferous tubules, from diploid cells that first multiply by mitosis (which keeps a supply of cells available) and then divide by meiosis.
+[bio23-s3.1.2] Each cell that completes meiosis gives four sperm, all of equal size.
+[bio23-s3.1.3] Half the sperm carry an X chromosome and half carry a Y, because the dividing cell has one X and one Y. There is more on this in Sex determination.
+[bio23-s3.1.4] The new sperm move into the epididymis (a coiled tube on the back of each testis), where they are stored and mature, becoming able to swim.
+[bio23-s3.1.5] It takes about two to three months for a sperm to be produced and matured, so a change in lifestyle or health affects sperm only after some weeks.
+[bio23-s3.1.6] Production needs the lower temperature of the scrotum (the sac that holds the testes outside the body) and the hormones FSH and testosterone.
+[bio23-s3.2.b] Egg production runs on a very different timetable from sperm production. A girl's eggs begin forming before she is born, and she never makes more.
+[bio23-s3.2.0] Egg production starts before birth: while a girl is a foetus (an unborn baby), her ovaries form all the immature eggs she will ever have, each inside a follicle (a small fluid-filled sac of cells that nourishes the egg).
+[bio23-s3.2.1] Each of these eggs begins meiosis but stops part-way.
+[bio23-s3.2.2] A baby girl is born with about one to two million immature eggs. Most degenerate (break down), and only about 400–500 are ever released in her life.
+[bio23-s3.2.3] No new eggs are made after birth, which is why the supply is fixed.
+[bio23-s3.2.4] From puberty, usually one follicle each month develops fully and releases its egg at ovulation (the release of an egg from the ovary). The monthly cycle is dealt with in The menstrual cycle.
+[bio23-s3.2.5] Meiosis continues around ovulation but is completed only if a sperm enters the egg, so an egg that is never fertilised never finishes meiosis.
+[bio23-s3.3.b] Meiosis in the ovary does not split the cell evenly, and the eggs it makes are as old as the woman herself. Both facts matter for the early embryo and for fertility.
+[bio23-s3.3.0] Division in egg production is unequal: almost all the cytoplasm goes to one cell, the egg, and the other products are tiny cells called polar bodies, which degenerate.
+[bio23-s3.3.1] So one cell undergoing meiosis gives one egg, not four.
+[bio23-s3.3.2] This unequal split gives the egg a large store of cytoplasm, food reserves and organelles (the small working structures inside a cell) to support the early embryo.
+[bio23-s3.3.3] Because the eggs are as old as the woman, they age with her. In older women more eggs have errors in chromosome separation, which is why the risk of conditions such as Down syndrome rises with the mother's age. There is more on this in Mutations.
+[bio23-s3.3.4] Fertility also falls with age because of these egg changes.
+[bio23-s3.4.b] A sperm has one job, to carry the father's haploid nucleus to the egg. Every part of its structure helps it do that, so it is small, streamlined and powered for swimming.
+[bio23-s3.4.0] A sperm is a very small, mobile cell, about 0.05 mm long.
+[bio23-s3.4.1] The head contains the haploid nucleus (23 chromosomes) and, at its tip, the acrosome, a cap containing enzymes that digest a path through the layers around the egg.
+[bio23-s3.4.2] The middle piece is packed with mitochondria that release energy (ATP) by aerobic respiration (respiration using oxygen) to power the tail.
+[bio23-s3.4.3] The tail is a flagellum (a whip-like tail) that beats to make the sperm swim.
+[bio23-s3.4.4] A sperm has very little cytoplasm, which keeps it small and streamlined for swimming.
+[bio23-s3.4.5] Diagram: a sperm cell. Label the head, acrosome, nucleus, middle piece, mitochondria and tail.
+[bio23-s3.5.b] The egg has a different job from the sperm. It cannot move, so its structure is built to supply and protect the new life once a sperm arrives.
+[bio23-s3.5.0] The egg (ovum) is one of the largest cells in the body, about 0.1 mm across, just visible to the naked eye. It cannot move by itself.
+[bio23-s3.5.1] It contains a haploid nucleus (23 chromosomes, always including an X), a cell membrane, and a large volume of cytoplasm holding food reserves and many mitochondria, which feed and power the early embryo.
+[bio23-s3.5.2] Around the egg is a thick, clear, jelly-like coat called the zona pellucida, and outside that an outer layer of follicle cells.
+[bio23-s3.5.3] Diagram: an egg, drawn much larger than the sperm. Label the nucleus, cytoplasm, cell membrane, zona pellucida (jelly coat) and follicle cells.
+[bio23-s3.6.b] Sperm and eggs are both haploid gametes, but their differences follow from their jobs: the sperm travels and delivers, and the egg stores food and waits. Compare them in pairs, one feature at a time.
+[bio23-s3.6.0] Size: sperm are tiny, about 0.05 mm long, while the egg is far larger, about 0.1 mm across, with a far greater volume.
+[bio23-s3.6.1] Movement: the sperm swims with its tail, but the egg cannot swim and is moved along the fallopian tube by cilia (tiny hair-like structures lining the tube).
+[bio23-s3.6.2] Numbers: there are millions of sperm per ejaculation, but usually one egg a month.
+[bio23-s3.6.3] Cytoplasm and food: sperm have almost none, but the egg is a large store.
+[bio23-s3.6.4] Sex chromosome: a sperm carries an X or a Y, but the egg always carries an X.
+[bio23-s3.6.5] Production: sperm are made continuously from puberty, four per meiosis, while eggs begin to form before birth, one per meiosis.
+[bio23-s3.7.b] Fertilisation needs sperm and egg to meet in the right place at the right time. Only a tiny fraction of sperm survive the journey, and the timing is tight because both gametes live for a limited time.
+[bio23-s3.7.0] During intercourse semen (the fluid containing the sperm) is ejaculated into the top of the vagina, near the cervix (the neck of the uterus).
+[bio23-s3.7.1] Sperm swim through the cervical mucus, which is easiest to pass around ovulation when it is thin, then through the uterus and into the fallopian tubes, helped by contractions of the uterus.
+[bio23-s3.7.2] Only a few hundred of the millions of sperm reach the egg. Most die in the acidic vagina, are blocked by mucus, or go into the tube with no egg.
+[bio23-s3.7.3] Sperm can survive up to about five days in the female tract.
+[bio23-s3.7.4] An egg survives only about 12–24 hours after ovulation.
+[bio23-s3.7.5] So intercourse in the five days before ovulation, or on the day of ovulation, can lead to fertilisation, because live sperm and a live egg are then present together.
+[bio23-s3.8.b] Fertilisation is more than a sperm touching an egg. It is the fusion of two nuclei, and it happens in a set order that stops more than one sperm getting in.
+[bio23-s3.8.0] Fertilisation is the fusion of the haploid nucleus of a sperm with the haploid nucleus of an egg to form a diploid zygote.
+[bio23-s3.8.1] In humans it normally takes place in the upper part of a fallopian tube, within a day of ovulation.
+[bio23-s3.8.2] 1. Sperm reach the egg and push between the follicle cells.
+[bio23-s3.8.3] 2. The acrosome of a sperm releases its enzymes, which digest a path through the zona pellucida. This is called the acrosome reaction.
+[bio23-s3.8.4] 3. The membrane of one sperm fuses with the egg's membrane, and the sperm's nucleus enters the egg. The tail is left outside, so the sperm's mitochondria stay out.
+[bio23-s3.8.5] 4. At once the egg's outer layer changes and the zona pellucida hardens, so no other sperm can enter. This ensures the zygote receives only one set of chromosomes from the father.
+[bio23-s3.8.6] 5. The egg completes its meiosis.
+[bio23-s3.8.7] 6. The sperm nucleus and egg nucleus fuse, giving a zygote with 46 chromosomes in 23 pairs, one of each pair from each parent.
+[bio23-s3.9.b] Fertilisation settles several things at once: the child's sex, where its mitochondria come from, and the start of a new genetically unique individual.
+[bio23-s3.9.0] At fertilisation the sex of the child is decided by whether the sperm carries an X or a Y, because the egg always carries an X. The zygote receives its mitochondria from the egg only. There is more on this in Sex determination and in Nuclear and non-nuclear inheritance.
+[bio23-s3.9.1] Fertilisation restores the diploid number, which would otherwise halve in every generation.
+[bio23-s3.9.2] It combines genetic material from two parents, so the offspring is genetically unique. Together with meiosis, this is a source of variation.
+[bio23-s3.9.3] Fertilisation starts the development of the embryo. The zygote begins to divide by mitosis as it moves down the tube. There is more on this in Pregnancy.
+[bio23-s3.9.4] Diagram: a sequence showing a sperm entering an egg (the acrosome digesting the zona pellucida), the sperm nucleus inside the egg, and the two nuclei fusing to form the zygote. Label the sperm nucleus, egg nucleus, zona pellucida, zygote, n and 2n.
+[bio23-s3.10.b] Twins can arise in two different ways, and the difference explains why some twins are genetically identical and others are not.
+[bio23-s3.10.0] Identical twins come from one zygote that splits into two embryos early in development, so they have the same genes.
+[bio23-s3.10.1] Non-identical (fraternal) twins come from two eggs released at the same time and fertilised by two different sperm, so they are no more alike genetically than other brothers and sisters.

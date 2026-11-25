@@ -1,0 +1,408 @@
+{
+ "geo-population-migration-s3.0.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.0.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.0.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.0.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.0.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.0.4": {
+  "needs": []
+ },
+ "geo-population-migration-s3.0.5": {
+  "needs": []
+ },
+ "geo-population-migration-s3.0.6": {
+  "needs": []
+ },
+ "geo-population-migration-s3.1.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.1.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.1.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.2.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.2.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.2.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.2.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.2.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.2.4": {
+  "needs": []
+ },
+ "geo-population-migration-s3.2.5": {
+  "needs": []
+ },
+ "geo-population-migration-s3.3.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.3.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.3.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.3.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.4.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.4.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.4.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.5.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.5.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.5.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.5.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.5.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.5.4": {
+  "needs": []
+ },
+ "geo-population-migration-s3.6.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.6.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.2.1",
+    "strength": "helpful",
+    "why": "protectionism and tariffs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.6.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.6.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.6.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.6.4": {
+  "needs": []
+ },
+ "geo-population-migration-s3.6.5": {
+  "needs": []
+ },
+ "geo-population-migration-s3.6.6": {
+  "needs": []
+ },
+ "geo-population-migration-s3.6.7": {
+  "needs": []
+ },
+ "geo-population-migration-s3.7.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.7.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.3.2",
+    "strength": "helpful",
+    "why": "Whitaker programme and export-led growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.7.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.3.0",
+    "strength": "helpful",
+    "why": "IDA attracting foreign firms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.7.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.7.3": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.3.4",
+    "strength": "helpful",
+    "why": "EEC membership 1973",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.7.4": {
+  "needs": []
+ },
+ "geo-population-migration-s3.8.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.8.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.8.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.8.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.8.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.8.4": {
+  "needs": []
+ },
+ "geo-population-migration-s3.9.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.9.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.6.0",
+    "strength": "helpful",
+    "why": "Celtic Tiger growth and FDI",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.9.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.9.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.9.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.9.4": {
+  "needs": []
+ },
+ "geo-population-migration-s3.9.5": {
+  "needs": []
+ },
+ "geo-population-migration-s3.10.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.10.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.7.0",
+    "strength": "helpful",
+    "why": "property bubble and bank crisis",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-economic-activities-s1.8.0",
+    "strength": "helpful",
+    "why": "EU-IMF programme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.10.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.10.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.10.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.11.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.11.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.9.0",
+    "strength": "helpful",
+    "why": "post-recession job growth",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.11.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.11.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.11.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.12.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.12.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.13.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.13.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.13.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.13.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.13.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.14.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.14.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.15.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.15.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.15.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.15.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.15.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.16.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.16.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.16.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.16.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.16.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.17.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.17.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.17.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.17.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.17.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.17.4": {
+  "needs": []
+ },
+ "geo-population-migration-s3.17.5": {
+  "needs": []
+ },
+ "geo-population-migration-s3.18.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.18.0": {
+  "needs": []
+ },
+ "geo-population-migration-s3.18.1": {
+  "needs": []
+ },
+ "geo-population-migration-s3.18.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.18.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.18.4": {
+  "needs": []
+ },
+ "geo-population-migration-s3.19.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.19.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.9.0",
+    "strength": "helpful",
+    "why": "economic recovery and jobs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.19.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.6.0",
+    "strength": "helpful",
+    "why": "foreign direct investment by multinationals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.19.2": {
+  "needs": []
+ },
+ "geo-population-migration-s3.19.3": {
+  "needs": []
+ },
+ "geo-population-migration-s3.19.4": {
+  "needs": []
+ },
+ "geo-population-migration-s3.20.b": {
+  "needs": []
+ },
+ "geo-population-migration-s3.20.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.7.0",
+    "strength": "helpful",
+    "why": "property crash and construction collapse",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.20.1": {
+  "needs": []
+ }
+}

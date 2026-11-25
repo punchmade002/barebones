@@ -1,0 +1,511 @@
+{
+ "geo-region-continental-s1.0.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.0.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.0.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.0.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.0.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.0.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.0.5": {
+  "needs": []
+ },
+ "geo-region-continental-s1.1.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.1.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.1.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.1.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.1.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.1.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.1.5": {
+  "needs": []
+ },
+ "geo-region-continental-s1.2.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.2.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.2.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.2.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.2.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.2.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.2.5": {
+  "needs": []
+ },
+ "geo-region-continental-s1.3.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.3.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.3.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.3.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.3.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.3.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.3.5": {
+  "needs": []
+ },
+ "geo-region-continental-s1.4.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.4.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.4.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.4.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.4.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.5.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.5.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.5.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.5.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.5.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.5.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.6.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.6.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.6.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.6.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.6.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.7.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.7.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.7.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.7.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.8.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.8.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.8.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.8.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.8.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.8.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.9.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.9.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.9.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.9.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.10.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.10.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.10.1": {
+  "needs": [
+   {
+    "id": "geo-rivers-s1.12.1",
+    "strength": "helpful",
+    "why": "alluvium deposited by floods",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.10.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.10.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.11.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.11.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.11.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.11.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.11.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.12.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.12.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.12.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.12.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.13.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.13.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.13.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.13.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.13.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.14.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.14.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.14.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.15.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.15.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.15.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.15.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.16.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.16.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.16.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.17.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.17.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.17.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.17.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.17.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.18.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.18.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.18.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.18.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.18.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.19.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.19.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.19.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.19.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.19.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.19.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.19.5": {
+  "needs": []
+ },
+ "geo-region-continental-s1.20.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.20.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.20.1": {
+  "needs": [
+   {
+    "id": "geo-rivers-s1.12.1",
+    "strength": "helpful",
+    "why": "alluvium deposition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.20.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.21.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.21.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.21.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.21.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.21.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.21.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.22.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.22.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.22.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.22.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.22.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.23.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.23.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.23.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.23.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.23.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.24.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.24.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.24.1": {
+  "needs": [
+   {
+    "id": "geo-rivers-s1.13.0",
+    "strength": "helpful",
+    "why": "delta formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.25.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.25.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.25.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.25.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.26.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.26.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.26.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.26.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.27.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.27.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.27.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.27.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.27.3": {
+  "needs": [
+   {
+    "id": "geo-rivers-s1.0.2",
+    "strength": "helpful",
+    "why": "tributary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.27.4": {
+  "needs": [
+   {
+    "id": "geo-rivers-s1.0.4",
+    "strength": "helpful",
+    "why": "drainage basin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.27.5": {
+  "needs": [
+   {
+    "id": "geo-rivers-s1.13.0",
+    "strength": "helpful",
+    "why": "delta formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.27.6": {
+  "needs": []
+ },
+ "geo-region-continental-s1.27.7": {
+  "needs": [
+   {
+    "id": "geo-rivers-s1.0.6",
+    "strength": "helpful",
+    "why": "distributary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.28.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.28.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.28.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.28.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.28.3": {
+  "needs": [
+   {
+    "id": "geo-rivers-s1.15.2",
+    "strength": "helpful",
+    "why": "braided channel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.29.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.29.0": {
+  "needs": []
+ }
+}

@@ -1,0 +1,286 @@
+{
+"geo-rocks-weathering-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.2.1",
+"strength": "helpful",
+"why": "uses saltating grains",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.1.0",
+"strength": "helpful",
+"why": "uses deflation",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.1.0",
+"strength": "essential",
+"why": "formed by deflation",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.3.0",
+"strength": "essential",
+"why": "example of deflation hollow",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.1.0",
+"strength": "essential",
+"why": "left after deflation",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.1.1",
+"strength": "essential",
+"why": "cut by sandblasting abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.3.0",
+"strength": "essential",
+"why": "draws deflation hollow",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s6.3.2",
+"strength": "essential",
+"why": "draws desert pavement",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.1.1",
+"strength": "helpful",
+"why": "uses abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.1.1",
+"strength": "essential",
+"why": "abraded by wind-blown sand",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.1.1",
+"strength": "essential",
+"why": "cut by abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.4.1",
+"strength": "essential",
+"why": "stages of zeugen formation",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.1.1",
+"strength": "essential",
+"why": "undercut by sandblasting abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.4.3",
+"strength": "essential",
+"why": "stages of mushroom rock",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.4.0",
+"strength": "essential",
+"why": "draws yardangs",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s6.4.1",
+"strength": "essential",
+"why": "draws zeugen",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s6.4.3",
+"strength": "essential",
+"why": "draws mushroom rock",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.5.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.5.0",
+"strength": "helpful",
+"why": "deposition when wind slows",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.5.4": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.5.2",
+"strength": "essential",
+"why": "draws barchan dune",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s6.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.1.0",
+"strength": "helpful",
+"why": "bare soil blown away: deflation",
+"confidence": "low"
+}
+]
+},
+"geo-rocks-weathering-s6.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s6.6.0",
+"strength": "essential",
+"why": "follows from Dust Bowl",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s6.6.2": {
+"cost": 1,
+"needs": []
+}
+}

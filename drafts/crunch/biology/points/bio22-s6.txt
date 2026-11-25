@@ -1,0 +1,284 @@
+TARGET bio22-s6: Emergence and spread of infectious disease
+[bio22-s6.0.b] Disease specialists use precise words for how common a disease is and how fast it is changing. You need these terms to describe any outbreak, and they appear throughout the rest of this subsection.
+[bio22-s6.0.0] An emerging infectious disease is one that has newly appeared in a population, or one that was known but is rapidly increasing in incidence (the number of new cases) or in geographic range.
+[bio22-s6.0.1] A re-emerging disease is one that had declined and is increasing again, e.g. measles where vaccination rates fall, or TB with drug-resistant strains.
+[bio22-s6.0.2] Endemic means always present at a fairly steady level in a region, so the number of cases is predictable from year to year.
+[bio22-s6.0.3] An epidemic, or outbreak, is a sudden increase in cases above the expected level in a region.
+[bio22-s6.0.4] A pandemic is an epidemic that spreads across several continents or worldwide, e.g. COVID-19, which the World Health Organization declared a pandemic on 11 March 2020.
+[bio22-s6.1.b] Some terms describe where a pathogen (a disease-causing organism) lives between outbreaks and who can pass it on. These explain why some diseases are so hard to get rid of.
+[bio22-s6.1.0] A zoonosis is an infectious disease that passes from animals to humans, e.g. avian influenza or rabies.
+[bio22-s6.1.1] Most emerging human diseases are zoonoses, often from wild animals, because people have little immunity to pathogens they have never met. There is more on this in Emerging diseases and society.
+[bio22-s6.1.2] A reservoir is a host population in which a pathogen persists and from which it infects others, e.g. badgers for bovine TB in Ireland, or wild birds for avian influenza.
+[bio22-s6.1.3] A carrier is an infected individual who shows no symptoms but can pass on the pathogen, so nobody knows to avoid them.
+[bio22-s6.2.b] A pathogen can only cause an outbreak if it can get from one host to the next. There are several routes, and each has typical diseases that use it, in both animals and plants.
+[bio22-s6.2.0] Airborne droplets and aerosols (tiny particles hanging in the air) from coughs, sneezes and breath spread influenza, TB, measles and COVID-19.
+[bio22-s6.2.1] Wind-borne spores spread ash dieback, cereal rusts and potato blight in plants, because spores are light enough to be carried between fields.
+[bio22-s6.2.2] Direct contact, touch and skin to skin, spreads ringworm and athlete's foot.
+[bio22-s6.2.3] Indirect contact via contaminated objects and surfaces (fomites), hands, tools and clothing spreads disease. In plants, contact with hands and tools spreads tobacco mosaic virus.
+[bio22-s6.2.4] Contaminated food and water, the faecal–oral route (pathogens in faeces reach the mouth), spreads cholera, Salmonella food poisoning and amoebic dysentery.
+[bio22-s6.2.5] Body fluids spread HIV and hepatitis B through sexual contact, blood (shared needles and unscreened transfusions) and mother to baby.
+[bio22-s6.2.6] Vectors are animals that carry pathogens between hosts: mosquitoes (malaria), ticks (Lyme disease), tsetse flies (sleeping sickness), elm bark beetles (Dutch elm disease), aphids (many plant viruses, e.g. barley yellow dwarf virus) and biting midges (bluetongue virus of sheep and cattle).
+[bio22-s6.2.7] In plants, rain splash, soil, infected seed, tubers and cuttings also spread disease. Vegetative propagation (growing new plants from parts of old ones) passes viruses and blight to the next crop, and grafting does too.
+[bio22-s6.3.b] Diseases spread when infected organisms, or the things they touch, move. Over short distances this happens through everyday contact, and over a whole country it follows the trade and travel routes of animals and people.
+[bio22-s6.3.0] Local spread occurs within a household, school, hospital or farm, between neighbouring fields by wind and rain splash, and between neighbouring farms by animals straying, shared equipment, vehicles and people's boots.
+[bio22-s6.3.1] Regional spread occurs when farm animals move through marts (livestock markets) and between farms, when plants and animals are traded within a country or the EU, when wild animals move seasonally, and when people commute and holiday.
+[bio22-s6.3.2] In the 2001 foot-and-mouth disease epidemic in Britain, infected sheep were moved through markets across the country before the disease was detected, spreading it to many farms.
+[bio22-s6.3.3] Control of that epidemic needed a ban on animal movement and the culling of millions of animals, which shows how costly it is once movement has carried a disease widely.
+[bio22-s6.4.b] Modern travel and trade mean a pathogen no longer stays where it started. A disease can reach another continent before anyone knows it is there.
+[bio22-s6.4.0] Air travel can carry an infected person to any continent within a day, faster than many diseases take to show symptoms, so travellers can carry infection without knowing it.
+[bio22-s6.4.1] COVID-19 reached every continent within months of its first identification in Wuhan, China, in December 2019.
+[bio22-s6.4.2] International trade moves pathogens and vectors in plants, wood, soil, live animals and goods. Ash dieback spread through Europe partly in imported young ash plants and was found in Ireland in 2012.
+[bio22-s6.4.3] The second, more aggressive epidemic of Dutch elm disease reached Britain from the late 1960s in imported elm logs.
+[bio22-s6.4.4] The Asian tiger mosquito (Aedes albopictus), a vector of several viruses, has spread to many countries in used tyres and plants.
+[bio22-s6.4.5] Migrating wild birds carry avian influenza between continents, because infected birds fly long distances without any border controls.
+[bio22-s6.5.b] Trade in live animals can move a disease into places where the local species have never met it. Amphibians show how serious this can be.
+[bio22-s6.5.0] The pet and wildlife trade spread chytrid fungus (Batrachochytrium dendrobatidis) around the world in the trade in amphibians.
+[bio22-s6.5.1] Chytrid is linked to the decline of hundreds of amphibian species and the extinction of some.
+[bio22-s6.6.b] Emergence and spread depend on several interrelated factors, and the first is persistence. The longer a host carries a pathogen in a way that can pass on, the more chances it has to infect others.
+[bio22-s6.6.0] The longer a host is infectious, the more others it can infect.
+[bio22-s6.6.1] Persistence includes long infectious periods, carriers without symptoms, latent infections (the pathogen is present but inactive) that reactivate, and reservoir hosts.
+[bio22-s6.6.2] HIV may cause no symptoms for years while the person can still pass it on.
+[bio22-s6.6.3] Herpes viruses stay latent in nerve cells for life, so the person is never rid of the virus. There is more on this in Viruses: replication.
+[bio22-s6.6.4] TB bacteria can stay dormant (inactive) in the lungs for years and become active later.
+[bio22-s6.7.b] Persistence shows up in each kind of host, from a single healthy-looking person to wildlife and crops.
+[bio22-s6.7.0] Mary Mallon, known as Typhoid Mary, was born in Co. Tyrone in 1869 and worked as a cook in New York. She carried the typhoid bacterium, Salmonella Typhi, without symptoms and infected many of the families she cooked for.
+[bio22-s6.7.1] Health authorities isolated her for most of the rest of her life, because as a carrier she could not be identified by illness.
+[bio22-s6.7.2] Bovine TB persists in Irish cattle partly because badgers act as a wildlife reservoir that reinfects herds, so clearing the disease from cattle alone is not enough.
+[bio22-s6.7.3] Plant viruses persist in perennial plants (which live for years), weeds and tubers, so infected seed potatoes carry viruses into the next year's crop.
+[bio22-s6.7.4] Phytophthora infestans, the cause of potato blight, survives the winter in infected tubers left in the ground or in dumps.
+[bio22-s6.8.b] A mutation is a random change in a pathogen's genetic material. Pathogens that reproduce quickly produce huge numbers of changed copies, so some will spread better than the original.
+[bio22-s6.8.0] Pathogens with short generation times and large populations produce many mutants, because each new copy is another chance for a change.
+[bio22-s6.8.1] RNA viruses mutate fastest because their copying enzyme doesn't proofread (check for copying errors). There is more on this in Viruses: replication.
+[bio22-s6.8.2] Antigenic drift: small mutations gradually change a virus's surface antigens (the molecules the immune system recognises), so memory cells and antibodies from earlier infections or vaccines no longer fit well.
+[bio22-s6.8.3] Antigenic drift is why influenza returns every winter and why flu vaccines are updated each year.
+[bio22-s6.8.4] Mutations likewise produced new SARS-CoV-2 variants, such as Delta and Omicron, that spread faster or partly escaped immunity, causing new waves of COVID-19.
+[bio22-s6.9.b] Mutations can also change what a pathogen is able to do, giving it a new host or defeating a crop's defences.
+[bio22-s6.9.0] Antigenic shift (influenza): if two different flu viruses infect the same cell, e.g. in a pig, their RNA segments can mix to form a new strain with surface antigens that no human population has met.
+[bio22-s6.9.1] Antigenic shift has caused flu pandemics, e.g. the 2009 H1N1 (swine flu) pandemic, because with no existing immunity the new strain spreads easily.
+[bio22-s6.9.2] Mutations can let a pathogen infect a new host species (spillover, e.g. a bird virus gaining the ability to infect mammals), become more transmissible, or overcome resistance bred into crops.
+[bio22-s6.9.3] The Ug99 strain of wheat stem rust, identified in Uganda in 1999, overcame resistance genes used in most of the world's wheat varieties.
+[bio22-s6.10.b] Resistance means a pathogen or pest survives a drug or chemical that used to kill it. It arises by natural selection (survival of the individuals best suited to their conditions), which happens in four steps. There is more on this in The theory of evolution by natural selection.
+[bio22-s6.10.0] 1. Random mutations, or genes passed between bacteria on plasmids (small rings of DNA), make a few individuals resistant.
+[bio22-s6.10.1] 2. The antibiotic or chemical kills the susceptible individuals.
+[bio22-s6.10.2] 3. The resistant survivors reproduce with less competition.
+[bio22-s6.10.3] 4. The next generation is mostly resistant. The chemical doesn't cause the mutation; it selects it.
+[bio22-s6.11.b] Resistance arises by natural selection when a drug or chemical kills susceptible individuals, and some practices make it spread faster. The examples cover people, crops and livestock.
+[bio22-s6.11.0] Overuse and misuse of antibiotics speed up resistance: use for viral infections (which antibiotics cannot treat), not finishing courses, and use in farm animals.
+[bio22-s6.11.1] Poor infection control in hospitals and heavy repeated use of one pesticide also speed up resistance.
+[bio22-s6.11.2] MRSA (methicillin-resistant Staphylococcus aureus) is resistant to many antibiotics and spreads in hospitals.
+[bio22-s6.11.3] Multidrug-resistant TB, malaria parasites resistant to some antimalarial drugs, and mosquitoes resistant to insecticides, which weakens malaria control.
+[bio22-s6.11.4] Fungi that cause crop diseases are resistant to some fungicides, and parasitic worms of sheep and cattle are resistant to some anthelmintics (drugs that kill worms).
+[bio22-s6.11.5] Resistant pathogens persist longer in hosts and spread further, linking factors 1 and 3.
+[bio22-s6.12.b] A pathogen needs susceptible hosts, meaning individuals with no immunity to it. How many of these there are in a population strongly affects how far and how fast an outbreak goes.
+[bio22-s6.12.0] A pathogen spreads only if it can reach susceptible (non-immune) hosts. The higher the proportion of immune individuals, the fewer susceptible hosts there are and the slower the spread. This is herd immunity. There is more on this in Acquired immunity, prevention and treatment.
+[bio22-s6.12.1] A pathogen new to a population meets no immunity at all, so it spreads fast and can be very severe, e.g. COVID-19 in 2020, before vaccines.
+[bio22-s6.12.2] Smallpox and measles, brought by Europeans to the Americas from the late 1400s, killed very large numbers of Indigenous people, who had never been exposed to them.
+[bio22-s6.12.3] Immunity falls when vaccination rates drop, as when measles outbreaks return.
+[bio22-s6.12.4] Immunity also falls when protection from vaccination or infection wanes over time, and where many people have weakened immune systems, e.g. from untreated HIV or malnutrition, or the very young and very old.
+[bio22-s6.13.b] Plants have no antibody-based immunity like animals, but the same principle applies. What matters is whether any individuals in the crop can resist the pathogen.
+[bio22-s6.13.0] In plants, the equivalent is genetic uniformity. A monoculture (a crop of one genetically identical variety) has no resistant individuals, so a pathogen that infects one plant can infect them all.
+[bio22-s6.13.1] In Ireland in the 1840s, most of the poor depended on one potato variety, the Lumper, grown from tubers (genetically identical clones) and susceptible to blight.
+[bio22-s6.13.2] When Phytophthora infestans arrived in 1845, crops failed across the country in successive years. About one million people died and over a million emigrated in the Great Famine.
+[bio22-s6.14.b] The more infected hosts move and mix, the more other hosts they meet, so the further a pathogen travels. Mobility applies to people, livestock, wildlife and vectors.
+[bio22-s6.14.0] The more infected hosts move and mix, the more contacts each has and the further the pathogen spreads. The routes are those in local, regional and global spread above.
+[bio22-s6.14.1] Crowding in cities, refugee camps, festivals and mass gatherings, travel and migration, and the movement of livestock all increase spread.
+[bio22-s6.14.2] Migration of wild animals, such as birds, also moves pathogens into new areas.
+[bio22-s6.14.3] Vector mobility: climate warming lets vectors survive further north and for longer each year, carrying disease into new regions.
+[bio22-s6.14.4] Bluetongue, a midge-borne virus of sheep and cattle, spread into northern Europe from 2006.
+[bio22-s6.14.5] Reducing mobility reduces spread: animal movement bans in foot-and-mouth outbreaks, travel restrictions and quarantine in human epidemics, and import controls on plants. There is more on this in Emerging diseases and society.
+[bio22-s6.15.b] To compare outbreaks and predict whether one will grow, scientists use a single number, R₀. It measures how contagious a pathogen is when nobody has immunity.
+[bio22-s6.15.0] The basic reproduction number, R₀ ('R nought'), is the average number of new (secondary) infections caused by one infected individual in a population where everyone is susceptible, with no immunity and no control measures.
+[bio22-s6.15.1] R₀ greater than 1: each case causes more than one new case on average, so numbers grow and an epidemic can occur.
+[bio22-s6.15.2] R₀ equal to 1: numbers stay steady, which is endemic.
+[bio22-s6.15.3] R₀ less than 1: each case causes fewer than one new case, so the outbreak dies out.
+[bio22-s6.16.b] Each infected person passes the pathogen to R₀ others, so cases multiply by R₀ every generation of infection (one round of people infecting the next). Working through numbers shows why R₀ above or below 1 matters.
+[bio22-s6.16.0] Growth example: with R₀ = 2, one case leads to 2, then 4, then 8, then 16 new cases per generation of infection. After 10 generations, one case has led to 2¹⁰ = 1,024 new cases in that generation.
+[bio22-s6.16.1] Decline example: with R₀ = 0.5, 100 cases give 50, then 25, then about 12, and the outbreak fades.
+[bio22-s6.16.2] Diagram: a branching tree from one case, giving 2, then 4, then 8 cases (R₀ = 2), beside a single chain with one case per generation (R₀ = 1). Label each generation.
+[bio22-s6.17.b] R₀ is not a fixed property of a pathogen. It combines features of the pathogen, the host and the environment, which are the factors already covered.
+[bio22-s6.17.0] R₀ depends on how long a host is infectious (persistence), so a longer infectious period raises R₀.
+[bio22-s6.17.1] R₀ depends on how many contacts an infected host has per day (mobility and crowding), so more contacts raise R₀.
+[bio22-s6.17.2] R₀ depends on the chance that a contact passes on the infection (the transmission route, and mutations that make a pathogen more transmissible).
+[bio22-s6.17.3] So R₀ is not fixed for a disease: it differs between populations and settings.
+[bio22-s6.18.b] In real outbreaks some people are already immune or control measures are in place. The effective reproduction number measures spread under those real conditions.
+[bio22-s6.18.0] The effective reproduction number, R (sometimes written Rt), is the average number of new infections per case at a given time, in a population where some people are immune or control measures are in place.
+[bio22-s6.18.1] Approximately, R = R₀ × the proportion still susceptible. For example, R₀ = 3 with half the population immune gives R = 3 × 0.5 = 1.5.
+[bio22-s6.18.2] Control aims to bring R below 1, so that each case infects fewer than one other person and the outbreak dies out.
+[bio22-s6.19.b] If R₀ tells us how contagious a disease is, we can work out how many people must be immune to stop it spreading. The more contagious the disease, the higher that proportion.
+[bio22-s6.19.0] Herd-immunity threshold: to stop sustained spread, the proportion immune must be at least 1 − 1/R₀.
+[bio22-s6.19.1] Examples: R₀ = 2 needs 1 − ½ = 50% immune; R₀ = 4 needs 1 − ¼ = 75% immune; R₀ = 10 needs 90% immune.
+[bio22-s6.19.2] Measles is one of the most contagious diseases, with R₀ usually quoted as 12–18, so about 95% of people must be immune.
+[bio22-s6.19.3] The World Health Organization therefore recommends at least 95% coverage with two doses of measles vaccine.
+[bio22-s6.20.b] R₀ comes from a simple model, and a model is only as good as its assumptions. Real outbreaks differ in important ways.
+[bio22-s6.20.0] The model's assumptions are that everyone is equally likely to meet everyone else and that R₀ stays constant. There is more on this in Models.
+[bio22-s6.20.1] Real populations are clustered, behaviour changes during outbreaks and new variants change R₀, so estimates are updated as data come in.
+[bio22-s6.21.b] The six factors do not work one at a time. Real outbreaks happen when several combine, and other changes in how we live bring pathogens and new hosts into contact.
+[bio22-s6.21.0] The factors act together, not one at a time. A mutation that makes a virus more transmissible raises R₀, and a population with low immunity and high mobility then lets it spread widely.
+[bio22-s6.21.1] Long persistence in carriers lets a pathogen reach new areas undetected, and resistance to drugs lets infections last longer, raising R₀ further.
+[bio22-s6.21.2] Plant example: a genetically uniform crop (low immunity), a pathogen spread by wind and trade (mobility) and survival in tubers (persistence) together explain the speed of the potato famine.
+[bio22-s6.21.3] Other drivers increase contact between pathogens and new hosts: clearing forests and expanding farms into wild areas (more contact with wild animals), intensive farming of large numbers of genetically similar animals kept close together, climate change (vectors' ranges), poverty, poor sanitation, and conflict, which weakens health systems.
+
+CANDIDATES bio22-s1: Pathogens
+[bio22-s1.0.b] Some organisms and particles make us ill, and the biology of disease starts with naming them. A pathogen is an organism or agent that causes disease in its host, the organism it lives in or on.
+[bio22-s1.0.0] An infectious (communicable) disease is one caused by a pathogen that can be passed from one host to another, which is why such diseases can spread through a population.
+[bio22-s1.0.1] Most microorganisms are not pathogens: many are harmless or useful, so bacteria and fungi should not be lumped together as 'germs'. There is more on this in The microbiome.
+[bio22-s1.0.2] Pathogens cause harm in three main ways: they invade and destroy host cells or tissues, they release toxins, or they take nutrients from the host.
+[bio22-s1.0.3] Invasion means the pathogen destroys cells: viruses burst the cells they reproduce in, and the malaria parasite bursts red blood cells.
+[bio22-s1.0.4] Toxins are poisonous chemicals that damage cells or disturb how they work; the tetanus toxin made by bacteria in a wound causes muscle spasms.
+[bio22-s1.0.5] In some diseases the host's own immune response causes much of the damage, for example inflammation of the lungs in pneumonia.
+[bio22-s1.1.b] A pathogen only survives if it can keep moving from host to host. So each one is adapted to its host and, often, to a carrier that helps it spread.
+[bio22-s1.1.0] Each pathogen is adapted to its host: it must enter the host, survive its defences, reproduce, and leave to infect a new host.
+[bio22-s1.1.1] Many pathogens need a vector, an organism that carries a pathogen from one host to another without itself being the disease: the mosquito for malaria and aphids (small sap-sucking insects) for many plant viruses.
+[bio22-s1.1.2] The routes by which pathogens pass between hosts are called routes of transmission. There is more on this in Emergence and spread of infectious disease.
+[bio22-s1.2.b] A prion is an infectious protein particle. It contains no nucleic acid (no DNA or RNA), so it is neither a cell nor a virus. It is the odd one out among pathogens, because a protein alone causes the disease.
+[bio22-s1.2.0] The name comes from proteinaceous infectious particle, a term coined by Stanley Prusiner in 1982 (Nobel Prize 1997).
+[bio22-s1.2.1] A prion is a misfolded form of a normal protein, the prion protein, which is found on nerve cells, especially in the brain.
+[bio22-s1.2.2] When a prion meets a normal prion protein, it causes the normal one to fold into the abnormal shape too, so the misfolded protein builds up in a chain reaction.
+[bio22-s1.2.3] Clumps of misfolded protein kill nerve cells, leaving tiny holes so that the brain looks like a sponge under the microscope. This is why the diseases are called spongiform encephalopathy.
+[bio22-s1.2.4] Prion diseases take years to appear, are always fatal and have no cure.
+[bio22-s1.3.b] Prion diseases have been found in cattle, sheep and humans. Because prions are very hard to destroy, prevention depends on keeping infected material out of the food chain.
+[bio22-s1.3.0] Bovine spongiform encephalopathy (BSE, mad cow disease) in cattle spread when cattle were fed meat-and-bone meal made from infected animals.
+[bio22-s1.3.1] Variant Creutzfeldt–Jakob disease (vCJD) in humans is linked to eating BSE-infected beef and was first described in the UK in 1996.
+[bio22-s1.3.2] Scrapie affects sheep. Kuru affected the Fore people of Papua New Guinea and spread by eating the brains of dead relatives at funeral rites.
+[bio22-s1.3.3] Prions are not destroyed by normal cooking, by the usual sterilisation temperatures or by many disinfectants.
+[bio22-s1.3.4] The immune system does not attack prions, because they are the body's own protein in a different shape, so the body has no defence against them.
+[bio22-s1.3.5] Prevention therefore keeps prions out of the food chain: meat-and-bone meal is banned from the feed of farm animals, and the brain and spinal cord of cattle are removed from food as specified risk material.
+[bio22-s1.4.b] A virus is a non-cellular particle of nucleic acid (DNA or RNA) in a protein coat. It is an obligate intracellular parasite, meaning it can reproduce only inside a living host cell. There is more on this in Viruses.
+[bio22-s1.4.0] Viruses cause disease by destroying the cells they reproduce in, or by changing how those cells work.
+[bio22-s1.4.1] Each virus attaches to particular receptor proteins (molecules on the cell surface that it fits onto), so it infects only certain hosts and tissues: HIV infects helper T cells and influenza viruses infect cells lining the airways.
+[bio22-s1.4.2] Human viral diseases include influenza, the common cold, measles, chickenpox, COVID-19 (SARS-CoV-2) and AIDS (HIV).
+[bio22-s1.4.3] Animal viral diseases include foot-and-mouth disease, which affects cattle, sheep and pigs, and avian influenza, which affects birds.
+[bio22-s1.4.4] Plant viral disease: tobacco mosaic virus infects tobacco and tomatoes.
+[bio22-s1.4.5] Antibiotics don't affect viruses, because viruses have no cell structures for the drugs to target and reproduce inside host cells.
+[bio22-s1.5.b] Bacteria are single-celled prokaryotes with no nucleus or membrane-bound organelles, about 1–10 µm long. Only some bacteria are pathogens, but those that are can multiply very quickly inside the body.
+[bio22-s1.5.0] Pathogenic bacteria reproduce rapidly by binary fission (one cell splitting into two) in host tissues, so numbers rise fast.
+[bio22-s1.5.1] Most bacteria cause harm by releasing toxins; some invade and destroy tissue.
+[bio22-s1.5.2] Most bacterial diseases can be treated with antibiotics, which target structures bacteria have and human cells lack. There is more on this in Acquired immunity, prevention and treatment.
+[bio22-s1.5.3] Antibiotic-resistant strains (bacteria no longer killed by the drug) are increasing, for example MRSA.
+[bio22-s1.6.b] Each bacterial disease has a named bacterium and a usual route of spread. Learn them as pairs, and note the plant and cattle examples as well as the human ones.
+[bio22-s1.6.0] Tuberculosis (TB) is caused by Mycobacterium tuberculosis, spreads in airborne droplets and mainly affects the lungs.
+[bio22-s1.6.1] Food poisoning is caused by Salmonella, which spreads through contaminated food such as undercooked chicken or eggs.
+[bio22-s1.6.2] Cholera is caused by Vibrio cholerae in water contaminated with faeces, and causes severe diarrhoea.
+[bio22-s1.6.3] Tetanus is caused by Clostridium tetani. Its spores in soil enter a wound, and its toxin causes muscle spasms, known as lockjaw.
+[bio22-s1.6.4] Lyme disease is caused by Borrelia burgdorferi and is passed on by tick bites, so the tick is the vector.
+[bio22-s1.6.5] In plants, fire blight of apple and pear trees is caused by Erwinia amylovora.
+[bio22-s1.6.6] In cattle, bovine TB is caused by Mycobacterium bovis.
+[bio22-s1.7.b] Fungi are eukaryotes (their cells have a nucleus) with cell walls of chitin. Most are made of thread-like hyphae, and some, such as yeasts, are single cells. Parasitic fungi feed on living hosts.
+[bio22-s1.7.0] Parasitic fungi grow hyphae into or over host tissue and secrete enzymes that digest it, and the fungus absorbs the products.
+[bio22-s1.7.1] Fungi spread by spores, which are often carried by wind, water or contact.
+[bio22-s1.7.2] Athlete's foot and ringworm are skin infections caused by fungi that feed on keratin (the protein in skin); ringworm is a fungus, not a worm.
+[bio22-s1.7.3] Thrush is caused by the yeast Candida albicans in the mouth or vagina, often after antibiotics have killed the bacteria that normally keep it in check.
+[bio22-s1.7.4] Fungal infections are most dangerous in people with weakened immune systems.
+[bio22-s1.7.5] Antibiotics don't work on fungi, because fungi are eukaryotic and have no peptidoglycan cell wall or 70S ribosomes; antifungal drugs are used instead.
+[bio22-s1.8.b] Fungi infect plants and animals as well as people. The examples below affect trees, cereal crops and amphibians.
+[bio22-s1.8.0] Ash dieback, caused by the fungus Hymenoscyphus fraxineus, is killing ash trees across Europe.
+[bio22-s1.8.1] Dutch elm disease, caused by the fungus Ophiostoma novo-ulmi, is spread by elm bark beetles, which act as vectors.
+[bio22-s1.8.2] Cereal rusts such as wheat rust are caused by Puccinia species.
+[bio22-s1.8.3] Chytrid fungus (Batrachochytrium dendrobatidis) infects the skin of frogs and other amphibians. There is more on this in Emergence and spread of infectious disease.
+[bio22-s1.9.b] Protists are eukaryotes, mostly single-celled, that are neither animals, plants nor fungi (kingdom Protista). Parasitic protists often have complex life cycles with more than one host. Malaria is one example.
+[bio22-s1.9.0] Malaria is caused by Plasmodium, which is passed to humans by the bite of an infected female Anopheles mosquito, the vector.
+[bio22-s1.9.1] The parasite reproduces first in the liver and then in red blood cells, which burst together, causing repeated fevers and anaemia (too few red blood cells).
+[bio22-s1.9.2] Malaria is controlled with insecticide-treated bed nets, insecticides, draining of standing water where mosquitoes breed, and antimalarial drugs such as artemisinin. There is more on this in Science, scientists and society.
+[bio22-s1.10.b] Other protists cause gut and blood diseases in people, and one protist-like organism caused a famine in Ireland.
+[bio22-s1.10.0] Amoebic dysentery is caused by Entamoeba histolytica, which spreads in water or food contaminated with faeces.
+[bio22-s1.10.1] African sleeping sickness is caused by Trypanosoma brucei, which is spread by tsetse flies, the vector.
+[bio22-s1.10.2] Potato late blight is caused by Phytophthora infestans, a water mould (oomycete). It looks like a fungus, being thread-like and spread by spores, but it is classed with the protists.
+[bio22-s1.10.3] Its spores spread on wind and rain splash in mild, wet weather, and it rots leaves and tubers.
+[bio22-s1.10.4] Potato late blight caused the Irish Great Famine from 1845, because potatoes were the main crop and the disease destroyed them. There is more on this in Emergence and spread of infectious disease.
+[bio22-s1.11.b] A parasite lives in or on another organism, its host, feeding on it and harming it. Parasitic animals are multicellular and much larger than microorganisms; most are worms or arthropods. Endoparasites live inside the host.
+[bio22-s1.11.0] Tapeworms (e.g. Taenia) live in the small intestine, absorbing digested food through their body surface and attaching by hooks and suckers.
+[bio22-s1.11.1] Humans become infected with tapeworms by eating undercooked infected pork or beef.
+[bio22-s1.11.2] Liver fluke (Fasciola hepatica) is a flatworm of sheep and cattle that damages the liver.
+[bio22-s1.11.3] The liver fluke needs a freshwater mud snail as a second host, so it is common on wet pasture in Ireland.
+[bio22-s1.11.4] Onchocerca volvulus is a roundworm spread by blackflies that causes river blindness. There is more on this in Science, scientists and society.
+[bio22-s1.12.b] Ectoparasites live on the outside of the host. Worms inside the body are treated with drugs, and prevention targets how the parasite reaches us.
+[bio22-s1.12.0] Head lice are ectoparasites that feed on blood from the scalp.
+[bio22-s1.12.1] Ticks feed on blood and can also act as vectors, carrying the bacterium that causes Lyme disease.
+[bio22-s1.12.2] Parasitic worms are treated with anthelmintic drugs that kill them, e.g. ivermectin.
+[bio22-s1.12.3] Prevention: cook meat thoroughly, maintain sanitation, and control the second host or vector, because breaking the life cycle stops the parasite spreading.
+[bio22-s1.13.b] The six types of pathogen differ in whether they are cells, what genetic material they carry, their size and how they are treated. The treatment follows from the structure, which is why antibiotics work only on bacteria.
+[bio22-s1.13.0] Prion: not cellular; no nucleic acid; a single protein molecule; no treatment.
+[bio22-s1.13.1] Virus: not cellular; DNA or RNA; about 20–300 nm; treated with antivirals, not antibiotics.
+[bio22-s1.13.2] Bacterium: prokaryotic cell; DNA; about 1–10 µm; treated with antibiotics.
+[bio22-s1.13.3] Fungus: eukaryotic; DNA; from single cells to large networks of hyphae; treated with antifungals.
+[bio22-s1.13.4] Protist: eukaryotic and mostly single-celled; DNA; treated with antiprotozoal drugs such as antimalarials.
+[bio22-s1.13.5] Parasitic animal: multicellular eukaryote; DNA; from millimetres to metres in size; treated with anthelmintics.
+
+CANDIDATES bio22-s4: Viruses: replication
+[bio22-s4.0.b] A virus is not a cell, so it lacks the machinery that every living cell uses to build new copies of itself. This is why a virus can only reproduce by taking over a host cell (the living cell it infects).
+[bio22-s4.0.0] A virus has no ribosomes (the structures that build proteins), almost no enzymes and no energy supply, so it can't make anything by itself.
+[bio22-s4.0.1] It reproduces by delivering its nucleic acid (its DNA or RNA) into a host cell. The host cell then makes new virus particles using its own ribosomes, enzymes, ATP (the cell's energy carrier), nucleotides (the building blocks of nucleic acids) and amino acids (the building blocks of proteins).
+[bio22-s4.1.b] Every virus follows the same basic cycle of six stages, which ends with new viruses leaving the cell. The first three get the virus's nucleic acid inside the right kind of cell and free to act.
+[bio22-s4.1.0] Stage 1, attachment: proteins on the capsid (the protein coat) or the envelope (the outer membrane some viruses have) bind to specific receptor proteins on the host cell membrane.
+[bio22-s4.1.1] HIV binds to the CD4 receptor on helper T cells, and the spike protein of SARS-CoV-2 binds to the ACE2 receptor on cells lining the airways. Receptor binding decides which cells a virus can infect, because only cells with the matching receptor can be attached to.
+[bio22-s4.1.2] Stage 2, entry: a bacteriophage (a virus that infects bacteria) injects only its nucleic acid through the bacterial wall, leaving the empty coat outside.
+[bio22-s4.1.3] Animal viruses enter whole, either by the host membrane folding in around them (endocytosis) or, for enveloped viruses, by the envelope fusing with the host membrane.
+[bio22-s4.1.4] Stage 3, uncoating: inside the cell, the capsid breaks down and releases the viral nucleic acid, so its genes can be read.
+[bio22-s4.2.b] Once the viral nucleic acid is free inside the cell, the virus uses the cell's machinery to make its parts, put them together and escape. The new viruses then repeat the cycle in other cells.
+[bio22-s4.2.0] Stage 4, replication and synthesis: the viral genes take over the cell. Viral mRNA (the message copied from a gene) is made, and the host's ribosomes translate it into viral proteins, which are capsid proteins and viral enzymes.
+[bio22-s4.2.1] In stage 4 the viral nucleic acid is copied many times, and host-cell activities are often shut down so that the cell's resources go into making viruses.
+[bio22-s4.2.2] Stage 5, assembly: new nucleic acid and capsid proteins come together to form many new virus particles, often hundreds per cell. Viruses are assembled from parts, not grown or divided.
+[bio22-s4.2.3] Stage 6, release: either the cell bursts (lysis), releasing all the viruses at once and killing the cell, or, for enveloped viruses, each new virus pushes out through the membrane and takes a piece of it as its envelope (budding), so the cell can survive for a time.
+[bio22-s4.2.4] The new viruses infect neighbouring cells, and the cycle repeats.
+[bio22-s4.2.5] Diagram: the lytic cycle of a bacteriophage in five or six sketches in a circle: phage attached by tail fibres; DNA injected; phage DNA copied and proteins made; new phages assembled; cell bursting. Label phage, bacterial cell wall, phage DNA, bacterial chromosome, new phages.
+[bio22-s4.2.6] Diagram: an enveloped animal virus, such as influenza, entering a cell by endocytosis or fusion and leaving by budding, with the host membrane forming the new envelope.
+[bio22-s4.3.b] A virus does not always burst its host straight away. Some bacteriophages (and some human viruses) can instead hide inside the host for a time, so there are two possible routes after infection.
+[bio22-s4.3.0] Lytic cycle: the virus replicates immediately, following the stages above, and the host cell bursts. Example: bacteriophage T4 infecting the bacterium E. coli.
+[bio22-s4.3.1] Lysogenic cycle: some viruses insert their DNA into the host cell's chromosome, where it stays inactive and is copied every time the cell divides, so all daughter cells carry it.
+[bio22-s4.3.2] In bacteria the inserted DNA is called a prophage. Example: bacteriophage lambda in E. coli.
+[bio22-s4.3.3] A trigger, such as stress like UV light, can cut the viral DNA out of the chromosome and start the lytic cycle.
+[bio22-s4.3.4] Latency in human viruses: some viruses hide in cells in an inactive state for years and reactivate later.
+[bio22-s4.3.5] Herpes simplex virus stays in nerve cells after the first infection and reactivates to cause repeated cold sores.
+[bio22-s4.3.6] Varicella-zoster virus causes chickenpox, stays in nerve cells, and can reactivate decades later as shingles.
+[bio22-s4.3.7] A latent virus is hidden from the immune system and from antiviral drugs, because it is not making viral proteins or new viruses that they could target.
+[bio22-s4.4.b] Viruses cause disease in several different ways, from simply destroying cells to turning the body's own defences against it. Each mode of action follows from what a virus does to the cells it infects.
+[bio22-s4.4.0] Killing cells: lysis destroys infected cells. Influenza destroys cells lining the airways, causing a sore throat and cough, and the cold virus damages cells of the nose and throat.
+[bio22-s4.4.1] Disrupting cell function: the virus diverts the cell's ribosomes, enzymes and energy to making viruses, so the cell stops its normal work.
+[bio22-s4.4.2] Damaging the immune system: HIV infects and destroys helper T cells, the white blood cells that coordinate the immune response.
+[bio22-s4.4.3] As helper T cell numbers fall over years, the immune system can no longer coordinate its responses, and the person develops AIDS (acquired immune deficiency syndrome).
+[bio22-s4.4.4] People with AIDS die of opportunistic infections and cancers, which a healthy immune system would control but which take hold when the immune system is weakened.
+[bio22-s4.4.5] Causing cancer: some viruses insert genes that interfere with the control of cell division, e.g. human papillomavirus (HPV) and cervical cancer. There is more on this in Causes, prevention and treatment of cancer.
+[bio22-s4.4.6] Triggering harmful immune responses: much of the fever, aches and tissue damage in viral illness is caused by the body's own immune response (inflammation) to infected cells.
+[bio22-s4.5.b] Viruses are grouped by the type of nucleic acid they carry, and this affects where they replicate, which enzymes they need and how fast they change. Comparing the two groups is a likely exam question.
+[bio22-s4.5.0] Genetic material: a DNA virus has DNA as its genetic material; an RNA virus has RNA.
+[bio22-s4.5.1] DNA viruses include herpes simplex and varicella-zoster (chickenpox) viruses, human papillomavirus (HPV), adenoviruses, the smallpox virus, and bacteriophages T4 and lambda.
+[bio22-s4.5.2] RNA viruses include influenza, measles, mumps, polio, rhinoviruses (the common cold), SARS-CoV-2, HIV, Ebola and tobacco mosaic virus.
+[bio22-s4.5.3] Where they replicate: most DNA viruses enter the host nucleus and use the host's own enzymes, such as DNA polymerase and RNA polymerase, to copy their DNA and make mRNA.
+[bio22-s4.5.4] Poxviruses such as the smallpox virus are an exception: they replicate in the cytoplasm with their own enzymes.
+[bio22-s4.5.5] Most RNA viruses replicate in the cytoplasm and must carry or code for their own enzyme, an RNA-dependent RNA polymerase, to copy RNA from RNA, because host cells have no enzyme that does this.
+[bio22-s4.5.6] Mutation rate: the enzyme that copies RNA has no proofreading (no checking for mistakes), so RNA viruses make many more copying errors and mutate much faster than DNA viruses, whose DNA is copied by host polymerases that proofread.
+[bio22-s4.5.7] RNA viruses such as influenza and HIV change their surface antigens quickly, so new strains escape existing immunity. This is why flu vaccines are updated every year, and drug resistance appears quickly.
+[bio22-s4.6.b] Once inside the cell, an RNA virus's genes still have to be turned into proteins. RNA viruses do this in one of two ways, depending on the virus.
+[bio22-s4.6.0] In some RNA viruses, such as poliovirus and SARS-CoV-2, the RNA acts directly as mRNA when it enters the cell and is translated at once by the host's ribosomes.
+[bio22-s4.6.1] In others, such as influenza and measles, the RNA must first be copied into a complementary strand that acts as mRNA.
+[bio22-s4.6.2] DNA is a more stable molecule than RNA, which fits with DNA viruses mutating more slowly.
+[bio22-s4.6.3] Mutation as a factor in disease emergence is covered further in Emergence and spread of infectious disease.
+[bio22-s4.7.b] Retroviruses break the usual rule that information flows from DNA to RNA. HIV is the key example, and its cycle has a few extra steps compared with the general cycle.
+[bio22-s4.7.0] A retrovirus is an RNA virus that makes a DNA copy of its RNA inside the host cell, using its own enzyme, reverse transcriptase, which reverses the usual direction of DNA to RNA. HIV is an example.
+[bio22-s4.7.1] HIV replication, step 1: its envelope protein binds the CD4 receptor on a helper T cell.
+[bio22-s4.7.2] Step 2: the envelope fuses with the cell membrane, and the capsid enters.
+[bio22-s4.7.3] Step 3: reverse transcriptase makes double-stranded DNA from the viral RNA.
+[bio22-s4.7.4] Step 4: a second viral enzyme, integrase, inserts this DNA into the host's chromosome, where it is called a provirus and can stay hidden for years.
+[bio22-s4.7.5] Step 5: when the cell is activated, the provirus is transcribed into viral mRNA and new viral RNA, and viral proteins are made.
+[bio22-s4.7.6] Step 6: new viruses assemble and bud from the cell, taking an envelope of host membrane.
+[bio22-s4.7.7] Reverse transcriptase makes many errors, so HIV mutates very quickly, which is one reason there is still no effective HIV vaccine.
+[bio22-s4.7.8] Diagram: an HIV particle (envelope with surface proteins, capsid, two RNA strands and reverse transcriptase), and a flow of the six steps into and out of a helper T cell. Label receptor, viral RNA, viral DNA, host chromosome (provirus) and budding virus.
+[bio22-s4.8.b] Antibiotics don't work on viruses, so viral infections are treated with antiviral drugs that interrupt one stage of the replication cycle. Each drug targets a step that depends on a viral protein.
+[bio22-s4.8.0] Antiviral drugs block a step in the cycle that uses a viral protein, so the host cell isn't harmed.
+[bio22-s4.8.1] Aciclovir blocks the DNA polymerase of herpes viruses, which treats cold sores and shingles.
+[bio22-s4.8.2] Oseltamivir blocks neuraminidase, the influenza enzyme that releases new viruses from the cell surface.
+[bio22-s4.8.3] HIV drugs include reverse transcriptase inhibitors, of which zidovudine (AZT), approved in 1987, was the first.
+[bio22-s4.8.4] HIV drugs also include protease inhibitors, which stop new viral proteins being cut into their working form.
+[bio22-s4.8.5] HIV is treated with a combination of several antiretroviral drugs at once (antiretroviral therapy).
+[bio22-s4.8.6] Antiretroviral therapy keeps the virus at very low levels and lets the immune system recover, but it doesn't cure the infection, because the provirus remains in the host DNA.
+[bio22-s4.8.7] Using several drugs together makes resistance much less likely, since the virus would need several mutations at once.
+[bio22-s4.9.b] The syllabus asks you to model how viruses replicate within cells. A model turns the six stages into something you can draw, handle and use to make predictions, while leaving out some detail.
+[bio22-s4.9.0] To model the cycle, first list the stages in order: attachment, entry, uncoating, replication and synthesis, assembly and release. Then draw each as a labelled sketch or box, showing the host-cell part used at that stage (receptor, membrane, ribosomes, enzymes, nucleotides).
+[bio22-s4.9.1] Join the stages with arrows into a cycle, because the new viruses go on to infect other cells.
+[bio22-s4.9.2] Mark how a DNA virus, an RNA virus and a retrovirus differ at stage 4.
+[bio22-s4.9.3] Mark where an antiviral drug would act.
+[bio22-s4.9.4] A physical model can use card or modelling clay to represent viruses and cells, to show attachment and budding.
+[bio22-s4.9.5] The model shows the order of events, the dependence on host machinery, and why one infected cell releases many viruses. There is more on this in Models.
+[bio22-s4.9.6] The model simplifies the timing (a cycle can take minutes to hours), the numbers released, the molecular steps, and the differences between viruses.
+[bio22-s4.9.7] Worked prediction: if each infected cell releases 100 viruses and each of those infects a new cell, two cycles from one virus give 100 × 100 = 10,000 viruses. This is an illustrative calculation, not a figure for a real virus.
+[bio22-s4.9.8] Diagram: a flow chart of the cycle, with stages as labelled boxes joined by arrows into a loop, and the host-cell part used at each stage marked on it.

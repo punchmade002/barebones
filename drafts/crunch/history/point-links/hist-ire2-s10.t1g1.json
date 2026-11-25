@@ -1,0 +1,630 @@
+{
+ "hist-ire2-s10.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.0.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.0.0",
+    "strength": "helpful",
+    "why": "the 1892 lecture",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.0.1",
+    "strength": "helpful",
+    "why": "Hyde’s anglicisation argument",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s9.1.b",
+    "strength": "helpful",
+    "why": "the GAA’s founding",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s10.1.0",
+    "strength": "helpful",
+    "why": "the Gaelic League’s founding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.2.0",
+    "strength": "helpful",
+    "why": "Douglas Hyde",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.1.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s10.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s4.7.1",
+    "strength": "helpful",
+    "why": "the IRB",
+    "confidence": "low"
+   },
+   {
+    "id": "hist-ire2-s10.2.4",
+    "strength": "helpful",
+    "why": "Hyde’s resignation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.0.0",
+    "strength": "helpful",
+    "why": "the 1892 lecture",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s10.1.0",
+    "strength": "helpful",
+    "why": "founding the League",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.3.b",
+    "strength": "helpful",
+    "why": "Moran and the Irish Irelanders",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.1.7",
+    "strength": "helpful",
+    "why": "the League’s political turn",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.2.2",
+    "strength": "helpful",
+    "why": "Hyde’s role in the revival",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.4.b",
+    "strength": "helpful",
+    "why": "the Anglo-Irish literary movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.3.0",
+    "strength": "helpful",
+    "why": "Moran’s Irish Ireland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.3.0",
+    "strength": "helpful",
+    "why": "The Leader",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.2.b",
+    "strength": "helpful",
+    "why": "Hyde’s inclusive approach",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s10.3.2",
+    "strength": "helpful",
+    "why": "Moran’s Gaelic Catholic nation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.0.0",
+    "strength": "helpful",
+    "why": "Hyde’s 1892 lecture",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.4.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s10.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.4.1",
+    "strength": "helpful",
+    "why": "Yeats and Lady Gregory’s theatre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.4.3",
+    "strength": "helpful",
+    "why": "the Abbey Theatre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.4.0",
+    "strength": "helpful",
+    "why": "National Literary Society",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s10.4.1",
+    "strength": "helpful",
+    "why": "Irish Literary Theatre",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s10.4.3",
+    "strength": "helpful",
+    "why": "the Abbey",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.3.0",
+    "strength": "helpful",
+    "why": "Moran’s attacks",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s10.6.0",
+    "strength": "helpful",
+    "why": "Church attack on Countess Cathleen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.6.2",
+    "strength": "essential",
+    "why": "the Hugh Lane gallery dispute",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.4.1",
+    "strength": "helpful",
+    "why": "The Countess Cathleen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.4.5",
+    "strength": "essential",
+    "why": "the Playboy riots",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.6.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s10.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.6.2",
+    "strength": "essential",
+    "why": "the Hugh Lane dispute",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.3.2",
+    "strength": "helpful",
+    "why": "Gaelic and Catholic nation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.6.4",
+    "strength": "essential",
+    "why": "the two competing visions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.7.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.7.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.7.7",
+    "strength": "essential",
+    "why": "bishops’ support for Home Rule",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s10.7.5",
+    "strength": "helpful",
+    "why": "the Ne Temere decree",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s4.1.b",
+    "strength": "helpful",
+    "why": "the Parnell split",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s9.1.b",
+    "strength": "helpful",
+    "why": "the GAA’s founding",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s10.1.b",
+    "strength": "helpful",
+    "why": "the Gaelic League",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s9.6.5",
+    "strength": "helpful",
+    "why": "the GAA’s recovery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s9.5.0",
+    "strength": "essential",
+    "why": "IRB involvement in the GAA",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s9.3.2",
+    "strength": "helpful",
+    "why": "the foreign games ban",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s9.1.b",
+    "strength": "helpful",
+    "why": "the GAA",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s10.1.b",
+    "strength": "helpful",
+    "why": "the Gaelic League",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s9.5.0",
+    "strength": "helpful",
+    "why": "GAA political ties",
+    "confidence": "low"
+   },
+   {
+    "id": "hist-ire2-s10.1.7",
+    "strength": "helpful",
+    "why": "League politicised in 1915",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.0.0",
+    "strength": "helpful",
+    "why": "de-anglicisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.1.5",
+    "strength": "helpful",
+    "why": "compulsory Irish campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s10.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.1.b",
+    "strength": "helpful",
+    "why": "the Gaelic League",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s10.4.3",
+    "strength": "helpful",
+    "why": "the Abbey Theatre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.3.2",
+    "strength": "helpful",
+    "why": "Catholic and Gaelic emphasis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.3.b",
+    "strength": "helpful",
+    "why": "Moran’s Irish Ireland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s10.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s10.1.7",
+    "strength": "helpful",
+    "why": "IRB in the League",
+    "confidence": "low"
+   }
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+"bio14-s4.0.b": {"cost": 1, "needs": [{"id": "bio14-s3.4.2", "strength": "helpful", "why": "ATP and NADPH from first stage", "confidence": "high"}]},
+"bio14-s4.0.0": {"cost": 1, "needs": [{"id": "bio14-s3.4.2", "strength": "helpful", "why": "ATP and NADPH products of stage 1", "confidence": "high"}]},
+"bio14-s4.0.1": {"cost": 1, "needs": []},
+"bio14-s4.0.2": {"cost": 1, "needs": [{"id": "bio9-s2.1.4", "strength": "helpful", "why": "NADPH electrons added to CO2", "confidence": "high"}]},
+"bio14-s4.0.3": {"cost": 2, "needs": [{"id": "bio9-s2.0.3", "strength": "essential", "why": "reduction as gaining electrons", "confidence": "high"}]},
+"bio14-s4.0.4": {"cost": 1, "needs": [{"id": "bio9-s1.2.0", "strength": "essential", "why": "ATP breakdown to ADP + Pi", "confidence": "high"}]},
+"bio14-s4.0.5": {"cost": 2, "needs": [{"id": "bio14-s4.0.1", "strength": "helpful", "why": "CO2 fixation", "confidence": "high"}]},
+"bio14-s4.0.6": {"cost": 1, "needs": [{"id": "bio14-s3.4.4", "strength": "helpful", "why": "carriers reloaded in stage 1", "confidence": "high"}]},
+"bio14-s4.0.7": {"cost": 2, "needs": [{"id": "bio14-s4.0.1", "strength": "essential", "why": "CO2-accepting compound and fixation", "confidence": "high"}]},
+"bio14-s4.1.b": {"cost": 1, "needs": [{"id": "bio14-s4.1.0", "strength": "helpful", "why": "inputs and outputs summary", "confidence": "low"}]},
+"bio14-s4.1.0": {"cost": 1, "needs": [{"id": "bio14-s4.0.5", "strength": "helpful", "why": "glucose as product", "confidence": "high"}]},
+"bio14-s4.1.1": {"cost": 1, "needs": [{"id": "bio14-s4.0.0", "strength": "helpful", "why": "enzymes located in stroma", "confidence": "low"}]},
+"bio14-s4.1.2": {"cost": 1, "needs": [{"id": "bio14-s4.0.1", "strength": "helpful", "why": "CO2 fixed in this stage", "confidence": "high"}]},
+"bio14-s4.1.3": {"cost": 1, "needs": [{"id": "bio14-s3.4.2", "strength": "essential", "why": "ATP and NADPH made by light reactions", "confidence": "high"}]},
+"bio14-s4.2.b": {"cost": 1, "needs": []},
+"bio14-s4.2.0": {"cost": 2, "needs": [{"id": "bio14-s3.4.2", "strength": "helpful", "why": "stage 1 outputs", "confidence": "high"}]},
+"bio14-s4.2.1": {"cost": 2, "needs": [{"id": "bio14-s4.0.3", "strength": "helpful", "why": "NADPH reduces CO2", "confidence": "high"}]},
+"bio14-s4.2.2": {"cost": 1, "needs": [{"id": "bio9-s1.0.0", "strength": "essential", "why": "transfer molecules recycled", "confidence": "high"}]},
+"bio14-s4.2.3": {"cost": 1, "needs": [{"id": "bio9-s1.0.0", "strength": "essential", "why": "recycled transfer molecules, small supply", "confidence": "high"}]},
+"bio14-s4.2.4": {"cost": 2, "needs": [{"id": "bio14-s3.1.3", "strength": "essential", "why": "photolysis releases oxygen from water", "confidence": "high"}]},
+"bio14-s4.2.5": {"cost": 2, "needs": [{"id": "bio14-s4.2.1", "strength": "helpful", "why": "stage 2 inputs and outputs", "confidence": "low"}]}
+}

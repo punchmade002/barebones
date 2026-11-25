@@ -1,0 +1,535 @@
+{
+ "hist-eur2-s11.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.0.1",
+    "strength": "helpful",
+    "why": "her radioactivity research",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.0.2",
+    "strength": "helpful",
+    "why": "uses radium discovery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.0.1",
+    "strength": "helpful",
+    "why": "Becquerel and radioactivity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.0.2",
+    "strength": "helpful",
+    "why": "polonium and radium discovery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.0.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.0.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.2.0",
+    "strength": "helpful",
+    "why": "uses X-rays",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.0.9": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.0.10": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur2-s11.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.1.0",
+    "strength": "helpful",
+    "why": "microbes cause disease idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.1.1",
+    "strength": "helpful",
+    "why": "Pasteur vaccines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.1.0",
+    "strength": "helpful",
+    "why": "germ theory of disease",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur2-s11.1.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur2-s11.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.1.0",
+    "strength": "helpful",
+    "why": "microbes cause infection",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur2-s11.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.1.6",
+    "strength": "helpful",
+    "why": "antiseptic surgery contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.1.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.0.8",
+    "strength": "essential",
+    "why": "Curie mobile X-ray units",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur2-s11.2.0",
+    "strength": "essential",
+    "why": "uses X-rays",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.2.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur2-s11.2.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur2-s11.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.2.4",
+    "strength": "essential",
+    "why": "uses Marconi wireless",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.3.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur2-s11.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.3.0",
+    "strength": "helpful",
+    "why": "Wright brothers flight",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.3.0",
+    "strength": "helpful",
+    "why": "early powered flight",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.3.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur2-s11.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.4.0",
+    "strength": "essential",
+    "why": "Otto's four-stroke engine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.4.0",
+    "strength": "helpful",
+    "why": "internal combustion engine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.4.1",
+    "strength": "essential",
+    "why": "Daimler engine work",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur2-s11.4.2",
+    "strength": "essential",
+    "why": "Benz's Motorwagen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.4.2",
+    "strength": "essential",
+    "why": "Benz's Motorwagen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.4.1",
+    "strength": "essential",
+    "why": "Daimler engines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.4.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.4.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.4.1",
+    "strength": "helpful",
+    "why": "Daimler and his engine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.4.9": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.5.0",
+    "strength": "essential",
+    "why": "Ford's cheap car aim",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.5.1",
+    "strength": "helpful",
+    "why": "Model T production",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.5.2",
+    "strength": "essential",
+    "why": "moving assembly line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.5.2",
+    "strength": "helpful",
+    "why": "Ford mass production",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.5.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur2-s11.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s5.2.1",
+    "strength": "essential",
+    "why": "Verdun supply",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur2-s5.0.2",
+    "strength": "essential",
+    "why": "Battle of the Marne",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s5.1.5",
+    "strength": "helpful",
+    "why": "tanks in the war",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur2-s11.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.5.1",
+    "strength": "helpful",
+    "why": "Model T in USA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.1.0",
+    "strength": "helpful",
+    "why": "germ theory",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur2-s11.2.0",
+    "strength": "helpful",
+    "why": "X-ray diagnosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.0.9",
+    "strength": "essential",
+    "why": "Curie died of radiation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.2.3",
+    "strength": "helpful",
+    "why": "Edison and electricity",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur2-s11.2.4",
+    "strength": "helpful",
+    "why": "Marconi wireless",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.3.2",
+    "strength": "helpful",
+    "why": "aircraft in the war",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur2-s11.6.3",
+    "strength": "helpful",
+    "why": "motor vehicles in war",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.4.2",
+    "strength": "helpful",
+    "why": "Benz's early car",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur2-s11.5.1",
+    "strength": "essential",
+    "why": "Model T mass product",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur2-s11.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur2-s11.0.6",
+    "strength": "helpful",
+    "why": "Curie recognition",
+    "confidence": "low"
+   }
+  ]
+ }
+}

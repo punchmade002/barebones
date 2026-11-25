@@ -1,0 +1,536 @@
+{
+"geo-urban-s7.0.b": {
+"needs": []
+},
+"geo-urban-s7.0.0": {
+"needs": []
+},
+"geo-urban-s7.0.1": {
+"needs": []
+},
+"geo-urban-s7.0.2": {
+"needs": []
+},
+"geo-urban-s7.0.3": {
+"needs": []
+},
+"geo-urban-s7.0.4": {
+"needs": []
+},
+"geo-urban-s7.0.5": {
+"needs": []
+},
+"geo-urban-s7.0.6": {
+"needs": []
+},
+"geo-urban-s7.1.b": {
+"needs": []
+},
+"geo-urban-s7.1.0": {
+"needs": []
+},
+"geo-urban-s7.1.1": {
+"needs": []
+},
+"geo-urban-s7.1.2": {
+"needs": []
+},
+"geo-urban-s7.1.3": {
+"needs": []
+},
+"geo-urban-s7.2.b": {
+"needs": []
+},
+"geo-urban-s7.2.0": {
+"needs": []
+},
+"geo-urban-s7.2.1": {
+"needs": []
+},
+"geo-urban-s7.2.2": {
+"needs": []
+},
+"geo-urban-s7.2.3": {
+"needs": []
+},
+"geo-urban-s7.3.b": {
+"needs": []
+},
+"geo-urban-s7.3.0": {
+"needs": []
+},
+"geo-urban-s7.3.1": {
+"needs": []
+},
+"geo-urban-s7.4.b": {
+"needs": []
+},
+"geo-urban-s7.4.0": {
+"needs": []
+},
+"geo-urban-s7.4.1": {
+"needs": []
+},
+"geo-urban-s7.4.2": {
+"needs": []
+},
+"geo-urban-s7.5.b": {
+"needs": []
+},
+"geo-urban-s7.5.0": {
+"needs": []
+},
+"geo-urban-s7.5.1": {
+"needs": []
+},
+"geo-urban-s7.5.2": {
+"needs": []
+},
+"geo-urban-s7.6.b": {
+"needs": []
+},
+"geo-urban-s7.6.0": {
+"needs": []
+},
+"geo-urban-s7.6.1": {
+"needs": []
+},
+"geo-urban-s7.6.2": {
+"needs": []
+},
+"geo-urban-s7.7.b": {
+"needs": []
+},
+"geo-urban-s7.7.0": {
+"needs": [
+{
+"id": "geo-region-continental-s1.2.0",
+"strength": "helpful",
+"why": "monsoon as seasonal wind",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.7.1": {
+"needs": []
+},
+"geo-urban-s7.8.b": {
+"needs": []
+},
+"geo-urban-s7.8.0": {
+"needs": []
+},
+"geo-urban-s7.8.1": {
+"needs": []
+},
+"geo-urban-s7.8.2": {
+"needs": []
+},
+"geo-urban-s7.9.b": {
+"needs": []
+},
+"geo-urban-s7.9.0": {
+"needs": []
+},
+"geo-urban-s7.9.1": {
+"needs": []
+},
+"geo-urban-s7.10.b": {
+"needs": []
+},
+"geo-urban-s7.10.0": {
+"needs": []
+},
+"geo-urban-s7.10.1": {
+"needs": []
+},
+"geo-urban-s7.11.b": {
+"needs": []
+},
+"geo-urban-s7.11.0": {
+"needs": []
+},
+"geo-urban-s7.11.1": {
+"needs": []
+},
+"geo-urban-s7.12.b": {
+"needs": []
+},
+"geo-urban-s7.12.0": {
+"needs": []
+},
+"geo-urban-s7.12.1": {
+"needs": []
+},
+"geo-urban-s7.13.b": {
+"needs": []
+},
+"geo-urban-s7.13.0": {
+"needs": []
+},
+"geo-urban-s7.13.1": {
+"needs": []
+},
+"geo-urban-s7.14.b": {
+"needs": []
+},
+"geo-urban-s7.14.0": {
+"needs": []
+},
+"geo-urban-s7.14.1": {
+"needs": []
+},
+"geo-urban-s7.14.2": {
+"needs": []
+},
+"geo-urban-s7.14.3": {
+"needs": []
+},
+"geo-urban-s7.15.b": {
+"needs": []
+},
+"geo-urban-s7.15.0": {
+"needs": []
+},
+"geo-urban-s7.15.1": {
+"needs": []
+},
+"geo-urban-s7.16.b": {
+"needs": []
+},
+"geo-urban-s7.16.0": {
+"needs": [
+{
+"id": "geo-region-continental-s1.27.7",
+"strength": "helpful",
+"why": "Hooghly distributary at Kolkata",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.16.1": {
+"needs": []
+},
+"geo-urban-s7.16.2": {
+"needs": [
+{
+"id": "geo-region-continental-s1.37.4",
+"strength": "helpful",
+"why": "jute as cash crop",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.16.3": {
+"needs": []
+},
+"geo-urban-s7.16.4": {
+"needs": []
+},
+"geo-urban-s7.17.b": {
+"needs": []
+},
+"geo-urban-s7.17.0": {
+"needs": []
+},
+"geo-urban-s7.17.1": {
+"needs": []
+},
+"geo-urban-s7.17.2": {
+"needs": []
+},
+"geo-urban-s7.17.3": {
+"needs": []
+},
+"geo-urban-s7.17.4": {
+"needs": []
+},
+"geo-urban-s7.18.b": {
+"needs": []
+},
+"geo-urban-s7.18.0": {
+"needs": []
+},
+"geo-urban-s7.18.1": {
+"needs": []
+},
+"geo-urban-s7.18.2": {
+"needs": []
+},
+"geo-urban-s7.19.b": {
+"needs": []
+},
+"geo-urban-s7.19.0": {
+"needs": [
+{
+"id": "geo-region-continental-s1.37.4",
+"strength": "helpful",
+"why": "jute grown in Bengal",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.19.1": {
+"needs": []
+},
+"geo-urban-s7.19.2": {
+"needs": []
+},
+"geo-urban-s7.20.b": {
+"needs": []
+},
+"geo-urban-s7.20.0": {
+"needs": []
+},
+"geo-urban-s7.20.1": {
+"needs": [
+{
+"id": "geo-region-continental-s1.2.3",
+"strength": "helpful",
+"why": "wet south-west monsoon",
+"confidence": "high"
+}
+]
+},
+"geo-urban-s7.20.2": {
+"needs": []
+},
+"geo-urban-s7.21.b": {
+"needs": []
+},
+"geo-urban-s7.21.0": {
+"needs": []
+},
+"geo-urban-s7.21.1": {
+"needs": []
+},
+"geo-urban-s7.21.2": {
+"needs": []
+},
+"geo-urban-s7.21.3": {
+"needs": []
+},
+"geo-urban-s7.21.4": {
+"needs": []
+},
+"geo-urban-s7.21.5": {
+"needs": []
+},
+"geo-urban-s7.21.6": {
+"needs": []
+},
+"geo-urban-s7.22.b": {
+"needs": []
+},
+"geo-urban-s7.22.0": {
+"needs": []
+},
+"geo-urban-s7.22.1": {
+"needs": []
+},
+"geo-urban-s7.23.b": {
+"needs": []
+},
+"geo-urban-s7.23.0": {
+"needs": []
+},
+"geo-urban-s7.23.1": {
+"needs": []
+},
+"geo-urban-s7.23.2": {
+"needs": []
+},
+"geo-urban-s7.23.3": {
+"needs": []
+},
+"geo-urban-s7.23.4": {
+"needs": []
+},
+"geo-urban-s7.23.5": {
+"needs": []
+},
+"geo-urban-s7.23.6": {
+"needs": []
+},
+"geo-urban-s7.24.b": {
+"needs": []
+},
+"geo-urban-s7.24.0": {
+"needs": []
+},
+"geo-urban-s7.24.1": {
+"needs": []
+},
+"geo-urban-s7.25.b": {
+"needs": []
+},
+"geo-urban-s7.25.0": {
+"needs": []
+},
+"geo-urban-s7.25.1": {
+"needs": []
+},
+"geo-urban-s7.25.2": {
+"needs": [
+{
+"id": "geo-region-continental-s1.2.3",
+"strength": "helpful",
+"why": "monsoon rain season",
+"confidence": "low"
+}
+]
+},
+"geo-urban-s7.25.3": {
+"needs": []
+},
+"geo-urban-s7.26.b": {
+"needs": []
+},
+"geo-urban-s7.26.0": {
+"needs": []
+},
+"geo-urban-s7.26.1": {
+"needs": []
+},
+"geo-urban-s7.27.b": {
+"needs": []
+},
+"geo-urban-s7.27.0": {
+"needs": []
+},
+"geo-urban-s7.27.1": {
+"needs": []
+},
+"geo-urban-s7.28.b": {
+"needs": []
+},
+"geo-urban-s7.28.0": {
+"needs": []
+},
+"geo-urban-s7.28.1": {
+"needs": []
+},
+"geo-urban-s7.29.b": {
+"needs": []
+},
+"geo-urban-s7.29.0": {
+"needs": []
+},
+"geo-urban-s7.29.1": {
+"needs": []
+},
+"geo-urban-s7.29.2": {
+"needs": []
+},
+"geo-urban-s7.30.b": {
+"needs": []
+},
+"geo-urban-s7.30.0": {
+"needs": []
+},
+"geo-urban-s7.30.1": {
+"needs": []
+},
+"geo-urban-s7.31.b": {
+"needs": []
+},
+"geo-urban-s7.31.0": {
+"needs": []
+},
+"geo-urban-s7.31.1": {
+"needs": []
+},
+"geo-urban-s7.31.2": {
+"needs": []
+},
+"geo-urban-s7.32.b": {
+"needs": []
+},
+"geo-urban-s7.32.0": {
+"needs": []
+},
+"geo-urban-s7.32.1": {
+"needs": []
+},
+"geo-urban-s7.32.2": {
+"needs": []
+},
+"geo-urban-s7.32.3": {
+"needs": []
+},
+"geo-urban-s7.32.4": {
+"needs": []
+},
+"geo-urban-s7.33.b": {
+"needs": []
+},
+"geo-urban-s7.33.0": {
+"needs": []
+},
+"geo-urban-s7.33.1": {
+"needs": []
+},
+"geo-urban-s7.33.2": {
+"needs": []
+},
+"geo-urban-s7.34.b": {
+"needs": []
+},
+"geo-urban-s7.34.0": {
+"needs": []
+},
+"geo-urban-s7.34.1": {
+"needs": []
+},
+"geo-urban-s7.34.2": {
+"needs": []
+},
+"geo-urban-s7.35.b": {
+"needs": []
+},
+"geo-urban-s7.35.0": {
+"needs": []
+},
+"geo-urban-s7.35.1": {
+"needs": []
+},
+"geo-urban-s7.35.2": {
+"needs": []
+},
+"geo-urban-s7.36.b": {
+"needs": []
+},
+"geo-urban-s7.36.0": {
+"needs": []
+},
+"geo-urban-s7.36.1": {
+"needs": []
+},
+"geo-urban-s7.37.b": {
+"needs": []
+},
+"geo-urban-s7.37.0": {
+"needs": []
+},
+"geo-urban-s7.37.1": {
+"needs": []
+},
+"geo-urban-s7.37.2": {
+"needs": []
+},
+"geo-urban-s7.37.3": {
+"needs": []
+},
+"geo-urban-s7.37.4": {
+"needs": []
+},
+"geo-urban-s7.38.b": {
+"needs": []
+},
+"geo-urban-s7.38.0": {
+"needs": []
+},
+"geo-urban-s7.38.1": {
+"needs": []
+}
+}

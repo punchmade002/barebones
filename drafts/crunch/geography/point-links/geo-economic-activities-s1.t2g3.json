@@ -1,0 +1,331 @@
+{
+"geo-economic-activities-s1.40.1": {
+"needs": []
+},
+"geo-economic-activities-s1.40.2": {
+"needs": []
+},
+"geo-economic-activities-s1.40.3": {
+"needs": []
+},
+"geo-economic-activities-s1.41.b": {
+"needs": []
+},
+"geo-economic-activities-s1.41.0": {
+"needs": []
+},
+"geo-economic-activities-s1.41.1": {
+"needs": []
+},
+"geo-economic-activities-s1.41.2": {
+"needs": []
+},
+"geo-economic-activities-s1.41.3": {
+"needs": []
+},
+"geo-economic-activities-s1.42.b": {
+"needs": []
+},
+"geo-economic-activities-s1.42.0": {
+"needs": []
+},
+"geo-economic-activities-s1.42.1": {
+"needs": []
+},
+"geo-economic-activities-s1.42.2": {
+"needs": []
+},
+"geo-economic-activities-s1.43.b": {
+"needs": []
+},
+"geo-economic-activities-s1.43.0": {
+"needs": []
+},
+"geo-economic-activities-s1.43.1": {
+"needs": []
+},
+"geo-economic-activities-s1.43.2": {
+"needs": []
+},
+"geo-economic-activities-s1.43.3": {
+"needs": []
+},
+"geo-economic-activities-s1.43.4": {
+"needs": []
+},
+"geo-economic-activities-s1.43.5": {
+"needs": []
+},
+"geo-economic-activities-s1.44.b": {
+"needs": []
+},
+"geo-economic-activities-s1.44.0": {
+"needs": []
+},
+"geo-economic-activities-s1.44.1": {
+"needs": []
+},
+"geo-economic-activities-s1.44.2": {
+"needs": []
+},
+"geo-economic-activities-s1.45.b": {
+"needs": []
+},
+"geo-economic-activities-s1.45.0": {
+"needs": []
+},
+"geo-economic-activities-s1.45.1": {
+"needs": []
+},
+"geo-economic-activities-s1.45.2": {
+"needs": []
+},
+"geo-economic-activities-s1.45.3": {
+"needs": []
+},
+"geo-economic-activities-s1.45.4": {
+"needs": []
+},
+"geo-economic-activities-s1.46.b": {
+"needs": []
+},
+"geo-economic-activities-s1.46.0": {
+"needs": []
+},
+"geo-economic-activities-s1.46.1": {
+"needs": []
+},
+"geo-economic-activities-s1.46.2": {
+"needs": []
+},
+"geo-economic-activities-s1.46.3": {
+"needs": []
+},
+"geo-economic-activities-s1.47.b": {
+"needs": []
+},
+"geo-economic-activities-s1.47.0": {
+"needs": []
+},
+"geo-economic-activities-s1.47.1": {
+"needs": []
+},
+"geo-economic-activities-s1.47.2": {
+"needs": []
+},
+"geo-economic-activities-s1.47.3": {
+"needs": []
+},
+"geo-economic-activities-s1.48.b": {
+"needs": []
+},
+"geo-economic-activities-s1.48.0": {
+"needs": []
+},
+"geo-economic-activities-s1.48.1": {
+"needs": []
+},
+"geo-economic-activities-s1.48.2": {
+"needs": []
+},
+"geo-economic-activities-s1.48.3": {
+"needs": []
+},
+"geo-economic-activities-s1.48.4": {
+"needs": []
+},
+"geo-economic-activities-s1.49.b": {
+"needs": []
+},
+"geo-economic-activities-s1.49.0": {
+"needs": []
+},
+"geo-economic-activities-s1.49.1": {
+"needs": []
+},
+"geo-economic-activities-s1.50.b": {
+"needs": []
+},
+"geo-economic-activities-s1.50.0": {
+"needs": []
+},
+"geo-economic-activities-s1.50.1": {
+"needs": []
+},
+"geo-economic-activities-s1.51.b": {
+"needs": []
+},
+"geo-economic-activities-s1.51.0": {
+"needs": [
+{
+"id": "geo-economic-eu-s3.1.0",
+"strength": "helpful",
+"why": "single market access",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.51.1": {
+"needs": []
+},
+"geo-economic-activities-s1.51.2": {
+"needs": []
+},
+"geo-economic-activities-s1.51.3": {
+"needs": []
+},
+"geo-economic-activities-s1.51.4": {
+"needs": []
+},
+"geo-economic-activities-s1.51.5": {
+"needs": []
+},
+"geo-economic-activities-s1.52.b": {
+"needs": []
+},
+"geo-economic-activities-s1.52.0": {
+"needs": []
+},
+"geo-economic-activities-s1.52.1": {
+"needs": []
+},
+"geo-economic-activities-s1.52.2": {
+"needs": []
+},
+"geo-economic-activities-s1.53.b": {
+"needs": []
+},
+"geo-economic-activities-s1.53.0": {
+"needs": []
+},
+"geo-economic-activities-s1.53.1": {
+"needs": [
+{
+"id": "geo-economic-eu-s3.3.2",
+"strength": "helpful",
+"why": "CAP surpluses behind sugar reform",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.53.2": {
+"needs": []
+},
+"geo-economic-activities-s1.53.3": {
+"needs": [
+{
+"id": "geo-economic-eu-s3.30.1",
+"strength": "helpful",
+"why": "Dell EGF support same event",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.54.b": {
+"needs": []
+},
+"geo-economic-activities-s1.54.0": {
+"needs": []
+},
+"geo-economic-activities-s1.54.1": {
+"needs": []
+},
+"geo-economic-activities-s1.55.b": {
+"needs": []
+},
+"geo-economic-activities-s1.55.0": {
+"needs": []
+},
+"geo-economic-activities-s1.55.1": {
+"needs": []
+},
+"geo-economic-activities-s1.55.2": {
+"needs": []
+},
+"geo-economic-activities-s1.55.3": {
+"needs": []
+},
+"geo-economic-activities-s1.56.b": {
+"needs": []
+},
+"geo-economic-activities-s1.56.0": {
+"needs": []
+},
+"geo-economic-activities-s1.56.1": {
+"needs": []
+},
+"geo-economic-activities-s1.56.2": {
+"needs": []
+},
+"geo-economic-activities-s1.56.3": {
+"needs": [
+{
+"id": "geo-economic-eu-s3.30.2",
+"strength": "helpful",
+"why": "Waterford Crystal workers EGF",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.56.4": {
+"needs": [
+{
+"id": "geo-economic-eu-s3.28.0",
+"strength": "helpful",
+"why": "ESF retraining of workers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.56.5": {
+"needs": [
+{
+"id": "geo-economic-eu-s3.25.1",
+"strength": "essential",
+"why": "Just Transition Fund for peat",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.57.b": {
+"needs": []
+},
+"geo-economic-activities-s1.57.0": {
+"needs": []
+},
+"geo-economic-activities-s1.58.b": {
+"needs": [
+{
+"id": "geo-economic-eu-s3.20.0",
+"strength": "helpful",
+"why": "regional inequality in Ireland and EU",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.58.0": {
+"needs": []
+},
+"geo-economic-activities-s1.58.1": {
+"needs": []
+},
+"geo-economic-activities-s1.58.2": {
+"needs": [
+{
+"id": "geo-economic-eu-s3.22.0",
+"strength": "essential",
+"why": "BMW region and Objective 1",
+"confidence": "high"
+},
+{
+"id": "geo-economic-eu-s3.21.0",
+"strength": "helpful",
+"why": "Objective 1 funding status",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.58.3": {
+"needs": []
+}
+}

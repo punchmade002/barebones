@@ -1,0 +1,357 @@
+{
+ "pe-business-enterprise-sport-s1": [],
+ "pe-business-enterprise-sport-s2": [
+  {
+   "needs": "pe-business-enterprise-sport-s1",
+   "strength": "helpful",
+   "why": "sponsorship as a revenue stream",
+   "confidence": "high"
+  }
+ ],
+ "pe-business-enterprise-sport-s3": [
+  {
+   "needs": "pe-business-enterprise-sport-s2",
+   "strength": "helpful",
+   "why": "revenue streams and enterprise in sport",
+   "confidence": "high"
+  }
+ ],
+ "pe-business-enterprise-sport-s4": [
+  {
+   "needs": "pe-business-enterprise-sport-s2",
+   "strength": "helpful",
+   "why": "sport industry sectors and revenue",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-business-enterprise-sport-s3",
+   "strength": "helpful",
+   "why": "mass-participation events as tourism draw",
+   "confidence": "low"
+  }
+ ],
+ "pe-ethics-fair-play-s1": [],
+ "pe-ethics-fair-play-s2": [
+  {
+   "needs": "pe-ethics-fair-play-s1",
+   "strength": "essential",
+   "why": "codes are built on integrity, respect, fairness",
+   "confidence": "high"
+  }
+ ],
+ "pe-ethics-fair-play-s3": [],
+ "pe-ethics-fair-play-s4": [
+  {
+   "needs": "pe-ethics-fair-play-s3",
+   "strength": "essential",
+   "why": "prohibited substances and methods being regulated",
+   "confidence": "high"
+  }
+ ],
+ "pe-ethics-fair-play-s5": [
+  {
+   "needs": "pe-ethics-fair-play-s4",
+   "strength": "essential",
+   "why": "strict liability and inadvertent doping",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-ethics-fair-play-s3",
+   "strength": "helpful",
+   "why": "prohibited substance classes",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s8",
+   "strength": "essential",
+   "why": "nutrients, hydration and supplement roles",
+   "confidence": "high"
+  }
+ ],
+ "pe-gender-physical-activity-s1": [],
+ "pe-gender-physical-activity-s2": [
+  {
+   "needs": "pe-gender-physical-activity-s1",
+   "strength": "helpful",
+   "why": "participation patterns and influences",
+   "confidence": "low"
+  }
+ ],
+ "pe-gender-physical-activity-s3": [
+  {
+   "needs": "pe-gender-physical-activity-s1",
+   "strength": "helpful",
+   "why": "sex, gender and participation patterns",
+   "confidence": "high"
+  }
+ ],
+ "pe-learning-skill-technique-s1": [],
+ "pe-learning-skill-technique-s2": [],
+ "pe-learning-skill-technique-s3": [
+  {
+   "needs": "pe-learning-skill-technique-s1",
+   "strength": "helpful",
+   "why": "characteristics of a skilled performance",
+   "confidence": "high"
+  }
+ ],
+ "pe-learning-skill-technique-s4": [
+  {
+   "needs": "pe-learning-skill-technique-s1",
+   "strength": "essential",
+   "why": "types of skill and what skill means",
+   "confidence": "high"
+  }
+ ],
+ "pe-performance-demands-s1": [],
+ "pe-performance-demands-s2": [
+  {
+   "needs": "pe-performance-demands-s1",
+   "strength": "essential",
+   "why": "health-related fitness category",
+   "confidence": "high"
+  }
+ ],
+ "pe-performance-demands-s3": [
+  {
+   "needs": "pe-performance-demands-s1",
+   "strength": "essential",
+   "why": "performance-related fitness category",
+   "confidence": "high"
+  }
+ ],
+ "pe-performance-demands-s4": [
+  {
+   "needs": "pe-performance-demands-s2",
+   "strength": "essential",
+   "why": "uses health-related components",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s3",
+   "strength": "essential",
+   "why": "uses performance-related components",
+   "confidence": "high"
+  }
+ ],
+ "pe-performance-demands-s5": [
+  {
+   "needs": "pe-performance-demands-s2",
+   "strength": "essential",
+   "why": "tests target health-related components",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s3",
+   "strength": "essential",
+   "why": "tests target performance-related components",
+   "confidence": "high"
+  }
+ ],
+ "pe-performance-demands-s6": [
+  {
+   "needs": "pe-performance-demands-s5",
+   "strength": "essential",
+   "why": "principles of training, FITT and test data",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s4",
+   "strength": "helpful",
+   "why": "fitness demands of activities",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s9",
+   "strength": "helpful",
+   "why": "energy systems underpin training methods",
+   "confidence": "low"
+  }
+ ],
+ "pe-performance-demands-s7": [],
+ "pe-performance-demands-s8": [],
+ "pe-performance-demands-s9": [
+  {
+   "needs": "pe-performance-demands-s2",
+   "strength": "helpful",
+   "why": "cardio-respiratory endurance and aerobic work",
+   "confidence": "low"
+  }
+ ],
+ "pe-planning-optimum-performance-s1": [
+  {
+   "needs": "pe-performance-demands-s4",
+   "strength": "helpful",
+   "why": "physical factors and fitness demands",
+   "confidence": "low"
+  }
+ ],
+ "pe-planning-optimum-performance-s2": [
+  {
+   "needs": "pe-planning-optimum-performance-s1",
+   "strength": "essential",
+   "why": "factors being analysed and areas for development",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s5",
+   "strength": "essential",
+   "why": "fitness tests used as analysis methods",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-planning-optimum-performance-s3",
+   "strength": "helpful",
+   "why": "judges' criteria and scoring",
+   "confidence": "low"
+  },
+  {
+   "needs": "pe-performance-demands-s7",
+   "strength": "helpful",
+   "why": "psychological factors being assessed",
+   "confidence": "low"
+  }
+ ],
+ "pe-planning-optimum-performance-s3": [
+  {
+   "needs": "pe-learning-skill-technique-s3",
+   "strength": "helpful",
+   "why": "movement quality and economy of movement",
+   "confidence": "low"
+  }
+ ],
+ "pe-planning-optimum-performance-s4": [
+  {
+   "needs": "pe-planning-optimum-performance-s2",
+   "strength": "essential",
+   "why": "goals come from identified areas for development",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-planning-optimum-performance-s1",
+   "strength": "essential",
+   "why": "planning cycle and key factors",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s6",
+   "strength": "helpful",
+   "why": "designing the training plan",
+   "confidence": "high"
+  }
+ ],
+ "pe-promoting-physical-activity-s1": [],
+ "pe-promoting-physical-activity-s2": [
+  {
+   "needs": "pe-promoting-physical-activity-s1",
+   "strength": "helpful",
+   "why": "benefits and guidelines behind promotion",
+   "confidence": "low"
+  },
+  {
+   "needs": "pe-gender-physical-activity-s1",
+   "strength": "helpful",
+   "why": "influences and barriers by gender",
+   "confidence": "low"
+  }
+ ],
+ "pe-promoting-physical-activity-s3": [
+  {
+   "needs": "pe-promoting-physical-activity-s2",
+   "strength": "essential",
+   "why": "barriers, supports and promotion approaches",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-promoting-physical-activity-s1",
+   "strength": "helpful",
+   "why": "activity guidelines and benefits",
+   "confidence": "low"
+  }
+ ],
+ "pe-promoting-physical-activity-s4": [
+  {
+   "needs": "pe-promoting-physical-activity-s3",
+   "strength": "essential",
+   "why": "NGBs and national bodies in pathways",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-learning-skill-technique-s4",
+   "strength": "helpful",
+   "why": "stages of learning in athlete development",
+   "confidence": "low"
+  }
+ ],
+ "pe-structures-strategies-roles-conventions-s1": [],
+ "pe-structures-strategies-roles-conventions-s2": [
+  {
+   "needs": "pe-structures-strategies-roles-conventions-s1",
+   "strength": "helpful",
+   "why": "formations and strategies roles operate within",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s4",
+   "strength": "helpful",
+   "why": "fitness demands of a role",
+   "confidence": "high"
+  }
+ ],
+ "pe-structures-strategies-roles-conventions-s3": [
+  {
+   "needs": "pe-performance-demands-s6",
+   "strength": "helpful",
+   "why": "training schedules, recovery and overtraining",
+   "confidence": "high"
+  }
+ ],
+ "pe-structures-strategies-roles-conventions-s4": [
+  {
+   "needs": "pe-ethics-fair-play-s2",
+   "strength": "helpful",
+   "why": "sportsmanship and respect for conventions",
+   "confidence": "low"
+  }
+ ],
+ "pe-structures-strategies-roles-conventions-s5": [
+  {
+   "needs": "pe-learning-skill-technique-s4",
+   "strength": "helpful",
+   "why": "practice design and feedback",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s6",
+   "strength": "helpful",
+   "why": "designing a fitness programme",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s7",
+   "strength": "helpful",
+   "why": "motivation and feedback",
+   "confidence": "high"
+  }
+ ],
+ "pe-structures-strategies-roles-conventions-s6": [
+  {
+   "needs": "pe-structures-strategies-roles-conventions-s4",
+   "strength": "essential",
+   "why": "rules and conventions officials enforce",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-structures-strategies-roles-conventions-s3",
+   "strength": "helpful",
+   "why": "safe practice and safety checks",
+   "confidence": "high"
+  },
+  {
+   "needs": "pe-performance-demands-s7",
+   "strength": "helpful",
+   "why": "psychological readiness of officials",
+   "confidence": "low"
+  }
+ ]
+}

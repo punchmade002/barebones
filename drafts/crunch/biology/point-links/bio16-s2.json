@@ -1,0 +1,502 @@
+{
+ "bio16-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.0",
+    "strength": "helpful",
+    "why": "chromosome definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.3",
+    "strength": "essential",
+    "why": "diploid definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.0.4",
+    "strength": "essential",
+    "why": "haploid definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.1.2",
+    "strength": "essential",
+    "why": "chromosome copying in DNA synthesis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.2.1",
+    "strength": "helpful",
+    "why": "sister chromatids as copies",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio16-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.2",
+    "strength": "essential",
+    "why": "homologous chromosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.0",
+    "strength": "helpful",
+    "why": "genetically identical nuclei",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.2",
+    "strength": "helpful",
+    "why": "exact copying of chromosomes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.3.0",
+    "strength": "helpful",
+    "why": "mutation as DNA change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s2.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.0.3",
+    "strength": "essential",
+    "why": "diploid to haploid",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.1.2",
+    "strength": "helpful",
+    "why": "DNA copied once",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "essential",
+    "why": "two divisions of meiosis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.0.2",
+    "strength": "essential",
+    "why": "homologous pairs",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.2.1",
+    "strength": "helpful",
+    "why": "copies of each chromosome",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio16-s2.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s2.1.1",
+    "strength": "essential",
+    "why": "homologous pairs separate in first division",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.2.1",
+    "strength": "helpful",
+    "why": "independent assortment explained",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.2",
+    "strength": "essential",
+    "why": "independent assortment of pairs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.1",
+    "strength": "essential",
+    "why": "first division pairing of homologues",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.3.5",
+    "strength": "helpful",
+    "why": "alleles on homologues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.2",
+    "strength": "helpful",
+    "why": "varied gametes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.2.2",
+    "strength": "helpful",
+    "why": "random fertilisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "essential",
+    "why": "gametes haploid from meiosis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.0.5",
+    "strength": "helpful",
+    "why": "zygote diploid at fertilisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.0",
+    "strength": "essential",
+    "why": "mitosis gives identical nuclei",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.2.0",
+    "strength": "essential",
+    "why": "asexual reproduction by mitosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.2.1",
+    "strength": "helpful",
+    "why": "offspring identical",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.2.5",
+    "strength": "helpful",
+    "why": "clones share vulnerability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "essential",
+    "why": "meiosis gives haploid cells",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s2.2.0",
+    "strength": "helpful",
+    "why": "unicellular eukaryotes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.2",
+    "strength": "helpful",
+    "why": "meiosis varies offspring",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.0",
+    "strength": "essential",
+    "why": "mitosis gives identical cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.2.1",
+    "strength": "helpful",
+    "why": "meristems dividing regions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio16-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.0",
+    "strength": "helpful",
+    "why": "mitosis replaces cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.4",
+    "strength": "essential",
+    "why": "clone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "essential",
+    "why": "meiosis makes gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s2.3.4",
+    "strength": "essential",
+    "why": "gametes made by meiosis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.6.1",
+    "strength": "helpful",
+    "why": "somatic mutations not inherited",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s2.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.1.4",
+    "strength": "helpful",
+    "why": "interphase",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.6.0",
+    "strength": "helpful",
+    "why": "cytokinesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.2",
+    "strength": "helpful",
+    "why": "one division mitosis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "helpful",
+    "why": "two divisions meiosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.1",
+    "strength": "helpful",
+    "why": "2n to 2n",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "helpful",
+    "why": "2n to n",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.2",
+    "strength": "helpful",
+    "why": "meiosis cells differ",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s2.0.3",
+    "strength": "helpful",
+    "why": "no pairing in mitosis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s2.1.1",
+    "strength": "helpful",
+    "why": "pairing in meiosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.3.4",
+    "strength": "helpful",
+    "why": "meiosis in reproductive organs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.6",
+    "strength": "helpful",
+    "why": "constant chromosome number",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.3.0",
+    "strength": "helpful",
+    "why": "mitosis for growth",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s2.2.0",
+    "strength": "helpful",
+    "why": "asexual reproduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s2.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s2.4.2",
+    "strength": "helpful",
+    "why": "chromosome numbers compared",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s2.1.1",
+    "strength": "helpful",
+    "why": "homologous pair separation",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,504 @@
+{
+"geo-rocks-weathering-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.0",
+"strength": "helpful",
+"why": "weathering versus erosion",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.0.4": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.3",
+"strength": "helpful",
+"why": "physical weathering",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s3.0.4",
+"strength": "helpful",
+"why": "chemical weathering",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.3",
+"strength": "helpful",
+"why": "physical weathering type",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.1.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.1.4": {
+"cost": 2,
+"needs": []
+},
+"geo-rocks-weathering-s3.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.1.3",
+"strength": "helpful",
+"why": "angular fragments from freeze-thaw",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.3",
+"strength": "helpful",
+"why": "physical weathering type",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.2.b",
+"strength": "helpful",
+"why": "insolation heating and cooling",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.2.0",
+"strength": "essential",
+"why": "uses exfoliation",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.2.1",
+"strength": "essential",
+"why": "stress from uneven heating",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.2.0",
+"strength": "essential",
+"why": "exfoliation needs moisture",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.2.b",
+"strength": "helpful",
+"why": "insolation expansion",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.3.0": {
+"cost": 2,
+"needs": []
+},
+"geo-rocks-weathering-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.3.0",
+"strength": "essential",
+"why": "sheeting from pressure release",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.3.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.3.2",
+"strength": "helpful",
+"why": "salt crystallisation",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.5",
+"strength": "helpful",
+"why": "biological weathering",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.3",
+"strength": "helpful",
+"why": "physical weathering",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.4",
+"strength": "helpful",
+"why": "chemical weathering",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.4",
+"strength": "helpful",
+"why": "chemical weathering",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.5.0",
+"strength": "essential",
+"why": "carbonic acid reacts",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s1.8.1",
+"strength": "helpful",
+"why": "limestone from sea creatures",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.5.1",
+"strength": "essential",
+"why": "the reaction summarised",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.5.1",
+"strength": "helpful",
+"why": "carbonation dissolving limestone",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s1.9.0",
+"strength": "helpful",
+"why": "Carboniferous limestone, Burren",
+"confidence": "low"
+}
+]
+},
+"geo-rocks-weathering-s3.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.4",
+"strength": "helpful",
+"why": "chemical weathering",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s1.4.0",
+"strength": "helpful",
+"why": "granite minerals quartz feldspar",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.6.0",
+"strength": "essential",
+"why": "clay from hydrolysis",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.6.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.4",
+"strength": "helpful",
+"why": "chemical weathering",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.1.b",
+"strength": "helpful",
+"why": "freeze-thaw",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s3.2.b",
+"strength": "helpful",
+"why": "desert insolation",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.7.1",
+"strength": "helpful",
+"why": "warm wet favours chemical",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.5.b",
+"strength": "helpful",
+"why": "carbonation of limestone",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s3.6.0",
+"strength": "helpful",
+"why": "hydrolysis of granite",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s1.7.1",
+"strength": "helpful",
+"why": "bedding planes",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s1.7.2",
+"strength": "helpful",
+"why": "joints",
+"confidence": "low"
+}
+]
+},
+"geo-rocks-weathering-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.4.1",
+"strength": "helpful",
+"why": "humic acids",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.8.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.1.b",
+"strength": "helpful",
+"why": "freeze-thaw",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s3.9.0": {
+"cost": 2,
+"needs": []
+},
+"geo-rocks-weathering-s3.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.1.b",
+"strength": "essential",
+"why": "freeze-thaw",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s3.2.0",
+"strength": "helpful",
+"why": "exfoliation",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s3.2.4",
+"strength": "helpful",
+"why": "granular disintegration",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.5.b",
+"strength": "helpful",
+"why": "carbonation",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s3.6.0",
+"strength": "helpful",
+"why": "hydrolysis",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s3.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.1.5",
+"strength": "helpful",
+"why": "scree from freeze-thaw",
+"confidence": "high"
+}
+]
+}
+}

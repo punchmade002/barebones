@@ -1,0 +1,680 @@
+{
+"hist-ire2-s1.0.b": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.0.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.2",
+"strength": "essential",
+"why": "Gladstone's 1870 Land Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.0",
+"strength": "helpful",
+"why": "O'Connell's agitation",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.b",
+"strength": "helpful",
+"why": "Home Rule as moderate alternative",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.0",
+"strength": "helpful",
+"why": "Young Ireland and O'Connell",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.1.2",
+"strength": "helpful",
+"why": "Home Rule movement",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.1.2",
+"strength": "helpful",
+"why": "Home Government Association",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.1.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.1.6",
+"strength": "helpful",
+"why": "the Home Rule League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.1.6",
+"strength": "essential",
+"why": "Home Rule League and party",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.2.0",
+"strength": "helpful",
+"why": "the 1874 Home Rule MPs",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.1.6",
+"strength": "helpful",
+"why": "the League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.1.3",
+"strength": "helpful",
+"why": "Butt's Home Rule programme",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.1",
+"strength": "helpful",
+"why": "Biggar and obstruction",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.b",
+"strength": "helpful",
+"why": "obstructionists",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.0",
+"strength": "essential",
+"why": "obstruction",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.1",
+"strength": "helpful",
+"why": "Biggar's obstruction",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.1.7",
+"strength": "helpful",
+"why": "Butt's caution",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.0.1",
+"strength": "helpful",
+"why": "Fenians and executions",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.1.6",
+"strength": "helpful",
+"why": "Home Rule organisation",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s1.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.3.0",
+"strength": "essential",
+"why": "obstruction",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.0",
+"strength": "helpful",
+"why": "obstruction",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.4.b": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.0.1",
+"strength": "helpful",
+"why": "Fenians",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.0.1",
+"strength": "helpful",
+"why": "Fenian rising and prisoners",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.4.1",
+"strength": "essential",
+"why": "Davitt and Devoy",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.4.2",
+"strength": "essential",
+"why": "the Devoy offer",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.4.3",
+"strength": "essential",
+"why": "the New Departure",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.4.3",
+"strength": "helpful",
+"why": "the New Departure",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.4.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.4.3",
+"strength": "essential",
+"why": "the New Departure",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.4.b",
+"strength": "helpful",
+"why": "the New Departure forces",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.4.5",
+"strength": "helpful",
+"why": "land question and national politics",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "helpful",
+"why": "Land League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.2",
+"strength": "helpful",
+"why": "Parnell's career",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.1.6",
+"strength": "helpful",
+"why": "the Home Rule party",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "helpful",
+"why": "the movement's press",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s1.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "essential",
+"why": "the suppressed Land League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.2.1",
+"strength": "helpful",
+"why": "no pledge among MPs",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.5.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.5",
+"strength": "essential",
+"why": "National League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "essential",
+"why": "the Land League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.6.1",
+"strength": "essential",
+"why": "Parnell's imprisonment",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.2",
+"strength": "essential",
+"why": "the Kilmainham settlement",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.0",
+"strength": "helpful",
+"why": "Forster's coercion",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.6.4",
+"strength": "essential",
+"why": "Cavendish's appointment",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.6.2",
+"strength": "helpful",
+"why": "the Kilmainham settlement",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.5",
+"strength": "essential",
+"why": "the Phoenix Park murders",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.5",
+"strength": "essential",
+"why": "the Invincibles' murders",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.5",
+"strength": "helpful",
+"why": "National League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.2",
+"strength": "helpful",
+"why": "Meath election and obstruction",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "helpful",
+"why": "Land League presidency",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.7.2",
+"strength": "helpful",
+"why": "Parnell's career",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "helpful",
+"why": "Land League tenants",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.7.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.7.6": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.2.0",
+"strength": "helpful",
+"why": "Butt's 1874 seats",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.5.6",
+"strength": "helpful",
+"why": "pledge and conventions",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.2",
+"strength": "helpful",
+"why": "the 1870 Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.0",
+"strength": "helpful",
+"why": "disruption by obstruction",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.8.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.2",
+"strength": "essential",
+"why": "the Kilmainham settlement",
+"confidence": "high"
+}
+]
+}
+}

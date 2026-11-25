@@ -1,0 +1,453 @@
+MODE: links only (another package rates cost)
+TARGET geo-mapwork-s1 (part 2 of 2): Map interpretation
+[geo-mapwork-s1.18.2] Radial: streams flow outward in all directions from a central hill or mountain, because the water runs downhill every way, as the small streams do around the summit of Slievenagh.
+[geo-mapwork-s1.18.3] Centripetal: streams flow inward to a central lake or lowland, because that is the lowest ground.
+[geo-mapwork-s1.18.4] Deranged: no clear pattern, with many small lakes and marshes, on glacial deposits (material left by ice).
+[geo-mapwork-s1.18.5] Real examples, one clause each: trellised in the Munster ridge and valley; deranged in the Co. Cavan drumlin belt; centripetal at Lough Neagh.
+[geo-mapwork-s1.19.b] Fluvial landforms are those made by rivers. On the map each one has a clue, such as a loop, a flat area with no contours, or contours crowded across the river.
+[geo-mapwork-s1.19.0] V-shaped valley: the upland valley pattern given under landforms read from contours, with sharp contour Vs pointing upstream; the river runs along the floor.
+[geo-mapwork-s1.19.1] Meander: a river swinging in loops, such as those on a flat floodplain. Oxbow lake: a crescent-shaped lake beside a meandering river.
+[geo-mapwork-s1.19.2] Floodplain: wide and flat, with no contours, along a lowland river; often marshy.
+[geo-mapwork-s1.19.3] Levees: embankments (raised banks) along the channel, where the map shows them.
+[geo-mapwork-s1.19.4] Braiding: the river splits, so it looks like a plait, into several channels around islands.
+[geo-mapwork-s1.19.5] Confluence: the point where a tributary joins the main river, which you can see as a Y-shaped junction of blue lines.
+[geo-mapwork-s1.19.6] Delta: deposits where a river enters a lake or the sea.
+[geo-mapwork-s1.19.7] Waterfall: shown by a symbol or name, with contours crowded across the river.
+[geo-mapwork-s1.20.b] Glacial landforms were shaped by ice. They show up on the map as hollows, narrow ridges and groups of small hills, each with a distinctive contour shape.
+[geo-mapwork-s1.20.0] Corrie: an armchair-shaped hollow (the shape ice carves, with a steep back wall), with contours close on three sides and open downhill.
+[geo-mapwork-s1.20.1] Tarn: a small, round lake in a corrie, often high up.
+[geo-mapwork-s1.20.2] Arête: a narrow ridge with very close contours on both sides, because the ground falls steeply away either side.
+[geo-mapwork-s1.20.3] U-shaped valley: a broad, flat floor with steep sides, and contours close together on the valley sides.
+[geo-mapwork-s1.20.4] Ribbon lake: a long, narrow lake on the floor of a U-shaped valley.
+[geo-mapwork-s1.20.5] Drumlins: many small oval closed contour rings, often with small lakes between them.
+[geo-mapwork-s1.20.6] Esker: a long, narrow, winding ridge on lowland, so it stands out from the flat ground around it.
+[geo-mapwork-s1.21.b] Coastal landforms are found where land meets sea. Karst landforms belong to limestone country, where water drains underground. Both are recognised by their shapes, symbols and names.
+[geo-mapwork-s1.21.0] Beach: for example sand or shingle (small rounded stones) shading along the shore.
+[geo-mapwork-s1.21.1] Cliff: a cliff symbol, or contours crowded together at the coast, because the land drops steeply to the sea.
+[geo-mapwork-s1.21.2] Headland: land projecting into the sea, often high.
+[geo-mapwork-s1.21.3] Bay: a curved inlet of the sea, so the coastline bends inland.
+[geo-mapwork-s1.21.4] Sand spit (a narrow strip of sand built out from the coast), tombolo (a ridge joining an island to the mainland) and lagoon (a shallow pool cut off from the sea): identified by their shapes and names on the map.
+[geo-mapwork-s1.21.5] Sand dunes: shown by dune shading or a name.
+[geo-mapwork-s1.21.6] Swallow hole: a stream ends abruptly where it disappears underground; limestone areas have few surface streams.
+[geo-mapwork-s1.22.b] A lake's origin can usually be read from its shape and setting on the map, so questions ask you to give the type at a grid reference.
+[geo-mapwork-s1.22.0] Lake type at a grid reference: glacial (tarn or ribbon lake), fluvial (oxbow), coastal (lagoon) or artificial (reservoir, shown by a straight dam edge, a dam symbol or a 'Reservoir' label).
+[geo-mapwork-s1.23.b] Some Higher questions link the map to mass movement (the downhill movement of rock and soil), and ask you to find extremes of slope. Steepness comes from contour spacing.
+[geo-mapwork-s1.23.0] A very steep area is shown by crowded contours or cliffs; locate it with a six-figure grid reference.
+[geo-mapwork-s1.23.1] A very gentle area is shown by widely spaced contours; locate it with a six-figure grid reference.
+[geo-mapwork-s1.23.2] There is more on mass movement on steep ground in the rocks and weathering chapter.
+[geo-mapwork-s1.24.b] Settlement pattern means how buildings are arranged on the land. Three patterns appear on OS maps, and each has a look and a reason.
+[geo-mapwork-s1.24.0] Nucleated: buildings clustered at a crossroads, bridge, church or village, such as the crossroads village on the invented Rivertown map.
+[geo-mapwork-s1.24.1] Linear (ribbon): buildings strung along a road, sometimes a coast road or a valley floor, such as the houses along the R990 north of Rivertown.
+[geo-mapwork-s1.24.2] Dispersed: individual farmhouses scattered across farmland, each on its own land, so there is no cluster.
+[geo-mapwork-s1.24.3] Nucleated settlement forms around a route focus (where routes meet) or a service; linear settlement forms where a road gives access to services; dispersed settlement reflects farming and land consolidation (joining small plots into larger farms).
+[geo-mapwork-s1.24.4] Ribbon development on the approach roads to a town: linear housing spreads out along the main roads, because of cheaper rural sites, road access and services along the road.
+[geo-mapwork-s1.25.b] Houses are not spread evenly. Map evidence shows where people avoided building and where they chose to cluster, and each reason must be backed by that evidence.
+[geo-mapwork-s1.25.0] Absence from high land above about 200–300 m, which is cold, wet, exposed and has thin soils; give a four-figure grid reference and the map evidence.
+[geo-mapwork-s1.25.1] Absence on steep slopes, shown by crowded contours, because building and farming are difficult there.
+[geo-mapwork-s1.25.2] Absence on poorly drained land, shown by a marsh or bog symbol, and on floodplains liable to flooding, because houses there would be damp or flooded.
+[geo-mapwork-s1.25.3] Absence where forestry plantations cover the land, since the land is used for trees, and on lakes, because they cannot be built on.
+[geo-mapwork-s1.25.4] High density of settlement: give a four-figure grid reference for lowland, gently sloping, well-drained land near roads, a town or the coast.
+[geo-mapwork-s1.25.5] Explain each factor that favours high density: flat or gently sloping land, good drainage, road access, and nearness to a town or the coast.
+[geo-mapwork-s1.26.b] A variations question asks you to compare how settlement is spread in two parts of the map. Use the same set of factors for both parts so that the comparison is fair.
+[geo-mapwork-s1.26.0] A variations question (Higher, 30 marks) usually compares two contrasting parts of the map, e.g. north and south of a named northing.
+[geo-mapwork-s1.26.1] For each part, compare relief and height, drainage, the soils implied by the land use, communications (roads and rail), and the pull of a town or the coast.
+[geo-mapwork-s1.26.2] State each factor with a grid reference and explain it for both areas.
+[geo-mapwork-s1.26.3] Illustrative: settlement is nucleated at the crossroads village, linear along the R990 north of the town and dispersed in the north-west of the lowland; there is no settlement on Slievenagh above 300 m (R 23 40: high, steep, exposed, forestry) or on the floodplain east of the town (flood risk).
+[geo-mapwork-s1.27.b] Historic settlement questions ask you to name monuments on the map and say what period they belong to. The prehistoric period runs from the Stone Age to the Iron Age.
+[geo-mapwork-s1.27.0] Stone Age to Iron Age sites, such as megalithic tombs (stone-built burial monuments: court, portal or dolmen, passage and wedge tombs), standing stones, stone circles and cists (stone-lined graves).
+[geo-mapwork-s1.27.1] Also prehistoric: fulachta fia (Bronze Age cooking sites), promontory forts (forts on land jutting out into water) and crannógs (lake dwellings).
+[geo-mapwork-s1.27.2] Who lived there: early farming communities. Why the site was chosen: defence (promontory forts) and a lake (crannógs). What it shows: farming economy, and burial and ritual sites for religion.
+[geo-mapwork-s1.27.3] Illustrative: a megalithic tomb at R 225 412 and a standing stone at R 231 418.
+[geo-mapwork-s1.28.b] The early Christian (early medieval) period left many farmsteads and church sites. Several different map names point to the same kind of site.
+[geo-mapwork-s1.28.0] Early Christian (early medieval) sites include ringforts, also named rath, lios, dún, caher or cashel on the map; souterrains (underground passages); ecclesiastical (church-related) sites with churches and graveyards; holy wells; round towers; and high crosses.
+[geo-mapwork-s1.28.1] Ringforts were the farmsteads of the period, enclosed by an earth bank (stone in a cashel or caher).
+[geo-mapwork-s1.28.2] Ringforts belong to the early Christian period, not to the prehistoric or Norman periods.
+[geo-mapwork-s1.28.3] What it shows: a farming society, and the spread of Christianity, seen in churches, round towers and high crosses.
+[geo-mapwork-s1.28.4] Illustrative: a ringfort at R 255 430 and a church in ruins with its graveyard at R 262 446.
+[geo-mapwork-s1.29.b] The Normans were medieval invaders who built castles to hold land. Their sites are usually placed to guard something, such as a river crossing.
+[geo-mapwork-s1.29.0] Norman (medieval) sites include mottes and motte-and-bailey sites (earth mounds, with a walled yard in the second type), castles, town walls, abbeys and friaries, and towns at bridging points.
+[geo-mapwork-s1.29.1] Mottes are Norman sites; fulachta fia are Bronze Age, and ringforts are early Christian, so check the label before dating a site.
+[geo-mapwork-s1.29.2] Why the site was chosen: defence, and control of a river crossing, so that the Normans could hold the land around it.
+[geo-mapwork-s1.29.3] What it shows: Norman military control, and the religious life of the abbeys and friaries.
+[geo-mapwork-s1.29.4] Illustrative: a motte at R 280 436 and a castle in ruins at R 269 439, beside the bridge.
+[geo-mapwork-s1.30.b] The later periods leave planned towns, large estates and industrial and transport remains. Each tells you about how the country was organised and how it developed.
+[geo-mapwork-s1.30.0] Tower houses are fortified stone houses, built for protection; planned towns have a regular layout with a square or wide main street; demesnes are large houses with estate woodland.
+[geo-mapwork-s1.30.1] 19th and 20th century sites include canals, railways and stations, mills, coastguard stations, later housing and industrial estates.
+[geo-mapwork-s1.30.2] What it shows: the growth of planned towns and estates, and of transport and industry.
+[geo-mapwork-s1.31.b] Many Irish place names are built from Irish words that describe the land or what stood there. Knowing the elements helps you read the history and site of a place from its name.
+[geo-mapwork-s1.31.0] Settlement and building elements: baile/bally (townland or settlement), cill/kil (church), ráth/rath and lios/lis (ringfort), dún/dun (fort), cathair/caher (stone fort), áth/ath (ford), droichead (bridge).
+[geo-mapwork-s1.31.1] Land elements: cnoc/knock (hill), sliabh/slieve (mountain), ard (height), drom/drum (ridge), gleann/glen (valley), mullach/mullagh (summit).
+[geo-mapwork-s1.31.2] Water, vegetation and other elements: loch/lough (lake), inis/inch (island), cluain/clon (meadow), doire (oak wood), carraig/carrick (rock).
+[geo-mapwork-s1.31.3] Size elements: beag/beg (small), mór/more (big).
+[geo-mapwork-s1.31.4] Townlands are the smallest land division in Ireland; townland names are printed on OS maps, and exams ask which townland a point lies in.
+[geo-mapwork-s1.32.b] A 30-mark question asks for three reasons, each named, evidenced from the map with a grid reference and explained. Choose the three for which the map gives the clearest evidence.
+[geo-mapwork-s1.32.0] Bridging point: the town grew where a river could be crossed, and bridges and roads converge on it.
+[geo-mapwork-s1.32.1] Route focus: several N and R roads and a railway meet, so the town became a market and service centre.
+[geo-mapwork-s1.32.2] Defence: a castle, town walls, a hill or a river bend guards the site.
+[geo-mapwork-s1.32.3] River or coastal site: water supply, transport, power for mills, and a harbour or pier for trade and fishing.
+[geo-mapwork-s1.32.4] Flat or gently sloping lowland: easy to build on, with widely spaced contours.
+[geo-mapwork-s1.32.5] Fertile surrounding farmland: dispersed farms and no marsh, so the town serves as a market town for its hinterland (the area around it that it serves).
+[geo-mapwork-s1.32.6] Ecclesiastical origin: an abbey or early church site. Tourism: a coast, beaches, lakes or uplands attract visitors to the town.
+[geo-mapwork-s1.32.7] Illustrative: the bridging point is the bridge at R 268 441, with roads converging on it; the route focus is the N99, the R990 and the railway station at R 272 445; defence is the castle at R 269 439 and the motte at R 280 436, guarding the crossing.
+[geo-mapwork-s1.33.b] A function is a job a town does for its people and surroundings. Name each function, give the symbol or label and its grid reference, and explain it.
+[geo-mapwork-s1.33.0] Residential: built-up area and housing estates, because they show where people live.
+[geo-mapwork-s1.33.1] Market and retail: a route focus and a central square, because people gather where routes meet to buy and sell.
+[geo-mapwork-s1.33.2] Services: hospital, Garda station, post office, schools and courthouse, where labelled.
+[geo-mapwork-s1.33.3] Transport: railway station, bus routes and motorway junction, such as the Rivertown station at R 272 445.
+[geo-mapwork-s1.33.4] Industrial: industrial estate or factory labels, because they show where goods are made.
+[geo-mapwork-s1.33.5] Tourist and recreational: tourist information office, golf course, hostels, camping and caravan sites, marinas, viewpoints and walks.
+[geo-mapwork-s1.33.6] Port or fishing: pier, harbour and slipway, because boats land and load there.
+[geo-mapwork-s1.33.7] Ecclesiastical: churches and abbeys. Defensive in the past: castle.
+[geo-mapwork-s1.34.b] A town's layout records its history, with the oldest parts near the crossing point and newer parts at the edge.
+[geo-mapwork-s1.34.0] Old core, the first part to be built: narrow streets, a square, and a castle or abbey near the bridge.
+[geo-mapwork-s1.34.1] Newer edge, where there is more space: housing estates, industrial estates, a bypass or motorway with junctions, and ribbon development.
+[geo-mapwork-s1.35.b] Choose a site with a six-figure grid reference and give three reasons, each supported by map evidence.
+[geo-mapwork-s1.35.0] Flat land: widely spaced contours, because it is cheaper and easier to build on.
+[geo-mapwork-s1.35.1] Access: an N road, a motorway junction, a railway or a port, so that goods and workers can reach the site.
+[geo-mapwork-s1.35.2] Nearness to a town for labour, services and markets; space to expand; a site off the floodplain and away from protected or scenic areas.
+[geo-mapwork-s1.35.3] Wind farms need exposed high ground away from houses; hotels need to be near tourist attractions.
+[geo-mapwork-s1.35.4] State a disadvantage when asked, e.g. visual impact, traffic, loss of farmland or conflict with residents.
+[geo-mapwork-s1.36.b] Economic activities are the ways people earn a living, grouped as primary, secondary and tertiary. The map shows each through symbols and labels, and tourism can be judged from what the map offers visitors.
+[geo-mapwork-s1.36.0] Primary activity (using natural resources): forestry plantations, farming (shown by dispersed farms and field land), quarries and fishing piers.
+[geo-mapwork-s1.36.1] Secondary activity (making goods): industrial estates and factories, such as the industrial estate on the N99 at the north-eastern edge of Rivertown.
+[geo-mapwork-s1.36.2] Tertiary activity (providing services): services, tourism and transport, such as shops, hotels and railways.
+[geo-mapwork-s1.36.3] Each activity is evidenced by a map symbol or label and its grid reference.
+[geo-mapwork-s1.36.4] Tourism potential, accessibility and services, so that visitors can get there and stay: road access, parking, accommodation and tourist information.
+[geo-mapwork-s1.36.5] Tourism potential, attractions that draw visitors, such as antiquities, viewpoints, walks, cycle routes, beaches, lakes and golf courses.
+[geo-mapwork-s1.36.6] Each factor is evidenced with grid references and explained.
+[geo-mapwork-s1.37.b] Statistical maps show numbers on a map. The OS map links to them through its contours and its key.
+[geo-mapwork-s1.37.0] Contours are isolines (lines joining places of equal value), so they work like the lines on a weather map, the same kind of line used on isoline statistical maps, where the value is a statistic instead of height.
+[geo-mapwork-s1.37.1] Choropleth, dot, isoline, proportional-symbol and flow-line maps are taught in Graph skills; there is more on them there.
+[geo-mapwork-s1.38.b] Map questions fall into short questions, matching questions, sketch maps and long map-evidence questions. Short questions are worth Higher 2 marks each; Ordinary 3–5 marks, often tick-box.
+[geo-mapwork-s1.38.0] Short questions: a six-figure reference for a named building, road junction or exit point; the antiquity, public service or feature at a grid reference; the height of a spot height, pillar or highest point; the length of a road, motorway or railway; the straight-line distance between two points.
+[geo-mapwork-s1.38.1] Short questions also ask for the area of the whole map, of a lake or bay, of land above a contour, or of land east, west, north or south of a grid line or railway.
+[geo-mapwork-s1.38.2] More short questions ask for the direction of travel; the part of the map a feature lies in; the type of forestry; what N or R stands for; a legend symbol; a cultural area (Gaeltacht).
+[geo-mapwork-s1.38.3] Matching questions give features (such as a meander, a drumlin or a headland) to grid references, and ask for two drainage patterns, the type of lake or the aspect of a slope at a grid reference; elevation profile questions and true or false profile statements (Higher).
+[geo-mapwork-s1.38.4] Sketch maps: Higher 20 marks at half scale; Ordinary 30 marks; typically four or five features.
+[geo-mapwork-s1.38.5] 15-mark map-and-process question (Higher): name and locate two landforms with six-figure grid references and explain one; locate a very steep and a very gentle slope.
+[geo-mapwork-s1.38.6] 30-mark map-evidence questions: three reasons a town developed at its location; three rural settlement patterns; variations in settlement distribution; absence and high density of settlement.
+[geo-mapwork-s1.38.7] More 30-mark map-evidence questions: three phases of historic settlement; site suitability with a six-figure reference; economic activity and tourism potential.
+
+CANDIDATES geo-glaciation-s1: 1. Glacial processes, patterns and associated landforms
+[geo-glaciation-s1.0.b] Ireland was glaciated (covered by moving ice) during the Pleistocene, the geological period of repeated ice ages. The landforms in this subsection were shaped by ice in its two main cold stages, and the type of ice involved decides what it can shape.
+[geo-glaciation-s1.0.0] The older cold stage is the Munsterian; the more recent is the Midlandian. Their names are the ones to use when you are asked to date Irish glaciation.
+[geo-glaciation-s1.0.1] Munsterian ice covered almost all of the island, so it was more extensive than the Midlandian ice, which left the far south free.
+[geo-glaciation-s1.0.2] Midlandian glaciation ended about 10,000 years ago, and its ice did not cover the far south of Ireland, so the south kept land the Midlandian ice never reached.
+[geo-glaciation-s1.0.3] An ice sheet is a continental mass of ice covering whole landscapes, buried hills and all, as in Antarctica and Greenland today.
+[geo-glaciation-s1.0.4] A valley glacier is confined to a valley, so its path is set by the landscape. It is fed by snow and ice from corries (armchair-shaped hollows high on the mountainside).
+[geo-glaciation-s1.1.b] Glacier ice is not frozen water poured into a valley. It is built up slowly from snow that never melts away.
+[geo-glaciation-s1.1.0] Snow that survives the summer is compacted into firn (granular snow, also called nevé), because each year's new snow presses down on the older snow beneath.
+[geo-glaciation-s1.1.1] Firn becomes glacier ice as the weight of overlying snow squeezes out the air and the ice crystals grow larger and interlock, producing dense solid ice.
+[geo-glaciation-s1.2.b] A glacier gains ice at its head and loses it at its snout (its lower end), and the balance between these determines its behaviour. Geographers compare this to a budget of income against spending.
+[geo-glaciation-s1.2.0] Accumulation zone: the upper part of the glacier, where snow and ice are gained, because more snow falls there than melts.
+[geo-glaciation-s1.2.1] Ablation zone: the lower part, including the snout, where ice is lost by melting. Ablation simply means loss of ice.
+[geo-glaciation-s1.2.2] Equilibrium line: the boundary between the two zones, where gain and loss are equal over a year, so above it the glacier gains and below it the glacier loses.
+[geo-glaciation-s1.3.b] A glacier is not frozen in place. Gravity and the weight of the ice make it creep downhill by three different mechanisms, and friction makes some parts move faster than others.
+[geo-glaciation-s1.3.0] Basal slip: meltwater at the base lubricates the bed (the rock floor beneath the ice), so the whole glacier slides over the rock.
+[geo-glaciation-s1.3.1] Internal deformation (plastic flow): ice crystals slip past one another under the weight of the ice, so the glacier flows downhill.
+[geo-glaciation-s1.3.2] Rotational movement: ice in a corrie (the hollow where a glacier begins) rotates within the hollow instead of moving straight down the valley.
+[geo-glaciation-s1.3.3] Ice moves fastest at the centre of the surface and slowest at the sides and base, where friction with the valley walls and bed is greatest.
+[geo-glaciation-s1.4.b] The snout's position depends on whether more ice arrives from the accumulation zone than melts at the snout. This balance decides whether the glacier is getting longer or shorter.
+[geo-glaciation-s1.4.0] Advance: when more ice arrives from the accumulation zone than melts, the snout moves forward.
+[geo-glaciation-s1.4.1] Retreat: when melting exceeds the ice arriving, the snout moves back up the valley, although the ice is still flowing forward. The snout retreats because it melts back faster than the ice feeds it.
+[geo-glaciation-s1.4.2] Heavier snowfall or cooler summers, which reduce melting, cause the glacier to advance.
+[geo-glaciation-s1.4.3] Less snowfall or warmer summers, which increase melting, cause the glacier to retreat.
+[geo-glaciation-s1.5.b] Average rate of movement is found by dividing the distance moved by the number of years. The figures below are illustrative, invented for practice.
+[geo-glaciation-s1.5.0] Average rate = distance moved ÷ number of years, given in metres per year.
+[geo-glaciation-s1.5.1] Illustrative: a snout that retreats 600 m over 20 years has moved an average of 600 ÷ 20 = 30 m per year.
+[geo-glaciation-s1.5.2] Illustrative: a snout that advances 450 m over 9 years has moved an average of 450 ÷ 9 = 50 m per year.
+[geo-glaciation-s1.6.b] Glaciers erode mainly by plucking and abrasion, while freeze-thaw supplies rock debris at the edges of the ice. Together these processes carve the corries, valleys and lakes of glaciated uplands.
+[geo-glaciation-s1.6.0] Plucking (quarrying): meltwater enters joints (cracks) in the bedrock and freezes, bonding the ice to the rock; as the glacier moves on, it tears out blocks, mainly on the downhill side of rock obstacles.
+[geo-glaciation-s1.6.1] Abrasion: rock fragments frozen into the base of the ice scrape and polish the bedrock, like sandpaper on wood. It produces striations (scratches), polished rock and rock flour.
+[geo-glaciation-s1.6.2] Rock flour: fine powder ground from the bedrock by abrasion, which meltwater carries away, giving glacial lakes a milky colour.
+[geo-glaciation-s1.6.3] Freeze-thaw on the rock above and beside the ice: water freezing in cracks expands and breaks off fragments, which fall onto the ice and are carried away.
+[geo-glaciation-s1.7.b] A corrie (also called a cirque) is the armchair-shaped hollow where a mountain glacier begins. Corrie ice feeds valley glaciers, so corries are linked to the valleys below them.
+[geo-glaciation-s1.7.0] 1. Snow collects in a hollow on the mountainside; nivation (erosion by snow patches) and freeze-thaw enlarge the hollow.
+[geo-glaciation-s1.7.1] 2. The snow turns to ice, and the rotating glacier plucks and abrades the back wall and floor, deepening the hollow and steepening the back wall.
+[geo-glaciation-s1.7.2] 3. The result is a bowl with a steep back wall and a rock lip, called the threshold, at its lower edge, because the ice erodes the floor more deeply than the rim.
+[geo-glaciation-s1.7.3] 4. When the ice melts, water collects behind the lip, because the lip dams the hollow, and forms a lake called a tarn.
+[geo-glaciation-s1.7.4] Examples: Coumshingaun, Comeragh Mountains, Co. Waterford; the Devil's Punchbowl, Mangerton, Co. Kerry.
+[geo-glaciation-s1.7.5] Diagram: cross-section of a corrie with steep back wall, rock lip and tarn; plan view of the bowl-shaped hollow.
+[geo-glaciation-s1.8.b] Corries do not only deepen hollows; they also eat into the mountain around them. Where corries meet, they leave sharp ridges and peaks standing between them.
+[geo-glaciation-s1.8.0] 1. Two corries cut back into the mountainside from opposite sides of a ridge.
+[geo-glaciation-s1.8.1] 2. Their back walls retreat, so the ridge between them is sharpened into a thin, knife-edged arête.
+[geo-glaciation-s1.8.2] 3. Three or more corries erode back around one summit from different directions.
+[geo-glaciation-s1.8.3] 4. The summit is left as a sharp, pointed pyramidal peak, also called a horn, because erosion has cut away every side of it.
+[geo-glaciation-s1.8.4] Arête example: Striding Edge, Helvellyn, Lake District, England.
+[geo-glaciation-s1.8.5] Pyramidal peak examples: Carrauntoohil, Macgillycuddy's Reeks, Co. Kerry, Ireland's highest mountain; the Matterhorn, Swiss-Italian Alps.
+[geo-glaciation-s1.8.6] Diagram: plan view of two corries backing onto an arête; plan view of a horn ringed by three corries.
+[geo-glaciation-s1.9.b] A glacier reshapes the river valley it occupies. It turns a narrow V-shaped valley into a wide trough, which is why glaciated valleys look so different from river valleys.
+[geo-glaciation-s1.9.0] 1. Before glaciation the valley is V-shaped, cut by a river.
+[geo-glaciation-s1.9.1] 2. A glacier fills the valley and deepens and widens its floor by plucking and abrasion.
+[geo-glaciation-s1.9.2] 3. The glacier cuts off the river's interlocking spurs (ridges that overlap from alternate sides of a river valley), leaving blunt cliff faces called truncated spurs.
+[geo-glaciation-s1.9.3] 4. The result is a broad, flat-floored trough with steep sides, which gives the valley its U-shape because the ice cuts down and sideways at once. It is also called a glacial trough.
+[geo-glaciation-s1.9.4] Examples: Glendalough and Glenmalure, Co. Wicklow.
+[geo-glaciation-s1.9.5] Diagram: cross-sections of a V-shaped valley beside a U-shaped valley, with truncated spurs labelled.
+[geo-glaciation-s1.10.b] When a small glacier joins a large one, the two do not cut to the same depth. This leaves the smaller valley stranded high above the main one.
+[geo-glaciation-s1.10.0] 1. A smaller tributary glacier joins the larger glacier that is filling the main valley.
+[geo-glaciation-s1.10.1] 2. Because the tributary glacier is smaller, it erodes less deeply, so its valley is left hanging above the main valley floor.
+[geo-glaciation-s1.10.2] 3. When the ice melts, the tributary stream falls over the edge of the hanging valley as a waterfall.
+[geo-glaciation-s1.10.3] Example: Poulanass Waterfall, falling from a hanging valley into the Glendalough valley, Co. Wicklow.
+[geo-glaciation-s1.10.4] Diagram: long profile (side view along the valley) of a hanging valley and its waterfall above the main valley floor.
+[geo-glaciation-s1.11.b] A glacier does not erode its valley floor evenly. Where it cuts deeper, it leaves a rock basin (a hollow in the bedrock) that fills with water as a lake.
+[geo-glaciation-s1.11.0] 1. Plucking and abrasion overdeepen a section of the valley floor more than the rest, leaving a rock basin.
+[geo-glaciation-s1.11.1] 2. When the ice melts, the basin fills with water, forming a long, narrow ribbon lake, because the lake takes the shape of the valley floor.
+[geo-glaciation-s1.11.2] Example: Upper Lake, Glendalough, Co. Wicklow.
+[geo-glaciation-s1.11.3] Paternoster lakes: a chain of rock-basin lakes along a valley floor, separated by bars of harder rock.
+[geo-glaciation-s1.11.4] Tarns, ribbon lakes and kettle lakes are all glacial lakes.
+[geo-glaciation-s1.11.5] Diagram: long profile of an overdeepened valley with a ribbon lake.
+[geo-glaciation-s1.12.b] A fjord is a glaciated valley on the coast that the sea has flooded after the ice melted. It forms only where a glacier cut the valley floor below sea level.
+[geo-glaciation-s1.12.0] 1. A glacier overdeepens a coastal valley so that its floor lies well below sea level.
+[geo-glaciation-s1.12.1] 2. When the ice melts, the sea floods the valley, leaving a fjord with steep sides.
+[geo-glaciation-s1.12.2] Examples: Killary Harbour, on the Co. Galway-Co. Mayo border; Sognefjord, Norway.
+[geo-glaciation-s1.12.3] Diagram: plan view of a fjord with steep sides and the sea at its mouth.
+[geo-glaciation-s1.13.b] Where ice flows over a bump of hard bedrock, it treats the two sides differently. Abrasion smooths the side it climbs and plucking roughens the side it leaves.
+[geo-glaciation-s1.13.0] 1. Ice flows over a bedrock outcrop (rock exposed at the surface), and abrasion smooths and polishes its upstream (stoss) side.
+[geo-glaciation-s1.13.1] 2. On the downstream (lee) side, plucking tears blocks from the rock, leaving a steep, rough face.
+[geo-glaciation-s1.13.2] 3. The result is a rounded hill with a smooth stoss side and a rough lee side.
+[geo-glaciation-s1.13.3] Example: Lembert Dome, Yosemite, California, USA.
+[geo-glaciation-s1.13.4] Striations: fine parallel scratches cut into bedrock by rock fragments held in the base of the ice; they are carved by the ice and show the direction of ice flow.
+[geo-glaciation-s1.13.5] Diagram: cross-section of a roche moutonnee showing the stoss side, lee side and direction of ice flow; plan view of striations on bedrock.
+[geo-glaciation-s1.14.b] A glacier carries rock debris, called its load, in three positions. Where the load sits decides how much work it does and what it looks like when dropped.
+[geo-glaciation-s1.14.0] Supraglacial load: debris resting on the surface of the glacier, such as rock falling from the valley sides.
+[geo-glaciation-s1.14.1] Englacial load: debris trapped within the ice, so it is carried inside the glacier, away from the surface and base.
+[geo-glaciation-s1.14.2] Subglacial load: debris dragged along the base; it is the most abrasive part of the load and does most of the erosion, because it is pressed against the bedrock.
+[geo-glaciation-s1.14.3] Glacial load is angular and unsorted: ice does not sort it by size, and it is not rounded by water as river load is, so sharp edges and mixed sizes survive.
+[geo-glaciation-s1.15.b] Deposition means dropping the load. Ice that deposits material directly leaves a jumble, and this jumble also affects how water drains across the land afterwards.
+[geo-glaciation-s1.15.0] Till (boulder clay) is unsorted and unstratified (not laid down in layers), angular material ranging from clay to boulders, deposited directly by ice.
+[geo-glaciation-s1.15.1] Boulder clay plains of the Irish Midlands are formed where till is left across the land, for example when ice melts and drops its load over a wide area.
+[geo-glaciation-s1.15.2] Deranged drainage: no clear pattern, with many lakes and marshes, forms on poorly drained glacial deposits such as till.
+[geo-glaciation-s1.16.b] A moraine is a ridge or sheet of till. Its name depends on where in or around the glacier it was left.
+[geo-glaciation-s1.16.0] Lateral moraine: a ridge of till along the side of a glacier, built from debris falling from the valley walls, such as frost-shattered rock.
+[geo-glaciation-s1.16.1] Medial moraine: formed where two glaciers join, as their lateral moraines merge and run down the middle of the combined ice.
+[geo-glaciation-s1.16.2] Terminal (end) moraine: an arc-shaped ridge of till at the snout, marking the furthest advance or a long pause in retreat, because the snout dumps its load where it stays still.
+[geo-glaciation-s1.16.3] Recessional moraine: a ridge of till built at the snout during a pause while the glacier retreats.
+[geo-glaciation-s1.16.4] Ground moraine: a sheet of till left on the bed as the glacier melts back.
+[geo-glaciation-s1.16.5] Southern Irish End Moraine: marks the southern limit of the Midlandian ice sheet.
+[geo-glaciation-s1.16.6] Diagram: cross-section of a valley glacier with lateral, medial and terminal moraines labelled; plan view of an arc-shaped terminal moraine.
+[geo-glaciation-s1.17.b] Drumlins are smooth, oval hills of till, moulded by the ice that flowed over them. Their shape records which way the ice was moving.
+[geo-glaciation-s1.17.0] 1. Ice deposits or overrides an accumulation of till on the bed, building an irregular mass of material.
+[geo-glaciation-s1.17.1] 2. Ice flowing over the mass moulds it into an elongated, streamlined hill lying parallel to the direction of ice flow.
+[geo-glaciation-s1.17.2] 3. The blunt, steep end faces up-ice, and the tapered end points down-ice.
+[geo-glaciation-s1.17.3] 4. Drumlins occur in swarms, all aligned in one direction, forming a basket of eggs landscape.
+[geo-glaciation-s1.17.4] 5. Where the sea floods low ground, drumlins become islands, forming drowned drumlins, as in Clew Bay, Co. Mayo, and Strangford Lough, Co. Down.
+[geo-glaciation-s1.17.5] Example: the drumlin belt across Co. Cavan, Co. Monaghan and Co. Leitrim.
+[geo-glaciation-s1.17.6] Diagram: plan view of a drumlin swarm with an ice-flow arrow; side profile showing the blunt up-ice end and tapered down-ice end.
+[geo-glaciation-s1.18.b] Ice can carry very large rocks over long distances. When it melts it drops them, so they end up in places where they do not belong geologically.
+[geo-glaciation-s1.18.0] Erratic: a boulder carried by ice and dropped far from its source, with a rock type unlike the bedrock beneath it.
+[geo-glaciation-s1.18.1] Example: granite erratics from Connemara resting on the limestone of the Burren, Co. Clare.
+[geo-glaciation-s1.19.b] Fluvio-glacial material is laid down by meltwater rather than directly by ice, so it differs from till. Exams ask you to sort landforms into three groups, listed here.
+[geo-glaciation-s1.19.0] Meltwater sorts material by size, so fluvio-glacial deposits are sorted, and layers are stratified (laid down in layers); till is neither.
+[geo-glaciation-s1.19.1] Exam classification, glacial erosion: corrie, arete, pyramidal peak, U-shaped valley, hanging valley, ribbon lake, fjord, roche moutonnee, striations.
+[geo-glaciation-s1.19.2] Exam classification, glacial deposition: till, moraines, drumlins, erratics.
+[geo-glaciation-s1.19.3] Exam classification, fluvio-glacial: eskers, outwash plains, kames, kettle holes.
+[geo-glaciation-s1.20.b] An esker is a long ridge built by a meltwater stream that once flowed through a tunnel in the ice. The ridge is what is left once the ice around it has gone.
+[geo-glaciation-s1.20.0] 1. Meltwater flows in a tunnel within or beneath the glacier.
+[geo-glaciation-s1.20.1] 2. The stream deposits sorted sand and gravel on the tunnel floor as its velocity falls, because slower water can no longer carry its load.
+[geo-glaciation-s1.20.2] 3. When the ice melts, the deposit is left as a long, winding ridge called an esker.
+[geo-glaciation-s1.20.3] Example: Esker Riada, a series of eskers across the Midlands from roughly Dublin to Galway, used as an ancient routeway (the Slí Mhór); Clonmacnoise, Co. Offaly, is built beside it.
+[geo-glaciation-s1.20.4] Diagram: plan view of a winding esker ridge; cross-section of a ridge of sorted gravel.
+[geo-glaciation-s1.21.b] Meltwater leaves the glacier carrying sand and gravel and drops it beyond the ice limit. It builds a broad, flat plain, also called a sandur.
+[geo-glaciation-s1.21.0] 1. Meltwater spreads sand and gravel beyond the terminal moraine (the ridge of till marking the furthest ice advance) onto flat ground.
+[geo-glaciation-s1.21.1] 2. The deposit forms a flat, sorted outwash plain.
+[geo-glaciation-s1.21.2] Example: The Curragh, Co. Kildare, a plain of sand and gravel; it is well-drained grassland used for horse training and an army camp.
+[geo-glaciation-s1.21.3] Diagram: plan view of an outwash plain lying beyond a terminal moraine.
+[geo-glaciation-s1.22.b] Meltwater also dumps sand and gravel on and around the ice itself. When the ice is gone, mounds and hollows are left behind.
+[geo-glaciation-s1.22.0] 1. Meltwater deposits sand and gravel in a hollow on the ice surface or at its margin.
+[geo-glaciation-s1.22.1] 2. When the ice melts, the deposit is left as a mound called a kame; where it lies against a valley side it forms a kame terrace.
+[geo-glaciation-s1.22.2] 3. A block of ice buried in outwash melts, leaving a hollow called a kettle hole. When water fills the hollow it becomes a kettle lake.
+[geo-glaciation-s1.22.3] Diagram: cross-section of a kame beside a kettle hole.
+
+CANDIDATES geo-sea-s1: 1. Coastal processes, patterns and associated landforms
+[geo-sea-s1.0.b] Waves take their energy from the wind, and the water itself stays in place as the wave passes. Knowing how a wave forms and breaks explains everything the sea later does to the coast.
+[geo-sea-s1.0.0] Wind blowing over the sea surface transfers energy to the water, raising waves.
+[geo-sea-s1.0.1] Wave size depends on wind speed, the length of time the wind blows, and fetch.
+[geo-sea-s1.0.2] Fetch is the distance of open water over which the wind blows; a longer fetch allows bigger waves because the wind has more distance in which to pass energy to the water.
+[geo-sea-s1.0.3] Water particles move in circles as a wave passes, so it is the energy that travels, not the water; the water does not travel forward until the wave breaks.
+[geo-sea-s1.0.4] A wave's crest is its highest point and its trough the lowest; wave height is the vertical distance between them, and wavelength is the distance between successive crests.
+[geo-sea-s1.0.5] A wave breaks in shallow water: friction with the sea bed slows its base while the crest keeps moving, so the crest topples forward.
+[geo-sea-s1.0.6] Swash is the water rushing up the beach after a wave breaks, carrying sand and shingle with it.
+[geo-sea-s1.0.7] Backwash is the water draining back down the beach under gravity, so it can pull material back down with it, which is why the swash and backwash balance matters.
+[geo-sea-s1.1.b] The balance between swash (water running up the beach) and backwash (water draining back down) decides whether a beach is built up or cut back. Waves fall into two types according to which of the two is stronger.
+[geo-sea-s1.1.0] Constructive waves are low, gentle, long-wavelength (far apart) and low-frequency (few waves per minute), and they spill onto the beach.
+[geo-sea-s1.1.1] Constructive waves are typical of calm weather; their swash is stronger than their backwash, so they carry material up the beach and build it up.
+[geo-sea-s1.1.2] Destructive waves are high, steep, short-wavelength (close together) and high-frequency (many waves per minute), and they plunge down onto the beach.
+[geo-sea-s1.1.3] Destructive waves are typical of storms; their backwash is stronger than their swash, so they drag material out to sea and erode the beach.
+[geo-sea-s1.2.b] Real coasts are not straight, so waves do not hit them evenly. Refraction (the bending of waves) shows why some parts of a coast erode while others receive sediment.
+[geo-sea-s1.2.0] Refraction: waves approaching an indented coast slow down first in shallow water off headlands (points of land jutting into the sea), so the wave fronts bend.
+[geo-sea-s1.2.1] Energy converges on headlands, causing more erosion there, and spreads out in bays (curved inlets of the sea), where it is weaker and deposition (the dropping of material) is favoured.
+[geo-sea-s1.2.2] Refraction turns wave fronts until they are roughly parallel to the shore.
+[geo-sea-s1.3.b] Waves do not always strike the same part of the coast, because the level of the sea changes. Tides and storm surges change where the waves do their work.
+[geo-sea-s1.3.0] Tides are the twice-daily rise and fall of sea level, caused mainly by the pull of the moon, with the sun also contributing.
+[geo-sea-s1.3.1] Tidal range (the difference between high and low tide) sets the vertical band of coast on which the waves work, so a larger range spreads wave attack over a wider band.
+[geo-sea-s1.3.2] A storm surge (a temporary rise in sea level during a storm) lets waves reach higher up cliffs and beaches.
+[geo-sea-s1.3.3] Longer-term changes in land and sea level also change coasts: raised beaches (old beaches left above sea level) form emergent coasts.
+[geo-sea-s1.3.4] Rias (drowned river valleys), fjords (flooded glacial valleys) and drowned drumlins (flooded egg-shaped hills of glacial deposit) form submergent coasts. There is more on this in the glaciation chapter, under isostasy (the rising or sinking of land).
+[geo-sea-s1.4.b] Waves wear away rock by four processes, and abrasion is the most effective at the foot of a cliff. Each works differently, so you need to name them and say how they work.
+[geo-sea-s1.4.0] Hydraulic action: the force of breaking waves forces air and water into joints (natural cracks in rock) and cracks; the trapped air and water are compressed, then released as the wave retreats, weakening and shattering the rock.
+[geo-sea-s1.4.1] Abrasion (corrasion): waves hurl sand, shingle and boulders against the cliff, grinding and undercutting it. It is the most effective process at the cliff base.
+[geo-sea-s1.4.2] Attrition: rocks carried by the waves collide with each other and break into smaller, rounder pieces; attrition wears down the load (the material the waves carry) rather than the cliff.
+[geo-sea-s1.4.3] Solution (corrosion): sea water dissolves soluble rock such as limestone.
+[geo-sea-s1.5.b] Waves are not the only thing that wears a cliff back, and they do not erode every coast at the same speed. Processes above the waves and several controls on the rate of erosion also matter.
+[geo-sea-s1.5.0] Above the waves, weathering (the breakdown of rock in place, by freeze-thaw and salt crystallisation) and mass movement (rockfalls, and slumping on soft clay cliffs) wear the cliff back.
+[geo-sea-s1.5.1] Waves then remove the debris that falls from the cliff face, so the cliff is exposed to further attack.
+[geo-sea-s1.5.2] Soft glacial deposits such as boulder clay (a soft mix of clay and stones left by ice) erode fastest; on the Holderness coast of Yorkshire, England, cliffs of soft boulder clay are among the fastest-eroding coastlines in Europe.
+[geo-sea-s1.5.3] Rock structure matters: joints, faults (breaks in the rock where it has moved) and bedding (the layers in sedimentary rock) give waves lines of weakness to exploit.
+[geo-sea-s1.5.4] Wave energy depends on fetch, storms and refraction, so a coast with a long fetch or frequent storms is eroded faster.
+[geo-sea-s1.5.5] A beach at the foot of a cliff can absorb wave energy and protect the cliff; human activity, such as the removal of beach material, can change the rate of erosion.
+[geo-sea-s1.6.b] Exposure to the Atlantic or the Irish Sea decides whether a coast is eroding or depositing. The rock pattern along the coast then shapes headlands and bays.
+[geo-sea-s1.6.0] The west coast faces the long Atlantic fetch and the prevailing (most common) south-westerly winds, so high-energy waves produce rugged, cliffed, erosional coasts.
+[geo-sea-s1.6.1] The east coast faces the narrow Irish Sea, which gives a short fetch; its lower-energy waves and soft glacial deposits favour depositional features such as beaches, spits, lagoons and dunes.
+[geo-sea-s1.6.2] Storms do most of the erosion, in short episodes; this is the temporal variation (variation over time) in coastal processes.
+[geo-sea-s1.6.3] Where bands of hard and soft rock meet the coast at right angles (a discordant coast), the soft rock is eroded back into bays and the hard rock is left as headlands.
+[geo-sea-s1.6.4] A concordant coast, where the rock bands run parallel to the shore, stays straighter because the outer band protects the softer rock behind it.
+[geo-sea-s1.6.5] Headland and bay: the two landforms that result from this differential (uneven) erosion; Downpatrick Head, Co. Mayo, is a headland, and the chalk headland of Handfast Point, Dorset, England, lies between Studland Bay and Swanage Bay, which are cut into softer sands and clays.
+[geo-sea-s1.7.b] A cliff retreats inland as its base is undercut, leaving a platform of rock at its foot. Learn the stages in order, because exams ask you to describe how one landform of erosion forms.
+[geo-sea-s1.7.0] 1. Waves erode a notch in the cliff base, between high and low tide, by hydraulic action and abrasion.
+[geo-sea-s1.7.1] 2. The rock above the notch becomes an overhang, which collapses because nothing supports it.
+[geo-sea-s1.7.2] 3. Waves remove the debris, and the cliff retreats inland, remaining steep.
+[geo-sea-s1.7.3] 4. The gently sloping rock surface left at the foot of the retreating cliff is the wave-cut platform, exposed at low tide.
+[geo-sea-s1.7.4] 5. The platform widens as the cliff retreats, until waves lose most of their energy crossing it, which slows erosion.
+[geo-sea-s1.7.5] Example: Cliffs of Moher, Co. Clare, rise to 214 m at their highest and are made of layers of shale and sandstone.
+[geo-sea-s1.7.6] Diagram: side view of a cliff with the notch, overhang, arrow showing retreat, and the wave-cut platform exposed at low tide.
+[geo-sea-s1.8.b] These four features form one sequence as a headland is cut back. Each stage grows out of the one before it, so keep the order cave, arch, stack, stump.
+[geo-sea-s1.8.0] 1. Waves exploit a line of weakness, a joint or fault, at the base of a headland, enlarging it by hydraulic action and abrasion to form a sea cave.
+[geo-sea-s1.8.1] 2. Caves on opposite sides of a headland meet, or one cave cuts right through, forming a sea arch.
+[geo-sea-s1.8.2] 3. The arch roof is weakened from below by wave erosion and from above by weathering, then collapses, leaving an isolated pillar called a sea stack.
+[geo-sea-s1.8.3] 4. The stack is undercut at its base and collapses into a low sea stump, which is covered at high tide.
+[geo-sea-s1.8.4] Examples of arches: Bridges of Ross, Co. Clare, were originally three sea arches, and only one still stands; Durdle Door, Dorset, England, is a sea arch.
+[geo-sea-s1.8.5] Examples of stacks: Dún Briste, a sea stack off Downpatrick Head, Co. Mayo; Old Harry Rocks, chalk stacks off Handfast Point, Dorset, England.
+[geo-sea-s1.8.6] Diagram: four-stage sequence of cave, arch, stack and stump, with the joint or fault marked at the cave.
+[geo-sea-s1.9.b] A blowhole is a cave that has been enlarged upward until it opens at the cliff top. It forms where a vertical joint runs up from the cave.
+[geo-sea-s1.9.0] 1. A cave is enlarged upward along a vertical joint by hydraulic action, with compressed air, until it breaks through to the cliff top, forming a blowhole.
+[geo-sea-s1.9.1] 2. In storms, spray is forced up through the hole, because the waves push water and air into the cave below.
+[geo-sea-s1.9.2] 3. If the roof between the blowhole and the sea collapses, a narrow inlet called a geo forms.
+[geo-sea-s1.9.3] Blowholes are classified as erosional features, because the sea forms them by wearing rock away.
+[geo-sea-s1.9.4] Diagram: vertical section of a cave connected to a vertical joint that opens at the cliff top.
+[geo-sea-s1.10.b] Waves do not only erode; they also carry material along the shore. This movement supplies the sediment that builds depositional landforms.
+[geo-sea-s1.10.0] Waves carry load in the same four ways as rivers, so the river transport terms apply here too: traction (rolling along the sea bed), saltation (bouncing along it), suspension (carried within the water) and solution (dissolved in the water).
+[geo-sea-s1.10.1] Longshore drift: waves approach the beach at an angle set by the prevailing wind; swash carries material up the beach at that angle, and backwash drags it straight back down the slope under gravity.
+[geo-sea-s1.10.2] Repeated over time, longshore drift moves sand and shingle along the coast in a zigzag.
+[geo-sea-s1.10.3] Longshore drift is the transport process behind spits, bars, lagoons and tombolos.
+[geo-sea-s1.10.4] Example: on the Holderness coast, longshore drift moves eroded material southward to Spurn Head.
+[geo-sea-s1.11.b] Deposition is the dropping of material that the sea has been carrying. It happens when waves lose energy and there is plenty of sediment to drop.
+[geo-sea-s1.11.0] Waves deposit material when they lose energy: in constructive wave conditions, in sheltered bays, in shallow water, or after refraction has reduced their energy.
+[geo-sea-s1.11.1] Deposition also happens where the coast changes direction, such as at a river mouth or bay.
+[geo-sea-s1.11.2] A large supply of sediment is needed, from rivers, cliff erosion or glacial deposits offshore.
+[geo-sea-s1.11.3] A beach is sand and shingle deposited between low tide and the highest storm waves.
+[geo-sea-s1.11.4] Finer sand is deposited lower down the beach, and coarser shingle higher up, for example on a storm beach.
+[geo-sea-s1.11.5] A storm beach is a ridge of large shingle thrown above normal high tide by storm waves.
+[geo-sea-s1.11.6] Berms are ridges marking successive high-tide levels, because each tide leaves a ridge where it reached.
+[geo-sea-s1.11.7] Examples: Tramore, Co. Waterford; Curracloe, Co. Wexford.
+[geo-sea-s1.12.b] Longshore drift keeps moving sand along the coast until the coast bends away, and there it builds a ridge. Whether the ridge is a spit or a bar depends on how far across the bay it grows.
+[geo-sea-s1.12.0] 1. Longshore drift carries material past a point where the coast changes direction, such as a bay or river mouth.
+[geo-sea-s1.12.1] 2. The material is deposited in calmer, deeper water, building a ridge out from the land; a spit is attached to the land at one end only.
+[geo-sea-s1.12.2] 3. Wave refraction or a change in wind direction curves the tip, forming a recurved end.
+[geo-sea-s1.12.3] 4. Sheltered water behind the spit fills with silt, forming salt marsh or mudflat.
+[geo-sea-s1.12.4] A sand bar (barrier beach) is a spit that grows right across the mouth of a bay, joining two headlands.
+[geo-sea-s1.12.5] Examples: Inch and Rossbeigh, Co. Kerry, are two sand spits growing out from opposite sides of Dingle Bay; Spurn Head, at the mouth of the Humber estuary (where a river meets the sea), England, is a spit.
+[geo-sea-s1.12.6] Diagram: plan view of a recurved spit showing the drift direction, the ridge attached to the land, the recurved tip and the salt marsh behind.
+[geo-sea-s1.13.b] Two more depositional landforms follow from longshore drift: a lagoon forms when a bar cuts off part of the sea, and a tombolo forms when a ridge reaches an island.
+[geo-sea-s1.13.0] A lagoon is the body of water trapped behind a sand bar; it is a depositional feature, because the bar that traps it is built from deposited sediment.
+[geo-sea-s1.13.1] A lagoon slowly fills with sediment and vegetation because it is sheltered from the waves, and it may become marsh.
+[geo-sea-s1.13.2] Examples: Lady's Island Lake and Tacumshin Lake, Co. Wexford, are coastal lagoons behind sand-and-gravel barriers; the Back Strand at Tramore, Co. Waterford, is another.
+[geo-sea-s1.13.3] A tombolo is a ridge of sand or shingle joining an island to the mainland.
+[geo-sea-s1.13.4] It is built by longshore drift and by waves refracting around the island and meeting in its shelter.
+[geo-sea-s1.13.5] Example: Sutton, Co. Dublin, where a tombolo joins Howth Head, once an island, to the mainland.
+[geo-sea-s1.14.b] Where there is a wide, sandy beach, the wind carries dry sand inland and builds dunes. Plants, especially marram grass, are what turn loose sand into stable dunes.
+[geo-sea-s1.14.0] 1. Wind blows dry sand from a wide beach at low tide inland, where it piles up against obstacles such as driftwood, seaweed and plants above high tide.
+[geo-sea-s1.14.1] 2. Marram grass colonises the sand; its long roots bind the sand, and its growth keeps pace with burial.
+[geo-sea-s1.14.2] 3. Embryo (newly forming) dunes grow into fore dunes, and further inland, as soil develops and other plants arrive, grey (fixed) dunes form.
+[geo-sea-s1.14.3] Dune slacks are damp hollows between the dune ridges.
+[geo-sea-s1.14.4] Damage to dunes by people is covered with the human impacts on coasts.
+[geo-sea-s1.14.5] Examples: Brittas Bay, Co. Wicklow; Curracloe, Co. Wexford; North Bull Island, Dublin Bay.
+[geo-sea-s1.14.6] Diagram: cross-section from beach to inland showing embryo, fore and grey dunes, and a dune slack.
+[geo-sea-s1.15.b] Every coastal landform is either erosional (made by wearing rock away) or depositional (made by dropping material). Sorting them correctly is a quick way to win marks.
+[geo-sea-s1.15.0] Erosional features: cliff, wave-cut notch, wave-cut platform, cave, sea arch, sea stack, sea stump, blowhole and headland.
+[geo-sea-s1.15.1] Depositional features: beach, storm beach, sand spit, sand bar, lagoon, tombolo, sand dunes and salt marsh.
+[geo-sea-s1.15.2] Matching a photograph, aerial photograph or diagram to these features uses the same two classes.
+[geo-sea-s1.16.b] The average annual rate of coastal erosion is the total distance retreated divided by the number of years. It is a short calculation that needs the years counted correctly.
+[geo-sea-s1.16.0] Step 1: subtract the earlier year from the later year to find the number of years.
+[geo-sea-s1.16.1] Step 2: divide the total distance the cliff retreated by the number of years, so the answer is a distance per year.
+[geo-sea-s1.16.2] Illustrative figures (invented): a cliff retreats 50 m between 1990 and 2015.
+[geo-sea-s1.16.3] Years: 2015 minus 1990 gives 25 years.
+[geo-sea-s1.16.4] Rate: 50 m divided by 25 years gives an average of 2 m per year.
+
+CANDIDATES geo-rocks-weathering-s4: 4. Landforms associated with particular rock types
+[geo-rocks-weathering-s4.0.b] Karst is a landscape on limestone shaped mainly by solution (rock dissolving in water), with few surface streams and many underground features. The name comes from the Kras plateau of Slovenia. Limestone suits this because of its chemistry and the way water moves through it.
+[geo-rocks-weathering-s4.0.0] Limestone is calcium carbonate, which dissolves in weak acid. Carbonation: rainwater containing carbon dioxide forms weak carbonic acid, which reacts with the rock to form soluble calcium bicarbonate: CaCO3 + H2O + CO2 gives Ca(HCO3)2.
+[geo-rocks-weathering-s4.0.1] Permeable rock lets water pass through it, mainly along cracks. Porous rock has tiny spaces between its grains that can hold water. Impermeable rock lets no water pass through.
+[geo-rocks-weathering-s4.0.2] Limestone is permeable because water moves along its bedding planes (horizontal layers) and joints (vertical cracks), not through the solid rock itself.
+[geo-rocks-weathering-s4.0.3] The ground water table is the upper surface of the zone where all cracks in the rock are saturated (completely full of water). Above it lies the zone of aeration (where cracks hold air). The table rises in wet weather and falls in dry weather.
+[geo-rocks-weathering-s4.0.4] Percolation is the downward movement of water through soil and rock, which is how rainwater reaches the limestone's cracks.
+[geo-rocks-weathering-s4.1.b] Limestone pavement is a bare, flat limestone surface. It exists because glacial ice scraped away the soil, leaving jointed rock open to the rain.
+[geo-rocks-weathering-s4.1.0] Stage 1: ice removes the soil cover, exposing the jointed and bedded rock (rock with horizontal layers and vertical cracks) to rain.
+[geo-rocks-weathering-s4.1.1] Stage 2: carbonation, the reaction of the rock with carbonic acid in rainwater, widens the joints into grikes.
+[geo-rocks-weathering-s4.1.2] Stage 3: the blocks left standing between the grikes are clints, because the rock there was not dissolved away.
+[geo-rocks-weathering-s4.1.3] Burren, Co. Clare: Ireland's best-known karst landscape, of Carboniferous limestone with extensive pavement of clints and grikes. Its name comes from the Irish 'Boireann', meaning rocky place.
+[geo-rocks-weathering-s4.1.4] Mullaghmore is a Burren hill with folded, terraced limestone.
+[geo-rocks-weathering-s4.2.b] A pavement is made of a few small features, and exam photographs ask you to name each one.
+[geo-rocks-weathering-s4.2.0] Grikes: deep, narrow vertical cracks, because carbonation widens the rock along joints, where water collects.
+[geo-rocks-weathering-s4.2.1] Clints: flat-topped blocks of limestone between grikes, so together they look like paving.
+[geo-rocks-weathering-s4.2.2] Karren (runnels): small grooves cut into clint surfaces because rainwater running across them slowly dissolves the rock.
+[geo-rocks-weathering-s4.2.3] Solution hollows (kamenitza or solution pans): small enclosed hollows on clint surfaces where rainwater collects and dissolves the rock.
+[geo-rocks-weathering-s4.2.4] Diagram: plan of clints and grikes; cross-section showing bedding planes and joints in the rock.
+[geo-rocks-weathering-s4.3.b] Once water can sink into limestone, the surface develops holes and hollows where streams vanish or the ground dissolves or collapses.
+[geo-rocks-weathering-s4.3.0] Swallow hole (slugga): a surface stream flowing off impermeable rock reaches limestone and disappears underground down a hole widened by carbonation along a joint.
+[geo-rocks-weathering-s4.3.1] Doline (sinkhole): a hollow formed by solution of the surface, or by collapse of a cave roof. A doline formed by cave collapse is still a doline.
+[geo-rocks-weathering-s4.3.2] Uvala: several dolines merged into one larger hollow, as their edges dissolve or collapse into each other.
+[geo-rocks-weathering-s4.3.3] Polje: a large, flat-floored depression that floods seasonally, for example when water cannot drain away fast enough. Poljes occur in Slovenia.
+[geo-rocks-weathering-s4.3.4] Dry valley: a valley cut by a surface river when the ground was frozen (and so impermeable, letting water run over it) or the water table was higher. It now carries no stream.
+[geo-rocks-weathering-s4.4.b] Water that sinks underground can also come back, and in Irish limestone the water table rising and falling makes lakes appear and vanish.
+[geo-rocks-weathering-s4.4.0] Turlough: a seasonal lake in a hollow in limestone. It fills in winter when the water table rises and drains through the floor in summer.
+[geo-rocks-weathering-s4.4.1] Turloughs are common in the Burren and east Co. Galway. Rahasane turlough, near Craughwell, Co. Galway, is one of the largest.
+[geo-rocks-weathering-s4.4.2] River of resurgence: an underground river that re-emerges at the surface, usually where limestone meets impermeable rock below. It is the reverse of a swallow hole, which takes a surface stream underground.
+[geo-rocks-weathering-s4.4.3] Diagram: cross-section from impermeable rock, through a swallow hole, underground to the resurgence.
+[geo-rocks-weathering-s4.5.b] Below the surface, the same solution widens cracks in the limestone into hollow spaces that can be large enough to walk through.
+[geo-rocks-weathering-s4.5.0] Caves and caverns: water dissolves passages along bedding planes and joints, and underground rivers enlarge them by erosion (wearing away rock). A cavern is a very large cave.
+[geo-rocks-weathering-s4.5.1] Caves occur where limestone is dissolved, for example: Aillwee Cave, Co. Clare (Burren); Mitchelstown Cave, Co. Tipperary.
+[geo-rocks-weathering-s4.5.2] Doolin Cave, Co. Clare, holds the Great Stalactite, about 7.3 m long, one of the longest free-hanging stalactites in the world.
+[geo-rocks-weathering-s4.6.b] Cave water carries dissolved limestone, and when it drips it leaves some behind as solid calcite. Over time this builds the decorations seen in caves.
+[geo-rocks-weathering-s4.6.0] Dripstone formation: water dripping from the roof carries dissolved calcium bicarbonate. When it loses carbon dioxide and evaporates, it deposits calcite (calcium carbonate).
+[geo-rocks-weathering-s4.6.1] Stalactites hang from the roof and grow downward. Stalactite: C for ceiling.
+[geo-rocks-weathering-s4.6.2] Stalagmites grow upward from the floor beneath, where the drips land, and are usually thicker and blunter. Stalagmite: G for ground.
+[geo-rocks-weathering-s4.6.3] Pillars (columns) form where a stalactite and a stalagmite join, so the drip has built a solid link from roof to floor.
+[geo-rocks-weathering-s4.6.4] Curtains are sheets of calcite formed where water trickles along a crack in the roof.
+[geo-rocks-weathering-s4.6.5] Diagram: labelled cross-section of a cave showing stalactites, stalagmites, a pillar, a swallow hole and an underground river.
+[geo-rocks-weathering-s4.7.b] A karst landscape develops through three stages.
+[geo-rocks-weathering-s4.7.0] Youth: surface drainage begins to sink, so swallow holes form.
+[geo-rocks-weathering-s4.7.1] Maturity: most drainage goes underground because the swallow holes now take it, with caves, dolines and uvalas.
+[geo-rocks-weathering-s4.7.2] Old age: cave roofs collapse because so much rock below has dissolved, the limestone is mostly removed, and isolated residual hills (left standing as the rest wears away) remain.
+[geo-rocks-weathering-s4.8.b] Ireland has three named karst settings in the syllabus. Besides the Burren, they show streams sinking into limestone and water travelling through it unseen.
+[geo-rocks-weathering-s4.8.0] Marble Arch upland: the Marble Arch Caves lie on the slopes of Cuilcagh Mountain, Co. Fermanagh. They are part of the cross-border Marble Arch Caves Global Geopark with Co. Cavan.
+[geo-rocks-weathering-s4.8.1] Streams flowing off the impermeable shale and sandstone of Cuilcagh sink into swallow holes where they reach the limestone, flow through the caves and re-emerge as the Cladagh River.
+[geo-rocks-weathering-s4.8.2] The Marble Arch is a natural limestone arch over the Cladagh. The Shannon Pot, the source of the River Shannon, is on the slopes of Cuilcagh in Co. Cavan.
+[geo-rocks-weathering-s4.8.3] Mask-Corrib lowland: water from Lough Mask flows underground through the limestone to Lough Corrib near Cong, Co. Mayo.
+[geo-rocks-weathering-s4.8.4] The Cong Canal, built in the mid-1800s to link the two lakes, never held water because it leaked into the permeable limestone. It became known as the dry canal.
+[geo-rocks-weathering-s4.9.b] Karst occurs wherever limestone is dissolved, and each international setting is known for a different feature.
+[geo-rocks-weathering-s4.9.0] Slovenia: Postojna Cave and the Škocjan Caves, a UNESCO World Heritage Site. Poljes occur here.
+[geo-rocks-weathering-s4.9.1] South-west China: Guilin and the Li River have tower karst, steep-sided limestone hills. The South China Karst is a UNESCO World Heritage Site.
+[geo-rocks-weathering-s4.9.2] Kentucky, USA: Mammoth Cave is the longest known cave system in the world.
+[geo-rocks-weathering-s4.9.3] Jamaica: Cockpit Country has cockpit karst, steep conical hills separated by deep, star-shaped hollows.
+[geo-rocks-weathering-s4.10.b] Granite is hard, crystalline and resistant to erosion, and its landscapes reflect how it drains and weathers. Unlike limestone, it keeps water on the surface.
+[geo-rocks-weathering-s4.10.0] Granite is impermeable: water cannot enter it and runs off, so it has many surface streams and boggy ground.
+[geo-rocks-weathering-s4.10.1] Granite is jointed (cracked). It weathers mainly by hydrolysis (a chemical reaction with water) of its feldspar, a mineral in granite, which forms clay.
+[geo-rocks-weathering-s4.10.2] China clay (kaolin) is the clay that results. It is quarried at Lee Moor, on the south-west edge of Dartmoor.
+[geo-rocks-weathering-s4.10.3] The Leinster batholith, the largest granite mass in Ireland and Britain, forms the Wicklow Mountains.
+[geo-rocks-weathering-s4.10.4] Its rounded, dome-shaped uplands are worn down from rock that once covered the granite.
+[geo-rocks-weathering-s4.10.5] Impermeable granite with high rainfall gives thin, acidic soils and blanket bog (a deep cover of wet peat), e.g. on the Sally Gap area of Co. Wicklow.
+[geo-rocks-weathering-s4.10.6] Ice cut deep valleys into the granite. There is more on this in Glacial processes, patterns and associated landforms (Glaciation).
+[geo-rocks-weathering-s4.11.b] Tors are the best-known granite landform. The main explanation is that they formed in two stages, with weathering underground first and stripping of the loose material afterwards.
+[geo-rocks-weathering-s4.11.0] Tor: a block of granite standing on a hilltop.
+[geo-rocks-weathering-s4.11.1] Two-stage formation, put forward by D. L. Linton in 1955. Stage 1: under warm, wet conditions, deep chemical weathering (hydrolysis) attacked the granite along its joints, rotting it most where the joints were closest together.
+[geo-rocks-weathering-s4.11.2] Stage 2: the rotted material was later stripped away, e.g. by mass movement (downslope movement of material) under periglacial conditions (cold conditions beside ice), leaving solid, widely jointed blocks standing as tors.
+[geo-rocks-weathering-s4.11.3] An alternative theory explains tors by freeze-thaw and solifluction alone. Solifluction is the slow flow of waterlogged soil down a slope.
+[geo-rocks-weathering-s4.11.4] Clitter: blockfields of boulders on the slopes below tors, which is where the stripped blocks ended up.
+[geo-rocks-weathering-s4.11.5] Dartmoor, Devon, England: a granite upland with tors such as Haytor and Hound Tor, clitter on its slopes and blanket bog.
+[geo-rocks-weathering-s4.11.6] Diagram: cross-section showing the rotted zone along joints and the standing tor after stripping.
+[geo-rocks-weathering-s4.12.b] Rock type changes across Ireland, and the landscape changes with it. Resistant rock stands up, weaker rock is worn low, and permeability decides whether water flows on the surface or underground.
+[geo-rocks-weathering-s4.12.0] Ireland's saucer shape: a low central lowland of Carboniferous limestone is ringed by uplands of harder, more resistant rocks such as granite, quartzite and sandstone.
+[geo-rocks-weathering-s4.12.1] Differential erosion (different rocks wearing away at different rates): resistant rock forms uplands, headlands and peaks, while weaker rock forms lowlands, valleys and bays.
+[geo-rocks-weathering-s4.12.2] Quartzite peaks stand above the surrounding rock: Errigal, Co. Donegal; Croagh Patrick, Co. Mayo; the Great Sugar Loaf, Co. Wicklow.
+[geo-rocks-weathering-s4.12.3] Rock type and drainage: impermeable granite and shale give many surface streams and bog. Permeable limestone takes drainage underground, leaving few rivers and dry surfaces.
+[geo-rocks-weathering-s4.12.4] Lough Corrib roughly divides the limestone lowland of east Co. Galway from the granite and metamorphic uplands of Connemara to the west.

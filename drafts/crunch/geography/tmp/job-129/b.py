@@ -1,0 +1,90 @@
+import json,re
+P='/Users/gabrielwhelan/barebones/drafts/crunch/geography/'
+S='geo-rocks-weathering-s5.'
+H,L='helpful','essential'
+# id: (cost, [(target, strength, why, conf)])
+D={
+'0.b':(1,[]),
+'0.0':(1,[]),
+'0.1':(1,[('geo-rocks-weathering-s3.0.0',H,'weathering vs erosion','high')]),
+'0.2':(1,[]),
+'0.3':(1,[]),
+'1.b':(1,[]),
+'1.0':(1,[(S+'0.2',H,'gravity versus resistance','high')]),
+'1.1':(1,[('geo-rocks-weathering-s3.1.b',H,'freeze-thaw','high')]),
+'2.b':(1,[]),
+'2.0':(1,[]),
+'2.1':(1,[(S+'2.0',L,'follows lifting of particles','high')]),
+'2.2':(2,[(S+'2.b',H,'creep recognised by effects','high')]),
+'2.3':(2,[(S+'2.0',L,'lift at right angles','high'),(S+'2.1',L,'vertical drop','high')]),
+'3.b':(1,[]),
+'3.0':(1,[]),
+'3.1':(1,[(S+'3.0',L,'permafrost and thawed layer','high')]),
+'3.2':(1,[(S+'3.0',H,'periglacial conditions','high')]),
+'4.b':(1,[]),
+'4.0':(2,[('geo-rocks-weathering-s3.1.b',H,'freeze-thaw loosens blocks','high')]),
+'4.1':(1,[]),
+'4.2':(1,[(S+'4.1',L,'landslide along a plane','high')]),
+'5.b':(1,[]),
+'5.0':(2,[]),
+'5.1':(1,[(S+'5.0',L,'slump scar and block','high')]),
+'5.2':(1,[(S+'5.0',H,'slump on curved plane','high')]),
+'5.3':(1,[(S+'4.1',L,'landslide flat plane','high'),(S+'5.0',L,'slump curved plane','high')]),
+'6.b':(1,[]),
+'6.0':(1,[]),
+'6.1':(1,[(S+'6.0',H,'a volcanic mudflow','high')]),
+'6.2':(1,[]),
+'6.3':(1,[(S+'6.2',H,'ice avalanche','high')]),
+'7.b':(1,[]),
+'7.0':(1,[]),
+'7.1':(1,[(S+'7.0',L,'saturated blanket bog','high')]),
+'7.2':(1,[(S+'7.1',H,'bog burst slurry','high')]),
+'7.3':(1,[]),
+'8.b':(1,[]),
+'8.0':(1,[(S+'0.2',H,'gravity pull','high')]),
+'8.1':(2,[(S+'0.2',H,'friction resists movement','high')]),
+'8.2':(1,[(S+'8.1',L,'saturation causes flow','high')]),
+'8.3':(1,[(S+'4.1',H,'bedded rock slides','low')]),
+'8.4':(2,[(S+'8.1',H,'water saturation','high')]),
+'9.b':(1,[]),
+'9.0':(1,[(S+'0.2',H,'roots resist movement','high')]),
+'9.1':(1,[('geo-rocks-weathering-s3.1.b',H,'freeze-thaw','high')]),
+'9.2':(1,[]),
+'9.3':(1,[]),
+'9.4':(1,[(S+'6.1',H,'lahars triggered','low')]),
+'9.5':(1,[]),
+'10.b':(1,[]),
+'10.0':(1,[]),
+'10.1':(2,[]),
+'10.2':(1,[(S+'10.1',L,'rock layers above clay','high'),(S+'8.4',H,'permeable over impermeable','high')]),
+'10.3':(2,[(S+'5.0',L,'rotational slump','high'),(S+'6.0',H,'mudflow','high')]),
+'10.4':(1,[]),
+'10.5':(1,[(S+'10.3',H,'problem being managed','high')]),
+'11.b':(1,[]),
+'11.0':(2,[(S+'7.b',H,'peat slides','high')]),
+'11.1':(1,[(S+'11.0',H,'effects of this event','high')]),
+'11.2':(1,[]),
+'12.b':(1,[]),
+'12.0':(2,[(S+'6.0',H,'mudflow','high')]),
+'12.1':(2,[(S+'4.1',H,'landslide','high')]),
+'12.2':(1,[(S+'12.1',L,'cause of this slide','high')]),
+'13.b':(1,[]),
+'13.0':(2,[(S+'6.1',L,'lahar','high')]),
+'13.1':(1,[(S+'13.0',L,'Armero not evacuated','high')]),
+'13.2':(1,[(S+'6.0',H,'mudslides','high')]),
+'14.b':(1,[]),
+'14.0':(2,[(S+'6.3',H,'glacier collapse','high')]),
+'14.1':(1,[(S+'14.0',L,'Blatten evacuation','high')]),
+'14.2':(1,[(S+'14.0',L,'Blatten debris','high')]),
+'14.3':(1,[(S+'6.3',H,'ice avalanche','high')]),
+}
+txt=open(P+'packs/geo-rocks-weathering-s5.t1g1.txt').read()
+ids=re.findall(r'^\[(\S+?)\]',txt,re.M)
+tg=[i for i in ids if i.startswith(S)]
+assert [i[len(S):] for i in tg]==list(D),'order/set mismatch'
+out={S+k:{'cost':c,'needs':[{'id':t,'strength':s,'why':w,'confidence':f} for t,s,w,f in n]} for k,(c,n) in D.items()}
+for v in out.values():
+  for n in v['needs']: assert n['id'] in ids and n['id'] not in out or n['id'] in out
+  for n in v['needs']: assert n['id'] in ids
+json.dump(out,open(P+'point-links/geo-rocks-weathering-s5.t1g1.json','w'),indent=1)
+print(len(out),sum(len(v['needs']) for v in out.values()),sum(v['cost']==2 for v in out.values()),sum(n['confidence']=='low' for v in out.values() for n in v['needs']))

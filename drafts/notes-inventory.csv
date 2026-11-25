@@ -1,0 +1,782 @@
+subject,loId,subsection,blocks,points,introParas,words,wordsPerPoint,fleschEase,fkGrade,hardWordPct,explainPct,examplePct,diagramPlaceholders,xrefs,semicolonPct,keyTerms,questions
+biology,bio-acronyms-s1,Acronyms and key terms,9,35,9,1405,31.9,44.0,11.9,17.8,5.7,2.9,0,0,11.4,34,3
+biology,bio-acronyms-s2,Action verbs,7,44,7,1824,35.8,42.0,10.4,23.5,18.2,11.4,0,0,43.2,35,3
+biology,bio1-s1,The nature of scientific knowledge,18,77,18,2332,24.5,51.0,9.7,18.5,14.5,13.2,1,1,5.2,12,3
+biology,bio1-s2,Science as a global enterprise,6,45,6,1667,32.7,44.5,11.1,16.7,11.4,6.8,1,1,13.3,10,3
+biology,bio1-s3,Recognising bias and evaluating sources,7,44,7,1621,31.8,49.5,10.2,18.0,22.7,9.1,0,1,11.4,11,3
+biology,bio10-s1,"Nucleotides, DNA and RNA",8,42,8,1331,26.6,57.5,9.4,13.9,7.7,7.7,3,0,31.0,10,3
+biology,bio10-s2,"Genes, proteins and traits",5,25,5,1004,33.5,56.7,10.1,13.6,20.8,25.0,1,0,0.0,7,3
+biology,bio10-s3,The genetic code,4,27,4,952,30.7,62.2,8.5,11.9,15.4,11.5,1,0,3.7,8,3
+biology,bio11-s1,Chromosome structure and genes,5,37,5,1420,33.8,50.1,11.2,16.9,14.7,5.9,3,0,21.6,13,3
+biology,bio11-s10,Sex determination,4,25,4,696,24.0,59.6,9.5,12.9,21.7,0.0,2,0,20.0,4,3
+biology,bio11-s11,Sex-linked traits,15,68,15,1581,19.0,52.3,9.5,17.6,22.7,3.0,2,0,11.8,4,3
+biology,bio11-s12,Benefits and limitations of Mendelian genetics,9,44,9,1409,26.6,42.5,11.9,20.9,15.9,22.7,0,1,6.8,4,3
+biology,bio11-s2,Key concepts of information transfer,7,44,7,1485,29.1,47.2,11.1,20.1,21.4,9.5,2,0,9.1,17,3
+biology,bio11-s3,Nuclear and non-nuclear inheritance,7,46,7,1599,30.2,42.7,11.8,19.6,15.6,6.7,1,0,28.3,5,3
+biology,bio11-s4,Genetic and epigenetic mechanisms,11,74,11,2322,27.3,49.4,10.5,17.7,15.1,9.6,1,2,6.8,5,3
+biology,bio11-s5,Monohybrid crosses,15,79,15,1779,18.9,58.4,9.0,15.3,34.6,3.8,1,0,5.1,8,3
+biology,bio11-s6,Incomplete dominance,9,41,9,846,16.9,56.2,8.9,18.2,15.0,0.0,1,0,4.9,3,3
+biology,bio11-s7,Mendel's Laws,8,39,8,1213,25.8,52.0,10.6,16.2,13.5,2.7,2,1,10.3,4,3
+biology,bio11-s8,Dihybrid crosses,10,48,10,1295,22.3,62.6,8.4,12.6,19.1,0.0,1,0,16.7,4,3
+biology,bio11-s9,Linkage,6,30,6,949,26.4,49.7,10.8,17.5,21.4,0.0,2,0,13.3,3,3
+biology,bio12-s1,Variation,8,40,8,1480,30.8,42.4,11.5,22.8,23.7,15.8,2,1,15.0,10,3
+biology,bio12-s2,The theory of evolution by natural selection,11,58,11,1945,28.2,39.9,12.2,21.4,17.5,14.0,1,0,15.5,10,3
+biology,bio12-s3,Evidence for evolution,15,77,15,2323,25.2,46.8,11.0,20.1,8.3,16.7,5,0,10.4,10,3
+biology,bio12-s4,The importance of the theory,7,41,7,1443,30.1,38.7,12.5,22.7,17.1,17.1,0,0,0.0,7,3
+biology,bio13-s1,Enzymes as catalysts,11,57,11,1804,26.5,49.1,11.2,15.6,11.1,18.5,3,0,10.5,8,3
+biology,bio13-s2,Enzyme structure and specificity,7,42,7,1331,27.2,49.7,11.4,15.3,10.0,15.0,2,0,33.3,7,3
+biology,bio13-s3,Investigation: rate of enzyme activity,22,136,22,4266,27.0,49.6,11.0,17.2,10.2,0.8,8,1,24.3,8,4
+biology,bio13-s4,Industrial enzymes,15,78,15,2222,23.9,43.4,11.1,20.1,13.0,10.4,1,0,5.1,8,3
+biology,bio14-s1,Photosynthesis as an anabolic process,7,45,7,1495,28.8,57.2,9.2,14.3,22.7,6.8,1,0,4.4,7,3
+biology,bio14-s2,Investigation: rate of photosynthesis,13,74,13,2412,27.7,56.3,9.3,14.5,19.4,9.7,2,2,2.7,6,3
+biology,bio14-s3,The light-dependent reactions,5,33,5,1086,28.6,53.0,10.1,17.4,21.9,6.2,1,0,18.2,7,3
+biology,bio14-s4,The light-independent reactions,3,18,3,657,31.3,61.6,8.1,14.8,23.5,0.0,1,0,5.6,5,3
+biology,bio14-s5,The chloroplast's internal structure,4,24,4,1044,37.3,49.0,11.4,16.6,13.6,18.2,2,0,0.0,7,3
+biology,bio15-s1,Respiration as a catabolic process,5,35,5,1250,31.2,44.8,10.7,22.1,14.7,14.7,1,1,20.0,9,3
+biology,bio15-s2,Investigation: conditions for fermentation,11,64,11,2179,29.1,52.3,9.8,17.3,12.7,0.0,1,1,14.1,7,3
+biology,bio15-s3,First-stage process,5,24,5,832,28.7,47.8,9.8,21.8,17.4,17.4,1,0,12.5,6,3
+biology,bio15-s4,Second-stage process,4,28,4,1149,35.9,54.9,9.6,16.5,11.1,3.7,1,0,3.6,6,3
+biology,bio15-s5,The mitochondrion's internal structure and ATP synthase,7,39,7,1407,30.6,50.6,10.2,16.3,0.0,11.1,3,0,23.1,8,3
+biology,bio16-s1,The cell cycle,7,44,7,1493,29.3,55.5,9.7,16.2,7.3,19.5,3,0,13.6,12,3
+biology,bio16-s2,Mitosis and meiosis,5,34,5,1221,31.3,43.5,11.5,21.1,9.1,15.2,1,0,14.7,8,3
+biology,bio16-s3,DNA replication and mitosis in the cell cycle,4,20,4,842,35.1,52.2,10.2,15.3,22.2,5.6,2,0,10.0,5,3
+biology,bio16-s4,Cancer,7,51,7,1558,26.9,56.1,9.3,14.2,14.0,4.0,1,0,0.0,8,3
+biology,bio16-s5,"Causes, prevention and treatment of cancer",14,81,14,2987,31.4,50.0,10.2,16.9,7.4,1.2,0,0,8.6,10,3
+biology,bio17-s1,Modelling DNA replication and information flow,8,48,8,1566,28.0,55.5,9.8,14.5,17.8,2.2,3,0,2.1,12,3
+biology,bio17-s2,Transcription and translation,11,69,11,1965,24.6,59.6,8.9,14.6,9.1,6.1,3,0,11.6,13,3
+biology,bio17-s3,Mutations,15,85,15,2528,25.3,47.9,11.9,17.7,14.3,6.0,1,1,21.2,14,3
+biology,bio18-s1,The musculoskeletal system as a system for response,9,55,9,1548,24.2,57.8,9.2,11.8,7.4,5.6,1,1,5.5,9,3
+biology,bio18-s2,The axial skeleton,7,45,7,1396,26.8,66.2,8.6,8.8,7.3,2.4,4,0,4.4,8,3
+biology,bio18-s3,The appendicular skeleton,9,47,9,1687,30.1,63.7,9.4,9.7,6.7,0.0,2,0,12.8,8,3
+biology,bio18-s4,Muscles and joints,11,54,11,1734,26.7,56.9,10.3,13.9,1.9,17.3,2,0,9.3,10,3
+biology,bio19-s1,CNS and PNS,11,45,11,1143,20.4,55.3,9.9,13.4,2.3,7.0,2,0,4.4,8,3
+biology,bio19-s2,The reflex action,7,27,7,764,22.5,60.7,8.3,11.8,3.8,15.4,1,0,11.1,7,2
+biology,bio19-s3,Neurons,9,32,9,901,22.0,59.3,9.3,10.7,3.2,9.7,1,0,3.1,9,2
+biology,bio19-s4,Neurotransmission,5,21,5,603,23.2,48.4,10.2,16.7,5.0,10.0,1,0,14.3,7,2
+biology,bio19-s5,Conduction across the synaptic cleft and its disruption,12,37,12,1043,21.3,39.4,11.4,21.2,13.9,5.6,1,0,5.4,8,3
+biology,bio19-s6,Dopamine and endorphins,11,32,11,955,22.2,47.0,11.1,20.4,28.1,9.4,0,0,6.2,7,2
+biology,bio2-s1,Questioning and predicting,6,38,6,1452,33.0,38.2,12.6,23.7,21.6,5.4,1,0,5.3,7,3
+biology,bio2-s2,Designing and conducting investigations,11,62,11,2062,28.2,44.2,12.0,18.9,21.3,16.4,1,0,12.9,18,3
+biology,bio2-s3,Objectivity and data quality,6,37,6,1258,29.3,39.1,13.1,18.3,25.0,27.8,1,0,2.7,13,3
+biology,bio2-s4,Producing and analysing data,11,62,11,2019,27.7,58.1,8.7,15.9,18.3,3.3,2,0,3.2,17,3
+biology,bio2-s5,Reflecting on investigations,5,31,5,928,25.8,57.3,9.0,15.7,12.9,12.9,0,0,0.0,5,3
+biology,bio2-s6,Communicating results,5,26,5,1072,34.6,48.8,10.8,15.5,26.9,3.8,0,0,11.5,5,3
+biology,bio2-s7,The Biology in Practice Investigation,12,53,12,1893,29.1,38.0,13.2,20.7,9.4,9.4,0,0,11.3,5,3
+biology,bio20-s1,"Glands, locations and hormones",11,48,11,1220,20.7,45.1,11.4,19.3,0.0,6.4,1,0,27.1,9,3
+biology,bio20-s2,Hormonal manipulation,5,28,5,796,24.1,44.1,11.4,20.2,10.7,17.9,0,0,0.0,9,2
+biology,bio21-s1,Structures and systems for response,11,36,11,1011,21.5,51.0,10.0,16.6,12.5,3.1,4,1,0.0,9,2
+biology,bio21-s2,Homeostasis as a stimulus-response model,9,37,9,1023,22.2,52.2,10.1,15.3,19.4,8.3,1,0,2.7,8,3
+biology,bio21-s3,Nervous vs hormonal coordination,4,17,4,602,28.7,39.6,13.3,18.8,17.6,11.8,0,0,41.2,7,2
+biology,bio22-s1,Pathogens,14,70,14,1822,21.7,51.2,10.1,17.2,10.0,11.4,0,1,14.3,8,3
+biology,bio22-s2,Innate and adaptive immunity,15,83,15,2423,24.7,41.9,11.8,22.0,10.1,3.8,4,0,4.8,10,3
+biology,bio22-s3,"Acquired immunity, prevention and treatment",11,67,11,1908,24.5,37.1,12.0,23.8,17.9,9.0,0,0,7.5,8,3
+biology,bio22-s4,Viruses: replication,10,67,10,1967,25.5,49.8,11.0,16.5,11.1,9.5,4,0,3.0,9,3
+biology,bio22-s5,White blood cells,11,60,11,1751,24.7,47.6,10.9,18.8,6.8,1.7,1,0,11.7,9,3
+biology,bio22-s6,Emergence and spread of infectious disease,22,96,22,2837,24.0,48.4,10.6,19.3,10.5,3.2,1,0,2.1,10,3
+biology,bio22-s7,Emerging diseases and society,14,72,14,2287,26.6,40.1,12.3,21.1,13.9,4.2,0,0,4.2,9,3
+biology,bio23-s1,The male reproductive system,9,48,9,1462,25.6,49.9,11.3,14.8,19.1,0.0,1,0,10.4,18,3
+biology,bio23-s2,The female reproductive system,10,58,10,1696,24.9,50.3,10.9,18.3,12.5,3.6,2,0,20.7,15,3
+biology,bio23-s3,Gametes and fertilisation,11,60,11,1730,24.4,61.2,8.7,13.2,8.8,1.8,3,0,0.0,14,3
+biology,bio23-s4,The menstrual cycle,15,62,15,1846,24.0,53.1,10.2,16.3,10.2,1.7,3,0,12.9,15,3
+biology,bio23-s5,Pregnancy,17,75,17,2361,25.7,56.0,10.2,14.2,11.0,4.1,2,0,13.3,22,3
+biology,bio23-s6,Hormones in reproduction,17,88,17,2500,23.8,44.9,11.3,19.8,7.0,0.0,2,1,15.9,16,3
+biology,bio23-s7,Prenatal and postnatal care,20,98,20,2711,23.0,53.4,10.2,16.0,14.3,18.4,0,1,4.1,23,3
+biology,bio23-s8,Fertility control and infertility,33,162,33,4189,21.5,45.5,11.1,18.7,15.0,8.8,2,1,11.1,29,3
+biology,bio24-s1,Flower structure and pollination,7,45,7,1652,31.8,53.4,9.6,14.0,12.2,4.9,4,0,11.1,20,3
+biology,bio24-s2,Investigation: insect- and wind-pollinated plants,9,53,9,1748,28.2,47.3,11.1,14.1,11.8,3.9,2,1,30.2,8,3
+biology,bio24-s3,Seeds,5,31,5,1076,29.9,59.3,8.7,14.8,13.8,6.9,2,0,9.7,15,3
+biology,bio24-s4,Fruit and seed dispersal,8,33,8,1025,25.0,62.9,8.6,13.6,9.4,6.2,1,1,15.2,9,3
+biology,bio25-s1,"Diffusion, osmosis and active transport",8,44,8,1795,34.5,49.4,10.7,16.7,19.5,19.5,3,0,20.5,21,3
+biology,bio25-s2,Osmosis in food preservation and plant health,5,34,5,1137,29.2,55.6,9.9,14.3,17.6,8.8,0,0,11.8,9,3
+biology,bio25-s3,Investigation: rate of osmosis,15,89,15,2606,25.1,58.9,8.5,14.8,21.6,2.3,1,0,15.7,9,3
+biology,bio26-s1,The urinary system,12,66,12,1895,24.3,57.7,9.2,12.2,12.5,1.6,2,0,1.5,14,3
+biology,bio26-s2,The nephron,7,46,7,1667,31.5,50.8,10.8,16.6,22.2,4.4,1,0,10.9,14,3
+biology,bio26-s3,ADH and osmoregulation,6,29,6,947,27.1,57.2,8.5,13.4,10.7,3.6,1,0,0.0,7,3
+biology,bio27-s1,The digestive system,7,41,7,1347,28.1,51.1,10.3,17.0,12.5,7.5,1,0,7.3,15,3
+biology,bio27-s2,Mechanical breakdown,7,40,7,1398,29.7,58.8,9.1,13.3,8.1,2.7,3,0,7.5,16,3
+biology,bio27-s3,Chemical breakdown,10,67,10,1895,24.6,51.5,10.1,16.4,9.2,1.5,2,1,4.5,14,3
+biology,bio27-s4,"Absorption, transport and storage",8,39,8,1438,30.6,52.9,10.5,15.4,18.4,0.0,1,2,15.4,12,3
+biology,bio27-s5,Diet,18,85,18,2776,27.0,54.8,9.7,15.2,8.2,5.9,0,0,8.2,15,3
+biology,bio28-s1,Gas exchange and the breathing mechanism,12,74,12,2212,25.7,55.7,9.4,13.9,9.9,4.2,3,1,1.4,9,3
+biology,bio28-s2,CO₂ as a controlling factor in breathing,5,30,5,1118,31.9,58.6,9.3,13.4,10.7,10.7,2,0,3.3,11,3
+biology,bio29-s1,Investigation: the heart,11,71,11,2608,31.8,58.0,9.6,13.4,11.6,2.9,2,2,18.3,11,3
+biology,bio29-s2,Circulation,9,50,9,1889,32.0,53.7,10.3,14.8,8.5,6.4,3,0,10.0,11,3
+biology,bio29-s3,Heartbeat,8,51,8,1843,31.2,59.1,9.6,12.9,12.2,6.1,2,0,3.9,14,3
+biology,bio29-s4,Blood,12,76,12,2421,27.5,57.1,9.1,14.3,11.0,8.2,3,0,6.6,17,3
+biology,bio29-s5,Blood vessels,6,42,6,1428,29.8,60.9,9.0,11.7,17.9,2.6,3,0,23.8,10,3
+biology,bio3-s1,Evaluating evidence,7,48,7,1742,31.7,53.1,9.8,16.6,20.8,2.1,0,0,6.2,12,3
+biology,bio3-s2,"Science, scientists and society",9,63,9,2275,31.6,40.7,11.6,21.6,11.1,20.6,0,0,4.8,12,3
+biology,bio3-s3,The cross-cutting themes,11,49,11,1491,24.9,40.2,11.8,22.3,12.2,14.3,0,1,2.0,8,3
+biology,bio30-s1,Plant structures for transport,11,71,11,2574,31.4,63.7,9.3,10.0,10.8,0.0,6,0,15.5,21,3
+biology,bio30-s2,Transport of water and minerals,11,65,11,2422,31.9,59.7,9.8,10.1,12.7,4.8,2,0,13.8,16,3
+biology,bio30-s3,Transport of CO₂ and photosynthetic products,9,45,9,1777,32.9,62.4,9.3,11.0,16.3,7.0,2,1,13.3,7,3
+biology,bio30-s4,CO₂ as a controlling factor in plant stomata,4,28,4,1014,31.7,55.1,10.3,14.5,17.9,0.0,0,0,7.1,8,3
+biology,bio30-s5,Investigation: rate of transpiration,19,111,19,3807,29.3,60.0,8.7,12.7,23.9,6.4,2,3,8.1,13,3
+biology,bio31-s1,"Biosphere, ecosystems, habitats and biodiversity",6,30,6,1319,36.6,47.2,10.9,18.1,24.1,10.3,1,0,3.3,15,3
+biology,bio31-s10,The niche,10,54,10,1583,24.7,58.5,9.3,14.3,5.7,7.5,1,1,1.9,9,3
+biology,bio31-s2,Biodiversity loss and conservation,17,99,17,2924,25.2,44.9,11.0,18.5,11.1,21.2,0,0,4.0,18,3
+biology,bio31-s3,Investigation: human activity and species diversity,13,71,13,2152,25.6,52.7,9.4,16.3,12.9,5.7,1,0,4.2,16,3
+biology,bio31-s4,Simpson's Diversity Index,7,38,7,1110,24.7,64.6,6.9,12.2,10.5,2.6,0,1,15.8,6,3
+biology,bio31-s5,Carrying capacity and limiting factors,7,44,7,1428,28.0,48.7,10.4,16.7,16.3,25.6,1,1,2.3,11,3
+biology,bio31-s6,Population curves,8,40,8,1512,31.5,51.0,10.3,16.9,27.0,10.8,3,0,22.5,12,3
+biology,bio31-s7,Energy and nutrient transfer,7,48,7,1716,31.2,55.4,9.3,17.2,17.4,15.2,2,0,4.2,14,3
+biology,bio31-s8,Pyramids of numbers,4,30,4,1081,31.8,56.2,10.1,15.5,21.4,35.7,2,0,3.3,5,3
+biology,bio31-s9,Pyramids of biomass,7,32,7,1263,32.4,54.1,10.3,16.1,26.7,3.3,2,0,9.4,5,3
+biology,bio32-s1,Collection and identification,19,111,19,3215,24.7,61.9,8.8,12.1,15.7,15.7,3,5,0.9,12,3
+biology,bio32-s2,Surveys,15,100,15,2797,24.3,54.8,10.0,14.0,12.4,23.7,3,0,12.0,16,3
+biology,bio32-s3,Abiotic factors,19,111,19,3245,25.0,58.2,9.5,12.6,16.4,5.5,1,0,15.3,18,3
+biology,bio32-s4,Biotic factors and relationships,20,89,20,2692,24.7,57.0,9.2,14.5,11.5,6.9,2,1,15.7,20,3
+biology,bio33-s1,Bacteria and fungi,15,95,15,2400,21.8,47.9,10.3,20.5,6.5,9.8,3,0,18.9,27,3
+biology,bio33-s2,Investigation: growth of microorganisms,25,154,25,4151,23.2,53.3,9.8,16.4,15.8,4.6,2,0,9.1,14,3
+biology,bio33-s3,Microorganisms in industry,26,126,26,3622,23.8,44.2,11.8,19.4,8.1,17.7,2,0,7.1,20,3
+biology,bio33-s4,The microbiome,23,115,23,2916,21.1,48.0,10.3,18.9,7.0,4.3,0,0,1.7,18,3
+biology,bio34-s1,The carbon cycle,8,45,8,1634,30.8,50.2,10.8,15.2,9.1,6.8,1,3,15.6,10,3
+biology,bio34-s2,The nitrogen cycle,10,44,10,1515,28.1,44.8,10.7,22.4,14.0,9.3,1,0,9.1,9,3
+biology,bio34-s3,Ethics and sustainability of nutrient cycling,15,74,15,2171,24.4,50.8,10.4,16.0,9.6,4.1,1,0,4.1,8,3
+biology,bio34-s4,Climate change and biological strategies,16,90,16,2824,26.6,52.1,10.1,14.8,13.5,6.7,1,0,2.2,11,3
+biology,bio35-s1,Genetic engineering,12,65,12,1950,25.3,47.6,10.9,18.9,14.3,11.1,2,0,4.6,22,3
+biology,bio35-s2,DNA profiling,12,48,12,1615,26.9,54.6,9.9,16.2,19.1,4.3,1,0,16.7,10,3
+biology,bio35-s3,Generating a DNA profile,12,66,12,1872,24.0,58.6,9.0,13.4,17.5,3.2,3,1,7.6,15,3
+biology,bio35-s4,DNA sequencing,7,36,7,1189,27.7,63.5,8.3,11.2,20.0,5.7,1,0,11.1,10,3
+biology,bio35-s5,Bioinformatics: genome databases,10,59,10,1590,23.0,47.8,10.5,19.7,6.8,13.6,0,1,11.9,13,3
+biology,bio35-s6,Investigation: DNA-profile patterns,10,60,10,2053,29.3,67.8,7.9,10.4,18.6,3.4,1,1,26.7,10,3
+biology,bio35-s7,Ethics of genetic technologies,27,126,27,3419,22.3,50.2,10.3,17.1,18.4,4.0,1,0,2.4,16,3
+biology,bio4-s1,Models,10,62,10,2309,32.1,53.6,9.7,14.5,18.3,8.3,2,1,6.5,10,3
+biology,bio4-s2,Explaining biological phenomena,12,66,12,1949,25.0,49.1,10.0,19.7,6.2,7.7,1,0,4.5,9,3
+biology,bio5-s1,Characteristics of living things,11,54,11,1634,25.1,48.2,9.9,20.8,5.6,7.4,0,0,1.9,14,3
+biology,bio5-s2,Levels of organisation,7,47,7,1183,21.9,55.6,9.0,15.3,15.2,2.2,1,0,4.3,10,3
+biology,bio6-s1,Viruses,8,43,8,1110,21.8,50.2,9.8,19.0,11.9,14.3,1,0,0.0,9,3
+biology,bio6-s2,Domains of life,7,34,7,1125,27.4,40.7,11.5,22.5,15.2,6.1,1,0,8.8,9,3
+biology,bio6-s3,Classification,13,67,13,2216,27.7,46.2,10.3,20.7,15.2,6.1,1,1,11.9,10,3
+biology,bio7-s1,Prokaryotic and eukaryotic cells,7,31,7,1083,28.5,48.3,10.2,21.2,6.7,10.0,1,0,0.0,9,3
+biology,bio7-s2,Microscopy,10,56,10,1643,24.9,57.6,8.7,16.5,7.3,1.8,1,1,1.8,11,3
+biology,bio7-s3,Structures and organelles of animal and plant cells,10,64,10,2022,27.3,53.2,10.0,18.1,6.8,15.3,5,1,1.6,10,3
+biology,bio7-s4,Investigation: plant and animal cells,9,57,9,1800,27.3,62.2,8.2,14.5,5.4,1.8,1,3,3.5,9,3
+biology,bio8-s1,Biomolecules and metabolism,5,27,5,845,26.4,41.0,11.2,22.0,15.4,11.5,1,0,29.6,9,3
+biology,bio8-s2,Structures of biomolecules,11,62,11,1926,26.4,50.3,9.9,17.2,8.9,7.1,6,1,14.5,8,3
+biology,bio8-s3,Metabolic roles and nutritional sources,8,49,8,1339,23.5,45.4,10.8,18.4,8.3,25.0,1,1,0.0,7,3
+biology,bio8-s4,Minerals,7,42,7,1235,25.2,52.1,10.1,14.7,16.7,7.1,0,1,4.8,6,3
+biology,bio8-s5,Vitamins,7,40,7,1333,28.4,50.9,9.8,17.6,17.5,12.5,0,0,10.0,7,3
+biology,bio8-s6,Water,7,34,7,1123,27.4,50.8,10.3,16.0,27.3,9.1,1,0,8.8,6,3
+biology,bio8-s7,Investigation: food tests,10,52,10,1857,30.0,60.9,8.7,12.2,7.8,5.9,1,1,11.5,6,3
+biology,bio8-s8,"Investigation: reducing sugars, quantitatively",10,54,10,1807,28.2,54.7,9.4,15.6,24.5,17.0,1,0,7.4,6,3
+biology,bio9-s1,ATP,8,37,8,1253,27.8,54.0,10.0,16.3,11.4,17.1,2,0,8.1,10,3
+biology,bio9-s2,NAD⁺ and NADP⁺,5,27,5,927,29.0,51.7,10.0,18.9,11.5,0.0,1,0,22.2,8,3
+business,ch0-s1,"1. Developing research questions, managing information and acknowledging sources",7,31,7,801,21.1,47.0,11.1,17.7,6.5,22.6,0,0,0.0,9,3
+business,ch0-s2,2. Project planning,7,29,7,759,21.1,49.2,11.0,17.5,6.9,37.9,0,0,0.0,8,3
+business,ch0-s3,"3. Analysing, evaluating and presenting findings",7,31,7,778,20.5,52.3,10.1,17.2,0.0,38.7,0,0,0.0,9,3
+business,ch0-s4,4. The Business Alive Investigative Study,11,48,11,1254,21.3,42.3,12.2,18.9,4.2,6.2,0,0,16.7,9,3
+business,ch1-s1,"1. Stakeholders, their importance and interdependence",7,27,7,703,20.7,34.0,13.5,24.6,7.4,22.2,0,0,0.0,9,3
+business,ch1-s2,"2. Stakeholder interaction, conflict and its resolution",8,30,8,712,18.7,37.4,12.5,21.8,0.0,3.3,0,2,0.0,9,3
+business,ch1-s3,3. Stakeholder mapping and prioritising stakeholder interests,6,28,6,684,20.1,36.9,12.6,23.8,3.6,14.3,0,0,0.0,9,3
+business,ch10-s1,"1. The operational model: key partners, activities and resources",6,26,6,613,19.2,41.1,11.9,23.0,7.7,57.7,0,0,0.0,9,2
+business,ch10-s2,"2. Costs and revenue streams: fixed, variable and recurring income",6,27,6,594,18.0,57.9,9.3,14.0,3.7,29.6,0,0,0.0,8,2
+business,ch10-s3,"3. Sources of finance across the lifecycle: short, medium and long term",6,30,6,728,20.2,50.3,11.1,16.9,3.3,6.7,0,1,3.3,9,2
+business,ch10-s4,"4. Cash-flow analysis: forecasts, worked example and remedies",8,41,8,773,15.8,55.0,9.4,16.3,2.4,19.5,0,0,0.0,8,2
+business,ch11-s1,"1. Competition, competitive advantage and Porter's five forces",9,39,9,902,18.8,46.2,11.3,18.2,23.1,33.3,0,0,0.0,9,2
+business,ch11-s2,"2. Strategies to adapt or expand, and the role of technology",9,41,9,887,17.7,51.1,10.3,17.4,2.4,7.3,0,0,0.0,10,2
+business,ch11-s3,3. Cost-benefit analysis of expansion,7,32,7,694,17.8,49.0,10.7,18.0,6.2,18.8,0,0,0.0,8,2
+business,ch11-s4,4. Adapting to external drivers through the marketing mix and business model,10,39,10,873,17.8,47.3,10.9,16.8,0.0,28.2,0,1,0.0,8,2
+business,ch12-s1,1. The risks of enterprise and why risk management matters,6,32,6,727,19.1,46.1,11.5,18.8,6.2,15.6,0,0,3.1,8,2
+business,ch12-s2,2. Risk management strategies and insurance,9,52,9,1173,19.2,45.5,11.7,18.9,13.5,25.0,0,0,13.5,9,3
+business,ch13-s1,"1. Leadership, management, organisational culture and leadership styles",9,43,9,967,18.6,40.8,12.2,18.9,7.0,11.6,0,0,2.3,9,3
+business,ch13-s2,2. Conflict in the workplace and its resolution,8,41,8,804,16.4,35.5,12.4,23.6,2.4,2.4,0,0,2.4,9,3
+business,ch14-s1,"1. Workforce planning, recruitment and selection",7,34,7,809,19.7,33.2,13.5,24.4,5.9,2.9,0,1,0.0,8,2
+business,ch14-s2,2. Motivation and appraisal,8,46,8,1003,18.6,34.8,13.0,24.1,4.3,17.4,0,2,0.0,8,2
+business,ch14-s3,"3. Human capital management, induction, training and development",7,39,7,863,18.8,36.0,12.9,21.9,7.7,12.8,0,2,2.6,9,2
+business,ch14-s4,4. Teamwork and sustainable workplaces,6,34,6,624,15.6,34.3,12.4,22.0,2.9,5.9,0,0,0.0,8,2
+business,ch14-s5,5. Digital technology in the workplace: remote and blended working,9,49,9,1207,20.8,37.3,13.1,18.9,0.0,16.3,0,0,0.0,9,3
+business,ch14-s6,6. Corporate wellness and the leader's role,6,30,6,612,17.0,35.9,12.5,19.6,6.7,13.3,0,1,0.0,8,2
+business,ch15-s1,1. Why communication matters and how to improve it,7,31,7,717,18.9,45.3,11.6,18.0,9.7,32.3,0,1,0.0,8,2
+business,ch15-s2,2. Modes of communication and the impact of technology,8,43,8,952,18.7,35.3,13.0,22.9,0.0,16.3,0,2,0.0,8,2
+business,ch16-s1,"1. Change, resistance to change and fostering innovation",6,33,6,723,18.5,35.7,12.9,21.3,3.0,12.1,0,0,0.0,8,3
+business,ch16-s2,2. Strategic planning and force-field analysis,10,50,10,1030,17.2,45.0,11.1,20.4,2.0,16.0,0,0,0.0,8,3
+business,ch16-s3,3. Contingency planning and crisis management,7,35,7,798,19.0,44.0,11.8,18.0,8.6,22.9,0,0,0.0,8,3
+business,ch17-s1,"1. Consumer rights, responsibilities and legislation",10,45,10,1101,20.0,44.1,12.1,19.7,8.9,4.4,0,0,0.0,8,3
+business,ch17-s2,"2. Ethical and sustainable consumption, the shadow economy and digital technology",7,35,7,741,17.6,33.8,12.9,23.9,5.7,8.6,0,0,0.0,8,3
+business,ch17-s3,3. Protecting personal data and making informed consumer decisions,9,46,9,1000,18.2,36.9,12.6,21.6,4.3,13.0,0,0,0.0,8,3
+business,ch18-s1,"1. Saving, investing and borrowing",7,35,3,856,22.5,46.6,12.4,15.8,5.7,5.7,0,0,8.6,9,3
+business,ch18-s2,"2. Risk tolerance, reliable information, switching providers and credit ratings",7,35,2,756,20.4,44.1,12.2,18.0,2.9,5.7,0,0,0.0,10,3
+business,ch18-s3,"3. Fintech, Central Bank Digital Currency and crypto-assets",7,36,2,727,19.1,37.7,12.8,20.5,5.6,0.0,0,1,0.0,10,3
+business,ch18-s4,4. Regulation of financial services and financial fraud,8,38,1,811,20.8,38.5,13.0,19.7,13.2,5.3,0,0,0.0,10,3
+business,ch19-s1,1. Employee rights and responsibilities: legislative and non-legislative protection,8,37,3,817,20.4,37.9,13.0,21.3,5.4,10.8,0,0,0.0,9,3
+business,ch19-s2,2. Trade unions and the gig economy,7,30,2,582,18.2,36.5,12.7,21.0,0.0,6.7,0,0,0.0,9,3
+business,ch19-s3,3. The annual Budget and workers; informed decisions as an employee,8,31,1,649,20.3,50.6,11.2,13.1,0.0,16.1,0,0,0.0,9,3
+business,ch2-s1,"1. Public, private, semi-state and not-for-profit enterprises",8,33,8,854,20.8,33.4,13.8,23.2,6.1,21.2,0,0,0.0,8,2
+business,ch2-s2,2. Forms of ownership and how ownership changes,9,50,9,1245,21.1,37.4,12.7,21.8,0.0,4.0,0,1,0.0,10,2
+business,ch2-s3,"3. Regulation, governance and ESG",7,33,7,863,21.6,23.1,15.4,29.5,9.1,15.2,0,0,0.0,9,2
+business,ch3-s1,1. Economic indicators and their impact on business,8,35,8,931,21.7,36.2,13.6,22.3,14.3,14.3,0,0,0.0,9,2
+business,ch3-s2,2. The value of the business economy in Ireland,8,29,8,781,21.1,36.5,13.4,20.2,10.3,17.2,0,0,0.0,8,2
+business,ch4-s1,"1. Irish government policy, legislation and how business influences policy",5,29,5,708,20.8,36.0,13.1,22.5,0.0,17.2,0,1,0.0,8,2
+business,ch4-s2,2. EU decision-makers and types of EU law,6,31,6,718,19.4,42.1,12.1,22.3,9.7,9.7,0,1,0.0,9,2
+business,ch4-s3,3. Evaluating one EU regulation and one EU directive,6,41,6,1070,22.8,28.9,14.9,21.9,7.3,14.6,0,1,0.0,8,2
+business,ch5-s1,1. Trading blocs and Ireland's membership of the EU,6,33,6,815,20.9,38.9,12.9,20.5,3.0,12.1,0,0,6.1,8,2
+business,ch5-s2,"2. Trading internationally, and the balance of payments",7,41,7,855,17.8,41.8,11.7,16.6,9.8,9.8,0,0,2.4,8,3
+business,ch5-s3,"3. Globalisation, interdependence and technology",9,49,9,1043,18.0,36.6,12.5,21.4,0.0,12.2,0,0,0.0,8,3
+business,ch5-s4,4. Foreign direct investment,6,34,6,782,19.6,34.7,13.3,23.4,2.9,20.6,0,0,0.0,8,3
+business,ch6-s1,"1. Enterprise, innovation, intrapreneurship, entrepreneurship and the competencies of innovators",7,40,7,875,18.6,40.3,12.3,20.5,5.0,17.5,0,0,0.0,8,3
+business,ch6-s2,2. The role of government in supporting enterprise,8,34,8,764,18.2,49.2,10.9,17.0,2.9,8.8,0,0,0.0,8,3
+business,ch7-s1,1. How business ideas are developed,6,30,6,600,16.7,46.8,10.8,17.2,6.7,23.3,0,1,0.0,8,3
+business,ch7-s2,2. Design thinking,7,26,7,531,16.1,52.5,9.8,15.4,19.2,15.4,0,0,0.0,8,3
+business,ch7-s3,3. The feasibility study,6,26,6,549,17.2,45.2,11.2,18.4,3.8,15.4,0,0,0.0,8,3
+business,ch8-s1,"1. The business plan, and ethics and sustainability in planning",7,32,7,790,20.3,44.9,11.9,18.6,12.5,3.1,0,1,0.0,9,2
+business,ch8-s2,2. Business models and the business model canvas,9,36,9,877,19.5,49.4,11.2,16.6,2.8,36.1,0,1,13.9,9,2
+business,ch8-s3,3. Common business models,7,36,7,860,20.0,37.3,13.0,20.8,2.8,5.6,0,0,0.0,9,2
+business,ch8-s4,4. The digital economy and technology-driven business models,7,35,7,785,18.7,39.1,12.4,19.5,0.0,5.7,0,0,0.0,9,2
+business,ch9-s1,1. Market research and identifying the target market,7,29,7,656,18.2,38.7,12.4,20.9,0.0,24.1,0,1,3.4,10,2
+business,ch9-s2,2. The marketing mix and the target market,8,36,8,818,18.6,39.7,12.3,20.4,5.6,25.0,0,0,0.0,10,2
+business,ch9-s3,"3. Developing, evaluating and improving a marketing mix; the USP",9,43,9,1068,20.5,42.9,12.4,17.6,2.3,11.6,0,1,2.3,8,2
+business,ch9-s4,"4. Digital technology, ethics and sustainability in marketing",7,30,7,710,19.2,31.1,13.7,25.8,3.3,3.3,0,0,0.0,9,2
+business,ch9-s5,5. Analytical tools: the power-interest grid for customers and STEEPLE,7,32,7,767,19.7,39.0,12.7,23.2,3.1,21.9,0,0,3.1,8,2
+chemistry,chem1-s1,1. How science works: ideas and models,8,51,3,952,17.6,39.8,11.5,22.2,2.0,5.9,0,2,21.6,16,4
+chemistry,chem1-s2,2. Science as a global enterprise and researching an issue,9,39,1,665,16.6,41.3,10.9,21.2,2.6,2.6,0,0,10.3,14,4
+chemistry,chem1-s3,"3. Questions, hypotheses and designing investigations",9,48,1,908,18.5,42.9,11.1,23.1,8.3,6.2,0,0,16.7,16,4
+chemistry,chem1-s4,"4. Measurement, error and data",9,48,0,909,18.9,54.6,9.7,16.8,6.2,8.3,0,0,27.1,19,4
+chemistry,chem1-s5,"5. Reflecting, recording and communicating findings",8,34,2,584,16.2,45.8,10.7,18.5,2.9,2.9,0,1,8.8,14,4
+chemistry,chem1-s6,6. Chemistry in society and the media,9,47,0,717,15.3,34.1,11.9,26.8,0.0,0.0,0,0,6.4,16,4
+chemistry,chem1-s7,7. Representation and the Chemistry in Practice Investigation,9,58,4,1242,20.0,31.7,13.7,24.6,0.0,0.0,0,2,13.8,14,4
+chemistry,chem10-s1,1. Physical and chemical change,14,62,0,975,15.7,49.5,10.3,19.7,6.7,1.7,2,0,11.3,15,4
+chemistry,chem10-s2,2. Formulae and balancing equations,11,69,0,1026,14.9,61.7,8.1,15.3,1.5,4.4,1,2,8.7,16,4
+chemistry,chem11-s1,"1. Acids, bases and their reactions",10,54,9,983,15.6,54.3,9.3,15.9,3.7,3.7,0,0,16.7,15,4
+chemistry,chem11-s2,2. Acid–base theories and strength,12,54,5,1252,21.2,61.8,9.1,11.7,9.3,7.4,0,1,27.8,21,6
+chemistry,chem12-s1,1. Standard solutions and acid–base titrations,9,59,4,1024,16.3,51.9,10.0,17.4,17.2,1.7,1,1,5.1,16,4
+chemistry,chem12-s2,"2. Titration curves, indicators and vinegar",12,61,5,1306,19.8,54.9,10.4,14.4,17.2,0.0,3,0,27.9,21,6
+chemistry,chem13-s1,1. Acid–base volumetric problems,9,54,2,771,13.8,64.1,7.6,13.1,9.3,5.6,0,0,3.7,14,4
+chemistry,chem14-s1,1. Oxidation and reduction,9,90,0,1745,19.4,54.1,9.5,16.9,6.7,0.0,0,2,28.9,11,3
+chemistry,chem14-s2,2. Balancing redox equations and the electrochemical series,15,109,1,2210,20.1,61.1,9.3,13.2,7.5,0.0,2,2,21.1,15,6
+chemistry,chem15-s1,1. Redox titrations and iron tablets,24,121,1,2261,18.5,53.3,10.3,14.8,12.3,0.9,7,2,16.5,18,6
+chemistry,chem16-s1,1. Redox volumetric problems,11,101,1,1288,12.6,69.6,6.4,12.5,4.0,1.0,0,0,7.9,17,6
+chemistry,chem17-s1,1. Rate of reaction and collision theory,12,78,0,1681,21.6,50.0,11.4,16.3,7.9,1.3,2,1,17.9,15,6
+chemistry,chem17-s2,2. Investigation: factors affecting rate,10,80,0,1618,20.2,62.2,8.9,11.7,10.4,2.6,3,0,26.2,8,3
+chemistry,chem17-s3,3. Catalysis,10,91,0,1775,19.5,42.9,12.0,19.8,4.5,1.1,3,0,20.9,17,6
+chemistry,chem18-s1,1. Dynamic equilibrium and Kc,14,103,2,1884,17.9,62.7,8.8,11.4,3.9,1.9,0,2,26.2,22,9
+chemistry,chem18-s2,2. Le Châtelier's principle,14,90,0,2035,22.6,51.4,11.2,14.7,14.0,1.2,4,0,30.0,15,6
+chemistry,chem19-s1,1. Self-ionisation of water and pH,10,79,3,1509,18.4,58.8,9.3,13.1,11.7,13.0,2,0,26.6,15,6
+chemistry,chem19-s2,2. pH calculations and dissociation constants,16,97,0,1651,17.0,67.2,7.8,12.9,3.1,20.6,0,0,19.6,16,9
+chemistry,chem2-s1,1. Atomic structure: the nuclear model,14,78,5,1474,17.8,49.6,10.2,18.1,11.7,2.6,1,0,10.3,23,7
+chemistry,chem20-s1,1. The greenhouse effect,14,99,3,2308,22.6,46.1,12.0,15.8,9.3,2.1,2,0,22.2,20,6
+chemistry,chem20-s2,2. Water contamination,11,78,2,1464,18.3,46.9,10.9,17.8,10.4,9.1,1,0,11.5,11,3
+chemistry,chem20-s3,3. Treating drinking water,10,53,0,993,18.7,44.3,11.6,17.6,7.7,7.7,1,0,7.5,11,3
+chemistry,chem20-s4,4. The lithium-ion cell,9,60,0,1162,19.4,37.5,12.5,23.6,5.1,0.0,1,0,18.3,12,3
+chemistry,chem20-s5,5. Researching chemistry,9,54,0,929,17.2,42.1,11.3,20.9,5.6,1.9,0,0,3.7,8,3
+chemistry,chem21-s1,1. Energy changes in reactions,9,60,1,1365,22.4,47.1,11.9,18.1,8.5,1.7,1,1,26.7,18,6
+chemistry,chem21-s2,2. Calculating ΔH and the heat of neutralisation,12,79,1,1756,21.9,53.6,10.9,15.3,9.2,0.0,3,0,31.6,14,6
+chemistry,chem21-s3,3. ΔH from bond enthalpies,8,38,1,686,17.6,71.6,7.3,12.1,10.5,0.0,0,0,26.3,7,3
+chemistry,chem21-s4,4. Hess's law,9,49,0,852,17.4,75.0,6.6,10.3,2.1,0.0,1,0,20.4,6,3
+chemistry,chem21-s5,5. Combustion and heats of combustion,15,92,1,1767,19.0,62.9,8.8,12.1,4.4,0.0,1,0,17.4,18,6
+chemistry,chem22-s1,1. Galvanic and electrolytic cells,17,123,6,2779,21.5,48.1,11.0,18.2,5.0,0.8,4,1,29.3,21,9
+chemistry,chem22-s2,2. Fuel cells and sustainability,16,101,0,2241,22.2,40.0,12.9,23.2,2.0,9.0,1,2,20.8,21,8
+chemistry,chem23-s1,"1. Hydrocarbons: sources, uses and impact",20,87,10,1876,19.3,42.6,11.8,19.3,2.3,11.5,0,0,6.9,19,6
+chemistry,chem23-s2,2. Investigation: preparing ethene,8,46,2,1037,21.6,52.7,10.4,15.0,17.8,2.2,1,0,15.2,9,3
+chemistry,chem23-s3,3. Groups of hydrocarbons and their properties,20,112,7,2664,22.4,47.5,11.7,16.5,14.5,7.3,2,4,25.9,25,9
+chemistry,chem23-s4,"4. Shapes, bonding and isomerism",21,95,3,2309,23.6,54.5,11.2,14.1,12.5,1.1,7,0,20.0,22,9
+chemistry,chem23-s5,5. Allotropes of carbon and their uses,11,71,0,1536,21.6,39.2,12.9,18.0,32.8,4.5,4,0,14.1,17,6
+chemistry,chem24-s1,"1. Functional groups, naming and representation",14,143,4,2659,18.1,54.3,9.6,17.9,0.0,2.1,1,5,12.6,21,6
+chemistry,chem24-s2,2. Physical properties and acidity,11,110,0,2024,18.4,46.9,11.2,18.3,19.4,1.9,2,0,13.6,18,6
+chemistry,chem24-s3,3. Organic products and pharmaceuticals,13,148,1,2310,15.5,42.0,10.9,21.2,2.7,10.1,0,0,10.8,19,6
+chemistry,chem25-s1,1. Types of organic reaction and addition polymers,13,96,0,1922,20.0,48.7,11.2,17.2,3.2,2.2,3,1,24.0,17,6
+chemistry,chem25-s2,"2. Tests, reaction schemes and preparing an ester",15,132,0,2495,18.9,42.0,12.0,19.7,11.9,0.8,6,2,23.5,24,9
+chemistry,chem25-s3,3. Investigation: synthesising benzoic acid,8,47,0,896,19.1,47.0,11.4,15.2,17.8,2.2,2,0,17.0,8,3
+chemistry,chem25-s4,4. Reaction mechanisms,8,44,0,1034,23.5,52.8,11.3,15.3,18.6,2.3,1,0,31.8,11,3
+chemistry,chem25-s5,5. Redox and acid–base reactions of organic compounds,8,44,0,891,20.2,43.2,11.9,20.5,4.7,2.3,1,0,13.6,9,3
+chemistry,chem25-s6,6. Surfactants and soap,13,79,0,1672,21.2,54.3,10.4,15.3,13.2,5.3,3,1,20.3,17,6
+chemistry,chem26-s1,1. Quantitative problems from balanced equations,14,98,0,1238,12.6,66.1,7.1,12.2,5.2,1.0,1,0,15.3,8,3
+chemistry,chem26-s2,"2. Theoretical, actual and percentage yield",8,39,0,625,16.0,48.2,10.4,19.8,2.6,12.8,0,0,28.2,8,3
+chemistry,chem26-s3,3. Limiting reagents,8,54,0,914,16.9,61.2,8.8,11.5,3.7,7.4,0,0,31.5,6,3
+chemistry,chem3-s1,1. The orbital model and electronic structure,15,134,0,1972,14.7,56.3,8.9,17.5,3.9,3.9,7,1,17.9,31,9
+chemistry,chem4-s1,1. The periodic table: arrangement and use,12,59,7,1192,18.1,42.0,11.9,23.7,1.7,0.0,1,0,28.8,22,6
+chemistry,chem5-s1,"1. Bonding, formulae and shapes",21,111,0,1671,15.1,61.4,8.0,15.3,4.8,0.0,6,8,8.1,28,7
+chemistry,chem5-s2,2. Investigation: identifying ions in salts and solutions,9,52,0,758,14.6,51.0,9.7,16.9,3.9,0.0,1,0,9.6,9,3
+chemistry,chem6-s1,1. Bond type and intermolecular forces,12,72,2,1337,18.1,39.6,11.5,20.1,16.2,10.3,4,1,18.1,25,7
+chemistry,chem6-s2,"2. Polarity, shape and physical properties",11,59,1,1102,18.4,47.4,11.1,16.8,12.7,7.3,4,0,32.2,20,7
+chemistry,chem7-s1,1. Families and trends in the periodic table,16,100,2,1654,16.2,50.7,10.0,17.8,11.1,1.0,1,0,17.0,27,8
+chemistry,chem8-s1,1. The mole and molar volume,16,115,4,1678,14.1,62.4,8.0,13.7,1.8,0.9,3,1,12.2,24,8
+chemistry,chem8-s2,2. Solutions and concentration,9,74,1,1153,15.4,60.9,8.1,15.4,5.7,1.4,4,0,12.2,17,6
+chemistry,chem9-s1,1. The kinetic theory and its evidence,11,48,5,985,18.6,49.7,10.5,18.5,2.3,2.3,4,1,16.7,14,4
+chemistry,chem9-s2,2. Using the kinetic theory: separation techniques,10,60,7,1321,19.7,43.3,11.7,18.7,9.3,3.7,6,0,13.3,19,4
+chemistry,chem9-s3,3. Gas laws and the ideal gas equation,16,69,6,1090,14.5,61.3,8.3,14.2,0.0,3.0,2,0,8.7,14,4
+geography,geo-aerial-photographs-s1,Aerial photograph interpretation,23,156,10,2975,17.9,57.2,9.3,16.0,1.9,7.1,0,1,9.6,13,3
+geography,geo-economic-activities-s1,1. Case study of a developed economy: Ireland,59,229,6,3488,14.8,45.1,10.3,20.3,2.2,3.5,0,6,10.9,13,3
+geography,geo-economic-activities-s2,The mobility of modern economic activities and factors in their location,36,165,7,2538,14.8,45.6,10.0,20.7,1.8,3.6,0,3,8.5,19,3
+geography,geo-economic-development-s1,1. Measuring economic development,13,85,7,1723,18.7,41.2,11.4,20.5,3.5,5.9,0,2,8.2,10,3
+geography,geo-economic-development-s2,2. Spatial variations in development,17,93,2,1959,20.6,39.7,11.7,20.7,1.1,2.2,0,11,18.3,12,3
+geography,geo-economic-development-s3,3. Case study of a developing economy,28,160,3,2457,15.1,48.5,9.6,18.7,1.2,1.2,0,2,0.0,12,3
+geography,geo-economic-development-s4,4. Global issues and a justice perspective,25,100,2,1756,17.2,46.1,10.3,19.1,0.0,9.0,0,3,0.0,12,3
+geography,geo-economic-environment-s1,1. Renewable and non-renewable resources in the economy,25,83,4,1474,16.9,52.2,8.8,19.1,2.4,4.8,0,2,3.6,10,3
+geography,geo-economic-environment-s2,2. Burning fossil fuels and using alternative energy sources,22,98,9,1777,16.6,50.8,9.2,17.1,1.0,3.1,0,1,0.0,10,3
+geography,geo-economic-environment-s3,3. Environmental pollution,25,92,2,1522,16.2,48.1,9.8,17.9,0.0,2.2,0,1,0.0,9,3
+geography,geo-economic-environment-s4,4. Sustainable economic development,32,114,1,1631,14.2,41.0,10.7,22.0,1.8,5.3,0,2,5.3,9,3
+geography,geo-economic-environment-s5,5. Conflicts between economic interests and environmental interests,34,111,0,1805,16.3,45.8,10.7,18.8,3.6,4.5,0,1,14.4,8,3
+geography,geo-economic-eu-s1,1. EU trading patterns,15,58,5,1461,23.2,46.8,11.1,16.4,5.2,8.6,0,1,24.1,13,3
+geography,geo-economic-eu-s2,2. Irish trading patterns with the EU,18,54,0,1045,19.4,51.5,9.4,15.7,5.6,3.7,0,3,1.9,10,3
+geography,geo-economic-eu-s3,3. How the EU influences the Irish economy,34,115,1,1774,15.3,46.2,10.0,19.1,3.5,2.6,0,3,4.3,12,3
+geography,geo-economic-globalisation-s1,1. One multinational company (MNC),21,94,3,1634,16.8,48.3,9.9,18.5,1.1,4.3,0,0,4.3,9,3
+geography,geo-economic-globalisation-s2,2. The MNC and change,17,75,5,1395,17.4,46.4,10.4,19.1,5.3,9.3,0,0,5.3,10,3
+geography,geo-economic-globalisation-s3,3. Patterns in world trade,23,109,7,1828,15.8,52.9,9.7,14.8,0.0,6.4,0,2,11.9,12,3
+geography,geo-economic-globalisation-s4,4. How the global economy is organised,20,107,7,1558,13.7,45.9,10.1,19.7,0.0,3.7,0,6,7.5,12,3
+geography,geo-glaciation-s1,"1. Glacial processes, patterns and associated landforms",22,104,6,1829,16.6,64.0,7.1,12.7,2.2,2.2,11,2,18.3,32,3
+geography,geo-glaciation-s2,2. Isostasy,11,41,9,880,17.6,64.1,7.5,12.2,2.4,2.4,0,1,2.4,17,3
+geography,geo-graph-skills-s1,Figure interpretation,16,115,5,2435,20.3,62.6,8.1,12.6,3.5,2.6,0,0,22.6,19,3
+geography,geo-graph-skills-s2,Census of population data,16,87,2,1511,17.0,40.9,11.4,20.5,5.7,2.3,0,2,16.1,12,3
+geography,geo-mapwork-s1,Map interpretation,39,216,8,4516,20.2,60.6,9.2,11.4,1.4,2.8,0,1,31.0,33,3
+geography,geo-mapwork-s2,2. Textual sources,12,67,4,1161,16.4,46.1,10.4,18.8,0.0,6.0,0,2,4.5,9,3
+geography,geo-mapwork-s3,3. The Geographical Investigation (20%),12,93,10,2049,19.9,45.2,11.4,17.8,5.4,6.5,0,0,15.1,8,3
+geography,geo-option-atmosphere-ocean-s1,1. The atmosphere and oceans as linked systems,29,107,2,2242,20.6,46.7,11.2,15.6,8.6,1.0,2,10,23.4,10,3
+geography,geo-option-atmosphere-ocean-s2,2. Solar energy and its redistribution,27,83,1,1687,20.1,46.0,11.4,17.8,7.6,3.8,4,4,10.8,12,3
+geography,geo-option-atmosphere-ocean-s3,3. Exchanges of water between oceans and atmosphere,37,130,0,2369,18.2,52.6,9.7,13.8,5.6,2.4,6,11,17.7,12,3
+geography,geo-option-atmosphere-ocean-s4,Atmospheric and oceanic circulation,41,201,9,3882,18.5,59.2,8.3,14.3,5.2,0.5,10,3,0.0,19,3
+geography,geo-option-atmosphere-ocean-s5,5. Climatic environments and climate change,35,174,7,3355,18.5,51.6,10.3,15.0,2.9,2.3,1,13,22.4,10,4
+geography,geo-option-atmosphere-ocean-s6,6. Climate and economic development,30,134,3,2454,17.9,47.0,10.5,16.7,0.0,5.2,0,9,20.1,8,3
+geography,geo-option-culture-identity-s1,1. Racial groupings,31,129,7,2091,15.4,36.6,11.4,23.4,2.3,2.3,0,3,4.7,17,3
+geography,geo-option-culture-identity-s2,2. Language as a cultural indicator,33,143,4,2216,15.1,47.2,9.9,17.9,0.0,2.8,0,5,4.2,12,3
+geography,geo-option-culture-identity-s3,3. Religion as a cultural indicator,23,117,3,1870,15.6,42.1,10.4,22.2,0.0,0.9,0,4,0.0,12,3
+geography,geo-option-culture-identity-s4,4. Everyday expressions of culture and identity,32,117,4,1906,15.8,49.4,10.0,17.7,0.0,3.4,0,7,15.4,10,3
+geography,geo-option-culture-identity-s5,5. Nationality and the nation state,35,141,2,2190,15.3,39.1,11.5,23.1,1.4,2.8,0,20,13.5,10,3
+geography,geo-option-culture-identity-s6,6. A European regional case study of identity,62,221,1,3549,16.0,41.4,11.4,21.2,0.0,0.0,0,6,23.5,14,3
+geography,geo-option-geoecology-s1,1. Soil composition and characteristics,22,98,5,1632,15.8,54.3,8.9,16.3,2.1,5.2,1,11,2.0,15,3
+geography,geo-option-geoecology-s2,2. Soil processes and the global pattern of soils,28,142,3,2222,15.3,52.0,8.8,17.7,2.9,4.3,2,11,1.4,16,3
+geography,geo-option-geoecology-s3,3. Human interference with soils,27,113,0,1997,17.7,53.0,9.2,15.7,2.7,4.4,0,10,0.0,18,3
+geography,geo-option-geoecology-s4,4. One major biome in detail,26,132,2,2681,20.0,51.8,10.1,15.8,3.8,6.1,0,2,23.5,24,3
+geography,geo-option-geoecology-s5,5. Human alteration of biomes,30,107,1,2190,20.3,45.2,10.9,18.2,0.0,4.7,0,6,10.3,14,3
+geography,geo-option-global-interdependence-s1,1. Views of development and underdevelopment,29,145,8,2805,18.3,42.3,11.0,20.9,1.4,2.8,0,5,0.7,18,3
+geography,geo-option-global-interdependence-s2,2. An interdependent global economy,40,216,2,4189,19.2,45.9,10.3,19.3,2.8,2.8,0,2,1.9,21,3
+geography,geo-option-global-interdependence-s3,3. Empowering people: linking economic growth with human development,48,211,10,3444,15.6,46.2,10.5,18.7,0.9,2.8,0,6,15.2,18,3
+geography,geo-option-global-interdependence-s4,4. Sustainable development as a model for the future,42,179,11,2721,14.3,41.7,10.8,21.1,0.0,2.2,0,7,3.4,16,3
+geography,geo-plate-tectonics-s1,1. The internal structure of the earth,8,37,4,658,16.0,60.5,8.1,13.8,5.6,2.8,1,0,10.8,9,3
+geography,geo-plate-tectonics-s2,2. The plate tectonics model,12,50,3,981,18.5,45.8,10.7,19.4,0.0,0.0,1,1,12.0,10,3
+geography,geo-plate-tectonics-s3,3. Plate boundaries as zones of crustal construction and destruction,12,59,4,1092,17.3,50.7,10.3,18.2,0.0,0.0,3,0,18.6,8,3
+geography,geo-population-migration-s1,1. Changing population characteristics,50,188,4,2223,11.6,48.4,9.2,17.4,2.1,1.6,0,3,7.4,14,5
+geography,geo-population-migration-s2,2. Overpopulation,21,89,1,1193,13.3,35.5,11.5,22.3,3.4,1.1,0,0,5.6,10,3
+geography,geo-population-migration-s3,3. Changing migration patterns in Ireland,21,88,0,981,11.1,37.2,10.7,24.3,0.0,0.0,0,0,12.5,12,4
+geography,geo-population-migration-s4,4. Migration policy in Ireland and the EU,18,95,5,1491,14.9,36.9,11.8,23.5,1.1,2.1,0,1,13.7,10,3
+geography,geo-population-migration-s5,"5. Ethnic, racial and religious issues arising from migration",13,76,6,1236,15.1,34.6,12.2,24.5,2.6,3.9,0,1,9.2,10,3
+geography,geo-population-migration-s6,6. Rural-to-urban migration in developed and developing regions,14,88,7,1277,13.4,46.7,10.0,15.3,0.0,3.4,0,0,14.8,9,3
+geography,geo-region-concept-s1,1. Physical regions,13,69,6,1163,15.5,50.8,9.4,17.6,2.9,1.4,0,0,5.8,17,3
+geography,geo-region-concept-s2,2. Administrative regions at different scales,11,43,3,761,16.5,36.8,11.6,22.5,9.3,7.0,0,1,9.3,11,3
+geography,geo-region-concept-s3,3. Cultural regions,11,63,3,1113,16.9,44.8,10.5,19.7,3.2,1.6,0,4,6.3,7,3
+geography,geo-region-concept-s4,4. Socio-economic regions,10,53,4,973,17.1,36.1,11.7,24.3,0.0,3.8,0,5,15.1,7,3
+geography,geo-region-concept-s5,"5. Nodal, city and urban regions",9,40,2,826,19.7,50.8,9.8,17.7,0.0,0.0,0,1,12.5,7,3
+geography,geo-region-continental-s1,1. India,117,483,11,6048,12.2,48.2,9.5,18.2,2.3,1.2,0,11,5.2,28,3
+geography,geo-region-european-s1,A Core European Region: the Paris Basin,35,166,8,2633,15.1,55.7,9.1,13.8,1.8,0.6,0,3,8.4,12,3
+geography,geo-region-european-s2,2. A Peripheral European Region: the Mezzogiorno,34,172,10,2588,14.2,44.4,10.5,21.3,1.2,0.6,0,14,5.8,21,3
+geography,geo-region-european-s3,3. The complexity of regions (i),11,78,7,1638,19.3,35.4,11.7,24.8,0.0,1.3,0,0,20.5,12,3
+geography,geo-region-european-s4,4. The complexity of regions (ii),25,116,7,1890,15.4,43.3,10.4,19.7,0.9,3.4,0,1,12.1,13,3
+geography,geo-region-ireland-s1,1. A Core Irish Region,39,216,3,3035,13.9,51.3,9.2,16.0,0.0,2.3,0,6,6.0,18,3
+geography,geo-region-ireland-s2,2. A Peripheral Irish Region: the West of Ireland,42,224,2,2805,12.4,52.5,8.7,17.2,0.4,0.9,0,3,8.5,15,3
+geography,geo-rivers-s1,"1. Fluvial processes, patterns and associated landforms",15,92,5,1507,15.5,56.0,8.4,15.1,1.2,2.3,6,0,12.0,40,3
+geography,geo-rivers-s2,2. Fluvial adjustment to base level,9,33,5,692,18.2,53.0,9.5,15.0,0.0,0.0,3,2,21.2,14,3
+geography,geo-rivers-s3,3. Cyclic landscape development and peneplains,11,33,3,596,16.6,43.3,11.1,17.1,0.0,0.0,0,0,6.1,10,3
+geography,geo-rivers-s4,4. Human interaction: river processes,19,73,4,1102,14.3,50.0,9.5,16.1,1.4,1.4,0,0,15.1,12,3
+geography,geo-rocks-weathering-s1,1. The rock cycle and rock formation,11,66,5,1102,15.5,46.6,10.1,18.8,0.0,1.5,1,0,15.2,14,3
+geography,geo-rocks-weathering-s2,2. Human interaction with the rock cycle,21,89,3,1283,13.9,53.6,8.7,17.4,3.4,2.2,0,0,11.2,12,3
+geography,geo-rocks-weathering-s3,3. Weathering processes,10,44,3,845,18.0,49.0,10.6,17.0,2.3,20.5,0,0,15.9,14,3
+geography,geo-rocks-weathering-s4,4. Landforms associated with particular rock types,9,63,4,1241,18.5,56.0,8.2,15.3,3.4,3.4,4,1,4.8,15,3
+geography,geo-rocks-weathering-s5,5. Mass movement (mass wasting) processes and the factors governing them,15,58,1,1108,18.8,55.3,9.1,15.9,0.0,7.0,1,1,1.7,10,3
+geography,geo-rocks-weathering-s6,6. Erosion by wind,7,27,0,605,22.4,61.1,8.0,15.5,0.0,0.0,3,2,7.4,10,2
+geography,geo-rocks-weathering-s7,7. Human interaction: mass movement,14,55,0,975,17.7,52.1,9.2,16.1,5.5,0.0,0,3,1.8,10,3
+geography,geo-sea-s1,"1. Coastal processes, patterns and associated landforms",17,95,7,1845,18.1,64.6,7.7,12.5,0.0,7.8,5,1,23.2,16,3
+geography,geo-sea-s2,2. Human interaction: coastal processes,21,76,4,1319,16.5,55.7,9.5,14.9,2.6,0.0,0,0,6.6,14,3
+geography,geo-urban-s1,1. Pre-historic and historic settlement,17,89,12,1559,15.4,62.4,7.1,14.6,0.0,2.2,0,3,1.1,13,3
+geography,geo-urban-s2,2. Rural settlement,16,76,6,1048,12.8,52.7,8.6,17.2,0.0,5.3,0,1,1.3,9,3
+geography,geo-urban-s3,"3. Urban settlement: site, hierarchy, hinterland and central place theory",24,108,9,1501,12.8,52.5,8.7,18.5,1.9,7.4,0,6,1.9,11,3
+geography,geo-urban-s4,4. Urban land use and planning,13,94,8,2153,21.1,47.0,11.2,15.6,4.4,4.4,3,2,3.2,12,3
+geography,geo-urban-s5,5. Urban problems in developed-world cities,25,124,5,1894,14.7,47.0,10.1,18.6,4.0,1.6,0,3,0.8,14,3
+geography,geo-urban-s6,6. Urban planning and renewal,17,98,10,1815,16.8,43.0,11.1,20.4,2.0,1.0,0,0,1.0,12,3
+geography,geo-urban-s7,7. Developing-world cities,39,125,1,1824,14.5,48.1,10.1,17.5,1.6,1.6,0,0,8.8,11,3
+geography,geo-urban-s8,8. The future of urbanism,14,69,12,1245,15.4,45.7,10.7,17.5,0.0,2.9,0,5,13.0,8,3
+geography,geo-volcanoes-earthquakes-s1,1. The geography of volcanoes,14,75,5,1333,16.7,48.1,9.9,19.0,0.0,5.4,1,1,6.7,14,3
+geography,geo-volcanoes-earthquakes-s2,2. The geography of earthquakes,22,90,9,1340,13.5,49.7,9.0,18.6,0.0,2.2,1,0,4.4,14,3
+geography,geo-volcanoes-earthquakes-s3,3. Landforms from volcanic and plutonic structures,19,85,3,1203,13.7,59.9,7.7,15.1,0.0,1.3,7,0,8.2,17,3
+geography,geo-volcanoes-earthquakes-s4,4. Landforms from sedimentary structures,17,57,4,795,13.0,63.8,6.9,13.3,0.0,1.9,3,1,7.0,15,3
+geography,geo-volcanoes-earthquakes-s5,5. Landforms from structures of deformation,23,84,2,1162,13.5,64.1,7.3,12.4,0.0,1.3,7,0,7.1,16,3
+geography,geo-weather-climate-s1,Weather maps and weather data,13,90,12,2224,21.8,55.0,10.1,14.4,3.3,4.4,0,2,34.4,13,3
+geography,geo-weather-climate-s2,Satellite imagery,10,62,5,1425,21.3,43.3,12.3,16.5,4.8,9.7,0,1,38.7,8,3
+geography,geo-weather-climate-s3,Geographical information systems (GIS),12,69,6,1857,24.8,34.5,14.1,20.2,2.9,24.6,0,1,40.6,13,3
+history,hist-eur1-s1,"1. The Vienna settlement and the system of Metternich under attack, 1815–1848",9,67,4,1693,23.8,32.2,14.5,21.1,1.5,0.0,0,1,17.9,11,0
+history,hist-eur1-s10,"10. Case study: Haussmann's Paris, and city planning",10,64,1,1540,23.7,49.4,12.3,14.7,0.0,3.1,0,0,3.1,8,0
+history,hist-eur1-s11,"11. Cultural nationalism, the churches and social change, and developments in science",10,69,3,1758,24.4,30.9,14.6,23.7,0.0,5.8,0,1,7.2,11,0
+history,hist-eur1-s2,2. Case study: the 1848 Revolution in Germany,11,72,3,1727,23.0,34.9,13.9,21.8,1.4,2.8,0,0,11.1,12,0
+history,hist-eur1-s3,"3. The Germanic lands from Confederation to Empire, 1850–1871",10,70,2,1776,24.7,35.5,14.1,19.3,0.0,0.0,0,0,2.9,10,0
+history,hist-eur1-s4,"4. Italy moves towards unity, 1815–1871",9,66,2,1651,24.3,32.3,14.7,23.0,0.0,0.0,0,1,9.1,11,0
+history,hist-eur1-s5,5. Autocracy in the East: Balkan nationalism (Greece and Serbia) and serfdom in Russia,10,69,1,1700,24.3,36.4,14.1,19.9,1.4,1.4,0,0,7.2,11,0
+history,hist-eur1-s6,"6. The State in France: monarchy, republic and Empire, 1815–1871",10,65,3,1755,25.8,33.3,14.8,23.6,1.5,3.1,0,1,12.3,11,0
+history,hist-eur1-s7,"7. The changing economy and society: agriculture, industrialisation, urban growth and education",10,66,2,1585,23.3,42.8,12.8,17.9,0.0,3.0,0,0,1.5,9,0
+history,hist-eur1-s8,"8. Responses to industrial society: trade unionism, socialism, Chartism, mass politics and Peel",10,66,5,1803,25.4,36.5,14.1,20.8,1.5,7.6,0,0,13.6,8,0
+history,hist-eur1-s9,9. Case study: Robert Owen's model village at New Lanark,10,61,1,1449,23.4,43.0,13.1,16.6,6.6,1.6,0,2,3.3,8,0
+history,hist-eur2-s1,"1. The Second Reich, Bismarck's foreign policy and the changing balance of power, 1871–1890",10,73,5,2251,28.9,38.9,13.0,20.5,4.1,4.1,0,2,26.0,11,0
+history,hist-eur2-s10,"10. Culture and religion: national identity, the literature of WWI, church–state tensions and anti-Semitism, 1871–1920",9,66,5,2245,31.6,42.7,11.9,21.2,1.5,9.1,0,1,9.1,10,0
+history,hist-eur2-s11,"11. Science, technology and medicine; case study: the invention and early history of the motor car, 1871–1920",8,62,3,1847,28.4,49.0,10.5,17.9,0.0,4.8,0,1,0.0,9,0
+history,hist-eur2-s2,"2. The structures of European diplomacy, the New Imperialism and colonial rivalries, 1890–1914",9,64,3,1827,27.3,36.0,13.6,20.7,3.1,6.2,0,2,28.1,10,0
+history,hist-eur2-s3,"3. Wilhelm II and Weltpolitik; case study: the naval policy of Wilhelm II, 1890–1914",8,61,3,1803,28.2,44.6,12.5,16.9,6.6,6.6,0,2,24.6,8,0
+history,hist-eur2-s4,"4. Serbia, the Second International and the outbreak of war in 1914",9,67,3,1905,27.2,40.1,12.3,19.3,0.0,0.0,0,2,17.9,9,0
+history,hist-eur2-s5,"5. The conduct of war, 1914–1918",10,67,5,2142,29.8,46.3,11.3,18.2,0.0,1.5,0,2,13.4,10,0
+history,hist-eur2-s6,"6. War and revolution in Germany, and the Peace Settlement, 1918–1920",10,71,4,2300,30.7,38.9,12.7,22.1,2.8,4.2,0,3,12.7,9,0
+history,hist-eur2-s7,"7. Economic growth and social tensions: industrialisation in Germany and the Krupp family, 1871–1914",9,60,3,1729,27.4,46.2,11.5,17.4,0.0,8.3,0,2,3.3,8,0
+history,hist-eur2-s8,"8. Industrialisation, economic crisis and revolution in Tsarist Russia, 1871–1920",10,66,3,1970,28.6,41.9,11.8,20.6,1.5,4.5,0,0,12.1,10,0
+history,hist-eur2-s9,9. The impact of war on society and economy; case study: women in the workforce during World War I,10,61,2,1854,29.4,43.0,12.0,18.7,1.6,8.2,0,0,3.3,8,0
+history,hist-eur3-s1,1. Origins and growth of the fascist regimes: Mussolini's Italy,10,75,10,2199,25.9,27.8,15.7,23.7,0.0,4.0,0,1,18.7,12,0
+history,hist-eur3-s10,"10. Society during World War II: the Home Front, rationing, evacuees, refugees, collaboration and resistance",10,65,10,1831,24.4,31.0,14.9,22.4,1.5,4.6,0,1,6.2,12,0
+history,hist-eur3-s11,11. Anti-Semitism and the Holocaust,10,61,10,1867,26.3,31.6,15.4,20.4,0.0,0.0,0,0,11.5,12,0
+history,hist-eur3-s12,12. Nazi propaganda; case study: the Nuremberg Rallies,10,60,10,1954,27.9,36.8,15.1,17.6,0.0,11.7,0,1,8.3,12,0
+history,hist-eur3-s13,13. Church-state relations under Mussolini and Hitler; Anglo-American popular culture: radio and cinema,10,65,10,2096,27.9,34.3,15.4,19.9,0.0,7.7,0,2,6.2,11,0
+history,hist-eur3-s2,"2. Weimar Germany and the rise of Hitler, 1920-1933",10,72,10,2292,28.0,33.1,15.4,19.9,2.8,8.3,0,0,18.1,12,0
+history,hist-eur3-s3,"3. The Nazi state in peace, 1933-1939, and Hitler's foreign policy",10,73,10,2081,25.1,33.5,14.7,21.7,2.7,6.8,0,0,9.6,12,0
+history,hist-eur3-s4,"4. Communism in Russia: Lenin, Stalin and the Soviet alternative",10,85,10,2373,25.0,33.0,14.8,20.1,1.2,4.7,0,0,7.1,12,0
+history,hist-eur3-s5,5. Case study: Stalin's show trials,10,72,10,2197,26.8,34.0,15.0,21.5,0.0,6.9,0,0,26.4,11,0
+history,hist-eur3-s6,"6. France: the Third Republic, 1920-1940, and the Vichy state",9,84,9,2438,26.2,34.8,14.9,21.2,0.0,3.6,0,0,8.3,12,0
+history,hist-eur3-s7,"7. Economic and social problems of inter-war Britain, and Keynes",10,61,10,1872,26.4,35.3,14.8,20.1,1.6,8.2,0,0,6.6,12,0
+history,hist-eur3-s8,"8. Case study: the Jarrow March, October 1936",10,60,10,1792,25.6,43.2,13.5,17.8,5.0,1.7,0,1,15.0,10,0
+history,hist-eur3-s9,"9. The Second World War: blitzkrieg, wartime alliances, the technology of warfare and Churchill",10,70,10,2014,25.2,36.6,14.3,18.8,0.0,5.7,0,1,7.1,12,0
+history,hist-eur4-s1,"1. Origins of the Cold War, the division of Germany and the Sovietisation of Eastern Europe, 1945–1949",8,69,8,1913,24.8,33.1,14.7,19.2,1.4,4.3,0,0,21.7,12,0
+history,hist-eur4-s10,"10. Literature and social criticism, East and West; changing patterns in religious observance",8,63,8,1732,24.4,36.2,14.3,20.3,0.0,3.2,0,0,11.1,9,0
+history,hist-eur4-s11,11. Case study: the Second Vatican Council,8,62,8,1713,24.5,37.1,14.2,20.3,3.2,3.2,0,2,9.7,9,0
+history,hist-eur4-s12,12. Youth and popular culture (including sport) and the mass media,8,61,7,1740,25.6,42.9,13.5,16.0,1.6,14.8,0,1,13.1,9,0
+history,hist-eur4-s13,"13. The impact of advances in the biological sciences, nuclear power and the computer",8,64,8,1644,22.8,34.0,14.1,21.5,0.0,6.2,0,1,7.8,9,0
+history,hist-eur4-s2,"2. The main crises of the Cold War, Khrushchev and détente",10,75,10,1975,23.2,39.3,13.5,18.1,0.0,4.0,0,1,9.3,12,0
+history,hist-eur4-s3,"3. Case study: the Hungarian Uprising, 1956",9,61,9,1778,25.4,31.3,15.2,22.9,1.6,0.0,0,1,21.3,10,0
+history,hist-eur4-s4,"4. Reform movements in Eastern Europe, the collapse of the Soviet Union, and fragmentation and realignment, 1953–1992",9,69,9,1895,24.3,32.0,14.8,22.1,0.0,1.4,0,1,14.5,12,0
+history,hist-eur4-s5,"5. Moves towards European unity and the EEC, 1945–1992",9,65,9,1804,24.4,33.5,14.6,20.3,1.5,3.1,0,1,12.3,11,0
+history,hist-eur4-s6,"6. The Western economies, 1945–1973: growth, Marshall Aid, free trade, immigration and the welfare state",8,62,8,1686,24.1,33.0,14.6,21.9,0.0,0.0,0,1,14.5,10,0
+history,hist-eur4-s7,"7. Case study: the Oil Crisis, 1973, and the Western economies, 1973–1990; Margaret Thatcher",9,61,9,1642,23.5,38.6,13.7,19.5,3.3,3.3,0,1,8.2,9,0
+history,hist-eur4-s8,8. The communist economies: problems and outcomes,8,60,8,1746,25.7,32.2,15.1,20.6,5.0,5.0,0,2,10.0,10,0
+history,hist-eur4-s9,"9. Marriage, the family and the changing role of women; affluence, leisure time and the consumer society",8,60,8,1623,23.9,37.5,14.0,20.6,0.0,6.7,0,2,10.0,9,0
+history,hist-eur5-s1,"1. World War II and Asia; case study: British withdrawal from India, 1945–1947",10,79,7,2121,24.7,35.5,14.2,19.1,2.5,1.3,0,0,32.9,11,0
+history,hist-eur5-s10,"10. Culture and religion: indigenous and colonial culture, Islam and Christianity, English as a world language and post-colonial literature",9,66,4,1895,27.1,28.8,15.8,23.0,0.0,6.1,0,0,12.1,11,0
+history,hist-eur5-s2,2. Independence struggles in Indochina and the East Indies,9,76,5,2033,25.1,30.8,15.2,23.1,0.0,2.6,0,1,28.9,12,0
+history,hist-eur5-s3,"3. British withdrawal from Palestine, the origins of the Arab–Israeli conflict and the Suez Crisis, 1956",10,74,6,2192,27.4,35.2,14.8,19.3,1.4,2.7,0,0,33.8,12,0
+history,hist-eur5-s4,4. Africa and the “winds of change”: Algeria and de Gaulle,9,66,3,1885,27.3,33.2,15.4,20.4,0.0,0.0,0,0,16.7,12,0
+history,hist-eur5-s5,"5. Africa: Nigeria, the Congo, Tanzania and Angola",10,70,3,1924,26.4,27.7,15.8,24.6,1.4,4.3,0,0,24.3,12,0
+history,hist-eur5-s6,"6. Case study: the secession of Katanga, 1960–1965",9,62,2,1904,29.8,24.8,17.2,25.2,0.0,1.6,0,0,29.0,11,0
+history,hist-eur5-s7,"7. Economic consequences of decolonisation: the Lomé Conventions, trade, aid and famine, and Nyerere's ujamaa",9,65,5,1899,27.1,29.9,15.8,22.0,0.0,12.3,0,0,18.5,12,0
+history,hist-eur5-s8,8. Immigration patterns and policies in Britain and France; multi-racial Britain,10,60,2,1615,26.0,29.7,15.6,20.8,0.0,3.3,0,1,20.0,11,0
+history,hist-eur5-s9,9. Case study: race relations in France in the 1980s,10,61,1,1687,27.2,35.3,15.1,18.9,0.0,3.3,0,0,6.6,11,0
+history,hist-eur6-s1,"1. US politics: structures and tensions, and the Presidency from Roosevelt to Reagan",10,83,6,2231,25.1,32.1,14.6,21.9,2.4,1.2,0,1,20.5,12,0
+history,hist-eur6-s10,"10. Case study: the Montgomery bus boycott, 1956",9,69,8,2334,30.3,41.9,13.9,16.9,5.8,5.8,0,0,11.6,8,0
+history,hist-eur6-s11,"11. Culture: consensus and its collapse — Hollywood, the red scare, youth culture, counter-culture and multiculturalism",9,71,9,2251,28.1,38.8,14.5,18.9,0.0,14.1,0,0,9.9,11,0
+history,hist-eur6-s12,"12. Religion, the mass media and mass higher education in modern American culture",8,72,8,2171,27.1,31.2,15.4,21.7,0.0,5.6,0,0,6.9,10,0
+history,hist-eur6-s13,"13. Advances in military, space and information technology; case study: the Moon landing, 1969",8,78,8,2237,26.0,34.5,14.8,20.1,1.3,3.8,0,0,7.7,10,0
+history,hist-eur6-s2,"2. US foreign policy, 1945–1972: Berlin, Korea, Cuba and Vietnam",9,77,7,2104,25.0,37.9,14.0,18.6,0.0,3.9,0,0,19.5,14,0
+history,hist-eur6-s3,"3. Case study: Lyndon Johnson and Vietnam, 1963–1968",10,76,9,2385,28.1,36.5,14.9,18.9,0.0,1.3,0,1,3.9,12,0
+history,hist-eur6-s4,"4. Domestic factors in US foreign policy: McCarthyism, the anti-war movement and race relations",8,60,8,1820,26.8,36.6,14.1,20.6,0.0,3.3,0,2,11.7,10,0
+history,hist-eur6-s5,"5. The decline of Cold War certainties, 1973–1989: withdrawal from Vietnam, détente, SALT and Star Wars",9,61,9,1878,26.8,34.0,15.0,20.2,1.6,3.3,0,0,3.3,8,0
+history,hist-eur6-s6,"6. The US economy, 1945–1968: sources of the boom and the multinational corporation",9,60,9,1715,24.9,34.7,14.2,20.2,0.0,10.0,0,0,0.0,9,0
+history,hist-eur6-s7,"7. The US economy, 1968–1989: Vietnam, the federal deficit, recession and international competition",8,61,8,1706,24.7,39.3,13.9,18.4,4.9,4.9,0,1,0.0,10,0
+history,hist-eur6-s8,"8. Demographic growth and affluence: consumerism, leisure, work, women and the family",8,63,8,1746,24.6,36.8,13.9,19.8,1.6,4.8,0,0,1.6,10,0
+history,hist-eur6-s9,"9. Troubled affluence: racial conflict and the civil rights movement, urban poverty, drugs and crime",8,70,8,2061,26.4,36.2,14.5,19.0,2.9,7.1,0,1,5.7,10,0
+history,hist-ire1-s1,"1. The government of Ireland under the Union and the campaign for Catholic Emancipation, 1815–1829",10,75,2,1935,25.1,32.1,14.9,23.3,4.0,4.0,0,0,22.7,10,0
+history,hist-ire1-s2,"2. O'Connell after 1829, the Tithe War, the Poor Law and Young Ireland, 1830–1848",10,82,3,2240,26.4,33.2,14.7,21.1,2.4,2.4,0,2,26.8,10,0
+history,hist-ire1-s3,"3. The Irish countryside, economic crisis and the Great Famine: causes, course and government responses, 1815–1850",9,69,1,1699,24.3,45.5,12.9,14.8,5.8,5.8,0,1,29.0,10,0
+history,hist-ire1-s4,4. Private responses to Famine and the Famine's impact,10,65,0,1640,25.2,39.6,13.5,17.4,4.6,4.6,0,1,13.8,8,0
+history,hist-ire1-s5,"5. Post-Famine Ireland: economy and society, 1850–1870",9,71,9,1692,21.1,42.7,12.6,17.6,2.8,2.8,0,1,14.1,10,0
+history,hist-ire1-s6,"6. Electoral reform, sectarianism in politics, Fenianism and Liberal reforms, 1850–1870",9,75,9,1760,21.0,35.9,13.5,21.1,1.3,0.0,0,1,8.0,11,0
+history,hist-ire1-s7,"7. Culture, religion and science: identities, the Synod of Thurles, the creative arts and science",13,93,13,2101,19.8,34.8,13.3,23.1,0.0,2.2,0,2,5.4,11,0
+history,hist-ire2-s1,"1. The Home Rule movement: origins, Butt and the rise of Parnell, 1870–1885",9,67,9,1927,25.4,34.1,14.4,21.5,1.5,1.5,0,1,29.9,11,0
+history,hist-ire2-s10,10. Cultural revivals and the consolidation of Catholic identity,10,63,10,1565,21.4,38.6,12.9,21.4,0.0,7.9,0,1,20.6,10,0
+history,hist-ire2-s11,"11. Working with evidence: history, the historian and the documents-based question",10,79,10,2036,22.9,46.5,12.5,16.8,2.5,21.5,0,0,27.8,12,0
+history,hist-ire2-s2,"2. Land agitation and land reform, 1870–1914",9,65,9,1642,22.2,46.7,11.8,17.0,1.5,0.0,0,1,26.2,10,0
+history,hist-ire2-s3,3. Case study: the elections of 1885 and 1886 — issues and outcomes,10,73,10,1934,23.3,38.5,13.5,19.7,1.4,4.1,0,1,20.5,10,0
+history,hist-ire2-s4,"4. Parnell’s fall, Redmond’s leadership and Home Rule’s rivals, 1886–1914",9,71,9,1823,22.8,41.2,12.9,19.1,0.0,2.8,0,5,29.6,11,0
+history,hist-ire2-s5,"5. Unionism and the Ulster Question, 1870–1914",8,61,8,1571,22.8,33.6,14.1,22.6,0.0,3.3,0,2,21.3,10,0
+history,hist-ire2-s6,6. The suffrage movement and educational reforms,9,61,9,1588,22.7,31.1,14.5,21.3,0.0,4.9,0,2,24.6,10,0
+history,hist-ire2-s7,"7. Unionisation of the working classes and the Dublin strike and lockout, 1913",10,69,10,1761,22.3,41.4,13.0,17.0,0.0,1.4,0,0,20.3,10,0
+history,hist-ire2-s8,8. The co-operative movement and industrial Belfast: the shipyards,9,60,9,1374,19.9,35.7,13.1,21.7,1.7,5.0,0,3,11.7,9,0
+history,hist-ire2-s9,9. Case study: the GAA to 1891,10,62,10,1565,21.7,43.8,12.1,17.3,1.6,4.8,0,1,19.4,9,0
+history,hist-ire3-s1,"1. The Home Rule Bill, World War I and the 1916 Rising, 1912–1916",10,84,10,2296,24.4,44.5,12.3,16.7,1.2,0.0,0,0,34.5,12,0
+history,hist-ire3-s10,"10. State and culture, North and South: language, religion, education and cultural identity, 1920–1949",9,60,9,1367,19.8,42.7,12.2,19.8,6.7,6.7,0,0,5.0,10,0
+history,hist-ire3-s11,"11. Case study: the Eucharistic Congress, 1932",8,60,8,1385,20.4,46.2,11.8,18.3,1.7,1.7,0,0,6.7,8,0
+history,hist-ire3-s2,"2. The second Sinn Féin, the 1918 election and the War of Independence, 1917–1921",10,84,10,2215,23.6,49.6,11.7,16.4,3.6,2.4,0,4,21.4,12,0
+history,hist-ire3-s3,"3. Partition and Northern Ireland under the Unionist Party, 1912–1949",10,72,10,1902,23.2,37.9,13.4,21.7,1.4,2.8,0,2,16.7,10,0
+history,hist-ire3-s4,"4. Case study: the Treaty negotiations, October–December 1921",10,81,10,2372,26.1,43.1,13.3,18.6,2.5,1.2,0,3,27.2,10,0
+history,hist-ire3-s5,"5. The Civil War, state building and the consolidation of democracy, 1922–1932",8,62,8,1638,23.4,38.8,13.2,20.8,0.0,0.0,0,1,24.2,12,0
+history,hist-ire3-s6,"6. De Valera in power, Anglo-Irish relations and from Free State to Republic, 1932–1949",9,61,9,1564,22.3,35.7,13.5,23.9,1.6,3.3,0,1,14.8,12,0
+history,hist-ire3-s7,"7. Economy and society: world crisis and from free trade to protectionism, 1922–1945",8,58,8,1394,21.1,45.8,11.9,18.1,0.0,3.4,0,0,5.2,11,0
+history,hist-ire3-s8,8. The impact of World War II on independent Ireland,9,67,9,1460,19.2,43.2,11.8,19.8,3.0,3.0,0,0,9.0,10,0
+history,hist-ire3-s9,9. Northern Ireland during World War II and case study: Belfast during World War II,9,59,9,1243,18.3,45.6,11.4,18.7,5.1,6.8,0,0,5.1,8,0
+history,hist-ire4-s1,"1. Emigration before and during the Famine, 1840–1855, and case study: Grosse Isle",10,70,3,1793,24.6,42.3,13.3,15.9,5.7,4.3,0,0,25.7,10,0
+history,hist-ire4-s2,"2. Emigration, 1855–1914 and 1920–1966; restriction and regulation after 1920",10,71,3,1852,25.0,37.8,14.0,18.2,1.4,7.0,0,1,16.9,11,0
+history,hist-ire4-s3,3. The Irish in the USA and Britain: anti-Irish sentiment and political participation,10,70,10,1929,24.1,37.7,13.2,20.7,2.9,4.3,0,3,10.0,10,0
+history,hist-ire4-s4,4. Irish nationalism and Ulster Unionism as international forces,9,63,8,1744,24.6,29.9,14.9,22.6,3.2,4.8,0,2,11.1,10,0
+history,hist-ire4-s5,"5. Case study: de Valera in America, June 1919–December 1920",10,63,9,1613,22.4,35.6,13.4,23.4,3.2,1.6,0,0,1.6,8,0
+history,hist-ire4-s6,"6. The Catholic Church, the GAA, Protestant churches and the Orange Order abroad",9,64,6,1712,24.5,35.1,13.7,22.6,1.6,7.8,0,0,4.7,9,0
+history,hist-ire4-s7,"7. Irish missionaries in Africa and Asia; case study: the Holy Ghost mission to Nigeria, 1945–1966",10,74,7,1854,22.9,37.5,13.4,19.8,2.7,2.7,0,1,10.8,9,0
+history,hist-ire4-s8,"8. Images of Ireland: film, music, tourism and heritage, and John F. Kennedy",9,61,7,1586,23.3,39.3,13.0,20.9,0.0,4.9,0,4,4.9,8,0
+history,hist-ire5-s1,"1. Brookeborough's Northern Ireland and the welfare state, 1949–1963",10,72,9,1759,21.7,30.7,14.4,23.9,4.2,1.4,0,1,4.2,10,0
+history,hist-ire5-s10,10. Case study: the Apprentice Boys of Derry,10,61,6,1500,22.4,39.8,13.3,19.7,0.0,0.0,0,1,6.6,10,0
+history,hist-ire5-s2,"2. O'Neill and the Civil Rights movement, 1963–1969",10,82,9,2010,22.1,37.4,13.5,20.4,0.0,1.2,0,1,6.1,11,0
+history,hist-ire5-s3,3. Case study: the Coleraine University controversy,9,62,6,1431,21.0,31.8,14.0,22.2,3.2,1.6,0,1,0.0,9,0
+history,hist-ire5-s4,"4. The outbreak of the Troubles: from 1969 to Direct Rule, 1972",11,76,9,1837,21.6,36.2,13.6,20.0,2.6,2.6,0,1,9.2,12,0
+history,hist-ire5-s5,"5. Case study: the Sunningdale Agreement and the power-sharing executive, 1973–1974",10,67,6,1743,23.9,29.3,15.1,24.8,1.5,0.0,0,3,4.5,9,0
+history,hist-ire5-s6,"6. Direct Rule and the search for a settlement, 1974–1993",11,87,10,2362,24.4,36.5,14.2,20.7,1.1,0.0,0,2,5.7,12,0
+history,hist-ire5-s7,"7. Republican and Loyalist terrorism and the Republic's responses to the Troubles, 1969–1993",10,73,6,1838,23.3,35.7,14.1,19.6,0.0,1.4,0,0,6.8,11,0
+history,hist-ire5-s8,8. The impact of the Troubles on the economy and society,10,63,8,1421,20.0,35.7,13.2,21.7,3.2,1.6,0,0,1.6,11,0
+history,hist-ire5-s9,"9. Religious affiliation, cultural identity, ecumenism and cultural responses to the Troubles",10,70,8,1724,22.1,30.7,14.5,23.8,0.0,5.7,0,1,2.9,11,0
+history,hist-ire6-s1,"1. Alternating governments and their economic and social policies, 1948–1959",9,60,8,1711,25.2,41.9,13.2,19.0,5.0,3.3,0,3,11.7,9,0
+history,hist-ire6-s10,"10. Case study: the impact of RTÉ, 1962–1972",10,60,4,1691,26.4,38.1,14.5,18.8,0.0,10.0,0,0,8.3,10,0
+history,hist-ire6-s2,"2. Economic planning and the move to free trade; case study: the First Programme for Economic Expansion, 1958–1963",10,65,8,1752,24.0,43.0,13.1,18.4,6.2,4.6,0,7,6.2,9,0
+history,hist-ire6-s3,"3. Changes in education, health and social welfare provision",10,60,4,1510,23.6,33.0,14.3,22.7,3.3,5.0,0,1,3.3,10,0
+history,hist-ire6-s4,"4. Economic and social challenges of the 1970s and 1980s: Lynch, Haughey and FitzGerald",10,67,6,1856,25.4,40.7,13.8,19.2,1.5,0.0,0,5,19.4,10,0
+history,hist-ire6-s5,"5. Anglo-Irish relations, 1949–1989",10,60,4,1590,24.8,35.4,14.3,21.4,0.0,1.7,0,2,8.3,9,0
+history,hist-ire6-s6,6. Increasing international involvement: the UN and the EEC,10,60,4,1580,24.7,33.0,14.8,21.5,1.7,0.0,0,2,10.0,9,0
+history,hist-ire6-s7,7. The impact of EEC membership; case study: the impact of the EEC on fisheries,10,60,2,1527,24.6,38.3,13.8,19.0,5.0,6.7,0,2,5.0,10,0
+history,hist-ire6-s8,"8. Demographic and social change: the status of women and social change, 1949–1989",10,60,4,1591,24.9,37.2,14.2,19.7,0.0,3.3,0,4,11.7,10,0
+history,hist-ire6-s9,"9. Culture and religion: the Irish language, Vatican II and the communications revolution",10,61,4,1740,26.8,37.3,14.6,19.0,1.6,6.6,0,7,8.2,11,0
+home-economics,hom-appliances-equipment-s1,1. Household technology and home management,5,24,1,430,17.2,36.3,12.5,22.6,0.0,12.5,0,0,0.0,10,2
+home-economics,hom-appliances-equipment-s2,2. Selecting a large and a small household appliance,8,45,3,913,19.0,46.1,11.6,17.7,4.4,6.7,0,0,13.3,10,2
+home-economics,hom-appliances-equipment-s3,3. An appliance with a motor,6,34,2,800,22.2,53.7,11.3,12.5,3.1,3.1,2,1,20.6,8,2
+home-economics,hom-appliances-equipment-s4,4. An appliance with a heating element,6,30,1,672,21.7,52.1,11.4,13.2,6.9,0.0,1,0,10.0,10,2
+home-economics,hom-appliances-equipment-s5,5. A refrigeration appliance,6,41,1,823,19.6,46.2,11.3,18.8,7.5,2.5,1,0,4.9,10,2
+home-economics,hom-appliances-equipment-s6,6. A microwave oven,6,50,1,921,18.1,48.9,10.4,18.7,16.7,4.2,2,0,6.0,10,2
+home-economics,hom-carbohydrates-s1,1. Formation of carbohydrates in plants,4,14,1,229,15.3,48.6,10.0,19.7,0.0,7.7,1,0,0.0,8,2
+home-economics,hom-carbohydrates-s2,"2. Composition, structure and classification",4,18,1,331,17.4,37.8,12.3,19.0,0.0,0.0,2,1,16.7,9,2
+home-economics,hom-carbohydrates-s3,3. Sources,4,16,0,265,16.6,64.6,8.4,9.4,6.2,25.0,0,0,25.0,7,2
+home-economics,hom-carbohydrates-s4,4. Properties,9,41,1,769,18.3,47.4,11.2,13.9,0.0,0.0,0,0,12.2,10,2
+home-economics,hom-carbohydrates-s5,5. Functions,4,22,1,301,13.1,48.2,9.8,17.9,9.1,4.5,0,0,0.0,7,2
+home-economics,hom-carbohydrates-s6,6. Energy value and dietary fibre targets,6,34,0,609,17.9,51.7,10.5,16.6,0.0,20.6,0,0,5.9,8,2
+home-economics,hom-cereals-grains-s1,1. Structure and nutritional significance,6,31,1,630,19.7,51.2,11.0,15.7,3.3,0.0,1,0,22.6,9,2
+home-economics,hom-cereals-grains-s2,2. Cereals and cereal products,5,27,2,493,17.0,56.6,9.6,11.6,7.4,25.9,0,0,14.8,8,2
+home-economics,hom-cereals-grains-s3,3. Milling and flour,4,25,2,531,19.7,52.1,10.9,14.3,8.3,4.2,1,0,28.0,8,2
+home-economics,hom-cereals-grains-s4,4. Preparation and cooking of cereals,4,26,3,537,18.5,57.6,9.8,8.6,7.7,3.8,0,2,15.4,9,2
+home-economics,hom-cereals-grains-s5,5. Two types of pastry,4,27,3,605,20.2,66.1,9.0,7.4,18.5,3.7,0,3,22.2,8,2
+home-economics,hom-clothing-selection-s1,1. Textile care,7,39,7,922,20.0,52.2,11.0,13.9,12.8,10.3,0,0,15.4,8,2
+home-economics,hom-clothing-selection-s2,2. Influences on clothing,4,25,2,483,17.9,44.2,11.5,18.2,0.0,16.0,0,0,0.0,8,2
+home-economics,hom-clothing-selection-s3,3. Current fashion trends,6,35,3,677,17.8,41.2,11.9,18.6,0.0,17.1,0,0,0.0,8,2
+home-economics,hom-clothing-selection-s4,4. Elements and principles of design in clothing,7,35,3,717,18.9,57.7,9.9,11.3,0.0,20.0,0,0,2.9,8,2
+home-economics,hom-clothing-selection-s5,5. The design process and garment construction,10,59,3,1157,18.7,58.9,9.2,11.6,1.7,3.4,1,0,8.5,8,2
+home-economics,hom-clothing-selection-s6,6. The clothing and textile industries in Ireland,7,37,2,594,15.2,38.0,11.7,20.4,0.0,5.4,0,0,0.0,8,2
+home-economics,hom-consumer-rights-s1,1. Consumer choices,10,60,9,1366,19.8,46.0,11.8,17.0,11.7,21.7,0,1,13.3,9,2
+home-economics,hom-consumer-rights-s2,2. The purchasing process,5,37,5,734,17.5,41.2,11.9,20.2,2.7,24.3,0,1,2.7,12,2
+home-economics,hom-consumer-rights-s3,3. Consumer responsibility: information and rights,5,31,5,605,16.8,42.5,11.5,21.2,0.0,3.2,0,0,9.7,8,2
+home-economics,hom-consumer-rights-s4,4. Consumer protection legislation,7,29,7,657,18.2,45.5,11.4,21.5,3.4,6.9,0,0,6.9,8,2
+home-economics,hom-consumer-rights-s5,5. Voluntary and statutory consumer protection bodies,8,29,7,506,14.1,22.5,13.6,31.8,0.0,13.8,0,0,3.4,8,2
+home-economics,hom-consumer-rights-s6,6. Complaints and the small claims procedure,6,29,6,560,16.0,55.9,8.8,17.1,3.4,3.4,0,0,6.9,8,2
+home-economics,hom-cooking-methods-s1,1. Physical and chemical changes during preparation and cooking,6,41,4,853,19.0,47.7,10.6,15.4,7.3,9.8,0,1,7.3,10,2
+home-economics,hom-cooking-methods-s2,2. Heat transfer and the principles of cooking,6,40,3,882,20.5,60.9,9.7,8.7,13.5,2.7,3,0,22.5,9,2
+home-economics,hom-cooking-methods-s3,3. Choice of cooking method,6,35,1,690,19.2,62.2,9.3,7.5,14.3,8.6,0,1,31.4,10,2
+home-economics,hom-cooking-methods-s4,4. Soups and sauces,8,44,2,857,18.6,56.9,9.8,13.4,6.8,9.1,0,0,22.7,11,2
+home-economics,hom-cooking-methods-s5,5. Food preparation and cooking equipment,4,29,1,603,20.1,61.7,9.6,10.9,20.7,3.4,0,0,31.0,9,2
+home-economics,hom-cooking-methods-s6,"6. Recipe balance, presentation and dishes for different needs",7,46,3,986,20.1,54.5,10.6,14.0,8.7,28.3,0,0,4.3,10,2
+home-economics,hom-cooking-methods-s7,7. Food Studies practical coursework,6,29,3,591,18.5,36.4,11.9,26.7,0.0,0.0,0,0,17.2,9,2
+home-economics,hom-dairy-eggs-s1,1. Milk: nutritional significance and contribution to the diet,6,33,1,520,15.3,54.9,9.3,16.2,0.0,6.1,0,1,6.1,9,2
+home-economics,hom-dairy-eggs-s2,2. Milk processing,8,40,2,503,12.0,43.7,9.7,23.5,0.0,0.0,0,0,2.5,9,2
+home-economics,hom-dairy-eggs-s3,"3. Cream, butter and yoghurt",10,61,1,760,12.3,58.9,7.7,13.4,1.6,8.2,0,0,0.0,9,2
+home-economics,hom-dairy-eggs-s4,4. Cheese,9,61,0,788,12.9,54.7,8.5,16.8,3.3,4.9,0,0,16.4,10,2
+home-economics,hom-dairy-eggs-s5,"5. Eggs: structure, nutritional significance and contribution to the diet",4,28,1,409,14.1,59.6,8.3,17.1,0.0,3.8,2,0,3.6,8,2
+home-economics,hom-dairy-eggs-s6,"6. Eggs: selection, storage, properties and culinary uses",7,48,1,561,11.4,57.1,8.1,17.5,0.0,4.2,0,0,2.1,9,2
+home-economics,hom-digestion-metabolism-s1,1. Digestion and absorption of protein,7,40,1,648,15.8,36.0,12.2,22.7,2.7,2.7,3,0,17.5,8,2
+home-economics,hom-digestion-metabolism-s2,2. Digestion and absorption of carbohydrates,7,37,1,545,14.3,32.4,12.3,21.8,3.0,0.0,4,0,5.4,9,2
+home-economics,hom-digestion-metabolism-s3,3. Digestion and absorption of lipids,7,32,1,543,16.5,36.0,12.3,18.8,0.0,0.0,3,0,6.2,9,2
+home-economics,hom-education-s1,1. The purpose of education,6,29,1,469,15.6,30.6,12.9,24.5,0.0,17.2,0,0,0.0,9,2
+home-economics,hom-education-s2,2. Factors that influence educational achievement,3,18,1,321,16.9,42.9,11.5,20.9,0.0,5.6,0,0,5.6,9,2
+home-economics,hom-education-s3,3. The provision of education in Ireland,7,45,3,894,18.6,27.9,14.0,23.6,0.0,8.9,0,1,2.2,10,2
+home-economics,hom-education-s4,4. Equality of opportunity in education,5,23,1,471,19.6,34.4,13.3,18.3,4.3,8.7,0,0,4.3,8,2
+home-economics,hom-education-s5,5. Contemporary initiatives to improve access to education,3,18,1,392,20.6,23.0,15.2,21.7,5.6,11.1,0,0,0.0,10,2
+home-economics,hom-energy-nutrition-s1,1. Energy requirements and the role of energy,6,26,2,485,17.3,47.1,11.0,19.0,7.7,3.8,0,0,19.2,8,2
+home-economics,hom-energy-nutrition-s2,2. Energy balance,8,47,4,737,14.5,49.1,9.6,19.8,2.1,6.4,0,0,4.3,8,2
+home-economics,hom-energy-nutrition-s3,3. Energy value of the nutrients,6,26,2,498,17.8,54.1,10.1,15.5,0.0,7.7,0,0,11.5,9,2
+home-economics,hom-energy-nutrition-s4,4. Dietary guidelines,10,56,2,1068,18.4,53.2,10.4,14.0,3.6,12.5,0,0,8.9,8,2
+home-economics,hom-energy-nutrition-s5,5. The Irish diet,10,58,2,975,16.2,46.6,10.8,19.2,3.4,12.1,0,0,6.9,8,2
+home-economics,hom-energy-nutrition-s6,6. Water,10,39,1,619,15.5,54.2,9.5,13.4,5.1,7.7,0,0,7.7,8,2
+home-economics,hom-environmental-issues-s1,1. Renewable and non-renewable resources,6,28,3,571,18.4,38.3,12.3,20.7,3.6,10.7,0,0,10.7,10,2
+home-economics,hom-environmental-issues-s2,2. Recycling and waste management,8,41,2,747,17.4,38.5,12.2,22.8,4.9,12.2,0,0,7.3,10,2
+home-economics,hom-environmental-issues-s3,3. Pollution,8,41,1,680,16.2,35.3,12.4,25.1,2.4,9.8,0,0,4.9,10,2
+home-economics,hom-environmental-issues-s4,4. Environmentally responsible practices in the home,7,43,1,845,19.2,49.9,11.0,16.2,2.3,2.3,0,0,18.6,10,2
+home-economics,hom-family-caring-s1,1. Roles and responsibilities in the family,6,37,2,638,16.4,34.0,12.6,22.4,2.7,8.1,0,0,0.0,9,2
+home-economics,hom-family-caring-s2,2. Child–parent relationships,8,57,1,838,14.4,42.3,11.0,20.9,1.8,1.8,0,0,0.0,9,2
+home-economics,hom-family-caring-s3,3. Older people in the family,7,47,1,772,16.1,31.8,12.8,23.6,0.0,8.5,0,0,10.6,9,2
+home-economics,hom-family-caring-s4,4. Family members with special needs,3,25,1,402,15.5,26.2,13.5,27.1,4.0,4.0,0,0,0.0,8,2
+home-economics,hom-family-law-s1,1. The Family Law (Maintenance of Spouses and Children) Act 1976,4,16,1,364,21.4,47.0,12.0,19.0,0.0,6.2,0,0,6.2,7,2
+home-economics,hom-family-law-s2,2. The Family Home Protection Act 1976,5,16,1,365,21.5,52.5,11.3,13.7,0.0,0.0,0,0,6.2,6,2
+home-economics,hom-family-law-s3,3. Barring orders under the Domestic Violence Act 2018,4,18,1,393,20.7,48.3,11.7,17.3,0.0,5.6,0,0,0.0,7,2
+home-economics,hom-family-law-s4,4. The Judicial Separation and Family Law Reform Act 1989,4,17,1,342,19.0,45.6,11.4,19.3,17.6,0.0,0,1,0.0,7,2
+home-economics,hom-family-law-s5,5. The Child Care Act 1991,4,16,1,393,23.1,49.7,12.1,18.1,18.8,6.2,0,0,0.0,7,2
+home-economics,hom-family-law-s6,6. Making a will,5,21,1,441,20.0,55.7,10.5,15.6,0.0,4.8,0,0,0.0,7,2
+home-economics,hom-family-society-s1,1. Defining the family,5,20,2,427,19.4,25.3,14.6,28.6,0.0,20.0,0,0,30.0,10,2
+home-economics,hom-family-society-s2,2. The historical development of the Irish family,4,26,4,493,16.4,32.3,12.8,24.9,0.0,0.0,0,0,0.0,8,2
+home-economics,hom-family-society-s3,3. Modern family structures,5,24,3,442,16.4,41.1,11.6,19.7,0.0,8.3,0,0,0.0,8,2
+home-economics,hom-family-society-s4,4. Changes affecting family structures,4,25,3,458,16.4,36.0,12.3,23.4,0.0,12.0,0,0,0.0,8,2
+home-economics,hom-family-society-s5,5. Family functions,6,30,5,575,16.4,32.1,12.9,23.7,0.0,0.0,0,0,0.0,11,2
+home-economics,hom-fish-seafood-s1,"1. Classification, nutritional significance and contribution to the diet",4,34,2,526,14.6,59.9,8.3,12.7,5.9,8.8,0,0,5.9,8,2
+home-economics,hom-fish-seafood-s2,"2. Selection, spoilage and storage",4,27,3,474,15.8,60.5,8.7,12.4,14.8,0.0,0,0,25.9,8,2
+home-economics,hom-fish-seafood-s3,3. Preparation and cooking,5,26,2,542,19.4,61.7,9.0,10.3,11.5,3.8,0,0,15.4,8,2
+home-economics,hom-fish-seafood-s4,4. Fish processing and fish products,6,34,2,525,14.6,50.2,9.9,16.0,0.0,8.8,0,0,5.9,8,2
+home-economics,hom-food-additives-s1,1. Processed foods and three processed-food profiles,10,57,3,1037,17.3,42.7,11.1,21.3,8.8,3.5,0,0,10.5,12,2
+home-economics,hom-food-additives-s2,2. Packaging and labelling,8,45,1,817,17.8,45.7,11.2,20.9,2.3,6.8,1,0,15.6,10,2
+home-economics,hom-food-additives-s3,3. Contaminants in the food chain,6,25,1,461,17.7,32.1,13.2,24.7,4.0,12.0,0,0,0.0,9,2
+home-economics,hom-food-additives-s4,4. Classes of food additives,10,48,1,832,17.0,36.5,12.4,22.5,10.6,8.5,1,0,14.6,11,2
+home-economics,hom-food-additives-s5,5. Legal control of additives in the EU,5,23,1,385,16.0,38.9,11.8,27.8,4.3,30.4,0,0,4.3,8,2
+home-economics,hom-food-additives-s6,6. Evaluation and sensory analysis,8,49,3,974,18.7,43.8,11.1,19.9,6.2,16.7,1,0,2.0,10,2
+home-economics,hom-food-industry-s1,1. Structure of the Irish food industry,6,37,2,604,15.5,42.8,11.1,21.9,0.0,18.9,0,0,0.0,7,2
+home-economics,hom-food-industry-s2,2. Small businesses and home enterprises,5,25,1,439,16.9,40.4,11.7,24.1,4.0,8.0,0,0,0.0,7,2
+home-economics,hom-food-industry-s3,3. Careers in food and related industries,5,22,0,337,15.3,27.4,13.2,30.9,4.5,9.1,0,0,4.5,7,2
+home-economics,hom-food-preservation-s1,1. Principles of food preservation,6,33,3,620,17.2,46.5,10.8,19.2,3.0,15.2,0,0,12.1,8,2
+home-economics,hom-food-preservation-s2,2. Freezing,7,43,3,850,18.5,55.8,10.1,11.9,14.0,9.3,0,0,18.6,10,2
+home-economics,hom-food-preservation-s3,3. Heat processing,4,28,2,598,19.9,45.1,11.6,16.4,10.7,10.7,0,0,3.6,10,2
+home-economics,hom-food-preservation-s4,4. Dehydration,6,31,1,565,17.7,59.8,9.3,12.7,12.9,9.7,0,2,16.1,8,2
+home-economics,hom-food-preservation-s5,5. Chemical preservation,7,31,1,618,19.3,43.8,12.0,18.3,0.0,16.1,0,2,19.4,10,2
+home-economics,hom-food-preservation-s6,6. Fermentation,7,32,1,599,18.2,34.6,12.9,21.9,3.1,9.4,0,0,6.2,8,2
+home-economics,hom-food-preservation-s7,7. Irradiation,6,28,1,362,12.5,48.1,9.7,21.5,3.6,7.1,0,0,0.0,8,2
+home-economics,hom-food-preservation-s8,8. Comparative evaluation of preserved foods,5,24,1,449,18.0,52.2,10.4,14.0,16.7,12.5,0,0,8.3,8,2
+home-economics,hom-food-preservation-s9,9. Practical application of two methods of preservation,9,43,1,668,15.2,71.1,6.1,9.1,14.0,2.3,0,1,2.3,8,2
+home-economics,hom-food-safety-s1,1. Moulds and yeasts,8,46,3,718,14.7,53.7,9.3,19.9,0.0,7.0,3,0,19.6,10,2
+home-economics,hom-food-safety-s2,2. Food poisoning bacteria,7,38,4,606,14.4,30.5,12.5,26.2,0.0,5.3,0,0,34.2,11,2
+home-economics,hom-food-safety-s3,3. Micro-organisms and the control of microbial spoilage,5,20,3,372,16.2,37.8,12.0,22.6,0.0,5.0,0,0,5.0,8,2
+home-economics,hom-food-safety-s4,4. Uses of micro-organisms in food production,4,16,1,267,15.7,41.7,10.9,22.1,0.0,6.2,0,0,12.5,8,2
+home-economics,hom-food-safety-s5,5. Enzymes and food spoilage,5,20,2,372,16.9,41.7,11.5,20.2,5.0,0.0,0,0,10.0,9,2
+home-economics,hom-food-safety-s6,6. Safe food preparation,4,30,1,455,14.7,59.2,8.7,14.5,20.0,3.3,0,0,0.0,8,2
+home-economics,hom-food-safety-s7,7. HACCP and ISO 9000,7,46,0,658,14.3,39.2,11.3,22.8,4.3,8.7,0,0,0.0,10,2
+home-economics,hom-food-safety-s8,8. National agencies in food safety,6,35,1,504,14.0,45.8,10.3,22.4,0.0,0.0,0,0,2.9,9,2
+home-economics,hom-food-safety-s9,9. Food legislation,4,26,2,477,17.0,45.8,11.0,22.2,3.8,0.0,0,0,0.0,10,2
+home-economics,hom-fruit-vegetables-s1,"1. Classification, nutritional significance and contribution to the diet",7,45,1,745,16.2,42.8,11.2,18.7,0.0,6.7,0,0,26.7,8,2
+home-economics,hom-fruit-vegetables-s2,"2. Selection, storage and spoilage",6,35,1,613,17.0,37.6,12.2,21.0,2.9,5.7,0,0,22.9,8,2
+home-economics,hom-fruit-vegetables-s3,3. Preparation and cooking,6,35,0,610,17.4,44.8,11.3,15.6,5.7,8.6,0,0,11.4,8,2
+home-economics,hom-fruit-vegetables-s4,4. Processing,6,32,0,566,17.7,41.2,11.9,18.2,6.2,6.2,0,0,12.5,8,2
+home-economics,hom-home-interior-s1,1. Elements and principles of design and factors in interior design,10,69,2,1393,19.6,55.9,10.3,12.2,10.3,23.5,1,0,15.9,9,2
+home-economics,hom-home-interior-s2,"2. Floors, walls, furniture and soft furnishings",10,73,1,1424,19.2,51.4,10.9,16.9,0.0,5.5,0,1,21.9,8,2
+home-economics,hom-home-interior-s3,3. Materials used in the home,6,50,1,949,18.6,54.4,10.3,13.7,8.0,6.0,0,0,20.0,9,2
+home-economics,hom-home-services-s1,1. Energy supplies to the home,7,45,1,1024,22.3,43.4,12.4,17.3,7.0,2.3,2,0,17.8,10,2
+home-economics,hom-home-services-s2,"2. Emissions, energy inefficiency and energy efficiency",4,38,3,883,21.5,46.4,11.9,16.6,2.7,8.1,1,0,5.3,10,2
+home-economics,hom-home-services-s3,3. Electricity,8,56,4,1286,21.4,52.6,11.2,12.2,0.0,3.7,2,1,14.3,10,2
+home-economics,hom-home-services-s4,4. Water,5,39,1,833,20.8,61.3,9.9,7.9,18.4,2.6,1,0,5.1,10,2
+home-economics,hom-home-services-s5,5. Heating,7,49,2,1013,19.9,49.1,11.3,14.4,4.3,6.4,2,0,4.1,12,2
+home-economics,hom-home-services-s6,6. Insulation,6,33,1,584,17.2,54.1,10.0,15.1,9.7,6.5,2,0,0.0,10,2
+home-economics,hom-home-services-s7,7. Ventilation,7,33,0,640,19.4,54.2,10.5,12.8,0.0,12.9,2,0,6.1,10,2
+home-economics,hom-home-services-s8,8. Lighting,6,33,0,653,19.8,51.1,11.0,15.0,6.1,15.2,0,1,0.0,11,2
+home-economics,hom-housing-s1,1. Housing choices,6,44,2,792,17.2,40.2,11.8,20.6,4.5,4.5,0,0,6.8,8,2
+home-economics,hom-housing-s2,2. Housing finance,6,31,3,698,20.5,51.1,11.1,17.8,12.9,3.2,0,0,6.5,10,2
+home-economics,hom-housing-s3,3. Housing styles,6,33,1,621,18.3,35.0,12.9,21.1,6.2,6.2,1,0,12.1,9,2
+home-economics,hom-housing-s4,4. Housing provision,6,34,1,724,20.7,29.4,14.3,21.1,0.0,5.9,0,0,14.7,9,2
+home-economics,hom-housing-s5,"5. Location, planning and professional services",6,35,1,682,18.9,48.7,10.5,18.5,2.9,5.9,1,0,2.9,10,2
+home-economics,hom-housing-s6,6. House design and building standards,6,36,0,690,19.2,41.7,12.2,18.8,5.6,13.9,0,0,2.8,10,2
+home-economics,hom-lipids-s1,1. Fatty acids,6,32,2,628,18.5,39.9,12.2,16.6,3.2,3.2,1,0,6.2,10,2
+home-economics,hom-lipids-s2,2. Triglycerides and the classification of lipids,4,17,1,346,19.2,45.0,11.8,18.2,25.0,18.8,1,0,5.9,9,2
+home-economics,hom-lipids-s3,3. Sources,5,25,0,361,14.4,59.8,8.5,13.0,0.0,32.0,0,0,4.0,7,2
+home-economics,hom-lipids-s4,4. Properties,6,33,3,561,15.6,41.6,11.3,20.5,6.1,12.1,0,2,12.1,11,2
+home-economics,hom-lipids-s5,5. Functions and energy value,4,20,0,331,16.6,50.0,10.4,18.4,0.0,15.0,0,0,5.0,9,2
+home-economics,hom-lipids-s6,6. Fats and oils as a food commodity,7,39,0,677,17.4,50.0,10.6,17.1,15.4,5.1,0,1,0.0,8,2
+home-economics,hom-marriage-s1,1. Definition of marriage,4,18,2,398,19.9,45.5,11.9,16.6,5.6,16.7,0,0,11.1,8,2
+home-economics,hom-marriage-s2,2. Cultural variations and the marriage relationship,5,28,1,572,19.7,45.9,11.8,18.0,3.6,0.0,0,0,10.7,9,2
+home-economics,hom-marriage-s3,3. Preparing for marriage,4,13,1,243,17.4,27.3,13.8,23.0,0.0,15.4,0,1,0.0,6,2
+home-economics,hom-marriage-s4,4. When a marriage breaks down,5,26,5,545,17.6,38.4,12.3,22.6,0.0,3.8,0,0,0.0,9,2
+home-economics,hom-meal-planning-s1,1. Food choices,5,30,1,574,18.5,44.8,11.5,17.8,0.0,13.3,0,0,10.0,8,2
+home-economics,hom-meal-planning-s2,2. Dietary requirements through the life cycle,8,55,1,943,16.8,47.2,10.9,17.3,10.9,5.5,0,0,10.9,8,2
+home-economics,hom-meal-planning-s3,3. Diet-related problems,7,41,1,691,16.5,41.6,11.5,21.1,0.0,0.0,0,0,9.8,9,2
+home-economics,hom-meal-planning-s4,4. Modified diets,9,51,5,945,16.9,41.5,11.7,21.6,0.0,17.6,0,0,7.8,10,2
+home-economics,hom-meal-planning-s5,5. Meal management and planning,6,30,1,525,16.9,56.4,9.6,14.1,6.7,6.7,0,0,10.0,8,2
+home-economics,hom-meat-preparation-s1,1. Nutritional significance and structure of meat,5,30,1,560,18.1,50.0,10.8,15.2,6.7,6.7,0,0,36.7,10,2
+home-economics,hom-meat-preparation-s2,2. Selection and storage,6,45,0,873,19.4,41.0,12.4,20.8,8.9,2.2,0,0,13.3,8,2
+home-economics,hom-meat-preparation-s3,3. Preparation and cooking,7,49,0,902,18.4,55.3,10.1,11.6,2.0,16.3,0,0,6.1,11,2
+home-economics,hom-meat-preparation-s4,4. Meat processing and meat products,5,33,1,595,17.5,44.2,11.4,17.0,3.0,3.0,0,0,12.1,9,2
+home-economics,hom-personal-finance-s1,1. Household income,9,43,1,716,16.3,43.1,11.3,19.8,2.3,0.0,0,0,0.0,9,2
+home-economics,hom-personal-finance-s2,2. Household expenditure and budgeting,6,34,2,545,15.1,41.1,11.3,19.6,0.0,26.5,0,0,5.9,8,2
+home-economics,hom-personal-finance-s3,3. Methods of payment and credit,7,36,0,693,19.2,53.5,10.6,13.4,0.0,2.8,0,1,13.9,11,2
+home-economics,hom-personal-finance-s4,4. Saving,5,22,0,410,18.6,42.0,12.0,20.0,0.0,9.1,0,0,0.0,8,2
+home-economics,hom-personal-finance-s5,5. Insurance,6,29,0,478,16.5,45.3,11.0,22.2,0.0,6.9,0,0,13.8,9,2
+home-economics,hom-proteins-s1,1. Composition and amino acids,5,22,1,363,15.8,41.2,11.3,22.9,0.0,5.0,2,1,9.1,9,2
+home-economics,hom-proteins-s2,2. Structure,3,16,3,306,16.1,50.0,10.3,18.0,0.0,0.0,2,2,0.0,8,2
+home-economics,hom-proteins-s3,3. Classification,4,15,2,273,16.1,49.5,10.1,19.8,0.0,13.3,0,0,13.3,9,2
+home-economics,hom-proteins-s4,4. Sources,5,17,0,230,13.5,67.3,7.2,10.4,0.0,5.9,0,0,11.8,8,2
+home-economics,hom-proteins-s5,5. Properties,10,47,1,696,14.5,48.9,10.0,16.8,0.0,4.3,0,2,12.8,9,2
+home-economics,hom-proteins-s6,6. Biological functions,4,17,1,293,16.3,44.8,11.1,17.7,0.0,17.6,0,1,0.0,9,2
+home-economics,hom-proteins-s7,7. Biological value,5,24,3,497,18.4,58.8,9.6,11.5,4.2,20.8,0,0,0.0,8,2
+home-economics,hom-proteins-s8,8. Energy value,4,20,3,391,17.0,55.0,9.3,16.6,15.0,0.0,0,0,5.0,8,2
+home-economics,hom-proteins-s9,9. Alternative (novel) protein foods,8,44,3,737,15.7,57.2,8.4,13.8,6.8,11.4,0,1,9.1,9,2
+home-economics,hom-resource-management-s1,1. Family resource management,4,24,3,448,16.6,47.6,10.7,21.0,8.3,20.8,0,0,4.2,8,2
+home-economics,hom-resource-management-s2,2. Components of management and decision-making,8,42,6,886,18.5,46.5,11.3,17.8,7.1,19.0,0,0,9.5,11,2
+home-economics,hom-resource-management-s3,3. Factors that affect management,6,33,3,668,18.6,42.6,11.9,19.3,0.0,18.2,0,0,6.1,10,2
+home-economics,hom-social-change-s1,1. Changes in settlement patterns from rural to urban,5,27,2,496,17.1,33.6,12.8,22.0,3.7,14.8,0,0,0.0,8,2
+home-economics,hom-social-change-s2,"2. Working hours, leisure time and conditions of work",5,27,1,486,17.4,48.2,10.8,18.7,0.0,11.1,0,0,0.0,9,2
+home-economics,hom-social-change-s3,3. Education and social welfare,5,28,2,538,17.9,32.6,13.2,22.9,0.0,10.7,0,0,0.0,9,2
+home-economics,hom-social-change-s4,4. Changing attitudes,4,24,0,411,17.1,26.8,13.8,25.3,0.0,0.0,0,0,0.0,9,2
+home-economics,hom-social-change-s5,5. Women in the workforce and equality legislation,4,23,1,399,16.6,35.6,12.4,21.1,13.0,4.3,0,0,0.0,9,2
+home-economics,hom-social-change-s6,6. Unemployment,5,27,1,410,14.6,45.1,10.6,18.8,0.0,7.4,0,0,0.0,8,2
+home-economics,hom-sociological-concepts-s1,"1. Society, culture, norms and mores, values",4,30,3,555,16.8,49.4,10.3,17.3,3.3,36.7,0,0,20.0,11,2
+home-economics,hom-sociological-concepts-s2,"2. Role, status, socio-economic groupings, social mobility",4,26,4,588,19.6,30.3,13.5,24.3,7.7,38.5,0,1,3.8,12,2
+home-economics,hom-sociological-concepts-s3,"3. Primary and secondary social groups, kinship, socialisation",4,31,4,664,19.0,41.5,12.1,20.9,0.0,22.6,0,2,19.4,12,2
+home-economics,hom-sociological-concepts-s4,4. Social institutions,7,32,1,594,18.0,27.9,13.7,26.4,0.0,15.6,0,0,3.1,8,2
+home-economics,hom-sociological-concepts-s5,5. Social change,5,27,2,552,19.0,37.3,12.8,21.2,3.7,18.5,0,0,7.4,8,2
+home-economics,hom-textiles-fibres-s1,1. Textiles as a household resource,4,26,2,473,16.9,56.1,9.5,13.3,0.0,7.7,0,0,15.4,8,2
+home-economics,hom-textiles-fibres-s2,2. Safety in household textiles,4,26,3,498,17.2,42.8,11.6,18.7,7.7,7.7,0,0,11.5,8,2
+home-economics,hom-textiles-fibres-s3,3. Fibre classification,6,29,1,573,19.1,43.2,12.0,20.8,7.4,3.7,2,0,48.3,8,2
+home-economics,hom-textiles-fibres-s4,4. Fabric profiles,6,43,2,776,17.2,50.2,10.5,16.4,7.0,2.3,0,0,9.3,9,2
+home-economics,hom-textiles-fibres-s5,"5. Fabric construction, finishes, colour, design and testing",8,46,6,1063,20.4,53.3,10.8,10.6,4.5,2.3,2,1,32.6,11,2
+home-economics,hom-unemployment-poverty-s1,1. Defining unemployment,4,19,2,401,19.1,43.4,12.0,17.5,10.5,5.3,0,0,5.3,9,2
+home-economics,hom-unemployment-poverty-s2,2. Causes of unemployment,5,24,5,515,17.8,40.5,12.0,20.0,4.2,16.7,0,0,0.0,8,2
+home-economics,hom-unemployment-poverty-s3,3. Effects of unemployment,5,26,1,398,14.7,40.3,11.3,19.1,0.0,3.8,0,0,0.0,8,2
+home-economics,hom-unemployment-poverty-s4,4. Concepts of poverty,6,31,4,564,16.1,40.5,11.6,22.2,9.7,0.0,0,0,0.0,9,2
+home-economics,hom-unemployment-poverty-s5,5. Causes and effects of poverty,8,47,5,971,18.7,42.5,12.0,18.3,4.3,8.5,0,0,2.1,7,2
+home-economics,hom-unemployment-poverty-s6,6. Statutory responses,5,28,3,583,18.8,33.9,13.2,23.8,0.0,0.0,0,0,7.1,10,2
+home-economics,hom-unemployment-poverty-s7,7. Community responses,5,27,4,574,18.5,26.8,14.0,24.9,3.7,11.1,0,0,0.0,7,2
+home-economics,hom-vitamins-minerals-s1,1. Fat-soluble vitamins,9,51,1,872,16.8,38.2,12.1,23.5,9.8,7.8,0,0,5.9,10,2
+home-economics,hom-vitamins-minerals-s2,"2. Water-soluble vitamins C, B12 and folate",7,39,0,595,15.3,48.0,10.4,20.3,5.1,12.8,0,0,2.6,10,2
+home-economics,hom-vitamins-minerals-s3,3. The other B-group vitamins,6,31,0,432,13.9,42.7,10.8,19.2,0.0,3.2,0,0,3.2,10,2
+home-economics,hom-vitamins-minerals-s4,4. Mineral elements,8,41,0,616,15.0,47.7,10.3,17.4,0.0,2.4,0,1,2.4,10,2
+home-economics,hom-vitamins-minerals-s5,5. Factors affecting the absorption of minerals,8,37,0,597,16.1,47.8,10.6,19.3,2.7,8.1,0,0,0.0,10,2
+home-economics,hom-work-leisure-s1,1. Concepts of work and attitudes to work,8,38,6,732,16.6,34.9,12.3,25.1,2.6,15.8,0,0,2.6,9,2
+home-economics,hom-work-leisure-s2,2. Changes in patterns of work,7,38,5,653,15.2,33.4,12.4,23.0,0.0,7.9,0,0,0.0,10,2
+home-economics,hom-work-leisure-s3,3. Unpaid and voluntary work,7,31,2,569,17.2,34.1,12.8,23.6,0.0,22.6,0,0,6.5,8,2
+home-economics,hom-work-leisure-s4,4. The Protection of Young Persons (Employment) Act (1996),7,24,2,383,14.7,70.4,6.7,9.4,0.0,4.2,0,1,0.0,7,2
+home-economics,hom-work-leisure-s5,5. Reconciling employment with family responsibilities,7,45,2,853,18.1,46.8,11.2,16.5,8.9,17.8,0,1,0.0,11,2
+home-economics,hom-work-leisure-s6,6. Child care,7,48,2,812,16.2,46.7,10.8,17.4,2.1,4.2,0,0,4.2,10,2
+home-economics,hom-work-leisure-s7,7. Leisure,10,59,1,948,15.8,38.9,11.7,20.6,3.4,23.7,0,0,0.0,10,2
+home-economics,hom-work-leisure-s8,8. Evaluating leisure facilities,7,44,2,881,19.2,41.8,12.2,18.3,0.0,9.1,0,0,0.0,10,2
+pe,pe-aquatics-s1,1. The aquatics area,6,31,1,370,11.6,46.5,9.6,18.9,3.2,0.0,0,0,0.0,8,2
+pe,pe-aquatics-s2,2. Lifesaving,14,56,1,589,10.3,75.2,4.8,11.0,3.6,1.8,0,0,1.8,9,2
+pe,pe-aquatics-s3,3. Survival swimming,11,41,0,440,10.7,70.0,6.2,9.1,4.9,0.0,0,0,0.0,11,2
+pe,pe-aquatics-s4,4. Two swimming strokes,10,54,0,623,11.5,69.6,6.2,10.1,0.0,0.0,0,0,0.0,12,3
+pe,pe-aquatics-s5,5. Water polo,11,42,0,442,10.5,78.1,5.0,8.8,0.0,0.0,0,1,4.8,13,2
+pe,pe-aquatics-s6,6. Synchronised swimming,13,42,0,448,10.7,56.5,8.0,17.4,0.0,0.0,0,2,0.0,12,2
+pe,pe-artistic-aesthetic-movement-s1,1. The artistic and aesthetic area,6,25,0,295,11.8,32.5,11.7,28.8,0.0,0.0,0,0,0.0,9,2
+pe,pe-artistic-aesthetic-movement-s2,2. Artistic gymnastics,11,55,0,745,13.5,70.1,6.8,9.1,0.0,1.8,0,0,1.8,12,2
+pe,pe-artistic-aesthetic-movement-s3,3. Rhythmic gymnastics,15,49,0,429,8.8,68.6,5.9,13.3,0.0,2.0,0,0,0.0,9,2
+pe,pe-artistic-aesthetic-movement-s4,4. Dance,11,56,0,639,11.4,51.2,9.0,18.9,0.0,17.9,0,2,0.0,13,2
+pe,pe-athletics-s1,1. The athletics area,8,39,3,719,17.1,52.7,10.1,13.9,2.6,5.1,0,6,2.6,9,2
+pe,pe-athletics-s2,2. Running events,10,48,0,784,16.3,69.8,7.6,6.8,10.4,2.1,0,0,2.1,9,2
+pe,pe-athletics-s3,3. Throwing events,8,42,0,776,18.5,67.6,8.4,7.3,0.0,2.4,0,1,7.1,10,2
+pe,pe-athletics-s4,4. Jumping events,7,38,0,552,14.5,72.5,6.7,5.4,2.6,0.0,0,0,2.6,8,2
+pe,pe-business-enterprise-sport-s1,1. Sponsorship and advertising,10,76,1,1117,14.5,42.1,10.5,22.7,0.0,9.2,0,0,0.0,12,3
+pe,pe-business-enterprise-sport-s2,2. The business dimension,7,58,0,671,11.6,50.0,9.2,19.1,0.0,3.4,0,0,0.0,11,2
+pe,pe-business-enterprise-sport-s3,3. Mass participation in sport,6,33,0,375,11.4,32.4,11.6,24.3,0.0,3.0,0,0,18.2,11,2
+pe,pe-business-enterprise-sport-s4,4. Tourism and sport,7,43,0,503,11.7,42.2,10.1,20.5,0.0,9.3,0,0,2.3,11,2
+pe,pe-ethics-fair-play-s1,1. Principles of ethical practice,7,39,0,604,15.5,47.3,10.5,19.0,5.1,2.6,0,0,0.0,11,3
+pe,pe-ethics-fair-play-s2,2. Codes of ethics,12,54,0,498,9.2,51.0,8.4,21.5,0.0,1.9,0,0,0.0,10,3
+pe,pe-ethics-fair-play-s3,3. Drugs and sport,12,48,0,485,10.1,38.0,10.5,24.3,0.0,12.5,0,0,0.0,12,3
+pe,pe-ethics-fair-play-s4,4. Anti-doping rules,8,40,0,524,13.1,29.2,12.4,28.4,2.5,0.0,0,0,5.0,11,3
+pe,pe-ethics-fair-play-s5,5. Best practice for the use of supplements,11,41,0,523,12.8,41.3,10.7,23.9,0.0,7.3,0,0,4.9,11,3
+pe,pe-games-s1,1. The games area,11,49,1,810,16.2,49.5,10.4,16.5,4.1,10.2,0,1,2.0,12,2
+pe,pe-games-s2,2. Invasion games,8,79,0,958,12.1,76.1,5.7,7.6,0.0,2.5,0,0,10.1,12,3
+pe,pe-games-s3,3. Net/wall games,6,55,0,626,11.4,79.6,5.0,7.8,1.8,0.0,0,0,3.6,13,2
+pe,pe-games-s4,4. Striking/fielding games,14,48,0,536,11.2,79.6,4.9,5.8,4.2,0.0,0,0,0.0,13,2
+pe,pe-gender-physical-activity-s1,"1. Gender, sport and physical activity",12,56,1,1139,20.0,42.0,12.3,18.4,0.0,12.5,0,3,0.0,10,3
+pe,pe-gender-physical-activity-s2,"2. Gender, media and body image",8,32,1,579,17.5,34.7,12.8,23.0,0.0,3.1,0,2,6.2,10,3
+pe,pe-gender-physical-activity-s3,3. Gender socialisation and its impact on participation,11,49,1,703,14.1,46.2,10.2,21.2,0.0,10.2,0,0,4.1,10,3
+pe,pe-learning-skill-technique-s1,1. Defining a skilled performance,6,37,2,843,21.6,40.3,12.6,21.8,2.7,43.2,0,0,8.1,13,3
+pe,pe-learning-skill-technique-s2,2. Analysing skill: the biomechanical perspective,6,38,1,1003,25.7,58.6,10.3,10.4,0.0,13.5,1,3,13.2,14,3
+pe,pe-learning-skill-technique-s3,3. Analysing skill: movement and quality perspectives,8,41,0,841,20.5,47.6,11.5,17.4,9.8,14.6,0,1,31.7,12,3
+pe,pe-learning-skill-technique-s4,4. Skill acquisition,7,39,0,904,23.2,40.8,13.0,18.4,2.6,23.1,0,0,43.6,15,3
+pe,pe-performance-demands-s1,1. Physical fitness,4,14,0,313,22.4,30.2,14.2,22.4,7.1,14.3,0,0,35.7,4,2
+pe,pe-performance-demands-s2,2. Health-related fitness,5,25,0,453,18.1,47.2,11.0,17.9,0.0,28.0,0,0,8.0,11,2
+pe,pe-performance-demands-s3,3. Performance-related fitness,7,26,0,334,12.8,61.8,7.8,14.4,0.0,7.7,0,0,7.7,10,2
+pe,pe-performance-demands-s4,4. Applying the fitness components,6,30,1,497,16.0,32.1,12.8,27.0,3.3,0.0,0,1,0.0,4,3
+pe,pe-performance-demands-s5,5. Assessing fitness and the principles of training,8,54,2,963,17.2,34.2,12.5,24.5,0.0,1.9,0,1,5.6,16,3
+pe,pe-performance-demands-s6,6. Designing a fitness plan,7,46,0,886,19.3,37.9,12.3,21.2,2.2,15.2,0,0,19.6,14,3
+pe,pe-performance-demands-s7,7. Psychological preparation,8,51,0,1059,20.8,30.0,13.9,26.2,0.0,33.3,0,0,27.5,19,3
+pe,pe-performance-demands-s8,"8. Diet, nutrition and hydration",7,44,0,713,16.2,35.1,12.1,21.7,0.0,11.4,0,0,22.7,12,3
+pe,pe-performance-demands-s9,9. Energy systems,7,31,0,626,20.2,35.4,12.9,20.9,0.0,3.2,0,0,35.5,9,3
+pe,pe-personal-exercise-fitness-s1,1. The personal exercise and fitness area,10,41,0,463,11.3,45.9,9.2,22.7,2.4,0.0,0,0,2.4,11,2
+pe,pe-personal-exercise-fitness-s2,2. Aerobic training methods,7,40,1,585,14.3,54.7,9.2,16.4,2.5,5.0,0,0,20.0,12,2
+pe,pe-personal-exercise-fitness-s3,3. Conditioning and resistance,10,47,0,541,11.5,65.4,7.0,11.1,0.0,0.0,0,0,2.1,9,2
+pe,pe-personal-exercise-fitness-s4,4. Applying training principles to each method,7,36,0,544,15.1,55.0,9.3,14.5,0.0,0.0,0,0,19.4,8,2
+pe,pe-planning-optimum-performance-s1,1. Personal performance analysis,9,57,5,1247,20.1,38.7,12.8,21.9,1.8,12.3,0,0,12.3,9,2
+pe,pe-planning-optimum-performance-s2,2. Methods of analysis,11,50,1,979,19.2,38.5,12.7,22.2,2.0,12.0,0,1,2.0,12,3
+pe,pe-planning-optimum-performance-s3,3. Aesthetic and artistic considerations,7,32,0,576,18.0,40.8,12.0,21.9,3.1,25.0,0,0,3.1,13,3
+pe,pe-planning-optimum-performance-s4,4. Planning for optimum performance,8,47,0,855,18.2,49.8,10.8,16.6,12.8,8.5,0,0,4.3,12,2
+pe,pe-promoting-physical-activity-s1,1. Benefits of physical activity participation,8,53,2,649,11.8,35.5,10.9,25.0,3.8,3.8,0,0,11.3,10,3
+pe,pe-promoting-physical-activity-s2,2. Physical activity participation,9,67,3,929,13.3,41.7,10.2,20.6,3.0,17.9,0,0,0.0,10,3
+pe,pe-promoting-physical-activity-s3,3. Physical activity promotion,12,78,4,1005,12.3,34.9,11.4,26.1,2.6,5.1,0,1,0.0,12,3
+pe,pe-promoting-physical-activity-s4,4. Pathways to excellence in physical activity,9,47,4,758,14.9,37.1,11.7,24.7,0.0,4.3,0,0,0.0,11,2
+pe,pe-structures-strategies-roles-conventions-s1,"1. Structures, strategies and compositional elements",12,63,2,1291,19.9,53.0,10.8,15.8,3.2,11.1,0,2,4.8,14,3
+pe,pe-structures-strategies-roles-conventions-s2,2. Roles and relationships,10,46,1,721,15.3,42.2,11.2,21.5,2.2,21.7,0,0,0.0,12,2
+pe,pe-structures-strategies-roles-conventions-s3,3. Safe practice,14,89,0,1102,12.4,48.6,9.5,19.5,3.4,5.6,0,0,0.0,14,3
+pe,pe-structures-strategies-roles-conventions-s4,"4. Rules, rituals and conventions",8,42,0,538,12.8,51.8,9.2,18.4,0.0,7.1,0,0,0.0,11,2
+pe,pe-structures-strategies-roles-conventions-s5,5. The role of coach/choreographer,13,74,0,871,11.8,46.9,9.6,22.5,6.8,12.2,0,1,0.0,12,3
+pe,pe-structures-strategies-roles-conventions-s6,6. The role of official,15,75,0,821,10.9,56.0,8.2,16.8,0.0,10.7,0,1,2.7,12,3

@@ -1,0 +1,332 @@
+{
+ "bio11-s10.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s10.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.0.4",
+    "strength": "helpful",
+    "why": "chromosomes in homologous pairs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.0.0",
+    "strength": "essential",
+    "why": "sex chromosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.0.1",
+    "strength": "helpful",
+    "why": "X chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.0.1",
+    "strength": "helpful",
+    "why": "Y chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.0.1",
+    "strength": "essential",
+    "why": "XX and XY pairs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.0.4",
+    "strength": "helpful",
+    "why": "karyotype layout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.1.1",
+    "strength": "helpful",
+    "why": "meiosis halves chromosome number",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.1.1",
+    "strength": "essential",
+    "why": "gametes haploid via meiosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.0.1",
+    "strength": "essential",
+    "why": "female is XX",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.0.1",
+    "strength": "essential",
+    "why": "male is XY",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.1",
+    "strength": "helpful",
+    "why": "parents' phenotypes step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.2",
+    "strength": "helpful",
+    "why": "parents' genotypes step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.3",
+    "strength": "helpful",
+    "why": "gametes step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s10.1.5",
+    "strength": "essential",
+    "why": "gametes combined in grid",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.5.0",
+    "strength": "helpful",
+    "why": "Punnett square layout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.1.6",
+    "strength": "helpful",
+    "why": "the cross result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.1.2",
+    "strength": "helpful",
+    "why": "sperm come in two kinds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.1.2",
+    "strength": "essential",
+    "why": "X or Y sperm",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.1.4",
+    "strength": "helpful",
+    "why": "fertilisation fuses gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.2.0",
+    "strength": "essential",
+    "why": "sperm decides sex",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.6.1",
+    "strength": "helpful",
+    "why": "fertilisations are independent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.1.2",
+    "strength": "helpful",
+    "why": "equal X and Y sperm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.2.0",
+    "strength": "helpful",
+    "why": "XX or XY from fertilisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.2.4",
+    "strength": "essential",
+    "why": "son gets X from mother",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.6.4",
+    "strength": "helpful",
+    "why": "sex-linkage defined",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s10.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.0.3",
+    "strength": "helpful",
+    "why": "Y carries few genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.0.3",
+    "strength": "helpful",
+    "why": "Y chromosome genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s10.3.0",
+    "strength": "essential",
+    "why": "SRY gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.3.1",
+    "strength": "essential",
+    "why": "testes form first",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.3.1",
+    "strength": "helpful",
+    "why": "contrast with SRY action",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s10.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s10.3.0",
+    "strength": "essential",
+    "why": "SRY on the Y",
+    "confidence": "high"
+   }
+  ]
+ }
+}

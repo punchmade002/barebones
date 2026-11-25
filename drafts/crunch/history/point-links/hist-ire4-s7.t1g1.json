@@ -1,0 +1,700 @@
+{
+ "hist-ire4-s7.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s7.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.0.0",
+    "strength": "helpful",
+    "why": "Church growth producing surplus clergy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.0.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.1.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s7.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.1.0",
+    "strength": "essential",
+    "why": "uses the Columbans",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.1.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s7.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.4.2",
+    "strength": "helpful",
+    "why": "founder Joseph Shanahan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.1.0",
+    "strength": "helpful",
+    "why": "the Maynooth Mission to China",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s7.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.2.1",
+    "strength": "essential",
+    "why": "uses the Maynooth Mission to China",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.2.2",
+    "strength": "helpful",
+    "why": "his Hanyang mission area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.2.2",
+    "strength": "helpful",
+    "why": "the Hanyang mission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.2.2",
+    "strength": "helpful",
+    "why": "the Hanyang mission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.2.2",
+    "strength": "helpful",
+    "why": "the Hanyang mission he led",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.2.1",
+    "strength": "helpful",
+    "why": "the China mission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.2.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.2.9": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.1.1",
+    "strength": "helpful",
+    "why": "the Columbans in China",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.3.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s7.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.3.1",
+    "strength": "helpful",
+    "why": "the 1936 change enabling her order",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.3.2",
+    "strength": "essential",
+    "why": "uses the Medical Missionaries of Mary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.3.2",
+    "strength": "essential",
+    "why": "uses the Medical Missionaries of Mary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.3.2",
+    "strength": "essential",
+    "why": "uses the order she founded",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.3.0",
+    "strength": "helpful",
+    "why": "Mary Martin background",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.3.2",
+    "strength": "essential",
+    "why": "uses the order praised",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.3.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.3.2",
+    "strength": "essential",
+    "why": "uses the Medical Missionaries of Mary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.4.0",
+    "strength": "helpful",
+    "why": "the Holy Ghost Fathers mission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.4.1",
+    "strength": "helpful",
+    "why": "the Igbo mission area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.4.2",
+    "strength": "essential",
+    "why": "uses Joseph Shanahan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.4.2",
+    "strength": "essential",
+    "why": "uses Joseph Shanahan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.4.0",
+    "strength": "helpful",
+    "why": "the mission begun in 1885",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.4.6",
+    "strength": "helpful",
+    "why": "the existing 1945 mission network",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.5.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s7.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.4.2",
+    "strength": "helpful",
+    "why": "schools as the mission instrument",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.5.3",
+    "strength": "helpful",
+    "why": "mission schools system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.1.5",
+    "strength": "helpful",
+    "why": "Holy Rosary Sisters",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire4-s7.3.4",
+    "strength": "helpful",
+    "why": "Medical Missionaries of Mary hospitals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.5.6",
+    "strength": "helpful",
+    "why": "local vocations",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s7.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.5.3",
+    "strength": "helpful",
+    "why": "mission schools",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.6.0",
+    "strength": "essential",
+    "why": "uses the grant system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.6.0",
+    "strength": "helpful",
+    "why": "colonial-mission school relations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.6.0",
+    "strength": "helpful",
+    "why": "mission schools under grants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.6.4",
+    "strength": "essential",
+    "why": "uses independence in 1960",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.5.3",
+    "strength": "helpful",
+    "why": "mission schools educated Nigerians",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.7.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s7.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.5.3",
+    "strength": "helpful",
+    "why": "mission education",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.6.5",
+    "strength": "helpful",
+    "why": "localisation of leadership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.4.5",
+    "strength": "helpful",
+    "why": "Methodist and Anglican rivalry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s7.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.7.4",
+    "strength": "essential",
+    "why": "uses the Biafran war",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.7.4",
+    "strength": "essential",
+    "why": "uses the Biafran famine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.7.4",
+    "strength": "helpful",
+    "why": "the Biafran war aftermath",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire4-s7.5.1",
+    "strength": "helpful",
+    "why": "Bishop Whelan of Owerri",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.0.2",
+    "strength": "helpful",
+    "why": "Ireland spiritual empire idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.0.2",
+    "strength": "essential",
+    "why": "uses Irish spiritual empire",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.0.5",
+    "strength": "helpful",
+    "why": "parish fundraising for missions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.8.1",
+    "strength": "essential",
+    "why": "questions the empire idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.6.5",
+    "strength": "helpful",
+    "why": "localisation of churches",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.7.0",
+    "strength": "helpful",
+    "why": "mission achievements",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.6.0",
+    "strength": "helpful",
+    "why": "ties through grants",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire4-s7.7.2",
+    "strength": "helpful",
+    "why": "slow handover to local clergy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.7.2",
+    "strength": "helpful",
+    "why": "paternalism criticism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.7.1",
+    "strength": "helpful",
+    "why": "cultural costs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s7.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s7.2.6",
+    "strength": "essential",
+    "why": "Galvin mission expelled 1952",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire4-s7.3.2",
+    "strength": "essential",
+    "why": "Martin order grew in Africa",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,303 @@
+MODE: cost and links
+TARGET geo-sea-s1: 1. Coastal processes, patterns and associated landforms
+[geo-sea-s1.0.b] Waves take their energy from the wind, and the water itself stays in place as the wave passes. Knowing how a wave forms and breaks explains everything the sea later does to the coast.
+[geo-sea-s1.0.0] Wind blowing over the sea surface transfers energy to the water, raising waves.
+[geo-sea-s1.0.1] Wave size depends on wind speed, the length of time the wind blows, and fetch.
+[geo-sea-s1.0.2] Fetch is the distance of open water over which the wind blows; a longer fetch allows bigger waves because the wind has more distance in which to pass energy to the water.
+[geo-sea-s1.0.3] Water particles move in circles as a wave passes, so it is the energy that travels, not the water; the water does not travel forward until the wave breaks.
+[geo-sea-s1.0.4] A wave's crest is its highest point and its trough the lowest; wave height is the vertical distance between them, and wavelength is the distance between successive crests.
+[geo-sea-s1.0.5] A wave breaks in shallow water: friction with the sea bed slows its base while the crest keeps moving, so the crest topples forward.
+[geo-sea-s1.0.6] Swash is the water rushing up the beach after a wave breaks, carrying sand and shingle with it.
+[geo-sea-s1.0.7] Backwash is the water draining back down the beach under gravity, so it can pull material back down with it, which is why the swash and backwash balance matters.
+[geo-sea-s1.1.b] The balance between swash (water running up the beach) and backwash (water draining back down) decides whether a beach is built up or cut back. Waves fall into two types according to which of the two is stronger.
+[geo-sea-s1.1.0] Constructive waves are low, gentle, long-wavelength (far apart) and low-frequency (few waves per minute), and they spill onto the beach.
+[geo-sea-s1.1.1] Constructive waves are typical of calm weather; their swash is stronger than their backwash, so they carry material up the beach and build it up.
+[geo-sea-s1.1.2] Destructive waves are high, steep, short-wavelength (close together) and high-frequency (many waves per minute), and they plunge down onto the beach.
+[geo-sea-s1.1.3] Destructive waves are typical of storms; their backwash is stronger than their swash, so they drag material out to sea and erode the beach.
+[geo-sea-s1.2.b] Real coasts are not straight, so waves do not hit them evenly. Refraction (the bending of waves) shows why some parts of a coast erode while others receive sediment.
+[geo-sea-s1.2.0] Refraction: waves approaching an indented coast slow down first in shallow water off headlands (points of land jutting into the sea), so the wave fronts bend.
+[geo-sea-s1.2.1] Energy converges on headlands, causing more erosion there, and spreads out in bays (curved inlets of the sea), where it is weaker and deposition (the dropping of material) is favoured.
+[geo-sea-s1.2.2] Refraction turns wave fronts until they are roughly parallel to the shore.
+[geo-sea-s1.3.b] Waves do not always strike the same part of the coast, because the level of the sea changes. Tides and storm surges change where the waves do their work.
+[geo-sea-s1.3.0] Tides are the twice-daily rise and fall of sea level, caused mainly by the pull of the moon, with the sun also contributing.
+[geo-sea-s1.3.1] Tidal range (the difference between high and low tide) sets the vertical band of coast on which the waves work, so a larger range spreads wave attack over a wider band.
+[geo-sea-s1.3.2] A storm surge (a temporary rise in sea level during a storm) lets waves reach higher up cliffs and beaches.
+[geo-sea-s1.3.3] Longer-term changes in land and sea level also change coasts: raised beaches (old beaches left above sea level) form emergent coasts.
+[geo-sea-s1.3.4] Rias (drowned river valleys), fjords (flooded glacial valleys) and drowned drumlins (flooded egg-shaped hills of glacial deposit) form submergent coasts. There is more on this in the glaciation chapter, under isostasy (the rising or sinking of land).
+[geo-sea-s1.4.b] Waves wear away rock by four processes, and abrasion is the most effective at the foot of a cliff. Each works differently, so you need to name them and say how they work.
+[geo-sea-s1.4.0] Hydraulic action: the force of breaking waves forces air and water into joints (natural cracks in rock) and cracks; the trapped air and water are compressed, then released as the wave retreats, weakening and shattering the rock.
+[geo-sea-s1.4.1] Abrasion (corrasion): waves hurl sand, shingle and boulders against the cliff, grinding and undercutting it. It is the most effective process at the cliff base.
+[geo-sea-s1.4.2] Attrition: rocks carried by the waves collide with each other and break into smaller, rounder pieces; attrition wears down the load (the material the waves carry) rather than the cliff.
+[geo-sea-s1.4.3] Solution (corrosion): sea water dissolves soluble rock such as limestone.
+[geo-sea-s1.5.b] Waves are not the only thing that wears a cliff back, and they do not erode every coast at the same speed. Processes above the waves and several controls on the rate of erosion also matter.
+[geo-sea-s1.5.0] Above the waves, weathering (the breakdown of rock in place, by freeze-thaw and salt crystallisation) and mass movement (rockfalls, and slumping on soft clay cliffs) wear the cliff back.
+[geo-sea-s1.5.1] Waves then remove the debris that falls from the cliff face, so the cliff is exposed to further attack.
+[geo-sea-s1.5.2] Soft glacial deposits such as boulder clay (a soft mix of clay and stones left by ice) erode fastest; on the Holderness coast of Yorkshire, England, cliffs of soft boulder clay are among the fastest-eroding coastlines in Europe.
+[geo-sea-s1.5.3] Rock structure matters: joints, faults (breaks in the rock where it has moved) and bedding (the layers in sedimentary rock) give waves lines of weakness to exploit.
+[geo-sea-s1.5.4] Wave energy depends on fetch, storms and refraction, so a coast with a long fetch or frequent storms is eroded faster.
+[geo-sea-s1.5.5] A beach at the foot of a cliff can absorb wave energy and protect the cliff; human activity, such as the removal of beach material, can change the rate of erosion.
+[geo-sea-s1.6.b] Exposure to the Atlantic or the Irish Sea decides whether a coast is eroding or depositing. The rock pattern along the coast then shapes headlands and bays.
+[geo-sea-s1.6.0] The west coast faces the long Atlantic fetch and the prevailing (most common) south-westerly winds, so high-energy waves produce rugged, cliffed, erosional coasts.
+[geo-sea-s1.6.1] The east coast faces the narrow Irish Sea, which gives a short fetch; its lower-energy waves and soft glacial deposits favour depositional features such as beaches, spits, lagoons and dunes.
+[geo-sea-s1.6.2] Storms do most of the erosion, in short episodes; this is the temporal variation (variation over time) in coastal processes.
+[geo-sea-s1.6.3] Where bands of hard and soft rock meet the coast at right angles (a discordant coast), the soft rock is eroded back into bays and the hard rock is left as headlands.
+[geo-sea-s1.6.4] A concordant coast, where the rock bands run parallel to the shore, stays straighter because the outer band protects the softer rock behind it.
+[geo-sea-s1.6.5] Headland and bay: the two landforms that result from this differential (uneven) erosion; Downpatrick Head, Co. Mayo, is a headland, and the chalk headland of Handfast Point, Dorset, England, lies between Studland Bay and Swanage Bay, which are cut into softer sands and clays.
+[geo-sea-s1.7.b] A cliff retreats inland as its base is undercut, leaving a platform of rock at its foot. Learn the stages in order, because exams ask you to describe how one landform of erosion forms.
+[geo-sea-s1.7.0] 1. Waves erode a notch in the cliff base, between high and low tide, by hydraulic action and abrasion.
+[geo-sea-s1.7.1] 2. The rock above the notch becomes an overhang, which collapses because nothing supports it.
+[geo-sea-s1.7.2] 3. Waves remove the debris, and the cliff retreats inland, remaining steep.
+[geo-sea-s1.7.3] 4. The gently sloping rock surface left at the foot of the retreating cliff is the wave-cut platform, exposed at low tide.
+[geo-sea-s1.7.4] 5. The platform widens as the cliff retreats, until waves lose most of their energy crossing it, which slows erosion.
+[geo-sea-s1.7.5] Example: Cliffs of Moher, Co. Clare, rise to 214 m at their highest and are made of layers of shale and sandstone.
+[geo-sea-s1.7.6] Diagram: side view of a cliff with the notch, overhang, arrow showing retreat, and the wave-cut platform exposed at low tide.
+[geo-sea-s1.8.b] These four features form one sequence as a headland is cut back. Each stage grows out of the one before it, so keep the order cave, arch, stack, stump.
+[geo-sea-s1.8.0] 1. Waves exploit a line of weakness, a joint or fault, at the base of a headland, enlarging it by hydraulic action and abrasion to form a sea cave.
+[geo-sea-s1.8.1] 2. Caves on opposite sides of a headland meet, or one cave cuts right through, forming a sea arch.
+[geo-sea-s1.8.2] 3. The arch roof is weakened from below by wave erosion and from above by weathering, then collapses, leaving an isolated pillar called a sea stack.
+[geo-sea-s1.8.3] 4. The stack is undercut at its base and collapses into a low sea stump, which is covered at high tide.
+[geo-sea-s1.8.4] Examples of arches: Bridges of Ross, Co. Clare, were originally three sea arches, and only one still stands; Durdle Door, Dorset, England, is a sea arch.
+[geo-sea-s1.8.5] Examples of stacks: Dún Briste, a sea stack off Downpatrick Head, Co. Mayo; Old Harry Rocks, chalk stacks off Handfast Point, Dorset, England.
+[geo-sea-s1.8.6] Diagram: four-stage sequence of cave, arch, stack and stump, with the joint or fault marked at the cave.
+[geo-sea-s1.9.b] A blowhole is a cave that has been enlarged upward until it opens at the cliff top. It forms where a vertical joint runs up from the cave.
+[geo-sea-s1.9.0] 1. A cave is enlarged upward along a vertical joint by hydraulic action, with compressed air, until it breaks through to the cliff top, forming a blowhole.
+[geo-sea-s1.9.1] 2. In storms, spray is forced up through the hole, because the waves push water and air into the cave below.
+[geo-sea-s1.9.2] 3. If the roof between the blowhole and the sea collapses, a narrow inlet called a geo forms.
+[geo-sea-s1.9.3] Blowholes are classified as erosional features, because the sea forms them by wearing rock away.
+[geo-sea-s1.9.4] Diagram: vertical section of a cave connected to a vertical joint that opens at the cliff top.
+[geo-sea-s1.10.b] Waves do not only erode; they also carry material along the shore. This movement supplies the sediment that builds depositional landforms.
+[geo-sea-s1.10.0] Waves carry load in the same four ways as rivers, so the river transport terms apply here too: traction (rolling along the sea bed), saltation (bouncing along it), suspension (carried within the water) and solution (dissolved in the water).
+[geo-sea-s1.10.1] Longshore drift: waves approach the beach at an angle set by the prevailing wind; swash carries material up the beach at that angle, and backwash drags it straight back down the slope under gravity.
+[geo-sea-s1.10.2] Repeated over time, longshore drift moves sand and shingle along the coast in a zigzag.
+[geo-sea-s1.10.3] Longshore drift is the transport process behind spits, bars, lagoons and tombolos.
+[geo-sea-s1.10.4] Example: on the Holderness coast, longshore drift moves eroded material southward to Spurn Head.
+[geo-sea-s1.11.b] Deposition is the dropping of material that the sea has been carrying. It happens when waves lose energy and there is plenty of sediment to drop.
+[geo-sea-s1.11.0] Waves deposit material when they lose energy: in constructive wave conditions, in sheltered bays, in shallow water, or after refraction has reduced their energy.
+[geo-sea-s1.11.1] Deposition also happens where the coast changes direction, such as at a river mouth or bay.
+[geo-sea-s1.11.2] A large supply of sediment is needed, from rivers, cliff erosion or glacial deposits offshore.
+[geo-sea-s1.11.3] A beach is sand and shingle deposited between low tide and the highest storm waves.
+[geo-sea-s1.11.4] Finer sand is deposited lower down the beach, and coarser shingle higher up, for example on a storm beach.
+[geo-sea-s1.11.5] A storm beach is a ridge of large shingle thrown above normal high tide by storm waves.
+[geo-sea-s1.11.6] Berms are ridges marking successive high-tide levels, because each tide leaves a ridge where it reached.
+[geo-sea-s1.11.7] Examples: Tramore, Co. Waterford; Curracloe, Co. Wexford.
+[geo-sea-s1.12.b] Longshore drift keeps moving sand along the coast until the coast bends away, and there it builds a ridge. Whether the ridge is a spit or a bar depends on how far across the bay it grows.
+[geo-sea-s1.12.0] 1. Longshore drift carries material past a point where the coast changes direction, such as a bay or river mouth.
+[geo-sea-s1.12.1] 2. The material is deposited in calmer, deeper water, building a ridge out from the land; a spit is attached to the land at one end only.
+[geo-sea-s1.12.2] 3. Wave refraction or a change in wind direction curves the tip, forming a recurved end.
+[geo-sea-s1.12.3] 4. Sheltered water behind the spit fills with silt, forming salt marsh or mudflat.
+[geo-sea-s1.12.4] A sand bar (barrier beach) is a spit that grows right across the mouth of a bay, joining two headlands.
+[geo-sea-s1.12.5] Examples: Inch and Rossbeigh, Co. Kerry, are two sand spits growing out from opposite sides of Dingle Bay; Spurn Head, at the mouth of the Humber estuary (where a river meets the sea), England, is a spit.
+[geo-sea-s1.12.6] Diagram: plan view of a recurved spit showing the drift direction, the ridge attached to the land, the recurved tip and the salt marsh behind.
+[geo-sea-s1.13.b] Two more depositional landforms follow from longshore drift: a lagoon forms when a bar cuts off part of the sea, and a tombolo forms when a ridge reaches an island.
+[geo-sea-s1.13.0] A lagoon is the body of water trapped behind a sand bar; it is a depositional feature, because the bar that traps it is built from deposited sediment.
+[geo-sea-s1.13.1] A lagoon slowly fills with sediment and vegetation because it is sheltered from the waves, and it may become marsh.
+[geo-sea-s1.13.2] Examples: Lady's Island Lake and Tacumshin Lake, Co. Wexford, are coastal lagoons behind sand-and-gravel barriers; the Back Strand at Tramore, Co. Waterford, is another.
+[geo-sea-s1.13.3] A tombolo is a ridge of sand or shingle joining an island to the mainland.
+[geo-sea-s1.13.4] It is built by longshore drift and by waves refracting around the island and meeting in its shelter.
+[geo-sea-s1.13.5] Example: Sutton, Co. Dublin, where a tombolo joins Howth Head, once an island, to the mainland.
+[geo-sea-s1.14.b] Where there is a wide, sandy beach, the wind carries dry sand inland and builds dunes. Plants, especially marram grass, are what turn loose sand into stable dunes.
+[geo-sea-s1.14.0] 1. Wind blows dry sand from a wide beach at low tide inland, where it piles up against obstacles such as driftwood, seaweed and plants above high tide.
+[geo-sea-s1.14.1] 2. Marram grass colonises the sand; its long roots bind the sand, and its growth keeps pace with burial.
+[geo-sea-s1.14.2] 3. Embryo (newly forming) dunes grow into fore dunes, and further inland, as soil develops and other plants arrive, grey (fixed) dunes form.
+[geo-sea-s1.14.3] Dune slacks are damp hollows between the dune ridges.
+[geo-sea-s1.14.4] Damage to dunes by people is covered with the human impacts on coasts.
+[geo-sea-s1.14.5] Examples: Brittas Bay, Co. Wicklow; Curracloe, Co. Wexford; North Bull Island, Dublin Bay.
+[geo-sea-s1.14.6] Diagram: cross-section from beach to inland showing embryo, fore and grey dunes, and a dune slack.
+[geo-sea-s1.15.b] Every coastal landform is either erosional (made by wearing rock away) or depositional (made by dropping material). Sorting them correctly is a quick way to win marks.
+[geo-sea-s1.15.0] Erosional features: cliff, wave-cut notch, wave-cut platform, cave, sea arch, sea stack, sea stump, blowhole and headland.
+[geo-sea-s1.15.1] Depositional features: beach, storm beach, sand spit, sand bar, lagoon, tombolo, sand dunes and salt marsh.
+[geo-sea-s1.15.2] Matching a photograph, aerial photograph or diagram to these features uses the same two classes.
+[geo-sea-s1.16.b] The average annual rate of coastal erosion is the total distance retreated divided by the number of years. It is a short calculation that needs the years counted correctly.
+[geo-sea-s1.16.0] Step 1: subtract the earlier year from the later year to find the number of years.
+[geo-sea-s1.16.1] Step 2: divide the total distance the cliff retreated by the number of years, so the answer is a distance per year.
+[geo-sea-s1.16.2] Illustrative figures (invented): a cliff retreats 50 m between 1990 and 2015.
+[geo-sea-s1.16.3] Years: 2015 minus 1990 gives 25 years.
+[geo-sea-s1.16.4] Rate: 50 m divided by 25 years gives an average of 2 m per year.
+
+CANDIDATES geo-rocks-weathering-s3: 3. Weathering processes
+[geo-rocks-weathering-s3.0.b] Rock at the surface is attacked by weather, water, plants and animals. Weathering is the first step in wearing landscapes down, and it must be kept separate from erosion.
+[geo-rocks-weathering-s3.0.0] Weathering is the breakdown of rock in place (in situ) at or near the earth's surface, by weather, water, plants and animals. Erosion is the wearing away and removal of material by a moving agent such as a river, the sea, ice or wind.
+[geo-rocks-weathering-s3.0.1] Weathering involves no transport: the rock breaks down where it lies, so no moving agent is involved. This prepares the rock for erosion and for mass movement (the downhill movement of loose material under gravity).
+[geo-rocks-weathering-s3.0.2] Regolith is the layer of loose, weathered rock fragments lying on top of solid bedrock (the unbroken rock beneath).
+[geo-rocks-weathering-s3.0.3] Physical (mechanical) weathering breaks rock into smaller pieces without changing its minerals (the chemical substances the rock is made of).
+[geo-rocks-weathering-s3.0.4] Chemical weathering changes or dissolves the minerals in the rock, so the rock itself is altered, not just broken.
+[geo-rocks-weathering-s3.0.5] Biological weathering by plants and animals works through both physical and chemical means.
+[geo-rocks-weathering-s3.1.b] Freeze-thaw action, also called frost shattering, is a physical weathering process. It needs temperatures that move above and below 0 °C often, together with water and jointed rock (rock with natural cracks called joints).
+[geo-rocks-weathering-s3.1.0] 1. Water enters cracks and joints in the rock.
+[geo-rocks-weathering-s3.1.1] 2. At night the water freezes and expands by about 9%, which widens the crack.
+[geo-rocks-weathering-s3.1.2] 3. By day the ice thaws, and the water seeps deeper into the crack.
+[geo-rocks-weathering-s3.1.3] 4. Repeated cycles of freezing and thawing split off angular (sharp-edged) fragments.
+[geo-rocks-weathering-s3.1.4] It is most effective on mountains in upland Ireland, on high mountains and in periglacial areas (cold areas where the ground is frozen for much of the year). Freeze-thaw is active on Irish mountain summits such as Carrauntoohil, Co. Kerry.
+[geo-rocks-weathering-s3.1.5] Result: scree (talus) slopes of angular fragments at the foot of mountain cliffs, and jagged peaks and blockfields (areas covered in broken angular rock).
+[geo-rocks-weathering-s3.2.b] In hot deserts the rock surface swings between hot days and cold nights. Both processes here are physical weathering driven by that heating and cooling, called insolation (heating by the sun).
+[geo-rocks-weathering-s3.2.0] Exfoliation, or onion weathering, is an insolation process in hot deserts such as the Sahara, where the daily temperature range (the gap between day and night temperature) is large.
+[geo-rocks-weathering-s3.2.1] The outer layer of rock heats and expands by day, and cools and contracts at night more than the interior, because rock conducts heat poorly.
+[geo-rocks-weathering-s3.2.2] Stress builds up, and curved outer sheets peel off like the layers of an onion, leaving rounded boulders.
+[geo-rocks-weathering-s3.2.3] Many geographers stress that some moisture, such as dew, must be present for exfoliation to work effectively.
+[geo-rocks-weathering-s3.2.4] Granular disintegration: dark and light minerals in a rock such as granite heat and expand at different rates, so individual grains loosen and fall away, leaving gravelly sand.
+[geo-rocks-weathering-s3.3.b] Rock can also break because the forces on it change, or because growing crystals push it apart. Neither process changes the minerals, so both are physical.
+[geo-rocks-weathering-s3.3.0] Pressure release (also called unloading or sheeting): when the overlying rock is eroded, the weight pressing on buried rock such as granite is removed, so it expands upward and cracks into sheets parallel to the surface.
+[geo-rocks-weathering-s3.3.1] The sheets peel off to leave domes, such as Half Dome, Yosemite, California, USA, a granite dome shaped by sheeting.
+[geo-rocks-weathering-s3.3.2] Salt crystallisation: salt water enters pores (tiny holes) and cracks; as it evaporates, salt crystals grow and force the rock apart.
+[geo-rocks-weathering-s3.3.3] Salt crystallisation is common in hot deserts and on coasts, where salt water is available and evaporates.
+[geo-rocks-weathering-s3.4.b] Plants and animals break rock down in two ways. Their physical action is a form of physical weathering, and the acids they produce cause chemical weathering.
+[geo-rocks-weathering-s3.4.0] Physical: plant roots grow into cracks and widen them, and burrowing animals expose fresh rock to weathering.
+[geo-rocks-weathering-s3.4.1] Chemical: decaying plants produce humic acids, and lichens and mosses release acids that attack rock surfaces.
+[geo-rocks-weathering-s3.5.b] Carbonation is a chemical weathering process. It dissolves limestone, and it works along joints and bedding planes (the flat surfaces between layers of rock).
+[geo-rocks-weathering-s3.5.0] Rainwater absorbs carbon dioxide from the air and soil to form weak carbonic acid.
+[geo-rocks-weathering-s3.5.1] The acid reacts with calcium carbonate in limestone to form calcium bicarbonate, which is soluble, so it is carried away in solution (dissolved in water).
+[geo-rocks-weathering-s3.5.2] Word equation: calcium carbonate + water + carbon dioxide gives calcium bicarbonate.
+[geo-rocks-weathering-s3.5.3] Carbonation is the process behind karst (distinctive limestone scenery); it operates on the Carboniferous limestone of the Burren, Co. Clare.
+[geo-rocks-weathering-s3.6.b] Four more chemical processes each work on different minerals. Each changes or dissolves the mineral, so each is chemical weathering.
+[geo-rocks-weathering-s3.6.0] Hydrolysis: water reacts with feldspar (a mineral in granite) and turns it into clay (kaolin, or china clay); the quartz grains (another mineral in granite) are left as sand, and the granite crumbles.
+[geo-rocks-weathering-s3.6.1] China clay from the hydrolysis of granite is quarried around St Austell, Cornwall, England, and on the edge of Dartmoor.
+[geo-rocks-weathering-s3.6.2] Oxidation: oxygen dissolved in water reacts with iron in the rock to form iron oxide (rust), which gives red, yellow or brown colours and weakens the rock.
+[geo-rocks-weathering-s3.6.3] Hydration: some minerals absorb water and swell, setting up stress in the rock; anhydrite, for example, becomes gypsum.
+[geo-rocks-weathering-s3.6.4] Solution: some minerals, such as rock salt, dissolve directly in water.
+[geo-rocks-weathering-s3.7.b] Weathering does not act at the same speed or in the same way everywhere. Climate decides which type of weathering dominates, and rock type decides how vulnerable the rock is.
+[geo-rocks-weathering-s3.7.0] Climate: temperature and rainfall decide which type of weathering dominates.
+[geo-rocks-weathering-s3.7.1] Warm, wet climates favour fast chemical weathering because, by Van 't Hoff's rule, the rate of chemical reactions roughly doubles for every 10 °C rise in temperature.
+[geo-rocks-weathering-s3.7.2] Cold climates with temperatures around freezing favour freeze-thaw, and hot deserts favour exfoliation and salt crystallisation.
+[geo-rocks-weathering-s3.7.3] Ireland's mild, wet climate favours chemical weathering, with freeze-thaw on mountain tops.
+[geo-rocks-weathering-s3.7.4] Rock type (its mineral composition): limestone is vulnerable to carbonation, granite to hydrolysis, and quartzite (a very hard rock) resists both.
+[geo-rocks-weathering-s3.8.b] Beyond climate and rock type, four more factors affect how quickly rock weathers. Most work by letting water reach the rock or by exposing fresh rock.
+[geo-rocks-weathering-s3.8.0] Rock structure: joints, bedding planes and faults (breaks in the rock where blocks have moved) let water in, so heavily jointed rock weathers faster.
+[geo-rocks-weathering-s3.8.1] Vegetation and soil cover: roots and humic acids speed weathering, and soil holds moisture against the rock.
+[geo-rocks-weathering-s3.8.2] Time: older surfaces are more weathered, because weathering has had longer to act.
+[geo-rocks-weathering-s3.8.3] Relief (the steepness and shape of the land): steep slopes remove debris and expose fresh rock to weathering.
+[geo-rocks-weathering-s3.8.4] Aspect (the direction a slope faces): shady slopes stay frozen longer, so freeze-thaw is stronger on them.
+[geo-rocks-weathering-s3.9.b] Temperature links the processes above. It matters in two different ways, and the type of weathering that results depends on the temperature pattern of the place.
+[geo-rocks-weathering-s3.9.0] Temperature acts in two ways: as a trigger, through the expansion and contraction that cause stress, and as a control on the rate of chemical reactions.
+[geo-rocks-weathering-s3.9.1] Freeze-thaw depends on temperature crossing the freezing point, and exfoliation and granular disintegration depend on a large daily range; both need changes in temperature, not just warmth.
+[geo-rocks-weathering-s3.9.2] Warmth speeds the chemical reactions of carbonation and hydrolysis, so the same temperature can favour chemical weathering in one place and freeze-thaw in another.
+[geo-rocks-weathering-s3.9.3] Method: name the process and its type, state the temperature condition it needs, explain the stress or rate change it produces, and link this to the result, such as scree from freeze-thaw.
+
+CANDIDATES geo-rocks-weathering-s5: 5. Mass movement (mass wasting) processes and the factors governing them
+[geo-rocks-weathering-s5.0.b] Slopes are never completely still. Mass movement is the way weathered material shifts downhill, and everything else in this subsection (the processes, the factors and the case studies) is a variation on it.
+[geo-rocks-weathering-s5.0.0] Mass movement (also called mass wasting) is the downslope movement of weathered material, such as regolith (the loose broken rock and soil that covers solid rock), soil, rock, mud, peat or snow, under the influence of gravity.
+[geo-rocks-weathering-s5.0.1] No transporting agent such as a river, glacier or wind is needed, because gravity does the work. Weathering (the breakdown of rock where it lies) supplies the material that moves.
+[geo-rocks-weathering-s5.0.2] Gravity pulls material downslope. Friction (grip between surfaces), cohesion (particles sticking together) and plant roots resist it. Movement happens when the downslope force exceeds the resistance.
+[geo-rocks-weathering-s5.0.3] Processes are classed, so that they can be compared, by speed (slow or fast), by water content (dry or wet) and by type of movement (heave, slide, flow or fall).
+[geo-rocks-weathering-s5.1.b] Mass movement is not even across the landscape or through the year. It varies in space and in time, which is the syllabus idea of processes differing in intensity (how strong) and frequency (how often).
+[geo-rocks-weathering-s5.1.0] In space, it is most intense on steep, wet and unvegetated slopes, because steepness increases the pull downslope while water and bare ground reduce the resistance.
+[geo-rocks-weathering-s5.1.1] In time, its frequency rises after heavy rain, snowmelt, earthquakes and seasonal freeze-thaw (the repeated freezing and thawing of water in rock cracks).
+[geo-rocks-weathering-s5.2.b] The slowest mass movement, moving soil by a few millimetres to centimetres a year. It is too slow to watch, so you recognise it from its effects.
+[geo-rocks-weathering-s5.2.0] Soil particles are lifted at right angles to the slope by wetting (swelling) or by freezing (frost heave, the upward push of freezing ground).
+[geo-rocks-weathering-s5.2.1] On drying or thawing, the particles drop vertically under gravity, so each cycle moves them a little further downslope.
+[geo-rocks-weathering-s5.2.2] Evidence: terracettes (small steps on grassy slopes), bent tree trunks, tilted fences, walls and poles, soil piled up behind walls, and cracked roads.
+[geo-rocks-weathering-s5.2.3] Diagram: draw the zigzag path of a particle, lifted at right angles to the slope and dropped vertically.
+[geo-rocks-weathering-s5.3.b] Solifluction is a slow flow of waterlogged soil in cold regions near ice. It works because frozen ground below stops water draining away.
+[geo-rocks-weathering-s5.3.0] In periglacial areas (cold areas bordering ice sheets and glaciers) the surface layer thaws in summer above permanently frozen ground, called permafrost.
+[geo-rocks-weathering-s5.3.1] The saturated layer cannot drain, because the frozen ground beneath is impermeable, so it flows slowly downhill, forming lobes (tongue-shaped bulges) and terraces.
+[geo-rocks-weathering-s5.3.2] Solifluction was widespread in Ireland at the end of the last glaciation, when the climate was periglacial.
+[geo-rocks-weathering-s5.4.b] Rockfall and landslide both move solid rock quickly. The difference is that rockfall is a free fall from a cliff, while a landslide is a slide along a plane.
+[geo-rocks-weathering-s5.4.0] Rockfall: blocks loosened by freeze-thaw, or undercut by the sea or a river (worn away at the base), fall freely from a steep cliff. They collect as scree (also called talus) at the foot.
+[geo-rocks-weathering-s5.4.1] Landslide (rockslide): a mass of rock or debris slides suddenly along a flat plane, such as a bedding plane (a layer boundary in sedimentary rock) or joint (a crack) sloping in the same direction as the slope.
+[geo-rocks-weathering-s5.4.2] Landslides often follow heavy rain, which lubricates the plane so the rock slips more easily, or an earthquake, which shakes it loose.
+[geo-rocks-weathering-s5.5.b] A slump is a fast slide in which the moving mass turns as it goes, because the surface it slides on is curved rather than flat.
+[geo-rocks-weathering-s5.5.0] Saturated material, often clay over or under permeable rock (rock that lets water through), slides along a curved (concave) slip plane and rotates backward.
+[geo-rocks-weathering-s5.5.1] The slump leaves a crescent-shaped scar (scarp) at the top, a back-tilted block and a bulging toe at the foot.
+[geo-rocks-weathering-s5.5.2] Slumps are common on clay cliffs undercut by the sea, because the sea removes the support at the base, for example on the Antrim coast.
+[geo-rocks-weathering-s5.5.3] A slump moves on a curved plane. A landslide moves on a flat plane.
+[geo-rocks-weathering-s5.6.b] These three fast flows each carry a wet or loose mass downhill: mud, volcanic mud, or snow and ice. All are triggered by a sudden supply of water or by disturbance.
+[geo-rocks-weathering-s5.6.0] Mudflow: fine material (clay, silt, weathered rock or volcanic ash) saturated by heavy rain or snowmelt flows rapidly downhill like a liquid, often along valleys. It can bury settlements.
+[geo-rocks-weathering-s5.6.1] Lahar: a volcanic mudflow of ash and water, from rain or from melted snow and ice on the volcano. It can travel very fast and far. The word is from Indonesia.
+[geo-rocks-weathering-s5.6.2] Avalanche: a sudden, rapid slide of snow and ice down a steep mountain slope, triggered by heavy snowfall, rapid thaw or disturbance.
+[geo-rocks-weathering-s5.6.3] Ice avalanches occur when part of a glacier collapses, such as at Marmolada in 2022.
+[geo-rocks-weathering-s5.7.b] A bog burst is a fast mass movement of peat, common in the uplands of Ireland. Peat (partly rotted plant matter that builds up in waterlogged ground) on a slope fills with water and then slides.
+[geo-rocks-weathering-s5.7.0] Blanket bog (a thick layer of peat covering a hillside) on a slope becomes saturated after prolonged or intense rain.
+[geo-rocks-weathering-s5.7.1] The peat gains weight, and its base loses grip on the underlying mineral soil or rock. The peat bursts and flows downhill as a black slurry.
+[geo-rocks-weathering-s5.7.2] A bog burst blocks rivers, kills fish, and destroys roads, bridges and land.
+[geo-rocks-weathering-s5.7.3] Bog bursts are common in the uplands of western and north-western Ireland.
+[geo-rocks-weathering-s5.8.b] Whether a slope moves, and how fast, depends on a set of factors. The first three are the slope angle, the water in the ground and what the slope is made of.
+[geo-rocks-weathering-s5.8.0] Gradient (slope angle): the steeper the slope, the greater the downslope pull of gravity and the faster the movement. Gentle slopes favour creep; steep slopes favour falls and slides.
+[geo-rocks-weathering-s5.8.1] Water content: some water adds cohesion, but saturation fills the pores (the tiny gaps between particles), adds weight, reduces friction and acts as a lubricant, so material flows.
+[geo-rocks-weathering-s5.8.2] Heavy or prolonged rain and snowmelt trigger most fast movements, because they saturate the slope.
+[geo-rocks-weathering-s5.8.3] Clay becomes slippery and plastic (easily moulded) when wet. Jointed or bedded rock dipping towards the slope slides.
+[geo-rocks-weathering-s5.8.4] Permeable rock over impermeable clay or shale (rock that water cannot pass through) concentrates water at the junction, as on the Antrim coast.
+[geo-rocks-weathering-s5.9.b] The remaining factors either hold a slope together or remove what supports it. Some are natural, some come from the climate, and one is human.
+[geo-rocks-weathering-s5.9.0] Vegetation: roots bind soil and plants absorb water, so bare slopes move more easily.
+[geo-rocks-weathering-s5.9.1] Climate and weathering: freeze-thaw loosens rock, heavy seasonal rainfall adds water, and periglacial climates produce solifluction.
+[geo-rocks-weathering-s5.9.2] Undercutting: erosion by the sea or a river at the base of a slope removes support, so the material above is left unsupported.
+[geo-rocks-weathering-s5.9.3] Loading: extra weight at the top of a slope, from rock, buildings or spoil (waste rock), increases the downslope force.
+[geo-rocks-weathering-s5.9.4] Tectonic activity: earthquakes and volcanic eruptions shake loose material and trigger landslides and lahars.
+[geo-rocks-weathering-s5.9.5] Human activity also affects slope stability. There is more on this in Human interaction: mass movement.
+[geo-rocks-weathering-s5.10.b] The Antrim coast is an Irish example of landslides and slumps. Its layers of rock, hard on top of soft, explain why the slopes fail.
+[geo-rocks-weathering-s5.10.0] Location: the Antrim coast between Larne and Cushendall, along the Antrim Coast Road (A2).
+[geo-rocks-weathering-s5.10.1] Geology: hard basalt lies on chalk, which lies on soft Lias clay with other mudstones.
+[geo-rocks-weathering-s5.10.2] Rainwater soaks through the jointed basalt and chalk and saturates the clay, which becomes slippery and plastic.
+[geo-rocks-weathering-s5.10.3] The rock above slumps and rotates seaward in rotational slides, and clay flows out as mudflows. These have repeatedly blocked the coast road.
+[geo-rocks-weathering-s5.10.4] Garron Point is a classic landslip site on this coast.
+[geo-rocks-weathering-s5.10.5] Responses, so that the road stays open: engineers have built retaining walls and drainage, and fitted rock-catch fences and netting to protect the road.
+[geo-rocks-weathering-s5.11.b] Two Irish bog bursts show how rain-soaked peat can fail, one recent and one historic.
+[geo-rocks-weathering-s5.11.0] Pollatomish (Dooncarton Mountain), Co. Mayo, 19 September 2003: an intense thunderstorm with very heavy rain triggered about 40 landslides and peat slides in a few hours.
+[geo-rocks-weathering-s5.11.1] At Pollatomish, houses, roads, a bridge and a graveyard were damaged, and several families were evacuated.
+[geo-rocks-weathering-s5.11.2] Knocknageeha, near Rathmore, Co. Kerry, December 1896: a bog burst swept away a house, killing a family of eight. It is the classic Irish bog burst.
+[geo-rocks-weathering-s5.12.b] Italy gives two international examples: mudflows after heavy rain at Sarno, and a landslide into a reservoir at Vajont.
+[geo-rocks-weathering-s5.12.0] Sarno and neighbouring towns, Campania, southern Italy, 5-6 May 1998: after prolonged heavy rain, loose volcanic ash and soil on steep limestone slopes became saturated and slid off as fast mudflows into the towns below. About 160 people were killed.
+[geo-rocks-weathering-s5.12.1] Vajont Dam, northern Italy, 9 October 1963: a huge landslide from Monte Toc slid into the reservoir (the lake held back by the dam). The wave it sent over the dam destroyed the town of Longarone, killing about 2,000 people. The dam itself survived.
+[geo-rocks-weathering-s5.12.2] Weak clay layers in the valley side, and the filling of the reservoir which saturated the slope, caused the Vajont slide.
+[geo-rocks-weathering-s5.13.b] South America gives a lahar triggered by a volcano and mudslides triggered by torrential rain.
+[geo-rocks-weathering-s5.13.0] Nevado del Ruiz, Colombia, 13 November 1985: a small eruption melted part of the summit ice cap. Lahars rushed down river valleys and buried the town of Armero, killing about 23,000 people.
+[geo-rocks-weathering-s5.13.1] Warnings had been given, but Armero was not evacuated.
+[geo-rocks-weathering-s5.13.2] Vargas state, on the coast of Venezuela, December 1999: days of torrential rain triggered mudslides and debris flows on the steep mountains above coastal towns, killing thousands of people.
+[geo-rocks-weathering-s5.14.b] Recent glacier collapses in the Alps are mass movements of ice, rock and mud. They show glacier retreat acting as a new cause.
+[geo-rocks-weathering-s5.14.0] Blatten, Lötschental, canton of Valais, Switzerland, 28 May 2025: the Birch Glacier collapsed, sending a huge mass of ice, rock and mud onto the village and burying most of it.
+[geo-rocks-weathering-s5.14.1] The village had been evacuated days earlier, after geologists detected rockfalls onto the glacier.
+[geo-rocks-weathering-s5.14.2] The debris blocked the River Lonza, forming a lake upstream, which means a flood risk.
+[geo-rocks-weathering-s5.14.3] Marmolada glacier, Dolomites, Italy, 3 July 2022: during a heatwave a large section of the glacier collapsed as an ice avalanche, killing 11 people.
+
+CANDIDATES geo-glaciation-s2: 2. Isostasy
+[geo-glaciation-s2.0.b] Landforms are shaped by forces that build up the land and by forces that wear it down. The landscape you see reflects the balance between the two.
+[geo-glaciation-s2.0.0] Endogenetic (endogenic) forces come from within the earth and raise the land, for example through crustal uplift (the rising of the earth's outer rocky layer, the crust).
+[geo-glaciation-s2.0.1] Exogenetic (exogenic) forces act at the surface: weathering (breakdown of rock in place), erosion (wearing away and carrying off of material) and deposition (dropping of material) wear the land down and move material.
+[geo-glaciation-s2.0.2] All landforms represent a balance between endogenetic and exogenetic forces, and this balance may change through time, so a landscape can shift as one force gains on the other.
+[geo-glaciation-s2.1.b] The crust is not fixed in height. It sits on the layer beneath it and settles to a level that depends on the weight it carries, and isostasy is the name for that balance.
+[geo-glaciation-s2.1.0] Isostasy is the state of balance between the crust and the denser mantle (the thick layer of hot rock under the crust) beneath it.
+[geo-glaciation-s2.1.1] The crust floats on the mantle, as a block of wood floats in water. The mantle beneath the crust is called the asthenosphere.
+[geo-glaciation-s2.1.2] Isostatic change is the adjustment of the crust's height that restores this balance when the load on the crust changes, so adding weight lowers the crust and removing weight lets it rise.
+[geo-glaciation-s2.2.b] Ice sheets add a heavy load to the crust, and melting removes it. The crust responds slowly in both directions.
+[geo-glaciation-s2.2.0] Isostatic depression: the weight of an ice sheet presses the crust down into the mantle, as a heavy load pushes a floating block lower in water.
+[geo-glaciation-s2.2.1] Isostatic rebound (also called recovery or uplift): when the ice melts and the load is removed, the crust slowly rises.
+[geo-glaciation-s2.2.2] Rebound lags far behind melting, because the crust adjusts slowly, so land can still be rising long after the ice has gone.
+[geo-glaciation-s2.2.3] Rebound is still continuing in some places: Scandinavia around the Gulf of Bothnia, Hudson Bay in Canada, and Scotland.
+[geo-glaciation-s2.3.b] Ice is not the only thing that changes the load on the crust. Surface processes do it too, by moving material from one place to another.
+[geo-glaciation-s2.3.0] Denudation (the wearing away and lowering of the land surface by weathering and erosion) removes material from the land. Removing weight through erosion causes the crust to rise.
+[geo-glaciation-s2.3.1] Heavy deposition adds weight to the crust, so it sinks; a delta (a landform built where a river drops its load at the sea) is one place where a large load builds up.
+[geo-glaciation-s2.4.b] The land and the sea can each change height, and the two must not be confused. Isostatic change moves the land. Eustatic change moves the sea.
+[geo-glaciation-s2.4.0] Isostatic change is a local change in the height of the land relative to the sea.
+[geo-glaciation-s2.4.1] Eustatic change is a worldwide change in sea level.
+[geo-glaciation-s2.4.2] During glaciation, water locked up in ice sheets lowered sea level worldwide, because less water was left in the oceans.
+[geo-glaciation-s2.4.3] When the ice melted, the meltwater returned to the oceans and raised sea level again.
+[geo-glaciation-s2.4.4] The level of the land relative to the sea is the combined result of isostatic and eustatic change, so the coast can rise or sink depending on which effect is stronger.
+[geo-glaciation-s2.5.b] Base level is the lowest level to which a river can erode, normally sea level. A relative change between land and sea alters it.
+[geo-glaciation-s2.5.0] A river cannot erode its channel below base level, so sea level controls the lower course of every river.
+[geo-glaciation-s2.5.1] Uplift faster than denudation: the land rises but is not worn down quickly enough to match, so features are left high above the present sea.
+[geo-glaciation-s2.5.2] Sea level rising faster than the land: the sea reaches features that were cut when it stood lower.
+[geo-glaciation-s2.5.3] Such landscapes show features that do not match present conditions, because the balance between endogenetic and exogenetic forces is temporarily out of balance.
+[geo-glaciation-s2.6.b] Where the land rises relative to sea level, the coast is emergent (rising out of the sea) and former shore features stand above the present tide reach.
+[geo-glaciation-s2.6.0] Isostatic uplift lifts a former beach, its cliffs and its rock platform above present high tide, which is how a raised beach forms.
+[geo-glaciation-s2.6.1] An old cliff line marks the position of the former sea cliffs, now inland of the sea.
+[geo-glaciation-s2.6.2] A wave-cut notch is cut into the old cliff at the former sea level, where waves once undercut the rock.
+[geo-glaciation-s2.6.3] Sea caves and stacks (pillars of rock left standing when waves cut away the land around them) stand above the present tide reach.
+[geo-glaciation-s2.6.4] Beach shingle (rounded pebbles) lies on the raised beach.
+[geo-glaciation-s2.6.5] A flat former wave-cut platform is a level rock shelf cut by waves at the former sea level.
+[geo-glaciation-s2.6.6] Examples: raised beaches at Malin Head, Inishowen, Co. Donegal, and on the Isle of Jura, Scotland.
+[geo-glaciation-s2.7.b] Where the sea stands higher relative to the land, the coast is submergent (sinking under the sea) and valleys and lowlands are flooded.
+[geo-glaciation-s2.7.0] A ria is a drowned river valley. It has a V-shaped cross-section and a winding outline, because it was cut by a river.
+[geo-glaciation-s2.7.1] Examples of rias: Bantry Bay, the Kenmare River and Dingle Bay (Co. Cork and Co. Kerry), and Cork Harbour. They are drowned river valleys of the Munster ridge-and-valley landscape.
+[geo-glaciation-s2.7.2] A fjord is a drowned glacial trough (a valley deepened by a glacier). It is deep and U-shaped, often with a shallow threshold (a raised rock lip) at its mouth.
+[geo-glaciation-s2.7.3] Examples of fjords: Killary Harbour, on the Co. Galway and Co. Mayo border, and the Norwegian fjords.
+[geo-glaciation-s2.7.4] Drowned drumlins: a drumlin is an oval hill of glacial deposit, and when the lowland between drumlins floods, the crests of the drumlins stand as islands in the sea.
+[geo-glaciation-s2.7.5] Examples of drowned drumlins: Clew Bay, Co. Mayo, and Strangford Lough, Co. Down.
+[geo-glaciation-s2.8.b] Ireland shows both kinds of coast, because the amount of ice, and so the amount of rebound, differed from north to south.
+[geo-glaciation-s2.8.0] The north of Ireland had thicker ice, so it was depressed more and has undergone more isostatic rebound. Its coast shows raised beaches, as at Malin Head in Co. Donegal.
+[geo-glaciation-s2.8.1] The south-west has the opposite pattern: its coast is drowned, with rias and related submerged features, as in Cork and Kerry.
+[geo-glaciation-s2.9.b] A fall in base level, caused by the land rising relative to the sea, gives a river renewed erosive power. This renewal is called rejuvenation.
+[geo-glaciation-s2.9.0] The river erodes downwards again to the new, lower base level, and the renewed erosion works upstream from the mouth.
+[geo-glaciation-s2.9.1] Knickpoint: a sudden steepening in the long profile (the line of the river's slope from source to mouth) of the river, which can form a waterfall.
+[geo-glaciation-s2.9.2] Incised meanders: the river cuts down into its old meanders (bends), leaving them entrenched (cut deep) in steep-sided valleys.
+[geo-glaciation-s2.9.3] River terraces: the old valley floor is left as a step above the new, lowered channel.
+[geo-glaciation-s2.10.b] The opposite change drowns rivers instead of renewing them. When the sea rises relative to the land, base level rises too.
+[geo-glaciation-s2.10.0] A rise in base level, caused by the sea rising relative to the land, drowns the lower course of a river.
+[geo-glaciation-s2.10.1] The drowned lower course becomes an estuary (the wide tidal mouth of a river) or a ria, a drowned river valley with a V-shaped cross-section and a winding outline.

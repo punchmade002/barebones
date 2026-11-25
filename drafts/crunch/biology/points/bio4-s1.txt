@@ -1,0 +1,170 @@
+TARGET bio4-s1: Models
+[bio4-s1.0.b] Biologists rarely study a living system directly, so they work with models instead. A model is a stand-in that is easier to handle than the real thing, and it is only useful if you know what it keeps and what it leaves out.
+[bio4-s1.0.0] A model is a simplified representation of an idea, structure, process or system, used to describe, explain or predict how it behaves.
+[bio4-s1.0.1] Models are needed because real biological systems are too small (molecules, cells), too large (ecosystems, the biosphere), too slow (evolution), too fast (nerve impulses), too complex (the human body), or too dangerous or unethical to study directly.
+[bio4-s1.0.2] Every model is simplified: it keeps the features that matter for its purpose and leaves out others. A model is judged by how useful it is for its purpose, not by whether it is a perfect copy, because no model is complete.
+[bio4-s1.0.3] Every model rests on assumptions, which are things taken to be true so that the model can work. For example, a Punnett square assumes that fertilisation is random. If an assumption does not hold, the model’s predictions fail.
+[bio4-s1.0.4] Models can be modified as more data become available. When new observations do not fit, the model is changed or replaced (worked examples 1 and 2 below show this happening).
+[bio4-s1.0.5] Models can predict. A good model predicts how the system will behave in new conditions, and testing those predictions is how models are checked (worked example 3 below).
+[bio4-s1.1.b] A model can take many forms, from a sentence to a computer program. The form is chosen to suit what the model has to show, and each one leaves different things out.
+[bio4-s1.1.0] Words (verbal or descriptive models), e.g. a written description of natural selection as variation, competition, survival of the better adapted, and inheritance.
+[bio4-s1.1.1] Diagrams, e.g. a food web, a diagram of the carbon or nitrogen cycle, a labelled diagram of a cell, a flowchart of a negative-feedback loop, or a pyramid of numbers.
+[bio4-s1.1.2] Equations, e.g. the balanced equation for photosynthesis, 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. It models what goes in and comes out, but not the many steps in between.
+[bio4-s1.1.3] The reproduction number R₀ (the average number of people one infected person infects) is an equation-based quantity used in models of disease spread.
+[bio4-s1.1.4] Physical (concrete) models, e.g. Watson and Crick’s model of DNA, a bell-jar model of the lungs, a plastic model of the heart, and ball-and-stick models of molecules. You can handle them and see the structure in three dimensions.
+[bio4-s1.1.5] Simulations, often computer models, e.g. models of how an infectious disease spreads through a population, climate models, and computer models of protein folding. Simulations can run “what if” scenarios quickly and safely.
+[bio4-s1.1.6] Model organisms are a different use of the word: species studied in detail because they are easy to keep and breed and share much biology with others, e.g. the bacterium Escherichia coli, yeast, the fruit fly Drosophila melanogaster, the plant Arabidopsis thaliana, and the house mouse.
+[bio4-s1.1.7] The assumption behind a model organism is that what is true of it is true of other organisms. The limitation is that results do not always transfer to humans.
+[bio4-s1.2.b] Models are built and improved in a cycle: observe, represent, predict, test, then revise. Each step exists so that the model stays tied to real data.
+[bio4-s1.2.0] Generating a model: 1. Observe the system and collect data, because a model must start from real observations.
+[bio4-s1.2.1] 2. Identify its key parts and how they interact, so that you know what the model must include.
+[bio4-s1.2.2] 3. Represent them simply, often by analogy with something familiar, e.g. “lock and key”, which compares an enzyme and its substrate to a lock and its key.
+[bio4-s1.2.3] 4. Use the model to make predictions, for example about what will happen if one part changes.
+[bio4-s1.2.4] 5. Test the predictions against new data, which is how you find out whether the model works.
+[bio4-s1.2.5] 6. Keep, modify or replace the model, depending on whether the predictions held.
+[bio4-s1.3.b] Once a model exists, it has to be judged. The same questions apply to any model, whether it is a diagram, an equation or a simulation.
+[bio4-s1.3.0] Evaluating a model asks: what does it show, and for what purpose? What does it leave out? What assumptions does it make?
+[bio4-s1.3.1] It also asks: does it fit the data? Can it explain and predict? How could it be improved? Answers about a model should always name at least one strength and one limitation, so that you give a balanced evaluation.
+[bio4-s1.3.2] A model is not the same as a theory. A theory is a broad, well-tested explanation; a model is a representation that may be used to explain part of a theory or to make its predictions concrete.
+[bio4-s1.3.3] Two different models of the same thing can both be useful for different purposes, because each is built for a different job. There is more on theories in “The nature of scientific knowledge”.
+[bio4-s1.4.b] Enzymes are proteins that speed up reactions, and the part of the enzyme where the reaction happens is the active site. The way biologists have pictured the active site has changed as new data arrived, which makes it a good example of a model being modified. The Higher Level detail of enzyme structure is in “Enzyme structure and specificity”.
+[bio4-s1.4.0] Lock-and-key model, proposed by Emil Fischer in 1894: the enzyme’s active site has a rigid shape that exactly fits its substrate (the molecule the enzyme acts on), as only one key fits a lock. It explains why enzymes are specific, so that each catalyses one reaction.
+[bio4-s1.4.1] Its assumption is that the active site is rigid. Some enzymes act on several similar substrates, and later structural studies, e.g. X-ray crystallography (which reveals the 3D shape of molecules), showed that some enzymes change shape when the substrate binds.
+[bio4-s1.4.2] For example, the enzyme hexokinase closes around glucose. A rigid lock cannot do this, so the new data did not fit the model.
+[bio4-s1.4.3] Induced-fit model, proposed by Daniel Koshland in 1958: the active site is flexible. When the substrate enters, the active site changes shape slightly to mould tightly around it, like a glove around a hand.
+[bio4-s1.4.4] This strains the substrate’s bonds and helps the reaction, so induced fit explains how the enzyme speeds the reaction up as well as why it is specific.
+[bio4-s1.4.5] The induced-fit model replaced lock and key as the better model, although lock and key is still useful as a simple first explanation of specificity.
+[bio4-s1.4.6] Diagram: two rows of three stages. Row one, lock and key: enzyme with rigid active site and substrate, then enzyme–substrate complex, then products released with the enzyme unchanged. Row two, induced fit: same stages, active site changing shape as substrate binds. Label active site, substrate, enzyme–substrate complex, products.
+[bio4-s1.5.b] The cell membrane is the thin boundary that controls what enters and leaves a cell. Its structure was first modelled as a simple layered sandwich, then new evidence forced a rethink.
+[bio4-s1.5.0] The earlier model, proposed by Hugh Davson and James Danielli in 1935, was a phospholipid bilayer (a double layer of fat-based molecules) sandwiched between two continuous layers of protein. Its assumption was that proteins form uniform layers on each surface.
+[bio4-s1.5.1] New data did not fit. Membrane proteins vary greatly in type and amount between membranes, which a uniform protein layer cannot explain. Freeze-fracture electron microscopy, which splits a membrane down the middle of the bilayer, showed proteins embedded in and passing through the bilayer.
+[bio4-s1.5.2] In 1970 Larry Frye and Michael Edidin fused a mouse cell and a human cell whose membrane proteins had been labelled differently. The proteins mixed over the surface of the combined cell, showing that membrane components move.
+[bio4-s1.6.b] The fluid mosaic model replaced the sandwich. It pictures proteins scattered through a moving bilayer rather than lying in sheets on its surfaces.
+[bio4-s1.6.0] The fluid mosaic model, proposed by Seymour Singer and Garth Nicolson in 1972, describes a phospholipid bilayer with hydrophilic (water-attracting) phosphate heads facing the watery fluid inside and outside the cell, and hydrophobic (water-repelling) fatty-acid tails facing inwards.
+[bio4-s1.6.1] Proteins are scattered in the bilayer like tiles in a mosaic, some on the surface and some passing right through, as channel and carrier proteins do. The phospholipids and many proteins move sideways, so the membrane is fluid.
+[bio4-s1.6.2] Animal cell membranes also contain cholesterol, and many proteins and lipids carry carbohydrate chains (glycoproteins and glycolipids) on the outer surface.
+[bio4-s1.6.3] The model explains why small non-polar molecules such as O₂ and CO₂ diffuse straight through the bilayer, while ions and glucose need protein channels or carriers. Transport is taught in “Diffusion, osmosis and active transport”.
+[bio4-s1.6.4] It also explains why membranes can fuse and re-seal, e.g. in endocytosis (the cell taking in material by folding its membrane around it), because the fluid bilayer can break and rejoin.
+[bio4-s1.6.5] Limitations: the fluid mosaic model is still being refined, so it is not final. Membranes are not uniformly fluid, and some proteins are held in place by the cytoskeleton (the cell’s internal protein scaffold).
+[bio4-s1.6.6] Membranes are also more crowded with protein than the usual diagram shows, and small regions of the membrane, called lipid rafts, differ in composition.
+[bio4-s1.6.7] Diagram: a section of membrane showing the phospholipid bilayer with heads and tails labelled hydrophilic and hydrophobic, a channel protein passing through, a surface protein, a glycoprotein with its carbohydrate chain on the outside, and cholesterol.
+[bio4-s1.7.b] Watson and Crick’s DNA model shows a model doing its most important job: pulling existing data together and then predicting something new that was later tested. DNA structure itself is taught in “Nucleotides, DNA and RNA”.
+[bio4-s1.7.0] In 1953 James Watson and Francis Crick, at the University of Cambridge, built a physical model of DNA from metal plates and rods.
+[bio4-s1.7.1] They used X-ray diffraction images of DNA (patterns showing its structure) made by Rosalind Franklin and Raymond Gosling at King’s College London, including the image known as Photo 51, and data from Maurice Wilkins.
+[bio4-s1.7.2] They also used Erwin Chargaff’s finding that in DNA the amount of adenine equals that of thymine, and the amount of cytosine equals that of guanine, which a model of the base pairing had to explain.
+[bio4-s1.7.3] The model showed two strands wound into a double helix, with a sugar–phosphate backbone on the outside and bases paired inside: adenine with thymine, and cytosine with guanine. It explained Chargaff’s data and the X-ray pattern.
+[bio4-s1.7.4] Prediction: complementary base pairing suggested that each strand could act as a template for a new strand, so that DNA could copy itself. Watson and Crick noted this in their 1953 paper.
+[bio4-s1.7.5] In 1958 Matthew Meselson and Franklin Stahl showed experimentally that DNA replication is semi-conservative (each new DNA molecule keeps one old strand), as the model predicted. Replication is taught in “DNA replication and mitosis in the cell cycle”.
+[bio4-s1.7.6] Limitations: the model shows one short, straight, static section. In cells, DNA is extremely long, is wound around histone proteins and coiled into chromosomes, and moves and unwinds. Atoms are shown as solid shapes.
+[bio4-s1.7.7] Watson, Crick and Wilkins received the Nobel Prize in Physiology or Medicine in 1962. Franklin had died in 1958, and the prize is not awarded after death. Her contribution is now widely recognised, and the case is an example of how credit is shared in science.
+[bio4-s1.8.b] Models turn up throughout the course. For each one, know what it represents and at least one assumption or limitation, because that is how models are evaluated.
+[bio4-s1.8.0] Bell-jar model of breathing: a bell jar represents the chest, balloons the lungs, a rubber sheet the diaphragm and a tube the trachea. Pulling the sheet down increases the volume in the jar, lowering the pressure, so air enters the balloons.
+[bio4-s1.8.1] Limitations of the bell jar: its walls are rigid, whereas the ribs move; there are no intercostal muscles (the muscles between the ribs); and the rubber sheet is pulled down, whereas the diaphragm contracts and flattens.
+[bio4-s1.8.2] The balloons also have no alveoli (the air sacs of the lungs). There is more on this in “Gas exchange and the breathing mechanism”.
+[bio4-s1.8.3] Punnett square: predicts the expected ratios of offspring genotypes (the alleles they carry) and phenotypes (their observable features).
+[bio4-s1.8.4] Assumptions of the Punnett square: one gene controls the trait; each gamete (sex cell) carries one allele; fertilisation is random; all offspring survive.
+[bio4-s1.8.5] Limitations of the Punnett square: the ratios are only probabilities, so small families often differ from them; and it does not apply to traits controlled by many genes or by the environment. There is more on this in “Monohybrid crosses” and “Benefits and limitations of Mendelian genetics”.
+[bio4-s1.9.b] Diagrams and equations model whole systems, such as ecosystems, matter cycles and outbreaks. Each shows the pattern but leaves out detail.
+[bio4-s1.9.0] Food chains, food webs and pyramids of numbers model feeding relationships and energy flow. Limitations: real feeding relationships are more complex, and pyramids of numbers can be inverted, e.g. many insects on one tree. There is more on this in “Energy and nutrient transfer” and “Pyramids of numbers”.
+[bio4-s1.9.1] Carbon and nitrogen cycle diagrams model how matter moves between living things and the environment. They show processes but not their rates or amounts, so they cannot tell you how fast carbon moves or how much is stored.
+[bio4-s1.9.2] There is more on these cycles in “The carbon cycle” and “The nitrogen cycle”.
+[bio4-s1.9.3] Disease-spread models use R₀, the average number of people one infected person infects in a population with no immunity. They predict that an outbreak grows if R₀ is above 1 and dies out if it is below 1, and how many people must be immune to stop spread.
+[bio4-s1.9.4] Assumptions of disease models: people mix randomly and R₀ stays constant. In reality, behaviour, vaccination, seasons and new variants change it, so predictions are updated as new data come in. There is more on this in “Emergence and spread of infectious disease”.
+[bio4-s1.9.5] Homeostasis (keeping the body’s internal conditions steady) is modelled as a stimulus–response model, with negative feedback. There is more on this in “Homeostasis as a stimulus-response model”.
+
+CANDIDATES bio1-s1: The nature of scientific knowledge
+[bio1-s1.0.b] Science is both a body of knowledge and a process for building it. It explains the natural world using evidence gathered by observation and experiment, and that evidence requirement is what separates scientific claims from opinions.
+[bio1-s1.0.0] A scientific claim must be testable against evidence from the natural world. Questions of value or morals, such as “should we clone animals?”, can be informed by science but cannot be answered by it, because no experiment can measure what is right or wrong.
+[bio1-s1.0.1] Scientific knowledge is evidence-based (empirical): ideas are accepted because they agree with observations and experimental results, not because of who proposed them. A famous name does not make an idea correct.
+[bio1-s1.0.2] An observation is what is directly detected with the senses or instruments, such as “the broth went cloudy”. An inference is an explanation drawn from an observation, such as “microorganisms grew in the broth”. Scientists keep them separate, as an inference can be wrong when the observation is right.
+[bio1-s1.1.b] Scientific ideas are never declared final, yet the best of them last for generations. Two ideas explain why: ideas are open to revision, and they must be capable of being shown wrong.
+[bio1-s1.1.0] Scientific knowledge is tentative but durable: any idea can be revised if new evidence contradicts it, yet well-tested ideas survive for a long time. The cell theory (the idea that all living things are made of cells) has survived more than 150 years of testing.
+[bio1-s1.1.1] Tentative does not mean weak or a guess. It means the idea is held open to revision, while still being backed by a large amount of evidence.
+[bio1-s1.1.2] An idea must be falsifiable: it must be possible, in principle, to imagine an observation that would show the idea is wrong. The philosopher Karl Popper made falsifiability his test of whether an idea is scientific.
+[bio1-s1.1.3] Evidence can support an idea or refute it, but it can never prove an idea true for all time, because a later observation might contradict it. One reliable contrary result can disprove an idea.
+[bio1-s1.2.b] Textbooks sometimes present “the scientific method” as a fixed recipe, but real science is messier. The first half of the usual cycle takes a scientist from noticing something to having data.
+[bio1-s1.2.0] There is no single fixed scientific method. The process is often complex and iterative (it loops back on itself), following many different paths, but it usually involves the stages below.
+[bio1-s1.2.1] 1. Observation: the scientist notices something in the natural world.
+[bio1-s1.2.2] 2. Question: the scientist asks why or how it happens.
+[bio1-s1.2.3] 3. Hypothesis: a proposed, testable explanation is put forward.
+[bio1-s1.2.4] 4. Prediction: the scientist works out what should be found if the hypothesis is correct.
+[bio1-s1.2.5] 5. Experiment or further observation: the prediction is tested.
+[bio1-s1.2.6] 6. Collection and analysis of data: results are gathered and worked on to see what they show.
+[bio1-s1.3.b] Once the data is in, the work is not finished. The second half of the cycle checks the result and shares it, so that other scientists can judge it.
+[bio1-s1.3.0] 7. Conclusion: the hypothesis is judged to be supported or rejected by the data.
+[bio1-s1.3.1] 8. Repetition and checking: the work is repeated, so that one odd result is not relied on.
+[bio1-s1.3.2] 9. Comparison with existing knowledge: the result is set against what is already known.
+[bio1-s1.3.3] 10. Publication in a scientific journal after peer review, which means other experts check the work before it is published.
+[bio1-s1.3.4] 11. Testing of the findings by other scientists, who try to confirm or challenge them.
+[bio1-s1.3.5] 12. Over time, well-supported findings are developed into a theory or law.
+[bio1-s1.3.6] A rejected hypothesis leads to a new or modified hypothesis, so the cycle starts again. This is why the process is a loop and not a straight line.
+[bio1-s1.3.7] Diagram: the cycle drawn as a loop with arrows. Labels: observation, question, hypothesis, prediction, experiment, data analysis, conclusion, repeat and check. Arrow from “hypothesis rejected” back to “new hypothesis”; “publish and peer review” leading out to “theory or law”.
+[bio1-s1.4.b] The cycle suggests that every investigation is a laboratory experiment, but that is only one way of testing ideas. Science also needs imagination.
+[bio1-s1.4.0] Not all science is experimental. Some fields test ideas by observation and comparison, for example fossil records and comparative anatomy as evidence for evolution, or field surveys of ecosystems.
+[bio1-s1.4.1] Science is creative: imagining hypotheses and designing ways to test them takes imagination, and chance observations can start new lines of work, such as the discovery of penicillin, the standard example. There is more on this in Science, scientists and society.
+[bio1-s1.5.b] No scientist works alone for long. Science is a shared activity in which claims are expected to face challenge.
+[bio1-s1.5.0] Scientists work in teams, build on others’ published work and expect their claims to be checked and challenged, because a claim that survives checking is more reliable.
+[bio1-s1.5.1] Scepticism means doubting a claim until the evidence for it is good. It is a norm of science, not a personal attack on the scientist. There is more on this in Science as a global enterprise.
+[bio1-s1.6.b] Scientists are human, so the way science is done reflects the world they live in.
+[bio1-s1.6.0] Science is influenced by the society, culture, funding and technology of its time, which affect what questions get investigated and what can be measured.
+[bio1-s1.6.1] Individual scientists can be biased. There is more on the types of bias in Recognising bias and evaluating sources.
+[bio1-s1.7.b] The scientific method is powerful, but it has limits. Knowing them helps you judge how far a result can be trusted.
+[bio1-s1.7.0] Limited by current knowledge and technology: some questions cannot yet be investigated. Cells could not be observed until microscopes were invented, and the internal structure of organelles could not be observed until electron microscopes were available.
+[bio1-s1.7.1] The basis of the investigation may be wrong: if the theory or assumption a hypothesis rests on is false, the conclusions may be false too.
+[bio1-s1.7.2] Human error and interpretation: data can be misread, and scientists can interpret the same results in different ways.
+[bio1-s1.7.3] Experimental design: a poorly designed experiment can give results that seem to support a hypothesis when they do not. There is more on this in Designing and conducting investigations.
+[bio1-s1.7.4] Applying results to nature: conditions in a laboratory are simpler and more controlled than in a living organism or an ecosystem, so results may not apply outside the laboratory. A drug that works on cells in a dish may not work in a person.
+[bio1-s1.7.5] Science cannot answer questions of value, ethics or the supernatural, and it cannot prove a hypothesis absolutely, because evidence can only support or refute an idea.
+[bio1-s1.8.b] A hypothesis is the first step from an observation towards an explanation. It is the lowest-status kind of scientific idea, since it has yet to be tested.
+[bio1-s1.8.0] A hypothesis is a proposed, testable explanation for an observation. It makes predictions that can be checked by experiment or observation.
+[bio1-s1.8.1] A hypothesis may be supported or rejected; it is never proved.
+[bio1-s1.8.2] Example: in the early 1980s Robin Warren and Barry Marshall proposed that stomach ulcers are caused by infection with the bacterium Helicobacter pylori, not by stress and excess acid as was then believed. There is more on writing a testable hypothesis in Questioning and predicting.
+[bio1-s1.9.b] In everyday speech “theory” means a hunch. In science it means the opposite: the most thoroughly tested kind of explanation.
+[bio1-s1.9.0] A theory is a broad, well-tested explanation of a wide range of observations, supported by many confirmed hypotheses and by evidence from many independent sources.
+[bio1-s1.9.1] A theory explains why something happens and makes predictions. It is the highest status an explanation reaches in science.
+[bio1-s1.9.2] A theory is not a guess, so the everyday phrase “just a theory” misuses the word.
+[bio1-s1.9.3] The cell theory states that all living things are made of one or more cells, that the cell is the basic unit of structure and function of life, and that all cells come from pre-existing cells.
+[bio1-s1.9.4] Matthias Schleiden proposed in 1838 that plants are made of cells. Theodor Schwann extended this to animals in 1839. Rudolf Virchow added in 1855 that all cells arise from existing cells (“omnis cellula e cellula”).
+[bio1-s1.9.5] Other biological theories include the theory of evolution by natural selection, proposed by Darwin and Wallace, and the germ theory of disease, which holds that many diseases are caused by microorganisms. There is more on the first in The theory of evolution by natural selection.
+[bio1-s1.10.b] A law is a different kind of knowledge from a theory. Where a theory explains, a law describes a pattern.
+[bio1-s1.10.0] A law, or principle, is a statement, often mathematical, that describes a pattern that always occurs under stated conditions. It describes what happens but does not explain why.
+[bio1-s1.10.1] Biology has few laws because living systems are variable, so patterns rarely hold without exception.
+[bio1-s1.10.2] Mendel’s laws of segregation and independent assortment describe how alleles (versions of a gene) pass to offspring. They have known exceptions, for example linked genes. There is more on this in Mendel's Laws.
+[bio1-s1.10.3] The laws of thermodynamics apply to living things. Energy is not created or destroyed, only converted, as when light energy is converted to chemical energy in photosynthesis.
+[bio1-s1.11.b] Examiners now ask you to tell these three apart. They differ in scope, purpose and the evidence behind them, and none is a stage on the way to another.
+[bio1-s1.11.0] Scope: a hypothesis concerns one observation, a theory covers a wide range of observations, and a law covers one pattern.
+[bio1-s1.11.1] Purpose: a hypothesis proposes an explanation, a theory gives a tested explanation, and a law describes a pattern.
+[bio1-s1.11.2] Evidence: a hypothesis has little or none yet, a theory rests on a large body of evidence from many independent sources, and a law is repeated observation without exception under stated conditions.
+[bio1-s1.11.3] All three can be revised or rejected if the evidence demands it.
+[bio1-s1.11.4] A theory does not grow up into a law: they are different kinds of knowledge. A law describes a pattern and a theory explains it. A theory can explain a law; for example, Mendel’s laws are explained by the behaviour of chromosomes in meiosis.
+[bio1-s1.11.5] A scientific fact is a repeatable observation, for example “DNA is found in the nucleus of eukaryotic cells”. A model is a simplified representation used to explain or predict. There is more on this in Models.
+[bio1-s1.12.b] Because scientific knowledge is tentative, it changes over time. The cases that follow show this in action.
+[bio1-s1.12.0] Ideas change because of new evidence that the old idea cannot explain, new technology that allows new observations (for example microscopes and DNA sequencing), reinterpretation of existing evidence, and replication (repeating of the work) by other scientists.
+[bio1-s1.12.1] Change is usually gradual refinement. Occasionally a whole framework is replaced; the historian Thomas Kuhn called this a paradigm shift, in his book The Structure of Scientific Revolutions (1962).
+[bio1-s1.13.b] For a long time people believed that small creatures could appear from non-living matter. Two careful experiments, a couple of centuries apart, showed otherwise.
+[bio1-s1.13.0] Old idea (spontaneous generation): living things such as maggots and microorganisms arise from non-living matter.
+[bio1-s1.13.1] In 1668 Francesco Redi put meat in jars that were open, sealed or covered with gauze. Maggots appeared only on the meat in the open jars, which flies could reach.
+[bio1-s1.13.2] In the gauze-covered jars, flies laid their eggs on the gauze, not on the meat, so no maggots appeared.
+[bio1-s1.13.3] In the early 1860s Louis Pasteur boiled broth in swan-neck flasks, which have an S-shaped neck. Air could enter, but dust and microorganisms were trapped in the bend, and the broth stayed clear.
+[bio1-s1.13.4] When the neck was broken off, or the broth was tipped into the bend, microorganisms grew in it. This showed the microorganisms came from the dust and not from the broth itself.
+[bio1-s1.13.5] New idea: living things come only from other living things (biogenesis), which supported the germ theory.
+[bio1-s1.14.b] The cell theory was not announced in one go. It grew as better microscopes let scientists observe more.
+[bio1-s1.14.0] The cell theory (all living things are made of cells, the cell is the basic unit of life, and all cells come from pre-existing cells) was built up by several scientists over decades as microscopes improved.
+[bio1-s1.14.1] It is still being extended. Mitochondria and chloroplasts have been found to contain their own DNA.
+[bio1-s1.15.b] This case shows how a well-established belief was overturned by a bacterium that doctors thought could not exist in the stomach.
+[bio1-s1.15.0] Old idea: ulcers are caused by stress, spicy food and excess acid, and no bacterium could survive stomach acid.
+[bio1-s1.15.1] Warren observed curved bacteria in biopsies (small samples of tissue) of inflamed stomach linings. Marshall and Warren cultured (grew in the laboratory) Helicobacter pylori in 1982.
+[bio1-s1.15.2] In 1984 Marshall drank a culture of the bacteria, developed gastritis (an inflamed stomach lining) and treated it with antibiotics.
+[bio1-s1.15.3] Other scientists repeated the findings, and trials showed that antibiotics cured most ulcers.
+[bio1-s1.15.4] New idea: most stomach ulcers are caused by H. pylori infection and are treated with antibiotics.
+[bio1-s1.15.5] Marshall and Warren received the Nobel Prize in Physiology or Medicine in 2005.
+[bio1-s1.15.6] The case shows that a new idea is often resisted at first and is accepted when the evidence is reproduced.
+[bio1-s1.16.b] In this case the evidence was clear, yet the idea was ignored for years because nobody could say why it worked.
+[bio1-s1.16.0] In 1847 Ignaz Semmelweis, at Vienna General Hospital, noticed that far more mothers died of childbed (puerperal) fever on the ward run by doctors than on the ward run by midwives.
+[bio1-s1.16.1] The doctors who ran that ward came from dissecting corpses, while the midwives did not.
+[bio1-s1.16.2] He made staff wash their hands in chlorinated lime solution, and deaths fell sharply.
+[bio1-s1.16.3] Many doctors rejected his idea because it lacked an explanation. It was accepted only after the germ theory of disease explained it.
+[bio1-s1.16.4] The case shows that evidence without an explanatory theory can be ignored.
+[bio1-s1.17.b] The same pattern of old idea, new evidence and refined idea appears again in other topics in this course.
+[bio1-s1.17.0] The five-kingdom system of classifying living things was replaced by three domains and six kingdoms.
+[bio1-s1.17.1] The lock-and-key model of enzyme action was refined to the induced-fit model, and the membrane “sandwich” model was replaced by the fluid mosaic model. There is more on these in Domains of life, Classification and Models.

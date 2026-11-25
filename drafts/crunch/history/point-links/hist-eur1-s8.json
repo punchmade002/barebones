@@ -1,0 +1,620 @@
+{
+"hist-eur1-s8.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.0.0",
+"strength": "essential",
+"why": "repeal of the Combination Acts",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.0.0",
+"strength": "helpful",
+"why": "union oath banned by combination laws",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s8.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.1.2",
+"strength": "helpful",
+"why": "Robert Owen and his ideas",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s8.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.0.4",
+"strength": "helpful",
+"why": "New Model unions of skilled workers",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.1.0",
+"strength": "helpful",
+"why": "what socialism meant",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.1.1",
+"strength": "helpful",
+"why": "utopian model communities",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.2.2",
+"strength": "helpful",
+"why": "Marx and Engels drafting the programme",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.1.3",
+"strength": "helpful",
+"why": "Communist League that commissioned it",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.2.4",
+"strength": "helpful",
+"why": "class struggle and capitalism theory",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.2.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.2.1",
+"strength": "helpful",
+"why": "Marx as exile in London",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s8.2.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.2.4",
+"strength": "helpful",
+"why": "predictions of revolution",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.2.9": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.2.5",
+"strength": "helpful",
+"why": "Das Kapital volumes",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.3.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s8.3.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s8.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.2.4",
+"strength": "helpful",
+"why": "Marx's workers' state idea",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s8.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.2.6",
+"strength": "essential",
+"why": "the First International",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s8.3.3",
+"strength": "helpful",
+"why": "Bakunin versus Marx on the state",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.3.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.3.3",
+"strength": "helpful",
+"why": "anarchist tradition",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.4.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s8.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.4.0",
+"strength": "essential",
+"why": "drafted the People's Charter",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.4.0",
+"strength": "essential",
+"why": "petitions for the Charter",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.6.0",
+"strength": "helpful",
+"why": "voting rights and the franchise",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s8.4.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.6.0",
+"strength": "helpful",
+"why": "the 1832 Reform Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s7.5.2",
+"strength": "helpful",
+"why": "the New Poor Law of 1834",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.4.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.4.1",
+"strength": "helpful",
+"why": "Lovett as moral-force leader",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s8.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.4.5",
+"strength": "helpful",
+"why": "National Charter Association",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.4.5",
+"strength": "helpful",
+"why": "Northern Star newspaper",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.4.2",
+"strength": "helpful",
+"why": "the Chartist petitions",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.4.6",
+"strength": "essential",
+"why": "the National Land Company",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.4.2",
+"strength": "helpful",
+"why": "the 1848 petition",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.5.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.5.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.4.8",
+"strength": "helpful",
+"why": "moral-force versus physical-force split",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.6.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s8.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.6.0",
+"strength": "helpful",
+"why": "the 1832 franchise",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.7.0",
+"strength": "helpful",
+"why": "Peel as Conservative leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.7.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.7.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.5.1",
+"strength": "helpful",
+"why": "the Corn Laws and their repeal",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s7.1.3",
+"strength": "essential",
+"why": "the Irish potato famine",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.7.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.7.6",
+"strength": "essential",
+"why": "repeal of the Corn Laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.7.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.7.6",
+"strength": "essential",
+"why": "repeal of the Corn Laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.1.2",
+"strength": "essential",
+"why": "Owen's model communities",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.1.2",
+"strength": "essential",
+"why": "Owen's co-operation and communal ownership",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.7.1",
+"strength": "essential",
+"why": "the Metropolitan Police",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s8.7.5",
+"strength": "essential",
+"why": "the Bank Charter Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s8.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.0.1",
+"strength": "essential",
+"why": "repeal of the Combination Acts",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.0.0",
+"strength": "essential",
+"why": "the Combination Acts",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s8.0.2",
+"strength": "essential",
+"why": "Tolpuddle sentences",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s8.0.3",
+"strength": "essential",
+"why": "failure of the GNCTU",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.4.0",
+"strength": "helpful",
+"why": "the Charter demands later achieved",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s8.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.4.2",
+"strength": "essential",
+"why": "rejected petitions",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s8.4.8",
+"strength": "helpful",
+"why": "divisions and loss of momentum",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.7.1",
+"strength": "essential",
+"why": "Metropolitan Police",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s8.7.5",
+"strength": "essential",
+"why": "Bank Charter Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s8.7.4",
+"strength": "essential",
+"why": "tariff cuts",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s8.9.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.9.4",
+"strength": "helpful",
+"why": "Peel's state reforms",
+"confidence": "high"
+}
+]
+}
+}

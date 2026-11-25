@@ -1,0 +1,506 @@
+{
+ "geo-option-global-interdependence-s2.0.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.0.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.0.1": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.0.b",
+    "strength": "helpful",
+    "why": "MNC and footloose firms",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.0.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.1.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.1.0": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.1.0",
+    "strength": "helpful",
+    "why": "low labour costs attract production",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.1.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.1.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.2.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.2.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.2.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.2.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.2.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.2.4": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.4.3",
+    "strength": "helpful",
+    "why": "contract manufacturers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.2.5": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.2.2",
+    "strength": "helpful",
+    "why": "Apple assembly in India",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.2.6": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.3.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.3.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.3.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.3.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.3.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.3.4": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.3.5": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.2.2",
+    "strength": "helpful",
+    "why": "assembly shifting to India",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.3.6": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.4.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.4.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.4.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.4.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.5.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.5.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.5.1": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.12.1",
+    "strength": "helpful",
+    "why": "Apple Cork customer support",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.5.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.5.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.5.4": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.5.5": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.2.2",
+    "strength": "helpful",
+    "why": "assembly moving to India",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.6.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.6.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.6.1": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.4.0",
+    "strength": "helpful",
+    "why": "mergers and takeovers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.6.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.6.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.6.4": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.7.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.7.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.7.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.7.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.7.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.7.4": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.7.5": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.8.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.8.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.8.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.8.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.8.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.9.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.9.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.9.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.9.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.10.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.10.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.10.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.10.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.11.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.11.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.11.1": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.2.3",
+    "strength": "helpful",
+    "why": "fab means chip factory",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.11.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.11.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.11.4": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.7.0",
+    "strength": "helpful",
+    "why": "Leixlip investment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.11.5": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.7.1",
+    "strength": "helpful",
+    "why": "Fab 34 sale to Apollo",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.11.6": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.7.3",
+    "strength": "helpful",
+    "why": "CHIPS Act and US stake",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-economic-globalisation-s2.7.2",
+    "strength": "helpful",
+    "why": "Intel job cuts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.12.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.12.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.12.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.12.2": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.13.2",
+    "strength": "helpful",
+    "why": "computer services exporter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.12.3": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.12.0",
+    "strength": "helpful",
+    "why": "IDA support attracting firms",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.12.4": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.12.5": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.12.6": {
+  "needs": [
+   {
+    "id": "geo-economic-globalisation-s2.16.3",
+    "strength": "helpful",
+    "why": "global minimum tax",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2.13.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.13.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.13.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.13.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.13.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.14.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.14.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.14.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.14.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.14.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.14.4": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.15.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.15.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.15.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.15.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.15.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.15.4": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.16.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.16.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.16.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.16.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.16.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.17.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.17.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.17.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.17.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.17.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.18.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.18.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.18.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.18.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.18.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.18.4": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.19.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.19.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.19.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.19.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.19.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.20.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.20.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.20.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.20.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.21.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.21.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.21.1": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.21.2": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.21.3": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.21.4": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.21.5": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.21.6": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.21.7": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.22.b": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.22.0": {
+  "needs": []
+ },
+ "geo-option-global-interdependence-s2.22.1": {
+  "needs": []
+ }
+}

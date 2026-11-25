@@ -1,0 +1,954 @@
+{
+ "geo-region-ireland-s2.21.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.21.b",
+    "strength": "helpful",
+    "why": "firms recruit skilled workers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.21.b",
+    "strength": "helpful",
+    "why": "skilled labour supply",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-ireland-s2.1.2",
+    "strength": "helpful",
+    "why": "out-migration of young",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.22.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.0.b",
+    "strength": "helpful",
+    "why": "peripheral distance from buyers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.22.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.22.b",
+    "strength": "helpful",
+    "why": "market means customers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.22.b",
+    "strength": "helpful",
+    "why": "market means customers",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-ireland-s2.0.1",
+    "strength": "helpful",
+    "why": "Galway only city",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.22.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.1.0",
+    "strength": "helpful",
+    "why": "remote location raises transport costs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.23.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.1.4",
+    "strength": "helpful",
+    "why": "infrastructure weaker, Galway exception",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.23.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.4.0",
+    "strength": "helpful",
+    "why": "EU regional funds for periphery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.23.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.17.2",
+    "strength": "helpful",
+    "why": "food-processing firms",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.23.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.18.1",
+    "strength": "helpful",
+    "why": "medtech firms in Galway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.0.b",
+    "strength": "helpful",
+    "why": "peripheral position",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.1.0",
+    "strength": "helpful",
+    "why": "remote location transport costs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.21.2",
+    "strength": "helpful",
+    "why": "small skilled labour pool",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.18.0",
+    "strength": "helpful",
+    "why": "DEC closure 1993",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.0.1",
+    "strength": "helpful",
+    "why": "Galway dominates region",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.23.0",
+    "strength": "helpful",
+    "why": "weak rural roads and broadband",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.25.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.0.1",
+    "strength": "helpful",
+    "why": "tertiary activity defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.25.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.5.3",
+    "strength": "helpful",
+    "why": "Connemara landscape",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.25.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.5.6",
+    "strength": "helpful",
+    "why": "indented coast, Killary, Clew Bay",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.25.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.39.b",
+    "strength": "helpful",
+    "why": "Gaeltacht defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.26.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.6.0",
+    "strength": "helpful",
+    "why": "blanket bog",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.26.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.36.0",
+    "strength": "helpful",
+    "why": "Great Famine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.26.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.3.b",
+    "strength": "helpful",
+    "why": "Atlantic weather of the West",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.28.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.1.0",
+    "strength": "helpful",
+    "why": "remote location",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.28.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.39.b",
+    "strength": "helpful",
+    "why": "Gaeltacht areas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.28.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.0.1",
+    "strength": "helpful",
+    "why": "Galway dominates region",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.29.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.29.b",
+    "strength": "helpful",
+    "why": "transport improvements listed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.30.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.22.0",
+    "strength": "helpful",
+    "why": "low population density",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.30.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.30.0",
+    "strength": "helpful",
+    "why": "public transport uneconomic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.30.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.0.b",
+    "strength": "helpful",
+    "why": "peripherality",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.30.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.0.b",
+    "strength": "helpful",
+    "why": "peripherality",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.31.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.31.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.31.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.4.1",
+    "strength": "helpful",
+    "why": "decentralisation of government offices",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.32.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.7.0",
+    "strength": "helpful",
+    "why": "River Corrib to Galway Bay",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.32.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.20.2",
+    "strength": "helpful",
+    "why": "gateway, National Spatial Strategy",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-ireland-s2.20.3",
+    "strength": "helpful",
+    "why": "National Planning Framework 50% growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.33.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.18.b",
+    "strength": "helpful",
+    "why": "cluster from DEC closure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.33.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.30.2",
+    "strength": "helpful",
+    "why": "Galway ring road congestion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.34.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.7.4",
+    "strength": "helpful",
+    "why": "River Moy at Ballina",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.34.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.0.1",
+    "strength": "helpful",
+    "why": "Galway city dominates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.35.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.5.4",
+    "strength": "helpful",
+    "why": "limestone lowland east",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.35.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.6.0",
+    "strength": "helpful",
+    "why": "blanket bog west Mayo",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.35.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.1.2",
+    "strength": "helpful",
+    "why": "Famine began out-migration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.36.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.36.0",
+    "strength": "helpful",
+    "why": "post-Famine emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.36.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.1.2",
+    "strength": "helpful",
+    "why": "out-migration of young",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.36.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.36.2",
+    "strength": "helpful",
+    "why": "young leaving causes ageing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.36.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.9.0",
+    "strength": "helpful",
+    "why": "rundale system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.37.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.36.2",
+    "strength": "helpful",
+    "why": "out-migration causes decline",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.37.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.37.2",
+    "strength": "helpful",
+    "why": "rural depopulation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-concept-s4.4.0",
+    "strength": "helpful",
+    "why": "EU regional funds and agencies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.37.2",
+    "strength": "helpful",
+    "why": "depopulated rural areas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.20.4",
+    "strength": "helpful",
+    "why": "Western Development Commission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.9.1",
+    "strength": "helpful",
+    "why": "Congested Districts Board",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-ireland-s2.20.1",
+    "strength": "helpful",
+    "why": "Udaras na Gaeltachta grants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.39.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.39.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.39.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-ireland-s2.39.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.39.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.40.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.40.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.40.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.36.2",
+    "strength": "helpful",
+    "why": "young out-migration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.40.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.40.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.28.3",
+    "strength": "helpful",
+    "why": "tourism pressure on Irish",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.41.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.20.1",
+    "strength": "helpful",
+    "why": "Udaras na Gaeltachta",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.41.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.41.0",
+    "strength": "helpful",
+    "why": "Udaras role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.42.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-ireland-s2.34.3",
+    "strength": "helpful",
+    "why": "Tuam archdiocese",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.42.5": {
+  "cost": 1,
+  "needs": []
+ }
+}

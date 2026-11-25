@@ -1,0 +1,606 @@
+{
+ "geo-urban-s7": [
+  {
+   "needs": "geo-population-migration-s6",
+   "strength": "essential",
+   "why": "rural-to-urban push and pull factors, India and Brazil slums",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s3",
+   "strength": "helpful",
+   "why": "site concept used for Kolkata, Mumbai, Sao Paulo site",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s5",
+   "strength": "helpful",
+   "why": "developed-world congestion, sprawl, pollution contrasted with these cities",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s6",
+   "strength": "helpful",
+   "why": "planning tools, new towns, renewal behind slum responses",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s1",
+   "strength": "helpful",
+   "why": "India's monsoon, rivers and Mumbai/Kolkata context",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Brazil's urbanisation, Sao Paulo, Curitiba context",
+   "confidence": "high"
+  }
+ ],
+ "geo-urban-s8": [
+  {
+   "needs": "geo-urban-s5",
+   "strength": "essential",
+   "why": "housing, transport, sprawl problems the future issues extend",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s6",
+   "strength": "helpful",
+   "why": "planning frameworks such as the National Planning Framework",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s7",
+   "strength": "helpful",
+   "why": "developing-world futures builds on slum and growth problems",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "helpful",
+   "why": "ageing populations, dependency ratios",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s3",
+   "strength": "helpful",
+   "why": "climate change and emissions in cities",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s1": [
+  {
+   "needs": "geo-weather-climate-s1",
+   "strength": "helpful",
+   "why": "weather instruments and data it also measures",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-weather-climate-s2",
+   "strength": "helpful",
+   "why": "satellite remote sensing of atmosphere and oceans",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s2": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s1",
+   "strength": "essential",
+   "why": "atmosphere layers, water heat capacity, ocean temperature layers",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s3": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s1",
+   "strength": "essential",
+   "why": "atmospheric components, pressure, ocean-atmosphere exchanges",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s2",
+   "strength": "helpful",
+   "why": "heat budget drives evaporation, cooling and cloud formation",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s4": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s2",
+   "strength": "essential",
+   "why": "heat redistribution, Hadley cell, ocean currents, thermohaline",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s3",
+   "strength": "essential",
+   "why": "condensation, adiabatic cooling, fronts, humidity for depressions, storms",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s1",
+   "strength": "helpful",
+   "why": "pressure, salinity and density basics",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-weather-climate-s1",
+   "strength": "helpful",
+   "why": "isobars, pressure systems, fronts on synoptic charts",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s5": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s2",
+   "strength": "essential",
+   "why": "latitude, heat budget, greenhouse effect explain climates",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s4",
+   "strength": "essential",
+   "why": "pressure belts, winds, currents, El Nino explain climates",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s3",
+   "strength": "helpful",
+   "why": "rainfall types and humidity in each climate",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-glaciation-s1",
+   "strength": "helpful",
+   "why": "Quaternary ice ages and Irish glaciation effects",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-plate-tectonics-s2",
+   "strength": "helpful",
+   "why": "continental drift as cause of climate change over time",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s6": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s5",
+   "strength": "essential",
+   "why": "monsoon, oceanic, Mediterranean, desert climates used in examples",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s3",
+   "strength": "helpful",
+   "why": "rainfall, evaporation and drought link to hydrological cycle",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "climate as a physical factor in uneven development",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s1",
+   "strength": "helpful",
+   "why": "India's monsoon and irrigated farming",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-geoecology-s3",
+   "strength": "helpful",
+   "why": "Sahel and Dust Bowl desertification also taught here",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s1": [
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "helpful",
+   "why": "push-pull factors, refugees, diaspora, donor and receiver impacts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s5",
+   "strength": "helpful",
+   "why": "ethnic and racial terms, prejudice, case studies in France, Britain",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-development-s3",
+   "strength": "helpful",
+   "why": "colonialism and colonial legacies behind racial categories",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s2": [
+  {
+   "needs": "geo-option-culture-identity-s5",
+   "strength": "helpful",
+   "why": "language and nationalism need the nation-state idea",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "place names and townlands as evidence on OS maps",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s3": [
+  {
+   "needs": "geo-region-concept-s3",
+   "strength": "helpful",
+   "why": "religious regions, Islamic world, Ireland and Europe",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s4": [
+  {
+   "needs": "geo-economic-globalisation-s4",
+   "strength": "helpful",
+   "why": "globalisation and reaction against it, winners and losers",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-culture-identity-s2",
+   "strength": "helpful",
+   "why": "Irish language and literature as everyday expression",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-culture-identity-s3",
+   "strength": "helpful",
+   "why": "religious festivals and traditions",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s5": [
+  {
+   "needs": "geo-option-culture-identity-s2",
+   "strength": "helpful",
+   "why": "language divides Belgium, Basques, Quebec cultural groups",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-culture-identity-s3",
+   "strength": "helpful",
+   "why": "religion divides Northern Ireland, Kurds, Palestinians",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-european-s4",
+   "strength": "helpful",
+   "why": "partition, Yugoslavia, boundaries and cultural groups",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s6": [
+  {
+   "needs": "geo-option-culture-identity-s2",
+   "strength": "essential",
+   "why": "Swiss, Welsh, Breton languages use language as indicator",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s3",
+   "strength": "essential",
+   "why": "religious geography uses religion as cultural indicator",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s5",
+   "strength": "essential",
+   "why": "boundaries, federalism, devolution, states and cultural groups",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s4",
+   "strength": "helpful",
+   "why": "music, sport, festivals, food as everyday expressions",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s1",
+   "strength": "helpful",
+   "why": "guest workers, migration and ethnic mixing in Switzerland, Belgium",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-european-s3",
+   "strength": "helpful",
+   "why": "Belgium language communities and political regions",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-geoecology-s1": [
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "essential",
+   "why": "weathering of rock forms soil parent material",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "helpful",
+   "why": "igneous, sedimentary, metamorphic parent rocks",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-glaciation-s1",
+   "strength": "helpful",
+   "why": "till and boulder clay as transported parent material",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s1",
+   "strength": "helpful",
+   "why": "alluvium as river-deposited parent material",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-geoecology-s2": [
+  {
+   "needs": "geo-option-geoecology-s1",
+   "strength": "essential",
+   "why": "soil profile, texture, humus, pH used in soil types",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "helpful",
+   "why": "weathering as a soil-forming process",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s5",
+   "strength": "helpful",
+   "why": "zonal soils tied to equatorial, continental climates",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-geoecology-s3": [
+  {
+   "needs": "geo-option-geoecology-s1",
+   "strength": "essential",
+   "why": "soil structure, fertility, organic matter damaged by misuse",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s2",
+   "strength": "essential",
+   "why": "erosion, leaching and soil processes behind degradation",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s7",
+   "strength": "helpful",
+   "why": "overgrazing, overcropping, Dust Bowl, Sahel also taught there",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s6",
+   "strength": "helpful",
+   "why": "Sahel rainfall reliability and desertification",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-geoecology-s4": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s5",
+   "strength": "helpful",
+   "why": "hot desert and equatorial climates",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s4",
+   "strength": "helpful",
+   "why": "pressure belts and Hadley cell cause aridity",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s2",
+   "strength": "helpful",
+   "why": "latosol and desert soil formation",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s1",
+   "strength": "helpful",
+   "why": "soil components and nutrient cycle terms",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s6",
+   "strength": "helpful",
+   "why": "desert landscape from wind erosion and deposition",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reading a climate graph skill",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-geoecology-s5": [
+  {
+   "needs": "geo-option-geoecology-s4",
+   "strength": "essential",
+   "why": "biome features of rainforest altered by clearance",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s3",
+   "strength": "helpful",
+   "why": "soil erosion and degradation after clearance and intensive farming",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s2",
+   "strength": "helpful",
+   "why": "acid rain formation, spread and responses in Europe",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "helpful",
+   "why": "peat, Moneypoint and Irish energy mix",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rocks-weathering-s7",
+   "strength": "helpful",
+   "why": "deforestation effects and case studies",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s1": [
+  {
+   "needs": "geo-economic-development-s1",
+   "strength": "helpful",
+   "why": "development measures such as GNP, HDI, alternatives",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s3",
+   "strength": "helpful",
+   "why": "colonial legacies used in dependency theory",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s4",
+   "strength": "helpful",
+   "why": "core, semi-periphery, periphery used in world-systems theory",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "South Korea, Ireland rise examples of modernisation",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "Ireland's development stages for modernisation case",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s2": [
+  {
+   "needs": "geo-economic-globalisation-s1",
+   "strength": "essential",
+   "why": "MNC, FDI, Apple and Intel sourcing and markets",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s3",
+   "strength": "helpful",
+   "why": "world trade patterns, trading triad, division of labour",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s3",
+   "strength": "helpful",
+   "why": "greenhouse effect, warming causes and responses",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s3",
+   "strength": "helpful",
+   "why": "Sahel desertification and its causes",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "helpful",
+   "why": "push-pull factors and migration concepts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s4",
+   "strength": "helpful",
+   "why": "asylum, refugees, international protection policy",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s4",
+   "strength": "helpful",
+   "why": "worker exploitation, human rights in supply chains",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s2",
+   "strength": "helpful",
+   "why": "Apple Cork and MNC mobility",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s3": [
+  {
+   "needs": "geo-option-global-interdependence-s1",
+   "strength": "helpful",
+   "why": "development theories and bottom-up development",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s1",
+   "strength": "helpful",
+   "why": "growth, GNI and development indicators",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s4",
+   "strength": "helpful",
+   "why": "debt, structural adjustment, aid, NGOs taught there too",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s3",
+   "strength": "helpful",
+   "why": "colonial and Brazilian debt background",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Brazil land reform and MST",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s4": [
+  {
+   "needs": "geo-economic-environment-s4",
+   "strength": "essential",
+   "why": "sustainable development, fish stocks, peatlands, forestry practice",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-global-interdependence-s1",
+   "strength": "helpful",
+   "why": "bottom-up and sustainable development views",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "helpful",
+   "why": "Irish energy mix and renewables",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s4",
+   "strength": "helpful",
+   "why": "fair trade and global justice",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Chico Mendes and extractive reserves",
+   "confidence": "low"
+  }
+ ]
+}

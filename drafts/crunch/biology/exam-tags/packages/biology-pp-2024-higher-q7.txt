@@ -1,0 +1,101 @@
+QUESTION biology-pp-2024-higher-q7 (LC Biology Higher 2024 — Section A — Q7, 20 marks)
+
+PART (a) (2 marks) subsections: bio35-s1
+MODEL ANSWER: Genetic engineering is the artificial (deliberate) manipulation or alteration of a gene or an organism's DNA, usually by moving a gene from one organism into another.
+
+PART (b)(i) (2 marks) subsections: bio35-s1
+MODEL ANSWER: Stage X: cutting (the DNA and the plasmid are cut with the same restriction enzyme).
+
+PART (b)(ii) (2 marks) subsections: bio35-s1
+MODEL ANSWER: Stage Y: transformation (the host cell takes up the recombinant DNA).
+
+PART (b)(iii) (2 marks) subsections: bio35-s1
+MODEL ANSWER: Stage Z: expression (the host cell transcribes and translates the inserted gene to make the product, the protein).
+
+PART (c)(i) (4 marks) subsections: bio35-s1
+MODEL ANSWER: Plant: the Bt gene from the bacterium Bacillus thuringiensis is inserted into maize (or cotton), so the plant makes a toxin that kills insect larvae and less insecticide is needed.
+
+PART (c)(ii) (4 marks) subsections: bio35-s1
+MODEL ANSWER: Animal: a growth-hormone gene from another salmon species is inserted into AquAdvantage salmon, so it grows to market size faster.
+
+PART (c)(iii) (4 marks) subsections: bio35-s1
+MODEL ANSWER: Micro-organism: the human insulin gene is inserted into bacteria (or yeast), which make human insulin for people with type 1 diabetes.
+
+CANDIDATES bio35-s1: Genetic engineering
+[bio35-s1.0.b] Genetic engineering lets scientists give an organism a new trait by changing its DNA directly, rather than waiting for the trait to arise by breeding. Three terms name the technique, its products and the DNA it creates.
+[bio35-s1.0.0] Genetic engineering (genetic modification, GM) is the deliberate change of an organism’s DNA by artificial means, usually by cutting a gene out of one organism and inserting it into the DNA of another, often a different species.
+[bio35-s1.0.1] The organism produced is a genetically modified organism (GMO). One carrying a gene from another species is transgenic, which means it holds DNA that did not come from its own species.
+[bio35-s1.0.2] DNA made by joining DNA from two different sources is recombinant DNA, because the pieces have been recombined into a new combination that did not exist before.
+[bio35-s1.1.b] A gene from one species can work in another, and that is what separates genetic engineering from older methods of improving organisms. The technique is also quite recent.
+[bio35-s1.1.0] It works because the genetic code is universal: every organism uses the same code to read DNA, so a host cell reads a gene from any species and makes the same protein.
+[bio35-s1.1.1] The inserted gene must include the instructions the host needs to switch it on, so that it is transcribed (copied into mRNA) and translated (built into a protein) in the host.
+[bio35-s1.1.2] Selective breeding (artificial selection, where humans choose which organisms reproduce) mixes whole sets of genes between members of the same or closely related species, and takes many generations.
+[bio35-s1.1.3] Genetic engineering instead moves one chosen gene, even between unrelated species (for example bacterium to plant, or human to bacterium), in one generation. This is why selective breeding is not genetic engineering.
+[bio35-s1.1.4] In 1973 Stanley Cohen and Herbert Boyer in the USA inserted foreign DNA into a plasmid (a small ring of DNA found in bacteria) and put it into bacteria, which copied it: the first genetically engineered organism.
+[bio35-s1.1.5] Bacterial restriction enzymes (enzymes that cut DNA), discovered in the late 1960s and early 1970s, made this possible.
+[bio35-s1.2.b] A gene cannot get into a host cell on its own, so it is carried in. The carrier is called a vector, and several kinds are used depending on the host.
+[bio35-s1.2.0] A vector is a carrier that takes the gene into the host cell.
+[bio35-s1.2.1] A plasmid is a small circle of double-stranded DNA found in bacteria, separate from the main chromosome. It copies itself independently and is passed on when the bacterium divides, so the new gene is copied too.
+[bio35-s1.2.2] Plasmids are the most common vector for bacteria and yeast.
+[bio35-s1.2.3] Plasmids used as vectors usually carry a marker gene (for example for resistance to an antibiotic) so that cells which have taken them up can be identified.
+[bio35-s1.2.4] Modified viruses are also vectors, because viruses naturally inject their DNA into cells. Bacteriophages (viruses that infect bacteria) are used for bacteria. Harmless modified viruses are used for human and animal cells in gene therapy and some vaccines.
+[bio35-s1.2.5] Agrobacterium tumefaciens, a soil bacterium, naturally transfers part of its plasmid (the Ti plasmid) into plant cells, so it is used to modify plants.
+[bio35-s1.2.6] Some methods use no vector. In microinjection, DNA is injected into a fertilised animal egg with a fine needle. A “gene gun” fires tiny metal particles coated with DNA into plant cells.
+[bio35-s1.3.b] To move a gene, scientists first need a way to cut DNA at exact places. Restriction enzymes do this, and the way they cut makes it easy to join pieces back together.
+[bio35-s1.3.0] Restriction enzymes (restriction endonucleases) cut DNA at a specific short base sequence, the recognition site, usually 4 to 8 base pairs long.
+[bio35-s1.3.1] In nature restriction enzymes protect bacteria by cutting up the DNA of invading viruses.
+[bio35-s1.3.2] Many restriction enzymes cut the two strands at slightly different points, leaving short single-stranded overhangs called sticky ends. Others cut straight across, leaving blunt ends.
+[bio35-s1.3.3] Worked example: the restriction enzyme EcoRI (from the bacterium Escherichia coli) recognises GAATTC and cuts between G and A on each strand: …G | AATTC… on one strand and …CTTAA | G… on the other, leaving the four-base sticky ends AATT.
+[bio35-s1.3.4] Any two pieces of DNA cut with the same enzyme have complementary sticky ends, so they can base-pair (A with T, C with G). This is why the gene and the plasmid are cut with the same enzyme.
+[bio35-s1.3.5] Diagram: a double strand with GAATTC/CTTAAG, the staggered cut shown, and the two fragments with their AATT overhangs labelled “sticky end”.
+[bio35-s1.4.b] Sticky ends hold two fragments together only weakly. A second enzyme is needed to make the join permanent.
+[bio35-s1.4.0] DNA ligase is the enzyme that joins DNA fragments by re-forming the sugar–phosphate backbone (the long chain on the outside of each DNA strand) where the sticky ends have paired.
+[bio35-s1.4.1] The sticky ends pair by hydrogen bonds between bases, which are weak. DNA ligase makes the strong backbone bonds, so it is sometimes called “molecular glue”.
+[bio35-s1.5.b] Making a recombinant plasmid has three stages: get the DNA, cut it, then join the gene into the plasmid. Human insulin is the standard example.
+[bio35-s1.5.0] 1. DNA isolation: the donor DNA containing the gene is extracted from the donor cells (for example human cells for the insulin gene). Separately, plasmids are extracted from bacteria by breaking the cells open.
+[bio35-s1.5.1] 2. Cutting: the donor DNA and the plasmid are cut with the same restriction enzyme.
+[bio35-s1.5.2] This cuts the gene out of the donor DNA and opens the plasmid ring once, so both have matching sticky ends.
+[bio35-s1.5.3] 3. Ligation: the gene and the opened plasmids are mixed. Their complementary sticky ends base-pair, and DNA ligase seals the backbone, giving a recombinant plasmid that contains the new gene.
+[bio35-s1.6.b] The recombinant plasmid now has to get into bacteria and be put to work. The bacteria then become small factories for the protein.
+[bio35-s1.6.0] 4. Transformation: bacteria take up the recombinant plasmid from their surroundings. Transformation means a cell taking up and keeping foreign DNA.
+[bio35-s1.6.1] In the laboratory, uptake is increased by treating the bacteria with calcium chloride and a brief heat shock.
+[bio35-s1.6.2] Only a small fraction of bacteria take up a plasmid, so they are selected. They are grown on agar containing the antibiotic, and only bacteria carrying the plasmid’s resistance marker gene survive.
+[bio35-s1.6.3] 5. Expression: the transformed bacteria are cloned, each dividing repeatedly by binary fission (splitting in two) to produce millions of identical copies, each with the plasmid.
+[bio35-s1.6.4] The bacteria transcribe and translate the inserted gene and make the protein; the gene is “expressed”.
+[bio35-s1.6.5] They are grown in large numbers in a fermenter (bioreactor, a large vessel for growing microorganisms), and the protein is extracted and purified.
+[bio35-s1.6.6] Diagram: flow chart: donor cell → gene cut out by restriction enzyme; bacterium → plasmid cut by the same enzyme; gene + plasmid joined by DNA ligase → recombinant plasmid; recombinant plasmid taken up by a bacterium (transformation); bacteria multiply and make the protein (expression).
+[bio35-s1.6.7] Diagram labels: donor DNA, gene, restriction enzyme, sticky ends, plasmid, DNA ligase, recombinant plasmid, host bacterium, marker gene.
+[bio35-s1.7.b] Bacteria, yeast and other cells that carry a human gene can make human proteins cheaply and in large amounts.
+[bio35-s1.7.0] Human insulin: the human insulin gene is inserted into bacteria (or yeast), which make human insulin for people with type 1 diabetes.
+[bio35-s1.7.1] In 1982 human insulin became the first genetically engineered medicine approved for use.
+[bio35-s1.7.2] Advantages over insulin from cattle and pig pancreases: it is identical to human insulin, so there are fewer allergic reactions; the supply is unlimited and consistent; and no animal slaughter is needed, avoiding religious and vegetarian objections.
+[bio35-s1.7.3] Other medicines are made by genetically engineered cells, such as human growth hormone, for children who lack it.
+[bio35-s1.7.4] Clotting factor VIII for people with haemophilia A (a condition where blood does not clot properly) is made by genetically engineered mammalian cells grown in culture, which removes the risk of infection from donated blood.
+[bio35-s1.7.5] The hepatitis B vaccine is made from a viral protein produced by genetically modified yeast.
+[bio35-s1.7.6] Many industrial and food enzymes are made by genetically modified microorganisms carrying the gene for the enzyme, for example chymosin for cheese-making, replacing rennet from calves’ stomachs, and enzymes in biological detergents.
+[bio35-s1.8.b] Plants are modified to protect themselves from pests, to tolerate weed-killers and to carry more nutrients. Each example below inserts a gene from another organism.
+[bio35-s1.8.0] Insect-resistant crops: a gene from the soil bacterium Bacillus thuringiensis (Bt) for a protein toxic to certain insect larvae (for example caterpillars and corn borers) is inserted into maize or cotton, giving Bt maize and Bt cotton.
+[bio35-s1.8.1] Larvae that eat the plant die, so farmers spray less insecticide. The protein is harmless to mammals, birds and most other insects.
+[bio35-s1.8.2] Herbicide-tolerant crops: a gene for resistance to a herbicide (weed-killer) such as glyphosate is inserted into crops such as soya and maize, so the field can be sprayed to kill weeds without harming the crop.
+[bio35-s1.8.3] Improved nutrition: Golden Rice has genes from other organisms inserted so that its grain makes beta-carotene, which the body converts to vitamin A. The beta-carotene gives the rice its yellow colour.
+[bio35-s1.8.4] Golden Rice was developed to reduce vitamin A deficiency, a cause of childhood blindness and death where rice is the main food. It was approved for growing in the Philippines in 2021.
+[bio35-s1.8.5] The EU regulates GM crops strictly. The only GM crop grown commercially in the EU is a Bt maize, grown mostly in Spain.
+[bio35-s1.8.6] No GM crops are grown commercially in Ireland, but GM soya and maize are imported, mainly for animal feed.
+[bio35-s1.9.b] Genes can also be added to animals, and to human cells to treat disease. The effect depends on which cells are changed.
+[bio35-s1.9.0] GM animals: AquAdvantage salmon carries a growth-hormone gene from another salmon species (the Chinook salmon), so it grows to market size faster.
+[bio35-s1.9.1] AquAdvantage salmon was approved for food in the USA in 2015, the first GM animal approved for food there.
+[bio35-s1.9.2] GM animals, especially mice, are also used in medical research as models of human diseases.
+[bio35-s1.9.3] Gene therapy: a working copy of a gene is inserted into a patient’s own cells to treat a genetic disease caused by a faulty allele (version of a gene), usually using a harmless modified virus as the vector.
+[bio35-s1.9.4] Somatic gene therapy changes body cells only, so the change is not inherited.
+[bio35-s1.9.5] Germline changes (in eggs, sperm or embryos) would be inherited by the patient’s children, and are not allowed in most countries.
+[bio35-s1.10.b] Plasmid methods add a new gene. Gene editing is a newer approach that changes a gene exactly where it already sits in the genome (all of an organism’s DNA).
+[bio35-s1.10.0] CRISPR-Cas9 is a gene-editing tool adapted from a system that bacteria use to defend themselves against viruses.
+[bio35-s1.10.1] A short guide RNA, made to be complementary to the target DNA sequence, leads the enzyme Cas9 to that exact place in the genome, where Cas9 cuts both DNA strands.
+[bio35-s1.10.2] When the cell repairs the cut, the gene can be switched off, or a corrected sequence supplied by scientists can be built in.
+[bio35-s1.10.3] Unlike the earlier plasmid method, which adds a new gene carried in a vector, CRISPR changes a gene in its own place in the organism’s DNA (editing). It is faster, cheaper and more precise.
+[bio35-s1.10.4] Jennifer Doudna and Emmanuelle Charpentier shared the 2020 Nobel Prize in Chemistry for developing it.
+[bio35-s1.10.5] In 2023 the UK became the first country to approve a CRISPR-based treatment, for sickle-cell disease and beta thalassaemia. The patient’s own blood stem cells are edited outside the body and returned.
+[bio35-s1.11.b] The uses of genetic engineering fall into three themes, which is a useful way to organise an answer.
+[bio35-s1.11.0] Health: medicines (insulin, growth hormone, clotting factors, vaccines), gene therapy and gene editing.
+[bio35-s1.11.1] Sustainability: crops needing less insecticide, nutrition-enhanced crops, and enzymes replacing harsh chemical processes.
+[bio35-s1.11.2] Technology: genetic engineering is a core biotechnology (the use of living organisms to make useful products).

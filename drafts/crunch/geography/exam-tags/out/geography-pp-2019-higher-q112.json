@@ -1,0 +1,31 @@
+{
+  "12A(i)": [],
+  "12A(ii)": [
+    {"k": 1, "of": ["geo-population-migration-s3.11.b"]},
+    {"k": 1, "of": ["geo-population-migration-s3.17.5"]}
+  ],
+  "12B(i)": [],
+  "12B(ii)": [
+    {"k": 1, "of": ["geo-urban-s1.5.0"]},
+    {"k": 1, "of": ["geo-urban-s1.5.0"]},
+    {"k": 1, "of": ["geo-urban-s1.5.b"]},
+    {"k": 2, "of": ["geo-urban-s1.8.0", "geo-urban-s1.9.1"]}
+  ],
+  "12C": [
+    {"k": 2, "of": ["geo-urban-s7.2.0", "geo-urban-s7.2.1"]},
+    {"k": 1, "of": ["geo-urban-s7.2.2"]},
+    {"k": 2, "of": ["geo-urban-s7.2.3", "geo-urban-s7.18.1"]},
+    {"k": 2, "of": ["geo-urban-s7.2.b", "geo-urban-s7.1.1"]},
+    {"k": 1, "of": ["geo-urban-s7.3.0"]},
+    {"k": 1, "of": ["geo-urban-s7.3.1"]},
+    {"k": 1, "of": ["geo-urban-s7.20.0"]},
+    {"k": 1, "of": ["geo-urban-s7.20.1"]},
+    {"k": 1, "of": ["geo-urban-s7.5.0"]},
+    {"k": 1, "of": ["geo-urban-s7.5.1"]},
+    {"k": 1, "of": ["geo-urban-s7.6.0"]},
+    {"k": 2, "of": ["geo-urban-s7.6.1", "geo-urban-s7.6.2"]},
+    {"k": 2, "of": ["geo-urban-s7.19.1", "geo-urban-s7.4.0"]},
+    {"k": 2, "of": ["geo-urban-s7.19.2", "geo-urban-s7.4.2"]},
+    {"k": 2, "of": ["geo-urban-s7.8.2", "geo-urban-s7.8.1"]}
+  ]
+}

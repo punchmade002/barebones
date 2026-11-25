@@ -1,0 +1,848 @@
+{
+ "bio23-s5.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.8.0",
+    "strength": "helpful",
+    "why": "zygote from fertilisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.0.0",
+    "strength": "helpful",
+    "why": "zygote as starting cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.0.1",
+    "strength": "essential",
+    "why": "repeated division of the ball",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.0.1",
+    "strength": "helpful",
+    "why": "journey along the tube",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.0.1",
+    "strength": "helpful",
+    "why": "endometrium as uterus lining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.11.2",
+    "strength": "essential",
+    "why": "progesterone maintains endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.11.6",
+    "strength": "essential",
+    "why": "embryo hormone keeps corpus luteum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.1.1",
+    "strength": "essential",
+    "why": "embryo hormone hCG",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.0.4",
+    "strength": "helpful",
+    "why": "implantation in uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.0.4",
+    "strength": "helpful",
+    "why": "implantation into endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.2.0",
+    "strength": "essential",
+    "why": "villi",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.2.1",
+    "strength": "essential",
+    "why": "placenta structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.2.1",
+    "strength": "helpful",
+    "why": "placenta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.3.0",
+    "strength": "essential",
+    "why": "umbilical cord",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.3.0",
+    "strength": "essential",
+    "why": "umbilical cord",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.3.2",
+    "strength": "essential",
+    "why": "vein carries oxygenated blood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.2.1",
+    "strength": "helpful",
+    "why": "villi and placenta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.4.0",
+    "strength": "essential",
+    "why": "barrier between bloods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.6",
+    "strength": "essential",
+    "why": "factors affecting diffusion rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.7",
+    "strength": "helpful",
+    "why": "steep gradient kept by blood flow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.5",
+    "strength": "essential",
+    "why": "facilitated diffusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.4.4",
+    "strength": "helpful",
+    "why": "substances crossing the barrier",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s5.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.5.0",
+    "strength": "helpful",
+    "why": "placenta exchange role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.5.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio23-s5.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.8.0",
+    "strength": "helpful",
+    "why": "progesterone and oestrogen source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.4.1",
+    "strength": "helpful",
+    "why": "barrier to blood cells",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s5.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.5.4",
+    "strength": "helpful",
+    "why": "placenta as barrier",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s5.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.5.0",
+    "strength": "helpful",
+    "why": "oxygen supply via placenta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.6.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio23-s5.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.7.0",
+    "strength": "essential",
+    "why": "amniotic sac",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.7.0",
+    "strength": "helpful",
+    "why": "amniotic fluid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.2.1",
+    "strength": "helpful",
+    "why": "placenta",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s5.3.1",
+    "strength": "helpful",
+    "why": "cord arteries and vein",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s5.7.0",
+    "strength": "helpful",
+    "why": "amnion",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s5.14.2",
+    "strength": "helpful",
+    "why": "mucus plug",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s5.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.0.1",
+    "strength": "helpful",
+    "why": "mitosis of the zygote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.0.3",
+    "strength": "helpful",
+    "why": "day 1 of the period",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.9.1",
+    "strength": "helpful",
+    "why": "length of pregnancy",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s5.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.9.2",
+    "strength": "helpful",
+    "why": "trimesters",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s5.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.9.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.9.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.9.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.9.3",
+    "strength": "helpful",
+    "why": "organs forming early",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.8.0",
+    "strength": "helpful",
+    "why": "zygote formed at fertilisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.10.0",
+    "strength": "helpful",
+    "why": "zygote divides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.10.1",
+    "strength": "essential",
+    "why": "morula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.10.1",
+    "strength": "helpful",
+    "why": "ball of cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.10.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.10.3",
+    "strength": "essential",
+    "why": "blastocyst",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.10.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.10.4",
+    "strength": "essential",
+    "why": "trophoblast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.10.4",
+    "strength": "essential",
+    "why": "inner cell mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.10.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.10.1",
+    "strength": "helpful",
+    "why": "morula",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s5.10.4",
+    "strength": "helpful",
+    "why": "blastocyst parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.10.4",
+    "strength": "essential",
+    "why": "inner cell mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.11.0",
+    "strength": "essential",
+    "why": "germ layers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.11.0",
+    "strength": "essential",
+    "why": "germ layers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.11.0",
+    "strength": "essential",
+    "why": "germ layers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.11.1",
+    "strength": "helpful",
+    "why": "layer contents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.0.4",
+    "strength": "helpful",
+    "why": "implantation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.12.0",
+    "strength": "helpful",
+    "why": "embryo stage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.12.0",
+    "strength": "essential",
+    "why": "embryo stage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.12.2",
+    "strength": "essential",
+    "why": "foetus definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.12.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.10.5",
+    "strength": "helpful",
+    "why": "blastocyst implants",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s5.11.0",
+    "strength": "helpful",
+    "why": "germ layers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.13.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.13.2",
+    "strength": "helpful",
+    "why": "positive feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.13.0",
+    "strength": "helpful",
+    "why": "labour",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.14.0",
+    "strength": "essential",
+    "why": "contractions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.7.0",
+    "strength": "essential",
+    "why": "amnion and fluid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.14.1",
+    "strength": "helpful",
+    "why": "cervix dilation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s5.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.14.1",
+    "strength": "helpful",
+    "why": "cervix dilated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.3.0",
+    "strength": "essential",
+    "why": "umbilical cord",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.15.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s5.5.0",
+    "strength": "helpful",
+    "why": "placenta supplies oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s5.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.2.1",
+    "strength": "essential",
+    "why": "placenta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.16.0",
+    "strength": "essential",
+    "why": "placenta detaches",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s5.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.2.1",
+    "strength": "helpful",
+    "why": "placenta position",
+    "confidence": "low"
+   }
+  ]
+ }
+}

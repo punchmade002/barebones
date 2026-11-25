@@ -1,0 +1,121 @@
+TARGET bio19-s5: Conduction across the synaptic cleft and its disruption
+[bio19-s5.0.b] A synapse is the junction where one neuron passes a signal to the next across a tiny gap, the synaptic cleft. The signal crosses the gap as a chemical, a neurotransmitter, and the release of that chemical is switched on by ions.
+[bio19-s5.0.0] Release is triggered by ions: calcium ions entering the synaptic knob (the swollen tip of the presynaptic neuron, the neuron sending the signal) are the trigger for the neurotransmitter to be let out.
+[bio19-s5.0.1] Release lasts only a short time, so each impulse produces a brief burst of neurotransmitter rather than a steady flow.
+[bio19-s5.0.2] This brief burst passes the impulse to the next neuron, and because it is short, each impulse arriving at the knob gives its own separate signal. There is more on how the release happens in Neurotransmission.
+[bio19-s5.1.b] Once the neurotransmitter has done its job of passing on the impulse, it cannot be left in the cleft. An enzyme (a biological catalyst) in the cleft inactivates it.
+[bio19-s5.1.0] After it has passed on the impulse, the neurotransmitter is inactivated by an enzyme in the synaptic cleft, so its message stops being delivered.
+[bio19-s5.1.1] Example: the enzyme acetylcholinesterase breaks the neurotransmitter acetylcholine down into choline and ethanoic acid (acetate).
+[bio19-s5.2.b] Removing the neurotransmitter is not tidiness. It is what lets a synapse carry a series of separate signals.
+[bio19-s5.2.0] If the neurotransmitter stayed in the cleft, it would keep binding to the receptors on the postsynaptic neuron (the neuron receiving the signal), so that neuron would keep firing.
+[bio19-s5.2.1] The signal could not be switched off, so repeated signals could not be told apart: one long continuous signal would replace a series of separate ones.
+[bio19-s5.3.b] Neurons do not waste neurotransmitter. The presynaptic neuron takes back either the breakdown products or the intact neurotransmitter and reuses them.
+[bio19-s5.3.0] The breakdown products are reabsorbed by the presynaptic neuron and used to make new neurotransmitter; for example, choline from the breakdown of acetylcholine is reabsorbed.
+[bio19-s5.3.1] Serotonin and dopamine are mainly reabsorbed whole by transporter proteins (proteins in the membrane that carry a substance across it) in the presynaptic membrane, a process called reuptake. This is why they are cleared mainly by reuptake rather than by an enzyme.
+[bio19-s5.4.b] Putting the pieces together, a synapse works as a loop. The same neurotransmitter is released, removed and then remade, ready for the next impulse.
+[bio19-s5.4.0] 1. An impulse arrives at the synaptic knob, and calcium ions enter the knob.
+[bio19-s5.4.1] 2. Vesicles (small membrane-bound sacs) release neurotransmitter into the cleft.
+[bio19-s5.4.2] 3. The neurotransmitter diffuses across the cleft.
+[bio19-s5.4.3] 4. It binds to receptors (proteins that the neurotransmitter fits) on the postsynaptic membrane.
+[bio19-s5.4.4] 5. A new impulse starts in the postsynaptic neuron.
+[bio19-s5.4.5] 6. An enzyme breaks the neurotransmitter down, or it is taken back by reuptake.
+[bio19-s5.4.6] 7. The presynaptic neuron reabsorbs the breakdown products or the neurotransmitter, and new neurotransmitter is made and stored in vesicles, ready for the next impulse.
+[bio19-s5.4.7] Diagram: a synapse showing the presynaptic knob, vesicles, cleft and postsynaptic membrane with receptors. Label: enzyme in the cleft, reuptake arrows into the presynaptic knob.
+[bio19-s5.5.b] Because the synapse depends on several steps working together, a fault at any step changes how signals pass. The result can be a disorder.
+[bio19-s5.5.0] Disruption can come from too little or too much neurotransmitter, faulty receptors, or blocked breakdown or reuptake.
+[bio19-s5.5.1] Disruption can cause short-term (acute) or long-term (chronic) disorders, depending on whether the fault is brief or lasting.
+[bio19-s5.6.b] A quick, severe disorder shows how much depends on removing neurotransmitter. A poison that stops the removal step affects the synapses between nerves and muscles within a short time.
+[bio19-s5.6.0] Nerve agents and organophosphate insecticides inhibit acetylcholinesterase, the enzyme that breaks down acetylcholine.
+[bio19-s5.6.1] Acetylcholine then builds up at synapses with muscles, because it is no longer broken down, causing continuous muscle contraction and paralysis.
+[bio19-s5.6.2] In severe cases death follows from failure of the breathing muscles.
+[bio19-s5.7.b] Long-term disorders involve a lasting change in the neurons or the signalling that a neurotransmitter carries. Each example below involves a different neurotransmitter.
+[bio19-s5.7.0] In Alzheimer's disease, neurons that use acetylcholine are lost, contributing to memory loss.
+[bio19-s5.7.1] Depression is associated with altered signalling by serotonin and noradrenaline. Its causes are complex, so it should not be described as simply caused by low serotonin or as a chemical imbalance.
+[bio19-s5.7.2] In Parkinson's disease, dopamine-producing neurons in the brain die, causing tremor, stiffness and slow movement.
+[bio19-s5.8.b] A drug inhibits the enzyme that breaks down a neurotransmitter, so the neurotransmitter stays in the cleft longer and its effect is enhanced.
+[bio19-s5.8.0] Acetylcholinesterase inhibitors, e.g. donepezil, are used to treat the symptoms of Alzheimer's disease: acetylcholine is broken down more slowly, so the remaining acetylcholine-using neurons are stimulated for longer.
+[bio19-s5.8.1] Monoamine oxidase (MAO) inhibitors are antidepressants that slow the breakdown of serotonin, noradrenaline and dopamine, so these neurotransmitters stay in the cleft longer.
+[bio19-s5.9.b] A drug blocks the transporter that reabsorbs a neurotransmitter, so more neurotransmitter stays in the cleft for longer.
+[bio19-s5.9.0] Selective serotonin reuptake inhibitors (SSRIs), e.g. fluoxetine, are used to treat depression: with serotonin reabsorption blocked, serotonin acts on the postsynaptic neuron for longer.
+[bio19-s5.9.1] Neither strategy cures the disorder; both treat symptoms by enhancing the remaining signalling, which means they work with the neurons that are still functioning.
+[bio19-s5.10.b] Psychoactive drugs and painkillers work at synapses in similar ways to the treatments above. They block removal, copy a neurotransmitter, or block receptors.
+[bio19-s5.10.0] A psychoactive drug alters brain function, affecting mood, perception or behaviour.
+[bio19-s5.10.1] Cocaine blocks the reuptake of dopamine, so dopamine builds up in the cleft, producing euphoria. There is more on its effect on mood and addiction in Dopamine and endorphins.
+[bio19-s5.10.2] Nicotine mimics acetylcholine, binding to and activating some of its receptors.
+[bio19-s5.10.3] Opioid painkillers such as morphine bind to the same receptors as endorphins (the body's own pain-reducing neurotransmitters), mimicking them and reducing the sensation of pain.
+[bio19-s5.10.4] A drug may instead block receptors, preventing transmission: curare blocks acetylcholine receptors on muscles, so acetylcholine cannot act on them, causing paralysis.
+[bio19-s5.11.b] Every type of disruption ends in one of two outcomes for impulse travel: transmission is reduced or stopped, or it is prolonged or enhanced.
+[bio19-s5.11.0] Blocked release or blocked receptors: less or no neurotransmitter acts, so transmission is reduced or stops.
+[bio19-s5.11.1] Blocked breakdown or blocked reuptake: the neurotransmitter stays in the cleft, so transmission is prolonged or enhanced.
+[bio19-s5.11.2] Mimics: a drug that activates receptors makes transmission occur without the natural neurotransmitter.
+
+CANDIDATES bio19-s4: Neurotransmission
+[bio19-s4.0.b] A nerve impulse (a signal carried by nerve cells, called neurons) rarely travels through just one neuron. It passes along a chain of neurons from receptor to effector, and the signal changes form along the way.
+[bio19-s4.0.0] The chain runs receptor (detects the stimulus), sensory neuron (carries the signal towards the central nervous system), interneuron or interneurons (link neurons inside the central nervous system), motor neuron (carries the signal outwards), effector (the muscle or gland that responds).
+[bio19-s4.0.1] Within a single neuron the impulse is electrical: a wave of electrical change along the membrane, caused by ions (charged particles) moving in and out of the neuron.
+[bio19-s4.0.2] Between neurons the impulse is passed on chemically, across a synapse (the junction between two neurons). So the signal is electrical inside each neuron and chemical in the gaps between them.
+[bio19-s4.1.b] The neurons in a chain do not physically touch, so something must carry the signal from one to the next. That job is done at the synapse, using a chemical messenger.
+[bio19-s4.1.0] A synapse is the junction between two neurons, or between a neuron and an effector such as a muscle fibre (a single muscle cell).
+[bio19-s4.1.1] The two cells do not touch; a tiny gap called the synaptic cleft separates them, which is why the electrical impulse cannot simply carry on across.
+[bio19-s4.1.2] The neuron before the cleft is the presynaptic neuron; the one after it is the postsynaptic neuron. Pre means before and post means after.
+[bio19-s4.1.3] The presynaptic axon (the long fibre of the neuron) ends in a swollen synaptic knob containing mitochondria, which supply energy, and vesicles (small membrane sacs) of neurotransmitter.
+[bio19-s4.1.4] A neurotransmitter is a chemical released by a neuron that carries the impulse across a synapse.
+[bio19-s4.1.5] Examples of neurotransmitters are acetylcholine, noradrenaline, dopamine and serotonin.
+[bio19-s4.2.b] A labelled synapse diagram is a common exam task, and it also shows you where each part sits relative to the cleft.
+[bio19-s4.2.0] Diagram: synapse labelling presynaptic neuron, synaptic knob, mitochondria, vesicles, neurotransmitter molecules, synaptic cleft, receptor proteins on the postsynaptic membrane, postsynaptic neuron, and an arrow for the direction of the impulse.
+[bio19-s4.3.b] Crossing the cleft is a sequence of steps in which the electrical impulse is converted into a chemical signal and then back into an electrical one. Learn the steps in order.
+[bio19-s4.3.0] 1. The impulse arrives at the synaptic knob.
+[bio19-s4.3.1] 2. This causes calcium ions (Ca²⁺) to move into the knob.
+[bio19-s4.3.2] 3. The calcium ions trigger vesicles to move to the presynaptic membrane, fuse with it and release neurotransmitter into the cleft.
+[bio19-s4.3.3] 4. The neurotransmitter diffuses across the cleft. The gap is tiny, so this is quick.
+[bio19-s4.3.4] 5. It binds to specific receptor proteins on the postsynaptic membrane; each receptor fits only its own neurotransmitter, like a key in a lock.
+[bio19-s4.3.5] 6. Binding opens ion channels in the postsynaptic membrane, ions move in, and a new impulse starts in the postsynaptic neuron if enough neurotransmitter binds.
+[bio19-s4.3.6] Mitochondria in the knob supply ATP (the cell's energy currency) for making and releasing neurotransmitter.
+[bio19-s4.4.b] Synapses are not just gaps to cross. Because the signal is chemical, they control how signals travel and which ones get through.
+[bio19-s4.4.0] Impulses cross in one direction only, because only the presynaptic side has vesicles and only the postsynaptic side has receptors. The neurotransmitter therefore cannot send a signal backwards.
+[bio19-s4.4.1] A weak stimulus may release too little neurotransmitter to start a new impulse, so synapses filter out unimportant signals.
+[bio19-s4.4.2] One neuron can synapse with many others, so impulses can be spread to many cells or combined from many cells.
+[bio19-s4.4.3] Many drugs act at synapses, since the chemical step can be altered. There is more on this in Conduction across the synaptic cleft and its disruption.
+
+CANDIDATES bio19-s3: Neurons
+[bio19-s3.0.b] Your body has to pass information quickly between receptors (cells that detect changes), the brain and spinal cord, and muscles and glands. Neurons are the cells that do this job, and there are three types, each with its own role.
+[bio19-s3.0.0] A neuron, or nerve cell, is the basic unit of the nervous system; it carries electrochemical nerve impulses (tiny electrical-and-chemical signals that travel along the cell).
+[bio19-s3.0.1] Neurons are long and thin, so a single cell can connect distant parts of the body, for example the skin of the foot and the spinal cord.
+[bio19-s3.0.2] Sensory neurons carry impulses from receptors (cells that detect a stimulus) to the CNS (the central nervous system: brain and spinal cord).
+[bio19-s3.0.3] Motor neurons carry impulses from the CNS to effectors (muscles or glands, which carry out the response).
+[bio19-s3.0.4] Interneurons, also called relay or connector neurons, carry impulses between neurons within the CNS, so they link the incoming and outgoing pathways.
+[bio19-s3.1.b] Every neuron is built from the same three main regions: a cell body, branched dendrites that receive signals, and an axon that sends them on. The shape of each region suits its job.
+[bio19-s3.1.0] The cell body contains the nucleus and most of the cytoplasm and organelles, which keeps the cell alive.
+[bio19-s3.1.1] The cell body also makes the neurotransmitter (the chemical that passes the signal to the next cell) and the proteins the neuron needs.
+[bio19-s3.1.2] Dendrites are short, branched extensions that receive impulses from other neurons or receptors and carry them towards the cell body.
+[bio19-s3.1.3] Branching gives dendrites a large surface, so one neuron can receive signals from many others.
+[bio19-s3.1.4] The axon is a long single fibre that carries impulses away from the cell body.
+[bio19-s3.1.5] The axon's length lets impulses reach distant effectors, for example a muscle in the foot.
+[bio19-s3.2.b] Many axons are wrapped in a fatty coat that makes impulses travel faster. Fast conduction matters because the body must respond quickly, for example when you pull your hand from something hot.
+[bio19-s3.2.0] The myelin sheath is a fatty insulating layer around many axons, so the impulse does not leak away along the way.
+[bio19-s3.2.1] It speeds up the impulse, which jumps between the small gaps in the sheath called nodes of Ranvier.
+[bio19-s3.2.2] Schwann cells are cells that wrap around the axon in the PNS (the peripheral nervous system: the nerves outside the brain and spinal cord), their membrane forming the myelin sheath.
+[bio19-s3.3.b] At its far end an axon has to hand the impulse on to the next cell, whether another neuron, a muscle or a gland. The axon terminals are built for this hand-over.
+[bio19-s3.3.0] The axon ends in swollen synaptic knobs, also called axon terminals.
+[bio19-s3.3.1] Neurotransmitter vesicles are tiny sacs in the synaptic knobs that store neurotransmitter, so a supply is ready to be released.
+[bio19-s3.3.2] The neurotransmitter is released to pass the impulse to the next cell. There is more on this in Neurotransmission.
+[bio19-s3.4.b] A motor neuron carries the command from the CNS out to an effector. Its structure is arranged to collect many inputs inside the CNS and then send one signal a long way out.
+[bio19-s3.4.0] A motor neuron has its cell body at one end, inside the CNS, with many dendrites.
+[bio19-s3.4.1] Its many dendrites receive input from many interneurons, so one motor neuron can combine signals from many sources.
+[bio19-s3.4.2] It has one long axon, which ends in axon terminals on a muscle or gland, so the axon reaches the effector wherever it lies in the body.
+[bio19-s3.5.b] A sensory neuron brings information in from a receptor to the CNS. It has a different layout from a motor neuron, with its cell body off to one side.
+[bio19-s3.5.0] A sensory neuron has a long fibre, the dendron, which carries impulses from the receptor to the cell body. A dendron is not the same as a dendrite, which is short and branched.
+[bio19-s3.5.1] Its cell body sits to one side of the fibre, in a ganglion (a cluster of cell bodies) outside the CNS.
+[bio19-s3.5.2] A shorter axon carries the impulse on into the CNS.
+[bio19-s3.5.3] The long dendron reaches from a receptor, for example in the skin of the foot, to the spinal cord.
+[bio19-s3.5.4] The cell body lies off the main pathway, so it does not slow the impulse.
+[bio19-s3.6.b] Between the sensory and motor neurons sits a third type that links them. Interneurons make the CNS a network rather than a set of separate wires.
+[bio19-s3.6.0] Interneurons are short, with many branched connections, so each can link with many other neurons.
+[bio19-s3.6.1] They are found only in the CNS.
+[bio19-s3.6.2] They connect sensory neurons to motor neurons and link many neurons together.
+[bio19-s3.7.b] You are often asked to label a neuron diagram or to say which type is shown. Practise drawing both types so that you can place every part and show the direction of the impulse.
+[bio19-s3.7.0] Diagram: a motor neuron and a sensory neuron, labelling cell body, nucleus, dendrites, dendron (sensory), axon, myelin sheath, Schwann cell, node of Ranvier, axon terminals, neurotransmitter vesicles, and an arrow for the direction of the impulse.
+[bio19-s3.8.b] The importance of myelin shows when it is damaged. Multiple sclerosis is a disease in which this happens.
+[bio19-s3.8.0] Multiple sclerosis (MS) is an autoimmune disease (the immune system attacks the body's own tissue) in which the body's immune system damages the myelin sheath in the CNS.
+[bio19-s3.8.1] Damaged myelin slows or blocks impulses, because the insulation that lets them jump between the nodes of Ranvier is lost.
+[bio19-s3.8.2] Symptoms include problems with movement, balance and vision.

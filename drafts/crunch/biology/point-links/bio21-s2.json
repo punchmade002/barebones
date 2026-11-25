@@ -1,0 +1,429 @@
+{
+ "bio21-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.0.1",
+    "strength": "helpful",
+    "why": "stimulus-receptor-effector pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.0.1",
+    "strength": "helpful",
+    "why": "receptor detects stimulus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.0.2",
+    "strength": "helpful",
+    "why": "effector is muscle or gland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.3",
+    "strength": "helpful",
+    "why": "effector carries out response",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.1.3",
+    "strength": "helpful",
+    "why": "nervous pathways are fast",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s1.2.2",
+    "strength": "helpful",
+    "why": "hormonal pathways are slower",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.0",
+    "strength": "helpful",
+    "why": "change away from set point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "helpful",
+    "why": "response reverses the change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.0.4",
+    "strength": "essential",
+    "why": "fluctuation around set point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.1.b",
+    "strength": "essential",
+    "why": "five parts of the chain",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "essential",
+    "why": "response opposes change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "helpful",
+    "why": "negative feedback opposes change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "essential",
+    "why": "opposite of negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.3.0",
+    "strength": "essential",
+    "why": "positive feedback increases change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.2",
+    "strength": "helpful",
+    "why": "control centre in hypothalamus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.1",
+    "strength": "essential",
+    "why": "receptor detects change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.2",
+    "strength": "essential",
+    "why": "control centre compares with set point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.3",
+    "strength": "helpful",
+    "why": "effector gland acts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.1.3",
+    "strength": "helpful",
+    "why": "effector muscle acts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.3",
+    "strength": "helpful",
+    "why": "effector muscle acts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.4.3",
+    "strength": "helpful",
+    "why": "vasodilation contrasted with narrowing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.2.0",
+    "strength": "helpful",
+    "why": "hormones carried in blood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.1",
+    "strength": "helpful",
+    "why": "receptor detects change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.5.2",
+    "strength": "essential",
+    "why": "insulin lowers blood glucose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "essential",
+    "why": "response stops at set point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.5.2",
+    "strength": "essential",
+    "why": "insulin lowers blood glucose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.2.b",
+    "strength": "essential",
+    "why": "negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.1",
+    "strength": "helpful",
+    "why": "receptor detects change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.6.1",
+    "strength": "helpful",
+    "why": "low thyroxine detected",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.6.2",
+    "strength": "essential",
+    "why": "TSH stimulates thyroxine release",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.2.0",
+    "strength": "helpful",
+    "why": "hormones carried in blood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.7.b",
+    "strength": "helpful",
+    "why": "pituitary hormone controls water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.7.0",
+    "strength": "essential",
+    "why": "ADH release adjusted",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.2.b",
+    "strength": "helpful",
+    "why": "negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.2.b",
+    "strength": "essential",
+    "why": "negative feedback",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,349 @@
+MODE: cost and links
+TARGET geo-weather-climate-s3: Geographical information systems (GIS)
+[geo-weather-climate-s3.0.b] A geographical information system (GIS) is a computer system that combines data linked to places on the earth's surface, so that data sources for one area can be studied together. Its power comes from combining: one map or photo on its own is not a GIS.
+[geo-weather-climate-s3.0.0] A GIS captures, stores, analyses and displays spatial (geo-referenced) data, meaning data tied to a location, from maps, aerial photographs, satellite images, census and other statistics, and field surveys.
+[geo-weather-climate-s3.0.1] Each data set is stored as a separate layer, such as roads, rivers, land use, population or protected sites, over the same base map (the common background map). Layers can be switched on and off and overlaid to reveal relationships.
+[geo-weather-climate-s3.0.2] Geo-referencing ties every item to coordinates, such as latitude and longitude or a national grid, so layers from different sources line up. Irish maps use the Irish Transverse Mercator (ITM) grid and the older Irish Grid.
+[geo-weather-climate-s3.0.3] Vector data are points, lines and polygons (closed shapes enclosing an area): a monument is shown as a point, a road as a line and a forest as a polygon.
+[geo-weather-climate-s3.0.4] Raster data are a grid of cells or pixels (tiny squares, each holding one value), such as a satellite image or an aerial photograph.
+[geo-weather-climate-s3.0.5] Each feature can carry attribute data, a table of information about it, such as a house's year of building or a field's crop.
+[geo-weather-climate-s3.1.b] A GIS is useful because of what it can do with the layers once they are lined up. Every study follows the same sequence, so the analysis tools below are used in whichever option is chosen.
+[geo-weather-climate-s3.1.0] Overlay combines layers to show where things coincide, such as new housing on former farmland.
+[geo-weather-climate-s3.1.1] Buffering draws a zone of set distance around a feature, such as a zone around a river or monument.
+[geo-weather-climate-s3.1.2] Querying selects the features that meet a condition, such as all Small Areas (the small census districts) whose population grew by more than a set amount.
+[geo-weather-climate-s3.1.3] Change detection compares the same layer at different dates, so you can see what has altered.
+[geo-weather-climate-s3.1.4] Network analysis finds the shortest or fastest route along roads or other links, such as for an ambulance.
+[geo-weather-climate-s3.1.5] Choropleth maps shade each area by a statistic, such as census figures, so high and low areas stand out.
+[geo-weather-climate-s3.1.6] Steps: 1. define the problem and area; 2. collect data layers; 3. geo-reference them to one base map; 4. overlay and analyse; 5. map and present the results; 6. draw conclusions and recommend planning action (decisions about how land should be used).
+[geo-weather-climate-s3.2.b] Beyond the four studies, GIS is used across planning and services. Knowing its strengths, its limits and where Irish data come from lets you judge any GIS study.
+[geo-weather-climate-s3.2.0] Wider uses of GIS: local authority planning and zoning, flood-risk mapping, emergency services, water and electricity networks, retail and service location, environmental monitoring and census mapping.
+[geo-weather-climate-s3.2.1] Advantages: handles very large data sets, combines many sources, analyses and re-analyses quickly, updates easily, gives clear map output and models 'what if' scenarios (testing the effect of a possible change before it happens).
+[geo-weather-climate-s3.2.2] Limitations: software and data are costly and need training; results are only as good as the data, which may be out of date or inaccurate; layers at different scales or dates may not match; personal data raise privacy issues.
+[geo-weather-climate-s3.2.3] Tailte Éireann, set up in 2023 by bringing together Ordnance Survey Ireland, the Property Registration Authority and the Valuation Office, supplies maps and aerial photography. Either name for the mapping body is acceptable.
+[geo-weather-climate-s3.2.4] The Central Statistics Office (CSO) supplies census data by area. Tailte Éireann is not a census body.
+[geo-weather-climate-s3.2.5] Satellite images, such as Landsat and Copernicus Sentinel, are another source; government departments and agencies supply sector statistics. There is more on satellite images in Satellite imagery.
+[geo-weather-climate-s3.3.b] Urban sprawl is the uncontrolled outward spread of low-density urban development, such as housing estates, retail parks and business parks, into the surrounding countryside, often along roads and into commuter towns (towns from which people travel to work in a city) and villages. This study uses aerial photographs, census material and maps.
+[geo-weather-climate-s3.3.0] Aerial photographs of the same area at different dates show farmland replaced by housing estates, new roads, roundabouts and business parks, and ribbon development (building in a line along approach roads). Overlaying them shows exactly where and when land changed.
+[geo-weather-climate-s3.3.1] Census material: population and housing counts by small area show where population grew fastest, the age of the housing stock, household size and commuting (distance and mode of travel to work).
+[geo-weather-climate-s3.3.2] The CSO publishes census results for Small Areas, each generally of 50–200 dwellings, so growth can be mapped in fine detail.
+[geo-weather-climate-s3.3.3] Ireland's censuses were held in 2011, 2016 and 2022; the 2021 census was postponed to 2022 because of COVID-19. Census 2022 counted about 5.1 million people in Ireland and about 1.45 million in Dublin county.
+[geo-weather-climate-s3.3.4] Maps: Ordnance Survey and historic maps of different editions show the built-up area expanding; development plan zoning maps show land zoned (officially set aside) for housing; transport maps show new motorways and rail lines that encouraged growth.
+[geo-weather-climate-s3.4.b] Once the layers are lined up, the analysis tests how and why the city spread. The Dublin findings then show the problems and the planning responses.
+[geo-weather-climate-s3.4.0] Overlay the built-up area at each date to measure how much land was urbanised (turned into built-up land), then overlay census growth on it.
+[geo-weather-climate-s3.4.1] Buffer motorways and rail stations to test whether growth followed transport, and link commuting data to show dependence on the car.
+[geo-weather-climate-s3.4.2] Findings for Dublin: the city and its suburbs spread into the surrounding counties; commuter towns such as Navan, Drogheda, Naas, Newbridge and Portlaoise grew rapidly; many residents commute long distances into Dublin. The Greater Dublin Area comprises Dublin, Meath, Kildare and Wicklow.
+[geo-weather-climate-s3.4.3] Problems shown by the study: loss of farmland and green space; car dependence, long commutes and traffic congestion; services such as schools, transport and shops lagging behind new housing.
+[geo-weather-climate-s3.4.4] Further problems: high cost of extending water, sewerage and public transport to low-density areas, and weakened community life in dormitory settlements (places where people mainly sleep and travel out to work).
+[geo-weather-climate-s3.4.5] Responses: compact growth and higher density near public transport, promoted by the National Planning Framework (2018).
+[geo-weather-climate-s3.4.6] Other responses: planned new communities with services built alongside housing, such as Adamstown, Co. Dublin, a planned Strategic Development Zone (SDZ); and greenbelts (protected rings of open land around a city).
+[geo-weather-climate-s3.5.b] This study combines satellite images with statistics to measure how farmland has changed between dates.
+[geo-weather-climate-s3.5.0] Satellite images from different years show changes in crops and grassland, field size, drainage, reclaimed marginal land (poorer land brought into use), and land lost to housing or forestry.
+[geo-weather-climate-s3.5.1] Satellite images repeat regularly, so changes can be tracked within a single season.
+[geo-weather-climate-s3.5.2] CORINE land cover is an EU inventory (a mapped record) made from satellite images that shows agricultural, forest, wetland and urban land at each date, so change can be measured. Ireland has been mapped for 1990, 2000, 2006, 2012 and 2018.
+[geo-weather-climate-s3.5.3] Statistical information: the CSO Census of Agriculture (about 135,000 farms counted in 2020) and annual crop and livestock surveys give farm numbers, farm size, crop areas and livestock numbers by county.
+[geo-weather-climate-s3.5.4] Department of Agriculture data on farm payments add the financial side of land use.
+[geo-weather-climate-s3.6.b] The satellite layers are overlaid and joined to the statistics, so the pattern of change can be explained by soils, relief and rainfall.
+[geo-weather-climate-s3.6.0] Overlay satellite-derived land use from two dates to map where tillage (growing crops), grassland, forestry and built land changed.
+[geo-weather-climate-s3.6.1] Join county statistics to the map, then relate the change to soils, relief and rainfall layers. For example, tillage is concentrated on the drier, flatter, better-drained land of the east and south-east.
+[geo-weather-climate-s3.6.2] Most Irish farmland is grassland for cattle and sheep; tillage is concentrated in the east and south-east.
+[geo-weather-climate-s3.6.3] Dairy farming expanded after EU milk quotas (limits on how much milk farms could produce) ended in 2015.
+[geo-weather-climate-s3.6.4] Some marginal land in the west has been planted with forestry, and farmland on the edge of cities has been lost to urban growth.
+[geo-weather-climate-s3.6.5] Uses: checking farmers' land-use claims under the EU's Common Agricultural Policy (CAP, the EU farm payment scheme) by satellite, monitoring crop health and forecasting yields, and tracking wetland drainage, hedgerow loss and nitrate pressure on water.
+[geo-weather-climate-s3.6.6] International illustration: satellite images of irrigated desert farming (centre-pivot circles) and of Amazon clearance show agricultural change on a large scale. There is more on this in Satellite imagery.
+[geo-weather-climate-s3.7.b] This study combines aerial photographs, maps and forestry statistics to show where forest has been planted and cleared, and why planting went where it did.
+[geo-weather-climate-s3.7.0] Aerial photographs of different dates show new plantations as dark, uniform blocks with straight edges and firebreaks (gaps that stop fire spreading), clear-felled areas as bare brown patches with brash (leftover branches), and replanting. Species and age can be distinguished by tone and texture.
+[geo-weather-climate-s3.7.1] OS maps show forest areas by symbol (coniferous, deciduous or mixed) and can be compared across editions.
+[geo-weather-climate-s3.7.2] Soil, peat and relief maps show where planting took place, on marginal upland, wet mineral soils and peat.
+[geo-weather-climate-s3.7.3] Maps of protected areas, Special Areas of Conservation and Special Protection Areas (sites protected for habitats and birds), show where planting conflicts with conservation.
+[geo-weather-climate-s3.7.4] Statistical information: the Forest Service's National Forest Inventory (forest area, species, ownership and age by county), annual afforestation (planting new forest) and felling figures, and grant data.
+[geo-weather-climate-s3.7.5] GIS analysis: overlay forest cover at successive dates to map expansion; overlay soils, slope and altitude to explain where planting happened.
+[geo-weather-climate-s3.7.6] GIS analysis, continued: overlay protected sites, rivers and archaeological sites, with buffers, to identify conflicts; query which counties had the largest increase.
+[geo-weather-climate-s3.8.b] The study shows how much forest Ireland has gained, who planted it and what it has cost the environment.
+[geo-weather-climate-s3.8.0] Forest cover was about 1% of Ireland at the start of the 20th century and is about 11% today (National Forest Inventory, 2022).
+[geo-weather-climate-s3.8.1] Most planting has been of conifers, mainly Sitka spruce, which makes up about half of all forest area, largely on marginal land.
+[geo-weather-climate-s3.8.2] Coillte, the state forestry company set up in 1988, manages most public forest; private, largely farm-based, planting grew with grants.
+[geo-weather-climate-s3.8.3] Benefits: timber and jobs, farm income diversification (more than one source of farm income), carbon storage and recreation.
+[geo-weather-climate-s3.8.4] Problems: dense conifer blocks change the landscape and reduce biodiversity; acidification and sediment in streams harm fish and the freshwater pearl mussel; open upland habitat for birds such as the hen harrier is lost.
+[geo-weather-climate-s3.8.5] Further problems: planting on peat releases carbon; clear-felling (cutting all trees in an area) causes erosion; forestry replacing farms has caused local opposition, for example in Co. Leitrim.
+[geo-weather-climate-s3.8.6] Ash dieback, a tree disease first found in Ireland in 2012, is a disease risk.
+[geo-weather-climate-s3.8.7] Management: more broadleaf planting, buffer zones along rivers, environmental assessment of planting, and continuous-cover forestry (harvesting without clear-felling, so the ground is always covered by trees).
+[geo-weather-climate-s3.9.b] The archaeological study uses the official record of known sites, old and new maps, and aerial photographs. The record is the starting point because it says which sites are known and protected.
+[geo-weather-climate-s3.9.0] The Record of Monuments and Places (RMP) is the statutory (legally established) list of known archaeological monuments in each county, set up under section 12 of the National Monuments (Amendment) Act 1994.
+[geo-weather-climate-s3.9.1] It is published as a written list with OS maps on which each site is circled; the database behind it, the Sites and Monuments Record, is viewable in the National Monuments Service's online Historic Environment Viewer.
+[geo-weather-climate-s3.9.2] Anyone intending works at or near a recorded monument must give two months' notice before the works begin, so the site can be assessed.
+[geo-weather-climate-s3.9.3] Types of site: ringforts (about 45,000 in Ireland, the most common field monument), megalithic tombs, standing stones, ecclesiastical (church) sites, castles and tower houses, crannógs (lake dwellings), fulachta fiadh (burnt-mound cooking sites), and buried sites known only from below-ground remains.
+[geo-weather-climate-s3.10.b] Old maps show where sites once stood and aerial photographs reveal what survives, so overlaying them shows what has been lost.
+[geo-weather-climate-s3.10.0] First edition OS six-inch maps of Ireland date from the 1830s–1840s and later editions record sites, for example ringforts drawn as circles. Comparing old maps, modern maps and the RMP shows which sites have disappeared.
+[geo-weather-climate-s3.10.1] Aerial photographs reveal sites that are invisible on the ground. Cropmarks: crops over buried ditches grow taller and greener from extra moisture, while over buried walls they are stunted and parched.
+[geo-weather-climate-s3.10.2] Other marks: parchmarks (dry patches) in dry summers; soil marks in ploughed fields; and shadow marks, where low sun shows earthworks (banks and mounds).
+[geo-weather-climate-s3.10.3] Comparing photographs from different dates shows sites that have been levelled; LiDAR (laser scanning from an aircraft) reveals earthworks under trees.
+[geo-weather-climate-s3.10.4] GIS analysis: overlay the RMP point layer on old and new maps and aerial photographs to record which sites survive, are damaged or are destroyed.
+[geo-weather-climate-s3.10.5] Overlay development layers (new roads, housing, quarries, forestry and land drainage), buffer each monument to predict threats, and map destruction rates by area.
+[geo-weather-climate-s3.11.b] The study identifies what destroys sites, uses named cases to show it, and supports the measures that protect monuments.
+[geo-weather-climate-s3.11.0] Agricultural improvement (land reclamation, drainage, ploughing and removal of field boundaries) causes destruction.
+[geo-weather-climate-s3.11.1] Other causes: road building, urban and housing development, quarrying, afforestation (ploughing, drains and tree roots), and natural erosion such as coastal erosion of promontory forts and middens (ancient rubbish heaps).
+[geo-weather-climate-s3.11.2] Wood Quay, Dublin: a Viking-age site, excavated and largely removed for Dublin Corporation's civic offices after protests in the late 1970s.
+[geo-weather-climate-s3.11.3] M3 motorway through the Tara–Skryne valley, Co. Meath: opened 2010, and passes through the valley near the Hill of Tara; a henge (a circular earthwork) was found at Lismullin during construction in 2007.
+[geo-weather-climate-s3.11.4] Carrickmines Castle on the M50 route, Co. Dublin: a dispute in the early 2000s.
+[geo-weather-climate-s3.11.5] July 2018 drought: a henge at Brú na Bóinne, Co. Meath, was spotted from the air (by drone).
+[geo-weather-climate-s3.11.6] Protection the study supports: the RMP and its notification system; archaeological assessment and excavation before development, which means preservation by record (recording the site before it is removed) or preservation in situ (keeping it in place).
+[geo-weather-climate-s3.11.7] Further protection: planning conditions; rerouting roads; public awareness; and farm schemes that protect monuments.
+
+CANDIDATES geo-mapwork-s1: Map interpretation
+[geo-mapwork-s1.0.b] Exam map questions are set on an Ordnance Survey (OS) map, the official survey map of Ireland. To answer them you need to know what the map shows and how its scale (the link between a distance on paper and the real distance on the ground) works. Worked examples use an invented town called Rivertown and are labelled illustrative.
+[geo-mapwork-s1.0.0] The exam map is a 1:50 000 Ordnance Survey (Discovery Series) extract, meaning a cut-out piece of the national map, and questions say 'examine the map and legend'. The legend is the key that explains the symbols.
+[geo-mapwork-s1.0.1] Every symbol, colour and road-class answer comes from the legend, so read it before answering instead of guessing from memory.
+[geo-mapwork-s1.0.2] A ratio (representative fraction) of 1:50 000 means 1 unit on the map equals 50 000 of the same units on the ground, for example 1 cm on the map stands for 50 000 cm on the ground.
+[geo-mapwork-s1.0.3] A linear scale (scale bar, a ruler-like line printed on the map) and a statement scale ('2 cm to 1 km', written in words) express the same scale in different forms.
+[geo-mapwork-s1.0.4] On 1:50 000, 1 cm = 0.5 km and 2 cm = 1 km, so a grid square (one square of the printed grid) of 2 cm × 2 cm is 1 km × 1 km = 1 km².
+[geo-mapwork-s1.0.5] A large-scale map (e.g. 1:1 000) shows a small area in great detail; a small-scale map (e.g. 1:1 000 000) shows a large area with little detail. The bigger the ratio number, the smaller the scale.
+[geo-mapwork-s1.0.6] 1:50 000 is a medium scale, suited to a town and its surroundings because it shows buildings, roads and relief clearly while still covering a useful area.
+[geo-mapwork-s1.1.b] A grid reference is a short code that pins a place on the map. Learn the two types, because a four-figure reference names a whole square and a six-figure reference names a point inside it.
+[geo-mapwork-s1.1.0] The Irish Grid divides Ireland into 25 sub-zones, each 100 km × 100 km, lettered A to Z with I omitted. The sub-zone letter is printed on the map and starts every grid reference, so that the code points to one place only.
+[geo-mapwork-s1.1.1] Eastings are the vertical grid lines, numbered along the top and bottom, and the numbers increase eastward. Read them first, because the grid reference runs across before it runs up.
+[geo-mapwork-s1.1.2] Northings are the horizontal grid lines, numbered up the sides, and the numbers increase northward. Read them second, so that the reference reads across then up.
+[geo-mapwork-s1.1.3] Memory aid for the order: along the corridor, then up the stairs.
+[geo-mapwork-s1.1.4] A four-figure reference identifies a whole 1 km square by the easting and northing of its bottom-left (south-west) corner. Use it for areas such as a lake, a forest or a slope, which cover a whole square rather than a single point.
+[geo-mapwork-s1.1.5] A six-figure reference identifies a point to the nearest 100 m. Mentally divide the square into tenths, then read the tenths east of the easting line and the tenths north of the northing line.
+[geo-mapwork-s1.1.6] Six-figure references locate point features such as a building symbol, a road junction, a spot height (a dot marking an exact height) or the point where a road leaves the map. Give the reference for the centre of the symbol.
+[geo-mapwork-s1.1.7] Illustrative: the square containing the ringfort (an early Christian farmstead) in Rivertown is the four-figure reference R 25 43, easting 25 first and then northing 43, with R as the sub-zone letter.
+[geo-mapwork-s1.2.b] Questions use grid references in two directions: you are given a reference and asked what is there, or told a feature and asked to locate it. Position can also be given in words, relative to other things.
+[geo-mapwork-s1.2.0] To name a feature at a grid reference, find the sub-zone letter, then the easting, then the northing, and name what the map or legend labels at that point exactly.
+[geo-mapwork-s1.2.1] A common Ordinary task is naming the feature at three or four grid references, such as an antiquity (a historic monument), a Garda station, a post office or a tourist feature.
+[geo-mapwork-s1.2.2] Illustrative: the bridge over the River Dallow is at six-figure reference R 268 441, so the easting 268 is read before the northing 441; the feature at R 280 436 is a motte (a Norman earth mound).
+[geo-mapwork-s1.2.3] Absolute location is a precise position given by a grid reference or by latitude and longitude (degrees measured from fixed lines on the globe), so it can be checked exactly.
+[geo-mapwork-s1.2.4] Relative location describes a position against other features or directions, so it is approximate, e.g. 'north-west of the town, beside the river'.
+[geo-mapwork-s1.2.5] Exams ask which area of the map (north-west, south-east and so on) a named feature lies in, for example the north-east.
+[geo-mapwork-s1.3.b] Latitude and longitude give a global position in degrees from two fixed reference lines, which makes them useful for any place on Earth, not only places on one OS map.
+[geo-mapwork-s1.3.0] Latitude is the angular distance north or south of the Equator (0°, the line round the middle of the Earth), up to 90°N and 90°S at the poles. Lines of latitude (parallels) run east–west, parallel to each other.
+[geo-mapwork-s1.3.1] Longitude is the angular distance east or west of the Prime Meridian (0°), which passes through Greenwich, London, up to 180°. Lines of longitude (meridians) run north–south and meet at the poles.
+[geo-mapwork-s1.3.2] Each degree is divided into 60 minutes (′). Write latitude first with N or S, then longitude with E or W, e.g. 53°20′N, 6°15′W.
+[geo-mapwork-s1.3.3] Key lines: the Equator (0°); the Tropics of Cancer and Capricorn at about 23.5°N and 23.5°S; the Arctic and Antarctic Circles at about 66.5°N and 66.5°S; the International Date Line roughly follows 180°.
+[geo-mapwork-s1.3.4] One degree of latitude is about 111 km everywhere, because parallels are evenly spaced. One degree of longitude is about 111 km at the Equator and shrinks to zero at the poles, because the meridians meet there.
+[geo-mapwork-s1.4.b] Longitude is linked to time, and it also lets you describe where Ireland sits on the globe. Each coordinate system has its own best use.
+[geo-mapwork-s1.4.0] The earth turns 360° in 24 hours, so 15° of longitude equals 1 hour of time. Places to the east are ahead.
+[geo-mapwork-s1.4.1] Illustrative: a place 30° east of Greenwich is 2 hours ahead, since 30 ÷ 15 = 2.
+[geo-mapwork-s1.4.2] Ireland's position is fixed by coordinates: it lies between about 51.5°N and 55.5°N and about 5.5°W and 10.5°W, so it is in the northern hemisphere (north of the Equator) and the western hemisphere (west of Greenwich).
+[geo-mapwork-s1.4.3] Example: Dublin lies at about 53°20′N, 6°15′W, which puts it north of the Equator and west of Greenwich.
+[geo-mapwork-s1.4.4] Grid references are used on OS maps because they are quicker and more precise at local scale; latitude and longitude are used for global location.
+[geo-mapwork-s1.5.b] Distance questions ask for a length in km between two points. A straight-line distance is measured directly; a curved distance has to follow the bends of a road, railway, river or walk.
+[geo-mapwork-s1.5.0] Straight-line distance: measure with a ruler in cm and multiply by 0.5 to get km, or lay a paper edge between the two points and read it against the scale bar. Give the answer in km to one decimal place.
+[geo-mapwork-s1.5.1] From two grid references: find the difference in eastings (ΔE) and the difference in northings (ΔN) in km, then distance = √(ΔE² + ΔN²). This is Pythagoras' theorem applied to the grid.
+[geo-mapwork-s1.5.2] Curved distance (a road, railway, river or walk): mark the start on the straight edge of a strip of paper, pivot the strip at each bend and mark as you go, then straighten it and measure against the scale bar. A string laid along the route also works.
+[geo-mapwork-s1.5.3] Start and stop exactly at the points named, such as where the road enters the map, a junction or a roundabout, so that the length is not too long or too short.
+[geo-mapwork-s1.5.4] Illustrative: the bridge at R 268 441 to the summit pillar at R 240 405 measures 9.1 cm, or 4.6 km (rounded); by grid, ΔE = 2.8 km and ΔN = 3.6 km, so √(2.8² + 3.6²) = √20.8 ≈ 4.6 km.
+[geo-mapwork-s1.5.5] Illustrative: the R990 from the town to the crossroads village measures 9.0 cm along its bends, or 4.5 km.
+[geo-mapwork-s1.6.b] Area is found by counting grid squares, because each 1 km square on a 1:50 000 map is 1 km². The method depends on whether the shape is a neat rectangle or irregular.
+[geo-mapwork-s1.6.0] Rectangular areas (the whole map, or the part north of a named northing or west of a named easting): count kilometres east–west × kilometres north–south; each 1 km square is 1 km².
+[geo-mapwork-s1.6.1] Irregular features (a lake, a bay, land above a contour): count the full squares; count squares more than half covered as full; ignore squares less than half covered, or estimate part-squares as fractions.
+[geo-mapwork-s1.6.2] Give the answer in km² and state that it is approximate, since counting part-squares is an estimate.
+[geo-mapwork-s1.6.3] Land on one side of a road or railway: count the squares on that side and estimate partly covered squares; exclude sea where the question asks for land.
+[geo-mapwork-s1.6.4] Illustrative: the whole extract is 14 km × 8 km = 112 km²; the land north of northing 44 is 14 km × 4 km = 56 km².
+[geo-mapwork-s1.6.5] Illustrative: an invented lake covering 3 full squares and 4 squares more than half covered is about 7 km².
+[geo-mapwork-s1.7.b] Direction questions ask which way you would travel between two places, or which way a feature runs. The map has a fixed north, so every answer is read against it.
+[geo-mapwork-s1.7.0] North is the top of the OS map (grid north). The eight compass points are N, NE, E, SE, S, SW, W and NW; sixteen points add NNE, ENE, ESE, SSE, SSW, WSW, WNW and NNW.
+[geo-mapwork-s1.7.1] Method: draw a line from the start point to the destination, imagine a compass centred on the start, and read the direction of travel.
+[geo-mapwork-s1.7.2] 'From A to B' means the direction of travel, read at A. Quick check: is B above or below A (north or south), and to the left or right (west or east)?
+[geo-mapwork-s1.7.3] Direction along a route (a walk, a road, a river's flow) is the overall direction from its start to its end. A river flows from its source on high ground to its mouth on low ground, which spot heights and contours show.
+[geo-mapwork-s1.7.4] Bearings (optional for Higher): the angle measured clockwise from north, from 0° to 360°; E = 090°, S = 180°, W = 270°.
+[geo-mapwork-s1.7.5] Illustrative: from the bridge at R 268 441 to the summit pillar at R 240 405, the pillar is 2.8 km west and 3.6 km south, so the direction of travel is south-west; from the pillar to the bridge it is north-east. The River Dallow flows towards the north-east.
+[geo-mapwork-s1.8.b] The OS map shows height with several devices. Contours are the main one, and you must be able to read a height from each.
+[geo-mapwork-s1.8.0] Contours are lines joining places of equal height above sea level. On the Discovery Series the vertical interval (the height difference between neighbouring contours) is 10 m, and some contours are numbered with their height.
+[geo-mapwork-s1.8.1] Spot heights are dots with the height in metres, which is useful for exact heights; triangulation pillars are survey points with their height; layer colouring (colour bands for ranges of height) is shown in the legend.
+[geo-mapwork-s1.8.2] Height of a point: read the spot height or pillar beside it, or the nearest numbered contour, and count contours up or down at 10 m each.
+[geo-mapwork-s1.8.3] The highest point on the map is the highest spot height or pillar; check the upland areas, because high ground is where the top height will be.
+[geo-mapwork-s1.9.b] The spacing of contours shows how steep the ground is, and the pattern of spacing gives the shape of the slope. This is how you recognise a slope type on the map.
+[geo-mapwork-s1.9.0] Contours close together mean a steep slope, because the ground rises 10 m over a short distance; contours far apart mean a gentle slope; a wide area with no contours is flat ground, such as a floodplain or coastal lowland.
+[geo-mapwork-s1.9.1] Even slope: contours are evenly spaced, so the gradient stays constant, as on a straight ramp.
+[geo-mapwork-s1.9.2] Concave slope: contours close together near the top and widely spaced near the bottom, so the slope is steep above and gentle below, and the whole slope can be seen from the top.
+[geo-mapwork-s1.9.3] Convex slope: contours widely spaced near the top and close together near the bottom, so the slope is gentle above and steep below, and the foot cannot be seen from the top.
+[geo-mapwork-s1.9.4] Stepped slope, for example a terraced hillside: alternating bands of close and wide contour spacing, which gives steep sections and flat sections in turn.
+[geo-mapwork-s1.10.b] Different relief features make distinct contour shapes. Learn the shape of each and you can name the feature from the contours alone.
+[geo-mapwork-s1.10.0] Valley: contours form V or U shapes pointing upstream (towards higher ground, where the river rises), with a river along the floor.
+[geo-mapwork-s1.10.1] Spur: a ridge of land sticking out from a hill, so water runs off it either side, with contours forming V shapes pointing downhill, towards lower ground.
+[geo-mapwork-s1.10.2] Plateau: a high, flat or gently sloping top with steep edges; contours crowd round the edge and are few on the top.
+[geo-mapwork-s1.10.3] Ridge: a long, narrow stretch of high ground, shown by elongated contours along its crest (the top line).
+[geo-mapwork-s1.10.4] Col or saddle: a low pass between two summits, shown as a dip between two high points, so it is a natural route across a range.
+[geo-mapwork-s1.10.5] Escarpment: a steep slope on one side and a gentle slope on the other, so contours are close on one side and wide on the other.
+[geo-mapwork-s1.10.6] Knoll or isolated hill: a closed ring of contours, because the ground falls away on every side.
+[geo-mapwork-s1.11.b] Gradient measures steepness as a number, aspect says which way a slope faces, and intervisibility asks whether two points can see each other. All three use the heights and distances on the map.
+[geo-mapwork-s1.11.0] Gradient is the steepness of a slope: vertical interval (VI, the difference in height) ÷ horizontal equivalent (HE, the ground distance), both in the same units, written as 1 in x or 1:x. A larger x means a gentler slope.
+[geo-mapwork-s1.11.1] Method: find the height of each point and subtract to get the VI; measure the distance on the map and convert it to metres for the HE; divide HE by VI. The result is an average gradient between the two points.
+[geo-mapwork-s1.11.2] Aspect is the direction a slope faces, which is the direction you look when facing downhill, not the uphill direction: a slope falling towards the south is south-facing, with a southerly aspect.
+[geo-mapwork-s1.11.3] In Ireland, south-facing slopes receive more sunshine and are warmer.
+[geo-mapwork-s1.11.4] Intervisibility: whether one point can be seen from another. A convex slope or intervening high ground blocks the view, so check with a cross-section (a side-on drawing of the ground between them).
+[geo-mapwork-s1.11.5] Illustrative: the summit at 512 m to the bridge at 52 m gives VI = 460 m; HE = 4.6 km = 4 600 m; gradient = 4 600 ÷ 460 = 1 in 10.
+[geo-mapwork-s1.12.b] A cross-section is a side-on view of the ground along a line between two points, built from the contours the line crosses. It shows the shape of the relief and lets you test slopes and views.
+[geo-mapwork-s1.12.0] 1. Join the two points with a straight line on the map.
+[geo-mapwork-s1.12.1] 2. Lay a straight paper edge along the line and mark where every contour crosses it, with its height, plus rivers, roads and other features.
+[geo-mapwork-s1.12.2] 3. Draw a horizontal axis the same length as the line (horizontal scale = map scale) and a vertical axis with a chosen height scale.
+[geo-mapwork-s1.12.3] 4. Plot each height above its mark and join the points with a smooth curve.
+[geo-mapwork-s1.12.4] 5. Label the rivers, roads, the summit, the slope types and the ends (X and Y, with grid references); give a title and both scales.
+[geo-mapwork-s1.12.5] Vertical exaggeration: the vertical scale is stretched so that relief shows, since otherwise the hills would look almost flat. It equals the horizontal scale distance ÷ the vertical scale distance for the same map length, and is stated in the title or key.
+[geo-mapwork-s1.12.6] Illustrative: a cross-section north from the summit to the river uses a horizontal scale of 1:50 000 (1 cm = 500 m) and a vertical scale of 1 cm = 50 m (1:5 000); vertical exaggeration = 500 m ÷ 50 m = ×10.
+[geo-mapwork-s1.12.7] Illustrative: the slope from the summit is concave, with contours crowded near the top and widely spaced near the river.
+[geo-mapwork-s1.13.b] In some questions the profile is already drawn for you. Your job is to match each labelled point on it to the map, then read facts off the map at that spot.
+[geo-mapwork-s1.13.0] A printed profile runs along a named easting or northing between points X and Y, with features labelled A to E; match each labelled point to the map by its distance along the line and its height.
+[geo-mapwork-s1.13.1] A river crossing is a dip in the profile, because the land falls to the river, with a blue line on the map at that spot.
+[geo-mapwork-s1.13.2] A road is identified by its number on the map, for example the N99 in the illustrative example below.
+[geo-mapwork-s1.13.3] The height at a point is read from the vertical axis or from the map, so cross-check one against the other.
+[geo-mapwork-s1.13.4] The slope type between two points (concave, convex, even, steep, gentle, flat) is read from the profile curve and the contours.
+[geo-mapwork-s1.13.5] Land use or forestry type is read from the map symbol at that point.
+[geo-mapwork-s1.13.6] A named walk, cycle route or tourist attraction crossing the line, and the townland (the smallest Irish land division) or place name at a point, are read from the map labels.
+[geo-mapwork-s1.13.7] Illustrative: along northing 42 from X (R 200 420) to Y (R 300 420), point A is a dip where the River Dallow crosses, B is on the N99, C is on coniferous plantation, and the slope between D and E is concave.
+[geo-mapwork-s1.14.b] Symbols are drawn or named by copying them from the legend, in proportion and in the legend's colour where colour is used. The legend is provided in the exam, so the skill is knowing its groups and reading it quickly.
+[geo-mapwork-s1.14.0] Legend groups: roads; railways and stations; water features; height; vegetation; antiquities; tourist and leisure information; public services; boundaries.
+[geo-mapwork-s1.14.1] Road letters: M = motorway; N = national road (national primary and national secondary routes); R = regional road. N stands for National and R for Regional, not 'route' or 'rural'.
+[geo-mapwork-s1.14.2] Vegetation: coniferous plantation (pointed, conifer-shaped tree symbols), deciduous woodland (rounded tree symbols) and mixed woodland (both); use the legend's terms.
+[geo-mapwork-s1.14.3] Symbols exams have asked students to draw or name: viewpoint, picnic site, parking, boating activities, triangulation pillar, ringfort, county boundary, wind farm, post office, youth or independent holiday hostel, golf course, camping site, electricity transmission line, waymarked walk and cycle route. Learn them from the legend.
+[geo-mapwork-s1.15.b] Antiquities are historic monuments, and the map labels each one. Some maps also mark a cultural area, so you should know how to spot it.
+[geo-mapwork-s1.15.0] Antiquities are grouped in the legend; name one exactly as the map labels it, e.g. 'Castle (in ruins)', 'Ringfort', 'Standing Stone', 'Megalithic Tomb', 'Church (in ruins)', 'Holy Well' or 'Motte'.
+[geo-mapwork-s1.15.1] Cultural areas: some maps mark a Gaeltacht (Irish-speaking area) boundary, which the legend identifies.
+[geo-mapwork-s1.15.2] Irish-language place names on the map are further evidence of a cultural area.
+[geo-mapwork-s1.16.b] A sketch is a ruled, labelled drawing of the features asked for, placed accurately on a frame. It is never a tracing.
+[geo-mapwork-s1.16.0] Higher asks for a sketch to half scale (20 marks): half the length and half the breadth of the extract. Ordinary asks for a sketch map of the area shown (30 marks); a frame of similar shape, about half size, is safest.
+[geo-mapwork-s1.16.1] Measure the extract, or count squares (each 2 cm square becomes 1 cm), and draw a frame with four ruled sides.
+[geo-mapwork-s1.16.2] Draw light pencil grid lines on the frame at the same eastings and northings (every 1 cm at half scale, or every second line) and label the edge numbers. These let you place features accurately.
+[geo-mapwork-s1.16.3] Draw a coastline as a firm line, so that it stands out from the grid lines; draw a river as a line between the named grid references, or along its entire course; draw broad rivers and lakes as outlined shapes.
+[geo-mapwork-s1.16.4] Draw roads and railways as lines along their entire route where asked; draw areas (land above a contour, plantation, built-up area, golf course) as shaded closed shapes; draw point features (post office, triangulation pillar, viewpoint, camping site) as a symbol or dot.
+[geo-mapwork-s1.16.5] 'Land above 300 m': follow the 300 m contour accurately round every part of the area asked for. 'Entire area' means all of it; 'at' or 'in the south-west of the map' means only that part.
+[geo-mapwork-s1.16.6] Label every feature on the sketch or in a key; an unlabelled feature earns nothing. Add a title, a north arrow and the words 'half scale'.
+[geo-mapwork-s1.16.7] Never trace the map. Draw only the features asked for, in the correct part of the frame, since a feature placed in the wrong part loses marks.
+[geo-mapwork-s1.17.b] Illustrative: the extract is 28 cm × 16 cm, so the frame is 14 cm × 8 cm, with grid lines every 1 cm. Here is how each requested feature of the invented Rivertown map is drawn and labelled.
+[geo-mapwork-s1.17.0] River Dallow, entire course: a line from its entry at R 200 402 in the south-west to its exit at R 340 470 in the north-east, following its meanders across the floodplain east of the town; label it.
+[geo-mapwork-s1.17.1] N99, entire route: a road line from the south-west to the north-east through the town; label it N99.
+[geo-mapwork-s1.17.2] Railway: a line with its station at R 272 445; label it.
+[geo-mapwork-s1.17.3] Built-up area of Rivertown: a shaded closed shape around the town centre and the housing estates on the northern edge, with the industrial estate on the N99 at the north-eastern edge; label it.
+[geo-mapwork-s1.17.4] Area above 300 m at Slievenagh: a shaded closed shape following the 300 m contour round the summit triangulation pillar at R 240 405; label it.
+[geo-mapwork-s1.18.b] A drainage pattern is the shape that a river and its tributaries (the smaller streams that join it) make on the map. Each pattern has a recognisable look, and the shape hints at the rock or land beneath.
+[geo-mapwork-s1.18.0] Dendritic: tree-like, with tributaries joining the main river at acute angles, on rock of uniform resistance (rock that wears away at the same rate everywhere).
+[geo-mapwork-s1.18.1] Trellised: tributaries join the main river at right angles, on alternating bands of hard and soft rock, so the streams follow the soft bands.
+[geo-mapwork-s1.18.2] Radial: streams flow outward in all directions from a central hill or mountain, because the water runs downhill every way, as the small streams do around the summit of Slievenagh.
+[geo-mapwork-s1.18.3] Centripetal: streams flow inward to a central lake or lowland, because that is the lowest ground.
+[geo-mapwork-s1.18.4] Deranged: no clear pattern, with many small lakes and marshes, on glacial deposits (material left by ice).
+[geo-mapwork-s1.18.5] Real examples, one clause each: trellised in the Munster ridge and valley; deranged in the Co. Cavan drumlin belt; centripetal at Lough Neagh.
+[geo-mapwork-s1.19.b] Fluvial landforms are those made by rivers. On the map each one has a clue, such as a loop, a flat area with no contours, or contours crowded across the river.
+[geo-mapwork-s1.19.0] V-shaped valley: the upland valley pattern given under landforms read from contours, with sharp contour Vs pointing upstream; the river runs along the floor.
+[geo-mapwork-s1.19.1] Meander: a river swinging in loops, such as those on a flat floodplain. Oxbow lake: a crescent-shaped lake beside a meandering river.
+[geo-mapwork-s1.19.2] Floodplain: wide and flat, with no contours, along a lowland river; often marshy.
+[geo-mapwork-s1.19.3] Levees: embankments (raised banks) along the channel, where the map shows them.
+[geo-mapwork-s1.19.4] Braiding: the river splits, so it looks like a plait, into several channels around islands.
+[geo-mapwork-s1.19.5] Confluence: the point where a tributary joins the main river, which you can see as a Y-shaped junction of blue lines.
+[geo-mapwork-s1.19.6] Delta: deposits where a river enters a lake or the sea.
+[geo-mapwork-s1.19.7] Waterfall: shown by a symbol or name, with contours crowded across the river.
+[geo-mapwork-s1.20.b] Glacial landforms were shaped by ice. They show up on the map as hollows, narrow ridges and groups of small hills, each with a distinctive contour shape.
+[geo-mapwork-s1.20.0] Corrie: an armchair-shaped hollow (the shape ice carves, with a steep back wall), with contours close on three sides and open downhill.
+[geo-mapwork-s1.20.1] Tarn: a small, round lake in a corrie, often high up.
+[geo-mapwork-s1.20.2] Arête: a narrow ridge with very close contours on both sides, because the ground falls steeply away either side.
+[geo-mapwork-s1.20.3] U-shaped valley: a broad, flat floor with steep sides, and contours close together on the valley sides.
+[geo-mapwork-s1.20.4] Ribbon lake: a long, narrow lake on the floor of a U-shaped valley.
+[geo-mapwork-s1.20.5] Drumlins: many small oval closed contour rings, often with small lakes between them.
+[geo-mapwork-s1.20.6] Esker: a long, narrow, winding ridge on lowland, so it stands out from the flat ground around it.
+[geo-mapwork-s1.21.b] Coastal landforms are found where land meets sea. Karst landforms belong to limestone country, where water drains underground. Both are recognised by their shapes, symbols and names.
+[geo-mapwork-s1.21.0] Beach: for example sand or shingle (small rounded stones) shading along the shore.
+[geo-mapwork-s1.21.1] Cliff: a cliff symbol, or contours crowded together at the coast, because the land drops steeply to the sea.
+[geo-mapwork-s1.21.2] Headland: land projecting into the sea, often high.
+[geo-mapwork-s1.21.3] Bay: a curved inlet of the sea, so the coastline bends inland.
+[geo-mapwork-s1.21.4] Sand spit (a narrow strip of sand built out from the coast), tombolo (a ridge joining an island to the mainland) and lagoon (a shallow pool cut off from the sea): identified by their shapes and names on the map.
+[geo-mapwork-s1.21.5] Sand dunes: shown by dune shading or a name.
+[geo-mapwork-s1.21.6] Swallow hole: a stream ends abruptly where it disappears underground; limestone areas have few surface streams.
+[geo-mapwork-s1.22.b] A lake's origin can usually be read from its shape and setting on the map, so questions ask you to give the type at a grid reference.
+[geo-mapwork-s1.22.0] Lake type at a grid reference: glacial (tarn or ribbon lake), fluvial (oxbow), coastal (lagoon) or artificial (reservoir, shown by a straight dam edge, a dam symbol or a 'Reservoir' label).
+[geo-mapwork-s1.23.b] Some Higher questions link the map to mass movement (the downhill movement of rock and soil), and ask you to find extremes of slope. Steepness comes from contour spacing.
+[geo-mapwork-s1.23.0] A very steep area is shown by crowded contours or cliffs; locate it with a six-figure grid reference.
+[geo-mapwork-s1.23.1] A very gentle area is shown by widely spaced contours; locate it with a six-figure grid reference.
+[geo-mapwork-s1.23.2] There is more on mass movement on steep ground in the rocks and weathering chapter.
+[geo-mapwork-s1.24.b] Settlement pattern means how buildings are arranged on the land. Three patterns appear on OS maps, and each has a look and a reason.
+[geo-mapwork-s1.24.0] Nucleated: buildings clustered at a crossroads, bridge, church or village, such as the crossroads village on the invented Rivertown map.
+[geo-mapwork-s1.24.1] Linear (ribbon): buildings strung along a road, sometimes a coast road or a valley floor, such as the houses along the R990 north of Rivertown.
+[geo-mapwork-s1.24.2] Dispersed: individual farmhouses scattered across farmland, each on its own land, so there is no cluster.
+[geo-mapwork-s1.24.3] Nucleated settlement forms around a route focus (where routes meet) or a service; linear settlement forms where a road gives access to services; dispersed settlement reflects farming and land consolidation (joining small plots into larger farms).
+[geo-mapwork-s1.24.4] Ribbon development on the approach roads to a town: linear housing spreads out along the main roads, because of cheaper rural sites, road access and services along the road.
+[geo-mapwork-s1.25.b] Houses are not spread evenly. Map evidence shows where people avoided building and where they chose to cluster, and each reason must be backed by that evidence.
+[geo-mapwork-s1.25.0] Absence from high land above about 200–300 m, which is cold, wet, exposed and has thin soils; give a four-figure grid reference and the map evidence.
+[geo-mapwork-s1.25.1] Absence on steep slopes, shown by crowded contours, because building and farming are difficult there.
+[geo-mapwork-s1.25.2] Absence on poorly drained land, shown by a marsh or bog symbol, and on floodplains liable to flooding, because houses there would be damp or flooded.
+[geo-mapwork-s1.25.3] Absence where forestry plantations cover the land, since the land is used for trees, and on lakes, because they cannot be built on.
+[geo-mapwork-s1.25.4] High density of settlement: give a four-figure grid reference for lowland, gently sloping, well-drained land near roads, a town or the coast.
+[geo-mapwork-s1.25.5] Explain each factor that favours high density: flat or gently sloping land, good drainage, road access, and nearness to a town or the coast.
+[geo-mapwork-s1.26.b] A variations question asks you to compare how settlement is spread in two parts of the map. Use the same set of factors for both parts so that the comparison is fair.
+[geo-mapwork-s1.26.0] A variations question (Higher, 30 marks) usually compares two contrasting parts of the map, e.g. north and south of a named northing.
+[geo-mapwork-s1.26.1] For each part, compare relief and height, drainage, the soils implied by the land use, communications (roads and rail), and the pull of a town or the coast.
+[geo-mapwork-s1.26.2] State each factor with a grid reference and explain it for both areas.
+[geo-mapwork-s1.26.3] Illustrative: settlement is nucleated at the crossroads village, linear along the R990 north of the town and dispersed in the north-west of the lowland; there is no settlement on Slievenagh above 300 m (R 23 40: high, steep, exposed, forestry) or on the floodplain east of the town (flood risk).
+[geo-mapwork-s1.27.b] Historic settlement questions ask you to name monuments on the map and say what period they belong to. The prehistoric period runs from the Stone Age to the Iron Age.
+[geo-mapwork-s1.27.0] Stone Age to Iron Age sites, such as megalithic tombs (stone-built burial monuments: court, portal or dolmen, passage and wedge tombs), standing stones, stone circles and cists (stone-lined graves).
+[geo-mapwork-s1.27.1] Also prehistoric: fulachta fia (Bronze Age cooking sites), promontory forts (forts on land jutting out into water) and crannógs (lake dwellings).
+[geo-mapwork-s1.27.2] Who lived there: early farming communities. Why the site was chosen: defence (promontory forts) and a lake (crannógs). What it shows: farming economy, and burial and ritual sites for religion.
+[geo-mapwork-s1.27.3] Illustrative: a megalithic tomb at R 225 412 and a standing stone at R 231 418.
+[geo-mapwork-s1.28.b] The early Christian (early medieval) period left many farmsteads and church sites. Several different map names point to the same kind of site.
+[geo-mapwork-s1.28.0] Early Christian (early medieval) sites include ringforts, also named rath, lios, dún, caher or cashel on the map; souterrains (underground passages); ecclesiastical (church-related) sites with churches and graveyards; holy wells; round towers; and high crosses.
+[geo-mapwork-s1.28.1] Ringforts were the farmsteads of the period, enclosed by an earth bank (stone in a cashel or caher).
+[geo-mapwork-s1.28.2] Ringforts belong to the early Christian period, not to the prehistoric or Norman periods.
+[geo-mapwork-s1.28.3] What it shows: a farming society, and the spread of Christianity, seen in churches, round towers and high crosses.
+[geo-mapwork-s1.28.4] Illustrative: a ringfort at R 255 430 and a church in ruins with its graveyard at R 262 446.
+[geo-mapwork-s1.29.b] The Normans were medieval invaders who built castles to hold land. Their sites are usually placed to guard something, such as a river crossing.
+[geo-mapwork-s1.29.0] Norman (medieval) sites include mottes and motte-and-bailey sites (earth mounds, with a walled yard in the second type), castles, town walls, abbeys and friaries, and towns at bridging points.
+[geo-mapwork-s1.29.1] Mottes are Norman sites; fulachta fia are Bronze Age, and ringforts are early Christian, so check the label before dating a site.
+[geo-mapwork-s1.29.2] Why the site was chosen: defence, and control of a river crossing, so that the Normans could hold the land around it.
+[geo-mapwork-s1.29.3] What it shows: Norman military control, and the religious life of the abbeys and friaries.
+[geo-mapwork-s1.29.4] Illustrative: a motte at R 280 436 and a castle in ruins at R 269 439, beside the bridge.
+[geo-mapwork-s1.30.b] The later periods leave planned towns, large estates and industrial and transport remains. Each tells you about how the country was organised and how it developed.
+[geo-mapwork-s1.30.0] Tower houses are fortified stone houses, built for protection; planned towns have a regular layout with a square or wide main street; demesnes are large houses with estate woodland.
+
+CANDIDATES geo-mapwork-s1: Map interpretation
+[geo-mapwork-s1.30.1] 19th and 20th century sites include canals, railways and stations, mills, coastguard stations, later housing and industrial estates.
+[geo-mapwork-s1.30.2] What it shows: the growth of planned towns and estates, and of transport and industry.
+[geo-mapwork-s1.31.b] Many Irish place names are built from Irish words that describe the land or what stood there. Knowing the elements helps you read the history and site of a place from its name.
+[geo-mapwork-s1.31.0] Settlement and building elements: baile/bally (townland or settlement), cill/kil (church), ráth/rath and lios/lis (ringfort), dún/dun (fort), cathair/caher (stone fort), áth/ath (ford), droichead (bridge).
+[geo-mapwork-s1.31.1] Land elements: cnoc/knock (hill), sliabh/slieve (mountain), ard (height), drom/drum (ridge), gleann/glen (valley), mullach/mullagh (summit).
+[geo-mapwork-s1.31.2] Water, vegetation and other elements: loch/lough (lake), inis/inch (island), cluain/clon (meadow), doire (oak wood), carraig/carrick (rock).
+[geo-mapwork-s1.31.3] Size elements: beag/beg (small), mór/more (big).
+[geo-mapwork-s1.31.4] Townlands are the smallest land division in Ireland; townland names are printed on OS maps, and exams ask which townland a point lies in.
+[geo-mapwork-s1.32.b] A 30-mark question asks for three reasons, each named, evidenced from the map with a grid reference and explained. Choose the three for which the map gives the clearest evidence.
+[geo-mapwork-s1.32.0] Bridging point: the town grew where a river could be crossed, and bridges and roads converge on it.
+[geo-mapwork-s1.32.1] Route focus: several N and R roads and a railway meet, so the town became a market and service centre.
+[geo-mapwork-s1.32.2] Defence: a castle, town walls, a hill or a river bend guards the site.
+[geo-mapwork-s1.32.3] River or coastal site: water supply, transport, power for mills, and a harbour or pier for trade and fishing.
+[geo-mapwork-s1.32.4] Flat or gently sloping lowland: easy to build on, with widely spaced contours.
+[geo-mapwork-s1.32.5] Fertile surrounding farmland: dispersed farms and no marsh, so the town serves as a market town for its hinterland (the area around it that it serves).
+[geo-mapwork-s1.32.6] Ecclesiastical origin: an abbey or early church site. Tourism: a coast, beaches, lakes or uplands attract visitors to the town.
+[geo-mapwork-s1.32.7] Illustrative: the bridging point is the bridge at R 268 441, with roads converging on it; the route focus is the N99, the R990 and the railway station at R 272 445; defence is the castle at R 269 439 and the motte at R 280 436, guarding the crossing.
+[geo-mapwork-s1.33.b] A function is a job a town does for its people and surroundings. Name each function, give the symbol or label and its grid reference, and explain it.
+[geo-mapwork-s1.33.0] Residential: built-up area and housing estates, because they show where people live.
+[geo-mapwork-s1.33.1] Market and retail: a route focus and a central square, because people gather where routes meet to buy and sell.
+[geo-mapwork-s1.33.2] Services: hospital, Garda station, post office, schools and courthouse, where labelled.
+[geo-mapwork-s1.33.3] Transport: railway station, bus routes and motorway junction, such as the Rivertown station at R 272 445.
+[geo-mapwork-s1.33.4] Industrial: industrial estate or factory labels, because they show where goods are made.
+[geo-mapwork-s1.33.5] Tourist and recreational: tourist information office, golf course, hostels, camping and caravan sites, marinas, viewpoints and walks.
+[geo-mapwork-s1.33.6] Port or fishing: pier, harbour and slipway, because boats land and load there.
+[geo-mapwork-s1.33.7] Ecclesiastical: churches and abbeys. Defensive in the past: castle.
+[geo-mapwork-s1.34.b] A town's layout records its history, with the oldest parts near the crossing point and newer parts at the edge.
+[geo-mapwork-s1.34.0] Old core, the first part to be built: narrow streets, a square, and a castle or abbey near the bridge.
+[geo-mapwork-s1.34.1] Newer edge, where there is more space: housing estates, industrial estates, a bypass or motorway with junctions, and ribbon development.
+[geo-mapwork-s1.35.b] Choose a site with a six-figure grid reference and give three reasons, each supported by map evidence.
+[geo-mapwork-s1.35.0] Flat land: widely spaced contours, because it is cheaper and easier to build on.
+[geo-mapwork-s1.35.1] Access: an N road, a motorway junction, a railway or a port, so that goods and workers can reach the site.
+[geo-mapwork-s1.35.2] Nearness to a town for labour, services and markets; space to expand; a site off the floodplain and away from protected or scenic areas.
+[geo-mapwork-s1.35.3] Wind farms need exposed high ground away from houses; hotels need to be near tourist attractions.
+[geo-mapwork-s1.35.4] State a disadvantage when asked, e.g. visual impact, traffic, loss of farmland or conflict with residents.
+[geo-mapwork-s1.36.b] Economic activities are the ways people earn a living, grouped as primary, secondary and tertiary. The map shows each through symbols and labels, and tourism can be judged from what the map offers visitors.
+[geo-mapwork-s1.36.0] Primary activity (using natural resources): forestry plantations, farming (shown by dispersed farms and field land), quarries and fishing piers.
+[geo-mapwork-s1.36.1] Secondary activity (making goods): industrial estates and factories, such as the industrial estate on the N99 at the north-eastern edge of Rivertown.
+[geo-mapwork-s1.36.2] Tertiary activity (providing services): services, tourism and transport, such as shops, hotels and railways.
+[geo-mapwork-s1.36.3] Each activity is evidenced by a map symbol or label and its grid reference.
+[geo-mapwork-s1.36.4] Tourism potential, accessibility and services, so that visitors can get there and stay: road access, parking, accommodation and tourist information.
+[geo-mapwork-s1.36.5] Tourism potential, attractions that draw visitors, such as antiquities, viewpoints, walks, cycle routes, beaches, lakes and golf courses.
+[geo-mapwork-s1.36.6] Each factor is evidenced with grid references and explained.
+[geo-mapwork-s1.37.b] Statistical maps show numbers on a map. The OS map links to them through its contours and its key.
+[geo-mapwork-s1.37.0] Contours are isolines (lines joining places of equal value), so they work like the lines on a weather map, the same kind of line used on isoline statistical maps, where the value is a statistic instead of height.
+[geo-mapwork-s1.37.1] Choropleth, dot, isoline, proportional-symbol and flow-line maps are taught in Graph skills; there is more on them there.
+[geo-mapwork-s1.38.b] Map questions fall into short questions, matching questions, sketch maps and long map-evidence questions. Short questions are worth Higher 2 marks each; Ordinary 3–5 marks, often tick-box.
+[geo-mapwork-s1.38.0] Short questions: a six-figure reference for a named building, road junction or exit point; the antiquity, public service or feature at a grid reference; the height of a spot height, pillar or highest point; the length of a road, motorway or railway; the straight-line distance between two points.
+[geo-mapwork-s1.38.1] Short questions also ask for the area of the whole map, of a lake or bay, of land above a contour, or of land east, west, north or south of a grid line or railway.
+[geo-mapwork-s1.38.2] More short questions ask for the direction of travel; the part of the map a feature lies in; the type of forestry; what N or R stands for; a legend symbol; a cultural area (Gaeltacht).
+[geo-mapwork-s1.38.3] Matching questions give features (such as a meander, a drumlin or a headland) to grid references, and ask for two drainage patterns, the type of lake or the aspect of a slope at a grid reference; elevation profile questions and true or false profile statements (Higher).
+[geo-mapwork-s1.38.4] Sketch maps: Higher 20 marks at half scale; Ordinary 30 marks; typically four or five features.
+[geo-mapwork-s1.38.5] 15-mark map-and-process question (Higher): name and locate two landforms with six-figure grid references and explain one; locate a very steep and a very gentle slope.
+[geo-mapwork-s1.38.6] 30-mark map-evidence questions: three reasons a town developed at its location; three rural settlement patterns; variations in settlement distribution; absence and high density of settlement.
+[geo-mapwork-s1.38.7] More 30-mark map-evidence questions: three phases of historic settlement; site suitability with a six-figure reference; economic activity and tourism potential.

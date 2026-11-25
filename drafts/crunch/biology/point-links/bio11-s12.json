@@ -1,0 +1,555 @@
+{
+ "bio11-s12.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.0.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio11-s12.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.1",
+    "strength": "helpful",
+    "why": "alleles of a gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.1",
+    "strength": "helpful",
+    "why": "alleles of a gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.2.0",
+    "strength": "helpful",
+    "why": "monohybrid cross prediction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.1",
+    "strength": "helpful",
+    "why": "alleles as gene versions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s12.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.5",
+    "strength": "essential",
+    "why": "single-gene trait",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.14.7",
+    "strength": "helpful",
+    "why": "carrier cross gives 1 in 4",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.1.0",
+    "strength": "helpful",
+    "why": "predicting risk from genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.14.2",
+    "strength": "helpful",
+    "why": "carriers of recessive allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.14.0",
+    "strength": "helpful",
+    "why": "cystic fibrosis is recessive",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.2",
+    "strength": "helpful",
+    "why": "recessive vs dominant alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.2",
+    "strength": "essential",
+    "why": "dominant allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s12.6.2",
+    "strength": "helpful",
+    "why": "sex-linked genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.13.0",
+    "strength": "essential",
+    "why": "test cross method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.2",
+    "strength": "helpful",
+    "why": "true-breeding means homozygous",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.2.1",
+    "strength": "helpful",
+    "why": "true-breeding varieties",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s12.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.3",
+    "strength": "essential",
+    "why": "independent assortment principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s12.0.1",
+    "strength": "essential",
+    "why": "segregation of alleles in gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s12.0.2",
+    "strength": "essential",
+    "why": "recessive alleles hidden by dominant",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.0",
+    "strength": "helpful",
+    "why": "single-gene disorders",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s12.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.3.2",
+    "strength": "essential",
+    "why": "test result identifies allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.5",
+    "strength": "helpful",
+    "why": "contrast with single-gene traits",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s12.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s12.4.0",
+    "strength": "essential",
+    "why": "polygenic traits",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s12.0.6",
+    "strength": "helpful",
+    "why": "discontinuous variation contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s12.4.0",
+    "strength": "helpful",
+    "why": "multiple genes affecting a trait",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s12.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.4.2",
+    "strength": "essential",
+    "why": "gene interaction",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s12.0.4",
+    "strength": "helpful",
+    "why": "simple Mendelian ratios",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s12.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.4.4",
+    "strength": "essential",
+    "why": "genotype plus environment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.4.4",
+    "strength": "essential",
+    "why": "genotype plus environment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.4.4",
+    "strength": "helpful",
+    "why": "environment affects phenotype",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s12.0.4",
+    "strength": "helpful",
+    "why": "Mendelian ratios",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.4.0",
+    "strength": "helpful",
+    "why": "many genes affect traits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.5.0",
+    "strength": "essential",
+    "why": "multifactorial risk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s4.1.0",
+    "strength": "essential",
+    "why": "epigenetics and gene expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.3",
+    "strength": "essential",
+    "why": "independent assortment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s12.0.2",
+    "strength": "essential",
+    "why": "dominance",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.2.4",
+    "strength": "helpful",
+    "why": "F2 generation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.1.6",
+    "strength": "helpful",
+    "why": "sex-linked genes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s12.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.1",
+    "strength": "helpful",
+    "why": "alleles",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s12.4.0",
+    "strength": "helpful",
+    "why": "polygenic contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s12.0.1",
+    "strength": "helpful",
+    "why": "alleles passed in gametes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s12.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.6.0",
+    "strength": "helpful",
+    "why": "ratio as prediction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.7.1",
+    "strength": "essential",
+    "why": "predictions are probabilities",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.6.4",
+    "strength": "helpful",
+    "why": "small samples vary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.7.1",
+    "strength": "helpful",
+    "why": "probability not certainty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s12.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.0.0",
+    "strength": "helpful",
+    "why": "Mendelian genetics scope",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s12.4.0",
+    "strength": "helpful",
+    "why": "complex traits",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s12.5.0",
+    "strength": "helpful",
+    "why": "common diseases multifactorial",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s12.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s12.4.0",
+    "strength": "helpful",
+    "why": "polygenic risk",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s12.4.4",
+    "strength": "helpful",
+    "why": "gene-environment interaction",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s12.5.2",
+    "strength": "helpful",
+    "why": "epigenetics",
+    "confidence": "high"
+   }
+  ]
+ }
+}

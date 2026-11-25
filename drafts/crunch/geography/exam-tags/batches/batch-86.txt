@@ -1,0 +1,272 @@
+QUESTION geography-pp-2023-higher-q122 (LC Geography Higher 2023 — Part Two — Q22, 80 marks)
+
+PART "22" (80 marks)
+MODEL ANSWER: Solar energy is transformed into other forms of energy at the earth's surface and in the air, and the atmosphere and oceans then redistribute it from the tropics towards the poles.
+
+Aspect 1 – Receipt and transformation of solar energy:
+Solar energy arrives as short-wave radiation, and about 1,361 W/m² reaches the top of the atmosphere, which is called the solar constant.
+Of 100 units of incoming radiation about 30 are reflected to space by clouds, the surface and scattering, so the earth's albedo is about 30%.
+About 20 units are absorbed by the atmosphere and clouds and about 50 units are absorbed by the land and ocean surface.
+Absorbed radiation becomes heat, called sensible heat, which warms the air by conduction and convection.
+Energy used to evaporate water from the oceans is stored as latent heat in water vapour and is released when the vapour condenses, which powers storms.
+Heat differences create pressure differences, which become the kinetic energy of wind and, through wind drag, of waves and currents.
+The earth gives off long-wave radiation, and greenhouse gases absorb and re-radiate part of it, so the average surface temperature is about 15 °C instead of about −18 °C.
+At the equator the sun's rays strike almost vertically and are concentrated on a small area, while at the poles low-angle rays spread over a larger area and pass through more atmosphere.
+So between the equator and about 35–40° north and south more energy is received than lost, and poleward of that more is lost than received.
+Without a poleward transfer the tropics would keep heating and the poles would keep cooling, so energy must be moved.
+
+Aspect 2 – Redistribution by the atmosphere:
+The atmosphere carries most of the heat moved poleward at mid and high latitudes, through its circulation cells and weather systems.
+In the Hadley cell, between 0° and 30°, air rises at the equator, forming the ITCZ, and releases latent heat as convectional rain.
+At height this air flows poleward and sinks at about 30°, forming the subtropical high pressure and deserts, and it returns to the equator as the trade winds.
+In the Ferrel cell, between 30° and 60°, surface westerlies carry warm air poleward to meet cold polar air at the polar front, at about 60°.
+In the polar cell polar air sinks at the poles and flows out as polar easterlies.
+The Coriolis force deflects these winds to the right in the northern hemisphere, which gives the south-westerly westerlies that carry warm air to Ireland.
+Most mid-latitude heat transfer is done by depressions forming along the polar front, where warm tropical maritime air from the south-west meets cold polar maritime air, and by the meandering jet stream.
+Water evaporated over warm tropical oceans carries latent heat poleward, and the heat is released where the vapour condenses, for example in a depression over Ireland.
+Tropical cyclones draw large quantities of heat and moisture from warm tropical oceans and carry them poleward.
+Ex-hurricane Ophelia formed in the east Atlantic near the Azores, became a hurricane and reached Ireland on 16 October 2017.
+
+Aspect 3 – Redistribution by the oceans:
+The oceans carry a large share of the heat moved poleward in the tropics, mainly through surface currents and the deep thermohaline circulation.
+Wind drag drives the surface currents, with the trade winds pushing equatorial currents westward and the westerlies pushing mid-latitude currents eastward, and the continents turn them into gyres that are clockwise in the northern hemisphere.
+Warm currents carry heat poleward along the western sides of ocean basins, such as the Gulf Stream, Kuroshio, Brazil, East Australian and Agulhas currents.
+The Gulf Stream starts in the Gulf of Mexico and the Straits of Florida and carries more water than all the world's rivers combined.
+The westerlies carry it across the Atlantic as the North Atlantic Drift towards Ireland, Britain and Norway.
+Norway's coast stays ice-free in winter, even at Hammerfest north of the Arctic Circle, because of the warm water of the North Atlantic Drift.
+Cold currents return cooled water towards the equator along the eastern sides of ocean basins, such as the Canary, Benguela, Humboldt and California currents.
+The coast of Labrador, at about the same latitude as Ireland, has long freezing winters and sea ice because the cold Labrador Current flows south past it.
+In the thermohaline circulation cold, salty, dense water sinks in the North Atlantic and around Antarctica and spreads through the deep ocean, and warm surface water flows in to replace it, so heat is carried slowly round the globe.
+Melting Greenland ice makes North Atlantic water fresher and less dense, and the IPCC judged in 2021 that this Atlantic circulation is very likely to weaken during the 21st century, which could cool north-west Europe.
+
+CANDIDATES (shortlist):
+[geo-option-atmosphere-ocean-s2.0.0] Solar energy arrives as short-wave radiation, mostly visible light with some ultraviolet and near-infrared. The sun is extremely hot, so it gives off short waves.
+[geo-option-atmosphere-ocean-s2.0.1] The much cooler earth gives off long-wave (infrared, heat) radiation. This difference between short-wave in and long-wave out is the basis of the greenhouse effect.
+[geo-option-atmosphere-ocean-s2.0.2] Insolation (short for incoming solar radiation) is the solar energy that reaches the earth. The solar constant, about 1,361 W/m², is the energy reaching the top of the atmosphere, and far less reaches the surface.
+[geo-option-atmosphere-ocean-s2.1.b] The syllabus says solar energy is transformed, meaning it changes form on its way through the system. Each change below is a separate step that an essay can name.
+[geo-option-atmosphere-ocean-s2.1.0] Radiant energy (energy carried by radiation) absorbed by surfaces becomes heat, called sensible heat because you can feel it and measure it with a thermometer.
+[geo-option-atmosphere-ocean-s2.1.1] Energy used to evaporate water is stored as latent heat (hidden heat) in water vapour, which later powers storms when the vapour condenses. There is more on this in Latent heat and tropical cyclones.
+[geo-option-atmosphere-ocean-s2.1.2] Heat differences create pressure differences, because warm air rises and cool air sinks. These become the kinetic energy (energy of movement) of wind and, through wind drag, of waves and currents.
+[geo-option-atmosphere-ocean-s2.2.b] Not all the sunlight arriving at the top of the atmosphere warms the ground. The heat budget below uses a rounded model of 100 units of incoming solar radiation, so the figures are approximate.
+[geo-option-atmosphere-ocean-s2.2.0] About 30 units are reflected back to space, mainly by clouds and also by the surface and by scattering; the earth's overall albedo (the share of radiation reflected) is therefore about 30% (0.3).
+[geo-option-atmosphere-ocean-s2.2.1] About 20 units are absorbed by the atmosphere and clouds, by ozone, water vapour, dust and clouds, so this energy warms the air directly.
+[geo-option-atmosphere-ocean-s2.2.2] About 50 units are absorbed by the land and ocean surface, which is why the ground, not the air, is the main heat source.
+[geo-option-atmosphere-ocean-s2.2.4] Diagram: a labelled flow diagram with incoming short-wave arrows split into reflected, absorbed by atmosphere and absorbed by surface, and outgoing long-wave, latent and sensible heat arrows.
+[geo-option-atmosphere-ocean-s2.3.b] Albedo is how shiny a surface is to sunlight. Light surfaces send most radiation back to space, while dark ones absorb it as heat.
+[geo-option-atmosphere-ocean-s2.3.0] Albedo is the proportion of radiation a surface reflects.
+[geo-option-atmosphere-ocean-s2.4.0] Long-wave radiation is emitted by the surface, as heat radiating out to the atmosphere and space.
+[geo-option-atmosphere-ocean-s2.4.1] Latent heat transfer (evaporation, which stores heat in water vapour) is the largest non-radiative loss, especially from oceans, because they cover so much of the earth and supply so much water to evaporate.
+[geo-option-atmosphere-ocean-s2.4.2] Sensible heat transfer moves heat by conduction (direct contact) to the air touching the ground, which then rises by convection (warm air rising in currents).
+[geo-option-atmosphere-ocean-s2.5.0] Water vapour, carbon dioxide, methane and other gases are largely transparent to incoming short-wave radiation, but they absorb outgoing long-wave radiation and re-radiate much of it back down.
+[geo-option-atmosphere-ocean-s2.5.1] This keeps the earth's average surface temperature at about 15 °C; without the natural greenhouse effect it would be about −18 °C.
+[geo-option-atmosphere-ocean-s2.6.2] The budget does not balance at each latitude. Between the equator and about 35–40° north and south more energy is received than is radiated away: this is the surplus.
+[geo-option-atmosphere-ocean-s2.6.3] Poleward of about 35–40° (towards the poles) more energy is lost than received: this is the deficit.
+[geo-option-atmosphere-ocean-s2.6.4] Without a poleward transfer the tropics would keep heating and the poles would keep cooling. Because they do not, energy must be moved.
+[geo-option-atmosphere-ocean-s2.7.0] At the equator the sun's rays strike nearly vertically, concentrating energy on a small area, so that area heats strongly.
+[geo-option-atmosphere-ocean-s2.7.1] Towards the poles the same beam strikes at a low angle and is spread over a larger area, so each square metre gets less energy.
+[geo-option-atmosphere-ocean-s2.8.b] A low sun angle has a second effect, because of the distance the rays travel through the air.
+[geo-option-atmosphere-ocean-s2.8.0] Low-angle rays pass through more atmosphere, so more energy is absorbed, scattered and reflected before it reaches the ground.
+[geo-option-atmosphere-ocean-s2.13.0] Warm currents raise coastal temperatures: the North Atlantic Drift, the extension of the Gulf Stream, keeps Ireland and Britain mild, so January isotherms bend sharply northward over the north-east Atlantic.
+[geo-option-atmosphere-ocean-s2.16.b] Aspect is the direction a slope faces. Small-scale factors can change temperature even where latitude and altitude are the same.
+[geo-option-atmosphere-ocean-s2.17.1] It lies mostly north of the geographical equator because the northern hemisphere has more land, and it moves north and south with the seasons, further over land than over sea.
+[geo-option-atmosphere-ocean-s2.18.4] The annual range is smallest at the equator and over oceans, and largest in high-latitude continental interiors.
+[geo-option-atmosphere-ocean-s2.19.b] The surplus at the equator and deficit at the poles are evened out because the atmosphere and the oceans carry heat poleward. This is the redistribution part of the syllabus statement.
+[geo-option-atmosphere-ocean-s2.19.0] Heat is transferred by the atmosphere (winds, depressions, which are areas of low pressure, and tropical cyclones) and by the oceans (surface currents and the deep thermohaline circulation, driven by differences in water temperature and salt).
+[geo-option-atmosphere-ocean-s2.19.1] Together they move heat from the surplus belt to the deficit belt. The atmosphere carries most of it at mid and high latitudes, and the oceans carry a large share in the tropics.
+[geo-option-atmosphere-ocean-s2.20.b] A cell is a closed loop of moving air. The three-cell model has one loop in each band of latitude, and the Hadley cell, nearest the equator, is the first.
+[geo-option-atmosphere-ocean-s2.20.0] Intense heating at the equator makes air rise, creating low pressure and the ITCZ (the Inter-Tropical Convergence Zone, where the winds meet); the air cools and releases latent heat as convectional rain.
+[geo-option-atmosphere-ocean-s2.20.1] At height the air flows poleward, sinks at about 30° to form the subtropical high pressure and deserts, and returns to the equator as the trade winds, carrying heat poleward at height.
+[geo-option-atmosphere-ocean-s2.20.2] The cell is named after George Hadley, who proposed in 1735 that the trade winds came from heated air rising at the equator.
+[geo-option-atmosphere-ocean-s2.21.b] Further from the equator, two more cells continue the transfer of heat towards the poles.
+[geo-option-atmosphere-ocean-s2.21.0] The Ferrel cell (30–60°): surface westerlies carry warm air poleward to meet cold polar air at the polar front, at about 60°.
+[geo-option-atmosphere-ocean-s2.21.1] The polar cell (60–90°): polar air sinks at the poles, forming the polar high, and flows out as polar easterlies.
+[geo-option-atmosphere-ocean-s2.21.2] Most mid-latitude heat transfer is done by depressions and anticyclones (areas of high pressure) forming along the polar front and by the meandering jet stream (a fast, high-altitude wind). There is more on this in Atmospheric and oceanic circulation.
+[geo-option-atmosphere-ocean-s2.22.0] Water evaporated over warm tropical oceans carries latent heat poleward; the heat is released where the vapour condenses, for example in a depression over Ireland.
+[geo-option-atmosphere-ocean-s2.22.1] Tropical cyclones (hurricanes) draw large quantities of heat and moisture from tropical oceans and carry them poleward.
+[geo-option-atmosphere-ocean-s2.22.2] Ex-hurricane Ophelia began as a hurricane in the tropical Atlantic and reached Ireland on 16 October 2017. There is more on this in Weather maps and weather data.
+[geo-option-atmosphere-ocean-s2.23.b] Ocean currents are large streams of water moving in set paths. Warm currents move heat poleward and cold currents move cooled water back towards the equator, in a pattern that follows the sides of the ocean basins.
+[geo-option-atmosphere-ocean-s2.23.0] Warm currents carry heat poleward along the western sides of ocean basins: the Gulf Stream, Kuroshio, Brazil Current, East Australian Current and Agulhas Current.
+[geo-option-atmosphere-ocean-s2.23.1] Cold currents return cooled water towards the equator along the eastern sides of ocean basins: the Canary, Benguela, Humboldt (Peru) and California currents, and the Labrador Current.
+[geo-option-atmosphere-ocean-s2.23.2] The Gulf Stream flows from the Gulf of Mexico and the Straits of Florida north-east along the US east coast and across the Atlantic; it carries more water than all the world's rivers combined.
+[geo-option-atmosphere-ocean-s2.23.3] Off Europe the Gulf Stream is called the North Atlantic Drift. It reaches the eastern side of the Atlantic at high latitude, so it is the exception to the rule that warm currents lie on western sides.
+[geo-option-atmosphere-ocean-s2.24.0] The thermohaline circulation, the global conveyor belt, is driven by cold, salty, dense water that sinks in the North Atlantic and around Antarctica and spreads through the deep ocean.
+[geo-option-atmosphere-ocean-s2.24.1] Warm surface water flows in to replace the sinking water, so heat is carried slowly round the globe over centuries. Detail is in Atmospheric and oceanic circulation.
+[geo-option-atmosphere-ocean-s2.25.b] If heat were not moved, the equator would keep heating and the poles cooling. Two contrasting coasts show currents at work.
+[geo-option-atmosphere-ocean-s2.25.0] Norway's coast stays ice-free in winter, even north of the Arctic Circle (Hammerfest), and Murmansk, Russia, is an ice-free Arctic port, because of the warm water of the North Atlantic Drift.
+[geo-option-atmosphere-ocean-s2.25.1] The coast of Labrador, Canada, at about the same latitude as Ireland, has long, freezing winters and sea ice, because the cold Labrador Current flows south past it.
+[geo-option-atmosphere-ocean-s2.26.1] A weaker Atlantic circulation could change Europe's climate.
+[geo-option-atmosphere-ocean-s4.0.2] Coriolis force: because the Earth rotates, moving air is deflected to the right in the northern hemisphere and to the left in the southern hemisphere.
+[geo-option-atmosphere-ocean-s4.0.6] Diagram: a globe with arrows showing the Coriolis deflection to the right in the northern hemisphere and to the left in the southern hemisphere.
+[geo-option-atmosphere-ocean-s4.2.0] Wind drag: prevailing winds (the winds that blow most often from one direction) blowing over the sea surface drive the surface currents. The trade winds push the equatorial currents westward, and the westerlies push the mid-latitude currents eastward.
+[geo-option-atmosphere-ocean-s4.2.4] Density differences: colder and saltier water is denser and sinks, while warmer and fresher water rises or spreads at the surface. This drives the deep thermohaline circulation (the slow ocean circulation driven by temperature and salt differences).
+[geo-option-atmosphere-ocean-s4.3.2] Subpolar lows at about 60° north and south: the polar front (where cold polar air meets warm tropical air), where depressions form.
+[geo-option-atmosphere-ocean-s4.4.1] Westerlies blow from the subtropical highs towards the subpolar lows: south-westerly in the northern hemisphere and north-westerly in the southern hemisphere.
+[geo-option-atmosphere-ocean-s4.4.2] Polar easterlies blow from the polar highs towards the subpolar lows, because air always flows from high to low pressure.
+[geo-option-atmosphere-ocean-s4.5.2] Polar cell: a thermal cell in which cold, dense air sinks at the poles.
+[geo-option-atmosphere-ocean-s4.6.1] The shift is greater over continents than over oceans, because land heats and cools faster than sea.
+[geo-option-atmosphere-ocean-s4.7.2] The polar front jet stream meanders in large waves, called Rossby waves, and steers depressions.
+[geo-option-atmosphere-ocean-s4.8.1] The North Atlantic Oscillation (NAO) is the seesaw of pressure between these two systems. It controls the strength of the westerlies.
+[geo-option-atmosphere-ocean-s4.9.0] Tropical maritime: comes from the Atlantic near the Azores. It is warm, moist and mild, with cloud and drizzle.
+[geo-option-atmosphere-ocean-s4.9.2] Arctic maritime: comes from the Arctic. It is cold, with snow showers in the north and west in winter.
+[geo-option-atmosphere-ocean-s4.10.0] Gyres are large, circular systems of surface currents, driven by wind, the Coriolis effect and the continents.
+[geo-option-atmosphere-ocean-s4.10.1] Gyres turn clockwise in northern hemisphere oceans and anticlockwise in southern hemisphere oceans, because the Coriolis effect deflects water right in the north and left in the south.
+[geo-option-atmosphere-ocean-s4.11.1] The current turns north as the Gulf Stream along the North American coast, because the land blocks its westward path.
+[geo-option-atmosphere-ocean-s4.11.2] The Gulf Stream starts in the Gulf of Mexico and the Straits of Florida, and it carries more water than all the world's rivers combined.
+[geo-option-atmosphere-ocean-s4.11.3] The westerlies carry the Gulf Stream north-east across the Atlantic as the North Atlantic Drift, towards Ireland, Britain and Norway.
+[geo-option-atmosphere-ocean-s4.11.6] The cold Labrador Current flows south from the Arctic between Greenland and Canada.
+[geo-option-atmosphere-ocean-s4.12.0] The North Atlantic Drift gives Ireland mild winters. It also keeps ports ice-free, and the Norwegian coast stays ice-free at Hammerfest and Murmansk, while Labrador's coast is frozen.
+[geo-option-atmosphere-ocean-s4.12.1] Warm sea adds moisture and energy to Atlantic depressions (low-pressure systems that bring rain and wind).
+[geo-option-atmosphere-ocean-s4.12.3] Icebergs are carried south in the Labrador Current. The Titanic sank on 15 April 1912 after hitting an iceberg south of Newfoundland.
+[geo-option-atmosphere-ocean-s4.13.0] Warm western-boundary currents carry warm water away from the tropics along the western sides of ocean basins, such as the Kuroshio, Brazil, East Australian and Agulhas currents.
+[geo-option-atmosphere-ocean-s4.13.1] Cold eastern-boundary currents bring cold water towards the equator along the eastern sides of ocean basins, such as the California, Humboldt and Benguela currents.
+[geo-option-atmosphere-ocean-s4.15.1] The deep water flows slowly south through the Atlantic, round Antarctica and into the Indian and Pacific Oceans.
+[geo-option-atmosphere-ocean-s4.15.4] The Atlantic Meridional Overturning Circulation (AMOC) is the Atlantic part of this system. It pulls the Gulf Stream's warm water north, because sinking water in the north draws surface water towards it.
+[geo-option-atmosphere-ocean-s4.16.0] Melting Greenland ice and more rain make North Atlantic water fresher and less dense. It may then sink less, and the AMOC may weaken.
+[geo-option-atmosphere-ocean-s4.16.1] The IPCC (AR6, 2021) judged that the AMOC is very likely to weaken over the 21st century, because of the fresher water.
+[geo-option-atmosphere-ocean-s4.16.2] A weaker AMOC could cool north-west Europe relative to the rest of the world and change rainfall patterns.
+[geo-option-atmosphere-ocean-s4.18.0] 1. At the polar front, cold polar maritime air from the north meets warm, moist tropical maritime air from the south-west, and the two move in opposite directions.
+[geo-option-atmosphere-ocean-s4.18.3] 4. A warm front forms ahead of the warm air and a cold front forms behind it, with the warm sector between them. The system deepens (pressure falls) as more warm air rises and latent heat (heat released when water vapour condenses) is released.
+[geo-option-atmosphere-ocean-s4.20.5] Storms named by Met Éireann include ex-hurricane Ophelia (16 October 2017) and Storm Éowyn (24 January 2025, when Red wind warnings were issued).
+[geo-option-atmosphere-ocean-s4.21.0] An anticyclone is an area of high pressure with widely spaced, closed isobars. It has light winds blowing clockwise outwards in the northern hemisphere, and no fronts.
+[geo-option-atmosphere-ocean-s4.26.2] The air that rose returns seaward at height and sinks over the sea, completing a circulation cell.
+[geo-option-atmosphere-ocean-s4.30.0] Slopes lose heat by radiation. Air in contact with them cools, becomes denser and drains downslope under gravity, collecting on the valley floor.
+[geo-option-atmosphere-ocean-s4.32.2] Both winds pour from high ground towards the sea, usually when high pressure lies inland and low pressure lies over the sea, because air flows from high to low pressure.
+[geo-option-atmosphere-ocean-s4.34.0] 1. Cumulus (developing) stage: warm, moist air rises in strong updrafts. Condensation releases latent heat, which keeps the air warmer than its surroundings so that it rises faster. Cloud grows above the freezing level, but there is no rain yet.
+[geo-option-atmosphere-ocean-s4.37.b] Thunderstorms need heat and moisture, so they cluster in the warm, wet tropics and thin out towards the poles.
+[geo-option-atmosphere-ocean-s4.39.b] Warm sea feeds a tropical cyclone with moisture and heat. The result is a ring of violent storms round a calm centre.
+[geo-option-atmosphere-ocean-s4.40.0] For example, a hurricane forms in the Atlantic and north-east Pacific.
+
+========================================
+
+QUESTION geography-pp-2023-higher-q123 (LC Geography Higher 2023 — Part Two — Q23, 80 marks)
+
+PART "23" (80 marks)
+MODEL ANSWER: Atmospheric and oceanic phenomena are measured by standard instruments and networks, and these measurements are essential for forecasting, safety, the economy and climate science.
+
+Aspect 1 – Measuring temperature and pressure:
+Temperature and pressure are measured with standard thermometers and barometers.
+A liquid-in-glass thermometer uses mercury or alcohol, which expands and rises up a narrow tube as it warms.
+Six's maximum-minimum thermometer uses small metal indexes that are pushed to the highest and lowest points reached, and it is read once a day and reset with a magnet.
+Thermometers are kept in a Stevenson screen about 1.25 m above the ground, which is white, louvred and has its door facing away from the sun, so readings are true shade air temperatures.
+A mercury barometer works because the weight of the atmosphere supports a column of mercury in a glass tube, and the column rises as pressure rises.
+An aneroid barometer has a sealed, partly emptied metal capsule that is squeezed as pressure rises and expands as it falls, and levers move a needle on a dial, so it is portable.
+A barograph links an aneroid barometer to a pen that draws a continuous record on a rotating drum, which shows the trend of rising or falling pressure that matters most in forecasting.
+Pressure is measured in hPa, with an average of about 1013 hPa, and readings are corrected to mean sea level so that stations at different heights can be compared and isobars drawn.
+
+Aspect 2 – Measuring wind and humidity:
+Wind and humidity are measured with an anemometer, a wind vane and a wet-and-dry bulb hygrometer.
+A cup anemometer has three or four cups on arms that spin faster as wind speed rises, and the turns are counted electrically and converted to speed.
+The standard height for measuring surface wind is 10 m above open ground, away from buildings and trees.
+A wind vane has a large tail that is pushed downwind, so its pointer faces the direction the wind blows from.
+Wind is always named from the direction it comes from, and windsocks show wind direction and strength at airports.
+In a wet-and-dry bulb hygrometer the wet bulb is wrapped in wet muslin, and evaporation cools it so it reads lower than the dry bulb.
+The drier the air, the faster the evaporation and the bigger the difference between the two readings, called the wet bulb depression, and if both read the same the air is saturated.
+Relative humidity, given as a percentage, is read from tables using the dry bulb reading and the difference between the two, and a hair hygrometer uses human hair that lengthens in humid air.
+
+Aspect 3 – Measuring the oceans and upper air:
+Oceans and the upper atmosphere are measured by buoys, floats, balloons and satellites.
+Moored weather buoys record air pressure, air and sea temperature, wind, wave height and humidity, and the Irish Marine Data Buoy Observation Network, run by the Marine Institute with Met Éireann, moors such buoys off the Irish coast.
+Argo floats drift at depth, rise periodically to the surface and measure temperature and salinity down to about 2,000 m before transmitting by satellite, and about 4,000 floats now drift in the world's oceans.
+Research ships lower CTD instruments, which measure conductivity, temperature and depth, to sample salinity and temperature at depth.
+Tide gauges and satellite altimeters measure sea level.
+Weather balloons carry radiosondes that measure temperature, humidity and pressure and radio them back, and tracking the balloon gives the upper winds.
+Balloons are launched daily from stations including Valentia Observatory, Co. Kerry, which has one of the longest weather records in Ireland.
+Geostationary and polar-orbiting weather satellites measure cloud, sea-surface temperature, water vapour and ice, and rainfall radar detects precipitation from the echo returned by raindrops.
+
+Aspect 4 – Importance of the measurements:
+These measurements matter because forecasts, warnings, businesses and climate science all depend on them.
+Observations are the starting point for computer forecast models, so more and better observations give better forecasts.
+Storm, rain, snow and heat warnings, including Met Éireann's colour codes, save lives and property.
+Aviation needs wind, visibility, icing and pressure for altimeter settings, and shipping and fishing need sea area forecasts and wave heights from buoys.
+Farmers time silage and hay making, spraying, sowing and harvesting by the forecast, and frost warnings protect crops.
+Wind measurements are used to site wind farms and predict their output, and temperature forecasts predict electricity and gas demand.
+Long, consistent records, such as the carbon dioxide record measured at Mauna Loa, Hawaii, since 1958, show trends such as global warming and sea-level rise and are the evidence used by the IPCC.
+Buoy and Argo data on sea temperature and salinity track El Niño, ocean heat content and the Atlantic circulation, and they improve seasonal forecasts.
+
+CANDIDATES (shortlist):
+[geo-option-atmosphere-ocean-s1.0.b] The atmosphere (the envelope of gases around the earth) and the oceans are not separate. They swap heat, water, gases and momentum (movement), so a change in one alters the other.
+[geo-option-atmosphere-ocean-s1.1.2] The ocean has absorbed over 90% of the extra heat trapped by global warming, according to the IPCC (the Intergovernmental Panel on Climate Change, the international body that assesses climate science). This shows how large its heat store is.
+[geo-option-atmosphere-ocean-s1.4.3] Carbon dioxide has been measured continuously at Mauna Loa, Hawaii, since 1958. The record, known as the Keeling Curve, was begun by Charles David Keeling.
+[geo-option-atmosphere-ocean-s1.5.1] Pressure (the weight of the air pressing down) therefore falls with altitude, because less air lies above; about half the mass of the atmosphere lies below about 5.5 km.
+[geo-option-atmosphere-ocean-s1.6.0] Diagram: draw a vertical profile with height in km on the vertical axis, label the four layers and the three pauses, and add the temperature line, which falls, rises, falls and rises again.
+[geo-option-atmosphere-ocean-s1.7.b] The troposphere is the lowest layer and the one we live in. It is where weather happens.
+[geo-option-atmosphere-ocean-s1.12.b] Seawater is salty, and salinity is the measure of how salty. It is one of the main physical and chemical characteristics of the oceans.
+[geo-option-atmosphere-ocean-s1.12.0] Salinity is the dissolved salt content of seawater: about 35 parts per thousand on average, or 35 g of salt per kg.
+[geo-option-atmosphere-ocean-s1.13.4] When sea ice forms it leaves its salt behind, so the water beneath becomes saltier and denser; this feeds the thermohaline circulation (the deep ocean circulation driven by differences in temperature and salt). There is more on this in Atmospheric and oceanic circulation.
+[geo-option-atmosphere-ocean-s1.14.1] The thermocline is the layer where temperature falls rapidly with depth.
+[geo-option-atmosphere-ocean-s1.15.b] How dense seawater is decides whether it sinks or floats, and density depends on temperature and salinity.
+[geo-option-atmosphere-ocean-s1.16.1] It has absorbed roughly a quarter of the carbon dioxide released by human activity. This slows global warming but makes the water more acidic (ocean acidification), which harms corals and shellfish.
+[geo-option-atmosphere-ocean-s1.17.b] To observe the atmosphere and oceans you need readings from many places at the same moment. Observing networks provide them.
+[geo-option-atmosphere-ocean-s1.17.1] Other sources include ships, buoys, aircraft, weather balloons, radar and satellites.
+[geo-option-atmosphere-ocean-s1.17.2] Met Éireann (the Irish national weather service) collects the Irish data. There is more on this in Weather maps and weather data.
+[geo-option-atmosphere-ocean-s1.18.b] Temperature is measured by several instruments, each suited to a different job, and a screen keeps the readings honest.
+[geo-option-atmosphere-ocean-s1.18.0] A liquid-in-glass thermometer uses mercury or alcohol, which expands and rises up a narrow tube as it warms.
+[geo-option-atmosphere-ocean-s1.18.1] A maximum-minimum thermometer, Six's thermometer, uses small metal indexes (markers) that are pushed up to the highest and lowest points reached and stay there until reset with a magnet; it is read once a day and then reset. James Six invented it in 1782.
+[geo-option-atmosphere-ocean-s1.18.2] Electronic thermometers in automatic stations use sensors whose electrical resistance changes with temperature; a thermograph gives a continuous trace.
+[geo-option-atmosphere-ocean-s1.18.3] Thermometers sit in a Stevenson screen (a ventilated white box) about 1.25 m above the ground. It is white to reflect sunlight, louvred (slatted) to let air circulate, and mounted on legs above grass.
+[geo-option-atmosphere-ocean-s1.18.4] The Stevenson screen's door faces away from direct sun (north in Ireland), so readings are true shade air temperatures.
+[geo-option-atmosphere-ocean-s1.18.5] A grass minimum thermometer, laid just above short grass, measures ground frost.
+[geo-option-atmosphere-ocean-s1.19.b] Air pressure is the weight of the air above, and two types of barometer measure it in different ways.
+[geo-option-atmosphere-ocean-s1.19.0] A mercury barometer: the weight of the atmosphere supports a column of mercury in a glass tube, and the column rises as pressure rises. Evangelista Torricelli invented it in 1643.
+[geo-option-atmosphere-ocean-s1.19.1] An aneroid barometer (aneroid means without liquid) uses a sealed, partly emptied metal capsule that is squeezed in as pressure rises and expands as it falls; levers move a needle on a dial. It is portable, so it is used in homes and on ships.
+[geo-option-atmosphere-ocean-s1.19.2] A barograph links an aneroid to a pen that draws a continuous record on a rotating drum; the trend of rising or falling pressure matters most in forecasting.
+[geo-option-atmosphere-ocean-s1.19.3] Electronic pressure sensors are used in automatic stations.
+[geo-option-atmosphere-ocean-s1.19.4] Readings are corrected to mean sea level so that stations at different heights can be compared and isobars (lines joining places of equal pressure) drawn. Pressure is measured in hPa (hectopascals, equal to mb), with an average of about 1013 hPa.
+[geo-option-atmosphere-ocean-s1.20.b] Wind speed is measured by an anemometer, standing at a standard height so that readings can be compared.
+[geo-option-atmosphere-ocean-s1.20.0] A cup anemometer has three or four cups on arms that spin faster as wind speed rises; the turns are counted electrically and converted to speed.
+[geo-option-atmosphere-ocean-s1.20.2] The WMO standard height for surface wind is 10 m above open ground, away from buildings and trees, which would shelter the instrument and lower its readings.
+[geo-option-atmosphere-ocean-s1.20.3] Speed is given in km/h, knots or m/s, and gusts (short bursts of stronger wind) are recorded separately from mean speed. Without instruments, speed is estimated using the Beaufort scale.
+[geo-option-atmosphere-ocean-s1.21.b] Wind direction is the way the wind blows from, and it is shown by a vane or a windsock.
+[geo-option-atmosphere-ocean-s1.21.0] A wind vane has a large tail that is pushed downwind, so its pointer faces the direction the wind blows from; direction is read against compass points or degrees.
+[geo-option-atmosphere-ocean-s1.21.1] Windsocks show wind direction and strength at airports.
+[geo-option-atmosphere-ocean-s1.21.2] Wind is always named from the direction it comes from, so a westerly wind blows from the west.
+[geo-option-atmosphere-ocean-s1.22.b] Humidity is the amount of water vapour in the air. The wet-and-dry bulb hygrometer measures it by using evaporative cooling.
+[geo-option-atmosphere-ocean-s1.22.0] A wet-and-dry bulb hygrometer (psychrometer) has two thermometers side by side. The wet bulb is wrapped in muslin (thin cloth) kept wet from a water reservoir; evaporation from the muslin cools it, so it reads lower than the dry bulb.
+[geo-option-atmosphere-ocean-s1.22.1] The drier the air, the faster the evaporation and the bigger the difference, called the wet bulb depression. If both thermometers read the same, the air is saturated (holding all the vapour it can).
+[geo-option-atmosphere-ocean-s1.22.2] Relative humidity, given as a percentage, is read from tables using the dry bulb reading and the difference between the two readings.
+[geo-option-atmosphere-ocean-s1.22.3] A hair hygrometer uses human hair, which lengthens in humid air and shortens in dry air, to move a pointer.
+[geo-option-atmosphere-ocean-s1.22.4] Automatic stations use electronic (capacitance) sensors.
+[geo-option-atmosphere-ocean-s1.23.0] Rain gauge: a funnel of standard size, set in open ground with its rim raised above the surface to avoid splash, collects rain into a measuring cylinder that is read in mm each day; tipping-bucket gauges record automatically.
+[geo-option-atmosphere-ocean-s1.24.b] Weather also has to be measured high above the ground, where ground instruments cannot reach.
+[geo-option-atmosphere-ocean-s1.24.0] Weather balloons carry radiosondes, small instrument packs that measure temperature, humidity and pressure and radio them back; tracking the balloon gives the upper winds.
+[geo-option-atmosphere-ocean-s1.24.1] Balloons are launched twice a day, at fixed times, from stations worldwide, including Valentia Observatory, Co. Kerry, which has one of the longest weather records in Ireland, dating from the 19th century.
+[geo-option-atmosphere-ocean-s1.24.2] Aircraft also report temperature and wind automatically.
+[geo-option-atmosphere-ocean-s1.25.b] Remote sensing means measuring from a distance, without touching the thing measured.
+[geo-option-atmosphere-ocean-s1.25.0] Geostationary (fixed over one spot) and polar-orbiting (passing over the poles) weather satellites measure cloud, sea-surface temperature, water vapour and ice. There is more on this in Satellite imagery.
+[geo-option-atmosphere-ocean-s1.25.1] Rainfall radar detects precipitation from the echo returned by raindrops.
+[geo-option-atmosphere-ocean-s1.26.b] Ocean measurements come from instruments floating on, drifting in and orbiting above the sea. Together they supply the data on the ocean side of the linked system.
+[geo-option-atmosphere-ocean-s1.26.0] Moored weather buoys (anchored floating stations) record air pressure, air and sea temperature, wind, wave height and humidity, and transmit the readings, hourly. The Irish Marine Data Buoy Observation Network, run by the Marine Institute with Met Éireann, moors such buoys off the Irish coast.
+[geo-option-atmosphere-ocean-s1.26.1] Drifting buoys follow ocean currents, and voluntary observing ships report weather at sea.
+[geo-option-atmosphere-ocean-s1.26.2] Argo floats drift at depth, rise to the surface every 10 days or so, and measure temperature and salinity down to about 2,000 m before transmitting by satellite. The Argo programme began in 2000, and about 4,000 floats now drift in the world's oceans.
+[geo-option-atmosphere-ocean-s1.26.3] Tide gauges and satellite altimeters (instruments that measure height from space) measure sea level; satellites also measure sea-surface temperature and sea ice.
+[geo-option-atmosphere-ocean-s1.26.4] Research ships lower CTD instruments (conductivity, temperature, depth) to sample salinity and temperature at depth.
+[geo-option-atmosphere-ocean-s1.27.0] Instruments must be correctly sited: in an open place, at the standard height, shaded for thermometers and away from buildings and heated surfaces, which would distort the readings.
+[geo-option-atmosphere-ocean-s1.27.1] Instruments must be regularly calibrated (checked against a standard), read at the same times each day, and long records kept at the same site, so the record stays consistent.
+[geo-option-atmosphere-ocean-s1.28.b] Measurements are collected because they are used. Each use below is a separate reason, from forecasting and safety to farming, energy and climate science.
+[geo-option-atmosphere-ocean-s1.28.0] Forecasting: observations are the starting point (initial conditions) for computer forecast models, and more and better observations give better forecasts.
+[geo-option-atmosphere-ocean-s1.28.1] Warnings: storm, rain, snow and heat warnings, including Met Éireann's colour codes, save lives and property. There is more on this in Weather maps and weather data.
+[geo-option-atmosphere-ocean-s1.28.2] Storm surge (sea level raised by a storm) and flood warnings are issued, and tropical cyclones are tracked; a falling barograph trace warns of an approaching depression (a low-pressure weather system).
+[geo-option-atmosphere-ocean-s1.28.3] Aviation needs wind, visibility, icing and pressure for altimeter settings (so a plane's height reading is correct); shipping and fishing need sea area forecasts and wave heights from buoys; offshore work depends on the same data.
+[geo-option-atmosphere-ocean-s1.28.4] Farming: the timing of silage and hay making, spraying, sowing and harvesting depends on forecasts; frost warnings protect crops; soil temperature and moisture show when grass starts to grow; drought monitoring is also part of this use. There is more on drought in Climate and economic development.
+[geo-option-atmosphere-ocean-s1.28.5] Energy and the economy: wind measurements are used to site wind farms and predict their output; temperature forecasts predict electricity and gas demand; construction, retail, insurance, sport and tourism planning all use weather data.
+[geo-option-atmosphere-ocean-s1.28.6] Climate records: long, consistent records, such as the Mauna Loa carbon dioxide record and Valentia's long weather record, show trends including global warming, sea-level rise and ocean warming; they are the evidence used by the IPCC and by governments.
+[geo-option-atmosphere-ocean-s1.28.8] Ocean-atmosphere link: buoy and Argo data on sea temperature and salinity track El Niño, ocean heat content and the Atlantic circulation, and they improve seasonal forecasts.
+[geo-option-atmosphere-ocean-s3.0.b] Water is constantly moving between the oceans, the air and the land. This continuous circulation is the hydrological (water) cycle, and it is the starting point for understanding how the oceans and atmosphere exchange water.
+[geo-option-atmosphere-ocean-s3.3.b] The oceans are both the main source and the main destination of the water that moves through the air. This shows how much of the cycle happens over the sea.
+[geo-option-atmosphere-ocean-s3.6.0] Humidity is the amount of water vapour in the air. Absolute humidity is the mass of water vapour in a volume of air, in g/m³.
+[geo-option-atmosphere-ocean-s3.6.1] Relative humidity is the amount of water vapour present as a percentage of the most the air could hold at that temperature. Saturated air (air holding all it can) has a relative humidity of 100%.
+[geo-option-atmosphere-ocean-s3.6.4] Dew point is the temperature at which air becomes saturated as it cools; further cooling causes condensation. There is more on measuring humidity in The atmosphere and oceans as linked systems.
+[geo-option-atmosphere-ocean-s3.8.1] Higher temperature increases evaporation because it gives more energy; strong sunshine and low air pressure also increase it.
+[geo-option-atmosphere-ocean-s3.8.2] Drier air, with low relative humidity, increases evaporation because it can take up more vapour.
+[geo-option-atmosphere-ocean-s3.8.3] Wind increases evaporation by removing moist air and replacing it with drier air.
+[geo-option-atmosphere-ocean-s3.12.0] Rising air expands because pressure falls with height, and it cools without losing heat to its surroundings; sinking air is compressed and warms.
+[geo-option-atmosphere-ocean-s3.12.3] The height at which condensation begins is the condensation level, or cloud base.
+[geo-option-atmosphere-ocean-s3.15.b] Clouds form wherever air is lifted and cooled below its dew point. The ways air is forced upward give five causes of cloud.
+[geo-option-atmosphere-ocean-s3.20.2] Heights are approximate for mid-latitudes.
+[geo-option-atmosphere-ocean-s3.21.b] Clouds appear in a predictable order as a front approaches, so they can be used to forecast weather.
+[geo-option-atmosphere-ocean-s3.26.3] Sleet: melting snow, or rain and snow mixed.
+[geo-option-atmosphere-ocean-s3.27.0] 1. The ground is heated strongly, warming the air above it.
+[geo-option-atmosphere-ocean-s3.27.1] 2. The warm air expands, rises and cools adiabatically.
+[geo-option-atmosphere-ocean-s3.29.b] Frontal rain falls where warm air meets cold air in a depression (a low-pressure weather system). It is Ireland's main source of rain.
+[geo-option-atmosphere-ocean-s3.29.2] Frontal rain is Ireland's main source of rain. There is more on depressions in Atmospheric and oceanic circulation.
+[geo-option-atmosphere-ocean-s3.33.2] Mediterranean: a wet winter and a dry summer.

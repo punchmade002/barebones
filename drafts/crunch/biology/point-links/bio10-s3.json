@@ -1,0 +1,388 @@
+{
+ "bio10-s3.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s2.0.0",
+    "strength": "helpful",
+    "why": "gene as DNA recipe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.6.4",
+    "strength": "helpful",
+    "why": "mRNA as copy of gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.0.4",
+    "strength": "helpful",
+    "why": "the four bases",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.0.4",
+    "strength": "essential",
+    "why": "four bases in DNA/RNA",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s2.0.2",
+    "strength": "helpful",
+    "why": "about 20 amino acids",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio10-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.2",
+    "strength": "essential",
+    "why": "combination counting argument",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "essential",
+    "why": "codon definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "essential",
+    "why": "codon read in threes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s1.6.5",
+    "strength": "helpful",
+    "why": "tRNA brings amino acids",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio10-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio10-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "essential",
+    "why": "codon definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.4",
+    "strength": "helpful",
+    "why": "stop codons exist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "essential",
+    "why": "codons of three bases",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s3.1.0",
+    "strength": "helpful",
+    "why": "start codon sets frame",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.4",
+    "strength": "essential",
+    "why": "61 codons, 20 amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.1.3",
+    "strength": "essential",
+    "why": "degenerate code",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.1.3",
+    "strength": "essential",
+    "why": "degenerate code",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s3.1.1",
+    "strength": "helpful",
+    "why": "UGA as stop codon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s3.1.6",
+    "strength": "essential",
+    "why": "universal code",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio10-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "essential",
+    "why": "codon definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s1.6.5",
+    "strength": "helpful",
+    "why": "tRNA molecule",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio10-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.2.0",
+    "strength": "essential",
+    "why": "anticodon definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s1.2.1",
+    "strength": "helpful",
+    "why": "complementary base pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.2.1",
+    "strength": "essential",
+    "why": "anticodon-codon pairing",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s3.1.0",
+    "strength": "helpful",
+    "why": "AUG start codon",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio10-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.4",
+    "strength": "essential",
+    "why": "stop codons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s3.2.1",
+    "strength": "essential",
+    "why": "anticodon pairs with codon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio10-s3.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.6.1",
+    "strength": "essential",
+    "why": "A-U pairing in RNA",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s1.2.1",
+    "strength": "helpful",
+    "why": "complementary base pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.3.0",
+    "strength": "essential",
+    "why": "mRNA made first",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s3.1.0",
+    "strength": "essential",
+    "why": "start codon AUG",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "helpful",
+    "why": "codon codes amino acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.4",
+    "strength": "essential",
+    "why": "stop codons",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s3.2.0",
+    "strength": "essential",
+    "why": "anticodons complementary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.1.0",
+    "strength": "helpful",
+    "why": "AUG start codon",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio10-s3.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s3.3.0",
+    "strength": "essential",
+    "why": "transcribing DNA to mRNA",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s3.2.1",
+    "strength": "essential",
+    "why": "anticodon pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.3.5",
+    "strength": "essential",
+    "why": "worked example anticodons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio10-s3.3.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "essential",
+    "why": "three bases per codon",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s3.0.4",
+    "strength": "helpful",
+    "why": "stop codon adds three",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -11,6 +11,8 @@ let studyRowsError = "";
 
 // Line icons (24×24, drawn with currentColor) for subject and section tiles
 const ICONS = {
+  skills: '<path d="M4 20h4v-5h4v-5h4V5h4"/>',
+  crunch: '<path d="M4 4v16M20 4v16"/><path d="M8 12h2.5M13.5 12H16"/><path d="m8.5 9 2.5 3-2.5 3M15.5 9 13 12l2.5 3"/>',
   biology: '<path d="M8 3c0 4.5 8 4.5 8 9s-8 4.5-8 9"/><path d="M16 3c0 4.5-8 4.5-8 9s8 4.5 8 9"/><path d="M9.5 6.5h5M9.5 17.5h5"/>',
   chemistry: '<path d="M9 3h6M10 3v6l-5.2 9.1A2 2 0 0 0 6.5 21h11a2 2 0 0 0 1.7-2.9L14 9V3"/><path d="M7.4 15h9.2"/>',
   geography: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3.2 3.4 3.2 14.6 0 18M12 3c-3.2 3.4-3.2 14.6 0 18"/>',
@@ -43,7 +45,7 @@ function iconHtml(name) {
 // ── Subject page sections ──
 // scripts/subject-pages.cjs runs this file at build time to write each subject page's tiles
 // and placeholders into its HTML, so they show before the app's scripts have loaded.
-const SECTION_LABELS = { guide: "Paper guide", aac: "AAC guide", flashcards: "Flashcards", notes: "Notes", tests: "Tests", exam: "Exam", papers: "Exam papers" };
+const SECTION_LABELS = { guide: "Paper guide", aac: "AAC guide", flashcards: "Flashcards", notes: "Notes", tests: "Tests", exam: "Exam", papers: "Exam papers", crunch: "Crunch Mode" };
 // Subjects that so far have only their whole past papers (exam-papers.js); each joins the app once
 // scripts/build_exam_papers.py has built its archive. They have paper and AAC guides but no study tools yet.
 const PAPERS_ONLY_SUBJECTS = {
@@ -68,10 +70,12 @@ function aacGuidesFor(subjectId) {
 const isAacSection = (id) => /^aac(-|$)/.test(id);
 function sectionLabel(subjectId, id) {
   if (!isAacSection(id)) return SECTION_LABELS[id] || "";
-  const all = aacGuidesFor(subjectId);
-  const own = all.find((a) => a.section === id);
-  return all.length > 1 && own ? `AAC · ${own.guide.short || own.guide.title}` : SECTION_LABELS.aac;
+  const own = aacGuidesFor(subjectId).find((a) => a.section === id);
+  return own ? aacLabel(own.guide) : SECTION_LABELS.aac;
 }
+// Only the new-spec subjects (Biology, Chemistry, Physics, Business) call their coursework the AAC;
+// every other guide has a short name for its component ("Oral", "Project") and goes by that.
+const aacLabel = (guide) => (guide.short ? `${guide.short} guide` : SECTION_LABELS.aac);
 
 function sectionTilesHtml(subjectId) {
   const tiles = sectionsFor(subjectId).map((id) => `

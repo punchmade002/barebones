@@ -1,0 +1,598 @@
+{
+"geo-rocks-weathering-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.0",
+"strength": "helpful",
+"why": "weathering vs erosion",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.0.2",
+"strength": "helpful",
+"why": "gravity versus resistance",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.1.b",
+"strength": "helpful",
+"why": "freeze-thaw",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.2.0",
+"strength": "essential",
+"why": "follows lifting of particles",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.2.b",
+"strength": "helpful",
+"why": "creep recognised by effects",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.2.0",
+"strength": "essential",
+"why": "lift at right angles",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s5.2.1",
+"strength": "essential",
+"why": "vertical drop",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.3.0",
+"strength": "essential",
+"why": "permafrost and thawed layer",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.3.0",
+"strength": "helpful",
+"why": "periglacial conditions",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.1.b",
+"strength": "helpful",
+"why": "freeze-thaw loosens blocks",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.4.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.4.1",
+"strength": "essential",
+"why": "landslide along a plane",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.5.0": {
+"cost": 2,
+"needs": []
+},
+"geo-rocks-weathering-s5.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.5.0",
+"strength": "essential",
+"why": "slump scar and block",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.5.0",
+"strength": "helpful",
+"why": "slump on curved plane",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.4.1",
+"strength": "essential",
+"why": "landslide flat plane",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s5.5.0",
+"strength": "essential",
+"why": "slump curved plane",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.6.0",
+"strength": "helpful",
+"why": "a volcanic mudflow",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.6.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.6.2",
+"strength": "helpful",
+"why": "ice avalanche",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.7.0",
+"strength": "essential",
+"why": "saturated blanket bog",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.7.1",
+"strength": "helpful",
+"why": "bog burst slurry",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.7.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.0.2",
+"strength": "helpful",
+"why": "gravity pull",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.0.2",
+"strength": "helpful",
+"why": "friction resists movement",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.8.1",
+"strength": "essential",
+"why": "saturation causes flow",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.4.1",
+"strength": "helpful",
+"why": "bedded rock slides",
+"confidence": "low"
+}
+]
+},
+"geo-rocks-weathering-s5.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.8.1",
+"strength": "helpful",
+"why": "water saturation",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.0.2",
+"strength": "helpful",
+"why": "roots resist movement",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.1.b",
+"strength": "helpful",
+"why": "freeze-thaw",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.9.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.9.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.6.1",
+"strength": "helpful",
+"why": "lahars triggered",
+"confidence": "low"
+}
+]
+},
+"geo-rocks-weathering-s5.9.5": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.10.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.10.1": {
+"cost": 2,
+"needs": []
+},
+"geo-rocks-weathering-s5.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.10.1",
+"strength": "essential",
+"why": "rock layers above clay",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s5.8.4",
+"strength": "helpful",
+"why": "permeable over impermeable",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.5.0",
+"strength": "essential",
+"why": "rotational slump",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s5.6.0",
+"strength": "helpful",
+"why": "mudflow",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.10.4": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.10.3",
+"strength": "helpful",
+"why": "problem being managed",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.7.b",
+"strength": "helpful",
+"why": "peat slides",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.11.0",
+"strength": "helpful",
+"why": "effects of this event",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.11.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.6.0",
+"strength": "helpful",
+"why": "mudflow",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.4.1",
+"strength": "helpful",
+"why": "landslide",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.12.1",
+"strength": "essential",
+"why": "cause of this slide",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.13.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.6.1",
+"strength": "essential",
+"why": "lahar",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.13.0",
+"strength": "essential",
+"why": "Armero not evacuated",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.6.0",
+"strength": "helpful",
+"why": "mudslides",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rocks-weathering-s5.14.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.6.3",
+"strength": "helpful",
+"why": "glacier collapse",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.14.0",
+"strength": "essential",
+"why": "Blatten evacuation",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.14.0",
+"strength": "essential",
+"why": "Blatten debris",
+"confidence": "high"
+}
+]
+},
+"geo-rocks-weathering-s5.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s5.6.3",
+"strength": "helpful",
+"why": "ice avalanche",
+"confidence": "high"
+}
+]
+}
+}

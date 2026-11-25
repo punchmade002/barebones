@@ -1,0 +1,1402 @@
+{
+"geo-option-geoecology-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.12.b",
+"strength": "helpful",
+"why": "uses texture",
+"confidence": "high"
+},
+{
+"id": "geo-option-geoecology-s1.19.0",
+"strength": "helpful",
+"why": "uses pH",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.7.0",
+"strength": "helpful",
+"why": "climate controls weathering type",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.0.3",
+"strength": "helpful",
+"why": "climate controls",
+"confidence": "low"
+}
+]
+},
+"geo-option-geoecology-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.9.0",
+"strength": "essential",
+"why": "precipitation versus evapotranspiration balance",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.3.b",
+"strength": "essential",
+"why": "uses soil horizons",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.8.1",
+"strength": "helpful",
+"why": "uses leaching",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.18.3",
+"strength": "helpful",
+"why": "temperature falls with altitude",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.7.0",
+"strength": "helpful",
+"why": "mull and mor humus",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.1.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.1.6": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.6.1",
+"strength": "helpful",
+"why": "litter and humus",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.6.1",
+"strength": "helpful",
+"why": "litter and humus",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.8.1",
+"strength": "helpful",
+"why": "uses leaching",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-atmosphere-ocean-s5.1.b",
+"strength": "helpful",
+"why": "hot wet tropics",
+"confidence": "low"
+}
+]
+},
+"geo-option-geoecology-s2.2.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.2.2",
+"strength": "essential",
+"why": "E horizon",
+"confidence": "high"
+},
+{
+"id": "geo-option-geoecology-s2.2.3",
+"strength": "essential",
+"why": "B horizon",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.2.b",
+"strength": "helpful",
+"why": "uses horizon letters",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.3",
+"strength": "helpful",
+"why": "physical weathering",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.6.0",
+"strength": "helpful",
+"why": "hydrolysis forms clay",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.7.1",
+"strength": "helpful",
+"why": "chemical weathering fastest in warm wet",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.3.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.4.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-geoecology-s2.4.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.4.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.2.1",
+"strength": "essential",
+"why": "A horizon topsoil",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.14.b",
+"strength": "helpful",
+"why": "soil structure",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.4.6": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.9.0",
+"strength": "essential",
+"why": "precipitation exceeds evapotranspiration",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.20.0",
+"strength": "helpful",
+"why": "nutrient bases held in soil",
+"confidence": "low"
+}
+]
+},
+"geo-option-geoecology-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.19.1",
+"strength": "helpful",
+"why": "acid soils from leaching",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.7.b",
+"strength": "helpful",
+"why": "podzol formed by intense leaching",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.6.1",
+"strength": "essential",
+"why": "litter, decomposers and humus",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.7.0",
+"strength": "helpful",
+"why": "mull humus",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.7.1",
+"strength": "helpful",
+"why": "mor humus",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.6.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.5.b",
+"strength": "essential",
+"why": "leaching",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.5.0",
+"strength": "essential",
+"why": "precipitation exceeds evapotranspiration",
+"confidence": "high"
+},
+{
+"id": "geo-option-geoecology-s1.7.1",
+"strength": "helpful",
+"why": "mor humus",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.7.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.5.1",
+"strength": "helpful",
+"why": "bases washed down",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.2.2",
+"strength": "essential",
+"why": "E horizon",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.2.3",
+"strength": "essential",
+"why": "B horizon",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.7.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.7.6": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.5.b",
+"strength": "helpful",
+"why": "leaching",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.1.b",
+"strength": "helpful",
+"why": "equatorial climate",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.7.1",
+"strength": "helpful",
+"why": "chemical weathering in warm wet climates",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.5.b",
+"strength": "helpful",
+"why": "leaching",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.6.0",
+"strength": "helpful",
+"why": "humification",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.8.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.8.2",
+"strength": "helpful",
+"why": "aluminium oxides left behind",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.8.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.8.5",
+"strength": "helpful",
+"why": "bauxite",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.8.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.8.1",
+"strength": "helpful",
+"why": "silica and bases leached",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.9.1",
+"strength": "helpful",
+"why": "evaporation exceeds precipitation",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.14.b",
+"strength": "helpful",
+"why": "continental dry climate",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.5.b",
+"strength": "helpful",
+"why": "leaching",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.9.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.8.2",
+"strength": "helpful",
+"why": "capillary water",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.9.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.9.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.10.4",
+"strength": "helpful",
+"why": "iron reduced without oxygen",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.9.2",
+"strength": "helpful",
+"why": "waterlogging",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.10.3",
+"strength": "helpful",
+"why": "anaerobic soils",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.10.4",
+"strength": "essential",
+"why": "iron reduced in poor aeration",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.10.2",
+"strength": "helpful",
+"why": "iron colour change",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.10.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.8.2",
+"strength": "helpful",
+"why": "capillary water",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.17.0",
+"strength": "helpful",
+"why": "hot desert dryness",
+"confidence": "low"
+}
+]
+},
+"geo-option-geoecology-s2.11.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.11.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.12.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-geoecology-s2.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.0.3",
+"strength": "helpful",
+"why": "alluvium and loess",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.10.b",
+"strength": "helpful",
+"why": "gleying",
+"confidence": "low"
+}
+]
+},
+"geo-option-geoecology-s2.13.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.7.b",
+"strength": "helpful",
+"why": "podzolisation",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.16.2",
+"strength": "helpful",
+"why": "boreal forest belt",
+"confidence": "low"
+}
+]
+},
+"geo-option-geoecology-s2.13.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-atmosphere-ocean-s5.8.0",
+"strength": "helpful",
+"why": "temperate oceanic locations",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.9.b",
+"strength": "helpful",
+"why": "calcification",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.16.1",
+"strength": "helpful",
+"why": "temperate grassland climate",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-atmosphere-ocean-s5.11.b",
+"strength": "helpful",
+"why": "Mediterranean climate",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.13.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.11.b",
+"strength": "helpful",
+"why": "salt crust formation",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.17.b",
+"strength": "helpful",
+"why": "hot desert locations",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.8.b",
+"strength": "helpful",
+"why": "laterisation",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.1.b",
+"strength": "helpful",
+"why": "equatorial rainforest climate",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.13.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.13.b",
+"strength": "helpful",
+"why": "soil belts",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.1.3",
+"strength": "helpful",
+"why": "altitude and leaching",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.18.3",
+"strength": "helpful",
+"why": "climate changes with altitude",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.18.b",
+"strength": "helpful",
+"why": "podzols in uplands",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.10.b",
+"strength": "helpful",
+"why": "gleying",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.15.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.12.1",
+"strength": "helpful",
+"why": "intrazonal soils",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.15.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.16.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.16.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.16.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-atmosphere-ocean-s5.8.1",
+"strength": "helpful",
+"why": "Irish mild climate",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-atmosphere-ocean-s5.9.1",
+"strength": "helpful",
+"why": "Irish rainfall figures",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.19.0",
+"strength": "helpful",
+"why": "pH scale",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.16.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.6.3",
+"strength": "helpful",
+"why": "earthworm mixing",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.17.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.14.0",
+"strength": "helpful",
+"why": "crumb structure",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.2.3",
+"strength": "helpful",
+"why": "B horizon",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.17.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.2.2",
+"strength": "helpful",
+"why": "E horizon",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.17.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.17.6": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.17.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.19.4",
+"strength": "helpful",
+"why": "Teagasc pH targets and liming",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.7.1",
+"strength": "helpful",
+"why": "mor humus",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.7.5",
+"strength": "helpful",
+"why": "iron pan",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.7.b",
+"strength": "essential",
+"why": "podzolisation steps",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.19.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.19.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.7.5",
+"strength": "helpful",
+"why": "iron pan",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.19.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.19.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.19.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.19.0",
+"strength": "helpful",
+"why": "pH scale",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.19.6": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.19.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.7.5",
+"strength": "helpful",
+"why": "iron pan",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.10.0",
+"strength": "helpful",
+"why": "impermeable till and waterlogging",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.20.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.10.b",
+"strength": "essential",
+"why": "gleying steps",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.10.4",
+"strength": "helpful",
+"why": "gley colours",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.15.2",
+"strength": "helpful",
+"why": "poaching",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.21.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.21.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.22.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-atmosphere-ocean-s5.2.0",
+"strength": "helpful",
+"why": "tropical rainfall",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.8.b",
+"strength": "essential",
+"why": "laterisation",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.23.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.7.1",
+"strength": "helpful",
+"why": "chemical weathering rate",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.23.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.3.b",
+"strength": "helpful",
+"why": "soil horizons",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.8.3",
+"strength": "helpful",
+"why": "little humus",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.23.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.23.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.23.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.8.4",
+"strength": "essential",
+"why": "laterite crust",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.24.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.24.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.24.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-geoecology-s2.24.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-atmosphere-ocean-s5.15.0",
+"strength": "helpful",
+"why": "continental precipitation",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.24.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.25.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.9.b",
+"strength": "essential",
+"why": "calcification",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.25.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.9.b",
+"strength": "essential",
+"why": "calcification",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.15.1",
+"strength": "helpful",
+"why": "winter snow and spring melt",
+"confidence": "low"
+}
+]
+},
+"geo-option-geoecology-s2.25.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.25.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.25.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.24.3",
+"strength": "helpful",
+"why": "grass roots add humus",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.25.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.9.1",
+"strength": "helpful",
+"why": "calcium deposited in B horizon",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.25.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.0.3",
+"strength": "helpful",
+"why": "loess",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.26.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.26.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.26.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.26.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.26.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s2.4.2",
+"strength": "helpful",
+"why": "wind erosion",
+"confidence": "high"
+},
+{
+"id": "geo-option-atmosphere-ocean-s5.16.0",
+"strength": "helpful",
+"why": "Dust Bowl",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.27.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-geoecology-s2.27.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-geoecology-s1.13.1",
+"strength": "helpful",
+"why": "clay soils hold moisture",
+"confidence": "high"
+}
+]
+},
+"geo-option-geoecology-s2.27.1": {
+"cost": 1,
+"needs": []
+}
+}

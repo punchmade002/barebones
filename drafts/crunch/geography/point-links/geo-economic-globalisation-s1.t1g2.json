@@ -1,0 +1,430 @@
+{
+ "geo-economic-globalisation-s1.0.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.0.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.0.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.0.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.0.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.0.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.0.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.1.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.1.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.1.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.1.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.2.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.2.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.5.2",
+    "strength": "helpful",
+    "why": "12.5% corporation tax",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.2.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.2.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.5.0",
+    "strength": "helpful",
+    "why": "EU single market",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.2.3": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.23.4",
+    "strength": "helpful",
+    "why": "Brexit and UK leaving EU",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.2.4": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.3.0",
+    "strength": "helpful",
+    "why": "IDA set up to attract firms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.2.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.2.6": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.19.4",
+    "strength": "helpful",
+    "why": "clusters of similar firms",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.2.7": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.2.8": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.3.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.3.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.30.0",
+    "strength": "helpful",
+    "why": "Silicon Valley described",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.3.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.3.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.3.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.3.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.3.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.4.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.4.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.4.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.4.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.4.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.4.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.5.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.5.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.5.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.5.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.5.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.5.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.6.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.6.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.6.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.6.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.7.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.7.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.7.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.7.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.7.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.8.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.8.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.8.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.8.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.8.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.8.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.9.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.9.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.9.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.28.b",
+    "strength": "helpful",
+    "why": "data centres explained",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.9.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.9.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.9.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.10.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.10.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.10.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.10.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.10.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.10.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.10.5": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.23.1",
+    "strength": "helpful",
+    "why": "15% minimum tax reduces advantage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.10.6": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.23.6",
+    "strength": "helpful",
+    "why": "grid and energy constraints",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.10.7": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.11.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.11.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.11.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.9.1",
+    "strength": "helpful",
+    "why": "tax from few multinationals",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.11.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.12.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.12.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.12.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.12.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.13.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.13.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.13.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.13.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.13.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.14.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.14.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.14.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.14.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.15.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.15.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.15.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.15.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.15.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.16.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.16.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.16.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.17.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.17.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.17.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.18.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.18.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s1.23.2",
+    "strength": "helpful",
+    "why": "Apple tax back-payment ruling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s1.18.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.18.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.18.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.18.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.18.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.18.6": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.19.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.19.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.19.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.19.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.19.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.19.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.19.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.20.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.20.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.20.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s1.20.2": {
+  "needs": []
+ }
+}

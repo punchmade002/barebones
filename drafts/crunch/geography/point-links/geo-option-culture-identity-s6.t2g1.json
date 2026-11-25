@@ -1,0 +1,894 @@
+{
+"geo-option-culture-identity-s6.30.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.30.2",
+"strength": "essential",
+"why": "ICTY tried the leaders",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s6.24.0",
+"strength": "helpful",
+"why": "Milošević rise to power",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.31.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.31.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.24.0",
+"strength": "helpful",
+"why": "Milošević as target of protest",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.31.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.31.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.29.2",
+"strength": "essential",
+"why": "the siege of Sarajevo",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.31.3": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s6.32.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.32.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.29.3",
+"strength": "essential",
+"why": "Mostar Old Bridge destroyed, rebuilt",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.32.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.28.b",
+"strength": "helpful",
+"why": "the coming war in Croatia",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.32.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s6.33.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.33.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.33.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.34.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.34.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.29.1",
+"strength": "helpful",
+"why": "ethnic cleansing makes areas uniform",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.34.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.34.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.34.1",
+"strength": "essential",
+"why": "the Western Balkans route",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.35.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.35.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.23.2",
+"strength": "helpful",
+"why": "the republics of Yugoslavia",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.35.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.23.2",
+"strength": "helpful",
+"why": "Serbia and Montenegro republics",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.36.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.36.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.24.1",
+"strength": "helpful",
+"why": "Kosovo autonomy removed",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.36.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.36.0",
+"strength": "essential",
+"why": "Kosovo independence being recognised",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.36.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.29.5",
+"strength": "essential",
+"why": "the Dayton Agreement",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s6.26.2",
+"strength": "helpful",
+"why": "Bosniak, Croat, Serb groups",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.36.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.36.2",
+"strength": "helpful",
+"why": "Bosnia divided under Dayton",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.37.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.37.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s6.37.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.37.0",
+"strength": "helpful",
+"why": "EU membership process",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.38.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.38.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.23.2",
+"strength": "helpful",
+"why": "old republic lines",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.38.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.29.5",
+"strength": "essential",
+"why": "Dayton Agreement",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s6.36.2",
+"strength": "helpful",
+"why": "Dayton structure of Bosnia",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.38.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.37.1",
+"strength": "helpful",
+"why": "EU candidates and accession",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.39.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.39.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.39.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.39.0",
+"strength": "helpful",
+"why": "Celtic regions listed",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.39.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.39.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.39.2",
+"strength": "helpful",
+"why": "Anglo-Saxons pushed Celts west",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.39.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.39.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.40.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.40.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.40.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.40.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.40.1",
+"strength": "helpful",
+"why": "Edward I conquest of Wales",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.40.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.41.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.41.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.41.b",
+"strength": "helpful",
+"why": "meaning of devolution",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.41.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.41.b",
+"strength": "helpful",
+"why": "devolution to Welsh body",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.41.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.40.3",
+"strength": "helpful",
+"why": "border with England unchanged since",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.42.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.42.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.42.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.42.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.42.1",
+"strength": "helpful",
+"why": "Gwynedd and Anglesey heartland",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.42.3": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s6.43.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.43.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.43.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.43.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.43.0",
+"strength": "helpful",
+"why": "Anglican versus Nonconformist church",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.44.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.44.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.44.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.44.0",
+"strength": "essential",
+"why": "the Eisteddfod",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.44.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.44.0",
+"strength": "helpful",
+"why": "Eisteddfod festival",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.44.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.45.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.45.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.45.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.45.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.45.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.45.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.46.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.46.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.46.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.46.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.46.3",
+"strength": "helpful",
+"why": "second-home ownership grievance",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.46.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.46.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.46.3",
+"strength": "essential",
+"why": "second-home ownership",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.46.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.47.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.47.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.47.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.47.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.47.1",
+"strength": "helpful",
+"why": "central French state",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.47.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.48.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.48.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.48.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.48.0",
+"strength": "essential",
+"why": "Nantes separated in 1941",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.48.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.48.1",
+"strength": "helpful",
+"why": "Brittany boundary and Nantes",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.49.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.49.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.49.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s6.49.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.49.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.49.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.50.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.50.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.50.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.50.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.51.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.51.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.49.4",
+"strength": "essential",
+"why": "the Lorient festival",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.51.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.52.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.52.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.52.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.52.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.52.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.52.0",
+"strength": "helpful",
+"why": "the language border",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.53.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.53.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.53.b",
+"strength": "helpful",
+"why": "federalisation meaning",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.53.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.53.b",
+"strength": "helpful",
+"why": "federalisation, regions and communities",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.53.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.54.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.54.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s6.54.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.54.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.55.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.55.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.55.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.55.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.55.1",
+"strength": "helpful",
+"why": "no nationwide parties",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.55.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.56.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.56.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.56.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.56.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.57.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.57.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.57.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.57.0",
+"strength": "essential",
+"why": "van Eyck altarpiece reference",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.57.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.57.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.57.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.57.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.58.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.58.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.58.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.59.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.59.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.59.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.59.0",
+"strength": "helpful",
+"why": "migrants in Belgian coal mines",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.59.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.59.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.59.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.60.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.60.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.60.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.60.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.60.1",
+"strength": "essential",
+"why": "Flanders economy grew",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s6.60.0",
+"strength": "helpful",
+"why": "Wallonia industry declined",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.61.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s6.61.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.53.1",
+"strength": "helpful",
+"why": "federal regions",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s6.54.2",
+"strength": "helpful",
+"why": "Brussels position",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.61.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s6.53.1",
+"strength": "helpful",
+"why": "devolution to regions",
+"confidence": "low"
+}
+]
+}
+}

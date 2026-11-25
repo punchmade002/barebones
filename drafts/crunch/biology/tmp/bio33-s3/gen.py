@@ -1,0 +1,120 @@
+import json,re
+P='/Users/gabrielwhelan/barebones/drafts/crunch/biology/'
+txt=open(P+'points/bio33-s3.txt').read()
+tg=txt.split('CANDIDATES')[0]
+tids=re.findall(r'^\[(bio33-s3\.[^\]]+)\]',tg,re.M)
+allids=set(re.findall(r'^\[([^\]]+)\]',txt,re.M))
+E,H='essential','helpful'
+def L(i,s,w,c='high'):return {"id":i,"strength":s,"why":w,"confidence":c}
+a='bio33-s3.'
+D={
+'0.1':(1,[L(a+'0.0',H,'definition of biotechnology')]),
+'0.2':(1,[L('bio33-s1.5.2',H,'binary fission every 20 minutes')]),
+'0.6':(1,[L('bio33-s1.2.5',H,'plasmids as vectors for genes','low')]),
+'2.0':(1,[L(a+'0.0',H,'biotechnology uses organisms on large scale','low')]),
+'2.3':(1,[L('bio33-s1.7.5',H,'aerobes need oxygen')]),
+'2.5':(1,[L('bio15-s1.0.3',H,'respiration releases heat')]),
+'3.2':(1,[L('bio15-s1.1.0',H,'CO2 is a respiration product')]),
+'3.4':(2,[L(a+'2.3',E,'sparger and air inlet'),L(a+'2.4',E,'stirrer and motor'),L(a+'2.5',E,'water jacket cooling'),L(a+'3.0',E,'probes'),L(a+'3.3',E,'harvest outlet','low')]),
+'4.0':(1,[L('bio33-s2.1.5',H,'sterilising with steam/autoclave','low')]),
+'4.1':(1,[L('bio33-s2.1.0',E,'aseptic technique defined')]),
+'4.2':(2,[]),
+'5.1':(1,[L(a+'5.0',E,'antibiotics defined')]),
+'5.2':(1,[L(a+'5.1',E,'penicillin production'),L(a+'2.0',H,'bioreactor','low')]),
+'5.3':(1,[L(a+'5.0',H,'antibiotics defined')]),
+'6.0':(2,[L('bio33-s1.2.5',E,'plasmids as vectors'),L(a+'2.0',H,'bioreactor growth','low')]),
+'6.1':(1,[L(a+'6.0',H,'insulin gene inserted into microbes','low')]),
+'6.3':(1,[L(a+'6.0',H,'genetic modification of bacteria','low')]),
+'6.4':(2,[L(a+'6.0',H,'genetically modified yeast','low')]),
+'7.2':(1,[L(a+'7.1',E,'PCR')]),
+'7.3':(1,[L(a+'5.0',H,'antibiotics defined')]),
+'7.4':(1,[L(a+'5.0',H,'antibiotics disturb gut flora','low')]),
+'7.1':(2,[]),
+'8.0':(2,[L('bio33-s1.0.5',E,'nitrogen-fixing bacteria')]),
+'8.1':(1,[L(a+'8.0',E,'Rhizobium on legumes')]),
+'8.3':(1,[L(a+'8.2',E,'Bt toxin')]),
+'8.4':(1,[L(a+'8.2',E,'Bt toxin'),L(a+'8.6',H,'inserting genes into crops','low')]),
+'8.5':(2,[L('bio33-s1.2.4',E,'plasmids defined')]),
+'8.6':(1,[L(a+'8.5',E,'Agrobacterium plasmid transfer')]),
+'9.0':(2,[L('bio15-s1.2.3',H,'fermentation produces lactic acid','low')]),
+'9.1':(1,[L(a+'9.0',E,'silage lactic acid')]),
+'9.2':(1,[L('bio15-s1.2.0',H,'anaerobic means no oxygen','low')]),
+'9.3':(1,[L(a+'9.2',E,'anaerobic digestion')]),
+'9.4':(1,[L('bio33-s1.0.2',H,'decomposers break down waste')]),
+'10.b':(1,[L('bio15-s1.2.2',H,'yeast fermentation products')]),
+'10.0':(1,[L('bio15-s1.2.2',E,'yeast makes CO2 and ethanol')]),
+'10.1':(1,[L(a+'10.0',H,'ethanol made in dough')]),
+'10.2':(1,[L('bio15-s1.2.2',E,'yeast ferments to ethanol and CO2')]),
+'11.2':(2,[L('bio15-s1.2.1',E,'lactic acid fermentation'),L(a+'11.0',H,'inoculated milk')]),
+'11.1':(1,[L(a+'11.0',H,'inoculated yogurt milk')]),
+'11.3':(1,[L(a+'11.2',E,'lactic acid lowers pH')]),
+'11.4':(2,[L(a+'11.2',H,'lactic acid souring')]),
+'12.0':(2,[L(a+'2.0',H,'fermenter vessel','low')]),
+'12.1':(1,[L(a+'12.0',E,'mycoprotein production'),L('bio33-s1.8.3',H,'hyphae defined','low')]),
+'12.2':(1,[L('bio33-s1.0.1',H,'bacteria genus use','low')]),
+'13.0':(2,[L(a+'9.3',H,'anaerobic digestion to biogas')]),
+'13.2':(1,[L(a+'10.2',H,'yeast ferments sugars to ethanol')]),
+'14.0':(1,[L(a+'5.0',H,'antibiotics defined')]),
+'14.1':(1,[L(a+'6.0',H,'insulin from microbes')]),
+'14.2':(1,[L(a+'6.2',E,'animal insulin drawbacks')]),
+'14.3':(2,[L(a+'5.0',H,'antibiotics defined')]),
+'14.4':(1,[L(a+'14.3',H,'antibiotic resistance')]),
+'15.1':(1,[L(a+'12.1',H,'mycoprotein')]),
+'15.2':(1,[L(a+'8.3',H,'Bt biopesticide'),L(a+'8.0',H,'Rhizobium inoculant'),L(a+'9.0',H,'silage')]),
+'15.3':(1,[L(a+'6.0',H,'genetically modified microorganisms','low')]),
+'15.4':(1,[L(a+'8.4',E,'Bt toxin gene in crops')]),
+'16.0':(1,[L(a+'13.0',H,'sewage treatment')]),
+'16.1':(1,[L(a+'9.3',H,'biogas'),L(a+'13.2',H,'bioethanol')]),
+'16.3':(1,[L(a+'2.0',H,'bioreactor')]),
+'16.4':(1,[L(a+'4.0',H,'contamination and sterility','low')]),
+'17.1':(1,[L(a+'14.3',E,'antibiotic resistance'),L(a+'15.3',E,'GM concerns')]),
+'18.0':(2,[]),
+'18.1':(2,[L(a+'19.3',H,'exponential phase')]),
+'18.2':(2,[L(a+'19.0',E,'lag phase'),L(a+'19.3',E,'log phase'),L(a+'20.0',E,'stationary phase'),L(a+'20.3',E,'decline phase'),L(a+'20.5',E,'survival phase')]),
+'19.0':(1,[L(a+'18.0',H,'growth curve in closed system')]),
+'19.1':(1,[L(a+'19.0',E,'lag phase')]),
+'19.2':(1,[L(a+'19.1',E,'adjustment in lag phase')]),
+'19.3':(1,[L('bio33-s1.5.0',H,'binary fission')]),
+'19.4':(2,[L(a+'19.3',E,'log phase')]),
+'19.5':(1,[L(a+'19.3',E,'log phase')]),
+'20.0':(2,[L(a+'19.3',H,'division rate in log phase')]),
+'20.1':(2,[]),
+'20.2':(1,[L(a+'23.1',H,'secondary metabolites'),L('bio33-s1.5.4',H,'endospores defined')]),
+'20.3':(1,[L(a+'19.3',H,'division rate comparison')]),
+'20.4':(1,[L(a+'20.3',H,'decline phase')]),
+'20.5':(1,[L(a+'20.3',H,'follows decline phase')]),
+'20.6':(1,[L('bio33-s1.5.4',E,'endospore formation'),L(a+'20.4',H,'nutrients from dead cells')]),
+'21.0':(2,[L(a+'19.4',E,'doubling each generation')]),
+'21.1':(2,[L(a+'21.0',E,'cells = start x 2^n')]),
+'21.2':(2,[L(a+'21.0',E,'cells = start x 2^n')]),
+'21.3':(2,[L(a+'21.0',E,'doubling per generation')]),
+'21.4':(2,[L(a+'21.3',E,'generation time method')]),
+'21.5':(1,[L(a+'18.1',E,'log scale on growth curve')]),
+'22.0':(1,[L(a+'2.0',H,'bioreactor')]),
+'22.1':(1,[L(a+'22.0',H,'batch culture')]),
+'22.2':(1,[L(a+'22.1',H,'batch harvested at end')]),
+'22.3':(1,[L(a+'4.0',H,'contamination loses batch','low')]),
+'22.4':(1,[L(a+'19.3',H,'log phase output')]),
+'23.0':(1,[L(a+'19.3',H,'log phase')]),
+'23.1':(1,[L(a+'20.0',H,'stationary phase')]),
+'24.0':(1,[L(a+'22.1',H,'contrast with batch')]),
+'24.1':(1,[L(a+'19.3',E,'log phase'),L(a+'20.0',H,'stationary phase')]),
+'24.2':(1,[L(a+'22.3',H,'batch comparison')]),
+'24.3':(1,[L(a+'23.0',H,'primary metabolites','low')]),
+'25.0':(2,[L(a+'19.1',E,'lag phase adjustment')]),
+'25.1':(2,[L(a+'19.3',E,'log phase'),L(a+'24.0',H,'continuous culture')]),
+'25.2':(2,[L(a+'23.0',E,'primary metabolites'),L(a+'23.1',E,'secondary metabolites')]),
+'25.3':(2,[L(a+'20.1',E,'causes of stationary phase'),L(a+'25.1',H,'nutrient supply','low')]),
+}
+out={}
+for t in tids:
+    k=t[len(a):]; c,n=D.get(k,(1,[]))
+    out[t]=({"cost":c,"needs":n})
+for t,v in out.items():
+    for n in v['needs']: assert n['id'] in allids and n['id']!=t,(t,n['id'])
+assert set(D)-{t[len(a):] for t in tids}==set(),set(D)-{t[len(a):] for t in tids}
+json.dump(out,open(P+'point-links/bio33-s3.json','w'),indent=0,ensure_ascii=False)
+r=json.load(open(P+'point-links/bio33-s3.json'))
+assert list(r)==tids
+ls=[n for v in r.values() for n in v['needs']]
+print(len(r),len(ls),sum(v['cost']==2 for v in r.values()),sum(n['confidence']=='low' for n in ls))

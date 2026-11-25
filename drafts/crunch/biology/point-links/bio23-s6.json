@@ -1,0 +1,976 @@
+{
+ "bio23-s6.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.0",
+    "strength": "helpful",
+    "why": "hormone definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.0.0",
+    "strength": "helpful",
+    "why": "pituitary and gonads named",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.0.0",
+    "strength": "helpful",
+    "why": "testes and ovaries as gonads",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s5.2.1",
+    "strength": "helpful",
+    "why": "placenta structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.0.1",
+    "strength": "helpful",
+    "why": "pituitary hormones stimulate gonads",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.0.2",
+    "strength": "essential",
+    "why": "testes/ovaries make sex hormones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.1.3",
+    "strength": "essential",
+    "why": "testosterone rise at puberty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.1.3",
+    "strength": "essential",
+    "why": "oestrogen rise at puberty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.0.0",
+    "strength": "helpful",
+    "why": "menstrual cycle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.1.4",
+    "strength": "helpful",
+    "why": "testosterone and sperm production",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s6.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.2.0",
+    "strength": "essential",
+    "why": "seminiferous tubules make sperm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.14.4",
+    "strength": "helpful",
+    "why": "negative feedback keeps testosterone steady",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s6.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.0.4",
+    "strength": "essential",
+    "why": "follicle and endometrium changes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.0.4",
+    "strength": "helpful",
+    "why": "implantation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.0.4",
+    "strength": "essential",
+    "why": "implantation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.3.0",
+    "strength": "essential",
+    "why": "progesterone prepares endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.0.4",
+    "strength": "helpful",
+    "why": "implantation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s6.3.2",
+    "strength": "essential",
+    "why": "hCG",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s4.4.0",
+    "strength": "essential",
+    "why": "corpus luteum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.3.3",
+    "strength": "helpful",
+    "why": "corpus luteum role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.3.3",
+    "strength": "essential",
+    "why": "corpus luteum makes progesterone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.2.1",
+    "strength": "helpful",
+    "why": "placenta attached to endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.4.0",
+    "strength": "helpful",
+    "why": "placenta makes progesterone",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s6.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.11.3",
+    "strength": "helpful",
+    "why": "hormones inhibit ovulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.6.2",
+    "strength": "helpful",
+    "why": "oxytocin contracts uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.4.0",
+    "strength": "helpful",
+    "why": "placenta hormone levels",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s6.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s6.4.2",
+    "strength": "essential",
+    "why": "progesterone relaxes uterus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s6.6.2",
+    "strength": "essential",
+    "why": "oxytocin contracts uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.6.1",
+    "strength": "helpful",
+    "why": "oxytocin release",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.3.0",
+    "strength": "essential",
+    "why": "positive feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.6.1",
+    "strength": "helpful",
+    "why": "oxytocin from pituitary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.6.2",
+    "strength": "helpful",
+    "why": "oxytocin contracts uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.3.0",
+    "strength": "helpful",
+    "why": "positive feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.5",
+    "strength": "essential",
+    "why": "nervous and hormonal pathways",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.3.0",
+    "strength": "essential",
+    "why": "positive feedback loop",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.6.2",
+    "strength": "helpful",
+    "why": "oxytocin contracts uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.6.2",
+    "strength": "helpful",
+    "why": "oxytocin contracts uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.6.2",
+    "strength": "helpful",
+    "why": "oxytocin effects",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.9.0",
+    "strength": "helpful",
+    "why": "breast development, prolactin rising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.9.1",
+    "strength": "essential",
+    "why": "high hormones block milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.9.3",
+    "strength": "helpful",
+    "why": "prolactin makes milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.9.3",
+    "strength": "helpful",
+    "why": "prolactin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.10.0",
+    "strength": "helpful",
+    "why": "let-down",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.9.3",
+    "strength": "helpful",
+    "why": "prolactin makes milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.11.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s5.5.2",
+    "strength": "essential",
+    "why": "passive immunity from antibodies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.0.0",
+    "strength": "helpful",
+    "why": "menstrual cycle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.12.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.2.1",
+    "strength": "essential",
+    "why": "follicles in ovary",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s6.12.0",
+    "strength": "helpful",
+    "why": "menopause definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.12.2",
+    "strength": "essential",
+    "why": "oestrogen/progesterone fall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.12.2",
+    "strength": "helpful",
+    "why": "oestrogen fall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.12.2",
+    "strength": "helpful",
+    "why": "oestrogen fall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.13.1",
+    "strength": "helpful",
+    "why": "testosterone level over life",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s6.12.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.7.1",
+    "strength": "helpful",
+    "why": "testosterone role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.13.0",
+    "strength": "helpful",
+    "why": "testosterone roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.13.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.8.2",
+    "strength": "helpful",
+    "why": "oestrogen thickens endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.13.2",
+    "strength": "helpful",
+    "why": "oestrogen roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.13.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.8.3",
+    "strength": "helpful",
+    "why": "progesterone maintains endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.13.4",
+    "strength": "helpful",
+    "why": "progesterone roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.13.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.1.2",
+    "strength": "helpful",
+    "why": "oxytocin made in hypothalamus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.13.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.9.3",
+    "strength": "helpful",
+    "why": "prolactin makes milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.14.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.2.b",
+    "strength": "helpful",
+    "why": "negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.1.b",
+    "strength": "helpful",
+    "why": "hypothalamus controls pituitary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.14.0",
+    "strength": "essential",
+    "why": "FSH and LH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.2.0",
+    "strength": "helpful",
+    "why": "FSH role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.2.2",
+    "strength": "helpful",
+    "why": "LH in males",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.14.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "essential",
+    "why": "negative feedback",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s6.14.3",
+    "strength": "essential",
+    "why": "LH stimulates testosterone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.14.4",
+    "strength": "essential",
+    "why": "male negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.14.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s6.14.4",
+    "strength": "essential",
+    "why": "negative feedback on LH, FSH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.14.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.2.1",
+    "strength": "helpful",
+    "why": "LH surge, corpus luteum",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s4.0.4",
+    "strength": "helpful",
+    "why": "ovarian cycle",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s6.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.11.3",
+    "strength": "essential",
+    "why": "hormones inhibit FSH and LH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.9.5",
+    "strength": "helpful",
+    "why": "prolactin suppresses ovulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.12.2",
+    "strength": "essential",
+    "why": "ovaries stop making hormones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.15.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.15.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.14.1",
+    "strength": "helpful",
+    "why": "LH surge shape",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s6.15.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.15.0",
+    "strength": "helpful",
+    "why": "pregnancy lowers FSH, LH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s6.16.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.1.b",
+    "strength": "essential",
+    "why": "control centre, effector, response",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.16.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s6.16.0",
+    "strength": "essential",
+    "why": "model components",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s6.14.4",
+    "strength": "helpful",
+    "why": "male feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s6.16.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s6.14.7",
+    "strength": "helpful",
+    "why": "female FSH/LH roles",
+    "confidence": "high"
+   }
+  ]
+ }
+}

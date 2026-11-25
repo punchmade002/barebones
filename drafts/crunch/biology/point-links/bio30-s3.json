@@ -1,0 +1,553 @@
+{
+ "bio30-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s3.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.0",
+    "strength": "helpful",
+    "why": "stomata as leaf pores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.0",
+    "strength": "helpful",
+    "why": "stomata and gas exchange",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s3.0.2",
+    "strength": "helpful",
+    "why": "respiration releases CO2 constantly",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.2.1",
+    "strength": "helpful",
+    "why": "aquatic plants absorb dissolved CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "diffusion down a concentration gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "concentration gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s3.1.0",
+    "strength": "essential",
+    "why": "gradient drives inward diffusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.9.3",
+    "strength": "essential",
+    "why": "spongy mesophyll air spaces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.9.4",
+    "strength": "helpful",
+    "why": "CO2 dissolves on moist cell surfaces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s1.5.6",
+    "strength": "essential",
+    "why": "light-independent stage uses CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.10.3",
+    "strength": "helpful",
+    "why": "leaf section labels",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s3.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "helpful",
+    "why": "diffusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.5",
+    "strength": "helpful",
+    "why": "xylem and phloem as transport tissue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.6",
+    "strength": "essential",
+    "why": "factors affecting diffusion rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.1",
+    "strength": "helpful",
+    "why": "guard cells open and close stomata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s3.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s3.0.2",
+    "strength": "helpful",
+    "why": "respiration also produces CO2",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s3.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.7.0",
+    "strength": "essential",
+    "why": "lenticels as gas pores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s3.3.0",
+    "strength": "essential",
+    "why": "photosynthesis versus respiration rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.7.0",
+    "strength": "helpful",
+    "why": "lenticels in woody stems",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.2.5",
+    "strength": "helpful",
+    "why": "oxygen released and used",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.3.0",
+    "strength": "essential",
+    "why": "phloem carries dissolved food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.3.0",
+    "strength": "essential",
+    "why": "sucrose as transport sugar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s1.3.5",
+    "strength": "helpful",
+    "why": "amino acids from sugars and nitrates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s3.4.1",
+    "strength": "helpful",
+    "why": "sucrose as the transported form",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s3.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s3.4.3",
+    "strength": "helpful",
+    "why": "source versus sink contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.3.2",
+    "strength": "helpful",
+    "why": "starch as storage carbohydrate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s3.4.3",
+    "strength": "helpful",
+    "why": "sources and sinks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s3.4.4",
+    "strength": "essential",
+    "why": "sinks lie above or below",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s3.4.3",
+    "strength": "essential",
+    "why": "source and sink roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.3.4",
+    "strength": "essential",
+    "why": "companion cell supplies ATP",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.4.0",
+    "strength": "helpful",
+    "why": "active transport uses ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s3.6.b": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s3.5.2",
+    "strength": "essential",
+    "why": "active loading of sucrose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "water moves into concentrated solution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s3.6.1",
+    "strength": "helpful",
+    "why": "water movement by osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.3.1",
+    "strength": "essential",
+    "why": "sieve plates between sieve tube cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s3.6.3",
+    "strength": "helpful",
+    "why": "pressure-flow summary",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s3.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.3.5",
+    "strength": "helpful",
+    "why": "phloem lies just inside bark",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s3.7.0",
+    "strength": "essential",
+    "why": "ringing removes phloem",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.0",
+    "strength": "essential",
+    "why": "xylem carries water upwards",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s3.7.0",
+    "strength": "helpful",
+    "why": "ringing kills trees",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.3.1",
+    "strength": "helpful",
+    "why": "sieve tubes carry sap",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s3.7.4",
+    "strength": "essential",
+    "why": "aphid mouthparts in sieve tube",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.7.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s3.4.0",
+    "strength": "helpful",
+    "why": "sucrose transported in phloem",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s3.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s3.4.0",
+    "strength": "helpful",
+    "why": "phloem transports sucrose and amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s3.5.0",
+    "strength": "helpful",
+    "why": "phloem direction up and down",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s3.6.3",
+    "strength": "helpful",
+    "why": "pressure difference drives flow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s3.5.2",
+    "strength": "helpful",
+    "why": "ATP for sucrose loading",
+    "confidence": "high"
+   }
+  ]
+ }
+}

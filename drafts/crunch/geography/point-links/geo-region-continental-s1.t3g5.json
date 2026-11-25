@@ -1,0 +1,658 @@
+{
+ "geo-region-continental-s1.58.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.2.0",
+    "strength": "helpful",
+    "why": "weight-losing raw materials pull processing",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.58.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.0.0",
+    "strength": "helpful",
+    "why": "plant near raw material (bulk-reducing)",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.58.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.0.0",
+    "strength": "helpful",
+    "why": "plant near raw material (bulk-reducing)",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.59.b": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.2.2",
+    "strength": "helpful",
+    "why": "labour as a location factor",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.59.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.2.2",
+    "strength": "helpful",
+    "why": "labour cost as location factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.59.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.2.3",
+    "strength": "helpful",
+    "why": "high-tech firms seek graduates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.59.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s7.4.b",
+    "strength": "helpful",
+    "why": "informal sector meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.60.b": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.0",
+    "strength": "helpful",
+    "why": "market as location factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.60.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.0",
+    "strength": "helpful",
+    "why": "size and wealth of market",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.60.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.16.3",
+    "strength": "helpful",
+    "why": "removal of trade barriers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.61.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.61.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.1",
+    "strength": "helpful",
+    "why": "ports as location factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.61.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.61.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.6",
+    "strength": "helpful",
+    "why": "freight modes road and rail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.61.3": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.1.7",
+    "strength": "helpful",
+    "why": "infrastructure as location factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.62.b": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.4.b",
+    "strength": "helpful",
+    "why": "government policy and location",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.62.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.4.4",
+    "strength": "helpful",
+    "why": "regional policy steers firms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.62.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.4.4",
+    "strength": "helpful",
+    "why": "incentives steer firms to sites",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.63.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.63.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.63.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.63.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.63.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.63.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.63.5": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.1.5",
+    "strength": "helpful",
+    "why": "cluster or agglomeration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.63.6": {
+  "needs": []
+ },
+ "geo-region-continental-s1.64.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.64.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.64.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.64.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.64.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.64.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.64.5": {
+  "needs": []
+ },
+ "geo-region-continental-s1.65.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.65.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.1.7",
+    "strength": "helpful",
+    "why": "infrastructure as location factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.65.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.7.b",
+    "strength": "helpful",
+    "why": "local opposition delaying projects",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.65.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.65.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.65.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.65.5": {
+  "needs": [
+   {
+    "id": "geo-urban-s7.26.0",
+    "strength": "helpful",
+    "why": "Great Bombay textile strike of 1982",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.65.6": {
+  "needs": []
+ },
+ "geo-region-continental-s1.66.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.66.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.66.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.67.b": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.19.2",
+    "strength": "helpful",
+    "why": "outsourcing meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.67.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.67.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.67.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.67.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.67.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.67.5": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.16.4",
+    "strength": "helpful",
+    "why": "multinationals move capital",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.68.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.68.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.68.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.68.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.2.2",
+    "strength": "helpful",
+    "why": "low wages as labour factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.68.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.68.4": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.16.3",
+    "strength": "helpful",
+    "why": "removal of trade barriers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.68.5": {
+  "needs": []
+ },
+ "geo-region-continental-s1.69.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.69.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.69.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.69.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.69.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.69.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.69.5": {
+  "needs": []
+ },
+ "geo-region-continental-s1.70.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.70.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.70.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.70.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.70.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.71.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.71.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.71.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.71.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.71.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.71.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.72.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.72.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.72.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.72.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.72.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.72.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.73.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.73.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.73.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.73.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.1.7",
+    "strength": "helpful",
+    "why": "infrastructure meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.73.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.74.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.74.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.74.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.74.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.74.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.74.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.74.5": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.1.7",
+    "strength": "helpful",
+    "why": "infrastructure meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.75.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.75.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.75.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.75.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.6",
+    "strength": "helpful",
+    "why": "freight modes bulky goods",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.75.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.75.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.76.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.76.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.76.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.76.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s7.5.0",
+    "strength": "helpful",
+    "why": "road congestion causes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.77.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.77.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.77.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.77.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.77.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s7.13.0",
+    "strength": "helpful",
+    "why": "metros and public transport",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.78.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.78.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.78.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.78.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.79.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.79.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.79.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.79.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.79.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.80.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.80.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.80.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.80.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.81.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.81.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.81.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.81.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.82.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.82.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.82.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.82.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.83.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.83.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.83.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.83.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.83.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.83.4": {
+  "needs": []
+ },
+ "geo-region-continental-s1.84.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.84.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.84.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.84.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.85.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.85.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.85.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.86.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.86.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.86.1": {
+  "needs": []
+ },
+ "geo-region-continental-s1.86.2": {
+  "needs": []
+ },
+ "geo-region-continental-s1.86.3": {
+  "needs": []
+ },
+ "geo-region-continental-s1.87.b": {
+  "needs": []
+ },
+ "geo-region-continental-s1.87.0": {
+  "needs": []
+ },
+ "geo-region-continental-s1.87.1": {
+  "needs": []
+ }
+}

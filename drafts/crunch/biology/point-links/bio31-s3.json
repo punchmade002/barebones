@@ -1,0 +1,807 @@
+{
+ "bio31-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio31-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.0.0",
+    "strength": "helpful",
+    "why": "list of activities",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s3.0.5",
+    "strength": "essential",
+    "why": "richness and evenness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.0.5",
+    "strength": "helpful",
+    "why": "species number and cover",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control set-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.3.1",
+    "strength": "helpful",
+    "why": "gridded quadrat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.1.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.1.1",
+    "strength": "helpful",
+    "why": "random sampling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.2.1",
+    "strength": "helpful",
+    "why": "more samples more reliable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.5.1",
+    "strength": "helpful",
+    "why": "percentage cover method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.1.7",
+    "strength": "helpful",
+    "why": "soil compaction measure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.2.3",
+    "strength": "essential",
+    "why": "quadrat counts to average",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.2",
+    "strength": "helpful",
+    "why": "repeats and means",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.2.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.8.0",
+    "strength": "essential",
+    "why": "belt transect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "risk assessment",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.9.5",
+    "strength": "helpful",
+    "why": "avoid damaging habitats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.2.5",
+    "strength": "helpful",
+    "why": "mean and range",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.2.5",
+    "strength": "helpful",
+    "why": "mean and range",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.12.1",
+    "strength": "helpful",
+    "why": "bar charts compare groups",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.4.2",
+    "strength": "essential",
+    "why": "bar chart described",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.1.1",
+    "strength": "helpful",
+    "why": "hypothesis tested",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s3.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s3.5.0",
+    "strength": "helpful",
+    "why": "path species pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s3.5.0",
+    "strength": "helpful",
+    "why": "fewer species on path",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.5.2",
+    "strength": "essential",
+    "why": "trampling effects",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.0.5",
+    "strength": "helpful",
+    "why": "richness and evenness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s3.4.0",
+    "strength": "essential",
+    "why": "untrampled results",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.4.1",
+    "strength": "essential",
+    "why": "path results",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.1.1",
+    "strength": "helpful",
+    "why": "hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.1.5",
+    "strength": "essential",
+    "why": "areas alike except trampling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "helpful",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.8.0",
+    "strength": "essential",
+    "why": "indicator species",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.7.1",
+    "strength": "helpful",
+    "why": "kick-sampling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.2",
+    "strength": "helpful",
+    "why": "repeats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.9.2",
+    "strength": "helpful",
+    "why": "return wild organisms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "risk assessment",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.8.0",
+    "strength": "essential",
+    "why": "indicator species",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.8.0",
+    "strength": "essential",
+    "why": "indicator species",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.8.0",
+    "strength": "essential",
+    "why": "indicator species",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.8.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s3.8.1",
+    "strength": "essential",
+    "why": "sensitive species upstream",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.8.3",
+    "strength": "essential",
+    "why": "tolerant species downstream",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.8.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s3.8.4",
+    "strength": "helpful",
+    "why": "downstream results explained",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.8.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s3.8.5",
+    "strength": "essential",
+    "why": "oxygen depletion",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.8.3",
+    "strength": "helpful",
+    "why": "tolerant species",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.0.3",
+    "strength": "helpful",
+    "why": "primary vs secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.8.0",
+    "strength": "essential",
+    "why": "indicator species",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.9.0",
+    "strength": "essential",
+    "why": "Q-value",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.9.0",
+    "strength": "essential",
+    "why": "Q-value",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.0.3",
+    "strength": "helpful",
+    "why": "primary vs secondary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.5.0",
+    "strength": "essential",
+    "why": "reliability",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.5.4",
+    "strength": "helpful",
+    "why": "sample size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.3.0",
+    "strength": "essential",
+    "why": "validity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.10.1",
+    "strength": "essential",
+    "why": "confounding variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.1.1",
+    "strength": "helpful",
+    "why": "random sampling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.5.7",
+    "strength": "helpful",
+    "why": "subjective cover estimates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s3.5.2",
+    "strength": "helpful",
+    "why": "soil compaction mechanism",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.8.5",
+    "strength": "helpful",
+    "why": "oxygen depletion mechanism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s3.0.3",
+    "strength": "essential",
+    "why": "secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.10.0",
+    "strength": "helpful",
+    "why": "sample size reliability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.10.2",
+    "strength": "helpful",
+    "why": "abiotic confounders",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.0.6",
+    "strength": "essential",
+    "why": "Simpson index",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s3.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.7.1",
+    "strength": "helpful",
+    "why": "kick-sampling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.12.0",
+    "strength": "essential",
+    "why": "kick sample data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.12.0",
+    "strength": "essential",
+    "why": "kick sample data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s3.12.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s3.12.1",
+    "strength": "essential",
+    "why": "upstream data",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.12.2",
+    "strength": "essential",
+    "why": "downstream data",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s3.8.5",
+    "strength": "helpful",
+    "why": "low oxygen cause",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s3.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s3.12.2",
+    "strength": "essential",
+    "why": "downstream data",
+    "confidence": "high"
+   }
+  ]
+ }
+}

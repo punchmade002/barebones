@@ -1,0 +1,568 @@
+{
+"geo-weather-climate-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-weather-climate-s2.0.0",
+"strength": "helpful",
+"why": "satellite image data",
+"confidence": "low"
+}
+]
+},
+"geo-weather-climate-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-mapwork-s1.1.0",
+"strength": "helpful",
+"why": "uses the Irish Grid system",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-weather-climate-s2.0.1",
+"strength": "helpful",
+"why": "pixels in satellite images",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.0.5": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.1.3": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.1.4": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.1.5": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.1.6": {
+"cost": 2,
+"needs": []
+},
+"geo-weather-climate-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-mapwork-s1.0.0",
+"strength": "helpful",
+"why": "Ordnance Survey maps",
+"confidence": "low"
+}
+]
+},
+"geo-weather-climate-s3.2.4": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-weather-climate-s2.1.3",
+"strength": "helpful",
+"why": "Landsat and Sentinel satellites",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-aerial-photographs-s1.29.4",
+"strength": "helpful",
+"why": "sprawl into the countryside",
+"confidence": "low"
+}
+]
+},
+"geo-weather-climate-s3.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-aerial-photographs-s1.28.0",
+"strength": "helpful",
+"why": "land-use change from photographs",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.3.2": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.3.3": {
+"cost": 2,
+"needs": []
+},
+"geo-weather-climate-s3.3.4": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.4.1": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s5.12.0",
+"strength": "helpful",
+"why": "Dublin sprawl into commuter counties",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s5.11.0",
+"strength": "helpful",
+"why": "long commutes and car dependence",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s5.11.2",
+"strength": "helpful",
+"why": "costly services over large area",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s5.13.1",
+"strength": "helpful",
+"why": "compact growth and density",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.4.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s5.13.3",
+"strength": "helpful",
+"why": "planned new self-contained towns",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-weather-climate-s2.9.2",
+"strength": "helpful",
+"why": "satellite monitoring of agriculture",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-weather-climate-s2.12.1",
+"strength": "helpful",
+"why": "regular repeat satellite coverage",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.5.2": {
+"cost": 2,
+"needs": []
+},
+"geo-weather-climate-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.5.4": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.6.1": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.6.2": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-weather-climate-s2.9.2",
+"strength": "helpful",
+"why": "satellite crop monitoring",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-weather-climate-s2.7.0",
+"strength": "essential",
+"why": "centre-pivot irrigation appearance",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.7.0": {
+"cost": 2,
+"needs": []
+},
+"geo-weather-climate-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-mapwork-s1.14.2",
+"strength": "helpful",
+"why": "OS forest symbols coniferous deciduous mixed",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-mapwork-s1.8.0",
+"strength": "helpful",
+"why": "reading relief from contours",
+"confidence": "low"
+}
+]
+},
+"geo-weather-climate-s3.7.3": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.7.4": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.7.5": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.7.6": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.8.1": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.8.3": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.8.4": {
+"cost": 2,
+"needs": []
+},
+"geo-weather-climate-s3.8.5": {
+"cost": 2,
+"needs": []
+},
+"geo-weather-climate-s3.8.6": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.8.7": {
+"cost": 2,
+"needs": []
+},
+"geo-weather-climate-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.9.0": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-mapwork-s1.0.0",
+"strength": "helpful",
+"why": "OS map extracts and legend",
+"confidence": "low"
+}
+]
+},
+"geo-weather-climate-s3.9.2": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-mapwork-s1.28.1",
+"strength": "helpful",
+"why": "ringforts as early Christian farmsteads",
+"confidence": "high"
+},
+{
+"id": "geo-urban-s1.5.0",
+"strength": "helpful",
+"why": "ringforts as dispersed farmsteads",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-aerial-photographs-s1.12.3",
+"strength": "helpful",
+"why": "photograph and map dates reveal change",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-mapwork-s1.28.1",
+"strength": "helpful",
+"why": "ringfort monument type",
+"confidence": "high"
+},
+{
+"id": "geo-urban-s1.5.0",
+"strength": "helpful",
+"why": "ringforts drawn as circles",
+"confidence": "low"
+}
+]
+},
+"geo-weather-climate-s3.10.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-aerial-photographs-s1.0.0",
+"strength": "helpful",
+"why": "vertical aerial photographs",
+"confidence": "low"
+}
+]
+},
+"geo-weather-climate-s3.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-aerial-photographs-s1.32.0",
+"strength": "helpful",
+"why": "shadows and low sun direction",
+"confidence": "low"
+}
+]
+},
+"geo-weather-climate-s3.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-aerial-photographs-s1.28.0",
+"strength": "helpful",
+"why": "comparing photographs for change",
+"confidence": "low"
+}
+]
+},
+"geo-weather-climate-s3.10.4": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.10.5": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.11.0": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-mapwork-s1.27.1",
+"strength": "helpful",
+"why": "promontory forts defined",
+"confidence": "low"
+},
+{
+"id": "geo-urban-s1.4.2",
+"strength": "helpful",
+"why": "promontory forts defined",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s5.19.1",
+"strength": "helpful",
+"why": "Wood Quay Viking site and civic offices",
+"confidence": "high"
+}
+]
+},
+"geo-weather-climate-s3.11.3": {
+"cost": 2,
+"needs": []
+},
+"geo-weather-climate-s3.11.4": {
+"cost": 1,
+"needs": []
+},
+"geo-weather-climate-s3.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s1.3.2",
+"strength": "helpful",
+"why": "Brú na Bóinne location",
+"confidence": "low"
+}
+]
+},
+"geo-weather-climate-s3.11.6": {
+"cost": 2,
+"needs": []
+},
+"geo-weather-climate-s3.11.7": {
+"cost": 1,
+"needs": []
+}
+}

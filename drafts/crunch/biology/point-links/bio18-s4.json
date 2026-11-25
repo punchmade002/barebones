@@ -1,0 +1,757 @@
+{
+"bio18-s4.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio18-s4.0.0": {
+"cost": 1,
+"needs": []
+},
+"bio18-s4.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.0",
+"strength": "helpful",
+"why": "joint definition",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.0",
+"strength": "helpful",
+"why": "joint definition",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.0",
+"strength": "helpful",
+"why": "joint definition",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "essential",
+"why": "freely movable joints",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "helpful",
+"why": "freely movable joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "helpful",
+"why": "freely movable joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "helpful",
+"why": "freely movable joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "helpful",
+"why": "freely movable joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "essential",
+"why": "synovial joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "essential",
+"why": "synovial joint cavity",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.0",
+"strength": "essential",
+"why": "articular cartilage",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.0",
+"strength": "essential",
+"why": "articular cartilage",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.4",
+"strength": "helpful",
+"why": "synovial fluid",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.0",
+"strength": "helpful",
+"why": "joint capsule",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.3",
+"strength": "helpful",
+"why": "membrane secretes the fluid",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.4",
+"strength": "essential",
+"why": "synovial fluid",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.2",
+"strength": "helpful",
+"why": "cartilage lacks blood supply",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.3.b": {
+"cost": 1,
+"needs": []
+},
+"bio18-s4.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.4",
+"strength": "helpful",
+"why": "synovial fluid",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.3.1": {
+"cost": 1,
+"needs": []
+},
+"bio18-s4.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.1",
+"strength": "essential",
+"why": "ligament structure",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.1",
+"strength": "essential",
+"why": "ligament definition",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.3.0",
+"strength": "helpful",
+"why": "capsule",
+"confidence": "low"
+}
+]
+},
+"bio18-s4.3.4": {
+"cost": 1,
+"needs": []
+},
+"bio18-s4.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.4",
+"strength": "essential",
+"why": "tendon structure",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.0",
+"strength": "helpful",
+"why": "cartilage at joints",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.3.7": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.3.0",
+"strength": "helpful",
+"why": "joint capsule",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.0",
+"strength": "helpful",
+"why": "articular cartilage",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "helpful",
+"why": "synovial joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.0",
+"strength": "essential",
+"why": "articular cartilage",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.4",
+"strength": "helpful",
+"why": "synovial fluid",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.2",
+"strength": "essential",
+"why": "ligament function",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.5",
+"strength": "essential",
+"why": "tendon transmits pull",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.5.b": {
+"cost": 1,
+"needs": []
+},
+"bio18-s4.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.1",
+"strength": "essential",
+"why": "ligament definition",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.3.4",
+"strength": "essential",
+"why": "tendon definition",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.0",
+"strength": "essential",
+"why": "articular cartilage",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.3.2",
+"strength": "essential",
+"why": "ligament elasticity",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.3.5",
+"strength": "essential",
+"why": "tendon inelastic",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.1",
+"strength": "helpful",
+"why": "cartilage absorbs shock",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.3.2",
+"strength": "essential",
+"why": "ligament function",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.3.5",
+"strength": "essential",
+"why": "tendon function",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.1",
+"strength": "essential",
+"why": "cartilage function",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio18-s4.6.0": {
+"cost": 1,
+"needs": []
+},
+"bio18-s4.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.6.0",
+"strength": "essential",
+"why": "muscle only pulls",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "helpful",
+"why": "antagonistic pair",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.3.4",
+"strength": "essential",
+"why": "tendons join muscle to bone",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.3",
+"strength": "essential",
+"why": "origin and insertion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "essential",
+"why": "antagonistic pair",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.3",
+"strength": "essential",
+"why": "origin and insertion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.3",
+"strength": "essential",
+"why": "origin and insertion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.6.2",
+"strength": "essential",
+"why": "flexion and flexor",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.6.4",
+"strength": "helpful",
+"why": "contraction moves bone",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.6.2",
+"strength": "essential",
+"why": "extension and extensor",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.7.2",
+"strength": "helpful",
+"why": "opposite of flexion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.2",
+"strength": "essential",
+"why": "flexor and extensor",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "helpful",
+"why": "antagonistic pair",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.1.1",
+"strength": "helpful",
+"why": "elbow hinge joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.8.0",
+"strength": "essential",
+"why": "lever and pivot",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.7.0",
+"strength": "helpful",
+"why": "biceps insertion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "essential",
+"why": "antagonistic pair",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.1.1",
+"strength": "helpful",
+"why": "motor neurons carry impulses",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "essential",
+"why": "antagonistic pair",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.7.2",
+"strength": "essential",
+"why": "bending the arm",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.7.3",
+"strength": "essential",
+"why": "straightening the arm",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "helpful",
+"why": "antagonistic pair",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.1.1",
+"strength": "helpful",
+"why": "hinge joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.6.3",
+"strength": "essential",
+"why": "origin and insertion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.7.2",
+"strength": "helpful",
+"why": "flexion of arm",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.7.3",
+"strength": "helpful",
+"why": "extension of arm",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.0",
+"strength": "essential",
+"why": "muscle only pulls",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.8.1",
+"strength": "essential",
+"why": "lever action",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.9.b",
+"strength": "helpful",
+"why": "the arm model",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.4",
+"strength": "helpful",
+"why": "muscles shorten and fatten",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.1",
+"strength": "helpful",
+"why": "cartilage reduces friction",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.1.2",
+"strength": "helpful",
+"why": "radius rotation, pivot joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.5",
+"strength": "helpful",
+"why": "nerve impulses",
+"confidence": "low"
+}
+]
+},
+"bio18-s4.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.4",
+"strength": "essential",
+"why": "tendons are inelastic",
+"confidence": "high"
+}
+]
+}
+}

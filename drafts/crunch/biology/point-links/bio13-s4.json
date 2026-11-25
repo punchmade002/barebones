@@ -1,0 +1,815 @@
+{
+"bio13-s4.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s1.7.0",
+"strength": "helpful",
+"why": "enzyme specificity",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s1.1.3",
+"strength": "helpful",
+"why": "temperature and pH effects",
+"confidence": "low"
+}
+]
+},
+"bio13-s4.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.0.1",
+"strength": "essential",
+"why": "mild conditions",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s1.0.0",
+"strength": "helpful",
+"why": "catalyst not used up",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.1.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.2.0",
+"strength": "helpful",
+"why": "fermenters and bioreactors",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.0.6",
+"strength": "helpful",
+"why": "genetic modification of microorganisms",
+"confidence": "low"
+}
+]
+},
+"bio13-s4.1.2": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s1.7.5",
+"strength": "essential",
+"why": "denaturation",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.1.4": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "helpful",
+"why": "immobilisation",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.1.3",
+"strength": "essential",
+"why": "denaturation limits",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.1.3",
+"strength": "helpful",
+"why": "denaturation limits",
+"confidence": "low"
+}
+]
+},
+"bio13-s4.2.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s1.4.0",
+"strength": "helpful",
+"why": "substrate and product",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.2.0",
+"strength": "essential",
+"why": "chymosin in rennet",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s1.10.1",
+"strength": "helpful",
+"why": "lactose intolerance and lactase",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.2.2",
+"strength": "essential",
+"why": "lactase breaking lactose",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.3.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.3.0": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "essential",
+"why": "immobilised enzyme",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.3.1",
+"strength": "essential",
+"why": "glucose to fructose",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.10.2",
+"strength": "helpful",
+"why": "yeast fermentation to ethanol",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s1.2.0",
+"strength": "helpful",
+"why": "protease substrate naming",
+"confidence": "low"
+}
+]
+},
+"bio13-s4.4.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s1.2.0",
+"strength": "helpful",
+"why": "protease acts on protein",
+"confidence": "low"
+}
+]
+},
+"bio13-s4.4.1": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s1.2.0",
+"strength": "helpful",
+"why": "enzyme names show substrate",
+"confidence": "low"
+}
+]
+},
+"bio13-s4.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s1.7.5",
+"strength": "essential",
+"why": "denaturation",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.5.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.3.3",
+"strength": "helpful",
+"why": "amylase and yeast fermentation",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.5.0",
+"strength": "helpful",
+"why": "glucose fermented to ethanol",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.5.1",
+"strength": "essential",
+"why": "cellulase biofuel",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.0.1",
+"strength": "helpful",
+"why": "mild conditions",
+"confidence": "low"
+}
+]
+},
+"bio13-s4.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.6.0": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.6.1": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.6.2": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.6.3": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.6.4": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.6.5": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.5.1",
+"strength": "helpful",
+"why": "cellulose-based biofuel",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.7.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.7.0": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s4.7.0",
+"strength": "essential",
+"why": "glucose oxidase test strips",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.7.2": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.7.3": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.2.2",
+"strength": "essential",
+"why": "lactase and lactose intolerance",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.7.5": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.7.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s4.7.5",
+"strength": "essential",
+"why": "asparaginase treatment",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.7.7": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.7.1",
+"strength": "helpful",
+"why": "Taq polymerase in PCR",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.8.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "essential",
+"why": "immobilised enzyme",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.8.0",
+"strength": "essential",
+"why": "semi-synthetic penicillins",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.8.2": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s4.8.2",
+"strength": "essential",
+"why": "single-form drugs",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.0.1",
+"strength": "helpful",
+"why": "mild conditions",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.9.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.1.5",
+"strength": "essential",
+"why": "free enzymes lost",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "essential",
+"why": "immobilised enzyme",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "essential",
+"why": "immobilised enzyme",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "essential",
+"why": "immobilised enzyme",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "essential",
+"why": "immobilised enzyme",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "essential",
+"why": "immobilised enzyme",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.10.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "essential",
+"why": "immobilised enzyme",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "essential",
+"why": "immobilised enzyme",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "essential",
+"why": "immobilised enzyme",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s1.7.5",
+"strength": "helpful",
+"why": "denaturation",
+"confidence": "low"
+}
+]
+},
+"bio13-s4.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s1.4.2",
+"strength": "essential",
+"why": "active site",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.1",
+"strength": "helpful",
+"why": "enzyme in gel bead",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.1",
+"strength": "helpful",
+"why": "enzyme in gel bead",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.1",
+"strength": "helpful",
+"why": "entrapment in beads",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.9.1",
+"strength": "essential",
+"why": "alginate entrapment",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s4.11.0",
+"strength": "essential",
+"why": "alginate-yeast mixture",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.11.2": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.11.1",
+"strength": "essential",
+"why": "beads from step 2",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.11.3",
+"strength": "helpful",
+"why": "rinsed beads",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.11.5": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.11.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s4.11.1",
+"strength": "essential",
+"why": "bead-making procedure",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.11.4",
+"strength": "helpful",
+"why": "bead column",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.11.4",
+"strength": "essential",
+"why": "bead column",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.12.0",
+"strength": "essential",
+"why": "glucose test result",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.11.1",
+"strength": "essential",
+"why": "making alginate beads",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.10.1",
+"strength": "essential",
+"why": "product not contaminated",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.13.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.13.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.2.0",
+"strength": "helpful",
+"why": "bioreactor vessel",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.13.0",
+"strength": "essential",
+"why": "bioreactor definition",
+"confidence": "high"
+}
+]
+},
+"bio13-s4.14.b": {
+"cost": 1,
+"needs": []
+},
+"bio13-s4.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s4.7.0",
+"strength": "helpful",
+"why": "diagnostic strips",
+"confidence": "low"
+}
+]
+},
+"bio13-s4.14.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s4.0.2",
+"strength": "helpful",
+"why": "energy and waste savings",
+"confidence": "low"
+}
+]
+},
+"bio13-s4.14.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio13-s4.9.0",
+"strength": "helpful",
+"why": "immobilisation",
+"confidence": "low"
+}
+]
+}
+}

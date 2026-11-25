@@ -1,0 +1,416 @@
+{
+ "bio11-s9.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.0",
+    "strength": "helpful",
+    "why": "chromosome carries genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.0",
+    "strength": "essential",
+    "why": "genes in order on one DNA molecule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.0.0",
+    "strength": "helpful",
+    "why": "genes travel together on chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.0.0",
+    "strength": "essential",
+    "why": "genes on one chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.0.4",
+    "strength": "essential",
+    "why": "homologous chromosomes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.3.5",
+    "strength": "helpful",
+    "why": "alleles of a gene",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s9.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.0.3",
+    "strength": "helpful",
+    "why": "linked genotype notation",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.3.1",
+    "strength": "helpful",
+    "why": "locus meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.5.0",
+    "strength": "essential",
+    "why": "independent assortment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.5.0",
+    "strength": "essential",
+    "why": "independent assortment law",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.4.5",
+    "strength": "essential",
+    "why": "homologues separate in meiosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.0.3",
+    "strength": "essential",
+    "why": "linked genotype notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.4",
+    "strength": "essential",
+    "why": "four gamete types, unlinked",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.1.3",
+    "strength": "essential",
+    "why": "new combinations absent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.4.1",
+    "strength": "essential",
+    "why": "9:3:3:1 ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s9.1.1",
+    "strength": "helpful",
+    "why": "linked genes move together",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s9.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.1.2",
+    "strength": "helpful",
+    "why": "linked gametes AB and ab",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.7.b",
+    "strength": "essential",
+    "why": "test cross method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.0.2",
+    "strength": "helpful",
+    "why": "dominant and recessive allele key",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.0.3",
+    "strength": "essential",
+    "why": "linked genotype notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.7.1",
+    "strength": "helpful",
+    "why": "recessive parent gives one gamete",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.2.2",
+    "strength": "essential",
+    "why": "gametes combine in offspring",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.7.3",
+    "strength": "essential",
+    "why": "unlinked test cross 1:1:1:1",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s9.0.3",
+    "strength": "essential",
+    "why": "linked genotype notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.2.5",
+    "strength": "helpful",
+    "why": "different arrangements give different offspring",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.3.b",
+    "strength": "essential",
+    "why": "F1 x F1 dihybrid cross",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.0.3",
+    "strength": "essential",
+    "why": "linked genotype notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.1.2",
+    "strength": "essential",
+    "why": "linked double heterozygote gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.3.2",
+    "strength": "helpful",
+    "why": "Punnett square method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.3.2",
+    "strength": "essential",
+    "why": "counting Punnett square genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.4.0",
+    "strength": "essential",
+    "why": "unlinked 9:3:3:1 phenotypes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s9.3.3",
+    "strength": "helpful",
+    "why": "linked offspring genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.2.b",
+    "strength": "helpful",
+    "why": "test cross with linked genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.0.0",
+    "strength": "helpful",
+    "why": "genes on same chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s9.2.b",
+    "strength": "essential",
+    "why": "linked test cross",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.7.3",
+    "strength": "helpful",
+    "why": "unlinked test cross 1:1:1:1",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.4.1",
+    "strength": "helpful",
+    "why": "expected unlinked ratios",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s9.1.4",
+    "strength": "essential",
+    "why": "parental combinations indicate linkage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s9.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s9.1.5",
+    "strength": "essential",
+    "why": "ratios differ under linkage",
+    "confidence": "high"
+   }
+  ]
+ }
+}

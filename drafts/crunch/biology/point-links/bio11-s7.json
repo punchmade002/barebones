@@ -1,0 +1,417 @@
+{
+ "bio11-s7.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.2.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio11-s7.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.1.1",
+    "strength": "helpful",
+    "why": "true-breeding lines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.2.3",
+    "strength": "helpful",
+    "why": "P and F1 generations",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s7.1.1",
+    "strength": "helpful",
+    "why": "true-breeding parents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.3.0",
+    "strength": "helpful",
+    "why": "F1 plants being selfed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.3.1",
+    "strength": "helpful",
+    "why": "3 : 1 ratio in F2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.3.1",
+    "strength": "essential",
+    "why": "dwarf reappears in F2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.3.3",
+    "strength": "essential",
+    "why": "hidden factor inference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.3.4",
+    "strength": "helpful",
+    "why": "factors, dominant and recessive",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.3.4",
+    "strength": "essential",
+    "why": "pairs of factors",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "helpful",
+    "why": "meiosis makes gametes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s7.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.4.0",
+    "strength": "helpful",
+    "why": "law restated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.1.1",
+    "strength": "essential",
+    "why": "heterozygous gamete types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.4.2",
+    "strength": "essential",
+    "why": "gamete types T and t",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.7.5",
+    "strength": "helpful",
+    "why": "Tt x Tt offspring ratio",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s7.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.0.0",
+    "strength": "essential",
+    "why": "alleles on homologous pair",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.4.4",
+    "strength": "essential",
+    "why": "alleles on homologous chromosomes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s2.1.1",
+    "strength": "helpful",
+    "why": "homologues separate in meiosis I",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s7.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.4.5",
+    "strength": "essential",
+    "why": "segregation in meiosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.4.0",
+    "strength": "helpful",
+    "why": "first law contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.4.0",
+    "strength": "essential",
+    "why": "alleles of one gene segregate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.5.0",
+    "strength": "essential",
+    "why": "law restated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.2.1",
+    "strength": "helpful",
+    "why": "unlinked genes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s7.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.4.2",
+    "strength": "essential",
+    "why": "heterozygous gamete types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.5.3",
+    "strength": "essential",
+    "why": "independent allele sorting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s2.1.2",
+    "strength": "essential",
+    "why": "independent assortment of pairs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.5.5",
+    "strength": "essential",
+    "why": "independent pair arrangement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.5.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.5.6",
+    "strength": "essential",
+    "why": "two arrangements give four gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.5.0",
+    "strength": "helpful",
+    "why": "independent inheritance law",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.3.0",
+    "strength": "helpful",
+    "why": "P to F1 cross",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.6.0",
+    "strength": "essential",
+    "why": "F1 round yellow parents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.6.1",
+    "strength": "essential",
+    "why": "new combinations in F2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s7.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.3.4",
+    "strength": "helpful",
+    "why": "factors masked, then reappear",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.7.0",
+    "strength": "essential",
+    "why": "particulate versus blending",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s7.7.2": {
+  "cost": 1,
+  "needs": []
+ }
+}

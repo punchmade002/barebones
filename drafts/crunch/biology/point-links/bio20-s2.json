@@ -1,0 +1,313 @@
+{
+ "bio20-s2.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.0",
+    "strength": "helpful",
+    "why": "hormone definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.0",
+    "strength": "essential",
+    "why": "what a hormone is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s2.0.0",
+    "strength": "helpful",
+    "why": "manipulation definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.7.2",
+    "strength": "helpful",
+    "why": "testosterone effects on muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s2.1.0",
+    "strength": "helpful",
+    "why": "what steroids are",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s2.1.0",
+    "strength": "essential",
+    "why": "steroids as testosterone derivatives",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s2.1.0",
+    "strength": "essential",
+    "why": "steroids as male hormone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.0",
+    "strength": "helpful",
+    "why": "hormone as messenger",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s2.1.4",
+    "strength": "essential",
+    "why": "EPO raises red cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s2.1.5",
+    "strength": "helpful",
+    "why": "extra red cells from EPO",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.1.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.6.2",
+    "strength": "essential",
+    "why": "insulin lowers blood glucose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s2.2.0",
+    "strength": "essential",
+    "why": "insulin treatment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.8.1",
+    "strength": "helpful",
+    "why": "oestrogen as female hormone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.2.0",
+    "strength": "essential",
+    "why": "FSH function",
+    "confidence": "high"
+   },
+   {
+    "id": "bio20-s1.2.1",
+    "strength": "essential",
+    "why": "LH causes ovulation",
+    "confidence": "high"
+   },
+   {
+    "id": "bio20-s2.2.2",
+    "strength": "helpful",
+    "why": "pill hormones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.2.0",
+    "strength": "helpful",
+    "why": "FSH stimulates egg development",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.8.1",
+    "strength": "essential",
+    "why": "oestrogen and its roles",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s6.12.0",
+    "strength": "helpful",
+    "why": "menopause definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s2.2.5",
+    "strength": "essential",
+    "why": "what HRT is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.3.1",
+    "strength": "essential",
+    "why": "thyroxine function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.8.3",
+    "strength": "helpful",
+    "why": "progesterone as ovary hormone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s2.3.1",
+    "strength": "helpful",
+    "why": "growth hormone use in cattle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s2.3.2",
+    "strength": "essential",
+    "why": "BST use",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.3.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio20-s2.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s2.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s2.2.0",
+    "strength": "helpful",
+    "why": "insulin example",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s2.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s2.1.1",
+    "strength": "helpful",
+    "why": "steroid side effects",
+    "confidence": "high"
+   }
+  ]
+ }
+}

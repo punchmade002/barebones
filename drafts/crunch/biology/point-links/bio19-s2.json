@@ -1,0 +1,363 @@
+{
+ "bio19-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.0.5",
+    "strength": "helpful",
+    "why": "nerve impulse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.0.0",
+    "strength": "helpful",
+    "why": "stimulus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.1.0",
+    "strength": "essential",
+    "why": "reflex action definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.1.0",
+    "strength": "helpful",
+    "why": "reflex action definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.1.0",
+    "strength": "helpful",
+    "why": "reflex action definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.1.0",
+    "strength": "helpful",
+    "why": "reflex action definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s2.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s1.1.0",
+    "strength": "essential",
+    "why": "sensory neuron carries impulses in",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.1.1",
+    "strength": "essential",
+    "why": "motor neuron carries impulses out",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s3.0.4",
+    "strength": "essential",
+    "why": "interneuron connects neurons",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.4.1",
+    "strength": "helpful",
+    "why": "grey matter of cord",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.2.0",
+    "strength": "helpful",
+    "why": "sensory neuron in the arc",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.2.0",
+    "strength": "helpful",
+    "why": "motor neuron in the arc",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s2.2.0",
+    "strength": "essential",
+    "why": "order of reflex arc parts",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s2.2.1",
+    "strength": "essential",
+    "why": "dorsal root and ganglion",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s2.2.2",
+    "strength": "essential",
+    "why": "ventral root",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.4.2",
+    "strength": "helpful",
+    "why": "white matter in cord section",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.2.0",
+    "strength": "helpful",
+    "why": "reflex arc pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.0.1",
+    "strength": "helpful",
+    "why": "receptor detects stimulus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.1.0",
+    "strength": "helpful",
+    "why": "sensory neuron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.0.4",
+    "strength": "helpful",
+    "why": "interneuron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.1.1",
+    "strength": "helpful",
+    "why": "motor neuron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.0.2",
+    "strength": "essential",
+    "why": "effector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.0.2",
+    "strength": "helpful",
+    "why": "muscle effector contracts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s2.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s2.3.2",
+    "strength": "helpful",
+    "why": "synapse as gap between neurons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.4.0",
+    "strength": "helpful",
+    "why": "short route",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.0.4",
+    "strength": "helpful",
+    "why": "interneuron",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.1.0",
+    "strength": "helpful",
+    "why": "reflex action definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.2.0",
+    "strength": "helpful",
+    "why": "reflex arc with interneuron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.0.0",
+    "strength": "helpful",
+    "why": "stimulus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.2.0",
+    "strength": "essential",
+    "why": "sensory-interneuron-motor pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s2.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.1.0",
+    "strength": "helpful",
+    "why": "reflex action definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s2.2.0",
+    "strength": "helpful",
+    "why": "spinal cord reflex arc",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.8.2",
+    "strength": "helpful",
+    "why": "medulla controls reflexes",
+    "confidence": "low"
+   }
+  ]
+ }
+}

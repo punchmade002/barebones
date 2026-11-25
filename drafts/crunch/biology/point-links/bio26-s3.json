@@ -1,0 +1,321 @@
+{
+ "bio26-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.0.5",
+    "strength": "helpful",
+    "why": "collecting duct location",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.2.3",
+    "strength": "helpful",
+    "why": "pituitary releases ADH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.0.5",
+    "strength": "essential",
+    "why": "collecting duct structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.0.3",
+    "strength": "essential",
+    "why": "aquaporins water channels",
+    "confidence": "high"
+   },
+   {
+    "id": "bio20-s1.0.0",
+    "strength": "helpful",
+    "why": "hormone receptors on target cells",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s3.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s2.4.0",
+    "strength": "essential",
+    "why": "salty medulla",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.1.2",
+    "strength": "essential",
+    "why": "ADH makes duct permeable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.1.2",
+    "strength": "essential",
+    "why": "water channels and permeability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.0",
+    "strength": "helpful",
+    "why": "stimulus in homeostasis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.1",
+    "strength": "helpful",
+    "why": "receptor role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.1.0",
+    "strength": "essential",
+    "why": "ADH from pituitary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.2.2",
+    "strength": "helpful",
+    "why": "ADH release",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.1.2",
+    "strength": "essential",
+    "why": "ADH raises permeability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.1.4",
+    "strength": "essential",
+    "why": "more ADH gives concentrated urine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "essential",
+    "why": "negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.2.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.1.0",
+    "strength": "helpful",
+    "why": "ADH release",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.1.5",
+    "strength": "essential",
+    "why": "less ADH, fewer channels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.1.5",
+    "strength": "helpful",
+    "why": "less water reabsorbed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.3.4",
+    "strength": "helpful",
+    "why": "less reabsorption gives dilute urine",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s3.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "helpful",
+    "why": "negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.2.4",
+    "strength": "essential",
+    "why": "more ADH raises permeability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s3.2.5",
+    "strength": "essential",
+    "why": "more ADH gives small urine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s3.3.3",
+    "strength": "essential",
+    "why": "less ADH, less permeable ducts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s3.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s3.2.6",
+    "strength": "essential",
+    "why": "high-concentration branch",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s3.3.6",
+    "strength": "helpful",
+    "why": "low-concentration branch",
+    "confidence": "high"
+   }
+  ]
+ }
+}

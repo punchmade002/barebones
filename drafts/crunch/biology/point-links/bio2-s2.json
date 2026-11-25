@@ -1,0 +1,674 @@
+{
+ "bio2-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.0",
+    "strength": "helpful",
+    "why": "variable defined",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s1.0.6",
+    "strength": "helpful",
+    "why": "independent variable defined",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "depends on independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "affects the dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "helpful",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.4",
+    "strength": "helpful",
+    "why": "cylinder size controlled",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.1.3",
+    "strength": "helpful",
+    "why": "range of values tested",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.2.0",
+    "strength": "helpful",
+    "why": "fair test comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control set-up definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "the control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.0",
+    "strength": "essential",
+    "why": "fair test",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "helpful",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.3.0",
+    "strength": "essential",
+    "why": "validity definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.3.1",
+    "strength": "essential",
+    "why": "restoring validity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.3.0",
+    "strength": "essential",
+    "why": "valid investigation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.4.0",
+    "strength": "helpful",
+    "why": "error and true value",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.4.2",
+    "strength": "helpful",
+    "why": "precision defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.4.1",
+    "strength": "essential",
+    "why": "accuracy",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.4.2",
+    "strength": "essential",
+    "why": "precision",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.4.1",
+    "strength": "essential",
+    "why": "accuracy",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.4.2",
+    "strength": "essential",
+    "why": "precision",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "helpful",
+    "why": "values of independent variable",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.1",
+    "strength": "helpful",
+    "why": "replicates versus repeats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.3",
+    "strength": "essential",
+    "why": "sample size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.3",
+    "strength": "essential",
+    "why": "sample size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.4.3",
+    "strength": "essential",
+    "why": "resolution of instruments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.6.0",
+    "strength": "helpful",
+    "why": "resolution and equipment choice",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "control measures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "hazard and control measure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "hazard and control measure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "hazard and control measure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "hazard and control measure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "hazard and control measure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.7.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.1.1",
+    "strength": "helpful",
+    "why": "hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.1.1",
+    "strength": "helpful",
+    "why": "hypothesis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.9.0",
+    "strength": "helpful",
+    "why": "animal ethics context",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.9.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio2-s2.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.9.3",
+    "strength": "helpful",
+    "why": "participant ethics",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s2.9.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s2.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s1.1.1",
+    "strength": "essential",
+    "why": "hypothesis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "helpful",
+    "why": "controlled variables",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "helpful",
+    "why": "the control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.5.1",
+    "strength": "helpful",
+    "why": "replicates",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "risk assessment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s2.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.2",
+    "strength": "essential",
+    "why": "boiled enzyme control",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.5.1",
+    "strength": "helpful",
+    "why": "replicates",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.7.3",
+    "strength": "helpful",
+    "why": "hydrogen peroxide hazard",
+    "confidence": "high"
+   }
+  ]
+ }
+}

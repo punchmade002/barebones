@@ -1,0 +1,41 @@
+{
+  "12A(i)": [],
+  "12A(ii)": [],
+  "12A(iii)": [
+    {"k": 1, "of": ["geo-population-migration-s6.0.b"]},
+    {"k": 1, "of": ["geo-population-migration-s6.4.3"]}
+  ],
+  "12A(iv)": [
+    {"k": 1, "of": ["geo-urban-s7.25.3"]},
+    {"k": 1, "of": ["geo-urban-s7.3.1"]},
+    {"k": 2, "of": ["geo-urban-s7.18.0", "geo-urban-s7.3.b"]}
+  ],
+  "12B": [
+    {"k": 2, "of": ["geo-population-migration-s1.37.3", "geo-population-migration-s1.42.0"]},
+    {"k": 2, "of": ["geo-population-migration-s3.6.4", "geo-population-migration-s3.6.0"]},
+    {"k": 2, "of": ["geo-population-migration-s1.38.0", "geo-population-migration-s1.38.3"]},
+    {"k": 2, "of": ["geo-population-migration-s3.7.2", "geo-population-migration-s3.7.3"]},
+    {"k": 1, "of": ["geo-population-migration-s3.8.1"]},
+    {"k": 2, "of": ["geo-population-migration-s3.9.0", "geo-population-migration-s3.9.2"]},
+    {"k": 2, "of": ["geo-population-migration-s3.10.2", "geo-population-migration-s3.11.b"]},
+    {"k": 2, "of": ["geo-population-migration-s3.13.0", "geo-population-migration-s3.13.2"]},
+    {"k": 2, "of": ["geo-population-migration-s1.39.1", "geo-population-migration-s1.39.2"]},
+    {"k": 2, "of": ["geo-population-migration-s1.40.0", "geo-population-migration-s1.40.3"]},
+    {"k": 2, "of": ["geo-population-migration-s1.41.0", "geo-population-migration-s1.33.1"]},
+    {"k": 1, "of": ["geo-population-migration-s1.43.0"]},
+    {"k": 2, "of": ["geo-population-migration-s1.43.3", "geo-population-migration-s1.43.1"]},
+    {"k": 2, "of": ["geo-population-migration-s1.44.0", "geo-population-migration-s1.44.1"]},
+    {"k": 2, "of": ["geo-population-migration-s1.10.2", "geo-population-migration-s1.10.0"]}
+  ],
+  "12C": [
+    {"k": 1, "of": ["geo-urban-s4.16.0", "geo-population-migration-s1.10.0"]},
+    {"k": 1, "of": ["geo-urban-s4.15.1"]},
+    {"k": 1, "of": ["geo-urban-s4.15.5"]},
+    {"k": 1, "of": ["geo-urban-s4.16.1", "geo-urban-s3.22.2"]},
+    {"k": 1, "of": ["geo-urban-s3.2.3"]},
+    {"k": 2, "of": ["geo-urban-s3.22.0", "geo-urban-s3.22.1"]},
+    {"k": 1, "of": ["geo-urban-s4.11.3"]},
+    {"k": 1, "of": ["geo-urban-s3.9.1"]},
+    {"k": 1, "of": ["geo-urban-s4.17.4"]}
+  ]
+}

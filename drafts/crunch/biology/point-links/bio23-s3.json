@@ -1,0 +1,650 @@
+{
+ "bio23-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "helpful",
+    "why": "meiosis halves chromosome number",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.0.0",
+    "strength": "helpful",
+    "why": "haploid gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "helpful",
+    "why": "meiosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.0",
+    "strength": "helpful",
+    "why": "mitosis keeps chromosome number",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "essential",
+    "why": "meiosis after mitosis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s1.2.1",
+    "strength": "helpful",
+    "why": "seminiferous tubule walls make sperm",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "helpful",
+    "why": "meiosis gives four cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.1",
+    "strength": "helpful",
+    "why": "chromosome pair separation in meiosis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s1.3.1",
+    "strength": "helpful",
+    "why": "epididymis stores and matures sperm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s1.1.1",
+    "strength": "helpful",
+    "why": "scrotum keeps testes cooler",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s2.6.1",
+    "strength": "helpful",
+    "why": "follicles hold immature eggs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "essential",
+    "why": "meiosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.2.0",
+    "strength": "helpful",
+    "why": "fixed egg supply at birth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.6.1",
+    "strength": "helpful",
+    "why": "follicle and ovulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s3.2.1",
+    "strength": "essential",
+    "why": "meiosis stopped part-way",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s2.1.0",
+    "strength": "essential",
+    "why": "meiosis gives four cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.3.0",
+    "strength": "essential",
+    "why": "one egg from meiosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.3.0",
+    "strength": "helpful",
+    "why": "polar bodies leave egg cytoplasm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s2.1.1",
+    "strength": "helpful",
+    "why": "chromosome separation in meiosis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s3.2.3",
+    "strength": "helpful",
+    "why": "eggs formed before birth",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s3.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.3.3",
+    "strength": "helpful",
+    "why": "egg ageing and errors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.0.0",
+    "strength": "helpful",
+    "why": "haploid nucleus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s3.4.1",
+    "strength": "helpful",
+    "why": "head, acrosome, nucleus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s3.0.0",
+    "strength": "helpful",
+    "why": "haploid nucleus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s3.5.2",
+    "strength": "helpful",
+    "why": "zona pellucida and follicle cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.4.0",
+    "strength": "helpful",
+    "why": "sperm size",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s3.5.0",
+    "strength": "helpful",
+    "why": "egg size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.5.2",
+    "strength": "helpful",
+    "why": "cilia move egg along tube",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.5.1",
+    "strength": "helpful",
+    "why": "egg cytoplasm food reserves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.1.3",
+    "strength": "essential",
+    "why": "sperm carry X or Y",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.1.2",
+    "strength": "helpful",
+    "why": "four sperm per meiosis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s3.3.1",
+    "strength": "helpful",
+    "why": "one egg per meiosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s1.0.2",
+    "strength": "helpful",
+    "why": "semen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s2.3.2",
+    "strength": "essential",
+    "why": "cervical mucus thins at ovulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s3.7.3",
+    "strength": "essential",
+    "why": "sperm survival time",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s3.7.4",
+    "strength": "essential",
+    "why": "egg survival time",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.0.2",
+    "strength": "helpful",
+    "why": "haploid gametes fuse to zygote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.5.3",
+    "strength": "helpful",
+    "why": "fertilisation in fallopian tube",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.5.2",
+    "strength": "essential",
+    "why": "follicle cells around egg",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s3.4.1",
+    "strength": "essential",
+    "why": "acrosome enzymes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s3.5.2",
+    "strength": "essential",
+    "why": "zona pellucida",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.4.2",
+    "strength": "helpful",
+    "why": "sperm mitochondria in middle piece",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.5.2",
+    "strength": "essential",
+    "why": "zona pellucida",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.2.5",
+    "strength": "essential",
+    "why": "meiosis completed after sperm entry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.8.0",
+    "strength": "helpful",
+    "why": "fusion of nuclei to zygote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s3.1.3",
+    "strength": "essential",
+    "why": "sperm carry X or Y",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s3.5.1",
+    "strength": "helpful",
+    "why": "egg always carries X",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.0.2",
+    "strength": "essential",
+    "why": "zygote diploid, gametes haploid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.5",
+    "strength": "helpful",
+    "why": "meiosis and random fertilisation variation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.0",
+    "strength": "helpful",
+    "why": "zygote divides by mitosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s3.8.3",
+    "strength": "helpful",
+    "why": "acrosome digests zona pellucida",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s3.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.8.0",
+    "strength": "helpful",
+    "why": "zygote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s3.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s3.8.0",
+    "strength": "helpful",
+    "why": "fertilisation of eggs",
+    "confidence": "high"
+   }
+  ]
+ }
+}

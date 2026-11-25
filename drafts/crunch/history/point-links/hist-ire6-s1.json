@@ -1,0 +1,588 @@
+{
+"hist-ire6-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.0.1",
+"strength": "helpful",
+"why": "introduces Clann na Poblachta",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.0.2",
+"strength": "helpful",
+"why": "the Inter-Party Government",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.0.1",
+"strength": "helpful",
+"why": "MacBride's party Clann na Poblachta",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.0.2",
+"strength": "helpful",
+"why": "the coalition's make-up",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.1.0",
+"strength": "essential",
+"why": "the decision to repeal External Relations Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.1.1",
+"strength": "essential",
+"why": "Britain's response to the Republic of Ireland Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.0.4",
+"strength": "helpful",
+"why": "MacBride as External Affairs minister",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.1.5": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s1.1.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.0.4",
+"strength": "helpful",
+"why": "Noël Browne as Minister for Health",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.0.4",
+"strength": "helpful",
+"why": "Browne as Minister for Health",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.2.0",
+"strength": "essential",
+"why": "opposes the Mother and Child scheme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.2.0",
+"strength": "essential",
+"why": "objections to the scheme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.2.0",
+"strength": "essential",
+"why": "the scheme objected to",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s1.3.0",
+"strength": "helpful",
+"why": "introduces McQuaid",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.2.3",
+"strength": "essential",
+"why": "the bishops' objections",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s1.0.4",
+"strength": "helpful",
+"why": "MacBride and Browne in government",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.2.3",
+"strength": "essential",
+"why": "the hierarchy's view",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.2.4",
+"strength": "helpful",
+"why": "follows Browne's resignation",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.2.0",
+"strength": "helpful",
+"why": "replaces the Mother and Child scheme",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s1.4.4",
+"strength": "helpful",
+"why": "explains the Health Act 1953",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.2.3",
+"strength": "essential",
+"why": "McQuaid's advice on the scheme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.2.2",
+"strength": "helpful",
+"why": "the hierarchy's objections to the scheme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.3.1",
+"strength": "helpful",
+"why": "McQuaid's role in the crisis",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.2.5",
+"strength": "helpful",
+"why": "government deferring to the bishops",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.4.0",
+"strength": "helpful",
+"why": "MacEntee as Minister for Finance",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.4.1",
+"strength": "essential",
+"why": "the unpopular 1952 budget",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.2.0",
+"strength": "essential",
+"why": "replaces the Mother and Child Scheme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.4.0",
+"strength": "helpful",
+"why": "the Fianna Fáil minority government",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.5.2",
+"strength": "essential",
+"why": "the balance of payments crisis",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.5.5",
+"strength": "essential",
+"why": "pressure over the Border Campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.6.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.6.0",
+"strength": "helpful",
+"why": "population decline figures",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.6.1",
+"strength": "helpful",
+"why": "emigrants heading for Britain",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.6.4": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s1.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.6.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.5.6",
+"strength": "helpful",
+"why": "the election called in 1957",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.7.0",
+"strength": "helpful",
+"why": "the new Fianna Fáil government",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s1.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.7.b",
+"strength": "helpful",
+"why": "the 1950s as missed opportunities",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.6.6",
+"strength": "helpful",
+"why": "the sterling link",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.1.4",
+"strength": "helpful",
+"why": "explains the IDA",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s1.4.3",
+"strength": "helpful",
+"why": "explains the Underdeveloped Areas Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.1.1",
+"strength": "helpful",
+"why": "the Republic of Ireland Act",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s1.1.4",
+"strength": "helpful",
+"why": "the IDA",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s1.4.3",
+"strength": "helpful",
+"why": "the Underdeveloped Areas Act",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s1.1.5",
+"strength": "helpful",
+"why": "Marshall Aid",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s1.1.7",
+"strength": "helpful",
+"why": "the anti-tuberculosis campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.5.2",
+"strength": "helpful",
+"why": "balance of payments crisis and deflation",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.2.5",
+"strength": "essential",
+"why": "the Mother and Child affair",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s1.4.1",
+"strength": "helpful",
+"why": "high taxes and unpopular budgets",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s1.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s1.7.3",
+"strength": "helpful",
+"why": "the 'wasted years' view",
+"confidence": "high"
+}
+]
+}
+}

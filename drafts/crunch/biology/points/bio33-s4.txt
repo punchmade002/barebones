@@ -1,0 +1,486 @@
+TARGET bio33-s4: The microbiome
+[bio33-s4.0.b] Your body, and every patch of soil, is home to huge numbers of tiny organisms that live together rather than alone. Biologists treat that whole community as one thing, called a microbiome.
+[bio33-s4.0.0] A microbiome is the whole community of microorganisms (bacteria, archaea, fungi, protists and viruses) living together in a particular environment, such as the human gut, the skin or the soil. It is a community of many kinds, not a single species and not just bacteria.
+[bio33-s4.0.1] A microbiome also includes the genes of these microorganisms and the products they make.
+[bio33-s4.0.2] The organisms themselves are often called the microbiota; many people use the two words for the same thing, so don't be thrown if a question uses either.
+[bio33-s4.0.3] A microbiome is an ecological community (different species living and interacting in one place): its members compete, feed on each other's products and interact with their host or surroundings.
+[bio33-s4.0.4] The make-up of a microbiome changes with conditions such as food, pH, oxygen, temperature and water, because each species thrives only in certain conditions.
+[bio33-s4.0.5] A diverse microbiome, with many species, is generally more stable and recovers better after a disturbance, because if one species is lost others can often do its job.
+[bio33-s4.0.6] Most microorganisms are not pathogens (disease-causing): the majority in a healthy microbiome are harmless (commensals, which gain without harming the host) or beneficial (mutualists, where both sides gain). There is more on this in Biotic factors and relationships.
+[bio33-s4.1.b] A microbiome is hard to study because you can't simply grow its members in a dish. Scientists read the DNA of the whole community at once instead.
+[bio33-s4.1.0] Most of these microorganisms cannot be grown on agar (the jelly used to culture microbes in the laboratory), so culturing would miss most of the community.
+[bio33-s4.1.1] Microbiomes are therefore studied mainly by extracting all the DNA from a sample, e.g. faeces or soil.
+[bio33-s4.1.2] The extracted DNA is sequenced to identify which organisms and genes are present, so the community can be described without growing any of it. There is more on this in DNA sequencing.
+[bio33-s4.2.b] Humans are not microbe-free. Several parts of the body carry their own microbiomes, and the biggest by far is in the gut.
+[bio33-s4.2.0] Humans carry microbiomes in the gut, mouth, nose, skin and vagina.
+[bio33-s4.2.1] The largest is in the gut, and most of the gut's microorganisms live in the large intestine (colon), where food moves slowly and there is almost no oxygen, so most are anaerobic bacteria (bacteria that live without oxygen).
+[bio33-s4.2.2] A 2016 estimate found that the body contains about as many bacterial cells (about 38 trillion) as human cells (about 30 trillion), a ratio of roughly 1 : 1.
+[bio33-s4.2.3] The older, often-quoted figure of ten bacteria for every human cell is now thought to be an overestimate.
+[bio33-s4.2.4] The gut contains hundreds of species, and each person's combination is different.
+[bio33-s4.3.b] A baby starts life with almost no microbiome and builds one from its first contacts. How it is born and fed shapes which microorganisms arrive first.
+[bio33-s4.3.0] A baby's gut is colonised (first settled by microorganisms) at birth and soon after.
+[bio33-s4.3.1] Babies born vaginally pick up microorganisms from the mother's vagina and gut.
+[bio33-s4.3.2] Babies born by caesarean section are first colonised mostly by skin and hospital microorganisms, so their early gut microbiome is different.
+[bio33-s4.3.3] Breast milk contains sugars (oligosaccharides) that the baby cannot digest but that feed beneficial gut bacteria such as Bifidobacterium.
+[bio33-s4.3.4] The microbiome changes with diet, weaning (the switch from milk to solid food), antibiotics, environment (e.g. pets, farm animals, siblings) and age, becoming more stable in childhood.
+[bio33-s4.3.5] The host provides a warm, moist, food-rich, stable home, and the microorganisms provide digestion, vitamins and protection.
+[bio33-s4.3.6] This mutualism (a relationship in which both partners benefit) is an example of how organisms depend on each other.
+[bio33-s4.4.b] Humans can't digest everything they eat, but gut bacteria can. They turn part of our undigested food into useful products.
+[bio33-s4.4.0] Human enzymes cannot digest dietary fibre, e.g. cellulose and other plant cell-wall polysaccharides, and resistant starch, so it reaches the large intestine undigested.
+[bio33-s4.4.1] There, gut bacteria ferment the fibre anaerobically (break it down without oxygen), using their own enzymes.
+[bio33-s4.4.2] The main products of fermentation are short-chain fatty acids (SCFAs): acetate, propionate and butyrate.
+[bio33-s4.4.3] The colon absorbs the SCFAs: butyrate is the main energy source of the cells lining the colon, which keeps the lining healthy.
+[bio33-s4.4.4] The other SCFAs are carried to the liver and body cells and used for energy.
+[bio33-s4.4.5] Gases, namely CO₂, hydrogen and, in some people, methane made by archaea, are by-products of fermentation.
+[bio33-s4.5.b] Fermentation is not the only service gut bacteria provide. They also make vitamins and handle substances our own enzymes can't.
+[bio33-s4.5.0] Gut bacteria make vitamin K, needed for blood clotting, and some B vitamins, part of which the body absorbs.
+[bio33-s4.5.1] Gut bacteria also break down some substances that human enzymes cannot, e.g. some plant chemicals and some drugs.
+[bio33-s4.5.2] Gut bacteria convert bile salts (made by the liver to help digest fats), which affects how fats are absorbed.
+[bio33-s4.5.3] Herbivores depend even more on their microbiome: cattle, sheep and rabbits rely on microorganisms to digest cellulose, which their own enzymes cannot do.
+[bio33-s4.5.4] The large intestine, where most of this happens, also absorbs water from the remaining food. There is more on this in The Digestive System.
+[bio33-s4.6.b] A gut full of harmless bacteria leaves little room for invaders. This crowding-out effect protects the host and is called colonisation resistance.
+[bio33-s4.6.0] Protection against pathogens is called colonisation resistance: the normal gut microbiota occupy the space and attachment sites on the gut lining and use up the nutrients that pathogens would need.
+[bio33-s4.6.1] Some gut microorganisms make acids that lower the pH, and some make antibacterial proteins (bacteriocins) that kill competing bacteria.
+[bio33-s4.6.2] The skin and vaginal microbiota protect in the same way.
+[bio33-s4.6.3] In the vagina, Lactobacillus bacteria make lactic acid, keeping the pH low, which stops many pathogens growing. There is more on this in Innate and adaptive immunity.
+[bio33-s4.7.b] Colonisation resistance only works while the normal bacteria are present. If they are wiped out, harmful microorganisms can move in.
+[bio33-s4.7.0] When antibiotics kill many normal gut bacteria, pathogens can take over: e.g. the bacterium Clostridioides difficile can multiply and cause severe diarrhoea.
+[bio33-s4.7.1] The yeast Candida can also overgrow when the normal microbiota are reduced, causing thrush. There is more on this in Pathogens.
+[bio33-s4.7.2] Repeated C. difficile infection can be treated by faecal microbiota transplant, which restores a healthy microbiome from a donor.
+[bio33-s4.8.b] The gut microbiome also talks to the immune system. Chemical signals from the microorganisms help the body learn what to attack and what to ignore.
+[bio33-s4.8.0] The gut wall contains a large part of the body's immune tissue, so the microorganisms are in constant contact with immune cells.
+[bio33-s4.8.1] Molecules from gut microorganisms, e.g. parts of their cell walls and SCFAs such as butyrate, are detected by immune cells in the gut lining, which then send signals.
+[bio33-s4.8.2] In early life these signals 'train' the immune system to tolerate harmless microorganisms and food while still responding to pathogens.
+[bio33-s4.8.3] E.g. butyrate promotes suppressor T cells (also called regulatory T cells), which damp down inflammation. There is more on this in White blood cells.
+[bio33-s4.9.b] The microbiome also helps keep the gut wall intact. Evidence for its role in immunity is real, but much of it shows links rather than proof of cause.
+[bio33-s4.9.0] The microbiome helps maintain the gut barrier: it stimulates the lining to make mucus and keeps its cells tightly joined.
+[bio33-s4.9.1] This stops bacteria and their products leaking into the blood and triggering inflammation.
+[bio33-s4.9.2] Germ-free mice, raised completely free of microorganisms, have poorly developed gut immune tissue, which suggests the microbiome is needed for normal immune development.
+[bio33-s4.9.3] A less diverse or altered gut microbiome has been linked to inflammatory bowel disease, allergies, asthma and some autoimmune diseases (where the immune system attacks the body's own cells), which fits the hygiene hypothesis. There is more on this in Emerging diseases and society.
+[bio33-s4.9.4] These links are mostly correlations: it is often not known whether the altered microbiome causes the disease or results from it.
+[bio33-s4.10.b] Metabolic health is about how the body handles energy. The gut microbiome influences it in three main ways.
+[bio33-s4.10.0] Metabolic health means healthy body mass, blood glucose, blood fats and blood pressure, without obesity or type 2 diabetes.
+[bio33-s4.10.1] First, it affects how much energy is extracted from food: more efficient fermentation of fibre releases more energy as SCFAs.
+[bio33-s4.10.2] Second, signals from SCFAs affect appetite hormones and how the body stores fat and controls blood glucose.
+[bio33-s4.10.3] Third, inflammation from a leaky gut barrier (one that lets bacteria and their products into the blood) is linked to insulin resistance, where cells respond poorly to insulin and blood glucose stays high.
+[bio33-s4.11.b] Animal experiments suggest the microbiome can affect body fat, but human evidence is weaker. Diet is a major factor in shaping the microbiome itself.
+[bio33-s4.11.0] In a 2006 study, germ-free mice given gut microorganisms from obese mice gained more body fat than germ-free mice given microorganisms from lean mice, on the same diet.
+[bio33-s4.11.1] This shows the microbiome can affect fat storage, at least in mice, because diet was the same in both groups.
+[bio33-s4.11.2] In humans, people with obesity or type 2 diabetes often have a less diverse gut microbiome, but this is a correlation, partly explained by differences in diet.
+[bio33-s4.11.3] A diet high in varied fibre from vegetables, fruit, pulses and whole grains feeds fibre-fermenting bacteria and is linked to a more diverse microbiome and more SCFAs.
+[bio33-s4.11.4] A diet high in sugar, fat and processed food and low in fibre is linked to lower diversity.
+[bio33-s4.12.b] A healthy microbiome is balanced, and that balance can be lost. Some everyday habits protect it.
+[bio33-s4.12.0] Dysbiosis is an imbalance in the microbiome, e.g. a loss of diversity or of beneficial species, or overgrowth of harmful ones.
+[bio33-s4.12.1] Causes of dysbiosis include antibiotics, which kill beneficial as well as harmful bacteria, a low-fibre diet, infection, stress and some medicines.
+[bio33-s4.12.2] Eat plenty of varied fibre to promote a healthy gut microbiome, because fibre feeds the fermenting bacteria.
+[bio33-s4.12.3] Eat fermented foods containing live microorganisms, e.g. live yogurt or kefir.
+[bio33-s4.12.4] Take antibiotics only when needed and complete the course as prescribed; this also reduces antibiotic resistance. There is more on this in Emergence and spread of infectious disease.
+[bio33-s4.13.b] Two similar-sounding words describe two different ways of supporting gut bacteria: adding live microorganisms, or feeding the ones already there.
+[bio33-s4.13.0] Probiotics are live microorganisms taken in food or supplements, e.g. Lactobacillus and Bifidobacterium species, to benefit health.
+[bio33-s4.13.1] Prebiotics are food components that humans cannot digest but that feed beneficial gut bacteria, e.g. some fibres in onions, garlic, leeks, bananas and oats.
+[bio33-s4.13.2] Evidence that probiotics help is good for some conditions, e.g. reducing diarrhoea caused by antibiotics, but weak or mixed for many claims.
+[bio33-s4.13.3] Most probiotics do not permanently change the microbiome.
+[bio33-s4.14.b] A gram of fertile soil holds hundreds of millions to billions of bacteria, so its microorganisms cycle many nutrients, and carbon is the first example.
+[bio33-s4.14.0] A single gram of fertile soil can contain hundreds of millions to billions of bacteria, many metres of fungal hyphae (thread-like fungal filaments) and thousands of species.
+[bio33-s4.14.1] Together these microorganisms cycle many nutrients, not just one.
+[bio33-s4.14.2] Carbon: bacteria and fungi decompose dead plants, animals and dung, respiring the organic carbon and releasing CO₂.
+[bio33-s4.14.3] Part of the dead matter is turned into stable humus, which stores carbon in the soil for many years. There is more on this in The carbon cycle.
+[bio33-s4.14.4] Fungi are the main decomposers of wood and of the tough lignin and cellulose of dead plants.
+[bio33-s4.15.b] Plants need nitrogen in a form they can absorb, and soil microorganisms supply it at several steps.
+[bio33-s4.15.0] Decomposers release ammonium from proteins in dead matter.
+[bio33-s4.15.1] Nitrogen-fixing bacteria, both free-living and in legume root nodules, add nitrogen from the air.
+[bio33-s4.15.2] Nitrifying bacteria convert ammonium to nitrate, the main form plants absorb.
+[bio33-s4.15.3] Denitrifying bacteria in waterlogged soils convert nitrate back to nitrogen gas, and some nitrous oxide, N₂O, is released. There is more on this in The nitrogen cycle.
+[bio33-s4.16.b] Soil microorganisms also free up phosphorus and sulfur for plants, and they control whether soil gives off or takes up methane.
+[bio33-s4.16.0] Phosphorus: some soil bacteria and fungi release phosphate from organic matter and from insoluble minerals.
+[bio33-s4.16.1] Mycorrhizal fungi (fungi living in partnership with plant roots) carry phosphate and water to plant roots in exchange for sugars. There is more on this in Biotic factors and relationships.
+[bio33-s4.16.2] Sulfur: decomposers release sulfur from proteins as sulfate, which plants absorb.
+[bio33-s4.16.3] Methane: in waterlogged soils and bogs, where there is no oxygen, methane-producing archaea release methane.
+[bio33-s4.16.4] In drier, aerated soils other bacteria oxidise methane, so soils can be a source or a sink of methane.
+[bio33-s4.17.b] Beyond cycling nutrients, soil microorganisms shape the soil itself and affect how well plants grow. Farming methods can help or harm them.
+[bio33-s4.17.0] Soil structure: fungal hyphae bind soil particles together, and bacteria make sticky polysaccharides, forming crumbs, called aggregates, with air spaces between them.
+[bio33-s4.17.1] This structure improves drainage and aeration and reduces erosion.
+[bio33-s4.17.2] A healthy, diverse soil microbiome suppresses some plant diseases, by competition and by antibiotic production.
+[bio33-s4.17.3] Some bacteria and fungi promote plant growth, e.g. nitrogen fixers and mycorrhizae.
+[bio33-s4.17.4] Intensive farming, with heavy use of artificial fertiliser and pesticides, frequent ploughing and compaction, can reduce soil microbial diversity.
+[bio33-s4.17.5] Practices such as adding manure or compost, growing clover, reduced ploughing and crop rotation support soil microbial diversity. There is more on this in Ethics and sustainability of nutrient cycling.
+[bio33-s4.18.b] Soil microorganisms respire faster when it is warmer. Because soils hold so much carbon, this can feed back into climate warming.
+[bio33-s4.18.0] A rise in temperature speeds up the enzyme-controlled respiration of soil microorganisms, up to their optimum (the temperature at which their enzymes work best), so they decompose soil organic matter faster and release more CO₂.
+[bio33-s4.18.1] Long-term field experiments have measured extra loss of soil carbon as CO₂ from warmed plots: forest soil plots are warmed by buried heating cables and compared with unheated plots.
+[bio33-s4.18.2] Soils store more carbon than the atmosphere and all plants together, so even a small proportional loss matters.
+[bio33-s4.18.3] Extra CO₂ released by warming adds to the greenhouse effect, which causes more warming, which speeds decomposition further.
+[bio33-s4.18.4] This positive feedback (a change that drives more of the same change) is a major uncertainty in climate predictions.
+[bio33-s4.19.b] Two kinds of waterlogged or frozen ground hold carbon that microorganisms can't normally break down. Warming can release it.
+[bio33-s4.19.0] In the Arctic, frozen soils, called permafrost, store huge amounts of undecomposed organic matter.
+[bio33-s4.19.1] As permafrost thaws, microorganisms decompose this matter, releasing CO₂ and, in waterlogged thawed soil, methane, a more powerful greenhouse gas.
+[bio33-s4.19.2] Irish bogs store carbon as peat, because waterlogging stops decomposition.
+[bio33-s4.19.3] Warmer, drier summers, and draining, lower the water table and let air in, so aerobic microorganisms decompose the peat and release CO₂.
+[bio33-s4.19.4] Warmer waterlogged peat also releases more methane. There is more on this in Climate change and biological strategies.
+[bio33-s4.20.b] Warming and drought also change nutrient cycling and which microorganisms dominate. How big the long-term effect will be is still being researched.
+[bio33-s4.20.0] Warming can speed up the release of ammonium and nitrate, giving plants more nutrients in the short term but causing more leaching (washing out by water) of nitrate.
+[bio33-s4.20.1] Warming can also increase the nitrous oxide, a greenhouse gas, released by nitrifying and denitrifying bacteria.
+[bio33-s4.20.2] Drought reduces microbial activity, and rewetting dry soil causes a sudden burst of CO₂ release.
+[bio33-s4.20.3] Warming and drought change which species dominate, e.g. the balance of bacteria and fungi, which can change how fast nutrients are cycled.
+[bio33-s4.20.4] In some long-term experiments the extra CO₂ release declined after some years, because the easily decomposed carbon was used up or the microbial community adjusted (acclimatised).
+[bio33-s4.20.5] How large the long-term feedback will be is still being researched.
+[bio33-s4.21.b] Aim: to show that soil microorganisms release CO₂ by respiration, and that they do so faster when warmer.
+[bio33-s4.21.0] Independent variable: temperature, e.g. 5 °C, 15 °C and 25 °C. The dependent variable is the time the indicator takes to change colour. Equal masses of the same fresh soil keep other variables constant.
+[bio33-s4.21.1] 1. Put equal masses, e.g. 20 g, of the same fresh soil into sealed containers, each with a small open tube of hydrogencarbonate indicator (or limewater) suspended above the soil, not touching it.
+[bio33-s4.21.2] 2. Set up a control with the same mass of soil that has been sterilised by heating in an oven, so its microorganisms are dead.
+[bio33-s4.21.3] 3. Keep sets at different temperatures, e.g. 5 °C, 15 °C and 25 °C, in the dark.
+[bio33-s4.21.4] 4. Record the time for the indicator to change from red to yellow (more CO₂), or for the limewater to turn milky.
+[bio33-s4.21.5] Expected result: the colour changes fastest at the highest temperature, and not, or very little, in the sterilised control. The control shows the CO₂ comes from living microorganisms.
+[bio33-s4.21.6] Keep the apparatus in the dark, so that no photosynthesis by algae or seedlings removes CO₂.
+[bio33-s4.21.7] Safety: wash hands after handling soil.
+[bio33-s4.22.b] Two skills matter for microbiome questions: reading the CO₂ indicator, and judging published studies.
+[bio33-s4.22.0] Hydrogencarbonate indicator colours: red (orange-red) at normal air CO₂ levels, yellow when CO₂ rises, and purple when CO₂ falls.
+[bio33-s4.22.1] Secondary data to explore include published results of microbiome sequencing studies, e.g. comparisons of the gut microbiomes of people on different diets, or of babies born vaginally and by caesarean section.
+[bio33-s4.22.2] Long-term soil-warming experiments and soil carbon measurements are also secondary data to explore.
+[bio33-s4.22.3] When evaluating these data, check the sample size, whether the study was in humans or animals, and whether it shows correlation or cause. There is more on this in Evaluating evidence.
+
+CANDIDATES bio33-s1: Bacteria and fungi
+[bio33-s1.0.b] Microorganisms are living things so small that you need a microscope to see them. Bacteria and fungi matter most for nutrient cycling, because they return the nutrients locked in dead matter to the soil.
+[bio33-s1.0.0] Microorganisms are organisms too small to be seen without a microscope, e.g. bacteria, many fungi (such as yeasts and moulds), protists and viruses.
+[bio33-s1.0.1] Most microorganisms are harmless or useful; only some are pathogens (organisms that cause disease). There is more on this in Pathogens.
+[bio33-s1.0.2] Bacteria and fungi are the main decomposers: they feed on dead organisms, dead leaves, dung and other wastes, breaking down complex organic compounds (carbon-containing molecules made by living things).
+[bio33-s1.0.3] Decomposers release carbon dioxide (by respiration) and minerals such as ammonium and phosphate into the soil, where plants reuse them.
+[bio33-s1.0.4] Without decomposers, nutrients would stay locked in dead matter and plants would run out of the minerals they need to grow.
+[bio33-s1.0.5] Other bacteria carry out particular steps of the nitrogen cycle. Nitrogen-fixing bacteria convert nitrogen gas from the air into a usable form; they live free in soil or in the root nodules (small swellings) of legumes.
+[bio33-s1.0.6] Nitrifying bacteria convert ammonium to nitrate, a form of nitrogen that plants can take up through their roots.
+[bio33-s1.0.7] Denitrifying bacteria convert nitrate back to nitrogen gas, returning nitrogen to the air.
+[bio33-s1.1.b] Bacteria are the simplest cells you need to know. Their outer layers shape and protect the cell, and each layer has a different job.
+[bio33-s1.1.0] Bacteria are single-celled prokaryotes, which means they have no nucleus and no membrane-bound organelles (compartments inside the cell, each wrapped in its own membrane).
+[bio33-s1.1.1] Most bacteria are about 1–10 µm long, so they appear as tiny dots or rods under the light microscope, and seeing their parts needs the electron microscope.
+[bio33-s1.1.2] Cell wall: a rigid layer outside the membrane, made of peptidoglycan, a polymer of sugars and amino acids.
+[bio33-s1.1.3] The cell wall gives the cell its shape and stops it bursting when water enters by osmosis (water moving into the cell because it is more concentrated inside).
+[bio33-s1.1.4] Penicillin works by stopping bacteria building their cell wall, so the weakened cells burst. There is more on this in Acquired immunity, prevention and treatment.
+[bio33-s1.1.5] Capsule (slime layer): a sticky layer of polysaccharide (a large sugar molecule) outside the wall, present in some bacteria.
+[bio33-s1.1.6] The capsule protects the cell from drying out and from being engulfed (taken in and destroyed) by white blood cells, and helps it stick to surfaces such as teeth. Bacteria with capsules are often more harmful.
+[bio33-s1.2.b] Inside the wall, a bacterium has the same basic machinery as any cell, but it is not packaged in organelles. Everything floats in the cytoplasm, or sits on the membrane.
+[bio33-s1.2.0] Cell membrane: controls what enters and leaves the cell. The enzymes of respiration are on it, because bacteria have no mitochondria.
+[bio33-s1.2.1] Cytoplasm: the jelly-like contents where most reactions take place. It contains food stores such as granules of glycogen or lipid.
+[bio33-s1.2.2] Nucleoid: one circular chromosome of DNA lies free in the cytoplasm in a region called the nucleoid. Bacteria have DNA but no nucleus.
+[bio33-s1.2.3] The nucleoid is not enclosed by a membrane and the DNA is not wound around histones (proteins that DNA coils around in eukaryotes). The chromosome carries the genes for all the cell's essential functions.
+[bio33-s1.2.4] Plasmids: small extra rings of DNA, separate from the chromosome, which copy themselves independently.
+[bio33-s1.2.5] Plasmids carry a few genes that are useful in some conditions, e.g. antibiotic resistance, and can be passed from one bacterium to another, even of a different species. Plasmids are used as vectors (carriers of new genes) in genetic engineering.
+[bio33-s1.2.6] Ribosomes: small (70S) ribosomes, free in the cytoplasm, where proteins are made.
+[bio33-s1.2.7] Bacterial 70S ribosomes are smaller than the 80S ribosomes in eukaryotic cytoplasm, which is why some antibiotics can block them without harming human cells.
+[bio33-s1.3.b] Some bacteria also have threads on their surface. They let the cell swim, stick to things, or swap DNA with another bacterium.
+[bio33-s1.3.0] Flagellum (plural flagella): a long, whip-like thread, present in some bacteria, that rotates like a propeller to move the cell, e.g. towards food.
+[bio33-s1.3.1] Pili (fimbriae): short, hair-like threads on the surface of some bacteria that attach them to surfaces and host cells (the living organisms a bacterium infects).
+[bio33-s1.3.2] A longer sex pilus links two bacteria so that a copy of a plasmid can pass between them.
+[bio33-s1.3.3] Diagram: draw a large rod-shaped bacterium. Label capsule, cell wall, cell membrane, cytoplasm, nucleoid with circular chromosome, plasmids, ribosomes, flagellum, pili and a food-storage granule, with a function written beside each label.
+[bio33-s1.4.b] Bacteria are classified partly by shape, which you can recognise under the microscope. There are four shapes to know, each with a named example.
+[bio33-s1.4.0] Cocci (singular coccus) are spherical: Streptococcus forms chains and Staphylococcus forms clusters.
+[bio33-s1.4.1] Bacilli (singular bacillus) are rod-shaped, e.g. Escherichia coli.
+[bio33-s1.4.2] Spirilla are spiral-shaped.
+[bio33-s1.4.3] Vibrios are comma-shaped, e.g. Vibrio cholerae, which causes cholera.
+[bio33-s1.4.4] Diagram: the shapes, each labelled: a chain of cocci, a cluster of cocci, a rod (bacillus), a spiral (spirillum) and a comma (vibrio).
+[bio33-s1.5.b] Bacteria multiply by simple splitting, which is quick and makes identical copies. When conditions turn hostile, some of them form a tough resting structure that lets them survive.
+[bio33-s1.5.0] Bacteria reproduce asexually by binary fission: the circular chromosome is copied, the cell grows and the two copies move apart.
+[bio33-s1.5.1] The cell then divides in two as a new wall forms across the middle, giving two genetically identical cells.
+[bio33-s1.5.2] In ideal conditions binary fission can happen as often as every 20 minutes, so populations grow very fast. There is more on this in Microorganisms in industry.
+[bio33-s1.5.3] Variation in bacteria comes only from mutations (changes in DNA) and from genes passed on plasmids, because binary fission produces identical cells.
+[bio33-s1.5.4] Some bacteria, e.g. Clostridium and Bacillus, form an endospore when conditions become unfavourable, such as a lack of nutrients or water.
+[bio33-s1.5.5] In an endospore the chromosome and a little cytoplasm are enclosed in a tough, thick wall inside the cell, and the rest of the cell breaks down.
+[bio33-s1.5.6] Endospores survive boiling, drying, freezing and many disinfectants for years; when conditions improve, each grows into one new active bacterium.
+[bio33-s1.5.7] Endospores are why equipment is sterilised in an autoclave at 121 °C rather than by boiling, and why tetanus can be caught from soil.
+[bio33-s1.6.b] Bacteria feed in many ways. Autotrophs, the first group, make their own food from simple inorganic substances, using either light or chemical energy.
+[bio33-s1.6.0] Autotrophic bacteria make their own food from simple inorganic substances such as carbon dioxide and water.
+[bio33-s1.6.1] Photosynthetic bacteria use light energy, e.g. cyanobacteria, which contain chlorophyll and release oxygen.
+[bio33-s1.6.2] Some other photosynthetic bacteria, such as purple and green sulfur bacteria, use hydrogen sulfide in place of water and release no oxygen.
+[bio33-s1.6.3] Chemosynthetic bacteria get energy by oxidising inorganic chemicals (adding oxygen to them, which releases energy) instead of from light, e.g. nitrifying bacteria in soil.
+[bio33-s1.6.4] Nitrifying bacteria oxidise ammonium to nitrite and nitrite to nitrate, and use the energy released to make food from carbon dioxide.
+[bio33-s1.7.b] Most bacteria are heterotrophs: they cannot make food, so they take in food made by other organisms. They also differ in whether they can live with oxygen.
+[bio33-s1.7.0] Heterotrophic bacteria take in food made by other organisms, and most bacteria are heterotrophic.
+[bio33-s1.7.1] Saprophytic bacteria feed on dead organic matter. A saprophyte (saprotroph) secretes digestive enzymes out of its cell onto the food, which is extracellular digestion.
+[bio33-s1.7.2] A saprophyte then absorbs the small soluble products, e.g. sugars and amino acids, through its wall and membrane. Saprophytic bacteria are decomposers, and they also cause food to rot.
+[bio33-s1.7.3] Parasitic bacteria feed on a living host and harm it, causing disease, e.g. Mycobacterium tuberculosis, which causes tuberculosis.
+[bio33-s1.7.4] Mutualistic bacteria live with a host to the benefit of both, e.g. nitrogen-fixing bacteria in clover root nodules and bacteria in the gut.
+[bio33-s1.7.5] Obligate aerobes need oxygen to respire.
+[bio33-s1.7.6] Obligate anaerobes are killed by oxygen, e.g. Clostridium, which is why tetanus grows in deep wounds where oxygen cannot reach.
+[bio33-s1.7.7] Facultative anaerobes respire aerobically when oxygen is present and anaerobically when it is not, e.g. E. coli.
+[bio33-s1.8.b] Fungi are eukaryotes that look plant-like but are not plants. Most are built from thread-like hyphae, and they spread by spores.
+[bio33-s1.8.0] Fungi are eukaryotes: each cell, or each section of hypha, has nuclei with a nuclear membrane, mitochondria and 80S ribosomes.
+[bio33-s1.8.1] Fungal cell walls are made of chitin, not cellulose.
+[bio33-s1.8.2] Fungi have no chlorophyll, so they cannot photosynthesise; they store carbohydrate as glycogen and lipid, not starch.
+[bio33-s1.8.3] Most fungi, such as moulds and mushrooms, are made of hyphae (singular hypha): long, branching, thread-like tubes with a wall around cytoplasm containing many nuclei. A mass of hyphae is a mycelium.
+[bio33-s1.8.4] Some fungi have cross-walls (septa) dividing the hyphae into cells; Rhizopus has none.
+[bio33-s1.8.5] Mushrooms are the reproductive structures of a mycelium that grows mostly hidden in soil or wood.
+[bio33-s1.8.6] Fungi reproduce by spores, tiny reproductive cells released in great numbers and carried by air, water or animals. Each spore can grow into a new mycelium on a suitable food; fungi also reproduce sexually.
+[bio33-s1.9.b] Yeasts are the exception among fungi, because they are not made of hyphae. Each yeast is a single cell.
+[bio33-s1.9.0] Yeasts are single-celled fungi, e.g. Saccharomyces cerevisiae (baker's and brewer's yeast), which are oval cells.
+[bio33-s1.9.1] Yeasts reproduce asexually by budding: a small outgrowth grows from the parent cell, the nucleus divides by mitosis (copying itself to give two identical nuclei), and the bud separates as a new cell.
+[bio33-s1.9.2] Yeast can respire aerobically or ferment sugar to ethanol and CO₂, which is why it is used in baking and brewing.
+[bio33-s1.10.b] Rhizopus is a mould you can see growing on stale bread. Its body is made of different kinds of hypha, each with a job.
+[bio33-s1.10.0] Rhizopus stolonifer (black bread mould) is a common mould that grows on bread, fruit and other moist, starchy or sugary food.
+[bio33-s1.10.1] Its spores are everywhere in the air, which is why bread left moist and warm goes mouldy within days.
+[bio33-s1.10.2] Hyphae: the mycelium is made of branched hyphae with no cross-walls, so each hypha is a continuous tube of cytoplasm with many nuclei. The walls of the hyphae contain chitin.
+[bio33-s1.10.3] Stolons are hyphae that grow horizontally over the surface of the food, spreading the mould to new areas; the name stolonifer means “bearing stolons”.
+[bio33-s1.10.4] Rhizoids are short, branched, root-like hyphae that grow down into the food where a stolon touches it.
+[bio33-s1.10.5] Rhizoids are hyphae, not roots: they anchor the mould, secrete digestive enzymes into the food and absorb the products, not water from soil.
+[bio33-s1.10.6] Sporangiophores are upright hyphae that grow up from the stolons, above the rhizoids, each carrying a sporangium at its tip.
+[bio33-s1.11.b] The upright hyphae carry the spore cases. Spores are how Rhizopus spreads, and the food it grows on is also its only source of nutrients.
+[bio33-s1.11.0] A sporangium (plural sporangia) is a round spore case at the tip of a sporangiophore, white at first and black when ripe, which gives the mould its black, fuzzy look.
+[bio33-s1.11.1] Inside the sporangium, many spores form around a dome-shaped swelling at the top of the sporangiophore, the columella, which supports the sporangium.
+[bio33-s1.11.2] When the sporangium is ripe, its wall breaks and the spores are released and carried by air currents.
+[bio33-s1.11.3] Each spore that lands on moist food grows into a new hypha and mycelium; this is asexual reproduction, so the offspring are genetically identical.
+[bio33-s1.11.4] Rhizopus is a saprophyte, feeding on dead organic matter. Being heterotrophic, it cannot make food, so it must grow on its food.
+[bio33-s1.11.5] Diagram: draw Rhizopus on bread. Label mycelium, hyphae, stolon, rhizoids penetrating the bread, sporangiophores, a sporangium cut open (spores, columella) and spores being released.
+[bio33-s1.12.b] Fungi cannot make their own food, so every fungus feeds on organic matter made by other organisms. They differ in whether that food is dead, living or shared.
+[bio33-s1.12.0] All fungi are heterotrophic; none is autotrophic, because fungi have no chlorophyll.
+[bio33-s1.12.1] Most fungi are saprophytes, feeding on dead organic matter by extracellular digestion (digesting food outside the cell).
+[bio33-s1.12.2] Rhizopus secretes enzymes from its rhizoids and hyphae into bread: amylase digests starch to maltose and glucose, and proteases digest proteins to amino acids.
+[bio33-s1.12.3] The soluble products diffuse back and are absorbed, then used for respiration and growth.
+[bio33-s1.12.4] Mushrooms and other wood- and leaf-rotting fungi are the main decomposers of the cellulose and woody material of dead plants, which most bacteria cannot break down.
+[bio33-s1.12.5] Parasitic fungi feed on living hosts and harm them, e.g. athlete's foot in humans and ash dieback in ash trees.
+[bio33-s1.12.6] Mutualistic fungi live in partnership with other organisms to the benefit of both: mycorrhizal fungi with plant roots, and the fungus in a lichen.
+[bio33-s1.13.b] Bacteria and fungi both decompose dead matter, but their cells are built very differently. These contrasts are the first set to learn, as a pair for each feature.
+[bio33-s1.13.0] Cellular nature: bacteria are prokaryotic, with no nucleus and no membrane-bound organelles; fungi are eukaryotic, with nuclei, mitochondria and other membrane-bound organelles.
+[bio33-s1.13.1] DNA: bacteria have one circular chromosome, not wound around histones, plus plasmids; fungi have several linear chromosomes of DNA wound around histones, inside a nucleus.
+[bio33-s1.13.2] Ribosomes: bacteria have 70S ribosomes; fungi have 80S ribosomes in the cytoplasm.
+[bio33-s1.13.3] Cell wall: bacteria have peptidoglycan walls; fungi have chitin walls.
+[bio33-s1.13.4] Organisation and size: bacteria are single cells about 1–10 µm long, which grow in colonies but each cell lives independently.
+[bio33-s1.13.5] Most fungi are multicellular, with hyphae that form a mycelium visible to the naked eye, although yeasts are single cells, larger than most bacteria.
+[bio33-s1.13.6] Food stores: bacteria store glycogen or lipid granules; fungi store glycogen and lipid, and neither stores starch.
+[bio33-s1.14.b] The other differences are in how they feed, reproduce and respond to drugs. The groups also share some features, so a full comparison includes both.
+[bio33-s1.14.0] Nutrition: bacteria can be autotrophic (photosynthetic or chemosynthetic) or heterotrophic (saprophytic, parasitic or mutualistic); fungi are always heterotrophic (saprophytic, parasitic or mutualistic).
+[bio33-s1.14.1] Reproduction: bacteria reproduce by binary fission, and some form endospores for survival; fungi reproduce by spores (moulds) or budding (yeasts), and also sexually.
+[bio33-s1.14.2] Treatment of infections: antibiotics act on bacteria, targeting the peptidoglycan wall or 70S ribosomes, and not on fungi; fungal infections need antifungal drugs.
+[bio33-s1.14.3] Similarities: both can be decomposers that digest food outside their cells and absorb it; both have cell walls, a cell membrane, cytoplasm, ribosomes and DNA.
+[bio33-s1.14.4] Both groups include pathogens and many useful species. There is more on this in Microorganisms in industry.
+
+CANDIDATES bio34-s2: The nitrogen cycle
+[bio34-s2.0.b] Every living thing needs nitrogen, yet the huge store in the air is out of reach for almost all of them. Nitrogen therefore has to be converted into usable forms and then recycled, or life would run out of it.
+[bio34-s2.0.0] Living things need nitrogen to make amino acids and proteins, nucleic acids (DNA and RNA), ATP (the cell's energy carrier) and chlorophyll (the green pigment in plants). Minerals goes into why plants need it and the signs of deficiency.
+[bio34-s2.0.1] About 78% of the air is nitrogen gas (N₂), but plants and animals cannot use it. The two atoms are held together by a very strong triple bond that few organisms can break.
+[bio34-s2.0.2] Plants can absorb nitrogen only as ions dissolved in soil water, mainly nitrate (NO₃⁻) and also ammonium (NH₄⁺). So nitrogen must be converted, or fixed, before it enters food chains, and recycled from dead matter.
+[bio34-s2.0.3] The forms to recognise are nitrogen gas (N₂); ammonia (NH₃) and ammonium (NH₄⁺); nitrite (NO₂⁻); nitrate (NO₃⁻); and organic nitrogen, which is nitrogen built into proteins, nucleic acids and urea (the waste molecule in mammals' urine).
+[bio34-s2.1.b] Nitrogen fixation converts nitrogen gas from the air into nitrogen compounds that living things can use, such as ammonium, ammonia or nitrate. The biological route is carried out by bacteria, either living freely or in partnership with plants.
+[bio34-s2.1.0] Free-living nitrogen-fixing bacteria in the soil and in water convert N₂ to ammonium, which they use to make their own proteins. When they die, decomposition releases the nitrogen to the soil.
+[bio34-s2.1.1] Other nitrogen-fixing bacteria live in root nodules (small swellings on the roots) of legumes, the pea family, for example clover, peas and beans. They fix nitrogen for the plant.
+[bio34-s2.1.2] The bacteria give the plant ammonium, which it uses to make amino acids. The plant gives the bacteria carbohydrates from photosynthesis and a protected, low-oxygen home. Both benefit, so this is mutualism.
+[bio34-s2.1.3] Fixation takes a lot of energy, supplied as ATP from the bacteria's respiration, and uses an enzyme that oxygen damages. This is why nodules keep oxygen levels low: they contain a red pigment that binds oxygen, so active nodules are pink inside.
+[bio34-s2.1.4] Legumes grow well in nitrogen-poor soil because their bacteria supply the nitrogen. When they die or are ploughed in, the nitrogen in their tissues enriches the soil.
+[bio34-s2.1.5] Clover grown with grass, and legumes in crop rotation (growing different crops in turn on the same field), reduce the need for nitrogen fertiliser. This is why farmers grow clover.
+[bio34-s2.2.b] Bacteria are not the only route from nitrogen gas to usable nitrogen. Lightning does a little of it naturally, and humans do a great deal of it in factories.
+[bio34-s2.2.0] Atmospheric fixation by lightning: the energy of lightning makes nitrogen react with oxygen to form nitrogen oxides, which dissolve in rain and reach the soil as nitrate. This is a small contribution compared with biological fixation.
+[bio34-s2.2.1] Industrial fixation by the Haber process: nitrogen from the air combines with hydrogen (made mainly from natural gas) at high temperature and pressure to make ammonia.
+[bio34-s2.2.2] The ammonia is turned into nitrogen fertilisers such as ammonium nitrate and urea, which farmers spread to give crops usable nitrogen.
+[bio34-s2.2.3] Human activity, mainly the Haber process, now fixes at least as much nitrogen each year as all natural processes on land. There is more on this in Ethics and sustainability of nutrient cycling.
+[bio34-s2.3.b] Once nitrogen is in the soil as nitrate or ammonium, it moves into living things and along food chains. Assimilation means the plant builds absorbed nitrogen into its own molecules.
+[bio34-s2.3.0] Uptake: plant roots absorb nitrate and ammonium from soil water. Nitrate is taken in by active transport, against its concentration gradient, using ATP, and travels to the leaves in the xylem (the tubes that carry water up the plant).
+[bio34-s2.3.1] Assimilation: the plant uses the nitrogen, together with sugars from photosynthesis, to make amino acids, then proteins, and also nucleic acids and chlorophyll.
+[bio34-s2.3.2] Feeding: animals get nitrogen only by eating plants or other animals. They digest the proteins into amino acids and build their own proteins from them.
+[bio34-s2.3.3] Excretion and death: animals excrete excess nitrogen (in mammals, as urea in urine). Faeces, urine, dead plants and dead animals return organic nitrogen to the soil.
+[bio34-s2.4.b] Dead matter and wastes are full of organic nitrogen that plants cannot use directly. Decomposition is the step that turns it back into a usable form.
+[bio34-s2.4.0] Decomposers (bacteria and fungi) feed on dead organisms, faeces and urine. They digest the proteins and other nitrogen compounds and release the nitrogen as ammonia, which dissolves in soil water as ammonium (NH₄⁺). This step is often called ammonification (putrefaction).
+[bio34-s2.4.1] Without decomposition, the nitrogen in dead matter would be locked up and the soil would run out of usable nitrogen.
+[bio34-s2.4.2] Decomposition is fastest in warm, moist, aerated soil (soil with air spaces), because these conditions suit the decomposers. There is more on this in The carbon cycle.
+[bio34-s2.4.3] Ammonium is the starting point for nitrification. Some ammonium is also taken up directly by plants.
+[bio34-s2.5.b] Ammonium from decomposition is not the form plants take up most. Nitrifying bacteria in the soil convert it to nitrate in two steps.
+[bio34-s2.5.0] Nitrification is the conversion of ammonium into nitrate by nitrifying bacteria in the soil, in two steps. First, one group of nitrifying bacteria oxidises ammonium (NH₄⁺) to nitrite (NO₂⁻). Second, a second group oxidises nitrite to nitrate (NO₃⁻).
+[bio34-s2.5.1] Nitrifying bacteria are aerobic: they need oxygen. Nitrification is therefore fastest in well-drained, well-aerated soil. Ploughing and draining help it, while waterlogging (soil with all its air spaces filled with water) stops it.
+[bio34-s2.5.2] Nitrifying bacteria are autotrophic (they make their own food): they get energy from these chemical reactions (chemosynthesis) rather than from light or from eating other organisms.
+[bio34-s2.5.3] Nitrate is the form plants absorb most. It is also very soluble and is not held by soil particles, so heavy rain easily washes it out of the soil (leaching) into ground water, rivers and lakes. There is more on this in Ethics and sustainability of nutrient cycling.
+[bio34-s2.6.b] Nitrification builds up nitrate in the soil. Denitrification is the opposite journey, returning nitrogen to the air and completing the cycle.
+[bio34-s2.6.0] Denitrification is the conversion of nitrate in the soil back into nitrogen gas (N₂) by denitrifying bacteria. This returns nitrogen to the atmosphere and completes the cycle.
+[bio34-s2.6.1] Denitrifying bacteria work in anaerobic conditions (no oxygen), such as waterlogged, compacted or poorly drained soils and the mud of lakes and marshes. They use nitrate in place of oxygen in respiration.
+[bio34-s2.6.2] Denitrification removes usable nitrogen from the soil, lowering fertility, so farmers drain wet land to stop it.
+[bio34-s2.6.3] It also gives off some nitrous oxide (N₂O), a greenhouse gas (one that traps heat in the atmosphere). There is more on this in Climate change and biological strategies.
+[bio34-s2.6.4] In wetlands and water treatment, denitrification is useful because it removes excess nitrate before it reaches rivers.
+[bio34-s2.7.b] Fixation, decomposition, nitrification and denitrification are the four named processes of the cycle. Comparing them side by side shows what each converts, who does it, and what it needs.
+[bio34-s2.7.0] Fixation: N₂ becomes ammonium. Nitrogen-fixing bacteria (free-living or in nodules) do it. It is anaerobic inside a nodule, and it adds usable nitrogen.
+[bio34-s2.7.1] Decomposition: organic nitrogen becomes ammonium. Bacteria and fungi do it. It is aerobic or anaerobic, and it recycles nitrogen.
+[bio34-s2.7.2] Nitrification: ammonium becomes nitrite and then nitrate. Nitrifying bacteria do it. It needs oxygen, and it makes the form plants use most.
+[bio34-s2.7.3] Denitrification: nitrate becomes N₂. Denitrifying bacteria do it. It needs no oxygen, and it removes usable nitrogen.
+[bio34-s2.8.b] A model is useful because it lets you work out what happens when conditions change. It also has limits, and exams may ask you to name them.
+[bio34-s2.8.0] Prediction (a): if a field becomes waterlogged, nitrification stops and denitrification increases, so soil nitrate falls and plants become nitrogen-deficient.
+[bio34-s2.8.1] Prediction (b): if a farmer grows clover, fixation increases, so there is more soil nitrogen the next season.
+[bio34-s2.8.2] Prediction (c): heavy rain after fertiliser is spread leaches nitrate into a river. There is more on this in Ethics and sustainability of nutrient cycling.
+[bio34-s2.8.3] Limitation: the model shows the processes but not their rates or amounts.
+[bio34-s2.8.4] Limitation: it does not show where nitrogen is lost, such as by leaching or by ammonia escaping from slurry (liquid animal waste), unless these are added.
+[bio34-s2.8.5] Limitation: real soils contain many more microorganisms and steps than the four named groups. There is more on general limitations of models in Models.
+[bio34-s2.9.b] The nitrogen cycle is modelled as a labelled diagram: boxes for the stores of nitrogen and arrows for the processes that move nitrogen between them.
+[bio34-s2.9.0] Arrows for the gains of usable nitrogen: fixation (air → nodules → plant; air → free-living bacteria → soil ammonium); lightning (air → nitrate); Haber process and fertiliser (air → soil nitrate).
+[bio34-s2.9.1] Arrows for the movement and recycling of nitrogen: absorption (soil nitrate → plants); feeding (plants → animals); death and excretion (→ dead matter); decomposition (dead matter → ammonium); nitrification (ammonium → nitrite → nitrate); denitrification (nitrate → air).
+[bio34-s2.9.2] Diagram: boxes for nitrogen gas in air; plants (proteins); animals (proteins); dead organisms and wastes (faeces, urine); soil ammonium; nitrite; soil nitrate; legume root nodules. Join them with the labelled arrows.
+
+CANDIDATES bio34-s1: The carbon cycle
+[bio34-s1.0.b] Matter is not created or destroyed, so the elements living things are built from have to be reused. Carbon is the clearest example: it moves round and round between organisms and their surroundings.
+[bio34-s1.0.0] A biogeochemical cycle, or nutrient cycle, is the continuous movement of a chemical element between living things (bio) and the non-living environment (geo): the air, water, rocks and soil.
+[bio34-s1.0.1] Matter is not created or destroyed, so the same atoms are used again and again. Energy, by contrast, flows through an ecosystem once and is lost as heat. There is more on this in Energy and nutrient transfer.
+[bio34-s1.0.2] Carbon is the element at the centre of every biomolecule (carbohydrates, lipids, proteins and nucleic acids; see Biomolecules and metabolism), so every organism needs a constant supply. Producers (organisms that make their own food, such as plants) take it in as CO₂; consumers get it already built into food.
+[bio34-s1.0.3] A store (reservoir) is a place where carbon is held: the atmosphere (as CO₂, and a little methane, CH₄); living organisms (biomass, the mass of living material); dead organic matter in soil; the oceans (dissolved CO₂, hydrogencarbonate and carbonate); rocks such as limestone and chalk (calcium carbonate); and fossil fuels.
+[bio34-s1.0.4] A process, or flux, is whatever moves carbon from one store to another. Stores are the boxes of the cycle and processes are the arrows between them.
+[bio34-s1.0.5] CO₂ makes up only about 0.04% of the air (over 420 parts per million), yet it is the source of carbon for almost all life on Earth, because photosynthesis starts from it.
+[bio34-s1.1.b] Carbon dioxide leaves the air in only a few ways. By far the most important is photosynthesis, but dissolving in water and shell building also lock carbon away.
+[bio34-s1.1.0] Photosynthesis by plants, algae and phytoplankton (tiny floating algae) fixes CO₂ into glucose and then into the rest of their biomass, so they act as carbon sinks (stores that take in more carbon than they release).
+[bio34-s1.1.1] Photosynthesis is the only major route by which carbon enters living things, so nearly all the carbon in a food chain started as CO₂ taken in by a producer.
+[bio34-s1.1.2] Dissolving: CO₂ dissolves in the surface of the oceans, lakes and rivers, and aquatic producers take it up for photosynthesis.
+[bio34-s1.1.3] Shell and skeleton building: many marine organisms (e.g. corals, molluscs and some phytoplankton) combine dissolved carbonate with calcium to make calcium carbonate shells and skeletons.
+[bio34-s1.1.4] When these organisms die, their shells and skeletons settle on the sea floor and, over millions of years, form limestone and chalk. These rocks are very long-term stores because the carbon stays locked in them for so long.
+[bio34-s1.2.b] Once carbon is in a producer it does not stay there. It passes along the food chain and into the dead matter that every organism leaves behind.
+[bio34-s1.2.0] Feeding: carbon in the producer's biomass passes to herbivores and then carnivores when they eat and digest it. At each step most of it is respired away (broken down to release energy, giving off CO₂) rather than built into the consumer's body.
+[bio34-s1.2.1] Each step in a food chain is a trophic level (a feeding level). There is more on this in Energy and nutrient transfer.
+[bio34-s1.2.2] Egestion and excretion: carbon leaves animals in faeces and in wastes such as urea, and enters the dead organic matter store, as do shed leaves and dead organisms. This store is the food supply for decomposers.
+[bio34-s1.3.b] Carbon dioxide is put back into the air by respiration, by decomposers, by burning and by geological release. If it were not returned, producers would run out of CO₂.
+[bio34-s1.3.0] Respiration by plants, animals and microorganisms breaks down glucose and releases CO₂. Details are in Respiration as a catabolic process.
+[bio34-s1.3.1] Plants respire all the time, day and night, so the respiration arrow must start from plants as well as animals. Over a growing season photosynthesis exceeds respiration, so the plant as a whole gains carbon.
+[bio34-s1.3.2] Combustion: burning biomass (wood, peat, forest fires) or fossil fuels combines the carbon with oxygen and releases it as CO₂ very quickly.
+[bio34-s1.3.3] Natural geological release: volcanoes release CO₂ from rocks, and the weathering of limestone releases some. This is small compared with the biological fluxes and with fossil-fuel burning.
+[bio34-s1.4.b] Dead organisms, faeces and fallen leaves contain a lot of carbon. Decomposers are the living things that break this matter down and return its carbon to the air, so the cycle can keep turning.
+[bio34-s1.4.0] Decomposers are bacteria and fungi. They feed saprophytically (on dead organic matter): they secrete enzymes that digest the matter outside their cells, absorb the products, and respire them, releasing CO₂ and minerals.
+[bio34-s1.4.1] Say that decomposers digest the matter and then respire the products. The CO₂ comes from their respiration, not from the matter breaking down into CO₂ directly.
+[bio34-s1.4.2] Without decomposers, carbon would stay locked in dead matter and the CO₂ supply for photosynthesis would run out. There is more on this in Bacteria and fungi, and soil microbiomes are covered in The microbiome.
+[bio34-s1.4.3] Decomposers work fastest when it is warm, moist and well aerated, because they respire aerobically (using oxygen).
+[bio34-s1.4.4] In cold, waterlogged, acidic or oxygen-poor places decomposition is very slow, so dead matter builds up, e.g. as peat in bogs.
+[bio34-s1.4.5] Anaerobic decomposition: where there is no oxygen (waterlogged soils, bogs, rice paddies, landfill, slurry tanks and the stomachs of cattle and sheep), some microorganisms break organic matter down to methane (CH₄) instead of CO₂.
+[bio34-s1.4.6] The methane-producing microorganisms are archaea, a separate group of single-celled organisms from bacteria (see Domains of life). Methane in the air is slowly converted to CO₂.
+[bio34-s1.5.b] Fossil fuels are a store of carbon that the natural cycle leaves almost untouched. People now burn them, which is why they matter so much to the carbon cycle.
+[bio34-s1.5.0] Fossil fuels (coal, oil and natural gas) are the remains of organisms that lived millions of years ago and were buried before they could decompose fully.
+[bio34-s1.5.1] Coal formed mainly from land plants in ancient swamps. Oil and natural gas formed mainly from tiny marine organisms (plankton) buried in sea-floor mud. Heat and pressure over millions of years changed them into fuels.
+[bio34-s1.5.2] The carbon in fossil fuels was fixed by photosynthesis long ago, so they store ancient solar energy and carbon. Peat is an early stage of the same process, which is why it is sometimes counted with them.
+[bio34-s1.5.3] In the natural cycle almost no carbon leaves this store.
+[bio34-s1.5.4] Burning fossil fuels since the Industrial Revolution moves carbon locked away for millions of years into the atmosphere in a few centuries, far faster than photosynthesis and the oceans can take it back, so atmospheric CO₂ rises. Consequences are in Climate change and biological strategies.
+[bio34-s1.6.b] Whether a store helps to lower or raise atmospheric CO₂ depends on whether carbon is flowing in or out. Photosynthesis shows how plants act as sinks; here the sink and source distinction is applied to every store and to the overall balance of the cycle.
+[bio34-s1.6.0] A store acts as a sink when its inputs exceed its outputs, so it gains carbon, and as a source when its outputs exceed its inputs, so it releases carbon.
+[bio34-s1.6.1] The same store can switch between the two: a growing forest is a sink; a mature forest roughly balances; a burning or felled forest is a source. A healthy wet bog is a sink; a drained or burning bog is a source.
+[bio34-s1.6.2] The main natural sinks on a carbon-cycle diagram are land plants (forests and grassland, with the soil carbon under them); algae and phytoplankton in the oceans (with dissolving CO₂ and shells sinking to the sea floor); bogs and other wetlands; and limestone and fossil fuels as very long-term stores.
+[bio34-s1.6.3] These sinks are compared, and the strategies that use them are described, in Climate change and biological strategies.
+[bio34-s1.6.4] Before large-scale fossil-fuel burning, the CO₂ taken up by photosynthesis and the oceans each year was roughly balanced by the CO₂ released by respiration, decomposition and natural fires. Atmospheric CO₂ therefore stayed nearly constant, at about 280 parts per million before the Industrial Revolution.
+[bio34-s1.6.5] Deforestation and fossil-fuel burning have tipped this balance, so more CO₂ is now added than removed.
+[bio34-s1.6.6] Seasonal pattern: atmospheric CO₂ falls each northern summer, when photosynthesis exceeds respiration over the large land area of the northern hemisphere, and rises each winter, when respiration and decomposition exceed photosynthesis. This happens on top of the long-term rise.
+[bio34-s1.7.b] A model represents the cycle in a diagram and in words, and is used to explain and predict. It is only as good as its limits allow.
+[bio34-s1.7.0] Diagram: draw boxes for the stores: carbon dioxide in the air; green plants and algae; animals; dead organisms and wastes; decomposers (bacteria and fungi); fossil fuels; oceans.
+[bio34-s1.7.1] Diagram arrows, each labelled with its process: photosynthesis (air → plants); feeding (plants → animals); death and excretion (plants and animals → dead matter); decomposition (dead matter → decomposers); respiration (plants, animals and decomposers → air).
+[bio34-s1.7.2] Diagram arrows, continued: fossilisation (dead matter → fossil fuels, over millions of years); combustion (fossil fuels and wood → air); dissolving (air ↔ oceans).
+[bio34-s1.7.3] Prediction (a): cutting down and burning a forest removes photosynthesis and adds combustion and the decomposition of the remains, so atmospheric CO₂ rises.
+[bio34-s1.7.4] Prediction (b): draining a bog lets air in, so aerobic decomposers break down the peat and release CO₂.
+[bio34-s1.7.5] Prediction (c): if decomposers were killed (e.g. by soil made very acidic or polluted), dead matter would accumulate, minerals would not be returned to the soil, and plant growth would eventually fall.
+[bio34-s1.7.6] Limitation: a diagram shows the processes but not how much carbon moves or how fast. It also treats each store as one box, although the oceans, soils and forests each hold carbon for very different lengths of time.
+[bio34-s1.7.7] Limitation: it simplifies feedbacks, e.g. warming speeds up decomposition, which releases more CO₂. It is also a snapshot that hides seasonal and long-term change. There is more on this in Models.
+
+CANDIDATES bio35-s4: DNA sequencing
+[bio35-s4.0.b] DNA is a long chain of four bases, and the order of those bases carries the genetic information. Sequencing is the technique that reads that order directly.
+[bio35-s4.0.0] DNA sequencing is working out the exact order of the bases (A, T, C, G) along a piece of DNA, so the result is a string of letters such as TACCGTAG.
+[bio35-s4.0.1] DNA profiling only compares fragment lengths, giving a banding pattern; sequencing reads every base, so it gives far more detailed information.
+[bio35-s4.0.2] The human genome (all of a person's DNA) contains about 3 billion base pairs and about 20,000 protein-coding genes, which shows how large a job reading it is.
+[bio35-s4.0.3] The Human Genome Project (1990–2003) produced the first reference sequence, a standard human sequence that others could be compared with. There is more on this in Science as a global enterprise.
+[bio35-s4.0.4] The first complete, gap-free human sequence was published in 2022. It included the repeated regions that had been impossible to read before.
+[bio35-s4.1.b] The standard method copies the DNA many times and stops each copy at a different point, so the copies form a ladder of fragments. Reading the ladder in order gives the sequence. This is the chain-termination method, and the steps below run from preparation to reading.
+[bio35-s4.1.0] The method was developed by Frederick Sanger in 1977, and is called chain-termination or Sanger sequencing.
+[bio35-s4.1.1] Sanger won the Nobel Prize in Chemistry twice: in 1958 for working out the amino-acid sequence of insulin, and in 1980 (shared) for DNA sequencing.
+[bio35-s4.1.2] 1. Many copies of the DNA to be sequenced are made (e.g. by PCR, which copies DNA in a machine) and separated into single strands. Each single strand is the template, the strand that will be copied.
+[bio35-s4.1.3] 2. The template is mixed with a primer (a short piece of DNA that binds at the start of the region to be read) and DNA polymerase (the enzyme that builds new DNA).
+[bio35-s4.1.4] Also added are a large supply of the four normal nucleotides, and a small amount of each of four modified “terminator” nucleotides.
+[bio35-s4.1.5] A terminator nucleotide can be added to a growing strand like a normal one, but it lacks the chemical group needed to attach the next nucleotide, so once it is added the strand can grow no further.
+[bio35-s4.1.6] 3. DNA polymerase builds new strands complementary to the template. At each position it usually adds a normal nucleotide, but occasionally, by chance, it adds a terminator, and that strand stops there.
+[bio35-s4.1.7] Because there are millions of template copies, strands stop at every possible position, so every length of fragment is made.
+[bio35-s4.1.8] 4. The result is a collection of DNA fragments of every length, each one nucleotide shorter than the next, and each ending in a terminator that shows which base is at its last position.
+[bio35-s4.2.b] The fragments now need to be sorted by length and their end bases identified. Once they are lined up from shortest to longest, the sequence can be read off in order.
+[bio35-s4.2.0] 5. The terminators are identified. In Sanger’s original method four separate reactions were run, each with only one kind of terminator (A, T, C or G), and loaded in four lanes of a gel, so the lane tells you the base.
+[bio35-s4.2.1] In the modern automated method each of the four terminators carries a different coloured fluorescent dye, so one reaction is enough and a laser reads the colour of each fragment.
+[bio35-s4.2.2] 6. The fragments are separated by gel electrophoresis (in a thin capillary tube in modern machines). The gel must separate fragments that differ by a single nucleotide in length, and the shortest move furthest.
+[bio35-s4.2.3] 7. The sequence is read from the shortest fragment to the longest, which on a gel means from the bottom (furthest from the wells) upwards. The last base of each successive fragment gives the next base of the new strand.
+[bio35-s4.2.4] The bands give the new strand, which is copied from the template. The template’s sequence is therefore the complement of what you read.
+[bio35-s4.2.5] Diagram: four-lane gel, lanes labelled A, C, G, T at the top, with the wells at the top at the negative electrode; label wells, lanes, bands, + and − electrodes, shortest and longest fragment; arrow “read from bottom (shortest) to top”, sequence beside it. Beside it, a short template with growing strands, each stopped one base later.
+[bio35-s4.3.b] Exam questions give you a picture of a gel and ask for the base sequence. The method is a fixed routine: start at the bottom and work upwards, one band at a time.
+[bio35-s4.3.0] 1. Find the band nearest the bottom (furthest from the wells), because it is the shortest fragment. Its lane gives the first base of the new strand.
+[bio35-s4.3.1] 2. Move up one band at a time, whichever lane it is in, writing down the lane letter each time.
+[bio35-s4.3.2] 3. Stop at the top band, which is the longest fragment and gives the last base.
+[bio35-s4.3.3] 4. To give the template, write the complementary base for each (A↔T, C↔G), because the new strand was built to match the template.
+[bio35-s4.4.b] Here is the method applied to a gel with eight bands, followed by the same information as it appears on an automated machine.
+[bio35-s4.4.0] A gel has bands at eight heights. From the bottom up, the bands are in lanes T, A, C, C, G, T, A, G.
+[bio35-s4.4.1] So the new strand reads TACCGTAG, and the template strand is ATGGCATC, found by swapping each base for its complement.
+[bio35-s4.4.2] Lane by lane: lane A has bands at positions 2 and 7 from the bottom; lane C at 3 and 4; lane G at 5 and 8; lane T at 1 and 6.
+[bio35-s4.4.3] The shortest fragment (position 1) is one nucleotide longer than the primer; each band above is one nucleotide longer than the one below, so the position number is the fragment’s length in steps.
+[bio35-s4.4.4] Automated output: the machine prints a trace of coloured peaks, one colour per base, in order of fragment length, with the base letter above each peak. It is read left to right in the same way, because the shortest fragments come first.
+[bio35-s4.5.b] The original method reads one stretch of DNA at a time and is slow. Newer methods do the same job on a huge scale, which has changed how much DNA can be read.
+[bio35-s4.5.0] Newer (next-generation) methods sequence millions of short DNA fragments at the same time, then use computers to assemble the overlapping fragments into the full sequence.
+[bio35-s4.5.1] They are far faster and cheaper than the original method, so whole genomes are now sequenced routinely.
+[bio35-s4.5.2] The huge amount of data is stored and analysed in genome databases. There is more on this in Bioinformatics: genome databases.
+[bio35-s4.6.b] Knowing the exact base order of DNA is useful in medicine, research and public health. Each use below depends on comparing a sequence with another one.
+[bio35-s4.6.0] Finding point mutations (changes to a single base) and diagnosing genetic diseases, because the sequence shows exactly which base has changed.
+[bio35-s4.6.1] Choosing cancer drugs by sequencing a tumour’s DNA, so that treatment can match the changes found in that tumour.
+[bio35-s4.6.2] Comparing the DNA of different species to work out evolutionary relationships and classification, since more similar sequences suggest closer relatives.
+[bio35-s4.6.3] Identifying and tracking pathogens (disease-causing organisms): the genome of the virus that causes COVID-19 was sequenced and shared online in January 2020.
+
+CANDIDATES bio27-s3: Chemical breakdown
+[bio27-s3.0.b] Food is made of large molecules that are too big to pass into the blood. Chemical digestion cuts them into small units using enzymes (biological catalysts made by the body).
+[bio27-s3.0.0] Chemical digestion is the hydrolysis of large food molecules into their small, soluble units by digestive enzymes: each bond is broken by adding a molecule of water, which is what hydrolysis means.
+[bio27-s3.0.1] Carbohydrates become simple sugars, proteins become amino acids, and fats become fatty acids and glycerol. These small units are soluble and small enough to be absorbed.
+[bio27-s3.0.2] Each digestive enzyme is specific to one type of substrate (the molecule it acts on) and works best at its optimum pH, the pH of the part of the gut where it acts.
+[bio27-s3.0.3] The gut changes pH along its length: neutral in the mouth, acid in the stomach and alkaline in the small intestine. This suits the different enzymes working in each place.
+[bio27-s3.0.4] Most digestive enzymes are released from glands into the gut cavity, so digestion there is extracellular, meaning it happens outside cells.
+[bio27-s3.1.b] Digestion begins in the mouth, where food is mixed with saliva. Saliva moistens the food and also starts the digestion of starch.
+[bio27-s3.1.0] Saliva is produced by the three pairs of salivary glands and released into the mouth.
+[bio27-s3.1.1] The pH in the mouth is about 7 (neutral to slightly alkaline), which is the optimum for salivary amylase, the enzyme in saliva.
+[bio27-s3.1.2] Salivary amylase digests starch to maltose (a sugar made of two glucose units). The product of an amylase is maltose.
+[bio27-s3.1.3] Food is in the mouth only briefly, so only a little starch is digested there. Stomach acid denatures (destroys the shape of) the amylase soon after it reaches the stomach.
+[bio27-s3.1.4] Saliva also contains water, which dissolves food so that it can be tasted and moistens it, and mucus, which lubricates swallowing.
+[bio27-s3.1.5] Saliva also contains lysozyme, an enzyme that kills some bacteria.
+[bio27-s3.2.b] In the stomach, food meets a strongly acidic fluid called gastric juice. It begins protein digestion and also protects the body from bacteria that arrive in food.
+[bio27-s3.2.0] Gastric juice is produced by gastric glands in the stomach lining and released into the stomach. It contains hydrochloric acid, pepsin (released as inactive pepsinogen) and mucus.
+[bio27-s3.2.1] The pH in the stomach is about 2 (strongly acidic), which is the optimum for pepsin.
+[bio27-s3.2.2] Hydrochloric acid kills most bacteria in food, which is a defence against infection. It also provides the acid pH that pepsin needs.
+[bio27-s3.2.3] Hydrochloric acid converts inactive pepsinogen to active pepsin, and it stops salivary amylase, which cannot work at this pH.
+[bio27-s3.2.4] Pepsin is a protease (a protein-digesting enzyme): it hydrolyses peptide bonds inside protein chains, breaking proteins into shorter chains called polypeptides.
+[bio27-s3.2.5] The product of a protease is polypeptides. Complete protein digestion needs further enzymes in the small intestine to give amino acids.
+[bio27-s3.2.6] Pepsin is made in the inactive form pepsinogen so that it does not digest the gastric gland cells that make it. It becomes active only in the stomach cavity.
+[bio27-s3.2.7] A thick layer of mucus protects the stomach lining from the acid and pepsin. If the mucus barrier fails, the lining is damaged, causing a stomach ulcer.
+[bio27-s3.3.b] Fat digestion needs help before enzymes can act, and the acid from the stomach has to be dealt with. Bile does both jobs when food enters the duodenum (the first part of the small intestine).
+[bio27-s3.3.0] Bile is produced by the liver, stored and concentrated in the gallbladder, and released through the bile duct into the duodenum when chyme (the partly digested, acidic food mixture leaving the stomach), especially fatty chyme, arrives.
+[bio27-s3.3.1] Bile contains water, bile salts, bile pigments and sodium hydrogencarbonate. It contains no enzymes.
+[bio27-s3.3.2] Bile salts emulsify fats, which means they break large fat droplets into tiny droplets. This is a physical change, not a chemical one. There is more on this in Mechanical breakdown.
+[bio27-s3.3.3] Sodium hydrogencarbonate is alkaline and neutralises the acid chyme from the stomach. This raises the pH to suit the pancreatic and intestinal enzymes and stops the action of pepsin.
+[bio27-s3.3.4] Bile pigments are excretory wastes from the breakdown of haemoglobin from old red blood cells in the liver. They give faeces their brown colour.
+[bio27-s3.4.b] The pancreas adds a second fluid to the duodenum, one that carries most of the enzymes needed to digest starch, protein and fat. Because the duodenum is alkaline, these enzymes work best there.
+[bio27-s3.4.0] Pancreatic juice is produced by the pancreas and released through the pancreatic duct into the duodenum. It contains sodium hydrogencarbonate, which neutralises acid, and three enzymes: pancreatic amylase, trypsin and lipase.
+[bio27-s3.4.1] Pancreatic amylase digests the remaining starch (the starch not digested in the mouth) to maltose.
+[bio27-s3.4.2] Trypsin is a protease, released in an inactive form and activated in the duodenum. It digests proteins and polypeptides into shorter peptides.
+[bio27-s3.4.3] Lipase digests fats and oils (triglycerides) into fatty acids and glycerol. The product of a lipase is fatty acids and glycerol, not fatty acids alone.
+[bio27-s3.4.4] Lipase acts on the tiny droplets made by emulsification, because they give it a much larger surface to work on.
+[bio27-s3.4.5] The pH in the duodenum and small intestine is about 8 (slightly alkaline), because of the sodium hydrogencarbonate in bile and pancreatic juice. This suits pancreatic amylase, trypsin and lipase.
+[bio27-s3.5.b] The last stage of digestion is done by enzymes made by the cells lining the small intestine. They finish breaking down the sugars and peptides that earlier enzymes produced.
+[bio27-s3.5.0] The cells lining the villi (the tiny finger-like projections of the small intestine) make enzymes that complete digestion.
+[bio27-s3.5.1] Many of these enzymes are held in the membranes of the lining cells, so the last step of digestion happens right at the absorbing surface.
+[bio27-s3.5.2] Maltase digests maltose to two glucose molecules. Sucrase digests sucrose to glucose and fructose. Lactase digests lactose to glucose and galactose.
+[bio27-s3.5.3] Peptidases digest peptides to amino acids.
+[bio27-s3.5.4] These enzymes work at a pH of about 8, the same alkaline conditions as the duodenum.
+[bio27-s3.5.5] Lactose intolerance: people who stop making lactase after childhood cannot digest lactose, so bacteria in the large intestine ferment it, causing bloating, wind and diarrhoea. There is more on this in Variation and Diet.
+[bio27-s3.6.b] This table pulls together where each enzyme is made, where it acts, its pH and its products. Each line has the same pattern so you can compare them quickly.
+[bio27-s3.6.0] Salivary amylase – made in salivary glands – acts in mouth – pH about 7 – starch → maltose.
+[bio27-s3.6.1] Pepsin (protease) – made in gastric glands of stomach wall – acts in stomach – pH about 2 – protein → polypeptides.
+[bio27-s3.6.2] Pancreatic amylase – made in pancreas – acts in duodenum – pH about 8 – starch → maltose.
+[bio27-s3.6.3] Trypsin (protease) – made in pancreas – acts in duodenum – pH about 8 – proteins and polypeptides → peptides.
+[bio27-s3.6.4] Lipase – made in pancreas – acts in duodenum – pH about 8 – fats → fatty acids and glycerol.
+[bio27-s3.6.5] Maltase – made in the wall of the small intestine – acts there – pH about 8 – maltose → glucose.
+[bio27-s3.6.6] Peptidases – made in the wall of the small intestine – act there – pH about 8 – peptides → amino acids.
+[bio27-s3.6.7] Bile salts (not an enzyme) – made in liver, stored in gallbladder – act in duodenum – emulsify fats.
+[bio27-s3.7.b] Putting the enzymes in order shows how each nutrient is broken down step by step along the gut. You can then use these flow models to predict what goes wrong when part of the system fails.
+[bio27-s3.7.0] Carbohydrate model: starch is digested by salivary amylase in the mouth (pH 7) to maltose. The remaining starch is digested by pancreatic amylase in the duodenum (pH 8) to maltose. Maltose is digested by maltase in the small intestine wall to glucose.
+[bio27-s3.7.1] Sucrose and lactose are digested by sucrase and lactase in the small intestine wall. Cellulose is not digested, because humans make no enzyme for it, so it passes on as fibre.
+[bio27-s3.7.2] Protein model: protein → (pepsin, stomach, pH 2) → polypeptides → (trypsin, duodenum, pH 8) → shorter peptides → (peptidases, small intestine wall) → amino acids.
+[bio27-s3.7.3] Fat model: large fat droplets → (bile salts, duodenum: emulsification, a physical change) → tiny droplets → (lipase from the pancreas, duodenum, pH 8) → fatty acids and glycerol.
+[bio27-s3.7.4] Fat is digested only in the small intestine, after emulsification.
+[bio27-s3.7.5] Using the models to predict: if the bile duct is blocked, for example by gallstones, fats are poorly emulsified and digested, and undigested fat appears in the faeces.
+[bio27-s3.7.6] If the pancreas releases too little juice, as in cystic fibrosis, digestion of all three nutrients is reduced, which is why patients take enzyme capsules. There is more on this in Industrial enzymes.
+[bio27-s3.7.7] Diagram: a flow chart with three rows (carbohydrate, protein, fat), each running left to right through mouth, stomach, duodenum and small intestine wall, showing enzyme or bile salts, pH and product at each step; or an alimentary canal (whole gut) outline with enzymes and pH at each site.
+[bio27-s3.8.b] Visking tubing is a simple physical model of the small intestine. It shows why food must be digested into small molecules before it can pass into the blood.
+[bio27-s3.8.0] Visking (dialysis) tubing is a selectively permeable membrane: it lets small molecules (water, glucose and maltose) through but not large ones (starch). It models the wall of the small intestine, and the water around it models the blood.
+[bio27-s3.8.1] Method, step 1: tie one end of two lengths of Visking tubing, after soaking them in water.
+[bio27-s3.8.2] Method, step 2: fill tube A with starch solution plus amylase solution. Fill tube B, the control (the comparison with no enzyme), with the same volume of starch solution plus water (or boiled amylase).
+[bio27-s3.8.3] Method, step 3: tie the open ends, rinse the outsides, and place each tube in a separate boiling tube of distilled water in a water bath at 37 °C.
+[bio27-s3.8.4] Method, step 4: at the start, and again after about 30 minutes, test samples of the water outside each tube with iodine solution (for starch) and with Benedict's solution in a hot water bath (for reducing sugar), using the food tests.
+[bio27-s3.8.5] Expected results: the water outside both tubes stays yellow-brown with iodine, so no starch passes out.
+[bio27-s3.8.6] After 30 minutes the water outside tube A turns brick red with Benedict's solution, showing reducing sugar, while the water outside tube B stays blue. Inside tube A, a test would show less starch and much reducing sugar.
+[bio27-s3.8.7] Conclusion: starch molecules are too large to pass through the membrane. Amylase digests starch to maltose, which is small enough to pass through. This models why food must be digested before it can be absorbed into the blood. There is more on this in Absorption, transport and storage.
+[bio27-s3.8.8] Safety: wear safety glasses; Benedict's solution is an irritant; take care with hot water; heat the tubes in a water bath, never directly.
+[bio27-s3.9.b] A model is useful only if you know where it differs from the real gut. The tubing copies the barrier but little else.
+[bio27-s3.9.0] The tubing has no villi or microvilli, so its surface area is far smaller than the gut's.
+[bio27-s3.9.1] No blood flows past to carry products away and keep the concentration gradient (the difference in concentration that drives diffusion).
+[bio27-s3.9.2] The real gut absorbs some products by active transport (using energy to move molecules), which tubing cannot do.
+[bio27-s3.9.3] Only one enzyme and one nutrient are modelled, at a constant pH, whereas the gut uses a sequence of enzymes and pH values.
+[bio27-s3.9.4] The tubing does not move food by peristalsis (the waves of muscle contraction that push food along the gut).
+[bio27-s3.9.5] Diagram: a boiling tube of distilled water in a water bath at 37 °C, with a knotted length of Visking tubing containing starch and amylase hanging in it; label Visking tubing, starch and amylase, distilled water, water bath at 37 °C; show the control tube beside it.

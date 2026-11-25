@@ -1,0 +1,107 @@
+import json,re
+P='/Users/gabrielwhelan/barebones/drafts/crunch/biology/'
+txt=open(P+'points/bio13-s4.txt').read()
+ids=re.findall(r'^\[([^\]]+)\]',txt,re.M)
+tg=[i for i in ids if i.startswith('bio13-s4.')]
+E,H='essential','helpful'
+# id: (cost, [(need,strength,why,conf)])
+S={'0.b':(1,[]),
+'0.0':(1,[('bio13-s1.7.0',H,'enzyme specificity','high')]),
+'0.1':(1,[('bio13-s1.1.3',H,'temperature and pH effects','low')]),
+'0.2':(1,[('bio13-s4.0.1',E,'mild conditions','high')]),
+'0.3':(1,[('bio13-s1.0.0',H,'catalyst not used up','high')]),
+'1.b':(1,[]),
+'1.0':(2,[('bio33-s3.2.0',H,'fermenters and bioreactors','high')]),
+'1.1':(1,[('bio33-s3.0.6',H,'genetic modification of microorganisms','low')]),
+'1.2':(1,[]),
+'1.3':(1,[('bio13-s1.7.5',E,'denaturation','high')]),
+'1.4':(1,[]),
+'1.5':(1,[('bio13-s4.9.0',H,'immobilisation','high')]),
+'1.6':(1,[('bio13-s4.1.3',E,'denaturation limits','high')]),
+'1.7':(1,[('bio13-s4.1.3',H,'denaturation limits','low')]),
+'2.b':(1,[]),
+'2.0':(2,[('bio13-s1.4.0',H,'substrate and product','high')]),
+'2.1':(1,[('bio13-s4.2.0',E,'chymosin in rennet','high')]),
+'2.2':(2,[('bio13-s1.10.1',H,'lactose intolerance and lactase','high')]),
+'2.3':(1,[('bio13-s4.2.2',E,'lactase breaking lactose','high')]),
+'3.b':(1,[]),
+'3.0':(1,[]),
+'3.1':(2,[('bio13-s4.9.0',E,'immobilised enzyme','high')]),
+'3.2':(1,[('bio13-s4.3.1',E,'glucose to fructose','high')]),
+'3.3':(2,[('bio33-s3.10.2',H,'yeast fermentation to ethanol','high')]),
+'3.4':(1,[('bio13-s1.2.0',H,'protease substrate naming','low')]),
+'4.b':(1,[]),
+'4.0':(1,[('bio13-s1.2.0',H,'protease acts on protein','low')]),
+'4.1':(1,[]),
+'4.2':(1,[('bio13-s1.2.0',H,'enzyme names show substrate','low')]),
+'4.3':(1,[('bio13-s1.7.5',E,'denaturation','high')]),
+'5.b':(1,[]),
+'5.0':(1,[('bio13-s4.3.3',H,'amylase and yeast fermentation','high')]),
+'5.1':(1,[('bio13-s4.5.0',H,'glucose fermented to ethanol','high')]),
+'5.2':(1,[('bio13-s4.5.1',E,'cellulase biofuel','high')]),
+'5.3':(1,[('bio13-s4.0.1',H,'mild conditions','low')]),
+'6.b':(1,[]),'6.0':(1,[]),'6.1':(1,[]),'6.2':(1,[]),'6.3':(1,[]),'6.4':(1,[]),'6.5':(1,[]),
+'6.6':(1,[('bio13-s4.5.1',H,'cellulose-based biofuel','high')]),
+'7.b':(1,[]),
+'7.0':(1,[]),
+'7.1':(2,[('bio13-s4.7.0',E,'glucose oxidase test strips','high')]),
+'7.2':(1,[]),
+'7.3':(1,[]),
+'7.4':(1,[('bio13-s4.2.2',E,'lactase and lactose intolerance','high')]),
+'7.5':(1,[]),
+'7.6':(2,[('bio13-s4.7.5',E,'asparaginase treatment','high')]),
+'7.7':(2,[('bio33-s3.7.1',H,'Taq polymerase in PCR','high')]),
+'8.b':(1,[]),
+'8.0':(2,[('bio13-s4.9.0',E,'immobilised enzyme','high')]),
+'8.1':(1,[('bio13-s4.8.0',E,'semi-synthetic penicillins','high')]),
+'8.2':(1,[]),
+'8.3':(2,[('bio13-s4.8.2',E,'single-form drugs','high')]),
+'8.4':(1,[('bio13-s4.0.1',H,'mild conditions','high')]),
+'9.b':(1,[]),
+'9.0':(1,[('bio13-s4.1.5',E,'free enzymes lost','high')]),
+'9.1':(1,[('bio13-s4.9.0',E,'immobilised enzyme','high')]),
+'9.2':(1,[('bio13-s4.9.0',E,'immobilised enzyme','high')]),
+'9.3':(1,[('bio13-s4.9.0',E,'immobilised enzyme','high')]),
+'9.4':(1,[('bio13-s4.9.0',E,'immobilised enzyme','high')]),
+'9.5':(1,[('bio13-s4.9.0',E,'immobilised enzyme','high')]),
+'10.b':(1,[]),
+'10.0':(1,[('bio13-s4.9.0',E,'immobilised enzyme','high')]),
+'10.1':(1,[('bio13-s4.9.0',E,'immobilised enzyme','high')]),
+'10.2':(1,[('bio13-s4.9.0',E,'immobilised enzyme','high')]),
+'10.3':(1,[('bio13-s1.7.5',H,'denaturation','low')]),
+'10.4':(1,[('bio13-s1.4.2',E,'active site','high')]),
+'10.5':(1,[('bio13-s4.9.1',H,'enzyme in gel bead','high')]),
+'10.6':(1,[('bio13-s4.9.1',H,'enzyme in gel bead','high')]),
+'11.b':(1,[('bio13-s4.9.1',H,'entrapment in beads','high')]),
+'11.0':(1,[('bio13-s4.9.1',E,'alginate entrapment','high')]),
+'11.1':(2,[('bio13-s4.11.0',E,'alginate-yeast mixture','high')]),
+'11.2':(1,[]),
+'11.3':(1,[('bio13-s4.11.1',E,'beads from step 2','high')]),
+'11.4':(1,[('bio13-s4.11.3',H,'rinsed beads','high')]),
+'11.5':(1,[]),
+'11.6':(2,[('bio13-s4.11.1',E,'bead-making procedure','high')]),
+'12.b':(1,[('bio13-s4.11.4',H,'bead column','high')]),
+'12.0':(1,[('bio13-s4.11.4',E,'bead column','high')]),
+'12.1':(1,[('bio13-s4.12.0',E,'glucose test result','high')]),
+'12.2':(1,[('bio13-s4.11.1',E,'making alginate beads','high')]),
+'12.3':(1,[('bio13-s4.10.1',E,'product not contaminated','high')]),
+'13.b':(1,[]),
+'13.0':(2,[('bio33-s3.2.0',H,'bioreactor vessel','high')]),
+'13.1':(1,[('bio13-s4.13.0',E,'bioreactor definition','high')]),
+'14.b':(1,[]),
+'14.0':(1,[('bio13-s4.7.0',H,'diagnostic strips','low')]),
+'14.1':(2,[('bio13-s4.0.2',H,'energy and waste savings','low')]),
+'14.2':(2,[('bio13-s4.9.0',H,'immobilisation','low')]),
+}
+out={}
+for t in tg:
+    c,n=S[t.split('bio13-s4.')[1]]
+    out[t]={'cost':c,'needs':[{'id':a,'strength':b,'why':w,'confidence':f} for a,b,w,f in n]}
+assert len(out)==len(tg)==len(S),(len(out),len(tg),len(S))
+for t,v in out.items():
+    for n in v['needs']:
+        assert n['id'] in ids and n['id']!=t,(t,n)
+json.dump(out,open(P+'point-links/bio13-s4.json','w'),indent=0)
+json.load(open(P+'point-links/bio13-s4.json'))
+L=sum(len(v['needs']) for v in out.values())
+print(len(out),L,sum(v['cost']==2 for v in out.values()),sum(n['confidence']=='low' for v in out.values() for n in v['needs']))

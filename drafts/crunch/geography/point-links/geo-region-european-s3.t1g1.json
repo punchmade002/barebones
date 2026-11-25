@@ -1,0 +1,613 @@
+{
+ "geo-region-european-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.2.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.2.1",
+    "strength": "helpful",
+    "why": "the Agreement of 1998",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.2.3",
+    "strength": "helpful",
+    "why": "Northern Ireland executive and Assembly",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.2.3",
+    "strength": "essential",
+    "why": "Assembly and power-sharing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.3.0",
+    "strength": "essential",
+    "why": "the Assembly collapse and restoration",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-european-s3.1.0",
+    "strength": "helpful",
+    "why": "nationalist identity",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-european-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.2.0",
+    "strength": "helpful",
+    "why": "conflict (the Troubles) deterring investment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.2.4",
+    "strength": "helpful",
+    "why": "cross-border bodies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.4.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.6.1",
+    "strength": "helpful",
+    "why": "the UK leaving the EU",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.6.2",
+    "strength": "essential",
+    "why": "land border becoming UK-EU border",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-concept-s3.3.b",
+    "strength": "helpful",
+    "why": "Belgian language border and areas",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-european-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.7.3",
+    "strength": "helpful",
+    "why": "French speakers about 4 in 10",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.7.1",
+    "strength": "helpful",
+    "why": "Flanders and Wallonia",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.8.2",
+    "strength": "essential",
+    "why": "parties stand in one language community",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.8.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.9.2",
+    "strength": "helpful",
+    "why": "Basque separatist context",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-european-s3.9.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.9.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.9.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.8.5",
+    "strength": "helpful",
+    "why": "Belgium federal solution",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-european-s3.2.3",
+    "strength": "helpful",
+    "why": "Northern Ireland power-sharing",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-european-s3.2.0",
+    "strength": "helpful",
+    "why": "the Troubles as violent conflict",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.11.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.11.3",
+    "strength": "helpful",
+    "why": "qualified majority voting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.11.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.11.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.11.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.11.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-eu-s1.1.0",
+    "strength": "helpful",
+    "why": "four freedoms of the single market",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.12.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.12.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.12.1",
+    "strength": "helpful",
+    "why": "the euro membership list",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.12.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.13.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.13.0",
+    "strength": "helpful",
+    "why": "other convergence criteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.14.0",
+    "strength": "helpful",
+    "why": "Ireland bailout comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.14.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.12.0",
+    "strength": "helpful",
+    "why": "single market as pooled area",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-european-s3.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.11.3",
+    "strength": "essential",
+    "why": "unanimity lets one state block",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.6.1",
+    "strength": "helpful",
+    "why": "the UK leaving the EU",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.15.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.16.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.11.2",
+    "strength": "helpful",
+    "why": "Lisbon Treaty content",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-european-s3.16.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.16.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.6.4",
+    "strength": "helpful",
+    "why": "Common Travel Area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-european-s3.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.17.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.17.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.17.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.17.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-european-s3.15.1",
+    "strength": "helpful",
+    "why": "unanimity slows decisions",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-european-s3.11.3",
+    "strength": "helpful",
+    "why": "unanimity versus qualified majority",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-european-s3.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-european-s3.18.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.18.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-european-s3.18.2": {
+  "cost": 1,
+  "needs": []
+ }
+}

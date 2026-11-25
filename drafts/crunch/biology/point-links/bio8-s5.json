@@ -1,0 +1,454 @@
+{
+ "bio8-s5.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s5.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s5.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.0",
+    "strength": "helpful",
+    "why": "vitamin definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s5.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s5.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s5.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.0",
+    "strength": "helpful",
+    "why": "vitamin definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s5.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.6",
+    "strength": "helpful",
+    "why": "water- vs fat-soluble groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.6",
+    "strength": "essential",
+    "why": "water- and fat-soluble groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.1.0",
+    "strength": "essential",
+    "why": "fat-soluble absorbed with dietary fat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.6",
+    "strength": "helpful",
+    "why": "water- and fat-soluble groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s5.0.6",
+    "strength": "essential",
+    "why": "water-soluble group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.6",
+    "strength": "helpful",
+    "why": "fat-soluble group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.1.4",
+    "strength": "helpful",
+    "why": "fat-soluble vitamins stored in liver",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s5.1.3",
+    "strength": "helpful",
+    "why": "excess water-soluble excreted",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s5.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.1.5",
+    "strength": "essential",
+    "why": "fat-soluble build-up toxicity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s5.0.6",
+    "strength": "helpful",
+    "why": "water- vs fat-soluble groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.6",
+    "strength": "helpful",
+    "why": "water-soluble group",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s5.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.6",
+    "strength": "helpful",
+    "why": "water-soluble group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s5.0.3",
+    "strength": "helpful",
+    "why": "collagen and antioxidant roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s5.1.7",
+    "strength": "helpful",
+    "why": "leaching and heat destruction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.2.1",
+    "strength": "essential",
+    "why": "collagen role of vitamin C",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s5.0.5",
+    "strength": "helpful",
+    "why": "deficiency disease",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s5.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s5.2.3",
+    "strength": "essential",
+    "why": "scurvy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.2.3",
+    "strength": "helpful",
+    "why": "scurvy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s5.2.3",
+    "strength": "helpful",
+    "why": "scurvy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s5.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.6",
+    "strength": "helpful",
+    "why": "fat-soluble group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.4",
+    "strength": "helpful",
+    "why": "vitamin D controls mineral absorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.3.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio8-s5.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s5.3.1",
+    "strength": "essential",
+    "why": "calcium absorption and bone hardening",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.3.3",
+    "strength": "helpful",
+    "why": "rickets and soft bones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.3.2",
+    "strength": "essential",
+    "why": "skin makes vitamin D in sunlight",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.3.5",
+    "strength": "helpful",
+    "why": "low sunlight risk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.1.0",
+    "strength": "helpful",
+    "why": "fat-soluble absorption and storage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.6",
+    "strength": "helpful",
+    "why": "fat-soluble group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.4.0",
+    "strength": "essential",
+    "why": "vitamin A",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s5.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.4.2",
+    "strength": "helpful",
+    "why": "vitamin K role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.3",
+    "strength": "helpful",
+    "why": "antioxidant role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s5.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.2",
+    "strength": "helpful",
+    "why": "vitamins as coenzymes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.5.0",
+    "strength": "helpful",
+    "why": "B vitamins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s5.5.0",
+    "strength": "helpful",
+    "why": "B vitamins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.5.0",
+    "strength": "helpful",
+    "why": "B vitamins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.5.2",
+    "strength": "essential",
+    "why": "folic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s5.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s5.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s5.0.5",
+    "strength": "helpful",
+    "why": "deficiency diseases",
+    "confidence": "high"
+   }
+  ]
+ }
+}

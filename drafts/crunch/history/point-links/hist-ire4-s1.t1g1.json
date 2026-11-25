@@ -1,0 +1,567 @@
+{
+ "hist-ire4-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.0.2",
+    "strength": "helpful",
+    "why": "earlier Protestant emigrants contrasted",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.1.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s1.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.0.4",
+    "strength": "helpful",
+    "why": "cheap fares to Canada",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.2.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s1.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.2.0",
+    "strength": "essential",
+    "why": "the blight and failed crop",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.2.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.1.4",
+    "strength": "helpful",
+    "why": "population of 8.2 million in 1841",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.0.3",
+    "strength": "helpful",
+    "why": "Catholic emigrants from south and west",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.0.5",
+    "strength": "helpful",
+    "why": "cheap crossing to Liverpool",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.2.6",
+    "strength": "helpful",
+    "why": "arrival at Liverpool in 1847",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.3.0",
+    "strength": "helpful",
+    "why": "public works it replaced",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.3.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.3.2",
+    "strength": "essential",
+    "why": "Poor Law rates and the Gregory clause",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.3.3",
+    "strength": "helpful",
+    "why": "clearing tenants to avoid rates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.3.4",
+    "strength": "essential",
+    "why": "landlord assisted emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.3.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.3.4",
+    "strength": "essential",
+    "why": "landlord assisted emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.3.4",
+    "strength": "helpful",
+    "why": "assisted emigration schemes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.3.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.3.3",
+    "strength": "helpful",
+    "why": "landlord clearances",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.4.0",
+    "strength": "essential",
+    "why": "pre-paid passages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.4.2",
+    "strength": "helpful",
+    "why": "chain emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.4.2",
+    "strength": "helpful",
+    "why": "chain emigration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s1.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.0.4",
+    "strength": "helpful",
+    "why": "cheap fares to Canada",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.5.1",
+    "strength": "essential",
+    "why": "cheaper Quebec fares",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.5.3",
+    "strength": "helpful",
+    "why": "steerage conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.5.4",
+    "strength": "helpful",
+    "why": "deaths from typhus at sea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.6.2",
+    "strength": "helpful",
+    "why": "running the quarantine station",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.6.2",
+    "strength": "helpful",
+    "why": "the station's inspection function",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.6.4",
+    "strength": "helpful",
+    "why": "limited hospital capacity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.7.0",
+    "strength": "helpful",
+    "why": "ships queuing from mid-May",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.6.2",
+    "strength": "helpful",
+    "why": "inspection at Grosse Isle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.7.1",
+    "strength": "helpful",
+    "why": "ships anchored waiting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.6.3",
+    "strength": "essential",
+    "why": "Dr Douglas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.7.2",
+    "strength": "helpful",
+    "why": "typhus spreading among healthy passengers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.7.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.7.6",
+    "strength": "helpful",
+    "why": "orphans of the 1847 deaths",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.6.b",
+    "strength": "helpful",
+    "why": "quarantine stations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.5.2",
+    "strength": "essential",
+    "why": "US Passenger Acts diverting emigrants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.7.6",
+    "strength": "helpful",
+    "why": "the dead of 1847",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.8.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s1.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s1.8.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.7.6",
+    "strength": "helpful",
+    "why": "deaths on Grosse Isle",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s1.8.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.7.8",
+    "strength": "helpful",
+    "why": "French-Canadian generosity",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.2.3",
+    "strength": "helpful",
+    "why": "mass Famine emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.3.5",
+    "strength": "helpful",
+    "why": "Mahon's assisted emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.8.5",
+    "strength": "helpful",
+    "why": "John Mitchel's view",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s1.9.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s1.9.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s1.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.2.3",
+    "strength": "helpful",
+    "why": "most emigrants went to US and Britain",
+    "confidence": "high"
+   }
+  ]
+ }
+}

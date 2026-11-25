@@ -1,0 +1,86 @@
+import json
+E,H='essential','helpful'
+D={
+"0.b":(1,[("s4.4.b",H,"Treaty settlement","high")]),
+"0.0":(1,[("s4.4.b",H,"the Treaty registered","high")]),
+"0.1":(2,[("s5.3.2",E,"Boundary Commission crisis, Tripartite Agreement","high")]),
+"0.2":(2,[("s5.3.3",H,"Kevin O'Higgins","high")]),
+"0.3":(1,[("s6.0.2",H,"builds on Balfour Declaration","high")]),
+"0.4":(1,[("s4.4.2",E,"the oath","high"),("s4.4.1",H,"the Governor-General","high"),("s4.4.3",H,"the Treaty ports","high")]),
+"0.5":(1,[("s4.4.4",H,"land annuities and 1920s finance","high"),("s5.2.6",H,"Land Acts and tenants","low")]),
+"1.b":(1,[("s6.0.3",E,"Statute of Westminster","high"),("s4.4.2",H,"the oath","high")]),
+"1.0":(1,[("s5.4.5",H,"1932 election and election of de Valera","high")]),
+"1.1":(1,[("s5.2.1",E,"James McNeill as Governor-General","high")]),
+"1.2":(1,[("s4.4.2",E,"the oath of fidelity","high")]),
+"1.3":(1,[]),
+"1.4":(1,[]),
+"1.5":(2,[("s5.2.0",H,"Constitution's Crown and Governor-General","high")]),
+"1.6":(1,[("s6.1.5",E,"the 1936 amendment removing the Crown","high")]),
+"1.7":(1,[("s6.0.3",E,"Statute of Westminster","high")]),
+"2.b":(1,[("s6.0.5",H,"land annuities","high")]),
+"2.0":(1,[("s6.0.5",E,"land annuities","high")]),
+"2.1":(1,[("s6.2.0",E,"stopped annuity payments","high"),("s6.0.1",H,"1925 agreement","low")]),
+"2.2":(1,[("s6.2.1",E,"British special duties","high")]),
+"2.3":(1,[("s6.2.1",H,"British duties on cattle","high")]),
+"2.4":(1,[]),
+"2.5":(1,[("s6.2.1",H,"the trade conflict","high")]),
+"3.b":(1,[]),
+"3.0":(1,[("s5.2.b",H,"Cumann na nGaedheal","high")]),
+"3.1":(2,[("s6.3.0",E,"Army Comrades Association","high"),("s5.2.2",H,"O'Duffy as Garda Commissioner","high")]),
+"3.2":(1,[("s6.3.1",E,"O'Duffy's movement","high")]),
+"3.3":(2,[("s6.3.1",H,"O'Duffy and the Blueshirts","high"),("s5.6.3",H,"Cosgrave leading Fine Gael","high")]),
+"3.4":(1,[]),
+"3.5":(1,[("s6.3.1",E,"O'Duffy","high")]),
+"4.b":(1,[("s5.2.0",H,"1922 Constitution","high")]),
+"4.0":(1,[]),
+"4.1":(1,[]),
+"4.2":(1,[]),
+"4.3":(1,[("s3.1.0",H,"partition of 26 and six counties","high")]),
+"4.4":(1,[]),
+"4.5":(1,[]),
+"4.6":(1,[]),
+"4.7":(1,[]),
+"5.b":(1,[("s4.4.3",H,"Treaty ports","high")]),
+"5.0":(1,[("s4.4.3",E,"Treaty ports","high")]),
+"5.1":(1,[("s6.2.0",E,"land annuities dispute","high")]),
+"5.2":(1,[("s6.2.1",E,"special duties","high")]),
+"5.3":(2,[("s6.5.0",E,"surrender of the ports","high")]),
+"5.4":(1,[("s3.0.b",H,"partition","high")]),
+"5.5":(1,[("s6.5.0",E,"the ports handed over","high")]),
+"6.b":(1,[("s6.1.6",E,"External Relations Act","high")]),
+"6.0":(2,[("s6.3.3",H,"Fine Gael founding","high")]),
+"6.1":(1,[("s6.1.6",E,"External Relations Act","high")]),
+"6.2":(1,[("s6.6.1",E,"repeal of External Relations Act","high")]),
+"6.3":(1,[("s6.6.1",E,"repeal of External Relations Act","high")]),
+"6.4":(2,[("s6.6.3",E,"Republic of Ireland Act","high")]),
+"6.5":(2,[("s6.6.4",E,"British Ireland Act","high"),("s3.1.0",H,"Northern Ireland parliament","high")]),
+"6.6":(1,[("s3.0.b",H,"partition","high")]),
+"7.b":(1,[]),
+"7.0":(2,[]),
+"7.1":(1,[("s6.1.2",H,"oath removal","high"),("s6.4.b",H,"1937 constitution","high"),("s6.5.0",H,"ports in 1938","high")]),
+"7.2":(1,[("s6.3.4",H,"banning of the IRA","high")]),
+"7.3":(1,[("s6.2.b",E,"Economic War","high")]),
+"7.4":(1,[]),
+"7.5":(2,[("s6.3.b",H,"Blueshirts","high")]),
+"7.6":(2,[]),
+"7.7":(1,[]),
+"8.b":(1,[]),
+"8.0":(2,[("s6.0.b",H,"Cosgrave's Commonwealth strategy","high")]),
+"8.1":(1,[("s6.0.4",E,"oath, Governor-General, ports","high")]),
+"8.2":(2,[("s6.1.2",H,"removal of oath","high"),("s6.5.0",H,"ports","high"),("s6.5.1",H,"annuities settlement","high"),("s6.4.b",H,"1937 constitution","high")]),
+"8.3":(2,[("s6.2.b",E,"Economic War","high"),("s6.0.2",H,"Imperial Conferences","high")]),
+"8.4":(1,[("s6.2.b",H,"Economic War","high")]),
+"8.5":(1,[("s6.6.3",E,"Republic of Ireland Act","high")]),
+}
+out={}
+for k,(c,n) in D.items():
+    out["hist-ire3-s6."+k]={"cost":c,"needs":[{"id":"hist-ire3-"+t,"strength":s,"why":w,"confidence":f} for t,s,w,f in n]}
+open("/Users/gabrielwhelan/barebones/drafts/crunch/history/point-links/hist-ire3-s6.t1g1.json","w").write(json.dumps(out,indent=1))
+# check
+import re
+pk=open("/Users/gabrielwhelan/barebones/drafts/crunch/history/packs/hist-ire3-s6.t1g1.txt").read()
+ids=re.findall(r"^\[([^\]]+)\]",pk,re.M)
+tg=[i for i in ids if i.startswith("hist-ire3-s6.")]
+assert list(out)==tg,(set(tg)^set(out))
+assert all(n["id"] in ids and n["id"]!=k for k,v in out.items() for n in v["needs"])
+print(len(out),sum(len(v["needs"]) for v in out.values()),sum(v["cost"]==2 for v in out.values()),sum(n["confidence"]=="low" for v in out.values() for n in v["needs"]))

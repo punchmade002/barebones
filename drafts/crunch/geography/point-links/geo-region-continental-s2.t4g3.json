@@ -1,0 +1,481 @@
+{
+ "geo-region-continental-s2.93.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.93.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.94.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.94.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.94.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.94.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.94.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.95.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.95.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.95.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.95.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.95.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.95.4": {
+  "needs": []
+ },
+ "geo-region-continental-s2.96.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.96.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.96.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.96.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.96.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.97.b": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s1.1.1",
+    "strength": "helpful",
+    "why": "census as a count",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s2.97.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.97.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.97.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.97.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.98.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.98.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.98.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.98.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.98.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.99.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.99.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.99.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.99.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.100.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.100.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.100.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.100.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.100.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.101.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.101.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.101.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.101.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.102.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.102.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.102.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.102.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.103.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.103.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.103.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.103.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.104.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.104.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.104.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.104.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.105.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.105.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.105.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.105.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.105.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.106.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.106.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.106.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.106.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.107.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.107.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.107.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.107.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.107.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.108.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.108.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.108.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.108.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.108.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.109.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.109.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.109.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.109.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.109.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.110.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.110.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.110.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.110.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.111.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.111.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.111.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.111.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.111.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.112.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.112.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.112.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.112.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.112.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.112.4": {
+  "needs": []
+ },
+ "geo-region-continental-s2.112.5": {
+  "needs": []
+ },
+ "geo-region-continental-s2.113.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.113.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.113.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.113.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.113.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.113.4": {
+  "needs": []
+ },
+ "geo-region-continental-s2.114.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.114.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.114.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.114.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.114.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.115.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.115.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.115.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.115.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.115.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.115.4": {
+  "needs": []
+ },
+ "geo-region-continental-s2.116.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.116.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.116.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.116.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.116.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.117.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.117.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.117.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.117.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.117.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.118.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.118.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.118.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.118.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.118.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.119.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.119.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.119.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.119.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.119.3": {
+  "needs": [
+   {
+    "id": "geo-population-migration-s1.7.3",
+    "strength": "helpful",
+    "why": "few jobs make young people leave",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s2.120.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.120.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.120.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.120.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.121.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.121.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.121.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.121.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.121.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.121.4": {
+  "needs": []
+ },
+ "geo-region-continental-s2.122.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.122.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.122.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.122.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.123.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.123.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.123.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.123.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.123.3": {
+  "needs": []
+ },
+ "geo-region-continental-s2.123.4": {
+  "needs": []
+ },
+ "geo-region-continental-s2.124.b": {
+  "needs": []
+ },
+ "geo-region-continental-s2.124.0": {
+  "needs": []
+ },
+ "geo-region-continental-s2.124.1": {
+  "needs": []
+ },
+ "geo-region-continental-s2.124.2": {
+  "needs": []
+ },
+ "geo-region-continental-s2.124.3": {
+  "needs": []
+ }
+}

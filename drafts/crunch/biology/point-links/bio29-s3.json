@@ -1,0 +1,648 @@
+{
+ "bio29-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s3.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.3",
+    "strength": "helpful",
+    "why": "ventricles as lower chambers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.3.3",
+    "strength": "helpful",
+    "why": "myogenic cardiac muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.2",
+    "strength": "helpful",
+    "why": "atria as upper chambers",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.1.1",
+    "strength": "helpful",
+    "why": "superior vena cava entry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.0.3",
+    "strength": "essential",
+    "why": "SA node as pacemaker",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.0.4",
+    "strength": "helpful",
+    "why": "SA node impulse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.0.4",
+    "strength": "essential",
+    "why": "SA node impulse starts beat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.1.0",
+    "strength": "helpful",
+    "why": "impulse spreading across atria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.1.1",
+    "strength": "helpful",
+    "why": "impulse blocked from ventricles",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.0.5",
+    "strength": "helpful",
+    "why": "septum as dividing wall",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s3.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.1.2",
+    "strength": "essential",
+    "why": "AV node passes impulse on",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.0.5",
+    "strength": "helpful",
+    "why": "septum",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.1.3",
+    "strength": "helpful",
+    "why": "conducting fibres reach ventricles",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.1.4",
+    "strength": "helpful",
+    "why": "aorta leaves heart",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s3.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.1.3",
+    "strength": "helpful",
+    "why": "conduction route to label",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.0.4",
+    "strength": "helpful",
+    "why": "SA node sets rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s3.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.0.3",
+    "strength": "essential",
+    "why": "SA node receives impulses",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s2.1.2",
+    "strength": "helpful",
+    "why": "control centre in brain",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.2.1",
+    "strength": "essential",
+    "why": "medulla cardiac centre",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s2.1.1",
+    "strength": "helpful",
+    "why": "receptors detect changes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.0.3",
+    "strength": "helpful",
+    "why": "SA node target",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s3.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.0.3",
+    "strength": "essential",
+    "why": "SA node failure",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s3.1.1",
+    "strength": "helpful",
+    "why": "impulse blocked from ventricles",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s3.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.2.5",
+    "strength": "essential",
+    "why": "pacemaker device and its purpose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.0.0",
+    "strength": "helpful",
+    "why": "ventricle contraction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.1.3",
+    "strength": "helpful",
+    "why": "arteries carry blood from heart",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.3.0",
+    "strength": "helpful",
+    "why": "pulse as artery wall wave",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.3.0",
+    "strength": "essential",
+    "why": "pulse as pressure wave",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s3.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.3.1",
+    "strength": "helpful",
+    "why": "radial artery site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s3.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s3.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.3.0",
+    "strength": "essential",
+    "why": "pulse as artery wall wave",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.2.0",
+    "strength": "helpful",
+    "why": "rate rises with exercise",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.3.3",
+    "strength": "helpful",
+    "why": "pulse measuring method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.4.0",
+    "strength": "helpful",
+    "why": "investigation results",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.4.1",
+    "strength": "helpful",
+    "why": "fitness and pulse",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s3.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s3.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.4.3",
+    "strength": "helpful",
+    "why": "variable definitions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.0.0",
+    "strength": "helpful",
+    "why": "ventricles pushing blood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.3",
+    "strength": "helpful",
+    "why": "ventricles pump blood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.5.0",
+    "strength": "essential",
+    "why": "blood pressure definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.5.0",
+    "strength": "helpful",
+    "why": "blood pressure definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.5.2",
+    "strength": "helpful",
+    "why": "pressure measurement units",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.5.3",
+    "strength": "essential",
+    "why": "normal 120/80 values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.5.4",
+    "strength": "essential",
+    "why": "hypertension defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.5.4",
+    "strength": "helpful",
+    "why": "hypertension",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.5.6",
+    "strength": "helpful",
+    "why": "factors raising pressure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s3.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.0.b",
+    "strength": "helpful",
+    "why": "heart chambers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s3.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.1.4",
+    "strength": "essential",
+    "why": "aorta",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s3.6.0",
+    "strength": "helpful",
+    "why": "coronary circulation",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.2.3",
+    "strength": "helpful",
+    "why": "aortic semilunar valve",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.6.1",
+    "strength": "helpful",
+    "why": "coronary arteries branch into muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.6.2",
+    "strength": "helpful",
+    "why": "capillaries in heart muscle",
+    "confidence": "low"
+   },
+   {
+    "id": "bio29-s1.0.2",
+    "strength": "helpful",
+    "why": "right atrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.6.1",
+    "strength": "essential",
+    "why": "coronary arteries to label",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.6.1",
+    "strength": "helpful",
+    "why": "coronary arteries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.6.1",
+    "strength": "essential",
+    "why": "coronary arteries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.7.0",
+    "strength": "essential",
+    "why": "plaque in coronary arteries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.7.1",
+    "strength": "essential",
+    "why": "clot causing heart attack",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.5.4",
+    "strength": "helpful",
+    "why": "high blood pressure risk",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s3.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.7.3",
+    "strength": "essential",
+    "why": "risk factors removed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s3.7.0",
+    "strength": "essential",
+    "why": "narrowed coronary artery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s3.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s3.7.0",
+    "strength": "essential",
+    "why": "blocked coronary artery",
+    "confidence": "high"
+   }
+  ]
+ }
+}

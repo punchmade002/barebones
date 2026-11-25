@@ -1,0 +1,888 @@
+{
+ "bio12-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.0.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio12-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.0.1",
+    "strength": "helpful",
+    "why": "sedimentary rock layers forming",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.0.3",
+    "strength": "helpful",
+    "why": "deeper layers are older",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.6",
+    "strength": "helpful",
+    "why": "natural selection prediction",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.0.3",
+    "strength": "helpful",
+    "why": "rock age order",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.0.3",
+    "strength": "helpful",
+    "why": "younger rocks higher up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.6",
+    "strength": "helpful",
+    "why": "gradual change by selection",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s3.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.0.0",
+    "strength": "helpful",
+    "why": "what a fossil is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.2.b",
+    "strength": "helpful",
+    "why": "transitional fossil meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.2.b",
+    "strength": "essential",
+    "why": "transitional fossil meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.2.2",
+    "strength": "helpful",
+    "why": "Tiktaalik as fish",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.6",
+    "strength": "helpful",
+    "why": "theory predicts intermediate forms",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s3.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.1.3",
+    "strength": "helpful",
+    "why": "gradual change in fossils",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.3.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio12-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.3.0",
+    "strength": "helpful",
+    "why": "horse series traits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.0.1",
+    "strength": "helpful",
+    "why": "fossil formation conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.3.2",
+    "strength": "helpful",
+    "why": "incomplete fossil record",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.3.2",
+    "strength": "helpful",
+    "why": "gaps in fossil record",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s3.4.0",
+    "strength": "essential",
+    "why": "homologous structures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s3.4.1",
+    "strength": "essential",
+    "why": "pentadactyl limb",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.4.0",
+    "strength": "essential",
+    "why": "common ancestor, different function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.4.2",
+    "strength": "essential",
+    "why": "limb bone names",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.4.0",
+    "strength": "helpful",
+    "why": "homologous structures contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.4.0",
+    "strength": "helpful",
+    "why": "contrast with homologous",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.5.0",
+    "strength": "essential",
+    "why": "analogous structures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s3.5.2",
+    "strength": "essential",
+    "why": "vestigial structure meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.5.2",
+    "strength": "essential",
+    "why": "vestigial structures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.6.0",
+    "strength": "essential",
+    "why": "pharyngeal pouches and tail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.6.0",
+    "strength": "essential",
+    "why": "shared early embryo features",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.6.0",
+    "strength": "essential",
+    "why": "embryo similarity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.6.0",
+    "strength": "helpful",
+    "why": "embryo similarity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.6.0",
+    "strength": "essential",
+    "why": "embryo features",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.6.0",
+    "strength": "helpful",
+    "why": "phylogeny and relatedness",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.6.1",
+    "strength": "helpful",
+    "why": "phylogenetic tree reading",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.7.0",
+    "strength": "helpful",
+    "why": "common ancestor relatedness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.7.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.0.4",
+    "strength": "helpful",
+    "why": "DNA bases",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.7.1",
+    "strength": "helpful",
+    "why": "DNA similarity and relatedness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.7.1",
+    "strength": "helpful",
+    "why": "molecule similarity and relatedness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.7.4",
+    "strength": "essential",
+    "why": "cytochrome c sequences",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.7.1",
+    "strength": "essential",
+    "why": "molecular trees match anatomy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.2.1",
+    "strength": "helpful",
+    "why": "domains of life",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s3.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.6",
+    "strength": "helpful",
+    "why": "natural selection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s3.8.0",
+    "strength": "essential",
+    "why": "antibiotic resistance meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.1",
+    "strength": "essential",
+    "why": "resistant vs non-resistant bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.2",
+    "strength": "essential",
+    "why": "survivors after antibiotic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.3",
+    "strength": "essential",
+    "why": "resistant bacteria reproduce",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.4",
+    "strength": "essential",
+    "why": "resistance spreads",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.5",
+    "strength": "helpful",
+    "why": "resistance steps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.5",
+    "strength": "helpful",
+    "why": "resistance spread",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.1",
+    "strength": "essential",
+    "why": "pre-existing resistance mutations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.9.0",
+    "strength": "essential",
+    "why": "resistance pre-exists",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.0",
+    "strength": "helpful",
+    "why": "antibiotic resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.3",
+    "strength": "helpful",
+    "why": "rapid bacterial reproduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.5",
+    "strength": "essential",
+    "why": "selection producing resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.10.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.6",
+    "strength": "helpful",
+    "why": "natural selection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.10.0",
+    "strength": "essential",
+    "why": "drought seed shortage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.10.1",
+    "strength": "helpful",
+    "why": "beak depth selection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.1.1",
+    "strength": "helpful",
+    "why": "island species resemble mainland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.10.3",
+    "strength": "essential",
+    "why": "island resemblance pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.3.5",
+    "strength": "helpful",
+    "why": "speciation from isolation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.1.0",
+    "strength": "essential",
+    "why": "species definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.11.0",
+    "strength": "helpful",
+    "why": "reproductive isolation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.11.1",
+    "strength": "essential",
+    "why": "separated populations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.11.2",
+    "strength": "essential",
+    "why": "different mutations in groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.11.3",
+    "strength": "essential",
+    "why": "different selection pressures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.11.4",
+    "strength": "helpful",
+    "why": "speciation steps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.12.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.11.b",
+    "strength": "helpful",
+    "why": "geographical speciation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.10.3",
+    "strength": "helpful",
+    "why": "Galapagos mainland origin",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s3.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.12.0",
+    "strength": "helpful",
+    "why": "finch species from ancestor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.11.4",
+    "strength": "helpful",
+    "why": "new species formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.11.b",
+    "strength": "helpful",
+    "why": "speciation contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.13.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s3.11.0",
+    "strength": "helpful",
+    "why": "species and interbreeding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s3.13.0",
+    "strength": "helpful",
+    "why": "polyploidy speciation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.13.1",
+    "strength": "essential",
+    "why": "Spartina hybrid origin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s3.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.3.2",
+    "strength": "helpful",
+    "why": "incomplete fossil record",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s3.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s3.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s3.8.5",
+    "strength": "helpful",
+    "why": "antibiotic resistance example",
+    "confidence": "high"
+   }
+  ]
+ }
+}

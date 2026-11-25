@@ -1,0 +1,815 @@
+{
+"hist-eur5-s6.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.2.2",
+"strength": "helpful",
+"why": "Union Minière in Katanga",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s6.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.2.2",
+"strength": "helpful",
+"why": "Union Minière du Haut-Katanga",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s6.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.0.1",
+"strength": "helpful",
+"why": "Katanga revenue base",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.0.3",
+"strength": "essential",
+"why": "Conakat as the rival party",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.0.3",
+"strength": "essential",
+"why": "Conakat autonomy campaign",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.0.1",
+"strength": "helpful",
+"why": "Belgian mining interests",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.0.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.0.3",
+"strength": "essential",
+"why": "Conakat and Tshombe",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.2.4",
+"strength": "helpful",
+"why": "Lumumba's MNC allies",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.0.3",
+"strength": "helpful",
+"why": "Tshombe and Conakat",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.1.4",
+"strength": "helpful",
+"why": "Belgian support",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.3.0",
+"strength": "helpful",
+"why": "Lumumba as prime minister",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.3.0",
+"strength": "helpful",
+"why": "ONUC / UN help",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.1.0",
+"strength": "helpful",
+"why": "Katangan State proclaimed",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s6.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.1.0",
+"strength": "helpful",
+"why": "the secession",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.3.2",
+"strength": "helpful",
+"why": "Belgian troops returned",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s6.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.3.0",
+"strength": "helpful",
+"why": "UN operation (ONUC)",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.1.4",
+"strength": "helpful",
+"why": "Belgian troops in Katanga",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.3.0",
+"strength": "helpful",
+"why": "ONUC would not use force",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s5.3.0",
+"strength": "helpful",
+"why": "Lumumba as prime minister",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.3.5",
+"strength": "helpful",
+"why": "dismissal and Mobutu intervention",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.2.1",
+"strength": "essential",
+"why": "Mobutu's intervention against Lumumba",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.2.2",
+"strength": "essential",
+"why": "Lumumba's arrest by Mobutu",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.1.4",
+"strength": "helpful",
+"why": "Belgian officers in Katanga",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.2.3",
+"strength": "essential",
+"why": "Lumumba's murder",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.3.1",
+"strength": "helpful",
+"why": "Resolution 161 explained",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.2.3",
+"strength": "essential",
+"why": "Lumumba's murder",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s6.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.3.0",
+"strength": "helpful",
+"why": "ONUC mandate",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.3.0",
+"strength": "helpful",
+"why": "UN force in the Congo",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.0.4",
+"strength": "helpful",
+"why": "Baluba",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.3.2",
+"strength": "helpful",
+"why": "Irish troops in the UN force",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.1.1",
+"strength": "helpful",
+"why": "Katangan gendarmes and mercenaries",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.3.3",
+"strength": "helpful",
+"why": "Jadotville context",
+"confidence": "low"
+},
+{
+"id": "hist-eur5-s6.1.1",
+"strength": "helpful",
+"why": "foreign officers in Katanga",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.2.0",
+"strength": "essential",
+"why": "Lumumba turning to Soviets",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.3.4",
+"strength": "helpful",
+"why": "O'Brien in Katanga",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.3.2",
+"strength": "helpful",
+"why": "Irish casualties",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s6.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.3.0",
+"strength": "helpful",
+"why": "UN Congo operation",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.3.4",
+"strength": "helpful",
+"why": "ceasefire context",
+"confidence": "low"
+},
+{
+"id": "hist-eur5-s6.1.0",
+"strength": "helpful",
+"why": "Tshombe's secession",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.4.1",
+"strength": "essential",
+"why": "Hammarskjöld's death",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.3.4",
+"strength": "helpful",
+"why": "UN fighting in Élisabethville",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.1.0",
+"strength": "helpful",
+"why": "Tshombe's secession",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.4.3",
+"strength": "helpful",
+"why": "earlier UN action in Katanga",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.4.4",
+"strength": "helpful",
+"why": "UN operations against Katanga",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.4.5",
+"strength": "helpful",
+"why": "end of the secession",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.4.5",
+"strength": "helpful",
+"why": "Tshombe in exile",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.2.3",
+"strength": "helpful",
+"why": "Lumumba's supporters",
+"confidence": "low"
+},
+{
+"id": "hist-eur5-s6.5.0",
+"strength": "helpful",
+"why": "Tshombe as prime minister",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.6.1",
+"strength": "helpful",
+"why": "Mobutu's earlier coup",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.5.0",
+"strength": "helpful",
+"why": "Tshombe dismissed",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.4.6",
+"strength": "helpful",
+"why": "secession's end",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.4.5",
+"strength": "helpful",
+"why": "former Katangan forces",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.5.2",
+"strength": "helpful",
+"why": "Mobutu regime",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.5.2",
+"strength": "essential",
+"why": "Mobutu's regime",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s6.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s6.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.2.1",
+"strength": "essential",
+"why": "1960 coup and dismissal",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.6.1",
+"strength": "helpful",
+"why": "Mobutu's role in the crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.5.2",
+"strength": "helpful",
+"why": "Mobutu's coup of 1965",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.6.3",
+"strength": "helpful",
+"why": "Mobutu's dictatorship",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.6.3",
+"strength": "helpful",
+"why": "Mobutu's rule",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.6.3",
+"strength": "helpful",
+"why": "Mobutu's one-party rule",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.6.7",
+"strength": "helpful",
+"why": "1990 end of one-party state",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s6.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.6.6",
+"strength": "helpful",
+"why": "one-party state",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.4.6",
+"strength": "helpful",
+"why": "end of secession",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.3.5",
+"strength": "helpful",
+"why": "Soviet involvement",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.1.4",
+"strength": "helpful",
+"why": "Belgian support",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.3.1",
+"strength": "helpful",
+"why": "UN Congo mandate",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.6.6",
+"strength": "helpful",
+"why": "Mobutu nationalising assets",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.0.1",
+"strength": "helpful",
+"why": "Union Minière",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.3.0",
+"strength": "helpful",
+"why": "Lumumba and the central government",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.1.0",
+"strength": "helpful",
+"why": "Tshombe's secession",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s6.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.3.0",
+"strength": "helpful",
+"why": "UN operation cost",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.0.1",
+"strength": "helpful",
+"why": "mineral revenues and Belgian companies",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.0.3",
+"strength": "essential",
+"why": "Conakat claim of identity",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.4.5",
+"strength": "helpful",
+"why": "defeat of the secession",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.5.1",
+"strength": "helpful",
+"why": "Simba rebellion",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s6.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.1.4",
+"strength": "helpful",
+"why": "Belgian involvement",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.3.0",
+"strength": "helpful",
+"why": "UN role",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.1.1",
+"strength": "helpful",
+"why": "Belgian-backed secession",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s6.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.2.3",
+"strength": "essential",
+"why": "Lumumba's murder",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.4.6",
+"strength": "helpful",
+"why": "defeat of the secession",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.8.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s6.5.1",
+"strength": "essential",
+"why": "Simba rebellion of 1964",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s6.8.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s6.3.1",
+"strength": "helpful",
+"why": "UN action against Katanga",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s6.2.3",
+"strength": "helpful",
+"why": "Lumumba's fate",
+"confidence": "high"
+}
+]
+}
+}

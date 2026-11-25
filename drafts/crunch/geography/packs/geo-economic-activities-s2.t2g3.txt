@@ -1,0 +1,192 @@
+MODE: links only (another package rates cost)
+TARGET geo-economic-activities-s2 (part 2 of 2): The mobility of modern economic activities and factors in their location
+[geo-economic-activities-s2.35.1] Refer to features by their position in the photograph, such as foreground, background, left or right, so the examiner can tell exactly what you mean.
+
+CANDIDATES geo-aerial-photographs-s1: Aerial photograph interpretation
+[geo-aerial-photographs-s1.0.b] An aerial photograph is taken from the air, and its type depends on the angle of the camera. A vertical photograph is the first type: the camera points straight down.
+[geo-aerial-photographs-s1.0.0] A vertical photograph is taken with the camera pointing straight down, so it shows only roofs and the tops of features, with no horizon (the line where land meets sky).
+[geo-aerial-photographs-s1.0.1] The scale of a vertical photograph (how much real distance is shrunk onto the picture) is roughly constant across the picture, so it looks like a map and can be used for measuring and mapping.
+[geo-aerial-photographs-s1.0.2] Features are harder to recognise on a vertical photograph because their sides and heights are hidden, so you must identify them from the shape of the roof.
+[geo-aerial-photographs-s1.1.b] An oblique photograph is taken with the camera tilted at an angle to the ground, like a photograph taken from a hilltop or aircraft window. This gives depth but changes how the picture can be used.
+[geo-aerial-photographs-s1.1.0] An oblique photograph is taken with the camera at an angle to the ground, so the sides as well as the roofs of buildings are visible.
+[geo-aerial-photographs-s1.1.1] The scale of an oblique photograph is not constant: foreground features (those nearest the camera) look larger than identical features in the background, and the area covered widens towards the background.
+[geo-aerial-photographs-s1.1.2] Features are easier to recognise on an oblique photograph because you can see their sides, but distance and area cannot be measured directly from it.
+[geo-aerial-photographs-s1.1.3] A low oblique photograph does not show the horizon; a high oblique photograph shows the horizon or skyline.
+[geo-aerial-photographs-s1.2.b] To say which type you have, look for the clues below and quote them as your reason.
+[geo-aerial-photographs-s1.2.0] Oblique clues: the sides of buildings are visible, foreground features look larger than background features, and depth or a horizon is shown.
+[geo-aerial-photographs-s1.2.1] Vertical clues: only roofs are visible, the scale looks even, and the picture looks like a map.
+[geo-aerial-photographs-s1.3.b] To say where a feature is on an oblique photograph, imagine the picture divided into nine areas and name the area it lies in. This is called relative location, because it gives the position within the photograph.
+[geo-aerial-photographs-s1.3.0] Three strips run across the picture: left, centre and right, so every feature falls in one of three columns.
+[geo-aerial-photographs-s1.3.1] Three strips run into the picture: foreground at the bottom, nearest the camera; middleground in the centre; background at the top, furthest from the camera.
+[geo-aerial-photographs-s1.3.2] Accepted notation gives one term from each set, across-term first: left foreground, centre middleground, right background. Both parts must be correct to score.
+[geo-aerial-photographs-s1.3.3] Use the exam spelling foreground, middleground and background, and use centre, not middle, for the across strip.
+[geo-aerial-photographs-s1.3.4] Method: draw the grid lightly on the photo in pencil (or fold the picture into thirds in your head), find the feature, and state its zone.
+[geo-aerial-photographs-s1.3.5] The same method answers true or false statements about what lies in a zone, and matches cropped sections of the photo to zones.
+[geo-aerial-photographs-s1.4.b] The nine-area grid applies to oblique photographs. A vertical photograph looks straight down, so there is no near or far.
+[geo-aerial-photographs-s1.4.0] On a vertical photograph foreground and background have no meaning, because the camera looks straight down and nothing is nearer to it than anything else.
+[geo-aerial-photographs-s1.4.1] Use top, centre or bottom with left, centre or right instead, or compass directions such as north-east and south-west if the orientation is known.
+[geo-aerial-photographs-s1.5.b] Rivertown is an invented market town on an invented oblique photograph. Every worked example here uses it and is labelled illustrative.
+[geo-aerial-photographs-s1.5.0] Illustrative: a river flows from the left foreground to the right background, and a stone bridge crosses it in the centre middleground.
+[geo-aerial-photographs-s1.5.1] Illustrative: a church with a spire stands in the left middleground, with a graveyard beside it.
+[geo-aerial-photographs-s1.5.2] Illustrative: a main street and a square lie in the centre middleground.
+[geo-aerial-photographs-s1.5.3] Illustrative: an industrial estate lies in the right foreground, and a housing estate of semi-detached houses lies in the left background.
+[geo-aerial-photographs-s1.5.4] Illustrative: fields with hedgerows lie in the right background, and a GAA pitch lies in the centre background.
+[geo-aerial-photographs-s1.5.5] Illustrative: waste ground lies in the centre foreground.
+[geo-aerial-photographs-s1.5.6] Illustrative true or false: there is waste ground in the centre foreground. This is true, because the waste ground is in the centre foreground.
+[geo-aerial-photographs-s1.6.b] Each feature has a clue that identifies it on the photograph. Use the clue to name the feature, then give its zone.
+[geo-aerial-photographs-s1.6.0] Church: a spire or tower, a cross-shaped plan, and a graveyard beside it.
+[geo-aerial-photographs-s1.6.1] Graveyard: rows of small headstones.
+[geo-aerial-photographs-s1.6.2] School: a large building with a playground, pitches and a car park.
+[geo-aerial-photographs-s1.6.3] Shopping centre: a very large flat roof and an extensive car park, because many shoppers arrive by car.
+[geo-aerial-photographs-s1.6.4] Factory or warehouse: a large flat or sawtooth roof (a row of angled ridges like saw teeth), with yards and lorries but no gardens.
+[geo-aerial-photographs-s1.6.5] Apartments: a large multi-storey block with communal parking, meaning parking shared by all residents.
+[geo-aerial-photographs-s1.7.b] Houses are told apart by how they are joined, and open land by its markings or lack of them.
+[geo-aerial-photographs-s1.7.0] Housing estate: rows of similar houses with gardens, often arranged in cul-de-sacs (dead-end streets).
+[geo-aerial-photographs-s1.7.1] Terraced houses share side walls; semi-detached houses share one wall; detached houses stand alone. This is how you tell the three apart.
+[geo-aerial-photographs-s1.7.2] Car park: marked bays with vehicles in them, so you can tell it from waste ground.
+[geo-aerial-photographs-s1.7.3] Sports pitch: a rectangle with lines and goalposts. Running track: an oval with lanes.
+[geo-aerial-photographs-s1.7.4] Waste or derelict ground: rough, unused land with no clear use.
+[geo-aerial-photographs-s1.8.b] Transport routes and water have their own shapes and surfaces, which make them easy to pick out.
+[geo-aerial-photographs-s1.8.0] Railway: gentle curves, no cars, and crossings of roads by bridges.
+[geo-aerial-photographs-s1.8.1] River and lake: smooth, dark water with a natural outline.
+[geo-aerial-photographs-s1.8.2] Bridge: a structure carrying a road or railway across water or another route; its parapet (the low wall along its edge) is a clue.
+[geo-aerial-photographs-s1.8.3] Harbour, pier or quay: boats moored alongside a structure that projects into the water or lines it.
+[geo-aerial-photographs-s1.8.4] Roundabout: a circular junction with roads leading off it, such as the one at the end of a bridge.
+[geo-aerial-photographs-s1.9.b] A street map, satellite image or street-view images (ground-level photographs) may show the same features, labelled A to E, in a different orientation from the photograph.
+[geo-aerial-photographs-s1.9.0] Find two features common to both, because they give you fixed reference points; such as the river, a bridge, the railway or a large church, and turn the second source mentally until they match. This is needed because it may be oriented differently from the photo.
+[geo-aerial-photographs-s1.9.1] Identify each feature by a distinctive clue: a spire, a cruciform (cross-shaped) roof, pitch markings, a large flat roof beside a car park, a bridge parapet, or shopfronts.
+[geo-aerial-photographs-s1.9.2] Give each feature's zone on the photograph in accepted notation.
+[geo-aerial-photographs-s1.10.b] There are two ways to say where something is. Absolute location uses the map's grid, and relative location uses the photograph itself or neighbouring features.
+[geo-aerial-photographs-s1.10.0] Absolute location is a grid reference read from the OS (Ordnance Survey) map. Relative location is a zone in the nine-area notation, or a position relative to other features, such as beside the bridge, north of the river.
+[geo-aerial-photographs-s1.10.1] To give a grid reference for a feature seen on the photograph, find it on the photograph, locate it on the map from its position relative to roads, the river and junctions, then give a four- or six-figure grid reference as taught in Map interpretation.
+[geo-aerial-photographs-s1.10.2] On a 1:50 000 map individual buildings are often not drawn, so locate the feature from the surrounding road pattern; churches are shown by map symbols.
+[geo-aerial-photographs-s1.10.3] To name a road or river seen on the photograph, trace it on the photograph, find the same route on the map, and read its number (N, R or M) or its name from the map.
+[geo-aerial-photographs-s1.11.b] The map can tell you which way the camera was facing when the photograph was taken. This is also what lets you turn left and right on the photo into compass directions.
+[geo-aerial-photographs-s1.11.0] The direction from a foreground feature to a background feature on the map is the direction the camera was pointing, because the background is the part furthest in front of the camera.
+[geo-aerial-photographs-s1.11.1] Identify one foreground feature and one background feature on the photograph, find both on the map, and state the direction in an eight-point compass term such as north-east.
+[geo-aerial-photographs-s1.11.2] Check the camera direction with a third feature, so that one wrongly identified feature does not mislead you.
+[geo-aerial-photographs-s1.11.3] Illustrative: on the map the bridge (centre middleground) lies due south of the pitch (centre background), and the waste ground (centre foreground) lies south of the bridge.
+[geo-aerial-photographs-s1.11.4] Illustrative: foreground to background runs south to north, so the camera was pointing north.
+[geo-aerial-photographs-s1.12.b] The photograph and the map record different things, so each answers questions the other cannot.
+[geo-aerial-photographs-s1.12.0] The photograph shows what the map does not: individual buildings, land-use type, crops and field use, building height and age, car parks, traffic, temporary features and recent developments.
+[geo-aerial-photographs-s1.12.1] The map shows what the photograph does not: names, road numbers, height and contours (lines joining places of equal height), the grid, labelled antiquities (ancient monuments), boundaries, and features hidden by trees or lying beyond the frame.
+[geo-aerial-photographs-s1.12.2] The map covers the whole area at a constant scale; an oblique photograph gives a partial view with changing scale.
+[geo-aerial-photographs-s1.12.3] The photograph and map were usually made on different dates, so differences between them can reveal change.
+[geo-aerial-photographs-s1.13.b] Whether you can work out a scale depends on the type of photograph.
+[geo-aerial-photographs-s1.13.0] An oblique photograph has no single scale, so measure distances on the map instead.
+[geo-aerial-photographs-s1.13.1] The scale of a vertical photograph is found by comparing a distance on the photograph with the real ground distance, which is read from the map. The map-scale method is taught in Map interpretation.
+[geo-aerial-photographs-s1.13.2] Illustrative: two road junctions are 5 cm apart on a vertical photograph and 2 cm apart on the 1:50 000 map.
+[geo-aerial-photographs-s1.13.3] Illustrative: 2 cm on the 1:50 000 map equals 1 km, which is 100 000 cm on the ground.
+[geo-aerial-photographs-s1.13.4] Illustrative: the photograph scale is 5 cm to 100 000 cm, which is 1:20 000.
+[geo-aerial-photographs-s1.14.b] A sketch map is a drawn copy of the photograph's main features, not a tracing. Following the rules for size, shapes and labels is where the marks are won.
+[geo-aerial-photographs-s1.14.0] Draw a frame with four ruled sides, the same shape as the photograph.
+[geo-aerial-photographs-s1.14.1] The exam usually asks for half the length and half the breadth: each side is halved, so the sketch has a quarter of the photograph's area.
+[geo-aerial-photographs-s1.14.2] Measure the photograph and calculate the sketch size before drawing.
+[geo-aerial-photographs-s1.14.3] Divide the photograph and the frame into the nine-area grid lightly in pencil, so that you can place features accurately.
+[geo-aerial-photographs-s1.14.4] Show only the features asked for, in approximately the correct position, shape and proportion, because a sketch is a simplified copy and not a tracing.
+[geo-aerial-photographs-s1.15.b] Different kinds of feature are drawn in different ways, and every one must be labelled.
+[geo-aerial-photographs-s1.15.0] Draw rivers, roads and railways as lines, with the river as a broad double line; draw areas such as housing, industry, farmland, car parks and lakes as closed outlined shapes; draw single buildings as small blocks or symbols.
+[geo-aerial-photographs-s1.15.1] Label every feature on or beside it, or in a key (a list explaining the symbols), and give the sketch a title. An unlabelled feature scores nothing.
+[geo-aerial-photographs-s1.15.2] A feature specified with a position, such as a car park in the centre foreground, must be drawn in that zone.
+[geo-aerial-photographs-s1.15.3] Common requests to practise: river, coastline, lake, bridge, railway, two connecting streets (two streets drawn meeting at a junction), car park, church, ecclesiastical land use, housing estate, residential land use, industrial building or estate, warehouse, agricultural land, recreational land use, sports ground, waste ground, a historic ruin, and the CBD.
+[geo-aerial-photographs-s1.16.b] This shows the rules applied to the invented Rivertown photograph.
+[geo-aerial-photographs-s1.16.0] Illustrative: a photograph 22 cm by 16 cm gives a sketch frame of 11 cm by 8 cm, because each side is halved.
+[geo-aerial-photographs-s1.16.1] Illustrative request: the river, a bridge, a church, an industrial area in the foreground, and agricultural land in the background.
+[geo-aerial-photographs-s1.16.2] Illustrative: draw the river as a broad double line from the left foreground to the right background.
+[geo-aerial-photographs-s1.16.3] Illustrative: draw the bridge as a short line crossing the river in the centre middleground, and label it.
+[geo-aerial-photographs-s1.16.4] Illustrative: draw the church as a small cross-shaped symbol in the left middleground, and label it.
+[geo-aerial-photographs-s1.16.5] Illustrative: draw the industrial area as a closed outlined shape in the right foreground, because the request places it there, and label it.
+[geo-aerial-photographs-s1.16.6] Illustrative: draw the agricultural land as field outlines with hedgerows in the background of the right side, and label it.
+[geo-aerial-photographs-s1.17.b] Land use means what an area of land is used for. Sorting what you see into categories is the first step in describing a town.
+[geo-aerial-photographs-s1.17.0] Land-use categories: residential, commercial or retail, industrial, ecclesiastical, educational, recreational, transport, agricultural, open space, and waste or derelict ground.
+[geo-aerial-photographs-s1.17.1] Ecclesiastical land use is religious land use: churches, their grounds and graveyards. Schools are educational land use.
+[geo-aerial-photographs-s1.17.2] Agricultural land around the town shows field patterns with hedgerows, and is either pasture (grass, often with livestock) or tillage (ploughed or cropped fields).
+[geo-aerial-photographs-s1.18.b] Industry needs space and good transport, so it sits in particular places in a town.
+[geo-aerial-photographs-s1.18.0] Industrial land is usually on the edge of town: large flat-roofed buildings in an industrial estate, near main roads, a bypass (a road built round a town to take traffic away from its centre), a railway or a port, with space for parking and lorries.
+[geo-aerial-photographs-s1.18.1] Older industry, such as mills, may be found beside the river or quays.
+[geo-aerial-photographs-s1.19.b] Density means how many homes fit into an area. It changes from the centre of a town outwards, and the centre itself has a distinctive look.
+[geo-aerial-photographs-s1.19.0] Older terraced housing near the centre has high density, with small or no gardens, because the houses share walls and are packed together.
+[geo-aerial-photographs-s1.19.1] Suburban estates of semi-detached and detached houses lie further out, at lower density, with gardens and cul-de-sacs.
+[geo-aerial-photographs-s1.19.2] Apartments are high density, because many homes are stacked in one multi-storey block.
+[geo-aerial-photographs-s1.19.3] Residential density usually falls outward from the centre.
+[geo-aerial-photographs-s1.19.4] The CBD (central business district) is the commercial core of the town, found at the centre where roads converge.
+[geo-aerial-photographs-s1.19.5] CBD clues: the tallest and most densely packed buildings, no gardens, shops fronting onto main streets, car parks and heavy traffic, and often a square or main street.
+[geo-aerial-photographs-s1.20.b] A function is a purpose a town serves, such as trade, worship or transport. Each function can be seen on a photograph.
+[geo-aerial-photographs-s1.20.0] Functions visible on photographs: residential; commercial or retail; industrial or manufacturing; ecclesiastical or religious; educational; recreational or leisure; medical, such as a hospital.
+[geo-aerial-photographs-s1.20.1] Further functions: transport (bridge, railway station, converging roads, harbour); port or fishing (piers, boats); tourism (hotels, caravan parks, marinas, beaches, historic sites).
+[geo-aerial-photographs-s1.20.2] Further functions: market (a square, a market house); administrative (courthouse, council offices, Garda station, which is often hard to confirm from a photograph alone); defensive (a historic castle or town walls).
+[geo-aerial-photographs-s1.21.b] A function question wants evidence, a location and a reason. Following the same four steps each time gives a full answer.
+[geo-aerial-photographs-s1.21.0] Answer formula for describing and explaining a function: name the function, give the photograph evidence, give its location in accepted notation, and explain why the town performs it.
+[geo-aerial-photographs-s1.21.1] Explain the reason using its site (the land it stands on), situation (its position relative to surroundings), size or hinterland (the area around it that it serves).
+[geo-aerial-photographs-s1.21.2] Give several pieces of evidence for each function, so that one doubtful clue does not weaken the answer.
+[geo-aerial-photographs-s1.21.3] Illustrative ecclesiastical function: a church with a spire and graveyard in the left middleground.
+[geo-aerial-photographs-s1.21.4] Illustrative industrial function: large flat-roofed units and lorry yards in the right foreground, beside the main road.
+[geo-aerial-photographs-s1.21.5] Illustrative market or commercial function: a square and a main street of shops in the centre middleground, where roads converge at the bridge.
+[geo-aerial-photographs-s1.22.b] A town's history is visible in its buildings and layout, so the photograph can show which parts are old and which are new.
+[geo-aerial-photographs-s1.22.0] Older features show early growth: a castle, tower house or other ruin; an old church or abbey ruin with an old graveyard; town walls or gates.
+[geo-aerial-photographs-s1.22.1] A market square, fair green or market house shows the town's role as a market centre.
+[geo-aerial-photographs-s1.22.2] Old stone bridges, quays and warehouses on the river, and mills and weirs (low dams across a river) show the town's use of the river.
+[geo-aerial-photographs-s1.22.3] A railway line and station show growth in the 19th century.
+[geo-aerial-photographs-s1.22.4] Modern housing estates and industrial estates on the edge of town show recent growth.
+[geo-aerial-photographs-s1.23.b] Towns grow where a site offers an advantage, and many of those advantages can be seen on the photograph.
+[geo-aerial-photographs-s1.23.0] Reasons for the town's location seen on the photograph: a bridging point, a river or coastal site, converging routes, flat land, a harbour, surrounding farmland for a market town, or a defensive site.
+[geo-aerial-photographs-s1.24.b] The layout of the streets shows whether a town was designed or grew bit by bit, and the pattern can be named.
+[geo-aerial-photographs-s1.24.0] A planned town has wide, straight streets, a regular grid, a central square or diamond, and uniform terraces.
+[geo-aerial-photographs-s1.24.1] An unplanned town has narrow, winding, irregular streets, often of medieval origin.
+[geo-aerial-photographs-s1.24.2] Wide streets on their own do not show that a town is unplanned, because planned towns also have wide, straight streets.
+[geo-aerial-photographs-s1.24.3] Linear growth: development along a main road, for example houses strung out beside it.
+[geo-aerial-photographs-s1.24.4] Nucleated growth: development clustered around a centre or junction.
+[geo-aerial-photographs-s1.24.5] Radial pattern: streets radiating from a bridge or square.
+[geo-aerial-photographs-s1.24.6] Grid pattern: streets laid out at right angles in regular blocks.
+[geo-aerial-photographs-s1.24.7] Name the pattern on the photograph and use it as evidence for the type of town.
+[geo-aerial-photographs-s1.25.b] Congestion means roads so full that traffic slows or stops. Several causes can be spotted on a photograph.
+[geo-aerial-photographs-s1.25.0] Narrow streets in the old core of the town, which cannot carry many vehicles.
+[geo-aerial-photographs-s1.25.1] On-street parking that narrows the road.
+[geo-aerial-photographs-s1.25.2] Routes converging on one bridge or junction, so all traffic must squeeze through one point.
+[geo-aerial-photographs-s1.25.3] Through-traffic passing the town centre, meaning vehicles that are only passing through and do not stop there.
+[geo-aerial-photographs-s1.25.4] Delivery vehicles, and limited off-street parking.
+[geo-aerial-photographs-s1.25.5] Schools and shopping centres that generate peak traffic.
+[geo-aerial-photographs-s1.26.b] Traffic management means the measures used to keep traffic moving and safe. Many can be spotted on the photograph.
+[geo-aerial-photographs-s1.26.0] Measures visible on photographs: roundabouts, traffic lights, pedestrian crossings, one-way streets (all parked cars face one way, with arrows on the road), double yellow lines (no parking), bus lanes and cycle lanes.
+[geo-aerial-photographs-s1.26.1] Further measures: off-street and multi-storey car parks, pedestrianised streets (closed to vehicles), bypasses, relief roads and ring roads, bollards (short posts that block vehicles) and traffic-calming ramps.
+[geo-aerial-photographs-s1.26.2] Answer formula for a measure: name it, give its location in accepted notation, and explain how it reduces congestion or improves safety.
+[geo-aerial-photographs-s1.26.3] Answer formula for a problem: name it, locate it, and explain why it causes congestion.
+[geo-aerial-photographs-s1.26.4] A suggested solution, such as a bypass to remove through-traffic, a car park on waste ground, a one-way system or pedestrianisation, must be justified with photograph evidence.
+[geo-aerial-photographs-s1.27.b] This applies the formulas to the invented Rivertown photograph.
+[geo-aerial-photographs-s1.27.0] Illustrative problem: all routes converge on the single bridge in the centre middleground, and on-street parking on the main street narrows the road.
+[geo-aerial-photographs-s1.27.1] Illustrative measures: a roundabout at the end of the bridge, and a car park beside the square.
+[geo-aerial-photographs-s1.27.2] Illustrative solution: a relief road crossing the river further downstream, using the open fields.
+[geo-aerial-photographs-s1.28.b] Land use changes as a town grows. The photograph can be compared with the map to show what a place used to be.
+[geo-aerial-photographs-s1.28.0] Land-use change is found by comparing the map with the photograph, which are dated differently, or by comparing a location's present use with a listed change.
+[geo-aerial-photographs-s1.28.1] Listed changes include agricultural to housing, industrial to residential, green space to recreation, open space to residential, farmland to relief road, and green space to waste ground.
+[geo-aerial-photographs-s1.28.2] Method: find the location, identify its present use, then infer its earlier use from the map or from surrounding clues.
+[geo-aerial-photographs-s1.28.3] Clues to earlier use: new estates on the edge with fields beyond, cleared sites, and new roads cutting across field patterns.
+[geo-aerial-photographs-s1.28.4] Illustrative: the map shows fields where the photograph shows the left background housing estate, so the change is agricultural to residential.
+[geo-aerial-photographs-s1.28.5] Second pair, same method: a site shown as industrial on the map and as housing on the photograph is recorded as industrial to residential.
+[geo-aerial-photographs-s1.29.b] A growing town leaves signs on its edges, which the photograph can show.
+[geo-aerial-photographs-s1.29.0] New estates on the edge of the town.
+[geo-aerial-photographs-s1.29.1] Ribbon development (houses built in a line along a road) along approach roads.
+[geo-aerial-photographs-s1.29.2] Industrial estates and retail parks on the outskirts.
+[geo-aerial-photographs-s1.29.3] New roundabouts and bypasses.
+[geo-aerial-photographs-s1.29.4] Sprawl is the spreading of a town into the countryside. There is more on this wider urban issue in the Urban Geography chapter.
+[geo-aerial-photographs-s1.30.b] A site is chosen or rejected on evidence from the photograph.
+[geo-aerial-photographs-s1.30.0] Choose a site on the photograph for a proposed development, such as a shopping centre, factory, car park or playground, and give three reasons, each with photograph evidence.
+[geo-aerial-photographs-s1.30.1] For example, reasons to look for: available flat land; access to main roads; nearness to the population served; space for parking; a position away from a flood-prone river bank.
+[geo-aerial-photographs-s1.30.2] For industry, a site away from housing is suitable.
+[geo-aerial-photographs-s1.30.3] To show a given site is unsuitable, name the reason it fails these tests and give the photograph evidence for it.
+[geo-aerial-photographs-s1.31.b] The season can be worked out from what plants, animals and people are doing. Reason from the evidence rather than guessing a month.
+[geo-aerial-photographs-s1.31.0] Deciduous trees (trees that lose their leaves in autumn) in full leaf indicate summer; bare trees indicate winter.
+[geo-aerial-photographs-s1.31.1] Crops growing or ripening, golden fields and harvested stubble (the short stalks left after harvest) indicate late summer to autumn.
+[geo-aerial-photographs-s1.31.2] Ploughed fields indicate autumn or spring.
+[geo-aerial-photographs-s1.31.3] Silage or hay bales in fields indicate summer.
+[geo-aerial-photographs-s1.31.4] Cattle grazing outdoors indicate the grazing season, roughly spring to autumn, because Irish cattle are usually housed indoors over winter.
+[geo-aerial-photographs-s1.31.5] People in light clothing, and outdoor activity on beaches or pitches, indicate warm weather.
+[geo-aerial-photographs-s1.31.6] Give two or three pieces of evidence and reason from them, without guessing exact months.
+[geo-aerial-photographs-s1.31.7] Illustrative: trees in full leaf and silage bales in the right background fields indicate summer.
+[geo-aerial-photographs-s1.32.b] Shadows point away from the sun. Use the camera direction from the map to turn a shadow direction into a compass direction.
+[geo-aerial-photographs-s1.32.0] Ireland is in the northern hemisphere, so the midday sun is due south and midday shadows point north, where they are at their shortest.
+[geo-aerial-photographs-s1.32.1] The sun rises in the east and sets in the west, roughly. Morning shadows point west; evening shadows point east.
+[geo-aerial-photographs-s1.32.2] Long shadows mean a low sun, which occurs early or late in the day, or in winter, so long shadows alone do not give the hour.
+[geo-aerial-photographs-s1.32.3] Other clues: busy streets and full car parks in business hours, school car parks full or empty, rush-hour traffic, and street lights on.
+[geo-aerial-photographs-s1.32.4] Illustrative: the camera points north, so left is west and right is east. Building shadows fall to the left, which is west, so the sun is in the east: morning.
+[geo-aerial-photographs-s1.32.5] Illustrative: the shadows are long, so the sun is low and it is early morning.

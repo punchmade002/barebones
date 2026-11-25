@@ -1,0 +1,422 @@
+{
+ "bio19-s6.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s6.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s6.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s6.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.0.1",
+    "strength": "helpful",
+    "why": "neurons signalling changed by chemicals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s6.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.0.b",
+    "strength": "helpful",
+    "why": "neurotransmitter definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.1.0",
+    "strength": "essential",
+    "why": "dopamine made from tyrosine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s6.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.1.0",
+    "strength": "helpful",
+    "why": "dopamine as neurotransmitter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.2.0",
+    "strength": "essential",
+    "why": "dopamine released on reward",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.2.1",
+    "strength": "helpful",
+    "why": "reward and reinforcement role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s6.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.1.0",
+    "strength": "helpful",
+    "why": "dopamine as neurotransmitter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.1.0",
+    "strength": "helpful",
+    "why": "dopamine as neurotransmitter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s5.7.2",
+    "strength": "helpful",
+    "why": "Parkinson's dopamine neuron loss",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s6.3.0",
+    "strength": "helpful",
+    "why": "dopamine controls movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s6.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.1.b",
+    "strength": "helpful",
+    "why": "pituitary and hypothalamus location",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s6.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.4.0",
+    "strength": "helpful",
+    "why": "endorphins as neurotransmitters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s6.4.0",
+    "strength": "essential",
+    "why": "endorphins are peptide neurotransmitters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.4.0",
+    "strength": "helpful",
+    "why": "endorphins as neurotransmitters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.2.b",
+    "strength": "helpful",
+    "why": "reward pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s5.3.1",
+    "strength": "essential",
+    "why": "reuptake by transporter proteins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s5.0.0",
+    "strength": "helpful",
+    "why": "neurotransmitter release",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s6.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.5.0",
+    "strength": "essential",
+    "why": "cocaine raises dopamine",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s6.5.1",
+    "strength": "essential",
+    "why": "amphetamines raise dopamine",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s6.2.b",
+    "strength": "helpful",
+    "why": "reward pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s6.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.2.b",
+    "strength": "helpful",
+    "why": "reward pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.4.2",
+    "strength": "essential",
+    "why": "endorphins bind opioid receptors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s6.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s5.4.3",
+    "strength": "helpful",
+    "why": "receptors on postsynaptic membrane",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s6.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.7.0",
+    "strength": "essential",
+    "why": "fewer receptors reduce effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.7.0",
+    "strength": "essential",
+    "why": "fewer dopamine receptors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.7.0",
+    "strength": "helpful",
+    "why": "brain adaptation to drug",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.7.3",
+    "strength": "helpful",
+    "why": "dependence and withdrawal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.4.1",
+    "strength": "helpful",
+    "why": "when endorphins are released",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.4.1",
+    "strength": "helpful",
+    "why": "endorphin release triggers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s6.8.0",
+    "strength": "essential",
+    "why": "exercise raises endorphins and dopamine",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s6.4.2",
+    "strength": "helpful",
+    "why": "endorphins as painkillers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.1.b",
+    "strength": "helpful",
+    "why": "diet supplies dopamine raw material",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.2.1",
+    "strength": "helpful",
+    "why": "reward reinforces behaviour",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.1.0",
+    "strength": "essential",
+    "why": "tyrosine as dopamine precursor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s6.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.8.0",
+    "strength": "helpful",
+    "why": "exercise raises neurotransmitters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s6.7.0",
+    "strength": "helpful",
+    "why": "brain adaptation causes dependence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s6.10.2": {
+  "cost": 1,
+  "needs": []
+ }
+}

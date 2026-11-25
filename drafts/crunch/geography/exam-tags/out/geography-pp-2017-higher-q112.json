@@ -1,0 +1,36 @@
+{
+"12A(i)": [
+{"k": 1, "of": ["geo-graph-skills-s1.6.1"]},
+{"k": 1, "of": ["geo-graph-skills-s1.6.2"]},
+{"k": 1, "of": ["geo-graph-skills-s1.6.3"]},
+{"k": 1, "of": ["geo-graph-skills-s1.6.2"]},
+{"k": 1, "of": ["geo-graph-skills-s1.6.0"]}
+],
+"12A(ii)": [
+{"k": 1, "of": ["geo-population-migration-s6.0.b"]},
+{"k": 1, "of": ["geo-population-migration-s6.2.0", "geo-population-migration-s6.1.3"]}
+],
+"12B": [
+{"k": 1, "of": ["geo-population-migration-s5.7.0"]},
+{"k": 1, "of": ["geo-population-migration-s5.2.1"]},
+{"k": 1, "of": ["geo-population-migration-s5.7.5"]},
+{"k": 1, "of": ["geo-population-migration-s5.2.3"]},
+{"k": 1, "of": ["geo-population-migration-s5.8.0"]},
+{"k": 1, "of": ["geo-population-migration-s5.2.5"]},
+{"k": 1, "of": ["geo-population-migration-s5.2.0"]},
+{"k": 1, "of": ["geo-population-migration-s5.7.2"]},
+{"k": 1, "of": ["geo-population-migration-s5.7.3"]},
+{"k": 1, "of": ["geo-population-migration-s5.7.4"]},
+{"k": 1, "of": ["geo-population-migration-s5.2.2"]},
+{"k": 1, "of": ["geo-population-migration-s5.8.2"]},
+{"k": 1, "of": ["geo-population-migration-s5.11.0"]},
+{"k": 1, "of": ["geo-population-migration-s5.11.4"]},
+{"k": 1, "of": ["geo-population-migration-s5.4.1"]}
+],
+"12C": [
+{"k": 1, "of": ["geo-urban-s3.0.0"]},
+{"k": 1, "of": ["geo-urban-s3.0.b"]},
+{"k": 1, "of": ["geo-urban-s3.0.1"]},
+{"k": 1, "of": ["geo-urban-s3.0.5"]}
+]
+}

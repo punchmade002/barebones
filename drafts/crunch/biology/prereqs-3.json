@@ -1,0 +1,482 @@
+{
+ "bio15-s5": [
+  {
+   "needs": "bio7-s3",
+   "strength": "essential",
+   "why": "mitochondrion structure (cristae, matrix) within the organelle set",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s1",
+   "strength": "essential",
+   "why": "ATP synthase makes ATP",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio15-s4",
+   "strength": "essential",
+   "why": "electron/hydrogen carriers from the second stage feed the ETC",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s2",
+   "strength": "essential",
+   "why": "NADH/FADH carriers donate electrons",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio14-s5",
+   "strength": "helpful",
+   "why": "parallel chemiosmosis in chloroplast",
+   "confidence": "low"
+  }
+ ],
+ "bio16-s1": [
+  {
+   "needs": "bio7-s3",
+   "strength": "helpful",
+   "why": "nucleus and cell structure",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio10-s1",
+   "strength": "helpful",
+   "why": "DNA is what is copied in S phase",
+   "confidence": "low"
+  }
+ ],
+ "bio16-s2": [
+  {
+   "needs": "bio16-s1",
+   "strength": "essential",
+   "why": "mitosis is a phase of the cell cycle",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s1",
+   "strength": "essential",
+   "why": "chromosomes, chromatids, homologous pairs",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio12-s1",
+   "strength": "helpful",
+   "why": "meiosis produces variation",
+   "confidence": "low"
+  }
+ ],
+ "bio16-s3": [
+  {
+   "needs": "bio16-s1",
+   "strength": "essential",
+   "why": "S phase and cell cycle stages",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio16-s2",
+   "strength": "essential",
+   "why": "mitosis stages",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio10-s1",
+   "strength": "essential",
+   "why": "DNA nucleotide structure and base pairing",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio17-s1",
+   "strength": "helpful",
+   "why": "DNA replication model",
+   "confidence": "low"
+  }
+ ],
+ "bio16-s4": [
+  {
+   "needs": "bio16-s1",
+   "strength": "essential",
+   "why": "cancer is uncontrolled cell cycle",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio17-s3",
+   "strength": "helpful",
+   "why": "mutations in growth-control genes",
+   "confidence": "high"
+  }
+ ],
+ "bio16-s5": [
+  {
+   "needs": "bio16-s4",
+   "strength": "essential",
+   "why": "treats and prevents cancer as described",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio17-s3",
+   "strength": "helpful",
+   "why": "mutagens cause cancer-causing mutations",
+   "confidence": "low"
+  }
+ ],
+ "bio17-s1": [
+  {
+   "needs": "bio10-s1",
+   "strength": "essential",
+   "why": "DNA and RNA structure and base pairing",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio16-s3",
+   "strength": "helpful",
+   "why": "replication in the cell cycle",
+   "confidence": "low"
+  }
+ ],
+ "bio17-s2": [
+  {
+   "needs": "bio10-s1",
+   "strength": "essential",
+   "why": "DNA and RNA nucleotides",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio10-s3",
+   "strength": "essential",
+   "why": "codons and the genetic code are used in translation",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio10-s2",
+   "strength": "essential",
+   "why": "genes code for proteins",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s2",
+   "strength": "helpful",
+   "why": "amino acids and protein structure",
+   "confidence": "low"
+  }
+ ],
+ "bio17-s3": [
+  {
+   "needs": "bio17-s2",
+   "strength": "essential",
+   "why": "mutations change the sequence transcribed/translated",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio10-s3",
+   "strength": "essential",
+   "why": "codon changes alter amino acids",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s1",
+   "strength": "helpful",
+   "why": "chromosome mutations",
+   "confidence": "low"
+  }
+ ],
+ "bio18-s1": [
+  {
+   "needs": "bio21-s2",
+   "strength": "helpful",
+   "why": "stimulus-response model",
+   "confidence": "low"
+  }
+ ],
+ "bio18-s2": [
+  {
+   "needs": "bio18-s1",
+   "strength": "essential",
+   "why": "skeleton role in the system",
+   "confidence": "high"
+  }
+ ],
+ "bio18-s3": [
+  {
+   "needs": "bio18-s1",
+   "strength": "essential",
+   "why": "skeleton role in the system",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio18-s2",
+   "strength": "helpful",
+   "why": "axial skeleton context for attachment",
+   "confidence": "low"
+  }
+ ],
+ "bio18-s4": [
+  {
+   "needs": "bio18-s3",
+   "strength": "helpful",
+   "why": "bones that muscles and joints move",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio19-s1",
+   "strength": "helpful",
+   "why": "nervous control of muscles",
+   "confidence": "low"
+  }
+ ],
+ "bio19-s1": [
+  {
+   "needs": "bio18-s1",
+   "strength": "helpful",
+   "why": "response system effectors",
+   "confidence": "low"
+  }
+ ],
+ "bio19-s2": [
+  {
+   "needs": "bio19-s1",
+   "strength": "essential",
+   "why": "CNS and PNS pathway",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio19-s3",
+   "strength": "essential",
+   "why": "sensory, relay and motor neurons",
+   "confidence": "high"
+  }
+ ],
+ "bio19-s3": [
+  {
+   "needs": "bio7-s3",
+   "strength": "helpful",
+   "why": "cell structure",
+   "confidence": "low"
+  }
+ ],
+ "bio19-s4": [
+  {
+   "needs": "bio19-s3",
+   "strength": "essential",
+   "why": "neuron structure carries impulses",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "helpful",
+   "why": "ion movement across membranes",
+   "confidence": "low"
+  }
+ ],
+ "bio19-s5": [
+  {
+   "needs": "bio19-s4",
+   "strength": "essential",
+   "why": "neurotransmission at synapse",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio19-s3",
+   "strength": "helpful",
+   "why": "neuron structure",
+   "confidence": "low"
+  }
+ ],
+ "bio19-s6": [
+  {
+   "needs": "bio19-s5",
+   "strength": "essential",
+   "why": "neurotransmitters acting at synapses",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio20-s1",
+   "strength": "helpful",
+   "why": "hormone role of endorphins",
+   "confidence": "low"
+  }
+ ],
+ "bio20-s1": [
+  {
+   "needs": "bio21-s3",
+   "strength": "helpful",
+   "why": "hormones as coordination",
+   "confidence": "low"
+  }
+ ],
+ "bio20-s2": [
+  {
+   "needs": "bio20-s1",
+   "strength": "essential",
+   "why": "hormones and their glands",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio23-s6",
+   "strength": "helpful",
+   "why": "reproductive hormone manipulation",
+   "confidence": "low"
+  }
+ ],
+ "bio21-s1": [
+  {
+   "needs": "bio19-s1",
+   "strength": "helpful",
+   "why": "nervous system structures",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio20-s1",
+   "strength": "helpful",
+   "why": "endocrine glands",
+   "confidence": "low"
+  }
+ ],
+ "bio21-s2": [
+  {
+   "needs": "bio21-s1",
+   "strength": "essential",
+   "why": "structures involved in response",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio19-s2",
+   "strength": "helpful",
+   "why": "reflex as stimulus-response",
+   "confidence": "low"
+  }
+ ],
+ "bio21-s3": [
+  {
+   "needs": "bio19-s1",
+   "strength": "essential",
+   "why": "nervous coordination",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio20-s1",
+   "strength": "essential",
+   "why": "hormonal coordination",
+   "confidence": "high"
+  }
+ ],
+ "bio22-s1": [
+  {
+   "needs": "bio6-s1",
+   "strength": "essential",
+   "why": "viruses are pathogens",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio33-s1",
+   "strength": "essential",
+   "why": "bacteria and fungi as pathogens",
+   "confidence": "high"
+  }
+ ],
+ "bio22-s2": [
+  {
+   "needs": "bio22-s1",
+   "strength": "essential",
+   "why": "pathogens that immunity defends against",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio22-s5",
+   "strength": "helpful",
+   "why": "white blood cell roles",
+   "confidence": "low"
+  }
+ ],
+ "bio22-s3": [
+  {
+   "needs": "bio22-s2",
+   "strength": "essential",
+   "why": "adaptive immunity and memory",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio22-s5",
+   "strength": "helpful",
+   "why": "lymphocytes and antibodies",
+   "confidence": "low"
+  }
+ ],
+ "bio22-s4": [
+  {
+   "needs": "bio6-s1",
+   "strength": "essential",
+   "why": "virus structure",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio17-s2",
+   "strength": "helpful",
+   "why": "host uses transcription/translation for viral proteins",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio10-s1",
+   "strength": "helpful",
+   "why": "viral nucleic acid",
+   "confidence": "low"
+  }
+ ],
+ "bio22-s5": [
+  {
+   "needs": "bio29-s4",
+   "strength": "helpful",
+   "why": "blood components",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio22-s2",
+   "strength": "essential",
+   "why": "immune responses cells carry out",
+   "confidence": "high"
+  }
+ ],
+ "bio22-s6": [
+  {
+   "needs": "bio22-s1",
+   "strength": "essential",
+   "why": "pathogen types and transmission",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio22-s4",
+   "strength": "helpful",
+   "why": "virus replication",
+   "confidence": "low"
+  }
+ ],
+ "bio22-s7": [
+  {
+   "needs": "bio22-s6",
+   "strength": "essential",
+   "why": "spread of disease",
+   "confidence": "high"
+  }
+ ],
+ "bio23-s1": [
+  {
+   "needs": "bio20-s1",
+   "strength": "helpful",
+   "why": "testosterone and glands",
+   "confidence": "low"
+  }
+ ],
+ "bio23-s2": [
+  {
+   "needs": "bio23-s1",
+   "strength": "helpful",
+   "why": "parallel system",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio20-s1",
+   "strength": "helpful",
+   "why": "hormones from ovary",
+   "confidence": "low"
+  }
+ ]
+}

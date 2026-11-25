@@ -1,0 +1,431 @@
+{
+ "bio6-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.0",
+    "strength": "essential",
+    "why": "prokaryote definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.1.1",
+    "strength": "helpful",
+    "why": "ribosomes build proteins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s2.0.2",
+    "strength": "essential",
+    "why": "rRNA used for comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.0.2",
+    "strength": "essential",
+    "why": "rRNA sequence comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.0.4",
+    "strength": "helpful",
+    "why": "similar rRNA means related",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s2.0.5",
+    "strength": "helpful",
+    "why": "three deep branches",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s2.2.2",
+    "strength": "helpful",
+    "why": "archaea-eukaryote genetic similarities",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s2.0.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s2.0.6",
+    "strength": "essential",
+    "why": "archaea-eukaryote shared ancestor",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s2.3.2",
+    "strength": "essential",
+    "why": "four eukaryotic kingdoms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.0",
+    "strength": "essential",
+    "why": "prokaryote: no nucleus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.2.1",
+    "strength": "essential",
+    "why": "circular vs linear chromosomes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s1.2.2",
+    "strength": "helpful",
+    "why": "histones package DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.1.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio6-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.3.4",
+    "strength": "helpful",
+    "why": "antibiotics block bacterial ribosomes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s2.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.0.6",
+    "strength": "helpful",
+    "why": "archaea closer to eukaryotes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.0",
+    "strength": "essential",
+    "why": "prokaryote definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s2.1.1",
+    "strength": "essential",
+    "why": "peptidoglycan in bacterial walls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.2.2",
+    "strength": "essential",
+    "why": "histones package DNA",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s2.0.6",
+    "strength": "helpful",
+    "why": "archaea-eukaryote relationship",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.1.3",
+    "strength": "essential",
+    "why": "antibiotics kill bacteria",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s2.2.1",
+    "strength": "helpful",
+    "why": "archaeal wall differences",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.2.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio6-s2.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s2.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.1",
+    "strength": "essential",
+    "why": "eukaryote definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.1.1",
+    "strength": "helpful",
+    "why": "bacterial chromosome without histones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s2.4.b": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s2.2.2",
+    "strength": "helpful",
+    "why": "histone-like proteins in archaea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.0",
+    "strength": "helpful",
+    "why": "prokaryotes lack nucleus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.3.0",
+    "strength": "helpful",
+    "why": "organelles absent in prokaryotes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.1.1",
+    "strength": "essential",
+    "why": "peptidoglycan in bacterial walls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s2.2.1",
+    "strength": "essential",
+    "why": "archaeal membrane lipids differ",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.2.2",
+    "strength": "essential",
+    "why": "histone-like proteins in archaea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.3.3",
+    "strength": "essential",
+    "why": "70S vs 80S ribosomes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s2.5.0",
+    "strength": "essential",
+    "why": "meaning of S number",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.2.3",
+    "strength": "essential",
+    "why": "antibiotics don't affect archaea",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s2.1.3",
+    "strength": "helpful",
+    "why": "antibiotics kill bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.1.2",
+    "strength": "helpful",
+    "why": "bacteria examples",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s2.2.4",
+    "strength": "helpful",
+    "why": "archaea examples",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.4.5",
+    "strength": "essential",
+    "why": "70S and 80S ribosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.3.3",
+    "strength": "helpful",
+    "why": "S number measures size",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.0.5",
+    "strength": "essential",
+    "why": "three deep branches",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.0.4",
+    "strength": "essential",
+    "why": "genetic similarity shows relationships",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s2.0.2",
+    "strength": "helpful",
+    "why": "sequencing rRNA bases",
+    "confidence": "low"
+   }
+  ]
+ }
+}

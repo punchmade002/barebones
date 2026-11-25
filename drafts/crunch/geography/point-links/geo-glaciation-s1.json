@@ -1,0 +1,1376 @@
+{
+"geo-glaciation-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.0.0",
+"strength": "helpful",
+"why": "uses Munsterian/Midlandian names",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.0.0",
+"strength": "helpful",
+"why": "uses Midlandian name",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.1.0",
+"strength": "essential",
+"why": "uses firn",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.2.0",
+"strength": "essential",
+"why": "uses accumulation zone",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.2.1",
+"strength": "essential",
+"why": "uses ablation zone",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.3.1": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.2.0",
+"strength": "helpful",
+"why": "ice arrives from accumulation zone",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.2.1",
+"strength": "helpful",
+"why": "melting at snout, ablation",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.4.0",
+"strength": "essential",
+"why": "cause of advance",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.4.1",
+"strength": "essential",
+"why": "cause of retreat",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.5.0",
+"strength": "essential",
+"why": "uses average rate formula",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.5.0",
+"strength": "essential",
+"why": "uses average rate formula",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.1.0",
+"strength": "helpful",
+"why": "water freezing in joints",
+"confidence": "low"
+}
+]
+},
+"geo-glaciation-s1.6.1": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.6.1",
+"strength": "essential",
+"why": "produced by abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.1.b",
+"strength": "helpful",
+"why": "freeze-thaw weathering process",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.6.3",
+"strength": "helpful",
+"why": "freeze-thaw enlarges hollow",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.6.0",
+"strength": "helpful",
+"why": "plucks back wall",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.6.1",
+"strength": "helpful",
+"why": "abrades floor",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.7.1",
+"strength": "essential",
+"why": "erosion of back wall and floor",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.7.2",
+"strength": "essential",
+"why": "uses rock lip",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.7.b",
+"strength": "helpful",
+"why": "uses corrie landform",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.7.2",
+"strength": "helpful",
+"why": "back wall, lip, tarn features",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.7.3",
+"strength": "helpful",
+"why": "tarn",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.7.b",
+"strength": "helpful",
+"why": "uses corries",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.7.b",
+"strength": "essential",
+"why": "uses corrie",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.8.0",
+"strength": "essential",
+"why": "corries from opposite sides",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.7.b",
+"strength": "essential",
+"why": "uses corrie",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.8.2",
+"strength": "essential",
+"why": "corries around one summit",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.8.1",
+"strength": "helpful",
+"why": "arete landform",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.8.3",
+"strength": "helpful",
+"why": "pyramidal peak landform",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.8.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.8.1",
+"strength": "helpful",
+"why": "arete between corries",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.8.3",
+"strength": "helpful",
+"why": "horn ringed by corries",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.7.b",
+"strength": "helpful",
+"why": "V-shaped river valley",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.7.b",
+"strength": "helpful",
+"why": "V-shaped river valley",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.6.0",
+"strength": "helpful",
+"why": "plucking",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.6.1",
+"strength": "helpful",
+"why": "abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.7.3",
+"strength": "helpful",
+"why": "interlocking spurs",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.9.1",
+"strength": "helpful",
+"why": "ice deepens and widens floor",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.9.3",
+"strength": "helpful",
+"why": "U-shaped glacial valley",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.9.2",
+"strength": "helpful",
+"why": "truncated spurs",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.9.3",
+"strength": "helpful",
+"why": "U-shaped valley",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.10.0": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.10.0",
+"strength": "essential",
+"why": "tributary glacier smaller",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.10.1",
+"strength": "essential",
+"why": "hanging valley formed",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.10.2",
+"strength": "helpful",
+"why": "hanging valley waterfall",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.10.1",
+"strength": "helpful",
+"why": "hanging valley above main valley",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.6.0",
+"strength": "helpful",
+"why": "plucking",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.6.1",
+"strength": "helpful",
+"why": "abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.11.0",
+"strength": "essential",
+"why": "rock basin fills with water",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.11.1",
+"strength": "helpful",
+"why": "ribbon lake",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.11.0",
+"strength": "helpful",
+"why": "rock-basin lakes",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.7.3",
+"strength": "helpful",
+"why": "tarn",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.11.1",
+"strength": "helpful",
+"why": "ribbon lake",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.22.2",
+"strength": "helpful",
+"why": "kettle lake",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.11.1",
+"strength": "helpful",
+"why": "ribbon lake in basin",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.9.3",
+"strength": "helpful",
+"why": "glaciated valley",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.11.0",
+"strength": "helpful",
+"why": "overdeepening by ice",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.12.0",
+"strength": "essential",
+"why": "valley floor below sea level",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.12.1",
+"strength": "helpful",
+"why": "fjord",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.12.1",
+"strength": "helpful",
+"why": "fjord with steep sides",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.6.1",
+"strength": "helpful",
+"why": "abrasion smooths rock",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.6.0",
+"strength": "helpful",
+"why": "plucking tears blocks",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.13.0",
+"strength": "essential",
+"why": "smooth stoss side",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.13.1",
+"strength": "essential",
+"why": "rough lee side",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.13.2",
+"strength": "helpful",
+"why": "roche moutonnee",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.6.1",
+"strength": "helpful",
+"why": "abrasion scratches rock",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.13.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.13.2",
+"strength": "helpful",
+"why": "stoss and lee sides",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.13.4",
+"strength": "helpful",
+"why": "striations",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.14.0": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.14.1": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.6.1",
+"strength": "helpful",
+"why": "abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.3.2",
+"strength": "helpful",
+"why": "river load rounded by attrition",
+"confidence": "low"
+}
+]
+},
+"geo-glaciation-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.14.3",
+"strength": "helpful",
+"why": "angular unsorted load",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.15.0",
+"strength": "essential",
+"why": "till left across land",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.6.3",
+"strength": "helpful",
+"why": "deranged drainage pattern",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.15.0",
+"strength": "essential",
+"why": "uses till",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.16.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.15.0",
+"strength": "essential",
+"why": "uses till",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.15.0",
+"strength": "essential",
+"why": "uses till",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.16.0",
+"strength": "essential",
+"why": "merging lateral moraines",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.2.b",
+"strength": "helpful",
+"why": "uses snout",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.16.2",
+"strength": "helpful",
+"why": "moraine at snout",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.4.1",
+"strength": "helpful",
+"why": "glacier retreat",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.4.1",
+"strength": "helpful",
+"why": "glacier melting back",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.16.2",
+"strength": "essential",
+"why": "end moraine",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.0.2",
+"strength": "helpful",
+"why": "Midlandian ice",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.16.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.16.0",
+"strength": "helpful",
+"why": "lateral moraine",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.16.1",
+"strength": "helpful",
+"why": "medial moraine",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.16.2",
+"strength": "helpful",
+"why": "terminal moraine",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.17.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.15.0",
+"strength": "helpful",
+"why": "drumlins made of till",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.15.0",
+"strength": "essential",
+"why": "uses till",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.17.0",
+"strength": "essential",
+"why": "till mass moulded",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.17.1",
+"strength": "essential",
+"why": "streamlined shape",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.17.b",
+"strength": "helpful",
+"why": "drumlin landform",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.17.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.17.3",
+"strength": "helpful",
+"why": "drumlin swarms",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.17.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.17.b",
+"strength": "helpful",
+"why": "drumlin landform",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.17.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.17.2",
+"strength": "essential",
+"why": "blunt and tapered ends",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.17.3",
+"strength": "helpful",
+"why": "swarm alignment",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.18.0",
+"strength": "essential",
+"why": "erratic definition",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.19.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.15.0",
+"strength": "helpful",
+"why": "contrast with till",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.15.0",
+"strength": "essential",
+"why": "till is unsorted",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.5.2",
+"strength": "helpful",
+"why": "sorting of river deposits",
+"confidence": "low"
+}
+]
+},
+"geo-glaciation-s1.19.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.7.b",
+"strength": "helpful",
+"why": "corrie",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.8.1",
+"strength": "helpful",
+"why": "arete",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.8.3",
+"strength": "helpful",
+"why": "pyramidal peak",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.9.3",
+"strength": "helpful",
+"why": "U-shaped valley",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.10.b",
+"strength": "helpful",
+"why": "hanging valley",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.11.b",
+"strength": "helpful",
+"why": "ribbon lake",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.12.b",
+"strength": "helpful",
+"why": "fjord",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.13.2",
+"strength": "helpful",
+"why": "roche moutonnee",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.13.4",
+"strength": "helpful",
+"why": "striations",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.15.0",
+"strength": "helpful",
+"why": "till",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.16.b",
+"strength": "helpful",
+"why": "moraines",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.17.b",
+"strength": "helpful",
+"why": "drumlins",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.18.0",
+"strength": "helpful",
+"why": "erratics",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.20.b",
+"strength": "helpful",
+"why": "eskers",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.21.b",
+"strength": "helpful",
+"why": "outwash plains",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.22.1",
+"strength": "helpful",
+"why": "kames",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.22.2",
+"strength": "helpful",
+"why": "kettle holes",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.20.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.19.0",
+"strength": "helpful",
+"why": "meltwater deposits are sorted",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.5.0",
+"strength": "helpful",
+"why": "deposition when velocity falls",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.20.1",
+"strength": "essential",
+"why": "deposit left on tunnel floor",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.20.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.20.2",
+"strength": "helpful",
+"why": "esker ridge",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.20.2",
+"strength": "helpful",
+"why": "esker ridge",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.16.2",
+"strength": "helpful",
+"why": "terminal moraine",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.21.0",
+"strength": "essential",
+"why": "sand and gravel spread",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.21.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s1.21.1",
+"strength": "helpful",
+"why": "outwash plain",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.21.1",
+"strength": "helpful",
+"why": "outwash plain",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.16.2",
+"strength": "helpful",
+"why": "terminal moraine",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.22.0": {
+"cost": 1,
+"needs": []
+},
+"geo-glaciation-s1.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.22.0",
+"strength": "essential",
+"why": "deposit left as mound",
+"confidence": "high"
+}
+]
+},
+"geo-glaciation-s1.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.21.b",
+"strength": "helpful",
+"why": "outwash sand and gravel",
+"confidence": "low"
+}
+]
+},
+"geo-glaciation-s1.22.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s1.22.1",
+"strength": "essential",
+"why": "kame",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s1.22.2",
+"strength": "essential",
+"why": "kettle hole",
+"confidence": "high"
+}
+]
+}
+}

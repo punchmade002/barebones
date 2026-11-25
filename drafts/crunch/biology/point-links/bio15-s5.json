@@ -1,0 +1,503 @@
+{
+ "bio15-s5.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s5.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s5.0.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.1.b",
+    "strength": "helpful",
+    "why": "electron transport chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.2.2",
+    "strength": "helpful",
+    "why": "protons moved into space",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s5.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s4.1.0",
+    "strength": "helpful",
+    "why": "citric acid cycle in matrix",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.6.1",
+    "strength": "helpful",
+    "why": "ribosome makes proteins",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s5.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.0.1",
+    "strength": "essential",
+    "why": "cristae and ATP synthase placement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s5.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.0.1",
+    "strength": "helpful",
+    "why": "inner membrane holds chains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.1.0",
+    "strength": "essential",
+    "why": "protein complexes of the chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s2.2.1",
+    "strength": "helpful",
+    "why": "NADH carries electrons to chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s4.2.3",
+    "strength": "helpful",
+    "why": "oxygen final electron acceptor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.1.b",
+    "strength": "helpful",
+    "why": "electron transport chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.1.0",
+    "strength": "essential",
+    "why": "protein complexes in membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.2.0",
+    "strength": "essential",
+    "why": "charge from arriving electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.0.2",
+    "strength": "essential",
+    "why": "intermembrane space location",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.2.2",
+    "strength": "essential",
+    "why": "protons pumped into space",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.2.3",
+    "strength": "essential",
+    "why": "proton gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.2.4",
+    "strength": "essential",
+    "why": "proton flow drives ATP synthase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.1.3",
+    "strength": "essential",
+    "why": "oxygen final acceptor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.2.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.2.4",
+    "strength": "helpful",
+    "why": "steps shown in diagram",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s5.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s5.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.2.4",
+    "strength": "essential",
+    "why": "proton gradient making ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.3.0",
+    "strength": "helpful",
+    "why": "chemiosmosis idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s5.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.0.1",
+    "strength": "essential",
+    "why": "cristae fold inner membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.2.3",
+    "strength": "essential",
+    "why": "gradient built in space",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.2.4",
+    "strength": "essential",
+    "why": "protons return via ATP synthase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.1.0",
+    "strength": "helpful",
+    "why": "complexes embedded in membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.0.3",
+    "strength": "essential",
+    "why": "matrix enzymes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.0.2",
+    "strength": "helpful",
+    "why": "intermembrane space",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.0.4",
+    "strength": "essential",
+    "why": "own DNA and ribosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s5.0.1",
+    "strength": "helpful",
+    "why": "thylakoid membrane sacs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s5.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.1.0",
+    "strength": "essential",
+    "why": "protein complexes in membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.2.3",
+    "strength": "essential",
+    "why": "proton gradient",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s5.2.2",
+    "strength": "helpful",
+    "why": "chloroplast ATP synthase flow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.4.0",
+    "strength": "helpful",
+    "why": "cristae give large area",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s5.3.0",
+    "strength": "helpful",
+    "why": "stacked thylakoid area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.4.6",
+    "strength": "helpful",
+    "why": "own DNA and ribosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.5.b",
+    "strength": "helpful",
+    "why": "shared mechanism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s2.3.0",
+    "strength": "helpful",
+    "why": "light energises chlorophyll electrons",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s5.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s2.3.1",
+    "strength": "helpful",
+    "why": "water supplies electrons",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s5.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s2.4.3",
+    "strength": "helpful",
+    "why": "final acceptors compared",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s2.3.1",
+    "strength": "helpful",
+    "why": "photolysis of water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.0.1",
+    "strength": "essential",
+    "why": "inner membrane cristae",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s5.0.1",
+    "strength": "essential",
+    "why": "thylakoid membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.0.2",
+    "strength": "essential",
+    "why": "intermembrane space",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s5.2.0",
+    "strength": "essential",
+    "why": "thylakoid space protons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s5.0.3",
+    "strength": "essential",
+    "why": "matrix",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s5.0.4",
+    "strength": "essential",
+    "why": "stroma",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s5.6.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s5.6.4",
+    "strength": "helpful",
+    "why": "membranes compared",
+    "confidence": "low"
+   }
+  ]
+ }
+}

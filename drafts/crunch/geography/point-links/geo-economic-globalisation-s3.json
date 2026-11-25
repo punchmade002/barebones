@@ -1,0 +1,1131 @@
+{
+"geo-economic-globalisation-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.0.2",
+"strength": "essential",
+"why": "uses balance of trade",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.1.0",
+"strength": "helpful",
+"why": "items in balance of payments",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.0.2",
+"strength": "essential",
+"why": "compares with balance of trade",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.0.3",
+"strength": "essential",
+"why": "uses trade deficit",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.2.0",
+"strength": "helpful",
+"why": "extra imports from deficit",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.2.0",
+"strength": "helpful",
+"why": "persistent deficit weakens currency",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.2.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.3.0",
+"strength": "essential",
+"why": "uses many export partners",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s3.4.1",
+"strength": "helpful",
+"why": "uses tariff",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.0",
+"strength": "helpful",
+"why": "barriers serve protectionism",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.1",
+"strength": "helpful",
+"why": "removes barriers between members",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.1",
+"strength": "helpful",
+"why": "uses tariffs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.4.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.4",
+"strength": "essential",
+"why": "WTO is the body",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.4.6": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.3",
+"strength": "helpful",
+"why": "GATT cut tariffs",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s3.4.4",
+"strength": "helpful",
+"why": "WTO rules",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.5.1": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-globalisation-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.5.1",
+"strength": "helpful",
+"why": "container port",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.5.3": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-globalisation-s3.5.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s2.13.0",
+"strength": "helpful",
+"why": "China opened to trade",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.7.b",
+"strength": "helpful",
+"why": "uses trading triad",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.5.4",
+"strength": "helpful",
+"why": "MNC trading components",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.7.b",
+"strength": "helpful",
+"why": "triad shipping routes",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.6.1",
+"strength": "essential",
+"why": "Suez Canal chokepoint",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.6.1",
+"strength": "helpful",
+"why": "Suez shipping route",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.6.0",
+"strength": "helpful",
+"why": "uses supply chains",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.7.b",
+"strength": "helpful",
+"why": "triad areas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.5.4",
+"strength": "helpful",
+"why": "uses MNCs",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s3.7.b",
+"strength": "helpful",
+"why": "triad areas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.7.b",
+"strength": "essential",
+"why": "three triad areas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.7.b",
+"strength": "helpful",
+"why": "USA as triad member",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.0.3",
+"strength": "essential",
+"why": "uses trade deficit",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.2",
+"strength": "helpful",
+"why": "trade bloc idea",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.8.2",
+"strength": "essential",
+"why": "replaced NAFTA",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.8.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.8.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.8.5",
+"strength": "helpful",
+"why": "earlier US tariffs",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.7.b",
+"strength": "helpful",
+"why": "Europe as triad area",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.2",
+"strength": "helpful",
+"why": "trade bloc",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.9.0",
+"strength": "helpful",
+"why": "single market",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.2",
+"strength": "helpful",
+"why": "trading bloc",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.9.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.8.6",
+"strength": "helpful",
+"why": "US tariffs 2025",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.7.b",
+"strength": "helpful",
+"why": "Pacific Rim as triad area",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.10.b",
+"strength": "helpful",
+"why": "Pacific Rim definition",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.10.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.10.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.10.0",
+"strength": "helpful",
+"why": "member countries",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.10.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.10.3",
+"strength": "essential",
+"why": "RCEP is the bloc",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.10.0",
+"strength": "helpful",
+"why": "Pacific Rim members",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.11.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.11.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.12.4",
+"strength": "helpful",
+"why": "China overtook Japan",
+"confidence": "low"
+},
+{
+"id": "geo-economic-development-s2.13.4",
+"strength": "helpful",
+"why": "China overtook Japan 2010",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.11.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.11.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.11.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.1",
+"strength": "helpful",
+"why": "avoiding trade barriers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.11.0",
+"strength": "helpful",
+"why": "earlier growth",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.12.0",
+"strength": "helpful",
+"why": "reforms opened economy",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.12.1",
+"strength": "essential",
+"why": "Shenzhen is an SEZ",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.4.4",
+"strength": "helpful",
+"why": "what the WTO is",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.11.2",
+"strength": "helpful",
+"why": "Japan economy ranking",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.0.3",
+"strength": "essential",
+"why": "uses trade surplus",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.12.6": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.12.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.8.5",
+"strength": "helpful",
+"why": "US tariffs trade war",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.13.0",
+"strength": "helpful",
+"why": "poor starting point",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.13.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.13.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.13.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.10.5",
+"strength": "helpful",
+"why": "Asian Tigers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.7.b",
+"strength": "helpful",
+"why": "contrast with triad",
+"confidence": "high"
+},
+{
+"id": "geo-economic-development-s2.0.2",
+"strength": "helpful",
+"why": "rich North, poorer South",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s2.10.3",
+"strength": "helpful",
+"why": "colonial history left export economies",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.15.0",
+"strength": "helpful",
+"why": "colonial raw material pattern",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.15.0",
+"strength": "helpful",
+"why": "colonial raw material pattern",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.15.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.15.0",
+"strength": "helpful",
+"why": "colonial raw material pattern",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.16.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.15.b",
+"strength": "helpful",
+"why": "earlier pattern changed",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.13.b",
+"strength": "helpful",
+"why": "uses NICs",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s3.5.4",
+"strength": "helpful",
+"why": "uses MNCs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s2.2.2",
+"strength": "helpful",
+"why": "core and periphery",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.16.1",
+"strength": "helpful",
+"why": "core versus periphery",
+"confidence": "high"
+},
+{
+"id": "geo-economic-development-s2.2.2",
+"strength": "helpful",
+"why": "periphery meaning",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.16.1",
+"strength": "helpful",
+"why": "core keeps design",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.16.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.16.1",
+"strength": "helpful",
+"why": "core keeps R&D",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.17.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.16.0",
+"strength": "helpful",
+"why": "services split like production",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.16.0",
+"strength": "helpful",
+"why": "low-cost assembly",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.16.0",
+"strength": "helpful",
+"why": "assembly moves to low-wage places",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.18.0",
+"strength": "helpful",
+"why": "export value",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.18.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.0.0",
+"strength": "helpful",
+"why": "visible trade goods",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.0.1",
+"strength": "helpful",
+"why": "invisible trade services",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.18.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.18.3",
+"strength": "helpful",
+"why": "aircraft leasing service export",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.18.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.0.3",
+"strength": "essential",
+"why": "uses trade surplus",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.19.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.19.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.18.1",
+"strength": "helpful",
+"why": "MNC-made exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.8.6",
+"strength": "helpful",
+"why": "new US tariffs",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s3.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.9.0",
+"strength": "helpful",
+"why": "single market",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.20.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.3.0",
+"strength": "helpful",
+"why": "many export partners",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.18.1",
+"strength": "helpful",
+"why": "MNC-driven exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.8.6",
+"strength": "helpful",
+"why": "US tariffs 2025",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s3.22.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-graph-skills-s1.0.0",
+"strength": "helpful",
+"why": "check labels and units",
+"confidence": "high"
+},
+{
+"id": "geo-graph-skills-s1.0.1",
+"strength": "helpful",
+"why": "reading values from charts",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s3.0.2",
+"strength": "essential",
+"why": "uses balance of trade",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-graph-skills-s1.3.1",
+"strength": "helpful",
+"why": "method for difference",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.22.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-graph-skills-s1.3.0",
+"strength": "helpful",
+"why": "method for total",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s3.22.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-graph-skills-s1.8.0",
+"strength": "helpful",
+"why": "choosing graph type",
+"confidence": "high"
+}
+]
+}
+}

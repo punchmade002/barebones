@@ -1,0 +1,542 @@
+{
+"hist-ire6-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.0.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s6.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.0.0",
+"strength": "essential",
+"why": "the Soviet veto of 1946",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s6.0.1",
+"strength": "helpful",
+"why": "the 1955 package deal",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.1.4": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s6.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.1.4",
+"strength": "essential",
+"why": "Resolution 1665 on nuclear weapons",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.1.6": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.2.0",
+"strength": "essential",
+"why": "Irish troops in the Congo",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s6.2.0",
+"strength": "helpful",
+"why": "Irish troops in the Congo",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.2.0",
+"strength": "essential",
+"why": "Irish troops in the Congo",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.7.0",
+"strength": "helpful",
+"why": "policy of military neutrality",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.3.0",
+"strength": "essential",
+"why": "Boland as UN representative",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.3.1",
+"strength": "essential",
+"why": "fifteenth session presidency",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s6.2.0",
+"strength": "helpful",
+"why": "the Congo crisis",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.3.1",
+"strength": "essential",
+"why": "Boland elected President",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.4.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s6.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.4.0",
+"strength": "essential",
+"why": "the EEC and its market",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s5.2.0",
+"strength": "helpful",
+"why": "Britain as main export market",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.4.0",
+"strength": "essential",
+"why": "the EEC",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.6.b",
+"strength": "helpful",
+"why": "Lemass: compete in open markets",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.4.1",
+"strength": "essential",
+"why": "British application to join",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.6.2",
+"strength": "essential",
+"why": "the Anglo-Irish Free Trade Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.4.4",
+"strength": "essential",
+"why": "de Gaulle's first veto",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.5.0",
+"strength": "essential",
+"why": "the 1967 veto and applications",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s6.5.1",
+"strength": "helpful",
+"why": "the negotiations opened in 1970",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.5.2",
+"strength": "essential",
+"why": "the negotiated terms",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s6.5.3",
+"strength": "helpful",
+"why": "the Treaty of Accession",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.5.0",
+"strength": "helpful",
+"why": "applications of Britain, Denmark, Norway",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.5.2",
+"strength": "essential",
+"why": "Hillery led the negotiations",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s6.4.0",
+"strength": "helpful",
+"why": "the European Economic Community",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.6.0",
+"strength": "essential",
+"why": "the Single European Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.6.0",
+"strength": "essential",
+"why": "the Single European Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s6.6.2",
+"strength": "essential",
+"why": "Crotty's challenge",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s6.6.1",
+"strength": "essential",
+"why": "political cooperation provisions",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.6.3",
+"strength": "essential",
+"why": "Supreme Court ruling needing amendment",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.6.3",
+"strength": "essential",
+"why": "the Crotty judgment",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.2.0",
+"strength": "helpful",
+"why": "the Congo mission",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.7.1",
+"strength": "helpful",
+"why": "the 1960 Defence Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.5.5",
+"strength": "helpful",
+"why": "opposition arguments in 1972",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.0.b",
+"strength": "helpful",
+"why": "failure of protection",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s5.2.0",
+"strength": "helpful",
+"why": "dependence on the British market",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s6.5.5",
+"strength": "helpful",
+"why": "1972 opposition to entry",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.5.5",
+"strength": "helpful",
+"why": "who opposed and supported entry",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.6.2",
+"strength": "helpful",
+"why": "Crotty and the Single European Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.5.4",
+"strength": "essential",
+"why": "the 1972 referendum result",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s6.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s6.8.2",
+"strength": "helpful",
+"why": "Common Agricultural Policy prices",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s6.9.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s6.9.3": {
+"cost": 2,
+"needs": []
+}
+}

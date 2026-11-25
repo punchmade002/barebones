@@ -161,7 +161,47 @@ window.EXAM_BREAKDOWN["english"] = {
             "Wrong register: a captain's talk must sound like a teenager to teammates, not an essay",
             "Forgetting format: a letter needs a greeting and sign-off, a proposal needs structure",
             "Writing a story when the task asks for a talk or reply"
-          ]
+          ],
+          "frequency": {
+            "unit": "Task types",
+            "years": "2001–2026",
+            "papers": 26,
+            "note": "Counted per Question B on the three texts of each Paper 1 (a paper counts once per task type). In 2021 and 2022 Question B was worth 40 marks and could be chosen instead of Question A on a text; 2020 is the set paper. Radio talks and pitches count as speech or talk; open letters count as letters; editorials and opinion pieces count as articles.",
+            "rows": [
+              [
+                "Letter",
+                17
+              ],
+              [
+                "Speech or talk",
+                15
+              ],
+              [
+                "Article or opinion piece",
+                14
+              ],
+              [
+                "Diary or journal entries",
+                8
+              ],
+              [
+                "Report, proposal or memo",
+                7
+              ],
+              [
+                "Other (script, interview, dialogue, leaflet, advert, entry)",
+                6
+              ],
+              [
+                "Introduction or foreword",
+                4
+              ],
+              [
+                "Blog, podcast or online post",
+                3
+              ]
+            ]
+          }
         }
       ]
     },
@@ -440,7 +480,55 @@ window.EXAM_BREAKDOWN["english"] = {
             "Learning a general essay on the poet and not using the actual question wording (the 2013 report said candidates did best when they avoided a formulaic approach)",
             "Telling the poem's story instead of discussing the poet's language",
             "Misquoting lines: accurate quotation is part of the C marks"
-          ]
+          ],
+          "frequency": {
+            "unit": "Poets",
+            "years": "2011, 2016–2018, 2020–2026",
+            "papers": 11,
+            "note": "Each row is papers on which the poet was set / years the poet was on the HL prescribed list, counted over the 11 years whose list is confirmed from Department circulars (2011, 2016, 2017, 2018, 2020 to 2026). 2020 is counted as a set paper although the exam was not sat. Lists for 2008 to 2010, 2012 to 2015 and 2019 were not available so those years are not counted.",
+            "rows": [
+              [
+                "Emily Dickinson",
+                5,
+                7
+              ],
+              [
+                "W.B. Yeats",
+                4,
+                6
+              ],
+              [
+                "John Donne",
+                3,
+                4
+              ],
+              [
+                "Adrienne Rich",
+                3,
+                4
+              ],
+              [
+                "Elizabeth Bishop",
+                3,
+                6
+              ],
+              [
+                "Derek Mahon",
+                2,
+                2
+              ],
+              [
+                "Patrick Kavanagh",
+                2,
+                3
+              ],
+              [
+                "Paula Meehan",
+                2,
+                3
+              ]
+            ]
+          }
         }
       ]
     }

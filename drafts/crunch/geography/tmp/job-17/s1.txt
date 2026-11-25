@@ -1,0 +1,145 @@
+s5.0.b|1
+s5.0.0|1
+s5.0.1|1
+s5.0.2|1
+s5.1.b|1
+s5.1.0|1
+s5.1.1|1
+s5.1.2|1
+s5.2.b|1
+s5.2.0|1
+s5.2.1|1
+s5.2.2|1
+s5.2.3|1
+s5.2.4|1|s1.0.3,h,sustainable management of resources,l
+s5.3.b|1
+s5.3.0|1
+s5.3.1|1|s5.3.0,h,the Corrib gas field,h
+s5.3.2|1|s1.2.3,h,energy security,h
+s5.4.b|1
+s5.4.0|1|s5.3.0,h,Corrib gas being piped ashore,h
+s5.4.1|1|s5.4.0,e,onshore raw gas hazard,h
+s5.4.2|1
+s5.5.b|1
+s5.5.0|1|s5.4.0,h,the pipeline work,h
+s5.5.1|1
+s5.5.2|1|s5.4.2,e,the protected estuary;s5.4.0,h,pipeline route near houses,h
+s5.5.3|1
+s5.6.b|1
+s5.6.0|2
+s5.6.1|1|s4.17.0,h,total allowable catches and quotas,h
+s5.6.2|1|s5.6.1,h,national quotas,h
+s5.6.3|1
+s5.7.b|1
+s5.7.0|1|s5.6.1,e,quotas,h
+s5.7.1|1|s5.7.0,h,smaller quota,h
+s5.8.b|1
+s5.8.0|1
+s5.8.1|1|s5.8.0,e,the drift-net ban,h
+s5.8.2|1|s5.8.0,e,the drift-net ban,h
+s5.9.b|1
+s5.9.0|1|s5.6.1,h,quotas,h
+s5.9.1|2|s5.9.0,e,the mackerel dispute,h
+s5.9.2|1
+s5.10.b|1
+s5.10.0|2
+s5.10.1|1|s5.10.0,h,Burren limestone,l
+s5.10.2|1|s5.10.1,e,Mullaghmore location,h
+s5.11.b|1
+s5.11.0|1|s5.10.2,e,the visitor centre,h
+s5.11.1|1|s5.10.2,e,the visitor centre,h
+s5.12.b|1
+s5.12.0|1|s5.10.2,h,the State building the centre,h;s5.2.0,h,planning permission,h
+s5.12.1|1|s5.2.0,h,planning permission and appeal,h
+s5.13.b|1
+s5.13.0|1
+s5.13.1|1
+s5.13.2|2
+s5.14.b|1
+s5.14.0|1|s5.13.0,h,Skellig Michael,h
+s5.14.1|1|s5.14.0,h,rising visitor demand,h
+s5.14.2|1|s5.14.0,h,demand for visits,h;s4.27.3,h,controlled access at Skellig,h
+s5.14.3|1|s5.14.2,h,landing limits,h
+s5.15.b|1
+s5.15.0|1
+s5.15.1|1|s5.15.0,h,the Hill of Tara,h
+s5.16.b|1
+s5.16.0|1
+s5.16.1|1|s5.16.0,h,the M3 route,h
+s5.16.2|1|s5.15.0,h,the Hill of Tara,h
+s5.17.b|1
+s5.17.0|1|s5.15.1,e,archaeological landscape,h
+s5.17.1|1|s5.15.1,h,archaeology of the valley,h
+s5.17.2|1|s5.16.0,h,the M3,h
+s5.18.b|1
+s5.18.0|1
+s5.18.1|1
+s5.18.2|1|s5.18.1,e,raised bogs,h;s5.2.2,h,EU law protecting habitats,h
+s5.19.b|1
+s5.19.0|1|s5.18.2,e,raised-bog SACs,h
+s5.19.1|2|s5.2.3,h,compensation,h;s5.19.0,e,the turf-cutting ban,h
+s5.19.2|1|s5.19.0,e,the turf-cutting ban,h
+s5.20.b|1
+s5.20.0|1
+s5.20.1|1
+s5.20.2|2|s4.12.4,h,Derrybrien peat slide,h
+s5.20.3|2|s4.8.0,h,environmental impact assessment,h;s5.20.2,h,Derrybrien,h
+s5.20.4|1|s1.9.4,h,offshore wind,h
+s5.21.b|1
+s5.21.0|1
+s5.21.1|1|s5.21.0,h,more milk output,h
+s5.21.2|1
+s5.21.3|1
+s5.21.4|1
+s5.22.b|1
+s5.22.0|1
+s5.22.1|1|s1.14.2,h,data centre electricity use,h
+s5.22.2|1
+s5.22.3|1|s5.22.2,h,grid strain,h
+s5.23.b|1
+s5.23.0|1
+s5.23.1|1
+s5.23.2|1
+s5.23.3|2
+s5.23.4|1
+s5.23.5|1
+s5.24.b|1
+s5.24.0|1
+s5.24.1|1|s5.24.0,h,carbon stored in forest,h
+s5.25.b|1
+s5.25.0|2
+s5.25.1|1|s5.25.0,e,the 2004 baseline,h
+s5.25.2|1|s5.25.1,h,the 2012 low,h
+s5.26.b|1
+s5.26.0|1
+s5.26.1|1
+s5.26.2|1
+s5.26.3|1|s5.25.2,h,deforestation rising again,l
+s5.27.b|1
+s5.27.0|1
+s5.27.1|1|s5.27.0,e,Chico Mendes murder,h
+s5.28.b|1
+s5.28.0|1
+s5.28.1|1|s5.28.0,h,Hambach mine,h
+s5.28.2|1|s5.28.0,e,the forest and mine,h
+s5.28.3|1|s5.28.0,h,Hambach Forest,h
+s5.29.b|1
+s5.29.0|1|s5.28.0,h,lignite mining,h
+s5.29.1|1|s5.28.3,h,coal phase-out,h
+s5.30.b|1
+s5.30.0|1
+s5.30.1|1|s5.30.0,h,the Three Gorges Dam,h
+s5.30.2|1
+s5.31.b|1
+s5.31.0|1|s5.30.0,h,the dam and reservoir,h
+s5.31.1|1
+s5.31.2|2
+s5.32.b|1
+s5.32.0|1
+s5.32.1|1
+s5.32.2|1
+s5.33.b|1
+s5.33.0|1
+s5.33.1|1
+s5.33.2|1|s5.1.0,h,stakeholder groups,h
+s5.33.3|1|s5.33.2,e,groups for and against,h

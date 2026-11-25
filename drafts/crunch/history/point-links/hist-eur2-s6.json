@@ -1,0 +1,805 @@
+{
+"hist-eur2-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.7.4",
+"strength": "helpful",
+"why": "uses the Hindenburg Line breaking",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.2.0",
+"strength": "essential",
+"why": "armistice on Fourteen Points basis",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.0.0",
+"strength": "helpful",
+"why": "armistice request after Ludendorff's demand",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.0.1",
+"strength": "helpful",
+"why": "Wilson's armistice exchange",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.0.0",
+"strength": "helpful",
+"why": "Ludendorff's role",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.4.2",
+"strength": "helpful",
+"why": "soviets as council model",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.0.1",
+"strength": "helpful",
+"why": "Prince Max as Chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.7.5",
+"strength": "helpful",
+"why": "armistice signed at Compiegne",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.0.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.3.4",
+"strength": "helpful",
+"why": "Treaty of Brest-Litovsk",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s5.5.0",
+"strength": "helpful",
+"why": "Allied naval blockade",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.0.5",
+"strength": "essential",
+"why": "Ebert as head of government",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.0.4",
+"strength": "helpful",
+"why": "councils on Russian model",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.1.0",
+"strength": "helpful",
+"why": "SPD leaders and elections",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.1.2",
+"strength": "essential",
+"why": "Spartacus League radicals",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.1.3",
+"strength": "essential",
+"why": "Freikorps and the rising",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.1.2",
+"strength": "helpful",
+"why": "Luxemburg and Liebknecht as KPD founders",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.0.0",
+"strength": "helpful",
+"why": "army leadership asked for armistice",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.8.b",
+"strength": "helpful",
+"why": "Wilson as president",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.2.0",
+"strength": "essential",
+"why": "the Fourteen Points",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.2.0",
+"strength": "essential",
+"why": "the Fourteen Points",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.2.0",
+"strength": "helpful",
+"why": "Point 14 of the Fourteen Points",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.7.0",
+"strength": "helpful",
+"why": "the League of Nations",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.2.0",
+"strength": "essential",
+"why": "Fourteen Points as armistice basis",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.0.1",
+"strength": "helpful",
+"why": "Germany's October armistice request",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.2.4",
+"strength": "essential",
+"why": "pre-armistice agreement on Fourteen Points",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.4.0",
+"strength": "helpful",
+"why": "harsh terms of Versailles",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.3.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s6.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.7.0",
+"strength": "helpful",
+"why": "the League of Nations",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.3.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s6.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.4.2",
+"strength": "essential",
+"why": "Treaty of London promises to Italy",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.3.0",
+"strength": "helpful",
+"why": "Orlando as one of Big Four",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.3.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.4.6",
+"strength": "helpful",
+"why": "reparations based on the clause",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.4.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s6.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.7.0",
+"strength": "helpful",
+"why": "League of Nations protection",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.7.0",
+"strength": "helpful",
+"why": "League of Nations mandates",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.4.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s6.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.4.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.4.0",
+"strength": "essential",
+"why": "war guilt clause as basis",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.0.6",
+"strength": "helpful",
+"why": "Kaiser fled to Netherlands",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.7.0",
+"strength": "helpful",
+"why": "League Covenant",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.4.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.3.7",
+"strength": "helpful",
+"why": "terms imposed without negotiation",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.0.5",
+"strength": "helpful",
+"why": "Scheidemann proclaimed the republic",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.5.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.5.0",
+"strength": "helpful",
+"why": "Austria-Hungary's break-up",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.5.0",
+"strength": "helpful",
+"why": "new states recognised",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.4.5",
+"strength": "helpful",
+"why": "union with Germany forbidden",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.5.0",
+"strength": "helpful",
+"why": "successor states of Austria-Hungary",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.4.0",
+"strength": "helpful",
+"why": "Ottoman Empire in the war",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.4.3",
+"strength": "helpful",
+"why": "League mandates idea",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.8.6",
+"strength": "helpful",
+"why": "Baltic states and Poland independence",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.4.1",
+"strength": "helpful",
+"why": "Schleswig and territorial changes",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.4.5",
+"strength": "helpful",
+"why": "Anschluss forbidden",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.5.2",
+"strength": "helpful",
+"why": "South Tyrol given to Italy",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.5.3",
+"strength": "helpful",
+"why": "Hungarians left outside borders",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.4.3",
+"strength": "helpful",
+"why": "colonies as mandates",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.3.1",
+"strength": "helpful",
+"why": "self-determination principle",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.7.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s6.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.7.0",
+"strength": "helpful",
+"why": "the League of Nations",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.7.0",
+"strength": "helpful",
+"why": "the League of Nations",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.8.b",
+"strength": "helpful",
+"why": "Wilson and the League",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.7.1",
+"strength": "essential",
+"why": "Article 10 collective security",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.7.3",
+"strength": "helpful",
+"why": "Wilson's campaign for support",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.7.4",
+"strength": "essential",
+"why": "Senate rejecting the treaty",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s6.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.5.3",
+"strength": "helpful",
+"why": "unrestricted submarine warfare",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s5.7.0",
+"strength": "helpful",
+"why": "Zimmermann Telegram",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.2.0",
+"strength": "essential",
+"why": "the Fourteen Points",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.7.0",
+"strength": "helpful",
+"why": "the League Covenant",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.4.0",
+"strength": "helpful",
+"why": "Article 231",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.4.2",
+"strength": "helpful",
+"why": "the Saar",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.3.5",
+"strength": "helpful",
+"why": "Japanese gains in Shandong",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.7.0",
+"strength": "helpful",
+"why": "League and mandates",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.7.4",
+"strength": "essential",
+"why": "Lodge and the Senate",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.3.2",
+"strength": "helpful",
+"why": "Clemenceau as one of the Big Four",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.8.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.7.4",
+"strength": "helpful",
+"why": "Senate handling",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.6.2",
+"strength": "helpful",
+"why": "self-determination applied inconsistently",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.7.0",
+"strength": "helpful",
+"why": "League of Nations",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.5.0",
+"strength": "helpful",
+"why": "new states in Europe",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s6.6.4",
+"strength": "helpful",
+"why": "minorities in new states",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.4.8",
+"strength": "helpful",
+"why": "German resentment of the treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s6.7.5",
+"strength": "helpful",
+"why": "Britain and France enforcing alone",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.9.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s6.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s6.4.6",
+"strength": "essential",
+"why": "reparations",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.9.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.3.4",
+"strength": "essential",
+"why": "Treaty of Brest-Litovsk comparison",
+"confidence": "high"
+}
+]
+}
+}

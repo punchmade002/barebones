@@ -1,0 +1,247 @@
+MODE: cost and links
+TARGET geo-weather-climate-s1: Weather maps and weather data
+[geo-weather-climate-s1.0.b] Weather and climate describe the atmosphere (the layer of air around the Earth) over different lengths of time, and every weather map and table uses fixed units. Knowing the units lets you read a value correctly and give it with its unit.
+[geo-weather-climate-s1.0.0] Weather is the state of the atmosphere at a place at a given time, measured over hours and days. For example, a wet, windy afternoon is weather.
+[geo-weather-climate-s1.0.1] Climate is the average weather of a place over a long period, usually calculated over 30 years. A single wet day does not change a place's climate.
+[geo-weather-climate-s1.0.2] Pressure (the weight of the air pressing down on a surface) is measured in hectopascals (hPa); 1 hPa equals 1 millibar (mb), so the two units give the same value and are never converted.
+[geo-weather-climate-s1.0.3] Average sea-level pressure is about 1013 hPa, which gives a reference point for judging whether a pressure reading is high or low.
+[geo-weather-climate-s1.0.4] Units on weather charts and tables: temperature in °C, rainfall in mm, wind speed in km/h or knots (nautical miles per hour), sunshine in hours, cloud cover in oktas (eighths of the sky covered).
+[geo-weather-climate-s1.1.b] A synoptic chart shows the weather over a large area at one moment, giving a general view of the whole (this is what 'synoptic' means).
+[geo-weather-climate-s1.1.0] Observations are taken at the same time from many weather stations, ships, buoys (floating instrument platforms at sea) and satellites, and plotted onto one map, so the chart is a snapshot of one moment.
+[geo-weather-climate-s1.1.1] A surface analysis chart shows the observed situation at a given time; a forecast chart shows the expected situation at a later time.
+[geo-weather-climate-s1.1.2] Charts are issued at fixed times, stated in UTC (Coordinated Universal Time, the standard world time used so that observations from everywhere match).
+[geo-weather-climate-s1.1.3] Met Éireann, Ireland's national meteorological (weather) service, produces Irish weather maps from its network of stations, combined with satellite and radar data. Forecasters combine charts with satellite and radar data to build up a full picture.
+[geo-weather-climate-s1.1.4] Met Éireann stations include Valentia Observatory (Co. Kerry), Malin Head (Co. Donegal), Belmullet (Co. Mayo), Dublin Airport and Shannon Airport.
+[geo-weather-climate-s1.2.b] An isoline joins places of equal value. Read the name of the line before its interval, because each name refers to one quantity and the names are easily swapped.
+[geo-weather-climate-s1.2.0] Isobars join places of equal atmospheric pressure; they are usually drawn at fixed intervals, commonly every 4 hPa, so read the labels to confirm the interval.
+[geo-weather-climate-s1.2.1] Isotherms join places of equal temperature, so they show where it is warmer or colder.
+[geo-weather-climate-s1.2.2] Isohyets join places of equal rainfall.
+[geo-weather-climate-s1.2.3] Isohels join places of equal sunshine.
+[geo-weather-climate-s1.2.4] Isonephs join places of equal cloud cover, so a line labelled with a cloud amount is an isoneph.
+[geo-weather-climate-s1.2.5] Shaded or banded maps, such as rainfall, sunshine, UV or temperature maps, use a colour key: read the class from the key and give the range it states when the map shows a band rather than a single value.
+[geo-weather-climate-s1.2.6] To read a value between isolines, find the two lines either side of the point, note their values and the interval between them, then estimate in proportion to distance. A point halfway between two lines is about halfway between their values.
+[geo-weather-climate-s1.2.7] A value at a closed centre (where an isoline forms a complete loop) is the figure written on it, such as 'L 976', or lies beyond the innermost isobar.
+[geo-weather-climate-s1.3.b] High and low pressure are relative to the surrounding air, so no fixed value marks the boundary between them. Each system has its own marking on the chart and its own typical weather.
+[geo-weather-climate-s1.3.0] A depression (also called a low or cyclone) is marked L or Low with a pressure figure; it has closed isobars with pressure falling towards the centre, and usually has fronts attached. Its isobars are usually tightly packed.
+[geo-weather-climate-s1.3.1] Air rises in a depression, cools and condenses (turns from vapour into water droplets), so rain, cloud and strong winds are associated with depressions.
+[geo-weather-climate-s1.3.2] An anticyclone (also called a high) is marked H or High; it has closed isobars with pressure rising towards the centre, widely spaced isobars, and no fronts.
+[geo-weather-climate-s1.3.3] Air sinks in an anticyclone and warms, so clouds rarely form: summer brings warm, sunny days, and winter brings cold, clear nights with frost and fog.
+[geo-weather-climate-s1.3.4] A trough is an elongated area of low pressure, often unsettled because air rises along it, sometimes drawn as a line.
+[geo-weather-climate-s1.3.5] A ridge is an elongated extension of high pressure, bringing a short settled spell.
+[geo-weather-climate-s1.3.6] A col is a slack area between two highs and two lows, with light winds, uncertain weather, and possible fog or thunderstorms.
+[geo-weather-climate-s1.3.7] An air mass is a large body of air with fairly uniform temperature and humidity (moisture content), named from its source region (polar or tropical; maritime or continental). Ireland's usual air mass is maritime, from the Atlantic. There is more on this in Atmospheric and oceanic circulation.
+[geo-weather-climate-s1.4.b] The values in this example are invented for illustration and are not taken from any real chart. It shows how to answer the usual questions on pressure and wind from isobars.
+[geo-weather-climate-s1.4.0] A depression marked 'L 976' is centred in the Atlantic about 500 km west of Ireland, with closed isobars at 980, 984, 988, 992, 996 and 1000 hPa packed closely over the west coast.
+[geo-weather-climate-s1.4.1] An anticyclone marked 'H 1036' lies over central Europe, with widely spaced isobars at 1032, 1028 and 1024 hPa.
+[geo-weather-climate-s1.4.2] Pressure at the depression's centre is 976 hPa, the figure written on the L, and the isobar interval is 4 hPa, the gap between neighbouring isobars such as 980 and 984.
+[geo-weather-climate-s1.4.3] A point midway between the 988 and 992 hPa isobars is about 990 hPa, because it lies halfway between the two values.
+[geo-weather-climate-s1.4.4] Winds are stronger over the west of Ireland than over central Europe, because the isobars are closer together over the west.
+[geo-weather-climate-s1.4.5] Ireland lies under the depression, so it is likely to be wet and windy; central Europe lies under the high, so it is likely to be calm and dry.
+[geo-weather-climate-s1.5.b] Wind is named from the direction it blows from, and its strength follows the spacing of the isobars. Once you know these rules you can judge the wind anywhere on a chart.
+[geo-weather-climate-s1.5.0] Wind direction is named by the direction the wind blows from: a westerly blows from the west.
+[geo-weather-climate-s1.5.1] Air moves from high to low pressure; closely spaced isobars mean a steep pressure gradient (a big pressure change over a short distance) and strong winds, while widely spaced isobars mean light winds or calm.
+[geo-weather-climate-s1.5.2] In the northern hemisphere the wind blows anticlockwise around a depression and clockwise around an anticyclone. There is more on the cause of this pattern in Atmospheric and oceanic circulation.
+[geo-weather-climate-s1.5.3] Near the surface the wind blows nearly parallel to the isobars, angled slightly in towards a low and out from a high.
+[geo-weather-climate-s1.5.4] Buys Ballot's law: stand with your back to the wind, and low pressure is on your left in the northern hemisphere.
+[geo-weather-climate-s1.5.5] The prevailing wind is the wind that blows most frequently over an area; in Ireland it is south-westerly, from the Atlantic.
+[geo-weather-climate-s1.5.6] The Beaufort scale rates wind force from 0 (calm) to 12 (hurricane force), based on observed effects, such as how trees and the sea look.
+[geo-weather-climate-s1.6.b] A front is the boundary between two air masses of different temperature and humidity. Frontal symbols point in the direction the front is moving.
+[geo-weather-climate-s1.6.0] Warm front: a line with semicircles on the side it moves towards (red on colour charts). Warm air rises gently over cold air, bringing a long period of steady rain and thickening cloud, then rising temperature after it passes.
+[geo-weather-climate-s1.6.1] Cold front: a line with triangles on the side it moves towards (blue on colour charts). Cold air undercuts warm air (pushes underneath it), bringing short heavy showers, possible thunder and falling temperature; clearer, brighter showery weather follows.
+[geo-weather-climate-s1.6.2] Occluded front: triangles and semicircles alternating on the same side (purple on colour charts). It forms where a cold front catches up with a warm front, lifting the warm air off the ground, and it brings cloud and rain.
+[geo-weather-climate-s1.6.3] An occluded front is usually found near the centre of a mature depression (one that is fully developed).
+[geo-weather-climate-s1.6.4] Stationary (quasi-stationary) front: triangles and semicircles alternating on opposite sides.
+[geo-weather-climate-s1.6.5] Worked example W3 (drawing practice): in a box, draw each of the four symbols above, placing the symbol on the side the front moves towards.
+[geo-weather-climate-s1.6.6] Draw a curved line with three triangles for cold and three semicircles for warm. Alternate them on one side for occluded and on opposite sides for stationary.
+[geo-weather-climate-s1.6.7] Diagram cue: a plan of a depression shows the warm front ahead, the warm sector (the area of warm air between the fronts), the cold front behind and the occlusion near the centre.
+[geo-weather-climate-s1.6.8] The isobars are kinked where they cross the fronts. There is more on the weather as a depression passes in Atmospheric and oceanic circulation.
+[geo-weather-climate-s1.7.b] A station model is the cluster of symbols plotted at each weather station on a synoptic chart. Each part gives one reading, so you can pull the cloud, wind, temperature and weather out of one small drawing.
+[geo-weather-climate-s1.7.0] The circle at the station shows cloud cover in oktas: one okta is one eighth of the sky covered by cloud, so an empty circle is clear sky (0 oktas) and a fully shaded circle is overcast (8 oktas).
+[geo-weather-climate-s1.7.1] The wind arrow's shaft points from the station towards the direction the wind is coming from, not where it is going.
+[geo-weather-climate-s1.7.2] Barbs (the short lines on the shaft) give wind speed: a half barb is 5 knots, a full barb 10 knots and a pennant (filled triangle) 50 knots; add them together.
+[geo-weather-climate-s1.7.3] A circle around the station with no shaft means calm, because there is no wind to point from.
+[geo-weather-climate-s1.7.4] Other values around the circle are temperature (°C), dew point (the temperature at which the air is saturated and water vapour condenses), pressure and a present-weather symbol such as rain, drizzle, showers, snow, fog or thunderstorm; read them from the chart's key.
+[geo-weather-climate-s1.7.5] Worked example W2 (illustrative): a circle three-quarters shaded is 6 oktas (three-quarters of 8); a shaft pointing towards the south-west with two full barbs and one half barb is a south-westerly wind of 25 knots (20 + 5); the temperature is 12 °C and the present weather is rain.
+[geo-weather-climate-s1.8.b] Television, websites and apps use simplified symbols for the same features that appear on a synoptic chart. A series of maps at set times can then show how the weather moves.
+[geo-weather-climate-s1.8.0] Media weather symbols include the sun, cloud, sun-and-cloud, rain drops, showers, snow, thunder (a lightning bolt) and fog.
+[geo-weather-climate-s1.8.1] Wind arrows on media maps show speed in km/h, for example 20 km/h, and temperatures appear in coloured boxes.
+[geo-weather-climate-s1.8.2] On rainfall radar (which detects rain in the air), heavier rain is shown in darker or warmer colours.
+[geo-weather-climate-s1.8.3] A rainfall forecast sequence is a series of maps at set times; compare the position of the rain band on successive maps to give its direction of movement, and read each map rather than assuming a direction.
+[geo-weather-climate-s1.8.4] Worked example W5 (illustrative): at 06:00 a rain band covers Munster and Connacht; at 12:00 it covers the midlands; at 18:00 it is over Leinster and the east coast. The rain moves from west to east, and Leinster's rain arrives last.
+[geo-weather-climate-s1.9.b] Forecasts and warnings turn the charts into advice for the public. Knowing what a forecast contains and what the warning colours mean lets you read and use them.
+[geo-weather-climate-s1.9.0] Met Éireann forecasts reach viewers through TV, radio, the website and app, as national, regional and city forecasts.
+[geo-weather-climate-s1.9.1] Sea area and coastal forecasts give wind and sea state for shipping and fishing; farming, UV and pollen forecasts are also issued.
+[geo-weather-climate-s1.9.2] A forecast describes the synoptic situation (what pressure systems and fronts are doing), expected rain, the highs and lows of temperature, wind direction and speed, cloud and sunshine, and how conditions change across the country and through the day.
+[geo-weather-climate-s1.9.3] Warnings are colour-coded Yellow, Orange and Red by expected impact; Red is the most severe, and people should act to protect themselves and property.
+[geo-weather-climate-s1.9.4] Warning types include wind, rain, snow-ice, low temperature, high temperature, fog and thunderstorm.
+[geo-weather-climate-s1.10.b] Naming storms makes warnings easier to communicate, and the UV index gives a simple scale for the strength of the sun. Both appear in media reports.
+[geo-weather-climate-s1.10.0] Storms have been named jointly by Met Éireann and the UK Met Office since 2015, and by the Dutch service KNMI since 2019; names make warnings easier to communicate.
+[geo-weather-climate-s1.10.1] Ex-hurricane Ophelia reached Ireland on 16 October 2017. It had been a major hurricane south of the Azores, unusually far east for an Atlantic hurricane, and arrived as a post-tropical storm; Met Éireann issued Red warnings and three people died in Ireland.
+[geo-weather-climate-s1.10.2] Storm Éowyn, a named storm, crossed Ireland on 24 January 2025, when Met Éireann issued Red wind warnings.
+[geo-weather-climate-s1.10.3] The UV index measures the strength of the sun's ultraviolet radiation (the part of sunlight that burns skin); World Health Organization categories are Low 1-2, Moderate 3-5, High 6-7, Very high 8-10 and Extreme 11 and above.
+[geo-weather-climate-s1.10.4] UV maps are read with isolines or a colour key, like any other map, so give the class or range the key states.
+[geo-weather-climate-s1.11.b] Station tables and graphs record daily, hourly or monthly figures, and each figure comes from a particular instrument. Here you need to name each instrument and say what it measures.
+[geo-weather-climate-s1.11.0] Rain gauge: measures rainfall in mm, so it is the instrument to name for rainfall.
+[geo-weather-climate-s1.11.1] Thermometer: measures air temperature in °C (the instrument to name for temperature), and is kept in a Stevenson screen (a white, louvred box about 1.25 m above the ground) so that it measures shaded air temperature.
+[geo-weather-climate-s1.11.2] Maximum-minimum thermometer: records the highest and lowest temperature in a period.
+[geo-weather-climate-s1.11.3] Barometer: measures pressure in hPa; barograph: gives a continuous record of pressure.
+[geo-weather-climate-s1.11.4] Anemometer: measures wind speed; wind vane: shows wind direction.
+[geo-weather-climate-s1.11.5] Hygrometer or wet-and-dry bulb thermometer: measures humidity (the amount of water vapour in the air); sunshine recorder: measures hours of sunshine.
+[geo-weather-climate-s1.12.b] Once you can name the instrument and read the value, you calculate with the figures in the units given. Exams set a table or graph of a station's daily, hourly or monthly figures.
+[geo-weather-climate-s1.12.0] Total: add the values, for example rainfall over three days or three months.
+[geo-weather-climate-s1.12.1] Mean (the average): total divided by the number of values; mean daily temperature = (maximum + minimum) ÷ 2.
+[geo-weather-climate-s1.12.2] Range: highest minus lowest, for a day or for a year, such as 14 minus 6 for one day.
+[geo-weather-climate-s1.12.3] Other tasks: find the difference between two places; count the months or days above a threshold; find the highest or lowest month. Always give units.
+[geo-weather-climate-s1.12.4] Hourly graphs: read times carefully on the horizontal axis (00:00 is midnight), read the value at a given hour, and count the hours with rain.
+[geo-weather-climate-s1.12.5] Climate graphs (a temperature line with rainfall bars by month) at an Irish station typically show mild winters, cool summers and rain all year, with the wettest months usually in autumn and winter.
+[geo-weather-climate-s1.12.6] This links to the cool temperate oceanic climate in The Concept of a Region. There is more on the graph method in Figure interpretation.
+[geo-weather-climate-s1.13.b] The figures in this example are invented for illustration. Each result is worked out from the values stated.
+[geo-weather-climate-s1.13.0] Monday: maximum 14 °C, minimum 6 °C, rainfall 4 mm, mean wind 20 km/h.
+[geo-weather-climate-s1.13.1] Tuesday: maximum 12 °C, minimum 5 °C, rainfall 11 mm, mean wind 32 km/h.
+[geo-weather-climate-s1.13.2] Wednesday: maximum 15 °C, minimum 8 °C, rainfall 0 mm, mean wind 14 km/h.
+[geo-weather-climate-s1.13.3] Total rainfall over the three days is 15 mm (4 + 11 + 0); Monday's temperature range is 8 °C (14 - 6); Monday's mean temperature is 10 °C ((14 + 6) ÷ 2).
+[geo-weather-climate-s1.13.4] Mean wind speed over the three days is 22 km/h ((20 + 32 + 14) ÷ 3); the wettest day is Tuesday and the driest is Wednesday.
+[geo-weather-climate-s1.13.5] Illustrative monthly rainfall: January 120, February 95, March 80, April 60, May 55 and June 70 mm. The total for April to June is 185 mm; one month (January) is over 100 mm; May is the lowest month.
+[geo-weather-climate-s1.14.b] A two-mark 'state one reason' answer links the pattern to the moist Atlantic air and to the relief (the height and shape) of the land.
+[geo-weather-climate-s1.14.0] The west is wetter than the east: moist air from the Atlantic is forced to rise over the western mountains, where it cools and condenses, producing relief (orographic) rain. There is more on this in Exchanges of water between oceans and atmosphere.
+[geo-weather-climate-s1.14.1] The east and south-east are sunnier and drier because they lie in the rain shadow of the western and central uplands: descending air warms and its cloud evaporates. The south-east is the sunniest part of Ireland.
+[geo-weather-climate-s1.14.2] Coastal areas are milder in winter than the interior, because the sea warms the coast, including through the North Atlantic Drift (a warm ocean current); inland areas have a larger temperature range.
+[geo-weather-climate-s1.14.3] Long-term averages from Met Éireann: most of the east gets about 750-1,000 mm of rain a year, the west about 1,000-1,250 mm, and many mountain areas over 2,000 mm.
+[geo-weather-climate-s1.14.4] The highest rainfall totals are on mountains near the west coast, because that is where the Atlantic air is forced to rise, and the lowest are around Dublin and the east.
+
+CANDIDATES geo-graph-skills-s1: Figure interpretation
+[geo-graph-skills-s1.0.b] Every figure question starts the same way: read the labels and units before reading any value. Most lost marks come from a wrong unit, year or column, because a correct reading of the wrong one still scores nothing.
+[geo-graph-skills-s1.0.0] Check the title, both axis labels (the words along the horizontal and vertical lines), the key or legend (the box explaining colours or symbols), the units (%, thousands, millions, €m, hectares, mm, °C, per 1,000), the years shown and the source line. Each one changes what a number means.
+[geo-graph-skills-s1.0.1] Read a bar or line value by running a ruler from the top of the bar or point across to the vertical axis, estimating between gridlines, and quoting the value with its unit.
+[geo-graph-skills-s1.0.2] In a table, find the row and the column and read the cell where they meet. Check the totals row before using a figure, so you know whether a number is a part or the whole.
+[geo-graph-skills-s1.0.3] Compare two years by reading neighbouring columns. To spot the one that did not change, read across the whole row, because the unchanged value is the one that stays the same between years.
+[geo-graph-skills-s1.0.4] For highest and lowest, scan every value, not just the first and last, because the extreme can sit in the middle. For a ranking, list the values from largest to smallest.
+[geo-graph-skills-s1.0.5] To count how many items are above an average line, count the bars or points whose tops lie above it.
+[geo-graph-skills-s1.0.6] For 'twice as much', double the smaller value and look for the value that matches it.
+[geo-graph-skills-s1.0.7] An infographic (a single page combining headline numbers, icons, small charts and county maps) has several panels. Read each panel's own label and unit: headline figures are often totals, while panels may show percentages.
+[geo-graph-skills-s1.1.b] A description states what the figure shows. Using exact trend words and quoting numbers turns a vague answer into a complete one.
+[geo-graph-skills-s1.1.0] Trend vocabulary: increase, rise or growth; decrease, fall or decline; steady, constant or no change; fluctuate (go up and down); peak (highest point); trough (lowest point); gradual or rapid (sharp); levelling off (the change slows and flattens).
+[geo-graph-skills-s1.1.1] The overall trend is the long-term direction. A short-term change, such as a single year's dip, is described separately so it does not hide the main pattern.
+[geo-graph-skills-s1.1.2] To describe a trend, state the overall direction, the start and end values with their years and units, and the period of fastest change.
+[geo-graph-skills-s1.1.3] Name any peak, trough or reversal (a change of direction), and quantify the change as the difference, the percentage change, or both.
+[geo-graph-skills-s1.1.4] Point out anomalies: values that break the pattern of the others.
+[geo-graph-skills-s1.2.b] Once a trend is described, the next marks come from comparing it with another, saying why it happened and judging whether the figure can be trusted.
+[geo-graph-skills-s1.2.0] To compare two series (two lines or two sets of bars), say which is higher, when the lines cross, whether the gap widens or narrows, and the difference in a given year. For example, net migration = immigration minus emigration.
+[geo-graph-skills-s1.2.1] To explain a trend, link the pattern to one cause from the relevant chapter, in one clause. Explaining means saying why the figure looks as it does, not just what it shows.
+[geo-graph-skills-s1.2.2] To evaluate a figure, check whether an axis that does not start at zero or has uneven intervals exaggerates change, because a small rise then looks large.
+[geo-graph-skills-s1.2.3] Also check whether unevenly spaced dates distort the trend, whether the sample (the group measured) is small, and whether the source is reliable and recent.
+[geo-graph-skills-s1.2.4] Percentages can hide small totals: a large percentage rise may be a small change in numbers, because a small starting number is easy to double.
+[geo-graph-skills-s1.3.b] These worked values come from the invented (illustrative) population of six towns, in thousands: Town A 18, Town B 32, Town C 25, Town D 41, Town E 12, Town F 29. Each statistic has a short method that you can repeat on any data set.
+[geo-graph-skills-s1.3.0] Total (sum): add every value. 18 + 32 + 25 + 41 + 12 + 29 = 157 thousand (illustrative).
+[geo-graph-skills-s1.3.1] Difference: subtract the smaller value from the larger and say which is larger. Town B (32) exceeds Town C (25) by 7 thousand (illustrative).
+[geo-graph-skills-s1.3.2] Mean (average) = total of the values ÷ number of values: 157 ÷ 6 = 26.2 thousand, to one decimal place (illustrative).
+[geo-graph-skills-s1.3.3] Median (the middle value): put the values in order (12, 18, 25, 29, 32, 41); with an even number of values, average the middle two: (25 + 29) ÷ 2 = 27 thousand (illustrative).
+[geo-graph-skills-s1.3.4] Mode: the most frequent value. The six towns have no mode because no value repeats.
+[geo-graph-skills-s1.3.5] Range = highest value minus lowest value: 41 − 12 = 29 thousand (illustrative), which shows how spread out the values are.
+[geo-graph-skills-s1.4.b] Percentages let you compare parts of different-sized wholes, but the method matters: dividing by the wrong number, or mixing up a percentage with a percentage point, gives a wrong answer.
+[geo-graph-skills-s1.4.0] Percentage of a total = part ÷ total × 100. Illustrative: Town D's share of the six towns is 41 ÷ 157 × 100 = 26.1%.
+[geo-graph-skills-s1.4.1] Percentage change = (new value − old value) ÷ old value × 100. A positive result is an increase; a negative result is a decrease.
+[geo-graph-skills-s1.4.2] Always divide by the old (earlier) value, because the change is measured against where you started. Illustrative Country P, broadband households: 20% in 2000 and 90% in 2025, so the percentage change is (90 − 20) ÷ 20 × 100 = 350%.
+[geo-graph-skills-s1.4.3] Percentage points: when both values are already percentages, the change is a difference in percentage points. A rise from 20% to 30% is a 10 percentage-point increase, but a 50% increase in the percentage change, (30 − 20) ÷ 20 × 100.
+[geo-graph-skills-s1.4.4] When a question asks by what percentage a percentage changed, the subtraction is the usual reading: give the answer in percentage points and add the percentage change if unsure. Use the percentage-change formula when the values are numbers rather than percentages.
+[geo-graph-skills-s1.4.5] Missing value X: parts of a whole add to 100% (pie chart or percentage table) or to a stated total (stacked bar, a bar split into parts, or a total row), so X = total minus the sum of the known parts.
+[geo-graph-skills-s1.4.6] Illustrative Country Q: if all segments except 'other' total 85%, then other = 100 − 85 = 15%, because the parts of a pie chart must reach 100%.
+[geo-graph-skills-s1.4.7] To find a number from a percentage: number = percentage ÷ 100 × total.
+[geo-graph-skills-s1.5.b] Raw numbers are hard to compare between places of different size, so geographers use rates, densities and ratios. How you present the answer matters too.
+[geo-graph-skills-s1.5.0] Rate per 1,000 = number ÷ population × 1,000, which lets places of different size be compared. A birth rate is births ÷ population × 1,000.
+[geo-graph-skills-s1.5.1] Density = number ÷ area, given as people per km².
+[geo-graph-skills-s1.5.2] Ratio: compare two values as a ratio, e.g. 2 : 1. Illustrative: Town D (41) is more than three times the size of Town E (12), a ratio of about 3.4 : 1.
+[geo-graph-skills-s1.5.3] 'Twice as much' means two times the other value; 'half' means divided by two.
+[geo-graph-skills-s1.5.4] Round to the precision the data uses, or to one decimal place where needed, and keep the unit and the multiplier (thousands, millions) in every answer.
+[geo-graph-skills-s1.5.5] In a calculation question, show the working: a correct answer with working is safe, and the working can earn marks if the answer slips.
+[geo-graph-skills-s1.6.b] When you are asked to draw a graph from a small table of data, marks are given for each of these rules, so each one is worth doing even when the shape of the graph is easy.
+[geo-graph-skills-s1.6.0] Use graph paper, a sharp pencil and a ruler; draw the graph large enough to fill most of the space.
+[geo-graph-skills-s1.6.1] The title says what the data is, where and when, taken from the wording of the question.
+[geo-graph-skills-s1.6.2] The horizontal (x) axis shows categories or time; the vertical (y) axis shows values. Label both axes with units.
+[geo-graph-skills-s1.6.3] The scale starts at zero, is evenly divided, and its interval is chosen so the largest value fits (e.g. steps of 5 or 10 units).
+[geo-graph-skills-s1.6.4] On a line graph, time intervals are spaced in proportion to the years. If the data is for 1990, 2000, 2010 and 2015, the last gap is half the others.
+[geo-graph-skills-s1.6.5] Plot every value accurately. Bars have equal widths and equal gaps; points are joined with ruled straight lines.
+[geo-graph-skills-s1.6.6] Use a key or legend (a box saying what each colour or shading means) whenever more than one colour or shading is used, and shade or colour each category distinctly.
+[geo-graph-skills-s1.7.b] Illustrative data: population of six towns, in thousands, from the totals block above. Following the rules in order shows how each mark is earned.
+[geo-graph-skills-s1.7.0] Graph choice: a bar chart, because the values are one measure for separate towns.
+[geo-graph-skills-s1.7.1] Title: 'Population of six towns (thousands), illustrative'.
+[geo-graph-skills-s1.7.2] x-axis: 'Town', with Towns A to F in order.
+[geo-graph-skills-s1.7.3] y-axis: 'Population (thousands)', from 0 to 45 in steps of 5, so the largest value (41) fits.
+[geo-graph-skills-s1.7.4] Six bars of equal width with equal gaps, each drawn to its value: A 18, B 32, C 25, D 41, E 12, F 29.
+[geo-graph-skills-s1.7.5] A single data series (one set of values) needs no key; check each bar top against the scale before finishing.
+[geo-graph-skills-s1.8.b] The question 'draw a suitable graph' is answered by naming the graph type, then giving one sentence of justification. The type depends on what the data is. Each example below is illustrative.
+[geo-graph-skills-s1.8.0] Values for separate categories, e.g. the populations of six towns: bar chart.
+[geo-graph-skills-s1.8.1] Change over time, e.g. the percentage of an urban population from 1980 to 2020: line graph (a bar chart is usually also accepted).
+[geo-graph-skills-s1.8.2] Parts of a whole, or percentage shares adding to 100%, e.g. car sales by fuel type in one year: pie chart or divided bar.
+[geo-graph-skills-s1.8.3] Two related variables for the same places, e.g. income and birth rate for twenty countries: scatter graph.
+[geo-graph-skills-s1.8.4] Three components that add to 100%, e.g. sand, silt and clay at a soil site: triangular graph.
+[geo-graph-skills-s1.8.5] Age and sex structure of a population: population pyramid.
+[geo-graph-skills-s1.8.6] Monthly temperature and rainfall for one place: climate graph.
+[geo-graph-skills-s1.8.7] Values for areas on a map, e.g. population density by region: choropleth map (a map with areas shaded by value).
+[geo-graph-skills-s1.9.b] Bar charts show amounts for separate categories. They come in several forms, depending on whether you are comparing categories, groups within a category, or parts of a total.
+[geo-graph-skills-s1.9.0] Simple bar chart: separate categories, one bar per category, equal widths and equal gaps; vertical or horizontal.
+[geo-graph-skills-s1.9.1] Multiple (clustered or comparative) bar chart: two or more bars side by side per category, e.g. males and females, or two years; a key is needed to tell the bars apart.
+[geo-graph-skills-s1.9.2] Compound (stacked or divided) bar chart: each bar is split into components, and the top of the whole bar is the total.
+[geo-graph-skills-s1.9.3] To read a component in a compound bar, take the top of its segment minus the bottom of its segment.
+[geo-graph-skills-s1.9.4] Percentage compound bar: every bar reaches 100%, so the segments show shares rather than totals.
+[geo-graph-skills-s1.9.5] Illustrative Region R, tree planting: total 2,000 hectares, of which conifers 1,350 ha. Broadleaf = 2,000 − 1,350 = 650 ha, a share of 650 ÷ 2,000 × 100 = 32.5%.
+[geo-graph-skills-s1.10.b] A histogram looks like a bar chart but is used for continuous data, while a line graph is the standard way to show one variable changing over time.
+[geo-graph-skills-s1.10.0] Histogram: like a bar chart but for continuous data grouped in classes (e.g. age groups or rainfall amounts), drawn with no gaps between bars because one class runs straight into the next.
+[geo-graph-skills-s1.10.1] Line graph (trend graph): one variable over time; plot the points at the correct years and join them with ruled lines.
+[geo-graph-skills-s1.10.2] Multiple line graph: two or more series on the same axes, with a key so each line can be identified.
+[geo-graph-skills-s1.10.3] The gradient (steepness) of a line shows the rate of change: a steeper section means faster change.
+[geo-graph-skills-s1.10.4] Illustrative Country P, households with broadband: 2000 20%, 2005 38%, 2010 61%, 2015 74%, 2020 86%, 2025 90%. The rise is continuous; the fastest change is 2005 to 2010 (+23 percentage points), and the rise slows to +4 points from 2020 to 2025 as the line levels off.
+[geo-graph-skills-s1.10.5] Illustrative Country P: the change from 2000 to 2025 is +70 percentage points, which is not the same as the 350% percentage change above, because one is a subtraction and the other is measured against the old value.
+[geo-graph-skills-s1.11.b] A pie chart shows how a whole is split into parts. Because a full circle is 360° and the parts add to 100%, each 1% takes up 3.6° of the circle.
+[geo-graph-skills-s1.11.0] Pie chart: parts of a whole. Degrees = percentage × 3.6, because 360° ÷ 100 = 3.6.
+[geo-graph-skills-s1.11.1] For raw numbers rather than percentages: degrees = value ÷ total × 360. Do not multiply raw numbers by 3.6.
+[geo-graph-skills-s1.11.2] Drawing steps: draw a circle with a compass, draw a radius (a line from the centre to the edge) to 12 o'clock, then measure each angle clockwise with a protractor, largest segment first.
+[geo-graph-skills-s1.11.3] Shade, key or label each segment with its percentage, and check that the angles add to 360°.
+[geo-graph-skills-s1.11.4] Illustrative Country Q, electricity sources (gas 40%, wind 25%, solar 10%, coal 5%, hydro 5%, other 15%): angles 144°, 90°, 36°, 18°, 18° and 54°, totalling 360°.
+[geo-graph-skills-s1.11.5] Two pie charts compare the shares in two years, not the totals, unless the circles are drawn in proportion to the totals.
+[geo-graph-skills-s1.11.6] Divided (percentage) bar: a single bar split into shares that add to 100%, an alternative to a pie chart.
+[geo-graph-skills-s1.12.b] A pictogram uses icons to stand for quantities. A population pyramid is a special graph showing how many people of each age and sex a country has.
+[geo-graph-skills-s1.12.0] Pictogram: each icon stands for a fixed quantity stated in the key, so check the key first; a part-icon is a fraction of that quantity.
+[geo-graph-skills-s1.12.1] Population pyramid: a back-to-back horizontal bar chart, which is a histogram on its side.
+[geo-graph-skills-s1.12.2] Age groups, usually in 5-year bands, sit on the central vertical axis: 0 to 4 at the bottom and the oldest group at the top.
+[geo-graph-skills-s1.12.3] Males are drawn on the left and females on the right. The horizontal axis shows the percentage (or number) of the population, not age, scaled outward from zero on both sides.
+[geo-graph-skills-s1.12.4] Reading a pyramid: a wide base means a high birth rate; a narrow top means low life expectancy; a narrowing base means a falling birth rate; bulges and indentations suggest baby booms, migration, war or famine.
+[geo-graph-skills-s1.12.5] Describe the dependent groups (the young and the old, who rely on others) and the working-age group when reading a pyramid.
+[geo-graph-skills-s1.12.6] Drawing one band (illustrative, Country Z): males aged 20 to 24 are 3.5% and females 3.4%, so at the 20 to 24 level draw a bar 3.5 units long left of the centre axis and one 3.4 units long to the right.
+[geo-graph-skills-s1.12.7] The shapes of pyramids and the stages of demographic transition (how a country's birth and death rates change over time) are taught fully elsewhere. There is more on this in Changing population characteristics.
+[geo-graph-skills-s1.13.b] A climate graph combines two kinds of data for one place on a single set of axes: rainfall as bars and temperature as a line, across 12 months.
+[geo-graph-skills-s1.13.0] Months J to D run along the bottom axis. Rainfall is shown as bars against a left-hand axis in mm.
+[geo-graph-skills-s1.13.1] Mean (average) monthly temperature is shown as a line, plotted at the middle of each month, against a right-hand axis in °C.
+[geo-graph-skills-s1.13.2] From the graph, read the hottest and coldest months, the wettest and driest months, and the seasonal pattern (rain all year, or a wet and dry season).
+[geo-graph-skills-s1.13.3] Calculations from the graph: annual temperature range = maximum mean monthly temperature minus minimum; mean annual temperature = sum of the 12 monthly means ÷ 12; total annual rainfall = sum of the 12 bars.
+[geo-graph-skills-s1.13.4] Illustrative Station M, mean monthly temperature (°C) J to D: 5, 5, 7, 9, 12, 14, 16, 16, 14, 11, 8, 6. Rainfall (mm) J to D: 110, 80, 85, 60, 65, 70, 70, 85, 90, 115, 110, 120.
+[geo-graph-skills-s1.13.5] Illustrative Station M results: warmest in July and August (16°C); coldest in January and February (5°C); annual range 16 − 5 = 11°C; mean annual temperature 123 ÷ 12 = 10.3°C.
+[geo-graph-skills-s1.13.6] Illustrative Station M: total rainfall 1,060 mm; wettest month December (120 mm); driest month April (60 mm). Rain falls in every month with a winter maximum, and the mild winters and cool summers resemble a cool temperate oceanic pattern.
+[geo-graph-skills-s1.13.7] Identifying a climate type from a climate graph is taught elsewhere. There is more on this in Physical regions and Climatic environments and climate change.
+[geo-graph-skills-s1.14.b] A scatter graph tests whether two measurements for the same set of places are related, for example whether land value changes with distance from a city centre.
+[geo-graph-skills-s1.14.0] Scatter graph: two variables for the same set of places. The independent variable (the one that may cause the change) goes on the x-axis; each place is plotted as a point, and the points are not joined.
+[geo-graph-skills-s1.14.1] Draw a line of best fit by eye through the middle of the points, so it shows the general direction.
+[geo-graph-skills-s1.14.2] Positive correlation: both variables rise together. Negative correlation: one rises as the other falls. No correlation: no clear pattern. Strength is described as strong or weak.
+[geo-graph-skills-s1.14.3] Outliers, or anomalies, are points that lie away from the pattern of the others.
+[geo-graph-skills-s1.14.4] Correlation does not prove cause: two things can move together without one causing the other.
+[geo-graph-skills-s1.14.5] Illustrative distance from a city centre and land value at eight sites: 1 km €900 per m²; 2 km €700; 3 km €620; 4 km €450; 5 km €400; 6 km €250; 7 km €260; 8 km €150.
+[geo-graph-skills-s1.14.6] Illustrative: the result is a strong negative correlation, with the 7 km site a slight anomaly because it is higher than the 6 km site. A one-clause explanation: accessibility falls with distance from the centre.
+[geo-graph-skills-s1.15.b] A triangular graph is used when a total is split into exactly three parts. Each point is placed using all three values at once.
+[geo-graph-skills-s1.15.0] Triangular graph: shows three components that always total 100%, e.g. the percentage employed in the primary, secondary and tertiary sectors.
+[geo-graph-skills-s1.15.1] Each side is a 0 to 100% scale. Read each component along the gridlines parallel to the side where its 0 is, following the direction in which its numbers run.
+[geo-graph-skills-s1.15.2] Check that the three readings add to 100, which confirms you have read the scales correctly.
+[geo-graph-skills-s1.15.3] To plot a point: find the first value on its scale, follow its gridline in, and mark where it meets the second value's gridline; check the point with the third value.
+[geo-graph-skills-s1.15.4] A point clustered near a corner is dominated by the component that corner represents.
+[geo-graph-skills-s1.15.5] Illustrative employment structure: Country X is primary 10%, secondary 25%, tertiary 65%; it sits near the tertiary corner, typical of a developed economy. Country Y is primary 60%, secondary 15%, tertiary 25%; it sits near the primary corner, typical of a less developed economy.
+[geo-graph-skills-s1.16.b] Statistical maps put values onto a map so you can see how they vary from place to place. The choropleth is the main one; four other types each show a different kind of data.
+[geo-graph-skills-s1.16.0] Choropleth map: areas (counties, regions or countries) shaded by value class; darker shading means a higher value.
+[geo-graph-skills-s1.16.1] Classes must not overlap and must cover every value, e.g. 0 to 49, 50 to 99, 100 to 149, 150 and over. A key is essential.
+[geo-graph-skills-s1.16.2] Choropleth maps suit densities and percentages. Their weakness is that they imply the value is even across each area and hide variation inside it, and the boundaries look like sudden changes.
+[geo-graph-skills-s1.16.3] Illustrative regional population densities (people per km²): North 35, East 160, South 85, West 40, Midlands 60. North and West are the lightest shade and East the darkest; the empty 100 to 149 class still appears in the key.
+[geo-graph-skills-s1.16.4] Dot map: each dot stands for a fixed number, showing the distribution of a value.
+[geo-graph-skills-s1.16.5] Isoline map: lines join places of equal value, e.g. isobars, isotherms, isohyets or contours.
+[geo-graph-skills-s1.16.6] Flow-line map: arrow width is proportional to the amount moving, e.g. migration, traffic or trade.
+[geo-graph-skills-s1.16.7] Proportional symbols: circles or bars sized in proportion to the value, placed on the map.
+[geo-graph-skills-s1.17.b] Sometimes a table is a better way to present data than a graph, and tables, graphs and maps all feed into the Geographical Investigation.
+[geo-graph-skills-s1.17.0] Use a table rather than a graph when many exact values must be given. A table cannot show a trend at a glance.
+[geo-graph-skills-s1.17.1] Graphs, maps and tables are expected in the presentation of results in the Geographical Investigation report. There is more on this in The Geographical Investigation (20%).

@@ -1,0 +1,379 @@
+TARGET bio13-s3: Investigation: rate of enzyme activity
+[bio13-s3.0.b] An enzyme is a biological catalyst, so what we want to know in an investigation is how fast it works. That speed is called the rate, and it is always measured against time.
+[bio13-s3.0.0] The rate of an enzyme-catalysed reaction is the amount of substrate (the molecule the enzyme acts on) converted into product per unit time, e.g. cm³ of oxygen produced per minute.
+[bio13-s3.0.1] The rate can be measured either by how fast a product appears or by how fast the substrate disappears, whichever is easier to detect for that reaction.
+[bio13-s3.0.2] Catalase breaks down hydrogen peroxide (2H₂O₂ → 2H₂O + O₂); the rate is measured by the oxygen released, as foam or as a volume of gas.
+[bio13-s3.0.3] Amylase digests starch to maltose; the rate is measured by the time taken for the starch to disappear, tested with iodine.
+[bio13-s3.0.4] Rate = amount of product ÷ time: e.g. 30 cm³ of foam in 2 minutes gives a rate of 15 cm³ per minute.
+[bio13-s3.0.5] Where the time taken to reach an end-point (such as the starch disappearing) is measured, rate = 1 ÷ time: starch gone in 120 s gives a rate of 1/120 = 0.0083 s⁻¹, often written as 1000/time to give whole numbers.
+[bio13-s3.0.6] A shorter time means a faster rate, because the same change has been completed more quickly.
+[bio13-s3.0.7] Measure the initial rate, at the start of the reaction (e.g. in the first one or two minutes), because the reaction slows as substrate is used up.
+[bio13-s3.1.b] Primary data are the results you collect yourself. Presenting them clearly in a table and a graph is how you show the pattern in your results.
+[bio13-s3.1.0] A results table has the independent variable (the factor you change) in the first column, then the repeat readings, the mean and the rate, each column headed with its unit.
+[bio13-s3.1.1] A graph has the independent variable on the x-axis and the rate on the y-axis, with points plotted accurately and joined by a smooth curve or line of best fit.
+[bio13-s3.2.b] All five investigations use the same small set of enzymes, substrates and equipment. Knowing what each is for makes the methods easy to follow.
+[bio13-s3.2.0] Catalase is found in almost all cells that use oxygen, where it breaks down hydrogen peroxide, a toxic by-product of metabolism. Good sources are celery, potato, liver and yeast.
+[bio13-s3.2.1] Catalase extract: blend a fixed mass of chopped celery (e.g. 20 g) with distilled water (e.g. 100 cm³), then filter through muslin or filter paper. Make one batch and use it for every test, so the enzyme is the same each time.
+[bio13-s3.2.2] Amylase: a commercial (e.g. fungal) amylase solution made up at a fixed concentration; starch solution (e.g. 1%) is its substrate. Saliva contains amylase but is avoided for hygiene reasons.
+[bio13-s3.2.3] Equipment for measuring: 100 cm³ graduated cylinders, syringes or graduated pipettes for measuring volumes, thermometer to check temperatures, stopwatch to time each run, electronic balance.
+[bio13-s3.2.4] Other equipment: test tubes and boiling tubes, blender or mortar and pestle, knife and chopping board, filter funnel, spotting tile and droppers, conical flask with bung and delivery tube, trough, labels.
+[bio13-s3.2.5] Water baths can be thermostatically controlled electric baths, or beakers of water warmed with kettle water or cooled with ice, checked with a thermometer.
+[bio13-s3.2.6] Reagents: hydrogen peroxide solution (one stock of fixed concentration), buffer solutions or buffer tablets of known pH, washing-up liquid, distilled water, starch solution, amylase solution and iodine solution.
+[bio13-s3.3.b] Four ideas recur across the investigations: a buffer to hold pH steady, washing-up liquid to make the oxygen measurable in the foam methods, a waiting time so the mixture reaches the right temperature, and a control to prove the enzyme is responsible.
+[bio13-s3.3.0] A buffer is a solution that keeps the pH constant even when acids or alkalis are produced or added.
+[bio13-s3.3.1] A buffer at pH 7 (or at the enzyme's optimum) is added in every investigation except the pH investigation, so that pH is a controlled variable (kept the same each time).
+[bio13-s3.3.2] In the foam methods, a drop of washing-up liquid traps the oxygen released by catalase as a foam, so its volume can be read in a graduated cylinder; the same amount is added every time.
+[bio13-s3.3.3] Reaching temperature (equilibration): the enzyme and the substrate are placed in the same water bath, in separate containers, for about 5 minutes before they are mixed, so the reaction starts at the chosen temperature.
+[bio13-s3.3.4] A control in each investigation uses enzyme that has been boiled (denatured), or distilled water in place of the enzyme, with everything else the same.
+[bio13-s3.3.5] The control shows that the oxygen (or the loss of starch) is caused by the enzyme and not by the substrate breaking down on its own.
+[bio13-s3.4.b] The chemicals and equipment here are mostly mild, but several can harm skin, eyes or clothes if handled carelessly.
+[bio13-s3.4.0] Hydrogen peroxide is an oxidising agent that irritates or burns the eyes and skin; wear safety glasses (and gloves), measure it with a syringe, and wash any splash off with plenty of water.
+[bio13-s3.4.1] Buffers of very low or very high pH are irritants, so wear safety glasses.
+[bio13-s3.4.2] Use tongs or a test-tube holder and take care with boiling water and hot water baths; keep electrical water baths and blenders away from spilt water.
+[bio13-s3.4.3] Take care with knives and blender blades. If liver is used, treat it as raw meat: wear gloves, keep it off benches used for other work and wash hands afterwards.
+[bio13-s3.4.4] Iodine solution stains skin and clothes, so handle it with care. Never eat or drink in the laboratory, because chemicals could be swallowed.
+[bio13-s3.5.b] Here we vary how much hydrogen peroxide (the substrate) the same amount of catalase has to work on, and see how the rate of oxygen production changes.
+[bio13-s3.5.0] Aim: to investigate the effect of substrate (hydrogen peroxide) concentration on the rate of catalase activity, by changing only the substrate so any change in rate must be due to it.
+[bio13-s3.5.1] Hypothesis: “Increasing the concentration of hydrogen peroxide increases the rate of oxygen production, because more substrate molecules collide with active sites per second, until all the active sites are occupied and the rate levels off.”
+[bio13-s3.5.2] Independent variable: hydrogen peroxide concentration, made by diluting the stock with distilled water to 0%, 20%, 40%, 60%, 80% and 100% of the stock (e.g. 2 cm³ stock + 8 cm³ water = 20%), always to the same total volume (e.g. 10 cm³).
+[bio13-s3.5.3] Dependent variable (the one you measure): volume of oxygen collected in the first minute (cm³), giving the rate in cm³ per minute.
+[bio13-s3.5.4] Controlled variables: volume of the same celery extract (so enzyme concentration is constant), temperature (water bath at e.g. 25 °C), pH (same volume of pH 7 buffer), total volume of solution, timing and apparatus.
+[bio13-s3.5.5] Control: the 100% hydrogen peroxide with boiled extract (or with water in place of the extract), which gives little or no oxygen; the 0% tube also shows that no oxygen forms without substrate.
+[bio13-s3.6.b] The oxygen given off is collected in an upturned cylinder of water, so its volume can be read directly.
+[bio13-s3.6.0] 1. Fill a graduated cylinder with water and turn it upside down in a trough of water, with no air at the top.
+[bio13-s3.6.1] 2. Put 10 cm³ of the first hydrogen peroxide dilution and 2 cm³ of pH 7 buffer in a conical flask (or boiling tube) in the water bath, with 2 cm³ of celery extract in a separate tube beside it, for about 5 minutes.
+[bio13-s3.6.2] 3. Place the end of the delivery tube under the mouth of the upturned cylinder.
+[bio13-s3.6.3] 4. Add the extract to the flask, immediately put in the bung with the delivery tube, and start the stopwatch.
+[bio13-s3.6.4] 5. Read the volume of oxygen collected in the cylinder after 1 minute (or every 30 seconds for 3 minutes).
+[bio13-s3.6.5] 6. Rinse the flask and repeat for each concentration. Do each concentration three times and calculate the mean rate.
+[bio13-s3.6.6] Alternatives: a gas syringe connected to the flask measures the oxygen volume more accurately than collection over water; or the foam method used in the pH investigation can be used.
+[bio13-s3.6.7] Another alternative: filter-paper discs soaked in catalase extract are dropped into each concentration and the time for each disc to rise to the surface (buoyed by oxygen bubbles) is timed, with rate = 1 ÷ time.
+[bio13-s3.6.8] Diagram: a conical flask in a water bath, with a bung and delivery tube leading under an upturned graduated cylinder full of water in a trough. Label hydrogen peroxide + buffer + catalase extract, water bath, thermometer, delivery tube, oxygen collecting, trough of water.
+[bio13-s3.7.b] The results follow a typical curve: a steep rise, then a plateau. Each part has its own explanation, and the plateau is caused by saturation of the active sites, not by the enzyme being denatured or used up.
+[bio13-s3.7.0] Expected results: no oxygen at 0%; at low concentrations the rate rises steeply, roughly in proportion to concentration; at high concentrations it rises less and levels off into a plateau. The boiled-enzyme control gives little or no oxygen.
+[bio13-s3.7.1] The rise is explained by collisions: more substrate molecules in the same volume means more collisions with active sites (the part of the enzyme where the substrate binds) per second, so more enzyme–substrate complexes form and more product is made per minute.
+[bio13-s3.7.2] The plateau is explained by saturation: at high substrate concentration every active site is occupied at any moment, so the enzyme (saturated) works at its maximum rate, and adding more substrate cannot increase the rate.
+[bio13-s3.7.3] At the plateau the amount of enzyme is the limiting factor (the thing holding the rate back); adding more enzyme would raise the rate again.
+[bio13-s3.7.4] Within the range used in a school investigation the plateau may not be reached if the enzyme is in excess.
+[bio13-s3.7.5] Conclusion: state the trend shown by the mean rates, whether it supports the hypothesis, and the concentration above which the rate stopped increasing, if one was found.
+[bio13-s3.7.6] Diagram: a graph of rate (y-axis) against substrate concentration (x-axis); a curve rising from the origin, steep at first and then levelling off, with the plateau labelled all active sites occupied (saturated).
+[bio13-s3.8.b] Now the substrate stays the same and the amount of enzyme changes. Amylase digests starch, and the end-point is found with iodine, which turns blue-black with starch and stays yellow-brown when starch is absent.
+[bio13-s3.8.0] Aim: to investigate the effect of enzyme (amylase) concentration on the rate at which starch is digested.
+[bio13-s3.8.1] Hypothesis: “Increasing the concentration of amylase increases the rate of starch digestion, because more active sites are available to bind starch molecules, as long as starch is in excess.”
+[bio13-s3.8.2] Independent variable: amylase concentration, made by diluting the stock amylase solution with distilled water to 0%, 25%, 50%, 75% and 100% of the stock, always to the same volume.
+[bio13-s3.8.3] Dependent variable: time taken for the starch to disappear (the iodine test no longer turns blue-black), converted to rate = 1 ÷ time.
+[bio13-s3.8.4] Controlled variables: volume and concentration of starch solution, volume of amylase solution, temperature (water bath at e.g. 37 °C), pH (buffer at pH 7), volume of iodine in each well, and the sampling interval.
+[bio13-s3.8.5] Control: starch solution with distilled water (0% amylase) or with boiled amylase in place of the amylase; it stays blue-black with iodine for the whole investigation, showing that the starch does not disappear without active enzyme.
+[bio13-s3.9.b] Drops of the reacting mixture are tested with iodine at regular intervals until the blue-black colour no longer appears.
+[bio13-s3.9.0] 1. Put a drop of iodine solution into each well of a spotting tile (a white tile with small hollows), so each sample can be tested as soon as it is taken.
+[bio13-s3.9.1] 2. Put 5 cm³ of starch solution and 1 cm³ of pH 7 buffer into a test tube, and 2 cm³ of the first amylase dilution into another, then stand both in the water bath for 5 minutes.
+[bio13-s3.9.2] 3. Pour the amylase into the starch, mix, and start the stopwatch.
+[bio13-s3.9.3] 4. Every 30 seconds, take one drop of the mixture with a clean dropper and add it to the next well of iodine.
+[bio13-s3.9.4] 5. Note the time at which a drop first leaves the iodine yellow-brown (no blue-black): this is the end-point, when all the starch has been digested.
+[bio13-s3.9.5] 6. Repeat for each amylase concentration, three times each, so that a mean can be calculated and a one-off error does not mislead you; then calculate the mean time and the rate.
+[bio13-s3.9.6] Alternative: with catalase, vary the volume of celery extract (e.g. 0.5, 1, 1.5, 2 and 2.5 cm³, each made up to the same total volume with distilled water) or the number of equal-sized celery discs, and measure the foam or oxygen volume in a fixed time.
+[bio13-s3.9.7] Diagram: a spotting tile with a row of wells, the first wells blue-black and the later wells yellow-brown, labelled with sampling times; and the starch–amylase tube in a water bath with a thermometer.
+[bio13-s3.10.b] With more enzyme, the starch disappears sooner. Unlike the substrate investigation, the graph is a straight line, as long as there is plenty of substrate.
+[bio13-s3.10.0] Expected results: the higher the amylase concentration, the shorter the time for the starch to disappear, so the faster the rate; the 0% and boiled-enzyme controls never reach the end-point.
+[bio13-s3.10.1] A graph of rate against enzyme concentration is a straight line through the origin: doubling the enzyme roughly doubles the rate.
+[bio13-s3.10.2] Explanation: more enzyme molecules means more active sites, so more substrate molecules can be bound and converted at the same time, and more product is made per unit time.
+[bio13-s3.10.3] The straight line continues only while substrate is in excess (more than the enzyme can use). If the enzyme concentration becomes very high, substrate becomes the limiting factor and the line levels off.
+[bio13-s3.10.4] Diagram: a graph of rate (y-axis) against enzyme concentration (x-axis); a straight line rising from the origin, labelled substrate in excess.
+[bio13-s3.11.b] Each enzyme works best at a particular pH. Here, buffers set the pH, and the volume of foam produced by catalase shows how active it is at each one.
+[bio13-s3.11.0] Aim: to investigate the effect of pH on the rate of catalase activity.
+[bio13-s3.11.1] Hypothesis: “Catalase has an optimum pH at which its rate is highest, and the rate decreases at pH values above and below it, because the shape of the active site is changed.”
+[bio13-s3.11.2] Independent variable: pH, set with buffer solutions (e.g. pH 4, 5, 6, 7, 8, 9 and 10), which hold each pH steady so it does not drift as the reaction proceeds.
+[bio13-s3.11.3] Dependent variable: volume of foam produced in 2 minutes (cm³), giving the rate in cm³ per minute.
+[bio13-s3.11.4] Controlled variables: temperature (water bath at e.g. 25 °C), volume and concentration of hydrogen peroxide, volume of the same celery extract (or mass of celery), volume of buffer, one drop of washing-up liquid, time and size of cylinder.
+[bio13-s3.11.5] Control: at each pH (or at pH 7), boiled celery extract (or water) in place of the extract, giving no foam.
+[bio13-s3.12.b] The foam is built up in a graduated cylinder, so its height can be read at the end of a fixed time.
+[bio13-s3.12.0] 1. Into a 100 cm³ graduated cylinder put 10 cm³ of pH 4 buffer, 2 cm³ of celery extract (or a fixed mass of chopped celery) and one drop of washing-up liquid.
+[bio13-s3.12.1] 2. Stand the cylinder in the 25 °C water bath, with a boiling tube of hydrogen peroxide beside it, for 5 minutes.
+[bio13-s3.12.2] 3. Note the starting volume of liquid in the cylinder, so the foam volume can be found by subtraction.
+[bio13-s3.12.3] 4. Add 2 cm³ of hydrogen peroxide with a syringe and start the stopwatch.
+[bio13-s3.12.4] 5. After 2 minutes, read the volume at the top of the foam, at eye level; the foam volume is this reading minus the starting volume.
+[bio13-s3.12.5] 6. Wash the cylinder and repeat with each buffer, three times each, and calculate the mean rate.
+[bio13-s3.12.6] Diagram: a graduated cylinder standing in a water bath with a thermometer, containing buffer, celery extract and washing-up liquid at the bottom and a column of foam above, with a syringe adding hydrogen peroxide. Label each part and the foam height being read.
+[bio13-s3.13.b] The rate rises to a peak at one pH and falls on both sides. The explanation lies in how pH affects the shape of the active site.
+[bio13-s3.13.0] Expected results: the most foam forms at around pH 7 (the optimum for celery and liver catalase), with less in more acidic and more alkaline buffers and very little at the extremes. The control gives no foam.
+[bio13-s3.13.1] The optimum pH is the pH at which the active site has the shape and charges that best fit the substrate.
+[bio13-s3.13.2] A higher or lower hydrogen ion concentration, in more acidic or more alkaline conditions, changes the charges in the active site and the bonds holding the enzyme's shape, so the substrate fits less well and fewer enzyme–substrate complexes form.
+[bio13-s3.13.3] Small changes from the optimum are reversible; extreme pH denatures the enzyme permanently.
+[bio13-s3.13.4] Each enzyme's optimum suits the place where it works: pepsin in the acid stomach has an optimum of about pH 2; salivary amylase in the mouth about pH 7; trypsin in the alkaline small intestine about pH 8.
+[bio13-s3.13.5] Diagram: a graph of rate (y-axis) against pH (x-axis); a peaked, bell-shaped curve with its peak labelled optimum pH at about 7 for catalase; optionally a second curve peaking at about pH 2, labelled pepsin.
+[bio13-s3.14.b] Temperature has two opposite effects on an enzyme: it speeds up collisions, but too much heat destroys the enzyme. This investigation measures catalase activity across a range of water-bath temperatures.
+[bio13-s3.14.0] Aim: to investigate the effect of temperature on the rate of catalase activity.
+[bio13-s3.14.1] Hypothesis: “As temperature increases, the rate of catalase activity increases up to an optimum temperature, because molecules move faster and collide more often; above the optimum the rate falls sharply because the enzyme is denatured.”
+[bio13-s3.14.2] Independent variable: temperature, set with water baths at e.g. 0 °C (ice water), 10, 20, 30, 40, 50, 60 and 70 °C, each checked with a thermometer because baths drift from their set temperature.
+[bio13-s3.14.3] Dependent variable: volume of foam in 2 minutes (cm³), giving the rate in cm³ per minute.
+[bio13-s3.14.4] Controlled variables: pH (same volume of pH 7 buffer), volume and concentration of hydrogen peroxide, volume of the same celery extract, one drop of washing-up liquid, time and size of cylinder.
+[bio13-s3.14.5] Control: boiled celery extract (or water) in place of the extract at each temperature, giving no foam.
+[bio13-s3.15.b] The temperature method reuses the foam method from the pH investigation, with the buffer fixed and the water bath changed.
+[bio13-s3.15.0] Method: follow the pH investigation method, but with pH 7 buffer in every cylinder, and with each cylinder (buffer, extract and washing-up liquid) and its tube of hydrogen peroxide left in a water bath at the chosen temperature for 5 minutes before the peroxide is added.
+[bio13-s3.15.1] Check the bath temperature with the thermometer during the 2 minutes, because it can drift; repeat three times at each temperature and calculate the mean rate.
+[bio13-s3.15.2] The same method works with amylase and starch, timing the starch's disappearance at each temperature, as in the enzyme concentration investigation.
+[bio13-s3.15.3] Diagram: the pH set-up, with a row of water baths at different labelled temperatures.
+[bio13-s3.16.b] The curve rises slowly to a peak and then drops steeply. The rise and the fall have different causes.
+[bio13-s3.16.0] Expected results: little foam at 0 °C; the rate increases as temperature rises, to a maximum at the optimum temperature; above the optimum the rate falls steeply, with little or no activity at the highest temperatures tested.
+[bio13-s3.16.1] The graph is not symmetrical: a gradual rise and a steep fall. For human enzymes the optimum is about 37 °C, body temperature.
+[bio13-s3.16.2] Explanation of the rise: as temperature increases, enzyme and substrate molecules have more kinetic energy (movement energy), move faster and collide more often, and more collisions have enough energy to react, so more enzyme–substrate complexes form per second.
+[bio13-s3.16.3] Over the lower part of the range, the rate roughly doubles for each 10 °C rise (an approximate pattern, not an exact law).
+[bio13-s3.16.4] Explanation of the fall: above the optimum, the enzyme molecule vibrates so much that the bonds holding its shape break, the active site changes shape and the substrate no longer fits: the enzyme is denatured.
+[bio13-s3.16.5] As temperature rises further, more enzyme molecules are denatured, so the rate falls even though collisions are more frequent.
+[bio13-s3.16.6] At low temperature the enzyme is inactive, not denatured: the molecules move too slowly for many collisions, but the active site keeps its shape, so activity returns when the enzyme is warmed (shown in the heat denaturation investigation).
+[bio13-s3.16.7] Diagram: a graph of rate (y-axis) against temperature in °C (x-axis); a curve rising gradually to a peak labelled optimum temperature, then falling steeply to zero, with the falling part labelled enzyme denatured.
+[bio13-s3.17.b] Heat can do more than slow an enzyme: it can destroy its shape for good. This investigation shows that boiled catalase stays inactive even after it is cooled.
+[bio13-s3.17.0] Aim: to investigate the effect of heat denaturation on the activity of catalase.
+[bio13-s3.17.1] Denaturation is the permanent loss of an enzyme's shape, and so of its active site and its activity, caused by high temperature or extreme pH.
+[bio13-s3.17.2] Hypothesis: “Catalase that has been boiled will not break down hydrogen peroxide, even when cooled, because its active site has been permanently changed.”
+[bio13-s3.17.3] Independent variable: whether the extract has been boiled (heat-treated) or not. Dependent variable: volume of foam in 2 minutes (cm³).
+[bio13-s3.17.4] Controlled variables: both extracts tested at the same temperature (e.g. 25 °C) and pH (pH 7 buffer), with the same volumes of extract, buffer and hydrogen peroxide, the same drop of washing-up liquid and the same time.
+[bio13-s3.17.5] Control: the unboiled extract, which shows how much foam active catalase produces under the same conditions, so the boiled result has something to be compared with.
+[bio13-s3.18.b] Half the extract is boiled and half is not; both are then tested at the same temperature, so any difference is due to boiling alone.
+[bio13-s3.18.0] 1. Divide the celery extract between two labelled boiling tubes, A and B.
+[bio13-s3.18.1] 2. Place tube A in a boiling water bath for 10 minutes; leave tube B at room temperature.
+[bio13-s3.18.2] 3. Cool tube A, then stand both tubes in the 25 °C water bath for 5 minutes, so the boiled extract is tested at the same temperature as the unboiled.
+[bio13-s3.18.3] 4. Set up two graduated cylinders, each with 10 cm³ of pH 7 buffer, a drop of washing-up liquid and 2 cm³ of extract A or B.
+[bio13-s3.18.4] 5. Add 2 cm³ of hydrogen peroxide to each and read the foam after 2 minutes. Repeat three times.
+[bio13-s3.18.5] Expected results: the boiled extract gives little or no foam; the unboiled extract gives a large column of foam. Any small amount of foam from the boiled extract comes from hydrogen peroxide breaking down slowly on its own, or from catalase that was not fully denatured.
+[bio13-s3.18.6] Conclusion: boiling denatured the catalase; its activity did not return on cooling, so the change is permanent. This supports the hypothesis and explains why boiled enzyme is used as the control in the other investigations.
+[bio13-s3.18.7] Extension: extract kept in ice water for 10 minutes and then warmed to 25 °C gives as much foam as unchilled extract, showing that cooling makes an enzyme inactive without denaturing it, whereas heating denatures it.
+[bio13-s3.18.8] The same investigation works with amylase: boiled amylase added to starch leaves the iodine test blue-black at every sampling time, while unboiled amylase digests the starch so the iodine stays yellow-brown.
+[bio13-s3.19.b] Secondary data are results that someone else collected. They let you check and extend your own conclusions, and the specification requires conclusions supported by both primary and secondary data.
+[bio13-s3.19.0] Secondary data are data collected by someone else: results pooled from other groups in the class, published tables, textbooks or research papers, or online databases.
+[bio13-s3.19.1] Uses: compare your optimum with published optima (the optimum pH of digestive enzymes and the optimum temperature of human enzymes given in the pH and temperature investigations).
+[bio13-s3.19.2] Uses: check whether your trend agrees with other groups' (reproducibility), and extend a conclusion beyond the range you could test.
+[bio13-s3.19.3] Secondary data on enzymes from extreme environments support the link between structure and conditions: Taq polymerase, from the hot-spring bacterium Thermus aquaticus, works best at about 72 °C and is not denatured at temperatures that denature human enzymes.
+[bio13-s3.19.4] When using secondary data, record its source, check that it was measured under comparable conditions (same enzyme source, substrate, pH or temperature), and judge whether the source is reliable. There is more on this in Recognising bias and evaluating sources.
+[bio13-s3.20.b] Every method has weaknesses. Knowing where the error comes from tells you how to reduce it.
+[bio13-s3.20.0] Foam volume is imprecise: bubbles burst, the top of the foam is uneven, and foam may stick to the cylinder walls. Read at eye level at exactly the same time each run; collecting the oxygen in a gas syringe is more accurate.
+[bio13-s3.20.1] Gas is lost in the time between adding the enzyme and inserting the bung, or through leaks; some oxygen dissolves in the water when it is collected over water.
+[bio13-s3.20.2] Water-bath temperatures drift, especially in beakers of hot water or ice; check with a thermometer throughout or use a thermostatically controlled bath.
+[bio13-s3.20.3] The reaction mixture may not reach the bath temperature if equilibration is too short, so allow the full time.
+[bio13-s3.21.b] Some errors come from the enzyme and reagents themselves, or from judging a colour change. Repeating and averaging makes results more reliable.
+[bio13-s3.21.0] Enzyme activity varies between celery samples and falls as an extract stands, so make one batch, keep it cool and use it quickly for all the tests; a fresh batch for a repeat can give different values.
+[bio13-s3.21.1] Hydrogen peroxide slowly breaks down on standing, especially in light, so its concentration may fall during the session: use one fresh stock kept in a dark bottle.
+[bio13-s3.21.2] The iodine end-point is a judgement of colour, and sampling every 30 seconds means the time is only known to within 30 seconds; sample more often near the end-point, compare against a control well, or use a colorimeter.
+[bio13-s3.21.3] Measure volumes with syringes or graduated pipettes rather than by eye, and use a clean syringe or dropper for each solution to avoid contamination.
+[bio13-s3.21.4] Repeat each value three times, calculate the mean, and identify and investigate any anomalous result; pool class data to check reproducibility.
+[bio13-s3.21.5] Use at least five values of the independent variable so the shape of the graph (peak or plateau) can be seen.
+
+CANDIDATES bio13-s1: Enzymes as catalysts
+[bio13-s1.0.b] Cells carry out thousands of chemical reactions, and left alone most of them would be far too slow to keep a cell alive. Catalysts speed reactions up, and enzymes are the catalysts that living things make for themselves.
+[bio13-s1.0.0] A catalyst is a substance that speeds up a chemical reaction without being used up or permanently changed by it, so it can be used again and again.
+[bio13-s1.0.1] A catalyst does not change which products form or how much product is made in the end; it only makes the reaction reach that point faster.
+[bio13-s1.0.2] An enzyme is a biological catalyst: a catalyst made by a living cell.
+[bio13-s1.0.3] Almost all enzymes are globular proteins (proteins folded into a compact, rounded ball), folded into a precise three-dimensional shape. That shape decides what the enzyme can do. There is more on protein structure in Structures of biomolecules.
+[bio13-s1.0.4] Because enzymes are proteins, they are made at ribosomes (the tiny structures in a cell where proteins are built), following the instructions in a gene (the length of DNA that codes for the protein).
+[bio13-s1.1.b] Because an enzyme is a protein that is reused rather than consumed, it has a set of properties that follow from that.
+[bio13-s1.1.0] Enzymes are needed only in small amounts, because each molecule is reused many times; catalase, among the fastest, breaks down millions of hydrogen peroxide molecules per second.
+[bio13-s1.1.1] Enzymes are unchanged at the end of the reaction, which is why the same molecule can start work on another substrate straight away.
+[bio13-s1.1.2] Enzymes are specific: each acts on one reaction or one type of reaction, because only a substrate of the right shape fits the enzyme's active site (the region where the substrate binds).
+[bio13-s1.1.3] Enzyme activity is affected by temperature and pH, and enzymes are denatured (their shape is changed so that they stop working) by heat and by extremes of pH. There is more on this in Investigation: rate of enzyme activity.
+[bio13-s1.2.b] Enzyme names usually give away the job the enzyme does. Enzymes also work in different places, depending on whether their job is inside or outside the cell.
+[bio13-s1.2.0] Most enzyme names end in -ase, and many are named after their substrate (the molecule the enzyme acts on), so the name tells you the job: maltase acts on maltose, lipase on lipids, protease on proteins, sucrase on sucrose.
+[bio13-s1.2.1] Some older names, such as pepsin and trypsin, don't follow this rule, so don't assume that every enzyme name ends in -ase.
+[bio13-s1.2.2] Most enzymes work inside the cell that made them (intracellular), for example the enzymes of respiration (releasing energy from food) in the cytoplasm and mitochondria and of photosynthesis (making food using light) in chloroplasts.
+[bio13-s1.2.3] Some enzymes are secreted to work outside the cell (extracellular), for example digestive enzymes released into the gut and the enzymes that fungi and bacteria release onto their food. There is more on this in The Digestive System.
+[bio13-s1.3.b] Even a reaction that releases energy overall needs a push to get started. An enzyme works by making that push smaller, not by adding energy.
+[bio13-s1.3.0] Activation energy is the minimum energy that reacting molecules need before a reaction can start: the energy needed to break or strain existing bonds.
+[bio13-s1.3.1] Think of activation energy as an energy hill that must be climbed even when the reaction releases energy overall.
+[bio13-s1.3.2] Without a catalyst, most reactions of metabolism (the chemical reactions of life) have such a high activation energy that, at body temperature (37 °C), they would happen far too slowly to keep a cell alive.
+[bio13-s1.3.3] Heating would supply the energy, but high temperatures would damage cells and their proteins, so heating is not an option for living things.
+[bio13-s1.3.4] An enzyme provides an alternative route for the reaction with a lower activation energy, so many more molecules have enough energy to react at the temperature of the cell, and the reaction is many times faster.
+[bio13-s1.3.5] The overall energy change of the reaction (energy released or taken in) stays the same; only the hill to be climbed gets lower.
+[bio13-s1.3.6] Diagram: energy-profile graph, energy on the y-axis, progress of reaction on the x-axis. Reactants high on the left, products lower on the right.
+[bio13-s1.3.7] Draw two humps, a tall one labelled without enzyme and a lower one labelled with enzyme. Mark each activation energy with a vertical arrow from the reactants to the top of its hump.
+[bio13-s1.4.b] Every enzyme reaction has two partners: the enzyme and the molecule it works on. One small region of the enzyme does the work, and its shape is what makes the enzyme selective.
+[bio13-s1.4.0] The substrate is the molecule an enzyme acts on; the products are the molecules made.
+[bio13-s1.4.1] Example: catalase acts on its substrate hydrogen peroxide: 2H₂O₂ → 2H₂O + O₂.
+[bio13-s1.4.2] The active site is a small region of the enzyme, a pocket or groove on its surface, where the substrate binds and the reaction takes place.
+[bio13-s1.4.3] The active site's shape, and the chemical charges in it, are complementary to the substrate, meaning the two fit together like matching pieces.
+[bio13-s1.4.4] The active site is a part of the enzyme, not of the substrate. The substrate's shape is complementary to the active site, not the same as it.
+[bio13-s1.5.b] Once the substrate meets the active site, the reaction follows three steps. Together they make the active-site (lock-and-key) model of enzyme action.
+[bio13-s1.5.0] 1. The substrate collides with the enzyme and binds to the active site, forming an enzyme–substrate complex (the enzyme and substrate joined together).
+[bio13-s1.5.1] Enzyme and substrate molecules meet by random movement, so anything that increases collisions (more substrate, more enzyme, higher temperature) increases the rate, up to a point.
+[bio13-s1.5.2] 2. While the substrate is held in the active site, the enzyme lowers the activation energy, for example by straining the bonds that must break, or by holding two substrate molecules close together in the right position to react.
+[bio13-s1.5.3] The substrate is then converted to products, forming an enzyme–product complex.
+[bio13-s1.5.4] 3. The products have a different shape, no longer fit the active site, and are released.
+[bio13-s1.5.5] The active site is then free and unchanged, ready to bind another substrate molecule, which is why one enzyme molecule can be used again and again.
+[bio13-s1.5.6] In summary: enzyme + substrate → enzyme–substrate complex → enzyme + products.
+[bio13-s1.5.7] Diagram: three stages in a row: enzyme with active site and complementary substrate approaching; enzyme–substrate complex; unchanged enzyme with two products leaving. Label enzyme, active site, substrate, enzyme–substrate complex and products. A matching diagram for a joining reaction is optional.
+[bio13-s1.6.b] The same active-site mechanism works whichever way a reaction runs. Metabolism has reactions that break molecules down and reactions that build them up, and enzymes catalyse both.
+[bio13-s1.6.0] In catabolic reactions one substrate is split into smaller products, for example amylase splits starch into maltose.
+[bio13-s1.6.1] In anabolic reactions two or more substrates are joined into a larger product. For example, DNA polymerase joins nucleotides (the building blocks of DNA) into a new DNA strand when DNA is copied.
+[bio13-s1.6.2] Another anabolic example is ATP synthase, which joins ADP and phosphate into ATP, the molecule cells use to carry energy.
+[bio13-s1.7.b] A cell contains thousands of different molecules but does not react them all at random. Enzymes are selective: each one picks out its own substrate, and that selectivity comes from the shape of the active site.
+[bio13-s1.7.0] Specificity means that each enzyme catalyses only one reaction, or one type of reaction, because only a substrate with the complementary shape fits its active site.
+[bio13-s1.7.1] This is what selective catalysts means: amylase digests starch but not protein or fat; pepsin digests protein but not starch.
+[bio13-s1.7.2] The lock-and-key model is the simplest explanation: the substrate (the key) fits only the active site (the lock) of the right shape.
+[bio13-s1.7.3] The lock-and-key model was later refined to the induced-fit model, in which the active site changes shape slightly as the substrate binds. There is more on this in Enzyme structure and specificity.
+[bio13-s1.7.4] Because enzymes are specific, a cell needs thousands of different enzymes, one for each of its reactions, and it can control a reaction by making, or not making, the one enzyme that catalyses it.
+[bio13-s1.7.5] Anything that changes the shape of the active site stops the substrate fitting, so the enzyme stops working: for example high temperature or extreme pH (denaturation).
+[bio13-s1.7.6] A change in the enzyme's amino-acid sequence (the order of the amino acids that make up the protein), caused by a mutation in its gene, also changes the active site and stops the substrate fitting.
+[bio13-s1.8.b] Metabolism is the sum of all the chemical reactions in a living thing. Enzymes make these reactions possible, and they usually work in sequences called pathways.
+[bio13-s1.8.0] Every reaction of metabolism is catalysed by its own specific enzyme.
+[bio13-s1.8.1] Without enzymes, the reactions that keep cells alive (respiration, photosynthesis, protein synthesis, DNA copying, digestion) would be far too slow at the temperatures and pH inside living things.
+[bio13-s1.8.2] Most processes are metabolic pathways: a sequence of reactions, each catalysed by a different enzyme, in which the product of one reaction is the substrate of the next.
+[bio13-s1.8.3] Respiration and photosynthesis are such pathways. There is more on this in Respiration and Photosynthesis.
+[bio13-s1.8.4] Diagram: a pathway written as A → B → C → D, with enzyme 1, enzyme 2 and enzyme 3 written over the arrows.
+[bio13-s1.9.b] Because every step in a pathway needs its own enzyme, a cell controls its chemistry by controlling its enzymes.
+[bio13-s1.9.0] A cell controls which reactions happen, and how fast, by switching on or off the genes for particular enzymes and by activating or inhibiting enzymes already made.
+[bio13-s1.9.1] If one enzyme in a pathway is missing, the pathway stops at that step: its substrate builds up and the later products are not made.
+[bio13-s1.9.2] Many enzymes need a non-protein helper to work: a mineral ion (for example magnesium for many enzymes that use ATP) or a coenzyme made from a vitamin. There is more on this in Minerals.
+[bio13-s1.10.b] Because each reaction depends on one enzyme, blocking or losing that enzyme has serious effects. Some poisons act this way, and some inherited or common conditions come from a missing enzyme.
+[bio13-s1.10.0] Some drugs and poisons work by blocking an enzyme: for example some insecticides and nerve agents inhibit the enzyme that breaks down a neurotransmitter (a chemical messenger between nerve cells). There is more on this in Conduction across the synaptic cleft and its disruption.
+[bio13-s1.10.1] Lactose intolerance: many adults make little lactase, the enzyme that digests lactose (milk sugar), so undigested lactose passes to the large intestine, where bacteria ferment it, causing bloating, wind, cramps and diarrhoea.
+[bio13-s1.10.2] Lactose-free milk is made using lactase, which digests the lactose in the milk before it is drunk.
+[bio13-s1.10.3] Phenylketonuria (PKU): an inherited lack of the enzyme that converts the amino acid phenylalanine into another amino acid (tyrosine), so phenylalanine builds up in the blood and damages the developing brain.
+[bio13-s1.10.4] PKU is detected by the heel-prick test given to newborn babies in Ireland, and is controlled by a diet low in phenylalanine.
+
+CANDIDATES bio2-s2: Designing and conducting investigations
+[bio2-s2.0.b] Every investigation has factors that are deliberately changed, measured or kept the same. Sorting them into the right type is the first step in designing a fair investigation.
+[bio2-s2.0.0] A variable is any factor that can change or be changed in an investigation.
+[bio2-s2.0.1] The independent variable is the one variable the investigator deliberately changes, for example the temperature of the water bath in an enzyme investigation, or the concentration of sucrose solution in an osmosis investigation.
+[bio2-s2.0.2] The dependent variable is the variable that is measured, because it is expected to change as a result; it depends on the independent variable. Examples: the volume of oxygen released per minute by catalase, or the percentage change in mass of potato cylinders.
+[bio2-s2.0.3] Controlled variables are all other variables that could affect the dependent variable, so they are kept the same. For enzyme rate these are pH (kept constant with a buffer), substrate concentration and volume, the amount of enzyme, and the time of measurement.
+[bio2-s2.0.4] For osmosis the controlled variables are the size and surface area of the cylinders, the potato they are cut from, the volume of solution, the time in solution and the temperature. Any of these could change the result if allowed to vary.
+[bio2-s2.0.5] Name variables precisely, with their unit and how each is measured: “temperature” is an independent variable, but “the enzyme” is not, because it is not a factor you change by amount.
+[bio2-s2.1.b] Saying a variable is controlled is not enough; the plan must say how it is held constant, and which values of the independent variable will be tested.
+[bio2-s2.1.0] Variables are kept constant with equipment and technique: a thermostatically controlled water bath or incubator for temperature, because these hold a set temperature over time; a buffer solution for pH, because a buffer resists changes in pH.
+[bio2-s2.1.1] Use a graduated pipette, syringe or graduated cylinder for volumes, so each set-up gets the same amount, and a stopwatch for timing.
+[bio2-s2.1.2] For tissue, use the same cork borer and trim every piece to the same length, so that size and surface area are the same in every set-up.
+[bio2-s2.1.3] Choose a range of at least five values of the independent variable, spread across the range in which a change is expected, for example 0 °C to 60 °C in 10 °C steps for an enzyme. This gives enough points to show a pattern.
+[bio2-s2.1.4] Add closer intervals around a key point such as an apparent optimum (the value that gives the highest rate), so that the key point is located more exactly.
+[bio2-s2.1.5] A preliminary (pilot) trial is a quick practice run. It helps choose the range and checks that the method works before the full investigation.
+[bio2-s2.2.b] To show that the factor you changed caused the result, you need a fair test and a control. These two ideas are linked but are not the same thing.
+[bio2-s2.2.0] A fair test is an investigation in which only the independent variable is changed and all other variables are controlled, so any change in the dependent variable can be put down to the independent variable.
+[bio2-s2.2.1] A control (control experiment) is a set-up identical to the experiment in every way except that the factor being tested is absent or not applied. It is a standard for comparison, showing that the result is due to the factor being investigated and not something else.
+[bio2-s2.2.2] Example of a control: boiled (denatured) enzyme used in place of active enzyme. Boiling denatures enzymes, so this shows that the enzyme, rather than the substrate breaking down on its own, causes the reaction.
+[bio2-s2.2.3] A negative control is a set-up expected to give no response, for example boiled enzyme, or distilled water in place of the test solution.
+[bio2-s2.2.4] A positive control is a set-up known to give a response, which shows that the method can detect one. For example, glucose is a reducing sugar and gives a positive Benedict’s test, so a known glucose solution shows the food test works.
+[bio2-s2.2.5] Controlled variables and the control are different: controlled variables are the factors kept the same in every set-up, while the control is a separate set-up used for comparison.
+[bio2-s2.3.b] A fair test is not much use unless it also measures the right thing. Validity is about whether the investigation really answers the question asked.
+[bio2-s2.3.0] An investigation is valid if it actually measures what it sets out to measure and answers the question asked. This needs a fair test and a suitable dependent variable.
+[bio2-s2.3.1] Example of an invalid investigation: if a lamp is moved closer to pondweed to increase light intensity and also warms the water, temperature has changed as well as light, so the investigation cannot show the effect of light alone.
+[bio2-s2.3.2] A heat shield, such as a beaker of water between the lamp and the plant, restores validity because the water absorbs heat and so reduces the heating.
+[bio2-s2.3.3] A conclusion is valid only if it is supported by data from a valid investigation. In other words, a flawed method cannot give a trustworthy conclusion, however neat the results look.
+[bio2-s2.4.b] Students often use these words interchangeably, but each one describes something different about a measurement.
+[bio2-s2.4.0] Error in measurement is the difference between a measured value and the true value. Every measurement has some error, and error is not the same as a mistake. There is more on this in Objectivity and data quality, which covers the types of error.
+[bio2-s2.4.1] Accuracy is how close a measurement or a mean is to the true value. It is improved by calibrated equipment (checked against a known standard) and a method that measures the right thing.
+[bio2-s2.4.2] Precision is how close repeated measurements are to each other, meaning there is little spread around the mean.
+[bio2-s2.4.3] The precision of an instrument is its resolution: the smallest change it can show. A balance reading to 0.01 g is more precise than one reading to 1 g, and a graduated pipette is more precise than a beaker for measuring 5 cm³.
+[bio2-s2.4.4] Precise results need not be accurate: a balance that reads 0.5 g too high gives readings close to each other (precise) but all wrong (inaccurate).
+[bio2-s2.4.5] Diagram: four targets showing accurate and precise; precise but not accurate; accurate on average but not precise; neither.
+[bio2-s2.5.b] One measurement can be a fluke. Reliability is about whether results can be trusted because they come out the same when the investigation is repeated.
+[bio2-s2.5.0] Reliability is how far results can be trusted because they are consistent when the investigation is repeated. It is improved by replicates, repeats and a large sample size. There is more on judging reliability in Objectivity and data quality.
+[bio2-s2.5.1] Replicates are several identical set-ups at each value of the independent variable, run at the same time, for example three potato cylinders in each sucrose concentration.
+[bio2-s2.5.2] Repeats are carrying out the whole measurement again. Both replicates and repeats allow a mean to be calculated and an anomalous result (one that does not fit the pattern) to be spotted.
+[bio2-s2.5.3] Sample size is the number of organisms, samples or measurements in each group. Living things vary naturally: two potato cylinders, two leaves or two people are never identical.
+[bio2-s2.5.4] A larger sample, chosen at random, reduces the effect of individual variation and gives a more representative and reliable result.
+[bio2-s2.5.5] Sample size is limited by time, cost, materials and the ethics of using organisms, so a plan has to balance these against the need for reliable results.
+[bio2-s2.6.b] The equipment you choose decides how good your data can be. A plan should pick each item for a reason, not just name it.
+[bio2-s2.6.0] Choose equipment whose resolution suits the size of the change: a syringe, graduated pipette or burette for small volumes rather than a beaker; a balance reading to at least 0.01 g for small masses; a stopwatch for time; a thermometer or temperature probe for temperature.
+[bio2-s2.6.1] Choose equipment that measures objectively where possible, meaning the reading does not depend on opinion. A colorimeter measures colour or cloudiness as a number instead of judging by eye.
+[bio2-s2.6.2] A gas syringe or an inverted graduated cylinder over water measures the volume of gas, instead of counting bubbles, which vary in size.
+[bio2-s2.6.3] Data loggers with sensors (temperature, pH, oxygen, light) record readings automatically at set intervals, so no readings are missed and there is no human timing error.
+[bio2-s2.6.4] Justify each choice in the plan: say what it measures, why its resolution or range is suitable, and how it reduces error.
+[bio2-s2.7.b] Practical work can cause harm, so risks are thought through before starting. A risk assessment is the written record of that thinking.
+[bio2-s2.7.0] A risk assessment is carried out before practical work. It identifies each hazard (anything that could cause harm), judges the risk (how likely and how serious the harm is) and states a control measure that reduces it.
+[bio2-s2.7.1] General control measures: wear safety glasses and a lab coat; tie back long hair; heat with a water bath rather than a direct flame where possible; clean up spills at once; wash hands after practical work; never eat or drink in the laboratory.
+[bio2-s2.7.2] Hot water baths and boiling tubes can scald or burn, so use tongs or a test-tube holder.
+[bio2-s2.7.3] Corrosive or irritant reagents such as hydrogen peroxide or Benedict’s reagent can harm skin and eyes, so wear glasses and gloves and avoid skin contact.
+[bio2-s2.7.4] Sharp scalpels and cork borers can cut, so cut downwards onto a tile, away from the body.
+[bio2-s2.7.5] Microorganisms can cause infection, so use aseptic technique (methods that keep unwanted microbes out), sealed plates and disinfected benches, and dispose of cultures by sterilising them. There is more on this in Microorganisms.
+[bio2-s2.7.6] Electrical equipment must be kept away from water, because water conducts electricity and risks shock.
+[bio2-s2.7.7] Safety also covers the organisms used: living material should be treated with care and returned to its habitat where possible.
+[bio2-s2.8.b] Science only works if people can trust what is reported. Scientific integrity means being honest in how investigations are carried out and reported.
+[bio2-s2.8.0] Record all results as they were measured, including unexpected and anomalous ones, because a result you did not expect may still be real.
+[bio2-s2.8.1] Never invent results (fabrication) or change them to fit the hypothesis (falsification).
+[bio2-s2.8.2] Never present others’ work or data as your own (plagiarism), so acknowledge every source.
+[bio2-s2.8.3] Integrity also means reporting limitations and errors openly, and not leaving out data because they do not support the hypothesis.
+[bio2-s2.9.b] Investigations involve living things, so the investigator must weigh the harm they might cause. Ethics sets the rules for how animals, people and habitats are treated.
+[bio2-s2.9.0] Ethics with animals: use animals only where there is no alternative, and cause the minimum harm or stress.
+[bio2-s2.9.1] The 3Rs: Replace (use non-animal alternatives such as cell cultures or computer models), Reduce (use the fewest animals that give reliable results), and Refine (improve methods to minimise suffering).
+[bio2-s2.9.2] Return organisms collected from the wild to where they were found.
+[bio2-s2.9.3] Ethics with human participants covers informed consent (participants know what is involved and agree freely), the right to withdraw at any time, confidentiality of personal data, and no physical or psychological harm.
+[bio2-s2.9.4] Investigations on people, for example measuring reaction time after a caffeinated drink, must take account of health conditions and exclude anyone at risk, because caffeine could harm them.
+[bio2-s2.9.5] Ethics also covers the environment: avoid damaging habitats when collecting. There is more on the wider ethical, social and economic consequences of research in Science, scientists and society.
+[bio2-s2.10.b] A plan must be detailed enough that someone else could repeat the investigation exactly. A worked outline for the effect of temperature on catalase (the enzyme that breaks down hydrogen peroxide into water and oxygen) shows the structure. There is more on the full method in Enzymes.
+[bio2-s2.10.0] A plan states, in order: the question and hypothesis; the independent, dependent and controlled variables; the control; and the equipment and reagents with reasons for choice.
+[bio2-s2.10.1] It then gives a numbered method with amounts, concentrations, times and temperatures; the number of replicates or repeats; how data will be recorded; a risk assessment; and ethical considerations.
+[bio2-s2.10.2] Worked outline, catalase: the independent variable is temperature, with five or more values set with water baths.
+[bio2-s2.10.3] Worked outline, catalase: the dependent variable is the volume of oxygen collected in a fixed time, and the controlled variables are pH (kept with a buffer), the volume and concentration of hydrogen peroxide, and the mass or volume of the enzyme source.
+[bio2-s2.10.4] Worked outline, catalase: the control is boiled enzyme; there are three replicates at each temperature; and safety glasses are worn for hydrogen peroxide.
+
+CANDIDATES bio2-s4: Producing and analysing data
+[bio2-s4.0.b] Every investigation produces data, and the type of data decides how you can record, process and graph it. Biologists sort data by what it describes, how it behaves and who collected it.
+[bio2-s4.0.0] Qualitative data are descriptions or categories that are not numerical, e.g. a positive Benedict’s test for a reducing sugar, which turns from blue to brick-red through green, yellow and orange; the presence or absence of a species; or “cloudy” or “clear”.
+[bio2-s4.0.1] Quantitative data are numerical measurements or counts with units, e.g. volume of oxygen in cm³, mass in g, or number of daisies per quadrat (a square frame laid on the ground to sample a small area).
+[bio2-s4.0.2] Quantitative data are more objective (less dependent on the observer’s judgement) and can be analysed mathematically, so they are preferred where possible. A qualitative result can often be made quantitative, e.g. a colorimeter (an instrument that measures how much light a solution absorbs) reading instead of a colour.
+[bio2-s4.0.3] Continuous data can take any value in a range, including decimals, e.g. mass, temperature or time.
+[bio2-s4.0.4] Discrete data are whole-number counts, because you cannot have half a seed, e.g. number of seeds or number of stomata (the pores in a leaf).
+[bio2-s4.0.5] Categoric data are named groups, e.g. eye colour or type of habitat.
+[bio2-s4.0.6] Primary data are collected by the investigator. Secondary data are collected by somebody else, e.g. published results, databases or other groups’ results.
+[bio2-s4.0.7] Selecting data means choosing the data that are relevant to the question and of good enough quality. Secondary data can extend or check primary data, for example by adding values you could not measure yourself. There is more on judging a secondary source in Recognising bias and evaluating sources.
+[bio2-s4.1.b] A results table is where raw data first go, so a clear layout makes the later calculations and graph easy. A few fixed conventions apply every time.
+[bio2-s4.1.0] The independent variable (the factor you change) goes in the first column. The dependent variable (the factor you measure) goes in the following columns, with a column for each repeat and a column for the mean.
+[bio2-s4.1.1] Each column heading gives the quantity and its unit, e.g. “Temperature (°C)” or “Volume of oxygen (cm³)”. Units go in the heading, not after every number, which keeps the table uncluttered.
+[bio2-s4.1.2] Record every reading to the same number of decimal places, matching the resolution of the instrument (the smallest change it can show). A balance reading to 0.01 g gives 2.45 g, not 2.4 g or 2.453 g.
+[bio2-s4.1.3] List the values of the independent variable in order, so the pattern can be seen down the column.
+[bio2-s4.1.4] Record raw results straight into the table during the investigation, including any that look wrong. Writing them down later from memory risks errors, and a result that looks wrong may turn out to matter.
+[bio2-s4.2.b] Raw readings are processed into a few summary numbers before they are graphed. The mean gives the typical value of repeats, and the range shows how closely the repeats agree. The worked numbers here are checked and illustrative.
+[bio2-s4.2.0] Mean: add the values and divide by the number of values. Anomalous values (ones that do not fit the pattern) are left out of the mean, and the fact is stated.
+[bio2-s4.2.1] Worked example for the mean: the final masses of four replicate (repeat) potato cylinders are 2.45 g, 2.44 g, 2.46 g and 2.10 g.
+[bio2-s4.2.2] The value 2.10 g is anomalous, so the mean of the other three is (2.45 + 2.44 + 2.46) ÷ 3 = 7.35 ÷ 3 = 2.45 g.
+[bio2-s4.2.3] Range: the largest value minus the smallest. It shows the spread of repeat readings, and a small range means the readings are precise (close to each other).
+[bio2-s4.2.4] Worked example for the range: 2.46 − 2.44 = 0.02 g, a small spread, so the readings are precise.
+[bio2-s4.2.5] The range of the independent variable is the lowest to highest value tested, e.g. 0 °C to 60 °C. It tells the reader which conditions the results cover.
+[bio2-s4.3.b] Two further calculations let you compare results fairly. Percentage change deals with samples that started at different sizes, and rate deals with changes that took different times.
+[bio2-s4.3.0] Percentage change = (final value − initial value) ÷ initial value × 100. It allows samples that started with different masses to be compared, because each change is expressed relative to its own starting value.
+[bio2-s4.3.1] Worked example for percentage change: a cylinder with an initial mass of 2.50 g and a final mass of 2.45 g has a percentage change of (2.45 − 2.50) ÷ 2.50 × 100 = −2.0%.
+[bio2-s4.3.2] A negative percentage change is a loss, and a positive value is a gain.
+[bio2-s4.3.3] Rate = amount of change ÷ time. For example, 24 cm³ of oxygen in 4 minutes is a rate of 6 cm³ per minute.
+[bio2-s4.3.4] When the time taken for something to happen is measured, e.g. the time for starch to disappear, the rate can be calculated as 1 ÷ time. A time of 50 s gives 1 ÷ 50 = 0.02 s⁻¹.
+[bio2-s4.3.5] A shorter time means a faster rate, because 1 ÷ time gets larger as the time gets smaller.
+[bio2-s4.4.b] Different data suit different graphs. The choice depends on whether the variables are continuous, discrete or categoric (see the previous block’s data types) and on what you want to show.
+[bio2-s4.4.0] Line graph: used when both variables are continuous, e.g. rate of enzyme activity against temperature.
+[bio2-s4.4.1] Bar chart: used when the independent variable is categoric or discrete, e.g. the number of a species in three habitats. Bars are separate and of equal width, because the categories are distinct groups.
+[bio2-s4.4.2] Histogram: shows the frequency (how many) of a continuous variable divided into classes, e.g. the number of students in each height range. Bars touch, because the classes run on from one to the next.
+[bio2-s4.4.3] Scatter graph: used to look for a correlation (a link) between two measured variables, e.g. light intensity and the number of a plant species in quadrats.
+[bio2-s4.4.4] Pie chart: shows proportions of a whole, e.g. the percentage of each blood group in a class.
+[bio2-s4.5.b] Once the graph type is chosen, marks come from drawing it carefully. Axes, scales, plotting and the line each follow a rule.
+[bio2-s4.5.0] The independent variable goes on the horizontal (x) axis and the dependent variable on the vertical (y) axis. Label both with the quantity and unit.
+[bio2-s4.5.1] Use even, linear scales that use more than half of the grid in each direction, so the graph is large enough to read. The scale need not start at zero if the data do not come near zero, but this must be shown clearly.
+[bio2-s4.5.2] Plot points accurately as small crosses or circled dots, and plot the means rather than every repeat.
+[bio2-s4.5.3] Draw a line or smooth curve of best fit that shows the trend, with points balanced on either side. Where no trend line can be assumed, join the points with straight ruled lines.
+[bio2-s4.5.4] Do not force the line through an anomalous point, because one unreliable reading would distort the trend.
+[bio2-s4.5.5] Give the graph a title in the form “the effect of [independent variable] on [dependent variable]”.
+[bio2-s4.5.6] Diagram: a line graph of rate of enzyme activity against temperature. Labels: axes with units, plotted points, smooth curve rising to a peak (optimum) then falling, one circled anomalous point off the curve.
+[bio2-s4.6.b] A graph is only useful once you can say what it shows. Describing a trend, naming its key features and classifying the relationship between the variables are the first steps in analysing data.
+[bio2-s4.6.0] Describe the trend in words and quote data, e.g. “the rate increased from 2 to 8 cm³ per minute as temperature rose from 10 °C to 40 °C, then fell to zero by 60 °C”. Using figures makes the description specific.
+[bio2-s4.6.1] Name key features of a graph: a peak or optimum (the value giving the highest result), a plateau (levelling off), and the point where a line crosses zero.
+[bio2-s4.6.2] A positive correlation means that as one variable increases, the other increases. A negative correlation means that as one increases, the other decreases. No correlation means there is no pattern.
+[bio2-s4.6.3] A straight line through the origin shows that the variables are directly proportional, so doubling one doubles the other.
+[bio2-s4.6.4] Diagram: three small scatter graphs side by side. Labels: positive correlation (points rise), negative correlation (points fall), no correlation (points scattered), with both axes marked.
+[bio2-s4.7.b] A graph also lets you find values that were not measured and work out how fast something is changing. Each use has its own limits.
+[bio2-s4.7.0] Interpolation is reading a value from the graph between plotted points. It is fairly reliable, because the line is supported by data on both sides.
+[bio2-s4.7.1] Extrapolation is extending the line beyond the data range to predict a value. It is less reliable, because the pattern may not continue, e.g. an enzyme’s rate does not keep rising with temperature.
+[bio2-s4.7.2] The gradient (steepness) of a line graph of amount against time is the rate. A steeper line means a faster rate.
+[bio2-s4.7.3] A line levelling off means the reaction is slowing, e.g. as substrate (the substance the enzyme acts on) is used up.
+[bio2-s4.8.b] Finding a pattern between two variables is not the same as finding out why. A correlation is a starting point, and several different explanations can lie behind it.
+[bio2-s4.8.0] A correlation shows that two variables change together. It does not show that one causes the other.
+[bio2-s4.8.1] Other explanations of a correlation are chance, especially with a small sample; a third variable (a confounding variable) that affects both; or a cause that runs the other way.
+[bio2-s4.8.2] Illustrative example: people who carry cigarette lighters are more likely to develop lung cancer, but the lighter does not cause cancer. Smoking, the third variable, causes both, because smokers carry lighters and smoking causes lung cancer.
+[bio2-s4.8.3] Evidence that one variable causes a change in another comes from a controlled experiment (a fair test with a control, where only the factor being tested changes), together with a biological mechanism that explains it.
+[bio2-s4.8.4] Surveys and secondary data alone usually show correlation, because they cannot control other variables. There is more on the strategies in Questioning and predicting.
+[bio2-s4.9.b] Real data rarely come out perfectly, and sometimes one result sits well away from the rest. You need to recognise these results and know exactly how to treat them.
+[bio2-s4.9.0] An anomalous result (outlier) does not fit the pattern of the other results. It is far from the other repeats at the same value, or off the line of best fit on a graph.
+[bio2-s4.9.1] Possible causes are a mistake in measuring or recording, an uncontrolled variable, faulty equipment, or an unusual biological sample.
+[bio2-s4.9.2] Check the reading and the calculation, and repeat that measurement if possible. This shows whether it was a simple mistake.
+[bio2-s4.9.3] Leave the anomalous result out of the mean and the line of best fit, but keep it in the results table and report it with a possible reason. Hiding it would be dishonest. There is more on this integrity in Designing and conducting investigations.
+[bio2-s4.9.4] A result is not anomalous just because it disagrees with the hypothesis. If repeats confirm it, it may show the hypothesis is wrong or reveal something new.
+[bio2-s4.10.b] The conclusion is where the data answer the question the investigation set out to test. A good conclusion states the finding, backs it with evidence, explains it and admits its limits.
+[bio2-s4.10.0] A conclusion states the relationship found between the independent and dependent variables, e.g. “As sucrose concentration increased, the percentage change in mass of the potato cylinders decreased.”
+[bio2-s4.10.1] A conclusion is justified with evidence: quote values or describe the trend in the graph, and say whether the data support or do not support the hypothesis. Never say that the data prove it.
+[bio2-s4.10.2] A conclusion explains the result using biological knowledge, e.g. water left the cells by osmosis (the movement of water across a membrane) into the more concentrated solutions.
+[bio2-s4.10.3] A conclusion is limited to what was tested: the range of the independent variable, the organism or tissue used, and the conditions. It does not claim more than the data show.
+[bio2-s4.10.4] Confidence in a conclusion depends on whether the test was fair and valid, the sample size, the number of repeats, the spread of the data, the number of anomalies, and whether the results are repeatable and reproducible. There is more on this in Objectivity and data quality.
+[bio2-s4.10.5] A conclusion is valid when it is supported by valid, reliable data.

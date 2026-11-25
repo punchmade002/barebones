@@ -1,0 +1,891 @@
+{
+"hist-ire1-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.0.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire1-s7.0.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire1-s7.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.0.b",
+"strength": "helpful",
+"why": "uses Larkin and devotional revolution",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s4.7.1",
+"strength": "helpful",
+"why": "Famine hit poor cottiers hardest",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.0.0",
+"strength": "helpful",
+"why": "church building programme",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s7.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.1.0",
+"strength": "essential",
+"why": "uses evangelical revival",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.1.1",
+"strength": "essential",
+"why": "examples of Second Reformation",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s4.3.3",
+"strength": "essential",
+"why": "souperism and Famine soup kitchens",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s2.0.5",
+"strength": "essential",
+"why": "Orange Order dissolved 1836",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s7.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.1.0",
+"strength": "essential",
+"why": "Ulster evangelical",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.1.0",
+"strength": "essential",
+"why": "evangelical revival",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.1.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s2.5.b",
+"strength": "essential",
+"why": "Young Ireland idea of nation",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s2.5.0",
+"strength": "essential",
+"why": "founding of The Nation",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s4.8.4",
+"strength": "essential",
+"why": "Famine hit Irish-speaking west",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.2.0",
+"strength": "essential",
+"why": "cultural nationalism of Young Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.6.1",
+"strength": "essential",
+"why": "Romanisation of the Church",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.5.b",
+"strength": "essential",
+"why": "Synod of Thurles",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.6.0",
+"strength": "essential",
+"why": "ultramontanism",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.5.2",
+"strength": "essential",
+"why": "Catholic University founding",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s2.5.b",
+"strength": "essential",
+"why": "Young Ireland",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s2.6.8",
+"strength": "essential",
+"why": "Fenian movement origins",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s2.6.7",
+"strength": "essential",
+"why": "MacManus transported after 1848",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s7.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.1.7",
+"strength": "essential",
+"why": "disestablishment of Church of Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.4.3",
+"strength": "essential",
+"why": "MacHale opposed colleges",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.3.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.0.b",
+"strength": "helpful",
+"why": "devotional revolution",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s2.4.4",
+"strength": "essential",
+"why": "Queen's Colleges founded 1845",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.4.2",
+"strength": "helpful",
+"why": "uses Queen's Colleges dispute",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.4.2",
+"strength": "essential",
+"why": "Queen's Colleges condemned",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.3.b",
+"strength": "essential",
+"why": "Paul Cullen introduced",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.3.b",
+"strength": "essential",
+"why": "Cullen as presiding delegate",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.4.2",
+"strength": "helpful",
+"why": "uses Queen's Colleges",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.4.3",
+"strength": "essential",
+"why": "MacHale and Queen's Colleges",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.5.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.5.2",
+"strength": "helpful",
+"why": "uses the Catholic University",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.6.2",
+"strength": "essential",
+"why": "Catholic University weakness",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.3.b",
+"strength": "essential",
+"why": "Cullen as leading figure",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.6.1",
+"strength": "essential",
+"why": "Romanisation criticised or praised",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.0.b",
+"strength": "helpful",
+"why": "devotional revolution and Larkin",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.4.3",
+"strength": "essential",
+"why": "Daniel Murray of Dublin",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s7.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.7.1",
+"strength": "helpful",
+"why": "uses the Sisters of Charity",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.7.1",
+"strength": "essential",
+"why": "Sisters of Charity founded",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.7.1",
+"strength": "essential",
+"why": "order she founded",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.7.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.7.3",
+"strength": "essential",
+"why": "running hospital as invalid",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s7.7.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.0.2",
+"strength": "essential",
+"why": "growth of religious orders",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.1.0",
+"strength": "essential",
+"why": "evangelical Protestant outlook",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s7.8.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire1-s7.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.8.1",
+"strength": "helpful",
+"why": "uses his anti-Catholic early writing",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.8.2",
+"strength": "essential",
+"why": "his pre-Famine rural writing",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s2.5.0",
+"strength": "essential",
+"why": "founding of The Nation",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s2.5.2",
+"strength": "essential",
+"why": "non-sectarian nationality idea",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.9.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.2.0",
+"strength": "essential",
+"why": "cultural nationalism idea",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.2.1",
+"strength": "essential",
+"why": "The Nation",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.10.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.10.3",
+"strength": "essential",
+"why": "O'Donovan in Ordnance Survey",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s7.5.2",
+"strength": "essential",
+"why": "Catholic University",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.10.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.11.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.11.1",
+"strength": "helpful",
+"why": "the Leviathan telescope",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.4.2",
+"strength": "essential",
+"why": "Queen's Colleges",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s7.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.4.2",
+"strength": "essential",
+"why": "Queen's Colleges",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s7.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s7.4.2",
+"strength": "essential",
+"why": "Queen's Colleges",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s7.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.0.b",
+"strength": "helpful",
+"why": "devotional revolution",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.6.2",
+"strength": "essential",
+"why": "weak Catholic University",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s7.6.5",
+"strength": "essential",
+"why": "Protestant and liberal alienation",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.6.5",
+"strength": "essential",
+"why": "Protestant and Catholic views of Cullen",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.12.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.0.6",
+"strength": "essential",
+"why": "Catholic identity tied to nationality",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.12.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s7.10.0",
+"strength": "essential",
+"why": "Moore",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s7.8.2",
+"strength": "essential",
+"why": "Carleton",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s7.10.2",
+"strength": "essential",
+"why": "Petrie",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s7.10.4",
+"strength": "essential",
+"why": "O'Donovan",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s7.11.0",
+"strength": "essential",
+"why": "Hamilton",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s7.11.1",
+"strength": "essential",
+"why": "Rosse",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s7.11.4",
+"strength": "essential",
+"why": "Boole",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s7.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s4.8.4",
+"strength": "essential",
+"why": "language declined after Famine",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s7.2.4",
+"strength": "essential",
+"why": "Irish language decline",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,383 @@
+{
+ "hist-eur1-s1": [],
+ "hist-eur1-s2": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "essential",
+   "why": "uses Metternich's system and German Confederation",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s7",
+   "strength": "helpful",
+   "why": "economic and social causes of 1848 unrest",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur1-s3": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "essential",
+   "why": "uses German Confederation and the Zollverein",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s2",
+   "strength": "helpful",
+   "why": "uses failure of 1848 and Frankfurt Assembly",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s4",
+   "strength": "helpful",
+   "why": "Germany and Italy compared; Cavour and 1859 war",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur1-s4": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "essential",
+   "why": "uses Vienna settlement's division of Italy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s6",
+   "strength": "helpful",
+   "why": "uses Napoleon III's role in the 1859 war",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur1-s5": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "helpful",
+   "why": "uses Concert of Europe and Great Power settlement",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur1-s6": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "helpful",
+   "why": "uses Bourbon restoration under the Vienna settlement",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur1-s7": [],
+ "hist-eur1-s8": [
+  {
+   "needs": "hist-eur1-s7",
+   "strength": "essential",
+   "why": "uses factory system, urban growth and working conditions",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur1-s9": [
+  {
+   "needs": "hist-eur1-s7",
+   "strength": "essential",
+   "why": "uses factory system and child labour conditions",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s8",
+   "strength": "helpful",
+   "why": "uses Owen as socialist reformer and factory legislation",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur1-s10": [
+  {
+   "needs": "hist-eur1-s6",
+   "strength": "essential",
+   "why": "uses Napoleon III and the Second Empire",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur1-s7",
+   "strength": "essential",
+   "why": "uses urban growth and public health problems",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur1-s11": [
+  {
+   "needs": "hist-eur1-s1",
+   "strength": "helpful",
+   "why": "uses nationalism under the Vienna settlement",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s1": [],
+ "hist-eur2-s2": [
+  {
+   "needs": "hist-eur2-s1",
+   "strength": "essential",
+   "why": "uses Bismarck's alliance system that ended in 1890",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur2-s3": [
+  {
+   "needs": "hist-eur2-s2",
+   "strength": "essential",
+   "why": "uses colonial rivalry and the two blocs",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s1",
+   "strength": "helpful",
+   "why": "uses the new Reich and Bismarck's naval caution",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s4": [
+  {
+   "needs": "hist-eur2-s2",
+   "strength": "essential",
+   "why": "uses the two alliance blocs and Moroccan crises",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s1",
+   "strength": "helpful",
+   "why": "uses the Eastern Question and Three Emperors' League",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur2-s5": [
+  {
+   "needs": "hist-eur2-s4",
+   "strength": "essential",
+   "why": "uses the outbreak of war and July crisis",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s2",
+   "strength": "helpful",
+   "why": "uses alliance blocs shaping fronts",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s6": [
+  {
+   "needs": "hist-eur2-s5",
+   "strength": "essential",
+   "why": "uses the course and end of the war",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s8",
+   "strength": "helpful",
+   "why": "uses Russian revolution and Brest-Litovsk",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur2-s7": [
+  {
+   "needs": "hist-eur2-s1",
+   "strength": "essential",
+   "why": "uses the new Reich, its constitution and Bismarck's policies",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur2-s8": [
+  {
+   "needs": "hist-eur2-s5",
+   "strength": "helpful",
+   "why": "uses war's impact leading to revolution",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s2",
+   "strength": "helpful",
+   "why": "uses Russo-Japanese rivalry in Asia",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s9": [
+  {
+   "needs": "hist-eur2-s5",
+   "strength": "essential",
+   "why": "uses total war and the mobilisation of manpower",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur2-s10": [
+  {
+   "needs": "hist-eur2-s1",
+   "strength": "essential",
+   "why": "uses Bismarck and the Kulturkampf",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s5",
+   "strength": "helpful",
+   "why": "uses the war that produced its literature",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur2-s8",
+   "strength": "helpful",
+   "why": "uses Tsarist Russia and the pogroms",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur2-s11": [
+  {
+   "needs": "hist-eur2-s7",
+   "strength": "helpful",
+   "why": "uses the second industrial revolution",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur2-s5",
+   "strength": "helpful",
+   "why": "uses wartime medical and technological demands",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur3-s1": [],
+ "hist-eur3-s2": [],
+ "hist-eur3-s3": [
+  {
+   "needs": "hist-eur3-s2",
+   "strength": "essential",
+   "why": "uses Hitler's rise and Weimar's collapse",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s1",
+   "strength": "helpful",
+   "why": "uses Mussolini as ally and fascist model",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur3-s4": [],
+ "hist-eur3-s5": [
+  {
+   "needs": "hist-eur3-s4",
+   "strength": "essential",
+   "why": "uses Stalin, the party struggle and the Five-Year Plans",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur3-s6": [
+  {
+   "needs": "hist-eur3-s9",
+   "strength": "helpful",
+   "why": "uses blitzkrieg and the fall of France",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "helpful",
+   "why": "uses Hitler's foreign policy and German expansion",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur3-s7": [],
+ "hist-eur3-s8": [
+  {
+   "needs": "hist-eur3-s7",
+   "strength": "essential",
+   "why": "uses unemployment, depressed regions and the means test",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur3-s9": [
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "essential",
+   "why": "uses Hitler's expansion and the road to war",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s4",
+   "strength": "helpful",
+   "why": "uses Stalin, the Nazi-Soviet Pact and Barbarossa",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s1",
+   "strength": "helpful",
+   "why": "uses Mussolini's Axis alliance and foreign policy",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur3-s10": [
+  {
+   "needs": "hist-eur3-s9",
+   "strength": "essential",
+   "why": "uses the course of the war and the Blitz",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "helpful",
+   "why": "uses Nazi Germany's economy and foreign labour",
+   "confidence": "low"
+  },
+  {
+   "needs": "hist-eur3-s6",
+   "strength": "helpful",
+   "why": "uses occupied France and Vichy collaboration",
+   "confidence": "high"
+  }
+ ],
+ "hist-eur3-s11": [
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "essential",
+   "why": "uses Nazi ideology and the police state",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s9",
+   "strength": "helpful",
+   "why": "uses the war that enabled ghettos and camps",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s2",
+   "strength": "helpful",
+   "why": "uses Hitler's early antisemitism and Nazi rise",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur3-s12": [
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "essential",
+   "why": "uses Nazi state control, ideology and the F\u00fchrer cult",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s2",
+   "strength": "helpful",
+   "why": "uses Nazi party's rise and early rallies",
+   "confidence": "low"
+  }
+ ],
+ "hist-eur3-s13": [
+  {
+   "needs": "hist-eur3-s1",
+   "strength": "essential",
+   "why": "uses Mussolini's regime and fascist state",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s3",
+   "strength": "essential",
+   "why": "uses the Nazi state and Hitler's consolidation",
+   "confidence": "high"
+  },
+  {
+   "needs": "hist-eur3-s9",
+   "strength": "helpful",
+   "why": "uses wartime context for radio and cinema",
+   "confidence": "low"
+  }
+ ]
+}

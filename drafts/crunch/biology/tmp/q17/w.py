@@ -1,0 +1,32 @@
+import json
+def o(*ids,k=1): return {"k":k,"of":list(ids)}
+d={
+"(a)(i)1":[o("bio29-s2.1.1"),o("bio29-s2.1.1")],
+"(a)(i)2":[o("bio29-s2.1.1","bio29-s2.3.b")],
+"(a)(i)3":[o("bio29-s2.5.1","bio29-s2.2.3")],
+"(a)(i)4":[o("bio29-s2.5.5","bio29-s2.6.1","bio27-s4.3.0")],
+"(a)(ii)1":[o("bio29-s3.0.3"),o("bio29-s3.0.4")],
+"(a)(ii)2":[o("bio29-s1.0.5")],
+"(a)(iii)":[],
+"(a)(iv)":[o("bio29-s5.5.2","bio29-s5.1.1","bio29-s5.2.1"),o("bio29-s5.5.4","bio29-s5.1.4","bio29-s5.2.3")],
+"(b)(i)":[o("bio18-s4.0.1"),o("bio18-s4.0.2"),o("bio18-s4.1.0","bio18-s4.0.3")],
+"(b)(ii)":[o("bio18-s4.6.1","bio18-s4.7.0"),o("bio18-s4.7.2"),o("bio18-s4.7.3")],
+"(b)(iii)":[o("bio18-s3.1.6","bio18-s3.1.0"),o("bio18-s3.1.1","bio18-s3.1.2","bio18-s3.1.3","bio18-s3.1.4",k=3)],
+"(c)(i)":[o("bio21-s2.0.b")],
+"(c)(ii)":[o("bio26-s3.1.0","bio20-s1.2.3","bio20-s1.9.4")],
+"(c)(iii)":[o("bio26-s3.1.1","bio26-s2.4.4","bio26-s2.6.4")],
+"(c)(iv)":[o("bio26-s3.1.4","bio20-s1.2.3")],
+"(c)(v)1":[],
+"(c)(v)2":[o("bio26-s3.2.7")],
+"(c)(v)3":[o("bio26-s3.2.6")],
+"(c)(vi)":[o("bio21-s2.4.2"),o("bio21-s2.4.3")],
+"(d)(i)":[o("bio23-s1.6.0"),o("bio23-s1.6.0")],
+"(d)(i)1":[o("bio23-s1.2.0")],
+"(d)(i)2":[o("bio23-s1.3.0")],
+"(d)(i)3":[o("bio23-s1.4.0","bio23-s1.4.3")],
+"(d)(ii)":[o("bio23-s3.4.1"),o("bio23-s3.4.3")],
+"(d)(iii)":[],
+"(d)(iv)":[o("bio23-s3.8.1")],
+"(d)(v)":[o("bio23-s8.20.1","bio23-s8.14.4","bio23-s8.14.3"),o("bio23-s8.24.0","bio23-s8.24.3","bio23-s8.24.5")],
+}
+json.dump(d,open("/Users/gabrielwhelan/barebones/drafts/crunch/biology/exam-tags/out/biology-pp-2025-higher-q17.json","w"),indent=1)

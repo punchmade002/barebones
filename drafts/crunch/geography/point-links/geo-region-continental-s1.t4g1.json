@@ -1,0 +1,1075 @@
+{
+ "geo-region-continental-s1.87.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.87.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.87.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.88.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.88.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.88.b",
+    "strength": "helpful",
+    "why": "density definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.88.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.88.b",
+    "strength": "helpful",
+    "why": "density definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.88.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.88.b",
+    "strength": "helpful",
+    "why": "density definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.88.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.89.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.89.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.89.b",
+    "strength": "essential",
+    "why": "definition of migration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.89.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.89.b",
+    "strength": "helpful",
+    "why": "migration meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.89.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.89.b",
+    "strength": "helpful",
+    "why": "migration meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.89.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.89.2",
+    "strength": "helpful",
+    "why": "emigration to the Gulf",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.90.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.90.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.90.b",
+    "strength": "helpful",
+    "why": "language as human process",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.90.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.90.b",
+    "strength": "helpful",
+    "why": "language as human process",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.91.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.91.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.91.b",
+    "strength": "essential",
+    "why": "language family",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.91.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.91.b",
+    "strength": "essential",
+    "why": "language family",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.92.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.92.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.92.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.92.0",
+    "strength": "helpful",
+    "why": "Hindi as main language",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.92.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.92.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.92.2",
+    "strength": "helpful",
+    "why": "official language of the Union",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.93.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.93.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.0.4",
+    "strength": "helpful",
+    "why": "states of India",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.93.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.93.0",
+    "strength": "helpful",
+    "why": "states formed on language",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.94.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.94.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.92.2",
+    "strength": "helpful",
+    "why": "Hindi as official language",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.94.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.94.0",
+    "strength": "helpful",
+    "why": "Hindi conflict compromise",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.95.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.95.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.90.b",
+    "strength": "helpful",
+    "why": "many Indian languages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.95.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.68.0",
+    "strength": "helpful",
+    "why": "English-speaking IT workforce",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.95.0",
+    "strength": "helpful",
+    "why": "English as link language",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.96.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.96.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.96.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.96.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.97.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.97.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.97.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.97.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.97.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.98.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.98.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.98.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.98.0",
+    "strength": "helpful",
+    "why": "holy places of Indian religions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.98.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.98.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.99.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.99.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.99.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.99.0",
+    "strength": "essential",
+    "why": "1947 partition of British India",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.99.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.0.3",
+    "strength": "helpful",
+    "why": "neighbours incl. Bangladesh",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.100.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.100.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.100.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.100.0",
+    "strength": "helpful",
+    "why": "secular state and tension",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.100.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.97.2",
+    "strength": "helpful",
+    "why": "Muslim-majority Kashmir",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.101.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.101.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.101.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.101.0",
+    "strength": "essential",
+    "why": "caste system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.101.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.101.1",
+    "strength": "helpful",
+    "why": "untouchability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.101.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.101.0",
+    "strength": "helpful",
+    "why": "caste groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.101.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.101.0",
+    "strength": "essential",
+    "why": "caste system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.102.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.102.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.43.3",
+    "strength": "helpful",
+    "why": "cow sacred to Hindus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.102.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.102.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.98.1",
+    "strength": "helpful",
+    "why": "Varanasi holy city",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.102.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.103.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.103.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.103.b",
+    "strength": "helpful",
+    "why": "urbanisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.103.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.103.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.103.b",
+    "strength": "helpful",
+    "why": "urbanisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.104.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.103.1",
+    "strength": "helpful",
+    "why": "urban agglomerations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.104.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.104.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.104.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.105.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.105.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.1.3",
+    "strength": "helpful",
+    "why": "Mumbai on west coast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.105.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.105.0",
+    "strength": "helpful",
+    "why": "sheltered harbour site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.105.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.58.1",
+    "strength": "helpful",
+    "why": "cotton mills near raw material",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.105.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.105.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.105.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.105.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.105.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.0.4",
+    "strength": "helpful",
+    "why": "capital is New Delhi",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.106.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.106.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.111.0",
+    "strength": "helpful",
+    "why": "meaning of slum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.106.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.106.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.8.1",
+    "strength": "helpful",
+    "why": "heavy monsoon causes floods",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.106.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.106.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.106.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.106.0",
+    "strength": "helpful",
+    "why": "slum redevelopment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.107.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.107.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.105.1",
+    "strength": "helpful",
+    "why": "British East India Company",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.107.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.107.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.7",
+    "strength": "helpful",
+    "why": "Hooghly flows through Kolkata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.107.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.99.0",
+    "strength": "essential",
+    "why": "1947 Partition",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.107.2",
+    "strength": "helpful",
+    "why": "jute industry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.107.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.107.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.108.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.108.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.67.b",
+    "strength": "helpful",
+    "why": "IT outsourcing centre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.108.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.108.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.7.2",
+    "strength": "helpful",
+    "why": "altitude lowers temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.108.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.109.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.109.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.107.1",
+    "strength": "helpful",
+    "why": "British India capital",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.109.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.109.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.109.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.46.1",
+    "strength": "essential",
+    "why": "stubble burning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.110.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.110.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.110.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.110.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.111.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.111.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.111.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.111.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.111.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.112.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.112.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.112.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.113.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.113.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.44.0",
+    "strength": "helpful",
+    "why": "small holdings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.113.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.8.0",
+    "strength": "helpful",
+    "why": "late or weak monsoon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.113.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.113.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.113.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.101.4",
+    "strength": "helpful",
+    "why": "caste in rural life",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.113.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.89.0",
+    "strength": "helpful",
+    "why": "rural-to-urban migration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.114.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.114.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.114.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.113.1",
+    "strength": "helpful",
+    "why": "under-employment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.114.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.114.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.113.2",
+    "strength": "helpful",
+    "why": "poor sanitation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.114.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.114.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.114.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.115.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.115.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.89.3",
+    "strength": "helpful",
+    "why": "remittances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.115.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.115.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.115.0",
+    "strength": "essential",
+    "why": "Kerala case",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.115.1",
+    "strength": "essential",
+    "why": "Bihar case",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.116.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.116.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.116.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.116.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.116.1",
+    "strength": "helpful",
+    "why": "poorer states named",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.116.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.116.0",
+    "strength": "essential",
+    "why": "wealthy core",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.116.1",
+    "strength": "essential",
+    "why": "poorer periphery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.117.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.117.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.9.0",
+    "strength": "essential",
+    "why": "monsoon and farming calendar",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.89.0",
+    "strength": "helpful",
+    "why": "rural-to-urban migration",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.111.0",
+    "strength": "helpful",
+    "why": "urban slums",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.117.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.50.1",
+    "strength": "essential",
+    "why": "Chota Nagpur coal and iron",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.54.3",
+    "strength": "helpful",
+    "why": "Jamshedpur steel works",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.117.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.95.1",
+    "strength": "essential",
+    "why": "English and IT growth",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.108.0",
+    "strength": "helpful",
+    "why": "Bengaluru IT growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.117.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.102.0",
+    "strength": "essential",
+    "why": "sacred cattle dairying",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.102.2",
+    "strength": "essential",
+    "why": "pilgrimage tourism",
+    "confidence": "high"
+   }
+  ]
+ }
+}

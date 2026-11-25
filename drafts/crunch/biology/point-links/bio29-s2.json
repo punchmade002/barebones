@@ -1,0 +1,552 @@
+{
+ "bio29-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s5.0.1",
+    "strength": "helpful",
+    "why": "artery, vein, capillary roles",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s5.0.1",
+    "strength": "helpful",
+    "why": "capillaries as exchange vessels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.0.2",
+    "strength": "essential",
+    "why": "diffusion too slow over distance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.0.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio29-s2.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.6",
+    "strength": "helpful",
+    "why": "one heart, two pumps",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.1.0",
+    "strength": "helpful",
+    "why": "double circulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.1.1",
+    "strength": "essential",
+    "why": "pulmonary and systemic circuits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.2.0",
+    "strength": "helpful",
+    "why": "AV valve names",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s2.1.1",
+    "strength": "helpful",
+    "why": "circuit order",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s2.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s2.1.1",
+    "strength": "essential",
+    "why": "pulmonary and systemic circuits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s2.1.4",
+    "strength": "essential",
+    "why": "diagram being labelled",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.1.2",
+    "strength": "helpful",
+    "why": "right side pumps pulmonary circuit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.2.0",
+    "strength": "essential",
+    "why": "pulmonary artery from right ventricle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.2.1",
+    "strength": "helpful",
+    "why": "blood reaching lung capillaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.2.2",
+    "strength": "helpful",
+    "why": "blood oxygenated in lungs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.2.3",
+    "strength": "helpful",
+    "why": "blood arrives at left atrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.3.0",
+    "strength": "essential",
+    "why": "blood in left ventricle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.3.1",
+    "strength": "helpful",
+    "why": "aorta branching to arteries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.3.2",
+    "strength": "helpful",
+    "why": "blood leaving organ capillaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.3.3",
+    "strength": "essential",
+    "why": "blood entering right atrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s2.1.0",
+    "strength": "essential",
+    "why": "double circulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s2.1.1",
+    "strength": "essential",
+    "why": "two circuits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.4.1",
+    "strength": "essential",
+    "why": "lower pulmonary pressure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.5",
+    "strength": "helpful",
+    "why": "septum separates blood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.4.0",
+    "strength": "helpful",
+    "why": "fast oxygen delivery",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s5.0.1",
+    "strength": "helpful",
+    "why": "arteries and veins",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.2.0",
+    "strength": "helpful",
+    "why": "pulmonary artery route",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s2.5.0",
+    "strength": "helpful",
+    "why": "organ pathway naming",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.5.0",
+    "strength": "helpful",
+    "why": "organ artery and vein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.1.5",
+    "strength": "helpful",
+    "why": "coronary arteries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s2.5.0",
+    "strength": "helpful",
+    "why": "organ artery and vein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s2.5.0",
+    "strength": "helpful",
+    "why": "organ pathways",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s5.3.0",
+    "strength": "helpful",
+    "why": "capillary networks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.6.0",
+    "strength": "essential",
+    "why": "portal vein definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.6.1",
+    "strength": "essential",
+    "why": "hepatic portal vein route",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.6.2",
+    "strength": "helpful",
+    "why": "nutrient-rich blood reaching liver",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.5.5",
+    "strength": "helpful",
+    "why": "hepatic artery supplies liver",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.2.2",
+    "strength": "helpful",
+    "why": "lung gas exchange",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.6.1",
+    "strength": "helpful",
+    "why": "hepatic portal vein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.5.3",
+    "strength": "helpful",
+    "why": "renal arteries and urea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s5.1.6",
+    "strength": "essential",
+    "why": "arteriole diameter control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s5.1.7",
+    "strength": "helpful",
+    "why": "arterioles control flow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s2.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s2.7.0",
+    "strength": "helpful",
+    "why": "interactions being modelled",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.8.0",
+    "strength": "essential",
+    "why": "the model diagram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s2.7.0",
+    "strength": "helpful",
+    "why": "CO2 carried to lungs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s5.1.7",
+    "strength": "helpful",
+    "why": "arterioles widen or narrow",
+    "confidence": "high"
+   }
+  ]
+ }
+}

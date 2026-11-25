@@ -1,0 +1,847 @@
+{
+"bio27-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.0.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s1.0.2",
+"strength": "helpful",
+"why": "digestion as breakdown",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.2.2",
+"strength": "helpful",
+"why": "hydrolysis splits bonds with water",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s1.0.3",
+"strength": "helpful",
+"why": "small soluble products absorbed",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s2.1.0",
+"strength": "essential",
+"why": "enzyme specificity",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.0.2",
+"strength": "essential",
+"why": "optimum pH of enzymes",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.0.4": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s1.4.0",
+"strength": "helpful",
+"why": "salivary glands",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.0.2",
+"strength": "essential",
+"why": "optimum pH",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.3.1",
+"strength": "helpful",
+"why": "starch",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio13-s2.2.2",
+"strength": "essential",
+"why": "denaturing changes enzyme shape",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.1.4": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.1.5": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s1.2.4",
+"strength": "helpful",
+"why": "gastric juice and chyme",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.0.2",
+"strength": "essential",
+"why": "optimum pH",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.2.1",
+"strength": "helpful",
+"why": "acid pH for pepsin",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.2.0",
+"strength": "essential",
+"why": "pepsinogen and pepsin",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.1.3",
+"strength": "helpful",
+"why": "amylase destroyed by acid",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.7.4",
+"strength": "essential",
+"why": "peptide bonds",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.0.0",
+"strength": "helpful",
+"why": "hydrolysis",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.2.4",
+"strength": "essential",
+"why": "protease and polypeptides",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.2.0",
+"strength": "essential",
+"why": "inactive pepsinogen",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s1.1.2",
+"strength": "helpful",
+"why": "mucus protects gut lining",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s1.4.3",
+"strength": "helpful",
+"why": "gallbladder stores bile",
+"confidence": "high"
+},
+{
+"id": "bio27-s1.3.0",
+"strength": "helpful",
+"why": "duodenum",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s2.6.4",
+"strength": "helpful",
+"why": "emulsification increases surface area",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.0.3",
+"strength": "helpful",
+"why": "pH along gut",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.2.4",
+"strength": "helpful",
+"why": "pepsin",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.3.4": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s1.4.4",
+"strength": "helpful",
+"why": "pancreas and pancreatic duct",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.1.2",
+"strength": "helpful",
+"why": "amylase digests starch to maltose",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.2.4",
+"strength": "essential",
+"why": "protease digests protein",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.2",
+"strength": "essential",
+"why": "triglyceride structure",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.3.2",
+"strength": "essential",
+"why": "emulsification makes droplets",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.3.3",
+"strength": "essential",
+"why": "bicarbonate raises pH",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s1.3.1",
+"strength": "helpful",
+"why": "villi",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.5.0",
+"strength": "helpful",
+"why": "lining cells of villi",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.2.3",
+"strength": "helpful",
+"why": "maltose",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.2.4",
+"strength": "helpful",
+"why": "sucrose",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.2.5",
+"strength": "helpful",
+"why": "lactose",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.4.2",
+"strength": "helpful",
+"why": "peptides from trypsin",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.4.5",
+"strength": "helpful",
+"why": "duodenal pH",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.5.2",
+"strength": "essential",
+"why": "lactase digests lactose",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.1.2",
+"strength": "essential",
+"why": "salivary amylase action",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.2.4",
+"strength": "essential",
+"why": "pepsin action",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.4.1",
+"strength": "essential",
+"why": "pancreatic amylase action",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.4.2",
+"strength": "essential",
+"why": "trypsin action",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.4.3",
+"strength": "essential",
+"why": "lipase action",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.5.2",
+"strength": "essential",
+"why": "maltase action",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.5.3",
+"strength": "essential",
+"why": "peptidase action",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.3.2",
+"strength": "essential",
+"why": "bile salts emulsify",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.6.0",
+"strength": "helpful",
+"why": "salivary amylase row",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.6.2",
+"strength": "helpful",
+"why": "pancreatic amylase row",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.6.5",
+"strength": "helpful",
+"why": "maltase row",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.5.2",
+"strength": "helpful",
+"why": "sucrase and lactase",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.3.5",
+"strength": "helpful",
+"why": "cellulose not digested",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.6.1",
+"strength": "helpful",
+"why": "pepsin row",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.6.3",
+"strength": "helpful",
+"why": "trypsin row",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.6.6",
+"strength": "helpful",
+"why": "peptidase row",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.3.2",
+"strength": "helpful",
+"why": "bile salts emulsify",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.6.4",
+"strength": "helpful",
+"why": "lipase row",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.7.3",
+"strength": "helpful",
+"why": "fat model",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.7.3",
+"strength": "essential",
+"why": "fat model",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.4.0",
+"strength": "essential",
+"why": "pancreatic juice enzymes",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.7.7": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.7.0",
+"strength": "helpful",
+"why": "carbohydrate model",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.7.2",
+"strength": "helpful",
+"why": "protein model",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.7.3",
+"strength": "helpful",
+"why": "fat model",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio25-s1.0.4",
+"strength": "helpful",
+"why": "semi-permeable Visking tubing",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio25-s1.0.4",
+"strength": "essential",
+"why": "semi-permeable membrane",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.8.0",
+"strength": "helpful",
+"why": "Visking tubing",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.1.2",
+"strength": "helpful",
+"why": "amylase digests starch",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.8.2",
+"strength": "helpful",
+"why": "tubes set up",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.8.3",
+"strength": "helpful",
+"why": "samples from water outside",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.8.4",
+"strength": "essential",
+"why": "iodine test for starch",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.8.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.8.4",
+"strength": "essential",
+"why": "Benedict test for sugar",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.8.7": {
+"cost": 2,
+"needs": [
+{
+"id": "bio27-s3.8.6",
+"strength": "essential",
+"why": "results show sugar passes",
+"confidence": "high"
+},
+{
+"id": "bio27-s3.8.0",
+"strength": "helpful",
+"why": "membrane passes small molecules",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.8.8": {
+"cost": 1,
+"needs": []
+},
+"bio27-s3.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.8.0",
+"strength": "helpful",
+"why": "tubing as model gut",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s1.3.1",
+"strength": "helpful",
+"why": "villi surface area",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio25-s1.1.0",
+"strength": "essential",
+"why": "concentration gradient",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio25-s1.4.0",
+"strength": "essential",
+"why": "active transport",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.7.0",
+"strength": "helpful",
+"why": "gut enzyme sequence",
+"confidence": "low"
+}
+]
+},
+"bio27-s3.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s2.4.0",
+"strength": "helpful",
+"why": "peristalsis",
+"confidence": "high"
+}
+]
+},
+"bio27-s3.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio27-s3.8.2",
+"strength": "essential",
+"why": "method setup",
+"confidence": "high"
+}
+]
+}
+}

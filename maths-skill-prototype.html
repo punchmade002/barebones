@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Skill: Turning points</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsxgraph@1.8.0/distrib/jsxgraph.css" />
+<!-- Prototype of the maths skill lesson (skills DB: pipeline/requirements/maths). Self-contained on purpose.
+     The page is a copybook: printed exam part on top, working revealed one step at a time, graph drawn in pencil. -->
+<style>
+:root {
+  --ink: #1A1916; --muted: #7A7870; --accent: #fa4c06; --accent-strong: #c23504;
+  --paper: #fffdf8; --grid: rgba(70, 110, 160, 0.13); --margin: #e58f8f; --pencil: #3d3a36;
+  /* highlighter slots: a term keeps its slot from line to line and on the graph */
+  --hl1: #d9480f; --hl1-bg: #ffe3d3;
+  --hl2: #1c5fd1; --hl2-bg: #dce8ff;
+  --hl3: #0f7a4a; --hl3-bg: #d5f2e3;
+  --hl4: #7c3aed; --hl4-bg: #ece3ff;
+  --font: 'Outfit', system-ui, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --margin-x: 64px;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+/* the whole screen is the copy page: squares + the red margin line */
+body { margin: 0; min-height: 100vh; color: var(--ink); font-family: var(--font); line-height: 1.5;
+  background-color: var(--paper);
+  background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 24px 24px; background-attachment: local; }
+body::before { content: ""; position: fixed; top: 0; bottom: 0; left: var(--margin-x); width: 2px; background: var(--margin); z-index: 0; pointer-events: none; }
+button { font: inherit; cursor: pointer; }
+.page { position: relative; z-index: 1; padding: 28px 20px 96px calc(var(--margin-x) + 28px); max-width: 1240px; }
+@media (max-width: 640px) { :root { --margin-x: 18px; } .page { padding: 18px 14px 80px calc(var(--margin-x) + 14px); } }
+
+/* header: small, like the top line of a page */
+.top { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; margin-bottom: 18px; }
+.top h1 { margin: 0; font-size: clamp(1.4rem, 3vw, 1.9rem); letter-spacing: -0.02em; font-weight: 800; }
+.top .where { font-size: 0.8rem; font-weight: 700; color: var(--muted); }
+.linkish { border: 0; background: none; padding: 0; color: var(--ink); font-weight: 600; font-size: 0.85rem; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 4px; text-decoration-thickness: 2px; }
+.nec { margin: -6px 0 20px; max-width: 760px; animation: rise .3s var(--ease); }
+.nec p { margin: 0 0 6px; font-size: 0.88rem; color: #4a4540; }
+.nec ul { margin: 0; padding-left: 20px; columns: 2 220px; font-size: 0.9rem; }
+.nec li { break-inside: avoid; }
+.nec .lvl { font-family: var(--mono); font-size: 0.62rem; color: var(--muted); }
+.nec .deep { color: var(--muted); }
+
+.layout { display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+@media (min-width: 1060px) { .layout.with-sketch { grid-template-columns: minmax(0, 760px) minmax(320px, 1fr); } .sketch { position: sticky; top: 20px; } }
+.main { max-width: 760px; min-width: 0; }
+
+/* what's different: one clean callout */
+.note { margin: 0 0 22px; max-width: 760px; padding: 12px 16px; background: #fff; border: 1px solid #e6e0d6; border-left: 4px solid var(--accent); border-radius: 10px; font-size: 0.98rem; animation: rise .4s var(--ease); }
+.note .lbl { display: block; font-size: 0.66rem; font-weight: 800; letter-spacing: 0.11em; text-transform: uppercase; color: var(--accent-strong); margin-bottom: 2px; }
+
+/* the exam question: the printed part, on a clean white sheet */
+.pasted { background: #fff; padding: 14px 12px 0; border: 1px solid #e6e0d6; border-radius: 14px; box-shadow: 0 6px 24px rgba(60, 40, 20, .07); overflow: hidden; }
+.pasted img { display: block; width: 100%; height: auto; }
+.pasted a { display: block; cursor: zoom-in; }
+/* phones: the printed line is A4-wide, so the sheet bleeds edge to edge and a tap opens it full size to pinch-zoom */
+@media (max-width: 640px) { .pasted { margin-left: calc(-1 * (var(--margin-x) + 14px)) !important; margin-right: -14px !important; border-radius: 0; border-left: 0; border-right: 0; padding: 10px 6px 0; } .pasted figcaption { padding-left: 10px; padding-right: 10px; } }
+.pasted figcaption { padding: 9px 4px 10px; font-size: 0.74rem; color: var(--muted); border-top: 1px solid #f0ece4; display: flex; justify-content: space-between; gap: 8px; }
+.part { margin: 0 0 10px; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.11em; text-transform: uppercase; color: var(--accent-strong); }
+
+.btn { border: 0; border-radius: 999px; padding: 11px 22px; font-weight: 700; font-size: 0.95rem; transition: background .15s, transform .15s var(--ease); }
+.btn:active { transform: translateY(1px); }
+.btn-primary { background: var(--accent); color: #fff; box-shadow: 0 4px 16px rgba(250, 76, 6, .28); }
+.btn-primary:hover { background: var(--accent-strong); }
+.btn-plain { background: #fff; color: var(--ink); border: 1.5px solid #cfc8bd; }
+.btn-plain:hover { border-color: var(--ink); }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.start { margin-top: 22px; display: grid; gap: 12px; }
+.start p { margin: 0; font-size: 1.02rem; }
+
+/* working, revealed one step at a time */
+.steps { list-style: none; margin: 28px 0 0; padding: 0; display: grid; gap: 22px; }
+.step { position: relative; padding-left: 40px; animation: rise .4s var(--ease); }
+.step .n { position: absolute; left: 0; top: 2px; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: #fff; font-weight: 800; font-size: 0.8rem; }
+.step h3 { margin: 2px 0 4px; font-size: 1.02rem; }
+.step p { margin: 6px 0; color: #3f3a35; }
+.step .katex-display { margin: 6px 0; text-align: left; overflow-x: auto; overflow-y: hidden; padding: 4px 0; }
+.step .katex-display > .katex { text-align: left; }
+.ask { padding-left: 40px; position: relative; animation: rise .4s var(--ease); }
+.ask .n { position: absolute; left: 0; top: 4px; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; border: 2px dashed var(--ink); font-weight: 800; font-size: 0.8rem; }
+.ask .q { font-size: 1.12rem; font-weight: 600; line-height: 1.35; margin: 2px 0 4px; }
+.ask .hint { margin: 0 0 12px; font-size: 0.85rem; color: var(--muted); }
+.answer { margin: 6px 0 0 40px; padding: 10px 16px; border: 2.5px solid var(--ink); border-radius: 6px; background: #fff; display: inline-flex; gap: 12px; align-items: center; flex-wrap: wrap; animation: rise .4s var(--ease); }
+.answer small { font-size: 0.66rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.verdict { margin: 26px 0 0 40px; display: grid; gap: 10px; animation: rise .4s var(--ease); }
+.verdict p { margin: 0; font-size: 1.05rem; font-weight: 700; }
+
+/* highlighter terms: colour + tinted band + a distinct underline, so colour is never the only cue */
+.hl { padding: 0 0.12em; border-radius: 3px; transition: opacity .15s, box-shadow .15s; }
+.hl-1 { color: var(--hl1); background: linear-gradient(transparent 55%, var(--hl1-bg) 55%); border-bottom: 2px solid var(--hl1); }
+.hl-2 { color: var(--hl2); background: linear-gradient(transparent 55%, var(--hl2-bg) 55%); border-bottom: 2px dashed var(--hl2); }
+.hl-3 { color: var(--hl3); background: linear-gradient(transparent 55%, var(--hl3-bg) 55%); border-bottom: 2px dotted var(--hl3); }
+.hl-4 { color: var(--hl4); background: linear-gradient(transparent 55%, var(--hl4-bg) 55%); border-bottom: 3px double var(--hl4); }
+[data-focus] .hl { opacity: 0.3; }
+[data-focus="1"] .hl-1, [data-focus="2"] .hl-2, [data-focus="3"] .hl-3, [data-focus="4"] .hl-4 { opacity: 1; box-shadow: 0 0 0 2px currentColor; }
+
+/* the graph: pencil-drawn lines, clean type */
+.sketch .cap { font-size: 0.78rem; font-weight: 600; color: var(--muted); margin: 0 0 2px 8px; }
+.sketch .board { width: 100%; aspect-ratio: 1 / 0.95; border: 0; border-radius: 0; background: transparent; }
+.sketch .board svg { filter: url(#pencil); }
+.sketch .board .JXGtext { font-family: var(--font) !important; color: var(--pencil); }
+.readout { font-family: var(--mono); font-size: 0.85rem; color: var(--pencil); margin: 2px 0 0 8px; line-height: 1.5; min-height: 3em; }
+.readout .flat { color: var(--hl1); font-weight: 700; }
+
+.end { max-width: 640px; display: grid; gap: 14px; animation: rise .4s var(--ease); }
+.end h2 { margin: 0; font-size: 1.7rem; letter-spacing: -0.02em; line-height: 1.1; }
+.end p { margin: 0; }
+.end ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="pencil"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" /><feDisplacementMap in="SourceGraphic" scale="2.6" /></filter>
+</svg>
+<main class="page" id="app" aria-live="polite"></main>
+
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsxgraph@1.8.0/distrib/jsxgraphcore.js"></script>
+<script>
+// Lesson data. Steps are the bank's worked solutions with \hl{slot}{…} marks and a think-first `ask` added by hand.
+// shortcut: hand-written for one skill; generate from skill-tags.json + bank once the format is agreed.
+const LESSON = {
+  skill: { id: 'diff-stationary', title: 'Find and classify turning points' },
+  necessary: [
+    { depth: 1, title: 'Find the second derivative', level: 'OL' },
+    { depth: 1, title: 'Solve a quadratic by factorising', level: 'OL' },
+    { depth: 1, title: 'Evaluate a function', level: 'OL' },
+    { depth: 2, title: 'Differentiate a polynomial by rule', level: 'OL' },
+    { depth: 2, title: 'Factorise a quadratic trinomial', level: 'OL' },
+    { depth: 2, title: 'Evaluate an expression', level: 'OL' },
+    { depth: 3, title: 'Apply the laws of indices', level: 'OL' },
+    { depth: 3, title: 'Multiply out two brackets', level: 'OL' },
+    { depth: 3, title: 'Apply order of operations', level: 'JC' },
+    { depth: 4, title: 'Expand a bracket by a term', level: 'JC' },
+    { depth: 5, title: 'Collect like terms', level: 'JC' },
+  ],
+  problems: [
+    {
+      source: 'LC Ordinary 2021 · Paper 1 · Q5', part: '(c)', marks: 10,
+      images: ['exam-images/maths/2021/ordinary-p1-q5-c.webp'],
+      graph: { f: x => 3 * x * x - 6 * x + 7, df: x => 6 * x - 6, box: [-0.9, 16, 2.9, -1.5], start: 2.3,
+        points: [{ x: 1, y: 4, name: 'min (1, 4)' }] },
+      steps: [
+        { ask: 'The question says "use calculus". What do you do to f(x) first?', title: 'Differentiate f(x)', lines: [
+          { tex: 'f(x) &= 3x^2 - 6x + 7' },
+          { tex: '\\hl{1}{f\'(x)} &= \\hl{1}{6x - 6}' } ] },
+        { ask: 'What is the slope at a turning point? Use that to find x.', title: 'Set the derivative equal to 0', lines: [
+          { text: 'At a turning point the slope is 0.' },
+          { tex: '\\hl{1}{6x - 6} &= \\hl{1}{0}' },
+          { tex: '6x &= 6' },
+          { tex: '\\hl{2}{x} &= \\hl{2}{1}' } ] },
+        { ask: 'You have x. How do you get the y-co-ordinate?', title: 'Find the y-co-ordinate', lines: [
+          { text: 'Put $\\hl{2}{x = 1}$ back into the original $f(x)$, not into $f\'(x)$.' },
+          { tex: 'f(\\hl{2}{1}) &= 3(\\hl{2}{1})^2 - 6(\\hl{2}{1}) + 7' },
+          { tex: '&= 3 - 6 + 7' },
+          { tex: '&= \\hl{3}{4}' } ] },
+        { ask: 'How can you show it is a minimum and not a maximum?', title: 'Check that it is a minimum', lines: [
+          { tex: '\\hl{4}{f\'\'(x)} &= \\hl{4}{6}' },
+          { text: '$\\hl{4}{f\'\'(1) = 6 > 0}$, so the turning point is a local minimum.' } ] },
+      ],
+      final: '(\\hl{2}{1},\\ \\hl{3}{4}) \\text{ — local minimum}',
+    },
+    {
+      source: 'LC Ordinary 2025 · Paper 1 · Q8', part: '(b)(i), (ii)', marks: 15,
+      images: ['exam-images/maths/2025/ordinary-p1-q8-b.webp'],
+      note: 'The x² term is <b>negative</b> (−1.5x²), so the curve is ∩-shaped and the turning point is a <b>maximum</b>. Decimals, but the same steps.',
+      graph: { f: x => -1.5 * x * x + 9.6 * x - 3.5, df: x => -3 * x + 9.6, box: [-0.5, 14.5, 6.9, -5], start: 1,
+        points: [{ x: 3.2, y: 11.86, name: 'max (3.2, 11.86)' }] },
+      steps: [
+        { ask: 'What do you do to Q(x) first?', title: 'Differentiate Q(x)', lines: [
+          { text: 'Use $\\frac{d}{dx}(ax^n) = anx^{n-1}$ on each term.' },
+          { tex: '\\hl{1}{Q\'(x)} &= -1.5(2x) + 9.6(1) - 0' },
+          { tex: '&= \\hl{1}{-3x + 9.6}' } ] },
+        { ask: 'At the maximum, what is the slope? Solve for x.', title: 'Set the derivative equal to zero', lines: [
+          { text: 'At the maximum the slope is zero.' },
+          { tex: '\\hl{1}{-3x + 9.6} &= \\hl{1}{0}' },
+          { tex: '-3x &= -9.6' },
+          { tex: '\\hl{2}{x} &= \\frac{-9.6}{-3}' },
+          { tex: '&= \\hl{2}{3.2}' } ] },
+        { ask: 'Find the maximum value. How do you know it is a maximum?', title: 'Find the maximum value', lines: [
+          { text: '$\\hl{4}{\\text{The } x^2 \\text{ term is negative}}$, so the curve opens downward and $\\hl{2}{x = 3.2}$ gives a maximum.' },
+          { tex: 'Q(\\hl{2}{3.2}) &= -1.5(\\hl{2}{3.2})^2 + 9.6(\\hl{2}{3.2}) - 3.5' },
+          { tex: '&= -15.36 + 30.72 - 3.5' },
+          { tex: '&= \\hl{3}{11.86}' } ] },
+      ],
+      final: 'Q\'(x) = -3x + 9.6,\\quad \\hl{2}{x = 3.2},\\quad \\hl{3}{Q(3.2) = 11.86}',
+    },
+    {
+      source: 'LC Higher 2020 · Paper 1 · Q4', part: '(b)', marks: 5,
+      images: ['exam-images/maths/2020/higher-p1-q4-b.webp'],
+      note: 'f(x) is a <b>cubic</b>, so f′(x) is a quadratic and you get <b>two</b> turning points. Then you join them with a line.',
+      graph: { f: x => x ** 3 - 9 * x * x + 15 * x + 8, df: x => 3 * x * x - 18 * x + 15, box: [-1.2, 24, 7.2, -24], start: 3,
+        points: [{ x: 1, y: 15, name: 'max (1, 15)' }, { x: 5, y: -17, name: 'min (5, −17)' }],
+        line: [[1, 15], [5, -17]] },
+      steps: [
+        { ask: 'Differentiate and set f′(x) = 0. How many solutions do you get?', title: 'Find the turning points: set f′(x) = 0', lines: [
+          { tex: '\\hl{1}{f\'(x)} &= \\hl{1}{3x^2 - 18x + 15}' },
+          { tex: '\\hl{1}{3x^2 - 18x + 15} &= \\hl{1}{0}' },
+          { tex: 'x^2 - 6x + 5 &= 0' },
+          { tex: '(x-1)(x-5) &= 0' },
+          { tex: 'x &= \\hl{2}{1} \\text{ or } x = \\hl{2}{5}' } ] },
+        { ask: 'Find the y-co-ordinate of each turning point.', title: 'Find the y-co-ordinates', lines: [
+          { tex: 'f(\\hl{2}{1}) &= 1 - 9 + 15 + 8 = \\hl{3}{15}' },
+          { tex: 'f(\\hl{2}{5}) &= 125 - 225 + 75 + 8 = \\hl{3}{-17}' },
+          { text: 'The turning points are $(\\hl{2}{1}, \\hl{3}{15})$ and $(\\hl{2}{5}, \\hl{3}{-17})$.' } ] },
+        { ask: 'g(x) goes through both turning points. How do you find its slope?', title: 'Find the slope of g(x)', lines: [
+          { tex: 'm &= \\frac{\\hl{3}{-17} - \\hl{3}{15}}{\\hl{2}{5} - \\hl{2}{1}}' },
+          { tex: 'm &= \\frac{-32}{4}' },
+          { tex: 'm &= -8' } ] },
+        { ask: 'You have a point and a slope. Write the equation of the line.', title: 'Find the equation of the line', lines: [
+          { tex: 'y - \\hl{3}{15} &= -8(x - \\hl{2}{1})' },
+          { tex: 'y - 15 &= -8x + 8' },
+          { tex: '\\hl{4}{8x + y - 23} &= \\hl{4}{0}' } ] },
+      ],
+      final: '\\hl{4}{g(x):\\ 8x + y - 23 = 0}',
+    },
+  ],
+};
+
+const KATEX_OPTS = { throwOnError: false, strict: 'ignore', macros: { '\\hl': '\\htmlClass{hl hl-#1}{#2}' },
+  trust: ctx => ctx.command === '\\htmlClass' };
+const tex = (s, display) => katex.renderToString(s, { ...KATEX_OPTS, displayMode: display });
+const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const inline = s => s.split(/\$([^$]+)\$/).map((bit, i) => (i % 2 ? tex(bit, false) : esc(bit))).join('');
+const slotsIn = step => new Set([...JSON.stringify(step.lines).matchAll(/\\\\hl\{(\d)\}/g)].map(m => m[1]));
+
+// shown = how many steps are revealed; 0 = question only, before the walkthrough starts
+const state = { i: 0, started: false, shown: 0, showNec: false, end: null };
+const app = document.getElementById('app');
+let board = null, sketch = null;
+
+function stepHtml(step, k) {
+  let html = '', run = [];
+  const flush = () => { if (run.length) html += tex('\\begin{aligned}' + run.join('\\\\') + '\\end{aligned}', true); run = []; };
+  for (const ln of step.lines) { if (ln.tex) run.push(ln.tex); else { flush(); html += `<p>${inline(ln.text)}</p>`; } }
+  flush();
+  return `<li class="step"><span class="n">${k + 1}</span><h3>${esc(step.title)}</h3>${html}</li>`;
+}
+
+function header() {
+  const p = LESSON.problems[state.i];
+  const where = state.end ? '' : ['Exam problem', 'Another one (1 of 2)', 'Another one (2 of 2)'][state.i] + ` · ${esc(p.source)}`;
+  const nec = state.i === 0 && !state.end
+    ? `<button class="linkish" data-act="nec" aria-expanded="${state.showNec}">Necessary skills (${LESSON.necessary.length})</button>` : '';
+  const list = state.showNec && state.i === 0 && !state.end ? `<div class="nec"><p>This skill is built from these. If a line loses you, the gap is usually one of them.</p><ul>${
+    LESSON.necessary.map(n => `<li class="${n.depth > 1 ? 'deep' : ''}">${esc(n.title)} <span class="lvl">${n.level}</span></li>`).join('')}</ul></div>` : '';
+  return `<header class="top"><h1>${esc(LESSON.skill.title)}</h1><span class="where">${where}</span>${nec}</header>${list}`;
+}
+
+function render() {
+  const p = LESSON.problems[state.i];
+  let body;
+  if (state.end === 'got') {
+    body = `<section class="end"><h2>Marked as understood</h2>
+      <p>${esc(LESSON.skill.title)} is ticked off. It will come back in a mixed set later to check it stuck.</p>
+      <div class="row"><button class="btn btn-plain" data-act="restart">Start this skill again</button></div></section>`;
+  } else if (state.end === 'stuck') {
+    body = `<section class="end"><h2>Let's go back a step</h2>
+      <p>Three problems and it hasn't clicked yet, which usually means one of the smaller skills is shaky. Practise the one that felt hardest:</p>
+      <ul>${LESSON.necessary.filter(n => n.depth === 1).map(n => `<li>${esc(n.title)}</li>`).join('')}</ul>
+      <div class="row"><button class="btn btn-plain" data-act="restart">Start this skill again</button></div></section>`;
+  } else {
+    const done = state.shown === p.steps.length;
+    // part crops (pipeline/rebuild/maths_part_crops.py): question header and stem, then only this part
+    const question = `<div class="part">Part ${esc(p.part)}</div>
+      <figure class="pasted" style="margin:0">${p.images.map((src, k) =>
+      `<a href="${src}" target="_blank" rel="noopener" title="Open full size"><img src="${src}" alt="${esc(p.source)}, part ${esc(p.part)}"></a>`).join('')}
+      <figcaption><span>${esc(p.source)}</span><span>${p.marks} marks · tap to enlarge</span></figcaption></figure>`;
+    let work = '';
+    if (!state.started) {
+      work = `<div class="start"><p><b>Copybook first.</b> Do part ${esc(p.part)} in your copy, every line, the way you would in the exam.</p>
+        <div class="row"><button class="btn btn-primary" data-act="start">I've tried it: walk me through</button>
+        <button class="btn btn-plain" data-act="got">I got it right</button></div></div>`;
+    } else {
+      const next = p.steps[state.shown];
+      work = `<ol class="steps">${p.steps.slice(0, state.shown).map(stepHtml).join('')}</ol>`;
+      if (next) work += `<div class="ask" style="margin-top:22px"><span class="n">${state.shown + 1}</span>
+          <p class="q">${esc(next.ask)}</p><p class="hint">Write it in your copy, then check.</p>
+          <button class="btn btn-primary" data-act="step">Show step ${state.shown + 1}</button></div>`;
+      if (done) work += `<div class="answer"><small>Answer</small>${tex(p.final, false)}</div>
+        <div class="verdict"><p>Did every line make sense?</p><div class="row">
+          <button class="btn btn-primary" data-act="got">Got it</button>
+          <button class="btn btn-plain" data-act="notyet">${state.i < 2 ? 'Not yet: give me another' : 'Not yet'}</button></div></div>`;
+    }
+    const showSketch = state.started;
+    body = `${p.note ? `<p class="note"><span class="lbl">What's different</span>${p.note}</p>` : ''}
+      <div class="layout ${showSketch ? 'with-sketch' : ''}">
+        <div class="main">${question}${work}</div>
+        ${showSketch ? `<aside class="sketch" aria-label="Graph sketch"><p class="cap">Drag the dot along the curve</p>
+          <div id="board" class="board jxgbox"></div><p class="readout" id="readout"></p></aside>` : ''}
+      </div>`;
+  }
+  app.innerHTML = header() + body;
+  if (state.started && !state.end) drawGraph(p); else board = null;
+}
+
+// ── graph: pencil sketch; guides appear only once the working has found them ──
+const slotEls = { 1: [], 2: [], 3: [], 4: [] };
+const css = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+function drawGraph(p) {
+  const g = p.graph, C = { 1: css('--hl1'), 2: css('--hl2'), 3: css('--hl3'), 4: css('--hl4') }, pencil = css('--pencil');
+  const found = new Set(p.steps.slice(0, state.shown).flatMap(s => [...slotsIn(s)]));
+  const keepX = board && sketch === p ? Object.values(board.objects).find(o => o.elType === 'glider')?.X() : null;
+  if (board) JXG.JSXGraph.freeBoard(board);
+  sketch = p;
+  for (const k in slotEls) slotEls[k] = [];
+  const axis = { strokeColor: pencil, strokeWidth: 1.4, ticks: { strokeColor: 'rgba(61,58,54,.35)', label: { fontSize: 12, cssStyle: 'font-family:Outfit' } } };
+  board = JXG.JSXGraph.initBoard('board', { boundingbox: g.box, axis: true, showCopyright: false, showNavigation: false,
+    pan: { enabled: false }, zoom: { enabled: false }, defaultAxes: { x: axis, y: axis } });
+  const curve = board.create('functiongraph', [g.f], { strokeColor: pencil, strokeWidth: 2.2, highlight: false });
+  for (const pt of g.points) {
+    if (found.has('2')) slotEls[2].push(board.create('segment', [[pt.x, 0], [pt.x, pt.y]], { strokeColor: C[2], dash: 2, strokeWidth: 2, fixed: true, highlight: false }));
+    if (found.has('3')) {
+      slotEls[3].push(board.create('segment', [[0, pt.y], [pt.x, pt.y]], { strokeColor: C[3], dash: 1, strokeWidth: 2, fixed: true, highlight: false }));
+      board.create('point', [pt.x, pt.y], { name: pt.name, fixed: true, size: 3.5, fillColor: pencil, strokeColor: pencil, highlight: false,
+        label: { offset: [10, pt.name.startsWith('min') ? -18 : 16], fontSize: 13, cssStyle: 'font-family:Outfit;font-weight:700' } });
+    }
+  }
+  if (g.line && found.has('4')) slotEls[4].push(board.create('line', g.line, { strokeColor: C[4], strokeWidth: 2.2, fixed: true, highlight: false }));
+  const x0 = keepX ?? g.start;
+  const glider = board.create('glider', [x0, g.f(x0), curve], { name: '', size: 6, fillColor: C[1], strokeColor: '#fff', strokeWidth: 2, showInfobox: false });
+  slotEls[1].push(board.create('tangent', [glider], { strokeColor: C[1], strokeWidth: 2, highlight: false }));
+  const out = document.getElementById('readout'), span = g.box[2] - g.box[0];
+  // fingers can't land on x = 1 exactly, so once x is found a drop near a turning point snaps onto it
+  glider.on('up', () => {
+    const near = found.has('2') && g.points.find(pt => Math.abs(glider.X() - pt.x) < 0.08 * span);
+    if (near) { glider.moveTo([near.x, near.y]); board.update(); }
+  });
+  const update = () => {
+    const x = glider.X(), m = g.points.some(pt => Math.abs(x - pt.x) < 1e-3 * span) ? 0 : g.df(x);
+    out.innerHTML = `x = ${x.toFixed(2)}, slope = ${m.toFixed(2)}<br>${Math.abs(m) < 0.05
+      ? '<span class="flat">Flat tangent: slope 0, a turning point</span>' : m > 0 ? 'Slope positive: going up' : 'Slope negative: going down'}`;
+  };
+  board.on('update', update); update();
+}
+
+function focusSlot(k) {
+  if (k) app.dataset.focus = k; else delete app.dataset.focus;
+  for (const [slot, els] of Object.entries(slotEls))
+    for (const el of els) el.setAttribute({ strokeWidth: slot === String(k) ? 4.5 : 2, strokeOpacity: k && slot !== String(k) ? 0.25 : 1 });
+}
+app.addEventListener('mouseover', e => { const h = e.target.closest('.hl'); if (!h) return;
+  const k = [...h.classList].find(c => /^hl-\d$/.test(c))?.slice(3); if (k) focusSlot(k); });
+app.addEventListener('mouseout', e => { if (e.target.closest('.hl')) focusSlot(null); });
+
+app.addEventListener('click', e => {
+  const act = e.target.closest('[data-act]')?.dataset.act; if (!act) return;
+  if (act === 'nec') state.showNec = !state.showNec;
+  if (act === 'start') Object.assign(state, { started: true, shown: 0 });
+  if (act === 'step') state.shown++;
+  if (act === 'got') state.end = 'got';
+  if (act === 'notyet') { if (state.i < 2) Object.assign(state, { i: state.i + 1, started: false, shown: 0 }); else state.end = 'stuck'; }
+  if (act === 'restart') Object.assign(state, { i: 0, started: false, shown: 0, showNec: false, end: null });
+  render();
+  if (['notyet', 'got', 'restart'].includes(act)) window.scrollTo({ top: 0, behavior: 'smooth' });
+  if (act === 'step' || act === 'start') {
+    const target = document.querySelector('.ask') || document.querySelector('.answer') || document.querySelector('.steps li:last-child');
+    target?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    (document.querySelector('[data-act=step]') || document.querySelector('[data-act=got]'))?.focus({ preventScroll: true });
+  }
+});
+
+render();
+</script>
+</body>
+</html>

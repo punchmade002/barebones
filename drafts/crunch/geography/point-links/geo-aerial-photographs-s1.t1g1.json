@@ -1,0 +1,1423 @@
+{
+ "geo-aerial-photographs-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.0.1",
+    "strength": "helpful",
+    "why": "scale of a photograph",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.1.0",
+    "strength": "helpful",
+    "why": "sides visible on oblique",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.0.0",
+    "strength": "helpful",
+    "why": "horizon defined for vertical",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.1.1",
+    "strength": "helpful",
+    "why": "foreground larger than background",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.0.0",
+    "strength": "helpful",
+    "why": "vertical shows only roofs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.0",
+    "strength": "essential",
+    "why": "left, centre, right strips",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.3.1",
+    "strength": "essential",
+    "why": "foreground, middleground, background strips",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "helpful",
+    "why": "accepted zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "zone notation to state",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.4",
+    "strength": "essential",
+    "why": "grid method for zones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.b",
+    "strength": "helpful",
+    "why": "nine-area grid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.1",
+    "strength": "essential",
+    "why": "foreground and background meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.0",
+    "strength": "helpful",
+    "why": "across strips left centre right",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.5.5",
+    "strength": "essential",
+    "why": "waste ground location",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.3.5",
+    "strength": "helpful",
+    "why": "true or false zone method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.6.1",
+    "strength": "helpful",
+    "why": "graveyard clue",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.7.2",
+    "strength": "helpful",
+    "why": "car park clues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.7.4",
+    "strength": "helpful",
+    "why": "waste ground contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.8.2",
+    "strength": "helpful",
+    "why": "bridge clues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.8.2",
+    "strength": "helpful",
+    "why": "bridge at roundabout",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.9.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.6.0",
+    "strength": "helpful",
+    "why": "church clues spire cruciform",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "helpful",
+    "why": "nine-area zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "essential",
+    "why": "six-figure grid reference method",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.4",
+    "strength": "helpful",
+    "why": "four-figure grid reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.14.0",
+    "strength": "helpful",
+    "why": "map symbols in legend",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.14.1",
+    "strength": "helpful",
+    "why": "road letters M N R",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.1",
+    "strength": "helpful",
+    "why": "foreground and background",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.7.2",
+    "strength": "helpful",
+    "why": "direction from A to B",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.0",
+    "strength": "essential",
+    "why": "eight-point compass directions",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.11.0",
+    "strength": "essential",
+    "why": "camera direction method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.11.1",
+    "strength": "essential",
+    "why": "camera direction method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "helpful",
+    "why": "zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.11.0",
+    "strength": "essential",
+    "why": "foreground to background direction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.12.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.12.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "helpful",
+    "why": "contours on the map",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.1.1",
+    "strength": "helpful",
+    "why": "oblique scale changes",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.0.2",
+    "strength": "helpful",
+    "why": "constant map scale",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.1.1",
+    "strength": "essential",
+    "why": "oblique scale not constant",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.2",
+    "strength": "essential",
+    "why": "ratio scale meaning",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.0.1",
+    "strength": "helpful",
+    "why": "vertical photograph scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.4",
+    "strength": "helpful",
+    "why": "1:50 000 means 2 cm to 1 km",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.4",
+    "strength": "essential",
+    "why": "2 cm = 1 km on 1:50 000",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.13.2",
+    "strength": "helpful",
+    "why": "example distances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.13.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.13.3",
+    "strength": "essential",
+    "why": "ground distance in cm",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.13.2",
+    "strength": "essential",
+    "why": "5 cm photograph distance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.14.1",
+    "strength": "essential",
+    "why": "half length and breadth rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.4",
+    "strength": "essential",
+    "why": "nine-area grid method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.14.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.15.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.15.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.14.1",
+    "strength": "essential",
+    "why": "halving each side",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.16.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.15.0",
+    "strength": "essential",
+    "why": "river drawn as double line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.15.0",
+    "strength": "helpful",
+    "why": "bridge drawn as symbol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.15.0",
+    "strength": "helpful",
+    "why": "building as small symbol",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.16.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.15.2",
+    "strength": "essential",
+    "why": "feature drawn in specified zone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.16.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.15.0",
+    "strength": "helpful",
+    "why": "areas as outlined shapes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.17.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.6.1",
+    "strength": "helpful",
+    "why": "graveyard clues",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.6.2",
+    "strength": "helpful",
+    "why": "school clues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.17.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.18.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.6.4",
+    "strength": "helpful",
+    "why": "factory roof clues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.18.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.19.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.7.1",
+    "strength": "helpful",
+    "why": "terraced houses share walls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.7.1",
+    "strength": "helpful",
+    "why": "semi-detached and detached",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.19.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.6.5",
+    "strength": "helpful",
+    "why": "apartment block clues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.19.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.19.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.19.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.19.4",
+    "strength": "essential",
+    "why": "CBD definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.20.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.17.0",
+    "strength": "helpful",
+    "why": "land-use categories",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.20.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.20.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.21.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "accepted zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.21.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.21.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.21.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.21.0",
+    "strength": "helpful",
+    "why": "function answer formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.21.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.21.0",
+    "strength": "helpful",
+    "why": "function answer formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.21.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.21.0",
+    "strength": "helpful",
+    "why": "function answer formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.22.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.22.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.22.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.22.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.8.0",
+    "strength": "helpful",
+    "why": "railway clues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.22.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.7.0",
+    "strength": "helpful",
+    "why": "housing estate clues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.23.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.24.0",
+    "strength": "helpful",
+    "why": "planned or unplanned patterns",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.25.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.25.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.25.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.25.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.25.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.25.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.25.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.6.2",
+    "strength": "helpful",
+    "why": "school clues",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.6.3",
+    "strength": "helpful",
+    "why": "shopping centre clues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.26.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.26.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.26.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.26.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.3.2",
+    "strength": "essential",
+    "why": "zone notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.26.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.26.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.26.1",
+    "strength": "helpful",
+    "why": "bypass and other measures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.27.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.27.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.25.2",
+    "strength": "helpful",
+    "why": "routes converging on bridge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.27.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.26.0",
+    "strength": "helpful",
+    "why": "roundabouts as measures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.27.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.26.4",
+    "strength": "essential",
+    "why": "solution justified with evidence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.28.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.28.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.28.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.28.0",
+    "strength": "helpful",
+    "why": "listed change comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.28.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.28.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.29.0",
+    "strength": "helpful",
+    "why": "new estates on edge",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.28.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.28.2",
+    "strength": "essential",
+    "why": "change method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.28.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.28.2",
+    "strength": "essential",
+    "why": "change method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.29.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.29.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.29.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.29.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.18.0",
+    "strength": "helpful",
+    "why": "industrial land on edge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.29.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.8.4",
+    "strength": "helpful",
+    "why": "roundabout clues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.29.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.30.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.30.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.30.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.30.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.18.0",
+    "strength": "helpful",
+    "why": "industrial land on edge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.30.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.30.1",
+    "strength": "essential",
+    "why": "suitability tests",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.31.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.31.0",
+    "strength": "helpful",
+    "why": "leafy trees mean summer",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.31.3",
+    "strength": "helpful",
+    "why": "silage bales mean summer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.32.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.32.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.0",
+    "strength": "helpful",
+    "why": "compass directions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.32.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.0",
+    "strength": "helpful",
+    "why": "compass directions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.32.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.32.1",
+    "strength": "helpful",
+    "why": "sun position through day",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.32.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.32.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.32.1",
+    "strength": "essential",
+    "why": "morning shadows point west",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-aerial-photographs-s1.11.0",
+    "strength": "essential",
+    "why": "camera direction from map",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.32.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-aerial-photographs-s1.32.2",
+    "strength": "essential",
+    "why": "long shadows mean low sun",
+    "confidence": "high"
+   }
+  ]
+ }
+}

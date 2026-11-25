@@ -1,0 +1,882 @@
+{
+ "bio11-s5.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.2",
+    "strength": "helpful",
+    "why": "two alleles on homologous pair",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.1.1",
+    "strength": "essential",
+    "why": "homologues separate in meiosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.1.4",
+    "strength": "helpful",
+    "why": "fertilisation forms zygote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.4",
+    "strength": "essential",
+    "why": "homozygous means identical alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.0.1",
+    "strength": "essential",
+    "why": "one allele per gamete",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.4",
+    "strength": "essential",
+    "why": "pure-breeding is homozygous",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "helpful",
+    "why": "alleles of one gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.6.3",
+    "strength": "helpful",
+    "why": "linkage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.2.2",
+    "strength": "essential",
+    "why": "P generation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.2.3",
+    "strength": "essential",
+    "why": "F1 generation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.2.3",
+    "strength": "helpful",
+    "why": "offspring of a cross",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s5.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "essential",
+    "why": "dominant and recessive alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.3.0",
+    "strength": "helpful",
+    "why": "choosing allele symbols",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.3.3",
+    "strength": "helpful",
+    "why": "the key",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.3.1",
+    "strength": "essential",
+    "why": "phenotype meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.3.0",
+    "strength": "essential",
+    "why": "genotype meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.1",
+    "strength": "essential",
+    "why": "gametes each parent makes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.3",
+    "strength": "essential",
+    "why": "gametes combined in grid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.4",
+    "strength": "essential",
+    "why": "square gives genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.5",
+    "strength": "essential",
+    "why": "genotypes give phenotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.3",
+    "strength": "essential",
+    "why": "gametes placed on grid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.5.0",
+    "strength": "essential",
+    "why": "rows and columns of gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.1",
+    "strength": "helpful",
+    "why": "two gametes per heterozygote",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s5.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.5.1",
+    "strength": "essential",
+    "why": "filling boxes of square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.7.6",
+    "strength": "helpful",
+    "why": "3 to 1 ratio example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s5.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.6.0",
+    "strength": "helpful",
+    "why": "ratio is a prediction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.b",
+    "strength": "helpful",
+    "why": "standard layout of steps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.3.3",
+    "strength": "helpful",
+    "why": "writing a key",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.1",
+    "strength": "essential",
+    "why": "heterozygote makes two gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.1",
+    "strength": "essential",
+    "why": "heterozygote makes both gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.5.1",
+    "strength": "essential",
+    "why": "filling the Punnett square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.7.4",
+    "strength": "essential",
+    "why": "counting boxes of square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.7.5",
+    "strength": "essential",
+    "why": "genotypes give phenotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.7.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.7.6",
+    "strength": "essential",
+    "why": "which offspring are tall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "essential",
+    "why": "dominant masks recessive",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.4.1",
+    "strength": "essential",
+    "why": "recessive hidden in heterozygote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.2",
+    "strength": "helpful",
+    "why": "true-breeding is homozygous",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.2",
+    "strength": "essential",
+    "why": "true-breeding meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.4",
+    "strength": "helpful",
+    "why": "homozygous genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.0",
+    "strength": "essential",
+    "why": "homozygote makes one gamete",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.9.2",
+    "strength": "essential",
+    "why": "one gamete from each parent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "essential",
+    "why": "dominant masks recessive",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.9.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.2.3",
+    "strength": "essential",
+    "why": "F1 generation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.9.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.1",
+    "strength": "helpful",
+    "why": "heterozygote makes two gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.0",
+    "strength": "essential",
+    "why": "homozygote makes one gamete",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.5.0",
+    "strength": "essential",
+    "why": "Punnett square layout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.10.3",
+    "strength": "essential",
+    "why": "genotypes from square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.10.4",
+    "strength": "essential",
+    "why": "phenotypes from genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.0",
+    "strength": "essential",
+    "why": "homozygote makes one gamete",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.1",
+    "strength": "essential",
+    "why": "heterozygote gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.9.3",
+    "strength": "helpful",
+    "why": "TT x tt result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.7.5",
+    "strength": "helpful",
+    "why": "Tt x Tt result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.10.4",
+    "strength": "helpful",
+    "why": "Tt x tt result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.0",
+    "strength": "essential",
+    "why": "homozygote makes one gamete",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s5.12.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.11.3",
+    "strength": "essential",
+    "why": "Tt x Tt gives 3 to 1",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.12.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.11.4",
+    "strength": "essential",
+    "why": "Tt x tt gives 1 to 1",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.12.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.4.1",
+    "strength": "essential",
+    "why": "recessive shows only as homozygote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.3.6",
+    "strength": "helpful",
+    "why": "genotype not seen from phenotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.13.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.3.6",
+    "strength": "essential",
+    "why": "finding unknown genotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.1.0",
+    "strength": "essential",
+    "why": "tt gives only t",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.9.3",
+    "strength": "essential",
+    "why": "TT x tt gives all Tt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.13.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.10.5",
+    "strength": "essential",
+    "why": "Tt x tt gives 1 to 1",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.6.4",
+    "strength": "helpful",
+    "why": "chance in small samples",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.14.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.7",
+    "strength": "helpful",
+    "why": "carrier meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.1",
+    "strength": "helpful",
+    "why": "recessive allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.3.0",
+    "strength": "helpful",
+    "why": "dominant capital, recessive lower",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s5.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.7",
+    "strength": "essential",
+    "why": "carrier meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.14.1",
+    "strength": "essential",
+    "why": "key for F and f",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.1",
+    "strength": "essential",
+    "why": "heterozygote makes both gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.14.4",
+    "strength": "essential",
+    "why": "combining gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.14.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.14.5",
+    "strength": "essential",
+    "why": "genotypes give phenotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.14.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.14.5",
+    "strength": "essential",
+    "why": "read chances from genotype ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s5.14.8": {
+  "cost": 1,
+  "needs": []
+ }
+}

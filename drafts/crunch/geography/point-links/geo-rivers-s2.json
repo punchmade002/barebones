@@ -1,0 +1,517 @@
+{
+"geo-rivers-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s2.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.2",
+"strength": "helpful",
+"why": "tributary defined",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s1.1.b",
+"strength": "helpful",
+"why": "long profile, concave slope",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.2.1",
+"strength": "helpful",
+"why": "energy used for erosion and transport",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.0.1",
+"strength": "essential",
+"why": "graded profile being upset",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.0.b",
+"strength": "helpful",
+"why": "base level",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.2.3",
+"strength": "helpful",
+"why": "vertical erosion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s2.4.1",
+"strength": "essential",
+"why": "eustatic change defined",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s2.2.1",
+"strength": "essential",
+"why": "isostatic rebound after ice melts",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s2.0.0",
+"strength": "helpful",
+"why": "crustal uplift from endogenetic forces",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.0",
+"strength": "helpful",
+"why": "energy depends on discharge",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.1",
+"strength": "helpful",
+"why": "river mouth",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.5",
+"strength": "essential",
+"why": "headward erosion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.0.1",
+"strength": "helpful",
+"why": "graded section",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.2.1",
+"strength": "helpful",
+"why": "two graded sections",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.1.b",
+"strength": "helpful",
+"why": "long profile",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.0.1",
+"strength": "helpful",
+"why": "graded section",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.3.0",
+"strength": "essential",
+"why": "new and old graded sections",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.8.b",
+"strength": "helpful",
+"why": "waterfall",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.3.1",
+"strength": "helpful",
+"why": "knickpoint",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.3.3",
+"strength": "helpful",
+"why": "knickpoint retreating upstream",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.3.1",
+"strength": "helpful",
+"why": "knickpoint at junction",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.10.b",
+"strength": "essential",
+"why": "meanders",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.12.b",
+"strength": "helpful",
+"why": "floodplain",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s2.4.b",
+"strength": "helpful",
+"why": "meanders cut down",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.2.4",
+"strength": "helpful",
+"why": "lateral erosion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.4.b",
+"strength": "helpful",
+"why": "meanders cut down",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.4.1",
+"strength": "essential",
+"why": "entrenched meanders",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.4.b",
+"strength": "helpful",
+"why": "incised meanders",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.4.b",
+"strength": "essential",
+"why": "meander cut down into land",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.12.b",
+"strength": "helpful",
+"why": "floodplain",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.5.b",
+"strength": "essential",
+"why": "river terraces",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.5.0",
+"strength": "helpful",
+"why": "paired terraces contrast",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.2.4",
+"strength": "helpful",
+"why": "lateral erosion",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.5.b",
+"strength": "helpful",
+"why": "river terraces",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.5.0",
+"strength": "essential",
+"why": "paired terraces",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.1.2",
+"strength": "helpful",
+"why": "tectonic uplift",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.6.b",
+"strength": "helpful",
+"why": "gorge by deep incision",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.6.0",
+"strength": "helpful",
+"why": "gorge from uplift",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.3.b",
+"strength": "helpful",
+"why": "knickpoints as marks",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.3.b",
+"strength": "essential",
+"why": "knickpoint on long profile",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.5.b",
+"strength": "essential",
+"why": "river terraces",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s2.3.b",
+"strength": "helpful",
+"why": "knickpoints",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s2.4.b",
+"strength": "helpful",
+"why": "incised meanders",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s2.5.b",
+"strength": "helpful",
+"why": "river terraces",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s2.6.b",
+"strength": "helpful",
+"why": "gorges",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.0.b",
+"strength": "helpful",
+"why": "base level",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s2.7.0",
+"strength": "helpful",
+"why": "ria defined",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.0.7",
+"strength": "helpful",
+"why": "estuary",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s2.6.0",
+"strength": "helpful",
+"why": "raised beach formation",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s2.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s2.8.0",
+"strength": "helpful",
+"why": "north Ireland more rebound",
+"confidence": "high"
+},
+{
+"id": "geo-glaciation-s2.6.6",
+"strength": "helpful",
+"why": "Malin Head raised beaches",
+"confidence": "low"
+}
+]
+}
+}

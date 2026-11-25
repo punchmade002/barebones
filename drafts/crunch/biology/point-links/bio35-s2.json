@@ -1,0 +1,494 @@
+{
+ "bio35-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.0.0",
+    "strength": "helpful",
+    "why": "what a profile is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s3.4.0",
+    "strength": "helpful",
+    "why": "PCR copying repeat regions",
+    "confidence": "high"
+   },
+   {
+    "id": "bio35-s2.1.1",
+    "strength": "helpful",
+    "why": "repeat regions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.4.b",
+    "strength": "helpful",
+    "why": "gel electrophoresis separation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.4.1",
+    "strength": "helpful",
+    "why": "non-coding DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.4.1",
+    "strength": "essential",
+    "why": "non-coding DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.1.0",
+    "strength": "helpful",
+    "why": "non-coding DNA",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s1.0.4",
+    "strength": "helpful",
+    "why": "DNA bases",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.3.1",
+    "strength": "essential",
+    "why": "locus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio35-s2.1.1",
+    "strength": "essential",
+    "why": "repeat sequences",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.1.0",
+    "strength": "helpful",
+    "why": "non-coding DNA basis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.4",
+    "strength": "helpful",
+    "why": "homologous chromosome pairs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.3.1",
+    "strength": "essential",
+    "why": "locus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.0.4",
+    "strength": "helpful",
+    "why": "chromosome from each parent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.2.0",
+    "strength": "essential",
+    "why": "two copies of locus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.3.5",
+    "strength": "helpful",
+    "why": "alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.2.1",
+    "strength": "essential",
+    "why": "two bands per locus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.1.2",
+    "strength": "helpful",
+    "why": "locus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.3.0",
+    "strength": "essential",
+    "why": "many loci tested",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.0.2",
+    "strength": "helpful",
+    "why": "identical twins same DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.1.1",
+    "strength": "helpful",
+    "why": "phosphate backbone",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio35-s2.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.4.1",
+    "strength": "helpful",
+    "why": "movement in electric field",
+    "confidence": "high"
+   },
+   {
+    "id": "bio35-s2.1.2",
+    "strength": "helpful",
+    "why": "repeats set length",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.9.4",
+    "strength": "helpful",
+    "why": "DNA ladder",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.4.2",
+    "strength": "helpful",
+    "why": "size separation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.4.2",
+    "strength": "essential",
+    "why": "shorter fragments travel further",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.4.0",
+    "strength": "helpful",
+    "why": "bands as fragments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.5.0",
+    "strength": "essential",
+    "why": "match rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.2.2",
+    "strength": "essential",
+    "why": "child bands from each parent",
+    "confidence": "high"
+   },
+   {
+    "id": "bio35-s2.5.1",
+    "strength": "helpful",
+    "why": "exclusion logic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.0.0",
+    "strength": "helpful",
+    "why": "profile comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.5.1",
+    "strength": "essential",
+    "why": "exclusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.5.2",
+    "strength": "helpful",
+    "why": "paternity matching",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.8.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio35-s2.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.8.1",
+    "strength": "essential",
+    "why": "mitochondrial DNA female line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.1.0",
+    "strength": "helpful",
+    "why": "non-coding DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s2.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.3.0",
+    "strength": "helpful",
+    "why": "gene and allele",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio35-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.11.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.3.2",
+    "strength": "helpful",
+    "why": "identical twin exception",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio35-s2.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s2.11.4": {
+  "cost": 1,
+  "needs": []
+ }
+}

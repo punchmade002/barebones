@@ -1,0 +1,475 @@
+{
+"hist-ire4-s8.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.0.0",
+"strength": "helpful",
+"why": "stage Irishman stereotype",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.0.0",
+"strength": "essential",
+"why": "uses the stage Irishman",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.0.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire4-s8.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.0.2",
+"strength": "helpful",
+"why": "John Ford as director",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.0.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.0.2",
+"strength": "helpful",
+"why": "John Ford",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s8.2.b",
+"strength": "helpful",
+"why": "Maureen O'Hara",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.1.0",
+"strength": "helpful",
+"why": "the film The Quiet Man",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.0.2",
+"strength": "helpful",
+"why": "Ford as director",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.1.1",
+"strength": "helpful",
+"why": "Cong filming locations",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.0.0",
+"strength": "helpful",
+"why": "comic drunken stereotype",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.1.3",
+"strength": "helpful",
+"why": "visitors drawn by film locations",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.4.0",
+"strength": "helpful",
+"why": "the tourist board",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s2.6.3",
+"strength": "helpful",
+"why": "mass emigration in the 1950s",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.0.2",
+"strength": "helpful",
+"why": "John Ford",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.0.0",
+"strength": "helpful",
+"why": "screen Irish stereotypes",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s8.2.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.3.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire4-s8.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.3.1",
+"strength": "helpful",
+"why": "McCormack as a tenor",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.3.5": {
+"cost": 2,
+"needs": []
+},
+"hist-ire4-s8.3.6": {
+"cost": 2,
+"needs": []
+},
+"hist-ire4-s8.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.4.2",
+"strength": "helpful",
+"why": "Shannon Airport",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.4.5",
+"strength": "helpful",
+"why": "heritage tourism",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s2.6.6",
+"strength": "helpful",
+"why": "late-1950s economic planning",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s2.0.b",
+"strength": "helpful",
+"why": "emigration after the Famine",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s3.3.5",
+"strength": "essential",
+"why": "Al Smith 1928 defeat",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.6.2",
+"strength": "helpful",
+"why": "the 1963 visit",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.6.0",
+"strength": "helpful",
+"why": "Kennedy's Irish ancestry",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.6.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s2.6.6",
+"strength": "essential",
+"why": "Lemass government and economic opening",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.6.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s3.5.b",
+"strength": "helpful",
+"why": "Joe Kennedy's career",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.4.b",
+"strength": "helpful",
+"why": "tourism attracting visitors",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s8.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.0.4",
+"strength": "helpful",
+"why": "rural Catholic Hollywood image",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.1.4",
+"strength": "helpful",
+"why": "Irish critics' stereotype objections",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.6.7",
+"strength": "helpful",
+"why": "Kennedy visit and Lemass confidence",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s8.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.3.6",
+"strength": "helpful",
+"why": "1960s folk revival",
+"confidence": "high"
+}
+]
+}
+}

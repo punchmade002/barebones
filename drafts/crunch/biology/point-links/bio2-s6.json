@@ -1,0 +1,168 @@
+{
+ "bio2-s6.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio2-s6.0.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s6.0.0",
+    "strength": "helpful",
+    "why": "section order continues from earlier list",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s6.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s6.0.1",
+    "strength": "helpful",
+    "why": "analysis and conclusion sections",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s6.0.1",
+    "strength": "helpful",
+    "why": "full report contents",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s6.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.2.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio2-s6.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.4.b",
+    "strength": "helpful",
+    "why": "graph types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s6.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.9.3",
+    "strength": "helpful",
+    "why": "reporting anomalous results honestly",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s6.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s6.4.1",
+    "strength": "essential",
+    "why": "what a reference contains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s6.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s6.4.5": {
+  "cost": 1,
+  "needs": []
+ }
+}

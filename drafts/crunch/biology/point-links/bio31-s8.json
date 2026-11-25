@@ -1,0 +1,333 @@
+{
+ "bio31-s8.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s8.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.0",
+    "strength": "essential",
+    "why": "trophic level meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.3",
+    "strength": "helpful",
+    "why": "secondary and tertiary consumers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.0.0",
+    "strength": "essential",
+    "why": "pyramid of numbers definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.3.1",
+    "strength": "essential",
+    "why": "90% energy lost per level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.0.2",
+    "strength": "helpful",
+    "why": "upright pyramid shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.6",
+    "strength": "helpful",
+    "why": "food chains limited levels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s8.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.0.0",
+    "strength": "essential",
+    "why": "pyramid of numbers definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.0.0",
+    "strength": "helpful",
+    "why": "pyramid bars per level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.2.4",
+    "strength": "helpful",
+    "why": "interdependence between populations",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s8.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.0.3",
+    "strength": "helpful",
+    "why": "why top levels are few",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s8.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.0",
+    "strength": "essential",
+    "why": "trophic level meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s8.0.1",
+    "strength": "essential",
+    "why": "order of bars, producers bottom",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s8.1.6",
+    "strength": "essential",
+    "why": "bars drawn in step 2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.1.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.1.6",
+    "strength": "helpful",
+    "why": "drawing steps and labels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s8.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.0.2",
+    "strength": "essential",
+    "why": "upright pyramid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.2.0",
+    "strength": "essential",
+    "why": "upright shape to contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.2.1",
+    "strength": "essential",
+    "why": "narrow-base pyramid idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.2.1",
+    "strength": "essential",
+    "why": "narrow-base pyramid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.2.0",
+    "strength": "helpful",
+    "why": "upright pyramid contrast",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s8.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.2.4",
+    "strength": "essential",
+    "why": "parasite top level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s8.2.1",
+    "strength": "essential",
+    "why": "narrow-base pyramid",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s8.2.4",
+    "strength": "essential",
+    "why": "parasite-top pyramid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s8.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.2.1",
+    "strength": "helpful",
+    "why": "inverted pyramid example",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.1.7",
+    "strength": "helpful",
+    "why": "scale of bar widths",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s8.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s8.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.2.1",
+    "strength": "essential",
+    "why": "feeding at multiple trophic levels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.1.4",
+    "strength": "essential",
+    "why": "sampling to find numbers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s8.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s8.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.5",
+    "strength": "helpful",
+    "why": "decomposers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s8.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.3.0",
+    "strength": "essential",
+    "why": "size problem being fixed",
+    "confidence": "high"
+   }
+  ]
+ }
+}

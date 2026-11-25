@@ -1,0 +1,119 @@
+0.b|1|
+0.0|1|
+0.1|1|W3:0.0,h,H,uses weathering in situ
+0.2|1|
+0.3|2|G1:15.0,h,H,till defined there;G1:19.0,h,H,sorted meltwater deposits
+0.4|1|W3:0.2,h,H,regolith defined there
+1.b|1|
+1.0|2|g:0.1,e,H,residual soil type;R1:9.0,h,L,Burren limestone background
+1.1|1|g:0.2,e,H,transported soil type;g:0.3,h,H,till and alluvium materials
+1.2|1|g:0.3,h,H,loess as transported material
+2.b|1|
+2.0|1|G1:0.2,h,H,Midlandian glaciation dating;g:0.3,h,L,glacial deposits as parent material
+2.1|1|g:2.0,e,H,soils formed on glacial deposits;g:0.2,h,H,transported soils differ from rock
+3.b|1|
+3.0|1|
+3.1|1|
+3.2|1|
+3.3|1|g:0.b,h,H,parent material defined
+3.4|1|
+3.5|1|
+4.b|1|
+4.0|2|g:0.0,e,H,four soil components
+4.1|1|g:4.0,e,H,loam proportions
+4.2|1|
+4.3|1|g:4.0,e,H,figures for the pie chart
+5.b|1|
+5.0|1|g:12.b,h,H,texture defined
+5.1|1|
+5.2|1|g:0.b,h,H,parent rock as parent material
+5.3|1|R1:4.0,h,L,granite composition
+5.4|1|R1:9.1,h,L,sandstone formation
+5.5|1|
+6.b|1|
+6.0|1|
+6.1|1|
+6.2|1|g:6.1,e,H,uses humus and litter
+6.3|1|
+6.4|1|g:6.3,h,H,earthworm role
+6.5|2|
+7.b|1|
+7.0|1|g:6.1,e,H,humus decomposition
+7.1|1|g:6.1,e,H,humus decomposition
+7.2|1|g:7.0,e,H,mull form;g:7.1,e,H,mor form
+8.b|1|
+8.0|1|
+8.1|1|
+8.2|1|
+8.3|1|
+8.4|1|g:8.1,e,H,gravitational water drains
+8.5|1|g:8.3,h,L,water plants cannot use
+9.b|1|
+9.0|1|g:8.1,e,H,leaching defined
+9.1|1|g:8.2,e,H,capillary water
+9.2|1|g:4.2,h,H,pores fill with water
+10.b|1|
+10.0|1|g:4.2,e,H,pore space shared
+10.1|1|g:6.5,h,H,nitrogen-fixing bacteria
+10.2|2|W3:5.0,h,H,carbonic acid weathering
+10.3|1|g:10.1,h,L,aerobic decomposition
+10.4|2|g:10.3,h,L,anaerobic soils
+11.b|1|
+11.0|1|g:14.0,e,H,crumb structure
+11.1|1|g:4.2,e,H,pores share water and air
+11.2|1|g:10.1,h,H,organisms need air
+12.b|1|
+12.0|2|
+12.1|1|g:12.0,e,H,particle size limits
+12.2|1|g:12.0,h,H,sand silt clay
+12.3|1|g:12.0,h,H,sand silt clay proportions
+13.b|1|
+13.0|1|g:12.0,h,H,sand particles;g:8.1,h,H,leaching
+13.1|1|g:12.0,h,H,clay particles
+13.2|2|g:12.0,e,H,sand silt clay proportions
+13.3|1|g:12.0,h,H,silt particles
+14.b|1|
+14.0|1|g:14.b,e,H,peds defined;g:6.2,h,H,humus binds crumbs
+14.1|1|g:14.b,e,H,peds defined
+14.2|1|g:14.b,e,H,peds defined
+14.3|1|g:14.b,e,H,peds defined
+14.4|1|g:14.b,e,H,peds defined
+14.5|1|g:14.b,e,H,peds defined
+15.b|1|
+15.0|1|g:4.2,h,H,pore spaces
+15.1|1|g:14.b,e,H,peds defined
+15.2|1|g:14.b,e,H,peds defined
+16.b|1|
+16.0|1|g:6.2,e,H,humus darkens soil
+16.1|1|g:6.2,h,H,humus
+16.2|1|
+16.3|1|g:8.1,h,H,leaching
+16.4|1|g:10.4,e,H,reduced iron
+16.5|1|
+16.6|1|
+17.b|1|
+17.0|1|g:12.b,h,H,texture;g:14.b,h,H,structure;g:6.2,h,H,humus holds water
+17.1|1|g:4.2,e,H,pore space
+17.2|2|g:17.1,e,H,porosity versus permeability
+18.b|1|
+18.0|1|g:18.b,e,H,organic content
+18.1|1|g:6.1,h,H,humus from litter
+18.2|1|g:18.b,h,H,organic content
+19.b|1|
+19.0|1|
+19.1|1|g:8.1,e,H,leaching
+19.2|1|g:5.2,h,H,limestone base-rich
+19.3|1|g:19.0,e,H,pH scale
+19.4|1|g:19.0,e,H,pH scale
+19.5|1|g:19.0,h,H,pH scale
+20.b|1|
+20.0|2|g:5.5,e,H,clay particles;g:6.2,h,H,humus
+20.1|1|g:20.0,e,H,clay-humus complex
+20.2|1|g:20.0,h,H,held nutrients;g:8.1,h,H,leaching
+20.3|1|
+21.b|1|
+21.0|2|g:12.b,e,H,texture;g:14.b,e,H,structure;g:9.2,e,H,gleying;g:9.1,h,H,capillary rise
+21.1|2|g:19.0,e,H,pH;g:7.0,e,H,mull humus;g:7.1,e,H,mor humus
+21.2|1|g:18.b,e,H,organic content;g:14.b,h,H,structure;g:20.0,h,H,fertility
+21.3|2|g:10.3,e,H,anaerobic decomposition;g:17.0,e,H,water retention
+21.4|1|

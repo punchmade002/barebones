@@ -1,0 +1,538 @@
+{
+"hist-eur5-s8.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.0.0",
+"strength": "helpful",
+"why": "Commonwealth citizens entering Britain",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.2.0",
+"strength": "helpful",
+"why": "the new 1962 restrictions",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.0.0",
+"strength": "helpful",
+"why": "Commonwealth citizenship rights of 1948",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.1.0",
+"strength": "essential",
+"why": "the 1958 disturbances explained",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.5.1",
+"strength": "helpful",
+"why": "Notting Hill Carnival",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s8.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.1.0",
+"strength": "helpful",
+"why": "Notting Hill racial tension 1958",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.0.0",
+"strength": "helpful",
+"why": "Commonwealth citizens right to enter",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.2.0",
+"strength": "essential",
+"why": "builds on the 1962 Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s8.2.1",
+"strength": "helpful",
+"why": "immigration controls of 1968",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s8.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.2.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s8.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.2.4",
+"strength": "essential",
+"why": "campaigns against the National Front",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.3.0",
+"strength": "essential",
+"why": "extends the 1965 Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.3.1",
+"strength": "helpful",
+"why": "extends earlier Race Relations Acts",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.3.0",
+"strength": "helpful",
+"why": "the Race Relations laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s8.4.0",
+"strength": "essential",
+"why": "police stop-and-search powers",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.4.1",
+"strength": "helpful",
+"why": "the Brixton riots of 1981",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s8.4.1",
+"strength": "essential",
+"why": "the 1981 riots examined",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.4.3",
+"strength": "essential",
+"why": "the Scarman Report",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s8.4.0",
+"strength": "helpful",
+"why": "the sus law",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.3.0",
+"strength": "helpful",
+"why": "the Race Relations Acts",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s8.5.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s8.5.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s8.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s4.5.3",
+"strength": "helpful",
+"why": "Algerian independence in 1962",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s4.6.1",
+"strength": "essential",
+"why": "who the harkis were",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.6.1",
+"strength": "helpful",
+"why": "labour immigration being suspended",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.6.1",
+"strength": "helpful",
+"why": "second generation of migrants",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s8.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.6.0",
+"strength": "helpful",
+"why": "Algerian nationals and free movement",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s4.6.2",
+"strength": "helpful",
+"why": "harkis placed in camps",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.6.8": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.6.9": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.6.10": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.6.4",
+"strength": "helpful",
+"why": "labour immigration halted 1974",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.7.0",
+"strength": "essential",
+"why": "universal citizenship model",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.7.0",
+"strength": "helpful",
+"why": "state ignoring ethnic communities",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s8.6.4",
+"strength": "helpful",
+"why": "French 1974 immigration suspension",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s8.2.4",
+"strength": "helpful",
+"why": "British far-right groups",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.0.0",
+"strength": "essential",
+"why": "Commonwealth citizens right of entry",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s8.6.0",
+"strength": "essential",
+"why": "Algerian legal status",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.5.3",
+"strength": "essential",
+"why": "British multiculturalism",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s8.7.1",
+"strength": "essential",
+"why": "French assimilation",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.0.b",
+"strength": "helpful",
+"why": "Caribbean and South Asian migration",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s8.6.1",
+"strength": "helpful",
+"why": "French migration sources",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s8.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.3.1",
+"strength": "helpful",
+"why": "anti-discrimination laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.4.3",
+"strength": "helpful",
+"why": "causes of the 1981 riots",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.7.0",
+"strength": "helpful",
+"why": "universal citizenship",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s8.7.1",
+"strength": "essential",
+"why": "the assimilation model",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s8.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s8.9.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s8.7.0",
+"strength": "essential",
+"why": "the French republican model",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s8.5.3",
+"strength": "helpful",
+"why": "British race-relations model",
+"confidence": "high"
+}
+]
+}
+}

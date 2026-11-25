@@ -1,0 +1,52 @@
+{
+"pe-performance-demands-s9.0.0": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.0.1": {"cost": 1, "needs": [
+ {"id": "pe-performance-demands-s9.0.0", "strength": "essential", "why": "ATP as muscle energy", "confidence": "high"}]},
+"pe-performance-demands-s9.1.0": {"cost": 1, "needs": [
+ {"id": "pe-performance-demands-s9.0.1", "strength": "helpful", "why": "ATP resynthesis by energy systems", "confidence": "high"}]},
+"pe-performance-demands-s9.1.1": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.1.2": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.1.3": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.1.4": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.2.0": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.2.1": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.2.2": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.2.3": {"cost": 1, "needs": [
+ {"id": "pe-performance-demands-s9.2.2", "strength": "essential", "why": "lactic acid by-product", "confidence": "high"}]},
+"pe-performance-demands-s9.2.4": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.0": {"cost": 1, "needs": [
+ {"id": "pe-performance-demands-s2.0.1", "strength": "helpful", "why": "aerobic system uses oxygen", "confidence": "low"}]},
+"pe-performance-demands-s9.3.1": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.2": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.3": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.4": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.5": {"cost": 1, "needs": [
+ {"id": "pe-performance-demands-s9.1.3", "strength": "helpful", "why": "PC restoration during recovery", "confidence": "high"}]},
+"pe-performance-demands-s9.4.0": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.4.1": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.1.1", "strength": "essential", "why": "ATP-PC intensity and duration", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.2.1", "strength": "essential", "why": "lactic acid system duration", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.3.1", "strength": "essential", "why": "aerobic intensity and duration", "confidence": "high"}]},
+"pe-performance-demands-s9.4.2": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.4.1", "strength": "essential", "why": "system matched to duration", "confidence": "high"}]},
+"pe-performance-demands-s9.4.3": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.4.1", "strength": "helpful", "why": "what each system powers", "confidence": "high"}]},
+"pe-performance-demands-s9.4.4": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.4.1", "strength": "helpful", "why": "relative contribution of systems", "confidence": "high"}]},
+"pe-performance-demands-s9.5.0": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.4.1", "strength": "essential", "why": "predominant system by activity", "confidence": "high"}]},
+"pe-performance-demands-s9.5.1": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.1.3", "strength": "essential", "why": "PC recovery time", "confidence": "high"}]},
+"pe-performance-demands-s9.5.2": {"cost": 1, "needs": [
+ {"id": "pe-performance-demands-s9.2.2", "strength": "essential", "why": "lactic acid buildup", "confidence": "high"}]},
+"pe-performance-demands-s9.5.3": {"cost": 1, "needs": [
+ {"id": "pe-performance-demands-s9.1.3", "strength": "helpful", "why": "PC restoration", "confidence": "high"}]},
+"pe-performance-demands-s9.5.4": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.2.3", "strength": "helpful", "why": "lactic acid removal", "confidence": "high"}]},
+"pe-performance-demands-s9.5.5": {"cost": 1, "needs": [
+ {"id": "pe-performance-demands-s9.1.0", "strength": "helpful", "why": "PC as ATP-PC fuel", "confidence": "high"}]},
+"pe-performance-demands-s9.6.0": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.4.1", "strength": "essential", "why": "matching system to duration", "confidence": "high"}]},
+"pe-performance-demands-s9.6.1": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.4.1", "strength": "essential", "why": "matching system to duration", "confidence": "high"}]}
+}

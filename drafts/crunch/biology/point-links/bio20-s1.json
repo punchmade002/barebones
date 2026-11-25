@@ -1,0 +1,486 @@
+{
+ "bio20-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.0",
+    "strength": "helpful",
+    "why": "hormone definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.1",
+    "strength": "helpful",
+    "why": "contrast with endocrine glands",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.2",
+    "strength": "essential",
+    "why": "exocrine gland meaning",
+    "confidence": "high"
+   },
+   {
+    "id": "bio20-s1.0.1",
+    "strength": "essential",
+    "why": "endocrine gland meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.0.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio20-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.1.b",
+    "strength": "helpful",
+    "why": "pituitary controls other glands",
+    "confidence": "high"
+   },
+   {
+    "id": "bio20-s1.3.1",
+    "strength": "helpful",
+    "why": "thyroxine function",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio20-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.1.1",
+    "strength": "essential",
+    "why": "oxytocin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.8.1",
+    "strength": "helpful",
+    "why": "oestrogen",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio20-s1.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.2.0",
+    "strength": "helpful",
+    "why": "follicle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.2.0",
+    "strength": "essential",
+    "why": "FSH action on testes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio20-s1.7.b",
+    "strength": "helpful",
+    "why": "testosterone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.2.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio20-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.1.2",
+    "strength": "essential",
+    "why": "made in hypothalamus, released from pituitary",
+    "confidence": "high"
+   },
+   {
+    "id": "bio20-s1.2.3",
+    "strength": "essential",
+    "why": "ADH action",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.4.1",
+    "strength": "essential",
+    "why": "parathyroid hormone raises calcium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.5.1",
+    "strength": "helpful",
+    "why": "adrenaline fight or flight",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.6.3",
+    "strength": "helpful",
+    "why": "glycogen and glucose conversion",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio20-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.5.1",
+    "strength": "helpful",
+    "why": "adrenaline fight or flight",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.1",
+    "strength": "helpful",
+    "why": "secrete directly into blood",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio20-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.6.1",
+    "strength": "helpful",
+    "why": "insulin secreted by islets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.6.2",
+    "strength": "helpful",
+    "why": "insulin lowers blood glucose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.7.b",
+    "strength": "helpful",
+    "why": "testosterone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.7.1",
+    "strength": "helpful",
+    "why": "puberty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.8.b",
+    "strength": "helpful",
+    "why": "oestrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.8.2",
+    "strength": "essential",
+    "why": "endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.2.0",
+    "strength": "helpful",
+    "why": "FSH functions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.2.1",
+    "strength": "helpful",
+    "why": "LH functions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.1.1",
+    "strength": "helpful",
+    "why": "oxytocin functions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.1.0",
+    "strength": "helpful",
+    "why": "TSH function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.2.3",
+    "strength": "helpful",
+    "why": "ADH function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio20-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.5.1",
+    "strength": "helpful",
+    "why": "adrenaline function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.3.1",
+    "strength": "helpful",
+    "why": "thyroxine metabolic rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.4.1",
+    "strength": "helpful",
+    "why": "parathyroid hormone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.6.2",
+    "strength": "helpful",
+    "why": "insulin lowers glucose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.7.2",
+    "strength": "helpful",
+    "why": "testosterone effects",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.8.1",
+    "strength": "helpful",
+    "why": "oestrogen effects",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio20-s1.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.8.3",
+    "strength": "helpful",
+    "why": "progesterone effects",
+    "confidence": "high"
+   }
+  ]
+ }
+}

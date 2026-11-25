@@ -1,0 +1,439 @@
+{
+ "geo-weather-climate-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.0.0",
+    "strength": "helpful",
+    "why": "uses wavebands",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.0.1",
+    "strength": "essential",
+    "why": "uses pixel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.1.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-weather-climate-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.0.2",
+    "strength": "helpful",
+    "why": "detail means resolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.0.0",
+    "strength": "helpful",
+    "why": "uses wavebands",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.0.0",
+    "strength": "helpful",
+    "why": "uses infrared waveband",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.0.0",
+    "strength": "helpful",
+    "why": "uses near-infrared waveband",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.0.0",
+    "strength": "helpful",
+    "why": "uses microwave waveband",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.2.b",
+    "strength": "helpful",
+    "why": "image types: colour meanings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.4.b",
+    "strength": "helpful",
+    "why": "colour and tone clues",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s1.3.0",
+    "strength": "essential",
+    "why": "depression",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-weather-climate-s1.6.b",
+    "strength": "helpful",
+    "why": "fronts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s1.3.2",
+    "strength": "essential",
+    "why": "anticyclone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.5.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-weather-climate-s2.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.7.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-weather-climate-s2.7.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-weather-climate-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.7.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-weather-climate-s2.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.8.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-weather-climate-s2.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s1.3.0",
+    "strength": "helpful",
+    "why": "depressions",
+    "confidence": "low"
+   },
+   {
+    "id": "geo-weather-climate-s1.6.b",
+    "strength": "helpful",
+    "why": "fronts",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.9.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-weather-climate-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.11.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.0.0",
+    "strength": "helpful",
+    "why": "uses wavebands",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.2.1",
+    "strength": "helpful",
+    "why": "infrared images blocked by cloud",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-weather-climate-s2.0.2",
+    "strength": "helpful",
+    "why": "uses resolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-weather-climate-s2.12.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-weather-climate-s2.12.7": {
+  "cost": 1,
+  "needs": []
+ }
+}

@@ -1,0 +1,195 @@
+TARGET bio13-s2: Enzyme structure and specificity
+[bio13-s2.0.b] An enzyme is a protein, and the way its chain is folded decides what it can do. Folding builds a small pocket called the active site (the region where the substrate, the molecule the enzyme acts on, binds and is converted).
+[bio13-s2.0.0] An enzyme's three-dimensional shape is set by the sequence of amino acids in its polypeptide chain (its primary structure), and that sequence is set by its gene, so the gene ultimately decides the shape.
+[bio13-s2.0.1] The chain coils and folds (secondary structure), then folds further into a precise globular (rounded) shape (tertiary structure); some enzymes are made of more than one polypeptide (quaternary structure).
+[bio13-s2.0.2] The active site is formed by folding: it is made of a small number of amino acids, often far apart in the chain, that folding brings together into a pocket or cleft.
+[bio13-s2.0.3] Most of the rest of the enzyme holds these few active-site amino acids in exactly the right positions, so the whole molecule matters even though only a small part touches the substrate.
+[bio13-s2.0.4] The R groups (side groups, the part of each amino acid that differs from the others) of the active-site amino acids give the site its shape and its pattern of charges and of water-attracting and water-repelling regions.
+[bio13-s2.0.5] The R groups bind the substrate by weak attractions (hydrogen bonds and ionic attractions between opposite charges), and some take part directly in the reaction.
+[bio13-s2.1.b] An enzyme acts only on particular substrates, a property called specificity. It comes from the active site's shape and chemistry, and that shape is only as stable as the bonds that hold the protein folded.
+[bio13-s2.1.0] Specificity depends on two things: the shape of the active site (only a substrate of complementary shape fits) and its chemistry (only a substrate with matching charges and groups is held in the right position).
+[bio13-s2.1.1] A molecule of similar shape but with the wrong charges is not catalysed, because its groups are not held in the correct position.
+[bio13-s2.1.2] The shape is held by hydrogen bonds, by ionic bonds between charged R groups, and by attractions between water-repelling R groups; these are all weak bonds.
+[bio13-s2.1.3] Disulfide (sulfur) bridges between cysteine units (cysteine is an amino acid that contains sulfur) are strong covalent bonds that also hold the shape.
+[bio13-s2.1.4] Because most of these bonds are weak, the shape is easily changed, which is why enzymes are sensitive to conditions.
+[bio13-s2.1.5] Diagram: a folded polypeptide chain drawn as a looping ribbon, with three or four amino acids (circles) from distant parts of the chain meeting to form a labelled active site; label polypeptide chain, R groups of active-site amino acids, active site, a hydrogen bond and a disulfide bridge.
+[bio13-s2.2.b] An enzyme works only while its active site keeps its exact shape. Anything that alters the shape of the protein, or the amino acids that make it, changes how well it works.
+[bio13-s2.2.0] Activity depends on the active site keeping its shape.
+[bio13-s2.2.1] Heat makes the enzyme molecule vibrate until weak bonds break; a change in pH changes the charges on R groups (by adding or removing hydrogen ions), breaking ionic and hydrogen bonds.
+[bio13-s2.2.2] Either way the active site loses its shape, the substrate no longer fits, and the enzyme is denatured (permanently changed in shape and unable to work). The effects on rate, and the investigations, are in “Investigation: rate of enzyme activity”.
+[bio13-s2.2.3] A change in a single amino acid can change the shape or charge of the active site, so a mutation in the gene can make an enzyme work less well or not at all.
+[bio13-s2.2.4] Example: in phenylketonuria the enzyme that converts phenylalanine is faulty, so the conversion does not happen properly.
+[bio13-s2.2.5] Some enzymes need a cofactor, such as a metal ion, held in or near the active site to complete its shape or chemistry; without it the enzyme is inactive.
+[bio13-s2.3.b] Enzymes differ in how narrowly they choose a substrate. Some enzymes also have structures that keep their shape in conditions that would ruin most others.
+[bio13-s2.3.0] Some enzymes act on only one substrate (absolute specificity): for example, urease acts only on urea, breaking it into ammonia and carbon dioxide.
+[bio13-s2.3.1] Others act on a group of substrates that share the same type of bond (group specificity): for example, lipase acts on many different triglycerides, and proteases such as pepsin break peptide bonds in many different proteins.
+[bio13-s2.3.2] A rigid lock-and-key active site does not explain group specificity well, because one fixed shape cannot fit many different substrates; the induced-fit model does.
+[bio13-s2.3.3] Enzymes that work in extreme conditions have structures that hold their shape there: for example, Taq polymerase, from the hot-spring bacterium Thermus aquaticus, stays active at temperatures that denature human enzymes.
+[bio13-s2.3.4] Pepsin keeps its shape in the strong acid of the stomach, where most enzymes are denatured.
+[bio13-s2.4.b] The induced-fit model describes an active site that is flexible, not a fixed mould. It explains how an enzyme grips its substrate, strains it and releases the products, then is ready to go again.
+[bio13-s2.4.0] The induced-fit model says the active site is flexible, not rigid. Before binding, its shape is close to, but not exactly, complementary to the substrate; binding of the substrate induces (causes) a change in the enzyme's shape that produces a close fit.
+[bio13-s2.4.1] 1. The substrate collides with the enzyme and starts to bind to the active site through weak attractions to its R groups.
+[bio13-s2.4.2] 2. Binding causes the enzyme to change shape: the active site moulds itself around the substrate, like a glove taking the shape of a hand, forming a tightly fitting enzyme–substrate complex.
+[bio13-s2.4.3] 3. The change in shape puts strain on particular bonds in the substrate, or brings reacting groups of two substrates close together in the correct orientation.
+[bio13-s2.4.4] 3 (continued). The R groups of the active site may lend or take hydrogen ions or electrons, which lowers the activation energy (the energy needed to start the reaction), and the substrate is converted to products.
+[bio13-s2.4.5] 4. The products no longer fit the active site closely, so they are released.
+[bio13-s2.4.6] 5. The enzyme returns to its original shape, unchanged and ready to bind another substrate molecule.
+[bio13-s2.5.b] The earlier lock-and-key model treated the active site as rigid. Induced fit replaced it because it explains observations that a rigid site cannot.
+[bio13-s2.5.0] Example: the enzyme hexokinase (used in the first stage of respiration) closes around its substrate glucose like a clamp when glucose binds; structural studies of enzymes showed this change of shape.
+[bio13-s2.5.1] Induced fit explains why some enzymes act on several similar substrates: a flexible site can mould around each of them.
+[bio13-s2.5.2] Induced fit explains how binding itself helps catalysis: the shape change strains the substrate's bonds, lowering the activation energy.
+[bio13-s2.5.3] Induced fit explains why molecules of similar shape may bind but not react: they do not induce the correct change of shape.
+[bio13-s2.5.4] Lock and key remains a useful simple model of specificity.
+[bio13-s2.5.5] Diagram: induced fit in four labelled stages: (1) an enzyme whose active site does not quite match the approaching substrate; (2) substrate binding and the active site changing shape around it, forming the enzyme–substrate complex, with arrows showing the change.
+[bio13-s2.5.6] Diagram (continued): (3) products formed in the active site; (4) products released and the enzyme back in its original shape. Label enzyme, active site, substrate, change in shape, enzyme–substrate complex and products.
+[bio13-s2.5.7] Diagram (contrast): include a one-line sketch of lock and key, with a rigid active site that already fits the substrate exactly.
+[bio13-s2.6.b] The two models differ in whether the active site can move. Setting them side by side shows why induced fit explains more.
+[bio13-s2.6.0] Active site: rigid, with a fixed shape that exactly matches the substrate (lock and key); flexible, changing shape when the substrate binds (induced fit).
+[bio13-s2.6.1] Fit: an exact fit before binding (lock and key); a close fit only after binding (induced fit).
+[bio13-s2.6.2] Role of binding: it holds the substrate only (lock and key); the change of shape itself helps the reaction by straining bonds (induced fit).
+[bio13-s2.6.3] Specificity explained: absolute specificity only (lock and key); both absolute and group specificity (induced fit), because a flexible site can mould around several similar substrates.
+
+CANDIDATES bio13-s1: Enzymes as catalysts
+[bio13-s1.0.b] Cells carry out thousands of chemical reactions, and left alone most of them would be far too slow to keep a cell alive. Catalysts speed reactions up, and enzymes are the catalysts that living things make for themselves.
+[bio13-s1.0.0] A catalyst is a substance that speeds up a chemical reaction without being used up or permanently changed by it, so it can be used again and again.
+[bio13-s1.0.1] A catalyst does not change which products form or how much product is made in the end; it only makes the reaction reach that point faster.
+[bio13-s1.0.2] An enzyme is a biological catalyst: a catalyst made by a living cell.
+[bio13-s1.0.3] Almost all enzymes are globular proteins (proteins folded into a compact, rounded ball), folded into a precise three-dimensional shape. That shape decides what the enzyme can do. There is more on protein structure in Structures of biomolecules.
+[bio13-s1.0.4] Because enzymes are proteins, they are made at ribosomes (the tiny structures in a cell where proteins are built), following the instructions in a gene (the length of DNA that codes for the protein).
+[bio13-s1.1.b] Because an enzyme is a protein that is reused rather than consumed, it has a set of properties that follow from that.
+[bio13-s1.1.0] Enzymes are needed only in small amounts, because each molecule is reused many times; catalase, among the fastest, breaks down millions of hydrogen peroxide molecules per second.
+[bio13-s1.1.1] Enzymes are unchanged at the end of the reaction, which is why the same molecule can start work on another substrate straight away.
+[bio13-s1.1.2] Enzymes are specific: each acts on one reaction or one type of reaction, because only a substrate of the right shape fits the enzyme's active site (the region where the substrate binds).
+[bio13-s1.1.3] Enzyme activity is affected by temperature and pH, and enzymes are denatured (their shape is changed so that they stop working) by heat and by extremes of pH. There is more on this in Investigation: rate of enzyme activity.
+[bio13-s1.2.b] Enzyme names usually give away the job the enzyme does. Enzymes also work in different places, depending on whether their job is inside or outside the cell.
+[bio13-s1.2.0] Most enzyme names end in -ase, and many are named after their substrate (the molecule the enzyme acts on), so the name tells you the job: maltase acts on maltose, lipase on lipids, protease on proteins, sucrase on sucrose.
+[bio13-s1.2.1] Some older names, such as pepsin and trypsin, don't follow this rule, so don't assume that every enzyme name ends in -ase.
+[bio13-s1.2.2] Most enzymes work inside the cell that made them (intracellular), for example the enzymes of respiration (releasing energy from food) in the cytoplasm and mitochondria and of photosynthesis (making food using light) in chloroplasts.
+[bio13-s1.2.3] Some enzymes are secreted to work outside the cell (extracellular), for example digestive enzymes released into the gut and the enzymes that fungi and bacteria release onto their food. There is more on this in The Digestive System.
+[bio13-s1.3.b] Even a reaction that releases energy overall needs a push to get started. An enzyme works by making that push smaller, not by adding energy.
+[bio13-s1.3.0] Activation energy is the minimum energy that reacting molecules need before a reaction can start: the energy needed to break or strain existing bonds.
+[bio13-s1.3.1] Think of activation energy as an energy hill that must be climbed even when the reaction releases energy overall.
+[bio13-s1.3.2] Without a catalyst, most reactions of metabolism (the chemical reactions of life) have such a high activation energy that, at body temperature (37 °C), they would happen far too slowly to keep a cell alive.
+[bio13-s1.3.3] Heating would supply the energy, but high temperatures would damage cells and their proteins, so heating is not an option for living things.
+[bio13-s1.3.4] An enzyme provides an alternative route for the reaction with a lower activation energy, so many more molecules have enough energy to react at the temperature of the cell, and the reaction is many times faster.
+[bio13-s1.3.5] The overall energy change of the reaction (energy released or taken in) stays the same; only the hill to be climbed gets lower.
+[bio13-s1.3.6] Diagram: energy-profile graph, energy on the y-axis, progress of reaction on the x-axis. Reactants high on the left, products lower on the right.
+[bio13-s1.3.7] Draw two humps, a tall one labelled without enzyme and a lower one labelled with enzyme. Mark each activation energy with a vertical arrow from the reactants to the top of its hump.
+[bio13-s1.4.b] Every enzyme reaction has two partners: the enzyme and the molecule it works on. One small region of the enzyme does the work, and its shape is what makes the enzyme selective.
+[bio13-s1.4.0] The substrate is the molecule an enzyme acts on; the products are the molecules made.
+[bio13-s1.4.1] Example: catalase acts on its substrate hydrogen peroxide: 2H₂O₂ → 2H₂O + O₂.
+[bio13-s1.4.2] The active site is a small region of the enzyme, a pocket or groove on its surface, where the substrate binds and the reaction takes place.
+[bio13-s1.4.3] The active site's shape, and the chemical charges in it, are complementary to the substrate, meaning the two fit together like matching pieces.
+[bio13-s1.4.4] The active site is a part of the enzyme, not of the substrate. The substrate's shape is complementary to the active site, not the same as it.
+[bio13-s1.5.b] Once the substrate meets the active site, the reaction follows three steps. Together they make the active-site (lock-and-key) model of enzyme action.
+[bio13-s1.5.0] 1. The substrate collides with the enzyme and binds to the active site, forming an enzyme–substrate complex (the enzyme and substrate joined together).
+[bio13-s1.5.1] Enzyme and substrate molecules meet by random movement, so anything that increases collisions (more substrate, more enzyme, higher temperature) increases the rate, up to a point.
+[bio13-s1.5.2] 2. While the substrate is held in the active site, the enzyme lowers the activation energy, for example by straining the bonds that must break, or by holding two substrate molecules close together in the right position to react.
+[bio13-s1.5.3] The substrate is then converted to products, forming an enzyme–product complex.
+[bio13-s1.5.4] 3. The products have a different shape, no longer fit the active site, and are released.
+[bio13-s1.5.5] The active site is then free and unchanged, ready to bind another substrate molecule, which is why one enzyme molecule can be used again and again.
+[bio13-s1.5.6] In summary: enzyme + substrate → enzyme–substrate complex → enzyme + products.
+[bio13-s1.5.7] Diagram: three stages in a row: enzyme with active site and complementary substrate approaching; enzyme–substrate complex; unchanged enzyme with two products leaving. Label enzyme, active site, substrate, enzyme–substrate complex and products. A matching diagram for a joining reaction is optional.
+[bio13-s1.6.b] The same active-site mechanism works whichever way a reaction runs. Metabolism has reactions that break molecules down and reactions that build them up, and enzymes catalyse both.
+[bio13-s1.6.0] In catabolic reactions one substrate is split into smaller products, for example amylase splits starch into maltose.
+[bio13-s1.6.1] In anabolic reactions two or more substrates are joined into a larger product. For example, DNA polymerase joins nucleotides (the building blocks of DNA) into a new DNA strand when DNA is copied.
+[bio13-s1.6.2] Another anabolic example is ATP synthase, which joins ADP and phosphate into ATP, the molecule cells use to carry energy.
+[bio13-s1.7.b] A cell contains thousands of different molecules but does not react them all at random. Enzymes are selective: each one picks out its own substrate, and that selectivity comes from the shape of the active site.
+[bio13-s1.7.0] Specificity means that each enzyme catalyses only one reaction, or one type of reaction, because only a substrate with the complementary shape fits its active site.
+[bio13-s1.7.1] This is what selective catalysts means: amylase digests starch but not protein or fat; pepsin digests protein but not starch.
+[bio13-s1.7.2] The lock-and-key model is the simplest explanation: the substrate (the key) fits only the active site (the lock) of the right shape.
+[bio13-s1.7.3] The lock-and-key model was later refined to the induced-fit model, in which the active site changes shape slightly as the substrate binds. There is more on this in Enzyme structure and specificity.
+[bio13-s1.7.4] Because enzymes are specific, a cell needs thousands of different enzymes, one for each of its reactions, and it can control a reaction by making, or not making, the one enzyme that catalyses it.
+[bio13-s1.7.5] Anything that changes the shape of the active site stops the substrate fitting, so the enzyme stops working: for example high temperature or extreme pH (denaturation).
+[bio13-s1.7.6] A change in the enzyme's amino-acid sequence (the order of the amino acids that make up the protein), caused by a mutation in its gene, also changes the active site and stops the substrate fitting.
+[bio13-s1.8.b] Metabolism is the sum of all the chemical reactions in a living thing. Enzymes make these reactions possible, and they usually work in sequences called pathways.
+[bio13-s1.8.0] Every reaction of metabolism is catalysed by its own specific enzyme.
+[bio13-s1.8.1] Without enzymes, the reactions that keep cells alive (respiration, photosynthesis, protein synthesis, DNA copying, digestion) would be far too slow at the temperatures and pH inside living things.
+[bio13-s1.8.2] Most processes are metabolic pathways: a sequence of reactions, each catalysed by a different enzyme, in which the product of one reaction is the substrate of the next.
+[bio13-s1.8.3] Respiration and photosynthesis are such pathways. There is more on this in Respiration and Photosynthesis.
+[bio13-s1.8.4] Diagram: a pathway written as A → B → C → D, with enzyme 1, enzyme 2 and enzyme 3 written over the arrows.
+[bio13-s1.9.b] Because every step in a pathway needs its own enzyme, a cell controls its chemistry by controlling its enzymes.
+[bio13-s1.9.0] A cell controls which reactions happen, and how fast, by switching on or off the genes for particular enzymes and by activating or inhibiting enzymes already made.
+[bio13-s1.9.1] If one enzyme in a pathway is missing, the pathway stops at that step: its substrate builds up and the later products are not made.
+[bio13-s1.9.2] Many enzymes need a non-protein helper to work: a mineral ion (for example magnesium for many enzymes that use ATP) or a coenzyme made from a vitamin. There is more on this in Minerals.
+[bio13-s1.10.b] Because each reaction depends on one enzyme, blocking or losing that enzyme has serious effects. Some poisons act this way, and some inherited or common conditions come from a missing enzyme.
+[bio13-s1.10.0] Some drugs and poisons work by blocking an enzyme: for example some insecticides and nerve agents inhibit the enzyme that breaks down a neurotransmitter (a chemical messenger between nerve cells). There is more on this in Conduction across the synaptic cleft and its disruption.
+[bio13-s1.10.1] Lactose intolerance: many adults make little lactase, the enzyme that digests lactose (milk sugar), so undigested lactose passes to the large intestine, where bacteria ferment it, causing bloating, wind, cramps and diarrhoea.
+[bio13-s1.10.2] Lactose-free milk is made using lactase, which digests the lactose in the milk before it is drunk.
+[bio13-s1.10.3] Phenylketonuria (PKU): an inherited lack of the enzyme that converts the amino acid phenylalanine into another amino acid (tyrosine), so phenylalanine builds up in the blood and damages the developing brain.
+[bio13-s1.10.4] PKU is detected by the heel-prick test given to newborn babies in Ireland, and is controlled by a diet low in phenylalanine.
+
+CANDIDATES bio8-s2: Structures of biomolecules
+[bio8-s2.0.b] Carbohydrates are the first of the four main biomolecules, the large carbon-based molecules of living things. They share one simple pattern in their formula and fall into three groups by size.
+[bio8-s2.0.0] Carbohydrates contain carbon, hydrogen and oxygen only. Their general formula is Cx(H₂O)y, so hydrogen and oxygen are in the ratio 2 : 1, as in water. Glucose, C₆H₁₂O₆, is an example.
+[bio8-s2.0.1] The name means “hydrated carbon” because of that ratio, but the molecule does not contain water molecules. The H and O atoms are simply bonded into the sugar in the same 2 : 1 proportion.
+[bio8-s2.0.2] There are three groups by size: monosaccharides (one sugar unit), disaccharides (two units) and polysaccharides (many units).
+[bio8-s2.0.3] Mono- and disaccharides are sugars: sweet, soluble in water and crystalline.
+[bio8-s2.0.4] Polysaccharides are not sweet and are insoluble or only slightly soluble, which suits them to storage and structure, because a molecule that does not dissolve stays put inside a cell or in a wall.
+[bio8-s2.1.b] Monosaccharides are the simplest carbohydrates: a single sugar unit. They are the monomers (single building-block units) from which every other carbohydrate is made.
+[bio8-s2.1.0] Glucose, C₆H₁₂O₆, is the main respiratory substrate (the molecule broken down in respiration to release energy) and the product of photosynthesis.
+[bio8-s2.1.1] Fructose, the fruit sugar found in fruit and honey, has the same formula, C₆H₁₂O₆, but a different arrangement of atoms. Two molecules can share a formula and still be different sugars.
+[bio8-s2.1.2] Galactose also has the formula C₆H₁₂O₆ and is a unit of lactose, the sugar in milk.
+[bio8-s2.1.3] Glucose, fructose and galactose are all six-carbon sugars (hexoses).
+[bio8-s2.1.4] Ribose and deoxyribose are five-carbon monosaccharides (pentoses). Ribose is found in RNA nucleotides and deoxyribose in DNA nucleotides. There is more on this in DNA, RNA and the Genetic Code.
+[bio8-s2.1.5] Diagram: glucose drawn as a simple six-sided ring (hexagon) labelled glucose, C₆H₁₂O₆. Atom-by-atom structural formulas are not needed.
+[bio8-s2.2.b] Two monosaccharides can be joined to make a disaccharide. The way they join is the same reaction that later builds starch and other large molecules.
+[bio8-s2.2.0] A disaccharide forms when two monosaccharides join by condensation, a reaction that releases one molecule of water. The link between the sugar units is a glycosidic bond.
+[bio8-s2.2.1] Disaccharides have the formula C₁₂H₂₂O₁₁, which is 2 × C₆H₁₂O₆ minus H₂O, because one water molecule is lost when the two units join.
+[bio8-s2.2.2] Hydrolysis (splitting a bond by adding water) splits a disaccharide back into monosaccharides. It is the reverse of condensation.
+[bio8-s2.2.3] Maltose (malt sugar) is glucose + glucose. It forms when starch is digested by amylase (an enzyme that breaks down starch) and is found in germinating grain.
+[bio8-s2.2.4] Sucrose (table sugar, cane or beet sugar) is glucose + fructose. It is the form in which plants transport sugar in the phloem (the tissue that carries sugars around the plant).
+[bio8-s2.2.5] Lactose (milk sugar) is glucose + galactose and is found in milk.
+[bio8-s2.2.6] Diagram: two hexagons joined, with H₂O removed by condensation and returned by hydrolysis; label maltose = glucose + glucose.
+[bio8-s2.3.b] A polysaccharide is a very long chain of sugar units. Starch, glycogen and cellulose are all made of glucose, yet they do very different jobs because of how the units are linked and whether the chain branches.
+[bio8-s2.3.0] A polysaccharide is a polymer (a long molecule made of many repeating units) of many monosaccharide units, often thousands, joined by condensation. Starch, glycogen and cellulose are all polymers of glucose; they differ in how the glucose units are linked and whether the chains branch.
+[bio8-s2.3.1] Starch is the storage carbohydrate of plants, held as starch grains in cells of potato tubers, seeds and cereal grains. It is a mixture of amylose, an unbranched chain that coils into a helix, and amylopectin, a branched chain.
+[bio8-s2.3.2] Being insoluble, starch does not draw water into cells by osmosis (water moving in towards a more concentrated solution), and its compact shape stores much glucose in a small space.
+[bio8-s2.3.3] Glycogen is the storage carbohydrate of animals and fungi, stored mainly in the liver and muscles. It is more highly branched than amylopectin, so it has many chain ends from which glucose can be released quickly when energy is needed.
+[bio8-s2.3.4] Cellulose is the structural carbohydrate of plants, forming the cell wall. Its glucose units are linked in a different orientation from starch, giving long, straight, unbranched chains that lie side by side. Many hydrogen bonds (weak attractions between neighbouring chains) hold them together, forming strong fibres.
+[bio8-s2.3.5] Humans have no enzyme to digest cellulose, so it passes through the gut as dietary fibre (roughage). There is more on cellulose in Biomolecules and metabolism.
+[bio8-s2.3.6] Chitin is a polysaccharide that contains nitrogen. It forms the cell walls of fungi and the exoskeletons (hard outer coverings) of insects and other arthropods.
+[bio8-s2.3.7] Diagram: a chain of hexagons for starch (unbranched amylose and branched amylopectin), a more branched chain for glycogen, and parallel straight chains linked by cross-links for cellulose fibres.
+[bio8-s2.4.b] Lipids are the second biomolecule group. The triglyceride, one of the main kinds, is built from just two kinds of smaller molecule joined by condensation.
+[bio8-s2.4.0] Lipids are fats, oils and related compounds such as phospholipids. They contain carbon, hydrogen and oxygen, with much less oxygen in proportion to carbon and hydrogen than carbohydrates, so they are not of the form Cx(H₂O)y. Phospholipids also contain phosphorus.
+[bio8-s2.4.1] Lipids are insoluble in water but dissolve in organic solvents such as ethanol.
+[bio8-s2.4.2] A triglyceride is one glycerol molecule joined to three fatty acids. Glycerol is a small molecule with three carbons, each carrying an –OH group, so it can bond to three fatty acids.
+[bio8-s2.4.3] A fatty acid is a long hydrocarbon chain of carbon and hydrogen atoms with an acid (carboxyl, –COOH) group at one end.
+[bio8-s2.4.4] Each fatty acid joins to glycerol by condensation, so forming one triglyceride releases three water molecules. The bond formed is an ester bond.
+[bio8-s2.4.5] Hydrolysis by lipase (an enzyme that digests fats) reverses this, giving glycerol and fatty acids. There is more on this in The Digestive System.
+[bio8-s2.4.6] Diagram: a triglyceride drawn as an E shape, with a vertical glycerol bar and three horizontal fatty acid tails, labelled glycerol, fatty acid and 3 H₂O removed.
+[bio8-s2.5.b] Fats and oils have the same basic unit, the triglyceride. They differ in the fatty acids attached, and that decides whether they are solid or liquid at room temperature.
+[bio8-s2.5.0] There are many different fatty acids, varying in chain length and in whether they contain carbon–carbon double bonds. Glycerol combines with different fatty acids to give many different fats and oils.
+[bio8-s2.5.1] Saturated fatty acids have no C=C double bonds, so the chain holds the maximum hydrogen. Their straight chains pack closely, so fats rich in them are solid at room temperature.
+[bio8-s2.5.2] Saturated examples are butter, lard and the fat on meat. These are mostly animal fats.
+[bio8-s2.5.3] Unsaturated fatty acids have one or more C=C double bonds, which put kinks (bends) in the chain. Kinked chains pack loosely, so oils are liquid at room temperature.
+[bio8-s2.5.4] Unsaturated examples are olive oil, sunflower oil and fish oils. These are mostly from plants and fish.
+[bio8-s2.6.b] A phospholipid is a triglyceride with one change: a phosphate group takes the place of a fatty acid. That small change gives the molecule one end that likes water and one that avoids it.
+[bio8-s2.6.0] A phospholipid is glycerol joined to two fatty acids and a phosphate-containing group in place of the third fatty acid.
+[bio8-s2.6.1] The phosphate head is hydrophilic (attracted to water). The two fatty acid tails are hydrophobic (repelled by water).
+[bio8-s2.6.2] In water, phospholipids arrange themselves in a double layer (bilayer), with the heads facing the watery fluid on each side and the tails pointing inwards, away from the water.
+[bio8-s2.6.3] This bilayer is the basis of every cell membrane. There is more on this in Transport Across Membranes and The Unit of Life — The Cell.
+[bio8-s2.6.4] Diagram: a phospholipid drawn as a circle (head) with two wavy tails, labelled hydrophilic phosphate head and hydrophobic fatty acid tails; and a section of a bilayer.
+[bio8-s2.7.b] Proteins are the third biomolecule group. Every protein is a chain built from the same 20 kinds of amino acid, joined by peptide bonds.
+[bio8-s2.7.0] Proteins contain carbon, hydrogen, oxygen and nitrogen, and sometimes sulfur, phosphorus or other elements. Sulfur is in some amino acids such as cysteine and methionine, phosphorus is in casein (the main protein of milk), and iron is in haemoglobin. There is more on this in Minerals.
+[bio8-s2.7.1] Proteins are made of amino acids. There are 20 different amino acids in the proteins of living things.
+[bio8-s2.7.2] Each amino acid has a central carbon atom bonded to an amino group (–NH₂), an acid (carboxyl, –COOH) group, a hydrogen atom and a variable side group (R group). Only the R group differs between amino acids.
+[bio8-s2.7.3] Humans cannot make some amino acids (essential amino acids), so these must be taken in from food.
+[bio8-s2.7.4] Amino acids join by condensation between the –COOH group of one and the –NH₂ group of the next, releasing water. The bond formed is a peptide bond.
+[bio8-s2.7.5] Two amino acids form a dipeptide; a short chain is a peptide; a long chain is a polypeptide. A protein is one or more polypeptides folded into a particular shape.
+[bio8-s2.7.6] The sequence of amino acids in a polypeptide (its primary structure) is set by a gene. Because 20 amino acids can be arranged in any order and length, a vast number of different proteins is possible.
+[bio8-s2.7.7] Diagram: the general structure of an amino acid, a central carbon with –NH₂, –COOH, –H and –R attached; and two amino acids joined by a peptide bond with H₂O released.
+[bio8-s2.8.b] A polypeptide chain does not stay straight. It folds into a precise shape, and that shape is what lets a protein do its job. Damage the shape and the job is lost.
+[bio8-s2.8.0] The chain coils into a helix or folds into a pleated sheet, held by hydrogen bonds (secondary structure). This folds further into a precise three-dimensional shape (tertiary structure), held by bonds between R groups, including sulfur bridges between cysteine units.
+[bio8-s2.8.1] Some proteins consist of several polypeptides fitted together (quaternary structure). Haemoglobin has four polypeptide chains.
+[bio8-s2.8.2] The shape determines the function, because other molecules must fit it. An enzyme’s active site or an antibody’s binding site fits only particular molecules.
+[bio8-s2.8.3] Heat, extremes of pH and some chemicals break the bonds holding the shape, so the protein loses its shape and function. This is denaturation, usually permanent, e.g. egg white turns solid and white when cooked. There is more on this in Enzymes.
+[bio8-s2.8.4] Fibrous proteins are long strands, insoluble and structural, such as keratin (hair, nails) and collagen (skin, tendons).
+[bio8-s2.8.5] Globular proteins are folded into compact, roughly spherical shapes and are usually soluble, e.g. enzymes, antibodies, haemoglobin and insulin.
+[bio8-s2.9.b] Nucleic acids are the fourth biomolecule group. Like the other groups, they are built from repeating units, which are called nucleotides.
+[bio8-s2.9.0] Nucleic acids (DNA and RNA) are polymers of nucleotides. Each nucleotide contains a sugar, a phosphate group and a nitrogenous base, so nucleic acids contain C, H, O, N and P. There is more on this in DNA, RNA and the Genetic Code.
+[bio8-s2.10.b] Putting the four groups side by side makes the differences easy to compare: which elements each contains, what its units are, which bond joins them and an example.
+[bio8-s2.10.0] Carbohydrate: C, H, O; monosaccharides; glycosidic bond; glucose, sucrose, starch.
+[bio8-s2.10.1] Lipid: C, H, O (plus P in phospholipids); glycerol and fatty acids; ester bond; triglycerides, phospholipids.
+[bio8-s2.10.2] Protein: C, H, O, N (sometimes S, P or other elements); amino acids; peptide bond; enzymes, keratin.
+[bio8-s2.10.3] Nucleic acid: C, H, O, N, P; nucleotides; DNA, RNA.

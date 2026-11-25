@@ -1,0 +1,557 @@
+{
+ "geo-region-ireland-s2.21.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.2.3",
+    "strength": "helpful",
+    "why": "high-tech firms seek graduates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.21.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.2.2",
+    "strength": "helpful",
+    "why": "labour skills supply",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.22.b": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.0",
+    "strength": "helpful",
+    "why": "markets as location factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.22.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.0",
+    "strength": "helpful",
+    "why": "market size",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.22.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.22.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.1",
+    "strength": "helpful",
+    "why": "ports for exports",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.23.b": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.1.7",
+    "strength": "helpful",
+    "why": "infrastructure defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.23.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.3.7",
+    "strength": "helpful",
+    "why": "motorways, broadband link firms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.23.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.4.6",
+    "strength": "helpful",
+    "why": "EU funds support regions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.23.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.0.0",
+    "strength": "helpful",
+    "why": "bulk-reducing food processing near source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.23.3": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.2.0",
+    "strength": "helpful",
+    "why": "raw materials as location factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.24.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.0.b",
+    "strength": "helpful",
+    "why": "transport costs decide location",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.1": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.2.2",
+    "strength": "helpful",
+    "why": "labour supply",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.17.1",
+    "strength": "helpful",
+    "why": "branch plant vulnerability",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-economic-activities-s2.21.3",
+    "strength": "helpful",
+    "why": "DEC closure 1993",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.3": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.4.4",
+    "strength": "helpful",
+    "why": "regional policy steers investment",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.24.4": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.1.7",
+    "strength": "helpful",
+    "why": "infrastructure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.25.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.25.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.6": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.26.7": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.27.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.28.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.29.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.30.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.31.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.31.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.31.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.32.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.3": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.13.b",
+    "strength": "helpful",
+    "why": "Galway medtech cluster",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.33.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.33.6": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.34.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.6": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.35.7": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.36.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.37.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.2": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.27.1",
+    "strength": "helpful",
+    "why": "National Broadband Plan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.3": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.27.3",
+    "strength": "helpful",
+    "why": "Our Rural Future",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.4": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.27.0",
+    "strength": "helpful",
+    "why": "remote working",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.38.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.38.6": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.4.3",
+    "strength": "helpful",
+    "why": "Udaras na Gaeltachta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.39.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.39.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.39.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.39.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.39.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.40.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.40.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.40.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.40.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.40.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.0": {
+  "needs": [
+   {
+    "id": "geo-economic-activities-s2.4.3",
+    "strength": "helpful",
+    "why": "Udaras na Gaeltachta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-ireland-s2.41.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.5": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.6": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.41.7": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.b": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.0": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.1": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.2": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.3": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.4": {
+  "needs": []
+ },
+ "geo-region-ireland-s2.42.5": {
+  "needs": []
+ }
+}

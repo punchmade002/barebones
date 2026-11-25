@@ -1,0 +1,1063 @@
+{
+ "geo-region-continental-s1.29.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.29.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.29.b",
+    "strength": "helpful",
+    "why": "Indus mostly outside India",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.29.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.29.0",
+    "strength": "helpful",
+    "why": "Indus flows into Pakistan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.30.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.2",
+    "strength": "essential",
+    "why": "plateau tilts west to east",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.30.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.2",
+    "strength": "helpful",
+    "why": "plateau tilt gives east flow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.30.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.30.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.24.1",
+    "strength": "helpful",
+    "why": "eastern coast deltas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.30.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.31.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.2",
+    "strength": "helpful",
+    "why": "general eastward tilt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.31.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.23.1",
+    "strength": "helpful",
+    "why": "Narmada flows west between ranges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.31.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.30.2",
+    "strength": "helpful",
+    "why": "contrast with deltas",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.32.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.32.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.3",
+    "strength": "helpful",
+    "why": "monsoon rain season",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.32.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.20.1",
+    "strength": "helpful",
+    "why": "alluvium deposited by rivers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.32.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.32.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.20.0",
+    "strength": "helpful",
+    "why": "flat plains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.33.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.33.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.33.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.33.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.31.0",
+    "strength": "helpful",
+    "why": "Narmada flows west",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.33.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.33.2",
+    "strength": "essential",
+    "why": "displacement by the dam",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.33.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.33.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.30.3",
+    "strength": "helpful",
+    "why": "Kaveri dispute",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.29.3",
+    "strength": "helpful",
+    "why": "Indus Waters Treaty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.34.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.34.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.34.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.2",
+    "strength": "helpful",
+    "why": "Varanasi on the Ganges",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.34.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.34.0",
+    "strength": "helpful",
+    "why": "pollution being cleaned up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.34.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.34.0",
+    "strength": "helpful",
+    "why": "pollution being cleaned up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.35.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.35.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.35.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.35.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.20.1",
+    "strength": "helpful",
+    "why": "alluvium on the plains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.36.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.36.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.36.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.9.2",
+    "strength": "helpful",
+    "why": "GDP meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.36.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.36.0",
+    "strength": "helpful",
+    "why": "employment share",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.37.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.37.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.37.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.24.1",
+    "strength": "helpful",
+    "why": "deltas suit rice",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.37.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.37.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.37.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.11.3",
+    "strength": "helpful",
+    "why": "cotton on black soil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.37.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.43.b",
+    "strength": "helpful",
+    "why": "White Revolution co-operatives",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.38.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.3",
+    "strength": "essential",
+    "why": "monsoon season",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.38.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.3",
+    "strength": "essential",
+    "why": "monsoon sowing and rain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.38.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.38.0",
+    "strength": "helpful",
+    "why": "contrast with kharif",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.38.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.6.3",
+    "strength": "essential",
+    "why": "western disturbances rain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.38.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.38.0",
+    "strength": "helpful",
+    "why": "kharif crops",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.39.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.39.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.0.2",
+    "strength": "helpful",
+    "why": "tropics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.39.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.3",
+    "strength": "helpful",
+    "why": "monsoon rain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.39.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.10.0",
+    "strength": "helpful",
+    "why": "alluvial soils",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.11.0",
+    "strength": "helpful",
+    "why": "black soils",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.39.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.20.0",
+    "strength": "helpful",
+    "why": "flat plains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.39.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.19.2",
+    "strength": "essential",
+    "why": "perennial Himalayan rivers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.40.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.40.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.8.0",
+    "strength": "helpful",
+    "why": "drought and floods from monsoon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.40.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.13.2",
+    "strength": "helpful",
+    "why": "laterite infertile",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.10.2",
+    "strength": "helpful",
+    "why": "desert soils",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.40.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.14.0",
+    "strength": "helpful",
+    "why": "thin mountain soils",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.40.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.15.0",
+    "strength": "helpful",
+    "why": "erosion",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.15.1",
+    "strength": "helpful",
+    "why": "salinisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.40.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.41.3",
+    "strength": "helpful",
+    "why": "overused groundwater",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.41.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.41.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.10.3",
+    "strength": "helpful",
+    "why": "Indira Gandhi Canal in Thar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.41.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.41.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.42.1",
+    "strength": "helpful",
+    "why": "Green Revolution package",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.41.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.40.4",
+    "strength": "essential",
+    "why": "water table falling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.42.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.42.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.42.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.42.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.42.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.42.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.41.2",
+    "strength": "helpful",
+    "why": "irrigation for Green Revolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.42.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.42.1",
+    "strength": "helpful",
+    "why": "package of seed fertiliser machinery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.42.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.41.3",
+    "strength": "helpful",
+    "why": "groundwater depletion",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.15.2",
+    "strength": "helpful",
+    "why": "nutrient exhaustion",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.43.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.43.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.43.b",
+    "strength": "helpful",
+    "why": "co-operatives",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.43.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.43.0",
+    "strength": "helpful",
+    "why": "co-operative dairying system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.43.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.43.0",
+    "strength": "essential",
+    "why": "Operation Flood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.43.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.44.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.44.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.44.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.44.0",
+    "strength": "helpful",
+    "why": "small holdings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.44.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.44.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.44.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.44.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.45.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.45.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.45.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.45.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.45.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.46.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.46.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.44.3",
+    "strength": "helpful",
+    "why": "farmer debt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.46.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.38.0",
+    "strength": "helpful",
+    "why": "kharif rice harvest",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.46.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.46.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.46.2",
+    "strength": "essential",
+    "why": "the farm laws protests",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.47.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.47.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.47.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.47.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.47.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.43.2",
+    "strength": "helpful",
+    "why": "White Revolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.47.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.48.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.48.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.48.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.48.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.48.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.6",
+    "strength": "helpful",
+    "why": "Sundarbans mangrove",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.48.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.48.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.48.4",
+    "strength": "helpful",
+    "why": "forest loss to respond to",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.49.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.49.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.49.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.49.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.49.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.50.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.50.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.21.3",
+    "strength": "helpful",
+    "why": "Chota Nagpur Plateau",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.50.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.50.0",
+    "strength": "essential",
+    "why": "Chota Nagpur Plateau",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.50.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.50.0",
+    "strength": "helpful",
+    "why": "Chota Nagpur Plateau",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.50.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.51.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.51.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.51.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.51.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.52.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.52.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.52.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.53.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.53.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.19.3",
+    "strength": "essential",
+    "why": "Himalayan hydroelectric potential",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.53.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.53.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.53.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.54.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.54.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.54.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.54.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.7",
+    "strength": "helpful",
+    "why": "Hooghly river port",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.54.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.50.1",
+    "strength": "helpful",
+    "why": "Chota Nagpur coal and iron ore",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.55.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.55.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.55.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.55.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.55.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.56.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.56.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.56.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.56.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.56.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.56.1",
+    "strength": "helpful",
+    "why": "trade barriers lowered",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.57.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.57.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.57.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.57.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.57.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.58.b": {
+  "cost": 1,
+  "needs": []
+ }
+}

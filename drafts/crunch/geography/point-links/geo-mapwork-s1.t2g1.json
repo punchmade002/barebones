@@ -1,0 +1,1164 @@
+{
+ "geo-mapwork-s1.18.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.6.2",
+    "strength": "helpful",
+    "why": "radial drainage pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.6.4",
+    "strength": "helpful",
+    "why": "centripetal drainage pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.18.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.6.3",
+    "strength": "helpful",
+    "why": "deranged drainage on glacial deposits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.18.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.18.1",
+    "strength": "helpful",
+    "why": "trellised pattern named in example",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-rivers-s1.6.3",
+    "strength": "helpful",
+    "why": "Cavan drumlin deranged example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-mapwork-s1.19.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "helpful",
+    "why": "flat areas and crowded contours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.19.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.10.0",
+    "strength": "essential",
+    "why": "valley contour Vs pointing upstream",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.10.b",
+    "strength": "helpful",
+    "why": "meander definition",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-rivers-s1.11.1",
+    "strength": "helpful",
+    "why": "oxbow lake formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.19.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.12.2",
+    "strength": "helpful",
+    "why": "floodplain features",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "helpful",
+    "why": "no contours means flat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.12.3",
+    "strength": "helpful",
+    "why": "levees are natural embankments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.19.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.15.2",
+    "strength": "helpful",
+    "why": "braided channels around islands",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.19.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.0.3",
+    "strength": "essential",
+    "why": "confluence definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.19.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.13.0",
+    "strength": "helpful",
+    "why": "delta forms at river mouth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.19.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.8.0",
+    "strength": "helpful",
+    "why": "waterfall on resistant rock",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "helpful",
+    "why": "crowded contours mean steep drop",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "helpful",
+    "why": "contour spacing shows steepness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "helpful",
+    "why": "close contours mean steep",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.20.0",
+    "strength": "essential",
+    "why": "tarn sits in a corrie",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "helpful",
+    "why": "close contours mean steep sides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.10.0",
+    "strength": "helpful",
+    "why": "valley contour shapes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.20.3",
+    "strength": "essential",
+    "why": "ribbon lake lies in U-shaped valley",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.10.6",
+    "strength": "helpful",
+    "why": "closed contour rings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.21.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.21.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "helpful",
+    "why": "crowded contours mean steep",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.21.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.21.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.21.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.21.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.21.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.22.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.20.1",
+    "strength": "helpful",
+    "why": "tarn as glacial lake",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.20.4",
+    "strength": "helpful",
+    "why": "ribbon lake as glacial lake",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.19.1",
+    "strength": "helpful",
+    "why": "oxbow lake as fluvial",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.21.4",
+    "strength": "helpful",
+    "why": "lagoon as coastal lake",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.23.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "steepness from contour spacing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.23.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "crowded contours mean steep",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "essential",
+    "why": "six-figure grid reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.23.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "wide spacing means gentle",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "essential",
+    "why": "six-figure grid reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.23.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.24.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.24.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.24.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.24.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.24.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.24.0",
+    "strength": "helpful",
+    "why": "nucleated pattern",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.24.1",
+    "strength": "helpful",
+    "why": "linear pattern",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.24.2",
+    "strength": "helpful",
+    "why": "dispersed pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.24.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.24.1",
+    "strength": "essential",
+    "why": "linear ribbon pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.25.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.4",
+    "strength": "essential",
+    "why": "four-figure grid reference",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "helpful",
+    "why": "reading height from contours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "crowded contours mean steep",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.12.2",
+    "strength": "helpful",
+    "why": "floodplain floods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.25.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.4",
+    "strength": "essential",
+    "why": "four-figure grid reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.25.4",
+    "strength": "helpful",
+    "why": "high density settlement factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.26.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.26.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.26.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.25.5",
+    "strength": "helpful",
+    "why": "factors favouring settlement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.26.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.4",
+    "strength": "helpful",
+    "why": "grid reference evidence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.26.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.24.0",
+    "strength": "helpful",
+    "why": "nucleated pattern",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.24.1",
+    "strength": "helpful",
+    "why": "linear pattern",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.24.2",
+    "strength": "helpful",
+    "why": "dispersed pattern",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.25.0",
+    "strength": "helpful",
+    "why": "absence on high land",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.27.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.27.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-mapwork-s1.27.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.27.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.27.1",
+    "strength": "helpful",
+    "why": "promontory forts and crannogs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.27.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.27.0",
+    "strength": "helpful",
+    "why": "megalithic tomb and standing stone",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "helpful",
+    "why": "six-figure reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.28.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.28.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.31.0",
+    "strength": "helpful",
+    "why": "rath lios dun caher names",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.28.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.28.0",
+    "strength": "helpful",
+    "why": "ringfort names",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.28.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.28.0",
+    "strength": "helpful",
+    "why": "ringfort period",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.28.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.28.0",
+    "strength": "helpful",
+    "why": "early Christian site types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.28.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.28.0",
+    "strength": "helpful",
+    "why": "ringfort and church site",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "helpful",
+    "why": "six-figure reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.29.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.29.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-mapwork-s1.29.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.27.1",
+    "strength": "helpful",
+    "why": "fulachta fia Bronze Age",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.28.0",
+    "strength": "helpful",
+    "why": "ringforts early Christian",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.29.0",
+    "strength": "helpful",
+    "why": "mottes Norman",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.29.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.29.0",
+    "strength": "helpful",
+    "why": "Norman castles and bridging towns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.29.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.29.0",
+    "strength": "helpful",
+    "why": "Norman sites and abbeys",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.29.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.29.0",
+    "strength": "helpful",
+    "why": "motte and castle",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "helpful",
+    "why": "six-figure reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.30.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.30.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.30.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.30.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.30.0",
+    "strength": "helpful",
+    "why": "planned towns and estates",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.30.1",
+    "strength": "helpful",
+    "why": "transport and industry sites",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.31.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.31.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-mapwork-s1.31.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-mapwork-s1.31.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-mapwork-s1.31.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.31.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.32.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.32.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.32.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.32.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.32.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.32.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "widely spaced contours mean gentle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.32.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.24.2",
+    "strength": "helpful",
+    "why": "dispersed farms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.32.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.32.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.32.0",
+    "strength": "helpful",
+    "why": "bridging point",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.32.1",
+    "strength": "helpful",
+    "why": "route focus",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.32.2",
+    "strength": "helpful",
+    "why": "defence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.33.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.33.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.33.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.32.1",
+    "strength": "helpful",
+    "why": "route focus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.33.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.33.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.33.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.33.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.33.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.33.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.34.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.34.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.32.0",
+    "strength": "helpful",
+    "why": "bridging point origin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.34.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.24.4",
+    "strength": "helpful",
+    "why": "ribbon development",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.35.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "essential",
+    "why": "six-figure grid reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.35.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "widely spaced contours mean flat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.35.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.35.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.12.2",
+    "strength": "helpful",
+    "why": "floodplain flood risk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.35.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.35.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.36.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.36.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.36.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.36.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.36.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.36.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.36.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.36.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.37.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "helpful",
+    "why": "contours join equal heights",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.37.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "essential",
+    "why": "contours as lines of equal height",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.37.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.38.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.38.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.6",
+    "strength": "helpful",
+    "why": "six-figure grid reference",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.5.0",
+    "strength": "helpful",
+    "why": "measuring straight-line distance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.38.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.6.1",
+    "strength": "helpful",
+    "why": "counting squares for irregular area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.38.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.2",
+    "strength": "helpful",
+    "why": "direction of travel",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.14.1",
+    "strength": "helpful",
+    "why": "road letters N and R",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.15.1",
+    "strength": "helpful",
+    "why": "Gaeltacht cultural area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.38.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.11.2",
+    "strength": "helpful",
+    "why": "aspect of a slope",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.13.b",
+    "strength": "helpful",
+    "why": "profile matching",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.38.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.16.0",
+    "strength": "helpful",
+    "why": "sketch map scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.38.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.23.0",
+    "strength": "helpful",
+    "why": "very steep slope location",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.38.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.32.b",
+    "strength": "helpful",
+    "why": "town development reasons",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.24.b",
+    "strength": "helpful",
+    "why": "settlement patterns",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.26.b",
+    "strength": "helpful",
+    "why": "settlement variations",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.25.b",
+    "strength": "helpful",
+    "why": "absence and density",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.38.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.27.b",
+    "strength": "helpful",
+    "why": "historic settlement phases",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.35.b",
+    "strength": "helpful",
+    "why": "site suitability",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.36.b",
+    "strength": "helpful",
+    "why": "economic activity and tourism",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,546 @@
+{
+"hist-eur1-s9.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.0.1",
+"strength": "helpful",
+"why": "his Manchester mill work",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.0.3",
+"strength": "essential",
+"why": "David Dale, owner of the mills",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s9.0.1",
+"strength": "helpful",
+"why": "the Chorlton partners",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.0.2",
+"strength": "helpful",
+"why": "environment forms character",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.1.2",
+"strength": "essential",
+"why": "the pauper children",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.0.4",
+"strength": "helpful",
+"why": "the earlier partners",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.1.4",
+"strength": "essential",
+"why": "the 1813 partners",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.0.2",
+"strength": "helpful",
+"why": "environment forms character",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.4.0",
+"strength": "helpful",
+"why": "factory system conditions",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.1.2",
+"strength": "essential",
+"why": "the pauper children apprentices",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.2.0",
+"strength": "helpful",
+"why": "the long mill day",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.2.3",
+"strength": "essential",
+"why": "discipline by fines and punishment",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.3.3",
+"strength": "helpful",
+"why": "replacement for punishment",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.1.5",
+"strength": "helpful",
+"why": "profits spent on community",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.2.1",
+"strength": "helpful",
+"why": "poor housing and streets",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.4.0",
+"strength": "essential",
+"why": "the Institute",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.4.1",
+"strength": "essential",
+"why": "the infant school",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.2.4",
+"strength": "helpful",
+"why": "environment shapes character",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.1.2",
+"strength": "helpful",
+"why": "pauper apprentices",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.3.0",
+"strength": "helpful",
+"why": "his child employment reforms",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.5.2",
+"strength": "essential",
+"why": "his campaign for a law",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.5.3",
+"strength": "essential",
+"why": "the 1819 Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.5.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s9.5.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.3.1",
+"strength": "helpful",
+"why": "reforms like shorter hours",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.1.4",
+"strength": "essential",
+"why": "William Allen as partner",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.7.0",
+"strength": "essential",
+"why": "New Harmony",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.6.2",
+"strength": "helpful",
+"why": "Owen going to the United States",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.7.0",
+"strength": "essential",
+"why": "New Harmony",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.0.3",
+"strength": "helpful",
+"why": "the GNCTU",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.5.0",
+"strength": "helpful",
+"why": "Owen's writings",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.3.1",
+"strength": "helpful",
+"why": "reforms needing owner control",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.7.5",
+"strength": "helpful",
+"why": "paternalist versus co-operative",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.1.2",
+"strength": "helpful",
+"why": "Owen's socialism",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.8.2",
+"strength": "helpful",
+"why": "reliance on Owen's control",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.8.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.6.0",
+"strength": "helpful",
+"why": "profitability under Owen",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.7.5",
+"strength": "helpful",
+"why": "why New Lanark was not copied",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.5.3",
+"strength": "essential",
+"why": "the 1819 Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s9.4.6",
+"strength": "helpful",
+"why": "the infant school",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s9.7.4",
+"strength": "helpful",
+"why": "the co-operative movement",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.5.4",
+"strength": "helpful",
+"why": "weakness of the 1819 Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s9.6.1",
+"strength": "helpful",
+"why": "quarrel with partners",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s9.7.1",
+"strength": "helpful",
+"why": "New Harmony failure",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.8.0",
+"strength": "helpful",
+"why": "divided contemporary opinion",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.9.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.8.3",
+"strength": "helpful",
+"why": "historians' debate on paternalism",
+"confidence": "high"
+}
+]
+}
+}

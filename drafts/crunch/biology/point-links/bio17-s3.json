@@ -1,0 +1,1068 @@
+{
+ "bio17-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s3.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.3.0",
+    "strength": "helpful",
+    "why": "gene as DNA section",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.0.0",
+    "strength": "helpful",
+    "why": "gene mutation defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.2.0",
+    "strength": "helpful",
+    "why": "DNA replication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.0.0",
+    "strength": "helpful",
+    "why": "what a mutation is",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.0.3",
+    "strength": "helpful",
+    "why": "mutagen defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.0.2",
+    "strength": "helpful",
+    "why": "errors in replication",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.0.0",
+    "strength": "helpful",
+    "why": "mutation as DNA change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.1.0",
+    "strength": "helpful",
+    "why": "contrast with somatic mutation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.4.1",
+    "strength": "essential",
+    "why": "non-coding DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.6.4",
+    "strength": "helpful",
+    "why": "sequence change alters protein shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.1.4",
+    "strength": "helpful",
+    "why": "beneficial mutation in environment",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.0.1",
+    "strength": "essential",
+    "why": "mutation creates new allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "helpful",
+    "why": "codon of three bases",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.3.0",
+    "strength": "helpful",
+    "why": "gene as DNA section",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.0.2",
+    "strength": "helpful",
+    "why": "replication errors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.2.0",
+    "strength": "helpful",
+    "why": "DNA replication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "essential",
+    "why": "codon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.2.3",
+    "strength": "essential",
+    "why": "substitution changes one codon",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s3.1.3",
+    "strength": "helpful",
+    "why": "degenerate code",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.2.3",
+    "strength": "essential",
+    "why": "substitution changes one codon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.1.1",
+    "strength": "essential",
+    "why": "stop codons",
+    "confidence": "high"
+   },
+   {
+    "id": "bio17-s3.2.3",
+    "strength": "helpful",
+    "why": "substitution changes one codon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s3.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s3.1.2",
+    "strength": "essential",
+    "why": "code read in threes, frameshift",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.3.0",
+    "strength": "essential",
+    "why": "frameshift",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.3.0",
+    "strength": "essential",
+    "why": "frameshift",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.3.0",
+    "strength": "essential",
+    "why": "frameshift contrast",
+    "confidence": "high"
+   },
+   {
+    "id": "bio17-s2.6.4",
+    "strength": "helpful",
+    "why": "missing amino acid alters folding",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.3.2",
+    "strength": "helpful",
+    "why": "using the codon table",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.2.4",
+    "strength": "helpful",
+    "why": "silent substitution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.2.5",
+    "strength": "helpful",
+    "why": "missense substitution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.2.6",
+    "strength": "helpful",
+    "why": "nonsense substitution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.3.0",
+    "strength": "essential",
+    "why": "frameshift from insertion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.3.0",
+    "strength": "essential",
+    "why": "frameshift from deletion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.3.3",
+    "strength": "essential",
+    "why": "three-base deletion, no frameshift",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.3.0",
+    "strength": "helpful",
+    "why": "frameshift analogy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.2.3",
+    "strength": "helpful",
+    "why": "substitution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.2.3",
+    "strength": "helpful",
+    "why": "substitution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.5.0",
+    "strength": "essential",
+    "why": "beta-globin gene substitution",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "helpful",
+    "why": "codon",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.5.1",
+    "strength": "essential",
+    "why": "valine replacing glutamic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.5.2",
+    "strength": "essential",
+    "why": "sickled red cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s3.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.5.4",
+    "strength": "essential",
+    "why": "carrier resistant to malaria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.3.3",
+    "strength": "helpful",
+    "why": "three-base deletion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.0",
+    "strength": "helpful",
+    "why": "chromosome",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.3.3",
+    "strength": "essential",
+    "why": "three-base deletion, no frameshift",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.6.1",
+    "strength": "essential",
+    "why": "missing amino acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.6.2",
+    "strength": "helpful",
+    "why": "faulty protein folding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.6.0",
+    "strength": "helpful",
+    "why": "cystic fibrosis cause",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.2.0",
+    "strength": "helpful",
+    "why": "point mutation contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.0",
+    "strength": "essential",
+    "why": "chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.0.3",
+    "strength": "helpful",
+    "why": "ionising radiation as mutagen",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s3.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.2.2",
+    "strength": "helpful",
+    "why": "centromere",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.3",
+    "strength": "essential",
+    "why": "lettered chromosome notation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.3",
+    "strength": "helpful",
+    "why": "chromosome letter model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.3",
+    "strength": "essential",
+    "why": "chromosome letter model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.8.0",
+    "strength": "essential",
+    "why": "deletion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.3",
+    "strength": "essential",
+    "why": "chromosome letter model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.8.2",
+    "strength": "essential",
+    "why": "duplication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.0",
+    "strength": "helpful",
+    "why": "chromosomal mutation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.3",
+    "strength": "essential",
+    "why": "chromosome letter model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.9.0",
+    "strength": "essential",
+    "why": "inversion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.4",
+    "strength": "essential",
+    "why": "non-homologous chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.9.2",
+    "strength": "essential",
+    "why": "reciprocal translocation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.9.2",
+    "strength": "essential",
+    "why": "translocation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.3",
+    "strength": "helpful",
+    "why": "chromosome letter model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s3.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.8.0",
+    "strength": "essential",
+    "why": "deletion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.10.0",
+    "strength": "essential",
+    "why": "cri du chat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.8.2",
+    "strength": "essential",
+    "why": "duplication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.10.2",
+    "strength": "essential",
+    "why": "Charcot-Marie-Tooth duplication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.10.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.9.0",
+    "strength": "essential",
+    "why": "inversion breaks gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.9.1",
+    "strength": "helpful",
+    "why": "inversion often harmless",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.9.2",
+    "strength": "helpful",
+    "why": "translocation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s3.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.9.2",
+    "strength": "essential",
+    "why": "reciprocal translocation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.11.1",
+    "strength": "essential",
+    "why": "translocation joins ABL and BCR",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.11.2",
+    "strength": "essential",
+    "why": "BCR-ABL fusion gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.1.0",
+    "strength": "essential",
+    "why": "somatic mutation not inherited",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.9.2",
+    "strength": "helpful",
+    "why": "translocation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.11.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.11.3",
+    "strength": "essential",
+    "why": "BCR-ABL enzyme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.12.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.0",
+    "strength": "helpful",
+    "why": "structural chromosomal mutation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.0",
+    "strength": "helpful",
+    "why": "structural change types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.12.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.0.4",
+    "strength": "essential",
+    "why": "homologous pair",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.12.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.12.1",
+    "strength": "essential",
+    "why": "non-disjunction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.12.2",
+    "strength": "essential",
+    "why": "Down syndrome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.12.2",
+    "strength": "essential",
+    "why": "Down syndrome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.12.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.9.2",
+    "strength": "essential",
+    "why": "translocation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.13.2",
+    "strength": "helpful",
+    "why": "karyotype",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s3.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.3",
+    "strength": "essential",
+    "why": "sex chromosomes XX XY",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.3",
+    "strength": "essential",
+    "why": "sex chromosomes XX XY",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.13.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.0.4",
+    "strength": "essential",
+    "why": "homologous pairs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.13.2",
+    "strength": "essential",
+    "why": "karyotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s3.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.2.0",
+    "strength": "essential",
+    "why": "point mutation",
+    "confidence": "high"
+   },
+   {
+    "id": "bio17-s3.7.0",
+    "strength": "essential",
+    "why": "chromosomal mutation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.2.1",
+    "strength": "helpful",
+    "why": "mispairing in replication",
+    "confidence": "high"
+   },
+   {
+    "id": "bio17-s3.7.1",
+    "strength": "helpful",
+    "why": "chromosome breakage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s3.7.2",
+    "strength": "essential",
+    "why": "karyotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s3.14.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s3.5.0",
+    "strength": "helpful",
+    "why": "sickle-cell example",
+    "confidence": "low"
+   }
+  ]
+ }
+}

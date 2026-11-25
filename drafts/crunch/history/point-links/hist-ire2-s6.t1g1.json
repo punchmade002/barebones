@@ -1,0 +1,549 @@
+{
+ "hist-ire2-s6.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s6.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.0.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s6.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s5.0.b",
+    "strength": "helpful",
+    "why": "unionism as a political camp",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s6.0.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.0.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.0.2",
+    "strength": "helpful",
+    "why": "Dublin society she led",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.0.0",
+    "strength": "helpful",
+    "why": "Married Women’s Property Acts",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s6.6.0",
+    "strength": "helpful",
+    "why": "Intermediate Education Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s5.0.3",
+    "strength": "helpful",
+    "why": "Gladstone’s Home Rule conversion, Liberal Unionists",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s6.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s5.0.b",
+    "strength": "helpful",
+    "why": "unionism",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s6.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.0.1",
+    "strength": "helpful",
+    "why": "first Ulster suffrage society",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s4.5.b",
+    "strength": "helpful",
+    "why": "the Irish Party under Redmond",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s6.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.3.0",
+    "strength": "helpful",
+    "why": "League’s founding and aims",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s4.5.b",
+    "strength": "helpful",
+    "why": "Irish Party",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s6.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s4.4.4",
+    "strength": "helpful",
+    "why": "Third Home Rule Bill",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s4.4.4",
+    "strength": "essential",
+    "why": "Third Home Rule Bill",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.4.b",
+    "strength": "helpful",
+    "why": "Sheehy-Skeffington as militant",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.3.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s6.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.3.0",
+    "strength": "helpful",
+    "why": "the Irish Women’s Franchise League",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.3.0",
+    "strength": "helpful",
+    "why": "League members",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s4.4.4",
+    "strength": "helpful",
+    "why": "Asquith and Home Rule Bill",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s6.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.3.4",
+    "strength": "helpful",
+    "why": "hunger strikes by suffragettes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.3.0",
+    "strength": "helpful",
+    "why": "founding the Franchise League",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s4.7.4",
+    "strength": "helpful",
+    "why": "Cumann na mBan",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s4.5.b",
+    "strength": "helpful",
+    "why": "the Irish Party",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s6.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s5.4.5",
+    "strength": "essential",
+    "why": "Ulster Day and the Covenant",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s4.7.4",
+    "strength": "essential",
+    "why": "Cumann na mBan",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s4.7.3",
+    "strength": "helpful",
+    "why": "the Volunteers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.3.1",
+    "strength": "helpful",
+    "why": "the Irish Citizen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s6.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.6.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s6.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.6.1",
+    "strength": "essential",
+    "why": "payment by results",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.6.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.1.2",
+    "strength": "helpful",
+    "why": "Margaret Byers and the Ladies’ Collegiate School",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.7.0",
+    "strength": "essential",
+    "why": "the Royal University",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s6.4.0",
+    "strength": "helpful",
+    "why": "Sheehy-Skeffington",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.7.0",
+    "strength": "essential",
+    "why": "the Royal University",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.7.3",
+    "strength": "essential",
+    "why": "the National University of Ireland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.7.4",
+    "strength": "helpful",
+    "why": "the NUI Senate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s6.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.0.4",
+    "strength": "helpful",
+    "why": "local government votes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s6.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.2.4",
+    "strength": "helpful",
+    "why": "Home Rule Bills and suffrage",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s6.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.6.0",
+    "strength": "helpful",
+    "why": "Intermediate system",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s6.7.3",
+    "strength": "helpful",
+    "why": "1908 Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.6.1",
+    "strength": "essential",
+    "why": "payment by results",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s6.7.3",
+    "strength": "helpful",
+    "why": "1908 Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.2.3",
+    "strength": "helpful",
+    "why": "Irish Party view of suffrage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s6.8.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s6.5.b",
+    "strength": "helpful",
+    "why": "nationalism and unionism entanglement",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -155,6 +155,10 @@ body.plain .page { max-width: 860px; margin: 0 auto; padding: 28px 20px 96px }
 .fold ul { list-style: none; margin: 0; padding: 0.3rem 0 0.5rem; border-top: 1px solid #DEDAD2 }
 .fold a { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 0.55rem 1.1rem 0.55rem 2.1rem; color: #38362F; font-size: 0.92rem; font-weight: 500; text-decoration: none }
 .fold a:hover { background: #FFFAF4; color: #C2410C }
+.fold li.is-crunched { opacity: 0.45 }
+.crunch-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.35rem 1rem; margin: 0 0 1rem; padding: 0.8rem 1.1rem; background: #F5F3EE; border-radius: 14px; color: var(--muted); font-size: 0.92rem }
+.crunch-line span { flex: 1 1 16rem }
+.crunch-line button, .crunch-line a { padding: 0; background: none; border: 0; color: #C23504; font: inherit; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; cursor: pointer }
 .fold .tags { display: flex; gap: 12px; align-items: center; flex-shrink: 0 }
 .fold .lvl { font-family: var(--mono); font-size: 0.7rem; color: var(--muted) }
 @media (prefers-reduced-motion: no-preference) { @supports (interpolate-size: allow-keywords) {
@@ -180,6 +184,8 @@ body.plain .page { max-width: 860px; margin: 0 auto; padding: 28px 20px 96px }
 <script src="https://cdn.jsdelivr.net/npm/jsxgraph@1.8.0/distrib/jsxgraphcore.js"></script>
 <script src="maths-skills/index.js?v=f32aeb0347"></script>
 <script src="maths-packs.js?v=1"></script>
+<script src="maths-crunch.js?v=1"></script>
+<script src="maths-ordinary-crunch.js?v=1"></script>
 <script>
 const KATEX_OPTS = { throwOnError: false, strict: 'ignore', macros: { '\\hl': '\\htmlClass{hl hl-#1}{#2}' },
   trust: ctx => ctx.command === '\\htmlClass' };
@@ -198,21 +204,46 @@ const gradeTag = g => GRADES.includes(g)
 const SKILL_ID = new URLSearchParams(location.search).get('skill');
 let LESSON = null;
 
+// ── Crunch Mode (CRUNCH_MODE.md), set up on the Maths page: the same rule as app.js crunchFilter ──
+// Each skill has the paper mark at which it's first hidden. H1/H2 start with what an H3 needs (most marks first);
+// "Completely hide" drops low-value skills for good. Ordinary students see O grades.
+let crunchReveal = false;
+const crunch = (() => {
+  let s = null;
+  try { s = JSON.parse(localStorage.getItem('bb-crunch') || '{}').maths } catch {}
+  const data = window.CRUNCH?.[MathsPacks.level === 'ordinary' ? 'maths-ordinary' : 'maths'];
+  if (!s?.on || !data) return null;
+  const PCT = { H1: 95, H2: 85, H3: 75, H4: 65, H5: 55, H6: 45, H7: 35, H8: 25 };
+  const target = PCT[s.grade] ?? 85, core = s.grade === 'H1' || s.grade === 'H2' ? PCT.H3 : target;
+  const level = Object.assign({}, ...Object.values(data.levels));
+  const state = id => { const v = level[id]?.[0]; return v == null || v < core ? 0 : s.hideAll && v >= target ? 2 : 1 };
+  return { state, grade: MathsPacks.level === 'ordinary' ? s.grade.replace('H', 'O') : s.grade };
+})();
+
 // ── no ?skill= (or an unknown one): the list of lessons by chapter ──
 function renderIndex() {
   const by = {};
-  for (const l of MathsPacks.list) (by[l.chapter] ||= []).push(l);      // already in chapter order, easiest first
+  const states = Object.fromEntries(MathsPacks.list.map(l => [l.id, crunch ? crunch.state(l.id) : 0]));
+  const crunched = Object.values(states).filter(v => v === 1).length, hidden = Object.values(states).filter(Boolean).length;
+  for (const l of MathsPacks.list) {
+    if (states[l.id] === 2 || (states[l.id] === 1 && !crunchReveal)) continue;   // Crunch Mode hides it
+    (by[l.chapter] ||= []).push(l);      // already in chapter order, easiest first
+  }
+  const total = c => MathsPacks.list.filter(l => l.chapter === c).length;
+  const note = crunch && hidden ? `<p class="crunch-line"><span>${crunchReveal && crunched ? 'Showing crunched skills, faded.' : `Crunch Mode (${crunch.grade}) hid ${hidden} of ${MathsPacks.list.length} skills.`}</span>
+    ${crunched ? `<button type="button" data-crunch-reveal>${crunchReveal ? 'Hide crunched skills' : 'Show crunched skills'}</button>` : ''}<a href="app/maths/#crunch">Change</a></p>` : '';
   // which chapters the student left open, so coming back from a skill keeps their place
   let open = [];
   try { open = JSON.parse(sessionStorage.getItem(OPEN_KEY)) || [] } catch {}
   document.title = 'Maths skills | Leaving Cert Maths | barebones';
   document.body.classList.add('plain');
-  app.innerHTML = `<a class="back" href="app/maths/">← Maths</a><section class="index"><h1>Maths skills</h1><div class="folds">
+  app.innerHTML = `<a class="back" href="app/maths/">← Maths</a><section class="index"><h1>Maths skills</h1>${note}<div class="folds">
     ${Object.keys(by).map(c => `<details class="fold" data-chapter="${esc(c)}"${open.includes(c) ? ' open' : ''}>
-      <summary><span class="fold-title">${esc(MathsPacks.chapters[c])}</span><span class="fold-count">${by[c].length} skill${by[c].length === 1 ? '' : 's'}</span></summary>
-      <ul>${by[c].map(l => `<li><a href="maths-learn.html?skill=${encodeURIComponent(l.id)}"><span>${esc(l.title)}</span><span class="tags">${gradeTag(l.grade)}<span class="lvl">${l.level}</span></span></a></li>`).join('')}</ul>
+      <summary><span class="fold-title">${esc(MathsPacks.chapters[c])}</span><span class="fold-count">${by[c].length < total(c) ? `${by[c].length} of ${total(c)}` : by[c].length} skill${total(c) === 1 ? '' : 's'}</span></summary>
+      <ul>${by[c].map(l => `<li${states[l.id] ? ' class="is-crunched"' : ''}><a href="maths-learn.html?skill=${encodeURIComponent(l.id)}"><span>${esc(l.title)}</span><span class="tags">${gradeTag(l.grade)}<span class="lvl">${l.level}</span></span></a></li>`).join('')}</ul>
     </details>`).join('')}
   </div></section>`;
+  app.querySelector('[data-crunch-reveal]')?.addEventListener('click', () => { crunchReveal = !crunchReveal; renderIndex() });
   app.querySelectorAll('.fold').forEach(d => d.addEventListener('toggle', () => {
     const now = [...app.querySelectorAll('.fold[open]')].map(x => x.dataset.chapter);
     try { sessionStorage.setItem(OPEN_KEY, JSON.stringify(now)) } catch {}

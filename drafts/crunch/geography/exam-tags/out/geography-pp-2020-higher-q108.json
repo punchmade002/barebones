@@ -1,0 +1,44 @@
+{
+  "8A(i)": [
+    {"k": 1, "of": ["geo-graph-skills-s1.8.0"]},
+    {"k": 1, "of": ["geo-graph-skills-s1.6.1"]},
+    {"k": 1, "of": ["geo-graph-skills-s1.6.2"]},
+    {"k": 1, "of": ["geo-graph-skills-s1.6.3"]},
+    {"k": 1, "of": ["geo-graph-skills-s1.6.2"]},
+    {"k": 1, "of": ["geo-graph-skills-s1.7.4"]}
+  ],
+  "8A(ii)": [
+    {"k": 1, "of": ["geo-economic-activities-s1.8.3"]},
+    {"k": 1, "of": ["geo-economic-activities-s1.8.3"]}
+  ],
+  "8B": [
+    {"k": 1, "of": ["geo-economic-development-s3.0.4"]},
+    {"k": 1, "of": ["geo-economic-development-s3.4.0"]},
+    {"k": 2, "of": ["geo-economic-development-s3.0.7", "geo-economic-development-s3.5.3"]},
+    {"k": 1, "of": ["geo-economic-development-s3.6.1"]},
+    {"k": 1, "of": ["geo-economic-development-s3.4.2"]},
+    {"k": 2, "of": ["geo-economic-development-s3.8.1", "geo-economic-development-s3.8.3"]},
+    {"k": 1, "of": ["geo-economic-development-s3.8.4"]},
+    {"k": 2, "of": ["geo-economic-development-s3.10.0", "geo-economic-development-s3.10.1"]},
+    {"k": 1, "of": ["geo-economic-development-s3.10.2"]},
+    {"k": 1, "of": ["geo-economic-development-s3.11.0"]},
+    {"k": 2, "of": ["geo-economic-development-s3.7.0", "geo-economic-development-s3.11.1"]},
+    {"k": 1, "of": ["geo-economic-development-s3.11.2"]},
+    {"k": 1, "of": ["geo-economic-development-s3.12.0"]},
+    {"k": 1, "of": ["geo-economic-development-s3.12.1"]},
+    {"k": 1, "of": ["geo-economic-development-s3.12.2"]}
+  ],
+  "8C": [
+    {"k": 1, "of": ["geo-mapwork-s1.36.4"]},
+    {"k": 1, "of": ["geo-aerial-photographs-s1.20.1"]},
+    {"k": 1, "of": ["geo-economic-activities-s2.32.0"]},
+    {"k": 1, "of": ["geo-aerial-photographs-s1.20.1"]},
+    {"k": 1, "of": ["geo-mapwork-s1.36.5"]},
+    {"k": 1, "of": ["geo-mapwork-s1.33.5"]},
+    {"k": 1, "of": ["geo-aerial-photographs-s1.21.5"]},
+    {"k": 2, "of": ["geo-mapwork-s1.33.5", "geo-mapwork-s1.33.2"]},
+    {"k": 1, "of": ["geo-mapwork-s1.36.4"]},
+    {"k": 2, "of": ["geo-mapwork-s1.36.5", "geo-economic-activities-s2.32.0"]},
+    {"k": 1, "of": ["geo-economic-activities-s2.32.0"]}
+  ]
+}

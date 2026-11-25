@@ -1,0 +1,722 @@
+{
+ "bio23-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.0.3",
+    "strength": "helpful",
+    "why": "egg route to fallopian tube",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.0",
+    "strength": "helpful",
+    "why": "openings of the vulva",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.1",
+    "strength": "essential",
+    "why": "labia defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.1",
+    "strength": "essential",
+    "why": "labia as folds over openings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.0",
+    "strength": "helpful",
+    "why": "clitoris is part of vulva",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.4",
+    "strength": "essential",
+    "why": "clitoris defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.0",
+    "strength": "helpful",
+    "why": "urethral opening in vulva",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.6",
+    "strength": "essential",
+    "why": "female urethra carries urine only",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s1.3.6",
+    "strength": "essential",
+    "why": "male urethra carries semen and urine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.0",
+    "strength": "helpful",
+    "why": "vulva as outer area",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.2.0",
+    "strength": "essential",
+    "why": "vagina structure",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s1.0.2",
+    "strength": "helpful",
+    "why": "semen",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.2.0",
+    "strength": "essential",
+    "why": "vagina muscular elastic tube",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.2.0",
+    "strength": "essential",
+    "why": "vagina as passage",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.4.5",
+    "strength": "helpful",
+    "why": "menstruation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s2.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s2.2.0",
+    "strength": "essential",
+    "why": "vaginal lining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.0",
+    "strength": "helpful",
+    "why": "uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.3.0",
+    "strength": "essential",
+    "why": "cervix defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s2.3.1",
+    "strength": "essential",
+    "why": "cervical mucus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.6.1",
+    "strength": "helpful",
+    "why": "ovulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.3.1",
+    "strength": "essential",
+    "why": "cervical mucus protects",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.3.0",
+    "strength": "essential",
+    "why": "cervix defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.3.0",
+    "strength": "helpful",
+    "why": "cervix",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.0",
+    "strength": "helpful",
+    "why": "uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.0",
+    "strength": "essential",
+    "why": "muscular uterine wall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.0",
+    "strength": "essential",
+    "why": "uterus lining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.3",
+    "strength": "essential",
+    "why": "endometrium",
+    "confidence": "high"
+   },
+   {
+    "id": "bio20-s1.8.2",
+    "strength": "helpful",
+    "why": "oestrogen thickens endometrium",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.3",
+    "strength": "essential",
+    "why": "endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.3",
+    "strength": "essential",
+    "why": "endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.5",
+    "strength": "essential",
+    "why": "menstruation sheds endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.0",
+    "strength": "helpful",
+    "why": "uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.5.0",
+    "strength": "essential",
+    "why": "fallopian tube",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.6.0",
+    "strength": "helpful",
+    "why": "ovary",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.5.0",
+    "strength": "essential",
+    "why": "fallopian tube",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s1.3.3",
+    "strength": "helpful",
+    "why": "peristalsis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.5.0",
+    "strength": "essential",
+    "why": "fallopian tube",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.0.4",
+    "strength": "helpful",
+    "why": "sperm route",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s2.5.0",
+    "strength": "essential",
+    "why": "fallopian tube",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.4.1",
+    "strength": "helpful",
+    "why": "implantation in uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.5.4",
+    "strength": "essential",
+    "why": "ectopic pregnancy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.5.0",
+    "strength": "helpful",
+    "why": "fallopian tube",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s2.6.0",
+    "strength": "essential",
+    "why": "ovaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.6.0",
+    "strength": "essential",
+    "why": "ovaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.5.1",
+    "strength": "essential",
+    "why": "funnel sweeps egg in",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.6.0",
+    "strength": "helpful",
+    "why": "ovary not attached",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s2.5.1",
+    "strength": "helpful",
+    "why": "funnel and projections",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s2.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s2.7.0",
+    "strength": "helpful",
+    "why": "organs labelled",
+    "confidence": "low"
+   },
+   {
+    "id": "bio23-s2.1.0",
+    "strength": "helpful",
+    "why": "vulva parts",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.0",
+    "strength": "essential",
+    "why": "vulva",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.3",
+    "strength": "essential",
+    "why": "labia function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.5",
+    "strength": "essential",
+    "why": "clitoris function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.2.0",
+    "strength": "essential",
+    "why": "vagina",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.3.1",
+    "strength": "essential",
+    "why": "cervix mucus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.0",
+    "strength": "essential",
+    "why": "uterus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.3",
+    "strength": "essential",
+    "why": "endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.5.2",
+    "strength": "essential",
+    "why": "tube cilia and muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.8.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.6.1",
+    "strength": "essential",
+    "why": "follicles in ovary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s1.2.0",
+    "strength": "helpful",
+    "why": "testes as male gonads",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.6.0",
+    "strength": "helpful",
+    "why": "ovaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s1.2.1",
+    "strength": "helpful",
+    "why": "sperm production",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.6.1",
+    "strength": "helpful",
+    "why": "one egg monthly",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.6.2",
+    "strength": "helpful",
+    "why": "ovarian hormones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s1.1.0",
+    "strength": "helpful",
+    "why": "scrotum holds testes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s2.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.1.6",
+    "strength": "essential",
+    "why": "female urethra",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s1.3.6",
+    "strength": "essential",
+    "why": "male urethra carries semen",
+    "confidence": "high"
+   }
+  ]
+ }
+}

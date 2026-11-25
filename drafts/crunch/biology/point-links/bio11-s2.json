@@ -1,0 +1,540 @@
+{
+ "bio11-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.0.0",
+    "strength": "essential",
+    "why": "species definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.0.2",
+    "strength": "helpful",
+    "why": "heredity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.4",
+    "strength": "helpful",
+    "why": "homologous chromosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.0.4",
+    "strength": "essential",
+    "why": "chromosome pairs, one set",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.1.4",
+    "strength": "helpful",
+    "why": "fertilisation adds sets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.1.0",
+    "strength": "essential",
+    "why": "gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.1.0",
+    "strength": "helpful",
+    "why": "gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.1.1",
+    "strength": "essential",
+    "why": "haploid gametes fuse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.1.4",
+    "strength": "essential",
+    "why": "zygote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.1.4",
+    "strength": "essential",
+    "why": "life cycle stages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.3.1",
+    "strength": "essential",
+    "why": "locus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.0.2",
+    "strength": "helpful",
+    "why": "gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "essential",
+    "why": "alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "essential",
+    "why": "alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.2",
+    "strength": "essential",
+    "why": "two alleles per gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "essential",
+    "why": "alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "essential",
+    "why": "alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "essential",
+    "why": "alleles and locus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.3.1",
+    "strength": "helpful",
+    "why": "locus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "essential",
+    "why": "alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.3.0",
+    "strength": "essential",
+    "why": "genotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.3.1",
+    "strength": "essential",
+    "why": "phenotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.3.2",
+    "strength": "essential",
+    "why": "genotype and environment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.3.2",
+    "strength": "essential",
+    "why": "environment affects phenotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.3.2",
+    "strength": "essential",
+    "why": "environment affects phenotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.3.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "essential",
+    "why": "dominant allele masks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.5",
+    "strength": "essential",
+    "why": "heterozygote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.4",
+    "strength": "essential",
+    "why": "homozygous condition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "helpful",
+    "why": "dominant contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.1",
+    "strength": "essential",
+    "why": "recessive allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "essential",
+    "why": "dominant allele",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s2.0.2",
+    "strength": "helpful",
+    "why": "protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.4.3",
+    "strength": "essential",
+    "why": "working protein allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "essential",
+    "why": "dominant allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.1",
+    "strength": "essential",
+    "why": "recessive allele",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.4.7",
+    "strength": "helpful",
+    "why": "carrier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.1",
+    "strength": "essential",
+    "why": "recessive allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.0.2",
+    "strength": "essential",
+    "why": "gene",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s2.1.4",
+    "strength": "helpful",
+    "why": "gene to protein",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.5.0",
+    "strength": "essential",
+    "why": "gene expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.5.0",
+    "strength": "essential",
+    "why": "gene expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.5.0",
+    "strength": "essential",
+    "why": "gene expression",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.4.2",
+    "strength": "helpful",
+    "why": "regulatory sequences",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.5.0",
+    "strength": "essential",
+    "why": "gene expression",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.1.0",
+    "strength": "helpful",
+    "why": "histones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.6.0",
+    "strength": "essential",
+    "why": "epigenetic tags",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "essential",
+    "why": "complete dominance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.0.0",
+    "strength": "essential",
+    "why": "genes on chromosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s2.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.0.3",
+    "strength": "essential",
+    "why": "sex chromosomes",
+    "confidence": "high"
+   }
+  ]
+ }
+}

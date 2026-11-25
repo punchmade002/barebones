@@ -1,0 +1,416 @@
+<meta charset="utf-8">
+<title>Geography Crunch Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a course-wide scatter (x = course order, y = lowest grade that needs the point) with a draggable grade bar; side rail of stats, lists and the selected point. */
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --ink: #14161a; --ink-2: #4a4f59; --ink-3: #7c828d;
+  --line: #e1e4ea; --band: #eef0f4;
+  --kept: #2a78d6; --cut: #c3c8d1; --needs: #eb6834; --needed-by: #1baf7a; --bar: #14161a;
+  --f-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --f-body: "Inter", system-ui, -apple-system, sans-serif;
+  --f-data: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111317; --panel: #191c21; --ink: #eef0f3; --ink-2: #b4bac4; --ink-3: #868d98;
+  --line: #2b2f37; --band: #1e2127;
+  --kept: #3987e5; --cut: #3a3f48; --needs: #d95926; --needed-by: #199e70; --bar: #eef0f3; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111317; --panel: #191c21; --ink: #eef0f3; --ink-2: #b4bac4; --ink-3: #868d98;
+  --line: #2b2f37; --band: #1e2127;
+  --kept: #3987e5; --cut: #3a3f48; --needs: #d95926; --needed-by: #199e70; --bar: #eef0f3; color-scheme: dark }
+
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 14px; line-height: 1.45; }
+.page { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 20px 40px; max-width: 1480px; margin: 0 auto; display: grid; gap: 16px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
+h1 { font-family: var(--f-display); font-weight: 600; font-size: 26px; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+h2 { font-family: var(--f-display); font-weight: 600; font-size: 15px; margin: 0; }
+.lede { color: var(--ink-2); max-width: 70ch; margin: 4px 0 0; }
+.num { font-family: var(--f-data); font-variant-numeric: tabular-nums; }
+.eyebrow { font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; }
+
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 16px; align-items: start; }
+@media (max-width: 980px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+.aac { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; padding: 10px 16px; border-bottom: 1px solid var(--line); font-size: 12.5px; color: var(--ink-2); }
+.aac label { display: flex; align-items: center; gap: 8px; font-weight: 600; color: var(--ink); }
+.aac input { width: 4.5em; font: 500 14px var(--f-data); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 4px 6px; }
+.aac input:focus-visible { outline: 2px solid var(--kept); outline-offset: 1px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; }
+
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-bottom: 1px solid var(--line); }
+.stat { padding: 12px 16px; display: grid; gap: 2px; min-width: 0; }
+.stat + .stat { border-left: 1px solid var(--line); }
+.stat b { font-family: var(--f-data); font-size: 22px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.stat span { color: var(--ink-3); font-size: 12px; }
+@media (max-width: 640px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .stat:nth-child(3) { border-left: 0; } .stat:nth-child(n+3) { border-top: 1px solid var(--line); } }
+
+.chartwrap { position: relative; height: 560px; touch-action: none; }
+@media (max-width: 640px) { .chartwrap { height: 440px; } }
+canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 10px 16px; border-top: 1px solid var(--line); color: var(--ink-2); font-size: 12px; }
+.legend i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+
+.gradebar { position: absolute; left: 0; right: 0; height: 28px; margin-top: -14px; cursor: ns-resize; outline: none; }
+.gradebar::before { content: ""; position: absolute; left: var(--plot-l, 48px); right: 12px; top: 13px; height: 2px; background: var(--bar); }
+.gradebar .handle { position: absolute; left: 4px; top: 3px; height: 22px; padding: 0 8px; border-radius: 11px; background: var(--bar); color: var(--bg); font: 500 12px/22px var(--f-data); white-space: nowrap; }
+.gradebar:focus-visible .handle { box-shadow: 0 0 0 3px var(--kept); }
+.region { position: absolute; right: 18px; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 600; color: var(--ink-3); pointer-events: none; }
+
+.tip { position: absolute; pointer-events: none; max-width: 320px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; box-shadow: 0 6px 24px rgba(0,0,0,.14); font-size: 12.5px; display: grid; gap: 6px; z-index: 5; }
+.tip .meta { color: var(--ink-3); font-size: 11.5px; }
+
+.rail { display: grid; gap: 16px; }
+.rail .panel { padding: 14px 16px; display: grid; gap: 10px; min-width: 0; }
+ol.points { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; max-height: 300px; overflow-y: auto; }
+ol.points button { all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: 46px minmax(0, 1fr); gap: 8px; padding: 5px 6px; border-radius: 6px; cursor: pointer; font-size: 12.5px; }
+ol.points button:hover, ol.points button:focus-visible { background: var(--band); }
+ol.points .v { font-family: var(--f-data); color: var(--ink-2); font-variant-numeric: tabular-nums; text-align: right; }
+ol.points .t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+ol.points .t small { display: block; color: var(--ink-3); font-size: 11px; }
+.hidden-mark { color: var(--ink-3); text-decoration: line-through; text-decoration-color: var(--cut); }
+
+.detail p { margin: 0; }
+.detail .links { display: grid; gap: 4px; }
+.chip { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 9px; border: 1px solid var(--line); color: var(--ink-2); }
+.tune { display: grid; gap: 10px; }
+.tune label { display: grid; grid-template-columns: minmax(0, 1fr) 44px; gap: 2px 8px; font-size: 12.5px; color: var(--ink-2); }
+.tune input { grid-column: 1 / -1; width: 100%; accent-color: var(--kept); }
+.note { color: var(--ink-3); font-size: 12px; margin: 0; }
+details summary { cursor: pointer; font-family: var(--f-display); font-weight: 600; font-size: 15px; }
+.course { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-bottom: 1px solid var(--line); }
+.course label { padding: 10px 16px; display: grid; gap: 4px; min-width: 0; color: var(--ink-3); font-size: 12px; }
+.course label + label { border-left: 1px solid var(--line); }
+.course select { font: 500 14px var(--f-body); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; min-width: 0; }
+.course select:focus-visible { outline: 2px solid var(--kept); outline-offset: 1px; }
+@media (max-width: 640px) { .course { grid-template-columns: minmax(0, 1fr); } .course label + label { border-left: 0; border-top: 1px solid var(--line); } }
+@media (prefers-reduced-motion: no-preference) { ol.points button { transition: background .12s; } }
+</style>
+
+<div class="page">
+  <header>
+    <div>
+      <div class="eyebrow">Crunch Mode · Leaving Cert Geography</div>
+      <h1>Geography Crunch Map</h1>
+      <p class="lede">Every note point in the course, placed by the lowest grade that still needs it. Pick the elective, option and study region you take, then drag the bar down to lower your target grade: points above the bar are hidden.</p>
+    </div>
+  </header>
+
+  <div class="layout">
+    <section class="panel" aria-label="Course map">
+      <div class="course" id="course">
+        <label>Elective<select id="p-elective"></select></label>
+        <label>Option<select id="p-option"></select></label>
+        <label>Study region<select id="p-region"></select></label>
+      </div>
+      <div class="stats">
+        <div class="stat"><span>Target grade</span><b id="s-grade">—</b><span id="s-band">&nbsp;</span></div>
+        <div class="stat"><span>Points kept</span><b id="s-kept">—</b><span id="s-kept-of">&nbsp;</span></div>
+        <div class="stat"><span>Study effort cut</span><b id="s-effort">—</b><span>long or complex points count double</span></div>
+        <div class="stat"><span>Written score in past years</span><b id="s-cov">—</b><span id="s-cov-note">&nbsp;</span></div>
+      </div>
+      <div class="aac" id="aac-row" hidden>
+        <label for="aac">Expected AAC result <input id="aac" type="number" min="0" max="100" step="1" value="80" inputmode="numeric"> %</label>
+        <span id="aac-note"></span>
+      </div>
+      <div class="chartwrap" id="wrap">
+        <canvas id="cv" aria-label="Scatter of all note points by course position and the grade that needs them"></canvas>
+        <div class="region" id="r-cut">Hidden in Crunch Mode</div>
+        <div class="region" id="r-kept">Kept</div>
+        <div class="gradebar" id="bar" role="slider" tabindex="0" aria-label="Target grade" aria-valuemin="25" aria-valuemax="95"><span class="handle" id="bar-label">55%</span></div>
+        <div class="tip" id="tip" hidden></div>
+      </div>
+      <div class="legend">
+        <span><i style="background:var(--kept)"></i>Kept</span>
+        <span><i style="background:var(--cut)"></i>Hidden</span>
+        <span><i style="background:var(--needs)"></i>What the selected point needs</span>
+        <span><i style="background:var(--needed-by)"></i>What needs it</span>
+        <span>Bigger dot: long or complex point</span>
+      </div>
+    </section>
+
+    <aside class="rail">
+      <section class="panel detail" id="detail" aria-live="polite">
+        <h2>Selected point</h2>
+        <p class="note">Click any dot, or a point in the lists below, to see what it needs and what needs it.</p>
+      </section>
+      <section class="panel">
+        <h2>Highest value</h2>
+        <p class="note">Exam marks per unit of study, counting what depends on it. 1.00 is an average point.</p>
+        <ol class="points" id="top"></ol>
+      </section>
+      <section class="panel">
+        <h2>Lowest value</h2>
+        <ol class="points" id="bottom"></ol>
+      </section>
+      <section class="panel">
+        <details>
+          <summary>Tuning</summary>
+          <div class="tune" style="margin-top:12px">
+            <label for="t-decay">Value passed back per link step <span class="num" id="v-decay"></span><input id="t-decay" type="range" min="0" max="0.9" step="0.05" value="0.65"></label>
+            <label for="t-helpw">Helpful link weight (essential = 1) <span class="num" id="v-helpw"></span><input id="t-helpw" type="range" min="0" max="1" step="0.05" value="0.5"></label>
+            <label for="t-gape">Marks lost when an essential prerequisite is hidden <span class="num" id="v-gape"></span><input id="t-gape" type="range" min="0" max="1" step="0.05" value="0.75"></label>
+            <label for="t-gaph">Marks lost when a helpful prerequisite is hidden <span class="num" id="v-gaph"></span><input id="t-gaph" type="range" min="0" max="1" step="0.05" value="0.35"></label>
+            <label for="t-exact">Marks on the exact points asked before (the rest spreads over their topic) <span class="num" id="v-exact"></span><input id="t-exact" type="range" min="0" max="1" step="0.05" value="0.5"></label>
+            <label for="t-half">Recent papers count more: half-life in years <span class="num" id="v-half"></span><input id="t-half" type="range" min="1" max="20" step="1" value="8"></label>
+            <label for="t-new">Share of the paper on subsections no past paper tested <span class="num" id="v-new"></span><input id="t-new" type="range" min="0" max="0.4" step="0.01" value="0.06"></label>
+            <label for="t-choice" style="grid-template-columns:auto minmax(0,1fr);align-items:center"><input id="t-choice" type="checkbox" checked style="grid-column:auto;width:auto">Question choice: answer your best 10 of 12 short questions and the best of each set of three long ones</label>
+            <p class="note" id="t-status">&nbsp;</p>
+          </div>
+        </details>
+        <p class="note">Exam value: each Higher Level paper from 2017–2026 is marked the way the written paper is: Part One is a fifth (your best 10 of 12 short questions), and one physical, one regional, one elective and one option question make up a fifth each. Only your own elective and option count, and a question on India counts for Brazil instead if that's your region. Each exam part's marks spread over the points of the subsections it tests. Positions are backtested year by year: for each past year, the cut is chosen only from the papers before it and marked on that year's real paper. A point is hidden only if the plan without it still reaches your target in about 4 past years in 5, so a subject whose papers swing more keeps more. Your expected Geographical Investigation result (20%) is taken off the target first. Subsections no paper tested get course-average value. Points in a loop (each needs the other) are bundled: kept or hidden together, with one shared value.</p>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<script src="crunch-score.js"></script>
+<script>
+(() => {
+  const GRADES = [95, 85, 75, 65, 55, 45, 35, 25]; // 10% steps, middle of each H band
+  const BAND = { 95: ["H1", 100], 85: ["H2", 88], 75: ["H3", 77], 65: ["H4", 66], 55: ["H5", 56], 45: ["H6", 46], 35: ["H7", 37], 25: ["H8", 0] };
+  const $ = id => document.getElementById(id);
+  const wrap = $("wrap"), cv = $("cv"), ctx = cv.getContext("2d"), bar = $("bar"), tip = $("tip");
+  const fmt = n => n.toLocaleString("en-IE");
+  const css = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  const PAD = { l: 48, r: 12, t: 16, b: 34 };
+
+  let F, D, R, N, totalCost, grade = 55, sel = -1, hover = -1, W = 0, H = 0, grid = null, X, Y;
+  const params = () => ({ decay: +$("t-decay").value, helpW: +$("t-helpw").value, gapE: +$("t-gape").value, gapH: +$("t-gaph").value,
+    halfLife: +$("t-half").value, newShare: +$("t-new").value, choice: $("t-choice").checked, exact: +$("t-exact").value });
+  let chance = [];
+  // The bar is the overall grade. The AAC is marked separately, so the cut only has to deliver the rest on the written paper.
+  const aacW = () => (D && D.aac ? D.aac.weight : 0);
+  const aacScore = () => Math.max(0, Math.min(100, +$("aac").value || 0));
+  const writtenFor = G => (aacW() ? (G - aacW() * aacScore()) / (1 - aacW()) : G);
+  const overallFor = V => aacW() * aacScore() + (1 - aacW()) * V;
+  let need = 55;
+  const isCut = i => R.y[i] >= need;
+  const sub = i => D.subs[D.items[i][1]];
+  const chapterOf = i => D.chapters[sub(i)[2]];
+  const yToPx = v => PAD.t + (1 - Math.max(0, Math.min(100, v)) / 100) * (H - PAD.t - PAD.b);
+  const pxToV = py => 100 * (1 - (py - PAD.t) / (H - PAD.t - PAD.b));
+
+  let bt, raw; // year-by-year backtest, and each point's level before it
+  function score() {
+    const t0 = performance.now();
+    D = crunchCourse(F, { elective: $("p-elective").value, option: $("p-option").value, region: $("p-region").value });
+    N = D.items.length; totalCost = D.items.reduce((s, x) => s + x[2], 0); sel = -1; hover = -1; $("detail").innerHTML = '<h2>Selected point</h2><p class="note">Click any dot, or a point in the lists below, to see what it needs and what needs it.</p>';
+    R = crunchScore(D, params());
+    // Re-place every point by what a student would really score in a bad year (about 1 past year in 5), each year's
+    // cut chosen only from the papers before it.
+    bt = crunchBacktest(D, params());
+    raw = R.y; R.y = Float64Array.from(raw, v => bt.safe(v));
+    chance = crunchChance(D, +$("t-half").value);
+    $("t-status").textContent = `Scored ${fmt(N)} points in ${Math.round(performance.now() - t0)} ms · ${R.loops.length} loops bundled`;
+    for (const k of ["decay", "helpw", "gape", "gaph", "new", "exact"]) $("v-" + k).textContent = (+$("t-" + k).value).toFixed(2);
+    $("v-half").textContent = $("t-half").value;
+    layout(); lists(); update();
+  }
+
+  function layout() {
+    const r = wrap.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+    W = r.width; H = r.height;
+    cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    // jitter each point a little inside its column so stacked points stay visible
+    X = new Float32Array(N); Y = new Float32Array(N);
+    const pw = W - PAD.l - PAD.r;
+    for (let i = 0; i < N; i++) { X[i] = PAD.l + ((i + 0.5) / N) * pw; Y[i] = yToPx(R.y[i]); }
+    grid = new Map();
+    for (let i = 0; i < N; i++) {
+      const k = ((X[i] / 8) | 0) + "," + ((Y[i] / 8) | 0);
+      (grid.get(k) || grid.set(k, []).get(k)).push(i);
+    }
+    wrap.style.setProperty("--plot-l", PAD.l + "px");
+    bar.style.setProperty("--plot-l", PAD.l + "px");
+  }
+
+  function nearest(px, py) {
+    let best = -1, bd = 64;
+    const cx = (px / 8) | 0, cy = (py / 8) | 0;
+    for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) {
+      for (const i of grid.get(cx + dx + "," + (cy + dy)) || []) {
+        const d = (X[i] - px) ** 2 + (Y[i] - py) ** 2;
+        if (d < bd) { bd = d; best = i; }
+      }
+    }
+    return best;
+  }
+
+  function draw() {
+    const c = { kept: css("--kept"), cut: css("--cut"), needs: css("--needs"), by: css("--needed-by"), ink3: css("--ink-3"), line: css("--line"), band: css("--band"), panel: css("--panel"), ink: css("--ink") };
+    ctx.clearRect(0, 0, W, H);
+    const pw = W - PAD.l - PAD.r, bottom = H - PAD.b;
+    // chapter bands and labels
+    let start = 0;
+    ctx.font = "11px " + css("--f-data"); ctx.textAlign = "center"; ctx.textBaseline = "top";
+    const every = pw / D.chapters.length < 22 ? 2 : 1;
+    for (let ci = 0; ci < D.chapters.length; ci++) {
+      let end = start; while (end < N && sub(end)[2] === ci) end++;
+      const x0 = PAD.l + (start / N) * pw, x1 = PAD.l + (end / N) * pw;
+      if (ci % 2 === 0) { ctx.fillStyle = c.band; ctx.fillRect(x0, PAD.t, x1 - x0, bottom - PAD.t); }
+      if (ci % every === 0) { ctx.fillStyle = c.ink3; ctx.fillText(String(ci + 1), (x0 + x1) / 2, bottom + 6); }
+      start = end;
+    }
+    ctx.textAlign = "left"; ctx.fillStyle = c.ink3; ctx.fillText("Chapter", PAD.l, bottom + 20);
+    // y grid every 10%
+    ctx.textAlign = "right"; ctx.textBaseline = "middle";
+    for (let v = 0; v <= 100; v += 10) {
+      const py = yToPx(v);
+      ctx.strokeStyle = c.line; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(PAD.l, py + 0.5); ctx.lineTo(W - PAD.r, py + 0.5); ctx.stroke();
+      ctx.fillStyle = c.ink3; ctx.fillText(v + "%", PAD.l - 8, py);
+    }
+    // dots: hidden first, kept on top
+    for (const pass of [1, 0]) {
+      ctx.fillStyle = pass ? c.cut : c.kept;
+      ctx.beginPath();
+      for (let i = 0; i < N; i++) {
+        if ((isCut(i) ? 1 : 0) !== pass) continue;
+        const rad = D.items[i][2] === 2 ? 2.1 : 1.3;
+        ctx.moveTo(X[i] + rad, Y[i]); ctx.arc(X[i], Y[i], rad, 0, 2 * Math.PI);
+      }
+      ctx.fill();
+    }
+    if (sel >= 0) {
+      const ring = (i, color, rad) => { ctx.beginPath(); ctx.arc(X[i], Y[i], rad + 2, 0, 2 * Math.PI); ctx.fillStyle = c.panel; ctx.fill(); ctx.beginPath(); ctx.arc(X[i], Y[i], rad, 0, 2 * Math.PI); ctx.fillStyle = color; ctx.fill(); };
+      ctx.lineWidth = 1;
+      for (const [list, color] of [[R.needs[sel], c.needs], [R.deps[sel], c.by]]) {
+        ctx.strokeStyle = color; ctx.globalAlpha = 0.55; ctx.beginPath();
+        for (const [j] of list) { ctx.moveTo(X[sel], Y[sel]); ctx.lineTo(X[j], Y[j]); }
+        ctx.stroke(); ctx.globalAlpha = 1;
+        for (const [j] of list) ring(j, color, 4);
+      }
+      ring(sel, c.ink, 5);
+    }
+    if (hover >= 0 && hover !== sel) { ctx.beginPath(); ctx.arc(X[hover], Y[hover], 5, 0, 2 * Math.PI); ctx.strokeStyle = c.ink; ctx.lineWidth = 1.5; ctx.stroke(); }
+  }
+
+  function update() {
+    need = writtenFor(grade);
+    let keptCost = 0, kept = 0;
+    for (let i = 0; i < N; i++) if (!isCut(i)) { kept++; keptCost += D.items[i][2]; }
+    // every past year's real mark for this plan: everything below the lowest hidden point's level is kept
+    let L = 101; for (let i = 0; i < N; i++) if (isCut(i)) L = Math.min(L, raw[i]);
+    const past = bt.at(L), hit = past.filter(v => v >= need - 1e-9).length;
+    $("s-grade").textContent = grade + "%";
+    $("s-band").textContent = `${BAND[grade][0]} · ${BAND[grade][1]} CAO points`;
+    $("s-kept").textContent = fmt(kept);
+    $("s-kept-of").textContent = `of ${fmt(N)} in your course (${fmt(N - kept)} hidden)`;
+    $("s-effort").textContent = Math.round(100 - (100 * keptCost) / totalCost) + "%";
+    $("s-cov").textContent = `${Math.round(Math.min(...past))}–${Math.round(Math.max(...past))}%`;
+    $("s-cov-note").textContent = need > 100 ? "out of reach with this AAC result: keep everything"
+      : L > 100 ? `full course needed · reached in ${hit} of ${past.length} past years`
+      : need <= 0 ? "your AAC result alone reaches this grade"
+      : `reaches the ${Math.round(need)}% needed in ${hit} of ${past.length} past years (${bt.years[0]}–${bt.years[bt.years.length - 1]})`;
+    if (D.aac) $("aac-note").textContent = `${D.aac.name}, ${Math.round(100 * aacW())}% of your grade. Written paper needed for ${grade}% overall: ${Math.max(0, Math.round(need))}%${need > 100 ? " (not possible)" : ""}.`;
+    $("bar-label").textContent = `${grade}% · ${BAND[grade][0]}`;
+    bar.setAttribute("aria-valuenow", grade);
+    bar.setAttribute("aria-valuetext", `${grade}%, ${BAND[grade][0]}`);
+    const py = yToPx(need);
+    bar.style.top = py + "px";
+    $("r-cut").style.top = Math.max(PAD.t + 4, py - 26) + "px";
+    $("r-kept").style.top = (py + 12) + "px";
+    $("r-cut").hidden = py - 26 < PAD.t;
+    for (const b of document.querySelectorAll("ol.points [data-i]")) b.querySelector(".t").classList.toggle("hidden-mark", isCut(+b.dataset.i));
+    if (sel >= 0) detail(sel);
+    draw();
+  }
+
+  // value relative to the course average per unit of study: 1.00 = average point, 0 = never examined and nothing needs it
+  let avgValue = 1;
+  const val = i => (R.initValue[i] / avgValue).toFixed(2);
+  const chanceLine = i => sub(i)[4].length
+    ? `Chance its subsection comes up: about ${Math.round(100 * chance[D.items[i][1]])}% (on ${sub(i)[4].length} of ${D.papers.length} papers)`
+    : "No past paper tested this subsection, so it gets course-average value";
+  const short = (t, n) => (t.length > n ? t.slice(0, n - 1) + "…" : t);
+  const whereLabel = i => `Ch ${sub(i)[2] + 1} · ${sub(i)[1]}`;
+
+  function hiddenAt(i) {
+    // highest grade step at which this point is hidden
+    const g = GRADES.find(G => R.y[i] >= writtenFor(G));
+    return g ? `Hidden at ${g}% and below` : "Kept at every target on the bar";
+  }
+
+  function lists() {
+    avgValue = R.initScore.reduce((a, b) => a + b, 0) / totalCost || 1;
+    const idx = Array.from({ length: N }, (_, i) => i).sort((a, b) => R.initValue[b] - R.initValue[a] || R.order[b] - R.order[a]);
+    const row = i => `<li><button data-i="${i}"><span class="v">${val(i)}</span><span class="t">${esc(short(D.items[i][3], 90))}<small>${esc(whereLabel(i))}</small></span></button></li>`;
+    $("top").innerHTML = idx.slice(0, 40).map(row).join("");
+    $("bottom").innerHTML = idx.slice(-40).reverse().map(row).join("");
+  }
+
+  const esc = s => s.replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+
+  function detail(i) {
+    const it = D.items[i], bundle = R.members[R.comp[i]];
+    const link = ([j, ess], color) => `<button data-i="${j}" style="all:unset;cursor:pointer;display:block;font-size:12.5px"><span class="chip" style="border-color:${color}">${ess ? "essential" : "helpful"}</span> <span class="${isCut(j) ? "hidden-mark" : ""}">${esc(short(D.items[j][3], 110))}</span></button>`;
+    $("detail").innerHTML = `
+      <h2>Selected point</h2>
+      <p>${esc(it[3])}</p>
+      <p class="note">${esc(chapterOf(i)[1])} · ${esc(sub(i)[1])} · <span class="num">${it[0]}</span></p>
+      <p><span class="chip">${it[2] === 2 ? "long or complex (cost 2)" : "simple (cost 1)"}</span> <span class="chip">value ${val(i)}</span> <span class="chip">${isCut(i) ? "hidden now" : "kept now"}</span></p>
+      <p class="note">${hiddenAt(i)}. ${chanceLine(i)}.</p>
+      ${bundle.length > 1 ? `<p class="note">In a loop with ${bundle.length - 1} other point${bundle.length > 2 ? "s" : ""}: kept or hidden together.</p>` : ""}
+      <div class="links"><div class="eyebrow" style="color:var(--needs)">Needs (${R.needs[i].length})</div>${R.needs[i].map(l => link(l, "var(--needs)")).join("") || '<p class="note">Nothing: it stands on its own.</p>'}</div>
+      <div class="links"><div class="eyebrow" style="color:var(--needed-by)">Needed by (${R.deps[i].length})</div>${R.deps[i].map(l => link(l, "var(--needed-by)")).join("") || '<p class="note">Nothing depends on it.</p>'}</div>`;
+  }
+
+  function select(i) { sel = i; if (i >= 0) detail(i); else $("detail").innerHTML = '<h2>Selected point</h2><p class="note">Click any dot, or a point in the lists below, to see what it needs and what needs it.</p>'; draw(); }
+  document.addEventListener("click", e => { const b = e.target.closest("[data-i]"); if (b) select(+b.dataset.i); });
+
+  function showTip(i, px, py) {
+    if (i < 0) { tip.hidden = true; return; }
+    const it = D.items[i];
+    tip.innerHTML = `<div>${esc(short(it[3], 220))}</div><div class="meta">${esc(whereLabel(i))}</div><div class="meta">Value ${val(i)} · ${it[2] === 2 ? "long or complex" : "simple"} · needs ${R.needs[i].length} · needed by ${R.deps[i].length}</div><div class="meta">${hiddenAt(i)}</div><div class="meta">${chanceLine(i)}</div>`;
+    tip.hidden = false;
+    const tw = tip.offsetWidth, th = tip.offsetHeight;
+    tip.style.left = Math.max(4, Math.min(W - tw - 4, px + 14)) + "px";
+    tip.style.top = Math.max(4, py - th - 12 < 4 ? py + 14 : py - th - 12) + "px";
+  }
+
+  cv.addEventListener("pointermove", e => {
+    const r = cv.getBoundingClientRect(), px = e.clientX - r.left, py = e.clientY - r.top;
+    const i = nearest(px, py);
+    cv.style.cursor = i >= 0 ? "pointer" : "default";
+    if (i !== hover) { hover = i; draw(); }
+    showTip(i, px, py);
+  });
+  cv.addEventListener("pointerleave", () => { hover = -1; tip.hidden = true; draw(); });
+  cv.addEventListener("click", e => { const r = cv.getBoundingClientRect(); select(nearest(e.clientX - r.left, e.clientY - r.top)); });
+
+  // grade bar: drag, snap to 10% steps
+  const snap = v => GRADES.reduce((a, g) => (Math.abs(g - v) < Math.abs(a - v) ? g : a));
+  const setGrade = g => { if (g !== grade) { grade = g; update(); } };
+  let dragging = false;
+  bar.addEventListener("pointerdown", e => { dragging = true; bar.setPointerCapture(e.pointerId); e.preventDefault(); });
+  bar.addEventListener("pointermove", e => { if (dragging) setGrade(snap(overallFor(pxToV(e.clientY - wrap.getBoundingClientRect().top)))); });
+  bar.addEventListener("pointerup", () => { dragging = false; });
+  bar.addEventListener("keydown", e => {
+    const k = GRADES.indexOf(grade);
+    if (e.key === "ArrowUp" || e.key === "ArrowRight") setGrade(GRADES[Math.max(0, k - 1)]);
+    else if (e.key === "ArrowDown" || e.key === "ArrowLeft") setGrade(GRADES[Math.min(GRADES.length - 1, k + 1)]);
+    else if (e.key === "Home") setGrade(95); else if (e.key === "End") setGrade(25); else return;
+    e.preventDefault();
+  });
+
+  let pending;
+  for (const id of ["t-decay", "t-helpw", "t-gape", "t-gaph", "t-half", "t-new", "t-choice", "t-exact", "p-elective", "p-option", "p-region"]) $(id).addEventListener("input", () => {
+    clearTimeout(pending); $("t-status").textContent = "Scoring and backtesting…"; pending = setTimeout(score, 150);
+  });
+  new ResizeObserver(() => { if (R) { layout(); update(); } }).observe(wrap);
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => R && draw());
+  new MutationObserver(() => R && draw()).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+  $("aac").addEventListener("input", () => R && update());
+  fetch("data.json").then(r => r.json()).then(d => {
+    $("aac-row").hidden = !d.aac;
+    F = d;
+    for (const kind of ["elective", "option", "region"])
+      $("p-" + kind).innerHTML = F.picks[kind].map(([v, label]) => `<option value="${v}">${esc(label)}</option>`).join("");
+    score();
+  }).catch(() => { $("detail").innerHTML = '<h2>Couldn’t load the course data</h2><p class="note">data.json didn’t load. Reload the page to try again.</p>'; });
+})();
+</script>

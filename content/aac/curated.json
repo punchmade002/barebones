@@ -349,7 +349,8 @@
     "label": "SEC Prescribed List of Investigation Topics, 2027",
     "url": "https://exams.ie/project-files/lc/geography/2026-27-prescribed-list.pdf"
    }
-  }
+  },
+  "short": "Investigation"
  },
  "history": {
   "subjectTitle": "History",
@@ -434,7 +435,8 @@
     "label": "Leaving Certificate History syllabus (RSR section)",
     "url": "https://www.curriculumonline.ie/getmedia/da556505-f5fb-4921-869f-e0983fd80e50/SCSEC20_History_syllabus_eng.pdf"
    }
-  }
+  },
+  "short": "Research study"
  },
  "pe": {
   "subjectTitle": "Physical Education",
@@ -810,7 +812,7 @@
   "subject": "irish",
   "subjectTitle": "Irish",
   "title": "Scrúdú Cainte (oral exam)",
-  "short": "Scrúdú Cainte",
+  "short": "Oral",
   "weight": "40%",
   "marks": 240,
   "level": "Common level",
@@ -1022,7 +1024,8 @@
      "If you freeze, ask for the question again in French and carry on."
     ]
    }
-  ]
+  ],
+  "short": "Oral"
  },
  "spanish": {
   "subject": "spanish",

@@ -1,0 +1,201 @@
+TARGET bio31-s4: Simpson's Diversity Index
+[bio31-s4.0.b] Counting how many species live in a habitat doesn't tell you the whole story, because a habitat can contain many species yet be almost entirely one of them. Simpson's Diversity Index is a calculation that captures both how many species there are and how evenly they share the individuals.
+[bio31-s4.0.0] A diversity index is a single number that measures the species diversity of a sample, taking into account both the number of species (richness) and how evenly the individuals are spread among them (evenness). Simpson's Diversity Index is the one in the specification.
+[bio31-s4.0.1] The equation is Ds = 1 − Σn(n − 1) / N(N − 1). Here n is the total number of organisms of a particular species, and N is the total number of organisms of all species in the sample.
+[bio31-s4.0.2] Σ is the Greek capital letter sigma and means “the sum of”, so n(n − 1) is worked out for each species and the results are added. In words, the sum Σn(n − 1) is divided by N(N − 1), and the answer is subtracted from 1.
+[bio31-s4.0.3] What it means: Ds is the probability that two individuals picked at random from the sample (the first not put back) belong to different species. Σn(n − 1) / N(N − 1) is the probability that both belong to the same species, and Ds is 1 minus this.
+[bio31-s4.0.4] It is better than species richness alone because it gives less weight to rare species and shows when a habitat is dominated by one or two species. Two samples with the same species list can therefore have very different Ds values.
+[bio31-s4.1.b] A Ds value is only useful if you know what a high or low answer means. The value is always a probability, so it sits on a fixed scale from 0 to 1.
+[bio31-s4.1.0] Ds lies between 0 and 1. Ds = 0 when only one species is present, meaning there is no diversity. The closer Ds is to 1, the higher the diversity.
+[bio31-s4.1.1] For a given number of species, Ds is highest when all the species have equal numbers, because then any two individuals picked are most likely to be from different species.
+[bio31-s4.1.2] A species represented by one individual contributes 1 × 0 = 0 to the sum, so a species with a single individual adds nothing to Σn(n − 1).
+[bio31-s4.1.3] A high Ds generally indicates a stable, healthy ecosystem that is more resilient to change (better able to cope with disturbance).
+[bio31-s4.1.4] A low Ds indicates domination by a few species, often after disturbance or pollution.
+[bio31-s4.2.b] Calculating Ds is a fixed routine, and the safest way to get it right is to lay the working out in a table and follow the same steps every time.
+[bio31-s4.2.0] 1. Draw a table with columns for species, n, n − 1 and n(n − 1). 2. Fill in n for each species from the sample.
+[bio31-s4.2.1] 3. Calculate n − 1, then n(n − 1), for each species, for example 5 individuals gives 5 × 4 = 20.
+[bio31-s4.2.2] 4. Add the n column to get N, the total number of organisms. 5. Add the n(n − 1) column to get Σn(n − 1).
+[bio31-s4.2.3] 6. Calculate N(N − 1). This is done once, for the whole sample. 7. Divide Σn(n − 1) by N(N − 1).
+[bio31-s4.2.4] 8. Subtract the answer from 1 to get Ds.
+[bio31-s4.2.5] 9. Give Ds to two decimal places and interpret it, by comparing it with another sample or by saying whether it is near 0 or near 1.
+[bio31-s4.2.6] Common errors: using n² instead of n(n − 1); forgetting to subtract from 1; and working out N(N − 1) for each species instead of once for the whole sample.
+[bio31-s4.2.7] Another common error is rounding too early, which shifts the final answer. Keep four decimal places until the last step.
+[bio31-s4.3.b] Here the method is applied to a meadow where no one walks, so the four plant species are fairly evenly spread. The numbers are invented sample data for practice.
+[bio31-s4.3.0] Sample data: daisy 10, dandelion 5, white clover 3, buttercup 2. N = 10 + 5 + 3 + 2 = 20.
+[bio31-s4.3.1] n(n − 1): daisy 10 × 9 = 90; dandelion 5 × 4 = 20; clover 3 × 2 = 6; buttercup 2 × 1 = 2. Σn(n − 1) = 90 + 20 + 6 + 2 = 118.
+[bio31-s4.3.2] N(N − 1) = 20 × 19 = 380. Σn(n − 1) / N(N − 1) = 118 / 380 = 0.31 (0.3105). Ds = 1 − 0.3105 = 0.69, which is fairly high, as expected for a meadow with no single dominant species.
+[bio31-s4.4.b] Now the same method is applied to a trampled path in the same field, to show how Ds picks up a difference that a species count would miss. The numbers are invented sample data.
+[bio31-s4.4.0] Sample data: daisy 16, dandelion 2, white clover 1, buttercup 1. N = 20. These are the same four species (the same richness) as example 1.
+[bio31-s4.4.1] n(n − 1): daisy 16 × 15 = 240; dandelion 2 × 1 = 2; clover 1 × 0 = 0; buttercup 1 × 0 = 0. Σn(n − 1) = 242.
+[bio31-s4.4.2] N(N − 1) = 380. 242 / 380 = 0.64 (0.6368). Ds = 1 − 0.6368 = 0.36.
+[bio31-s4.4.3] Interpretation: both samples have four species and 20 plants, but the path is dominated by one trampling-tolerant species (daisy), so its evenness and its diversity are lower (0.36 against 0.69).
+[bio31-s4.4.4] Species richness alone would have shown no difference between the two samples, which is why Ds is the better measure. There is more on this in Investigation: human activity and species diversity.
+[bio31-s4.5.b] These four short samples show the limits of the scale and what happens when richness changes. All the numbers are invented sample data.
+[bio31-s4.5.0] Perfectly even sample: four species with 5 individuals each. N = 20. n(n − 1) = 5 × 4 = 20 for each, so Σn(n − 1) = 80. 80 / 380 = 0.2105. Ds = 0.79, the highest possible for four species and 20 individuals.
+[bio31-s4.5.1] One species only: 20 individuals of one species. Σn(n − 1) = 20 × 19 = 380; 380 / 380 = 1; Ds = 1 − 1 = 0, which means no diversity.
+[bio31-s4.5.2] A richer sample, e.g. a rocky-shore quadrat (a square frame used to sample an area): barnacles 12, limpets 8, dog whelks 6, periwinkles 3, beadlet anemone 1. N = 30.
+[bio31-s4.5.3] For the rocky shore, n(n − 1): 132, 56, 30, 6, 0; Σn(n − 1) = 224. N(N − 1) = 30 × 29 = 870. 224 / 870 = 0.2575. Ds = 0.74.
+[bio31-s4.5.4] A six-species sample: 9, 6, 4, 3, 2, 1. N = 25. n(n − 1): 72, 30, 12, 6, 2, 0; Σ = 122. N(N − 1) = 25 × 24 = 600. 122 / 600 = 0.2033. Ds = 0.80.
+[bio31-s4.6.b] Ds is used to turn a sample into a number that can be compared between sites or over time. It is also a simplified measure, so you need to know what it leaves out.
+[bio31-s4.6.0] Uses: comparing the diversity of two habitats or sites, e.g. trampled and untrampled grassland, upstream and downstream of a pollution source, or a native woodland and a conifer plantation.
+[bio31-s4.6.1] Uses: monitoring the same site over time to see whether diversity is falling or recovering, e.g. after bog rewetting or a change in farming, and judging the effect of conservation or human activity.
+[bio31-s4.6.2] Limitations: the index depends on accurate identification and counting. Samples must be large, taken at random and taken by the same method for a fair comparison.
+[bio31-s4.6.3] Limitations: it is hard to count individual plants that grow in clumps, e.g. grasses, so percentage cover is sometimes used instead, which this equation does not take into account.
+[bio31-s4.6.4] Limitations: it treats all species as equally important, so it does not show whether the species are native, rare or invasive, and a sample is a snapshot at one time of year.
+[bio31-s4.6.5] Other versions of Simpson's index exist in textbooks and websites, e.g. D = Σn(n − 1) / N(N − 1) without subtracting from 1 (where a low value means high diversity), or its reciprocal.
+[bio31-s4.6.6] The specification uses Ds = 1 − Σn(n − 1) / N(N − 1), and this form should always be used, so that a high value always means high diversity.
+
+CANDIDATES bio31-s1: Biosphere, ecosystems, habitats and biodiversity
+[bio31-s1.0.b] Ecology looks at how living things fit into the world around them. To talk about it clearly, ecologists sort life into levels, each one bigger than the last, and each has its own precise name.
+[bio31-s1.0.0] Ecology is the study of the interactions between living organisms, and between organisms and their non-living environment. The word comes from the Greek oikos, meaning house or home, because it is about the place where organisms live and how they get on there.
+[bio31-s1.0.1] A population is all the members of one species living in a particular area at the same time, e.g. all the daisies in a field, or all the red squirrels in a woodland. Members can interbreed because they are one species.
+[bio31-s1.0.2] A community is all the populations of all the different species living and interacting in an area at the same time, e.g. all the plants, animals, fungi and microorganisms of a woodland. It is the living (biotic) part of an ecosystem only, with no soil, water or air.
+[bio31-s1.0.3] The ecological levels, smallest to largest, are: organism, population, community, ecosystem, biosphere. Each level includes the one before it, and from the ecosystem upward the non-living environment is included too.
+[bio31-s1.0.4] These levels continue the levels of organisation inside a body (cell, tissue, organ, organ system, organism): the organism is where the two sets of levels meet, and ecology then builds upward from it.
+[bio31-s1.0.5] Diagram: nested boxes or a stepped sequence. Show one rabbit (organism), a group of rabbits (population), rabbits with grass, foxes and other species (community), the community with soil, water, air and light (ecosystem), and the Earth's living layer (biosphere). Label each level.
+[bio31-s1.1.b] The biosphere is the largest ecological level: the whole of the Earth's life taken together. Its limits and the way matter and energy move through it explain why life depends on the Sun.
+[bio31-s1.1.0] The biosphere is the part of the Earth where life exists: the lower atmosphere, the land surface and soil, and the water (fresh water and oceans). It is the sum of all the Earth's ecosystems.
+[bio31-s1.1.1] The biosphere is a thin layer compared with the size of the Earth. Life is found from the deep ocean floor to a few kilometres up in the air, in birds, spores and bacteria carried on the wind.
+[bio31-s1.1.2] Most life is concentrated in a narrow zone near the surface, because that is where light, liquid water and suitable temperatures are all present.
+[bio31-s1.1.3] The biosphere is a single, closed system for matter, because atoms are recycled and not added. It is an open system for energy, because energy enters as sunlight and leaves as heat. There is more on this in Energy and nutrient transfer, The carbon cycle and The nitrogen cycle.
+[bio31-s1.2.b] An ecosystem is a community together with the non-living world it lives in. The living and non-living parts affect each other, which is why you have to study both.
+[bio31-s1.2.0] An ecosystem is a community of organisms interacting with each other and with their non-living (abiotic) environment in a particular area. It has living (biotic) and non-living (abiotic) parts that affect each other.
+[bio31-s1.2.1] Biotic factors are the living parts of the environment and the effects organisms have on each other: food supply, predation (one animal hunting and eating another), competition, disease, parasites, pollinators and decomposers.
+[bio31-s1.2.2] Abiotic factors are the non-living physical and chemical conditions of the environment: light, temperature, water, oxygen, soil type and pH, minerals, wind, slope and aspect (the direction a slope faces). There is more on this in Abiotic factors within Investigating an Ecosystem, and in Carrying capacity and limiting factors.
+[bio31-s1.2.3] Ecosystems have no fixed size: a rock pool, a hedgerow, a lake, a raised bog or an ocean can each be treated as an ecosystem. Their boundaries are often gradual, e.g. a woodland edge merging into grassland.
+[bio31-s1.2.4] Every ecosystem needs a continual input of energy, almost always sunlight captured by producers (such as plants) in photosynthesis. Its matter is recycled by decomposers (such as fungi and bacteria), so the ecosystem keeps running.
+[bio31-s1.2.5] Producers, consumers and decomposers each have a different role in an ecosystem. Consumers are the animals that get their energy by eating other organisms. The roles of all three are taught in Energy and nutrient transfer.
+[bio31-s1.2.6] Irish land ecosystems include grassland, the most widespread land cover in Ireland, mostly farmed pasture and meadow. Woodland includes the native oak woodlands of Killarney National Park. Peatlands have raised bogs in the midlands and blanket bogs in the uplands and the west.
+[bio31-s1.2.7] Irish water and coastal ecosystems include freshwater, such as lakes like Lough Derg, a lake on the River Shannon, and rivers. Coastal and marine ecosystems include rocky shores, sandy shores and sand dunes, salt marshes and the open sea.
+[bio31-s1.3.b] An ecosystem is too big to describe where one particular animal lives. Ecologists therefore talk about habitats, and smaller microhabitats, to say exactly where an organism is found.
+[bio31-s1.3.0] A habitat is the place where an organism lives, which provides the food, shelter and conditions it needs. A woodlouse's habitat is damp leaf litter, a limpet's is the rocky shore, and a frog's is a pond and the damp vegetation around it.
+[bio31-s1.3.1] A microhabitat is a small area within a habitat with its own conditions, e.g. the underside of a stone on a rocky shore, a rock pool, a rotting log, or the bark of a tree. Shade, moisture and temperature there can differ greatly from the surroundings.
+[bio31-s1.3.2] One ecosystem contains many habitats: a woodland contains the canopy, the trunk, the leaf litter and the soil, each with different species. A habitat is the organism's 'address'; its role there is its niche, which is dealt with in The niche.
+[bio31-s1.4.b] Biodiversity is more than a count of species. It describes how much variety there is in life, and it can be measured at three different levels, from genes up to whole habitats.
+[bio31-s1.4.0] Biodiversity (biological diversity) is the variety of life in an area, or on Earth, at all its levels. It is usually described at three levels: genetic diversity, species diversity and ecosystem (habitat) diversity.
+[bio31-s1.4.1] Genetic diversity is the variety of alleles (different versions of a gene) within a species or population, e.g. the different breeds of cattle, or the variation in disease resistance among wild ash trees. It allows a population to adapt by natural selection when conditions change.
+[bio31-s1.4.2] Low genetic diversity left the Irish potato crop of the 1840s vulnerable, because it was largely one variety, so when blight (a disease) arrived it destroyed it.
+[bio31-s1.4.3] Species diversity is the variety of species in an area. It has two parts: species richness, the number of different species present, and species evenness, how evenly the individuals are spread among those species.
+[bio31-s1.4.4] Two areas with the same species can differ in diversity if one is dominated by a single species. The Simpson's Diversity Index, which combines richness and evenness into one number, is Higher Level only. There is more on this in Simpson's Diversity Index.
+[bio31-s1.4.5] Ecosystem (habitat) diversity is the variety of different ecosystems and habitats in a region, e.g. Ireland's bogs, woodlands, grasslands, lakes, rivers and coasts. A region with many habitats supports more species, because each habitat suits different organisms.
+[bio31-s1.5.b] Life is not spread evenly across the Earth. Some places hold far more species than others, and Ireland is a good local example of a place with fewer.
+[bio31-s1.5.0] Biodiversity is generally higher in warm, wet, stable environments and lower in cold or extreme ones. Tropical rainforests and coral reefs are the most species-rich ecosystems.
+[bio31-s1.5.1] Ireland has fewer species than Britain or mainland Europe, partly because it became an island after the last ice age, before many species had recolonised it from the south.
+[bio31-s1.5.2] In brief, biodiversity provides food, medicines and materials, supports processes such as pollination and nutrient cycling, and makes ecosystems more stable. There is more on this, and on its loss and conservation, in Biodiversity loss and conservation.
+
+CANDIDATES bio32-s2: Surveys
+[bio32-s2.0.b] A survey is a planned way of finding out what lives in a habitat (the place where a community of organisms lives). There are two kinds: one asks 'which species?' and the other asks 'how many?'.
+[bio32-s2.0.0] A qualitative survey records which species are present in the habitat (a species list), without measuring how many of each, so it gives the 'what' but not the 'how much'.
+[bio32-s2.0.1] A qualitative survey is built from all the observations and collections made during the fieldwork. There is more on this in Collection and identification.
+[bio32-s2.0.2] A qualitative survey can add a subjective estimate of abundance (how many there are) using a scale such as DAFOR: Dominant, Abundant, Frequent, Occasional, Rare, judged by eye for each species.
+[bio32-s2.0.3] The DAFOR scale is quick, but different observers give different grades, so it isn't objective (it depends on the person's opinion, not on a measurement).
+[bio32-s2.0.4] A quantitative survey measures how many of each species there are, as numbers, percentages or densities: percentage frequency, percentage cover, density per m², or an estimate of population size.
+[bio32-s2.0.5] Quantitative data can be compared between areas and analysed mathematically, so it can be used, for example, to calculate a diversity index (a single number describing how varied a community is), such as Simpson's Diversity Index.
+[bio32-s2.0.6] Distribution means where in the habitat a species is found; abundance means how many there are. Surveys measure both.
+[bio32-s2.1.b] Counting every organism in a habitat is almost never possible, so samples (small parts of the habitat) are taken and the results used to estimate the whole. How the samples are chosen decides whether the estimate can be trusted.
+[bio32-s2.1.0] A sample must be representative, meaning it reflects the whole habitat: it must be large enough and chosen without bias (without favouring particular spots).
+[bio32-s2.1.1] Random sampling is used when the habitat looks uniform (the same all over), so that every point has an equal chance of being chosen.
+[bio32-s2.1.2] 1. Lay two long tape measures at right angles along two edges of the study area to form the axes of a grid.
+[bio32-s2.1.3] 2. Generate pairs of random numbers (with a calculator, a phone app or random-number tables) as coordinates, for example (7, 23) means 7 m along one tape and 23 m along the other.
+[bio32-s2.1.4] 3. Walk to each coordinate and place the quadrat (the square sampling frame) there, with its corner on the point.
+[bio32-s2.1.5] Throwing a quadrat over the shoulder is not truly random and is unsafe, so don't use it.
+[bio32-s2.2.b] Random sampling suits an even habitat, but conditions often change from one side of a habitat to the other. Then samples are placed in an orderly way, and enough of them must be taken to give a reliable result.
+[bio32-s2.2.0] Systematic sampling places samples at regular intervals, for example a quadrat every 2 m along a line. It is used where conditions change across the habitat (a gradient, for example from a hedge into open field), to show how species change along it; this is a transect.
+[bio32-s2.2.1] The more samples, the more reliable the estimate, because chance differences between individual spots average out.
+[bio32-s2.2.2] Take quadrats one at a time and keep a running mean (or a running total of species found).
+[bio32-s2.2.3] When adding more quadrats no longer changes the mean (or adds new species), enough have been taken. In a grassland this is usually at least 10 to 20 quadrats.
+[bio32-s2.3.b] A quadrat is the basic tool for sampling plants. Different designs suit different measurements, and a few rules keep the counting fair.
+[bio32-s2.3.0] A quadrat is a square frame of known area used to sample plants and slow-moving or attached animals (ones that can't escape or move while you count). School grassland quadrats are usually 0.5 m × 0.5 m (0.25 m²) or 1 m × 1 m (1 m²).
+[bio32-s2.3.1] A gridded quadrat is divided by strings or wires into 100 equal small squares (10 × 10), each 1% of the area, which makes percentages easy to read off.
+[bio32-s2.3.2] A point quadrat (point frame) is a frame on legs holding a row of usually 10 long pins (needles) that can be lowered vertically through the vegetation. Each pin that touches a species counts as one 'hit' for that species.
+[bio32-s2.3.3] Rule 1: lay the quadrat flat on the ground at the chosen point without moving it towards or away from any plant, so you don't choose which plants fall inside.
+[bio32-s2.3.4] Rule 2: use the same size of quadrat throughout, so counts from different quadrats can be compared.
+[bio32-s2.3.5] Rule 3: decide in advance how to count plants on the edge (for example count a plant only if more than half of it is inside, or count only those on the top and left edges), and apply the rule every time so no plant is counted twice or missed.
+[bio32-s2.3.6] Diagram: a gridded quadrat (100 squares) placed at a random coordinate on a grid laid out with two tape measures at right angles; and a point quadrat with 10 pins, with one pin touching a leaf (a hit).
+[bio32-s2.4.b] Percentage frequency tells you how widespread a species is across the samples. It asks only 'is it there or not?' in each quadrat.
+[bio32-s2.4.0] Percentage frequency is the percentage of all the quadrats sampled in which a species is present: percentage frequency = (number of quadrats containing the species ÷ total number of quadrats) × 100.
+[bio32-s2.4.1] Only presence or absence is recorded in each quadrat, so it is quick and objective, and works for any plant (or attached animal).
+[bio32-s2.4.2] It doesn't show how many there are: one daisy or a hundred in a quadrat both count as 'present'.
+[bio32-s2.4.3] It depends on quadrat size, because a larger quadrat is more likely to contain the species.
+[bio32-s2.4.4] Worked example (sample data): 20 quadrats were placed at random. Daisy was present in 12, dandelion in 5 and white clover in 16.
+[bio32-s2.4.5] Daisy: 12 ÷ 20 × 100 = 60%. Dandelion: 5 ÷ 20 × 100 = 25%. White clover: 16 ÷ 20 × 100 = 80%.
+[bio32-s2.4.6] Results are shown in a table and as a bar chart with one bar per species, with percentage frequency on the y-axis.
+[bio32-s2.5.b] Percentage cover is the percentage of the ground area of a quadrat covered by a species, viewed from directly above. It measures how much space a species takes up, not how many individuals there are.
+[bio32-s2.5.0] Percentage cover is used for plants that are hard to count as individuals, such as grasses, clover and mosses, which spread to form mats.
+[bio32-s2.5.1] Gridded-quadrat method: count the small squares in which the species covers more than half the square; each square is 1%. Repeat in each quadrat and find the mean percentage cover.
+[bio32-s2.5.2] Worked example (sample data): in five quadrats white clover covered 30, 45, 25, 40 and 35 squares; total = 175; mean percentage cover = 175 ÷ 5 = 35%.
+[bio32-s2.5.3] Point-quadrat method: lower each pin and record every species it touches. Percentage cover = (number of hits on the species ÷ total number of pins lowered) × 100.
+[bio32-s2.5.4] Worked example (sample data): the 10-pin frame was placed at 10 random points, so 100 pins were lowered; grass was touched by 72 pins and white clover by 23.
+[bio32-s2.5.5] Grass cover = 72 ÷ 100 × 100 = 72%; clover cover = 23%.
+[bio32-s2.5.6] The total cover of all species in a quadrat can be more than 100%, because plants overlap in layers (for example clover leaves above grass).
+[bio32-s2.5.7] Percentage cover estimated by eye is subjective. The grid and point methods are more objective, and the point method is the most objective because a pin either touches or doesn't.
+[bio32-s2.6.b] Density is the number of individuals per unit area, usually per m². Once you know the density, you can scale up to estimate how many plants live in the whole habitat.
+[bio32-s2.6.0] Count the individuals of a species that can be counted separately (for example daisy or dandelion rosettes) in each quadrat. Density = total number counted ÷ total area sampled.
+[bio32-s2.6.1] Estimated population = density × total area of the habitat.
+[bio32-s2.6.2] The area of the habitat is found by measuring its length and width with tape measures or a trundle wheel (a measuring wheel you roll along the ground).
+[bio32-s2.6.3] Worked example (sample data): five quadrats of 0.25 m² contained 4, 7, 3, 6 and 5 daisies. Total = 25 daisies in 5 × 0.25 = 1.25 m².
+[bio32-s2.6.4] Density = 25 ÷ 1.25 = 20 daisies per m² (or: mean per quadrat 5 ÷ 0.25 m² = 20 per m²).
+[bio32-s2.6.5] The field is 50 m × 40 m = 2000 m², so the estimated population = 20 × 2000 = 40 000 daisies.
+[bio32-s2.6.6] Counting individuals is the most informative measure but is slow, and impossible for grasses and other spreading plants, which need percentage cover instead.
+[bio32-s2.7.b] A transect is a line across a habitat along which samples are taken at regular intervals. It is the tool for showing how species change when conditions change gradually.
+[bio32-s2.7.0] Transects are used where there is a gradient in conditions, to show how the distribution of species changes along it: for example from under a hedge or tree into open grassland, across a trampled path, from a wet hollow to drier ground, or up a rocky shore.
+[bio32-s2.7.1] Line transect, step 1: stretch a rope or tape measure tightly across the area at ground level.
+[bio32-s2.7.2] Line transect, step 2: at regular intervals (for example every 1 m), record every species touching the line (or directly below it).
+[bio32-s2.7.3] Line transect, step 3: record the distance for each species.
+[bio32-s2.7.4] A line transect shows where each species occurs (distribution) but not how many, because it only records presence at each point.
+[bio32-s2.7.5] A transect is a systematic, not random, sample: it is chosen to cross the gradient.
+[bio32-s2.7.6] Several parallel transects give more reliable results, because one line might happen to cross an unusual patch.
+[bio32-s2.8.b] A line transect only tells you where species are. A belt transect adds quadrats along the line, so it also tells you how abundant each species is.
+[bio32-s2.8.0] Belt transect: quadrats are placed along the line, either side by side all the way (continuous belt transect) or at regular intervals (interrupted belt transect, for example a quadrat every 2 m).
+[bio32-s2.8.1] In each quadrat of a belt transect, percentage cover, frequency or numbers are recorded, so a belt transect shows abundance as well as distribution.
+[bio32-s2.8.2] Abiotic factors (non-living conditions such as light or soil moisture) are measured at each quadrat to relate them to the species. There is more on this in Abiotic factors.
+[bio32-s2.8.3] Diagram: a belt transect from a hedge into open grassland: tape measure from the hedge, quadrats at 2 m intervals, with distances labelled.
+[bio32-s2.9.b] Mobile animals move out of a quadrat before you can count them. Instead you catch, mark and release some, then use the proportion of marked animals in a second catch to work out the total population.
+[bio32-s2.9.0] Mobile animals can't be counted in quadrats, so their population is estimated by capture–mark–recapture.
+[bio32-s2.9.1] 1. Catch a sample with a suitable method (for example pitfall traps, sunken containers, for ground beetles or woodlice).
+[bio32-s2.9.2] 2. Count them (M) and mark each harmlessly, for example with a small dot of non-toxic, quick-drying, waterproof paint on the underside of a woodlouse or the wing case of a beetle.
+[bio32-s2.9.3] 3. Release them where they were caught and leave enough time (for example 24 hours) for them to mix back into the population.
+[bio32-s2.9.4] 4. Catch a second sample in the same way and place; count the total caught (C) and the number that are marked (R).
+[bio32-s2.9.5] Estimated population size: N = (M × C) ÷ R. This works because the fraction of the second sample that is marked (R ÷ C) is assumed to equal the fraction of the whole population that is marked (M ÷ N).
+[bio32-s2.9.6] Worked example (sample data): 30 woodlice were caught, marked and released. Next day 40 were caught, 8 of them marked. N = (30 × 40) ÷ 8 = 1200 ÷ 8 = 150 woodlice.
+[bio32-s2.9.7] Second example (sample data): M = 48, C = 50, R = 12; N = 2400 ÷ 12 = 200.
+[bio32-s2.10.b] The capture–recapture formula only gives a good estimate if certain conditions hold, and it is easy to mix up the letters. When an exact population isn't needed, a simpler count can be enough.
+[bio32-s2.10.0] N must be larger than both M and C, because the population includes every marked animal and every animal caught in the second sample. If it isn't, you have made an error.
+[bio32-s2.10.1] R is the number of marked animals in the second sample, not the number marked in the first sample.
+[bio32-s2.10.2] Assumption: there are no births, deaths, immigration (animals arriving) or emigration (animals leaving) between the two samples, so the population stays the same size.
+[bio32-s2.10.3] Assumption: marked animals mix fully and randomly with the rest, and marked and unmarked animals are equally likely to be caught.
+[bio32-s2.10.4] Assumption: the mark doesn't harm the animal, make it easier for predators to see, or wash or rub off.
+[bio32-s2.10.5] If marks are lost, R is too small and N is overestimated, because fewer marked animals are recognised in the second sample. The assumptions are rarely fully met in practice.
+[bio32-s2.10.6] For comparisons only, a relative count is often enough: for example the number of grasshoppers caught per ten sweeps of a sweep net, or the number of beetles per pitfall trap per day, compared between two areas using the same method.
+[bio32-s2.11.b] In ecology a model is a simplified representation of a habitat that describes it and can be used to explain or predict. Here the model is a labelled map with data, built from the primary data (results you collected yourself).
+[bio32-s2.11.0] Size: measure the length and width (or the sides of an irregular area) with long tape measures or a trundle wheel, and calculate the area, for example 50 m × 40 m = 2000 m².
+[bio32-s2.11.1] Map: draw a sketch map to scale, with a north arrow, showing the boundary, hedges, trees, paths, gates, wet and dry areas, any slope (and which way it faces), the positions of the quadrats, transects and traps, and where the main species were found.
+[bio32-s2.11.2] Species: the species list from the qualitative survey, with the quantitative results (percentage frequency, cover, density, population estimates) for the main species.
+[bio32-s2.11.3] Abiotic factors: the mean values measured across the habitat (for example light intensity, soil pH, soil water content, air and soil temperature, aspect and slope), with differences between areas marked on the map.
+[bio32-s2.11.4] Biotic factors (the effects of living things): the feeding and symbiotic relationships observed, shown as food chains or a food web drawn from the species found.
+[bio32-s2.11.5] Biotic factors also include grazing, trampling and human management such as mowing or fertilising.
+[bio32-s2.11.6] Using the model: it can explain why species are where they are (for example rushes only in the wet hollow) and predict the effect of a change (for example if mowing stopped, taller grasses would shade out daisies).
+[bio32-s2.11.7] Limits of the model: it is a snapshot of one season and of the parts sampled, so it may not hold at other times of year or in unsampled areas.
+[bio32-s2.12.b] Raw counts are hard to interpret. Tables and graphs show patterns in species abundance and distribution at a glance.
+[bio32-s2.12.0] Record results in tables with headings and units: quadrat number or distance along the transect, species, and the measure used.
+[bio32-s2.12.1] Bar charts compare species, for example the percentage frequency of each.
+[bio32-s2.12.2] For a transect, plot each species' abundance against distance, or draw a kite diagram.
+[bio32-s2.12.3] In a kite diagram, for each species a band is centred on a horizontal line; its width at each point along the transect is proportional to the species' abundance there, so the bands show at a glance where each species is common.
+[bio32-s2.12.4] Diagram: a kite diagram for two species along a 10 m transect from a hedge, with distance on the x-axis.
+[bio32-s2.13.b] A survey can be set up as a fair test, with an aim, a hypothesis (a testable prediction), and variables. Field studies differ from lab experiments because conditions can't be fully controlled.
+[bio32-s2.13.0] Aim: to estimate the abundance and distribution of named species (for example daisy, white clover, grass and woodlice) in a grassland.
+[bio32-s2.13.1] Hypothesis (example): 'Daisies are more abundant in the short-mown part of the field than in the long-grass part.'
+[bio32-s2.13.2] Independent variable (the one you change or compare) when two areas are compared: the area (for example mown vs unmown).
+[bio32-s2.13.3] Dependent variable (the one you measure): the abundance of the species (density, percentage cover or frequency).
+[bio32-s2.13.4] Controlled variables (kept the same): the quadrat size and type, the number of quadrats, the method of placing them (random coordinates), the counting rule, the observer, the date and the weather.
+[bio32-s2.13.5] There is no true control in a field study, because the two areas can't be made identical in every other way.
+[bio32-s2.13.6] Conclusion: state the measured abundance of each species and compare the areas using the means.
+[bio32-s2.13.7] Say whether the results support the hypothesis. A difference shows correlation with the area, not proof of the cause.
+[bio32-s2.14.b] No survey is perfect. Knowing where errors come from lets you say how reliable your results are and how to improve them.
+[bio32-s2.14.0] Too few samples, or samples not placed at random (choosing 'typical' spots), give an unrepresentative estimate; use random coordinates and enough quadrats.
+[bio32-s2.14.1] Misidentification of species, especially grasses and small invertebrates, is a source of error.
+[bio32-s2.14.2] Estimates of percentage cover by eye are subjective, and inconsistent edge rules change counts.
+[bio32-s2.14.3] Results vary with the season and the time of day (plants flower and animals are active at different times), so a single survey is a snapshot.
+[bio32-s2.14.4] The assumptions of capture–recapture are rarely fully met.
+[bio32-s2.14.5] Trampling during the survey damages the plants being sampled; avoid trampling the quadrat sites before they are sampled.
+[bio32-s2.14.6] Reliability improves by repeating the survey (more quadrats, more transects, several dates) and calculating means, because repeats reduce the effect of chance.

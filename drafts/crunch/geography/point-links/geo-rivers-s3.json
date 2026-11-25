@@ -1,0 +1,540 @@
+{
+"geo-rivers-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s3.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.0.b",
+"strength": "essential",
+"why": "uses uplift and denudation",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.0.0",
+"strength": "helpful",
+"why": "uplift then denudation sequence",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.0.0",
+"strength": "essential",
+"why": "uses base level",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s2.1.b",
+"strength": "helpful",
+"why": "renewed cutting power is rejuvenation",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.0.1",
+"strength": "helpful",
+"why": "geographical cycle is cyclic development",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.0.0",
+"strength": "helpful",
+"why": "uplift then wearing down",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.1.1": {
+"cost": 2,
+"needs": []
+},
+"geo-rivers-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.1.b",
+"strength": "essential",
+"why": "river courses being contrasted",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.1.2",
+"strength": "helpful",
+"why": "youth as first Davis stage",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.3",
+"strength": "helpful",
+"why": "vertical erosion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.7.b",
+"strength": "helpful",
+"why": "V-shaped valley formation",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s3.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.4",
+"strength": "helpful",
+"why": "lateral erosion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.2.0",
+"strength": "helpful",
+"why": "relief defined in youth",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.10.b",
+"strength": "helpful",
+"why": "meander formation",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.12.b",
+"strength": "helpful",
+"why": "floodplain formation",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.6.b",
+"strength": "helpful",
+"why": "drainage pattern idea",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s3.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.0.0",
+"strength": "essential",
+"why": "uses base level",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.11.b",
+"strength": "helpful",
+"why": "oxbow lake formation",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.12.b",
+"strength": "helpful",
+"why": "levees and floodplains",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.0.0",
+"strength": "essential",
+"why": "uses base level",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.0.5",
+"strength": "helpful",
+"why": "divides are watersheds",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.0.0",
+"strength": "essential",
+"why": "uses base level",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s3.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.4.2",
+"strength": "essential",
+"why": "uses peneplain",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.5.0",
+"strength": "essential",
+"why": "term monadnock being explained",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.1.0",
+"strength": "helpful",
+"why": "Davis cycle assumptions",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s2.1.b",
+"strength": "helpful",
+"why": "restart is rejuvenation",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.1.b",
+"strength": "essential",
+"why": "uses rejuvenation",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.1.b",
+"strength": "essential",
+"why": "base level adjustment, rejuvenation",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.6.1",
+"strength": "helpful",
+"why": "new cycle before old finished",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.4.2",
+"strength": "helpful",
+"why": "flat surface is a peneplain",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.4.2",
+"strength": "essential",
+"why": "uses peneplain",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s3.7.0",
+"strength": "helpful",
+"why": "cutting across rock structures",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.0.0",
+"strength": "essential",
+"why": "uses base level",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s3.7.1",
+"strength": "helpful",
+"why": "uplifted peneplain",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.1.b",
+"strength": "helpful",
+"why": "Davis model being criticised",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.1.0",
+"strength": "essential",
+"why": "contrasts Davis's uplift assumption",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.8.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s3.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s2.1.1",
+"strength": "helpful",
+"why": "isostatic response",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.4.2",
+"strength": "essential",
+"why": "uses peneplain",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.1.2",
+"strength": "helpful",
+"why": "landscape stages framework",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.7.0",
+"strength": "helpful",
+"why": "planation surface",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.9.0": {
+"cost": 2,
+"needs": []
+},
+"geo-rivers-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.9.0",
+"strength": "helpful",
+"why": "folds being cut across",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s3.7.0",
+"strength": "helpful",
+"why": "planation surface",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.7.1",
+"strength": "helpful",
+"why": "accordant summits",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.9.1",
+"strength": "essential",
+"why": "surface cutting across folds",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.9.b",
+"strength": "helpful",
+"why": "Munster planation surface",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s3.6.0",
+"strength": "essential",
+"why": "uses rejuvenation",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s3.9.1",
+"strength": "helpful",
+"why": "the Munster planation surface",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.10.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s3.9.0",
+"strength": "essential",
+"why": "sandstone ridges and limestone valleys",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s3.10.2": {
+"cost": 2,
+"needs": []
+},
+"geo-rivers-s3.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s3.10.2",
+"strength": "essential",
+"why": "the river's southward turn",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s3.10.1",
+"strength": "helpful",
+"why": "folded rocks beneath",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s3.10.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s3.10.0",
+"strength": "helpful",
+"why": "uplift and rejuvenated rivers",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s2.2.2",
+"strength": "helpful",
+"why": "landscape temporarily out of balance",
+"confidence": "high"
+}
+]
+}
+}

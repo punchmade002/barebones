@@ -1,0 +1,293 @@
+MODE: links only (another package rates cost)
+TARGET geo-economic-activities-s2 (part 1 of 2): The mobility of modern economic activities and factors in their location
+[geo-economic-activities-s2.0.b] Firms try to locate where total transport costs are lowest. This least-cost principle of industrial location was set out by Alfred Weber in 1909, and it depends on whether processing makes the materials lighter or heavier.
+[geo-economic-activities-s2.0.0] Bulk-reducing industries are those where the raw material loses weight in processing, so the plant locates near the raw material because carrying the heavy input a long way would waste money. Examples: alumina refining, dairy processing, fish processing, mining.
+[geo-economic-activities-s2.0.1] Bulk-gaining industries are those where the product gains weight or bulk in production, so the plant locates near the market because the finished product is the costly thing to move. Examples: brewing, soft drinks bottling, bakeries.
+[geo-economic-activities-s2.0.2] Test for an exam location question: if the inputs lose weight in processing, the plant is pulled towards the raw material; if the finished product is heavier or bulkier, it is pulled towards the market.
+[geo-economic-activities-s2.1.b] Location questions use a set of working terms. Knowing them makes the location factors easier to follow.
+[geo-economic-activities-s2.1.0] Footloose industry: one that is not tied to a raw material or a market, so it is free to choose its location. The factors below explain where footloose activities choose to locate.
+[geo-economic-activities-s2.1.1] Branch plant: a factory or office owned by a company headquartered elsewhere, usually carrying out routine production.
+[geo-economic-activities-s2.1.2] Headquarters (HQ): the head office where a company's main decisions are made. Research and development (R&D): the work of designing new products and processes.
+[geo-economic-activities-s2.1.3] Greenfield site: undeveloped land on which a new plant is built. Brownfield site: land already built on, often a former industrial site that may need clearing before reuse.
+[geo-economic-activities-s2.1.4] Industrial estate or business park: a serviced area of land set aside for firms, with roads and utilities already in place.
+[geo-economic-activities-s2.1.5] Cluster, or agglomeration: firms in the same or related industries grouped together, sharing skills, suppliers and research.
+[geo-economic-activities-s2.1.6] Backward linkages are links to a firm's suppliers; forward linkages are links to its customers.
+[geo-economic-activities-s2.1.7] Infrastructure: the transport, energy, water, communications and waste systems that firms depend on.
+[geo-economic-activities-s2.2.b] A location factor is any condition that makes one place more suitable than another for an activity. The first three are the inputs a firm needs to make its product.
+[geo-economic-activities-s2.2.0] Raw materials: weight-losing raw materials pull processing towards their source or towards a port where they arrive, which keeps the cost of moving heavy loads down.
+[geo-economic-activities-s2.2.1] Energy: industry once clustered on coalfields, where the fuel was. National electricity grids freed most industry from this, but energy-hungry activities such as alumina refining and data centres still need large, reliable and affordable power.
+[geo-economic-activities-s2.2.2] Labour: the quantity, skills and education, cost, productivity and flexibility of the workforce.
+[geo-economic-activities-s2.2.3] High-technology and service firms seek graduates because their work needs advanced skills; standardised assembly (repeating the same simple steps) seeks low wages.
+[geo-economic-activities-s2.2.4] Irish examples for labour: the Intel plant at Leixlip and the Galway cluster, both described below.
+[geo-economic-activities-s2.3.b] Once a product is made it has to reach its customers, and firms need to receive inputs. Markets, transport links and communications decide how cheaply and quickly that happens.
+[geo-economic-activities-s2.3.0] Markets: the size and wealth of the market, and access to the EU single market (the EU area with no trade barriers between members). Bulk-gaining and perishable goods locate near the market; services locate near their customers.
+[geo-economic-activities-s2.3.1] Ports: deep water lets bulk carriers (large ships carrying loose cargo) berth. Dublin Port is Ireland's busiest port. Port of Cork and Shannon Foynes Port are also major ports.
+[geo-economic-activities-s2.3.2] Rosslare Europort: direct ferry routes to France grew after Brexit (2021) to avoid the UK land bridge, the route across Britain to continental Europe.
+[geo-economic-activities-s2.3.3] Whitegate, Cork Harbour: Ireland's only oil refinery, opened 1959.
+[geo-economic-activities-s2.3.4] Airports: air freight suits light, high-value, time-sensitive goods such as pharmaceuticals, medical devices and microchips, because the high price of the goods can bear the high cost of air transport.
+[geo-economic-activities-s2.3.5] Dublin Airport handled over 30 million passengers in 2023; its North Runway opened in 2022.
+[geo-economic-activities-s2.3.6] Freight modes: road offers door-to-door flexibility over short and medium distances; rail carries heavy loads on fixed routes; sea is the cheapest way to move bulk over long distances; air is the fastest but the most expensive.
+[geo-economic-activities-s2.3.7] Motorways, rail, broadband and fibre (fibre-optic cable) connect firms to markets and suppliers; for services, broadband and fibre matter most. One environmental challenge of air transport is its CO2 emissions.
+[geo-economic-activities-s2.4.b] A firm also needs money and a welcoming policy environment. Governments, and the EU above them, can make a location more or less attractive through money, tax and rules.
+[geo-economic-activities-s2.4.0] Capital: investment money comes from banks, shareholders, government grants and venture capital (money from investors who back new, risky businesses).
+[geo-economic-activities-s2.4.1] IDA Ireland was set up in 1949 and became an independent agency in 1969. It attracts firms by offering grants, serviced sites (land with utilities already supplied) and advance factories (buildings built ready for a firm to move into).
+[geo-economic-activities-s2.4.2] Corporation tax (the tax on company profits) was 12.5% from 2003. Very large groups pay 15% from 2024.
+[geo-economic-activities-s2.4.3] Enterprise Ireland (1998) supports Irish-owned firms. Údarás na Gaeltachta (1980) supports enterprise in Gaeltacht areas.
+[geo-economic-activities-s2.4.4] Regional policy steers firms towards less-developed areas through grants and incentives.
+[geo-economic-activities-s2.4.5] Planning permission (official approval from the local authority) is needed before a site can be built on.
+[geo-economic-activities-s2.4.6] EU state-aid rules limit the subsidies governments may give firms, while EU funds support regional development.
+[geo-economic-activities-s2.4.7] Trade agreements reduce the barriers that firms face when selling across borders, which makes a location inside the agreement more attractive.
+[geo-economic-activities-s2.5.b] After a firm picks a general area it must find a suitable piece of land, and workers and the plant both need services. The site and its services decide whether the plant can actually be built and run.
+[geo-economic-activities-s2.5.0] Site: flat, well-drained land, large enough for expansion, at a cheap price, so that building is easy and the plant can grow later.
+[geo-economic-activities-s2.5.1] Site: a water supply, and facilities for effluent (liquid waste) and waste disposal.
+[geo-economic-activities-s2.5.2] Site: hazardous industry needs distance from homes, so that accidents or pollution do not harm residents.
+[geo-economic-activities-s2.5.3] Services: water, electricity, gas, broadband, waste treatment, housing and schools. Workers must be able to live near the plant, which is why housing and schools count as location factors.
+[geo-economic-activities-s2.6.b] Some location factors are about people and history rather than land and transport. Firms gather together, stay put out of habit, or follow the pull of a pleasant place to live.
+[geo-economic-activities-s2.6.0] Agglomeration: firms in the same industry gather to share skilled workers, suppliers, research and universities, so each firm gains from the others being nearby.
+[geo-economic-activities-s2.6.1] Cork Harbour (pharmaceuticals) and Galway (medical technology) grew into clusters in this way.
+[geo-economic-activities-s2.6.2] Personal and historical factors: the choices of founders and the history of a site can decide a location, whatever the economics of the place.
+[geo-economic-activities-s2.6.3] Industrial inertia: an industry stays where it is after the original reason for locating there has gone.
+[geo-economic-activities-s2.6.4] Quality of life: attractive places to live help firms recruit skilled staff, because graduates can choose where to work.
+[geo-economic-activities-s2.7.b] Local opposition and environmental regulation can stop or delay a project. Corrib gas shows how long a delay can be.
+[geo-economic-activities-s2.7.0] Corrib gas was discovered in 1996. Its terminal (the plant that receives and processes the gas) is at Bellanaboy, Co. Mayo.
+[geo-economic-activities-s2.7.1] The Shell to Sea campaign opposed the project, and the Rossport Five were jailed in 2005.
+[geo-economic-activities-s2.7.2] Gas first flowed in December 2015, after a long delay caused by local opposition and changes to planning.
+[geo-economic-activities-s2.8.b] The weight of each factor has changed over time as transport, energy supply and technology have changed. The pattern runs from resources, to customers, to skills and quality of life.
+[geo-economic-activities-s2.8.0] In the 19th century, raw materials and power were the main location factors, so industry sat on or near coalfields and sources of materials.
+[geo-economic-activities-s2.8.1] In the 20th century, markets and labour became the main factors.
+[geo-economic-activities-s2.8.2] Today, footloose activities (those free to choose a location) chase skills, tax, connectivity and quality of life.
+[geo-economic-activities-s2.9.b] A bulk-reducing heavy industry located on a deep-water estuary, where imported raw material arrives by sea.
+[geo-economic-activities-s2.9.0] Aughinish Alumina opened in 1983 on Aughinish Island near Askeaton, Co. Limerick, on the south shore of the Shannon Estuary. It is Europe's largest alumina refinery.
+[geo-economic-activities-s2.9.1] Bulk-reducing: about two to three tonnes of bauxite (the ore, or raw rock, that alumina is made from) make one tonne of alumina, so the refinery sits at the raw material's port.
+[geo-economic-activities-s2.9.2] Bauxite is imported by sea, mainly from Guinea and Brazil. The alumina (aluminium oxide) is shipped to aluminium smelters elsewhere; the refinery does not make aluminium.
+[geo-economic-activities-s2.9.3] Deep, sheltered water in the Shannon Estuary, Ireland's deepest natural sheltered water, allows large bulk carriers to berth.
+[geo-economic-activities-s2.9.4] The site is a flat island location away from towns, which suits a large heavy industry.
+[geo-economic-activities-s2.9.5] Government support for heavy industry is a further factor in its siting.
+[geo-economic-activities-s2.9.6] Problems: bauxite residue, known as red mud, is stored in large disposal areas on site.
+[geo-economic-activities-s2.9.7] The company has been owned by the Russian company Rusal since 2007.
+[geo-economic-activities-s2.10.b] The same estuary that serves Aughinish has also been used for energy, because deep water lets fuel arrive by ship.
+[geo-economic-activities-s2.10.0] Moneypoint power station, Co. Clare, is on the Shannon Estuary and imported coal by sea.
+[geo-economic-activities-s2.10.1] Coal burning at Moneypoint ended in 2025, so the estuary's energy role has changed.
+[geo-economic-activities-s2.11.b] Intel is footloose in the sense that its products are not tied to a raw material or a market, so it chose Leixlip from many possible sites. Its choice shows which factors matter to a high-technology firm.
+[geo-economic-activities-s2.11.0] Intel's Leixlip plant opened in 1989. It is Ireland's largest private-sector investment, worth billions of euro.
+[geo-economic-activities-s2.11.1] Skilled graduates are available, so with Maynooth University nearby, which meets the plant's need for a skilled workforce.
+[geo-economic-activities-s2.11.2] IDA support and low corporation tax attracted the investment. There is more on this in Capital, government and EU policy.
+[geo-economic-activities-s2.11.3] Access to the EU single market from an English-speaking base.
+[geo-economic-activities-s2.11.4] The plant lies beside the M4 motorway and close to Dublin Airport, so goods and staff can move easily.
+[geo-economic-activities-s2.11.5] It occupies a large greenfield site (undeveloped land) with a supply of electricity and water.
+[geo-economic-activities-s2.11.6] Footloose does not mean likely to leave: the large fixed investment makes relocation unlikely.
+[geo-economic-activities-s2.11.7] Global job cuts announced in 2024 and 2025 affected Leixlip, showing that even a large plant depends on parent-company decisions.
+[geo-economic-activities-s2.12.b] Cork Harbour combines deep water, industrial land and skilled graduates, so pharmaceutical firms have gathered there. Their closeness to each other reinforces the pattern.
+[geo-economic-activities-s2.12.0] Pfizer, Janssen (Johnson & Johnson) and Novartis are at Ringaskiddy; Eli Lilly is at Kinsale, Co. Cork.
+[geo-economic-activities-s2.12.1] The Port of Cork has deep-water berths at Ringaskiddy, which suits the import and export of pharmaceutical goods.
+[geo-economic-activities-s2.12.2] Large flat sites are zoned for industry (set aside for it in the local plan), with water supply and waste facilities.
+[geo-economic-activities-s2.12.3] Skilled labour comes from University College Cork (UCC) and Munster Technological University (MTU). MTU was formed in 2021 from Cork IT and IT Tralee.
+[geo-economic-activities-s2.12.4] IDA support, tax and clustering reinforce the pattern.
+[geo-economic-activities-s2.12.5] Pharmaceuticals and chemicals are Ireland's largest goods exports.
+[geo-economic-activities-s2.12.6] Older heavy industry in the same harbour: Irish Steel at Haulbowline closed in 2001.
+[geo-economic-activities-s2.13.b] Galway shows how the closure of one firm can feed the growth of another industry. Skilled people left behind became the base for a cluster making medical devices.
+[geo-economic-activities-s2.13.0] Boston Scientific opened in Galway in 1994. Medtronic, Parkmore, Galway followed.
+[geo-economic-activities-s2.13.1] The cluster draws on skilled engineers left by the closure of DEC's plant. The Dell and DEC block below gives the date.
+[geo-economic-activities-s2.13.2] University of Galway research (renamed in 2022) supports the cluster, and a network of suppliers has grown around the firms.
+[geo-economic-activities-s2.13.3] There is more on this in Irish Regions — Core and Peripheral, in the peripheral Irish region subsection.
+[geo-economic-activities-s2.14.b] Food and drink show both sides of Weber's idea. Processing that makes the product lighter stays at the source, while brewing, which makes the product heavier, stays near its customers.
+[geo-economic-activities-s2.14.0] Kerry Group grew from the North Kerry Milk Products co-operative at Listowel, founded in 1972. Its headquarters are in Tralee, Co. Kerry.
+[geo-economic-activities-s2.14.1] Dairy processing is bulk-reducing: plants at Listowel and Tralee sit near the supply of milk.
+[geo-economic-activities-s2.14.2] Killybegs, Co. Donegal, is Ireland's largest fishing port.
+[geo-economic-activities-s2.14.3] Fish processing plants at Killybegs handle pelagic fish (fish that live near the surface) such as mackerel and herring, a bulk-reducing process that locates at the port.
+[geo-economic-activities-s2.14.4] Guinness at St James's Gate, Dublin, was founded in 1759 by Arthur Guinness on a 9,000-year lease.
+[geo-economic-activities-s2.14.5] Brewing is bulk-gaining because water is added to the product, so the brewery sits near its market.
+[geo-economic-activities-s2.14.6] Industrial inertia: Guinness still brews at St James's Gate today, long after the original reasons for the site have gone.
+[geo-economic-activities-s2.15.b] Data centres (buildings full of computers that store and process online data) are a modern footloose activity, but they use huge amounts of electricity. For them the power grid has become a limit on location.
+[geo-economic-activities-s2.15.0] Data centres used about 21% of Ireland's metered electricity in 2023 (CSO).
+[geo-economic-activities-s2.15.1] EirGrid (the electricity grid operator) stated in 2022 that it would not connect new data centres in the Dublin region until about 2028, so the electricity grid now limits their location.
+[geo-economic-activities-s2.15.2] Amazon Web Services, Microsoft, Google and Meta operate data centres in Ireland.
+[geo-economic-activities-s2.15.3] Why Ireland: a cool, mild climate reduces cooling costs; fibre links to the USA and Europe; existing clusters of technology firms; tax.
+[geo-economic-activities-s2.16.b] Modern economic activities can move more easily than older ones. Five changes have loosened the link between an activity and a fixed place.
+[geo-economic-activities-s2.16.0] Lower transport costs, through containerisation (goods packed in standard boxes that move easily between ship, rail and lorry) and air freight, let goods move cheaply over long distances.
+[geo-economic-activities-s2.16.1] Instant communications, through the internet, fibre and video calls, let firms manage plants at a distance.
+[geo-economic-activities-s2.16.2] Standardised production can be done by low-skilled workers, so the work can go anywhere with a cheap labour supply.
+[geo-economic-activities-s2.16.3] The removal of trade barriers, through the EU single market and the World Trade Organization, makes it easier to sell across borders from any member location.
+[geo-economic-activities-s2.16.4] Multinationals (firms operating in many countries) can compare countries and move capital quickly.
+[geo-economic-activities-s2.17.b] A country that hosts a branch plant gains quickly, but its gains are not secure. The same mobility that brings the plant can take it away.
+[geo-economic-activities-s2.17.0] Investment brings rapid job creation, but jobs can leave just as quickly.
+[geo-economic-activities-s2.17.1] Branch plants are vulnerable because the decisions are made at a distant headquarters, not in the host country.
+[geo-economic-activities-s2.17.2] Countries compete for investment by offering tax and grants.
+[geo-economic-activities-s2.18.b] A company opens a branch plant in another country when the move helps its own plans. These are the strategies behind such decisions.
+[geo-economic-activities-s2.18.0] Expansion into new markets, for example, so that customers are served from nearby.
+[geo-economic-activities-s2.18.1] Getting inside a trade bloc (a group of countries trading freely together), which gives tariff-free access to the EU. A tariff is a tax on imports.
+[geo-economic-activities-s2.18.2] Lower costs, because cheaper land, labour or tax raises profit.
+[geo-economic-activities-s2.18.3] Access to skilled labour, because some work cannot be done without trained staff.
+[geo-economic-activities-s2.18.4] Following competitors into a cluster, so as to share the skills and suppliers already there.
+[geo-economic-activities-s2.18.5] Tax planning, because a low-tax country leaves the firm more profit.
+[geo-economic-activities-s2.19.b] The strategies that open plants have opposites that close them. A parent company closes a branch plant when the plant no longer suits its plans.
+[geo-economic-activities-s2.19.0] Rationalisation: cutting surplus capacity after a fall in demand or a merger.
+[geo-economic-activities-s2.19.1] Relocation to lower-cost countries, because production costs are lower there.
+[geo-economic-activities-s2.19.2] Outsourcing: contract manufacturers make the goods instead of the company's own plant.
+[geo-economic-activities-s2.19.3] Automation (machines replacing workers) reduces the number of workers needed.
+[geo-economic-activities-s2.19.4] Mergers and takeovers, after which a parent firm may close a duplicate plant.
+[geo-economic-activities-s2.19.5] A product reaching the end of its life cycle, because falling demand leaves the plant with no future output.
+[geo-economic-activities-s2.20.b] A branch plant does not have to close when its routine work moves away. It can survive by changing what it does.
+[geo-economic-activities-s2.20.0] A plant can survive by moving up the value chain (the steps that add more value to a product) into more R&D, advanced products and services.
+[geo-economic-activities-s2.20.1] Intel's continuing investment at Leixlip is the example: Fab 34, opened in 2023, makes advanced chips using extreme ultraviolet lithography, a chip-making technique.
+[geo-economic-activities-s2.21.b] Dell and DEC are two short examples of plants that closed or moved, and of how a closure can affect a region.
+[geo-economic-activities-s2.21.0] Dell opened in Limerick (Raheen) in 1990.
+[geo-economic-activities-s2.21.1] In January 2009 Dell announced that manufacturing would move to Łódź, Poland, with about 1,900 jobs lost in Limerick. It kept sales and service functions in Ireland.
+[geo-economic-activities-s2.21.2] Poland joined the EU on 1 May 2004, with nine other states, so its plants lay inside the enlarged EU with lower costs.
+[geo-economic-activities-s2.21.3] DEC closed its Galway plant in 1993, and its skilled workforce later helped attract the medtech cluster.
+[geo-economic-activities-s2.21.4] There is more on Dell in The MNC and change subsection of The Global Economy — Multinationals and Globalisation.
+[geo-economic-activities-s2.22.b] A product passes through stages from launch to decline, and its best production location changes at each stage. This is how the product life cycle shapes where plants are found.
+[geo-economic-activities-s2.22.0] Introduction: the product is developed near headquarters and R&D, in a core region with highly skilled labour.
+[geo-economic-activities-s2.22.1] Growth: branch plants are opened in other developed countries near large markets; Ireland gained many.
+[geo-economic-activities-s2.22.2] Maturity: the standardised product is mass-produced in low-wage locations, because it no longer needs high skills.
+[geo-economic-activities-s2.22.3] Decline: the plant closes or production is concentrated in the cheapest plant.
+[geo-economic-activities-s2.23.b] Apple's Cork site shows a plant changing its role as the company's production methods change, rather than closing.
+[geo-economic-activities-s2.23.0] Apple opened at Hollyhill, Cork, in 1980 and first made computers there.
+[geo-economic-activities-s2.23.1] As Apple's manufacturing moved to contract manufacturers in Asia, the Cork site shifted mainly to operations, support and services.
+[geo-economic-activities-s2.23.2] The Cork site is now Apple's European headquarters, with about 6,000 staff (2020s).
+[geo-economic-activities-s2.24.b] A host country is not helpless against mobile firms. It can aim to make its jobs harder to move.
+[geo-economic-activities-s2.24.0] Attract firms early in new life cycles, for example in pharmaceuticals, medical technology and software, so the country has the work while it is new and growing.
+[geo-economic-activities-s2.24.1] Invest in education and research so that jobs are harder to move: Science Foundation Ireland, set up in 2000 and made a statutory body (one created by law) in 2003, funds research; it merged into Research Ireland in 2024.
+[geo-economic-activities-s2.24.2] Universities supply the graduates that keep high-technology firms in place.
+[geo-economic-activities-s2.25.b] Computing and the internet have freed many services from a fixed place. Delivering a service at a distance means it can be located almost anywhere.
+[geo-economic-activities-s2.25.0] Computing and the internet have made many services footloose, and Ireland became a European base for software and internet firms.
+[geo-economic-activities-s2.25.1] Teleservices are services delivered at a distance by phone or internet, such as customer support, technical support and remote data processing.
+[geo-economic-activities-s2.25.2] Teleservices can locate anywhere with broadband, including peripheral areas (those far from the main centres).
+[geo-economic-activities-s2.25.3] Low-skilled teleservice work moves easily to cheaper countries or is automated.
+[geo-economic-activities-s2.25.4] There is more on IT and teleservices in The MNC and change subsection of The Global Economy — Multinationals and Globalisation.
+[geo-economic-activities-s2.26.b] E-commerce has three effects on where activities locate: on warehouses, on town-centre shops and on bank branches, because customers no longer need to travel.
+[geo-economic-activities-s2.26.0] E-commerce is buying and selling goods and services over the internet.
+[geo-economic-activities-s2.26.1] Warehouses and delivery depots locate near motorways and airports, so that parcels can be moved quickly.
+[geo-economic-activities-s2.26.2] Pressure on town-centre shops, and bank branch closures, follow the growth of online trade.
+[geo-economic-activities-s2.26.3] There is more on e-commerce and an MNC's operations in The MNC and change subsection of The Global Economy — Multinationals and Globalisation.
+[geo-economic-activities-s2.27.b] After COVID-19 many jobs could be done away from a city office. This gives rural areas a chance to attract work, but only if they have good broadband.
+[geo-economic-activities-s2.27.0] Remote and hybrid working (part at home, part in the office) grew after COVID-19, so some jobs can be done from home or a local hub rather than a city office.
+[geo-economic-activities-s2.27.1] National Broadband Plan: the contract was signed in 2019 with National Broadband Ireland to bring high-speed broadband to rural premises.
+[geo-economic-activities-s2.27.2] Connected Hubs: a national network of remote-working hubs launched in 2021.
+[geo-economic-activities-s2.27.3] Our Rural Future, rural development policy, 2021.
+[geo-economic-activities-s2.27.4] Broadband availability differs from region to region, and a region's coverage affects whether it can attract remote-working jobs.
+[geo-economic-activities-s2.28.b] New technology continues to change where work is done and how many people are needed.
+[geo-economic-activities-s2.28.0] Artificial intelligence and automation are future drivers of location and job change.
+[geo-economic-activities-s2.28.1] Automation can reduce the labour-cost advantage of low-wage locations, favouring places with skills and research, because machines make cheap labour less important.
+[geo-economic-activities-s2.29.b] Map and photograph questions ask why an activity might or might not locate at a point, using evidence from the map or photograph.
+[geo-economic-activities-s2.29.0] Name the factor, then give evidence from the map or photograph: a grid reference, or the photograph's location in accepted notation.
+[geo-economic-activities-s2.29.1] Explain why the factor matters to the activity.
+[geo-economic-activities-s2.29.2] Give three to five significant relevant points (SRPs) for each reason.
+[geo-economic-activities-s2.29.3] Use the same structure for a reason why the activity might not locate there.
+[geo-economic-activities-s2.30.b] For a factory or multinational, look on the map for the features that supply land, transport, workers and services.
+[geo-economic-activities-s2.30.0] Flat land and an edge-of-town site, where there is room and land is cheaper.
+[geo-economic-activities-s2.30.1] A national primary road or motorway, a railway, and a port or airport, for moving goods.
+[geo-economic-activities-s2.30.2] A town labour force and services: schools, hospital and housing.
+[geo-economic-activities-s2.30.3] Water and an existing industrial estate, because services and planning approval for industry are already in place.
+[geo-economic-activities-s2.31.b] A fish processing plant needs to be close to where fish are landed, because fish is a bulk-reducing, perishable raw material.
+[geo-economic-activities-s2.31.0] A pier, harbour or fishing port, on the coast.
+[geo-economic-activities-s2.31.1] Roads to markets, so that fresh fish reaches buyers quickly.
+[geo-economic-activities-s2.31.2] Water and a labour force, because processing needs both.
+[geo-economic-activities-s2.31.3] Low-lying land, because it is flat enough to build on and close to the coast.
+[geo-economic-activities-s2.32.b] A hotel depends on attractions that draw visitors, together with the services that let them reach and use the hotel.
+[geo-economic-activities-s2.32.0] Coast, beach and scenery; lakes or mountains; antiquities (ancient sites and monuments).
+[geo-economic-activities-s2.32.1] A golf course, and water sports, because these give guests activities.
+[geo-economic-activities-s2.32.2] Nearby town services and road access, so guests and staff can reach the hotel.
+[geo-economic-activities-s2.32.3] Tourist information, which helps visitors plan trips.
+[geo-economic-activities-s2.33.b] The one reason against in your answer comes from the map features that make a site unsuitable.
+[geo-economic-activities-s2.33.0] Steep or high land, which is hard and costly to build on.
+[geo-economic-activities-s2.33.1] A floodplain, which would flood.
+[geo-economic-activities-s2.33.2] A protected or scenic area, where planning conflict is likely.
+[geo-economic-activities-s2.33.3] Poor roads, remoteness from labour, distance from services, and impact on residents, because each makes the plant harder to run or provokes opposition.
+[geo-economic-activities-s2.34.b] The invented town of Ballyglas lies beside an invented N-road and river. All grid references in this example are illustrative.
+[geo-economic-activities-s2.34.0] Reason for locating: the flat land beside the N-road at illustrative grid reference M 142 335 gives room for a factory and its expansion.
+[geo-economic-activities-s2.34.1] Why it matters: a factory needs a large flat site, and the road gives access to markets.
+[geo-economic-activities-s2.34.2] Reason against: the river floodplain at illustrative grid reference M 140 333 would flood, so a plant there would be at risk.
+[geo-economic-activities-s2.35.b] Ordinary Level aerial photograph questions ask you to judge a proposed factory site and an alternative location.
+[geo-economic-activities-s2.35.0] Give advantages and disadvantages of the proposed factory site and of an alternative location, using accepted notation for the photograph.
+
+CANDIDATES geo-economic-activities-s1: 1. Case study of a developed economy: Ireland
+[geo-economic-activities-s1.40.1] Dublin is the capital, with the most attractions, hotels and events.
+[geo-economic-activities-s1.40.2] Short trips, such as city breaks, suit visitors who arrive in Dublin.
+[geo-economic-activities-s1.40.3] Good motorway and rail links radiate from Dublin, so visitors can reach other places easily.
+[geo-economic-activities-s1.41.b] These are named east-coast attractions you can use when asked for two Irish tourist attractions.
+[geo-economic-activities-s1.41.0] The Guinness Storehouse, opened in 2000, is Ireland's most visited fee-paying attraction.
+[geo-economic-activities-s1.41.1] The Book of Kells is at Trinity College Dublin; Dublin Zoo is in the Phoenix Park.
+[geo-economic-activities-s1.41.2] Brú na Bóinne (Newgrange), Co. Meath, has been a UNESCO World Heritage Site (a place listed by the United Nations as of world importance) since 1993.
+[geo-economic-activities-s1.41.3] The Glendalough monastic site and Powerscourt are both in Co. Wicklow.
+[geo-economic-activities-s1.42.b] The west and north coasts have scenic attractions for visitors.
+[geo-economic-activities-s1.42.0] The Cliffs of Moher, Co. Clare, are part of the Burren and Cliffs of Moher UNESCO Global Geopark.
+[geo-economic-activities-s1.42.1] Kylemore Abbey is in Connemara, for example as a west-coast attraction.
+[geo-economic-activities-s1.42.2] The Giant's Causeway, Co. Antrim, in Northern Ireland, has been a UNESCO site since 1986.
+[geo-economic-activities-s1.43.b] Co. Kerry, centred on Killarney and the Ring of Kerry, is a mass-tourism region, meaning large numbers of visitors come there. Its scenery, heritage and access combine to draw them.
+[geo-economic-activities-s1.43.0] Killarney National Park, created in 1932 from the Muckross estate, was Ireland's first national park; the estate was given to the State by the Bourn Vincent family.
+[geo-economic-activities-s1.43.1] Attractions include Muckross House, the Lakes of Killarney, Torc Waterfall, the Gap of Dunloe and Ross Castle.
+[geo-economic-activities-s1.43.2] Carrauntoohil (1,038 m), in the Macgillycuddy's Reeks, is Ireland's highest mountain.
+[geo-economic-activities-s1.43.3] The Ring of Kerry is a circular route of about 180 km around the Iveragh Peninsula.
+[geo-economic-activities-s1.43.4] Skellig Michael, an early Christian monastery on a rocky island, has been a UNESCO World Heritage Site since 1996 and was a film location for Star Wars: The Force Awakens (2015) and The Last Jedi (2017).
+[geo-economic-activities-s1.43.5] The Dingle Peninsula, with the Slea Head drive and the Dingle Gaeltacht (an Irish-speaking area), adds to the county's attractions.
+[geo-economic-activities-s1.44.b] Kerry has attracted visitors for a long time, and better transport helped.
+[geo-economic-activities-s1.44.0] Tourism in Killarney dates from the 18th and 19th centuries.
+[geo-economic-activities-s1.44.1] The railway reached Killarney in 1853, bringing more visitors by making travel easier.
+[geo-economic-activities-s1.44.2] Queen Victoria visited Killarney in 1861, which helped publicise it.
+[geo-economic-activities-s1.45.b] Tourism changes a region in good and bad ways. Exams ask for positive and negative impacts in a named region.
+[geo-economic-activities-s1.45.0] Positive: jobs and income in a peripheral region (one far from the main centres), services kept open in rural areas, and heritage protected through tourism income.
+[geo-economic-activities-s1.45.1] Negative: seasonal jobs, with work concentrated in the summer months.
+[geo-economic-activities-s1.45.2] Negative: traffic and coach congestion on the narrow roads of the Ring of Kerry.
+[geo-economic-activities-s1.45.3] Negative: erosion on the Carrauntoohil paths and litter on popular trails.
+[geo-economic-activities-s1.45.4] Negative: holiday homes push up house prices and make affordable housing scarce for local workers.
+[geo-economic-activities-s1.46.b] Spain is the European example of mass tourism on a large scale. Its growth had specific causes.
+[geo-economic-activities-s1.46.0] Spain received about 84 million international tourists in 2019 and about 94 million in 2024, a record (INE, the Spanish statistics office).
+[geo-economic-activities-s1.46.1] Tourism provides over a tenth of Spain's GDP (2020s, approximate).
+[geo-economic-activities-s1.46.2] Mass tourism grew from the 1960s under the Franco regime, which promoted it with the 'Spain is different' slogan to earn foreign currency.
+[geo-economic-activities-s1.46.3] Causes: sun and beaches; package holidays and jet aircraft; cheap flights; low costs; and proximity to northern Europe.
+[geo-economic-activities-s1.47.b] Spain's Mediterranean coasts and islands hold the main resorts.
+[geo-economic-activities-s1.47.0] Benidorm, on the Costa Blanca, was a small fishing village transformed in the 1950s and 1960s by mayor Pedro Zaragoza's plan for high-rise buildings close to the beach.
+[geo-economic-activities-s1.47.1] The Gran Hotel Bali (186 m, opened 2002) was then Europe's tallest hotel.
+[geo-economic-activities-s1.47.2] The Costa del Sol has Málaga airport, so visitors arrive by air at Torremolinos and Marbella.
+[geo-economic-activities-s1.47.3] The Balearic Islands, in the Mediterranean, include Mallorca (Palma, Magaluf) and Ibiza.
+[geo-economic-activities-s1.48.b] Mass tourism brought money to Spain, but it also caused problems, now met with protest.
+[geo-economic-activities-s1.48.0] Effects: jobs, foreign earnings and infrastructure, such as airports and roads.
+[geo-economic-activities-s1.48.1] Problems: 'ribbon development' (a strip of concrete buildings along the coast), and high-rise overdevelopment.
+[geo-economic-activities-s1.48.2] Water shortages: Catalonia declared a drought emergency in early 2024.
+[geo-economic-activities-s1.48.3] Low-paid seasonal jobs, and rising rents as short-term tourist lets spread.
+[geo-economic-activities-s1.48.4] Large anti-overtourism protests took place in 2024 in Barcelona, Mallorca and the Canary Islands.
+[geo-economic-activities-s1.49.b] Governments in Spain have started to limit the effects of tourism.
+[geo-economic-activities-s1.49.0] The Balearic and Catalan governments charge tourist taxes.
+[geo-economic-activities-s1.49.1] Barcelona plans to end licences for about 10,000 tourist apartments by 2028.
+[geo-economic-activities-s1.50.b] Industries do not last forever. Industrial decline is a downward trend, and it leaves visible signs.
+[geo-economic-activities-s1.50.0] Industrial decline is the long-term fall in the number of firms and jobs in a traditional industry or region.
+[geo-economic-activities-s1.50.1] Evidence: plant closures, derelict sites and buildings, high unemployment, emigration (out-migration), falling population in industrial towns, and social problems.
+[geo-economic-activities-s1.51.b] Irish industry declined for several reasons. Each reason is illustrated by the dated examples that follow.
+[geo-economic-activities-s1.51.0] The end of protection and the opening to free trade exposed small, inefficient protected firms, through the Anglo-Irish Free Trade Agreement (1965) and EEC membership (1973).
+[geo-economic-activities-s1.51.1] Competition from low-wage countries, because they can sell more cheaply.
+[geo-economic-activities-s1.51.2] Recessions (periods when the economy shrinks), such as those of the 1980s and 2008.
+[geo-economic-activities-s1.51.3] New technology replacing labour, so fewer workers are needed.
+[geo-economic-activities-s1.51.4] EU policy reform, such as the reform of the EU sugar regime.
+[geo-economic-activities-s1.51.5] Corporate decisions to move production to lower-cost locations, as with Dell in Limerick. There is more on this in the Irish examples blocks.
+[geo-economic-activities-s1.52.b] Cork lost several large employers in the 1980s, during a recession.
+[geo-economic-activities-s1.52.0] The Dunlop tyre factory in Cork closed in 1983.
+[geo-economic-activities-s1.52.1] Ford's Marina plant in Cork closed in 1984; Ford's Cork company was founded in 1917.
+[geo-economic-activities-s1.52.2] Verolme Cork Dockyard at Rushbrooke closed in 1984.
+[geo-economic-activities-s1.53.b] Further closures followed in the 2000s, each with a different cause. Dates matter here.
+[geo-economic-activities-s1.53.0] Irish Steel (later Ispat) closed on Haulbowline Island, Cork Harbour, in 2001; the site needed a costly clean-up of contaminated waste.
+[geo-economic-activities-s1.53.1] Irish Sugar (Greencore) closed its Carlow beet factory in 2005 and its Mallow factory in 2006, ending Irish sugar production after EU sugar-regime reform.
+[geo-economic-activities-s1.53.2] Waterford Crystal's Kilbarry factory closed in January 2009 when the company went into receivership (when an outside manager takes control of a company that cannot pay its debts).
+[geo-economic-activities-s1.53.3] Dell opened at Raheen, Limerick, in 1990; in January 2009 it announced that manufacturing would move to Łódź, Poland, with the loss of about 1,900 jobs, while sales and service stayed in Ireland.
+[geo-economic-activities-s1.54.b] Energy industries also declined as Ireland moved away from fossil fuels (fuels such as coal and peat, formed from ancient plants).
+[geo-economic-activities-s1.54.0] Moneypoint, Co. Clare, a coal-fired power station built in the 1980s, was Ireland's last coal-burning power station.
+[geo-economic-activities-s1.54.1] Coal burning at Moneypoint ended in 2025, so Ireland no longer burns coal for power, part of the move away from fossil fuels that also closed the peat stations.
+[geo-economic-activities-s1.55.b] When industries close, the damage spreads from the workers to the whole town.
+[geo-economic-activities-s1.55.0] Unemployment reached about 17% in the mid-1980s.
+[geo-economic-activities-s1.55.1] Heavy emigration in the 1980s drew skilled people away from the affected towns, because there were no jobs for them.
+[geo-economic-activities-s1.55.2] Derelict docklands and empty factories were left in city and town centres.
+[geo-economic-activities-s1.55.3] Local towns lost skills and spending as jobs disappeared.
+[geo-economic-activities-s1.56.b] Governments and agencies tried to replace lost jobs and reuse empty sites.
+[geo-economic-activities-s1.56.0] Replacement investment: the IDA and Enterprise Ireland sought new firms to replace lost jobs.
+[geo-economic-activities-s1.56.1] Regeneration (rebuilding and renewing run-down areas) of the Dublin Docklands and the IFSC. There is more on this in the IFSC blocks.
+[geo-economic-activities-s1.56.2] Regeneration of Cork Docklands, through a city plan to redevelop the old port quays.
+[geo-economic-activities-s1.56.3] Heritage reuse: a smaller House of Waterford Crystal factory and visitor centre opened in Waterford city centre (the Mall) in 2010.
+[geo-economic-activities-s1.56.4] Retraining for displaced workers, so they can move into new jobs.
+[geo-economic-activities-s1.56.5] The EU Just Transition Fund supports the Midlands peat region, because peat jobs have ended.
+[geo-economic-activities-s1.57.b] Ireland is not alone in losing traditional industry.
+[geo-economic-activities-s1.57.0] There is more on coalfield and steel regions of decline elsewhere in Europe in the Socio-economic regions notes.
+[geo-economic-activities-s1.58.b] Economic activity is unevenly spread across Ireland. Some regions have far more jobs and income than others.
+[geo-economic-activities-s1.58.0] The Greater Dublin Area had about 2.1 million people in Census 2022, about 40% of the State's population, and holds most multinational and service jobs, along with Cork, Galway and Limerick.
+[geo-economic-activities-s1.58.1] The Border, Midlands and West have more small farms, fewer FDI jobs and lower incomes.
+[geo-economic-activities-s1.58.2] The Border, Midland and Western (BMW) region was designated for EU funding in 1999 (Objective 1 for 2000–2006); the rest of the State was the Southern and Eastern region.
+[geo-economic-activities-s1.58.3] The National Planning Framework (Project Ireland 2040, 2018) aims for Galway, Cork, Limerick and Waterford to each grow by at least 50% by 2040, to balance growth away from Dublin.

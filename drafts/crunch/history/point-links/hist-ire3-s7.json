@@ -1,0 +1,531 @@
+{
+"hist-ire3-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s3.6.2",
+"strength": "helpful",
+"why": "partition removed industrial north-east",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.6.0",
+"strength": "helpful",
+"why": "border customs controls interrupted trade",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.0.0",
+"strength": "helpful",
+"why": "exports of beef, butter to Britain",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s7.1.0",
+"strength": "helpful",
+"why": "quality exports policy",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s7.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.2.7",
+"strength": "essential",
+"why": "the Shannon Scheme",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.1.0",
+"strength": "helpful",
+"why": "farm export policy",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s7.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.1.1",
+"strength": "helpful",
+"why": "Agricultural Credit Corporation founded",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.2.0",
+"strength": "essential",
+"why": "refers to McElligott",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.1.2",
+"strength": "helpful",
+"why": "Blythe as Finance Minister",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.4.b",
+"strength": "helpful",
+"why": "Lemass protection policy",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.2.4",
+"strength": "helpful",
+"why": "Finance opposing new schemes",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s7.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s7.2.3",
+"strength": "helpful",
+"why": "Finance orthodoxy and caution",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.0.3",
+"strength": "essential",
+"why": "currency tied to sterling",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.0.0",
+"strength": "helpful",
+"why": "dependence on British market",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.1.3",
+"strength": "helpful",
+"why": "government spending cuts, balanced budgets",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s7.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.4.4",
+"strength": "helpful",
+"why": "Fianna Fail promised protection",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.0",
+"strength": "essential",
+"why": "land annuities",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.3.5",
+"strength": "helpful",
+"why": "Fianna Fail 1932 victory",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.4.b",
+"strength": "helpful",
+"why": "protectionist policy",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s5.2.7",
+"strength": "helpful",
+"why": "ESB and Shannon Scheme",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s7.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.4.6": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s7.4.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s7.4.0",
+"strength": "helpful",
+"why": "tariffs and protection",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.4.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.5.5",
+"strength": "helpful",
+"why": "wartime neutrality, the Emergency",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s7.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.b",
+"strength": "essential",
+"why": "Economic War over annuities",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.1",
+"strength": "helpful",
+"why": "British special duties from 1932",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.5.0",
+"strength": "essential",
+"why": "British duties on cattle",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.5.0",
+"strength": "helpful",
+"why": "lost income from British duties",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.2.3",
+"strength": "helpful",
+"why": "Coal-Cattle Pact",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.5.1",
+"strength": "helpful",
+"why": "cattle farmers hit by trade war",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.5.b",
+"strength": "essential",
+"why": "1938 agreements",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.5.0",
+"strength": "helpful",
+"why": "fall in prices from duties",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s7.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.6.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s7.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.3.b",
+"strength": "helpful",
+"why": "Depression closing job markets",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.6.4",
+"strength": "helpful",
+"why": "emigration and Depression",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.1.b",
+"strength": "helpful",
+"why": "Cumann na nGaedheal economic policy",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.3.b",
+"strength": "helpful",
+"why": "Depression exposed dependence",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.4.b",
+"strength": "helpful",
+"why": "Fianna Fail industrial protection",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s7.6.b",
+"strength": "helpful",
+"why": "Fianna Fail social housing and welfare",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s7.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s7.5.b",
+"strength": "essential",
+"why": "the Economic War",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s7.7.4": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s7.7.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s7.7.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s7.2.3",
+"strength": "helpful",
+"why": "Finance Department caution",
+"confidence": "high"
+}
+]
+}
+}

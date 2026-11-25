@@ -1,0 +1,745 @@
+{
+ "bio12-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.0.0",
+    "strength": "helpful",
+    "why": "species definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "helpful",
+    "why": "alleles as gene versions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.2",
+    "strength": "essential",
+    "why": "adaptation defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.2",
+    "strength": "essential",
+    "why": "adaptation defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.2",
+    "strength": "essential",
+    "why": "adaptation defined",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.5.2",
+    "strength": "helpful",
+    "why": "lactase persistence mutation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.0.2",
+    "strength": "essential",
+    "why": "inherited favourable characteristics",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.0.4",
+    "strength": "helpful",
+    "why": "only genetic variation selected",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.0.0",
+    "strength": "helpful",
+    "why": "variation between individuals",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.1.1",
+    "strength": "essential",
+    "why": "variation and island resemblance",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s2.1.2",
+    "strength": "essential",
+    "why": "fossils resembling living species",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.1.3",
+    "strength": "essential",
+    "why": "observations needing explanation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.6",
+    "strength": "helpful",
+    "why": "selection concept",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.2.3",
+    "strength": "helpful",
+    "why": "Wallace reached same idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.2.1",
+    "strength": "helpful",
+    "why": "Malthus on population growth",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.3.0",
+    "strength": "helpful",
+    "why": "overproduction creates competition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s1.0.1",
+    "strength": "helpful",
+    "why": "genetic variation inherited",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.3.2",
+    "strength": "essential",
+    "why": "inherited variation",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s2.0.2",
+    "strength": "essential",
+    "why": "adaptation to environment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.3.3",
+    "strength": "essential",
+    "why": "survivors are the fittest",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "helpful",
+    "why": "alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.3.4",
+    "strength": "essential",
+    "why": "favourable alleles accumulate",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.0.0",
+    "strength": "helpful",
+    "why": "species definition",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.0",
+    "strength": "helpful",
+    "why": "population evolves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.4.0",
+    "strength": "helpful",
+    "why": "peppered moth example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.3.0",
+    "strength": "helpful",
+    "why": "mutation as source of allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.4.0",
+    "strength": "essential",
+    "why": "pale and dark forms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.4.1",
+    "strength": "essential",
+    "why": "prior pale camouflage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.4.2",
+    "strength": "essential",
+    "why": "dark moths camouflaged",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s2.3.4",
+    "strength": "helpful",
+    "why": "inheritance of favourable allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.4.3",
+    "strength": "essential",
+    "why": "dark form common earlier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.0.2",
+    "strength": "helpful",
+    "why": "genes as DNA carrying traits",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.5.0",
+    "strength": "essential",
+    "why": "common ancestors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.0.2",
+    "strength": "essential",
+    "why": "adaptation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.5.2",
+    "strength": "essential",
+    "why": "specialised organisms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.0.6",
+    "strength": "essential",
+    "why": "selection depends on environment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.5.2",
+    "strength": "essential",
+    "why": "specialised organisms",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s2.6.0",
+    "strength": "helpful",
+    "why": "response to changed environment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.6.1",
+    "strength": "helpful",
+    "why": "contrast with specialists",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s1.3.5",
+    "strength": "helpful",
+    "why": "fast reproducers accumulate mutations",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.6.3",
+    "strength": "essential",
+    "why": "fast evolution of short-generation organisms",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.3.5",
+    "strength": "helpful",
+    "why": "antibiotic resistance",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.2.2",
+    "strength": "helpful",
+    "why": "breeders selecting animals",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.7.b",
+    "strength": "essential",
+    "why": "artificial selection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.7.b",
+    "strength": "essential",
+    "why": "artificial selection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.7.b",
+    "strength": "essential",
+    "why": "artificial selection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.7.b",
+    "strength": "essential",
+    "why": "artificial selection",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s2.0.6",
+    "strength": "essential",
+    "why": "natural selection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.7.b",
+    "strength": "essential",
+    "why": "artificial selection",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s2.0.6",
+    "strength": "essential",
+    "why": "natural selection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.6",
+    "strength": "essential",
+    "why": "natural selection",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s2.7.b",
+    "strength": "essential",
+    "why": "artificial selection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.0.2",
+    "strength": "helpful",
+    "why": "adaptation increases survival",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.7.b",
+    "strength": "helpful",
+    "why": "strong human choice",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.3.5",
+    "strength": "essential",
+    "why": "speciation",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s2.0.2",
+    "strength": "helpful",
+    "why": "adaptation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.8.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s1.2.6",
+    "strength": "helpful",
+    "why": "Irish potato example",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.0.1",
+    "strength": "helpful",
+    "why": "genetic variation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.0.1",
+    "strength": "helpful",
+    "why": "inherited variation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.0.2",
+    "strength": "helpful",
+    "why": "heredity",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.1.2",
+    "strength": "helpful",
+    "why": "parents contribute chromosomes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.9.1",
+    "strength": "essential",
+    "why": "blending inheritance",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.0.2",
+    "strength": "helpful",
+    "why": "genes as units",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.3.0",
+    "strength": "essential",
+    "why": "mutation changes DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.0.1",
+    "strength": "essential",
+    "why": "allele frequency change",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.7.4",
+    "strength": "helpful",
+    "why": "mutation and sexual variation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.1.2",
+    "strength": "helpful",
+    "why": "fossils",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s2.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s2.10.0",
+    "strength": "essential",
+    "why": "criticisms answered",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s2.1.4",
+    "strength": "helpful",
+    "why": "fixed separate creation idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s2.10.3": {
+  "cost": 1,
+  "needs": []
+ }
+}

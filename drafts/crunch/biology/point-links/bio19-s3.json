@@ -1,0 +1,430 @@
+{
+ "bio19-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.0.0",
+    "strength": "helpful",
+    "why": "neuron as nerve cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.0.0",
+    "strength": "helpful",
+    "why": "neuron as nerve cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.0.2",
+    "strength": "helpful",
+    "why": "sensory pathway",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s3.0.3",
+    "strength": "helpful",
+    "why": "motor pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.4.0",
+    "strength": "helpful",
+    "why": "nucleus and organelles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.6.1",
+    "strength": "helpful",
+    "why": "protein synthesis at ribosomes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.1.0",
+    "strength": "helpful",
+    "why": "cell body",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.1.2",
+    "strength": "essential",
+    "why": "dendrites",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.1.0",
+    "strength": "helpful",
+    "why": "cell body",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.1.4",
+    "strength": "essential",
+    "why": "axon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.1.4",
+    "strength": "essential",
+    "why": "axon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s3.2.0",
+    "strength": "essential",
+    "why": "myelin sheath",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.2.0",
+    "strength": "essential",
+    "why": "myelin sheath",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.1.4",
+    "strength": "essential",
+    "why": "axon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.3.0",
+    "strength": "essential",
+    "why": "synaptic knobs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.3.1",
+    "strength": "essential",
+    "why": "vesicles store neurotransmitter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.0.3",
+    "strength": "helpful",
+    "why": "motor neuron role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.4.0",
+    "strength": "essential",
+    "why": "motor neuron dendrites",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s3.0.4",
+    "strength": "essential",
+    "why": "interneurons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.1.4",
+    "strength": "helpful",
+    "why": "axon",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s3.3.0",
+    "strength": "helpful",
+    "why": "axon terminals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.1.2",
+    "strength": "helpful",
+    "why": "dendrite comparison",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s3.0.2",
+    "strength": "helpful",
+    "why": "sensory neuron role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.1.0",
+    "strength": "helpful",
+    "why": "cell body",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.1.4",
+    "strength": "helpful",
+    "why": "axon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.5.0",
+    "strength": "essential",
+    "why": "dendron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s3.5.1",
+    "strength": "essential",
+    "why": "cell body position",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.0.4",
+    "strength": "essential",
+    "why": "interneurons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.0.4",
+    "strength": "essential",
+    "why": "interneurons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.0.2",
+    "strength": "helpful",
+    "why": "sensory neurons",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s3.0.3",
+    "strength": "helpful",
+    "why": "motor neurons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s3.4.0",
+    "strength": "essential",
+    "why": "motor neuron structure",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s3.5.0",
+    "strength": "essential",
+    "why": "sensory neuron structure",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s3.2.2",
+    "strength": "helpful",
+    "why": "Schwann cell",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s3.2.1",
+    "strength": "helpful",
+    "why": "nodes of Ranvier",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s3.3.1",
+    "strength": "helpful",
+    "why": "vesicles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s3.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.2.0",
+    "strength": "essential",
+    "why": "myelin sheath",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s3.2.1",
+    "strength": "essential",
+    "why": "impulse jumps between nodes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s3.8.0",
+    "strength": "helpful",
+    "why": "multiple sclerosis",
+    "confidence": "high"
+   }
+  ]
+ }
+}

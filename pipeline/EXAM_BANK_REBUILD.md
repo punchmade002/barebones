@@ -60,6 +60,21 @@ sections the answer draws on).
 A workflow can run at most 1,000 agents, and cached replays count toward that. Split large
 subjects into several runs instead of resuming a big one.
 
+### Adding a paper or re-doing parts later (Biology, 2026-11-24)
+
+The original Biology journals are gone, so `store_journal.py biology > base.jsonl` rebuilds one
+from `<DATA>/biology/questions/` (assembling it alone gives back the same bank). New agent results
+are plain JSON files `{"<stage>:<key>#<round>": result}`, turned into a journal with
+`store_journal.py --results <files>` and layered after the base. Redone parts use a higher round
+(#9, #10) so they win. The 2026 Higher paper and the gap-fill run are kept in
+`<DATA>/biology/journals/`; reassemble with
+`assemble.py biology journals/2026-11-24-base-from-store.jsonl journals/2026-11-24-scan-2026-higher.jsonl journals/2026-11-24-gapfill-and-2026.jsonl`.
+New raw papers are copied into `pipeline/_data/raw/biology/` as `<year>-higher-PA-EV-papers.pdf`
+(Sections A+B), `<year>-higher-EV-papers.pdf` (Section C) and `<year>-higher-EV-scheme.pdf`, then
+`crops.py`, `prep_inputs.py` (which also refreshes the notes copies) and `state.py`.
+Most HL parts with no model answer are deliberate: off-spec topics (about 625 marks, 2015–2025)
+and notes gaps (about 140 marks) where the notes lack a scheme point.
+
 ## Cheap fill for any subject (as done for PE, Nov 2026)
 
 The Chemistry recipe, parameterised by subject. Answers come from the marking scheme (no audited

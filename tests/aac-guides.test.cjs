@@ -24,8 +24,8 @@ for (const id of EXPECTED) {
   test(`${id} AAC guide is complete`, () => {
     const g = guides[id];
     assert.equal(g.subject, id.replace(/-(textiles|performance|practical)$/, ""));
-    // Two guides in one subject show as two tiles, named by their short titles
-    if (EXPECTED.some((other) => other !== id && guides[other]?.subject === g.subject)) assert.ok(g.short, "needs a short tile name");
+    // Only the new-spec subjects call their coursework the AAC; every other tile goes by its short name ("Oral guide")
+    assert.equal(!g.short, ["biology", "chemistry", "physics", "business"].includes(id), "short tile name only where it isn't an AAC");
     for (const key of ["title", "subjectTitle", "weight", "level", "summary"]) assert.ok(g[key], `${key} missing`);
     // The stats row under the title never wraps, so a longer level runs off a phone screen; details go in brief.facts
     assert.ok(g.level.length <= 12, `level should be a short label like "Both levels", got "${g.level}"`);

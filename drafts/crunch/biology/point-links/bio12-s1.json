@@ -1,0 +1,475 @@
+{
+ "bio12-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "helpful",
+    "why": "allele definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.3.2",
+    "strength": "helpful",
+    "why": "phenotype = genotype + environment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.0.1",
+    "strength": "essential",
+    "why": "genetic variation is inherited",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.1.0",
+    "strength": "essential",
+    "why": "discontinuous variation defined",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.0.2",
+    "strength": "helpful",
+    "why": "genes control traits",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s1.1.2",
+    "strength": "essential",
+    "why": "continuous variation defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.1.0",
+    "strength": "helpful",
+    "why": "discontinuous example",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.1.3",
+    "strength": "helpful",
+    "why": "bell-shaped continuous distribution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "helpful",
+    "why": "allele definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s2.1.2",
+    "strength": "essential",
+    "why": "independent assortment in meiosis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.0.4",
+    "strength": "helpful",
+    "why": "homologous pairs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s1.2.1",
+    "strength": "essential",
+    "why": "8.4 million gamete combinations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s2.0.0",
+    "strength": "helpful",
+    "why": "mitosis gives identical cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.2.4",
+    "strength": "essential",
+    "why": "clones lack variation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.2.5",
+    "strength": "helpful",
+    "why": "clones share one weakness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.2.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s1.2.1",
+    "strength": "essential",
+    "why": "independent assortment of homologues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.0.6",
+    "strength": "helpful",
+    "why": "base sequence carries information",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.4.1",
+    "strength": "helpful",
+    "why": "DNA copied before division",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.3.0",
+    "strength": "helpful",
+    "why": "mutation defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s1.3.2",
+    "strength": "helpful",
+    "why": "mutagens raise mutation rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.3.1",
+    "strength": "helpful",
+    "why": "mutations are rare",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.3.4",
+    "strength": "helpful",
+    "why": "mutations arise every generation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.3.0",
+    "strength": "essential",
+    "why": "mutation defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.4.0",
+    "strength": "essential",
+    "why": "gene mutation changes one base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.0.4",
+    "strength": "helpful",
+    "why": "chromosome carries genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.4.2",
+    "strength": "helpful",
+    "why": "structural chromosome changes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.4.3",
+    "strength": "helpful",
+    "why": "chromosome number changes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio12-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s1.4.0",
+    "strength": "helpful",
+    "why": "gene mutation creates new allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.4.4",
+    "strength": "essential",
+    "why": "polyploidy defined",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.4.2",
+    "strength": "helpful",
+    "why": "chromosome mutation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio12-s1.4.0",
+    "strength": "helpful",
+    "why": "gene mutation creates new allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.5.2",
+    "strength": "essential",
+    "why": "lactase persistence mutation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.1.0",
+    "strength": "helpful",
+    "why": "gametes defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.6.0",
+    "strength": "essential",
+    "why": "only gamete mutations inherited",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio12-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.2.0",
+    "strength": "essential",
+    "why": "sexual reproduction shuffles alleles",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.3.0",
+    "strength": "essential",
+    "why": "mutation creates new alleles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.3.1",
+    "strength": "helpful",
+    "why": "mutation rare and random",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.5.0",
+    "strength": "helpful",
+    "why": "most mutations neutral or harmful",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.2.4",
+    "strength": "helpful",
+    "why": "asexual organisms vary only by mutation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio12-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio12-s1.7.0",
+    "strength": "essential",
+    "why": "roles of both processes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio12-s1.0.4",
+    "strength": "helpful",
+    "why": "natural selection acts on variation",
+    "confidence": "high"
+   }
+  ]
+ }
+}

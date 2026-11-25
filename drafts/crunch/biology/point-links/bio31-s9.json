@@ -1,0 +1,386 @@
+{
+ "bio31-s9.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.0",
+    "strength": "helpful",
+    "why": "trophic level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s9.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.0.0",
+    "strength": "essential",
+    "why": "biomass definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s7.1.0",
+    "strength": "helpful",
+    "why": "trophic levels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.0.1",
+    "strength": "helpful",
+    "why": "pyramid of biomass layout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.0.0",
+    "strength": "helpful",
+    "why": "dry mass as biomass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.4.2",
+    "strength": "essential",
+    "why": "matter lost by respiration, egestion, excretion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.0.0",
+    "strength": "helpful",
+    "why": "biomass as dry mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s9.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s9.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.1.1",
+    "strength": "helpful",
+    "why": "oven drying step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.1.0",
+    "strength": "helpful",
+    "why": "sampled area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.1.1",
+    "strength": "helpful",
+    "why": "drying kills organisms",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s9.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.0.0",
+    "strength": "helpful",
+    "why": "pyramid of numbers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.2.1",
+    "strength": "helpful",
+    "why": "narrow-base numbers pyramid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.0.1",
+    "strength": "helpful",
+    "why": "pyramid of biomass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.2.1",
+    "strength": "helpful",
+    "why": "biomass pyramid for oak chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s9.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.0.0",
+    "strength": "helpful",
+    "why": "phytoplankton as producers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s9.3.0",
+    "strength": "essential",
+    "why": "inverted pyramid situation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s9.3.1",
+    "strength": "essential",
+    "why": "standing crop",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.3.0",
+    "strength": "essential",
+    "why": "inverted biomass pyramid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s9.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s9.0.2",
+    "strength": "helpful",
+    "why": "bar layout with producers at base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.5",
+    "strength": "helpful",
+    "why": "decomposers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.0.1",
+    "strength": "helpful",
+    "why": "biomass pyramid measure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.3.0",
+    "strength": "essential",
+    "why": "numbers ignore organism size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s8.2.1",
+    "strength": "essential",
+    "why": "inverted numbers pyramids",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s9.3.0",
+    "strength": "essential",
+    "why": "inverted aquatic biomass pyramid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s9.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.1.4",
+    "strength": "helpful",
+    "why": "drying is destructive",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s8.3.1",
+    "strength": "helpful",
+    "why": "numbers too varied to scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.3.2",
+    "strength": "helpful",
+    "why": "standing crop not production rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s9.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s9.5.0",
+    "strength": "helpful",
+    "why": "data collection difficulty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.3.1",
+    "strength": "helpful",
+    "why": "energy transfer between levels",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s9.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s9.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s9.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.6.0",
+    "strength": "essential",
+    "why": "sample numbers",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s8.2.3",
+    "strength": "helpful",
+    "why": "spindle-shaped pyramid",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s9.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.6.0",
+    "strength": "essential",
+    "why": "sample biomass values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s9.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s9.6.2",
+    "strength": "helpful",
+    "why": "biomass pyramid result",
+    "confidence": "high"
+   }
+  ]
+ }
+}

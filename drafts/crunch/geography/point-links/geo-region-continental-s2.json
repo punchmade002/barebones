@@ -1,0 +1,4865 @@
+{
+"geo-region-continental-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.8.3",
+"strength": "helpful",
+"why": "people live near coasts",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.0.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.2.b",
+"strength": "helpful",
+"why": "five macro-regions named",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "sertão defined",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.13.0",
+"strength": "helpful",
+"why": "sertão term",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.2.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.2.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.3.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.20.0",
+"strength": "helpful",
+"why": "Brazilian Highlands location",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.20.1",
+"strength": "helpful",
+"why": "Amazon lowland location",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.30.3",
+"strength": "helpful",
+"why": "Amazon estuary and Marajó",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.30.2",
+"strength": "helpful",
+"why": "Manaus and Rio Negro",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.0.7",
+"strength": "helpful",
+"why": "estuary",
+"confidence": "low"
+},
+{
+"id": "geo-rivers-s1.0.3",
+"strength": "helpful",
+"why": "confluence of Rio Negro",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.0.1",
+"strength": "helpful",
+"why": "Tropic of Capricorn position",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.41.3",
+"strength": "helpful",
+"why": "Mato Grosso soya region",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.69.0",
+"strength": "helpful",
+"why": "industrial triangle",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.0.1",
+"strength": "helpful",
+"why": "equator and Tropic of Capricorn",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.4.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.4.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.4.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.4.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.4.5": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.5.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.18.0",
+"strength": "helpful",
+"why": "Amazon rainforest biome",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.1",
+"strength": "essential",
+"why": "ITCZ movement",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.1",
+"strength": "essential",
+"why": "ITCZ moves south",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.1",
+"strength": "essential",
+"why": "ITCZ moves north",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.6.0",
+"strength": "helpful",
+"why": "wet and dry pattern",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.6.0",
+"strength": "helpful",
+"why": "first rains of wet season",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.7.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.1",
+"strength": "essential",
+"why": "ITCZ reaches area briefly",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.7.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.7.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.2",
+"strength": "helpful",
+"why": "trade winds bring moisture",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.4",
+"strength": "helpful",
+"why": "escarpment relief rain",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.18.2",
+"strength": "helpful",
+"why": "Atlantic Forest biome",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "sertão semi-arid",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.3",
+"strength": "helpful",
+"why": "altitude cools air",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.9.0",
+"strength": "helpful",
+"why": "plateau cooler with altitude",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.9.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.5",
+"strength": "helpful",
+"why": "cold fronts from south",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.10.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.10.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.40.1",
+"strength": "helpful",
+"why": "1975 black frost coffee",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.4",
+"strength": "helpful",
+"why": "2012-2017 drought",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.11.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.11.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.11.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.3",
+"strength": "essential",
+"why": "El Niño drought link",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.5.1",
+"strength": "helpful",
+"why": "climate affects settlement",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "sertão unreliable rain",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.13.0",
+"strength": "helpful",
+"why": "sertão drought migration to cities",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s4.1.0",
+"strength": "helpful",
+"why": "dam turbines make electricity",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.12.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.13.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.0",
+"strength": "helpful",
+"why": "latosols",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.13.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.1",
+"strength": "helpful",
+"why": "leaching of nutrients",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.1",
+"strength": "helpful",
+"why": "leached latosols",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.1",
+"strength": "helpful",
+"why": "acidic leached soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.14.0",
+"strength": "helpful",
+"why": "acidic aluminium soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.14.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.14.1",
+"strength": "helpful",
+"why": "liming makes soil productive",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.24.0",
+"strength": "helpful",
+"why": "basalt plateau",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.15.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.15.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.12.1",
+"strength": "helpful",
+"why": "flood silt alluvium",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.16.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.16.1",
+"strength": "helpful",
+"why": "terra preta",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.17.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.17.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.17.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.17.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.18.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.18.2": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.18.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.18.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.6.b",
+"strength": "helpful",
+"why": "wet-dry climate",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.14.0",
+"strength": "helpful",
+"why": "acidic Cerrado soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "semi-arid sertão",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.18.3",
+"strength": "helpful",
+"why": "Caatinga biome",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.8.2",
+"strength": "helpful",
+"why": "wet east coast",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.18.4",
+"strength": "helpful",
+"why": "Pampa and Pantanal",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.20.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.20.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.20.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.3.1",
+"strength": "helpful",
+"why": "sketch map relief feature",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.21.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.21.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.21.1",
+"strength": "helpful",
+"why": "Gondwanaland",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.22.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.22.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.20.0",
+"strength": "helpful",
+"why": "Brazilian Highlands",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.0.0",
+"strength": "helpful",
+"why": "river source",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.22.1",
+"strength": "essential",
+"why": "tilt of the Highlands",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.23.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.23.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.1",
+"strength": "helpful",
+"why": "port as transport link",
+"confidence": "low"
+},
+{
+"id": "geo-urban-s7.31.0",
+"strength": "helpful",
+"why": "São Paulo inland from Santos",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.23.0",
+"strength": "helpful",
+"why": "steep escarpment behind coast",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.23.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.8.1",
+"strength": "essential",
+"why": "relief rain from escarpment",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.24.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.24.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.24.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.15.0",
+"strength": "helpful",
+"why": "terra roxa",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.24.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.25.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.25.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.12.1",
+"strength": "helpful",
+"why": "alluvium deposition",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.25.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.25.0",
+"strength": "helpful",
+"why": "Amazon lowland",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.25.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.25.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.26.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.26.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.26.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.12.1",
+"strength": "helpful",
+"why": "flooding over flat land",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.26.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.26.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.27.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.27.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.27.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.27.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.28.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.5.0",
+"strength": "helpful",
+"why": "relief affects settlement",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.28.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.9.2",
+"strength": "helpful",
+"why": "cooler plateau climate",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.5.0",
+"strength": "helpful",
+"why": "lowland plateau attracts people",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.28.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.23.2",
+"strength": "helpful",
+"why": "escarpment barrier",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.28.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.25.0",
+"strength": "helpful",
+"why": "Amazon lowland",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.7.1",
+"strength": "helpful",
+"why": "dense forest low density",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.28.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.11.3",
+"strength": "helpful",
+"why": "Rio landslides",
+"confidence": "low"
+},
+{
+"id": "geo-urban-s7.2.0",
+"strength": "helpful",
+"why": "favelas as informal settlements",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.29.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.4",
+"strength": "helpful",
+"why": "drainage basin",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.29.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.29.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.29.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.29.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.30.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.30.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.4",
+"strength": "helpful",
+"why": "drainage basin",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.30.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.2",
+"strength": "helpful",
+"why": "tributaries",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.30.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.31.2",
+"strength": "helpful",
+"why": "black and white water",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.0.3",
+"strength": "helpful",
+"why": "confluence of two rivers",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.30.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.7",
+"strength": "helpful",
+"why": "estuary defined",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.30.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.31.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.31.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.31.2",
+"strength": "helpful",
+"why": "white-water flooding defined",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.31.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.31.2",
+"strength": "helpful",
+"why": "black-water defined",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.31.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.30.2",
+"strength": "helpful",
+"why": "Rio Negro meets Solimões at Manaus",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.31.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.32.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.32.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.20.0",
+"strength": "helpful",
+"why": "Brazilian Highlands",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.32.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s4.1.b",
+"strength": "helpful",
+"why": "hydro-electric dams",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.32.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.32.1",
+"strength": "helpful",
+"why": "hydroelectric damming",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.32.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.24.2",
+"strength": "helpful",
+"why": "Iguaçu Falls location",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.0.2",
+"strength": "helpful",
+"why": "tributary defined",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.33.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "sertão dry Northeast",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.33.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.29.2",
+"strength": "helpful",
+"why": "São Francisco basin",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.33.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "essential",
+"why": "sertão dry interior",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.13.0",
+"strength": "helpful",
+"why": "sertão as drought-prone interior",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.33.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s4.1.0",
+"strength": "helpful",
+"why": "reservoir behind a dam",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.33.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.33.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.33.0",
+"strength": "helpful",
+"why": "São Francisco river course",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.34.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s4.1.b",
+"strength": "helpful",
+"why": "hydro-electric dams",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.34.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.32.2",
+"strength": "helpful",
+"why": "Itaipu on the Paraná",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.34.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.34.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.34.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.34.2",
+"strength": "essential",
+"why": "Belo Monte Dam",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.35.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.35.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.35.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.55.0",
+"strength": "essential",
+"why": "Mariana disaster explained",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.35.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.35.2",
+"strength": "helpful",
+"why": "São Paulo Tietê river context",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.36.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.36.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.36.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.36.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.1.0",
+"strength": "helpful",
+"why": "gradient steepness",
+"confidence": "low"
+},
+{
+"id": "geo-rivers-s4.1.1",
+"strength": "helpful",
+"why": "head gives power",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.36.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.11.1",
+"strength": "helpful",
+"why": "2023 Rio Negro drought",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.37.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.37.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.37.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.37.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.37.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.37.2",
+"strength": "helpful",
+"why": "farming versus agribusiness",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.38.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.38.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.38.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.38.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.26.0",
+"strength": "helpful",
+"why": "Pantanal wetland",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.38.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.38.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.39.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.6.b",
+"strength": "helpful",
+"why": "Cerrado wet-dry climate",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.39.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.6.0",
+"strength": "helpful",
+"why": "rainy season timing",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.39.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.39.0",
+"strength": "helpful",
+"why": "soya planting timing",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.39.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.39.1",
+"strength": "helpful",
+"why": "soya harvest clears field",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.39.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.6.1",
+"strength": "helpful",
+"why": "dry season timing",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.40.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.40.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.40.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.10.3",
+"strength": "helpful",
+"why": "frost shaped coffee location",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.40.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.41.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.41.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.41.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.41.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.39.2",
+"strength": "helpful",
+"why": "two crops a year",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.41.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.42.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.42.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.15.2",
+"strength": "helpful",
+"why": "massapê soil",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.42.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.42.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.42.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.42.2",
+"strength": "helpful",
+"why": "ethanol from cane",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.43.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.43.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.43.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.38.2",
+"strength": "helpful",
+"why": "extensive ranching defined",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.43.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.43.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.19.3",
+"strength": "helpful",
+"why": "Pampa grassland",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.44.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.33.b",
+"strength": "helpful",
+"why": "São Francisco river",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.44.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.44.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.33.2",
+"strength": "helpful",
+"why": "Sobradinho Dam",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s4.1.0",
+"strength": "helpful",
+"why": "reservoir behind a dam",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.44.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "semi-arid sertão",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.44.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.17.3",
+"strength": "helpful",
+"why": "salinisation",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.45.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.45.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.45.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.12.0",
+"strength": "helpful",
+"why": "two or three crops a year",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.45.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.45.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.15.1",
+"strength": "helpful",
+"why": "terra roxa on basalt",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.15.2",
+"strength": "helpful",
+"why": "massapê soil",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.45.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.46.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.46.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.1",
+"strength": "helpful",
+"why": "leached latosols",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.46.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "sertão rainfall",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.46.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.10.1",
+"strength": "helpful",
+"why": "winter frost in south",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.46.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.17.1",
+"strength": "helpful",
+"why": "erosion after clearance",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.47.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.47.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.47.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.47.0",
+"strength": "helpful",
+"why": "landless versus large estates",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.47.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.47.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.47.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.b",
+"strength": "helpful",
+"why": "transport links decide delivery costs",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.48.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.48.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.48.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.18.1",
+"strength": "helpful",
+"why": "trade bloc meaning",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.48.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.14.2",
+"strength": "helpful",
+"why": "EMBRAPA research",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.48.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.48.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.47.3",
+"strength": "helpful",
+"why": "credit favours large farms",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.49.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.49.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.49.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.43.2",
+"strength": "helpful",
+"why": "cattle clearance of forest",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.49.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.49.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.50.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.50.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.50.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.50.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.50.1",
+"strength": "helpful",
+"why": "rubber from standing forest",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.50.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.50.2",
+"strength": "essential",
+"why": "the rubber boom",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.51.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.51.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.50.1",
+"strength": "helpful",
+"why": "rubber tapping",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.51.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.51.0",
+"strength": "essential",
+"why": "Chico Mendes",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.51.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.51.0",
+"strength": "helpful",
+"why": "Chico Mendes",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.52.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.52.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.52.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.52.2": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.52.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.52.4": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.53.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.53.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.0.2",
+"strength": "helpful",
+"why": "7,400 km coastline",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.53.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.53.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.53.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.54.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.54.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.54.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.54.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.9.1",
+"strength": "helpful",
+"why": "bauxite is the ore of alumina",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.54.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.55.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.55.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.55.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.55.0",
+"strength": "helpful",
+"why": "tailings dam",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.55.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.55.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.55.2",
+"strength": "helpful",
+"why": "illegal mining Yanomami",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.56.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.56.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.12.2",
+"strength": "helpful",
+"why": "rain feeds hydro rivers",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.56.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.56.0",
+"strength": "helpful",
+"why": "hydro share of electricity",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.56.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.57.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.57.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.57.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.57.2": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.57.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.57.2",
+"strength": "helpful",
+"why": "pre-salt fields",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.58.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.58.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.42.3",
+"strength": "helpful",
+"why": "flex-fuel cars",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.58.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.59.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.59.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.59.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.40.0",
+"strength": "helpful",
+"why": "coffee boom wealth",
+"confidence": "high"
+},
+{
+"id": "geo-urban-s7.32.3",
+"strength": "helpful",
+"why": "São Paulo industrial heartland growth",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.60.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.60.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.18.1",
+"strength": "helpful",
+"why": "tariff defined",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.60.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.60.0",
+"strength": "helpful",
+"why": "import substitution industry",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.60.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.32.3",
+"strength": "helpful",
+"why": "ABC region defined",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.61.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.61.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.61.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.32.2",
+"strength": "helpful",
+"why": "Itaipu state project",
+"confidence": "low"
+},
+{
+"id": "geo-region-continental-s2.54.0",
+"strength": "helpful",
+"why": "Carajás state project",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.61.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.61.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.62.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.62.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.61.3",
+"strength": "essential",
+"why": "hyperinflation",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.62.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.62.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.48.1",
+"strength": "helpful",
+"why": "Mercosur trade bloc",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.4.7",
+"strength": "helpful",
+"why": "trade agreements open markets",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.63.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.2.0",
+"strength": "helpful",
+"why": "raw materials as location factor",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.63.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.54.0",
+"strength": "helpful",
+"why": "Carajás iron ore",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.2.0",
+"strength": "helpful",
+"why": "raw materials pull processing",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.63.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.42.2",
+"strength": "helpful",
+"why": "sugar cane ethanol fuel",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.63.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.0.0",
+"strength": "helpful",
+"why": "bulk-reducing processing near source",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.63.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.52.0",
+"strength": "helpful",
+"why": "eucalyptus plantations",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.63.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.57.0",
+"strength": "helpful",
+"why": "Petrobras oil",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.64.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.2.1",
+"strength": "helpful",
+"why": "energy as location factor",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.64.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.32.2",
+"strength": "helpful",
+"why": "Itaipu Dam",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s4.1.0",
+"strength": "helpful",
+"why": "dam stores water, turbines",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s2.2.1",
+"strength": "helpful",
+"why": "cheap power attracts industry",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.64.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.34.1",
+"strength": "helpful",
+"why": "Tucuruí Dam",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.2.1",
+"strength": "helpful",
+"why": "energy-hungry industry needs power",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.64.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.56.0",
+"strength": "helpful",
+"why": "rain-fed hydroelectricity",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.2.1",
+"strength": "helpful",
+"why": "cheap power for industry",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.65.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.2.2",
+"strength": "helpful",
+"why": "labour as location factor",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.65.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.2.3",
+"strength": "helpful",
+"why": "assembly seeks low wages",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.65.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.2.2",
+"strength": "helpful",
+"why": "skills as labour factor",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.65.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.60.2",
+"strength": "helpful",
+"why": "ABC region",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.13.0",
+"strength": "helpful",
+"why": "nordestinos migrated to Sao Paulo",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.65.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.61.2",
+"strength": "helpful",
+"why": "Embraer São José dos Campos",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.2.3",
+"strength": "helpful",
+"why": "high-tech firms seek skilled graduates",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.66.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.0",
+"strength": "helpful",
+"why": "markets as location factor",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.66.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.0",
+"strength": "helpful",
+"why": "size and wealth of market",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.66.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.0",
+"strength": "helpful",
+"why": "access to trade-bloc markets",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.66.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.0",
+"strength": "helpful",
+"why": "export markets",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.67.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.4.0",
+"strength": "helpful",
+"why": "capital as location factor",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.67.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.59.1",
+"strength": "helpful",
+"why": "coffee profits financed industry",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.4.0",
+"strength": "helpful",
+"why": "capital sources for investment",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.67.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.1",
+"strength": "helpful",
+"why": "ports as transport link",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.67.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.6",
+"strength": "helpful",
+"why": "road freight links to markets",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.67.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.1.7",
+"strength": "essential",
+"why": "uses term infrastructure",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.68.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.4.4",
+"strength": "helpful",
+"why": "regional policy steers firms",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.68.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.60.0",
+"strength": "essential",
+"why": "import substitution industrialisation",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.18.1",
+"strength": "helpful",
+"why": "tariff means tax on imports",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.68.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s2.4.4",
+"strength": "helpful",
+"why": "incentives steer firms to regions",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.68.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s2.4.4",
+"strength": "helpful",
+"why": "regional policy incentives",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.68.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.68.2",
+"strength": "essential",
+"why": "SUDENE incentives, \"the same\"",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.4.4",
+"strength": "helpful",
+"why": "regional policy incentives",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.69.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.69.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.3.5",
+"strength": "helpful",
+"why": "industrial triangle on map",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.69.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s2.6.0",
+"strength": "helpful",
+"why": "agglomeration of linked firms",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.69.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.70.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.70.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.60.2",
+"strength": "helpful",
+"why": "ABC region car makers",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.70.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.61.2",
+"strength": "helpful",
+"why": "Embraer",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.70.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.60.1",
+"strength": "helpful",
+"why": "CSN Volta Redonda",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.70.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.57.0",
+"strength": "helpful",
+"why": "Petrobras",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.70.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.70.5": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.71.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.71.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.71.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.71.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.19.0",
+"strength": "helpful",
+"why": "rationalisation closes plants",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.71.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.69.0",
+"strength": "helpful",
+"why": "Southeast industrial concentration",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.72.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.72.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.72.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.73.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.73.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.73.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.27.0",
+"strength": "helpful",
+"why": "Sugarloaf granite dome",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.73.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.73.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.74.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.74.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.24.2",
+"strength": "helpful",
+"why": "Iguaçu Falls",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.8.0",
+"strength": "helpful",
+"why": "waterfall formation",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.74.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.50.2",
+"strength": "helpful",
+"why": "rubber boom Teatro Amazonas",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.74.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.26.0",
+"strength": "helpful",
+"why": "Pantanal wetland",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.74.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.74.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.74.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.27.1",
+"strength": "helpful",
+"why": "Lençóis Maranhenses dunes",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.75.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.75.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.75.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.75.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.26.0",
+"strength": "helpful",
+"why": "Pantanal",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.75.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.75.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.76.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.76.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.76.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.76.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.76.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.76.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.75.4",
+"strength": "helpful",
+"why": "2014 World Cup 2016 Olympics",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.77.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.77.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.77.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.77.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.76.4",
+"strength": "helpful",
+"why": "mega-events investment",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.77.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.77.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.78.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.78.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.78.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.75.4",
+"strength": "helpful",
+"why": "2016 Olympics Rio",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.78.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.78.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.75.4",
+"strength": "helpful",
+"why": "2014 World Cup",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.78.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.75.4",
+"strength": "helpful",
+"why": "2016 Olympics Rio",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.78.5": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.79.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.6",
+"strength": "helpful",
+"why": "freight modes",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.79.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.6",
+"strength": "helpful",
+"why": "road freight share",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.79.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.79.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.79.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.41.3",
+"strength": "helpful",
+"why": "soya Mato Grosso",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.79.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.80.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.6",
+"strength": "helpful",
+"why": "freight modes",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.80.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.54.0",
+"strength": "helpful",
+"why": "Carajás ore railway",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.3.6",
+"strength": "helpful",
+"why": "rail carries heavy loads",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.80.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.36.0",
+"strength": "helpful",
+"why": "Amazon as highway",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.3.6",
+"strength": "helpful",
+"why": "water freight mode",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.80.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.1",
+"strength": "helpful",
+"why": "ports for freight",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.80.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.41.3",
+"strength": "helpful",
+"why": "soya harvest",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.81.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.81.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.4",
+"strength": "helpful",
+"why": "airports and air transport",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.81.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.13.0",
+"strength": "helpful",
+"why": "bus rapid transit defined",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.81.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.37.0",
+"strength": "helpful",
+"why": "rodizio car ban explained",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.82.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.82.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.82.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.82.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.82.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.79.4",
+"strength": "helpful",
+"why": "roads open Amazon to clearance",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.83.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.83.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.1.1",
+"strength": "helpful",
+"why": "census count",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.83.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.83.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.1.1",
+"strength": "helpful",
+"why": "census held at intervals",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.84.b": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s1.15.b",
+"strength": "helpful",
+"why": "Demographic Transition Model",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.84.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.16.1",
+"strength": "helpful",
+"why": "causes of falling death rate",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.84.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s1.0.5",
+"strength": "essential",
+"why": "replacement level",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.84.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.22.3",
+"strength": "helpful",
+"why": "urbanisation lowers fertility",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.0.0",
+"strength": "helpful",
+"why": "urbanisation means growing urban share",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.84.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.22.0",
+"strength": "helpful",
+"why": "female education and work",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.85.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.25.b",
+"strength": "essential",
+"why": "population pyramid",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.85.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.84.1",
+"strength": "helpful",
+"why": "fertility collapse",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.34.0",
+"strength": "helpful",
+"why": "falling fertility narrows base",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.85.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.34.1",
+"strength": "helpful",
+"why": "life expectancy widens top",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.85.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.28.1",
+"strength": "essential",
+"why": "old-age dependency ratio",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.7.3",
+"strength": "helpful",
+"why": "dependency ratios explained",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.85.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.85.2",
+"strength": "helpful",
+"why": "old-age dependency",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.30.3",
+"strength": "helpful",
+"why": "raising pension age",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.86.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.2.b",
+"strength": "helpful",
+"why": "five macro-regions",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s1.4.b",
+"strength": "helpful",
+"why": "distribution",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.86.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.2.b",
+"strength": "essential",
+"why": "macro-region names",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.86.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.2.0",
+"strength": "helpful",
+"why": "North region Amazon",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.86.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.1",
+"strength": "essential",
+"why": "density formula",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.86.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.0",
+"strength": "helpful",
+"why": "distribution of people",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.87.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.87.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.87.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.9.1",
+"strength": "helpful",
+"why": "São Paulo cooler than Rio",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.87.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.15.1",
+"strength": "helpful",
+"why": "terra roxa coffee soil",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.87.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s6.2.0",
+"strength": "helpful",
+"why": "jobs in industry pull migrants",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.87.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.88.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.88.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.88.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.15.2",
+"strength": "helpful",
+"why": "massapê soil",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.88.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.88.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.8.0",
+"strength": "helpful",
+"why": "south-east trade winds",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.89.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.89.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.89.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.89.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.0",
+"strength": "helpful",
+"why": "latosol soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.89.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.1",
+"strength": "helpful",
+"why": "density meaning",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.90.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.90.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.90.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.0",
+"strength": "helpful",
+"why": "sertão rainfall",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.13.0",
+"strength": "helpful",
+"why": "sertao drought-prone interior defined",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.90.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.4",
+"strength": "helpful",
+"why": "2012-2017 drought",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.1.4",
+"strength": "helpful",
+"why": "drought pushes people out",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.90.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.17.0",
+"strength": "helpful",
+"why": "sertão thin stony soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.91.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.91.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.4.1",
+"strength": "helpful",
+"why": "density formula",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.91.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.91.0",
+"strength": "essential",
+"why": "São Paulo state density figure",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.91.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.91.1",
+"strength": "helpful",
+"why": "density contrast",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.92.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.92.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.92.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.92.0",
+"strength": "helpful",
+"why": "Brasília new capital",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.92.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.92.1",
+"strength": "helpful",
+"why": "March to the West",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.93.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.93.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.79.2",
+"strength": "helpful",
+"why": "Trans-Amazonian Highway",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.93.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.93.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.93.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.1",
+"strength": "helpful",
+"why": "poor leached soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.94.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.2.b",
+"strength": "helpful",
+"why": "macro-region names",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.0.b",
+"strength": "helpful",
+"why": "donor and receiver regions",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.94.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "sertão defined",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.13.0",
+"strength": "helpful",
+"why": "nordestinos moving to São Paulo",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.94.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "drought in the sertão",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.1.b",
+"strength": "essential",
+"why": "push factors",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.94.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s6.2.b",
+"strength": "essential",
+"why": "pull factors",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.94.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.2.2",
+"strength": "helpful",
+"why": "Centre-West region",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.95.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.95.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.95.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.95.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.2.4",
+"strength": "helpful",
+"why": "South region settlement",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.95.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.32.2",
+"strength": "helpful",
+"why": "Japanese immigration to São Paulo",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.95.4": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.96.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.96.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.96.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.96.2": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.96.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.97.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.1.1",
+"strength": "helpful",
+"why": "census as a count",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.97.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.97.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.97.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.97.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.98.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.98.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.98.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.98.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.98.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.34.3",
+"strength": "helpful",
+"why": "Belo Monte Dam and Kayapó",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s4.1.b",
+"strength": "helpful",
+"why": "what a hydro-electric dam is",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.99.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.99.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.28.3",
+"strength": "helpful",
+"why": "favelas as informal housing",
+"confidence": "high"
+},
+{
+"id": "geo-urban-s7.2.0",
+"strength": "helpful",
+"why": "favelas as informal settlements",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.99.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.99.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.100.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.100.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.100.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.100.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.100.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.101.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.101.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.101.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.101.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.102.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.102.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.102.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.102.2": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.103.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.103.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.103.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.95.3",
+"strength": "helpful",
+"why": "Japanese immigration from 1908",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.103.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.104.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.104.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.104.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.104.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.105.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.105.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.105.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.105.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.31.1",
+"strength": "helpful",
+"why": "São Paulo founded by Jesuits",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.105.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.106.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.106.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.106.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.106.0",
+"strength": "helpful",
+"why": "Afro-Brazilian religions",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.106.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.107.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.107.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.107.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.107.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.107.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.108.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.108.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.108.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.108.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.108.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.109.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.109.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s6.0.0",
+"strength": "helpful",
+"why": "urbanisation as share living in towns",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.109.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s6.0.b",
+"strength": "essential",
+"why": "rural-to-urban migration",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.109.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s6.1.1",
+"strength": "helpful",
+"why": "mechanisation as push factor",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.109.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "drought in the sertão",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.1.b",
+"strength": "helpful",
+"why": "push factors",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.2.b",
+"strength": "helpful",
+"why": "pull factors",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.110.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.110.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.0.5",
+"strength": "helpful",
+"why": "megacities over 10 million",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.110.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.110.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.0.4",
+"strength": "helpful",
+"why": "Brasília is the capital",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.111.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.111.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.23.0",
+"strength": "helpful",
+"why": "Serra do Mar escarpment",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.111.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.111.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.31.1",
+"strength": "helpful",
+"why": "Jesuit mission founding in 1554",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.111.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.9.0",
+"strength": "helpful",
+"why": "temperature falls with altitude",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.112.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.112.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.32.0",
+"strength": "helpful",
+"why": "coffee exported via Santos",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.112.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.32.0",
+"strength": "helpful",
+"why": "railway carried coffee to Santos",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.112.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.32.2",
+"strength": "helpful",
+"why": "Japanese immigration, Liberdade",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.112.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.32.3",
+"strength": "helpful",
+"why": "ABC car plants",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.112.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.94.0",
+"strength": "helpful",
+"why": "Northeast migration to São Paulo",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.2.2",
+"strength": "helpful",
+"why": "labour as location factor",
+"confidence": "low"
+},
+{
+"id": "geo-urban-s7.32.4",
+"strength": "helpful",
+"why": "nordestino migrants",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.112.5": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.113.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.113.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.2.0",
+"strength": "helpful",
+"why": "favelas as informal settlements",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.113.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.35.1",
+"strength": "helpful",
+"why": "traffic and air pollution",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.113.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s4.1.0",
+"strength": "helpful",
+"why": "reservoir behind a dam",
+"confidence": "high"
+},
+{
+"id": "geo-urban-s7.36.1",
+"strength": "helpful",
+"why": "2014-15 Cantareira drought",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.113.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.35.2",
+"strength": "helpful",
+"why": "Tietê pollution",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s4.12.1",
+"strength": "helpful",
+"why": "urban surfaces speed runoff, flooding",
+"confidence": "low"
+},
+{
+"id": "geo-urban-s7.35.2",
+"strength": "helpful",
+"why": "Tietê flooding",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.113.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.34.2",
+"strength": "helpful",
+"why": "inequality and crime",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.114.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.114.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.37.0",
+"strength": "helpful",
+"why": "rodízio scheme",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.114.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.13.0",
+"strength": "helpful",
+"why": "metro and bus rapid transit",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.114.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.113.0",
+"strength": "helpful",
+"why": "favelas",
+"confidence": "high"
+},
+{
+"id": "geo-urban-s7.11.b",
+"strength": "helpful",
+"why": "upgrading improves slums in place",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.114.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.37.4",
+"strength": "helpful",
+"why": "Minha Casa Minha Vida",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.115.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.115.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.115.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.115.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.115.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.28.3",
+"strength": "helpful",
+"why": "favelas on steep hills",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.11.3",
+"strength": "helpful",
+"why": "2011 landslides",
+"confidence": "high"
+},
+{
+"id": "geo-urban-s7.7.1",
+"strength": "helpful",
+"why": "hillside slums landslide risk",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.115.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.116.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.116.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.116.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.116.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.116.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.117.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.117.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.30.4",
+"strength": "helpful",
+"why": "ocean ships reach Manaus",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.117.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.4.4",
+"strength": "helpful",
+"why": "incentives like free trade zones",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.117.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.117.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-urban-s7.14.0",
+"strength": "helpful",
+"why": "Curitiba bus rapid transit",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.118.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.118.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.2.0",
+"strength": "helpful",
+"why": "favelas as informal settlements",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.118.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.4.b",
+"strength": "helpful",
+"why": "informal sector",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.118.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.3.b",
+"strength": "helpful",
+"why": "sanitation",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.118.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.8.0",
+"strength": "helpful",
+"why": "crime and violence in cities",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.119.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.119.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.2.b",
+"strength": "helpful",
+"why": "macro-region names",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.119.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "sertão drought",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.1.4",
+"strength": "helpful",
+"why": "drought pushes people out",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.119.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.119.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s1.7.3",
+"strength": "helpful",
+"why": "few jobs make young people leave",
+"confidence": "low"
+},
+{
+"id": "geo-population-migration-s6.1.3",
+"strength": "helpful",
+"why": "poor rural services push people out",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.120.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.120.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-urban-s7.15.0",
+"strength": "helpful",
+"why": "land reform",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.120.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.120.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.120.0",
+"strength": "helpful",
+"why": "MST",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.121.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.121.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.121.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.121.2": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.121.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.121.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.122.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.122.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.14.1",
+"strength": "helpful",
+"why": "liming",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.122.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "low unreliable rain",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.17.0",
+"strength": "helpful",
+"why": "thin sertão soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.122.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.122.0",
+"strength": "essential",
+"why": "Mato Grosso case",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.122.1",
+"strength": "essential",
+"why": "sertão case",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.123.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.123.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.2.b",
+"strength": "helpful",
+"why": "macro-region names",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.123.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.123.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "drought in the sertão",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.123.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s2.4.4",
+"strength": "helpful",
+"why": "regional policy steering firms",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.123.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.124.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.124.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.15.1",
+"strength": "essential",
+"why": "terra roxa and coffee",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s6.13.0",
+"strength": "helpful",
+"why": "sertão migrants to São Paulo",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.124.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.14.3",
+"strength": "essential",
+"why": "liming and EMBRAPA lead to soya",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.124.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.12.2",
+"strength": "helpful",
+"why": "rainfall feeds hydroelectricity",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s4.1.b",
+"strength": "helpful",
+"why": "water turned into electricity by dams",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.124.3": {
+"cost": 1,
+"needs": []
+}
+}

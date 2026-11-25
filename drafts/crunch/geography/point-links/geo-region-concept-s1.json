@@ -1,0 +1,517 @@
+{
+"geo-region-concept-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.0.5": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.1.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.1.5": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.2.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.3.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.3.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.4.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.4.5": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-concept-s1.4.3",
+"strength": "helpful",
+"why": "winds bring Atlantic rain",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s1.4.5",
+"strength": "helpful",
+"why": "relief rainfall over mountains",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s1.4.5",
+"strength": "helpful",
+"why": "forced uplift on western slopes",
+"confidence": "low"
+}
+]
+},
+"geo-region-concept-s1.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.5.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.5.5": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.6.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-concept-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s1.4.1",
+"strength": "helpful",
+"why": "North Atlantic Drift",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-concept-s1.4.2",
+"strength": "helpful",
+"why": "maritime influence on range",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s1.1.3",
+"strength": "helpful",
+"why": "transition zones",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.7.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.7.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s4.0.b",
+"strength": "helpful",
+"why": "karst on limestone",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s4.1.b",
+"strength": "helpful",
+"why": "limestone pavement formation",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s4.4.0",
+"strength": "helpful",
+"why": "turlough seasonal lake",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s4.5.0",
+"strength": "helpful",
+"why": "caves in limestone",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s4.1.4",
+"strength": "helpful",
+"why": "folded terraced limestone hill",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s4.0.2",
+"strength": "helpful",
+"why": "limestone permeable via cracks",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.9.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s4.1.0",
+"strength": "helpful",
+"why": "ice removed soil exposing rock",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.10.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.10.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.10.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-volcanoes-earthquakes-s5.1.1",
+"strength": "helpful",
+"why": "anticlines and synclines",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-volcanoes-earthquakes-s5.5.b",
+"strength": "helpful",
+"why": "differential erosion",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-concept-s1.11.1",
+"strength": "helpful",
+"why": "ridges are resistant sandstone",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s1.11.1",
+"strength": "helpful",
+"why": "valleys are weak limestone",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-volcanoes-earthquakes-s5.6.1",
+"strength": "helpful",
+"why": "trellised drainage pattern",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-volcanoes-earthquakes-s5.7.4",
+"strength": "helpful",
+"why": "drowned valleys form rias",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s1.11.3",
+"strength": "helpful",
+"why": "valleys versus ridges",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.12.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.12.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s1.12.2",
+"strength": "essential",
+"why": "uses loess soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.12.4": {
+"cost": 2,
+"needs": []
+},
+"geo-region-concept-s1.12.5": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.12.6": {
+"cost": 2,
+"needs": []
+},
+"geo-region-concept-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-concept-s1.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s1.9.b",
+"strength": "helpful",
+"why": "Burren limestone karst",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s1.11.b",
+"strength": "helpful",
+"why": "folded ridges and valleys",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s1.12.1",
+"strength": "helpful",
+"why": "glacial deposits",
+"confidence": "high"
+}
+]
+},
+"geo-region-concept-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s4.10.3",
+"strength": "helpful",
+"why": "Leinster batholith granite",
+"confidence": "high"
+}
+]
+}
+}

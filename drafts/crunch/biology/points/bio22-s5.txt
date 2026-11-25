@@ -1,0 +1,262 @@
+TARGET bio22-s5: White blood cells
+[bio22-s5.0.b] The immune system is run by several different kinds of white blood cell, and they all start from the same place. Knowing where each type comes from and matures explains how the body learns to attack invaders but not itself.
+[bio22-s5.0.0] White blood cells (leucocytes) are the cells of the immune system. Unlike red blood cells, they have a nucleus, which holds the genes they need to make the proteins for their defensive jobs.
+[bio22-s5.0.1] All white blood cells develop from stem cells (cells that can divide and become different cell types) in the red bone marrow, the soft tissue inside some bones.
+[bio22-s5.0.2] They travel in the blood and lymph (the fluid that drains from tissues), and many leave the capillaries to enter the tissues, because that is where pathogens (disease-causing organisms) are found.
+[bio22-s5.0.3] There are two broad groups. Phagocytes (neutrophils and monocytes/macrophages) engulf pathogens, taking them into the cell.
+[bio22-s5.0.4] The second group is the lymphocytes (B cells, T cells and natural killer cells). These are small cells with a large round nucleus filling most of the cell and little cytoplasm.
+[bio22-s5.0.5] B lymphocytes mature in the bone marrow. T lymphocytes leave the marrow and mature in the thymus, a gland in the chest behind the breastbone (T for thymus).
+[bio22-s5.0.6] During maturation, lymphocytes that would attack the body's own cells are removed, so mature lymphocytes respond only to non-self antigens (molecules on a pathogen's surface that the immune system recognises as foreign).
+[bio22-s5.1.b] Monocytes are the white blood cells that travel in the blood and then settle in tissues as macrophages. Macrophages are the body's general-purpose cleaners and also the link between the fast, general response and the specific one.
+[bio22-s5.1.0] Monocytes are the largest white blood cells, with a large kidney- or bean-shaped nucleus, which makes them easy to tell from lymphocytes under the microscope.
+[bio22-s5.1.1] They circulate in the blood for a few days, then move into tissues and develop into macrophages, which can live for months.
+[bio22-s5.1.2] Macrophages carry out phagocytosis (engulfing and digesting) of pathogens, dead cells and debris. There is more on the stages in Innate and adaptive immunity.
+[bio22-s5.1.3] Macrophages are antigen-presenting cells: they display fragments of engulfed pathogens on their surface to activate helper T cells, so they link innate immunity (the fast, non-specific response) and adaptive immunity (the slower, specific one).
+[bio22-s5.1.4] Macrophages release chemicals that cause inflammation and fever and attract other white blood cells to the site of infection.
+[bio22-s5.1.5] Diagram: a monocyte (large cell, kidney-shaped nucleus) beside a lymphocyte (small cell, large round nucleus, thin rim of cytoplasm). Label nucleus, cytoplasm and cell membrane.
+[bio22-s5.2.b] Natural killer (NK) cells are a fast first line of attack against body cells that have gone wrong, either because a virus is hiding inside them or because they have become cancerous. They check cells for a missing marker rather than for a particular pathogen.
+[bio22-s5.2.0] Natural killer (NK) cells are lymphocytes of the innate system. They are not specific to one antigen and need no earlier exposure, so they act within hours of an infection, before B and T cells have responded.
+[bio22-s5.2.1] Healthy body cells display normal self-marker (MHC) proteins on their surface, which tell the immune system the cell belongs to the body.
+[bio22-s5.2.2] Many virus-infected cells and cancer cells display fewer of these markers, or display stress molecules instead. NK cells kill cells showing this missing self pattern.
+[bio22-s5.2.3] NK cells also kill cells coated with antibodies, the proteins that bind to antigens.
+[bio22-s5.2.4] NK cells release perforin, a protein that makes pores in the target cell's membrane, and enzymes called granzymes that enter through the pores and trigger the cell to self-destruct (apoptosis, programmed cell death).
+[bio22-s5.2.5] The dying cell breaks into fragments that macrophages engulf, so the virus inside is destroyed without spreading.
+[bio22-s5.2.6] NK cells also release chemicals that activate macrophages, which helps clear the fragments.
+[bio22-s5.3.b] B lymphocytes are the cells behind antibodies. Each B cell is committed to one antibody shape, so the body needs a huge range of B cells to cover many different antigens.
+[bio22-s5.3.0] B lymphocytes carry antibody molecules in their membrane as receptors, which let them bind a matching antigen. Each B cell and its descendants make only one antibody shape.
+[bio22-s5.3.1] B lymphocytes are responsible for antibody-mediated (humoral) immunity, meaning protection by antibodies carried in body fluids. Clonal selection, plasma cells and memory B cells are taught in Innate and adaptive immunity.
+[bio22-s5.3.2] Plasma cells, the antibody-secreting form of B cells, are larger than resting B cells, with extensive rough endoplasmic reticulum (a network of membranes studded with ribosomes) to make and secrete large amounts of antibody protein.
+[bio22-s5.3.3] Antibodies act on pathogens and toxins outside cells, in blood, tissue fluid and mucus, not on pathogens hidden inside cells, because antibodies cannot get into body cells.
+[bio22-s5.4.b] T lymphocytes are the cells that control and carry out cell-mediated immunity, the response that deals with infected body cells. Helper T cells are the coordinators that most of the adaptive response depends on.
+[bio22-s5.4.0] All T cells have T-cell receptors on their surface that recognise one antigen, but only when it is displayed on a cell's surface (presented), never as a free molecule.
+[bio22-s5.4.1] T cells don't make antibodies. That is the job of plasma cells, which come from B cells.
+[bio22-s5.4.2] Helper T cells carry the surface marker CD4.
+[bio22-s5.4.3] Helper T cells are the coordinators of the adaptive response, signalling with cytokines (chemical messengers between immune cells). Which cells they activate, and in what order, is taught in Innate and adaptive immunity.
+[bio22-s5.4.4] Almost every adaptive response depends on helper T cells, so HIV, which infects and destroys CD4 helper T cells, leaves the body unable to fight many infections.
+[bio22-s5.5.b] Killer T cells deal with threats that antibodies cannot reach, because the pathogen is hidden inside a body cell. They destroy the whole infected cell.
+[bio22-s5.5.0] Killer T cells (cytotoxic T cells) carry the surface marker CD8.
+[bio22-s5.5.1] Killer T cells bind to body cells displaying their matching antigen, such as virus-infected cells, cancer cells and cells of transplanted tissue.
+[bio22-s5.5.2] They kill these cells by releasing perforin and granzymes, which triggers apoptosis (the cell's programmed self-destruction).
+[bio22-s5.5.3] Killer T cells use the same killing method as NK cells, but only against cells showing their one specific antigen, whereas NK cells look for missing self-markers.
+[bio22-s5.5.4] Each killer T cell can kill many target cells in turn.
+[bio22-s5.6.b] An immune response needs brakes, and it needs a record of past infections. Suppressor T cells provide the brakes, and memory T cells provide the record that makes a second infection easier to fight.
+[bio22-s5.6.0] Suppressor T cells, now usually called regulatory T cells, are the brakes of the immune system.
+[bio22-s5.6.1] Suppressor T cells end a response once an infection is cleared, so the body is not damaged by an immune response that carries on. The details are taught in Innate and adaptive immunity.
+[bio22-s5.6.2] They also suppress lymphocytes that react to the body's own antigens, helping to prevent autoimmune disease (the body attacking its own tissues) and allergy.
+[bio22-s5.6.3] Memory T cells form from the clone of activated T cells (the identical cells that divide from one activated T cell) and remain in the blood and lymph tissue for years or decades.
+[bio22-s5.6.4] On re-exposure to the same antigen, memory T cells quickly produce new helper and killer T cells, giving a faster, stronger cell-mediated response. Memory B cells do the same for antibodies.
+[bio22-s5.6.5] Memory cells are why vaccination works: the vaccine exposes you to the antigen safely, so memory cells are ready if the real pathogen arrives.
+[bio22-s5.7.b] The outcome asks you to compare the roles of different white blood cells. The first comparison is between the fast, general innate cells and the slower, specific adaptive cells, and then between the ways each one destroys pathogens.
+[bio22-s5.7.0] Innate versus adaptive: monocytes, macrophages and NK cells are part of innate immunity, which is non-specific, acts quickly and has no memory.
+[bio22-s5.7.1] B and T lymphocytes are adaptive: they are specific to one antigen, slower on first exposure, and they form memory cells.
+[bio22-s5.7.2] Macrophages engulf and digest pathogens by phagocytosis. NK and killer T cells kill infected body cells by perforin and apoptosis.
+[bio22-s5.7.3] B cells, as plasma cells, secrete antibodies. Helper T cells kill nothing themselves but signal to other cells.
+[bio22-s5.7.4] Suppressor T cells regulate the response. Memory cells kill nothing but enable a rapid future response.
+[bio22-s5.8.b] Cells also differ in what they attack and in how they recognise it. This explains why different cells are needed to cover both free pathogens and pathogens hidden inside body cells.
+[bio22-s5.8.0] Where the target is: antibodies from B cells act on pathogens and toxins outside cells, because antibodies cannot enter body cells.
+[bio22-s5.8.1] Killer T and NK cells act on pathogens inside body cells by killing the cell. Macrophages engulf free pathogens.
+[bio22-s5.8.2] Recognition: B cells recognise free antigens with membrane antibodies, while T cells recognise only antigens presented on cell surfaces.
+[bio22-s5.8.3] NK cells recognise missing or abnormal self-markers, not a specific antigen.
+[bio22-s5.8.4] Macrophages recognise general features of pathogens and antibody-coated particles, so they need no specific receptor for each pathogen.
+[bio22-s5.9.b] This list puts each cell side by side: whether it is innate or adaptive, whether it is specific, its main role, and where it matures. Use it to compare cells quickly.
+[bio22-s5.9.0] Monocyte or macrophage: innate; non-specific; main role is phagocytosis and antigen presentation; matures in the bone marrow, then in tissues.
+[bio22-s5.9.1] NK cell: innate; non-specific; kills infected and cancer cells; matures in the bone marrow.
+[bio22-s5.9.2] B lymphocyte: adaptive; specific; main role is antibodies (via plasma cells) and memory; matures in the bone marrow.
+[bio22-s5.9.3] Helper T cell: adaptive; specific; activates B cells, killer T cells and macrophages (CD4); matures in the thymus.
+[bio22-s5.9.4] Killer T cell: adaptive; specific; kills infected, cancer and transplant cells (CD8); matures in the thymus.
+[bio22-s5.9.5] Suppressor T cell: adaptive; ends responses and prevents attack on self; matures in the thymus.
+[bio22-s5.9.6] Memory B and T cells: adaptive; specific; long-lived, giving a fast secondary response.
+[bio22-s5.10.b] In a real infection the cells act as a team in sequence. Influenza, a virus that infects the cells lining the airways, shows how the innate and adaptive cells combine.
+[bio22-s5.10.0] First, infected cells release interferons (chemical signals that warn neighbouring cells of a virus) and NK cells kill some of them within hours. Macrophages engulf viruses and present antigens, and helper T cells are activated.
+[bio22-s5.10.1] Next, killer T cells destroy infected cells while plasma cells release antibodies that neutralise free viruses, so both hidden and free viruses are dealt with.
+[bio22-s5.10.2] Finally, suppressor T cells end the response and memory cells remain. Because flu antigens change, memory cells may not recognise next year's strain.
+
+CANDIDATES bio29-s4: Blood
+[bio29-s4.0.b] Blood is a tissue, like muscle or bone, but a liquid one. It is made of cells and cell fragments carried in a fluid, and each part has its own job.
+[bio29-s4.0.0] Blood is a liquid tissue made of cells and cell fragments suspended in a liquid, the plasma. An adult has about 5 litres of blood.
+[bio29-s4.0.1] If blood, with a chemical added to stop it clotting, is spun in a centrifuge (a machine that spins samples so the heaviest parts sink), it separates into about 55% plasma, a straw-coloured liquid on top, and about 45% cells.
+[bio29-s4.0.2] The cells form a thin pale layer of white blood cells and platelets above a dark red layer of red blood cells at the bottom. Red blood cells make up nearly all of the cell volume.
+[bio29-s4.0.3] Numbers in a healthy adult: red blood cells about 5 million per mm³ (cubic millimetre); white blood cells about 4,000 to 11,000 per mm³; platelets about 150,000 to 400,000 per mm³. Red cells therefore greatly outnumber white cells, by several hundred to one.
+[bio29-s4.0.4] All blood cells and platelets are made in the red bone marrow, found in spongy bone such as the sternum, ribs, vertebrae, pelvis and the ends of long bones. They come from stem cells (unspecialised cells that can become other cell types) that divide by mitosis.
+[bio29-s4.0.5] Functions of blood: transport (oxygen, carbon dioxide, nutrients, wastes, hormones and heat), defence against infection, clotting to seal wounds, and keeping the internal environment steady (pH, temperature and water balance).
+[bio29-s4.0.6] Diagram: a stained blood smear under a light microscope. Draw many red blood cells (pale centres, no nucleus), one or two white blood cells (larger, with a stained nucleus: a phagocyte with a lobed nucleus and a lymphocyte with a large round nucleus) and small platelets. Label each.
+[bio29-s4.0.7] Diagram: draw a centrifuged tube labelled plasma, white cells and platelets layer, and red cells layer, with percentages.
+[bio29-s4.1.b] Plasma is the liquid part of blood, and everything else in blood is carried in it or by it. Because it is mostly water, it can dissolve and transport a huge range of substances around the body.
+[bio29-s4.1.0] Plasma is about 90% water, with substances dissolved or suspended in it. Water is a good solvent, so many substances dissolve in it, and it also carries heat.
+[bio29-s4.1.1] Dissolved substances transported in plasma: nutrients (glucose, amino acids, fatty acids and glycerol, vitamins and minerals); wastes (urea, from the liver to the kidneys, and most of the carbon dioxide); hormones; and salts, such as sodium, chloride, calcium and hydrogencarbonate ions.
+[bio29-s4.1.2] Carbon dioxide is carried mostly in the plasma as hydrogencarbonate ions (HCO₃⁻). They form in red blood cells, by the enzyme carbonic anhydrase (CO₂ + H₂O → carbonic acid → H⁺ + HCO₃⁻).
+[bio29-s4.1.3] A small amount of carbon dioxide is simply dissolved in plasma, and some is carried by haemoglobin. There is more on this in CO₂ as a controlling factor in breathing.
+[bio29-s4.1.4] Plasma proteins: fibrinogen and other clotting factors, for clotting; antibodies, for defence against pathogens; and albumin, which holds water in the blood by osmosis and carries some substances. Serum is plasma with the clotting proteins removed.
+[bio29-s4.1.5] Plasma distributes heat from active organs, such as working muscles, around the body. Its hydrogencarbonate and protein buffers (chemicals that resist changes in acidity) keep the blood pH near 7.4.
+[bio29-s4.2.b] Red blood cells carry oxygen from the lungs to every cell in the body. Almost every feature of their structure helps them do that one job well.
+[bio29-s4.2.0] Red blood cells, or erythrocytes, are biconcave discs (round and thinner in the centre than at the edge), about 7 to 8 µm across. They carry oxygen from the lungs to all body cells.
+[bio29-s4.2.1] The biconcave shape gives a large surface area for their volume, so oxygen diffuses in and out quickly, and every part of the cell is close to the surface.
+[bio29-s4.2.2] There is no nucleus, and no mitochondria, in the mature cell, which leaves more room for haemoglobin. The cell is also packed with haemoglobin, so each cell can carry a lot of oxygen.
+[bio29-s4.2.3] The cell is small and flexible, so it squeezes through capillaries in single file, close to the capillary wall. This shortens the distance oxygen must diffuse.
+[bio29-s4.2.4] Because they have no mitochondria, red blood cells respire anaerobically (without oxygen), so they do not use up the oxygen they carry.
+[bio29-s4.2.5] Haemoglobin is a red protein made of four polypeptide chains, each with a haem group containing iron, so each haemoglobin molecule can carry four oxygen molecules. In the lungs, where oxygen is plentiful, haemoglobin combines with oxygen to form oxyhaemoglobin, which is bright red.
+[bio29-s4.2.6] In respiring tissues, where oxygen is low, oxyhaemoglobin releases its oxygen. The reaction is reversible. Haemoglobin + oxygen ⇌ oxyhaemoglobin.
+[bio29-s4.3.b] Red blood cells wear out and must be constantly replaced. Problems with their number or with haemoglobin affect how much oxygen reaches the tissues.
+[bio29-s4.3.0] Red blood cells are made in the red bone marrow and live about 120 days. With no nucleus they cannot repair themselves, so they wear out.
+[bio29-s4.3.1] Old cells are broken down in the liver and spleen. The iron is recycled to make new haemoglobin, and the rest of the haem is converted into bile pigments, which are excreted in bile.
+[bio29-s4.3.2] The kidney hormone EPO stimulates the production of red blood cells. There is more on this in Hormonal manipulation.
+[bio29-s4.3.3] Anaemia is a shortage of red blood cells or haemoglobin, so less oxygen is carried, causing tiredness and pale skin. A common cause is iron deficiency, because iron is needed to make haem.
+[bio29-s4.3.4] Carbon monoxide, in cigarette smoke and from faulty gas appliances, combines with haemoglobin far more tightly than oxygen does, so less oxygen is carried and it can kill.
+[bio29-s4.3.5] Sickle-cell anaemia is a further disorder of red blood cells, named here only.
+[bio29-s4.4.b] White blood cells are the body's defenders against infection. They differ from red cells in several ways, which makes a good comparison to learn.
+[bio29-s4.4.0] White blood cells, or leucocytes, defend the body against infection. Unlike red blood cells, they have a nucleus, are larger and colourless (they have no haemoglobin), and are far fewer in number.
+[bio29-s4.4.1] They are made in the red bone marrow, and many can squeeze out through capillary walls into the tissues, where infections often are.
+[bio29-s4.4.2] There are two broad groups: phagocytes, which engulf and digest pathogens (phagocytosis), and lymphocytes, which produce antibodies or kill infected cells.
+[bio29-s4.4.3] The number of white cells rises during an infection, so a white cell count is used in diagnosing infections. Leukaemia is a cancer of the white-cell-forming cells.
+[bio29-s4.5.b] Platelets are not whole cells but fragments, and they are the first responders when a blood vessel is damaged.
+[bio29-s4.5.0] Platelets, or thrombocytes, are small fragments of cytoplasm enclosed in membrane, with no nucleus. They break off from large cells in the red bone marrow.
+[bio29-s4.5.1] Platelets live about 7 to 10 days and start the clotting of blood.
+[bio29-s4.5.2] Clotting matters because it stops blood loss from a damaged vessel and seals the wound so that pathogens cannot enter. It is part of the first line of defence against infection.
+[bio29-s4.6.b] Clotting is a chain of events in which one change triggers the next, ending in a mesh of protein threads that plugs the wound. Learn the stages in order.
+[bio29-s4.6.0] 1. A blood vessel is damaged.
+[bio29-s4.6.1] 2. Platelets stick to the exposed damaged wall and to each other, forming a temporary plug.
+[bio29-s4.6.2] 3. The platelets and damaged tissue release clotting factors.
+[bio29-s4.6.3] 4. A series of reactions, needing calcium ions and clotting proteins made in the liver with the help of vitamin K, converts the inactive plasma protein prothrombin into the active enzyme thrombin.
+[bio29-s4.6.4] 5. Thrombin converts the soluble plasma protein fibrinogen into insoluble threads of fibrin.
+[bio29-s4.6.5] 6. The fibrin threads form a mesh that traps red blood cells and platelets, forming a clot.
+[bio29-s4.6.6] 7. At the surface the clot dries and hardens into a scab, under which the tissue repairs. Calcium and vitamin K are both needed for clotting. Haemophilia is an inherited disorder in which a clotting factor is missing.
+[bio29-s4.6.7] An unwanted clot inside a vessel, a thrombosis, can block an artery and cause a heart attack or stroke. Diagram: a flow chart of damage, platelets, clotting factors (with Ca²⁺ and vitamin K), prothrombin, thrombin, fibrinogen, fibrin mesh and clot. Add fibrin threads trapping red blood cells.
+[bio29-s4.7.b] Your ABO blood group depends on molecules on the surface of your red blood cells. The plasma then carries antibodies matched to whichever molecules your own cells lack.
+[bio29-s4.7.0] A blood group is set by the antigens on the surface membrane of a person's red blood cells. An antigen is a molecule that can trigger an immune response. In the ABO system there are two antigens, A and B.
+[bio29-s4.7.1] The plasma naturally contains antibodies against the ABO antigen or antigens that a person's own red cells lack. This stops the body attacking its own cells.
+[bio29-s4.7.2] Group A has antigen A on the red cells and anti-B antibodies in the plasma. Group B has antigen B and anti-A antibodies.
+[bio29-s4.7.3] Group AB has both antigens and no antibodies. Group O has no antigens and both anti-A and anti-B antibodies.
+[bio29-s4.7.4] Agglutination: if red cells carrying an antigen meet the matching antibody, for example A cells meeting anti-A, the antibodies bind to the antigens and stick the cells together in clumps.
+[bio29-s4.7.5] In a transfusion the clumps can block small blood vessels, and the donor cells are destroyed, or burst. This can cause kidney failure and death.
+[bio29-s4.7.6] Diagram: four red blood cells, one for each group, showing the antigens on the membrane (A, B, both, none), with the antibodies in the plasma written beside each. Add a sketch of agglutination, with antibodies linking red cells into a clump.
+[bio29-s4.8.b] Transfusion works only if the donor's red cells do not meet an antibody in the recipient's plasma that matches their antigens. The rule follows from the ABO antigens and antibodies.
+[bio29-s4.8.0] What matters is the donor's red-cell antigens and the recipient's antibodies. A recipient can safely receive red cells that carry no antigen against which their own plasma has antibodies.
+[bio29-s4.8.1] Group O red cells carry no antigens, so they can be given to anyone, and group O is called the universal donor. This applies to red cells: group O plasma contains anti-A and anti-B.
+[bio29-s4.8.2] Group AB people have no antibodies, so they can receive red cells of any ABO group, and group AB is the universal recipient. In practice, hospitals give the same group whenever possible.
+[bio29-s4.8.3] Compatibility: group O can receive O only; group A can receive A or O; group B can receive B or O; group AB can receive A, B, AB or O.
+[bio29-s4.8.4] Blood-group testing: a drop of blood is mixed separately with anti-A serum and with anti-B serum. Clumping with anti-A only means group A; clumping with anti-B only means group B; clumping with both means AB; clumping with neither means O.
+[bio29-s4.8.5] A third test, with anti-D, tests the Rhesus group.
+[bio29-s4.9.b] The Rhesus factor is a second red-cell antigen system, on top of ABO. Unlike the ABO antibodies, the Rhesus antibody has to be learned by the immune system first.
+[bio29-s4.9.0] The Rhesus (Rh) factor is another red-cell antigen, the D antigen. People whose red cells carry it are Rhesus positive (Rh+), and those without it are Rhesus negative (Rh−).
+[bio29-s4.9.1] A person's full blood group combines both systems, for example O negative or A positive.
+[bio29-s4.9.2] Unlike anti-A and anti-B, anti-D antibodies are not naturally present. A Rh− person makes them only after Rh+ red cells enter their blood, for example through a transfusion of Rh+ blood or during pregnancy.
+[bio29-s4.9.3] A first exposure therefore does little harm, but a second exposure triggers a rapid, strong attack on Rh+ cells. So Rh− patients must receive Rh− blood.
+[bio29-s4.10.b] A Rhesus negative mother carrying a Rhesus positive baby can become sensitised to her baby's blood, and that may endanger a later baby. The problem is called haemolytic disease of the newborn, and it can be prevented.
+[bio29-s4.10.0] 1. A Rh− mother carries a Rh+ baby, inherited from a Rh+ father.
+[bio29-s4.10.1] 2. Normally the blood of mother and fetus does not mix, but at birth, or after a miscarriage, abortion or injury, some fetal red cells enter the mother's blood.
+[bio29-s4.10.2] 3. Her immune system makes anti-D antibodies and memory cells, and she is now sensitised. The first baby is usually unaffected, because it is born before many antibodies are made.
+[bio29-s4.10.3] 4. In a later pregnancy with a Rh+ baby, her anti-D antibodies cross the placenta and destroy the fetus's red blood cells.
+[bio29-s4.10.4] 5. The baby can suffer severe anaemia and jaundice, brain damage or death.
+[bio29-s4.10.5] Prevention: a Rh− mother is given an injection of anti-D antibodies, anti-D immunoglobulin, during pregnancy and within 72 hours after the birth of a Rh+ baby, or after a miscarriage or injury.
+[bio29-s4.10.6] These antibodies destroy any fetal Rh+ cells in her blood before her own immune system can respond, so she does not make her own anti-D or memory cells. The injected antibodies are broken down over a few weeks.
+[bio29-s4.10.7] This is artificial passive immunity (antibodies given ready-made, not made by the body). Every pregnant woman's blood group is tested early in pregnancy for this reason.
+[bio29-s4.11.b] Knowing a person's blood group saves lives in several ways, from transfusions to pregnancy care. Each use below comes from knowing the groups.
+[bio29-s4.11.0] Safe blood transfusion: before a transfusion, the patient's ABO and Rhesus groups are tested, and the donor blood is cross-matched, meaning it is mixed with the patient's plasma to check that no clumping occurs.
+[bio29-s4.11.1] This prevents fatal transfusion reactions and allows transfusions in surgery, after accidents, in childbirth, for anaemia and in cancer treatment.
+[bio29-s4.11.2] Emergencies: group O Rh− red cells are given when there is no time to test the patient, because they carry no A, B or D antigens. Only a minority of people are O negative, so their donations are especially valuable.
+[bio29-s4.11.3] Pregnancy: identifying Rh− mothers and giving anti-D has made haemolytic disease of the newborn rare.
+[bio29-s4.11.4] Blood donation: knowing which groups are needed lets the blood service plan donor sessions and stocks. Donors of all groups are needed, because blood can be stored only for a limited time.
+[bio29-s4.11.5] In Ireland, donations are collected and tested by the Irish Blood Transfusion Service, and donated blood is screened for infections.
+[bio29-s4.11.6] Organ and bone-marrow transplants: donors and recipients are matched for ABO group and tissue type to reduce the chance of rejection.
+[bio29-s4.11.7] Nature of Science: before blood groups were known, transfusions often killed patients. Karl Landsteiner discovered the ABO blood groups in 1901, for which he received the Nobel Prize in 1930, which made safe transfusion possible.
+[bio29-s4.11.8] In 1940 Landsteiner and Alexander Wiener described the Rhesus factor, named after the rhesus monkeys whose blood was used in the experiments.
+
+CANDIDATES bio22-s2: Innate and adaptive immunity
+[bio22-s2.0.b] Immunity is the body's ability to resist infection by pathogens (disease-causing organisms such as bacteria and viruses). The immune system does this by telling self from non-self, and it has two parts that work at different speeds.
+[bio22-s2.0.0] The immune system consists of physical and chemical barriers, white blood cells (made from stem cells in the bone marrow), the lymphatic system (lymph nodes, spleen and thymus) and defence proteins in the blood, such as antibodies and complement.
+[bio22-s2.0.1] The body's own cells carry their own marker molecules on their surface, which the immune system normally ignores, so foreign cells and molecules, which lack these markers, are attacked.
+[bio22-s2.0.2] Innate immunity, also called non-specific immunity, is present from birth, acts against any pathogen in the same way and acts within minutes to hours.
+[bio22-s2.0.3] Adaptive immunity, also called acquired or specific immunity, develops during life after exposure to a particular pathogen and acts against that pathogen only.
+[bio22-s2.0.4] Adaptive immunity takes days to develop the first time, but it remembers the pathogen, which is why a later infection is dealt with much faster.
+[bio22-s2.0.5] Innate defences are found in all animals and in plants; adaptive immunity, with antibodies and lymphocytes (the white blood cells that run it), is found only in vertebrates.
+[bio22-s2.1.b] The best way to deal with a pathogen is to stop it getting in. Skin and the linings of the body's openings form physical barriers that block or trap microorganisms before they can cause infection.
+[bio22-s2.1.0] Skin is a tough outer layer of dead, keratin-filled cells (keratin is a tough protein) that pathogens can't easily cross.
+[bio22-s2.1.1] Oil (sebum) from skin glands makes the surface slightly acidic, which slows bacterial growth.
+[bio22-s2.1.2] Breaks in the skin are sealed by blood clotting, which stops blood loss and blocks pathogen entry.
+[bio22-s2.1.3] Mucous membranes line the breathing, digestive, urinary and reproductive tracts. Their sticky mucus traps microorganisms and dust, so these don't reach the cells beneath.
+[bio22-s2.1.4] In the trachea and bronchi (the main airways to the lungs), cilia (tiny hair-like projections) beat the mucus up to the throat, where it is swallowed or coughed out.
+[bio22-s2.1.5] Coughing and sneezing are reflexes (automatic responses) that expel irritants, so trapped microorganisms are blown out of the airways.
+[bio22-s2.2.b] Some barriers work by chemistry rather than by physically blocking entry. Acids and enzymes kill or inhibit microorganisms, and harmless resident microorganisms add a living defence of their own.
+[bio22-s2.2.0] Hydrochloric acid in the stomach, at about pH 2, kills most microorganisms swallowed with food.
+[bio22-s2.2.1] Lysozyme, an enzyme in tears, saliva and mucus, breaks down bacterial cell walls, so the bacteria burst or die.
+[bio22-s2.2.2] The acidic conditions in the vagina inhibit many pathogens.
+[bio22-s2.2.3] Harmless microorganisms living on the skin and in the gut and vagina, the normal microbiota, compete with pathogens for space and nutrients, which leaves pathogens less room to establish an infection. There is more on this in The microbiome.
+[bio22-s2.3.b] If a pathogen gets past the barriers, the innate response moves on to cells that destroy it. Phagocytes find the invader, swallow it and digest it in a process called phagocytosis.
+[bio22-s2.3.0] Phagocytes are white blood cells that engulf and digest pathogens, and the process is called phagocytosis.
+[bio22-s2.3.1] Neutrophils are the most numerous white blood cells and the first to arrive at an infection. Macrophages, formed from monocytes (another type of white blood cell), are larger and longer-lived.
+[bio22-s2.3.2] 1. The phagocyte is attracted to the pathogen by chemicals released by pathogens and damaged cells.
+[bio22-s2.3.3] 2. It binds the pathogen.
+[bio22-s2.3.4] 3. It surrounds the pathogen with extensions of its membrane and takes it into a vesicle (a small membrane-bound sac inside the cell).
+[bio22-s2.3.5] 4. Digestive enzymes are released into the vesicle and break the pathogen down.
+[bio22-s2.3.6] 5. The harmless products are absorbed or released.
+[bio22-s2.3.7] Diagram: the stages of phagocytosis in four sketches: a phagocyte approaching a bacterium; membrane extensions surrounding it; the bacterium enclosed in a vesicle; the bacterium being digested. Label phagocyte, nucleus, bacterium, vesicle and digestive enzymes.
+[bio22-s2.4.b] Inflammation and fever are whole-body or whole-area responses that bring more defences to an infection and make conditions harder for the pathogen. The signs you notice when you are ill are the immune system at work.
+[bio22-s2.4.0] Inflammation: damaged cells and mast cells (cells in tissues that release signals when damaged) release histamine and other chemicals, which widen local blood vessels and make capillaries leakier.
+[bio22-s2.4.1] More blood flow brings phagocytes and defence proteins to the site, and fluid leaks into the tissue, giving redness, heat, swelling and pain at the site.
+[bio22-s2.4.2] Pus is a mixture of dead phagocytes, pathogens and tissue fluid.
+[bio22-s2.4.3] Fever: chemicals released by white blood cells reset the temperature set point in the hypothalamus (the brain region that controls body temperature) upwards, raising body temperature. There is more on this in Homeostasis as a stimulus-response model.
+[bio22-s2.4.4] A higher temperature slows the reproduction of many pathogens and speeds up the reactions of the immune system, so fever helps the body fight infection.
+[bio22-s2.5.b] Besides phagocytes, the innate response uses proteins in the blood and released by infected cells. Plants have no adaptive immunity, so their innate defences have to do all the work.
+[bio22-s2.5.0] Complement, a group of blood proteins, coats pathogens so that phagocytes engulf them more easily, and it can punch holes in bacterial membranes, bursting them.
+[bio22-s2.5.1] Interferons are proteins released by virus-infected cells that make neighbouring cells resist virus replication, so the infection is slowed before it spreads.
+[bio22-s2.5.2] Natural killer cells also act in the innate response, in addition to phagocytes and defence proteins.
+[bio22-s2.5.3] Plants have innate defences only: physical barriers (cuticle, bark and cell walls), protective chemicals, and the death of infected cells to wall off a pathogen. There is more on this in Structures and systems for response.
+[bio22-s2.6.b] Adaptive immunity depends on recognising a particular pathogen. The molecules it recognises are called antigens, and the immune system's ability to tell them apart from the body's own molecules is what makes the response specific.
+[bio22-s2.6.0] An antigen is a molecule, usually a protein or polysaccharide on the surface of a pathogen or on a toxin it releases, that the immune system recognises as foreign.
+[bio22-s2.6.1] Antigens trigger a specific immune response, including antibody production.
+[bio22-s2.6.2] Each pathogen carries several antigens, so more than one kind of antibody can be made against it. The body's own cell markers are self antigens, which are normally tolerated, so the body doesn't attack itself.
+[bio22-s2.7.b] An antibody is the body's protein that matches one antigen. Its Y shape and the shape of its tips explain why each antibody works against only one antigen.
+[bio22-s2.7.0] An antibody, also called an immunoglobulin, is a Y-shaped protein made by plasma cells, which are derived from B lymphocytes. It binds to one specific antigen.
+[bio22-s2.7.1] An antibody has four polypeptide chains (chains of amino acids), two long heavy chains and two short light chains, held together by disulfide bonds.
+[bio22-s2.7.2] The tips of the two arms are the variable regions, which differ between antibodies and form two identical antigen-binding sites. The rest of the molecule is the constant region, which is the same in all antibodies of a class.
+[bio22-s2.7.3] Specificity: the shape of the antigen-binding site is complementary to the shape of one antigen, so each antibody binds only that antigen, like a key in a lock. There is more on this in Enzyme structure and specificity.
+[bio22-s2.7.4] Diagram: an antibody as a Y shape, labelled heavy chain, light chain, variable region, antigen-binding site (two), constant region and disulfide bonds, with an antigen fitting one binding site.
+[bio22-s2.8.b] Once antibodies have bound to an antigen, they can stop the pathogen in four different ways. The Y shape matters again here, because the two arms bind the antigen while the stem is recognised by other defences.
+[bio22-s2.8.0] Agglutination: because each antibody has two binding sites, antibodies link pathogens together into clumps that can't spread and are easily engulfed.
+[bio22-s2.8.1] Neutralisation: antibodies cover the parts of viruses that attach to cells, or bind to toxins (antitoxins), so that they can't act.
+[bio22-s2.8.2] Opsonisation: antibodies coat pathogens, marking them for phagocytes, which have receptors for the antibody's constant region.
+[bio22-s2.8.3] Complement activation: antibodies activate complement (the blood proteins of the innate response), which bursts bacterial cells.
+[bio22-s2.9.b] The body can't know in advance which pathogen it will meet, so it keeps a huge variety of B cells ready. Only the ones that fit the invader are chosen to multiply, a process called clonal selection.
+[bio22-s2.9.0] Lymphocytes are the white blood cells of adaptive immunity, and there are two main kinds.
+[bio22-s2.9.1] B lymphocytes (B cells) produce antibodies. This is the antibody-mediated or humoral response, acting on pathogens and toxins in blood and tissue fluid.
+[bio22-s2.9.2] T lymphocytes (T cells) act directly on infected body cells in the cell-mediated response (Higher Level).
+[bio22-s2.9.3] Clonal selection: the body has millions of different B cells, each with one type of antibody fixed in its membrane as a receptor, made before any infection.
+[bio22-s2.9.4] When a pathogen enters, only the B cells whose receptors fit its antigen bind to it. These are selected and, with chemical signals from helper T cells, divide rapidly by mitosis to form a clone of identical cells.
+[bio22-s2.9.5] The clone differentiates (becomes specialised) into plasma cells and memory B cells.
+[bio22-s2.9.6] Plasma cells secrete large amounts of the matching antibody into the blood, thousands of molecules per second, for a few days, and then die.
+[bio22-s2.9.7] Memory cells stay in the body for years, ready to respond to the same antigen.
+[bio22-s2.10.b] The first time you meet a pathogen, the response is slow. A second meeting is much faster, because memory cells are already there. This difference is the reason you rarely get the same infection twice.
+[bio22-s2.10.0] Primary response, on first exposure: there is a delay of several days, often about a week, while matching B cells are selected and cloned. Antibody levels rise slowly and stay fairly low.
+[bio22-s2.10.1] During the primary response the person may become ill, because the pathogen multiplies before enough antibodies are made.
+[bio22-s2.10.2] Secondary response, on later exposure to the same antigen: memory cells recognise it at once and quickly produce many plasma cells, so antibodies appear within a few days, reach a much higher level and last longer.
+[bio22-s2.10.3] The pathogen is usually destroyed before symptoms appear, so the person is immune. This is the basis of vaccination. There is more on this in Acquired immunity, prevention and treatment.
+[bio22-s2.10.4] Diagram: a graph of antibody concentration (y-axis) against time in days (x-axis), with a first exposure giving a small, slow primary peak and a second exposure giving a faster, much taller, longer secondary peak. Label both exposures, the lag phase, and the primary and secondary responses.
+[bio22-s2.11.b] Antibodies work in blood and tissue fluid, but some pathogens hide inside body cells. The cell-mediated response uses T cells to find and deal with those infected cells, and it begins with the cell showing that it is infected.
+[bio22-s2.11.0] The cell-mediated response is the part of adaptive immunity carried out by T lymphocytes acting directly on cells, not by antibodies.
+[bio22-s2.11.1] It is needed because antibodies can't reach pathogens inside body cells, such as viruses and some bacteria, for example the TB bacterium, which lives inside macrophages.
+[bio22-s2.11.2] It also destroys cancer cells and cells of transplanted organs, which is why transplant patients take drugs that suppress the immune system.
+[bio22-s2.11.3] Antigen presentation: an infected body cell displays fragments of the pathogen's antigens on its surface, held in its self-marker proteins (MHC proteins).
+[bio22-s2.11.4] Macrophages and other antigen-presenting cells that have engulfed a pathogen display its antigens in the same way.
+[bio22-s2.11.5] T cells can't recognise free antigens, so this presentation is how they detect infection.
+[bio22-s2.12.b] Helper T cells act as the managers of adaptive immunity. Once one is activated, it signals to the other cells that need to act, so it links the cell-mediated and antibody responses.
+[bio22-s2.12.0] Activation of helper T cells: a helper T cell whose receptor fits the displayed antigen binds to the antigen-presenting cell and is activated. It divides to form a clone of helper T cells, as B cells do.
+[bio22-s2.12.1] Helper T cells coordinate the response by releasing chemical signals called cytokines.
+[bio22-s2.12.2] Cytokines stimulate the matching killer T cells to divide.
+[bio22-s2.12.3] Cytokines also stimulate the matching B cells to divide into plasma cells and memory cells, because B cells need this help to respond fully.
+[bio22-s2.12.4] Cytokines also attract and activate macrophages, which increases phagocytosis at the infection.
+[bio22-s2.12.5] Helper T cells therefore link the cell-mediated and antibody responses.
+[bio22-s2.13.b] After helper T cells give the signal, the killer T cells destroy infected cells, the B cells add antibodies, and suppressor T cells end the response. Memory cells are left behind for next time.
+[bio22-s2.13.0] Killer T cells (cytotoxic T cells) of the clone bind to body cells displaying the antigen and kill them, destroying the pathogens inside before they can multiply. There is more on this in White blood cells.
+[bio22-s2.13.1] When the infection is cleared, suppressor T cells switch off the response by stopping the activity of killer T cells and B cells, so that healthy tissue isn't damaged.
+[bio22-s2.13.2] Memory T cells remain, so a second infection triggers a faster, larger cell-mediated response.
+[bio22-s2.13.3] Role of B lymphocytes: B cells act as antigen-presenting cells, taking in the antigen they bind and displaying it to helper T cells.
+[bio22-s2.13.4] The antibodies released by the plasma cells of B cells mark infected cells and pathogens for destruction.
+[bio22-s2.13.5] Diagram: draw a flow diagram in this order: pathogen; antigen presented by macrophage or infected cell; helper T cell activated and cloned; cytokines; killer T cells cloned, infected cells killed; B cells cloned into plasma cells, antibodies; memory T and B cells formed; suppressor T cells end response.
+[bio22-s2.14.b] The two systems differ in speed, specificity and memory, but they are not separate. A comparison of the two is a standard exam question, so learn each as a pair.
+[bio22-s2.14.0] Presence: innate immunity is present from birth, while adaptive immunity develops after exposure to a pathogen.
+[bio22-s2.14.1] Specificity: innate immunity is non-specific, giving the same response to every pathogen, while adaptive immunity is specific, with each response against one antigen.
+[bio22-s2.14.2] Memory: innate immunity gives the same response each time, while adaptive immunity has memory, so a second response is faster and stronger.
+[bio22-s2.14.3] Speed: innate immunity acts within minutes to hours, while adaptive immunity takes days on first exposure.
+[bio22-s2.14.4] Mechanisms: innate immunity uses barriers, phagocytes (neutrophils and macrophages), inflammation, fever, complement, interferons and natural killer cells; adaptive immunity uses B and T lymphocytes and antibodies.
+[bio22-s2.14.5] Distribution: innate defences are found in all animals and in plants, while adaptive immunity is found only in vertebrates.
+[bio22-s2.14.6] The two systems work together: macrophages of the innate system present antigens to start the adaptive response, and antibodies of the adaptive system make phagocytosis and complement more effective.

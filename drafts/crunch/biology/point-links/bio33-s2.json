@@ -1,0 +1,1688 @@
+{
+ "bio33-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.4.0",
+    "strength": "helpful",
+    "why": "solid medium: agar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.0.1",
+    "strength": "helpful",
+    "why": "colony definition",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.0.1",
+    "strength": "essential",
+    "why": "colony",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.0.3",
+    "strength": "helpful",
+    "why": "plate measuring methods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.4.2",
+    "strength": "helpful",
+    "why": "broth culture",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.9.0",
+    "strength": "helpful",
+    "why": "yeast cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.0.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.0.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.0",
+    "strength": "essential",
+    "why": "aseptic technique",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.0.1",
+    "strength": "helpful",
+    "why": "pathogen definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.0",
+    "strength": "helpful",
+    "why": "aseptic technique",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.2",
+    "strength": "helpful",
+    "why": "cultures as possible pathogens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.5.4",
+    "strength": "helpful",
+    "why": "bacterial endospores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.5",
+    "strength": "helpful",
+    "why": "sterilising equipment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.0",
+    "strength": "helpful",
+    "why": "aseptic technique",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.2.0",
+    "strength": "essential",
+    "why": "flaming the loop",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.0",
+    "strength": "helpful",
+    "why": "keeping airborne microbes out",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.0",
+    "strength": "helpful",
+    "why": "avoiding contamination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.2.3",
+    "strength": "helpful",
+    "why": "opening culture bottles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.0",
+    "strength": "helpful",
+    "why": "avoiding contamination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.7.6",
+    "strength": "helpful",
+    "why": "anaerobic bacteria",
+    "confidence": "low"
+   },
+   {
+    "id": "bio33-s2.0.7",
+    "strength": "helpful",
+    "why": "oxygen as growth factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.2",
+    "strength": "helpful",
+    "why": "pathogens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.2",
+    "strength": "helpful",
+    "why": "pathogens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.5",
+    "strength": "helpful",
+    "why": "autoclave conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.3.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.4.0",
+    "strength": "essential",
+    "why": "nutrient agar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.4.0",
+    "strength": "helpful",
+    "why": "agar types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.10.0",
+    "strength": "helpful",
+    "why": "Rhizopus mould",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.2",
+    "strength": "helpful",
+    "why": "pathogen risk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.4.0",
+    "strength": "helpful",
+    "why": "sterile agar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.5.0",
+    "strength": "essential",
+    "why": "melted agar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.2.4",
+    "strength": "helpful",
+    "why": "flaming bottle neck",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.2.5",
+    "strength": "helpful",
+    "why": "opening dish slightly",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.5.3",
+    "strength": "helpful",
+    "why": "pouring agar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.2.0",
+    "strength": "essential",
+    "why": "flamed inoculating loop",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.3.7",
+    "strength": "helpful",
+    "why": "sterile glass spreader",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.5.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.3.2",
+    "strength": "helpful",
+    "why": "upside-down incubation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "helpful",
+    "why": "control experiment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control for comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.5.1",
+    "strength": "essential",
+    "why": "replicates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "helpful",
+    "why": "dependent variable on y-axis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s2.6.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.21.0",
+    "strength": "helpful",
+    "why": "secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.1.4",
+    "strength": "helpful",
+    "why": "optimum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.3.b",
+    "strength": "helpful",
+    "why": "inoculating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.1",
+    "strength": "helpful",
+    "why": "same incubation time",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.0.3",
+    "strength": "essential",
+    "why": "colony measurement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.7.1",
+    "strength": "helpful",
+    "why": "temperature values tested",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.7.5",
+    "strength": "essential",
+    "why": "heat-treated cultures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.7.0",
+    "strength": "helpful",
+    "why": "temperature hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.8.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio33-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.8.1",
+    "strength": "helpful",
+    "why": "slow reactions when cold",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.8.1",
+    "strength": "helpful",
+    "why": "enzyme-controlled reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.5.6",
+    "strength": "essential",
+    "why": "endospores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.1.0",
+    "strength": "helpful",
+    "why": "buffer holds pH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.1",
+    "strength": "helpful",
+    "why": "same inoculum volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.1",
+    "strength": "helpful",
+    "why": "same incubation conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.0.3",
+    "strength": "helpful",
+    "why": "measuring growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.9.0",
+    "strength": "helpful",
+    "why": "pH hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.10.0",
+    "strength": "helpful",
+    "why": "compare with bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.8.3",
+    "strength": "helpful",
+    "why": "denaturation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.10.0",
+    "strength": "helpful",
+    "why": "low pH limits growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.10.3",
+    "strength": "helpful",
+    "why": "acid preserves food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.4.0",
+    "strength": "essential",
+    "why": "nutrient agar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.1",
+    "strength": "helpful",
+    "why": "same inoculum volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.1",
+    "strength": "helpful",
+    "why": "same incubation conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.0.3",
+    "strength": "helpful",
+    "why": "colony count, percentage cover",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.11.2",
+    "strength": "helpful",
+    "why": "plain agar no nutrients",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.11.0",
+    "strength": "helpful",
+    "why": "nutrient hypothesis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s2.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.16.1",
+    "strength": "helpful",
+    "why": "solute lowers growth by osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.12.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.0.7",
+    "strength": "helpful",
+    "why": "nutrients as growth factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.12.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.12.2",
+    "strength": "helpful",
+    "why": "amylase digests starch",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.12.4",
+    "strength": "essential",
+    "why": "starch digestion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "helpful",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.10.1",
+    "strength": "helpful",
+    "why": "airborne spores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.14.3",
+    "strength": "helpful",
+    "why": "sealed bags safety",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s2.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.1",
+    "strength": "helpful",
+    "why": "same conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.13.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.0.4",
+    "strength": "essential",
+    "why": "percentage cover grid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.13.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.14.3",
+    "strength": "helpful",
+    "why": "spore safety",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.13.0",
+    "strength": "helpful",
+    "why": "moisture hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.14.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.12.1",
+    "strength": "helpful",
+    "why": "extracellular digestion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.14.1",
+    "strength": "essential",
+    "why": "water needed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.8.6",
+    "strength": "helpful",
+    "why": "spores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.4.0",
+    "strength": "helpful",
+    "why": "nutrient agar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.1",
+    "strength": "helpful",
+    "why": "same inoculum volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.15.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.1",
+    "strength": "helpful",
+    "why": "same incubation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.15.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.0.3",
+    "strength": "helpful",
+    "why": "colony count or diameter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.15.0",
+    "strength": "helpful",
+    "why": "solute hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.16.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.16.1",
+    "strength": "essential",
+    "why": "water loss by osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.16.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.1.3",
+    "strength": "helpful",
+    "why": "cell wall stops bursting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.16.1",
+    "strength": "essential",
+    "why": "osmosis in cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.17.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio33-s2.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.17.0",
+    "strength": "helpful",
+    "why": "antibacterial chemicals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.17.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.14.2",
+    "strength": "helpful",
+    "why": "antibiotic targets bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.17.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.17.0",
+    "strength": "helpful",
+    "why": "antibacterial chemicals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.17.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "helpful",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "helpful",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.18.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.5.6",
+    "strength": "essential",
+    "why": "lawn",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.18.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.2.0",
+    "strength": "helpful",
+    "why": "flaming tools",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.18.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.4",
+    "strength": "helpful",
+    "why": "control disc",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.3.0",
+    "strength": "helpful",
+    "why": "taping plates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.18.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.3.2",
+    "strength": "helpful",
+    "why": "upside-down incubation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.18.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.17.4",
+    "strength": "helpful",
+    "why": "clear zone diameter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.18.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.18.0",
+    "strength": "helpful",
+    "why": "lawn plate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.18.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.19.0",
+    "strength": "helpful",
+    "why": "zone of inhibition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.19.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.18.5",
+    "strength": "helpful",
+    "why": "clear zone measured",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.18.2",
+    "strength": "essential",
+    "why": "water control disc",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.19.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.19.0",
+    "strength": "essential",
+    "why": "zone of inhibition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.18.6",
+    "strength": "essential",
+    "why": "yeast lawn antifungal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.19.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "diffusion down gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.19.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.19.4",
+    "strength": "essential",
+    "why": "diffusion of chemical",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.19.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.19.0",
+    "strength": "helpful",
+    "why": "zone of inhibition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.19.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.19.6",
+    "strength": "helpful",
+    "why": "resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.20.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.19.0",
+    "strength": "helpful",
+    "why": "clear zone diameter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.20.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.20.0",
+    "strength": "essential",
+    "why": "zone area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.20.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.20.0",
+    "strength": "helpful",
+    "why": "area calculation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.21.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.21.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.21.0",
+    "strength": "essential",
+    "why": "secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.21.1",
+    "strength": "helpful",
+    "why": "published findings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.22.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.8.2",
+    "strength": "helpful",
+    "why": "cold slows growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.8.0",
+    "strength": "helpful",
+    "why": "heat kills",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.22.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.5",
+    "strength": "helpful",
+    "why": "sterilisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.22.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.14.1",
+    "strength": "essential",
+    "why": "water needed by enzymes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.22.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.16.1",
+    "strength": "essential",
+    "why": "water loss by osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.22.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.10.3",
+    "strength": "essential",
+    "why": "low pH preserves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.23.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.23.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.7.5",
+    "strength": "helpful",
+    "why": "aerobic need oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.23.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.1.0",
+    "strength": "helpful",
+    "why": "aseptic technique",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.23.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.7.0",
+    "strength": "helpful",
+    "why": "optimum conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.24.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s2.24.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.3",
+    "strength": "essential",
+    "why": "uninoculated control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.24.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.1",
+    "strength": "helpful",
+    "why": "equal inoculum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.24.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.0.4",
+    "strength": "helpful",
+    "why": "percentage cover alternative",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.24.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.9.2",
+    "strength": "helpful",
+    "why": "pH meter and buffers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.24.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.2",
+    "strength": "helpful",
+    "why": "constant temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.24.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.18.1",
+    "strength": "helpful",
+    "why": "disc soaking",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s2.24.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s2.6.5",
+    "strength": "essential",
+    "why": "replicates and means",
+    "confidence": "high"
+   }
+  ]
+ }
+}

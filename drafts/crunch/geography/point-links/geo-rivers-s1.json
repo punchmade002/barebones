@@ -1,0 +1,1072 @@
+{
+"geo-rivers-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.2",
+"strength": "essential",
+"why": "tributary",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.2",
+"strength": "helpful",
+"why": "tributaries drain into river",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.4",
+"strength": "essential",
+"why": "drainage basin",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.1",
+"strength": "helpful",
+"why": "channel flowing to mouth",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s1.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.1",
+"strength": "helpful",
+"why": "estuary is at the mouth",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.1.b",
+"strength": "helpful",
+"why": "long profile concave slope",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s1.1.0",
+"strength": "helpful",
+"why": "steep upper gradient",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.1.b",
+"strength": "helpful",
+"why": "three courses of long profile",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.1.0",
+"strength": "helpful",
+"why": "gentler gradient",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s1.1.0",
+"strength": "helpful",
+"why": "gentle lower gradient",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.1.0",
+"strength": "essential",
+"why": "gradient",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.0",
+"strength": "helpful",
+"why": "energy from volume and gradient",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.2",
+"strength": "essential",
+"why": "tributaries joining",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.1",
+"strength": "essential",
+"why": "erosion uses energy",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.1.1",
+"strength": "helpful",
+"why": "upper course",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.1",
+"strength": "essential",
+"why": "erosion uses energy",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.2.3",
+"strength": "helpful",
+"why": "contrast with vertical erosion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.0",
+"strength": "helpful",
+"why": "source of the river",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.1",
+"strength": "helpful",
+"why": "load",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.1",
+"strength": "helpful",
+"why": "load",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.1",
+"strength": "helpful",
+"why": "load",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.3.3",
+"strength": "helpful",
+"why": "dissolved material from solution",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.1",
+"strength": "helpful",
+"why": "load carried by energy",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.4.4",
+"strength": "helpful",
+"why": "contrast with competence",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.1",
+"strength": "helpful",
+"why": "energy and velocity",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.4.5",
+"strength": "essential",
+"why": "capacity",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.5.0",
+"strength": "helpful",
+"why": "deposition",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.6.1": {
+"cost": 2,
+"needs": []
+},
+"geo-rivers-s1.6.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.6.3": {
+"cost": 2,
+"needs": []
+},
+"geo-rivers-s1.6.4": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s1.6.0",
+"strength": "essential",
+"why": "dendritic pattern",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.6.1",
+"strength": "essential",
+"why": "trellised pattern",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.6.2",
+"strength": "essential",
+"why": "radial pattern",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.6.4",
+"strength": "essential",
+"why": "centripetal pattern",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.3",
+"strength": "essential",
+"why": "vertical erosion",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.3.0",
+"strength": "helpful",
+"why": "hydraulic action",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.3.1",
+"strength": "helpful",
+"why": "abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.7.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.7.0",
+"strength": "helpful",
+"why": "downcutting makes narrow floor",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.7.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.7.3",
+"strength": "essential",
+"why": "interlocking spurs",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.7.2",
+"strength": "helpful",
+"why": "V-shaped valley",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.7.6": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.7.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.7.3",
+"strength": "helpful",
+"why": "interlocking spurs",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.8.0",
+"strength": "essential",
+"why": "hard rock over soft",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.3.0",
+"strength": "essential",
+"why": "hydraulic action",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.3.1",
+"strength": "essential",
+"why": "abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.8.1",
+"strength": "helpful",
+"why": "undercutting stage",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.3.1",
+"strength": "helpful",
+"why": "abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.8.1",
+"strength": "essential",
+"why": "overhang from undercutting",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.8.3",
+"strength": "essential",
+"why": "waterfall retreat",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s1.8.0",
+"strength": "helpful",
+"why": "resistant cap over weaker rock",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.8.6": {
+"cost": 2,
+"needs": []
+},
+"geo-rivers-s1.8.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.8.3",
+"strength": "helpful",
+"why": "overhang and retreat",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.3.0",
+"strength": "helpful",
+"why": "hydraulic action",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.3.1",
+"strength": "helpful",
+"why": "abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.9.1",
+"strength": "essential",
+"why": "steps of hard rock",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.3.1",
+"strength": "essential",
+"why": "abrasion drilling",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.3.0",
+"strength": "helpful",
+"why": "hydraulic action",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.1.2",
+"strength": "helpful",
+"why": "meanders",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.5.0",
+"strength": "helpful",
+"why": "deposition when velocity falls",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.10.0",
+"strength": "helpful",
+"why": "inside versus outside of bend",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s1.10.0",
+"strength": "essential",
+"why": "outer bank erosion",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.10.1",
+"strength": "essential",
+"why": "inner bank deposition",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.4",
+"strength": "essential",
+"why": "lateral erosion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.10.0",
+"strength": "essential",
+"why": "river cliff and fastest flow",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.10.1",
+"strength": "helpful",
+"why": "point bar",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.10.3",
+"strength": "essential",
+"why": "narrow neck between bends",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.11.0",
+"strength": "essential",
+"why": "cut-off meander",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.5.0",
+"strength": "helpful",
+"why": "deposition",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.11.1",
+"strength": "essential",
+"why": "oxbow lake",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.11.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.11.0",
+"strength": "helpful",
+"why": "cut-off sequence",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.2.4",
+"strength": "essential",
+"why": "lateral erosion",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.5.0",
+"strength": "helpful",
+"why": "deposition as velocity falls",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s1.12.1",
+"strength": "essential",
+"why": "alluvium deposition in floods",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.5.2",
+"strength": "essential",
+"why": "coarsest dropped first",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.12.3",
+"strength": "essential",
+"why": "levees",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.12.4",
+"strength": "helpful",
+"why": "levees",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.12.3",
+"strength": "helpful",
+"why": "levees",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.12.1",
+"strength": "helpful",
+"why": "alluvium",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.5.0",
+"strength": "essential",
+"why": "deposition when velocity drops",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.0.1",
+"strength": "helpful",
+"why": "mouth",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.13.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.6",
+"strength": "essential",
+"why": "distributary",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.13.0",
+"strength": "helpful",
+"why": "delta formation",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.5.2",
+"strength": "helpful",
+"why": "heavier material dropped first",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.5.2",
+"strength": "helpful",
+"why": "sorting by size",
+"confidence": "low"
+}
+]
+},
+"geo-rivers-s1.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.5.2",
+"strength": "helpful",
+"why": "finest carried furthest",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.14.3": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.6",
+"strength": "helpful",
+"why": "distributary",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.14.5": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.14.6": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.14.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.14.0",
+"strength": "helpful",
+"why": "topset, foreset, bottomset beds",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.0.6",
+"strength": "helpful",
+"why": "distributaries",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.0.7",
+"strength": "helpful",
+"why": "estuary",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.15.1": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.15.2": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.15.2",
+"strength": "essential",
+"why": "braided channels",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-rivers-s1.16.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s1.7.b",
+"strength": "helpful",
+"why": "V-valley",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.8.b",
+"strength": "helpful",
+"why": "waterfalls",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.9.b",
+"strength": "helpful",
+"why": "rapids and potholes",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s1.10.b",
+"strength": "essential",
+"why": "meander",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.11.b",
+"strength": "essential",
+"why": "oxbow lake",
+"confidence": "high"
+}
+]
+},
+"geo-rivers-s1.16.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s1.12.b",
+"strength": "helpful",
+"why": "floodplain and levee",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.13.b",
+"strength": "helpful",
+"why": "delta",
+"confidence": "high"
+},
+{
+"id": "geo-rivers-s1.15.b",
+"strength": "helpful",
+"why": "estuary",
+"confidence": "high"
+}
+]
+}
+}

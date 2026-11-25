@@ -1,0 +1,260 @@
+TARGET bio17-s3: Mutations
+[bio17-s3.0.b] DNA is copied every time a cell divides, and the copying is not perfect. A mutation is what is left when a change in the DNA is not put right, and it matters because it is the raw material for new traits.
+[bio17-s3.0.0] A mutation is a permanent change in the DNA: either in the base sequence of a gene, called a point or gene mutation, or in the structure of a chromosome, called a chromosomal mutation.
+[bio17-s3.0.1] A mutation that changes a gene produces a new allele (a different version of that gene).
+[bio17-s3.0.2] Mutations arise spontaneously, mainly as uncorrected errors in base pairing during DNA replication (the copying of DNA before a cell divides), when a wrong base is paired and nobody fixes it.
+[bio17-s3.0.3] Mutagens (agents that increase the rate of mutation) include ionising radiation (X-rays, gamma rays, radioactive substances) and ultraviolet light, which damage DNA directly.
+[bio17-s3.0.4] Other mutagens are chemicals such as those in tobacco smoke, and some viruses.
+[bio17-s3.0.5] Repair enzymes correct most damage, so only the errors that escape repair become permanent mutations. There is more on mutagens and cancer in Causes, prevention and treatment of cancer.
+[bio17-s3.1.b] Whether a mutation matters to a family depends on which cell it happens in. What it does to the organism depends on whether it changes a protein, and for evolution it matters because mutation creates new alleles.
+[bio17-s3.1.0] Body-cell (somatic) mutations affect only the individual and the cells descended from the mutated cell, so they are not inherited; they can lead to cancer.
+[bio17-s3.1.1] Mutations in cells that form gametes (germ-line mutations) can be passed to offspring, and are then present in every cell of the child because every cell grows from the fertilised egg.
+[bio17-s3.1.2] Most mutations are neutral, either because they fall in non-coding DNA (DNA that does not code for a protein) or because they are silent, meaning the protein is not changed.
+[bio17-s3.1.3] Many mutations are harmful, because they change or stop a protein.
+[bio17-s3.1.4] A few mutations are beneficial in a particular environment, for example lactase persistence (being able to digest milk sugar as an adult).
+[bio17-s3.1.5] Mutations giving antibiotic resistance help bacteria survive antibiotics, so they are beneficial to the bacteria in the presence of the drug.
+[bio17-s3.1.6] Mutation is the only source of new alleles, and so the ultimate source of variation for natural selection to act on. There is more on this in Variation.
+[bio17-s3.2.b] A point mutation is a tiny change at one spot in a gene. Because the genetic code is read in codons (groups of three bases, each coding for one amino acid), the effect depends on exactly what changes. The simplest case is a substitution.
+[bio17-s3.2.0] A point mutation is a change in the nucleotide sequence at one point in a gene, usually of one or a few base pairs. This includes small deletions and insertions, not only substitutions.
+[bio17-s3.2.1] It occurs when a wrong nucleotide pairs during replication and is not corrected, or when a nucleotide is added or missed out.
+[bio17-s3.2.2] At the next replication the change is copied into both strands, so it becomes permanent.
+[bio17-s3.2.3] In a substitution one base is replaced by another, so only one codon changes.
+[bio17-s3.2.4] Silent substitution: the new codon codes for the same amino acid, because the code is degenerate (several codons can code for the same amino acid), so the protein is unchanged.
+[bio17-s3.2.5] Missense substitution: the new codon codes for a different amino acid, which may or may not change the protein's shape and function.
+[bio17-s3.2.6] Nonsense substitution: the codon becomes a stop codon (a signal to end translation), so the polypeptide is cut short and usually does not work.
+[bio17-s3.3.b] Adding or losing bases is more dangerous than swapping one, because it can shift the way the whole rest of the gene is read.
+[bio17-s3.3.0] Insertion or deletion of one base, or of any number of bases that is not a multiple of three, is a frameshift: every codon after the change is read differently, because the code is read in threes without gaps from the start codon.
+[bio17-s3.3.1] After a frameshift many amino acids are wrong, and a stop codon often appears early or is lost, so the protein usually does not work.
+[bio17-s3.3.2] A frameshift near the start of a gene is more damaging than one near the end, because more of the protein is changed.
+[bio17-s3.3.3] Insertion or deletion of three bases adds or removes one amino acid without a frameshift, so the rest of the protein is normal, but even one missing amino acid can change the folding, as in cystic fibrosis.
+[bio17-s3.4.b] To model a mutation, write the mRNA in codons, apply the change, then read each new codon with the codon table. Start with the normal mRNA AUG UUU GGC AAA UAA, which codes for methionine, phenylalanine, glycine and lysine, then stops.
+[bio17-s3.4.0] Substitution, silent: GGC changed to GGA; still glycine, so the protein is unchanged.
+[bio17-s3.4.1] Substitution, missense: UUU changed to UCU; serine instead of phenylalanine.
+[bio17-s3.4.2] Substitution, nonsense: AAA changed to UAA, a stop codon; the chain ends after glycine.
+[bio17-s3.4.3] Insertion of G after AUG: AUG GUU UGG CAA AUA A… gives methionine, valine, tryptophan, glutamine, isoleucine…; every amino acid after the start is changed and the original stop codon is lost from the reading frame.
+[bio17-s3.4.4] Deletion of the first U of UUU: AUG UUG GCA AAU AA… gives methionine, leucine, alanine, asparagine…; this is a frameshift, because the groups of three have moved along.
+[bio17-s3.4.5] Deletion of the whole codon UUU: AUG GGC AAA UAA gives methionine, glycine, lysine; one amino acid is missing and the rest is unchanged, so there is no frameshift.
+[bio17-s3.4.6] Word analogy for revision: THE CAT ATE THE RAT; substitution THE CAT ATE THE HAT changes one word; insertion THE CXA TAT ETH ERA T gives nonsense words after the change; deletion THE ATA TET HER AT shifts every word after it.
+[bio17-s3.5.b] Sickle-cell anaemia shows how a change in a single base can alter a protein and so a whole disease. It is a substitution.
+[bio17-s3.5.0] Sickle-cell anaemia is a substitution in the gene for beta-globin, one of the polypeptides of haemoglobin, on chromosome 11.
+[bio17-s3.5.1] One base change alters the codon for the sixth amino acid from GAG to GUG in mRNA (CTC to CAC in the DNA strand being read), so valine replaces glutamic acid.
+[bio17-s3.5.2] The changed haemoglobin, haemoglobin S, molecules stick together into long fibres when oxygen is low, distorting red blood cells into a rigid sickle shape.
+[bio17-s3.5.3] Sickled cells block small blood vessels, causing pain and organ damage, and are destroyed quickly, causing anaemia.
+[bio17-s3.5.4] Sickle-cell is recessive: people with two copies have the disease; people with one copy (sickle-cell trait) are usually healthy and are more resistant to malaria.
+[bio17-s3.5.5] This is why the sickle-cell allele is common in parts of Africa where malaria is common, an example of natural selection.
+[bio17-s3.6.b] Cystic fibrosis is the example of a point mutation that is a small deletion. It shows that losing even one amino acid can ruin a protein.
+[bio17-s3.6.0] Cystic fibrosis is caused by mutations in the CFTR gene on chromosome 7, which codes for a chloride-ion channel protein in cell membranes.
+[bio17-s3.6.1] The most common cystic fibrosis mutation, F508del (delta F508), is a deletion of three bases, which removes one amino acid, phenylalanine, at position 508 of the protein.
+[bio17-s3.6.2] The faulty protein folds wrongly, is broken down by the cell and does not reach the membrane, giving thick, sticky mucus in the lungs and pancreas.
+[bio17-s3.6.3] Cystic fibrosis is recessive, and Ireland has the highest rate of cystic fibrosis in the world.
+[bio17-s3.6.4] Newer CFTR modulator drugs help the faulty protein fold and work, which shows how knowing the mutation leads to treatment.
+[bio17-s3.6.5] Cystic fibrosis is one of the conditions tested for in the newborn heel-prick screening offered to every baby in Ireland. There is more on this in Prenatal and postnatal care.
+[bio17-s3.7.b] A chromosomal mutation changes a large piece of a chromosome, so many genes are affected at once, unlike a point mutation. A letter model makes the four types easy to follow.
+[bio17-s3.7.0] A chromosomal mutation is a change in the structure of one or more chromosomes that affects many genes at once.
+[bio17-s3.7.1] It occurs when chromosomes break, for example from ionising radiation or chemicals, or from errors when chromosomes are copied or separated in meiosis (the cell division that makes gametes), and the broken pieces are lost or rejoin in the wrong place.
+[bio17-s3.7.2] Large changes can be seen under the light microscope in a karyotype (a picture of a cell's chromosomes).
+[bio17-s3.7.3] Model: write a chromosome as A B C • D E F G H, where the letters are genes or groups of genes and • is the centromere (the constricted point where the two halves of a chromosome are joined).
+[bio17-s3.7.4] A different, non-homologous chromosome (one that is not its partner in a pair) is written M N O • P Q R.
+[bio17-s3.8.b] Two of the four types change how many copies of a section there are, one by losing it and one by repeating it.
+[bio17-s3.8.0] Deletion: a section breaks off and is lost, so its genes are missing: A B C • D E F G H becomes A B C • D E H, with F and G lost.
+[bio17-s3.8.1] Deletion is usually harmful, because a whole set of genes is missing.
+[bio17-s3.8.2] Duplication: a section is copied twice, so its genes are repeated: A B C • D E F G H becomes A B C • D E F E F G H.
+[bio17-s3.8.3] Extra copies can upset the balance of gene products (the proteins the genes make); over evolutionary time, duplicated genes can mutate to take on new functions.
+[bio17-s3.9.b] The other two types move genes without necessarily losing any. An inversion turns a section around in the same chromosome; a translocation moves a section to another chromosome.
+[bio17-s3.9.0] Inversion: a section breaks out, turns through 180 degrees and rejoins, so its genes are in reverse order: A B C • D E F G H becomes A B C • D G F E H.
+[bio17-s3.9.1] No genes are lost, so an inversion often has no effect on the person, unless a break falls inside a gene; it can cause problems in meiosis, leading to gametes with missing or extra genes.
+[bio17-s3.9.2] Translocation: a section of one chromosome breaks off and joins a different, non-homologous chromosome; in a reciprocal translocation two chromosomes swap sections.
+[bio17-s3.9.3] In a reciprocal translocation, A B C • D E F G H and M N O • P Q R become A B C • D E F Q R and M N O • P G H.
+[bio17-s3.9.4] If no genes are lost the person may be healthy, but a break can join two genes into a new hybrid (fusion) gene, and carriers can produce gametes with unbalanced sets of genes.
+[bio17-s3.9.5] Diagram: each of the four mutations drawn as a chromosome with lettered bands and a centromere, before and after, with the translocation shown between two chromosomes of different sizes.
+[bio17-s3.10.b] Each structural type has a real disorder that illustrates it.
+[bio17-s3.10.0] Deletion: cri du chat syndrome (French for “cry of the cat”) is caused by deletion of part of the short arm of chromosome 5.
+[bio17-s3.10.1] Babies with cri du chat have a high-pitched cry like a cat's, a small head and low birth weight, and later intellectual disability and delayed development.
+[bio17-s3.10.2] Duplication: Charcot–Marie–Tooth disease type 1A is caused by duplication of a small section of chromosome 17 containing the PMP22 gene.
+[bio17-s3.10.3] The extra copy disrupts the insulating myelin sheath of nerves in the limbs, causing gradual weakness of the muscles of the feet and lower legs.
+[bio17-s3.10.4] Inversion: an inversion within the gene for blood-clotting factor VIII on the X chromosome breaks the gene and causes nearly half of all cases of severe haemophilia A.
+[bio17-s3.10.5] By contrast, a common inversion in chromosome 9 usually has no effect, because no genes are broken. There is more on haemophilia as a sex-linked trait in Sex-linked traits.
+[bio17-s3.11.b] The Philadelphia chromosome shows how swapping pieces between chromosomes can create a gene that causes cancer.
+[bio17-s3.11.0] The Philadelphia chromosome is found in chronic myeloid leukaemia (CML), a cancer of white blood cells.
+[bio17-s3.11.1] A reciprocal translocation between chromosomes 9 and 22, in a bone-marrow stem cell, joins part of the ABL gene from chromosome 9 to the BCR gene on chromosome 22.
+[bio17-s3.11.2] This forms a BCR-ABL fusion gene on a shortened chromosome 22, the Philadelphia chromosome.
+[bio17-s3.11.3] The fusion gene codes for an enzyme that is permanently switched on and drives the cell to divide uncontrollably, so it is an oncogene (a gene that causes cancer).
+[bio17-s3.11.4] CML is caused by a somatic mutation and is not inherited, because it happens in a body cell and not in a gamete-forming cell.
+[bio17-s3.11.5] The Philadelphia chromosome was discovered in Philadelphia, USA, in 1960 by Peter Nowell and David Hungerford; Janet Rowley showed in 1973 that it arises by translocation.
+[bio17-s3.11.6] The drug imatinib blocks the BCR-ABL enzyme. There is more on this in Causes, prevention and treatment of cancer.
+[bio17-s3.12.b] Some conditions come from having the wrong number of chromosomes, not from a change in structure. They are therefore not examples of deletion, duplication, inversion or translocation.
+[bio17-s3.12.0] Some conditions are caused by a change in the number of chromosomes, not in their structure, so they are not deletion, duplication, inversion or translocation.
+[bio17-s3.12.1] They usually result from non-disjunction: a homologous pair, or two copies of a chromosome, fails to separate during meiosis, so a gamete has one chromosome too many or too few.
+[bio17-s3.12.2] Down syndrome: in about 95% of cases there are three copies of chromosome 21 (trisomy 21), giving 47 chromosomes, after non-disjunction, usually during egg formation.
+[bio17-s3.12.3] The risk of Down syndrome rises with the mother's age.
+[bio17-s3.12.4] Features of Down syndrome include a characteristic facial appearance, some degree of intellectual disability and a higher risk of heart defects.
+[bio17-s3.12.5] A few per cent of Down syndrome cases are caused instead by a translocation that attaches extra chromosome-21 material to another chromosome; only those cases involve a structural change.
+[bio17-s3.13.b] Sex chromosomes can also be gained or lost, and a karyotype is the tool that shows number changes and large structural changes.
+[bio17-s3.13.0] Turner syndrome is a change in number with 45 chromosomes, X: one X and no second sex chromosome, female.
+[bio17-s3.13.1] Klinefelter syndrome is a change in number with 47 chromosomes, XXY, male.
+[bio17-s3.13.2] A karyotype is a photograph of a cell's chromosomes, taken during mitosis when they are condensed, and arranged in homologous pairs by size and shape.
+[bio17-s3.13.3] A karyotype shows changes in number (for example three chromosome 21s) and large structural changes (for example the shortened chromosome 22).
+[bio17-s3.14.b] The two kinds of mutation differ in size, in how they arise, and in how they are detected. Comparing them in pairs is the quickest way to answer a distinguish question.
+[bio17-s3.14.0] Scale: a point mutation changes one or a few bases in one gene; a chromosomal mutation changes the arrangement or number of copies of a large section with many genes.
+[bio17-s3.14.1] How they arise: point mutations mainly from mispairing during replication; chromosomal mutations from breakage and wrong rejoining of chromosomes, often during meiosis.
+[bio17-s3.14.2] Detection: point mutations need DNA sequencing (reading the order of bases), because they are too small to see; large chromosomal mutations can be seen in a karyotype under the light microscope.
+[bio17-s3.14.3] Examples: sickle-cell anaemia (substitution) and cystic fibrosis (three-base deletion); cri du chat (deletion), Charcot–Marie–Tooth type 1A (duplication), severe haemophilia A (inversion), and the Philadelphia chromosome in CML (translocation).
+
+CANDIDATES bio17-s2: Transcription and translation
+[bio17-s2.0.b] A cell can't send its DNA out to the ribosomes, so it makes a working copy of the gene instead. Three molecules are involved in making and carrying that copy: DNA, the enzyme RNA polymerase and mRNA.
+[bio17-s2.0.0] DNA holds the gene, the base sequence (the order of A, T, C and G) that codes for the protein.
+[bio17-s2.0.1] In transcription only one of the two strands of the gene is read, the template strand. The DNA is not used up or changed, and it stays in the nucleus, so the original instructions stay safe.
+[bio17-s2.0.2] RNA polymerase is the enzyme that carries out transcription. It binds to the DNA at the start of a gene, unwinds and separates the two strands there, and joins free RNA nucleotides into a strand complementary to the template.
+[bio17-s2.0.3] RNA polymerase moves along the gene until it reaches the end, building the new strand as it goes.
+[bio17-s2.0.4] mRNA (messenger RNA) is a single-stranded copy of one gene's code, a series of codons (groups of three bases), and it carries the code from the nucleus to a ribosome.
+[bio17-s2.0.5] mRNA is short-lived and is broken down after use, so a cell can stop making a protein by no longer making its mRNA.
+[bio17-s2.1.b] Translation (turning the mRNA code into a chain of amino acids) needs a delivery molecule for the amino acids and a workbench to assemble them on. These are tRNA and the ribosome, which is built from rRNA. Together with mRNA, these are the three types of RNA in protein synthesis.
+[bio17-s2.1.0] tRNA (transfer RNA) is a small RNA molecule in the cytoplasm that carries one specific amino acid to the ribosome.
+[bio17-s2.1.1] Each tRNA's anticodon (three bases) pairs with a matching codon on the mRNA, so tRNA is the molecule that “translates” codons into amino acids.
+[bio17-s2.1.2] tRNA brings amino acids to the ribosome; it does not make them.
+[bio17-s2.1.3] rRNA (ribosomal RNA) makes up the ribosome together with proteins. It holds the mRNA and tRNAs in position.
+[bio17-s2.1.4] The rRNA of the large subunit also catalyses the formation of peptide bonds (the bonds that join amino acids), so it acts as an enzyme.
+[bio17-s2.1.5] The ribosome is the site of translation, made of rRNA and protein in two subunits: a small subunit that binds the mRNA and a large subunit with room for two tRNAs at a time.
+[bio17-s2.1.6] The ribosome moves along the mRNA one codon at a time, reading the code in order.
+[bio17-s2.1.7] Ribosomes are free in the cytoplasm, making proteins used in the cell, or attached to the rough endoplasmic reticulum (a membrane network studded with ribosomes), making proteins for export or for membranes. There is more on this in Endoplasmic reticulum and Golgi apparatus.
+[bio17-s2.2.b] Transcription is the making of an mRNA copy of a gene, and it takes place in the nucleus. It works by complementary base pairing, where each base on the DNA attracts one particular partner base.
+[bio17-s2.2.0] 1. RNA polymerase attaches to the DNA at the start of the gene, unwinds the double helix there and separates the two strands by breaking the hydrogen bonds between the base pairs.
+[bio17-s2.2.1] 2. One strand, the template strand, is read.
+[bio17-s2.2.2] 2. Free RNA nucleotides pair with its exposed bases by complementary base pairing: A on DNA pairs with U on RNA, T with A, C with G, and G with C. RNA has U (uracil) where DNA has T.
+[bio17-s2.2.3] 3. RNA polymerase joins the RNA nucleotides into a strand of mRNA as it moves along the gene, so the mRNA grows one nucleotide at a time.
+[bio17-s2.2.4] 3. Behind it, the DNA strands re-join and rewind, so the DNA is left unchanged.
+[bio17-s2.2.5] 4. At the end of the gene, RNA polymerase detaches and the finished mRNA is released.
+[bio17-s2.2.6] 4. The mRNA leaves the nucleus through a nuclear pore (a gap in the nuclear envelope) and goes to a ribosome.
+[bio17-s2.2.7] Diagram: a section of DNA unwound by RNA polymerase, with the template strand and the mRNA strand growing alongside it; label DNA, template strand, RNA polymerase, free RNA nucleotides, mRNA, base pair A–U, direction of movement.
+[bio17-s2.3.b] A tRNA has to do two jobs: carry the right amino acid and recognise the right codon. Its folded shape has one end for each job.
+[bio17-s2.3.0] A tRNA is a single strand of about 80 RNA nucleotides that folds back on itself, so some regions lie side by side and can base-pair. Hydrogen bonds between complementary bases in some regions hold the folded molecule in shape.
+[bio17-s2.3.1] The folded molecule is a clover-leaf in two dimensions and folds further into an L shape in three dimensions.
+[bio17-s2.3.2] At one end is the amino-acid attachment site, where one specific amino acid is attached by a specific enzyme, using energy from ATP.
+[bio17-s2.3.3] At the opposite end is a loop with the anticodon: three unpaired bases that pair with a complementary codon on mRNA.
+[bio17-s2.3.4] The code is read in codons of three bases, so each tRNA has an anticodon of exactly three bases and matches one codon (three bases of mRNA).
+[bio17-s2.3.5] Each tRNA brings one amino acid. The attachment of a specific amino acid to each tRNA with a specific anticodon is what links each codon to its amino acid.
+[bio17-s2.3.6] The ribosome holds two tRNAs side by side on neighbouring codons, so the code is read three bases at a time without gaps or overlaps.
+[bio17-s2.3.7] Diagram: a clover-leaf tRNA, labelled: single RNA strand, regions of base pairing (hydrogen bonds), anticodon loop with three bases, amino-acid attachment site, amino acid.
+[bio17-s2.4.b] Translation is the making of a polypeptide (a chain of amino acids) from the code in mRNA, and it takes place at ribosomes in the cytoplasm. It begins by assembling the ribosome on the mRNA and joining the first two amino acids.
+[bio17-s2.4.0] 1. Start: the small ribosomal subunit attaches to the mRNA and moves along it to the start codon, AUG.
+[bio17-s2.4.1] 1. A tRNA with the anticodon UAC, carrying methionine, pairs with the start codon, and the large subunit then joins.
+[bio17-s2.4.2] 2. A second tRNA, whose anticodon is complementary to the next codon, arrives carrying its amino acid and pairs with that codon in the second position in the ribosome.
+[bio17-s2.4.3] 3. A peptide bond forms between the two amino acids, a condensation reaction that releases water. It is catalysed by the rRNA of the ribosome.
+[bio17-s2.4.4] 3. The first tRNA's amino acid is now attached to the second amino acid.
+[bio17-s2.5.b] Once two amino acids are joined, the same cycle repeats along the mRNA until a stop signal is reached. Cells also run many ribosomes at once to make protein quickly.
+[bio17-s2.5.0] 4. The ribosome moves along the mRNA by one codon, three bases. The first tRNA, now without its amino acid, is released into the cytoplasm, where it can pick up another of the same amino acid.
+[bio17-s2.5.1] 4. A new tRNA pairs with the codon now in the empty position, because the move has exposed the next codon.
+[bio17-s2.5.2] 5. Steps 2 to 4 repeat, the chain growing by one amino acid each time, in the order set by the codons.
+[bio17-s2.5.3] 6. End: when a stop codon (UAA, UAG or UGA) is reached, no tRNA matches it, and a protein release factor binds instead.
+[bio17-s2.5.4] 6. The polypeptide is released, and the ribosome's subunits separate from the mRNA.
+[bio17-s2.5.5] Many ribosomes can translate the same mRNA at once, one behind the other, forming a polysome, so many copies of the protein are made quickly.
+[bio17-s2.5.6] Translation also needs energy, both to attach amino acids to their tRNAs (from ATP) and to move the ribosome along the mRNA.
+[bio17-s2.5.7] Diagram: a ribosome on an mRNA strand, with two tRNAs paired to neighbouring codons, a growing polypeptide on one, a peptide bond forming and a released tRNA leaving; label mRNA, codon, anticodon, tRNA, amino acid, peptide bond, ribosome (large and small subunits), polypeptide, direction of movement.
+[bio17-s2.6.b] A newly made polypeptide is only a chain. It becomes a working protein when it folds into a particular three-dimensional shape, and the shape is set by its amino-acid sequence.
+[bio17-s2.6.0] The sequence of amino acids (the primary structure) determines how the chain folds.
+[bio17-s2.6.1] Bonds form between amino acids in different parts of the chain, such as hydrogen bonds and, in some proteins, sulphur bridges, giving the protein its particular three-dimensional shape.
+[bio17-s2.6.2] Some proteins are made of more than one polypeptide, for example haemoglobin, which has four.
+[bio17-s2.6.3] The shape determines the function, for example the active site of an enzyme or the binding site of an antibody or receptor. There is more on this in Genes, proteins and traits.
+[bio17-s2.6.4] A change in the amino-acid sequence can change the shape and stop the protein working, because the bonds that fold the chain form in different places.
+[bio17-s2.6.5] Proteins made on the rough endoplasmic reticulum are folded and modified there and in the Golgi apparatus, then packaged into vesicles (small membrane sacs) for export, such as digestive enzymes and insulin.
+[bio17-s2.6.6] In prokaryotes, which have no nucleus, so no nuclear envelope separates the steps, transcription and translation both take place in the cytoplasm, and ribosomes can begin translating an mRNA while it is still being transcribed.
+[bio17-s2.7.b] Both processes copy DNA using complementary base pairing, so they are easy to confuse. They differ in what is copied, which enzymes do it, and what happens to the product.
+[bio17-s2.7.0] Product: replication makes a complete copy of all the DNA, giving two DNA molecules; transcription makes an RNA copy of one gene, the mRNA.
+[bio17-s2.7.1] Strands used: replication uses both strands as templates, so both new molecules are complete; transcription uses only one strand of the gene.
+[bio17-s2.7.2] Enzymes: DNA helicase and DNA polymerase in replication; RNA polymerase in transcription, so the enzyme names tell the two processes apart.
+[bio17-s2.7.3] Nucleotides and pairing: DNA nucleotides contain deoxyribose (a sugar) and pair A with T; RNA nucleotides contain ribose, and A on DNA pairs with U.
+[bio17-s2.7.4] When: replication happens once per cycle, in S phase; transcription happens throughout the cell's life, for whichever genes are needed, many times.
+[bio17-s2.7.5] Fate of the product: new DNA stays in the nucleus, but mRNA leaves for the cytoplasm and is broken down after use.
+[bio17-s2.8.b] Exam questions often give a DNA sequence and ask for the mRNA, tRNA anticodons and amino acids. You can do this with a fixed five-step method.
+[bio17-s2.8.0] 1. Write the mRNA complementary to the template strand (A → U, T → A, C → G, G → C).
+[bio17-s2.8.1] 2. Divide the mRNA into codons from the start codon, because the ribosome reads three bases at a time.
+[bio17-s2.8.2] 3. Write the tRNA anticodon complementary to each codon, because the anticodon pairs with the codon.
+[bio17-s2.8.3] 4. Use the codon table given to find the amino acids.
+[bio17-s2.8.4] 5. Stop at a stop codon, because no amino acid is added there.
+[bio17-s2.9.b] Here is the method applied to one short template strand, showing each product in turn.
+[bio17-s2.9.0] Template DNA TAC AAA CCG ATT gives mRNA AUG UUU GGC UAA, by pairing T with A, A with U and C with G.
+[bio17-s2.9.1] The anticodons are UAC, AAA and CCG, with none for the stop codon UAA, because no tRNA matches a stop codon.
+[bio17-s2.9.2] The polypeptide is methionine, phenylalanine and glycine, and then the chain stops.
+[bio17-s2.9.3] Three codons code for amino acids, so the worked example gives three amino acids joined by two peptide bonds.
+[bio17-s2.10.b] You can also model the two processes with paper and cards. A model makes the order of events clear, but it leaves out some of the real chemistry.
+[bio17-s2.10.0] Paper strips for DNA, in a “nucleus” area, are copied onto mRNA strips that are carried to a “ribosome” area.
+[bio17-s2.10.1] Cards for tRNA have a three-base anticodon on one side and an amino acid on the other, so each card shows what a real tRNA does.
+[bio17-s2.10.2] In the role-play, students match anticodons to codons in order and link the amino acids with clips to represent peptide bonds.
+[bio17-s2.10.3] Limitations of the role-play: it is slow and flat, and ignores the enzymes, energy and folding, so it shows the order of events but not how they happen chemically.
+
+CANDIDATES bio10-s3: The genetic code
+[bio10-s3.0.b] A gene is a stretch of DNA, but a cell needs proteins, which are chains of amino acids. The genetic code is the translation key between the two, and the cell's machinery reads it to build each protein.
+[bio10-s3.0.0] The genetic code is the set of rules by which the sequence of bases in DNA, copied into mRNA (messenger RNA, the working copy of a gene), is converted into the sequence of amino acids in a protein.
+[bio10-s3.0.1] The code is read in groups of three bases. A codon is a sequence of three bases on mRNA that codes for one amino acid or for a stop signal. The matching three bases on DNA are called a triplet here, although some textbooks also call these codons.
+[bio10-s3.0.2] Why three: there are 4 bases but about 20 amino acids. Reading one base at a time gives only 4 combinations, and two at a time gives only 16 (4 × 4), which is not enough.
+[bio10-s3.0.3] Three bases at a time gives 64 combinations (4 × 4 × 4), which is more than enough to code for about 20 amino acids.
+[bio10-s3.0.4] Of the 64 codons, 61 code for amino acids and 3 are stop codons, which code for no amino acid and end the message.
+[bio10-s3.0.5] The code is read by cellular machinery: the mRNA is read at a ribosome (the cell's protein-making structure) one codon at a time. Transfer RNA molecules bring the matching amino acids, which are joined in order. There is more on this in DNA Replication, Protein Synthesis and Mutations.
+[bio10-s3.1.b] The code has a set of features that exams ask you to name and explain. Each one tells you something about how a cell reads a gene, or what happens when a base changes.
+[bio10-s3.1.0] Start codon: AUG is the usual signal to start reading a gene's message. It sets where the groups of three begin, and it also codes for the amino acid methionine, so most new proteins begin with methionine.
+[bio10-s3.1.1] Stop codons: UAA, UAG and UGA code for no amino acid. They signal the end of the protein, and the finished chain is released.
+[bio10-s3.1.2] Non-overlapping and without gaps: the code is read three bases at a time from the start codon, each base belonging to only one codon, with no separators (like commas) between codons. Adding or removing a single base therefore shifts every codon after it, a frameshift mutation.
+[bio10-s3.1.3] Degenerate, or redundant: most amino acids have more than one codon, because 61 codons code for only 20 amino acids. Glycine, for example, is coded by GGU, GGC, GGA and GGG.
+[bio10-s3.1.4] Often only the third base differs between codons for the same amino acid, so some changes in a base still give the same amino acid and the protein is unchanged.
+[bio10-s3.1.5] Specific, or unambiguous: each codon codes for only one amino acid. Degenerate means one amino acid can have several codons, but never the reverse, so the message is read the same way every time.
+[bio10-s3.1.6] Universal: almost all living things, from bacteria to plants and humans, use the same code, with a few minor exceptions. In mitochondria, for example, UGA codes for tryptophan in humans instead of acting as a stop signal.
+[bio10-s3.1.7] The shared code is evidence that all life shares a common ancestor. It also allows a human gene to be put into bacteria and read correctly, so that genetically modified bacteria make human insulin. There is more on this in Genetic Engineering.
+[bio10-s3.2.b] A codon on mRNA does nothing by itself. Transfer RNA (tRNA) molecules act as adaptors, each reading one codon and delivering the amino acid it codes for.
+[bio10-s3.2.0] An anticodon is a sequence of three bases on a transfer RNA (tRNA) molecule that is complementary to an mRNA codon. Codons are on mRNA and anticodons are on tRNA, never on DNA.
+[bio10-s3.2.1] Each tRNA carries one specific amino acid, matching its anticodon. The anticodon pairs with the codon by complementary base pairing (A–U and C–G), so the right amino acid is brought for each codon.
+[bio10-s3.2.2] For example, the codon AUG pairs with the anticodon UAC, and that tRNA carries methionine.
+[bio10-s3.2.3] No tRNA has an anticodon for a stop codon, so when a stop codon is reached no amino acid is added and the chain ends.
+[bio10-s3.2.4] Diagram: a short strip of mRNA divided into codons, for example AUG | CCU | AAA, with tRNA below, each anticodon paired to a codon and its amino acid attached at the other end. Draw tRNA simply, as a block or T-shape. Labels: codon, anticodon, mRNA, tRNA, amino acid.
+[bio10-s3.3.b] Exam questions give you a DNA or mRNA sequence and a codon table, and ask for the mRNA, the amino acids and the anticodons. Follow the same steps every time and the answer falls out.
+[bio10-s3.3.0] Method: 1. Write the mRNA complementary to the DNA strand being read (A → U, T → A, C → G, G → C).
+[bio10-s3.3.1] 2. Split the mRNA into codons, starting from the start codon.
+[bio10-s3.3.2] 3. Find each amino acid in the codon table given in the question.
+[bio10-s3.3.3] 4. Stop at a stop codon, because no amino acid is added after it. 5. The anticodons are complementary to the codons.
+[bio10-s3.3.4] Only AUG and the three stop codons need to be memorised; the other codons come from the codon table given in the question.
+[bio10-s3.3.5] Worked example: the DNA strand being read is TAC GGA TTT ACT. The mRNA is AUG CCU AAA UGA, which codes for methionine, proline and lysine, then stops. The tRNA anticodons are UAC, GGA and UUU, with none for UGA.
+[bio10-s3.3.6] Notice the anticodons have the same sequence as the DNA strand being read, with U in place of T.
+[bio10-s3.3.7] Counting: each amino acid needs one codon of three bases, so a protein of 100 amino acids needs at least 300 bases of coding mRNA, plus three for the stop codon, giving 303. A stretch of 90 coding bases codes for 30 amino acids.
+
+CANDIDATES bio11-s1: Chromosome structure and genes
+[bio11-s1.0.b] A chromosome is DNA together with protein, and it carries genes in a fixed linear order. Knowing what it is made of, how it looks in a resting and a dividing cell, and how big it is explains why cells need to pack their DNA.
+[bio11-s1.0.0] A chromosome is a single, very long molecule of DNA together with proteins. It is found in the nucleus of a eukaryotic cell (a cell with a nucleus) and carries many genes in a fixed linear order along its length.
+[bio11-s1.0.1] Chromatin is the name for the DNA and protein material of the chromosomes when the cell is not dividing. The chromosomes are then long, thin and uncoiled, spread through the nucleus, so they cannot be seen as separate threads.
+[bio11-s1.0.2] Before a cell divides, the chromatin coils and folds up tightly (condenses), so each chromosome becomes short and thick and is visible under the light microscope when stained. In other words, chromatin and chromosomes are the same material in two states.
+[bio11-s1.0.3] Human body cells are diploid (two sets of chromosomes), with 46 chromosomes in 23 pairs: 22 pairs of autosomes (chromosomes that are not sex chromosomes) and one pair of sex chromosomes, XX in females and XY in males. There is more on this in Sex determination.
+[bio11-s1.0.4] Homologous chromosomes are the two chromosomes of a pair. They are the same length, have the centromere (the narrowed region of the chromosome) in the same position and carry the same genes at the same positions, with one chromosome of each pair coming from each parent.
+[bio11-s1.0.5] The chromosome number is fixed for a species (46 in humans); a different number does not mean a more complex organism, so you cannot judge complexity by counting chromosomes.
+[bio11-s1.0.6] The human genome (all the DNA in one set of 23 chromosomes) is about 3 billion base pairs. The DNA in one human body cell, stretched out, would be about 2 m long, yet it fits in a nucleus a few micrometres across, which is why DNA must be packed.
+[bio11-s1.0.7] Prokaryotes (bacteria) differ: a bacterial cell has one circular chromosome in the cytoplasm, not wound around histones (the packing proteins of eukaryotes), plus plasmids (small extra rings of DNA).
+[bio11-s1.1.b] Histones are the proteins that pack eukaryotic DNA into a small space. Without them, about 2 m of DNA per cell could not fit in the nucleus or be moved safely when the cell divides.
+[bio11-s1.1.0] Histones are small proteins around which the DNA of a eukaryotic chromosome is wound. They are positively charged, while the phosphate groups of the DNA backbone are negatively charged, so DNA binds tightly to them.
+[bio11-s1.1.1] The DNA wraps nearly twice around a core of eight histone proteins, forming a bead called a nucleosome. Nucleosomes are joined by short stretches of linker DNA, like beads on a string.
+[bio11-s1.1.2] The string of nucleosomes coils and loops further, and before division it condenses into the visible chromosome.
+[bio11-s1.1.3] Histones do three jobs: they pack a very long DNA molecule into a small nucleus, they protect the DNA and keep it untangled during division, and they help control which genes can be read.
+[bio11-s1.1.4] DNA wound tightly around histones cannot be reached by the enzymes that read genes, so those genes are switched off; loosely packed regions are active, which means their genes can be read.
+[bio11-s1.1.5] Chemical changes to histones are one of the epigenetic mechanisms (ways of switching genes on or off without changing the DNA sequence). There is more on this in Genetic and epigenetic mechanisms.
+[bio11-s1.1.6] Diagram: DNA double helix wound around histone cores to form nucleosomes, then the coiled chromatin fibre, then a condensed chromosome; label DNA, histone, nucleosome, chromatin and chromosome.
+[bio11-s1.2.b] Before a cell divides it copies its DNA, so each chromosome ends up as two joined copies. Chromatids and the centromere are the names for those copies and for the point that holds them together.
+[bio11-s1.2.0] Before a cell divides, each chromosome's DNA is copied, a process called replication. The two identical copies stay joined together; each copy is a chromatid. There is more on this in DNA replication and mitosis in the cell cycle.
+[bio11-s1.2.1] A replicated chromosome therefore consists of two identical sister chromatids, each containing one complete DNA molecule with the same genes and the same alleles (versions of a gene).
+[bio11-s1.2.2] The centromere is the constricted (narrowed) region of a chromosome where the two sister chromatids are held together. Spindle fibres (protein threads that move chromosomes in division) attach at the centromere and pull the chromatids apart to opposite poles of the cell.
+[bio11-s1.2.3] Once separated, each chromatid is a chromosome in its own right.
+[bio11-s1.2.4] The centromere is in a fixed position for each chromosome, dividing it into two arms of equal or different length, so it is not always in the middle. Its position, together with length and banding pattern, is used to identify each chromosome.
+[bio11-s1.2.5] Before replication, a chromosome is one DNA molecule and one chromatid. After replication it is still one chromosome but has two chromatids, the X shape usually drawn; the two arms of the X are chromatids, not separate chromosomes.
+[bio11-s1.2.6] Homologous chromosomes (a pair, one from each parent) may carry different alleles, whereas sister chromatids are identical copies of each other, so they always carry identical alleles.
+[bio11-s1.2.7] Diagram: an unreplicated chromosome (single rod) beside a replicated chromosome (X shape); label chromatid, sister chromatids, centromere, arm, and a gene locus marked as a band at the same position on both chromatids. Optionally add a homologous pair of replicated chromosomes, same locus marked on each, labelled homologous chromosomes.
+[bio11-s1.3.b] A gene is the unit of heredity, the piece of information that is passed on from cell to cell and parent to offspring. Genes sit at fixed places on chromosomes and, through the proteins they code for, control traits.
+[bio11-s1.3.0] A gene is a section of DNA on a chromosome that codes for a protein. This means a chromosome is not simply a string of genes: genes are sections of its DNA.
+[bio11-s1.3.1] Each gene has a fixed position on a particular chromosome, called its locus (plural loci). The locus of a gene is the same in every member of a species.
+[bio11-s1.3.2] A gene carries the information to make one protein, although some genes code instead for RNA molecules that are used directly, such as ribosomal RNA and transfer RNA. So not every gene codes for a protein.
+[bio11-s1.3.3] Through the protein it codes for, a gene controls a trait (a characteristic of the organism). The gene is copied and passed to daughter cells in division and to offspring in gametes (sex cells).
+[bio11-s1.3.4] Humans have about 20,000 protein-coding genes spread across the 23 kinds of chromosome; each chromosome carries hundreds to thousands of genes.
+[bio11-s1.3.5] Because homologous chromosomes carry the same genes, a body cell has two copies of each autosomal gene. These may be the same or different versions, called alleles. There is more on this in Key concepts of information transfer.
+[bio11-s1.4.b] Most of the DNA in a human cell does not code for protein. Separating the small coding part from the large non-coding part shows that a chromosome is far more than a list of protein recipes.
+[bio11-s1.4.0] Coding DNA is DNA whose base sequence is used to make a protein: the protein-coding parts of genes. Only about 1–2% of human DNA is coding DNA.
+[bio11-s1.4.1] Non-coding DNA is all DNA that does not code for protein, about 98% of the human genome. It includes several kinds of sequence, listed in the next points.
+[bio11-s1.4.2] Regulatory sequences beside genes act as switches, controlling when, where and how much a gene is expressed (used to make its product).
+[bio11-s1.4.3] Genes for functional RNA (rRNA and tRNA) are non-coding DNA, as are introns, the non-coding sections within genes, which are copied into mRNA but removed before it is used to make protein.
+[bio11-s1.4.4] Repeated sequences, such as the DNA at centromeres and at the ends of chromosomes (telomeres), protect the chromosome and help it divide correctly. Some non-coding DNA has a function that is still unknown.
+[bio11-s1.4.5] Non-coding DNA was once called 'junk DNA', but much of it is now known to have functions, especially in regulating genes. Changes in regulatory DNA can change a trait without changing any protein.
+[bio11-s1.4.6] Repeated non-coding sequences vary greatly in length between people, which is why they are used in DNA profiling (identifying individuals from their DNA).
+[bio11-s1.4.7] Diagram: a stretch of a chromosome's DNA drawn as a line, with two genes shown as boxes (each with a regulatory region at one end and coding sections separated by an intron), and the DNA between genes labelled non-coding; label gene, coding DNA, non-coding DNA, regulatory sequence and intron.

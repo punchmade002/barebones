@@ -1,0 +1,329 @@
+{
+ "bio7-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.0",
+    "strength": "helpful",
+    "why": "membrane-bound organelles defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.0",
+    "strength": "helpful",
+    "why": "cytoplasm defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.4",
+    "strength": "helpful",
+    "why": "shared cell features",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio7-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.3.0",
+    "strength": "helpful",
+    "why": "respiration releases energy as ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.1.1",
+    "strength": "helpful",
+    "why": "shared features across cells",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio7-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.0.0",
+    "strength": "helpful",
+    "why": "prokaryotes lack nucleus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.2.1",
+    "strength": "helpful",
+    "why": "chromosome shape",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio7-s1.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.2.1",
+    "strength": "helpful",
+    "why": "circular main chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.2.3",
+    "strength": "essential",
+    "why": "what plasmids are",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.1",
+    "strength": "helpful",
+    "why": "membrane-bound organelles in eukaryotes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.3.0",
+    "strength": "helpful",
+    "why": "respiration releases energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.3.3",
+    "strength": "essential",
+    "why": "70S ribosome size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.1.1",
+    "strength": "helpful",
+    "why": "ribosomes in both cell types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.3.3",
+    "strength": "essential",
+    "why": "70S versus 80S ribosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.2",
+    "strength": "helpful",
+    "why": "micrometre unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.4.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio7-s1.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.7.4",
+    "strength": "helpful",
+    "why": "binary fission as asexual reproduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.4.0",
+    "strength": "helpful",
+    "why": "bacterial size 1-10 \u00b5m",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.4.1",
+    "strength": "helpful",
+    "why": "plant cell wall",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio7-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.2.0",
+    "strength": "helpful",
+    "why": "nucleoid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.2.0",
+    "strength": "essential",
+    "why": "nuclear envelope and pores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.2.0",
+    "strength": "helpful",
+    "why": "nucleoid and nuclear envelope",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio7-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.1",
+    "strength": "essential",
+    "why": "eukaryotes enclose DNA in nucleus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.4.0",
+    "strength": "essential",
+    "why": "cell size ranges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.3.0",
+    "strength": "essential",
+    "why": "only eukaryotes have organelles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s1.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.4.1",
+    "strength": "essential",
+    "why": "cell wall differences",
+    "confidence": "high"
+   }
+  ]
+ }
+}

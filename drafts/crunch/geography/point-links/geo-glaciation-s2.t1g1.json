@@ -1,0 +1,568 @@
+{
+ "geo-glaciation-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.0.0",
+    "strength": "essential",
+    "why": "endogenetic forces",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-glaciation-s2.0.1",
+    "strength": "essential",
+    "why": "exogenetic forces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.1.0",
+    "strength": "helpful",
+    "why": "isostasy as crust-mantle balance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.1.0",
+    "strength": "essential",
+    "why": "uses isostasy balance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.1.1",
+    "strength": "helpful",
+    "why": "crust floating on mantle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.2.0",
+    "strength": "essential",
+    "why": "load removal reverses depression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.2.1",
+    "strength": "essential",
+    "why": "rebound after melting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.2.1",
+    "strength": "essential",
+    "why": "rebound still continuing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.1.2",
+    "strength": "helpful",
+    "why": "removing load raises crust",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.1.2",
+    "strength": "helpful",
+    "why": "adding load lowers crust",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.1.2",
+    "strength": "helpful",
+    "why": "isostatic change definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.4.1",
+    "strength": "essential",
+    "why": "eustatic worldwide sea level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.4.2",
+    "strength": "helpful",
+    "why": "reverse of sea level fall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.4.0",
+    "strength": "essential",
+    "why": "isostatic change",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-glaciation-s2.4.1",
+    "strength": "essential",
+    "why": "eustatic change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.5.b",
+    "strength": "helpful",
+    "why": "base level definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.0.0",
+    "strength": "essential",
+    "why": "uplift as endogenetic force",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-glaciation-s2.3.0",
+    "strength": "helpful",
+    "why": "denudation wearing land down",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.4.4",
+    "strength": "helpful",
+    "why": "relative land and sea change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.0.2",
+    "strength": "essential",
+    "why": "balance of endogenetic and exogenetic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.4.4",
+    "strength": "helpful",
+    "why": "land rising relative to sea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.2.1",
+    "strength": "essential",
+    "why": "isostatic uplift is rebound",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-glaciation-s2.6.b",
+    "strength": "helpful",
+    "why": "emergent coast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.6.0",
+    "strength": "helpful",
+    "why": "raised beach with cliffs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-sea-s1.7.0",
+    "strength": "helpful",
+    "why": "wave-cut notch formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-sea-s1.8.2",
+    "strength": "helpful",
+    "why": "sea stack formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-sea-s1.11.3",
+    "strength": "helpful",
+    "why": "beach of shingle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-sea-s1.7.3",
+    "strength": "helpful",
+    "why": "wave-cut platform",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.6.0",
+    "strength": "helpful",
+    "why": "raised beach",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.4.4",
+    "strength": "helpful",
+    "why": "sea rising relative to land",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.7.2",
+    "strength": "helpful",
+    "why": "V-shaped river valley",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-glaciation-s2.7.b",
+    "strength": "helpful",
+    "why": "submergent coast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.7.0",
+    "strength": "essential",
+    "why": "ria definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.7.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.9.3",
+    "strength": "essential",
+    "why": "glacial trough U-shaped valley",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.7.2",
+    "strength": "essential",
+    "why": "fjord definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.17.1",
+    "strength": "helpful",
+    "why": "drumlin shape and formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.7.4",
+    "strength": "essential",
+    "why": "drowned drumlins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-glaciation-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.2.1",
+    "strength": "essential",
+    "why": "isostatic rebound",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-glaciation-s2.6.0",
+    "strength": "helpful",
+    "why": "raised beaches",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.7.1",
+    "strength": "helpful",
+    "why": "ria examples",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-glaciation-s2.7.0",
+    "strength": "helpful",
+    "why": "ria definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.5.0",
+    "strength": "essential",
+    "why": "base level fall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.9.b",
+    "strength": "essential",
+    "why": "rejuvenation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.1.b",
+    "strength": "helpful",
+    "why": "river long profile",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-glaciation-s2.9.0",
+    "strength": "helpful",
+    "why": "renewed erosion upstream",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.10.b",
+    "strength": "essential",
+    "why": "meanders",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-glaciation-s2.9.0",
+    "strength": "helpful",
+    "why": "renewed downward erosion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.9.0",
+    "strength": "essential",
+    "why": "lowered channel from rejuvenation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.10.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.5.0",
+    "strength": "helpful",
+    "why": "base level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.10.b",
+    "strength": "essential",
+    "why": "rising base level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-glaciation-s2.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-glaciation-s2.10.0",
+    "strength": "essential",
+    "why": "drowned lower course",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-rivers-s1.0.7",
+    "strength": "helpful",
+    "why": "estuary",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,825 @@
+{
+"bio29-s4.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.0.0": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.0.0",
+"strength": "helpful",
+"why": "plasma and cells of blood",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.0.1",
+"strength": "helpful",
+"why": "layers after centrifuging",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.0.3": {
+"cost": 2,
+"needs": []
+},
+"bio29-s4.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s5.0.1",
+"strength": "helpful",
+"why": "stem cells in red bone marrow",
+"confidence": "low"
+}
+]
+},
+"bio29-s4.0.5": {
+"cost": 2,
+"needs": []
+},
+"bio29-s4.0.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.0.2",
+"strength": "helpful",
+"why": "red and white cells in blood",
+"confidence": "high"
+},
+{
+"id": "bio22-s5.0.4",
+"strength": "helpful",
+"why": "lymphocyte large round nucleus",
+"confidence": "low"
+}
+]
+},
+"bio29-s4.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.0.1",
+"strength": "essential",
+"why": "centrifuged layers and percentages",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.1.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.1.0": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.1.0",
+"strength": "helpful",
+"why": "plasma dissolves substances",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.1.1",
+"strength": "helpful",
+"why": "CO2 carried in plasma",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.1.2",
+"strength": "helpful",
+"why": "CO2 transport forms",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.6.4",
+"strength": "helpful",
+"why": "fibrinogen in clotting",
+"confidence": "low"
+}
+]
+},
+"bio29-s4.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.1.0",
+"strength": "helpful",
+"why": "water carries heat",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.2.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.2.0": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.2.0",
+"strength": "essential",
+"why": "biconcave shape",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.2.5",
+"strength": "helpful",
+"why": "haemoglobin carries oxygen",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.2.0",
+"strength": "helpful",
+"why": "small red cell shape",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.2.2",
+"strength": "helpful",
+"why": "no mitochondria",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.2.0",
+"strength": "essential",
+"why": "anaerobic respiration",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.2.5": {
+"cost": 2,
+"needs": []
+},
+"bio29-s4.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.2.5",
+"strength": "essential",
+"why": "haemoglobin and oxyhaemoglobin",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.3.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.2.2",
+"strength": "helpful",
+"why": "no nucleus in red cells",
+"confidence": "high"
+},
+{
+"id": "bio29-s4.0.4",
+"strength": "helpful",
+"why": "made in red bone marrow",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.2.5",
+"strength": "essential",
+"why": "haem group containing iron",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.3.0",
+"strength": "helpful",
+"why": "red cell production",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.2.5",
+"strength": "essential",
+"why": "haemoglobin and haem iron",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.2.5",
+"strength": "essential",
+"why": "haemoglobin binds oxygen",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.3.5": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.4.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.2.2",
+"strength": "helpful",
+"why": "red cells have no nucleus",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.0.4",
+"strength": "helpful",
+"why": "blood cells made in marrow",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.4.2": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.4.0",
+"strength": "helpful",
+"why": "white blood cells defend",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.5.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.5.0": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.5.1": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.5.1",
+"strength": "helpful",
+"why": "platelets start clotting",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.6.0": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.5.1",
+"strength": "helpful",
+"why": "platelets start clotting",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.6.1",
+"strength": "helpful",
+"why": "platelet plug stage",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.6.2",
+"strength": "essential",
+"why": "clotting factors released",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.6.3",
+"strength": "essential",
+"why": "thrombin from prothrombin",
+"confidence": "high"
+},
+{
+"id": "bio29-s4.1.4",
+"strength": "helpful",
+"why": "fibrinogen as plasma protein",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.6.4",
+"strength": "essential",
+"why": "fibrin threads",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.6.5",
+"strength": "helpful",
+"why": "clot formation",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.6.7": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.6.5",
+"strength": "essential",
+"why": "clotting sequence",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.7.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.2.0",
+"strength": "helpful",
+"why": "red blood cells",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.7.0",
+"strength": "essential",
+"why": "antigens on red cells",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.7.1",
+"strength": "essential",
+"why": "antibodies against missing antigens",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.7.2",
+"strength": "helpful",
+"why": "groups A and B pattern",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.7.1",
+"strength": "essential",
+"why": "antibodies match antigens",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.7.4",
+"strength": "essential",
+"why": "agglutination clumping",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.7.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.7.3",
+"strength": "essential",
+"why": "antigens and antibodies per group",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.8.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.7.1",
+"strength": "essential",
+"why": "recipient antibodies against donor antigens",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.8.0",
+"strength": "essential",
+"why": "donor antigens versus recipient antibodies",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.8.0",
+"strength": "essential",
+"why": "recipient antibodies rule",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.8.0",
+"strength": "essential",
+"why": "compatibility rule",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.7.4",
+"strength": "essential",
+"why": "agglutination with antiserum",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.9.0",
+"strength": "helpful",
+"why": "Rhesus D antigen",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.9.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.7.0",
+"strength": "essential",
+"why": "red-cell antigens",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.9.0",
+"strength": "essential",
+"why": "Rhesus plus ABO groups",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.9.0",
+"strength": "essential",
+"why": "Rhesus antigen and anti-D",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.9.2",
+"strength": "essential",
+"why": "anti-D made after exposure",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.10.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.9.0",
+"strength": "essential",
+"why": "Rhesus positive and negative",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.10.0",
+"strength": "helpful",
+"why": "Rh+ baby and Rh- mother",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.9.2",
+"strength": "essential",
+"why": "anti-D made after exposure",
+"confidence": "high"
+},
+{
+"id": "bio22-s5.6.4",
+"strength": "helpful",
+"why": "memory cells and secondary response",
+"confidence": "low"
+}
+]
+},
+"bio29-s4.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.10.2",
+"strength": "essential",
+"why": "sensitised mother has anti-D",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.10.3",
+"strength": "helpful",
+"why": "red cells destroyed",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.10.2",
+"strength": "helpful",
+"why": "prevents sensitisation",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.10.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio29-s4.10.5",
+"strength": "essential",
+"why": "anti-D injection",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.10.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.10.6",
+"strength": "helpful",
+"why": "injected antibodies",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.11.b": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.7.4",
+"strength": "helpful",
+"why": "clumping test",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.11.0",
+"strength": "helpful",
+"why": "safe transfusion",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.8.1",
+"strength": "essential",
+"why": "group O universal donor",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.10.5",
+"strength": "essential",
+"why": "anti-D prevention",
+"confidence": "high"
+}
+]
+},
+"bio29-s4.11.4": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.11.5": {
+"cost": 1,
+"needs": []
+},
+"bio29-s4.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.7.0",
+"strength": "helpful",
+"why": "ABO antigens",
+"confidence": "low"
+}
+]
+},
+"bio29-s4.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.7.0",
+"strength": "helpful",
+"why": "ABO antigens",
+"confidence": "low"
+}
+]
+},
+"bio29-s4.11.8": {
+"cost": 1,
+"needs": [
+{
+"id": "bio29-s4.9.0",
+"strength": "helpful",
+"why": "Rhesus factor",
+"confidence": "high"
+}
+]
+}
+}

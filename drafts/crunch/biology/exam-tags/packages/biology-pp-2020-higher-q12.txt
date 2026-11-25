@@ -1,0 +1,551 @@
+QUESTION biology-pp-2020-higher-q12 (LC Biology Higher 2020 — Section C — Q12, 60 marks)
+
+PART (a)(i) (3 marks) subsections: bio11-s2
+MODEL ANSWER: Heredity is the passing of characteristics (traits) by means of genes from parents to offspring, that is, from one generation to the next.
+
+PART (a)(ii) (6 marks) subsections: bio11-s7
+MODEL ANSWER: When gametes form, the alleles of one gene separate independently of the alleles of another gene. So either member of one pair of alleles (factors) can combine at random with either member of another pair.
+
+PART (b)(i) (6 marks) subsections: bio35-s2, bio23-s7
+MODEL ANSWER: DNA profiling makes a pattern of bands from a person's DNA sample so that different samples can be compared (to identify a person or a relationship). Genetic screening is a test of particular genes to find whether a person has, or carries, an allele linked to a disease (presence or absence of a gene).
+
+PART (b)(ii) (12 marks) subsections: bio35-s3, bio35-s2
+MODEL ANSWER: Stage 1: the DNA is extracted (isolated) from the cells of the sample, releasing it from the cells.
+Stage 2: the DNA is cut into short fragments using restriction enzymes (older method; PCR copying of the repeat regions is the modern alternative).
+Stage 3: the fragments are separated by size by gel electrophoresis. An electric current moves the negatively charged DNA through the gel, and shorter fragments travel further.
+Stage 4: the pattern of bands is analysed, compared with other samples and with a ladder of known sizes. Samples match only if every band is in the same position.
+
+PART (b)(iii) (6 marks) subsections: bio35-s2
+MODEL ANSWER: 1. Forensic science: DNA from a crime scene is compared with a suspect's DNA to link or exclude them.
+2. Paternity (family relationships): every band in a child's profile must come from the mother or father, so a man can be excluded as the father.
+
+PART (b)(iv) (3 marks) subsections: bio35-s2
+MODEL ANSWER: Identical twins come from one zygote (one fertilised egg), so they have the same DNA (genes) and therefore the same DNA profile.
+
+PART (c)(i) (12 marks) subsections: bio11-s2, bio11-s6
+MODEL ANSWER: Allele: one of the alternative forms (versions) of a gene.
+Incomplete dominance: neither allele is dominant, so the heterozygote has a phenotype intermediate between the two homozygotes.
+Homozygous: having two identical alleles of a gene (e.g. BB or bb).
+Phenotype: the observable (physical) characteristics of an organism that result from its genotype.
+
+PART (c)(ii) (9 marks) subsections: bio11-s6, bio11-s5
+MODEL ANSWER: Parents: Bb x Bb (blue x blue). Gametes: B or b from each parent.
+Punnett square: BB, Bb, Bb, bb.
+Genotypes: BB, Bb, bb.
+Phenotypes: black (BB), blue/speckled (Bb), white (bb).
+Ratio: 1 black : 2 blue : 1 white.
+
+PART (c)(iii) (3 marks) subsections: bio11-s6, bio11-s5
+MODEL ANSWER: The ratio would change from 1 black : 2 blue : 1 white to 3 black : 1 white, because there would be only two phenotypes (BB and Bb would both be black, bb white) and no blue.
+
+CANDIDATES bio11-s2: Key concepts of information transfer
+[bio11-s2.0.b] Inheritance starts with a few basic ideas: what counts as one kind of organism, what is passed on, and what carries it. These terms are used throughout genetics.
+[bio11-s2.0.0] A species is a group of organisms with similar features that can interbreed in natural conditions to produce fertile offspring (offspring that can themselves reproduce). A horse and a donkey can mate, but their offspring, the mule, is sterile, so horses and donkeys are different species.
+[bio11-s2.0.1] The species definition has limits: it cannot be applied to organisms that reproduce only asexually, because they never interbreed, or to fossils, because dead organisms cannot be tested for interbreeding. There is more on how new species form in Evidence for evolution.
+[bio11-s2.0.2] Heredity is the passing of characteristics (traits), by means of genes, from parents to offspring, that is, from one generation to the next. A gene is a section of DNA that carries the instructions for a trait.
+[bio11-s2.0.3] Genetics is the study of heredity (how traits are passed on) and of variation (the differences between individuals).
+[bio11-s2.0.4] A chromosome is the structure that carries genes from one generation to the next. Body cells carry chromosomes in homologous pairs (two matching chromosomes, one from each parent), and each gamete carries one chromosome from each pair.
+[bio11-s2.1.b] Parents pass genes on through special sex cells. Following the chromosome number from parent to gametes to zygote shows how each generation gets its genes and why the number stays constant.
+[bio11-s2.1.0] A gamete is a sex cell: a sperm or egg in animals, or in flowering plants the male gamete nucleus in the pollen grain and the egg cell in the ovule.
+[bio11-s2.1.1] Gametes are haploid, with one set of chromosomes (one from each pair), so a human gamete has 23 chromosomes. They are made by meiosis. Gametes must be haploid because fertilisation adds the two sets together, so otherwise the chromosome number would double every generation.
+[bio11-s2.1.2] Sexual reproduction involves the fusion of two gametes, usually from two parents. The offspring receive half their chromosomes from each parent, so they are genetically different from both parents and from each other. There is more on this in Variation.
+[bio11-s2.1.3] Asexual reproduction involves one parent and no gametes, so it produces genetically identical offspring, called clones.
+[bio11-s2.1.4] Fertilisation is the fusion of the nucleus of a male gamete with the nucleus of a female gamete to form a diploid zygote (a cell with two sets of chromosomes), the first cell of the new organism. It restores the diploid number: in humans 23 + 23 = 46 chromosomes.
+[bio11-s2.1.5] The zygote divides by mitosis, so every body cell carries the same set of chromosomes.
+[bio11-s2.1.6] Diagram: life-cycle flow: parent (2n = 46) → meiosis → gametes (n = 23, sperm and egg) → fertilisation → zygote (2n = 46) → mitosis → offspring; label haploid, diploid, meiosis, fertilisation and mitosis.
+[bio11-s2.2.b] A gene is a section of DNA for one trait, such as seed shape. Genes come in slightly different versions, and these versions, called alleles, are what make individuals differ.
+[bio11-s2.2.0] An allele is one of the alternative forms of a gene, found at the same locus (position) on homologous chromosomes. Alleles differ slightly in base sequence, as they arise by mutation, so they may produce different versions of the trait.
+[bio11-s2.2.1] In peas, the gene for seed shape has an allele for round seeds (R) and one for wrinkled seeds (r).
+[bio11-s2.2.2] A diploid organism has two alleles for each autosomal gene (a gene on a non-sex chromosome), one on each homologous chromosome, one inherited from each parent.
+[bio11-s2.2.3] A population may have more than two alleles of a gene, but each individual carries only two, because it has only two homologous chromosomes. The human ABO blood-group gene has three alleles (A, B and O) in the population.
+[bio11-s2.2.4] Homozygous means having two identical alleles of a gene (RR or rr). A homozygous organism is also called pure-breeding, because it passes on the same allele in every gamete.
+[bio11-s2.2.5] Heterozygous means having two different alleles of a gene (Rr). A heterozygous organism is also called a hybrid for that gene.
+[bio11-s2.2.6] Diagram: a pair of homologous chromosomes with one gene locus marked, one chromosome carrying R and the other r (heterozygous); a second pair carrying r and r (homozygous); label homologous chromosomes, locus and allele.
+[bio11-s2.3.b] Two terms separate what an organism's genes are from what it looks like or does. They are not always the same, because the environment and dominance both play a part.
+[bio11-s2.3.0] Genotype is the genetic make-up of an organism: the alleles it has for a particular trait, written with letters, such as RR, Rr or rr.
+[bio11-s2.3.1] Phenotype is the observable (physical, chemical or behavioural) characteristics of an organism that result from its genotype, such as round or wrinkled seeds, or blood group A.
+[bio11-s2.3.2] Phenotype = genotype + environment. The genotype sets the possible range, and the environment affects how it is expressed.
+[bio11-s2.3.3] Identical twins have the same genotype but may differ in mass because of diet and exercise, so the same genes can give different phenotypes.
+[bio11-s2.3.4] Hydrangea plants of the same variety have blue flowers in acid soil and pink flowers in alkaline soil, so soil pH changes the phenotype.
+[bio11-s2.3.5] A plant with the genes for chlorophyll is pale yellow if grown in the dark, because the environment (no light) stops the pigment forming.
+[bio11-s2.3.6] Different genotypes can give the same phenotype: RR and Rr are both round, because one allele is dominant. So the phenotype does not always reveal the genotype. There is more on how to find the genotype (the test cross) in Monohybrid crosses.
+[bio11-s2.4.b] When an organism is heterozygous, the two alleles do not always show equally. Dominant and recessive describe which allele is seen in the phenotype and which is hidden.
+[bio11-s2.4.0] A dominant allele is expressed in the phenotype of a heterozygote, masking the effect of the other allele. It is written with a capital letter (R), and a dominant trait shows in both RR and Rr.
+[bio11-s2.4.1] A recessive allele is expressed in the phenotype only when no dominant allele is present, that is, only in the homozygous condition (rr). It is written with the lower-case letter (r).
+[bio11-s2.4.2] In a heterozygote, a recessive allele is present but hidden, and it can still be passed on to offspring. It does not disappear and is not weaker.
+[bio11-s2.4.3] Often the dominant allele codes for a working protein and the recessive allele for a non-working one. One working copy makes enough protein, so Rr looks the same as RR.
+[bio11-s2.4.4] In peas, R codes for a working starch-branching enzyme; rr seeds make less starch and wrinkle. There is more on this chain in Genes, proteins and traits.
+[bio11-s2.4.5] Dominant does not mean common or better. The allele causing Huntington's disease is dominant but rare, and harmful.
+[bio11-s2.4.6] Cystic fibrosis and albinism are caused by recessive alleles, so two carriers (heterozygotes) can have an affected child.
+[bio11-s2.4.7] A carrier is a heterozygous individual who carries a recessive allele for a condition but does not show it.
+[bio11-s2.5.b] Having a gene is not the same as using it. Gene expression is how a cell turns the information in a gene into something that affects the organism.
+[bio11-s2.5.0] Gene expression is the process by which the information in a gene is used to make its product (a protein or a functional RNA), so that the gene affects the phenotype.
+[bio11-s2.5.1] A gene that is being used is switched on (expressed); one that is not is switched off.
+[bio11-s2.5.2] Every body cell has the same genes, but each cell type expresses only some of them, which is why cells become specialised.
+[bio11-s2.5.3] Expression is controlled by regulatory DNA (stretches of DNA that switch genes on or off), by signals such as hormones, and by the environment: some genes are switched on only in response to a stimulus.
+[bio11-s2.5.4] There is more on how the environment and behaviour change expression in Genetic and epigenetic mechanisms.
+[bio11-s2.6.b] Four more terms extend the basic vocabulary. Each has a short definition and, where there is one, a named example.
+[bio11-s2.6.0] Epigenetic expression is a change in gene expression that is not caused by a change in the DNA base sequence, but by chemical tags on the DNA or on the histones (the proteins DNA is wound around) that switch genes on or off.
+[bio11-s2.6.1] Epigenetic tags can be caused by the environment and behaviour, can be passed on when cells divide, and some are reversible.
+[bio11-s2.6.2] Incomplete dominance means neither allele is dominant over the other, so the heterozygote has a phenotype intermediate between the two homozygotes. For example, red-flowered and white-flowered snapdragons give pink-flowered heterozygotes. This contrasts with complete dominance, where the heterozygote looks like the dominant homozygote.
+[bio11-s2.6.3] Linkage: genes located on the same chromosome are linked and tend to be inherited together, because they do not separate into different gametes. Linked genes do not assort independently.
+[bio11-s2.6.4] Sex-linkage: a gene located on a sex chromosome (in humans almost always the X chromosome) is sex-linked, so the trait's inheritance pattern differs between males and females. Examples are red–green colour blindness and haemophilia, which are much more common in males.
+
+CANDIDATES bio11-s5: Monohybrid crosses
+[bio11-s5.0.b] A genetic cross predicts what offspring a pair of parents can have. It works only because of how alleles (the different versions of a gene) are shared out when gametes (sex cells) are made and joined.
+[bio11-s5.0.0] Each body cell carries two alleles of each gene, one on each chromosome of a homologous pair (two matching chromosomes, one inherited from each parent).
+[bio11-s5.0.1] Each gamete carries only one of the two alleles, because meiosis (the cell division that makes gametes) separates the two chromosomes of each homologous pair.
+[bio11-s5.0.2] At fertilisation the zygote (the first cell of the new organism) again has two alleles, one from each parent, so the pair is restored.
+[bio11-s5.0.3] There is more on this in the subsections on chromosome structure and genes, mitosis and meiosis, and the key concepts of information transfer, where allele, homozygous, heterozygous, pure-breeding and carrier are defined.
+[bio11-s5.1.b] Before you can set out any cross you must work out which gametes each parent can make. This depends only on whether the parent is homozygous (two identical alleles) or heterozygous (two different alleles).
+[bio11-s5.1.0] A homozygous individual (TT or tt) makes only one type of gamete for that gene: T from TT, or t from tt, because both of its alleles are the same.
+[bio11-s5.1.1] A heterozygous individual (Tt) makes two types of gamete, T and t, in equal numbers, half of its gametes each, because the two chromosomes separate at random in meiosis.
+[bio11-s5.1.2] True-breeding is another name for pure-breeding (homozygous): crossed with one like itself, it always gives offspring with the same trait.
+[bio11-s5.2.b] A monohybrid cross is the simplest kind of genetic cross, because it follows just one characteristic at a time. Labels for the generations let you say clearly which individuals you mean.
+[bio11-s5.2.0] A monohybrid cross follows the inheritance of one trait, controlled by one gene with two alleles.
+[bio11-s5.2.1] Unlinked means the gene is considered on its own, without other genes on the same chromosome affecting the result. There is more on this in Linkage.
+[bio11-s5.2.2] P (parental generation) are the parents crossed.
+[bio11-s5.2.3] F1 (first filial generation) are their offspring, for example the plants grown from the seeds of the P cross.
+[bio11-s5.2.4] F2 (second filial generation) are the offspring of crossing F1 individuals with each other.
+[bio11-s5.2.5] “First generation” means the offspring of the cross being modelled, so you only need to work out the offspring of one cross.
+[bio11-s5.3.b] Symbols are shorthand for alleles. A key at the start tells the examiner what each symbol means, so your answer can be read without guessing.
+[bio11-s5.3.0] Use the first letter of the dominant trait: a capital for the dominant allele and a lower-case letter for the recessive allele, e.g. T = tall, t = dwarf.
+[bio11-s5.3.1] Use the letters a question gives, because the marking scheme is written with them.
+[bio11-s5.3.2] Avoid letters whose capital and lower case look alike when handwritten, because the examiner cannot tell which allele you mean: C/c, O/o, S/s, W/w, P/p, K/k, V/v, X/x, Z/z.
+[bio11-s5.3.3] Always state a key first, e.g. “T = allele for tall, t = allele for dwarf”.
+[bio11-s5.4.b] Every line is shown, in this order, because marks are given for each. Working in the same sequence every time also stops you missing a step.
+[bio11-s5.4.0] Step 1: the key, so that the examiner knows what each letter means.
+[bio11-s5.4.1] Step 2: the parents' phenotypes (the visible traits), e.g. tall × dwarf.
+[bio11-s5.4.2] Step 3: the parents' genotypes (the alleles they carry), e.g. TT × tt.
+[bio11-s5.4.3] Step 4: the gametes, each different allele each parent can pass on, written once and usually circled (T from TT; t from tt; T and t from Tt).
+[bio11-s5.4.4] Step 5: the Punnett square (a grid that combines the gametes), or fertilisation lines joining every gamete of one parent to every gamete of the other.
+[bio11-s5.4.5] Step 6: the offspring genotypes, with their ratio, such as 1 TT : 2 Tt : 1 tt.
+[bio11-s5.4.6] Step 7: the offspring phenotypes, with their ratio, such as 3 tall : 1 dwarf.
+[bio11-s5.5.b] A Punnett square is a grid that shows every possible fertilisation between the gametes of two parents. It makes sure you do not miss a combination.
+[bio11-s5.5.0] One parent's gametes go across the top and the other parent's gametes down the side.
+[bio11-s5.5.1] Each box takes the allele from its column and the allele from its row, with the dominant allele written first (Tt, not tT), so that identical genotypes are always written the same way.
+[bio11-s5.5.2] Each box is one equally likely outcome of fertilisation; with two gametes from each parent, each box is a 1 in 4 (25%) chance.
+[bio11-s5.5.3] Diagram: a 2 × 2 Punnett square for Tt × Tt: gametes T and t across the top (labelled “gametes of parent 1”), T and t down the side (labelled “gametes of parent 2”); boxes TT, Tt, Tt, tt; each box labelled with its phenotype (tall, tall, tall, dwarf).
+[bio11-s5.6.b] A cross predicts chances, not certainties. Each fertilisation is a separate chance event, so the ratio describes what is expected on average.
+[bio11-s5.6.0] A ratio is a prediction of the proportions expected, not an exact count.
+[bio11-s5.6.1] Each fertilisation is independent, so in a family where the first child is affected, the chance for the next child is unchanged.
+[bio11-s5.6.2] A 3 : 1 ratio is a probability, not a guarantee that a family of four has exactly one affected child.
+[bio11-s5.6.3] Ratios can be given as a ratio (3 : 1), a fraction (3/4), a percentage (75%) or a probability (0.75, or “a 3 in 4 chance”).
+[bio11-s5.6.4] Observed results come close to the predicted ratio only with large numbers of offspring (e.g. hundreds of pea plants), not in a small human family, because chance has more effect on small samples.
+[bio11-s5.7.b] Pea plants: tall (T) is dominant to dwarf (t). Here two heterozygous tall plants are crossed, and every line of the standard layout is shown.
+[bio11-s5.7.0] Key: T = tall, t = dwarf.
+[bio11-s5.7.1] Parents' phenotypes: tall × tall.
+[bio11-s5.7.2] Parents' genotypes: Tt × Tt (both heterozygous, so each makes two types of gamete).
+[bio11-s5.7.3] Gametes: T, t × T, t, because each heterozygous parent makes both types.
+[bio11-s5.7.4] Punnett square: TT, Tt / Tt, tt.
+[bio11-s5.7.5] Offspring genotypes: 1 TT : 2 Tt : 1 tt, because Tt arises in two boxes of the square.
+[bio11-s5.7.6] Offspring phenotypes: 3 tall : 1 dwarf (75% tall, 25% dwarf), because TT and both Tt boxes are tall.
+[bio11-s5.7.7] Of the tall offspring, 1/3 are homozygous (TT) and 2/3 heterozygous (Tt), because the three tall offspring are TT, Tt and Tt.
+[bio11-s5.8.b] In the cross above there are two different ratios, one for genotypes and one for phenotypes. They differ because of dominance.
+[bio11-s5.8.0] The genotype ratio (1 : 2 : 1) differs from the phenotype ratio (3 : 1) because TT and Tt look the same: the dominant allele masks the recessive one.
+[bio11-s5.8.1] A recessive trait reappears in offspring of parents who both show the dominant trait only if both parents are heterozygous, because only then can each parent pass on a recessive allele.
+[bio11-s5.9.b] Crossing a true-breeding tall plant with a true-breeding dwarf plant is the simplest case, because each parent makes only one type of gamete.
+[bio11-s5.9.0] Parents' phenotypes: true-breeding tall × true-breeding dwarf.
+[bio11-s5.9.1] Parents' genotypes: TT × tt (both homozygous, so true-breeding).
+[bio11-s5.9.2] Gametes: T × t, because each parent makes only one type.
+[bio11-s5.9.3] Offspring genotypes: all Tt (heterozygous), because each gets T from one parent and t from the other.
+[bio11-s5.9.4] Offspring phenotypes: all (100%) tall, because the dominant T masks t.
+[bio11-s5.9.5] This is Mendel's P → F1 cross; crossing these F1 plants together (Tt × Tt) gives the F2 result of the heterozygous × heterozygous example above, in which the dwarf trait reappears.
+[bio11-s5.9.6] Mendel's own figures are in Mendel's Laws.
+[bio11-s5.10.b] In this cross a heterozygous tall plant is crossed with a dwarf plant. It gives a different ratio from the first example, because one parent can pass on only the recessive allele.
+[bio11-s5.10.0] Parents' phenotypes: tall × dwarf.
+[bio11-s5.10.1] Parents' genotypes: Tt × tt (one heterozygous parent, so only the Tt parent makes two types of gamete).
+[bio11-s5.10.2] Gametes: T, t × t, because the tt parent can give only t.
+[bio11-s5.10.3] Punnett square (2 × 1, or 2 × 2 with t written twice): Tt, tt.
+[bio11-s5.10.4] Offspring genotypes: 1 Tt : 1 tt.
+[bio11-s5.10.5] Offspring phenotypes: 1 tall : 1 dwarf (50% each), because Tt is tall and tt is dwarf.
+[bio11-s5.11.b] With one gene and two alleles there are only three genotypes, TT, Tt and tt, so only six different crosses are possible. Knowing all six lets you recognise any monohybrid cross quickly.
+[bio11-s5.11.0] Cross 1: TT × TT → all TT → all tall, because both parents can only pass on T.
+[bio11-s5.11.1] Cross 2: TT × Tt → 1 TT : 1 Tt → all tall.
+[bio11-s5.11.2] Cross 3: TT × tt → all Tt → all tall, because T masks t.
+[bio11-s5.11.3] Cross 4: Tt × Tt → 1 TT : 2 Tt : 1 tt → 3 tall : 1 dwarf.
+[bio11-s5.11.4] Cross 5: Tt × tt → 1 Tt : 1 tt → 1 tall : 1 dwarf.
+[bio11-s5.11.5] Cross 6: tt × tt → all tt → all dwarf, because both parents can only pass on t.
+[bio11-s5.12.b] You can also work from the offspring back to the parents. The ratio of offspring tells you which genotypes the parents must have had.
+[bio11-s5.12.0] Offspring in a 3 : 1 ratio mean both parents are heterozygous, because only Tt × Tt gives this ratio.
+[bio11-s5.12.1] A 1 : 1 ratio means one parent is heterozygous and the other homozygous recessive, so only one parent makes two kinds of gamete.
+[bio11-s5.12.2] Any offspring showing the recessive trait mean each parent carries at least one recessive allele, because an offspring needs two recessive alleles, one from each parent.
+[bio11-s5.13.b] An organism showing the dominant trait could be TT or Tt, and you cannot tell by looking. A test cross finds out by crossing it with a recessive organism.
+[bio11-s5.13.0] A test cross finds the unknown genotype of an organism showing the dominant trait (TT or Tt) by crossing it with a homozygous recessive (tt) organism.
+[bio11-s5.13.1] The tt parent can give only t, so each offspring's phenotype shows directly which allele came from the unknown parent.
+[bio11-s5.13.2] If all offspring show the dominant trait (all tall), the unknown parent is almost certainly TT (TT × tt → all Tt).
+[bio11-s5.13.3] If any offspring show the recessive trait (about half dwarf), the unknown parent is Tt (Tt × tt → 1 : 1), because it must have passed on a recessive allele.
+[bio11-s5.13.4] Many offspring are needed to be confident that a TT result is not chance.
+[bio11-s5.14.b] Cystic fibrosis is an inherited disorder that follows the same rules as the pea plants. Two parents who do not have the disease can still have an affected child, if both are carriers.
+[bio11-s5.14.0] Cystic fibrosis is caused by a recessive allele of a gene on an autosome (a chromosome that is not a sex chromosome).
+[bio11-s5.14.1] Key: F = normal allele, f = cystic fibrosis allele, with the normal allele dominant.
+[bio11-s5.14.2] Parents: two unaffected carriers (people who carry the recessive allele but do not have the disease).
+[bio11-s5.14.3] Parents' genotypes: Ff × Ff.
+[bio11-s5.14.4] Gametes: F, f × F, f, because each carrier makes both types.
+[bio11-s5.14.5] Offspring genotypes: 1 FF : 2 Ff : 1 ff.
+[bio11-s5.14.6] Offspring phenotypes: 3 unaffected : 1 with cystic fibrosis, because only ff has the disease.
+[bio11-s5.14.7] Each child has a 1 in 4 (25%) chance of having cystic fibrosis, a 1 in 2 (50%) chance of being a carrier, and a 1 in 4 chance of being neither.
+[bio11-s5.14.8] Why the mutation causes the disease is in Mutations, and its use in genetic counselling is in Benefits and limitations of Mendelian genetics.
+
+CANDIDATES bio11-s6: Incomplete dominance
+[bio11-s6.0.b] With complete dominance, one allele (a version of a gene) hides the other in a heterozygote (an organism carrying two different alleles). With incomplete dominance, neither allele hides the other, and the results of crosses look different.
+[bio11-s6.0.0] The heterozygote's phenotype (its observable feature) lies between those of the two homozygotes (organisms with two identical alleles), e.g. pink snapdragons from red × white.
+[bio11-s6.0.1] There are three phenotypes rather than two, so each genotype (the pair of alleles an organism carries) can be recognised just by looking at the phenotype.
+[bio11-s6.0.2] With complete dominance the heterozygote looks like the homozygous dominant (Tt is as tall as TT), so there are only two phenotypes and a tall plant could be TT or Tt.
+[bio11-s6.0.3] The AB blood group is not an example of incomplete dominance: both the A and B antigens are fully made side by side, rather than giving an in-between result.
+[bio11-s6.1.b] The pink colour has a simple molecular cause, which also shows that the alleles themselves are never altered.
+[bio11-s6.1.0] In snapdragon flower colour, the red allele codes for a working enzyme that makes red pigment, and the white allele codes for no working pigment enzyme.
+[bio11-s6.1.1] A plant with two red alleles has two working copies, so it makes enough pigment to be red.
+[bio11-s6.1.2] A heterozygote has only one working copy, so it makes less pigment and is pink. A plant with two white alleles makes none and is white.
+[bio11-s6.1.3] The alleles are not mixed or changed: red and white flowers reappear in the next generation, which shows the genes themselves do not blend.
+[bio11-s6.2.b] Genetics questions need a key for the allele letters. A capital and lower-case pair suggests one allele is dominant, so incomplete dominance needs a different choice.
+[bio11-s6.2.0] Neither allele is dominant, so don't use a capital and a lower-case letter of the same kind as if one were dominant.
+[bio11-s6.2.1] Use the letters the question gives.
+[bio11-s6.2.2] If choosing, use two different capital letters, e.g. R = allele for red, W = allele for white (so RR red, RW pink, WW white), and state in the key that the alleles show incomplete dominance.
+[bio11-s6.2.3] Questions sometimes use B and b with a statement that B is incompletely dominant; follow the question's key.
+[bio11-s6.3.b] Snapdragon flower colour. Crossing a true-breeding red plant with a true-breeding white plant is the simplest cross, and it shows where the pink phenotype comes from.
+[bio11-s6.3.0] Key: R = red, W = white, incomplete dominance.
+[bio11-s6.3.1] Parents' phenotypes: red × white.
+[bio11-s6.3.2] Parents' genotypes: RR × WW.
+[bio11-s6.3.3] Gametes (sex cells, each carrying one allele): R × W.
+[bio11-s6.3.4] Offspring genotypes: all RW, because every offspring gets one R from one parent and one W from the other.
+[bio11-s6.3.5] Offspring phenotypes: all (100%) pink.
+[bio11-s6.4.b] Crossing two pink plants brings the parental colours back, which is the classic test of incomplete dominance. Set it out in the standard layout, line by line.
+[bio11-s6.4.0] Parents' phenotypes: pink × pink.
+[bio11-s6.4.1] Parents' genotypes: RW × RW.
+[bio11-s6.4.2] Gametes: R, W × R, W, because each parent can pass on either of its two alleles.
+[bio11-s6.4.3] Punnett square (a grid showing every possible combination of gametes): RR, RW / RW, WW.
+[bio11-s6.4.4] Offspring genotypes: 1 RR : 2 RW : 1 WW.
+[bio11-s6.4.5] Offspring phenotypes: 1 red : 2 pink : 1 white (25% red, 50% pink, 25% white).
+[bio11-s6.4.6] Diagram: draw the 2 × 2 Punnett square for RW × RW. Labels: gametes R and W on each side; boxes RR, RW, RW, WW; each box labelled red, pink, pink or white (or shaded red, pink, white).
+[bio11-s6.5.b] The offspring ratio of a heterozygote × heterozygote cross tells you which kind of dominance a trait shows.
+[bio11-s6.5.0] The phenotype ratio (1 : 2 : 1) is the same as the genotype ratio, because each genotype has its own phenotype.
+[bio11-s6.5.1] With complete dominance the same cross gives 3 : 1, because the heterozygote looks like the dominant homozygote and the two classes merge.
+[bio11-s6.5.2] If a cross of two parents that look the same gives three phenotypes in a 1 : 2 : 1 ratio, the trait shows incomplete dominance.
+[bio11-s6.6.b] A pink plant can also be crossed with a red or a white one. Only two genotypes are possible in the offspring, so there are two phenotypes in a 1 : 1 ratio.
+[bio11-s6.6.0] Parents' genotypes: RW × WW (pink × white).
+[bio11-s6.6.1] Gametes: R, W × W, because the homozygous parent can only pass on W.
+[bio11-s6.6.2] Offspring genotypes: 1 RW : 1 WW.
+[bio11-s6.6.3] Offspring phenotypes: 1 pink : 1 white.
+[bio11-s6.6.4] Pink × red: RW × RR gives 1 RR : 1 RW, so 1 red : 1 pink.
+[bio11-s6.7.b] Chickens give a second example of incomplete dominance, with a practical consequence for breeders.
+[bio11-s6.7.0] In Andalusian chickens, feather colour shows incomplete dominance.
+[bio11-s6.7.1] Homozygous black × homozygous white gives all offspring with grey-blue feathers, called 'blue'.
+[bio11-s6.7.2] Blue × blue gives 1 black : 2 blue : 1 white.
+[bio11-s6.7.3] If black were instead completely dominant to white, the same blue-type (heterozygous) cross would give 3 black : 1 white.
+[bio11-s6.7.4] Blue Andalusians can never be true-breeding (always producing offspring like themselves), because every blue bird is heterozygous and its offspring include black and white.
+[bio11-s6.7.5] Breeders get all-blue chicks by crossing black with white birds.
+[bio11-s6.8.b] Real organisms carry many genes at once, so a cross can follow an incompletely dominant gene together with a completely dominant one.
+[bio11-s6.8.0] A cross can combine an incompletely dominant gene with a completely dominant one, e.g. snapdragon flower colour with plant height.
+[bio11-s6.8.1] This is a two-gene cross. There is more on this in Dihybrid crosses, which has the worked example.
+
+CANDIDATES bio11-s7: Mendel's Laws
+[bio11-s7.0.b] Mendel bred pea plants in a monastery garden and worked out the basic rules of inheritance long before anyone knew about genes, chromosomes or DNA.
+[bio11-s7.0.0] Gregor Mendel (1822–1884) was an Augustinian friar, later abbot, at the monastery of St Thomas in Brno (then Brünn, in the Austrian Empire; now in the Czech Republic).
+[bio11-s7.0.1] He bred garden pea plants (Pisum sativum) between 1856 and 1863, presented his results in 1865 and published them in 1866.
+[bio11-s7.0.2] His work was largely ignored until 1900, when it was rediscovered independently by other botanists, including Hugo de Vries and Carl Correns.
+[bio11-s7.0.3] He worked before chromosomes, meiosis (the cell division that makes gametes) or DNA were understood, so he called the units of inheritance “factors”. We now call them genes, and their different versions alleles.
+[bio11-s7.1.b] Mendel's choice of organism was part of why his experiments worked. Garden peas had four features that made clean, countable results possible.
+[bio11-s7.1.0] Peas had many varieties with clear contrasting forms of a trait (for example tall or dwarf, with nothing in between), so every offspring could be sorted into one group or the other.
+[bio11-s7.1.1] Peas normally self-pollinate (a flower pollinates itself), so true-breeding lines were available. True-breeding means offspring always look like their parents, generation after generation.
+[bio11-s7.1.2] They can be cross-pollinated by hand: the anthers (pollen-producing parts) of one flower are removed and its stigma (the pollen-receiving part) is dusted with pollen from another. This lets the experimenter choose the parents.
+[bio11-s7.1.3] They grow quickly and produce many seeds, giving large numbers to count, which is needed to see clear ratios.
+[bio11-s7.2.b] Mendel's method was careful and quantitative, which is why his results were clear. He followed simple, clear-cut traits and treated inheritance as something to be counted and calculated.
+[bio11-s7.2.0] The seven traits he studied, dominant form first: seed shape (round / wrinkled), seed colour (yellow / green), flower colour (purple / white), pod shape (inflated / constricted), pod colour (green / yellow), flower position (axial, along the stem / terminal, at the tip), stem length (tall / dwarf).
+[bio11-s7.2.1] He started with true-breeding parents and studied one trait at a time, then two. Looking at one trait at a time kept the results simple enough to interpret.
+[bio11-s7.2.2] He counted large numbers of offspring, because small samples can give misleading ratios by chance.
+[bio11-s7.2.3] He recorded results over several generations: P (the parents), F1 (their offspring) and F2 (the offspring of the F1 crossed with each other).
+[bio11-s7.2.4] He used mathematics (ratios) to analyse the results, and repeated each cross for several traits to check that the pattern held.
+[bio11-s7.3.b] Mendel's crosses gave the same pattern every time. That pattern led him to the idea that each trait is controlled by two factors, one of which can hide the other.
+[bio11-s7.3.0] Crossing true-breeding tall with true-breeding dwarf gave an F1 that was all tall; none were dwarf and none were in between.
+[bio11-s7.3.1] Self-pollinating the F1 gave an F2 of tall and dwarf in about 3 : 1.
+[bio11-s7.3.2] F2 figures: 787 tall : 277 dwarf (2.84 : 1); 5474 round : 1850 wrinkled seeds (2.96 : 1); 6022 yellow : 2001 green seeds (3.01 : 1). Large numbers bring the ratio very close to 3 : 1.
+[bio11-s7.3.3] The dwarf trait disappeared in the F1 and reappeared in the F2, so the dwarf “factor” must have been present, hidden, in the F1.
+[bio11-s7.3.4] He concluded that each plant has two factors for each trait, one from each parent, and that one (dominant) can mask the other (recessive).
+[bio11-s7.4.b] Mendel's first law explains the 3 : 1 ratio. It is about the two alleles of a single gene, and what happens to them when gametes (sex cells) are made.
+[bio11-s7.4.0] Statement: “The two alleles (factors) of a gene separate (segregate) from each other during gamete formation, so that each gamete receives only one allele of each gene.”
+[bio11-s7.4.1] Shorter accepted form: “Inherited traits are controlled by pairs of factors (alleles), which separate during gamete formation.”
+[bio11-s7.4.2] A heterozygous tall plant (Tt, carrying two different alleles) forms two types of gamete, T and t, in equal numbers, so half the gametes carry T and half carry t.
+[bio11-s7.4.3] Random fertilisation of these gametes in Tt × Tt gives 1 TT : 2 Tt : 1 tt and 3 tall : 1 dwarf, the 3 : 1 Mendel observed. There is more on this in Monohybrid crosses.
+[bio11-s7.4.4] Chromosome basis (Mendel did not know this): the two alleles of a gene lie at the same locus (position) on the two chromosomes of a homologous pair, the matching pair of chromosomes, one from each parent.
+[bio11-s7.4.5] In meiosis the homologous chromosomes separate into different cells, carrying one allele each into each gamete. This is why the alleles segregate.
+[bio11-s7.4.6] Diagram: a diploid cell with one homologous pair, one chromosome carrying T and the other t at the same position, dividing by meiosis into gametes, half with T and half with t. Labels: homologous pair, allele T, allele t, locus, meiosis, gametes (haploid).
+[bio11-s7.5.b] Mendel's second law deals with two different genes at once. It says that how one gene's alleles are shared out into gametes does not affect how another gene's alleles are shared out.
+[bio11-s7.5.0] Statement: “When gametes form, the alleles of one gene separate independently of the alleles of another gene, so either allele of one gene can combine at random with either allele of another gene.”
+[bio11-s7.5.1] Equivalent: “Each member of a pair of factors can combine randomly with either member of another pair.”
+[bio11-s7.5.2] The law applies to genes on different chromosomes (unlinked genes). Genes close together on the same chromosome tend to be inherited together and break this rule.
+[bio11-s7.5.3] A plant heterozygous for seed shape and seed colour (RrYy) forms four types of gamete, RY, Ry, rY and ry, in equal numbers (1/4 each).
+[bio11-s7.5.4] This is because whether a gamete gets R or r has no effect on whether it gets Y or y.
+[bio11-s7.5.5] Chromosome basis: when homologous pairs line up in meiosis, the way one pair lines up is independent of the way another pair lines up.
+[bio11-s7.5.6] With R and Y on different chromosome pairs, half the cells put R with Y (giving RY and ry gametes) and half put R with y (giving Ry and rY gametes), so all four types are made in equal numbers.
+[bio11-s7.5.7] Diagram: a cell with two homologous pairs (a long pair carrying R and r, a short pair carrying Y and y) in the two possible arrangements. Arrangement 1 gives RY and ry; arrangement 2 gives Ry and rY. Labels: homologous pairs, alleles, two equally likely arrangements, four gamete types.
+[bio11-s7.6.b] A dihybrid cross follows two traits at the same time. Mendel's results from one showed that the two traits were inherited independently of each other.
+[bio11-s7.6.0] Mendel's dihybrid cross: true-breeding round yellow × wrinkled green gave an F1 that was all round yellow.
+[bio11-s7.6.1] Self-pollinating the F1 gave an F2 of 315 round yellow : 108 round green : 101 wrinkled yellow : 32 wrinkled green (total 556), close to 9 : 3 : 3 : 1.
+[bio11-s7.6.2] The new combinations (round green and wrinkled yellow) can only arise if the two genes are inherited independently, because neither parent had those pairings of traits. There is more on this in Dihybrid crosses.
+[bio11-s7.7.b] Mendel's biggest contribution was a new way of thinking about heredity. His laws still underpin how we predict the outcome of genetic crosses.
+[bio11-s7.7.0] Mendel showed that inheritance is particulate: traits are passed on by separate units that stay unchanged from generation to generation, rather than by blending of the parents' characteristics.
+[bio11-s7.7.1] A blended trait could never reappear unchanged, as the dwarf trait did in the F2, so the reappearance is evidence for separate units.
+[bio11-s7.7.2] His laws are the basis of the predictions in Benefits and limitations of Mendelian genetics.
+
+CANDIDATES bio23-s7: Prenatal and postnatal care
+[bio23-s7.0.b] Pregnancy and the first weeks of a baby's life are when many problems can start, and when many can be caught and treated. Health services therefore care for the mother and baby both before and after the birth.
+[bio23-s7.0.0] Prenatal (antenatal) care is the health care of a pregnant woman and her developing baby before birth, so it covers the whole of pregnancy.
+[bio23-s7.0.1] Postnatal care is the care of the mother and baby after birth, usually for the first six weeks.
+[bio23-s7.0.2] Its aims are to keep mother and baby healthy, to find problems early, when they can be treated or managed, and to give the parents information to make decisions.
+[bio23-s7.1.b] Care in pregnancy and after birth uses two kinds of test that are easy to mix up. Screening sorts people into higher and lower risk, while diagnosis gives the answer for one person.
+[bio23-s7.1.0] A screening test is offered to everyone in a group, such as all pregnant women or all newborns, to find those at higher risk of a condition.
+[bio23-s7.1.1] A screening test is quick, cheap and safe, but it is not certain, so it can only say that a condition is more or less likely.
+[bio23-s7.1.2] A diagnostic test confirms whether a person actually has the condition; it is more accurate and may carry some risk.
+[bio23-s7.1.3] A positive screening result leads to a diagnostic test, because the screen only raises a suspicion that must then be confirmed.
+[bio23-s7.1.4] The same distinction is used for cancer. There is more on this in Causes, prevention and treatment of cancer.
+[bio23-s7.2.b] At the first visit early in pregnancy, called the booking visit, the mother's blood is tested. The results show what she needs for a safe pregnancy and what could affect the baby.
+[bio23-s7.2.0] The mother's blood is tested for her blood group and Rhesus factor. A Rhesus-negative mother carrying a Rhesus-positive baby may be given anti-D injections to protect this and later babies. There is more on this in Blood.
+[bio23-s7.2.1] Haemoglobin (the oxygen-carrying pigment in red blood cells) is tested to detect anaemia, which is common in pregnancy and is treated with iron.
+[bio23-s7.2.2] Immunity to rubella is checked at booking, because rubella infection in pregnancy can harm the baby.
+[bio23-s7.2.3] Infections that can pass to the baby are tested for, including HIV, hepatitis B and syphilis, so that treatment can greatly reduce the chance of passing them on.
+[bio23-s7.3.b] Two simple measurements are repeated at every antenatal visit, because some serious pregnancy conditions develop gradually and show up first in blood pressure or in the urine.
+[bio23-s7.3.0] At every visit her blood pressure is measured and her urine tested.
+[bio23-s7.3.1] High blood pressure with protein in the urine is a sign of pre-eclampsia, a condition in pregnancy that can be dangerous to mother and baby. She is monitored closely and the baby may be delivered early.
+[bio23-s7.3.2] Glucose in the urine, or a raised blood glucose in a glucose tolerance test, may show gestational diabetes, which is diabetes that develops in pregnancy.
+[bio23-s7.3.3] Gestational diabetes can make the baby grow too large. It is managed by diet and, if needed, insulin.
+[bio23-s7.4.b] Much of antenatal care is advice, because what the mother eats, drinks, takes and catches can reach the baby. Following it prevents harm rather than treating it afterwards.
+[bio23-s7.4.0] Take folic acid, a B vitamin, daily from before conception until the 12th week, which reduces the risk of neural tube defects (faults in the developing spine and brain) such as spina bifida. There is more on this in Vitamins.
+[bio23-s7.4.1] Do not smoke or drink alcohol, eat a balanced diet, and take medicines only on medical advice, because some substances cross the placenta to the baby.
+[bio23-s7.4.2] Avoid foods that may carry harmful microorganisms, for example unpasteurised cheese and pâté, which can carry Listeria bacteria.
+[bio23-s7.4.3] Avoid undercooked meat, which can carry Toxoplasma, a parasite that can infect the baby.
+[bio23-s7.5.b] A mother can be vaccinated during pregnancy to protect herself and, through the placenta, her newborn baby, who is too young to be vaccinated yet.
+[bio23-s7.5.0] The flu vaccine and the whooping cough (pertussis) vaccine are recommended in pregnancy.
+[bio23-s7.5.1] The mother's antibodies cross the placenta, so the baby is protected from whooping cough in the first weeks of life, before it can be vaccinated itself. This is passive immunity, meaning protection from antibodies made by someone else. There is more on this in Acquired immunity, prevention and treatment.
+[bio23-s7.6.b] Ultrasound lets doctors look at a baby before birth without touching it. It is a good example of technology improving prenatal care.
+[bio23-s7.6.0] Ultrasound scanning sends high-frequency sound waves into the body. Their echoes from tissues of different density form a moving image on a screen.
+[bio23-s7.6.1] Ultrasound uses no ionising radiation, unlike X-rays, which are avoided in pregnancy, so it is regarded as safe for mother and foetus.
+[bio23-s7.7.b] Scans are done at different stages of pregnancy, and each is timed to answer particular questions.
+[bio23-s7.7.0] A dating scan early in pregnancy, around 11–14 weeks, confirms the pregnancy, the number of babies and the expected date of delivery, and checks for an ectopic pregnancy (one that develops outside the uterus).
+[bio23-s7.7.1] An anomaly scan at about 20 weeks checks the baby's organs, for example the heart, spine, brain and kidneys, and its growth, and the position of the placenta.
+[bio23-s7.7.2] Later scans check growth and the baby's position before birth.
+[bio23-s7.7.3] Finding a problem such as a heart defect before birth allows the birth to be planned in a hospital ready to treat the baby at once.
+[bio23-s7.8.b] Labour is the time when a baby is most at risk of not getting enough oxygen, so its condition is watched closely.
+[bio23-s7.8.0] During labour the baby's heart rate and the mother's contractions are monitored, for example by a cardiotocograph (CTG).
+[bio23-s7.8.1] This means that signs that the baby is short of oxygen are noticed, and the birth can be speeded up, for example by Caesarean section (delivery through a cut in the abdomen and uterus). There is more on this in Pregnancy.
+[bio23-s7.9.b] Some conditions are inherited or caused by an extra chromosome. Genetic screening estimates the chance that a baby is affected, and carries no risk to the pregnancy.
+[bio23-s7.9.0] Genetic screening tests for genetic conditions, or for carriers of them (people who carry a gene for a condition without having it). There is more on this, including Punnett squares, in Genetic Inheritance.
+[bio23-s7.9.1] Before or during pregnancy, couples with a family history of an inherited condition, for example cystic fibrosis, can have carrier testing to find out their chance of having an affected child.
+[bio23-s7.9.2] Chromosome conditions such as Down syndrome (trisomy 21, where a person has an extra copy of chromosome 21) are screened for.
+[bio23-s7.9.3] The combined test uses an ultrasound measurement of the fluid at the back of the baby's neck (nuchal translucency) together with a blood test of the mother, at about 11–14 weeks.
+[bio23-s7.9.4] The combined test gives the chance, a probability, of Down syndrome, taking the mother's age into account.
+[bio23-s7.9.5] Non-invasive prenatal testing (NIPT), from about 10 weeks, tests a sample of the mother's blood for small fragments of DNA from the placenta that circulate in it.
+[bio23-s7.9.6] NIPT is a much more accurate screening test for trisomy 21, 18 and 13, but a positive result still needs a diagnostic test, because it is still screening.
+[bio23-s7.9.7] Neither the combined test nor NIPT harms the pregnancy, since NIPT uses only a blood sample from the mother and the combined test uses an ultrasound scan and a blood sample.
+[bio23-s7.10.b] When screening shows a raised chance of a condition, a diagnostic test can confirm it. These tests take cells from the baby's side of the pregnancy, so the baby's own chromosomes or DNA can be examined.
+[bio23-s7.10.0] Diagnostic tests take cells from the baby's side of the pregnancy so its chromosomes or DNA can be examined, for example as a karyotype (a picture of all the chromosomes arranged in pairs). There is more on this in Generating a DNA profile.
+[bio23-s7.10.1] Chorionic villus sampling (CVS), at about 11–14 weeks, takes a sample of placental tissue with a fine needle through the abdomen or a thin tube through the cervix.
+[bio23-s7.10.2] Amniocentesis, from about 15 weeks, uses a fine needle guided by ultrasound to take a sample of amniotic fluid, which contains cells shed by the foetus.
+[bio23-s7.10.3] CVS and amniocentesis both give a definite result, but both carry a small risk of miscarriage, well under 1 in 100, so they are offered only when the chance of a condition is raised.
+[bio23-s7.10.4] Preimplantation genetic testing: in IVF (fertilisation outside the body), one or a few cells are taken from each early embryo and tested for a known serious genetic condition, and only unaffected embryos are placed in the uterus.
+[bio23-s7.11.b] Right after birth, and in the first days, the baby is checked quickly for problems that need action straight away or that can be treated if found early.
+[bio23-s7.11.0] Apgar score: at one minute and five minutes after birth, the baby is scored 0, 1 or 2 on each of five signs: heart rate, breathing, muscle tone, reflex response and skin colour, for a maximum of 10.
+[bio23-s7.11.1] A low Apgar score shows that the baby needs help, for example with breathing.
+[bio23-s7.11.2] Vitamin K is offered to every newborn, usually by injection, to prevent a rare but serious bleeding disorder. There is more on this in Vitamins.
+[bio23-s7.11.3] A full physical examination of the newborn checks, for example, the heart, the hips for hip dysplasia (a loose or dislocated hip joint, treatable if found early), the eyes and, in boys, whether the testes have descended.
+[bio23-s7.11.4] Newborn hearing screening is offered to all babies in Ireland, so deafness is found early and language development can be supported.
+[bio23-s7.12.b] Care does not stop after the first examination. In the following weeks the baby's growth and the mother's recovery and wellbeing are both followed.
+[bio23-s7.12.0] Weight, length and head size are recorded on growth charts, so a baby who is growing poorly is noticed early.
+[bio23-s7.12.1] A public health nurse visits the family at home in the first weeks.
+[bio23-s7.12.2] The mother's recovery and her mental health are checked, because postnatal depression is common and treatable.
+[bio23-s7.12.3] Breastfeeding is supported. There is more on this in Hormones in reproduction.
+[bio23-s7.12.4] The baby's routine vaccinations begin at 2 months of age.
+[bio23-s7.13.b] The heel-prick test is a postnatal screening test done in Ireland. It looks for rare, serious conditions in a baby who looks completely healthy.
+[bio23-s7.13.0] Every baby born in Ireland is offered newborn bloodspot screening, the heel-prick test, with the parents' consent.
+[bio23-s7.13.1] When the baby is 3 to 5 days old (72–120 hours after birth), a midwife or public health nurse pricks the baby's heel and places drops of blood on a special card.
+[bio23-s7.13.2] The card is sent to the national screening laboratory at Children's Health Ireland at Temple Street, Dublin.
+[bio23-s7.13.3] The conditions screened for are rare and serious, and show no signs at birth, but early treatment prevents or greatly reduces lasting harm.
+[bio23-s7.13.4] A positive screen leads to diagnostic tests, because the heel-prick test is a screening test.
+[bio23-s7.13.5] The test is done at 3–5 days because by then the baby has been feeding on milk for a few days, so a substance that the baby cannot break down, such as phenylalanine in PKU, has had time to build up in the blood to a detectable level.
+[bio23-s7.13.6] Testing too early can miss the condition, because the substance has not yet built up.
+[bio23-s7.14.b] PKU is the condition the heel-prick test was first developed for. It is a clear example of a serious inherited condition that is controlled by diet if it is found in the first days of life.
+[bio23-s7.14.0] PKU has been screened for in Ireland since the 1960s. It is the condition for which the blood-spot test was first developed, by Robert Guthrie in the USA; the card is often called a Guthrie card.
+[bio23-s7.14.1] The test measures phenylalanine (an amino acid from protein in food) in the blood spot; a high level shows the baby cannot convert phenylalanine. There is more on this in Enzymes as catalysts.
+[bio23-s7.14.2] PKU is inherited as a recessive condition.
+[bio23-s7.14.3] Treatment is a special diet low in phenylalanine, which means restricting high-protein foods and using special protein substitutes, from the first weeks of life and continued for life.
+[bio23-s7.14.4] The sweetener aspartame contains phenylalanine, which is why food labels warn people with PKU.
+[bio23-s7.14.5] Treated early, children with PKU develop normally; untreated, phenylalanine builds up and causes severe intellectual disability.
+[bio23-s7.14.6] Women with PKU need very strict diet control before and during pregnancy, because high phenylalanine harms the developing foetus.
+[bio23-s7.15.b] Other serious conditions are also on the Irish heel-prick screen. Each looks normal at birth, and each can be treated if found early.
+[bio23-s7.15.0] Cystic fibrosis is also screened for by the heel-prick test. There is more on this in Mutations.
+[bio23-s7.15.1] A raised level of a protein made by the pancreas in the blood spot is followed by DNA testing of the same spot for common CFTR mutations.
+[bio23-s7.15.2] Early diagnosis of cystic fibrosis allows early treatment: physiotherapy to clear mucus, antibiotics, pancreatic enzymes with food, and newer drugs, which improve growth and lung health.
+[bio23-s7.15.3] Congenital hypothyroidism: the baby's thyroid gland makes too little thyroxine, the hormone that controls growth and development. Untreated, it causes poor growth and intellectual disability.
+[bio23-s7.15.4] Treatment for congenital hypothyroidism is a daily dose of thyroxine by mouth, which allows normal development.
+[bio23-s7.15.5] Classical galactosaemia: the baby cannot break down galactose, one of the two sugars in lactose (milk sugar), because an enzyme in the pathway is missing.
+[bio23-s7.15.6] Galactose builds up as soon as the baby drinks milk and can quickly cause serious illness. Treatment is a diet free of lactose and galactose, for example a soya-based formula instead of breast or cow's milk.
+[bio23-s7.15.7] The heel-prick programme also screens for a small number of other rare inherited conditions.
+[bio23-s7.16.b] Scans, blood tests and screening mean that problems are found when they can still be managed. This is how technology has improved prenatal and postnatal care.
+[bio23-s7.16.0] Problems in the mother, such as anaemia, pre-eclampsia, gestational diabetes and infections, are found early and managed.
+[bio23-s7.16.1] Problems in the baby, such as growth problems, heart and other defects, and the baby's position, are also found early and managed.
+[bio23-s7.16.2] Pregnancy and birth are now far safer for mothers and babies than in the past.
+[bio23-s7.16.3] Newborn screening prevents intellectual disability and early death in PKU, galactosaemia and congenital hypothyroidism.
+[bio23-s7.16.4] Newborn screening gives children with cystic fibrosis early treatment.
+[bio23-s7.16.5] Parents and doctors can plan the birth and treatment in advance, for example by choosing a hospital that is ready to treat the baby at once.
+[bio23-s7.17.b] Technology also helps once the baby is born, especially for babies born too early. Premature babies are not ready to cope without support.
+[bio23-s7.17.0] Neonatal intensive care (specialist care for newborns) allows many premature babies to survive.
+[bio23-s7.17.1] Incubators keep the baby warm and protected from infection.
+[bio23-s7.17.2] Ventilators help the baby breathe.
+[bio23-s7.17.3] Surfactant, a substance that stops the air sacs in the lungs collapsing, can be given into the lungs, because premature lungs lack it.
+[bio23-s7.17.4] Phototherapy, using blue light, breaks down bilirubin (a yellow substance that builds up in the blood) in babies with jaundice.
+[bio23-s7.17.5] These treatments link to the late maturing of the lungs. There is more on this in Pregnancy.
+[bio23-s7.18.b] Technology brings problems as well as benefits. A full evaluation also covers the errors, risks, costs and difficult choices it creates.
+[bio23-s7.18.0] No screening test is perfect: a false positive causes anxiety and further tests, and a false negative gives false reassurance.
+[bio23-s7.18.1] Screening gives a chance, not a certainty, which can be hard to understand.
+[bio23-s7.18.2] Invasive diagnostic tests, CVS and amniocentesis, carry a small risk of miscarriage.
+[bio23-s7.18.3] Finding a condition that cannot be treated can leave parents with difficult decisions.
+[bio23-s7.18.4] Equipment, staff and intensive care are expensive, so access is unequal between and within countries.
+[bio23-s7.18.5] Some very premature babies who survive have long-term health problems.
+[bio23-s7.19.b] These are arguments to weigh; no side is taken.
+[bio23-s7.19.0] Parents have the right to information about their pregnancy and to decide whether to have tests (informed consent). There is more on this in Science, scientists and society.
+[bio23-s7.19.1] Genetic tests raise questions about who can see the results and how they are stored.
+[bio23-s7.19.2] Some people with disabilities and their families argue that screening for conditions such as Down syndrome can send a negative message about people living with them.
+[bio23-s7.19.3] Others argue that information from screening lets families prepare.
+[bio23-s7.19.4] Newborn blood-spot cards contain the baby's DNA, which raises questions about how long they are stored and who may use them.
+
+CANDIDATES bio35-s2: DNA profiling
+[bio35-s2.0.b] Every person's DNA is slightly different, and DNA profiling turns those differences into a pattern that can be compared between samples. It is used to link people to evidence, to each other or to a remains sample.
+[bio35-s2.0.0] DNA profiling (also called DNA fingerprinting) is a method of making a pattern of bands (or peaks) from a sample of a person's DNA, so that the DNA of different samples can be compared.
+[bio35-s2.0.1] Except for identical twins, the pattern is unique to each person, which is why it can identify an individual.
+[bio35-s2.0.2] Identical twins come from one zygote (the single cell formed at fertilisation), so they have the same DNA and the same profile. Non-identical twins and other siblings do not share a profile.
+[bio35-s2.0.3] How a profile is made, in outline: 1. DNA is extracted from cells. 2. Many copies of the repeat regions are made by PCR, so there is enough to detect (in older methods the DNA was cut with restriction enzymes).
+[bio35-s2.0.4] 3. The fragments are separated by size by gel electrophoresis, so that different lengths form different bands. 4. The pattern is analysed and compared. There is more on each step in Generating a DNA profile (Higher Level).
+[bio35-s2.1.b] A profile does not read a person's genes. It looks at stretches of DNA that do not code for protein, where short sequences are repeated, because the number of repeats differs so much from person to person.
+[bio35-s2.1.0] DNA profiling is based on non-coding DNA (DNA that does not code for a protein): about 98% of human DNA is non-coding.
+[bio35-s2.1.1] Parts of non-coding DNA contain short base sequences repeated many times one after another, for example short tandem repeats (STRs), a short sequence, often four bases (e.g. GATA), is repeated end to end, e.g. GATAGATAGATA…
+[bio35-s2.1.2] The number of repeats at a particular place on a chromosome (a locus) varies greatly between people, so the length of that piece of DNA varies too. This length difference is what a profile detects.
+[bio35-s2.1.3] Profiling is therefore not a test of a person's genes, their whole genome, their appearance or their health.
+[bio35-s2.2.b] Because we inherit one of each chromosome pair from each parent, every person has two copies of each locus. This is what gives the pattern its structure and lets it be used for family relationships.
+[bio35-s2.2.0] Each person has two copies of every locus, one on the chromosome inherited from the mother and one on the chromosome inherited from the father.
+[bio35-s2.2.1] Each copy can have a different number of repeats (two alleles, giving two bands), or the same number (giving one band, twice as strong because both copies run to the same position).
+[bio35-s2.2.2] So a child's profile at each locus has one band from the mother and one from the father. A child has half its bands from each parent, not most from the father.
+[bio35-s2.3.b] One locus on its own would match many people by chance. Testing many loci together makes a full match very strong evidence.
+[bio35-s2.3.0] A profile tests many loci at once; modern forensic profiles use more than ten.
+[bio35-s2.3.1] The chance that two unrelated people match at every locus is extremely small, which is why a full match is strong evidence of identity.
+[bio35-s2.3.2] The exception is identical twins, who share the same DNA and so the same profile at every locus.
+[bio35-s2.4.b] In gel electrophoresis, DNA fragments are pulled through a gel by an electric field and sorted by size. Knowing which way they move and which sizes go furthest lets you read a profile.
+[bio35-s2.4.0] On a gel, each band is a group of DNA fragments of the same length.
+[bio35-s2.4.1] DNA is negatively charged (because of its phosphate groups), so in an electric field it moves through the gel towards the positive electrode, away from the wells (the small slots) where samples are loaded.
+[bio35-s2.4.2] Shorter fragments (fewer repeats) move faster and travel further from the wells, because they pass through the gel more easily; longer fragments (more repeats) stay nearer the wells. So band position shows fragment length.
+[bio35-s2.4.3] Comparing band positions with a ladder of fragments of known length (a size marker) lets lengths be read.
+[bio35-s2.4.4] In modern laboratories the fragments are labelled with fluorescent dyes and separated by machine. The result is printed as a graph of peaks, each peak being one allele labelled with its number of repeats, rather than as bands. The rules for matching are the same.
+[bio35-s2.4.5] Diagram: a gel with wells at the top (negative electrode) and the positive electrode at the bottom; lanes for a ladder, a crime-scene sample and three suspects; one suspect's bands match the crime-scene lane exactly. Label wells, lanes, bands, "shorter fragments travel further", + and − electrodes.
+[bio35-s2.5.b] Once the bands are on the gel, you compare lanes. The rule for a match is strict: everything must line up.
+[bio35-s2.5.0] Two samples match only if every band is in the same position.
+[bio35-s2.5.1] A single band that differs, at any locus, shows that they did not come from the same person, because the same DNA would give identical bands; this is an exclusion.
+[bio35-s2.5.2] Paternity uses the same logic: every band in a child's profile must come from the mother or the father, so a man whose profile lacks a band the child must have inherited from its father is excluded as the father.
+[bio35-s2.6.b] DNA profiling is a recent method, and its first uses showed that it can both convict and clear people.
+[bio35-s2.6.0] DNA profiling was invented by Alec Jeffreys at the University of Leicester, England, in 1984.
+[bio35-s2.6.1] It was first used to convict a murderer, Colin Pitchfork, in 1988, which showed that it works as evidence in court.
+[bio35-s2.6.2] The same investigation first cleared an innocent suspect, who had confessed to one of the killings but whose DNA did not match.
+[bio35-s2.7.b] The two best-known uses compare a person's profile with other evidence or other people. In crime it links or excludes suspects, and in families it tests who is related to whom.
+[bio35-s2.7.0] Forensic science (crime): DNA from blood, semen, saliva, skin cells or hair roots left at a crime scene is compared with a suspect's DNA (taken from a mouth swab).
+[bio35-s2.7.1] A match links the suspect to the scene; a mismatch excludes them, because a single differing band shows the DNA came from someone else.
+[bio35-s2.7.2] Profiles are stored in national DNA databases so that new crime-scene samples can be compared with them, which can identify a suspect.
+[bio35-s2.7.3] Old crime-scene samples can be retested, solving "cold cases" (unsolved old crimes) and freeing people wrongly convicted.
+[bio35-s2.7.4] Paternity and other family relationships: DNA profiling is also used to establish maternity, to reunite separated families, and in immigration cases where family relationships must be proven.
+[bio35-s2.8.b] When a body is unrecognisable or old, a profile can still identify it by comparing with relatives or personal items. When nuclear DNA is not usable, other DNA can trace ancestry.
+[bio35-s2.8.0] Identifying human remains, e.g. victims of disasters, wars and accidents, or missing persons, by comparing their DNA with that of relatives or with DNA from their personal items (e.g. a toothbrush), which carry the person's own DNA.
+[bio35-s2.8.1] Mitochondrial DNA and Y-chromosome profiles trace family lines when nuclear DNA is too damaged or no close relative is available. Mitochondrial DNA is passed down the female line and the Y chromosome down the male line, so each follows one line of ancestors.
+[bio35-s2.8.2] Example: the skeleton found under a car park in Leicester in 2012 was confirmed in 2013 to be King Richard III, partly by matching its mitochondrial DNA to living descendants of his sister's female line.
+[bio35-s2.8.3] There is more on these two kinds of inheritance in Nuclear and non-nuclear inheritance.
+[bio35-s2.9.b] DNA profiling is not only for people. It is also applied to wildlife, farm and breeding animals, food and medicine.
+[bio35-s2.9.0] Animals, plants and conservation: identifying illegally traded wildlife products (e.g. ivory, meat from protected species), and checking the pedigree (parentage) of animals used for breeding.
+[bio35-s2.9.1] It also helps keep breeding programmes for endangered species from inbreeding (mating between close relatives).
+[bio35-s2.9.2] Food: DNA tests identify the species in food, so they show fraud when the food is not what the label says. Species tests check for a species' DNA, not an individual's profile.
+[bio35-s2.9.3] Example: in January 2013 the Food Safety Authority of Ireland found horse DNA in beef burgers on sale in Ireland, which revealed a Europe-wide horsemeat scandal.
+[bio35-s2.9.4] Medicine: DNA-based tests also help match donors and patients for bone-marrow transplants, and identify the strain of a disease-causing microorganism in an outbreak.
+[bio35-s2.10.b] The two are easily confused because both use DNA. They answer different questions.
+[bio35-s2.10.0] DNA profiling compares band patterns of mostly non-coding DNA to identify a person or a relationship; it tells nothing about health.
+[bio35-s2.10.1] Genetic screening (DNA testing) looks at particular genes to find whether a person has, or carries, an allele linked to a disease. There is more on this in Bioinformatics: genome databases and, for screening of newborns, in Prenatal and postnatal care.
+[bio35-s2.11.b] DNA evidence is powerful but not perfect. Problems can arise before, during and after the test.
+[bio35-s2.11.0] Contamination of a sample with another person's DNA (e.g. by investigators) can give a false link, so samples must be collected with gloves, masks and sealed bags.
+[bio35-s2.11.1] DNA can be degraded by heat, moisture, bacteria or time, giving incomplete profiles that are harder to interpret.
+[bio35-s2.11.2] A match shows that the DNA came from that person (or an identical twin), not when or how it got there; DNA can be transferred innocently, e.g. by touch or on shared objects.
+[bio35-s2.11.3] So DNA evidence must be weighed with other evidence; it does not prove guilt alone.
+[bio35-s2.11.4] Mistakes in labelling or interpretation, and the human judgement needed for mixed samples from several people, can lead to errors, for example if a sample is attributed to the wrong person.
+
+CANDIDATES bio35-s3: Generating a DNA profile
+[bio35-s3.0.b] A DNA profile is made by turning a tiny biological sample into a pattern of bands that can be compared between people. The process always follows the same five steps, and each step has its own reagents or equipment.
+[bio35-s3.0.0] The steps are: 1. Collect a sample, because every cell with a nucleus carries the person's DNA.
+[bio35-s3.0.1] 2. Extract the DNA, which means freeing it from the cells and separating it from everything else.
+[bio35-s3.0.2] 3. Amplify (copy) the chosen repeat regions by PCR (the polymerase chain reaction), so there is enough DNA to detect.
+[bio35-s3.0.3] 4. Separate the copies by size by gel electrophoresis.
+[bio35-s3.0.4] 5. Make the bands visible and analyse (compare) the pattern.
+[bio35-s3.0.5] In the earlier method, step 3 was replaced by cutting the DNA with restriction enzymes (enzymes that cut DNA at specific sequences). It is taught in the restriction enzymes block below.
+[bio35-s3.0.6] Diagram: a flow diagram of the five steps, with the key reagent or equipment at each: sample (swab, blood) → extraction (detergent, salt, protease, cold ethanol) → PCR (primers, nucleotides, Taq polymerase, thermal cycler) → gel electrophoresis (agarose gel, wells, electric current) → stained bands compared.
+[bio35-s3.1.b] DNA can be taken from any cell that has a nucleus, because the nucleus is where a human cell keeps its DNA. Extraction then frees the DNA from the cell in three steps, each aimed at removing one barrier.
+[bio35-s3.1.0] Sources are any cells with a nucleus, e.g. white blood cells (mature red blood cells have no nucleus, so they contain no nuclear DNA), cheek cells from a mouth swab, skin cells, hair roots (not the cut hair shaft, which has no usable nucleus), saliva and semen.
+[bio35-s3.1.1] Samples are collected with gloves and stored sealed and cold to avoid contamination (DNA from the collector or other sources getting in) and breakdown of the DNA.
+[bio35-s3.1.2] Extraction, step 1 (lysis, meaning breaking open the cells): a detergent breaks down the phospholipid membranes (the cell membrane and the nuclear envelope), releasing the DNA.
+[bio35-s3.1.3] Step 2: a protease enzyme digests proteins, including the histones (the proteins the DNA is wound around in a chromosome) bound to the DNA, leaving the DNA free.
+[bio35-s3.1.4] Step 3: DNA is insoluble in cold ethanol, so it comes out of solution (precipitates) and can be collected. Salt helps the DNA strands clump together.
+[bio35-s3.1.5] Forensic laboratories use the same principles (break cells, remove protein, purify DNA) with purified kits, because crime-scene samples are tiny and need careful handling.
+[bio35-s3.2.b] The school version of extraction uses onion, a plant tissue, and everyday chemicals. The first five steps break the tissue down and protect the DNA from damage.
+[bio35-s3.2.0] 1. Chop the onion finely, to break cell walls and give a large surface area.
+[bio35-s3.2.1] 2. Add it to a beaker containing a solution of washing-up liquid (detergent) and table salt.
+[bio35-s3.2.2] 3. Stand the beaker in a water bath at 60 °C for 15 minutes. The heat helps the detergent work and denatures enzymes that would break down the DNA; longer heating would start to break the DNA itself.
+[bio35-s3.2.3] 4. Cool the beaker in an ice-water bath for 5 minutes, slowing any enzyme breakdown of the DNA.
+[bio35-s3.2.4] 5. Blend in a food processor for no more than a few seconds, because longer blending would break the long DNA strands.
+[bio35-s3.2.5] Kiwi or strawberry also work in place of onion.
+[bio35-s3.3.b] The last four steps remove the debris, digest the proteins and then bring the DNA out of solution so it can be seen. Each reagent has one job.
+[bio35-s3.3.0] 6. Filter through coffee filter paper (or several layers of muslin) to remove cell debris, collecting the liquid filtrate in a test tube.
+[bio35-s3.3.1] 7. Add a few drops of protease to digest proteins.
+[bio35-s3.3.2] 8. Pour ice-cold ethanol gently down the side of the tilted test tube so it forms a layer on top of the filtrate.
+[bio35-s3.3.3] 9. DNA appears at the boundary as white, stringy threads that can be wound onto a glass rod.
+[bio35-s3.3.4] In short: detergent breaks the membranes, salt clumps the DNA, protease removes proteins and cold ethanol precipitates the DNA.
+[bio35-s3.3.5] Safety for this practical: ethanol is highly flammable (no flames nearby); take care with blender blades and hot water; wear safety glasses.
+[bio35-s3.4.b] A crime-scene sample may hold only a few cells, far too little DNA to see on a gel. PCR solves this by copying a chosen stretch of DNA many times over.
+[bio35-s3.4.0] PCR makes millions to billions of copies of a chosen short region of DNA (here, the STR regions, short repeated sequences that differ between people) from a tiny sample, e.g. a single hair root or a spot of blood, so that there is enough DNA to see on a gel.
+[bio35-s3.4.1] PCR is DNA replication carried out in a tube. It copies only the chosen region, not the whole genome.
+[bio35-s3.4.2] The reaction mixture contains the extracted DNA (the template, the DNA to be copied).
+[bio35-s3.4.3] It also contains primers, which are short single-stranded pieces of DNA made to be complementary to the sequences on either side of the region to be copied. This is why only that region is copied: the primers decide which region.
+[bio35-s3.4.4] DNA polymerase can only add nucleotides onto an existing strand, so a primer is needed to start each new strand.
+[bio35-s3.4.5] It also contains a supply of the four DNA nucleotides (A, T, C, G), the building blocks of the new strands, a heat-stable DNA polymerase (Taq polymerase), and a buffer solution.
+[bio35-s3.4.6] The tubes are placed in a thermal cycler, a machine that changes the temperature automatically.
+[bio35-s3.5.b] PCR involves repeated heating to a very high temperature, which would destroy most enzymes. The solution was an enzyme from a heat-loving organism.
+[bio35-s3.5.0] Taq polymerase comes from Thermus aquaticus, a bacterium found in hot springs (first found in Yellowstone National Park, USA).
+[bio35-s3.5.1] Its structure holds its shape at high temperatures, so it is not denatured (permanently unfolded) at 95 °C and works best at about 72 °C.
+[bio35-s3.5.2] A human DNA polymerase would be denatured in the first heating step, and fresh enzyme would have to be added every cycle.
+[bio35-s3.5.3] This is why PCR can be run automatically in a thermal cycler: the same enzyme survives every cycle.
+[bio35-s3.6.b] Each PCR cycle has three temperature steps in a fixed order: hot, cool, then warm. Each step does one job in copying the DNA.
+[bio35-s3.6.0] Step 1, denaturation: heat to about 95 °C. The hydrogen bonds between the complementary bases break and the two strands of each DNA molecule separate. Heat does here what helicase (the enzyme that unwinds DNA) does in cells.
+[bio35-s3.6.1] Step 2, annealing: cool to about 55 °C (usually between 50 and 65 °C, depending on the primers). The primers bind (anneal) by complementary base pairing to their matching sequences on each single strand.
+[bio35-s3.6.2] Step 3, extension: heat to about 72 °C, the optimum temperature of Taq polymerase. Taq polymerase adds nucleotides to the end of each primer, complementary to the template strand, building a new strand.
+[bio35-s3.6.3] Each double-stranded region becomes two.
+[bio35-s3.6.4] Diagram: the PCR cycle as three stages in a circle: DNA at 95 °C → separated strands; primers binding at 55 °C; extension at 72 °C → two copies; “cycle repeats, doubling the DNA each time” (1 → 2 → 4 → 8). Labels: template strand, primer, nucleotides, Taq polymerase, new strand, three temperatures.
+[bio35-s3.7.b] Because every cycle doubles the DNA, the number of copies grows very quickly. This is what makes a tiny sample usable.
+[bio35-s3.7.0] Each cycle takes a few minutes and doubles the number of copies of the target region, so after n cycles one molecule gives 2ⁿ copies.
+[bio35-s3.7.1] 10 cycles give 1,024 copies (2¹⁰); 30 cycles give 2³⁰, about 1 billion (1,073,741,824).
+[bio35-s3.7.2] A run is usually 25–35 cycles and takes a few hours.
+[bio35-s3.7.3] Kary Mullis invented PCR in 1983 and shared the Nobel Prize in Chemistry in 1993.
+[bio35-s3.7.4] Using Taq polymerase, an enzyme discovered in basic research on bacteria of hot springs, made PCR quick and automatic.
+[bio35-s3.7.5] Other uses of PCR: diagnosing infections by detecting a pathogen’s DNA or RNA (e.g. PCR tests for COVID-19), detecting alleles that cause genetic diseases, and preparing DNA for sequencing (reading the order of bases).
+[bio35-s3.8.b] Before PCR was used, DNA profiles were made by cutting the DNA rather than copying it. This is the method of Alec Jeffreys, who first developed DNA profiling.
+[bio35-s3.8.0] In Alec Jeffreys’ original method, the extracted DNA was cut with restriction enzymes, which cut at specific recognition sequences on either side of the repeat regions.
+[bio35-s3.8.1] Because people have different numbers of repeats between the cutting sites, the fragments differed in length between people, and these were separated by gel electrophoresis.
+[bio35-s3.8.2] This needed much more DNA than PCR-based profiling, which has replaced it.
+[bio35-s3.9.b] Gel electrophoresis separates DNA fragments by size using an electric current. Before the current is switched on, the gel, the buffer and the samples must be set up the right way round.
+[bio35-s3.9.0] The gel is usually agarose, a jelly made from a polysaccharide extracted from seaweed; it is full of tiny pores that act like a sieve.
+[bio35-s3.9.1] The gel is made with a row of small holes (wells) near one end and placed in a tank of buffer solution, which conducts electricity, with the wells at the negative electrode (cathode) end.
+[bio35-s3.9.2] Each DNA sample is mixed with a loading dye, which is dense so the sample sinks into the well, and coloured so that the progress of the run can be seen.
+[bio35-s3.9.3] Each sample is placed in its own well with a micropipette (a tool for measuring tiny volumes).
+[bio35-s3.9.4] One well holds a DNA ladder (size marker): a mixture of fragments of known lengths, which lets you work out the size of the other fragments.
+[bio35-s3.10.b] Once the current is on, the DNA moves and sorts itself by size. Because DNA is colourless, the bands then need to be made visible.
+[bio35-s3.10.0] Running: when the current is switched on, the negatively charged DNA (its phosphate groups carry the charge) moves through the gel towards the positive electrode (anode).
+[bio35-s3.10.1] Small fragments pass through the pores more easily and move faster, so after a set time fragments of different lengths are separated into bands, the smallest furthest from the wells.
+[bio35-s3.10.2] The current is switched off before the loading dye reaches the end of the gel, so that no fragments run off the gel.
+[bio35-s3.10.3] Making the bands visible: DNA is colourless, so the gel is stained. In schools a safe stain such as methylene blue is used, showing blue bands under white light.
+[bio35-s3.10.4] Research laboratories use fluorescent stains that glow under ultraviolet light. The older stain ethidium bromide is a mutagen (it can cause mutations) and must be handled with gloves.
+[bio35-s3.10.5] Modern forensic profiling uses primers labelled with fluorescent dyes and separates the fragments in a thin capillary tube in a machine, which reads the result as peaks.
+[bio35-s3.10.6] Diagram: an electrophoresis tank, side and top views: gel in buffer, wells at the negative (black) end, positive (red) electrode at the other, power pack, ladder and sample lanes, arrow showing DNA direction. Labels: agarose gel, well, buffer solution, cathode (−), anode (+), DNA ladder, bands, “smaller fragments travel further”.
+[bio35-s3.11.b] The final step compares the patterns of bands to decide whether DNA samples match.
+[bio35-s3.11.0] The band positions (or peak sizes) of the samples are compared with each other and with the ladder, which gives the size of each fragment.
+[bio35-s3.11.1] Matching at every locus (position on the DNA) indicates the same person.
+[bio35-s3.11.2] Inheritance of one band per locus from each parent is used in paternity cases, because a child's DNA is a mix of the mother's and the father's.
+[bio35-s3.11.3] There is more on this in Investigation: DNA-profile patterns.

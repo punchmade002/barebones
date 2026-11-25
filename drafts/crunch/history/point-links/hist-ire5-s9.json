@@ -1,0 +1,543 @@
+{
+"hist-ire5-s9.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.0.2",
+"strength": "helpful",
+"why": "unionist identity",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.1.1",
+"strength": "helpful",
+"why": "Orange parades",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.1.1",
+"strength": "helpful",
+"why": "12 July parades",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.1.b",
+"strength": "helpful",
+"why": "Orange Order",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.2.0",
+"strength": "helpful",
+"why": "the GAA",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.1.b",
+"strength": "helpful",
+"why": "Orange Order parallel",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.2.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.3.1": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s9.3.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s9.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.3.b",
+"strength": "helpful",
+"why": "ecumenism",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.3.5": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s9.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.3.b",
+"strength": "essential",
+"why": "ecumenism",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s9.5.0",
+"strength": "helpful",
+"why": "Paisley and Free Presbyterians",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.3.b",
+"strength": "essential",
+"why": "joint ecumenical initiatives",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.3.b",
+"strength": "helpful",
+"why": "ecumenism",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s9.3.b",
+"strength": "essential",
+"why": "ecumenism",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.5.0",
+"strength": "helpful",
+"why": "Paisley",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.3.b",
+"strength": "helpful",
+"why": "ecumenism",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s9.5.0",
+"strength": "helpful",
+"why": "Paisley",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.3.b",
+"strength": "essential",
+"why": "ecumenism",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.7.4",
+"strength": "helpful",
+"why": "1974 power-sharing executive",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s9.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s9.3.b",
+"strength": "helpful",
+"why": "ecumenism",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.5.0",
+"strength": "helpful",
+"why": "Paisley",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.5.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.6.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s9.6.1": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s9.6.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s9.6.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s9.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s9.6.2",
+"strength": "essential",
+"why": "argument about North",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s9.6.b",
+"strength": "helpful",
+"why": "Heaney as Troubles poet",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.6.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.7.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s9.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s9.7.0",
+"strength": "helpful",
+"why": "Field Day first production",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.7.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s9.7.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s9.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.7.0",
+"strength": "essential",
+"why": "Field Day",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.0.1",
+"strength": "helpful",
+"why": "Free Derry",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s9.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.8.0",
+"strength": "helpful",
+"why": "Cultural Traditions Group",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.8.1",
+"strength": "helpful",
+"why": "equal recognition purpose",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s9.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.3.b",
+"strength": "helpful",
+"why": "ecumenism",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.4.0",
+"strength": "essential",
+"why": "hardline opposition to ecumenism",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.6.b",
+"strength": "helpful",
+"why": "Heaney",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s9.7.b",
+"strength": "helpful",
+"why": "Field Day",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.7.b",
+"strength": "helpful",
+"why": "cultural initiatives",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.0.2",
+"strength": "essential",
+"why": "unionist identity",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s9.0.3",
+"strength": "essential",
+"why": "nationalist identity",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s9.9.6": {
+"cost": 1,
+"needs": []
+}
+}

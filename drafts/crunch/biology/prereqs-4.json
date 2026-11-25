@@ -1,0 +1,534 @@
+{
+ "bio23-s3": [
+  {
+   "needs": "bio16-s2",
+   "strength": "essential",
+   "why": "Gamete production uses meiosis.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio23-s1",
+   "strength": "helpful",
+   "why": "Testis structure is where sperm are made.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio23-s2",
+   "strength": "helpful",
+   "why": "Ovary and tube are where eggs form and fertilisation occurs",
+   "confidence": "low"
+  }
+ ],
+ "bio23-s4": [
+  {
+   "needs": "bio23-s2",
+   "strength": "essential",
+   "why": "Cycle occurs in ovary and uterus.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio20-s1",
+   "strength": "helpful",
+   "why": "Hormones and glands such as pituitary and ovary.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio21-s2",
+   "strength": "helpful",
+   "why": "Hormone levels follow feedback loops.",
+   "confidence": "low"
+  }
+ ],
+ "bio23-s5": [
+  {
+   "needs": "bio23-s3",
+   "strength": "essential",
+   "why": "Pregnancy starts from the fertilised egg.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio23-s4",
+   "strength": "helpful",
+   "why": "Implantation follows the luteal phase and progesterone.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "helpful",
+   "why": "Placental exchange uses diffusion and active transport.",
+   "confidence": "low"
+  }
+ ],
+ "bio23-s6": [
+  {
+   "needs": "bio23-s4",
+   "strength": "essential",
+   "why": "Builds on FSH, LH, oestrogen, progesterone in the cycle.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio23-s5",
+   "strength": "essential",
+   "why": "Pregnancy and birth hormones.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio20-s1",
+   "strength": "essential",
+   "why": "Endocrine glands and hormones.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio21-s2",
+   "strength": "helpful",
+   "why": "Positive and negative feedback loops.",
+   "confidence": "high"
+  }
+ ],
+ "bio23-s7": [
+  {
+   "needs": "bio23-s5",
+   "strength": "essential",
+   "why": "Care is tied to stages of pregnancy and birth.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s2",
+   "strength": "helpful",
+   "why": "Genetic screening and inherited disorders.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio29-s4",
+   "strength": "helpful",
+   "why": "Blood tests, e.g. Rhesus factor.",
+   "confidence": "low"
+  }
+ ],
+ "bio23-s8": [
+  {
+   "needs": "bio23-s4",
+   "strength": "essential",
+   "why": "Fertile periods and the pill act on the menstrual cycle hormones.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio23-s3",
+   "strength": "helpful",
+   "why": "Sperm, egg and fertilisation are what contraception blocks.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio23-s6",
+   "strength": "helpful",
+   "why": "Hormonal methods use reproductive hormones.",
+   "confidence": "high"
+  }
+ ],
+ "bio24-s1": [],
+ "bio24-s2": [
+  {
+   "needs": "bio24-s1",
+   "strength": "essential",
+   "why": "Compares flower parts and pollination types.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "Investigation planning and variables.",
+   "confidence": "high"
+  }
+ ],
+ "bio24-s3": [
+  {
+   "needs": "bio24-s1",
+   "strength": "essential",
+   "why": "Seed forms from the fertilised ovule after pollination.",
+   "confidence": "high"
+  }
+ ],
+ "bio24-s4": [
+  {
+   "needs": "bio24-s3",
+   "strength": "essential",
+   "why": "Seeds are what is dispersed.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio24-s1",
+   "strength": "helpful",
+   "why": "Fruit develops from the flower ovary.",
+   "confidence": "high"
+  }
+ ],
+ "bio25-s1": [
+  {
+   "needs": "bio7-s3",
+   "strength": "essential",
+   "why": "Plasma membrane structure.",
+   "confidence": "high"
+  }
+ ],
+ "bio25-s2": [
+  {
+   "needs": "bio25-s1",
+   "strength": "essential",
+   "why": "Uses osmosis and water potential gradients.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio30-s2",
+   "strength": "helpful",
+   "why": "Plant water uptake by osmosis.",
+   "confidence": "low"
+  }
+ ],
+ "bio25-s3": [
+  {
+   "needs": "bio25-s1",
+   "strength": "essential",
+   "why": "Measures the rate of osmosis.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "Investigation design, variables and controls.",
+   "confidence": "high"
+  }
+ ],
+ "bio26-s1": [
+  {
+   "needs": "bio25-s1",
+   "strength": "helpful",
+   "why": "Filtration and reabsorption involve membrane transport.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio21-s2",
+   "strength": "helpful",
+   "why": "Kidneys maintain salt, pH and water balance.",
+   "confidence": "high"
+  }
+ ],
+ "bio26-s2": [
+  {
+   "needs": "bio26-s1",
+   "strength": "essential",
+   "why": "Nephron is the kidney unit.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "essential",
+   "why": "Reabsorption uses diffusion, osmosis and active transport.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio29-s5",
+   "strength": "helpful",
+   "why": "Capillary exchange and pressure in the glomerulus.",
+   "confidence": "high"
+  }
+ ],
+ "bio26-s3": [
+  {
+   "needs": "bio26-s2",
+   "strength": "essential",
+   "why": "ADH acts on the collecting duct and reabsorption.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "essential",
+   "why": "Water moves by osmosis.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio21-s2",
+   "strength": "essential",
+   "why": "Negative feedback loop.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio20-s1",
+   "strength": "essential",
+   "why": "ADH is a hormone from the pituitary.",
+   "confidence": "high"
+  }
+ ],
+ "bio27-s1": [],
+ "bio27-s2": [
+  {
+   "needs": "bio27-s1",
+   "strength": "essential",
+   "why": "Uses the gut organs and their positions.",
+   "confidence": "high"
+  }
+ ],
+ "bio27-s3": [
+  {
+   "needs": "bio27-s1",
+   "strength": "essential",
+   "why": "Gut regions and glands where enzymes act.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio13-s2",
+   "strength": "essential",
+   "why": "Digestive enzymes are specific and their action depends on conditions.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s2",
+   "strength": "essential",
+   "why": "Digests carbohydrates, proteins and lipids into their building blocks.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio27-s2",
+   "strength": "helpful",
+   "why": "Bile emulsification and mechanical breakdown precede it.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "helpful",
+   "why": "Visking tubing model relies on diffusion.",
+   "confidence": "low"
+  }
+ ],
+ "bio27-s4": [
+  {
+   "needs": "bio27-s3",
+   "strength": "essential",
+   "why": "Absorbs the products of digestion.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "essential",
+   "why": "Absorption uses diffusion and active transport.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio29-s2",
+   "strength": "helpful",
+   "why": "Hepatic portal vein and transport of nutrients.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s3",
+   "strength": "helpful",
+   "why": "Glycogen storage and fate of nutrients.",
+   "confidence": "low"
+  }
+ ],
+ "bio27-s5": [
+  {
+   "needs": "bio8-s3",
+   "strength": "essential",
+   "why": "Diet relies on nutrients and their roles.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s4",
+   "strength": "helpful",
+   "why": "Minerals in diet.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s5",
+   "strength": "helpful",
+   "why": "Vitamins in diet.",
+   "confidence": "high"
+  }
+ ],
+ "bio28-s1": [
+  {
+   "needs": "bio15-s1",
+   "strength": "helpful",
+   "why": "Gas exchange supplies O2 for and removes CO2 from respiration.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "essential",
+   "why": "Alveolar gas exchange is by diffusion.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio29-s5",
+   "strength": "helpful",
+   "why": "Capillaries at the alveoli.",
+   "confidence": "low"
+  }
+ ],
+ "bio28-s2": [
+  {
+   "needs": "bio28-s1",
+   "strength": "essential",
+   "why": "Builds on breathing mechanism and the brain's CO2 detection.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio21-s2",
+   "strength": "essential",
+   "why": "Negative feedback model.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio29-s3",
+   "strength": "helpful",
+   "why": "Heart rate also responds to CO2.",
+   "confidence": "low"
+  }
+ ],
+ "bio29-s1": [
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "Dissection investigation planning.",
+   "confidence": "low"
+  }
+ ],
+ "bio29-s2": [
+  {
+   "needs": "bio29-s1",
+   "strength": "essential",
+   "why": "Uses the heart chambers and vessels.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio29-s5",
+   "strength": "helpful",
+   "why": "Vessel types in circuits.",
+   "confidence": "high"
+  }
+ ],
+ "bio29-s3": [
+  {
+   "needs": "bio29-s1",
+   "strength": "essential",
+   "why": "Heart chambers and valves.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio19-s3",
+   "strength": "helpful",
+   "why": "Pacemaker impulses are electrical signals.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio21-s2",
+   "strength": "helpful",
+   "why": "Heart rate control by feedback.",
+   "confidence": "low"
+  }
+ ],
+ "bio29-s4": [
+  {
+   "needs": "bio22-s5",
+   "strength": "helpful",
+   "why": "White blood cell roles in immunity.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio15-s1",
+   "strength": "helpful",
+   "why": "Red blood cells carry oxygen for respiration.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio11-s5",
+   "strength": "helpful",
+   "why": "Blood-group inheritance uses crosses.",
+   "confidence": "low"
+  }
+ ],
+ "bio29-s5": [
+  {
+   "needs": "bio29-s2",
+   "strength": "helpful",
+   "why": "Vessels carry blood around the circuits.",
+   "confidence": "high"
+  }
+ ],
+ "bio30-s1": [
+  {
+   "needs": "bio14-s1",
+   "strength": "helpful",
+   "why": "Leaf structure supports photosynthesis.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio7-s3",
+   "strength": "helpful",
+   "why": "Plant cell structures.",
+   "confidence": "high"
+  }
+ ],
+ "bio30-s2": [
+  {
+   "needs": "bio30-s1",
+   "strength": "essential",
+   "why": "Xylem, stomata and leaf structure.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "essential",
+   "why": "Water uptake by osmosis and mineral uptake by active transport.",
+   "confidence": "high"
+  }
+ ],
+ "bio30-s3": [
+  {
+   "needs": "bio30-s1",
+   "strength": "essential",
+   "why": "Phloem and leaf structure.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio14-s1",
+   "strength": "essential",
+   "why": "Source of CO2 and photosynthetic products.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "helpful",
+   "why": "CO2 enters by diffusion; sap flow uses osmosis.",
+   "confidence": "high"
+  }
+ ],
+ "bio30-s4": [
+  {
+   "needs": "bio30-s2",
+   "strength": "essential",
+   "why": "Stomata opening and transpiration.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio28-s2",
+   "strength": "helpful",
+   "why": "Compares CO2 control in breathing.",
+   "confidence": "high"
+  }
+ ],
+ "bio30-s5": [
+  {
+   "needs": "bio30-s2",
+   "strength": "essential",
+   "why": "Measures transpiration.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "Investigation planning and variables.",
+   "confidence": "high"
+  }
+ ]
+}

@@ -1,0 +1,814 @@
+{
+ "bio32-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s1.3.0",
+    "strength": "helpful",
+    "why": "habitat definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.0.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s1.3.1",
+    "strength": "helpful",
+    "why": "microhabitats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.1.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio32-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.11.0",
+    "strength": "helpful",
+    "why": "identification keys",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s1.3.1",
+    "strength": "helpful",
+    "why": "microhabitat location",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.4.0",
+    "strength": "helpful",
+    "why": "how pitfall traps work",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.4.0",
+    "strength": "helpful",
+    "why": "pitfall trap",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.4.0",
+    "strength": "helpful",
+    "why": "pitfall trap",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.4.0",
+    "strength": "essential",
+    "why": "pitfall trap structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.5.0",
+    "strength": "helpful",
+    "why": "Tullgren funnel purpose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s1.5.1",
+    "strength": "essential",
+    "why": "funnel set-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.5.1",
+    "strength": "helpful",
+    "why": "funnel beaker position",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.5.1",
+    "strength": "helpful",
+    "why": "funnel mesh and lamp",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.5.1",
+    "strength": "essential",
+    "why": "funnel parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.7.0",
+    "strength": "essential",
+    "why": "sweep net",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.7.0",
+    "strength": "helpful",
+    "why": "sweep net",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.7.0",
+    "strength": "helpful",
+    "why": "sweeps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.7.0",
+    "strength": "helpful",
+    "why": "sweep net",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.7.5",
+    "strength": "essential",
+    "why": "beating tray method",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s1.8.0",
+    "strength": "helpful",
+    "why": "pooter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s1.8.0",
+    "strength": "essential",
+    "why": "pooter structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.8.1",
+    "strength": "helpful",
+    "why": "mouthpiece tube",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.8.0",
+    "strength": "helpful",
+    "why": "pooter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.8.0",
+    "strength": "helpful",
+    "why": "pooter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.8.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s1.8.0",
+    "strength": "essential",
+    "why": "pooter parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.9.0",
+    "strength": "helpful",
+    "why": "butterfly net catching",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s1.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.9.2",
+    "strength": "essential",
+    "why": "light trap",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.0.1",
+    "strength": "helpful",
+    "why": "primary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.11.0",
+    "strength": "essential",
+    "why": "identification key",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.11.1",
+    "strength": "essential",
+    "why": "couplets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.11.3",
+    "strength": "helpful",
+    "why": "good key features",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.11.1",
+    "strength": "essential",
+    "why": "couplet format",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.12.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.11.1",
+    "strength": "helpful",
+    "why": "dichotomous splits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.12.5",
+    "strength": "essential",
+    "why": "key construction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.12.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.11.1",
+    "strength": "helpful",
+    "why": "dichotomous splits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.1.0",
+    "strength": "helpful",
+    "why": "species concept",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.14.0",
+    "strength": "helpful",
+    "why": "daisy and dandelion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.14.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.14.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.15.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s1.7.5",
+    "strength": "helpful",
+    "why": "beating tray",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s1.5.0",
+    "strength": "helpful",
+    "why": "Tullgren funnel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.15.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.7.0",
+    "strength": "helpful",
+    "why": "sweeping with net",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s1.15.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio32-s1.15.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.15.4",
+    "strength": "helpful",
+    "why": "kick sampling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s1.15.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.15.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.16.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.16.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.16.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.16.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.16.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.16.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.17.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.17.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.17.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.17.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.17.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.18.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.18.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.18.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s1.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.4.3",
+    "strength": "helpful",
+    "why": "checking traps",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s1.18.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.11.0",
+    "strength": "helpful",
+    "why": "identification keys",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s1.18.5": {
+  "cost": 1,
+  "needs": []
+ }
+}

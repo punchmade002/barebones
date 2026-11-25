@@ -1,0 +1,340 @@
+{
+ "geo-option-atmosphere-ocean-s5.18.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.18.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.18.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.18.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.19.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.19.0": {
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s2.5.5",
+    "strength": "helpful",
+    "why": "plate movement over geological time",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.19.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.19.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.19.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.19.4": {
+  "needs": [
+   {
+    "id": "geo-plate-tectonics-s2.5.5",
+    "strength": "helpful",
+    "why": "moving continents change ocean map",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5.19.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.19.6": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.20.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.20.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.21.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.22.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.22.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.22.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.22.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.22.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.22.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.23.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.24.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.24.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.24.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.24.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.24.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.24.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.24.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.24.6": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.25.6": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.26.6": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.27.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.27.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.27.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.27.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.27.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.27.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.27.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.28.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.29.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.29.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.29.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.29.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.30.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.30.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.30.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.30.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.30.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.31.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.31.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.31.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.31.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.31.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.31.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.4": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.5": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.32.6": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.33.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.33.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.33.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.33.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.33.3": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.34.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.34.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.34.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.34.2": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.35.b": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.35.0": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.35.1": {
+  "needs": []
+ },
+ "geo-option-atmosphere-ocean-s5.35.2": {
+  "needs": []
+ }
+}

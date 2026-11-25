@@ -1,0 +1,544 @@
+{
+"geo-option-culture-identity-s6.30.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.31.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.31.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.31.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.31.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.31.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.32.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.32.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.32.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.32.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.33.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.33.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.33.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.34.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.34.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.34.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.34.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.35.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.35.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.35.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.36.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.36.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.36.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.36.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.36.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.37.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.37.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.37.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.38.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.38.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.38.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.38.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.39.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.39.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.39.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.39.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.39.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.39.4": {
+"needs": []
+},
+"geo-option-culture-identity-s6.39.5": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.17.0",
+"strength": "helpful",
+"why": "Manx and Cornish revival",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.40.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.40.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.40.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.40.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.40.3": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.23.0",
+"strength": "helpful",
+"why": "Laws in Wales Acts",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.41.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.41.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.41.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.41.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.42.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.42.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.42.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.42.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.42.3": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.25.2",
+"strength": "helpful",
+"why": "Welsh Language Measure 2011",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s2.14.2",
+"strength": "helpful",
+"why": "S4C channel",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s2.25.4",
+"strength": "helpful",
+"why": "Cymraeg 2050 target",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.43.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.43.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.43.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.43.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.44.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.44.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.44.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.44.2": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.26.1",
+"strength": "helpful",
+"why": "Urdd and Eisteddfod",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.44.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.45.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.45.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.45.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.45.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.45.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.45.4": {
+"needs": []
+},
+"geo-option-culture-identity-s6.46.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.46.0": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.23.2",
+"strength": "helpful",
+"why": "coal and iron spread English",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.46.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.46.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.46.3": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.27.2",
+"strength": "helpful",
+"why": "second homes and in-migration",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.46.4": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.27.3",
+"strength": "helpful",
+"why": "second-home council-tax premium",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.46.5": {
+"needs": []
+},
+"geo-option-culture-identity-s6.47.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.47.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.47.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.47.2": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.29.1",
+"strength": "helpful",
+"why": "French as language of Republic",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.47.3": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.29.1",
+"strength": "helpful",
+"why": "Article 2 French Constitution",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s2.29.4",
+"strength": "helpful",
+"why": "Diwan schools",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.48.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.48.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.48.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.48.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.49.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.49.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.49.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.49.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.49.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.49.4": {
+"needs": []
+},
+"geo-option-culture-identity-s6.50.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.50.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.50.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.50.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.51.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.51.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.51.1": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.31.0",
+"strength": "helpful",
+"why": "EU and Europe minority language support",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s6.52.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.52.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.52.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.52.2": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.2.b",
+"strength": "helpful",
+"why": "language of power spreads",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.52.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.53.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.53.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.53.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.53.2": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.0.2",
+"strength": "helpful",
+"why": "language defines cultural regions",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.54.b": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.9.0",
+"strength": "helpful",
+"why": "Flemish as Dutch",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s6.54.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.54.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.54.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.55.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.55.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.55.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.55.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.55.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.56.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.56.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.56.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.56.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.57.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.57.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.57.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.57.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.57.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.57.4": {
+"needs": []
+},
+"geo-option-culture-identity-s6.57.5": {
+"needs": []
+},
+"geo-option-culture-identity-s6.58.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.58.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.58.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.59.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.59.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.59.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.59.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.59.3": {
+"needs": []
+},
+"geo-option-culture-identity-s6.59.4": {
+"needs": []
+},
+"geo-option-culture-identity-s6.60.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.60.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.60.1": {
+"needs": []
+},
+"geo-option-culture-identity-s6.60.2": {
+"needs": []
+},
+"geo-option-culture-identity-s6.61.b": {
+"needs": []
+},
+"geo-option-culture-identity-s6.61.0": {
+"needs": []
+},
+"geo-option-culture-identity-s6.61.1": {
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.4.0",
+"strength": "helpful",
+"why": "Belgium language border divides state",
+"confidence": "low"
+}
+]
+}
+}

@@ -1,0 +1,375 @@
+MODE: links only (another package rates cost)
+TARGET geo-urban-s4: 4. Urban land use and planning
+[geo-urban-s4.0.b] A large city is divided into zones of land use (areas where one kind of activity dominates). Each zone has its own pattern of buildings and activity, and its own land value. The zones below are typical of a large European city and can all be identified in Dublin.
+[geo-urban-s4.0.0] CBD (central business district): the commercial heart of the city, with the highest land values, tall buildings and the most intensive use of land, meaning the most activity packed onto each site.
+[geo-urban-s4.0.1] Zone in transition: the inner-city area of mixed old housing, warehouses and small industry, where decay and renewal exist side by side. It is called a zone of transition because it is changing from one use to another.
+[geo-urban-s4.0.2] Inner residential zone: older terraced housing (houses joined in rows) close to the centre, so it lies near the CBD and jobs.
+[geo-urban-s4.0.3] Suburbs: lower-density housing, mainly semi-detached houses (pairs of houses sharing one wall), built later and further from the centre, so there is more space for each house.
+[geo-urban-s4.0.4] Industrial zones: the port, inner-city industry, suburban industrial estates and business parks (landscaped sites of modern offices and light industry).
+[geo-urban-s4.0.5] Open space and recreation: parks, playing fields and other green areas within the built-up city, such as Phoenix Park in Dublin.
+[geo-urban-s4.0.6] Transport land: roads, railway lines, the port and the airport, such as Dublin Port and Dublin Airport.
+[geo-urban-s4.0.7] Rural-urban fringe: the transitional land at the edge of the built-up area, where urban and rural land uses meet and compete for the same sites.
+[geo-urban-s4.1.b] The CBD is the most intensively used part of any city. Almost everything about it follows from one fact: it is the most accessible place, so everyone wants a site there.
+[geo-urban-s4.1.0] Land values are highest here because accessibility is greatest, so the most valuable sites are used for the most profitable activities.
+[geo-urban-s4.1.1] Tall buildings maximise the use of expensive land, with several floors of offices or shops on a small site.
+[geo-urban-s4.1.2] Vertical zoning: shops occupy the ground floor, with offices or other uses above, so each floor of a costly site earns money.
+[geo-urban-s4.1.3] Department stores, chain stores and specialist shops occupy the main shopping streets, because these sites bring the most customers.
+[geo-urban-s4.1.4] Offices, banks and the head offices of companies cluster together in the centre, because they can pay the high land values and need to be close to each other and to clients.
+[geo-urban-s4.1.5] Government and cultural buildings are located in the centre, where they are most accessible to the whole population.
+[geo-urban-s4.1.6] Few people live in the CBD, so it is crowded during the working day and quiet at night, when workers and shoppers go home.
+[geo-urban-s4.1.7] Pedestrian streets are used in the busiest shopping areas, where traffic and crowds would otherwise congest the streets.
+[geo-urban-s4.2.b] Dublin's CBD shows these features on a real map, and it is the Irish example to use for the CBD.
+[geo-urban-s4.2.0] Dublin's CBD lies on both sides of the River Liffey.
+[geo-urban-s4.2.1] Its main shopping streets are Grafton Street, south of the Liffey, and Henry Street, north of it. Both are pedestrianised, meaning closed to traffic.
+[geo-urban-s4.2.2] O'Connell Street is the city's main street.
+[geo-urban-s4.3.b] Three models describe how land uses arrange themselves around a city centre. Each is a simplified generalisation, so it is judged by how well it fits the real city. The first is the oldest, and it draws the city as a set of rings.
+[geo-urban-s4.3.0] Ernest Burgess proposed the concentric zone model in 1925, based on Chicago. Land uses form rings around the CBD, with land values and densities (the number of people per area) falling with distance from the centre.
+[geo-urban-s4.3.1] Strength: it shows the regular fall in land value and density outwards from the CBD. Limitation: it ignores transport routes, so it does not fit cities whose growth follows roads and rail lines.
+[geo-urban-s4.3.2] Diagram: concentric rings drawn around a central point labelled CBD, with the zones of transition, residential and commuter land shown in turn.
+[geo-urban-s4.4.b] The second model answers the weakness of the rings: cities do not grow evenly in all directions. Roads, railways and rivers pull growth outwards in lines.
+[geo-urban-s4.4.0] Homer Hoyt proposed the sector model in 1939. Land uses extend outwards in wedge-shaped sectors along transport routes, and a high-class residential sector lies away from industry.
+[geo-urban-s4.4.1] Strength: it explains why sectors of the city are elongated along roads, rail lines and rivers, because transport routes make the land beside them more accessible. Limitation: it does not show the separate suburban centres that grow in large cities.
+[geo-urban-s4.4.2] Diagram: a circle divided into wedge-shaped sectors, with radial transport routes (routes running out from the centre) marked and the high-class residential sector shown away from the industrial sector.
+[geo-urban-s4.5.b] The third model drops the idea of a single centre. In a large modern city, activities gather around several centres (nuclei) at once.
+[geo-urban-s4.5.0] Chauncy Harris and Edward Ullman proposed the multiple nuclei model in 1945. A city grows around several separate centres, such as the CBD, suburban shopping centres, an airport and business parks.
+[geo-urban-s4.5.1] Strength: it explains the growth of suburban centres. Limitation: it gives no simple pattern of rings or sectors, so it is less clear as a general description.
+[geo-urban-s4.5.2] Diagram: a city outline with several separate centres marked, each surrounded by its own cluster of land use.
+[geo-urban-s4.5.3] Dublin fits the multiple nuclei and sector models better than the concentric model: the CBD is one nucleus, while suburban shopping centres and business parks are other nuclei, and growth follows the main roads out of the city.
+[geo-urban-s4.6.b] Dublin shows the zones of a modern European city, with the inner city in transition and the outer city growing along the M50 (the orbital motorway circling the city) and the western new towns.
+[geo-urban-s4.6.0] Georgian core: the Georgian squares (planned 18th-century squares), such as Merrion Square and Fitzwilliam Square, are now largely offices.
+[geo-urban-s4.6.1] The Wide Streets Commissioners, set up in 1757, widened and improved the city's streets, shaping the centre's wide thoroughfares.
+[geo-urban-s4.6.2] Inner-city docklands and the north inner city are in transition, with older industrial and port land being renewed.
+[geo-urban-s4.6.3] Older inner suburbs lie between the centre and the outer suburbs, so their older housing forms an inner residential zone.
+[geo-urban-s4.6.4] Outer suburbs and the western new towns: Tallaght, Clondalkin, Lucan and Blanchardstown, planned in the Wright Report of 1967 (a planning report for the growth of the city).
+[geo-urban-s4.6.5] Business and industrial parks lie near the M50 and the N7 (the national road running south-west from Dublin): Grange Castle, Citywest, Park West and Sandyford. Roads give them access for lorries and workers.
+[geo-urban-s4.6.6] The port and airport are major transport and industrial land uses: Dublin Port and Dublin Airport.
+[geo-urban-s4.6.7] Open space includes Phoenix Park, about 700 hectares and one of Europe's largest enclosed city parks, established in 1662; the Dublin Mountains and Dublin Bay are further open spaces at the edge of the city.
+[geo-urban-s4.7.b] Paris is the world city studied for comparison with Dublin. Its land uses are concentrated in the inner city and organised around a ring road and a set of outer business and housing areas.
+[geo-urban-s4.7.0] The City of Paris has about 2.1 million people on about 105 km2, divided into 20 arrondissements (administrative districts). The wider Ile-de-France region has about 12 million people.
+[geo-urban-s4.7.1] The CBD and government quarter lie in the inner arrondissements, the most central districts.
+[geo-urban-s4.7.2] Haussmann's boulevards: Haussmann rebuilt central Paris between 1853 and 1870, creating wide boulevards that give the inner city its formal street pattern.
+[geo-urban-s4.7.3] La Défense, west of the city, is one of Europe's largest purpose-built business districts, an office district outside the historic inner city.
+[geo-urban-s4.7.4] The Boulevard Périphérique, completed in 1973, is the ring road that forms the boundary of the inner city.
+[geo-urban-s4.7.5] The banlieues are the suburbs beyond the Périphérique, where grands ensembles (large public housing estates built in the 1950s to 1970s) are found, for example Sarcelles.
+[geo-urban-s4.7.6] The 1965 regional plan created five new towns (planned towns built to take growth away from the city): Cergy-Pontoise, Évry, Marne-la-Vallée, Melun-Sénart and Saint-Quentin-en-Yvelines.
+[geo-urban-s4.8.b] Industry has moved out of the inner city to the edge, where land is cheaper and road access is better. This is the first of three movements (industrial, residential, commercial) that change a city's land-use pattern.
+[geo-urban-s4.8.0] Old inner-city industry beside the port, canals and railways (the transport of the time) included brewing, biscuit-making and distilling.
+[geo-urban-s4.8.1] Many of these sites closed or moved to suburban industrial estates and business parks near motorways, so that lorries can reach them easily.
+[geo-urban-s4.8.2] Reasons for the move: lack of space for expansion in the inner city, cheaper land on the edge, road access for lorries, less congestion, planning policy, and new industries needing clean, modern sites.
+[geo-urban-s4.8.3] The vacated inner-city sites are brownfield land (land previously developed, now available for reuse), which can then be redeveloped for other uses.
+[geo-urban-s4.8.4] The Guinness brewery is an exception, having stayed at St James's Gate since Arthur Guinness's lease of 1759.
+[geo-urban-s4.8.5] Jacob's biscuit factory moved from Bishop Street in the inner city to Tallaght in the 1970s. The old factory now houses the National Archives, an example of a brownfield site reused.
+[geo-urban-s4.8.6] Paris: Renault's Boulogne-Billancourt plant closed in 1992, an example of industry leaving the inner city.
+[geo-urban-s4.9.b] Housing has also moved outwards, but in recent years some people have moved back in. Each change raises planning issues.
+[geo-urban-s4.9.0] Inner-city tenements (old multi-occupied houses) were cleared in the 20th century, and their residents were moved to new suburbs and new towns.
+[geo-urban-s4.9.1] Growth of suburban housing spread the city outwards, with sprawl (uncontrolled spread of building) into commuter counties, the counties around the city whose residents travel in to work.
+[geo-urban-s4.9.2] The trend has been reversed in places, with a return to inner-city apartment living in areas such as the Docklands, through regeneration (investment to renew a run-down area).
+[geo-urban-s4.9.3] Issues raised by residential change: the density of housing, the height of buildings and the social mix of the area.
+[geo-urban-s4.10.b] Shops and offices have followed the roads and the car-owning population to the edge of the city. This takes trade and activity away from the centre.
+[geo-urban-s4.10.0] Suburban shopping centres and retail parks have been built beside motorway junctions, where there is car access, free parking and cheaper land.
+[geo-urban-s4.10.1] The Square, Tallaght, opened in 1990; Blanchardstown Centre in 1996; Liffey Valley in 1998; and Dundrum Town Centre in 2005. All are beside major roads or the M50.
+[geo-urban-s4.10.2] Out-of-town office parks have been built in the same way, on sites with good road access, so that workers can drive to them.
+[geo-urban-s4.10.3] Effects on the city centre: vacant units and lost trade, because shoppers move to the edge.
+[geo-urban-s4.10.4] Responses: pedestrianisation of the centre, regeneration of central streets and limits on the size of retail parks, so that the centre can keep its shoppers.
+[geo-urban-s4.10.5] Paris: La Défense takes offices out of the inner city, while the suburban business districts of the region take other commercial uses.
+[geo-urban-s4.11.b] Industry, housing and shops all moving at once creates problems that planners have to manage. These are the main issues.
+[geo-urban-s4.11.0] Zoning: planning authorities divide land into use zones through development plans (official plans for an area) to control where each use may be located.
+[geo-urban-s4.11.1] Brownfield and greenfield development: reuse of old urban land must be balanced against building on undeveloped edge land.
+[geo-urban-s4.11.2] Height and density: taller and denser buildings in the centre raise questions of design, light and services.
+[geo-urban-s4.11.3] Transport: new zones must be linked to public transport, or they generate car journeys and congestion.
+[geo-urban-s4.11.4] Mixed land use: combining housing, offices and shops in one area reduces travel but can cause conflict between uses.
+[geo-urban-s4.11.5] Conflict between business, residents and heritage: new offices or roads can threaten housing or historic buildings.
+[geo-urban-s4.12.b] Bid-rent theory, put forward by William Alonso in 1964, explains why land values and land uses change with distance from the centre. Bid-rent is the most a user can afford to pay for a plot of land.
+[geo-urban-s4.12.0] Accessibility (how easily a site can be reached by people) is greatest at the centre, so competition for sites is fiercest there and land is dearest at the peak land value intersection (PLVI), the point of highest value.
+[geo-urban-s4.12.1] Land values fall with distance from the centre, because each step outwards means less accessibility.
+[geo-urban-s4.12.2] Commerce outbids industry for central sites, and industry outbids housing, because each use can pay a different amount for the same land.
+[geo-urban-s4.12.3] Secondary peaks of land value form at suburban centres, ring-road junctions and along main roads, where accessibility is also high.
+[geo-urban-s4.12.4] Effect on building: tall buildings and intensive use occur at the centre, while large, low-density uses such as warehouses and car parks occur at the edge.
+[geo-urban-s4.13.b] Social stratification is the division of a city's population into groups by income, class, ethnicity, age and family stage, and segregation is the separation of these groups into different areas.
+[geo-urban-s4.13.0] Causes: land and house prices, the allocation of social housing (housing provided by the State for those who cannot afford to buy or rent privately), planning decisions, transport access, household choice and discrimination.
+[geo-urban-s4.13.1] Results: affluent areas are set against areas of concentrated disadvantage, and gated developments (housing estates closed off by gates) create closed residential areas.
+[geo-urban-s4.13.2] Gentrification: better-off people move into and renovate a poorer inner-city area, raising prices and displacing lower-income residents. It is a different process from urban renewal and redevelopment. There is more on this in Urban planning and renewal.
+[geo-urban-s4.14.b] Both of the case-study cities show segregation on the map. Use these named examples, and keep descriptions of places factual.
+[geo-urban-s4.14.0] Dublin: affluent south-east suburbs, including Ballsbridge, Donnybrook, Dalkey and Foxrock, contrast with lower-income areas in parts of the north inner city and in some outer social-housing estates.
+[geo-urban-s4.14.1] Ballymun is the case of concentrated social housing in Dublin, with seven 15-storey tower blocks built between 1966 and 1969.
+[geo-urban-s4.14.2] Gentrification around the Docklands: the inner-city area has attracted new residents and businesses, including Google's European headquarters at Grand Canal Dock, known as 'Silicon Docks'.
+[geo-urban-s4.14.3] Paris: the wealthy western districts contrast with the poorer north-eastern banlieues of Seine-Saint-Denis, the poorest département (administrative area) in mainland France.
+[geo-urban-s4.14.4] Immigrant residents are concentrated in grands ensembles, and the riots that began in Clichy-sous-Bois in October 2005 showed the tensions in these areas.
+[geo-urban-s4.15.b] As cities grow, they take in rural land at the rural-urban fringe. The pressures on rural land are caused by population growth and by the choices made by households and firms.
+[geo-urban-s4.15.0] Causes: population growth and in-migration (people moving in from elsewhere); demand for cheaper, larger houses; car ownership and motorways; high house prices in the city; and jobs moving to the suburbs.
+[geo-urban-s4.15.1] Loss of farmland: housing, roads and business parks replace fields, and rising land prices encourage farmers to sell, because the land is worth more built on than farmed.
+[geo-urban-s4.15.2] Hobby farms and horse paddocks spread across the fringe, which takes land out of commercial farming.
+[geo-urban-s4.15.3] Commuter villages gain new estates, and their character and community can be lost as their population changes.
+[geo-urban-s4.15.4] Other uses on the fringe: retail parks, business parks, data centres (buildings full of computer servers), landfill sites, quarries and golf courses.
+[geo-urban-s4.15.5] Environmental effects: loss of habitats and hedgerows, and flooding as paved surfaces replace soil that would absorb rainwater.
+[geo-urban-s4.15.6] Conflicts between farmers, residents and developers over the future of the fringe.
+[geo-urban-s4.16.b] Dublin's growth shows these pressures at work in the counties around it.
+[geo-urban-s4.16.0] Sprawl into Meath, Kildare and Wicklow. The Greater Dublin Area had about 2.1 million people at the Census of 2022, about 40% of the State.
+[geo-urban-s4.16.1] Commuter towns: Navan, Ashbourne, Naas, Newbridge, Maynooth, Bray and Greystones, with one-off housing (single houses built in the countryside) across the commuter belt.
+[geo-urban-s4.16.2] Data centres on the city edge used about a fifth of Ireland's metered electricity in 2023 (CSO), most of them in the Dublin region.
+[geo-urban-s4.17.b] Planners have tried to control expansion by protecting land, by building new settlements and by deciding in advance where growth may go.
+[geo-urban-s4.17.0] Green belts (protected rings of open land around a city): London's Metropolitan Green Belt was protected from the 1940s and 1950s to stop the outward sprawl of London.
+[geo-urban-s4.17.1] New towns (planned towns built to take growth away from a city): Britain's New Towns Act 1946 led to Stevenage, the first new town designated, in 1946, and Milton Keynes, designated in 1967.
+[geo-urban-s4.17.2] Paris's five new towns, from the 1965 plan, took population growth away from the city, so that it did not all go into the existing built-up area.
+[geo-urban-s4.17.3] Dublin's western new towns of Tallaght, Clondalkin, Lucan and Blanchardstown were planned after the Wright Report of 1967, so that growth went into planned towns.
+[geo-urban-s4.17.4] Compact growth and brownfield targets, set out in the National Planning Framework, aim to build on land within existing settlements. There is more on this in Urban planning and renewal.
+[geo-urban-s4.17.5] Development plans zone land for particular uses, so that the authorities decide where expansion may take place.
+
+CANDIDATES geo-mapwork-s1: Map interpretation
+[geo-mapwork-s1.0.b] Exam map questions are set on an Ordnance Survey (OS) map, the official survey map of Ireland. To answer them you need to know what the map shows and how its scale (the link between a distance on paper and the real distance on the ground) works. Worked examples use an invented town called Rivertown and are labelled illustrative.
+[geo-mapwork-s1.0.0] The exam map is a 1:50 000 Ordnance Survey (Discovery Series) extract, meaning a cut-out piece of the national map, and questions say 'examine the map and legend'. The legend is the key that explains the symbols.
+[geo-mapwork-s1.0.1] Every symbol, colour and road-class answer comes from the legend, so read it before answering instead of guessing from memory.
+[geo-mapwork-s1.0.2] A ratio (representative fraction) of 1:50 000 means 1 unit on the map equals 50 000 of the same units on the ground, for example 1 cm on the map stands for 50 000 cm on the ground.
+[geo-mapwork-s1.0.3] A linear scale (scale bar, a ruler-like line printed on the map) and a statement scale ('2 cm to 1 km', written in words) express the same scale in different forms.
+[geo-mapwork-s1.0.4] On 1:50 000, 1 cm = 0.5 km and 2 cm = 1 km, so a grid square (one square of the printed grid) of 2 cm × 2 cm is 1 km × 1 km = 1 km².
+[geo-mapwork-s1.0.5] A large-scale map (e.g. 1:1 000) shows a small area in great detail; a small-scale map (e.g. 1:1 000 000) shows a large area with little detail. The bigger the ratio number, the smaller the scale.
+[geo-mapwork-s1.0.6] 1:50 000 is a medium scale, suited to a town and its surroundings because it shows buildings, roads and relief clearly while still covering a useful area.
+[geo-mapwork-s1.1.b] A grid reference is a short code that pins a place on the map. Learn the two types, because a four-figure reference names a whole square and a six-figure reference names a point inside it.
+[geo-mapwork-s1.1.0] The Irish Grid divides Ireland into 25 sub-zones, each 100 km × 100 km, lettered A to Z with I omitted. The sub-zone letter is printed on the map and starts every grid reference, so that the code points to one place only.
+[geo-mapwork-s1.1.1] Eastings are the vertical grid lines, numbered along the top and bottom, and the numbers increase eastward. Read them first, because the grid reference runs across before it runs up.
+[geo-mapwork-s1.1.2] Northings are the horizontal grid lines, numbered up the sides, and the numbers increase northward. Read them second, so that the reference reads across then up.
+[geo-mapwork-s1.1.3] Memory aid for the order: along the corridor, then up the stairs.
+[geo-mapwork-s1.1.4] A four-figure reference identifies a whole 1 km square by the easting and northing of its bottom-left (south-west) corner. Use it for areas such as a lake, a forest or a slope, which cover a whole square rather than a single point.
+[geo-mapwork-s1.1.5] A six-figure reference identifies a point to the nearest 100 m. Mentally divide the square into tenths, then read the tenths east of the easting line and the tenths north of the northing line.
+[geo-mapwork-s1.1.6] Six-figure references locate point features such as a building symbol, a road junction, a spot height (a dot marking an exact height) or the point where a road leaves the map. Give the reference for the centre of the symbol.
+[geo-mapwork-s1.1.7] Illustrative: the square containing the ringfort (an early Christian farmstead) in Rivertown is the four-figure reference R 25 43, easting 25 first and then northing 43, with R as the sub-zone letter.
+[geo-mapwork-s1.2.b] Questions use grid references in two directions: you are given a reference and asked what is there, or told a feature and asked to locate it. Position can also be given in words, relative to other things.
+[geo-mapwork-s1.2.0] To name a feature at a grid reference, find the sub-zone letter, then the easting, then the northing, and name what the map or legend labels at that point exactly.
+[geo-mapwork-s1.2.1] A common Ordinary task is naming the feature at three or four grid references, such as an antiquity (a historic monument), a Garda station, a post office or a tourist feature.
+[geo-mapwork-s1.2.2] Illustrative: the bridge over the River Dallow is at six-figure reference R 268 441, so the easting 268 is read before the northing 441; the feature at R 280 436 is a motte (a Norman earth mound).
+[geo-mapwork-s1.2.3] Absolute location is a precise position given by a grid reference or by latitude and longitude (degrees measured from fixed lines on the globe), so it can be checked exactly.
+[geo-mapwork-s1.2.4] Relative location describes a position against other features or directions, so it is approximate, e.g. 'north-west of the town, beside the river'.
+[geo-mapwork-s1.2.5] Exams ask which area of the map (north-west, south-east and so on) a named feature lies in, for example the north-east.
+[geo-mapwork-s1.3.b] Latitude and longitude give a global position in degrees from two fixed reference lines, which makes them useful for any place on Earth, not only places on one OS map.
+[geo-mapwork-s1.3.0] Latitude is the angular distance north or south of the Equator (0°, the line round the middle of the Earth), up to 90°N and 90°S at the poles. Lines of latitude (parallels) run east–west, parallel to each other.
+[geo-mapwork-s1.3.1] Longitude is the angular distance east or west of the Prime Meridian (0°), which passes through Greenwich, London, up to 180°. Lines of longitude (meridians) run north–south and meet at the poles.
+[geo-mapwork-s1.3.2] Each degree is divided into 60 minutes (′). Write latitude first with N or S, then longitude with E or W, e.g. 53°20′N, 6°15′W.
+[geo-mapwork-s1.3.3] Key lines: the Equator (0°); the Tropics of Cancer and Capricorn at about 23.5°N and 23.5°S; the Arctic and Antarctic Circles at about 66.5°N and 66.5°S; the International Date Line roughly follows 180°.
+[geo-mapwork-s1.3.4] One degree of latitude is about 111 km everywhere, because parallels are evenly spaced. One degree of longitude is about 111 km at the Equator and shrinks to zero at the poles, because the meridians meet there.
+[geo-mapwork-s1.4.b] Longitude is linked to time, and it also lets you describe where Ireland sits on the globe. Each coordinate system has its own best use.
+[geo-mapwork-s1.4.0] The earth turns 360° in 24 hours, so 15° of longitude equals 1 hour of time. Places to the east are ahead.
+[geo-mapwork-s1.4.1] Illustrative: a place 30° east of Greenwich is 2 hours ahead, since 30 ÷ 15 = 2.
+[geo-mapwork-s1.4.2] Ireland's position is fixed by coordinates: it lies between about 51.5°N and 55.5°N and about 5.5°W and 10.5°W, so it is in the northern hemisphere (north of the Equator) and the western hemisphere (west of Greenwich).
+[geo-mapwork-s1.4.3] Example: Dublin lies at about 53°20′N, 6°15′W, which puts it north of the Equator and west of Greenwich.
+[geo-mapwork-s1.4.4] Grid references are used on OS maps because they are quicker and more precise at local scale; latitude and longitude are used for global location.
+[geo-mapwork-s1.5.b] Distance questions ask for a length in km between two points. A straight-line distance is measured directly; a curved distance has to follow the bends of a road, railway, river or walk.
+[geo-mapwork-s1.5.0] Straight-line distance: measure with a ruler in cm and multiply by 0.5 to get km, or lay a paper edge between the two points and read it against the scale bar. Give the answer in km to one decimal place.
+[geo-mapwork-s1.5.1] From two grid references: find the difference in eastings (ΔE) and the difference in northings (ΔN) in km, then distance = √(ΔE² + ΔN²). This is Pythagoras' theorem applied to the grid.
+[geo-mapwork-s1.5.2] Curved distance (a road, railway, river or walk): mark the start on the straight edge of a strip of paper, pivot the strip at each bend and mark as you go, then straighten it and measure against the scale bar. A string laid along the route also works.
+[geo-mapwork-s1.5.3] Start and stop exactly at the points named, such as where the road enters the map, a junction or a roundabout, so that the length is not too long or too short.
+[geo-mapwork-s1.5.4] Illustrative: the bridge at R 268 441 to the summit pillar at R 240 405 measures 9.1 cm, or 4.6 km (rounded); by grid, ΔE = 2.8 km and ΔN = 3.6 km, so √(2.8² + 3.6²) = √20.8 ≈ 4.6 km.
+[geo-mapwork-s1.5.5] Illustrative: the R990 from the town to the crossroads village measures 9.0 cm along its bends, or 4.5 km.
+[geo-mapwork-s1.6.b] Area is found by counting grid squares, because each 1 km square on a 1:50 000 map is 1 km². The method depends on whether the shape is a neat rectangle or irregular.
+[geo-mapwork-s1.6.0] Rectangular areas (the whole map, or the part north of a named northing or west of a named easting): count kilometres east–west × kilometres north–south; each 1 km square is 1 km².
+[geo-mapwork-s1.6.1] Irregular features (a lake, a bay, land above a contour): count the full squares; count squares more than half covered as full; ignore squares less than half covered, or estimate part-squares as fractions.
+[geo-mapwork-s1.6.2] Give the answer in km² and state that it is approximate, since counting part-squares is an estimate.
+[geo-mapwork-s1.6.3] Land on one side of a road or railway: count the squares on that side and estimate partly covered squares; exclude sea where the question asks for land.
+[geo-mapwork-s1.6.4] Illustrative: the whole extract is 14 km × 8 km = 112 km²; the land north of northing 44 is 14 km × 4 km = 56 km².
+[geo-mapwork-s1.6.5] Illustrative: an invented lake covering 3 full squares and 4 squares more than half covered is about 7 km².
+[geo-mapwork-s1.7.b] Direction questions ask which way you would travel between two places, or which way a feature runs. The map has a fixed north, so every answer is read against it.
+[geo-mapwork-s1.7.0] North is the top of the OS map (grid north). The eight compass points are N, NE, E, SE, S, SW, W and NW; sixteen points add NNE, ENE, ESE, SSE, SSW, WSW, WNW and NNW.
+[geo-mapwork-s1.7.1] Method: draw a line from the start point to the destination, imagine a compass centred on the start, and read the direction of travel.
+[geo-mapwork-s1.7.2] 'From A to B' means the direction of travel, read at A. Quick check: is B above or below A (north or south), and to the left or right (west or east)?
+[geo-mapwork-s1.7.3] Direction along a route (a walk, a road, a river's flow) is the overall direction from its start to its end. A river flows from its source on high ground to its mouth on low ground, which spot heights and contours show.
+[geo-mapwork-s1.7.4] Bearings (optional for Higher): the angle measured clockwise from north, from 0° to 360°; E = 090°, S = 180°, W = 270°.
+[geo-mapwork-s1.7.5] Illustrative: from the bridge at R 268 441 to the summit pillar at R 240 405, the pillar is 2.8 km west and 3.6 km south, so the direction of travel is south-west; from the pillar to the bridge it is north-east. The River Dallow flows towards the north-east.
+[geo-mapwork-s1.8.b] The OS map shows height with several devices. Contours are the main one, and you must be able to read a height from each.
+[geo-mapwork-s1.8.0] Contours are lines joining places of equal height above sea level. On the Discovery Series the vertical interval (the height difference between neighbouring contours) is 10 m, and some contours are numbered with their height.
+[geo-mapwork-s1.8.1] Spot heights are dots with the height in metres, which is useful for exact heights; triangulation pillars are survey points with their height; layer colouring (colour bands for ranges of height) is shown in the legend.
+[geo-mapwork-s1.8.2] Height of a point: read the spot height or pillar beside it, or the nearest numbered contour, and count contours up or down at 10 m each.
+[geo-mapwork-s1.8.3] The highest point on the map is the highest spot height or pillar; check the upland areas, because high ground is where the top height will be.
+[geo-mapwork-s1.9.b] The spacing of contours shows how steep the ground is, and the pattern of spacing gives the shape of the slope. This is how you recognise a slope type on the map.
+[geo-mapwork-s1.9.0] Contours close together mean a steep slope, because the ground rises 10 m over a short distance; contours far apart mean a gentle slope; a wide area with no contours is flat ground, such as a floodplain or coastal lowland.
+[geo-mapwork-s1.9.1] Even slope: contours are evenly spaced, so the gradient stays constant, as on a straight ramp.
+[geo-mapwork-s1.9.2] Concave slope: contours close together near the top and widely spaced near the bottom, so the slope is steep above and gentle below, and the whole slope can be seen from the top.
+[geo-mapwork-s1.9.3] Convex slope: contours widely spaced near the top and close together near the bottom, so the slope is gentle above and steep below, and the foot cannot be seen from the top.
+[geo-mapwork-s1.9.4] Stepped slope, for example a terraced hillside: alternating bands of close and wide contour spacing, which gives steep sections and flat sections in turn.
+[geo-mapwork-s1.10.b] Different relief features make distinct contour shapes. Learn the shape of each and you can name the feature from the contours alone.
+[geo-mapwork-s1.10.0] Valley: contours form V or U shapes pointing upstream (towards higher ground, where the river rises), with a river along the floor.
+[geo-mapwork-s1.10.1] Spur: a ridge of land sticking out from a hill, so water runs off it either side, with contours forming V shapes pointing downhill, towards lower ground.
+[geo-mapwork-s1.10.2] Plateau: a high, flat or gently sloping top with steep edges; contours crowd round the edge and are few on the top.
+[geo-mapwork-s1.10.3] Ridge: a long, narrow stretch of high ground, shown by elongated contours along its crest (the top line).
+[geo-mapwork-s1.10.4] Col or saddle: a low pass between two summits, shown as a dip between two high points, so it is a natural route across a range.
+[geo-mapwork-s1.10.5] Escarpment: a steep slope on one side and a gentle slope on the other, so contours are close on one side and wide on the other.
+[geo-mapwork-s1.10.6] Knoll or isolated hill: a closed ring of contours, because the ground falls away on every side.
+[geo-mapwork-s1.11.b] Gradient measures steepness as a number, aspect says which way a slope faces, and intervisibility asks whether two points can see each other. All three use the heights and distances on the map.
+[geo-mapwork-s1.11.0] Gradient is the steepness of a slope: vertical interval (VI, the difference in height) ÷ horizontal equivalent (HE, the ground distance), both in the same units, written as 1 in x or 1:x. A larger x means a gentler slope.
+[geo-mapwork-s1.11.1] Method: find the height of each point and subtract to get the VI; measure the distance on the map and convert it to metres for the HE; divide HE by VI. The result is an average gradient between the two points.
+[geo-mapwork-s1.11.2] Aspect is the direction a slope faces, which is the direction you look when facing downhill, not the uphill direction: a slope falling towards the south is south-facing, with a southerly aspect.
+[geo-mapwork-s1.11.3] In Ireland, south-facing slopes receive more sunshine and are warmer.
+[geo-mapwork-s1.11.4] Intervisibility: whether one point can be seen from another. A convex slope or intervening high ground blocks the view, so check with a cross-section (a side-on drawing of the ground between them).
+[geo-mapwork-s1.11.5] Illustrative: the summit at 512 m to the bridge at 52 m gives VI = 460 m; HE = 4.6 km = 4 600 m; gradient = 4 600 ÷ 460 = 1 in 10.
+[geo-mapwork-s1.12.b] A cross-section is a side-on view of the ground along a line between two points, built from the contours the line crosses. It shows the shape of the relief and lets you test slopes and views.
+[geo-mapwork-s1.12.0] 1. Join the two points with a straight line on the map.
+[geo-mapwork-s1.12.1] 2. Lay a straight paper edge along the line and mark where every contour crosses it, with its height, plus rivers, roads and other features.
+[geo-mapwork-s1.12.2] 3. Draw a horizontal axis the same length as the line (horizontal scale = map scale) and a vertical axis with a chosen height scale.
+[geo-mapwork-s1.12.3] 4. Plot each height above its mark and join the points with a smooth curve.
+[geo-mapwork-s1.12.4] 5. Label the rivers, roads, the summit, the slope types and the ends (X and Y, with grid references); give a title and both scales.
+[geo-mapwork-s1.12.5] Vertical exaggeration: the vertical scale is stretched so that relief shows, since otherwise the hills would look almost flat. It equals the horizontal scale distance ÷ the vertical scale distance for the same map length, and is stated in the title or key.
+[geo-mapwork-s1.12.6] Illustrative: a cross-section north from the summit to the river uses a horizontal scale of 1:50 000 (1 cm = 500 m) and a vertical scale of 1 cm = 50 m (1:5 000); vertical exaggeration = 500 m ÷ 50 m = ×10.
+[geo-mapwork-s1.12.7] Illustrative: the slope from the summit is concave, with contours crowded near the top and widely spaced near the river.
+[geo-mapwork-s1.13.b] In some questions the profile is already drawn for you. Your job is to match each labelled point on it to the map, then read facts off the map at that spot.
+[geo-mapwork-s1.13.0] A printed profile runs along a named easting or northing between points X and Y, with features labelled A to E; match each labelled point to the map by its distance along the line and its height.
+[geo-mapwork-s1.13.1] A river crossing is a dip in the profile, because the land falls to the river, with a blue line on the map at that spot.
+[geo-mapwork-s1.13.2] A road is identified by its number on the map, for example the N99 in the illustrative example below.
+[geo-mapwork-s1.13.3] The height at a point is read from the vertical axis or from the map, so cross-check one against the other.
+[geo-mapwork-s1.13.4] The slope type between two points (concave, convex, even, steep, gentle, flat) is read from the profile curve and the contours.
+[geo-mapwork-s1.13.5] Land use or forestry type is read from the map symbol at that point.
+[geo-mapwork-s1.13.6] A named walk, cycle route or tourist attraction crossing the line, and the townland (the smallest Irish land division) or place name at a point, are read from the map labels.
+[geo-mapwork-s1.13.7] Illustrative: along northing 42 from X (R 200 420) to Y (R 300 420), point A is a dip where the River Dallow crosses, B is on the N99, C is on coniferous plantation, and the slope between D and E is concave.
+[geo-mapwork-s1.14.b] Symbols are drawn or named by copying them from the legend, in proportion and in the legend's colour where colour is used. The legend is provided in the exam, so the skill is knowing its groups and reading it quickly.
+[geo-mapwork-s1.14.0] Legend groups: roads; railways and stations; water features; height; vegetation; antiquities; tourist and leisure information; public services; boundaries.
+[geo-mapwork-s1.14.1] Road letters: M = motorway; N = national road (national primary and national secondary routes); R = regional road. N stands for National and R for Regional, not 'route' or 'rural'.
+[geo-mapwork-s1.14.2] Vegetation: coniferous plantation (pointed, conifer-shaped tree symbols), deciduous woodland (rounded tree symbols) and mixed woodland (both); use the legend's terms.
+[geo-mapwork-s1.14.3] Symbols exams have asked students to draw or name: viewpoint, picnic site, parking, boating activities, triangulation pillar, ringfort, county boundary, wind farm, post office, youth or independent holiday hostel, golf course, camping site, electricity transmission line, waymarked walk and cycle route. Learn them from the legend.
+[geo-mapwork-s1.15.b] Antiquities are historic monuments, and the map labels each one. Some maps also mark a cultural area, so you should know how to spot it.
+[geo-mapwork-s1.15.0] Antiquities are grouped in the legend; name one exactly as the map labels it, e.g. 'Castle (in ruins)', 'Ringfort', 'Standing Stone', 'Megalithic Tomb', 'Church (in ruins)', 'Holy Well' or 'Motte'.
+[geo-mapwork-s1.15.1] Cultural areas: some maps mark a Gaeltacht (Irish-speaking area) boundary, which the legend identifies.
+[geo-mapwork-s1.15.2] Irish-language place names on the map are further evidence of a cultural area.
+[geo-mapwork-s1.16.b] A sketch is a ruled, labelled drawing of the features asked for, placed accurately on a frame. It is never a tracing.
+[geo-mapwork-s1.16.0] Higher asks for a sketch to half scale (20 marks): half the length and half the breadth of the extract. Ordinary asks for a sketch map of the area shown (30 marks); a frame of similar shape, about half size, is safest.
+[geo-mapwork-s1.16.1] Measure the extract, or count squares (each 2 cm square becomes 1 cm), and draw a frame with four ruled sides.
+[geo-mapwork-s1.16.2] Draw light pencil grid lines on the frame at the same eastings and northings (every 1 cm at half scale, or every second line) and label the edge numbers. These let you place features accurately.
+[geo-mapwork-s1.16.3] Draw a coastline as a firm line, so that it stands out from the grid lines; draw a river as a line between the named grid references, or along its entire course; draw broad rivers and lakes as outlined shapes.
+[geo-mapwork-s1.16.4] Draw roads and railways as lines along their entire route where asked; draw areas (land above a contour, plantation, built-up area, golf course) as shaded closed shapes; draw point features (post office, triangulation pillar, viewpoint, camping site) as a symbol or dot.
+[geo-mapwork-s1.16.5] 'Land above 300 m': follow the 300 m contour accurately round every part of the area asked for. 'Entire area' means all of it; 'at' or 'in the south-west of the map' means only that part.
+[geo-mapwork-s1.16.6] Label every feature on the sketch or in a key; an unlabelled feature earns nothing. Add a title, a north arrow and the words 'half scale'.
+[geo-mapwork-s1.16.7] Never trace the map. Draw only the features asked for, in the correct part of the frame, since a feature placed in the wrong part loses marks.
+[geo-mapwork-s1.17.b] Illustrative: the extract is 28 cm × 16 cm, so the frame is 14 cm × 8 cm, with grid lines every 1 cm. Here is how each requested feature of the invented Rivertown map is drawn and labelled.
+[geo-mapwork-s1.17.0] River Dallow, entire course: a line from its entry at R 200 402 in the south-west to its exit at R 340 470 in the north-east, following its meanders across the floodplain east of the town; label it.
+[geo-mapwork-s1.17.1] N99, entire route: a road line from the south-west to the north-east through the town; label it N99.
+[geo-mapwork-s1.17.2] Railway: a line with its station at R 272 445; label it.
+[geo-mapwork-s1.17.3] Built-up area of Rivertown: a shaded closed shape around the town centre and the housing estates on the northern edge, with the industrial estate on the N99 at the north-eastern edge; label it.
+[geo-mapwork-s1.17.4] Area above 300 m at Slievenagh: a shaded closed shape following the 300 m contour round the summit triangulation pillar at R 240 405; label it.
+[geo-mapwork-s1.18.b] A drainage pattern is the shape that a river and its tributaries (the smaller streams that join it) make on the map. Each pattern has a recognisable look, and the shape hints at the rock or land beneath.
+[geo-mapwork-s1.18.0] Dendritic: tree-like, with tributaries joining the main river at acute angles, on rock of uniform resistance (rock that wears away at the same rate everywhere).
+[geo-mapwork-s1.18.1] Trellised: tributaries join the main river at right angles, on alternating bands of hard and soft rock, so the streams follow the soft bands.
+[geo-mapwork-s1.18.2] Radial: streams flow outward in all directions from a central hill or mountain, because the water runs downhill every way, as the small streams do around the summit of Slievenagh.
+[geo-mapwork-s1.18.3] Centripetal: streams flow inward to a central lake or lowland, because that is the lowest ground.
+[geo-mapwork-s1.18.4] Deranged: no clear pattern, with many small lakes and marshes, on glacial deposits (material left by ice).
+[geo-mapwork-s1.18.5] Real examples, one clause each: trellised in the Munster ridge and valley; deranged in the Co. Cavan drumlin belt; centripetal at Lough Neagh.
+[geo-mapwork-s1.19.b] Fluvial landforms are those made by rivers. On the map each one has a clue, such as a loop, a flat area with no contours, or contours crowded across the river.
+[geo-mapwork-s1.19.0] V-shaped valley: the upland valley pattern given under landforms read from contours, with sharp contour Vs pointing upstream; the river runs along the floor.
+[geo-mapwork-s1.19.1] Meander: a river swinging in loops, such as those on a flat floodplain. Oxbow lake: a crescent-shaped lake beside a meandering river.
+[geo-mapwork-s1.19.2] Floodplain: wide and flat, with no contours, along a lowland river; often marshy.
+[geo-mapwork-s1.19.3] Levees: embankments (raised banks) along the channel, where the map shows them.
+[geo-mapwork-s1.19.4] Braiding: the river splits, so it looks like a plait, into several channels around islands.
+[geo-mapwork-s1.19.5] Confluence: the point where a tributary joins the main river, which you can see as a Y-shaped junction of blue lines.
+[geo-mapwork-s1.19.6] Delta: deposits where a river enters a lake or the sea.
+[geo-mapwork-s1.19.7] Waterfall: shown by a symbol or name, with contours crowded across the river.
+[geo-mapwork-s1.20.b] Glacial landforms were shaped by ice. They show up on the map as hollows, narrow ridges and groups of small hills, each with a distinctive contour shape.
+[geo-mapwork-s1.20.0] Corrie: an armchair-shaped hollow (the shape ice carves, with a steep back wall), with contours close on three sides and open downhill.
+[geo-mapwork-s1.20.1] Tarn: a small, round lake in a corrie, often high up.
+[geo-mapwork-s1.20.2] Arête: a narrow ridge with very close contours on both sides, because the ground falls steeply away either side.
+[geo-mapwork-s1.20.3] U-shaped valley: a broad, flat floor with steep sides, and contours close together on the valley sides.
+[geo-mapwork-s1.20.4] Ribbon lake: a long, narrow lake on the floor of a U-shaped valley.
+[geo-mapwork-s1.20.5] Drumlins: many small oval closed contour rings, often with small lakes between them.
+[geo-mapwork-s1.20.6] Esker: a long, narrow, winding ridge on lowland, so it stands out from the flat ground around it.
+[geo-mapwork-s1.21.b] Coastal landforms are found where land meets sea. Karst landforms belong to limestone country, where water drains underground. Both are recognised by their shapes, symbols and names.
+[geo-mapwork-s1.21.0] Beach: for example sand or shingle (small rounded stones) shading along the shore.
+[geo-mapwork-s1.21.1] Cliff: a cliff symbol, or contours crowded together at the coast, because the land drops steeply to the sea.
+[geo-mapwork-s1.21.2] Headland: land projecting into the sea, often high.
+[geo-mapwork-s1.21.3] Bay: a curved inlet of the sea, so the coastline bends inland.
+[geo-mapwork-s1.21.4] Sand spit (a narrow strip of sand built out from the coast), tombolo (a ridge joining an island to the mainland) and lagoon (a shallow pool cut off from the sea): identified by their shapes and names on the map.
+[geo-mapwork-s1.21.5] Sand dunes: shown by dune shading or a name.
+[geo-mapwork-s1.21.6] Swallow hole: a stream ends abruptly where it disappears underground; limestone areas have few surface streams.
+[geo-mapwork-s1.22.b] A lake's origin can usually be read from its shape and setting on the map, so questions ask you to give the type at a grid reference.
+[geo-mapwork-s1.22.0] Lake type at a grid reference: glacial (tarn or ribbon lake), fluvial (oxbow), coastal (lagoon) or artificial (reservoir, shown by a straight dam edge, a dam symbol or a 'Reservoir' label).
+[geo-mapwork-s1.23.b] Some Higher questions link the map to mass movement (the downhill movement of rock and soil), and ask you to find extremes of slope. Steepness comes from contour spacing.
+[geo-mapwork-s1.23.0] A very steep area is shown by crowded contours or cliffs; locate it with a six-figure grid reference.
+[geo-mapwork-s1.23.1] A very gentle area is shown by widely spaced contours; locate it with a six-figure grid reference.
+[geo-mapwork-s1.23.2] There is more on mass movement on steep ground in the rocks and weathering chapter.
+[geo-mapwork-s1.24.b] Settlement pattern means how buildings are arranged on the land. Three patterns appear on OS maps, and each has a look and a reason.
+[geo-mapwork-s1.24.0] Nucleated: buildings clustered at a crossroads, bridge, church or village, such as the crossroads village on the invented Rivertown map.
+[geo-mapwork-s1.24.1] Linear (ribbon): buildings strung along a road, sometimes a coast road or a valley floor, such as the houses along the R990 north of Rivertown.
+[geo-mapwork-s1.24.2] Dispersed: individual farmhouses scattered across farmland, each on its own land, so there is no cluster.
+[geo-mapwork-s1.24.3] Nucleated settlement forms around a route focus (where routes meet) or a service; linear settlement forms where a road gives access to services; dispersed settlement reflects farming and land consolidation (joining small plots into larger farms).
+[geo-mapwork-s1.24.4] Ribbon development on the approach roads to a town: linear housing spreads out along the main roads, because of cheaper rural sites, road access and services along the road.
+[geo-mapwork-s1.25.b] Houses are not spread evenly. Map evidence shows where people avoided building and where they chose to cluster, and each reason must be backed by that evidence.
+[geo-mapwork-s1.25.0] Absence from high land above about 200–300 m, which is cold, wet, exposed and has thin soils; give a four-figure grid reference and the map evidence.
+[geo-mapwork-s1.25.1] Absence on steep slopes, shown by crowded contours, because building and farming are difficult there.
+[geo-mapwork-s1.25.2] Absence on poorly drained land, shown by a marsh or bog symbol, and on floodplains liable to flooding, because houses there would be damp or flooded.
+[geo-mapwork-s1.25.3] Absence where forestry plantations cover the land, since the land is used for trees, and on lakes, because they cannot be built on.
+[geo-mapwork-s1.25.4] High density of settlement: give a four-figure grid reference for lowland, gently sloping, well-drained land near roads, a town or the coast.
+[geo-mapwork-s1.25.5] Explain each factor that favours high density: flat or gently sloping land, good drainage, road access, and nearness to a town or the coast.
+[geo-mapwork-s1.26.b] A variations question asks you to compare how settlement is spread in two parts of the map. Use the same set of factors for both parts so that the comparison is fair.
+[geo-mapwork-s1.26.0] A variations question (Higher, 30 marks) usually compares two contrasting parts of the map, e.g. north and south of a named northing.
+[geo-mapwork-s1.26.1] For each part, compare relief and height, drainage, the soils implied by the land use, communications (roads and rail), and the pull of a town or the coast.
+[geo-mapwork-s1.26.2] State each factor with a grid reference and explain it for both areas.
+[geo-mapwork-s1.26.3] Illustrative: settlement is nucleated at the crossroads village, linear along the R990 north of the town and dispersed in the north-west of the lowland; there is no settlement on Slievenagh above 300 m (R 23 40: high, steep, exposed, forestry) or on the floodplain east of the town (flood risk).
+[geo-mapwork-s1.27.b] Historic settlement questions ask you to name monuments on the map and say what period they belong to. The prehistoric period runs from the Stone Age to the Iron Age.
+[geo-mapwork-s1.27.0] Stone Age to Iron Age sites, such as megalithic tombs (stone-built burial monuments: court, portal or dolmen, passage and wedge tombs), standing stones, stone circles and cists (stone-lined graves).
+[geo-mapwork-s1.27.1] Also prehistoric: fulachta fia (Bronze Age cooking sites), promontory forts (forts on land jutting out into water) and crannógs (lake dwellings).
+[geo-mapwork-s1.27.2] Who lived there: early farming communities. Why the site was chosen: defence (promontory forts) and a lake (crannógs). What it shows: farming economy, and burial and ritual sites for religion.
+[geo-mapwork-s1.27.3] Illustrative: a megalithic tomb at R 225 412 and a standing stone at R 231 418.
+[geo-mapwork-s1.28.b] The early Christian (early medieval) period left many farmsteads and church sites. Several different map names point to the same kind of site.
+[geo-mapwork-s1.28.0] Early Christian (early medieval) sites include ringforts, also named rath, lios, dún, caher or cashel on the map; souterrains (underground passages); ecclesiastical (church-related) sites with churches and graveyards; holy wells; round towers; and high crosses.
+[geo-mapwork-s1.28.1] Ringforts were the farmsteads of the period, enclosed by an earth bank (stone in a cashel or caher).
+[geo-mapwork-s1.28.2] Ringforts belong to the early Christian period, not to the prehistoric or Norman periods.
+[geo-mapwork-s1.28.3] What it shows: a farming society, and the spread of Christianity, seen in churches, round towers and high crosses.
+[geo-mapwork-s1.28.4] Illustrative: a ringfort at R 255 430 and a church in ruins with its graveyard at R 262 446.
+[geo-mapwork-s1.29.b] The Normans were medieval invaders who built castles to hold land. Their sites are usually placed to guard something, such as a river crossing.
+[geo-mapwork-s1.29.0] Norman (medieval) sites include mottes and motte-and-bailey sites (earth mounds, with a walled yard in the second type), castles, town walls, abbeys and friaries, and towns at bridging points.
+[geo-mapwork-s1.29.1] Mottes are Norman sites; fulachta fia are Bronze Age, and ringforts are early Christian, so check the label before dating a site.
+[geo-mapwork-s1.29.2] Why the site was chosen: defence, and control of a river crossing, so that the Normans could hold the land around it.
+[geo-mapwork-s1.29.3] What it shows: Norman military control, and the religious life of the abbeys and friaries.
+[geo-mapwork-s1.29.4] Illustrative: a motte at R 280 436 and a castle in ruins at R 269 439, beside the bridge.
+[geo-mapwork-s1.30.b] The later periods leave planned towns, large estates and industrial and transport remains. Each tells you about how the country was organised and how it developed.
+[geo-mapwork-s1.30.0] Tower houses are fortified stone houses, built for protection; planned towns have a regular layout with a square or wide main street; demesnes are large houses with estate woodland.
+
+CANDIDATES geo-mapwork-s1: Map interpretation
+[geo-mapwork-s1.30.1] 19th and 20th century sites include canals, railways and stations, mills, coastguard stations, later housing and industrial estates.
+[geo-mapwork-s1.30.2] What it shows: the growth of planned towns and estates, and of transport and industry.
+[geo-mapwork-s1.31.b] Many Irish place names are built from Irish words that describe the land or what stood there. Knowing the elements helps you read the history and site of a place from its name.
+[geo-mapwork-s1.31.0] Settlement and building elements: baile/bally (townland or settlement), cill/kil (church), ráth/rath and lios/lis (ringfort), dún/dun (fort), cathair/caher (stone fort), áth/ath (ford), droichead (bridge).
+[geo-mapwork-s1.31.1] Land elements: cnoc/knock (hill), sliabh/slieve (mountain), ard (height), drom/drum (ridge), gleann/glen (valley), mullach/mullagh (summit).
+[geo-mapwork-s1.31.2] Water, vegetation and other elements: loch/lough (lake), inis/inch (island), cluain/clon (meadow), doire (oak wood), carraig/carrick (rock).
+[geo-mapwork-s1.31.3] Size elements: beag/beg (small), mór/more (big).
+[geo-mapwork-s1.31.4] Townlands are the smallest land division in Ireland; townland names are printed on OS maps, and exams ask which townland a point lies in.
+[geo-mapwork-s1.32.b] A 30-mark question asks for three reasons, each named, evidenced from the map with a grid reference and explained. Choose the three for which the map gives the clearest evidence.
+[geo-mapwork-s1.32.0] Bridging point: the town grew where a river could be crossed, and bridges and roads converge on it.
+[geo-mapwork-s1.32.1] Route focus: several N and R roads and a railway meet, so the town became a market and service centre.
+[geo-mapwork-s1.32.2] Defence: a castle, town walls, a hill or a river bend guards the site.
+[geo-mapwork-s1.32.3] River or coastal site: water supply, transport, power for mills, and a harbour or pier for trade and fishing.
+[geo-mapwork-s1.32.4] Flat or gently sloping lowland: easy to build on, with widely spaced contours.
+[geo-mapwork-s1.32.5] Fertile surrounding farmland: dispersed farms and no marsh, so the town serves as a market town for its hinterland (the area around it that it serves).
+[geo-mapwork-s1.32.6] Ecclesiastical origin: an abbey or early church site. Tourism: a coast, beaches, lakes or uplands attract visitors to the town.
+[geo-mapwork-s1.32.7] Illustrative: the bridging point is the bridge at R 268 441, with roads converging on it; the route focus is the N99, the R990 and the railway station at R 272 445; defence is the castle at R 269 439 and the motte at R 280 436, guarding the crossing.
+[geo-mapwork-s1.33.b] A function is a job a town does for its people and surroundings. Name each function, give the symbol or label and its grid reference, and explain it.
+[geo-mapwork-s1.33.0] Residential: built-up area and housing estates, because they show where people live.
+[geo-mapwork-s1.33.1] Market and retail: a route focus and a central square, because people gather where routes meet to buy and sell.
+[geo-mapwork-s1.33.2] Services: hospital, Garda station, post office, schools and courthouse, where labelled.
+[geo-mapwork-s1.33.3] Transport: railway station, bus routes and motorway junction, such as the Rivertown station at R 272 445.
+[geo-mapwork-s1.33.4] Industrial: industrial estate or factory labels, because they show where goods are made.
+[geo-mapwork-s1.33.5] Tourist and recreational: tourist information office, golf course, hostels, camping and caravan sites, marinas, viewpoints and walks.
+[geo-mapwork-s1.33.6] Port or fishing: pier, harbour and slipway, because boats land and load there.
+[geo-mapwork-s1.33.7] Ecclesiastical: churches and abbeys. Defensive in the past: castle.
+[geo-mapwork-s1.34.b] A town's layout records its history, with the oldest parts near the crossing point and newer parts at the edge.
+[geo-mapwork-s1.34.0] Old core, the first part to be built: narrow streets, a square, and a castle or abbey near the bridge.
+[geo-mapwork-s1.34.1] Newer edge, where there is more space: housing estates, industrial estates, a bypass or motorway with junctions, and ribbon development.
+[geo-mapwork-s1.35.b] Choose a site with a six-figure grid reference and give three reasons, each supported by map evidence.
+[geo-mapwork-s1.35.0] Flat land: widely spaced contours, because it is cheaper and easier to build on.
+[geo-mapwork-s1.35.1] Access: an N road, a motorway junction, a railway or a port, so that goods and workers can reach the site.
+[geo-mapwork-s1.35.2] Nearness to a town for labour, services and markets; space to expand; a site off the floodplain and away from protected or scenic areas.
+[geo-mapwork-s1.35.3] Wind farms need exposed high ground away from houses; hotels need to be near tourist attractions.
+[geo-mapwork-s1.35.4] State a disadvantage when asked, e.g. visual impact, traffic, loss of farmland or conflict with residents.
+[geo-mapwork-s1.36.b] Economic activities are the ways people earn a living, grouped as primary, secondary and tertiary. The map shows each through symbols and labels, and tourism can be judged from what the map offers visitors.
+[geo-mapwork-s1.36.0] Primary activity (using natural resources): forestry plantations, farming (shown by dispersed farms and field land), quarries and fishing piers.
+[geo-mapwork-s1.36.1] Secondary activity (making goods): industrial estates and factories, such as the industrial estate on the N99 at the north-eastern edge of Rivertown.
+[geo-mapwork-s1.36.2] Tertiary activity (providing services): services, tourism and transport, such as shops, hotels and railways.
+[geo-mapwork-s1.36.3] Each activity is evidenced by a map symbol or label and its grid reference.
+[geo-mapwork-s1.36.4] Tourism potential, accessibility and services, so that visitors can get there and stay: road access, parking, accommodation and tourist information.
+[geo-mapwork-s1.36.5] Tourism potential, attractions that draw visitors, such as antiquities, viewpoints, walks, cycle routes, beaches, lakes and golf courses.
+[geo-mapwork-s1.36.6] Each factor is evidenced with grid references and explained.
+[geo-mapwork-s1.37.b] Statistical maps show numbers on a map. The OS map links to them through its contours and its key.
+[geo-mapwork-s1.37.0] Contours are isolines (lines joining places of equal value), so they work like the lines on a weather map, the same kind of line used on isoline statistical maps, where the value is a statistic instead of height.
+[geo-mapwork-s1.37.1] Choropleth, dot, isoline, proportional-symbol and flow-line maps are taught in Graph skills; there is more on them there.
+[geo-mapwork-s1.38.b] Map questions fall into short questions, matching questions, sketch maps and long map-evidence questions. Short questions are worth Higher 2 marks each; Ordinary 3–5 marks, often tick-box.
+[geo-mapwork-s1.38.0] Short questions: a six-figure reference for a named building, road junction or exit point; the antiquity, public service or feature at a grid reference; the height of a spot height, pillar or highest point; the length of a road, motorway or railway; the straight-line distance between two points.
+[geo-mapwork-s1.38.1] Short questions also ask for the area of the whole map, of a lake or bay, of land above a contour, or of land east, west, north or south of a grid line or railway.
+[geo-mapwork-s1.38.2] More short questions ask for the direction of travel; the part of the map a feature lies in; the type of forestry; what N or R stands for; a legend symbol; a cultural area (Gaeltacht).
+[geo-mapwork-s1.38.3] Matching questions give features (such as a meander, a drumlin or a headland) to grid references, and ask for two drainage patterns, the type of lake or the aspect of a slope at a grid reference; elevation profile questions and true or false profile statements (Higher).
+[geo-mapwork-s1.38.4] Sketch maps: Higher 20 marks at half scale; Ordinary 30 marks; typically four or five features.
+[geo-mapwork-s1.38.5] 15-mark map-and-process question (Higher): name and locate two landforms with six-figure grid references and explain one; locate a very steep and a very gentle slope.
+[geo-mapwork-s1.38.6] 30-mark map-evidence questions: three reasons a town developed at its location; three rural settlement patterns; variations in settlement distribution; absence and high density of settlement.
+[geo-mapwork-s1.38.7] More 30-mark map-evidence questions: three phases of historic settlement; site suitability with a six-figure reference; economic activity and tourism potential.

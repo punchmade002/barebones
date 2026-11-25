@@ -1,0 +1,795 @@
+{
+ "geo-option-global-interdependence-s4.20.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.20.b",
+    "strength": "helpful",
+    "why": "Kuapa Kokoo co-operative described",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.20.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.20.1",
+    "strength": "helpful",
+    "why": "Divine Chocolate part-owned by farmers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.21.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.18.4",
+    "strength": "helpful",
+    "why": "democratic co-operatives",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.21.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.21.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.16.1",
+    "strength": "essential",
+    "why": "middlemen take share of price",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.18.2",
+    "strength": "essential",
+    "why": "Fairtrade Premium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.21.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.21.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.22.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.17.0",
+    "strength": "helpful",
+    "why": "definition of fair trade",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.22.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.18.0",
+    "strength": "helpful",
+    "why": "minimum price gives stable income",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.18.2",
+    "strength": "essential",
+    "why": "Fairtrade Premium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.22.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.18.4",
+    "strength": "essential",
+    "why": "democratic co-operatives",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.22.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.20.4",
+    "strength": "helpful",
+    "why": "women in co-operative example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.22.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.18.6",
+    "strength": "helpful",
+    "why": "environmental standards",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.22.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.16.2",
+    "strength": "helpful",
+    "why": "child labour as a problem",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.22.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.16.4",
+    "strength": "helpful",
+    "why": "tariff escalation blocks processing",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.22.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.18.7",
+    "strength": "helpful",
+    "why": "Fairtrade Mark shows standards",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.23.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.17.2",
+    "strength": "essential",
+    "why": "Fairtrade Mark certification",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.23.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.17.3",
+    "strength": "helpful",
+    "why": "first Fairtrade town idea",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.23.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.23.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.23.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.24.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.24.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.19.1",
+    "strength": "helpful",
+    "why": "scale of Fairtrade",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.24.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.24.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.17.2",
+    "strength": "helpful",
+    "why": "certification label",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.24.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.17.2",
+    "strength": "helpful",
+    "why": "Fairtrade-certified farms",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.24.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.18.4",
+    "strength": "helpful",
+    "why": "co-operative membership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.24.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.18.1",
+    "strength": "essential",
+    "why": "minimum is a floor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.24.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.16.4",
+    "strength": "essential",
+    "why": "tariff escalation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.24.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.20.1",
+    "strength": "helpful",
+    "why": "Divine Chocolate processing",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-option-global-interdependence-s4.16.4",
+    "strength": "helpful",
+    "why": "value added in rich countries",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.25.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.25.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.24.0",
+    "strength": "helpful",
+    "why": "small scale of fair trade",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-option-global-interdependence-s4.24.6",
+    "strength": "helpful",
+    "why": "trade rules unchanged",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.26.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.0.0",
+    "strength": "helpful",
+    "why": "social pillar of sustainability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.26.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.0.0",
+    "strength": "helpful",
+    "why": "social pillar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.26.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.27.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.27.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.27.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.27.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.27.b",
+    "strength": "helpful",
+    "why": "indigenous peoples defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.28.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.26.0",
+    "strength": "helpful",
+    "why": "harm to groups is unsustainable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.28.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.26.1",
+    "strength": "helpful",
+    "why": "minorities lose land to projects",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.28.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.28.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.28.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.28.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.5.4",
+    "strength": "helpful",
+    "why": "involve local people in resource decisions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.29.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.29.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.29.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.5.0",
+    "strength": "helpful",
+    "why": "sustainable use of renewable resource",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.30.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.30.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.30.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.30.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.30.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.30.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.30.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.30.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.30.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.30.6",
+    "strength": "helpful",
+    "why": "equality law",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-option-global-interdependence-s4.30.0",
+    "strength": "helpful",
+    "why": "ethnic status recognition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.31.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.31.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.31.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.31.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.31.1",
+    "strength": "helpful",
+    "why": "discrimination in schools",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.31.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.32.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.26.0",
+    "strength": "helpful",
+    "why": "just development",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.32.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.32.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.32.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.32.1",
+    "strength": "helpful",
+    "why": "Fosen wind farm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.32.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.32.2",
+    "strength": "essential",
+    "why": "the court ruling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.32.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.32.3",
+    "strength": "essential",
+    "why": "cause of protests",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.32.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.33.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.33.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.33.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.34.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.34.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.34.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.34.0",
+    "strength": "helpful",
+    "why": "self-reliance meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.35.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.35.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.35.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.34.0",
+    "strength": "helpful",
+    "why": "self-reliance meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.35.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.35.1",
+    "strength": "essential",
+    "why": "Ujamaa defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.35.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.35.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.35.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.35.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.35.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.35.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.35.5",
+    "strength": "essential",
+    "why": "forced villagisation",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-option-global-interdependence-s4.35.6",
+    "strength": "helpful",
+    "why": "economic failure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.36.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.36.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.34.0",
+    "strength": "helpful",
+    "why": "self-reliance meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.37.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.37.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.37.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.37.0",
+    "strength": "helpful",
+    "why": "what appropriate technology is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.37.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.37.0",
+    "strength": "helpful",
+    "why": "intermediate technology",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.38.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.38.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.38.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.38.0",
+    "strength": "helpful",
+    "why": "Maathai and Green Belt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.38.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.38.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.38.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.39.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.39.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.40.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.40.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.40.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.40.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.40.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.41.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.41.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-option-global-interdependence-s4.41.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.35.8",
+    "strength": "helpful",
+    "why": "Tanzania example",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4.41.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-option-global-interdependence-s4.17.0",
+    "strength": "helpful",
+    "why": "fair trade",
+    "confidence": "low"
+   }
+  ]
+ }
+}

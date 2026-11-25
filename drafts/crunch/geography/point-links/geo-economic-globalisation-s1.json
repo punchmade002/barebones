@@ -1,0 +1,968 @@
+{
+"geo-economic-globalisation-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.0.0",
+"strength": "essential",
+"why": "uses HQ, home and host country",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.0.1",
+"strength": "helpful",
+"why": "headquarters and branch plants",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.0.1",
+"strength": "helpful",
+"why": "core and branch placement",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.0.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.1.b",
+"strength": "essential",
+"why": "uses foreign direct investment",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.1.0",
+"strength": "helpful",
+"why": "uses IDA Ireland",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.0.0",
+"strength": "helpful",
+"why": "uses MNC definition",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.2",
+"strength": "helpful",
+"why": "12.5% corporation tax",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.0",
+"strength": "helpful",
+"why": "EU single market",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.23.4",
+"strength": "helpful",
+"why": "Brexit and UK leaving EU",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.1.0",
+"strength": "essential",
+"why": "IDA role",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.3.0",
+"strength": "helpful",
+"why": "IDA set up to attract firms",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.2.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.1.5",
+"strength": "helpful",
+"why": "cluster or agglomeration meaning",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.19.4",
+"strength": "helpful",
+"why": "clusters of similar firms",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.2.7": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.2.8": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.0.1",
+"strength": "helpful",
+"why": "home-country core, branch plants",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.30.0",
+"strength": "helpful",
+"why": "Silicon Valley described",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.6.0",
+"strength": "helpful",
+"why": "what a microprocessor does",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.3.3": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-globalisation-s1.3.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.3.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.1.1",
+"strength": "helpful",
+"why": "branch plant meaning",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.6.1",
+"strength": "helpful",
+"why": "wafers and chip making",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.4.2",
+"strength": "helpful",
+"why": "Fab 34 introduced there",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.4.2",
+"strength": "helpful",
+"why": "Fab 34 introduced there",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.3.3",
+"strength": "helpful",
+"why": "what a fab is",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.7",
+"strength": "helpful",
+"why": "motorways as a transport factor",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.1.3",
+"strength": "helpful",
+"why": "greenfield site meaning",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.5.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.2.2",
+"strength": "helpful",
+"why": "labour as location factor",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.2.1",
+"strength": "helpful",
+"why": "energy as location factor",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.6.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.6.1",
+"strength": "helpful",
+"why": "wafers and tiny circuits",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.6.1",
+"strength": "helpful",
+"why": "silicon wafers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.7.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.7.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.4.2",
+"strength": "helpful",
+"why": "EUV lithography",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.3.3",
+"strength": "essential",
+"why": "fab locations",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.3.4",
+"strength": "essential",
+"why": "assembly and test plants",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.8.0",
+"strength": "helpful",
+"why": "stage 1 precedes it",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.4",
+"strength": "essential",
+"why": "air freight suits light valuable goods",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.8.1",
+"strength": "helpful",
+"why": "cutting and testing stage",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.15.b",
+"strength": "helpful",
+"why": "data centres explained",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s1.28.b",
+"strength": "helpful",
+"why": "data centres explained",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.9.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.9.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.9.3",
+"strength": "helpful",
+"why": "markets by region",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.10.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-globalisation-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.9.0",
+"strength": "helpful",
+"why": "Apple was a customer",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.10.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.10.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.2.0",
+"strength": "essential",
+"why": "15% minimum tax rate",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.23.1",
+"strength": "helpful",
+"why": "15% minimum tax reduces advantage",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.5.4",
+"strength": "helpful",
+"why": "fabs need power",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.23.6",
+"strength": "helpful",
+"why": "grid and energy constraints",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.10.7": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.3.4",
+"strength": "helpful",
+"why": "Asian assembly and test plants",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.11.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.2.0",
+"strength": "helpful",
+"why": "corporation tax rate",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s1.9.1",
+"strength": "helpful",
+"why": "tax from few multinationals",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.5.2",
+"strength": "helpful",
+"why": "university links",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.12.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.0.1",
+"strength": "helpful",
+"why": "core of the company",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.13.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.0.1",
+"strength": "helpful",
+"why": "regional headquarters",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.13.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.13.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.13.2",
+"strength": "helpful",
+"why": "what the campus does",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.14.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.14.0",
+"strength": "helpful",
+"why": "contract manufacturer outsourcing",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.14.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.10.0",
+"strength": "helpful",
+"why": "TSMC identified there",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.15.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.15.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.15.2",
+"strength": "helpful",
+"why": "cobalt as raw material",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.14.1",
+"strength": "helpful",
+"why": "Foxconn contract maker",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.16.0",
+"strength": "helpful",
+"why": "assembly in China first",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.17.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.17.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.18.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.18.2",
+"strength": "helpful",
+"why": "what state aid means",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.23.2",
+"strength": "helpful",
+"why": "Apple tax back-payment ruling",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.18.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.18.0",
+"strength": "essential",
+"why": "the 2016 ruling reinstated",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.18.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.18.0",
+"strength": "helpful",
+"why": "the tax case",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.16.0",
+"strength": "helpful",
+"why": "assembly in China",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.18.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.18.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.18.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.15.b",
+"strength": "helpful",
+"why": "data centres explained",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.19.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.29.b",
+"strength": "helpful",
+"why": "map evidence question structure",
+"confidence": "high"
+},
+{
+"id": "geo-mapwork-s1.35.b",
+"strength": "helpful",
+"why": "site choice with map evidence",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.30.1",
+"strength": "helpful",
+"why": "roads, rail, port for moving goods",
+"confidence": "high"
+},
+{
+"id": "geo-mapwork-s1.14.0",
+"strength": "helpful",
+"why": "roads and railways in the legend",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.19.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s2.30.0",
+"strength": "helpful",
+"why": "flat land for a factory",
+"confidence": "low"
+},
+{
+"id": "geo-mapwork-s1.9.0",
+"strength": "essential",
+"why": "contour spacing shows slope",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.1.4",
+"strength": "helpful",
+"why": "industrial estate meaning",
+"confidence": "high"
+},
+{
+"id": "geo-mapwork-s1.14.0",
+"strength": "helpful",
+"why": "industrial estate symbol in legend",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.30.3",
+"strength": "helpful",
+"why": "water supply for industry",
+"confidence": "low"
+}
+]
+},
+"geo-economic-globalisation-s1.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.33.1",
+"strength": "helpful",
+"why": "flood-prone land as a reason against",
+"confidence": "low"
+},
+{
+"id": "geo-mapwork-s1.9.0",
+"strength": "helpful",
+"why": "close contours mean steep slope",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.19.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.19.0",
+"strength": "helpful",
+"why": "map features listed there",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-globalisation-s1.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-graph-skills-s1.6.3",
+"strength": "helpful",
+"why": "axis scale starts at zero",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-graph-skills-s1.3.1",
+"strength": "helpful",
+"why": "difference by subtraction method",
+"confidence": "high"
+}
+]
+},
+"geo-economic-globalisation-s1.20.2": {
+"cost": 1,
+"needs": []
+}
+}

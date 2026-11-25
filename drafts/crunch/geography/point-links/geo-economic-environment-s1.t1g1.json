@@ -1,0 +1,761 @@
+{
+ "geo-economic-environment-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.0.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-environment-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.0.1",
+    "strength": "helpful",
+    "why": "fossil fuels are non-renewable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.1.0",
+    "strength": "helpful",
+    "why": "peat as a fossil fuel",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.0.1",
+    "strength": "helpful",
+    "why": "uranium as finite non-renewable",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.2.0",
+    "strength": "essential",
+    "why": "electricity versus primary energy",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-economic-environment-s1.4.1",
+    "strength": "helpful",
+    "why": "oil used for transport and heating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.2.3",
+    "strength": "helpful",
+    "why": "price shocks and supply cuts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.2.4",
+    "strength": "helpful",
+    "why": "energy imports and import bill",
+    "confidence": "low"
+   },
+   {
+    "id": "geo-economic-environment-s1.5.1",
+    "strength": "helpful",
+    "why": "Corrib gas coming ashore 2015",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.3.0",
+    "strength": "essential",
+    "why": "import dependence measure",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-economic-environment-s1.5.2",
+    "strength": "helpful",
+    "why": "Corrib output declining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.2.0",
+    "strength": "helpful",
+    "why": "primary energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.3.2",
+    "strength": "essential",
+    "why": "adds up the energy mix",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.2.4",
+    "strength": "helpful",
+    "why": "import bill and price shocks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.5.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-environment-s1.5.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-environment-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.5.1",
+    "strength": "essential",
+    "why": "Corrib field",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-economic-environment-s1.3.0",
+    "strength": "helpful",
+    "why": "import dependence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.13.b",
+    "strength": "helpful",
+    "why": "interconnectors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.2.0",
+    "strength": "helpful",
+    "why": "electricity made from gas",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.6.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-environment-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.6.1",
+    "strength": "helpful",
+    "why": "Moneypoint station",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.6.1",
+    "strength": "helpful",
+    "why": "Moneypoint station",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.7.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-environment-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.10.4",
+    "strength": "helpful",
+    "why": "biomass as renewable fuel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.9.2",
+    "strength": "helpful",
+    "why": "Bellacorick wind farm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.7.b",
+    "strength": "helpful",
+    "why": "cutaway bogs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.8.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-environment-s1.8.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-environment-s1.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.8.b",
+    "strength": "helpful",
+    "why": "turbines and hydroelectric power",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.2.0",
+    "strength": "helpful",
+    "why": "electricity versus total energy",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.9.3",
+    "strength": "helpful",
+    "why": "onshore and offshore wind",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.0.2",
+    "strength": "helpful",
+    "why": "geothermal heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.0.2",
+    "strength": "helpful",
+    "why": "renewable energy",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.11.0",
+    "strength": "essential",
+    "why": "the 16% target",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.11.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-environment-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.4.1",
+    "strength": "helpful",
+    "why": "oil used for transport",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.12.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.4.1",
+    "strength": "helpful",
+    "why": "oil used for home heating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.8.3",
+    "strength": "helpful",
+    "why": "no hydro potential left",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.9.4",
+    "strength": "helpful",
+    "why": "offshore wind",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.12.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.13.b",
+    "strength": "helpful",
+    "why": "interconnectors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.13.b",
+    "strength": "helpful",
+    "why": "interconnectors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.5.3",
+    "strength": "helpful",
+    "why": "gas from Britain by pipeline",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.2.0",
+    "strength": "helpful",
+    "why": "electricity generation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.14.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.15.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.16.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.16.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.16.1",
+    "strength": "helpful",
+    "why": "the invasion of Ukraine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.16.0",
+    "strength": "essential",
+    "why": "Russia share before 2022",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.17.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.1.2",
+    "strength": "helpful",
+    "why": "nuclear energy from uranium",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.18.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.0.2",
+    "strength": "helpful",
+    "why": "renewable energy",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.18.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.1.2",
+    "strength": "helpful",
+    "why": "nuclear power",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.18.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-environment-s1.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.19.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.20.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.20.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.21.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.8.b",
+    "strength": "helpful",
+    "why": "hydroelectric power",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.21.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.0.2",
+    "strength": "helpful",
+    "why": "geothermal heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.22.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.22.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.22.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.22.1",
+    "strength": "helpful",
+    "why": "the 2030 target",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-environment-s1.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.23.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.23.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.24.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.24.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.24.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-environment-s1.24.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-environment-s1.3.0",
+    "strength": "helpful",
+    "why": "import dependence",
+    "confidence": "low"
+   }
+  ]
+ }
+}

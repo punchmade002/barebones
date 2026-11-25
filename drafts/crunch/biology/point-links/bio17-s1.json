@@ -1,0 +1,543 @@
+{
+ "bio17-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.0.7",
+    "strength": "helpful",
+    "why": "nucleotides carry energy",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.2.3",
+    "strength": "essential",
+    "why": "hydrogen bonds between bases",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.2.1",
+    "strength": "essential",
+    "why": "complementary base pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.1.1",
+    "strength": "helpful",
+    "why": "sugar-phosphate backbone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.1.2",
+    "strength": "helpful",
+    "why": "DNA polymerase enzyme",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.1.2",
+    "strength": "helpful",
+    "why": "DNA polymerase joins nucleotides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.2.5",
+    "strength": "helpful",
+    "why": "double helix shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.1.5",
+    "strength": "helpful",
+    "why": "new DNA molecules identical",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s1.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.1.0",
+    "strength": "helpful",
+    "why": "helicase at replication fork",
+    "confidence": "high"
+   },
+   {
+    "id": "bio17-s1.1.2",
+    "strength": "helpful",
+    "why": "DNA polymerase adding nucleotides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.1.5",
+    "strength": "helpful",
+    "why": "new molecules from template strands",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.2.1",
+    "strength": "helpful",
+    "why": "base-pairing model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.3.0",
+    "strength": "helpful",
+    "why": "heavy versus light nitrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.3.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio17-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.3.0",
+    "strength": "essential",
+    "why": "all DNA heavy 15N",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.3.2",
+    "strength": "essential",
+    "why": "density bands in gradient",
+    "confidence": "high"
+   },
+   {
+    "id": "bio17-s1.2.2",
+    "strength": "essential",
+    "why": "conservative model prediction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.3.2",
+    "strength": "essential",
+    "why": "density bands in gradient",
+    "confidence": "high"
+   },
+   {
+    "id": "bio17-s1.2.3",
+    "strength": "essential",
+    "why": "dispersive model prediction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.2.0",
+    "strength": "essential",
+    "why": "semi-conservative model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.3.4",
+    "strength": "helpful",
+    "why": "band positions per generation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.2.1",
+    "strength": "essential",
+    "why": "A-T, C-G base pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.2.6",
+    "strength": "essential",
+    "why": "complementary strand sequences",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.2.0",
+    "strength": "helpful",
+    "why": "one old, one new strand",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.1.1",
+    "strength": "helpful",
+    "why": "free nucleotides pair with template",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s1.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.3.0",
+    "strength": "essential",
+    "why": "A equals T in DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.3.0",
+    "strength": "essential",
+    "why": "C equals G in DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.2.0",
+    "strength": "helpful",
+    "why": "each replication makes two molecules",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s1.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.5.0",
+    "strength": "essential",
+    "why": "doubling per generation",
+    "confidence": "high"
+   },
+   {
+    "id": "bio17-s1.2.0",
+    "strength": "essential",
+    "why": "original strands conserved",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.2.1",
+    "strength": "helpful",
+    "why": "bases pair only with partners",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.2.0",
+    "strength": "helpful",
+    "why": "semi-conservation old and new",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.5.2",
+    "strength": "helpful",
+    "why": "physical model described",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.1.0",
+    "strength": "helpful",
+    "why": "enzymes in replication",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.6.3",
+    "strength": "helpful",
+    "why": "RNA as go-between",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.6.0",
+    "strength": "essential",
+    "why": "flow of information",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.6.4",
+    "strength": "essential",
+    "why": "mRNA carries gene copy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.6.2",
+    "strength": "essential",
+    "why": "mRNA made by transcription",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.6.2",
+    "strength": "essential",
+    "why": "mRNA read at ribosome",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s1.6.5",
+    "strength": "helpful",
+    "why": "tRNA brings amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.6.4",
+    "strength": "essential",
+    "why": "codons read, amino acids joined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.6.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.6.0",
+    "strength": "helpful",
+    "why": "DNA to mRNA to protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.6.2",
+    "strength": "helpful",
+    "why": "mRNA copy made in nucleus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.6.4",
+    "strength": "helpful",
+    "why": "ribosomes read mRNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.7.4",
+    "strength": "helpful",
+    "why": "RNA broken down after use",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.6.0",
+    "strength": "essential",
+    "why": "normal DNA to RNA flow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.6.0",
+    "strength": "helpful",
+    "why": "direction of information flow",
+    "confidence": "high"
+   }
+  ]
+ }
+}

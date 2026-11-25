@@ -1,0 +1,102 @@
+TARGET bio31-s6: Population curves
+[bio31-s6.0.b] Ecologists track how many individuals of a species live in an area over time, and a graph is the simplest way to show the pattern. Two terms, biotic potential and environmental resistance, explain why population curves take the shapes they do.
+[bio31-s6.0.0] A population curve is a graph of population size (number of individuals, on the y-axis) against time (on the x-axis). It is a model of how a population changes, used to explain and predict the effects of limiting factors (things that restrict growth). More in Models.
+[bio31-s6.0.1] Biotic potential is the maximum rate at which a population could grow with unlimited resources and no limiting factors. It is the growth a species would achieve if nothing held it back.
+[bio31-s6.0.2] Environmental resistance is the combined effect of all the limiting factors, such as food shortage, predation, disease, competition, lack of space and harsh conditions. Together they stop a population reaching its biotic potential.
+[bio31-s6.1.b] When a species meets conditions with nothing holding it back, its numbers do not rise steadily. They take off, and the graph takes a J shape. The catch is that this cannot last.
+[bio31-s6.1.0] A J-shaped curve shows exponential growth. When resources are unlimited and there is little environmental resistance, the population grows at an ever-increasing rate, because each new generation adds more breeders, e.g. 2, 4, 8, 16, 32.
+[bio31-s6.1.1] The curve starts slowly, with few breeders, and then rises ever more steeply. It never levels off: a curve that does level off is an S-curve.
+[bio31-s6.1.2] Conditions for J-shaped growth are a new habitat with plenty of food and space, few competitors, and no predators or diseases. This often happens when a species arrives in a new area, or after a sudden large supply of nutrients.
+[bio31-s6.1.3] J-shaped growth cannot continue. Resources eventually run out, or the population damages its environment, so the population usually crashes suddenly in a boom and bust. It often falls below the carrying capacity (the population the habitat can support) because the habitat has been damaged.
+[bio31-s6.1.4] Algal bloom: in a lake enriched with phosphate and nitrate, algae grow explosively in warm, still weather and then die back, the decomposing algae using up oxygen. The blue-green algal bloom on Lough Neagh in 2023 is an example.
+[bio31-s6.1.5] The nutrient enrichment behind a bloom is called eutrophication. There is more in Ethics and sustainability of nutrient cycling.
+[bio31-s6.1.6] Zebra mussel: its rapid spread through Lough Derg after it arrived in the 1990s is an example, because it met no native predators or competitors adapted to it.
+[bio31-s6.1.7] Rabbits introduced to Australia in 1859 are another example. With abundant food and few predators, they grew into plague numbers.
+[bio31-s6.1.8] Diagram: a J-shaped curve of population size against time, rising slowly and then steeply, with a sudden vertical crash at the end; labelled “exponential growth”, “resources unlimited” and “crash”.
+[bio31-s6.2.b] Real environments have limited resources, so growth cannot stay exponential. The result is an S-shaped (sigmoid) curve, which passes through four phases as environmental resistance builds up.
+[bio31-s6.2.0] An S-shaped (sigmoid) curve shows the growth of a population in an environment with limited resources. It has four phases.
+[bio31-s6.2.1] Lag phase: slow growth at first, because there are few individuals to breed, they may still be settling in or reaching breeding age, and they are spread out.
+[bio31-s6.2.2] Exponential (log) phase: rapid growth, because resources are plentiful and there are now many breeders, so births greatly exceed deaths.
+[bio31-s6.2.3] Deceleration (transitional) phase: growth slows as resources begin to run short and density-dependent factors (factors that act more strongly as the population gets more crowded) increase. These are competition for food and space, predation, disease and the build-up of waste. The death rate rises and the birth rate falls.
+[bio31-s6.2.4] Stationary (plateau) phase: the population levels off at the carrying capacity (K), where births plus immigration equal deaths plus emigration. Births do not stop; they are balanced by deaths.
+[bio31-s6.2.5] In nature the population fluctuates up and down around K rather than staying exactly level, because there is a time lag between a change in numbers and its effect on resources. For example, a large population overgrazes, then falls, and then the food recovers.
+[bio31-s6.3.b] An S-curve is the pattern for a population in an environment with limited resources, because the limited supply eventually holds it back. Three examples show this, from a lab flask to a woodland to a rock shore.
+[bio31-s6.3.0] Yeast cells growing in a flask of sugar solution follow an S-curve, because the sugar is a fixed supply that eventually limits them.
+[bio31-s6.3.1] A population colonising a new habitat follows an S-curve, e.g. grey squirrels spreading into a woodland. They rise rapidly and then level off when food (seeds and nuts) limits them.
+[bio31-s6.3.2] Barnacles settling on a newly cleared rock fill the space and then stop increasing, because space is the limiting factor. There is more on microbial growth curves in culture, with their decline and survival phases, and their use in industry, in Microorganisms in industry.
+[bio31-s6.3.3] Diagram: an S-shaped curve with the four phases labelled (lag, exponential, deceleration, stationary), a horizontal dashed line labelled “carrying capacity (K)”, small oscillations about K, and the gap between the J-curve and the S-curve labelled “environmental resistance”.
+[bio31-s6.4.b] The two curves differ in how much environmental resistance acts on the population, and that depends on how limited the resources are. Each row of the table compares one consequence.
+[bio31-s6.4.0] Resources: unlimited for the J-curve; limited for the S-curve.
+[bio31-s6.4.1] Environmental resistance: little until the crash for the J-curve; increasing as the population grows for the S-curve.
+[bio31-s6.4.2] Growth: ever faster until a crash for the J-curve; fast at first, then slowing to zero for the S-curve.
+[bio31-s6.4.3] End point: a crash, often below K, for the J-curve; a stable population around K for the S-curve.
+[bio31-s6.4.4] Typical of: invasive species, pests and blooms for the J-curve; established populations in balance with their environment for the S-curve.
+[bio31-s6.5.b] Carrying capacity (K) is not a fixed number. When a limiting factor changes, K moves, and the population follows it to a new plateau on its S-curve.
+[bio31-s6.5.0] When a limiting factor improves, K rises and the curve rises to a new, higher plateau. Rewetting a drained bog restores breeding habitat for bog species.
+[bio31-s6.5.1] A large crop of beech nuts or acorns, a mast year, raises the number of squirrels and wood mice that a woodland can support the following year, because food is the limiting factor.
+[bio31-s6.5.2] When a limiting factor worsens, K falls and the population declines to a lower plateau, or to extinction if K falls to zero. Drainage of wet grassland and bogs has lowered K for breeding curlew so far that the population has collapsed. There is more in Biodiversity loss and conservation.
+[bio31-s6.5.3] The arrival of grey squirrels and squirrelpox has lowered K for red squirrels in eastern Ireland.
+[bio31-s6.5.4] A new predator, or the recovery of a predator, lowers K for its prey. The recovery of the pine marten has reduced grey squirrel populations in the midlands, which in turn has allowed red squirrel numbers to rise towards a higher K.
+[bio31-s6.5.5] Removing a predator can let prey overshoot K. Without wolves, deer in Co. Wicklow increase until they overbrowse (damage vegetation by eating too much). The damaged vegetation then lowers the K of the habitat for deer and for other species, and culling holds them below this level.
+[bio31-s6.5.6] Density-independent events (acting whatever the density) cause sudden falls at any population size, after which the population climbs back along an S-shaped curve. For example, a severe winter kills many wrens and other small birds, whose numbers then recover over following years.
+[bio31-s6.6.b] Predators and their prey limit each other, so their numbers move together in repeating cycles rather than settling at one level.
+[bio31-s6.6.0] Predator and prey populations rise and fall in linked cycles, with the predator peak following the prey peak. More prey gives more food for predators, so predators increase; then the prey decrease, the predators starve and decrease, and the prey recover.
+[bio31-s6.6.1] Classic example: the snowshoe hare and the lynx in Canada, from fur-trade records (Hudson's Bay Company) kept over many decades. An Irish link is fox and rabbit numbers.
+[bio31-s6.6.2] Diagram: (a) a curve that plateaus at K1 and, after a habitat change, falls to a lower plateau K2, labelled “habitat loss lowers carrying capacity”; (b) linked predator and prey curves, with the predator curve lower and lagging behind the prey curve.
+[bio31-s6.7.b] Humans are subject to the same rules as other species. Our numbers show how raising carrying capacity can drive J-shaped growth, and how a failing resource can cause a crash.
+[bio31-s6.7.0] The world's human population has shown J-shaped growth over the last few centuries, because farming, medicine, sanitation and technology have repeatedly raised the carrying capacity of the Earth for humans, though growth is now slowing in many countries.
+[bio31-s6.7.1] Whether it will level off along an S-curve depends on birth rates and on resources such as food, water and energy.
+[bio31-s6.7.2] Ireland illustrates a crash when a key resource fails. The population of Ireland reached about 8.2 million in the 1841 census, with many people depending on the potato. Potato blight from 1845 caused the Great Famine, and death and emigration reduced the population sharply. There is more in Variation.
+
+CANDIDATES bio31-s5: Carrying capacity and limiting factors
+[bio31-s5.0.b] A population is all the individuals of one species living in one area. Its size rises and falls, and in every habitat there is an upper limit that the environment can support. That limit is the carrying capacity.
+[bio31-s5.0.0] A population's size changes through four processes. Births (natality) and immigration (individuals arriving) increase it; deaths (mortality) and emigration (individuals leaving) decrease it.
+[bio31-s5.0.1] A population grows when births plus immigration exceed deaths plus emigration. If the two sides are equal, the size stays steady.
+[bio31-s5.0.2] Every population could grow very fast if nothing stopped it, because organisms produce more offspring than are needed to replace themselves. In reality, resources run short, so growth slows and stops.
+[bio31-s5.0.3] The carrying capacity of an environment is the maximum population size of a species that it can support indefinitely, given the food, water, space and other resources available. It is often given the symbol K.
+[bio31-s5.0.4] A limiting factor is any factor that restricts the size, growth or distribution of a population. The factor in shortest supply relative to need sets the limit, even if all the others are plentiful, which is the same principle as limiting factors in photosynthesis.
+[bio31-s5.0.5] Carrying capacity is set by the limiting factors acting together, not by any one of them alone.
+[bio31-s5.0.6] Carrying capacity is not fixed. It changes when conditions change, such as in a wet or dry year, after a new predator or disease arrives, or with habitat loss or restoration. It also differs between species in the same habitat.
+[bio31-s5.0.7] If a population rises above carrying capacity, it damages its resources, for example by overgrazing (eating plants faster than they regrow), and then its numbers fall.
+[bio31-s5.1.b] Abiotic factors are the non-living parts of the environment. Each of them can cap the number of plants and animals a habitat supports, and the Irish examples below show how.
+[bio31-s5.1.0] Water: all organisms need water. On the dry, free-draining sand of coastal sand dunes, water shortage limits which plants can grow and how many.
+[bio31-s5.1.1] Marram grass grows on sand dunes because its rolled leaves and deep roots reduce water loss and reach water, so it survives where most plants cannot. In a dry summer, grass growth slows and fewer grazing animals can be supported.
+[bio31-s5.1.2] Oxygen: aquatic animals depend on oxygen dissolved in water, which is scarce compared with air. Salmon, trout and stonefly nymphs need well-oxygenated, cool, fast-flowing water, so oxygen limits their numbers in slow, warm or polluted rivers.
+[bio31-s5.1.3] Decomposing organic pollution uses up oxygen in a river, which is why polluted water supports fewer oxygen-demanding animals. In waterlogged bog soil, low oxygen limits roots and decomposers, so few plant species can grow there.
+[bio31-s5.1.4] Space: organisms need space to attach, shelter, nest or hold a territory (an area an animal defends). On a rocky shore, bare rock is limited, so barnacles, mussels and seaweeds compete for space to attach.
+[bio31-s5.1.5] Seabirds nest only on cliffs and islands with suitable ledges. Many songbirds, such as robins, defend territories, so the number of territories in a woodland limits the breeding population.
+[bio31-s5.1.6] Temperature affects enzyme activity, growth and survival. Cold winters kill many small birds such as wrens, and low temperatures in the uplands shorten the growing season, limiting plant growth. Warm water holds less dissolved oxygen, so temperature also limits fish.
+[bio31-s5.1.7] Soil type, pH, minerals, water content and air content limit plants, and so the animals that feed on them. Acidic, nitrogen-poor bog peat supports only specialised plants such as Sphagnum, heather and sundews.
+[bio31-s5.2.b] Soil is one of the factors that limit which plants can grow in a place, and plants are the food base for animals. Light is not on the specification's list of abiotic factors, but it is a key limiting factor for plants.
+[bio31-s5.2.0] The thin limestone soils of the Burren, Co. Clare, support lime-loving plants, because only plants suited to thin, lime-rich soil can grow there.
+[bio31-s5.2.1] Fertile, well-drained lowland soils support productive grassland, because they are fertile and drain well.
+[bio31-s5.2.2] Under a closed woodland canopy (the roof of leaves formed by the treetops) in summer, little light reaches the floor, so few plants grow there.
+[bio31-s5.2.3] Woodland plants such as bluebells grow and flower in spring, before the leaves of the trees open, which means they get the light they need while the canopy is still open.
+[bio31-s5.3.b] Biotic factors are the living parts of the environment: other organisms and the diseases they carry. Food, disease, competition and predation all limit populations, and some of them also limit one another.
+[bio31-s5.3.0] Food: the supply of food usually sets the carrying capacity for animals. For grazers it is the amount of grass or browse (leaves and shoots of shrubs and trees).
+[bio31-s5.3.1] Seed-eaters such as squirrels and wood mice do better in years when trees produce large seed crops. Birds of prey such as barn owls are limited by the number of small mammals they can catch.
+[bio31-s5.3.2] Disease: disease spreads faster in dense populations, so it limits large populations most. Squirrelpox virus, carried by grey squirrels, kills red squirrels.
+[bio31-s5.3.3] Myxomatosis, a viral disease, killed most of Ireland's rabbits after it arrived in the 1950s. Ash dieback is killing ash trees.
+[bio31-s5.3.4] Competition: organisms competing for the same limited resource, such as food, light, water, space or mates, reduce each other's share, so fewer survive or breed. Competition between members of the same species (intraspecific) and between different species (interspecific) both limit populations.
+[bio31-s5.3.5] Grey squirrels outcompete red squirrels for food in broadleaf woods, and on a woodland floor taller plants shade out shorter ones. There is more on this in Biotic factors and relationships.
+[bio31-s5.3.6] Predation: predators kill and eat prey, keeping prey numbers below what the food supply alone would allow. Foxes take rabbits and the eggs and chicks of ground-nesting birds such as the curlew.
+[bio31-s5.3.7] Pine martens prey on grey squirrels, reducing their numbers where martens are common. Predator numbers are in turn limited by the number of prey, so the two populations affect each other.
+[bio31-s5.4.b] Predation normally keeps herbivore numbers down. Where a predator is missing, food becomes the main limit, and the habitat can pay the price.
+[bio31-s5.4.0] Ireland's deer, the native red deer and the sika deer introduced to Powerscourt, Co. Wicklow, in 1860, have had no natural predator since wolves died out in Ireland more than two centuries ago.
+[bio31-s5.4.1] Their numbers are limited mainly by food, so in parts of Co. Wicklow they have risen high enough to browse away tree seedlings and stop woodland regenerating.
+[bio31-s5.4.2] Culling (killing selected animals) by people is used to keep deer below the level that damages habitats, so people take over the role the predator once had.
+[bio31-s5.5.b] Limiting factors fall into two groups, depending on whether their effect changes with how crowded the population is. This explains why some factors steady a population while others crash it without warning.
+[bio31-s5.5.0] Density-dependent factors have a greater effect as the population becomes more crowded. They are food shortage, competition, disease and predation, and are mostly biotic.
+[bio31-s5.5.1] They slow growth as a population approaches carrying capacity, so they regulate population size, pulling it back towards K.
+[bio31-s5.5.2] Density-independent factors affect a population regardless of its size, for example a severe frost, a flood, a storm, a drought or a fire, and are mostly abiotic.
+[bio31-s5.5.3] Density-independent factors can cause sudden crashes at any population size, because a frost kills the same fraction whether the population is small or large.
+[bio31-s5.5.4] Human activity changes carrying capacity. Draining wet grassland and bogs removes curlew breeding habitat, lowering its carrying capacity.
+[bio31-s5.5.5] Rewetting a bog or planting hedgerows raises carrying capacity for the species that depend on them, and garden feeders increase the food available for some birds.
+[bio31-s5.6.b] A grassland field shows how several limiting factors act on one species at once. For rabbits, the field's carrying capacity is the result of all of them together.
+[bio31-s5.6.0] Food: grass is the main density-dependent limit. As rabbit numbers rise, the grass is grazed shorter and competition increases.
+[bio31-s5.6.1] Predation by foxes, stoats and birds of prey removes many young rabbits.
+[bio31-s5.6.2] Disease: myxomatosis causes crashes when the population is dense, because the virus spreads fastest between crowded animals.
+[bio31-s5.6.3] Space: burrows need well-drained soil, for example on banks and slopes, which limits where warrens (burrow systems) can be dug.
+[bio31-s5.6.4] Wet winters, an abiotic and density-independent factor, can flood burrows and kill young rabbits.
+[bio31-s5.6.5] The carrying capacity of the field for rabbits is the population that these factors together allow it to support over time.
+[bio31-s5.6.6] Diagram: a simple graph of a population rising and levelling off at a horizontal dashed line labelled “carrying capacity (K)”, with arrows labelled “limiting factors (environmental resistance)” pressing down on the curve.

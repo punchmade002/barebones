@@ -1,0 +1,437 @@
+{
+ "bio27-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s1.0.2",
+    "strength": "helpful",
+    "why": "digestion as mechanical and chemical",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio27-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.0.0",
+    "strength": "helpful",
+    "why": "mechanical breakdown makes smaller pieces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s2.0.0",
+    "strength": "helpful",
+    "why": "mechanical breakdown definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s1.2.0",
+    "strength": "helpful",
+    "why": "bolus and saliva in mouth",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio27-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s2.1.3",
+    "strength": "helpful",
+    "why": "tooth types and roles",
+    "confidence": "high"
+   },
+   {
+    "id": "bio27-s2.2.5",
+    "strength": "helpful",
+    "why": "tooth structure parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.1.1",
+    "strength": "helpful",
+    "why": "tooth types counted",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio27-s2.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s2.2.0",
+    "strength": "essential",
+    "why": "how dental formula is read",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s2.2.0",
+    "strength": "essential",
+    "why": "dental formula reading",
+    "confidence": "high"
+   },
+   {
+    "id": "bio27-s2.2.1",
+    "strength": "helpful",
+    "why": "adult formula to compare",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.1.3",
+    "strength": "helpful",
+    "why": "molars",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio27-s2.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s2.2.4",
+    "strength": "essential",
+    "why": "crown, enamel, root",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.2.4",
+    "strength": "essential",
+    "why": "enamel structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.3.0",
+    "strength": "essential",
+    "why": "bacteria make acid from sugar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.3.0",
+    "strength": "essential",
+    "why": "plaque and acid on enamel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.2.5",
+    "strength": "helpful",
+    "why": "pulp cavity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s1.1.1",
+    "strength": "helpful",
+    "why": "gut wall muscle layers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio27-s2.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s2.4.1",
+    "strength": "essential",
+    "why": "circular and longitudinal muscle",
+    "confidence": "high"
+   },
+   {
+    "id": "bio27-s2.1.0",
+    "strength": "helpful",
+    "why": "bolus",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio27-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.4.2",
+    "strength": "essential",
+    "why": "contraction behind bolus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.4.0",
+    "strength": "helpful",
+    "why": "peristalsis as wave",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.0.0",
+    "strength": "helpful",
+    "why": "mechanical breakdown",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.4.0",
+    "strength": "helpful",
+    "why": "peristalsis pushes food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s2.4.2",
+    "strength": "essential",
+    "why": "contraction behind bolus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio27-s2.4.3",
+    "strength": "helpful",
+    "why": "relaxation in front",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s2.4.1",
+    "strength": "helpful",
+    "why": "smooth muscle layers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.5.0",
+    "strength": "helpful",
+    "why": "churning in stomach",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s1.2.5",
+    "strength": "helpful",
+    "why": "pyloric sphincter releases chyme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s1.2.4",
+    "strength": "helpful",
+    "why": "gastric juice acid and protease",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio27-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s1.4.1",
+    "strength": "helpful",
+    "why": "liver makes bile",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s2.6.1",
+    "strength": "essential",
+    "why": "bile salt hydrophilic/hydrophobic ends",
+    "confidence": "high"
+   },
+   {
+    "id": "bio27-s2.6.0",
+    "strength": "helpful",
+    "why": "fat droplets in water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.6.2",
+    "strength": "essential",
+    "why": "bile salts break up droplets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.6.3",
+    "strength": "helpful",
+    "why": "emulsification",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio27-s2.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s2.6.3",
+    "strength": "helpful",
+    "why": "emulsification",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio27-s2.6.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio27-s2.6.2",
+    "strength": "essential",
+    "why": "bile salts coating droplets",
+    "confidence": "high"
+   }
+  ]
+ }
+}

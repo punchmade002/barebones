@@ -1,0 +1,757 @@
+{
+ "geo-economic-development-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.0.0",
+    "strength": "essential",
+    "why": "uses the Brandt Line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.0.0",
+    "strength": "essential",
+    "why": "North and South split by Brandt Line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.0.0",
+    "strength": "essential",
+    "why": "qualifies the Brandt Line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.0.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.0.0",
+    "strength": "helpful",
+    "why": "same pattern as Brandt Line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s1.6.6",
+    "strength": "essential",
+    "why": "HDI category: very high",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s1.6.6",
+    "strength": "essential",
+    "why": "HDI categories: high, medium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s1.6.6",
+    "strength": "essential",
+    "why": "HDI category: low",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s1.7.b",
+    "strength": "helpful",
+    "why": "named HDI rankings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.b",
+    "strength": "essential",
+    "why": "GDP per head",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.b",
+    "strength": "essential",
+    "why": "GDP per head as output measure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.2.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.b",
+    "strength": "essential",
+    "why": "GDP per head",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.0",
+    "strength": "essential",
+    "why": "Bulgaria lowest GDP per head",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.b",
+    "strength": "essential",
+    "why": "GDP per head",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.3.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.3.0",
+    "strength": "helpful",
+    "why": "highest incomes in Dublin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.2",
+    "strength": "helpful",
+    "why": "meaning of periphery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.3.3",
+    "strength": "essential",
+    "why": "West is peripheral",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.5",
+    "strength": "helpful",
+    "why": "EU regional funding categories",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-development-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.4.2",
+    "strength": "essential",
+    "why": "National Planning Framework",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.4.2",
+    "strength": "essential",
+    "why": "National Planning Framework",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.4.5",
+    "strength": "helpful",
+    "why": "Metrolink transport example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-development-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s1.11.0",
+    "strength": "helpful",
+    "why": "literacy as social indicator",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-development-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.6.0",
+    "strength": "helpful",
+    "why": "drought causing famine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.6.2",
+    "strength": "essential",
+    "why": "climate difficulty versus temperate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s1.12.2",
+    "strength": "helpful",
+    "why": "malaria death figure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.7.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.7.0",
+    "strength": "helpful",
+    "why": "contrast with landlocked countries",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-development-s2.7.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.7.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.7.2",
+    "strength": "helpful",
+    "why": "resources funding development contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.7.4",
+    "strength": "helpful",
+    "why": "resource curse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.7.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.5.1",
+    "strength": "helpful",
+    "why": "fertility as children per woman",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-development-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.8.0",
+    "strength": "helpful",
+    "why": "rapid growth and birth rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.5.1",
+    "strength": "essential",
+    "why": "Kerala and Bihar contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.8.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.8.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.8.4",
+    "strength": "helpful",
+    "why": "educated girls and smaller families",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.9.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.9.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.10.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.10.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.10.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.10.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.5",
+    "strength": "helpful",
+    "why": "EU cohesion funds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.1.b",
+    "strength": "helpful",
+    "why": "HDI",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.2",
+    "strength": "helpful",
+    "why": "core regions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.11.2",
+    "strength": "essential",
+    "why": "core and periphery growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.12.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.12.1",
+    "strength": "helpful",
+    "why": "industrial growth planning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.12.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s1.6.6",
+    "strength": "helpful",
+    "why": "very high HDI category",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-development-s2.12.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.13.0",
+    "strength": "helpful",
+    "why": "opening up reforms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.13.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s1.0.3",
+    "strength": "helpful",
+    "why": "upper-middle income class",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-development-s2.13.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.7.2",
+    "strength": "helpful",
+    "why": "Botswana diamonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.14.0",
+    "strength": "essential",
+    "why": "Botswana poor start",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s1.12.3",
+    "strength": "helpful",
+    "why": "HIV/AIDS and life expectancy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.7.4",
+    "strength": "helpful",
+    "why": "dependence on one export",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-development-s2.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.15.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.15.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.15.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.15.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-economic-development-s2.16.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-economic-development-s2.16.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.7.4",
+    "strength": "helpful",
+    "why": "dependence on one export",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-development-s2.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.11.1",
+    "strength": "helpful",
+    "why": "war causing falling HDI",
+    "confidence": "high"
+   }
+  ]
+ }
+}

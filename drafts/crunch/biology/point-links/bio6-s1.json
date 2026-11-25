@@ -1,0 +1,413 @@
+{
+ "bio6-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.4",
+    "strength": "helpful",
+    "why": "cytoplasm, ribosomes, membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s1.0.1",
+    "strength": "essential",
+    "why": "viruses lack ribosomes and enzymes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio5-s1.3.0",
+    "strength": "helpful",
+    "why": "ATP as energy carrier",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s1.1.1",
+    "strength": "essential",
+    "why": "protein coat of virus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.0.0",
+    "strength": "helpful",
+    "why": "host cell",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.1.3",
+    "strength": "essential",
+    "why": "envelope",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.1.3",
+    "strength": "helpful",
+    "why": "enveloped viruses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s1.2.5",
+    "strength": "helpful",
+    "why": "bacteriophage structure",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s1.1.3",
+    "strength": "helpful",
+    "why": "envelope and spikes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.1.0",
+    "strength": "helpful",
+    "why": "viral DNA or RNA",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.7.3",
+    "strength": "helpful",
+    "why": "reproduction",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.8.2",
+    "strength": "essential",
+    "why": "heredity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.8.3",
+    "strength": "helpful",
+    "why": "mutations and variation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.0",
+    "strength": "helpful",
+    "why": "organisation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.6",
+    "strength": "essential",
+    "why": "cell theory",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.4.0",
+    "strength": "essential",
+    "why": "metabolism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.7.0",
+    "strength": "helpful",
+    "why": "response to stimuli",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.0.0",
+    "strength": "essential",
+    "why": "needs host cell to reproduce",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.0.3",
+    "strength": "essential",
+    "why": "all characteristics define life",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s1.4.3",
+    "strength": "helpful",
+    "why": "inert outside host",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.0.0",
+    "strength": "helpful",
+    "why": "host cell machinery",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.5.0",
+    "strength": "helpful",
+    "why": "AIDS as viral disease",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s1.0.1",
+    "strength": "essential",
+    "why": "viruses lack ribosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.5.3",
+    "strength": "helpful",
+    "why": "antibiotics don't work",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.5.3",
+    "strength": "essential",
+    "why": "antibiotics don't work on viruses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s1.1.2",
+    "strength": "helpful",
+    "why": "coat attaches to host receptors",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.6.1",
+    "strength": "essential",
+    "why": "viral vectors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.2.5",
+    "strength": "essential",
+    "why": "bacteriophages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.6.1",
+    "strength": "essential",
+    "why": "viral vectors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s1.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s1.6.0",
+    "strength": "helpful",
+    "why": "vaccines",
+    "confidence": "low"
+   }
+  ]
+ }
+}

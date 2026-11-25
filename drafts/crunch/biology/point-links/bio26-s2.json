@@ -1,0 +1,535 @@
+{
+ "bio26-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.1.0",
+    "strength": "helpful",
+    "why": "glomerulus capillary knot",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.3.1",
+    "strength": "helpful",
+    "why": "cortex as outer layer",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.0.1",
+    "strength": "essential",
+    "why": "Bowman capsule position",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.3.2",
+    "strength": "helpful",
+    "why": "medulla as inner layer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.0.2",
+    "strength": "helpful",
+    "why": "proximal versus distal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.3.3",
+    "strength": "helpful",
+    "why": "renal pelvis collects urine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.0.5",
+    "strength": "essential",
+    "why": "collecting duct",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.1.4",
+    "strength": "helpful",
+    "why": "renal artery supplies kidney",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.1.0",
+    "strength": "essential",
+    "why": "afferent arteriole and glomerulus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.1.1",
+    "strength": "essential",
+    "why": "afferent wider than efferent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.1.1",
+    "strength": "essential",
+    "why": "arterioles either side of glomerulus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.3.0",
+    "strength": "helpful",
+    "why": "reabsorption into capillaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.4.0",
+    "strength": "helpful",
+    "why": "active transport uses ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.1.4",
+    "strength": "helpful",
+    "why": "capillaries around tubule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.1.4",
+    "strength": "helpful",
+    "why": "full blood supply layout",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.1.2",
+    "strength": "essential",
+    "why": "high pressure in glomerulus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.2.0",
+    "strength": "essential",
+    "why": "filtration passes small molecules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.2.0",
+    "strength": "helpful",
+    "why": "filtration by size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.2.1",
+    "strength": "helpful",
+    "why": "what enters filtrate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.3.0",
+    "strength": "helpful",
+    "why": "reabsorption returns filtrate to blood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.1.2",
+    "strength": "essential",
+    "why": "afferent wider than efferent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.2.0",
+    "strength": "helpful",
+    "why": "filtration needs filtering surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.2.0",
+    "strength": "helpful",
+    "why": "filtrate is what is reabsorbed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.3.0",
+    "strength": "essential",
+    "why": "reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.4.0",
+    "strength": "essential",
+    "why": "active transport using ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis is passive water movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.6",
+    "strength": "helpful",
+    "why": "surface area speeds exchange",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.4.2",
+    "strength": "helpful",
+    "why": "mitochondria for active transport",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.3.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.3.2",
+    "strength": "essential",
+    "why": "carriers in active transport",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s2.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.0.3",
+    "strength": "essential",
+    "why": "loop of Henle limbs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.4.0",
+    "strength": "essential",
+    "why": "salty medulla from ascending limb",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.3.1",
+    "strength": "helpful",
+    "why": "salt and water reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.3.0",
+    "strength": "helpful",
+    "why": "secretion opposite of reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.4.0",
+    "strength": "essential",
+    "why": "salty medulla",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.4.4",
+    "strength": "helpful",
+    "why": "collecting duct water reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.2.2",
+    "strength": "essential",
+    "why": "proteins not filtered",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.3.1",
+    "strength": "essential",
+    "why": "PCT reabsorbs glucose and amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.4.4",
+    "strength": "essential",
+    "why": "water reabsorbed in collecting duct",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.4.2",
+    "strength": "helpful",
+    "why": "DCT adjusts salts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s2.5.2",
+    "strength": "helpful",
+    "why": "concentration differences explained",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.2.0",
+    "strength": "helpful",
+    "why": "filtration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.3.1",
+    "strength": "essential",
+    "why": "PCT reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.4.1",
+    "strength": "essential",
+    "why": "loop of Henle role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.4.3",
+    "strength": "helpful",
+    "why": "DCT secretion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s2.4.4",
+    "strength": "essential",
+    "why": "collecting duct water reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s2.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.3.3",
+    "strength": "helpful",
+    "why": "renal pelvis collects urine",
+    "confidence": "high"
+   }
+  ]
+ }
+}

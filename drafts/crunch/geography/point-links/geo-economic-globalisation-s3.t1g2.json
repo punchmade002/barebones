@@ -1,0 +1,440 @@
+{
+ "geo-economic-globalisation-s3.0.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.0.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.0.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.0.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.0.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.1.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.1.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.1.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.1.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.2.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.2.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.2.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.2.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.2.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.2.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.3.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.3.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.3.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.4.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.4.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.4.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.4.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.4.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.4.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.4.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.4.6": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.5.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.5.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.5.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.5.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.5.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.5.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.5.5": {
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.13.0",
+    "strength": "helpful",
+    "why": "China opened to trade",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s3.6.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.6.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.6.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.6.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.6.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.6.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.6.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.7.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.7.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.7.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.7.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.8.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.8.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.8.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.8.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.8.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.8.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.8.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.8.6": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.9.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.9.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.9.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.9.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.9.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.9.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.10.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.10.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.10.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.10.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.10.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.10.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.10.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.11.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.11.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.11.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.11.2": {
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.13.4",
+    "strength": "helpful",
+    "why": "China overtook Japan 2010",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s3.11.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.11.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.11.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.11.6": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.12.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.12.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.12.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.12.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.12.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.12.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.12.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.12.6": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.12.7": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.13.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.13.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.13.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.13.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.13.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.13.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.13.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.14.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.14.0": {
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.0.2",
+    "strength": "helpful",
+    "why": "rich North, poorer South",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s3.15.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.15.0": {
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.10.3",
+    "strength": "helpful",
+    "why": "colonial history left export economies",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s3.15.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.15.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.15.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.16.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.16.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.16.1": {
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.2",
+    "strength": "helpful",
+    "why": "core and periphery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s3.16.2": {
+  "needs": [
+   {
+    "id": "geo-economic-development-s2.2.2",
+    "strength": "helpful",
+    "why": "periphery meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s3.16.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.16.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.17.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.17.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.17.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.17.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.18.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.18.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.18.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.18.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.18.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.18.4": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.18.5": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.19.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.19.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.19.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.19.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.19.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.20.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.20.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.20.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.20.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.20.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.21.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.21.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.21.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.22.b": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.22.0": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.22.1": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.22.2": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.22.3": {
+  "needs": []
+ },
+ "geo-economic-globalisation-s3.22.4": {
+  "needs": []
+ }
+}

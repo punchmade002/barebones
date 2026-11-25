@@ -1,0 +1,876 @@
+{
+"geo-sea-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.0.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.10.1",
+"strength": "helpful",
+"why": "longshore drift",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.10.2",
+"strength": "helpful",
+"why": "sediment moved along coast",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.14.1",
+"strength": "helpful",
+"why": "marram grass binds dunes",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.14.1",
+"strength": "helpful",
+"why": "marram grass roots",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.1.0",
+"strength": "helpful",
+"why": "trampled marram removed",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.1.1",
+"strength": "essential",
+"why": "blowouts in dunes",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.1.3": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.14.0",
+"strength": "helpful",
+"why": "dune formation",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s2.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.11.3",
+"strength": "helpful",
+"why": "beach sediment",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s2.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.3.0",
+"strength": "helpful",
+"why": "removed sediment store",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s2.4.0",
+"strength": "helpful",
+"why": "defences needed",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s2.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.3.1",
+"strength": "helpful",
+"why": "resort development on shore",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.4.0",
+"strength": "essential",
+"why": "hard engineering",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s2.0.1",
+"strength": "helpful",
+"why": "effects downdrift",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.4.0",
+"strength": "helpful",
+"why": "hard engineering",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.0.7",
+"strength": "essential",
+"why": "backwash",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s2.5.0",
+"strength": "helpful",
+"why": "sea wall",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.5.0",
+"strength": "helpful",
+"why": "sea wall",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.5.0",
+"strength": "helpful",
+"why": "sea wall",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s2.6.1": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.5.3",
+"strength": "helpful",
+"why": "sea wall cost",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.6.3": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.6.0",
+"strength": "helpful",
+"why": "rock armour",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.10.1",
+"strength": "helpful",
+"why": "longshore drift",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.10.1",
+"strength": "essential",
+"why": "longshore drift",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s2.7.0",
+"strength": "helpful",
+"why": "groynes",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.7.1",
+"strength": "essential",
+"why": "sand trapped by groynes",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s2.0.1",
+"strength": "helpful",
+"why": "downdrift",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.6.0",
+"strength": "helpful",
+"why": "rock armour",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.8.1": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.10.2",
+"strength": "helpful",
+"why": "longshore drift",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.11.3",
+"strength": "helpful",
+"why": "beach",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.9.0",
+"strength": "helpful",
+"why": "beach nourishment",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.9.0",
+"strength": "helpful",
+"why": "beach nourishment",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.14.1",
+"strength": "essential",
+"why": "marram binds sand",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.9.3",
+"strength": "helpful",
+"why": "dune regeneration",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.10.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.12.3",
+"strength": "helpful",
+"why": "salt marsh",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s2.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.10.1",
+"strength": "helpful",
+"why": "salt marsh defence",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.0.1",
+"strength": "helpful",
+"why": "downdrift effects",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.7.0",
+"strength": "helpful",
+"why": "groynes",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s2.6.0",
+"strength": "helpful",
+"why": "rock armour",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.11.0",
+"strength": "helpful",
+"why": "Mappleton scheme",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.7.2",
+"strength": "essential",
+"why": "groynes starve downdrift",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.11.2",
+"strength": "helpful",
+"why": "Mappleton result",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.8.3",
+"strength": "helpful",
+"why": "training walls and piers",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.12.0",
+"strength": "helpful",
+"why": "North Bull Wall",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.12.1",
+"strength": "helpful",
+"why": "island growth",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.7.0",
+"strength": "helpful",
+"why": "groynes",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s2.6.0",
+"strength": "helpful",
+"why": "rock armour",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.14.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.14.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.14.0",
+"strength": "helpful",
+"why": "1953 flood response",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.14.1",
+"strength": "helpful",
+"why": "Delta Works",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.14.2",
+"strength": "essential",
+"why": "Oosterschelde barrier",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.15.1": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.15.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.15.1",
+"strength": "helpful",
+"why": "management aims",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.10.2",
+"strength": "helpful",
+"why": "sediment moves along coast",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s2.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.15.2",
+"strength": "essential",
+"why": "ICZM",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s2.0.1",
+"strength": "helpful",
+"why": "downdrift effects",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.16.0": {
+"cost": 2,
+"needs": []
+},
+"geo-sea-s2.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.16.0",
+"strength": "helpful",
+"why": "protected sites",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.16.2": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.16.2",
+"strength": "helpful",
+"why": "planning controls",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.16.4": {
+"cost": 2,
+"needs": []
+},
+"geo-sea-s2.16.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.16.4",
+"strength": "helpful",
+"why": "Blue Flag award",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.17.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.14.1",
+"strength": "helpful",
+"why": "marram replanting",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s2.1.0",
+"strength": "helpful",
+"why": "trampling damage",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.17.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.1.0",
+"strength": "helpful",
+"why": "dune trampling",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s2.16.0",
+"strength": "helpful",
+"why": "SAC protection",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.17.2": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.2.1",
+"strength": "helpful",
+"why": "cliff-edge path erosion",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.18.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.12.1",
+"strength": "helpful",
+"why": "North Bull Island formed",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.12.3",
+"strength": "helpful",
+"why": "salt marsh",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s2.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.2.0",
+"strength": "helpful",
+"why": "golf courses on dunes",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s2.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.12.1",
+"strength": "helpful",
+"why": "human-made landform",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.19.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.10.0",
+"strength": "helpful",
+"why": "managed retreat",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.10.0",
+"strength": "helpful",
+"why": "managed realignment",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.19.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s2.10.0",
+"strength": "essential",
+"why": "managed retreat",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.10.1",
+"strength": "helpful",
+"why": "wave-absorbing marsh",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s2.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.4.1",
+"strength": "helpful",
+"why": "hard engineering effects",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.9.0",
+"strength": "helpful",
+"why": "soft engineering",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s2.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s2.15.2",
+"strength": "helpful",
+"why": "sediment cell management",
+"confidence": "high"
+}
+]
+}
+}

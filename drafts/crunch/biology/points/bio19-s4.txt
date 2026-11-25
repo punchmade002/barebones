@@ -1,0 +1,124 @@
+TARGET bio19-s4: Neurotransmission
+[bio19-s4.0.b] A nerve impulse (a signal carried by nerve cells, called neurons) rarely travels through just one neuron. It passes along a chain of neurons from receptor to effector, and the signal changes form along the way.
+[bio19-s4.0.0] The chain runs receptor (detects the stimulus), sensory neuron (carries the signal towards the central nervous system), interneuron or interneurons (link neurons inside the central nervous system), motor neuron (carries the signal outwards), effector (the muscle or gland that responds).
+[bio19-s4.0.1] Within a single neuron the impulse is electrical: a wave of electrical change along the membrane, caused by ions (charged particles) moving in and out of the neuron.
+[bio19-s4.0.2] Between neurons the impulse is passed on chemically, across a synapse (the junction between two neurons). So the signal is electrical inside each neuron and chemical in the gaps between them.
+[bio19-s4.1.b] The neurons in a chain do not physically touch, so something must carry the signal from one to the next. That job is done at the synapse, using a chemical messenger.
+[bio19-s4.1.0] A synapse is the junction between two neurons, or between a neuron and an effector such as a muscle fibre (a single muscle cell).
+[bio19-s4.1.1] The two cells do not touch; a tiny gap called the synaptic cleft separates them, which is why the electrical impulse cannot simply carry on across.
+[bio19-s4.1.2] The neuron before the cleft is the presynaptic neuron; the one after it is the postsynaptic neuron. Pre means before and post means after.
+[bio19-s4.1.3] The presynaptic axon (the long fibre of the neuron) ends in a swollen synaptic knob containing mitochondria, which supply energy, and vesicles (small membrane sacs) of neurotransmitter.
+[bio19-s4.1.4] A neurotransmitter is a chemical released by a neuron that carries the impulse across a synapse.
+[bio19-s4.1.5] Examples of neurotransmitters are acetylcholine, noradrenaline, dopamine and serotonin.
+[bio19-s4.2.b] A labelled synapse diagram is a common exam task, and it also shows you where each part sits relative to the cleft.
+[bio19-s4.2.0] Diagram: synapse labelling presynaptic neuron, synaptic knob, mitochondria, vesicles, neurotransmitter molecules, synaptic cleft, receptor proteins on the postsynaptic membrane, postsynaptic neuron, and an arrow for the direction of the impulse.
+[bio19-s4.3.b] Crossing the cleft is a sequence of steps in which the electrical impulse is converted into a chemical signal and then back into an electrical one. Learn the steps in order.
+[bio19-s4.3.0] 1. The impulse arrives at the synaptic knob.
+[bio19-s4.3.1] 2. This causes calcium ions (Ca²⁺) to move into the knob.
+[bio19-s4.3.2] 3. The calcium ions trigger vesicles to move to the presynaptic membrane, fuse with it and release neurotransmitter into the cleft.
+[bio19-s4.3.3] 4. The neurotransmitter diffuses across the cleft. The gap is tiny, so this is quick.
+[bio19-s4.3.4] 5. It binds to specific receptor proteins on the postsynaptic membrane; each receptor fits only its own neurotransmitter, like a key in a lock.
+[bio19-s4.3.5] 6. Binding opens ion channels in the postsynaptic membrane, ions move in, and a new impulse starts in the postsynaptic neuron if enough neurotransmitter binds.
+[bio19-s4.3.6] Mitochondria in the knob supply ATP (the cell's energy currency) for making and releasing neurotransmitter.
+[bio19-s4.4.b] Synapses are not just gaps to cross. Because the signal is chemical, they control how signals travel and which ones get through.
+[bio19-s4.4.0] Impulses cross in one direction only, because only the presynaptic side has vesicles and only the postsynaptic side has receptors. The neurotransmitter therefore cannot send a signal backwards.
+[bio19-s4.4.1] A weak stimulus may release too little neurotransmitter to start a new impulse, so synapses filter out unimportant signals.
+[bio19-s4.4.2] One neuron can synapse with many others, so impulses can be spread to many cells or combined from many cells.
+[bio19-s4.4.3] Many drugs act at synapses, since the chemical step can be altered. There is more on this in Conduction across the synaptic cleft and its disruption.
+
+CANDIDATES bio19-s3: Neurons
+[bio19-s3.0.b] Your body has to pass information quickly between receptors (cells that detect changes), the brain and spinal cord, and muscles and glands. Neurons are the cells that do this job, and there are three types, each with its own role.
+[bio19-s3.0.0] A neuron, or nerve cell, is the basic unit of the nervous system; it carries electrochemical nerve impulses (tiny electrical-and-chemical signals that travel along the cell).
+[bio19-s3.0.1] Neurons are long and thin, so a single cell can connect distant parts of the body, for example the skin of the foot and the spinal cord.
+[bio19-s3.0.2] Sensory neurons carry impulses from receptors (cells that detect a stimulus) to the CNS (the central nervous system: brain and spinal cord).
+[bio19-s3.0.3] Motor neurons carry impulses from the CNS to effectors (muscles or glands, which carry out the response).
+[bio19-s3.0.4] Interneurons, also called relay or connector neurons, carry impulses between neurons within the CNS, so they link the incoming and outgoing pathways.
+[bio19-s3.1.b] Every neuron is built from the same three main regions: a cell body, branched dendrites that receive signals, and an axon that sends them on. The shape of each region suits its job.
+[bio19-s3.1.0] The cell body contains the nucleus and most of the cytoplasm and organelles, which keeps the cell alive.
+[bio19-s3.1.1] The cell body also makes the neurotransmitter (the chemical that passes the signal to the next cell) and the proteins the neuron needs.
+[bio19-s3.1.2] Dendrites are short, branched extensions that receive impulses from other neurons or receptors and carry them towards the cell body.
+[bio19-s3.1.3] Branching gives dendrites a large surface, so one neuron can receive signals from many others.
+[bio19-s3.1.4] The axon is a long single fibre that carries impulses away from the cell body.
+[bio19-s3.1.5] The axon's length lets impulses reach distant effectors, for example a muscle in the foot.
+[bio19-s3.2.b] Many axons are wrapped in a fatty coat that makes impulses travel faster. Fast conduction matters because the body must respond quickly, for example when you pull your hand from something hot.
+[bio19-s3.2.0] The myelin sheath is a fatty insulating layer around many axons, so the impulse does not leak away along the way.
+[bio19-s3.2.1] It speeds up the impulse, which jumps between the small gaps in the sheath called nodes of Ranvier.
+[bio19-s3.2.2] Schwann cells are cells that wrap around the axon in the PNS (the peripheral nervous system: the nerves outside the brain and spinal cord), their membrane forming the myelin sheath.
+[bio19-s3.3.b] At its far end an axon has to hand the impulse on to the next cell, whether another neuron, a muscle or a gland. The axon terminals are built for this hand-over.
+[bio19-s3.3.0] The axon ends in swollen synaptic knobs, also called axon terminals.
+[bio19-s3.3.1] Neurotransmitter vesicles are tiny sacs in the synaptic knobs that store neurotransmitter, so a supply is ready to be released.
+[bio19-s3.3.2] The neurotransmitter is released to pass the impulse to the next cell. There is more on this in Neurotransmission.
+[bio19-s3.4.b] A motor neuron carries the command from the CNS out to an effector. Its structure is arranged to collect many inputs inside the CNS and then send one signal a long way out.
+[bio19-s3.4.0] A motor neuron has its cell body at one end, inside the CNS, with many dendrites.
+[bio19-s3.4.1] Its many dendrites receive input from many interneurons, so one motor neuron can combine signals from many sources.
+[bio19-s3.4.2] It has one long axon, which ends in axon terminals on a muscle or gland, so the axon reaches the effector wherever it lies in the body.
+[bio19-s3.5.b] A sensory neuron brings information in from a receptor to the CNS. It has a different layout from a motor neuron, with its cell body off to one side.
+[bio19-s3.5.0] A sensory neuron has a long fibre, the dendron, which carries impulses from the receptor to the cell body. A dendron is not the same as a dendrite, which is short and branched.
+[bio19-s3.5.1] Its cell body sits to one side of the fibre, in a ganglion (a cluster of cell bodies) outside the CNS.
+[bio19-s3.5.2] A shorter axon carries the impulse on into the CNS.
+[bio19-s3.5.3] The long dendron reaches from a receptor, for example in the skin of the foot, to the spinal cord.
+[bio19-s3.5.4] The cell body lies off the main pathway, so it does not slow the impulse.
+[bio19-s3.6.b] Between the sensory and motor neurons sits a third type that links them. Interneurons make the CNS a network rather than a set of separate wires.
+[bio19-s3.6.0] Interneurons are short, with many branched connections, so each can link with many other neurons.
+[bio19-s3.6.1] They are found only in the CNS.
+[bio19-s3.6.2] They connect sensory neurons to motor neurons and link many neurons together.
+[bio19-s3.7.b] You are often asked to label a neuron diagram or to say which type is shown. Practise drawing both types so that you can place every part and show the direction of the impulse.
+[bio19-s3.7.0] Diagram: a motor neuron and a sensory neuron, labelling cell body, nucleus, dendrites, dendron (sensory), axon, myelin sheath, Schwann cell, node of Ranvier, axon terminals, neurotransmitter vesicles, and an arrow for the direction of the impulse.
+[bio19-s3.8.b] The importance of myelin shows when it is damaged. Multiple sclerosis is a disease in which this happens.
+[bio19-s3.8.0] Multiple sclerosis (MS) is an autoimmune disease (the immune system attacks the body's own tissue) in which the body's immune system damages the myelin sheath in the CNS.
+[bio19-s3.8.1] Damaged myelin slows or blocks impulses, because the insulation that lets them jump between the nodes of Ranvier is lost.
+[bio19-s3.8.2] Symptoms include problems with movement, balance and vision.
+
+CANDIDATES bio25-s1: Diffusion, osmosis and active transport
+[bio25-s1.0.b] Every cell has to take in what it needs and get rid of what it doesn't, and the cell membrane is the gatekeeper that controls this. Understanding what the membrane lets through, and how, explains the three transport processes in this subsection.
+[bio25-s1.0.0] Every cell is surrounded by a cell membrane: a phospholipid bilayer (a double layer of fat-based molecules) with proteins scattered through it, known as the fluid mosaic model. The membranes around organelles (the small working parts inside a cell) are built the same way.
+[bio25-s1.0.1] Materials constantly cross the membrane: cells take in oxygen (O₂), glucose, water and ions (charged particles), and release carbon dioxide (CO₂) and wastes such as urea. This is the transport and transfer of materials across membranes.
+[bio25-s1.0.2] The membrane is selectively permeable: it lets some substances through and not others. Small, non-polar molecules (ones with no electrical charge difference across them) such as oxygen and carbon dioxide pass straight through the bilayer.
+[bio25-s1.0.3] Water passes through slowly between the phospholipids and quickly through protein water channels (aquaporins). Ions and large polar molecules such as glucose cross only through specific channel or carrier proteins, and large molecules such as proteins and starch cannot cross at all.
+[bio25-s1.0.4] Three terms for barriers are easy to mix up. Fully permeable lets water and all solutes through, e.g. the plant cell wall. Semi-permeable (partially permeable) lets water and small molecules through but not larger ones, by the size of its pores, e.g. Visking (dialysis) tubing.
+[bio25-s1.0.5] Selectively permeable describes a living membrane, which controls what crosses using its proteins and, unlike the other two, can move substances actively (using energy).
+[bio25-s1.0.6] A solution is a solute (e.g. sugar or salt) dissolved in a solvent (water). A concentrated solution has much solute and so a lower concentration of water; a dilute solution has little solute and so a higher concentration of water.
+[bio25-s1.1.b] Diffusion is the simplest way for substances to move in and out of cells, and it needs no energy from the cell. It is the baseline against which osmosis and active transport are compared.
+[bio25-s1.1.0] Diffusion is the net movement of molecules or ions from a region of their higher concentration to a region of their lower concentration, until they are evenly spread. The difference in concentration between two regions is the concentration gradient, and diffusion is movement down the gradient.
+[bio25-s1.1.1] Diffusion is passive: it needs no energy from the cell (no ATP, the cell's energy-carrying molecule), because it results from the random movement of particles, which have kinetic (movement) energy.
+[bio25-s1.1.2] Individual particles move in all directions, but more move from the crowded region than into it, which gives the net movement. It happens in gases and liquids, in living and non-living systems, with or without a membrane.
+[bio25-s1.1.3] Examples in living things: oxygen diffuses from the air in the alveoli (the air sacs of the lungs) into the blood while carbon dioxide diffuses the other way. There is more on this in Gas exchange and the breathing mechanism.
+[bio25-s1.1.4] Carbon dioxide diffuses into a leaf through the stomata (pores) while oxygen diffuses out, and digested food molecules diffuse from the small intestine into the blood. A non-living example is the scent of perfume spreading through a room.
+[bio25-s1.1.5] Facilitated diffusion is passive diffusion of ions and polar molecules, such as glucose, down their concentration gradient through specific channel or carrier proteins. They need the proteins because they cannot cross the bilayer directly; it still needs no ATP, e.g. glucose enters red blood cells this way.
+[bio25-s1.1.6] Factors that increase the rate of diffusion are a steeper concentration gradient, higher temperature (particles move faster), a larger surface area, a shorter distance (a thinner barrier) and smaller particles.
+[bio25-s1.1.7] Exchange surfaces such as alveoli and villi (finger-like folds of the small intestine wall) have a large surface area, a thin wall and a steep gradient kept up by blood flow, so diffusion is fast. Osmosis depends on the same factors.
+[bio25-s1.2.b] Water crosses membranes by its own process, because it is a small molecule that moves in and out of cells all the time. Osmosis is diffusion of water, and it explains why cells swell and shrink.
+[bio25-s1.2.0] Osmosis is the net movement of water molecules from a region of higher water concentration (a dilute solution) to a region of lower water concentration (a more concentrated solution) across a semi-permeable (selectively permeable) membrane.
+[bio25-s1.2.1] Osmosis is a special case of diffusion: it is the diffusion of water only, and it happens only across a membrane that lets water through but holds back the solute. It is passive and needs no ATP.
+[bio25-s1.2.2] Why water moves: solute molecules attract water molecules around them, so fewer water molecules are free to move in a concentrated solution. More free water molecules cross the membrane from the dilute side than from the concentrated side.
+[bio25-s1.2.3] This gives a net flow of water into the concentrated solution, until the concentrations are equal or a pressure, such as that of a cell wall, stops it. Water still crosses in both directions; the flow is only greater one way.
+[bio25-s1.2.4] Diagram: a U-tube (or beaker) divided by a semi-permeable membrane, dilute solution one side, concentrated sucrose solution the other; larger arrow of water towards the concentrated side, liquid level rising there. Label: semi-permeable membrane, water molecule, sucrose molecule (too large to cross), net movement of water.
+[bio25-s1.3.b] Cells sit in watery surroundings, so osmosis decides whether they gain or lose water. Animal cells and plant cells react differently because plant cells have a cell wall.
+[bio25-s1.3.0] Three terms describe the solution outside a cell compared with the cell's contents. Hypotonic means more dilute than the cell, so water enters the cell; hypertonic means more concentrated than the cell, so water leaves it; isotonic means the same concentration, so there is no net movement.
+[bio25-s1.3.1] Animal cells in a hypotonic solution (e.g. pure water) gain water, swell and may burst, because they have no cell wall to hold them in. Red blood cells bursting is called haemolysis.
+[bio25-s1.3.2] In a hypertonic solution animal cells lose water and shrink, and red blood cells become shrivelled and spiky (crenated). This is why body fluids must be kept isotonic with cells (osmoregulation). There is more on this in Water.
+[bio25-s1.3.3] Plant cells in a hypotonic solution take water into the vacuole (the large water-filled sac in the cell). The cytoplasm is pushed against the cell wall, which resists further swelling, so the cell becomes turgid (firm) and doesn't burst. The pressure of the contents against the wall is turgor pressure.
+[bio25-s1.3.4] Plant cells in a hypertonic solution lose water from the vacuole. The cell becomes flaccid (soft), then the cytoplasm and cell membrane shrink away from the cell wall, which is called plasmolysis.
+[bio25-s1.3.5] The gap between wall and membrane fills with the outside solution, because the cell wall is fully permeable. Plasmolysis can be reversed (deplasmolysis) if the cell is put back into water before it is damaged.
+[bio25-s1.3.6] Diagram: a plant cell in water (turgid, large vacuole, cytoplasm pressed against wall), in isotonic solution (flaccid) and in concentrated solution (plasmolysed, membrane and cytoplasm pulled from wall). Label: cell wall, cell membrane, vacuole, cytoplasm. Also red blood cells in water (swollen, bursting), isotonic (normal disc) and concentrated solution (crenated).
+[bio25-s1.4.b] Diffusion and osmosis only move things down a gradient, but cells often need to collect substances that are already scarcer outside than inside. Active transport does this by spending energy.
+[bio25-s1.4.0] Active transport is the movement of molecules or ions across a membrane from a region of lower concentration to a region of higher concentration, against the concentration gradient, using energy from ATP.
+[bio25-s1.4.1] Because it needs ATP, active transport happens only in living cells and depends on respiration (the process that makes ATP). It stops or slows if respiration is stopped, e.g. by lack of oxygen, low temperature or a respiratory poison such as cyanide.
+[bio25-s1.4.2] Cells that carry out much active transport have many mitochondria (the organelles that make ATP), e.g. root hair cells, cells lining the kidney tubules and cells of the small intestine.
+[bio25-s1.4.3] Root hair cells take up mineral ions, e.g. nitrate, from soil water in which they are more dilute than in the cell. There is more on this in Transport in Plants.
+[bio25-s1.4.4] Glucose and amino acids are absorbed from the small intestine into the blood, and reabsorbed from the kidney tubules (the tiny tubes that filter blood) into the blood, by active transport.
+[bio25-s1.5.b] Active transport is carried out by carrier proteins in the membrane, which act as pumps. Each pump works in the same four steps.
+[bio25-s1.5.0] 1. The substance binds to a specific carrier protein (a pump) in the membrane, so each pump moves only the substance it fits.
+[bio25-s1.5.1] 2. ATP made in respiration releases energy, which changes the shape of the carrier protein.
+[bio25-s1.5.2] 3. The change in shape moves the substance across the membrane and releases it on the other side.
+[bio25-s1.5.3] 4. The carrier returns to its original shape, ready to pick up another molecule.
+[bio25-s1.5.4] Diagram: a carrier protein in a phospholipid bilayer, a molecule binding on the low-concentration side, ATP → ADP + Pi releasing energy, carrier changing shape, molecule released on the high-concentration side. Label: carrier protein, phospholipid bilayer, ATP, direction of movement against the gradient.
+[bio25-s1.6.b] This carrier pump moves two ions in opposite directions at once. It is found in animal cells and is essential for nerves.
+[bio25-s1.6.0] The sodium–potassium pump is a carrier protein in the membranes of animal cells, including nerve cells. It uses one ATP to pump three sodium ions (Na⁺) out of the cell and two potassium ions (K⁺) into it, both against their concentration gradients.
+[bio25-s1.6.1] It keeps Na⁺ high outside the cell and K⁺ high inside, which nerve cells need in order to carry impulses, and it helps control cell volume.
+[bio25-s1.7.b] The three processes are easy to confuse, so exams ask you to compare them. Compare them on the same five points each time: energy, direction, what moves, membrane and proteins, and where they happen.
+[bio25-s1.7.0] Energy: diffusion and osmosis are passive, so they need no ATP; active transport needs ATP from respiration.
+[bio25-s1.7.1] Direction: diffusion and osmosis go down a concentration gradient (high to low concentration of the substance moving; for osmosis, the water concentration), whereas active transport goes against it, from low to high.
+[bio25-s1.7.2] What moves: diffusion moves any particle, gases and solutes alike; osmosis moves only water; active transport moves particular solutes, mainly ions and small molecules such as glucose, but not water.
+[bio25-s1.7.3] Membrane and proteins: diffusion can happen with or without a membrane and needs no proteins for small non-polar molecules; osmosis needs a semi-permeable membrane; active transport needs specific carrier proteins in a living membrane.
+[bio25-s1.7.4] Where: diffusion and osmosis happen in living and non-living systems, e.g. Visking tubing, but active transport happens only in living cells, because it depends on respiration.

@@ -103914,6 +103914,11409 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
     }
    }
   ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p1-q1",
+  "subject": "maths",
+  "chapterId": "maths6",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Higher 2026 — Paper 1 — Q1",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P1",
+  "questionNumber": 1,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p1-q1-1.webp",
+   "exam-images/maths/2026/higher-p1-q1-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 5,
+    "topics": [
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Isolate the square root",
+       "lines": [
+        {
+         "tex": "5 &= 1 + \\sqrt{a+7}"
+        },
+        {
+         "tex": "4 &= \\sqrt{a+7}"
+        }
+       ]
+      },
+      {
+       "title": "Square both sides",
+       "lines": [
+        {
+         "text": "Squaring removes the square root."
+        },
+        {
+         "tex": "4^2 &= a + 7"
+        },
+        {
+         "tex": "16 &= a + 7"
+        }
+       ]
+      },
+      {
+       "title": "Solve for a",
+       "lines": [
+        {
+         "tex": "a &= 16 - 7"
+        },
+        {
+         "tex": "a &= 9"
+        }
+       ]
+      },
+      {
+       "title": "Check the answer in the original equation",
+       "lines": [
+        {
+         "text": "Squaring can introduce false solutions, so substitute $a = 9$ back in."
+        },
+        {
+         "tex": "1 + \\sqrt{9+7} &= 1 + \\sqrt{16}"
+        },
+        {
+         "tex": "&= 1 + 4"
+        },
+        {
+         "tex": "&= 5"
+        },
+        {
+         "text": "This matches the left-hand side, and $9 \\ge -7$, so $a = 9$ is valid."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a = 9"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths6",
+     "maths2"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Isolate the term containing p",
+       "lines": [
+        {
+         "tex": "\\frac{1}{n} + \\frac{2}{p} &= \\frac{3}{s}"
+        },
+        {
+         "tex": "\\frac{2}{p} &= \\frac{3}{s} - \\frac{1}{n}"
+        }
+       ]
+      },
+      {
+       "title": "Combine the right-hand side over a common denominator",
+       "lines": [
+        {
+         "text": "The common denominator of $s$ and $n$ is $sn$."
+        },
+        {
+         "tex": "\\frac{2}{p} &= \\frac{3n}{sn} - \\frac{s}{sn}"
+        },
+        {
+         "tex": "\\frac{2}{p} &= \\frac{3n - s}{sn}"
+        }
+       ]
+      },
+      {
+       "title": "Turn both sides upside down",
+       "lines": [
+        {
+         "tex": "\\frac{p}{2} &= \\frac{sn}{3n - s}"
+        }
+       ]
+      },
+      {
+       "title": "Multiply both sides by 2",
+       "lines": [
+        {
+         "tex": "p &= 2 \\times \\frac{sn}{3n - s}"
+        },
+        {
+         "tex": "p &= \\frac{2sn}{3n - s}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "p = \\frac{2sn}{3n - s}"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 15,
+    "topics": [
+     "maths1",
+     "maths4"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the cubic as the quadratic times a linear factor",
+       "lines": [
+        {
+         "text": "The quadratic is a factor, so the other factor is linear. Call it $ax + b$."
+        },
+        {
+         "tex": "(2x^2 + 4x - 6)(ax + b) &= 8x^3 + 6x^2 - 44x + 30"
+        }
+       ]
+      },
+      {
+       "title": "Compare the $x^3$ terms to find a",
+       "lines": [
+        {
+         "text": "The only way to get $x^3$ is $2x^2 \\times ax$."
+        },
+        {
+         "tex": "2a &= 8"
+        },
+        {
+         "tex": "a &= 4"
+        }
+       ]
+      },
+      {
+       "title": "Compare the constant terms to find b",
+       "lines": [
+        {
+         "text": "The only way to get a constant is $-6 \\times b$."
+        },
+        {
+         "tex": "-6b &= 30"
+        },
+        {
+         "tex": "b &= -5"
+        }
+       ]
+      },
+      {
+       "title": "Check using the $x^2$ terms",
+       "lines": [
+        {
+         "text": "The $x^2$ terms come from $2x^2 \\times b$ and $4x \\times ax$, so they add to $2b + 4a$. This must equal $6$."
+        },
+        {
+         "tex": "2b + 4a &= 6"
+        },
+        {
+         "tex": "2(-5) + 4(4) &= -10 + 16"
+        },
+        {
+         "tex": "&= 6"
+        },
+        {
+         "text": "This matches the $x^2$ coefficient 6, so the linear factor is $4x - 5$."
+        }
+       ]
+      },
+      {
+       "title": "Solve the quadratic factor equals 0",
+       "lines": [
+        {
+         "tex": "2x^2 + 4x - 6 &= 0"
+        },
+        {
+         "tex": "x^2 + 2x - 3 &= 0"
+        },
+        {
+         "tex": "(x + 3)(x - 1) &= 0"
+        },
+        {
+         "tex": "x &= -3 \\text{ or } x = 1"
+        }
+       ]
+      },
+      {
+       "title": "Solve the linear factor equals 0",
+       "lines": [
+        {
+         "tex": "4x - 5 &= 0"
+        },
+        {
+         "tex": "4x &= 5"
+        },
+        {
+         "tex": "x &= \\frac{5}{4}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = -3, \\; x = 1, \\; x = \\frac{5}{4}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p1-q2",
+  "subject": "maths",
+  "chapterId": "maths21",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Higher 2026 — Paper 1 — Q2",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P1",
+  "questionNumber": 2,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p1-q2-1.webp",
+   "exam-images/maths/2026/higher-p1-q2-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths21"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the number as 4 plus an infinite series",
+       "lines": [
+        {
+         "text": "Each repeat of 36 is 100 times smaller than the one before."
+        },
+        {
+         "tex": "4.363636\\ldots &= 4 + \\frac{36}{100} + \\frac{36}{100^2} + \\frac{36}{100^3} + \\cdots"
+        }
+       ]
+      },
+      {
+       "title": "Identify the geometric series",
+       "lines": [
+        {
+         "text": "After the 4, the series is geometric."
+        },
+        {
+         "tex": "a &= \\frac{36}{100}"
+        },
+        {
+         "tex": "r &= \\frac{1}{100}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the sum to infinity formula",
+       "lines": [
+        {
+         "tex": "S_\\infty &= \\frac{a}{1 - r}"
+        },
+        {
+         "tex": "S_\\infty &= \\frac{\\frac{36}{100}}{1 - \\frac{1}{100}}"
+        },
+        {
+         "tex": "S_\\infty &= \\frac{\\frac{36}{100}}{\\frac{99}{100}}"
+        },
+        {
+         "tex": "S_\\infty &= \\frac{36}{99}"
+        }
+       ]
+      },
+      {
+       "title": "Add the whole number 4",
+       "lines": [
+        {
+         "tex": "4 + \\frac{36}{99} &= \\frac{396}{99} + \\frac{36}{99}"
+        },
+        {
+         "tex": "&= \\frac{432}{99}"
+        }
+       ]
+      },
+      {
+       "title": "Simplify by dividing top and bottom by 9",
+       "lines": [
+        {
+         "tex": "\\frac{432}{99} &= \\frac{48}{11}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "4.\\dot{3}\\dot{6} = \\frac{48}{11}"
+    }
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 5,
+    "topics": [
+     "maths13",
+     "maths17"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the monthly rate as i",
+       "lines": [
+        {
+         "text": "The annual growth factor is $1 + 0.084$ and equals twelve months of monthly growth."
+        },
+        {
+         "tex": "(1 + i)^{12} &= 1 + 0.084"
+        },
+        {
+         "tex": "(1 + i)^{12} &= 1.084"
+        }
+       ]
+      },
+      {
+       "title": "Take the twelfth root",
+       "lines": [
+        {
+         "tex": "1 + i &= 1.084^{\\frac{1}{12}}"
+        },
+        {
+         "tex": "i &= 1.084^{\\frac{1}{12}} - 1"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate and round to 2 decimal places",
+       "lines": [
+        {
+         "tex": "i &= 0.00674\\ldots"
+        },
+        {
+         "tex": "i &= 0.67\\%"
+        },
+        {
+         "text": "So the monthly rate is $0.67\\%$, correct to 2 decimal places."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "i = 0.67\\%"
+    }
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 15,
+    "topics": [
+     "maths13",
+     "maths21"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write down the values in the amortisation formula",
+       "lines": [
+        {
+         "text": "The monthly rate is $i = 0.0067$, the loan is $P = 14000$, and $t = 5 \\times 12 = 60$ months."
+        },
+        {
+         "tex": "A &= P \\cdot \\frac{i(1+i)^t}{(1+i)^t - 1}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the values",
+       "lines": [
+        {
+         "tex": "A &= 14000\\left[\\frac{0.0067(1.0067)^{60}}{(1.0067)^{60} - 1}\\right]"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate on the calculator",
+       "lines": [
+        {
+         "tex": "A &= 284.137\\ldots"
+        },
+        {
+         "tex": "A &= 284.14"
+        },
+        {
+         "text": "The monthly repayment is €284.14."
+        }
+       ]
+      },
+      {
+       "title": "Find the total amount repaid over 60 months",
+       "lines": [
+        {
+         "tex": "\\text{Total repaid} &= 284.14 \\times 60"
+        },
+        {
+         "tex": "\\text{Total repaid} &= 17048.40"
+        }
+       ]
+      },
+      {
+       "title": "Subtract the loan to get the interest",
+       "lines": [
+        {
+         "tex": "\\text{Interest} &= 17048.40 - 14000"
+        },
+        {
+         "tex": "\\text{Interest} &= 3048.40"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Monthly repayment} = €284.14, \\; \\text{Total interest} = €3048.40"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p1-q3",
+  "subject": "maths",
+  "chapterId": "maths12",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Higher 2026 — Paper 1 — Q3",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P1",
+  "questionNumber": 3,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p1-q3-1.webp",
+   "exam-images/maths/2026/higher-p1-q3-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths12"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Split the function into u and v",
+       "lines": [
+        {
+         "text": "The product rule is $f'(x) = u\\,v' + v\\,u'$."
+        },
+        {
+         "tex": "u &= 7x^2"
+        },
+        {
+         "tex": "v &= \\cos(3x)"
+        }
+       ]
+      },
+      {
+       "title": "Differentiate u",
+       "lines": [
+        {
+         "tex": "u' &= 14x"
+        }
+       ]
+      },
+      {
+       "title": "Differentiate v using the chain rule",
+       "lines": [
+        {
+         "text": "The derivative of $\\cos(3x)$ is $-\\sin(3x)$ times the derivative of $3x$, which is 3."
+        },
+        {
+         "tex": "v' &= -3\\sin(3x)"
+        }
+       ]
+      },
+      {
+       "title": "Apply the product rule",
+       "lines": [
+        {
+         "tex": "f'(x) &= u\\,v' + v\\,u'"
+        },
+        {
+         "tex": "f'(x) &= 7x^2\\big(-3\\sin(3x)\\big) + \\cos(3x)(14x)"
+        },
+        {
+         "tex": "f'(x) &= -21x^2\\sin(3x) + 14x\\cos(3x)"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = π",
+       "lines": [
+        {
+         "tex": "f'(\\pi) &= -21\\pi^2\\sin(3\\pi) + 14\\pi\\cos(3\\pi)"
+        },
+        {
+         "text": "$\\sin(3\\pi) = 0$ and $\\cos(3\\pi) = -1$."
+        },
+        {
+         "tex": "f'(\\pi) &= -21\\pi^2(0) + 14\\pi(-1)"
+        },
+        {
+         "tex": "f'(\\pi) &= -14\\pi"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "f'(x) = -21x^2\\sin(3x) + 14x\\cos(3x), \\quad f'(\\pi) = -14\\pi"
+    }
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 10,
+    "topics": [
+     "maths19"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Integrate g''(x) to get g'(x)",
+       "lines": [
+        {
+         "tex": "g'(x) &= \\int (30x - 18)\\,dx"
+        },
+        {
+         "tex": "g'(x) &= \\frac{30x^2}{2} - 18x + k"
+        },
+        {
+         "tex": "g'(x) &= 15x^2 - 18x + k"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = −1 into g'(x)",
+       "lines": [
+        {
+         "text": "The slope at $x = -1$ is $-2$, so $g'(-1) = -2$."
+        },
+        {
+         "tex": "g'(-1) &= 15(-1)^2 - 18(-1) + k"
+        },
+        {
+         "tex": "g'(-1) &= 15 + 18 + k"
+        },
+        {
+         "tex": "g'(-1) &= 33 + k"
+        }
+       ]
+      },
+      {
+       "title": "Use g'(−1) = −2 to find k",
+       "lines": [
+        {
+         "tex": "33 + k &= -2"
+        },
+        {
+         "tex": "k &= -2 - 33"
+        },
+        {
+         "tex": "k &= -35"
+        }
+       ]
+      },
+      {
+       "title": "Write g'(x) with the value of k",
+       "lines": [
+        {
+         "tex": "g'(x) &= 15x^2 - 18x - 35"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "g'(x) = 15x^2 - 18x - 35"
+    }
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 10,
+    "topics": [
+     "maths19"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Integrate g'(x) to get g(x)",
+       "lines": [
+        {
+         "tex": "g(x) &= \\int (15x^2 - 18x - 35)\\,dx"
+        },
+        {
+         "tex": "g(x) &= \\frac{15x^3}{3} - \\frac{18x^2}{2} - 35x + h"
+        },
+        {
+         "tex": "g(x) &= 5x^3 - 9x^2 - 35x + h"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = −1 into g(x)",
+       "lines": [
+        {
+         "text": "The curve passes through $(-1, 8)$, so $g(-1) = 8$."
+        },
+        {
+         "tex": "g(-1) &= 5(-1)^3 - 9(-1)^2 - 35(-1) + h"
+        },
+        {
+         "tex": "g(-1) &= -5 - 9 + 35 + h"
+        },
+        {
+         "tex": "g(-1) &= 21 + h"
+        }
+       ]
+      },
+      {
+       "title": "Use g(−1) = 8 to find h",
+       "lines": [
+        {
+         "tex": "21 + h &= 8"
+        },
+        {
+         "tex": "h &= 8 - 21"
+        },
+        {
+         "tex": "h &= -13"
+        }
+       ]
+      },
+      {
+       "title": "Write g(x) with the value of h",
+       "lines": [
+        {
+         "tex": "g(x) &= 5x^3 - 9x^2 - 35x - 13"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "g(x) = 5x^3 - 9x^2 - 35x - 13"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p1-q4",
+  "subject": "maths",
+  "chapterId": "maths10",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Higher 2026 — Paper 1 — Q4",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P1",
+  "questionNumber": 4,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p1-q4-1.webp",
+   "exam-images/maths/2026/higher-p1-q4-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths10"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write down the conjugate of u",
+       "lines": [
+        {
+         "text": "The conjugate changes the sign of the imaginary part."
+        },
+        {
+         "tex": "\\overline{u} &= 3 + 7i"
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the expression",
+       "lines": [
+        {
+         "tex": "2\\overline{u} + 5iu &= 2(3+7i) + 5i(3-7i)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply out the brackets",
+       "lines": [
+        {
+         "tex": "2(3+7i) + 5i(3-7i) &= 6 + 14i + 15i - 35i^2"
+        }
+       ]
+      },
+      {
+       "title": "Replace i squared by -1",
+       "lines": [
+        {
+         "text": "Use $i^2 = -1$, so $-35i^2 = 35$."
+        },
+        {
+         "tex": "6 + 14i + 15i - 35i^2 &= 6 + 14i + 15i + 35"
+        }
+       ]
+      },
+      {
+       "title": "Collect real and imaginary parts",
+       "lines": [
+        {
+         "tex": "6 + 14i + 15i + 35 &= (6+35) + (14+15)i"
+        },
+        {
+         "tex": "&= 41 + 29i"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "41 + 29i"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 15,
+    "topics": [
+     "maths10"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the modulus r of 3 - √3 i",
+       "lines": [
+        {
+         "text": "The number is $3 - \\sqrt{3}\\,i$, so the real part is 3 and the imaginary part is $-\\sqrt{3}$."
+        },
+        {
+         "tex": "r &= \\sqrt{3^2 + (\\sqrt{3})^2}"
+        },
+        {
+         "tex": "&= \\sqrt{9+3}"
+        },
+        {
+         "tex": "&= \\sqrt{12}"
+        }
+       ]
+      },
+      {
+       "title": "Find the reference angle",
+       "lines": [
+        {
+         "text": "Reference angle $=\\tan^{-1}\\left|\\frac{\\text{imaginary}}{\\text{real}}\\right|$."
+        },
+        {
+         "tex": "\\tan^{-1}\\frac{\\sqrt{3}}{3} &= 30^\\circ"
+        }
+       ]
+      },
+      {
+       "title": "Find the argument θ",
+       "lines": [
+        {
+         "text": "The point $(3, -\\sqrt{3})$ is in the fourth quadrant, so subtract the reference angle from $360^\\circ$."
+        },
+        {
+         "tex": "\\theta &= 360^\\circ - 30^\\circ"
+        },
+        {
+         "tex": "&= 330^\\circ"
+        }
+       ]
+      },
+      {
+       "title": "Apply de Moivre’s theorem",
+       "lines": [
+        {
+         "text": "$(r(\\cos\\theta + i\\sin\\theta))^n = r^n(\\cos n\\theta + i\\sin n\\theta)$."
+        },
+        {
+         "tex": "(3-\\sqrt{3}\\,i)^8 &= (\\sqrt{12})^8\\left[\\cos(8 \\times 330^\\circ) + i\\sin(8 \\times 330^\\circ)\\right]"
+        },
+        {
+         "tex": "&= (\\sqrt{12})^8\\left[\\cos 2640^\\circ + i\\sin 2640^\\circ\\right]"
+        }
+       ]
+      },
+      {
+       "title": "Reduce the angle",
+       "lines": [
+        {
+         "text": "$2640^\\circ = 7 \\times 360^\\circ + 120^\\circ$, so remove 7 full turns."
+        },
+        {
+         "tex": "(\\sqrt{12})^8\\left[\\cos 2640^\\circ + i\\sin 2640^\\circ\\right] &= (\\sqrt{12})^8\\left[\\cos 120^\\circ + i\\sin 120^\\circ\\right]"
+        }
+       ]
+      },
+      {
+       "title": "Work out the modulus power",
+       "lines": [
+        {
+         "tex": "(\\sqrt{12})^8 &= 12^4"
+        },
+        {
+         "tex": "&= 20736"
+        }
+       ]
+      },
+      {
+       "title": "Put in the exact values of cos and sin",
+       "lines": [
+        {
+         "text": "$\\cos 120^\\circ = -\\tfrac{1}{2}$ and $\\sin 120^\\circ = \\tfrac{\\sqrt{3}}{2}$."
+        },
+        {
+         "tex": "(3-\\sqrt{3}\\,i)^8 &= 20736\\left[-\\frac{1}{2} + \\frac{\\sqrt{3}}{2}\\,i\\right]"
+        }
+       ]
+      },
+      {
+       "title": "Multiply out to get a + bi",
+       "lines": [
+        {
+         "tex": "20736\\left[-\\frac{1}{2} + \\frac{\\sqrt{3}}{2}\\,i\\right] &= -10368 + 10368\\sqrt{3}\\,i"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-10368 + 10368\\sqrt{3}\\,i"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 5,
+    "topics": [
+     "maths10"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find a from the modulus of w",
+       "lines": [
+        {
+         "text": "$\\cos\\phi + i\\sin\\phi$ has modulus 1, so $|w| = |a|$."
+        },
+        {
+         "tex": "|a| &= 5"
+        },
+        {
+         "text": "Choose the positive value."
+        },
+        {
+         "tex": "a &= 5"
+        }
+       ]
+      },
+      {
+       "title": "Find b from the modulus of vw",
+       "lines": [
+        {
+         "text": "$vw = ab\\left[\\cos(160^\\circ+\\theta) + i\\sin(160^\\circ+\\theta)\\right]$, so $|vw| = |a||b|$."
+        },
+        {
+         "tex": "5|b| &= 15"
+        },
+        {
+         "tex": "|b| &= 3"
+        },
+        {
+         "text": "Choose the positive value."
+        },
+        {
+         "tex": "b &= 3"
+        }
+       ]
+      },
+      {
+       "title": "Write vw in polar form and set it equal to -15",
+       "lines": [
+        {
+         "tex": "15\\left[\\cos(160^\\circ+\\theta) + i\\sin(160^\\circ+\\theta)\\right] &= -15"
+        },
+        {
+         "tex": "\\cos(160^\\circ+\\theta) + i\\sin(160^\\circ+\\theta) &= -1"
+        }
+       ]
+      },
+      {
+       "title": "Find the angle",
+       "lines": [
+        {
+         "text": "The angle with $\\cos = -1$ and $\\sin = 0$ is $180^\\circ$."
+        },
+        {
+         "tex": "160^\\circ + \\theta &= 180^\\circ"
+        },
+        {
+         "tex": "\\theta &= 180^\\circ - 160^\\circ"
+        },
+        {
+         "tex": "&= 20^\\circ"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a = 5,\\ b = 3,\\ \\theta = 20^\\circ"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p1-q5",
+  "subject": "maths",
+  "chapterId": "maths17",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Higher 2026 — Paper 1 — Q5",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P1",
+  "questionNumber": 5,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p1-q5-1.webp",
+   "exam-images/maths/2026/higher-p1-q5-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths17"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write 64 as a power of 4",
+       "lines": [
+        {
+         "tex": "64 &= 4 \\times 4 \\times 4"
+        },
+        {
+         "tex": "&= 4^3"
+        }
+       ]
+      },
+      {
+       "title": "Write 1/16 as a power of 4",
+       "lines": [
+        {
+         "tex": "16 &= 4^2"
+        },
+        {
+         "tex": "\\frac{1}{16} &= \\frac{1}{4^2}"
+        },
+        {
+         "text": "Use $\\frac{1}{a^n} = a^{-n}$."
+        },
+        {
+         "tex": "&= 4^{-2}"
+        }
+       ]
+      },
+      {
+       "title": "Write 2 as a power of 4",
+       "lines": [
+        {
+         "text": "$2 = \\sqrt{4}$, and a square root is the power $\\tfrac{1}{2}$."
+        },
+        {
+         "tex": "2 &= \\sqrt{4}"
+        },
+        {
+         "tex": "&= 4^{1/2}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "64 = 4^{3},\\ \\ \\frac{1}{16} = 4^{-2},\\ \\ 2 = 4^{1/2}"
+    }
+   },
+   {
+    "label": "(b)(i), (ii)",
+    "marks": 10,
+    "topics": [
+     "maths17"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Test each number against set A (4m, m an integer)",
+       "lines": [
+        {
+         "tex": "64 &= 4 \\times 16"
+        },
+        {
+         "tex": "12 &= 4 \\times 3"
+        },
+        {
+         "text": "64 and 12 are integer multiples of 4. The others are not, because $\\tfrac{1}{16}$, $\\sqrt{3}$, $\\sqrt{2}$ and 1 are not $4m$ with $m \\in \\mathbb{Z}$."
+        }
+       ]
+      },
+      {
+       "title": "Test each number against set B (4^r, r rational)",
+       "lines": [
+        {
+         "tex": "64 &= 4^3"
+        },
+        {
+         "tex": "\\frac{1}{16} &= 4^{-2}"
+        },
+        {
+         "tex": "1 &= 4^0"
+        },
+        {
+         "tex": "\\sqrt{2} &= 2^{1/2}"
+        },
+        {
+         "tex": "&= 2^{2/4}"
+        },
+        {
+         "tex": "&= (2^2)^{1/4}"
+        },
+        {
+         "tex": "&= 4^{1/4}"
+        },
+        {
+         "text": "So 64, $\\tfrac{1}{16}$, 1 and $\\sqrt{2}$ are in B. 12 is not a rational power of 4, and neither is $\\sqrt{3}$."
+        }
+       ]
+      },
+      {
+       "title": "Test each number against set D (irrational)",
+       "lines": [
+        {
+         "text": "$\\sqrt{2}$ and $\\sqrt{3}$ are irrational, so they are in D. 64, 12, $\\tfrac{1}{16}$ and 1 are rational."
+        }
+       ]
+      },
+      {
+       "title": "Place the numbers in the Venn diagram",
+       "lines": [
+        {
+         "text": "12 is in A only. 64 is in both A and B. $\\tfrac{1}{16}$ and 1 are in B only."
+        },
+        {
+         "text": "$\\sqrt{2}$ is in B and D, but not A. $\\sqrt{3}$ is in D only."
+        },
+        {
+         "text": "The shaded part, A ∩ D, stays empty because no multiple of 4 is irrational."
+        }
+       ]
+      },
+      {
+       "title": "Choose a number in none of the sets (ii)",
+       "lines": [
+        {
+         "text": "It must be a rational number that is not a multiple of 4 and not a rational power of 4. For example, 5 is rational, is not $4m$, and $4^r = 5$ needs $r = \\log_4 5$, which is irrational."
+        },
+        {
+         "text": "Write 5 in the rectangle, outside all three ovals."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "12 \\in A \\text{ only};\\ 64 \\in A\\cap B;\\ \\tfrac{1}{16},\\,1 \\in B \\text{ only};\\ \\sqrt{2} \\in B\\cap D;\\ \\sqrt{3} \\in D \\text{ only};\\ 5 \\text{ outside all sets}",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 260\"><defs><clipPath id=\"d\"><ellipse cx=\"177.8\" cy=\"176.8\" rx=\"111\" ry=\"66\"/></clipPath></defs><rect x=\"20\" y=\"20\" width=\"350\" height=\"230\" fill=\"none\" stroke=\"currentColor\"/><ellipse cx=\"141.2\" cy=\"113.8\" rx=\"110.4\" ry=\"69\" fill=\"currentColor\" fill-opacity=\"0.25\" clip-path=\"url(#d)\"/><ellipse cx=\"141.2\" cy=\"113.8\" rx=\"110.4\" ry=\"69\" fill=\"none\" stroke=\"currentColor\"/><ellipse cx=\"226.8\" cy=\"113.5\" rx=\"115.2\" ry=\"69\" fill=\"none\" stroke=\"currentColor\"/><ellipse cx=\"177.8\" cy=\"176.8\" rx=\"111\" ry=\"66\" fill=\"none\" stroke=\"currentColor\"/><g fill=\"currentColor\" font-family=\"sans-serif\" font-size=\"13\"><text x=\"366\" y=\"14\" text-anchor=\"end\">ℝ</text><text x=\"26\" y=\"40\">A: 4m</text><text x=\"362\" y=\"62\" text-anchor=\"end\">B: 4<tspan dy=\"-4\" font-size=\"10\">r</tspan></text><text x=\"296\" y=\"215\">D: ℝ∖ℚ</text><text x=\"70\" y=\"95\" text-anchor=\"middle\">12</text><text x=\"180\" y=\"80\" text-anchor=\"middle\">64</text><text x=\"288\" y=\"82\" text-anchor=\"middle\">1/16</text><text x=\"302\" y=\"116\" text-anchor=\"middle\">1</text><text x=\"245\" y=\"158\" text-anchor=\"middle\">√2</text><text x=\"180\" y=\"215\" text-anchor=\"middle\">√3</text></g><text x=\"50\" y=\"236\" fill=\"#2563eb\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">5</text></svg>"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths17"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Take log base 3 of both sides",
+       "lines": [
+        {
+         "tex": "4^k &= 9"
+        },
+        {
+         "tex": "\\log_3\\left(4^k\\right) &= \\log_3 9"
+        }
+       ]
+      },
+      {
+       "title": "Bring the power k down",
+       "lines": [
+        {
+         "text": "Use $\\log_3(x^k) = k\\log_3 x$."
+        },
+        {
+         "tex": "k\\log_3 4 &= \\log_3 9"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate log base 3 of 9",
+       "lines": [
+        {
+         "text": "$9 = 3^2$, so $\\log_3 9 = 2$."
+        },
+        {
+         "tex": "k\\log_3 4 &= 2"
+        }
+       ]
+      },
+      {
+       "title": "Divide both sides by log base 3 of 4",
+       "lines": [
+        {
+         "tex": "k &= \\frac{2}{\\log_3 4}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "k = \\frac{2}{\\log_3 4}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p1-q6",
+  "subject": "maths",
+  "chapterId": "maths18",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Higher 2026 — Paper 1 — Q6",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P1",
+  "questionNumber": 6,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p1-q6-1.webp",
+   "exam-images/maths/2026/higher-p1-q6-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 15,
+    "topics": [
+     "maths18"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Check that P(7) is true",
+       "lines": [
+        {
+         "text": "Let $P(n)$ be the statement $n! > 3^n$."
+        },
+        {
+         "tex": "7! &= 5040"
+        },
+        {
+         "tex": "3^7 &= 2187"
+        },
+        {
+         "text": "$5040 > 2187$, so $P(7)$ is true."
+        }
+       ]
+      },
+      {
+       "title": "Assume P(k) is true for some k ≥ 7",
+       "lines": [
+        {
+         "text": "Assume $k! > 3^k$ for some $k \\ge 7$."
+        }
+       ]
+      },
+      {
+       "title": "State what P(k+1) must show",
+       "lines": [
+        {
+         "text": "We must show $(k+1)! > 3^{k+1}$."
+        }
+       ]
+      },
+      {
+       "title": "Write (k+1)! in terms of k!",
+       "lines": [
+        {
+         "tex": "(k+1)! &= (k+1) \\times k!"
+        }
+       ]
+      },
+      {
+       "title": "Use the assumption P(k)",
+       "lines": [
+        {
+         "text": "Since $k! > 3^k$, multiplying both sides by the positive number $(k+1)$ keeps the inequality."
+        },
+        {
+         "tex": "(k+1) \\times k! &> (k+1) \\times 3^k"
+        }
+       ]
+      },
+      {
+       "title": "Use k ≥ 7 to replace k+1 by 3",
+       "lines": [
+        {
+         "text": "Since $k \\ge 7$, we have $k+1 \\ge 8 > 3$, so $(k+1) \\times 3^k > 3 \\times 3^k$."
+        },
+        {
+         "tex": "(k+1) \\times 3^k &> 3 \\times 3^k"
+        }
+       ]
+      },
+      {
+       "title": "Simplify to a power of 3",
+       "lines": [
+        {
+         "tex": "3 \\times 3^k &= 3^{k+1}"
+        }
+       ]
+      },
+      {
+       "title": "Combine the chain",
+       "lines": [
+        {
+         "tex": "(k+1)! &> 3^{k+1}"
+        },
+        {
+         "text": "So $P(k+1)$ is true whenever $P(k)$ is true."
+        }
+       ]
+      },
+      {
+       "title": "Conclude",
+       "lines": [
+        {
+         "text": "$P(7)$ is true, and $P(k)$ true implies $P(k+1)$ true. Therefore $n! > 3^n$ for all $n \\in \\mathbb{N}$, $n \\ge 7$, by induction."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "n! > 3^n \\text{ for all } n \\ge 7"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 5,
+    "topics": [
+     "maths6",
+     "maths21"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Expand the larger factorial",
+       "lines": [
+        {
+         "text": "$(n+1)! = (n+1) \\times n \\times (n-1)!$."
+        },
+        {
+         "tex": "\\frac{(n+1)\\,n\\,(n-1)!}{(n-1)!} &= 156"
+        }
+       ]
+      },
+      {
+       "title": "Cancel (n-1)!",
+       "lines": [
+        {
+         "tex": "(n+1)n &= 156"
+        }
+       ]
+      },
+      {
+       "title": "Multiply out",
+       "lines": [
+        {
+         "tex": "n^2 + n &= 156"
+        }
+       ]
+      },
+      {
+       "title": "Make one side zero",
+       "lines": [
+        {
+         "tex": "n^2 + n - 156 &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Factorise",
+       "lines": [
+        {
+         "text": "Look for two numbers with product $-156$ and sum $1$: $13$ and $-12$."
+        },
+        {
+         "tex": "(n-12)(n+13) &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Solve each factor",
+       "lines": [
+        {
+         "tex": "n - 12 = 0 \\quad\\text{or}\\quad n + 13 &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Reject the negative value",
+       "lines": [
+        {
+         "text": "$n \\in \\mathbb{N}$, so $n = -13$ is not allowed."
+        },
+        {
+         "tex": "n &= 12"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "n = 12"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths21"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Decide the sign of T1",
+       "lines": [
+        {
+         "text": "$S_3 < 2 = S_2$, so $T_3 < 0$. Also $T_3 = T_1 r^2$ has the same sign as $T_1$, so $T_1 < 0$."
+        },
+        {
+         "text": "Then $T_2 = 2 - T_1 > 0$. Choose $T_1 = -1$."
+        },
+        {
+         "tex": "T_1 &= -1"
+        }
+       ]
+      },
+      {
+       "title": "Find T2 from T1 + T2 = 2",
+       "lines": [
+        {
+         "tex": "T_2 &= 2 - T_1"
+        },
+        {
+         "tex": "&= 2 - (-1)"
+        },
+        {
+         "tex": "&= 3"
+        }
+       ]
+      },
+      {
+       "title": "Find the common ratio",
+       "lines": [
+        {
+         "tex": "r &= \\frac{T_2}{T_1}"
+        },
+        {
+         "tex": "&= \\frac{3}{-1}"
+        },
+        {
+         "tex": "&= -3"
+        }
+       ]
+      },
+      {
+       "title": "Find T3",
+       "lines": [
+        {
+         "tex": "T_3 &= T_2 \\times r"
+        },
+        {
+         "tex": "&= 3 \\times (-3)"
+        },
+        {
+         "tex": "&= -9"
+        }
+       ]
+      },
+      {
+       "title": "Find S3",
+       "lines": [
+        {
+         "tex": "S_3 &= T_1 + T_2 + T_3"
+        },
+        {
+         "tex": "&= -1 + 3 + (-9)"
+        },
+        {
+         "tex": "&= -7"
+        },
+        {
+         "text": "Check: $S_3 = -7 < 2$, so every condition holds."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "T_1 = -1,\\ T_2 = 3,\\ T_3 = -9,\\ S_3 = -7"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p1-q7",
+  "subject": "maths",
+  "chapterId": "maths14",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Higher 2026 — Paper 1 — Q7",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P1",
+  "questionNumber": 7,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/higher-p1-q7-1.webp",
+   "exam-images/maths/2026/higher-p1-q7-2.webp",
+   "exam-images/maths/2026/higher-p1-q7-3.webp",
+   "exam-images/maths/2026/higher-p1-q7-4.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 5,
+    "topics": [
+     "maths14"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Convert 1 minute to seconds",
+       "lines": [
+        {
+         "text": "$t$ is in seconds, so 1 minute is $t = 60$."
+        }
+       ]
+      },
+      {
+       "title": "Substitute t = 60 into V(t)",
+       "lines": [
+        {
+         "tex": "V(60) &= 0.025(60^3) - 9(60^2) + 550.8(60) + 68900"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate each term",
+       "lines": [
+        {
+         "tex": "V(60) &= 5400 - 32400 + 33048 + 68900"
+        },
+        {
+         "tex": "&= 74\\,948"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "74\\,948 \\text{ cm}^3"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths12",
+     "maths11"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate V(t) term by term",
+       "lines": [
+        {
+         "text": "Use $\\frac{d}{dt}(at^n) = nat^{n-1}$ on each term; the constant 68 900 differentiates to 0."
+        },
+        {
+         "tex": "V(t) &= 0.025t^3 - 9t^2 + 550.8t + 68900"
+        },
+        {
+         "tex": "\\frac{dV}{dt} &= 0.075t^2 - 18t + 550.8"
+        }
+       ]
+      },
+      {
+       "title": "Substitute t = 150",
+       "lines": [
+        {
+         "tex": "\\frac{dV}{dt} &= 0.075(150^2) - 18(150) + 550.8"
+        },
+        {
+         "tex": "&= 1687.5 - 2700 + 550.8"
+        },
+        {
+         "tex": "&= -461.7"
+        }
+       ]
+      },
+      {
+       "title": "Interpret the sign",
+       "lines": [
+        {
+         "text": "The rate is negative, so the volume is decreasing by 461.7 cm³ every second."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-461.7 \\text{ cm}^3\\text{ per second (decreasing)}"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths11",
+     "maths4"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Volume decreasing means the derivative is negative",
+       "lines": [
+        {
+         "tex": "0.075t^2 - 18t + 550.8 &< 0"
+        }
+       ]
+      },
+      {
+       "title": "Find the roots with the quadratic formula",
+       "lines": [
+        {
+         "text": "Here $a = 0.075$, $b = -18$, $c = 550.8$."
+        },
+        {
+         "tex": "t &= \\frac{18 \\pm \\sqrt{18^2 - 4(0.075)(550.8)}}{2(0.075)}"
+        },
+        {
+         "tex": "&= \\frac{18 \\pm \\sqrt{324 - 165.24}}{0.15}"
+        },
+        {
+         "tex": "&= \\frac{18 \\pm \\sqrt{158.76}}{0.15}"
+        },
+        {
+         "tex": "&= \\frac{18 \\pm 12.6}{0.15}"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate both roots",
+       "lines": [
+        {
+         "tex": "t &= \\frac{18 - 12.6}{0.15} = 36"
+        },
+        {
+         "tex": "t &= \\frac{18 + 12.6}{0.15} = 204"
+        }
+       ]
+      },
+      {
+       "title": "Choose the correct region",
+       "lines": [
+        {
+         "text": "The graph of $0.075t^2 - 18t + 550.8$ is a \"u\" shape (positive $t^2$ coefficient), so it is below zero between the roots."
+        },
+        {
+         "tex": "36 &< t < 204"
+        },
+        {
+         "text": "Both values lie inside the allowed range $0 \\le t \\le 240$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "t \\in (36, 204), \\text{ i.e. } 36 < t < 204"
+    }
+   },
+   {
+    "label": "(d)",
+    "marks": 10,
+    "topics": [
+     "maths11",
+     "maths12"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write V in terms of h",
+       "lines": [
+        {
+         "text": "Volume of a cylinder is $\\pi r^2 h$, with $r = 26$."
+        },
+        {
+         "tex": "V &= \\pi r^2 h"
+        },
+        {
+         "tex": "&= \\pi (26^2) h"
+        },
+        {
+         "tex": "&= 676\\pi h"
+        }
+       ]
+      },
+      {
+       "title": "Differentiate with respect to h",
+       "lines": [
+        {
+         "tex": "\\frac{dV}{dh} &= 676\\pi"
+        }
+       ]
+      },
+      {
+       "title": "Link the rates with the chain rule",
+       "lines": [
+        {
+         "tex": "\\frac{dV}{dt} &= \\frac{dV}{dh} \\times \\frac{dh}{dt}"
+        },
+        {
+         "tex": "\\frac{dh}{dt} &= \\frac{dV}{dt} \\div \\frac{dV}{dh}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the values at t = 150",
+       "lines": [
+        {
+         "text": "From part (b), $\\frac{dV}{dt} = -461.7$ when $t = 150$."
+        },
+        {
+         "tex": "\\frac{dh}{dt} &= \\frac{-461.7}{676\\pi}"
+        },
+        {
+         "tex": "&= -0.2174\\ldots"
+        },
+        {
+         "tex": "&\\approx -0.22"
+        }
+       ]
+      },
+      {
+       "title": "State the meaning",
+       "lines": [
+        {
+         "text": "The height of the water is falling by about 0.22 cm every second."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-0.22 \\text{ cm per second}"
+    }
+   },
+   {
+    "label": "(e)",
+    "marks": 10,
+    "topics": [
+     "maths11",
+     "maths12"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Decide what must be maximised",
+       "lines": [
+        {
+         "text": "The numerator 20 is constant, so $C(h)$ is smallest when the denominator is largest."
+        },
+        {
+         "tex": "D(h) &= 16\\pi h - \\pi h^2"
+        }
+       ]
+      },
+      {
+       "title": "Differentiate the denominator",
+       "lines": [
+        {
+         "tex": "D'(h) &= 16\\pi - 2\\pi h"
+        }
+       ]
+      },
+      {
+       "title": "Set the derivative equal to zero",
+       "lines": [
+        {
+         "tex": "16\\pi - 2\\pi h &= 0"
+        },
+        {
+         "tex": "2\\pi h &= 16\\pi"
+        },
+        {
+         "tex": "h &= 8"
+        }
+       ]
+      },
+      {
+       "title": "Check it is a maximum of D",
+       "lines": [
+        {
+         "tex": "D''(h) &= -2\\pi"
+        },
+        {
+         "text": "$D''(h) < 0$, so $D$ has a maximum at $h = 8$ and $C$ has a minimum there."
+        }
+       ]
+      },
+      {
+       "title": "Find the minimum value of C",
+       "lines": [
+        {
+         "tex": "C(8) &= \\frac{20}{16\\pi(8) - \\pi(8^2)}"
+        },
+        {
+         "tex": "&= \\frac{20}{128\\pi - 64\\pi}"
+        },
+        {
+         "tex": "&= \\frac{20}{64\\pi}"
+        },
+        {
+         "tex": "&= \\frac{5}{16\\pi}"
+        },
+        {
+         "tex": "&\\approx 0.1"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "0.1 \\text{ cm/s}"
+    }
+   },
+   {
+    "label": "(f)",
+    "marks": 5,
+    "topics": [
+     "maths14",
+     "maths2"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find where C(h) is undefined",
+       "lines": [
+        {
+         "text": "$C(h)$ is undefined when the denominator is zero."
+        },
+        {
+         "tex": "16\\pi h - \\pi h^2 &= 0"
+        },
+        {
+         "tex": "\\pi h(16 - h) &= 0"
+        },
+        {
+         "tex": "h &= 0 \\text{ or } h = 16"
+        }
+       ]
+      },
+      {
+       "title": "Choose M",
+       "lines": [
+        {
+         "text": "We need $h > 0$, so the first break in the function after 0 is at $h = 16$. Therefore $C(h)$ is defined for $0 < h < 16$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "M = 16"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p1-q8",
+  "subject": "maths",
+  "chapterId": "maths17",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Higher 2026 — Paper 1 — Q8",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P1",
+  "questionNumber": 8,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/higher-p1-q8-1.webp",
+   "exam-images/maths/2026/higher-p1-q8-2.webp",
+   "exam-images/maths/2026/higher-p1-q8-3.webp",
+   "exam-images/maths/2026/higher-p1-q8-4.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 5,
+    "topics": [
+     "maths17"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute x = 11",
+       "lines": [
+        {
+         "tex": "F(11) &= 440 \\times 2^{\\frac{11}{12}}"
+        },
+        {
+         "tex": "&= 830.6\\ldots"
+        },
+        {
+         "tex": "&\\approx 831"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "831 \\text{ Hz}"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths17"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use F(-x) for a note below Concert A",
+       "lines": [
+        {
+         "text": "A note 6 notes below uses $x = -6$."
+        },
+        {
+         "tex": "F(-6) &= 440 \\times 2^{-\\frac{6}{12}}"
+        }
+       ]
+      },
+      {
+       "title": "Simplify the power",
+       "lines": [
+        {
+         "tex": "&= 440 \\times 2^{-\\frac{1}{2}}"
+        },
+        {
+         "tex": "&= \\frac{440}{\\sqrt{2}}"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate and round to 4 significant figures",
+       "lines": [
+        {
+         "tex": "&= 311.126\\ldots"
+        },
+        {
+         "tex": "&\\approx 311.1"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "311.1 \\text{ Hz}"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths17",
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set F(x) equal to 660",
+       "lines": [
+        {
+         "tex": "440 \\times 2^{\\frac{x}{12}} &= 660"
+        }
+       ]
+      },
+      {
+       "title": "Isolate the power of 2",
+       "lines": [
+        {
+         "tex": "2^{\\frac{x}{12}} &= \\frac{660}{440}"
+        },
+        {
+         "tex": "2^{\\frac{x}{12}} &= 1.5"
+        }
+       ]
+      },
+      {
+       "title": "Take natural logs of both sides",
+       "lines": [
+        {
+         "tex": "\\ln\\left(2^{\\frac{x}{12}}\\right) &= \\ln 1.5"
+        },
+        {
+         "text": "Bring the power down in front using $\\ln a^k = k\\ln a$."
+        },
+        {
+         "tex": "\\frac{x}{12}\\ln 2 &= \\ln 1.5"
+        }
+       ]
+      },
+      {
+       "title": "Solve for x",
+       "lines": [
+        {
+         "tex": "x &= \\frac{12\\ln 1.5}{\\ln 2}"
+        },
+        {
+         "tex": "x &= 7.019\\ldots"
+        },
+        {
+         "tex": "x &\\approx 7.02"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 7.02"
+    }
+   },
+   {
+    "label": "(d)",
+    "marks": 5,
+    "topics": [
+     "maths12",
+     "maths17"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate the exponential",
+       "lines": [
+        {
+         "text": "Use $\\frac{d}{dx}\\left(a^{kx}\\right) = k\\ln a \\cdot a^{kx}$ with $a = 2$ and $k = \\frac{1}{12}$."
+        },
+        {
+         "tex": "F(x) &= 440 \\times 2^{\\frac{x}{12}}"
+        },
+        {
+         "tex": "F'(x) &= 440 \\times 2^{\\frac{x}{12}} \\times \\ln 2 \\times \\frac{1}{12}"
+        },
+        {
+         "tex": "&= \\frac{110\\ln 2}{3} \\times 2^{\\frac{x}{12}}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "F'(x) = 440 \\times 2^{\\frac{x}{12}} \\times \\ln 2 \\times \\frac{1}{12}"
+    }
+   },
+   {
+    "label": "(e)(i), (ii)",
+    "marks": 5,
+    "topics": [
+     "maths11",
+     "maths12"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "(i) Estimate using the tangent line",
+       "lines": [
+        {
+         "text": "Near $x = k$ the graph is close to its tangent, which has slope $G'(k) = 5.8$. Moving 2 units to the right adds about $2 \\times 5.8$."
+        },
+        {
+         "tex": "G(k+2) &\\approx 197 + 2 \\times 5.8"
+        },
+        {
+         "tex": "&= 197 + 11.6"
+        },
+        {
+         "tex": "&= 208.6"
+        }
+       ]
+      },
+      {
+       "title": "(ii) Find the second derivative of G",
+       "lines": [
+        {
+         "tex": "G(x) &= Ae^{bx}"
+        },
+        {
+         "tex": "G'(x) &= Abe^{bx}"
+        },
+        {
+         "tex": "G''(x) &= Ab^2e^{bx}"
+        }
+       ]
+      },
+      {
+       "title": "(ii) Decide too big or too small",
+       "lines": [
+        {
+         "text": "$A$ and $b$ are positive and $e^{bx} > 0$, so $G''(x) > 0$ everywhere."
+        },
+        {
+         "text": "The graph curves upwards (concave up), so it lies above its tangent line."
+        },
+        {
+         "text": "The tangent estimate 208.6 is therefore too small. Tick \"the estimate is too small\"."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "G(k+2) \\approx 208.6 \\text{; the estimate is too small}"
+    }
+   },
+   {
+    "label": "(f)",
+    "marks": 15,
+    "topics": [
+     "maths5",
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write four equations",
+       "lines": [
+        {
+         "text": "Let $S$, $A$, $T$, $B$ be the numbers of sopranos, altos, tenors and basses."
+        },
+        {
+         "tex": "S + A + T + B &= 384"
+        },
+        {
+         "tex": "A &= 2S"
+        },
+        {
+         "tex": "T &= B + 12"
+        },
+        {
+         "tex": "S + A &= 3(T + B)"
+        }
+       ]
+      },
+      {
+       "title": "Combine the first and fourth equations",
+       "lines": [
+        {
+         "text": "Replace $S + A$ in the total by $3(T + B)$."
+        },
+        {
+         "tex": "3(T + B) + T + B &= 384"
+        },
+        {
+         "tex": "4T + 4B &= 384"
+        },
+        {
+         "tex": "T + B &= 96"
+        }
+       ]
+      },
+      {
+       "title": "Find B and T",
+       "lines": [
+        {
+         "tex": "(B + 12) + B &= 96"
+        },
+        {
+         "tex": "2B + 12 &= 96"
+        },
+        {
+         "tex": "2B &= 84"
+        },
+        {
+         "tex": "B &= 42"
+        },
+        {
+         "tex": "T &= 42 + 12 = 54"
+        }
+       ]
+      },
+      {
+       "title": "Find S and A",
+       "lines": [
+        {
+         "tex": "S + A &= 3(96) = 288"
+        },
+        {
+         "tex": "S + 2S &= 288"
+        },
+        {
+         "tex": "3S &= 288"
+        },
+        {
+         "tex": "S &= 96"
+        },
+        {
+         "tex": "A &= 2(96) = 192"
+        }
+       ]
+      },
+      {
+       "title": "Check the total",
+       "lines": [
+        {
+         "tex": "96 + 192 + 54 + 42 &= 384"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "S = 96,\\; A = 192,\\; T = 54,\\; B = 42"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p1-q9",
+  "subject": "maths",
+  "chapterId": "maths21",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Higher 2026 — Paper 1 — Q9",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P1",
+  "questionNumber": 9,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/higher-p1-q9-1.webp",
+   "exam-images/maths/2026/higher-p1-q9-2.webp",
+   "exam-images/maths/2026/higher-p1-q9-3.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a), (b)",
+    "marks": 10,
+    "topics": [
+     "maths21"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set 2: total distance",
+       "lines": [
+        {
+         "tex": "20 + 40 + 60 + 40 + 20 &= 180"
+        },
+        {
+         "tex": "&= 180"
+        }
+       ]
+      },
+      {
+       "title": "Set 3: number of shuttles",
+       "lines": [
+        {
+         "text": "Set 3 has shuttles 20, 40, 60, 80, 60, 40, 20, which is 7 shuttles."
+        }
+       ]
+      },
+      {
+       "title": "Set 4: list the shuttles",
+       "lines": [
+        {
+         "text": "The longest shuttle is 20 m longer than Set 3's longest (80 m), so it is 100 m."
+        },
+        {
+         "text": "Shuttles: 20, 40, 60, 80, 100, 80, 60, 40, 20. That is 9 shuttles."
+        }
+       ]
+      },
+      {
+       "title": "Set 4: total distance",
+       "lines": [
+        {
+         "tex": "20 + 40 + 60 + 80 + 100 + 80 + 60 + 40 + 20 &= 500"
+        },
+        {
+         "tex": "&= 500"
+        }
+       ]
+      },
+      {
+       "title": "(b) Set 14 has 29 shuttles",
+       "lines": [
+        {
+         "text": "Set $n$ has $2n + 1$ shuttles, so Set 14 has 29 shuttles. The longest is the middle (15th) shuttle."
+        },
+        {
+         "text": "Shuttles 1 to 15 increase by 20 m each time, and the 12th is before the middle, so shuttle $k$ is $20k$ m."
+        },
+        {
+         "tex": "12 \\times 20 &= 240"
+        },
+        {
+         "tex": "&= 240"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Set 2: } 180\\text{ m; Set 3: } 7\\text{ shuttles; Set 4: } 9\\text{ shuttles, } 500\\text{ m; (b) } 240\\text{ m}"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths21",
+     "maths5"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set up the quadratic and use three sets",
+       "lines": [
+        {
+         "text": "Let total distance $= an^2 + bn + c$. Use the totals 80, 180, 320 for $n = 1, 2, 3$."
+        },
+        {
+         "tex": "a + b + c &= 80"
+        },
+        {
+         "tex": "4a + 2b + c &= 180"
+        },
+        {
+         "tex": "9a + 3b + c &= 320"
+        }
+       ]
+      },
+      {
+       "title": "Subtract to remove c",
+       "lines": [
+        {
+         "tex": "(4a + 2b + c) - (a + b + c) &= 180 - 80"
+        },
+        {
+         "tex": "3a + b &= 100"
+        },
+        {
+         "tex": "(9a + 3b + c) - (4a + 2b + c) &= 320 - 180"
+        },
+        {
+         "tex": "5a + b &= 140"
+        }
+       ]
+      },
+      {
+       "title": "Subtract again to find a",
+       "lines": [
+        {
+         "tex": "(5a + b) - (3a + b) &= 140 - 100"
+        },
+        {
+         "tex": "2a &= 40"
+        },
+        {
+         "tex": "a &= 20"
+        }
+       ]
+      },
+      {
+       "title": "Find b",
+       "lines": [
+        {
+         "tex": "3(20) + b &= 100"
+        },
+        {
+         "tex": "60 + b &= 100"
+        },
+        {
+         "tex": "b &= 40"
+        }
+       ]
+      },
+      {
+       "title": "Find c",
+       "lines": [
+        {
+         "tex": "20 + 40 + c &= 80"
+        },
+        {
+         "tex": "c &= 20"
+        }
+       ]
+      },
+      {
+       "title": "Write the formula",
+       "lines": [
+        {
+         "tex": "\\text{Total distance} &= 20n^2 + 40n + 20"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "20n^2 + 40n + 20"
+    }
+   },
+   {
+    "label": "(d)",
+    "marks": 5,
+    "topics": [
+     "maths21"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the middle shuttle",
+       "lines": [
+        {
+         "text": "The lengths rise then fall symmetrically, so two equal shuttles are the same distance either side of the middle."
+        },
+        {
+         "tex": "\\text{middle} &= \\frac{21 + 43}{2}"
+        },
+        {
+         "tex": "&= 32"
+        }
+       ]
+      },
+      {
+       "title": "Relate the middle shuttle to the set number",
+       "lines": [
+        {
+         "text": "Set $h$ has $2h + 1$ shuttles, so its middle shuttle is number $h + 1$."
+        },
+        {
+         "tex": "h + 1 &= 32"
+        },
+        {
+         "tex": "h &= 31"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "h = 31"
+    }
+   },
+   {
+    "label": "(e)",
+    "marks": 5,
+    "topics": [
+     "maths21"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the middle shuttle of Set 18",
+       "lines": [
+        {
+         "text": "The longest shuttle in Set 18 is $20 \\times 19 = 380$ m, and it is shuttle number 19."
+        }
+       ]
+      },
+      {
+       "title": "Count down from shuttle 19",
+       "lines": [
+        {
+         "text": "After shuttle 19 each shuttle is 20 m shorter, so shuttle $k$ is $k - 19$ steps down."
+        },
+        {
+         "tex": "T_k &= 380 - 20(k - 19)"
+        },
+        {
+         "tex": "&= 380 - 20k + 380"
+        },
+        {
+         "tex": "&= 760 - 20k"
+        }
+       ]
+      },
+      {
+       "title": "Check with the last shuttle",
+       "lines": [
+        {
+         "tex": "T_{37} &= 760 - 20(37) = 20"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "760 - 20k"
+    }
+   },
+   {
+    "label": "(f)",
+    "marks": 10,
+    "topics": [
+     "maths6",
+     "maths2"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Epley formula with r = 5",
+       "lines": [
+        {
+         "tex": "M_E &= w\\left(1 + \\frac{5}{30}\\right)"
+        },
+        {
+         "tex": "&= w \\times \\frac{35}{30}"
+        },
+        {
+         "tex": "&= \\frac{7w}{6}"
+        }
+       ]
+      },
+      {
+       "title": "Brzycki formula with r = 5",
+       "lines": [
+        {
+         "tex": "M_B &= w\\left(\\frac{36}{37 - 5}\\right)"
+        },
+        {
+         "tex": "&= w \\times \\frac{36}{32}"
+        },
+        {
+         "tex": "&= \\frac{9w}{8}"
+        }
+       ]
+      },
+      {
+       "title": "Subtract using a common denominator",
+       "lines": [
+        {
+         "tex": "M_B - M_E &= \\frac{9w}{8} - \\frac{7w}{6}"
+        },
+        {
+         "tex": "&= \\frac{27w}{24} - \\frac{28w}{24}"
+        },
+        {
+         "tex": "&= -\\frac{w}{24}"
+        }
+       ]
+      },
+      {
+       "title": "State the difference",
+       "lines": [
+        {
+         "text": "The difference is the size of this value."
+        },
+        {
+         "tex": "\\text{Difference} &= \\frac{w}{24}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{w}{24}"
+    }
+   },
+   {
+    "label": "(g)",
+    "marks": 10,
+    "topics": [
+     "maths6",
+     "maths4"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set the two formulas equal",
+       "lines": [
+        {
+         "tex": "w\\left(\\frac{r + 30}{30}\\right) &= w\\left(\\frac{36}{37 - r}\\right)"
+        },
+        {
+         "text": "Divide both sides by $w$ (it is not zero)."
+        },
+        {
+         "tex": "\\frac{r + 30}{30} &= \\frac{36}{37 - r}"
+        }
+       ]
+      },
+      {
+       "title": "Cross-multiply",
+       "lines": [
+        {
+         "tex": "(37 - r)(r + 30) &= 30 \\times 36"
+        },
+        {
+         "tex": "(37 - r)(r + 30) &= 1080"
+        }
+       ]
+      },
+      {
+       "title": "Expand and collect terms",
+       "lines": [
+        {
+         "tex": "37r + 1110 - r^2 - 30r &= 1080"
+        },
+        {
+         "tex": "-r^2 + 7r + 1110 &= 1080"
+        },
+        {
+         "tex": "-r^2 + 7r + 30 &= 0"
+        },
+        {
+         "tex": "r^2 - 7r - 30 &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Factorise",
+       "lines": [
+        {
+         "tex": "(r - 10)(r + 3) &= 0"
+        },
+        {
+         "tex": "r &= 10 \\text{ or } r = -3"
+        }
+       ]
+      },
+      {
+       "title": "Reject the negative value",
+       "lines": [
+        {
+         "text": "The number of reps cannot be negative, so $r = -3$ is rejected."
+        },
+        {
+         "tex": "r &= 10"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "r = 10"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p1-q10",
+  "subject": "maths",
+  "chapterId": "maths14",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Higher 2026 — Paper 1 — Q10",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P1",
+  "questionNumber": 10,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/higher-p1-q10-1.webp",
+   "exam-images/maths/2026/higher-p1-q10-2.webp",
+   "exam-images/maths/2026/higher-p1-q10-3.webp",
+   "exam-images/maths/2026/higher-p1-q10-4.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i), (ii)",
+    "marks": 10,
+    "topics": [
+     "maths14"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Shift y = g(x) up 3 units",
+       "lines": [
+        {
+         "text": "$g(x)+3$ adds 3 to every $y$-value, so each point of $y=g(x)$ moves up 3 units."
+        },
+        {
+         "tex": "(-3,-4) &\\to (-3,-1)"
+        },
+        {
+         "tex": "(-1,-2) &\\to (-1,1)"
+        },
+        {
+         "tex": "(1,-1) &\\to (1,2)"
+        },
+        {
+         "tex": "(3,-3) &\\to (3,0)"
+        }
+       ]
+      },
+      {
+       "title": "Join the new points and label the graph",
+       "lines": [
+        {
+         "text": "Join the four new points with straight lines and label the graph $y=g(x)+3$."
+        }
+       ]
+      },
+      {
+       "title": "Shift y = h(x) left 2 units",
+       "lines": [
+        {
+         "text": "$h(x+2)$ replaces $x$ by $x+2$, so the graph of $h(x)$ moves 2 units to the left. Subtract 2 from each $x$-value."
+        },
+        {
+         "tex": "(-2,-2) &\\to (-4,-2)"
+        },
+        {
+         "tex": "(-1,0) &\\to (-3,0)"
+        },
+        {
+         "tex": "(1,1) &\\to (-1,1)"
+        },
+        {
+         "tex": "(1.5,2) &\\to (-0.5,2)"
+        }
+       ]
+      },
+      {
+       "title": "Join the new points and label the graph",
+       "lines": [
+        {
+         "text": "Join the four new points with straight lines and label the graph $y=h(x+2)$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "y=g(x)+3\\ \\text{drawn up 3 units};\\ y=h(x+2)\\ \\text{drawn left 2 units}",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\"><line x1=\"110\" y1=\"16\" x2=\"110\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"140\" y1=\"16\" x2=\"140\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"170\" y1=\"16\" x2=\"170\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"200\" y1=\"16\" x2=\"200\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"230\" y1=\"16\" x2=\"230\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"260\" y1=\"16\" x2=\"260\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"290\" y1=\"16\" x2=\"290\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"110\" y1=\"170\" x2=\"290\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"110\" y1=\"148\" x2=\"290\" y2=\"148\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"110\" y1=\"126\" x2=\"290\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"110\" y1=\"104\" x2=\"290\" y2=\"104\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"110\" y1=\"82\" x2=\"290\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"110\" y1=\"60\" x2=\"290\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"110\" y1=\"38\" x2=\"290\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"110\" y1=\"16\" x2=\"290\" y2=\"16\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"110\" y1=\"82\" x2=\"290\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><line x1=\"200\" y1=\"16\" x2=\"200\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"110\" y=\"183\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−3</text><text x=\"140\" y=\"183\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−2</text><text x=\"170\" y=\"183\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−1</text><text x=\"200\" y=\"183\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >0</text><text x=\"230\" y=\"183\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >1</text><text x=\"260\" y=\"183\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >2</text><text x=\"290\" y=\"183\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >3</text><text x=\"104\" y=\"174\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−4</text><text x=\"104\" y=\"152\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−3</text><text x=\"104\" y=\"130\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−2</text><text x=\"104\" y=\"108\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−1</text><text x=\"104\" y=\"86\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >0</text><text x=\"104\" y=\"64\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >1</text><text x=\"104\" y=\"42\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >2</text><text x=\"104\" y=\"20\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >3</text><polyline points=\"110,170 170,126 230,104 290,148\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-opacity=\"0.5\" stroke-linejoin=\"round\"/><polyline points=\"110,148 170,104 230,82 290,126\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-opacity=\"0.5\" stroke-linejoin=\"round\"/><polyline points=\"110,104 170,60 230,38 290,82\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\" stroke-opacity=\"1\" stroke-linejoin=\"round\"/><text x=\"296\" y=\"130\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" >y = g(x) + 1</text><text x=\"296\" y=\"152\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" >y = g(x)</text><text x=\"236\" y=\"28\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" >y = g(x) + 3</text><text x=\"204\" y=\"26\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">y</text><text x=\"296\" y=\"86\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"8\" y=\"14\" text-anchor=\"start\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" >(i)</text><line x1=\"40\" y1=\"224\" x2=\"40\" y2=\"368\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"70\" y1=\"224\" x2=\"70\" y2=\"368\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"100\" y1=\"224\" x2=\"100\" y2=\"368\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"130\" y1=\"224\" x2=\"130\" y2=\"368\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"160\" y1=\"224\" x2=\"160\" y2=\"368\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"190\" y1=\"224\" x2=\"190\" y2=\"368\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"220\" y1=\"224\" x2=\"220\" y2=\"368\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"250\" y1=\"224\" x2=\"250\" y2=\"368\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"368\" x2=\"250\" y2=\"368\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"332\" x2=\"250\" y2=\"332\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"296\" x2=\"250\" y2=\"296\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"260\" x2=\"250\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"224\" x2=\"250\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"296\" x2=\"250\" y2=\"296\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><line x1=\"160\" y1=\"224\" x2=\"160\" y2=\"368\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"40\" y=\"382\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−4</text><text x=\"70\" y=\"382\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−3</text><text x=\"100\" y=\"382\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−2</text><text x=\"130\" y=\"382\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−1</text><text x=\"160\" y=\"382\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >0</text><text x=\"190\" y=\"382\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >1</text><text x=\"220\" y=\"382\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >2</text><text x=\"250\" y=\"382\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >3</text><text x=\"34\" y=\"372\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−2</text><text x=\"34\" y=\"336\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−1</text><text x=\"34\" y=\"300\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >0</text><text x=\"34\" y=\"264\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >1</text><text x=\"34\" y=\"228\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >2</text><polyline points=\"100,368 130,296 190,260 205,224\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-opacity=\"0.5\" stroke-linejoin=\"round\"/><polyline points=\"130,368 160,296 220,260 235,224\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-opacity=\"0.5\" stroke-linejoin=\"round\"/><polyline points=\"40,368 70,296 130,260 145,224\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\" stroke-opacity=\"1\" stroke-linejoin=\"round\"/><text x=\"150\" y=\"218\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" >y = h(x + 2)</text><text x=\"205\" y=\"218\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" >y = h(x)</text><text x=\"236\" y=\"218\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" >y = h(x − 1)</text><text x=\"166\" y=\"238\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">y</text><text x=\"256\" y=\"300\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"8\" y=\"212\" text-anchor=\"start\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" >(ii)</text></svg>"
+    }
+   },
+   {
+    "label": "(b)(i), (ii)",
+    "marks": 5,
+    "topics": [
+     "maths14"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the period from the repeating pattern",
+       "lines": [
+        {
+         "text": "The flat top runs from $x=-4$ to $x=-3$ and again from $x=1$ to $x=2$, so the graph repeats every 5 units."
+        },
+        {
+         "text": "The lowest points at $x=-5$, $x=0$ and $x=5$ are also 5 apart."
+        },
+        {
+         "tex": "\\text{Period} &= 5"
+        }
+       ]
+      },
+      {
+       "title": "Shifting by a multiple of the period gives the same graph",
+       "lines": [
+        {
+         "text": "$f(x+n)$ is the same graph as $f(x)$ when $n$ is a non-zero multiple of 5."
+        },
+        {
+         "tex": "n &= 5,\\ 20,\\ -10"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Period}=5;\\ n=5,\\ 20,\\ -10"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths19",
+     "maths14"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the equation of each piece of the graph from 0 to 3",
+       "lines": [
+        {
+         "text": "From $x=0$ to $x=1$ the line goes from $(0,-2)$ to $(1,1)$, so its slope is 3."
+        },
+        {
+         "tex": "y &= 3x - 2"
+        },
+        {
+         "text": "From $x=1$ to $x=2$ the graph is flat at height 1."
+        },
+        {
+         "tex": "y &= 1"
+        },
+        {
+         "text": "From $x=2$ to $x=3$ the line goes from $(2,1)$ to $(3,0)$, so its slope is $-1$."
+        },
+        {
+         "tex": "y &= 3 - x"
+        }
+       ]
+      },
+      {
+       "title": "Integrate over each piece (area below the axis counts as negative)",
+       "lines": [
+        {
+         "tex": "\\int_0^1 (3x-2)\\,dx &= \\left[\\frac{3x^2}{2} - 2x\\right]_0^1"
+        },
+        {
+         "tex": "&= \\frac{3}{2} - 2"
+        },
+        {
+         "tex": "&= -\\frac{1}{2}"
+        }
+       ]
+      },
+      {
+       "title": "Second piece",
+       "lines": [
+        {
+         "tex": "\\int_1^2 1\\,dx &= \\left[x\\right]_1^2"
+        },
+        {
+         "tex": "&= 2 - 1"
+        },
+        {
+         "tex": "&= 1"
+        }
+       ]
+      },
+      {
+       "title": "Third piece",
+       "lines": [
+        {
+         "tex": "\\int_2^3 (3-x)\\,dx &= \\left[3x - \\frac{x^2}{2}\\right]_2^3"
+        },
+        {
+         "tex": "&= \\left(9 - \\frac{9}{2}\\right) - \\left(6 - 2\\right)"
+        },
+        {
+         "tex": "&= \\frac{9}{2} - 4"
+        },
+        {
+         "tex": "&= \\frac{1}{2}"
+        }
+       ]
+      },
+      {
+       "title": "Add the three signed areas",
+       "lines": [
+        {
+         "tex": "\\int_0^3 f(x)\\,dx &= -\\frac{1}{2} + 1 + \\frac{1}{2}"
+        },
+        {
+         "tex": "&= 1"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "1"
+    }
+   },
+   {
+    "label": "(d)",
+    "marks": 5,
+    "topics": [
+     "maths12",
+     "maths14"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of f on 2 < x < 5",
+       "lines": [
+        {
+         "text": "$f$ goes in a straight line from $(2,1)$ to $(5,-2)$."
+        },
+        {
+         "tex": "\\text{slope} &= \\frac{-2-1}{5-2}"
+        },
+        {
+         "tex": "&= \\frac{-3}{3}"
+        },
+        {
+         "tex": "&= -1"
+        },
+        {
+         "text": "So $f'(x)=-1$ for $2<x<5$."
+        }
+       ]
+      },
+      {
+       "title": "Find the slope of f on 5 < x < 6",
+       "lines": [
+        {
+         "text": "$f$ goes in a straight line from $(5,-2)$ to $(6,1)$."
+        },
+        {
+         "tex": "\\text{slope} &= \\frac{1-(-2)}{6-5}"
+        },
+        {
+         "tex": "&= \\frac{3}{1}"
+        },
+        {
+         "tex": "&= 3"
+        },
+        {
+         "text": "So $f'(x)=3$ for $5<x<6$."
+        }
+       ]
+      },
+      {
+       "title": "Draw the two horizontal segments",
+       "lines": [
+        {
+         "text": "Draw $y=-1$ from $x=2$ to $x=5$ and $y=3$ from $x=5$ to $x=6$. Use open circles at $x=2$ and $x=5$ because $f'$ is not defined there, and at $x=6$ because the graph is only drawn for $x<6$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "f'(x)=-1\\ \\text{for}\\ 2<x<5;\\ f'(x)=3\\ \\text{for}\\ 5<x<6",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\"><line x1=\"50\" y1=\"25\" x2=\"50\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"100\" y1=\"25\" x2=\"100\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"150\" y1=\"25\" x2=\"150\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"200\" y1=\"25\" x2=\"200\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"250\" y1=\"25\" x2=\"250\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"300\" y1=\"25\" x2=\"300\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"350\" y1=\"25\" x2=\"350\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"265\" x2=\"350\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"235\" x2=\"350\" y2=\"235\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"205\" x2=\"350\" y2=\"205\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"175\" x2=\"350\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"145\" x2=\"350\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"115\" x2=\"350\" y2=\"115\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"85\" x2=\"350\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"55\" x2=\"350\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"25\" x2=\"350\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"145\" x2=\"350\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><line x1=\"50\" y1=\"25\" x2=\"50\" y2=\"265\" stroke=\"currentColor\" stroke-width=\"1\" stroke-opacity=\"0.7\"/><text x=\"100\" y=\"159\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >1</text><text x=\"150\" y=\"159\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >2</text><text x=\"200\" y=\"159\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >3</text><text x=\"250\" y=\"159\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >4</text><text x=\"300\" y=\"159\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >5</text><text x=\"350\" y=\"159\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >6</text><text x=\"44\" y=\"269\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−4</text><text x=\"44\" y=\"239\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−3</text><text x=\"44\" y=\"209\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−2</text><text x=\"44\" y=\"179\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >−1</text><text x=\"44\" y=\"119\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >1</text><text x=\"44\" y=\"89\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >2</text><text x=\"44\" y=\"59\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >3</text><text x=\"44\" y=\"29\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" >4</text><line x1=\"53\" y1=\"55\" x2=\"97\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-opacity=\"1\"/><circle cx=\"50\" cy=\"55\" r=\"3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"55\" r=\"3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"103\" y1=\"145\" x2=\"147\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-opacity=\"1\"/><circle cx=\"100\" cy=\"145\" r=\"3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"150\" cy=\"145\" r=\"3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"153\" y1=\"175\" x2=\"297\" y2=\"175\" stroke=\"#2563eb\" stroke-width=\"2.5\" stroke-opacity=\"1\"/><circle cx=\"150\" cy=\"175\" r=\"3\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><circle cx=\"300\" cy=\"175\" r=\"3\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><line x1=\"303\" y1=\"55\" x2=\"347\" y2=\"55\" stroke=\"#2563eb\" stroke-width=\"2.5\" stroke-opacity=\"1\"/><circle cx=\"300\" cy=\"55\" r=\"3\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><circle cx=\"350\" cy=\"55\" r=\"3\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"57.5\" y=\"43\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" >y = f′(x)</text><text x=\"125\" y=\"133\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" >y = f′(x)</text><text x=\"225\" y=\"195\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" >y = f′(x)</text><text x=\"325\" y=\"46\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" >y = f′(x)</text><text x=\"56\" y=\"18\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">y</text><text x=\"364\" y=\"149\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">x</text></svg>"
+    }
+   },
+   {
+    "label": "(e)",
+    "marks": 5,
+    "topics": [
+     "maths19"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Split the integral into two",
+       "lines": [
+        {
+         "tex": "\\int_1^a [\\,j(x)+b\\,]\\,dx &= \\int_1^a j(x)\\,dx + \\int_1^a b\\,dx"
+        }
+       ]
+      },
+      {
+       "title": "Replace the first integral using the given value",
+       "lines": [
+        {
+         "tex": "&= 200 + \\int_1^a b\\,dx"
+        }
+       ]
+      },
+      {
+       "title": "Integrate the constant b",
+       "lines": [
+        {
+         "text": "The integral of a constant $b$ is $bx$."
+        },
+        {
+         "tex": "&= 200 + \\left[bx\\right]_1^a"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the limits",
+       "lines": [
+        {
+         "tex": "&= 200 + ba - b(1)"
+        },
+        {
+         "tex": "&= 200 + ab - b"
+        },
+        {
+         "tex": "&= 200 + b(a-1)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "200 + ab - b"
+    }
+   },
+   {
+    "label": "(f)(i), (ii)",
+    "marks": 15,
+    "topics": [
+     "maths14",
+     "maths2"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write both sides of h(x+1) = h(x) + 2",
+       "lines": [
+        {
+         "tex": "ax^2 + 2ax + a + bx + b + c &= ax^2 + bx + c + 2"
+        },
+        {
+         "tex": "(2a + b)x + a + b + c &= bx + c + 2"
+        },
+        {
+         "text": "This must hold for every $x$, so the $x$ terms match and the constant terms match."
+        }
+       ]
+      },
+      {
+       "title": "Compare the x terms",
+       "lines": [
+        {
+         "tex": "2a + b &= b"
+        },
+        {
+         "tex": "2a &= 0"
+        },
+        {
+         "tex": "a &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Compare the constant terms",
+       "lines": [
+        {
+         "tex": "a + b + c &= c + 2"
+        },
+        {
+         "text": "Substitute $a=0$."
+        },
+        {
+         "tex": "0 + b + c &= c + 2"
+        },
+        {
+         "tex": "b + c &= c + 2"
+        },
+        {
+         "tex": "b &= 2"
+        }
+       ]
+      },
+      {
+       "title": "Say what this means for the graph (part ii)",
+       "lines": [
+        {
+         "text": "With $a=0$ and $b=2$, $h(x)=2x+c$."
+        },
+        {
+         "text": "This is a straight line (not a curve) with slope 2."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a=0,\\ b=2;\\ \\text{a straight line with slope }2"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p2-q1",
+  "subject": "maths",
+  "chapterId": "maths22",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Higher 2026 — Paper 2 — Q1",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P2",
+  "questionNumber": 1,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p2-q1-1.webp",
+   "exam-images/maths/2026/higher-p2-q1-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths22"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the data in order",
+       "lines": [
+        {
+         "text": "Row by row: 54, 54, 55, 55, 57, 57, 58, 62, 63, 63, 64, 65, 67, 69, 69, 70, 73, 77, 80, 85."
+        },
+        {
+         "text": "There are 20 values, so the median is halfway between the 10th and 11th values."
+        }
+       ]
+      },
+      {
+       "title": "Find the median",
+       "lines": [
+        {
+         "text": "The 10th value is 63 and the 11th value is 64."
+        },
+        {
+         "tex": "\\text{Median} &= \\frac{63+64}{2}"
+        },
+        {
+         "tex": "&= 63.5"
+        }
+       ]
+      },
+      {
+       "title": "Find the range",
+       "lines": [
+        {
+         "text": "Largest value is 85, smallest value is 54."
+        },
+        {
+         "tex": "\\text{Range} &= 85 - 54"
+        },
+        {
+         "tex": "&= 31"
+        }
+       ]
+      },
+      {
+       "title": "Find the lower quartile Q1",
+       "lines": [
+        {
+         "text": "Q1 is halfway between the 5th and 6th values, which are both 57."
+        },
+        {
+         "tex": "Q_1 &= \\frac{57+57}{2}"
+        },
+        {
+         "tex": "&= 57"
+        }
+       ]
+      },
+      {
+       "title": "Find the upper quartile Q3",
+       "lines": [
+        {
+         "text": "Q3 is halfway between the 15th and 16th values, which are 69 and 70."
+        },
+        {
+         "tex": "Q_3 &= \\frac{69+70}{2}"
+        },
+        {
+         "tex": "&= 69.5"
+        }
+       ]
+      },
+      {
+       "title": "Find the interquartile range",
+       "lines": [
+        {
+         "tex": "\\text{IQR} &= Q_3 - Q_1"
+        },
+        {
+         "tex": "&= 69.5 - 57"
+        },
+        {
+         "tex": "&= 12.5"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Median}=63.5,\\ \\text{Range}=31,\\ \\text{IQR}=12.5"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths22"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the angle for one hour",
+       "lines": [
+        {
+         "text": "There are 20 hours in total, and a full circle is $360^\\circ$."
+        },
+        {
+         "tex": "\\text{Angle per hour} &= \\frac{360}{20}"
+        },
+        {
+         "tex": "&= 18^\\circ"
+        }
+       ]
+      },
+      {
+       "title": "Count the hours in each class (from the stem-and-leaf graph)",
+       "lines": [
+        {
+         "text": "50 to 59 has 7 values, 60 to 69 has 8, 70 to 79 has 3 and 80 to 89 has 2."
+        }
+       ]
+      },
+      {
+       "title": "Find each angle",
+       "lines": [
+        {
+         "tex": "50\\text{ to }59: \\ 7 \\times 18 &= 126^\\circ"
+        },
+        {
+         "tex": "60\\text{ to }69: \\ 8 \\times 18 &= 144^\\circ"
+        },
+        {
+         "tex": "70\\text{ to }79: \\ 3 \\times 18 &= 54^\\circ"
+        },
+        {
+         "tex": "80\\text{ to }89: \\ 2 \\times 18 &= 36^\\circ"
+        },
+        {
+         "text": "Check: $126+144+54+36=360$."
+        }
+       ]
+      },
+      {
+       "title": "Draw the pie chart",
+       "lines": [
+        {
+         "text": "Start from the radius already drawn. With a protractor, measure $144^\\circ$ for the 60 to 69 sector, then $126^\\circ$ for 50 to 59, then $36^\\circ$ for 80 to 89. The last sector is $54^\\circ$ for 70 to 79."
+        },
+        {
+         "text": "Label each sector with its class and write its angle inside."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "126^\\circ,\\ 144^\\circ,\\ 54^\\circ,\\ 36^\\circ",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 360\"><circle cx=\"200\" cy=\"180\" r=\"140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-opacity=\"1\"/><line x1=\"200\" y1=\"180\" x2=\"86.7376\" y2=\"97.7101\" stroke=\"#2563eb\" stroke-width=\"1.5\" stroke-opacity=\"1\"/><line x1=\"200\" y1=\"180\" x2=\"200\" y2=\"320\" stroke=\"#2563eb\" stroke-width=\"1.5\" stroke-opacity=\"1\"/><line x1=\"200\" y1=\"180\" x2=\"282.29\" y2=\"293.262\" stroke=\"#2563eb\" stroke-width=\"1.5\" stroke-opacity=\"1\"/><circle cx=\"200\" cy=\"180\" r=\"3\" fill=\"currentColor\"/><text x=\"230.902\" y=\"88.8943\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" >60–69</text><text x=\"214.833\" y=\"138.349\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" >144°</text><text x=\"110.899\" y=\"229.399\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" >50–59</text><text x=\"157.232\" y=\"205.792\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" >126°</text><text x=\"230.902\" y=\"279.106\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" >80–89</text><text x=\"214.833\" y=\"229.651\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" >36°</text><text x=\"289.101\" y=\"229.399\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" >70–79</text><text x=\"242.768\" y=\"205.792\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" >54°</text></svg>"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths6",
+     "maths22"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the fraction of hours in the range 70 to 79",
+       "lines": [
+        {
+         "text": "Now there are $3+k$ hours in the range 70 to 79, out of $20+k$ hours in total."
+        },
+        {
+         "tex": "\\frac{3+k}{20+k} &= \\frac{32}{100}"
+        }
+       ]
+      },
+      {
+       "title": "Cross-multiply",
+       "lines": [
+        {
+         "tex": "100(3+k) &= 32(20+k)"
+        },
+        {
+         "tex": "300 + 100k &= 640 + 32k"
+        }
+       ]
+      },
+      {
+       "title": "Collect the k terms on one side",
+       "lines": [
+        {
+         "tex": "100k - 32k &= 640 - 300"
+        },
+        {
+         "tex": "68k &= 340"
+        }
+       ]
+      },
+      {
+       "title": "Divide both sides by 68",
+       "lines": [
+        {
+         "tex": "k &= \\frac{340}{68}"
+        },
+        {
+         "tex": "k &= 5"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "k = 5"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p2-q2",
+  "subject": "maths",
+  "chapterId": "maths23",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Higher 2026 — Paper 2 — Q2",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P2",
+  "questionNumber": 2,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p2-q2-1.webp",
+   "exam-images/maths/2026/higher-p2-q2-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths23"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the margin of error as a decimal",
+       "lines": [
+        {
+         "text": "$3.4\\% = 0.034$."
+        },
+        {
+         "tex": "\\frac{1}{\\sqrt{n}} &= 0.034"
+        }
+       ]
+      },
+      {
+       "title": "Remove the fraction and the square root",
+       "lines": [
+        {
+         "tex": "\\sqrt{n} &= \\frac{1}{0.034}"
+        },
+        {
+         "tex": "n &= \\left(\\frac{1}{0.034}\\right)^2"
+        },
+        {
+         "tex": "n &= 865.05\\ldots"
+        }
+       ]
+      },
+      {
+       "title": "Round to a whole number",
+       "lines": [
+        {
+         "text": "$n$ is a natural number."
+        },
+        {
+         "tex": "n &= 865"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "n = 865"
+    }
+   },
+   {
+    "label": "(b)(i), (ii)",
+    "marks": 15,
+    "topics": [
+     "maths23"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the formula for a 95% confidence interval",
+       "lines": [
+        {
+         "tex": "\\text{CI} &= \\bar{x} \\pm 1.96\\,\\frac{s}{\\sqrt{n}}"
+        },
+        {
+         "text": "Here $\\bar{x}=45.4$, $s=3.1$ and $n=80$."
+        }
+       ]
+      },
+      {
+       "title": "Substitute the values",
+       "lines": [
+        {
+         "tex": "\\text{CI} &= 45.4 \\pm 1.96\\left(\\frac{3.1}{\\sqrt{80}}\\right)"
+        }
+       ]
+      },
+      {
+       "title": "Work out the margin",
+       "lines": [
+        {
+         "tex": "\\frac{3.1}{\\sqrt{80}} &= 0.3466\\ldots"
+        },
+        {
+         "tex": "1.96 \\times 0.3466 &= 0.679\\ldots"
+        }
+       ]
+      },
+      {
+       "title": "Work out each end and round to 1 decimal place",
+       "lines": [
+        {
+         "tex": "\\text{Lower} &= 45.4 - 0.679"
+        },
+        {
+         "tex": "&= 44.721"
+        },
+        {
+         "tex": "&\\approx 44.7"
+        },
+        {
+         "tex": "\\text{Upper} &= 45.4 + 0.679"
+        },
+        {
+         "tex": "&= 46.079"
+        },
+        {
+         "tex": "&\\approx 46.1"
+        },
+        {
+         "text": "The 95% confidence interval is $(44.7,\\ 46.1)$."
+        }
+       ]
+      },
+      {
+       "title": "State the alternative hypothesis (part ii)",
+       "lines": [
+        {
+         "text": "The company claims the mean is 44, and we test whether it is different from 44 in either direction."
+        },
+        {
+         "tex": "H_1 &: \\mu \\ne 44"
+        }
+       ]
+      },
+      {
+       "title": "Compare 44 with the confidence interval",
+       "lines": [
+        {
+         "text": "44 is outside the interval $(44.7,\\ 46.1)$."
+        },
+        {
+         "text": "Conclusion: reject the null hypothesis. The mean charging time of the new model is not 44 minutes, so the company's claim is not supported."
+        },
+        {
+         "text": "Reason: 44 lies outside the 95% confidence interval."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(44.7,\\ 46.1);\\ H_1:\\mu\\ne 44;\\ \\text{reject }H_0\\text{ as 44 is outside the interval}"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 5,
+    "topics": [
+     "maths23"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Compare each p-value with 0.05",
+       "lines": [
+        {
+         "text": "Both $p$-values are below 0.05, so both tests reject the null hypothesis at the 5% level."
+        },
+        {
+         "text": "The second $p$-value, 0.0002, is far smaller than 0.046, so the second test gives much stronger evidence against the null hypothesis."
+        },
+        {
+         "text": "We would have more confidence in the conclusion of the second test, and the first test's result is closer to the borderline."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{We have more confidence in the conclusion of the second test.}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p2-q3",
+  "subject": "maths",
+  "chapterId": "maths16",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Higher 2026 — Paper 2 — Q3",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P2",
+  "questionNumber": 3,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p2-q3-1.webp",
+   "exam-images/maths/2026/higher-p2-q3-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths16",
+     "maths15"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\"><rect x=\"9\" y=\"6\" width=\"381\" height=\"246\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.3\"/><line x1=\"180.4\" y1=\"18.2\" x2=\"206.8\" y2=\"240.4\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"92.2,112.7 166.1,140.0 37.6,211.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"92.2\" y1=\"112.7\" x2=\"288.3\" y2=\"89.3\" stroke=\"currentColor\" stroke-opacity=\"0.5\" stroke-dasharray=\"4 3\"/><path d=\"M285.4,74.8 A98.8,98.8 0 0 1 288.9,104.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><line x1=\"166.1\" y1=\"140.0\" x2=\"222.8\" y2=\"133.2\" stroke=\"currentColor\" stroke-opacity=\"0.5\" stroke-dasharray=\"4 3\"/><path d=\"M222.0,129.0 A28.6,28.6 0 0 1 223.0,137.5\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><line x1=\"37.6\" y1=\"211.4\" x2=\"364.5\" y2=\"172.4\" stroke=\"currentColor\" stroke-opacity=\"0.5\" stroke-dasharray=\"4 3\"/><path d=\"M359.8,148.2 A164.6,164.6 0 0 1 365.6,197.1\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.5\"/><polygon points=\"288.3,89.3 222.8,133.2 364.5,172.4\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"288.3\" cy=\"89.3\" r=\"2.5\" fill=\"#2563eb\"/><circle cx=\"222.8\" cy=\"133.2\" r=\"2.5\" fill=\"#2563eb\"/><circle cx=\"364.5\" cy=\"172.4\" r=\"2.5\" fill=\"#2563eb\"/><text x=\"56\" y=\"160\" font-size=\"14\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">t</text><text x=\"187\" y=\"26\" font-size=\"14\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">l</text><text x=\"336\" y=\"124\" font-size=\"14\" font-family=\"sans-serif\" fill=\"#2563eb\" font-style=\"italic\">t&#8242;</text></svg>",
+     "steps": [
+      {
+       "title": "Drop a perpendicular from each vertex to l",
+       "lines": [
+        {
+         "text": "Axial symmetry in $l$ sends each point to the point the same distance from $l$ on the other side, along the perpendicular to $l$."
+        },
+        {
+         "text": "With the compass centred on a vertex, draw an arc that cuts $l$ in two places, then bisect between those two points to get the perpendicular from the vertex."
+        }
+       ]
+      },
+      {
+       "title": "Mark each image vertex",
+       "lines": [
+        {
+         "text": "Where the perpendicular meets $l$, set the compass to the distance from the vertex to $l$."
+        },
+        {
+         "text": "Swing an arc from that point on $l$ to cut the perpendicular on the far side of $l$. That point is the image vertex."
+        },
+        {
+         "text": "Check with a ruler: the perpendicular distances from the vertices to $l$ are about 4.1 cm, 1.2 cm and 6.9 cm, and each image vertex is the same distance on the other side."
+        }
+       ]
+      },
+      {
+       "title": "Join the image vertices",
+       "lines": [
+        {
+         "text": "Join the three image vertices to form $t'$, the image of $t$."
+        },
+        {
+         "text": "Check: the sides of $t'$ are about 3.3 cm, 4.8 cm and 6.2 cm, the same as $t$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Triangle } t' \\text{ is the reflection of } t \\text{ in } l"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths7",
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute the radius and height into the cone volume",
+       "lines": [
+        {
+         "text": "Volume of a cone: $V = \\frac{1}{3}\\pi r^2 h$, with $r = \\frac{h}{4}$ and $V = 36000\\pi$."
+        },
+        {
+         "tex": "\\frac{1}{3}\\pi \\left(\\frac{h}{4}\\right)^2 h &= 36000\\pi"
+        }
+       ]
+      },
+      {
+       "title": "Square the radius",
+       "lines": [
+        {
+         "tex": "\\frac{1}{3}\\pi \\cdot \\frac{h^2}{16} \\cdot h &= 36000\\pi"
+        },
+        {
+         "tex": "\\frac{\\pi h^3}{48} &= 36000\\pi"
+        }
+       ]
+      },
+      {
+       "title": "Isolate h cubed",
+       "lines": [
+        {
+         "text": "Divide both sides by $\\pi$."
+        },
+        {
+         "tex": "\\frac{h^3}{48} &= 36000"
+        },
+        {
+         "text": "Multiply both sides by 48."
+        },
+        {
+         "tex": "h^3 &= 36000 \\times 48"
+        },
+        {
+         "tex": "h^3 &= 1\\,728\\,000"
+        }
+       ]
+      },
+      {
+       "title": "Take the cube root",
+       "lines": [
+        {
+         "tex": "h &= \\sqrt[3]{1\\,728\\,000}"
+        },
+        {
+         "tex": "h &= 120"
+        },
+        {
+         "text": "Check: $120^3 = 1\\,728\\,000$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "h = 120"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths7",
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the diagonal of the smallest face",
+       "lines": [
+        {
+         "text": "The sphere's diameter is the internal diagonal of the cuboid. Let $x$ be the diagonal of the 24 by 36 face, and $y$ the internal diagonal."
+        },
+        {
+         "tex": "x^2 &= 24^2 + 36^2"
+        },
+        {
+         "tex": "x^2 &= 576 + 1296"
+        },
+        {
+         "tex": "x^2 &= 1872"
+        }
+       ]
+      },
+      {
+       "title": "Find the internal diagonal",
+       "lines": [
+        {
+         "text": "The internal diagonal is the hypotenuse of a right-angled triangle with sides 60 and $x$."
+        },
+        {
+         "tex": "y^2 &= 60^2 + x^2"
+        },
+        {
+         "tex": "y^2 &= 3600 + 1872"
+        },
+        {
+         "tex": "y^2 &= 5472"
+        },
+        {
+         "tex": "y &= \\sqrt{5472}"
+        },
+        {
+         "tex": "y &= \\sqrt{144 \\times 38}"
+        },
+        {
+         "tex": "y &= 12\\sqrt{38}"
+        }
+       ]
+      },
+      {
+       "title": "Find the radius of the sphere",
+       "lines": [
+        {
+         "text": "The radius is half the diameter $y$."
+        },
+        {
+         "tex": "r &= \\frac{y}{2}"
+        },
+        {
+         "tex": "r &= \\frac{12\\sqrt{38}}{2}"
+        },
+        {
+         "tex": "r &= 6\\sqrt{38}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the radius into the sphere volume",
+       "lines": [
+        {
+         "tex": "V &= \\frac{4}{3}\\pi r^3"
+        },
+        {
+         "tex": "V &= \\frac{4}{3}\\pi \\left(6\\sqrt{38}\\right)^3"
+        }
+       ]
+      },
+      {
+       "title": "Simplify to the required form",
+       "lines": [
+        {
+         "tex": "V &= \\frac{4}{3}\\pi \\times 6^3 \\times \\left(\\sqrt{38}\\right)^3"
+        },
+        {
+         "tex": "V &= \\frac{4}{3}\\pi \\times 216 \\times 38\\sqrt{38}"
+        },
+        {
+         "tex": "V &= 288 \\times 38\\sqrt{38}\\,\\pi"
+        },
+        {
+         "tex": "V &= 10\\,944\\sqrt{38}\\,\\pi"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "10\\,944\\sqrt{38}\\,\\pi \\text{ cm}^3"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p2-q4",
+  "subject": "maths",
+  "chapterId": "maths9",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Higher 2026 — Paper 2 — Q4",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P2",
+  "questionNumber": 4,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p2-q4-1.webp",
+   "exam-images/maths/2026/higher-p2-q4-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths9"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of l",
+       "lines": [
+        {
+         "text": "Rearrange $3x - 2y = 0$ into the form $y = mx + c$."
+        },
+        {
+         "tex": "3x - 2y &= 0"
+        },
+        {
+         "tex": "-2y &= -3x"
+        },
+        {
+         "tex": "y &= \\frac{3}{2}x"
+        },
+        {
+         "tex": "m_l &= \\frac{3}{2}"
+        }
+       ]
+      },
+      {
+       "title": "Read the slope of k",
+       "lines": [
+        {
+         "text": "$k$ is already in the form $y = mx + c$."
+        },
+        {
+         "tex": "m_k &= -\\frac{3}{2}"
+        }
+       ]
+      },
+      {
+       "title": "Test the perpendicular condition",
+       "lines": [
+        {
+         "text": "Perpendicular lines have slopes whose product is $-1$."
+        },
+        {
+         "tex": "m_l \\times m_k &= \\frac{3}{2} \\times \\left(-\\frac{3}{2}\\right)"
+        },
+        {
+         "tex": "m_l \\times m_k &= -\\frac{9}{4}"
+        },
+        {
+         "text": "Since $-\\frac{9}{4} \\ne -1$, the lines are not perpendicular."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{No, because } -\\tfrac{3}{2} \\times \\tfrac{3}{2} \\ne -1"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths9",
+     "maths3"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the critical lines",
+       "lines": [
+        {
+         "text": "Every line $y = mx + 8$ passes through $(0, 8)$. The critical lines go from $(0, 8)$ to the ends of the segment, $(3, 11)$ and $(3, 7)$."
+        }
+       ]
+      },
+      {
+       "title": "Slope of the line through (3, 11)",
+       "lines": [
+        {
+         "tex": "m &= \\frac{11 - 8}{3 - 0}"
+        },
+        {
+         "tex": "m &= \\frac{3}{3}"
+        },
+        {
+         "tex": "m &= 1"
+        }
+       ]
+      },
+      {
+       "title": "Slope of the line through (3, 7)",
+       "lines": [
+        {
+         "tex": "m &= \\frac{7 - 8}{3 - 0}"
+        },
+        {
+         "tex": "m &= -\\frac{1}{3}"
+        }
+       ]
+      },
+      {
+       "title": "Decide which slopes miss the segment",
+       "lines": [
+        {
+         "text": "At $x = 3$ the line has height $3m + 8$. It misses the segment if this height is above 11 or below 7."
+        },
+        {
+         "tex": "3m + 8 &> 11"
+        },
+        {
+         "tex": "3m &> 3"
+        },
+        {
+         "tex": "m &> 1"
+        },
+        {
+         "tex": "3m + 8 &< 7"
+        },
+        {
+         "tex": "3m &< -1"
+        },
+        {
+         "tex": "m &< -\\frac{1}{3}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "m < -\\frac{1}{3} \\quad \\text{or} \\quad m > 1"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths9"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the perpendicular distance formula",
+       "lines": [
+        {
+         "text": "Distance from $(x_1, y_1)$ to $Ax + By + C = 0$ is $\\dfrac{|Ax_1 + By_1 + C|}{\\sqrt{A^2 + B^2}}$. Here $A = a$, $B = 1$, $C = -5$ and $(x_1, y_1) = (1, 0)$."
+        },
+        {
+         "tex": "\\frac{|a(1) + 1(0) - 5|}{\\sqrt{a^2 + 1^2}} &= 5"
+        },
+        {
+         "tex": "\\frac{|a - 5|}{\\sqrt{a^2 + 1}} &= 5"
+        }
+       ]
+      },
+      {
+       "title": "Clear the fraction",
+       "lines": [
+        {
+         "tex": "|a - 5| &= 5\\sqrt{a^2 + 1}"
+        }
+       ]
+      },
+      {
+       "title": "Square both sides",
+       "lines": [
+        {
+         "tex": "(a - 5)^2 &= 25(a^2 + 1)"
+        }
+       ]
+      },
+      {
+       "title": "Expand both sides",
+       "lines": [
+        {
+         "tex": "a^2 - 10a + 25 &= 25(a^2 + 1)"
+        },
+        {
+         "tex": "a^2 - 10a + 25 &= 25a^2 + 25"
+        }
+       ]
+      },
+      {
+       "title": "Collect terms on one side",
+       "lines": [
+        {
+         "text": "Subtract $a^2 - 10a + 25$ from both sides."
+        },
+        {
+         "tex": "0 &= 24a^2 + 10a"
+        },
+        {
+         "tex": "24a^2 + 10a &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Factorise and solve",
+       "lines": [
+        {
+         "tex": "a(24a + 10) &= 0"
+        },
+        {
+         "tex": "a = 0 \\ &\\text{or}\\ 24a + 10 = 0"
+        },
+        {
+         "tex": "24a &= -10"
+        },
+        {
+         "tex": "a &= -\\frac{10}{24}"
+        },
+        {
+         "tex": "a &= -\\frac{5}{12}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a = 0 \\quad \\text{or} \\quad a = -\\frac{5}{12}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p2-q5",
+  "subject": "maths",
+  "chapterId": "maths8",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Higher 2026 — Paper 2 — Q5",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P2",
+  "questionNumber": 5,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p2-q5-1.webp",
+   "exam-images/maths/2026/higher-p2-q5-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 5,
+    "topics": [
+     "maths8"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Compare with the general circle equation",
+       "lines": [
+        {
+         "text": "The general circle is $x^2 + y^2 + 2gx + 2fy + c = 0$, with centre $(-g, -f)$ and radius $\\sqrt{g^2 + f^2 - c}$."
+        },
+        {
+         "tex": "2g &= 4"
+        },
+        {
+         "tex": "g &= 2"
+        },
+        {
+         "tex": "2f &= -10"
+        },
+        {
+         "tex": "f &= -5"
+        },
+        {
+         "tex": "c &= -52"
+        }
+       ]
+      },
+      {
+       "title": "Write down the centre",
+       "lines": [
+        {
+         "tex": "(-g, -f) &= (-2, 5)"
+        }
+       ]
+      },
+      {
+       "title": "Find the radius",
+       "lines": [
+        {
+         "tex": "r &= \\sqrt{g^2 + f^2 - c}"
+        },
+        {
+         "tex": "r &= \\sqrt{2^2 + (-5)^2 - (-52)}"
+        },
+        {
+         "tex": "r &= \\sqrt{4 + 25 + 52}"
+        },
+        {
+         "tex": "r &= \\sqrt{81}"
+        },
+        {
+         "tex": "r &= 9"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Centre } (-2, 5), \\quad \\text{radius } 9"
+    }
+   },
+   {
+    "label": "(b)(i), (ii)",
+    "marks": 10,
+    "topics": [
+     "maths8",
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "(i) Choose values and write the equation",
+       "lines": [
+        {
+         "text": "Any numbers from 1 to 6 are allowed. Choose $h = 1$, $k = 1$, $r = 2$."
+        },
+        {
+         "tex": "(x - h)^2 + (y - k)^2 &= r^2"
+        },
+        {
+         "tex": "(x - 1)^2 + (y - 1)^2 &= 2^2"
+        }
+       ]
+      },
+      {
+       "title": "(ii) Count the outcomes",
+       "lines": [
+        {
+         "text": "Each of the three dice has 6 possible values, and each different set $(h, k, r)$ gives a different circle."
+        },
+        {
+         "tex": "6 \\times 6 \\times 6 &= 216"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(x-1)^2 + (y-1)^2 = 2^2 \\text{ (for example); } 216 \\text{ circles}"
+    }
+   },
+   {
+    "label": "(b)(iii), (iv)",
+    "marks": 15,
+    "topics": [
+     "maths8",
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "(iii) Condition for both axes to be tangents",
+       "lines": [
+        {
+         "text": "A circle with centre $(h, k)$ and radius $r$ touches the $x$-axis when $k = r$, and touches the $y$-axis when $h = r$."
+        },
+        {
+         "text": "So $h = k = r$, and there is one circle for each value from 1 to 6."
+        },
+        {
+         "tex": "h = k = r \\ &\\in \\{1, 2, 3, 4, 5, 6\\}"
+        },
+        {
+         "tex": "\\text{number of circles} &= 6"
+        }
+       ]
+      },
+      {
+       "title": "(iv) Condition for the circle to lie inside the first quadrant",
+       "lines": [
+        {
+         "text": "The circle misses both axes when $h > r$ and $k > r$. The values are at most 6, so $h$ and $k$ each take the values $r + 1, \\dots, 6$."
+        },
+        {
+         "text": "That gives $6 - r$ choices for $h$ and $6 - r$ choices for $k$, so $(6 - r)^2$ circles for each $r$."
+        }
+       ]
+      },
+      {
+       "title": "Count the circles for each radius",
+       "lines": [
+        {
+         "tex": "r = 1: \\ &5^2 = 25"
+        },
+        {
+         "tex": "r = 2: \\ &4^2 = 16"
+        },
+        {
+         "tex": "r = 3: \\ &3^2 = 9"
+        },
+        {
+         "tex": "r = 4: \\ &2^2 = 4"
+        },
+        {
+         "tex": "r = 5: \\ &1^2 = 1"
+        },
+        {
+         "tex": "r = 6: \\ &0^2 = 0"
+        }
+       ]
+      },
+      {
+       "title": "Add the totals",
+       "lines": [
+        {
+         "tex": "\\text{total} &= 25 + 16 + 9 + 4 + 1 + 0"
+        },
+        {
+         "tex": "\\text{total} &= 55"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{(iii) } 6 \\quad \\text{(iv) } 55"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p2-q6",
+  "subject": "maths",
+  "chapterId": "maths25",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Higher 2026 — Paper 2 — Q6",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P2",
+  "questionNumber": 6,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/higher-p2-q6-1.webp",
+   "exam-images/maths/2026/higher-p2-q6-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths25"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the identity with sin θ = 1/4",
+       "lines": [
+        {
+         "text": "The identity $\\cos^2\\theta + \\sin^2\\theta = 1$ links $\\cos\\theta$ and $\\sin\\theta$."
+        },
+        {
+         "tex": "\\cos^2\\theta + \\sin^2\\theta &= 1"
+        },
+        {
+         "tex": "\\cos^2\\theta + \\left(\\frac{1}{4}\\right)^2 &= 1"
+        }
+       ]
+      },
+      {
+       "title": "Isolate cos²θ",
+       "lines": [
+        {
+         "tex": "\\cos^2\\theta + \\frac{1}{16} &= 1"
+        },
+        {
+         "tex": "\\cos^2\\theta &= 1 - \\frac{1}{16}"
+        },
+        {
+         "tex": "\\cos^2\\theta &= \\frac{15}{16}"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root",
+       "lines": [
+        {
+         "text": "$\\theta$ is acute, so $\\cos\\theta$ is positive."
+        },
+        {
+         "tex": "\\cos\\theta &= \\sqrt{\\frac{15}{16}}"
+        },
+        {
+         "tex": "\\cos\\theta &= \\frac{\\sqrt{15}}{4}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos\\theta = \\frac{\\sqrt{15}}{4}"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 5,
+    "topics": [
+     "maths25",
+     "maths14"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write sin²x in terms of cos²x",
+       "lines": [
+        {
+         "tex": "\\cos^2 x + \\sin^2 x &= 1"
+        },
+        {
+         "tex": "\\sin^2 x &= 1 - \\cos^2 x"
+        },
+        {
+         "text": "So each point of $\\sin^2 x$ is $1$ minus the height of $\\cos^2 x$ at the same $x$."
+        }
+       ]
+      },
+      {
+       "title": "Find the start, middle and end points",
+       "lines": [
+        {
+         "text": "At the start, $\\cos^2 x = 1$, so $\\sin^2 x = 1 - 1 = 0$."
+        },
+        {
+         "text": "In the middle, $\\cos^2 x = 0$, so $\\sin^2 x = 1 - 0 = 1$."
+        },
+        {
+         "text": "At the end, $\\cos^2 x = 1$, so $\\sin^2 x = 0$."
+        }
+       ]
+      },
+      {
+       "title": "Draw and label the curve",
+       "lines": [
+        {
+         "text": "Join the three points with a smooth curve: concave up (a minimum) at each end, rising to a maximum in the middle."
+        },
+        {
+         "text": "The two curves cross at height $\\frac{1}{2}$, one quarter and three quarters of the way along the domain."
+        },
+        {
+         "text": "Label the new curve $y = \\sin^2 x$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "y = \\sin^2 x \\text{ drawn as shown}",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\"><g stroke=\"currentColor\" stroke-opacity=\"0.15\" fill=\"none\"><line x1=\"50.0\" y1=\"50\" x2=\"50.0\" y2=\"250\"/><line x1=\"50\" y1=\"250.0\" x2=\"350\" y2=\"250.0\"/><line x1=\"87.5\" y1=\"50\" x2=\"87.5\" y2=\"250\"/><line x1=\"50\" y1=\"225.0\" x2=\"350\" y2=\"225.0\"/><line x1=\"125.0\" y1=\"50\" x2=\"125.0\" y2=\"250\"/><line x1=\"50\" y1=\"200.0\" x2=\"350\" y2=\"200.0\"/><line x1=\"162.5\" y1=\"50\" x2=\"162.5\" y2=\"250\"/><line x1=\"50\" y1=\"175.0\" x2=\"350\" y2=\"175.0\"/><line x1=\"200.0\" y1=\"50\" x2=\"200.0\" y2=\"250\"/><line x1=\"50\" y1=\"150.0\" x2=\"350\" y2=\"150.0\"/><line x1=\"237.5\" y1=\"50\" x2=\"237.5\" y2=\"250\"/><line x1=\"50\" y1=\"125.0\" x2=\"350\" y2=\"125.0\"/><line x1=\"275.0\" y1=\"50\" x2=\"275.0\" y2=\"250\"/><line x1=\"50\" y1=\"100.0\" x2=\"350\" y2=\"100.0\"/><line x1=\"312.5\" y1=\"50\" x2=\"312.5\" y2=\"250\"/><line x1=\"50\" y1=\"75.0\" x2=\"350\" y2=\"75.0\"/><line x1=\"350.0\" y1=\"50\" x2=\"350.0\" y2=\"250\"/><line x1=\"50\" y1=\"50.0\" x2=\"350\" y2=\"50.0\"/></g><g stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"><line x1=\"30\" y1=\"250\" x2=\"385\" y2=\"250\"/><line x1=\"50\" y1=\"270\" x2=\"50\" y2=\"30\"/></g><path d=\"M385 250 l-8 -4 v8 z M50 30 l-4 8 h8 z\" fill=\"currentColor\"/><path d=\"M50.0 50.0 L53.8 50.3 L57.5 51.2 L61.2 52.8 L65.0 54.9 L68.8 57.6 L72.5 60.9 L76.2 64.7 L80.0 69.1 L83.8 74.0 L87.5 79.3 L91.2 85.1 L95.0 91.2 L98.8 97.8 L102.5 104.6 L106.2 111.7 L110.0 119.1 L113.8 126.7 L117.5 134.4 L121.2 142.2 L125.0 150.0 L128.8 157.8 L132.5 165.6 L136.2 173.3 L140.0 180.9 L143.8 188.3 L147.5 195.4 L151.2 202.2 L155.0 208.8 L158.8 214.9 L162.5 220.7 L166.2 226.0 L170.0 230.9 L173.8 235.3 L177.5 239.1 L181.2 242.4 L185.0 245.1 L188.8 247.2 L192.5 248.8 L196.2 249.7 L200.0 250.0 L203.8 249.7 L207.5 248.8 L211.2 247.2 L215.0 245.1 L218.8 242.4 L222.5 239.1 L226.2 235.3 L230.0 230.9 L233.8 226.0 L237.5 220.7 L241.2 214.9 L245.0 208.8 L248.8 202.2 L252.5 195.4 L256.2 188.3 L260.0 180.9 L263.8 173.3 L267.5 165.6 L271.2 157.8 L275.0 150.0 L278.8 142.2 L282.5 134.4 L286.2 126.7 L290.0 119.1 L293.8 111.7 L297.5 104.6 L301.2 97.8 L305.0 91.2 L308.8 85.1 L312.5 79.3 L316.2 74.0 L320.0 69.1 L323.8 64.7 L327.5 60.9 L331.2 57.6 L335.0 54.9 L338.8 52.8 L342.5 51.2 L346.2 50.3 L350.0 50.0\" stroke=\"currentColor\" stroke-opacity=\"0.6\" fill=\"none\" stroke-width=\"2\"/><path d=\"M50.0 250.0 L53.8 249.7 L57.5 248.8 L61.2 247.2 L65.0 245.1 L68.8 242.4 L72.5 239.1 L76.2 235.3 L80.0 230.9 L83.8 226.0 L87.5 220.7 L91.2 214.9 L95.0 208.8 L98.8 202.2 L102.5 195.4 L106.2 188.3 L110.0 180.9 L113.8 173.3 L117.5 165.6 L121.2 157.8 L125.0 150.0 L128.8 142.2 L132.5 134.4 L136.2 126.7 L140.0 119.1 L143.8 111.7 L147.5 104.6 L151.2 97.8 L155.0 91.2 L158.8 85.1 L162.5 79.3 L166.2 74.0 L170.0 69.1 L173.8 64.7 L177.5 60.9 L181.2 57.6 L185.0 54.9 L188.8 52.8 L192.5 51.2 L196.2 50.3 L200.0 50.0 L203.8 50.3 L207.5 51.2 L211.2 52.8 L215.0 54.9 L218.8 57.6 L222.5 60.9 L226.2 64.7 L230.0 69.1 L233.8 74.0 L237.5 79.3 L241.2 85.1 L245.0 91.2 L248.8 97.8 L252.5 104.6 L256.2 111.7 L260.0 119.1 L263.8 126.7 L267.5 134.4 L271.2 142.2 L275.0 150.0 L278.8 157.8 L282.5 165.6 L286.2 173.3 L290.0 180.9 L293.8 188.3 L297.5 195.4 L301.2 202.2 L305.0 208.8 L308.8 214.9 L312.5 220.7 L316.2 226.0 L320.0 230.9 L323.8 235.3 L327.5 239.1 L331.2 242.4 L335.0 245.1 L338.8 247.2 L342.5 248.8 L346.2 249.7 L350.0 250.0\" stroke=\"#2563eb\" fill=\"none\" stroke-width=\"2.5\"/><g fill=\"#2563eb\"><circle cx=\"50\" cy=\"250\" r=\"3.5\"/><circle cx=\"200\" cy=\"50\" r=\"3.5\"/><circle cx=\"350\" cy=\"250\" r=\"3.5\"/></g><g font-family=\"sans-serif\" font-size=\"13\" fill=\"currentColor\"><text x=\"44\" y=\"54\" text-anchor=\"end\">1</text><text x=\"44\" y=\"154\" text-anchor=\"end\">1/2</text><text x=\"44\" y=\"266\" text-anchor=\"end\">0</text><text x=\"200\" y=\"268\" text-anchor=\"middle\">π/2</text><text x=\"350\" y=\"268\" text-anchor=\"middle\">π</text><text x=\"383\" y=\"238\" text-anchor=\"end\">x</text><text x=\"58\" y=\"34\">y</text><text x=\"300\" y=\"38\" text-anchor=\"middle\" fill-opacity=\"0.75\">y = cos² x</text><text x=\"200\" y=\"38\" text-anchor=\"middle\" fill=\"#2563eb\">y = sin² x</text></g></svg>"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 15,
+    "topics": [
+     "maths25",
+     "maths16"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Place P and Q on the unit circle",
+       "lines": [
+        {
+         "text": "Let $P$ and $Q$ be the points on the unit circle at angles $A$ and $B$ from the positive $x$-axis."
+        },
+        {
+         "tex": "P &= (\\cos A, \\sin A)"
+        },
+        {
+         "tex": "Q &= (\\cos B, \\sin B)"
+        }
+       ]
+      },
+      {
+       "title": "Find |PQ|² using the distance formula",
+       "lines": [
+        {
+         "tex": "|PQ|^2 &= (\\cos A - \\cos B)^2 + (\\sin A - \\sin B)^2"
+        },
+        {
+         "tex": "&= \\cos^2 A - 2\\cos A\\cos B + \\cos^2 B + \\sin^2 A - 2\\sin A\\sin B + \\sin^2 B"
+        },
+        {
+         "tex": "&= (\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2\\cos A\\cos B - 2\\sin A\\sin B"
+        }
+       ]
+      },
+      {
+       "title": "Simplify using cos²θ + sin²θ = 1",
+       "lines": [
+        {
+         "tex": "|PQ|^2 &= 1 + 1 - 2\\cos A\\cos B - 2\\sin A\\sin B"
+        },
+        {
+         "tex": "&= 2 - 2\\cos A\\cos B - 2\\sin A\\sin B"
+        }
+       ]
+      },
+      {
+       "title": "Find |PQ|² using the cosine rule",
+       "lines": [
+        {
+         "text": "In triangle $OPQ$, $|OP| = |OQ| = 1$ (radii) and the angle at $O$ is $A - B$."
+        },
+        {
+         "tex": "|PQ|^2 &= 1^2 + 1^2 - 2(1)(1)\\cos(A - B)"
+        },
+        {
+         "tex": "&= 2 - 2\\cos(A - B)"
+        }
+       ]
+      },
+      {
+       "title": "Equate the two expressions for |PQ|²",
+       "lines": [
+        {
+         "tex": "2 - 2\\cos(A - B) &= 2 - 2\\cos A\\cos B - 2\\sin A\\sin B"
+        },
+        {
+         "tex": "-2\\cos(A - B) &= -2\\cos A\\cos B - 2\\sin A\\sin B"
+        },
+        {
+         "tex": "\\cos(A - B) &= \\cos A\\cos B + \\sin A\\sin B"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p2-q7",
+  "subject": "maths",
+  "chapterId": "maths26",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Higher 2026 — Paper 2 — Q7",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P2",
+  "questionNumber": 7,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/higher-p2-q7-1.webp",
+   "exam-images/maths/2026/higher-p2-q7-2.webp",
+   "exam-images/maths/2026/higher-p2-q7-3.webp",
+   "exam-images/maths/2026/higher-p2-q7-4.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 5,
+    "topics": [
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the area formula with the included angle",
+       "lines": [
+        {
+         "text": "The angle $58^\\circ$ is between the sides $12$ and $20$."
+        },
+        {
+         "tex": "\\text{Area} &= \\frac{1}{2}ab\\sin C"
+        },
+        {
+         "tex": "&= \\frac{1}{2}(12)(20)\\sin 58^\\circ"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate and round",
+       "lines": [
+        {
+         "tex": "&= 101.77"
+        },
+        {
+         "tex": "&= 102"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "102\\ \\text{cm}^2"
+    }
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 10,
+    "topics": [
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the cosine rule for the side opposite 58°",
+       "lines": [
+        {
+         "tex": "x^2 &= 12^2 + 20^2 - 2(12)(20)\\cos 58^\\circ"
+        },
+        {
+         "tex": "x^2 &= 144 + 400 - 480\\cos 58^\\circ"
+        },
+        {
+         "tex": "x^2 &= 289.64"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root",
+       "lines": [
+        {
+         "tex": "x &= \\sqrt{289.64}"
+        },
+        {
+         "tex": "x &= 17.02"
+        },
+        {
+         "tex": "x &= 17"
+        },
+        {
+         "text": "$x$ is a whole number, so $x = 17$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 17"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the third angle",
+       "lines": [
+        {
+         "text": "The angles of a triangle add to $180^\\circ$."
+        },
+        {
+         "tex": "\\text{Third angle} &= 180^\\circ - (34^\\circ + 59^\\circ)"
+        },
+        {
+         "tex": "&= 87^\\circ"
+        }
+       ]
+      },
+      {
+       "title": "Write the sine rule",
+       "lines": [
+        {
+         "text": "$y$ is opposite $59^\\circ$ and $72$ is opposite $87^\\circ$."
+        },
+        {
+         "tex": "\\frac{y}{\\sin 59^\\circ} &= \\frac{72}{\\sin 87^\\circ}"
+        }
+       ]
+      },
+      {
+       "title": "Isolate y",
+       "lines": [
+        {
+         "tex": "y &= \\frac{72\\sin 59^\\circ}{\\sin 87^\\circ}"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate and round",
+       "lines": [
+        {
+         "tex": "y &= 61.8"
+        },
+        {
+         "tex": "y &= 62"
+        },
+        {
+         "text": "$y$ is a natural number, so $y = 62$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "y = 62"
+    }
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 15,
+    "topics": [
+     "maths4",
+     "maths15"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set up Pythagoras' theorem",
+       "lines": [
+        {
+         "text": "The angle $A$ is between $n$ and $n + 5$, so $n + 10$ is the hypotenuse."
+        },
+        {
+         "tex": "(n + 10)^2 &= (n + 5)^2 + n^2"
+        }
+       ]
+      },
+      {
+       "title": "Expand and collect into a quadratic",
+       "lines": [
+        {
+         "tex": "n^2 + 20n + 100 &= n^2 + 10n + 25 + n^2"
+        },
+        {
+         "tex": "n^2 + 20n + 100 &= 2n^2 + 10n + 25"
+        },
+        {
+         "tex": "n^2 - 10n - 75 &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Factorise",
+       "lines": [
+        {
+         "tex": "(n - 15)(n + 5) &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Solve and reject the negative value",
+       "lines": [
+        {
+         "tex": "n &= 15 \\text{ or } n = -5"
+        },
+        {
+         "text": "$n \\in \\mathbb{N}$, so $n = -5$ is rejected."
+        },
+        {
+         "tex": "n &= 15"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "n = 15"
+    }
+   },
+   {
+    "label": "(c)(ii)",
+    "marks": 5,
+    "topics": [
+     "maths15",
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Estimate the angle for very large n",
+       "lines": [
+        {
+         "text": "As $n$ gets very big, $n$, $n + 5$ and $n + 10$ become almost equal in size."
+        },
+        {
+         "text": "So the triangle gets closer and closer to an equilateral triangle."
+        },
+        {
+         "text": "Every angle of an equilateral triangle is $60^\\circ$, so $A$ tends to $60^\\circ$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "60^\\circ"
+    }
+   },
+   {
+    "label": "(d)",
+    "marks": 5,
+    "topics": [
+     "maths15"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the smallest similar triangle",
+       "lines": [
+        {
+         "text": "A similar triangle has sides in the same ratio as $12 : 24 : 30$."
+        },
+        {
+         "text": "Divide by the highest common factor, $6$: the ratio is $2 : 4 : 5$."
+        },
+        {
+         "text": "So the smallest such triangle has sides $2, 4, 5$."
+        }
+       ]
+      },
+      {
+       "title": "List all the similar triangles",
+       "lines": [
+        {
+         "text": "Every similar triangle has sides $2k, 4k, 5k$ for a whole number $k$."
+        },
+        {
+         "text": "The longest stick is at most $100$:"
+        },
+        {
+         "tex": "5k &\\le 100"
+        },
+        {
+         "tex": "k &\\le 20"
+        },
+        {
+         "text": "So $k = 1, 2, \\dots, 20$ gives $20$ triangles, from $2, 4, 5$ up to $40, 80, 100$."
+        }
+       ]
+      },
+      {
+       "title": "Exclude the given triangle",
+       "lines": [
+        {
+         "text": "$k = 6$ gives $12, 24, 30$, which is the original triangle, so it does not count."
+        },
+        {
+         "tex": "\\text{Number of triangles} &= 20 - 1"
+        },
+        {
+         "tex": "&= 19"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "19"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p2-q8",
+  "subject": "maths",
+  "chapterId": "maths22",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Higher 2026 — Paper 2 — Q8",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P2",
+  "questionNumber": 8,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/higher-p2-q8-1.webp",
+   "exam-images/maths/2026/higher-p2-q8-2.webp",
+   "exam-images/maths/2026/higher-p2-q8-3.webp",
+   "exam-images/maths/2026/higher-p2-q8-4.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 5,
+    "topics": [
+     "maths22"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Choose the value of r",
+       "lines": [
+        {
+         "text": "The points slope upwards from left to right, so the correlation is positive (increasing)."
+        },
+        {
+         "text": "The points are fairly spread out around an upward trend, so the correlation is moderate, not close to $1$."
+        },
+        {
+         "text": "This rules out the negative values, $0.25$ (too weak) and $0.95$ (too strong). The closest value is $0.80$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "r = 0.80"
+    }
+   },
+   {
+    "label": "(b)(i), (ii), (iii)",
+    "marks": 5,
+    "topics": [
+     "maths22"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Plot the point P",
+       "lines": [
+        {
+         "text": "Go to $13$ on the daylight-hours axis and $10.7$ on the energy axis."
+        },
+        {
+         "text": "Mark this point and label it $P$."
+        }
+       ]
+      },
+      {
+       "title": "Draw the line of best fit through P",
+       "lines": [
+        {
+         "text": "Draw a straight line through $P$ with about as many points above it as below it."
+        },
+        {
+         "text": "The line drawn here also passes through $(11, 6)$."
+        }
+       ]
+      },
+      {
+       "title": "Read off the energy for 11 daylight hours",
+       "lines": [
+        {
+         "text": "From $11$ on the horizontal axis, go up to the line, then across to the energy axis."
+        },
+        {
+         "text": "The line is at $6$ kWh when there are $11$ daylight hours."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "6\\ \\text{kWh}",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><g stroke=\"currentColor\" stroke-opacity=\"0.15\" fill=\"none\"><line x1=\"40.0\" y1=\"20\" x2=\"40.0\" y2=\"260\"/><line x1=\"74.0\" y1=\"20\" x2=\"74.0\" y2=\"260\"/><line x1=\"108.0\" y1=\"20\" x2=\"108.0\" y2=\"260\"/><line x1=\"142.0\" y1=\"20\" x2=\"142.0\" y2=\"260\"/><line x1=\"176.0\" y1=\"20\" x2=\"176.0\" y2=\"260\"/><line x1=\"210.0\" y1=\"20\" x2=\"210.0\" y2=\"260\"/><line x1=\"244.0\" y1=\"20\" x2=\"244.0\" y2=\"260\"/><line x1=\"278.0\" y1=\"20\" x2=\"278.0\" y2=\"260\"/><line x1=\"312.0\" y1=\"20\" x2=\"312.0\" y2=\"260\"/><line x1=\"346.0\" y1=\"20\" x2=\"346.0\" y2=\"260\"/><line x1=\"380.0\" y1=\"20\" x2=\"380.0\" y2=\"260\"/><line x1=\"40\" y1=\"260.0\" x2=\"380\" y2=\"260.0\"/><line x1=\"40\" y1=\"241.5\" x2=\"380\" y2=\"241.5\"/><line x1=\"40\" y1=\"223.1\" x2=\"380\" y2=\"223.1\"/><line x1=\"40\" y1=\"204.6\" x2=\"380\" y2=\"204.6\"/><line x1=\"40\" y1=\"186.2\" x2=\"380\" y2=\"186.2\"/><line x1=\"40\" y1=\"167.7\" x2=\"380\" y2=\"167.7\"/><line x1=\"40\" y1=\"149.2\" x2=\"380\" y2=\"149.2\"/><line x1=\"40\" y1=\"130.8\" x2=\"380\" y2=\"130.8\"/><line x1=\"40\" y1=\"112.3\" x2=\"380\" y2=\"112.3\"/><line x1=\"40\" y1=\"93.8\" x2=\"380\" y2=\"93.8\"/><line x1=\"40\" y1=\"75.4\" x2=\"380\" y2=\"75.4\"/><line x1=\"40\" y1=\"56.9\" x2=\"380\" y2=\"56.9\"/><line x1=\"40\" y1=\"38.5\" x2=\"380\" y2=\"38.5\"/><line x1=\"40\" y1=\"20.0\" x2=\"380\" y2=\"20.0\"/></g><g stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.2\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"260\"/><line x1=\"40\" y1=\"260\" x2=\"380\" y2=\"260\"/></g><g font-family=\"sans-serif\" font-size=\"11\" fill=\"currentColor\"><text x=\"40.0\" y=\"276\" text-anchor=\"middle\">7</text><text x=\"74.0\" y=\"276\" text-anchor=\"middle\">8</text><text x=\"108.0\" y=\"276\" text-anchor=\"middle\">9</text><text x=\"142.0\" y=\"276\" text-anchor=\"middle\">10</text><text x=\"176.0\" y=\"276\" text-anchor=\"middle\">11</text><text x=\"210.0\" y=\"276\" text-anchor=\"middle\">12</text><text x=\"244.0\" y=\"276\" text-anchor=\"middle\">13</text><text x=\"278.0\" y=\"276\" text-anchor=\"middle\">14</text><text x=\"312.0\" y=\"276\" text-anchor=\"middle\">15</text><text x=\"346.0\" y=\"276\" text-anchor=\"middle\">16</text><text x=\"380.0\" y=\"276\" text-anchor=\"middle\">17</text><text x=\"34\" y=\"264.0\" text-anchor=\"end\">0</text><text x=\"34\" y=\"245.5\" text-anchor=\"end\">2</text><text x=\"34\" y=\"227.1\" text-anchor=\"end\">4</text><text x=\"34\" y=\"208.6\" text-anchor=\"end\">6</text><text x=\"34\" y=\"190.2\" text-anchor=\"end\">8</text><text x=\"34\" y=\"171.7\" text-anchor=\"end\">10</text><text x=\"34\" y=\"153.2\" text-anchor=\"end\">12</text><text x=\"34\" y=\"134.8\" text-anchor=\"end\">14</text><text x=\"34\" y=\"116.3\" text-anchor=\"end\">16</text><text x=\"34\" y=\"97.8\" text-anchor=\"end\">18</text><text x=\"34\" y=\"79.4\" text-anchor=\"end\">20</text><text x=\"34\" y=\"60.9\" text-anchor=\"end\">22</text><text x=\"34\" y=\"42.5\" text-anchor=\"end\">24</text><text x=\"34\" y=\"24.0\" text-anchor=\"end\">26</text><text x=\"210\" y=\"294\" text-anchor=\"middle\" font-size=\"12\">Number of daylight hours</text><text x=\"30\" y=\"12\" font-size=\"12\">kWh</text></g><g fill=\"currentColor\" fill-opacity=\"0.75\"><circle cx=\"366.7\" cy=\"26.1\" r=\"1.7\"/><circle cx=\"366.7\" cy=\"30.8\" r=\"1.7\"/><circle cx=\"354.3\" cy=\"32.8\" r=\"1.7\"/><circle cx=\"330.6\" cy=\"33.7\" r=\"1.7\"/><circle cx=\"367.7\" cy=\"35.7\" r=\"1.7\"/><circle cx=\"361.4\" cy=\"36.6\" r=\"1.7\"/><circle cx=\"338.9\" cy=\"42.4\" r=\"1.7\"/><circle cx=\"364.6\" cy=\"42.4\" r=\"1.7\"/><circle cx=\"358.5\" cy=\"43.2\" r=\"1.7\"/><circle cx=\"368.6\" cy=\"45.2\" r=\"1.7\"/><circle cx=\"364.5\" cy=\"47.2\" r=\"1.7\"/><circle cx=\"366.6\" cy=\"55.0\" r=\"1.7\"/><circle cx=\"367.7\" cy=\"51.0\" r=\"1.7\"/><circle cx=\"363.5\" cy=\"51.0\" r=\"1.7\"/><circle cx=\"362.5\" cy=\"55.9\" r=\"1.7\"/><circle cx=\"357.5\" cy=\"50.9\" r=\"1.7\"/><circle cx=\"340.0\" cy=\"53.0\" r=\"1.7\"/><circle cx=\"306.0\" cy=\"55.9\" r=\"1.7\"/><circle cx=\"337.8\" cy=\"57.7\" r=\"1.7\"/><circle cx=\"332.8\" cy=\"60.7\" r=\"1.7\"/><circle cx=\"367.7\" cy=\"60.6\" r=\"1.7\"/><circle cx=\"334.9\" cy=\"64.5\" r=\"1.7\"/><circle cx=\"336.9\" cy=\"67.3\" r=\"1.7\"/><circle cx=\"364.6\" cy=\"65.4\" r=\"1.7\"/><circle cx=\"288.7\" cy=\"66.3\" r=\"1.7\"/><circle cx=\"308.2\" cy=\"66.4\" r=\"1.7\"/><circle cx=\"359.5\" cy=\"69.3\" r=\"1.7\"/><circle cx=\"366.7\" cy=\"71.3\" r=\"1.7\"/><circle cx=\"365.7\" cy=\"74.2\" r=\"1.7\"/><circle cx=\"285.7\" cy=\"72.2\" r=\"1.7\"/><circle cx=\"275.3\" cy=\"74.1\" r=\"1.7\"/><circle cx=\"280.5\" cy=\"75.0\" r=\"1.7\"/><circle cx=\"280.5\" cy=\"78.8\" r=\"1.7\"/><circle cx=\"347.1\" cy=\"75.9\" r=\"1.7\"/><circle cx=\"350.3\" cy=\"78.0\" r=\"1.7\"/><circle cx=\"332.8\" cy=\"77.9\" r=\"1.7\"/><circle cx=\"286.8\" cy=\"78.9\" r=\"1.7\"/><circle cx=\"313.2\" cy=\"78.9\" r=\"1.7\"/><circle cx=\"360.5\" cy=\"79.7\" r=\"1.7\"/><circle cx=\"361.5\" cy=\"82.7\" r=\"1.7\"/><circle cx=\"357.4\" cy=\"81.7\" r=\"1.7\"/><circle cx=\"283.7\" cy=\"83.6\" r=\"1.7\"/><circle cx=\"281.2\" cy=\"84.9\" r=\"1.7\"/><circle cx=\"294.0\" cy=\"86.5\" r=\"1.7\"/><circle cx=\"291.6\" cy=\"88.6\" r=\"1.7\"/><circle cx=\"366.7\" cy=\"88.4\" r=\"1.7\"/><circle cx=\"367.7\" cy=\"91.4\" r=\"1.7\"/><circle cx=\"296.9\" cy=\"89.4\" r=\"1.7\"/><circle cx=\"342.1\" cy=\"89.4\" r=\"1.7\"/><circle cx=\"302.0\" cy=\"90.4\" r=\"1.7\"/><circle cx=\"333.8\" cy=\"91.4\" r=\"1.7\"/><circle cx=\"362.6\" cy=\"91.4\" r=\"1.7\"/><circle cx=\"287.7\" cy=\"92.4\" r=\"1.7\"/><circle cx=\"347.1\" cy=\"92.3\" r=\"1.7\"/><circle cx=\"328.7\" cy=\"94.2\" r=\"1.7\"/><circle cx=\"341.1\" cy=\"95.2\" r=\"1.7\"/><circle cx=\"308.2\" cy=\"98.1\" r=\"1.7\"/><circle cx=\"328.6\" cy=\"99.1\" r=\"1.7\"/><circle cx=\"279.6\" cy=\"101.0\" r=\"1.7\"/><circle cx=\"276.4\" cy=\"103.9\" r=\"1.7\"/><circle cx=\"366.7\" cy=\"101.0\" r=\"1.7\"/><circle cx=\"345.2\" cy=\"102.0\" r=\"1.7\"/><circle cx=\"262.1\" cy=\"103.9\" r=\"1.7\"/><circle cx=\"253.8\" cy=\"104.9\" r=\"1.7\"/><circle cx=\"311.3\" cy=\"104.8\" r=\"1.7\"/><circle cx=\"326.7\" cy=\"104.8\" r=\"1.7\"/><circle cx=\"264.1\" cy=\"107.8\" r=\"1.7\"/><circle cx=\"306.1\" cy=\"108.7\" r=\"1.7\"/><circle cx=\"321.4\" cy=\"111.5\" r=\"1.7\"/><circle cx=\"319.5\" cy=\"114.6\" r=\"1.7\"/><circle cx=\"341.0\" cy=\"111.6\" r=\"1.7\"/><circle cx=\"364.6\" cy=\"113.5\" r=\"1.7\"/><circle cx=\"266.1\" cy=\"114.5\" r=\"1.7\"/><circle cx=\"297.8\" cy=\"114.5\" r=\"1.7\"/><circle cx=\"310.3\" cy=\"114.4\" r=\"1.7\"/><circle cx=\"235.3\" cy=\"116.4\" r=\"1.7\"/><circle cx=\"362.5\" cy=\"117.3\" r=\"1.7\"/><circle cx=\"359.3\" cy=\"118.2\" r=\"1.7\"/><circle cx=\"304.1\" cy=\"118.2\" r=\"1.7\"/><circle cx=\"367.6\" cy=\"120.2\" r=\"1.7\"/><circle cx=\"341.1\" cy=\"124.0\" r=\"1.7\"/><circle cx=\"242.4\" cy=\"124.9\" r=\"1.7\"/><circle cx=\"359.4\" cy=\"125.0\" r=\"1.7\"/><circle cx=\"220.0\" cy=\"125.9\" r=\"1.7\"/><circle cx=\"273.2\" cy=\"127.9\" r=\"1.7\"/><circle cx=\"312.3\" cy=\"128.9\" r=\"1.7\"/><circle cx=\"312.3\" cy=\"132.6\" r=\"1.7\"/><circle cx=\"316.4\" cy=\"127.9\" r=\"1.7\"/><circle cx=\"349.2\" cy=\"127.9\" r=\"1.7\"/><circle cx=\"262.1\" cy=\"129.8\" r=\"1.7\"/><circle cx=\"257.9\" cy=\"129.9\" r=\"1.7\"/><circle cx=\"222.1\" cy=\"130.8\" r=\"1.7\"/><circle cx=\"234.4\" cy=\"130.8\" r=\"1.7\"/><circle cx=\"244.6\" cy=\"131.7\" r=\"1.7\"/><circle cx=\"272.3\" cy=\"133.6\" r=\"1.7\"/><circle cx=\"218.0\" cy=\"134.6\" r=\"1.7\"/><circle cx=\"323.5\" cy=\"136.5\" r=\"1.7\"/><circle cx=\"271.4\" cy=\"138.5\" r=\"1.7\"/><circle cx=\"317.4\" cy=\"140.4\" r=\"1.7\"/><circle cx=\"357.5\" cy=\"140.4\" r=\"1.7\"/><circle cx=\"355.3\" cy=\"143.3\" r=\"1.7\"/><circle cx=\"260.0\" cy=\"141.3\" r=\"1.7\"/><circle cx=\"289.7\" cy=\"141.3\" r=\"1.7\"/><circle cx=\"275.4\" cy=\"143.3\" r=\"1.7\"/><circle cx=\"317.5\" cy=\"145.2\" r=\"1.7\"/><circle cx=\"249.8\" cy=\"145.2\" r=\"1.7\"/><circle cx=\"322.4\" cy=\"146.2\" r=\"1.7\"/><circle cx=\"364.6\" cy=\"147.0\" r=\"1.7\"/><circle cx=\"268.2\" cy=\"148.1\" r=\"1.7\"/><circle cx=\"302.1\" cy=\"148.1\" r=\"1.7\"/><circle cx=\"225.2\" cy=\"150.0\" r=\"1.7\"/><circle cx=\"260.0\" cy=\"150.0\" r=\"1.7\"/><circle cx=\"319.5\" cy=\"151.0\" r=\"1.7\"/><circle cx=\"315.3\" cy=\"152.9\" r=\"1.7\"/><circle cx=\"311.4\" cy=\"152.0\" r=\"1.7\"/><circle cx=\"337.8\" cy=\"153.8\" r=\"1.7\"/><circle cx=\"351.1\" cy=\"153.7\" r=\"1.7\"/><circle cx=\"353.4\" cy=\"155.8\" r=\"1.7\"/><circle cx=\"254.9\" cy=\"155.7\" r=\"1.7\"/><circle cx=\"353.2\" cy=\"160.6\" r=\"1.7\"/><circle cx=\"331.7\" cy=\"161.5\" r=\"1.7\"/><circle cx=\"301.0\" cy=\"162.5\" r=\"1.7\"/><circle cx=\"345.1\" cy=\"162.4\" r=\"1.7\"/><circle cx=\"355.2\" cy=\"164.4\" r=\"1.7\"/><circle cx=\"358.5\" cy=\"163.4\" r=\"1.7\"/><circle cx=\"227.1\" cy=\"164.4\" r=\"1.7\"/><circle cx=\"271.3\" cy=\"166.4\" r=\"1.7\"/><circle cx=\"293.9\" cy=\"167.4\" r=\"1.7\"/><circle cx=\"299.9\" cy=\"167.4\" r=\"1.7\"/><circle cx=\"184.2\" cy=\"168.2\" r=\"1.7\"/><circle cx=\"349.3\" cy=\"169.1\" r=\"1.7\"/><circle cx=\"296.9\" cy=\"170.1\" r=\"1.7\"/><circle cx=\"359.4\" cy=\"170.1\" r=\"1.7\"/><circle cx=\"356.3\" cy=\"172.1\" r=\"1.7\"/><circle cx=\"213.8\" cy=\"175.9\" r=\"1.7\"/><circle cx=\"240.6\" cy=\"176.7\" r=\"1.7\"/><circle cx=\"266.1\" cy=\"176.8\" r=\"1.7\"/><circle cx=\"346.1\" cy=\"177.8\" r=\"1.7\"/><circle cx=\"321.5\" cy=\"178.8\" r=\"1.7\"/><circle cx=\"229.2\" cy=\"179.8\" r=\"1.7\"/><circle cx=\"173.8\" cy=\"182.7\" r=\"1.7\"/><circle cx=\"196.3\" cy=\"184.6\" r=\"1.7\"/><circle cx=\"169.7\" cy=\"185.5\" r=\"1.7\"/><circle cx=\"351.3\" cy=\"185.5\" r=\"1.7\"/><circle cx=\"204.6\" cy=\"186.5\" r=\"1.7\"/><circle cx=\"326.7\" cy=\"187.5\" r=\"1.7\"/><circle cx=\"200.6\" cy=\"188.5\" r=\"1.7\"/><circle cx=\"367.7\" cy=\"188.5\" r=\"1.7\"/><circle cx=\"167.7\" cy=\"190.4\" r=\"1.7\"/><circle cx=\"171.7\" cy=\"191.2\" r=\"1.7\"/><circle cx=\"269.2\" cy=\"191.3\" r=\"1.7\"/><circle cx=\"264.1\" cy=\"192.2\" r=\"1.7\"/><circle cx=\"207.7\" cy=\"193.2\" r=\"1.7\"/><circle cx=\"152.3\" cy=\"194.2\" r=\"1.7\"/><circle cx=\"365.6\" cy=\"194.2\" r=\"1.7\"/><circle cx=\"146.2\" cy=\"198.9\" r=\"1.7\"/><circle cx=\"361.4\" cy=\"198.9\" r=\"1.7\"/><circle cx=\"212.8\" cy=\"201.9\" r=\"1.7\"/><circle cx=\"250.7\" cy=\"201.9\" r=\"1.7\"/><circle cx=\"350.3\" cy=\"202.9\" r=\"1.7\"/><circle cx=\"238.5\" cy=\"203.9\" r=\"1.7\"/><circle cx=\"144.1\" cy=\"204.8\" r=\"1.7\"/><circle cx=\"247.8\" cy=\"206.6\" r=\"1.7\"/><circle cx=\"329.6\" cy=\"206.6\" r=\"1.7\"/><circle cx=\"132.8\" cy=\"208.6\" r=\"1.7\"/><circle cx=\"304.1\" cy=\"208.6\" r=\"1.7\"/><circle cx=\"181.0\" cy=\"209.6\" r=\"1.7\"/><circle cx=\"198.4\" cy=\"209.5\" r=\"1.7\"/><circle cx=\"297.8\" cy=\"210.6\" r=\"1.7\"/><circle cx=\"327.7\" cy=\"210.7\" r=\"1.7\"/><circle cx=\"165.6\" cy=\"212.5\" r=\"1.7\"/><circle cx=\"176.0\" cy=\"212.4\" r=\"1.7\"/><circle cx=\"189.2\" cy=\"214.4\" r=\"1.7\"/><circle cx=\"187.1\" cy=\"217.4\" r=\"1.7\"/><circle cx=\"194.4\" cy=\"214.3\" r=\"1.7\"/><circle cx=\"161.6\" cy=\"216.3\" r=\"1.7\"/><circle cx=\"178.9\" cy=\"216.3\" r=\"1.7\"/><circle cx=\"208.8\" cy=\"216.3\" r=\"1.7\"/><circle cx=\"138.9\" cy=\"217.3\" r=\"1.7\"/><circle cx=\"134.9\" cy=\"218.2\" r=\"1.7\"/><circle cx=\"202.5\" cy=\"218.3\" r=\"1.7\"/><circle cx=\"148.1\" cy=\"221.0\" r=\"1.7\"/><circle cx=\"107.3\" cy=\"223.0\" r=\"1.7\"/><circle cx=\"158.5\" cy=\"223.0\" r=\"1.7\"/><circle cx=\"150.3\" cy=\"225.0\" r=\"1.7\"/><circle cx=\"123.6\" cy=\"226.0\" r=\"1.7\"/><circle cx=\"155.3\" cy=\"226.0\" r=\"1.7\"/><circle cx=\"129.8\" cy=\"226.9\" r=\"1.7\"/><circle cx=\"115.4\" cy=\"228.7\" r=\"1.7\"/><circle cx=\"111.3\" cy=\"229.8\" r=\"1.7\"/><circle cx=\"96.9\" cy=\"230.7\" r=\"1.7\"/><circle cx=\"125.7\" cy=\"230.7\" r=\"1.7\"/><circle cx=\"77.4\" cy=\"231.7\" r=\"1.7\"/><circle cx=\"91.8\" cy=\"231.7\" r=\"1.7\"/><circle cx=\"119.5\" cy=\"231.6\" r=\"1.7\"/><circle cx=\"83.6\" cy=\"232.7\" r=\"1.7\"/><circle cx=\"156.3\" cy=\"232.7\" r=\"1.7\"/><circle cx=\"183.1\" cy=\"233.7\" r=\"1.7\"/><circle cx=\"77.4\" cy=\"236.4\" r=\"1.7\"/><circle cx=\"79.2\" cy=\"239.5\" r=\"1.7\"/><circle cx=\"81.7\" cy=\"238.3\" r=\"1.7\"/><circle cx=\"108.2\" cy=\"236.4\" r=\"1.7\"/><circle cx=\"89.8\" cy=\"237.4\" r=\"1.7\"/><circle cx=\"71.3\" cy=\"238.4\" r=\"1.7\"/><circle cx=\"98.0\" cy=\"238.4\" r=\"1.7\"/><circle cx=\"127.7\" cy=\"238.4\" r=\"1.7\"/><circle cx=\"232.4\" cy=\"238.4\" r=\"1.7\"/><circle cx=\"122.6\" cy=\"240.4\" r=\"1.7\"/><circle cx=\"214.9\" cy=\"240.3\" r=\"1.7\"/><circle cx=\"118.4\" cy=\"242.2\" r=\"1.7\"/><circle cx=\"103.1\" cy=\"243.2\" r=\"1.7\"/><circle cx=\"113.4\" cy=\"244.1\" r=\"1.7\"/><circle cx=\"110.3\" cy=\"246.1\" r=\"1.7\"/><circle cx=\"131.8\" cy=\"244.1\" r=\"1.7\"/><circle cx=\"191.3\" cy=\"244.2\" r=\"1.7\"/><circle cx=\"74.4\" cy=\"245.1\" r=\"1.7\"/><circle cx=\"86.6\" cy=\"248.0\" r=\"1.7\"/><circle cx=\"86.7\" cy=\"251.9\" r=\"1.7\"/><circle cx=\"89.9\" cy=\"249.0\" r=\"1.7\"/><circle cx=\"84.6\" cy=\"245.1\" r=\"1.7\"/><circle cx=\"93.8\" cy=\"246.1\" r=\"1.7\"/><circle cx=\"142.0\" cy=\"247.1\" r=\"1.7\"/><circle cx=\"104.2\" cy=\"248.1\" r=\"1.7\"/><circle cx=\"81.7\" cy=\"249.0\" r=\"1.7\"/><circle cx=\"78.4\" cy=\"250.8\" r=\"1.7\"/><circle cx=\"71.3\" cy=\"251.9\" r=\"1.7\"/><circle cx=\"102.1\" cy=\"252.8\" r=\"1.7\"/><circle cx=\"94.9\" cy=\"253.8\" r=\"1.7\"/><circle cx=\"74.5\" cy=\"256.7\" r=\"1.7\"/><circle cx=\"109.4\" cy=\"256.7\" r=\"1.7\"/><circle cx=\"142.5\" cy=\"256.7\" r=\"1.7\"/><circle cx=\"177.1\" cy=\"256.7\" r=\"1.7\"/><circle cx=\"210.3\" cy=\"256.7\" r=\"1.7\"/><circle cx=\"245.1\" cy=\"256.7\" r=\"1.7\"/><circle cx=\"278.5\" cy=\"256.7\" r=\"1.7\"/><circle cx=\"312.5\" cy=\"256.7\" r=\"1.7\"/><circle cx=\"346.8\" cy=\"256.7\" r=\"1.7\"/><circle cx=\"100.0\" cy=\"257.4\" r=\"1.7\"/></g><line x1=\"91.0\" y1=\"258.8\" x2=\"363.0\" y2=\"85.3\" stroke=\"#2563eb\" stroke-width=\"2\"/><g stroke=\"#2563eb\" stroke-dasharray=\"4 3\" stroke-width=\"1.2\" fill=\"none\"><line x1=\"244.0\" y1=\"260\" x2=\"244.0\" y2=\"161.2\"/><line x1=\"40\" y1=\"161.2\" x2=\"244.0\" y2=\"161.2\"/><line x1=\"176.0\" y1=\"260\" x2=\"176.0\" y2=\"204.6\"/><line x1=\"40\" y1=\"204.6\" x2=\"176.0\" y2=\"204.6\"/></g><g fill=\"#2563eb\"><circle cx=\"244.0\" cy=\"161.2\" r=\"3.5\"/><circle cx=\"176.0\" cy=\"204.6\" r=\"3\"/></g><g font-family=\"sans-serif\" font-size=\"12\" fill=\"#2563eb\"><text x=\"252.0\" y=\"177.2\">P (13, 10.7)</text><text x=\"184.0\" y=\"220.6\">(11, 6)</text><text x=\"182.8\" y=\"84.6\">line of best fit</text></g></svg>"
+    }
+   },
+   {
+    "label": "(b)(iv)",
+    "marks": 10,
+    "topics": [
+     "maths9",
+     "maths22"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope through P and the point from (iii)",
+       "lines": [
+        {
+         "text": "The two points on the line are $(11, 6)$ and $(13, 10.7)$."
+        },
+        {
+         "tex": "m &= \\frac{y_2 - y_1}{x_2 - x_1}"
+        },
+        {
+         "tex": "&= \\frac{10.7 - 6}{13 - 11}"
+        },
+        {
+         "tex": "&= \\frac{4.7}{2}"
+        },
+        {
+         "tex": "&= 2.35"
+        }
+       ]
+      },
+      {
+       "title": "Write the equation of the line through (11, 6)",
+       "lines": [
+        {
+         "tex": "y - 6 &= 2.35(x - 11)"
+        }
+       ]
+      },
+      {
+       "title": "Rearrange into the form y = ax + b",
+       "lines": [
+        {
+         "tex": "y - 6 &= 2.35x - 25.85"
+        },
+        {
+         "tex": "y &= 2.35x - 25.85 + 6"
+        },
+        {
+         "tex": "y &= 2.35x - 19.85"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "y = 2.35x - 19.85"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the complement",
+       "lines": [
+        {
+         "text": "'At least one' the same is the opposite of 'none the same'."
+        },
+        {
+         "tex": "P(\\text{at least one}) &= 1 - P(\\text{none the same})"
+        }
+       ]
+      },
+      {
+       "title": "Find P(none the same)",
+       "lines": [
+        {
+         "text": "Last week's $2$ panels are fixed. 'None the same' means both new panels come from the other $126$."
+        },
+        {
+         "tex": "P(\\text{none the same}) &= \\frac{\\binom{126}{2}}{\\binom{128}{2}}"
+        },
+        {
+         "tex": "&= \\frac{126 \\times 125}{128 \\times 127}"
+        },
+        {
+         "tex": "&= \\frac{7875}{8128}"
+        }
+       ]
+      },
+      {
+       "title": "Subtract from 1",
+       "lines": [
+        {
+         "tex": "P(\\text{at least one}) &= 1 - \\frac{7875}{8128}"
+        },
+        {
+         "tex": "&= \\frac{253}{8128}"
+        },
+        {
+         "tex": "&= 0.031"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "0.031"
+    }
+   },
+   {
+    "label": "(d)(i)",
+    "marks": 5,
+    "topics": [
+     "maths25"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find t for 28th March",
+       "lines": [
+        {
+         "text": "$21$st March is $t = 0$, so $28$th March is $7$ days later."
+        },
+        {
+         "tex": "t &= 7"
+        }
+       ]
+      },
+      {
+       "title": "Substitute t = 7 into H(t) (calculator in radians)",
+       "lines": [
+        {
+         "tex": "H(7) &= 4.5\\sin\\left(\\frac{2\\pi}{365} \\times 7\\right) + 12"
+        },
+        {
+         "tex": "&= 4.5\\sin\\left(\\frac{14\\pi}{365}\\right) + 12"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate and round",
+       "lines": [
+        {
+         "tex": "&= 12.54"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "H(7) = 12.54\\ \\text{hours}"
+    }
+   },
+   {
+    "label": "(d)(ii)",
+    "marks": 15,
+    "topics": [
+     "maths25"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set H(t) = 8 and let A = 2πt/365",
+       "lines": [
+        {
+         "tex": "4.5\\sin A + 12 &= 8"
+        },
+        {
+         "tex": "4.5\\sin A &= -4"
+        },
+        {
+         "tex": "\\sin A &= -\\frac{4}{4.5}"
+        },
+        {
+         "tex": "&= -\\frac{8}{9}"
+        }
+       ]
+      },
+      {
+       "title": "Find the reference angle",
+       "lines": [
+        {
+         "tex": "\\text{Ref}(A) &= \\sin^{-1}\\left(\\frac{8}{9}\\right)"
+        },
+        {
+         "tex": "&= 1.0949\\ \\text{radians}"
+        }
+       ]
+      },
+      {
+       "title": "Find the first value of A and t",
+       "lines": [
+        {
+         "text": "$\\sin A$ is negative, so $A$ is in the third or fourth quadrant. The third quadrant gives the first value."
+        },
+        {
+         "tex": "A &= \\pi + 1.0949"
+        },
+        {
+         "tex": "\\frac{2\\pi t}{365} &= \\pi + 1.0949"
+        },
+        {
+         "tex": "t &= \\frac{365(\\pi + 1.0949)}{2\\pi}"
+        },
+        {
+         "tex": "t &= 246.10"
+        }
+       ]
+      },
+      {
+       "title": "Find the second value of A and t",
+       "lines": [
+        {
+         "text": "The fourth quadrant gives the second value."
+        },
+        {
+         "tex": "A &= 2\\pi - 1.0949"
+        },
+        {
+         "tex": "\\frac{2\\pi t}{365} &= 2\\pi - 1.0949"
+        },
+        {
+         "tex": "t &= \\frac{365(2\\pi - 1.0949)}{2\\pi}"
+        },
+        {
+         "tex": "t &= 301.40"
+        }
+       ]
+      },
+      {
+       "title": "Choose the whole days",
+       "lines": [
+        {
+         "text": "$H(t) < 8$ between $t = 246.10$ and $t = 301.40$."
+        },
+        {
+         "text": "The first whole day after $246.10$ is $247$, and the last whole day before $301.40$ is $301$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{First day: } t = 247, \\quad \\text{last day: } t = 301"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p2-q9",
+  "subject": "maths",
+  "chapterId": "maths16",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Higher 2026 — Paper 2 — Q9",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P2",
+  "questionNumber": 9,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/higher-p2-q9-1.webp",
+   "exam-images/maths/2026/higher-p2-q9-2.webp",
+   "exam-images/maths/2026/higher-p2-q9-3.webp",
+   "exam-images/maths/2026/higher-p2-q9-4.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths16",
+     "maths15"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Statement 1: the radii of k",
+       "lines": [
+        {
+         "text": "Statement 1 is given: $|PA| = |PB|$."
+        },
+        {
+         "text": "Reason: $A$ and $B$ are both points on circle $k$, so $PA$ and $PB$ are radii of $k$."
+        }
+       ]
+      },
+      {
+       "title": "Statement 2: the common side",
+       "lines": [
+        {
+         "text": "Statement 2: $|PO| = |PO|$."
+        },
+        {
+         "text": "Reason: $PO$ is a side of both triangles, so it is a common side."
+        }
+       ]
+      },
+      {
+       "title": "Statement 3: the right angles at A and B",
+       "lines": [
+        {
+         "text": "Statement 3: $|\\angle PAO| = |\\angle PBO| = 90^\\circ$."
+        },
+        {
+         "text": "Reason: $AD$ and $BC$ are tangents, and a tangent is perpendicular to the radius at the point of contact."
+        }
+       ]
+      },
+      {
+       "title": "Conclusion: state the congruence",
+       "lines": [
+        {
+         "text": "Two triangles with a right angle, a common hypotenuse ($PO$) and one other equal side ($PA = PB$, radii) are congruent."
+        },
+        {
+         "text": "Reason: RHS (right angle, hypotenuse, side). Also accepted: SSS, since $|AO| = |BO|$ by Pythagoras' theorem."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\triangle POA \\cong \\triangle POB"
+    }
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 5,
+    "topics": [
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set up a tan ratio in triangle POA",
+       "lines": [
+        {
+         "text": "The angle at $A$ is $90^\\circ$, so $PA = 12$ is adjacent to $70^\\circ$ and $AO$ is opposite."
+        },
+        {
+         "tex": "\\tan 70^\\circ &= \\frac{|AO|}{12}"
+        }
+       ]
+      },
+      {
+       "title": "Isolate |AO|",
+       "lines": [
+        {
+         "tex": "|AO| &= 12 \\tan 70^\\circ"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate and round to 1 decimal place",
+       "lines": [
+        {
+         "tex": "|AO| &= 32.96\\ldots"
+        },
+        {
+         "tex": "|AO| &= 33.0 \\text{ cm}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|AO| = 33.0 \\text{ cm}"
+    }
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 15,
+    "topics": [
+     "maths7",
+     "maths15"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use similar triangles to find |OD|",
+       "lines": [
+        {
+         "text": "Triangles $POA$ and $QOC$ are similar, so $|OD|$ and $|AO|$ are in the ratio of the radii $8 : 12$."
+        },
+        {
+         "tex": "|OD| &= \\frac{8}{12} \\times 33"
+        },
+        {
+         "tex": "|OD| &= 22 \\text{ cm}"
+        }
+       ]
+      },
+      {
+       "title": "Find the two straight sections",
+       "lines": [
+        {
+         "text": "$|AD| = |AO| + |OD|$ and $|BC|$ is the same length by symmetry."
+        },
+        {
+         "tex": "|AD| + |BC| &= 2(33 + 22)"
+        },
+        {
+         "tex": "|AD| + |BC| &= 110 \\text{ cm}"
+        }
+       ]
+      },
+      {
+       "title": "Find the major arc of circle k",
+       "lines": [
+        {
+         "text": "$\\angle APB = 2 \\times 70^\\circ = 140^\\circ$, so the major arc has angle $360^\\circ - 140^\\circ = 220^\\circ$."
+        },
+        {
+         "tex": "|AB|_{arc} &= \\frac{220}{360} \\times 2\\pi(12)"
+        },
+        {
+         "tex": "|AB|_{arc} &= \\frac{44}{3}\\pi"
+        }
+       ]
+      },
+      {
+       "title": "Find the major arc of circle s",
+       "lines": [
+        {
+         "text": "The triangles are similar, so $\\angle CQD = 140^\\circ$ and this major arc is also $220^\\circ$."
+        },
+        {
+         "tex": "|CD|_{arc} &= \\frac{220}{360} \\times 2\\pi(8)"
+        },
+        {
+         "tex": "|CD|_{arc} &= \\frac{88}{9}\\pi"
+        }
+       ]
+      },
+      {
+       "title": "Add all four parts of the belt",
+       "lines": [
+        {
+         "tex": "\\text{Total} &= 110 + \\frac{44}{3}\\pi + \\frac{88}{9}\\pi"
+        },
+        {
+         "tex": "\\text{Total} &= 186.8\\ldots"
+        },
+        {
+         "tex": "\\text{Total} &= 187 \\text{ cm}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "187 \\text{ cm}"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths7",
+     "maths2"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find j from the height of the sheet",
+       "lines": [
+        {
+         "text": "Down the 55 cm side: a height $x$, then $j$, then another height $x$."
+        },
+        {
+         "tex": "x + j + x &= 55"
+        },
+        {
+         "tex": "j &= 55 - 2x"
+        }
+       ]
+      },
+      {
+       "title": "Find k from the width of the sheet",
+       "lines": [
+        {
+         "text": "Along the 120 cm side: $x$, $k$, $x$, $k$."
+        },
+        {
+         "tex": "x + k + x + k &= 120"
+        },
+        {
+         "tex": "2k &= 120 - 2x"
+        },
+        {
+         "tex": "k &= 60 - x"
+        }
+       ]
+      },
+      {
+       "title": "Write the volume in terms of x",
+       "lines": [
+        {
+         "text": "The box has length $k$, width $j$ and height $x$."
+        },
+        {
+         "tex": "V &= x \\times k \\times j"
+        },
+        {
+         "tex": "V &= x(60 - x)(55 - 2x)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply out the two brackets",
+       "lines": [
+        {
+         "tex": "(60 - x)(55 - 2x) &= 60(55) - 60(2x) - x(55) + x(2x)"
+        },
+        {
+         "tex": "&= 3300 - 120x - 55x + 2x^2"
+        },
+        {
+         "tex": "&= 2x^2 - 175x + 3300"
+        }
+       ]
+      },
+      {
+       "title": "Multiply by x",
+       "lines": [
+        {
+         "tex": "V &= x(2x^2 - 175x + 3300)"
+        },
+        {
+         "tex": "V &= 2x^3 - 175x^2 + 3300x"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "V = 2x^3 - 175x^2 + 3300x"
+    }
+   },
+   {
+    "label": "(d)",
+    "marks": 10,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Focus on the quarter circle only",
+       "lines": [
+        {
+         "text": "Left of $A$, the top edge is made of straight segments, so the trapezoidal rule gives the exact area there. Only the quarter circle has an error."
+        },
+        {
+         "text": "Its radius is $8.8$ m, and it covers two strips."
+        }
+       ]
+      },
+      {
+       "title": "Find the actual area of the quarter circle",
+       "lines": [
+        {
+         "tex": "\\text{Actual} &= \\frac{1}{4}\\pi(8.8)^2"
+        },
+        {
+         "tex": "\\text{Actual} &= 60.82\\ldots \\text{ m}^2"
+        }
+       ]
+      },
+      {
+       "title": "Find the width of each strip",
+       "lines": [
+        {
+         "text": "$BC$ is split into 6 equal parts, and 2 of them make the radius $8.8$ m."
+        },
+        {
+         "tex": "h &= \\frac{8.8}{2}"
+        },
+        {
+         "tex": "h &= 4.4 \\text{ m}"
+        }
+       ]
+      },
+      {
+       "title": "Find the middle height of the quarter circle",
+       "lines": [
+        {
+         "text": "At $4.4$ m from the centre, the height $y$ satisfies Pythagoras with the radius $8.8$."
+        },
+        {
+         "tex": "y &= \\sqrt{8.8^2 - 4.4^2}"
+        },
+        {
+         "tex": "y &= 7.621\\ldots \\text{ m}"
+        }
+       ]
+      },
+      {
+       "title": "Apply the trapezoidal rule to the quarter circle",
+       "lines": [
+        {
+         "text": "The heights are $8.8$, $7.621$ and $0$."
+        },
+        {
+         "tex": "\\text{Estimate} &= \\frac{4.4}{2}\\left[8.8 + 0 + 2(7.621)\\right]"
+        },
+        {
+         "tex": "\\text{Estimate} &= 52.89\\ldots \\text{ m}^2"
+        }
+       ]
+      },
+      {
+       "title": "Find the error",
+       "lines": [
+        {
+         "tex": "\\text{Error} &= 60.82 - 52.89"
+        },
+        {
+         "tex": "\\text{Error} &= 7.93\\ldots"
+        },
+        {
+         "tex": "\\text{Error} &= 8 \\text{ m}^2"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "8 \\text{ m}^2"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-higher-p2-q10",
+  "subject": "maths",
+  "chapterId": "maths24",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Higher 2026 — Paper 2 — Q10",
+  "year": 2026,
+  "level": "higher",
+  "paper": "P2",
+  "questionNumber": 10,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/higher-p2-q10-1.webp",
+   "exam-images/maths/2026/higher-p2-q10-2.webp",
+   "exam-images/maths/2026/higher-p2-q10-3.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 10,
+    "topics": [
+     "maths24"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify the values",
+       "lines": [
+        {
+         "tex": "x &= 50, \\quad \\mu = 46.02, \\quad \\sigma = 11.72"
+        }
+       ]
+      },
+      {
+       "title": "Find the z-score for 50",
+       "lines": [
+        {
+         "tex": "z &= \\frac{x - \\mu}{\\sigma}"
+        },
+        {
+         "tex": "z &= \\frac{50 - 46.02}{11.72}"
+        },
+        {
+         "tex": "z &= 0.3396\\ldots"
+        },
+        {
+         "tex": "z &= 0.34"
+        }
+       ]
+      },
+      {
+       "title": "Read P(Z < 0.34) from the tables",
+       "lines": [
+        {
+         "tex": "P(Z < 0.34) &= 0.6331"
+        }
+       ]
+      },
+      {
+       "title": "Find the probability of spending more than 50",
+       "lines": [
+        {
+         "text": "Tables give the area to the left, so subtract from 1."
+        },
+        {
+         "tex": "P(X > 50) &= P(Z > 0.34)"
+        },
+        {
+         "tex": "&= 1 - P(Z < 0.34)"
+        },
+        {
+         "tex": "&= 1 - 0.6331"
+        },
+        {
+         "tex": "&= 0.3669"
+        }
+       ]
+      },
+      {
+       "title": "Convert to a percentage",
+       "lines": [
+        {
+         "tex": "0.3669 \\times 100 &= 36.69\\%"
+        },
+        {
+         "tex": "&\\approx 37\\%"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "37\\%"
+    }
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 10,
+    "topics": [
+     "maths24"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the z-score with 0.9 to its left",
+       "lines": [
+        {
+         "tex": "P(Z < k) &= 0.9"
+        },
+        {
+         "text": "In the tables, $0.8997$ is the closest value to $0.9$, and it belongs to $z = 1.28$."
+        },
+        {
+         "tex": "k &= 1.28"
+        }
+       ]
+      },
+      {
+       "title": "Write the z-score formula for X",
+       "lines": [
+        {
+         "text": "Here $x = X$, $\\mu = 46.02$ and $\\sigma = 11.72$."
+        },
+        {
+         "tex": "\\frac{X - 46.02}{11.72} &= 1.28"
+        }
+       ]
+      },
+      {
+       "title": "Solve for X",
+       "lines": [
+        {
+         "tex": "X - 46.02 &= 1.28 \\times 11.72"
+        },
+        {
+         "tex": "X &= 46.02 + 1.28 \\times 11.72"
+        },
+        {
+         "tex": "X &= 46.02 + 15.0016"
+        },
+        {
+         "tex": "X &= 61.0216"
+        }
+       ]
+      },
+      {
+       "title": "Round to the nearest whole number",
+       "lines": [
+        {
+         "tex": "X &\\approx 61"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "X = \\text{€}61"
+    }
+   },
+   {
+    "label": "(b)(i), (ii)",
+    "marks": 5,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "(i) Probability of a token on one roll",
+       "lines": [
+        {
+         "text": "A token comes from rolling a 5 or a 6, which is 2 faces out of 6."
+        },
+        {
+         "tex": "P(\\text{token}) &= \\frac{2}{6}"
+        },
+        {
+         "tex": "&= \\frac{1}{3}"
+        }
+       ]
+      },
+      {
+       "title": "(ii) Write the probability of no token",
+       "lines": [
+        {
+         "text": "A first token on turn 5 means turns 1 to 4 give nothing, then turn 5 gives a token."
+        },
+        {
+         "tex": "P(\\text{nothing}) &= 1 - \\frac{1}{3}"
+        },
+        {
+         "tex": "&= \\frac{2}{3}"
+        }
+       ]
+      },
+      {
+       "title": "(ii) Multiply the five turns",
+       "lines": [
+        {
+         "tex": "P &= \\left(\\frac{2}{3}\\right)^4 \\times \\frac{1}{3}"
+        },
+        {
+         "tex": "&= \\frac{16}{81} \\times \\frac{1}{3}"
+        },
+        {
+         "tex": "&= \\frac{16}{243}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{(i) } \\frac{1}{3}, \\quad \\text{(ii) } \\frac{16}{243}"
+    }
+   },
+   {
+    "label": "(b)(iii)",
+    "marks": 10,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Split into the two cases",
+       "lines": [
+        {
+         "text": "Each turn is a token with probability $\\frac{1}{3}$ and no token with probability $\\frac{2}{3}$. Use the binomial formula."
+        },
+        {
+         "tex": "P(4 \\text{ or more}) &= P(4) + P(5)"
+        }
+       ]
+      },
+      {
+       "title": "Find P(4)",
+       "lines": [
+        {
+         "tex": "P(4) &= \\binom{5}{4}\\left(\\frac{1}{3}\\right)^4\\left(\\frac{2}{3}\\right)^1"
+        },
+        {
+         "tex": "&= 5 \\times \\frac{1}{81} \\times \\frac{2}{3}"
+        },
+        {
+         "tex": "&= \\frac{10}{243}"
+        }
+       ]
+      },
+      {
+       "title": "Find P(5)",
+       "lines": [
+        {
+         "tex": "P(5) &= \\left(\\frac{1}{3}\\right)^5"
+        },
+        {
+         "tex": "&= \\frac{1}{243}"
+        }
+       ]
+      },
+      {
+       "title": "Add the two probabilities",
+       "lines": [
+        {
+         "tex": "P(4 \\text{ or more}) &= \\frac{10}{243} + \\frac{1}{243}"
+        },
+        {
+         "tex": "&= \\frac{11}{243}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{11}{243}"
+    }
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 10,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Describe the tree diagram",
+       "lines": [
+        {
+         "text": "First roll: 1 to 4 (probability $\\frac{2}{3}$) gives 0 tokens. A 5 or 6 (probability $\\frac{1}{3}$) leads to the choice."
+        },
+        {
+         "text": "Take the token with probability $p$: 1 token. Roll again with probability $1 - p$."
+        },
+        {
+         "text": "Second roll: 1 to 4 (probability $\\frac{2}{3}$) gives 0 tokens. A 5 or 6 (probability $\\frac{1}{3}$) gives 4 tokens."
+        }
+       ]
+      },
+      {
+       "title": "Find the probability of getting 1 token",
+       "lines": [
+        {
+         "text": "Roll a 5 or 6, then take the token."
+        },
+        {
+         "tex": "P(1 \\text{ token}) &= \\frac{1}{3} \\times p"
+        },
+        {
+         "tex": "&= \\frac{p}{3}"
+        }
+       ]
+      },
+      {
+       "title": "Find the probability of getting 4 tokens",
+       "lines": [
+        {
+         "text": "Roll a 5 or 6, roll again, then roll another 5 or 6."
+        },
+        {
+         "tex": "P(4 \\text{ tokens}) &= \\frac{1}{3} \\times (1 - p) \\times \\frac{1}{3}"
+        },
+        {
+         "tex": "&= \\frac{1 - p}{9}"
+        }
+       ]
+      },
+      {
+       "title": "Form the expected value",
+       "lines": [
+        {
+         "text": "Expected value is each number of tokens times its probability, added up."
+        },
+        {
+         "tex": "E &= 1 \\times \\frac{p}{3} + 4 \\times \\frac{1 - p}{9}"
+        },
+        {
+         "tex": "&= \\frac{3p}{9} + \\frac{4 - 4p}{9}"
+        },
+        {
+         "tex": "&= \\frac{3p + 4 - 4p}{9}"
+        },
+        {
+         "tex": "&= \\frac{4 - p}{9}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{4 - p}{9}"
+    }
+   },
+   {
+    "label": "(c)(ii)",
+    "marks": 5,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Compare the expected value at the two extremes",
+       "lines": [
+        {
+         "text": "The expected value is $\\frac{4 - p}{9}$, which gets smaller as $p$ gets bigger."
+        },
+        {
+         "tex": "p = 0: \\quad E &= \\frac{4 - 0}{9}"
+        },
+        {
+         "tex": "&= \\frac{4}{9}"
+        },
+        {
+         "tex": "p = 1: \\quad E &= \\frac{4 - 1}{9}"
+        },
+        {
+         "tex": "&= \\frac{3}{9}"
+        }
+       ]
+      },
+      {
+       "title": "Say what the player should do",
+       "lines": [
+        {
+         "text": "$p = 0$ means the player never takes the single token."
+        },
+        {
+         "text": "So after rolling a 5 or a 6, the player should always roll again."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Roll again after a 5 or a 6}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p1-q1",
+  "subject": "maths",
+  "chapterId": "maths13",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Ordinary 2026 — Paper 1 — Q1",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P1",
+  "questionNumber": 1,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p1-q1-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q1-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths13"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Add the two lunch costs",
+       "lines": [
+        {
+         "tex": "34.6 + 28.9 &= 63.5"
+        }
+       ]
+      },
+      {
+       "title": "Add the 12% service charge",
+       "lines": [
+        {
+         "text": "Adding 12% means multiplying by $1.12$."
+        },
+        {
+         "tex": "63.5 \\times 1.12 &= 71.12"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{€}71.12"
+    }
+   },
+   {
+    "label": "(b)(i), (ii)",
+    "marks": 10,
+    "topics": [
+     "maths13"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find 18% of €22 600 for year 1",
+       "lines": [
+        {
+         "tex": "22\\,600 \\times 0.18 &= 4068"
+        }
+       ]
+      },
+      {
+       "title": "Subtract to get the value after 1 year",
+       "lines": [
+        {
+         "tex": "22\\,600 - 4068 &= 18\\,532"
+        }
+       ]
+      },
+      {
+       "title": "Find the value after year 2",
+       "lines": [
+        {
+         "text": "After an 18% fall the car is worth 82% of its value, so multiply by $0.82$."
+        },
+        {
+         "tex": "18\\,532 \\times 0.82 &= 15\\,196.24"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{(i) €}4068 \\quad \\text{(ii) €}15\\,196.24"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths13",
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute into the formula",
+       "lines": [
+        {
+         "text": "$F = 20\\,230$, $P = 28\\,000$ and $t = 2$."
+        },
+        {
+         "tex": "20\\,230 &= 28\\,000\\left(1 - \\frac{k}{100}\\right)^2"
+        }
+       ]
+      },
+      {
+       "title": "Divide both sides by 28 000",
+       "lines": [
+        {
+         "tex": "\\left(1 - \\frac{k}{100}\\right)^2 &= \\frac{20\\,230}{28\\,000}"
+        },
+        {
+         "tex": "\\left(1 - \\frac{k}{100}\\right)^2 &= 0.7225"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root of both sides",
+       "lines": [
+        {
+         "text": "The value is still positive, so $1 - \\frac{k}{100}$ is positive: take the positive root."
+        },
+        {
+         "tex": "1 - \\frac{k}{100} &= \\sqrt{0.7225}"
+        },
+        {
+         "tex": "1 - \\frac{k}{100} &= 0.85"
+        }
+       ]
+      },
+      {
+       "title": "Solve for k",
+       "lines": [
+        {
+         "tex": "\\frac{k}{100} &= 1 - 0.85"
+        },
+        {
+         "tex": "\\frac{k}{100} &= 0.15"
+        },
+        {
+         "tex": "k &= 0.15 \\times 100"
+        },
+        {
+         "tex": "k &= 15"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "k = 15\\%"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p1-q2",
+  "subject": "maths",
+  "chapterId": "maths2",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Ordinary 2026 — Paper 1 — Q2",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P1",
+  "questionNumber": 2,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p1-q2-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q2-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths2"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the square as two brackets",
+       "lines": [
+        {
+         "tex": "&(3x-5)^2 + 4x + 6"
+        },
+        {
+         "tex": "&= (3x-5)(3x-5) + 4x + 6"
+        }
+       ]
+      },
+      {
+       "title": "Multiply out the brackets",
+       "lines": [
+        {
+         "tex": "&= 9x^2 - 15x - 15x + 25 + 4x + 6"
+        }
+       ]
+      },
+      {
+       "title": "Collect like terms",
+       "lines": [
+        {
+         "tex": "&= 9x^2 - 30x + 25 + 4x + 6"
+        },
+        {
+         "tex": "&= 9x^2 - 26x + 31"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "9x^2 - 26x + 31"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 15,
+    "topics": [
+     "maths4"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify a, b and c",
+       "lines": [
+        {
+         "text": "Compare $3x^2 - 4x - 5 = 0$ with $ax^2 + bx + c = 0$."
+        },
+        {
+         "tex": "a &= 3"
+        },
+        {
+         "tex": "b &= -4"
+        },
+        {
+         "tex": "c &= -5"
+        }
+       ]
+      },
+      {
+       "title": "Write the quadratic formula",
+       "lines": [
+        {
+         "tex": "x &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute a, b and c",
+       "lines": [
+        {
+         "tex": "x &= \\frac{-(-4) \\pm \\sqrt{(-4)^2 - 4(3)(-5)}}{2(3)}"
+        },
+        {
+         "tex": "x &= \\frac{4 \\pm \\sqrt{16 + 60}}{6}"
+        },
+        {
+         "tex": "x &= \\frac{4 \\pm \\sqrt{76}}{6}"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate the + root",
+       "lines": [
+        {
+         "tex": "x &= \\frac{4 + \\sqrt{76}}{6}"
+        },
+        {
+         "tex": "x &= 2.119\\ldots"
+        },
+        {
+         "tex": "x &= 2.12"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate the − root",
+       "lines": [
+        {
+         "tex": "x &= \\frac{4 - \\sqrt{76}}{6}"
+        },
+        {
+         "tex": "x &= -0.786\\ldots"
+        },
+        {
+         "tex": "x &= -0.79"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 2.12 \\text{ or } x = -0.79"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 5,
+    "topics": [
+     "maths6",
+     "maths2"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Put the left side over a common denominator",
+       "lines": [
+        {
+         "tex": "\\frac{5}{x+3} - \\frac{5}{x-3} &= 6"
+        },
+        {
+         "tex": "\\frac{5(x-3) - 5(x+3)}{(x+3)(x-3)} &= 6"
+        }
+       ]
+      },
+      {
+       "title": "Multiply both sides by (x + 3)(x − 3)",
+       "lines": [
+        {
+         "tex": "5(x-3) - 5(x+3) &= 6(x+3)(x-3)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply out the brackets",
+       "lines": [
+        {
+         "tex": "5x - 15 - 5x - 15 &= 6(x^2 - 9)"
+        },
+        {
+         "tex": "-30 &= 6x^2 - 54"
+        }
+       ]
+      },
+      {
+       "title": "Collect all terms on one side",
+       "lines": [
+        {
+         "tex": "0 &= 6x^2 - 54 + 30"
+        },
+        {
+         "tex": "6x^2 - 24 &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Solve for x",
+       "lines": [
+        {
+         "tex": "6x^2 &= 24"
+        },
+        {
+         "tex": "x^2 &= 4"
+        },
+        {
+         "tex": "x &= \\pm 2"
+        },
+        {
+         "text": "Neither value is $3$ or $-3$, so both are allowed."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 2 \\text{ or } x = -2"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p1-q3",
+  "subject": "maths",
+  "chapterId": "maths6",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Ordinary 2026 — Paper 1 — Q3",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P1",
+  "questionNumber": 3,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p1-q3-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q3-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 15,
+    "topics": [
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find how many lots of 500 g there are",
+       "lines": [
+        {
+         "text": "Each 500 g needs 25 minutes, so count the 500 g lots in 2200 g."
+        },
+        {
+         "tex": "\\frac{2200}{500} &= 4.4"
+        }
+       ]
+      },
+      {
+       "title": "Multiply by 25 minutes",
+       "lines": [
+        {
+         "tex": "4.4 \\times 25 &= 110"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "110 \\text{ minutes}"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 5,
+    "topics": [
+     "maths2"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Divide by the smallest prime, 2, until you cannot",
+       "lines": [
+        {
+         "tex": "140 &= 2 \\times 70"
+        },
+        {
+         "tex": "140 &= 2 \\times 2 \\times 35"
+        }
+       ]
+      },
+      {
+       "title": "Factorise 35 into primes",
+       "lines": [
+        {
+         "text": "$35 = 5 \\times 7$, and both are prime."
+        },
+        {
+         "tex": "140 &= 2 \\times 2 \\times 5 \\times 7"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "140 = 2 \\times 2 \\times 5 \\times 7"
+    }
+   },
+   {
+    "label": "(c)(i), (ii)",
+    "marks": 10,
+    "topics": [
+     "maths4",
+     "maths2"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Turn each root into a factor",
+       "lines": [
+        {
+         "text": "If $x = 3$ is a root, then $(x - 3)$ is a factor."
+        },
+        {
+         "text": "If $x = -7$ is a root, then $(x + 7)$ is a factor."
+        },
+        {
+         "tex": "\\text{Factor one} &= x - 3"
+        },
+        {
+         "tex": "\\text{Factor two} &= x + 7"
+        }
+       ]
+      },
+      {
+       "title": "Multiply the factors together",
+       "lines": [
+        {
+         "tex": "&(x - 3)(x + 7)"
+        },
+        {
+         "tex": "&= x^2 + 7x - 3x - 21"
+        }
+       ]
+      },
+      {
+       "title": "Collect like terms",
+       "lines": [
+        {
+         "tex": "&= x^2 + 4x - 21"
+        }
+       ]
+      },
+      {
+       "title": "Compare with x² + px + r",
+       "lines": [
+        {
+         "tex": "p &= 4"
+        },
+        {
+         "tex": "r &= -21"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "p = 4, \\; r = -21"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p1-q4",
+  "subject": "maths",
+  "chapterId": "maths10",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Ordinary 2026 — Paper 1 — Q4",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P1",
+  "questionNumber": 4,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p1-q4-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q4-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths10"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Read z₁ from the diagram",
+       "lines": [
+        {
+         "text": "The real part is the horizontal value and the imaginary part is the vertical value."
+        },
+        {
+         "text": "$z_1$ is at $-2$ across and $3$ up."
+        },
+        {
+         "tex": "z_1 &= -2 + 3i"
+        }
+       ]
+      },
+      {
+       "title": "Read z₂ from the diagram",
+       "lines": [
+        {
+         "text": "$z_2$ is at $4$ across and $1$ up."
+        },
+        {
+         "tex": "z_2 &= 4 + i"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "z_1 = -2 + 3i, \\quad z_2 = 4 + i"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths10"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Replace i² with −1 in the second term",
+       "lines": [
+        {
+         "tex": "&i(2 - i) + i^2(2 - i)"
+        },
+        {
+         "tex": "&= i(2 - i) + (-1)(2 - i)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply out the brackets",
+       "lines": [
+        {
+         "tex": "&= 2i - i^2 - 2 + i"
+        }
+       ]
+      },
+      {
+       "title": "Replace i² with −1 again",
+       "lines": [
+        {
+         "tex": "&= 2i + 1 - 2 + i"
+        }
+       ]
+      },
+      {
+       "title": "Collect real parts and imaginary parts",
+       "lines": [
+        {
+         "tex": "&= -1 + 3i"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-1 + 3i"
+    }
+   },
+   {
+    "label": "(c)(i), (ii), (iii)",
+    "marks": 10,
+    "topics": [
+     "maths10"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Choose a value for u",
+       "lines": [
+        {
+         "text": "$u$ is right of the imaginary axis and at the same height as $A$, which is above the real axis."
+        },
+        {
+         "text": "One possible value has real part $1$ and imaginary part $3$."
+        },
+        {
+         "tex": "u &= 1 + 3i"
+        }
+       ]
+      },
+      {
+       "title": "Find the conjugate",
+       "lines": [
+        {
+         "text": "The conjugate changes the sign of the imaginary part."
+        },
+        {
+         "tex": "\\bar{u} &= 1 - 3i"
+        }
+       ]
+      },
+      {
+       "title": "Plot ū on the diagram",
+       "lines": [
+        {
+         "text": "$\\bar{u}$ is the reflection of $u$ in the real axis: same distance to the right, same distance below."
+        },
+        {
+         "text": "Mark the point and label it $\\bar{u}$."
+        }
+       ]
+      },
+      {
+       "title": "Add u and ū",
+       "lines": [
+        {
+         "tex": "&u + \\bar{u}"
+        },
+        {
+         "tex": "&= (1 + 3i) + (1 - 3i)"
+        },
+        {
+         "tex": "&= 1 + 1 + 3i - 3i"
+        },
+        {
+         "tex": "&= 2"
+        }
+       ]
+      },
+      {
+       "title": "Match the sum to a point on the diagram",
+       "lines": [
+        {
+         "text": "The sum is real, so it lies on the real axis, twice as far right as the real part of $u$. That is $C$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{(i) } u = 1 + 3i \\quad \\text{(iii) } C",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 280\"><g stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"><line x1=\"40\" y1=\"140\" x2=\"300\" y2=\"140\"/><polyline points=\"294,135 302,140 294,145\"/><line x1=\"130\" y1=\"260\" x2=\"130\" y2=\"24\"/><polyline points=\"125,32 130,24 135,32\"/></g><g fill=\"currentColor\" font-family=\"sans-serif\" font-size=\"13\"><circle cx=\"130\" cy=\"50\" r=\"3.5\"/><circle cx=\"160\" cy=\"50\" r=\"3.5\"/><circle cx=\"70\" cy=\"140\" r=\"3.5\"/><circle cx=\"190\" cy=\"140\" r=\"3.5\"/><circle cx=\"250\" cy=\"140\" r=\"3.5\"/><text x=\"112\" y=\"46\" font-style=\"italic\">A</text><text x=\"166\" y=\"46\" font-style=\"italic\">u</text><text x=\"66\" y=\"128\" font-style=\"italic\">B</text><text x=\"186\" y=\"128\" font-style=\"italic\">C</text><text x=\"246\" y=\"128\" font-style=\"italic\">D</text><text x=\"140\" y=\"20\">Im</text><text x=\"282\" y=\"160\">Re</text></g><circle cx=\"160\" cy=\"230\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"168\" y=\"226\" fill=\"#2563eb\" font-family=\"sans-serif\" font-size=\"13\" font-style=\"italic\">ū</text><text x=\"168\" y=\"244\" fill=\"#2563eb\" font-family=\"sans-serif\" font-size=\"12\">1 − 3i</text></svg>"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p1-q5",
+  "subject": "maths",
+  "chapterId": "maths21",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Ordinary 2026 — Paper 1 — Q5",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P1",
+  "questionNumber": 5,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p1-q5-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q5-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 5,
+    "topics": [
+     "maths21"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the common difference",
+       "lines": [
+        {
+         "tex": "d &= 17 - 12"
+        },
+        {
+         "tex": "d &= 5"
+        }
+       ]
+      },
+      {
+       "title": "Add 5 each time",
+       "lines": [
+        {
+         "tex": "22 + 5 &= 27"
+        },
+        {
+         "tex": "27 + 5 &= 32"
+        },
+        {
+         "tex": "32 + 5 &= 37"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "27, \\; 32, \\; 37"
+    }
+   },
+   {
+    "label": "(a)(ii), (iii)",
+    "marks": 10,
+    "topics": [
+     "maths21"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the formula for the nth term",
+       "lines": [
+        {
+         "tex": "T_n &= a + (n-1)d"
+        }
+       ]
+      },
+      {
+       "title": "Identify a and d",
+       "lines": [
+        {
+         "tex": "a &= 12"
+        },
+        {
+         "tex": "d &= 5"
+        }
+       ]
+      },
+      {
+       "title": "Substitute a and d",
+       "lines": [
+        {
+         "tex": "T_n &= 12 + (n-1)(5)"
+        },
+        {
+         "tex": "T_n &= 12 + 5n - 5"
+        },
+        {
+         "tex": "T_n &= 5n + 7"
+        }
+       ]
+      },
+      {
+       "title": "Substitute n = 20 into the formula",
+       "lines": [
+        {
+         "tex": "T_{20} &= 5(20) + 7"
+        },
+        {
+         "tex": "T_{20} &= 100 + 7"
+        },
+        {
+         "tex": "T_{20} &= 107"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "T_n = 5n + 7, \\quad T_{20} = 107"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths21"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the common difference",
+       "lines": [
+        {
+         "text": "Terms 1 and 3 are two steps apart, so they differ by $2d$."
+        },
+        {
+         "tex": "-4 - 6 &= 2d"
+        }
+       ]
+      },
+      {
+       "title": "Solve for d",
+       "lines": [
+        {
+         "tex": "-10 &= 2d"
+        },
+        {
+         "tex": "d &= -5"
+        }
+       ]
+      },
+      {
+       "title": "Add d to the first term to find x",
+       "lines": [
+        {
+         "tex": "x &= 6 + (-5)"
+        },
+        {
+         "tex": "x &= 1"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 1"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 5,
+    "topics": [
+     "maths21",
+     "maths3"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the formula for the sum",
+       "lines": [
+        {
+         "text": "Here $a = 43$ and $d = -4$."
+        },
+        {
+         "tex": "S_n &= \\frac{n}{2}\\big(2a + (n-1)d\\big)"
+        }
+       ]
+      },
+      {
+       "title": "Substitute a and d",
+       "lines": [
+        {
+         "tex": "S_n &= \\frac{n}{2}\\big(2(43) + (n-1)(-4)\\big)"
+        },
+        {
+         "tex": "S_n &= \\frac{n}{2}(86 - 4n + 4)"
+        },
+        {
+         "tex": "S_n &= \\frac{n}{2}(90 - 4n)"
+        }
+       ]
+      },
+      {
+       "title": "Make the sum less than zero",
+       "lines": [
+        {
+         "tex": "\\frac{n}{2}(90 - 4n) &< 0"
+        },
+        {
+         "text": "$\\frac{n}{2}$ is positive, so divide both sides by it."
+        },
+        {
+         "tex": "90 - 4n &< 0"
+        }
+       ]
+      },
+      {
+       "title": "Solve the inequality",
+       "lines": [
+        {
+         "tex": "90 &< 4n"
+        },
+        {
+         "tex": "n &> 22.5"
+        }
+       ]
+      },
+      {
+       "title": "Choose the smallest whole number",
+       "lines": [
+        {
+         "text": "$n$ must be a whole number greater than $22.5$."
+        },
+        {
+         "tex": "n &= 23"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "n = 23"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p1-q6",
+  "subject": "maths",
+  "chapterId": "maths14",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Ordinary 2026 — Paper 1 — Q6",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P1",
+  "questionNumber": 6,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p1-q6-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q6-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i), (ii)",
+    "marks": 15,
+    "topics": [
+     "maths14"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute x = 4 into g(x) (part i)",
+       "lines": [
+        {
+         "text": "Replace $x$ with $4$ in $g(x) = 2x - 3$."
+        },
+        {
+         "tex": "g(4) &= 2(4) - 3"
+        },
+        {
+         "tex": "&= 8 - 3"
+        },
+        {
+         "tex": "&= 5"
+        }
+       ]
+      },
+      {
+       "title": "Set g(x) equal to 11 (part ii)",
+       "lines": [
+        {
+         "tex": "2x - 3 &= 11"
+        }
+       ]
+      },
+      {
+       "title": "Add 3 to both sides",
+       "lines": [
+        {
+         "tex": "2x - 3 + 3 &= 11 + 3"
+        },
+        {
+         "tex": "2x &= 14"
+        }
+       ]
+      },
+      {
+       "title": "Divide both sides by 2",
+       "lines": [
+        {
+         "tex": "\\frac{2x}{2} &= \\frac{14}{2}"
+        },
+        {
+         "tex": "x &= 7"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "g(4) = 5, \\quad x = 7"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths12",
+     "maths11"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate h(x) term by term",
+       "lines": [
+        {
+         "tex": "h(x) &= 3x^2 - 2x + 1"
+        },
+        {
+         "text": "Use $\\frac{d}{dx}(ax^n) = nax^{n-1}$ on each term; the constant $1$ differentiates to $0$."
+        },
+        {
+         "tex": "h'(x) &= 2(3)x - 2"
+        },
+        {
+         "tex": "&= 6x - 2"
+        }
+       ]
+      },
+      {
+       "title": "Set the derivative equal to zero",
+       "lines": [
+        {
+         "text": "A local minimum is a turning point, where the slope is $0$."
+        },
+        {
+         "tex": "6x - 2 &= 0"
+        },
+        {
+         "tex": "6x &= 2"
+        },
+        {
+         "tex": "x &= \\frac{2}{6}"
+        },
+        {
+         "tex": "x &= \\frac{1}{3}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = 1/3 into h(x)",
+       "lines": [
+        {
+         "tex": "h\\left(\\tfrac{1}{3}\\right) &= 3\\left(\\tfrac{1}{3}\\right)^2 - 2\\left(\\tfrac{1}{3}\\right) + 1"
+        },
+        {
+         "tex": "&= 3\\left(\\tfrac{1}{9}\\right) - \\tfrac{2}{3} + 1"
+        },
+        {
+         "tex": "&= \\tfrac{1}{3} - \\tfrac{2}{3} + 1"
+        },
+        {
+         "tex": "&= \\tfrac{2}{3}"
+        },
+        {
+         "text": "The $x^2$ coefficient is positive, so the curve is U-shaped and this turning point is a minimum."
+        },
+        {
+         "text": "Local minimum point $= \\left(\\tfrac{1}{3}, \\tfrac{2}{3}\\right)$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "h'(x) = 6x - 2, \\quad \\left(\\tfrac{1}{3}, \\tfrac{2}{3}\\right)"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 5,
+    "topics": [
+     "maths12",
+     "maths11"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Read the slope of k(x)",
+       "lines": [
+        {
+         "text": "$k(x)$ is U-shaped. Its slope is negative to the left of the minimum point and positive to the right."
+        },
+        {
+         "text": "So $k'(x)$ is a straight line that starts below the $x$-axis and rises: it has a positive slope."
+        }
+       ]
+      },
+      {
+       "title": "Find where k'(x) is zero",
+       "lines": [
+        {
+         "text": "The slope of $k(x)$ is $0$ at its minimum, which is to the right of the $y$-axis."
+        },
+        {
+         "text": "So the graph of $k'(x)$ crosses the $x$-axis at a positive $x$ value."
+        }
+       ]
+      },
+      {
+       "title": "Compare with A, B and C",
+       "lines": [
+        {
+         "text": "A: positive slope, but it crosses the $x$-axis at or left of the $y$-axis, so it is not correct."
+        },
+        {
+         "text": "B: negative slope, so it is not correct."
+        },
+        {
+         "text": "C: positive slope and a positive $x$-intercept, so it matches."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Diagram } C"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p1-q7",
+  "subject": "maths",
+  "chapterId": "maths6",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Ordinary 2026 — Paper 1 — Q7",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P1",
+  "questionNumber": 7,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/ordinary-p1-q7-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q7-2.webp",
+   "exam-images/maths/2026/ordinary-p1-q7-3.webp",
+   "exam-images/maths/2026/ordinary-p1-q7-4.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i), (ii)",
+    "marks": 10,
+    "topics": [
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the bus arriving between 18:00 and 21:00 (part i)",
+       "lines": [
+        {
+         "text": "Read the Waterford Bus Station row: A 12:00, B 14:00, C 16:15, D 20:30, E 22:15, F 01:10."
+        },
+        {
+         "text": "Only $20{:}30$ (bus D) is between $18{:}00$ and $21{:}00$."
+        }
+       ]
+      },
+      {
+       "title": "Find the journey time of bus B (part ii)",
+       "lines": [
+        {
+         "text": "Bus B leaves Dublin Airport at 10:50 and arrives at 14:00."
+        },
+        {
+         "tex": "10{:}50 \\text{ to } 11{:}00 &= 10 \\text{ minutes}"
+        },
+        {
+         "tex": "11{:}00 \\text{ to } 14{:}00 &= 3 \\text{ hours}"
+        },
+        {
+         "tex": "10 \\text{ min} + 3 \\text{ h} &= 3 \\text{ h } 10 \\text{ min}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Bus D}, \\quad 3 \\text{ h } 10 \\text{ min}"
+    }
+   },
+   {
+    "label": "(a)(iii)",
+    "marks": 10,
+    "topics": [
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the time from Royal Oak to Thomastown",
+       "lines": [
+        {
+         "text": "Bus E is at Royal Oak at 21:24 and at Thomastown at 21:45."
+        },
+        {
+         "tex": "21{:}45 - 21{:}24 &= 21 \\text{ minutes}"
+        }
+       ]
+      },
+      {
+       "title": "Write an equation for the two parts of the journey",
+       "lines": [
+        {
+         "text": "Let $x$ be the minutes from Royal Oak to Gowran. Gowran to Thomastown takes $3$ minutes more, so $x + 3$."
+        },
+        {
+         "tex": "x + (x + 3) &= 21"
+        }
+       ]
+      },
+      {
+       "title": "Solve for x",
+       "lines": [
+        {
+         "tex": "2x + 3 &= 21"
+        },
+        {
+         "tex": "2x &= 18"
+        },
+        {
+         "tex": "x &= 9"
+        }
+       ]
+      },
+      {
+       "title": "Add 9 minutes to the Royal Oak time",
+       "lines": [
+        {
+         "tex": "T &= 21{:}24 + 9 \\text{ minutes}"
+        },
+        {
+         "tex": "&= 21{:}33"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "T = 21{:}33"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths5"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the two equations",
+       "lines": [
+        {
+         "text": "Adult ticket costs $x$ and child ticket costs $y$."
+        },
+        {
+         "tex": "3x + 4y &= 144 \\quad (1)"
+        },
+        {
+         "tex": "2x + y &= 71 \\quad (2)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply equation (2) by 4",
+       "lines": [
+        {
+         "tex": "8x + 4y &= 284 \\quad (3)"
+        }
+       ]
+      },
+      {
+       "title": "Subtract equation (3) from equation (1)",
+       "lines": [
+        {
+         "tex": "(3x + 4y) - (8x + 4y) &= 144 - 284"
+        },
+        {
+         "tex": "-5x &= -140"
+        },
+        {
+         "tex": "x &= \\frac{-140}{-5}"
+        },
+        {
+         "tex": "x &= 28"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = 28 into equation (2)",
+       "lines": [
+        {
+         "tex": "2(28) + y &= 71"
+        },
+        {
+         "tex": "56 + y &= 71"
+        },
+        {
+         "tex": "y &= 71 - 56"
+        },
+        {
+         "tex": "y &= 15"
+        }
+       ]
+      },
+      {
+       "title": "Check in equation (1)",
+       "lines": [
+        {
+         "tex": "3(28) + 4(15) &= 84 + 60"
+        },
+        {
+         "tex": "&= 144"
+        },
+        {
+         "text": "An adult ticket costs €28 and a child ticket costs €15."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 28, \\quad y = 15"
+    }
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 5,
+    "topics": [
+     "maths13"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the gross tax",
+       "lines": [
+        {
+         "text": "Luan pays only the lower rate of $20\\% = 0.2$."
+        },
+        {
+         "tex": "\\text{Gross tax} &= 37\\,600 \\times 0.2"
+        },
+        {
+         "tex": "&= 7520"
+        }
+       ]
+      },
+      {
+       "title": "Subtract the tax credit to get net annual tax",
+       "lines": [
+        {
+         "tex": "\\text{Net tax} &= 7520 - 4000"
+        },
+        {
+         "tex": "&= 3520"
+        }
+       ]
+      },
+      {
+       "title": "Find net annual pay",
+       "lines": [
+        {
+         "tex": "\\text{Net pay} &= 37\\,600 - 3520"
+        },
+        {
+         "tex": "&= 34\\,080"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Net tax} = 3520, \\quad \\text{Net pay} = 34\\,080"
+    }
+   },
+   {
+    "label": "(c)(ii)",
+    "marks": 10,
+    "topics": [
+     "maths13"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the tax at the lower rate",
+       "lines": [
+        {
+         "text": "Shea pays $20\\%$ on the first $44\\,000$ and $40\\%$ on the balance."
+        },
+        {
+         "tex": "44\\,000 \\times 0.2 &= 8800"
+        }
+       ]
+      },
+      {
+       "title": "Find the tax at the higher rate",
+       "lines": [
+        {
+         "tex": "\\text{Balance} &= 63\\,400 - 44\\,000"
+        },
+        {
+         "tex": "&= 19\\,400"
+        },
+        {
+         "tex": "\\text{Higher rate tax} &= 19\\,400 \\times 0.4"
+        },
+        {
+         "tex": "&= 7760"
+        }
+       ]
+      },
+      {
+       "title": "Add to get the gross tax",
+       "lines": [
+        {
+         "tex": "\\text{Gross tax} &= 8800 + 7760"
+        },
+        {
+         "tex": "&= 16\\,560"
+        }
+       ]
+      },
+      {
+       "title": "Subtract the tax credit",
+       "lines": [
+        {
+         "tex": "\\text{Net tax} &= 16\\,560 - 4000"
+        },
+        {
+         "tex": "&= 12\\,560"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "12\\,560"
+    }
+   },
+   {
+    "label": "(c)(iii)",
+    "marks": 5,
+    "topics": [
+     "maths13"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Add the tax credit back to find the gross tax",
+       "lines": [
+        {
+         "tex": "\\text{Gross tax} &= 17\\,000 + 4000"
+        },
+        {
+         "tex": "&= 21\\,000"
+        }
+       ]
+      },
+      {
+       "title": "Find the tax paid at the lower rate",
+       "lines": [
+        {
+         "tex": "44\\,000 \\times 0.2 &= 8800"
+        }
+       ]
+      },
+      {
+       "title": "Find the tax paid at the higher rate",
+       "lines": [
+        {
+         "tex": "21\\,000 - 8800 &= 12\\,200"
+        }
+       ]
+      },
+      {
+       "title": "Find the income taxed at 40%",
+       "lines": [
+        {
+         "text": "$12\\,200$ is $40\\%$ of this income, so divide by $40$ and multiply by $100$."
+        },
+        {
+         "tex": "\\frac{12\\,200}{40} \\times 100 &= 30\\,500"
+        }
+       ]
+      },
+      {
+       "title": "Add the first 44 000",
+       "lines": [
+        {
+         "tex": "\\text{Gross income} &= 44\\,000 + 30\\,500"
+        },
+        {
+         "tex": "&= 74\\,500"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "74\\,500"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p1-q8",
+  "subject": "maths",
+  "chapterId": "maths14",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Ordinary 2026 — Paper 1 — Q8",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P1",
+  "questionNumber": 8,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/ordinary-p1-q8-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q8-2.webp",
+   "exam-images/maths/2026/ordinary-p1-q8-3.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i), (ii)",
+    "marks": 10,
+    "topics": [
+     "maths14"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute x = 0",
+       "lines": [
+        {
+         "tex": "S(0) &= -(0)^3 + 9.6(0)^2 + 25"
+        },
+        {
+         "tex": "&= 25"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = 2",
+       "lines": [
+        {
+         "tex": "S(2) &= -(2)^3 + 9.6(2)^2 + 25"
+        },
+        {
+         "tex": "&= -8 + 9.6(4) + 25"
+        },
+        {
+         "tex": "&= -8 + 38.4 + 25"
+        },
+        {
+         "tex": "&= 55.4"
+        },
+        {
+         "tex": "&\\approx 55"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = 3",
+       "lines": [
+        {
+         "tex": "S(3) &= -(3)^3 + 9.6(3)^2 + 25"
+        },
+        {
+         "tex": "&= -27 + 9.6(9) + 25"
+        },
+        {
+         "tex": "&= -27 + 86.4 + 25"
+        },
+        {
+         "tex": "&= 84.4"
+        },
+        {
+         "tex": "&\\approx 84"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = 4",
+       "lines": [
+        {
+         "tex": "S(4) &= -(4)^3 + 9.6(4)^2 + 25"
+        },
+        {
+         "tex": "&= -64 + 9.6(16) + 25"
+        },
+        {
+         "tex": "&= -64 + 153.6 + 25"
+        },
+        {
+         "tex": "&= 114.6"
+        },
+        {
+         "tex": "&\\approx 115"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = 6",
+       "lines": [
+        {
+         "tex": "S(6) &= -(6)^3 + 9.6(6)^2 + 25"
+        },
+        {
+         "tex": "&= -216 + 9.6(36) + 25"
+        },
+        {
+         "tex": "&= -216 + 345.6 + 25"
+        },
+        {
+         "tex": "&= 154.6"
+        },
+        {
+         "tex": "&\\approx 155"
+        }
+       ]
+      },
+      {
+       "title": "Plot the eight points",
+       "lines": [
+        {
+         "text": "Plot $(0, 25)$, $(1, 34)$, $(2, 55)$, $(3, 84)$, $(4, 115)$, $(5, 140)$, $(6, 155)$ and $(7, 152)$ using the table values."
+        }
+       ]
+      },
+      {
+       "title": "Join the points with a smooth curve",
+       "lines": [
+        {
+         "text": "Draw one smooth curve through the points from $x = 0$ to $x = 7$. It rises steeply, then levels off near $x = 6$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "S(0)=25,\\; S(2)=55,\\; S(3)=84,\\; S(4)=115,\\; S(6)=155",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><line x1=\"95\" y1=\"260\" x2=\"95\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"140\" y1=\"260\" x2=\"140\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"185\" y1=\"260\" x2=\"185\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"230\" y1=\"260\" x2=\"230\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"275\" y1=\"260\" x2=\"275\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"320\" y1=\"260\" x2=\"320\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"365\" y1=\"260\" x2=\"365\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"232\" x2=\"365\" y2=\"232\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"204\" x2=\"365\" y2=\"204\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"176\" x2=\"365\" y2=\"176\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"148\" x2=\"365\" y2=\"148\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"120\" x2=\"365\" y2=\"120\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"92\" x2=\"365\" y2=\"92\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"64\" x2=\"365\" y2=\"64\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"36\" x2=\"365\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"260\" x2=\"50\" y2=\"26\" stroke=\"currentColor\"/><polygon points=\"50,22 46.5,29 53.5,29\" fill=\"currentColor\"/><line x1=\"50\" y1=\"260\" x2=\"372\" y2=\"260\" stroke=\"currentColor\"/><polygon points=\"378,260 371,256.5 371,263.5\" fill=\"currentColor\"/><text x=\"44\" y=\"236\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">20</text><text x=\"44\" y=\"208\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">40</text><text x=\"44\" y=\"180\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">60</text><text x=\"44\" y=\"152\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">80</text><text x=\"44\" y=\"124\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">100</text><text x=\"44\" y=\"96\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">120</text><text x=\"44\" y=\"68\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">140</text><text x=\"44\" y=\"40\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">160</text><text x=\"50\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">0</text><text x=\"95\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">1</text><text x=\"140\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">2</text><text x=\"185\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">3</text><text x=\"230\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">4</text><text x=\"275\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">5</text><text x=\"320\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">6</text><text x=\"365\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">7</text><text x=\"384\" y=\"264\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">x</text><text x=\"58\" y=\"20\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">S(x)</text><polyline points=\"50,225 54.5,224.9 59,224.5 63.5,223.8 68,222.9 72.5,221.8 77,220.5 81.5,218.9 86,217.1 90.5,215.1 95,213 99.5,210.6 104,208.1 108.5,205.4 113,202.5 117.5,199.5 122,196.3 126.5,193 131,189.6 135.5,186.1 140,182.4 144.5,178.7 149,174.9 153.5,170.9 158,166.9 162.5,162.9 167,158.8 171.5,154.6 176,150.4 180.5,146.1 185,141.8 189.5,137.5 194,133.2 198.5,129 203,124.7 207.5,120.4 212,116.1 216.5,111.9 221,107.7 225.5,103.6 230,99.6 234.5,95.6 239,91.6 243.5,87.8 248,84.1 252.5,80.4 257,76.9 261.5,73.5 266,70.2 270.5,67 275,64 279.5,61.1 284,58.4 288.5,55.9 293,53.5 297.5,51.4 302,49.4 306.5,47.6 311,46 315.5,44.7 320,43.6 324.5,42.7 329,42 333.5,41.6 338,41.5 342.5,41.6 347,42 351.5,42.7 356,43.7 360.5,45 365,46.6\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"225\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"95\" cy=\"212.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"140\" cy=\"183\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"185\" cy=\"142.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"230\" cy=\"99\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"275\" cy=\"64\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"320\" cy=\"43\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"365\" cy=\"47.2\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"100\" y=\"92\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">y = S(x)</text></svg>"
+    }
+   },
+   {
+    "label": "(a)(iii)",
+    "marks": 5,
+    "topics": [
+     "maths14"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Start at 100 on the vertical axis",
+       "lines": [
+        {
+         "text": "Monthly sales of €100 000 means $S(x) = 100$ (in thousands)."
+        }
+       ]
+      },
+      {
+       "title": "Go across to the curve and down to the x-axis",
+       "lines": [
+        {
+         "text": "Draw a horizontal line from $100$ to the curve, then a vertical line down to the $x$-axis."
+        },
+        {
+         "text": "It meets the $x$-axis at about $3.5$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x \\approx 3.5 \\text{ (about } €3500\\text{)}",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><line x1=\"95\" y1=\"260\" x2=\"95\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"140\" y1=\"260\" x2=\"140\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"185\" y1=\"260\" x2=\"185\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"230\" y1=\"260\" x2=\"230\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"275\" y1=\"260\" x2=\"275\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"320\" y1=\"260\" x2=\"320\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"365\" y1=\"260\" x2=\"365\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"232\" x2=\"365\" y2=\"232\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"204\" x2=\"365\" y2=\"204\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"176\" x2=\"365\" y2=\"176\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"148\" x2=\"365\" y2=\"148\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"120\" x2=\"365\" y2=\"120\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"92\" x2=\"365\" y2=\"92\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"64\" x2=\"365\" y2=\"64\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"36\" x2=\"365\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"260\" x2=\"50\" y2=\"26\" stroke=\"currentColor\"/><polygon points=\"50,22 46.5,29 53.5,29\" fill=\"currentColor\"/><line x1=\"50\" y1=\"260\" x2=\"372\" y2=\"260\" stroke=\"currentColor\"/><polygon points=\"378,260 371,256.5 371,263.5\" fill=\"currentColor\"/><text x=\"44\" y=\"236\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">20</text><text x=\"44\" y=\"208\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">40</text><text x=\"44\" y=\"180\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">60</text><text x=\"44\" y=\"152\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">80</text><text x=\"44\" y=\"124\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">100</text><text x=\"44\" y=\"96\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">120</text><text x=\"44\" y=\"68\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">140</text><text x=\"44\" y=\"40\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">160</text><text x=\"50\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">0</text><text x=\"95\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">1</text><text x=\"140\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">2</text><text x=\"185\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">3</text><text x=\"230\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">4</text><text x=\"275\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">5</text><text x=\"320\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">6</text><text x=\"365\" y=\"276\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">7</text><text x=\"384\" y=\"264\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">x</text><text x=\"58\" y=\"20\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">S(x)</text><polyline points=\"50,225 54.5,224.9 59,224.5 63.5,223.8 68,222.9 72.5,221.8 77,220.5 81.5,218.9 86,217.1 90.5,215.1 95,213 99.5,210.6 104,208.1 108.5,205.4 113,202.5 117.5,199.5 122,196.3 126.5,193 131,189.6 135.5,186.1 140,182.4 144.5,178.7 149,174.9 153.5,170.9 158,166.9 162.5,162.9 167,158.8 171.5,154.6 176,150.4 180.5,146.1 185,141.8 189.5,137.5 194,133.2 198.5,129 203,124.7 207.5,120.4 212,116.1 216.5,111.9 221,107.7 225.5,103.6 230,99.6 234.5,95.6 239,91.6 243.5,87.8 248,84.1 252.5,80.4 257,76.9 261.5,73.5 266,70.2 270.5,67 275,64 279.5,61.1 284,58.4 288.5,55.9 293,53.5 297.5,51.4 302,49.4 306.5,47.6 311,46 315.5,44.7 320,43.6 324.5,42.7 329,42 333.5,41.6 338,41.5 342.5,41.6 347,42 351.5,42.7 356,43.7 360.5,45 365,46.6\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"225\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"95\" cy=\"212.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"140\" cy=\"183\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"185\" cy=\"142.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"230\" cy=\"99\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"275\" cy=\"64\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"320\" cy=\"43\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"365\" cy=\"47.2\" r=\"3.5\" fill=\"#2563eb\"/><line x1=\"50\" y1=\"120\" x2=\"207.5\" y2=\"120\" stroke=\"#2563eb\" stroke-dasharray=\"5 3\"/><line x1=\"207.5\" y1=\"120\" x2=\"207.5\" y2=\"260\" stroke=\"#2563eb\" stroke-dasharray=\"5 3\"/><text x=\"213.5\" y=\"246\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">x = 3.5</text></svg>"
+    }
+   },
+   {
+    "label": "(a)(iv)",
+    "marks": 10,
+    "topics": [
+     "maths11",
+     "maths12"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate S(x)",
+       "lines": [
+        {
+         "tex": "S(x) &= -x^3 + 9.6x^2 + 25"
+        },
+        {
+         "tex": "S'(x) &= -3x^2 + 2(9.6)x"
+        },
+        {
+         "tex": "&= -3x^2 + 19.2x"
+        }
+       ]
+      },
+      {
+       "title": "Set S'(x) equal to zero",
+       "lines": [
+        {
+         "text": "The maximum is at a turning point, where the slope is $0$."
+        },
+        {
+         "tex": "-3x^2 + 19.2x &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Factorise out x",
+       "lines": [
+        {
+         "tex": "x(-3x + 19.2) &= 0"
+        },
+        {
+         "text": "So $x = 0$ or $-3x + 19.2 = 0$. The value $x = 0$ gives the minimum sales of $25$, so use the other factor."
+        }
+       ]
+      },
+      {
+       "title": "Solve -3x + 19.2 = 0",
+       "lines": [
+        {
+         "tex": "-3x + 19.2 &= 0"
+        },
+        {
+         "tex": "3x &= 19.2"
+        },
+        {
+         "tex": "x &= \\frac{19.2}{3}"
+        },
+        {
+         "tex": "x &= 6.4"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 6.4"
+    }
+   },
+   {
+    "label": "(a)(v)",
+    "marks": 10,
+    "topics": [
+     "maths13"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Read the predicted value from the table",
+       "lines": [
+        {
+         "text": "Advertising spend of €5000 is $x = 5$, and the table gives $S(5) = 140$ thousand euro."
+        },
+        {
+         "tex": "S(5) &= 140 \\text{ thousand}"
+        },
+        {
+         "tex": "&= 140\\,000"
+        }
+       ]
+      },
+      {
+       "title": "Find the error",
+       "lines": [
+        {
+         "tex": "\\text{Error} &= 140\\,000 - 125\\,000"
+        },
+        {
+         "tex": "&= 15\\,000"
+        }
+       ]
+      },
+      {
+       "title": "Divide by the actual sales and multiply by 100",
+       "lines": [
+        {
+         "text": "Percentage error is the error divided by the actual value, as a percentage."
+        },
+        {
+         "tex": "\\text{Percentage error} &= \\frac{15\\,000}{125\\,000} \\times 100"
+        },
+        {
+         "tex": "&= 12"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "12\\%"
+    }
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 5,
+    "topics": [
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute r = 15, h = 39, t = 5",
+       "lines": [
+        {
+         "tex": "P &= rh + 2rt"
+        },
+        {
+         "tex": "&= (15)(39) + 2(15)(5)"
+        },
+        {
+         "tex": "&= 585 + 150"
+        },
+        {
+         "tex": "&= 735"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "P = €735"
+    }
+   },
+   {
+    "label": "(b)(ii), (iii)",
+    "marks": 10,
+    "topics": [
+     "maths6",
+     "maths2"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Factorise the right-hand side (part ii)",
+       "lines": [
+        {
+         "tex": "P &= rh + 2rt"
+        },
+        {
+         "tex": "P &= r(h + 2t)"
+        }
+       ]
+      },
+      {
+       "title": "Divide both sides by h + 2t",
+       "lines": [
+        {
+         "tex": "\\frac{P}{h + 2t} &= r"
+        },
+        {
+         "tex": "r &= \\frac{P}{h + 2t}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute P = 892.5, h = 35, t = 8 (part iii)",
+       "lines": [
+        {
+         "tex": "r &= \\frac{892.5}{35 + 2(8)}"
+        },
+        {
+         "tex": "&= \\frac{892.5}{35 + 16}"
+        },
+        {
+         "tex": "&= \\frac{892.5}{51}"
+        },
+        {
+         "tex": "&= 17.5"
+        },
+        {
+         "text": "The new hourly rate is €17.50."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "r = \\frac{P}{h + 2t}, \\quad r = 17.5"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p1-q9",
+  "subject": "maths",
+  "chapterId": "maths7",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Ordinary 2026 — Paper 1 — Q9",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P1",
+  "questionNumber": 9,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/ordinary-p1-q9-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q9-2.webp",
+   "exam-images/maths/2026/ordinary-p1-q9-3.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i), (ii)",
+    "marks": 5,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Add the times for one set (part i)",
+       "lines": [
+        {
+         "text": "One set has 4 runs and 4 rests, each lasting 10 seconds."
+        },
+        {
+         "tex": "8 \\times 10 &= 80 \\text{ seconds}"
+        }
+       ]
+      },
+      {
+       "title": "Add the four run distances (part ii)",
+       "lines": [
+        {
+         "tex": "38 + 41 &= 79"
+        },
+        {
+         "tex": "79 + 44 &= 123"
+        },
+        {
+         "tex": "123 + 41 &= 164"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "80 \\text{ s}, \\quad 164 \\text{ m}"
+    }
+   },
+   {
+    "label": "(a)(iii)",
+    "marks": 10,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Change 7 minutes to seconds",
+       "lines": [
+        {
+         "tex": "7 \\times 60 &= 420 \\text{ seconds}"
+        }
+       ]
+      },
+      {
+       "title": "Find the number of full sets",
+       "lines": [
+        {
+         "text": "One set takes $80$ seconds. Try $5$ sets."
+        },
+        {
+         "tex": "5 \\times 80 &= 400 \\text{ seconds}"
+        },
+        {
+         "tex": "420 - 400 &= 20 \\text{ seconds left}"
+        }
+       ]
+      },
+      {
+       "title": "Find the distance in the last 20 seconds",
+       "lines": [
+        {
+         "text": "Run 1 takes 10 seconds (38 m), then the rest takes 10 seconds, using all 20 seconds. Dean runs $38$ m."
+        }
+       ]
+      },
+      {
+       "title": "Add the distances",
+       "lines": [
+        {
+         "tex": "5 \\times 164 &= 820"
+        },
+        {
+         "tex": "820 + 38 &= 858 \\text{ m}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "858 \\text{ m}"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths13"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the cost per person in sterling",
+       "lines": [
+        {
+         "tex": "80 + 145 &= 225"
+        }
+       ]
+      },
+      {
+       "title": "Find the total cost for 4 people",
+       "lines": [
+        {
+         "tex": "225 \\times 4 &= 900"
+        }
+       ]
+      },
+      {
+       "title": "Divide sterling by euro",
+       "lines": [
+        {
+         "text": "£900 equals €1020, so divide by 1020 to find the sterling for €1."
+        },
+        {
+         "tex": "\\frac{900}{1020} &= 0.8823\\ldots"
+        },
+        {
+         "tex": "&\\approx 0.882"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "€1 = £0.882"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Change the distance to metres",
+       "lines": [
+        {
+         "tex": "5 \\times 1000 &= 5000 \\text{ m}"
+        }
+       ]
+      },
+      {
+       "title": "Change the time to seconds",
+       "lines": [
+        {
+         "tex": "25 \\times 60 &= 1500 \\text{ s}"
+        }
+       ]
+      },
+      {
+       "title": "Use speed = distance ÷ time",
+       "lines": [
+        {
+         "tex": "\\text{Speed} &= \\frac{5000}{1500}"
+        },
+        {
+         "tex": "&= 3.33\\ldots"
+        },
+        {
+         "tex": "&\\approx 3.3"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3.3 \\text{ m/s}"
+    }
+   },
+   {
+    "label": "(d)(i)",
+    "marks": 5,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Compare the speeds",
+       "lines": [
+        {
+         "text": "Kayla runs twice as fast as Olor walks, so in the same time she covers twice the distance."
+        },
+        {
+         "text": "When Kayla reaches B she has run $4.8$ km, so Olor has walked half of that."
+        },
+        {
+         "tex": "\\frac{4.8}{2} &= 2.4"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2.4 \\text{ km}"
+    }
+   },
+   {
+    "label": "(d)(ii)",
+    "marks": 10,
+    "topics": [
+     "maths6",
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the gap when Kayla is at B",
+       "lines": [
+        {
+         "text": "Kayla is at B ($4.8$ km from A) and Olor is $2.4$ km from A."
+        },
+        {
+         "tex": "4.8 - 2.4 &= 2.4"
+        }
+       ]
+      },
+      {
+       "title": "Set up an equation for when they meet",
+       "lines": [
+        {
+         "text": "Now they move towards each other. If Olor walks $x$ km more, Kayla runs $2x$ km in the same time. Together they cover the $2.4$ km gap."
+        },
+        {
+         "tex": "x + 2x &= 2.4"
+        }
+       ]
+      },
+      {
+       "title": "Solve for x",
+       "lines": [
+        {
+         "tex": "3x &= 2.4"
+        },
+        {
+         "tex": "x &= 0.8"
+        }
+       ]
+      },
+      {
+       "title": "Add to the distance Olor had already walked",
+       "lines": [
+        {
+         "tex": "2.4 + 0.8 &= 3.2"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3.2 \\text{ km}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p1-q10",
+  "subject": "maths",
+  "chapterId": "maths9",
+  "sectionId": "maths-paper1",
+  "source": "LC Maths Ordinary 2026 — Paper 1 — Q10",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P1",
+  "questionNumber": 10,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/ordinary-p1-q10-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q10-2.webp",
+   "exam-images/maths/2026/ordinary-p1-q10-3.webp",
+   "exam-images/maths/2026/ordinary-p1-q10-4.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i), (ii)",
+    "marks": 10,
+    "topics": [
+     "maths9",
+     "maths14"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Read the height of the slide (part i)",
+       "lines": [
+        {
+         "text": "Points B and C are both at $y = 2$, so the slide is $2$ m high."
+        }
+       ]
+      },
+      {
+       "title": "Find the length BC (part ii)",
+       "lines": [
+        {
+         "text": "B has $x = -0.4$ and C has $x = 0$."
+        },
+        {
+         "tex": "BC &= 0 - (-0.4)"
+        },
+        {
+         "tex": "&= 0.4 \\text{ m}"
+        }
+       ]
+      },
+      {
+       "title": "Change metres to centimetres",
+       "lines": [
+        {
+         "tex": "0.4 \\times 100 &= 40 \\text{ cm}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2 \\text{ m}, \\quad 40 \\text{ cm}"
+    }
+   },
+   {
+    "label": "(a)(iii)",
+    "marks": 10,
+    "topics": [
+     "maths12"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate l(x)",
+       "lines": [
+        {
+         "tex": "l(x) &= 2.5x + 3"
+        },
+        {
+         "text": "The derivative of $2.5x$ is $2.5$ and the derivative of the constant $3$ is $0$."
+        },
+        {
+         "tex": "l'(x) &= 2.5"
+        }
+       ]
+      },
+      {
+       "title": "Say what it means",
+       "lines": [
+        {
+         "text": "$l'(x)$ is the slope of the ladder: the height rises $2.5$ m for every $1$ m moved horizontally."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "l'(x) = 2.5 \\text{ (the slope of the ladder)}"
+    }
+   },
+   {
+    "label": "(a)(iv), (v)",
+    "marks": 10,
+    "topics": [
+     "maths14"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute x = 0.4",
+       "lines": [
+        {
+         "tex": "d(0.4) &= 2 \\times 0.2^{0.4}"
+        },
+        {
+         "tex": "&\\approx 1.05"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = 0.6",
+       "lines": [
+        {
+         "tex": "d(0.6) &= 2 \\times 0.2^{0.6}"
+        },
+        {
+         "tex": "&\\approx 0.76"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = 1",
+       "lines": [
+        {
+         "tex": "d(1) &= 2 \\times 0.2^{1}"
+        },
+        {
+         "tex": "&= 0.4"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = 1.2",
+       "lines": [
+        {
+         "tex": "d(1.2) &= 2 \\times 0.2^{1.2}"
+        },
+        {
+         "tex": "&\\approx 0.29"
+        }
+       ]
+      },
+      {
+       "title": "Substitute x = 1.4",
+       "lines": [
+        {
+         "tex": "d(1.4) &= 2 \\times 0.2^{1.4}"
+        },
+        {
+         "tex": "&\\approx 0.21"
+        }
+       ]
+      },
+      {
+       "title": "Plot the nine points",
+       "lines": [
+        {
+         "text": "Plot $(0, 2)$, $(0.2, 1.45)$, $(0.4, 1.05)$, $(0.6, 0.76)$, $(0.8, 0.55)$, $(1, 0.4)$, $(1.2, 0.29)$, $(1.4, 0.21)$ and $(1.6, 0.15)$ on the printed axes."
+        }
+       ]
+      },
+      {
+       "title": "Join the points with a smooth curve",
+       "lines": [
+        {
+         "text": "The curve starts at C $(0, 2)$ and falls, getting flatter as $x$ increases."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "d(0.4)=1.05,\\; d(0.6)=0.76,\\; d(1)=0.4,\\; d(1.2)=0.29,\\; d(1.4)=0.21",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><line x1=\"40\" y1=\"270\" x2=\"40\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"64\" y1=\"270\" x2=\"64\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"88\" y1=\"270\" x2=\"88\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"112\" y1=\"270\" x2=\"112\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"136\" y1=\"270\" x2=\"136\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"160\" y1=\"270\" x2=\"160\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"184\" y1=\"270\" x2=\"184\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"208\" y1=\"270\" x2=\"208\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"232\" y1=\"270\" x2=\"232\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"256\" y1=\"270\" x2=\"256\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"280\" y1=\"270\" x2=\"280\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"304\" y1=\"270\" x2=\"304\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"328\" y1=\"270\" x2=\"328\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"352\" y1=\"270\" x2=\"352\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"376\" y1=\"270\" x2=\"376\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"248\" x2=\"376\" y2=\"248\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"226\" x2=\"376\" y2=\"226\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"204\" x2=\"376\" y2=\"204\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"182\" x2=\"376\" y2=\"182\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"160\" x2=\"376\" y2=\"160\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"138\" x2=\"376\" y2=\"138\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"116\" x2=\"376\" y2=\"116\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"94\" x2=\"376\" y2=\"94\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"72\" x2=\"376\" y2=\"72\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"50\" x2=\"376\" y2=\"50\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"184\" y1=\"270\" x2=\"184\" y2=\"34\" stroke=\"currentColor\"/><polygon points=\"184,30 180.5,37 187.5,37\" fill=\"currentColor\"/><line x1=\"40\" y1=\"270\" x2=\"380\" y2=\"270\" stroke=\"currentColor\"/><polygon points=\"386,270 379,266.5 379,273.5\" fill=\"currentColor\"/><text x=\"178\" y=\"252\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">0.2</text><text x=\"178\" y=\"230\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">0.4</text><text x=\"178\" y=\"208\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">0.6</text><text x=\"178\" y=\"186\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">0.8</text><text x=\"178\" y=\"164\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">1</text><text x=\"178\" y=\"142\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">1.2</text><text x=\"178\" y=\"120\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">1.4</text><text x=\"178\" y=\"98\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">1.6</text><text x=\"178\" y=\"76\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">1.8</text><text x=\"40\" y=\"288\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">−1.2</text><text x=\"88\" y=\"288\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">−0.8</text><text x=\"136\" y=\"288\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">−0.4</text><text x=\"184\" y=\"288\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">0</text><text x=\"232\" y=\"288\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">0.4</text><text x=\"280\" y=\"288\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">0.8</text><text x=\"328\" y=\"288\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">1.2</text><text x=\"376\" y=\"288\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">1.6</text><text x=\"392\" y=\"274\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">x</text><text x=\"190\" y=\"24\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">y</text><line x1=\"40\" y1=\"270\" x2=\"136\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"136\" y1=\"50\" x2=\"184\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"270\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"136\" cy=\"50\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"184\" cy=\"50\" r=\"3.5\" fill=\"currentColor\"/><text x=\"26\" y=\"262\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">A</text><text x=\"132\" y=\"42\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">B (−0.4, 2)</text><text x=\"192\" y=\"42\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">C (0, 2)</text><text x=\"96\" y=\"172\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">l(x)</text><polyline points=\"184,50 190,67 196,82.7 202,97.2 208,110.5 214,122.9 220,134.3 226,144.7 232,154.4 238,163.4 244,171.6 250,179.2 256,186.2 262,192.7 268,198.7 274,204.2 280,209.3 286,214 292,218.3 298,222.3 304,226 310,229.4 316,232.5 322,235.4 328,238.1 334,240.6 340,242.9 346,244.9 352,246.9 358,248.7 364,250.3 370,251.8 376,253.2\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"184\" cy=\"50\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"208\" cy=\"110.5\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"232\" cy=\"154.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"256\" cy=\"186.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"280\" cy=\"209.3\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"304\" cy=\"226\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"328\" cy=\"238.1\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"352\" cy=\"246.9\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"376\" cy=\"253.2\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"262\" y=\"128\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">y = d(x)</text></svg>"
+    }
+   },
+   {
+    "label": "(b), (c)",
+    "marks": 10,
+    "topics": [
+     "maths3"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the height inequality (b)(i)",
+       "lines": [
+        {
+         "text": "\"At least 95\" means $95$ or more, so $h$ can equal $95$."
+        },
+        {
+         "tex": "h &\\ge 95"
+        }
+       ]
+      },
+      {
+       "title": "Graph it on the number line (b)(ii)",
+       "lines": [
+        {
+         "text": "Put a closed (filled) dot at $95$ because $95$ is included. Draw a thick line with an arrow to the right."
+        }
+       ]
+      },
+      {
+       "title": "Write the age inequality (c)(i)",
+       "lines": [
+        {
+         "text": "\"At least 4\" gives $A \\ge 4$. \"Younger than 12\" gives $A < 12$."
+        },
+        {
+         "tex": "4 &\\le A < 12"
+        }
+       ]
+      },
+      {
+       "title": "Graph it on the number line (c)(ii)",
+       "lines": [
+        {
+         "text": "Put a closed dot at $4$ and an open circle at $12$ because $12$ is not included. Join them with a thick line."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "h \\ge 95, \\quad 4 \\le A < 12",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 190\"><text x=\"30\" y=\"40\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">h ≥ 95</text><line x1=\"20\" y1=\"70\" x2=\"378\" y2=\"70\" stroke=\"currentColor\"/><polygon points=\"384,70 377,66.5 377,73.5\" fill=\"currentColor\"/><line x1=\"30\" y1=\"66\" x2=\"30\" y2=\"74\" stroke=\"currentColor\"/><text x=\"30\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">90</text><line x1=\"62\" y1=\"66\" x2=\"62\" y2=\"74\" stroke=\"currentColor\"/><text x=\"62\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">91</text><line x1=\"94\" y1=\"66\" x2=\"94\" y2=\"74\" stroke=\"currentColor\"/><text x=\"94\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">92</text><line x1=\"126\" y1=\"66\" x2=\"126\" y2=\"74\" stroke=\"currentColor\"/><text x=\"126\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">93</text><line x1=\"158\" y1=\"66\" x2=\"158\" y2=\"74\" stroke=\"currentColor\"/><text x=\"158\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">94</text><line x1=\"190\" y1=\"66\" x2=\"190\" y2=\"74\" stroke=\"currentColor\"/><text x=\"190\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">95</text><line x1=\"222\" y1=\"66\" x2=\"222\" y2=\"74\" stroke=\"currentColor\"/><text x=\"222\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">96</text><line x1=\"254\" y1=\"66\" x2=\"254\" y2=\"74\" stroke=\"currentColor\"/><text x=\"254\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">97</text><line x1=\"286\" y1=\"66\" x2=\"286\" y2=\"74\" stroke=\"currentColor\"/><text x=\"286\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">98</text><line x1=\"318\" y1=\"66\" x2=\"318\" y2=\"74\" stroke=\"currentColor\"/><text x=\"318\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">99</text><line x1=\"350\" y1=\"66\" x2=\"350\" y2=\"74\" stroke=\"currentColor\"/><text x=\"350\" y=\"92\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">100</text><text x=\"390\" y=\"74\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">h</text><line x1=\"190\" y1=\"70\" x2=\"378\" y2=\"70\" stroke=\"#2563eb\" stroke-width=\"4\"/><polygon points=\"384,70 377,66.5 377,73.5\" fill=\"#2563eb\"/><circle cx=\"190\" cy=\"70\" r=\"5\" fill=\"#2563eb\"/><text x=\"30\" y=\"120\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">4 ≤ A &lt; 12</text><line x1=\"20\" y1=\"150\" x2=\"378\" y2=\"150\" stroke=\"currentColor\"/><polygon points=\"384,150 377,146.5 377,153.5\" fill=\"currentColor\"/><line x1=\"30\" y1=\"146\" x2=\"30\" y2=\"154\" stroke=\"currentColor\"/><text x=\"30\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">3</text><line x1=\"62\" y1=\"146\" x2=\"62\" y2=\"154\" stroke=\"currentColor\"/><text x=\"62\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">4</text><line x1=\"94\" y1=\"146\" x2=\"94\" y2=\"154\" stroke=\"currentColor\"/><text x=\"94\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">5</text><line x1=\"126\" y1=\"146\" x2=\"126\" y2=\"154\" stroke=\"currentColor\"/><text x=\"126\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">6</text><line x1=\"158\" y1=\"146\" x2=\"158\" y2=\"154\" stroke=\"currentColor\"/><text x=\"158\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">7</text><line x1=\"190\" y1=\"146\" x2=\"190\" y2=\"154\" stroke=\"currentColor\"/><text x=\"190\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">8</text><line x1=\"222\" y1=\"146\" x2=\"222\" y2=\"154\" stroke=\"currentColor\"/><text x=\"222\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">9</text><line x1=\"254\" y1=\"146\" x2=\"254\" y2=\"154\" stroke=\"currentColor\"/><text x=\"254\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">10</text><line x1=\"286\" y1=\"146\" x2=\"286\" y2=\"154\" stroke=\"currentColor\"/><text x=\"286\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">11</text><line x1=\"318\" y1=\"146\" x2=\"318\" y2=\"154\" stroke=\"currentColor\"/><text x=\"318\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">12</text><line x1=\"350\" y1=\"146\" x2=\"350\" y2=\"154\" stroke=\"currentColor\"/><text x=\"350\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">13</text><text x=\"390\" y=\"154\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">A</text><line x1=\"62\" y1=\"150\" x2=\"313\" y2=\"150\" stroke=\"#2563eb\" stroke-width=\"4\"/><circle cx=\"62\" cy=\"150\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"318\" cy=\"150\" r=\"5\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/></svg>"
+    }
+   },
+   {
+    "label": "(d)",
+    "marks": 10,
+    "topics": [
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the total work in employee-hours",
+       "lines": [
+        {
+         "tex": "13 \\times 4 &= 52"
+        }
+       ]
+      },
+      {
+       "title": "Find the work done in the first 2 hours",
+       "lines": [
+        {
+         "tex": "4 \\times 2 &= 8"
+        }
+       ]
+      },
+      {
+       "title": "Subtract to find the work left",
+       "lines": [
+        {
+         "tex": "52 - 8 &= 44"
+        }
+       ]
+      },
+      {
+       "title": "Divide by the 3 remaining employees",
+       "lines": [
+        {
+         "tex": "\\frac{44}{3} &= 14\\tfrac{2}{3} \\text{ hours}"
+        }
+       ]
+      },
+      {
+       "title": "Change the fraction of an hour to minutes",
+       "lines": [
+        {
+         "tex": "\\tfrac{2}{3} \\times 60 &= 40 \\text{ minutes}"
+        }
+       ]
+      },
+      {
+       "title": "Write the time in hours and minutes",
+       "lines": [
+        {
+         "tex": "14\\tfrac{2}{3}\\text{ hours} &= 14 \\text{ hours } 40 \\text{ minutes}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "14 \\text{ h } 40 \\text{ min}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p2-q1",
+  "subject": "maths",
+  "chapterId": "maths9",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Ordinary 2026 — Paper 2 — Q1",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P2",
+  "questionNumber": 1,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p2-q1-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q1-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 10,
+    "topics": [
+     "maths9"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute the point (0, 6) into the equation",
+       "lines": [
+        {
+         "text": "If $P=(0,6)$ lies on $l$, then $x=0$ and $y=6$ must satisfy $2x+3y-18=0$."
+        },
+        {
+         "tex": "\\text{LHS} &= 2(0) + 3(6) - 18"
+        },
+        {
+         "tex": "&= 0 + 18 - 18"
+        },
+        {
+         "tex": "&= 0"
+        }
+       ]
+      },
+      {
+       "title": "State the conclusion",
+       "lines": [
+        {
+         "text": "The left side equals the right side (0), so $(0,6)$ is on $l$. It has $x=0$, so it is on the $y$-axis. Therefore $P=(0,6)$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "P = (0, 6)"
+    }
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 5,
+    "topics": [
+     "maths9",
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the area of a right-angled triangle",
+       "lines": [
+        {
+         "text": "The triangle has vertices $(0,0)$, $(9,0)$ and $(0,6)$. The base is 9 along the $x$-axis and the height is 6 along the $y$-axis."
+        },
+        {
+         "tex": "\\text{Area} &= \\tfrac{1}{2} \\times \\text{base} \\times \\text{height}"
+        },
+        {
+         "tex": "&= \\tfrac{1}{2} \\times 9 \\times 6"
+        },
+        {
+         "tex": "&= \\tfrac{1}{2} \\times 54"
+        },
+        {
+         "tex": "&= 27"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "27 \\text{ units}^2"
+    }
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 5,
+    "topics": [
+     "maths9"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Rearrange into the form y = mx + c",
+       "lines": [
+        {
+         "tex": "2x + 3y - 18 &= 0"
+        },
+        {
+         "tex": "3y &= -2x + 18"
+        },
+        {
+         "tex": "y &= -\\tfrac{2}{3}x + 6"
+        }
+       ]
+      },
+      {
+       "title": "Read off the slope",
+       "lines": [
+        {
+         "text": "The slope is the coefficient of $x$."
+        },
+        {
+         "tex": "m &= -\\tfrac{2}{3}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "m = -\\tfrac{2}{3}"
+    }
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 10,
+    "topics": [
+     "maths9"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of k",
+       "lines": [
+        {
+         "text": "Perpendicular lines have slopes whose product is $-1$, so $m_k = -1 \\div m_l$."
+        },
+        {
+         "tex": "m_k &= -1 \\div \\left(-\\tfrac{2}{3}\\right)"
+        },
+        {
+         "tex": "&= \\tfrac{3}{2}"
+        }
+       ]
+      },
+      {
+       "title": "Write the slope of AB using the slope formula",
+       "lines": [
+        {
+         "text": "$A(4,-2)$ and $B(r,7)$ give a slope of $\\dfrac{y_2-y_1}{x_2-x_1}$, which must equal $\\tfrac{3}{2}$."
+        },
+        {
+         "tex": "\\frac{7-(-2)}{r-4} &= \\frac{3}{2}"
+        },
+        {
+         "tex": "\\frac{9}{r-4} &= \\frac{3}{2}"
+        }
+       ]
+      },
+      {
+       "title": "Cross-multiply",
+       "lines": [
+        {
+         "tex": "9 \\times 2 &= 3(r-4)"
+        },
+        {
+         "tex": "18 &= 3r - 12"
+        }
+       ]
+      },
+      {
+       "title": "Solve for r",
+       "lines": [
+        {
+         "tex": "30 &= 3r"
+        },
+        {
+         "tex": "r &= 10"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "r = 10"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p2-q2",
+  "subject": "maths",
+  "chapterId": "maths20",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Ordinary 2026 — Paper 2 — Q2",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P2",
+  "questionNumber": 2,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p2-q2-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q2-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 10,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Work out how many pairings there are",
+       "lines": [
+        {
+         "text": "Each of the 4 schools in Group 1 can meet each of the 4 schools in Group 2."
+        },
+        {
+         "tex": "4 \\times 4 &= 16"
+        }
+       ]
+      },
+      {
+       "title": "Fill in the table row by row",
+       "lines": [
+        {
+         "text": "Row A: AW, AX, AY, AZ. Row B: BW, BX, BY, BZ. Row C: CW, CX, CY, CZ. Row D: DW, DX, DY, DZ."
+        },
+        {
+         "text": "Write the missing 11 pairings in blue; the 5 printed ones stay as they are."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{All 16 pairings, every Group 1 school with every Group 2 school}",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" font-family=\"sans-serif\" font-size=\"14\"><rect x=\"64\" y=\"8\" width=\"280\" height=\"26\" fill=\"none\" stroke=\"currentColor\"/><text x=\"204\" y=\"26\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">Group 2</text><rect x=\"64\" y=\"34\" width=\"70\" height=\"26\" fill=\"none\" stroke=\"currentColor\"/><text x=\"99.0\" y=\"52\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">W</text><rect x=\"134\" y=\"34\" width=\"70\" height=\"26\" fill=\"none\" stroke=\"currentColor\"/><text x=\"169.0\" y=\"52\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">X</text><rect x=\"204\" y=\"34\" width=\"70\" height=\"26\" fill=\"none\" stroke=\"currentColor\"/><text x=\"239.0\" y=\"52\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">Y</text><rect x=\"274\" y=\"34\" width=\"70\" height=\"26\" fill=\"none\" stroke=\"currentColor\"/><text x=\"309.0\" y=\"52\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">Z</text><rect x=\"8\" y=\"60\" width=\"26\" height=\"176\" fill=\"none\" stroke=\"currentColor\"/><rect x=\"34\" y=\"60\" width=\"30\" height=\"176\" fill=\"none\" stroke=\"currentColor\"/><text x=\"21\" y=\"148\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\" transform=\"rotate(-90 21 148)\" dy=\"5\">Group 1</text><rect x=\"34\" y=\"60\" width=\"30\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"49\" y=\"87.0\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">A</text><rect x=\"64\" y=\"60\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"99.0\" y=\"87.0\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">AW</text><rect x=\"134\" y=\"60\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"169.0\" y=\"87.0\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">AX</text><rect x=\"204\" y=\"60\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"239.0\" y=\"87.0\" text-anchor=\"middle\" fill=\"#2563eb\">AY</text><rect x=\"274\" y=\"60\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"309.0\" y=\"87.0\" text-anchor=\"middle\" fill=\"#2563eb\">AZ</text><rect x=\"34\" y=\"104\" width=\"30\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"49\" y=\"131.0\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">B</text><rect x=\"64\" y=\"104\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"99.0\" y=\"131.0\" text-anchor=\"middle\" fill=\"#2563eb\">BW</text><rect x=\"134\" y=\"104\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"169.0\" y=\"131.0\" text-anchor=\"middle\" fill=\"#2563eb\">BX</text><rect x=\"204\" y=\"104\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"239.0\" y=\"131.0\" text-anchor=\"middle\" fill=\"#2563eb\">BY</text><rect x=\"274\" y=\"104\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"309.0\" y=\"131.0\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">BZ</text><rect x=\"34\" y=\"148\" width=\"30\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"49\" y=\"175.0\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">C</text><rect x=\"64\" y=\"148\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"99.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#2563eb\">CW</text><rect x=\"134\" y=\"148\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"169.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#2563eb\">CX</text><rect x=\"204\" y=\"148\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"239.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#2563eb\">CY</text><rect x=\"274\" y=\"148\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"309.0\" y=\"175.0\" text-anchor=\"middle\" fill=\"#2563eb\">CZ</text><rect x=\"34\" y=\"192\" width=\"30\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"49\" y=\"219.0\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">D</text><rect x=\"64\" y=\"192\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"99.0\" y=\"219.0\" text-anchor=\"middle\" fill=\"#2563eb\">DW</text><rect x=\"134\" y=\"192\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"169.0\" y=\"219.0\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">DX</text><rect x=\"204\" y=\"192\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"239.0\" y=\"219.0\" text-anchor=\"middle\" fill=\"#2563eb\">DY</text><rect x=\"274\" y=\"192\" width=\"70\" height=\"44\" fill=\"none\" stroke=\"currentColor\"/><text x=\"309.0\" y=\"219.0\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">DZ</text></svg>"
+    }
+   },
+   {
+    "label": "(a)(ii), (iii)",
+    "marks": 5,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "(ii) Probability that School B plays in the final",
+       "lines": [
+        {
+         "text": "Row B of the table has 4 pairings (BW, BX, BY, BZ) out of 16."
+        },
+        {
+         "tex": "P(B) &= \\frac{4}{16}"
+        },
+        {
+         "tex": "&= \\frac{1}{4}"
+        }
+       ]
+      },
+      {
+       "title": "(iii) Count the pairings now that D has withdrawn",
+       "lines": [
+        {
+         "text": "Group 1 is now A, B, C, so the table has $3 \\times 4 = 12$ equally likely pairings."
+        },
+        {
+         "text": "B but not Z: BW, BX, BY, which is 3 pairings."
+        },
+        {
+         "text": "Z but not B: AZ, CZ, which is 2 pairings."
+        }
+       ]
+      },
+      {
+       "title": "(iii) Add the pairings and divide by 12",
+       "lines": [
+        {
+         "tex": "P(\\text{B or Z, not both}) &= \\frac{3 + 2}{12}"
+        },
+        {
+         "tex": "&= \\frac{5}{12}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{(ii) } \\tfrac{1}{4} \\qquad \\text{(iii) } \\tfrac{5}{12}"
+    }
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 5,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the fact that the probabilities add up to 1",
+       "lines": [
+        {
+         "text": "There are no draws, so Peter wins every game that Erika does not win."
+        },
+        {
+         "tex": "P(\\text{Peter wins}) &= 1 - 0.6"
+        },
+        {
+         "tex": "&= 0.4"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "0.4"
+    }
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 10,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "List the ways Erika wins the match",
+       "lines": [
+        {
+         "text": "She needs two wins before Peter does. Write E for an Erika win and P for a Peter win."
+        },
+        {
+         "text": "The three ways are EE, EPE and PEE."
+        }
+       ]
+      },
+      {
+       "title": "Probability of EE",
+       "lines": [
+        {
+         "tex": "P(EE) &= 0.6 \\times 0.6"
+        },
+        {
+         "tex": "&= 0.36"
+        }
+       ]
+      },
+      {
+       "title": "Probability of EPE",
+       "lines": [
+        {
+         "tex": "P(EPE) &= 0.6 \\times 0.4 \\times 0.6"
+        },
+        {
+         "tex": "&= 0.144"
+        }
+       ]
+      },
+      {
+       "title": "Probability of PEE",
+       "lines": [
+        {
+         "tex": "P(PEE) &= 0.4 \\times 0.6 \\times 0.6"
+        },
+        {
+         "tex": "&= 0.144"
+        }
+       ]
+      },
+      {
+       "title": "Add the three probabilities",
+       "lines": [
+        {
+         "tex": "P(\\text{Erika wins}) &= 0.36 + 0.144 + 0.144"
+        },
+        {
+         "tex": "&= 0.648"
+        },
+        {
+         "tex": "&= \\frac{81}{125}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "0.648 = \\tfrac{81}{125}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p2-q3",
+  "subject": "maths",
+  "chapterId": "maths20",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Ordinary 2026 — Paper 2 — Q3",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P2",
+  "questionNumber": 3,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p2-q3-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q3-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i), (ii)",
+    "marks": 15,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "(i) Count the activities in each category",
+       "lines": [
+        {
+         "text": "Category 1 has 5 activities, Category 2 has 6 and Category 3 has 4."
+        }
+       ]
+      },
+      {
+       "title": "(i) Multiply the numbers of choices",
+       "lines": [
+        {
+         "text": "Tara picks one from each category, so multiply the numbers."
+        },
+        {
+         "tex": "\\text{Choices} &= 5 \\times 6 \\times 4"
+        },
+        {
+         "tex": "&= 30 \\times 4"
+        },
+        {
+         "tex": "&= 120"
+        }
+       ]
+      },
+      {
+       "title": "(ii) Remove one from Category 1",
+       "lines": [
+        {
+         "tex": "4 \\times 6 \\times 4 &= 24 \\times 4"
+        },
+        {
+         "tex": "&= 96"
+        }
+       ]
+      },
+      {
+       "title": "(ii) Remove one from Category 2",
+       "lines": [
+        {
+         "tex": "5 \\times 5 \\times 4 &= 25 \\times 4"
+        },
+        {
+         "tex": "&= 100"
+        }
+       ]
+      },
+      {
+       "title": "(ii) Remove one from Category 3",
+       "lines": [
+        {
+         "tex": "5 \\times 6 \\times 3 &= 30 \\times 3"
+        },
+        {
+         "tex": "&= 90"
+        }
+       ]
+      },
+      {
+       "title": "(ii) Compare the three totals",
+       "lines": [
+        {
+         "text": "Category 2 leaves the most choices (100, against 96 and 90), so tick Category 2."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{(i) } 120 \\qquad \\text{(ii) Category 2}"
+    }
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 5,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Arrange 7 exams in order",
+       "lines": [
+        {
+         "text": "The first exam can be any of 7, the next any of the remaining 6, and so on. This is $7!$."
+        },
+        {
+         "tex": "7! &= 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1"
+        },
+        {
+         "tex": "&= 42 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1"
+        },
+        {
+         "tex": "&= 210 \\times 4 \\times 3 \\times 2 \\times 1"
+        },
+        {
+         "tex": "&= 840 \\times 3 \\times 2 \\times 1"
+        },
+        {
+         "tex": "&= 2520 \\times 2 \\times 1"
+        },
+        {
+         "tex": "&= 5040"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "5040"
+    }
+   },
+   {
+    "label": "(b)(ii), (iii)",
+    "marks": 10,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "(ii) Arrange 3 exams chosen from 7",
+       "lines": [
+        {
+         "text": "Order matters, so use ${}^7P_3$: 7 choices, then 6, then 5."
+        },
+        {
+         "tex": "{}^7P_3 &= 7 \\times 6 \\times 5"
+        },
+        {
+         "tex": "&= 42 \\times 5"
+        },
+        {
+         "tex": "&= 210"
+        }
+       ]
+      },
+      {
+       "title": "(iii) Maths is fixed first, so arrange 2 of the other 6",
+       "lines": [
+        {
+         "text": "Two Monday slots are left, filled from the other 6 exams: 6 choices, then 5."
+        },
+        {
+         "tex": "{}^6P_2 &= 6 \\times 5"
+        },
+        {
+         "tex": "&= 30"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{(ii) } 210 \\qquad \\text{(iii) } 30"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p2-q4",
+  "subject": "maths",
+  "chapterId": "maths15",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Ordinary 2026 — Paper 2 — Q4",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P2",
+  "questionNumber": 4,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p2-q4-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q4-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 10,
+    "topics": [
+     "maths15",
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find angle A using angles in a triangle",
+       "lines": [
+        {
+         "text": "The triangle is isosceles, so the two base angles are equal. The angles of a triangle add to $180^\\circ$."
+        },
+        {
+         "tex": "A + A + 44 &= 180"
+        },
+        {
+         "tex": "2A &= 180 - 44"
+        },
+        {
+         "tex": "2A &= 136"
+        },
+        {
+         "tex": "A &= 68"
+        }
+       ]
+      },
+      {
+       "title": "Find angle B using the exterior angle",
+       "lines": [
+        {
+         "text": "$B$ is an exterior angle, so it equals the sum of the two opposite interior angles ($44^\\circ$ and $A$)."
+        },
+        {
+         "tex": "B &= 44 + 68"
+        },
+        {
+         "tex": "&= 112"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle A| = 68^\\circ, \\quad |\\angle B| = 112^\\circ"
+    }
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 5,
+    "topics": [
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the area formula with two sides and the angle between them",
+       "lines": [
+        {
+         "text": "The two sides of 12 cm meet at the $44^\\circ$ angle. Set your calculator to degrees."
+        },
+        {
+         "tex": "\\text{Area} &= \\tfrac{1}{2}ab\\sin C"
+        },
+        {
+         "tex": "&= \\tfrac{1}{2}(12)(12)\\sin 44^\\circ"
+        },
+        {
+         "tex": "&= 72 \\sin 44^\\circ"
+        },
+        {
+         "tex": "&= 50.0154\\ldots"
+        },
+        {
+         "tex": "&\\approx 50"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "50 \\text{ cm}^2"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 15,
+    "topics": [
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Draw and label the triangle",
+       "lines": [
+        {
+         "text": "Draw triangle $PQR$ with $|PQ|=9$, $|PR|=12$ and $|QR|=10$. Let $\\theta = \\angle QPR$."
+        },
+        {
+         "text": "$\\theta$ is the angle at $P$, between sides $PQ$ and $PR$, and it is opposite side $QR$ (10 cm)."
+        }
+       ]
+      },
+      {
+       "title": "Write the cosine rule for the side opposite θ",
+       "lines": [
+        {
+         "text": "The rule is $a^2 = b^2 + c^2 - 2bc\\cos A$, with $a=|QR|$ and the other two sides $b$, $c$."
+        },
+        {
+         "tex": "10^2 &= 9^2 + 12^2 - 2(9)(12)\\cos\\theta"
+        }
+       ]
+      },
+      {
+       "title": "Work out the squares and the product",
+       "lines": [
+        {
+         "tex": "100 &= 81 + 144 - 2(9)(12)\\cos\\theta"
+        },
+        {
+         "tex": "100 &= 81 + 144 - 216\\cos\\theta"
+        },
+        {
+         "tex": "100 &= 225 - 216\\cos\\theta"
+        }
+       ]
+      },
+      {
+       "title": "Make cos θ the subject",
+       "lines": [
+        {
+         "tex": "216\\cos\\theta &= 225 - 100"
+        },
+        {
+         "tex": "216\\cos\\theta &= 125"
+        },
+        {
+         "tex": "\\cos\\theta &= \\frac{125}{216}"
+        }
+       ]
+      },
+      {
+       "title": "Use the inverse cosine to find θ",
+       "lines": [
+        {
+         "tex": "\\theta &= \\cos^{-1}\\left(\\frac{125}{216}\\right)"
+        },
+        {
+         "tex": "&= 54.6\\ldots^\\circ"
+        },
+        {
+         "tex": "&\\approx 55^\\circ"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle QPR| \\approx 55^\\circ"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p2-q5",
+  "subject": "maths",
+  "chapterId": "maths22",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Ordinary 2026 — Paper 2 — Q5",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P2",
+  "questionNumber": 5,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p2-q5-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q5-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 15,
+    "topics": [
+     "maths22"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the mode",
+       "lines": [
+        {
+         "text": "The mode is the value that appears most often. In 8, 11, 15, 17, 20, 20, 23 the number 20 appears twice and every other number once."
+        },
+        {
+         "tex": "\\text{Mode} &= 20"
+        }
+       ]
+      },
+      {
+       "title": "Find the range",
+       "lines": [
+        {
+         "text": "Range is the largest value minus the smallest value."
+        },
+        {
+         "tex": "\\text{Range} &= 23 - 8"
+        },
+        {
+         "tex": "&= 15"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Mode} = 20, \\quad \\text{Range} = 15"
+    }
+   },
+   {
+    "label": "(a)(ii), (iii)",
+    "marks": 10,
+    "topics": [
+     "maths22"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "(ii) Find the median of the 7 numbers",
+       "lines": [
+        {
+         "text": "The numbers are already in order. The median is the middle (4th) value of 7."
+        },
+        {
+         "tex": "\\text{Median} &= 17"
+        }
+       ]
+      },
+      {
+       "title": "(iii) Decide what happens with 8 numbers",
+       "lines": [
+        {
+         "text": "With 8 numbers the median is the mean of the 4th and 5th values. For a median of 16, those two values must add to 32."
+        }
+       ]
+      },
+      {
+       "title": "(iii) Try Seán guessing 15",
+       "lines": [
+        {
+         "text": "The ordered list is 8, 11, 15, 15, 17, 20, 20, 23. The 4th value is 15 and the 5th is 17."
+        },
+        {
+         "tex": "\\text{Median} &= \\frac{15 + 17}{2}"
+        },
+        {
+         "tex": "&= \\frac{32}{2}"
+        },
+        {
+         "tex": "&= 16"
+        }
+       ]
+      },
+      {
+       "title": "(iii) Check other guesses",
+       "lines": [
+        {
+         "text": "If the guess $g$ is between 15 and 17, the 4th and 5th values are $g$ and 17, so the median is $\\frac{g + 17}{2}$, which is more than 16. For example, a guess of 16 gives $\\frac{16 + 17}{2} = 16.5$, which is too big."
+        },
+        {
+         "text": "If the guess is 17 or more, the 4th value is 17, so the median is at least 17."
+        },
+        {
+         "text": "So the guess must be 15 or less. Tick \"Less than or equal to 15\"."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{(ii) } 17 \\qquad \\text{(iii) Seán's guess} \\le 15"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 5,
+    "topics": [
+     "maths20"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find each probability from its angle",
+       "lines": [
+        {
+         "text": "A full turn is $360^\\circ$. The lower half is $180^\\circ$ and the 60° and 120° sectors fill the upper half."
+        },
+        {
+         "tex": "P(\\text{win } X) &= \\frac{60}{360}"
+        },
+        {
+         "tex": "&= \\frac{1}{6}"
+        },
+        {
+         "tex": "P(\\text{win } 19) &= \\frac{120}{360}"
+        },
+        {
+         "tex": "&= \\frac{1}{3}"
+        },
+        {
+         "tex": "P(\\text{lose } 20) &= \\frac{180}{360}"
+        },
+        {
+         "tex": "&= \\frac{1}{2}"
+        }
+       ]
+      },
+      {
+       "title": "Set the expected value equal to 0",
+       "lines": [
+        {
+         "text": "Expected value is the sum of each points value times its probability. Losing 20 points counts as $-20$."
+        },
+        {
+         "tex": "19 \\times \\tfrac{1}{3} + (-20) \\times \\tfrac{1}{2} + X \\times \\tfrac{1}{6} &= 0"
+        },
+        {
+         "tex": "\\tfrac{19}{3} - 10 + \\tfrac{X}{6} &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Multiply every term by 6 and solve",
+       "lines": [
+        {
+         "tex": "38 - 60 + X &= 0"
+        },
+        {
+         "tex": "X - 22 &= 0"
+        },
+        {
+         "tex": "X &= 22"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "X = 22"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p2-q6",
+  "subject": "maths",
+  "chapterId": "maths15",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Ordinary 2026 — Paper 2 — Q6",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P2",
+  "questionNumber": 6,
+  "totalMarks": 30,
+  "images": [
+   "exam-images/maths/2026/ordinary-p2-q6-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q6-2.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 10,
+    "topics": [
+     "maths15"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Measure the two lengths with a ruler",
+       "lines": [
+        {
+         "text": "Place the ruler along [AB] and read off the length in cm."
+        },
+        {
+         "tex": "|AB| &= 4 \\text{ cm}"
+        },
+        {
+         "text": "Place the ruler along [EF] and read off the length in cm."
+        },
+        {
+         "tex": "|EF| &= 10 \\text{ cm}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|AB| = 4 \\text{ cm}, \\quad |EF| = 10 \\text{ cm}"
+    }
+   },
+   {
+    "label": "(a)(ii), (iii)",
+    "marks": 10,
+    "topics": [
+     "maths15",
+     "maths16"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the scale factor as a ratio of lengths",
+       "lines": [
+        {
+         "text": "Scale factor is the enlarged length divided by the original length."
+        },
+        {
+         "tex": "\\text{scale factor} &= \\frac{|EF|}{|AB|}"
+        },
+        {
+         "tex": "&= \\frac{10}{4}"
+        }
+       ]
+      },
+      {
+       "title": "Divide to get the scale factor",
+       "lines": [
+        {
+         "tex": "&= 2.5"
+        }
+       ]
+      },
+      {
+       "title": "Draw the first line through H and D",
+       "lines": [
+        {
+         "text": "The centre of enlargement lies on the line joining a point to its image."
+        },
+        {
+         "text": "$H$ is the image of $D$, so draw a line from $H$ through $D$ and extend it down to $[EF]$."
+        }
+       ]
+      },
+      {
+       "title": "Mark the centre of enlargement K",
+       "lines": [
+        {
+         "text": "The line from $H$ through $D$ meets $[EF]$ at $K$. This is the centre of enlargement."
+        },
+        {
+         "text": "Check: $|KE| = 2.5 \\times |KA|$, so $K$ is where the lengths from $K$ are in the ratio $2.5 : 1$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{scale factor} = 2.5",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 210\"><rect x=\"20\" y=\"15\" width=\"340\" height=\"170\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"147.5\" y=\"117\" width=\"136\" height=\"68\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"15\" x2=\"232.5\" y2=\"185\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"232.5\" cy=\"185\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"6\" y=\"12\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">H</text><text x=\"364\" y=\"12\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">G</text><text x=\"6\" y=\"200\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">E</text><text x=\"364\" y=\"200\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">F</text><text x=\"151\" y=\"111\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">D</text><text x=\"286\" y=\"112\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">C</text><text x=\"142\" y=\"200\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">A</text><text x=\"280\" y=\"200\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">B</text><text x=\"226\" y=\"200\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#2563eb\">K</text></svg>"
+    }
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 5,
+    "topics": [
+     "maths15"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the fact that both points are on circle u",
+       "lines": [
+        {
+         "text": "$P$ and $Q$ are on the circle $u$, and $O$ is its centre."
+        },
+        {
+         "text": "So $[OP]$ and $[OQ]$ are both radii of $u$, and all radii of a circle are equal."
+        },
+        {
+         "tex": "|OP| &= |OQ|"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|OP| = |OQ| \\text{ (both are radii of } u\\text{)}"
+    }
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 5,
+    "topics": [
+     "maths15"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find an angle the triangles share",
+       "lines": [
+        {
+         "text": "$S$ is on $[OP]$ and $R$ is on $[OQ]$, so the angle at $O$ is the same in both triangles."
+        },
+        {
+         "tex": "|\\angle QOP| &= |\\angle ROS| = 120^\\circ"
+        },
+        {
+         "text": "Reason: common angle."
+        }
+       ]
+      },
+      {
+       "title": "Show both triangles are isosceles",
+       "lines": [
+        {
+         "text": "$|OP| = |OQ|$ (radii of $u$), so $\\triangle OPQ$ is isosceles."
+        },
+        {
+         "text": "$|OS| = |OR|$ (radii of $t$), so $\\triangle OSR$ is isosceles."
+        }
+       ]
+      },
+      {
+       "title": "Find the base angles of each triangle",
+       "lines": [
+        {
+         "text": "Angles in a triangle add to $180^\\circ$, and the two base angles of an isosceles triangle are equal."
+        },
+        {
+         "tex": "|\\angle OPQ| &= \\frac{180^\\circ - 120^\\circ}{2}"
+        },
+        {
+         "tex": "&= 30^\\circ"
+        },
+        {
+         "tex": "|\\angle OSR| &= \\frac{180^\\circ - 120^\\circ}{2}"
+        },
+        {
+         "tex": "&= 30^\\circ"
+        }
+       ]
+      },
+      {
+       "title": "State that the triangles are similar",
+       "lines": [
+        {
+         "text": "Two angles are equal in both triangles: $120^\\circ$ and $30^\\circ$ (the third is also $30^\\circ$), so the triangles are equiangular."
+        },
+        {
+         "tex": "\\therefore \\quad \\triangle OPQ &\\text{ and } \\triangle OSR \\text{ are similar}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\triangle OPQ \\text{ and } \\triangle OSR \\text{ are similar}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p2-q7",
+  "subject": "maths",
+  "chapterId": "maths8",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Ordinary 2026 — Paper 2 — Q7",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P2",
+  "questionNumber": 7,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/ordinary-p2-q7-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q7-2.webp",
+   "exam-images/maths/2026/ordinary-p2-q7-3.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 10,
+    "topics": [
+     "maths8"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Compare with the circle centred at the origin",
+       "lines": [
+        {
+         "text": "A circle with centre $(0,0)$ and radius $r$ has equation $x^2 + y^2 = r^2$."
+        },
+        {
+         "tex": "x^2 + y^2 &= 72"
+        },
+        {
+         "tex": "x^2 + y^2 &= r^2"
+        }
+       ]
+      },
+      {
+       "title": "Read off the centre and radius",
+       "lines": [
+        {
+         "text": "There are no numbers added to $x$ or $y$ inside brackets, so the centre is the origin."
+        },
+        {
+         "tex": "\\text{Centre} &= (0, 0)"
+        },
+        {
+         "tex": "r^2 &= 72"
+        },
+        {
+         "tex": "r &= \\sqrt{72}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Centre } (0,0), \\text{ radius } \\sqrt{72}"
+    }
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 10,
+    "topics": [
+     "maths8"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute (−4, 9) into x² + y²",
+       "lines": [
+        {
+         "text": "Compare $x^2 + y^2$ with $72$: if it is more than $72$ the point is outside, if less it is inside."
+        },
+        {
+         "tex": "x^2 + y^2 &= (-4)^2 + (9)^2"
+        },
+        {
+         "tex": "&= 16 + 81"
+        },
+        {
+         "tex": "&= 97"
+        }
+       ]
+      },
+      {
+       "title": "Compare with 72",
+       "lines": [
+        {
+         "tex": "97 &> 72"
+        },
+        {
+         "text": "$97$ is greater than $r^2 = 72$, so the point is outside the circle. Tick \"outside $c$\"."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Outside } c"
+    }
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 10,
+    "topics": [
+     "maths9"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of AB",
+       "lines": [
+        {
+         "text": "Slope is $\\frac{y_2 - y_1}{x_2 - x_1}$ with $A(-4,9)$ and $B(0,12)$."
+        },
+        {
+         "tex": "m &= \\frac{12 - 9}{0 - (-4)}"
+        },
+        {
+         "tex": "&= \\frac{3}{4}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the slope and point A into the line formula",
+       "lines": [
+        {
+         "text": "The line formula is $y - y_1 = m(x - x_1)$."
+        },
+        {
+         "tex": "y - 9 &= \\frac{3}{4}(x - (-4))"
+        },
+        {
+         "tex": "y - 9 &= \\frac{3}{4}(x + 4)"
+        }
+       ]
+      },
+      {
+       "title": "Clear the fraction",
+       "lines": [
+        {
+         "text": "Multiply both sides by $4$."
+        },
+        {
+         "tex": "4(y - 9) &= 3(x + 4)"
+        }
+       ]
+      },
+      {
+       "title": "Expand and write in the form ax + by + c = 0",
+       "lines": [
+        {
+         "tex": "4y - 36 &= 3x + 12"
+        },
+        {
+         "tex": "0 &= 3x - 4y + 48"
+        },
+        {
+         "tex": "3x - 4y + 48 &= 0"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3x - 4y + 48 = 0"
+    }
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 5,
+    "topics": [
+     "maths8",
+     "maths5"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write x in terms of y from the line",
+       "lines": [
+        {
+         "tex": "x + y &= 12"
+        },
+        {
+         "tex": "x &= 12 - y"
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the circle",
+       "lines": [
+        {
+         "tex": "x^2 + y^2 &= 72"
+        },
+        {
+         "tex": "(12 - y)^2 + y^2 &= 72"
+        }
+       ]
+      },
+      {
+       "title": "Expand and collect terms",
+       "lines": [
+        {
+         "tex": "144 - 24y + y^2 + y^2 &= 72"
+        },
+        {
+         "tex": "2y^2 - 24y + 144 &= 72"
+        },
+        {
+         "text": "Subtract $72$ from both sides."
+        },
+        {
+         "tex": "2y^2 - 24y + 72 &= 0"
+        },
+        {
+         "text": "Divide every term by $2$."
+        },
+        {
+         "tex": "y^2 - 12y + 36 &= 0"
+        }
+       ]
+      },
+      {
+       "title": "Factorise and solve",
+       "lines": [
+        {
+         "tex": "(y - 6)^2 &= 0"
+        },
+        {
+         "tex": "y &= 6"
+        }
+       ]
+      },
+      {
+       "title": "Find x and state the conclusion",
+       "lines": [
+        {
+         "tex": "x &= 12 - 6"
+        },
+        {
+         "tex": "&= 6"
+        },
+        {
+         "text": "There is only one solution, $(6, 6)$, so the line touches the circle at exactly one point. The line $l$ is a tangent to $c$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "l \\text{ meets } c \\text{ at one point only, } (6,6), \\text{ so } l \\text{ is a tangent}"
+    }
+   },
+   {
+    "label": "(c)(i), (ii)",
+    "marks": 10,
+    "topics": [
+     "maths8"
+    ],
+    "type": [
+     "drawn"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the equation of the circle s",
+       "lines": [
+        {
+         "text": "A circle with centre $(h, k)$ and radius $r$ has equation $(x-h)^2 + (y-k)^2 = r^2$."
+        },
+        {
+         "tex": "(x - 5)^2 + (y - (-10))^2 &= 10^2"
+        },
+        {
+         "tex": "(x - 5)^2 + (y + 10)^2 &= 10^2"
+        },
+        {
+         "tex": "(x - 5)^2 + (y + 10)^2 &= 100"
+        }
+       ]
+      },
+      {
+       "title": "Plot the centre",
+       "lines": [
+        {
+         "text": "Mark the centre $(5, -10)$ on the diagram."
+        }
+       ]
+      },
+      {
+       "title": "Plot four points 10 units from the centre",
+       "lines": [
+        {
+         "text": "Go $10$ units right, left, up and down from the centre."
+        },
+        {
+         "tex": "\\text{Points: } & (15, -10), (-5, -10), (5, 0), (5, -20)"
+        }
+       ]
+      },
+      {
+       "title": "Draw the circle through these points",
+       "lines": [
+        {
+         "text": "Draw a smooth circle through the four points. It touches the $x$-axis at $(5, 0)$ and the bottom of the grid at $(5, -20)$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(x - 5)^2 + (y + 10)^2 = 100",
+     "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 390'><rect x='30' y='20' width='350' height='350' fill='none' stroke='currentColor' stroke-opacity='0.25'/><line x1='30' y1='20' x2='30' y2='370' stroke='currentColor' stroke-opacity='0.2'/><line x1='100' y1='20' x2='100' y2='370' stroke='currentColor' stroke-opacity='0.2'/><line x1='170' y1='20' x2='170' y2='370' stroke='currentColor' stroke-opacity='0.2'/><line x1='240' y1='20' x2='240' y2='370' stroke='currentColor' stroke-opacity='0.2'/><line x1='310' y1='20' x2='310' y2='370' stroke='currentColor' stroke-opacity='0.2'/><line x1='380' y1='20' x2='380' y2='370' stroke='currentColor' stroke-opacity='0.2'/><line x1='30' y1='20' x2='380' y2='20' stroke='currentColor' stroke-opacity='0.2'/><line x1='30' y1='90' x2='380' y2='90' stroke='currentColor' stroke-opacity='0.2'/><line x1='30' y1='160' x2='380' y2='160' stroke='currentColor' stroke-opacity='0.2'/><line x1='30' y1='230' x2='380' y2='230' stroke='currentColor' stroke-opacity='0.2'/><line x1='30' y1='300' x2='380' y2='300' stroke='currentColor' stroke-opacity='0.2'/><line x1='30' y1='370' x2='380' y2='370' stroke='currentColor' stroke-opacity='0.2'/><line x1='30' y1='90' x2='388' y2='90' stroke='currentColor' stroke-width='1.2'/><line x1='170' y1='14' x2='170' y2='370' stroke='currentColor' stroke-width='1.2'/><text x='30' y='85' text-anchor='middle' font-size='12' font-family='sans-serif' fill='currentColor'>−10</text><text x='100' y='85' text-anchor='middle' font-size='12' font-family='sans-serif' fill='currentColor'>−5</text><text x='240' y='85' text-anchor='middle' font-size='12' font-family='sans-serif' fill='currentColor'>5</text><text x='310' y='85' text-anchor='middle' font-size='12' font-family='sans-serif' fill='currentColor'>10</text><text x='380' y='85' text-anchor='middle' font-size='12' font-family='sans-serif' fill='currentColor'>15</text><text x='165' y='24' text-anchor='end' font-size='12' font-family='sans-serif' fill='currentColor'>5</text><text x='165' y='164' text-anchor='end' font-size='12' font-family='sans-serif' fill='currentColor'>−5</text><text x='165' y='234' text-anchor='end' font-size='12' font-family='sans-serif' fill='currentColor'>−10</text><text x='165' y='304' text-anchor='end' font-size='12' font-family='sans-serif' fill='currentColor'>−15</text><text x='165' y='374' text-anchor='end' font-size='12' font-family='sans-serif' fill='currentColor'>−20</text><text x='392' y='94' font-size='12' font-family='sans-serif' fill='currentColor'>x</text><text x='176' y='12' font-size='12' font-family='sans-serif' fill='currentColor'>y</text><circle cx='240' cy='230' r='140' fill='none' stroke='#2563eb' stroke-width='2'/><circle cx='240' cy='230' r='3.5' fill='#2563eb'/><text x='248' y='246' font-size='12' font-family='sans-serif' fill='#2563eb'>(5, −10)</text><text x='200' y='190' font-size='12' font-family='sans-serif' fill='#2563eb'>circle s</text></svg>"
+    }
+   },
+   {
+    "label": "(d)",
+    "marks": 5,
+    "topics": [
+     "maths8",
+     "maths9"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the highest point of circle u",
+       "lines": [
+        {
+         "text": "$u$ has centre $(-5, 0)$ and radius $10$, so its top is $10$ units above the centre."
+        },
+        {
+         "tex": "y_{\\text{top of } u} &= 0 + 10 = 10"
+        }
+       ]
+      },
+      {
+       "title": "Find the lowest point of circle t",
+       "lines": [
+        {
+         "text": "$t$ has centre $(0, 25)$ and radius $10$, so its bottom is $10$ units below the centre."
+        },
+        {
+         "tex": "y_{\\text{bottom of } t} &= 25 - 10 = 15"
+        }
+       ]
+      },
+      {
+       "title": "Choose a horizontal line between them",
+       "lines": [
+        {
+         "text": "Any line $y = k$ with $10 < k < 15$ passes between the circles without touching either. Choose $k = 12$."
+        },
+        {
+         "tex": "y &= 12"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "y = 12 \\text{ (any } y = k \\text{ with } 10 < k < 15\\text{)}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p2-q8",
+  "subject": "maths",
+  "chapterId": "maths26",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Ordinary 2026 — Paper 2 — Q8",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P2",
+  "questionNumber": 8,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/ordinary-p2-q8-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q8-2.webp",
+   "exam-images/maths/2026/ordinary-p2-q8-3.webp",
+   "exam-images/maths/2026/ordinary-p2-q8-4.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 10,
+    "topics": [
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write Pythagoras for the right angle at P",
+       "lines": [
+        {
+         "text": "In the right-angled triangle $SPQ$, $[SQ]$ is the hypotenuse."
+        },
+        {
+         "tex": "|SQ|^2 &= |SP|^2 + |PQ|^2"
+        },
+        {
+         "tex": "|SQ|^2 &= 25^2 + 60^2"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate the squares and add",
+       "lines": [
+        {
+         "tex": "|SQ|^2 &= 625 + 3600"
+        },
+        {
+         "tex": "|SQ|^2 &= 4225"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root",
+       "lines": [
+        {
+         "tex": "|SQ| &= \\sqrt{4225}"
+        },
+        {
+         "tex": "|SQ| &= 65 \\text{ m}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|SQ| = 65 \\text{ m}"
+    }
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 5,
+    "topics": [
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Choose the ratio from the triangle SRQ",
+       "lines": [
+        {
+         "text": "The right angle is at $R$. Relative to $\\theta$, $[SR]$ is opposite and $[SQ]$ is the hypotenuse."
+        },
+        {
+         "tex": "\\sin\\theta &= \\frac{\\text{opposite}}{\\text{hypotenuse}}"
+        },
+        {
+         "tex": "\\sin\\theta &= \\frac{45}{65}"
+        }
+       ]
+      },
+      {
+       "title": "Use inverse sine to find the angle",
+       "lines": [
+        {
+         "tex": "\\theta &= \\sin^{-1}\\left(\\frac{45}{65}\\right)"
+        },
+        {
+         "tex": "&= 43.813...^\\circ"
+        },
+        {
+         "text": "Round to 1 decimal place."
+        },
+        {
+         "tex": "&= 43.8^\\circ"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\theta = 43.8^\\circ"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 10,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the trapezoidal rule",
+       "lines": [
+        {
+         "text": "The width of each strip is $h = 0.5$ km. The first and last widths are $0$ because the island comes to a point at each end."
+        },
+        {
+         "tex": "\\text{Area} &\\approx \\frac{h}{2}\\left[\\text{first} + \\text{last} + 2(\\text{sum of the rest})\\right]"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the values",
+       "lines": [
+        {
+         "tex": "\\text{Area} &\\approx \\frac{0.5}{2}\\left[0 + 0 + 2(1.2 + 1.5 + 1.3 + 0.9 + 0.8)\\right]"
+        }
+       ]
+      },
+      {
+       "title": "Add the middle widths",
+       "lines": [
+        {
+         "tex": "&= 0.25\\left[2(5.7)\\right]"
+        }
+       ]
+      },
+      {
+       "title": "Multiply out",
+       "lines": [
+        {
+         "tex": "&= 0.25(11.4)"
+        },
+        {
+         "tex": "&= 2.85 \\text{ km}^2"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2.85 \\text{ km}^2"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths26"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the angle WXY",
+       "lines": [
+        {
+         "text": "$XY$ is perpendicular to $AB$, so the angle between $XY$ and $AB$ is $90^\\circ$."
+        },
+        {
+         "tex": "|\\angle WXY| &= 90^\\circ - 42^\\circ"
+        },
+        {
+         "tex": "&= 48^\\circ"
+        }
+       ]
+      },
+      {
+       "title": "Find the angle XWY",
+       "lines": [
+        {
+         "text": "Angles in a triangle add to $180^\\circ$."
+        },
+        {
+         "tex": "|\\angle XWY| &= 180^\\circ - 65^\\circ - 48^\\circ"
+        },
+        {
+         "tex": "&= 67^\\circ"
+        }
+       ]
+      },
+      {
+       "title": "Write the sine rule",
+       "lines": [
+        {
+         "text": "Each side is divided by the sine of the angle opposite it. $[XY]$ is opposite $67^\\circ$ and $[WX]$ is opposite $65^\\circ$."
+        },
+        {
+         "tex": "\\frac{|XY|}{\\sin 67^\\circ} &= \\frac{122}{\\sin 65^\\circ}"
+        }
+       ]
+      },
+      {
+       "title": "Solve for |XY|",
+       "lines": [
+        {
+         "text": "Multiply both sides by $\\sin 67^\\circ$."
+        },
+        {
+         "tex": "|XY| &= \\frac{122 \\sin 67^\\circ}{\\sin 65^\\circ}"
+        },
+        {
+         "tex": "&= 123.9..."
+        },
+        {
+         "text": "Round to the nearest metre."
+        },
+        {
+         "tex": "&= 124 \\text{ m}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|XY| = 124 \\text{ m}"
+    }
+   },
+   {
+    "label": "(d)(i)",
+    "marks": 10,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the length of the curved edge",
+       "lines": [
+        {
+         "text": "The arc is $\\frac{225}{360}$ of the circumference $2\\pi r$, with $r = 50$."
+        },
+        {
+         "tex": "\\text{Arc} &= \\frac{225}{360} \\times 2 \\times \\pi \\times 50"
+        },
+        {
+         "tex": "&= 196.3495..."
+        }
+       ]
+      },
+      {
+       "title": "Add the two straight edges",
+       "lines": [
+        {
+         "text": "The two straight edges are radii, each $50$ m long."
+        },
+        {
+         "tex": "\\text{Perimeter} &= 196.3495... + 2(50)"
+        },
+        {
+         "tex": "&= 296.3495..."
+        },
+        {
+         "text": "Round to the nearest metre."
+        },
+        {
+         "tex": "&= 296 \\text{ m}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "296 \\text{ m}"
+    }
+   },
+   {
+    "label": "(d)(ii)",
+    "marks": 5,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the equation for doubled area",
+       "lines": [
+        {
+         "text": "Area of a sector is $\\frac{225}{360}\\pi r^2$. The new area is twice the old area, where the old radius is $50$ and the new radius is $r$."
+        },
+        {
+         "tex": "2\\left(\\frac{225}{360}\\right)\\pi(50^2) &= \\left(\\frac{225}{360}\\right)\\pi r^2"
+        }
+       ]
+      },
+      {
+       "title": "Cancel the common factor",
+       "lines": [
+        {
+         "text": "Divide both sides by $\\frac{225}{360}\\pi$."
+        },
+        {
+         "tex": "2(50^2) &= r^2"
+        },
+        {
+         "tex": "2(2500) &= r^2"
+        },
+        {
+         "tex": "5000 &= r^2"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root",
+       "lines": [
+        {
+         "tex": "r &= \\sqrt{5000}"
+        },
+        {
+         "tex": "&= 70.71..."
+        },
+        {
+         "text": "Round to 1 decimal place."
+        },
+        {
+         "tex": "&= 70.7 \\text{ m}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "r = 70.7 \\text{ m}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p2-q9",
+  "subject": "maths",
+  "chapterId": "maths22",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Ordinary 2026 — Paper 2 — Q9",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P2",
+  "questionNumber": 9,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/ordinary-p2-q9-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q9-2.webp",
+   "exam-images/maths/2026/ordinary-p2-q9-3.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)(i)",
+    "marks": 15,
+    "topics": [
+     "maths22"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Add up the 10 numbers",
+       "lines": [
+        {
+         "tex": "\\sum x &= 10 + 5 + 10 + 11 + 10 + 12 + 9 + 10 + 12 + 13"
+        },
+        {
+         "tex": "&= 102"
+        }
+       ]
+      },
+      {
+       "title": "Divide by 10 to find the mean",
+       "lines": [
+        {
+         "tex": "\\bar{x} &= \\frac{102}{10}"
+        },
+        {
+         "tex": "&= 10.2"
+        }
+       ]
+      },
+      {
+       "title": "Subtract the mean from each number and square",
+       "lines": [
+        {
+         "text": "The standard deviation formula is $\\sigma = \\sqrt{\\frac{\\sum (x - \\bar{x})^2}{n}}$, with $n = 10$."
+        },
+        {
+         "tex": "\\sum (x-\\bar{x})^2 &= (-0.2)^2 + (-5.2)^2 + (-0.2)^2 + (0.8)^2 + (-0.2)^2 + (1.8)^2 + (-1.2)^2 + (-0.2)^2 + (1.8)^2 + (2.8)^2"
+        },
+        {
+         "tex": "&= 0.04 + 27.04 + 0.04 + 0.64 + 0.04 + 3.24 + 1.44 + 0.04 + 3.24 + 7.84"
+        },
+        {
+         "tex": "&= 43.6"
+        }
+       ]
+      },
+      {
+       "title": "Divide by 10 and take the square root",
+       "lines": [
+        {
+         "tex": "\\sigma^2 &= \\frac{43.6}{10}"
+        },
+        {
+         "tex": "&= 4.36"
+        },
+        {
+         "tex": "\\sigma &= \\sqrt{4.36}"
+        },
+        {
+         "tex": "&= 2.088..."
+        },
+        {
+         "text": "Round to 1 decimal place."
+        },
+        {
+         "tex": "&= 2.1"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Mean} = 10.2, \\quad \\text{standard deviation} = 2.1"
+    }
+   },
+   {
+    "label": "(a)(ii)",
+    "marks": 5,
+    "topics": [
+     "maths22"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the cut-off two standard deviations below the mean",
+       "lines": [
+        {
+         "text": "A value more than $2$ standard deviations from the mean is an outlier."
+        },
+        {
+         "tex": "\\bar{x} - 2\\sigma &= 10.2 - 2(2.1)"
+        },
+        {
+         "tex": "&= 10.2 - 4.2"
+        },
+        {
+         "tex": "&= 6"
+        }
+       ]
+      },
+      {
+       "title": "Compare 5 with the cut-off",
+       "lines": [
+        {
+         "tex": "5 &< 6"
+        },
+        {
+         "text": "$5$ is more than $2$ standard deviations below the mean, so tick \"5 is an outlier\"."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "5 \\text{ is an outlier}"
+    }
+   },
+   {
+    "label": "(b)",
+    "marks": 5,
+    "topics": [
+     "maths24",
+     "maths22"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the Empirical Rule to find the standard deviation",
+       "lines": [
+        {
+         "text": "About $95\\%$ of values lie within $2$ standard deviations of the mean. So $14.2$ is $2\\sigma$ below the mean $17$."
+        },
+        {
+         "tex": "17 - 14.2 &= 2.8"
+        },
+        {
+         "tex": "2\\sigma &= 2.8"
+        },
+        {
+         "tex": "\\sigma &= 2.8 \\div 2"
+        },
+        {
+         "tex": "\\sigma &= 1.4"
+        }
+       ]
+      },
+      {
+       "title": "Find H, two standard deviations above the mean",
+       "lines": [
+        {
+         "tex": "H &= 17 + 2(1.4)"
+        },
+        {
+         "tex": "&= 17 + 2.8"
+        },
+        {
+         "tex": "&= 19.8"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\sigma = 1.4 \\text{ hours}, \\quad H = 19.8 \\text{ hours}"
+    }
+   },
+   {
+    "label": "(c)(i)",
+    "marks": 5,
+    "topics": [
+     "maths23"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the margin of error formula",
+       "lines": [
+        {
+         "text": "For a sample of size $n$, the margin of error is $\\frac{1}{\\sqrt{n}}$. Here $n = 540$."
+        },
+        {
+         "tex": "\\text{Margin of error} &= \\frac{1}{\\sqrt{n}}"
+        },
+        {
+         "tex": "&= \\frac{1}{\\sqrt{540}}"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate and convert to a percentage",
+       "lines": [
+        {
+         "tex": "&= 0.0430..."
+        },
+        {
+         "text": "Multiply by $100$ to get a percentage."
+        },
+        {
+         "tex": "&= 0.0430... \\times 100"
+        },
+        {
+         "tex": "&= 4.3033...\\%"
+        },
+        {
+         "text": "Round to 1 decimal place."
+        },
+        {
+         "tex": "&= 4.3\\%"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Margin of error} = 4.3\\%"
+    }
+   },
+   {
+    "label": "(c)(ii)",
+    "marks": 10,
+    "topics": [
+     "maths23"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the proportion as a fraction and a percentage",
+       "lines": [
+        {
+         "tex": "\\text{Percentage} &= \\frac{350}{540} \\times 100"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate and round",
+       "lines": [
+        {
+         "tex": "&= 64.81..."
+        },
+        {
+         "text": "Round to the nearest percent."
+        },
+        {
+         "tex": "&= 65\\%"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "65\\%"
+    }
+   },
+   {
+    "label": "(c)(iii)",
+    "marks": 5,
+    "topics": [
+     "maths23"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Form the interval around the sample percentage",
+       "lines": [
+        {
+         "text": "The sample percentage is $65\\%$ and the margin of error is $4.3\\%$. The interval is $65\\% \\pm 4.3\\%$."
+        },
+        {
+         "tex": "65 - 4.3 &= 60.7"
+        },
+        {
+         "tex": "65 + 4.3 &= 69.3"
+        }
+       ]
+      },
+      {
+       "title": "State the interval",
+       "lines": [
+        {
+         "tex": "60.7\\% &\\le p \\le 69.3\\%"
+        }
+       ]
+      },
+      {
+       "title": "Compare 67% with the interval and conclude",
+       "lines": [
+        {
+         "tex": "60.7 &< 67 < 69.3"
+        },
+        {
+         "text": "Conclusion: the percentage has not changed."
+        },
+        {
+         "text": "Reason: $67\\%$ is between $60.7\\%$ and $69.3\\%$, so we do not reject the claim that it is still $67\\%$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{The percentage has not changed, since } 67\\% \\text{ lies between } 60.7\\% \\text{ and } 69.3\\%"
+    }
+   },
+   {
+    "label": "(c)(iv)",
+    "marks": 5,
+    "topics": [
+     "maths23"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Test a larger sample size",
+       "lines": [
+        {
+         "text": "Margin of error is $\\frac{1}{\\sqrt{n}}$. A larger $n$ makes $\\sqrt{n}$ bigger, so the margin of error gets smaller. Try $n = 1000$."
+        },
+        {
+         "tex": "\\frac{1}{\\sqrt{1000}} &= 0.0316..."
+        },
+        {
+         "tex": "&= 3.16\\%"
+        }
+       ]
+      },
+      {
+       "title": "Compare with 4.3%",
+       "lines": [
+        {
+         "tex": "3.16\\% &< 4.3\\%"
+        },
+        {
+         "text": "The margin of error is smaller, so the organisers should increase the sample size. Tick \"Increase\"."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Increase the sample size}"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maths-pp-2026-ordinary-p2-q10",
+  "subject": "maths",
+  "chapterId": "maths7",
+  "sectionId": "maths-paper2",
+  "source": "LC Maths Ordinary 2026 — Paper 2 — Q10",
+  "year": 2026,
+  "level": "ordinary",
+  "paper": "P2",
+  "questionNumber": 10,
+  "totalMarks": 50,
+  "images": [
+   "exam-images/maths/2026/ordinary-p2-q10-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q10-2.webp",
+   "exam-images/maths/2026/ordinary-p2-q10-3.webp",
+   "exam-images/maths/2026/ordinary-p2-q10-4.webp"
+  ],
+  "parts": [
+   {
+    "label": "(a)",
+    "marks": 10,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the volume of the cone",
+       "lines": [
+        {
+         "text": "Volume of a cone is $\\frac{1}{3}\\pi r^2 h$ with $r = 2.8$ and $h = 13.4$."
+        },
+        {
+         "tex": "V_{\\text{cone}} &= \\frac{1}{3}\\pi (2.8)^2 (13.4)"
+        },
+        {
+         "tex": "&= 110.014..."
+        }
+       ]
+      },
+      {
+       "title": "Find the volume of the hemisphere",
+       "lines": [
+        {
+         "text": "Volume of a hemisphere is $\\frac{2}{3}\\pi r^3$ with $r = 2.8$."
+        },
+        {
+         "tex": "V_{\\text{hemisphere}} &= \\frac{2}{3}\\pi (2.8)^3"
+        },
+        {
+         "tex": "&= 45.976..."
+        }
+       ]
+      },
+      {
+       "title": "Add the two volumes",
+       "lines": [
+        {
+         "tex": "V_{\\text{total}} &= 110.014... + 45.976..."
+        },
+        {
+         "tex": "&= 155.99..."
+        },
+        {
+         "text": "Round to the nearest cm$^3$."
+        },
+        {
+         "tex": "&= 156 \\text{ cm}^3"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "156 \\text{ cm}^3"
+    }
+   },
+   {
+    "label": "(b)(i)",
+    "marks": 10,
+    "topics": [
+     "maths7",
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the volume of a cylinder for the new can",
+       "lines": [
+        {
+         "text": "Volume of a cylinder is $\\pi r^2 h$ with $r = 3$ and volume $393.4$."
+        },
+        {
+         "tex": "\\pi r^2 h &= 393.4"
+        },
+        {
+         "tex": "\\pi (3^2)(h) &= 393.4"
+        },
+        {
+         "tex": "9\\pi h &= 393.4"
+        }
+       ]
+      },
+      {
+       "title": "Divide by 9π to find h",
+       "lines": [
+        {
+         "tex": "h &= \\frac{393.4}{9\\pi}"
+        },
+        {
+         "tex": "&= 13.91..."
+        },
+        {
+         "text": "Round to 1 decimal place."
+        },
+        {
+         "tex": "&= 13.9 \\text{ cm}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "h = 13.9 \\text{ cm}"
+    }
+   },
+   {
+    "label": "(b)(ii)",
+    "marks": 10,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the total surface area of the old can",
+       "lines": [
+        {
+         "text": "Total surface area of a cylinder is $2\\pi r^2 + 2\\pi r h$, with $r = 3.3$ and $h = 11.5$."
+        },
+        {
+         "tex": "\\text{Old area} &= 2\\pi (3.3)^2 + 2\\pi (3.3)(11.5)"
+        },
+        {
+         "tex": "&= 68.4239... + 238.4469..."
+        },
+        {
+         "tex": "&= 306.8708... \\text{ cm}^2"
+        }
+       ]
+      },
+      {
+       "title": "Find the increase in surface area",
+       "lines": [
+        {
+         "text": "The new can has surface area $318.6$ cm$^2$."
+        },
+        {
+         "tex": "\\text{Increase} &= 318.6 - 306.8708..."
+        },
+        {
+         "tex": "&= 11.7292..."
+        }
+       ]
+      },
+      {
+       "title": "Write the increase as a percentage of the old area",
+       "lines": [
+        {
+         "text": "Percentage increase is the increase divided by the original, times $100$."
+        },
+        {
+         "tex": "\\% \\text{ increase} &= \\frac{11.7292...}{306.8708...} \\times 100"
+        },
+        {
+         "tex": "&= 3.82..."
+        },
+        {
+         "text": "Round to 1 decimal place."
+        },
+        {
+         "tex": "&= 3.8\\%"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3.8\\%"
+    }
+   },
+   {
+    "label": "(b)(iii)",
+    "marks": 10,
+    "topics": [
+     "maths7"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Old design: the diameter is 6.6 cm",
+       "lines": [
+        {
+         "text": "Each can needs a $6.6$ cm square of shelf, since its base is a circle of diameter $2 \\times 3.3$. Count whole cans only."
+        },
+        {
+         "tex": "62 \\div 6.6 &= 9.39..."
+        },
+        {
+         "text": "So $9$ cans fit along the length."
+        },
+        {
+         "tex": "32 \\div 6.6 &= 4.84..."
+        },
+        {
+         "text": "So $4$ rows fit in the depth."
+        },
+        {
+         "tex": "9 \\times 4 &= 36"
+        }
+       ]
+      },
+      {
+       "title": "New design: the diameter is 6 cm",
+       "lines": [
+        {
+         "text": "The base diameter is $2 \\times 3 = 6$ cm."
+        },
+        {
+         "tex": "62 \\div 6 &= 10.33..."
+        },
+        {
+         "text": "So $10$ cans fit along the length."
+        },
+        {
+         "tex": "32 \\div 6 &= 5.33..."
+        },
+        {
+         "text": "So $5$ rows fit in the depth."
+        },
+        {
+         "tex": "10 \\times 5 &= 50"
+        }
+       ]
+      },
+      {
+       "title": "Find how many more cans fit",
+       "lines": [
+        {
+         "tex": "50 - 36 &= 14"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "14 \\text{ more cans}"
+    }
+   },
+   {
+    "label": "(c)",
+    "marks": 10,
+    "topics": [
+     "maths13",
+     "maths6"
+    ],
+    "type": [
+     "calculation"
+    ],
+    "answerStatus": "written",
+    "model_source": "scheme",
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the sugar in the 2021 recipe",
+       "lines": [
+        {
+         "text": "$30\\%$ less sugar means $70\\%$ of the original."
+        },
+        {
+         "tex": "\\text{Sugar in 2021} &= 35 \\times 0.7"
+        },
+        {
+         "tex": "&= 24.5 \\text{ g}"
+        }
+       ]
+      },
+      {
+       "title": "Find the sugar in the 2025 recipe",
+       "lines": [
+        {
+         "text": "A further $20\\%$ reduction means $80\\%$ of the 2021 amount."
+        },
+        {
+         "tex": "\\text{Sugar in 2025} &= 24.5 \\times 0.8"
+        },
+        {
+         "tex": "&= 19.6 \\text{ g per 330 ml}"
+        }
+       ]
+      },
+      {
+       "title": "Scale up from 330 ml to 500 ml",
+       "lines": [
+        {
+         "text": "There is $\\frac{19.6}{330}$ g of sugar in each ml."
+        },
+        {
+         "tex": "\\text{Sugar in 500 ml} &= 500 \\times \\frac{19.6}{330}"
+        },
+        {
+         "tex": "&= 29.6969..."
+        },
+        {
+         "text": "Round to 1 decimal place."
+        },
+        {
+         "tex": "&= 29.7 \\text{ g}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "29.7 \\text{ g}"
+    }
+   }
+  ]
  }
 ]
 );

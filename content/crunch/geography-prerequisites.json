@@ -1,0 +1,2097 @@
+{
+ "geo-aerial-photographs-s1": [
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "compares photograph with map, uses scale and direction",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s4",
+   "strength": "essential",
+   "why": "uses CBD, land-use zones and urban functions",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s3",
+   "strength": "helpful",
+   "why": "uses site, hierarchy and town location reasons",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s1",
+   "strength": "helpful",
+   "why": "evidence of historical development of towns",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-urban-s5",
+   "strength": "helpful",
+   "why": "traffic congestion causes taught there",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-activities-s1": [
+  {
+   "needs": "geo-economic-development-s1",
+   "strength": "helpful",
+   "why": "GDP, GNP, GNI and economic growth",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "helpful",
+   "why": "location factors, footloose industry, clustering",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s1",
+   "strength": "helpful",
+   "why": "FDI, IDA Ireland and multinationals",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-eu-s3",
+   "strength": "helpful",
+   "why": "CAP and CFP effects on farming and fishing",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-activities-s2": [
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "uses sector terms, footloose industry, Irish industry examples",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "site suitability and economic activity read from OS map",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "location factor questions use aerial photographs",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-development-s1": [
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reading and graphing tables, percentages",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-development-s2": [
+  {
+   "needs": "geo-economic-development-s1",
+   "strength": "essential",
+   "why": "HDI, GNP and development measures",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-development-s3": [
+  {
+   "needs": "geo-economic-development-s1",
+   "strength": "essential",
+   "why": "development indicators and economic growth terms",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "factors and change over time in development",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-continental-s1",
+   "strength": "helpful",
+   "why": "India's economy and agriculture detail",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Brazil's economy and history detail",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-development-s4": [
+  {
+   "needs": "geo-economic-development-s1",
+   "strength": "essential",
+   "why": "HDI, development and inequality measures",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s3",
+   "strength": "helpful",
+   "why": "colonial legacy behind debt and trade",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s3",
+   "strength": "helpful",
+   "why": "world trade, WTO, protectionism",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s3",
+   "strength": "helpful",
+   "why": "global warming for climate justice",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-environment-s1": [
+  {
+   "needs": "geo-rocks-weathering-s2",
+   "strength": "helpful",
+   "why": "how oil, gas, peat and geothermal energy form",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rivers-s4",
+   "strength": "helpful",
+   "why": "hydroelectric schemes and dams on Irish rivers",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads energy production and consumption graphs",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-environment-s2": [
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "essential",
+   "why": "uses fossil fuel and renewable resource classes",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "siting a wind farm is a map-based question",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s4",
+   "strength": "helpful",
+   "why": "hydroelectric power relies on dams and river flow",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rocks-weathering-s2",
+   "strength": "helpful",
+   "why": "geothermal energy and fossil fuel origins",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-environment-s3": [
+  {
+   "needs": "geo-economic-environment-s2",
+   "strength": "helpful",
+   "why": "greenhouse effect from burning fossil fuels",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "interprets warming and emissions graphs",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rocks-weathering-s2",
+   "strength": "helpful",
+   "why": "oil exploitation and spills link to marine pollution",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-environment-s4": [
+  {
+   "needs": "geo-economic-environment-s3",
+   "strength": "helpful",
+   "why": "sustainability responds to pollution and warming",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "helpful",
+   "why": "sustainable energy approaches use resource types",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rocks-weathering-s2",
+   "strength": "helpful",
+   "why": "mining sites Avoca, Tara and Lisheen impacts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "fishing, mining, forestry and peat as Irish activities",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-eu-s3",
+   "strength": "helpful",
+   "why": "Common Fisheries Policy manages fish stocks",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-environment-s5": [
+  {
+   "needs": "geo-economic-environment-s4",
+   "strength": "essential",
+   "why": "uses EIA, sustainability and EPA control",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "helpful",
+   "why": "Corrib gas, wind and turf conflicts use energy sources",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "map-based question locating a development",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s4",
+   "strength": "helpful",
+   "why": "Three Gorges Dam costs and benefits",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-eu-s3",
+   "strength": "helpful",
+   "why": "fishing quotas come from Common Fisheries Policy",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rocks-weathering-s4",
+   "strength": "helpful",
+   "why": "Mullaghmore conflict set in Burren karst",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Amazon rainforest case study in Brazil",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-eu-s1": [
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads trade pie charts and tables",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s3",
+   "strength": "helpful",
+   "why": "visible and invisible trade, balance of payments vocabulary",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-european-s4",
+   "strength": "helpful",
+   "why": "origins and enlargement of the EU",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-european-s3",
+   "strength": "helpful",
+   "why": "single market and economic union",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-eu-s2": [
+  {
+   "needs": "geo-economic-eu-s1",
+   "strength": "essential",
+   "why": "compares Irish trade with EU trading patterns",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "Irish economic history, exports and sectors",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s1",
+   "strength": "helpful",
+   "why": "foreign direct investment and IDA Ireland",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads trade tables and charts",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-eu-s3": [
+  {
+   "needs": "geo-economic-eu-s2",
+   "strength": "helpful",
+   "why": "Irish trade and membership context",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "CAP and CFP affect Irish farming and fishing",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-european-s4",
+   "strength": "helpful",
+   "why": "EU origins, deepening and widening",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-concept-s4",
+   "strength": "helpful",
+   "why": "regional funds target peripheral regions",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-concept-s2",
+   "strength": "helpful",
+   "why": "regional assemblies and EU funding",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-globalisation-s1": [
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "helpful",
+   "why": "MNC location uses footloose industry location factors",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "FDI, footloose industry and Intel in Ireland",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "locating an MNC on an OS map",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "data response on the largest MNCs",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-globalisation-s2": [
+  {
+   "needs": "geo-economic-globalisation-s1",
+   "strength": "essential",
+   "why": "extends Intel and MNC case studies",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "helpful",
+   "why": "mobility, branch plants and product life cycle",
+   "confidence": "high"
+  }
+ ],
+ "geo-economic-globalisation-s3": [
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads trade data and tables",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-eu-s1",
+   "strength": "helpful",
+   "why": "EU as a trading bloc within the triad",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "China and South Korea as rising economies",
+   "confidence": "low"
+  }
+ ],
+ "geo-economic-globalisation-s4": [
+  {
+   "needs": "geo-economic-globalisation-s3",
+   "strength": "essential",
+   "why": "uses new international division of labour and trade",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s1",
+   "strength": "helpful",
+   "why": "uses MNC and basic processing unit ideas",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "core and periphery link to uneven development",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s3",
+   "strength": "helpful",
+   "why": "India 1991 liberalisation and colonial legacy",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-development-s4",
+   "strength": "helpful",
+   "why": "Rana Plaza and exploitation by multinationals",
+   "confidence": "low"
+  }
+ ],
+ "geo-glaciation-s1": [
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "helpful",
+   "why": "uses freeze-thaw weathering",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s1",
+   "strength": "helpful",
+   "why": "uses erosion, transport, deposition terms",
+   "confidence": "low"
+  }
+ ],
+ "geo-glaciation-s2": [
+  {
+   "needs": "geo-glaciation-s1",
+   "strength": "essential",
+   "why": "ice loading, fjords and drowned drumlins",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-sea-s1",
+   "strength": "helpful",
+   "why": "raised beaches and coastal features",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s1",
+   "strength": "helpful",
+   "why": "uses river erosion and base level terms",
+   "confidence": "low"
+  }
+ ],
+ "geo-graph-skills-s1": [],
+ "geo-graph-skills-s2": [
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "essential",
+   "why": "percentages, pyramids and trend description for census data",
+   "confidence": "high"
+  }
+ ],
+ "geo-mapwork-s1": [
+  {
+   "needs": "geo-rivers-s1",
+   "strength": "essential",
+   "why": "identifies fluvial landforms and drainage on maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-glaciation-s1",
+   "strength": "essential",
+   "why": "identifies glacial landforms on maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-sea-s1",
+   "strength": "essential",
+   "why": "identifies coastal landforms on maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s4",
+   "strength": "helpful",
+   "why": "karst landforms on maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s2",
+   "strength": "helpful",
+   "why": "rural settlement patterns on maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s1",
+   "strength": "helpful",
+   "why": "prehistoric and historic settlement on maps",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-urban-s3",
+   "strength": "helpful",
+   "why": "town location, functions and growth read on map",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "statistical mapping and choropleth maps",
+   "confidence": "low"
+  }
+ ],
+ "geo-mapwork-s2": [
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "essential",
+   "why": "compares old and present-day maps, uses map reading skills",
+   "confidence": "high"
+  }
+ ],
+ "geo-mapwork-s3": [
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "essential",
+   "why": "presenting results with graphs, tables and calculations",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s2",
+   "strength": "helpful",
+   "why": "primary and secondary sources, reliability and bias",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s1": [
+  {
+   "needs": "geo-weather-climate-s1",
+   "strength": "helpful",
+   "why": "weather instruments and data it also measures",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-weather-climate-s2",
+   "strength": "helpful",
+   "why": "satellite remote sensing of atmosphere and oceans",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s2": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s1",
+   "strength": "essential",
+   "why": "atmosphere layers, water heat capacity, ocean temperature layers",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s3": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s1",
+   "strength": "essential",
+   "why": "atmospheric components, pressure, ocean-atmosphere exchanges",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s2",
+   "strength": "helpful",
+   "why": "heat budget drives evaporation, cooling and cloud formation",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s4": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s2",
+   "strength": "essential",
+   "why": "heat redistribution, Hadley cell, ocean currents, thermohaline",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s3",
+   "strength": "essential",
+   "why": "condensation, adiabatic cooling, fronts, humidity for depressions, storms",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s1",
+   "strength": "helpful",
+   "why": "pressure, salinity and density basics",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-weather-climate-s1",
+   "strength": "helpful",
+   "why": "isobars, pressure systems, fronts on synoptic charts",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s5": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s2",
+   "strength": "essential",
+   "why": "latitude, heat budget, greenhouse effect explain climates",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s4",
+   "strength": "essential",
+   "why": "pressure belts, winds, currents, El Nino explain climates",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s3",
+   "strength": "helpful",
+   "why": "rainfall types and humidity in each climate",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-glaciation-s1",
+   "strength": "helpful",
+   "why": "Quaternary ice ages and Irish glaciation effects",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-plate-tectonics-s2",
+   "strength": "helpful",
+   "why": "continental drift as cause of climate change over time",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-atmosphere-ocean-s6": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s5",
+   "strength": "essential",
+   "why": "monsoon, oceanic, Mediterranean, desert climates used in examples",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s3",
+   "strength": "helpful",
+   "why": "rainfall, evaporation and drought link to hydrological cycle",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "climate as a physical factor in uneven development",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s1",
+   "strength": "helpful",
+   "why": "India's monsoon and irrigated farming",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-geoecology-s3",
+   "strength": "helpful",
+   "why": "Sahel and Dust Bowl desertification also taught here",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s1": [
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "helpful",
+   "why": "push-pull factors, refugees, diaspora, donor and receiver impacts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s5",
+   "strength": "helpful",
+   "why": "ethnic and racial terms, prejudice, case studies in France, Britain",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-development-s3",
+   "strength": "helpful",
+   "why": "colonialism and colonial legacies behind racial categories",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s2": [
+  {
+   "needs": "geo-option-culture-identity-s5",
+   "strength": "helpful",
+   "why": "language and nationalism need the nation-state idea",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "place names and townlands as evidence on OS maps",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s3": [
+  {
+   "needs": "geo-region-concept-s3",
+   "strength": "helpful",
+   "why": "religious regions, Islamic world, Ireland and Europe",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s4": [
+  {
+   "needs": "geo-economic-globalisation-s4",
+   "strength": "helpful",
+   "why": "globalisation and reaction against it, winners and losers",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-culture-identity-s2",
+   "strength": "helpful",
+   "why": "Irish language and literature as everyday expression",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-culture-identity-s3",
+   "strength": "helpful",
+   "why": "religious festivals and traditions",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s5": [
+  {
+   "needs": "geo-option-culture-identity-s2",
+   "strength": "helpful",
+   "why": "language divides Belgium, Basques, Quebec cultural groups",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-culture-identity-s3",
+   "strength": "helpful",
+   "why": "religion divides Northern Ireland, Kurds, Palestinians",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-european-s4",
+   "strength": "helpful",
+   "why": "partition, Yugoslavia, boundaries and cultural groups",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-culture-identity-s6": [
+  {
+   "needs": "geo-option-culture-identity-s2",
+   "strength": "essential",
+   "why": "Swiss, Welsh, Breton languages use language as indicator",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s3",
+   "strength": "essential",
+   "why": "religious geography uses religion as cultural indicator",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s5",
+   "strength": "essential",
+   "why": "boundaries, federalism, devolution, states and cultural groups",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s4",
+   "strength": "helpful",
+   "why": "music, sport, festivals, food as everyday expressions",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-culture-identity-s1",
+   "strength": "helpful",
+   "why": "guest workers, migration and ethnic mixing in Switzerland, Belgium",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-european-s3",
+   "strength": "helpful",
+   "why": "Belgium language communities and political regions",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-geoecology-s1": [
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "essential",
+   "why": "weathering of rock forms soil parent material",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "helpful",
+   "why": "igneous, sedimentary, metamorphic parent rocks",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-glaciation-s1",
+   "strength": "helpful",
+   "why": "till and boulder clay as transported parent material",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s1",
+   "strength": "helpful",
+   "why": "alluvium as river-deposited parent material",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-geoecology-s2": [
+  {
+   "needs": "geo-option-geoecology-s1",
+   "strength": "essential",
+   "why": "soil profile, texture, humus, pH used in soil types",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "helpful",
+   "why": "weathering as a soil-forming process",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s5",
+   "strength": "helpful",
+   "why": "zonal soils tied to equatorial, continental climates",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-geoecology-s3": [
+  {
+   "needs": "geo-option-geoecology-s1",
+   "strength": "essential",
+   "why": "soil structure, fertility, organic matter damaged by misuse",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s2",
+   "strength": "essential",
+   "why": "erosion, leaching and soil processes behind degradation",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s7",
+   "strength": "helpful",
+   "why": "overgrazing, overcropping, Dust Bowl, Sahel also taught there",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s6",
+   "strength": "helpful",
+   "why": "Sahel rainfall reliability and desertification",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-geoecology-s4": [
+  {
+   "needs": "geo-option-atmosphere-ocean-s5",
+   "strength": "helpful",
+   "why": "hot desert and equatorial climates",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-atmosphere-ocean-s4",
+   "strength": "helpful",
+   "why": "pressure belts and Hadley cell cause aridity",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s2",
+   "strength": "helpful",
+   "why": "latosol and desert soil formation",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s1",
+   "strength": "helpful",
+   "why": "soil components and nutrient cycle terms",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s6",
+   "strength": "helpful",
+   "why": "desert landscape from wind erosion and deposition",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reading a climate graph skill",
+   "confidence": "high"
+  }
+ ],
+ "geo-option-geoecology-s5": [
+  {
+   "needs": "geo-option-geoecology-s4",
+   "strength": "essential",
+   "why": "biome features of rainforest altered by clearance",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s3",
+   "strength": "helpful",
+   "why": "soil erosion and degradation after clearance and intensive farming",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s2",
+   "strength": "helpful",
+   "why": "acid rain formation, spread and responses in Europe",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "helpful",
+   "why": "peat, Moneypoint and Irish energy mix",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rocks-weathering-s7",
+   "strength": "helpful",
+   "why": "deforestation effects and case studies",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s1": [
+  {
+   "needs": "geo-economic-development-s1",
+   "strength": "helpful",
+   "why": "development measures such as GNP, HDI, alternatives",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s3",
+   "strength": "helpful",
+   "why": "colonial legacies used in dependency theory",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s4",
+   "strength": "helpful",
+   "why": "core, semi-periphery, periphery used in world-systems theory",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "South Korea, Ireland rise examples of modernisation",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "Ireland's development stages for modernisation case",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s2": [
+  {
+   "needs": "geo-economic-globalisation-s1",
+   "strength": "essential",
+   "why": "MNC, FDI, Apple and Intel sourcing and markets",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s3",
+   "strength": "helpful",
+   "why": "world trade patterns, trading triad, division of labour",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s3",
+   "strength": "helpful",
+   "why": "greenhouse effect, warming causes and responses",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-geoecology-s3",
+   "strength": "helpful",
+   "why": "Sahel desertification and its causes",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "helpful",
+   "why": "push-pull factors and migration concepts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s4",
+   "strength": "helpful",
+   "why": "asylum, refugees, international protection policy",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s4",
+   "strength": "helpful",
+   "why": "worker exploitation, human rights in supply chains",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s2",
+   "strength": "helpful",
+   "why": "Apple Cork and MNC mobility",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s3": [
+  {
+   "needs": "geo-option-global-interdependence-s1",
+   "strength": "helpful",
+   "why": "development theories and bottom-up development",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s1",
+   "strength": "helpful",
+   "why": "growth, GNI and development indicators",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s4",
+   "strength": "helpful",
+   "why": "debt, structural adjustment, aid, NGOs taught there too",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s3",
+   "strength": "helpful",
+   "why": "colonial and Brazilian debt background",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Brazil land reform and MST",
+   "confidence": "low"
+  }
+ ],
+ "geo-option-global-interdependence-s4": [
+  {
+   "needs": "geo-economic-environment-s4",
+   "strength": "essential",
+   "why": "sustainable development, fish stocks, peatlands, forestry practice",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-option-global-interdependence-s1",
+   "strength": "helpful",
+   "why": "bottom-up and sustainable development views",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "helpful",
+   "why": "Irish energy mix and renewables",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s4",
+   "strength": "helpful",
+   "why": "fair trade and global justice",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Chico Mendes and extractive reserves",
+   "confidence": "low"
+  }
+ ],
+ "geo-plate-tectonics-s1": [],
+ "geo-plate-tectonics-s2": [
+  {
+   "needs": "geo-plate-tectonics-s1",
+   "strength": "essential",
+   "why": "uses crust, lithosphere, mantle, convection currents",
+   "confidence": "high"
+  }
+ ],
+ "geo-plate-tectonics-s3": [
+  {
+   "needs": "geo-plate-tectonics-s2",
+   "strength": "essential",
+   "why": "uses plates, plate movement, sea-floor spreading",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-plate-tectonics-s1",
+   "strength": "helpful",
+   "why": "uses lithosphere, mantle and convection currents",
+   "confidence": "low"
+  }
+ ],
+ "geo-population-migration-s1": [
+  {
+   "needs": "geo-graph-skills-s2",
+   "strength": "helpful",
+   "why": "census data, age structure and birth and death rates",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads population pyramids and graphs",
+   "confidence": "high"
+  }
+ ],
+ "geo-population-migration-s2": [
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "essential",
+   "why": "uses density, growth rates and demographic transition",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads population growth graphs",
+   "confidence": "low"
+  }
+ ],
+ "geo-population-migration-s3": [
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "helpful",
+   "why": "migration is a component of population change",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-graph-skills-s2",
+   "strength": "helpful",
+   "why": "reads census migration data",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "Celtic Tiger and banking collapse drive migration",
+   "confidence": "low"
+  }
+ ],
+ "geo-population-migration-s4": [
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "essential",
+   "why": "uses push and pull factors and migration concepts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-european-s4",
+   "strength": "helpful",
+   "why": "EU integration, free movement and enlargement",
+   "confidence": "low"
+  }
+ ],
+ "geo-population-migration-s5": [
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "essential",
+   "why": "uses migration concepts and Irish immigration patterns",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s4",
+   "strength": "helpful",
+   "why": "government approaches to migrants and asylum",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-concept-s3",
+   "strength": "helpful",
+   "why": "cultural and religious regions",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-european-s3",
+   "strength": "helpful",
+   "why": "Northern Ireland cultural groups",
+   "confidence": "low"
+  }
+ ],
+ "geo-population-migration-s6": [
+  {
+   "needs": "geo-population-migration-s3",
+   "strength": "essential",
+   "why": "uses push and pull factors and donor/receiver regions",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-concept-s4",
+   "strength": "helpful",
+   "why": "core and peripheral regions as receiver and donor",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "helpful",
+   "why": "uses population distribution and growth",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-ireland-s2",
+   "strength": "helpful",
+   "why": "West of Ireland rural decline and responses",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s1",
+   "strength": "helpful",
+   "why": "India urbanisation and migration",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Brazil urbanisation and internal migration",
+   "confidence": "low"
+  }
+ ],
+ "geo-region-concept-s1": [
+  {
+   "needs": "geo-rocks-weathering-s4",
+   "strength": "essential",
+   "why": "Burren as karst region: limestone pavement, features",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-volcanoes-earthquakes-s5",
+   "strength": "essential",
+   "why": "Munster ridge and valley: folding, Armorican front",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-concept-s2": [
+  {
+   "needs": "geo-region-concept-s1",
+   "strength": "essential",
+   "why": "what a region is, scale and boundaries",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-eu-s3",
+   "strength": "helpful",
+   "why": "EU regional funds and assemblies",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-concept-s3": [
+  {
+   "needs": "geo-region-concept-s1",
+   "strength": "essential",
+   "why": "what a region is, indices and boundaries",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-concept-s4": [
+  {
+   "needs": "geo-region-concept-s1",
+   "strength": "essential",
+   "why": "what a region is, indices and boundaries",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "industrial decline causes and evidence",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-concept-s5": [
+  {
+   "needs": "geo-region-concept-s1",
+   "strength": "essential",
+   "why": "what a region is, scale and boundaries",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-continental-s1": [
+  {
+   "needs": "geo-rivers-s1",
+   "strength": "essential",
+   "why": "river systems, floodplains, delta terms",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-volcanoes-earthquakes-s5",
+   "strength": "essential",
+   "why": "Himalayas as fold mountains",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "essential",
+   "why": "demographic transition, pyramids, density",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-plate-tectonics-s3",
+   "strength": "helpful",
+   "why": "continental collision forming the Himalayas",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-volcanoes-earthquakes-s3",
+   "strength": "helpful",
+   "why": "Deccan Traps lava plateau",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "helpful",
+   "why": "soils and the rock cycle",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s4",
+   "strength": "helpful",
+   "why": "dams, canals and flood control",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "helpful",
+   "why": "location factors for manufacturing",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s7",
+   "strength": "helpful",
+   "why": "megacity problems and slums",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s6",
+   "strength": "helpful",
+   "why": "rural-to-urban migration in India",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-continental-s2": [
+  {
+   "needs": "geo-rivers-s1",
+   "strength": "essential",
+   "why": "river basins, floodplains and river terms",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "essential",
+   "why": "demographic transition, pyramids, density",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s4",
+   "strength": "helpful",
+   "why": "hydroelectric dams and their impacts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "helpful",
+   "why": "location factors for manufacturing",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s7",
+   "strength": "helpful",
+   "why": "São Paulo and developing-world city problems",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s6",
+   "strength": "helpful",
+   "why": "rural-to-urban and internal migration",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-european-s1": [
+  {
+   "needs": "geo-region-concept-s4",
+   "strength": "essential",
+   "why": "core region characteristics",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-volcanoes-earthquakes-s4",
+   "strength": "essential",
+   "why": "Paris Basin sedimentary structure, escarpments, strata",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "essential",
+   "why": "location factors for manufacturing around Paris",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s4",
+   "strength": "helpful",
+   "why": "Paris urban land use and growth",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-concept-s2",
+   "strength": "helpful",
+   "why": "French départements and scales",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-european-s2": [
+  {
+   "needs": "geo-region-concept-s4",
+   "strength": "essential",
+   "why": "peripheral region characteristics and responses",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-volcanoes-earthquakes-s1",
+   "strength": "essential",
+   "why": "volcanic activity, Vesuvius hazards",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-volcanoes-earthquakes-s2",
+   "strength": "helpful",
+   "why": "earthquakes in southern Italy",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "helpful",
+   "why": "factors in industrial location",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-european-s3": [
+  {
+   "needs": "geo-region-concept-s3",
+   "strength": "essential",
+   "why": "cultural regions: language and religion, Belgium",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-concept-s2",
+   "strength": "essential",
+   "why": "administrative and political regions and boundaries",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-eu-s1",
+   "strength": "helpful",
+   "why": "single market and EU trading bloc",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-european-s4": [
+  {
+   "needs": "geo-region-concept-s3",
+   "strength": "essential",
+   "why": "Gaeltacht and cultural region ideas",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-concept-s2",
+   "strength": "essential",
+   "why": "administrative regions, council structures, boundaries",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-european-s3",
+   "strength": "helpful",
+   "why": "Belgium, EU union and sovereignty background",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-ireland-s1",
+   "strength": "helpful",
+   "why": "Greater Dublin Area growth",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-ireland-s1": [
+  {
+   "needs": "geo-region-concept-s4",
+   "strength": "essential",
+   "why": "core region characteristics and criteria",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "essential",
+   "why": "location factors for manufacturing: markets, labour, agglomeration",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-concept-s1",
+   "strength": "helpful",
+   "why": "Irish climate and region sketch concepts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-concept-s5",
+   "strength": "helpful",
+   "why": "Dublin primate city and hinterland",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-glaciation-s1",
+   "strength": "helpful",
+   "why": "glacial landforms in the GDA",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s5",
+   "strength": "helpful",
+   "why": "urban problems in Dublin",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "helpful",
+   "why": "population distribution and dynamics terms",
+   "confidence": "high"
+  }
+ ],
+ "geo-region-ireland-s2": [
+  {
+   "needs": "geo-region-concept-s4",
+   "strength": "essential",
+   "why": "peripheral region characteristics and responses",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s2",
+   "strength": "essential",
+   "why": "location factors for manufacturing and services",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-concept-s1",
+   "strength": "helpful",
+   "why": "oceanic climate and region concepts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-concept-s3",
+   "strength": "helpful",
+   "why": "Gaeltacht and language region",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s6",
+   "strength": "helpful",
+   "why": "rural decline and donor region migration",
+   "confidence": "high"
+  }
+ ],
+ "geo-rivers-s1": [],
+ "geo-rivers-s2": [
+  {
+   "needs": "geo-rivers-s1",
+   "strength": "essential",
+   "why": "uses long profile, valley features, erosion",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-glaciation-s2",
+   "strength": "essential",
+   "why": "base level, isostatic and eustatic change taught there",
+   "confidence": "high"
+  }
+ ],
+ "geo-rivers-s3": [
+  {
+   "needs": "geo-rivers-s1",
+   "strength": "essential",
+   "why": "uses fluvial landforms and denudation processes",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s2",
+   "strength": "helpful",
+   "why": "uplift and rejuvenation in the cycle",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "helpful",
+   "why": "denudation includes weathering",
+   "confidence": "low"
+  }
+ ],
+ "geo-rivers-s4": [
+  {
+   "needs": "geo-rivers-s1",
+   "strength": "essential",
+   "why": "uses river flow, erosion and deposition processes",
+   "confidence": "high"
+  }
+ ],
+ "geo-rocks-weathering-s1": [
+  {
+   "needs": "geo-plate-tectonics-s3",
+   "strength": "helpful",
+   "why": "rock cycle linked to plate tectonics",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-volcanoes-earthquakes-s1",
+   "strength": "helpful",
+   "why": "volcanic rock and lava",
+   "confidence": "low"
+  }
+ ],
+ "geo-rocks-weathering-s2": [
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "essential",
+   "why": "uses rock types and how oil, gas, limestone form",
+   "confidence": "high"
+  }
+ ],
+ "geo-rocks-weathering-s3": [
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "helpful",
+   "why": "weathering depends on rock type",
+   "confidence": "low"
+  }
+ ],
+ "geo-rocks-weathering-s4": [
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "essential",
+   "why": "karst and tors form by carbonation and weathering",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "essential",
+   "why": "uses limestone and granite formation",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-volcanoes-earthquakes-s3",
+   "strength": "helpful",
+   "why": "granite batholith origin of Wicklow uplands",
+   "confidence": "low"
+  }
+ ],
+ "geo-rocks-weathering-s5": [
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "helpful",
+   "why": "weathered material feeds mass movement",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-volcanoes-earthquakes-s1",
+   "strength": "helpful",
+   "why": "lahars as volcanic mudflows",
+   "confidence": "low"
+  }
+ ],
+ "geo-rocks-weathering-s6": [
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "helpful",
+   "why": "uses physical weathering of desert rock",
+   "confidence": "low"
+  }
+ ],
+ "geo-rocks-weathering-s7": [
+  {
+   "needs": "geo-rocks-weathering-s5",
+   "strength": "essential",
+   "why": "uses mass movement types and governing factors",
+   "confidence": "high"
+  }
+ ],
+ "geo-sea-s1": [
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "helpful",
+   "why": "uses weathering in coastal erosion",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s5",
+   "strength": "helpful",
+   "why": "uses mass movement on cliffs",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-glaciation-s2",
+   "strength": "helpful",
+   "why": "sea-level change and eustatic movements",
+   "confidence": "low"
+  }
+ ],
+ "geo-sea-s2": [
+  {
+   "needs": "geo-sea-s1",
+   "strength": "essential",
+   "why": "uses waves, longshore drift, erosion and dune landforms",
+   "confidence": "high"
+  }
+ ],
+ "geo-urban-s1": [
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "reads historic settlement phases and place names on OS maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "evidence of historical development in a town",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s2": [
+  {
+   "needs": "geo-urban-s1",
+   "strength": "helpful",
+   "why": "settlement history explains clachans and rural patterns",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "identifies settlement patterns on OS maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-ireland-s2",
+   "strength": "helpful",
+   "why": "rural settlement and decline in the West",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s3": [
+  {
+   "needs": "geo-urban-s1",
+   "strength": "essential",
+   "why": "uses site, situation and function",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "identifies site and functions on OS maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "urban functions read from aerial photographs",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-concept-s5",
+   "strength": "helpful",
+   "why": "hinterland, primate city and nodal regions",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s4": [
+  {
+   "needs": "geo-urban-s3",
+   "strength": "essential",
+   "why": "uses urban functions, CBD and hierarchy",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "land-use zones and CBD read from photographs",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "town growth and layout on the map",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s5": [
+  {
+   "needs": "geo-urban-s4",
+   "strength": "essential",
+   "why": "uses land-use zones and urban expansion",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "traffic congestion and land-use change on photographs",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s6",
+   "strength": "helpful",
+   "why": "rural-to-urban migration drives city growth",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-environment-s3",
+   "strength": "helpful",
+   "why": "urban air, water and waste pollution",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-ireland-s1",
+   "strength": "helpful",
+   "why": "Dublin urban problems case",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s6": [
+  {
+   "needs": "geo-urban-s5",
+   "strength": "essential",
+   "why": "planning responds to urban problems",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s4",
+   "strength": "helpful",
+   "why": "uses land-use zones and planning issues",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s2",
+   "strength": "helpful",
+   "why": "uses the planning system and development plans",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "industrial decline behind docklands renewal",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-concept-s5",
+   "strength": "helpful",
+   "why": "planning to balance Irish city regions",
+   "confidence": "low"
+  }
+ ],
+ "geo-urban-s7": [
+  {
+   "needs": "geo-population-migration-s6",
+   "strength": "essential",
+   "why": "rural-to-urban push and pull factors, India and Brazil slums",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s3",
+   "strength": "helpful",
+   "why": "site concept used for Kolkata, Mumbai, Sao Paulo site",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s5",
+   "strength": "helpful",
+   "why": "developed-world congestion, sprawl, pollution contrasted with these cities",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s6",
+   "strength": "helpful",
+   "why": "planning tools, new towns, renewal behind slum responses",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s1",
+   "strength": "helpful",
+   "why": "India's monsoon, rivers and Mumbai/Kolkata context",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Brazil's urbanisation, Sao Paulo, Curitiba context",
+   "confidence": "high"
+  }
+ ],
+ "geo-urban-s8": [
+  {
+   "needs": "geo-urban-s5",
+   "strength": "essential",
+   "why": "housing, transport, sprawl problems the future issues extend",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s6",
+   "strength": "helpful",
+   "why": "planning frameworks such as the National Planning Framework",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s7",
+   "strength": "helpful",
+   "why": "developing-world futures builds on slum and growth problems",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-population-migration-s1",
+   "strength": "helpful",
+   "why": "ageing populations, dependency ratios",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s3",
+   "strength": "helpful",
+   "why": "climate change and emissions in cities",
+   "confidence": "low"
+  }
+ ],
+ "geo-volcanoes-earthquakes-s1": [
+  {
+   "needs": "geo-plate-tectonics-s3",
+   "strength": "essential",
+   "why": "volcanoes at plate boundaries and Ring of Fire",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "helpful",
+   "why": "uses igneous rock and lava types",
+   "confidence": "low"
+  }
+ ],
+ "geo-volcanoes-earthquakes-s2": [
+  {
+   "needs": "geo-plate-tectonics-s3",
+   "strength": "essential",
+   "why": "earthquakes by plate boundary type",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-plate-tectonics-s1",
+   "strength": "helpful",
+   "why": "uses crust and lithosphere structure",
+   "confidence": "low"
+  }
+ ],
+ "geo-volcanoes-earthquakes-s3": [
+  {
+   "needs": "geo-volcanoes-earthquakes-s1",
+   "strength": "essential",
+   "why": "uses volcano, lava types, extrusive activity",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "essential",
+   "why": "uses igneous and plutonic rock formation",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-plate-tectonics-s3",
+   "strength": "helpful",
+   "why": "uses constructive boundaries and hot spots",
+   "confidence": "low"
+  }
+ ],
+ "geo-volcanoes-earthquakes-s4": [
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "essential",
+   "why": "uses sedimentary rock formation and bedding",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s3",
+   "strength": "helpful",
+   "why": "differential erosion relies on weathering and erosion",
+   "confidence": "low"
+  }
+ ],
+ "geo-volcanoes-earthquakes-s5": [
+  {
+   "needs": "geo-plate-tectonics-s3",
+   "strength": "essential",
+   "why": "compression at collision boundaries forms fold mountains",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-volcanoes-earthquakes-s4",
+   "strength": "helpful",
+   "why": "uses strata, differential erosion of layered rock",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rocks-weathering-s1",
+   "strength": "helpful",
+   "why": "uses rock types being folded",
+   "confidence": "low"
+  }
+ ],
+ "geo-weather-climate-s1": [
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "essential",
+   "why": "weather data calculations, graphs and climate graphs",
+   "confidence": "high"
+  }
+ ],
+ "geo-weather-climate-s2": [
+  {
+   "needs": "geo-weather-climate-s1",
+   "strength": "essential",
+   "why": "recognising fronts and pressure systems on images",
+   "confidence": "high"
+  }
+ ],
+ "geo-weather-climate-s3": [
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "GIS layers are map-based analysis",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "aerial photographs used as GIS data in studies",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-weather-climate-s2",
+   "strength": "helpful",
+   "why": "satellite imagery as GIS data source",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s5",
+   "strength": "helpful",
+   "why": "urban sprawl case study",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-urban-s1",
+   "strength": "helpful",
+   "why": "historic settlement and monuments study",
+   "confidence": "low"
+  }
+ ]
+}

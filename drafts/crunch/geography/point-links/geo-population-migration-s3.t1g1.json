@@ -1,0 +1,594 @@
+{
+ "geo-population-migration-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.1",
+    "strength": "helpful",
+    "why": "uses emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.1.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.3.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.1.b",
+    "strength": "helpful",
+    "why": "push and pull factors",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-population-migration-s3.2.b",
+    "strength": "essential",
+    "why": "intervening obstacles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s1.1.1",
+    "strength": "helpful",
+    "why": "census as population count",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.5.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s3.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s3.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.6",
+    "strength": "essential",
+    "why": "chain migration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.1",
+    "strength": "helpful",
+    "why": "net migration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.6.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.5",
+    "strength": "helpful",
+    "why": "return migration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.8.2",
+    "strength": "essential",
+    "why": "undocumented emigrants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.4",
+    "strength": "helpful",
+    "why": "asylum seekers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.9.1",
+    "strength": "essential",
+    "why": "EU enlargement 2004",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.9.1",
+    "strength": "helpful",
+    "why": "2004 accession countries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.1",
+    "strength": "helpful",
+    "why": "immigration and net migration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.10.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s3.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.10.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s3.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.4",
+    "strength": "helpful",
+    "why": "refugees and protection",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.4",
+    "strength": "helpful",
+    "why": "asylum seekers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.12.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-population-migration-s1.1.0",
+    "strength": "essential",
+    "why": "population change formula",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-population-migration-s3.0.1",
+    "strength": "helpful",
+    "why": "net migration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.13.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-population-migration-s3.13.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.15.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.15.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.16.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.5",
+    "strength": "helpful",
+    "why": "return migration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.16.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.17.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s1.30.b",
+    "strength": "helpful",
+    "why": "ageing and dependency",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-population-migration-s3.17.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.17.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.17.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.17.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.12.0",
+    "strength": "essential",
+    "why": "net migration vs natural increase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.18.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.18.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.18.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.18.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.18.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.16.0",
+    "strength": "helpful",
+    "why": "remittances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.19.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.19.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.19.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.0.5",
+    "strength": "helpful",
+    "why": "return migration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-population-migration-s3.19.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.20.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-population-migration-s3.20.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-population-migration-s3.9.1",
+    "strength": "essential",
+    "why": "2004 EU accession",
+    "confidence": "high"
+   }
+  ]
+ }
+}

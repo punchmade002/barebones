@@ -1,0 +1,121 @@
+import json,re
+P='/Users/gabrielwhelan/barebones/drafts/crunch/geography/'
+N='geo-volcanoes-earthquakes-s2.'
+def L(i,why,s='helpful',c='high'):
+    return (i if i.startswith('geo-') else N+i, s, why, c)
+E='essential'
+D={
+'0.b':(1,[]),
+'0.0':(1,[L('geo-plate-tectonics-s3.0.b','plate movement types')]),
+'0.1':(1,[]),'0.2':(1,[]),'0.3':(1,[]),
+'0.4':(1,[L('0.b','four-step cycle')]),
+'0.5':(1,[]),
+'1.b':(1,[]),
+'1.0':(1,[L('0.2','rupture along a fault')]),
+'1.1':(1,[L('1.0','point above the focus',E)]),
+'1.2':(1,[]),'1.3':(1,[]),
+'1.4':(2,[L('1.0','focus',E),L('1.1','epicentre',E),L('1.2','fault',E),L('1.3','seismic waves',E)]),
+'1.5':(1,[L('1.0','focus depth',E)]),
+'2.b':(1,[]),
+'2.0':(1,[L('1.3','seismic waves')]),
+'2.1':(1,[L('2.0','compared with P waves',E)]),
+'2.2':(1,[L('2.0','arrival order vs P waves')]),
+'3.b':(1,[]),
+'3.0':(1,[L('1.3','seismic waves')]),
+'3.1':(1,[]),
+'3.2':(2,[L('2.0','P wave speed',E),L('2.1','S wave speed',E),L('3.0','seismograph records')]),
+'3.3':(2,[L('3.2','distance from arrival gap',E),L('1.1','epicentre',E)]),
+'4.b':(1,[]),
+'4.0':(1,[L('3.0','seismogram wave record')]),
+'4.1':(2,[L('4.0','Richter magnitude',E)]),
+'4.2':(1,[L('4.0','magnitude scale',E)]),
+'4.3':(1,[]),
+'4.4':(2,[L('4.3','intensity',E),L('4.0','magnitude',E),L('1.1','distance from epicentre')]),
+'5.b':(1,[L('geo-plate-tectonics-s3.0.b','boundary types')]),
+'5.0':(1,[L('geo-plate-tectonics-s3.13.0','Ring of Fire')]),
+'5.1':(1,[]),
+'6.b':(1,[L('geo-plate-tectonics-s3.0.0','constructive boundary')]),
+'6.0':(1,[L('geo-plate-tectonics-s3.2.0','shallow ridge earthquakes')]),
+'6.1':(1,[L('geo-plate-tectonics-s3.2.4','Iceland on the ridge')]),
+'7.b':(1,[L('geo-plate-tectonics-s3.5.1','subduction',E)]),
+'7.0':(1,[L('geo-plate-tectonics-s3.6.3','quakes along sinking plate')]),
+'7.1':(1,[L('geo-plate-tectonics-s3.5.1','subduction zone')]),
+'7.2':(1,[L('7.b','subduction examples','helpful','low')]),
+'8.b':(1,[L('geo-plate-tectonics-s3.8.0','collision and fold mountains')]),
+'8.0':(1,[L('8.b','collision boundaries',E)]),
+'8.1':(2,[L('8.0','Himalayan collision setting')]),
+'9.b':(1,[L('0.4','elastic rebound',E)]),
+'9.0':(1,[L('9.b','transform boundary')]),
+'9.1':(1,[L('9.b','transform boundary')]),
+'9.2':(2,[L('9.1','San Andreas Fault')]),
+'9.3':(1,[L('9.1','San Andreas system')]),
+'9.4':(2,[L('9.b','transform fault')]),
+'10.b':(1,[]),
+'10.0':(1,[L('1.2','ground rupture along fault')]),
+'10.1':(1,[]),
+'11.b':(1,[L('10.b','contrast with primary effects')]),
+'11.0':(1,[]),
+'11.1':(2,[L('7.1','undersea quake tsunamis')]),
+'11.2':(1,[L('11.1','Tohoku tsunami',E)]),
+'11.3':(1,[]),'11.4':(1,[]),
+'11.5':(2,[L('11.4','liquefaction')]),
+'11.6':(1,[]),
+'12.b':(1,[L('4.0','magnitude')]),
+'12.0':(1,[L('4.0','magnitude as energy',E)]),
+'12.1':(1,[L('1.5','shallow vs deep focus',E)]),
+'12.2':(1,[L('1.1','epicentre',E)]),
+'12.3':(1,[L('11.4','liquefaction')]),
+'12.4':(1,[]),'12.5':(1,[]),'12.6':(1,[]),
+'12.7':(2,[L('12.6','development and preparedness')]),
+'13.b':(1,[L('1.5','shallow focus damage')]),
+'13.0':(2,[L('1.0','shallow focus')]),
+'13.1':(1,[L('4.2','moment magnitude scale')]),
+'13.2':(2,[L('geo-plate-tectonics-s3.5.1','subduction',E)]),
+'14.b':(1,[L('1.5','shallow focus damage')]),
+'14.0':(1,[]),'14.1':(1,[]),
+'14.2':(1,[L('11.0','fires after quakes')]),
+'14.3':(1,[L('11.4','liquefaction',E)]),
+'14.4':(1,[]),
+'14.5':(1,[L('12.5','building codes')]),
+'15.b':(1,[L('7.1','undersea quake tsunami')]),
+'15.0':(1,[]),
+'15.1':(2,[L('geo-plate-tectonics-s3.5.1','subduction',E)]),
+'15.2':(1,[]),
+'16.b':(1,[]),'16.0':(1,[]),'16.1':(2,[]),
+'16.2':(1,[L('15.2','no earlier warning system')]),
+'17.b':(1,[]),'17.0':(1,[]),'17.1':(1,[]),
+'17.2':(2,[L('0.1','stress build-up',E)]),
+'17.3':(2,[L('0.5','foreshocks')]),
+'17.4':(1,[]),
+'18.b':(1,[L('17.b','prediction')]),
+'18.0':(1,[L('0.5','foreshocks')]),
+'18.1':(1,[]),
+'18.2':(2,[]),
+'18.3':(1,[L('18.2','the conviction',E)]),
+'19.b':(1,[L('17.b','prediction limits')]),
+'19.0':(2,[L('2.0','P waves',E),L('2.2','surface waves',E)]),
+'19.1':(1,[L('19.0','early warning seconds',E)]),
+'19.2':(1,[]),
+'19.3':(1,[L('15.2','Indian Ocean warning gap')]),
+'20.b':(1,[]),'20.0':(1,[]),'20.1':(1,[]),'20.2':(1,[]),'20.3':(1,[]),'20.4':(1,[]),'20.5':(1,[]),
+'21.b':(1,[]),
+'21.0':(1,[L('12.3','soft ground shakes more')]),
+'21.1':(1,[]),
+'21.2':(1,[L('11.1','Tohoku tsunami')]),
+'21.3':(1,[]),
+}
+txt=open(P+'packs/geo-volcanoes-earthquakes-s2.t1g1.txt').read()
+tgt=[]
+sec=txt.split('CANDIDATES')[0]
+tgt=re.findall(r'^\[(geo-volcanoes-earthquakes-s2\.[^\]]+)\]',sec,re.M)
+allids=set(re.findall(r'^\[([^\]]+)\]',txt,re.M))
+out={}
+for t in tgt:
+    k=t.split('s2.')[1]
+    c,ns=D[k]
+    out[t]={'cost':c,'needs':[{'id':i,'strength':s,'why':w,'confidence':cf} for i,s,w,cf in ns]}
+assert set(D)=={t.split('s2.')[1] for t in tgt},set(D)^{t.split('s2.')[1] for t in tgt}
+for t,v in out.items():
+    for n in v['needs']: assert n['id'] in allids and n['id']!=t,(t,n)
+json.dump(out,open(P+'point-links/geo-volcanoes-earthquakes-s2.t1g1.json','w'),indent=1)
+print(len(out),sum(len(v['needs']) for v in out.values()),sum(v['cost']==2 for v in out.values()),sum(n['confidence']=='low' for v in out.values() for n in v['needs']))

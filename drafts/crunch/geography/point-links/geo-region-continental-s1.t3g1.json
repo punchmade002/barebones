@@ -1,0 +1,787 @@
+{
+ "geo-region-continental-s1.58.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.50.1",
+    "strength": "essential",
+    "why": "Chota Nagpur coal and iron ore",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.58.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.11.3",
+    "strength": "helpful",
+    "why": "cotton on black soils",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.58.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.5",
+    "strength": "helpful",
+    "why": "Ganges delta",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.59.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.59.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.59.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.59.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.60.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.60.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.60.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.56.3",
+    "strength": "helpful",
+    "why": "export markets opened after 1991",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.61.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.61.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.61.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.61.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.61.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.62.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.62.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.55.3",
+    "strength": "helpful",
+    "why": "licensing (Licence Raj)",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.62.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.57.1",
+    "strength": "helpful",
+    "why": "Special Economic Zones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.63.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.63.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.63.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.63.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.54.2",
+    "strength": "helpful",
+    "why": "Hooghly jute mills",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.63.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.50.1",
+    "strength": "helpful",
+    "why": "Chota Nagpur minerals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.63.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.63.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.63.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.64.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.64.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.64.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.64.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.64.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.64.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.64.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.65.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.65.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.65.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.65.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.65.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.65.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.65.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.54.1",
+    "strength": "helpful",
+    "why": "Bombay cotton textile industry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.65.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.66.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.66.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.66.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.67.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.67.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.67.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.67.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.67.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.67.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.67.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.68.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.68.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.68.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.68.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.68.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.68.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.56.1",
+    "strength": "helpful",
+    "why": "1991 liberalisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.68.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.69.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.69.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.3",
+    "strength": "helpful",
+    "why": "Yamuna river",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.69.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.69.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.69.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.69.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.69.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.27.2",
+    "strength": "helpful",
+    "why": "Ganges and Varanasi",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.70.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.70.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.70.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.70.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.70.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.71.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.71.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.71.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.71.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.2.4",
+    "strength": "helpful",
+    "why": "cool dry season",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.71.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.71.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.72.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.72.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.72.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.72.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.72.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.72.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.73.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.73.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.73.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.73.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.73.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.74.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.74.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.74.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.74.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.74.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.74.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.71.2",
+    "strength": "helpful",
+    "why": "dry winter tourist season",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.74.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.75.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.75.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.75.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.75.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.75.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.75.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.76.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.76.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.76.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.76.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.77.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.77.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.77.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.77.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.77.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.78.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.78.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.78.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.78.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.79.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.79.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.79.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.79.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.79.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.80.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.80.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.80.b",
+    "strength": "helpful",
+    "why": "demographic transition model",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-region-continental-s1.42.1",
+    "strength": "helpful",
+    "why": "Green Revolution food supply",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.80.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.80.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.80.b",
+    "strength": "essential",
+    "why": "demographic transition model stages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.81.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.81.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.80.1",
+    "strength": "helpful",
+    "why": "total fertility rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.81.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.80.1",
+    "strength": "helpful",
+    "why": "total fertility rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.81.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.85.b",
+    "strength": "helpful",
+    "why": "female literacy",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.82.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.82.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.82.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.82.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.83.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.83.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.83.b",
+    "strength": "essential",
+    "why": "sex ratio definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.83.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.83.b",
+    "strength": "essential",
+    "why": "sex ratio definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.83.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.83.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.83.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.84.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.84.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.84.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.84.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.84.0",
+    "strength": "helpful",
+    "why": "young population structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.85.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.85.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-region-continental-s1.85.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.86.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.86.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.10.0",
+    "strength": "helpful",
+    "why": "fertile alluvial soils",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-region-continental-s1.86.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.86.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.86.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.87.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-region-continental-s1.87.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.5.4",
+    "strength": "helpful",
+    "why": "Thar Desert aridity",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-region-continental-s1.87.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-region-continental-s1.14.0",
+    "strength": "helpful",
+    "why": "thin Himalayan soils",
+    "confidence": "low"
+   }
+  ]
+ }
+}

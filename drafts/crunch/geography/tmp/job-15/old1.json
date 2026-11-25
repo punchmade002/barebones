@@ -1,0 +1,757 @@
+{
+"geo-economic-environment-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.4.b",
+"strength": "helpful",
+"why": "acid rain as transboundary example",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.2.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.2.0",
+"strength": "essential",
+"why": "builds on natural greenhouse effect",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.2.0",
+"strength": "helpful",
+"why": "uses term greenhouse gas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.2.0",
+"strength": "helpful",
+"why": "uses term greenhouse gas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.2.0",
+"strength": "helpful",
+"why": "uses term greenhouse gas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.3.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.2.1",
+"strength": "helpful",
+"why": "CO2 rise is enhanced greenhouse effect",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.4.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.4.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.4.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.4.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.4.4",
+"strength": "helpful",
+"why": "sea level rise evidence",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.5.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.4.5",
+"strength": "helpful",
+"why": "glacier retreat evidence",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.5.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.6.1": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s3.6.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.3.1",
+"strength": "helpful",
+"why": "methane source from cattle",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.7.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.7.0",
+"strength": "helpful",
+"why": "farming dominates emissions",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.8.0",
+"strength": "helpful",
+"why": "builds on UNFCCC",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.8.0",
+"strength": "helpful",
+"why": "COP meets under UNFCCC",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.3.0",
+"strength": "helpful",
+"why": "CO2 emissions being priced",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.9.1": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s3.9.2": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s3.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.9.2",
+"strength": "helpful",
+"why": "sectoral ceilings implement the Act",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.9.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.9.5": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s3.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.10.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.3.0",
+"strength": "helpful",
+"why": "burning fossil fuels gives CO2",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.3.1",
+"strength": "helpful",
+"why": "landfill gives methane",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.3.0",
+"strength": "helpful",
+"why": "burning fossil fuels gives CO2",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.1.1",
+"strength": "helpful",
+"why": "uses diffuse runoff from farms",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.11.0",
+"strength": "essential",
+"why": "nutrients from cause feed algae",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.11.1",
+"strength": "essential",
+"why": "algal bloom dying stage",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.11.1",
+"strength": "helpful",
+"why": "algal bloom effects",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.11.2",
+"strength": "helpful",
+"why": "fish kill",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.11.0",
+"strength": "helpful",
+"why": "nitrates from fertiliser",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.11.1",
+"strength": "helpful",
+"why": "algal growth from nutrients",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.11.0",
+"strength": "helpful",
+"why": "fertiliser and slurry runoff",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.13.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.11.0",
+"strength": "helpful",
+"why": "nitrogen pollution of water",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.14.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.14.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.11.1",
+"strength": "essential",
+"why": "eutrophication process",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.14.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.15.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.11.0",
+"strength": "helpful",
+"why": "slurry washing into rivers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.15.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s3.15.0",
+"strength": "helpful",
+"why": "builds on Nitrates Action Programme",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.15.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.15.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.17.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.17.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.17.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.17.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.18.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.17.3",
+"strength": "helpful",
+"why": "double-hulled tankers",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.19.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.19.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.20.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.17.3",
+"strength": "helpful",
+"why": "double-hulled tankers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.21.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.21.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.21.1",
+"strength": "helpful",
+"why": "plastics persist as microplastics",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.21.1",
+"strength": "helpful",
+"why": "plastic breakdown and persistence",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.21.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.21.1",
+"strength": "essential",
+"why": "uses term microplastics",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.22.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s3.22.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.22.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.22.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.23.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.3.3",
+"strength": "helpful",
+"why": "CFCs also greenhouse gases",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.23.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.23.0",
+"strength": "helpful",
+"why": "ozone destruction by CFCs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.23.0",
+"strength": "helpful",
+"why": "ozone absorbs ultraviolet radiation",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.23.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.23.0",
+"strength": "helpful",
+"why": "phasing out CFCs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.23.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s3.23.3",
+"strength": "helpful",
+"why": "recovery follows CFC phase-out",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s3.24.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.24.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.8.3",
+"strength": "helpful",
+"why": "smoky coal ban zones",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s3.24.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s3.24.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.10.3",
+"strength": "helpful",
+"why": "wind farm visual impact",
+"confidence": "low"
+}
+]
+}
+}

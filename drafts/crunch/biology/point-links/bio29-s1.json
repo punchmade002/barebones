@@ -1,0 +1,806 @@
+{
+ "bio29-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.0.3",
+    "strength": "helpful",
+    "why": "ventricles pump blood out",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.2",
+    "strength": "helpful",
+    "why": "atria receive blood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.2",
+    "strength": "helpful",
+    "why": "right atrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.2",
+    "strength": "helpful",
+    "why": "left atrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.3",
+    "strength": "helpful",
+    "why": "ventricles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.3",
+    "strength": "helpful",
+    "why": "left ventricle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.1.4",
+    "strength": "helpful",
+    "why": "aorta base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.0.2",
+    "strength": "helpful",
+    "why": "atria and ventricles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.2.0",
+    "strength": "essential",
+    "why": "AV valves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.2.0",
+    "strength": "essential",
+    "why": "AV valve flaps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.1.3",
+    "strength": "helpful",
+    "why": "pulmonary artery",
+    "confidence": "low"
+   },
+   {
+    "id": "bio29-s1.1.4",
+    "strength": "helpful",
+    "why": "aorta",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.2.3",
+    "strength": "essential",
+    "why": "semilunar valve pockets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.3.0",
+    "strength": "essential",
+    "why": "intercalated discs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.3.0",
+    "strength": "helpful",
+    "why": "cardiac muscle cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.0.4",
+    "strength": "essential",
+    "why": "thicker left ventricle wall",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.2.0",
+    "strength": "essential",
+    "why": "AV valves",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.2.3",
+    "strength": "helpful",
+    "why": "semilunar valves",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.1.1",
+    "strength": "helpful",
+    "why": "venae cavae",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.1.3",
+    "strength": "helpful",
+    "why": "pulmonary artery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.3.0",
+    "strength": "essential",
+    "why": "cardiac muscle structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.b",
+    "strength": "helpful",
+    "why": "types of variables",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.4",
+    "strength": "helpful",
+    "why": "ventricle wall thickness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.1.3",
+    "strength": "helpful",
+    "why": "arteries thick-walled",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.2.1",
+    "strength": "helpful",
+    "why": "valves one-way",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.2",
+    "strength": "essential",
+    "why": "repeats and mean",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.4.0",
+    "strength": "essential",
+    "why": "secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.4.8": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio29-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.1",
+    "strength": "helpful",
+    "why": "safety precautions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s1.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.1.3",
+    "strength": "helpful",
+    "why": "pulmonary artery",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.0.4",
+    "strength": "helpful",
+    "why": "left ventricle thicker",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.0.2",
+    "strength": "helpful",
+    "why": "atria",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.1.5",
+    "strength": "helpful",
+    "why": "coronary arteries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.1.3",
+    "strength": "helpful",
+    "why": "arteries thick-walled",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.1.1",
+    "strength": "helpful",
+    "why": "venae cavae to right atrium",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.1.4",
+    "strength": "helpful",
+    "why": "aorta from left ventricle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.3",
+    "strength": "helpful",
+    "why": "ventricles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.2.2",
+    "strength": "essential",
+    "why": "chordae and papillary muscles",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.2.0",
+    "strength": "helpful",
+    "why": "tricuspid valve",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.2.3",
+    "strength": "helpful",
+    "why": "semilunar valve",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.2.0",
+    "strength": "helpful",
+    "why": "bicuspid valve",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.2.4",
+    "strength": "essential",
+    "why": "semilunar valves closing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.2.1",
+    "strength": "helpful",
+    "why": "AV valves close",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.5",
+    "strength": "helpful",
+    "why": "septum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.4.5",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.4.6",
+    "strength": "helpful",
+    "why": "repeats and mean",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.6.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.3.5",
+    "strength": "helpful",
+    "why": "cardiac muscle slide",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.4",
+    "strength": "helpful",
+    "why": "sharp scalpel precautions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.1",
+    "strength": "helpful",
+    "why": "general control measures",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s1.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.9.0",
+    "strength": "helpful",
+    "why": "animal ethics",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio29-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.9.1",
+    "strength": "essential",
+    "why": "the 3Rs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.4.0",
+    "strength": "helpful",
+    "why": "primary and secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.0.4",
+    "strength": "helpful",
+    "why": "left ventricle thicker",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.0.5",
+    "strength": "helpful",
+    "why": "septum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio29-s1.2.0",
+    "strength": "essential",
+    "why": "AV valves",
+    "confidence": "high"
+   },
+   {
+    "id": "bio29-s1.2.3",
+    "strength": "helpful",
+    "why": "semilunar valves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.1.5",
+    "strength": "helpful",
+    "why": "coronary arteries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.4.7",
+    "strength": "helpful",
+    "why": "secondary data model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.3.5",
+    "strength": "helpful",
+    "why": "cardiac muscle micrograph",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.4",
+    "strength": "essential",
+    "why": "ventricle wall thickness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.2",
+    "strength": "helpful",
+    "why": "atria thin walls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.2.1",
+    "strength": "helpful",
+    "why": "one-way valves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.0.5",
+    "strength": "helpful",
+    "why": "septum function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.1.3",
+    "strength": "helpful",
+    "why": "artery walls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.4.1",
+    "strength": "helpful",
+    "why": "hypotheses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.4.5",
+    "strength": "helpful",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio29-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s1.4.7",
+    "strength": "helpful",
+    "why": "model heart",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio29-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.4",
+    "strength": "helpful",
+    "why": "sample size",
+    "confidence": "low"
+   }
+  ]
+ }
+}

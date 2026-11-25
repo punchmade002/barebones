@@ -1,0 +1,805 @@
+{
+ "geo-rocks-weathering-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.0.1",
+    "strength": "helpful",
+    "why": "weathering and erosion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.0.1",
+    "strength": "essential",
+    "why": "exogenic forces, erosion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.3.b",
+    "strength": "helpful",
+    "why": "igneous rock formation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.1.b",
+    "strength": "helpful",
+    "why": "ore defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.1.b",
+    "strength": "helpful",
+    "why": "ore processing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.0.1",
+    "strength": "helpful",
+    "why": "spoil heaps and tailings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.9.0",
+    "strength": "helpful",
+    "why": "Carboniferous limestone",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-rocks-weathering-s2.1.4",
+    "strength": "helpful",
+    "why": "underground mining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.1.3",
+    "strength": "helpful",
+    "why": "open-pit mining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.1.3",
+    "strength": "helpful",
+    "why": "open-pit mining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.0.1",
+    "strength": "helpful",
+    "why": "spoil tip waste",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.2.3",
+    "strength": "essential",
+    "why": "Aberfan collapse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.1.4",
+    "strength": "helpful",
+    "why": "underground workings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.0.1",
+    "strength": "helpful",
+    "why": "spoil heaps and tailings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.3.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.1.6",
+    "strength": "helpful",
+    "why": "tailings ponds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.4.0",
+    "strength": "helpful",
+    "why": "granite",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.12.2",
+    "strength": "helpful",
+    "why": "slate from shale",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.1.3",
+    "strength": "helpful",
+    "why": "overburden",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.5.2",
+    "strength": "helpful",
+    "why": "dimension stone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.5.0",
+    "strength": "helpful",
+    "why": "limestone quarried for cement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.7.0",
+    "strength": "essential",
+    "why": "heating limestone in kiln",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.7.1",
+    "strength": "essential",
+    "why": "CO2 from limestone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.9.0",
+    "strength": "helpful",
+    "why": "Carboniferous limestone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.5.1",
+    "strength": "helpful",
+    "why": "sand and gravel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.5.2",
+    "strength": "helpful",
+    "why": "granite quarrying",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.12.0",
+    "strength": "helpful",
+    "why": "marble from limestone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.5.3",
+    "strength": "helpful",
+    "why": "slate quarrying",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.6.b",
+    "strength": "helpful",
+    "why": "sedimentary rock",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.11.0",
+    "strength": "essential",
+    "why": "remains buried become oil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.7.3",
+    "strength": "essential",
+    "why": "porous and permeable rock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.11.2",
+    "strength": "essential",
+    "why": "migration and reservoir rock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.11.3",
+    "strength": "helpful",
+    "why": "traps to locate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.12.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.12.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.12.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.12.3",
+    "strength": "essential",
+    "why": "Corrib pipeline project",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.13.0",
+    "strength": "essential",
+    "why": "Deepwater Horizon spill",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.13.1",
+    "strength": "helpful",
+    "why": "the oil spill",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.13.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.14.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.8.0",
+    "strength": "helpful",
+    "why": "shale rock",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.14.0",
+    "strength": "helpful",
+    "why": "fracking",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.14.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.14.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.11.b",
+    "strength": "helpful",
+    "why": "fossil fuels",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.2.0",
+    "strength": "helpful",
+    "why": "plate boundaries and hotspots",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.16.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.15.2",
+    "strength": "helpful",
+    "why": "magma near surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.15.2",
+    "strength": "helpful",
+    "why": "magma near surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.16.0",
+    "strength": "helpful",
+    "why": "heated groundwater",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.16.1",
+    "strength": "essential",
+    "why": "steam from production wells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.16.1",
+    "strength": "helpful",
+    "why": "production wells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.17.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.17.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.18.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s1.5.1",
+    "strength": "helpful",
+    "why": "divergent boundaries and hotspots",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.18.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.18.0",
+    "strength": "helpful",
+    "why": "Iceland geothermal heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.18.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.18.0",
+    "strength": "helpful",
+    "why": "Iceland geothermal heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.16.2",
+    "strength": "helpful",
+    "why": "district heating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.18.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.18.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.18.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.19.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.17.0",
+    "strength": "helpful",
+    "why": "low-temperature geothermal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.19.0",
+    "strength": "helpful",
+    "why": "Irish geothermal potential",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.19.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.17.0",
+    "strength": "essential",
+    "why": "ground-source heat pumps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.20.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.20.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.20.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.20.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s2.20.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s2.17.1",
+    "strength": "helpful",
+    "why": "enhanced geothermal systems",
+    "confidence": "high"
+   }
+  ]
+ }
+}
