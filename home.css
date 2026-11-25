@@ -21,9 +21,12 @@
 @media (min-width: 700px) { :root { --gutter: 40px; } }
 
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+/* Safari paints the area under its toolbars from the root; without this it shows white */
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; background: var(--bg); }
 body {
   margin: 0;
+  /* viewport-fit=cover reaches the landscape notch; keep content beside it */
+  padding-inline: env(safe-area-inset-left) env(safe-area-inset-right);
   background: var(--bg);
   color: var(--ink);
   font: 400 17px/1.55 var(--font-body);

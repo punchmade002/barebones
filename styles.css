@@ -65,8 +65,13 @@
 /* ── Reset ───────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
 
+/* Safari paints the area under its toolbars from the root; without this it shows white */
+html { background: var(--bg); }
+
 body {
   margin: 0;
+  /* viewport-fit=cover reaches the landscape notch; keep content beside it */
+  padding-inline: env(safe-area-inset-left) env(safe-area-inset-right);
   height: 100vh;
   overflow: hidden;
   background: var(--bg);

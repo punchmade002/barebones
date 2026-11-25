@@ -74,10 +74,12 @@
 
   // `editing` reopens the questionnaire from the account menu: answers are
   // prefilled, there's no welcome line, and it can be dismissed without saving.
-  function open({ subjects, username = "", initial = {}, editing = false, onComplete }) {
+  function open({ subjects, username = "", teacher = false, initial = {}, editing = false, onComplete }) {
     const existing = document.getElementById("onboardingScreen");
     if (existing) existing.remove();
 
+    // Teachers aren't in a school year, so they never see that question.
+    const steps = teacher ? STEPS.filter((s) => s.id !== "year") : STEPS;
     const answers = {
       year: initial.year || "",
       subjects: Array.isArray(initial.subjects) ? [...initial.subjects] : [],
@@ -107,7 +109,7 @@
             ${editing ? `<button type="button" class="ob-close" data-ob-close aria-label="Close without saving">${icon("close")}</button>` : ""}
           </div>
           <ol class="ob-rail" aria-label="Setup progress">
-            ${STEPS.map((s, i) => `
+            ${steps.map((s, i) => `
               <li class="ob-rail-step" data-rail="${i}">
                 <span class="ob-rail-dot">${icon(s.icon)}</span>
                 <span class="ob-rail-label">${s.kicker}</span>
@@ -144,9 +146,11 @@
 
     function titleFor(id) {
       const first = escapeText(username ? `, ${username}` : "");
+      // The welcome goes on whichever step comes first (subjects, for teachers)
+      const welcome = !editing && id === steps[0].id ? `Welcome${first}. ` : "";
       return {
-        year: editing ? `What <em>year</em> are you in?` : `Welcome${first}. What <em>year</em> are you in?`,
-        subjects: `Which <em>subjects</em> are you taking?`,
+        year: `${welcome}What <em>year</em> are you in?`,
+        subjects: `${welcome}Which <em>subjects</em> are you taking?`,
         levels: `Which <em>level</em> for each?`,
         days: `Which <em>days</em> will you study?`,
         priority: `What's your <em>biggest priority</em> right now?`,
@@ -247,13 +251,13 @@
     }
 
     function renderFooter() {
-      const step = STEPS[stepIndex];
+      const step = steps[stepIndex];
       backBtn.classList.toggle("is-hidden", stepIndex === 0);
       backBtn.tabIndex = stepIndex === 0 ? -1 : 0;
       nextBtn.disabled = !isStepValid(step.id);
       nextBtn.querySelector("span").textContent =
-        stepIndex === STEPS.length - 1 ? "Finish" : "Continue";
-      railFill.style.setProperty("--p", String(stepIndex / (STEPS.length - 1)));
+        stepIndex === steps.length - 1 ? "Finish" : "Continue";
+      railFill.style.setProperty("--p", String(stepIndex / (steps.length - 1)));
       root.querySelectorAll(".ob-rail-step").forEach((el, i) => {
         el.classList.toggle("is-done", i < stepIndex);
         el.classList.toggle("is-current", i === stepIndex);
@@ -261,7 +265,7 @@
     }
 
     function renderStep({ animate = true } = {}) {
-      const step = STEPS[stepIndex];
+      const step = steps[stepIndex];
       const panel = document.createElement("div");
       panel.className = "ob-panel";
       panel.dataset.step = step.id;
@@ -295,7 +299,7 @@
       const key = active && ["year", "subject", "level", "day", "priority", "preset"]
         .map((k) => active.dataset?.[k] ? `[data-${k}="${active.dataset[k]}"]` : "")
         .find(Boolean);
-      body.innerHTML = bodyFor(STEPS[stepIndex].id);
+      body.innerHTML = bodyFor(steps[stepIndex].id);
       body.classList.add("is-static");
       if (key) body.querySelector(key)?.focus({ preventScroll: true });
       renderFooter();
@@ -303,15 +307,15 @@
 
     function go(delta) {
       const target = stepIndex + delta;
-      if (delta > 0 && !isStepValid(STEPS[stepIndex].id)) return;
-      if (target >= STEPS.length) return finish();
+      if (delta > 0 && !isStepValid(steps[stepIndex].id)) return;
+      if (target >= steps.length) return finish();
       if (target < 0) return;
       direction = delta > 0 ? 1 : -1;
       stepIndex = target;
       // Keep downstream answers consistent with the subject list.
       answers.subjects = answers.subjects.filter((id) => subjectById(id));
       if (!answers.subjects.includes(answers.prioritySubject)) answers.prioritySubject = "";
-      if (STEPS[stepIndex].id === "priority" && !answers.prioritySubject && answers.subjects.length === 1) {
+      if (steps[stepIndex].id === "priority" && !answers.prioritySubject && answers.subjects.length === 1) {
         answers.prioritySubject = answers.subjects[0];
       }
       renderStep();
@@ -347,7 +351,7 @@
           <h2 id="obTitle" class="ob-title">${editing ? "Plan <em>updated.</em>" : "You're <em>all set.</em>"}</h2>
           <p class="ob-sub">Change any of this later from <b>Study plan</b> in your account menu.</p>
           <div class="ob-summary">
-            <span class="ob-chip" style="--i:0">${icon(year?.icon || "cap")}${escapeText(year?.label || "")}</span>
+            ${year ? `<span class="ob-chip" style="--i:0">${icon(year.icon)}${escapeText(year.label)}</span>` : ""}
             <span class="ob-chip" style="--i:1">${icon("stack")}${result.subjects.length} subject${result.subjects.length === 1 ? "" : "s"}</span>
             <span class="ob-chip" style="--i:2">${icon("calendar")}${escapeText(dayNames.join(" · "))}</span>
             <span class="ob-chip ob-chip-hot" style="--i:3">${icon(priority?.id || "target")}${escapeText(priority?.title || "")} first</span>

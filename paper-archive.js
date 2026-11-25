@@ -401,6 +401,33 @@ async function buildPageStrip() {
 }
 
 // Thumbnails render one at a time so they never hold up the page being read
+// The strip stays compact until a mouse comes near it or a finger touches it
+function bindPageStrip() {
+  const foot = pv.strip.parentElement;
+  const setOpen = (open) => {
+    if (foot.classList.contains("is-open") === open) return;
+    foot.classList.toggle("is-open", open);
+    pv.strip.querySelector(".pv-thumb.is-active")?.scrollIntoView({ block: "nearest", inline: "center" });
+  };
+  let wasOpen = true;
+  pv.root.addEventListener("pointermove", (event) => {
+    if (event.pointerType === "mouse") setOpen(event.clientY > foot.getBoundingClientRect().top - 80);
+  });
+  pv.root.addEventListener("pointerdown", (event) => {
+    if (foot.contains(event.target)) {
+      wasOpen = foot.classList.contains("is-open");
+      setOpen(true);
+    } else if (event.pointerType !== "mouse") {
+      setOpen(false);
+    }
+  });
+  // Capture phase: a tap on the compact strip only opens it, it doesn't also turn the page
+  foot.addEventListener("click", (event) => {
+    if (event.detail && !wasOpen) event.stopPropagation();
+    wasOpen = true;
+  }, true);
+}
+
 async function drainThumbQueue() {
   if (viewer.thumbBusy) return;
   viewer.thumbBusy = true;
@@ -412,7 +439,8 @@ async function drainThumbQueue() {
       const canvas = thumb.querySelector("canvas");
       const ratio = window.devicePixelRatio || 1;
       const base = page.getViewport({ scale: 1 });
-      const viewport = page.getViewport({ scale: (thumb.clientWidth * ratio) / base.width });
+      // The open strip's width, so a thumb drawn while the strip is compact stays sharp
+      const viewport = page.getViewport({ scale: (52 * ratio) / base.width });
       canvas.width = Math.floor(viewport.width);
       canvas.height = Math.floor(viewport.height);
       await page.render({ canvasContext: canvas.getContext("2d"), viewport }).promise;
@@ -918,6 +946,7 @@ function initPaperArchive() {
   });
   bindPaperInk();
   bindPaperPan();
+  bindPageStrip();
   setPaperTool("view");
 
   let resizeTimer = 0;
