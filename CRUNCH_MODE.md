@@ -327,3 +327,4 @@ Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the
 - **Coursework** is the "AAC" at weight 0.5 (project 20% + performance 30%), with `short: "coursework"` for the UI labels.
 - **Cuts** at a written-paper target of 88/72/55/38%: 18/38/53/75% of study effort. App: `pe-crunch.js`, registered in
   `CRUNCH_FILES`. All 2,221 point keys match the rendered notes. H3 with 80% coursework cuts 38%.
+- Map: https://claude.ai/artifact/RSGnWjmh4CpJZcHLqBJrzZ (`drafts/crunch/pe/map/`, Biology's page with PE wording; crunch-score.js is a symlink).
