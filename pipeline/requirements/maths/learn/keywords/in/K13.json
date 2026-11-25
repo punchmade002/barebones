@@ -1,0 +1,353 @@
+[
+ {
+  "skill": "stat-quartiles-iqr",
+  "title": "Find quartiles and the interquartile range",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "data set",
+  "output": "Q₁, Q₂, Q₃, IQR",
+  "example": "2, 4, 5, 7, 9, 11, 12 → IQR 7",
+  "what": [
+   "You give it a list of numbers. It finds the three values that cut the list into four equal parts, $Q_1$, $Q_2$ and $Q_3$, and the **interquartile range**.",
+   "Put the list in order first. The median splits it in half, then $Q_1$ and $Q_3$ are the medians of the two halves."
+  ],
+  "question": "The number of text messages Aoife sent on eight days was:\n$11, 4, 18, 7, 20, 13, 8, 15$\nFind the interquartile range."
+ },
+ {
+  "skill": "stat-scatter-correlation",
+  "title": "Read scatter plots and correlation",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "bivariate data/plot",
+  "output": "strength and direction; match r to plot; correlation ≠ causation",
+  "example": "r = −0.9 → strong negative linear",
+  "what": [
+   "You give it a scatter plot. It tells you the **direction** and the **strength** of the link between the two variables, and which value of $r$ fits.",
+   "$r$ always lies between $-1$ and $1$. The sign is the direction. The closer to $1$ or $-1$, the tighter the points lie on a straight line."
+  ],
+  "question": "A teacher records hours of TV watched, $x$, and test score, $y$, for five students.\n$x$: 1, 2, 3, 4, 5\n$y$: 9, 7, 6, 3, 2\nThe points lie close to a straight line sloping downhill. Choose the value of $r$ from $0.99$, $-0.2$, $-0.99$ and explain your choice."
+ },
+ {
+  "skill": "stat-outliers",
+  "title": "Recognise outliers",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "data set",
+  "output": "outliers (e.g. beyond 1.5 × IQR)",
+  "example": "3, 4, 5, 5, 6, 30 → 30",
+  "what": [
+   "You give it a data set. It finds any value that sits far away from the rest, an **outlier**.",
+   "Build a fence on each side of the middle half of the data. Anything beyond a fence is an outlier."
+  ],
+  "question": "Find any outliers in this data set, using the rule that an outlier lies more than $1.5 \\times \\text{IQR}$ above $Q_3$ or below $Q_1$.\n$3, 5, 6, 7, 8, 9, 11, 30$"
+ },
+ {
+  "skill": "stat-grouped-mean",
+  "title": "Estimate the mean of grouped data",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "grouped frequency table",
+  "output": "mean via mid-interval values",
+  "example": "0–10: 4, 10–20: 6 → 11",
+  "what": [
+   "You give it a frequency table with the data in groups. It estimates the **mean**, because you no longer know the exact values.",
+   "Pretend every value in a group sits at the middle of that group, the **mid-interval value**. Then find the mean the usual way."
+  ],
+  "question": "The table shows the number of minutes 20 students spent on homework.\nMinutes: 0–10, 10–20, 20–30, 30–40\nNumber of students: 3, 7, 6, 4\nEstimate the mean time."
+ },
+ {
+  "skill": "stat-choose-display",
+  "title": "Select an appropriate graphical/numerical summary",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "data type + question",
+  "output": "chosen method with reason",
+  "example": "bivariate numerical → scatter plot",
+  "what": [
+   "You give it a **type of data** and a question. It gives back the graph or number that answers the question, and a reason.",
+   "The key idea: match the tool to the data. Numbers that can have a few extreme values need the **median**; two numerical measures on the same people need a scatter plot; shares of a whole need a pie chart."
+  ],
+  "question": "Six students are asked how much pocket money they get each week (in euro): $5, 6, 6, 7, 8, 40$. Which average describes a typical student better, the mean or the median? Calculate both and give a reason."
+ },
+ {
+  "skill": "stat-distribution-shape",
+  "title": "Describe a distribution's shape",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "histogram/stem plot",
+  "output": "symmetric, positive/negative skew; effect on mean vs median",
+  "example": "long right tail → positive skew, mean > median",
+  "what": [
+   "You give it a histogram or stem-and-leaf plot, or the data behind one. It says whether the shape is **symmetric**, or has a long tail to one side (**skew**).",
+   "The key idea: the tail pulls the mean toward it. A long right tail is positive skew, with mean above median. A long left tail is negative skew, with mean below median."
+  ],
+  "question": "The number of text messages sent by eight students in one day is: $1, 2, 2, 3, 3, 4, 5, 24$. Find the mean and the median. What does this tell you about the shape of the distribution?"
+ },
+ {
+  "skill": "stat-back-to-back",
+  "title": "Compare data sets with back-to-back stem-and-leaf plots",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "two data sets",
+  "output": "plot and comparison of centre/spread",
+  "example": "boys vs girls reaction times",
+  "what": [
+   "You give it two data sets. It puts them on one **back-to-back stem-and-leaf plot**, then compares their centre and spread.",
+   "The key idea: both sets share one column of stems. The leaves of one grow to the left, the other to the right, so the two shapes sit side by side."
+  ],
+  "question": "The times, in seconds, that seven students took to finish a puzzle in two weeks are: Week 1: $28, 35, 21, 47, 33, 24, 42$. Week 2: $36, 22, 31, 18, 38, 29, 23$. Show the data on a back-to-back stem-and-leaf plot and compare the two weeks using the median and the range."
+ },
+ {
+  "skill": "stat-plan-collect",
+  "title": "Design a plan and questions to collect data",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "research question",
+  "output": "data-collection plan, unbiased questions",
+  "example": "leading question → neutral rewording",
+  "what": [
+   "You give it a research question. It gives back a **plan** for collecting the data and survey questions that do not push people toward an answer.",
+   "The key idea: every group you care about must get a fair share of the sample, and a question must not hint at the answer you hope for."
+  ],
+  "question": "A school of $800$ students has four year groups of $200$. The principal wants to find out what students think of the canteen, and plans to ask: \"Don't you agree the canteen food is awful?\" She will survey $40$ students. Rewrite the question fairly and say how many students to ask from each year group."
+ },
+ {
+  "skill": "stat-sd",
+  "title": "Calculate standard deviation (calculator)",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "OL",
+  "input": "data set or frequency table",
+  "output": "σ",
+  "example": "2, 4, 4, 4, 5, 5, 7, 9 → σ = 2",
+  "what": [
+   "You give it a data set, or a frequency table. It finds the **standard deviation**, $\\hl{2}{\\sigma}$, a single number for how spread out the data is.",
+   "It measures how far the values sit from the mean, on average: a small $\\hl{2}{\\sigma}$ means the values bunch together, a big one means they are scattered.",
+   "On an Ordinary Level paper you do not need the formula by hand. Put the data into the calculator's statistics mode and read $\\sigma$."
+  ],
+  "question": "Five runners' times in a race, in seconds, are\n$12, 15, 9, 14, 10$.\nFind the mean and the standard deviation of the times. Give the standard deviation correct to one decimal place."
+ },
+ {
+  "skill": "stat-percentiles",
+  "title": "Use percentiles for relative standing",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "HL",
+  "input": "data set or distribution + value",
+  "output": "percentile rank / value at percentile",
+  "example": "80th percentile → 80% score below",
+  "what": [
+   "You give it a data set and a percentage. It finds the value that has that percentage of the data **below** it.",
+   "The $80$th percentile is the score with $80\\%$ of the scores under it, so you find its position by taking that percentage of the number of scores."
+  ],
+  "question": "Twenty students sat a test. Their scores, in order, were:\n$34, 41, 45, 48, 52, 55, 57, 60, 62, 64, 66, 68, 70, 71, 73, 75, 78, 82, 85, 91$\nFind the $80$th percentile score."
+ },
+ {
+  "skill": "stat-sampling-methods-hl",
+  "title": "Define stratified, cluster and quota sampling; role of randomisation and controls",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "HL",
+  "input": "study description",
+  "output": "method; biases, limitations, ethics; control group",
+  "example": "sampling by year group proportionally → stratified",
+  "what": [
+   "You give it a description of how a study chose its people. It names the method (**stratified**, cluster or quota), and says what bias or control it needs.",
+   "The key idea is who gets picked. Stratified splits the group into types and samples each type in proportion. Cluster picks whole groups. Quota fills set numbers but not at random."
+  ],
+  "question": "A school has $900$ students: $270$ in 1st year, $225$ in 2nd, $180$ in 3rd, $135$ in 4th and $90$ in 5th. A survey needs a stratified random sample of $60$ students, by year group. Name the method and find how many 3rd years are chosen."
+ },
+ {
+  "skill": "stat-correlation-calc",
+  "title": "Calculate the correlation coefficient (calculator)",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "HL",
+  "input": "bivariate data",
+  "output": "r",
+  "example": "(1, 2), (2, 4), (3, 6) → r = 1",
+  "what": [
+   "You give it pairs of values, $x$ and $y$. The calculator returns $r$, the **correlation coefficient**.",
+   "$r$ lies between $-1$ and $1$. Near $1$ the points rise along a line, near $-1$ they fall along a line, near $0$ there is no straight-line link."
+  ],
+  "question": "Five students recorded hours of revision $x$ and test mark $y$:\n$(1, 3), (2, 5), (3, 4), (4, 7), (5, 9)$.\nFind the correlation coefficient $r$, correct to $3$ decimal places, and say what it shows."
+ },
+ {
+  "skill": "stat-line-best-fit",
+  "title": "Draw a line of best fit by eye and predict",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "HL",
+  "input": "scatter plot",
+  "output": "line, equation, prediction",
+  "example": "read y at x = 7 from the line",
+  "what": [
+   "You give it a scatter plot. You draw a straight line through the middle of the points, find its equation, and use it to predict.",
+   "The key idea is balance. The line follows the trend with points on both sides of it, and you predict by reading or substituting a value of $x$."
+  ],
+  "question": "The table shows hours of study $x$ and test mark $y$ for eight students.\n$(1, 13), (2, 17), (3, 19), (4, 25), (5, 27), (6, 31), (7, 37), (8, 39)$\nA line of best fit drawn by eye passes through $(2, 16)$ and $(8, 40)$. Find its equation and use it to predict the mark for a student who studies for $6$ hours."
+ },
+ {
+  "skill": "stat-outlier-effect",
+  "title": "Explain the effect of outliers on summary statistics",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "HL",
+  "input": "data set with outlier",
+  "output": "effect on mean/median/σ/IQR",
+  "example": "removing 30 lowers the mean much more than the median",
+  "what": [
+   "You give it a data set with one **outlier** in it. It tells you which summary statistics move when that value is added or removed, and which stay put.",
+   "The key idea: the mean adds up every value, so one extreme value drags it. The median only counts positions, so it barely notices."
+  ],
+  "question": "Seven students recorded the minutes they spent on homework: $12, 14, 15, 17, 18, 19, 45$. The value $45$ is removed. Find how much the mean falls and how much the median falls. Which one is affected more by the outlier, and why?"
+ },
+ {
+  "skill": "stat-compare-hl",
+  "title": "Analyse plots to explain differences in centre and spread",
+  "chapter": "Statistics - Descriptive Statistics",
+  "level": "HL",
+  "input": "two distributions",
+  "output": "reasoned comparison",
+  "example": "higher median but larger IQR",
+  "what": [
+   "You give it two distributions. It gives back a reasoned comparison of where each one is centred and how spread out it is.",
+   "The key idea: compare the **centre** (mean or median) and the **spread** (standard deviation or IQR) separately, with a number for each, then say what it means."
+  ],
+  "question": "Two classes sat the same test. Five scores are taken from each. Class A: $10, 12, 13, 14, 16$. Class B: $8, 12, 14, 16, 20$. Find the mean and standard deviation of each class and compare the two classes."
+ },
+ {
+  "skill": "inf-sampling-variability",
+  "title": "Recognise how sampling variability affects conclusions",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "OL",
+  "input": "sample statistics",
+  "output": "statement about the population with caution",
+  "example": "two samples give different means",
+  "what": [
+   "You give it the result of one sample. It gives back a careful statement about the population, not a claim that the sample result is exactly the population value.",
+   "The key idea: a different sample would give a different result, so one sample is an **estimate**, not a fact."
+  ],
+  "question": "A school has $1200$ students. Two different samples of $50$ students are asked if they walk to school. In the first sample $20$ walk. In the second sample $26$ walk. Find the proportion that walk in each sample. Why do the two answers differ, and what can you say about all $1200$ students?"
+ },
+ {
+  "skill": "inf-margin-of-error",
+  "title": "Calculate the margin of error for a proportion",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "OL",
+  "input": "n",
+  "output": "1/√n",
+  "example": "n = 400 → 5%",
+  "what": [
+   "You give it the sample size, $n$. It gives back the **margin of error**, how far the sample result could be from the true population value.",
+   "The key idea: a bigger sample is more reliable, so the margin shrinks as $n$ grows. The rule is $\\frac{1}{\\sqrt{n}}$."
+  ],
+  "question": "A survey asks $750$ people which radio station they prefer. Find the margin of error, as a percentage correct to one decimal place."
+ },
+ {
+  "skill": "inf-histogram",
+  "title": "Interpret a histogram in terms of distribution",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "OL",
+  "input": "histogram",
+  "output": "shape, centre, spread in context",
+  "example": "bimodal → two groups present",
+  "what": [
+   "You give it a **histogram**. It tells you the shape, the centre and the spread, in words about the real situation.",
+   "The key idea: the height of each bar is how many values fall in that class, so look at where the bars pile up. Two separate peaks mean two groups."
+  ],
+  "question": "The histogram shows the time, in minutes, that 60 students spent on homework one night. The classes and the number of students in each are: 0–20: 5; 20–40: 22; 40–60: 8; 60–80: 4; 80–100: 21.\n(i) Describe the shape of the histogram.\n(ii) Estimate the mean.\n(iii) What does the histogram tell you about the students?"
+ },
+ {
+  "skill": "inf-interpret",
+  "title": "Interpret an analysis and relate it to the original question",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "OL",
+  "input": "results of analysis",
+  "output": "conclusion in context",
+  "example": "60% prefer A → answer the survey question",
+  "what": [
+   "You give it the results of an analysis, such as a sample percentage and its margin of error. It writes a **conclusion** that answers the question that was asked.",
+   "The key idea: a sample only estimates the whole group, so the answer must allow for the margin of error and be written in the words of the question."
+  ],
+  "question": "A survey of 400 adults found that 54% support a new bike lane. A councillor says: \"The survey proves that more than half of all adults support the bike lane.\"\nFind the margin of error and a 95% confidence interval for the percentage of all adults who support the bike lane. Is the councillor right?"
+ },
+ {
+  "skill": "inf-hypothesis-concept",
+  "title": "State null and alternative hypotheses",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "OL",
+  "input": "claim",
+  "output": "H₀, H₁, possible conclusions",
+  "example": "claim 30% → H₀: p = 0.3",
+  "what": [
+   "You give it a **claim**, such as \"$45\\%$ of customers buy popcorn\". It writes two hypotheses: $H_0$ says the claim is still true and $H_1$ says it has changed.",
+   "The key idea: you test $H_0$. The data give enough evidence to **reject** it, or they do not. Either way you say what it means for the claim."
+  ],
+  "question": "A cinema says that 45% of its customers buy popcorn. In a random sample of 625 customers, 250 bought popcorn.\nWrite down $H_0$ and $H_1$. Use the margin of error to test the cinema's claim and state your conclusion."
+ },
+ {
+  "skill": "inf-hypothesis-moe",
+  "title": "Test a claim about a proportion using margin of error",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "OL",
+  "input": "claimed p, p̂, n",
+  "output": "interval p̂ ± 1/√n; reject/fail to reject",
+  "example": "p̂ = 0.34, n = 400 → (0.29, 0.39), 0.3 inside → do not reject",
+  "what": [
+   "You give it a claimed percentage, a sample percentage $\\hat{p}$ and the sample size $n$. It builds the interval $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$ and checks whether the claim is **inside** it.",
+   "The key idea: if the claimed value is inside the interval, the sample gives no evidence against it, so you do not reject $H_0$. If it is outside, you reject $H_0$."
+  ],
+  "question": "A company says that 45% of its customers are under 30. In a random sample of 400 customers, 164 were under 30.\nState $H_0$ and $H_1$. Find the margin of error and a 95% confidence interval. Test the company's claim and state your conclusion."
+ },
+ {
+  "skill": "inf-sampling-distribution",
+  "title": "Use the sampling distribution of the mean",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "HL",
+  "input": "μ, σ, n (or simulation)",
+  "output": "mean μ, standard error σ/√n; probabilities for x̄",
+  "example": "σ = 10, n = 25 → SE = 2",
+  "what": [
+   "You give it a population mean $\\mu$, a standard deviation $\\sigma$ and a sample size $n$. It tells you how the mean of a sample, $\\bar{x}$, behaves.",
+   "The key idea: sample means centre on $\\mu$, but they spread out much less than single values. The spread is the **standard error**, $\\frac{\\sigma}{\\sqrt{n}}$. Use it in place of $\\sigma$ when you standardise."
+  ],
+  "question": "The weight of a bag of flour is normally distributed with mean $500$ g and standard deviation $12$ g. A sample of $36$ bags is taken. Find the probability that the mean weight of the sample is greater than $503$ g."
+ },
+ {
+  "skill": "inf-ci-proportion",
+  "title": "Construct a 95% confidence interval for a proportion",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "HL",
+  "input": "p̂, n",
+  "output": "p̂ ± 1.96√(p̂(1 − p̂)/n)",
+  "example": "p̂ = 0.3, n = 400 → (0.255, 0.345)",
+  "what": [
+   "You give it a sample proportion $\\hat{p}$ and the sample size $n$. It gives an interval that the true proportion lies in, with $95\\%$ confidence.",
+   "The key idea: the standard error of a proportion is $\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}$. Go $1.96$ of those either side of $\\hat{p}$."
+  ],
+  "question": "In a random sample of $500$ voters, $120$ say they will vote for a new candidate. Find a $95\\%$ confidence interval for the proportion of all voters who will vote for her. Give the limits to $4$ decimal places."
+ },
+ {
+  "skill": "inf-ci-mean",
+  "title": "Construct a 95% confidence interval for a mean (large sample)",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "HL",
+  "input": "x̄, σ (or s), n",
+  "output": "x̄ ± 1.96 σ/√n",
+  "example": "x̄ = 50, σ = 10, n = 100 → (48.04, 51.96)",
+  "what": [
+   "You give it a sample mean $\\bar{x}$, a standard deviation and a sample size $n$. It gives an interval that the population mean lies in, with $95\\%$ confidence.",
+   "The key idea: the sample mean is off from $\\mu$ by about one standard error, $\\frac{\\sigma}{\\sqrt{n}}$. Go $1.96$ standard errors either side of $\\bar{x}$."
+  ],
+  "question": "A sample of $64$ batteries has a mean life of $41.5$ hours. The standard deviation of the life of all batteries is $6$ hours. Find a $95\\%$ confidence interval for the mean life of all batteries."
+ },
+ {
+  "skill": "inf-z-test",
+  "title": "Perform a two-tailed z-test of a population mean",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "HL",
+  "input": "H₀ μ, x̄, σ, n",
+  "output": "z statistic vs ±1.96; conclusion",
+  "example": "μ₀ = 50, x̄ = 52, σ = 8, n = 64 → z = 2, reject H₀",
+  "what": [
+   "You give it a claimed mean $\\mu_0$ and a sample: $\\bar{x}$, $\\sigma$ and $n$. It decides whether the sample is far enough from the claim to reject it.",
+   "The key idea: the $z$ statistic counts how many standard errors $\\bar{x}$ is from $\\mu_0$. At the $5\\%$ level, beyond $\\pm 1.96$ is too far to be chance."
+  ],
+  "question": "A machine is set to fill bags with a mean of $250$ g. The standard deviation is $6$ g. A sample of $36$ bags has a mean of $247.9$ g. Test, at the $5\\%$ level of significance, whether the mean fill has changed. State your hypotheses and your conclusion."
+ }
+]

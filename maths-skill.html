@@ -162,7 +162,7 @@ button { font: inherit; cursor: pointer }
 
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsxgraph@1.8.0/distrib/jsxgraphcore.js"></script>
-<script src="maths-skills/index.js?v=1d8456ef46"></script>
+<script src="maths-skills/index.js?v=f32aeb0347"></script>
 <script src="maths-packs.js?v=1"></script>
 <script>
 const KATEX_OPTS = { throwOnError: false, strict: 'ignore', macros: { '\\hl': '\\htmlClass{hl hl-#1}{#2}' },
@@ -366,14 +366,15 @@ else {
   const load = () => MathsPacks.skill(SKILL_ID).then(pack => {
     LESSON = { ...pack.lesson, problems: [...pack.problems] };
     LESSON.more = loadMore();
-    document.title = 'Skill: ' + LESSON.title;
+    MathsPacks.tagPage(pack.learn, 'practice');
     render();
     MathsPacks.prefetchNext(SKILL_ID);
   }, () => {                                            // only a failed download lands here
     app.innerHTML = '<p class="note">This skill didn’t load. Check your connection, then <button class="btn btn-plain" data-retry>Try again</button></p>';
     app.querySelector('[data-retry]').onclick = load;
   });
-  load();
+  if (MathsPacks.mayOpen(SKILL_ID)) load();
+  else app.innerHTML = MathsPacks.gateHtml();
 }
 </script>
 </body>

@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "cx-conjugate-properties",
+  "title": "Use conjugates of sums and products",
+  "chapter": "Complex Numbers",
+  "level": "HL",
+  "input": "z₁, z₂",
+  "output": "conj(z₁ + z₂) = z̄₁ + z̄₂, conj(z₁z₂) = z̄₁z̄₂",
+  "example": "verify for 1 + i, 2 − 3i",
+  "what": [
+   "You give it two complex numbers, $z_1$ and $z_2$. It shows that the conjugate of their sum is the sum of their conjugates, and the same for their product.",
+   "The key idea: taking the conjugate just flips the sign of every $i$. It does not matter whether you do it before or after you add or multiply."
+  ],
+  "question": "Let $z_1 = 1 + i$ and $z_2 = 2 - 3i$. Verify that $\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}$ and $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$."
+ },
+ {
+  "skill": "cx-quadratic",
+  "title": "Solve a quadratic with complex roots",
+  "chapter": "Complex Numbers",
+  "level": "HL",
+  "input": "quadratic with b² − 4ac < 0",
+  "output": "conjugate pair of roots",
+  "example": "z² − 4z + 13 = 0 → 2 ± 3i",
+  "what": [
+   "You give it a quadratic whose **discriminant** is negative. It gives back two complex roots that are a **conjugate pair**.",
+   "The key idea: $\\sqrt{-1} = i$, so the square root of a negative number is a real number times $i$."
+  ],
+  "question": "Solve $z^2 + 6z + 25 = 0$, where $z \\in \\mathbb{C}$."
+ },
+ {
+  "skill": "cx-polar",
+  "title": "Convert between rectangular and polar form",
+  "chapter": "Complex Numbers",
+  "level": "HL",
+  "input": "a + bi",
+  "output": "r(cos θ + i sin θ), θ in correct quadrant",
+  "example": "1 + i√3 → 2(cos π/3 + i sin π/3)",
+  "what": [
+   "You give it a complex number $a + bi$. It gives back the same number as a **distance** $r$ and an **angle** $\\theta$ from the positive real axis.",
+   "The key idea: $r$ comes from Pythagoras, and the angle must be checked against the **quadrant** the number sits in."
+  ],
+  "question": "Write $z = -2 + 2i$ in polar form."
+ },
+ {
+  "skill": "cx-polar-multiply",
+  "title": "Multiply and divide in polar form",
+  "chapter": "Complex Numbers",
+  "level": "HL",
+  "input": "two numbers in polar form",
+  "output": "product/quotient (multiply moduli, add arguments)",
+  "example": "2 cis(π/6) × 3 cis(π/3) → 6 cis(π/2) = 6i",
+  "what": [
+   "You give it two complex numbers in polar form. It gives back their product or quotient, also in polar form.",
+   "The key idea: to **multiply**, multiply the moduli and add the arguments. To **divide**, divide the moduli and subtract the arguments."
+  ],
+  "question": "Let $z = 4\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)$ and $w = 2\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)$. Find $zw$ in polar form, and find $\\frac{z}{w}$ in the form $a + bi$."
+ },
+ {
+  "skill": "cx-de-moivre-power",
+  "title": "Raise to a power with De Moivre's Theorem",
+  "chapter": "Complex Numbers",
+  "level": "HL",
+  "input": "zⁿ",
+  "output": "rⁿ(cos nθ + i sin nθ) → a + bi",
+  "example": "(1 + i)⁸ → 16",
+  "what": [
+   "You give it a complex number raised to a power, $z^n$. It gives back the answer as $a + bi$.",
+   "The key idea: write $z$ in polar form first. Then $r$ is raised to the power $n$ and the angle is **multiplied** by $n$."
+  ],
+  "question": "Use De Moivre's Theorem to evaluate $(-1 + i)^{10}$, giving your answer in the form $a + bi$."
+ },
+ {
+  "skill": "cx-conjugate-root",
+  "title": "Use the Conjugate Root Theorem to find all roots",
+  "chapter": "Complex Numbers",
+  "level": "HL",
+  "input": "real polynomial + one complex root",
+  "output": "all roots",
+  "example": "1 + i is a root of z³ − 4z² + 6z − 4 → 1 ± i, 2",
+  "what": [
+   "You give it a polynomial with real coefficients and one complex root. It finds **all** the roots.",
+   "The key idea: complex roots of a real polynomial come in **conjugate** pairs, so $a+bi$ being a root forces $a-bi$ to be one too."
+  ],
+  "question": "$2 + i$ is a root of $z^3 - 6z^2 + 13z - 10 = 0$, where $z \\in \\mathbb{C}$. Find all the roots."
+ },
+ {
+  "skill": "cx-de-moivre-roots",
+  "title": "Solve zⁿ = a (incl. nth roots of unity)",
+  "chapter": "Complex Numbers",
+  "level": "HL",
+  "input": "zⁿ = a",
+  "output": "n roots in polar and rectangular form",
+  "example": "z³ = 8 → 2, −1 ± i√3",
+  "what": [
+   "You give it an equation $z^n = a$. It finds all $n$ roots, in polar and rectangular form.",
+   "The key idea: write $a$ in polar form, take the $n$th root of the modulus, and **divide the angle by $n$**. The roots sit on a circle, evenly spaced $\\frac{2\\pi}{n}$ apart."
+  ],
+  "question": "Solve $z^4 = -16$, giving your answers in the form $a + bi$."
+ },
+ {
+  "skill": "cx-de-moivre-identity",
+  "title": "Derive multiple-angle identities with De Moivre",
+  "chapter": "Complex Numbers",
+  "level": "HL",
+  "input": "cos nθ or sin nθ",
+  "output": "identity in powers of cos θ / sin θ",
+  "example": "cos 3θ = 4cos³θ − 3cos θ",
+  "what": [
+   "You give it $\\cos n\\theta$ or $\\sin n\\theta$. It writes it as an identity in powers of $\\cos\\theta$ or $\\sin\\theta$.",
+   "The key idea: expand $(\\cos\\theta + i\\sin\\theta)^n$ with the binomial theorem, and **equate real parts** (for cosine) or imaginary parts (for sine) with De Moivre's $\\cos n\\theta + i\\sin n\\theta$."
+  ],
+  "question": "Use De Moivre's Theorem to show that $\\cos 4\\theta = 8\\cos^4\\theta - 8\\cos^2\\theta + 1$."
+ },
+ {
+  "skill": "cx-de-moivre-prove",
+  "title": "Prove De Moivre's Theorem by induction",
+  "chapter": "Complex Numbers",
+  "level": "HL",
+  "input": "(cos θ + i sin θ)ⁿ, n ∈ N",
+  "output": "proof",
+  "example": "P(k) ⇒ P(k + 1) using sin(A + B), cos(A + B)",
+  "what": [
+   "You give it the statement $(\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta$ for whole numbers $n$. It proves it by induction.",
+   "The key idea: assume it for $n=k$, multiply by one more $(\\cos\\theta + i\\sin\\theta)$, and the **compound angle formulae** turn the product into the $n=k+1$ case."
+  ],
+  "question": "Prove by induction that $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$ for all $n \\in \\mathbb{N}$."
+ },
+ {
+  "skill": "diff-slope-tangent",
+  "title": "Find the slope and equation of a tangent",
+  "chapter": "Differentiation - Applications",
+  "level": "OL",
+  "input": "f(x) and a point",
+  "output": "slope f′(a); tangent line",
+  "example": "y = x² − 3x at x = 1 → y = −x − 1",
+  "what": [
+   "You give it a function, $f(x)$, and a point on its graph. It gives back the **tangent** there: the straight line that just touches the curve.",
+   "The key idea: the **slope** of the tangent at $x = a$ is $f'(a)$. Once you have the slope and the point, it is just the equation of a line."
+  ],
+  "question": "The curve $y = x^3 - 3x + 1$ has a point where $x = 2$. Find the equation of the tangent to the curve at that point."
+ },
+ {
+  "skill": "diff-point-given-slope",
+  "title": "Find where a curve has a given slope",
+  "chapter": "Differentiation - Applications",
+  "level": "OL",
+  "input": "f(x) and slope m (or parallel line)",
+  "output": "x (and point)",
+  "example": "y = x² − 3x, slope 1 → (2, −2)",
+  "what": [
+   "You give it a curve and a slope $m$, or a line the tangent must be parallel to. It finds the **points** on the curve where the tangent has that slope.",
+   "The key idea: set the derivative equal to $m$ and solve. Parallel lines have the same slope."
+  ],
+  "question": "The tangent to the curve $y = x^3 - 6x^2 + 5$ is parallel to the line $y = -9x + 4$ at two points. Find the $x$-coordinates of these two points."
+ },
+ {
+  "skill": "diff-increasing",
+  "title": "Decide whether a function is increasing or decreasing at a point",
+  "chapter": "Differentiation - Applications",
+  "level": "OL",
+  "input": "f(x) + x value",
+  "output": "sign of f′(a)",
+  "example": "f = x² − 4x at x = 1 → f′ = −2 < 0, decreasing",
+  "what": [
+   "You give it a function and an $x$ value. It tells you whether the function is **increasing** or **decreasing** there.",
+   "The key idea: look at the sign of $f'(a)$. If it is positive the graph is rising. If it is negative the graph is falling."
+  ],
+  "question": "$f(x) = x^2 - 6x + 5$. Use differentiation to decide whether $f$ is increasing or decreasing at $x = 1$."
+ },
+ {
+  "skill": "diff-increasing-interval",
+  "title": "Find where a function is increasing/decreasing for all x or on intervals",
+  "chapter": "Differentiation - Applications",
+  "level": "HL",
+  "input": "f(x)",
+  "output": "intervals where f′ > 0 / f′ < 0",
+  "example": "x³ + 3x increasing for all x (f′ = 3x² + 3 > 0)",
+  "what": [
+   "You give it a function. It finds the values of $x$ where the function is **increasing** ($f'(x) > 0$) or **decreasing** ($f'(x) < 0$).",
+   "The key idea: turn the question into an inequality in $f'(x)$. If $f'(x)$ is always positive, the function is increasing for every $x$."
+  ],
+  "question": "Show that $f(x) = x^3 + 3x^2 + 5x - 4$ is increasing for all $x \\in \\mathbb{R}$."
+ },
+ {
+  "skill": "diff-stationary",
+  "title": "Find and classify turning points",
+  "chapter": "Differentiation - Applications",
+  "level": "OL",
+  "input": "f(x)",
+  "output": "max/min points via f′ = 0 and f″",
+  "example": "x³ − 3x → max (−1, 2), min (1, −2)",
+  "what": [
+   "You give it a function, $f(x)$. It finds the points where the graph **turns**, and says which are peaks and which are dips.",
+   "The key idea: at a turning point the slope is zero, so solve $f'(x) = 0$. Then the sign of $f''(x)$ tells you the shape."
+  ],
+  "question": "Find the turning points of $f(x) = x^3 - 12x + 5$, and say which is the maximum and which is the minimum."
+ },
+ {
+  "skill": "diff-inflection",
+  "title": "Find a point of inflection",
+  "chapter": "Differentiation - Applications",
+  "level": "HL",
+  "input": "f(x)",
+  "output": "point where f″ = 0 and changes sign",
+  "example": "x³ − 6x² → (2, −16)",
+  "what": [
+   "You give it a function, $f(x)$. It finds the point where the graph changes from curving one way to curving the other: the **point of inflection**.",
+   "The key idea: at that point $f''(x) = 0$, and $f''$ changes sign either side of it."
+  ],
+  "question": "Find the point of inflection of $f(x) = x^3 - 9x^2 + 5x - 2$."
+ },
+ {
+  "skill": "diff-rates-of-change",
+  "title": "Apply differentiation to rates of change",
+  "chapter": "Differentiation - Applications",
+  "level": "OL",
+  "input": "quantity as a function of time",
+  "output": "rate, velocity, acceleration at a time",
+  "example": "s = t³ − 6t² → v = 3t² − 12t, a = 6t − 12",
+  "what": [
+   "You give it a quantity that changes with time, such as distance $s(t)$. It gives back how fast it is changing: the **rate**, which is the velocity for distance and the acceleration for velocity.",
+   "The key idea: a rate of change is a derivative. Differentiate, then put in the time."
+  ],
+  "question": "A particle moves in a straight line. After $t$ seconds its distance from a point is $s = t^3 - 6t^2 + 5t$ metres. Find its velocity and its acceleration when $t = 4$."
+ },
+ {
+  "skill": "diff-tangent-circle",
+  "title": "Find the slope of a tangent to a circle by differentiation",
+  "chapter": "Differentiation - Applications",
+  "level": "HL",
+  "input": "circle equation + point",
+  "output": "slope dy/dx",
+  "example": "x² + y² = 25 at (3, 4) → −3/4",
+  "what": [
+   "You give it the equation of a circle and a point on it. It gives back the **slope** of the tangent at that point.",
+   "The key idea: differentiate both sides with respect to $x$, and treat $y$ as a function of $x$, so $y^2$ becomes $2y\\frac{dy}{dx}$."
+  ],
+  "question": "The circle $x^2 + y^2 = 169$ contains the point $(5, 12)$. Find the slope of the tangent to the circle at that point."
+ },
+ {
+  "skill": "diff-curve-sketch",
+  "title": "Sketch a curve using calculus",
+  "chapter": "Differentiation - Applications",
+  "level": "OL",
+  "input": "f(x)",
+  "output": "sketch with intercepts, turning points",
+  "example": "y = x³ − 3x",
+  "what": [
+   "You give it a function, $f(x)$. It gives you a sketch with the **intercepts** and the **turning points** marked.",
+   "The key idea: a cubic only changes direction where the slope is zero, so find those points first and join them with a smooth curve."
+  ],
+  "question": "Sketch the graph of $f(x) = x^3 - 6x^2 + 9x$. Mark where it meets the axes and find its turning points."
+ },
+ {
+  "skill": "diff-sketch-derivative",
+  "title": "Sketch/match the graph of f′ from f",
+  "chapter": "Differentiation - Applications",
+  "level": "HL",
+  "input": "graph of f",
+  "output": "graph of f′ (and vice versa)",
+  "example": "turning points of f ↔ roots of f′",
+  "what": [
+   "You give it the graph of $f$. It gives you the graph of $f'$, or the other way round.",
+   "The key idea: where $f$ has a turning point its slope is zero, so $f'$ crosses the $x$-axis there. Where $f$ rises $f'$ is above the axis, where $f$ falls it is below."
+  ],
+  "question": "The graph of $f(x) = -x^2 + 4x - 1$ has a maximum at $x = 2$. Sketch the graph of $f'(x)$."
+ },
+ {
+  "skill": "diff-related-rates",
+  "title": "Solve connected rates of change",
+  "chapter": "Differentiation - Applications",
+  "level": "HL",
+  "input": "formula linking variables + one known rate",
+  "output": "unknown rate via chain rule",
+  "example": "V = 4/3 πr³, dr/dt = 0.5 at r = 3 → dV/dt = 18π",
+  "what": [
+   "You give it a formula that links two quantities, and one rate you know. It finds the rate you want.",
+   "The key idea is the **chain rule**: $\\frac{dr}{dt} = \\frac{dr}{dV} \\times \\frac{dV}{dt}$. Find the link between the two quantities, then multiply."
+  ],
+  "question": "Air is pumped into a spherical balloon at $72$ cm$^3$ per second. Find the rate at which the radius is increasing when $r = 3$ cm. The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$."
+ },
+ {
+  "skill": "diff-optimisation",
+  "title": "Solve a max/min problem from a context",
+  "chapter": "Differentiation - Applications",
+  "level": "OL",
+  "input": "verbal problem with a constraint",
+  "output": "optimal value and the quantity achieving it",
+  "example": "rectangle perimeter 40 → max area 100 at 10 × 10",
+  "what": [
+   "You give it a problem in words with a limit, such as a fixed length of fence. It gives you the **best value**, the biggest area or the smallest cost, and the size that gives it.",
+   "The key idea: write the thing you want to be biggest or smallest using one letter, then find where its slope is zero."
+  ],
+  "question": "A farmer has $60$ m of fencing for three sides of a rectangular pen. The fourth side is a wall. Find the width $x$ that gives the largest area, and find that area."
+ },
+ {
+  "skill": "diff-apply-hl",
+  "title": "Apply derivatives of exp/log/trig functions to problems",
+  "chapter": "Differentiation - Applications",
+  "level": "HL",
+  "input": "context with non-polynomial model",
+  "output": "rate, max/min, tangent",
+  "example": "T = 80e^(−0.1t) → rate at t = 5 ≈ −4.85",
+  "what": [
+   "You give it a model that uses $e^x$, $\\ln x$ or trig, such as a temperature or a population. It finds the **rate of change** at a moment, or where the model is largest or smallest.",
+   "The key idea: the derivative is the rate. Differentiate the model first, then put the number in."
+  ],
+  "question": "The temperature of a drink is $T = 70e^{-0.05t}$ degrees Celsius, $t$ minutes after it is poured. Find the rate at which the temperature is changing after $10$ minutes."
+ },
+ {
+  "skill": "diff-poly",
+  "title": "Differentiate a polynomial by rule",
+  "chapter": "Differentiation - Rules",
+  "level": "OL",
+  "input": "linear, quadratic or cubic (any polynomial at HL)",
+  "output": "f′(x)",
+  "example": "2x³ − 5x² + 4 → 6x² − 10x",
+  "what": [
+   "You give it a polynomial, such as $2x^3 - 5x^2 + 4$. It gives back $f'(x)$, the formula for the **slope** at any point.",
+   "The key idea: take each term on its own. Bring the power down to multiply, then take one off the power. A number on its own becomes $0$."
+  ],
+  "question": "Differentiate $f(x) = 4x^3 - 3x^2 + 5x - 8$ and find the slope of the graph at $x = 2$."
+ },
+ {
+  "skill": "diff-second",
+  "title": "Find the second derivative",
+  "chapter": "Differentiation - Rules",
+  "level": "OL",
+  "input": "f(x)",
+  "output": "f″(x)",
+  "example": "x³ − 3x → 6x",
+  "what": [
+   "You give it $f(x)$. It differentiates **twice** and gives $f''(x)$, the rate at which the slope is changing.",
+   "The key idea: just differentiate the derivative. The sign of $f''$ tells you whether a turning point is a maximum or a minimum."
+  ],
+  "question": "Find $f''(x)$ for $f(x) = x^3 - 6x^2 + 5x$, and find the value of $x$ for which $f''(x) = 0$."
+ },
+ {
+  "skill": "diff-rational-power",
+  "title": "Differentiate rational powers",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "xⁿ, n ∈ Q (roots, reciprocals)",
+  "output": "nxⁿ⁻¹",
+  "example": "√x → 1/(2√x); 1/x² → −2/x³",
+  "what": [
+   "You give it a root or a reciprocal, like $\\sqrt{x}$ or $\\frac{1}{x^2}$. It gives back the derivative, using the same power rule as for $x^n$.",
+   "The key idea: first **rewrite** the root or fraction as a power of $x$. Then bring the power down and take one off it."
+  ],
+  "question": "Differentiate $f(x) = 4\\sqrt{x} + \\frac{3}{x^2}$ with respect to $x$."
+ }
+]

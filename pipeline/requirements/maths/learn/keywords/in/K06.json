@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "diff-exponential",
+  "title": "Differentiate exponential functions",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "e^(ax), aˣ",
+  "output": "ae^(ax), aˣ ln a",
+  "example": "e^(3x) → 3e^(3x)",
+  "what": [
+   "You give it an exponential, like $e^{ax}$ or $a^x$. It gives back its **slope** function.",
+   "The key idea: $e^{ax}$ keeps its shape when you differentiate. It only picks up the number $a$ from the power as a multiplier."
+  ],
+  "question": "The mass of a sample is $m(t) = 90e^{-0.2t}$ grams, $t$ hours after it is set up. Find the rate at which the mass is changing when $t = 3$. Give your answer correct to 2 decimal places."
+ },
+ {
+  "skill": "diff-trig",
+  "title": "Differentiate trig functions (radians)",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "sin ax, cos ax, tan ax",
+  "output": "derivative",
+  "example": "sin 4x → 4 cos 4x; tan x → sec² x",
+  "what": [
+   "You give it a sine, cosine or tangent of $ax$. It gives back the slope function.",
+   "The key idea: $\\sin ax$ becomes $a\\cos ax$, and $\\cos ax$ becomes $-a\\sin ax$. The $a$ always comes out in front, and the angle is in **radians**."
+  ],
+  "question": "Find the slope of the curve $y = 5\\sin 2x + 3\\cos x$ at the point where $x = \\dfrac{\\pi}{6}$."
+ },
+ {
+  "skill": "diff-product",
+  "title": "Apply the product rule",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "u·v",
+  "output": "u′v + uv′",
+  "example": "x² sin x → 2x sin x + x² cos x",
+  "what": [
+   "You give it two functions multiplied together, $u \\cdot v$. It gives back the slope function of the **product**.",
+   "The key idea: you cannot differentiate each part and multiply. Instead, differentiate one at a time and add: $u'v + uv'$."
+  ],
+  "question": "Find the values of $x$ for which the slope of $f(x) = x^2e^{3x}$ is zero."
+ },
+ {
+  "skill": "diff-chain",
+  "title": "Apply the chain rule",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "f(g(x))",
+  "output": "f′(g(x))·g′(x)",
+  "example": "(3x² + 1)⁵ → 30x(3x² + 1)⁴",
+  "what": [
+   "You give it a function inside a function, $f(g(x))$. It gives back the slope function by working from the **outside** in.",
+   "The key idea: differentiate the outer function and leave the inner one as it is, then multiply by the derivative of the inner function."
+  ],
+  "question": "Find the equation of the tangent to the curve $y = \\sqrt{4x^2 + 9}$ at the point where $x = 2$."
+ },
+ {
+  "skill": "diff-log",
+  "title": "Differentiate logarithms",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "ln x, ln f(x)",
+  "output": "1/x, f′(x)/f(x)",
+  "example": "ln(x² + 1) → 2x/(x² + 1)",
+  "what": [
+   "You give it the log of a function, $\\ln f(x)$. It gives back the slope function, $f'(x)$ over $f(x)$.",
+   "The key idea: the derivative of a log is the **derivative of the inside**, divided by the inside."
+  ],
+  "question": "Find the slope of the curve $y = \\ln(3x^2 + 1)$ at $x = 1$."
+ },
+ {
+  "skill": "diff-inverse-trig",
+  "title": "Differentiate inverse trig functions",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "sin⁻¹(x/a), tan⁻¹(x/a)",
+  "output": "1/√(a² − x²), a/(a² + x²)",
+  "example": "tan⁻¹(x/2) → 2/(4 + x²)",
+  "what": [
+   "You give it an inverse trig function of $x/a$, like $\\tan^{-1}(x/a)$. It gives back the slope function.",
+   "The key idea: the rule for $\\tan^{-1}u$ is $u'$ over $1 + u^2$, and the chain rule supplies $u'$."
+  ],
+  "question": "Differentiate $f(x) = \\tan^{-1}\\!\\left(\\dfrac{x}{4}\\right)$ and find $f'(4)$."
+ },
+ {
+  "skill": "diff-first-principles",
+  "title": "Differentiate from first principles",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "linear or quadratic f(x)",
+  "output": "f′(x) via lim [f(x + h) − f(x)]/h",
+  "example": "x² − 3x → 2x − 3",
+  "what": [
+   "You give it a function, $f(x)$. It finds the slope function $f'(x)$ using the limit $\\lim_{h\\to0}\\dfrac{f(x+h)-f(x)}{h}$.",
+   "The key idea: the slope between two points a distance $h$ apart becomes the slope **at** a point when $h$ shrinks to zero."
+  ],
+  "question": "Differentiate $f(x) = 2x^2 - x + 3$ from first principles."
+ },
+ {
+  "skill": "diff-quotient",
+  "title": "Apply the quotient rule",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "u/v",
+  "output": "(u′v − uv′)/v²",
+  "example": "x/(x + 1) → 1/(x + 1)²",
+  "what": [
+   "You give it one function divided by another, $u/v$. It gives back the slope function $\\dfrac{u'v - uv'}{v^2}$.",
+   "The key idea: differentiate the top and the bottom separately, then combine them in the fixed pattern: bottom times the top's slope, minus top times the bottom's slope, all over the bottom squared."
+  ],
+  "question": "Given $g(x) = \\dfrac{3x - 2}{x + 4}$, find $g'(1)$."
+ },
+ {
+  "skill": "diff-combined",
+  "title": "Differentiate a function needing several rules",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "product/quotient of composites of exp, log, trig, powers",
+  "output": "simplified derivative",
+  "example": "e^(2x) sin 3x → e^(2x)(2 sin 3x + 3 cos 3x)",
+  "what": [
+   "You give it a function built from several pieces, like $e^{3x}\\cos 2x$. It gives back the **derivative**, simplified.",
+   "The key idea: spot the outer rule first (product or quotient). Then use the chain rule on each piece inside it."
+  ],
+  "question": "Differentiate $f(x) = e^{3x}\\cos 2x$ with respect to $x$. Write the answer in its simplest form."
+ },
+ {
+  "skill": "diff-show-identity",
+  "title": "Show a derivative satisfies a given relation",
+  "chapter": "Differentiation - Rules",
+  "level": "HL",
+  "input": "y = f(x) + relation in y, y′, y″",
+  "output": "verified identity",
+  "example": "y = e^(2x) → y″ − 4y = 0",
+  "what": [
+   "You give it a function $y$ and an equation that links $y$, $y'$ and $y''$. It **shows** the equation is true.",
+   "The key idea: find $y'$ and $y''$, put all three into the left side, and simplify until it equals the right side."
+  ],
+  "question": "Show that $y = xe^{-2x}$ satisfies $y'' + 4y' + 4y = 0$."
+ },
+ {
+  "skill": "fin-percentages",
+  "title": "Calculate percentages and percentage change",
+  "chapter": "Financial Maths",
+  "level": "JC",
+  "input": "quantities",
+  "output": "%, % increase/decrease, original amount",
+  "example": "€80 → €92 → 15% increase",
+  "what": [
+   "You give it quantities. It finds a **percentage**, a percentage change, or the original amount.",
+   "The key idea: turn the percentage into a **multiplier**. An increase of $8\\%$ is $\\times 1.08$. To undo it, divide."
+  ],
+  "question": "The price of a bicycle was increased by $8\\%$. It now costs €486. Find the original price."
+ },
+ {
+  "skill": "fin-units",
+  "title": "Change units (metric, imperial with factors, currency)",
+  "chapter": "Financial Maths",
+  "level": "OL",
+  "input": "quantity + conversion factor",
+  "output": "converted quantity",
+  "example": "60 mph, 1 mile = 1.609 km → 96.5 km/h",
+  "what": [
+   "You give it a quantity and a conversion factor. It gives back the same quantity in **new units**.",
+   "The key idea: change one unit at a time. Multiply when the new unit is smaller, divide when it is bigger."
+  ],
+  "question": "A train travels at $72$ km/h. Express its speed in metres per second."
+ },
+ {
+  "skill": "fin-estimate",
+  "title": "Estimate, round and check order of magnitude",
+  "chapter": "Financial Maths",
+  "level": "OL",
+  "input": "calculation",
+  "output": "estimate, rounded result, sense check",
+  "example": "49.7 × 0.21 ≈ 50 × 0.2 = 10",
+  "what": [
+   "You give it a calculation. It gives back a quick **estimate**, close to the real answer, that you can do in your head.",
+   "The key idea: round every number to one **significant figure** first. Then the sum is easy, and the answer shows if your calculator work is sensible."
+  ],
+  "question": "A shop sells $19.8$ kg of cheese at $€6.10$ per kg.\n(a) Estimate the cost by rounding each number to one significant figure.\n(b) Calculate the exact cost.\n(c) Is your answer to (b) sensible?"
+ },
+ {
+  "skill": "fin-profit-margin",
+  "title": "Calculate cost/selling price, discount, mark-up and margin",
+  "chapter": "Financial Maths",
+  "level": "OL",
+  "input": "prices",
+  "output": "profit, mark-up (% of CP), margin (% of SP)",
+  "example": "CP €80, SP €100 → mark-up 25%, margin 20%",
+  "what": [
+   "You give it a cost price and a selling price. It finds the **profit**, the **mark-up** and the **margin**.",
+   "The key idea: profit is selling price minus cost price. Mark-up is that profit as a percentage of the **cost price**. Margin is the same profit as a percentage of the **selling price**."
+  ],
+  "question": "A shop buys a bag for $€45$ and sells it for $€60$. Find (a) the profit, (b) the mark-up as a percentage of the cost price, (c) the margin as a percentage of the selling price."
+ },
+ {
+  "skill": "fin-compound-interest",
+  "title": "Apply compound interest",
+  "chapter": "Financial Maths",
+  "level": "OL",
+  "input": "P, i, t",
+  "output": "F = P(1 + i)ᵗ",
+  "example": "€5,000 at 3% for 4 years → €5,627.54",
+  "what": [
+   "You give it a starting amount $P$, a yearly rate and a number of years. It gives back the **final value** $F$.",
+   "The key idea: each year the amount is multiplied by the same number, $1 + i$. So after $t$ years you multiply $t$ times, which is $F = P(1 + i)^t$."
+  ],
+  "question": "Aoife invests $€7000$ at $2.5\\%$ per year compound interest for $3$ years. Find the value of her investment at the end of $3$ years, to the nearest cent."
+ },
+ {
+  "skill": "fin-depreciation",
+  "title": "Apply reducing-balance depreciation",
+  "chapter": "Financial Maths",
+  "level": "OL",
+  "input": "P, i, t",
+  "output": "F = P(1 − i)ᵗ",
+  "example": "€20,000 at 15% for 3 years → €12,282.50",
+  "what": [
+   "You give it a starting value $P$, a yearly rate of loss and a number of years. It gives back the **value** $F$ after those years.",
+   "The key idea: each year the value is multiplied by the same number, $1 - i$, because the car keeps $100\\% - i$ of what it was worth. So $F = P(1 - i)^t$."
+  ],
+  "question": "A van costs $€25\\,000$ new. It loses $10\\%$ of its value each year. Find the value of the van after $4$ years."
+ },
+ {
+  "skill": "fin-rate-conversion",
+  "title": "Convert between annual and periodic rates (AER/APR)",
+  "chapter": "Financial Maths",
+  "level": "OL",
+  "input": "annual rate",
+  "output": "equivalent monthly/weekly rate",
+  "example": "5% AER → 0.4074% per month",
+  "what": [
+   "You give it a rate for one period, such as a yearly rate. It gives back the **equivalent** rate for a different period, such as a month.",
+   "The key idea: growth multiplies. Twelve months of growth at rate $i$ must give the same result as one year at the annual rate, so $(1+i)^{12} = 1 + \\text{annual rate}$."
+  ],
+  "question": "A bank quotes an annual percentage rate (APR) of $3.6\\%$. Find the equivalent monthly rate, correct to 3 significant figures."
+ },
+ {
+  "skill": "fin-income-tax",
+  "title": "Calculate income tax, USC, PRSI and net pay",
+  "chapter": "Financial Maths",
+  "level": "OL",
+  "input": "gross pay, rates, bands, credits, deductions",
+  "output": "gross tax, net tax, net pay",
+  "example": "€50,000, SRCOP €42,000 at 20%/40%, credits €3,750 → tax €7,850",
+  "what": [
+   "You give it a gross pay, the tax rates and bands, and the tax credits. It gives back the **gross tax**, the **net tax** and the **net pay**.",
+   "The key idea: each rate applies only to its own slice of the pay, and the tax credits come off the tax, not off the pay."
+  ],
+  "question": "Ciara earns $€56\\,000$ a year. She pays tax at $20\\%$ on the first $€42\\,000$ and $40\\%$ on the rest. Her tax credits are $€3\\,500$. Find her net pay."
+ },
+ {
+  "skill": "fin-costing",
+  "title": "Cost materials, labour and wastage",
+  "chapter": "Financial Maths",
+  "level": "OL",
+  "input": "job specification",
+  "output": "total cost",
+  "example": "12 m² at €25 + 10% wastage + 3 h at €40 → €450",
+  "what": [
+   "You give it a job: the amounts of materials, the price of each, the wastage and the labour. It gives back the **total cost**.",
+   "The key idea: cost each part of the job on its own, then add them. Wastage means buying more than you need, so the amount goes up by that percentage."
+  ],
+  "question": "A room is $5$ m by $4$ m. The floor is to be tiled. Tiles cost $€30$ per m², and $8\\%$ extra is bought for wastage. The tiler charges $€45$ per hour for $6$ hours. Find the total cost."
+ },
+ {
+  "skill": "fin-error",
+  "title": "Calculate percentage error, tolerance and accumulated error",
+  "chapter": "Financial Maths",
+  "level": "OL",
+  "input": "true/estimated values or limits",
+  "output": "% error, range of values",
+  "example": "estimate 9.8, true 10 → 2% error",
+  "what": [
+   "You give it an estimated value and the true value. It gives back the **percentage error**: how far off the estimate is, as a percentage of the truth.",
+   "The key idea: the error is the difference between the two values, and you always divide it by the **true** value."
+  ],
+  "question": "A table is measured as $1.46$ m long. The true length is $1.50$ m. Find the percentage error, correct to one decimal place."
+ },
+ {
+  "skill": "fin-average-rate",
+  "title": "Calculate an average rate of change over time",
+  "chapter": "Financial Maths",
+  "level": "OL",
+  "input": "change in quantity, time",
+  "output": "rate",
+  "example": "180 km in 2.5 h → 72 km/h",
+  "what": [
+   "You give it a change in some quantity and the time it took. It finds the **rate**: how much the quantity changes in each unit of time.",
+   "The key idea: rate is change divided by time. For a journey in parts, add up the total change and the total time first, then divide once."
+  ],
+  "question": "A cyclist rides $18$ km in $45$ minutes, then $12$ km in $15$ minutes. Find her average speed for the whole journey, in km/h."
+ },
+ {
+  "skill": "fin-present-value",
+  "title": "Find the present value of a future sum",
+  "chapter": "Financial Maths",
+  "level": "HL",
+  "input": "F, i, t",
+  "output": "P = F/(1 + i)ᵗ",
+  "example": "€5,000 in 3 years at 4% → €4,444.98",
+  "what": [
+   "You give it a future sum $F$, a yearly rate $i$ and a time $t$. It finds the amount $P$ you would have to invest **today** to reach $F$.",
+   "The key idea: compound interest multiplies by $(1+i)^t$, so going backwards means dividing by it."
+  ],
+  "question": "How much should be invested today at $3.5\\%$ per annum compound interest to have €8000 in $4$ years? Give your answer to the nearest cent."
+ },
+ {
+  "skill": "fin-solve-rate-time",
+  "title": "Find the rate or time in a compound interest problem",
+  "chapter": "Financial Maths",
+  "level": "HL",
+  "input": "P, F and t (or i)",
+  "output": "i via roots, t via logs",
+  "example": "€1,000 → €2,000 at 4% → t ≈ 17.7 years",
+  "what": [
+   "You give it the start amount $P$, the final amount $F$, and either the time $t$ or the rate $i$. It finds the one that is missing.",
+   "The key idea: in $F = P(1+i)^t$, a **root** frees $i$ and a **log** frees $t$."
+  ],
+  "question": "€20,000 is invested at $4\\%$ per annum compound interest. After how many whole years will it first be worth at least €30,000?"
+ },
+ {
+  "skill": "fin-annuity-fv",
+  "title": "Find the future value of regular savings",
+  "chapter": "Financial Maths",
+  "level": "HL",
+  "input": "payment, i, number of payments",
+  "output": "sum of a geometric series",
+  "example": "€100/month for 12 months at 0.5%/month → €1,233.56",
+  "what": [
+   "You give it a regular payment $A$, a rate $i$ for each period and the number of payments $n$. It finds what the savings are worth at the end.",
+   "The key idea: each payment grows for a different length of time, so the values form a **geometric series**. One sum formula adds them all."
+  ],
+  "question": "Aoife saves €150 at the start of every month for $24$ months. The account pays $0.4\\%$ compound interest per month. Find the value of her savings at the end of the $24$ months, to the nearest cent."
+ },
+ {
+  "skill": "fin-annuity-pv",
+  "title": "Find the present value of a series of payments (pension/annuity)",
+  "chapter": "Financial Maths",
+  "level": "HL",
+  "input": "payment, i, n",
+  "output": "sum of present values",
+  "example": "value now of €1,000/year for 10 years",
+  "what": [
+   "You give it a payment, a rate $i$ and a number of payments $n$. It gives back what the whole stream of payments is worth **today**.",
+   "The key idea: each payment is divided by $(1+i)$ once for every period it has to wait, and those present values form a **geometric series** you can add with one formula."
+  ],
+  "question": "A pension pays €1500 at the end of each year for 6 years. The interest rate is 3% per year. Find the present value of the pension, correct to the nearest cent."
+ }
+]

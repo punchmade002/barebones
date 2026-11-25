@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "inf-p-value",
+  "title": "Calculate and interpret a p-value",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "HL",
+  "input": "test statistic",
+  "output": "p-value; compare with 0.05",
+  "example": "z = 2 → p ≈ 0.0456 < 0.05",
+  "what": [
+   "You give it a test statistic, $z$. It tells you how likely a result **this far out** is if the claim were true.",
+   "The key idea: look up the tail area in the tables and, for a two-tailed test, **double** it. If the $p$-value is under $0.05$, reject the claim."
+  ],
+  "question": "A machine is set to fill bags with a mean mass of $500$ g and a standard deviation of $12$ g. A sample of $36$ bags has a mean mass of $504.6$ g. Test, at the $5\\%$ level, whether the mean mass has changed. Use a $p$-value."
+ },
+ {
+  "skill": "inf-confidence-width",
+  "title": "Relate confidence level, sample size and interval width",
+  "chapter": "Statistics - Inferential Statistics",
+  "level": "HL",
+  "input": "interval requirements",
+  "output": "wider/narrower; n needed for a margin",
+  "example": "halving the margin needs 4× the sample",
+  "what": [
+   "You give it what you want from a confidence interval: a confidence level, or a target margin of error. It tells you whether the interval gets **wider** or narrower, or how big the sample must be.",
+   "The key idea: the margin is $z\\sqrt{\\hat p(1-\\hat p)/n}$, so it grows with the confidence level and shrinks with $\\sqrt{n}$. Halving the margin needs **four times** the sample."
+  ],
+  "question": "In a poll, $40\\%$ of the people sampled support a proposal. A $95\\%$ confidence interval for the proportion who support it must have a margin of error of at most $0.03$. Find the smallest sample size, $n$, that does this."
+ },
+ {
+  "skill": "stat-z-score",
+  "title": "Standardise a value",
+  "chapter": "Statistics - Z Scores",
+  "level": "HL",
+  "input": "x, μ, σ",
+  "output": "z = (x − μ)/σ; relative standing",
+  "example": "x = 130, μ = 100, σ = 15 → z = 2",
+  "what": [
+   "You give it a value $x$ from a normal distribution with mean $\\mu$ and standard deviation $\\sigma$. It gives back $z$, the number of standard deviations $x$ sits **above or below** the mean.",
+   "The key idea: $z$ puts any normal distribution on one common scale, so you can read the tables, or compare two values from different distributions."
+  ],
+  "question": "The marks in an exam are normally distributed with mean $58$ and standard deviation $12$. Find the percentage of students who scored more than $73$."
+ },
+ {
+  "skill": "stat-empirical-rule",
+  "title": "Make decisions with the empirical rule",
+  "chapter": "Statistics - Z Scores",
+  "level": "OL",
+  "input": "μ, σ",
+  "output": "68% / 95% / 99.7% ranges",
+  "example": "μ = 50, σ = 5 → 95% in [40, 60]",
+  "what": [
+   "You give it a mean, $\\mu$, and a standard deviation, $\\sigma$. It tells you what share of a normal distribution lies within **1, 2 or 3** standard deviations of the mean: $68\\%$, $95\\%$ and $99.7\\%$.",
+   "The key idea: count how many $\\sigma$ a value is from $\\mu$. The curve is symmetrical, so the leftover share splits equally between the two tails."
+  ],
+  "question": "The lifetime of a battery is normally distributed with mean $60$ hours and standard deviation $5$ hours. Use the empirical rule to find the percentage of batteries that last more than $70$ hours."
+ },
+ {
+  "skill": "stat-normal-prob",
+  "title": "Read probabilities from normal tables",
+  "chapter": "Statistics - Z Scores",
+  "level": "HL",
+  "input": "normal X, interval",
+  "output": "probability via z and tables (symmetry, 1 − P)",
+  "example": "P(X < 130), μ = 100, σ = 15 → 0.9772",
+  "what": [
+   "You give it a normal variable $X$ and an interval, like $P(X > 512)$. It gives back a **probability** read from the tables.",
+   "The key idea: the tables only give the area to the **left** of a $z$-value. Turn $x$ into $z$, look up the left area, then use $1 - P$ or symmetry for anything else."
+  ],
+  "question": "The mass of a bag of sugar is normally distributed with mean $500$ g and standard deviation $8$ g. Find the probability that a bag has mass greater than $512$ g."
+ },
+ {
+  "skill": "stat-normal-inverse",
+  "title": "Work backwards from a normal probability",
+  "chapter": "Statistics - Z Scores",
+  "level": "HL",
+  "input": "probability + some of μ, σ, x",
+  "output": "z from tables → missing x, μ or σ",
+  "example": "top 10% → z ≈ 1.28",
+  "what": [
+   "You give it a probability, like the top $20\\%$, and the mean and standard deviation. It gives back the **mark** $x$ that fits.",
+   "The key idea: this is the tables run backwards. Turn the percentage into a left area, find that area **inside** the table to get $z$, then put $z$ into $z = \\frac{x - \\mu}{\\sigma}$ and solve for $x$."
+  ],
+  "question": "The marks in an exam are normally distributed with mean $58$ and standard deviation $9$. The top $20\\%$ of students get a distinction. Find the lowest mark that gets a distinction, to the nearest whole number."
+ },
+ {
+  "skill": "trig-radians",
+  "title": "Use radian measure",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "angle in degrees or radians",
+  "output": "converted angle",
+  "example": "135° → 3π/4",
+  "what": [
+   "You give it an angle in degrees or in radians. It gives back the same angle in the **other** unit.",
+   "The key idea: $180^\\circ = \\pi$ radians. To go to radians multiply by $\\frac{\\pi}{180}$. To go to degrees multiply by $\\frac{180}{\\pi}$."
+  ],
+  "question": "A sector of a circle has radius $6$ cm and angle $150^\\circ$. (i) Write $150^\\circ$ in radians. (ii) Find the area of the sector, in terms of $\\pi$."
+ },
+ {
+  "skill": "trig-unit-circle",
+  "title": "Define sin θ, cos θ, tan θ for all θ (unit circle)",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "OL",
+  "input": "any angle",
+  "output": "value with correct sign (CAST, related angle)",
+  "example": "cos 240° → −½",
+  "what": [
+   "You give it any angle, like $240^\\circ$ or $210^\\circ$. It gives back the **value** of $\\sin$, $\\cos$ or $\\tan$, with the right sign.",
+   "The key idea: on the unit circle the point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$. Use the **related angle** to find the size, and the quadrant (CAST) to find the sign."
+  ],
+  "question": "Find the exact value of $\\cos 210^\\circ$."
+ },
+ {
+  "skill": "trig-pythag-identity",
+  "title": "Use cos²A + sin²A = 1 (formula 1)",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "one ratio + quadrant",
+  "output": "other ratios; simplified expression",
+  "example": "sin A = 3/5, A acute → cos A = 4/5",
+  "what": [
+   "You give it one ratio, like $\\sin A$, and the quadrant $A$ lies in. It gives back the **other ratios**.",
+   "The key idea: $\\cos^2 A + \\sin^2 A = 1$ links the two. Find $\\cos^2 A$, take the root, then use the quadrant to pick the sign."
+  ],
+  "question": "Given that $\\sin A = \\frac{8}{17}$ and $90° < A < 180°$, find the value of $\\tan A$."
+ },
+ {
+  "skill": "trig-exact-values",
+  "title": "Use trig ratios in surd form",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "OL",
+  "input": "30°, 45°, 60° and related angles",
+  "output": "exact value",
+  "example": "sin 135° → 1/√2",
+  "what": [
+   "You give it an angle like $135°$ or $150°$. It gives back the **exact value** of its sine, cosine or tangent, with surds and no decimals.",
+   "The key idea: every such angle has a reference angle of $30°$, $45°$ or $60°$ in the first quadrant. Use that angle's exact value, then fix the sign from the quadrant."
+  ],
+  "question": "Find the exact value of $\\sin 135° + \\cos 150°$."
+ },
+ {
+  "skill": "trig-solve-basic",
+  "title": "Solve sin θ = k, cos θ = k, tan θ = k in a range",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "OL",
+  "input": "equation + interval",
+  "output": "all solutions in the interval",
+  "example": "cos θ = −½, 0° ≤ θ ≤ 360° → 120°, 240°",
+  "what": [
+   "You give it an equation like $\\sin\\theta = k$ and an interval. It gives back **every angle** in the interval that works.",
+   "The key idea: the calculator gives only one angle. The sign of $k$ tells you which two quadrants hold the answers, and the reference angle gives both."
+  ],
+  "question": "Solve $2\\sin\\theta + 1 = 0$ for $0° \\le \\theta \\le 360°$."
+ },
+ {
+  "skill": "trig-graph",
+  "title": "Graph sin, cos and tan",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "function + domain",
+  "output": "graph with period and range",
+  "example": "y = tan x has period π",
+  "what": [
+   "You give it a function like $3\\cos x + 1$ and a domain. It gives back its **graph**, with the period and the range.",
+   "The key idea: the number multiplying the trig function stretches the wave and the number added moves it up or down, so the range changes. The period only changes if you change the $x$ inside."
+  ],
+  "question": "Sketch the graph of $f(x) = 3\\cos x + 1$ for $0 \\le x \\le 2\\pi$. Write down its period and its range."
+ },
+ {
+  "skill": "trig-derive-1",
+  "title": "Derive formula 1: cos²A + sin²A = 1",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "earlier formulae in the appendix order",
+  "output": "derivation",
+  "example": "",
+  "what": [
+   "You give it the unit circle and an angle $A$. It builds the formula $\\cos^2 A + \\sin^2 A = 1$ from **Pythagoras**.",
+   "The point at angle $A$ has coordinates $(\\cos A, \\sin A)$, and it sits exactly 1 from the centre. Pythagoras on that distance is the whole proof."
+  ],
+  "question": "The point $P$ lies on the unit circle, at angle $A$ from the positive $x$-axis. Use the right-angled triangle formed by $P$ to prove that $\\cos^2 A + \\sin^2 A = 1$."
+ },
+ {
+  "skill": "trig-compound",
+  "title": "Apply compound angle formulae (4, 5, 7, 8, 9, 10)",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "A ± B",
+  "output": "exact value / expansion",
+  "example": "cos 75° → (√6 − √2)/4",
+  "what": [
+   "You give it a sum or difference of two angles, $A \\pm B$. It writes the sine, cosine or tangent of it in terms of $\\sin$ and $\\cos$ of $A$ and $B$ **separately**.",
+   "To find an exact value, split the angle into two you already know, such as $30°$, $45°$, $60°$ or $90°$, then put their exact values into the formula."
+  ],
+  "question": "Use a compound angle formula to find the exact value of $\\cos 105°$. Give your answer in surd form."
+ },
+ {
+  "skill": "trig-solve-general",
+  "title": "Solve trig equations giving all solutions",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "sin nθ = k, cos nθ = k, tan nθ = k",
+  "output": "general solution / all solutions in range",
+  "example": "cos 2θ = ½ → θ = ±π/6 + nπ",
+  "what": [
+   "You give it an equation such as $\\sin 2x = k$. It finds **every** solution in the range you are given.",
+   "Solve for the whole angle $2x$ first, over the longer range it covers, and divide by $2$ only at the end."
+  ],
+  "question": "Solve $\\sin 2x = -\\dfrac{1}{2}$ for $0 \\le x \\le 2\\pi$. Give your answers in radians, in terms of $\\pi$."
+ },
+ {
+  "skill": "trig-graph-abc",
+  "title": "Graph and analyse a + b sin cθ / a + b cos cθ",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "a, b, c (or the graph)",
+  "output": "graph, period 2π/c, range [a − |b|, a + |b|]; a, b, c from graph",
+  "example": "2 + 3 sin 2θ → period π, range [−1, 5]",
+  "what": [
+   "You give it the numbers $a$, $b$ and $c$ in $a + b\\cos c\\theta$, or the graph itself. It finds the **period** and the **range**, or goes the other way.",
+   "The period is $\\frac{2\\pi}{c}$. The graph swings $|b|$ above and below the middle line $a$, so the range is $[a - |b|,\\ a + |b|]$."
+  ],
+  "question": "The depth of water in a harbour is modelled by $h(t) = 8 + 3\\cos\\left(\\dfrac{\\pi t}{6}\\right)$ metres, where $t$ is the time in hours. Find the period and the range of $h$."
+ },
+ {
+  "skill": "trig-derive-2",
+  "title": "Derive formula 2: the sine rule",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "earlier formulae in the appendix order",
+  "output": "derivation",
+  "example": "",
+  "what": [
+   "You give it the **area** formula, $\\tfrac12 ab\\sin C$. It gives back the **sine rule**, which ties each side to the sine of the angle opposite it.",
+   "The key idea: one triangle has one area, however you work it out. Write the area three ways, make them equal, and the sides and sines line up."
+  ],
+  "question": "In triangle $ABC$ the sides opposite $A$, $B$ and $C$ are $a$, $b$ and $c$. Using area $=\\tfrac12 ab\\sin C$, prove that $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$."
+ },
+ {
+  "skill": "trig-solve-quadratic",
+  "title": "Solve trig equations reducible to quadratics",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "equation in sin θ / cos θ (possibly via identities)",
+  "output": "all solutions",
+  "example": "2sin²θ − sin θ − 1 = 0 → 90°, 210°, 330°",
+  "what": [
+   "You give it a trig equation with $\\sin\\theta$ and $\\cos\\theta$ in it, squared as well as to the first power. It finds **every** angle in the range that fits.",
+   "Use $\\cos^2\\theta+\\sin^2\\theta=1$ to leave one trig ratio, call it $x$, and the equation is a quadratic in $x$. Solve that, then turn each value back into angles."
+  ],
+  "question": "Solve $2\\cos^2\\theta + 3\\sin\\theta = 3$ for $0^\\circ \\le \\theta \\le 360^\\circ$."
+ },
+ {
+  "skill": "trig-products-sums",
+  "title": "Apply product-to-sum and sum-to-product formulae (17–24)",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "product or sum of trig terms",
+  "output": "sum or product",
+  "example": "sin 5x + sin x → 2 sin 3x cos 2x",
+  "what": [
+   "You give it a **sum or difference** of two sines or cosines, such as $\\sin 5x+\\sin x$. It gives back a **product** you can factorise or cancel.",
+   "Take half the sum of the two angles and half the difference. They become the angles in the product, and the formula tells you which pair of $\\sin$ and $\\cos$ to use."
+  ],
+  "question": "Show that $\\dfrac{\\sin 7x-\\sin x}{\\cos 7x+\\cos x}=\\tan 3x$."
+ },
+ {
+  "skill": "trig-double",
+  "title": "Apply double/half angle formulae (6, 11–16)",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "2A or A in terms of 2A",
+  "output": "value / rewritten expression",
+  "example": "sin A = 3/5 (acute) → sin 2A = 24/25",
+  "what": [
+   "You give it one trig ratio of an angle $A$. It finds the ratios of the **double angle** $2A$, or of the half angle.",
+   "The formulae come from putting $B=A$ into the compound angle formulae, so $\\sin 2A = 2\\sin A\\cos A$. Find the missing ratio of $A$ first and then substitute."
+  ],
+  "question": "$A$ is an acute angle and $\\sin A=\\dfrac{5}{13}$. Find the exact value of $\\sin 2A$ and of $\\cos 2A$."
+ },
+ {
+  "skill": "trig-derive-3",
+  "title": "Derive formula 3: the cosine rule",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "earlier formulae in the appendix order",
+  "output": "derivation",
+  "example": "",
+  "what": [
+   "You give it a triangle with sides $a$, $b$ and the angle $C$ between them. It derives the **cosine rule**, which gives the third side $c$.",
+   "The key idea: place the triangle on coordinate axes, find $c^2$ with the distance formula, then use $\\cos^2 C + \\sin^2 C = 1$ to tidy it."
+  ],
+  "question": "Put $C$ at the origin and $A$ at $(b, 0)$. The side $CB$ has length $a$ and makes angle $C$ with $CA$. Use the distance formula to derive the cosine rule for $c = AB$."
+ },
+ {
+  "skill": "trig-prove-identity",
+  "title": "Prove a trig identity",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "identity",
+  "output": "one side transformed to the other",
+  "example": "(1 − cos 2A)/sin 2A = tan A",
+  "what": [
+   "You give it an identity such as $\\sin 2A / (1+\\cos 2A) = \\tan A$. It changes **one side** step by step until it matches the other.",
+   "The key idea: start with the more complicated side, replace each angle formula with its expansion, then cancel."
+  ],
+  "question": "Prove that $\\dfrac{\\sin 2A}{1 + \\cos 2A} = \\tan A$."
+ },
+ {
+  "skill": "trig-derive-4",
+  "title": "Derive formula 4: cos(A − B) = cos A cos B + sin A sin B",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "earlier formulae in the appendix order",
+  "output": "derivation",
+  "example": "",
+  "what": [
+   "You give it two angles, $A$ and $B$. It derives a formula for $\\cos(A - B)$ in terms of the sines and cosines of $A$ and $B$ separately.",
+   "The key idea: put two points on the unit circle and find the distance between them twice. Once with the distance formula, once with the cosine rule. The two answers must be equal."
+  ],
+  "question": "The points $P(\\cos A, \\sin A)$ and $Q(\\cos B, \\sin B)$ lie on the unit circle with centre $O$. The angle $POQ$ is $A - B$. Find $PQ^2$ in two ways and so derive a formula for $\\cos(A - B)$."
+ },
+ {
+  "skill": "trig-derive-5",
+  "title": "Derive formula 5: cos(A + B) from formula 4",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "earlier formulae in the appendix order",
+  "output": "derivation",
+  "example": "",
+  "what": [
+   "You give it $\\cos(A + B)$. It derives the expansion from formula 4, the one for $\\cos(A - B)$.",
+   "The key idea: write $A + B$ as $A - (-B)$. Then formula 4 applies, and $\\cos(-B) = \\cos B$, $\\sin(-B) = -\\sin B$ finish it."
+  ],
+  "question": "Use the formula $\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B$ to derive a formula for $\\cos(A + B)$."
+ },
+ {
+  "skill": "trig-derive-7",
+  "title": "Derive formula 7: sin(A + B) from formula 4",
+  "chapter": "Trigonometry - Functions & Identities",
+  "level": "HL",
+  "input": "earlier formulae in the appendix order",
+  "output": "derivation",
+  "example": "",
+  "what": [
+   "You give it formula 4, $\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$. It builds a new formula from it, $\\sin(A+B)$, and shows where it comes from.",
+   "The key idea is that a sine is a cosine of the **complement**: $\\sin\\theta=\\cos(90^\\circ-\\theta)$. Turn the sine into a cosine, then use formula 4."
+  ],
+  "question": "Using $\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$, show that $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$."
+ }
+]

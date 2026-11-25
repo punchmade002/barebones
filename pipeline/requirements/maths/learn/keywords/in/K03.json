@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "mens-arc-sector",
+  "title": "Find arc length and sector area",
+  "chapter": "Area & Volume",
+  "level": "OL",
+  "input": "r, angle (degrees or radians)",
+  "output": "arc length, sector area",
+  "example": "r = 6, θ = π/3 → arc 2π, area 6π",
+  "what": [
+   "You give it a radius and an angle. It gives back the **arc length** and the **sector area**.",
+   "The key idea: a sector is a fraction of a circle. The angle over $360^\\circ$ is that fraction, and it multiplies the circumference or the area."
+  ],
+  "question": "A sector of a circle has radius $9$ cm and angle $80^\\circ$. Find the length of its arc and the area of the sector, in terms of $\\pi$."
+ },
+ {
+  "skill": "mens-surface-area",
+  "title": "Find surface area of solids",
+  "chapter": "Area & Volume",
+  "level": "OL",
+  "input": "block, cylinder, cone, triangular prism, sphere, hemisphere",
+  "output": "surface area",
+  "example": "cone r = 3, h = 4 → l = 5, curved SA 15π",
+  "what": [
+   "You give it a solid and its measurements. It gives back the **surface area**, the area of the outside.",
+   "The key idea: find the area of each face or curved part, then add them. A cone needs its **slant** height, which you get from Pythagoras."
+  ],
+  "question": "A cone has base radius $5$ cm and vertical height $12$ cm. Find its curved surface area, in terms of $\\pi$, and to one decimal place."
+ },
+ {
+  "skill": "mens-trapezoidal",
+  "title": "Approximate area with the trapezoidal rule",
+  "chapter": "Area & Volume",
+  "level": "OL",
+  "input": "strip width h, heights y₁…yₙ",
+  "output": "h/2[(y₁ + yₙ) + 2(y₂ + … + yₙ₋₁)]",
+  "example": "h = 2; 3, 5, 6, 4 → 29",
+  "what": [
+   "You give it a strip width and a list of heights. It gives back an **estimate** of the area under a curved edge.",
+   "The key idea: split the area into strips of equal width. The first and last heights count once. Every height between counts twice."
+  ],
+  "question": "A garden is $16$ m long. Its width is measured every $4$ m along the length: $6$, $9$, $11$, $8$ and $5$ metres. Use the trapezoidal rule to estimate the area of the garden."
+ },
+ {
+  "skill": "mens-composite",
+  "title": "Find area/volume of compound solids",
+  "chapter": "Area & Volume",
+  "level": "OL",
+  "input": "solid made of several shapes",
+  "output": "total surface area/volume",
+  "example": "cylinder r = 3, h = 10 + hemisphere → 108π",
+  "what": [
+   "You give it a solid made of two or more simple shapes, such as a cylinder with a hemisphere on top. It finds the **total** volume or surface area.",
+   "The key idea: split the solid into shapes you know, find each one separately, then add. Where two shapes join, that face is hidden, so take it out of a surface area."
+  ],
+  "question": "A solid is a cylinder with a hemisphere on top. Both have radius $3$ cm. The cylinder has height $7$ cm. Find the total volume, in terms of $\\pi$."
+ },
+ {
+  "skill": "mens-equate-volumes",
+  "title": "Solve recasting, displacement and flow problems",
+  "chapter": "Area & Volume",
+  "level": "OL",
+  "input": "equal-volume situation",
+  "output": "unknown dimension or time",
+  "example": "sphere r = 3 recast as cylinder r = 2 → h = 9",
+  "what": [
+   "You give it a situation where a volume stays the same: a solid melted and recast, an object dropped into water, or a tank filling. It finds the **unknown** dimension or time.",
+   "The key idea: the volume before equals the volume after. Write each volume with its own formula, set them equal, and solve for what is missing."
+  ],
+  "question": "A solid metal sphere of radius $6$ cm is melted and recast as a solid cylinder of radius $4$ cm. Find the height of the cylinder."
+ },
+ {
+  "skill": "circ-point-position",
+  "title": "Decide whether a point is inside, on or outside a circle",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "OL",
+  "input": "circle + point",
+  "output": "inside/on/outside",
+  "example": "(1, 2) and x² + y² = 9 → inside",
+  "what": [
+   "You give it a circle and a point. It tells you whether the point is **inside**, **on** or **outside** the circle.",
+   "The key idea: compare the point's distance from the centre with the radius. Substituting the point into the equation does this for you: the left side gives the distance squared, $r^2$ is on the right."
+  ],
+  "question": "Is the point $(6, 3)$ inside, on or outside the circle $(x-2)^2 + (y+1)^2 = 25$?"
+ },
+ {
+  "skill": "circ-eq-origin",
+  "title": "Write/interpret a circle with centre (0, 0)",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "OL",
+  "input": "radius or point on circle",
+  "output": "x² + y² = r²",
+  "example": "through (3, 4) → x² + y² = 25",
+  "what": [
+   "You give it a circle with its centre at the origin, either its radius or one point on it. It writes the **equation** of the circle.",
+   "The key idea: every point $(x, y)$ on the circle is the same distance $r$ from $(0, 0)$, so $x^2 + y^2 = r^2$. Find $r^2$ and put it on the right."
+  ],
+  "question": "A circle has centre $(0, 0)$ and passes through the point $(2, 5)$. Find the equation of the circle."
+ },
+ {
+  "skill": "circ-eq-centre-radius",
+  "title": "Write/interpret (x − h)² + (y − k)² = r²",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "OL",
+  "input": "centre and radius (or equation)",
+  "output": "equation (or centre, radius)",
+  "example": "centre (2, −1), r = 3 → (x − 2)² + (y + 1)² = 9",
+  "what": [
+   "You give it a **centre** and a radius, and it writes the equation of the circle. It also works backwards: from the equation it reads off the centre and radius.",
+   "The key idea: every point on the circle is the same distance from the centre. In $(x-h)^2+(y-k)^2=r^2$, the centre is $(h, k)$ and the right-hand side is the radius squared."
+  ],
+  "question": "A circle has centre $(-2, 3)$ and passes through the point $(1, 7)$.\nFind the equation of the circle."
+ },
+ {
+  "skill": "circ-line-origin",
+  "title": "Find where a line meets a circle with centre (0, 0)",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "OL",
+  "input": "line + x² + y² = r²",
+  "output": "intersection points",
+  "example": "y = x + 1, x² + y² = 25 → (3, 4), (−4, −3)",
+  "what": [
+   "You give it a line and a circle with centre $(0, 0)$. It finds the points where they **meet**.",
+   "The key idea: at a meeting point $x$ and $y$ satisfy both equations. Put the line's $y$ into the circle and you get a quadratic in $x$ alone."
+  ],
+  "question": "The line $y = x-1$ meets the circle $x^2+y^2=13$ at two points.\nFind the two points."
+ },
+ {
+  "skill": "circ-chord-length",
+  "title": "Find a chord length or distance from centre",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "OL",
+  "input": "radius + perpendicular distance (or chord)",
+  "output": "chord length",
+  "example": "r = 5, distance 3 → chord 8",
+  "what": [
+   "You give it a circle's radius and how far a chord is from the centre. It gives you the **length** of the chord.",
+   "The key idea: the perpendicular from the centre cuts the chord in half. That makes a right-angled triangle with the radius as hypotenuse, so Pythagoras finds half the chord."
+  ],
+  "question": "The line $3x-4y+20=0$ cuts the circle $(x-1)^2+(y-2)^2=34$ at the points $A$ and $B$.\nFind $|AB|$."
+ },
+ {
+  "skill": "circ-tangent-at-point",
+  "title": "Find the tangent at a point on a circle",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "OL",
+  "input": "circle + point on it",
+  "output": "tangent ⟂ radius",
+  "example": "x² + y² = 25 at (3, 4) → 3x + 4y = 25",
+  "what": [
+   "You give it a circle and a point on it. It gives you the **tangent** line at that point.",
+   "The key idea: the tangent is perpendicular to the radius at the point of contact. Find the slope of the radius, flip and negate it for the tangent, then write the line."
+  ],
+  "question": "The circle $(x-1)^2+(y+2)^2=20$ passes through the point $P(3, -6)$.\nFind the equation of the tangent to the circle at $P$.\nGive your answer in the form $ax+by+c=0$."
+ },
+ {
+  "skill": "circ-general-form",
+  "title": "Use x² + y² + 2gx + 2fy + c = 0",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "HL",
+  "input": "general equation",
+  "output": "centre (−g, −f), r = √(g² + f² − c)",
+  "example": "x² + y² − 4x + 6y − 12 = 0 → (2, −3), r = 5",
+  "what": [
+   "You give it a circle in the form $x^2 + y^2 + 2gx + 2fy + c = 0$. It gives back the **centre** and the radius.",
+   "The key idea: the numbers in front of $x$ and $y$ are $2g$ and $2f$, so halve them. The centre is $(-g, -f)$ and $r = \\sqrt{g^2 + f^2 - c}$."
+  ],
+  "question": "Find the centre and the radius of the circle $x^2 + y^2 - 6x + 2y - 6 = 0$."
+ },
+ {
+  "skill": "circ-tangent-length",
+  "title": "Find the length of a tangent from an external point",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "HL",
+  "input": "circle + external point",
+  "output": "√(x₁² + y₁² + 2gx₁ + 2fy₁ + c)",
+  "example": "(7, 1) to x² + y² = 25 → 5",
+  "what": [
+   "You give it a circle and a point outside it. It gives back the **length of the tangent** from the point to the circle.",
+   "The key idea: the radius to the point of contact meets the tangent at a right angle, so Pythagoras gives $t^2 = d^2 - r^2$, where $d$ is the distance from the point to the centre."
+  ],
+  "question": "The circle $x^2 + y^2 + 2x - 4y - 4 = 0$ has a tangent drawn from the point $P(3, 5)$. Find the length of the tangent from $P$ to the point where it touches the circle."
+ },
+ {
+  "skill": "circ-tangent-test",
+  "title": "Show a line is a tangent",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "HL",
+  "input": "line + circle",
+  "output": "perpendicular distance = r",
+  "example": "3x + 4y − 25 = 0 and x² + y² = 25 → distance 5 = r",
+  "what": [
+   "You give it a line and a circle. It tells you whether the line is a **tangent**.",
+   "The key idea: a tangent is exactly one radius away from the centre. Find the perpendicular distance from the centre to the line. If it equals $r$, the line is a tangent."
+  ],
+  "question": "Show that the line $3x + 4y - 27 = 0$ is a tangent to the circle $x^2 + y^2 - 4x + 2y - 20 = 0$."
+ },
+ {
+  "skill": "circ-line-general",
+  "title": "Find where a line meets any circle",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "HL",
+  "input": "line + general circle",
+  "output": "intersection points (or none)",
+  "example": "y = x and x² + y² − 4x = 0 → (0, 0), (2, 2)",
+  "what": [
+   "You give it a line and a circle in the form $x^2 + y^2 + 2gx + 2fy + c = 0$. It finds the **points** where they meet, or shows there are none.",
+   "The key idea: use the line to write $y$ in terms of $x$, put that into the circle, and solve the quadratic that results."
+  ],
+  "question": "The line $y = x + 1$ meets the circle $x^2 + y^2 - 2x - 4y - 3 = 0$ at two points. Find the points."
+ },
+ {
+  "skill": "circ-touching",
+  "title": "Decide whether circles touch internally or externally",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "HL",
+  "input": "two circles",
+  "output": "|c₁c₂| = r₁ + r₂ or |r₁ − r₂|",
+  "example": "(0, 0) r 3 and (8, 6) r 7 → touch externally",
+  "what": [
+   "You give it two circles. It decides whether they **touch**, and whether from the outside or the inside.",
+   "The key idea: compare the distance between the centres with the radii. If it equals $r_1 + r_2$ they touch externally. If it equals $|r_1 - r_2|$ they touch internally."
+  ],
+  "question": "The circle $c$ has equation $x^2 + y^2 + 2x - 4y - 20 = 0$ and the circle $s$ has equation $(x-2)^2 + (y+2)^2 = 100$. Show that the circles touch internally."
+ },
+ {
+  "skill": "circ-common-chord",
+  "title": "Find the common chord/tangent of two circles",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "HL",
+  "input": "two circle equations",
+  "output": "line by subtracting equations",
+  "example": "x² + y² = 25, x² + y² − 6x = 7 → x = 3",
+  "what": [
+   "You give it two circles that cross. It finds the **line** through the two points where they meet.",
+   "The key idea: a point on both circles satisfies both equations. Subtract one equation from the other and the $x^2$ and $y^2$ terms cancel, leaving a line."
+  ],
+  "question": "The circles $x^2 + y^2 - 2x - 4y - 20 = 0$ and $x^2 + y^2 + 6x - 4y - 28 = 0$ meet at two points. Find the equation of the line through those points."
+ },
+ {
+  "skill": "circ-tangents-from-point",
+  "title": "Find tangents from an external point",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "HL",
+  "input": "circle + external point",
+  "output": "tangent slopes and equations",
+  "example": "x² + y² = 5 from (0, 5) → y = ±2x + 5",
+  "what": [
+   "You give it a circle and a point outside it. It finds the **tangents** from that point to the circle.",
+   "The key idea: a tangent is a line at distance $r$ from the centre. Write the line through the point with an unknown slope $m$, then make its distance from the centre equal $r$."
+  ],
+  "question": "Find the equations of the two tangents to the circle $x^2 + y^2 = 10$ from the point $(0, 10)$."
+ },
+ {
+  "skill": "circ-from-conditions",
+  "title": "Find a circle's equation from conditions",
+  "chapter": "Co-Ordinate Geometry of the Circle",
+  "level": "HL",
+  "input": "e.g. three points, centre on a line, touches an axis",
+  "output": "g, f, c",
+  "example": "through (0, 0), (4, 0), (0, 6) → x² + y² − 4x − 6y = 0",
+  "what": [
+   "You give it conditions on a circle, such as three points it passes through. It finds the equation of the **circle**.",
+   "The key idea: $x^2 + y^2 + 2gx + 2fy + c = 0$ has three unknowns. Each condition gives one equation in them, so three conditions fix the circle."
+  ],
+  "question": "Find the equation of the circle that passes through $(1, 1)$, $(5, 1)$ and $(1, -3)$."
+ },
+ {
+  "skill": "line-midpoint",
+  "title": "Find the midpoint of a segment",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "JC",
+  "input": "two points",
+  "output": "((x₁ + x₂)/2, (y₁ + y₂)/2)",
+  "example": "(2, 3), (6, 7) → (4, 5)",
+  "what": [
+   "You give it two points. It finds the point exactly halfway between them, the **midpoint**.",
+   "The key idea: halfway is the average. Average the x-values, then average the y-values."
+  ],
+  "question": "Find the midpoint of $A(-4, 3)$ and $B(8, -7)$."
+ },
+ {
+  "skill": "line-slope",
+  "title": "Find the slope from two points or an equation",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "JC",
+  "input": "two points, or ax + by + c = 0",
+  "output": "m",
+  "example": "(1, 2), (3, 8) → 3; 2x + 3y = 6 → −2/3",
+  "what": [
+   "You give it two points on a line. It tells you the **slope**, how steep the line is.",
+   "The key idea: slope is rise over run. Divide the change in $y$ by the change in $x$."
+  ],
+  "question": "Find the slope of the line through $P(-2, 1)$ and $Q(4, 10)$."
+ },
+ {
+  "skill": "line-point-on",
+  "title": "Test whether a point is on a line; find intercepts",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "OL",
+  "input": "line + point",
+  "output": "yes/no; axis intercepts",
+  "example": "3x − y − 1 = 0 cuts x-axis at (1/3, 0)",
+  "what": [
+   "You give it a line and a point. It tells you whether the point is **on** the line, and where the line meets the axes.",
+   "The key idea: a point is on a line when its coordinates make the equation true. For an axis, one coordinate is $0$."
+  ],
+  "question": "The line $l$ has equation $3x - 2y - 12 = 0$.\n(i) Show that $(6, 3)$ is on $l$.\n(ii) Find where $l$ crosses the x-axis and the y-axis."
+ },
+ {
+  "skill": "line-distance",
+  "title": "Find the distance between two points",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "JC",
+  "input": "(x₁, y₁), (x₂, y₂)",
+  "output": "√((x₂ − x₁)² + (y₂ − y₁)²)",
+  "example": "(1, 2), (4, 6) → 5",
+  "what": [
+   "You give it two points. It finds the **distance** between them, the length of the segment.",
+   "The key idea: the two points are the ends of the hypotenuse of a right-angled triangle. The sides are the differences in $x$ and in $y$, so use Pythagoras."
+  ],
+  "question": "Find the distance between $A(-2, 3)$ and $B(4, 11)$."
+ },
+ {
+  "skill": "line-equation",
+  "title": "Find the equation of a line",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "JC",
+  "input": "point + slope (or two points)",
+  "output": "y − y₁ = m(x − x₁) → ax + by + c = 0",
+  "example": "(1, 2), m = 3 → 3x − y − 1 = 0",
+  "what": [
+   "You give it a point on a line and the line's slope, $m$. It writes the **equation** of the line.",
+   "The key idea: every point $(x, y)$ on the line has the same slope to your point, so $y - y_1 = m(x - x_1)$. If you are given two points, find $m$ first."
+  ],
+  "question": "The points $A(-2, 1)$ and $B(4, 5)$ are on a line. Find the equation of the line. Give your answer in the form $ax + by + c = 0$."
+ },
+ {
+  "skill": "line-collinear",
+  "title": "Show points are collinear",
+  "chapter": "Co-Ordinate Geometry of the Line",
+  "level": "OL",
+  "input": "three points",
+  "output": "equal slopes (or zero area)",
+  "example": "(0, 1), (1, 3), (2, 5) → collinear",
+  "what": [
+   "You give it three points. It shows whether they lie on one **straight line**.",
+   "The key idea: if the slope from $A$ to $B$ equals the slope from $B$ to $C$, and the two lines share the point $B$, they are the same line."
+  ],
+  "question": "Show that the points $A(1, -1)$, $B(3, 2)$ and $C(7, 8)$ are collinear."
+ }
+]

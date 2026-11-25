@@ -1,0 +1,352 @@
+[
+ {
+  "skill": "geo-thm6",
+  "title": "Apply Theorem 6: Exterior angle = sum of interior opposite angles",
+  "chapter": "Geometry",
+  "level": "JC",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 6",
+  "example": "",
+  "what": [
+   "You give it a triangle with one side extended. It finds the unknown angle and **names the theorem** that justifies it.",
+   "Theorem 6: the **exterior angle** of a triangle equals the sum of the two interior opposite angles."
+  ],
+  "question": "In the triangle $ABC$, the side $[BC]$ is extended to $D$. $|\\angle BAC| = (2x + 10)^\\circ$, $|\\angle ABC| = 40^\\circ$ and the exterior angle is $|\\angle ACD| = (5x - 10)^\\circ$. Find $x$ and $|\\angle ACD|$. Give a reason."
+ },
+ {
+  "skill": "geo-transformations",
+  "title": "Find images under translation, central symmetry, axial symmetry and rotation",
+  "chapter": "Geometry",
+  "level": "JC",
+  "input": "point/shape + transformation",
+  "output": "image; axes/centre of symmetry",
+  "example": "(2, 3) under central symmetry in (0, 0) → (−2, −3)",
+  "what": [
+   "You give it a point or a shape and a transformation. It gives back the **image**.",
+   "A translation adds the same shift to every point. Central symmetry in the origin flips the sign of both coordinates."
+  ],
+  "question": "A translation maps $A(3, 5)$ to $A'(7, 2)$. (i) Find the image of $B(-1, 4)$ under the same translation. (ii) Find the image of that point under central symmetry in $(0, 0)$."
+ },
+ {
+  "skill": "geo-thm7",
+  "title": "Apply Theorem 7: Greater side is opposite the greater angle (and converse)",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 7",
+  "example": "",
+  "what": [
+   "You give it a triangle where some angles or sides are unknown. It tells you which side is the **longest** and which angle is the **greatest**.",
+   "The key idea: the greater angle always faces the greater side. It works the other way round too, so the longest side faces the greatest angle."
+  ],
+  "question": "In triangle $ABC$, $|\\angle A| = (x + 30)^\\circ$, $|\\angle B| = (2x - 10)^\\circ$ and $|\\angle C| = (3x - 20)^\\circ$. Find $x$, and name the longest side of the triangle."
+ },
+ {
+  "skill": "geo-thm8",
+  "title": "Apply Theorem 8: Triangle inequality: two sides together exceed the third",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 8",
+  "example": "",
+  "what": [
+   "You give it three lengths, or two lengths and an unknown third. It tells you whether a triangle can be made, and how long the unknown side can be.",
+   "The key idea: any two sides together must be **longer** than the third. If they are not, the two sides cannot reach each other."
+  ],
+  "question": "A triangle has two sides of length $6$ cm and $9$ cm. The third side is $x$ cm, where $x$ is a whole number. How many different values can $x$ have?"
+ },
+ {
+  "skill": "geo-thm14",
+  "title": "Apply Theorem 14: Pythagoras",
+  "chapter": "Geometry",
+  "level": "JC",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 14",
+  "example": "",
+  "what": [
+   "You give it a right-angled triangle with two sides known. It finds the third side.",
+   "The key idea: the square on the **hypotenuse** (the side opposite the right angle) equals the sum of the squares on the other two sides."
+  ],
+  "question": "A ladder $7{\\cdot}4$ m long leans against a vertical wall. The foot of the ladder is $2{\\cdot}1$ m from the wall. How high up the wall does the ladder reach? Give your answer correct to one decimal place."
+ },
+ {
+  "skill": "geo-thm15",
+  "title": "Apply Theorem 15: Converse of Pythagoras",
+  "chapter": "Geometry",
+  "level": "JC",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 15",
+  "example": "",
+  "what": [
+   "You give it a triangle with all three sides known. It tells you whether the triangle has a **right angle**.",
+   "The key idea: if the square of the longest side equals the sum of the squares of the other two, the angle opposite the longest side is $90^\\circ$."
+  ],
+  "question": "A triangle has sides of length $20$ cm, $99$ cm and $101$ cm. Show that the triangle is right-angled."
+ },
+ {
+  "skill": "geo-cor3",
+  "title": "Apply Corollary 3: An angle in a semicircle is a right angle",
+  "chapter": "Geometry",
+  "level": "JC",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Corollary 3",
+  "example": "",
+  "what": [
+   "You give it a circle with a diameter and a point on the circle. It finds an unknown **angle** and says why it is true.",
+   "The key idea: join any point on the circle to the two ends of a diameter and the angle at that point is always $90^\\circ$. The diameter is the one thing to look for."
+  ],
+  "question": "$[AB]$ is a diameter of a circle and $C$ is a point on the circle. $|\\angle CAB| = 38^\\circ$. Find $|\\angle ABC|$."
+ },
+ {
+  "skill": "geo-congruence",
+  "title": "Prove triangles congruent (SSS, SAS, ASA, RHS)",
+  "chapter": "Geometry",
+  "level": "JC",
+  "input": "two triangles with given data",
+  "output": "congruence with the case cited",
+  "example": "ΔABD ≡ ΔCBD by SAS",
+  "what": [
+   "You give it two triangles and some equal sides and angles. It shows the triangles are **congruent** and names the case that proves it.",
+   "The key idea: you do not need all six matches. Three of the right kind (SSS, SAS, ASA or RHS) are enough, and each match needs a reason."
+  ],
+  "question": "In the quadrilateral $ABCD$, $|AB| = |AD| = 5$ cm and $|BC| = |DC| = 7$ cm. Prove that $\\Delta ABC$ and $\\Delta ADC$ are congruent."
+ },
+ {
+  "skill": "geo-enlargement",
+  "title": "Construct and analyse an enlargement",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "object, centre, scale factor k (0 < k < 1 or k > 1)",
+  "output": "image; k from lengths; area × k²",
+  "example": "k = 2.5, area 12 → 75",
+  "what": [
+   "You give it an object, a centre $O$ and a **scale factor** $k$. It draws the image, or finds $k$ from two lengths, or finds the new area.",
+   "The key idea: every length is multiplied by $k$ but every area is multiplied by $k^2$."
+  ],
+  "question": "The triangle $ABC$ is enlarged with centre $O$ to give the image $PQR$. $|OB| = 5$ cm and $|OQ| = 12$ cm. The area of $ABC$ is $10$ cm$^2$. Find the area of $PQR$."
+ },
+ {
+  "skill": "geo-thm9",
+  "title": "Apply Theorem 9: Parallelogram: opposite sides and opposite angles equal",
+  "chapter": "Geometry",
+  "level": "JC",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 9",
+  "example": "",
+  "what": [
+   "You give it a parallelogram with some angles or sides as numbers or expressions. It finds the unknown and names the reason.",
+   "The key idea: **opposite** sides are equal and **opposite** angles are equal. Angles side by side (adjacent) add to $180^\\circ$."
+  ],
+  "question": "$ABCD$ is a parallelogram. $|\\angle DAB| = (2x + 15)^\\circ$ and $|\\angle BCD| = (4x - 35)^\\circ$. Find $|\\angle ABC|$."
+ },
+ {
+  "skill": "geo-thm10",
+  "title": "Apply Theorem 10: Diagonals of a parallelogram bisect each other",
+  "chapter": "Geometry",
+  "level": "JC",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 10",
+  "example": "",
+  "what": [
+   "You give it a parallelogram with its diagonals drawn and some lengths unknown. It finds the unknown and **names the theorem** that justifies it.",
+   "Theorem 10: the diagonals of a parallelogram **bisect** each other, so each diagonal is cut into two equal halves at the point where they cross."
+  ],
+  "question": "$ABCD$ is a parallelogram. The diagonals $[AC]$ and $[BD]$ meet at $E$. $|AE| = (3x + 2)$ cm and $|EC| = (5x - 6)$ cm. Find $x$ and $|AC|$."
+ },
+ {
+  "skill": "geo-cor4",
+  "title": "Apply Corollary 4: A right angle at the circle stands on a diameter",
+  "chapter": "Geometry",
+  "level": "JC",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Corollary 4",
+  "example": "",
+  "what": [
+   "You give it a circle with a triangle drawn inside and one side on a diameter. It finds the unknown angles and **names the corollary** that justifies it.",
+   "Corollary 4: if a triangle has all three corners on a circle and one side is a **diameter**, the angle opposite that side is $90^\\circ$."
+  ],
+  "question": "$[AB]$ is a diameter of a circle and $C$ is a point on the circle. $|\\angle CAB| = (2x + 5)^\\circ$ and $|\\angle ABC| = (4x - 5)^\\circ$. Find $x$ and $|\\angle ABC|$."
+ },
+ {
+  "skill": "geo-thm17",
+  "title": "Apply Theorem 17: A diagonal bisects the area of a parallelogram",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 17",
+  "example": "",
+  "what": [
+   "You give it a parallelogram with a known area and a diagonal drawn. It finds the area of a triangle inside it.",
+   "Theorem 17: a diagonal **bisects** the area of a parallelogram, so each triangle it cuts off is half the area."
+  ],
+  "question": "The area of the parallelogram $PQRS$ is $420$ m$^2$. (i) Find the area of the triangle $PQR$. (ii) $T$ is the midpoint of $[QR]$. Find the area of the triangle $PQT$."
+ },
+ {
+  "skill": "geo-thm18",
+  "title": "Apply Theorem 18: Area of a parallelogram = base × height",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 18",
+  "example": "",
+  "what": [
+   "You give it a parallelogram with a side and a height. It finds the area, or a missing height.",
+   "Theorem 18: the area of a parallelogram is **base** times **perpendicular height**. The height is the straight distance between the two parallel sides, not the slanted side."
+  ],
+  "question": "$ABCD$ is a parallelogram. $|AB| = 12$ cm and the perpendicular distance between $[AB]$ and $[DC]$ is $6$ cm. $|BC| = 8$ cm. Find the area of $ABCD$, and the perpendicular distance between $[BC]$ and $[AD]$."
+ },
+ {
+  "skill": "geo-thm16",
+  "title": "Apply Theorem 16: Base × height is the same for every side of a triangle",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 16",
+  "example": "",
+  "what": [
+   "You give it a diagram with triangles and a parallelogram that share a base and a height. It finds the unknown **area**, and cites Theorem 16.",
+   "Theorem 16: the area of a triangle is half of $\\text{base} \\times \\text{height}$, and it is the same whichever side you take as the base."
+  ],
+  "question": "$PQRS$ is a parallelogram with area $360\\ \\text{m}^2$. $T$ is the midpoint of $[QR]$.\n(i) Find the area of the triangle $PQS$.\n(ii) Find the area of the triangle $PQT$."
+ },
+ {
+  "skill": "geo-thm20",
+  "title": "Apply Theorem 20: Tangent is perpendicular to the radius at the point of contact (and converse)",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 20",
+  "example": "",
+  "what": [
+   "You give it a circle with a tangent. It finds an unknown **length** or angle, and cites Theorem 20.",
+   "Theorem 20: a tangent is **perpendicular** to the radius at the point of contact. That gives you a right angle, so Pythagoras and trigonometry work."
+  ],
+  "question": "A circle has centre $O$ and radius $5$ cm. $[PT]$ is a tangent to the circle at $T$, and $|OP| = 13$ cm.\n(i) Find $|PT|$.\n(ii) Find the area of the triangle $OTP$."
+ },
+ {
+  "skill": "geo-cor1",
+  "title": "Apply Corollary 1: A diagonal divides a parallelogram into two congruent triangles",
+  "chapter": "Geometry",
+  "level": "HL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Corollary 1",
+  "example": "",
+  "what": [
+   "You give it a parallelogram with a diagonal drawn. It finds an unknown **angle** or side, and cites Corollary 1.",
+   "Corollary 1: a diagonal splits a parallelogram into **two congruent triangles**, so the matching angles and sides are equal."
+  ],
+  "question": "$ABCD$ is a parallelogram. $|\\angle ABC| = (4x + 10)^\\circ$ and $|\\angle CDA| = (6x - 20)^\\circ$. Find $x$ and $|\\angle ABC|$."
+ },
+ {
+  "skill": "geo-thm11",
+  "title": "Apply Theorem 11: Three parallel lines cutting equal segments on one transversal cut equal segments on any",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 11",
+  "example": "",
+  "what": [
+   "You give it three parallel lines cutting one transversal into **equal** pieces. It finds the pieces on a second transversal, and cites Theorem 11.",
+   "Theorem 11: if the pieces are equal on one transversal, they are equal on **every** transversal."
+  ],
+  "question": "The parallel lines $AD$, $BE$ and $CF$ cut the transversal $[AC]$ with $|AB| = |BC|$. They cut the second transversal $[DF]$ at $D$, $E$ and $F$. $|DE| = (2x + 1)$ cm and $|EF| = (4x - 9)$ cm. Find $x$ and $|DF|$."
+ },
+ {
+  "skill": "geo-thm13",
+  "title": "Apply Theorem 13: Similar triangles have proportional sides",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 13",
+  "example": "",
+  "what": [
+   "You give it two triangles with the same three angles. It finds a missing **length** in one of them.",
+   "The key idea (Theorem 13): triangles with equal angles have sides in the same **ratio**. Match each side to the side opposite the same angle, then use the ratio."
+  ],
+  "question": "In the diagram, triangles $ABC$ and $DEF$ are equiangular. $|AB| = 6$ cm, $|BC| = 9$ cm and $|DE| = 8$ cm. $AB$ and $DE$ are opposite equal angles, and so are $BC$ and $EF$. Find $|EF|$."
+ },
+ {
+  "skill": "geo-thm21",
+  "title": "Apply Theorem 21: Perpendicular from the centre bisects a chord; perpendicular bisector of a chord passes through the centre",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 21",
+  "example": "",
+  "what": [
+   "You give it a circle with a chord, and a line from the centre that meets the chord at a right angle. It finds the **half-chord**, then a length such as the radius.",
+   "The key idea (Theorem 21): a perpendicular from the centre **bisects** the chord. That makes a right-angled triangle, so Pythagoras finishes the job."
+  ],
+  "question": "A circle has centre $O$. A chord $[AB]$ has length $24$ cm. The perpendicular from $O$ meets $[AB]$ at $M$, and $|OM| = 5$ cm. Find the radius of the circle."
+ },
+ {
+  "skill": "geo-similar-triangles",
+  "title": "Find lengths using similar triangles",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "two equiangular triangles",
+  "output": "missing side via ratio",
+  "example": "ratio 3 : 5, side 6 → 10",
+  "what": [
+   "You give it two **equiangular** triangles and one pair of matching sides. It finds a missing side.",
+   "The key idea: matching sides are all in the same ratio. Find that ratio once, the **scale factor**, then multiply or divide by it."
+  ],
+  "question": "Triangles $ABC$ and $PQR$ are similar. $|AB| = 8$ cm and $|PQ| = 14$ cm are matching sides. $|AC| = 12$ cm. Find $|PR|$, the side that matches $[AC]$."
+ },
+ {
+  "skill": "geo-thm12",
+  "title": "Apply Theorem 12: A line parallel to one side of a triangle divides the other two in the same ratio",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Theorem 12",
+  "example": "",
+  "what": [
+   "You give it a triangle with a line drawn **parallel** to one side. It finds a missing length on the other two sides.",
+   "The key idea (Theorem 12): the parallel line cuts the two sides it meets in the same **ratio**. Write that ratio on both sides and solve."
+  ],
+  "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$. $DE$ is parallel to $BC$. $|AD| = 4$ cm, $|DB| = 6$ cm and $|AE| = 5$ cm. Find $|EC|$."
+ },
+ {
+  "skill": "geo-enlargement-centre",
+  "title": "Find the centre and scale factor of an enlargement",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "object and image",
+  "output": "centre (join corresponding points), k",
+  "example": "image side 9, object side 6 → k = 1.5",
+  "what": [
+   "You give it an object and its image after an enlargement. It finds the **centre** of enlargement and the scale factor $k$.",
+   "The key idea: a line through a point and its image passes through the centre. Draw two such lines and they meet at the centre. Then $k$ is image length over object length."
+  ],
+  "question": "The triangle $PQR$ is the image of the triangle $ABC$ under an enlargement.\n(a) Construct the centre of enlargement and label it $O$.\n(b) Given $|AB| = 4$ cm and $|PQ| = 10$ cm, find the scale factor $k$.\n(c) Check your answer: $|OA| = 6$ cm. Find $|OP|$."
+ },
+ {
+  "skill": "geo-cor6",
+  "title": "Apply Corollary 6: Circles sharing a tangent at a point: the centres and that point are collinear",
+  "chapter": "Geometry",
+  "level": "OL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Corollary 6",
+  "example": "",
+  "what": [
+   "You give it two circles that touch at one point $T$. It tells you the two centres and $T$ lie on one straight line.",
+   "The key idea: both radii to $T$ are perpendicular to the same tangent. Two lines perpendicular to one line at one point are the same line."
+  ],
+  "question": "Two circles touch externally at $T$. Their centres are $A$ and $B$. The radius of one circle is $4$ cm and the radius of the other is $9$ cm. Find $|AB|$."
+ },
+ {
+  "skill": "geo-cor5",
+  "title": "Apply Corollary 5: Opposite angles of a cyclic quadrilateral sum to 180°",
+  "chapter": "Geometry",
+  "level": "HL",
+  "input": "geometric diagram with unknown angles/lengths",
+  "output": "unknown found, justified by citing Corollary 5",
+  "example": "",
+  "what": [
+   "You give it a quadrilateral with all four corners on a circle, a **cyclic quadrilateral**. It tells you each pair of opposite angles adds to $180°$.",
+   "The key idea: opposite angles stand on arcs that together make the whole circle. Write that sum as an equation and solve it."
+  ],
+  "question": "$ABCD$ is a cyclic quadrilateral. $|\\angle A| = (2x + 10)°$ and $|\\angle C| = (3x - 20)°$. Find $x$."
+ }
+]
