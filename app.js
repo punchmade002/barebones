@@ -5078,7 +5078,7 @@ function crunchReadoutHtml(data, s) {
     ? `${s.grade} needs over 100% on the written paper${withAac}, so you need every point. Try a lower grade or a higher ${escapeHtml(data.aac?.short || "AAC")} mark.`
     : need <= 0
     ? `Your ${escapeHtml(data.aac?.name || "coursework")} alone reaches ${s.grade}, so the notes can all go.`
-    : `You need ${Math.round(need)}% on the written paper${withAac}. Crunch Mode hides ${Math.round((100 * st.hidden) / st.total)}% of the points, the ones the last ${data.years.length} papers rewarded least. ${back}`;
+    : `You need ${Math.round(need)}% on the written paper${withAac}. Crunch Mode hides the points the last ${data.years.length} papers rewarded least. ${back}`;
   return `
     <p class="crunch-readout"><span class="crunch-hours">${need > 100 ? 0 : crunchCut(st)}%</span>
       <span class="crunch-hours-unit">of the course<small>cut from your study time</small></span></p>

@@ -339,3 +339,18 @@ Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the
 - **Cuts** at a written-paper target of 88/72/55/38%: 18/38/53/75% of study effort. App: `pe-crunch.js`, registered in
   `CRUNCH_FILES`. All 2,221 point keys match the rendered notes. H3 with 80% coursework cuts 38%.
 - Map: https://claude.ai/artifact/RSGnWjmh4CpJZcHLqBJrzZ (`drafts/crunch/pe/map/`, Biology's page with PE wording; crunch-score.js is a symlink).
+
+## Maths: skills in place of note points (feasibility, 2026-11-25)
+- `python3 scripts/crunch_maths.py higher` → `drafts/crunch/maths/map/data.json`, the same shape as crunch_map.py, so
+  crunch-score.js and the map page score it unchanged. Items are the 361 skills (pipeline/requirements/maths/skills.json).
+  Links are their prereqs, all essential. Cost is 1 / 1.5 / 2 for Beginner / Intermediate / Advanced. Papers are
+  2015–2026 HL from the exam bank's marks plus skill-tags.json, with every part tagged. Half a part's marks go to its
+  primary skill and the other half are shared by its other skills, plus a spread slot over its chapters' skills. 2015–2020
+  questions are all compulsory; from 2021 it's Section A best 5 of 6 and B best 3 of 4 on each paper.
+- shortcut: this branch's bank stops at 2025, so the script reads maths-older's bank (2015–2026) while that's unmerged.
+- Backtest at the map defaults (test years 2020–2026): H1 cuts 102 of 361 skills (28% of effort), and 5 of 7 past papers
+  still reach H1. H2: 171 skills (49%), 6/7. H3: 217 (63%), 5/7. H4: 252 (72%), 6/7.
+- Null test (skills relabelled at random in the papers): at the same past-paper scores the shuffled data can only cut
+  57–76 skills at H1, 117–146 at H2 and 166–170 at H3, so the real tags carry the signal.
+- Not built yet: the app side (maths-crunch.js, a time per skill for "% of the course", the Crunch bar on the Maths page,
+  hiding skills on maths-skill.html with Show crunched skills), and Ordinary Level (`crunch_maths.py ordinary`, O1–O8).
