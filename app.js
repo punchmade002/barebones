@@ -5079,7 +5079,7 @@ function crunchPageNote() {
 }
 
 // Subjects with Crunch data. The file loads with the subject page itself: the home shows the Crunch bar or tile.
-const CRUNCH_FILES = { biology: "./biology-crunch.js?v=4", pe: "./pe-crunch.js?v=4", geography: "./geography-crunch.js?v=2", maths: ["./maths-crunch.js?v=1", "./maths-ordinary-crunch.js?v=1"] };
+const CRUNCH_FILES = { biology: "./biology-crunch.js?v=4", pe: "./pe-crunch.js?v=4", geography: "./geography-crunch.js?v=2", history: "./history-crunch.js?v=2", maths: ["./maths-crunch.js?v=1", "./maths-ordinary-crunch.js?v=1"] };
 let crunchDraft = null; // the bar's setup before it is saved: { grade, aac }
 let crunchJustSet = false; // the tile's first appearance gets an entrance
 
