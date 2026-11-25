@@ -1,0 +1,643 @@
+{
+ "hist-ire4-s3.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.2.5",
+    "strength": "helpful",
+    "why": "Famine emigrants poor, Catholic, unskilled",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.0.0",
+    "strength": "helpful",
+    "why": "Protestant-Catholic hostility",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.1.b",
+    "strength": "helpful",
+    "why": "defines nativism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.1.1",
+    "strength": "essential",
+    "why": "names the Know-Nothings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.1.1",
+    "strength": "essential",
+    "why": "the Know-Nothings movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.1.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.0.4",
+    "strength": "helpful",
+    "why": "apelike racial stereotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.1.b",
+    "strength": "helpful",
+    "why": "nativist hostility responded to",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.0.4",
+    "strength": "helpful",
+    "why": "simian racial stereotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.2.b",
+    "strength": "essential",
+    "why": "defines the Fenians",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.2.4",
+    "strength": "helpful",
+    "why": "Fenian scares after Clerkenwell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.0.1",
+    "strength": "helpful",
+    "why": "blamed for disease and crime",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.3.b": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.3.b",
+    "strength": "helpful",
+    "why": "patronage and city machines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.3.b",
+    "strength": "helpful",
+    "why": "patronage explained",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.3.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s3.3.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s3.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.3.1",
+    "strength": "helpful",
+    "why": "police jobs given through party",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.3.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.3.2",
+    "strength": "helpful",
+    "why": "Tammany Hall machine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.4.0",
+    "strength": "helpful",
+    "why": "Croker's early life",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.3.2",
+    "strength": "essential",
+    "why": "Tammany Hall and patronage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.4.2",
+    "strength": "helpful",
+    "why": "Croker led Tammany",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.4.2",
+    "strength": "essential",
+    "why": "Croker's Tammany system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.4.4",
+    "strength": "helpful",
+    "why": "Croker left leadership in 1902",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.4.2",
+    "strength": "helpful",
+    "why": "Croker's corrupt patronage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.4.6",
+    "strength": "helpful",
+    "why": "contemporary views of Croker",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.5.3",
+    "strength": "essential",
+    "why": "ambassador to Britain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.5.4",
+    "strength": "essential",
+    "why": "his appeasement and defeatism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.5.4",
+    "strength": "helpful",
+    "why": "appeaser whose career ended",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.6.0",
+    "strength": "helpful",
+    "why": "who O'Dwyer was",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.6.0",
+    "strength": "helpful",
+    "why": "who O'Dwyer was",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.6.3",
+    "strength": "essential",
+    "why": "his Northern Ireland views",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.6.4",
+    "strength": "helpful",
+    "why": "liberal views and Irish causes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.7.0",
+    "strength": "essential",
+    "why": "Parnell and Irish voters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.7.2",
+    "strength": "essential",
+    "why": "T. P. O'Connor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.7.0",
+    "strength": "helpful",
+    "why": "Irish Parliamentary Party and Home Rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.7.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.3.b",
+    "strength": "helpful",
+    "why": "naturalisation needed in USA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.8.0",
+    "strength": "helpful",
+    "why": "the Molly Maguires society",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.8.0",
+    "strength": "helpful",
+    "why": "the Mollies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.8.0",
+    "strength": "essential",
+    "why": "infiltrated the Mollies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.8.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.8.3",
+    "strength": "essential",
+    "why": "McParland and Pinkertons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.8.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.8.4",
+    "strength": "helpful",
+    "why": "trials leading to hangings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.8.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.8.4",
+    "strength": "helpful",
+    "why": "trials being judged",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.8.5",
+    "strength": "essential",
+    "why": "Jack Kehoe hanged",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s3.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.3.2",
+    "strength": "helpful",
+    "why": "machine politics example",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.3.5",
+    "strength": "essential",
+    "why": "Al Smith",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire4-s3.5.b",
+    "strength": "helpful",
+    "why": "Joseph Kennedy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.4.6",
+    "strength": "helpful",
+    "why": "Croker as corrupt vs friend",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.9.b",
+    "strength": "helpful",
+    "why": "assimilation as the thread",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s3.9.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s3.7.0",
+    "strength": "helpful",
+    "why": "Irish Parliamentary Party channel",
+    "confidence": "high"
+   }
+  ]
+ }
+}

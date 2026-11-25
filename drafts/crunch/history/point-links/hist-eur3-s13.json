@@ -1,0 +1,2144 @@
+{
+"hist-eur3-s13.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.0.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s13.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.0.0",
+"strength": "essential",
+"why": "the Roman Question quarrel",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.5.2",
+"strength": "helpful",
+"why": "Mussolini taking office October 1922",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.7.4",
+"strength": "helpful",
+"why": "ban on opposition parties, one-party state",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.1.0",
+"strength": "helpful",
+"why": "Popolari, the Catholic party",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.0.3",
+"strength": "helpful",
+"why": "Mussolini needing Catholic support",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.0.0",
+"strength": "essential",
+"why": "the Roman Question",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.2.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s13.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.0.0",
+"strength": "essential",
+"why": "Papal States and Roman Question",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.0.0",
+"strength": "essential",
+"why": "Papal States lost in 1870",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.2.1",
+"strength": "essential",
+"why": "the concordat document",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.2.1",
+"strength": "helpful",
+"why": "the concordat document",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.1.2",
+"strength": "helpful",
+"why": "Catholic Action",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.7.7",
+"strength": "essential",
+"why": "single list and 1929 plebiscite",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.1.0",
+"strength": "helpful",
+"why": "Mussolini wanting Catholic support",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.1.1",
+"strength": "helpful",
+"why": "Pope Pius XI",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.2.4",
+"strength": "essential",
+"why": "Catholicism as state religion in concordat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.1.2",
+"strength": "essential",
+"why": "Catholic Action",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.10.0",
+"strength": "helpful",
+"why": "Fascist youth organisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.4.0",
+"strength": "essential",
+"why": "Catholic youth groups as rivals",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.4.1",
+"strength": "essential",
+"why": "dissolution of Catholic youth groups",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.4.1",
+"strength": "essential",
+"why": "the 1931 youth dispute",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.4.2",
+"strength": "helpful",
+"why": "the encyclical Non abbiamo bisogno",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.13.1",
+"strength": "essential",
+"why": "the Rome-Berlin Axis",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.13.0",
+"strength": "helpful",
+"why": "uses the Rome-Berlin Axis alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.5.0",
+"strength": "helpful",
+"why": "Manifesto of the Race",
+"confidence": "low"
+},
+{
+"id": "hist-eur3-s3.10.4",
+"strength": "helpful",
+"why": "Nuremberg Laws against Jews",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.5.1",
+"strength": "essential",
+"why": "the marriage ban",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.2.5",
+"strength": "essential",
+"why": "concordat marriage terms",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.5.1",
+"strength": "helpful",
+"why": "the racial laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.5.2",
+"strength": "helpful",
+"why": "Pius XI objecting to marriage ban",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.1.1",
+"strength": "essential",
+"why": "Pope Pius XI",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.1.5",
+"strength": "helpful",
+"why": "Enabling Act vote and Centre Party",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.2.b",
+"strength": "helpful",
+"why": "Gleichschaltung",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.5.0",
+"strength": "helpful",
+"why": "Himmler",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.6.2",
+"strength": "helpful",
+"why": "Nazi regime coming to power",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.2.1",
+"strength": "essential",
+"why": "what a concordat is",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.5.5",
+"strength": "helpful",
+"why": "Pacelli later Pius XII",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.0.0",
+"strength": "helpful",
+"why": "Papen as Vice-Chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.7.0",
+"strength": "essential",
+"why": "the Reich Concordat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.7.0",
+"strength": "helpful",
+"why": "the Concordat being concluded",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.2.4",
+"strength": "helpful",
+"why": "parties dissolved in 1933",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.7.0",
+"strength": "essential",
+"why": "the Reich Concordat treaty",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.1.2",
+"strength": "helpful",
+"why": "Catholic Action",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.3.2",
+"strength": "essential",
+"why": "the Night of the Long Knives",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.3.3",
+"strength": "helpful",
+"why": "Klausener killed in purge",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.9.4",
+"strength": "essential",
+"why": "Hitler Youth Law of 1936",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.6.0",
+"strength": "essential",
+"why": "Dachau camp",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.8.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.7.1",
+"strength": "essential",
+"why": "terms of the Concordat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.6.0",
+"strength": "essential",
+"why": "the 28 regional churches",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.9.0",
+"strength": "helpful",
+"why": "the Reichskirche plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.9.1",
+"strength": "essential",
+"why": "the German Christians",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.9.1",
+"strength": "essential",
+"why": "the German Christians",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.9.0",
+"strength": "helpful",
+"why": "the Reichskirche",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.9.1",
+"strength": "essential",
+"why": "the German Christians",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.9.2",
+"strength": "helpful",
+"why": "demand to drop Old Testament",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.9.4",
+"strength": "essential",
+"why": "Müller as Reich Bishop",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.9.0",
+"strength": "helpful",
+"why": "Nazi control of Protestant churches",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.9.1",
+"strength": "essential",
+"why": "the German Christians",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.11.0",
+"strength": "essential",
+"why": "the Confessing Church",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.9.0",
+"strength": "helpful",
+"why": "the Reich Church it opposed",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.11.0",
+"strength": "helpful",
+"why": "the Confessing Church",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.4.2",
+"strength": "helpful",
+"why": "the Führer principle",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.11.1",
+"strength": "essential",
+"why": "the Barmen Declaration",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.11.0",
+"strength": "helpful",
+"why": "the Confessing Church",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.11.0",
+"strength": "essential",
+"why": "Pastors' Emergency League, Confessing Church",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.12.0",
+"strength": "essential",
+"why": "Niemöller",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.6.0",
+"strength": "helpful",
+"why": "Dachau camp",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.6.1",
+"strength": "helpful",
+"why": "Sachsenhausen camp",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.11.0",
+"strength": "helpful",
+"why": "the Confessing Church",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.5.2",
+"strength": "helpful",
+"why": "the Gestapo",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.12.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.12.2",
+"strength": "essential",
+"why": "Bonhoeffer",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.12.3",
+"strength": "helpful",
+"why": "Bonhoeffer's resistance and arrest",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.13.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s13.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.13.0",
+"strength": "essential",
+"why": "Mit brennender Sorge",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.8.6",
+"strength": "essential",
+"why": "the breaches of the Concordat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.13.0",
+"strength": "essential",
+"why": "Mit brennender Sorge",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.5.2",
+"strength": "helpful",
+"why": "the Gestapo",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.13.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.13.4",
+"strength": "helpful",
+"why": "the T4 programme",
+"confidence": "low"
+},
+{
+"id": "hist-eur3-s3.5.2",
+"strength": "helpful",
+"why": "Gestapo seizures",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.13.3",
+"strength": "essential",
+"why": "the T4 euthanasia programme",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.13.3",
+"strength": "essential",
+"why": "Bishop Galen",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.13.3",
+"strength": "helpful",
+"why": "opposition to euthanasia programme",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.14.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.14.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.14.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.5.5",
+"strength": "helpful",
+"why": "Pius XII",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.14.3",
+"strength": "essential",
+"why": "Pius XII's silence",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.6.4",
+"strength": "essential",
+"why": "Bormann, Himmler, Rosenberg hostile to Christianity",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.2.0",
+"strength": "helpful",
+"why": "the 1929 Lateran settlement",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.7.0",
+"strength": "helpful",
+"why": "the 1933 Reich Concordat",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.4.1",
+"strength": "helpful",
+"why": "the youth clash",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.5.1",
+"strength": "helpful",
+"why": "the racial laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.4.3",
+"strength": "essential",
+"why": "the 1931 compromise",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.5.4",
+"strength": "essential",
+"why": "the 1938 protest without a break",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.8.6",
+"strength": "helpful",
+"why": "persecution after the Concordat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.15.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.16.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.16.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.16.1",
+"strength": "essential",
+"why": "the British Broadcasting Company",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.16.2",
+"strength": "helpful",
+"why": "the BBC as a corporation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.16.2",
+"strength": "helpful",
+"why": "Reith as director-general",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.16.2",
+"strength": "helpful",
+"why": "the BBC",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.17.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.17.0",
+"strength": "helpful",
+"why": "American commercial networks",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.16.3",
+"strength": "helpful",
+"why": "the BBC monopoly",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.17.2",
+"strength": "essential",
+"why": "it is Radio Luxembourg",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.16.3",
+"strength": "helpful",
+"why": "the BBC monopoly",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.18.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.18.0",
+"strength": "essential",
+"why": "fireside chats",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.18.0",
+"strength": "essential",
+"why": "fireside chat radio talks",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.2.5",
+"strength": "helpful",
+"why": "dictators' mass rallies",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.17.0",
+"strength": "helpful",
+"why": "CBS network",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.18.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.18.3",
+"strength": "essential",
+"why": "the War of the Worlds broadcast",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.16.2",
+"strength": "helpful",
+"why": "the BBC",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.2.0",
+"strength": "helpful",
+"why": "outbreak of war September 1939",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.16.2",
+"strength": "helpful",
+"why": "the BBC",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.23.3",
+"strength": "helpful",
+"why": "Churchill's wartime radio speeches",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.3.6",
+"strength": "helpful",
+"why": "fall of France, armistice June 1940",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.16.2",
+"strength": "helpful",
+"why": "the BBC",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.19.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.20.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.17.0",
+"strength": "helpful",
+"why": "CBS network",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.4.3",
+"strength": "helpful",
+"why": "the Blitz on British cities",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.20.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.20.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.20.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.5.1",
+"strength": "helpful",
+"why": "North Africa campaign setting",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.21.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.21.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.21.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.21.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.21.2",
+"strength": "helpful",
+"why": "the talkies began 1927",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.21.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.21.2",
+"strength": "essential",
+"why": "the arrival of sound films",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.22.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.22.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s13.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.22.0",
+"strength": "helpful",
+"why": "the major studios",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.22.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.22.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.22.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.22.0",
+"strength": "helpful",
+"why": "the major studios",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.23.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.23.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.22.4",
+"strength": "helpful",
+"why": "Hollywood dominating the market",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.23.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.23.0",
+"strength": "helpful",
+"why": "American films filling screens",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.23.1",
+"strength": "essential",
+"why": "the film quota",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.23.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s13.23.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.24.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.24.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.24.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.24.0",
+"strength": "helpful",
+"why": "what newsreels were",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.24.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.24.0",
+"strength": "essential",
+"why": "newsreels",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.24.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.24.0",
+"strength": "essential",
+"why": "newsreels",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.10.3",
+"strength": "helpful",
+"why": "Fascist Italy's Istituto Luce newsreels",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.25.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.25.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.25.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.25.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.25.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.25.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.25.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.26.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.22.4",
+"strength": "helpful",
+"why": "Hollywood's hold on audiences",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.26.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.26.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.22.4",
+"strength": "helpful",
+"why": "American studios' film exports",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.26.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.2.2",
+"strength": "helpful",
+"why": "Nazi control of cultural bodies",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.26.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.26.1",
+"strength": "helpful",
+"why": "Italy's restrictions on American films",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.26.2",
+"strength": "helpful",
+"why": "Germany's restrictions on American films",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.26.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.10.3",
+"strength": "helpful",
+"why": "the Istituto Luce",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.27.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.27.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s13.27.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s13.27.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.21.2",
+"strength": "helpful",
+"why": "talkies",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.27.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.27.1",
+"strength": "helpful",
+"why": "the Tramp character",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.27.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.27.1",
+"strength": "helpful",
+"why": "Chaplin's Tramp, the earlier character",
+"confidence": "low"
+},
+{
+"id": "hist-eur3-s3.18.b",
+"strength": "helpful",
+"why": "parody target is Hitler's dictatorship",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.27.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.27.4",
+"strength": "essential",
+"why": "The Great Dictator",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.6.0",
+"strength": "helpful",
+"why": "the camps Chaplin mentions",
+"confidence": "low"
+},
+{
+"id": "hist-eur3-s9.8.2",
+"strength": "helpful",
+"why": "US entry into war after neutrality",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.27.6": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s13.27.7": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s13.28.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.28.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.28.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.17.0",
+"strength": "helpful",
+"why": "CBS network",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.28.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.17.0",
+"strength": "helpful",
+"why": "NBC network",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.28.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s13.28.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.28.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.11.0",
+"strength": "helpful",
+"why": "1944 camps in England before D-Day",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.28.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.28.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.28.2",
+"strength": "helpful",
+"why": "Crosby's radio and record success",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.29.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.29.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.29.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.29.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.29.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.23.1",
+"strength": "essential",
+"why": "the film quota",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.16.4",
+"strength": "helpful",
+"why": "the BBC public-service ideal",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.30.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.30.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.2.2",
+"strength": "helpful",
+"why": "Nazi control of culture and radio",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.30.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.30.0",
+"strength": "helpful",
+"why": "Nazi bans on jazz",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.6.2",
+"strength": "helpful",
+"why": "camps held those seen as threats",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.30.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.26.0",
+"strength": "helpful",
+"why": "Cinecittà",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.26.1",
+"strength": "helpful",
+"why": "the 1938 import monopoly",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.30.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.30.0",
+"strength": "helpful",
+"why": "the bans on jazz",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.30.2",
+"strength": "helpful",
+"why": "Italian promotion of its own films",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.31.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.31.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.8.3",
+"strength": "helpful",
+"why": "US entering the war in 1941",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.31.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.31.0",
+"strength": "essential",
+"why": "American troops in Britain",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.31.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.28.4",
+"strength": "helpful",
+"why": "White Christmas as comparison",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.31.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.32.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.32.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.0.0",
+"strength": "essential",
+"why": "the Roman Question",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.2.b",
+"strength": "essential",
+"why": "the Lateran Treaties",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.32.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.4.3",
+"strength": "essential",
+"why": "the 1931 dispute",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.5.4",
+"strength": "essential",
+"why": "the 1938 protest",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.3.3",
+"strength": "helpful",
+"why": "Italy not fully totalitarian",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.15.2",
+"strength": "helpful",
+"why": "uses totalitarianism concept",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s13.32.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.7.0",
+"strength": "essential",
+"why": "the Reich Concordat",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.7.2",
+"strength": "essential",
+"why": "Centre Party dissolving",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.2.4",
+"strength": "helpful",
+"why": "parties dissolved, Centre Party ended",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.32.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.10.b",
+"strength": "essential",
+"why": "the Reichskirche failing",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.11.0",
+"strength": "helpful",
+"why": "the Confessing Church",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.13.3",
+"strength": "helpful",
+"why": "Galen's sermons",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.15.2",
+"strength": "helpful",
+"why": "uses totalitarian control idea",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.32.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.14.0",
+"strength": "helpful",
+"why": "churches defending only themselves",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.33.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.33.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.19.1",
+"strength": "helpful",
+"why": "BBC bulletins",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.25.3",
+"strength": "helpful",
+"why": "Mrs Miniver",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.20.3",
+"strength": "helpful",
+"why": "Lord Haw-Haw",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.33.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.19.1",
+"strength": "helpful",
+"why": "BBC news",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.18.0",
+"strength": "helpful",
+"why": "fireside chats",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.27.4",
+"strength": "helpful",
+"why": "Chaplin's satire",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.30.0",
+"strength": "helpful",
+"why": "Nazi bans",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.26.1",
+"strength": "helpful",
+"why": "Fascist import monopoly",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.33.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.29.1",
+"strength": "helpful",
+"why": "young copying American culture",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.29.2",
+"strength": "helpful",
+"why": "critics fearing Americanisation",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.30.3",
+"strength": "helpful",
+"why": "dictators' restrictions failing",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.33.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s13.28.4",
+"strength": "helpful",
+"why": "White Christmas",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.31.2",
+"strength": "helpful",
+"why": "We'll Meet Again",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.20.4",
+"strength": "helpful",
+"why": "Lili Marleen",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.19.4",
+"strength": "helpful",
+"why": "BBC broadcasts to occupied Europe",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.33.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.27.4",
+"strength": "helpful",
+"why": "Chaplin's satire",
+"confidence": "low"
+},
+{
+"id": "hist-eur3-s13.28.5",
+"strength": "helpful",
+"why": "Crosby's morale-building",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.34.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s13.34.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.2.b",
+"strength": "essential",
+"why": "the Lateran Treaties",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.34.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.2.b",
+"strength": "essential",
+"why": "the Lateran Treaties",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.3.1",
+"strength": "helpful",
+"why": "Church endorsement legitimising regime",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.34.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.7.0",
+"strength": "essential",
+"why": "the Reich Concordat",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.14.3",
+"strength": "essential",
+"why": "Pius XII's wartime silence",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.34.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.27.b",
+"strength": "helpful",
+"why": "Chaplin",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.28.b",
+"strength": "helpful",
+"why": "Crosby",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s13.34.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s13.29.b",
+"strength": "helpful",
+"why": "American culture spreading in Europe",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s13.30.b",
+"strength": "helpful",
+"why": "dictatorships' restrictions",
+"confidence": "high"
+}
+]
+}
+}

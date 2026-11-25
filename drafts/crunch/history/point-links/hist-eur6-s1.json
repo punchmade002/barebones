@@ -1,0 +1,792 @@
+{
+"hist-eur6-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.0.0",
+"strength": "helpful",
+"why": "powers reserved to the states",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.0.1",
+"strength": "helpful",
+"why": "states' rights argument",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.5.5",
+"strength": "helpful",
+"why": "Truman's civil rights programme",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.0.1",
+"strength": "helpful",
+"why": "segregation and states' rights",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.0.1",
+"strength": "helpful",
+"why": "segregation by state law",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.0.5",
+"strength": "helpful",
+"why": "the 1964 Civil Rights Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.0.3",
+"strength": "helpful",
+"why": "the 1957 Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.1.0",
+"strength": "essential",
+"why": "President, Congress and the Senate roles",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.1.0",
+"strength": "helpful",
+"why": "powers of Congress and President",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.1.2",
+"strength": "essential",
+"why": "the hostile Republican Congress",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.1.1",
+"strength": "helpful",
+"why": "Congress overriding a veto",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.1.0",
+"strength": "helpful",
+"why": "Supreme Court interpreting limits",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.4.0",
+"strength": "essential",
+"why": "Roosevelt winning four elections",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.1.0",
+"strength": "helpful",
+"why": "the Supreme Court's role",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.2.0",
+"strength": "helpful",
+"why": "the Warren Court",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.9.2",
+"strength": "essential",
+"why": "Watergate and Nixon's resignation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.1.1",
+"strength": "helpful",
+"why": "Congress overriding a veto",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.9.2",
+"strength": "helpful",
+"why": "Nixon's presidency and Watergate",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s1.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.10.5",
+"strength": "essential",
+"why": "the Iran-Contra affair",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.4.0",
+"strength": "helpful",
+"why": "Roosevelt's presidency",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.3.1",
+"strength": "essential",
+"why": "the National Security Council",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.9.2",
+"strength": "helpful",
+"why": "Watergate",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.4.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.4.0",
+"strength": "helpful",
+"why": "Roosevelt's four terms",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.4.2",
+"strength": "helpful",
+"why": "Truman taking over in 1945",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.4.1",
+"strength": "helpful",
+"why": "New Deal coalition",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.4.2",
+"strength": "helpful",
+"why": "Truman becoming president",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.4.3",
+"strength": "helpful",
+"why": "reconversion strikes and inflation",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.1.3",
+"strength": "helpful",
+"why": "Taft-Hartley veto override",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.5.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s1.5.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.5.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.4.4",
+"strength": "helpful",
+"why": "conservative coalition blocking reform",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.0.2",
+"strength": "essential",
+"why": "the Dixiecrat split",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.1.2",
+"strength": "helpful",
+"why": "the hostile Republican Congress",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.6.0",
+"strength": "helpful",
+"why": "the 1948 election result",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.6.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s1.6.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s1.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.6.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.4.b",
+"strength": "helpful",
+"why": "the New Deal",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.7.0",
+"strength": "helpful",
+"why": "accepting New Deal structures",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.7.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s1.7.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.7.6",
+"strength": "essential",
+"why": "Kennedy's death and stalled bills",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.8.2",
+"strength": "helpful",
+"why": "the Great Society",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.0.6",
+"strength": "helpful",
+"why": "Voting Rights Act background",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.8.6": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s1.8.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.8.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.8.2",
+"strength": "helpful",
+"why": "the Great Society programme",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.9.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s1.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.9.2",
+"strength": "essential",
+"why": "Nixon's resignation after Watergate",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.9.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s1.9.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.9.7": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.9.7",
+"strength": "helpful",
+"why": "Carter's defeat",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.10.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.10.2",
+"strength": "helpful",
+"why": "Reagan's tax cuts",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.10.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.2.4",
+"strength": "essential",
+"why": "the Boland Amendments",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.10.5",
+"strength": "essential",
+"why": "the Iran-Contra affair",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.10.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.10.5",
+"strength": "helpful",
+"why": "the Iran-Contra scandal",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s1.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.5.5",
+"strength": "helpful",
+"why": "Truman's civil rights initiative",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.5.7",
+"strength": "helpful",
+"why": "Fair Deal and health insurance",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.8.1",
+"strength": "helpful",
+"why": "the Civil Rights Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.8.5",
+"strength": "helpful",
+"why": "Voting Rights Act and Medicare",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.8.8",
+"strength": "helpful",
+"why": "Vietnam draining the Great Society",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.9.2",
+"strength": "helpful",
+"why": "Watergate",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.9.3",
+"strength": "essential",
+"why": "Ford's pardon of Nixon",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.2.2",
+"strength": "essential",
+"why": "United States v Nixon ruling",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.2.3",
+"strength": "essential",
+"why": "War Powers Resolution",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.9.5",
+"strength": "helpful",
+"why": "Camp David Accords",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.9.7",
+"strength": "helpful",
+"why": "Iran hostage crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.11.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.10.2",
+"strength": "helpful",
+"why": "Reagan's tax cuts",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.10.5",
+"strength": "helpful",
+"why": "Iran-Contra",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.3.4",
+"strength": "helpful",
+"why": "public opinion and presidents",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s1.11.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.6.4",
+"strength": "helpful",
+"why": "Truman's unpopularity in 1952",
+"confidence": "high"
+}
+]
+}
+}

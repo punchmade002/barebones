@@ -1,0 +1,729 @@
+{
+"hist-ire1-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.0.5",
+"strength": "helpful",
+"why": "Peel as Chief Secretary",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.1.4",
+"strength": "helpful",
+"why": "earlier county constabulary",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.1.5",
+"strength": "helpful",
+"why": "the central armed Irish Constabulary",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.2.1",
+"strength": "essential",
+"why": "forty-shilling freeholders voting",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.0.3",
+"strength": "helpful",
+"why": "Catholic Emancipation",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s1.2.5",
+"strength": "essential",
+"why": "the veto controversy",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.2.6",
+"strength": "essential",
+"why": "the dispute over the veto",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.0",
+"strength": "essential",
+"why": "the Catholic Association",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.1",
+"strength": "essential",
+"why": "the Catholic Rent",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.1",
+"strength": "helpful",
+"why": "funds from the Catholic Rent",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.2",
+"strength": "helpful",
+"why": "parish network used by the Association",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.1.0",
+"strength": "helpful",
+"why": "the grand jury system",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s1.0.2",
+"strength": "helpful",
+"why": "established Church of Ireland",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s1.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.0",
+"strength": "essential",
+"why": "the growing Catholic Association",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.4.0",
+"strength": "essential",
+"why": "the Unlawful Societies Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.2",
+"strength": "helpful",
+"why": "Rent organisation as election committees",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.4.3",
+"strength": "essential",
+"why": "the 1826 Waterford election",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s1.2.1",
+"strength": "helpful",
+"why": "forty-shilling freeholders",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.4.4",
+"strength": "helpful",
+"why": "tenants defying landlords in Waterford",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.2.2",
+"strength": "helpful",
+"why": "open voting and landlord control",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.0",
+"strength": "helpful",
+"why": "the Association deciding policy",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.2.3",
+"strength": "essential",
+"why": "Catholics barred by the oath",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.4",
+"strength": "helpful",
+"why": "priests leading the movement",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.5.0",
+"strength": "essential",
+"why": "the Clare by-election",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.5.4",
+"strength": "essential",
+"why": "O'Connell's Clare victory",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s1.2.3",
+"strength": "helpful",
+"why": "Catholics unable to take seats",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.5.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s1.7.4",
+"strength": "helpful",
+"why": "Relief Act not retrospective",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.0.3",
+"strength": "helpful",
+"why": "Catholic Emancipation",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.5.5",
+"strength": "essential",
+"why": "prospect after Clare",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.0.4",
+"strength": "helpful",
+"why": "the Lord Lieutenant",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.4.2",
+"strength": "helpful",
+"why": "Commons voting for relief",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s1.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s1.6.0",
+"strength": "helpful",
+"why": "fear of civil strife",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.4.0",
+"strength": "helpful",
+"why": "government suppressing the Association",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s1.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.6.4",
+"strength": "helpful",
+"why": "Wellington and Peel conceding",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.2.3",
+"strength": "essential",
+"why": "the oath Catholics could not take",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.0.4",
+"strength": "helpful",
+"why": "Lord Lieutenant office",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s1.2.1",
+"strength": "essential",
+"why": "forty-shilling freeholders",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.5.6",
+"strength": "helpful",
+"why": "O'Connell refused his Clare seat",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.6.4",
+"strength": "helpful",
+"why": "Peel reversing his position",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.0.b",
+"strength": "helpful",
+"why": "the Union he opposed",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s1.2.5",
+"strength": "helpful",
+"why": "anti-veto party",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.1.2",
+"strength": "helpful",
+"why": "Dublin Corporation closed to Catholics",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.0",
+"strength": "helpful",
+"why": "founding the Association",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s1.3.1",
+"strength": "helpful",
+"why": "devising the Rent",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s1.5.2",
+"strength": "helpful",
+"why": "standing in Clare",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.6",
+"strength": "helpful",
+"why": "legal moral-force methods",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.9.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.9.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s1.7.3",
+"strength": "helpful",
+"why": "loss of the forty-shilling vote",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s1.3.1",
+"strength": "helpful",
+"why": "the Rent",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s1.5.2",
+"strength": "helpful",
+"why": "Clare candidacy",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.10.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s1.3.4",
+"strength": "helpful",
+"why": "clergy organising",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s1.4.3",
+"strength": "helpful",
+"why": "Wyse winning Waterford",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.7.0",
+"strength": "helpful",
+"why": "Catholics entering Parliament",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.7.3",
+"strength": "essential",
+"why": "the 10 pound franchise",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s1.1.0",
+"strength": "helpful",
+"why": "Protestant control of grand juries",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.3.5",
+"strength": "helpful",
+"why": "tithes grievance",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s1.10.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s1.10.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s1.0.b",
+"strength": "helpful",
+"why": "Repeal meaning undoing the Union",
+"confidence": "high"
+}
+]
+}
+}

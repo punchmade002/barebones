@@ -1,0 +1,792 @@
+{
+"hist-eur6-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.0.0",
+"strength": "helpful",
+"why": "post-1945 US internationalism",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s5.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.14.1",
+"strength": "helpful",
+"why": "Vietnamisation handing war to South",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s3.4.b",
+"strength": "helpful",
+"why": "Johnson's escalation",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s3.10.b",
+"strength": "helpful",
+"why": "the Tet Offensive",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s3.7.b",
+"strength": "helpful",
+"why": "the anti-war movement",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.9.2",
+"strength": "helpful",
+"why": "Watergate and Nixon resignation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.1.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.1.0",
+"strength": "essential",
+"why": "the Paris Peace Accords",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.3.0",
+"strength": "helpful",
+"why": "Kissinger as negotiator",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.1.0",
+"strength": "helpful",
+"why": "US withdrawal under the Accords",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.1.1",
+"strength": "helpful",
+"why": "presidential veto and congressional override",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s5.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.1.3",
+"strength": "essential",
+"why": "the War Powers Resolution",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s3.3.3",
+"strength": "essential",
+"why": "Gulf of Tonkin Resolution",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.1.0",
+"strength": "helpful",
+"why": "the Paris Accords it followed",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.1.5",
+"strength": "helpful",
+"why": "Congress barring funds for Vietnam",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.2.2",
+"strength": "helpful",
+"why": "the fall of Saigon",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.3.0",
+"strength": "helpful",
+"why": "Kissinger who made the policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.3.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.3.2",
+"strength": "essential",
+"why": "Nixon's opening to China",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s5.4.0",
+"strength": "helpful",
+"why": "SALT I agreements",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.4.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s5.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s5.4.0",
+"strength": "essential",
+"why": "the ABM Treaty as part of SALT I",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.0.0",
+"strength": "helpful",
+"why": "deterrence through retaliation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.4.0",
+"strength": "helpful",
+"why": "the Interim Agreement in SALT I",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.4.2",
+"strength": "essential",
+"why": "the missile limits being sidestepped",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.0.2",
+"strength": "helpful",
+"why": "MIRVs",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.4.3",
+"strength": "essential",
+"why": "MIRVs adding warheads",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.4.0",
+"strength": "helpful",
+"why": "SALT I as basis for a second SALT",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s5.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.3.2",
+"strength": "helpful",
+"why": "Nixon's opening to China",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.6.2",
+"strength": "essential",
+"why": "the embassy seizure",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.6.2",
+"strength": "helpful",
+"why": "the Iran hostage crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s5.4.0",
+"strength": "helpful",
+"why": "SALT I that SALT II built on",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.7.0",
+"strength": "essential",
+"why": "SALT II terms",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.7.2",
+"strength": "essential",
+"why": "the invasion of Afghanistan",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.7.0",
+"strength": "helpful",
+"why": "SALT II",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.7.2",
+"strength": "essential",
+"why": "response to Afghanistan invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.7.2",
+"strength": "helpful",
+"why": "Afghanistan invasion prompting it",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.7.2",
+"strength": "essential",
+"why": "boycott in response to Afghanistan",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.7.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.7.3",
+"strength": "helpful",
+"why": "SALT II never ratified",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.3.b",
+"strength": "helpful",
+"why": "Nixon's détente approach",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s5.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.8.1",
+"strength": "helpful",
+"why": "Pershing II missiles",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.0.0",
+"strength": "helpful",
+"why": "deterrence by threat of retaliation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.0.2",
+"strength": "helpful",
+"why": "missile defence technology",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.9.0",
+"strength": "essential",
+"why": "the SDI proposal",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.9.0",
+"strength": "essential",
+"why": "SDI",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.4.1",
+"strength": "essential",
+"why": "the ABM Treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.9.0",
+"strength": "essential",
+"why": "SDI",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.10.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s5.10.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.10.0",
+"strength": "helpful",
+"why": "Gorbachev as Soviet leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.9.0",
+"strength": "essential",
+"why": "SDI",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.10.2",
+"strength": "essential",
+"why": "the Reykjavik meeting",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.10.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s5.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.10.4",
+"strength": "essential",
+"why": "the INF Treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.4.b",
+"strength": "helpful",
+"why": "SALT limiting growth",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.6.2",
+"strength": "helpful",
+"why": "the Berlin Wall",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.7.2",
+"strength": "essential",
+"why": "the Soviet war in Afghanistan",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.10.1",
+"strength": "helpful",
+"why": "Gorbachev's loosening of control",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.6.2",
+"strength": "essential",
+"why": "the Berlin Wall built in 1961",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.11.1",
+"strength": "helpful",
+"why": "no Soviet intervention",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.10.0",
+"strength": "helpful",
+"why": "Gorbachev as leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s5.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s5.4.0",
+"strength": "essential",
+"why": "SALT I",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.5.0",
+"strength": "helpful",
+"why": "Helsinki Final Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.3.2",
+"strength": "helpful",
+"why": "opening to China",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.10.4",
+"strength": "helpful",
+"why": "INF Treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.7.3",
+"strength": "helpful",
+"why": "SALT II not ratified",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s5.9.0",
+"strength": "essential",
+"why": "the Strategic Defense Initiative",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.8.1",
+"strength": "helpful",
+"why": "the Reagan defence build-up",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s5.10.1",
+"strength": "helpful",
+"why": "Gorbachev's reforms",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.10.2",
+"strength": "helpful",
+"why": "Reagan-Gorbachev talks",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.10.4",
+"strength": "essential",
+"why": "the INF Treaty",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.11.0",
+"strength": "helpful",
+"why": "Soviet war in Afghanistan",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s5.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s5.2.4",
+"strength": "helpful",
+"why": "the Vietnam syndrome",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s5.0.1",
+"strength": "helpful",
+"why": "internationalism",
+"confidence": "high"
+}
+]
+}
+}

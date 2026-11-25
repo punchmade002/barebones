@@ -1,0 +1,1498 @@
+{
+"hist-eur3-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.14.1",
+"strength": "helpful",
+"why": "conservatives expected to control Hitler",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.7.1",
+"strength": "helpful",
+"why": "Mein Kampf and Lebensraum",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.6.4",
+"strength": "helpful",
+"why": "Munich Putsch",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.2.2",
+"strength": "helpful",
+"why": "Versailles terms",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.0.2",
+"strength": "helpful",
+"why": "Versailles restrictions",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.1.0",
+"strength": "helpful",
+"why": "Reichstag fire excuse",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.1.0",
+"strength": "helpful",
+"why": "Reichstag fire",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.3",
+"strength": "helpful",
+"why": "DNVP as nationalist ally",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.1.3",
+"strength": "helpful",
+"why": "Nazis lacked majority",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.1.4",
+"strength": "essential",
+"why": "the Enabling Act vote",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.0.3",
+"strength": "helpful",
+"why": "Centre and Social Democrat parties",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.1.1",
+"strength": "essential",
+"why": "Reichstag Fire Decree",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.1.4",
+"strength": "essential",
+"why": "Enabling Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.1.4",
+"strength": "helpful",
+"why": "power from Enabling Act",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s3.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.6.2",
+"strength": "helpful",
+"why": "the SA",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.3",
+"strength": "helpful",
+"why": "the parties and NSDAP",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.2",
+"strength": "helpful",
+"why": "the SA",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.3.0",
+"strength": "helpful",
+"why": "Röhm and second revolution",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.3.0",
+"strength": "essential",
+"why": "Röhm and the SA threat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.3.2",
+"strength": "essential",
+"why": "the purge of 1934",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.3.1",
+"strength": "helpful",
+"why": "Marburg speech",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.13.2",
+"strength": "helpful",
+"why": "Schleicher as Chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.3.2",
+"strength": "essential",
+"why": "the purge death toll",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.3.2",
+"strength": "essential",
+"why": "the killings being legalised",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.3.2",
+"strength": "essential",
+"why": "the purge army approved",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.2.1",
+"strength": "helpful",
+"why": "Hindenburg as President",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.4.0",
+"strength": "helpful",
+"why": "Hindenburg dies, Hitler Führer",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.3.1",
+"strength": "helpful",
+"why": "personality cult of the leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.4.2",
+"strength": "helpful",
+"why": "Führer principle",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.5.0",
+"strength": "helpful",
+"why": "the SS as rival body",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s3.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.1.4",
+"strength": "helpful",
+"why": "Reichstag law-making role removed",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.3.0",
+"strength": "helpful",
+"why": "definition of dictatorship",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.5.0",
+"strength": "helpful",
+"why": "SS as parent organisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.5.0",
+"strength": "helpful",
+"why": "Himmler and Heydrich, SS",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.5.2",
+"strength": "helpful",
+"why": "the Gestapo",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.5.2",
+"strength": "helpful",
+"why": "the Gestapo",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.3.0",
+"strength": "helpful",
+"why": "the SA under Röhm",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.5.0",
+"strength": "helpful",
+"why": "the SS under Himmler",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.5.1",
+"strength": "helpful",
+"why": "the SD under Heydrich",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.5.2",
+"strength": "helpful",
+"why": "the Gestapo",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.5.0",
+"strength": "helpful",
+"why": "the SS",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.6.0",
+"strength": "helpful",
+"why": "Dachau as first camp",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.6.0",
+"strength": "helpful",
+"why": "concentration camps",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.5.2",
+"strength": "helpful",
+"why": "Schacht as Reichsbank president",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.0.2",
+"strength": "helpful",
+"why": "rearmament banned by Versailles",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s3.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.7.0",
+"strength": "helpful",
+"why": "rearmament financing",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.10.0",
+"strength": "helpful",
+"why": "Depression unemployment levels",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.8.0",
+"strength": "essential",
+"why": "unemployment figures",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.7.3",
+"strength": "helpful",
+"why": "Labour Service and conscription",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.10.b",
+"strength": "helpful",
+"why": "the Depression",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.8.3",
+"strength": "essential",
+"why": "the Four Year Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.8.3",
+"strength": "essential",
+"why": "Four Year Plan targets",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.7.0",
+"strength": "helpful",
+"why": "Schacht",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.8.3",
+"strength": "helpful",
+"why": "Göring and rearmament pace",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.2.3",
+"strength": "essential",
+"why": "trade unions seized, German Labour Front",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.9.0",
+"strength": "essential",
+"why": "the German Labour Front",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.9.1",
+"strength": "helpful",
+"why": "Strength Through Joy scheme",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.9.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s3.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.9.3",
+"strength": "helpful",
+"why": "the Hitler Youth sections",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.9.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.10.0",
+"strength": "helpful",
+"why": "women as wives and mothers",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.10.0",
+"strength": "helpful",
+"why": "women as mothers",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.10.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.15.1",
+"strength": "helpful",
+"why": "racial superiority idea",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s3.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.6.2",
+"strength": "helpful",
+"why": "camps and asocials",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.12.7",
+"strength": "helpful",
+"why": "the Anschluss",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.0.4",
+"strength": "helpful",
+"why": "role of the League of Nations",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s3.11.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.0.3",
+"strength": "helpful",
+"why": "Anschluss with Austria",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.11.2",
+"strength": "helpful",
+"why": "Mussolini at the Brenner Pass",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.0.2",
+"strength": "helpful",
+"why": "Saar under League rule",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.0.2",
+"strength": "helpful",
+"why": "Versailles ban on air force, conscription",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.11.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.11.4",
+"strength": "essential",
+"why": "German rearmament condemned",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.8.1",
+"strength": "helpful",
+"why": "the Locarno Treaties",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.12.0",
+"strength": "helpful",
+"why": "Italy invading Abyssinia",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.11.3",
+"strength": "helpful",
+"why": "Italy joining the Stresa Front",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.0.2",
+"strength": "helpful",
+"why": "Versailles naval limits",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.11.6",
+"strength": "essential",
+"why": "Anglo-German Naval Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.0.2",
+"strength": "essential",
+"why": "Rhineland demilitarised by Versailles",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.8.1",
+"strength": "helpful",
+"why": "the Locarno Treaties",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.12.0",
+"strength": "essential",
+"why": "Rhineland reoccupation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s1.13.1",
+"strength": "helpful",
+"why": "Mussolini and the Rome-Berlin Axis",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.13.0",
+"strength": "helpful",
+"why": "joint intervention for Franco",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s3.12.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.15.0",
+"strength": "helpful",
+"why": "Lebensraum",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.12.4",
+"strength": "essential",
+"why": "the Hossbach meeting",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.12.4",
+"strength": "helpful",
+"why": "Blomberg, Fritsch, Neurath named",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.12.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.11.2",
+"strength": "helpful",
+"why": "Schuschnigg and Austrian Nazis",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.0.3",
+"strength": "helpful",
+"why": "Anschluss",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.12.7",
+"strength": "essential",
+"why": "the Anschluss",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.13.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.1",
+"strength": "helpful",
+"why": "Sudeten crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.13.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.13.2",
+"strength": "helpful",
+"why": "Chamberlain-Hitler meetings",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.13.3",
+"strength": "helpful",
+"why": "Mussolini at Munich",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.3",
+"strength": "essential",
+"why": "the Munich Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.3",
+"strength": "essential",
+"why": "the Munich Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.3",
+"strength": "helpful",
+"why": "Munich Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.4",
+"strength": "helpful",
+"why": "Czechoslovakia left defenceless",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.14.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.3",
+"strength": "helpful",
+"why": "Munich promises",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.14.0",
+"strength": "essential",
+"why": "occupation of Prague",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.14.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.0.3",
+"strength": "helpful",
+"why": "Danzig and the Polish Corridor",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.14.2",
+"strength": "helpful",
+"why": "end of appeasement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.14.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.14.3",
+"strength": "helpful",
+"why": "Poland as Hitler target",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.14.4",
+"strength": "essential",
+"why": "Nazi-Soviet Pact",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.14.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.14.3",
+"strength": "helpful",
+"why": "Poland and British guarantee",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.0.1",
+"strength": "helpful",
+"why": "Lebensraum in Mein Kampf",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.15.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.3.2",
+"strength": "helpful",
+"why": "totalitarianism defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.15.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.15.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.0.1",
+"strength": "essential",
+"why": "Mein Kampf aims",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.15.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.15.4",
+"strength": "helpful",
+"why": "opposing plan view",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.15.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.15.4",
+"strength": "helpful",
+"why": "plan versus opportunism debate",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s3.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.16.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.15.3",
+"strength": "essential",
+"why": "appeasement policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.3",
+"strength": "helpful",
+"why": "Munich Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.5",
+"strength": "helpful",
+"why": "Chamberlain cheered after Munich",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.16.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.15.3",
+"strength": "helpful",
+"why": "appeasement policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.17.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.17.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.17.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.17.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.17.3",
+"strength": "essential",
+"why": "the July plot",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.17.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.18.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.18.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.6.4",
+"strength": "helpful",
+"why": "Munich Putsch",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.18.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.11.0",
+"strength": "helpful",
+"why": "leaving the League",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.12.0",
+"strength": "helpful",
+"why": "Rhineland reoccupation",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.12.7",
+"strength": "helpful",
+"why": "Anschluss",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.13.3",
+"strength": "helpful",
+"why": "Munich Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.18.2",
+"strength": "helpful",
+"why": "stages of foreign policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.18.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.4.3",
+"strength": "helpful",
+"why": "polycracy and rivalry",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.18.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.12.0",
+"strength": "helpful",
+"why": "Rhineland success",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.18.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.15.4",
+"strength": "helpful",
+"why": "Trevor-Roper programme view",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.15.5",
+"strength": "helpful",
+"why": "Taylor opportunist view",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.18.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.4.3",
+"strength": "helpful",
+"why": "polycracy",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.18.4",
+"strength": "helpful",
+"why": "working towards the Führer",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s3.19.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.4.3",
+"strength": "essential",
+"why": "polycracy",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.5.4",
+"strength": "essential",
+"why": "Gestapo reliance on denunciations",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.3.2",
+"strength": "helpful",
+"why": "totalitarianism defined",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.3.3",
+"strength": "helpful",
+"why": "limits to totalitarian control",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s3.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.8.0",
+"strength": "helpful",
+"why": "unemployment fall",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.8.1",
+"strength": "helpful",
+"why": "hidden unemployment",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.3",
+"strength": "helpful",
+"why": "territory gained at Munich",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.14.6",
+"strength": "helpful",
+"why": "invasion of Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.19.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.12.5",
+"strength": "helpful",
+"why": "Hossbach meeting",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.14.4",
+"strength": "helpful",
+"why": "Nazi-Soviet Pact",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.15.3",
+"strength": "helpful",
+"why": "appeasement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.19.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.15.4",
+"strength": "essential",
+"why": "Trevor-Roper programme view",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.15.5",
+"strength": "essential",
+"why": "Taylor opportunism view",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s3.19.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.3",
+"strength": "essential",
+"why": "the Munich Agreement",
+"confidence": "high"
+}
+]
+}
+}

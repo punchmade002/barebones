@@ -1,0 +1,788 @@
+{
+"hist-ire2-s11.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.0.1",
+"strength": "helpful",
+"why": "evidence behind accounts",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.0.1",
+"strength": "essential",
+"why": "what counts as evidence",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s11.0.4",
+"strength": "essential",
+"why": "source versus evidence",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.1.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.1.0",
+"strength": "helpful",
+"why": "state records",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s11.1.1",
+"strength": "helpful",
+"why": "organisation papers",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.1.3",
+"strength": "helpful",
+"why": "newspapers and pamphlets",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.0.4",
+"strength": "helpful",
+"why": "source as evidence for a question",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.1.6",
+"strength": "helpful",
+"why": "archives, libraries, museums",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.2.b",
+"strength": "essential",
+"why": "the five source questions",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.0.2",
+"strength": "helpful",
+"why": "historian interpretations",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.3.4",
+"strength": "essential",
+"why": "the interpretation being tested",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.3.3",
+"strength": "helpful",
+"why": "comparing sources",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.4.0",
+"strength": "helpful",
+"why": "primary sources",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.4.0",
+"strength": "essential",
+"why": "primary source",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s11.4.1",
+"strength": "essential",
+"why": "secondary source",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.4.0",
+"strength": "essential",
+"why": "primary source",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s11.4.1",
+"strength": "essential",
+"why": "secondary source",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.5.1",
+"strength": "helpful",
+"why": "opinion versus fact",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.5.2",
+"strength": "essential",
+"why": "bias defined there",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.5.2",
+"strength": "helpful",
+"why": "bias",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.5.2",
+"strength": "helpful",
+"why": "bias contrasted",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.5.2",
+"strength": "essential",
+"why": "bias",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s11.6.0",
+"strength": "essential",
+"why": "propaganda",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.0.3",
+"strength": "helpful",
+"why": "accounts revised",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s11.0.3",
+"strength": "helpful",
+"why": "Pigott forgeries example",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.8.2",
+"strength": "essential",
+"why": "part (d) marks",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.8.0",
+"strength": "helpful",
+"why": "parts (a) to (c)",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.4.0",
+"strength": "essential",
+"why": "primary source",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s11.5.1",
+"strength": "helpful",
+"why": "fact and opinion",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.6.0",
+"strength": "essential",
+"why": "propaganda",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s11.6.2",
+"strength": "helpful",
+"why": "objectivity",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.9.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.10.0",
+"strength": "essential",
+"why": "chosen point of comparison",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.10.1",
+"strength": "helpful",
+"why": "first document comparison",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.2.0",
+"strength": "helpful",
+"why": "authors positions",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.2.4",
+"strength": "helpful",
+"why": "audience affects content",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.10.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.11.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.11.0",
+"strength": "helpful",
+"why": "provenance as one test",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.5.3",
+"strength": "helpful",
+"why": "biased source still useful",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.11.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.5.0",
+"strength": "helpful",
+"why": "fact versus opinion",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s11.6.0",
+"strength": "helpful",
+"why": "propaganda defined",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.12.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.12.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.12.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.12.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.5.1",
+"strength": "helpful",
+"why": "opinion versus record",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.12.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.12.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.12.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.12.6",
+"strength": "helpful",
+"why": "photographs can mislead",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.13.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.8.2",
+"strength": "helpful",
+"why": "part (d)",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.13.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.13.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.13.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.13.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.13.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.13.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.14.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.14.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s11.14.0",
+"strength": "helpful",
+"why": "continues the same case study",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.14.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.14.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.14.4": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.14.5": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.14.6": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.15.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.15.1": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.15.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s11.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.9.b",
+"strength": "helpful",
+"why": "part (a) comprehension",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.10.b",
+"strength": "helpful",
+"why": "comparison part",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.11.b",
+"strength": "helpful",
+"why": "criticism part",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s11.13.b",
+"strength": "helpful",
+"why": "part (d) essay",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s11.16.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s11.16.5": {
+"cost": 1,
+"needs": []
+}
+}

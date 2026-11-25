@@ -1,0 +1,1390 @@
+{
+"hist-eur2-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.1.3",
+"strength": "helpful",
+"why": "Kaiser appointed and dismissed Chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.1.6",
+"strength": "helpful",
+"why": "Reichstag voted laws and budget",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.0.0",
+"strength": "helpful",
+"why": "France isolated, revanche",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.5.0",
+"strength": "helpful",
+"why": "satiated power",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.12.1",
+"strength": "helpful",
+"why": "colonies of 1884-85",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.5.0",
+"strength": "helpful",
+"why": "Weltpolitik, later world policy",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.13.5",
+"strength": "helpful",
+"why": "Bismarck resignation",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.1",
+"strength": "helpful",
+"why": "Anglo-Japanese Alliance of 1902",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.0.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.0.1",
+"strength": "helpful",
+"why": "Triple Alliance of 1882",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.1.2",
+"strength": "helpful",
+"why": "Franco-Russian military convention",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.9.4",
+"strength": "helpful",
+"why": "Triple Alliance of 1882",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.0.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.13.0",
+"strength": "helpful",
+"why": "year of three emperors",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.13.0",
+"strength": "helpful",
+"why": "three rulers of 1888",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.1.0",
+"strength": "helpful",
+"why": "Victoria as his grandmother",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.3.2",
+"strength": "helpful",
+"why": "criticised at home after 1908 interview",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.0.0",
+"strength": "helpful",
+"why": "Kaiser appointed and dismissed Chancellor",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.13.5",
+"strength": "helpful",
+"why": "Bismarck forced to resign",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.13.6",
+"strength": "helpful",
+"why": "Dropping the Pilot cartoon",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.0.1",
+"strength": "helpful",
+"why": "Reichstag held the budget",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.1.6",
+"strength": "helpful",
+"why": "Reichstag held the budget",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s1.13.5",
+"strength": "helpful",
+"why": "Caprivi becoming Chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.0.1",
+"strength": "helpful",
+"why": "Reinsurance Treaty with Russia",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.7.3",
+"strength": "helpful",
+"why": "Heligoland-Zanzibar Treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.10.4",
+"strength": "helpful",
+"why": "Reinsurance Treaty with Russia",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.3.3",
+"strength": "helpful",
+"why": "Anti-Socialist Law",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.3.4",
+"strength": "helpful",
+"why": "SPD growth",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.11.1",
+"strength": "helpful",
+"why": "Jameson Raid and Kruger telegram",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.11.2",
+"strength": "helpful",
+"why": "Boer War background",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.3.2",
+"strength": "essential",
+"why": "the interview whose claim it extends",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.3.2",
+"strength": "essential",
+"why": "uproar over the Daily Telegraph interview",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.3.4",
+"strength": "essential",
+"why": "Bülow not defending Wilhelm after interview",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.3.6",
+"strength": "helpful",
+"why": "Willy-Nicky correspondence",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.8.3",
+"strength": "helpful",
+"why": "Tirpitz as navy chief",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.4.0",
+"strength": "essential",
+"why": "the 1912 war council meeting",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.4.6",
+"strength": "helpful",
+"why": "Röhl view",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.4.7",
+"strength": "helpful",
+"why": "Clark view",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.9.0",
+"strength": "helpful",
+"why": "Dual Alliance with Austria-Hungary",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.8.5",
+"strength": "helpful",
+"why": "Wilhelm chose Tirpitz, backed fleet",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s3.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.4.2",
+"strength": "helpful",
+"why": "blank cheque, 1914 responsibility",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.4.7": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.0.2",
+"strength": "helpful",
+"why": "Bismarck continental policy",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.6.0",
+"strength": "helpful",
+"why": "Bülow appointed 1897",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.5.0",
+"strength": "helpful",
+"why": "Bismarck's satiated, Europe-centred policy",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.5.0",
+"strength": "helpful",
+"why": "Weltpolitik as world empire aim",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.5.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.5.3",
+"strength": "helpful",
+"why": "uniting classes against SPD",
+"confidence": "low"
+},
+{
+"id": "hist-eur2-s1.12.3",
+"strength": "helpful",
+"why": "Wehler and social imperialism",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.5.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s3.5.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.5.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.5.0",
+"strength": "helpful",
+"why": "Weltpolitik and world ambitions",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.11.1",
+"strength": "helpful",
+"why": "Jameson Raid and Kruger telegram",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.9.2",
+"strength": "helpful",
+"why": "Kiaochow seizure and concessions",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.9.5",
+"strength": "helpful",
+"why": "Boxer Rising",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.6.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.8.4",
+"strength": "helpful",
+"why": "German battle fleet aimed at Britain",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.14.2",
+"strength": "helpful",
+"why": "Britain shifting from isolation",
+"confidence": "low"
+},
+{
+"id": "hist-eur2-s1.0.0",
+"strength": "helpful",
+"why": "balance of power",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.0",
+"strength": "helpful",
+"why": "Chamberlain seeking German alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.1",
+"strength": "helpful",
+"why": "Anglo-Japanese Alliance",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "helpful",
+"why": "Entente Cordiale",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.12.1",
+"strength": "helpful",
+"why": "Wilhelm at Tangier",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.12.3",
+"strength": "helpful",
+"why": "Algeciras Conference",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.13.1",
+"strength": "helpful",
+"why": "Panther at Agadir",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.13.2",
+"strength": "helpful",
+"why": "Mansion House speech",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.7.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.7.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.1.5",
+"strength": "helpful",
+"why": "honorary admiral, Spithead 1889",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.0.7",
+"strength": "essential",
+"why": "battle fleet versus cruiser fleet",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.8.3",
+"strength": "essential",
+"why": "Tirpitz appointed",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.8.4",
+"strength": "helpful",
+"why": "North Sea battle fleet aimed at Britain",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.0.6",
+"strength": "helpful",
+"why": "France and Russia as rival blocs",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.9.0",
+"strength": "essential",
+"why": "risk theory",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.9.0",
+"strength": "helpful",
+"why": "risk theory and building period",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.5.3",
+"strength": "essential",
+"why": "Sammlungspolitik",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.5.4",
+"strength": "essential",
+"why": "social imperialism",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.10.0",
+"strength": "helpful",
+"why": "First Navy Law",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.0.1",
+"strength": "helpful",
+"why": "Reichstag funding",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.9.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.5.5",
+"strength": "helpful",
+"why": "Navy League as pressure group",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.9.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.8.4",
+"strength": "helpful",
+"why": "battle fleet plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.10.0",
+"strength": "essential",
+"why": "First Navy Law target",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.11.2",
+"strength": "helpful",
+"why": "Boer War context",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.10.1",
+"strength": "helpful",
+"why": "Second Navy Law",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.10.2",
+"strength": "essential",
+"why": "Royal Navy searches of mail steamers",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.10.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s3.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.10.4",
+"strength": "essential",
+"why": "Fisher redeployment",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.2.1",
+"strength": "helpful",
+"why": "Anglo-Japanese Alliance 1902",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "helpful",
+"why": "Entente Cordiale 1904",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.10.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.11.0",
+"strength": "essential",
+"why": "HMS Dreadnought",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.11.1",
+"strength": "essential",
+"why": "dreadnought lead over older ships",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.11.1",
+"strength": "essential",
+"why": "dreadnought-type battleships",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.11.3",
+"strength": "helpful",
+"why": "German dreadnought building",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.11.3",
+"strength": "helpful",
+"why": "German dreadnought building",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.11.5",
+"strength": "essential",
+"why": "naval scare demanding eight dreadnoughts",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.11.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.12.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s3.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.2.2",
+"strength": "helpful",
+"why": "Bethmann Hollweg as Chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.12.0",
+"strength": "helpful",
+"why": "neutrality pledge in talks",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.12.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.12.2",
+"strength": "essential",
+"why": "Haldane mission and neutrality demand",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.12.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.11.1",
+"strength": "helpful",
+"why": "dreadnoughts",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.12.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.12.4",
+"strength": "helpful",
+"why": "Churchill and 1912 naval ratio",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.12.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.13.5",
+"strength": "helpful",
+"why": "shift to army spending",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.12.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.6.6",
+"strength": "helpful",
+"why": "Baghdad Railway",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.13.0",
+"strength": "helpful",
+"why": "cost of the fleet",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.13.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.13.1",
+"strength": "essential",
+"why": "finance crisis of 1908-09",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.3.5",
+"strength": "helpful",
+"why": "Bülow resignation 1909",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.13.2",
+"strength": "essential",
+"why": "defeat of finance reform",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.13.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.13.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.14.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.3.3",
+"strength": "helpful",
+"why": "Triple Entente formation",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.14.0",
+"strength": "essential",
+"why": "agreements with Japan, France, Russia",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.14.0",
+"strength": "helpful",
+"why": "Triple Entente binding Britain",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.14.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s3.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.14.3",
+"strength": "helpful",
+"why": "navy inactive in war",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.14.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.10.6",
+"strength": "helpful",
+"why": "invasion scare literature",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.7.5",
+"strength": "essential",
+"why": "encirclement view",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.13.3",
+"strength": "helpful",
+"why": "SPD opposition over cost",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.15.0",
+"strength": "essential",
+"why": "British view of fleet",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.15.1",
+"strength": "essential",
+"why": "German view of fleet",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.9.3",
+"strength": "helpful",
+"why": "domestic role of the fleet",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.9.0",
+"strength": "helpful",
+"why": "deterring Britain",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.16.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s3.16.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.12.6",
+"strength": "helpful",
+"why": "Britain winning the race",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.14.1",
+"strength": "helpful",
+"why": "Entente from colonial settlements",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.17.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s3.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.9.0",
+"strength": "essential",
+"why": "risk theory",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.6.2",
+"strength": "helpful",
+"why": "Kiaochow",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.6.4",
+"strength": "helpful",
+"why": "Pacific islands, Samoa",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.6.6",
+"strength": "helpful",
+"why": "Baghdad Railway",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.7.3",
+"strength": "helpful",
+"why": "Morocco humiliation",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.7.6",
+"strength": "helpful",
+"why": "small gains, more isolation",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.9.3",
+"strength": "helpful",
+"why": "fleet rallying the right",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.17.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.13.1",
+"strength": "essential",
+"why": "1908-09 finance crisis",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s3.13.4",
+"strength": "helpful",
+"why": "SPD largest party 1912",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.17.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s3.15.1",
+"strength": "helpful",
+"why": "German contemporary view",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s3.17.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s3.14.0",
+"strength": "helpful",
+"why": "Triple Entente formation",
+"confidence": "high"
+}
+]
+}
+}

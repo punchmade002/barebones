@@ -1,0 +1,1123 @@
+{
+"hist-ire2-s9.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.0",
+"strength": "helpful",
+"why": "English customs replacing Irish after Famine",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.1",
+"strength": "helpful",
+"why": "de-anglicisation aim of preserving Irish",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s9.0.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s9.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.4",
+"strength": "essential",
+"why": "conflict with the IRB",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.1",
+"strength": "helpful",
+"why": "de-anglicisation idea",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.1.2",
+"strength": "helpful",
+"why": "native game of hurling declined",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s9.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.1",
+"strength": "helpful",
+"why": "anglicisation of sport",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.1.1": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s9.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.0",
+"strength": "helpful",
+"why": "Famine caused decline",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.1.2",
+"strength": "helpful",
+"why": "hurling and its local variants",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.1.3",
+"strength": "helpful",
+"why": "varying rules needing a standard code",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.2.0",
+"strength": "helpful",
+"why": "introduces Cusack",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s9.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.7.2",
+"strength": "helpful",
+"why": "falls out with officers in 1886",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.2.0",
+"strength": "helpful",
+"why": "Cusack introduced",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.2.0",
+"strength": "essential",
+"why": "Cusack as the model",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.2.3",
+"strength": "helpful",
+"why": "Davin introduced",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.2.0",
+"strength": "essential",
+"why": "Cusack facts",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.2.3",
+"strength": "essential",
+"why": "Davin facts",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.7.2",
+"strength": "helpful",
+"why": "Cusack removed 1886",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.7.5",
+"strength": "helpful",
+"why": "Davin resigned 1889",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.2.0",
+"strength": "helpful",
+"why": "Cusack wrote the article",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.3.0",
+"strength": "essential",
+"why": "the article in United Ireland",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.0.3",
+"strength": "helpful",
+"why": "Parnell as nationalist leader",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.3.0",
+"strength": "helpful",
+"why": "the call leading to the meeting",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.2.3",
+"strength": "helpful",
+"why": "Davin introduced",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.3.2",
+"strength": "essential",
+"why": "the meeting at Hayes Hotel",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.2.3",
+"strength": "helpful",
+"why": "Davin attended",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.3.3",
+"strength": "essential",
+"why": "the Thurles meeting elections",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.2.4",
+"strength": "helpful",
+"why": "Davin as first president",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.1.0",
+"strength": "helpful",
+"why": "athletics closed to most classes",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.0.1",
+"strength": "helpful",
+"why": "revival of Irish games",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.3.5",
+"strength": "helpful",
+"why": "aims behind the full title",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s9.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.3",
+"strength": "essential",
+"why": "Land War and nationalist background",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.4.0",
+"strength": "essential",
+"why": "Croke as patron and nationalist",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.0.1",
+"strength": "helpful",
+"why": "English imitation versus Irish revival",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.3",
+"strength": "essential",
+"why": "Parnell, Davitt and Home Rule",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.3",
+"strength": "essential",
+"why": "Davitt and the land movement",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.0.1",
+"strength": "helpful",
+"why": "breaking from English influence",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.3.1",
+"strength": "essential",
+"why": "United Ireland and O’Brien",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.4.1",
+"strength": "essential",
+"why": "Croke’s letter",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.1.3",
+"strength": "essential",
+"why": "old local variations replaced",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.2.3",
+"strength": "helpful",
+"why": "Davin as president",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s9.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.1.0",
+"strength": "essential",
+"why": "English amateur definition excluded workers",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.1.0",
+"strength": "helpful",
+"why": "amateur athletics context",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s9.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.1",
+"strength": "essential",
+"why": "de-anglicisation purpose",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.1.1",
+"strength": "helpful",
+"why": "rugby, soccer, cricket as foreign games",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.5.3",
+"strength": "essential",
+"why": "the first ban on games",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.3.4",
+"strength": "helpful",
+"why": "Thurles and Central Council origins",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s9.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.5.5",
+"strength": "essential",
+"why": "parish club structure",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.0.5",
+"strength": "helpful",
+"why": "Church organisation and priests",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.5.5",
+"strength": "helpful",
+"why": "parish club system",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.5.5",
+"strength": "helpful",
+"why": "clubs affiliating through parishes",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.6.0",
+"strength": "helpful",
+"why": "spread of clubs",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s9.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.6.0",
+"strength": "helpful",
+"why": "growth leading to championships",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s9.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.6.2",
+"strength": "essential",
+"why": "first All-Ireland championship",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.6.2",
+"strength": "essential",
+"why": "first All-Ireland championship",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.2.0",
+"strength": "essential",
+"why": "Cusack as founder",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.4",
+"strength": "helpful",
+"why": "Fenians as the IRB",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.0.5",
+"strength": "helpful",
+"why": "Church concern",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.4",
+"strength": "essential",
+"why": "the IRB",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.5.5",
+"strength": "helpful",
+"why": "county boards structure",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.7.0",
+"strength": "essential",
+"why": "IRB involvement in clubs",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.2.0",
+"strength": "essential",
+"why": "Cusack as secretary",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.2.1",
+"strength": "helpful",
+"why": "quarrelsome character",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.7.0",
+"strength": "essential",
+"why": "IRB control contest",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.5.5",
+"strength": "helpful",
+"why": "Central Council and convention",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.0.5",
+"strength": "essential",
+"why": "Church wary of the IRB",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.4.1",
+"strength": "helpful",
+"why": "Croke as patron",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.7.0",
+"strength": "helpful",
+"why": "IRB growth causing unease",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.2.4",
+"strength": "essential",
+"why": "Davin as president",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.7.0",
+"strength": "essential",
+"why": "IRB influence",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.0.5",
+"strength": "helpful",
+"why": "Church reaction",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.6.2",
+"strength": "helpful",
+"why": "success preceding collapse",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s9.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.8.0",
+"strength": "essential",
+"why": "the American tour",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.6.2",
+"strength": "helpful",
+"why": "1888 championship",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.0.3",
+"strength": "essential",
+"why": "Parnell and the Irish Party",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.4.2",
+"strength": "helpful",
+"why": "Parnell as patron",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s4.2.2",
+"strength": "helpful",
+"why": "Committee Room 15 split",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.8.2",
+"strength": "essential",
+"why": "the Parnell split",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.7.0",
+"strength": "helpful",
+"why": "IRB members",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.4.2",
+"strength": "helpful",
+"why": "Parnell as patron",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.8.2",
+"strength": "helpful",
+"why": "the Parnell split context",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s4.2.5",
+"strength": "helpful",
+"why": "Parnell’s death",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.8.4",
+"strength": "helpful",
+"why": "demoralisation after Parnell’s death",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.8.1",
+"strength": "helpful",
+"why": "debts from American tour",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.8.5",
+"strength": "essential",
+"why": "the collapse it recovered from",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.5.5",
+"strength": "essential",
+"why": "parish-based club system",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.4.1",
+"strength": "essential",
+"why": "Croke patronage",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.4.5",
+"strength": "helpful",
+"why": "priests as club officers",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.6.1",
+"strength": "helpful",
+"why": "matches and local crowds",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.7.2",
+"strength": "essential",
+"why": "Cusack removed",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.7.5",
+"strength": "essential",
+"why": "Davin resigned",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.4.2",
+"strength": "essential",
+"why": "Parnell and Davitt as patrons",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.7.0",
+"strength": "essential",
+"why": "the IRB links",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.8.2",
+"strength": "essential",
+"why": "the Parnell split",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.0.6",
+"strength": "essential",
+"why": "Irish Ireland",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.5.3",
+"strength": "essential",
+"why": "de-anglicisation via foreign games ban",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.5.2",
+"strength": "helpful",
+"why": "amateur status",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.3.0",
+"strength": "essential",
+"why": "Cusack’s article",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.3.5",
+"strength": "helpful",
+"why": "aim of opening athletics",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.4.1",
+"strength": "essential",
+"why": "Croke’s letter",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.7.4",
+"strength": "essential",
+"why": "Croke’s complaint about drinking",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.6.1",
+"strength": "helpful",
+"why": "crowds and bands",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.4.3",
+"strength": "helpful",
+"why": "Davitt and the land movement",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.4.2",
+"strength": "essential",
+"why": "Parnell and Davitt as patrons",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.7.1",
+"strength": "essential",
+"why": "Castle reports of Fenianism",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.7.3",
+"strength": "helpful",
+"why": "dispute at conventions",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.7.0",
+"strength": "essential",
+"why": "IRB involvement",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.10.6": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s9.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s9.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s9.5.0",
+"strength": "helpful",
+"why": "standardised rules",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.5.5",
+"strength": "helpful",
+"why": "parish network",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.3.5",
+"strength": "helpful",
+"why": "open to all classes",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.7.0",
+"strength": "essential",
+"why": "IRB entanglement",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.7.4",
+"strength": "essential",
+"why": "quarrel with the Church",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.8.1",
+"strength": "essential",
+"why": "American tour debts",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.8.2",
+"strength": "essential",
+"why": "Parnell split",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.7.1",
+"strength": "helpful",
+"why": "authorities saw it as Fenian",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.7.4",
+"strength": "helpful",
+"why": "bishops uneasy",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s9.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s9.0.6",
+"strength": "essential",
+"why": "Irish Ireland",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s9.0.1",
+"strength": "helpful",
+"why": "cultural nationalism and de-anglicisation",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,1397 @@
+{
+"hist-eur1-s4.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.8.0",
+"strength": "helpful",
+"why": "cites the Statuto",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.3.b",
+"strength": "helpful",
+"why": "Mazzini as person",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.5.0",
+"strength": "helpful",
+"why": "federation under the Pope idea",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.8.2",
+"strength": "helpful",
+"why": "Cavour and his policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.2.b",
+"strength": "helpful",
+"why": "the Congress of Vienna",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.1.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s4.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.3.1",
+"strength": "helpful",
+"why": "Genoa added as buffer state",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.4.1",
+"strength": "helpful",
+"why": "Habsburg relatives ruling duchies",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s4.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.1.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s4.1.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s4.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.19.b",
+"strength": "helpful",
+"why": "Metternich as Austrian minister",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.0.5",
+"strength": "helpful",
+"why": "multinational Habsburg Empire",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.1.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.2.0",
+"strength": "helpful",
+"why": "the Carbonari",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.8.2",
+"strength": "helpful",
+"why": "Congress of Laibach",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.1.3",
+"strength": "helpful",
+"why": "Papal States and Legations",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.2.2",
+"strength": "helpful",
+"why": "the 1831 rising",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.16.b",
+"strength": "helpful",
+"why": "Napoleon III",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.1.5",
+"strength": "helpful",
+"why": "Austrian military power",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.2.4",
+"strength": "essential",
+"why": "lesson drawn from failed risings",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.3.1",
+"strength": "helpful",
+"why": "Young Italy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.0.3",
+"strength": "helpful",
+"why": "republican unity ideal",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.2.0",
+"strength": "helpful",
+"why": "the Carbonari",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.0.3",
+"strength": "helpful",
+"why": "republic with people sovereign",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.3.1",
+"strength": "helpful",
+"why": "Young Italy risings",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.3.1",
+"strength": "helpful",
+"why": "Young Italy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.6.4",
+"strength": "helpful",
+"why": "the Roman Republic",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.1",
+"strength": "helpful",
+"why": "Garibaldi expedition to Sicily",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.3.b",
+"strength": "helpful",
+"why": "Mazzini and his ideal",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.3.4",
+"strength": "helpful",
+"why": "Mazzini planned risings",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.8.2",
+"strength": "helpful",
+"why": "Cavour",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s4.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.6",
+"strength": "helpful",
+"why": "the monarchical Kingdom of 1861",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.12.4",
+"strength": "helpful",
+"why": "the taking of Rome",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.3.2",
+"strength": "helpful",
+"why": "Mazzini republican ideas",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.1.1",
+"strength": "helpful",
+"why": "Piedmont monarchy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.1.3",
+"strength": "helpful",
+"why": "Pope as ruler of Papal States",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.5.2",
+"strength": "essential",
+"why": "Pius IX as liberal Pope",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.6.3",
+"strength": "helpful",
+"why": "Pius turning against the war",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.5.2",
+"strength": "helpful",
+"why": "hopes raised by Pius IX",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.18.0",
+"strength": "helpful",
+"why": "February 1848 revolution in Paris",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.10.0",
+"strength": "helpful",
+"why": "February 1848 revolution in Paris",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.1.5",
+"strength": "essential",
+"why": "Radetzky and the Quadrilateral",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.1.1",
+"strength": "helpful",
+"why": "Piedmont as state",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.5.2",
+"strength": "helpful",
+"why": "Pius IX as Pope",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.6.3",
+"strength": "helpful",
+"why": "Pius fled Rome",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.6.2",
+"strength": "essential",
+"why": "Charles Albert and the war",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.6.4",
+"strength": "essential",
+"why": "the Roman Republic",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.2.3",
+"strength": "helpful",
+"why": "Louis-Napoleon",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.13.3",
+"strength": "helpful",
+"why": "Louis-Napoleon as President",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.6.1",
+"strength": "essential",
+"why": "Venice republic of 1848",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.6.2",
+"strength": "essential",
+"why": "defeat at Custoza",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.6.5",
+"strength": "essential",
+"why": "defeat at Novara",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.6.3",
+"strength": "essential",
+"why": "Pope refused war",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.0.4",
+"strength": "helpful",
+"why": "neo-Guelph programme",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.6.2",
+"strength": "essential",
+"why": "Charles Albert Italia farà da sé",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.8.0",
+"strength": "helpful",
+"why": "Piedmont constitution",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.6.0",
+"strength": "helpful",
+"why": "constitutions granted in 1848",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.1.3",
+"strength": "helpful",
+"why": "Papacy and Church power",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.8.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s4.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.8.2",
+"strength": "essential",
+"why": "Cavour",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.8.2",
+"strength": "helpful",
+"why": "Cavour as minister",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.8.2",
+"strength": "helpful",
+"why": "Cavour decision",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.20.1",
+"strength": "helpful",
+"why": "Crimean War",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.8.5",
+"strength": "essential",
+"why": "Piedmont in Crimean War",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.20.2",
+"strength": "helpful",
+"why": "Congress of Paris",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.7.3",
+"strength": "helpful",
+"why": "lesson Italy could not do it alone",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.0.3",
+"strength": "helpful",
+"why": "Mazzini republic alternative",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.11.0",
+"strength": "helpful",
+"why": "Garibaldi",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.2.b",
+"strength": "helpful",
+"why": "the 1815 settlement",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.15.6",
+"strength": "helpful",
+"why": "Napoleon III as Emperor",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.9.1",
+"strength": "essential",
+"why": "Napoleon III",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.16.b",
+"strength": "helpful",
+"why": "Napoleon III",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.9.1",
+"strength": "essential",
+"why": "Napoleon III as ally",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.8.2",
+"strength": "helpful",
+"why": "Cavour",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.9.3",
+"strength": "helpful",
+"why": "Plombieres alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.9.3",
+"strength": "essential",
+"why": "Nice and Savoy deal",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.11.0",
+"strength": "helpful",
+"why": "Garibaldi born in Nice",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.9.3",
+"strength": "helpful",
+"why": "Plombieres plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.9.3",
+"strength": "essential",
+"why": "Plombieres deal",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.20.3",
+"strength": "helpful",
+"why": "the 1859 war",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s4.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.10.0",
+"strength": "helpful",
+"why": "war of 1859",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.10.1",
+"strength": "helpful",
+"why": "allied victories of 1859",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.10.2",
+"strength": "helpful",
+"why": "why Napoleon III stopped",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.10.3",
+"strength": "essential",
+"why": "Villafranca armistice",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.10.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.10.3",
+"strength": "helpful",
+"why": "Villafranca left central Italy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.9.5",
+"strength": "essential",
+"why": "cession of Nice and Savoy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.3.b",
+"strength": "helpful",
+"why": "Mazzini and his followers",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.3.7",
+"strength": "helpful",
+"why": "Sicilian rising and Mazzinians",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.11.1",
+"strength": "essential",
+"why": "the Thousand landing",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.11.2",
+"strength": "essential",
+"why": "conquest of Sicily",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.3",
+"strength": "helpful",
+"why": "Garibaldi in Naples",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.1.3",
+"strength": "helpful",
+"why": "Papal States",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.3",
+"strength": "helpful",
+"why": "Garibaldi conquests",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.5",
+"strength": "helpful",
+"why": "annexation of south",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.11.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.11.0",
+"strength": "helpful",
+"why": "Garibaldi",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.6",
+"strength": "helpful",
+"why": "Kingdom of Italy 1861",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.6.6",
+"strength": "helpful",
+"why": "French garrison in Rome",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.1.2",
+"strength": "helpful",
+"why": "Austria holding Venetia",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.22.0",
+"strength": "helpful",
+"why": "Königgrätz 1866",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.12.1",
+"strength": "essential",
+"why": "Prussian defeat of Austria",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.12.0",
+"strength": "helpful",
+"why": "French protection of Rome",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.22.3",
+"strength": "helpful",
+"why": "Franco-Prussian War outbreak",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.12.3",
+"strength": "essential",
+"why": "French withdrawal from Rome",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.22.5",
+"strength": "helpful",
+"why": "Sedan",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.12.4",
+"strength": "essential",
+"why": "capture of Rome",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.5.2",
+"strength": "helpful",
+"why": "Pius IX",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.12.5",
+"strength": "helpful",
+"why": "Pius IX hostility",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.13.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.1.5",
+"strength": "helpful",
+"why": "Quadrilateral",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.10.4",
+"strength": "helpful",
+"why": "Lombardy gained 1859",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.12.1",
+"strength": "essential",
+"why": "Prussian victory 1866",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.22.0",
+"strength": "helpful",
+"why": "Prussian victory 1866",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s4.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.12.3",
+"strength": "essential",
+"why": "French garrison leaving Rome",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.22.3",
+"strength": "helpful",
+"why": "Franco-Prussian War",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.1.7",
+"strength": "helpful",
+"why": "divided society",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.13.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.9.0",
+"strength": "essential",
+"why": "the National Society",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.7.1",
+"strength": "helpful",
+"why": "1848 divisions",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.8.4",
+"strength": "helpful",
+"why": "modernised Piedmont",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.13.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.8.5",
+"strength": "essential",
+"why": "Crimean War",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.9.3",
+"strength": "essential",
+"why": "Plombieres",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.12.1",
+"strength": "helpful",
+"why": "Prussia 1866",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.2",
+"strength": "helpful",
+"why": "Sicily campaign",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.13.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s4.3.b",
+"strength": "helpful",
+"why": "Mazzini",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.8.2",
+"strength": "helpful",
+"why": "Cavour",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.11.0",
+"strength": "helpful",
+"why": "Garibaldi",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.14.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.6",
+"strength": "helpful",
+"why": "Kingdom proclaimed 1861",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.6",
+"strength": "helpful",
+"why": "Kingdom of 1861",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.8.0",
+"strength": "helpful",
+"why": "Piedmont constitution",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.6",
+"strength": "helpful",
+"why": "1861 kingdom",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.1.7",
+"strength": "helpful",
+"why": "illiteracy and dialects",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.12.5",
+"strength": "essential",
+"why": "Law of Guarantees rejected",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s4.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.12.4",
+"strength": "helpful",
+"why": "Rome capital",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.11.6",
+"strength": "helpful",
+"why": "Kingdom of Italy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.12.1",
+"strength": "helpful",
+"why": "Prussian victory 1866",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s4.10.1",
+"strength": "helpful",
+"why": "French victories 1859",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.3.b",
+"strength": "helpful",
+"why": "Mazzini",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.14.1",
+"strength": "helpful",
+"why": "Piedmontisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.b",
+"strength": "helpful",
+"why": "Cavour and Garibaldi in 1860",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.0.2",
+"strength": "helpful",
+"why": "the Risorgimento",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.15.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s4.11.0",
+"strength": "helpful",
+"why": "Garibaldi",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s4.15.7": {
+"cost": 2,
+"needs": []
+}
+}

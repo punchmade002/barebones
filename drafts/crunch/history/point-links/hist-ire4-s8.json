@@ -1,0 +1,562 @@
+{
+"hist-ire4-s8.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s3.3.5",
+"strength": "essential",
+"why": "Al Smith defeated in 1928",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s2.8.6",
+"strength": "helpful",
+"why": "Whitaker and Lemass programme",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s2.10.b",
+"strength": "helpful",
+"why": "defines assimilation",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.1.0",
+"strength": "helpful",
+"why": "stage Irishman stereotype",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.1.0",
+"strength": "essential",
+"why": "the stage Irishman",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire4-s8.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.1.2",
+"strength": "essential",
+"why": "John Ford",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.1.0",
+"strength": "helpful",
+"why": "stereotype Hollywood inherited",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.1.0",
+"strength": "helpful",
+"why": "stereotyped Irish types",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.1.0",
+"strength": "helpful",
+"why": "fairy-tale stereotype",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.1.2",
+"strength": "essential",
+"why": "John Ford the director",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.2.0",
+"strength": "helpful",
+"why": "Ford and The Quiet Man",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.2.b",
+"strength": "helpful",
+"why": "The Quiet Man film",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.2.3",
+"strength": "essential",
+"why": "visitors drawn to locations",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s2.8.3",
+"strength": "helpful",
+"why": "1950s mass emigration",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s8.2.4",
+"strength": "helpful",
+"why": "tourist appeal of the film",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.1.0",
+"strength": "helpful",
+"why": "comic drunken stereotype",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.3.1": {
+"cost": 2,
+"needs": []
+},
+"hist-ire4-s8.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.2.0",
+"strength": "helpful",
+"why": "The Quiet Man cast",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.3.0",
+"strength": "helpful",
+"why": "Abbey training",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.3.4",
+"strength": "helpful",
+"why": "Hollywood shaped her image",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.3.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.1.1",
+"strength": "helpful",
+"why": "Chauncey Olcott",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.4.0",
+"strength": "essential",
+"why": "sentimental songs",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.4.2",
+"strength": "essential",
+"why": "John McCormack",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.4.4",
+"strength": "helpful",
+"why": "dance music kept alive",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.4.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.4.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.4.6",
+"strength": "essential",
+"why": "Clancy Brothers",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.5.0",
+"strength": "helpful",
+"why": "contrast with Bord Failte",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.5.2",
+"strength": "essential",
+"why": "Shannon Airport",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.5.5",
+"strength": "helpful",
+"why": "heritage tourism",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.0.2",
+"strength": "helpful",
+"why": "late-1950s economic growth drive",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.6.3",
+"strength": "helpful",
+"why": "Ardmore Studios",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s3.5.0",
+"strength": "helpful",
+"why": "Kennedy family and Fitzgeralds",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.0.1",
+"strength": "essential",
+"why": "Al Smith defeat in 1928",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.7.2",
+"strength": "helpful",
+"why": "the 1963 visit",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.7.0",
+"strength": "helpful",
+"why": "Kennedy ancestry",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.7.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.7.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.0.2",
+"strength": "essential",
+"why": "Lemass government and economic opening",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.7.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s3.5.0",
+"strength": "helpful",
+"why": "Joe Kennedy as father",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.5.7",
+"strength": "helpful",
+"why": "tourism bringing in currency",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s8.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.2.6",
+"strength": "helpful",
+"why": "critics of stereotyping",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s8.7.7",
+"strength": "helpful",
+"why": "Kennedy visit and self-image",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s8.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s8.4.7",
+"strength": "helpful",
+"why": "folk revival voice abroad",
+"confidence": "high"
+}
+]
+}
+}

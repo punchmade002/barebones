@@ -1,0 +1,636 @@
+{
+"hist-eur6-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.0.0",
+"strength": "helpful",
+"why": "wartime production employment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.0.3",
+"strength": "helpful",
+"why": "wartime saving and rationing",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s6.0.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s6.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.0.5",
+"strength": "essential",
+"why": "uses GI Bill home loans",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.0.7": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.1.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s6.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.1.0",
+"strength": "helpful",
+"why": "Bretton Woods system and IMF",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.1.1",
+"strength": "helpful",
+"why": "dollar as reserve currency",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.1.2",
+"strength": "helpful",
+"why": "dollar gap that aid filled",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.2.4",
+"strength": "helpful",
+"why": "uses NSC-68 paper",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.2.0",
+"strength": "essential",
+"why": "uses the Interstate Highway System",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.2.2",
+"strength": "helpful",
+"why": "defence spending funding research",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s6.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.2.3",
+"strength": "helpful",
+"why": "federal research funding",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s6.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.2.5",
+"strength": "essential",
+"why": "Sputnik fear of falling behind",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.2.2",
+"strength": "helpful",
+"why": "large lasting defence spending",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s6.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.3.b",
+"strength": "essential",
+"why": "military-industrial complex",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.3.0",
+"strength": "helpful",
+"why": "Eisenhower farewell address warning",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.3.b",
+"strength": "helpful",
+"why": "contractors with interest in defence",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.3.0",
+"strength": "essential",
+"why": "Eisenhower warning being criticised",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.3.2",
+"strength": "helpful",
+"why": "defence contracts",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.3.b",
+"strength": "essential",
+"why": "complex distorting national priorities",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.4.b",
+"strength": "helpful",
+"why": "Organization Man type",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.4.0",
+"strength": "essential",
+"why": "Whyte and The Organization Man",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.4.1",
+"strength": "essential",
+"why": "the social ethic",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.4.0",
+"strength": "helpful",
+"why": "Whyte study of corporate families",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.4.b",
+"strength": "helpful",
+"why": "Organization Man as corporate type",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.4.1",
+"strength": "helpful",
+"why": "worry about conformity",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.4.4",
+"strength": "helpful",
+"why": "the Organization Man figure",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.4.4",
+"strength": "helpful",
+"why": "Organization Man critics",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.4.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.4.1",
+"strength": "essential",
+"why": "the book Whyte wrote",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.5.b",
+"strength": "essential",
+"why": "multinational corporation defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.5.b",
+"strength": "helpful",
+"why": "multinational overseas operations",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.5.0",
+"strength": "helpful",
+"why": "franchised local bottlers",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.5.0",
+"strength": "helpful",
+"why": "overseas subsidiaries",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.5.0",
+"strength": "helpful",
+"why": "ITT as multinational",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.5.b",
+"strength": "helpful",
+"why": "US firms expanding overseas",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.1.1",
+"strength": "helpful",
+"why": "strong dollar reserve currency",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.5.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.5.0",
+"strength": "helpful",
+"why": "US multinationals in Europe",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.6.b",
+"strength": "helpful",
+"why": "strong unions in core industries",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.6.0",
+"strength": "helpful",
+"why": "union strength in car industry",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.6.1",
+"strength": "essential",
+"why": "Treaty of Detroit agreements",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.1.3",
+"strength": "helpful",
+"why": "Taft-Hartley passed over veto",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.6.0",
+"strength": "helpful",
+"why": "union membership by sector",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s6.7.b": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s6.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.7.b",
+"strength": "essential",
+"why": "Keynesian demand management",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.7.0",
+"strength": "helpful",
+"why": "Keynesian advisers",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.7.1",
+"strength": "essential",
+"why": "Heller tax cut argument",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.7.2",
+"strength": "essential",
+"why": "Revenue Act of 1964",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.7.b",
+"strength": "helpful",
+"why": "Keynesian demand management",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.8.b": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s6.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.0.5",
+"strength": "helpful",
+"why": "GI Bill",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.0.2",
+"strength": "essential",
+"why": "US dominance after 1945",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.2.0",
+"strength": "helpful",
+"why": "Interstate system as public investment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.0.6",
+"strength": "helpful",
+"why": "black veterans denied loans",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s6.8.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s6.8.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s6.8.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.4.1",
+"strength": "essential",
+"why": "Whyte Organization Man critique",
+"confidence": "high"
+}
+]
+}
+}

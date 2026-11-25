@@ -1,0 +1,1126 @@
+{
+"hist-eur4-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.2.2",
+"strength": "helpful",
+"why": "Marshall Aid recovery programme",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.12.3",
+"strength": "helpful",
+"why": "Keynes demand management",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.12.1",
+"strength": "helpful",
+"why": "cheap oil fuelling the boom",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s7.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.4.0",
+"strength": "essential",
+"why": "Bretton Woods fixed exchange rates",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.1.0",
+"strength": "helpful",
+"why": "Arab–Israeli conflict background",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.1.2",
+"strength": "helpful",
+"why": "contrast with OPEC",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.1.1",
+"strength": "helpful",
+"why": "the occupied territories",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.1.0",
+"strength": "helpful",
+"why": "Arab–Israeli conflict",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.2.0",
+"strength": "essential",
+"why": "the Yom Kippur War",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.1.2",
+"strength": "helpful",
+"why": "OPEC",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.2.0",
+"strength": "helpful",
+"why": "Yom Kippur War context",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.1.3",
+"strength": "essential",
+"why": "OAPEC",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.1.1",
+"strength": "essential",
+"why": "occupied territories demand",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.2.1",
+"strength": "helpful",
+"why": "US support for Israel",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.3.0",
+"strength": "essential",
+"why": "the embargo on the Netherlands",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.2.0",
+"strength": "essential",
+"why": "the Yom Kippur War",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.2.2",
+"strength": "essential",
+"why": "the October price rise",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.3.0",
+"strength": "essential",
+"why": "the embargo",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.3.3",
+"strength": "helpful",
+"why": "the higher prices",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.3.3",
+"strength": "helpful",
+"why": "higher energy costs from price rise",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.5.0",
+"strength": "helpful",
+"why": "inflation and recession together",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s7.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.3.3",
+"strength": "helpful",
+"why": "quadrupled oil prices",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.3.3",
+"strength": "helpful",
+"why": "oil price rise creating revenues",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.5.4",
+"strength": "essential",
+"why": "stagflation",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.0.1",
+"strength": "essential",
+"why": "Keynesian demand policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.2.0",
+"strength": "helpful",
+"why": "first shock after Yom Kippur War",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.6.0",
+"strength": "essential",
+"why": "the second oil shock",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.5.1",
+"strength": "helpful",
+"why": "unemployment rise after 1973",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.6.2",
+"strength": "helpful",
+"why": "unemployment rising in the EEC",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.7.0",
+"strength": "helpful",
+"why": "declining heavy industry",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s7.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.6.3",
+"strength": "helpful",
+"why": "unemployment during recession",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s7.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.10.1",
+"strength": "helpful",
+"why": "the welfare state",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.7.1",
+"strength": "helpful",
+"why": "declining steel industry",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.7.0",
+"strength": "helpful",
+"why": "contrast with Britain",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.6.0",
+"strength": "helpful",
+"why": "second oil shock",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.0.0",
+"strength": "helpful",
+"why": "the post-war boom",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.9.4",
+"strength": "helpful",
+"why": "European Monetary System",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.3.0",
+"strength": "helpful",
+"why": "the embargo",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.0.4",
+"strength": "essential",
+"why": "end of Bretton Woods",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.0.5",
+"strength": "essential",
+"why": "inflation before the shock",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.8.3",
+"strength": "helpful",
+"why": "energy independence measures",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.6.2",
+"strength": "helpful",
+"why": "unemployment staying high",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s7.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.0.2",
+"strength": "helpful",
+"why": "capitalism and mixed economy",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.0.3",
+"strength": "essential",
+"why": "the welfare state",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.0.1",
+"strength": "essential",
+"why": "Keynesian demand management",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.10.2",
+"strength": "helpful",
+"why": "monetarist policies",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.11.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s7.11.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.10.2",
+"strength": "helpful",
+"why": "monetarism",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.11.1",
+"strength": "helpful",
+"why": "Heath government",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.11.2",
+"strength": "helpful",
+"why": "break with Heath",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.11.3",
+"strength": "helpful",
+"why": "her leadership of the party",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s7.11.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.11.2",
+"strength": "helpful",
+"why": "Heath and Joseph",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.10.2",
+"strength": "essential",
+"why": "monetarism",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.12.0",
+"strength": "helpful",
+"why": "Howe monetarist policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.12.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.6.3",
+"strength": "helpful",
+"why": "unemployment hitting heavy industry",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.0.1",
+"strength": "essential",
+"why": "post-war consensus",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.13.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.10.3",
+"strength": "essential",
+"why": "privatisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.10.3",
+"strength": "essential",
+"why": "deregulation",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.10.4",
+"strength": "helpful",
+"why": "trade union laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.13.4",
+"strength": "essential",
+"why": "closed shop limits",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.10.4",
+"strength": "helpful",
+"why": "trade union laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.14.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.14.0",
+"strength": "essential",
+"why": "the Falklands task force",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.14.0",
+"strength": "essential",
+"why": "the Falklands victory",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.15.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.10.4",
+"strength": "helpful",
+"why": "trade union policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.15.0",
+"strength": "helpful",
+"why": "the strike",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.15.0",
+"strength": "helpful",
+"why": "the strike",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.15.0",
+"strength": "helpful",
+"why": "the strike",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s2.22.0",
+"strength": "helpful",
+"why": "Reagan's hard line on USSR",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.16.0",
+"strength": "essential",
+"why": "Reagan alliance",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.21.1",
+"strength": "essential",
+"why": "NATO cruise missile deployment",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s2.0.0",
+"strength": "helpful",
+"why": "Cold War rivalry",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.16.0",
+"strength": "helpful",
+"why": "influence on Reagan",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.22.2",
+"strength": "helpful",
+"why": "Gorbachev as Soviet leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.16.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.10.1",
+"strength": "helpful",
+"why": "Fontainebleau rebate",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.10.2",
+"strength": "essential",
+"why": "Single European Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.17.1",
+"strength": "helpful",
+"why": "her view of the single market",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.11.4",
+"strength": "helpful",
+"why": "the Social Charter",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.9.4",
+"strength": "essential",
+"why": "Exchange Rate Mechanism",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.18.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.17.b",
+"strength": "helpful",
+"why": "her European policy",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s7.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.18.1",
+"strength": "essential",
+"why": "Howe's resignation",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.18.2",
+"strength": "essential",
+"why": "the leadership challenge",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.19.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.19.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.6.3",
+"strength": "helpful",
+"why": "unemployment passing three million",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.7.b",
+"strength": "helpful",
+"why": "deindustrialisation",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.18.0",
+"strength": "helpful",
+"why": "the poll tax",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.19.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.9.3",
+"strength": "helpful",
+"why": "trends already under way",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s7.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.10.3",
+"strength": "helpful",
+"why": "privatisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.20.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s7.20.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.12.2",
+"strength": "helpful",
+"why": "inflation reduced",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.20.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.19.1",
+"strength": "helpful",
+"why": "critics' case",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.20.1",
+"strength": "helpful",
+"why": "manufacturing decline",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s7.9.3",
+"strength": "essential",
+"why": "earlier weaknesses in the boom",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s7.20.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s7.9.2",
+"strength": "helpful",
+"why": "contemporaries blaming OPEC",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s7.19.2",
+"strength": "helpful",
+"why": "historians on break or continuity",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,719 @@
+{
+"hist-ire6-s10.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.6.0",
+"strength": "helpful",
+"why": "uses Lemass as Taoiseach",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s10.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s9.6.b",
+"strength": "helpful",
+"why": "uses McQuaid as Archbishop",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s10.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.0.0",
+"strength": "helpful",
+"why": "ministers over broadcasting under Posts",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.1.0",
+"strength": "essential",
+"why": "uses the Act and the Authority",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.1.0",
+"strength": "helpful",
+"why": "uses Telefis Eireann under the Authority",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s10.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.1.3",
+"strength": "helpful",
+"why": "uses the 1961 launch of Telefis Eireann",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.1.0",
+"strength": "essential",
+"why": "uses the Act and the Minister",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.1.2",
+"strength": "essential",
+"why": "uses the impartiality duty",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.0.2",
+"strength": "helpful",
+"why": "uses Lemass as Taoiseach",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.2.2",
+"strength": "helpful",
+"why": "contrasts with the Lemass view",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.2.3",
+"strength": "essential",
+"why": "uses the two opposing views",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s10.7.3",
+"strength": "helpful",
+"why": "refers to the 1971-72 crisis",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s10.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.4.0",
+"strength": "helpful",
+"why": "uses the Late Late Show",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.4.1",
+"strength": "helpful",
+"why": "uses the show and its presenter",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.4.1",
+"strength": "essential",
+"why": "uses Gay Byrne and the show",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.4.3",
+"strength": "essential",
+"why": "condemns the 1966 episode",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.4.3",
+"strength": "essential",
+"why": "uses the 1966 incident",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s10.4.4",
+"strength": "helpful",
+"why": "uses the public split",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.0.2",
+"strength": "helpful",
+"why": "uses Lemass and Lynch",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.5.0",
+"strength": "helpful",
+"why": "uses programmes that criticised policy",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s10.1.0",
+"strength": "helpful",
+"why": "uses the RTE Authority",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.5.0",
+"strength": "essential",
+"why": "uses the Seven Days series",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s4.0.2",
+"strength": "helpful",
+"why": "uses the Troubles",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s10.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.1.0",
+"strength": "essential",
+"why": "uses the Authority and the Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s9.8.b",
+"strength": "helpful",
+"why": "uses censorship of print",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s10.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.0.3",
+"strength": "essential",
+"why": "uses McQuaid and Church views",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.2.0",
+"strength": "essential",
+"why": "uses Section 31",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.7.0",
+"strength": "essential",
+"why": "protests the Section 31 order",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.5.3",
+"strength": "helpful",
+"why": "uses the Troubles",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s10.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.7.2",
+"strength": "essential",
+"why": "uses the Mac Stiofain interview",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s10.7.0",
+"strength": "essential",
+"why": "uses the Section 31 order",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.7.2",
+"strength": "essential",
+"why": "uses the Mac Stiofain interview",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.7.3",
+"strength": "essential",
+"why": "uses the dismissal of the Authority",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.7.0",
+"strength": "essential",
+"why": "uses the Section 31 order",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.4.1",
+"strength": "helpful",
+"why": "uses The Late Late Show",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.4.1",
+"strength": "helpful",
+"why": "uses The Late Late Show",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.4.3",
+"strength": "essential",
+"why": "uses the 1966 episode",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s10.4.2",
+"strength": "helpful",
+"why": "uses the topics discussed",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.4.2",
+"strength": "helpful",
+"why": "uses the liberalising effect",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.4.4",
+"strength": "helpful",
+"why": "uses clergy attacks on the show",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.8.2",
+"strength": "helpful",
+"why": "uses his role as participant",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.2.2",
+"strength": "essential",
+"why": "uses Lemass view of RTE",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.2.3",
+"strength": "essential",
+"why": "uses the free-to-criticise view",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.0.3",
+"strength": "helpful",
+"why": "uses Church influence on morals",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.3.5",
+"strength": "helpful",
+"why": "uses Irish-language output",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.3.3",
+"strength": "essential",
+"why": "uses The Riordans",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.5.4",
+"strength": "helpful",
+"why": "uses government power over the Authority",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s10.9.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.6.2",
+"strength": "helpful",
+"why": "uses television accelerating change",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s10.9.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.2.1",
+"strength": "helpful",
+"why": "uses state and broadcaster relationship",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s10.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s10.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.3.3",
+"strength": "essential",
+"why": "uses The Riordans",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s10.4.0",
+"strength": "helpful",
+"why": "uses The Late Late Show",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.10.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.5.0",
+"strength": "essential",
+"why": "uses Seven Days",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s10.4.3",
+"strength": "essential",
+"why": "uses the 1966 episode",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.6.2",
+"strength": "essential",
+"why": "uses liberalisation and secularisation",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.7.0",
+"strength": "essential",
+"why": "uses Section 31 in 1971",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s10.7.3",
+"strength": "essential",
+"why": "uses the 1972 dismissal",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.5.1",
+"strength": "helpful",
+"why": "uses government fears of programmes",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.10.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s10.9.6",
+"strength": "essential",
+"why": "uses the Savage argument",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s10.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s10.10.5",
+"strength": "helpful",
+"why": "uses television as one cause",
+"confidence": "high"
+}
+]
+}
+}

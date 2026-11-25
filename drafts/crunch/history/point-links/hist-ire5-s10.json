@@ -1,0 +1,821 @@
+{
+"hist-ire5-s10.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.0.0",
+"strength": "helpful",
+"why": "Derry and Londonderry names",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.0.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s10.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s10.0.3",
+"strength": "essential",
+"why": "the Williamite-Jacobite war",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.0.3",
+"strength": "helpful",
+"why": "resisting James II",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.0.3",
+"strength": "helpful",
+"why": "King James II",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.0.3",
+"strength": "helpful",
+"why": "negotiating with James II",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s10.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.1.1",
+"strength": "essential",
+"why": "Lundy the governor",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s10.1.2",
+"strength": "helpful",
+"why": "George Walker introduced",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.1.3",
+"strength": "helpful",
+"why": "the siege",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.1.3",
+"strength": "helpful",
+"why": "the siege",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s10.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.1.4",
+"strength": "helpful",
+"why": "starving garrison",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.2.0",
+"strength": "helpful",
+"why": "siege lifted by ships",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s10.0.3",
+"strength": "helpful",
+"why": "Jacobite means James supporter",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.0.2",
+"strength": "essential",
+"why": "the walls",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s10.2.2",
+"strength": "essential",
+"why": "crimson flag and Roaring Meg",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.0.4",
+"strength": "helpful",
+"why": "the Boyne 1690",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.1.0",
+"strength": "essential",
+"why": "thirteen apprentices shut the gates",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.3.0",
+"strength": "helpful",
+"why": "the Apprentice Boys club",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.3.0",
+"strength": "helpful",
+"why": "the parent club",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.3.0",
+"strength": "helpful",
+"why": "the club and its headquarters",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s10.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.1.0",
+"strength": "helpful",
+"why": "Shutting of the Gates",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s10.2.0",
+"strength": "helpful",
+"why": "relief of Derry",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.2.0",
+"strength": "essential",
+"why": "the Relief of Derry",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.4.0",
+"strength": "essential",
+"why": "the August parade",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s10.0.2",
+"strength": "helpful",
+"why": "city walls",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s10.1.0",
+"strength": "essential",
+"why": "Shutting of the Gates",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s10.1.2",
+"strength": "essential",
+"why": "Lundy effigy",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s10.2.2",
+"strength": "helpful",
+"why": "crimson flags and cannon",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.4.1",
+"strength": "helpful",
+"why": "August route round walls",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.4.0",
+"strength": "helpful",
+"why": "Apprentice Boys parades",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s10.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.2.4",
+"strength": "helpful",
+"why": "the siege story",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.4.1",
+"strength": "helpful",
+"why": "parade route disputes",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.2.4",
+"strength": "helpful",
+"why": "story of 1688-89",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.1.0",
+"strength": "helpful",
+"why": "siege defiance origin",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s10.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s10.2.0",
+"strength": "helpful",
+"why": "relief of 1689",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s10.0.3",
+"strength": "essential",
+"why": "Catholic monarch vs 1689 Protestant monarchy",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.4.1",
+"strength": "essential",
+"why": "route past the Bogside",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.4.1",
+"strength": "helpful",
+"why": "parade beside Catholic district",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.4.1",
+"strength": "helpful",
+"why": "the parade route",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.0.2",
+"strength": "helpful",
+"why": "voting discrimination against Catholics",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.4.1",
+"strength": "essential",
+"why": "August parade route",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.0.2",
+"strength": "essential",
+"why": "civil rights grievances",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s10.7.0",
+"strength": "helpful",
+"why": "unionist power structure",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.2.b",
+"strength": "helpful",
+"why": "August 1969 and British army",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s10.7.1",
+"strength": "helpful",
+"why": "the Bogside",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.8.0",
+"strength": "essential",
+"why": "the 1969 parade",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.8.0",
+"strength": "essential",
+"why": "12 August 1969 clashes",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.8.2",
+"strength": "helpful",
+"why": "barricades of August 1969",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.8.2",
+"strength": "helpful",
+"why": "Battle of the Bogside",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.8.4",
+"strength": "helpful",
+"why": "after 1969 troops",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.4.0",
+"strength": "helpful",
+"why": "the parades",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.9.0",
+"strength": "essential",
+"why": "parade restrictions",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.1.2",
+"strength": "essential",
+"why": "George Walker",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s4.4.0",
+"strength": "helpful",
+"why": "the IRA",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s10.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.9.0",
+"strength": "helpful",
+"why": "parade restrictions and routes",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.7.0",
+"strength": "helpful",
+"why": "Catholic majority in Derry",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s10.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.6.4",
+"strength": "helpful",
+"why": "parades as painful display",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.6.2",
+"strength": "helpful",
+"why": "defence of Protestant liberty",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.6.3",
+"strength": "helpful",
+"why": "ascendancy view of parades",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s10.7.0",
+"strength": "helpful",
+"why": "exclusion in the city",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.7.3",
+"strength": "essential",
+"why": "civil rights agenda in Derry",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.7.2",
+"strength": "helpful",
+"why": "tension over routes",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.10.2",
+"strength": "helpful",
+"why": "commemoration taking political meaning",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.8.4",
+"strength": "helpful",
+"why": "events of 1969",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.8.2",
+"strength": "essential",
+"why": "Battle of the Bogside",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s10.7.3",
+"strength": "helpful",
+"why": "civil rights crisis",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.8.4",
+"strength": "essential",
+"why": "British troops deployed",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.3.3",
+"strength": "essential",
+"why": "the Memorial Hall",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.7.2",
+"strength": "helpful",
+"why": "parade route disputes",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.9.3",
+"strength": "helpful",
+"why": "security planning for parades",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.9.4",
+"strength": "essential",
+"why": "Protestant numbers falling on west bank",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.3.0",
+"strength": "helpful",
+"why": "the Apprentice Boys club",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.7.2",
+"strength": "essential",
+"why": "route past the Bogside",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.9.1",
+"strength": "helpful",
+"why": "resisting restrictions",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s10.6.4",
+"strength": "essential",
+"why": "triumphalism",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.12.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s10.10.4",
+"strength": "helpful",
+"why": "commemoration taking political meaning",
+"confidence": "high"
+}
+]
+}
+}

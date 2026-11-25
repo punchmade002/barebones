@@ -1,0 +1,2161 @@
+{
+"hist-eur4-s4.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.11.5",
+"strength": "helpful",
+"why": "uses satellite state",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.10.5",
+"strength": "helpful",
+"why": "Comecon introduced",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.19.5",
+"strength": "helpful",
+"why": "Warsaw Pact introduced",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.0.2",
+"strength": "helpful",
+"why": "NATO and Warsaw Pact formation",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s2.24.0",
+"strength": "helpful",
+"why": "Khrushchev removed 1964",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.0.5",
+"strength": "helpful",
+"why": "Stalin died March 1953",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.2",
+"strength": "helpful",
+"why": "Warsaw Pact",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.8.3",
+"strength": "essential",
+"why": "Hungarian Uprising crushed 1956",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.8.0",
+"strength": "helpful",
+"why": "Soviet tanks crushing Hungary 1956",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.7.0",
+"strength": "helpful",
+"why": "Hungary leaving the Warsaw Pact",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.0",
+"strength": "helpful",
+"why": "communist planned economy",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s2.19.2",
+"strength": "helpful",
+"why": "Helsinki human rights commitments",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.0.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.0.5",
+"strength": "helpful",
+"why": "Cold War",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.22.0",
+"strength": "helpful",
+"why": "Reagan evil empire and SDI",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.20.0",
+"strength": "helpful",
+"why": "Afghanistan invasion 1979",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.1.0",
+"strength": "essential",
+"why": "uses the East Berlin rising",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.12.4",
+"strength": "helpful",
+"why": "Gomułka's earlier purge",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.4.3",
+"strength": "helpful",
+"why": "Polish October of 1956",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.3.5",
+"strength": "helpful",
+"why": "Polish October, Gomulka elected leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.1.3",
+"strength": "essential",
+"why": "Gomułka's return to power",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.0.2",
+"strength": "helpful",
+"why": "Warsaw Pact",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.1.4",
+"strength": "helpful",
+"why": "the Warsaw Pact",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.1.3",
+"strength": "helpful",
+"why": "Gomułka's rise",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.1.3",
+"strength": "helpful",
+"why": "forced collectivisation under Sovietisation",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.1.5",
+"strength": "helpful",
+"why": "1956 settlement",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.1.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.1.3",
+"strength": "essential",
+"why": "Poland 1956",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.0.4",
+"strength": "essential",
+"why": "Hungary 1956 crushed",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.2.6",
+"strength": "essential",
+"why": "1968 invasion",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.8.3",
+"strength": "essential",
+"why": "Hungary 1956 crushed",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.13.4",
+"strength": "helpful",
+"why": "Hungary crushed, Poland tolerated contrast",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.8.0",
+"strength": "helpful",
+"why": "Hungary 1956 crushed",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.2.0",
+"strength": "helpful",
+"why": "Dubček's rise",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.2.0",
+"strength": "helpful",
+"why": "Dubček's government",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.2.1",
+"strength": "helpful",
+"why": "reform programme",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.4",
+"strength": "helpful",
+"why": "Nagy's step in Hungary",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.0.2",
+"strength": "helpful",
+"why": "Warsaw Pact",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.8.3",
+"strength": "helpful",
+"why": "Nagy and Hungary 1956",
+"confidence": "low"
+},
+{
+"id": "hist-eur4-s3.7.0",
+"strength": "essential",
+"why": "Nagy withdrawing Hungary from Warsaw Pact",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.2.1",
+"strength": "helpful",
+"why": "reform feared to spread",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.2.5",
+"strength": "helpful",
+"why": "warning before the invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.2.6",
+"strength": "essential",
+"why": "the invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.2.6",
+"strength": "essential",
+"why": "the invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.2.6",
+"strength": "helpful",
+"why": "the invasion it justified",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.23.4",
+"strength": "helpful",
+"why": "Brezhnev Doctrine as intervention claim",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.2.0",
+"strength": "helpful",
+"why": "Dubček replaced",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.3.2",
+"strength": "helpful",
+"why": "Husák's normalisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.2.6",
+"strength": "helpful",
+"why": "crushing of reform",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.6",
+"strength": "essential",
+"why": "Helsinki Final Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.19.2",
+"strength": "helpful",
+"why": "Helsinki human rights standard",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.3.5",
+"strength": "essential",
+"why": "Charter 77",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.3.5",
+"strength": "helpful",
+"why": "Charter 77",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.4.0",
+"strength": "essential",
+"why": "Wojtyła elected pope",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.4.1",
+"strength": "essential",
+"why": "first papal visit",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.4.2",
+"strength": "helpful",
+"why": "effect of the visit",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.5.1",
+"strength": "essential",
+"why": "Gdańsk strike",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.5.4",
+"strength": "helpful",
+"why": "Wałęsa and Solidarity",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.4.0",
+"strength": "helpful",
+"why": "the pope",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.4.0",
+"strength": "helpful",
+"why": "the pope",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.4.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.4.2",
+"strength": "helpful",
+"why": "Polish civil society",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.1.6",
+"strength": "helpful",
+"why": "Gomułka's rule",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.5.1",
+"strength": "helpful",
+"why": "Gdańsk strike",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.5.2",
+"strength": "essential",
+"why": "the 21 demands",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.5.3",
+"strength": "helpful",
+"why": "right to form unions",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.5.4",
+"strength": "essential",
+"why": "Solidarity",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.5.4",
+"strength": "essential",
+"why": "Solidarity",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.6.0",
+"strength": "essential",
+"why": "martial law",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.6.0",
+"strength": "essential",
+"why": "martial law",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.6.2",
+"strength": "essential",
+"why": "Jaruzelski's claim",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.6.0",
+"strength": "helpful",
+"why": "martial law",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.6.1",
+"strength": "helpful",
+"why": "ban on Solidarity",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.6.5",
+"strength": "essential",
+"why": "Solidarity's survival",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.6.6",
+"strength": "essential",
+"why": "Round Table agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.3",
+"strength": "helpful",
+"why": "Andropov as leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.0.3",
+"strength": "helpful",
+"why": "Chernenko and the leaders",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.0.4",
+"strength": "helpful",
+"why": "General Secretary and Politburo roles",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.7.2",
+"strength": "essential",
+"why": "Gorbachev's offices",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.0.4",
+"strength": "helpful",
+"why": "Khrushchev in 1956",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.8.3",
+"strength": "essential",
+"why": "Khrushchev crushing Hungary 1956",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.8.0",
+"strength": "helpful",
+"why": "Khrushchev using force in Hungary 1956",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.10.0",
+"strength": "helpful",
+"why": "Reagan summits",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.22.4",
+"strength": "helpful",
+"why": "arms agreements with Reagan",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.7.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.15.4",
+"strength": "helpful",
+"why": "Yeltsin's dismissal",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.7.7": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s4.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.5",
+"strength": "helpful",
+"why": "economic stagnation",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.0.7",
+"strength": "helpful",
+"why": "arms race",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.20.0",
+"strength": "helpful",
+"why": "Afghanistan war",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.5",
+"strength": "helpful",
+"why": "planned economy",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.8.3",
+"strength": "helpful",
+"why": "early effort",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.8.3",
+"strength": "helpful",
+"why": "uskorenie failed",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.8.5",
+"strength": "essential",
+"why": "perestroika",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.8.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.8.5",
+"strength": "essential",
+"why": "perestroika's market elements",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.9.0",
+"strength": "helpful",
+"why": "case for glasnost",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.9.0",
+"strength": "essential",
+"why": "glasnost",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.9.0",
+"strength": "helpful",
+"why": "glasnost",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.9.0",
+"strength": "helpful",
+"why": "glasnost",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.9.4",
+"strength": "essential",
+"why": "democratisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.9.4",
+"strength": "helpful",
+"why": "party monopoly ending",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.9.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.9.0",
+"strength": "essential",
+"why": "glasnost",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.7",
+"strength": "essential",
+"why": "SDI",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.22.3",
+"strength": "helpful",
+"why": "Reykjavik summit",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.22.0",
+"strength": "helpful",
+"why": "SDI",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.10.0",
+"strength": "helpful",
+"why": "summit diplomacy",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.22.4",
+"strength": "helpful",
+"why": "INF Treaty",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.10.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.7",
+"strength": "helpful",
+"why": "Afghanistan invasion",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.20.0",
+"strength": "helpful",
+"why": "Afghanistan invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.10.1",
+"strength": "helpful",
+"why": "INF Treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.16.3",
+"strength": "helpful",
+"why": "earlier SALT arms limits",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.6.6",
+"strength": "essential",
+"why": "partly free elections",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.11.0",
+"strength": "helpful",
+"why": "election result",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.5.4",
+"strength": "helpful",
+"why": "Wałęsa",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.0.4",
+"strength": "helpful",
+"why": "Kádár since 1956",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.12.4",
+"strength": "helpful",
+"why": "Kadar, leader since 1956",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.4",
+"strength": "essential",
+"why": "1956 uprising",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.8.3",
+"strength": "helpful",
+"why": "1956 uprising",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.0.b",
+"strength": "helpful",
+"why": "Nagy and the 1956 uprising",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.14.3",
+"strength": "helpful",
+"why": "memory of 1956 as symbol",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.11.3",
+"strength": "helpful",
+"why": "border opening",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.11.4",
+"strength": "helpful",
+"why": "1956 memory",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.4.1",
+"strength": "helpful",
+"why": "23 October 1956 march",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.11.6",
+"strength": "helpful",
+"why": "multi-party elections",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.11.5",
+"strength": "essential",
+"why": "Hungary opening border",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.12.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.12.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.12.1",
+"strength": "helpful",
+"why": "demonstrations",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.12.3",
+"strength": "helpful",
+"why": "mass protests",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.12.4",
+"strength": "helpful",
+"why": "crowds and travel rules",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.12.5",
+"strength": "essential",
+"why": "travel announcement",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.12.0",
+"strength": "helpful",
+"why": "the Berlin Wall",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.13.0",
+"strength": "essential",
+"why": "Velvet Revolution",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.3.7",
+"strength": "helpful",
+"why": "Havel",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.13.1",
+"strength": "helpful",
+"why": "mass demonstrations",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.3.2",
+"strength": "helpful",
+"why": "Husák",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.2.0",
+"strength": "helpful",
+"why": "Dubček of 1968",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.3.7",
+"strength": "helpful",
+"why": "Havel",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.13.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.13.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.13.5",
+"strength": "essential",
+"why": "Timișoara protests",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.3.0",
+"strength": "helpful",
+"why": "Ceaușescu",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.13.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.13.6",
+"strength": "essential",
+"why": "Ceaușescu's fall",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.3.1",
+"strength": "essential",
+"why": "Brezhnev Doctrine",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.7.4",
+"strength": "helpful",
+"why": "Gorbachev's aim",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.5",
+"strength": "essential",
+"why": "command economy failure",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.11.0",
+"strength": "helpful",
+"why": "Poland's example",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.11.3",
+"strength": "helpful",
+"why": "Hungary's example",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.14.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.14.0",
+"strength": "essential",
+"why": "no Soviet intervention",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.9.7",
+"strength": "helpful",
+"why": "glasnost releasing nationalism",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.15.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.15.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.9.7",
+"strength": "helpful",
+"why": "nationalism in republics",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.15.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s4.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.15.4",
+"strength": "essential",
+"why": "Yeltsin's rise",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.7.3",
+"strength": "helpful",
+"why": "Gorbachev's lack of mandate",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.0.2",
+"strength": "essential",
+"why": "Comecon and Warsaw Pact",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.1.4",
+"strength": "helpful",
+"why": "the Warsaw Pact",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.15.3",
+"strength": "helpful",
+"why": "republics' demands",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.16.1",
+"strength": "helpful",
+"why": "coup context",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.16.2",
+"strength": "essential",
+"why": "the coup",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.15.5",
+"strength": "helpful",
+"why": "Yeltsin's role",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.16.3",
+"strength": "helpful",
+"why": "coup's failure",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.15.3",
+"strength": "helpful",
+"why": "independence movements",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.17.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.17.0",
+"strength": "helpful",
+"why": "Ukraine's referendum",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.17.1",
+"strength": "essential",
+"why": "CIS founding",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.17.2",
+"strength": "helpful",
+"why": "CIS replacing the Union",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.7.2",
+"strength": "helpful",
+"why": "Gorbachev's presidency",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.17.3",
+"strength": "helpful",
+"why": "resignation",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.12.6",
+"strength": "helpful",
+"why": "the Wall's fall",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.18.0",
+"strength": "helpful",
+"why": "push for unity",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.18.1",
+"strength": "helpful",
+"why": "unification process",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.19.1",
+"strength": "helpful",
+"why": "NATO",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.0.2",
+"strength": "helpful",
+"why": "NATO",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.18.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.18.3",
+"strength": "helpful",
+"why": "NATO consent",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.18.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.18.4",
+"strength": "essential",
+"why": "Two Plus Four Treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.4.3",
+"strength": "helpful",
+"why": "Oder-Neisse border",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.18.2",
+"strength": "helpful",
+"why": "Oder-Neisse line",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.18.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.18.4",
+"strength": "helpful",
+"why": "treaty",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.19.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.19.0",
+"strength": "helpful",
+"why": "Yugoslav breakdown",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.19.1",
+"strength": "helpful",
+"why": "Serbian opposition to secession",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.19.2",
+"strength": "essential",
+"why": "Slovenia's independence",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.19.2",
+"strength": "essential",
+"why": "Croatia's independence",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.19.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.19.2",
+"strength": "essential",
+"why": "Slovenia and Croatia independence",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.19.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.19.5",
+"strength": "helpful",
+"why": "recognition and war",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.19.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.19.6",
+"strength": "essential",
+"why": "Bosnian war",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.20.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.20.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.20.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.16.5",
+"strength": "helpful",
+"why": "Baltic independence",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.17.1",
+"strength": "essential",
+"why": "CIS founding",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.20.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.2.2",
+"strength": "helpful",
+"why": "Czech-Slovak federation",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.21.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.21.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.10.1",
+"strength": "essential",
+"why": "INF Treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.10.2",
+"strength": "essential",
+"why": "UN troop cuts",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.10.5",
+"strength": "essential",
+"why": "START I",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.8.7",
+"strength": "helpful",
+"why": "economic failure",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.21.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.10.3",
+"strength": "essential",
+"why": "Afghanistan withdrawal",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.20.0",
+"strength": "helpful",
+"why": "Afghanistan war",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.21.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.14.1",
+"strength": "helpful",
+"why": "non-intervention",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.18.3",
+"strength": "helpful",
+"why": "Germany in NATO",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.16.2",
+"strength": "helpful",
+"why": "August coup",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.21.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.9.5",
+"strength": "helpful",
+"why": "partly free elections",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.9.7",
+"strength": "essential",
+"why": "nationalism released",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.9.6",
+"strength": "helpful",
+"why": "party monopoly",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.21.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.7.5",
+"strength": "helpful",
+"why": "Western welcome",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.7.6",
+"strength": "essential",
+"why": "domestic criticism",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.21.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.7.7",
+"strength": "essential",
+"why": "Brown and Kotkin",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.21.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.0.4",
+"strength": "helpful",
+"why": "Khrushchev's force in 1956",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.7.4",
+"strength": "helpful",
+"why": "Gorbachev refusing force",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.26.4",
+"strength": "essential",
+"why": "Khrushchev compared with Gorbachev",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.24.0",
+"strength": "helpful",
+"why": "Khrushchev removed",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s3.8.0",
+"strength": "helpful",
+"why": "Khrushchev using force in Hungary",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s4.22.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s4.22.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.0.5",
+"strength": "helpful",
+"why": "command economy",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.0.7",
+"strength": "helpful",
+"why": "arms race",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.14.4",
+"strength": "helpful",
+"why": "Western prosperity on TV",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s4.14.1",
+"strength": "helpful",
+"why": "non-intervention",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.22.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.5.4",
+"strength": "helpful",
+"why": "Solidarity",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.3.5",
+"strength": "helpful",
+"why": "Charter 77",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.14.3",
+"strength": "helpful",
+"why": "domino effect",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.22.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.7.7",
+"strength": "essential",
+"why": "Kotkin and Brown",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.22.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.0.7",
+"strength": "essential",
+"why": "Reagan and SDI",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.22.0",
+"strength": "essential",
+"why": "Reagan evil empire and SDI",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s4.22.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s4.1.1",
+"strength": "helpful",
+"why": "1953",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.0.4",
+"strength": "helpful",
+"why": "1956",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.2.6",
+"strength": "helpful",
+"why": "1968",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.6.0",
+"strength": "helpful",
+"why": "1981 martial law",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s2.8.3",
+"strength": "helpful",
+"why": "force in 1956",
+"confidence": "low"
+},
+{
+"id": "hist-eur4-s3.14.0",
+"strength": "helpful",
+"why": "Soviet control resting on force, 1956",
+"confidence": "high"
+}
+]
+}
+}

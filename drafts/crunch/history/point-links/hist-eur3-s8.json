@@ -1,0 +1,893 @@
+{
+"hist-eur3-s8.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.0.4",
+"strength": "helpful",
+"why": "Wall Street Crash and depression",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.2.0",
+"strength": "helpful",
+"why": "staple industries",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.2.5",
+"strength": "helpful",
+"why": "distressed areas",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.0.3",
+"strength": "helpful",
+"why": "the National Government",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s7.5.0",
+"strength": "helpful",
+"why": "Treasury view and balanced budgets",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.7.4",
+"strength": "helpful",
+"why": "Unemployment Assistance Board",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s7.7.1",
+"strength": "helpful",
+"why": "household means test",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.9.0",
+"strength": "helpful",
+"why": "Special Areas Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.0.2",
+"strength": "helpful",
+"why": "government policy of waiting for recovery",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.1.1",
+"strength": "helpful",
+"why": "Palmers shipyard",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.1.1",
+"strength": "helpful",
+"why": "Palmers shipyard",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.2.3",
+"strength": "helpful",
+"why": "shipbuilding decline",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.2.4",
+"strength": "helpful",
+"why": "rationalisation of shipbuilding",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.2.1",
+"strength": "essential",
+"why": "National Shipbuilders Security",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s8.2.2",
+"strength": "helpful",
+"why": "Palmers site closure",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.2.1",
+"strength": "essential",
+"why": "NSS",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.4.7",
+"strength": "helpful",
+"why": "Wilkinson book",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.2.2",
+"strength": "helpful",
+"why": "closure of Palmers",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.2.6",
+"strength": "helpful",
+"why": "Jarrow unemployment in 1930s",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.3.0",
+"strength": "essential",
+"why": "Jarrow's unemployment rate",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.10.0",
+"strength": "helpful",
+"why": "Priestley English Journey",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.7",
+"strength": "helpful",
+"why": "Wilkinson book",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.2.1",
+"strength": "helpful",
+"why": "NSS decisions",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.0",
+"strength": "helpful",
+"why": "Ellen Wilkinson",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s8.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.0",
+"strength": "helpful",
+"why": "Ellen Wilkinson",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.1",
+"strength": "helpful",
+"why": "Wilkinson as Jarrow MP",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.2",
+"strength": "helpful",
+"why": "the petition",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.3",
+"strength": "helpful",
+"why": "her role in the march",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.5.5",
+"strength": "helpful",
+"why": "Labour conference in Edinburgh",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.3",
+"strength": "helpful",
+"why": "Wilkinson organising role",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.4",
+"strength": "helpful",
+"why": "Labour and TUC attitude",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.2.1",
+"strength": "helpful",
+"why": "NSS",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.2.3",
+"strength": "helpful",
+"why": "steel interests blocking steelworks",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.4.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.7",
+"strength": "essential",
+"why": "her 1939 book",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.2.3",
+"strength": "helpful",
+"why": "proposed steelworks",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.0",
+"strength": "helpful",
+"why": "aim of the petition",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.1",
+"strength": "helpful",
+"why": "chosen marchers",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.8.0",
+"strength": "helpful",
+"why": "Communist-led NUWM distrusted by Labour",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.4",
+"strength": "helpful",
+"why": "Labour opposition to march",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.8.1",
+"strength": "helpful",
+"why": "tradition of hunger marches",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.5.7": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s8.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.6.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s8.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.6.0",
+"strength": "helpful",
+"why": "start of the march",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.2",
+"strength": "helpful",
+"why": "the petition",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.0.2",
+"strength": "helpful",
+"why": "government attitude",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.0.2",
+"strength": "helpful",
+"why": "Baldwin as Prime Minister",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.3",
+"strength": "helpful",
+"why": "Wilkinson presenting the petition",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.5.2",
+"strength": "helpful",
+"why": "the petition",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.0.3",
+"strength": "essential",
+"why": "Unemployment Assistance Board and dole",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.0.2",
+"strength": "essential",
+"why": "belief recovery would reach depressed areas",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.2.3",
+"strength": "helpful",
+"why": "steelworks refused",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.2.2",
+"strength": "helpful",
+"why": "shipyard dismantled",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s8.2.2",
+"strength": "helpful",
+"why": "Palmers site",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.0.4",
+"strength": "essential",
+"why": "Special Areas Act 1934",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.6.7",
+"strength": "helpful",
+"why": "rearmament bringing orders",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.4.7",
+"strength": "helpful",
+"why": "The Town That Was Murdered",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.8.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.1.2",
+"strength": "helpful",
+"why": "shipbuilding dependence of Jarrow",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.11.1",
+"strength": "helpful",
+"why": "Cable Street",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.7.5",
+"strength": "helpful",
+"why": "government ignoring petition",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.8.1",
+"strength": "helpful",
+"why": "NUWM hunger marches",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.5.6",
+"strength": "helpful",
+"why": "NUWM",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s7.11.1",
+"strength": "helpful",
+"why": "Battle of Cable Street",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.10.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.6",
+"strength": "essential",
+"why": "NUWM and Jarrow keeping apart",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.0.0",
+"strength": "helpful",
+"why": "falling unemployment figures",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.7.5",
+"strength": "helpful",
+"why": "recovery argument",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s8.4.8",
+"strength": "essential",
+"why": "Wilkinson as partisan participant",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.8.3",
+"strength": "helpful",
+"why": "rearmament reviving town",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.7.5",
+"strength": "helpful",
+"why": "recovery argument",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.2",
+"strength": "helpful",
+"why": "petition and respectability",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.11.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.5.4",
+"strength": "essential",
+"why": "Labour and TUC fear of Communist links",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s8.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.7.1",
+"strength": "helpful",
+"why": "Baldwin refusal",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.7.3",
+"strength": "helpful",
+"why": "benefit cut",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.8.3",
+"strength": "essential",
+"why": "rearmament as cause of recovery",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.9.0",
+"strength": "helpful",
+"why": "Jarrow as symbol",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.9.1",
+"strength": "helpful",
+"why": "postwar attitudes",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.12.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s8.5.7",
+"strength": "helpful",
+"why": "Henson condemnation",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s8.5.4",
+"strength": "helpful",
+"why": "Labour leaders caution",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s8.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s8.12.2",
+"strength": "helpful",
+"why": "publicity success",
+"confidence": "high"
+}
+]
+}
+}

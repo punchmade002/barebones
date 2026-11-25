@@ -1,0 +1,929 @@
+{
+"hist-ire5-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.0.0",
+"strength": "helpful",
+"why": "Northern Ireland created by partition",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.0.2",
+"strength": "essential",
+"why": "the Republic of Ireland Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.0.3",
+"strength": "essential",
+"why": "the consent guarantee",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.1.0",
+"strength": "helpful",
+"why": "unionist majority at Stormont",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.0.0",
+"strength": "helpful",
+"why": "the Stormont parliament",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.0.2",
+"strength": "essential",
+"why": "declaration of the Republic",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.1.0",
+"strength": "helpful",
+"why": "Unionist dominance at Stormont",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.1.0",
+"strength": "helpful",
+"why": "Unionist control of councils",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.1.2",
+"strength": "helpful",
+"why": "local election rules",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.1.0",
+"strength": "helpful",
+"why": "nationalist opposition",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.1.0",
+"strength": "helpful",
+"why": "the party kept in power",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.1.2",
+"strength": "helpful",
+"why": "local election rules",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.1.3",
+"strength": "helpful",
+"why": "the limited franchise",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.2.0",
+"strength": "helpful",
+"why": "Brooke as Prime Minister",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.2.0",
+"strength": "essential",
+"why": "Brooke as Prime Minister",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.3.3",
+"strength": "helpful",
+"why": "divided nationalist opposition",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.3.1",
+"strength": "helpful",
+"why": "the RUC alongside the Specials",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.1.0",
+"strength": "helpful",
+"why": "nationalists as permanent opposition",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.4.b": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.4.0",
+"strength": "helpful",
+"why": "British welfare reforms",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.4.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.4.b",
+"strength": "helpful",
+"why": "parity with Britain",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.4.b",
+"strength": "essential",
+"why": "the principle of parity",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.4.b",
+"strength": "helpful",
+"why": "the welfare state and parity",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.4.2",
+"strength": "essential",
+"why": "the principle of parity",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.4.b",
+"strength": "helpful",
+"why": "the welfare services",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.6.2",
+"strength": "helpful",
+"why": "housing discrimination",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.4.b",
+"strength": "helpful",
+"why": "British school reforms and parity",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.5.0",
+"strength": "helpful",
+"why": "secondary education for all",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.5.1",
+"strength": "essential",
+"why": "the tripartite system",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.5.1",
+"strength": "helpful",
+"why": "the school system",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.5.2",
+"strength": "helpful",
+"why": "the route to university",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.5.0",
+"strength": "essential",
+"why": "free secondary education",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.5.3",
+"strength": "helpful",
+"why": "Catholic voluntary schools",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.6.2",
+"strength": "helpful",
+"why": "council housing allocation",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.6.0",
+"strength": "essential",
+"why": "the Housing Trust",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.6.0",
+"strength": "helpful",
+"why": "the Trust contrasted with councils",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.1.2",
+"strength": "helpful",
+"why": "unionist control of councils",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.6.2",
+"strength": "essential",
+"why": "council allocation of houses",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.6.2",
+"strength": "helpful",
+"why": "discriminatory allocation",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.7.0",
+"strength": "helpful",
+"why": "gerrymandering",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.7.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.1.0",
+"strength": "helpful",
+"why": "Unionist dominance",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.7.0",
+"strength": "essential",
+"why": "gerrymandering",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.7.1",
+"strength": "helpful",
+"why": "Londonderry Corporation",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.7.0",
+"strength": "essential",
+"why": "gerrymandering",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.6.2",
+"strength": "helpful",
+"why": "council housing allocation",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.8.0",
+"strength": "helpful",
+"why": "declining industries",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.8.1",
+"strength": "helpful",
+"why": "declining industries",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.8.2",
+"strength": "helpful",
+"why": "the weak economy",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.8.3",
+"strength": "helpful",
+"why": "new industry",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.7.1",
+"strength": "helpful",
+"why": "Derry and the west",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.8.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.3.1",
+"strength": "helpful",
+"why": "the RUC",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.0.1",
+"strength": "helpful",
+"why": "the Catholic minority",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.8.0",
+"strength": "helpful",
+"why": "Belfast shipyards",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.1.2",
+"strength": "helpful",
+"why": "unionist-controlled councils",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.9.0",
+"strength": "helpful",
+"why": "under-representation of Catholics",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.6.2",
+"strength": "helpful",
+"why": "housing discrimination",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.1.3",
+"strength": "helpful",
+"why": "local voting",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.9.3",
+"strength": "helpful",
+"why": "the nationalist claim of discrimination",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.9.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.3.1",
+"strength": "helpful",
+"why": "the RUC",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.3.2",
+"strength": "helpful",
+"why": "the Specials",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.0.1",
+"strength": "helpful",
+"why": "the two communities",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.5.6",
+"strength": "helpful",
+"why": "segregated schools",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.6.4",
+"strength": "helpful",
+"why": "segregated housing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.10.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.0.0",
+"strength": "helpful",
+"why": "partition-era violence",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.0.0",
+"strength": "helpful",
+"why": "partition",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.11.b",
+"strength": "helpful",
+"why": "the Border Campaign",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.3.1",
+"strength": "helpful",
+"why": "the RUC",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.11.0",
+"strength": "essential",
+"why": "the Border Campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.11.0",
+"strength": "essential",
+"why": "the Border Campaign",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.3.0",
+"strength": "helpful",
+"why": "internment",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s1.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.11.2",
+"strength": "helpful",
+"why": "internment on both sides",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.11.0",
+"strength": "helpful",
+"why": "the Border Campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.11.0",
+"strength": "essential",
+"why": "the Border Campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.11.4",
+"strength": "helpful",
+"why": "the campaign failure",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s1.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.4.b",
+"strength": "helpful",
+"why": "welfare reforms",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.5.b",
+"strength": "helpful",
+"why": "education reforms",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.6.b",
+"strength": "helpful",
+"why": "housing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.11.3",
+"strength": "helpful",
+"why": "the defeated border campaign",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.0.4",
+"strength": "helpful",
+"why": "security of the Union",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.9.3",
+"strength": "helpful",
+"why": "discrimination",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.7.b",
+"strength": "helpful",
+"why": "gerrymandering",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.1.2",
+"strength": "helpful",
+"why": "local voting",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.12.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.8.2",
+"strength": "helpful",
+"why": "unemployment and emigration",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.8.4",
+"strength": "helpful",
+"why": "uneven distribution of industry",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.2.b",
+"strength": "helpful",
+"why": "Brooke's stability",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s1.3.0",
+"strength": "helpful",
+"why": "the Special Powers Act",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.9.3",
+"strength": "helpful",
+"why": "discrimination",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s1.12.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s1.12.0",
+"strength": "helpful",
+"why": "welfare gains",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s1.12.2",
+"strength": "helpful",
+"why": "unresolved grievances",
+"confidence": "high"
+}
+]
+}
+}

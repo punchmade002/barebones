@@ -1,0 +1,1769 @@
+{
+"hist-eur3-s9.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.14.3",
+"strength": "helpful",
+"why": "Hitler's demands and Polish guarantee",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.14.4",
+"strength": "helpful",
+"why": "Nazi-Soviet Pact explained",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.14.4",
+"strength": "helpful",
+"why": "Nazi-Soviet Pact, Soviet side",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.0.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s9.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.1.0",
+"strength": "helpful",
+"why": "tanks the air support accompanies",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.1.0",
+"strength": "helpful",
+"why": "Panzer armour and motorised infantry",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.2.1",
+"strength": "helpful",
+"why": "Poland campaign of 1939",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.0.0",
+"strength": "helpful",
+"why": "Anglo-French guarantee to Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.0.1",
+"strength": "essential",
+"why": "Nazi-Soviet Pact division of Poland",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.14.5",
+"strength": "helpful",
+"why": "Red Army entering eastern Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.2.0",
+"strength": "helpful",
+"why": "Britain and France at war",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.2.3",
+"strength": "essential",
+"why": "German invasion of Norway",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.2.4",
+"strength": "helpful",
+"why": "German victory in Norway",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.2.4",
+"strength": "essential",
+"why": "failure in Norway",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.3.0",
+"strength": "essential",
+"why": "Ardennes thrust",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.3.0",
+"strength": "essential",
+"why": "Ardennes armoured thrust",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.3.2",
+"strength": "helpful",
+"why": "sickle cut through the Ardennes",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.3.3",
+"strength": "essential",
+"why": "forces cut off in the north",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.13.5",
+"strength": "helpful",
+"why": "Italy's entry into war in 1940",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.4.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s9.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.4.0",
+"strength": "essential",
+"why": "attempt to win air superiority",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.4.0",
+"strength": "essential",
+"why": "Operation Sea Lion",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.4.0",
+"strength": "helpful",
+"why": "failure to win air superiority",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.13.5",
+"strength": "helpful",
+"why": "Italy's failures in Greece and Africa",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s1.13.5",
+"strength": "helpful",
+"why": "Italian invasion of Greece 1940",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.5.0",
+"strength": "essential",
+"why": "Italian defeats needing rescue",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.5.1",
+"strength": "essential",
+"why": "German intervention in Balkans/Africa",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.0.1",
+"strength": "helpful",
+"why": "Nazi-Soviet Pact",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.2.1",
+"strength": "essential",
+"why": "partition of Poland",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.14.5",
+"strength": "helpful",
+"why": "Soviet share of Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.14.4",
+"strength": "helpful",
+"why": "Nazi-Soviet Pact",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.15.0",
+"strength": "helpful",
+"why": "Barbarossa and Soviet losses",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.6.2",
+"strength": "helpful",
+"why": "Operation Barbarossa",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.7.0",
+"strength": "helpful",
+"why": "Barbarossa advance",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.15.0",
+"strength": "helpful",
+"why": "siege of Leningrad",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.1.b",
+"strength": "helpful",
+"why": "blitzkrieg aim of quick victory",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.15.2",
+"strength": "helpful",
+"why": "Soviet counter-offensive December 1941",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.8.0",
+"strength": "essential",
+"why": "Japanese occupation of Indochina",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.8.1",
+"strength": "helpful",
+"why": "embargo pushing Japan to attack",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.8.2",
+"strength": "essential",
+"why": "Pearl Harbor",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.8.2",
+"strength": "helpful",
+"why": "Pearl Harbor then conquests",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.9.0",
+"strength": "helpful",
+"why": "Japanese advance halted",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.9.1",
+"strength": "helpful",
+"why": "American counter-offensive",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.21.4",
+"strength": "helpful",
+"why": "atomic bombs on Hiroshima, Nagasaki",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.5.1",
+"strength": "helpful",
+"why": "Rommel and the Afrika Korps",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.10.0",
+"strength": "helpful",
+"why": "El Alamein in North Africa",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.7.0",
+"strength": "helpful",
+"why": "Eastern Front invasion",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.16.0",
+"strength": "helpful",
+"why": "Stalingrad encirclement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.10.2",
+"strength": "helpful",
+"why": "German offensives in the east",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.16.1",
+"strength": "helpful",
+"why": "Kursk and Soviet initiative",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.10.1",
+"strength": "helpful",
+"why": "Axis expelled from North Africa",
+"confidence": "low"
+},
+{
+"id": "hist-eur3-s1.14.2",
+"strength": "helpful",
+"why": "Italy's armistice of 1943",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.14.0",
+"strength": "helpful",
+"why": "Allied invasion of Sicily",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.10.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.10.5",
+"strength": "essential",
+"why": "Battle of the Atlantic",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.10.0",
+"strength": "helpful",
+"why": "Montgomery at El Alamein",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.11.0",
+"strength": "essential",
+"why": "D-Day landings",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.11.0",
+"strength": "essential",
+"why": "Normandy beachheads",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.16.1",
+"strength": "helpful",
+"why": "Red Army advance to Berlin",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.11.3",
+"strength": "helpful",
+"why": "Soviet offensive on Berlin",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.11.4",
+"strength": "helpful",
+"why": "Hitler's death",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.15.4",
+"strength": "helpful",
+"why": "Soviet tank and aircraft output",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.8.3",
+"strength": "essential",
+"why": "German declaration on the US",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.18.0",
+"strength": "helpful",
+"why": "radar",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.3.5",
+"strength": "helpful",
+"why": "Italy entering the war",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.13.1",
+"strength": "helpful",
+"why": "Rome-Berlin Axis",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.13.4",
+"strength": "helpful",
+"why": "Pact of Steel",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.13.0",
+"strength": "helpful",
+"why": "Axis alliance background",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.13.1",
+"strength": "essential",
+"why": "Tripartite Pact",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.14.6",
+"strength": "helpful",
+"why": "Soviet war with Finland",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.5.0",
+"strength": "essential",
+"why": "Italian defeats in Greece and Africa",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s1.13.5",
+"strength": "helpful",
+"why": "Italian defeats in Greece and North Africa",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.13.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.8.2",
+"strength": "helpful",
+"why": "Pearl Harbor",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.7.0",
+"strength": "helpful",
+"why": "Barbarossa",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.8.2",
+"strength": "helpful",
+"why": "Pearl Harbor",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.15.0",
+"strength": "helpful",
+"why": "Soviet entry after Barbarossa",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.14.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.16.3",
+"strength": "helpful",
+"why": "Lend-Lease to Soviet Union",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.14.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.14.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s9.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.14.4",
+"strength": "essential",
+"why": "Atlantic Charter",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.14.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.8.3",
+"strength": "helpful",
+"why": "global war",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.11.0",
+"strength": "helpful",
+"why": "Overlord",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.17.2",
+"strength": "helpful",
+"why": "Stalin at Tehran",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.15.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.15.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.15.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.15.2",
+"strength": "helpful",
+"why": "Curzon Line",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.16.3",
+"strength": "helpful",
+"why": "Lublin government",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.15.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.15.4",
+"strength": "essential",
+"why": "Yalta conference",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.15.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.25.0",
+"strength": "helpful",
+"why": "Churchill replaced by Attlee",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.16.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.16.0",
+"strength": "helpful",
+"why": "second front",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.14.5",
+"strength": "essential",
+"why": "NKVD killing Polish officers",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.16.2",
+"strength": "helpful",
+"why": "Polish government in London",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.11.3",
+"strength": "helpful",
+"why": "Red Army advance into Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.17.0",
+"strength": "helpful",
+"why": "Soviet control of eastern Europe",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.17.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.1.0",
+"strength": "helpful",
+"why": "Panzer divisions",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.19.2",
+"strength": "helpful",
+"why": "strategic bombing",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.12.3",
+"strength": "helpful",
+"why": "Condor Legion",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.4.1",
+"strength": "helpful",
+"why": "Hurricane and Spitfire",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.18.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.18.0",
+"strength": "essential",
+"why": "Chain Home radar",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.18.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.18.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.18.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.18.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.1.0",
+"strength": "helpful",
+"why": "Panzer divisions",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.15.4",
+"strength": "helpful",
+"why": "T-34 tank",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.19.0",
+"strength": "helpful",
+"why": "tanks the guns answer",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.19.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s9.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.19.2",
+"strength": "helpful",
+"why": "strategic bombing",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.19.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.19.2",
+"strength": "helpful",
+"why": "strategic bombing",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.19.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.19.2",
+"strength": "essential",
+"why": "strategic bombing",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.20.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.18.0",
+"strength": "essential",
+"why": "Chain Home",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.20.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.18.0",
+"strength": "helpful",
+"why": "radar",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.20.1",
+"strength": "helpful",
+"why": "small radar sets",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.18.2",
+"strength": "essential",
+"why": "Enigma",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.20.3",
+"strength": "essential",
+"why": "decrypting Enigma",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.20.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.20.3",
+"strength": "helpful",
+"why": "Bletchley codebreaking",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.20.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.10.5",
+"strength": "helpful",
+"why": "Battle of the Atlantic",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.20.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.20.6",
+"strength": "essential",
+"why": "U-boat wolf packs",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.20.4",
+"strength": "helpful",
+"why": "Ultra",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.21.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.21.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.18.4",
+"strength": "helpful",
+"why": "V-2 rocket development",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.21.0",
+"strength": "essential",
+"why": "V-weapons",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.21.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.21.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s9.21.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.21.3",
+"strength": "helpful",
+"why": "Manhattan Project",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.21.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.21.4",
+"strength": "helpful",
+"why": "atomic bombs",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.22.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.22.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.22.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.22.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.22.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.22.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.16.0",
+"strength": "helpful",
+"why": "appeasement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.22.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.13.3",
+"strength": "essential",
+"why": "Munich agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.23.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.23.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.2.6",
+"strength": "essential",
+"why": "Norway debate",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.23.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.3.6",
+"strength": "helpful",
+"why": "fall of France",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.23.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.3.4",
+"strength": "helpful",
+"why": "Dunkirk",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.4.3",
+"strength": "helpful",
+"why": "the Blitz",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.23.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.4.0",
+"strength": "essential",
+"why": "Battle of Britain",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.24.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.24.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.14.1",
+"strength": "essential",
+"why": "destroyers-for-bases deal",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.14.2",
+"strength": "essential",
+"why": "Lend-Lease",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.14.4",
+"strength": "essential",
+"why": "Atlantic Charter",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.14.6",
+"strength": "helpful",
+"why": "Germany first policy",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.0.1",
+"strength": "helpful",
+"why": "Marxist anti-communism context",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.24.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.14.4",
+"strength": "helpful",
+"why": "Placentia Bay meeting",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.15.0",
+"strength": "helpful",
+"why": "Casablanca",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.15.1",
+"strength": "helpful",
+"why": "Tehran",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.15.4",
+"strength": "helpful",
+"why": "Yalta",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.24.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.15.3",
+"strength": "essential",
+"why": "percentages agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.24.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.15.7",
+"strength": "essential",
+"why": "Potsdam conference",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.24.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.16.1",
+"strength": "helpful",
+"why": "Mediterranean strategy",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.19.2",
+"strength": "helpful",
+"why": "strategic bombing",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.24.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.9.0",
+"strength": "helpful",
+"why": "fall of Singapore",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.10.0",
+"strength": "helpful",
+"why": "Rommel's North African campaign",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.24.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.12.0",
+"strength": "helpful",
+"why": "US and Soviet production",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.25.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.25.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.15.7",
+"strength": "helpful",
+"why": "Potsdam",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.25.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.25.0",
+"strength": "helpful",
+"why": "1945 election defeat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.26.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.26.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.22.2",
+"strength": "helpful",
+"why": "Gallipoli",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.22.3",
+"strength": "helpful",
+"why": "return to the gold standard",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.26.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.26.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.26.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s9.26.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.19.4",
+"strength": "helpful",
+"why": "bombing of Dresden",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.26.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.27.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.27.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.23.2",
+"strength": "essential",
+"why": "refusal of negotiated peace",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.27.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.9.0",
+"strength": "helpful",
+"why": "losses of Hong Kong, Singapore",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.14.2",
+"strength": "helpful",
+"why": "American resources",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.27.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.14.b",
+"strength": "helpful",
+"why": "Grand Alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.27.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.16.5",
+"strength": "helpful",
+"why": "Allied divisions",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.17.0",
+"strength": "helpful",
+"why": "Soviet control of eastern Europe",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.27.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.26.0",
+"strength": "helpful",
+"why": "contemporary views of Churchill",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s9.27.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.28.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.28.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s9.28.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.20.0",
+"strength": "helpful",
+"why": "radar in 1940",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.20.7",
+"strength": "helpful",
+"why": "Atlantic convoys and Ultra",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.28.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.21.1",
+"strength": "helpful",
+"why": "V-weapons too late",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.21.2",
+"strength": "helpful",
+"why": "Me 262 too late",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.28.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.19.0",
+"strength": "essential",
+"why": "Sherman and T-34 mass production",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.15.4",
+"strength": "helpful",
+"why": "Soviet T-34 production",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s9.28.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.19.5",
+"strength": "helpful",
+"why": "strategic bombing debate",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.21.4",
+"strength": "helpful",
+"why": "atomic bombs",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,1108 @@
+{
+"hist-eur1-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.0.0",
+"strength": "helpful",
+"why": "industrialisation defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.0.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.0.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.1.0",
+"strength": "essential",
+"why": "uses enclosure",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.1.1",
+"strength": "essential",
+"why": "enclosure by private Acts",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.1.0",
+"strength": "essential",
+"why": "enclosed farms",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.1.0",
+"strength": "essential",
+"why": "enclosure and common land",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.1.4",
+"strength": "essential",
+"why": "loss of land and common rights",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.2.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.2.0",
+"strength": "essential",
+"why": "uses turnips and clover rotation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.2.0",
+"strength": "helpful",
+"why": "Norfolk rotation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.3.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.3.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.3.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.3.3",
+"strength": "helpful",
+"why": "machines replacing hand work",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.3.3",
+"strength": "essential",
+"why": "uses threshing machines",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.3.6": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.4.0",
+"strength": "essential",
+"why": "uses the Corn Law of 1815",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.4.0",
+"strength": "essential",
+"why": "uses the Corn Laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.5.0",
+"strength": "helpful",
+"why": "peasant small farms",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.5.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.5.2",
+"strength": "helpful",
+"why": "Stein reforms ending serfdom",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.5.3",
+"strength": "helpful",
+"why": "noble estates after reforms",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.5.5",
+"strength": "helpful",
+"why": "potato as staple of the poor",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.6.0",
+"strength": "helpful",
+"why": "1840s hunger",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.6.0",
+"strength": "essential",
+"why": "hunger of 1845-47",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.6.0",
+"strength": "helpful",
+"why": "hunger driving emigration",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.6.0",
+"strength": "helpful",
+"why": "potato blight",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.7.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.7.0",
+"strength": "essential",
+"why": "uses Watt steam engine",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.7.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.7.2",
+"strength": "helpful",
+"why": "mechanised spinning",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.7.4",
+"strength": "helpful",
+"why": "raw cotton imports",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.8.0",
+"strength": "helpful",
+"why": "iron industry growth",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s7.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.9.0",
+"strength": "helpful",
+"why": "early steam locomotives",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.9.1",
+"strength": "helpful",
+"why": "Rocket and steam locomotives",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.9.2",
+"strength": "helpful",
+"why": "first inter-city railway",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.9.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.10.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.10.0",
+"strength": "helpful",
+"why": "obstacles to continental industry",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.10.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.10.3",
+"strength": "helpful",
+"why": "Belgian industrialisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.10.3",
+"strength": "helpful",
+"why": "Belgian industrialisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.10.6": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.11.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.11.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.12.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.12.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.12.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.12.2",
+"strength": "helpful",
+"why": "Ruhr coal and iron",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s7.12.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.12.0",
+"strength": "helpful",
+"why": "tariffs among German states",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s7.12.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.7.3",
+"strength": "helpful",
+"why": "power loom replaced hand weavers",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.13.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.13.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.13.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.13.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.13.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.14.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.14.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.14.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.14.1",
+"strength": "helpful",
+"why": "Sadler evidence on child workers",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.14.2",
+"strength": "essential",
+"why": "uses the 1833 Factory Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.14.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.14.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.14.2",
+"strength": "helpful",
+"why": "earlier Factory Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.15.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.15.0",
+"strength": "essential",
+"why": "laissez-faire as free trade",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s7.4.2",
+"strength": "helpful",
+"why": "repeal of Corn Laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.15.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.15.0",
+"strength": "essential",
+"why": "laissez-faire principle",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.15.0",
+"strength": "essential",
+"why": "limits of laissez-faire",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s7.14.2",
+"strength": "helpful",
+"why": "Factory Acts",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.12.4",
+"strength": "helpful",
+"why": "List on protection",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.16.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.16.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.16.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.1.5",
+"strength": "helpful",
+"why": "enclosure pushing people off land",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s7.6.0",
+"strength": "helpful",
+"why": "1840s crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.6.4",
+"strength": "essential",
+"why": "uses the Irish Famine",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.16.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.16.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.16.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.17.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.17.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.17.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.17.1",
+"strength": "helpful",
+"why": "Little Ireland slum",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.17.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.17.3",
+"strength": "helpful",
+"why": "disease and sanitation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.18.0",
+"strength": "helpful",
+"why": "Chadwick report",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.18.1",
+"strength": "essential",
+"why": "uses 1848 Public Health Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.17.3",
+"strength": "essential",
+"why": "uses cholera",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.18.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.18.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.18.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.18.2",
+"strength": "helpful",
+"why": "permissive 1848 Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.19.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.19.0",
+"strength": "helpful",
+"why": "states expanding schooling",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.19.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.19.2",
+"strength": "helpful",
+"why": "Prussian schooling",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.19.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.19.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.19.4",
+"strength": "essential",
+"why": "uses the Guizot Law",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.19.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.19.4",
+"strength": "helpful",
+"why": "French communal schools",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.20.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.20.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.20.0",
+"strength": "essential",
+"why": "the two religious societies",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.20.0",
+"strength": "essential",
+"why": "the two societies",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.20.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.20.2",
+"strength": "helpful",
+"why": "first government grant",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.20.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.20.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.20.4",
+"strength": "helpful",
+"why": "poorly taught children",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.20.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.20.0",
+"strength": "helpful",
+"why": "voluntary schools",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.21.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.21.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.21.0",
+"strength": "helpful",
+"why": "literacy rates",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.21.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.21.2",
+"strength": "essential",
+"why": "uses spread of print",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.22.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.22.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.22.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.1.4",
+"strength": "helpful",
+"why": "loss of common rights",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s7.17.0",
+"strength": "helpful",
+"why": "slum conditions",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.22.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s7.22.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.15.0",
+"strength": "essential",
+"why": "laissez-faire slowing response",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.22.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.22.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s7.17.2",
+"strength": "helpful",
+"why": "Engels witness account",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s7.18.0",
+"strength": "helpful",
+"why": "Chadwick report",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s7.8.3",
+"strength": "helpful",
+"why": "Great Exhibition",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s7.22.6": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s7.22.7": {
+"cost": 2,
+"needs": []
+}
+}

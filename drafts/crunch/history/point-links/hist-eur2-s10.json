@@ -1,0 +1,1556 @@
+{
+"hist-eur2-s10.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.0.0",
+"strength": "helpful",
+"why": "cultural nationalism",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.0.0",
+"strength": "helpful",
+"why": "cultural nationalism",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.1.0",
+"strength": "essential",
+"why": "uses Wagner and Bayreuth",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.19.0",
+"strength": "helpful",
+"why": "uses anti-Semitism",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.1.0",
+"strength": "helpful",
+"why": "uses the new Reich of 1871",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.1.5",
+"strength": "essential",
+"why": "uses Kipling",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s5.5.1",
+"strength": "helpful",
+"why": "uses Battle of Loos",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.23.0",
+"strength": "helpful",
+"why": "uses Russification",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.0.7",
+"strength": "helpful",
+"why": "uses Russification policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.0.1",
+"strength": "helpful",
+"why": "peoples without a state",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.3.0",
+"strength": "helpful",
+"why": "uses machine guns and artillery",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.7.1",
+"strength": "helpful",
+"why": "uses Somme first day",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.6.0",
+"strength": "helpful",
+"why": "uses Le Feu",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.5.1",
+"strength": "helpful",
+"why": "uses Sassoon statement",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s10.4.b",
+"strength": "helpful",
+"why": "patriotic idealism phase",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.0.3",
+"strength": "helpful",
+"why": "pre-war cultural nationalism",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.4.0",
+"strength": "helpful",
+"why": "uses Brooke",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s5.13.1",
+"strength": "helpful",
+"why": "uses Gallipoli landings",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.4.0",
+"strength": "helpful",
+"why": "patriotic verse of Brooke",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.5.0",
+"strength": "helpful",
+"why": "uses Sassoon",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.5.1",
+"strength": "essential",
+"why": "uses Sassoon protest",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s5.2.3",
+"strength": "helpful",
+"why": "uses shell shock",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.5.0",
+"strength": "helpful",
+"why": "uses Sassoon",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.8.b",
+"strength": "essential",
+"why": "uses Wilfred Owen",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.6.2",
+"strength": "helpful",
+"why": "uses Remarque",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.6.3",
+"strength": "helpful",
+"why": "uses Graves and Brittain",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.7.1",
+"strength": "helpful",
+"why": "limits of poets view",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.8.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s10.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.7.0",
+"strength": "helpful",
+"why": "uses the Somme sector",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.5.2",
+"strength": "helpful",
+"why": "uses Craiglockhart and Sassoon",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.8.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s10.8.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.8.5",
+"strength": "helpful",
+"why": "Owen as witness",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.8.4",
+"strength": "helpful",
+"why": "uses Dulce et Decorum Est",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.8.4",
+"strength": "helpful",
+"why": "uses Owen poems",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s5.4.0",
+"strength": "helpful",
+"why": "uses gas attacks",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.20.3",
+"strength": "helpful",
+"why": "uses armistice 11 November",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.5.0",
+"strength": "helpful",
+"why": "uses Sassoon",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.4.0",
+"strength": "helpful",
+"why": "uses Brooke",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.9.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.9.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s10.7.2",
+"strength": "helpful",
+"why": "uses Todman myth argument",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.1.0",
+"strength": "helpful",
+"why": "uses the Reich of 1871",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.10.0",
+"strength": "helpful",
+"why": "Catholic minority in Reich",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.3.0",
+"strength": "helpful",
+"why": "uses Reichsfeinde and Centre",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.10.2",
+"strength": "helpful",
+"why": "uses Reichsfeinde",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.3.0",
+"strength": "helpful",
+"why": "uses National Liberals as partners",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.10.b",
+"strength": "helpful",
+"why": "Kulturkampf conflict",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.11.0",
+"strength": "helpful",
+"why": "earlier laws",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.10.1",
+"strength": "helpful",
+"why": "papacy and infallibility",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.11.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s10.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.11.3",
+"strength": "essential",
+"why": "uses Prussian May Laws",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.23.5",
+"strength": "essential",
+"why": "uses Russian May Laws",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.3.3",
+"strength": "essential",
+"why": "uses Anti-Socialist Law",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.11.3",
+"strength": "essential",
+"why": "uses the Prussian laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.11.3",
+"strength": "essential",
+"why": "uses state approval of priests",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.10.2",
+"strength": "essential",
+"why": "uses Centre Party and Windthorst",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.12.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s1.3.5",
+"strength": "essential",
+"why": "uses tariff law of 1879",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.3.3",
+"strength": "essential",
+"why": "uses Anti-Socialist Law",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.12.2",
+"strength": "helpful",
+"why": "Centre strengthened",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.12.0",
+"strength": "helpful",
+"why": "uses Pius IX",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.12.4",
+"strength": "essential",
+"why": "uses Leo XIII negotiating",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.11.4",
+"strength": "helpful",
+"why": "uses civil marriage",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.11.1",
+"strength": "helpful",
+"why": "uses Jesuit Law",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.10.2",
+"strength": "helpful",
+"why": "uses Centre Party",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.12.2",
+"strength": "helpful",
+"why": "Catholics united behind Centre",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.10.0",
+"strength": "helpful",
+"why": "Protestant-led Reich",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.10.4",
+"strength": "helpful",
+"why": "liberals backed attack",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.14.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.10.1",
+"strength": "essential",
+"why": "uses papal infallibility",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.14.0",
+"strength": "essential",
+"why": "uses loss of Rome",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.14.2",
+"strength": "essential",
+"why": "uses Law of Guarantees",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.14.3",
+"strength": "essential",
+"why": "uses prisoner in Vatican",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.15.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.14.4",
+"strength": "helpful",
+"why": "uses Roman Question",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.15.0",
+"strength": "essential",
+"why": "uses non expedit",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.15.0",
+"strength": "helpful",
+"why": "uses non expedit",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.15.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.15.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s10.15.0",
+"strength": "essential",
+"why": "uses non expedit",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.17.5",
+"strength": "helpful",
+"why": "Leo XIII hard line",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.14.4",
+"strength": "essential",
+"why": "uses Roman Question",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.15.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.12.5",
+"strength": "helpful",
+"why": "German conflict ended by compromise",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.14.4",
+"strength": "helpful",
+"why": "Italian Roman Question",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.2.0",
+"strength": "helpful",
+"why": "uses Treaty of Frankfurt",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.16.0",
+"strength": "helpful",
+"why": "Third Republic origins",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.16.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s10.16.1",
+"strength": "essential",
+"why": "uses anticlerical republicans",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.21.2",
+"strength": "helpful",
+"why": "uses Dreyfus sides",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.17.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.14.4",
+"strength": "helpful",
+"why": "confrontational Pius IX",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.17.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.14.3",
+"strength": "helpful",
+"why": "prisoner in the Vatican",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.12.5",
+"strength": "helpful",
+"why": "uses ending Kulturkampf",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.17.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.17.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.17.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.14.4",
+"strength": "essential",
+"why": "uses Roman Question",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.15.0",
+"strength": "helpful",
+"why": "uses non expedit",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.18.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.17.b",
+"strength": "helpful",
+"why": "uses Leo XIII",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.18.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.18.0",
+"strength": "essential",
+"why": "uses Rerum Novarum",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.18.0",
+"strength": "essential",
+"why": "uses Rerum Novarum",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.16.1",
+"strength": "helpful",
+"why": "republicans and monarchist Catholics",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.18.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.18.3",
+"strength": "essential",
+"why": "uses the ralliement",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.21.2",
+"strength": "helpful",
+"why": "uses Dreyfus sides",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.18.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.18.0",
+"strength": "helpful",
+"why": "uses Rerum Novarum",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.18.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.18.3",
+"strength": "helpful",
+"why": "uses the ralliement",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.19.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.19.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.19.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.19.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.20.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.19.b",
+"strength": "helpful",
+"why": "anti-Semitism",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.20.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.20.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.20.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.20.2",
+"strength": "essential",
+"why": "uses Dreyfus and bordereau",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.21.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.20.2",
+"strength": "essential",
+"why": "uses Dreyfus and bordereau",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.21.0",
+"strength": "essential",
+"why": "uses Esterhazy cover-up",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.21.1",
+"strength": "helpful",
+"why": "uses Zola and Dreyfus case",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.21.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.21.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.21.0",
+"strength": "helpful",
+"why": "army forgery cover-up",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.21.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.20.3",
+"strength": "helpful",
+"why": "first court martial",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.21.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.21.5",
+"strength": "essential",
+"why": "uses Rennes verdict",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.22.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.22.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.16.2",
+"strength": "helpful",
+"why": "uses anticlerical laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.22.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.22.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.20.2",
+"strength": "helpful",
+"why": "uses Dreyfus case",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.22.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.22.3",
+"strength": "helpful",
+"why": "uses Herzl",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.23.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.0.0",
+"strength": "helpful",
+"why": "tsarist autocracy",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.23.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.0.0",
+"strength": "helpful",
+"why": "autocracy and Orthodox state church",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.23.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.0.4",
+"strength": "helpful",
+"why": "1897 census, multinational empire",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.23.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.23.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.0.6",
+"strength": "helpful",
+"why": "Alexander II's assassination",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.23.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.23.3",
+"strength": "helpful",
+"why": "uses pogroms",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.23.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.23.2",
+"strength": "helpful",
+"why": "uses the Pale of Settlement",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.24.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.24.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.24.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.23.0",
+"strength": "helpful",
+"why": "uses Russification",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.0.7",
+"strength": "helpful",
+"why": "Alexander III, Nicholas II, Russification",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.24.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.24.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.23.3",
+"strength": "helpful",
+"why": "uses pogroms",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.24.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.23.3",
+"strength": "helpful",
+"why": "uses pogroms",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.8.3",
+"strength": "helpful",
+"why": "October Manifesto 1905",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.24.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.25.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.25.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.25.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.25.0",
+"strength": "essential",
+"why": "uses the Protocols",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.25.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.25.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.25.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.2.1",
+"strength": "helpful",
+"why": "revolutionary parties",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.25.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.23.2",
+"strength": "helpful",
+"why": "uses the Pale",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s5.12.0",
+"strength": "helpful",
+"why": "uses the Provisional Government",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.14.0",
+"strength": "helpful",
+"why": "Provisional Government of 1917",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.26.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s10.26.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.0.1",
+"strength": "helpful",
+"why": "two kinds of nationalism",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.26.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s10.9.7",
+"strength": "helpful",
+"why": "uses myth argument",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s10.4.3",
+"strength": "helpful",
+"why": "contemporaries preferred Brooke",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.26.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.13.0",
+"strength": "helpful",
+"why": "uses political defeat",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.26.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.15.6",
+"strength": "helpful",
+"why": "uses Italy comparison",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.26.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s10.18.3",
+"strength": "helpful",
+"why": "uses failed ralliement",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.26.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s10.21.6",
+"strength": "helpful",
+"why": "uses Dreyfus outcome",
+"confidence": "low"
+},
+{
+"id": "hist-eur2-s10.24.0",
+"strength": "helpful",
+"why": "uses Russian policy",
+"confidence": "low"
+}
+]
+}
+}

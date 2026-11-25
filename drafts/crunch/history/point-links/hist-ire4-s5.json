@@ -1,0 +1,754 @@
+{
+"hist-ire4-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.0.2",
+"strength": "essential",
+"why": "uses Sinn Féin and the Dáil",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.0.4",
+"strength": "helpful",
+"why": "escape from Lincoln Gaol",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.0.3",
+"strength": "helpful",
+"why": "the first Dáil and Republic",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.1.0",
+"strength": "essential",
+"why": "uses self-determination",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s5.1.1",
+"strength": "helpful",
+"why": "Irish appeal to Wilson",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s4.6.4",
+"strength": "helpful",
+"why": "Philadelphia Race Convention appeal",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s4.6.1",
+"strength": "essential",
+"why": "Friends of Irish Freedom founding",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.0.3",
+"strength": "helpful",
+"why": "the Irish Republic declared",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.0.3",
+"strength": "helpful",
+"why": "the Dáil government",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.1.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.1.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.0.4",
+"strength": "helpful",
+"why": "escaped prisoner",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.0.5",
+"strength": "helpful",
+"why": "Boland helped the escape",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.1.1",
+"strength": "helpful",
+"why": "Peace Conference and Irish case",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s5.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.2.3",
+"strength": "helpful",
+"why": "follows New York arrival",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.3.0",
+"strength": "helpful",
+"why": "the tour continues",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.1.4",
+"strength": "helpful",
+"why": "recognition aim",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.3.3",
+"strength": "helpful",
+"why": "enthusiasm for his message",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.1.5",
+"strength": "helpful",
+"why": "fundraising aim",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.4.0",
+"strength": "essential",
+"why": "the bond drive",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.4.0",
+"strength": "helpful",
+"why": "the bond drive",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.5.1",
+"strength": "helpful",
+"why": "quarrel with Irish-American leaders",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s5.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s5.4.0",
+"strength": "essential",
+"why": "the American bond drive",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s5.9.2",
+"strength": "helpful",
+"why": "Collins as Minister for Finance",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.4.1",
+"strength": "helpful",
+"why": "the money raised",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s4.6.1",
+"strength": "helpful",
+"why": "Friends of Irish Freedom",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.5.0",
+"strength": "essential",
+"why": "Devoy and Cohalan",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s5.4.3",
+"strength": "helpful",
+"why": "dispute over funds",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s5.5.0",
+"strength": "essential",
+"why": "Devoy and Cohalan",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.5.0",
+"strength": "helpful",
+"why": "Devoy and Cohalan camp",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s5.2.1",
+"strength": "helpful",
+"why": "Boland prepared the mission",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.5.0",
+"strength": "essential",
+"why": "Friends of Irish Freedom",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.5.2",
+"strength": "helpful",
+"why": "the quarrel",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.6.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire4-s5.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.6.0",
+"strength": "essential",
+"why": "the Cuba analogy",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.6.1",
+"strength": "essential",
+"why": "the Cuba comparison",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.6.0",
+"strength": "essential",
+"why": "the interview",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s5.5.0",
+"strength": "helpful",
+"why": "Cohalan and Devoy",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.6.1",
+"strength": "helpful",
+"why": "the Cuba suggestion",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.7.0",
+"strength": "helpful",
+"why": "the two party conventions",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.7.1",
+"strength": "essential",
+"why": "the plank request",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.7.0",
+"strength": "helpful",
+"why": "the 1920 election",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s5.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.7.3",
+"strength": "helpful",
+"why": "1920 election result",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s5.1.1",
+"strength": "helpful",
+"why": "Wilson refused self-determination",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.5.4",
+"strength": "helpful",
+"why": "rival to Friends of Irish Freedom",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.8.0",
+"strength": "essential",
+"why": "the AARIR",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.9.3",
+"strength": "helpful",
+"why": "British reprisals",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.0.3",
+"strength": "helpful",
+"why": "the Dáil",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.9.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.9.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.9.3",
+"strength": "helpful",
+"why": "reprisals by Auxiliaries",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.9.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.0.5",
+"strength": "helpful",
+"why": "Boland stayed in America",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s5.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.1.4",
+"strength": "essential",
+"why": "recognition was the main aim",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.4.1",
+"strength": "helpful",
+"why": "money raised by bond drive",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.10.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.5.4",
+"strength": "helpful",
+"why": "the split",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s5.8.0",
+"strength": "helpful",
+"why": "the AARIR",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.10.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s5.9.2",
+"strength": "helpful",
+"why": "Collins ran the war",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.10.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.8.0",
+"strength": "helpful",
+"why": "the AARIR",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s5.4.1",
+"strength": "helpful",
+"why": "about five million dollars",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.10.0",
+"strength": "helpful",
+"why": "no recognition",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.1.4",
+"strength": "helpful",
+"why": "recognition aim",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s5.1.6",
+"strength": "helpful",
+"why": "election aim",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s5.10.4",
+"strength": "helpful",
+"why": "absence and Collins relations",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s5.5.1",
+"strength": "helpful",
+"why": "Devoy and Cohalan resentment",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s5.11.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s5.11.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s5.10.0",
+"strength": "helpful",
+"why": "recognition never granted",
+"confidence": "high"
+}
+]
+}
+}

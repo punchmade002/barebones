@@ -1,0 +1,348 @@
+{
+"hist-ire5-s10.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.0.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s10.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.7.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s10.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.0.2",
+"strength": "helpful",
+"why": "civil rights campaign grievances",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.0.4",
+"strength": "helpful",
+"why": "the RUC",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.2.2",
+"strength": "helpful",
+"why": "British troops deployed August 1969",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s10.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.9.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.10.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.0.2",
+"strength": "helpful",
+"why": "civil rights campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.2.1",
+"strength": "helpful",
+"why": "Battle of the Bogside",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.2.2",
+"strength": "helpful",
+"why": "British army deployment 1969",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s10.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.11.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.12.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.12.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.12.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.12.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s10.12.4": {
+"cost": 1,
+"needs": []
+}
+}

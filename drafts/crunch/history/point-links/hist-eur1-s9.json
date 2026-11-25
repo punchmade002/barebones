@@ -1,0 +1,803 @@
+{
+"hist-eur1-s9.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.0.0",
+"strength": "helpful",
+"why": "industrialisation and the factory shift",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.0.0",
+"strength": "helpful",
+"why": "early water-powered mills",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.0.2",
+"strength": "essential",
+"why": "uses laissez-faire",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.1.1",
+"strength": "helpful",
+"why": "his Manchester mill work",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.1.2",
+"strength": "helpful",
+"why": "Manchester experience shaping his belief",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.1.3",
+"strength": "helpful",
+"why": "character formed by surroundings",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.2.2",
+"strength": "helpful",
+"why": "David Dale as mill owner",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.1.5",
+"strength": "helpful",
+"why": "link to Dale and New Lanark",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.7.2",
+"strength": "helpful",
+"why": "Arkwright, cotton spinning pioneer",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.2.0",
+"strength": "helpful",
+"why": "the New Lanark site and Dale",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.0.1",
+"strength": "helpful",
+"why": "pauper apprentices",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.2.2",
+"strength": "helpful",
+"why": "pauper children housed by Dale",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.2.0",
+"strength": "essential",
+"why": "Dale, Arkwright and the founding",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s7.7.2",
+"strength": "helpful",
+"why": "the water frame",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.0.0",
+"strength": "helpful",
+"why": "discipline by fines and beatings",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.1.3",
+"strength": "essential",
+"why": "character formed by environment",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s7.13.0",
+"strength": "helpful",
+"why": "the factory system",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.0.1",
+"strength": "essential",
+"why": "pauper apprentices",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.3.0",
+"strength": "helpful",
+"why": "thirteen-hour working day",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.7.0",
+"strength": "helpful",
+"why": "schools funded",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s9.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.3.3",
+"strength": "helpful",
+"why": "earlier punishment-based discipline",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.5.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s9.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.5.1",
+"strength": "essential",
+"why": "uses the silent monitor",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.5.1",
+"strength": "essential",
+"why": "uses the silent monitor",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.3.1",
+"strength": "helpful",
+"why": "dirty overcrowded village housing",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.3.2",
+"strength": "helpful",
+"why": "drunkenness found by Owen",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.7.0",
+"strength": "helpful",
+"why": "infant school housed in Institute",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.7.1",
+"strength": "essential",
+"why": "the infant school",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.8.2",
+"strength": "helpful",
+"why": "William Allen as partner",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.7.1",
+"strength": "essential",
+"why": "the infant school",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.4.3",
+"strength": "helpful",
+"why": "spending profits on schools",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.8.1",
+"strength": "helpful",
+"why": "1813 sale and new partners",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.8.2",
+"strength": "helpful",
+"why": "William Allen and partners",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.8.3",
+"strength": "essential",
+"why": "partners objecting to his methods",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.1.3",
+"strength": "helpful",
+"why": "character formed by circumstances",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.0.1",
+"strength": "helpful",
+"why": "pauper apprentices",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.9.1",
+"strength": "helpful",
+"why": "the elder Peel",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.9.2",
+"strength": "helpful",
+"why": "campaign and Peel committee",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.9.3",
+"strength": "essential",
+"why": "the 1819 Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.10.0",
+"strength": "essential",
+"why": "villages of co-operation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.10.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.10.0",
+"strength": "helpful",
+"why": "co-operative communities plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.11.0",
+"strength": "essential",
+"why": "New Harmony",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.10.0",
+"strength": "helpful",
+"why": "Owenite co-operative communities",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s8.4.0",
+"strength": "helpful",
+"why": "socialism as common ownership",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.12.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.12.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.12.1",
+"strength": "essential",
+"why": "the GNCTU",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s8.1.3",
+"strength": "helpful",
+"why": "the Tolpuddle case",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.12.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.12.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.12.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.8.0",
+"strength": "helpful",
+"why": "class struggle in Marx",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.0.2",
+"strength": "essential",
+"why": "laissez-faire belief",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.8.2",
+"strength": "helpful",
+"why": "unusual partners",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.0.1",
+"strength": "helpful",
+"why": "water mills needed housing",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.13.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.10.2",
+"strength": "helpful",
+"why": "attack on religion",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s9.11.1",
+"strength": "helpful",
+"why": "New Harmony failure",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.13.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s9.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.14.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.10.1",
+"strength": "helpful",
+"why": "Cobbett and the villages",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.14.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s9.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.5.1",
+"strength": "helpful",
+"why": "the silent monitor",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.14.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s9.15.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.4.0",
+"strength": "helpful",
+"why": "no young child labour",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s9.8.4",
+"strength": "helpful",
+"why": "partners curbed him",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.15.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.9.3",
+"strength": "helpful",
+"why": "the 1819 Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.15.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s9.9.4",
+"strength": "helpful",
+"why": "weak 1819 Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s9.11.1",
+"strength": "helpful",
+"why": "New Harmony failure",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.15.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s9.15.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s9.15.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s8.21.b",
+"strength": "helpful",
+"why": "Peel as reforming statesman",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s9.15.7": {
+"cost": 2,
+"needs": []
+}
+}

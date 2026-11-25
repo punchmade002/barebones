@@ -1,0 +1,1154 @@
+{
+"hist-eur3-s12.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.14.1",
+"strength": "helpful",
+"why": "uses Hitler becoming Chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.2.4",
+"strength": "essential",
+"why": "one-party state created",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.0.3",
+"strength": "helpful",
+"why": "uses the Hitler cult",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.9.b",
+"strength": "helpful",
+"why": "uses the national community",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.4.2",
+"strength": "helpful",
+"why": "uses the leader principle",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.9.b",
+"strength": "helpful",
+"why": "uses Volksgemeinschaft",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.0.2",
+"strength": "helpful",
+"why": "uses Treaty of Versailles terms",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.5.2",
+"strength": "helpful",
+"why": "uses the Gestapo",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.6.0",
+"strength": "helpful",
+"why": "uses the camps",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.6.3",
+"strength": "helpful",
+"why": "uses the courts",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s12.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.9.b",
+"strength": "helpful",
+"why": "Goebbels as minister",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.2.b",
+"strength": "helpful",
+"why": "uses Gleichschaltung",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.1.2",
+"strength": "essential",
+"why": "uses the Reich Chamber of Culture",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.1.0",
+"strength": "helpful",
+"why": "uses the Propaganda Ministry",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s12.1.2",
+"strength": "helpful",
+"why": "uses the Reich chambers",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.9.b",
+"strength": "helpful",
+"why": "Goebbels and Berlin",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s12.11.3",
+"strength": "helpful",
+"why": "Streicher as Gauleiter",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s12.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.1.0",
+"strength": "essential",
+"why": "uses the ministry",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.1.2",
+"strength": "helpful",
+"why": "film sub-chamber of culture chamber",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.4.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s12.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.0.3",
+"strength": "helpful",
+"why": "uses the Hitler cult",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.12.7",
+"strength": "helpful",
+"why": "uses the Anschluss",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.9.3",
+"strength": "helpful",
+"why": "uses the Hitler Youth",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.9.0",
+"strength": "helpful",
+"why": "uses the Labour Front",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.6.0",
+"strength": "essential",
+"why": "uses the book burning",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.6.0",
+"strength": "helpful",
+"why": "uses the book burning",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.6.3",
+"strength": "essential",
+"why": "uses degenerate art",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.6.4",
+"strength": "essential",
+"why": "uses the exhibition",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.6.4",
+"strength": "essential",
+"why": "uses the exhibition",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.6.3",
+"strength": "helpful",
+"why": "uses degenerate label",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.7.0",
+"strength": "helpful",
+"why": "uses the two Games",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.17.1",
+"strength": "helpful",
+"why": "uses Stalingrad surrender",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.8.1",
+"strength": "helpful",
+"why": "uses Stalingrad defeat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.8.1",
+"strength": "helpful",
+"why": "uses the turn of the war",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s12.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.1.0",
+"strength": "helpful",
+"why": "uses the Propaganda Ministry",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.3.3",
+"strength": "helpful",
+"why": "Gregor Strasser",
+"confidence": "low"
+},
+{
+"id": "hist-eur3-s2.6.0",
+"strength": "helpful",
+"why": "uses the Nazi party founding",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.13.2",
+"strength": "helpful",
+"why": "Gregor Strasser",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s12.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.2.3",
+"strength": "helpful",
+"why": "uses Der Angriff",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.3.0",
+"strength": "helpful",
+"why": "uses the SA",
+"confidence": "low"
+},
+{
+"id": "hist-eur3-s2.6.2",
+"strength": "helpful",
+"why": "uses the SA",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.11.2",
+"strength": "helpful",
+"why": "uses Goebbels campaigns",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.12.0",
+"strength": "helpful",
+"why": "uses 1932 presidential campaign",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.1.2",
+"strength": "helpful",
+"why": "uses the Reich Chamber of Culture",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s12.6.0",
+"strength": "helpful",
+"why": "uses the book burning",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s12.4.4",
+"strength": "helpful",
+"why": "uses anti-Semitic films",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.8.2",
+"strength": "helpful",
+"why": "uses total war speech",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.17.5",
+"strength": "helpful",
+"why": "uses Hitler's suicide",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.0.3",
+"strength": "helpful",
+"why": "uses the Führer myth",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.5.0",
+"strength": "helpful",
+"why": "Himmler as rival",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s12.9.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.0.3",
+"strength": "helpful",
+"why": "uses the Hitler cult",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.10.b": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s12.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.13.0",
+"strength": "helpful",
+"why": "uses the 1933 rally",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s12.13.1",
+"strength": "helpful",
+"why": "uses the 1934 rally",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.10.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.3.2",
+"strength": "essential",
+"why": "uses the murder of Röhm",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.13.1",
+"strength": "helpful",
+"why": "uses the 1934 rally and purge",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.7.0",
+"strength": "helpful",
+"why": "uses the 1936 Olympics",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.10.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.10.0",
+"strength": "helpful",
+"why": "uses her rally films",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.10.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s12.10.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.10.7": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s12.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.11.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s12.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.12.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.5.5",
+"strength": "helpful",
+"why": "uses SA and SS",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.12.4",
+"strength": "helpful",
+"why": "uses Albert Speer",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.12.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.12.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.12.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.12.2",
+"strength": "helpful",
+"why": "uses the Zeppelin Field",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.10.0",
+"strength": "helpful",
+"why": "uses Victory of Faith",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.13.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.3.2",
+"strength": "essential",
+"why": "uses the Night of the Long Knives",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.11.4",
+"strength": "essential",
+"why": "uses conscription of 1935",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.10.4",
+"strength": "helpful",
+"why": "uses the Nuremberg Laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.13.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.12.0",
+"strength": "essential",
+"why": "uses the Rhineland remilitarisation",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.8.3",
+"strength": "essential",
+"why": "uses the Four Year Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.3.b",
+"strength": "helpful",
+"why": "uses the Labour Service",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s12.13.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.12.7",
+"strength": "essential",
+"why": "uses the Anschluss",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.13.3",
+"strength": "helpful",
+"why": "uses the Munich Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.13.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.14.6",
+"strength": "essential",
+"why": "uses the invasion of Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.14.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.14.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.12.1",
+"strength": "helpful",
+"why": "uses the Luitpold Arena",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.3.2",
+"strength": "essential",
+"why": "uses the purge",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.5.0",
+"strength": "helpful",
+"why": "uses Himmler",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.6.2",
+"strength": "helpful",
+"why": "uses the SA",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s12.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.3",
+"strength": "helpful",
+"why": "uses the Munich Putsch",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.7.3",
+"strength": "helpful",
+"why": "uses the Reich Labour Service",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.12.6",
+"strength": "essential",
+"why": "uses the cathedral of light",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.13.4",
+"strength": "helpful",
+"why": "uses the Four Year Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.15.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.15.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.15.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.15.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.15.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.13.1",
+"strength": "helpful",
+"why": "uses the 1934 rally",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.15.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.12.6",
+"strength": "essential",
+"why": "uses the cathedral of light",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.0.3",
+"strength": "helpful",
+"why": "uses the Hitler cult",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.13.3",
+"strength": "helpful",
+"why": "uses the Nuremberg Laws",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s12.13.4",
+"strength": "helpful",
+"why": "uses the Four Year Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.11.4",
+"strength": "helpful",
+"why": "uses German rearmament",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s12.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.10.0",
+"strength": "helpful",
+"why": "uses Riefenstahl's rally films",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.12.2",
+"strength": "essential",
+"why": "uses the Zeppelin Field",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.16.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.16.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.12.3",
+"strength": "essential",
+"why": "uses the Congress Hall",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s12.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.0.3",
+"strength": "helpful",
+"why": "uses the Hitler cult",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.6.b",
+"strength": "helpful",
+"why": "uses camps and courts",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.17.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.8.1",
+"strength": "helpful",
+"why": "uses the post-1943 shift",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.17.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s12.17.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s12.10.b",
+"strength": "helpful",
+"why": "uses Riefenstahl's films",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s12.13.3",
+"strength": "helpful",
+"why": "uses the racial laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s12.17.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.8.0",
+"strength": "helpful",
+"why": "uses economic recovery",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s12.17.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.3",
+"strength": "helpful",
+"why": "uses the Social Democrats",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s12.17.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s12.9.b",
+"strength": "essential",
+"why": "uses Goebbels",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s12.10.b",
+"strength": "essential",
+"why": "uses Riefenstahl",
+"confidence": "high"
+}
+]
+}
+}

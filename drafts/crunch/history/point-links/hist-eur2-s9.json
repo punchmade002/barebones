@@ -1,0 +1,714 @@
+{
+"hist-eur2-s9.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.5.0",
+"strength": "helpful",
+"why": "war of attrition",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.0.3",
+"strength": "essential",
+"why": "Military Service Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.5.2",
+"strength": "helpful",
+"why": "shell shortage 1915",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.1.3",
+"strength": "helpful",
+"why": "Ministry of Munitions",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.16.2",
+"strength": "helpful",
+"why": "submarine campaign cut supplies",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.2.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.2.5",
+"strength": "helpful",
+"why": "Corn Production Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.15.0",
+"strength": "helpful",
+"why": "British blockade of Germany",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.4.0",
+"strength": "helpful",
+"why": "blockade shortages",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.5.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s9.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.5.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.7.0",
+"strength": "essential",
+"why": "WSPU suffragettes",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s9.7.1",
+"strength": "essential",
+"why": "NUWSS suffragists",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.0.3",
+"strength": "helpful",
+"why": "conscription",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.1.4",
+"strength": "essential",
+"why": "Shell Crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.8.2",
+"strength": "essential",
+"why": "dilution",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.8.2",
+"strength": "helpful",
+"why": "dilution",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.9.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.9.0",
+"strength": "helpful",
+"why": "munitionettes",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.1.3",
+"strength": "helpful",
+"why": "Ministry of Munitions",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.10.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.2.1",
+"strength": "essential",
+"why": "Auxiliary Service Law",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.10.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.11.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.16.2",
+"strength": "helpful",
+"why": "submarine campaign made food priority",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.11.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.11.5",
+"strength": "helpful",
+"why": "women's auxiliary corps",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.12.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.8.2",
+"strength": "essential",
+"why": "dilution",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.8.3",
+"strength": "essential",
+"why": "dilution for the war only",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.7.0",
+"strength": "essential",
+"why": "WSPU militant campaign",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.7.0",
+"strength": "helpful",
+"why": "WSPU",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.7.0",
+"strength": "helpful",
+"why": "Pankhursts and WSPU",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.13.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.7.1",
+"strength": "helpful",
+"why": "women's suffrage campaign",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s9.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.14.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s9.7.b",
+"strength": "helpful",
+"why": "women barred from voting",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.14.0",
+"strength": "helpful",
+"why": "1918 vote",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.14.0",
+"strength": "essential",
+"why": "1918 Act limits",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.14.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.14.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.14.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.8.3",
+"strength": "essential",
+"why": "Treasury Agreement promise to unions",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.9.0",
+"strength": "helpful",
+"why": "munitions work",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.15.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.15.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.16.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s9.9.0",
+"strength": "helpful",
+"why": "munitions work",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s9.14.0",
+"strength": "helpful",
+"why": "the vote",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.16.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s9.14.0",
+"strength": "helpful",
+"why": "over-30 vote",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.16.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.16.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.14.0",
+"strength": "helpful",
+"why": "the vote",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.14.5",
+"strength": "helpful",
+"why": "French vote 1944",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s9.14.0",
+"strength": "helpful",
+"why": "British vote",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s9.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.17.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.17.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s9.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s9.3.1",
+"strength": "essential",
+"why": "Britain debtor to USA",
+"confidence": "high"
+}
+]
+}
+}

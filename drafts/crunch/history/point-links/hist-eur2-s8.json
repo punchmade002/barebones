@@ -1,0 +1,1203 @@
+{
+"hist-eur2-s8.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.0.1",
+"strength": "helpful",
+"why": "Alexander II reforms",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.0.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.0.1",
+"strength": "helpful",
+"why": "reforms of Alexander II",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.0.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.0.0",
+"strength": "helpful",
+"why": "autocracy upheld",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.0.6",
+"strength": "helpful",
+"why": "zemstva introduced",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.1.0",
+"strength": "essential",
+"why": "uses the calendar difference",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.2.0",
+"strength": "helpful",
+"why": "Marxism",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.3.b",
+"strength": "helpful",
+"why": "Witte and the great spurt",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.1.2",
+"strength": "helpful",
+"why": "Franco-Russian Alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.3.1",
+"strength": "helpful",
+"why": "foreign investors and loans",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.3.b",
+"strength": "helpful",
+"why": "Witte as successor",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.4.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s8.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.3.3",
+"strength": "helpful",
+"why": "taxes and grain exports",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.3.b",
+"strength": "helpful",
+"why": "Witte as Finance Minister",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.0.2",
+"strength": "essential",
+"why": "redemption payments",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.6.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s8.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.6.1",
+"strength": "essential",
+"why": "the 1891 famine",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.0.6",
+"strength": "helpful",
+"why": "zemstva",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s8.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.6.1",
+"strength": "essential",
+"why": "the 1891 famine",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.2.3",
+"strength": "essential",
+"why": "Union of Liberation",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.2.2",
+"strength": "helpful",
+"why": "the SRs",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.4.0",
+"strength": "helpful",
+"why": "Trans-Siberian Railway",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.9.2",
+"strength": "helpful",
+"why": "Port Arthur and Manchuria claims",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.7.0",
+"strength": "helpful",
+"why": "Russo-Japanese rivalry",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.7.0",
+"strength": "essential",
+"why": "Port Arthur lease",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.9.2",
+"strength": "helpful",
+"why": "Port Arthur lease and spheres",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s8.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.7.2",
+"strength": "helpful",
+"why": "course of the war",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.7.2",
+"strength": "helpful",
+"why": "Port Arthur",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.9.6",
+"strength": "helpful",
+"why": "Russo-Japanese War settlement",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.7.3",
+"strength": "helpful",
+"why": "defeats at Mukden and Tsushima",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.8.0",
+"strength": "essential",
+"why": "Bloody Sunday",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.3.b",
+"strength": "helpful",
+"why": "Witte",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.8.2",
+"strength": "helpful",
+"why": "the general strike",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.8.3",
+"strength": "essential",
+"why": "the October Manifesto",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.8.3",
+"strength": "essential",
+"why": "the October Manifesto",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.7.4",
+"strength": "helpful",
+"why": "peace with Japan",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.8.2",
+"strength": "helpful",
+"why": "the Soviet",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.0.2",
+"strength": "essential",
+"why": "redemption payments",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.3.1",
+"strength": "helpful",
+"why": "French capital",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.1.6",
+"strength": "helpful",
+"why": "French investment in Russia",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.8.3",
+"strength": "helpful",
+"why": "the Duma promised",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.9.4",
+"strength": "essential",
+"why": "Fundamental Laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.9.4",
+"strength": "helpful",
+"why": "Fundamental Laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.9.4",
+"strength": "helpful",
+"why": "powers of the Duma",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.10.0",
+"strength": "helpful",
+"why": "earlier Dumas",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.9.5",
+"strength": "helpful",
+"why": "tsar kept veto",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.10.b",
+"strength": "helpful",
+"why": "Stolypin",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.0.3",
+"strength": "essential",
+"why": "the mir or commune",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.11.0",
+"strength": "helpful",
+"why": "land decree",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.0.3",
+"strength": "helpful",
+"why": "the commune",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.11.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s5.11.0",
+"strength": "helpful",
+"why": "Tannenberg",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s5.11.1",
+"strength": "helpful",
+"why": "Masurian Lakes",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s5.11.2",
+"strength": "helpful",
+"why": "the great retreat of 1915",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s5.11.3",
+"strength": "helpful",
+"why": "Brusilov offensive",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.12.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.12.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.12.2",
+"strength": "helpful",
+"why": "food and fuel shortages",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.12.6",
+"strength": "helpful",
+"why": "Rasputin",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.10.0",
+"strength": "helpful",
+"why": "the Duma",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.12.4",
+"strength": "helpful",
+"why": "empress influential",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.1.1",
+"strength": "helpful",
+"why": "calendar dates",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.13.0",
+"strength": "helpful",
+"why": "strikes in Petrograd",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.9.1",
+"strength": "helpful",
+"why": "army loyal in 1905",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.8.2",
+"strength": "helpful",
+"why": "the Soviet idea",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.13.1",
+"strength": "helpful",
+"why": "mutiny led to abdication",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.13.3",
+"strength": "helpful",
+"why": "the abdication",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.13.2",
+"strength": "essential",
+"why": "Provisional Committee and Soviet",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.14.0",
+"strength": "essential",
+"why": "dual power",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.14.0",
+"strength": "helpful",
+"why": "Provisional Government",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.14.0",
+"strength": "helpful",
+"why": "Provisional Government",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.14.3",
+"strength": "essential",
+"why": "the April Theses",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.14.3",
+"strength": "helpful",
+"why": "Lenin and the Bolsheviks",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.15.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.14.0",
+"strength": "helpful",
+"why": "Kerensky",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.13.2",
+"strength": "helpful",
+"why": "the Petrograd Soviet",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.15.1",
+"strength": "helpful",
+"why": "Kornilov affair helped Bolsheviks",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.15.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.15.2",
+"strength": "helpful",
+"why": "Military Revolutionary Committee",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.15.3",
+"strength": "helpful",
+"why": "the November rising",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.15.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.14.4",
+"strength": "helpful",
+"why": "peace and land slogans",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.15.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.14.2",
+"strength": "helpful",
+"why": "Constituent Assembly promised",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.15.5",
+"strength": "helpful",
+"why": "Decree on Peace",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.16.0",
+"strength": "essential",
+"why": "armistice and stalling",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.16.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.16.1",
+"strength": "essential",
+"why": "the treaty",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.16.1",
+"strength": "essential",
+"why": "the treaty",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.1.2",
+"strength": "helpful",
+"why": "Petrograd renamed",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.17.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.17.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s8.17.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.17.1",
+"strength": "helpful",
+"why": "Reds and Whites",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.17.1",
+"strength": "helpful",
+"why": "Reds and Whites",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.17.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s8.17.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.17.1",
+"strength": "essential",
+"why": "the White leaders",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.17.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.17.1",
+"strength": "essential",
+"why": "Reds versus Whites",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.17.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.17.1",
+"strength": "essential",
+"why": "Reds versus Whites",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.18.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.18.0",
+"strength": "essential",
+"why": "self-determination",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.15.5",
+"strength": "essential",
+"why": "the Declaration of Rights of Peoples",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.18.0",
+"strength": "helpful",
+"why": "self-determination",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.18.0",
+"strength": "essential",
+"why": "self-determination",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.17.1",
+"strength": "helpful",
+"why": "Red Army and civil war",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s8.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s8.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.3.0",
+"strength": "helpful",
+"why": "Witte railways and industry",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.11.0",
+"strength": "helpful",
+"why": "Stolypin land reform",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.3.1",
+"strength": "helpful",
+"why": "foreign capital",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.5.0",
+"strength": "helpful",
+"why": "huge factories",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.1.6",
+"strength": "helpful",
+"why": "dependence on French capital",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s8.19.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.10.2",
+"strength": "helpful",
+"why": "weak Dumas",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.19.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.9.1",
+"strength": "essential",
+"why": "army loyal in 1905",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.13.1",
+"strength": "essential",
+"why": "soldiers joined crowds in 1917",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.19.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s8.19.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s8.19.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s8.3.b",
+"strength": "helpful",
+"why": "Witte state-led industry",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.19.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s8.15.3",
+"strength": "helpful",
+"why": "October seizure of power",
+"confidence": "high"
+}
+]
+}
+}

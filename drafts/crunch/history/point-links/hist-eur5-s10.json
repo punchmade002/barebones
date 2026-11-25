@@ -1,0 +1,683 @@
+{
+"hist-eur5-s10.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.1.2",
+"strength": "helpful",
+"why": "indirect rule defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.0.5",
+"strength": "helpful",
+"why": "assimilation as French aim",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.0.2",
+"strength": "helpful",
+"why": "Belgian reliance on missions",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.0.5",
+"strength": "helpful",
+"why": "French assimilation and élites",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.0.1",
+"strength": "helpful",
+"why": "British indirect rule",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.0.5",
+"strength": "helpful",
+"why": "assimilation shaping curricula",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s10.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.2.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s10.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.2.0",
+"strength": "helpful",
+"why": "Négritude student circle in Paris",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.1.0",
+"strength": "helpful",
+"why": "assumed European superiority",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s10.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.2.0",
+"strength": "helpful",
+"why": "Césaire and Senghor named",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.2.0",
+"strength": "helpful",
+"why": "Senghor of Négritude",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.2.4",
+"strength": "helpful",
+"why": "Senghor as Senegal leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.2.2",
+"strength": "essential",
+"why": "criticises Négritude values",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.1.1",
+"strength": "helpful",
+"why": "mission schools",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.3.0",
+"strength": "helpful",
+"why": "mission expansion in Africa",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.3.0",
+"strength": "helpful",
+"why": "mission churches broken from",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.3.5",
+"strength": "helpful",
+"why": "African Independent Churches",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.4.0",
+"strength": "helpful",
+"why": "Islam spread in West Africa",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.4.0",
+"strength": "essential",
+"why": "Sufi brotherhoods",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.0.1",
+"strength": "essential",
+"why": "indirect rule through local rulers",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s10.4.1",
+"strength": "helpful",
+"why": "Muslim emirates of northern Nigeria",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s10.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.5.3",
+"strength": "essential",
+"why": "Rushdie and The Satanic Verses",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.5.3",
+"strength": "essential",
+"why": "Rushdie and his novel",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.5.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.5.5",
+"strength": "helpful",
+"why": "the fatwa against Rushdie",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.5.6",
+"strength": "helpful",
+"why": "the Rushdie affair",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.6.0",
+"strength": "helpful",
+"why": "English official in Nigeria",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s5.10.1",
+"strength": "helpful",
+"why": "Nyerere making Swahili national",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.6.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.6.0",
+"strength": "helpful",
+"why": "colonial languages like English",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s10.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.7.1",
+"strength": "essential",
+"why": "Things Fall Apart",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.7.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s10.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s5.4.5",
+"strength": "helpful",
+"why": "Biafra secession declared",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.7.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.7.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.6.7",
+"strength": "essential",
+"why": "English vs African languages debate",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.7.7": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s10.7.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.7.1",
+"strength": "helpful",
+"why": "Things Fall Apart",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.8.1",
+"strength": "helpful",
+"why": "A World of Strangers",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.8.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s10.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.8.2",
+"strength": "helpful",
+"why": "her work censored",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.8.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.8.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.6.7",
+"strength": "helpful",
+"why": "writing in colonial languages",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.9.0",
+"strength": "essential",
+"why": "Ngũgĩ switching to Gikuyu",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.7.4",
+"strength": "helpful",
+"why": "Biafran War",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.7.5",
+"strength": "helpful",
+"why": "African Writers Series",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.4.5",
+"strength": "helpful",
+"why": "syncretism of beliefs",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s10.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.9.2",
+"strength": "helpful",
+"why": "Soyinka introduced",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s10.9.0",
+"strength": "helpful",
+"why": "A Grain of Wheat",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.9.6": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s10.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s10.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.1.5",
+"strength": "helpful",
+"why": "African traditions missing from schools",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.6.4",
+"strength": "essential",
+"why": "Tanzania adopting Swahili",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.7.6",
+"strength": "essential",
+"why": "Achebe on English",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s10.9.1",
+"strength": "essential",
+"why": "Ngũgĩ's Decolonising the Mind",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s10.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s10.2.2",
+"strength": "helpful",
+"why": "African culture pride vs views",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s10.10.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s10.7.6",
+"strength": "essential",
+"why": "Achebe on English",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s10.9.1",
+"strength": "essential",
+"why": "Ngũgĩ's argument",
+"confidence": "high"
+}
+]
+}
+}

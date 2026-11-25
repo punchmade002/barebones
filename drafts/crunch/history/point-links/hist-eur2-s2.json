@@ -1,0 +1,1347 @@
+{
+"hist-eur2-s2.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.5.2",
+"strength": "helpful",
+"why": "keeping France isolated",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.2.0",
+"strength": "helpful",
+"why": "annexation of Alsace-Lorraine",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s1.9.0",
+"strength": "helpful",
+"why": "Dual Alliance terms",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.9.4",
+"strength": "helpful",
+"why": "Triple Alliance with Italy",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.10.4",
+"strength": "helpful",
+"why": "Reinsurance Treaty terms",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.13.5",
+"strength": "helpful",
+"why": "Bismarck forced out in 1890",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.0.1",
+"strength": "essential",
+"why": "Reinsurance Treaty and Dual Alliance",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.0.2",
+"strength": "helpful",
+"why": "Caprivi as Chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.0.3",
+"strength": "essential",
+"why": "Reinsurance Treaty allowed to lapse",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.0.4",
+"strength": "helpful",
+"why": "Russia left without German link",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.11.0",
+"strength": "helpful",
+"why": "Russia borrowing in Paris",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s1.9.4",
+"strength": "essential",
+"why": "Triple Alliance powers",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.1.2",
+"strength": "essential",
+"why": "the military convention",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.1.3",
+"strength": "helpful",
+"why": "terms of the convention",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.5.2",
+"strength": "essential",
+"why": "Bismarck fear of two-front war",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.1.3",
+"strength": "helpful",
+"why": "mutual attack terms",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.1.2",
+"strength": "helpful",
+"why": "the Franco-Russian alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.11.6",
+"strength": "helpful",
+"why": "Boer War isolation",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.0",
+"strength": "helpful",
+"why": "end of isolation",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.2.2",
+"strength": "helpful",
+"why": "Delcasse and agreement with Britain",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.5.0",
+"strength": "helpful",
+"why": "British position in Egypt",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "essential",
+"why": "the Entente Cordiale",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "essential",
+"why": "the Entente Cordiale",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.12.5",
+"strength": "helpful",
+"why": "1906 staff talks",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "helpful",
+"why": "Entente Cordiale",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.1.2",
+"strength": "helpful",
+"why": "Franco-Russian alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.9.6",
+"strength": "essential",
+"why": "Russo-Japanese War defeat",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.3.1",
+"strength": "essential",
+"why": "the Anglo-Russian Convention",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "essential",
+"why": "Entente Cordiale",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.3.2",
+"strength": "helpful",
+"why": "Anglo-Russian Convention",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.9.4",
+"strength": "essential",
+"why": "Triple Alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.3.3",
+"strength": "helpful",
+"why": "Triple Alliance",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s1.9.6",
+"strength": "helpful",
+"why": "Italian weakness in alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.3.3",
+"strength": "essential",
+"why": "the two blocs",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.0.0",
+"strength": "helpful",
+"why": "balance of power",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.3.3",
+"strength": "helpful",
+"why": "two armed camps",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s1.3.5",
+"strength": "helpful",
+"why": "1879 tariffs",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s2.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.4.3",
+"strength": "helpful",
+"why": "outlets for investment",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.4.4",
+"strength": "helpful",
+"why": "Hobson economic theory",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.4.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.4.5",
+"strength": "essential",
+"why": "the economic theory of imperialism",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s1.6.5",
+"strength": "helpful",
+"why": "Ferry and Tunisia",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.5.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s2.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.5.3",
+"strength": "helpful",
+"why": "duty to civilise",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.5.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s2.5.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.4.b",
+"strength": "helpful",
+"why": "New Imperialism",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.5.0",
+"strength": "helpful",
+"why": "occupation of Egypt",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.8.0",
+"strength": "helpful",
+"why": "Leopold II and the Congo",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s1.12.5",
+"strength": "helpful",
+"why": "Berlin Conference on West Africa",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.6.2",
+"strength": "essential",
+"why": "the Berlin Conference",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.6.2",
+"strength": "essential",
+"why": "the Berlin Conference",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.8.0",
+"strength": "helpful",
+"why": "Leopold's association",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.6.3",
+"strength": "essential",
+"why": "General Act rules of occupation",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.6.3",
+"strength": "helpful",
+"why": "rules for claiming territory",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.7.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.7.0",
+"strength": "essential",
+"why": "British Cape-to-Cairo plan",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.10.0",
+"strength": "helpful",
+"why": "plans colliding at Fashoda",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s1.12.1",
+"strength": "helpful",
+"why": "German colonies of 1884-85",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.7.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.5.2",
+"strength": "helpful",
+"why": "Stanley the explorer",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.8.0",
+"strength": "helpful",
+"why": "Leopold II and the Congo",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.6.4",
+"strength": "helpful",
+"why": "Congo claim recognised at Berlin",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.8.1",
+"strength": "helpful",
+"why": "the Congo Free State",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.8.2",
+"strength": "essential",
+"why": "the rubber quota system",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.8.2",
+"strength": "helpful",
+"why": "the red rubber system",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.8.2",
+"strength": "helpful",
+"why": "forced rubber collection",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.8.5",
+"strength": "helpful",
+"why": "Morel campaign",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.8.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.8.6",
+"strength": "helpful",
+"why": "Congo Reform Association campaign",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.8.1",
+"strength": "helpful",
+"why": "Leopold personal state",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.9.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s2.9.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s2.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.9.1",
+"strength": "helpful",
+"why": "Triple Intervention context",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s2.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.9.2",
+"strength": "helpful",
+"why": "the leased concessions",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.9.3",
+"strength": "helpful",
+"why": "spheres of influence",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.9.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s2.9.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.9.1",
+"strength": "helpful",
+"why": "Japan earlier defeat of China",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s2.9.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.9.6",
+"strength": "essential",
+"why": "defeat in Russo-Japanese War",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.3.1",
+"strength": "helpful",
+"why": "1907 Anglo-Russian agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.7.1",
+"strength": "helpful",
+"why": "French east-west belt",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.7.1",
+"strength": "essential",
+"why": "French east-west plan",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.5.0",
+"strength": "helpful",
+"why": "British occupation of Egypt",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.10.0",
+"strength": "helpful",
+"why": "colliding plans on the Nile",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.10.1",
+"strength": "essential",
+"why": "Marchand at Fashoda",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.10.2",
+"strength": "essential",
+"why": "standoff at Fashoda",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.2.2",
+"strength": "helpful",
+"why": "Delcasse as foreign minister",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.10.3",
+"strength": "helpful",
+"why": "French withdrawal",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "helpful",
+"why": "1904 Entente Cordiale",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.b",
+"strength": "helpful",
+"why": "splendid isolation",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.11.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur2-s2.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.11.0",
+"strength": "essential",
+"why": "Transvaal and Uitlanders",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.7.0",
+"strength": "helpful",
+"why": "Rhodes",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.11.0",
+"strength": "helpful",
+"why": "the Boer republics",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.11.2",
+"strength": "helpful",
+"why": "early Boer successes",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.11.3",
+"strength": "helpful",
+"why": "guerrilla war phase",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.11.4",
+"strength": "essential",
+"why": "the camps",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.11.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.2.b",
+"strength": "helpful",
+"why": "splendid isolation",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.4.4",
+"strength": "helpful",
+"why": "Hobson's critique",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.11.3",
+"strength": "helpful",
+"why": "relief of Mafeking",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "helpful",
+"why": "the new Entente",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "essential",
+"why": "1904 Entente free hand in Morocco",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.12.0",
+"strength": "helpful",
+"why": "German aim to test Entente",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.2",
+"strength": "helpful",
+"why": "Delcasse",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.12.1",
+"strength": "helpful",
+"why": "Tangier landing",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.12.1",
+"strength": "helpful",
+"why": "Moroccan crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.12.3",
+"strength": "helpful",
+"why": "Algeciras Conference",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "helpful",
+"why": "Entente Cordiale",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.13.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.12.b",
+"strength": "helpful",
+"why": "first Moroccan crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.12.0",
+"strength": "helpful",
+"why": "French hold on Morocco",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.13.0",
+"strength": "helpful",
+"why": "French move into Fez",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.13.1",
+"strength": "helpful",
+"why": "Agadir crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.13.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.13.1",
+"strength": "helpful",
+"why": "Agadir crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.13.3",
+"strength": "essential",
+"why": "the Franco-German settlement",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.2.5",
+"strength": "helpful",
+"why": "Anglo-French naval arrangement",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.3.4",
+"strength": "helpful",
+"why": "Italian war on Ottoman Empire",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.10.5",
+"strength": "helpful",
+"why": "Fashoda",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.11.6",
+"strength": "helpful",
+"why": "Boer War",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.12.5",
+"strength": "helpful",
+"why": "Morocco",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.14.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.7.3",
+"strength": "helpful",
+"why": "Heligoland-Zanzibar",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.10.4",
+"strength": "helpful",
+"why": "Fashoda settlement",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "helpful",
+"why": "1904 agreement",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.3.2",
+"strength": "helpful",
+"why": "1907 agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.11.6",
+"strength": "helpful",
+"why": "Britain leaving isolation",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.12.4",
+"strength": "helpful",
+"why": "German isolation at Algeciras",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.11.7",
+"strength": "helpful",
+"why": "Mafeking night",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.4.6",
+"strength": "helpful",
+"why": "German colonies small share",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.8.7",
+"strength": "helpful",
+"why": "Congo scandal",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.11.4",
+"strength": "helpful",
+"why": "Boer camps",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur2-s2.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.14.0",
+"strength": "helpful",
+"why": "Fashoda, Boer War, Morocco",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.2.3",
+"strength": "helpful",
+"why": "Entente Cordiale",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.3.2",
+"strength": "helpful",
+"why": "Anglo-Russian Convention",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.12.5",
+"strength": "helpful",
+"why": "Moroccan crises hardening Entente",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur2-s2.14.1",
+"strength": "helpful",
+"why": "colonial disputes settled",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s2.15.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.3.5",
+"strength": "helpful",
+"why": "encirclement idea",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.15.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.4.4",
+"strength": "helpful",
+"why": "Hobson's theory",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s2.4.5",
+"strength": "helpful",
+"why": "Lenin's theory",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s2.15.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur2-s2.3.3",
+"strength": "helpful",
+"why": "the two alliance blocs",
+"confidence": "high"
+}
+]
+}
+}

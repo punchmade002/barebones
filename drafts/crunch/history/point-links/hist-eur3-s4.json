@@ -1,0 +1,1374 @@
+{
+"hist-eur3-s4.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.0.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s4.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.0.3",
+"strength": "essential",
+"why": "party bodies and General Secretary",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.0.1",
+"strength": "helpful",
+"why": "Marxist theory",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.1.0",
+"strength": "helpful",
+"why": "the Cheka",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.1.4",
+"strength": "helpful",
+"why": "the civil war",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.1.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s4.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.1.4",
+"strength": "essential",
+"why": "Red and White armies",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.1.4",
+"strength": "helpful",
+"why": "the civil war",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.2.0",
+"strength": "essential",
+"why": "requisitioning under War Communism",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.2.0",
+"strength": "helpful",
+"why": "War Communism failing",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.2.1",
+"strength": "helpful",
+"why": "revolts and economic collapse",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.2.3",
+"strength": "essential",
+"why": "the Kronstadt rising",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.2.0",
+"strength": "helpful",
+"why": "requisitioning under War Communism",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.3.0",
+"strength": "essential",
+"why": "the NEP",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.3.0",
+"strength": "helpful",
+"why": "the Tenth Congress",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.3.0",
+"strength": "essential",
+"why": "the NEP",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.1.0",
+"strength": "helpful",
+"why": "the Cheka",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.11.0",
+"strength": "helpful",
+"why": "OGPU and NKVD",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.0.3",
+"strength": "essential",
+"why": "General Secretary and party appointments",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.4.0",
+"strength": "helpful",
+"why": "Stalin as General Secretary",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.1.4",
+"strength": "helpful",
+"why": "Trotsky and the Red Army",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.4.2",
+"strength": "helpful",
+"why": "Trotsky as a rival",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s4.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.4.2",
+"strength": "helpful",
+"why": "Trotsky as a rival",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.5.0",
+"strength": "essential",
+"why": "Trotsky's defeat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.3.0",
+"strength": "helpful",
+"why": "the NEP",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.5.2",
+"strength": "essential",
+"why": "the Right Opposition",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.8.0",
+"strength": "helpful",
+"why": "the grain procurement crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.3.2",
+"strength": "helpful",
+"why": "the ban on factions",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.5.3",
+"strength": "helpful",
+"why": "defeat of the Right",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.6.2",
+"strength": "helpful",
+"why": "the First Five-Year Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.6.2",
+"strength": "helpful",
+"why": "the First Five-Year Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.6.4",
+"strength": "essential",
+"why": "the Magnitogorsk project",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.6.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.6.6",
+"strength": "helpful",
+"why": "shock workers and norms",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.6.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.6.2",
+"strength": "helpful",
+"why": "plan difficulties",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.6.2",
+"strength": "essential",
+"why": "the First Five-Year Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.6.3",
+"strength": "helpful",
+"why": "heavy industry targets",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.7.1",
+"strength": "helpful",
+"why": "industrial output figures",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.11.0",
+"strength": "helpful",
+"why": "the Gulag camps",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.5.3",
+"strength": "helpful",
+"why": "the grain procurement crisis",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.3.3",
+"strength": "helpful",
+"why": "kulaks",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.8.0",
+"strength": "helpful",
+"why": "reasons for collectivisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.8.1",
+"strength": "essential",
+"why": "collective farms",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.3.3",
+"strength": "helpful",
+"why": "kulaks",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.8.1",
+"strength": "helpful",
+"why": "forced collectivisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.8.1",
+"strength": "essential",
+"why": "forced collectivisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.8.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.8.1",
+"strength": "helpful",
+"why": "collectivisation requisitions",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.8.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.8.6",
+"strength": "helpful",
+"why": "the famine",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.8.1",
+"strength": "essential",
+"why": "collectivisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.8.4",
+"strength": "helpful",
+"why": "slaughter of livestock",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.8.1",
+"strength": "helpful",
+"why": "collective farms",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.10.b",
+"strength": "helpful",
+"why": "personality cult",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.5.1",
+"strength": "helpful",
+"why": "Trotsky's fall",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.10.b",
+"strength": "helpful",
+"why": "personality cult",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.10.0",
+"strength": "helpful",
+"why": "Stalin as Lenin's heir",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.11.0",
+"strength": "helpful",
+"why": "the NKVD",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.3.7",
+"strength": "helpful",
+"why": "secret police names",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.11.0",
+"strength": "essential",
+"why": "the Gulag system",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.12.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.12.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.12.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s4.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.12.2",
+"strength": "helpful",
+"why": "women's legal equality",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.12.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s4.12.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.12.5",
+"strength": "helpful",
+"why": "single writers' union",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.12.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.12.6",
+"strength": "helpful",
+"why": "socialist realism",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.13.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.13.1",
+"strength": "helpful",
+"why": "appeal of the Soviet alternative",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.13.1",
+"strength": "helpful",
+"why": "appeal of the Soviet alternative",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.8.6",
+"strength": "essential",
+"why": "the 1932-33 famine",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.8.6",
+"strength": "helpful",
+"why": "the famine",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.14.2",
+"strength": "helpful",
+"why": "the USSR joining the League",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.14.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.14.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.14.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s4.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.14.2",
+"strength": "essential",
+"why": "Litvinov and collective security",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.14.3",
+"strength": "helpful",
+"why": "Molotov as Foreign Commissar",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s4.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.14.4",
+"strength": "essential",
+"why": "the secret protocol",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.14.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.14.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.11.3",
+"strength": "helpful",
+"why": "the army purge",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s4.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.14.7",
+"strength": "helpful",
+"why": "USSR unready for attack",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.15.0",
+"strength": "essential",
+"why": "the German invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.15.1",
+"strength": "helpful",
+"why": "Stalin taking charge",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.15.0",
+"strength": "helpful",
+"why": "the German invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.15.3",
+"strength": "helpful",
+"why": "industry moved east",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.16.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.16.0",
+"strength": "helpful",
+"why": "Stalingrad turning point",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.11.0",
+"strength": "helpful",
+"why": "the NKVD",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.16.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.14.1",
+"strength": "helpful",
+"why": "the Comintern",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.16.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.16.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.16.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.15.0",
+"strength": "helpful",
+"why": "early disasters of 1941",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.16.1",
+"strength": "helpful",
+"why": "the advance to Berlin",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.17.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.17.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.18.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.0.0",
+"strength": "helpful",
+"why": "the Bolshevik seizure of power",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.18.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.1.0",
+"strength": "helpful",
+"why": "the Cheka",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.2.0",
+"strength": "helpful",
+"why": "War Communism",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.3.0",
+"strength": "helpful",
+"why": "the NEP",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.3.5",
+"strength": "helpful",
+"why": "the USSR's creation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.3.0",
+"strength": "helpful",
+"why": "the NEP",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.3.2",
+"strength": "helpful",
+"why": "the ban on factions",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.4.1",
+"strength": "helpful",
+"why": "Lenin's Testament",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.18.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.18.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.2.3",
+"strength": "helpful",
+"why": "Kronstadt sailors",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.3.6",
+"strength": "helpful",
+"why": "Lenin cult after his death",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s4.18.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.3.0",
+"strength": "helpful",
+"why": "the NEP",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.4.1",
+"strength": "helpful",
+"why": "the Testament",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.19.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.19.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.4.0",
+"strength": "helpful",
+"why": "General Secretary",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.6.2",
+"strength": "helpful",
+"why": "Five-Year Plans",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.8.1",
+"strength": "helpful",
+"why": "collectivisation",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.14.4",
+"strength": "helpful",
+"why": "Nazi-Soviet Pact",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.5.3",
+"strength": "helpful",
+"why": "the grain crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.4.1",
+"strength": "helpful",
+"why": "Lenin's Testament",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.10.2",
+"strength": "helpful",
+"why": "the cult",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.10.b",
+"strength": "helpful",
+"why": "the cult",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.19.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s4.20.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s4.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.1.4",
+"strength": "helpful",
+"why": "the civil war",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.3.0",
+"strength": "helpful",
+"why": "the NEP",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.2.2",
+"strength": "helpful",
+"why": "famine of 1921-22",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.2.3",
+"strength": "helpful",
+"why": "Kronstadt",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.7.1",
+"strength": "helpful",
+"why": "industrial output",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.7.3",
+"strength": "helpful",
+"why": "costs of industrialisation",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.7.4",
+"strength": "helpful",
+"why": "forced labour",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.9.0",
+"strength": "helpful",
+"why": "state control of grain",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.8.2",
+"strength": "helpful",
+"why": "the MTS",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.20.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s4.8.6",
+"strength": "helpful",
+"why": "the famine",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.8.3",
+"strength": "helpful",
+"why": "dekulakisation",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.9.1",
+"strength": "helpful",
+"why": "output below 1928",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.20.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.12.0",
+"strength": "helpful",
+"why": "literacy campaigns",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.12.3",
+"strength": "helpful",
+"why": "1936 family reversal",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s4.20.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s4.14.4",
+"strength": "helpful",
+"why": "the Nazi-Soviet Pact",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s4.16.6",
+"strength": "helpful",
+"why": "27 million dead",
+"confidence": "high"
+}
+]
+}
+}

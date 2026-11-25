@@ -1,0 +1,590 @@
+{
+"hist-ire4-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.0.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire4-s7.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.0.0",
+"strength": "helpful",
+"why": "devotional revolution and clergy supply",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s6.1.0",
+"strength": "helpful",
+"why": "Irish clergy serving the diaspora",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s7.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.4.1",
+"strength": "helpful",
+"why": "Nigeria as British colony",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s7.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.0.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.2.1",
+"strength": "helpful",
+"why": "founding of Maynooth Mission to China",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s7.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.1.0",
+"strength": "essential",
+"why": "the Columbans",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.4.0",
+"strength": "helpful",
+"why": "Spiritans in Nigeria",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.4.3",
+"strength": "helpful",
+"why": "Shanahan founded Holy Rosary Sisters",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.1.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.1.0",
+"strength": "essential",
+"why": "Maynooth Mission to China",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.2.1",
+"strength": "helpful",
+"why": "the Maynooth Mission",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.2.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire4-s7.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.2.5",
+"strength": "helpful",
+"why": "war and the mission",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s7.2.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.2.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.1.1",
+"strength": "helpful",
+"why": "the Columbans",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.3.1",
+"strength": "essential",
+"why": "1936 rule change",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.4.2",
+"strength": "essential",
+"why": "Shanahan in Nigeria",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.4.3",
+"strength": "helpful",
+"why": "Shanahan years",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.4.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.4.6",
+"strength": "helpful",
+"why": "the mission network by 1945",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.4.2",
+"strength": "helpful",
+"why": "mission schools",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.5.3",
+"strength": "helpful",
+"why": "mission schools growth",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s7.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.1.5",
+"strength": "helpful",
+"why": "Holy Rosary Sisters",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s7.3.2",
+"strength": "helpful",
+"why": "Medical Missionaries of Mary",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.5.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.5.1",
+"strength": "helpful",
+"why": "Archdiocese of Onitsha",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.6.0",
+"strength": "essential",
+"why": "grant-in-aid system",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.6.0",
+"strength": "helpful",
+"why": "mission schools funding",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s7.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.6.4",
+"strength": "helpful",
+"why": "independence of Nigeria",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.6.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.6.5",
+"strength": "helpful",
+"why": "localisation of leadership",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.4.5",
+"strength": "helpful",
+"why": "Catholic and Protestant rivalry",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.7.4",
+"strength": "essential",
+"why": "Biafran war",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.7.4",
+"strength": "helpful",
+"why": "Biafran war and famine",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.7.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.7.4",
+"strength": "helpful",
+"why": "Biafran war",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.8.0",
+"strength": "helpful",
+"why": "spiritual empire idea",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.8.0",
+"strength": "essential",
+"why": "the spiritual empire idea",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.8.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.5.3",
+"strength": "helpful",
+"why": "schools and hospitals built",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.6.0",
+"strength": "helpful",
+"why": "grants tying mission to state",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.7.2",
+"strength": "helpful",
+"why": "paternalism criticism",
+"confidence": "low"
+}
+]
+},
+"hist-ire4-s7.9.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire4-s7.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire4-s7.2.6",
+"strength": "helpful",
+"why": "Galvin expelled 1952",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s7.3.2",
+"strength": "helpful",
+"why": "Medical Missionaries of Mary",
+"confidence": "high"
+},
+{
+"id": "hist-ire4-s7.5.0",
+"strength": "helpful",
+"why": "post-1945 growth",
+"confidence": "high"
+}
+]
+},
+"hist-ire4-s7.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire4-s7.8.0",
+"strength": "helpful",
+"why": "spiritual empire",
+"confidence": "high"
+}
+]
+}
+}

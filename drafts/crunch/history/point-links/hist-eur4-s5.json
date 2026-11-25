@@ -1,0 +1,1553 @@
+{
+"hist-eur4-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.1.3",
+"strength": "helpful",
+"why": "dollar dependence on USA",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.0.5",
+"strength": "helpful",
+"why": "uses the Cold War",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.7.5",
+"strength": "helpful",
+"why": "uses the Iron Curtain",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.0.0",
+"strength": "helpful",
+"why": "Cold War division of Europe",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.9.2",
+"strength": "helpful",
+"why": "uses the Marshall Plan",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.2.1",
+"strength": "helpful",
+"why": "OEEC and Marshall aid details",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.1.3",
+"strength": "essential",
+"why": "uses the customs union idea",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.5.0",
+"strength": "helpful",
+"why": "Benelux customs union",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.0.4",
+"strength": "helpful",
+"why": "common market idea",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.18.1",
+"strength": "helpful",
+"why": "uses founding of West Germany",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.4.1",
+"strength": "helpful",
+"why": "Schuman Plan",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.5.0",
+"strength": "helpful",
+"why": "European Defence Community",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.1.0",
+"strength": "helpful",
+"why": "uses federalism",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.1",
+"strength": "helpful",
+"why": "Schuman as architect of plan",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.5",
+"strength": "helpful",
+"why": "ECSC High Authority example",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.2.3",
+"strength": "helpful",
+"why": "Council of Europe example",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.7.3",
+"strength": "helpful",
+"why": "EFTA example",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.8.0",
+"strength": "helpful",
+"why": "de Gaulle Europe of states",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.13.1",
+"strength": "helpful",
+"why": "Thatcher's view",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.0.4",
+"strength": "helpful",
+"why": "common market definition",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.1.3",
+"strength": "essential",
+"why": "uses common market, customs union",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.7.2",
+"strength": "helpful",
+"why": "customs union completed 1968",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.6.6",
+"strength": "helpful",
+"why": "Council of Ministers",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.10.2",
+"strength": "helpful",
+"why": "Single European Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.4",
+"strength": "helpful",
+"why": "ECSC treaty signatories",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.6.2",
+"strength": "helpful",
+"why": "EEC founders",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.2.0",
+"strength": "helpful",
+"why": "Churchill urged unity",
+"confidence": "low"
+},
+{
+"id": "hist-eur4-s5.2.3",
+"strength": "helpful",
+"why": "led to Council of Europe",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.2.1",
+"strength": "essential",
+"why": "refers to the Hague Congress",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.0",
+"strength": "helpful",
+"why": "federalists defined",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.2",
+"strength": "helpful",
+"why": "unionists are intergovernmental",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.2.1",
+"strength": "helpful",
+"why": "Congress led to its creation",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.2.3",
+"strength": "essential",
+"why": "uses the Consultative Assembly",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.0",
+"strength": "helpful",
+"why": "federalists disappointed",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.2.3",
+"strength": "essential",
+"why": "Council of Europe achievement",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.2.5",
+"strength": "helpful",
+"why": "Court of Human Rights",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.6.6",
+"strength": "helpful",
+"why": "EEC institutions",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.9.2",
+"strength": "helpful",
+"why": "uses Marshall Aid",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.7.0",
+"strength": "helpful",
+"why": "the Monnet Plan in France",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.1",
+"strength": "essential",
+"why": "the Schuman Declaration",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.5",
+"strength": "helpful",
+"why": "ECSC High Authority",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.6.2",
+"strength": "helpful",
+"why": "EEC and Euratom",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.6.5",
+"strength": "helpful",
+"why": "Euratom",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.1.1",
+"strength": "essential",
+"why": "uses supranational",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.8.0",
+"strength": "helpful",
+"why": "de Gaulle's position",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.3.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.3.3",
+"strength": "essential",
+"why": "Monnet method of sector integration",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.5.0",
+"strength": "helpful",
+"why": "the Ruhr",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.0",
+"strength": "helpful",
+"why": "coal, steel, Ruhr background",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.1",
+"strength": "essential",
+"why": "reacts to the Schuman Declaration",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.18.1",
+"strength": "helpful",
+"why": "Adenauer as chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.1",
+"strength": "essential",
+"why": "refused the Schuman plan",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.1",
+"strength": "helpful",
+"why": "supranational body",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.1.6",
+"strength": "helpful",
+"why": "the Six",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.4",
+"strength": "helpful",
+"why": "ECSC treaty",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.5",
+"strength": "essential",
+"why": "the High Authority",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.4.6",
+"strength": "helpful",
+"why": "High Authority powers",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.6.6",
+"strength": "helpful",
+"why": "EEC copied model",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.0.4",
+"strength": "helpful",
+"why": "German question, rearmament",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.5.0",
+"strength": "essential",
+"why": "the EDC proposal",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.5.0",
+"strength": "essential",
+"why": "the EDC proposal",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.5.0",
+"strength": "essential",
+"why": "the EDC",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.5.2",
+"strength": "helpful",
+"why": "EDC rejection",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.19.0",
+"strength": "helpful",
+"why": "1948 Brussels Treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.19.1",
+"strength": "helpful",
+"why": "NATO",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.5.2",
+"strength": "essential",
+"why": "failed EDC",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.6.2",
+"strength": "helpful",
+"why": "Treaties of Rome",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.3.5",
+"strength": "helpful",
+"why": "Monnet Action Committee",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.5.5",
+"strength": "helpful",
+"why": "turn back to economics",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.6.0",
+"strength": "essential",
+"why": "follows Messina conference",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.6.1",
+"strength": "helpful",
+"why": "Spaak report",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.5.2",
+"strength": "helpful",
+"why": "Treaty of Rome and EEC",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.1.3",
+"strength": "essential",
+"why": "customs union, common market",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.6.2",
+"strength": "essential",
+"why": "EEC created by treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.0.4",
+"strength": "helpful",
+"why": "common market and four freedoms",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.6.2",
+"strength": "essential",
+"why": "the Treaties of Rome",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.6.2",
+"strength": "helpful",
+"why": "Euratom created in Rome",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.6.2",
+"strength": "essential",
+"why": "EEC institutions",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.4.5",
+"strength": "helpful",
+"why": "modelled on ECSC",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.6.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.6.6",
+"strength": "helpful",
+"why": "Commission",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.4.5",
+"strength": "helpful",
+"why": "ECSC executive",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.6.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.12.0",
+"strength": "helpful",
+"why": "Maastricht",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.6.3",
+"strength": "helpful",
+"why": "agricultural policy planned",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.5.3",
+"strength": "helpful",
+"why": "CAP and common farm prices",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.7.0",
+"strength": "essential",
+"why": "the CAP",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.6.3",
+"strength": "essential",
+"why": "customs union planned",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.3",
+"strength": "helpful",
+"why": "customs union",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.5.3",
+"strength": "helpful",
+"why": "1968 tariff abolition",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.1.3",
+"strength": "helpful",
+"why": "free trade vs customs union",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.5.4",
+"strength": "helpful",
+"why": "EFTA members and tariffs",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.7.3",
+"strength": "essential",
+"why": "EFTA",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.1",
+"strength": "helpful",
+"why": "supranationalism",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.1.2",
+"strength": "essential",
+"why": "intergovernmental model",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.1",
+"strength": "helpful",
+"why": "contrast with supranational",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.8.0",
+"strength": "helpful",
+"why": "de Gaulle partnership aim",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.18.1",
+"strength": "helpful",
+"why": "Adenauer",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.7.4",
+"strength": "helpful",
+"why": "British application 1961",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.2",
+"strength": "helpful",
+"why": "veto",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.8.2",
+"strength": "essential",
+"why": "the 1963 veto",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.8.2",
+"strength": "essential",
+"why": "the 1963 veto",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.8.2",
+"strength": "essential",
+"why": "first veto",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.8.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.7.0",
+"strength": "essential",
+"why": "CAP financing",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.5",
+"strength": "essential",
+"why": "majority voting",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.6.6",
+"strength": "helpful",
+"why": "Council of Ministers",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.8.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.8.6",
+"strength": "essential",
+"why": "crisis it ended",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.5",
+"strength": "helpful",
+"why": "majority voting",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.2",
+"strength": "helpful",
+"why": "national veto",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.2.1",
+"strength": "helpful",
+"why": "distinguished from Hague Congress",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.8.2",
+"strength": "helpful",
+"why": "earlier failed applications",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.9.1",
+"strength": "helpful",
+"why": "accession of Britain and Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.7.0",
+"strength": "helpful",
+"why": "CAP",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.9.0",
+"strength": "helpful",
+"why": "monetary union aim",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s6.13.2",
+"strength": "helpful",
+"why": "end of fixed exchange rates",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.9.4",
+"strength": "essential",
+"why": "the ERM and EMS",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.6.6",
+"strength": "helpful",
+"why": "the Parliament",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.9.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.13.1",
+"strength": "helpful",
+"why": "Thatcher demanded refund",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.1.4",
+"strength": "helpful",
+"why": "single market",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.10.2",
+"strength": "helpful",
+"why": "the Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.4",
+"strength": "essential",
+"why": "the single market",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.5",
+"strength": "essential",
+"why": "majority voting",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.9.6",
+"strength": "helpful",
+"why": "Parliament direct election",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.18.2",
+"strength": "helpful",
+"why": "East Germany",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.11.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.6.6",
+"strength": "helpful",
+"why": "the Commission",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.1.4",
+"strength": "essential",
+"why": "single market",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.10.3",
+"strength": "helpful",
+"why": "Single European Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.11.3",
+"strength": "helpful",
+"why": "single market",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.13.1",
+"strength": "helpful",
+"why": "British opposition",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.6.6",
+"strength": "helpful",
+"why": "Community legislation",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.12.2",
+"strength": "helpful",
+"why": "monetary union stages",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.12.0",
+"strength": "helpful",
+"why": "Maastricht",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.11.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.9.7",
+"strength": "helpful",
+"why": "Eurosclerosis",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.13.1",
+"strength": "helpful",
+"why": "Thatcher view",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.11.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.12.4",
+"strength": "helpful",
+"why": "Danish no",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.0",
+"strength": "helpful",
+"why": "federal ambitions",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.11.6",
+"strength": "helpful",
+"why": "builds on Delors plan",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s5.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.12.0",
+"strength": "essential",
+"why": "the Treaty on European Union",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.12.0",
+"strength": "essential",
+"why": "the Treaty",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.11.6",
+"strength": "helpful",
+"why": "Delors three stages",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.12.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.12.2",
+"strength": "essential",
+"why": "single currency",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.11.4",
+"strength": "helpful",
+"why": "Social Charter",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.12.0",
+"strength": "essential",
+"why": "the treaty voted on",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.1.0",
+"strength": "essential",
+"why": "federalism",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.2",
+"strength": "essential",
+"why": "intergovernmentalism",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.13.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.10.2",
+"strength": "helpful",
+"why": "Single European Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.0",
+"strength": "helpful",
+"why": "federalism",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.13.1",
+"strength": "helpful",
+"why": "Thatcher",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.1.2",
+"strength": "helpful",
+"why": "sovereign nations",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.9.2",
+"strength": "helpful",
+"why": "referendum",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.10.1",
+"strength": "helpful",
+"why": "budget dispute",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.12.3",
+"strength": "helpful",
+"why": "opt-outs",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.14.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.7.0",
+"strength": "helpful",
+"why": "CAP",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.9.3",
+"strength": "helpful",
+"why": "regional funds",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.14.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.10.0",
+"strength": "helpful",
+"why": "southern enlargement",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.14.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.14.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.5.5",
+"strength": "helpful",
+"why": "no common defence",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.9.6",
+"strength": "helpful",
+"why": "Parliament power",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s5.15.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.5.2",
+"strength": "helpful",
+"why": "EDC failure",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.8.2",
+"strength": "helpful",
+"why": "vetoes",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.8.6",
+"strength": "helpful",
+"why": "empty chair",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.12.0",
+"strength": "helpful",
+"why": "Maastricht",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.13.1",
+"strength": "helpful",
+"why": "Thatcher",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s5.3.7",
+"strength": "helpful",
+"why": "Monnet method",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s5.15.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s5.3.7",
+"strength": "helpful",
+"why": "Monnet assessed",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s5.11.8",
+"strength": "helpful",
+"why": "Delors assessed",
+"confidence": "high"
+}
+]
+}
+}

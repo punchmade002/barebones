@@ -1,0 +1,554 @@
+{
+"hist-eur4-s9.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.0.3",
+"strength": "helpful",
+"why": "welfare state defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.0.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s9.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.1.2",
+"strength": "helpful",
+"why": "the argument of The Second Sex",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.1.2",
+"strength": "essential",
+"why": "the book The Second Sex",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.4.5",
+"strength": "helpful",
+"why": "the MLF",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.1.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s9.4.6",
+"strength": "helpful",
+"why": "the Manifesto of the 343 and Choisir",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s9.4.2",
+"strength": "helpful",
+"why": "the 1975 Veil abortion law",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.1.2",
+"strength": "essential",
+"why": "the book The Second Sex",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.1.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.1.2",
+"strength": "helpful",
+"why": "the book's argument",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.0.0",
+"strength": "helpful",
+"why": "post-war housing shortages",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.0.3",
+"strength": "helpful",
+"why": "welfare state defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.2.1",
+"strength": "helpful",
+"why": "the housewife ideal",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.0.2",
+"strength": "helpful",
+"why": "women's lack of legal rights in marriage",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.0.2",
+"strength": "helpful",
+"why": "women's lack of legal rights in marriage",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s6.5.2",
+"strength": "helpful",
+"why": "the Treaty of Rome",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s9.3.2",
+"strength": "essential",
+"why": "uses Article 119",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.4.0",
+"strength": "helpful",
+"why": "the contraceptive pill",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s9.4.2",
+"strength": "helpful",
+"why": "the Veil Law on abortion",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s9.4.2",
+"strength": "helpful",
+"why": "abortion legalised in France",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.4.0",
+"strength": "helpful",
+"why": "contraception",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.4.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.5.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s9.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.5.1",
+"strength": "essential",
+"why": "Italy's divorce law",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.2.7",
+"strength": "helpful",
+"why": "the wife-household clause",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.5.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s9.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.5.5",
+"strength": "helpful",
+"why": "rising divorce rates",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.0.1",
+"strength": "helpful",
+"why": "post-war growth raising incomes",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.6.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s9.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.6.0",
+"strength": "helpful",
+"why": "television as a consumer good",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.6.4",
+"strength": "helpful",
+"why": "advertising and consumption",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.6.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.6.7": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s9.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.7.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s9.7.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s9.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.6.1",
+"strength": "helpful",
+"why": "cars becoming affordable",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.6.4",
+"strength": "helpful",
+"why": "television as leisure",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.8.0",
+"strength": "essential",
+"why": "women working in the East",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s9.8.0",
+"strength": "helpful",
+"why": "state support for working women",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.8.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s9.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.6.b",
+"strength": "helpful",
+"why": "the Western consumer society",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.8.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.8.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.8.5",
+"strength": "helpful",
+"why": "scarce consumer goods",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s9.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s9.3.1",
+"strength": "helpful",
+"why": "low-paid women's work",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s9.8.1",
+"strength": "helpful",
+"why": "double burden in the East",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.6.3",
+"strength": "helpful",
+"why": "credit and hire purchase",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s9.6.7",
+"strength": "helpful",
+"why": "critics of consumer society",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s9.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s9.2.4",
+"strength": "helpful",
+"why": "churches promoting the family",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s9.9.4": {
+"cost": 1,
+"needs": []
+}
+}

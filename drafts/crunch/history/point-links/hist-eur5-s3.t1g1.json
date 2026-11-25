@@ -1,0 +1,1099 @@
+{
+"hist-eur5-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.0.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.0.1",
+"strength": "essential",
+"why": "uses McMahon-Hussein promise",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.0.2",
+"strength": "essential",
+"why": "uses Sykes-Picot agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.0.4",
+"strength": "essential",
+"why": "uses the Mandate system",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.1.0",
+"strength": "helpful",
+"why": "Zionism as Jewish homeland aim",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.1.1",
+"strength": "essential",
+"why": "safeguard added to Balfour Declaration",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.0.1",
+"strength": "helpful",
+"why": "contradicts promises to Arabs",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.0.4",
+"strength": "essential",
+"why": "uses the Mandate system",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.1.0",
+"strength": "helpful",
+"why": "Zionists wanted Jews in Palestine",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.0.4",
+"strength": "helpful",
+"why": "rising against Mandate rule",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.1.3",
+"strength": "helpful",
+"why": "Transjordan separated from Palestine",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.2.0",
+"strength": "helpful",
+"why": "immigration and population share",
+"confidence": "low"
+},
+{
+"id": "hist-eur5-s3.2.3",
+"strength": "helpful",
+"why": "replaces rejected partition plan",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.2.4",
+"strength": "essential",
+"why": "uses the 1939 White Paper",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.4",
+"strength": "helpful",
+"why": "King David Hotel bombing example",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.7.3",
+"strength": "helpful",
+"why": "Deir Yassin example",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.9.0",
+"strength": "helpful",
+"why": "Nasser rising to power",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.10.2",
+"strength": "helpful",
+"why": "Suez Canal Company nationalisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.2.4",
+"strength": "helpful",
+"why": "White Paper immigration limits",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.4.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s3.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.1",
+"strength": "essential",
+"why": "uses the Haganah",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.4.2",
+"strength": "essential",
+"why": "uses Irgun and Lehi",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.2",
+"strength": "helpful",
+"why": "Irgun carried out bombing",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.2",
+"strength": "helpful",
+"why": "Irgun carried out hanging",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.0",
+"strength": "helpful",
+"why": "Jewish refugees after Holocaust",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.0",
+"strength": "helpful",
+"why": "Holocaust survivors as refugees",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.4",
+"strength": "helpful",
+"why": "King David Hotel bombing",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.4.5",
+"strength": "helpful",
+"why": "hanging of two sergeants",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.5.0",
+"strength": "helpful",
+"why": "refugee question and US pressure",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.5.3",
+"strength": "helpful",
+"why": "reasons Britain gave up Mandate",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.6.0",
+"strength": "helpful",
+"why": "UN referral and UNSCOP partition",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.6.1",
+"strength": "essential",
+"why": "uses the UN partition plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.6.1",
+"strength": "essential",
+"why": "both voted for partition",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.6.1",
+"strength": "essential",
+"why": "rejected the partition plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.6.1",
+"strength": "helpful",
+"why": "refused to enforce partition",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.6.4",
+"strength": "helpful",
+"why": "civil war after partition rejected",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.6.5",
+"strength": "helpful",
+"why": "Mandate ended 14 May 1948",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.7.0",
+"strength": "essential",
+"why": "follows proclamation of Israel",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.7.1",
+"strength": "helpful",
+"why": "the first Arab-Israeli war",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.2",
+"strength": "helpful",
+"why": "Irgun and Lehi fighters",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.7.3",
+"strength": "helpful",
+"why": "retaliation four days after Deir Yassin",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.7.3",
+"strength": "helpful",
+"why": "Deir Yassin caused flight",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.8.0",
+"strength": "helpful",
+"why": "the Palestinian refugees",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.7.1",
+"strength": "helpful",
+"why": "ended the first Arab-Israeli war",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.7.0",
+"strength": "helpful",
+"why": "the new state of Israel",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.9.0",
+"strength": "helpful",
+"why": "Nasser and the Free Officers",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.3.2",
+"strength": "helpful",
+"why": "Arab nationalism meaning",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.9.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.9.0",
+"strength": "helpful",
+"why": "Nasser as Egypt leader",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.9.4",
+"strength": "helpful",
+"why": "Israeli raid pushed Nasser to arms",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.9.5",
+"strength": "helpful",
+"why": "Soviet arms and Cold War fears",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.10.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur5-s3.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.10.0",
+"strength": "essential",
+"why": "withdrawal of dam funding",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.10.1",
+"strength": "helpful",
+"why": "what the canal was",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.9.4",
+"strength": "helpful",
+"why": "Tiran blockade and fedayeen",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.10.2",
+"strength": "essential",
+"why": "uses the nationalisation of canal",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.10.3",
+"strength": "helpful",
+"why": "the three countries",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.10.0",
+"strength": "helpful",
+"why": "Aswan High Dam",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.10.3",
+"strength": "helpful",
+"why": "the three countries involved",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.0",
+"strength": "essential",
+"why": "the false pretext of S\u00e8vres",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.0",
+"strength": "helpful",
+"why": "Israeli attack in Sevres plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.2",
+"strength": "essential",
+"why": "follows Israel invading Sinai",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.3",
+"strength": "helpful",
+"why": "follows the ultimatum",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.4",
+"strength": "helpful",
+"why": "follows the bombing",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.5",
+"strength": "helpful",
+"why": "follows the landings",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.0",
+"strength": "helpful",
+"why": "Anglo-French action opposed",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.5",
+"strength": "helpful",
+"why": "threat after the landings",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.12.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.6",
+"strength": "helpful",
+"why": "supervise withdrawal after ceasefire",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.12.0",
+"strength": "essential",
+"why": "US pressure on Britain",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.13.0",
+"strength": "helpful",
+"why": "Britain dependent on US",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.3.2",
+"strength": "helpful",
+"why": "Arab nationalism",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.5",
+"strength": "helpful",
+"why": "the invasion of canal",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.12.3",
+"strength": "helpful",
+"why": "UNEF withdrawal",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.9.3",
+"strength": "essential",
+"why": "uses the Baghdad Pact",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.14.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.1",
+"strength": "helpful",
+"why": "Jewish Agency",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.6.1",
+"strength": "helpful",
+"why": "UN partition plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.0",
+"strength": "helpful",
+"why": "the Holocaust",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.2.4",
+"strength": "helpful",
+"why": "the White Paper",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.7.0",
+"strength": "helpful",
+"why": "proclamation of Israel",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.4.2",
+"strength": "helpful",
+"why": "Irgun arms ship",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.11.0",
+"strength": "helpful",
+"why": "secret talks at S\u00e8vres",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.14.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.14.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.8.0",
+"strength": "helpful",
+"why": "expulsions of Palestinian Arabs",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.9.0",
+"strength": "helpful",
+"why": "Free Officers revolution",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.10.2",
+"strength": "helpful",
+"why": "canal nationalisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.9.4",
+"strength": "helpful",
+"why": "Gaza raid",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.9.3",
+"strength": "helpful",
+"why": "Baghdad Pact",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.10.0",
+"strength": "helpful",
+"why": "dam offer withdrawn",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.13.2",
+"strength": "helpful",
+"why": "survived with canal control",
+"confidence": "low"
+}
+]
+},
+"hist-eur5-s3.15.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.15.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.15.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.15.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur5-s3.16.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s3.0.3",
+"strength": "helpful",
+"why": "contradictory Mandate promises",
+"confidence": "high"
+},
+{
+"id": "hist-eur5-s3.2.4",
+"strength": "helpful",
+"why": "the 1939 White Paper",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.6.4",
+"strength": "helpful",
+"why": "Arab rejection of partition",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.6.0",
+"strength": "helpful",
+"why": "passed question to UN",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.0.3",
+"strength": "essential",
+"why": "conflicting promises to Arabs and Jews",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.5",
+"strength": "helpful",
+"why": "Anglo-French advance on canal",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.12.0",
+"strength": "helpful",
+"why": "US forced ceasefire",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.16.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur5-s3.11.1",
+"strength": "helpful",
+"why": "police action pretext",
+"confidence": "high"
+}
+]
+},
+"hist-eur5-s3.16.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur5-s1.1.1",
+"strength": "helpful",
+"why": "uses de-colonisation",
+"confidence": "low"
+}
+]
+}
+}

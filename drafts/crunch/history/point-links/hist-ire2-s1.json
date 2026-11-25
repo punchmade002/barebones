@@ -1,0 +1,951 @@
+{
+"hist-ire2-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.0",
+"strength": "helpful",
+"why": "the Union being undone",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.2.b",
+"strength": "helpful",
+"why": "Isaac Butt",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.2",
+"strength": "essential",
+"why": "the Fenians",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.0.4": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.4",
+"strength": "essential",
+"why": "the 1870 Land Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.2",
+"strength": "helpful",
+"why": "Fenian republican demand",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.1",
+"strength": "helpful",
+"why": "O’Connell’s mass agitation",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s1.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.1.0",
+"strength": "helpful",
+"why": "Home Rule",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.0.1",
+"strength": "helpful",
+"why": "O’Connell and Young Ireland",
+"confidence": "low"
+},
+{
+"id": "hist-ire2-s1.0.2",
+"strength": "helpful",
+"why": "the 1869 amnesty campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.1.0",
+"strength": "essential",
+"why": "Home Rule",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.2",
+"strength": "helpful",
+"why": "Fenian physical force",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.1.0",
+"strength": "helpful",
+"why": "Home Rule",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.2",
+"strength": "helpful",
+"why": "the Ballot Act and pressure on voters",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.0",
+"strength": "essential",
+"why": "the Home Government Association",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.0",
+"strength": "essential",
+"why": "the Association",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.3.4",
+"strength": "essential",
+"why": "the League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.4",
+"strength": "essential",
+"why": "the Home Rule League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.4",
+"strength": "helpful",
+"why": "the League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "helpful",
+"why": "aggressive policy of obstruction",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s1.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "helpful",
+"why": "the obstructionists",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "essential",
+"why": "obstruction",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "essential",
+"why": "obstruction",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.2",
+"strength": "helpful",
+"why": "the Fenians",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.3.5",
+"strength": "essential",
+"why": "the Confederation of Great Britain",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "essential",
+"why": "obstruction",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.8.0",
+"strength": "helpful",
+"why": "the 1881 coercion bill",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "essential",
+"why": "obstruction",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.0.3",
+"strength": "essential",
+"why": "Clan na Gael",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.0.2",
+"strength": "helpful",
+"why": "Fenians",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.1",
+"strength": "essential",
+"why": "Devoy and Clan na Gael",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.0.3",
+"strength": "helpful",
+"why": "Clan na Gael",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.2",
+"strength": "essential",
+"why": "Devoy’s offer to Parnell",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.3",
+"strength": "essential",
+"why": "the New Departure",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.0.2",
+"strength": "helpful",
+"why": "the IRB",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.3",
+"strength": "helpful",
+"why": "the New Departure",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.3",
+"strength": "essential",
+"why": "the New Departure alliance",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.6.1",
+"strength": "helpful",
+"why": "Davitt",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.7.0",
+"strength": "helpful",
+"why": "the Land League movement",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.4.6",
+"strength": "essential",
+"why": "Shaw as Butt’s successor",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.7.0",
+"strength": "essential",
+"why": "the Land League",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.7.3",
+"strength": "essential",
+"why": "the party chairmanship",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.0.4",
+"strength": "helpful",
+"why": "Gladstone’s Irish policy",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s1.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.7.0",
+"strength": "essential",
+"why": "the Land League",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.8.0",
+"strength": "helpful",
+"why": "Forster’s coercion",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.8.1",
+"strength": "essential",
+"why": "Parnell’s imprisonment",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.8.2",
+"strength": "essential",
+"why": "the Kilmainham arrangement",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.8.0",
+"strength": "essential",
+"why": "Forster as Chief Secretary",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.8.2",
+"strength": "helpful",
+"why": "Parnell’s release",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.8.2",
+"strength": "essential",
+"why": "the Kilmainham arrangement",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.8.2",
+"strength": "helpful",
+"why": "the Kilmainham understanding",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.8.0",
+"strength": "helpful",
+"why": "Forster as Chief Secretary",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.9.0",
+"strength": "essential",
+"why": "the Phoenix Park murders",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.9.0",
+"strength": "essential",
+"why": "the Phoenix Park murders",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.9.1",
+"strength": "essential",
+"why": "the Invincibles",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.7.0",
+"strength": "essential",
+"why": "the suppressed Land League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.10.1",
+"strength": "essential",
+"why": "the National League",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.4.4",
+"strength": "helpful",
+"why": "Butt’s lack of local roots",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.4.1",
+"strength": "helpful",
+"why": "weak discipline without a pledge",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.10.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.10.3",
+"strength": "helpful",
+"why": "the pledged disciplined party",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.11.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.5.2",
+"strength": "helpful",
+"why": "Meath election and obstruction",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.5.4",
+"strength": "helpful",
+"why": "the Confederation",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.7.0",
+"strength": "helpful",
+"why": "the Land League",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.7.3",
+"strength": "helpful",
+"why": "party chairmanship",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.8.1",
+"strength": "helpful",
+"why": "Kilmainham imprisonment",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.10.1",
+"strength": "helpful",
+"why": "the National League",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.10.3",
+"strength": "helpful",
+"why": "the pledge",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.3",
+"strength": "helpful",
+"why": "Davitt and Devoy alliance",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.7.0",
+"strength": "helpful",
+"why": "leading the Land League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.6.0",
+"strength": "helpful",
+"why": "the agricultural depression",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.6.1",
+"strength": "helpful",
+"why": "Fenian and American pressure",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.8.1",
+"strength": "helpful",
+"why": "coercion and imprisonment",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.9.0",
+"strength": "helpful",
+"why": "the Phoenix Park murders",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.7.0",
+"strength": "helpful",
+"why": "the Land League campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.11.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.10.5",
+"strength": "helpful",
+"why": "the Parnell Tribute",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.11.8": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.4.1",
+"strength": "helpful",
+"why": "Butt’s lack of discipline",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.4.4",
+"strength": "helpful",
+"why": "Butt’s lack of money and base",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s1.10.3",
+"strength": "helpful",
+"why": "the pledge and conventions",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.10.0",
+"strength": "helpful",
+"why": "the party press",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.7.0",
+"strength": "helpful",
+"why": "mass base via land movement",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.12.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s1.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.6.5",
+"strength": "helpful",
+"why": "Home Rule tied to land",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "helpful",
+"why": "Parnell’s disruption",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.4.3",
+"strength": "helpful",
+"why": "Butt’s persuasion",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.10.2",
+"strength": "helpful",
+"why": "parish-based mass movement",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.5.0",
+"strength": "helpful",
+"why": "Parnell’s tactics",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s1.12.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s1.12.0",
+"strength": "helpful",
+"why": "Butt’s foundation",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s1.12.1",
+"strength": "helpful",
+"why": "Parnell’s machine",
+"confidence": "high"
+}
+]
+}
+}

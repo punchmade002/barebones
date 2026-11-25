@@ -1,0 +1,885 @@
+{
+"hist-ire3-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.0",
+"strength": "helpful",
+"why": "Home Rule goal",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.0",
+"strength": "essential",
+"why": "opposition to Home Rule",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.0.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.4",
+"strength": "helpful",
+"why": "Fenian armed rebellion tradition",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s1.0.1",
+"strength": "helpful",
+"why": "IPP constitutional methods",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.1.0",
+"strength": "essential",
+"why": "the 1910 elections",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.1.2",
+"strength": "essential",
+"why": "Parliament Act veto replacement",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.0",
+"strength": "helpful",
+"why": "Home Rule meaning",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.1.4",
+"strength": "helpful",
+"why": "the Third Home Rule Bill",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.2.0",
+"strength": "helpful",
+"why": "the Bill's powers",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.2.1",
+"strength": "helpful",
+"why": "powers kept by Westminster",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.2.0",
+"strength": "helpful",
+"why": "the Bill's parliament",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s1.1.3",
+"strength": "essential",
+"why": "Parliament Act three sessions",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.2.4",
+"strength": "essential",
+"why": "two earlier passages and rejections",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.2",
+"strength": "helpful",
+"why": "unionist leaders",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.0",
+"strength": "helpful",
+"why": "unionist campaign in Ulster",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.1",
+"strength": "helpful",
+"why": "Covenant pledge to resist",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.2",
+"strength": "helpful",
+"why": "UVF armed resistance",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.2",
+"strength": "essential",
+"why": "uses the UVF",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.4",
+"strength": "helpful",
+"why": "IRB organising Volunteers",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.5",
+"strength": "helpful",
+"why": "the Irish Volunteers",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.6",
+"strength": "essential",
+"why": "Howth landing",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.0",
+"strength": "essential",
+"why": "Carson's opposition",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.5",
+"strength": "essential",
+"why": "the Irish Volunteers",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.4.0",
+"strength": "helpful",
+"why": "Ulster exclusion issue",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.4.2",
+"strength": "helpful",
+"why": "Ulster exclusion proposals",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.2.5",
+"strength": "helpful",
+"why": "Home Rule passing the Commons",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.4.4",
+"strength": "essential",
+"why": "the Home Rule Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.2",
+"strength": "helpful",
+"why": "the Ulster Volunteers",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.5.0",
+"strength": "helpful",
+"why": "Redmond's offer of Volunteers",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s1.3.5",
+"strength": "essential",
+"why": "the Irish Volunteers",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.5.4": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s1.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.2",
+"strength": "essential",
+"why": "the UVF",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.5.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.4.5",
+"strength": "helpful",
+"why": "suspended Home Rule Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.4",
+"strength": "essential",
+"why": "the IRB",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.3",
+"strength": "essential",
+"why": "Connolly and the Citizen Army",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.4",
+"strength": "helpful",
+"why": "Fenian tradition",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s1.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.3.5",
+"strength": "helpful",
+"why": "Volunteer leader MacNeill",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s1.6.3",
+"strength": "helpful",
+"why": "Casement's search for arms",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.6.3",
+"strength": "helpful",
+"why": "Casement's mission",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.6.5",
+"strength": "essential",
+"why": "the loss of the Aud",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.6.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.6.7",
+"strength": "essential",
+"why": "MacNeill's countermand",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.6.0",
+"strength": "helpful",
+"why": "Military Council leaders",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.7.0",
+"strength": "essential",
+"why": "Pearse and the GPO",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s1.7.0",
+"strength": "helpful",
+"why": "rebel headquarters at GPO",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.7.2",
+"strength": "helpful",
+"why": "garrison positions",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.3",
+"strength": "helpful",
+"why": "Citizen Army",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.7.0",
+"strength": "helpful",
+"why": "the Rising in Dublin",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s1.7.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.7.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.7.0",
+"strength": "essential",
+"why": "the GPO headquarters",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.8.0",
+"strength": "helpful",
+"why": "the GPO retreat",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.8.2",
+"strength": "essential",
+"why": "the casualty figures",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.1",
+"strength": "helpful",
+"why": "the IPP",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.9.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s1.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s1.9.2",
+"strength": "essential",
+"why": "the 15 executions",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.9.3",
+"strength": "helpful",
+"why": "the executions",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.9.2",
+"strength": "helpful",
+"why": "the executions",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.9.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s1.0.2",
+"strength": "helpful",
+"why": "unionist demand for exclusion",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.9.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.6.3",
+"strength": "essential",
+"why": "Casement's German mission",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.10.0",
+"strength": "helpful",
+"why": "Pearse's background",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.4",
+"strength": "helpful",
+"why": "the IRB",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.6.2",
+"strength": "essential",
+"why": "the O'Donovan Rossa funeral",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.10.4": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s1.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.7.1",
+"strength": "helpful",
+"why": "Pearse's role at the GPO",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.9.4",
+"strength": "helpful",
+"why": "the executions",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.10.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s1.10.4",
+"strength": "helpful",
+"why": "blood sacrifice debate",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.11.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.0.3",
+"strength": "essential",
+"why": "Citizen Army and the Lockout",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.7.2",
+"strength": "helpful",
+"why": "garrison at St Stephen's Green",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.9.2",
+"strength": "helpful",
+"why": "the courts-martial",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.11.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.11.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s1.7.1",
+"strength": "helpful",
+"why": "the Proclamation",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.9.0",
+"strength": "helpful",
+"why": "IPP condemnation",
+"confidence": "low"
+}
+]
+},
+"hist-ire3-s1.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s1.8.3",
+"strength": "helpful",
+"why": "civilian casualties",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.12.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s1.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s1.4.5",
+"strength": "essential",
+"why": "the suspended Home Rule Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s1.12.5": {
+"cost": 1,
+"needs": []
+}
+}

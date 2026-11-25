@@ -1,0 +1,977 @@
+{
+"hist-eur6-s4.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.2.1",
+"strength": "essential",
+"why": "Truman Doctrine",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.1.1",
+"strength": "helpful",
+"why": "Soviet atomic test",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.2.3",
+"strength": "essential",
+"why": "communist victory in China",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.7.2",
+"strength": "helpful",
+"why": "Korean War invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s3.4.3",
+"strength": "helpful",
+"why": "Johnson escalation in 1965",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s9.3.b",
+"strength": "helpful",
+"why": "Black freedom struggle",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s4.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.0.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.0.2",
+"strength": "helpful",
+"why": "congressional committee powers",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.1.1",
+"strength": "essential",
+"why": "the Hollywood Ten",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.1.1",
+"strength": "essential",
+"why": "the Hollywood Ten",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.1.3",
+"strength": "essential",
+"why": "the Hollywood blacklist",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.1.1",
+"strength": "essential",
+"why": "HUAC Hollywood hearings",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.4.0",
+"strength": "helpful",
+"why": "McCarthy's Senate subcommittee",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.1.1",
+"strength": "helpful",
+"why": "HUAC hearings",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.2.0",
+"strength": "essential",
+"why": "Chambers accusation against Hiss",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.2.0",
+"strength": "essential",
+"why": "the Hiss case",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.2.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s4.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.2.3",
+"strength": "helpful",
+"why": "Fuchs led to Rosenbergs",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.2.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s4.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.1.0",
+"strength": "helpful",
+"why": "loyalty programme",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s4.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.3.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s4.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.3.0",
+"strength": "essential",
+"why": "the Wheeling speech",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.2.1",
+"strength": "essential",
+"why": "Hiss conviction",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.2.3",
+"strength": "essential",
+"why": "Fuchs arrest",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.1.1",
+"strength": "helpful",
+"why": "Soviet bomb",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.2.3",
+"strength": "helpful",
+"why": "fall of China",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.3.0",
+"strength": "essential",
+"why": "the charges McCarthy made",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.3.0",
+"strength": "helpful",
+"why": "his accusations",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s4.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.3.3",
+"strength": "helpful",
+"why": "smear tactics",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.4.0",
+"strength": "essential",
+"why": "his subcommittee chairmanship",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.4.1",
+"strength": "essential",
+"why": "Schine and Cohn",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.4.3",
+"strength": "essential",
+"why": "Army-McCarthy hearings",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.4.4",
+"strength": "helpful",
+"why": "his collapse in 1954",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.5.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s4.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.5.0",
+"strength": "helpful",
+"why": "his early career",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.3.0",
+"strength": "essential",
+"why": "the Wheeling speech",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.4.0",
+"strength": "essential",
+"why": "Permanent Subcommittee",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.3.1",
+"strength": "helpful",
+"why": "events he exploited",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.4.3",
+"strength": "essential",
+"why": "Army-McCarthy hearings",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.4.2",
+"strength": "helpful",
+"why": "television exposure",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.6.2",
+"strength": "helpful",
+"why": "Eisenhower's refusal",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.5.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.5.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.0.7",
+"strength": "helpful",
+"why": "McCarthyism and Red Scare",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.5.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.3.3",
+"strength": "helpful",
+"why": "McCarthy's methods and lists",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s4.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.1.0",
+"strength": "essential",
+"why": "Truman's loyalty standard",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.6.0",
+"strength": "essential",
+"why": "the new security criteria",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.4.3",
+"strength": "helpful",
+"why": "Army hearings of 1954",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.2.2",
+"strength": "essential",
+"why": "Nixon and the Hiss case",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.2.3",
+"strength": "essential",
+"why": "communist victory in China",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.3.0",
+"strength": "helpful",
+"why": "McCarthy's State Department accusations",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.7.0",
+"strength": "helpful",
+"why": "fall of China charge",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s4.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.7.2",
+"strength": "helpful",
+"why": "Korean crisis",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s4.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.6.0",
+"strength": "essential",
+"why": "new security standards",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.11.3",
+"strength": "essential",
+"why": "Little Rock crisis",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s9.2.3",
+"strength": "helpful",
+"why": "Little Rock crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.8.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s4.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.8.1",
+"strength": "essential",
+"why": "SDS",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.8.3",
+"strength": "essential",
+"why": "the draft",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.8.3",
+"strength": "helpful",
+"why": "induction into the draft",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.8.5",
+"strength": "essential",
+"why": "Ali's refusal of induction",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s9.8.1",
+"strength": "helpful",
+"why": "Riverside Church speech",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.9.0",
+"strength": "helpful",
+"why": "King's Beyond Vietnam speech",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s9.8.1",
+"strength": "helpful",
+"why": "King linking rights and war",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s4.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.9.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.9.3",
+"strength": "essential",
+"why": "Democratic convention in Chicago",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.9.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.9.5",
+"strength": "helpful",
+"why": "the Moratorium protests",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.14.4",
+"strength": "helpful",
+"why": "Cambodian incursion",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.10.0",
+"strength": "helpful",
+"why": "protests after Cambodia",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.10.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s3.3.3",
+"strength": "essential",
+"why": "Gulf of Tonkin Resolution",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.14.1",
+"strength": "essential",
+"why": "Vietnamisation",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s3.10.6",
+"strength": "essential",
+"why": "Johnson's 1968 decision",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s9.0.7",
+"strength": "helpful",
+"why": "Executive Order 9981",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s9.1.6",
+"strength": "helpful",
+"why": "Brown v. Board ruling",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.11.1",
+"strength": "essential",
+"why": "Brown v. Board",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s9.1.6",
+"strength": "helpful",
+"why": "Brown v. Board",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s9.2.3",
+"strength": "helpful",
+"why": "Little Rock crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s9.3.2",
+"strength": "helpful",
+"why": "Freedom Rides",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s9.4.0",
+"strength": "helpful",
+"why": "Birmingham campaign",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.11.3",
+"strength": "helpful",
+"why": "Little Rock",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s4.9.0",
+"strength": "helpful",
+"why": "King and the Vietnam war",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s9.8.1",
+"strength": "helpful",
+"why": "King on Vietnam",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s9.9.1",
+"strength": "helpful",
+"why": "Malcolm X",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s9.5.2",
+"strength": "helpful",
+"why": "Civil Rights Act 1964",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s9.6.3",
+"strength": "helpful",
+"why": "Voting Rights Act 1965",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s4.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.5.8",
+"strength": "helpful",
+"why": "Venona decrypts",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.7.2",
+"strength": "helpful",
+"why": "weakened China expertise",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.10.4",
+"strength": "essential",
+"why": "Johnson's 1968 decision, withdrawals",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.9.6",
+"strength": "helpful",
+"why": "silent majority",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.10.4",
+"strength": "helpful",
+"why": "protest pressure on policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.12.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.11.3",
+"strength": "essential",
+"why": "Little Rock propaganda",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.11.4",
+"strength": "helpful",
+"why": "Birmingham campaign",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s9.4.0",
+"strength": "helpful",
+"why": "Birmingham campaign",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s4.12.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s4.12.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s4.5.6",
+"strength": "essential",
+"why": "Rovere",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.5.7",
+"strength": "essential",
+"why": "Schrecker",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s4.5.8",
+"strength": "essential",
+"why": "Evans and Venona",
+"confidence": "high"
+}
+]
+}
+}

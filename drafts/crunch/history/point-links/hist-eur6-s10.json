@@ -1,0 +1,831 @@
+{
+"hist-eur6-s10.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.0.0",
+"strength": "helpful",
+"why": "Jim Crow segregation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s9.1.4",
+"strength": "helpful",
+"why": "the NAACP legal campaign",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.0.1",
+"strength": "helpful",
+"why": "segregated schools and Plessy",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.0.0",
+"strength": "helpful",
+"why": "segregation as law",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.1.3",
+"strength": "essential",
+"why": "black riders as most passengers",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.1.2",
+"strength": "helpful",
+"why": "refusing a seat was an offence",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.2.1",
+"strength": "essential",
+"why": "Colvin's arrest",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.7.0",
+"strength": "helpful",
+"why": "Browder v. Gayle",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.1.0",
+"strength": "essential",
+"why": "whites-only front seating rule",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.0.3",
+"strength": "essential",
+"why": "the NAACP branch",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.0.3",
+"strength": "helpful",
+"why": "the NAACP",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.3.0",
+"strength": "essential",
+"why": "Parks's arrest",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.3.0",
+"strength": "essential",
+"why": "Parks's arrest",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.2.0",
+"strength": "essential",
+"why": "Robinson and the Women's Political Council",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.3.5",
+"strength": "essential",
+"why": "the one-day boycott call",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.3.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.3.6",
+"strength": "helpful",
+"why": "the decision to continue the boycott",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.3.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.3.7",
+"strength": "essential",
+"why": "the three modest demands",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.3.6",
+"strength": "helpful",
+"why": "the Holt Street decision to continue",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s10.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.0",
+"strength": "essential",
+"why": "King as MIA president",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.3.6",
+"strength": "essential",
+"why": "the Holt Street meeting",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.0.4",
+"strength": "helpful",
+"why": "black churches free from white control",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.2",
+"strength": "helpful",
+"why": "King's commitment to non-violence",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.0",
+"strength": "helpful",
+"why": "King as boycott leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.5.0",
+"strength": "essential",
+"why": "the car pool",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.5.0",
+"strength": "helpful",
+"why": "the car pool",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.1.4",
+"strength": "helpful",
+"why": "why the boycott hit bus income",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.5.0",
+"strength": "essential",
+"why": "the car pool and taxi drivers",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.0.5",
+"strength": "essential",
+"why": "the White Citizens' Councils",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.0",
+"strength": "helpful",
+"why": "King as leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.0",
+"strength": "helpful",
+"why": "King as leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.4.0",
+"strength": "helpful",
+"why": "the leaders including King",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.6.4",
+"strength": "essential",
+"why": "the indictments",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.2.1",
+"strength": "helpful",
+"why": "Colvin and Smith's arrests",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.7.0",
+"strength": "essential",
+"why": "the Browder v. Gayle plaintiffs",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.7.0",
+"strength": "essential",
+"why": "the Browder v. Gayle case",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.7.2",
+"strength": "essential",
+"why": "the federal court ruling being appealed",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.5.0",
+"strength": "helpful",
+"why": "the car pools",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s10.7.3",
+"strength": "helpful",
+"why": "the Supreme Court ruling",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.7.3",
+"strength": "essential",
+"why": "the Supreme Court affirmation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.7.5",
+"strength": "helpful",
+"why": "the end of the boycott",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.8.0",
+"strength": "helpful",
+"why": "desegregated buses",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.8.0",
+"strength": "helpful",
+"why": "desegregation of the buses",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.0",
+"strength": "helpful",
+"why": "King's leadership of the MIA",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.7.2",
+"strength": "helpful",
+"why": "the ruling covered buses",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.3.1",
+"strength": "helpful",
+"why": "Parks's role",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.0.3",
+"strength": "helpful",
+"why": "the NAACP",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.9.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.9.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.0",
+"strength": "helpful",
+"why": "King's pastorate and role",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.0",
+"strength": "essential",
+"why": "King as MIA president",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.1",
+"strength": "essential",
+"why": "why King was chosen",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.4.4",
+"strength": "helpful",
+"why": "Rustin and Smiley advising King",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.10.3",
+"strength": "helpful",
+"why": "King's thinking on non-violence",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.0",
+"strength": "helpful",
+"why": "King as boycott leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.10.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.10.1",
+"strength": "helpful",
+"why": "King's role in Montgomery",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.10.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.0.4",
+"strength": "helpful",
+"why": "the black churches",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.2",
+"strength": "helpful",
+"why": "non-violence and Christian love",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.5.4",
+"strength": "helpful",
+"why": "economic pressure on the bus company",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.4.0",
+"strength": "essential",
+"why": "the MIA",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.2.0",
+"strength": "helpful",
+"why": "Robinson and the WPC",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.3.1",
+"strength": "helpful",
+"why": "Parks's background",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.11.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.7.0",
+"strength": "essential",
+"why": "Browder v. Gayle",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.11.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s10.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.8.0",
+"strength": "helpful",
+"why": "ending bus segregation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.8.3",
+"strength": "helpful",
+"why": "the SCLC",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.8.4",
+"strength": "helpful",
+"why": "segregation remaining after the ruling",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.8.2",
+"strength": "helpful",
+"why": "violence after the victory",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s10.6.1",
+"strength": "helpful",
+"why": "white opposition to the boycott",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s10.12.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s10.11.5",
+"strength": "helpful",
+"why": "debate over courts versus boycott",
+"confidence": "high"
+}
+]
+}
+}

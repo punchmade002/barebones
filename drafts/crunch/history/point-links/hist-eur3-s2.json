@@ -1,0 +1,1061 @@
+{
+"hist-eur3-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.0.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s2.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.2",
+"strength": "helpful",
+"why": "President and Chancellor roles",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.2",
+"strength": "helpful",
+"why": "Reichstag and coalitions",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.2",
+"strength": "helpful",
+"why": "President and Reichstag powers",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.0",
+"strength": "helpful",
+"why": "defeat and armistice of 1918",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.0.4",
+"strength": "helpful",
+"why": "reparations",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.2.2",
+"strength": "helpful",
+"why": "Treaty of Versailles",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.4",
+"strength": "essential",
+"why": "reparations",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.3.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s2.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.3.0",
+"strength": "helpful",
+"why": "Freikorps units",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.3.1",
+"strength": "essential",
+"why": "the Kapp Putsch",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.3.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s2.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.4",
+"strength": "essential",
+"why": "reparations deliveries",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.4.0",
+"strength": "essential",
+"why": "the Ruhr occupation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.4.1",
+"strength": "essential",
+"why": "printing money to fund resistance",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.4.2",
+"strength": "essential",
+"why": "hyperinflation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.4.2",
+"strength": "helpful",
+"why": "hyperinflation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.4.2",
+"strength": "helpful",
+"why": "hyperinflation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.4.1",
+"strength": "essential",
+"why": "passive resistance in the Ruhr",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.4.2",
+"strength": "essential",
+"why": "hyperinflation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.5.1",
+"strength": "essential",
+"why": "the Rentenmark",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.0.4",
+"strength": "essential",
+"why": "reparations",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.4.0",
+"strength": "essential",
+"why": "the Ruhr occupation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.5.3",
+"strength": "essential",
+"why": "American loans under Dawes Plan",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.0.6",
+"strength": "essential",
+"why": "Wall Street Crash",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.6.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.0",
+"strength": "helpful",
+"why": "the early Nazi party",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.0",
+"strength": "helpful",
+"why": "the Nazi party",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.5",
+"strength": "helpful",
+"why": "what a putsch is",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.3",
+"strength": "essential",
+"why": "the Munich Putsch",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.4",
+"strength": "essential",
+"why": "the failed putsch",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.4",
+"strength": "helpful",
+"why": "the party banned after putsch",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.7.2",
+"strength": "helpful",
+"why": "legal strategy through elections",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.8.3",
+"strength": "essential",
+"why": "the Young Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.2.2",
+"strength": "helpful",
+"why": "the Treaty of Versailles",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.8.0",
+"strength": "helpful",
+"why": "Stresemann's policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.8.1",
+"strength": "helpful",
+"why": "improved relations with France",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.4",
+"strength": "helpful",
+"why": "reparations",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.5.3",
+"strength": "essential",
+"why": "American loans under Dawes Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.9.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.8.0",
+"strength": "helpful",
+"why": "Stresemann's policies",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.9.2",
+"strength": "helpful",
+"why": "dependence on American loans",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.9.1",
+"strength": "essential",
+"why": "unemployment insurance",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.1.3",
+"strength": "essential",
+"why": "Article 48 emergency decrees",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.10.1",
+"strength": "helpful",
+"why": "collapse of the grand coalition",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.10.2",
+"strength": "essential",
+"why": "Brüning's policies",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.10.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.0.4",
+"strength": "helpful",
+"why": "reparations",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.10.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.10.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.10.2",
+"strength": "essential",
+"why": "Brüning's emergency rule",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.1.3",
+"strength": "helpful",
+"why": "Article 48 decrees",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.7.3",
+"strength": "helpful",
+"why": "1928 result of 12 seats",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.2.2",
+"strength": "helpful",
+"why": "attacks on the Versailles settlement",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s2.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.2",
+"strength": "essential",
+"why": "the SA",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.0.3",
+"strength": "helpful",
+"why": "the Centre, SPD and KPD",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.2.1",
+"strength": "helpful",
+"why": "Hindenburg as President",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.12.0",
+"strength": "essential",
+"why": "the first-round presidential result",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.11.0",
+"strength": "helpful",
+"why": "Nazi electoral rise",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.12.2",
+"strength": "helpful",
+"why": "Nazis as largest party",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.12.2",
+"strength": "helpful",
+"why": "July 1932 result",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.2",
+"strength": "essential",
+"why": "the SA",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.10.2",
+"strength": "helpful",
+"why": "Brüning as Chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.13.0",
+"strength": "helpful",
+"why": "Papen as Chancellor",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.13.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s2.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.13.2",
+"strength": "essential",
+"why": "Schleicher's chancellorship",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.13.0",
+"strength": "helpful",
+"why": "Papen's earlier chancellorship",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.14.0",
+"strength": "helpful",
+"why": "Papen's deal with Hitler",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.7.4",
+"strength": "helpful",
+"why": "Hugenberg and the DNVP",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s2.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.0",
+"strength": "helpful",
+"why": "German Workers' Party",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.2",
+"strength": "helpful",
+"why": "the SA",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.4",
+"strength": "essential",
+"why": "the Munich Putsch",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.7.2",
+"strength": "helpful",
+"why": "legal road to power",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.14.1",
+"strength": "helpful",
+"why": "Papen's belief he could control Hitler",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.14.1",
+"strength": "helpful",
+"why": "Hitler's appointment",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s2.15.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.14.0",
+"strength": "helpful",
+"why": "January 1933 intrigues",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.9.0",
+"strength": "helpful",
+"why": "Weimar welfare measures",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s2.16.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.5.1",
+"strength": "essential",
+"why": "the Rentenmark",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.9.1",
+"strength": "helpful",
+"why": "1927 unemployment insurance",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.10.2",
+"strength": "essential",
+"why": "Brüning's emergency decrees",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.10.2",
+"strength": "helpful",
+"why": "Brüning's cuts",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s2.16.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.13.0",
+"strength": "helpful",
+"why": "Papen's chancellorship",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.16.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.6.2",
+"strength": "helpful",
+"why": "the SA",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s2.17.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.1.2",
+"strength": "essential",
+"why": "proportional representation",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.1.3",
+"strength": "essential",
+"why": "Article 48",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.17.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.2.2",
+"strength": "helpful",
+"why": "Treaty of Versailles",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.8.0",
+"strength": "helpful",
+"why": "Stresemann's revision of reparations",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.8.1",
+"strength": "helpful",
+"why": "League entry via Locarno",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s2.5.5",
+"strength": "essential",
+"why": "dependence on American loans",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.17.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.11.0",
+"strength": "helpful",
+"why": "1930 Nazi breakthrough",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.7.3",
+"strength": "helpful",
+"why": "12 seats in 1928",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.17.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s2.12.4",
+"strength": "helpful",
+"why": "falling Nazi vote late 1932",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.14.0",
+"strength": "helpful",
+"why": "conservatives' decisions in appointment",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s2.17.6": {
+"cost": 1,
+"needs": []
+}
+}

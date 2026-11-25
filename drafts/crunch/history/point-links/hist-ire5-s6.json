@@ -1,0 +1,1191 @@
+{
+"hist-ire5-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.9.2",
+"strength": "helpful",
+"why": "Direct Rule begun, Stormont suspended",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.0.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s6.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.1.0",
+"strength": "helpful",
+"why": "defines power sharing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.4.0",
+"strength": "helpful",
+"why": "uses the Provisional IRA",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.2",
+"strength": "helpful",
+"why": "consent guarantee stated in 1973",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.10.0",
+"strength": "helpful",
+"why": "uses the UUUC",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.1.0",
+"strength": "essential",
+"why": "the Constitutional Convention",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.2.7",
+"strength": "helpful",
+"why": "uses the UDR",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s4.0.4",
+"strength": "helpful",
+"why": "uses the RUC",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s6.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.9.4",
+"strength": "helpful",
+"why": "special category status for paramilitaries",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s6.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.9.4",
+"strength": "essential",
+"why": "special category status introduced 1972",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.2.0",
+"strength": "helpful",
+"why": "the tragedy that caused the movement",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.2.1",
+"strength": "essential",
+"why": "Williams and Corrigan founded the movement",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.2.2",
+"strength": "helpful",
+"why": "the movement and its rallies",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.1.4",
+"strength": "helpful",
+"why": "special category status ended",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.3.0",
+"strength": "helpful",
+"why": "political status and the H-Blocks",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.3.0",
+"strength": "helpful",
+"why": "political status and the H-Blocks",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.3.0",
+"strength": "essential",
+"why": "political status demand",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.3.3",
+"strength": "essential",
+"why": "Sands and the second hunger strike",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.3.3",
+"strength": "helpful",
+"why": "the hunger strikers and status",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.3.4",
+"strength": "helpful",
+"why": "the hunger strike deaths",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.3.4",
+"strength": "essential",
+"why": "the hunger strike deaths",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.3.4",
+"strength": "helpful",
+"why": "Doherty as hunger striker",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.3.3",
+"strength": "essential",
+"why": "Sands's seat won in April 1981",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.4.1",
+"strength": "helpful",
+"why": "republican vote shown by 1981 elections",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s6.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.4.3",
+"strength": "helpful",
+"why": "Sinn Féin electoral strategy",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.4.4",
+"strength": "helpful",
+"why": "abstentionism from assemblies",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.4.3",
+"strength": "essential",
+"why": "the electoral strategy",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.9.4",
+"strength": "helpful",
+"why": "Whitelaw met IRA leaders July 1972",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s4.7.0",
+"strength": "helpful",
+"why": "internment",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.4.3",
+"strength": "helpful",
+"why": "move into electoral politics",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.12.2",
+"strength": "helpful",
+"why": "Hume-Adams dialogue",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.12.0",
+"strength": "helpful",
+"why": "the broadcasting ban",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.4.5",
+"strength": "helpful",
+"why": "his Westminster seat from 1983",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.4.6",
+"strength": "helpful",
+"why": "critics say cover for IRA violence",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.5.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.4.6",
+"strength": "helpful",
+"why": "electoral strategy alongside IRA",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.5.3",
+"strength": "helpful",
+"why": "talks and negotiation",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.5.8": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.6.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s6.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.6.0",
+"strength": "essential",
+"why": "the New Ireland Forum",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.6.0",
+"strength": "essential",
+"why": "the New Ireland Forum",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.6.2",
+"strength": "essential",
+"why": "the three options",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.6.3",
+"strength": "essential",
+"why": "rejection of the Forum options",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.9.0",
+"strength": "helpful",
+"why": "1985 agreement signed",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.7.0",
+"strength": "essential",
+"why": "the Brighton bombing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.7.0",
+"strength": "essential",
+"why": "the Brighton bombing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.7.0",
+"strength": "helpful",
+"why": "the Brighton bombing",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.3.3",
+"strength": "helpful",
+"why": "the hunger strikes",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s6.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.3.5",
+"strength": "helpful",
+"why": "her quote on political status",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.6.3",
+"strength": "helpful",
+"why": "rejected Forum options",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.9.0",
+"strength": "helpful",
+"why": "the Anglo-Irish Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.9.0",
+"strength": "helpful",
+"why": "the Agreement she signed",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.9.4",
+"strength": "helpful",
+"why": "unionist opposition to Agreement",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.9.5",
+"strength": "helpful",
+"why": "nationalist and republican reactions",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.3.5",
+"strength": "helpful",
+"why": "hunger strike intransigence",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s6.8.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.9.1",
+"strength": "helpful",
+"why": "motives for the Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.6.0",
+"strength": "helpful",
+"why": "Forum showed Dublin wanted a role",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.9.0",
+"strength": "helpful",
+"why": "the Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.2",
+"strength": "helpful",
+"why": "consent guarantee from Sunningdale",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.9.0",
+"strength": "essential",
+"why": "the Agreement opposed",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.9.0",
+"strength": "essential",
+"why": "the Agreement reacted to",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.b",
+"strength": "helpful",
+"why": "the Sunningdale Agreement",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.9.4",
+"strength": "helpful",
+"why": "unionist campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.10.0": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s6.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.9.4",
+"strength": "essential",
+"why": "'Ulster says No' campaign",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s5.10.1",
+"strength": "helpful",
+"why": "Paisley as unionist leader",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s6.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.9.4",
+"strength": "essential",
+"why": "'Ulster says No' rally and resignations",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.10.1",
+"strength": "helpful",
+"why": "his opposition to the Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.10.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.10.1",
+"strength": "helpful",
+"why": "his opposition to the Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.11.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.9.0",
+"strength": "essential",
+"why": "the Anglo-Irish Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.11.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire5-s6.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.5.2",
+"strength": "helpful",
+"why": "Adams as Sinn Féin president",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s6.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.14.1",
+"strength": "essential",
+"why": "the Brooke-Mayhew talks",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.11.3",
+"strength": "helpful",
+"why": "talks with Sinn Féin",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.11.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.15.0",
+"strength": "helpful",
+"why": "the Downing Street Declaration",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.11.3",
+"strength": "helpful",
+"why": "dialogue with Adams",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.12.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.12.0",
+"strength": "essential",
+"why": "the broadcast ban",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.5.2",
+"strength": "helpful",
+"why": "Adams as Sinn Féin president",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.11.0",
+"strength": "helpful",
+"why": "Hume as SDLP leader",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.12.2",
+"strength": "essential",
+"why": "the Hume-Adams dialogue",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.12.2",
+"strength": "essential",
+"why": "the Hume-Adams dialogue",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.13.0",
+"strength": "essential",
+"why": "the Enniskillen bombing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.13.0",
+"strength": "essential",
+"why": "the Enniskillen bombing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.13.0",
+"strength": "essential",
+"why": "the Enniskillen bombing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.13.0",
+"strength": "essential",
+"why": "the Enniskillen bombing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.0.2",
+"strength": "helpful",
+"why": "Brooke as Secretary of State",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.14.0",
+"strength": "helpful",
+"why": "Brooke initiative background",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.14.1",
+"strength": "essential",
+"why": "the Brooke and Mayhew talks",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s6.15.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.15.0",
+"strength": "essential",
+"why": "the Declaration",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.9.3",
+"strength": "helpful",
+"why": "consent principle",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.15.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.15.0",
+"strength": "essential",
+"why": "the Declaration",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.14.0",
+"strength": "helpful",
+"why": "no selfish interest statement",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.15.0",
+"strength": "essential",
+"why": "the Declaration",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s5.8.1",
+"strength": "helpful",
+"why": "Articles 2 and 3",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.15.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.15.0",
+"strength": "essential",
+"why": "the Declaration",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.16.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.9.0",
+"strength": "helpful",
+"why": "the Agreement compared",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.15.0",
+"strength": "helpful",
+"why": "the Declaration compared",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.9.2",
+"strength": "essential",
+"why": "consultative role via Conference",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s5.7.0",
+"strength": "helpful",
+"why": "role Sunningdale gave Dublin",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.15.1",
+"strength": "essential",
+"why": "consent and self-determination principles",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.0.3",
+"strength": "helpful",
+"why": "power sharing and Direct Rule",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.12.2",
+"strength": "helpful",
+"why": "Hume-Adams dialogue",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.14.1",
+"strength": "helpful",
+"why": "Brooke and Mayhew talks",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.7.0",
+"strength": "helpful",
+"why": "Brighton bombing",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.13.0",
+"strength": "helpful",
+"why": "Enniskillen bombing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.9.5",
+"strength": "helpful",
+"why": "nationalist welcome of Agreement",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.15.4",
+"strength": "helpful",
+"why": "nationalist welcome of Declaration",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s6.9.4",
+"strength": "essential",
+"why": "unionist opposition to Agreement",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s6.15.4",
+"strength": "helpful",
+"why": "unionist denunciation of Declaration",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s6.16.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s6.16.1",
+"strength": "helpful",
+"why": "consent as a principle",
+"confidence": "low"
+}
+]
+}
+}

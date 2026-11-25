@@ -1,0 +1,694 @@
+{
+"hist-ire6-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.2.5",
+"strength": "helpful",
+"why": "the First Programme",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.7.2",
+"strength": "helpful",
+"why": "Anglo-Irish Free Trade Agreement",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.6.4",
+"strength": "helpful",
+"why": "de Gaulle vetoing British entry",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.7.5",
+"strength": "helpful",
+"why": "the 1972 referendum",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.1.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s7.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.1.0",
+"strength": "helpful",
+"why": "common external tariff",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s6.7.5",
+"strength": "helpful",
+"why": "Third Amendment referendum",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s7.2.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s7.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.0.2",
+"strength": "helpful",
+"why": "dependence on British market",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.1.1",
+"strength": "helpful",
+"why": "CAP farm support",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s7.2.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.1.1",
+"strength": "essential",
+"why": "CAP and intervention",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.2.0",
+"strength": "helpful",
+"why": "farm prices brought into line",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.3.1",
+"strength": "helpful",
+"why": "higher guaranteed prices",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.3.1",
+"strength": "helpful",
+"why": "higher farm prices",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.3.0",
+"strength": "essential",
+"why": "guaranteed prices",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.3.1",
+"strength": "helpful",
+"why": "farm incomes rising",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s7.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.1.4",
+"strength": "helpful",
+"why": "the ERDF",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.4.0",
+"strength": "helpful",
+"why": "regional fund money",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s6.9.0",
+"strength": "helpful",
+"why": "Single European Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s2.3.4",
+"strength": "helpful",
+"why": "Industrial Development Authority",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.5.0",
+"strength": "helpful",
+"why": "foreign firms attracted by IDA",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s2.7.4",
+"strength": "helpful",
+"why": "free trade threatening protected firms",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.5.3",
+"strength": "helpful",
+"why": "closures of traditional industry",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.5.0",
+"strength": "helpful",
+"why": "foreign firms exporting",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s7.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s7.1.4",
+"strength": "helpful",
+"why": "EEC directives",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.1.4",
+"strength": "helpful",
+"why": "EEC directives",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.1.0",
+"strength": "helpful",
+"why": "free movement of workers",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.2.1",
+"strength": "helpful",
+"why": "EEC law over Irish law",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.9.3",
+"strength": "helpful",
+"why": "the Crotty case",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.7.4",
+"strength": "helpful",
+"why": "BIM created in 1952",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.7.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s7.1.2",
+"strength": "essential",
+"why": "derogation",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.8.1",
+"strength": "essential",
+"why": "the terms obtained for fishing",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s7.8.1",
+"strength": "helpful",
+"why": "the 12-mile Irish zone",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s7.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.8.1",
+"strength": "essential",
+"why": "derogation ending in 1982",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s7.1.3",
+"strength": "essential",
+"why": "TACs and relative stability",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.8.4",
+"strength": "essential",
+"why": "the Common Fisheries Policy",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.8.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.8.5",
+"strength": "essential",
+"why": "national quotas",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.7.4",
+"strength": "helpful",
+"why": "BIM grants",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.9.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.9.3": {
+"cost": 2,
+"needs": []
+},
+"hist-ire6-s7.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.7.3",
+"strength": "helpful",
+"why": "foreign trawlers in Irish waters",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.8.4",
+"strength": "helpful",
+"why": "the CFP access arrangements",
+"confidence": "low"
+}
+]
+},
+"hist-ire6-s7.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.8.5",
+"strength": "helpful",
+"why": "quota shares",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.8.3",
+"strength": "essential",
+"why": "the 200-mile limit",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.10.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.8.5",
+"strength": "helpful",
+"why": "quotas limiting catches",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s7.8.7",
+"strength": "helpful",
+"why": "small Irish quotas",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.10.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s7.8.1",
+"strength": "helpful",
+"why": "the 12-mile zone",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s7.8.3",
+"strength": "essential",
+"why": "the Hague preferences",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire6-s6.8.4",
+"strength": "helpful",
+"why": "Common Market Defence Campaign",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.10.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s7.3.1",
+"strength": "helpful",
+"why": "better-priced farm markets",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s7.5.0",
+"strength": "helpful",
+"why": "foreign investment",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s7.6.0",
+"strength": "helpful",
+"why": "equality legislation",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire6-s7.5.3",
+"strength": "helpful",
+"why": "protected firms closing",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s7.3.3",
+"strength": "helpful",
+"why": "small farms gaining least",
+"confidence": "high"
+},
+{
+"id": "hist-ire6-s7.10.2",
+"strength": "helpful",
+"why": "fishing gaining less",
+"confidence": "high"
+}
+]
+},
+"hist-ire6-s7.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire6-s7.11.3": {
+"cost": 2,
+"needs": []
+}
+}

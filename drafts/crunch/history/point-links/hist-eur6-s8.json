@@ -1,0 +1,766 @@
+{
+"hist-eur6-s8.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.0.3",
+"strength": "helpful",
+"why": "uses wartime savings",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s6.0.4",
+"strength": "helpful",
+"why": "uses pent-up demand",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.0.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s8.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.0.0",
+"strength": "helpful",
+"why": "larger families from baby boom",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.0.0",
+"strength": "helpful",
+"why": "boom generation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s8.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.0.3",
+"strength": "essential",
+"why": "suburbs growing drew people from cities",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.2.2",
+"strength": "helpful",
+"why": "federal defence spending",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.0.5",
+"strength": "helpful",
+"why": "Sun Belt growth",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.0.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.0.3",
+"strength": "helpful",
+"why": "white families moving to suburbs",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.1.3",
+"strength": "helpful",
+"why": "federal mortgage guarantees",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.0.5",
+"strength": "helpful",
+"why": "GI Bill benefits",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s6.0.4",
+"strength": "helpful",
+"why": "pent-up demand",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s8.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.1.1",
+"strength": "essential",
+"why": "first Levittown houses",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.0.5",
+"strength": "helpful",
+"why": "veterans loans from GI Bill",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s8.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.1.1",
+"strength": "essential",
+"why": "Levittown leases",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s8.1.3",
+"strength": "helpful",
+"why": "lending practices",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.0.3",
+"strength": "helpful",
+"why": "suburbs",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s6.2.0",
+"strength": "helpful",
+"why": "new highways",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s8.1.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s8.1.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.1.b",
+"strength": "helpful",
+"why": "suburban abundance, American Dream",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s6.1.b",
+"strength": "helpful",
+"why": "Cold War, capitalism vs communism",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s8.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.2.1",
+"strength": "helpful",
+"why": "credit and instalment buying",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.2.1",
+"strength": "helpful",
+"why": "credit buying",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s8.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.0.3",
+"strength": "helpful",
+"why": "spread through suburbs",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.2.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s8.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.2.3",
+"strength": "helpful",
+"why": "television advertising",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.2.4",
+"strength": "helpful",
+"why": "advertisers creating demand",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.2.4",
+"strength": "helpful",
+"why": "advertising creating wants",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.1.5",
+"strength": "helpful",
+"why": "car and family holiday",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s8.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.3.3",
+"strength": "helpful",
+"why": "Organization Man",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s8.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.2.3",
+"strength": "helpful",
+"why": "television",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s8.1.5",
+"strength": "helpful",
+"why": "car culture",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s8.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s6.4.1",
+"strength": "helpful",
+"why": "Whyte social ethic of conformity",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s8.3.2",
+"strength": "helpful",
+"why": "salaried white-collar employee",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.0.3",
+"strength": "helpful",
+"why": "suburban culture",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s8.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.3.4",
+"strength": "helpful",
+"why": "domestic ideal",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s8.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.3.4",
+"strength": "helpful",
+"why": "domestic ideal",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.4.0",
+"strength": "helpful",
+"why": "women leaving jobs after 1945",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.4.1",
+"strength": "helpful",
+"why": "women in workforce",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.3.4",
+"strength": "helpful",
+"why": "traditional nuclear family",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s8.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.4.4",
+"strength": "helpful",
+"why": "contraception",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.5.5",
+"strength": "helpful",
+"why": "Equal Rights Amendment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.4.2",
+"strength": "helpful",
+"why": "low pay for women",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.5.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s8.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.5.1",
+"strength": "essential",
+"why": "contrast with Title VII",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.2.1",
+"strength": "helpful",
+"why": "credit in consumer life",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s8.5.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s8.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.5.5",
+"strength": "essential",
+"why": "the Equal Rights Amendment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.3.4",
+"strength": "helpful",
+"why": "domestic ideal",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.6.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s8.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.6.0",
+"strength": "helpful",
+"why": "Friedan studied at Smith",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.3.4",
+"strength": "helpful",
+"why": "domestic ideal",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s8.6.1",
+"strength": "helpful",
+"why": "survey basis of book",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.6.2",
+"strength": "essential",
+"why": "The Feminine Mystique",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.5.5",
+"strength": "essential",
+"why": "Equal Rights Amendment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.6.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s8.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.6.3",
+"strength": "helpful",
+"why": "Friedan as feminist leader",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.6.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.6.2",
+"strength": "helpful",
+"why": "Feminine Mystique focus",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s8.6.4",
+"strength": "helpful",
+"why": "NOW",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.2.b",
+"strength": "helpful",
+"why": "consumer culture",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s8.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.7.0",
+"strength": "helpful",
+"why": "Monroe background",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.2.4",
+"strength": "helpful",
+"why": "advertising and consumer culture",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.7.1",
+"strength": "essential",
+"why": "sex symbol image",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.7.3",
+"strength": "helpful",
+"why": "sex symbol typecasting",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.7.3",
+"strength": "helpful",
+"why": "limited roles in Hollywood",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.6.2",
+"strength": "essential",
+"why": "Friedan attacked feminine ideal",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s8.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.1.b",
+"strength": "helpful",
+"why": "home ownership and the Dream",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.1.4",
+"strength": "essential",
+"why": "lending exclusion from suburbs",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.5.0",
+"strength": "essential",
+"why": "1963 Equal Pay Act",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s8.5.1",
+"strength": "essential",
+"why": "Title VII 1964",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.4.2",
+"strength": "helpful",
+"why": "low pay, narrow jobs",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s8.6.2",
+"strength": "essential",
+"why": "Friedan domestic ideal evidence",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s8.2.6",
+"strength": "essential",
+"why": "Galbraith",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s8.2.5",
+"strength": "essential",
+"why": "Packard",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s8.3.3",
+"strength": "essential",
+"why": "Whyte",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s8.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s8.4.3",
+"strength": "helpful",
+"why": "divorce and single-parent families",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s8.4.1",
+"strength": "helpful",
+"why": "women employment rose",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,647 @@
+{
+"hist-ire2-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.1.2",
+"strength": "helpful",
+"why": "Tod's campaign for 1882 Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.1.1",
+"strength": "helpful",
+"why": "Tod's Ulster suffrage society",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.0.6": {
+"cost": 2,
+"needs": []
+},
+"hist-ire2-s6.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.0.6",
+"strength": "essential",
+"why": "uses the 1898 local government Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.0.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.1.6",
+"strength": "helpful",
+"why": "Tod as unionist opposing Home Rule",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.4.b",
+"strength": "helpful",
+"why": "Hanna Sheehy-Skeffington as contrast",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.0.1",
+"strength": "helpful",
+"why": "the 1882 Married Women's Property Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s6.6.7",
+"strength": "helpful",
+"why": "Margaret Byers, Ladies' Collegiate School",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s6.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s6.6.0",
+"strength": "helpful",
+"why": "Intermediate Education Act 1878",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s6.7.2",
+"strength": "helpful",
+"why": "Royal University degrees for women",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s5.3.3",
+"strength": "helpful",
+"why": "Liberal Unionists opposed 1886 Bill",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s6.1.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.1.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.1.1",
+"strength": "helpful",
+"why": "first sustained Ulster suffrage organisation",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s4.5.b",
+"strength": "helpful",
+"why": "Redmond and the Irish Party",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.3.b",
+"strength": "helpful",
+"why": "Franchise League's direct action",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.2.b",
+"strength": "helpful",
+"why": "Irish Party refusing to back votes",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s4.6.b",
+"strength": "helpful",
+"why": "Redmond and Dillon, Irish Party leaders",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s5.7.3",
+"strength": "essential",
+"why": "uses the Third Home Rule Bill",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.4.b",
+"strength": "helpful",
+"why": "Hanna Sheehy-Skeffington's views",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.2.1",
+"strength": "helpful",
+"why": "Irish Women's Franchise League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.3.0",
+"strength": "helpful",
+"why": "the Franchise League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.3.0",
+"strength": "helpful",
+"why": "the Franchise League members",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s4.6.b",
+"strength": "helpful",
+"why": "Redmond as Irish Party leader",
+"confidence": "low"
+}
+]
+},
+"hist-ire2-s6.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.3.2",
+"strength": "helpful",
+"why": "imprisoned suffragettes",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.3.4",
+"strength": "helpful",
+"why": "hunger strike by suffragettes",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.3.b",
+"strength": "helpful",
+"why": "militant suffragette tactics",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.3.0",
+"strength": "helpful",
+"why": "founding of Franchise League",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.5.1",
+"strength": "helpful",
+"why": "Cumann na mBan's auxiliary status",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.4.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s5.8.1",
+"strength": "essential",
+"why": "women's Ulster Day declaration",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s4.8.4",
+"strength": "helpful",
+"why": "founding of Cumann na mBan",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.3.1",
+"strength": "essential",
+"why": "the Irish Citizen newspaper",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.5.4",
+"strength": "helpful",
+"why": "women's vote in 1918",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.6.b",
+"strength": "helpful",
+"why": "Intermediate Education Act 1878",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.6.0",
+"strength": "essential",
+"why": "Intermediate Board examinations",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.6.1",
+"strength": "essential",
+"why": "results fees system",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.6.0",
+"strength": "essential",
+"why": "Intermediate examinations open to girls",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.6.1",
+"strength": "essential",
+"why": "payment by results",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s6.6.1",
+"strength": "helpful",
+"why": "payment by results principle",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.6.5",
+"strength": "helpful",
+"why": "1900 programme and Irish in schools",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.6.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.7.0",
+"strength": "helpful",
+"why": "Catholic grievance over universities",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.7.1",
+"strength": "essential",
+"why": "the Royal University",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s6.7.1",
+"strength": "helpful",
+"why": "the Royal University being dissolved",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.7.3",
+"strength": "essential",
+"why": "the NUI",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.7.3",
+"strength": "helpful",
+"why": "the NUI and matriculation",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire2-s6.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s6.0.6",
+"strength": "helpful",
+"why": "women's local government votes",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s6.7.2",
+"strength": "helpful",
+"why": "degree access for women",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.2.4",
+"strength": "helpful",
+"why": "Home Rule Bills offering women nothing",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s6.3.6",
+"strength": "helpful",
+"why": "militancy dividing opinion",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.6.0",
+"strength": "helpful",
+"why": "Intermediate system",
+"confidence": "high"
+},
+{
+"id": "hist-ire2-s6.7.3",
+"strength": "helpful",
+"why": "1908 Universities Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.6.4",
+"strength": "essential",
+"why": "payment by results criticism",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire2-s6.2.3",
+"strength": "essential",
+"why": "Irish Party opposing suffrage for Home Rule",
+"confidence": "high"
+}
+]
+},
+"hist-ire2-s6.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire2-s6.5.b",
+"strength": "helpful",
+"why": "national question dividing suffragists",
+"confidence": "high"
+}
+]
+}
+}

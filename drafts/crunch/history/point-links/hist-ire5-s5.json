@@ -1,0 +1,1056 @@
+{
+"hist-ire5-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.7.0",
+"strength": "helpful",
+"why": "internment",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s4.8.1",
+"strength": "helpful",
+"why": "Bloody Sunday",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.9.2",
+"strength": "helpful",
+"why": "Direct Rule and suspension of Stormont",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.4.6",
+"strength": "helpful",
+"why": "founding of the SDLP",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s4.4.5",
+"strength": "helpful",
+"why": "founding of the Alliance Party",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.3.2",
+"strength": "helpful",
+"why": "Council of Ireland proposal",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.0.5",
+"strength": "helpful",
+"why": "unionist split over reform",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.0.1",
+"strength": "helpful",
+"why": "consent guarantee for the Union",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.2.0",
+"strength": "essential",
+"why": "the border poll",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.2.1",
+"strength": "essential",
+"why": "the nationalist boycott",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.2.2",
+"strength": "essential",
+"why": "poll result and turnout",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.0.3",
+"strength": "helpful",
+"why": "aim of new devolved government",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.1.0",
+"strength": "essential",
+"why": "power sharing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.0.0",
+"strength": "helpful",
+"why": "the Stormont parliament",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.3.0",
+"strength": "helpful",
+"why": "proportional representation in White Paper",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.6.0",
+"strength": "helpful",
+"why": "Brian Faulkner",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.4.2",
+"strength": "essential",
+"why": "Faulkner supporters versus opponents",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s4.5.4",
+"strength": "helpful",
+"why": "Craig and Vanguard",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.4.2",
+"strength": "essential",
+"why": "unionist split",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.4.1",
+"strength": "helpful",
+"why": "Assembly seats won",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s5.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.6.0",
+"strength": "helpful",
+"why": "Faulkner",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s4.4.6",
+"strength": "helpful",
+"why": "Fitt and the SDLP",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.0.4",
+"strength": "helpful",
+"why": "SDLP and Alliance",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.0.4",
+"strength": "helpful",
+"why": "SDLP parties",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s5.0.4",
+"strength": "helpful",
+"why": "SDLP and Alliance",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.4.2",
+"strength": "helpful",
+"why": "pro-agreement Unionists",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s5.1.0",
+"strength": "helpful",
+"why": "power sharing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.9.0",
+"strength": "helpful",
+"why": "Heath as Prime Minister",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s5.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.0.4",
+"strength": "helpful",
+"why": "SDLP and Alliance",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.6.1",
+"strength": "helpful",
+"why": "Heath at Sunningdale",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.3.2",
+"strength": "essential",
+"why": "Council of Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.0",
+"strength": "essential",
+"why": "Council of Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.0.1",
+"strength": "helpful",
+"why": "consent for Northern Ireland status",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s5.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.2",
+"strength": "essential",
+"why": "consent guarantee",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.0.4",
+"strength": "helpful",
+"why": "nationalist distrust of police",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.3.2",
+"strength": "essential",
+"why": "Council of Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.8.1",
+"strength": "helpful",
+"why": "Articles 2 and 3",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.8.2",
+"strength": "essential",
+"why": "Boland case",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.8.3",
+"strength": "essential",
+"why": "Irish government defence",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.0",
+"strength": "essential",
+"why": "Council of Ireland",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s5.4.2",
+"strength": "helpful",
+"why": "Faulkner Unionists",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.9.0",
+"strength": "essential",
+"why": "Council rejection",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.9.1",
+"strength": "helpful",
+"why": "Faulkner leaving party",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.0",
+"strength": "helpful",
+"why": "Council of Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.5.0",
+"strength": "helpful",
+"why": "executive taking office",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.4.3",
+"strength": "helpful",
+"why": "unionist opponents of power sharing",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.10.0",
+"strength": "essential",
+"why": "the UUUC",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.10.0",
+"strength": "essential",
+"why": "the UUUC",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.9.3",
+"strength": "helpful",
+"why": "Whitelaw as earlier Secretary of State",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.10.2",
+"strength": "helpful",
+"why": "election result",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.6.3",
+"strength": "helpful",
+"why": "Sunningdale agreement",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s5.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s4.5.1",
+"strength": "helpful",
+"why": "UDA and UVF",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.11.1",
+"strength": "helpful",
+"why": "the UWC strike",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.11.1",
+"strength": "helpful",
+"why": "strikers",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.0",
+"strength": "essential",
+"why": "Council of Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.12.2",
+"strength": "essential",
+"why": "delay proposal",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.12.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.0",
+"strength": "essential",
+"why": "Council of Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.4.3",
+"strength": "helpful",
+"why": "unionist opposition",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.11.1",
+"strength": "helpful",
+"why": "UWC strike",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.12.0",
+"strength": "essential",
+"why": "Rees refusing to negotiate",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.8.2",
+"strength": "essential",
+"why": "Boland case",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.13.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.10.3",
+"strength": "helpful",
+"why": "Labour government of 1974",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.13.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.13.1",
+"strength": "helpful",
+"why": "lack of unionist support",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s4.6.0",
+"strength": "helpful",
+"why": "Faulkner earlier career",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.5.1",
+"strength": "helpful",
+"why": "Chief Executive role",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.14.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s5.9.0",
+"strength": "essential",
+"why": "Council of Ireland vote",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.12.3",
+"strength": "essential",
+"why": "delay proposal rejected",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.14.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.14.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.14.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.9.2",
+"strength": "helpful",
+"why": "Unionist Party of Northern Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.14.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.6.1",
+"strength": "helpful",
+"why": "Sunningdale conference",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.0",
+"strength": "helpful",
+"why": "Council of Ireland",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.11.0",
+"strength": "helpful",
+"why": "the strike",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.15.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.16.4",
+"strength": "helpful",
+"why": "Sunningdale for slow learners",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.15.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.16.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.0.2",
+"strength": "helpful",
+"why": "Direct Rule",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.2",
+"strength": "helpful",
+"why": "Irish role",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s5.16.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.16.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.13.7",
+"strength": "helpful",
+"why": "unionist consent",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.5.4",
+"strength": "helpful",
+"why": "executive formed",
+"confidence": "low"
+}
+]
+},
+"hist-ire5-s5.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.7.2",
+"strength": "helpful",
+"why": "consent principle",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.9.4",
+"strength": "helpful",
+"why": "executive duration",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.13.1",
+"strength": "helpful",
+"why": "lack of unionist majority",
+"confidence": "high"
+},
+{
+"id": "hist-ire5-s5.8.0",
+"strength": "helpful",
+"why": "Council of Ireland rejection",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.17.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire5-s5.17.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.11.0",
+"strength": "helpful",
+"why": "Ulster Workers Council",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.17.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire5-s5.17.3",
+"strength": "helpful",
+"why": "failure for lack of consent",
+"confidence": "high"
+}
+]
+},
+"hist-ire5-s5.17.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire5-s5.13.1",
+"strength": "helpful",
+"why": "unionist support",
+"confidence": "high"
+}
+]
+}
+}

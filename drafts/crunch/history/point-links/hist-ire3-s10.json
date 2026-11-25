@@ -1,0 +1,524 @@
+{
+"hist-ire3-s10.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.1.0",
+"strength": "helpful",
+"why": "Government of Ireland Act 1920",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.5.b",
+"strength": "helpful",
+"why": "the 1937 constitution",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.2.b": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s10.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.1.0",
+"strength": "helpful",
+"why": "compulsory Irish in schools",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.1.3",
+"strength": "helpful",
+"why": "the Gaeltacht defined",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.1.0",
+"strength": "helpful",
+"why": "the compulsion in schools",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.4.6",
+"strength": "helpful",
+"why": "1937 constitution on family and Church",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.4.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s10.4.2",
+"strength": "essential",
+"why": "the Censorship of Publications Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.4.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s6.5.b",
+"strength": "helpful",
+"why": "the 1937 constitution",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.4.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.5.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.5.2": {
+"cost": 2,
+"needs": []
+},
+"hist-ire3-s10.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.0.1",
+"strength": "essential",
+"why": "the GAA",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.5.4",
+"strength": "essential",
+"why": "the GAA ban on foreign games",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.0.b",
+"strength": "helpful",
+"why": "the Gaelic and Catholic ideal",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.3.b",
+"strength": "helpful",
+"why": "Unionist government",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.6.0",
+"strength": "helpful",
+"why": "Lord Londonderry as Minister",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.6.1",
+"strength": "essential",
+"why": "the 1923 Education Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.6.1",
+"strength": "helpful",
+"why": "the non-denominational state system",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s10.6.1",
+"strength": "essential",
+"why": "transferred schools under the 1923 Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.6.3",
+"strength": "essential",
+"why": "Catholic schools kept outside the state",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s10.6.4",
+"strength": "helpful",
+"why": "the 1930 committee arrangement",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.0.1",
+"strength": "helpful",
+"why": "the GAA",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.2.6",
+"strength": "essential",
+"why": "the Special Powers Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s3.4.4",
+"strength": "helpful",
+"why": "Craig 1934 statement",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s10.4.6",
+"strength": "helpful",
+"why": "Catholic emphasis of the 1937 constitution",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.8.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.8.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.8.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire3-s10.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s10.1.4",
+"strength": "helpful",
+"why": "An Gúm",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s10.5.1",
+"strength": "helpful",
+"why": "the Abbey Theatre",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s10.5.2",
+"strength": "helpful",
+"why": "Radio Éireann",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s10.5.3",
+"strength": "helpful",
+"why": "the Folklore Commission",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.1.0",
+"strength": "helpful",
+"why": "compulsory Irish",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s10.2.1",
+"strength": "helpful",
+"why": "Gaeltacht decline",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.8.b",
+"strength": "helpful",
+"why": "Evie Hone",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.4.2",
+"strength": "helpful",
+"why": "censorship of writers",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s10.0.3",
+"strength": "helpful",
+"why": "conformity",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire3-s10.6.5",
+"strength": "helpful",
+"why": "divided school system",
+"confidence": "high"
+},
+{
+"id": "hist-ire3-s10.7.b",
+"strength": "helpful",
+"why": "separate cultural traditions",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire3-s10.0.3",
+"strength": "helpful",
+"why": "conformist vision",
+"confidence": "high"
+}
+]
+},
+"hist-ire3-s10.9.6": {
+"cost": 1,
+"needs": []
+}
+}

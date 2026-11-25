@@ -1,0 +1,1431 @@
+{
+"hist-eur6-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.0.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.4.2",
+"strength": "helpful",
+"why": "Truman became president",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.1.0",
+"strength": "helpful",
+"why": "the American atomic monopoly",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.1.2",
+"strength": "helpful",
+"why": "the Long Telegram",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.1.3",
+"strength": "essential",
+"why": "containment",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.2.1",
+"strength": "essential",
+"why": "the Truman Doctrine",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.3.1",
+"strength": "helpful",
+"why": "the Marshall Plan",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.4.1",
+"strength": "helpful",
+"why": "NATO",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.1.3",
+"strength": "helpful",
+"why": "containment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.2.0",
+"strength": "essential",
+"why": "Greece and Turkey aid",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.1.3",
+"strength": "helpful",
+"why": "containment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.0.5",
+"strength": "helpful",
+"why": "Chinese civil war",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s1.3.1",
+"strength": "helpful",
+"why": "National Security Council",
+"confidence": "low"
+},
+{
+"id": "hist-eur6-s2.7.2",
+"strength": "helpful",
+"why": "the Korean War",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.1.3",
+"strength": "helpful",
+"why": "containment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.3.0",
+"strength": "essential",
+"why": "Marshall proposed recovery programme",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.3.1",
+"strength": "helpful",
+"why": "the Marshall Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.3.1",
+"strength": "helpful",
+"why": "the Marshall aid",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.3.1",
+"strength": "essential",
+"why": "the aid being allocated",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.3.1",
+"strength": "essential",
+"why": "Marshall aid",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.2.2",
+"strength": "helpful",
+"why": "Czechoslovakia under Soviet pressure",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.0.0",
+"strength": "helpful",
+"why": "pre-war isolationism",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.4.2",
+"strength": "helpful",
+"why": "Article 5 collective defence",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.4.1",
+"strength": "helpful",
+"why": "NATO",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.0.7",
+"strength": "essential",
+"why": "Germany divided into zones",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.0.7",
+"strength": "helpful",
+"why": "Berlin in the Soviet zone",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.0.7",
+"strength": "essential",
+"why": "Berlin within the Soviet zone",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.5.0",
+"strength": "essential",
+"why": "the blockade",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.5.1",
+"strength": "essential",
+"why": "the airlift",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.5.0",
+"strength": "essential",
+"why": "the blockade",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.5.1",
+"strength": "helpful",
+"why": "the airlift",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.5.3",
+"strength": "helpful",
+"why": "the airlift outcome",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.0.7",
+"strength": "helpful",
+"why": "Western sectors of Berlin",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.4.3",
+"strength": "helpful",
+"why": "creation of East Germany",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.6.1",
+"strength": "essential",
+"why": "refugees fleeing to the West",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.6.2",
+"strength": "essential",
+"why": "the Berlin Wall",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.6.2",
+"strength": "essential",
+"why": "the Berlin Wall",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.6.2",
+"strength": "helpful",
+"why": "the Berlin Wall",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.7.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s2.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.7.0",
+"strength": "helpful",
+"why": "divided Korea",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.7.0",
+"strength": "essential",
+"why": "North and South Korea",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.7.2",
+"strength": "essential",
+"why": "UN response to the invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.7.2",
+"strength": "essential",
+"why": "US forces sent to Korea",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.1.0",
+"strength": "helpful",
+"why": "Congress declares war",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s2.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.1.3",
+"strength": "essential",
+"why": "containment",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.7.2",
+"strength": "helpful",
+"why": "the Korean invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.7.2",
+"strength": "helpful",
+"why": "the Korean War",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.7.2",
+"strength": "essential",
+"why": "UN forces in Korea",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.8.0",
+"strength": "essential",
+"why": "UN advance after Inchon",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.7.0",
+"strength": "helpful",
+"why": "the 38th parallel",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.8.1",
+"strength": "essential",
+"why": "war with Chinese intervention",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.7.0",
+"strength": "helpful",
+"why": "the 38th parallel",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.2.4",
+"strength": "essential",
+"why": "NSC-68 defence spending",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.8.3",
+"strength": "helpful",
+"why": "the armistice",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.0.6",
+"strength": "essential",
+"why": "imperialism",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.9.0",
+"strength": "helpful",
+"why": "US economic dominance",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.9.1",
+"strength": "essential",
+"why": "Cuban nationalisation of US property",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.9.2",
+"strength": "helpful",
+"why": "US trade embargo on Cuba",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.9.1",
+"strength": "helpful",
+"why": "Castro's government",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.7.4",
+"strength": "helpful",
+"why": "Kennedy as president",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s2.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.9.4",
+"strength": "helpful",
+"why": "US hostility to Castro",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.9.3",
+"strength": "helpful",
+"why": "Soviet link with Cuba",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.9.3",
+"strength": "helpful",
+"why": "Cuba allied to the Soviets",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.10.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.10.0",
+"strength": "essential",
+"why": "Soviet missiles in Cuba",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.10.0",
+"strength": "essential",
+"why": "the discovery of the missiles",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.10.2",
+"strength": "essential",
+"why": "the naval measure chosen",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.10.3",
+"strength": "essential",
+"why": "the quarantine",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.10.3",
+"strength": "helpful",
+"why": "the quarantine",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.10.3",
+"strength": "essential",
+"why": "the quarantine line",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.10.0",
+"strength": "helpful",
+"why": "U-2 over Cuba",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.10.0",
+"strength": "essential",
+"why": "the missiles in Cuba",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.10.1",
+"strength": "essential",
+"why": "Jupiter missiles in Turkey",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.11.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.11.2",
+"strength": "essential",
+"why": "the public pledge deal",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.11.3",
+"strength": "essential",
+"why": "the secret Jupiter withdrawal",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.1.3",
+"strength": "helpful",
+"why": "containment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.12.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.12.0",
+"strength": "essential",
+"why": "French war in Vietnam",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.7.5",
+"strength": "helpful",
+"why": "the domino theory",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.12.1",
+"strength": "helpful",
+"why": "US aid to France",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s2.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.12.0",
+"strength": "essential",
+"why": "the French defeat in Vietnam",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.12.3",
+"strength": "essential",
+"why": "the Geneva division of Vietnam",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.12.4",
+"strength": "helpful",
+"why": "US support for Diem",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.12.4",
+"strength": "helpful",
+"why": "the South Vietnamese government",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.13.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.12.5",
+"strength": "helpful",
+"why": "Eisenhower's advisers",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.12.5",
+"strength": "essential",
+"why": "US advisers in South Vietnam",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.13.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.12.4",
+"strength": "essential",
+"why": "Diem",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.12.4",
+"strength": "essential",
+"why": "Diem",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.13.2",
+"strength": "helpful",
+"why": "protests against Diem",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.13.3",
+"strength": "essential",
+"why": "Diem's overthrow",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s1.7.6",
+"strength": "essential",
+"why": "Kennedy assassination",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.14.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.14.1",
+"strength": "helpful",
+"why": "Vietnamisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.14.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.14.0",
+"strength": "helpful",
+"why": "Nixon Doctrine",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.14.1",
+"strength": "helpful",
+"why": "withdrawal under Vietnamisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.14.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.14.3",
+"strength": "helpful",
+"why": "communist bases in Cambodia",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.14.1",
+"strength": "essential",
+"why": "Vietnamisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.14.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.14.1",
+"strength": "helpful",
+"why": "Vietnamisation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.14.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.14.6",
+"strength": "helpful",
+"why": "the 1972 bombing campaign",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.15.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.1.3",
+"strength": "helpful",
+"why": "containment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.1.3",
+"strength": "helpful",
+"why": "containment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.8.3",
+"strength": "essential",
+"why": "the Korean armistice",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.15.0",
+"strength": "helpful",
+"why": "nuclear deterrence policy",
+"confidence": "low"
+}
+]
+},
+"hist-eur6-s2.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.15.0",
+"strength": "essential",
+"why": "massive retaliation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.11.2",
+"strength": "helpful",
+"why": "the missile crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.16.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s1.4.2",
+"strength": "essential",
+"why": "Truman succeeding Roosevelt",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.0.2",
+"strength": "helpful",
+"why": "the Potsdam conference",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.1.0",
+"strength": "essential",
+"why": "the atomic bombings",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.16.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.2.1",
+"strength": "helpful",
+"why": "the Truman Doctrine",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.3.1",
+"strength": "helpful",
+"why": "the Marshall Plan",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.4.1",
+"strength": "helpful",
+"why": "NATO",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.5.2",
+"strength": "helpful",
+"why": "the Berlin airlift",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.16.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.7.4",
+"strength": "essential",
+"why": "sending forces without Congress",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.8.2",
+"strength": "essential",
+"why": "MacArthur dismissal",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.5.2",
+"strength": "essential",
+"why": "the airlift decision",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.8.2",
+"strength": "helpful",
+"why": "limited war in Korea",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.2.3",
+"strength": "helpful",
+"why": "\"Who lost China?\" attack",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.16.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.1.3",
+"strength": "helpful",
+"why": "containment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.16.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.17.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.16.1",
+"strength": "essential",
+"why": "Truman's European achievements",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.2.3",
+"strength": "essential",
+"why": "loss of China",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.8.3",
+"strength": "helpful",
+"why": "Korea stalemate",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.17.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.15.0",
+"strength": "essential",
+"why": "massive retaliation",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.12.4",
+"strength": "helpful",
+"why": "support for Diem",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.12.5",
+"strength": "helpful",
+"why": "US advisers",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.17.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.9.4",
+"strength": "essential",
+"why": "the Bay of Pigs",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.10.2",
+"strength": "essential",
+"why": "ExComm and the quarantine",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.13.0",
+"strength": "essential",
+"why": "16,000 advisers",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.17.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.14.2",
+"strength": "essential",
+"why": "troop levels under Vietnamisation",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.14.4",
+"strength": "helpful",
+"why": "Cambodia incursion",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.16.1",
+"strength": "helpful",
+"why": "Marshall Plan, NATO, airlift",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.8.3",
+"strength": "essential",
+"why": "the Korean stalemate",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.18.1",
+"strength": "helpful",
+"why": "Korea outcome",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.18.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.9.4",
+"strength": "essential",
+"why": "the Bay of Pigs",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.11.2",
+"strength": "essential",
+"why": "missile crisis settlement",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.11.3",
+"strength": "essential",
+"why": "Jupiters withdrawn secretly",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.18.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s2.13.0",
+"strength": "helpful",
+"why": "advisers",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.12.5",
+"strength": "helpful",
+"why": "early commitment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s2.18.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur6-s2.18.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s2.18.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s2.7.5",
+"strength": "essential",
+"why": "Korea and the domino theory",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.8.0",
+"strength": "helpful",
+"why": "UN force in Korea",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s2.12.2",
+"strength": "helpful",
+"why": "domino theory in Vietnam",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,990 @@
+{
+"hist-eur3-s11.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.0.1",
+"strength": "helpful",
+"why": "follows the pogroms and Dreyfus examples",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.0.0",
+"strength": "essential",
+"why": "uses religious versus racial anti-Semitism",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.0.0",
+"strength": "helpful",
+"why": "racial theories about Jews",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.0.1",
+"strength": "helpful",
+"why": "uses Mein Kampf",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.0.2",
+"strength": "helpful",
+"why": "uses the Versailles settlement",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.7.1",
+"strength": "helpful",
+"why": "Mein Kampf written in prison",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.2.2",
+"strength": "helpful",
+"why": "the Versailles settlement",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.1.1",
+"strength": "helpful",
+"why": "builds on blame for 1918 defeat",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.1.5",
+"strength": "helpful",
+"why": "the stab in the back myth",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.4.2",
+"strength": "helpful",
+"why": "the 1923 hyperinflation",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.1.0",
+"strength": "helpful",
+"why": "racial hierarchy of Aryans",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.15.0",
+"strength": "helpful",
+"why": "uses Lebensraum",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.7.1",
+"strength": "helpful",
+"why": "Lebensraum as set out in Mein Kampf",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.0.0",
+"strength": "helpful",
+"why": "Hitler appointed Chancellor 1933",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.14.1",
+"strength": "helpful",
+"why": "Hitler appointed Chancellor 30 January 1933",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.1.0",
+"strength": "helpful",
+"why": "race science from Nazi ideology",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.2.1",
+"strength": "helpful",
+"why": "the civil service law itself",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.3.2",
+"strength": "essential",
+"why": "the two Nuremberg Laws",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.3.2",
+"strength": "essential",
+"why": "the Nuremberg Laws that lacked a definition",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.12.7",
+"strength": "helpful",
+"why": "the Anschluss with Austria",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.4.1",
+"strength": "helpful",
+"why": "Austria annexed in 1938",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.4.0",
+"strength": "helpful",
+"why": "emigrants lost property",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.5.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s11.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.5.0",
+"strength": "essential",
+"why": "vom Rath shot by Grynszpan",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s2.11.2",
+"strength": "helpful",
+"why": "Goebbels as propaganda chief",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.5.1",
+"strength": "helpful",
+"why": "the pogrom launched by Goebbels",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.5.2",
+"strength": "helpful",
+"why": "arrests after Kristallnacht",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.5.2",
+"strength": "helpful",
+"why": "damage done in Kristallnacht",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.6.0",
+"strength": "essential",
+"why": "offer made at Evian conference",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.4.3",
+"strength": "helpful",
+"why": "emigration limits and visas",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.14.6",
+"strength": "helpful",
+"why": "the invasion of Poland",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.2.1",
+"strength": "helpful",
+"why": "Soviet invasion of eastern Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.7.0",
+"strength": "helpful",
+"why": "occupied territories after invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.4.0",
+"strength": "helpful",
+"why": "Britain not defeated in 1940",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.7.0",
+"strength": "helpful",
+"why": "Jews in occupied Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.7.3",
+"strength": "essential",
+"why": "administered the ghettos",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.7.3",
+"strength": "essential",
+"why": "conditions in the ghettos",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.7.0",
+"strength": "helpful",
+"why": "Operation Barbarossa invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.8.0",
+"strength": "essential",
+"why": "the Einsatzgruppen killing units",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.8.0",
+"strength": "helpful",
+"why": "shooting by Einsatzgruppen",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.7.0",
+"strength": "helpful",
+"why": "Star of David marking",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.5.1",
+"strength": "helpful",
+"why": "Heydrich as SS security chief",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s3.5.0",
+"strength": "helpful",
+"why": "Himmler head of the SS",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s3.5.1",
+"strength": "helpful",
+"why": "Heydrich of the SD",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.9.1",
+"strength": "helpful",
+"why": "Heydrich as organiser",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.9.2",
+"strength": "essential",
+"why": "the Wannsee Conference",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.9.2",
+"strength": "helpful",
+"why": "the Wannsee minutes",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.9.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.15.6",
+"strength": "helpful",
+"why": "intentionalist and functionalist terms",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s3.6.0",
+"strength": "helpful",
+"why": "Dachau as a concentration camp",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.10.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.10.0",
+"strength": "essential",
+"why": "death camp versus labour camp",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.10.1",
+"strength": "helpful",
+"why": "Treblinka among Reinhard camps",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.10.1",
+"strength": "helpful",
+"why": "Auschwitz-Birkenau as a camp",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.10.3",
+"strength": "helpful",
+"why": "Auschwitz-Birkenau gas chambers",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.12.1",
+"strength": "essential",
+"why": "the T4 programme",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.9.2",
+"strength": "helpful",
+"why": "Eichmann introduced at Wannsee",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.10.3",
+"strength": "helpful",
+"why": "Auschwitz as destination",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.11.3",
+"strength": "helpful",
+"why": "Soviet advance 1944-45",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.11.3",
+"strength": "helpful",
+"why": "the six million total",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.10.0",
+"strength": "helpful",
+"why": "Bergen-Belsen camp",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.12.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.12.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.12.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s9.7.1",
+"strength": "helpful",
+"why": "rapid German advance in USSR",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.12.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.1.3",
+"strength": "helpful",
+"why": "Slavs as Untermenschen",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.13.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.7.3",
+"strength": "essential",
+"why": "the Warsaw ghetto",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.13.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.10.1",
+"strength": "helpful",
+"why": "Treblinka and Sobibor camps",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.13.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.7.3",
+"strength": "helpful",
+"why": "life in the ghettos",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.7.3",
+"strength": "helpful",
+"why": "the Warsaw ghetto",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.14.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.3.6",
+"strength": "helpful",
+"why": "Vichy regime after French defeat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.4.0",
+"strength": "helpful",
+"why": "seizure of Jewish property",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.14.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.14.2",
+"strength": "helpful",
+"why": "rescuers who saved Jews",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.14.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.14.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.14.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.14.5",
+"strength": "helpful",
+"why": "Allies knew of the killing",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s9.19.2",
+"strength": "helpful",
+"why": "Allied bombing capability",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.15.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s9.11.3",
+"strength": "helpful",
+"why": "Soviet advance into Poland 1944",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.15.0",
+"strength": "helpful",
+"why": "liberation of the camps",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.15.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.11.0",
+"strength": "helpful",
+"why": "Eichmann organised deportations",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.15.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur3-s11.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur3-s11.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur3-s11.14.2",
+"strength": "helpful",
+"why": "Righteous Among the Nations",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s11.14.4",
+"strength": "helpful",
+"why": "the Danish rescue",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.16.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.14.0",
+"strength": "helpful",
+"why": "collaborators such as Vichy",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s11.13.0",
+"strength": "helpful",
+"why": "ghetto fighters",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s11.13.4",
+"strength": "helpful",
+"why": "Ringelblum archive",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.16.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.6.0",
+"strength": "helpful",
+"why": "Evian conference",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s11.15.2",
+"strength": "helpful",
+"why": "Nuremberg trials and crimes against humanity",
+"confidence": "high"
+},
+{
+"id": "hist-eur3-s11.15.4",
+"strength": "helpful",
+"why": "Genocide Convention",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.16.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.14.5",
+"strength": "helpful",
+"why": "Allies knew by 1942",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.16.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.9.5",
+"strength": "essential",
+"why": "intentionalist and functionalist explanations",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.16.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur3-s11.8.1",
+"strength": "helpful",
+"why": "police battalions as killers",
+"confidence": "high"
+}
+]
+}
+}
