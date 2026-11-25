@@ -288,3 +288,16 @@ not in the notes. 11.1% of marks are still untagged, almost all on parts with no
 With 2026 tagged it scores like an ordinary year (56/72/88% at levels 40/60/80) and is a test year again (2020–2026).
 Cuts at 85/75/65/55% overall (AAC 80): 46/75/91/95%, against 44/73/91/95% before the merge.
 Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the question asks for the non-eukaryotic term.
+
+## Crunch Mode in the app (prototype, 2026-11-25, Biology only)
+- `deno run -A scripts/crunch_export.js biology` → `biology-crunch.js` (116 KB, loaded with the Biology subject pack).
+  It holds each note point's written-paper level, `{outcome id: {"block.point": level}}`, taken from the map's scoring
+  and year-by-year backtest at the map defaults. Re-run it after rebuilding the map data.
+- Full Notes toolbar: a "Crunch" pill opens an inline panel with an on/off switch, H1–H8 (the map's 95…25), and the
+  expected AAC %. Settings live in localStorage `bb-crunch` per subject. The panel says the written mark needed and
+  how many points are hidden across the course.
+- When on, a point is hidden if its level ≥ (grade − w×AAC)/(1 − w). A block with nothing left disappears, heading and
+  exam tip included. Each page ends "Crunch Mode hid X of Y points on this page" with Show them / Hide them (shown
+  faded). Live reading skips faded points. Flashcards, tests and exam questions are untouched.
+- Feel check: at H5 with an 80% AAC the written paper needs 38%, so 95% of points go, and many pages are empty.
+  At H2 (88% written), about 45% go.

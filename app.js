@@ -441,6 +441,7 @@ function bindEvents() {
   els.openFullNotes.addEventListener("click", () => openFullNotes());
   els.closeFullNotes.addEventListener("click", () => leavePhoneScreen("notes", closeFullNotes));
   bindFullNotesPager();
+  bindCrunch();
   bindLiveReader();
   els.closeProgress.addEventListener("click", () => leavePhoneScreen("progress", closeProgress));
   // A reload starts again from the subject list, so drop any phone screen entry it restored
@@ -4864,6 +4865,8 @@ function openFullNotes(outcomeId = selectedOutcomeId) {
   notesOutcomeId = chapterHasSubsections(chapter) ? outcomeId : "";
   els.openLiveReading.classList.remove("hidden");
   closeLiveReader();
+  els.crunchPanel.classList.add("hidden");
+  renderCrunchControls();
   renderFullNotesPage();
   els.fullNotesScreen.classList.remove("hidden");
   document.body.style.overflow = "hidden";
@@ -4942,7 +4945,139 @@ function bindFullNotesPager() {
   }, { passive: true });
 }
 
+// ── Crunch Mode: hide the note points a student doesn't need for their target grade (CRUNCH_MODE.md) ──
+// window.CRUNCH[subject] (from <subject>-crunch.js) gives each point the written-paper mark at which it is
+// first hidden, keyed "<outcome id>" → "<block>.<point>" ("b" = the block's paragraph).
+const CRUNCH_KEY = "bb-crunch";
+const CRUNCH_GRADES = [["H1", 95], ["H2", 85], ["H3", 75], ["H4", 65], ["H5", 55], ["H6", 45], ["H7", 35], ["H8", 25]];
+let crunchReveal = false; // show hidden points, dimmed
+let crunchPage = { hidden: 0, total: 0 }; // counted while the page's notes are built
+
+function crunchData(subjectId = selectedSubjectId) {
+  return window.CRUNCH?.[subjectId] || null;
+}
+
+function crunchSettings(subjectId = selectedSubjectId) {
+  let all = {};
+  try { all = JSON.parse(localStorage.getItem(CRUNCH_KEY) || "{}"); } catch {}
+  return { on: false, grade: "H5", aac: 80, ...(all[subjectId] || {}) };
+}
+
+function saveCrunchSettings(patch, subjectId = selectedSubjectId) {
+  let all = {};
+  try { all = JSON.parse(localStorage.getItem(CRUNCH_KEY) || "{}"); } catch {}
+  all[subjectId] = { ...crunchSettings(subjectId), ...patch };
+  try { localStorage.setItem(CRUNCH_KEY, JSON.stringify(all)); } catch {}
+}
+
+// The written-paper mark needed: the AAC is marked separately, so the notes only have to cover the rest.
+function crunchNeed(data, settings) {
+  const grade = (CRUNCH_GRADES.find(([h]) => h === settings.grade) || CRUNCH_GRADES[4])[1];
+  const w = data.aac?.weight || 0;
+  const aac = Math.max(0, Math.min(100, Number(settings.aac) || 0));
+  return w ? (grade - w * aac) / (1 - w) : grade;
+}
+
+// null when Crunch Mode is off (or the subject has no Crunch data); otherwise "is this point hidden?"
+function crunchFilter(subjectId = selectedSubjectId) {
+  const data = crunchData(subjectId), settings = crunchSettings(subjectId);
+  if (!data || !settings.on) return null;
+  const need = crunchNeed(data, settings);
+  return (outcomeId, key) => {
+    const level = data.levels[outcomeId]?.[key];
+    return level != null && level >= need;
+  };
+}
+
+function crunchPageNote() {
+  if (!crunchFilter() || !crunchPage.total) return "";
+  const { hidden, total } = crunchPage;
+  if (!hidden) return `<div class="crunch-note"><span>Crunch Mode keeps all ${total} points on this page.</span></div>`;
+  const what = hidden === total ? `all ${total} points` : `${hidden} of ${total} points`;
+  return `
+    <div class="crunch-note">
+      <span>${crunchReveal ? `Showing the ${hidden} hidden points, faded.` : `Crunch Mode hid ${what} on this page.`}</span>
+      <button class="crunch-reveal" type="button" data-crunch-reveal>${crunchReveal ? "Hide them" : "Show them"}</button>
+    </div>`;
+}
+
+function renderCrunchControls() {
+  const data = crunchData();
+  els.crunchToggle.classList.toggle("hidden", !data);
+  if (!data) {
+    els.crunchPanel.classList.add("hidden");
+    return;
+  }
+  const settings = crunchSettings();
+  els.crunchToggle.textContent = settings.on ? `Crunch · ${settings.grade}` : "Crunch";
+  els.crunchToggle.classList.toggle("is-on", settings.on);
+  els.crunchToggle.setAttribute("aria-expanded", String(!els.crunchPanel.classList.contains("hidden")));
+  if (els.crunchPanel.classList.contains("hidden")) return;
+
+  const need = crunchNeed(data, settings);
+  let hidden = 0, total = 0;
+  for (const points of Object.values(data.levels)) for (const level of Object.values(points)) { total++; if (level >= need) hidden++; }
+  const summary = !settings.on
+    ? "Hide the note points you don't need for the grade you're aiming for. Tests and exam questions stay as they are."
+    : need > 100 ? `With ${settings.aac}% in your ${escapeHtml(data.aac.name)}, ${settings.grade} needs over 100% on the written paper, so nothing is hidden.`
+    : need <= 0 ? `Your ${escapeHtml(data.aac.name)} alone reaches ${settings.grade}, so every point is hidden.`
+    : `${settings.grade} needs <b>${Math.round(need)}%</b> on the written paper${data.aac ? ` with ${settings.aac}% in your ${escapeHtml(data.aac.name)}` : ""}. Crunch Mode hides <b>${hidden.toLocaleString("en-IE")}</b> of ${total.toLocaleString("en-IE")} points, the ones least likely to earn marks, checked against the ${data.years.length} most recent papers.`;
+  els.crunchPanel.innerHTML = `
+    <div class="crunch-panel-inner">
+      <label class="crunch-switch">
+        <input id="crunchOn" type="checkbox" role="switch" ${settings.on ? "checked" : ""}>
+        <span class="crunch-switch-track" aria-hidden="true"></span>
+        <span>Crunch Mode</span>
+      </label>
+      <div class="crunch-grades" role="radiogroup" aria-label="Target grade">
+        ${CRUNCH_GRADES.map(([h]) => `<button type="button" role="radio" aria-checked="${h === settings.grade}" data-crunch-grade="${h}">${h}</button>`).join("")}
+      </div>
+      ${data.aac ? `<label class="crunch-aac">Expected AAC <input id="crunchAac" type="number" min="0" max="100" step="1" inputmode="numeric" value="${Number(settings.aac) || 0}"> %</label>` : ""}
+      <p class="crunch-summary">${summary}</p>
+    </div>`;
+}
+
+function rerenderCrunch() {
+  renderCrunchControls();
+  const scroll = els.fullNotesBody.scrollTop;
+  renderFullNotesPage();
+  els.fullNotesBody.scrollTop = scroll;
+}
+
+function bindCrunch() {
+  els.crunchToggle.addEventListener("click", () => {
+    els.crunchPanel.classList.toggle("hidden");
+    renderCrunchControls();
+  });
+  els.crunchPanel.addEventListener("change", (event) => {
+    if (event.target.id === "crunchOn") { saveCrunchSettings({ on: event.target.checked }); rerenderCrunch(); }
+  });
+  els.crunchPanel.addEventListener("click", (event) => {
+    const grade = event.target.closest("[data-crunch-grade]");
+    if (grade) { saveCrunchSettings({ grade: grade.dataset.crunchGrade, on: true }); rerenderCrunch(); }
+  });
+  let aacTimer;
+  els.crunchPanel.addEventListener("input", (event) => {
+    if (event.target.id !== "crunchAac") return;
+    clearTimeout(aacTimer);
+    aacTimer = setTimeout(() => {
+      saveCrunchSettings({ aac: Math.max(0, Math.min(100, Number(event.target.value) || 0)) });
+      const caret = event.target.selectionStart;
+      rerenderCrunch();
+      const input = document.getElementById("crunchAac");
+      input?.focus();
+      try { input?.setSelectionRange(caret, caret); } catch {}
+    }, 300);
+  });
+  els.fullNotesBody.addEventListener("click", (event) => {
+    if (!event.target.closest("[data-crunch-reveal]")) return;
+    crunchReveal = !crunchReveal;
+    rerenderCrunch();
+  });
+}
+
 function buildFullNotesHtml(chapter, outcome = null) {
+  crunchPage = { hidden: 0, total: 0 };
   const source = getOriginalChapter(chapter.id);
   if (source && Array.isArray(source.learningOutcomes) && source.learningOutcomes.length) {
     // If chapter.id is an LO id (not the chapter's own id), show only that LO's notes.
@@ -4966,20 +5101,36 @@ function buildFullNotesHtml(chapter, outcome = null) {
         const points = (lo.notes || []).length
           ? lo.notes
           : (lo.keyTerms || []).map((point) => ({ h: point.term, b: point.definition }));
+        // Crunch Mode only applies to authored notes, whose points carry ids "<block>.<point>"
+        const hiddenAt = (lo.notes || []).length ? crunchFilter() : null;
+        const cut = (key) => {
+          if (!hiddenAt) return false;
+          crunchPage.total++;
+          const hidden = hiddenAt(lo.id, key);
+          if (hidden) crunchPage.hidden++;
+          return hidden;
+        };
         const noteHtml = points
-          .map(
-            (n) => `
-              <div class="note-block">
+          .map((n, bi) => {
+            const paraCut = n.b && String(n.b).trim() ? cut(`${bi}.b`) : false;
+            const items = Array.isArray(n.points) ? n.points.map((pt, pi) => [pt, String(pt).trim() ? cut(`${bi}.${pi}`) : false]) : [];
+            const hasContent = Boolean(n.b) || items.length;
+            const allCut = hasContent && !(n.b && !paraCut) && !items.some(([, c]) => !c);
+            if (allCut && !crunchReveal) return ""; // nothing left: drop the heading and tip too
+            const shown = items.filter(([, c]) => !c || crunchReveal);
+            const faded = (c) => (c ? ' class="is-crunched"' : "");
+            return `
+              <div class="note-block${allCut ? " is-crunched" : ""}">
                 <h5>${escapeHtml(compactText(n.h || ""))}</h5>
-                ${n.b ? `<p>${escapeHtml(compactText(n.b))}</p>` : ""}
-                ${Array.isArray(n.points) && n.points.length
-                  ? `<ul class="note-points">${n.points
-                      .map((pt) => `<li>${escapeHtml(compactText(pt))}</li>`)
+                ${n.b && (!paraCut || crunchReveal) ? `<p${faded(paraCut && !allCut)}>${escapeHtml(compactText(n.b))}</p>` : ""}
+                ${shown.length
+                  ? `<ul class="note-points">${shown
+                      .map(([pt, c]) => `<li${faded(c && !allCut)}>${escapeHtml(compactText(pt))}</li>`)
                       .join("")}</ul>`
                   : ""}
                 ${n.tip ? `<p class="note-tip"><span>Exam tip</span>${escapeHtml(compactText(n.tip))}</p>` : ""}
-              </div>`
-          )
+              </div>`;
+          })
           .join("");
         return `
           <section class="lo-block">
@@ -5108,6 +5259,7 @@ function buildLiveReaderLines() {
     return line;
   };
   els.fullNotesBody.querySelectorAll("h4, h5, p, li").forEach((el) => {
+    if (el.closest(".is-crunched")) return; // points Crunch Mode hid, shown faded, aren't read aloud
     const text = compactText(el.textContent);
     if (!text) return;
     if (el.tagName === "H4" || el.tagName === "H5") {

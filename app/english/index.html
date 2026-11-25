@@ -407,10 +407,12 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
           </button>
           <div class="full-notes-actions">
+            <button id="crunchToggle" class="button-secondary crunch-pill hidden" type="button" aria-expanded="false" aria-controls="crunchPanel">Crunch</button>
             <button id="openLiveReading" class="button-primary live-reading-btn hidden" type="button">Live reading</button>
             <button id="closeFullNotes" class="button-secondary">Close</button>
           </div>
         </div>
+        <div id="crunchPanel" class="crunch-panel hidden" role="group" aria-label="Crunch Mode"></div>
         <div id="fullNotesBody" class="full-notes-body"></div>
         <div id="liveReader" class="live-reader hidden" aria-label="Live reading">
           <div class="live-reader-progress"><span id="liveReaderProgress"></span></div>
