@@ -5,75 +5,133 @@
   "syllabusRef": "2.1.5",
   "notes": [
     {
-      "h": "Types of refrigeration appliance",
+      "h": "What a refrigeration appliance does",
+      "b": "A refrigerator does not make cold. It removes heat from inside the cabinet and gives it out into the room, and the food left behind is cooler as a result.",
       "points": [
-        "Under-counter fridge: a low unit that fits beneath a worktop and usually has no separate freezer compartment.",
-        "Larder fridge: a single-door unit for chilled food, without a freezer compartment.",
-        "Fridge-freezer: a combined unit with separate fridge and freezer compartments, each with its own door.",
+        "A refrigerator keeps food at 0 to 5°C (at or below 5°C), which slows the growth of micro-organisms and the activity of enzymes, so spoilage is slower.",
+        "A freezer holds food at -18°C or colder, which stops micro-organisms growing, so food keeps for much longer.",
+        "Keeping the cabinet at 5°C or below keeps food outside the danger zone of 5°C to 63°C, where bacteria multiply quickly."
+      ],
+      "tip": "Never say the compressor makes the cold or that the fridge produces cold air. Say that heat is moved out of the cabinet."
+    },
+    {
+      "h": "Types of refrigeration appliance",
+      "b": "Refrigeration appliances differ in size, layout and whether they include a freezer. In an exam you pick one type to study, so know what sets each apart.",
+      "points": [
+        "Under-counter fridge (standard): a low unit that fits beneath a worktop and usually has no separate freezer compartment.",
+        "Larder fridge: a single-door, all-fridge unit for chilled food, without a freezer compartment.",
+        "Fridge-freezer: a combined unit with separate fridge and freezer compartments, each with its own door, and one or two compressors.",
         "American fridge: a tall, wide unit with side-by-side doors, often with an ice and water dispenser in the door.",
-        "Integrated model: built into kitchen units, with a door panel that matches the cabinet doors."
-      ]
+        "Integrated model: built into kitchen units, with a door panel that matches the cabinet doors so it blends in.",
+        "Upright freezer and chest freezer: freezer-only units, either tall with a front door or a low box with a lid on top.",
+        "Retro style: a refrigerator with a classic, old-fashioned look."
+      ],
+      "tip": "A full study of a refrigerator starts with the type. Name the appliance you are describing and give its main features."
     },
     {
       "h": "Parts of a refrigerator and their functions",
+      "b": "A refrigerator is a sealed loop of parts that move a fluid, the refrigerant, round and round. Each part has one job, and examiners ask for these jobs in short sentences.",
       "points": [
-        "Compressor: a motor-driven pump at the base that compresses the gaseous refrigerant, raising its pressure and temperature.",
-        "Condenser: a coil, usually at the back or underneath, where the hot gaseous refrigerant gives off heat and condenses into a liquid.",
+        "Compressor: a pump driven by an electric motor, usually at the back or base. It draws in low-pressure gaseous refrigerant and compresses it into hot, high-pressure gas, which also drives it round the loop.",
+        "Condenser: a coil of tubing, a black grille at the back or in the walls, where the hot gaseous refrigerant gives out heat to the surrounding air and condenses (changes) into a liquid. It is usually at the back or underneath.",
         "Expansion valve or capillary tube: a narrow restriction that lowers the pressure of the liquid refrigerant before it enters the evaporator.",
-        "Evaporator: a coil inside the cabinet where the liquid refrigerant evaporates, absorbing heat from the food compartment.",
-        "Refrigerant: a fluid that evaporates at a low temperature, so it takes in heat as it changes from liquid to gas.",
-        "Thermostat: senses the cabinet temperature and switches the motor on and off to hold the cabinet at about 5°C or below.",
-        "Diagram: a closed loop of compressor, condenser, expansion valve and evaporator, labelled with the state and pressure of the refrigerant at each point."
-      ]
+        "Evaporator: a coil inside the cabinet, often in the freezer compartment or behind the back panel, where the liquid refrigerant evaporates (changes to gas), absorbing heat from the food compartment so the cabinet cools.",
+        "Refrigerant: the fluid that circulates in the sealed system. It evaporates at a low temperature, so it takes in heat from inside the fridge, and it releases that heat when it condenses.",
+        "Thermostat: senses the cabinet temperature and switches the compressor motor off when the set temperature is reached and on again when the cabinet warms, holding it at about 5°C or below. The dial is turned to a colder or warmer setting.",
+        "Other parts: the insulated cabinet, a door seal (gasket) that keeps cold air in, an interior light that comes on when the door opens, and shelves and drawers.",
+        "Diagram: draw a closed loop of compressor, condenser, expansion valve and evaporator, with arrows for the flow of refrigerant and labels for gas or liquid and hot or cold at each part. Each part is also labelled high or low pressure."
+      ],
+      "tip": "The condenser and evaporator are the two most often swapped. The condenser is outside and warm, gives out heat and turns gas to liquid. The evaporator is inside and cold, takes in heat and turns liquid to gas. The compressor squeezes the gas and does not cool it, and the thermostat switches the motor, not the evaporator or the refrigerant. For a six-mark parts question, give one short sentence for each of two or three parts."
     },
     {
       "h": "Refrigeration cycle",
+      "b": "The refrigerant passes through the four main parts in a fixed order. Heat is picked up inside the cabinet and released outside it, and the cycle repeats until the thermostat switches the motor off.",
       "points": [
-        "1. The compressor draws in low-pressure gaseous refrigerant and compresses it into hot, high-pressure gas.",
+        "1. The motor drives the compressor, which draws in low-pressure gaseous refrigerant and compresses it into hot, high-pressure gas and forces it into the condenser.",
         "2. The hot gas flows to the condenser, where it releases heat to the kitchen air and condenses into a liquid.",
-        "3. The liquid passes through the expansion valve, where its pressure falls and some of it begins to vaporise.",
-        "4. In the evaporator the refrigerant boils at a low temperature, drawing heat from the cabinet, and becomes a low-pressure gas that returns to the compressor."
-      ]
+        "3. The liquid passes through the capillary tube or expansion valve into the evaporator, where the pressure is low, so its pressure falls and some of it begins to vaporise.",
+        "4. In the evaporator the refrigerant boils at a low temperature, drawing heat from inside the cabinet, so the cabinet and food are cooled. It becomes a low-pressure gas.",
+        "5. The gas returns to the compressor and the cycle repeats until the thermostat switches the motor off.",
+        "Modern refrigerators use a hydrocarbon refrigerant (isobutane), which does not damage the ozone layer. Older appliances used CFC refrigerants, which are now banned."
+      ],
+      "tip": "For the working principle, give the stages in sequence and say gas or liquid and hot or cold at each part. Name isobutane as the modern refrigerant, not an older CFC refrigerant. Describe pressure as high or low only, never as numbers."
     },
     {
       "h": "Refrigeration physics (Higher Level only)",
       "b": "A refrigerator moves heat from a cold space to a warmer room, which needs work from the compressor and so a continuous supply of electrical energy.",
       "points": [
-        "The boiling point of a liquid falls as the pressure on it falls; the expansion valve lowers the pressure so the refrigerant boils at a low temperature in the evaporator.",
-        "Latent heat of vaporisation: the refrigerant absorbs a large amount of heat from the cabinet as it evaporates, without a rise in its own temperature.",
-        "Compression raises the pressure and temperature of the gas, and the condenser releases the latent heat as the gas changes back to a liquid.",
-        "Heat flows from the warm cabinet air to the cold refrigerant through the walls of the evaporator by conduction.",
-        "Heat is pumped against its natural direction of flow, from cold to hot, so the compressor must do work on the refrigerant."
-      ]
+        "Heat flows naturally from hot to cold. A refrigerator pumps heat against that direction, from the cold cabinet to the warm room, so the compressor must do work on the refrigerant.",
+        "The boiling point of a liquid falls as the pressure on it falls. The expansion valve lowers the pressure, so the refrigerant boils at a low temperature in the evaporator.",
+        "Raising the pressure raises the condensing temperature, so the hot gas can release heat to the room air in the condenser.",
+        "Latent heat of vaporisation: the refrigerant absorbs a large amount of heat from the cabinet as it evaporates, without a rise in its own temperature. This is how the evaporator takes heat from the cabinet.",
+        "Compression raises both the pressure and the temperature of the gas, which is why the condenser is warm. The condenser releases the latent heat as the gas changes back to a liquid.",
+        "Heat flows from the warm cabinet air to the cold refrigerant through the walls of the evaporator by conduction."
+      ],
+      "tip": "At Higher Level, explain the cycle using pressure, boiling point and latent heat. At Ordinary Level the cycle is given in plain words without this physics."
     },
     {
-      "h": "Guidelines for use",
+      "h": "Guidelines for use: siting, loading and temperature",
+      "b": "Where you put a refrigerator and how you load it decide how well it keeps food safe and how hard the motor has to work. Each guideline has a reason, and examiners want the reason with it.",
       "points": [
-        "Install the refrigerator on a level surface, away from cookers, radiators and direct sunlight, and leave space behind it so air can circulate around the condenser.",
+        "Install the refrigerator on a level surface, away from the cooker, radiators, boiler and direct sunlight, and leave space behind and above it so air can circulate around the condenser and carry heat away.",
+        "Keep the cabinet at 5°C or below (0 to 5°C), using a thermometer if necessary, with the freezer compartment at -18°C. This keeps food outside the danger zone of 5°C to 63°C, in which bacteria multiply quickly.",
         "Cool hot food before placing it in the refrigerator, since hot food raises the cabinet temperature and makes the motor work harder.",
-        "Cover food to prevent it drying out and to stop strong flavours passing between foods.",
-        "Store raw meat and fish on the lowest shelf, below cooked food and dairy, so that drips cannot contaminate food stored beneath.",
-        "Keep the cabinet at 5°C or below; this keeps food outside the danger zone of 5°C to 63°C, in which bacteria multiply quickly.",
-        "Avoid opening the door unnecessarily, since each opening lets in warm air and makes the motor run for longer.",
-        "Do not overpack the cabinet, because air must circulate around food for even cooling.",
+        "Cover or wrap food to prevent it drying out and to stop strong flavours passing between foods.",
+        "Store raw meat and fish on the lowest shelf, in covered containers and below cooked food and dairy, so that juices cannot drip onto food stored beneath. Keep cooked and raw foods separate.",
+        "Do not store opened tins in the tin. Transfer the food to a covered container.",
+        "Do not overpack the cabinet, because air must circulate around food for even cooling."
+      ],
+      "tip": "When asked for three or four guidelines, give each one with its reason. For example, cool food first because hot food raises the cabinet temperature, and put raw meat on the bottom shelf so juices cannot drip onto other food."
+    },
+    {
+      "h": "Guidelines for use: daily use, cleaning and absences",
+      "b": "Good habits during daily use save electricity and stop food going off, and regular care keeps the appliance working properly.",
+      "points": [
+        "Avoid opening the door unnecessarily, and keep it open as briefly as possible, since each opening lets in warm air and makes the motor run for longer.",
         "Use food in rotation, first in and first out, so that items are eaten before their use-by or best-before date.",
         "Thaw frozen food in the refrigerator rather than at room temperature, so the food stays cold while it thaws.",
-        "Clean the inside with warm water and bicarbonate of soda, avoid strong-smelling cleaners, and check the door seal regularly, since a damaged seal lets warm air in."
+        "Clean the inside with warm water and bicarbonate of soda, avoid strong-smelling cleaners, and wipe the door seal. Check the door seal regularly, since a damaged seal lets warm air in.",
+        "Clean the dust from the condenser grille at the back occasionally, so the condenser can give out heat freely.",
+        "Defrost the freezer regularly if it is not frost-free: switch off, unplug, collect the water, and never use a knife or sharp object to remove ice.",
+        "In a power cut, keep the doors shut so the cold is held in. If the appliance is left empty for a long time, switch it off and leave the door open to prevent mould."
       ]
     },
     {
-      "h": "Modern features",
+      "h": "Energy efficiency",
+      "b": "A refrigerator runs all day, every day, so small habits and a good choice of appliance make a real difference to running costs and to the environment.",
       "points": [
-        "Automatic (frost-free) defrosting uses a timed heater or fan to melt or remove frost from the evaporator, and the water drains away.",
+        "Choose a high energy class on the A to G energy label, the scale that rates how efficient an appliance is, and the correct size for the household.",
+        "Keep the refrigerator away from heat, keep the door closed as much as possible, and cool food before storing it.",
+        "Defrost when needed, clean the condenser, and check the door seal so warm air cannot leak in.",
+        "Do not set the cabinet colder than needed, since colder settings make the motor run for longer.",
+        "Choose modern features that save energy, such as LED lighting and an inverter compressor.",
+        "The star rating applies to the freezer compartment only, not to the fresh-food compartment."
+      ],
+      "tip": "A full study asks for the energy efficiency rating: give the A to G scale and say which direction is efficient. A question on environmental responsibility with fridges looks for an efficient class, the correct size, the door kept shut, no overloading and responsible disposal of the old appliance through take-back. Do not give the star rating as a measure of fridge temperature."
+    },
+    {
+      "h": "Modern features: control, storage and convenience",
+      "b": "Modern refrigerators add features that make food storage easier and more reliable. Exams ask for about three, so be ready to say what each does.",
+      "points": [
+        "Automatic (frost-free) defrosting: a fan circulates cold air and a timed heater periodically melts frost from the evaporator, and the water drains away, so no manual defrost is needed.",
         "Zoned refrigeration gives separate areas at different temperatures, such as a chill zone for meat and fish.",
-        "Humidity-controlled drawers keep fruit and vegetables fresh by controlling the moisture in the drawer.",
-        "Gated shelves hold tall bottles securely, and flexible shelving adjusts to items of different heights.",
-        "A digital display shows the cabinet temperature and allows it to be adjusted.",
-        "A quick-chill or power-chill setting cools newly added food rapidly, reducing the rise in temperature of the other food in the cabinet.",
-        "An open-door alarm sounds if the door is left ajar.",
-        "A drinks dispenser in the door, or an internal or external ice maker, gives chilled water and ice without opening the main door.",
+        "Humidity-controlled drawers (crisper drawers) keep fruit and vegetables fresh by controlling the moisture in the drawer.",
+        "Gated shelves hold tall bottles securely, and flexible or adjustable shelving fits items of different heights. Bottle or wine racks hold bottles.",
+        "A digital display shows the cabinet temperature and allows it to be adjusted, using electronic controls.",
+        "A quick-chill, power-chill or fast-freeze setting cools newly added food rapidly, reducing the rise in temperature of the other food in the cabinet.",
+        "An open-door alarm sounds if the door is left ajar. A holiday mode is also available."
+      ],
+      "tip": "Examiners accept frost free, automatic defrost, water and ice dispenser, humidity control drawers and zoned storage as modern features. Name three and say what each does."
+    },
+    {
+      "h": "Modern features: dispensers, saving energy and smart control",
+      "b": "Other features add convenience, hygiene and lower running costs, and some connect the refrigerator to your phone.",
+      "points": [
+        "A drinks dispenser in the door, or an internal or external ice maker, gives chilled water and ice without opening the main door. It is usually found on American-style models.",
         "LED lighting uses less electricity than traditional bulbs and gives off little heat into the cabinet.",
-        "Antibacterial coatings on interior surfaces reduce the build-up of bacteria, and smart refrigerators can be monitored and controlled from a phone."
+        "An inverter (variable-speed) compressor runs at the speed needed, which saves energy and reduces noise.",
+        "Antibacterial coatings on interior surfaces reduce the build-up of bacteria.",
+        "Smart refrigerators can be monitored and controlled from a phone."
       ]
     }
   ],

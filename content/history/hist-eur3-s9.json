@@ -5,121 +5,324 @@
   "syllabusRef": "E3 P; C",
   "notes": [
     {
-      "h": "Blitzkrieg and the war in Poland, 1939",
-      "b": "Blitzkrieg, or lightning war, combined fast armoured thrusts with air power and was first used on a large scale against Poland in September 1939.",
+      "h": "How the war began, and the legacy of 1914-1918",
+      "b": "The Second World War began because Hitler's demands on Poland met a British and French promise to defend it, after Germany and the Soviet Union had agreed to share eastern Europe. It was fought at first with weapons and ideas still shaped by the First World War.",
       "points": [
-        "Blitzkrieg relied on concentrated armoured divisions, close air support from dive-bombers such as the Junkers Ju 87 Stuka, and rapid breakthroughs that encircled enemy forces.",
-        "Germany invaded Poland on 1 September 1939, and the Polish army was defeated within about five weeks, with Warsaw surrendering at the end of September.",
-        "The Soviet Union invaded eastern Poland on 17 September 1939 under the terms of the Nazi-Soviet Pact, and the two powers divided the country.",
-        "Britain and France declared war on Germany on 3 September 1939, but their armies made no major attack on the Western Front during the Phoney War.",
-        "The Phoney War lasted from September 1939 until the German offensive in the west in May 1940.",
-        "Germany invaded Denmark and Norway on 9 April 1940; Denmark fell within hours, and Norway was conquered by June despite a failed Anglo-French landing, giving Germany Atlantic naval bases and Swedish iron-ore supplies."
-      ]
-    },
-    {
-      "h": "The fall of France and the Battle of Britain, 1940",
-      "b": "In May and June 1940 German armoured forces defeated France in six weeks, and the Battle of Britain that followed was the first major campaign fought entirely in the air.",
-      "points": [
-        "The German offensive in the west began on 10 May 1940, with an advance through the Netherlands, Belgium and the Ardennes, which bypassed the Maginot Line.",
-        "German armoured divisions reached the Channel coast at Abbeville by 20 May, cutting off the British and French forces in the north.",
-        "The Battle of Britain was fought from July to October 1940, as the Luftwaffe attacked RAF airfields and aircraft factories in an attempt to gain air superiority.",
-        "The RAF's Fighter Command, using Spitfire and Hurricane fighters and the radar early-warning Chain Home system, defeated the attempt to win air superiority.",
-        "Germany then switched to bombing London and other cities in the Blitz, which began on 7 September 1940 and continued into 1941.",
-        "Germany's invasion plan for Britain, Operation Sea Lion, was postponed in September 1940 and then abandoned."
-      ]
-    },
-    {
-      "h": "Two fronts: Barbarossa, Pearl Harbor and the war in the Pacific, 1941-1945",
-      "points": [
-        "Operation Barbarossa, the German invasion of the Soviet Union, began on 22 June 1941 along a front of about 3,000 kilometres from the Baltic to the Black Sea.",
-        "German forces advanced rapidly in the first months and reached the outskirts of Moscow and Leningrad by late 1941, but were halted by the winter and Soviet counter-attacks in December.",
-        "The Japanese attack on the US Pacific Fleet at Pearl Harbor on 7 December 1941 brought the United States into the war, and Germany and Italy declared war on the United States on 11 December.",
-        "The Lend-Lease Act of March 1941 allowed the United States to supply Britain, and later the Soviet Union, with weapons and equipment without immediate payment.",
-        "Japan's attacks also took the Philippines, Malaya and Singapore, forcing Britain to surrender Singapore in February 1942.",
-        "Japan had been at war with China since 1937 and occupied French Indochina in 1940 and 1941; the United States responded with an oil embargo, which pushed Japan towards the attack of December 1941.",
-        "Within months Japan captured Hong Kong, Malaya, Singapore, the Dutch East Indies, the Philippines and Burma.",
-        "The American victory at Midway in June 1942, in which four Japanese carriers were sunk, ended Japan's advance, and the Guadalcanal campaign began the American counter-offensive.",
-        "The United States used an island-hopping strategy, backed by submarines and carrier air power, to approach Japan, and later bombed Japanese cities with B-29 bombers.",
-        "Japan surrendered after the atomic bombs and the Soviet declaration of war on 8 August 1945; the formal surrender was signed on 2 September 1945."
+        "In March 1939 Britain and France guaranteed Poland's independence, which meant that a German attack on Poland would bring them into the war. Hitler's demands on Poland were what tested that promise.",
+        "On 23 August 1939 Germany and the Soviet Union signed the Nazi-Soviet Pact (also called the Molotov-Ribbentrop Pact). Its secret protocol divided Poland and eastern Europe into German and Soviet spheres, so each side could take its share without fighting the other.",
+        "Tanks, military aircraft, submarines and poison gas were all used in 1914-18, and the British first used tanks in battle on the Somme on 15 September 1916. But tanks were slow and unreliable, so the war stayed mostly static trench warfare (armies dug in along fixed lines)."
       ],
-      "b": "The German invasion of the Soviet Union and the Japanese attack on the United States in December 1941 turned the war into a global conflict."
+      "tip": "Date the pacts precisely and do not confuse them: the Nazi-Soviet Pact is August 1939, while the Pact of Steel between Germany and Italy is May 1939."
+    },
+    {
+      "h": "Blitzkrieg: the key concept",
+      "b": "Blitzkrieg is German for 'lightning war'. It names a way of fighting designed to win quickly and so avoid the long trench stalemate of 1914-18.",
+      "points": [
+        "Its core was the concentrated Panzer division (a German armoured division, with tanks massed together rather than spread out), working with motorised infantry, meaning foot soldiers carried in vehicles so that they could keep up with the tanks.",
+        "Close air support came from dive-bombers such as the Junkers Ju 87 Stuka, which attacked enemy positions as the tanks advanced, and radio communication let commanders direct tanks and aircraft together at speed.",
+        "The method depended on speed and breakthrough: armour broke through a weak point in the enemy line and then encircled the defenders, which meant they were cut off and forced to surrender instead of fighting a drawn-out war.",
+        "'Blitzkrieg' was a label popularised by the Western press in 1939-40. German commanders did not use it as the name of an official doctrine, so it is best understood as a description of a method.",
+        "Poland in 1939 showed the method, although that campaign was largely a conventional advance with tanks in support. France in 1940 is the classic example of blitzkrieg, where it was perfected."
+      ],
+      "tip": "A short paragraph on blitzkrieg should say what it was, give a named example and state its effect on the war. Use France in 1940 as the example rather than claiming Poland was the first full blitzkrieg."
+    },
+    {
+      "h": "Poland, the Phoney War, Denmark and Norway, 1939-1940",
+      "b": "Germany's first campaigns showed how fast armoured forces could win. Britain and France, though at war with Germany, made no major attack in the west for months.",
+      "points": [
+        "Germany invaded Poland on 1 September 1939, and Britain and France declared war on Germany on 3 September 1939.",
+        "The Soviet Union invaded eastern Poland on 17 September 1939 under the Nazi-Soviet Pact, and the two powers divided the country between them. Warsaw surrendered at the end of September and the last Polish forces in early October, about five weeks in all.",
+        "During the Phoney War, from September 1939 until the German offensive in the west in May 1940, Britain and France made no major attack on the Western Front (the border between France and Germany). It was called phoney because so little fighting took place.",
+        "Germany invaded Denmark and Norway on 9 April 1940. Denmark surrendered the same day.",
+        "British, French and Polish forces landed in Norway, including at Narvik, but were withdrawn by early June 1940, and Norway capitulated that month.",
+        "Victory gave Germany naval bases and secured the route for Swedish iron ore, the raw material for steel, which was shipped through Narvik.",
+        "The failure in Norway led to the Norway debate in the House of Commons on 7-8 May 1940, which led to Prime Minister Neville Chamberlain's resignation on 10 May 1940."
+      ]
+    },
+    {
+      "h": "The fall of France, May-June 1940",
+      "b": "In six weeks in the spring of 1940 German armour defeated France. The speed of the defeat is the standard example of blitzkrieg.",
+      "points": [
+        "The German offensive in the west began on 10 May 1940, with attacks on the Netherlands, Belgium and Luxembourg and the main armoured thrust through the Ardennes (a hilly, wooded region).",
+        "This bypassed the Maginot Line, the chain of French fortifications along the German border, so the fortifications were outflanked rather than attacked.",
+        "The plan is known as the 'sickle cut' (Sichelschnitt) and is associated with Erich von Manstein, because the armour swung like a sickle blade through the Ardennes to the sea.",
+        "German tanks reached the Channel coast near Abbeville on 20 May 1940, cutting off the British and French forces in the north.",
+        "From 26 May to 4 June 1940 Operation Dynamo evacuated over 330,000 Allied troops from Dunkirk. Almost all their heavy equipment was left behind, so the army was saved but its tanks and guns were lost.",
+        "Italy declared war on Britain and France on 10 June 1940, although it was not ready for war.",
+        "The Franco-German armistice (ceasefire agreement) of 22 June 1940 ended the fighting in France. The collapse of the French government and the setting up of the Vichy regime followed, but the military defeat itself took only six weeks."
+      ]
+    },
+    {
+      "h": "The Battle of Britain and the Blitz, 1940",
+      "b": "With France beaten, Britain stood alone. Hitler's plan to invade depended on first winning control of the skies, so the Battle of Britain became the first major campaign fought entirely in the air.",
+      "points": [
+        "The Battle of Britain was fought from July to October 1940. The Luftwaffe (the German air force) attacked RAF airfields and aircraft factories to gain air superiority, meaning control of the air, which was needed before an invasion called Operation Sea Lion could be risked.",
+        "RAF Fighter Command, flying Hawker Hurricane and Supermarine Spitfire fighters and using the Chain Home radar early-warning system, defeated the attempt to win air superiority. Chain Home gave warning of raids so that fighters could be sent up in time.",
+        "Operation Sea Lion was postponed in September 1940 (indefinitely, on 17 September) and then abandoned.",
+        "Germany then switched to bombing London and other cities in the Blitz, which began on 7 September 1940 and continued until May 1941."
+      ],
+      "tip": "Do not confuse the Battle of Britain with the Blitz. The Battle of Britain (July-October 1940) was an air battle for air superiority, while the Blitz (September 1940 to May 1941) was the bombing of cities."
+    },
+    {
+      "h": "The Mediterranean and the Balkans, 1940-1941",
+      "b": "Italy's failures dragged Germany into campaigns it had not planned. This widened the war to the Balkans and North Africa.",
+      "points": [
+        "Italy invaded Greece in October 1940 and was driven back. British forces defeated the Italians in Libya between December 1940 and February 1941.",
+        "Germany had to intervene to rescue its ally: Erwin Rommel and the Afrika Korps (the German force in North Africa) were sent there in February 1941, and Germany invaded Yugoslavia and Greece in April 1941.",
+        "German intervention in the Balkans and North Africa stretched German resources. Historians debate whether the Balkan campaign delayed the invasion of the Soviet Union in a way that mattered, because the late spring and supply problems also caused delay."
+      ]
+    },
+    {
+      "h": "The Nazi-Soviet partnership, 1939-1941",
+      "b": "Nazi Germany and communist Russia were bitter ideological enemies, yet from August 1939 until June 1941 they co-operated because each gained from it.",
+      "points": [
+        "The two powers jointly partitioned Poland in September 1939, so each gained territory at Poland's expense.",
+        "German-Soviet trade agreements supplied Germany with Soviet oil, grain and raw materials until 22 June 1941, which meant the Soviet Union was helping to feed and fuel the German war effort.",
+        "Operation Barbarossa, the German invasion of the Soviet Union on 22 June 1941, ended the partnership. It had been a convenience for both sides rather than a real friendship."
+      ],
+      "tip": "For a cartoon of the Nazi-Soviet alliance, identify the leaders, explain why the alliance was surprising and artificial, say what ended it (Barbarossa, June 1941), and add why Germany was finally defeated: Allied industrial production and manpower."
+    },
+    {
+      "h": "Operation Barbarossa, 1941",
+      "b": "Hitler's invasion of the Soviet Union opened the largest front of the war. It ended the Nazi-Soviet partnership and committed Germany to a long war in the east.",
+      "points": [
+        "Operation Barbarossa began on 22 June 1941 along a front of about 3,000 kilometres from the Baltic to the Black Sea.",
+        "German forces advanced rapidly in the first months and reached the outskirts of Moscow and Leningrad by late 1941. Leningrad was besieged from September 1941 (until January 1944).",
+        "The Germans were halted before Moscow by the winter and by the Soviet counter-offensive that began in December 1941. The hoped-for quick victory, the aim of blitzkrieg, had failed."
+      ]
+    },
+    {
+      "h": "Pearl Harbor and the war becomes global, 1941",
+      "b": "By the end of 1941 the wars in Europe and Asia had merged. Japan's attack on the United States brought America in, and Germany and Italy joined the fight against it.",
+      "points": [
+        "Japan had been at war with China since 1937. It occupied northern French Indochina (France's colony in south-east Asia) in 1940 and the south in July 1941.",
+        "The United States responded with an oil embargo in the summer of 1941, which pushed Japan towards the attack of December 1941.",
+        "On 7 December 1941 Japan attacked the US Pacific Fleet at Pearl Harbor, which brought the United States into the war.",
+        "Germany and Italy declared war on the United States on 11 December 1941, turning two separate wars into one global conflict."
+      ]
+    },
+    {
+      "h": "Japan's conquests and the war in the Pacific, 1941-1945",
+      "b": "Japan's early victories were rapid, but they were halted within six months by American carrier power. The United States then advanced island by island towards Japan.",
+      "points": [
+        "Within months Japan captured Hong Kong (25 December 1941), Malaya, Singapore (which Britain surrendered on 15 February 1942), the Dutch East Indies, the Philippines and Burma, so most of these conquests were complete by mid-1942.",
+        "The American victory at the Battle of Midway in June 1942, in which four Japanese aircraft carriers were sunk, ended Japan's advance. The Guadalcanal campaign, from August 1942, began the American counter-offensive.",
+        "The United States used an island-hopping strategy, capturing chosen islands as stepping stones towards Japan, backed by submarines and carrier air power. B-29 bombers later attacked Japanese cities.",
+        "The Soviet Union declared war on Japan on 8 August 1945, between the atomic bombs on Hiroshima and Nagasaki. Japan announced its surrender on 15 August, and the formal surrender was signed on 2 September 1945 aboard USS Missouri in Tokyo Bay."
+      ]
+    },
+    {
+      "h": "Turning points in the west and east, 1942-1943",
+      "b": "Between late 1942 and mid-1943 the Allies stopped the Axis advance on every major front. After this the Axis powers were mostly on the defensive.",
+      "points": [
+        "The Second Battle of El Alamein, from 23 October to early November 1942, was won by Montgomery's Eighth Army against Rommel's Axis forces in North Africa. It was the second of two battles there, and the decisive one.",
+        "Operation Torch, the Anglo-American landings in Morocco and Algeria, took place on 8 November 1942. The Axis forces in Tunisia surrendered in May 1943, so the Axis was expelled from North Africa.",
+        "The Battle of Stalingrad, from August 1942 to 2 February 1943, ended with the surrender of the German Sixth Army under Paulus. It was the turning point of the war in the east.",
+        "The Battle of Kursk in July 1943 was the last major German offensive in the east and one of the largest tank battles in history.",
+        "The Allies invaded Sicily on 10 July 1943, and Italy's armistice was announced on 8 September 1943. Germany occupied northern and central Italy, so the fighting there continued.",
+        "The Battle of the Atlantic, the naval war over Allied supply routes, lasted from 1939 to 1945 and was the longest campaign of the war.",
+        "Its turning point came in May 1943, when the U-boats (German submarines) suffered such losses that they were withdrawn from the North Atlantic for a time."
+      ],
+      "tip": "There were two battles of El Alamein, and the decisive one is the second, in October-November 1942. Do not confuse the Battle of the Atlantic (the naval war) with the Atlantic Charter (a statement of principles)."
+    },
+    {
+      "h": "D-Day and the defeat of Germany, 1944-1945",
+      "b": "The Normandy landings opened a second front in the west while the Red Army advanced from the east. Germany was squeezed between them until it collapsed in May 1945.",
+      "points": [
+        "D-Day, 6 June 1944, was Operation Overlord, the Allied landings on five beaches in Normandy. Dwight D. Eisenhower was supreme commander and Montgomery commanded the land forces in the landings.",
+        "Landing an army from the sea needed special equipment: landing craft, Mulberry harbours (prefabricated floating harbours towed to Normandy) and PLUTO (Pipe-Line Under The Ocean), a fuel pipeline across the Channel.",
+        "Allied forces broke out of the beachheads and liberated Paris on 25 August 1944.",
+        "The Soviet Red Army advanced into Poland and the Balkans in 1944, and the Soviet offensive on Berlin began on 16 April 1945.",
+        "Hitler killed himself in Berlin on 30 April 1945, and the Berlin garrison surrendered on 2 May.",
+        "German forces surrendered in May 1945: the surrender was signed at Reims on 7 May and in Berlin on 8 May, which became VE Day (Victory in Europe Day)."
+      ]
+    },
+    {
+      "h": "Why the Allies won",
+      "b": "The Allies did not win by one battle or one weapon. Once the Soviet Union and the United States were both fighting Germany, the balance of resources and mistakes decided the outcome.",
+      "points": [
+        "The United States and the Soviet Union together far out-produced Germany and Japan in tanks, aircraft and ships, and they had far greater manpower, so the Axis could not replace its losses as fast as the Allies.",
+        "The Axis made strategic mistakes: Germany fought on too many fronts, and it declared war on the United States in December 1941, adding the strongest industrial power to its enemies.",
+        "Allied intelligence and technology, such as radar and Ultra (intelligence from decoded enemy signals), helped the Allies make better use of their strength."
+      ],
+      "tip": "A frequent Ordinary Level answer is why the Allies won: give industrial production and manpower first, then Axis mistakes and Allied intelligence and technology. Do not give production numbers."
     },
     {
       "h": "The Axis alliance",
-      "b": "The Axis powers of Germany, Italy and Japan were linked by formal treaties, but their war aims were not coordinated and they often acted separately.",
+      "b": "The Axis powers of Germany, Italy and Japan were linked by treaties, but their war aims were not coordinated and they often acted separately.",
       "points": [
-        "The Pact of Steel of 22 May 1939 bound Germany and Italy into a military alliance, although Italy was not ready for war when it entered in June 1940.",
-        "The Tripartite Pact of 27 September 1940 added Japan to the Axis, recognising the leadership of Germany and Italy in Europe and of Japan in East Asia.",
-        "Hungary, Romania, Bulgaria and Slovakia later joined the Axis, and Finland fought alongside Germany against the Soviet Union.",
-        "Italy's defeats in Greece and North Africa in 1940 and 1941 forced Germany to intervene in the Balkans and in North Africa, drawing forces away from Barbarossa.",
-        "The Axis powers did not share a joint strategy, and Germany and Japan did not coordinate their attacks on the Soviet Union and the United States."
-      ]
-    },
-    {
-      "h": "The Grand Alliance and its tensions",
-      "b": "Britain, the Soviet Union and the United States formed a wartime coalition in which cooperation over strategy and the future of Europe was often strained.",
-      "points": [
-        "Churchill and President Franklin Roosevelt issued the Atlantic Charter in August 1941, setting out shared principles including self-determination and the restoration of sovereignty to those deprived of it.",
-        "The Soviet Union joined the Allied coalition after Barbarossa, and Stalin repeatedly called for a second front in Western Europe to relieve pressure on the Red Army.",
-        "The Tehran Conference of November and December 1943 brought Roosevelt, Churchill and Stalin together for the first time, and it set the plan for the invasion of France.",
-        "The Yalta Conference of February 1945 agreed the occupation zones of Germany, the principle of free elections in liberated Eastern Europe and the entry of the Soviet Union into the war against Japan.",
-        "Disputes over the timing of the second front, the future of Poland and the Soviet occupation of Eastern Europe foreshadowed the tensions of the Cold War."
-      ]
-    },
-    {
-      "h": "Turning points and the road to D-Day, 1942-1945",
-      "b": "The Allied victories of 1942 and 1943 reversed the Axis advance, and the Normandy landings of June 1944 opened the way to the defeat of Germany.",
-      "points": [
-        "The Second Battle of El Alamein, from October to November 1942, defeated the Axis armies in North Africa under Erwin Rommel, and the Allies landed in Morocco and Algeria the same month.",
-        "The Battle of Stalingrad ended in February 1943 with the surrender of the German Sixth Army, and the Battle of Kursk in July 1943 became the last major German offensive in the east.",
-        "The Allies invaded Sicily in July 1943 and Italy's government surrendered in September 1943, but Germany occupied most of northern and central Italy.",
-        "The Normandy landings (D-Day) began on 6 June 1944, and Allied forces broke out of the beachheads and liberated Paris on 25 August 1944.",
-        "The Soviet Red Army advanced into Poland and the Balkans in 1944, and the Soviet offensive on Berlin began in April 1945.",
-        "Hitler killed himself in Berlin on 30 April 1945, and German forces surrendered in May 1945, with the surrender at Reims on 7 May and in Berlin on 8 May."
-      ]
-    },
-    {
-      "h": "The technology of warfare",
-      "b": "Technological developments shaped the war on land, at sea and in the air, and the decisive use of the atomic bomb ended the war against Japan.",
-      "points": [
-        "Tanks: the German Panzer divisions used radio communication and combined armour with motorised infantry, while the Soviet T-34 and the American Sherman were produced in large numbers.",
-        "Aircraft: strategic bombing by RAF Bomber Command and the US Army Air Forces attacked German cities, causing fires and civilian deaths, with the bombing of Hamburg in July 1943 and Dresden in February 1945 among the most devastating raids.",
-        "Radar: the British Chain Home system and later airborne and ship-borne radar gave early warning of attacks and helped locate U-boats and aircraft.",
-        "Codebreaking: at Bletchley Park the British decrypted German Enigma messages, and the resulting intelligence, known as Ultra, was used in the Battle of the Atlantic and the North African campaign.",
-        "Submarines and convoys: German U-boats sank large numbers of Allied merchant ships in the Atlantic, but the convoy system and escort groups reduced losses from 1943.",
-        "Rockets and jets: Germany's V-1 flying bombs were launched against London from June 1944 and its V-2 rockets from September 1944, and later against Antwerp, and the Messerschmitt Me 262 jet fighter entered service in 1944, too late to change the outcome.",
-        "Atomic weapons: the United States dropped atomic bombs on Hiroshima on 6 August 1945 and Nagasaki on 9 August 1945, and Japan announced its surrender on 15 August 1945; the bombs had been developed in the Manhattan Project, and the first test took place in New Mexico on 16 July 1945."
-      ]
-    },
-    {
-      "h": "Key personality: Winston Churchill",
-      "points": [
-        "Born in 1874 at Blenheim Palace into an aristocratic family, he entered Parliament in 1900 as a Conservative, joined the Liberals in 1904, was First Lord of the Admiralty from 1911 to 1915, and was Chancellor of the Exchequer from 1924 to 1929, then spent the 1930s out of office warning against Hitler.",
-        "He became First Lord of the Admiralty again in September 1939 and succeeded Neville Chamberlain as Prime Minister on 10 May 1940.",
-        "His speech of 4 June 1940 included the phrase 'we shall fight on the beaches', and his leadership in the Battle of Britain made him a symbol of national resistance.",
-        "He was a participant in the Allied conferences at Tehran and Yalta and negotiated closely with Roosevelt and Stalin, and he lost office in July 1945 after the general election.",
-        "Contemporaries, including some of his own party, criticised his part in the Gallipoli campaign in 1915 and his return to the gold standard in 1925, but his wartime leadership won wide admiration.",
-        "Historians have praised his resolve in 1940 and his strategic leadership, while criticising the bombing of German cities such as Dresden, the diversion of forces to the Mediterranean and Greece in 1941, and his attitude to colonial peoples, as in the Bengal famine of 1943.",
-        "He became Prime Minister at the head of a coalition including Labour leaders Clement Attlee and Ernest Bevin, and he also acted as Minister of Defence.",
-        "His speeches on the radio and in Parliament, including 'blood, toil, tears and sweat' (13 May 1940) and 'their finest hour' (18 June 1940), sustained morale after Dunkirk and during the Blitz.",
-        "Between 26 May and 4 June 1940, Operation Dynamo evacuated over 330,000 Allied troops from Dunkirk.",
-        "He built a close relationship with Roosevelt, meeting him at Placentia Bay, Washington, Casablanca (January 1943, where unconditional surrender was announced) and Quebec.",
-        "In October 1944 he met Stalin in Moscow and proposed the 'percentages agreement' on spheres of influence in the Balkans, which has been seen as a sign of wartime realism or of cynicism.",
-        "He attended the Potsdam Conference in July 1945 until the Labour election victory replaced him with Attlee."
+        "The Rome-Berlin Axis of 1936 was the forerunner. The Pact of Steel of 22 May 1939 then bound Germany and Italy into a military alliance, although Italy was not ready for war when it entered on 10 June 1940.",
+        "The Tripartite Pact of 27 September 1940, signed in Berlin, added Japan to the Axis. It recognised the leadership of Germany and Italy in Europe and of Japan in East Asia.",
+        "Hungary, Romania and Slovakia joined in November 1940 and Bulgaria in March 1941. Finland fought alongside Germany against the Soviet Union from June 1941 (the Continuation War) without signing the pact.",
+        "The Axis had no joint strategy or command. Italy was a drain on German resources, because its defeats in Greece and North Africa in 1940 and 1941 forced Germany to send help.",
+        "Japan and the Soviet Union signed a Neutrality Pact in April 1941, and Japan did not attack the Soviet Union until the Soviet Union attacked it in August 1945. Germany was not consulted over Pearl Harbor, so the two did not coordinate their attacks."
       ],
-      "b": "Churchill served as Prime Minister from May 1940 and led Britain through the war and the negotiations of the Grand Alliance."
+      "tip": "Date the Pact of Steel (May 1939, Germany and Italy) and the Tripartite Pact (September 1940, adding Japan). Do not mix them up with the Rome-Berlin Axis or the Anti-Comintern Pact (both 1936) or the Nazi-Soviet Pact (August 1939)."
     },
     {
-      "h": "The technology of warfare between the wars",
-      "b": "The 1920s and 1930s produced the ideas and machines that were used in the Second World War.",
+      "h": "Forming the Grand Alliance, 1940-1942",
+      "b": "Churchill called the coalition of Britain, the Soviet Union and the United States the 'Grand Alliance'. It grew in stages as each power was drawn into the war.",
       "points": [
-        "Armoured warfare theory by British writers such as J.F.C. Fuller and Basil Liddell Hart, and by the German general Heinz Guderian in Achtung - Panzer! (1937), influenced the formation of German Panzer divisions from 1935.",
-        "Air power theorists such as Giulio Douhet argued that bombers would decide wars; the bombing of Guernica in April 1937 by the German Condor Legion in the Spanish Civil War, which tested aircraft and tactics, shocked world opinion.",
-        "Britain developed radar from 1935, when Robert Watson-Watt showed that radio waves could detect aircraft, and Chain Home stations were built along the east and south coasts from 1936.",
-        "Fighter design improved with the Hawker Hurricane (first flown 1935) and the Supermarine Spitfire (1936), and the Messerschmitt Bf 109 entered service in Germany.",
-        "Polish mathematicians broke the early Enigma machine in the early 1930s and passed their methods to Britain and France in July 1939.",
-        "Frank Whittle patented the jet engine in 1930, and the first German jet aircraft, the Heinkel He 178, flew in August 1939.",
-        "Rocket research by Wernher von Braun for the German army began in the early 1930s and led to the V-2 at Peenemünde."
+        "After June 1940 Britain stood alone, with its Empire and Commonwealth. The Soviet Union joined the coalition after Barbarossa in June 1941, and the United States after Pearl Harbor in December 1941.",
+        "In the destroyers-for-bases agreement of September 1940, the United States gave Britain 50 old destroyers in return for leases on British bases.",
+        "The Lend-Lease Act of March 1941 (signed by Roosevelt on 11 March) allowed the United States to supply Britain with weapons and equipment without immediate payment. It was extended to the Soviet Union later in 1941.",
+        "Arctic convoys carried supplies to Murmansk and Archangel in the Soviet Union from August 1941.",
+        "The Atlantic Charter of 14 August 1941 was agreed by Churchill and Roosevelt at Placentia Bay, Newfoundland, aboard warships. It was a statement of principles: no territorial gains, no territorial changes against the wishes of the peoples concerned, and the right of peoples to choose their government.",
+        "The Charter also promised restoration of self-government to those deprived of it (self-determination), freer trade and disarmament of aggressors. The Declaration by United Nations of 1 January 1942 was then signed by 26 nations.",
+        "At the Washington ('Arcadia') conference of December 1941 to January 1942 the Allies confirmed 'Germany first', meaning the decision to defeat Germany before Japan, and set up the Combined Chiefs of Staff."
+      ],
+      "tip": "Keep the Atlantic Charter (August 1941, principles), Lend-Lease (March 1941, supplies) and the Battle of the Atlantic (the naval war) separate. Questions on the alliance expect the Atlantic Charter and Lend-Lease as its starting points."
+    },
+    {
+      "h": "The Big Three conferences, 1943-1945",
+      "b": "As the Allies moved towards victory, their leaders met to settle strategy and the shape of post-war Europe. The decisions they reached at each meeting were different, so the order matters.",
+      "points": [
+        "At the Casablanca Conference in January 1943, Roosevelt and Churchill demanded the unconditional surrender of the Axis, meaning no negotiated peace. Stalin did not attend.",
+        "The Tehran Conference of 28 November to 1 December 1943 was the first time Roosevelt, Churchill and Stalin met together. They agreed the invasion of France (Overlord) for 1944.",
+        "At Tehran Stalin promised to enter the war against Japan after Germany's defeat, and Poland's eastern frontier, roughly on the Curzon Line, was discussed.",
+        "In October 1944 in Moscow, Churchill and Stalin agreed the percentages agreement on spheres of influence in the Balkans. Churchill proposed, for example, 90 per cent British influence in Greece and 90 per cent Soviet influence in Romania, and Stalin ticked the note.",
+        "At the Yalta Conference of 4-11 February 1945, in the Crimea, Germany was divided into four occupation zones, including one for France. The Declaration on Liberated Europe promised free elections.",
+        "Yalta also set Poland's eastern frontier on the Curzon Line, with compensation in the west, and agreed that the Soviet-backed Lublin government should be broadened. The Soviet Union would enter the war against Japan within three months of Germany's defeat.",
+        "A conference to found the United Nations was also agreed at Yalta and held at San Francisco in April 1945.",
+        "The Potsdam Conference of 17 July to 2 August 1945 brought together Truman (Roosevelt having died on 12 April 1945), Stalin, and Churchill, who was replaced by Attlee during it after the British election result. It ended the wartime alliance."
+      ],
+      "tip": "Give the Big Three conferences in order with their main decisions. Tehran (1943) was the first Big Three meeting and agreed the invasion of France, Yalta (February 1945) dealt with zones, Poland and the United Nations, and Potsdam (July 1945) had Truman and Attlee."
+    },
+    {
+      "h": "Tensions within the Grand Alliance",
+      "b": "The Allies were united by the need to beat Germany, but they distrusted each other. Disputes over strategy and Poland foreshadowed the Cold War.",
+      "points": [
+        "Stalin repeatedly demanded a second front, a major Allied invasion of western Europe that would draw German forces away from the Red Army. The Western Allies delayed it, and the Allied delay was a constant source of Soviet resentment.",
+        "The Dieppe raid of August 1942, a mainly Canadian landing, failed with heavy losses. Britain also preferred a Mediterranean strategy, which put off a cross-Channel invasion.",
+        "In April 1943 Germany announced the discovery of mass graves of Polish officers killed by the Soviet NKVD (secret police) in 1940, the Katyn revelation. The Soviet Union then broke relations with the Polish government-in-exile in London.",
+        "In July 1944 the Soviet Union set up the Polish Committee of National Liberation (the Lublin Committee), a Soviet-sponsored rival to the London Poles.",
+        "During the Warsaw Uprising of August to October 1944 the Red Army did not help the Polish fighters, and Stalin at first refused Allied aircraft landing rights.",
+        "Mutual suspicion and Soviet control of eastern Europe foreshadowed the tensions of the Cold War."
+      ],
+      "tip": "Essays on the alliance reward judgement, not battle narrative. Weigh how far the alliance decided the outcome, and give the second front and Poland as the main tensions."
+    },
+    {
+      "h": "Technology between the wars: tanks, aircraft and fighters",
+      "b": "The 1920s and 1930s produced the ideas and machines that were used in the Second World War. Theorists asked how to avoid another stalemate, and the answer was armour and air power.",
+      "points": [
+        "British writers J.F.C. Fuller and Basil Liddell Hart argued for armoured warfare. Heinz Guderian, the leading German tank commander and theorist, wrote Achtung - Panzer! (1937), and the first three German Panzer divisions were formed in October 1935. Britain and France instead spread their tanks among infantry units.",
+        "The Italian theorist Giulio Douhet argued in The Command of the Air (1921) that bombers would decide wars. Stanley Baldwin, in 1932, said that 'the bomber will always get through', expressing the fear that cities could not be defended.",
+        "The Spanish Civil War was a testing ground for aircraft and tactics. The German Condor Legion bombed Guernica on 26 April 1937, which shocked world opinion.",
+        "Fighter design improved. The Hawker Hurricane first flew in November 1935 and the Supermarine Spitfire in March 1936, and the Messerschmitt Bf 109 entered service in Germany in 1937."
+      ],
+      "tip": "The Hurricane and Spitfire were British fighters, and the Bf 109 was a German, piston-engined fighter. Do not confuse the Bf 109 with the Me 262 jet."
+    },
+    {
+      "h": "Technology between the wars: radar, codebreaking, jets and rockets",
+      "b": "Several technologies that decided the war were first developed in the 1930s: ways to detect aircraft, read enemy messages, fly without propellers and launch rockets.",
+      "points": [
+        "In February 1935 Robert Watson-Watt demonstrated that radio waves reflected from an aircraft could detect it. Chain Home stations were built along the east and south coasts from 1936, and a chain was in operation by 1939.",
+        "Several countries developed radar in the 1930s, so Britain's advantage was an integrated warning system linking Chain Home to fighter control.",
+        "Enigma was the German cipher machine. Polish mathematicians led by Marian Rejewski broke it from 1932, and in July 1939 they passed their methods and replica machines to the British and French.",
+        "Frank Whittle applied for his jet engine patent in 1930, and the patent was granted later. The Heinkel He 178, the first jet aircraft to fly, flew on 27 August 1939.",
+        "Wernher von Braun worked on army rockets from 1932. The Peenemunde research centre on the Baltic coast opened in 1937 and later developed the V-2 rocket.",
+        "ASDIC (sonar), which detects submarines by sound, was developed by Britain from the end of the First World War, and aircraft carriers, ships that launch aircraft, were also developed after 1918."
+      ],
+      "tip": "A Higher Level essay on the technology of warfare 1920-45 should be organised by area (land, air, sea, intelligence, the atomic bomb), cover both the inter-war developments and their wartime use with named machines, people and dates, and judge impact rather than list inventions."
+    },
+    {
+      "h": "The technology of warfare: tanks, aircraft and strategic bombing",
+      "b": "In 1939-45 the ideas of the 1930s were tested at scale. On land, tanks and mass production gave armies speed and weight, while in the air strategic bombing carried the war to cities.",
+      "points": [
+        "German Panzer divisions used radio communication and combined armour with motorised infantry. The Soviet T-34 tank, in production from 1940, and the American M4 Sherman, of which about 50,000 were built, show that mass production mattered as much as invention.",
+        "Armies answered tanks with the anti-tank gun and, from 1942, the American bazooka, a shoulder-fired anti-tank rocket.",
+        "Strategic bombing means attacking an enemy's cities and industry from the air. RAF Bomber Command under Arthur Harris, head of the command from February 1942, practised area bombing at night, aiming at whole city districts. The first thousand-bomber raid was on Cologne on 30-31 May 1942.",
+        "The US Army Air Forces flew B-17 Flying Fortress bombers by day, in what was called precision bombing. From early 1944 long-range P-51 Mustang escort fighters protected them over Germany.",
+        "Hamburg in July 1943 (Operation Gomorrah) suffered a firestorm, a fire so intense that it drew in air and spread on its own, which killed tens of thousands (estimates are about 35,000-45,000). Dresden, on 13-15 February 1945, lost about 25,000 people.",
+        "The morality and effectiveness of strategic bombing are still debated, because it caused fires and many civilian deaths in German cities."
+      ],
+      "tip": "Keep area bombing (RAF, at night) separate from precision bombing (USAAF, by day). Be ready to weigh both the morality and the effectiveness of strategic bombing."
+    },
+    {
+      "h": "The technology of warfare: radar, codebreaking and the war at sea",
+      "b": "Intelligence and detection did as much as weapons to decide the war. At sea they decided the Battle of the Atlantic, where German submarines tried to cut Britain's supply line.",
+      "points": [
+        "Radar gave early warning of attacks. The British Chain Home system worked in the Battle of Britain.",
+        "The cavity magnetron, developed by John Randall and Harry Boot at Birmingham University in 1940 and shared with the United States in the Tizard Mission that year, allowed small airborne and ship-borne sets.",
+        "Small radar sets made night fighters and the hunting of U-boats possible. Bomber Command also used H2S ground-mapping radar from 1943 as a bombing aid.",
+        "At Bletchley Park, Buckinghamshire, the home of the Government Code and Cypher School, the British decrypted German Enigma messages. Alan Turing designed the bombe (first in use in 1940), a machine to find Enigma settings.",
+        "Ultra was the code name for the intelligence from decrypted high-level enemy signals. It was used in the Battle of the Atlantic and the North African campaign.",
+        "Colossus (1944), designed by Tommy Flowers, broke the German Lorenz cipher, not Enigma.",
+        "German U-boats hunted in 'wolf packs' under Admiral Karl Donitz and sank large numbers of Allied merchant ships in the Atlantic.",
+        "The convoy system (merchant ships sailing together under guard), escort groups, long-range aircraft, radar and Ultra reduced losses from 1943, and in May 1943 the U-boats were withdrawn from the North Atlantic for a time."
+      ],
+      "tip": "Do not mix up Enigma (the machine and cipher), Ultra (the intelligence), Bletchley Park (the place) and Colossus (a computer for the Lorenz cipher). Ordinary Level paragraphs on radar and codebreaking want what each was, a named example and its effect."
+    },
+    {
+      "h": "The technology of warfare: rockets, jets and the atomic bomb",
+      "b": "In the last year of the war Germany produced rockets and jet aircraft that were far ahead of their time, but too late to change the result. The United States produced the atomic bomb, which ended the war against Japan.",
+      "points": [
+        "The V-1 flying bomb, a pilotless aircraft that could be shot down, was launched against London from 13 June 1944. The V-2 ballistic rocket, which had no defence against it, was first fired at London on 8 September 1944 and also at Antwerp.",
+        "The V-weapons were too late and too few to change the outcome. They were built by forced and concentration-camp labour in the Mittelwerk underground factory.",
+        "The Messerschmitt Me 262 jet fighter entered operational service in 1944, and the British Gloster Meteor jet fighter entered service in July 1944. The Me 262 came too late to change the outcome.",
+        "The Manhattan Project, the American atomic bomb programme from 1942, was run by General Leslie Groves, with J. Robert Oppenheimer directing the Los Alamos laboratory in New Mexico. The first test, the Trinity test, took place in New Mexico on 16 July 1945.",
+        "The United States dropped atomic bombs on Hiroshima on 6 August 1945 ('Little Boy', a uranium bomb) and Nagasaki on 9 August 1945 ('Fat Man', a plutonium bomb). Tens of thousands died immediately and many more later from injuries and radiation.",
+        "Japan announced its surrender on 15 August 1945. The bombs marked the start of the nuclear age."
+      ],
+      "tip": "Do not confuse the V-1 (a pilotless flying bomb that could be shot down) with the V-2 (a ballistic rocket with no defence), or the Me 262 (a jet) with the Bf 109 (a piston-engined fighter)."
+    },
+    {
+      "h": "Key personality: Winston Churchill, life and career to 1939",
+      "b": "Churchill's wartime fame followed a long career in which he was both admired for his energy and distrusted for his judgement.",
+      "points": [
+        "He was born on 30 November 1874 at Blenheim Palace, Oxfordshire, into an aristocratic family, the son of Lord Randolph Churchill. He served as a soldier and war correspondent in the Sudan in 1898 and in the Boer War, where he escaped from captivity in 1899.",
+        "He became an MP in 1900 as a Conservative, joined the Liberals in 1904 and rejoined the Conservatives in 1924-25.",
+        "As First Lord of the Admiralty (the minister in charge of the Royal Navy) from 1911 to 1915, he resigned in 1915 after the failure of the Dardanelles or Gallipoli campaign, a setback that damaged his reputation for years.",
+        "As Chancellor of the Exchequer (finance minister) from 1924 to 1929 he returned Britain to the gold standard in 1925.",
+        "He was out of office from 1929 to 1939, the 'wilderness years'. He opposed the Government of India Act of 1935 and warned against Hitler and appeasement, the policy of giving way to Hitler's demands.",
+        "He called the Munich agreement of October 1938 'a total and unmitigated defeat'."
+      ],
+      "tip": "Do not confuse his two spells as First Lord of the Admiralty, 1911-15 and 1939-40. The limits examiners want include Gallipoli and his reputation in the 1930s."
+    },
+    {
+      "h": "Key personality: Winston Churchill, Prime Minister in 1940",
+      "b": "Churchill came to power on the day Germany attacked in the west, and in 1940 his leadership turned Britain's isolation into determination to fight on.",
+      "points": [
+        "He became First Lord of the Admiralty again on 3 September 1939. After the Norway debate he succeeded Neville Chamberlain as Prime Minister on 10 May 1940, the same day Germany attacked in the west.",
+        "He led a coalition (a government of several parties) that included Labour's Clement Attlee, Deputy Prime Minister from 1942, and Ernest Bevin, Minister of Labour. Churchill also made himself Minister of Defence, so he directed the war effort himself.",
+        "He refused to seek a negotiated peace in 1940.",
+        "His speeches on the radio and in Parliament sustained morale after Dunkirk and during the Blitz: 'I have nothing to offer but blood, toil, tears and sweat' (13 May 1940), 'we shall fight on the beaches' (4 June 1940) and 'their finest hour' (18 June 1940).",
+        "During the Battle of Britain he said, on 20 August 1940, 'Never in the field of human conflict was so much owed by so many to so few', which made him a symbol of national resistance."
+      ],
+      "tip": "For an Ordinary Level paragraph on Churchill, each accurate dated fact earns marks: Prime Minister on 10 May 1940, the coalition, Minister of Defence, Dunkirk and the speeches with their dates, then one or two judgements. For essays, 1940 (the refusal to negotiate, the speeches and the coalition) is what examiners reward."
+    },
+    {
+      "h": "Key personality: Winston Churchill, leader of the alliance and strategy",
+      "b": "Churchill was a participant who made the key decisions on British strategy and diplomacy. He worked to bring the United States and the Soviet Union into partnership with Britain, though Britain became the junior partner.",
+      "points": [
+        "He courted Roosevelt through the destroyers-for-bases deal, Lend-Lease, the Atlantic Charter and the policy of Germany first. When Germany invaded the Soviet Union he welcomed it as an ally in a broadcast on 22 June 1941, despite his anti-communism.",
+        "He met Roosevelt at Placentia Bay (August 1941), Washington (December 1941 and later), Casablanca (January 1943, where unconditional surrender was announced) and Quebec (August 1943 and September 1944), and both leaders at Tehran and Yalta.",
+        "He met Stalin in Moscow in August 1942 and in October 1944, when he proposed the percentages agreement on spheres of influence in the Balkans. This has been seen as wartime realism or as cynicism.",
+        "He attended the Potsdam Conference in July 1945 until the election result replaced him with Attlee.",
+        "His strategy favoured the Mediterranean and North Africa, supported strategic bombing and was cautious over a cross-Channel invasion.",
+        "There were setbacks in 1942: Singapore and, in June, Tobruk, which fell to Rommel. In July 1942 he won a vote of no confidence in the House of Commons by a very large majority.",
+        "By 1944 Britain was the junior partner, because the United States and the Soviet Union supplied far more men and resources."
+      ],
+      "tip": "Essays on Churchill reward alliance diplomacy and strategy, and the limits: setbacks in 1942 and dependence on the United States."
+    },
+    {
+      "h": "Key personality: Winston Churchill, defeat in 1945 and later life",
+      "b": "Churchill won the war but lost the election that followed, because voters in 1945 wanted a government they trusted to deliver post-war reform.",
+      "points": [
+        "In the 1945 general election, with polling on 5 July and results on 26 July, Labour won a landslide and Attlee became Prime Minister, replacing Churchill at Potsdam. Voters trusted Labour more on post-war reform.",
+        "He returned as Prime Minister in 1951-55. His 'iron curtain' speech (Fulton, Missouri, March 1946) warned of the division of Europe, and he won the Nobel Prize in Literature in 1953. He died in January 1965 and was given a state funeral."
+      ]
+    },
+    {
+      "h": "Key personality: Winston Churchill, how he was judged",
+      "b": "Churchill divided opinion in his own time and still divides historians. The same record looks like triumph or failure depending on what is weighed.",
+      "points": [
+        "Contemporaries admired him as the voice of national resistance. Before 1940 he had been distrusted for his judgement, over Gallipoli, the return to gold, India and the abdication crisis.",
+        "Field Marshal Alan Brooke (Lord Alanbrooke), Chief of the Imperial General Staff from December 1941, wrote diaries, published after the war, that show admiration mixed with exasperation at Churchill's interference. Some generals and Labour also criticised him, and voters rejected him in 1945.",
+        "Historians such as Andrew Roberts (Churchill: Walking with Destiny, 2018, largely admiring) praise his resolve in 1940, his strategic leadership and his alliance-building.",
+        "John Charmley (Churchill: The End of Glory, 1993) argued that the war ruined Britain financially and made it dependent on the United States, so Churchill's critics say the war cost Britain its empire.",
+        "Historians also criticise the bombing of German cities such as Dresden, the diversion of forces to the Mediterranean and Greece in 1941, and his attitude to India and the empire.",
+        "They debate his government's response to the Bengal famine of 1943, in which about 2 to 3 million died (estimates vary). How far Churchill's government was responsible is disputed."
       ]
     },
     {
@@ -127,12 +330,25 @@
       "b": "Judgements of Churchill and the alliances weigh the British war effort and the coalition's success against its divisions and its costs.",
       "points": [
         "Achievement: Britain's refusal to negotiate a peace in 1940 kept open a base from which the Allies could later invade Europe.",
-        "Limit: British strategy relied heavily on American resources after 1941, and the British Empire's position in Asia was lost in 1942.",
+        "Limit: British strategy relied heavily on American resources after 1941, and Britain lost Hong Kong in December 1941 and Malaya, Singapore and Burma in 1942, although it kept India.",
         "Achievement: the Grand Alliance defeated the Axis powers and produced the United Nations as a post-war organisation.",
         "Limit: the alliance concealed deep divisions over Eastern Europe, and these became the Cold War once Germany was defeated.",
         "Contemporary view: many British people saw Churchill as the embodiment of national resistance, while critics on the left and in his own party questioned his judgement.",
         "Later view: historians still debate how far Churchill's leadership was essential, with some stressing his role in 1940 and others emphasising the decisive contribution of Soviet and American forces."
-      ]
+      ],
+      "tip": "Examiners reward a final judgement that weighs achievements against limits, and contemporary against later views, and an essay on the alliances should judge how far they decided the outcome rather than narrate battles."
+    },
+    {
+      "h": "Assessment: technology and the outcome of the war",
+      "b": "Technology changed how the war was fought, but historians disagree about how far it decided the result compared with production, manpower and strategy.",
+      "points": [
+        "Technology brought speed and mobility on land, a new war in the air and at sea, and intelligence from codebreaking, and it made civilians targets through strategic bombing, the V-weapons and the atomic bomb.",
+        "Some technology was decisive at key moments: radar in 1940, and Ultra and convoys in the Atlantic.",
+        "Some came too late: the V-weapons and the Me 262 could not change the outcome.",
+        "Mass production mattered as much as invention, because the American Sherman and the Soviet T-34 were built in huge numbers, and Allied industrial production and manpower outweighed Axis technology.",
+        "The morality and effectiveness of strategic bombing and the atomic bomb remain disputed, because they killed large numbers of civilians, and the atomic bombs are linked to the end of the war against Japan."
+      ],
+      "tip": "In an essay on how technology affected the outcome, argue a clear judgement throughout, weighing technology against industrial production, manpower, strategy and alliances."
     }
   ],
   "keyTerms": [

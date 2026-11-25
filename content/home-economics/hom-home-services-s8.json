@@ -6,66 +6,112 @@
   "notes": [
     {
       "h": "Properties of light and their application (Higher Level only)",
+      "b": "Light is a form of energy that travels in straight lines as waves, and white light is made of the colours of the spectrum. How a surface or material treats light decides how a room looks, so each property has a practical use in the home.",
       "points": [
-        "Reflection: light rays bounce back from shiny surfaces such as mirrors, glazed tiles and white ceilings, which brightens a room.",
-        "Refraction: light rays bend as they pass through thick or ridged glass, such as glass bricks, which spreads light through a room.",
-        "Diffusion: light rays scatter when they pass through translucent material such as frosted glass, net curtains or fabric shades, giving soft light.",
-        "Absorption: dark, matt surfaces take in light rather than reflecting it, so a room with dark walls appears smaller and cosier.",
-        "Dispersion: a prism or crystal splits white light into its component colours, as in a crystal chandelier."
-      ]
+        "Materials treat light in three ways: transparent materials let light through, translucent materials scatter it, and opaque materials block it.",
+        "Reflection: light rays bounce back from shiny surfaces such as mirrors, glazed tiles, gloss paint and white ceilings, which brightens a room and makes it look larger. Fitting reflectors behind lamps use the same idea.",
+        "Refraction: light rays bend as they pass into thick or ridged glass, such as glass bricks or cut crystal, which spreads light through a room and gives decorative effects.",
+        "Diffusion (scattering): light scatters when it passes through translucent material such as frosted glass, net curtains, fabric or opal shades, so the light is soft and glare is reduced.",
+        "Absorption: dark, matt surfaces take in light rather than reflecting it, so a room with dark walls looks darker, appears smaller and cosier, and needs more light. Pale surfaces absorb less, so choose wall, ceiling and floor colours with the light level in mind.",
+        "Dispersion: a prism or crystal splits white light into its component colours, as in a crystal chandelier.",
+        "Colour of light: warm light is yellowish and cool light is bluish, and this is described by the lamp's colour temperature. Coloured surfaces and shades also change how colours look in a room."
+      ],
+      "tip": "Reflection, refraction and diffusion are different: bouncing, bending and scattering. When asked for the properties of light, give each one with a household example, such as a mirror, a glass brick, frosted glass or net curtain, a dark matt surface and a crystal chandelier."
     },
     {
-      "h": "Planning a lighting system (Higher Level only)",
+      "h": "Planning a lighting system",
+      "b": "Good lighting is planned, not added at the end. A plan matches the light to how each room is used, mixes natural and artificial light, and keeps the system safe and easy to look after.",
       "points": [
-        "Plan the lighting at the design stage, so that outlets and fittings are positioned before construction begins.",
-        "Match the lighting to the function of the room: a kitchen needs bright task lighting at work surfaces, while a living room needs a softer mix of light.",
-        "Combine general, task and accent lighting, and use one or more focal points to set the atmosphere.",
-        "Balance natural and artificial light: the aspect of the room and the size of its windows determine how much daylight it receives.",
-        "Avoid glare by placing fittings away from the normal line of sight and by using shades that spread the light.",
-        "Allow flexibility with dimmers, timers and movable lamps so that the light can suit different activities and times of day.",
-        "Safety: use the correct voltage and fuse rating, install fittings correctly, and leave adequate space between the bulb and the shade.",
-        "Maintenance: fittings should be easy to clean, and bulbs and any replaceable parts should be easy to reach.",
-        "The colour of walls and ceilings affects the light in a room: pale colours reflect light, while dark colours absorb it."
-      ]
+        "Plan the lighting at the design or building stage, so that outlets, switches, wiring and fittings are positioned before construction begins, which also keeps the cost lower.",
+        "Match the lighting to the function of the room and its users: a kitchen and a study need bright task lighting at work surfaces, a living room needs a softer, flexible mix of light, a bedroom needs general and bedside light, and a bathroom needs safe, moisture-protected fittings.",
+        "Think about who uses the room, such as children, elderly people, reading or homework, because their needs decide how bright and how safe the lighting must be.",
+        "Combine general (ambient) light for the whole room, task light for an activity such as reading, cooking or desk work, and accent light to highlight a picture or feature. Use one or more focal points to set the atmosphere.",
+        "Balance natural and artificial light. The aspect of the room (a south-facing room gets most daylight) and the size and position of its windows decide how much daylight it receives. Daylight saves electricity and helps wellbeing.",
+        "The colour and size of the room matter: pale walls and ceilings reflect light while dark colours absorb it, and the size and shape of the room decide how many fittings are needed."
+      ],
+      "tip": "Planning questions usually name a room, such as an open-plan kitchen/living room, a study bedroom or a home office. Pick three or four principles and tie each one to that room, for example function and enough light, natural light, a mix of general, task and accent light, and glare."
     },
     {
-      "h": "How energy-efficient lamps work (Higher Level only)",
+      "h": "Making a lighting plan comfortable, safe and easy to run",
+      "b": "Once the right light is chosen for each room, the plan must also be comfortable to live with, safe and easy to look after.",
       "points": [
-        "A filament bulb produces light by heating a tungsten filament, and most of the energy it uses is given off as heat.",
-        "Compact fluorescent lamp (CFL): electric current passes through argon gas and mercury vapour inside a looped glass tube, producing ultraviolet light.",
+        "Avoid glare and shadows by placing fittings away from the normal line of sight (for example TV and screens), using shades or indirect light that spread the light, and using several light sources.",
+        "Allow flexibility and mood with dimmers, timers, movable lamps, switching in groups and two-way switches on stairs, so the light can suit different activities and times of day.",
+        "Safety: use the correct voltage and fuse rating, have fittings installed correctly by an electrician, leave adequate space between the bulb and the shade, avoid trailing flexes, and choose bathroom fittings suited to the zone.",
+        "Maintenance: fittings should be easy to clean, bulbs and any replaceable parts should be easy to reach and replace, and switches in sensible places."
+      ],
+      "tip": "Glare, flexibility and safety all earn marks in planning answers, so tie each to the named room, for example screens out of the line of sight, dimmers and movable lamps, and the correct fuse."
+    },
+    {
+      "h": "Maximising natural light",
+      "b": "Daylight is free and pleasant, so a good plan makes the most of it before adding lamps. A room gets the most daylight when light can enter easily and reflect around it.",
+      "points": [
+        "Use large windows, skylights and glass bricks, which let in more daylight, and keep clear glass in windows because frosted glass scatters light.",
+        "Leave out net curtains and heavy blinds, cut back trees outside the window, and place furniture so it does not block the light.",
+        "Use pale colours and mirrors, which reflect daylight deeper into the room."
+      ],
+      "tip": "Questions on maximising natural light look for window position and size, aspect, skylights, glass bricks, colours, clear glass, tree cutting and furniture placing. Give several of these."
+    },
+    {
+      "h": "Types of lighting fitting by function",
+      "b": "Fittings are grouped by the job they do. Name the type of lighting first, then give a fitting that does that job.",
+      "points": [
+        "General lighting lights the whole room: central ceiling fittings such as pendants, semi-flush and flush fittings, chandeliers, rise-and-fall fittings, recessed downlights, and track lights and spotlights.",
+        "Task lighting lights a specific activity: table and desk lamps, floor lamps with a pivot or flexible stem, under-cabinet and under-counter lights, pelmet lighting, and recessed downlights over a work area.",
+        "Accent lighting highlights a feature or focal point: picture lights, wall brackets, uplighters and downlighters, swivel lights, track lights and spotlights.",
+        "Outdoor fittings include sensor lights, solar lights, and column, step and decking lights."
+      ],
+      "tip": "Do not list fittings without saying what job they do. Name general, task and accent lighting and give a fitting for each."
+    },
+    {
+      "h": "How energy-efficient lamps work",
+      "b": "A lamp is energy efficient when most of the electricity it uses becomes light rather than heat. To explain this, compare the old filament bulb with the compact fluorescent lamp (CFL) and the light-emitting diode (LED).",
+      "points": [
+        "A filament bulb produces light when current heats a tungsten filament until it glows. Most of the energy it uses is given off as heat, not light, so it is inefficient, and it has been phased out of sale in the EU under efficiency rules.",
+        "CFL principle: electric current heats electrodes at each end of a coiled (looped) glass tube containing argon gas and mercury vapour. The mercury vaporises and the gas gives off ultraviolet light.",
         "A phosphor coating on the inside of the CFL tube converts the ultraviolet light into visible light.",
-        "CFLs use much less energy and last much longer than filament bulbs, but they cost more to buy and contain mercury, so they must be disposed of safely.",
-        "Light-emitting diode (LED): light is produced when electrons combine with gaps called holes in a semiconductor, and the colour depends on the semiconductor material.",
-        "LEDs use far less electricity than filament bulbs, start instantly, give off little heat and have a very long life.",
-        "Energy-saving use: dimmers, timers, motion sensors and switching off unneeded lights reduce the energy used by any lamp."
-      ]
+        "CFLs use much less energy and last much longer than filament bulbs, but they cost more to buy, are slow to reach full brightness, may cause glare without a shade, and contain mercury, so they must be recycled and disposed of safely.",
+        "The EU exemption that allowed mercury in compact fluorescent lamps ended on 24 February 2023, so CFLs are being phased out in favour of LEDs.",
+        "LED principle: electricity passes through a semiconductor chip, and electrons combine with gaps called holes and release energy as light, a process called electroluminescence. The colour depends on the semiconductor material.",
+        "LEDs use far less electricity than filament bulbs, start at full brightness instantly, give off little heat, have a very long life and come in many shapes and colours. They can be dimmable with a compatible dimmer, and although they cost more to buy, they save money on bills.",
+        "Energy-saving use: dimmers, timers, motion sensors, task lighting instead of lighting a whole room, using daylight and switching off unneeded lights reduce the energy used by any lamp."
+      ],
+      "tip": "For the CFL principle, include gas and mercury in a glass tube, electrodes, ultraviolet light and phosphor. For the LED principle, include a semiconductor, electrons and holes, and light released. Do not describe an LED as heating a filament. For CFL advantages and disadvantages, give low energy use, long life and brightness against cost, glare without a shade and mercury."
     },
     {
-      "h": "Contemporary lighting developments (Higher Level only)",
+      "h": "Choosing a lamp",
+      "b": "When you buy a lamp, the watts on the box do not tell you how bright it is. Several labelled details help you choose well.",
       "points": [
-        "LED strips, bulbs and compact fittings are available in different colour temperatures and can be fitted into small or awkward spaces.",
-        "Sensor or motion-activated lighting switches on only when movement is detected, saving energy in halls, stairs and outdoor areas.",
-        "Smart lighting can be controlled from a phone or voice assistant to set schedules, dim the lights or change their colour.",
+        "Brightness is measured in lumens, not watts. Watts measure the power a lamp uses, so a lower-wattage LED can be as bright as a higher-wattage filament bulb.",
+        "Check the colour temperature, to get warm (yellowish) or cool (bluish) light that suits the room.",
+        "Check that the lamp is compatible with the fitting and with any dimmer, and check its life.",
+        "Look for a high rating on the energy label. The EU energy label for light bulbs has used an A to G scale since September 2021."
+      ],
+      "tip": "Do not say a higher wattage means a brighter lamp. Say that lumens measure the light given and watts the power used."
+    },
+    {
+      "h": "Contemporary lighting developments",
+      "b": "Modern lighting is smaller, smarter and more efficient than older types, and developments are often judged on energy saving, convenience and mood.",
+      "points": [
+        "LED strips, bulbs, rope lights and compact fittings come in many colour temperatures, can be dimmable, have a long life and give off little heat, and they can be fitted into small or awkward spaces.",
+        "Sensor or motion-activated and timer lighting switches on only when someone is present, saving energy and improving security in halls, stairs, porches and outdoor areas.",
+        "Smart lighting can be controlled from a phone, app or voice assistant to set schedules, dim the lights or change their colour.",
+        "Solar (photovoltaic) outdoor lights use a small panel to charge a battery during the day for garden and path lights, which light up at night.",
         "Colour-changing LEDs and LED rope lighting create ambience and can be used as accent lighting.",
-        "Photovoltaic outdoor lights use a solar panel to charge a battery during the day and light up at night.",
-        "Dimmable LEDs need a compatible dimmer, and cheap LED lamps may flicker or give poor colour rendering."
-      ]
+        "Recessed and under-counter lights suit kitchens, and low-voltage and fibre-optic lighting are further developments.",
+        "Dimmable LEDs need a compatible dimmer, and cheap LED lamps may flicker or give poor colour rendering (colours looking unnatural)."
+      ],
+      "tip": "Contemporary-development questions ask for two or three developments, named with detail or evaluation. Choose LED, sensor, smart or solar lighting and say what it does and how it saves energy or suits a room."
     },
     {
-      "h": "Types of lighting fitting by function (Higher Level only)",
-      "points": [
-        "General lighting: central ceiling fittings such as semi-flush and flush fittings, pendants, chandeliers and rise-and-fall fittings.",
-        "Task lighting: under-cabinet lights, desk lamps and recessed downlights that light a specific activity.",
-        "Accent lighting: picture lights, wall brackets, track lights and spotlights that highlight a feature."
-      ]
-    },
-    {
-      "h": "Practical context: investigating contemporary lighting (Higher Level only)",
+      "h": "Practical context: investigating contemporary lighting",
+      "b": "This practical work builds the skill of judging lighting for a real room, using examples you collect yourself.",
       "points": [
         "Collect examples of contemporary lighting from magazines, brochures and shop visits, and record the type of fitting and its lamp, such as LED or CFL.",
         "For each example, note whether it provides general, task or accent lighting, and what its packaging states about brightness and colour temperature.",
         "Evaluate each example for energy efficiency, safety, maintenance and suitability for a named room."
-      ]
+      ],
+      "tip": "The practical asks you to investigate contemporary lighting through magazines, brochures and shop visits, and to note each fitting's lamp, type of lighting and suitability for a named room."
     }
   ],
   "keyTerms": [

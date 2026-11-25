@@ -6,93 +6,118 @@
   "notes": [
     {
       "h": "General properties of water",
+      "b": "Water looks plain, but a handful of its physical and chemical properties explain why the body depends on it. Each property below links to a job water does in the body.",
       "points": [
         "Pure water is colourless, odourless and tasteless.",
-        "Water boils at 100 °C and freezes at 0 °C at normal atmospheric pressure.",
-        "Water is a good solvent: it dissolves many minerals, sugars and other substances, which is why it carries nutrients in the body.",
-        "Water absorbs and retains heat well, so it helps keep body temperature steady.",
-        "Water is neutral, with a pH of 7.",
-        "Ice is less dense than liquid water, so it floats."
-      ]
+        "Water boils at 100 °C and freezes at 0 °C at normal atmospheric pressure. Above 100 °C it changes to steam.",
+        "Water is a good solvent (a liquid that other substances dissolve in): it dissolves many minerals, sugars, water-soluble vitamins and gases, which is why it carries nutrients and wastes around the body. It is also why water-soluble vitamins and minerals can be lost into cooking water.",
+        "Water absorbs and retains heat well: it takes a lot of heat to warm it and it cools slowly, so it helps keep body temperature steady.",
+        "Water is neutral, with a pH of 7 for pure water, meaning it is neither acid nor alkaline.",
+        "Ice is less dense than liquid water, so it floats; water expands when it freezes.",
+        "Hard water contains dissolved calcium and magnesium salts, while soft water has little. Hard water is therefore a useful source of calcium in the diet.",
+        "Water has no energy value and contains no protein, fat or vitamins of its own, so it is not a source of energy."
+      ],
+      "tip": "If asked for a property of water, give a clear one such as boiling and freezing points, solvent, retains heat, neutral, colourless, odourless or tasteless. Do not list water with the energy nutrients: it is essential but supplies no energy."
     },
     {
       "h": "Water in the body",
-      "b": "Water is a major component of the body and is needed in every body cell and tissue fluid.",
+      "b": "Water is a major component of the body and is needed in every body cell and tissue fluid. Because it dissolves so many substances, it is also the body's main transport medium.",
       "points": [
         "Water is an essential component of all body cells.",
-        "Water is the main part of blood plasma, lymph and the other body tissue fluids.",
+        "Water is the main part of blood plasma, lymph and the other body tissue fluids, as well as urine and sweat.",
         "Water is a part of saliva, digestive juices and mucus.",
-        "Water lubricates joints and membranes, such as those around the lungs and digestive tract.",
+        "Water lubricates joints and membranes, such as those around the lungs and digestive tract, and the fluid it forms cushions organs, for example around the brain and spinal cord.",
         "Water carries nutrients, oxygen, carbon dioxide, hormones and enzymes around the body in the blood and tissue fluids.",
-        "Because water dissolves these substances, they can move from the blood into the cells that need them."
-      ]
+        "Because water dissolves these substances, they can move from the blood into the cells that need them.",
+        "Water is the medium in which the chemical reactions of the cells (metabolism) take place."
+      ],
+      "tip": "Examiners ask for biological functions of water as a list. Give each function with a short reason, such as transport of nutrients, oxygen, hormones and enzymes. Water is in all body cells, so a true or false statement saying so is true."
     },
     {
       "h": "Temperature regulation",
+      "b": "The body makes heat all the time and must keep its core temperature steady. Water does this in two ways: it spreads heat around and it carries heat away as sweat.",
       "points": [
         "Water absorbs heat from the body when it evaporates, so sweating cools the body.",
         "Water in the blood and tissues helps spread heat evenly, keeping the internal body temperature near 37 °C.",
-        "When the body is hot, more sweat is produced; when cold, less water is lost from the skin."
-      ]
+        "When the body is hot, more sweat is produced; when cold, less water is lost from the skin, so less heat is carried away."
+      ],
+      "tip": "Say that sweat cools the body by evaporation, not because the water is cold. Water regulates temperature through perspiration, so a true or false statement saying this is true."
     },
     {
       "h": "Removal of waste",
+      "b": "Cells produce waste that would poison the body if it built up. Water carries these wastes out, mainly through the kidneys.",
       "points": [
         "The kidneys filter the blood, and water carries waste products such as urea out of the body in urine.",
-        "Water is also lost in faeces, sweat and breath, and this loss must be replaced.",
-        "Adequate water intake keeps urine dilute and helps the kidneys remove waste efficiently."
-      ]
+        "Water is also lost in faeces, sweat and breath, and this loss must be replaced by drinks and food.",
+        "Adequate water intake keeps urine dilute, so the kidneys can remove waste efficiently."
+      ],
+      "tip": "Name the waste product, urea, and say it leaves in urine. A bare statement that water removes waste earns less than one with this detail."
     },
     {
       "h": "Water and digestion",
+      "b": "Digestion breaks food into molecules small enough to be absorbed, and water takes part in the process as well as helping food move along.",
       "points": [
-        "Hydrolysis is the breakdown of large food molecules into smaller ones by adding water, and it is needed for digestion of carbohydrate, protein and fat.",
-        "Water in saliva and digestive juices softens food and makes it easier to swallow and digest.",
+        "Hydrolysis is the breakdown of large food molecules into smaller ones by adding water, and it is needed for the digestion of carbohydrate, protein and fat.",
+        "Water in saliva and digestive juices softens food, so it is easier to swallow and digest.",
         "Water keeps faeces soft, so it prevents constipation, especially when fibre intake is high."
-      ]
+      ],
+      "tip": "Water helps digestion and absorption, so a statement that it prevents them is false. Do not confuse hydrolysis, which is the splitting of molecules using water, with dehydration, which is loss of body water."
     },
     {
       "h": "Minerals in water",
+      "b": "Tap and bottled water carry dissolved minerals, so water makes a small contribution to the diet beyond hydration.",
       "points": [
         "Water supplies small amounts of calcium, fluoride and magnesium.",
         "Hard water contains more calcium than soft water, so it is a useful source of calcium in the diet.",
-        "Fluoride from water helps to strengthen tooth enamel and protect teeth from decay."
-      ]
+        "Fluoride from water helps to strengthen tooth enamel and protect teeth from decay.",
+        "Public water supplies in Ireland are fluoridated under the Health (Fluoridation of Water Supplies) Act 1960."
+      ],
+      "tip": "Name calcium and fluoride as the minerals water provides, and say hard water has more calcium. Do not describe water as supplying minerals in general."
     },
     {
       "h": "Dehydration and thirst",
+      "b": "The body loses water every day and must replace it. Thirst is the first warning that it is falling behind, and dehydration is what happens when it does.",
       "points": [
         "Thirst is the body's signal that its water content has fallen; quenching thirst is one function of water.",
-        "Dehydration occurs when water losses are greater than intake, and it results in dark urine, headache, tiredness and dizziness.",
-        "Severe dehydration can cause confusion, low blood pressure and shock, so fluids must be replaced promptly.",
-        "Water is the main drink in the diet, and foods such as fruit and vegetables also supply water."
+        "Dehydration occurs when water losses are greater than intake. Causes include heat, exercise, fever, vomiting, diarrhoea and not drinking enough.",
+        "Signs of dehydration are thirst, dark and small amounts of urine, headache, tiredness, dizziness and a dry mouth.",
+        "Severe dehydration can cause confusion, low blood pressure and collapse (shock), so fluids must be replaced promptly and urgent medical help is needed.",
+        "Water is the main drink in the diet, and foods such as fruit and vegetables, and soups, also supply water. Water is the main drink advised in the healthy eating guidelines.",
+        "Factors that increase water needs include hot weather, exercise, fever, vomiting, diarrhoea, pregnancy, breastfeeding and high-fibre or high-protein diets."
+      ],
+      "tip": "Quenching thirst is a weak mark point, so give transport, temperature, waste and digestion first. For a longer answer, link thirst, temperature, waste removal, dehydration, transport and digestion in about five connected statements."
+    },
+    {
+      "h": "Energy and water intake",
+      "b": "Many drinks add energy to the diet but water adds none, which is why it is the best choice for staying hydrated.",
+      "points": [
+        "Water supplies no energy, so it can be drunk freely without adding to energy intake.",
+        "Sugary drinks supply energy as empty kilocalories (energy with no useful nutrients), so plain water is the best choice for hydration."
       ]
     },
     {
       "h": "Water in pregnancy",
+      "b": "Pregnancy raises the body's demand for water, because the mother must supply the growing baby as well as herself.",
       "points": [
-        "The blood volume of a pregnant woman increases, and water is needed to carry nutrients and oxygen to the foetus through the placenta.",
-        "Amniotic fluid, which is mostly water, cushions and protects the developing baby.",
+        "The blood volume of a pregnant woman increases, and water is needed to carry nutrients and oxygen to the foetus through the placenta, and to carry waste away.",
+        "Amniotic fluid, which surrounds the baby in the uterus and is mostly water, cushions and protects the developing baby and keeps its temperature steady.",
         "Water helps to prevent constipation, which is common in pregnancy.",
         "Breastfeeding women need extra water, because breast milk is mostly water and is produced in large amounts."
-      ]
+      ],
+      "tip": "For pregnancy, give transport of nutrients and oxygen to the foetus, amniotic fluid, prevention of constipation and extra fluid for breastfeeding."
     },
     {
       "h": "Water in sport",
+      "b": "Exercise makes the body hot and the body cools itself by sweating, so active people lose water quickly and must replace it.",
       "points": [
-        "During exercise the body loses water and salts as sweat; water losses are replaced by drinking before, during and after activity.",
-        "Dehydration during sport reduces stamina, strength and concentration, and raises the risk of heat exhaustion and heat stroke.",
+        "Exercise raises heat production; sweating cools the body, but sweat contains water and salts, including sodium and potassium, so these are lost too.",
+        "Water losses are replaced by drinking before, during and after activity.",
+        "Dehydration during sport reduces stamina, strength, concentration and coordination, and raises the risk of cramps, heat exhaustion and heat stroke.",
         "Drinking regularly in small amounts during prolonged or intense exercise is more effective than drinking a large amount at once.",
-        "For prolonged or very intense exercise, drinks containing sodium and potassium replace the salts lost in sweat."
-      ]
-    },
-    {
-      "h": "Energy and water intake",
-      "points": [
-        "Water supplies no energy, so it can be drunk freely without adding to energy intake.",
-        "Sugary drinks supply energy as empty kilocalories, so plain water is the best choice for hydration.",
-        "Factors that increase water needs include hot weather, exercise, fever, vomiting, diarrhoea, pregnancy and breastfeeding."
-      ]
+        "Water is enough for most activity. For prolonged or very intense exercise, isotonic sports drinks containing sodium, potassium and sugar replace the salts and energy lost, but they are not needed for ordinary activity and add empty kilocalories if used unnecessarily.",
+        "Diagram: an optional simple water balance diagram, with intake (drinks, food, metabolism) and output (urine, sweat, breath, faeces)."
+      ],
+      "tip": "For sport, give replacing sweat losses, avoiding dehydration, and drinking before, during and after exercise. Link dehydration to loss of concentration and to heat exhaustion."
     }
   ],
   "keyTerms": [

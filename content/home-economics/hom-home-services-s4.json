@@ -5,69 +5,121 @@
   "syllabusRef": "4.5.2",
   "notes": [
     {
-      "h": "Public water treatment and supply",
-      "b": "Water supplied through the public mains is treated to make it safe for drinking and domestic use before it reaches the home.",
+      "h": "Public water supply and how it is treated",
+      "b": "Water for the public mains is taken from rivers, lakes or underground sources, and it is not safe to drink as it comes. It is treated at a treatment plant in stages, each removing a different problem. Today the public water service is run by Uisce Éireann (formerly Irish Water, renamed from 2023).",
       "points": [
-        "Stage 1, screening: water passes through screens that remove floating debris and large solids.",
-        "Stage 2, sedimentation: chemicals are added to bind fine dirt into larger particles, which sink to the base of the tank and are removed.",
-        "Stage 3, filtration: water passes through filter beds of sand, gravel and stones to remove remaining particles.",
-        "Stage 4, chlorination: chlorine is added to kill bacteria and other micro-organisms.",
-        "Stage 5, testing: samples are tested for quality and purity before the water is released.",
-        "Stage 6, storage: treated water is held in a high-level reservoir so it cannot become contaminated and so pressure is available for distribution.",
-        "Distribution: clean water flows from the reservoir through a mains pipe to houses, with manholes or valves at regular intervals for inspection and repair."
-      ]
+        "Stage 1, screening: water passes through coarse and fine screens that remove floating debris such as leaves and twigs, and large solids, so they do not block or damage the later stages.",
+        "Stage 2, coagulation and sedimentation: chemicals are added to bind fine dirt into larger clumps, which sink to the base of the tank and are removed, because very fine particles would otherwise stay suspended.",
+        "Stage 3, filtration: water passes through filter beds of sand, gravel and stones to remove the remaining small particles.",
+        "Stage 4, chlorination (disinfection): chlorine is added to kill bacteria and other micro-organisms. A small amount stays in the water to keep it safe as it travels through the pipes.",
+        "Stage 5, fluoridation: fluoride is added to many public supplies to help protect teeth from decay. It is carried out under the Health (Fluoridation of Water Supplies) Act 1960."
+      ],
+      "tip": "If asked for the stages of public water treatment, give four or more and state the purpose of each: screening, sedimentation, filtration, chlorination, fluoridation, testing and reservoir storage. Do not add lime softening as a stage."
     },
     {
-      "h": "Components of the cold water supply system",
+      "h": "Testing, storage and distribution to homes",
+      "b": "Once treated, water must be checked and held safely until it is needed. It then reaches houses through mains pipes.",
       "points": [
-        "Mains pipe: carries clean water from the public main into the house.",
-        "Stop cock: a valve that turns the water off at the main, usually near the boundary or under the kitchen sink; a second stop cock may be found inside the house.",
+        "Stage 6, testing: samples are tested regularly for quality and purity before the water is released, so any fault is caught before it reaches homes.",
+        "Stage 7, storage: treated water is held in a covered, high-level reservoir so it cannot become contaminated and so that pressure is available for distribution, because water from high ground flows down with force.",
+        "Distribution: clean water flows from the reservoir through a mains pipe to houses, with manholes or valves at regular intervals for inspection and repair."
+      ],
+      "tip": "Name the reservoir as covered and on high ground: the cover keeps the water clean and the height gives pressure."
+    },
+    {
+      "h": "Rural water supply",
+      "b": "Not every home is on a public main. Rural homes can get their water in three ways, and the choice affects how safe the water is.",
+      "points": [
+        "Rural homes may use the public mains, a group water scheme, or a private well or spring.",
+        "Private supplies need to be protected from contamination, filtered and treated, and tested, because nobody else is treating or checking the water before it reaches the tap."
+      ],
+      "tip": "If a question asks how water is supplied to the home, urban or rural, cover both: public mains for urban homes, and mains, group scheme, well or spring for rural homes."
+    },
+    {
+      "h": "Pipes that bring cold water into the house",
+      "b": "Water travels from the public main to the attic through a chain of pipes with a valve to control it. Each part has its own name and job.",
+      "points": [
+        "Mains pipe: the public pipe under the road, which carries clean water from the public main to the area.",
+        "Service pipe: connects the mains pipe to the house, so it brings water into the house.",
+        "Stop cock (stop valve): a valve on the service pipe, outside the house near the boundary or under the kitchen sink, that turns the water off at the main. A second stop cock may be found inside the house.",
+        "The stop cock is closed to isolate the supply, for example in a burst pipe, during a repair or when the house is left empty.",
         "Rising main: a pipe that carries water from the stop cock up to the cold water storage tank in the attic.",
-        "Cold water storage tank: a tank in the attic that stores water for the cold taps, the WC cistern and the hot water cylinder.",
-        "Ball valve (float valve): a valve on the storage tank that controls the water level and shuts off the inflow when the tank is full.",
-        "Overflow pipe: a pipe leading from the tank to the outside of the house, which carries excess water out if the ball valve fails.",
-        "Distribution pipes: carry cold water from the tank to the kitchen and bathroom taps, the WC cistern and the feed to the hot water cylinder.",
-        "Drinking water tap: often fed directly from the rising main at the kitchen sink, so drinking water does not pass through the storage tank.",
-        "Diagram: plan of a cold water system showing the mains pipe, stop cock, rising main, attic tank with ball valve and overflow, and distribution pipes to the taps, WC and cylinder."
-      ]
+        "Drinking water tap: the kitchen cold tap is usually fed directly from the rising main, so drinking water is fresh from the main and does not pass through the storage tank."
+      ],
+      "tip": "Do not treat the mains pipe, service pipe and rising main as one pipe: the mains pipe is public, the service pipe enters the house and the rising main goes up to the tank. Drinking water comes from the kitchen cold tap on the mains, not the attic tank."
+    },
+    {
+      "h": "The storage tank, ball valve and overflow",
+      "b": "The attic tank stores water and keeps it under control, so the house has a supply even when the mains is busy. Two safety parts stop it from over-filling.",
+      "points": [
+        "Cold water storage tank (cistern): a tank in the attic that stores water for the bathroom taps, the WC cisterns and the hot water cylinder. It is placed high so that gravity gives pressure, and it is covered and insulated. Its water is not for drinking.",
+        "Ball valve (ball cock, float valve): a float on an arm closes the inlet when the water reaches the set level, so the tank is not over-filled. The same valve is in the WC cistern.",
+        "Overflow pipe (warning pipe): leaves the tank and goes through the wall to outside, carrying water away if the ball valve fails. It also warns that something is wrong and stops flooding of the attic and ceilings.",
+        "Distribution pipes: carry cold water from the tank to the bathroom taps, the WC cistern and the feed to the hot water cylinder. The cylinder is fed from the tank and heated by the boiler or immersion.",
+        "Diagram: a labelled cold water system showing the mains pipe, service pipe, stop cock, rising main, attic tank with ball valve and overflow, distribution pipes, taps, WC, hot water cylinder and kitchen tap."
+      ],
+      "tip": "The ball valve controls the water level, the overflow pipe is the backup if it fails, and the stop cock isolates the supply. Do not mix up their functions: exams usually ask for three or four of these functions."
     },
     {
       "h": "How the cold water system works",
+      "b": "Putting the parts together, the system fills and delivers water automatically with no pump, using height and a float valve.",
       "points": [
-        "Water enters through the mains pipe, passes the stop cock and rises through the rising main into the attic tank.",
-        "The ball valve closes when the tank reaches its set level, so the tank is never over-filled.",
-        "Water is stored in the tank and flows out by gravity to the taps, cistern and cylinder when a tap is opened or a cistern refills.",
-        "Water pressure depends on the height of the tank above the outlet: a tank in the attic gives enough pressure at lower-level taps without a pump.",
-        "Overflow water leaves through the overflow pipe, which carries it outside so that water is not damaged or leaking into the ceilings below.",
-        "The stop cock is closed to isolate the supply during repairs, when a pipe bursts or when the house is left empty for a long period."
-      ]
+        "1. Water enters through the service pipe, passes the stop cock and rises through the rising main into the attic tank.",
+        "2. The ball valve closes when the tank reaches its set level, so the tank is never over-filled.",
+        "3. Water is stored in the tank and flows out by gravity to the taps, cistern and cylinder when a tap is opened or a cistern refills.",
+        "4. The ball valve then opens as the level drops and refills the tank.",
+        "Water pressure depends on the height of the tank above the outlet, so a tank in the attic gives enough pressure at lower-level taps without a pump.",
+        "If the ball valve fails, water leaves through the overflow pipe, which carries it outside so that it does not damage or leak into the ceilings below."
+      ],
+      "tip": "When asked to describe the system, give the water's path in order, say the tank is in the attic for pressure, and state that the tank water is not for drinking."
     },
     {
-      "h": "Preventing freezing in the cold water system",
+      "h": "Preventing pipes from freezing",
+      "b": "Water expands when it freezes, so cold weather can split pipes and tanks. The damage often shows only when the thaw comes and the water starts to leak.",
       "points": [
         "Water freezes at 0 °C and expands as it turns to ice, so pipes and tanks in cold spaces such as the attic and external walls can split.",
-        "Lag the cold water storage tank with an insulated lid or jacket, and lag the pipes in the attic and in external walls with pipe insulation.",
-        "Insulate the attic floor so that heat from the house keeps the tank and pipes above freezing.",
-        "Keep the heating on at a low setting in very cold weather, rather than switching it off, so the building remains warm.",
+        "Lag the cold water storage tank with an insulated lid or jacket, and lag the pipes in the attic and in external walls with pipe insulation, because these are the coldest places.",
+        "Keep the heating on at a low setting in very cold weather or when away, rather than switching it off, so the building remains warm.",
+        "Keep the attic hatch closed and repair draughts near pipes, so that cold air does not reach them.",
         "Open the doors of cupboards containing pipes on external walls so that warm air reaches them.",
-        "In severe cold, allow a tap to run slowly, because moving water is less likely to freeze.",
-        "If a pipe freezes, turn off the water at the stop cock, open the nearest tap and thaw the pipe gently with a warm cloth or a hot water bottle; never use a naked flame or a blowtorch.",
+        "In severe frost, allow a tap to drip or run slowly, because moving water is less likely to freeze.",
+        "Know where the stop cock is, so that you can turn the water off quickly if a pipe bursts."
+      ],
+      "tip": "Give two or more precautions: lagging the pipes, insulating the tank, heating on low, circulating warm air and a dripping tap. Do not suggest a heat bulb in the attic."
+    },
+    {
+      "h": "What to do if a pipe freezes",
+      "b": "A frozen pipe is a warning sign. The aim is to thaw it safely before it splits, and to avoid causing a fire or a burst.",
+      "points": [
+        "Turn off the water at the stop cock, so that nothing floods if the pipe has already split.",
+        "Open the nearest tap, so that melting water and pressure have somewhere to go.",
+        "Thaw the pipe gently from the tap end with a warm cloth or a hot water bottle; never use a naked flame or a blowtorch, because they can damage the pipe and start a fire.",
         "After thawing, check the pipes and joints for leaks before turning the water back on."
       ]
     },
     {
       "h": "Conserving water in the home",
+      "b": "Water is a finite resource, and treating and pumping it uses energy, so saving it cuts costs and emissions. Each saving method works because it stops water being used or wasted.",
       "points": [
-        "Take a shower instead of a bath, because a shower uses far less water than filling a bath.",
-        "Turn off the tap while brushing teeth and shaving, and do not leave taps running.",
-        "Wash vegetables and small amounts of dishes in a basin or a plugged sink rather than under a running tap.",
-        "Repair leaks and dripping taps promptly, because a constant drip wastes a large volume over a year.",
-        "Fit a dual-flush WC cistern so that the half-flush can be used for liquids, and fit cisterns with reduced-volume flushes where possible.",
-        "Use washing machines and dishwashers only on full loads, or on half-load or economy programmes for lightly soiled items.",
-        "Install mixer taps, which deliver the right temperature without running hot and cold water separately.",
-        "Do not overfill the kettle, since only the water needed should be heated.",
-        "Collect rainwater from the roof in a butt for watering the garden and washing outdoor surfaces."
-      ]
+        "Bathroom: take a short shower instead of a bath, because a shower uses far less water than filling a bath. Water-saving or aerated showerheads cut the flow further.",
+        "Turn off the tap while brushing teeth and shaving, because running water is wasted when nothing is being washed.",
+        "Fit a dual-flush WC cistern so that the half-flush can be used for liquids, and fit cisterns with reduced-volume flushes or a cistern displacement device where possible.",
+        "Kitchen: wash vegetables and small amounts of dishes in a basin or a plugged sink rather than under a running tap.",
+        "Laundry: use washing machines and dishwashers only on full loads, or on economy programmes for lightly soiled items, so that fewer washes are needed.",
+        "Do not overfill the kettle, since only the water needed should be heated, which also saves energy.",
+        "Repair leaks and dripping taps promptly, because a constant drip wastes a large volume over a year. Check the overflow pipe for dripping.",
+        "Garden and reuse: collect rainwater from the roof in a butt for watering plants and washing outdoor surfaces. Rainwater harvesting for flushing toilets, grey-water reuse, and sensor or aerator taps also save water."
+      ],
+      "tip": "Say why each action saves water: turn off taps alone does not earn marks. Give three or four methods with reasons, such as shower for bath, dual flush, leaks repaired, full loads and a rainwater butt."
+    },
+    {
+      "h": "Saving water and energy together",
+      "b": "Hot water costs both water and the energy to heat it, so cutting hot water use saves twice.",
+      "points": [
+        "Heating less hot water saves both water and energy, for example by timing the immersion, using solar heating and insulating the hot water cylinder.",
+        "Shorter showers and full washing loads also use less heated water, so they reduce fuel costs as well as water use."
+      ],
+      "tip": "At Higher Level, link water saving to energy efficiency and sustainability: time the immersion, insulate the cylinder and reuse grey water."
     }
   ],
   "keyTerms": [
@@ -135,7 +187,7 @@
     },
     {
       "term": "Two ways to protect the cold water system from freezing",
-      "definition": "Lag the tank and pipes with insulation; insulate the attic floor and keep the heating on at a low setting in cold weather."
+      "definition": "Lag the tank and pipes with insulation; keep the heating on at a low setting in cold weather."
     },
     {
       "term": "Water-saving feature of a WC cistern",

@@ -5,65 +5,145 @@
   "syllabusRef": "4.4",
   "notes": [
     {
-      "h": "How heat is lost from a house",
-      "b": "Heat moves from warm to cool by conduction, convection and radiation. In a house most heat is lost through the fabric and through air leakage.",
+      "h": "Why look for energy inefficiency, and how heat is lost from a house",
+      "b": "Heat is the largest energy use in a home, so wasted heat costs money and adds to emissions. Heat moves from warm to cool by conduction, convection and radiation, and in a house most is lost through the fabric (roof, walls, windows, doors, floors) and through air leakage.",
       "points": [
-        "Conduction: heat passes through solid walls, roof, floor and glazing from the warm inside to the cold outside.",
+        "Conduction: heat passes through solid walls, roof, floor and glazing from the warm inside to the cold outside, so any uninsulated surface is a route for loss.",
         "Convection: warm air rises and escapes through gaps, while cold air enters at lower levels, creating draughts.",
         "Air leakage: gaps around doors, windows, floorboards, letterboxes and chimneys let warm air out and draw cold air in.",
         "Heat rises, so an uninsulated roof or attic is one of the largest routes for heat loss in a typical house.",
         "Single glazing loses heat much faster than an insulated wall; double glazing traps a layer of still air between two panes, which slows heat transfer.",
         "Thermal bridges are parts of the structure, such as lintels and junctions between walls and floors, where heat escapes faster than through the surrounding fabric.",
         "Uninsulated hot water cylinders and pipes lose heat continuously to the surrounding air, even when no water is drawn off.",
-        "Heating that runs with no timer, room thermostat or radiator valves heats rooms that are not in use."
-      ]
+        "Heating that runs with no timer, room thermostat or radiator valves heats rooms that are not in use, so energy is paid for but wasted."
+      ],
+      "tip": "Exams ask you to identify inefficient uses of energy and give a strategy for each. Learn the pairs: heat loss and insulation, unregulated heating and thermostats and timers, hot water and lagging and timers."
+    },
+    {
+      "h": "Other energy inefficiencies: heating, hot water, appliances and cooking",
+      "b": "Beyond the building fabric, energy is wasted by how heating, hot water, electrical appliances and cooking are used. Each habit below is a fault you would record in a home survey.",
+      "points": [
+        "Heating: an old or unserviced boiler, no timer, room thermostat or thermostatic radiator valves, rooms heated when not in use, a thermostat set too high, an open fire losing heat up the chimney, and radiators blocked by furniture or curtains.",
+        "Hot water: an uninsulated cylinder and pipes, an immersion (electric heating element in the cylinder) left on, long hot showers or baths, water heated at the wrong time, and dripping hot taps.",
+        "Electricity and appliances: old filament bulbs, lights left on, appliances left on standby, half loads in washing machines and dishwashers, old or low-rated appliances, a tumble dryer used instead of line-drying, and a fridge door left open.",
+        "Cooking: using more water or heat than needed, no lids on pans, a large pan on a small ring (or the reverse), opening the oven door, preheating too long, and cooking one dish in a large oven.",
+        "Cooking: using an oven where a microwave, toaster or slow cooker would do, and boiling too much water in the kettle."
+      ],
+      "tip": "Efficiency means getting the same result from less energy (insulation, LED lamps). Conservation means using less (switching off, shorter showers). Give examples of both when asked."
     },
     {
       "h": "Emissions from burning fuels in the home (Higher Level only)",
-      "b": "Burning any carbon-based fuel releases gases and particles. The completeness of combustion decides which pollutants are produced.",
+      "b": "Burning a carbon fuel (gas, oil, coal, turf or wood) in boilers, stoves and fires gives off gases and particles. What comes out depends on how completely the fuel burns.",
       "points": [
-        "Complete combustion of methane: CH₄ + 2O₂ → CO₂ + 2H₂O, giving carbon dioxide and water vapour.",
-        "Incomplete combustion, caused by too little air or a dirty or faulty burner, produces carbon monoxide (CO) and soot.",
-        "Carbon monoxide is a colourless, odourless and poisonous gas that binds to haemoglobin in the blood, so less oxygen is carried around the body.",
-        "Carbon dioxide is a greenhouse gas that traps heat in the atmosphere, contributing to global warming and climate change.",
-        "Sulphur dioxide (SO₂) from the sulphur in oil and solid fuels dissolves in rainwater to form acid rain, which damages buildings, lakes and forests.",
-        "Nitrogen oxides formed at high temperatures in boilers and engines contribute to smog and acid rain.",
-        "Smoke and particulates from solid fuels cause smog, soiling of buildings and respiratory problems such as asthma and bronchitis.",
-        "Per unit of heat, coal releases the most carbon dioxide among the fuels used in homes, followed by oil, then natural gas; wood is largely carbon-neutral over a managed cycle.",
+        "Complete combustion happens with plenty of air and a well-adjusted burner, and gives carbon dioxide and water vapour. For methane: CH₄ + 2O₂ → CO₂ + 2H₂O.",
+        "Incomplete combustion, caused by too little air, a blocked flue or a dirty or faulty burner, also produces carbon monoxide (CO) and soot or smoke.",
+        "Carbon monoxide is a colourless, odourless and poisonous gas that binds to haemoglobin (the oxygen-carrying protein in red blood cells), so less oxygen is carried around the body. Effects include headache, dizziness, nausea and death.",
+        "Carbon monoxide is prevented by servicing appliances, ensuring ventilation, keeping flues clear and fitting a CO alarm, because you cannot smell or see the gas.",
+        "Water vapour is also given off when fuels burn, and it can cause condensation in the home.",
         "Diagram: a flow chart from fuel burned in the boiler or stove to the pollutants released (CO₂, CO, SO₂, nitrogen oxides, particulates) and their environmental effects."
-      ]
+      ],
+      "tip": "Do not say burning gas gives off only carbon dioxide: water vapour is also made, and carbon monoxide appears if combustion is incomplete. Poor ventilation does not make carbon monoxide; it helps incomplete combustion by starving the fire of air."
+    },
+    {
+      "h": "Environmental effects of emissions (Higher Level only)",
+      "b": "Each gas given off by burning fuels does its own kind of damage. Match each gas to its effect and do not swap them.",
+      "points": [
+        "Carbon dioxide is a greenhouse gas that builds up in the atmosphere and traps heat, contributing to global warming and climate change: rising temperatures and sea levels, extreme weather, and changes to crops and species.",
+        "Sulphur dioxide (SO₂) comes from the sulphur in coal, oil and turf. It dissolves in rainwater to form acid rain, which damages trees and crops, acidifies lakes and kills fish, corrodes metal and wears limestone buildings and statues. It also irritates the lungs.",
+        "Nitrogen oxides form when the air is heated in a burner or engine at high temperatures. They contribute to acid rain and smog and irritate the lungs.",
+        "Smoke and particles come from coal, turf, wood and badly adjusted oil burners. They cause smog, dirty buildings and breathing problems such as asthma and bronchitis; smokeless fuel and efficient stoves reduce them.",
+        "Per unit of heat, coal and turf give the most carbon dioxide and smoke, oil gives less, and natural gas gives the least. Electricity gives no emissions in the house but may do at the power station.",
+        "Wood is a renewable fuel, but burning it still releases carbon dioxide and, if the stove is poor, smoke."
+      ],
+      "tip": "Carbon dioxide causes global warming; sulphur dioxide and nitrogen oxides cause acid rain. Expect questions to ask for a gas, its source fuel, its effect and a way to cut it, and the fuel to pollutant to effect chain can be asked as a diagram."
     },
     {
       "h": "Investigating energy inefficiency in the home",
       "b": "Aim: to identify where energy is wasted in a home and to recommend changes that improve efficiency.",
       "points": [
-        "Step 1: walk through the house and note draughts, uninsulated attic space, single glazing, missing draught seals and any unlagged cylinder or pipes.",
+        "Step 1: walk through the house with a checklist and note draughts, uninsulated attic space, single glazing, missing draught seals and any unlagged cylinder or pipes.",
         "Step 2: check for draughts by holding the back of the hand or a smoke pencil near gaps, noting where air movement shows leakage.",
         "Step 3: record the heating controls: whether there is a timer, a room thermostat and radiator valves, and the thermostat setting in each room.",
         "Step 4: record the room temperatures at the same time on two occasions, and the hours the heating runs each day.",
         "Step 5: identify how hot water is heated (boiler, immersion or electric shower), how long the immersion runs, and whether the cylinder is insulated.",
         "Step 6: observe cooking practices, such as opening the oven door often, preheating for longer than needed, using large pans on small rings, leaving pans uncovered and boiling more water than needed in the kettle.",
         "Step 7: compare meter readings or fuel deliveries over a set period, and note appliances left on standby.",
-        "Safety: keep naked flames away from gas and oil appliances and do not use a lit taper to check for leaks from fuel pipes.",
-        "Expected result: a list of inefficiencies with the evidence for each, ranked by the energy each one wastes."
-      ]
+        "Safety: keep naked flames away from gas and oil appliances and do not use a lit taper to check for leaks from fuel pipes."
+      ],
+      "tip": "Finish the study by listing the faults with the evidence for each, ranked by the energy each one wastes, and then recommend a change for each. This is the practical context for the inefficiency question."
     },
     {
-      "h": "Strategies to improve energy efficiency and reduce emissions",
+      "h": "Strategies: insulation, glazing and draught-proofing",
+      "b": "The cheapest way to cut energy use is to stop heat leaving the house. These measures target the fabric and air leaks found in a survey.",
       "points": [
         "Insulation: quilt laid between the joists in the attic, cavity wall insulation, internal or external wall insulation, and floor insulation.",
-        "Glazing: double or triple glazing with lined curtains closed at night, and low-emissivity coatings on glass.",
-        "Draught-proofing of doors, windows, letterboxes and floorboards with seals and brushes.",
-        "Heating controls: a programmer or timer, a room thermostat, thermostatic radiator valves on each radiator, and a cylinder thermostat with a time switch for hot water.",
-        "Efficient boilers: a condensing boiler recovers heat from its flue gases, and an annual service keeps the burner adjusted so combustion stays complete.",
-        "Hot water: lagging the cylinder and pipes with jackets, using the immersion only when required, and choosing a shower over a bath.",
-        "Renewable heat: solar thermal collectors, a heat pump or a well-managed wood-burning stove with a flue and an air supply controlled for complete combustion.",
-        "Cooking: using lids, matching pan size to the ring, using the microwave or a slow cooker for small or long cooking, and filling the oven when it is on.",
-        "Lighting and appliances: LED lamps, switching off unused lights, A-rated appliances, full loads on washing machines and dishwashers, and switching off standby.",
-        "Energy-efficient house design: a compact shape with less external wall area, large south-facing windows for passive solar gain, zoned heating and sensor lighting.",
+        "Glazing: double or triple glazing, with lined curtains closed at night, and low-emissivity coatings on glass.",
+        "Draught-proofing of doors, windows, letterboxes and floorboards with seals and brushes, which stops warm air escaping and cold air entering.",
         "Ventilation balanced with insulation: an airtight fabric needs a controlled ventilation system so that moisture and stale air are removed without wasting heat.",
-        "The Building Energy Rating (BER) assessment, carried out by an SEAI-registered assessor, shows the energy efficiency of a house and where improvements would have most effect."
-      ]
+        "Improvements are ranked by cost and effect: draught-proofing and attic insulation are cheap and effective, while a heat pump or external wall insulation costs much more. SEAI grants help with costs."
+      ],
+      "tip": "For Ordinary and Higher Level strategy questions, give the strategy and one reason it saves energy, such as insulation and boiler servicing."
+    },
+    {
+      "h": "Strategies: heating controls, hot water and renewable heat",
+      "b": "Heating and hot water are the biggest energy users, so controlling when and where heat is made saves the most. Cleaner heating also cuts emissions.",
+      "points": [
+        "Heating controls: a programmer or timer, a room thermostat, thermostatic radiator valves on each radiator, and a cylinder thermostat with a time switch for hot water, so heat is only produced when and where it is needed. Zoning (heating separate areas independently) and closing doors also help.",
+        "Efficient boilers: a condensing boiler recovers heat from its flue gases, and an annual service keeps the burner adjusted so combustion stays complete.",
+        "Heating systems: a stove in place of an open fire, and background heating where it suits.",
+        "Hot water: lagging the cylinder and pipes with jackets, using the immersion only when required on a timer, fixing dripping taps, and setting the cylinder thermostat correctly.",
+        "Choosing a shower over a bath saves water only if the shower is short, because a long or power shower can use as much as a bath.",
+        "Renewable heat: solar thermal collectors, a heat pump or a well-managed wood-burning stove with a flue and an air supply controlled for complete combustion."
+      ],
+      "tip": "Typical answers pair a problem with its control: unregulated heating with thermostats and timers, hot water with lagging and timers."
+    },
+    {
+      "h": "Strategies: lighting, appliances and cooking",
+      "b": "Everyday electricity and cooking habits waste energy too, and changing them costs little. Each fix answers a fault from the home survey.",
+      "points": [
+        "Lighting and appliances: LED lamps, switching off unused lights, sensors and timers, and appliances with the highest rating on the energy label.",
+        "Laundry and standby: full loads on washing machines and dishwashers, eco programmes, switching off standby, and line-drying clothes instead of using a tumble dryer.",
+        "Cooking: using lids, matching pan size to the ring, boiling only the water needed, and filling the oven when it is on.",
+        "Cooking: using the microwave, a pressure cooker or a slow cooker for small or long cooking, avoiding opening the oven door, and cooking several items together."
+      ],
+      "tip": "Ordinary Level questions ask for three ways to improve energy efficiency in a kitchen. Timers, thermostats, efficient appliances and full loads are all strategies that earn marks."
+    },
+    {
+      "h": "Strategies to reduce emissions specifically (Higher Level only)",
+      "b": "Emissions fall when less fuel is burned and when what is burned burns cleanly. These steps answer the \"way to cut it\" part of an emissions question.",
+      "points": [
+        "Burn less fuel overall, through insulation, controls and efficient appliances, because less fuel burned means fewer pollutants.",
+        "Change from coal or oil to gas or smokeless fuel, and choose a renewable electricity supplier, because these produce less carbon dioxide, sulphur dioxide and smoke.",
+        "Service boilers so combustion stays complete, keep flues clear, and fit a CO alarm, which warns of carbon monoxide that you cannot smell.",
+        "Do not burn rubbish, and use smokeless fuel and efficient stoves to reduce smoke and particles.",
+        "Renewable options such as solar thermal and PV (photovoltaic panels that make electricity), and heat pumps, burn no fuel in the home."
+      ],
+      "tip": "Questions on methods of reducing harmful emissions (2007H) and the impact of burning fossil fuels with one strategy (2023H) expect a named emission, its effect and a way to cut it."
+    },
+    {
+      "h": "Energy-efficient house design",
+      "b": "It is far cheaper to build efficiency in than to add it later. A new house can be designed to lose little heat and to gain free heat from the sun.",
+      "points": [
+        "A compact shape with few corners has less outside wall area through which heat escapes.",
+        "South-facing living rooms with large windows gain free heat from the sun (passive solar gain), while small north windows lose little heat.",
+        "High levels of insulation in the attic, walls and floor, with double or triple glazing, and airtight construction with controlled ventilation.",
+        "A porch or lobby cuts draughts when the door is opened, and orientation and shelter from wind cut heat loss.",
+        "Zoned heating with controls, and an efficient or renewable heating system.",
+        "Rainwater use, and LED and sensor lighting."
+      ],
+      "tip": "Questions on how energy efficiency influences house design want glazing, insulation, zoning, renewables, thermostats and timers, and appliances. Three actions when building a house can include insulation, solar, zoning and lagging."
+    },
+    {
+      "h": "Building Energy Rating (BER)",
+      "b": "A BER is a certificate that rates a dwelling's energy performance, like the energy label on appliances. It tells owners and buyers how efficient a home is.",
+      "points": [
+        "The BER assessment is carried out by an assessor registered with SEAI, and SEAI runs the system.",
+        "It rates a dwelling on a scale from A (most efficient) to G (least efficient). From 24 May 2026 the scale is A0 and A to G, and the sub-bands such as B1 to B3 were removed.",
+        "A valid BER is required when a home is sold or rented, it must appear in adverts, and it has been required since 2009. BERs issued before 24 May 2026 stay valid for sale or rent for ten years from issue.",
+        "It shows the energy efficiency of a house, including windows, walls, insulation and heating, and where improvements would have most effect.",
+        "The EU energy label for appliances and bulbs was rescaled to A to G (appliances in March 2021, lamps in September 2021), so few products now reach A."
+      ],
+      "tip": "For a note on the BER, say what it is, who assesses it, the scale, what is assessed, that it is compulsory for sale or rent, and that it advises on improvements."
     }
   ],
   "keyTerms": [

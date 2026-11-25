@@ -6,53 +6,85 @@
   "notes": [
     {
       "h": "Planning a comparative study (Higher Level only)",
-      "b": "A comparative evaluation tests whether one preserved food is better than another, so the test must be fair and the criteria must be set in advance.",
+      "b": "A comparative evaluation tests whether one preserved food is better than another. The test must be fair and the criteria must be set in advance, so that the final judgement rests on evidence and not on opinion.",
       "points": [
-        "Choose one food that can be preserved by two methods, such as strawberries frozen and strawberries made into jam.",
-        "Use sound, ripe fruit from the same batch for both methods, so differences come from the preservation method rather than the raw material.",
-        "Compare the same criteria for each method: nutritional value, sensory qualities, safety, storage life, time, energy and packaging.",
-        "State the underlying principle of each method and the risk of spoilage that each carries.",
-        "Conclude by judging which method suits the stated purpose, weighing its advantages against its disadvantages."
-      ]
+        "Choose one food that can be preserved by two methods, such as strawberries frozen and strawberries made into jam. Using the same food means the method is the only thing that changes.",
+        "Use sound, ripe fruit from the same batch for both methods, prepared equally, so differences come from the preservation method rather than the raw material.",
+        "Compare the same criteria for each method: nutritional value, sensory qualities (colour, flavour, texture and appearance), safety and risk of spoilage, storage life and conditions, time, skill, cost and energy, equipment, packaging, convenience and use in meals, and environmental impact.",
+        "For the sensory criteria, several tasters rate or rank the two samples on appearance, aroma, flavour and texture, in identical conditions, so the result is not one person's preference.",
+        "State the underlying principle of each method (how it stops spoilage) and the risk of spoilage that each carries.",
+        "Write the evaluation in order: name of the food, the methods and their main steps, the principle of each, the findings against each criterion, the risk of spoilage, and a conclusion.",
+        "A summary table with one column per method and one row per criterion is a clear layout, and a good revision device because every method is set against every criterion.",
+        "Conclude by judging which method suits the stated purpose, weighing its advantages against its disadvantages. Choose by purpose, such as long storage without a freezer, nutrient retention, use as a spread or in meals, cost or time, and justify the choice."
+      ],
+      "tip": "Compare both methods against the same criteria; two separate descriptions earn little. Use one food from one batch (frozen peas against canned carrots is not a fair test), and do not claim one method is always better: state the purpose, then the choice."
     },
     {
       "h": "Nutritional comparison: freezing and canning (Higher Level only)",
+      "b": "Preservation tries to keep colour, flavour, texture and nutritive value as close to fresh as possible. Freezing and canning both change nutrient content, but by different amounts, because canning uses much more heat.",
       "points": [
-        "Freezing keeps more vitamin C than canning, because canning uses higher temperatures for longer.",
-        "Water-soluble vitamins, such as vitamin C and the B group, leach into blanching water and canning liquid, and are lost when the liquid is drained away.",
-        "Thiamine (vitamin B1) is heat-sensitive, so the high temperatures of canning destroy much of it.",
-        "Sample data for practice: vitamin C in peas was 25 mg when fresh, 17 mg after freezing and 8 mg after canning.",
-        "Sample data for practice: sodium in peas was 1 mg when fresh and 230 mg after canning, because salt is added during canning."
-      ]
+        "Freezing keeps more vitamin C than canning, because canning uses higher temperatures for longer. Vitamin C is water soluble and unstable at high temperature.",
+        "Water-soluble vitamins, such as vitamin C and the B group, leach (dissolve out) into blanching water and canning liquid, and are lost when the liquid is drained away.",
+        "Frozen vegetables lose some vitamin C too, because they are blanched (briefly scalded in boiling water) before freezing.",
+        "Thiamine (vitamin B1) is lower in canned peas, because the B vitamins are heat-sensitive and the high temperatures of canning destroy much of it.",
+        "Sodium is much higher in canned peas than in fresh, because salt (brine) is added during canning. Frozen peas are close to fresh.",
+        "In one past-paper data table for peas, vitamin C per 100 g was 25 mg when fresh, 17 mg after freezing and 8 mg after canning.",
+        "In the same table, sodium per 100 g was 1 mg when fresh, 3 mg after freezing and 230 mg after canning, because salt is added during canning.",
+        "Protein, carbohydrate, vitamin A and minerals show only small changes. Energy values may differ because of water content, not because of the method.",
+        "Canning may also add sugar (in syrup), salt (in brine) or fat (in oil), and dehydration may lose B vitamins, vitamin A and vitamin E and gives a product with concentrated sugar."
+      ],
+      "tip": "When given a table of nutrients, state the figure for each food, say whether it rose or fell, and give one reason: heat and water solubility for vitamin C and thiamine, salt added for sodium. The reason is what earns the marks, not the numbers alone."
     },
     {
       "h": "Sensory and nutritional comparison: frozen strawberries and jam (Higher Level only)",
+      "b": "Strawberries are a good test food because freezing and jam making treat them so differently: one keeps the fruit cold and unchanged, the other cooks it with sugar. The two products look, taste and feel very different.",
       "points": [
+        "Freezing: the fruit is washed quickly, hulled, dried and open frozen in one layer, then packed in portions in moisture- and vapour-proof bags with the air removed, sealed, labelled and dated. It is fast frozen at about −25 °C and stored at −18 °C.",
+        "The principle of freezing is that low temperature inactivates micro-organisms and slows enzymes, and the water is turned to ice so it is unavailable to micro-organisms.",
         "Frozen strawberries keep their colour and flavour closer to those of fresh fruit.",
         "Thawed frozen strawberries are softer and release juice, because ice crystals have damaged the cell walls.",
-        "Jam is sweeter, darker from cooking, and firmer and spreadable in texture.",
-        "Jam loses some heat-sensitive vitamin C during boiling, whereas frozen fruit retains more.",
-        "Jam's high sugar content makes it unsuitable for people restricting their sugar intake."
-      ]
+        "Jam making: the fruit is simmered, sugar is added, it is boiled to setting point, potted hot and sealed.",
+        "The principle of jam is that heat destroys organisms and enzymes, sugar draws water out of organisms by osmosis, pectin and acid set the jam, and sealing stops micro-organisms getting back in.",
+        "Jam is sweeter, darker from cooking, with a cooked flavour, and firmer and spreadable in texture.",
+        "Jam loses some heat-sensitive vitamin C during boiling, whereas frozen fruit retains more. Jam's high sugar content makes it unsuitable for people restricting their sugar intake."
+      ],
+      "tip": "Give the principle of each method as well as the findings. Freezing is low temperature plus water locked as ice; jam is heat, sugar by osmosis, pectin and acid, and sealing."
     },
     {
       "h": "Risk of spoilage in each method (Higher Level only)",
+      "b": "Neither method makes food completely safe for ever. Each is a barrier to spoilage, and each fails in its own way if it is not done properly.",
       "points": [
-        "Frozen fruit is not sterile: if the temperature fluctuates, partial thawing releases moisture, and surviving micro-organisms can grow.",
-        "Freezer burn occurs when air reaches the food through loose or damaged packs, causing drying, toughening and discolouration by oxidation.",
-        "Thawed fruit should be used promptly and never refrozen.",
+        "Frozen fruit is not sterile: freezing only stops micro-organisms growing. If the temperature fluctuates, partial thawing releases moisture, and surviving micro-organisms can grow.",
+        "Freezer burn occurs when air reaches the food through loose or damaged packs, causing drying, toughening and discolouration by oxidation (reaction with oxygen).",
+        "Thawed fruit should be used promptly and never refrozen, because micro-organisms can multiply once it has thawed.",
         "Jam spoils by fermentation or mould growth when the sugar is too low, setting point is not reached, jars are not clean, or the seal fails.",
         "A bulging lid, gas, mould or an off-odour in a jar means the jam must be discarded."
-      ]
+      ],
+      "tip": "Do not say frozen food cannot spoil. Frozen food spoils if the freezer temperature fluctuates, after thawing, or through freezer burn from poor wrapping. Jam spoils if sugar is low, setting point is missed, jars are not sterile or the seal is faulty."
     },
     {
-      "h": "Energy, cost and environmental factors (Higher Level only)",
+      "h": "Energy, cost, storage and environmental factors (Higher Level only)",
+      "b": "The practical side often decides which method to use. Equipment, running costs, storage space and packaging all differ between freezing and jam making, and each matters when you make the final judgement.",
       "points": [
-        "Freezing needs a continuous electricity supply and freezer space; jam needs no freezer but needs fuel for cooking.",
-        "Sealed jam keeps well without a freezer and has a long shelf life when stored in a cool, dark place.",
-        "Low-acid vegetables such as peas must be pressure canned, because boiling water does not destroy the spores of Clostridium botulinum.",
-        "Glass jars can be washed and reused or recycled; plastic freezer bags are usually made from non-renewable oil and are hard to recycle."
-      ]
+        "Freezing needs a continuous electricity supply and freezer space; jam needs no freezer but needs fuel for cooking, jars and time.",
+        "Sealed jam keeps well without a freezer and has a long shelf life when stored in a cool, dark place, unopened in a cupboard.",
+        "Frozen fruit is versatile, for example in desserts and smoothies, whereas jam suits spreading and baking.",
+        "Low-acid vegetables such as peas must be pressure canned, because boiling water does not destroy the spores of Clostridium botulinum (a bacterium whose spores survive boiling).",
+        "Glass jars can be washed and reused or recycled, whereas most plastic freezer bags are single-use plastic.",
+        "A freezer uses electricity continuously. Reduced food waste is an advantage of every preservation method."
+      ],
+      "tip": "Finish with a reasoned choice for a stated purpose, for example long storage without a freezer, nutrient retention, use as a spread or in meals, cost or time."
+    },
+    {
+      "h": "Comparing other methods (Higher Level only)",
+      "b": "The same approach of setting methods against criteria works for any pair of preserved foods. These short evaluations show the main advantages and disadvantages to weigh.",
+      "points": [
+        "Freezing against canning (vegetables): frozen food retains more vitamin C, colour and texture. Canned food is ready to eat, needs no freezer and keeps for a long period at room temperature, but loses vitamins and may add salt or sugar.",
+        "Freezing against drying: freezing keeps nutrients, colour and texture but needs a freezer and continuous energy. Drying keeps for a long time without refrigeration and is light and compact, but loses vitamins and changes texture and colour, and dried fruit is high in sugar per portion.",
+        "Irradiation against heat treatment: irradiation changes colour, flavour and texture little and leaves no residue, but may cause vitamin loss and rancidity and is limited by law and public acceptance. Canning uses heat that changes the food.",
+        "Chemical preservation (jam, chutney, pickles, salting) against freezing: sugar, salt and vinegar change the food and add sugar or sodium, whereas freezing does not change the food's content."
+      ],
+      "tip": "Words like evaluate, assess and compare need advantages, disadvantages and a judgement. Short questions may ask for the effect of one method, such as canning or dehydration, on the nutrients."
     }
   ],
   "keyTerms": [

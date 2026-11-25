@@ -6,16 +6,27 @@
   "notes": [
     {
       "h": "Electrical quantities: voltage, current and wattage",
-      "b": "Electricity in the home is described by three quantities. The relationship between them lets a student calculate the current an appliance draws.",
+      "b": "Electricity in the home is described by three quantities: how hard the supply pushes, how much charge flows and how fast an appliance uses energy. The relationship between them lets a student calculate the current an appliance draws.",
       "points": [
-        "Voltage (V) is the electrical pressure that pushes current around a circuit; the standard Irish domestic supply is 230 V at 50 Hz.",
-        "Current (I), measured in amperes or amps (A), is the rate of flow of electric charge through a conductor.",
-        "Wattage (W) is the rate at which an appliance uses electrical energy; 1 kilowatt (kW) equals 1000 watts.",
-        "Power relationship: wattage = voltage × current, so current = wattage ÷ voltage.",
+        "Voltage (V) is the electrical pressure that pushes current around a circuit, a bit like water pressure in a pipe. The standard Irish domestic supply is 230 V at 50 Hz (50 cycles per second).",
+        "Current (I), measured in amperes or amps (A), is the rate of flow of electric charge through a conductor, such as the copper wire in a flex.",
+        "Wattage (W) is the rate at which an appliance uses electrical energy, so it measures power. 1 kilowatt (kW) equals 1000 watts.",
+        "Power relationship: wattage = voltage × current (W = V × A), so current = wattage ÷ voltage.",
         "Worked example: a 2300 W kettle on a 230 V supply draws 2300 ÷ 230 = 10 A.",
         "A higher wattage appliance uses more electricity per hour, so a 3 kW heater uses three times the energy of a 1 kW appliance running for the same time.",
         "Appliance rating plates give the voltage and wattage, and appliances rated for 230 V must be used on the Irish supply to avoid damage.",
-        "Plugs are fitted with a fuse matched to the appliance's wattage; a plug rated at 13 A is the largest used on a standard domestic socket circuit."
+        "The same calculation chooses the plug fuse: a 3 A fuse suits appliances up to about 690 W and a 13 A fuse suits appliances up to about 3000 W, so each plug carries a fuse of 3, 5 or 13 A matched to the appliance."
+      ],
+      "tip": "Watts measure power and kilowatt-hours measure energy used. For a current calculation, write the formula, put in the numbers and give the unit (A)."
+    },
+    {
+      "h": "Plugs, sockets and the three wires",
+      "b": "Every appliance connects to the supply through a plug, and each wire inside it has a separate job. Knowing the jobs explains why the plug is built the way it is.",
+      "points": [
+        "The live wire (brown) carries current to the appliance, the neutral wire (blue) returns it to complete the circuit, and the earth wire (green and yellow) is a safety wire that does nothing in normal use.",
+        "A three-pin plug has one pin for each wire, so live, neutral and earth are each connected to their own pin.",
+        "The plug holds a cartridge fuse of 3 A, 5 A or 13 A, matched to the appliance's wattage, so the fuse melts before an overloaded flex can overheat.",
+        "The flex is gripped by a cord grip, so a pull on the flex tugs on the grip and not on the wire connections."
       ]
     },
     {
@@ -23,85 +34,109 @@
       "b": "Electricity is generated at a distance from the home and reaches it in stages, each changing the voltage for efficient transmission.",
       "points": [
         "Stage 1: generation at a power station, where a generator is turned by steam, water or wind.",
-        "Stage 2: a step-up transformer raises the voltage for transmission on the national grid, which reduces the current and so the energy lost as heat in the cables.",
+        "Stage 2: a step-up transformer (a device that raises voltage) raises the voltage for transmission on the national grid. High voltage means low current, which reduces the energy lost as heat in the cables.",
         "Stage 3: step-down substations reduce the voltage for distribution on local networks.",
-        "Stage 4: a final transformer near the home reduces the voltage to 230 V.",
-        "Stage 5: a mains service cable carries the supply into the house, through the meter cabinet and the electricity meter.",
-        "Stage 6: the consumer unit (fuse board) with its main switch and circuit breakers distributes the supply to circuits serving sockets, lighting, cookers and immersion heaters.",
+        "Stage 4: a final transformer near the home reduces the voltage to 230 V, the voltage used in homes.",
+        "Stage 5: a mains service cable carries the supply into the house, through the sealed meter box, which holds the main fuse and the electricity meter.",
+        "Stage 6: the consumer unit (fuse board) with its main switch and circuit breakers distributes the supply to circuits serving sockets, lighting, cookers, immersion heaters and showers.",
+        "The consumer unit divides the supply into separate circuits, each with its own protective device, so a fault on one circuit disconnects only that circuit.",
         "Diagram: flow chart of the six stages from power station to consumer unit, with a labelled transformer at each change of voltage."
-      ]
+      ],
+      "tip": "When asked how electricity reaches the home, name the stages in order: generation, transformers, service cable, meter, consumer unit and breakers, circuits. Give the reason for the step-up: less current, so less heat lost in the cables."
     },
     {
       "h": "Kilowatt-hour, tariffs and costings",
+      "b": "Households pay for the energy they use, not the power of their appliances, and the unit of energy on the bill is the kilowatt-hour. Once you know it, you can cost any appliance.",
       "points": [
-        "A kilowatt-hour (kWh), or unit, is the energy used by a 1000-watt (1 kW) appliance running for one hour.",
-        "Energy in kWh = power in kW × time in hours; for example, a 2 kW heater running for 3 hours uses 2 × 3 = 6 kWh.",
-        "Cost of running an appliance = energy in kWh × the unit rate charged by the supplier.",
-        "A standing charge is a fixed daily charge that covers maintenance of the network, meter reading and billing, and is payable whether or not electricity is used.",
+        "A kilowatt-hour (kWh), or unit, is the energy used by a 1000-watt (1 kW) appliance running for one hour. It is energy (power × time), not a rate.",
+        "Energy in kWh = power in kW × time in hours. For example, a 2 kW heater running for 3 hours uses 2 × 3 = 6 kWh.",
+        "Cost of running an appliance = energy in kWh × the unit rate charged by the supplier. In a worked example, use a made-up rate and label it as an example.",
+        "Costing a household's use: add up each appliance's kW × hours, then identify the biggest users, such as heating, the shower, the cooker and the immersion heater.",
+        "Reading the meter: the difference between two readings taken a set period apart (new reading minus old reading) gives the number of units used in that period.",
+        "The bill has four charges. The standing charge is a fixed daily charge that covers maintenance of the network, meter reading and billing, and is payable whether or not electricity is used.",
         "The unit charge is the price for each kWh used, and appears on the bill as the number of units consumed multiplied by the rate.",
-        "A night-rate or time-of-use tariff charges less for electricity used at off-peak times, so storage heaters and immersion heaters can be run at night.",
-        "A smart meter shows real-time consumption, which helps a household see the cost of each appliance and shift use to cheaper periods.",
-        "Reading the meter: the difference between two readings taken a set period apart gives the number of units used in that period."
+        "The PSO levy is a charge on all customers, set each year by the energy regulator (CRU), that funds support for renewable energy. VAT is added to the bill as well."
+      ],
+      "tip": "Say kilowatt-hour, not 'kilowatt per hour'. If asked to explain charges on a bill, pick two or three of the standing charge, unit charge and PSO levy and say what each pays for."
+    },
+    {
+      "h": "Tariffs and smart meters",
+      "b": "A tariff is the pricing plan a supplier uses, and choosing one means matching when you use electricity to when it is cheapest.",
+      "points": [
+        "A standard tariff charges one rate all day.",
+        "A night-rate or day-and-night tariff, also called a time-of-use tariff, charges less for electricity used at night or off-peak, so storage heaters, immersion heaters and dishwashers can be run then.",
+        "A smart meter records use in intervals, so it supports time-of-use pricing and helps a household shift use to cheaper periods."
       ]
     },
     {
       "h": "Safety devices: fuses, MCBs, RCDs and the earth wire",
+      "b": "Faults can cause fires or fatal shocks, so each circuit has devices that cut the supply. Fuses and MCBs react to too much current, while an RCD reacts to current leaking to earth, so they do different jobs.",
       "points": [
-        "A fuse is a deliberate weak link: a thin wire inside the fuse melts when the current exceeds its rating, breaking the circuit and preventing fire.",
-        "A miniature circuit breaker (MCB) is a switch that trips when the current exceeds its rating or a fault occurs, and can be reset once the fault is repaired.",
-        "A residual current device (RCD) detects an imbalance between live and neutral currents, which signals current leaking to earth through a person or fault, and trips within milliseconds.",
-        "Socket circuits are commonly protected by RCDs with a sensitivity of 30 mA, which can trip before a fatal shock is delivered.",
-        "The earth wire, usually green and yellow, is a safe path for fault current to flow to earth; the surge of current blows the fuse or trips the MCB.",
-        "Appliances with double insulation have a plastic casing and no earth connection, so the appliance cannot become live through a metal part.",
+        "A fuse is a deliberate weak link: a thin wire inside the fuse heats and melts when the current exceeds its rating, breaking the circuit and preventing fire. It breaks once and must be replaced, and is found in plugs and old fuse boards.",
+        "A miniature circuit breaker (MCB) is a switch that trips (switches off) when the current exceeds its rating, in an overload or short circuit, or when a fault occurs. It can be reset once the fault is repaired, and is found in the consumer unit.",
+        "A residual current device (RCD) compares the current in the live and neutral wires. A difference signals current leaking to earth through a person or fault, and it trips within milliseconds.",
+        "Socket circuits are commonly protected by RCDs with a sensitivity of 30 mA, the usual domestic setting, and 30 mA RCDs are required on socket circuits. They can trip before a fatal shock is delivered, protection that fuses and MCBs do not give.",
+        "The earth wire, usually green and yellow, is a safe path for fault current to flow to earth, for example if a fault makes the metal casing of a kettle, cooker or washing machine live.",
+        "The surge of current along the earth wire blows the fuse or trips the MCB, so the metal casing cannot stay live to shock the user.",
+        "Appliances with double insulation have a plastic casing, shown by the symbol of a square within a square, and no earth wire, so the appliance cannot become live through a metal part.",
         "Each circuit has its own protective device in the consumer unit, so a fault on one circuit disconnects only that circuit."
-      ]
+      ],
+      "tip": "Do not say an MCB protects against electric shock: fuse and MCB react to too much current, an RCD reacts to a leak to earth. The earth wire does not itself blow the fuse; it carries the fault current so that the fuse or MCB trips. Give each device's function and the shock or fire it prevents."
     },
     {
       "h": "Ring circuit (Higher Level only)",
       "b": "A ring circuit is a single circuit that supplies many sockets in a room or floor from one protective device.",
       "points": [
-        "The live, neutral and earth conductors run from the consumer unit, out through each socket in turn, and return to the consumer unit, forming a continuous loop.",
-        "Each socket is supplied from two directions, so the cable can be smaller than a single radial cable carrying the same load to every socket.",
-        "Upstairs and downstairs ring circuits are often wired separately, so a fault on one floor does not disconnect the other.",
+        "The live, neutral and earth conductors run from the consumer unit, out through each socket in turn, and return to the same breaker in the consumer unit, forming a continuous loop.",
+        "Each socket is supplied from two directions, so the current divides between two paths and the cable can be smaller than a single radial cable (one run out to the sockets) carrying the same load.",
+        "Many sockets can be added to the ring, and a fault cuts off only that ring.",
+        "Upstairs and downstairs ring circuits are often wired separately, usually one ring per floor, so a fault on one floor does not disconnect the other. Lighting and the cooker are on separate circuits.",
         "A spur is a short branch from a socket in the ring, which can supply one additional socket or one fixed appliance.",
-        "The ring is protected by one MCB or fuse in the consumer unit, which trips if the total current on the loop exceeds its rating.",
+        "The ring has its own protective device, an MCB or fuse, in the consumer unit, which trips if the total current on the loop exceeds its rating.",
         "Diagram: a wiring circuit showing the consumer unit, live, neutral and earth conductors forming a loop, sockets along the loop and one spur labelled."
-      ]
+      ],
+      "tip": "For the ring circuit, describe the cable running from the consumer unit through the sockets and back, with upstairs and downstairs loops, earthed and fused, and say that the MCB trips on a fault or overload and can be reset. Say 'the ring's own protective device' rather than quoting an amp rating."
     },
     {
       "h": "Safe use of electricity",
+      "b": "These guidelines each remove one danger: water near electrical equipment, damaged flexes or appliances, and overloaded sockets.",
       "points": [
-        "Do not overload sockets or use multiple adaptors; each plug and socket should be used within its rating.",
-        "Check flexes and plugs regularly for damage, and never pull a plug out by its flex.",
-        "Unplug appliances before cleaning or repairing them, and never repair an appliance while it is connected to the supply.",
-        "Never handle electrical equipment with wet hands, and keep water and electricity apart in the bathroom and kitchen.",
+        "Never mix water and electricity: do not handle electrical equipment with wet hands, and keep water and electricity apart in the bathroom and kitchen, because water conducts current through the body. Bathroom switches are pull-cords, and the only appliance normally used there is a shaver socket.",
+        "Do not overload sockets or use multiple adaptors or long extension leads; each plug and socket should be used within its rating, because too much current overheats the wiring and starts fires. Avoid trailing flexes.",
+        "Check flexes, plugs and sockets regularly for damage, replace damaged flexes, and never pull a plug out by its flex.",
+        "Unplug appliances before cleaning or repairing them, and never repair an appliance yourself while it is connected to the supply.",
         "Keep flexes away from hobs, sinks and heat sources, and never cover a heater or drape clothes over it.",
-        "Use only safety-approved appliances, and do not use portable heaters in bathrooms.",
-        "Electric blankets should be checked for damage, and not left switched on under a sleeping person or folded.",
-        "Outdoor sockets and appliances need an RCD and weatherproof fittings; repairs and new circuits must be carried out by a qualified electrician.",
-        "Unplug all appliances, except a fridge or freezer, before going to bed to reduce the risk of an electrical fire."
-      ]
+        "Use only appliances with a recognised safety mark, fit the right fuse and follow the instructions. Do not use portable heaters in bathrooms.",
+        "Electric blankets should be checked for damage and wear, and not folded or left switched on under a sleeping person.",
+        "Outdoor sockets and appliances need an RCD and weatherproof fittings; repairs and new circuits must be carried out by a qualified, registered electrician.",
+        "Unplug all appliances, except a fridge or freezer, before going to bed to reduce the risk of an electrical fire, and fit smoke alarms."
+      ],
+      "tip": "Exams ask for three or four guidelines with reasons, or a set of guidelines. Give each guideline with the reason it keeps people safe."
     },
     {
       "h": "Safe use of gas in the home",
+      "b": "Gas can leak, and burning it in the wrong conditions makes a poisonous gas. Safe use means knowing what to do about a leak, about carbon monoxide, and about ventilation and servicing.",
       "points": [
-        "Natural gas and LPG are odourless without the odorant, so a gas smell is an emergency: turn off the gas supply at the meter, open doors and windows, and do not use switches, matches or other flames.",
-        "Carbon monoxide is produced when gas, oil or solid fuel burns incompletely, for example from a blocked flue or a faulty boiler; it has no smell and causes headache, dizziness and nausea.",
+        "Natural gas and LPG are odourless without the added odorant, so a gas smell is an emergency. The three immediate actions are to turn off the gas supply at the meter, open doors and windows, and not use switches, matches or other flames.",
+        "Then call the gas emergency number, or leave the house and call from outside.",
+        "Carbon monoxide is produced by incomplete combustion, when gas, oil or solid fuel burns without enough air, for example from a blocked flue or a faulty boiler. It has no smell and causes headache, dizziness and nausea.",
         "A carbon monoxide alarm gives early warning of the gas, and should be fitted in rooms containing fuel-burning appliances.",
-        "Gas appliances need adequate ventilation for the air needed to burn the gas, and must not be blocked by furniture or closed vents.",
-        "Gas appliances should be installed by a registered installer and serviced at regular intervals so the flue and burner stay safe and efficient."
-      ]
+        "Gas appliances need adequate ventilation for the air needed to burn the gas, so they must not be blocked by furniture or closed vents, and flues and vents must be kept clear.",
+        "Do not use a cooker or oven to heat the room.",
+        "Gas appliances should be installed by a registered installer (on the Register of Gas Installers of Ireland) and serviced at regular intervals so the flue and burner stay safe and efficient."
+      ],
+      "tip": "For a question on safe use of gas, cover the action for a gas smell, carbon monoxide, servicing and ventilation."
     },
     {
       "h": "Planning electrical services for one room",
       "b": "Electrical services must match the use of the room, and the layout must keep sockets and switches safe and convenient.",
       "points": [
         "Lighting: plan layers of light, with ambient lighting from ceiling fittings, task lighting over work areas and accent lighting for display.",
-        "Switches should be placed at the door, within easy reach, and sockets at a safe height away from water sources.",
+        "Switches should be placed at the door, within easy reach, and sockets at a safe height and away from water sources.",
         "Heating options: electric storage heaters charged on night rate, panel heaters on a thermostat, or electric underfloor heating, each controlled by a thermostat or timer.",
         "Ventilation: a fan with a timer or humidity switch, fitted in a kitchen or bathroom, removes moisture and cooking smells from the room.",
-        "Circuits and sockets: enough sockets on the ring or a separate circuit so no extension lead is needed for regular appliances.",
-        "Safety: the fittings for a bathroom must suit its zone rating, and any new work must be certified by a qualified electrician."
+        "Circuits and sockets: enough double sockets on the ring or a separate circuit so no extension lead is needed for regular appliances.",
+        "Safety: the fittings for a bathroom must suit its zone rating, and any new work must be done by a registered electrician and certified."
       ]
     }
   ],

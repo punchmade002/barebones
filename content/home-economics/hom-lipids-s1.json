@@ -6,67 +6,80 @@
   "notes": [
     {
       "h": "Classification of fatty acids",
-      "b": "Fatty acids are the building blocks of lipids. They are classified by the number of double bonds between carbon atoms in the chain.",
+      "b": "Fatty acids are the building blocks of fats and oils (lipids). They are sorted into three classes by the number of double bonds between carbon atoms in the chain, and that count decides how the fat behaves.",
       "points": [
-        "A fatty acid is a long chain of carbon atoms with a carboxyl group (–COOH) at one end and a methyl group (–CH₃) at the other.",
-        "Saturated fatty acids have no double bonds between carbon atoms; every carbon carries its full quota of hydrogen atoms.",
-        "Monounsaturated fatty acids have one double bond in the carbon chain.",
+        "A fatty acid is a long chain of carbon atoms with hydrogen attached, made of carbon, hydrogen and oxygen only. It has a carboxyl group (–COOH) at one end and a methyl group (–CH₃) at the other.",
+        "Saturated fatty acids have no double bonds between carbon atoms, so every carbon carries its full quota of hydrogen atoms. Saturated means saturated with hydrogen.",
+        "Monounsaturated fatty acids have one double bond (C=C) in the carbon chain, so two neighbouring carbons each hold one hydrogen fewer.",
         "Polyunsaturated fatty acids have two or more double bonds in the carbon chain.",
-        "Saturated fats are generally solid at room temperature; monounsaturated and polyunsaturated fats are generally liquid oils.",
-        "Examples: stearic acid is saturated, oleic acid is monounsaturated and linoleic acid is polyunsaturated."
-      ]
+        "Saturated fats are generally solid at room temperature, while fats rich in monounsaturated and polyunsaturated fatty acids are generally liquid oils. Coconut oil and palm oil are plant oils that are rich in saturated fat.",
+        "Examples: stearic acid (or butyric acid) is saturated, oleic acid is monounsaturated, and linoleic acid (or linolenic acid) is polyunsaturated."
+      ],
+      "tip": "Saturated means saturated with hydrogen, not high in saturates in the diet, and unsaturated means double bonds are present. Classification questions ask you to give one named example of each class."
     },
     {
       "h": "Structure of fatty acids (Higher Level only)",
+      "b": "The shape of the carbon chain explains why some fats are solid and others are liquid. Higher Level questions ask you to describe and draw each type.",
       "points": [
-        "Saturated fatty acids contain only single C–C bonds, so the chain is flexible and packs tightly, making the fat solid.",
-        "Each C=C double bond in an unsaturated fatty acid creates a bend in the chain, so the molecules pack less tightly and the fat stays liquid.",
-        "A polyunsaturated fatty acid has more than one bend in its chain for every double bond it contains.",
-        "Omega-3 fatty acids are polyunsaturated, with the first double bond between the third and fourth carbon atoms counted from the methyl end.",
-        "Diagram: a labelled chain showing the carboxyl end, the methyl end and the position of the double bonds in a saturated, a monounsaturated and a polyunsaturated fatty acid."
-      ]
+        "Saturated fatty acids contain only single C–C bonds and are fully saturated with hydrogen. The chain is straight and flexible, so the chains pack tightly together and the fat is solid.",
+        "Each cis C=C double bond in an unsaturated fatty acid puts a kink (bend) in the chain, so the molecules pack less tightly and the fat stays liquid.",
+        "A monounsaturated fatty acid has one double bond and so one kink. A polyunsaturated fatty acid has two or more double bonds, so it has one kink for each cis double bond and is liquid at room temperature.",
+        "Omega-3 fatty acids are polyunsaturated, with the first double bond between the third and fourth carbon atoms counted from the methyl (omega) end. Omega-6 fatty acids have their first double bond at the sixth carbon from the methyl end.",
+        "Diagram: draw a zig-zag or a simple row of carbons for a saturated, a monounsaturated and a polyunsaturated fatty acid. Label the –COOH (carboxyl) end, the –CH₃ (methyl) end and mark each C=C double bond."
+      ],
+      "tip": "Structure questions are asked for each of the three acids. For each one give the number of double bonds, the hydrogen saturation, the carboxyl and methyl ends, whether it is solid or liquid at room temperature, and a named acid, and draw the chain with C=C marked. Omega-3 is a family of acids, defined by the position of the first double bond, not one acid."
     },
     {
       "h": "Cis and trans fatty acids (Higher Level only)",
+      "b": "A double bond can hold its two hydrogen atoms in two different arrangements. The arrangement changes the shape of the chain and how the fat acts in the body.",
       "points": [
-        "In a cis fatty acid the hydrogen atoms on either side of the double bond lie on the same side of the carbon chain, so the chain bends.",
+        "Cis and trans describe the hydrogen atoms at one double bond in an unsaturated fatty acid, not how many double bonds there are.",
+        "In a cis fatty acid the hydrogen atoms on either side of the double bond lie on the same side of the carbon chain (both above or both below), so the chain bends.",
         "In a trans fatty acid the hydrogen atoms on either side of the double bond lie on opposite sides, so the chain stays nearly straight, like a saturated fatty acid.",
-        "Most naturally occurring unsaturated fatty acids are cis.",
-        "Trans fatty acids form during partial hydrogenation of oils, and cis fatty acids can be converted to trans fatty acids during high-temperature cooking and processing.",
-        "Foods rich in trans fatty acids include hard margarines, some shortenings and fat that has been used repeatedly in a deep-fat fryer."
-      ]
+        "Most naturally occurring unsaturated fatty acids are cis, for example those in plant oils such as cooking oils and in oily fish.",
+        "Trans fatty acids form when oils are partially hydrogenated in food manufacture, so they are found in some processed foods such as biscuits, pastries and fried takeaway foods. Small natural amounts occur in the fat of ruminant animals, in dairy fat and in beef and lamb fat."
+      ],
+      "tip": "Do not confuse cis and trans with saturated and unsaturated. Trans acids are unsaturated chemically but act like saturated fat in the body. Say hydrogens on the same side versus opposite sides, and give the effect on LDL and HDL and one source of each."
     },
     {
       "h": "Essential fatty acids",
+      "b": "Most fatty acids can be made by the body, but a few cannot. These essential fatty acids are polyunsaturated and must come from food.",
       "points": [
-        "Essential fatty acids are polyunsaturated fatty acids that the body cannot manufacture, so they must be obtained from food.",
+        "Essential fatty acids are polyunsaturated fatty acids that the body cannot manufacture (or cannot make in enough quantity), so they must be obtained from food.",
         "Linoleic acid (an omega-6 fatty acid) and linolenic acid (an omega-3 fatty acid) are the two essential fatty acids most often named.",
-        "Arachidonic acid is also counted as essential, because the body forms it only from linoleic acid.",
-        "Essential fatty acids are needed for growth and for the structure of cell membranes.",
-        "The body uses essential fatty acids to make prostaglandins, hormone-like compounds that regulate blood clotting, blood pressure and inflammation."
-      ]
+        "Arachidonic acid is also counted as essential by examiners. Strictly the body forms it only from linoleic acid, when enough linoleic acid is eaten.",
+        "Essential fatty acids are needed for growth, for the structure of cell membranes, for the nervous system and brain, and for the immune response.",
+        "The body uses essential fatty acids to make prostaglandins, hormone-like compounds that regulate blood clotting, blood pressure and inflammation.",
+        "Good sources include vegetable oils such as sunflower, corn, soya and rapeseed oil, nuts and seeds, and oily fish."
+      ],
+      "tip": "Name linoleic and linolenic acid as the two essential fatty acids and add a function, and say arachidonic acid is made from linoleic acid. Remember that essential fatty acids are not made in the body, so a statement saying they are made there is false."
     },
     {
       "h": "Omega-3 fatty acids: function and sources",
+      "b": "Omega-3 fatty acids are a family of essential polyunsaturated fats with several health benefits. They come from a limited range of foods, so it helps to know the sources by name.",
       "points": [
-        "Omega-3 fatty acids help reduce the risk of heart attack, stroke, circulatory disease and the formation of blood clots.",
-        "Omega-3 fatty acids are linked with healthy brain activity and with a reduced risk of certain cancers.",
+        "Omega-3 fatty acids help reduce the risk of heart attack, stroke, circulatory disease and the formation of blood clots, and they can help raise HDL cholesterol.",
+        "Omega-3 fatty acids are linked with healthy brain activity and reduced inflammation, and they may reduce the risk of certain cancers.",
         "Oily fish are the main animal source: salmon, mackerel, herring, sardines and trout.",
         "Plant sources include walnuts, flaxseed (linseed), soya beans and rapeseed (canola) oil.",
-        "Some eggs and milk are enriched with omega-3 by changing the diet of the hens or cows."
-      ]
+        "Some eggs and milk are enriched with omega-3 by changing the diet of the hens or cows, and fish-oil supplements are also accepted as a source."
+      ],
+      "tip": "Use wording such as helps reduce the risk of, not prevents, because the evidence supports a reduced risk. A typical question asks for one function and two named sources. True statements are that omega-3 is found in oily fish and helps reduce the risk of heart disease."
     },
     {
       "h": "Significance of fatty acids in the diet",
-      "b": "The type of fatty acid in the diet affects the amount of cholesterol carried in the blood.",
+      "b": "The type of fatty acid in the diet affects the amount of cholesterol carried in the blood. This is why the balance of saturated, unsaturated and trans fats matters for the heart.",
       "points": [
-        "LDL (low-density lipoprotein) carries cholesterol through the blood and can deposit it on artery walls, where it narrows the arteries.",
-        "HDL (high-density lipoprotein) removes cholesterol from the circulation and carries it to the liver.",
+        "Cholesterol travels in the blood bound to proteins, forming lipoproteins (carriers of cholesterol). LDL and HDL are these carriers, not types of cholesterol itself.",
+        "LDL (low-density lipoprotein) carries cholesterol through the blood to the tissues and can deposit it on artery walls, where it narrows the arteries (atherosclerosis) and raises the risk of coronary heart disease (CHD).",
+        "HDL (high-density lipoprotein) removes cholesterol from the circulation, carrying it away from the tissues to the liver for removal.",
         "Saturated fatty acids raise LDL cholesterol, increasing the risk of coronary heart disease (CHD).",
-        "Unsaturated cis fatty acids reduce LDL cholesterol and help to raise HDL cholesterol.",
-        "Trans fatty acids raise LDL cholesterol and lower HDL cholesterol, increasing the risk of CHD.",
-        "Monounsaturated and polyunsaturated fats can lower total cholesterol when they replace saturated fats in the diet."
-      ]
+        "Unsaturated cis fatty acids, both monounsaturated and polyunsaturated, reduce LDL cholesterol and help to raise HDL cholesterol, so they are generally good for the heart.",
+        "Trans fatty acids raise LDL cholesterol and lower HDL cholesterol, increasing the risk of CHD. They are thought to do more harm than saturated fat.",
+        "Monounsaturated and polyunsaturated fats can lower total cholesterol when they replace saturated fats in the diet.",
+        "Essential fatty acids must be eaten because the body cannot make them, and omega-3 fatty acids add the heart and brain benefits."
+      ],
+      "tip": "A good answer makes three points, each with a reason: essential fatty acids are needed because they cannot be made, cis unsaturated fats lower LDL and raise HDL, and saturated and trans fats raise LDL, lower HDL and increase the risk of CHD. Add omega-3 for a longer answer. When defining LDL and HDL, give each as a cholesterol-carrying lipoprotein with its effect on the arteries."
     }
   ],
   "keyTerms": [

@@ -6,62 +6,81 @@
   "notes": [
     {
       "h": "What irradiation is (Higher Level only)",
-      "b": "Irradiation exposes food to ionising radiation, which destroys micro-organisms and pests without heating the food noticeably.",
+      "b": "Irradiation is a physical preservation treatment that exposes food to ionising radiation (high-energy rays that damage living cells). It destroys micro-organisms and pests without heating the food noticeably.",
       "points": [
-        "Sources: gamma rays from cobalt-60 or caesium-137, X-rays, or high-energy electron beams.",
-        "The food is passed past the source for a set time so that it receives a defined dose of radiation.",
-        "It is a cold process, so it is sometimes called cold pasteurisation.",
-        "Irradiated food does not become radioactive at the doses used for food."
-      ]
+        "The food is passed, usually on a conveyor, past a radiation source in a shielded chamber for a set time, so that it receives a controlled, measured dose of radiation.",
+        "The permitted sources are gamma rays from cobalt-60 or caesium-137, X-rays, or electron beams (streams of high-energy accelerated electrons).",
+        "The dose is the energy the food absorbs, not the number of rays. It is measured in grays (Gy), where one gray is one joule of energy absorbed per kilogram of food.",
+        "It is a cold process because the food is not noticeably heated, so it is sometimes called cold pasteurisation.",
+        "Because there is no heat, it can be applied to food already sealed in its packaging, which prevents re-contamination afterwards.",
+        "Irradiated food does not become radioactive at the doses and sources used for food, because the rays pass through it and the food is not in contact with radioactive material."
+      ],
+      "tip": "Do not say the food is exposed to radioactive material or that it is heated. Say it is exposed to ionising radiation as a preservation method, as a past question asked."
     },
     {
       "h": "How irradiation destroys micro-organisms and pests (Higher Level only)",
+      "b": "Ionising radiation damages the parts of a living cell that control growth and survival. How much damage is done depends on the dose, which is why one process can give different effects.",
       "points": [
-        "Ionising radiation damages the DNA of micro-organisms, so they cannot reproduce.",
+        "Ionising radiation damages the DNA and cell structures of micro-organisms, insects and parasites, so they cannot reproduce or they die.",
         "It destroys food-poisoning bacteria such as Salmonella, and parasites in food.",
         "It controls moulds on soft fruit, extending their shelf life.",
         "It kills insects and their eggs in grain, spices and other dried foods.",
-        "Bacterial spores and some viruses are highly resistant and need very high doses."
-      ]
+        "It also inactivates some enzymes, such as ripening enzymes, and stops sprouting by damaging growth tissue.",
+        "A low dose delays ripening and sprouting and kills insects. A medium dose destroys most food-poisoning and spoilage organisms and parasites, the pasteurising effect. A high dose sterilises the food.",
+        "Bacterial spores (tough resting forms of bacteria) and some viruses are highly resistant, so they need very high doses."
+      ],
+      "tip": "The dose decides the effect, so link each effect to a low, medium or high dose. Irradiation does not remove toxins already formed and does not destroy all spores or viruses."
     },
     {
       "h": "Effects on shelf life and ripening (Higher Level only)",
+      "b": "By stopping the causes of spoilage, ripening and sprouting, irradiation lets food be stored for longer. These are effects of the process itself, whichever foods the law allows it to be used on.",
       "points": [
-        "It extends the shelf life of fresh and frozen meat, poultry, fish and fruit.",
-        "It prevents sprouting in potatoes and onions, so they can be stored for longer.",
+        "It extends the shelf life of fresh and frozen meat, poultry, fish and fruit, because fewer spoilage organisms survive.",
+        "It can prevent sprouting in potatoes and onions, so they can be stored for longer.",
         "It delays the ripening of fruit, extending its storage life.",
         "It can be applied after food is sealed in its packaging, which prevents re-contamination.",
-        "It reduces the need for chemical preservatives."
-      ]
+        "It reduces the need for chemical preservatives, because the radiation does the preserving."
+      ],
+      "tip": "Present sprouting and ripening as effects of the process, for example irradiation can prevent sprouting in potatoes and onions. Do not write that irradiated potatoes, onions or fruit are sold in Ireland."
     },
     {
       "h": "Effects on nutrients and food quality (Higher Level only)",
+      "b": "Because there is no heat, irradiation leaves the look and taste of food largely unchanged. It is not harmless to the food, though, and it has some costs to nutrients and fats.",
       "points": [
+        "Colour, flavour and texture change very little at normal doses, because no heat is applied.",
         "Vitamin C and the B group vitamins, such as thiamine, can be partly destroyed.",
-        "Colour, flavour and texture change very little at normal doses.",
-        "Free radicals and other reactive molecules can form in the food during irradiation.",
-        "Fatty foods can develop rancidity, a stale or off-flavour, through the oxidation of their fats."
-      ]
+        "Free radicals and other reactive molecules (unstable, highly reactive particles) can form in the food during irradiation.",
+        "Fatty foods can develop rancidity, a stale or off-flavour, through the oxidation of their fats, so irradiation is unsuitable for high-fat foods."
+      ],
+      "tip": "Examiners asked for effects of irradiation: give vitamins destroyed and free radicals formed as downsides, and little change to colour, flavour and texture as an upside."
     },
     {
       "h": "Advantages and disadvantages (Higher Level only)",
+      "b": "Evaluation questions want points on both sides, each with a reason. Irradiation is useful for some foods but is not a replacement for good hygiene.",
       "points": [
-        "Advantage: no heat is applied, so heat-sensitive foods keep more of their quality than they would after canning.",
-        "Advantage: it destroys enzymes that cause ripening and spoilage, as well as micro-organisms.",
-        "Advantage: it leaves no chemical residues in the food.",
-        "Disadvantage: many consumers reject irradiated food, which limits its commercial use.",
-        "Disadvantage: specialised plant and radiation sources are expensive and need strict safety controls.",
-        "Disadvantage: some micro-organisms need very high doses, so the treatment is not effective against all of them."
-      ]
+        "Advantage: no heat is applied, so heat-sensitive foods such as herbs and spices keep more of their quality than they would after canning.",
+        "Advantage: it destroys enzymes that cause ripening and spoilage, as well as micro-organisms, and it destroys food-poisoning bacteria and parasites.",
+        "Advantage: it leaves no chemical residues in the food, and it reduces the need for chemical preservatives.",
+        "Advantage: it can treat food that is already packed, so the food cannot be re-contaminated.",
+        "Disadvantage: many consumers reject irradiated food, which limits its commercial use. It may also be used to disguise poor manufacturing or poor hygiene.",
+        "Disadvantage: specialised plant and radiation sources are expensive and need strict safety controls and licensing of the facility.",
+        "Disadvantage: some micro-organisms (spores and viruses) need very high doses, so the treatment is not effective against all of them and is not a substitute for good hygiene.",
+        "Disadvantage: vitamins can be lost and fats can go rancid, so it is not suitable for high-fat foods."
+      ],
+      "tip": "For a balanced conclusion say irradiation is useful for dried herbs and spices but is not a replacement for good hygiene. Give each advantage or disadvantage with a reason, such as: cold process keeps colour and flavour, fats go rancid, some microbes need high doses, public concern."
     },
     {
       "h": "Regulation and labelling (Higher Level only)",
+      "b": "Because many consumers are wary of irradiation, EU law controls which foods may be irradiated and requires them to be labelled. This lets shoppers choose.",
       "points": [
-        "In the EU, irradiation is permitted only for specified foods.",
-        "Irradiated food sold in the EU must be labelled as irradiated.",
-        "The Radura is the international symbol for irradiated food.",
-        "Irradiated food sold in Ireland follows the same EU rules."
-      ]
+        "In the EU, irradiation is controlled by a framework Directive 1999/2/EC (rules, labelling, authorisation and imports) and an implementing Directive 1999/3/EC that lists the foods that may be irradiated.",
+        "At present the only category on the EU list is dried aromatic herbs, spices and vegetable seasonings, with a maximum dose of 10 kilograys (kGy), according to the FSAI.",
+        "Irradiated food, or food containing irradiated ingredients, must be labelled with the words \"irradiated\" or \"treated with ionising radiation\" under Regulation (EU) No 1169/2011. Consumers can therefore see on the label if a herb or spice product, or an ingredient, was treated.",
+        "The Radura, a stylised plant in a circle, is the international symbol for irradiated food. In the EU it may accompany the words but does not replace them.",
+        "The FSAI checks food on the Irish market for undeclared irradiation, through official agencies under service contract.",
+        "The FSAI reports that no facility in Ireland has been approved for irradiating food, so any irradiated ingredient on sale here would have been treated elsewhere."
+      ],
+      "tip": "The legal requirement is the words on the label, not the symbol, so do not say the Radura is compulsory. Label questions list irradiated food among the information a label must give."
     }
   ],
   "keyTerms": [
@@ -112,8 +131,8 @@
       "definition": "Vitamin C and B group vitamins can be lost, and fatty foods can become rancid."
     },
     {
-      "term": "Two vegetables irradiated to prevent sprouting",
-      "definition": "Potatoes and onions."
+      "term": "Irradiation to prevent sprouting",
+      "definition": "Irradiation can prevent sprouting in potatoes and onions."
     },
     {
       "term": "Two effects of irradiation on fruit",

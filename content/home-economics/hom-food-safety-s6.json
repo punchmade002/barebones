@@ -5,55 +5,83 @@
   "syllabusRef": "1.3.10",
   "notes": [
     {
-      "h": "Food storage in the home",
-      "b": "Most food poisoning bacteria multiply fastest in warm food, so storage aims to keep food cold or frozen and to stop bacteria passing from one food to another.",
+      "h": "Why safe preparation rules exist",
+      "b": "Almost every rule for handling food comes from two facts about food poisoning bacteria: they multiply fastest in warm food, and they travel easily from one food to another. Knowing these makes the individual rules easy to remember.",
       "points": [
-        "Cover all food and store it in sealed containers, which prevents drying out, odour transfer and cross-contamination.",
-        "Keep perishable food in the fridge below 5°C, which slows the growth of bacteria.",
-        "Store raw meat and poultry on the lowest shelf, on a plate and loosely covered, so that juices cannot drip onto cooked or ready-to-eat food.",
-        "Cool cooked food before refrigerating or freezing it, and do not overpack the fridge, so that cold air can circulate around the food.",
-        "Freeze food quickly at −25°C, then store it at −18°C.",
-        "Defrost frozen food completely before cooking, preferably in the fridge on the bottom shelf.",
-        "Never refreeze food that has thawed.",
-        "Store dry foods in a cool, dry, well-ventilated cupboard, in vermin-proof containers.",
-        "Remove fruit and vegetables from plastic wrapping, which encourages mould, and check them regularly for mould.",
-        "Check the use-by or best-before date of each food and follow the storage instructions on its label."
-      ]
+        "Food poisoning bacteria multiply fastest in the danger zone, 5°C to 63°C. This is why safe preparation keeps food cold, hot, or moving quickly through that range.",
+        "Cross-contamination is the transfer of bacteria from raw food to cooked or ready-to-eat food, directly or by hands, chopping boards, cloths, utensils or meat juices. This is why raw and cooked foods are kept apart.",
+        "Freezing does not kill bacteria, it only stops them multiplying, and thawing lets them start multiplying again. So frozen food must be handled with care once it thaws."
+      ],
+      "tip": "In discuss questions on storage, cooking and reheating, give the temperature or rule and the reason it prevents food poisoning. Cooking at 50°C does not kill all bacteria, so that statement is false, and moving bacteria from raw to cooked food is cross-contamination."
     },
     {
-      "h": "Reheating and hot holding",
+      "h": "Food storage in the home",
+      "b": "Storage aims to keep food cold or frozen so bacteria cannot multiply, and to stop bacteria passing from one food to another. Short questions usually ask for three to six storage guidelines.",
       "points": [
+        "Cover all food and store it in sealed containers, which prevents drying out, odour transfer and cross-contamination.",
+        "Keep perishable food (food that spoils quickly) in the fridge at 5°C or below, which slows the growth of bacteria. Check the fridge and freezer temperature with a thermometer.",
+        "Store raw meat, poultry and fish on the lowest shelf, on a plate and loosely covered with the shop wrapping removed, so that juices cannot drip onto cooked or ready-to-eat food.",
+        "Keep raw and cooked foods apart, covered or in sealed containers, so bacteria cannot pass between them.",
+        "Cool cooked food quickly before refrigerating or freezing it, and do not overpack the fridge, so that cold air can circulate around the food.",
+        "Check the use-by or best-before date of each food and follow the storage instructions on its label. Use-by is a safety date for highly perishable food, while best-before is a quality date.",
+        "Remove fruit and vegetables from plastic wrapping, which encourages mould, and check them regularly for mould.",
+        "Store dry foods in a cool, dry, well-ventilated cupboard, in vermin-proof containers, and keep storage areas clean.",
+        "Keep perishable food out of the fridge for the shortest possible time while it is being prepared, because food left in warm air soon enters the danger zone."
+      ],
+      "tip": "To store raw meat safely, say lowest shelf, on a plate, loosely covered, so juices cannot drip onto cooked food. Use-by and best-before are different: one is about safety and the other about quality."
+    },
+    {
+      "h": "Freezing and thawing",
+      "b": "Freezing keeps food safe for a long time, but only if it is frozen and thawed properly. Bacteria are not killed by freezing, so the care taken when thawing matters.",
+      "points": [
+        "Freeze food quickly at −25°C, then store it at −18°C.",
+        "Defrost frozen food completely before cooking, preferably in the fridge on the bottom shelf, so that it thaws slowly and any drips cannot reach other food.",
+        "Never refreeze food that has thawed, because bacteria multiply while it thaws."
+      ],
+      "tip": "Give both freezer figures when asked: fast-freeze at −25°C, store at −18°C. State the rule as never refreeze thawed food."
+    },
+    {
+      "h": "Cooking, reheating and hot holding",
+      "b": "Cooking and reheating must heat food right through to kill bacteria, and hot food must then stay hot or be eaten promptly. Otherwise bacteria multiply again in the danger zone.",
+      "points": [
+        "Cook food thoroughly, using the right time and temperature, and turn or stir it so that heat reaches the centre. Cook meat, poultry and minced meat right through, to a core temperature of at least 72°C for poultry.",
         "Reheat food quickly until it is above 100°C throughout, and reheat it only once.",
-        "High-risk foods such as stews and gravies must reach 100°C when reheated.",
-        "When reheating in a microwave, stir or turn the food so that heat reaches all parts evenly, and follow the appliance's instructions.",
-        "Hold cooked food above 63°C, because bacteria multiply rapidly between 5°C and 63°C.",
-        "Serve hot food promptly, and eat food that has been held hot within about 90 minutes."
-      ]
+        "High-risk foods such as stews and gravies should be brought to boiling when reheated, because their moist, protein-rich nature suits bacteria.",
+        "Cover food when reheating. In a microwave, stir or turn the food and allow standing time, so that heat reaches all parts evenly, and follow the appliance's instructions.",
+        "Serve cooked food immediately. If holding it hot, keep it above 63°C, because bacteria multiply rapidly between 5°C and 63°C.",
+        "Eat food that has been held hot within about 90 minutes (1.5 hours).",
+        "Do not keep food in the danger zone. Cool leftovers quickly, refrigerate them and use them soon."
+      ],
+      "tip": "Use the figures that the marking schemes use: reheat above 100°C throughout and only once, poultry at least 72°C at the core, and hot holding above 63°C. Always add the reason, which is that bacteria multiply between 5°C and 63°C."
     },
     {
       "h": "Personal hygiene",
+      "b": "People carry food poisoning bacteria on their hands, hair, skin and clothes, so the person preparing food is a major source of contamination. Examiners usually ask for four to six personal hygiene points.",
       "points": [
-        "Wash hands in hot water with liquid soap and a nailbrush before handling food, because hands carry food poisoning bacteria.",
-        "Wash hands after sneezing or coughing, using the toilet, changing nappies, handling pets and handling rubbish.",
-        "Keep nails short and clean, and remove jewellery before preparing food.",
-        "Wear a clean apron, and change it if it becomes soiled.",
-        "Cover cuts with a brightly coloured plaster so that the injury cannot pass infection to food.",
-        "Do not prepare or serve food while suffering from diarrhoea or vomiting.",
-        "Cough and sneeze away from food."
-      ]
+        "Wash hands in hot water with liquid soap, and a nailbrush for the nails, before handling food, because hands carry food poisoning bacteria. Dry them on a clean towel or paper towel.",
+        "Wash hands after the toilet, sneezing or coughing, changing nappies, handling pets, handling rubbish and handling raw meat.",
+        "Keep nails short and clean and remove jewellery before preparing food, because dirt and bacteria collect under nails and around jewellery.",
+        "Tie hair back or cover it. Wear a clean apron or clothing, and change it if it becomes soiled.",
+        "Cover cuts, boils and sores with a brightly coloured waterproof plaster, so that infection cannot pass to food and the plaster can be seen if it falls into the food.",
+        "Do not cough or sneeze over food, and do not taste food with your fingers or lick your fingers.",
+        "Do not prepare or serve food for others while suffering from diarrhoea or vomiting, because the illness can pass to the people eating it."
+      ],
+      "tip": "Say a brightly coloured plaster, and give the reason, so it can be seen if it falls in food. For hand washing, name hot water, liquid soap and a nailbrush."
     },
     {
       "h": "Kitchen hygiene",
+      "b": "A clean kitchen with sensible habits stops bacteria building up on surfaces and equipment and passing to food. Four kitchen hygiene practices is a common exam question.",
       "points": [
-        "Clean and disinfect work surfaces often, and wash equipment in hot water and detergent.",
-        "Use colour-coded chopping boards and separate utensils for raw and cooked meat, to prevent cross-contamination.",
-        "Do not prepare cooked and raw foods on the same surface.",
-        "Handle food as little as possible during preparation.",
-        "Keep perishable food out of the fridge for the shortest possible time while it is being prepared.",
+        "Clean and disinfect work surfaces often, and wash equipment in hot water and detergent. Clean as you go.",
+        "Use colour-coded chopping boards and separate utensils for raw and cooked foods, to prevent cross-contamination.",
+        "Never prepare raw and cooked foods on the same surface.",
+        "Handle food as little as possible during preparation, and keep it covered, because every touch can pass on bacteria.",
         "Floors, walls and work surfaces should be easy to clean, and the kitchen should have good lighting.",
         "Effective ventilation reduces condensation, which encourages the growth of micro-organisms.",
-        "The kitchen should have a clean water supply and no access for pets."
-      ]
+        "The kitchen should have a clean water supply and no access for pets or pests.",
+        "Keep a covered waste bin and empty it regularly, and change clean cloths and dishtowels often."
+      ],
+      "tip": "For food hygiene as a heading, include cooking thoroughly, thawing fully, and buying from reputable shops after checking dates and packaging. Give a reason with each point, such as colour-coded boards preventing cross-contamination."
     }
   ],
   "keyTerms": [
