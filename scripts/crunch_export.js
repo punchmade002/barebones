@@ -15,17 +15,67 @@ const subject = Deno.args[0];
 const STUDY_WPM = 40;
 const P = { decay: 0.65, helpW: 0.5, gapE: 0.75, gapH: 0.35, halfLife: 8, newShare: 0.1, choice: true, exact: 0.5 };
 const D = JSON.parse(await Deno.readTextFile(`${ROOT}drafts/crunch/${subject}/map/data.json`));
-if (D.picks && Object.keys(D.picks).length) throw new Error(`${subject} has student picks; the app export doesn't handle them yet`);
-
-const R = crunchScore(D, P), bt = crunchBacktest(D, P);
+// Subjects with optional parts (Geography's elective, option and region; History's topics) get a course per
+// combination of picks, and a point's level differs a little between them. The app can't ship every combination
+// (History has 225), so each point takes the mean of its level over every combination that includes it.
+// shortcut: averaged levels, error measured below against exact runs; upgrade to per-combination levels (or live
+// scoring in a worker) if that error grows.
+const PICK_COUNTS = { history: { ire: 2, eur: 2 } }; // how many tracks a student picks per kind (default 1)
+const KIND_LABELS = {
+  geography: { elective: "Elective", option: "Option", region: "Region" },
+  history: { ire: "Irish topics", eur: "European topics" },
+};
+const hasPicks = D.picks && Object.keys(D.picks).length;
+const choose = (arr, k) => (k === 0 ? [[]] : arr.flatMap((x, i) => choose(arr.slice(i + 1), k - 1).map((rest) => [x, ...rest])));
+const combos = !hasPicks ? [null] : Object.entries(D.picks).reduce((acc, [kind, opts]) => {
+  const k = PICK_COUNTS[subject]?.[kind] || 1;
+  const choices = choose(opts.map(([t]) => t), k).map((c) => (k === 1 ? c[0] : c));
+  return acc.flatMap((picks) => choices.map((c) => ({ ...picks, [kind]: c })));
+}, [{}]);
+const levelSum = new Map(), levelN = new Map();
+let years = [];
+const runs = [];
+const started = performance.now();
+for (const picks of combos) {
+  const C = picks ? crunchCourse(D, picks) : D;
+  const R = crunchScore(C, P), bt = crunchBacktest(C, P);
+  years = bt.years;
+  const exact = new Map();
+  C.items.forEach((item, i) => {
+    const v = bt.safe(R.y[i]);
+    exact.set(item[0], v);
+    levelSum.set(item[0], (levelSum.get(item[0]) || 0) + v);
+    levelN.set(item[0], (levelN.get(item[0]) || 0) + 1);
+  });
+  runs.push([picks, C.items, exact]);
+  if (combos.length > 1 && runs.length % 25 === 0) console.log(`  ${runs.length} of ${combos.length} courses scored (${Math.round((performance.now() - started) / 1000)} s)`);
+}
 // {subsection: {"block.point": [level, minutes]}}, "b" = the block's paragraph. Both to 0.1.
 const levels = {};
 const minutesOf = ([, , cost, text]) => (text.split(/\s+/).filter(Boolean).length / STUDY_WPM) * (cost === 2 ? 1.5 : 1);
-D.items.forEach((item, i) => {
+D.items.forEach((item) => {
+  if (!levelN.get(item[0])) return;
   const id = item[0], [sid, rest] = [id.slice(0, id.indexOf(".")), id.slice(id.indexOf(".") + 1)];
   // item[4], when present, is a study time worked out upstream (Maths: from the skill's lesson pack)
-  (levels[sid] ||= {})[rest] = [Math.round(10 * bt.safe(R.y[i])) / 10, Math.max(0.1, Math.round(10 * (item[4] ?? minutesOf(item))) / 10)];
+  (levels[sid] ||= {})[rest] = [Math.round((10 * levelSum.get(id)) / levelN.get(id)) / 10, Math.max(0.1, Math.round(10 * (item[4] ?? minutesOf(item))) / 10)];
 });
+// Which pick each subsection belongs to, and the choices the app offers
+const tracks = {}, picks = {};
+if (hasPicks) {
+  D.items.forEach((r) => { const t = D.subs[r[1]][5]; if (t) tracks[r[0].slice(0, r[0].indexOf("."))] = t; });
+  for (const [kind, opts] of Object.entries(D.picks)) picks[kind] = { label: KIND_LABELS[subject]?.[kind] || kind, count: PICK_COUNTS[subject]?.[kind] || 1, options: opts };
+}
+// self-check: averaged levels against each course's exact levels (share of study cost hidden at written 72%)
+if (combos.length > 1) {
+  let worst = 0, sum = 0;
+  for (const [, items, exact] of runs) {
+    const cost = items.reduce((a, r) => a + r[2], 0);
+    const cutBy = (lv) => (100 * items.reduce((a, r) => a + (lv(r[0]) >= 72 ? r[2] : 0), 0)) / cost;
+    const err = Math.abs(cutBy((id) => exact.get(id)) - cutBy((id) => levelSum.get(id) / levelN.get(id)));
+    worst = Math.max(worst, err); sum += err;
+  }
+  console.log(`${combos.length} courses: averaged levels move the cut at written 72% by ${(sum / runs.length).toFixed(1)} points on average, ${worst.toFixed(1)} at worst`);
+}
 // Flashcards are each subsection's key terms, not note points, so each card takes the level of the note point that
 // teaches it: the point (with its block heading) sharing the most words with the card, the term's words counting
 // triple. A card no point matches gets null and is never crunched.
@@ -55,7 +105,7 @@ for (const sid of Object.keys(levels)) {
     return best ? levels[sid][best][0] : null;
   });
 }
-const out = { subject, aac: D.aac || null, years: bt.years, studyWpm: STUDY_WPM, levels, cards };
+const out = { subject, aac: D.aac || null, years, studyWpm: STUDY_WPM, levels, cards, ...(hasPicks ? { tracks, picks } : {}) };
 const js = `// Generated by scripts/crunch_export.js. Do not edit by hand.\n// Crunch Mode: the written-paper level at which each note point (and flashcard) is hidden.\n` +
   `(window.CRUNCH = window.CRUNCH || {})[${JSON.stringify(subject)}] = ${JSON.stringify(out)};\n`;
 await Deno.writeTextFile(`${ROOT}${subject}-crunch.js`, js);
