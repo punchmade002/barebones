@@ -29,7 +29,7 @@
     ],
     history: [
       "./history-test-questions.js?v=3",
-      "./history-notes.js?v=2",
+      "./history-notes.js?v=3",
     ],
     "home-economics": [
       "./home-economics-flashcards.js?v=4",

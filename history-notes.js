@@ -21818,7 +21818,7 @@
      "In April 1970 Nixon sent US and South Vietnamese troops into Cambodia to attack communist bases, which sparked protests at home, including Kent State.",
      "In 1971 South Vietnamese forces invaded Laos with US air support and were driven back, which showed the limits of Vietnamisation.",
      "In 1972 Nixon answered North Vietnam's Easter Offensive by mining Haiphong harbour and launching the Linebacker bombing raids, then ordered the Christmas bombing of Hanoi in December 1972.",
-     "The Paris Peace Accords were signed on 27 January 1973 and the last US combat troops were out by late March 1973. The fall of Saigon in 1975 came later, and"
+     "The Paris Peace Accords were signed on 27 January 1973 and the last US combat troops were out by late March 1973. The fall of Saigon in 1975 came later, under President Ford, and belongs with the decline of Cold War certainties from 1973 to 1989."
     ],
     "tip": "Vietnamisation questions ask for its aims, the falling troop figures, Cambodia and the protests, and the 1973 end. Say \"at the 1969 peak\" for the troop figure."
    },
