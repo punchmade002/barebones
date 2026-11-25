@@ -1,0 +1,96 @@
+import json,re
+base='/Users/gabrielwhelan/barebones/.claude/worktrees/history-crunch/drafts/crunch/history/'
+E,H='essential','helpful'
+def L(i,s,w,c='high'): return ('hist-ire2-'+('s8.' if i[0].isdigit() else '')+i,s,w,c)
+D={
+'8.0.b':(1,[]),
+'8.0.0':(1,[L('s2.1.0',H,'the 1877-79 agricultural depression')]),
+'8.0.1':(1,[]),
+'8.0.2':(1,[]),
+'8.0.3':(1,[L('0.2',H,'Danish butter competition')]),
+'8.0.4':(1,[]),
+'8.1.b':(1,[]),
+'8.1.0':(1,[]),
+'8.1.1':(1,[L('1.0',H,'Plunkett as Unionist reformer')]),
+'8.1.2':(1,[L('0.3',E,'the Danish co-operative creamery model')]),
+'8.1.3':(1,[L('1.2',H,'the co-operative creamery model')]),
+'8.1.4':(1,[L('1.0',H,"Plunkett's movement")]),
+'8.1.5':(1,[L('1.4',H,'AE as supporter of Plunkett')]),
+'8.2.b':(1,[]),
+'8.2.0':(1,[L('1.0',H,'Plunkett as founder')]),
+'8.2.1':(1,[L('2.0',E,'the IAOS')]),
+'8.2.2':(1,[L('1.2',H,'co-operative creamery model')]),
+'8.2.3':(1,[L('0.4',E,'gombeen men'),L('2.0',H,'IAOS-organised societies','low')]),
+'8.2.4':(1,[L('2.0',H,'the IAOS movement')]),
+'8.2.5':(1,[L('2.0',H,'the co-operative societies')]),
+'8.3.b':(1,[]),
+'8.3.0':(2,[L('1.0',H,'Plunkett as chairman')]),
+'8.3.1':(1,[L('3.0',E,'the Recess Committee'),L('0.3',H,'Danish methods studied','low')]),
+'8.3.2':(1,[L('3.1',E,'the recommendation for a department')]),
+'8.3.3':(1,[L('3.2',E,'DATI')]),
+'8.3.4':(1,[L('3.2',E,'his DATI vice-presidency'),L('4.0',H,'Irish Party hostility')]),
+'8.4.b':(1,[]),
+'8.4.0':(1,[L('3.4',H,'losing the vice-presidency in 1907')]),
+'8.4.1':(1,[L('2.5',H,'movement weakest in Ulster')]),
+'8.4.2':(1,[L('1.1',E,'his South Dublin seat lost in 1900')]),
+'8.4.3':(1,[L('4.2',H,'his 1900 defeat')]),
+'8.4.4':(1,[L('2.2',H,'co-operative creameries')]),
+'8.4.5':(2,[L('2.2',H,'creamery results')]),
+'8.4.6':(1,[L('s2.6.2',H,'the Congested Districts Board')]),
+'8.5.b':(1,[]),
+'8.5.0':(1,[]),
+'8.5.1':(1,[]),
+'8.5.2':(2,[]),
+'8.5.3':(1,[]),
+'8.6.b':(1,[]),
+'8.6.0':(1,[]),
+'8.6.1':(1,[L('6.0',E,'the linen industry')]),
+'8.6.2':(1,[]),
+'8.6.3':(1,[]),
+'8.6.4':(1,[]),
+'8.7.b':(1,[]),
+'8.7.0':(2,[]),
+'8.7.1':(2,[L('7.0',E,'the Harland and Wolff yard')]),
+'8.7.2':(1,[L('7.1',E,'Pirrie'),L('7.0',H,'Harland founded the yard')]),
+'8.7.3':(1,[L('7.0',H,'the rival Harland and Wolff yard')]),
+'8.8.b':(1,[]),
+'8.8.0':(1,[L('7.0',E,'Harland and Wolff')]),
+'8.8.1':(1,[L('8.0',H,'Olympic and Titanic built')]),
+'8.8.2':(1,[L('8.0',E,'the Titanic as an Olympic-class liner')]),
+'8.8.3':(1,[L('7.0',H,'Harland and Wolff'),L('7.3',H,'the two yards','low')]),
+'8.9.b':(1,[]),
+'8.9.0':(1,[L('6.0',H,'the linen mills')]),
+'8.9.1':(1,[L('9.0',H,'mill working conditions')]),
+'8.9.2':(1,[L('7.0',H,'shipyard work','low')]),
+'8.9.3':(1,[]),
+'8.9.4':(1,[]),
+'8.10.b':(1,[]),
+'8.10.0':(1,[]),
+'8.10.1':(1,[L('7.0',H,'Harland and Wolff expulsions'),L('7.3',H,'Workman Clark expulsions')]),
+'8.10.2':(1,[]),
+'8.10.3':(1,[L('10.2',E,'Protestant opposition to Home Rule')]),
+'8.11.b':(1,[]),
+'8.11.0':(1,[L('6.0',H,'linen'),L('7.0',H,'shipbuilding')]),
+'8.11.1':(1,[]),
+'8.11.2':(1,[L('9.3',H,'skilled Belfast shipyard men')]),
+'8.11.3':(1,[L('10.2',H,'Belfast opposition to Home Rule')]),
+'8.11.4':(1,[L('10.3',E,'industry depending on British markets')]),
+'8.11.5':(1,[]),
+'8.12.b':(1,[]),
+'8.12.0':(2,[L('4.5',H,'co-operative results'),L('5.0',H,'Belfast industrial growth')]),
+'8.12.1':(2,[L('4.6',H,'poor west not reached'),L('4.1',H,'slow Ulster uptake'),L('9.0',H,'harsh mill conditions'),L('9.4',H,'sectarian divisions')]),
+'8.12.2':(1,[L('4.0',H,'nationalist suspicion of Plunkett'),L('10.3',H,'Belfast prosperity tied to the Union')]),
+'8.12.3':(1,[L('s2.9.0',H,'land reform achievements'),L('4.5',H,'co-operative results','low')]),
+}
+txt=open(base+'packs/hist-ire2-s8.t1g1.txt').read()
+tgt=re.findall(r'^\[(hist-ire\d-[^\]]+)\]',txt.split('\nCANDIDATES')[0],re.M)
+allids=set(re.findall(r'^\[([^\]]+)\]',txt,re.M))
+assert set(D)=={re.sub(r'^hist-ire\d-s','',t) for t in tgt},set(D)^{re.sub(r'^hist-ire\d-s','',t) for t in tgt}
+res={};nl=c2=lo=0
+for t in tgt:
+    c,ns=D[re.sub(r'^hist-ire\d-s','',t)]
+    for n in ns: assert n[0] in allids and n[0]!=t,(t,n)
+    res[t]={'cost':c,'needs':[{'id':n[0],'strength':n[1],'why':n[2],'confidence':n[3]} for n in ns]}
+    nl+=len(ns);c2+=c==2;lo+=sum(n[3]=='low' for n in ns)
+json.dump(res,open(base+'point-links/hist-ire2-s8.t1g1.json','w'),indent=1)
+print(len(tgt),nl,c2,lo)

@@ -1,0 +1,1024 @@
+{
+ "hist-ire5-s4.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.0",
+    "strength": "helpful",
+    "why": "uses Stormont parliament",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.2",
+    "strength": "essential",
+    "why": "uses NICRA",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s2.8.1",
+    "strength": "helpful",
+    "why": "5 October 1968 Derry march",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s2.10.2",
+    "strength": "helpful",
+    "why": "Burntollet attack on march",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.1.2",
+    "strength": "helpful",
+    "why": "uses internment",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s1.11.0",
+    "strength": "helpful",
+    "why": "IRA border campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.4",
+    "strength": "helpful",
+    "why": "uses the RUC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.2.0",
+    "strength": "helpful",
+    "why": "clashes in the Bogside",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.2.1",
+    "strength": "helpful",
+    "why": "troops sent after Bogside",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.1",
+    "strength": "helpful",
+    "why": "Ireland Act consent principle",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.3.0",
+    "strength": "helpful",
+    "why": "Chichester-Clark as Prime Minister",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire5-s4.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.4",
+    "strength": "essential",
+    "why": "RUC and B Specials",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.2.6",
+    "strength": "essential",
+    "why": "Hunt recommended replacing Specials",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s2.11.5",
+    "strength": "helpful",
+    "why": "how Chichester-Clark became PM",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.2.1",
+    "strength": "helpful",
+    "why": "Battle of the Bogside",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.2.7",
+    "strength": "helpful",
+    "why": "B Specials disbanded",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.2.6",
+    "strength": "essential",
+    "why": "Hunt Report reforms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s1.6.1",
+    "strength": "helpful",
+    "why": "housing points system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.3.2",
+    "strength": "essential",
+    "why": "uses these reform steps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.3.0",
+    "strength": "helpful",
+    "why": "uses his premiership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.3.0",
+    "strength": "essential",
+    "why": "narrow 1969 vote",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.3.4",
+    "strength": "helpful",
+    "why": "his predecessor resigned",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.5",
+    "strength": "helpful",
+    "why": "weak IRA before 1969",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire5-s4.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.4.0",
+    "strength": "essential",
+    "why": "uses the IRA split",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.2.3",
+    "strength": "helpful",
+    "why": "August 1969 failure to defend",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.4.0",
+    "strength": "essential",
+    "why": "uses the Provisionals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.4.0",
+    "strength": "essential",
+    "why": "uses the Provisionals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.2.2",
+    "strength": "helpful",
+    "why": "army deployment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.4.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire5-s4.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.4.6",
+    "strength": "essential",
+    "why": "uses the SDLP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.4.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.4.0",
+    "strength": "essential",
+    "why": "Official IRA and Provisionals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.5.0",
+    "strength": "essential",
+    "why": "compared with the UVF",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.5.0",
+    "strength": "essential",
+    "why": "uses the UVF",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.1.1",
+    "strength": "essential",
+    "why": "defines sectarian",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s2.3.3",
+    "strength": "helpful",
+    "why": "William Craig",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.9.1",
+    "strength": "helpful",
+    "why": "loss of Stormont powers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s2.1.0",
+    "strength": "helpful",
+    "why": "O'Neill's cabinet",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire5-s4.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.3.0",
+    "strength": "essential",
+    "why": "1969 party vote",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.3.5",
+    "strength": "helpful",
+    "why": "became PM in 1971",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.1.2",
+    "strength": "essential",
+    "why": "uses internment",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.7.0",
+    "strength": "helpful",
+    "why": "how internment began",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.4.6",
+    "strength": "essential",
+    "why": "uses the SDLP",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.4.7",
+    "strength": "essential",
+    "why": "SDLP withdrawal in July 1971",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.0",
+    "strength": "helpful",
+    "why": "London security demand",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.4.7",
+    "strength": "helpful",
+    "why": "SDLP withdrawal",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.8.1",
+    "strength": "essential",
+    "why": "uses Bloody Sunday",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.9.0",
+    "strength": "essential",
+    "why": "London's demand for security powers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.6.2",
+    "strength": "essential",
+    "why": "uses internment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.6.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire5-s4.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.1.2",
+    "strength": "essential",
+    "why": "uses internment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.7.0",
+    "strength": "essential",
+    "why": "those arrested in internment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.7.0",
+    "strength": "essential",
+    "why": "used on internees",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.7.2",
+    "strength": "essential",
+    "why": "uses five techniques",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.7.0",
+    "strength": "helpful",
+    "why": "August 1971 internment operations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.4.0",
+    "strength": "helpful",
+    "why": "uses the Provisional IRA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.2",
+    "strength": "essential",
+    "why": "uses NICRA",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.7.0",
+    "strength": "helpful",
+    "why": "protest against internment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.8.0",
+    "strength": "essential",
+    "why": "the banned march",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.8.1",
+    "strength": "essential",
+    "why": "the thirteen killed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.8.1",
+    "strength": "essential",
+    "why": "report on Bloody Sunday",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.8.1",
+    "strength": "essential",
+    "why": "inquiry into killings",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.8.3",
+    "strength": "helpful",
+    "why": "contrasts with Widgery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.8.4",
+    "strength": "essential",
+    "why": "responds to Saville findings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.8.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.8.1",
+    "strength": "essential",
+    "why": "uses the killings",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.4.0",
+    "strength": "helpful",
+    "why": "Provisional IRA recruitment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.6.1",
+    "strength": "helpful",
+    "why": "Faulkner's government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.0",
+    "strength": "essential",
+    "why": "the refusal that led to resignation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.1.3",
+    "strength": "helpful",
+    "why": "defines Direct Rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.2",
+    "strength": "helpful",
+    "why": "Secretary of State under Direct Rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.3",
+    "strength": "essential",
+    "why": "uses Whitelaw",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.4.0",
+    "strength": "helpful",
+    "why": "Provisional IRA leaders",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.5.4",
+    "strength": "essential",
+    "why": "Craig and Vanguard",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.9.1",
+    "strength": "essential",
+    "why": "loss of Stormont",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.9.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.2",
+    "strength": "essential",
+    "why": "uses Direct Rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.9.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.6",
+    "strength": "essential",
+    "why": "explains why Direct Rule lasted",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.4.0",
+    "strength": "essential",
+    "why": "uses the Provisional IRA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.10.0",
+    "strength": "essential",
+    "why": "uses Bloody Friday",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.2.1",
+    "strength": "helpful",
+    "why": "Free Derry barricades",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.10.2",
+    "strength": "essential",
+    "why": "uses Operation Motorman",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.10.2",
+    "strength": "helpful",
+    "why": "campaign continued after Motorman",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.2",
+    "strength": "helpful",
+    "why": "civil rights movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.4",
+    "strength": "essential",
+    "why": "uses B Specials and RUC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.0",
+    "strength": "helpful",
+    "why": "London left NI alone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.4.0",
+    "strength": "helpful",
+    "why": "uses the Provisional IRA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.5.3",
+    "strength": "helpful",
+    "why": "loyalist attacks on Catholics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.11.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.7.1",
+    "strength": "helpful",
+    "why": "uses internment",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.8.1",
+    "strength": "essential",
+    "why": "uses Bloody Sunday",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.11.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.0.0",
+    "strength": "helpful",
+    "why": "Stormont and unionist rule",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire5-s4.11.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.0",
+    "strength": "essential",
+    "why": "British decision on security",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s4.0.2",
+    "strength": "helpful",
+    "why": "civil rights protest",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s4.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.2",
+    "strength": "essential",
+    "why": "the end of Stormont",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.7.0",
+    "strength": "essential",
+    "why": "uses internment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.1",
+    "strength": "essential",
+    "why": "suspension of Stormont",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.6",
+    "strength": "helpful",
+    "why": "Direct Rule lasted long",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s4.12.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s4.9.7",
+    "strength": "helpful",
+    "why": "why Direct Rule came",
+    "confidence": "low"
+   }
+  ]
+ }
+}

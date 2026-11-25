@@ -1,66 +1,69 @@
 import json,re
-P='/Users/gabrielwhelan/barebones/drafts/crunch/history/'
-pk=open(P+'packs/hist-eur4-s11.t1g1.txt').read()
-targets=re.findall(r'^\[(hist-eur4-s11\.[^\]]+)\]',pk,re.M)
-allids=set(re.findall(r'^\[([^\]]+)\]',pk,re.M))
-E,H='essential','helpful'
-def n(i,s,w,c='high'):return dict(id=('hist-eur4-' if i[0]=='s' else 'hist-eur4-s11.')+i,strength=s,why=w,confidence=c)
+P='/Users/gabrielwhelan/barebones/.claude/worktrees/history-crunch/drafts/crunch/history/'
+H,E='high','essential'
+def n(i,s,w,c=H): return {"id":"hist-eur4-s11."+i if not i.startswith('s4') else "hist-eur4-"+i,"strength":s,"why":w,"confidence":c}
+h='helpful'
 D={
-'0.b':(1,[]),'0.0':(1,[]),'0.1':(1,[n('0.0',H,'John XXIII as pope')]),
-'0.2':(1,[]),'0.3':(1,[]),'0.4':(2,[]),
-'0.5':(1,[n('0.1',H,'the Council announced','low')]),
-'0.6':(1,[]),'0.7':(1,[]),
-'1.b':(1,[]),'1.0':(1,[]),'1.1':(1,[n('0.0',H,'John XXIII as pope')]),
-'1.2':(1,[n('1.1',E,'Paul VI becoming pope')]),
-'1.3':(1,[]),
-'1.4':(2,[n('0.7',H,'prepared drafts from the Curia')]),
-'1.5':(1,[]),
-'1.6':(2,[n('2.1',H,'Lumen Gentium'),n('2.4',H,'ecumenism decree')]),
-'1.7':(2,[n('2.6',H,'religious liberty declaration'),n('2.5',H,'Nostra Aetate'),n('2.3',H,'Gaudium et Spes')]),
-'1.8':(1,[]),
-'2.b':(1,[]),'2.0':(1,[]),'2.1':(1,[]),'2.2':(1,[]),'2.3':(1,[]),'2.4':(1,[]),'2.5':(1,[]),'2.6':(1,[]),
+'0.b':(1,[]),'0.0':(1,[]),'0.1':(2,[]),'0.2':(2,[]),'0.3':(1,[]),
+'0.4':(1,[n('0.3',h,'John XXIII elected pope')]),
+'0.5':(1,[n('0.4',h,'the Council he announced')]),
+'0.6':(1,[n('0.4',h,'the Council he announced')]),
+'0.7':(1,[n('0.0',h,'the Roman Curia')]),
+'1.b':(1,[]),
+'1.0':(1,[n('0.4',h,'the Council announced')]),
+'1.1':(2,[n('0.7',E,'Curia prepared drafts, clash at opening')]),
+'1.2':(1,[n('0.3',h,'John XXIII as pope')]),
+'1.3':(2,[n('2.0',h,'Sacrosanctum Concilium content')]),
+'1.4':(2,[n('2.1',h,'Lumen Gentium content'),n('2.4',h,'Unitatis Redintegratio content')]),
+'1.5':(2,[n('2.b',h,'document types and ranks','low')]),
+'1.6':(1,[]),
+'2.b':(1,[]),'2.0':(1,[]),
+'2.1':(1,[n('1.3',h,'collegiality defined')]),
+'2.2':(1,[]),'2.3':(1,[]),
+'2.4':(1,[n('3.3',h,'ecumenical movement explained')]),
+'2.5':(1,[]),'2.6':(1,[]),
 '3.b':(1,[]),
-'3.0':(2,[n('2.0',H,'liturgy reform of Sacrosanctum Concilium')]),
-'3.1':(1,[n('2.1',H,'larger role for the laity')]),
-'3.2':(1,[n('2.4',H,'ecumenism commitment')]),
-'3.3':(1,[n('2.5',E,'Nostra Aetate')]),
-'3.4':(1,[n('3.3',H,'improved Catholic-Jewish dialogue')]),
-'3.5':(1,[]),'3.6':(1,[]),
-'3.7':(1,[n('2.6',H,'Dignitatis Humanae on religious liberty')]),
+'3.0':(1,[n('2.0',h,'liturgy reform document')]),
+'3.1':(1,[n('3.0',h,'Missal and Latin Mass')]),
+'3.2':(1,[]),
+'3.3':(1,[n('2.4',h,'Unitatis Redintegratio decree')]),
+'3.4':(1,[]),
+'3.5':(1,[n('2.5',E,'Nostra Aetate declaration')]),
+'3.6':(1,[]),
+'3.7':(2,[n('2.6',E,'Dignitatis Humanae religious liberty')]),
 '4.b':(1,[]),
-'4.0':(2,[n('2.6',H,'religious liberty teaching'),n('3.0',H,'the new liturgy')]),
-'4.1':(1,[]),'4.2':(1,[]),'4.3':(1,[]),
-'4.4':(2,[n('4.2',E,'Humanae Vitae encyclical')]),
-'4.5':(1,[n('4.2',E,'Humanae Vitae')]),
-'4.6':(2,[n('4.2',E,'Humanae Vitae ban on contraception'),n('4.4',H,'the 1966 commission and shock')]),
-'4.7':(1,[]),
+'4.0':(1,[n('2.6',h,'religious liberty teaching'),n('3.0',h,'new liturgy')]),
+'4.1':(1,[n('4.0',E,'Lefebvre and the Society')]),
+'4.2':(1,[n('1.3',h,'collegiality idea')]),
+'4.3':(1,[]),
+'4.4':(2,[n('4.3',E,'Humanae Vitae ban on contraception')]),
+'4.5':(1,[n('4.3',E,'dissent from Humanae Vitae')]),
+'4.6':(1,[n('4.3',E,'Humanae Vitae as turning point')]),
+'4.7':(2,[]),
 '5.b':(1,[]),
-'5.0':(1,[n('2.3',H,'Gaudium et Spes')]),
-'5.1':(1,[]),
-'5.2':(1,[n('s4.1.1',H,'1979 visit to Poland')]),
+'5.0':(1,[n('2.3',h,'Gaudium et Spes document')]),
+'5.1':(1,[n('5.0',h,'Wojtyla as John Paul II')]),
+'5.2':(2,[n('s4.5.4',E,'Solidarity union and Walesa'),n('5.1',h,'1979 visit to Poland')]),
 '5.3':(1,[]),
-'5.4':(1,[n('4.2',H,'contraception teaching')]),
-'5.5':(2,[]),
-'5.6':(1,[n('s4.4.b',H,'Solidarity union')]),
-'5.7':(1,[]),'5.8':(2,[]),'5.9':(2,[]),'5.10':(1,[]),
-'5.11':(1,[n('s4.0.b',H,'Gorbachev')]),
-'6.b':(1,[]),'6.0':(2,[]),'6.1':(1,[]),'6.2':(1,[]),'6.3':(2,[]),'6.4':(1,[]),
-'7.b':(2,[]),
-'7.0':(1,[n('3.0',H,'vernacular liturgy'),n('3.2',H,'ecumenical dialogue')]),
-'7.1':(1,[n('6.0',H,'falling Mass attendance')]),
+'5.4':(2,[n('1.6',h,'Ratzinger background','low')]),
+'5.5':(1,[n('3.5',h,'Nostra Aetate and Jewish dialogue')]),
+'5.6':(1,[]),
+'5.7':(2,[n('5.4',h,'conservative teaching under him')]),
+'6.b':(1,[]),'6.0':(2,[]),'6.1':(1,[]),'6.2':(1,[]),'6.3':(1,[]),
+'6.4':(1,[n('3.2',h,'lay participation reforms')]),
+'7.b':(1,[]),
+'7.0':(1,[n('3.0',h,'vernacular liturgy'),n('3.3',h,'ecumenical relations')]),
+'7.1':(2,[n('4.3',h,'Humanae Vitae dispute')]),
 '7.2':(1,[]),
-'7.3':(2,[n('6.0',H,'decline in practice')]),
-'7.4':(2,[n('4.6',H,'Humanae Vitae authority gap','low'),n('1.5',H,'collegiality')]),
+'7.3':(1,[n('6.b',h,'social change coinciding with Council')]),
+'7.4':(1,[n('4.0',h,'traditionalist reaction'),n('4.2',h,'progressive complaints')]),
 }
 out={}
-for t in targets:
-    k=t.replace('hist-eur4-s11.','')
-    assert k in D,k
-    c,l=D[k]
-    for x in l: assert x['id'] in allids and x['id']!=t,(t,x['id'])
-    out[t]={'cost':c,'needs':l}
-assert len(out)==len(D)==len(targets),(len(out),len(D),len(targets))
+for k,(c,l) in D.items(): out["hist-eur4-s11."+k]={"cost":c,"needs":l}
 json.dump(out,open(P+'point-links/hist-eur4-s11.t1g1.json','w'),indent=1)
-chk=json.load(open(P+'point-links/hist-eur4-s11.t1g1.json'))
-ls=[x for v in chk.values() for x in v['needs']]
-print(len(chk),len(ls),sum(v['cost']==2 for v in chk.values()),sum(x['confidence']=='low' for x in ls))
+txt=open(P+'packs/hist-eur4-s11.t1g1.txt').read()
+ids=set(re.findall(r'^\[([^\]]+)\]',txt,re.M))
+tg=re.findall(r'^\[(hist-eur4-s11\.[^\]]+)\]',txt,re.M)
+assert sorted(tg)==sorted(out) and len(tg)==len(set(tg)),(set(tg)^set(out))
+assert all(x['id'] in ids and x['id']!=k for k,v in out.items() for x in v['needs'])
+print(len(out),sum(len(v['needs']) for v in out.values()),sum(v['cost']==2 for v in out.values()),sum(x['confidence']=='low' for v in out.values() for x in v['needs']))

@@ -1,0 +1,780 @@
+{
+"hist-eur6-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.1.1",
+"strength": "helpful",
+"why": "dollar tied to gold, Bretton Woods",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s3.9.1",
+"strength": "helpful",
+"why": "guns and butter",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s3.0.5",
+"strength": "helpful",
+"why": "the Great Society",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.1.1",
+"strength": "helpful",
+"why": "spending outrunning output",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.1.0",
+"strength": "helpful",
+"why": "Johnson not raising taxes",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.1.3",
+"strength": "helpful",
+"why": "the delayed tax increase",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.2",
+"strength": "helpful",
+"why": "budget deficit defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.1.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.1.1",
+"strength": "essential",
+"why": "dollar convertible to gold",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.1.7",
+"strength": "helpful",
+"why": "strain on dollar and gold",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s6.1.1",
+"strength": "essential",
+"why": "dollar convertible to gold",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.2.0",
+"strength": "helpful",
+"why": "the same 1971 measures",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.2",
+"strength": "helpful",
+"why": "trade deficit defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.2.0",
+"strength": "helpful",
+"why": "end of Bretton Woods",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.1",
+"strength": "helpful",
+"why": "stagflation defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.3.0",
+"strength": "essential",
+"why": "the 1973 oil embargo",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s7.3.0",
+"strength": "essential",
+"why": "oil price rise from embargo",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s7.0.1",
+"strength": "helpful",
+"why": "stagflation defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.3.2",
+"strength": "helpful",
+"why": "inflation and recession being fought",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.3.0",
+"strength": "helpful",
+"why": "the first oil shock",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.1",
+"strength": "essential",
+"why": "stagflation defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.3.0",
+"strength": "helpful",
+"why": "oil crises of the 1970s",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.3.0",
+"strength": "helpful",
+"why": "dependence on imported oil",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.3.0",
+"strength": "helpful",
+"why": "oil shortage and prices",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.3",
+"strength": "helpful",
+"why": "globalisation",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s7.0.5",
+"strength": "helpful",
+"why": "rust belt",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.3",
+"strength": "helpful",
+"why": "foreign competition",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.5.0",
+"strength": "helpful",
+"why": "steel mills closing",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.3.0",
+"strength": "helpful",
+"why": "oil shocks",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.5.2",
+"strength": "helpful",
+"why": "Japanese car makers",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.5.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.5.3",
+"strength": "helpful",
+"why": "Japanese car gains",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s7.0.3",
+"strength": "helpful",
+"why": "global change and rivals",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.6.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.2",
+"strength": "helpful",
+"why": "trade deficit defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.6.1",
+"strength": "essential",
+"why": "high dollar hurting exporters",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.5",
+"strength": "essential",
+"why": "rust belt and Sun Belt",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.6.4",
+"strength": "helpful",
+"why": "manufacturing losses",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.1",
+"strength": "helpful",
+"why": "inflation defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.7.0",
+"strength": "essential",
+"why": "Volcker's interest rate rises",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.7.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.7.2",
+"strength": "helpful",
+"why": "supply-side tax theory",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.7.3",
+"strength": "essential",
+"why": "the tax cuts",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.4",
+"strength": "helpful",
+"why": "deregulation defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.1.5",
+"strength": "helpful",
+"why": "budget deficit",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.7.3",
+"strength": "helpful",
+"why": "1981 tax cuts",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.0.1",
+"strength": "helpful",
+"why": "inflation and unemployment",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.8.4",
+"strength": "helpful",
+"why": "mid-1980s recovery",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.7.3",
+"strength": "helpful",
+"why": "Reagan tax cuts",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.7.3",
+"strength": "essential",
+"why": "Reagan tax cuts",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.9.0",
+"strength": "helpful",
+"why": "large deficits",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.6.1",
+"strength": "essential",
+"why": "strong dollar hurts exports",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.9.2",
+"strength": "helpful",
+"why": "foreign capital financing deficits",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s7.6.3",
+"strength": "helpful",
+"why": "Plaza Accord",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s7.6.1",
+"strength": "helpful",
+"why": "high dollar",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.9.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.7.3",
+"strength": "helpful",
+"why": "1981 tax cuts",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s7.8.3",
+"strength": "helpful",
+"why": "1986 tax reform",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.5.b",
+"strength": "helpful",
+"why": "manufacturing decline",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.10.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.10.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.6.4",
+"strength": "helpful",
+"why": "urban areas losing industry",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur6-s7.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.8.5",
+"strength": "helpful",
+"why": "1980s job expansion",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur6-s7.9.1",
+"strength": "helpful",
+"why": "rising national debt",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s7.1.0",
+"strength": "helpful",
+"why": "Vietnam and Great Society cost",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s7.2.0",
+"strength": "helpful",
+"why": "end of Bretton Woods",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s7.3.0",
+"strength": "helpful",
+"why": "oil shocks",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s7.5.b",
+"strength": "helpful",
+"why": "foreign competition",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s7.10.1",
+"strength": "helpful",
+"why": "widening income gap",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s7.3.2",
+"strength": "helpful",
+"why": "1970s stagflation",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur6-s7.6.1",
+"strength": "helpful",
+"why": "high dollar",
+"confidence": "high"
+},
+{
+"id": "hist-eur6-s7.5.b",
+"strength": "helpful",
+"why": "manufacturing decline",
+"confidence": "high"
+}
+]
+},
+"hist-eur6-s7.11.5": {
+"cost": 1,
+"needs": []
+}
+}

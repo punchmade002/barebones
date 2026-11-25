@@ -1,0 +1,599 @@
+{
+ "hist-ire6-s8.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s1.8.1",
+    "strength": "helpful",
+    "why": "1950s emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.0.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire6-s8.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s3.0.0",
+    "strength": "helpful",
+    "why": "equality of opportunity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.1.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire6-s8.1.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire6-s8.1.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire6-s8.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s1.8.1",
+    "strength": "helpful",
+    "why": "1950s net emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.2.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire6-s8.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.6.4",
+    "strength": "helpful",
+    "why": "contraception legalised late 1970s",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.4.0",
+    "strength": "essential",
+    "why": "the marriage bar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.4.3",
+    "strength": "essential",
+    "why": "the Commission on the Status of Women",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.4.4",
+    "strength": "essential",
+    "why": "the Commission's reports",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.5.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire6-s8.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.5.0",
+    "strength": "helpful",
+    "why": "the movement that wrote it",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.0.3",
+    "strength": "essential",
+    "why": "the contraception ban",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.5.2",
+    "strength": "essential",
+    "why": "the train protest",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.6.0",
+    "strength": "essential",
+    "why": "Mary McGee's case",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.6.1",
+    "strength": "essential",
+    "why": "the McGee ruling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.6.1",
+    "strength": "helpful",
+    "why": "McGee ruling prompted a bill",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.6.2",
+    "strength": "helpful",
+    "why": "sale still restricted after McGee",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.6.4",
+    "strength": "essential",
+    "why": "the 1979 Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.0.3",
+    "strength": "helpful",
+    "why": "1968 papal encyclical",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.0.2",
+    "strength": "helpful",
+    "why": "EEC membership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.0.4",
+    "strength": "helpful",
+    "why": "definition of discrimination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.7.1",
+    "strength": "essential",
+    "why": "the 1977 Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.0.2",
+    "strength": "helpful",
+    "why": "EEC membership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.5.0",
+    "strength": "helpful",
+    "why": "Nuala Fennell as activist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.10.1",
+    "strength": "helpful",
+    "why": "Robinson in the Seanad",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.7.2",
+    "strength": "essential",
+    "why": "the Employment Equality Agency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.7.0",
+    "strength": "helpful",
+    "why": "equal pay law",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire6-s8.7.1",
+    "strength": "helpful",
+    "why": "equal treatment law",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.7.2",
+    "strength": "helpful",
+    "why": "the agency's role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.9.2",
+    "strength": "helpful",
+    "why": "her agency work",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.7.2",
+    "strength": "helpful",
+    "why": "the agency's limited powers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.10.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire6-s8.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.7.3",
+    "strength": "helpful",
+    "why": "Juries Act 1976",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.0.3",
+    "strength": "helpful",
+    "why": "contraception ban",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.10.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire6-s8.10.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.10.3",
+    "strength": "essential",
+    "why": "Robinson's homosexuality reform work",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.10.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.10.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.10.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.4.1",
+    "strength": "helpful",
+    "why": "marriage bar ended",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire6-s8.7.0",
+    "strength": "helpful",
+    "why": "equal pay",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire6-s8.7.1",
+    "strength": "helpful",
+    "why": "employment equality",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire6-s8.6.4",
+    "strength": "helpful",
+    "why": "contraception available",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.8.0",
+    "strength": "helpful",
+    "why": "women scarce in politics",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire6-s8.4.2",
+    "strength": "helpful",
+    "why": "pay gaps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire6-s8.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire6-s8.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire6-s8.0.2",
+    "strength": "helpful",
+    "why": "EEC law",
+    "confidence": "high"
+   }
+  ]
+ }
+}

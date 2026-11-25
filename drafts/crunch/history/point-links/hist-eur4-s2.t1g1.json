@@ -1,0 +1,1681 @@
+{
+ "hist-eur4-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.0",
+    "strength": "helpful",
+    "why": "the superpower rivalry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.19.1",
+    "strength": "helpful",
+    "why": "founding of NATO",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.5.2",
+    "strength": "helpful",
+    "why": "Berlin divided into four sectors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.0.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s2.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.3.6",
+    "strength": "helpful",
+    "why": "first atomic bomb and Soviet test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.0.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.17.0",
+    "strength": "helpful",
+    "why": "the Berlin blockade",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.1.1",
+    "strength": "essential",
+    "why": "the Korean War rearmament",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.5",
+    "strength": "helpful",
+    "why": "Stalin and his death",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.4.0",
+    "strength": "helpful",
+    "why": "his attacks on Stalin's terror",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.0.5",
+    "strength": "helpful",
+    "why": "the purges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.8.4",
+    "strength": "helpful",
+    "why": "the kitchen debate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.9.0",
+    "strength": "helpful",
+    "why": "Mao's rejection of de-Stalinisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.2.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.4",
+    "strength": "helpful",
+    "why": "First Secretary of the Central Committee",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.4",
+    "strength": "helpful",
+    "why": "the premier as head of government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.3.2",
+    "strength": "helpful",
+    "why": "Malenkov as a rival",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.4",
+    "strength": "helpful",
+    "why": "chairman of Council of Ministers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.5",
+    "strength": "helpful",
+    "why": "Stalin's cult of personality and terror",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.4.0",
+    "strength": "essential",
+    "why": "the secret speech",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.4.0",
+    "strength": "essential",
+    "why": "the secret speech",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.4.0",
+    "strength": "essential",
+    "why": "the secret speech shock",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.8.3",
+    "strength": "helpful",
+    "why": "the Hungarian Uprising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.4.0",
+    "strength": "helpful",
+    "why": "denunciation of Stalin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.5",
+    "strength": "helpful",
+    "why": "the Gulag camps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.4.0",
+    "strength": "helpful",
+    "why": "denunciation of Stalin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.6.0",
+    "strength": "essential",
+    "why": "the Virgin Lands campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.8.5",
+    "strength": "helpful",
+    "why": "his 1959 visit to the USA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.6.3",
+    "strength": "essential",
+    "why": "the 1957 decentralisation reform",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.7.0",
+    "strength": "helpful",
+    "why": "promises of overtaking the USA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.7.3",
+    "strength": "essential",
+    "why": "Sputnik and Gagarin successes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.14.3",
+    "strength": "helpful",
+    "why": "the 1948 Yugoslav split",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.4.3",
+    "strength": "helpful",
+    "why": "the Hungarian Uprising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.11.0",
+    "strength": "helpful",
+    "why": "the U-2 incident",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.4.4",
+    "strength": "helpful",
+    "why": "peaceful coexistence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.9.0",
+    "strength": "essential",
+    "why": "the ideological dispute",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.9.1",
+    "strength": "helpful",
+    "why": "the open Sino-Soviet dispute",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.19.5",
+    "strength": "helpful",
+    "why": "the Warsaw Pact",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.10.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.3",
+    "strength": "helpful",
+    "why": "Berlin as a Western enclave",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.3",
+    "strength": "helpful",
+    "why": "West Berlin inside East Germany",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.10.1",
+    "strength": "essential",
+    "why": "refugee flow from East Germany",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.10.2",
+    "strength": "helpful",
+    "why": "why the GDR wanted the exit closed",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur4-s2.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.10.3",
+    "strength": "essential",
+    "why": "the Berlin ultimatum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.11.0",
+    "strength": "essential",
+    "why": "the U-2 shootdown",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.8.5",
+    "strength": "helpful",
+    "why": "the thaw of 1959",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.11.0",
+    "strength": "essential",
+    "why": "Powers and the U-2 shootdown",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.10.3",
+    "strength": "helpful",
+    "why": "the Berlin settlement demand",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.11.3",
+    "strength": "essential",
+    "why": "Khrushchev pressing Kennedy at Vienna",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.12.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.10.2",
+    "strength": "helpful",
+    "why": "refugee flow threatening the GDR",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.10.2",
+    "strength": "helpful",
+    "why": "why the border was to be closed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.12.0",
+    "strength": "essential",
+    "why": "building of the Berlin Wall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.12.0",
+    "strength": "essential",
+    "why": "building of the Berlin Wall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.12.0",
+    "strength": "essential",
+    "why": "the Wall and border",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.10.1",
+    "strength": "helpful",
+    "why": "the refugee flow",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.12.0",
+    "strength": "helpful",
+    "why": "the Wall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.12.0",
+    "strength": "helpful",
+    "why": "the Berlin Wall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.12.0",
+    "strength": "essential",
+    "why": "building of the Berlin Wall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.7",
+    "strength": "helpful",
+    "why": "Castro and Cuba",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.6",
+    "strength": "helpful",
+    "why": "medium-range missiles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.1",
+    "strength": "helpful",
+    "why": "Soviet missiles in Cuba",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.2",
+    "strength": "essential",
+    "why": "missiles discovered in Cuba",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.3",
+    "strength": "helpful",
+    "why": "the choice of blockade",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.4",
+    "strength": "helpful",
+    "why": "the quarantine announcement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.13.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.2",
+    "strength": "essential",
+    "why": "Soviet missiles in Cuba",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.13.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.6",
+    "strength": "essential",
+    "why": "the public deal",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.13.1",
+    "strength": "helpful",
+    "why": "Jupiter missiles in Turkey",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.14.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.b",
+    "strength": "helpful",
+    "why": "the Cuban Missile Crisis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.4",
+    "strength": "helpful",
+    "why": "Kennedy's announcement of quarantine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.4",
+    "strength": "helpful",
+    "why": "the crisis and Kennedy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.1",
+    "strength": "helpful",
+    "why": "Berlin leverage motive",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur4-s2.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.15.4",
+    "strength": "helpful",
+    "why": "France's independent deterrent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.6",
+    "strength": "essential",
+    "why": "the Soviet retreat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.16.0",
+    "strength": "helpful",
+    "why": "the Partial Test Ban Treaty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.15.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.15.0",
+    "strength": "helpful",
+    "why": "nuclear deterrence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.15.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.15.0",
+    "strength": "helpful",
+    "why": "nuclear deterrence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.15.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.15.3",
+    "strength": "helpful",
+    "why": "doubts about the US umbrella",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.16.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.15.0",
+    "strength": "helpful",
+    "why": "deterrence failing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.16.0",
+    "strength": "essential",
+    "why": "the Partial Test Ban Treaty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.16.0",
+    "strength": "helpful",
+    "why": "the Test Ban Treaty contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.16.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s2.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.16.3",
+    "strength": "helpful",
+    "why": "SALT I",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.20.0",
+    "strength": "helpful",
+    "why": "Soviet invasion of Afghanistan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.17.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.14.5",
+    "strength": "helpful",
+    "why": "the hotline and Test Ban Treaty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.5",
+    "strength": "helpful",
+    "why": "near war over Cuba",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.17.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.15.0",
+    "strength": "helpful",
+    "why": "nuclear deterrence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.17.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.17.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.9.2",
+    "strength": "helpful",
+    "why": "Sino-Soviet split",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.17.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.18.0",
+    "strength": "helpful",
+    "why": "Ostpolitik",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.18.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.18.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.18.0",
+    "strength": "essential",
+    "why": "Brandt and Ostpolitik",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.18.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.18.0",
+    "strength": "essential",
+    "why": "Brandt and Ostpolitik",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s1.4.3",
+    "strength": "helpful",
+    "why": "the Oder-Neisse line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.3",
+    "strength": "helpful",
+    "why": "Berlin and its sectors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.18.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.2",
+    "strength": "helpful",
+    "why": "the two German states",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.19.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.19.0",
+    "strength": "essential",
+    "why": "the Helsinki Final Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.19.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.19.0",
+    "strength": "essential",
+    "why": "the Helsinki Final Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.19.0",
+    "strength": "essential",
+    "why": "the Helsinki Final Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.20.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.20.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.20.0",
+    "strength": "essential",
+    "why": "invasion of Afghanistan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.20.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.16.4",
+    "strength": "helpful",
+    "why": "SALT II",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.20.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.17.b",
+    "strength": "helpful",
+    "why": "what d\u00e9tente meant",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur4-s2.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.21.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.6",
+    "strength": "helpful",
+    "why": "medium-range missiles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.21.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.21.0",
+    "strength": "essential",
+    "why": "the SS-20 missiles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.21.1",
+    "strength": "essential",
+    "why": "the double-track decision",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.21.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.21.2",
+    "strength": "helpful",
+    "why": "deployment of the new missiles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.21.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.21.3",
+    "strength": "helpful",
+    "why": "the peace demonstrations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.22.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.22.0",
+    "strength": "helpful",
+    "why": "Reagan's harder line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.22.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.22.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.22.2",
+    "strength": "helpful",
+    "why": "Gorbachev as leader",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.22.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.21.1",
+    "strength": "helpful",
+    "why": "the Euromissiles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.23.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.18.0",
+    "strength": "helpful",
+    "why": "the Berlin Blockade outcome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.23.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.1.3",
+    "strength": "helpful",
+    "why": "Stalin's death and Korean armistice",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.23.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.8.3",
+    "strength": "helpful",
+    "why": "crushing of Hungarian Uprising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.23.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.12.0",
+    "strength": "helpful",
+    "why": "the Berlin Wall",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.13.b",
+    "strength": "helpful",
+    "why": "the Cuban Missile Crisis",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.14.5",
+    "strength": "helpful",
+    "why": "hotline and Test Ban Treaty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.23.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s2.23.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.19.2",
+    "strength": "helpful",
+    "why": "Helsinki human rights commitment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.23.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.20.0",
+    "strength": "helpful",
+    "why": "invasion of Afghanistan",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.21.1",
+    "strength": "helpful",
+    "why": "the double-track decision",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.22.0",
+    "strength": "helpful",
+    "why": "Reagan's election and hard line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.23.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.22.2",
+    "strength": "helpful",
+    "why": "Gorbachev from 1985",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.22.3",
+    "strength": "helpful",
+    "why": "the Reykjavik summit",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.22.4",
+    "strength": "helpful",
+    "why": "the INF Treaty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.24.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.24.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.0.4",
+    "strength": "helpful",
+    "why": "First Secretary and Council chairman",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.24.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.24.0",
+    "strength": "helpful",
+    "why": "Khrushchev's removal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.24.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.13.6",
+    "strength": "helpful",
+    "why": "the Cuban retreat",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.6.1",
+    "strength": "helpful",
+    "why": "failing agriculture",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.6.4",
+    "strength": "helpful",
+    "why": "reorganisations angering officials",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.24.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.24.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.24.0",
+    "strength": "helpful",
+    "why": "his removal by the party",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.25.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.25.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.16.3",
+    "strength": "helpful",
+    "why": "SALT I",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.18.1",
+    "strength": "helpful",
+    "why": "Moscow Treaty",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.19.2",
+    "strength": "helpful",
+    "why": "Helsinki human rights",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.25.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.25.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.20.0",
+    "strength": "helpful",
+    "why": "Afghanistan",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.21.1",
+    "strength": "helpful",
+    "why": "the Euromissiles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.26.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s2.26.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.4.0",
+    "strength": "helpful",
+    "why": "de-Stalinisation",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.5.0",
+    "strength": "helpful",
+    "why": "release of prisoners",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.7.0",
+    "strength": "helpful",
+    "why": "housing programme",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.7.3",
+    "strength": "helpful",
+    "why": "Sputnik and Gagarin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.26.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.6.1",
+    "strength": "helpful",
+    "why": "Virgin Lands failure",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.6.4",
+    "strength": "helpful",
+    "why": "reversed reorganisations",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.7.2",
+    "strength": "helpful",
+    "why": "Novocherkassk",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.7.1",
+    "strength": "helpful",
+    "why": "unkept promises",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.26.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.4.4",
+    "strength": "helpful",
+    "why": "peaceful coexistence",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.8.0",
+    "strength": "helpful",
+    "why": "Austrian State Treaty",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.14.5",
+    "strength": "helpful",
+    "why": "hotline and Test Ban Treaty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.26.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.8.3",
+    "strength": "helpful",
+    "why": "Hungary",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.10.4",
+    "strength": "helpful",
+    "why": "failed Berlin ultimatum",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.12.4",
+    "strength": "helpful",
+    "why": "the Wall",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.13.6",
+    "strength": "helpful",
+    "why": "Cuban retreat",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.9.1",
+    "strength": "helpful",
+    "why": "split with China",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.26.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.22.2",
+    "strength": "helpful",
+    "why": "Gorbachev as leader",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.26.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.2.3",
+    "strength": "helpful",
+    "why": "Western view of Khrushchev",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s2.2.4",
+    "strength": "helpful",
+    "why": "hare-brained schemes view",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s2.26.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s2.2.5",
+    "strength": "helpful",
+    "why": "historians' view of Khrushchev",
+    "confidence": "high"
+   }
+  ]
+ }
+}

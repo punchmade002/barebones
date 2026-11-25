@@ -1,0 +1,600 @@
+{
+ "hist-ire5-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s1.7.2",
+    "strength": "helpful",
+    "why": "1936 ward boundaries gerrymandering",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.0.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire5-s3.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.1.0",
+    "strength": "helpful",
+    "why": "Lockwood Committee appointed 1963",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s2.1.0",
+    "strength": "helpful",
+    "why": "O'Neill becoming Prime Minister",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.0.3",
+    "strength": "helpful",
+    "why": "Magee College as existing college",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.0.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.1.0",
+    "strength": "helpful",
+    "why": "the Lockwood Committee",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.1.0",
+    "strength": "essential",
+    "why": "the Lockwood Committee",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.1.2",
+    "strength": "essential",
+    "why": "the University for Derry campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.0.3",
+    "strength": "helpful",
+    "why": "Magee College buildings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.1.2",
+    "strength": "helpful",
+    "why": "the Derry campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.1.0",
+    "strength": "essential",
+    "why": "the Lockwood Committee report",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.0",
+    "strength": "essential",
+    "why": "the Lockwood report",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.0",
+    "strength": "helpful",
+    "why": "the report choosing Coleraine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.0",
+    "strength": "essential",
+    "why": "the Lockwood report",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.0",
+    "strength": "helpful",
+    "why": "the report recommending Coleraine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.3",
+    "strength": "helpful",
+    "why": "the Stormont vote on the report",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.1.2",
+    "strength": "helpful",
+    "why": "the University for Derry Committee",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.1.2",
+    "strength": "essential",
+    "why": "the University for Derry Committee",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.3",
+    "strength": "helpful",
+    "why": "the defeat at Stormont",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire5-s3.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s2.8.5",
+    "strength": "helpful",
+    "why": "Derry Citizens' Action Committee",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.6.0",
+    "strength": "helpful",
+    "why": "the Benson Report",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s3.6.2",
+    "strength": "helpful",
+    "why": "the Matthew Report",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s3.0.4",
+    "strength": "helpful",
+    "why": "the Robbins Report",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s3.1.0",
+    "strength": "helpful",
+    "why": "the Lockwood Committee",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.1.0",
+    "strength": "helpful",
+    "why": "the Lockwood Committee",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s3.1.2",
+    "strength": "helpful",
+    "why": "the Derry campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.0",
+    "strength": "essential",
+    "why": "the Lockwood report",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s3.2.1",
+    "strength": "helpful",
+    "why": "the Stormont motorcade",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.3",
+    "strength": "helpful",
+    "why": "the vote at Stormont",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.0.3",
+    "strength": "helpful",
+    "why": "Magee College",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.1",
+    "strength": "helpful",
+    "why": "the motorcade",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.4",
+    "strength": "helpful",
+    "why": "the government's case for Coleraine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s1.8.4",
+    "strength": "helpful",
+    "why": "investment going east of the Bann",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.6.3",
+    "strength": "essential",
+    "why": "Craigavon designated 1965",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.5.0",
+    "strength": "helpful",
+    "why": "discrimination",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire5-s2.6.2",
+    "strength": "helpful",
+    "why": "the civil rights movement (NICRA)",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire5-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.6.0",
+    "strength": "essential",
+    "why": "the Derry Road line closure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.6.2",
+    "strength": "helpful",
+    "why": "the Matthew Report proposing a new city",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.0.2",
+    "strength": "helpful",
+    "why": "Derry unemployment and emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.0.1",
+    "strength": "essential",
+    "why": "unionist control of Londonderry Corporation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.5.0",
+    "strength": "helpful",
+    "why": "the discrimination grievance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.3.1",
+    "strength": "helpful",
+    "why": "Hume's chairing of the campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s2.6.2",
+    "strength": "helpful",
+    "why": "the civil rights movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.0.5",
+    "strength": "helpful",
+    "why": "O'Neill's modernising programme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.0.3",
+    "strength": "helpful",
+    "why": "Magee College buildings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.1.0",
+    "strength": "helpful",
+    "why": "the Lockwood Committee",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.2.2",
+    "strength": "essential",
+    "why": "the faceless men allegation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.5.3",
+    "strength": "helpful",
+    "why": "the pattern of investment in the east",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire5-s3.5.0",
+    "strength": "helpful",
+    "why": "discrimination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire5-s3.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire5-s3.8.6": {
+  "cost": 1,
+  "needs": []
+ }
+}

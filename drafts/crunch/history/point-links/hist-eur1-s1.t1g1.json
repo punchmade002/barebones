@@ -1,0 +1,1105 @@
+{
+"hist-eur1-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.0.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s1.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.0.2",
+"strength": "helpful",
+"why": "first Treaty of Paris",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.0.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.2.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.2.1",
+"strength": "helpful",
+"why": "Metternich as delegate",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.3.b",
+"strength": "helpful",
+"why": "legitimacy and balance of power",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.3.b",
+"strength": "helpful",
+"why": "principle of legitimacy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.3.b",
+"strength": "helpful",
+"why": "principle of balance of power",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.3.1",
+"strength": "helpful",
+"why": "buffer states against France",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.2.1",
+"strength": "helpful",
+"why": "Castlereagh as British delegate",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.3.1",
+"strength": "helpful",
+"why": "Austrian Netherlands given to Netherlands",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.4.0",
+"strength": "helpful",
+"why": "Austrian gains in Italy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.3.2",
+"strength": "helpful",
+"why": "Prussia guarding the Rhine",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.4.0",
+"strength": "helpful",
+"why": "Lombardy-Venetia under Austria",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.0.0",
+"strength": "helpful",
+"why": "ideas spread by Napoleon",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.5.1",
+"strength": "helpful",
+"why": "ignored liberal and national hopes",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.0.1",
+"strength": "helpful",
+"why": "Napoleon dissolved the Empire",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.0.1",
+"strength": "helpful",
+"why": "Holy Roman Empire dissolved 1806",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.6.0",
+"strength": "essential",
+"why": "the German Confederation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.6.1",
+"strength": "helpful",
+"why": "the Diet and Austrian presidency",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.6.0",
+"strength": "helpful",
+"why": "the German Confederation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.6.0",
+"strength": "helpful",
+"why": "the Federal Act",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.6.4",
+"strength": "essential",
+"why": "Article 13 promise of constitutions",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.6.2",
+"strength": "helpful",
+"why": "Austro-Prussian dualism",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.7.0",
+"strength": "essential",
+"why": "the Holy Alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.0.3",
+"strength": "helpful",
+"why": "second Treaty of Paris",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.7.2",
+"strength": "essential",
+"why": "periodic meetings of the alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.7.3",
+"strength": "helpful",
+"why": "the Congress System",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.7.3",
+"strength": "helpful",
+"why": "the Congress System",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.8.1",
+"strength": "essential",
+"why": "the Troppau principle",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.3.0",
+"strength": "helpful",
+"why": "Ferdinand restored in Naples",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.8.1",
+"strength": "helpful",
+"why": "eastern powers backing intervention",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.3.0",
+"strength": "helpful",
+"why": "Ferdinand VII restored in Spain",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.8.1",
+"strength": "helpful",
+"why": "Britain breaking with the system",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s1.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.8.1",
+"strength": "helpful",
+"why": "Britain refusing intervention",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.0.5",
+"strength": "helpful",
+"why": "the multinational Habsburg Empire",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.1.3",
+"strength": "helpful",
+"why": "Metternich's conservatism",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.1.2",
+"strength": "helpful",
+"why": "autocracy defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.9.1",
+"strength": "helpful",
+"why": "Austrian government under Ferdinand",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.1.0",
+"strength": "helpful",
+"why": "liberal ideas",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.13.0",
+"strength": "helpful",
+"why": "what Burschenschaften were",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.10.0",
+"strength": "essential",
+"why": "the Kotzebue murder",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.6.1",
+"strength": "helpful",
+"why": "the Diet",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.10.1",
+"strength": "essential",
+"why": "the Carlsbad Decrees",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.10.0",
+"strength": "helpful",
+"why": "the Burschenschaften",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.10.1",
+"strength": "essential",
+"why": "the Carlsbad Decrees",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.10.1",
+"strength": "essential",
+"why": "the Carlsbad Decrees",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.16.2",
+"strength": "essential",
+"why": "the Hambach Festival",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.6.1",
+"strength": "helpful",
+"why": "the Diet",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.11.0",
+"strength": "helpful",
+"why": "the Six Articles",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.13.0",
+"strength": "helpful",
+"why": "black, red and gold colours",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.7.3",
+"strength": "helpful",
+"why": "the congresses",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.8.2",
+"strength": "helpful",
+"why": "risings crushed in 1821",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.6.2",
+"strength": "helpful",
+"why": "Austro-Prussian cooperation in the Bund",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.7.3",
+"strength": "helpful",
+"why": "the Congress System",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.10.1",
+"strength": "helpful",
+"why": "the Carlsbad Decrees",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.13.0",
+"strength": "helpful",
+"why": "the Burschenschaften",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.13.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.13.2",
+"strength": "essential",
+"why": "the revolutions of 1820-21",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.14.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.14.0",
+"strength": "helpful",
+"why": "the Greek rising",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.14.1",
+"strength": "helpful",
+"why": "Greek rising and Navarino",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.14.1",
+"strength": "helpful",
+"why": "powers aiding the Greek rebels",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.3.b",
+"strength": "helpful",
+"why": "legitimate rulers",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.15.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.3.1",
+"strength": "essential",
+"why": "1815 union of Belgium and Netherlands",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.15.1",
+"strength": "essential",
+"why": "Belgian independence",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.15.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.12.0",
+"strength": "helpful",
+"why": "Austrian suppression of 1831 risings",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.16.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.16.0",
+"strength": "helpful",
+"why": "1830s constitutions in Hanover",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.13.0",
+"strength": "helpful",
+"why": "black, red and gold colours",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.16.2",
+"strength": "essential",
+"why": "the Hambach Festival",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.11.0",
+"strength": "helpful",
+"why": "the Six Articles response",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.17.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.17.0",
+"strength": "helpful",
+"why": "Prussia's Customs Law",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.17.1",
+"strength": "essential",
+"why": "the Zollverein",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.17.1",
+"strength": "helpful",
+"why": "the Zollverein",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.17.1",
+"strength": "helpful",
+"why": "the Zollverein",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.18.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.18.0",
+"strength": "helpful",
+"why": "1848 demonstrations",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.18.1",
+"strength": "essential",
+"why": "Metternich's fall",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.19.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.19.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.4.1",
+"strength": "helpful",
+"why": "Marie-Louise and Napoleon",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s1.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.2.2",
+"strength": "helpful",
+"why": "Metternich at Vienna",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.10.1",
+"strength": "helpful",
+"why": "the Carlsbad Decrees",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.11.1",
+"strength": "helpful",
+"why": "the 1832 measures",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.3.b",
+"strength": "helpful",
+"why": "legitimacy and balance of power",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.0.5",
+"strength": "helpful",
+"why": "the multinational Habsburg Empire",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.14.2",
+"strength": "helpful",
+"why": "Greek independence",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.15.0",
+"strength": "helpful",
+"why": "1830 revolutions",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.17.1",
+"strength": "helpful",
+"why": "the Zollverein",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.18.1",
+"strength": "helpful",
+"why": "1848 ended his career",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.19.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.19.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.19.7": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.19.8": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s1.20.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.20.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.20.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s1.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.8.2",
+"strength": "helpful",
+"why": "Italian revolutions crushed",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.10.1",
+"strength": "helpful",
+"why": "German liberals crushed",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.8.1",
+"strength": "helpful",
+"why": "Britain withdrawing from Congress System",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.14.2",
+"strength": "helpful",
+"why": "Greek independence",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.15.1",
+"strength": "helpful",
+"why": "Belgian independence",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.17.1",
+"strength": "essential",
+"why": "the Zollverein",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.20.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.9.1",
+"strength": "helpful",
+"why": "no Austrian constitution",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.20.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.18.1",
+"strength": "essential",
+"why": "the Vienna rising of 1848",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s1.20.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.19.8",
+"strength": "essential",
+"why": "the historians named",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.19.7",
+"strength": "helpful",
+"why": "contemporary views",
+"confidence": "high"
+}
+]
+}
+}

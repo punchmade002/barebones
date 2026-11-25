@@ -1,0 +1,1233 @@
+{
+"hist-eur4-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.0.0",
+"strength": "helpful",
+"why": "the Grand Alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.1.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.1.3",
+"strength": "essential",
+"why": "the percentages agreement",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.12.0",
+"strength": "helpful",
+"why": "the Lublin government",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.2.1",
+"strength": "helpful",
+"why": "the zones agreed at Yalta",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.2.2",
+"strength": "helpful",
+"why": "the promises on Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.4.0",
+"strength": "helpful",
+"why": "the Potsdam Conference",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.3.2",
+"strength": "helpful",
+"why": "Red Army occupation",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.0.4",
+"strength": "helpful",
+"why": "invasions of 1914 and 1941",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.3.4",
+"strength": "essential",
+"why": "the buffer zone",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.3.6": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.3.1",
+"strength": "helpful",
+"why": "Attlee replacing Churchill",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.4.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.2.1",
+"strength": "helpful",
+"why": "France getting a zone at Yalta",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.5.0",
+"strength": "helpful",
+"why": "the Soviet zone",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.5.2",
+"strength": "essential",
+"why": "Berlin inside the Soviet zone",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.4.2",
+"strength": "helpful",
+"why": "reparations at Potsdam",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.6.0",
+"strength": "helpful",
+"why": "reparations from zones",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.6.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.4.1",
+"strength": "helpful",
+"why": "Potsdam single economic unit",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.7.1",
+"strength": "essential",
+"why": "Kennan and the Long Telegram",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.7.1",
+"strength": "helpful",
+"why": "Western counterpart telegram",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.7.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.7.4",
+"strength": "essential",
+"why": "Churchill's Fulton speech",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.7.4",
+"strength": "essential",
+"why": "replying to the Fulton speech",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.8.4",
+"strength": "helpful",
+"why": "the Truman Doctrine",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.8.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.8.0",
+"strength": "helpful",
+"why": "Greece and Turkey aid",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.8.3",
+"strength": "helpful",
+"why": "the request to Congress",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.9.0",
+"strength": "helpful",
+"why": "the Marshall Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.9.0",
+"strength": "helpful",
+"why": "the Marshall Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.9.2",
+"strength": "helpful",
+"why": "the aid being shared",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.9.0",
+"strength": "essential",
+"why": "the Marshall Plan offer",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.9.0",
+"strength": "essential",
+"why": "the Marshall Plan talks",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.9.0",
+"strength": "helpful",
+"why": "answer to Marshall aid",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.10.2",
+"strength": "essential",
+"why": "the Cominform meeting",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.10.2",
+"strength": "essential",
+"why": "the Cominform",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.9.0",
+"strength": "helpful",
+"why": "answer to Marshall Plan",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.11.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.11.0",
+"strength": "helpful",
+"why": "the first stage",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.11.4",
+"strength": "helpful",
+"why": "land reform",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.11.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.2.2",
+"strength": "helpful",
+"why": "Yalta promises on Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.12.0",
+"strength": "helpful",
+"why": "Polish underground and Lublin",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.12.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.12.3": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s1.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.12.3",
+"strength": "helpful",
+"why": "the PZPR",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.12.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.12.5",
+"strength": "helpful",
+"why": "the Smallholders",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.12.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.12.5",
+"strength": "helpful",
+"why": "the Smallholders",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.13.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.13.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.13.2",
+"strength": "helpful",
+"why": "Romania's communist government",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.13.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.13.4",
+"strength": "helpful",
+"why": "Bulgarian Fatherland Front",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.13.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.13.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.13.6",
+"strength": "helpful",
+"why": "Czechoslovak communist government",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.13.7",
+"strength": "helpful",
+"why": "the 1948 Czechoslovak takeover",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.6.3",
+"strength": "essential",
+"why": "the SED",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.14.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.14.2",
+"strength": "essential",
+"why": "Tito and Yugoslavia",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.10.2",
+"strength": "helpful",
+"why": "the Cominform",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.14.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.13.1",
+"strength": "helpful",
+"why": "Rajk",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.14.3",
+"strength": "helpful",
+"why": "Titoists",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.11.5",
+"strength": "helpful",
+"why": "satellite states",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.11.2",
+"strength": "essential",
+"why": "salami tactics",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.15.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.12.2",
+"strength": "helpful",
+"why": "Mikolajczyk",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.12.6",
+"strength": "helpful",
+"why": "Kovacs",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.13.5",
+"strength": "helpful",
+"why": "Petkov",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.13.2",
+"strength": "helpful",
+"why": "Maniu",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.12.3",
+"strength": "helpful",
+"why": "the PZPR merger",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.13.0",
+"strength": "essential",
+"why": "Mindszenty's trial",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.14.2",
+"strength": "essential",
+"why": "Tito and Yugoslavia",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.6.4",
+"strength": "helpful",
+"why": "Germany as a single unit",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.4.4",
+"strength": "essential",
+"why": "the Allied Control Council",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.6.4",
+"strength": "essential",
+"why": "Bizonia",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.16.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.16.3",
+"strength": "essential",
+"why": "the currency reform",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.16.3",
+"strength": "helpful",
+"why": "currency reform and West Berlin",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.16.3",
+"strength": "essential",
+"why": "the new currency",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.16.0",
+"strength": "helpful",
+"why": "the West German state",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.17.0",
+"strength": "essential",
+"why": "the blockade",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.17.2",
+"strength": "helpful",
+"why": "the airlift",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.5.2",
+"strength": "helpful",
+"why": "Berlin sectors",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.17.2",
+"strength": "helpful",
+"why": "the airlift",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.17.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.6.1",
+"strength": "helpful",
+"why": "Lucius Clay",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.17.0",
+"strength": "helpful",
+"why": "the blockade",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.17.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.17.0",
+"strength": "essential",
+"why": "the blockade",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.17.0",
+"strength": "essential",
+"why": "the blockade",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.18.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.14.1",
+"strength": "helpful",
+"why": "Ulbricht and the SED",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.5.2",
+"strength": "helpful",
+"why": "the divided Berlin sectors",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.19.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.19.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s1.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.19.1",
+"strength": "essential",
+"why": "NATO",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.19.1",
+"strength": "helpful",
+"why": "NATO",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.19.1",
+"strength": "helpful",
+"why": "NATO",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.19.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.19.4",
+"strength": "essential",
+"why": "West German entry into NATO",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.19.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.19.5",
+"strength": "essential",
+"why": "the Warsaw Pact",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.20.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.11.0",
+"strength": "helpful",
+"why": "how eastern Europe was taken over",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.3.6",
+"strength": "helpful",
+"why": "the atomic monopoly",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.20.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur4-s1.20.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.3.4",
+"strength": "helpful",
+"why": "the buffer zone",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.16.3",
+"strength": "essential",
+"why": "the currency reform",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.21.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur4-s1.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.11.5",
+"strength": "helpful",
+"why": "satellite states",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.10.2",
+"strength": "helpful",
+"why": "the Cominform",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.10.5",
+"strength": "helpful",
+"why": "Comecon",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.13.1",
+"strength": "helpful",
+"why": "Rajk",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.14.4",
+"strength": "helpful",
+"why": "Kostov and purges",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.14.3",
+"strength": "essential",
+"why": "Yugoslavia's expulsion",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.21.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur4-s1.17.2",
+"strength": "essential",
+"why": "the airlift",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s1.21.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur4-s1.9.4",
+"strength": "helpful",
+"why": "Marshall aid",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s1.19.1",
+"strength": "helpful",
+"why": "NATO",
+"confidence": "high"
+}
+]
+}
+}

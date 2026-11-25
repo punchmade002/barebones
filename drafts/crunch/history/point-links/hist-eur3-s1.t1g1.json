@@ -1,0 +1,944 @@
+{
+ "hist-eur3-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.0.1",
+    "strength": "essential",
+    "why": "uses Treaty of London promises",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.1.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur3-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.1.1",
+    "strength": "helpful",
+    "why": "uses the 1919-20 unrest",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.0.2",
+    "strength": "helpful",
+    "why": "uses the mutilated victory grievance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.3.2",
+    "strength": "helpful",
+    "why": "uses the totalitarian state idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.2.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.2.2",
+    "strength": "helpful",
+    "why": "uses the leader principle and cult",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.2.3",
+    "strength": "helpful",
+    "why": "uses the one-party totalitarian state",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.3.2",
+    "strength": "essential",
+    "why": "uses the totalitarianism definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.4.1",
+    "strength": "essential",
+    "why": "uses the squadristi violence",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s1.1.1",
+    "strength": "helpful",
+    "why": "uses the 1919-20 unrest",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.1.0",
+    "strength": "helpful",
+    "why": "uses Giolitti as prime minister",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.4.1",
+    "strength": "essential",
+    "why": "uses the local squads",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.4.0",
+    "strength": "essential",
+    "why": "uses the Fasci movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.4.5",
+    "strength": "helpful",
+    "why": "uses the Fascist Party",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.5.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur3-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.0.0",
+    "strength": "helpful",
+    "why": "uses the King and army roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.5.1",
+    "strength": "essential",
+    "why": "uses Facta and the state of siege",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.5.2",
+    "strength": "essential",
+    "why": "uses the King refusing the decree",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.5.2",
+    "strength": "essential",
+    "why": "uses Mussolini taking office",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.5.4",
+    "strength": "helpful",
+    "why": "uses Mussolini in office",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.4.1",
+    "strength": "helpful",
+    "why": "uses the squads",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.1.0",
+    "strength": "helpful",
+    "why": "uses proportional representation and coalitions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.6.2",
+    "strength": "essential",
+    "why": "uses the Acerbo Law",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.6.3",
+    "strength": "helpful",
+    "why": "uses the 1924 election fraud",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.7.0",
+    "strength": "essential",
+    "why": "uses Matteotti denouncing fraud",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.7.1",
+    "strength": "essential",
+    "why": "uses the murder of Matteotti",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.7.1",
+    "strength": "essential",
+    "why": "uses responsibility for the violence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.7.3",
+    "strength": "essential",
+    "why": "uses the start of open dictatorship",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.7.4",
+    "strength": "helpful",
+    "why": "uses the Leggi Fascistissime",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.7.4",
+    "strength": "helpful",
+    "why": "uses the repression",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s1.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.6.0",
+    "strength": "helpful",
+    "why": "uses the Grand Council",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.2.6",
+    "strength": "helpful",
+    "why": "uses corporatism idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.2.6",
+    "strength": "essential",
+    "why": "uses corporatism idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.8.1",
+    "strength": "essential",
+    "why": "uses the corporate system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.8.2",
+    "strength": "essential",
+    "why": "uses the corporations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.9.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur3-s1.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.3.1",
+    "strength": "helpful",
+    "why": "uses the cult of Il Duce",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.10.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.7.5",
+    "strength": "helpful",
+    "why": "uses Special Tribunal, OVRA, confino",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s1.6.1",
+    "strength": "helpful",
+    "why": "uses the militia",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.1.4",
+    "strength": "helpful",
+    "why": "uses the Fiume dispute",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.11.2",
+    "strength": "helpful",
+    "why": "uses opposing German power",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.0.4",
+    "strength": "helpful",
+    "why": "uses the League of Nations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.0.4",
+    "strength": "essential",
+    "why": "uses League sanctions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.12.2",
+    "strength": "helpful",
+    "why": "uses sanctions failing to stop Italy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.12.0",
+    "strength": "helpful",
+    "why": "uses the invasion of Abyssinia",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.12.0",
+    "strength": "helpful",
+    "why": "uses the Abyssinian war",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.13.0",
+    "strength": "helpful",
+    "why": "uses closer German ties",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.13.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.11.2",
+    "strength": "essential",
+    "why": "uses 1934 opposition to German control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.13.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.13.1",
+    "strength": "helpful",
+    "why": "uses the Rome-Berlin Axis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.13.4",
+    "strength": "helpful",
+    "why": "uses the Pact of Steel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.6.0",
+    "strength": "essential",
+    "why": "uses the Fascist Grand Council",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.14.0",
+    "strength": "helpful",
+    "why": "uses the Grand Council vote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.14.1",
+    "strength": "essential",
+    "why": "uses the dismissal of Mussolini",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.14.2",
+    "strength": "helpful",
+    "why": "uses the armistice and new government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.14.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.14.3",
+    "strength": "helpful",
+    "why": "uses Mussolini rescued by Germans",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.14.4",
+    "strength": "helpful",
+    "why": "uses the Salo Republic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.4.0",
+    "strength": "helpful",
+    "why": "uses the Fasci di Combattimento",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.15.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.5.0",
+    "strength": "helpful",
+    "why": "uses the March on Rome",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s1.7.3",
+    "strength": "helpful",
+    "why": "uses the January 1925 speech",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.15.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur3-s1.15.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur3-s1.15.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.3.3",
+    "strength": "helpful",
+    "why": "uses incomplete totalitarianism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s1.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.7.4",
+    "strength": "helpful",
+    "why": "uses the Leggi Fascistissime",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.8.3",
+    "strength": "essential",
+    "why": "uses the corporate state on paper",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.10.5",
+    "strength": "essential",
+    "why": "uses the Lateran Treaties",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s1.9.3",
+    "strength": "essential",
+    "why": "uses the Pontine Marshes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.9.0",
+    "strength": "essential",
+    "why": "uses the Battle for Grain",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s1.9.2",
+    "strength": "essential",
+    "why": "uses Quota 90",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.12.4",
+    "strength": "essential",
+    "why": "uses the Abyssinia conquest",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s1.11.1",
+    "strength": "essential",
+    "why": "uses Fiume annexation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.16.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.12.0",
+    "strength": "essential",
+    "why": "uses the Abyssinian war",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s1.13.5",
+    "strength": "helpful",
+    "why": "uses the war and the Axis",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s1.14.0",
+    "strength": "helpful",
+    "why": "uses the 1943 collapse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s1.16.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.15.4",
+    "strength": "helpful",
+    "why": "uses contemporary views",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s1.16.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s1.16.0",
+    "strength": "helpful",
+    "why": "uses winning and keeping power",
+    "confidence": "high"
+   }
+  ]
+ }
+}

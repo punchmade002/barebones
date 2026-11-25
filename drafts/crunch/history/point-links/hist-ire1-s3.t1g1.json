@@ -1,0 +1,647 @@
+{
+"hist-ire1-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.0.b",
+"strength": "helpful",
+"why": "Act of Union",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s1.0.2",
+"strength": "helpful",
+"why": "Church of Ireland established church",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s2.4.3",
+"strength": "helpful",
+"why": "Irish Poor Law Act unions",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.3.2",
+"strength": "helpful",
+"why": "clearing middlemen after 1815",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s3.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.1.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.1.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.1.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.2.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.2.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.0.2",
+"strength": "helpful",
+"why": "French Wars price boom",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.1.2",
+"strength": "helpful",
+"why": "middlemen",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.3.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s3.3.2",
+"strength": "helpful",
+"why": "evictions that provoked violence",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s3.3.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s3.1.7",
+"strength": "helpful",
+"why": "insecurity of tenure",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.3.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.4.0",
+"strength": "helpful",
+"why": "the blight",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.4.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.4.5": {
+"cost": 2,
+"needs": []
+},
+"hist-ire1-s3.4.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.4.7": {
+"cost": 2,
+"needs": []
+},
+"hist-ire1-s3.4.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s3.2.0",
+"strength": "helpful",
+"why": "1841 population figure",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s2.0.4",
+"strength": "helpful",
+"why": "Peel and the Conservatives",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.5.0",
+"strength": "essential",
+"why": "the maize bought",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.5.2": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.5.4": {
+"cost": 2,
+"needs": []
+},
+"hist-ire1-s3.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.4.1",
+"strength": "helpful",
+"why": "partial failure of 1845",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s2.0.4",
+"strength": "helpful",
+"why": "Whigs and Russell",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.6.0",
+"strength": "essential",
+"why": "laissez-faire policy",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.5.3",
+"strength": "helpful",
+"why": "public works",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s3.6.2",
+"strength": "helpful",
+"why": "Labouchere Act public works",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.6.3",
+"strength": "helpful",
+"why": "the public works",
+"confidence": "low"
+}
+]
+},
+"hist-ire1-s3.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.0.3",
+"strength": "helpful",
+"why": "1838 Poor Law unions",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.6.5",
+"strength": "helpful",
+"why": "works closed, direct feeding",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.7.0",
+"strength": "essential",
+"why": "the soup kitchens",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s3.7.2",
+"strength": "helpful",
+"why": "relief passing to Poor Law",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.0.3",
+"strength": "essential",
+"why": "Poor Law system",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.7.2",
+"strength": "essential",
+"why": "Poor Law Extension Act",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s3.7.3",
+"strength": "essential",
+"why": "Gregory clause",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.7.2",
+"strength": "helpful",
+"why": "poor law paid by local rates",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.7.5",
+"strength": "essential",
+"why": "bankrupt western unions",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.7.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.8.0": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.5.0",
+"strength": "helpful",
+"why": "Peel maize",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s3.6.2",
+"strength": "helpful",
+"why": "public works",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s3.7.0",
+"strength": "helpful",
+"why": "soup kitchens",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.6.0",
+"strength": "essential",
+"why": "Whig policy of laissez-faire",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.6.0",
+"strength": "helpful",
+"why": "laissez-faire",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s3.7.1",
+"strength": "helpful",
+"why": "soup kitchens",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s3.7.2",
+"strength": "helpful",
+"why": "Irish property pays",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.8.6": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.8.7": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.8.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s3.8.2",
+"strength": "helpful",
+"why": "Trevelyan role in policy",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-ire1-s3.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.5.0",
+"strength": "helpful",
+"why": "Peel maize",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s3.5.2",
+"strength": "helpful",
+"why": "relief committees",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s3.5.3",
+"strength": "helpful",
+"why": "public works",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s3.7.1",
+"strength": "essential",
+"why": "soup kitchens",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s3.6.0",
+"strength": "essential",
+"why": "laissez-faire",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s3.6.3",
+"strength": "helpful",
+"why": "public works pay",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s3.7.2",
+"strength": "essential",
+"why": "Irish property must pay",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s3.7.5",
+"strength": "helpful",
+"why": "bankrupt unions",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-ire1-s3.7.3",
+"strength": "essential",
+"why": "Gregory clause",
+"confidence": "high"
+},
+{
+"id": "hist-ire1-s3.7.1",
+"strength": "helpful",
+"why": "relief cut back in 1847",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.9.5": {
+"cost": 2,
+"needs": []
+},
+"hist-ire1-s3.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-ire1-s2.8.2",
+"strength": "helpful",
+"why": "John Mitchel",
+"confidence": "high"
+}
+]
+},
+"hist-ire1-s3.9.7": {
+"cost": 2,
+"needs": []
+}
+}

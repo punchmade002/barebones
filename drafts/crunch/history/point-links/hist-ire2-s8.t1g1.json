@@ -1,0 +1,714 @@
+{
+ "hist-ire2-s8.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s2.1.0",
+    "strength": "helpful",
+    "why": "the 1877-79 agricultural depression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.2",
+    "strength": "helpful",
+    "why": "Danish butter competition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.0",
+    "strength": "helpful",
+    "why": "Plunkett as Unionist reformer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.3",
+    "strength": "essential",
+    "why": "the Danish co-operative creamery model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.2",
+    "strength": "helpful",
+    "why": "the co-operative creamery model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.0",
+    "strength": "helpful",
+    "why": "Plunkett's movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.4",
+    "strength": "helpful",
+    "why": "AE as supporter of Plunkett",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.0",
+    "strength": "helpful",
+    "why": "Plunkett as founder",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.0",
+    "strength": "essential",
+    "why": "the IAOS",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.2",
+    "strength": "helpful",
+    "why": "co-operative creamery model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.4",
+    "strength": "essential",
+    "why": "gombeen men",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.2.0",
+    "strength": "helpful",
+    "why": "IAOS-organised societies",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.0",
+    "strength": "helpful",
+    "why": "the IAOS movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.0",
+    "strength": "helpful",
+    "why": "the co-operative societies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.0",
+    "strength": "helpful",
+    "why": "Plunkett as chairman",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.3.0",
+    "strength": "essential",
+    "why": "the Recess Committee",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.0.3",
+    "strength": "helpful",
+    "why": "Danish methods studied",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s8.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.3.1",
+    "strength": "essential",
+    "why": "the recommendation for a department",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.3.2",
+    "strength": "essential",
+    "why": "DATI",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.3.2",
+    "strength": "essential",
+    "why": "his DATI vice-presidency",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.4.0",
+    "strength": "helpful",
+    "why": "Irish Party hostility",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.3.4",
+    "strength": "helpful",
+    "why": "losing the vice-presidency in 1907",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.5",
+    "strength": "helpful",
+    "why": "movement weakest in Ulster",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.1",
+    "strength": "essential",
+    "why": "his South Dublin seat lost in 1900",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.4.2",
+    "strength": "helpful",
+    "why": "his 1900 defeat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.2",
+    "strength": "helpful",
+    "why": "co-operative creameries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.2",
+    "strength": "helpful",
+    "why": "creamery results",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s2.6.2",
+    "strength": "helpful",
+    "why": "the Congested Districts Board",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.5.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s8.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.6.0",
+    "strength": "essential",
+    "why": "the linen industry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.7.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s8.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.7.0",
+    "strength": "essential",
+    "why": "the Harland and Wolff yard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.7.1",
+    "strength": "essential",
+    "why": "Pirrie",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.7.0",
+    "strength": "helpful",
+    "why": "Harland founded the yard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.7.0",
+    "strength": "helpful",
+    "why": "the rival Harland and Wolff yard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.7.0",
+    "strength": "essential",
+    "why": "Harland and Wolff",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.8.0",
+    "strength": "helpful",
+    "why": "Olympic and Titanic built",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.8.0",
+    "strength": "essential",
+    "why": "the Titanic as an Olympic-class liner",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.7.0",
+    "strength": "helpful",
+    "why": "Harland and Wolff",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.7.3",
+    "strength": "helpful",
+    "why": "the two yards",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s8.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.6.0",
+    "strength": "helpful",
+    "why": "the linen mills",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.9.0",
+    "strength": "helpful",
+    "why": "mill working conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.7.0",
+    "strength": "helpful",
+    "why": "shipyard work",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s8.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.7.0",
+    "strength": "helpful",
+    "why": "Harland and Wolff expulsions",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.7.3",
+    "strength": "helpful",
+    "why": "Workman Clark expulsions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.10.2",
+    "strength": "essential",
+    "why": "Protestant opposition to Home Rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.6.0",
+    "strength": "helpful",
+    "why": "linen",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.7.0",
+    "strength": "helpful",
+    "why": "shipbuilding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.11.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.9.3",
+    "strength": "helpful",
+    "why": "skilled Belfast shipyard men",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.10.2",
+    "strength": "helpful",
+    "why": "Belfast opposition to Home Rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.10.3",
+    "strength": "essential",
+    "why": "industry depending on British markets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.11.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.12.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.4.5",
+    "strength": "helpful",
+    "why": "co-operative results",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.5.0",
+    "strength": "helpful",
+    "why": "Belfast industrial growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.12.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.4.6",
+    "strength": "helpful",
+    "why": "poor west not reached",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.4.1",
+    "strength": "helpful",
+    "why": "slow Ulster uptake",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.9.0",
+    "strength": "helpful",
+    "why": "harsh mill conditions",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.9.4",
+    "strength": "helpful",
+    "why": "sectarian divisions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.4.0",
+    "strength": "helpful",
+    "why": "nationalist suspicion of Plunkett",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.10.3",
+    "strength": "helpful",
+    "why": "Belfast prosperity tied to the Union",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s2.9.0",
+    "strength": "helpful",
+    "why": "land reform achievements",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.4.5",
+    "strength": "helpful",
+    "why": "co-operative results",
+    "confidence": "low"
+   }
+  ]
+ }
+}

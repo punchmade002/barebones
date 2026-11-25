@@ -1,0 +1,1149 @@
+{
+ "hist-eur5-s5.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.1.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur5-s5.1.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur5-s5.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.2",
+    "strength": "helpful",
+    "why": "indirect rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.3",
+    "strength": "helpful",
+    "why": "federation defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.2.3",
+    "strength": "essential",
+    "why": "uses the three regions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.2.1",
+    "strength": "helpful",
+    "why": "ethnic groups behind parties",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.2.3",
+    "strength": "helpful",
+    "why": "regional bases",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.2.3",
+    "strength": "helpful",
+    "why": "Eastern Region",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.2.5",
+    "strength": "essential",
+    "why": "uses the NPC and NCNC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.1",
+    "strength": "helpful",
+    "why": "Commonwealth defined",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.3.0",
+    "strength": "helpful",
+    "why": "Balewa as prime minister",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.3.1",
+    "strength": "essential",
+    "why": "uses independence and Queen as head",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.2.3",
+    "strength": "helpful",
+    "why": "regions of Nigeria",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.2.4",
+    "strength": "helpful",
+    "why": "regional parties and tension",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.3.0",
+    "strength": "essential",
+    "why": "uses Balewa",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.2.1",
+    "strength": "helpful",
+    "why": "uses the Igbo",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.4.0",
+    "strength": "helpful",
+    "why": "follows the January coup",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.2.1",
+    "strength": "helpful",
+    "why": "uses the Igbo",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.4.2",
+    "strength": "helpful",
+    "why": "crisis being settled",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.2.3",
+    "strength": "essential",
+    "why": "uses the Eastern Region",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.2.6",
+    "strength": "helpful",
+    "why": "oil in the east",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.4.4",
+    "strength": "essential",
+    "why": "follows the twelve states decree",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.1.4",
+    "strength": "helpful",
+    "why": "secession defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.4.5",
+    "strength": "essential",
+    "why": "uses the Biafran secession",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.4.5",
+    "strength": "essential",
+    "why": "uses Biafra",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.0.4",
+    "strength": "helpful",
+    "why": "Soviet and Western rivalry",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.5.0",
+    "strength": "helpful",
+    "why": "uses the Biafran famine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.5.0",
+    "strength": "essential",
+    "why": "uses the end of the war",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur5-s5.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.6.0",
+    "strength": "helpful",
+    "why": "follows Leopold's rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.5",
+    "strength": "helpful",
+    "why": "uses the Force Publique",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.6.5",
+    "strength": "helpful",
+    "why": "follows promise of independence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.6.4",
+    "strength": "helpful",
+    "why": "uses Lumumba and the MNC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.7.0",
+    "strength": "helpful",
+    "why": "uses Baudouin and Lumumba",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.5",
+    "strength": "helpful",
+    "why": "uses the Force Publique",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.4",
+    "strength": "helpful",
+    "why": "secession defined",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.6.2",
+    "strength": "helpful",
+    "why": "uses Katanga's mines",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.5",
+    "strength": "helpful",
+    "why": "ONUC defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.7.0",
+    "strength": "essential",
+    "why": "uses Kasa-Vubu and Lumumba",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.7.5",
+    "strength": "essential",
+    "why": "uses the dismissal of Lumumba",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.0.4",
+    "strength": "helpful",
+    "why": "Soviet help in the Cold War",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.7.6",
+    "strength": "essential",
+    "why": "follows Lumumba's capture",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.7.3",
+    "strength": "helpful",
+    "why": "uses Katanga",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.7.5",
+    "strength": "helpful",
+    "why": "uses first power seizure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.7.5",
+    "strength": "essential",
+    "why": "uses the first coup",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.8.0",
+    "strength": "helpful",
+    "why": "Mobutu in power",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.6",
+    "strength": "helpful",
+    "why": "Zairianisation defined",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.8.1",
+    "strength": "helpful",
+    "why": "uses Zaire under Mobutu",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.8.0",
+    "strength": "helpful",
+    "why": "uses Mobutu's regime",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.8.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.0.4",
+    "strength": "helpful",
+    "why": "Cold War anti-communism",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.7.3",
+    "strength": "helpful",
+    "why": "Katangan exiles",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.8.3",
+    "strength": "essential",
+    "why": "uses the one-party state",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.9.1",
+    "strength": "essential",
+    "why": "uses Nyerere and TANU",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.9.3",
+    "strength": "essential",
+    "why": "uses Zanzibar after the revolution",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.9.2",
+    "strength": "helpful",
+    "why": "uses Tanganyika's independence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.9.2",
+    "strength": "helpful",
+    "why": "uses Nyerere as leader",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.10.0",
+    "strength": "helpful",
+    "why": "uses Tanzania's many groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.1",
+    "strength": "essential",
+    "why": "Commonwealth defined",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.10.2",
+    "strength": "helpful",
+    "why": "uses the break with Britain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.5",
+    "strength": "helpful",
+    "why": "Estado Novo defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.11.0",
+    "strength": "helpful",
+    "why": "Portuguese refusal behind the war",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.11.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.11.0",
+    "strength": "helpful",
+    "why": "uses the Portuguese regime",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.11.b",
+    "strength": "helpful",
+    "why": "names the three movements",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.11.2",
+    "strength": "essential",
+    "why": "uses the MPLA",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.12.0",
+    "strength": "helpful",
+    "why": "follows the Alvor settlement",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.12.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.11.b",
+    "strength": "helpful",
+    "why": "uses the three movements",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.0.4",
+    "strength": "helpful",
+    "why": "Cold War backers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.11.5",
+    "strength": "helpful",
+    "why": "Portugal's withdrawal",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.12.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.13.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.3.2",
+    "strength": "essential",
+    "why": "uses the 1963 republic",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.5.3",
+    "strength": "helpful",
+    "why": "arms in the Biafran War",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.2.6",
+    "strength": "helpful",
+    "why": "uses Shell-BP oil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.6.2",
+    "strength": "essential",
+    "why": "uses the Union Mini\u00e8re",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.7.3",
+    "strength": "helpful",
+    "why": "uses Katanga's secession",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.8.4",
+    "strength": "helpful",
+    "why": "Belgian support for Mobutu",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.6.2",
+    "strength": "essential",
+    "why": "uses the Union Mini\u00e8re",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.8.0",
+    "strength": "helpful",
+    "why": "uses Mobutu in power",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.11.5",
+    "strength": "helpful",
+    "why": "Portugal's exit in 1974",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.12.3",
+    "strength": "helpful",
+    "why": "few skilled people left",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.10.2",
+    "strength": "essential",
+    "why": "uses the Rhodesia break",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.10.3",
+    "strength": "helpful",
+    "why": "uses Commonwealth membership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s4.2.2",
+    "strength": "helpful",
+    "why": "uses co-operation accords",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.14.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.14.0",
+    "strength": "helpful",
+    "why": "uses colonial ethnic policy",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.1.0",
+    "strength": "helpful",
+    "why": "tribalism defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.2.5",
+    "strength": "essential",
+    "why": "uses the three main parties",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.4.0",
+    "strength": "helpful",
+    "why": "uses the 1966 coups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.14.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.6.4",
+    "strength": "helpful",
+    "why": "uses Lumumba and the MNC",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.7.0",
+    "strength": "helpful",
+    "why": "uses Kasa-Vubu",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.7.3",
+    "strength": "helpful",
+    "why": "uses Tshombe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.7.3",
+    "strength": "essential",
+    "why": "uses Katanga's secession",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.10.1",
+    "strength": "essential",
+    "why": "uses Swahili and national identity",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.14.1",
+    "strength": "helpful",
+    "why": "contrast with Nigeria",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur5-s5.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.10.1",
+    "strength": "helpful",
+    "why": "uses Nyerere's national unity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.6.3",
+    "strength": "essential",
+    "why": "uses lack of trained Congolese",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.7.2",
+    "strength": "helpful",
+    "why": "uses the mutiny",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.7.3",
+    "strength": "helpful",
+    "why": "uses Katanga's secession",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.5.5",
+    "strength": "helpful",
+    "why": "uses the end of the Biafran War",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.2.6",
+    "strength": "helpful",
+    "why": "uses Nigeria's oil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.4.0",
+    "strength": "helpful",
+    "why": "uses the 1966 coups",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.4.5",
+    "strength": "helpful",
+    "why": "uses Biafra's secession",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.15.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.12.2",
+    "strength": "essential",
+    "why": "uses the Angolan civil war",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.11.b",
+    "strength": "helpful",
+    "why": "uses the three movements",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.15.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s5.15.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.0.1",
+    "strength": "helpful",
+    "why": "uses colonial borders",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.0.4",
+    "strength": "helpful",
+    "why": "uses the Cold War",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.14.0",
+    "strength": "helpful",
+    "why": "uses colonial ethnic policies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s5.15.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s5.15.0",
+    "strength": "helpful",
+    "why": "uses Tanzania example",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.15.1",
+    "strength": "helpful",
+    "why": "uses the Congo crisis",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.15.3",
+    "strength": "helpful",
+    "why": "uses Nigeria's war",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s5.15.4",
+    "strength": "helpful",
+    "why": "uses Angola's war",
+    "confidence": "high"
+   }
+  ]
+ }
+}

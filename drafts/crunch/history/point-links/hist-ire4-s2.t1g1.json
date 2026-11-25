@@ -1,0 +1,694 @@
+{
+ "hist-ire4-s2.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.2.b",
+    "strength": "helpful",
+    "why": "the Famine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.0.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.2.4",
+    "strength": "helpful",
+    "why": "population of 6.5 million in 1851",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.1.4",
+    "strength": "helpful",
+    "why": "subdivision of holdings",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.1.0",
+    "strength": "helpful",
+    "why": "inheritance delaying marriage",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.1.4",
+    "strength": "helpful",
+    "why": "evictions and depression of 1879",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.2.1",
+    "strength": "helpful",
+    "why": "liners and steerage",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.2.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.5.0",
+    "strength": "helpful",
+    "why": "pre-paid passages",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.5.0",
+    "strength": "essential",
+    "why": "pre-paid passages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.1.0",
+    "strength": "helpful",
+    "why": "seasonal migration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.3.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.5.0",
+    "strength": "helpful",
+    "why": "pre-paid tickets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.4.0",
+    "strength": "helpful",
+    "why": "remittances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.4.0",
+    "strength": "helpful",
+    "why": "remittances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.4.0",
+    "strength": "helpful",
+    "why": "remittances",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire4-s2.1.0",
+    "strength": "helpful",
+    "why": "dowries",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.5.2",
+    "strength": "essential",
+    "why": "chain-emigration defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.5.b": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire4-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.5.0",
+    "strength": "helpful",
+    "why": "the earlier quota act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.5.1",
+    "strength": "essential",
+    "why": "the 1924 Act quotas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.5.1",
+    "strength": "helpful",
+    "why": "the US quotas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.5.3",
+    "strength": "helpful",
+    "why": "Britain as main destination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.6.0",
+    "strength": "helpful",
+    "why": "the Emergency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.6.2",
+    "strength": "helpful",
+    "why": "Ireland Act and UK status",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.6.3",
+    "strength": "helpful",
+    "why": "free movement into Britain",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.5.1",
+    "strength": "helpful",
+    "why": "earlier national-origins quotas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.8.0",
+    "strength": "helpful",
+    "why": "the Commission of 1948-54",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.8.0",
+    "strength": "helpful",
+    "why": "the Commission's report",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.8.3",
+    "strength": "helpful",
+    "why": "1950s emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.8.3",
+    "strength": "helpful",
+    "why": "1950s emigration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.8.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.8.3",
+    "strength": "helpful",
+    "why": "1950s emigration crisis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.7.0",
+    "strength": "helpful",
+    "why": "navvy work in Britain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.7.0",
+    "strength": "helpful",
+    "why": "navvy work",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.3.3",
+    "strength": "helpful",
+    "why": "Irish in Democratic politics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.6.3",
+    "strength": "helpful",
+    "why": "Common Travel Area",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.7.0",
+    "strength": "helpful",
+    "why": "navvy life",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire4-s2.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.7.0",
+    "strength": "helpful",
+    "why": "navvy work",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.11.1",
+    "strength": "helpful",
+    "why": "his navvy years",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.11.2",
+    "strength": "helpful",
+    "why": "the diary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.11.2",
+    "strength": "helpful",
+    "why": "the diary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.11.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.11.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.11.2",
+    "strength": "essential",
+    "why": "the diary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.11.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.11.2",
+    "strength": "essential",
+    "why": "the diary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire4-s2.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.4.3",
+    "strength": "helpful",
+    "why": "remittances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.11.2",
+    "strength": "helpful",
+    "why": "Mac Amhlaigh's diary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.5.3",
+    "strength": "essential",
+    "why": "quotas redirected emigration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.12.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.10.0",
+    "strength": "helpful",
+    "why": "assimilation in the USA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire4-s2.8.5",
+    "strength": "helpful",
+    "why": "The Vanishing Irish",
+    "confidence": "low"
+   },
+   {
+    "id": "hist-ire4-s2.8.1",
+    "strength": "helpful",
+    "why": "the 1954 Commission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire4-s2.12.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire4-s1.11.3",
+    "strength": "helpful",
+    "why": "Kerby Miller's exile thesis",
+    "confidence": "high"
+   }
+  ]
+ }
+}

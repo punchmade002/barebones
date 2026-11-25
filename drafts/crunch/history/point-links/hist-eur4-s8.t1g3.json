@@ -1,0 +1,409 @@
+{
+"hist-eur4-s8.0.b": {
+"needs": []
+},
+"hist-eur4-s8.0.0": {
+"needs": []
+},
+"hist-eur4-s8.0.1": {
+"needs": []
+},
+"hist-eur4-s8.0.2": {
+"needs": [
+{
+"id": "hist-eur4-s4.0.1",
+"strength": "helpful",
+"why": "satellite states of the bloc",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.0.3": {
+"needs": []
+},
+"hist-eur4-s8.0.4": {
+"needs": [
+{
+"id": "hist-eur4-s4.0.3",
+"strength": "helpful",
+"why": "order of Soviet leaders",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.1.b": {
+"needs": []
+},
+"hist-eur4-s8.1.0": {
+"needs": []
+},
+"hist-eur4-s8.1.1": {
+"needs": []
+},
+"hist-eur4-s8.1.2": {
+"needs": []
+},
+"hist-eur4-s8.1.3": {
+"needs": []
+},
+"hist-eur4-s8.1.4": {
+"needs": []
+},
+"hist-eur4-s8.2.b": {
+"needs": [
+{
+"id": "hist-eur4-s4.0.1",
+"strength": "helpful",
+"why": "satellite states under Moscow",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.2.0": {
+"needs": []
+},
+"hist-eur4-s8.2.1": {
+"needs": []
+},
+"hist-eur4-s8.2.2": {
+"needs": [
+{
+"id": "hist-eur4-s4.1.5",
+"strength": "helpful",
+"why": "Poland's private farms after 1956",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s8.2.3": {
+"needs": [
+{
+"id": "hist-eur4-s4.0.2",
+"strength": "helpful",
+"why": "Comecon as Soviet bloc alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.2.4": {
+"needs": []
+},
+"hist-eur4-s8.2.5": {
+"needs": []
+},
+"hist-eur4-s8.2.6": {
+"needs": []
+},
+"hist-eur4-s8.3.b": {
+"needs": []
+},
+"hist-eur4-s8.3.0": {
+"needs": []
+},
+"hist-eur4-s8.3.1": {
+"needs": []
+},
+"hist-eur4-s8.3.2": {
+"needs": []
+},
+"hist-eur4-s8.3.3": {
+"needs": []
+},
+"hist-eur4-s8.3.4": {
+"needs": []
+},
+"hist-eur4-s8.4.b": {
+"needs": []
+},
+"hist-eur4-s8.4.0": {
+"needs": []
+},
+"hist-eur4-s8.4.1": {
+"needs": []
+},
+"hist-eur4-s8.4.2": {
+"needs": []
+},
+"hist-eur4-s8.4.3": {
+"needs": [
+{
+"id": "hist-eur4-s4.0.7",
+"strength": "helpful",
+"why": "arms race, SDI and Afghanistan",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s8.5.b": {
+"needs": []
+},
+"hist-eur4-s8.5.0": {
+"needs": []
+},
+"hist-eur4-s8.5.1": {
+"needs": []
+},
+"hist-eur4-s8.5.2": {
+"needs": []
+},
+"hist-eur4-s8.5.3": {
+"needs": [
+{
+"id": "hist-eur4-s4.2.6",
+"strength": "helpful",
+"why": "1968 invasion of Czechoslovakia",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.6.b": {
+"needs": []
+},
+"hist-eur4-s8.6.0": {
+"needs": [
+{
+"id": "hist-eur4-s4.2.6",
+"strength": "helpful",
+"why": "Warsaw Pact invasion of 1968",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.2.2",
+"strength": "helpful",
+"why": "Dubcek's market-based reform plans",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s8.6.1": {
+"needs": []
+},
+"hist-eur4-s8.6.2": {
+"needs": [
+{
+"id": "hist-eur4-s4.0.4",
+"strength": "helpful",
+"why": "Hungary 1956 brought Kadar to power",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s8.6.3": {
+"needs": []
+},
+"hist-eur4-s8.6.4": {
+"needs": [
+{
+"id": "hist-eur4-s4.0.2",
+"strength": "helpful",
+"why": "Comecon",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.6.5": {
+"needs": []
+},
+"hist-eur4-s8.7.b": {
+"needs": []
+},
+"hist-eur4-s8.7.0": {
+"needs": [
+{
+"id": "hist-eur4-s4.2.6",
+"strength": "helpful",
+"why": "1968 invasion of Czechoslovakia",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.7.1": {
+"needs": []
+},
+"hist-eur4-s8.7.2": {
+"needs": []
+},
+"hist-eur4-s8.7.3": {
+"needs": []
+},
+"hist-eur4-s8.7.4": {
+"needs": [
+{
+"id": "hist-eur4-s4.0.7",
+"strength": "helpful",
+"why": "Afghanistan invasion December 1979",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.7.5": {
+"needs": []
+},
+"hist-eur4-s8.7.6": {
+"needs": []
+},
+"hist-eur4-s8.8.b": {
+"needs": []
+},
+"hist-eur4-s8.8.0": {
+"needs": [
+{
+"id": "hist-eur4-s4.1.3",
+"strength": "helpful",
+"why": "who Gomulka was",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s8.8.1": {
+"needs": []
+},
+"hist-eur4-s8.8.2": {
+"needs": []
+},
+"hist-eur4-s8.8.3": {
+"needs": []
+},
+"hist-eur4-s8.8.4": {
+"needs": []
+},
+"hist-eur4-s8.8.5": {
+"needs": []
+},
+"hist-eur4-s8.8.6": {
+"needs": [
+{
+"id": "hist-eur4-s4.6.6",
+"strength": "helpful",
+"why": "Round Table talks of 1989",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.9.b": {
+"needs": []
+},
+"hist-eur4-s8.9.0": {
+"needs": [
+{
+"id": "hist-eur4-s4.8.5",
+"strength": "helpful",
+"why": "perestroika",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.9.1": {
+"needs": [
+{
+"id": "hist-eur4-s4.8.5",
+"strength": "helpful",
+"why": "Law on State Enterprise",
+"confidence": "high"
+},
+{
+"id": "hist-eur4-s4.8.6",
+"strength": "helpful",
+"why": "Law on Cooperatives",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.9.2": {
+"needs": []
+},
+"hist-eur4-s8.9.3": {
+"needs": []
+},
+"hist-eur4-s8.10.b": {
+"needs": []
+},
+"hist-eur4-s8.10.0": {
+"needs": []
+},
+"hist-eur4-s8.10.1": {
+"needs": []
+},
+"hist-eur4-s8.10.2": {
+"needs": [
+{
+"id": "hist-eur4-s4.18.2",
+"strength": "helpful",
+"why": "1990 monetary, economic and social union",
+"confidence": "high"
+}
+]
+},
+"hist-eur4-s8.10.3": {
+"needs": []
+},
+"hist-eur4-s8.10.4": {
+"needs": []
+},
+"hist-eur4-s8.11.b": {
+"needs": []
+},
+"hist-eur4-s8.11.0": {
+"needs": []
+},
+"hist-eur4-s8.11.1": {
+"needs": [
+{
+"id": "hist-eur4-s4.2.2",
+"strength": "helpful",
+"why": "Sik's market reform in 1968",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s8.11.2": {
+"needs": [
+{
+"id": "hist-eur4-s4.1.1",
+"strength": "helpful",
+"why": "emigration ended by Berlin Wall",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s8.11.3": {
+"needs": [
+{
+"id": "hist-eur4-s4.13.6",
+"strength": "helpful",
+"why": "Ceausescu's fall",
+"confidence": "low"
+}
+]
+},
+"hist-eur4-s8.11.4": {
+"needs": []
+},
+"hist-eur4-s8.11.5": {
+"needs": []
+},
+"hist-eur4-s8.12.b": {
+"needs": []
+},
+"hist-eur4-s8.12.0": {
+"needs": []
+},
+"hist-eur4-s8.12.1": {
+"needs": []
+},
+"hist-eur4-s8.12.2": {
+"needs": []
+},
+"hist-eur4-s8.12.3": {
+"needs": []
+},
+"hist-eur4-s8.12.4": {
+"needs": []
+},
+"hist-eur4-s8.12.5": {
+"needs": []
+},
+"hist-eur4-s8.12.6": {
+"needs": []
+}
+}

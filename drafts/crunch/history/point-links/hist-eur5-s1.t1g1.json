@@ -1,0 +1,1060 @@
+{
+ "hist-eur5-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.1.0",
+    "strength": "helpful",
+    "why": "colonial rule definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.5.2",
+    "strength": "helpful",
+    "why": "1942 dominion offer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.1.2",
+    "strength": "essential",
+    "why": "Commonwealth and dominions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.2.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur5-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.2.1",
+    "strength": "helpful",
+    "why": "fall of Singapore",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.2.1",
+    "strength": "helpful",
+    "why": "prisoners taken at Singapore",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.3.1",
+    "strength": "essential",
+    "why": "the INA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.3.2",
+    "strength": "essential",
+    "why": "the Red Fort trials",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.3.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur5-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.1.4",
+    "strength": "helpful",
+    "why": "satyagraha defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.4.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur5-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.4.1",
+    "strength": "helpful",
+    "why": "civil disobedience method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.4.1",
+    "strength": "helpful",
+    "why": "satyagraha",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.4.4",
+    "strength": "essential",
+    "why": "the Salt March",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.0.3",
+    "strength": "helpful",
+    "why": "1935 Act reforms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.5.0",
+    "strength": "helpful",
+    "why": "Congress ministries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.1.2",
+    "strength": "helpful",
+    "why": "dominion status",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.5.2",
+    "strength": "helpful",
+    "why": "Cripps failure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.5.3",
+    "strength": "essential",
+    "why": "Quit India resolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.0.2",
+    "strength": "helpful",
+    "why": "Congress",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.5.1",
+    "strength": "essential",
+    "why": "Congress ministries resigning",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s1.6.1",
+    "strength": "helpful",
+    "why": "Jinnah",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.6.3",
+    "strength": "helpful",
+    "why": "League claims",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.6.1",
+    "strength": "helpful",
+    "why": "Jinnah",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.6.1",
+    "strength": "helpful",
+    "why": "Jinnah",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.6.0",
+    "strength": "helpful",
+    "why": "the League",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.7.2",
+    "strength": "essential",
+    "why": "Punjab and Bengal mixed populations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.8.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur5-s1.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.1.4",
+    "strength": "helpful",
+    "why": "Cabinet Mission term",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.9.0",
+    "strength": "essential",
+    "why": "the Cabinet Mission plan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.6.0",
+    "strength": "helpful",
+    "why": "the League",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.9.2",
+    "strength": "helpful",
+    "why": "earlier communal violence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.8.0",
+    "strength": "helpful",
+    "why": "Attlee",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s1.7.0",
+    "strength": "helpful",
+    "why": "Viceroy Wavell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.10.0",
+    "strength": "helpful",
+    "why": "Mountbatten replacing Wavell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.10.1",
+    "strength": "helpful",
+    "why": "Mountbatten",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.7.2",
+    "strength": "helpful",
+    "why": "Punjab and Bengal division",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.10.3",
+    "strength": "essential",
+    "why": "the 3 June plan",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s1.10.0",
+    "strength": "essential",
+    "why": "June 1948 deadline",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.10.4",
+    "strength": "helpful",
+    "why": "independence date",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.11.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur5-s1.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.7.2",
+    "strength": "helpful",
+    "why": "Punjab and Bengal boundary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.11.3",
+    "strength": "essential",
+    "why": "Radcliffe boundary",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.11.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.12.1",
+    "strength": "helpful",
+    "why": "Punjab violence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.0.1",
+    "strength": "essential",
+    "why": "princely states",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.12.3",
+    "strength": "helpful",
+    "why": "Hyderabad case",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.12.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.12.3",
+    "strength": "helpful",
+    "why": "Kashmir princely state",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.12.5",
+    "strength": "essential",
+    "why": "Kashmir war",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.1.2",
+    "strength": "helpful",
+    "why": "Commonwealth membership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.13.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.13.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.0.0",
+    "strength": "helpful",
+    "why": "the Raj",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.1.2",
+    "strength": "helpful",
+    "why": "Commonwealth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.14.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.13.3",
+    "strength": "essential",
+    "why": "London Declaration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.12.5",
+    "strength": "helpful",
+    "why": "Kashmir dispute",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.15.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.4.3",
+    "strength": "helpful",
+    "why": "non-cooperation",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s1.5.3",
+    "strength": "helpful",
+    "why": "Quit India",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.15.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.8.2",
+    "strength": "essential",
+    "why": "sterling balances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.15.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.8.0",
+    "strength": "helpful",
+    "why": "Labour 1945 government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.15.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.3.3",
+    "strength": "helpful",
+    "why": "INA trials",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s1.8.3",
+    "strength": "helpful",
+    "why": "1946 naval mutiny",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.15.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.9.2",
+    "strength": "helpful",
+    "why": "Calcutta violence",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s1.10.2",
+    "strength": "essential",
+    "why": "Mountbatten fearing civil war",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.9.1",
+    "strength": "helpful",
+    "why": "Cabinet Mission failure",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s1.9.4",
+    "strength": "helpful",
+    "why": "interim government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.9.2",
+    "strength": "essential",
+    "why": "Direct Action Day",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.12.3",
+    "strength": "essential",
+    "why": "princely states",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.16.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.10.4",
+    "strength": "helpful",
+    "why": "date brought forward",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.11.3",
+    "strength": "essential",
+    "why": "Radcliffe boundary work",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.17.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur5-s1.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.1.4",
+    "strength": "helpful",
+    "why": "satyagraha",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.17.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.17.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur5-s1.17.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.17.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.17.4",
+    "strength": "helpful",
+    "why": "separate electorates dispute",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.17.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.5.4",
+    "strength": "helpful",
+    "why": "1942 imprisonment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.17.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.9.3",
+    "strength": "helpful",
+    "why": "Noakhali violence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.18.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.18.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.6.5",
+    "strength": "helpful",
+    "why": "Jinnah two-nation view",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.18.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.17.5",
+    "strength": "essential",
+    "why": "separate electorates clash",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.18.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.18.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.15.b",
+    "strength": "helpful",
+    "why": "explanations of withdrawal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.18.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.19.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.4.4",
+    "strength": "essential",
+    "why": "the Salt March",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.19.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.19.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.5.3",
+    "strength": "essential",
+    "why": "Quit India",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.10.4",
+    "strength": "helpful",
+    "why": "June 1947 partition plan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.19.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur5-s1.19.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.11.3",
+    "strength": "helpful",
+    "why": "boundary settlement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.19.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.9.2",
+    "strength": "essential",
+    "why": "Direct Action Day",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur5-s1.19.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur5-s1.18.1",
+    "strength": "helpful",
+    "why": "Jinnah criticism",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s1.18.2",
+    "strength": "helpful",
+    "why": "Ambedkar criticism",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur5-s1.16.3",
+    "strength": "helpful",
+    "why": "Mountbatten haste",
+    "confidence": "high"
+   }
+  ]
+ }
+}

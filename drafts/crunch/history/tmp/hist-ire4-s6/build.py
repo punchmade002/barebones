@@ -1,0 +1,52 @@
+import json,re
+P='hist-ire4-s6'
+def n(i,s,w,c='high'): return {"id":i,"strength":s,"why":w,"confidence":c}
+d={}
+def a(k,cost,*needs): d[f"{P}.{k}"]={"cost":cost,"needs":list(needs)}
+a('0.b',1); a('0.0',1)
+a('0.1',1,n('hist-ire4-s3.0.b','helpful','uses discrimination against Irish Catholics'))
+a('0.2',1); a('0.3',1); a('0.4',1)
+a('1.b',1); a('1.0',1); a('1.1',1); a('1.2',1); a('1.3',1); a('1.4',1); a('1.5',1)
+a('2.b',1); a('2.0',1); a('2.1',2); a('2.2',1)
+a('2.3',1,n(P+'.2.2','helpful','uses Catholic fraternal societies'))
+a('2.4',1,n(P+'.2.2','helpful','uses Catholic fraternal societies'))
+a('3.b',1); a('3.0',1); a('3.1',1); a('3.2',1); a('3.3',1); a('3.4',1); a('3.5',1); a('3.6',2); a('3.7',1)
+a('4.b',1,n(P+'.8.b','helpful','uses the Orange Order'))
+a('4.0',1); a('4.1',1); a('4.2',1); a('4.3',1)
+a('4.4',1,n(P+'.8.b','essential','uses Orange Order rivalry'))
+a('5.b',1); a('5.0',1); a('5.1',1); a('5.2',2); a('5.3',1)
+a('5.4',1,n(P+'.5.3','helpful','uses his support for Irish independence'))
+a('5.5',1,n(P+'.8.b','helpful','uses the Orange Order'))
+a('5.6',1)
+a('5.7',1,n(P+'.5.2','helpful','uses his conscription stand'))
+a('5.8',2)
+a('6.b',1); a('6.0',1); a('6.1',1); a('6.2',1); a('6.3',1); a('6.4',1); a('6.5',1); a('6.6',1)
+a('7.b',1); a('7.0',1)
+a('7.1',1,n(P+'.7.0','helpful','uses Ulster Presbyterian settlers'))
+a('7.2',1); a('7.3',1); a('7.4',1)
+a('7.5',1,n(P+'.0.2','helpful','uses assimilation'))
+a('7.6',1,n(P+'.7.4','helpful','uses Ulster-Scots loyalty identity'))
+a('8.b',1); a('8.0',1)
+a('8.1',1,n(P+'.8.0','helpful','uses the Orange Order lodges'))
+a('8.2',1,n(P+'.8.1','helpful','uses Orange Order in Canada','low'))
+a('8.3',1); a('8.4',1); a('8.5',1); a('8.6',1)
+a('8.7',1,n(P+'.8.4','helpful','uses Orange parades'))
+a('9.b',1); a('9.0',1); a('9.1',1); a('9.2',1)
+a('9.3',1,n(P+'.0.2','helpful','uses assimilation'))
+a('9.4',1,n(P+'.8.b','helpful','uses Orange Order rivalry'))
+a('9.5',1,n(P+'.0.2','helpful','uses assimilation'))
+a('10.b',1); a('10.0',2)
+a('10.1',1,n(P+'.0.2','helpful','uses assimilation'))
+a('10.2',1); a('10.3',2)
+a('10.4',1,n(P+'.8.b','helpful','uses the Orange Order'))
+a('10.5',1,n(P+'.8.b','helpful','uses Orange Order rivalry'))
+base='/Users/gabrielwhelan/barebones/.claude/worktrees/history-crunch/drafts/crunch/history/'
+t=open(base+f'packs/{P}.t1g1.txt').read()
+tgt=t.split('CANDIDATES')[0]
+ids=re.findall(r'^\[([^\]]+)\]',tgt,re.M)
+allids=set(re.findall(r'^\[([^\]]+)\]',t,re.M))
+assert ids==list(d), (set(ids)^set(d))
+for v in d.values():
+    for x in v['needs']: assert x['id'] in allids
+json.dump(d,open(base+f'point-links/{P}.t1g1.json','w'),indent=0)
+print(len(d),sum(len(v['needs']) for v in d.values()),sum(v['cost']==2 for v in d.values()),sum(x['confidence']=='low' for v in d.values() for x in v['needs']))

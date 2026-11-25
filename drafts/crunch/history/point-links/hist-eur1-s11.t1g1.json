@@ -1,0 +1,1102 @@
+{
+"hist-eur1-s11.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.0.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.0.0",
+"strength": "helpful",
+"why": "classical rules rejected",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.3.2",
+"strength": "helpful",
+"why": "Wagner in 1849 rising",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.5.1",
+"strength": "helpful",
+"why": "ignoring national feeling in settlement",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.1.0",
+"strength": "helpful",
+"why": "peoples divided without states",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.1.1",
+"strength": "helpful",
+"why": "stateless nations using culture",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.1.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.1.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.2.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.15.3",
+"strength": "helpful",
+"why": "Polish November Uprising crushed",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.2.0",
+"strength": "essential",
+"why": "Chopin exile in Paris",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.2.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s11.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.5.0",
+"strength": "helpful",
+"why": "divided, Austrian-ruled Italy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.2.3",
+"strength": "helpful",
+"why": "Verdi as patriotic symbol",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.2.4",
+"strength": "helpful",
+"why": "Verdi as patriotic figure",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.3.0",
+"strength": "helpful",
+"why": "Wagner using German myth",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.0.4",
+"strength": "helpful",
+"why": "Romantics revolutionary or conservative",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.3.3",
+"strength": "helpful",
+"why": "Smetana and Czech culture",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.3.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.15.0",
+"strength": "helpful",
+"why": "July Revolution of 1830",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.4.0",
+"strength": "essential",
+"why": "the painting Liberty Leading the People",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.14.0",
+"strength": "helpful",
+"why": "Greek rising",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.4.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.4.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.0.2",
+"strength": "helpful",
+"why": "folklore collection",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.5.0",
+"strength": "helpful",
+"why": "Grimm brothers",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.4.0",
+"strength": "helpful",
+"why": "Austrian rule in Lombardy",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.5.2",
+"strength": "essential",
+"why": "Manzoni and The Betrothed",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.4.3",
+"strength": "helpful",
+"why": "Poland partitioned, no state",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.5.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.18.0",
+"strength": "helpful",
+"why": "1848 revolutions",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.1.4",
+"strength": "helpful",
+"why": "language as mark of nationality",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.6.0",
+"strength": "helpful",
+"why": "dictionaries building national languages",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.5.3",
+"strength": "essential",
+"why": "revised Betrothed",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.7.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.0.3",
+"strength": "helpful",
+"why": "Cromwell preface",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.7.1",
+"strength": "essential",
+"why": "Hernani",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.7.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s11.7.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s11.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.7.2",
+"strength": "helpful",
+"why": "battle of Hernani",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.7.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.7.5",
+"strength": "essential",
+"why": "Les Miserables",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.8.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s11.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.8.0",
+"strength": "essential",
+"why": "Church restored after Revolution",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.3.0",
+"strength": "helpful",
+"why": "restored Bourbons",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.8.0",
+"strength": "helpful",
+"why": "Church linked to monarchy",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.8.2",
+"strength": "essential",
+"why": "liberal Catholic ideas condemned",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.8.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.8.4",
+"strength": "essential",
+"why": "the Society of St Vincent de Paul",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.18.0",
+"strength": "helpful",
+"why": "1848 revolutions",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.5.0",
+"strength": "helpful",
+"why": "Papal States in Italy",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.9.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.9.1",
+"strength": "helpful",
+"why": "Pius IX and Rome",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.9.3",
+"strength": "essential",
+"why": "Syllabus and ultramontanism",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.10.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.10.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.10.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.10.1",
+"strength": "helpful",
+"why": "industrial towns",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.10.0",
+"strength": "essential",
+"why": "Church of England",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.10.3",
+"strength": "essential",
+"why": "Newman and Oxford Movement",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.10.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.10.0",
+"strength": "helpful",
+"why": "Catholic minority in England",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.10.1",
+"strength": "helpful",
+"why": "industrial society problems",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.11.0",
+"strength": "essential",
+"why": "Christian Socialists",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.11.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.11.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.11.4": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.11.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.12.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.12.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.12.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.8.0",
+"strength": "helpful",
+"why": "French Church and anticlericals",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s11.10.0",
+"strength": "helpful",
+"why": "British denominations",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.12.0",
+"strength": "helpful",
+"why": "working class absent from churches",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.13.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.13.0",
+"strength": "essential",
+"why": "Faraday electromagnetic rotation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.13.1",
+"strength": "helpful",
+"why": "Faraday",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.13.1",
+"strength": "helpful",
+"why": "Faraday electromagnetic induction",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.13.1",
+"strength": "helpful",
+"why": "induction basis of generator",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.14.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.14.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.14.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.14.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.15.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.15.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.15.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s11.15.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.15.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.15.1",
+"strength": "helpful",
+"why": "Beagle voyage observations",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.15.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.15.2",
+"strength": "helpful",
+"why": "Lyell and Malthus influences",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.15.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.15.4",
+"strength": "essential",
+"why": "Darwin theory of Origin",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.16.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.15.4",
+"strength": "essential",
+"why": "the Origin of Species",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.15.5",
+"strength": "essential",
+"why": "Oxford debate",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.15.4",
+"strength": "essential",
+"why": "Darwin theory",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.15.1",
+"strength": "helpful",
+"why": "voyage observations",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.15.4",
+"strength": "helpful",
+"why": "the Origin",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.15.4",
+"strength": "helpful",
+"why": "Darwin theory",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.16.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.15.5",
+"strength": "helpful",
+"why": "clash with religion",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.17.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.17.0": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s11.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.17.0",
+"strength": "essential",
+"why": "Pasteur micro-organisms",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.17.0",
+"strength": "helpful",
+"why": "Pasteur and microbes",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.15.4",
+"strength": "helpful",
+"why": "Darwin",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.17.4": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s11.18.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.18.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.17.0",
+"strength": "essential",
+"why": "Pasteur germ theory",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.17.0",
+"strength": "helpful",
+"why": "germ theory of disease",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.19.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.19.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.19.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.19.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.19.2",
+"strength": "essential",
+"why": "Daguerreotype",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.19.2",
+"strength": "helpful",
+"why": "early photography",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.19.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.19.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.14.0",
+"strength": "helpful",
+"why": "telegraph",
+"confidence": "low"
+},
+{
+"id": "hist-eur1-s11.15.4",
+"strength": "helpful",
+"why": "Darwin challenging religion",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.20.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s11.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.1.2",
+"strength": "helpful",
+"why": "cultural nationalism fed politics",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.20.0",
+"strength": "helpful",
+"why": "achievement being qualified",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.11.b",
+"strength": "helpful",
+"why": "church social work",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s11.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.12.3",
+"strength": "essential",
+"why": "churches treating symptoms",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s11.15.4",
+"strength": "helpful",
+"why": "Darwin transformed knowledge",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.20.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.17.0",
+"strength": "helpful",
+"why": "germ theory",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s11.17.3",
+"strength": "helpful",
+"why": "Mendel and genetics",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.20.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s11.16.6",
+"strength": "essential",
+"why": "Darwin seen as threat",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s11.7.7",
+"strength": "essential",
+"why": "Hugo judgement",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s11.20.7": {
+"cost": 1,
+"needs": []
+}
+}
