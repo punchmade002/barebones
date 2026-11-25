@@ -250,6 +250,8 @@ const els = {
   fullNotesScreen: document.getElementById("fullNotesScreen"),
   fullNotesTitle: document.getElementById("fullNotesTitle"),
   fullNotesBody: document.getElementById("fullNotesBody"),
+  crunchToggle: document.getElementById("crunchToggle"),
+  crunchPanel: document.getElementById("crunchPanel"),
   closeFullNotes: document.getElementById("closeFullNotes"),
   fullNotesPrev: document.getElementById("fullNotesPrev"),
   fullNotesNext: document.getElementById("fullNotesNext"),
@@ -4879,10 +4881,12 @@ function renderFullNotesPage(step = 0) {
   const prev = outcomes[index - 1];
   const next = outcomes[index + 1];
   const heading = outcome ? compactText(outcome.title || "") : chapter.title;
+  const crunch = crunchFilter() ? crunchSettings() : null;
   els.fullNotesTitle.innerHTML = `
-    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)} · ${index + 1} of ${outcomes.length}` : ""}</span>
+    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)} · ${index + 1} of ${outcomes.length}` : ""}${crunch ? ` · Crunch ${crunch.grade}` : ""}</span>
     <span class="full-notes-heading">${escapeHtml(heading)}</span>`;
-  els.fullNotesBody.innerHTML = buildFullNotesHtml(chapter, outcome) + (next ? `
+  const notesHtml = buildFullNotesHtml(chapter, outcome);
+  els.fullNotesBody.innerHTML = notesHtml + crunchPageNote() + (next ? `
     <button class="notes-next-section" type="button" data-notes-step="1">
       <span>Next subsection</span>
       <strong>${escapeHtml(compactText(next.title || ""))}</strong>
