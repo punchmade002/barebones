@@ -18,13 +18,16 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+# Chapters Crunch Mode leaves alone: PE's physical activity areas serve the Performance Assessment (30%), and the
+# written paper barely asks about them (34 marks in 2022-2026), so they are never scored or hidden.
+LEFT_OUT = {"pe": ("pe-aquatics-", "pe-artistic-aesthetic-movement-", "pe-athletics-", "pe-games-", "pe-personal-exercise-fitness-")}
 
 
 def items(subject):
     """{subsection: (title, [(item_id, text, hash)])} in note order."""
     out = {}
     for p in sorted((ROOT / "content" / subject).glob("*.json")):
-        if "acronyms" in p.stem:
+        if "acronyms" in p.stem or p.stem.startswith(LEFT_OUT.get(subject, ())):
             continue
         d = json.loads(p.read_text())
         rows = []

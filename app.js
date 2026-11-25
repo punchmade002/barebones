@@ -79,7 +79,7 @@ const SUBJECTS = [
 const PAGE_SUBJECT = SUBJECTS.some((s) => s.id === document.body.dataset.subject) ? document.body.dataset.subject : "";
 const SECTION_TABS = { flashcards: "flashcards", tests: "test", exam: "exam" };
 // Signed-out visitors (often from Google) can read these; the rest ask them to sign in.
-const PUBLIC_SECTIONS = new Set(["", "guide", "aac", "notes"]);
+const PUBLIC_SECTIONS = new Set(["", "guide", "aac", "notes", "crunch"]);
 const isPublicSection = (id) => PUBLIC_SECTIONS.has(id) || isAacSection(id);
 const EXAM_VIEWS = [["chapter", "By chapter"], ["type", "By type"], ["papers", "Full papers"]];
 const EXAM_TYPE_LABELS = {
@@ -250,8 +250,6 @@ const els = {
   fullNotesScreen: document.getElementById("fullNotesScreen"),
   fullNotesTitle: document.getElementById("fullNotesTitle"),
   fullNotesBody: document.getElementById("fullNotesBody"),
-  crunchToggle: document.getElementById("crunchToggle"),
-  crunchPanel: document.getElementById("crunchPanel"),
   closeFullNotes: document.getElementById("closeFullNotes"),
   fullNotesPrev: document.getElementById("fullNotesPrev"),
   fullNotesNext: document.getElementById("fullNotesNext"),
@@ -822,6 +820,7 @@ function currentUsageContext() {
   if (!PAGE_SUBJECT) return at("dashboard", "general");
   if ((subjectSection === "exam" && examView === "papers") || subjectSection === "papers") return at("papers");
   if (subjectSection === "notes") return at("notes-list");
+  if (subjectSection === "crunch") return at("crunch");
   if (!subjectSection) return at("subject-home");
   if (els.examTab?.classList.contains("active")) return at("exam");
   if (els.testTab?.classList.contains("active")) return at("test");
@@ -2071,7 +2070,7 @@ function renderOutcomePicker() {
 // workbench below; Notes and the other Exam views draw into #sectionPanel.
 function sectionFromHash() {
   const id = location.hash.slice(1);
-  return sectionsFor(PAGE_SUBJECT).includes(id) ? id : "";
+  return sectionsFor(PAGE_SUBJECT).includes(id) || (id === "crunch" && CRUNCH_FILES[PAGE_SUBJECT]) ? id : "";
 }
 
 function enterSection() {
@@ -2087,7 +2086,7 @@ function enterSection() {
   if (SECTION_TABS[subjectSection]) switchTab(SECTION_TABS[subjectSection]);
   if (subjectSection === "guide") openExamBreakdown(PAGE_SUBJECT);
   if (isAacSection(subjectSection)) openAacGuide(PAGE_SUBJECT, subjectSection);
-  if (subjectSection) openSubjectData(PAGE_SUBJECT);
+  if (subjectSection && subjectSection !== "crunch") openSubjectData(PAGE_SUBJECT);
   renderAll();
   els.subjectArea.querySelectorAll(".section-panel, .workbench, .guide-inline").forEach((el) => { el.scrollTop = 0; });
 }
@@ -2156,7 +2155,7 @@ function renderSubjectPage() {
 function renderSectionPanel(locked) {
   const panel = els.sectionPanel;
   panel.classList.remove("page-shell"); // the page's prebuilt placeholder (scripts/subject-pages.cjs) is drawn over below
-  const show = locked || !subjectSection || ["notes", "exam", "papers"].includes(subjectSection);
+  const show = locked || !subjectSection || ["notes", "exam", "papers", "crunch"].includes(subjectSection);
   panel.classList.toggle("hidden", !show);
   if (!show) {
     sectionPanelKey = "";
@@ -2167,7 +2166,7 @@ function renderSectionPanel(locked) {
   const key = [subjectSection, examView, examTypeFilter, locked, user?.username || "",
     subjectPackReady(PAGE_SUBJECT), examPackReady(PAGE_SUBJECT), typeof hasExamPapers, // paper-archive.js loads after app.js
     Object.keys(user?.viewedNotesByChapter || {}).length, user?.onboarding?.levels?.[PAGE_SUBJECT] || "",
-    studyRange, studyRows?.length ?? studyRowsError].join("|");
+    studyRange, studyRows?.length ?? studyRowsError, crunchStateKey()].join("|");
   if (key === sectionPanelKey) return;
   sectionPanelKey = key;
 
@@ -2187,6 +2186,8 @@ function renderSectionPanel(locked) {
     panel.innerHTML = `<div class="section-card">${notesListHtml()}</div>`;
   } else if (subjectSection === "papers") {
     panel.innerHTML = `<div class="section-card"><div id="papersBody" class="papers-body"></div></div>`;
+  } else if (subjectSection === "crunch") {
+    panel.innerHTML = crunchSettingsPageHtml();
   } else {
     panel.innerHTML = examViewsHtml();
   }
@@ -2215,7 +2216,7 @@ function subjectHomeHtml() {
       <button class="button-primary" type="button" data-auth-mode="signup">Make an account</button>
       <button class="button-secondary" type="button" data-auth-mode="signin">Sign in</button>
     </div>${SUBJECT_ABOUT_HTML}`;
-  return `${sectionTilesHtml(subject.id)}${below}`;
+  return `${crunchBarHtml()}${withCrunchTile(sectionTilesHtml(subject.id))}${below}`;
 }
 
 // A chapter with subsections folds open to list them, each opening the notes on its own page;
@@ -4865,8 +4866,6 @@ function openFullNotes(outcomeId = selectedOutcomeId) {
   notesOutcomeId = chapterHasSubsections(chapter) ? outcomeId : "";
   els.openLiveReading.classList.remove("hidden");
   closeLiveReader();
-  els.crunchPanel.classList.add("hidden");
-  renderCrunchControls();
   renderFullNotesPage();
   els.fullNotesScreen.classList.remove("hidden");
   document.body.style.overflow = "hidden";
@@ -4960,7 +4959,7 @@ function crunchData(subjectId = selectedSubjectId) {
 function crunchSettings(subjectId = selectedSubjectId) {
   let all = {};
   try { all = JSON.parse(localStorage.getItem(CRUNCH_KEY) || "{}"); } catch {}
-  return { on: false, grade: "H5", aac: 80, ...(all[subjectId] || {}) };
+  return { on: false, grade: "H2", aac: 80, ...(all[subjectId] || {}) };
 }
 
 function saveCrunchSettings(patch, subjectId = selectedSubjectId) {
@@ -4984,7 +4983,7 @@ function crunchFilter(subjectId = selectedSubjectId) {
   if (!data || !settings.on) return null;
   const need = crunchNeed(data, settings);
   return (outcomeId, key) => {
-    const level = data.levels[outcomeId]?.[key];
+    const level = data.levels[outcomeId]?.[key]?.[0];
     return level != null && level >= need;
   };
 }
@@ -5001,73 +5000,199 @@ function crunchPageNote() {
     </div>`;
 }
 
-function renderCrunchControls() {
-  const data = crunchData();
-  els.crunchToggle.classList.toggle("hidden", !data);
-  if (!data) {
-    els.crunchPanel.classList.add("hidden");
-    return;
-  }
-  const settings = crunchSettings();
-  els.crunchToggle.textContent = settings.on ? `Crunch · ${settings.grade}` : "Crunch";
-  els.crunchToggle.classList.toggle("is-on", settings.on);
-  els.crunchToggle.setAttribute("aria-expanded", String(!els.crunchPanel.classList.contains("hidden")));
-  if (els.crunchPanel.classList.contains("hidden")) return;
+// Subjects with Crunch data. The file loads with the subject page itself: the home shows the Crunch bar or tile.
+const CRUNCH_FILES = { biology: "./biology-crunch.js?v=2" };
+let crunchDraft = null; // the bar's setup before it is saved: { grade, aac }
+let crunchJustSet = false; // the tile's first appearance gets an entrance
 
-  const need = crunchNeed(data, settings);
-  let hidden = 0, total = 0;
-  for (const points of Object.values(data.levels)) for (const level of Object.values(points)) { total++; if (level >= need) hidden++; }
-  const summary = !settings.on
-    ? "Hide the note points you don't need for the grade you're aiming for. Tests and exam questions stay as they are."
-    : need > 100 ? `With ${settings.aac}% in your ${escapeHtml(data.aac.name)}, ${settings.grade} needs over 100% on the written paper, so nothing is hidden.`
-    : need <= 0 ? `Your ${escapeHtml(data.aac.name)} alone reaches ${settings.grade}, so every point is hidden.`
-    : `${settings.grade} needs <b>${Math.round(need)}%</b> on the written paper${data.aac ? ` with ${settings.aac}% in your ${escapeHtml(data.aac.name)}` : ""}. Crunch Mode hides <b>${hidden.toLocaleString("en-IE")}</b> of ${total.toLocaleString("en-IE")} points, the ones least likely to earn marks, checked against the ${data.years.length} most recent papers.`;
-  els.crunchPanel.innerHTML = `
-    <div class="crunch-panel-inner">
-      <label class="crunch-switch">
-        <input id="crunchOn" type="checkbox" role="switch" ${settings.on ? "checked" : ""}>
-        <span class="crunch-switch-track" aria-hidden="true"></span>
-        <span>Crunch Mode</span>
-      </label>
-      <div class="crunch-grades" role="radiogroup" aria-label="Target grade">
-        ${CRUNCH_GRADES.map(([h]) => `<button type="button" role="radio" aria-checked="${h === settings.grade}" data-crunch-grade="${h}">${h}</button>`).join("")}
+function loadCrunchData() {
+  const src = CRUNCH_FILES[PAGE_SUBJECT];
+  if (!src || crunchData(PAGE_SUBJECT)) return;
+  const script = document.createElement("script");
+  script.src = src;
+  script.onload = () => renderAll();
+  document.head.appendChild(script);
+}
+
+// Points and study hours hidden at a written-paper target (each point is [level, minutes])
+function crunchStats(data, need) {
+  let hidden = 0, total = 0, saved = 0, all = 0;
+  for (const points of Object.values(data.levels)) {
+    for (const [level, minutes] of Object.values(points)) {
+      total++;
+      all += minutes;
+      if (level >= need) { hidden++; saved += minutes; }
+    }
+  }
+  return { hidden, total, savedHours: saved / 60, allHours: all / 60 };
+}
+
+const crunchHours = (h) => (h > 0 && h < 1 ? "<1" : String(Math.round(h)));
+
+function crunchReadoutHtml(data, s) {
+  const need = crunchNeed(data, s);
+  const st = crunchStats(data, need);
+  const withAac = data.aac ? ` with ${Number(s.aac) || 0}% in your ${escapeHtml(data.aac.name)}` : "";
+  const why = need > 100
+    ? `${s.grade} needs over 100% on the written paper${withAac}, so you need every point. Try a lower grade or a higher AAC mark.`
+    : need <= 0
+    ? `Your ${escapeHtml(data.aac?.name || "coursework")} alone reaches ${s.grade}, so the notes can all go.`
+    : `You need ${Math.round(need)}% on the written paper${withAac}. Crunch Mode hides ${st.hidden.toLocaleString("en-IE")} of ${st.total.toLocaleString("en-IE")} points, the ones the last ${data.years.length} papers rewarded least.`;
+  return `
+    <p class="crunch-readout"><span class="crunch-hours">${crunchHours(need > 100 ? 0 : st.savedHours)}</span>
+      <span class="crunch-hours-unit">hours saved<small>of ${Math.round(st.allHours)} hours of notes</small></span></p>
+    <p class="crunch-why">${why}</p>`;
+}
+
+function crunchControlsHtml(data, s) {
+  return `
+    <div class="crunch-field">
+      <span class="crunch-label" id="crunchGradeLabel">Target grade</span>
+      <div class="crunch-grades" role="radiogroup" aria-labelledby="crunchGradeLabel">
+        ${CRUNCH_GRADES.map(([h]) => `<button type="button" role="radio" aria-checked="${h === s.grade}" data-crunch-grade="${h}">${h}</button>`).join("")}
       </div>
-      ${data.aac ? `<label class="crunch-aac">Expected AAC <input id="crunchAac" type="number" min="0" max="100" step="1" inputmode="numeric" value="${Number(settings.aac) || 0}"> %</label>` : ""}
-      <p class="crunch-summary">${summary}</p>
+    </div>
+    ${data.aac ? `
+    <label class="crunch-field">
+      <span class="crunch-label">Expected AAC mark</span>
+      <span class="crunch-aac"><input id="crunchAac" type="number" min="0" max="100" step="1" inputmode="numeric" value="${Number(s.aac) || 0}"><span aria-hidden="true">%</span></span>
+    </label>` : ""}
+    <div class="crunch-result" aria-live="polite">${crunchReadoutHtml(data, s)}</div>
+    <p class="crunch-foot">Study time counts about 40 words a minute of active learning.</p>`;
+}
+
+// The bar above the tiles, until the student sets Crunch Mode up
+function crunchBarHtml() {
+  const data = crunchData(PAGE_SUBJECT);
+  if (!data || crunchSettings(PAGE_SUBJECT).set) return "";
+  const title = escapeHtml(PAGE_SUBJECT_DATA.title);
+  const open = Boolean(crunchDraft);
+  return `
+    <section class="crunch-bar${open ? " is-open" : ""}" aria-label="Crunch Mode">
+      <div class="crunch-bar-head">
+        <div class="crunch-bar-text">
+          <h2 class="crunch-hero">Study less. Score more.</h2>
+          <p>Cut ${title} down to what your grade needs.</p>
+        </div>
+        <button class="crunch-go${open ? " is-crunched" : ""}" type="button" data-crunch-go aria-expanded="${open}"><span>Crunch</span></button>
+      </div>
+      ${open ? `
+      <div class="crunch-setup" data-crunch-setup="draft">
+        ${crunchControlsHtml(data, crunchDraft)}
+        <div class="crunch-setup-actions">
+          <button class="button-primary" type="button" data-crunch-save>Crunch ${title}</button>
+          <button class="button-secondary" type="button" data-crunch-cancel>Not now</button>
+        </div>
+      </div>` : ""}
+    </section>`;
+}
+
+// Once set up, Crunch Mode is a tile like the other sections
+function withCrunchTile(tilesHtml) {
+  const data = crunchData(PAGE_SUBJECT), s = crunchSettings(PAGE_SUBJECT);
+  if (!data || !s.set) return tilesHtml;
+  const need = crunchNeed(data, s);
+  const meta = !s.on ? "Off" : need > 100 ? `${s.grade} · keeps everything` : `${s.grade} · saves ${crunchHours(crunchStats(data, need).savedHours)} h`;
+  const tile = `
+    <li><a class="section-tile crunch-tile${crunchJustSet ? " is-new" : ""}" href="app/${PAGE_SUBJECT}/#crunch">${iconHtml("crunch")}<span>Crunch Mode<small>${meta}</small></span></a></li>`;
+  crunchJustSet = false;
+  return tilesHtml.replace(/<\/ul>$/, `${tile}</ul>`);
+}
+
+function crunchSettingsPageHtml() {
+  const data = crunchData(PAGE_SUBJECT);
+  if (!data) return `<div class="section-card"><p class="crunch-why">Loading Crunch Mode…</p></div>`;
+  const s = crunchSettings(PAGE_SUBJECT);
+  return `
+    <div class="section-card crunch-settings${s.on ? "" : " is-off"}">
+      <label class="crunch-switch">
+        <input id="crunchOn" type="checkbox" role="switch" ${s.on ? "checked" : ""}>
+        <span class="crunch-switch-track" aria-hidden="true"></span>
+        <span>Hide the points I don't need</span>
+      </label>
+      <div class="crunch-setup" data-crunch-setup="saved">${crunchControlsHtml(data, s)}</div>
+      <p class="crunch-foot">Only the notes change. Each notes page says how many points it hid and can show them, faded.</p>
     </div>`;
 }
 
+// Part of the section panel's redraw key. The settings page edits itself in place, so only the data arriving redraws it.
+function crunchStateKey() {
+  if (!crunchData(PAGE_SUBJECT)) return "";
+  if (subjectSection === "crunch") return "ready";
+  const s = crunchSettings(PAGE_SUBJECT);
+  return [s.set, s.on, s.grade, s.aac].join(",");
+}
+
+function repaintCrunchBar() {
+  const bar = els.sectionPanel.querySelector(".crunch-bar");
+  if (!bar) return;
+  const wasOpen = bar.classList.contains("is-open");
+  bar.outerHTML = crunchBarHtml();
+  if (wasOpen && !crunchDraft) {
+    // closing: the word springs back out from its crunched width
+    const go = els.sectionPanel.querySelector("[data-crunch-go]");
+    go.classList.add("is-crunched");
+    void go.offsetWidth;
+    go.classList.remove("is-crunched");
+    go.focus();
+  }
+}
+
+function updateCrunchSetup(setup, patch) {
+  const draft = setup.dataset.crunchSetup === "draft";
+  if (draft) Object.assign(crunchDraft, patch);
+  else saveCrunchSettings({ ...patch, on: true }, PAGE_SUBJECT);
+  const s = draft ? crunchDraft : crunchSettings(PAGE_SUBJECT);
+  setup.querySelectorAll("[data-crunch-grade]").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.crunchGrade === s.grade)));
+  setup.querySelector(".crunch-result").innerHTML = crunchReadoutHtml(crunchData(PAGE_SUBJECT), s);
+  if (!draft) {
+    const toggle = document.getElementById("crunchOn");
+    if (toggle) toggle.checked = true;
+    setup.closest(".crunch-settings")?.classList.remove("is-off");
+  }
+}
+
 function rerenderCrunch() {
-  renderCrunchControls();
   const scroll = els.fullNotesBody.scrollTop;
   renderFullNotesPage();
   els.fullNotesBody.scrollTop = scroll;
 }
 
 function bindCrunch() {
-  els.crunchToggle.addEventListener("click", () => {
-    els.crunchPanel.classList.toggle("hidden");
-    renderCrunchControls();
-  });
-  els.crunchPanel.addEventListener("change", (event) => {
-    if (event.target.id === "crunchOn") { saveCrunchSettings({ on: event.target.checked }); rerenderCrunch(); }
-  });
-  els.crunchPanel.addEventListener("click", (event) => {
+  const panel = els.sectionPanel;
+  panel.addEventListener("click", (event) => {
+    const go = event.target.closest("[data-crunch-go]");
+    if (go) {
+      if (crunchDraft) { crunchDraft = null; repaintCrunchBar(); return; }
+      const s = crunchSettings(PAGE_SUBJECT);
+      crunchDraft = { grade: s.grade, aac: s.aac };
+      go.classList.add("is-crunched"); // the word squeezes, then the setup opens under it
+      const wait = matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 480;
+      setTimeout(() => {
+        repaintCrunchBar();
+        panel.querySelector('.crunch-setup [aria-checked="true"]')?.focus();
+      }, wait);
+      return;
+    }
     const grade = event.target.closest("[data-crunch-grade]");
-    if (grade) { saveCrunchSettings({ grade: grade.dataset.crunchGrade, on: true }); rerenderCrunch(); }
+    if (grade) { updateCrunchSetup(grade.closest("[data-crunch-setup]"), { grade: grade.dataset.crunchGrade }); return; }
+    if (event.target.closest("[data-crunch-save]")) {
+      saveCrunchSettings({ ...crunchDraft, on: true, set: true }, PAGE_SUBJECT);
+      crunchDraft = null;
+      crunchJustSet = true;
+      renderAll();
+      return;
+    }
+    if (event.target.closest("[data-crunch-cancel]")) { crunchDraft = null; repaintCrunchBar(); }
   });
-  let aacTimer;
-  els.crunchPanel.addEventListener("input", (event) => {
-    if (event.target.id !== "crunchAac") return;
-    clearTimeout(aacTimer);
-    aacTimer = setTimeout(() => {
-      saveCrunchSettings({ aac: Math.max(0, Math.min(100, Number(event.target.value) || 0)) });
-      const caret = event.target.selectionStart;
-      rerenderCrunch();
-      const input = document.getElementById("crunchAac");
-      input?.focus();
-      try { input?.setSelectionRange(caret, caret); } catch {}
-    }, 300);
+  panel.addEventListener("input", (event) => {
+    if (event.target.id !== "crunchAac" || event.target.value === "") return;
+    updateCrunchSetup(event.target.closest("[data-crunch-setup]"), { aac: Math.max(0, Math.min(100, Number(event.target.value) || 0)) });
+  });
+  panel.addEventListener("change", (event) => {
+    if (event.target.id !== "crunchOn") return;
+    saveCrunchSettings({ on: event.target.checked }, PAGE_SUBJECT);
+    event.target.closest(".crunch-settings")?.classList.toggle("is-off", !event.target.checked);
   });
   els.fullNotesBody.addEventListener("click", (event) => {
     if (!event.target.closest("[data-crunch-reveal]")) return;
@@ -6199,6 +6324,7 @@ function renderAacGuide(guide, key) {
 // Last in the file so every declaration above exists before the first render:
 // a subject page can open straight onto any section (#tests, #guide…).
 bindEvents();
+loadCrunchData();
 if (PAGE_SUBJECT) {
   window.addEventListener("hashchange", enterSection);
   enterSection();

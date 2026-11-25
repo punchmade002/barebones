@@ -15,7 +15,8 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def subsections(subject):
-    return {p.stem for p in (ROOT / "content" / subject).glob("*.json") if "acronyms" not in p.stem}
+    from crunch_points import items
+    return set(items(subject))
 
 
 def problems(links, ids):
