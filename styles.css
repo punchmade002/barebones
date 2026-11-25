@@ -6121,8 +6121,30 @@ body.onboarding-open .timer-widget {
   line-height: 0.82;
 }
 
-.crunch-hours-unit { display: grid; gap: 0.15rem; padding-bottom: 0.2rem; color: var(--ink); font-size: 1.15rem; font-weight: 750; }
-.crunch-hours-unit small { color: var(--muted); font-size: 0.88rem; font-weight: 500; }
+.crunch-hours-unit { padding-bottom: 0.25rem; color: var(--ink); font-size: 1.5rem; font-weight: 750; letter-spacing: -0.01em; }
+
+/* See how: the reasoning, folded away under the number */
+.crunch-how { margin-top: 0.6rem; }
+.crunch-how summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-full);
+  color: var(--ink-2);
+  font-size: 0.88rem;
+  font-weight: 650;
+  list-style: none;
+  cursor: pointer;
+  transition: border-color var(--t) var(--ease), color var(--t) var(--ease);
+}
+.crunch-how summary::-webkit-details-marker { display: none; }
+.crunch-how summary::after { content: ""; width: 0.4rem; height: 0.4rem; border: solid currentColor; border-width: 0 1.5px 1.5px 0; transform: translateY(-0.1rem) rotate(45deg); transition: transform var(--t) var(--ease); }
+.crunch-how[open] summary::after { transform: translateY(0.1rem) rotate(-135deg); }
+.crunch-how summary:hover { border-color: var(--accent-light); color: var(--accent-strong); }
+.crunch-how summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.crunch-how .crunch-foot { margin-top: 0.4rem; }
 
 .crunch-why { max-width: 62ch; margin: 0.6rem 0 0; color: var(--ink-2); font-size: 0.95rem; line-height: 1.55; }
 .crunch-foot { margin: 0; color: var(--muted); font-size: 0.82rem; }
@@ -6133,7 +6155,8 @@ body.onboarding-open .timer-widget {
 /* On the dark bar the same controls are drawn light-on-ink */
 .crunch-bar .crunch-label,
 .crunch-bar .crunch-foot,
-.crunch-bar .crunch-hours-unit small { color: #9C988E; }
+.crunch-bar .crunch-how summary { border-color: rgba(237, 235, 230, 0.22); color: #D8D4CB; }
+.crunch-bar .crunch-how summary:hover { border-color: var(--accent-3); color: var(--accent-3); }
 .crunch-bar .crunch-hours { color: var(--accent-3); }
 .crunch-bar .crunch-hours-unit { color: #F6F4EF; }
 .crunch-bar .crunch-why { color: #C9C5BC; }

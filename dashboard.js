@@ -11,6 +11,7 @@ let studyRowsError = "";
 
 // Line icons (24×24, drawn with currentColor) for subject and section tiles
 const ICONS = {
+  skills: '<path d="M4 20h4v-5h4v-5h4V5h4"/>',
   crunch: '<path d="M4 4v16M20 4v16"/><path d="M8 12h2.5M13.5 12H16"/><path d="m8.5 9 2.5 3-2.5 3M15.5 9 13 12l2.5 3"/>',
   biology: '<path d="M8 3c0 4.5 8 4.5 8 9s-8 4.5-8 9"/><path d="M16 3c0 4.5-8 4.5-8 9s8 4.5 8 9"/><path d="M9.5 6.5h5M9.5 17.5h5"/>',
   chemistry: '<path d="M9 3h6M10 3v6l-5.2 9.1A2 2 0 0 0 6.5 21h11a2 2 0 0 0 1.7-2.9L14 9V3"/><path d="M7.4 15h9.2"/>',
@@ -78,7 +79,10 @@ const aacLabel = (guide) => (guide.short ? `${guide.short} guide` : SECTION_LABE
 function sectionTilesHtml(subjectId) {
   const tiles = sectionsFor(subjectId).map((id) => `
     <li><a class="section-tile" href="app/${subjectId}/#${id}">${iconHtml(isAacSection(id) ? "aac" : id)}<span>${escapeHtml(sectionLabel(subjectId, id))}</span></a></li>`).join("");
-  return `<ul class="section-tiles">${tiles}</ul>`;
+  // Maths skills are their own pages (maths-skill.html), not a section of the subject page
+  const skills = subjectId === "maths" ? `
+    <li><a class="section-tile" href="maths-skill.html">${iconHtml("skills")}<span>Skills</span></a></li>` : "";
+  return `<ul class="section-tiles">${skills}${tiles}</ul>`;
 }
 
 // Placeholder shapes shown while a screen's data downloads

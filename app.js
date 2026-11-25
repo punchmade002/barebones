@@ -4979,8 +4979,17 @@ const CRUNCH_GRADES = [["H1", 95], ["H2", 85], ["H3", 75], ["H4", 65], ["H5", 55
 let crunchReveal = false; // show hidden points, dimmed
 let crunchPage = { hidden: 0, crunched: 0, total: 0 }; // counted while the page's notes are built
 
+// Maths has a Crunch per level (maths-crunch.js, maths-ordinary-crunch.js); the level is the student's onboarding
+// choice, Higher until they pick. Ordinary students see O1–O8, stored as H1–H8 so one settings shape fits all.
+const crunchOrdinary = (subjectId) => subjectId === "maths" && getCurrentUser()?.onboarding?.levels?.maths === "ordinary";
+const crunchGrade = (grade, subjectId = PAGE_SUBJECT || selectedSubjectId) => (crunchOrdinary(subjectId) ? grade.replace("H", "O") : grade);
+// Maths crunches skills on the skills list; the other subjects crunch note points and flashcards
+const crunchWords = (subjectId = PAGE_SUBJECT || selectedSubjectId) => (subjectId === "maths"
+  ? { unit: "skills", show: "Show crunched skills", where: "on the skills list", paper: "across your two papers" }
+  : { unit: "points", show: "Show crunched points", where: "in your notes and flashcards", paper: "on the written paper" });
+
 function crunchData(subjectId = selectedSubjectId) {
-  return window.CRUNCH?.[subjectId] || null;
+  return window.CRUNCH?.[crunchOrdinary(subjectId) ? "maths-ordinary" : subjectId] || null;
 }
 
 function crunchSettings(subjectId = selectedSubjectId) {
@@ -5037,17 +5046,19 @@ function crunchPageNote() {
 }
 
 // Subjects with Crunch data. The file loads with the subject page itself: the home shows the Crunch bar or tile.
-const CRUNCH_FILES = { biology: "./biology-crunch.js?v=3", pe: "./pe-crunch.js?v=2" };
+const CRUNCH_FILES = { biology: "./biology-crunch.js?v=3", pe: "./pe-crunch.js?v=2", maths: ["./maths-crunch.js?v=1", "./maths-ordinary-crunch.js?v=1"] };
 let crunchDraft = null; // the bar's setup before it is saved: { grade, aac }
 let crunchJustSet = false; // the tile's first appearance gets an entrance
 
 function loadCrunchData() {
   const src = CRUNCH_FILES[PAGE_SUBJECT];
   if (!src || crunchData(PAGE_SUBJECT)) return;
-  const script = document.createElement("script");
-  script.src = src;
-  script.onload = () => renderAll();
-  document.head.appendChild(script);
+  [].concat(src).forEach((file) => {
+    const script = document.createElement("script");
+    script.src = file;
+    script.onload = () => renderAll();
+    document.head.appendChild(script);
+  });
 }
 
 // Points and study hours hidden at a written-paper target (each point is [level, minutes])
@@ -5066,23 +5077,30 @@ function crunchStats(data, need) {
 // Share of the course's study time that Crunch Mode cuts
 const crunchCut = (st) => (st.savedHours > 0 && st.savedHours < st.allHours / 100 ? "<1" : String(Math.round((100 * st.savedHours) / st.allHours)));
 
-function crunchReadoutHtml(data, s) {
+// The big "% less study", with the reasoning behind a See how button (kept open across redraws via seeHow)
+function crunchReadoutHtml(data, s, seeHow = false) {
   const first = crunchFirstPass(s);
   const need = crunchNeed(data, crunchEffective(s));
   const st = crunchStats(data, need);
-  const withAac = data.aac ? ` with ${Number(s.aac) || 0}% in your ${escapeHtml(data.aac.name)}` : "";
-  const back = s.hideAll ? "Low-value points are hidden completely." : "Show crunched points in your notes and flashcards brings them back.";
+  const w = crunchWords(), grade = crunchGrade(s.grade), firstGrade = crunchGrade(CRUNCH_FIRST_PASS);
   const why = first && need <= 100
-    ? `Most marks first: you start with the points worth the most marks, enough for an ${CRUNCH_FIRST_PASS} (${Math.round(need)}% on the written paper${withAac}). Show crunched points in your notes and flashcards adds the rest for your ${s.grade}.`
+    ? `You start with the ${w.unit} worth the most marks, enough for ${firstGrade}. ${w.show} adds the rest for ${grade}.`
     : need > 100
-    ? `${s.grade} needs over 100% on the written paper${withAac}, so you need every point. Try a lower grade or a higher ${escapeHtml(data.aac?.short || "AAC")} mark.`
+    ? `${grade} needs over 100% ${w.paper}, so nothing can be cut.`
     : need <= 0
-    ? `Your ${escapeHtml(data.aac?.name || "coursework")} alone reaches ${s.grade}, so the notes can all go.`
-    : `You need ${Math.round(need)}% on the written paper${withAac}. Crunch Mode hides the points the last ${data.years.length} papers rewarded least. ${back}`;
+    ? `Your ${escapeHtml(data.aac?.short || "AAC")} mark alone gets you ${grade}.`
+    : `${grade} needs ${Math.round(need)}% ${w.paper}. Crunch hides the ${w.unit} past papers reward least.`;
+  const foot = PAGE_SUBJECT === "maths"
+    ? "Study time counts each skill's lesson at about 40 words a minute and its practice at a minute a mark."
+    : "Study time counts about 40 words a minute of active learning.";
   return `
     <p class="crunch-readout"><span class="crunch-hours">${need > 100 ? 0 : crunchCut(st)}%</span>
-      <span class="crunch-hours-unit">of the course<small>cut from your study time</small></span></p>
-    <p class="crunch-why">${why}</p>`;
+      <span class="crunch-hours-unit">less study</span></p>
+    <details class="crunch-how"${seeHow ? " open" : ""}>
+      <summary>See how</summary>
+      <p class="crunch-why">${why}</p>
+      <p class="crunch-foot">${foot}</p>
+    </details>`;
 }
 
 // Off by default: crunched points stay one tap away in the notes and flashcards
@@ -5091,7 +5109,7 @@ function crunchHideHtml(s) {
     <label class="crunch-switch crunch-option">
       <input type="checkbox" role="switch" data-crunch-hide ${s.hideAll ? "checked" : ""}>
       <span class="crunch-switch-track" aria-hidden="true"></span>
-      <span><strong>Completely hide low-value points</strong><small>They won't come back with Show crunched points.</small></span>
+      <span><strong>Completely hide low-value ${crunchWords().unit}</strong><small>They won't come back with ${crunchWords().show}.</small></span>
     </label>`;
 }
 
@@ -5100,10 +5118,9 @@ function crunchControlsHtml(data, s) {
     <div class="crunch-field">
       <span class="crunch-label" id="crunchGradeLabel">Target grade</span>
       <div class="crunch-grades" role="radiogroup" aria-labelledby="crunchGradeLabel">
-        ${CRUNCH_GRADES.map(([h]) => `<button type="button" role="radio" aria-checked="${h === s.grade}" data-crunch-grade="${h}">${h}</button>`).join("")}
+        ${CRUNCH_GRADES.map(([h]) => `<button type="button" role="radio" aria-checked="${h === s.grade}" data-crunch-grade="${h}">${crunchGrade(h)}</button>`).join("")}
       </div>
     </div>
-    ${crunchHideHtml(s)}
     ${data.aac ? `
     <div class="crunch-field crunch-aac">
       <label class="crunch-label" for="crunchAac">Expected ${escapeHtml(data.aac.short || "AAC")} mark <output id="crunchAacValue" for="crunchAac">${Number(s.aac) || 0}%</output></label>
@@ -5111,7 +5128,7 @@ function crunchControlsHtml(data, s) {
       <span class="crunch-ticks" aria-hidden="true"><span>0</span><span>50</span><span>100</span></span>
     </div>` : ""}
     <div class="crunch-result" aria-live="polite">${crunchReadoutHtml(data, s)}</div>
-    <p class="crunch-foot">The course is measured in study time, at about 40 words a minute of active learning.</p>`;
+    ${crunchHideHtml(s)}`;
 }
 
 // The bar above the tiles whenever Crunch Mode is off (never set up, or switched off)
@@ -5147,7 +5164,7 @@ function withCrunchTile(tilesHtml) {
   const data = crunchData(PAGE_SUBJECT), s = crunchSettings(PAGE_SUBJECT);
   if (!data || !s.set) return tilesHtml;
   const need = crunchNeed(data, crunchEffective(s));
-  const grade = s.grade;
+  const grade = crunchGrade(s.grade);
   const meta = !s.on ? "Off" : need > 100 ? `${grade} · keeps everything` : `${grade} · cuts ${crunchCut(crunchStats(data, need))}%`;
   const tile = `
     <li><a class="section-tile crunch-tile${crunchJustSet ? " is-new" : ""}" href="app/${PAGE_SUBJECT}/#crunch">${iconHtml("crunch")}<span>Crunch Mode<small>${meta}</small></span></a></li>`;
@@ -5164,10 +5181,10 @@ function crunchSettingsPageHtml() {
       <label class="crunch-switch">
         <input id="crunchOn" type="checkbox" role="switch" ${s.on ? "checked" : ""}>
         <span class="crunch-switch-track" aria-hidden="true"></span>
-        <span>Hide the points I don't need</span>
+        <span>Hide the ${crunchWords().unit} I don't need</span>
       </label>
       <div class="crunch-setup" data-crunch-setup="saved">${crunchControlsHtml(data, s)}</div>
-      <p class="crunch-foot">Only the notes and flashcards change. Each has "Show crunched points" to bring the hidden ones back, faded.</p>
+      <p class="crunch-foot">${PAGE_SUBJECT === "maths" ? `Only the skills list changes. It has "${crunchWords().show}" to bring the hidden ones back, faded.` : `Only the notes and flashcards change. Each has "Show crunched points" to bring the hidden ones back, faded.`}</p>
     </div>`;
 }
 
@@ -5193,7 +5210,8 @@ function updateCrunchSetup(setup, patch) {
   else saveCrunchSettings({ ...patch, on: true }, PAGE_SUBJECT);
   const s = draft ? crunchDraft : crunchSettings(PAGE_SUBJECT);
   setup.querySelectorAll("[data-crunch-grade]").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.crunchGrade === s.grade)));
-  setup.querySelector(".crunch-result").innerHTML = crunchReadoutHtml(crunchData(PAGE_SUBJECT), s);
+  const seeHow = Boolean(setup.querySelector(".crunch-how")?.open);
+  setup.querySelector(".crunch-result").innerHTML = crunchReadoutHtml(crunchData(PAGE_SUBJECT), s, seeHow);
   if (!draft) {
     const toggle = document.getElementById("crunchOn");
     if (toggle) toggle.checked = true;

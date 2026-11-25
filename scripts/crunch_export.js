@@ -23,7 +23,8 @@ const levels = {};
 const minutesOf = ([, , cost, text]) => (text.split(/\s+/).filter(Boolean).length / STUDY_WPM) * (cost === 2 ? 1.5 : 1);
 D.items.forEach((item, i) => {
   const id = item[0], [sid, rest] = [id.slice(0, id.indexOf(".")), id.slice(id.indexOf(".") + 1)];
-  (levels[sid] ||= {})[rest] = [Math.round(10 * bt.safe(R.y[i])) / 10, Math.max(0.1, Math.round(10 * minutesOf(item)) / 10)];
+  // item[4], when present, is a study time worked out upstream (Maths: from the skill's lesson pack)
+  (levels[sid] ||= {})[rest] = [Math.round(10 * bt.safe(R.y[i])) / 10, Math.max(0.1, Math.round(10 * (item[4] ?? minutesOf(item))) / 10)];
 });
 // Flashcards are each subsection's key terms, not note points, so each card takes the level of the note point that
 // teaches it: the point (with its block heading) sharing the most words with the card, the term's words counting

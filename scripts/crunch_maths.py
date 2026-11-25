@@ -6,7 +6,10 @@ Same data.json shape as crunch_map.py, so crunch-score.js and the map page score
 - items are the skills database (pipeline/requirements/maths/skills.json); Higher has every skill, Ordinary
   drops HL-only skills. One "subsection" per app chapter.
 - links are the skills' prereqs, all essential: a skill can't be used without the skills it's built from.
-- cost: Beginner 1, Intermediate 1.5, Advanced 2.
+- study time (item[4], minutes): the skill's lesson pack in maths-skills/. Learn-phase words at 40 a minute (Biology's
+  active-study pace), plus every practice problem worked at 1 minute a mark (twice exam pace: the papers give 150
+  minutes for 300 marks). Higher totals 181 h against the syllabus's 180 hours, a good check. cost = minutes / 30.
+- item ids are "<chapter>.<skill id>", so the app export keys them {chapter: {skill id: …}} like note points.
 - papers come from the rebuilt exam bank (marks) and skill-tags.json (each part's skills). A part's marks go half
   to its primary skill and half shared by its other skills (each earnable alone, like partial credit), plus a spread
   slot over the skills of the chapters it touches, as crunch_map.py does for tagged parts.
@@ -14,6 +17,7 @@ Same data.json shape as crunch_map.py, so crunch-score.js and the map page score
   5 of 6 and Section B any 3 of 4, on each paper.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -22,7 +26,30 @@ REQ = ROOT / "pipeline" / "requirements" / "maths"
 # shortcut: the bank on this branch stops at 2025; maths-older has 2015-2026. Read it from there while it's unmerged.
 OLDER = ROOT / ".claude" / "worktrees" / "maths-older" / "maths-exam-questions.js"
 BANK = OLDER if OLDER.exists() else ROOT / "maths-exam-questions.js"
-COST = {"Beginner": 1, "Intermediate": 1.5, "Advanced": 2}
+SKIP = {"keywords", "svg", "graph", "diagram", "needs", "leadsTo", "exam", "image", "id", "chapter"}
+
+
+def words(o):
+    """Words a student reads, with each $…$ formula counting as one."""
+    if isinstance(o, str):
+        return len(re.findall(r"[A-Za-z]+|\d+", re.sub(r"\$[^$]*\$", " x ", o)))
+    if isinstance(o, list):
+        return sum(words(x) for x in o)
+    if isinstance(o, dict):
+        return sum(words(v) for k, v in o.items() if k not in SKIP)
+    return 0
+
+
+def pack(path):
+    t = path.read_text()
+    return json.loads(t[t.index("] = ") + 4:].rstrip().rstrip(";"))
+
+
+def minutes(skill_id):
+    p = pack(ROOT / "maths-skills" / f"{skill_id}.js")
+    more = ROOT / "maths-skills" / f"{skill_id}.more.js"
+    problems = p.get("problems", []) + (pack(more) if more.exists() else [])
+    return words(p["learn"]) / 40 + sum(x.get("marks") or 0 for x in problems)
 
 
 def main(level="higher"):
@@ -35,7 +62,9 @@ def main(level="higher"):
     chapters = [[c, title(c)] for c in chapter_ids]
     skills.sort(key=lambda s: (ch_index[s["chapter"]], s.get("rank", 0)))
     pos = {s["id"]: i for i, s in enumerate(skills)}
-    items = [[s["id"], ch_index[s["chapter"]], COST[s["grade"]], s["title"]] for s in skills]
+    mins = {s["id"]: minutes(s["id"]) for s in skills}
+    items = [[f"{s['chapter']}.{s['id']}", ch_index[s["chapter"]], round(mins[s["id"]] / 30, 2), s["title"], round(mins[s["id"]], 1)]
+             for s in skills]
     links = [[pos[s["id"]], pos[p], 1] for s in skills for p in s["prereqs"] if p in pos]
     of_chapter = {c: [pos[s["id"]] for s in skills if s["chapter"] == c] for c in chapter_ids}
 
@@ -76,7 +105,7 @@ def main(level="higher"):
     (out / "data.json").write_text(json.dumps(
         {"subject": name, "chapters": chapters, "subs": subs, "items": items, "links": links, "papers": papers,
          "groups": groups, "picks": {}, "pickCount": {}, "aac": None}, ensure_ascii=False, separators=(",", ":")))
-    print(f"{len(items)} skills, {len(links)} prereq links, {len(chapters)} chapters, {len(papers)} papers "
+    print(f"{sum(mins.values()) / 60:.0f} h of study; {len(items)} skills, {len(links)} prereq links, {len(chapters)} chapters, {len(papers)} papers "
           f"({', '.join(str(p['year']) for p in papers)}; untagged parts in {sorted(untagged) or 'none'}) → {out / 'data.json'}")
 
 
