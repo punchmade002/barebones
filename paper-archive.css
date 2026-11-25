@@ -645,10 +645,12 @@
 body:has(#paperViewer:not(.hidden)) .timer-widget { display: none; }
 
 .pv-foot {
+  /* Compact until the pointer comes near or a finger touches it (paper-archive.js sets .is-open) */
+  --thumb-w: 18px;
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding: 0.55rem 1rem;
+  padding: 0.3rem 1rem;
   background: var(--desk-2);
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
@@ -678,10 +680,15 @@ body:has(#paperViewer:not(.hidden)) .timer-widget { display: none; }
   justify-items: center;
   gap: 4px;
   flex: none;
-  width: 52px !important;
+  width: var(--thumb-w) !important;
   padding: 0 !important;
   transition: transform var(--t) var(--ease);
 }
+
+.pv-foot.is-open,
+.pv-foot:has(:focus-visible) { --thumb-w: 52px; padding-block: 0.55rem; }
+.pv-foot:not(.is-open):not(:has(:focus-visible)) .pv-thumb span { display: none; }
+.pv-foot:not(.is-open):not(:has(:focus-visible)) .pv-thumb.has-ink::after { width: 6px; height: 6px; border-width: 1px; }
 
 .pv-thumb canvas {
   display: block;
@@ -817,7 +824,9 @@ body:has(#paperViewer:not(.hidden)) .timer-widget { display: none; }
   .pv-turn--prev { left: 0.4rem; }
   .pv-turn--next { right: 0.4rem; }
 
-  .pv-foot { gap: 0.6rem; padding: 0.45rem 0.6rem; }
+  .pv-foot { gap: 0.6rem; padding: 0.3rem 0.6rem; }
   .pv-page-label { min-width: 0; }
-  .pv-thumb { width: 40px !important; }
+  .pv-foot { --thumb-w: 16px; }
+  .pv-foot.is-open,
+  .pv-foot:has(:focus-visible) { --thumb-w: 40px; padding-block: 0.45rem; }
 }

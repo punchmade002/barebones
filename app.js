@@ -1481,6 +1481,7 @@ async function activateAuthenticatedSession(session, options = {}) {
     merged.entitlements = snapshot.entitlements || [];
     const meta = session.user.user_metadata || {};
     merged.displayName = meta.role === "teacher" && meta.last_name ? `${meta.title} ${meta.last_name}` : "";
+    merged.isTeacher = meta.role === "teacher";
 
     if (existingKey && existingKey !== username) delete state.usersByName[existingKey];
     state.usersByName[username] = merged;
@@ -1536,6 +1537,7 @@ function showOnboarding(user, { editing = false } = {}) {
   window.BarebonesOnboarding.open({
     subjects: SUBJECTS.map((s) => ({ id: s.id, title: s.title })),
     username: welcomeName(user),
+    teacher: Boolean(user.isTeacher),
     initial,
     editing,
     onComplete(result) {
@@ -1811,7 +1813,8 @@ function renderSubjectPicker() {
 
   if (els.studyPlanValue) {
     const year = { ty: "TY", "5th": "5th Year", "6th": "6th Year" }[user.onboarding?.year];
-    els.studyPlanValue.textContent = year || "Set up";
+    // Teachers skip the year question, so a finished plan can have no year
+    els.studyPlanValue.textContent = year || (user.onboarding?.completedAt ? "Edit" : "Set up");
   }
 
   els.subjectPicker.querySelectorAll("input[type=checkbox]").forEach((cb) => {
