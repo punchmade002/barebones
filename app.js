@@ -5072,13 +5072,13 @@ function crunchBarHtml() {
   return `
     <section class="crunch-bar${open ? " is-open" : ""}" aria-label="Crunch Mode">
       <div class="crunch-bar-head">
+        <button class="crunch-go" type="button" data-crunch-go aria-expanded="${open}" aria-label="Crunch">
+          <svg viewBox="0 -70.4 100 71.6" preserveAspectRatio="none" aria-hidden="true"><text x="0" y="0" textLength="100" lengthAdjust="spacingAndGlyphs">CRUNCH</text></svg>
+        </button>
         <div class="crunch-bar-text">
           <h2 class="crunch-hero"><span>Study less.</span> <span>Score more.</span></h2>
           <p>Cut ${title} down to what your grade needs.</p>
         </div>
-        <button class="crunch-go" type="button" data-crunch-go aria-expanded="${open}" aria-label="Crunch">
-          <svg viewBox="0 -70.4 100 71.6" preserveAspectRatio="none" aria-hidden="true"><text x="0" y="0" textLength="100" lengthAdjust="spacingAndGlyphs">CRUNCH</text></svg>
-        </button>
       </div>
       ${open ? `
       <div class="crunch-setup" data-crunch-setup="draft">
@@ -5163,13 +5163,8 @@ function bindCrunch() {
       if (crunchDraft) { crunchDraft = null; repaintCrunchBar(); return; }
       const s = crunchSettings(PAGE_SUBJECT);
       crunchDraft = { grade: s.grade, aac: s.aac };
-      go.classList.add("is-crushing"); // crushed under a press, then it pops and the setup opens
-      go.disabled = true;
-      const wait = matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 1000;
-      setTimeout(() => {
-        repaintCrunchBar();
-        panel.querySelector('.crunch-setup [aria-checked="true"]')?.focus();
-      }, wait);
+      repaintCrunchBar();
+      panel.querySelector('.crunch-setup [aria-checked="true"]')?.focus();
       return;
     }
     const grade = event.target.closest("[data-crunch-grade]");

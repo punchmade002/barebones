@@ -15,7 +15,7 @@
       "./pe-flashcards.js?v=3",
       "./pe-pipeline-content.js?v=4",
       "./pe-test-questions.js?v=3",
-      "./pe-notes.js?v=3",
+      "./pe-notes.js?v=4",
     ],
     biology: [
       "./bio-content.js?v=3",

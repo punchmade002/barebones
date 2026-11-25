@@ -6,68 +6,80 @@
   "notes": [
     {
       "h": "The aspects to apply",
+      "b": "Knowing a principle of training is not enough: you must show how it shapes a real programme for a real method, such as continuous running or weight training. These are the nine aspects you apply to each method, and each is given one line here before being applied.",
       "points": [
-        "Readiness: the performer is physically and mentally ready, with a fitness base and technique in place.",
-        "Specificity: the training matches the demands of the activity or goal.",
-        "Progression: the training load rises gradually.",
-        "Overload: the body works harder than normal, adjusted through FITT (frequency, intensity, time and type).",
-        "Rest and recovery: rest days, recovery between sets and easy weeks let the body adapt.",
-        "Training zones: the heart-rate bands for aerobic and anaerobic work.",
-        "Thresholds: the aerobic threshold and the anaerobic (lactate) threshold.",
-        "Work-recovery intervals: the ratio of recovery time to work time.",
-        "Warm-up and cool-down: the start and end of every session."
-      ]
+        "Readiness: the performer is physically and mentally ready, with a fitness base (the general fitness already built up) and technique in place, so they can train hard without being injured or put off.",
+        "Specificity: the training matches the demands of the activity or goal, so the body adapts in the ways the activity actually needs.",
+        "Progression: the training load rises gradually, so the body is always challenged a little more but never asked to jump too far ahead.",
+        "Overload: the body works harder than normal, because it only adapts when pushed beyond what it is used to. Overload is adjusted through FITT (frequency, intensity, time and type).",
+        "Rest and recovery: rest days, recovery between sets and easy weeks let the body adapt, because improvement happens during recovery rather than during the session itself.",
+        "Training zones: the heart-rate bands for aerobic work (using oxygen) and anaerobic work (without enough oxygen).",
+        "Thresholds: the aerobic threshold and the anaerobic (lactate) threshold, the heart-rate points where the type of work changes.",
+        "Work-recovery intervals: the ratio of recovery time to work time. Warm-up and cool-down form the start and end of every session."
+      ],
+      "tip": "Apply, don't re-define: give one line for the principle, then spend the rest of your answer showing how it is used in the method you are given."
     },
     {
       "h": "Worked example: continuous running for a 17-year-old, principles applied (illustrative)",
+      "b": "Here is how the five principles of training look in a real plan. The figures are illustrative: they show the method, not the only correct numbers.",
       "points": [
-        "Readiness: a fitness base and running technique are in place before the runs are lengthened; interval or heavy weight work is added only after this.",
-        "Specificity: continuous running is chosen to build a runner's endurance, while squats are chosen for jumping power.",
-        "Progression: 5 minutes is added to the continuous runs each week.",
+        "Readiness: a fitness base and running technique are in place before the runs are lengthened. Interval or heavy weight work is added only after this, because those methods put far more stress on the body.",
+        "Specificity: continuous running is chosen to build a runner's endurance, while squats are chosen for jumping power. The method must match the goal.",
+        "Progression: 5 minutes is added to the continuous runs each week, a small step that raises the load gradually.",
         "Overload through FITT: time rises from 25 to 40 minutes per run, frequency is 3 runs a week, intensity stays in the aerobic zone, and type is running.",
-        "Rest and recovery: one rest day between runs."
-      ]
+        "Rest and recovery: one rest day between runs, so the body can adapt before the next session."
+      ],
+      "tip": "When asked for FITT for a component, cover all four letters, frequency, intensity, time and type, as the overload bullet does here."
     },
     {
       "h": "Worked example: continuous running, zones and thresholds (illustrative)",
+      "b": "Training zones are bands of heart rate worked out from the performer's maximum heart rate, so we can check that a run is hard enough to train the body but not so hard that it becomes anaerobic. Here they are calculated for the same 17-year-old runner.",
       "points": [
         "Maximum heart rate is estimated as 220 minus age: 220 − 17 = 203 beats per minute.",
-        "Aerobic zone: about 60% to 80% of 203, which is about 122 to 162 beats per minute.",
-        "The lower edge of the aerobic zone, about 122 beats per minute, is the aerobic threshold, the minimum for a training effect.",
+        "Aerobic zone: about 60% to 80% of 203, which is about 122 to 162 beats per minute. In this zone the body gets enough oxygen to keep going for a long time.",
+        "The lower edge of the aerobic zone, about 122 beats per minute, is the aerobic threshold, the minimum for a training effect. Below it, the work is too easy to improve fitness.",
         "Anaerobic zone: about 80% to 90% of maximum heart rate, starting at about 162 beats per minute for this runner.",
-        "Continuous running is kept near but below the anaerobic (lactate) threshold; intervals are run above it."
-      ]
+        "Continuous running is kept near but below the anaerobic (lactate) threshold; intervals are run above it. Above that threshold lactic acid builds up, so hard efforts can only be kept up briefly."
+      ],
+      "tip": "Show the calculation in steps: 220 minus age, then 60% and 80% of that answer. Zones and heart rate are an exam topic."
     },
     {
       "h": "Worked example: weight training for muscular endurance (illustrative)",
+      "b": "Muscular endurance is the ability of a muscle to keep working for a long time, so the plan uses light loads and many repetitions. The same principles apply as for running, but they look different in the gym.",
       "points": [
-        "Readiness: correct technique and warm-up sets with a light load come before any increase in load.",
-        "Specificity: the exercises chosen must use the muscles the activity uses.",
+        "Readiness: correct technique and warm-up sets with a light load come before any increase in load, so the performer is not injured when the weight rises.",
+        "Specificity: the exercises chosen must use the muscles the activity uses, so the endurance gained is in the right muscles.",
         "Progression: repetitions are added first, rising towards 15 or more per set; a small load is added once all repetitions are completed with good form.",
         "Overload through FITT: 2 to 3 sets of 15 or more repetitions, at a light load, using resistance exercises.",
-        "Rest and recovery: 30 to 60 seconds' rest between sets, and rest days between sessions that work the same muscles."
-      ]
+        "Rest and recovery: 30 to 60 seconds' rest between sets, and rest days between sessions that work the same muscles, so those muscles can recover."
+      ],
+      "tip": "Progression here has an order: add repetitions first, then a small load only when every repetition is done with good form."
     },
     {
       "h": "Work-recovery intervals in intervals, circuits and weight sets (typical guidance)",
+      "b": "A work-recovery interval pairs a period of effort with a period of recovery. The ratio tells you how much recovery follows each period of work, and it is the main way of adjusting the difficulty of interval training, circuits and weight sets.",
       "points": [
-        "Ratios of 1:1, 1:2 and 1:3 mean recovery equal to, twice, or three times the work period.",
-        "The harder the effort, the longer the recovery: a ratio of 1:3 or more suits maximal efforts.",
+        "Ratios of 1:1, 1:2 and 1:3 mean recovery equal to, twice, or three times the work period. For example, 30 seconds of work with 60 seconds of recovery is 1:2.",
+        "The harder the effort, the longer the recovery: a ratio of 1:3 or more suits maximal efforts, because the body needs more time to recover from them.",
         "Circuits follow the same logic: 30 seconds of work to 30 seconds of rest is a 1:1 ratio.",
-        "Weight training rests: longer rests between sets for strength, shorter rests for endurance."
-      ]
+        "Weight training rests: longer rests between sets for strength, so the muscles can lift heavy loads again, and shorter rests for endurance."
+      ],
+      "tip": "Exams ask for work-recovery intervals for a given method. Give the ratio and say why: more intense work needs a longer recovery."
     },
     {
       "h": "Warm-up and cool-down for each method",
+      "b": "Every session starts with a warm-up, which prepares the body for work, and ends with a cool-down, which brings it back to rest. The content differs for each method, so it should copy the movements of the session that follows.",
       "points": [
         "Running: an easy jog, then dynamic leg drills; the cool-down is a walk, then static stretches.",
         "Weight training: light cardio, mobility work and warm-up sets with a light load; the cool-down stretches the muscles used.",
         "Aerobics: low-impact moves that build up gradually; the cool-down slows the tempo, then stretches.",
         "Spinning and indoor rowing: each session starts with a warm-up and ends with a cool-down around the intervals or steady piece."
-      ]
+      ],
+      "tip": "Name the method's own warm-up and cool-down, such as warm-up sets with a light load for weights, not just a general 'warm up and stretch'."
     },
     {
       "h": "Monitoring the programme",
+      "b": "A programme only works if you check that it is working. Monitoring compares what the performer is doing with what was planned, so the programme can be changed when it needs to be.",
       "points": [
         "Heart-rate monitor or pulse checks confirm that heart rate sits in the target zone.",
         "Rating of perceived exertion: the performer's own score of how hard they are working, used alongside heart rate.",

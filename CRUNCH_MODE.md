@@ -298,13 +298,12 @@ Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the
 - The file loads with the subject page itself (`CRUNCH_FILES` in app.js), not the subject pack, because the subject
   home needs it.
 - Subject home: until it's set up, a dark Crunch bar sits above the section tiles, headed "Study less. Score more."
-  in the landing hero's type (Archivo 800, caps). Its right side is the word CRUNCH in orange, an SVG stretched to
-  fill the bar's height. Pressing it crushes the word down under a press (squashing it and narrowing Archivo to width
-  62), shudders, pops, then opens the setup inline: H1–H8, an AAC slider in 5% notches, and a live "N% of the
+  in the landing hero's type (Archivo 800, caps). Its left side is the word CRUNCH in orange, an SVG stretched to
+  fill the bar's height. Pressing it opens the setup inline: H1–H8, an AAC slider in 5% notches, and a live "N% of the
   course" readout (the share of study time cut) with the written mark needed.
   "Crunch Biology" saves `{set, on, grade, aac}` to localStorage `bb-crunch`. The bar is then replaced by a
   "Crunch Mode" tile (e.g. "H3 · cuts 73%"), which opens `#crunch`, the settings section: an on/off switch plus
-  the same controls, saved as they change.
+  the same controls, saved as they change. The default grade is H2, since H5 at an 80% AAC cuts 95% of the course.
 - When on, a point is hidden if its level ≥ (grade − w×AAC)/(1 − w). A block with nothing left disappears, heading and
   exam tip included. Each page ends "Crunch Mode hid X of Y points on this page" with Show them / Hide them (shown
   faded). Live reading skips faded points. Flashcards, tests and exam questions are untouched.

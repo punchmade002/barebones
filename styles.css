@@ -6037,12 +6037,12 @@ body.onboarding-open .timer-widget {
 
 .crunch-bar-head {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(13rem, 42%);
+  grid-template-columns: minmax(13rem, 42%) minmax(0, 1fr);
   align-items: stretch;
   gap: 1rem;
 }
 
-.crunch-bar-text { display: grid; align-self: center; gap: 0.5rem; padding: 1.25rem 0 1.25rem 1.4rem; }
+.crunch-bar-text { display: grid; align-self: center; gap: 0.5rem; padding: 1.25rem 1.4rem 1.25rem 0; }
 .crunch-bar-text p { margin: 0; color: #C9C5BC; font-size: 1.02rem; line-height: 1.45; }
 
 .crunch-hero {
@@ -6058,23 +6058,24 @@ body.onboarding-open .timer-widget {
 
 .crunch-hero span { display: block; }
 
-/* The word fills the bar's right side, stretched to its full height (an SVG drawn into the button's box).
-   Pressing it crushes it down under a press, squeezing Archivo to its narrowest width, then it pops. */
+/* The word fills the bar's left side, stretched to its full height (an SVG drawn into the button's box).
+   Pressing it opens the setup below. */
 .crunch-go {
   display: block;
   min-height: 7.5rem;
   width: 100%;
-  padding: 0.7rem 1.1rem 0.7rem 0;
+  position: relative;
+  padding: 0;
   background: none;
   border: 0;
   border-radius: 0;
   box-shadow: none;
   color: var(--accent);
-  transform-origin: 50% 100%;
   transition: color var(--t) var(--ease), opacity var(--t) var(--ease);
 }
 
-.crunch-go svg { display: block; width: 100%; height: 100%; overflow: visible; }
+/* Pinned inside the button so the bar sets the height and the word stretches to it (never the other way round) */
+.crunch-go svg { position: absolute; inset: 0.7rem 0 0.7rem 1.1rem; width: calc(100% - 1.1rem); height: calc(100% - 1.4rem); overflow: visible; }
 
 .crunch-go text {
   fill: currentColor;
@@ -6086,28 +6087,6 @@ body.onboarding-open .timer-widget {
 
 .crunch-go:hover { background: none; color: var(--accent-2); transform: none; }
 .crunch-go:focus-visible { outline: 2px solid var(--accent-3); outline-offset: -2px; border-radius: var(--r-md); }
-
-.crunch-go.is-crushing { animation: crunch-press 1100ms linear both; }
-.crunch-go.is-crushing text { animation: crunch-word 1100ms linear both; }
-
-/* Pressure builds slowly then faster, it shudders at full squeeze, then it pops back out */
-@keyframes crunch-press {
-  0% { transform: none; animation-timing-function: cubic-bezier(0.55, 0, 0.9, 0.55); }
-  56% { transform: scale(1.03, 0.5); }
-  60% { transform: translateX(-2px) scale(1.04, 0.44); }
-  64% { transform: translateX(2px) scale(1.04, 0.38); }
-  68% { transform: translateX(-2px) scale(1.05, 0.33); }
-  72% { transform: translateX(2px) scale(1.05, 0.29); }
-  76% { transform: scale(1.06, 0.26); filter: brightness(1.15); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-  86% { transform: scale(1.04, 1.12); filter: none; }
-  100% { transform: none; }
-}
-
-@keyframes crunch-word {
-  0% { font-variation-settings: "wdth" 125; font-weight: 900; animation-timing-function: cubic-bezier(0.55, 0, 0.9, 0.55); }
-  76% { font-variation-settings: "wdth" 62; font-weight: 900; animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-  90%, 100% { font-variation-settings: "wdth" 125; }
-}
 
 /* Open: the word steps back and the setup takes over (pressing it again closes) */
 .crunch-bar.is-open .crunch-go { opacity: 0.45; animation: crunch-settle 500ms var(--ease) both; }
@@ -6185,7 +6164,7 @@ body.onboarding-open .timer-widget {
 .crunch-settings.is-off .crunch-setup { opacity: 0.45; }
 
 @media (prefers-reduced-motion: reduce) {
-  .crunch-go, .crunch-go text, .crunch-bar .crunch-setup, .crunch-tile.is-new,
+  .crunch-bar .crunch-setup, .crunch-tile.is-new,
   .crunch-bar.is-open .crunch-go { animation: none !important; transition: none; }
 }
 
@@ -6355,7 +6334,8 @@ body.onboarding-open .timer-widget {
   .crunch-bar-head { grid-template-columns: 1fr; gap: 0.5rem; }
   .crunch-bar-text { padding: 1rem 1rem 0.5rem; }
   .crunch-go { min-height: 5.5rem; }
-  .crunch-go { padding: 0 1rem 0.75rem; }
+  .crunch-go { min-height: 6.5rem; }
+  .crunch-go svg { inset: 0.75rem 1rem 0; width: calc(100% - 2rem); height: calc(100% - 0.75rem); }
   .crunch-bar .crunch-setup { margin-inline: 1rem; }
   .crunch-field { justify-items: stretch; }
   .crunch-grades { width: 100%; justify-content: space-between; }
