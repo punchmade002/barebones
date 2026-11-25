@@ -2450,8 +2450,33 @@ function renderOutcomes() {
   const ownDeck = chapter.id === OWN_CHAPTER_ID;
   els.openFullNotes?.classList.toggle("hidden", ownDeck);
   const mine = ownCardList().filter((c) => ownDeck || c.outcomeId === outcome.id).map((c) => ({ ...c, own: true }));
-  const cards = [...cardsForOutcome(outcome, selectedSubjectId), ...mine];
+  // Crunch Mode: crunched flashcards leave the deck unless "Show crunched points" is on (see crunchFilter)
+  const crunchAt = ownDeck ? null : crunchFilter();
+  const sourceId = String(outcome.id).replace(/-core$/, "");
+  const crunchStates = cardsForOutcome(outcome, selectedSubjectId).map((c, i) => [c, crunchAt ? crunchAt.card(sourceId, i) : 0]);
+  const crunchedCards = crunchStates.filter(([, st]) => st === 1).length;
+  const crunchHiddenCards = crunchStates.filter(([, st]) => st).length;
+  const deck = crunchStates.filter(([, st]) => st === 0 || (st === 1 && crunchReveal)).map(([c, st]) => (st ? { ...c, crunched: true } : c));
+  const cards = [...deck, ...mine];
+  const crunchToggle = crunchedCards
+    ? `<button type="button" class="own-card-action crunch-card-toggle" data-crunch-reveal-cards>${crunchReveal ? "Hide crunched points" : `Show crunched points (${Math.max(1, Math.round((100 * crunchedCards) / crunchStates.length))}%)`}</button>`
+    : "";
   els.hierarchyPanel.classList.add("hidden");
+
+  // Every card here was crunched: say so instead of showing an empty card
+  if (!cards.length && crunchHiddenCards && !addingOwnCard) {
+    els.flashcardStudy.innerHTML = `
+      <header class="study-card-head">
+        <span class="study-card-count">Crunch Mode</span>
+        <span class="study-card-tools">${crunchToggle}<button type="button" class="own-card-action" id="addOwnCard">+ Add card</button></span>
+      </header>
+      <div class="study-face crunch-empty">Crunch Mode hid all of this subsection's flashcards.</div>`;
+    document.getElementById("addOwnCard").addEventListener("click", () => {
+      addingOwnCard = true;
+      renderOutcomes();
+    });
+    return;
+  }
 
   // An empty Your flashcards deck opens straight on the form
   if (addingOwnCard || (ownDeck && !cards.length)) {
@@ -2525,11 +2550,13 @@ function renderOutcomes() {
       </div>
       <span class="study-card-tools">
         ${card.own ? `<button type="button" class="own-card-action is-quiet" id="deleteOwnCard">Delete</button>` : ""}
+        ${card.crunched ? `<span class="crunch-card-tag">Crunched</span>` : ""}
+        ${crunchToggle}
         <button type="button" class="own-card-action" id="addOwnCard">+ Add card</button>
-        <span class="study-card-count">${cards.length ? studyIndex + 1 : 0}/${outcomeCardTotal(outcome) + mine.length}</span>
+        <span class="study-card-count">${cards.length ? studyIndex + 1 : 0}/${crunchAt ? cards.length : outcomeCardTotal(outcome) + mine.length}</span>
       </span>
     </header>
-    <div class="study-face">${showAnswer ? escapeHtml(card.definition) : `<strong>${escapeHtml(card.term)}</strong>`}</div>
+    <div class="study-face${card.crunched ? " is-crunched" : ""}">${showAnswer ? escapeHtml(card.definition) : `<strong>${escapeHtml(card.term)}</strong>`}</div>
     <div class="study-card-footer">
       <div class="study-controls">
         <button id="prevCard" class="button-secondary study-step" aria-label="Previous concept">←</button>
@@ -4885,10 +4912,10 @@ function renderFullNotesPage(step = 0) {
   const heading = outcome ? compactText(outcome.title || "") : chapter.title;
   const crunch = crunchFilter() ? crunchSettings() : null;
   els.fullNotesTitle.innerHTML = `
-    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)} · ${index + 1} of ${outcomes.length}` : ""}${crunch ? ` · Crunch ${crunch.grade}${crunchFirstPass(crunch) ? " first pass" : ""}` : ""}</span>
+    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)} · ${index + 1} of ${outcomes.length}` : ""}${crunch ? ` · Crunch ${crunch.grade}` : ""}</span>
     <span class="full-notes-heading">${escapeHtml(heading)}</span>`;
   const notesHtml = buildFullNotesHtml(chapter, outcome);
-  els.fullNotesBody.innerHTML = notesHtml + crunchPageNote() + (next ? `
+  els.fullNotesBody.innerHTML = crunchPageNote() + notesHtml + (next ? `
     <button class="notes-next-section" type="button" data-notes-step="1">
       <span>Next subsection</span>
       <strong>${escapeHtml(compactText(next.title || ""))}</strong>
@@ -4950,7 +4977,7 @@ function bindFullNotesPager() {
 const CRUNCH_KEY = "bb-crunch";
 const CRUNCH_GRADES = [["H1", 95], ["H2", 85], ["H3", 75], ["H4", 65], ["H5", 55], ["H6", 45], ["H7", 35], ["H8", 25]];
 let crunchReveal = false; // show hidden points, dimmed
-let crunchPage = { hidden: 0, total: 0 }; // counted while the page's notes are built
+let crunchPage = { hidden: 0, crunched: 0, total: 0 }; // counted while the page's notes are built
 
 function crunchData(subjectId = selectedSubjectId) {
   return window.CRUNCH?.[subjectId] || null;
@@ -4977,37 +5004,40 @@ function crunchNeed(data, settings) {
   return w ? (grade - w * aac) / (1 - w) : grade;
 }
 
-// null when Crunch Mode is off (or the subject has no Crunch data); otherwise "is this point hidden?"
-// "Most marks first": for an H1 or H2 the course barely shrinks, so a first pass keeps only what an H3 needs.
+// Most marks first: for an H1 or H2 the course barely shrinks, so the notes start with only what an H3 needs.
 // A lower level means a point earns more marks, so H3's stricter cut-off keeps the highest-value points.
 const CRUNCH_FIRST_PASS = "H3";
-const crunchFirstPass = (s) => Boolean(s.first) && (s.grade === "H1" || s.grade === "H2");
+const crunchFirstPass = (s) => s.grade === "H1" || s.grade === "H2";
 const crunchEffective = (s) => (crunchFirstPass(s) ? { ...s, grade: CRUNCH_FIRST_PASS } : s);
 
+// null when Crunch Mode is off (or the subject has no Crunch data); otherwise each point's state:
+// 0 shown, 1 crunched ("Show crunched points" brings it back), 2 gone (low value, with "Completely hide" on).
+// .card(outcomeId, index) gives the same for a flashcard.
 function crunchFilter(subjectId = selectedSubjectId) {
   const data = crunchData(subjectId), settings = crunchSettings(subjectId);
   if (!data || !settings.on) return null;
-  const need = crunchNeed(data, crunchEffective(settings));
-  return (outcomeId, key) => {
-    const level = data.levels[outcomeId]?.[key]?.[0];
-    return level != null && level >= need;
-  };
+  const core = crunchNeed(data, crunchEffective(settings)), target = crunchNeed(data, settings);
+  const state = (level) => (level == null || level < core ? 0 : settings.hideAll && level >= target ? 2 : 1);
+  const filter = (outcomeId, key) => state(data.levels[outcomeId]?.[key]?.[0]);
+  filter.card = (outcomeId, index) => state(data.cards?.[outcomeId]?.[index]);
+  return filter;
 }
 
 function crunchPageNote() {
   if (!crunchFilter() || !crunchPage.total) return "";
-  const { hidden, total } = crunchPage;
-  if (!hidden) return `<div class="crunch-note"><span>Crunch Mode keeps all ${total} points on this page.</span></div>`;
-  const what = hidden === total ? `all ${total} points` : `${hidden} of ${total} points`;
+  const { hidden, crunched, total } = crunchPage;
+  if (!hidden) return `<div class="crunch-note"><span>Crunch Mode keeps all of this page.</span></div>`;
+  const pct = Math.max(1, Math.round((100 * hidden) / total));
+  const text = crunchReveal && crunched ? "Showing crunched points, faded." : hidden === total ? "Crunch Mode hid all of this page." : `Crunch Mode hid ${pct}% of this page.`;
   return `
     <div class="crunch-note">
-      <span>${crunchReveal ? `Showing the ${hidden} hidden points, faded.` : `Crunch Mode hid ${what} on this page.`}</span>
-      <button class="crunch-reveal" type="button" data-crunch-reveal>${crunchReveal ? "Hide them" : "Show them"}</button>
+      <span>${text}</span>
+      ${crunched ? `<button class="crunch-reveal" type="button" data-crunch-reveal>${crunchReveal ? "Hide crunched points" : "Show crunched points"}</button>` : ""}
     </div>`;
 }
 
 // Subjects with Crunch data. The file loads with the subject page itself: the home shows the Crunch bar or tile.
-const CRUNCH_FILES = { biology: "./biology-crunch.js?v=2", pe: "./pe-crunch.js?v=2" };
+const CRUNCH_FILES = { biology: "./biology-crunch.js?v=3", pe: "./pe-crunch.js?v=2" };
 let crunchDraft = null; // the bar's setup before it is saved: { grade, aac }
 let crunchJustSet = false; // the tile's first appearance gets an entrance
 
@@ -5041,28 +5071,27 @@ function crunchReadoutHtml(data, s) {
   const need = crunchNeed(data, crunchEffective(s));
   const st = crunchStats(data, need);
   const withAac = data.aac ? ` with ${Number(s.aac) || 0}% in your ${escapeHtml(data.aac.name)}` : "";
-  const fullNeed = crunchNeed(data, s);
-  const why = first
-    ? `First pass: the points worth the most marks, enough for an ${CRUNCH_FIRST_PASS} (${Math.round(need)}% on the written paper${withAac}). Turn it off to add the rest for your ${s.grade}, which ${fullNeed > 100 ? "keeps every point" : `cuts ${crunchCut(crunchStats(data, fullNeed))}% of the course`}.`
+  const back = s.hideAll ? "Low-value points are hidden completely." : "Show crunched points in your notes and flashcards brings them back.";
+  const why = first && need <= 100
+    ? `Most marks first: you start with the points worth the most marks, enough for an ${CRUNCH_FIRST_PASS} (${Math.round(need)}% on the written paper${withAac}). Show crunched points in your notes and flashcards adds the rest for your ${s.grade}.`
     : need > 100
     ? `${s.grade} needs over 100% on the written paper${withAac}, so you need every point. Try a lower grade or a higher ${escapeHtml(data.aac?.short || "AAC")} mark.`
     : need <= 0
     ? `Your ${escapeHtml(data.aac?.name || "coursework")} alone reaches ${s.grade}, so the notes can all go.`
-    : `You need ${Math.round(need)}% on the written paper${withAac}. Crunch Mode hides ${st.hidden.toLocaleString("en-IE")} of ${st.total.toLocaleString("en-IE")} points, the ones the last ${data.years.length} papers rewarded least.`;
+    : `You need ${Math.round(need)}% on the written paper${withAac}. Crunch Mode hides ${Math.round((100 * st.hidden) / st.total)}% of the points, the ones the last ${data.years.length} papers rewarded least. ${back}`;
   return `
     <p class="crunch-readout"><span class="crunch-hours">${need > 100 ? 0 : crunchCut(st)}%</span>
       <span class="crunch-hours-unit">of the course<small>cut from your study time</small></span></p>
     <p class="crunch-why">${why}</p>`;
 }
 
-// Offered only for H1 and H2, where Crunch can cut little
-function crunchFirstHtml(s) {
-  if (s.grade !== "H1" && s.grade !== "H2") return "";
+// Off by default: crunched points stay one tap away in the notes and flashcards
+function crunchHideHtml(s) {
   return `
-    <label class="crunch-switch crunch-first">
-      <input type="checkbox" role="switch" data-crunch-first ${s.first ? "checked" : ""}>
+    <label class="crunch-switch crunch-option">
+      <input type="checkbox" role="switch" data-crunch-hide ${s.hideAll ? "checked" : ""}>
       <span class="crunch-switch-track" aria-hidden="true"></span>
-      <span><strong>Most marks first</strong><small>Condense further: learn the points worth the most marks first, then add the rest.</small></span>
+      <span><strong>Completely hide low-value points</strong><small>They won't come back with Show crunched points.</small></span>
     </label>`;
 }
 
@@ -5074,7 +5103,7 @@ function crunchControlsHtml(data, s) {
         ${CRUNCH_GRADES.map(([h]) => `<button type="button" role="radio" aria-checked="${h === s.grade}" data-crunch-grade="${h}">${h}</button>`).join("")}
       </div>
     </div>
-    <div class="crunch-first-slot">${crunchFirstHtml(s)}</div>
+    ${crunchHideHtml(s)}
     ${data.aac ? `
     <div class="crunch-field crunch-aac">
       <label class="crunch-label" for="crunchAac">Expected ${escapeHtml(data.aac.short || "AAC")} mark <output id="crunchAacValue" for="crunchAac">${Number(s.aac) || 0}%</output></label>
@@ -5118,7 +5147,7 @@ function withCrunchTile(tilesHtml) {
   const data = crunchData(PAGE_SUBJECT), s = crunchSettings(PAGE_SUBJECT);
   if (!data || !s.set) return tilesHtml;
   const need = crunchNeed(data, crunchEffective(s));
-  const grade = crunchFirstPass(s) ? `${s.grade} first pass` : s.grade;
+  const grade = s.grade;
   const meta = !s.on ? "Off" : need > 100 ? `${grade} · keeps everything` : `${grade} · cuts ${crunchCut(crunchStats(data, need))}%`;
   const tile = `
     <li><a class="section-tile crunch-tile${crunchJustSet ? " is-new" : ""}" href="app/${PAGE_SUBJECT}/#crunch">${iconHtml("crunch")}<span>Crunch Mode<small>${meta}</small></span></a></li>`;
@@ -5138,7 +5167,7 @@ function crunchSettingsPageHtml() {
         <span>Hide the points I don't need</span>
       </label>
       <div class="crunch-setup" data-crunch-setup="saved">${crunchControlsHtml(data, s)}</div>
-      <p class="crunch-foot">Only the notes change. Each notes page says how many points it hid and can show them, faded.</p>
+      <p class="crunch-foot">Only the notes and flashcards change. Each has "Show crunched points" to bring the hidden ones back, faded.</p>
     </div>`;
 }
 
@@ -5147,7 +5176,7 @@ function crunchStateKey() {
   if (!crunchData(PAGE_SUBJECT)) return "";
   if (subjectSection === "crunch") return "ready";
   const s = crunchSettings(PAGE_SUBJECT);
-  return [s.set, s.on, s.grade, s.aac, s.first].join(",");
+  return [s.set, s.on, s.grade, s.aac, s.hideAll].join(",");
 }
 
 function repaintCrunchBar() {
@@ -5164,7 +5193,6 @@ function updateCrunchSetup(setup, patch) {
   else saveCrunchSettings({ ...patch, on: true }, PAGE_SUBJECT);
   const s = draft ? crunchDraft : crunchSettings(PAGE_SUBJECT);
   setup.querySelectorAll("[data-crunch-grade]").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.crunchGrade === s.grade)));
-  if ("grade" in patch) setup.querySelector(".crunch-first-slot").innerHTML = crunchFirstHtml(s);
   setup.querySelector(".crunch-result").innerHTML = crunchReadoutHtml(crunchData(PAGE_SUBJECT), s);
   if (!draft) {
     const toggle = document.getElementById("crunchOn");
@@ -5187,7 +5215,7 @@ function bindCrunch() {
     if (go) {
       if (crunchDraft) { crunchDraft = null; repaintCrunchBar(); return; }
       const s = crunchSettings(PAGE_SUBJECT);
-      crunchDraft = { grade: s.grade, aac: s.aac, first: Boolean(s.first) };
+      crunchDraft = { grade: s.grade, aac: s.aac, hideAll: Boolean(s.hideAll) };
       repaintCrunchBar();
       panel.querySelector('.crunch-setup [aria-checked="true"]')?.focus();
       return;
@@ -5211,8 +5239,8 @@ function bindCrunch() {
     updateCrunchSetup(event.target.closest("[data-crunch-setup]"), { aac });
   });
   panel.addEventListener("change", (event) => {
-    if (event.target.matches("[data-crunch-first]")) {
-      updateCrunchSetup(event.target.closest("[data-crunch-setup]"), { first: event.target.checked });
+    if (event.target.matches("[data-crunch-hide]")) {
+      updateCrunchSetup(event.target.closest("[data-crunch-setup]"), { hideAll: event.target.checked });
       return;
     }
     if (event.target.id !== "crunchOn") return;
@@ -5224,10 +5252,18 @@ function bindCrunch() {
     crunchReveal = !crunchReveal;
     rerenderCrunch();
   });
+  // "Show crunched points" is one switch for the notes and the flashcards
+  els.flashcardStudy.addEventListener("click", (event) => {
+    if (!event.target.closest("[data-crunch-reveal-cards]")) return;
+    crunchReveal = !crunchReveal;
+    studyIndex = 0;
+    showAnswer = false;
+    renderOutcomes();
+  });
 }
 
 function buildFullNotesHtml(chapter, outcome = null) {
-  crunchPage = { hidden: 0, total: 0 };
+  crunchPage = { hidden: 0, crunched: 0, total: 0 };
   const source = getOriginalChapter(chapter.id);
   if (source && Array.isArray(source.learningOutcomes) && source.learningOutcomes.length) {
     // If chapter.id is an LO id (not the chapter's own id), show only that LO's notes.
@@ -5252,27 +5288,32 @@ function buildFullNotesHtml(chapter, outcome = null) {
           ? lo.notes
           : (lo.keyTerms || []).map((point) => ({ h: point.term, b: point.definition }));
         // Crunch Mode only applies to authored notes, whose points carry ids "<block>.<point>"
-        const hiddenAt = (lo.notes || []).length ? crunchFilter() : null;
+        const stateAt = (lo.notes || []).length ? crunchFilter() : null;
+        // 0 shown, 1 crunched, 2 gone (see crunchFilter)
         const cut = (key) => {
-          if (!hiddenAt) return false;
+          if (!stateAt) return 0;
           crunchPage.total++;
-          const hidden = hiddenAt(lo.id, key);
-          if (hidden) crunchPage.hidden++;
-          return hidden;
+          const state = stateAt(lo.id, key);
+          if (state) crunchPage.hidden++;
+          if (state === 1) crunchPage.crunched++;
+          return state;
         };
+        const visible = (state) => state === 0 || (state === 1 && crunchReveal);
         const noteHtml = points
           .map((n, bi) => {
-            const paraCut = n.b && String(n.b).trim() ? cut(`${bi}.b`) : false;
-            const items = Array.isArray(n.points) ? n.points.map((pt, pi) => [pt, String(pt).trim() ? cut(`${bi}.${pi}`) : false]) : [];
+            const para = n.b && String(n.b).trim() ? cut(`${bi}.b`) : 0;
+            const items = Array.isArray(n.points) ? n.points.map((pt, pi) => [pt, String(pt).trim() ? cut(`${bi}.${pi}`) : 0]) : [];
+            const showPara = Boolean(n.b) && visible(para);
+            const shown = items.filter(([, c]) => visible(c));
             const hasContent = Boolean(n.b) || items.length;
-            const allCut = hasContent && !(n.b && !paraCut) && !items.some(([, c]) => !c);
-            if (allCut && !crunchReveal) return ""; // nothing left: drop the heading and tip too
-            const shown = items.filter(([, c]) => !c || crunchReveal);
+            if (hasContent && !showPara && !shown.length) return ""; // nothing left: drop the heading and tip too
+            // a block left with only crunched points fades as a whole
+            const allCut = hasContent && !(showPara && para === 0) && !shown.some(([, c]) => c === 0);
             const faded = (c) => (c ? ' class="is-crunched"' : "");
             return `
               <div class="note-block${allCut ? " is-crunched" : ""}">
                 <h5>${escapeHtml(compactText(n.h || ""))}</h5>
-                ${n.b && (!paraCut || crunchReveal) ? `<p${faded(paraCut && !allCut)}>${escapeHtml(compactText(n.b))}</p>` : ""}
+                ${showPara ? `<p${faded(para && !allCut)}>${escapeHtml(compactText(n.b))}</p>` : ""}
                 ${shown.length
                   ? `<ul class="note-points">${shown
                       .map(([pt, c]) => `<li${faded(c && !allCut)}>${escapeHtml(compactText(pt))}</li>`)

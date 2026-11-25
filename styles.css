@@ -6146,15 +6146,20 @@ body.onboarding-open .timer-widget {
 .crunch-bar .crunch-ticks { color: #9C988E; }
 .crunch-bar .button-secondary { background: transparent; border-color: rgba(237, 235, 230, 0.22); color: #EDEBE6; }
 
-/* "Most marks first" (H1 and H2) */
-.crunch-first { align-items: flex-start; max-width: 34rem; font-weight: 400; }
-.crunch-first .crunch-switch-track { margin-top: 0.1rem; }
-.crunch-first strong { display: block; font-weight: 700; }
-.crunch-first small { display: block; margin-top: 0.15rem; color: var(--muted); font-size: 0.86rem; line-height: 1.45; }
-.crunch-first-slot:empty { display: none; }
+/* "Completely hide low-value points" */
+.crunch-option { align-items: flex-start; max-width: 34rem; font-weight: 400; }
+.crunch-option .crunch-switch-track { margin-top: 0.1rem; }
+.crunch-option strong { display: block; font-weight: 700; }
+.crunch-option small { display: block; margin-top: 0.15rem; color: var(--muted); font-size: 0.86rem; line-height: 1.45; }
 .crunch-bar .crunch-switch { color: #F6F4EF; }
-.crunch-bar .crunch-first small { color: #9C988E; }
+.crunch-bar .crunch-option small { color: #9C988E; }
 .crunch-bar .crunch-switch-track { background: #34312B; border-color: rgba(237, 235, 230, 0.18); }
+
+/* Flashcards: the toggle, and crunched cards when shown */
+.crunch-card-toggle { color: var(--accent-strong); }
+.study-face.is-crunched { color: var(--muted); }
+.crunch-card-tag { padding: 0.15rem 0.5rem; border-radius: var(--r-full); background: var(--panel-2); color: var(--muted); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+.study-face.crunch-empty { color: var(--muted); font-size: 1rem; }
 
 /* The tile it becomes once set up */
 .crunch-tile > span:last-child { font-family: "Archivo", var(--font); font-weight: 800; letter-spacing: -0.02em; }
@@ -6306,7 +6311,7 @@ body.onboarding-open .timer-widget {
 #fullNotesScreen .full-notes-body .note-block.is-crunched .is-crunched { opacity: 1; }
 #fullNotesScreen .full-notes-body li.is-crunched::marker { color: var(--muted); }
 
-#fullNotesScreen .full-notes-body .lo-block:has(+ .crunch-note) { margin-bottom: 1.25rem; }
+#fullNotesScreen .full-notes-body > .crunch-note:first-child { margin: 0 0 1.25rem; }
 
 .crunch-note {
   display: flex;

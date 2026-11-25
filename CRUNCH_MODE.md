@@ -290,7 +290,7 @@ Cuts at 85/75/65/55% overall (AAC 80): 46/75/91/95%, against 44/73/91/95% before
 Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the question asks for the non-eukaryotic term.
 
 ## Crunch Mode in the app (prototype, 2026-11-25, Biology only)
-- `deno run -A scripts/crunch_export.js biology` → `biology-crunch.js` (177 KB). It holds each note point as
+- `deno run -A scripts/crunch_export.js biology` → `biology-crunch.js` (187 KB). It holds each note point as
   `[level, study minutes]`, keyed `{outcome id: {"block.point": …}}`. The level is the written-paper mark at which the
   point is hidden, taken from the map's scoring and year-by-year backtest at the map defaults. Study minutes assume
   40 words a minute of active learning, ×1.5 for points costed 2 (Biology: 135 h in all). Re-run it after rebuilding
@@ -301,12 +301,23 @@ Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the
   in the landing hero's type (Archivo 800, caps). Its left side is the word CRUNCH in orange, an SVG stretched to
   fill the bar's height. Pressing it opens the setup inline: H1–H8, an AAC slider in 5% notches, and a live "N% of the
   course" readout (the share of study time cut) with the written mark needed.
-  "Crunch Biology" saves `{set, on, grade, aac}` to localStorage `bb-crunch`. The bar is then replaced by a
+  "Crunch Biology" saves `{set, on, grade, aac, hideAll}` to localStorage `bb-crunch`. The bar is then replaced by a
   "Crunch Mode" tile (e.g. "H3 · cuts 73%"), which opens `#crunch`, the settings section: an on/off switch plus
   the same controls, saved as they change. The default grade is H2, since H5 at an 80% AAC cuts 95% of the course.
-- When on, a point is hidden if its level ≥ (grade − w×AAC)/(1 − w). A block with nothing left disappears, heading and
-  exam tip included. Each page ends "Crunch Mode hid X of Y points on this page" with Show them / Hide them (shown
-  faded). Live reading skips faded points. Flashcards, tests and exam questions are untouched.
+- Flashcards (each subsection's key terms) have no points of their own, so the export also writes
+  `cards: {subsection: [level per key term]}`. Each card takes the level of the note point sharing the most words with
+  it, the term's words counting triple (Biology: 1,709 cards, all matched). A subject without `cards` (PE so far) never
+  crunches its flashcards.
+- When on, each point and card has one of three states, with need = (grade − w×AAC)/(1 − w):
+  0 shown (level < core need), 1 crunched (hidden; "Show crunched points" brings it back, faded),
+  2 gone (only with "Completely hide low-value points", off by default: level ≥ the target's need).
+  Most marks first is automatic: for H1 and H2 the core need is H3's, so they start with the highest-value points and
+  "Show crunched points" adds the rest for their grade. For H3–H8 core and target are the same.
+- Notes: the page opens with "Crunch Mode hid X of Y points on this page" and, when any are recoverable,
+  Show/Hide crunched points. A block with nothing visible disappears, heading and exam tip included. Live reading
+  skips faded points. Flashcards: crunched cards leave the deck; "Show crunched points (N)" in the card tools puts
+  them back with a "Crunched" tag (one switch shared with the notes). Progress totals still count every card.
+  Tests and exam questions are untouched.
 - Feel check: at H5 with an 80% AAC the written paper needs 38%, so 95% of points go, and many pages are empty.
   At H2 (88% written), about 45% go.
 
