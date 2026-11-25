@@ -309,3 +309,21 @@ Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the
   faded). Live reading skips faded points. Flashcards, tests and exam questions are untouched.
 - Feel check: at H5 with an 80% AAC the written paper needs 38%, so 95% of points go, and many pages are empty.
   At H2 (88% written), about 45% go.
+
+## PE (2026-11-25)
+- **Scope.** The five physical activity areas (Aquatics, Artistic, Athletics, Games, Personal Exercise) are left out:
+  never scored, never hidden (`LEFT_OUT` in `scripts/crunch_points.py`, which `crunch_prereqs.py` also uses). They serve
+  the Performance Assessment, and the 2022–2026 papers gave them 34 marks in all. The other 8 chapters: 39 subsections,
+  2,221 points, about 22 hours of study.
+- **Notes version.** Built on master's rewritten PE notes (7144af6a, 2026-11-23). uxtinker had an older, part-rewritten
+  `content/pe`, so its `content/pe` and `pe-notes.js` were replaced with master's copies (`pe-notes.js?v=4`).
+- **Graphs.** Subsections: 1 Sonnet agent, 48 links (`drafts/crunch/pe/prereq-prompt.md`, catalogue.txt). Points: Biology-style
+  packages, 2–4 per Sonnet job (`drafts/crunch/pe/point-prompt.md`, jobs.json, jobs-v2.json for the re-run on master's
+  notes; the first run's stale files are in point-links-v1/). Result: 1,144 links, 165 cost-2 items (7%, lower than
+  Biology's 20%), 2 two-way loops.
+- **Paper** (`crunch_map.py` "pe"): Section A best 10 of 12 (80/250), case study (50/250), Section C best 3 of 5
+  (120/250). No point tags: each part's marks spread over its subsection's points, as for History. Only 5 HL papers
+  (2022–2026), so the backtest has 3 test years, each trained on 2–4 papers: noisy.
+- **Coursework** is the "AAC" at weight 0.5 (project 20% + performance 30%), with `short: "coursework"` for the UI labels.
+- **Cuts** at a written-paper target of 88/72/55/38%: 18/38/53/75% of study effort. App: `pe-crunch.js`, registered in
+  `CRUNCH_FILES`. All 2,221 point keys match the rendered notes. H3 with 80% coursework cuts 38%.
