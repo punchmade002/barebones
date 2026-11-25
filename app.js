@@ -4885,7 +4885,7 @@ function renderFullNotesPage(step = 0) {
   const heading = outcome ? compactText(outcome.title || "") : chapter.title;
   const crunch = crunchFilter() ? crunchSettings() : null;
   els.fullNotesTitle.innerHTML = `
-    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)} · ${index + 1} of ${outcomes.length}` : ""}${crunch ? ` · Crunch ${crunch.grade}` : ""}</span>
+    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)} · ${index + 1} of ${outcomes.length}` : ""}${crunch ? ` · Crunch ${crunch.grade}${crunchFirstPass(crunch) ? " first pass" : ""}` : ""}</span>
     <span class="full-notes-heading">${escapeHtml(heading)}</span>`;
   const notesHtml = buildFullNotesHtml(chapter, outcome);
   els.fullNotesBody.innerHTML = notesHtml + crunchPageNote() + (next ? `
@@ -4978,10 +4978,16 @@ function crunchNeed(data, settings) {
 }
 
 // null when Crunch Mode is off (or the subject has no Crunch data); otherwise "is this point hidden?"
+// "Most marks first": for an H1 or H2 the course barely shrinks, so a first pass keeps only what an H3 needs.
+// A lower level means a point earns more marks, so H3's stricter cut-off keeps the highest-value points.
+const CRUNCH_FIRST_PASS = "H3";
+const crunchFirstPass = (s) => Boolean(s.first) && (s.grade === "H1" || s.grade === "H2");
+const crunchEffective = (s) => (crunchFirstPass(s) ? { ...s, grade: CRUNCH_FIRST_PASS } : s);
+
 function crunchFilter(subjectId = selectedSubjectId) {
   const data = crunchData(subjectId), settings = crunchSettings(subjectId);
   if (!data || !settings.on) return null;
-  const need = crunchNeed(data, settings);
+  const need = crunchNeed(data, crunchEffective(settings));
   return (outcomeId, key) => {
     const level = data.levels[outcomeId]?.[key]?.[0];
     return level != null && level >= need;
@@ -5031,10 +5037,14 @@ function crunchStats(data, need) {
 const crunchCut = (st) => (st.savedHours > 0 && st.savedHours < st.allHours / 100 ? "<1" : String(Math.round((100 * st.savedHours) / st.allHours)));
 
 function crunchReadoutHtml(data, s) {
-  const need = crunchNeed(data, s);
+  const first = crunchFirstPass(s);
+  const need = crunchNeed(data, crunchEffective(s));
   const st = crunchStats(data, need);
   const withAac = data.aac ? ` with ${Number(s.aac) || 0}% in your ${escapeHtml(data.aac.name)}` : "";
-  const why = need > 100
+  const fullNeed = crunchNeed(data, s);
+  const why = first
+    ? `First pass: the points worth the most marks, enough for an ${CRUNCH_FIRST_PASS} (${Math.round(need)}% on the written paper${withAac}). Turn it off to add the rest for your ${s.grade}, which ${fullNeed > 100 ? "keeps every point" : `cuts ${crunchCut(crunchStats(data, fullNeed))}% of the course`}.`
+    : need > 100
     ? `${s.grade} needs over 100% on the written paper${withAac}, so you need every point. Try a lower grade or a higher ${escapeHtml(data.aac?.short || "AAC")} mark.`
     : need <= 0
     ? `Your ${escapeHtml(data.aac?.name || "coursework")} alone reaches ${s.grade}, so the notes can all go.`
@@ -5045,6 +5055,17 @@ function crunchReadoutHtml(data, s) {
     <p class="crunch-why">${why}</p>`;
 }
 
+// Offered only for H1 and H2, where Crunch can cut little
+function crunchFirstHtml(s) {
+  if (s.grade !== "H1" && s.grade !== "H2") return "";
+  return `
+    <label class="crunch-switch crunch-first">
+      <input type="checkbox" role="switch" data-crunch-first ${s.first ? "checked" : ""}>
+      <span class="crunch-switch-track" aria-hidden="true"></span>
+      <span><strong>Most marks first</strong><small>Condense further: learn the points worth the most marks first, then add the rest.</small></span>
+    </label>`;
+}
+
 function crunchControlsHtml(data, s) {
   return `
     <div class="crunch-field">
@@ -5053,6 +5074,7 @@ function crunchControlsHtml(data, s) {
         ${CRUNCH_GRADES.map(([h]) => `<button type="button" role="radio" aria-checked="${h === s.grade}" data-crunch-grade="${h}">${h}</button>`).join("")}
       </div>
     </div>
+    <div class="crunch-first-slot">${crunchFirstHtml(s)}</div>
     ${data.aac ? `
     <div class="crunch-field crunch-aac">
       <label class="crunch-label" for="crunchAac">Expected ${escapeHtml(data.aac.short || "AAC")} mark <output id="crunchAacValue" for="crunchAac">${Number(s.aac) || 0}%</output></label>
@@ -5077,7 +5099,7 @@ function crunchBarHtml() {
         </button>
         <div class="crunch-bar-text">
           <h2 class="crunch-hero"><span>Study less.</span> <span>Score more.</span></h2>
-          <p>Cut ${title} down to what your grade needs.</p>
+          <p class="crunch-only">Only on <img src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones"></p>
         </div>
       </div>
       ${open ? `
@@ -5095,8 +5117,9 @@ function crunchBarHtml() {
 function withCrunchTile(tilesHtml) {
   const data = crunchData(PAGE_SUBJECT), s = crunchSettings(PAGE_SUBJECT);
   if (!data || !s.set) return tilesHtml;
-  const need = crunchNeed(data, s);
-  const meta = !s.on ? "Off" : need > 100 ? `${s.grade} · keeps everything` : `${s.grade} · cuts ${crunchCut(crunchStats(data, need))}%`;
+  const need = crunchNeed(data, crunchEffective(s));
+  const grade = crunchFirstPass(s) ? `${s.grade} first pass` : s.grade;
+  const meta = !s.on ? "Off" : need > 100 ? `${grade} · keeps everything` : `${grade} · cuts ${crunchCut(crunchStats(data, need))}%`;
   const tile = `
     <li><a class="section-tile crunch-tile${crunchJustSet ? " is-new" : ""}" href="app/${PAGE_SUBJECT}/#crunch">${iconHtml("crunch")}<span>Crunch Mode<small>${meta}</small></span></a></li>`;
   crunchJustSet = false;
@@ -5124,7 +5147,7 @@ function crunchStateKey() {
   if (!crunchData(PAGE_SUBJECT)) return "";
   if (subjectSection === "crunch") return "ready";
   const s = crunchSettings(PAGE_SUBJECT);
-  return [s.set, s.on, s.grade, s.aac].join(",");
+  return [s.set, s.on, s.grade, s.aac, s.first].join(",");
 }
 
 function repaintCrunchBar() {
@@ -5141,6 +5164,7 @@ function updateCrunchSetup(setup, patch) {
   else saveCrunchSettings({ ...patch, on: true }, PAGE_SUBJECT);
   const s = draft ? crunchDraft : crunchSettings(PAGE_SUBJECT);
   setup.querySelectorAll("[data-crunch-grade]").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.crunchGrade === s.grade)));
+  if ("grade" in patch) setup.querySelector(".crunch-first-slot").innerHTML = crunchFirstHtml(s);
   setup.querySelector(".crunch-result").innerHTML = crunchReadoutHtml(crunchData(PAGE_SUBJECT), s);
   if (!draft) {
     const toggle = document.getElementById("crunchOn");
@@ -5162,7 +5186,7 @@ function bindCrunch() {
     if (go) {
       if (crunchDraft) { crunchDraft = null; repaintCrunchBar(); return; }
       const s = crunchSettings(PAGE_SUBJECT);
-      crunchDraft = { grade: s.grade, aac: s.aac };
+      crunchDraft = { grade: s.grade, aac: s.aac, first: Boolean(s.first) };
       repaintCrunchBar();
       panel.querySelector('.crunch-setup [aria-checked="true"]')?.focus();
       return;
@@ -5186,6 +5210,10 @@ function bindCrunch() {
     updateCrunchSetup(event.target.closest("[data-crunch-setup]"), { aac });
   });
   panel.addEventListener("change", (event) => {
+    if (event.target.matches("[data-crunch-first]")) {
+      updateCrunchSetup(event.target.closest("[data-crunch-setup]"), { first: event.target.checked });
+      return;
+    }
     if (event.target.id !== "crunchOn") return;
     saveCrunchSettings({ on: event.target.checked }, PAGE_SUBJECT);
     event.target.closest(".crunch-settings")?.classList.toggle("is-off", !event.target.checked);
