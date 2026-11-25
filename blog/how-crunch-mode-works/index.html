@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>/* signed-in state: mirrors the app's own check */(function(){try{var s=localStorage.getItem("bb_has_auth_session")==="1";if(!s){var a=JSON.parse(localStorage.getItem("bare-bones-app-v4")||"null");s=!!(a&&a.session&&a.session.currentUser);}if(s)document.documentElement.classList.add("bb-signed-in");}catch(e){}})();</script>
+<title>How Crunch Mode works | barebones blog</title>
+<meta name="description" content="How barebones Crunch Mode decides which notes your target grade needs, and how it is checked against real Leaving Cert papers." />
+<link rel="canonical" href="https://barebones.ie/blog/how-crunch-mode-works/" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/design_handoff_barebones_landing/styles.css" />
+<link rel="stylesheet" href="/seo-pages.css" />
+<style>
+  .blog-page { max-width: 760px; margin: 0 auto; }
+  .blog-page .np-block p, .blog-page .np-block li { line-height: 1.65; }
+  .blog-page .np-block p { margin: 0 0 14px; }
+  .blog-page .np-block a, .blog-page .np-standfirst a { color: var(--orange-700); text-decoration: underline; text-underline-offset: 3px; }
+  .blog-meta { font-weight: 600; color: var(--ink-2); margin: 10px 0 0; }
+  .blog-sum { margin: 6px 0 18px; padding: 14px 18px; border-radius: 14px; background: var(--paper, #fff); font-weight: 600; }
+  .blog-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+  .blog-list a { display: block; padding: 22px 24px; border-radius: 18px; background: var(--paper, #fff); color: inherit; text-decoration: none; }
+  .blog-list a:hover h2 { color: var(--orange-700); }
+  .blog-list h2 { margin: 0 0 6px; }
+  .blog-list p { margin: 0; color: var(--ink-2); }
+  .blog-list .blog-meta { margin: 10px 0 0; font-size: 0.9em; }
+</style>
+</head>
+<body class="np">
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/" aria-label="barebones home">
+      <img src="/design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" width="166" height="52" />
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/leaving-cert-notes/">Notes</a>
+      <a href="/#method">Method</a>
+      <a href="/#features">Features</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="/app.html#signin" class="btn btn-ghost np-signin auth-out">Sign in</a>
+      <a href="/app.html#signup" class="btn btn-primary auth-out">Get started free</a>
+      <a href="/app.html" class="btn btn-primary auth-in">Open app</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="wrap np-page">
+  <article class="np-article blog-page">
+    <header class="np-head">
+      <h1><span class="np-kicker">barebones blog</span>How Crunch Mode works</h1>
+      <p class="np-standfirst">Crunch Mode cuts a subject down to the notes your target grade actually needs. Here is how it decides what to keep, and how we check it against real exam papers.</p>
+      <p class="blog-meta">25 November 2026</p>
+    </header>
+    <nav class="np-toc" aria-label="Contents"><ol><li><a href="#what">What it does</a></li><li><a href="#aac">Your AAC counts first</a></li><li><a href="#score">How each point is scored</a></li><li><a href="#check">Checked against real papers</a></li><li><a href="#first">Most marks first</a></li><li><a href="#time">What "less study" means</a></li><li><a href="#limits">What it can't do</a></li></ol></nav>
+    <section class="np-block" id="what">
+      <h2>What it does</h2>
+      <p>You tell Crunch Mode the grade you're aiming for and the mark you expect in your coursework. It then hides the note points you're least likely to need for that grade, so you spend your time on the ones that earn marks.</p>
+      <p>Nothing is deleted. Every hidden point is one tap away with <strong>Show crunched points</strong>, in your notes and in your flashcards. If you'd rather not see low-value points at all, switch on <strong>Completely hide low-value points</strong>. You can change any of this at any time.</p>
+    </section>
+    <section class="np-block" id="aac">
+      <h2>Your AAC counts first</h2>
+      <p>Your coursework is marked separately from the written exam, so Crunch Mode takes it off first and works out what you need on the written paper.</p>
+      <p>In Biology the Biology in Practice Investigation is worth 40% of your grade. An H3 needs 75% overall, so with 80% in the investigation you need (75 − 0.4 × 80) ÷ 0.6 = <strong>72% on the written paper</strong>. The notes only have to cover that 72%.</p>
+      <p>If your coursework alone gets you the grade, Crunch says so. If the written paper would need over 100%, it tells you that too and keeps everything.</p>
+    </section>
+    <section class="np-block" id="score">
+      <h2>How each point is scored</h2>
+      <p>Every Higher Level exam question from 2015 to 2026 is matched to the note points it tests. A point that keeps earning marks scores highly. One that has rarely or never come up scores low.</p>
+      <p>Foundations matter too. A point that later topics build on gets credit for the marks those topics earn, so the basics you need to understand the rest aren't cut just because they're rarely asked about directly. Where a paper lets you choose which questions to answer, Crunch Mode counts on you picking the ones you've studied, so you don't need every option.</p>
+      <p>Crunch Mode then hides points from the lowest score up until what's left just covers the mark you need.</p>
+    </section>
+    <section class="np-block" id="check">
+      <h2>Checked against real papers</h2>
+      <p>To check it works, we replay the past. For each of the last seven papers (2020 to 2026), Crunch Mode is rebuilt using only the papers that came before it. Then we score that year's real paper as if you had learned only the points it kept.</p>
+      <p>Exams vary from year to year, so Crunch keeps a safety margin. It keeps enough that you would have reached your written target in about four years out of five, not just on an average year.</p>
+    </section>
+    <section class="np-block" id="first">
+      <h2>Most marks first</h2>
+      <p>If you're aiming for an H1 or H2, almost everything counts, so there's little to cut. Crunch Mode still helps by ordering your work. You start with the points worth the most marks (enough for an H3), and <strong>Show crunched points</strong> adds the rest when you're ready.</p>
+    </section>
+    <section class="np-block" id="time">
+      <h2>What "less study" means</h2>
+      <p>The percentage is the share of study time Crunch Mode saves you. Study time is measured at about 40 words a minute of active learning (reading, understanding and testing yourself), with long or complex points counting one and a half times. All of Biology's notes come to about 135 hours this way.</p>
+    </section>
+    <section class="np-block" id="limits">
+      <h2>What it can't do</h2>
+      <p>Crunch Mode is built from past papers, and past papers are a guide, not a promise. The exam can ask about anything on the course. If you have the time, learn the crunched points too. Crunch Mode is for when time is short and you want every hour to count.</p>
+      <p class="blog-sum"><a href="/app/biology/">Try Crunch Mode in Biology</a></p>
+    </section>
+  </article>
+</div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img class="fwm" src="/design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" />
+        <p class="np-foot-line">The bare-bones way to study for the Leaving Cert.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Notes</h4>
+          <a href="/leaving-cert-biology/">Biology notes</a>
+          <a href="/leaving-cert-chemistry/">Chemistry notes</a>
+          <a href="/leaving-cert-history/">History notes</a>
+          <a href="/leaving-cert-geography/">Geography notes</a>
+          <a href="/leaving-cert-business/">Business notes</a>
+          <a href="/leaving-cert-home-economics/">Home Economics notes</a>
+          <a href="/leaving-cert-pe/">PE notes</a>
+        </div>
+        <div class="foot-col">
+          <h4>Product</h4>
+          <a href="/#method">Method</a>
+          <a href="/#features">Features</a>
+          <a href="/blog/">Blog</a>
+          <a href="/app.html#signin" class="auth-out">Sign in</a>
+        </div>
+        <div class="foot-col">
+          <h4>Legal</h4>
+          <a href="/terms.html">Terms</a>
+          <a href="/privacy.html">Privacy</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 barebones. Made in Ireland.</span>
+      <span>Not affiliated with the State Examinations Commission.</span>
+    </div>
+  </div>
+</footer>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+</body>
+</html>
