@@ -297,7 +297,7 @@ Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the
   the map data, and bump `?v=` in `CRUNCH_FILES` (app.js).
 - The file loads with the subject page itself (`CRUNCH_FILES` in app.js), not the subject pack, because the subject
   home needs it.
-- Subject home: until it's set up, a dark Crunch bar sits above the section tiles, headed "Study less. Score more."
+- Subject home: whenever Crunch Mode is off (not set up yet, or switched off), a dark Crunch bar sits above the section tiles, headed "Study less. Score more."
   in the landing hero's type (Archivo 800, caps). Its left side is the word CRUNCH in orange, an SVG stretched to
   fill the bar's height. Pressing it opens the setup inline: H1–H8, an AAC slider in 5% notches, and a live "N% of the
   course" readout (the share of study time cut) with the written mark needed.

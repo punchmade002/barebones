@@ -6151,7 +6151,7 @@ body.onboarding-open .timer-widget {
 /* The tile it becomes once set up */
 .crunch-tile .tile-icon { background: var(--ink); color: var(--accent-3); }
 .crunch-tile > span:last-child { font-family: "Archivo", var(--font); font-weight: 800; letter-spacing: -0.02em; text-transform: uppercase; }
-.crunch-tile small { display: block; margin-top: 0.3rem; color: var(--muted); font-family: var(--font); font-size: 0.9rem; font-weight: 600; letter-spacing: 0; font-variation-settings: normal; }
+.crunch-tile small { display: block; margin-top: 0.3rem; color: var(--muted); font-family: var(--font); font-size: 0.9rem; font-weight: 600; letter-spacing: 0; text-transform: none; font-variation-settings: normal; }
 .crunch-tile.is-new { animation: crunch-tile-in 520ms cubic-bezier(0.16, 1, 0.3, 1) both; }
 
 @keyframes crunch-tile-in {

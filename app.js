@@ -5063,10 +5063,10 @@ function crunchControlsHtml(data, s) {
     <p class="crunch-foot">The course is measured in study time, at about 40 words a minute of active learning.</p>`;
 }
 
-// The bar above the tiles, until the student sets Crunch Mode up
+// The bar above the tiles whenever Crunch Mode is off (never set up, or switched off)
 function crunchBarHtml() {
   const data = crunchData(PAGE_SUBJECT);
-  if (!data || crunchSettings(PAGE_SUBJECT).set) return "";
+  if (!data || crunchSettings(PAGE_SUBJECT).on) return "";
   const title = escapeHtml(PAGE_SUBJECT_DATA.title);
   const open = Boolean(crunchDraft);
   return `
