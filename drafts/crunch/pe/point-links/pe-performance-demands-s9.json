@@ -1,0 +1,59 @@
+{
+"pe-performance-demands-s9.0.b": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.0.0": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.0.1": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.1.b": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.1.0": {"cost": 1, "needs": [{"id": "pe-performance-demands-s9.0.0", "strength": "helpful", "why": "uses ATP rebuilding", "confidence": "high"}]},
+"pe-performance-demands-s9.1.1": {"cost": 1, "needs": [{"id": "pe-performance-demands-s9.1.0", "strength": "helpful", "why": "PC stores as the fuel", "confidence": "high"}]},
+"pe-performance-demands-s9.1.2": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.1.3": {"cost": 1, "needs": [{"id": "pe-performance-demands-s9.1.0", "strength": "helpful", "why": "PC stores being restored", "confidence": "high"}]},
+"pe-performance-demands-s9.1.4": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.2.b": {"cost": 1, "needs": [{"id": "pe-performance-demands-s9.1.1", "strength": "helpful", "why": "PC running out after about 10 seconds", "confidence": "high"}]},
+"pe-performance-demands-s9.2.0": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.2.1": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.2.2": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.2.3": {"cost": 1, "needs": [{"id": "pe-performance-demands-s9.1.3", "strength": "helpful", "why": "compares with PC restoration time", "confidence": "high"}]},
+"pe-performance-demands-s9.2.4": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.b": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.0": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.1": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.2": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.3": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.4": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.3.5": {"cost": 1, "needs": [{"id": "pe-performance-demands-s9.1.0", "strength": "helpful", "why": "PC stores being rebuilt", "confidence": "high"}]},
+"pe-performance-demands-s9.4.b": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.4.0": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.4.1": {"cost": 1, "needs": [
+ {"id": "pe-performance-demands-s9.1.1", "strength": "helpful", "why": "ATP-PC duration and intensity", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.2.1", "strength": "helpful", "why": "lactic acid duration and intensity", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.3.1", "strength": "helpful", "why": "aerobic duration and intensity", "confidence": "high"}]},
+"pe-performance-demands-s9.4.2": {"cost": 2, "needs": [{"id": "pe-performance-demands-s9.4.1", "strength": "essential", "why": "which system predominates by duration", "confidence": "high"}]},
+"pe-performance-demands-s9.4.3": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.4.0", "strength": "essential", "why": "all systems work together", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.3.5", "strength": "helpful", "why": "aerobic recovery between efforts", "confidence": "high"}]},
+"pe-performance-demands-s9.4.4": {"cost": 2, "needs": [{"id": "pe-performance-demands-s9.4.1", "strength": "essential", "why": "which system dominates at each time", "confidence": "high"}]},
+"pe-performance-demands-s9.5.b": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.5.0": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.4.1", "strength": "essential", "why": "predominant system by activity", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.2.2", "strength": "helpful", "why": "lactic acid tolerance", "confidence": "high"}]},
+"pe-performance-demands-s9.5.1": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.1.3", "strength": "essential", "why": "PC restoration time", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.5.0", "strength": "helpful", "why": "training each system", "confidence": "low"}]},
+"pe-performance-demands-s9.5.2": {"cost": 1, "needs": [{"id": "pe-performance-demands-s9.2.2", "strength": "essential", "why": "lactic acid causes fatigue", "confidence": "high"}]},
+"pe-performance-demands-s9.5.3": {"cost": 1, "needs": [{"id": "pe-performance-demands-s9.1.3", "strength": "helpful", "why": "PC restoration during rest", "confidence": "high"}]},
+"pe-performance-demands-s9.5.4": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.2.3", "strength": "helpful", "why": "active cool-down removes lactic acid", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.1.3", "strength": "helpful", "why": "PC restored by rest", "confidence": "high"}]},
+"pe-performance-demands-s9.5.5": {"cost": 1, "needs": [
+ {"id": "pe-performance-demands-s9.2.0", "strength": "helpful", "why": "carbohydrate as fuel", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.1.0", "strength": "helpful", "why": "phosphocreatine as fuel", "confidence": "high"}]},
+"pe-performance-demands-s9.6.b": {"cost": 1, "needs": []},
+"pe-performance-demands-s9.6.0": {"cost": 1, "needs": [{"id": "pe-performance-demands-s9.4.1", "strength": "helpful", "why": "predominant system by duration", "confidence": "high"}]},
+"pe-performance-demands-s9.6.1": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.6.0", "strength": "essential", "why": "systems used in 100 m backstroke", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.5.0", "strength": "helpful", "why": "training the predominant system", "confidence": "high"}]},
+"pe-performance-demands-s9.6.2": {"cost": 1, "needs": [{"id": "pe-performance-demands-s9.3.1", "strength": "helpful", "why": "aerobic system duration and intensity", "confidence": "high"}]},
+"pe-performance-demands-s9.6.3": {"cost": 2, "needs": [
+ {"id": "pe-performance-demands-s9.6.2", "strength": "essential", "why": "aerobic demands of 10 km swim", "confidence": "high"},
+ {"id": "pe-performance-demands-s9.3.0", "strength": "helpful", "why": "carbohydrate fuel for aerobic work", "confidence": "low"}]}
+}
