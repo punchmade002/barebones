@@ -1,0 +1,876 @@
+{
+"hist-eur1-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.0.1": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.0.0",
+"strength": "helpful",
+"why": "the Paris revolution spreading",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.6.0",
+"strength": "helpful",
+"why": "Federal Act set up the Confederation",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.12.2",
+"strength": "helpful",
+"why": "Metternich system of repression",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.18.1",
+"strength": "helpful",
+"why": "Metternich resigning March 1848",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.17.1",
+"strength": "helpful",
+"why": "the Zollverein of 1834",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.0.0",
+"strength": "helpful",
+"why": "February 1848 Paris news",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.2.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.2.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.0.5",
+"strength": "helpful",
+"why": "the multinational Habsburg Empire",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.2.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.2.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.3.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.0.0",
+"strength": "helpful",
+"why": "fear of Paris-style revolution",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.3.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.3.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.3.3",
+"strength": "essential",
+"why": "troops and dead on 18 March",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.13.0",
+"strength": "helpful",
+"why": "black, red and gold colours",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.3.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.2.4",
+"strength": "helpful",
+"why": "peasants wanting feudal dues ended",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.4.0",
+"strength": "essential",
+"why": "the Vorparlament",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.4.1",
+"strength": "helpful",
+"why": "radicals wanting a republic",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.5.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.5.0",
+"strength": "essential",
+"why": "the Frankfurt National Assembly",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.5.1",
+"strength": "helpful",
+"why": "deputies were professional men",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.5.0",
+"strength": "helpful",
+"why": "the Assembly electing a president",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.5.0",
+"strength": "helpful",
+"why": "deputies of the Assembly",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s2.5.0",
+"strength": "helpful",
+"why": "the Assembly choosing a regent",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.6.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.6.0",
+"strength": "helpful",
+"why": "the Basic Rights being abolished-from",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.6.2": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.5.3",
+"strength": "helpful",
+"why": "Gagern as Assembly president",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s2.6.2",
+"strength": "essential",
+"why": "the Grossdeutsch plan",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s2.8.3",
+"strength": "helpful",
+"why": "Schwarzenberg becoming chief minister",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.6.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.1.0",
+"strength": "helpful",
+"why": "Confederation membership of Holstein",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.7.0",
+"strength": "essential",
+"why": "Schleswig and Holstein duchies",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.7.1",
+"strength": "essential",
+"why": "the Schleswig rising",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.7.2",
+"strength": "essential",
+"why": "Prussian invasion of the duchies",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.7.3",
+"strength": "essential",
+"why": "the Malmo armistice",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.7.4",
+"strength": "helpful",
+"why": "anger at accepting the armistice",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.7.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s2.7.0",
+"strength": "helpful",
+"why": "the duchies of Schleswig-Holstein",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.0.1",
+"strength": "helpful",
+"why": "Prague rising of June",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.8.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.8.1",
+"strength": "helpful",
+"why": "the Vienna rising of October",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.8.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.7.2",
+"strength": "helpful",
+"why": "General Wrangel earlier in Schleswig",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s2.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.3.6",
+"strength": "helpful",
+"why": "the Prussian National Assembly",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.8.5",
+"strength": "helpful",
+"why": "imposed Prussian constitution",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.5.0",
+"strength": "helpful",
+"why": "the Frankfurt Assembly writing it",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.9.0",
+"strength": "essential",
+"why": "the Frankfurt constitution and emperor",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.9.1",
+"strength": "essential",
+"why": "election as Emperor of the Germans",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.9.2",
+"strength": "helpful",
+"why": "refusal of the crown",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.9.0",
+"strength": "essential",
+"why": "the Frankfurt constitution",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s2.6.4",
+"strength": "helpful",
+"why": "Austria insisting on whole empire",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s2.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.9.0",
+"strength": "essential",
+"why": "the Frankfurt constitution",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.9.2",
+"strength": "helpful",
+"why": "refusal of the crown",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.9.2",
+"strength": "essential",
+"why": "the crown being refused",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.10.0",
+"strength": "essential",
+"why": "the May 1849 risings",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.10.1",
+"strength": "helpful",
+"why": "suppression of the risings",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.5.0",
+"strength": "helpful",
+"why": "remnant of the Frankfurt Assembly",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.4.2",
+"strength": "helpful",
+"why": "Hecker and the Baden rising",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.6.3",
+"strength": "essential",
+"why": "Kleindeutsch union under Prussia",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s1.17.1",
+"strength": "helpful",
+"why": "the Zollverein of 1834",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s2.11.0",
+"strength": "essential",
+"why": "the Erfurt Union",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.6.1",
+"strength": "essential",
+"why": "the Diet of the Confederation",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s2.6.0",
+"strength": "helpful",
+"why": "the Basic Rights",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s1.6.1",
+"strength": "helpful",
+"why": "the Diet at Frankfurt",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.12.b": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s2.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s2.7.3",
+"strength": "helpful",
+"why": "Malmo armistice",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s2.7.5",
+"strength": "helpful",
+"why": "the September riots",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s2.8.0",
+"strength": "helpful",
+"why": "retaking Prague",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s2.8.1",
+"strength": "helpful",
+"why": "retaking Vienna",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s2.8.4",
+"strength": "helpful",
+"why": "retaking Berlin",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.12.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s2.4.1",
+"strength": "helpful",
+"why": "radicals wanting a republic",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s2.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.3.7",
+"strength": "helpful",
+"why": "feudal dues being abolished",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.6.0",
+"strength": "helpful",
+"why": "debate on the Basic Rights",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s2.6.2",
+"strength": "helpful",
+"why": "Grossdeutsch-Kleindeutsch question",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.12.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s2.6.5",
+"strength": "helpful",
+"why": "Poles and Czechs",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s2.8.1",
+"strength": "helpful",
+"why": "Jelacic and the Croats",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.12.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.12.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.9.2",
+"strength": "essential",
+"why": "the crown being refused",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s2.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.11.2",
+"strength": "essential",
+"why": "Basic Rights repealed in 1851",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.12.3",
+"strength": "helpful",
+"why": "feudal dues abolished",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s2.8.5",
+"strength": "helpful",
+"why": "Prussian constitution after 1850",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.13.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s2.11.3",
+"strength": "helpful",
+"why": "Bismarck",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s2.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s2.5.4",
+"strength": "helpful",
+"why": "political clubs becoming parties",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s2.13.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s2.12.2",
+"strength": "helpful",
+"why": "liberal middle class fearing revolution",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s2.13.5": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s2.13.6": {
+"cost": 1,
+"needs": []
+}
+}

@@ -1,0 +1,557 @@
+{
+ "hist-eur4-s8.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.11.b",
+    "strength": "helpful",
+    "why": "Sovietisation of eastern Europe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.9.4",
+    "strength": "helpful",
+    "why": "Soviet bloc refused Marshall aid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.0.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.1.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.11.b",
+    "strength": "helpful",
+    "why": "satellite states under Soviet control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.1.0",
+    "strength": "helpful",
+    "why": "Soviet-pattern five-year plans",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.2.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.1.3",
+    "strength": "essential",
+    "why": "collectivisation of farms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.9.b",
+    "strength": "helpful",
+    "why": "the Marshall Plan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.2.3",
+    "strength": "helpful",
+    "why": "trade within Comecon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.2.3",
+    "strength": "helpful",
+    "why": "Comecon trade system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.4.2",
+    "strength": "helpful",
+    "why": "reparations from defeated states",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.1.0",
+    "strength": "helpful",
+    "why": "state output targets in plans",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.1.0",
+    "strength": "helpful",
+    "why": "state-set prices",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.4.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.5.0",
+    "strength": "helpful",
+    "why": "ministries Khrushchev had replaced",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.6.0",
+    "strength": "helpful",
+    "why": "1968 invasion of Czechoslovakia",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.19.5",
+    "strength": "helpful",
+    "why": "the Warsaw Pact",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.6.1",
+    "strength": "helpful",
+    "why": "Hungary's partial reforms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s1.14.3",
+    "strength": "helpful",
+    "why": "Tito's break with Stalin",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s8.2.3",
+    "strength": "helpful",
+    "why": "Comecon membership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.5.3",
+    "strength": "helpful",
+    "why": "reforms fading, 1968 warning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.7.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.7.2",
+    "strength": "essential",
+    "why": "oil revenue propping the economy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.7.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.8.b": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.8.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.8.0",
+    "strength": "helpful",
+    "why": "Gierek replacing Gomułka",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.8.1",
+    "strength": "essential",
+    "why": "Gierek's Western borrowing strategy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.8.1",
+    "strength": "helpful",
+    "why": "Gierek's borrowing from the West",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.8.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.8.5",
+    "strength": "essential",
+    "why": "Solidarity's founding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.7.3",
+    "strength": "helpful",
+    "why": "1986 oil price fall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.9.0",
+    "strength": "helpful",
+    "why": "perestroika restructuring",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.9.1",
+    "strength": "essential",
+    "why": "the 1987-88 enterprise laws",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.9.2",
+    "strength": "helpful",
+    "why": "weakened planning without market",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur4-s8.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.6.0",
+    "strength": "helpful",
+    "why": "Ota Šik's reform",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.11.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.10.0",
+    "strength": "helpful",
+    "why": "Ceaușescu's debt repayment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.11.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur4-s8.8.1",
+    "strength": "helpful",
+    "why": "Poland's Western borrowing",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur4-s8.2.2",
+    "strength": "helpful",
+    "why": "Poland's private farming",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur4-s8.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur4-s8.12.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.12.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur4-s8.12.6": {
+  "cost": 2,
+  "needs": []
+ }
+}

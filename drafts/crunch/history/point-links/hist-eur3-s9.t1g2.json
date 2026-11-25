@@ -1,0 +1,692 @@
+{
+ "hist-eur3-s9.0.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.0.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.0.1": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.14.4",
+    "strength": "helpful",
+    "why": "Nazi-Soviet Pact, Soviet side",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.0.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.1.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.1.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.1.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.1.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.1.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.1.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.2.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.2.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.2.1": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.14.5",
+    "strength": "helpful",
+    "why": "Red Army entering eastern Poland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.2.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.2.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.2.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.2.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.2.6": {
+  "needs": []
+ },
+ "hist-eur3-s9.3.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.3.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.3.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.3.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.3.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.3.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.3.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.3.6": {
+  "needs": []
+ },
+ "hist-eur3-s9.4.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.4.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.4.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.4.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.4.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.5.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.5.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.5.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.5.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.6.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.6.0": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.14.5",
+    "strength": "helpful",
+    "why": "Soviet share of Poland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.6.1": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.14.4",
+    "strength": "helpful",
+    "why": "Nazi-Soviet Pact",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s9.6.2": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.15.0",
+    "strength": "helpful",
+    "why": "Barbarossa and Soviet losses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.7.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.7.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.7.1": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.15.0",
+    "strength": "helpful",
+    "why": "siege of Leningrad",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.7.2": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.15.2",
+    "strength": "helpful",
+    "why": "Soviet counter-offensive December 1941",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.8.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.8.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.8.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.8.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.8.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.9.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.9.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.9.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.9.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.9.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.10.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.10.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.10.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.10.2": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.16.0",
+    "strength": "helpful",
+    "why": "Stalingrad encirclement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.10.3": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.16.1",
+    "strength": "helpful",
+    "why": "Kursk and Soviet initiative",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.10.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.10.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.10.6": {
+  "needs": []
+ },
+ "hist-eur3-s9.11.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.11.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.11.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.11.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.11.3": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.16.1",
+    "strength": "helpful",
+    "why": "Red Army advance to Berlin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.11.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.11.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.12.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.12.0": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.15.4",
+    "strength": "helpful",
+    "why": "Soviet tank and aircraft output",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.12.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.12.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.13.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.13.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.13.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.13.2": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.14.6",
+    "strength": "helpful",
+    "why": "Soviet war with Finland",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s9.13.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.13.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.14.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.14.0": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.15.0",
+    "strength": "helpful",
+    "why": "Soviet entry after Barbarossa",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.14.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.14.2": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.16.3",
+    "strength": "helpful",
+    "why": "Lend-Lease to Soviet Union",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.14.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.14.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.14.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.14.6": {
+  "needs": []
+ },
+ "hist-eur3-s9.15.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.15.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.15.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.15.2": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.17.2",
+    "strength": "helpful",
+    "why": "Stalin at Tehran",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.15.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.15.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.15.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.15.6": {
+  "needs": []
+ },
+ "hist-eur3-s9.15.7": {
+  "needs": []
+ },
+ "hist-eur3-s9.16.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.16.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.16.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.16.2": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.14.5",
+    "strength": "essential",
+    "why": "NKVD killing Polish officers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.16.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.16.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.16.5": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.17.0",
+    "strength": "helpful",
+    "why": "Soviet control of eastern Europe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.17.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.17.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.17.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.17.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.17.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.18.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.18.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.18.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.18.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.18.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.18.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.18.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.19.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.19.0": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.15.4",
+    "strength": "helpful",
+    "why": "T-34 tank",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.19.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.19.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.19.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.19.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.19.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.20.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.20.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.20.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.20.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.20.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.20.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.20.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.20.6": {
+  "needs": []
+ },
+ "hist-eur3-s9.20.7": {
+  "needs": []
+ },
+ "hist-eur3-s9.21.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.21.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.21.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.21.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.21.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.21.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.21.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.22.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.22.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.22.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.22.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.22.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.22.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.22.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.23.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.23.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.23.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.23.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.23.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.23.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.24.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.24.0": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.0.1",
+    "strength": "helpful",
+    "why": "Marxist anti-communism context",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s9.24.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.24.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.24.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.24.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.24.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.24.6": {
+  "needs": []
+ },
+ "hist-eur3-s9.25.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.25.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.25.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.26.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.26.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.26.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.26.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.26.3": {
+  "needs": []
+ },
+ "hist-eur3-s9.26.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.26.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.27.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.27.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.27.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.27.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.27.3": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.17.0",
+    "strength": "helpful",
+    "why": "Soviet control of eastern Europe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.27.4": {
+  "needs": []
+ },
+ "hist-eur3-s9.27.5": {
+  "needs": []
+ },
+ "hist-eur3-s9.28.b": {
+  "needs": []
+ },
+ "hist-eur3-s9.28.0": {
+  "needs": []
+ },
+ "hist-eur3-s9.28.1": {
+  "needs": []
+ },
+ "hist-eur3-s9.28.2": {
+  "needs": []
+ },
+ "hist-eur3-s9.28.3": {
+  "needs": [
+   {
+    "id": "hist-eur3-s4.15.4",
+    "strength": "helpful",
+    "why": "Soviet T-34 production",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s9.28.4": {
+  "needs": []
+ }
+}

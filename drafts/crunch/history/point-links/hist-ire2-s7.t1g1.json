@@ -1,0 +1,759 @@
+{
+ "hist-ire2-s7.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.0.1",
+    "strength": "helpful",
+    "why": "tenement housing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.0.1",
+    "strength": "helpful",
+    "why": "overcrowded tenements",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.0.1",
+    "strength": "helpful",
+    "why": "tenement housing",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s7.5.4",
+    "strength": "helpful",
+    "why": "happened during the lockout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.0.6",
+    "strength": "helpful",
+    "why": "the Church Street collapse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.0",
+    "strength": "helpful",
+    "why": "British-based craft unions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.0",
+    "strength": "helpful",
+    "why": "contrast with craft unions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.2",
+    "strength": "helpful",
+    "why": "new unionism for unskilled",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.4",
+    "strength": "essential",
+    "why": "Larkin and the National Union",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.5",
+    "strength": "essential",
+    "why": "the ITGWU",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.1",
+    "strength": "helpful",
+    "why": "the Irish TUC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.4",
+    "strength": "helpful",
+    "why": "the Belfast strike",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s7.1.5",
+    "strength": "helpful",
+    "why": "founding the ITGWU",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.2",
+    "strength": "helpful",
+    "why": "new unionism tactics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.2",
+    "strength": "essential",
+    "why": "the banned meeting of 31 August",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s7.4.0",
+    "strength": "helpful",
+    "why": "Murphy owned the hotel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.2.3",
+    "strength": "essential",
+    "why": "arrested after the banned meeting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.3.5",
+    "strength": "helpful",
+    "why": "Connolly took over the union",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.4.0",
+    "strength": "helpful",
+    "why": "Murphy and the Independent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.2.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.2.2",
+    "strength": "essential",
+    "why": "Larkinism and sympathetic strikes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.3",
+    "strength": "essential",
+    "why": "founding the Socialist Republican Party",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.5",
+    "strength": "essential",
+    "why": "the ITGWU",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s7.1.7",
+    "strength": "helpful",
+    "why": "founding the Labour Party",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.2.4",
+    "strength": "essential",
+    "why": "Larkin jailed in 1913",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s7.6.4",
+    "strength": "helpful",
+    "why": "the Irish Citizen Army",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.3.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.7.1",
+    "strength": "helpful",
+    "why": "turn to the 1916 Rising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.2.2",
+    "strength": "essential",
+    "why": "sympathetic strikes and boycotts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.4.0",
+    "strength": "essential",
+    "why": "Murphy and the Independent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.4.2",
+    "strength": "essential",
+    "why": "Murphy challenging the union",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.4.3",
+    "strength": "helpful",
+    "why": "the tram strike beginning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.0",
+    "strength": "essential",
+    "why": "the tram strike",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.0",
+    "strength": "helpful",
+    "why": "the tram strike and the ban",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.2",
+    "strength": "essential",
+    "why": "the banned Sackville Street meeting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.3",
+    "strength": "helpful",
+    "why": "events after Bloody Sunday",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.4",
+    "strength": "essential",
+    "why": "the Document and lockout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.4",
+    "strength": "essential",
+    "why": "the Document",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.4",
+    "strength": "helpful",
+    "why": "workers starved into submission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.4",
+    "strength": "helpful",
+    "why": "the lockout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.5",
+    "strength": "helpful",
+    "why": "ITGWU headquarters Liberty Hall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.2.4",
+    "strength": "essential",
+    "why": "Larkin's sedition sentence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.5",
+    "strength": "helpful",
+    "why": "strikers' hardship in the lockout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.5",
+    "strength": "helpful",
+    "why": "ITGWU and Liberty Hall",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s7.6.1",
+    "strength": "helpful",
+    "why": "Liberty Hall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.6.0",
+    "strength": "helpful",
+    "why": "British union support",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.6.5",
+    "strength": "essential",
+    "why": "British TUC rejecting action",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.6.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.5.4",
+    "strength": "essential",
+    "why": "the Document",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s7.6.6",
+    "strength": "helpful",
+    "why": "the end of the dispute",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.6.7",
+    "strength": "essential",
+    "why": "the lockout outcome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.6.4",
+    "strength": "essential",
+    "why": "the Irish Citizen Army",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.3.1",
+    "strength": "helpful",
+    "why": "Connolly's socialism and nationalism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.7.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s7.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.6.3",
+    "strength": "essential",
+    "why": "the Save the Kiddies scheme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.0.6",
+    "strength": "helpful",
+    "why": "the Church Street collapse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.4.0",
+    "strength": "helpful",
+    "why": "Murphy owned the Independent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.6",
+    "strength": "helpful",
+    "why": "the Irish Worker",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.6.3",
+    "strength": "essential",
+    "why": "removal of children",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.4.0",
+    "strength": "helpful",
+    "why": "Murphy and the Independent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.4.0",
+    "strength": "helpful",
+    "why": "Murphy as target of cartoons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.8.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.1.5",
+    "strength": "helpful",
+    "why": "the ITGWU",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.6.5",
+    "strength": "essential",
+    "why": "lack of British support",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s7.6.6",
+    "strength": "essential",
+    "why": "hunger forcing a return",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.2.7",
+    "strength": "essential",
+    "why": "Larkin's intransigence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.4.0",
+    "strength": "helpful",
+    "why": "Murphy as employer leader",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s7.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s7.9.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s7.7.1",
+    "strength": "helpful",
+    "why": "the Citizen Army and 1916",
+    "confidence": "high"
+   }
+  ]
+ }
+}

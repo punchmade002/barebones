@@ -1,0 +1,376 @@
+{
+"hist-eur3-s11.0.b": {
+"needs": []
+},
+"hist-eur3-s11.0.0": {
+"needs": []
+},
+"hist-eur3-s11.0.1": {
+"needs": []
+},
+"hist-eur3-s11.0.2": {
+"needs": []
+},
+"hist-eur3-s11.0.3": {
+"needs": []
+},
+"hist-eur3-s11.1.b": {
+"needs": []
+},
+"hist-eur3-s11.1.0": {
+"needs": []
+},
+"hist-eur3-s11.1.1": {
+"needs": []
+},
+"hist-eur3-s11.1.2": {
+"needs": []
+},
+"hist-eur3-s11.1.3": {
+"needs": []
+},
+"hist-eur3-s11.1.4": {
+"needs": []
+},
+"hist-eur3-s11.1.5": {
+"needs": []
+},
+"hist-eur3-s11.2.b": {
+"needs": []
+},
+"hist-eur3-s11.2.0": {
+"needs": []
+},
+"hist-eur3-s11.2.1": {
+"needs": []
+},
+"hist-eur3-s11.2.2": {
+"needs": []
+},
+"hist-eur3-s11.2.3": {
+"needs": []
+},
+"hist-eur3-s11.3.b": {
+"needs": []
+},
+"hist-eur3-s11.3.0": {
+"needs": []
+},
+"hist-eur3-s11.3.1": {
+"needs": []
+},
+"hist-eur3-s11.3.2": {
+"needs": []
+},
+"hist-eur3-s11.3.3": {
+"needs": []
+},
+"hist-eur3-s11.3.4": {
+"needs": []
+},
+"hist-eur3-s11.4.b": {
+"needs": []
+},
+"hist-eur3-s11.4.0": {
+"needs": []
+},
+"hist-eur3-s11.4.1": {
+"needs": []
+},
+"hist-eur3-s11.4.2": {
+"needs": []
+},
+"hist-eur3-s11.4.3": {
+"needs": []
+},
+"hist-eur3-s11.5.b": {
+"needs": []
+},
+"hist-eur3-s11.5.0": {
+"needs": []
+},
+"hist-eur3-s11.5.1": {
+"needs": []
+},
+"hist-eur3-s11.5.2": {
+"needs": []
+},
+"hist-eur3-s11.5.3": {
+"needs": []
+},
+"hist-eur3-s11.5.4": {
+"needs": []
+},
+"hist-eur3-s11.6.b": {
+"needs": []
+},
+"hist-eur3-s11.6.0": {
+"needs": []
+},
+"hist-eur3-s11.6.1": {
+"needs": []
+},
+"hist-eur3-s11.6.2": {
+"needs": []
+},
+"hist-eur3-s11.6.3": {
+"needs": []
+},
+"hist-eur3-s11.7.b": {
+"needs": []
+},
+"hist-eur3-s11.7.0": {
+"needs": [
+{
+"id": "hist-eur3-s9.2.1",
+"strength": "helpful",
+"why": "Soviet invasion of eastern Poland",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.7.1": {
+"needs": []
+},
+"hist-eur3-s11.7.2": {
+"needs": [
+{
+"id": "hist-eur3-s9.4.0",
+"strength": "helpful",
+"why": "Britain not defeated in 1940",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.7.3": {
+"needs": []
+},
+"hist-eur3-s11.7.4": {
+"needs": []
+},
+"hist-eur3-s11.7.5": {
+"needs": []
+},
+"hist-eur3-s11.8.b": {
+"needs": []
+},
+"hist-eur3-s11.8.0": {
+"needs": [
+{
+"id": "hist-eur3-s9.7.0",
+"strength": "helpful",
+"why": "Operation Barbarossa invasion",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.8.1": {
+"needs": []
+},
+"hist-eur3-s11.8.2": {
+"needs": []
+},
+"hist-eur3-s11.8.3": {
+"needs": []
+},
+"hist-eur3-s11.9.b": {
+"needs": []
+},
+"hist-eur3-s11.9.0": {
+"needs": []
+},
+"hist-eur3-s11.9.1": {
+"needs": []
+},
+"hist-eur3-s11.9.2": {
+"needs": []
+},
+"hist-eur3-s11.9.3": {
+"needs": []
+},
+"hist-eur3-s11.9.4": {
+"needs": []
+},
+"hist-eur3-s11.9.5": {
+"needs": []
+},
+"hist-eur3-s11.10.b": {
+"needs": []
+},
+"hist-eur3-s11.10.0": {
+"needs": []
+},
+"hist-eur3-s11.10.1": {
+"needs": []
+},
+"hist-eur3-s11.10.2": {
+"needs": []
+},
+"hist-eur3-s11.10.3": {
+"needs": []
+},
+"hist-eur3-s11.10.4": {
+"needs": []
+},
+"hist-eur3-s11.10.5": {
+"needs": []
+},
+"hist-eur3-s11.11.b": {
+"needs": []
+},
+"hist-eur3-s11.11.0": {
+"needs": []
+},
+"hist-eur3-s11.11.1": {
+"needs": []
+},
+"hist-eur3-s11.11.2": {
+"needs": [
+{
+"id": "hist-eur3-s9.11.3",
+"strength": "helpful",
+"why": "Soviet advance 1944-45",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.11.3": {
+"needs": []
+},
+"hist-eur3-s11.11.4": {
+"needs": []
+},
+"hist-eur3-s11.11.5": {
+"needs": []
+},
+"hist-eur3-s11.12.b": {
+"needs": []
+},
+"hist-eur3-s11.12.0": {
+"needs": []
+},
+"hist-eur3-s11.12.1": {
+"needs": []
+},
+"hist-eur3-s11.12.2": {
+"needs": []
+},
+"hist-eur3-s11.12.3": {
+"needs": [
+{
+"id": "hist-eur3-s9.7.1",
+"strength": "helpful",
+"why": "rapid German advance in USSR",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.12.4": {
+"needs": []
+},
+"hist-eur3-s11.12.5": {
+"needs": []
+},
+"hist-eur3-s11.13.b": {
+"needs": []
+},
+"hist-eur3-s11.13.0": {
+"needs": []
+},
+"hist-eur3-s11.13.1": {
+"needs": []
+},
+"hist-eur3-s11.13.2": {
+"needs": []
+},
+"hist-eur3-s11.13.3": {
+"needs": []
+},
+"hist-eur3-s11.13.4": {
+"needs": []
+},
+"hist-eur3-s11.14.b": {
+"needs": []
+},
+"hist-eur3-s11.14.0": {
+"needs": [
+{
+"id": "hist-eur3-s9.3.6",
+"strength": "helpful",
+"why": "Vichy regime after French defeat",
+"confidence": "high"
+}
+]
+},
+"hist-eur3-s11.14.1": {
+"needs": []
+},
+"hist-eur3-s11.14.2": {
+"needs": []
+},
+"hist-eur3-s11.14.3": {
+"needs": []
+},
+"hist-eur3-s11.14.4": {
+"needs": []
+},
+"hist-eur3-s11.14.5": {
+"needs": []
+},
+"hist-eur3-s11.14.6": {
+"needs": [
+{
+"id": "hist-eur3-s9.19.2",
+"strength": "helpful",
+"why": "Allied bombing capability",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.15.b": {
+"needs": []
+},
+"hist-eur3-s11.15.0": {
+"needs": [
+{
+"id": "hist-eur3-s9.11.3",
+"strength": "helpful",
+"why": "Soviet advance into Poland 1944",
+"confidence": "low"
+}
+]
+},
+"hist-eur3-s11.15.1": {
+"needs": []
+},
+"hist-eur3-s11.15.2": {
+"needs": []
+},
+"hist-eur3-s11.15.3": {
+"needs": []
+},
+"hist-eur3-s11.15.4": {
+"needs": []
+},
+"hist-eur3-s11.16.b": {
+"needs": []
+},
+"hist-eur3-s11.16.0": {
+"needs": []
+},
+"hist-eur3-s11.16.1": {
+"needs": []
+},
+"hist-eur3-s11.16.2": {
+"needs": []
+},
+"hist-eur3-s11.16.3": {
+"needs": []
+},
+"hist-eur3-s11.16.4": {
+"needs": []
+},
+"hist-eur3-s11.16.5": {
+"needs": []
+}
+}

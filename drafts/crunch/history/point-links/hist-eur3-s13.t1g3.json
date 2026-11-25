@@ -1,0 +1,333 @@
+{
+ "hist-eur3-s13.0.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.0.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.0.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.0.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.0.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.0.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.1.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.1.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.1.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.1.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.2.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.2.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.2.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.2.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.2.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.2.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.2.5": {
+  "needs": []
+ },
+ "hist-eur3-s13.2.6": {
+  "needs": []
+ },
+ "hist-eur3-s13.3.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.3.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.3.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.3.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.3.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.4.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.4.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.4.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.4.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.4.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.4.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.5.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.5.0": {
+  "needs": [
+   {
+    "id": "hist-eur3-s9.13.0",
+    "strength": "helpful",
+    "why": "uses the Rome-Berlin Axis alliance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s13.5.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.5.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.5.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.5.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.5.5": {
+  "needs": []
+ },
+ "hist-eur3-s13.6.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.6.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.6.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.6.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.6.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.6.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.6.5": {
+  "needs": []
+ },
+ "hist-eur3-s13.7.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.7.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.7.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.7.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.7.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.8.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.8.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.8.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.8.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.8.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.8.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.8.5": {
+  "needs": []
+ },
+ "hist-eur3-s13.8.6": {
+  "needs": []
+ },
+ "hist-eur3-s13.9.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.9.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.9.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.9.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.9.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.9.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.10.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.10.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.10.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.10.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.10.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.11.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.11.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.11.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.11.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.11.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.12.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.12.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.12.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.12.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.12.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.12.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.13.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.13.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.13.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.13.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.13.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.13.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.13.5": {
+  "needs": []
+ },
+ "hist-eur3-s13.14.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.14.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.14.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.14.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.14.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.14.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.14.5": {
+  "needs": []
+ },
+ "hist-eur3-s13.15.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.15.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.15.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.15.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.15.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.16.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.16.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.16.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.16.2": {
+  "needs": []
+ },
+ "hist-eur3-s13.16.3": {
+  "needs": []
+ },
+ "hist-eur3-s13.16.4": {
+  "needs": []
+ },
+ "hist-eur3-s13.16.5": {
+  "needs": []
+ },
+ "hist-eur3-s13.17.b": {
+  "needs": []
+ },
+ "hist-eur3-s13.17.0": {
+  "needs": []
+ },
+ "hist-eur3-s13.17.1": {
+  "needs": []
+ },
+ "hist-eur3-s13.17.2": {
+  "needs": []
+ }
+}

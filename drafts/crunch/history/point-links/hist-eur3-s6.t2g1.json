@@ -1,0 +1,1384 @@
+{
+ "hist-eur3-s6.18.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.18.1",
+    "strength": "essential",
+    "why": "the 10 July vote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.2",
+    "strength": "essential",
+    "why": "armistice of 22 June",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.18.1",
+    "strength": "helpful",
+    "why": "the 10 July vote",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.18.2",
+    "strength": "essential",
+    "why": "Pétain made Head of State",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.19.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.14.3",
+    "strength": "essential",
+    "why": "Ardennes gamble, Maginot gaps",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.14.4",
+    "strength": "helpful",
+    "why": "slow defensive doctrine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.14.4",
+    "strength": "essential",
+    "why": "tanks spread among infantry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.19.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.14.1",
+    "strength": "helpful",
+    "why": "what the Maginot Line was",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.14.3",
+    "strength": "essential",
+    "why": "Line missed Belgium and Ardennes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.19.0",
+    "strength": "helpful",
+    "why": "military explanations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.19.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.5.b",
+    "strength": "helpful",
+    "why": "instability of governments",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s6.19.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.19.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.19.4",
+    "strength": "helpful",
+    "why": "political decadence explanation",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.19.0",
+    "strength": "helpful",
+    "why": "military failures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.20.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.20.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.8.5",
+    "strength": "essential",
+    "why": "Doumergue government with Pétain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.20.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.1",
+    "strength": "essential",
+    "why": "Pétain asked for armistice",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.20.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.35.2",
+    "strength": "helpful",
+    "why": "trial and sentence of Pétain",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s6.20.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.20.0",
+    "strength": "essential",
+    "why": "victor of Verdun",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.20.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.b",
+    "strength": "helpful",
+    "why": "collaboration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.21.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.14.5",
+    "strength": "helpful",
+    "why": "de Gaulle armoured warfare book",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.21.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.16.1",
+    "strength": "helpful",
+    "why": "Reynaud government, 1940",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.0",
+    "strength": "helpful",
+    "why": "18 June appeal",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.18.2",
+    "strength": "helpful",
+    "why": "Vichy regime",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.21.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.21.2",
+    "strength": "helpful",
+    "why": "Provisional Government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.21.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.33.5",
+    "strength": "helpful",
+    "why": "Resistance as a minority",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s6.22.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.9.2",
+    "strength": "helpful",
+    "why": "Popular Front government of 1936",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.22.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.0.6",
+    "strength": "helpful",
+    "why": "the Socialists",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.9.2",
+    "strength": "helpful",
+    "why": "Blum as Prime Minister",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.9.4",
+    "strength": "helpful",
+    "why": "first Socialist, Jewish PM",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.9.5",
+    "strength": "helpful",
+    "why": "beaten up in 1936",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.22.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.25.3",
+    "strength": "helpful",
+    "why": "the Riom trial",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.16.0",
+    "strength": "helpful",
+    "why": "Gamelin",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s6.22.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.23.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.6.4",
+    "strength": "helpful",
+    "why": "Laval as Third Republic PM",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.23.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.6.4",
+    "strength": "helpful",
+    "why": "Laval as PM 1935-36",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.23.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.6.4",
+    "strength": "essential",
+    "why": "1935 decree-laws",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.23.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.1",
+    "strength": "essential",
+    "why": "Laval dismissed, Darlan in power",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.23.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.2",
+    "strength": "helpful",
+    "why": "Laval return in 1942",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.35.2",
+    "strength": "helpful",
+    "why": "Laval executed",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s6.24.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.18.2",
+    "strength": "helpful",
+    "why": "Pétain as Head of State",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.24.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.18.2",
+    "strength": "helpful",
+    "why": "Pétain given full powers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.24.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.3",
+    "strength": "essential",
+    "why": "occupied and unoccupied zones",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.18.0",
+    "strength": "helpful",
+    "why": "government settled at Vichy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.24.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.24.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.24.b",
+    "strength": "helpful",
+    "why": "National Revolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.24.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.24.b",
+    "strength": "helpful",
+    "why": "National Revolution",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.9.2",
+    "strength": "helpful",
+    "why": "the Popular Front",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.24.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.24.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.24.b",
+    "strength": "helpful",
+    "why": "National Revolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.25.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.24.b",
+    "strength": "helpful",
+    "why": "Vichy regime and aims",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.25.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.10.3",
+    "strength": "essential",
+    "why": "union rights won in 1936",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.10.4",
+    "strength": "helpful",
+    "why": "1936 social laws",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.25.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.25.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.0",
+    "strength": "helpful",
+    "why": "de Gaulle 18 June appeal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.25.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.22.2",
+    "strength": "helpful",
+    "why": "Riom trial",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.26.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.28.b",
+    "strength": "helpful",
+    "why": "collaborationism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.26.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.26.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.23.0",
+    "strength": "helpful",
+    "why": "Laval as Prime Minister",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.26.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.23.0",
+    "strength": "helpful",
+    "why": "Laval as head of government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.26.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.5",
+    "strength": "helpful",
+    "why": "fleet kept by France",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.26.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.6",
+    "strength": "helpful",
+    "why": "prisoners of war in Germany",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.24.b",
+    "strength": "helpful",
+    "why": "National Revolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.26.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.4",
+    "strength": "helpful",
+    "why": "Vichy motives for collaboration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.27.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.27.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.4",
+    "strength": "essential",
+    "why": "occupation costs of 400 million francs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.27.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.27.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.6",
+    "strength": "helpful",
+    "why": "prisoners taken in 1940",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.27.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.6",
+    "strength": "helpful",
+    "why": "release of prisoners",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s6.27.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.3",
+    "strength": "essential",
+    "why": "the southern unoccupied zone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.27.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.5",
+    "strength": "essential",
+    "why": "fleet kept by France",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.27.4",
+    "strength": "helpful",
+    "why": "German occupation of the south",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.28.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.b",
+    "strength": "helpful",
+    "why": "collaboration versus collaborationism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.28.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.b",
+    "strength": "helpful",
+    "why": "Vichy collaboration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.28.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.0.6",
+    "strength": "helpful",
+    "why": "the Communist party (PCF)",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.28.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.28.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.29.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.29.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.29.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.29.0",
+    "strength": "helpful",
+    "why": "first Statute on Jews",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.29.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.17.3",
+    "strength": "helpful",
+    "why": "the two zones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.29.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.29.2",
+    "strength": "helpful",
+    "why": "police arrests of Jews",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.29.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.29.3",
+    "strength": "essential",
+    "why": "Vel d Hiv round-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.29.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.29.2",
+    "strength": "helpful",
+    "why": "deportations of Jews",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.30.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.30.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.33.0",
+    "strength": "helpful",
+    "why": "the maquis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.30.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.30.0",
+    "strength": "essential",
+    "why": "the Milice",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.30.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.27.3",
+    "strength": "essential",
+    "why": "the failed relève",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.30.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.33.0",
+    "strength": "helpful",
+    "why": "the maquis",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.30.2",
+    "strength": "essential",
+    "why": "the STO",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.30.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.29.2",
+    "strength": "helpful",
+    "why": "police arrests and deportations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.30.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.5",
+    "strength": "essential",
+    "why": "Vichy as a shield",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.31.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.31.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.21.1",
+    "strength": "helpful",
+    "why": "de Gaulle in Reynaud government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.31.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.0",
+    "strength": "essential",
+    "why": "de Gaulle and the Free French",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.31.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.1",
+    "strength": "helpful",
+    "why": "Free French",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.31.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.2",
+    "strength": "helpful",
+    "why": "Free French leadership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.31.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.3",
+    "strength": "helpful",
+    "why": "Giraud rivalry",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s6.32.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.32.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.32.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.32.0",
+    "strength": "helpful",
+    "why": "early resistance groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.32.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.0.6",
+    "strength": "helpful",
+    "why": "the Communists",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.32.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.32.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.0",
+    "strength": "helpful",
+    "why": "Gaullists",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.32.2",
+    "strength": "helpful",
+    "why": "Communist resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.32.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.0",
+    "strength": "helpful",
+    "why": "de Gaulle as leader",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.32.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.32.5",
+    "strength": "essential",
+    "why": "Jean Moulin and the Council",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.33.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.33.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.30.2",
+    "strength": "essential",
+    "why": "the STO",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.33.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.34.0",
+    "strength": "helpful",
+    "why": "Normandy landings",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.33.0",
+    "strength": "helpful",
+    "why": "the maquis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.33.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.30.0",
+    "strength": "helpful",
+    "why": "the Milice",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.33.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur3-s6.33.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.33.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.b",
+    "strength": "helpful",
+    "why": "collaboration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s6.34.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.34.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.34.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.1",
+    "strength": "helpful",
+    "why": "Free French forces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.34.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.4",
+    "strength": "essential",
+    "why": "Provisional Government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.34.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.4",
+    "strength": "essential",
+    "why": "Provisional Government",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.32.4",
+    "strength": "helpful",
+    "why": "Gaullists and Communists",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.35.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.35.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.b",
+    "strength": "helpful",
+    "why": "collaborators",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.35.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.35.0",
+    "strength": "helpful",
+    "why": "the épuration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.35.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.20.3",
+    "strength": "helpful",
+    "why": "Pétain tried",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.23.3",
+    "strength": "helpful",
+    "why": "Laval executed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.35.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.0.1",
+    "strength": "helpful",
+    "why": "women had no vote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.35.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.31.4",
+    "strength": "helpful",
+    "why": "Provisional Government",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.36.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.21.4",
+    "strength": "helpful",
+    "why": "Gaullist myth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.36.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.5",
+    "strength": "essential",
+    "why": "shield argument",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.36.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.30.5",
+    "strength": "essential",
+    "why": "Paxton on active collaboration",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.29.0",
+    "strength": "helpful",
+    "why": "home-grown anti-Jewish laws",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.36.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.21.4",
+    "strength": "essential",
+    "why": "Gaullist myth of resistance",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.36.1",
+    "strength": "helpful",
+    "why": "Paxton",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.36.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.36.2",
+    "strength": "helpful",
+    "why": "myth and memory of Vichy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.36.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.29.3",
+    "strength": "essential",
+    "why": "Vel d Hiv round-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.37.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur3-s6.37.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.4.3",
+    "strength": "essential",
+    "why": "Poincaré stabilised franc",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.8.4",
+    "strength": "helpful",
+    "why": "6 February 1934 riot",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.6.b",
+    "strength": "helpful",
+    "why": "French Depression",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur3-s6.37.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.5.2",
+    "strength": "helpful",
+    "why": "frequent government changes",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.6.3",
+    "strength": "helpful",
+    "why": "slow Depression response",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.14.4",
+    "strength": "helpful",
+    "why": "army doctrine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.37.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.10.4",
+    "strength": "essential",
+    "why": "paid holidays and 40-hour week",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.37.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.13.3",
+    "strength": "essential",
+    "why": "40-hour week undone",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.12.2",
+    "strength": "essential",
+    "why": "Spanish Civil War split",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.37.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.26.5",
+    "strength": "essential",
+    "why": "Pétain as shield",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.17.2",
+    "strength": "helpful",
+    "why": "the armistice",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.37.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.29.0",
+    "strength": "essential",
+    "why": "anti-Jewish statute beyond German demands",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.30.5",
+    "strength": "helpful",
+    "why": "active collaboration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.37.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.34.3",
+    "strength": "helpful",
+    "why": "Republic restored in 1944",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur3-s6.37.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur3-s6.4.3",
+    "strength": "helpful",
+    "why": "financial stabilisation",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.10.4",
+    "strength": "helpful",
+    "why": "social reform",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.5.2",
+    "strength": "helpful",
+    "why": "instability",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur3-s6.14.4",
+    "strength": "helpful",
+    "why": "defence failures",
+    "confidence": "high"
+   }
+  ]
+ }
+}

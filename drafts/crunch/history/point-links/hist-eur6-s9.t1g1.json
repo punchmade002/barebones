@@ -1,0 +1,1176 @@
+{
+ "hist-eur6-s9.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s9.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.0.0",
+    "strength": "helpful",
+    "why": "uses the Reconstruction amendments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.0.2",
+    "strength": "helpful",
+    "why": "federal versus state power",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.5.5",
+    "strength": "helpful",
+    "why": "Truman's Executive Order 9981",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.0.5",
+    "strength": "helpful",
+    "why": "Jim Crow system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.1.0",
+    "strength": "helpful",
+    "why": "Jim Crow voting barriers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.0.4",
+    "strength": "helpful",
+    "why": "discrimination by custom",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.0.5",
+    "strength": "helpful",
+    "why": "segregation under Jim Crow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.1.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s9.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.1.4",
+    "strength": "helpful",
+    "why": "NAACP legal strategy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.1.3",
+    "strength": "essential",
+    "why": "overturned separate but equal",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.1.4",
+    "strength": "helpful",
+    "why": "NAACP legal campaign",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur6-s9.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.1.6",
+    "strength": "essential",
+    "why": "follows the Brown ruling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.1.6",
+    "strength": "helpful",
+    "why": "the Brown ruling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.2.0",
+    "strength": "essential",
+    "why": "Emmett Till's murder",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.1.6",
+    "strength": "essential",
+    "why": "resisting the Brown ruling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.2.3",
+    "strength": "essential",
+    "why": "Faubus's defiance at Little Rock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.0.0",
+    "strength": "helpful",
+    "why": "Reconstruction era",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur6-s9.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.2.5",
+    "strength": "essential",
+    "why": "the Civil Rights Act of 1957",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.3.0",
+    "strength": "helpful",
+    "why": "student sit-in protests",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.3.2",
+    "strength": "essential",
+    "why": "the Freedom Rides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.3.3",
+    "strength": "essential",
+    "why": "violence against the Freedom Riders",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.3.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s9.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.3.5",
+    "strength": "essential",
+    "why": "the Albany Movement",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.4.0",
+    "strength": "helpful",
+    "why": "Bull Connor in Birmingham",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.4.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s9.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.4.0",
+    "strength": "essential",
+    "why": "the Birmingham campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.4.0",
+    "strength": "essential",
+    "why": "the Birmingham campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.7.2",
+    "strength": "helpful",
+    "why": "civil disobedience",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.4.0",
+    "strength": "helpful",
+    "why": "Birmingham protests",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.1.4",
+    "strength": "helpful",
+    "why": "the NAACP",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s1.7.5",
+    "strength": "helpful",
+    "why": "Kennedy's civil rights bill",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur6-s9.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.4.6",
+    "strength": "essential",
+    "why": "the March on Washington",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.3.1",
+    "strength": "helpful",
+    "why": "SNCC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.4.5",
+    "strength": "essential",
+    "why": "Kennedy's June 1963 bill",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.4.5",
+    "strength": "helpful",
+    "why": "Kennedy's civil rights bill",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s1.8.0",
+    "strength": "helpful",
+    "why": "Johnson's legislative skill",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur6-s9.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.5.0",
+    "strength": "helpful",
+    "why": "the bill being delayed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.5.b",
+    "strength": "helpful",
+    "why": "the 1964 Civil Rights Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.5.2",
+    "strength": "helpful",
+    "why": "the 1964 Civil Rights Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.5.2",
+    "strength": "helpful",
+    "why": "the 1964 Civil Rights Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.1.0",
+    "strength": "essential",
+    "why": "poll taxes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.3.1",
+    "strength": "helpful",
+    "why": "SNCC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.5.b",
+    "strength": "helpful",
+    "why": "the 1964 Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.7.4",
+    "strength": "helpful",
+    "why": "the SCLC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.6.0",
+    "strength": "essential",
+    "why": "the Selma campaign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.6.1",
+    "strength": "helpful",
+    "why": "Bloody Sunday",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.1.0",
+    "strength": "helpful",
+    "why": "literacy tests",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.6.3",
+    "strength": "essential",
+    "why": "the Voting Rights Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.8.3",
+    "strength": "helpful",
+    "why": "King's death",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.6.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.6.6",
+    "strength": "helpful",
+    "why": "Johnson's liberalism",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s1.8.4",
+    "strength": "helpful",
+    "why": "Johnson's 1964 landslide",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.7.1",
+    "strength": "helpful",
+    "why": "Gandhi and Christian teaching",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.7.2",
+    "strength": "helpful",
+    "why": "non-violent suffering strategy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.4.0",
+    "strength": "essential",
+    "why": "the Birmingham campaign",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.6.0",
+    "strength": "helpful",
+    "why": "the Selma campaign",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.3.5",
+    "strength": "helpful",
+    "why": "the Albany Movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.7.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.4.3",
+    "strength": "helpful",
+    "why": "the Letter from Birmingham Jail",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.4.7",
+    "strength": "helpful",
+    "why": "March on Washington speech",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.7.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.3.5",
+    "strength": "essential",
+    "why": "lessons of Albany",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.4.0",
+    "strength": "helpful",
+    "why": "Bull Connor in Birmingham",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.9.4",
+    "strength": "helpful",
+    "why": "Black Power",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.8.2",
+    "strength": "helpful",
+    "why": "the Memphis sanitation strike",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.8.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.9.1",
+    "strength": "helpful",
+    "why": "Malcolm X's views",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.9.4",
+    "strength": "helpful",
+    "why": "Black Power leaders",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.8.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.8.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.3.1",
+    "strength": "helpful",
+    "why": "SNCC organisers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.5.b",
+    "strength": "helpful",
+    "why": "the 1964 laws",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.6.3",
+    "strength": "helpful",
+    "why": "the 1965 Voting Rights Act",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur6-s9.9.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s9.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.9.1",
+    "strength": "essential",
+    "why": "Malcolm X and the Nation of Islam",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.9.1",
+    "strength": "helpful",
+    "why": "Malcolm X's earlier message",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.3.1",
+    "strength": "helpful",
+    "why": "SNCC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.9.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.9.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.9.5",
+    "strength": "essential",
+    "why": "the Black Panther Party",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.9.0",
+    "strength": "helpful",
+    "why": "northern ghetto frustration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.13.1",
+    "strength": "helpful",
+    "why": "law and order politics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.10.1",
+    "strength": "helpful",
+    "why": "the riots it investigated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.10.4",
+    "strength": "essential",
+    "why": "the Kerner Commission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.10.5",
+    "strength": "essential",
+    "why": "Kerner recommendations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.11.0",
+    "strength": "helpful",
+    "why": "poverty exposed by Harrington",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.11.1",
+    "strength": "essential",
+    "why": "the Economic Opportunity Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.11.1",
+    "strength": "helpful",
+    "why": "the War on Poverty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.11.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.11.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.11.1",
+    "strength": "helpful",
+    "why": "the War on Poverty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.11.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.11.5",
+    "strength": "helpful",
+    "why": "the falling poverty rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.1.2",
+    "strength": "helpful",
+    "why": "housing discrimination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.13.2",
+    "strength": "helpful",
+    "why": "drug control laws",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.13.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.13.4",
+    "strength": "helpful",
+    "why": "organised crime concern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.14.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.13.3",
+    "strength": "helpful",
+    "why": "Nixon's war on drugs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.13.3",
+    "strength": "helpful",
+    "why": "war on drugs origin",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s1.10.0",
+    "strength": "helpful",
+    "why": "Reagan's presidency",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur6-s9.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.14.1",
+    "strength": "essential",
+    "why": "the Anti-Drug Abuse Act",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.14.0",
+    "strength": "helpful",
+    "why": "crack cocaine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.14.2",
+    "strength": "essential",
+    "why": "crack-powder sentencing disparity",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.14.0",
+    "strength": "helpful",
+    "why": "crack in poor neighbourhoods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.14.3",
+    "strength": "helpful",
+    "why": "disparity driving imprisonment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.15.b",
+    "strength": "helpful",
+    "why": "affirmative action defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.15.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s9.15.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s9.15.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.16.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.5.b",
+    "strength": "helpful",
+    "why": "Civil Rights Act",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.6.3",
+    "strength": "helpful",
+    "why": "Voting Rights Act",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.6.5",
+    "strength": "helpful",
+    "why": "Fair Housing Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.16.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.12.b",
+    "strength": "helpful",
+    "why": "economic causes of black poverty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.16.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s9.16.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.15.0",
+    "strength": "helpful",
+    "why": "busing resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s9.16.4": {
+  "cost": 2,
+  "needs": []
+ }
+}

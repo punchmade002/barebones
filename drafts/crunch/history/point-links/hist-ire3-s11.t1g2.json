@@ -1,0 +1,245 @@
+{
+ "hist-ire3-s11.0.b": {
+  "needs": []
+ },
+ "hist-ire3-s11.0.0": {
+  "needs": []
+ },
+ "hist-ire3-s11.0.1": {
+  "needs": []
+ },
+ "hist-ire3-s11.0.2": {
+  "needs": []
+ },
+ "hist-ire3-s11.0.3": {
+  "needs": []
+ },
+ "hist-ire3-s11.0.4": {
+  "needs": []
+ },
+ "hist-ire3-s11.0.5": {
+  "needs": [
+   {
+    "id": "hist-ire3-s10.3.0",
+    "strength": "helpful",
+    "why": "Church managed schools",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s11.1.b": {
+  "needs": []
+ },
+ "hist-ire3-s11.1.0": {
+  "needs": []
+ },
+ "hist-ire3-s11.1.1": {
+  "needs": []
+ },
+ "hist-ire3-s11.1.2": {
+  "needs": []
+ },
+ "hist-ire3-s11.1.3": {
+  "needs": []
+ },
+ "hist-ire3-s11.1.4": {
+  "needs": [
+   {
+    "id": "hist-ire3-s10.5.2",
+    "strength": "helpful",
+    "why": "state radio 2RN and Athlone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s11.1.5": {
+  "needs": []
+ },
+ "hist-ire3-s11.1.6": {
+  "needs": []
+ },
+ "hist-ire3-s11.1.7": {
+  "needs": []
+ },
+ "hist-ire3-s11.2.b": {
+  "needs": []
+ },
+ "hist-ire3-s11.2.0": {
+  "needs": []
+ },
+ "hist-ire3-s11.2.1": {
+  "needs": []
+ },
+ "hist-ire3-s11.2.2": {
+  "needs": []
+ },
+ "hist-ire3-s11.2.3": {
+  "needs": []
+ },
+ "hist-ire3-s11.2.4": {
+  "needs": []
+ },
+ "hist-ire3-s11.3.b": {
+  "needs": []
+ },
+ "hist-ire3-s11.3.0": {
+  "needs": []
+ },
+ "hist-ire3-s11.3.1": {
+  "needs": []
+ },
+ "hist-ire3-s11.3.2": {
+  "needs": []
+ },
+ "hist-ire3-s11.3.3": {
+  "needs": []
+ },
+ "hist-ire3-s11.3.4": {
+  "needs": [
+   {
+    "id": "hist-ire3-s10.5.2",
+    "strength": "helpful",
+    "why": "state radio station",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s11.3.5": {
+  "needs": []
+ },
+ "hist-ire3-s11.3.6": {
+  "needs": []
+ },
+ "hist-ire3-s11.4.b": {
+  "needs": []
+ },
+ "hist-ire3-s11.4.0": {
+  "needs": []
+ },
+ "hist-ire3-s11.4.1": {
+  "needs": [
+   {
+    "id": "hist-ire3-s10.5.2",
+    "strength": "helpful",
+    "why": "state radio station",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s11.4.2": {
+  "needs": []
+ },
+ "hist-ire3-s11.4.3": {
+  "needs": []
+ },
+ "hist-ire3-s11.4.4": {
+  "needs": []
+ },
+ "hist-ire3-s11.4.5": {
+  "needs": []
+ },
+ "hist-ire3-s11.4.6": {
+  "needs": [
+   {
+    "id": "hist-ire3-s10.5.2",
+    "strength": "helpful",
+    "why": "Athlone and Radio Éireann",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s11.5.b": {
+  "needs": []
+ },
+ "hist-ire3-s11.5.0": {
+  "needs": []
+ },
+ "hist-ire3-s11.5.1": {
+  "needs": []
+ },
+ "hist-ire3-s11.5.2": {
+  "needs": []
+ },
+ "hist-ire3-s11.5.3": {
+  "needs": [
+   {
+    "id": "hist-ire3-s10.7.0",
+    "strength": "helpful",
+    "why": "Orange Order parades and culture",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire3-s11.5.4": {
+  "needs": []
+ },
+ "hist-ire3-s11.6.b": {
+  "needs": []
+ },
+ "hist-ire3-s11.6.0": {
+  "needs": [
+   {
+    "id": "hist-ire3-s10.4.b",
+    "strength": "helpful",
+    "why": "Catholic ethos of social legislation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s11.6.1": {
+  "needs": [
+   {
+    "id": "hist-ire3-s10.0.3",
+    "strength": "helpful",
+    "why": "conformity and censorship",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s11.6.2": {
+  "needs": []
+ },
+ "hist-ire3-s11.6.3": {
+  "needs": []
+ },
+ "hist-ire3-s11.6.4": {
+  "needs": []
+ },
+ "hist-ire3-s11.6.5": {
+  "needs": []
+ },
+ "hist-ire3-s11.6.6": {
+  "needs": [
+   {
+    "id": "hist-ire3-s10.0.3",
+    "strength": "helpful",
+    "why": "conformity of the 1930s",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire3-s11.6.7": {
+  "needs": []
+ },
+ "hist-ire3-s11.7.b": {
+  "needs": []
+ },
+ "hist-ire3-s11.7.0": {
+  "needs": []
+ },
+ "hist-ire3-s11.7.1": {
+  "needs": []
+ },
+ "hist-ire3-s11.7.2": {
+  "needs": []
+ },
+ "hist-ire3-s11.7.3": {
+  "needs": []
+ },
+ "hist-ire3-s11.7.4": {
+  "needs": []
+ },
+ "hist-ire3-s11.7.5": {
+  "needs": []
+ }
+}

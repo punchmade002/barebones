@@ -1,0 +1,440 @@
+{
+"hist-eur2-s8.0.b": {
+"needs": []
+},
+"hist-eur2-s8.0.0": {
+"needs": []
+},
+"hist-eur2-s8.0.1": {
+"needs": []
+},
+"hist-eur2-s8.0.2": {
+"needs": []
+},
+"hist-eur2-s8.0.3": {
+"needs": []
+},
+"hist-eur2-s8.0.4": {
+"needs": []
+},
+"hist-eur2-s8.0.5": {
+"needs": []
+},
+"hist-eur2-s8.0.6": {
+"needs": []
+},
+"hist-eur2-s8.0.7": {
+"needs": []
+},
+"hist-eur2-s8.1.b": {
+"needs": []
+},
+"hist-eur2-s8.1.0": {
+"needs": []
+},
+"hist-eur2-s8.1.1": {
+"needs": []
+},
+"hist-eur2-s8.1.2": {
+"needs": []
+},
+"hist-eur2-s8.2.b": {
+"needs": []
+},
+"hist-eur2-s8.2.0": {
+"needs": []
+},
+"hist-eur2-s8.2.1": {
+"needs": []
+},
+"hist-eur2-s8.2.2": {
+"needs": []
+},
+"hist-eur2-s8.2.3": {
+"needs": []
+},
+"hist-eur2-s8.3.b": {
+"needs": []
+},
+"hist-eur2-s8.3.0": {
+"needs": []
+},
+"hist-eur2-s8.3.1": {
+"needs": [
+{
+"id": "hist-eur2-s2.1.2",
+"strength": "helpful",
+"why": "Franco-Russian Alliance",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.3.2": {
+"needs": []
+},
+"hist-eur2-s8.3.3": {
+"needs": []
+},
+"hist-eur2-s8.3.4": {
+"needs": []
+},
+"hist-eur2-s8.4.b": {
+"needs": []
+},
+"hist-eur2-s8.4.0": {
+"needs": []
+},
+"hist-eur2-s8.4.1": {
+"needs": []
+},
+"hist-eur2-s8.4.2": {
+"needs": []
+},
+"hist-eur2-s8.4.3": {
+"needs": []
+},
+"hist-eur2-s8.5.b": {
+"needs": []
+},
+"hist-eur2-s8.5.0": {
+"needs": []
+},
+"hist-eur2-s8.5.1": {
+"needs": []
+},
+"hist-eur2-s8.5.2": {
+"needs": []
+},
+"hist-eur2-s8.5.3": {
+"needs": []
+},
+"hist-eur2-s8.5.4": {
+"needs": []
+},
+"hist-eur2-s8.6.b": {
+"needs": []
+},
+"hist-eur2-s8.6.0": {
+"needs": []
+},
+"hist-eur2-s8.6.1": {
+"needs": []
+},
+"hist-eur2-s8.6.2": {
+"needs": []
+},
+"hist-eur2-s8.6.3": {
+"needs": []
+},
+"hist-eur2-s8.6.4": {
+"needs": []
+},
+"hist-eur2-s8.6.5": {
+"needs": []
+},
+"hist-eur2-s8.7.b": {
+"needs": []
+},
+"hist-eur2-s8.7.0": {
+"needs": [
+{
+"id": "hist-eur2-s2.9.2",
+"strength": "helpful",
+"why": "Port Arthur and Manchuria claims",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.7.1": {
+"needs": []
+},
+"hist-eur2-s8.7.2": {
+"needs": [
+{
+"id": "hist-eur2-s2.9.2",
+"strength": "helpful",
+"why": "Port Arthur lease and spheres",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s8.7.3": {
+"needs": []
+},
+"hist-eur2-s8.7.4": {
+"needs": [
+{
+"id": "hist-eur2-s2.9.6",
+"strength": "helpful",
+"why": "Russo-Japanese War settlement",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.7.5": {
+"needs": []
+},
+"hist-eur2-s8.8.b": {
+"needs": []
+},
+"hist-eur2-s8.8.0": {
+"needs": []
+},
+"hist-eur2-s8.8.1": {
+"needs": []
+},
+"hist-eur2-s8.8.2": {
+"needs": []
+},
+"hist-eur2-s8.8.3": {
+"needs": []
+},
+"hist-eur2-s8.8.4": {
+"needs": []
+},
+"hist-eur2-s8.9.b": {
+"needs": []
+},
+"hist-eur2-s8.9.0": {
+"needs": []
+},
+"hist-eur2-s8.9.1": {
+"needs": []
+},
+"hist-eur2-s8.9.2": {
+"needs": []
+},
+"hist-eur2-s8.9.3": {
+"needs": [
+{
+"id": "hist-eur2-s2.1.6",
+"strength": "helpful",
+"why": "French investment in Russia",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s8.9.4": {
+"needs": []
+},
+"hist-eur2-s8.9.5": {
+"needs": []
+},
+"hist-eur2-s8.9.6": {
+"needs": []
+},
+"hist-eur2-s8.10.b": {
+"needs": []
+},
+"hist-eur2-s8.10.0": {
+"needs": []
+},
+"hist-eur2-s8.10.1": {
+"needs": []
+},
+"hist-eur2-s8.10.2": {
+"needs": []
+},
+"hist-eur2-s8.10.3": {
+"needs": []
+},
+"hist-eur2-s8.11.b": {
+"needs": []
+},
+"hist-eur2-s8.11.0": {
+"needs": []
+},
+"hist-eur2-s8.11.1": {
+"needs": []
+},
+"hist-eur2-s8.11.2": {
+"needs": []
+},
+"hist-eur2-s8.11.3": {
+"needs": []
+},
+"hist-eur2-s8.11.4": {
+"needs": []
+},
+"hist-eur2-s8.11.5": {
+"needs": []
+},
+"hist-eur2-s8.12.b": {
+"needs": []
+},
+"hist-eur2-s8.12.0": {
+"needs": []
+},
+"hist-eur2-s8.12.1": {
+"needs": []
+},
+"hist-eur2-s8.12.2": {
+"needs": []
+},
+"hist-eur2-s8.12.3": {
+"needs": []
+},
+"hist-eur2-s8.12.4": {
+"needs": []
+},
+"hist-eur2-s8.12.5": {
+"needs": []
+},
+"hist-eur2-s8.12.6": {
+"needs": []
+},
+"hist-eur2-s8.13.b": {
+"needs": []
+},
+"hist-eur2-s8.13.0": {
+"needs": []
+},
+"hist-eur2-s8.13.1": {
+"needs": []
+},
+"hist-eur2-s8.13.2": {
+"needs": []
+},
+"hist-eur2-s8.13.3": {
+"needs": []
+},
+"hist-eur2-s8.13.4": {
+"needs": []
+},
+"hist-eur2-s8.14.b": {
+"needs": []
+},
+"hist-eur2-s8.14.0": {
+"needs": []
+},
+"hist-eur2-s8.14.1": {
+"needs": []
+},
+"hist-eur2-s8.14.2": {
+"needs": []
+},
+"hist-eur2-s8.14.3": {
+"needs": []
+},
+"hist-eur2-s8.14.4": {
+"needs": []
+},
+"hist-eur2-s8.15.b": {
+"needs": []
+},
+"hist-eur2-s8.15.0": {
+"needs": []
+},
+"hist-eur2-s8.15.1": {
+"needs": []
+},
+"hist-eur2-s8.15.2": {
+"needs": []
+},
+"hist-eur2-s8.15.3": {
+"needs": []
+},
+"hist-eur2-s8.15.4": {
+"needs": []
+},
+"hist-eur2-s8.15.5": {
+"needs": []
+},
+"hist-eur2-s8.15.6": {
+"needs": []
+},
+"hist-eur2-s8.16.b": {
+"needs": []
+},
+"hist-eur2-s8.16.0": {
+"needs": []
+},
+"hist-eur2-s8.16.1": {
+"needs": []
+},
+"hist-eur2-s8.16.2": {
+"needs": []
+},
+"hist-eur2-s8.16.3": {
+"needs": []
+},
+"hist-eur2-s8.16.4": {
+"needs": []
+},
+"hist-eur2-s8.17.b": {
+"needs": []
+},
+"hist-eur2-s8.17.0": {
+"needs": []
+},
+"hist-eur2-s8.17.1": {
+"needs": []
+},
+"hist-eur2-s8.17.2": {
+"needs": []
+},
+"hist-eur2-s8.17.3": {
+"needs": []
+},
+"hist-eur2-s8.17.4": {
+"needs": []
+},
+"hist-eur2-s8.17.5": {
+"needs": []
+},
+"hist-eur2-s8.17.6": {
+"needs": []
+},
+"hist-eur2-s8.17.7": {
+"needs": []
+},
+"hist-eur2-s8.18.b": {
+"needs": []
+},
+"hist-eur2-s8.18.0": {
+"needs": []
+},
+"hist-eur2-s8.18.1": {
+"needs": []
+},
+"hist-eur2-s8.18.2": {
+"needs": []
+},
+"hist-eur2-s8.18.3": {
+"needs": []
+},
+"hist-eur2-s8.19.b": {
+"needs": []
+},
+"hist-eur2-s8.19.0": {
+"needs": []
+},
+"hist-eur2-s8.19.1": {
+"needs": [
+{
+"id": "hist-eur2-s2.1.6",
+"strength": "helpful",
+"why": "dependence on French capital",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s8.19.2": {
+"needs": []
+},
+"hist-eur2-s8.19.3": {
+"needs": []
+},
+"hist-eur2-s8.19.4": {
+"needs": []
+},
+"hist-eur2-s8.19.5": {
+"needs": []
+},
+"hist-eur2-s8.19.6": {
+"needs": []
+},
+"hist-eur2-s8.19.7": {
+"needs": []
+}
+}

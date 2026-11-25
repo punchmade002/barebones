@@ -1,0 +1,869 @@
+{
+ "hist-ire1-s6.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.0.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.0.2",
+    "strength": "helpful",
+    "why": "Catholic Emancipation Act 1829",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.0.0",
+    "strength": "helpful",
+    "why": "Act of Union and Irish MPs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.0.3",
+    "strength": "essential",
+    "why": "uses the 1850 Franchise Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.0.4",
+    "strength": "helpful",
+    "why": "enlarged county electorate of tenant farmers",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.3.0",
+    "strength": "essential",
+    "why": "uses the Tenant League",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.1.0",
+    "strength": "essential",
+    "why": "the Orange Order dissolved then revived",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.1.1",
+    "strength": "helpful",
+    "why": "Orange marches by 1849",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.1.2",
+    "strength": "essential",
+    "why": "fighting at Dolly's Brae",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.1.2",
+    "strength": "essential",
+    "why": "Lord Roden and Dolly's Brae",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.1.2",
+    "strength": "helpful",
+    "why": "clashes like Dolly's Brae",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.2.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire1-s6.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.2.0",
+    "strength": "essential",
+    "why": "territorial titles restored by Pius IX",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.2.1",
+    "strength": "essential",
+    "why": "the Ecclesiastical Titles Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.2.1",
+    "strength": "essential",
+    "why": "the Ecclesiastical Titles Act 1851",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.9.2",
+    "strength": "essential",
+    "why": "the Irish Church Act 1869",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.7.0",
+    "strength": "helpful",
+    "why": "Duffy, co-founder of The Nation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s6.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.3.0",
+    "strength": "helpful",
+    "why": "the demands of the Tenant League",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.3.0",
+    "strength": "essential",
+    "why": "supporters of the Tenant League",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.3.0",
+    "strength": "helpful",
+    "why": "Tenant League MPs of 1852",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.3.3",
+    "strength": "essential",
+    "why": "the pledge of independent opposition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.3.4",
+    "strength": "essential",
+    "why": "Keogh and Sadleir taking office",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.3.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.3.4",
+    "strength": "helpful",
+    "why": "Sadleir and Keogh",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.3.5",
+    "strength": "essential",
+    "why": "MPs seen as betrayers",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.4.b",
+    "strength": "helpful",
+    "why": "turning towards Fenianism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.1",
+    "strength": "helpful",
+    "why": "the IRB",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.4.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire1-s6.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.1",
+    "strength": "helpful",
+    "why": "the IRB founded the same year",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.9.b",
+    "strength": "helpful",
+    "why": "the failed 1848 rising",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.3.7",
+    "strength": "helpful",
+    "why": "disillusion after Independent Irish Party",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.1",
+    "strength": "essential",
+    "why": "the IRB and Stephens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.9.2",
+    "strength": "helpful",
+    "why": "MacManus sentenced after 1848",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.1",
+    "strength": "essential",
+    "why": "Luby and the IRB",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.4.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.6",
+    "strength": "essential",
+    "why": "the Irish People newspaper",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.5.0",
+    "strength": "essential",
+    "why": "arrest of Stephens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.5.1",
+    "strength": "helpful",
+    "why": "Stephens escaped, then went abroad",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.5.3",
+    "strength": "helpful",
+    "why": "the postponed rising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.5.4",
+    "strength": "essential",
+    "why": "the 1867 rising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.6.0",
+    "strength": "essential",
+    "why": "the Manchester rescue and Brett",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.6.2",
+    "strength": "essential",
+    "why": "the Clerkenwell bombing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.2",
+    "strength": "helpful",
+    "why": "American Fenians, the Fenian Brotherhood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.1",
+    "strength": "helpful",
+    "why": "Stephens founded the IRB",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.9.0",
+    "strength": "essential",
+    "why": "the 1848 rising at Ballingarry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.1",
+    "strength": "essential",
+    "why": "the IRB founded in 1858",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.2",
+    "strength": "essential",
+    "why": "the Fenian Brotherhood in America",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.6",
+    "strength": "essential",
+    "why": "the Irish People",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.4.4",
+    "strength": "helpful",
+    "why": "army recruitment and circles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.5.0",
+    "strength": "essential",
+    "why": "arrests of 1865",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.5.1",
+    "strength": "helpful",
+    "why": "escape from Richmond",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.5.3",
+    "strength": "essential",
+    "why": "failed to deliver the rising",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.5.3",
+    "strength": "essential",
+    "why": "Stephens deposed in 1866",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.7.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.5.3",
+    "strength": "helpful",
+    "why": "the rising he failed to lead",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.4.1",
+    "strength": "helpful",
+    "why": "the IRB he founded",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.7.0",
+    "strength": "essential",
+    "why": "The Nation, Young Ireland newspaper",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.4.6",
+    "strength": "essential",
+    "why": "the Irish People",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.5.0",
+    "strength": "essential",
+    "why": "arrest of Irish People editors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.1",
+    "strength": "helpful",
+    "why": "the IRB",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.6.5",
+    "strength": "essential",
+    "why": "bishops condemned Fenianism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.8.2",
+    "strength": "helpful",
+    "why": "his imprisonment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.8.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.6.1",
+    "strength": "essential",
+    "why": "the Manchester executions",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.6.2",
+    "strength": "essential",
+    "why": "Clerkenwell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s2.0.1",
+    "strength": "essential",
+    "why": "Church of Ireland as established church",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.9.2",
+    "strength": "essential",
+    "why": "disestablishment of the Church of Ireland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.5.0",
+    "strength": "helpful",
+    "why": "Fenian prisoners arrested in 1865",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.6.1",
+    "strength": "helpful",
+    "why": "Manchester Fenians",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire1-s6.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.10.0",
+    "strength": "helpful",
+    "why": "the Irish Land Act 1870",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.10.0",
+    "strength": "helpful",
+    "why": "the Irish Land Act 1870",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.10.1",
+    "strength": "helpful",
+    "why": "compensation provisions that fell short",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire1-s6.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.4.0",
+    "strength": "helpful",
+    "why": "physical force republicanism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.5.5",
+    "strength": "essential",
+    "why": "failure of the 1867 rising",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.6.5",
+    "strength": "helpful",
+    "why": "Church condemnation of Fenians",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.6.5",
+    "strength": "helpful",
+    "why": "Church view of Fenianism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.9.1",
+    "strength": "essential",
+    "why": "Manchester and Clerkenwell prompting reform",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.9.2",
+    "strength": "helpful",
+    "why": "Gladstone's reforms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.9.2",
+    "strength": "essential",
+    "why": "disestablishment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.10.3",
+    "strength": "essential",
+    "why": "Land Act failing to stop evictions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire1-s6.11.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire1-s6.11.3",
+    "strength": "helpful",
+    "why": "Fenian push for reform",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire1-s6.11.5",
+    "strength": "helpful",
+    "why": "limits of reform",
+    "confidence": "high"
+   }
+  ]
+ }
+}

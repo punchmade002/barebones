@@ -1,0 +1,587 @@
+{
+"hist-eur2-s10.0.b": {
+"needs": []
+},
+"hist-eur2-s10.0.0": {
+"needs": []
+},
+"hist-eur2-s10.0.1": {
+"needs": []
+},
+"hist-eur2-s10.0.2": {
+"needs": []
+},
+"hist-eur2-s10.0.3": {
+"needs": []
+},
+"hist-eur2-s10.1.b": {
+"needs": []
+},
+"hist-eur2-s10.1.0": {
+"needs": []
+},
+"hist-eur2-s10.1.1": {
+"needs": []
+},
+"hist-eur2-s10.1.2": {
+"needs": []
+},
+"hist-eur2-s10.1.3": {
+"needs": []
+},
+"hist-eur2-s10.1.4": {
+"needs": []
+},
+"hist-eur2-s10.1.5": {
+"needs": []
+},
+"hist-eur2-s10.1.6": {
+"needs": []
+},
+"hist-eur2-s10.2.b": {
+"needs": []
+},
+"hist-eur2-s10.2.0": {
+"needs": []
+},
+"hist-eur2-s10.2.1": {
+"needs": [
+{
+"id": "hist-eur2-s8.0.7",
+"strength": "helpful",
+"why": "uses Russification policy",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.2.2": {
+"needs": []
+},
+"hist-eur2-s10.2.3": {
+"needs": []
+},
+"hist-eur2-s10.3.b": {
+"needs": []
+},
+"hist-eur2-s10.3.0": {
+"needs": []
+},
+"hist-eur2-s10.3.1": {
+"needs": []
+},
+"hist-eur2-s10.3.2": {
+"needs": []
+},
+"hist-eur2-s10.3.3": {
+"needs": []
+},
+"hist-eur2-s10.3.4": {
+"needs": []
+},
+"hist-eur2-s10.4.b": {
+"needs": []
+},
+"hist-eur2-s10.4.0": {
+"needs": []
+},
+"hist-eur2-s10.4.1": {
+"needs": []
+},
+"hist-eur2-s10.4.2": {
+"needs": []
+},
+"hist-eur2-s10.4.3": {
+"needs": []
+},
+"hist-eur2-s10.5.b": {
+"needs": []
+},
+"hist-eur2-s10.5.0": {
+"needs": []
+},
+"hist-eur2-s10.5.1": {
+"needs": []
+},
+"hist-eur2-s10.5.2": {
+"needs": []
+},
+"hist-eur2-s10.5.3": {
+"needs": []
+},
+"hist-eur2-s10.5.4": {
+"needs": []
+},
+"hist-eur2-s10.5.5": {
+"needs": []
+},
+"hist-eur2-s10.6.b": {
+"needs": []
+},
+"hist-eur2-s10.6.0": {
+"needs": []
+},
+"hist-eur2-s10.6.1": {
+"needs": []
+},
+"hist-eur2-s10.6.2": {
+"needs": []
+},
+"hist-eur2-s10.6.3": {
+"needs": []
+},
+"hist-eur2-s10.6.4": {
+"needs": []
+},
+"hist-eur2-s10.7.b": {
+"needs": []
+},
+"hist-eur2-s10.7.0": {
+"needs": []
+},
+"hist-eur2-s10.7.1": {
+"needs": []
+},
+"hist-eur2-s10.7.2": {
+"needs": []
+},
+"hist-eur2-s10.8.b": {
+"needs": []
+},
+"hist-eur2-s10.8.0": {
+"needs": []
+},
+"hist-eur2-s10.8.1": {
+"needs": []
+},
+"hist-eur2-s10.8.2": {
+"needs": []
+},
+"hist-eur2-s10.8.3": {
+"needs": []
+},
+"hist-eur2-s10.8.4": {
+"needs": []
+},
+"hist-eur2-s10.8.5": {
+"needs": []
+},
+"hist-eur2-s10.9.b": {
+"needs": []
+},
+"hist-eur2-s10.9.0": {
+"needs": []
+},
+"hist-eur2-s10.9.1": {
+"needs": []
+},
+"hist-eur2-s10.9.2": {
+"needs": []
+},
+"hist-eur2-s10.9.3": {
+"needs": []
+},
+"hist-eur2-s10.9.4": {
+"needs": []
+},
+"hist-eur2-s10.9.5": {
+"needs": []
+},
+"hist-eur2-s10.9.6": {
+"needs": []
+},
+"hist-eur2-s10.9.7": {
+"needs": []
+},
+"hist-eur2-s10.10.b": {
+"needs": []
+},
+"hist-eur2-s10.10.0": {
+"needs": []
+},
+"hist-eur2-s10.10.1": {
+"needs": []
+},
+"hist-eur2-s10.10.2": {
+"needs": []
+},
+"hist-eur2-s10.10.3": {
+"needs": []
+},
+"hist-eur2-s10.10.4": {
+"needs": []
+},
+"hist-eur2-s10.10.5": {
+"needs": []
+},
+"hist-eur2-s10.11.b": {
+"needs": []
+},
+"hist-eur2-s10.11.0": {
+"needs": []
+},
+"hist-eur2-s10.11.1": {
+"needs": []
+},
+"hist-eur2-s10.11.2": {
+"needs": []
+},
+"hist-eur2-s10.11.3": {
+"needs": []
+},
+"hist-eur2-s10.11.4": {
+"needs": []
+},
+"hist-eur2-s10.11.5": {
+"needs": []
+},
+"hist-eur2-s10.12.b": {
+"needs": []
+},
+"hist-eur2-s10.12.0": {
+"needs": []
+},
+"hist-eur2-s10.12.1": {
+"needs": []
+},
+"hist-eur2-s10.12.2": {
+"needs": []
+},
+"hist-eur2-s10.12.3": {
+"needs": []
+},
+"hist-eur2-s10.12.4": {
+"needs": []
+},
+"hist-eur2-s10.12.5": {
+"needs": []
+},
+"hist-eur2-s10.12.6": {
+"needs": []
+},
+"hist-eur2-s10.13.b": {
+"needs": []
+},
+"hist-eur2-s10.13.0": {
+"needs": []
+},
+"hist-eur2-s10.13.1": {
+"needs": []
+},
+"hist-eur2-s10.13.2": {
+"needs": []
+},
+"hist-eur2-s10.13.3": {
+"needs": []
+},
+"hist-eur2-s10.14.b": {
+"needs": []
+},
+"hist-eur2-s10.14.0": {
+"needs": []
+},
+"hist-eur2-s10.14.1": {
+"needs": []
+},
+"hist-eur2-s10.14.2": {
+"needs": []
+},
+"hist-eur2-s10.14.3": {
+"needs": []
+},
+"hist-eur2-s10.14.4": {
+"needs": []
+},
+"hist-eur2-s10.15.b": {
+"needs": []
+},
+"hist-eur2-s10.15.0": {
+"needs": []
+},
+"hist-eur2-s10.15.1": {
+"needs": []
+},
+"hist-eur2-s10.15.2": {
+"needs": []
+},
+"hist-eur2-s10.15.3": {
+"needs": []
+},
+"hist-eur2-s10.15.4": {
+"needs": []
+},
+"hist-eur2-s10.15.5": {
+"needs": []
+},
+"hist-eur2-s10.15.6": {
+"needs": []
+},
+"hist-eur2-s10.16.b": {
+"needs": []
+},
+"hist-eur2-s10.16.0": {
+"needs": []
+},
+"hist-eur2-s10.16.1": {
+"needs": []
+},
+"hist-eur2-s10.16.2": {
+"needs": []
+},
+"hist-eur2-s10.17.b": {
+"needs": []
+},
+"hist-eur2-s10.17.0": {
+"needs": []
+},
+"hist-eur2-s10.17.1": {
+"needs": []
+},
+"hist-eur2-s10.17.2": {
+"needs": []
+},
+"hist-eur2-s10.17.3": {
+"needs": []
+},
+"hist-eur2-s10.17.4": {
+"needs": []
+},
+"hist-eur2-s10.17.5": {
+"needs": []
+},
+"hist-eur2-s10.18.b": {
+"needs": []
+},
+"hist-eur2-s10.18.0": {
+"needs": []
+},
+"hist-eur2-s10.18.1": {
+"needs": []
+},
+"hist-eur2-s10.18.2": {
+"needs": []
+},
+"hist-eur2-s10.18.3": {
+"needs": []
+},
+"hist-eur2-s10.18.4": {
+"needs": []
+},
+"hist-eur2-s10.18.5": {
+"needs": []
+},
+"hist-eur2-s10.18.6": {
+"needs": []
+},
+"hist-eur2-s10.19.b": {
+"needs": []
+},
+"hist-eur2-s10.19.0": {
+"needs": []
+},
+"hist-eur2-s10.19.1": {
+"needs": []
+},
+"hist-eur2-s10.19.2": {
+"needs": []
+},
+"hist-eur2-s10.19.3": {
+"needs": []
+},
+"hist-eur2-s10.20.b": {
+"needs": []
+},
+"hist-eur2-s10.20.0": {
+"needs": []
+},
+"hist-eur2-s10.20.1": {
+"needs": []
+},
+"hist-eur2-s10.20.2": {
+"needs": []
+},
+"hist-eur2-s10.20.3": {
+"needs": []
+},
+"hist-eur2-s10.21.b": {
+"needs": []
+},
+"hist-eur2-s10.21.0": {
+"needs": []
+},
+"hist-eur2-s10.21.1": {
+"needs": []
+},
+"hist-eur2-s10.21.2": {
+"needs": []
+},
+"hist-eur2-s10.21.3": {
+"needs": []
+},
+"hist-eur2-s10.21.4": {
+"needs": []
+},
+"hist-eur2-s10.21.5": {
+"needs": []
+},
+"hist-eur2-s10.21.6": {
+"needs": []
+},
+"hist-eur2-s10.22.b": {
+"needs": []
+},
+"hist-eur2-s10.22.0": {
+"needs": []
+},
+"hist-eur2-s10.22.1": {
+"needs": []
+},
+"hist-eur2-s10.22.2": {
+"needs": []
+},
+"hist-eur2-s10.22.3": {
+"needs": []
+},
+"hist-eur2-s10.22.4": {
+"needs": []
+},
+"hist-eur2-s10.23.b": {
+"needs": [
+{
+"id": "hist-eur2-s8.0.0",
+"strength": "helpful",
+"why": "tsarist autocracy",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.23.0": {
+"needs": [
+{
+"id": "hist-eur2-s8.0.0",
+"strength": "helpful",
+"why": "autocracy and Orthodox state church",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.23.1": {
+"needs": [
+{
+"id": "hist-eur2-s8.0.4",
+"strength": "helpful",
+"why": "1897 census, multinational empire",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.23.2": {
+"needs": []
+},
+"hist-eur2-s10.23.3": {
+"needs": [
+{
+"id": "hist-eur2-s8.0.6",
+"strength": "helpful",
+"why": "Alexander II's assassination",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.23.4": {
+"needs": []
+},
+"hist-eur2-s10.23.5": {
+"needs": []
+},
+"hist-eur2-s10.24.b": {
+"needs": []
+},
+"hist-eur2-s10.24.0": {
+"needs": []
+},
+"hist-eur2-s10.24.1": {
+"needs": [
+{
+"id": "hist-eur2-s8.0.7",
+"strength": "helpful",
+"why": "Alexander III, Nicholas II, Russification",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.24.2": {
+"needs": []
+},
+"hist-eur2-s10.24.3": {
+"needs": []
+},
+"hist-eur2-s10.24.4": {
+"needs": [
+{
+"id": "hist-eur2-s8.8.3",
+"strength": "helpful",
+"why": "October Manifesto 1905",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.24.5": {
+"needs": []
+},
+"hist-eur2-s10.25.b": {
+"needs": []
+},
+"hist-eur2-s10.25.0": {
+"needs": []
+},
+"hist-eur2-s10.25.1": {
+"needs": []
+},
+"hist-eur2-s10.25.2": {
+"needs": []
+},
+"hist-eur2-s10.25.3": {
+"needs": []
+},
+"hist-eur2-s10.25.4": {
+"needs": [
+{
+"id": "hist-eur2-s8.2.1",
+"strength": "helpful",
+"why": "revolutionary parties",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s10.25.5": {
+"needs": [
+{
+"id": "hist-eur2-s8.14.0",
+"strength": "helpful",
+"why": "Provisional Government of 1917",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s10.26.b": {
+"needs": []
+},
+"hist-eur2-s10.26.0": {
+"needs": []
+},
+"hist-eur2-s10.26.1": {
+"needs": []
+},
+"hist-eur2-s10.26.2": {
+"needs": []
+},
+"hist-eur2-s10.26.3": {
+"needs": []
+},
+"hist-eur2-s10.26.4": {
+"needs": []
+},
+"hist-eur2-s10.26.5": {
+"needs": []
+}
+}

@@ -1,0 +1,96 @@
+import json,re
+P='hist-ire6-s10.'
+def n(t,s,w,c='high'):
+    return {"id":t if t.startswith('hist-') else P+t,"strength":s,"why":w,"confidence":c}
+E,H='essential','helpful'
+D=[
+('0.b',1,[]),
+('0.0',1,[]),
+('0.1',1,[]),
+('0.2',1,[n('hist-ire6-s2.6.0',H,'uses Lemass as Taoiseach','low')]),
+('0.3',1,[n('hist-ire6-s9.6.b',H,'uses McQuaid as Archbishop','low')]),
+('1.b',1,[]),
+('1.0',1,[n('0.0',H,'ministers over broadcasting under Posts')]),
+('1.1',1,[]),
+('1.2',1,[n('1.0',E,'uses the Act and the Authority')]),
+('1.3',1,[n('1.0',H,'uses Telefis Eireann under the Authority','low')]),
+('1.4',1,[]),
+('1.5',1,[n('1.3',H,'uses the 1961 launch of Telefis Eireann')]),
+('2.b',1,[]),
+('2.0',1,[n('1.0',E,'uses the Act and the Minister')]),
+('2.1',1,[n('1.2',E,'uses the impartiality duty')]),
+('2.2',2,[n('0.2',H,'uses Lemass as Taoiseach')]),
+('2.3',1,[n('2.2',H,'contrasts with the Lemass view')]),
+('2.4',1,[n('2.3',E,'uses the two opposing views'),n('7.3',H,'refers to the 1971-72 crisis','low')]),
+('3.b',1,[]),
+('3.0',1,[]),
+('3.1',1,[]),
+('3.2',1,[]),
+('3.3',1,[]),
+('3.4',1,[]),
+('3.5',1,[]),
+('3.6',1,[]),
+('4.b',1,[]),
+('4.0',1,[]),
+('4.1',1,[n('4.0',H,'uses the Late Late Show')]),
+('4.2',1,[n('4.1',H,'uses the show and its presenter')]),
+('4.3',2,[n('4.1',E,'uses Gay Byrne and the show')]),
+('4.4',1,[n('4.3',E,'condemns the 1966 episode')]),
+('4.5',1,[n('4.3',E,'uses the 1966 incident'),n('4.4',H,'uses the public split')]),
+('5.b',1,[]),
+('5.0',1,[n('0.2',H,'uses Lemass and Lynch')]),
+('5.1',1,[n('5.0',H,'uses programmes that criticised policy'),n('1.0',H,'uses the RTE Authority')]),
+('5.2',1,[n('5.0',E,'uses the Seven Days series')]),
+('5.3',1,[n('hist-ire6-s4.0.2',H,'uses the Troubles','low')]),
+('5.4',1,[n('1.0',E,'uses the Authority and the Act')]),
+('6.b',1,[]),
+('6.0',1,[]),
+('6.1',1,[]),
+('6.2',1,[n('hist-ire6-s9.8.b',H,'uses censorship of print','low')]),
+('6.3',1,[n('0.3',E,'uses McQuaid and Church views')]),
+('6.4',1,[]),
+('6.5',1,[]),
+('7.b',1,[]),
+('7.0',2,[n('2.0',E,'uses Section 31')]),
+('7.1',1,[n('7.0',E,'protests the Section 31 order')]),
+('7.2',2,[n('5.3',H,'uses the Troubles','low')]),
+('7.3',1,[n('7.2',E,'uses the Mac Stiofain interview'),n('7.0',E,'uses the Section 31 order')]),
+('7.4',1,[n('7.2',E,'uses the Mac Stiofain interview')]),
+('7.5',1,[n('7.3',E,'uses the dismissal of the Authority')]),
+('7.6',1,[n('7.0',E,'uses the Section 31 order')]),
+('8.b',1,[n('4.1',H,'uses The Late Late Show')]),
+('8.0',1,[]),
+('8.1',1,[n('4.1',H,'uses The Late Late Show')]),
+('8.2',2,[n('4.3',E,'uses the 1966 episode'),n('4.2',H,'uses the topics discussed')]),
+('8.3',1,[n('4.2',H,'uses the liberalising effect')]),
+('8.4',1,[n('4.4',H,'uses clergy attacks on the show')]),
+('8.5',2,[n('8.2',H,'uses his role as participant')]),
+('9.b',1,[]),
+('9.0',1,[n('2.2',E,'uses Lemass view of RTE')]),
+('9.1',1,[n('2.3',E,'uses the free-to-criticise view')]),
+('9.2',1,[n('0.3',H,'uses Church influence on morals')]),
+('9.3',1,[n('3.5',H,'uses Irish-language output')]),
+('9.4',1,[n('3.3',E,'uses The Riordans')]),
+('9.5',1,[n('5.4',H,'uses government power over the Authority','low')]),
+('9.6',2,[n('6.2',H,'uses television accelerating change','low')]),
+('9.7',2,[n('2.1',H,'uses state and broadcaster relationship','low')]),
+('10.b',1,[]),
+('10.0',1,[n('3.3',E,'uses The Riordans'),n('4.0',H,'uses The Late Late Show')]),
+('10.1',2,[n('5.0',E,'uses Seven Days'),n('4.3',E,'uses the 1966 episode')]),
+('10.2',2,[n('6.2',E,'uses liberalisation and secularisation')]),
+('10.3',2,[n('7.0',E,'uses Section 31 in 1971'),n('7.3',E,'uses the 1972 dismissal')]),
+('10.4',1,[n('5.1',H,'uses government fears of programmes')]),
+('10.5',2,[n('9.6',E,'uses the Savage argument')]),
+('10.6',1,[n('10.5',H,'uses television as one cause')]),
+]
+out={P+k:({"cost":c,"needs":v}) for k,c,v in D}
+assert len(out)==len(D)
+json.dump(out,open('/Users/gabrielwhelan/barebones/.claude/worktrees/history-crunch/drafts/crunch/history/point-links/hist-ire6-s10.t1g1.json','w'),indent=1)
+# check
+txt=open('/Users/gabrielwhelan/barebones/.claude/worktrees/history-crunch/drafts/crunch/history/packs/hist-ire6-s10.t1g1.txt').read()
+allids=set(re.findall(r'^\[([^\]]+)\]',txt,re.M))
+tgt=re.findall(r'^\[(hist-ire6-s10\.[^\]]+)\]',txt,re.M)
+assert sorted(tgt)==sorted(out),(set(tgt)^set(out))
+for k,v in out.items():
+    for x in v['needs']: assert x['id'] in allids and x['id']!=k,(k,x)
+print(len(out),sum(len(v['needs']) for v in out.values()),sum(v['cost']==2 for v in out.values()),sum(x['confidence']=='low' for v in out.values() for x in v['needs']))

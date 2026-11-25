@@ -1,0 +1,703 @@
+{
+ "hist-eur6-s11.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s4.1.0",
+    "strength": "helpful",
+    "why": "uses Truman's loyalty programme",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s4.0.7",
+    "strength": "helpful",
+    "why": "uses McCarthyism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.1.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s11.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.1.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s11.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.3.b",
+    "strength": "helpful",
+    "why": "uses the blacklist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.2.0",
+    "strength": "essential",
+    "why": "uses the Production Code",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.2.0",
+    "strength": "essential",
+    "why": "replaces the Production Code",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.3.b",
+    "strength": "essential",
+    "why": "uses HUAC hearings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.3.0",
+    "strength": "helpful",
+    "why": "responds to the hearings",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s11.3.b",
+    "strength": "helpful",
+    "why": "uses the blacklist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.3.b",
+    "strength": "helpful",
+    "why": "uses the blacklist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.3.2",
+    "strength": "essential",
+    "why": "uses Dalton Trumbo's pseudonym writing",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s11.3.b",
+    "strength": "helpful",
+    "why": "breaks the blacklist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.3.b",
+    "strength": "helpful",
+    "why": "uses HUAC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.3.b",
+    "strength": "helpful",
+    "why": "uses the blacklist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.3.1",
+    "strength": "helpful",
+    "why": "loyalty response to suspicion",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur6-s11.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.0.2",
+    "strength": "helpful",
+    "why": "uses mass media",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.4.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.0.2",
+    "strength": "helpful",
+    "why": "uses mass media",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.5.1",
+    "strength": "helpful",
+    "why": "uses rock and roll",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s4.9.2",
+    "strength": "helpful",
+    "why": "the Pentagon march itself",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.7.7",
+    "strength": "helpful",
+    "why": "the Ali-Foreman fight",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.6.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s11.6.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.6.1",
+    "strength": "essential",
+    "why": "argument of The White Negro",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.6.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.6.2",
+    "strength": "helpful",
+    "why": "The Armies of the Night",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.7.0",
+    "strength": "helpful",
+    "why": "same boxer, early career",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur6-s11.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.7.0",
+    "strength": "helpful",
+    "why": "Clay name and background",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur6-s11.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.7.2",
+    "strength": "helpful",
+    "why": "Muslim minister, Nation of Islam",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s4.8.3",
+    "strength": "helpful",
+    "why": "uses the draft",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.7.3",
+    "strength": "essential",
+    "why": "follows the refusal of induction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.7.4",
+    "strength": "essential",
+    "why": "overturns the conviction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.7.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.7.3",
+    "strength": "helpful",
+    "why": "the ban after refusal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.7.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.7.6",
+    "strength": "helpful",
+    "why": "continues his comeback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.7.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.7.3",
+    "strength": "helpful",
+    "why": "the draft refusal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.0.6",
+    "strength": "helpful",
+    "why": "uses counter-culture",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.8.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s11.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.8.b",
+    "strength": "helpful",
+    "why": "uses hippies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.8.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s11.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s4.8.1",
+    "strength": "helpful",
+    "why": "uses SDS",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.9.5",
+    "strength": "helpful",
+    "why": "uses Black Panther Party",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s4.9.3",
+    "strength": "helpful",
+    "why": "uses the Chicago convention",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s4.9.6",
+    "strength": "helpful",
+    "why": "Nixon's silent majority speech",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.10.0",
+    "strength": "essential",
+    "why": "uses Chavez and the union",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.10.2",
+    "strength": "helpful",
+    "why": "uses AIM",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.10.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s9.9.4",
+    "strength": "helpful",
+    "why": "uses Black Power",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s9.9.5",
+    "strength": "helpful",
+    "why": "uses Black Panther Party",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.11.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s11.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.11.1",
+    "strength": "essential",
+    "why": "follows Stonewall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s11.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.0.0",
+    "strength": "essential",
+    "why": "uses the concept of consensus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.12.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.0.0",
+    "strength": "helpful",
+    "why": "uses consensus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.12.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.0.0",
+    "strength": "essential",
+    "why": "uses the consensus view",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.12.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.0.0",
+    "strength": "essential",
+    "why": "uses the consensus view",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s4.0.7",
+    "strength": "helpful",
+    "why": "uses the red scare",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.12.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.8.b",
+    "strength": "helpful",
+    "why": "uses the counter-culture",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s11.12.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s11.0.0",
+    "strength": "essential",
+    "why": "uses consensus",
+    "confidence": "high"
+   }
+  ]
+ }
+}
