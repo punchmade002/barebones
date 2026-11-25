@@ -1,0 +1,525 @@
+{
+"hist-eur2-s6.0.b": {
+"needs": []
+},
+"hist-eur2-s6.0.0": {
+"needs": [
+{
+"id": "hist-eur2-s8.13.3",
+"strength": "helpful",
+"why": "Russia leaving war in 1917",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.0.1": {
+"needs": []
+},
+"hist-eur2-s6.0.2": {
+"needs": []
+},
+"hist-eur2-s6.0.3": {
+"needs": []
+},
+"hist-eur2-s6.0.4": {
+"needs": []
+},
+"hist-eur2-s6.0.5": {
+"needs": []
+},
+"hist-eur2-s6.1.b": {
+"needs": []
+},
+"hist-eur2-s6.1.0": {
+"needs": []
+},
+"hist-eur2-s6.1.1": {
+"needs": []
+},
+"hist-eur2-s6.1.2": {
+"needs": []
+},
+"hist-eur2-s6.1.3": {
+"needs": []
+},
+"hist-eur2-s6.1.4": {
+"needs": []
+},
+"hist-eur2-s6.1.5": {
+"needs": []
+},
+"hist-eur2-s6.1.6": {
+"needs": []
+},
+"hist-eur2-s6.2.b": {
+"needs": []
+},
+"hist-eur2-s6.2.0": {
+"needs": []
+},
+"hist-eur2-s6.2.1": {
+"needs": []
+},
+"hist-eur2-s6.2.2": {
+"needs": [
+{
+"id": "hist-eur2-s8.13.2",
+"strength": "helpful",
+"why": "Soviets as councils on Russian model",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.2.3": {
+"needs": []
+},
+"hist-eur2-s6.2.4": {
+"needs": []
+},
+"hist-eur2-s6.2.5": {
+"needs": []
+},
+"hist-eur2-s6.2.6": {
+"needs": []
+},
+"hist-eur2-s6.2.7": {
+"needs": [
+{
+"id": "hist-eur2-s8.16.3",
+"strength": "helpful",
+"why": "Brest-Litovsk cancelled",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.3.b": {
+"needs": []
+},
+"hist-eur2-s6.3.0": {
+"needs": []
+},
+"hist-eur2-s6.3.1": {
+"needs": []
+},
+"hist-eur2-s6.3.2": {
+"needs": [
+{
+"id": "hist-eur2-s8.15.3",
+"strength": "helpful",
+"why": "Bolshevik seizure of power",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.3.3": {
+"needs": []
+},
+"hist-eur2-s6.3.4": {
+"needs": []
+},
+"hist-eur2-s6.3.5": {
+"needs": [
+{
+"id": "hist-eur2-s8.13.2",
+"strength": "helpful",
+"why": "Russian soviets as councils",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.4.b": {
+"needs": []
+},
+"hist-eur2-s6.4.0": {
+"needs": [
+{
+"id": "hist-eur2-s8.15.4",
+"strength": "helpful",
+"why": "Russian council republic",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.4.1": {
+"needs": []
+},
+"hist-eur2-s6.4.2": {
+"needs": []
+},
+"hist-eur2-s6.4.3": {
+"needs": []
+},
+"hist-eur2-s6.4.4": {
+"needs": []
+},
+"hist-eur2-s6.4.5": {
+"needs": [
+{
+"id": "hist-eur2-s8.15.4",
+"strength": "helpful",
+"why": "Soviet republic model",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.5.b": {
+"needs": []
+},
+"hist-eur2-s6.5.0": {
+"needs": []
+},
+"hist-eur2-s6.5.1": {
+"needs": []
+},
+"hist-eur2-s6.5.2": {
+"needs": []
+},
+"hist-eur2-s6.5.3": {
+"needs": []
+},
+"hist-eur2-s6.5.4": {
+"needs": []
+},
+"hist-eur2-s6.5.5": {
+"needs": []
+},
+"hist-eur2-s6.6.b": {
+"needs": []
+},
+"hist-eur2-s6.6.0": {
+"needs": []
+},
+"hist-eur2-s6.6.1": {
+"needs": []
+},
+"hist-eur2-s6.6.2": {
+"needs": []
+},
+"hist-eur2-s6.6.3": {
+"needs": []
+},
+"hist-eur2-s6.6.4": {
+"needs": [
+{
+"id": "hist-eur2-s8.15.4",
+"strength": "helpful",
+"why": "Soviet republic model",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.7.b": {
+"needs": []
+},
+"hist-eur2-s6.7.0": {
+"needs": [
+{
+"id": "hist-eur2-s8.15.5",
+"strength": "helpful",
+"why": "Bolshevik Decree on Peace",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.7.1": {
+"needs": []
+},
+"hist-eur2-s6.7.2": {
+"needs": []
+},
+"hist-eur2-s6.7.3": {
+"needs": []
+},
+"hist-eur2-s6.7.4": {
+"needs": []
+},
+"hist-eur2-s6.7.5": {
+"needs": []
+},
+"hist-eur2-s6.7.6": {
+"needs": []
+},
+"hist-eur2-s6.7.7": {
+"needs": []
+},
+"hist-eur2-s6.8.b": {
+"needs": []
+},
+"hist-eur2-s6.8.0": {
+"needs": []
+},
+"hist-eur2-s6.8.1": {
+"needs": []
+},
+"hist-eur2-s6.8.2": {
+"needs": []
+},
+"hist-eur2-s6.8.3": {
+"needs": []
+},
+"hist-eur2-s6.8.4": {
+"needs": []
+},
+"hist-eur2-s6.8.5": {
+"needs": []
+},
+"hist-eur2-s6.8.6": {
+"needs": []
+},
+"hist-eur2-s6.9.b": {
+"needs": []
+},
+"hist-eur2-s6.9.0": {
+"needs": []
+},
+"hist-eur2-s6.9.1": {
+"needs": []
+},
+"hist-eur2-s6.9.2": {
+"needs": []
+},
+"hist-eur2-s6.9.3": {
+"needs": []
+},
+"hist-eur2-s6.9.4": {
+"needs": []
+},
+"hist-eur2-s6.9.5": {
+"needs": []
+},
+"hist-eur2-s6.10.b": {
+"needs": []
+},
+"hist-eur2-s6.10.0": {
+"needs": []
+},
+"hist-eur2-s6.10.1": {
+"needs": []
+},
+"hist-eur2-s6.10.2": {
+"needs": []
+},
+"hist-eur2-s6.10.3": {
+"needs": []
+},
+"hist-eur2-s6.10.4": {
+"needs": []
+},
+"hist-eur2-s6.10.5": {
+"needs": []
+},
+"hist-eur2-s6.10.6": {
+"needs": []
+},
+"hist-eur2-s6.11.b": {
+"needs": []
+},
+"hist-eur2-s6.11.0": {
+"needs": []
+},
+"hist-eur2-s6.11.1": {
+"needs": []
+},
+"hist-eur2-s6.11.2": {
+"needs": []
+},
+"hist-eur2-s6.11.3": {
+"needs": []
+},
+"hist-eur2-s6.11.4": {
+"needs": []
+},
+"hist-eur2-s6.11.5": {
+"needs": []
+},
+"hist-eur2-s6.11.6": {
+"needs": []
+},
+"hist-eur2-s6.11.7": {
+"needs": []
+},
+"hist-eur2-s6.12.b": {
+"needs": []
+},
+"hist-eur2-s6.12.0": {
+"needs": []
+},
+"hist-eur2-s6.12.1": {
+"needs": []
+},
+"hist-eur2-s6.12.2": {
+"needs": []
+},
+"hist-eur2-s6.12.3": {
+"needs": []
+},
+"hist-eur2-s6.12.4": {
+"needs": []
+},
+"hist-eur2-s6.12.5": {
+"needs": []
+},
+"hist-eur2-s6.13.b": {
+"needs": []
+},
+"hist-eur2-s6.13.0": {
+"needs": [
+{
+"id": "hist-eur2-s8.18.2",
+"strength": "helpful",
+"why": "states breaking from Russia",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.13.1": {
+"needs": []
+},
+"hist-eur2-s6.13.2": {
+"needs": []
+},
+"hist-eur2-s6.13.3": {
+"needs": []
+},
+"hist-eur2-s6.13.4": {
+"needs": []
+},
+"hist-eur2-s6.13.5": {
+"needs": []
+},
+"hist-eur2-s6.13.6": {
+"needs": []
+},
+"hist-eur2-s6.13.7": {
+"needs": []
+},
+"hist-eur2-s6.14.b": {
+"needs": []
+},
+"hist-eur2-s6.14.0": {
+"needs": []
+},
+"hist-eur2-s6.14.1": {
+"needs": []
+},
+"hist-eur2-s6.14.2": {
+"needs": []
+},
+"hist-eur2-s6.14.3": {
+"needs": []
+},
+"hist-eur2-s6.14.4": {
+"needs": []
+},
+"hist-eur2-s6.14.5": {
+"needs": []
+},
+"hist-eur2-s6.14.6": {
+"needs": []
+},
+"hist-eur2-s6.14.7": {
+"needs": []
+},
+"hist-eur2-s6.15.b": {
+"needs": []
+},
+"hist-eur2-s6.15.0": {
+"needs": []
+},
+"hist-eur2-s6.15.1": {
+"needs": []
+},
+"hist-eur2-s6.15.2": {
+"needs": []
+},
+"hist-eur2-s6.15.3": {
+"needs": []
+},
+"hist-eur2-s6.15.4": {
+"needs": []
+},
+"hist-eur2-s6.15.5": {
+"needs": []
+},
+"hist-eur2-s6.15.6": {
+"needs": []
+},
+"hist-eur2-s6.15.7": {
+"needs": []
+},
+"hist-eur2-s6.16.b": {
+"needs": []
+},
+"hist-eur2-s6.16.0": {
+"needs": []
+},
+"hist-eur2-s6.16.1": {
+"needs": []
+},
+"hist-eur2-s6.16.2": {
+"needs": []
+},
+"hist-eur2-s6.16.3": {
+"needs": [
+{
+"id": "hist-eur2-s8.15.3",
+"strength": "helpful",
+"why": "Bolshevik revolution fear",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.16.4": {
+"needs": [
+{
+"id": "hist-eur2-s8.17.1",
+"strength": "helpful",
+"why": "Russian Civil War",
+"confidence": "high"
+},
+{
+"id": "hist-eur2-s8.17.7",
+"strength": "helpful",
+"why": "Polish-Soviet war",
+"confidence": "high"
+}
+]
+},
+"hist-eur2-s6.16.5": {
+"needs": []
+},
+"hist-eur2-s6.17.b": {
+"needs": []
+},
+"hist-eur2-s6.17.0": {
+"needs": [
+{
+"id": "hist-eur2-s8.15.3",
+"strength": "helpful",
+"why": "Bolshevik-style regime",
+"confidence": "low"
+}
+]
+},
+"hist-eur2-s6.17.1": {
+"needs": []
+},
+"hist-eur2-s6.17.2": {
+"needs": []
+},
+"hist-eur2-s6.17.3": {
+"needs": []
+},
+"hist-eur2-s6.17.4": {
+"needs": []
+},
+"hist-eur2-s6.17.5": {
+"needs": []
+},
+"hist-eur2-s6.17.6": {
+"needs": []
+},
+"hist-eur2-s6.17.7": {
+"needs": []
+}
+}

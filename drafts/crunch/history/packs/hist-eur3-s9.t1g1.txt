@@ -1,351 +1,331 @@
 MODE: cost and links
 TARGET hist-eur3-s9: 9. The Second World War: blitzkrieg, wartime alliances, the technology of warfare and Churchill
-[hist-eur3-s9.0.b] Blitzkrieg, or lightning war, combined fast armoured thrusts with air power and was first used on a large scale against Poland in September 1939.
-[hist-eur3-s9.0.0] Blitzkrieg relied on concentrated armoured divisions, close air support from dive-bombers such as the Junkers Ju 87 Stuka, and rapid breakthroughs that encircled enemy forces.
-[hist-eur3-s9.0.1] Germany invaded Poland on 1 September 1939, and the Polish army was defeated within about five weeks, with Warsaw surrendering at the end of September.
-[hist-eur3-s9.0.2] The Soviet Union invaded eastern Poland on 17 September 1939 under the terms of the Nazi-Soviet Pact, and the two powers divided the country.
-[hist-eur3-s9.0.3] Britain and France declared war on Germany on 3 September 1939, but their armies made no major attack on the Western Front during the Phoney War.
-[hist-eur3-s9.0.4] The Phoney War lasted from September 1939 until the German offensive in the west in May 1940.
-[hist-eur3-s9.0.5] Germany invaded Denmark and Norway on 9 April 1940; Denmark fell within hours, and Norway was conquered by June despite a failed Anglo-French landing, giving Germany Atlantic naval bases and Swedish iron-ore supplies.
-[hist-eur3-s9.1.b] In May and June 1940 German armoured forces defeated France in six weeks, and the Battle of Britain that followed was the first major campaign fought entirely in the air.
-[hist-eur3-s9.1.0] The German offensive in the west began on 10 May 1940, with an advance through the Netherlands, Belgium and the Ardennes, which bypassed the Maginot Line.
-[hist-eur3-s9.1.1] German armoured divisions reached the Channel coast at Abbeville by 20 May, cutting off the British and French forces in the north.
-[hist-eur3-s9.1.2] The Battle of Britain was fought from July to October 1940, as the Luftwaffe attacked RAF airfields and aircraft factories in an attempt to gain air superiority.
-[hist-eur3-s9.1.3] The RAF's Fighter Command, using Spitfire and Hurricane fighters and the radar early-warning Chain Home system, defeated the attempt to win air superiority.
-[hist-eur3-s9.1.4] Germany then switched to bombing London and other cities in the Blitz, which began on 7 September 1940 and continued into 1941.
-[hist-eur3-s9.1.5] Germany's invasion plan for Britain, Operation Sea Lion, was postponed in September 1940 and then abandoned.
-[hist-eur3-s9.2.b] The German invasion of the Soviet Union and the Japanese attack on the United States in December 1941 turned the war into a global conflict.
-[hist-eur3-s9.2.0] Operation Barbarossa, the German invasion of the Soviet Union, began on 22 June 1941 along a front of about 3,000 kilometres from the Baltic to the Black Sea.
-[hist-eur3-s9.2.1] German forces advanced rapidly in the first months and reached the outskirts of Moscow and Leningrad by late 1941, but were halted by the winter and Soviet counter-attacks in December.
-[hist-eur3-s9.2.2] The Japanese attack on the US Pacific Fleet at Pearl Harbor on 7 December 1941 brought the United States into the war, and Germany and Italy declared war on the United States on 11 December.
-[hist-eur3-s9.2.3] The Lend-Lease Act of March 1941 allowed the United States to supply Britain, and later the Soviet Union, with weapons and equipment without immediate payment.
-[hist-eur3-s9.2.4] Japan's attacks also took the Philippines, Malaya and Singapore, forcing Britain to surrender Singapore in February 1942.
-[hist-eur3-s9.2.5] Japan had been at war with China since 1937 and occupied French Indochina in 1940 and 1941; the United States responded with an oil embargo, which pushed Japan towards the attack of December 1941.
-[hist-eur3-s9.2.6] Within months Japan captured Hong Kong, Malaya, Singapore, the Dutch East Indies, the Philippines and Burma.
-[hist-eur3-s9.2.7] The American victory at Midway in June 1942, in which four Japanese carriers were sunk, ended Japan's advance, and the Guadalcanal campaign began the American counter-offensive.
-[hist-eur3-s9.2.8] The United States used an island-hopping strategy, backed by submarines and carrier air power, to approach Japan, and later bombed Japanese cities with B-29 bombers.
-[hist-eur3-s9.2.9] Japan surrendered after the atomic bombs and the Soviet declaration of war on 8 August 1945; the formal surrender was signed on 2 September 1945.
-[hist-eur3-s9.3.b] The Axis powers of Germany, Italy and Japan were linked by formal treaties, but their war aims were not coordinated and they often acted separately.
-[hist-eur3-s9.3.0] The Pact of Steel of 22 May 1939 bound Germany and Italy into a military alliance, although Italy was not ready for war when it entered in June 1940.
-[hist-eur3-s9.3.1] The Tripartite Pact of 27 September 1940 added Japan to the Axis, recognising the leadership of Germany and Italy in Europe and of Japan in East Asia.
-[hist-eur3-s9.3.2] Hungary, Romania, Bulgaria and Slovakia later joined the Axis, and Finland fought alongside Germany against the Soviet Union.
-[hist-eur3-s9.3.3] Italy's defeats in Greece and North Africa in 1940 and 1941 forced Germany to intervene in the Balkans and in North Africa, drawing forces away from Barbarossa.
-[hist-eur3-s9.3.4] The Axis powers did not share a joint strategy, and Germany and Japan did not coordinate their attacks on the Soviet Union and the United States.
-[hist-eur3-s9.4.b] Britain, the Soviet Union and the United States formed a wartime coalition in which cooperation over strategy and the future of Europe was often strained.
-[hist-eur3-s9.4.0] Churchill and President Franklin Roosevelt issued the Atlantic Charter in August 1941, setting out shared principles including self-determination and the restoration of sovereignty to those deprived of it.
-[hist-eur3-s9.4.1] The Soviet Union joined the Allied coalition after Barbarossa, and Stalin repeatedly called for a second front in Western Europe to relieve pressure on the Red Army.
-[hist-eur3-s9.4.2] The Tehran Conference of November and December 1943 brought Roosevelt, Churchill and Stalin together for the first time, and it set the plan for the invasion of France.
-[hist-eur3-s9.4.3] The Yalta Conference of February 1945 agreed the occupation zones of Germany, the principle of free elections in liberated Eastern Europe and the entry of the Soviet Union into the war against Japan.
-[hist-eur3-s9.4.4] Disputes over the timing of the second front, the future of Poland and the Soviet occupation of Eastern Europe foreshadowed the tensions of the Cold War.
-[hist-eur3-s9.5.b] The Allied victories of 1942 and 1943 reversed the Axis advance, and the Normandy landings of June 1944 opened the way to the defeat of Germany.
-[hist-eur3-s9.5.0] The Second Battle of El Alamein, from October to November 1942, defeated the Axis armies in North Africa under Erwin Rommel, and the Allies landed in Morocco and Algeria the same month.
-[hist-eur3-s9.5.1] The Battle of Stalingrad ended in February 1943 with the surrender of the German Sixth Army, and the Battle of Kursk in July 1943 became the last major German offensive in the east.
-[hist-eur3-s9.5.2] The Allies invaded Sicily in July 1943 and Italy's government surrendered in September 1943, but Germany occupied most of northern and central Italy.
-[hist-eur3-s9.5.3] The Normandy landings (D-Day) began on 6 June 1944, and Allied forces broke out of the beachheads and liberated Paris on 25 August 1944.
-[hist-eur3-s9.5.4] The Soviet Red Army advanced into Poland and the Balkans in 1944, and the Soviet offensive on Berlin began in April 1945.
-[hist-eur3-s9.5.5] Hitler killed himself in Berlin on 30 April 1945, and German forces surrendered in May 1945, with the surrender at Reims on 7 May and in Berlin on 8 May.
-[hist-eur3-s9.6.b] Technological developments shaped the war on land, at sea and in the air, and the decisive use of the atomic bomb ended the war against Japan.
-[hist-eur3-s9.6.0] Tanks: the German Panzer divisions used radio communication and combined armour with motorised infantry, while the Soviet T-34 and the American Sherman were produced in large numbers.
-[hist-eur3-s9.6.1] Aircraft: strategic bombing by RAF Bomber Command and the US Army Air Forces attacked German cities, causing fires and civilian deaths, with the bombing of Hamburg in July 1943 and Dresden in February 1945 among the most devastating raids.
-[hist-eur3-s9.6.2] Radar: the British Chain Home system and later airborne and ship-borne radar gave early warning of attacks and helped locate U-boats and aircraft.
-[hist-eur3-s9.6.3] Codebreaking: at Bletchley Park the British decrypted German Enigma messages, and the resulting intelligence, known as Ultra, was used in the Battle of the Atlantic and the North African campaign.
-[hist-eur3-s9.6.4] Submarines and convoys: German U-boats sank large numbers of Allied merchant ships in the Atlantic, but the convoy system and escort groups reduced losses from 1943.
-[hist-eur3-s9.6.5] Rockets and jets: Germany's V-1 flying bombs were launched against London from June 1944 and its V-2 rockets from September 1944, and later against Antwerp, and the Messerschmitt Me 262 jet fighter entered service in 1944, too late to change the outcome.
-[hist-eur3-s9.6.6] Atomic weapons: the United States dropped atomic bombs on Hiroshima on 6 August 1945 and Nagasaki on 9 August 1945, and Japan announced its surrender on 15 August 1945; the bombs had been developed in the Manhattan Project, and the first test took place in New Mexico on 16 July 1945.
-[hist-eur3-s9.7.b] Churchill served as Prime Minister from May 1940 and led Britain through the war and the negotiations of the Grand Alliance.
-[hist-eur3-s9.7.0] Born in 1874 at Blenheim Palace into an aristocratic family, he entered Parliament in 1900 as a Conservative, joined the Liberals in 1904, was First Lord of the Admiralty from 1911 to 1915, and was Chancellor of the Exchequer from 1924 to 1929, then spent the 1930s out of office warning against Hitler.
-[hist-eur3-s9.7.1] He became First Lord of the Admiralty again in September 1939 and succeeded Neville Chamberlain as Prime Minister on 10 May 1940.
-[hist-eur3-s9.7.2] His speech of 4 June 1940 included the phrase 'we shall fight on the beaches', and his leadership in the Battle of Britain made him a symbol of national resistance.
-[hist-eur3-s9.7.3] He was a participant in the Allied conferences at Tehran and Yalta and negotiated closely with Roosevelt and Stalin, and he lost office in July 1945 after the general election.
-[hist-eur3-s9.7.4] Contemporaries, including some of his own party, criticised his part in the Gallipoli campaign in 1915 and his return to the gold standard in 1925, but his wartime leadership won wide admiration.
-[hist-eur3-s9.7.5] Historians have praised his resolve in 1940 and his strategic leadership, while criticising the bombing of German cities such as Dresden, the diversion of forces to the Mediterranean and Greece in 1941, and his attitude to colonial peoples, as in the Bengal famine of 1943.
-[hist-eur3-s9.7.6] He became Prime Minister at the head of a coalition including Labour leaders Clement Attlee and Ernest Bevin, and he also acted as Minister of Defence.
-[hist-eur3-s9.7.7] His speeches on the radio and in Parliament, including 'blood, toil, tears and sweat' (13 May 1940) and 'their finest hour' (18 June 1940), sustained morale after Dunkirk and during the Blitz.
-[hist-eur3-s9.7.8] Between 26 May and 4 June 1940, Operation Dynamo evacuated over 330,000 Allied troops from Dunkirk.
-[hist-eur3-s9.7.9] He built a close relationship with Roosevelt, meeting him at Placentia Bay, Washington, Casablanca (January 1943, where unconditional surrender was announced) and Quebec.
-[hist-eur3-s9.7.10] In October 1944 he met Stalin in Moscow and proposed the 'percentages agreement' on spheres of influence in the Balkans, which has been seen as a sign of wartime realism or of cynicism.
-[hist-eur3-s9.7.11] He attended the Potsdam Conference in July 1945 until the Labour election victory replaced him with Attlee.
-[hist-eur3-s9.8.b] The 1920s and 1930s produced the ideas and machines that were used in the Second World War.
-[hist-eur3-s9.8.0] Armoured warfare theory by British writers such as J.F.C. Fuller and Basil Liddell Hart, and by the German general Heinz Guderian in Achtung - Panzer! (1937), influenced the formation of German Panzer divisions from 1935.
-[hist-eur3-s9.8.1] Air power theorists such as Giulio Douhet argued that bombers would decide wars; the bombing of Guernica in April 1937 by the German Condor Legion in the Spanish Civil War, which tested aircraft and tactics, shocked world opinion.
-[hist-eur3-s9.8.2] Britain developed radar from 1935, when Robert Watson-Watt showed that radio waves could detect aircraft, and Chain Home stations were built along the east and south coasts from 1936.
-[hist-eur3-s9.8.3] Fighter design improved with the Hawker Hurricane (first flown 1935) and the Supermarine Spitfire (1936), and the Messerschmitt Bf 109 entered service in Germany.
-[hist-eur3-s9.8.4] Polish mathematicians broke the early Enigma machine in the early 1930s and passed their methods to Britain and France in July 1939.
-[hist-eur3-s9.8.5] Frank Whittle patented the jet engine in 1930, and the first German jet aircraft, the Heinkel He 178, flew in August 1939.
-[hist-eur3-s9.8.6] Rocket research by Wernher von Braun for the German army began in the early 1930s and led to the V-2 at Peenemünde.
-[hist-eur3-s9.9.b] Judgements of Churchill and the alliances weigh the British war effort and the coalition's success against its divisions and its costs.
-[hist-eur3-s9.9.0] Achievement: Britain's refusal to negotiate a peace in 1940 kept open a base from which the Allies could later invade Europe.
-[hist-eur3-s9.9.1] Limit: British strategy relied heavily on American resources after 1941, and the British Empire's position in Asia was lost in 1942.
-[hist-eur3-s9.9.2] Achievement: the Grand Alliance defeated the Axis powers and produced the United Nations as a post-war organisation.
-[hist-eur3-s9.9.3] Limit: the alliance concealed deep divisions over Eastern Europe, and these became the Cold War once Germany was defeated.
-[hist-eur3-s9.9.4] Contemporary view: many British people saw Churchill as the embodiment of national resistance, while critics on the left and in his own party questioned his judgement.
-[hist-eur3-s9.9.5] Later view: historians still debate how far Churchill's leadership was essential, with some stressing his role in 1940 and others emphasising the decisive contribution of Soviet and American forces.
+[hist-eur3-s9.0.b] The Second World War began because Hitler's demands on Poland met a British and French promise to defend it, after Germany and the Soviet Union had agreed to share eastern Europe. It was fought at first with weapons and ideas still shaped by the First World War.
+[hist-eur3-s9.0.0] In March 1939 Britain and France guaranteed Poland's independence, which meant that a German attack on Poland would bring them into the war. Hitler's demands on Poland were what tested that promise.
+[hist-eur3-s9.0.1] On 23 August 1939 Germany and the Soviet Union signed the Nazi-Soviet Pact (also called the Molotov-Ribbentrop Pact). Its secret protocol divided Poland and eastern Europe into German and Soviet spheres, so each side could take its share without fighting the other.
+[hist-eur3-s9.0.2] Tanks, military aircraft, submarines and poison gas were all used in 1914-18, and the British first used tanks in battle on the Somme on 15 September 1916. But tanks were slow and unreliable, so the war stayed mostly static trench warfare (armies dug in along fixed lines).
+[hist-eur3-s9.1.b] Blitzkrieg is German for 'lightning war'. It names a way of fighting designed to win quickly and so avoid the long trench stalemate of 1914-18.
+[hist-eur3-s9.1.0] Its core was the concentrated Panzer division (a German armoured division, with tanks massed together rather than spread out), working with motorised infantry, meaning foot soldiers carried in vehicles so that they could keep up with the tanks.
+[hist-eur3-s9.1.1] Close air support came from dive-bombers such as the Junkers Ju 87 Stuka, which attacked enemy positions as the tanks advanced, and radio communication let commanders direct tanks and aircraft together at speed.
+[hist-eur3-s9.1.2] The method depended on speed and breakthrough: armour broke through a weak point in the enemy line and then encircled the defenders, which meant they were cut off and forced to surrender instead of fighting a drawn-out war.
+[hist-eur3-s9.1.3] 'Blitzkrieg' was a label popularised by the Western press in 1939-40. German commanders did not use it as the name of an official doctrine, so it is best understood as a description of a method.
+[hist-eur3-s9.1.4] Poland in 1939 showed the method, although that campaign was largely a conventional advance with tanks in support. France in 1940 is the classic example of blitzkrieg, where it was perfected.
+[hist-eur3-s9.2.b] Germany's first campaigns showed how fast armoured forces could win. Britain and France, though at war with Germany, made no major attack in the west for months.
+[hist-eur3-s9.2.0] Germany invaded Poland on 1 September 1939, and Britain and France declared war on Germany on 3 September 1939.
+[hist-eur3-s9.2.1] The Soviet Union invaded eastern Poland on 17 September 1939 under the Nazi-Soviet Pact, and the two powers divided the country between them. Warsaw surrendered at the end of September and the last Polish forces in early October, about five weeks in all.
+[hist-eur3-s9.2.2] During the Phoney War, from September 1939 until the German offensive in the west in May 1940, Britain and France made no major attack on the Western Front (the border between France and Germany). It was called phoney because so little fighting took place.
+[hist-eur3-s9.2.3] Germany invaded Denmark and Norway on 9 April 1940. Denmark surrendered the same day.
+[hist-eur3-s9.2.4] British, French and Polish forces landed in Norway, including at Narvik, but were withdrawn by early June 1940, and Norway capitulated that month.
+[hist-eur3-s9.2.5] Victory gave Germany naval bases and secured the route for Swedish iron ore, the raw material for steel, which was shipped through Narvik.
+[hist-eur3-s9.2.6] The failure in Norway led to the Norway debate in the House of Commons on 7-8 May 1940, which led to Prime Minister Neville Chamberlain's resignation on 10 May 1940.
+[hist-eur3-s9.3.b] In six weeks in the spring of 1940 German armour defeated France. The speed of the defeat is the standard example of blitzkrieg.
+[hist-eur3-s9.3.0] The German offensive in the west began on 10 May 1940, with attacks on the Netherlands, Belgium and Luxembourg and the main armoured thrust through the Ardennes (a hilly, wooded region).
+[hist-eur3-s9.3.1] This bypassed the Maginot Line, the chain of French fortifications along the German border, so the fortifications were outflanked rather than attacked.
+[hist-eur3-s9.3.2] The plan is known as the 'sickle cut' (Sichelschnitt) and is associated with Erich von Manstein, because the armour swung like a sickle blade through the Ardennes to the sea.
+[hist-eur3-s9.3.3] German tanks reached the Channel coast near Abbeville on 20 May 1940, cutting off the British and French forces in the north.
+[hist-eur3-s9.3.4] From 26 May to 4 June 1940 Operation Dynamo evacuated over 330,000 Allied troops from Dunkirk. Almost all their heavy equipment was left behind, so the army was saved but its tanks and guns were lost.
+[hist-eur3-s9.3.5] Italy declared war on Britain and France on 10 June 1940, although it was not ready for war.
+[hist-eur3-s9.3.6] The Franco-German armistice (ceasefire agreement) of 22 June 1940 ended the fighting in France. The collapse of the French government and the setting up of the Vichy regime followed, but the military defeat itself took only six weeks.
+[hist-eur3-s9.4.b] With France beaten, Britain stood alone. Hitler's plan to invade depended on first winning control of the skies, so the Battle of Britain became the first major campaign fought entirely in the air.
+[hist-eur3-s9.4.0] The Battle of Britain was fought from July to October 1940. The Luftwaffe (the German air force) attacked RAF airfields and aircraft factories to gain air superiority, meaning control of the air, which was needed before an invasion called Operation Sea Lion could be risked.
+[hist-eur3-s9.4.1] RAF Fighter Command, flying Hawker Hurricane and Supermarine Spitfire fighters and using the Chain Home radar early-warning system, defeated the attempt to win air superiority. Chain Home gave warning of raids so that fighters could be sent up in time.
+[hist-eur3-s9.4.2] Operation Sea Lion was postponed in September 1940 (indefinitely, on 17 September) and then abandoned.
+[hist-eur3-s9.4.3] Germany then switched to bombing London and other cities in the Blitz, which began on 7 September 1940 and continued until May 1941.
+[hist-eur3-s9.5.b] Italy's failures dragged Germany into campaigns it had not planned. This widened the war to the Balkans and North Africa.
+[hist-eur3-s9.5.0] Italy invaded Greece in October 1940 and was driven back. British forces defeated the Italians in Libya between December 1940 and February 1941.
+[hist-eur3-s9.5.1] Germany had to intervene to rescue its ally: Erwin Rommel and the Afrika Korps (the German force in North Africa) were sent there in February 1941, and Germany invaded Yugoslavia and Greece in April 1941.
+[hist-eur3-s9.5.2] German intervention in the Balkans and North Africa stretched German resources. Historians debate whether the Balkan campaign delayed the invasion of the Soviet Union in a way that mattered, because the late spring and supply problems also caused delay.
+[hist-eur3-s9.6.b] Nazi Germany and communist Russia were bitter ideological enemies, yet from August 1939 until June 1941 they co-operated because each gained from it.
+[hist-eur3-s9.6.0] The two powers jointly partitioned Poland in September 1939, so each gained territory at Poland's expense.
+[hist-eur3-s9.6.1] German-Soviet trade agreements supplied Germany with Soviet oil, grain and raw materials until 22 June 1941, which meant the Soviet Union was helping to feed and fuel the German war effort.
+[hist-eur3-s9.6.2] Operation Barbarossa, the German invasion of the Soviet Union on 22 June 1941, ended the partnership. It had been a convenience for both sides rather than a real friendship.
+[hist-eur3-s9.7.b] Hitler's invasion of the Soviet Union opened the largest front of the war. It ended the Nazi-Soviet partnership and committed Germany to a long war in the east.
+[hist-eur3-s9.7.0] Operation Barbarossa began on 22 June 1941 along a front of about 3,000 kilometres from the Baltic to the Black Sea.
+[hist-eur3-s9.7.1] German forces advanced rapidly in the first months and reached the outskirts of Moscow and Leningrad by late 1941. Leningrad was besieged from September 1941 (until January 1944).
+[hist-eur3-s9.7.2] The Germans were halted before Moscow by the winter and by the Soviet counter-offensive that began in December 1941. The hoped-for quick victory, the aim of blitzkrieg, had failed.
+[hist-eur3-s9.8.b] By the end of 1941 the wars in Europe and Asia had merged. Japan's attack on the United States brought America in, and Germany and Italy joined the fight against it.
+[hist-eur3-s9.8.0] Japan had been at war with China since 1937. It occupied northern French Indochina (France's colony in south-east Asia) in 1940 and the south in July 1941.
+[hist-eur3-s9.8.1] The United States responded with an oil embargo in the summer of 1941, which pushed Japan towards the attack of December 1941.
+[hist-eur3-s9.8.2] On 7 December 1941 Japan attacked the US Pacific Fleet at Pearl Harbor, which brought the United States into the war.
+[hist-eur3-s9.8.3] Germany and Italy declared war on the United States on 11 December 1941, turning two separate wars into one global conflict.
+[hist-eur3-s9.9.b] Japan's early victories were rapid, but they were halted within six months by American carrier power. The United States then advanced island by island towards Japan.
+[hist-eur3-s9.9.0] Within months Japan captured Hong Kong (25 December 1941), Malaya, Singapore (which Britain surrendered on 15 February 1942), the Dutch East Indies, the Philippines and Burma, so most of these conquests were complete by mid-1942.
+[hist-eur3-s9.9.1] The American victory at the Battle of Midway in June 1942, in which four Japanese aircraft carriers were sunk, ended Japan's advance. The Guadalcanal campaign, from August 1942, began the American counter-offensive.
+[hist-eur3-s9.9.2] The United States used an island-hopping strategy, capturing chosen islands as stepping stones towards Japan, backed by submarines and carrier air power. B-29 bombers later attacked Japanese cities.
+[hist-eur3-s9.9.3] The Soviet Union declared war on Japan on 8 August 1945, between the atomic bombs on Hiroshima and Nagasaki. Japan announced its surrender on 15 August, and the formal surrender was signed on 2 September 1945 aboard USS Missouri in Tokyo Bay.
+[hist-eur3-s9.10.b] Between late 1942 and mid-1943 the Allies stopped the Axis advance on every major front. After this the Axis powers were mostly on the defensive.
+[hist-eur3-s9.10.0] The Second Battle of El Alamein, from 23 October to early November 1942, was won by Montgomery's Eighth Army against Rommel's Axis forces in North Africa. It was the second of two battles there, and the decisive one.
+[hist-eur3-s9.10.1] Operation Torch, the Anglo-American landings in Morocco and Algeria, took place on 8 November 1942. The Axis forces in Tunisia surrendered in May 1943, so the Axis was expelled from North Africa.
+[hist-eur3-s9.10.2] The Battle of Stalingrad, from August 1942 to 2 February 1943, ended with the surrender of the German Sixth Army under Paulus. It was the turning point of the war in the east.
+[hist-eur3-s9.10.3] The Battle of Kursk in July 1943 was the last major German offensive in the east and one of the largest tank battles in history.
+[hist-eur3-s9.10.4] The Allies invaded Sicily on 10 July 1943, and Italy's armistice was announced on 8 September 1943. Germany occupied northern and central Italy, so the fighting there continued.
+[hist-eur3-s9.10.5] The Battle of the Atlantic, the naval war over Allied supply routes, lasted from 1939 to 1945 and was the longest campaign of the war.
+[hist-eur3-s9.10.6] Its turning point came in May 1943, when the U-boats (German submarines) suffered such losses that they were withdrawn from the North Atlantic for a time.
+[hist-eur3-s9.11.b] The Normandy landings opened a second front in the west while the Red Army advanced from the east. Germany was squeezed between them until it collapsed in May 1945.
+[hist-eur3-s9.11.0] D-Day, 6 June 1944, was Operation Overlord, the Allied landings on five beaches in Normandy. Dwight D. Eisenhower was supreme commander and Montgomery commanded the land forces in the landings.
+[hist-eur3-s9.11.1] Landing an army from the sea needed special equipment: landing craft, Mulberry harbours (prefabricated floating harbours towed to Normandy) and PLUTO (Pipe-Line Under The Ocean), a fuel pipeline across the Channel.
+[hist-eur3-s9.11.2] Allied forces broke out of the beachheads and liberated Paris on 25 August 1944.
+[hist-eur3-s9.11.3] The Soviet Red Army advanced into Poland and the Balkans in 1944, and the Soviet offensive on Berlin began on 16 April 1945.
+[hist-eur3-s9.11.4] Hitler killed himself in Berlin on 30 April 1945, and the Berlin garrison surrendered on 2 May.
+[hist-eur3-s9.11.5] German forces surrendered in May 1945: the surrender was signed at Reims on 7 May and in Berlin on 8 May, which became VE Day (Victory in Europe Day).
+[hist-eur3-s9.12.b] The Allies did not win by one battle or one weapon. Once the Soviet Union and the United States were both fighting Germany, the balance of resources and mistakes decided the outcome.
+[hist-eur3-s9.12.0] The United States and the Soviet Union together far out-produced Germany and Japan in tanks, aircraft and ships, and they had far greater manpower, so the Axis could not replace its losses as fast as the Allies.
+[hist-eur3-s9.12.1] The Axis made strategic mistakes: Germany fought on too many fronts, and it declared war on the United States in December 1941, adding the strongest industrial power to its enemies.
+[hist-eur3-s9.12.2] Allied intelligence and technology, such as radar and Ultra (intelligence from decoded enemy signals), helped the Allies make better use of their strength.
+[hist-eur3-s9.13.b] The Axis powers of Germany, Italy and Japan were linked by treaties, but their war aims were not coordinated and they often acted separately.
+[hist-eur3-s9.13.0] The Rome-Berlin Axis of 1936 was the forerunner. The Pact of Steel of 22 May 1939 then bound Germany and Italy into a military alliance, although Italy was not ready for war when it entered on 10 June 1940.
+[hist-eur3-s9.13.1] The Tripartite Pact of 27 September 1940, signed in Berlin, added Japan to the Axis. It recognised the leadership of Germany and Italy in Europe and of Japan in East Asia.
+[hist-eur3-s9.13.2] Hungary, Romania and Slovakia joined in November 1940 and Bulgaria in March 1941. Finland fought alongside Germany against the Soviet Union from June 1941 (the Continuation War) without signing the pact.
+[hist-eur3-s9.13.3] The Axis had no joint strategy or command. Italy was a drain on German resources, because its defeats in Greece and North Africa in 1940 and 1941 forced Germany to send help.
+[hist-eur3-s9.13.4] Japan and the Soviet Union signed a Neutrality Pact in April 1941, and Japan did not attack the Soviet Union until the Soviet Union attacked it in August 1945. Germany was not consulted over Pearl Harbor, so the two did not coordinate their attacks.
+[hist-eur3-s9.14.b] Churchill called the coalition of Britain, the Soviet Union and the United States the 'Grand Alliance'. It grew in stages as each power was drawn into the war.
+[hist-eur3-s9.14.0] After June 1940 Britain stood alone, with its Empire and Commonwealth. The Soviet Union joined the coalition after Barbarossa in June 1941, and the United States after Pearl Harbor in December 1941.
+[hist-eur3-s9.14.1] In the destroyers-for-bases agreement of September 1940, the United States gave Britain 50 old destroyers in return for leases on British bases.
+[hist-eur3-s9.14.2] The Lend-Lease Act of March 1941 (signed by Roosevelt on 11 March) allowed the United States to supply Britain with weapons and equipment without immediate payment. It was extended to the Soviet Union later in 1941.
+[hist-eur3-s9.14.3] Arctic convoys carried supplies to Murmansk and Archangel in the Soviet Union from August 1941.
+[hist-eur3-s9.14.4] The Atlantic Charter of 14 August 1941 was agreed by Churchill and Roosevelt at Placentia Bay, Newfoundland, aboard warships. It was a statement of principles: no territorial gains, no territorial changes against the wishes of the peoples concerned, and the right of peoples to choose their government.
+[hist-eur3-s9.14.5] The Charter also promised restoration of self-government to those deprived of it (self-determination), freer trade and disarmament of aggressors. The Declaration by United Nations of 1 January 1942 was then signed by 26 nations.
+[hist-eur3-s9.14.6] At the Washington ('Arcadia') conference of December 1941 to January 1942 the Allies confirmed 'Germany first', meaning the decision to defeat Germany before Japan, and set up the Combined Chiefs of Staff.
+[hist-eur3-s9.15.b] As the Allies moved towards victory, their leaders met to settle strategy and the shape of post-war Europe. The decisions they reached at each meeting were different, so the order matters.
+[hist-eur3-s9.15.0] At the Casablanca Conference in January 1943, Roosevelt and Churchill demanded the unconditional surrender of the Axis, meaning no negotiated peace. Stalin did not attend.
+[hist-eur3-s9.15.1] The Tehran Conference of 28 November to 1 December 1943 was the first time Roosevelt, Churchill and Stalin met together. They agreed the invasion of France (Overlord) for 1944.
+[hist-eur3-s9.15.2] At Tehran Stalin promised to enter the war against Japan after Germany's defeat, and Poland's eastern frontier, roughly on the Curzon Line, was discussed.
+[hist-eur3-s9.15.3] In October 1944 in Moscow, Churchill and Stalin agreed the percentages agreement on spheres of influence in the Balkans. Churchill proposed, for example, 90 per cent British influence in Greece and 90 per cent Soviet influence in Romania, and Stalin ticked the note.
+[hist-eur3-s9.15.4] At the Yalta Conference of 4-11 February 1945, in the Crimea, Germany was divided into four occupation zones, including one for France. The Declaration on Liberated Europe promised free elections.
+[hist-eur3-s9.15.5] Yalta also set Poland's eastern frontier on the Curzon Line, with compensation in the west, and agreed that the Soviet-backed Lublin government should be broadened. The Soviet Union would enter the war against Japan within three months of Germany's defeat.
+[hist-eur3-s9.15.6] A conference to found the United Nations was also agreed at Yalta and held at San Francisco in April 1945.
+[hist-eur3-s9.15.7] The Potsdam Conference of 17 July to 2 August 1945 brought together Truman (Roosevelt having died on 12 April 1945), Stalin, and Churchill, who was replaced by Attlee during it after the British election result. It ended the wartime alliance.
+[hist-eur3-s9.16.b] The Allies were united by the need to beat Germany, but they distrusted each other. Disputes over strategy and Poland foreshadowed the Cold War.
+[hist-eur3-s9.16.0] Stalin repeatedly demanded a second front, a major Allied invasion of western Europe that would draw German forces away from the Red Army. The Western Allies delayed it, and the Allied delay was a constant source of Soviet resentment.
+[hist-eur3-s9.16.1] The Dieppe raid of August 1942, a mainly Canadian landing, failed with heavy losses. Britain also preferred a Mediterranean strategy, which put off a cross-Channel invasion.
+[hist-eur3-s9.16.2] In April 1943 Germany announced the discovery of mass graves of Polish officers killed by the Soviet NKVD (secret police) in 1940, the Katyn revelation. The Soviet Union then broke relations with the Polish government-in-exile in London.
+[hist-eur3-s9.16.3] In July 1944 the Soviet Union set up the Polish Committee of National Liberation (the Lublin Committee), a Soviet-sponsored rival to the London Poles.
+[hist-eur3-s9.16.4] During the Warsaw Uprising of August to October 1944 the Red Army did not help the Polish fighters, and Stalin at first refused Allied aircraft landing rights.
+[hist-eur3-s9.16.5] Mutual suspicion and Soviet control of eastern Europe foreshadowed the tensions of the Cold War.
+[hist-eur3-s9.17.b] The 1920s and 1930s produced the ideas and machines that were used in the Second World War. Theorists asked how to avoid another stalemate, and the answer was armour and air power.
+[hist-eur3-s9.17.0] British writers J.F.C. Fuller and Basil Liddell Hart argued for armoured warfare. Heinz Guderian, the leading German tank commander and theorist, wrote Achtung - Panzer! (1937), and the first three German Panzer divisions were formed in October 1935. Britain and France instead spread their tanks among infantry units.
+[hist-eur3-s9.17.1] The Italian theorist Giulio Douhet argued in The Command of the Air (1921) that bombers would decide wars. Stanley Baldwin, in 1932, said that 'the bomber will always get through', expressing the fear that cities could not be defended.
+[hist-eur3-s9.17.2] The Spanish Civil War was a testing ground for aircraft and tactics. The German Condor Legion bombed Guernica on 26 April 1937, which shocked world opinion.
+[hist-eur3-s9.17.3] Fighter design improved. The Hawker Hurricane first flew in November 1935 and the Supermarine Spitfire in March 1936, and the Messerschmitt Bf 109 entered service in Germany in 1937.
+[hist-eur3-s9.18.b] Several technologies that decided the war were first developed in the 1930s: ways to detect aircraft, read enemy messages, fly without propellers and launch rockets.
+[hist-eur3-s9.18.0] In February 1935 Robert Watson-Watt demonstrated that radio waves reflected from an aircraft could detect it. Chain Home stations were built along the east and south coasts from 1936, and a chain was in operation by 1939.
+[hist-eur3-s9.18.1] Several countries developed radar in the 1930s, so Britain's advantage was an integrated warning system linking Chain Home to fighter control.
+[hist-eur3-s9.18.2] Enigma was the German cipher machine. Polish mathematicians led by Marian Rejewski broke it from 1932, and in July 1939 they passed their methods and replica machines to the British and French.
+[hist-eur3-s9.18.3] Frank Whittle applied for his jet engine patent in 1930, and the patent was granted later. The Heinkel He 178, the first jet aircraft to fly, flew on 27 August 1939.
+[hist-eur3-s9.18.4] Wernher von Braun worked on army rockets from 1932. The Peenemunde research centre on the Baltic coast opened in 1937 and later developed the V-2 rocket.
+[hist-eur3-s9.18.5] ASDIC (sonar), which detects submarines by sound, was developed by Britain from the end of the First World War, and aircraft carriers, ships that launch aircraft, were also developed after 1918.
+[hist-eur3-s9.19.b] In 1939-45 the ideas of the 1930s were tested at scale. On land, tanks and mass production gave armies speed and weight, while in the air strategic bombing carried the war to cities.
+[hist-eur3-s9.19.0] German Panzer divisions used radio communication and combined armour with motorised infantry. The Soviet T-34 tank, in production from 1940, and the American M4 Sherman, of which about 50,000 were built, show that mass production mattered as much as invention.
+[hist-eur3-s9.19.1] Armies answered tanks with the anti-tank gun and, from 1942, the American bazooka, a shoulder-fired anti-tank rocket.
+[hist-eur3-s9.19.2] Strategic bombing means attacking an enemy's cities and industry from the air. RAF Bomber Command under Arthur Harris, head of the command from February 1942, practised area bombing at night, aiming at whole city districts. The first thousand-bomber raid was on Cologne on 30-31 May 1942.
+[hist-eur3-s9.19.3] The US Army Air Forces flew B-17 Flying Fortress bombers by day, in what was called precision bombing. From early 1944 long-range P-51 Mustang escort fighters protected them over Germany.
+[hist-eur3-s9.19.4] Hamburg in July 1943 (Operation Gomorrah) suffered a firestorm, a fire so intense that it drew in air and spread on its own, which killed tens of thousands (estimates are about 35,000-45,000). Dresden, on 13-15 February 1945, lost about 25,000 people.
+[hist-eur3-s9.19.5] The morality and effectiveness of strategic bombing are still debated, because it caused fires and many civilian deaths in German cities.
+[hist-eur3-s9.20.b] Intelligence and detection did as much as weapons to decide the war. At sea they decided the Battle of the Atlantic, where German submarines tried to cut Britain's supply line.
+[hist-eur3-s9.20.0] Radar gave early warning of attacks. The British Chain Home system worked in the Battle of Britain.
+[hist-eur3-s9.20.1] The cavity magnetron, developed by John Randall and Harry Boot at Birmingham University in 1940 and shared with the United States in the Tizard Mission that year, allowed small airborne and ship-borne sets.
+[hist-eur3-s9.20.2] Small radar sets made night fighters and the hunting of U-boats possible. Bomber Command also used H2S ground-mapping radar from 1943 as a bombing aid.
+[hist-eur3-s9.20.3] At Bletchley Park, Buckinghamshire, the home of the Government Code and Cypher School, the British decrypted German Enigma messages. Alan Turing designed the bombe (first in use in 1940), a machine to find Enigma settings.
+[hist-eur3-s9.20.4] Ultra was the code name for the intelligence from decrypted high-level enemy signals. It was used in the Battle of the Atlantic and the North African campaign.
+[hist-eur3-s9.20.5] Colossus (1944), designed by Tommy Flowers, broke the German Lorenz cipher, not Enigma.
+[hist-eur3-s9.20.6] German U-boats hunted in 'wolf packs' under Admiral Karl Donitz and sank large numbers of Allied merchant ships in the Atlantic.
+[hist-eur3-s9.20.7] The convoy system (merchant ships sailing together under guard), escort groups, long-range aircraft, radar and Ultra reduced losses from 1943, and in May 1943 the U-boats were withdrawn from the North Atlantic for a time.
+[hist-eur3-s9.21.b] In the last year of the war Germany produced rockets and jet aircraft that were far ahead of their time, but too late to change the result. The United States produced the atomic bomb, which ended the war against Japan.
+[hist-eur3-s9.21.0] The V-1 flying bomb, a pilotless aircraft that could be shot down, was launched against London from 13 June 1944. The V-2 ballistic rocket, which had no defence against it, was first fired at London on 8 September 1944 and also at Antwerp.
+[hist-eur3-s9.21.1] The V-weapons were too late and too few to change the outcome. They were built by forced and concentration-camp labour in the Mittelwerk underground factory.
+[hist-eur3-s9.21.2] The Messerschmitt Me 262 jet fighter entered operational service in 1944, and the British Gloster Meteor jet fighter entered service in July 1944. The Me 262 came too late to change the outcome.
+[hist-eur3-s9.21.3] The Manhattan Project, the American atomic bomb programme from 1942, was run by General Leslie Groves, with J. Robert Oppenheimer directing the Los Alamos laboratory in New Mexico. The first test, the Trinity test, took place in New Mexico on 16 July 1945.
+[hist-eur3-s9.21.4] The United States dropped atomic bombs on Hiroshima on 6 August 1945 ('Little Boy', a uranium bomb) and Nagasaki on 9 August 1945 ('Fat Man', a plutonium bomb). Tens of thousands died immediately and many more later from injuries and radiation.
+[hist-eur3-s9.21.5] Japan announced its surrender on 15 August 1945. The bombs marked the start of the nuclear age.
+[hist-eur3-s9.22.b] Churchill's wartime fame followed a long career in which he was both admired for his energy and distrusted for his judgement.
+[hist-eur3-s9.22.0] He was born on 30 November 1874 at Blenheim Palace, Oxfordshire, into an aristocratic family, the son of Lord Randolph Churchill. He served as a soldier and war correspondent in the Sudan in 1898 and in the Boer War, where he escaped from captivity in 1899.
+[hist-eur3-s9.22.1] He became an MP in 1900 as a Conservative, joined the Liberals in 1904 and rejoined the Conservatives in 1924-25.
+[hist-eur3-s9.22.2] As First Lord of the Admiralty (the minister in charge of the Royal Navy) from 1911 to 1915, he resigned in 1915 after the failure of the Dardanelles or Gallipoli campaign, a setback that damaged his reputation for years.
+[hist-eur3-s9.22.3] As Chancellor of the Exchequer (finance minister) from 1924 to 1929 he returned Britain to the gold standard in 1925.
+[hist-eur3-s9.22.4] He was out of office from 1929 to 1939, the 'wilderness years'. He opposed the Government of India Act of 1935 and warned against Hitler and appeasement, the policy of giving way to Hitler's demands.
+[hist-eur3-s9.22.5] He called the Munich agreement of October 1938 'a total and unmitigated defeat'.
+[hist-eur3-s9.23.b] Churchill came to power on the day Germany attacked in the west, and in 1940 his leadership turned Britain's isolation into determination to fight on.
+[hist-eur3-s9.23.0] He became First Lord of the Admiralty again on 3 September 1939. After the Norway debate he succeeded Neville Chamberlain as Prime Minister on 10 May 1940, the same day Germany attacked in the west.
+[hist-eur3-s9.23.1] He led a coalition (a government of several parties) that included Labour's Clement Attlee, Deputy Prime Minister from 1942, and Ernest Bevin, Minister of Labour. Churchill also made himself Minister of Defence, so he directed the war effort himself.
+[hist-eur3-s9.23.2] He refused to seek a negotiated peace in 1940.
+[hist-eur3-s9.23.3] His speeches on the radio and in Parliament sustained morale after Dunkirk and during the Blitz: 'I have nothing to offer but blood, toil, tears and sweat' (13 May 1940), 'we shall fight on the beaches' (4 June 1940) and 'their finest hour' (18 June 1940).
+[hist-eur3-s9.23.4] During the Battle of Britain he said, on 20 August 1940, 'Never in the field of human conflict was so much owed by so many to so few', which made him a symbol of national resistance.
+[hist-eur3-s9.24.b] Churchill was a participant who made the key decisions on British strategy and diplomacy. He worked to bring the United States and the Soviet Union into partnership with Britain, though Britain became the junior partner.
+[hist-eur3-s9.24.0] He courted Roosevelt through the destroyers-for-bases deal, Lend-Lease, the Atlantic Charter and the policy of Germany first. When Germany invaded the Soviet Union he welcomed it as an ally in a broadcast on 22 June 1941, despite his anti-communism.
+[hist-eur3-s9.24.1] He met Roosevelt at Placentia Bay (August 1941), Washington (December 1941 and later), Casablanca (January 1943, where unconditional surrender was announced) and Quebec (August 1943 and September 1944), and both leaders at Tehran and Yalta.
+[hist-eur3-s9.24.2] He met Stalin in Moscow in August 1942 and in October 1944, when he proposed the percentages agreement on spheres of influence in the Balkans. This has been seen as wartime realism or as cynicism.
+[hist-eur3-s9.24.3] He attended the Potsdam Conference in July 1945 until the election result replaced him with Attlee.
+[hist-eur3-s9.24.4] His strategy favoured the Mediterranean and North Africa, supported strategic bombing and was cautious over a cross-Channel invasion.
+[hist-eur3-s9.24.5] There were setbacks in 1942: Singapore and, in June, Tobruk, which fell to Rommel. In July 1942 he won a vote of no confidence in the House of Commons by a very large majority.
+[hist-eur3-s9.24.6] By 1944 Britain was the junior partner, because the United States and the Soviet Union supplied far more men and resources.
+[hist-eur3-s9.25.b] Churchill won the war but lost the election that followed, because voters in 1945 wanted a government they trusted to deliver post-war reform.
+[hist-eur3-s9.25.0] In the 1945 general election, with polling on 5 July and results on 26 July, Labour won a landslide and Attlee became Prime Minister, replacing Churchill at Potsdam. Voters trusted Labour more on post-war reform.
+[hist-eur3-s9.25.1] He returned as Prime Minister in 1951-55. His 'iron curtain' speech (Fulton, Missouri, March 1946) warned of the division of Europe, and he won the Nobel Prize in Literature in 1953. He died in January 1965 and was given a state funeral.
+[hist-eur3-s9.26.b] Churchill divided opinion in his own time and still divides historians. The same record looks like triumph or failure depending on what is weighed.
+[hist-eur3-s9.26.0] Contemporaries admired him as the voice of national resistance. Before 1940 he had been distrusted for his judgement, over Gallipoli, the return to gold, India and the abdication crisis.
+[hist-eur3-s9.26.1] Field Marshal Alan Brooke (Lord Alanbrooke), Chief of the Imperial General Staff from December 1941, wrote diaries, published after the war, that show admiration mixed with exasperation at Churchill's interference. Some generals and Labour also criticised him, and voters rejected him in 1945.
+[hist-eur3-s9.26.2] Historians such as Andrew Roberts (Churchill: Walking with Destiny, 2018, largely admiring) praise his resolve in 1940, his strategic leadership and his alliance-building.
+[hist-eur3-s9.26.3] John Charmley (Churchill: The End of Glory, 1993) argued that the war ruined Britain financially and made it dependent on the United States, so Churchill's critics say the war cost Britain its empire.
+[hist-eur3-s9.26.4] Historians also criticise the bombing of German cities such as Dresden, the diversion of forces to the Mediterranean and Greece in 1941, and his attitude to India and the empire.
+[hist-eur3-s9.26.5] They debate his government's response to the Bengal famine of 1943, in which about 2 to 3 million died (estimates vary). How far Churchill's government was responsible is disputed.
+[hist-eur3-s9.27.b] Judgements of Churchill and the alliances weigh the British war effort and the coalition's success against its divisions and its costs.
+[hist-eur3-s9.27.0] Achievement: Britain's refusal to negotiate a peace in 1940 kept open a base from which the Allies could later invade Europe.
+[hist-eur3-s9.27.1] Limit: British strategy relied heavily on American resources after 1941, and Britain lost Hong Kong in December 1941 and Malaya, Singapore and Burma in 1942, although it kept India.
+[hist-eur3-s9.27.2] Achievement: the Grand Alliance defeated the Axis powers and produced the United Nations as a post-war organisation.
+[hist-eur3-s9.27.3] Limit: the alliance concealed deep divisions over Eastern Europe, and these became the Cold War once Germany was defeated.
+[hist-eur3-s9.27.4] Contemporary view: many British people saw Churchill as the embodiment of national resistance, while critics on the left and in his own party questioned his judgement.
+[hist-eur3-s9.27.5] Later view: historians still debate how far Churchill's leadership was essential, with some stressing his role in 1940 and others emphasising the decisive contribution of Soviet and American forces.
+[hist-eur3-s9.28.b] Technology changed how the war was fought, but historians disagree about how far it decided the result compared with production, manpower and strategy.
+[hist-eur3-s9.28.0] Technology brought speed and mobility on land, a new war in the air and at sea, and intelligence from codebreaking, and it made civilians targets through strategic bombing, the V-weapons and the atomic bomb.
+[hist-eur3-s9.28.1] Some technology was decisive at key moments: radar in 1940, and Ultra and convoys in the Atlantic.
+[hist-eur3-s9.28.2] Some came too late: the V-weapons and the Me 262 could not change the outcome.
+[hist-eur3-s9.28.3] Mass production mattered as much as invention, because the American Sherman and the Soviet T-34 were built in huge numbers, and Allied industrial production and manpower outweighed Axis technology.
+[hist-eur3-s9.28.4] The morality and effectiveness of strategic bombing and the atomic bomb remain disputed, because they killed large numbers of civilians, and the atomic bombs are linked to the end of the war against Japan.
 
 CANDIDATES hist-eur3-s3: 3. The Nazi state in peace, 1933-1939, and Hitler's foreign policy
-[hist-eur3-s3.0.b] Within months of his appointment as Chancellor, Hitler removed legal and political limits on his power, using emergency decrees and intimidation.
-[hist-eur3-s3.0.0] The Reichstag fire of 27 February 1933 was blamed on a Communist plot (the Dutch communist Marinus van der Lubbe was found in the building) and used to justify the Decree for the Protection of People and State of 28 February, which suspended civil liberties such as freedom of the press and assembly.
-[hist-eur3-s3.0.1] Communists were arrested in large numbers after the fire, and the Communist Party was effectively destroyed in early 1933.
-[hist-eur3-s3.0.2] The Enabling Act of 23 March 1933 allowed the cabinet to make laws without the Reichstag for four years; only the Social Democrats voted against it.
-[hist-eur3-s3.0.3] Trade unions were abolished on 2 May 1933 and replaced by the German Labour Front, led by Robert Ley.
-[hist-eur3-s3.0.4] Gleichschaltung, the coordination of institutions, brought state governments, the civil service, the courts, universities and cultural bodies under Nazi control.
-[hist-eur3-s3.0.5] A law of 14 July 1933 made the NSDAP the only legal party in Germany.
-[hist-eur3-s3.1.b] The purge of the SA leadership in 1934 removed the last rival power bloc, and Hitler combined the offices of Chancellor and President after Hindenburg's death.
-[hist-eur3-s3.1.0] The SA under Ernst Röhm had grown to millions of members and wanted a second revolution and a larger role in the army.
-[hist-eur3-s3.1.1] Between 30 June and 2 July 1934, Hitler ordered the murder of Röhm and other SA leaders, and of political figures such as Gregor Strasser and former Chancellor Kurt von Schleicher.
-[hist-eur3-s3.1.2] The cabinet legalised the killings retrospectively on 3 July as acts of state self-defence, and the army leadership accepted the purge in return for the removal of the SA as a rival force.
-[hist-eur3-s3.1.3] President Hindenburg died on 2 August 1934, and Hitler combined the presidency and the chancellorship in the title of Führer and Reich Chancellor.
-[hist-eur3-s3.1.4] Soldiers swore a personal oath of loyalty to Hitler as Führer rather than to the constitution.
-[hist-eur3-s3.1.5] Hitler's authority rested on the Führer principle, in which decisions flowed down from the leader, and on the cult of his personal leadership in propaganda.
-[hist-eur3-s3.1.6] Heinrich Himmler, Reichsführer-SS from 1929, built up the SS and took control of the political police in most German states.
-[hist-eur3-s3.1.7] Reinhard Heydrich led the Security Service (SD) and, with Himmler, controlled the Gestapo, which had wide powers of arrest without legal challenge.
-[hist-eur3-s3.1.8] Dachau, opened near Munich in March 1933, was the first concentration camp, and others such as Sachsenhausen (1936) and Buchenwald (1937) followed.
-[hist-eur3-s3.1.9] Political opponents, trade unionists, Social Democrats and members of religious groups were the first people held in the camps.
-[hist-eur3-s3.1.10] Courts were restricted by the Special Courts and the people's court, which handed down political verdicts with little legal protection for defendants.
-[hist-eur3-s3.1.11] The Gestapo and the SS were given powers to detain people without trial, which the regime described as protective custody.
-[hist-eur3-s3.2.b] Nazi economic policy reduced unemployment through public works and rearmament, and prepared the economy for war.
-[hist-eur3-s3.2.0] Hjalmar Schacht, appointed president of the Reichsbank in 1933 and Economics Minister in 1934, financed rearmament through Mefo bills, which concealed military spending.
-[hist-eur3-s3.2.1] Public works, including autobahns (the first section opened in 1935), housing and military construction, reduced unemployment, which fell sharply between 1933 and 1936.
-[hist-eur3-s3.2.2] The Reich Labour Service became compulsory for young men in June 1935, and conscription was reintroduced in March 1935.
-[hist-eur3-s3.2.3] The New Plan of 1934 controlled foreign trade through bilateral agreements and exchange controls, which gave priority to imports needed for rearmament.
-[hist-eur3-s3.2.4] The Four Year Plan of September 1936, under Hermann Göring, aimed to make Germany ready for war within four years and to achieve economic self-sufficiency (autarky).
-[hist-eur3-s3.2.5] Schacht resigned as Economics Minister in 1937 after disagreements with Göring over the pace and cost of rearmament.
-[hist-eur3-s3.3.b] Hitler's first foreign moves rejected the Versailles restrictions and gained international acceptance of rearmament.
-[hist-eur3-s3.3.0] On 14 October 1933 Germany left the League of Nations and the Geneva Disarmament Conference, citing unequal treatment.
-[hist-eur3-s3.3.1] The Saar territory, governed by the League since 1920, returned to Germany after a plebiscite in January 1935 in which over 90 per cent voted for reunion.
-[hist-eur3-s3.3.2] On 16 March 1935 Hitler announced the reintroduction of conscription and an air force, in breach of the Treaty of Versailles.
-[hist-eur3-s3.3.3] The Stresa Front of Britain, France and Italy condemned the move in April 1935, but took no effective action against Germany.
-[hist-eur3-s3.3.4] The Anglo-German Naval Agreement of June 1935 allowed Germany a navy about 35 per cent the size of the British navy, and it was accepted by Britain without consulting France.
-[hist-eur3-s3.3.5] The agreement gave Hitler the diplomatic recognition that he had sought, and it encouraged him to test the western powers further.
-[hist-eur3-s3.4.b] Between 1936 and 1939 Hitler took territory by threat and by diplomacy, and each success made the western powers more reluctant to resist him.
-[hist-eur3-s3.4.0] On 7 March 1936 German troops reoccupied the demilitarised Rhineland, and the Locarno Treaties were breached without military resistance from Britain or France.
-[hist-eur3-s3.4.1] The Anschluss, the annexation of Austria, took place on 12 March 1938 after German pressure forced Austrian Chancellor Kurt Schuschnigg to cancel a plebiscite on independence and resign, and German troops entered Austria.
-[hist-eur3-s3.4.2] Hitler's demands for the German-speaking Sudetenland in Czechoslovakia led to the Munich Agreement of 29 to 30 September 1938, which Britain and France signed with Germany and Italy.
-[hist-eur3-s3.4.3] Czechoslovakia was not consulted at Munich, and Britain's Prime Minister Neville Chamberlain described the agreement as securing "peace for our time".
-[hist-eur3-s3.4.4] German troops entered Prague on 15 March 1939, and Bohemia and Moravia became a German protectorate while Slovakia became a nominally independent client state.
-[hist-eur3-s3.4.5] Britain gave a guarantee to Poland on 31 March 1939, followed by France, but Germany and the Soviet Union signed the Nazi-Soviet Pact of 23 August 1939, with a secret protocol dividing Eastern Europe between them.
-[hist-eur3-s3.4.6] Konrad Henlein's Sudeten German Party, funded from Berlin, demanded autonomy for the three million Sudeten Germans, giving Hitler a pretext to threaten Czechoslovakia in 1938.
-[hist-eur3-s3.4.7] Chamberlain flew to meet Hitler at Berchtesgaden on 15 September and again at Bad Godesberg on 22 September, where Hitler raised his demands; the Munich conference followed on 29 September.
-[hist-eur3-s3.4.8] The Munich Agreement required Czechoslovakia to hand over the Sudetenland to Germany between 1 and 10 October 1938; the Soviet Union, which had a treaty with Czechoslovakia, was not invited.
-[hist-eur3-s3.4.9] Hitler's occupation of Prague in March 1939 broke the Munich promises and ended the belief that his claims were limited to Germans, which led Britain to abandon appeasement and guarantee Poland.
-[hist-eur3-s3.4.10] The Nazi-Soviet Pact of 23 August 1939 removed the threat of a war on two fronts; Germany invaded Poland on 1 September 1939 and Britain and France declared war on 3 September.
-[hist-eur3-s3.4.11] Earlier steps included the German-Polish non-aggression pact of January 1934, a failed Austrian Nazi coup in July 1934 in which Chancellor Dollfuss was murdered, and the German Condor Legion's intervention for Franco in the Spanish Civil War from 1936.
-[hist-eur3-s3.5.b] Hitler's foreign policy was driven by racial ideology and the goal of Lebensraum in the east, which the intentionalist school of historians sees as a plan for war from the start.
-[hist-eur3-s3.5.0] In Mein Kampf Hitler argued that Germany needed Lebensraum (living space), to be won in Eastern Europe and settled by a racially pure population, with the Slavs to be subjugated.
-[hist-eur3-s3.5.1] The idea of a herrenvolk, a master race of Germanic people, underpinned both domestic policy and plans for the conquest and resettlement of Eastern Europe.
-[hist-eur3-s3.5.2] At a meeting of 5 November 1937, later recorded in the Hossbach Memorandum, Hitler told his military and foreign policy chiefs that Germany's space problem could be solved only by force, probably around 1943 to 1945.
-[hist-eur3-s3.5.3] Appeasement was British and French policy to satisfy Germany's grievances through concessions, based on the belief that Versailles had been unfair and that war must be avoided.
-[hist-eur3-s3.5.4] Historians disagree about whether Hitler planned a general war from 1933 (the intentionalist view) or responded to opportunities and his own followers' initiatives (the functionalist view).
-[hist-eur3-s3.5.5] A.J.P. Taylor's 1961 book argued that Hitler's aims were opportunist and similar to those of earlier German leaders, a view that was widely challenged by later historians.
-[hist-eur3-s3.6.b] Hitler's rule from 1933 to 1939 combined a consolidated dictatorship at home with a foreign policy of rearmament, expansion and war.
-[hist-eur3-s3.6.0] As Chancellor and then Führer, he set the direction of policy, while rival agencies competed for influence, a structure historians call polycracy.
-[hist-eur3-s3.6.1] He was a participant in the foreign policy decisions of 1933 to 1939, making the key choices about withdrawal from the League, rearmament, the Anschluss and Czechoslovakia.
-[hist-eur3-s3.6.2] Public opinion in Germany responded enthusiastically to his foreign successes, especially the Saar, the Rhineland and the Anschluss, which made his popularity high by 1938.
-[hist-eur3-s3.6.3] Foreign contemporaries were divided: some British politicians saw him as a revisionist who could be satisfied, while others, such as Winston Churchill, warned from the 1930s that he was a threat.
-[hist-eur3-s3.6.4] Later historians discuss how far he controlled events and how far his policies were shaped by pressure from the military, the party and the economy.
-[hist-eur3-s3.6.5] His foreign policy and the deaths of Jews, opponents and others in the camps are judged together by historians as the central crimes of his regime, a matter taken up in the notes on the Holocaust.
-[hist-eur3-s3.7.b] The regime aimed to unite Germans of 'pure' race in a national community under party control, and it reshaped work, education and family life to do so.
-[hist-eur3-s3.7.0] The German Labour Front under Robert Ley replaced the free unions; its Strength Through Joy (Kraft durch Freude) section organised cheap holidays, cruises and theatre trips, and its Beauty of Labour section improved factory conditions.
-[hist-eur3-s3.7.1] The Volkswagen savings scheme, in which workers paid weekly instalments towards a Strength Through Joy car, never delivered cars to the savers, because the factory was turned over to military production.
-[hist-eur3-s3.7.2] The Hitler Youth, led by Baldur von Schirach, became the only legal youth organisation under the Hitler Youth Law of December 1936, with boys in the Jungvolk and Hitler Youth and girls in the League of German Girls (BDM).
-[hist-eur3-s3.7.3] Schools taught racial science and nationalist history, textbooks were rewritten, and teachers were pressed to join the National Socialist Teachers' League.
-[hist-eur3-s3.7.4] Nazi ideology assigned women the roles of wife and mother (often summed up as Kinder, Küche, Kirche); marriage loans from 1933 were reduced by a quarter for each child born, and the Mother's Cross was awarded from 1938 to women with large families.
-[hist-eur3-s3.7.5] Women were pushed out of the civil service and professions such as law and medicine in 1933, although rearmament and labour shortages brought many back into work by the late 1930s.
-[hist-eur3-s3.7.6] Opponents, 'asocials' and people judged racially or biologically inferior were excluded from the community: Jews by the Nuremberg Laws of 1935, and disabled people by forced sterilisation under the law of July 1933.
-[hist-eur3-s3.7.7] Unemployment, officially about six million in early 1933, fell below one million by 1937 and gave way to labour shortages, although the figures excluded Jews and many women, and wages were held down.
-[hist-eur3-s3.8.b] The war gave the regime radical new powers; the course of the fighting is covered in the notes on the Second World War.
-[hist-eur3-s3.8.0] Albert Speer, Hitler's architect, became Minister for Armaments in February 1942 and raised output of weapons by rationalising production, even as Allied bombing increased.
-[hist-eur3-s3.8.1] After the defeat at Stalingrad, Goebbels called for total war in his Sportpalast speech in Berlin on 18 February 1943, leading to the closure of non-essential businesses and the conscription of women up to the age of 45 into war work.
-[hist-eur3-s3.8.2] Millions of forced labourers from occupied Europe, including prisoners of war and concentration camp inmates, worked in German factories and farms.
-[hist-eur3-s3.8.3] On 20 July 1944 Colonel Claus von Stauffenberg planted a bomb at Hitler's headquarters at Rastenburg (the Wolf's Lair), but Hitler survived and the plot, which involved army officers and conservative civilians, was crushed; thousands were arrested and several hundred executed.
-[hist-eur3-s3.8.4] Hitler remained in command to the end, committing suicide in Berlin on 30 April 1945.
-[hist-eur3-s3.9.b] Judgements of Hitler's foreign policy divide between seeing him as the driving force of a deliberate war and seeing the war as the product of wider forces and of appeasement.
-[hist-eur3-s3.9.0] Achievement: by 1939 Hitler had reversed the main Versailles restrictions, rebuilt the army and expanded German territory without a major war.
-[hist-eur3-s3.9.1] Limit: the expansion depended on the restraint of the western powers, which many German generals feared would fight, and the economy was strained by rearmament.
-[hist-eur3-s3.9.2] Intentionalist view: Hitler's Mein Kampf aims, the Hossbach Memorandum and the invasion of Poland show a deliberate plan for war.
-[hist-eur3-s3.9.3] Functionalist view: the policies of the Nazi state, the competition between agencies and the choices of Britain and France shaped how and when the war began.
-[hist-eur3-s3.9.4] Contemporary view: appeasement was supported by many British people who wanted to avoid another war, and Munich was welcomed at first as a rescue of peace.
-[hist-eur3-s3.9.5] Later view: Munich is generally judged a failure, because it removed Czechoslovakia's defences and left Hitler convinced that the western powers would not fight.
-
-CANDIDATES hist-eur3-s4: 4. Communism in Russia: Lenin, Stalin and the Soviet alternative
-[hist-eur3-s4.0.b] After the Bolsheviks seized power in 1917 (see the notes on the Russian Revolution), Lenin built a one-party state and fought a civil war that shaped the Soviet system.
-[hist-eur3-s4.0.0] The Cheka, the Bolshevik secret police set up in December 1917 under Felix Dzerzhinsky, used arrest and execution against opponents, including the Socialist Revolutionaries and Mensheviks, and after the attempt on Lenin it carried out the Red Terror from September 1918.
-[hist-eur3-s4.0.1] The Russian Civil War (1918-1921, with fighting continuing in the Far East until 1922) pitted the Red Army, led by Leon Trotsky as War Commissar, against the White armies and foreign intervention forces.
-[hist-eur3-s4.0.2] War Communism (1918-1921) nationalised industry and banks, forced peasants to hand over grain at fixed low prices, and rationed food to towns.
-[hist-eur3-s4.0.3] Peasant revolts and famine in 1920-1921, combined with the grain requisitioning, showed how unpopular the policy had become.
-[hist-eur3-s4.0.4] The Bolsheviks banned rival parties during the civil war, and the Communist Party became the only legal party in the Soviet state.
-[hist-eur3-s4.0.5] Lenin survived an assassination attempt in August 1918, after which the Cheka's use of terror was greatly expanded.
-[hist-eur3-s4.0.6] In March 1921 sailors and workers at the naval base of Kronstadt revolted against Bolshevik rule, demanding free elections and an end to the monopoly of power; the Red Army crushed the revolt.
-[hist-eur3-s4.0.7] At the Tenth Party Congress in March 1921 the Bolsheviks adopted the New Economic Policy (NEP), which allowed small private trade, peasant sales of surplus grain and some private small-scale industry.
-[hist-eur3-s4.0.8] The NEP restored food supplies and the economy recovered by the mid-1920s, while large industry and banking remained under state control.
-[hist-eur3-s4.0.9] The NEP was seen by many Communists as a retreat, and critics on the left argued that it produced a new class of traders and wealthy peasants called Nepmen and kulaks.
-[hist-eur3-s4.0.10] The Union of Soviet Socialist Republics was formally created on 30 December 1922, bringing together Russia, Ukraine, Belarus and the Transcaucasian republics.
-[hist-eur3-s4.0.11] Lenin suffered strokes in 1922 and 1923, the first in May 1922, and died on 21 January 1924, leaving the party without a clear successor.
-[hist-eur3-s4.1.b] Stalin's rise as General Secretary, and his defeat of rival factions, decided who would lead the Soviet Union in the years of the Five-Year Plans.
-[hist-eur3-s4.1.0] Stalin had become General Secretary of the Communist Party in April 1922, a post that gave him control of party appointments.
-[hist-eur3-s4.1.1] Lenin's Testament, dictated in late 1922 and early 1923, criticised Stalin's rudeness and called for his removal from the post of General Secretary; the Central Committee did not publish it at the time.
-[hist-eur3-s4.1.2] Zinoviev and Kamenev first allied with Stalin against Trotsky in 1923-25; Trotsky's Left Opposition argued for rapid industrialisation and world revolution, and when Zinoviev and Kamenev joined him in the United Opposition of 1926 it was defeated, with its leaders expelled from the party by December 1927.
-[hist-eur3-s4.1.3] Trotsky was expelled from the party in 1927, sent to internal exile in Kazakhstan in 1928 and exiled from the Soviet Union in 1929; Stalin's agent killed him in Mexico in 1940.
-[hist-eur3-s4.1.4] The Right Opposition led by Nikolai Bukharin, Alexei Rykov and Mikhail Tomsky favoured the NEP and gradual growth, and was defeated in 1928-29 after Stalin, who had used it to beat the Left, turned to the Left's policy of rapid industrialisation and forced grain collection.
-[hist-eur3-s4.1.5] Stalin's defeat of rivals in the party allowed him to launch the First Five-Year Plan, and the Trotsky and Bukharin factions were both removed from political influence by 1929.
-[hist-eur3-s4.2.b] The First Five-Year Plan (1928-1932) set targets for heavy industry, and later plans extended the drive for rapid industrial growth.
-[hist-eur3-s4.2.0] Gosplan, the state planning agency, drew up the First Five-Year Plan, which was launched in October 1928 and aimed to transform the Soviet Union into an industrial power.
-[hist-eur3-s4.2.1] Targets were set for coal, steel, electricity, oil and machinery, with heavy industry given priority over consumer goods.
-[hist-eur3-s4.2.2] The steel city of Magnitogorsk was built in the southern Urals, becoming a symbol of the drive for industrialisation and of the labour that went into it.
-[hist-eur3-s4.2.3] Alexei Stakhanov, a Donbas coal miner, was reported to have cut 102 tonnes of coal in a single shift in August 1935, and the Stakhanovite movement was used to promote higher output, though the feat was prepared with help and made norms harder for ordinary workers.
-[hist-eur3-s4.2.4] Steel output rose from about 4 million tonnes in 1928 to about 18 million in 1940, but official statistics were inflated and the costs were very high: wages fell, housing was overcrowded, quality was poor and forced labour was used on projects such as the White Sea-Baltic Canal (1931-33).
-[hist-eur3-s4.2.5] The Second Five-Year Plan (1933-1937) and the Third (1938-1941) continued the emphasis on heavy industry, and the Soviet economy was militarised by the late 1930s.
-[hist-eur3-s4.3.b] Collectivisation aimed to bring peasant agriculture under state control, and its enforcement caused famine, mass deaths and the destruction of the kulaks as a class.
-[hist-eur3-s4.3.0] Collectivisation was launched in late 1929, when Stalin announced the 'liquidation of the kulaks as a class', and peasants were forced to join collective farms (kolkhozy) in which land and livestock were pooled and run to state orders.
-[hist-eur3-s4.3.1] Kulaks, the richer peasants, were described as enemies of the state and were deported or killed in a campaign of dekulakisation.
-[hist-eur3-s4.3.2] Peasants resisted by slaughtering livestock, and grain requisitions were set at levels that left villages short of food.
-[hist-eur3-s4.3.3] The harvest failures and forced requisitions of 1932 and 1933 produced a famine that killed several million people, mainly in Ukraine, the North Caucasus and Kazakhstan.
-[hist-eur3-s4.3.4] The Soviet authorities denied the famine and restricted movement to prevent starving peasants from reaching the towns.
-[hist-eur3-s4.3.5] Collectivisation transformed agriculture into a system of state-controlled production, but it produced lower output of meat and grain for several years.
-[hist-eur3-s4.4.b] The regime pursued a programme of social change that promoted literacy, changed family life and sought to replace religion with atheism and Marxist culture.
-[hist-eur3-s4.4.0] Literacy campaigns in the 1920s and 1930s raised reading levels greatly, and education was expanded to train workers and engineers.
-[hist-eur3-s4.4.1] The Bolsheviks legalised abortion in 1920 and promoted equality for women in work and politics, but abortion was restricted again in 1936.
-[hist-eur3-s4.4.2] The League of the Militant Godless, founded in 1925, campaigned against religion, and many churches and monasteries were closed or destroyed.
-[hist-eur3-s4.4.3] Socialist realism became the official style of art and literature in 1932, and the Union of Soviet Writers, formed in 1934, enforced its standards.
-[hist-eur3-s4.4.4] Cultural life was controlled by the party, and artists and writers who did not follow the official line faced censorship, expulsion or arrest.
-[hist-eur3-s4.4.5] The Soviet system promoted a new Soviet man and woman and a culture of collective achievement, expressed in parades, posters and public monuments.
-[hist-eur3-s4.4.6] Western visitors toured Soviet factories and collective farms in the early 1930s, and some returned with favourable reports about rapid industrial growth and the absence of unemployment.
-[hist-eur3-s4.4.7] The Webbs, Sidney and Beatrice, British socialists, published Soviet Communism: A New Civilisation? in 1935, which presented the Soviet system as a model for social planning.
-[hist-eur3-s4.4.8] The Depression made the planned economy look more attractive to some socialists, intellectuals and trade unionists in Britain, France and the United States.
-[hist-eur3-s4.4.9] Critics in the West, including many liberal and conservative commentators, pointed to the famine, the show trials and the absence of political freedom.
-[hist-eur3-s4.4.10] Contemporary opinion was therefore divided, and the Soviet alternative was a source of debate between supporters of planning and defenders of liberal democracy.
-[hist-eur3-s4.4.11] The Soviet Union's diplomatic recognition by the United States in 1933 and its membership of the League of Nations from 1934 gave the regime greater international standing.
-[hist-eur3-s4.5.b] The German invasion of June 1941 tested the Soviet system, and Stalin's wartime leadership combined the mobilisation of resources with terror against soldiers and civilians.
-[hist-eur3-s4.5.0] Germany invaded the Soviet Union on 22 June 1941 in Operation Barbarossa, and the Red Army suffered heavy losses in the first months of the war.
-[hist-eur3-s4.5.1] Stalin chaired the State Defence Committee set up on 30 June 1941 to direct the war economy, and became Supreme Commander in August 1941; he stayed in Moscow during the German advance in the autumn of 1941.
-[hist-eur3-s4.5.2] Factories were moved east to the Urals and Siberia in 1941, and output of tanks, aircraft and munitions rose sharply by 1942.
-[hist-eur3-s4.5.3] The Battle of Stalingrad, from August 1942 to February 1943, marked the turning point on the Eastern Front, when the German Sixth Army was encircled and surrendered.
-[hist-eur3-s4.5.4] Stalin used the Red Army and the NKVD to enforce discipline, including executions of deserters and punishment of soldiers who had been captured.
-[hist-eur3-s4.5.5] The Soviet Union's victory in the war was used to strengthen Stalin's personal authority, and he was given the rank of Generalissimo in 1945.
-[hist-eur3-s4.5.6] Order 227 of July 1942, 'Not one step back', led to blocking detachments behind the front line and penal battalions for those who retreated.
-[hist-eur3-s4.5.7] Soviet industry relocated about 1,500 factories east of the Urals in 1941 and 1942, and Lend-Lease supplies from Britain and the United States, including trucks and food, supported the Red Army from 1941.
-[hist-eur3-s4.5.8] Soviet victories at Stalingrad (February 1943) and Kursk (July 1943) turned the war, and the Red Army reached Berlin in April-May 1945.
-[hist-eur3-s4.5.9] Soviet deaths in the war are usually estimated at about 27 million, military and civilian combined, far more than any other combatant.
-[hist-eur3-s4.5.10] Prisoners of war who returned from German captivity and whole nationalities such as the Chechens and Crimean Tatars, accused of collaboration, were punished by imprisonment or deportation.
-[hist-eur3-s4.5.11] In 1943 Stalin eased pressure on the Orthodox Church and appealed to Russian nationalism, calling the conflict the Great Patriotic War, to win popular support.
-[hist-eur3-s4.5.12] In 1945 Stalin joined Churchill and Roosevelt at Yalta and Potsdam, and the USSR emerged as a superpower with control over Eastern Europe.
-[hist-eur3-s4.6.b] Lenin led the Bolsheviks from 1903 to 1924, and he created the institutions that Stalin inherited.
-[hist-eur3-s4.6.0] Born Vladimir Ulyanov in 1870 at Simbirsk, he had an elder brother who was executed in 1887 for plotting against Tsar Alexander III.
-[hist-eur3-s4.6.1] He was a participant in the 1917 revolutions, returning to Russia in April 1917 and issuing the April Theses calling for the transfer of power to the soviets.
-[hist-eur3-s4.6.2] He led the Bolsheviks in seizing power in October 1917 and presided over the Council of People's Commissars, the first Soviet government.
-[hist-eur3-s4.6.3] As leader in the civil war, he authorised the use of terror, the grain requisitioning of War Communism and the suppression of the Kronstadt revolt.
-[hist-eur3-s4.6.4] Contemporaries in the party saw him as the authority on Marxist theory and tactics, and his death in 1924 was marked by an embalmed body displayed in a mausoleum in Moscow.
-[hist-eur3-s4.6.5] Historians judge him as the architect of the one-party state, though some stress that the NEP shows a pragmatic side, and others argue that his methods made the later terror possible.
-[hist-eur3-s4.7.b] Stalin's leadership from the late 1920s to his death in 1953 transformed the Soviet economy and society, and he built a cult of personality around himself.
-[hist-eur3-s4.7.0] Born Ioseb Dzhugashvili in 1878 at Gori in Georgia, he was trained for the priesthood before joining the revolutionary movement and taking the name Stalin.
-[hist-eur3-s4.7.1] As General Secretary he built a network of loyal appointees, and by 1929 he had defeated his main rivals in the party.
-[hist-eur3-s4.7.2] He directed the Five-Year Plans and collectivisation, and his decisions set the timetable and targets for the whole economy.
-[hist-eur3-s4.7.3] Stalin was the central figure of Soviet propaganda, with his portraits, statues and sayings displayed across the country, and cities such as Stalingrad were named after him.
-[hist-eur3-s4.7.4] Western admirers in the 1930s, such as the Webbs, praised his industrial achievements, while the famine, the show trials and the Terror provoked criticism from liberal and socialist opponents.
-[hist-eur3-s4.7.5] After Stalin's death, Nikita Khrushchev denounced the cult of personality in a secret speech to the 20th Party Congress in February 1956, and historians have since debated how far his policies reflected ideology, paranoia or the pressures of industrialisation.
-[hist-eur3-s4.8.b] A personality cult presented Stalin as the infallible successor of Lenin, and a system of terror and control gave the state its totalitarian character.
-[hist-eur3-s4.8.0] The cult began with the celebrations of Stalin's fiftieth birthday in December 1929, when Pravda hailed him as Lenin's heir and the 'leader' of the party.
-[hist-eur3-s4.8.1] Official history was rewritten: the History of the Communist Party of the Soviet Union (Short Course) of 1938 gave Stalin the central role in the revolution, while Trotsky and other rivals were written out and removed from photographs.
-[hist-eur3-s4.8.2] Towns, factories and streets were named after Stalin, and poets, artists and film-makers portrayed him as the wise father of the people.
-[hist-eur3-s4.8.3] The 1936 Constitution, called the Stalin Constitution, promised universal suffrage, a secret ballot and civil rights, while the Communist Party's monopoly of power was left untouched.
-[hist-eur3-s4.8.4] The NKVD and the Gulag network of forced-labour camps held millions of prisoners, many of them peasants and political prisoners, who built canals, railways and mines.
-[hist-eur3-s4.8.5] Internal passports introduced in 1932 and 1933 and the registration of residence controlled movement, tying peasants to the countryside and keeping 'undesirables' out of the cities.
-[hist-eur3-s4.8.6] The Treaty of Rapallo with Germany (1922) restored relations between the two outcast states and allowed secret military co-operation on German rearmament on Soviet soil.
-[hist-eur3-s4.8.7] The Comintern, founded in 1919, directed foreign communist parties; its policy of denouncing Social Democrats as 'social fascists' split the German left in the early 1930s.
-[hist-eur3-s4.8.8] After Hitler took power, the USSR joined the League of Nations (1934), signed pacts with France and Czechoslovakia (1935) and backed the Popular Front policy of co-operation against fascism.
-[hist-eur3-s4.8.9] The USSR gave aid to the Spanish Republic in the Civil War from 1936, but was excluded from the Munich conference in 1938.
-[hist-eur3-s4.8.10] The Nazi-Soviet Pact of August 1939 gave Stalin time and a buffer: the Red Army entered eastern Poland on 17 September 1939, the USSR attacked Finland in the Winter War of November 1939, and the Baltic states were annexed in 1940.
-[hist-eur3-s4.8.11] The pact left the USSR unready when Germany attacked in June 1941, despite many intelligence warnings which Stalin discounted.
-[hist-eur3-s4.9.b] Judgements of the Soviet system balance its industrial and military achievements against the human costs of its methods.
-[hist-eur3-s4.9.0] Achievement: by 1941 the Soviet Union had built a large heavy industry base, and its war production helped defeat Germany.
-[hist-eur3-s4.9.1] Limit: collectivisation destroyed much of the peasant farming system and caused a famine that killed millions in 1932 and 1933.
-[hist-eur3-s4.9.2] Achievement: literacy and education expanded greatly, and women gained formal equality in work and the professions.
-[hist-eur3-s4.9.3] Limit: the cult of personality, the suppression of rival parties and the arrests of opponents removed any independent political life.
-[hist-eur3-s4.9.4] Contemporary view: many Western socialists and intellectuals saw the Soviet Union as a model for planning during the Depression.
-[hist-eur3-s4.9.5] Later view: historians after 1945 stressed the costs and the totalitarian features of the system, while more recent work has examined its social change and the views of ordinary people.
-
-CANDIDATES hist-eur3-s1: 1. Origins and growth of the fascist regimes: Mussolini's Italy
-[hist-eur3-s1.0.b] Fascism grew where parliamentary government seemed weak and where war, economic crisis and fear of revolution had left people frightened and angry.
-[hist-eur3-s1.0.0] Italy's war effort cost heavy casualties and debt, and the peace settlement gave Italy less than the Treaty of London (1915) had promised, feeding the sense of a 'mutilated victory'.
-[hist-eur3-s1.0.1] Italy had five prime ministers between 1919 and 1922 (Orlando, Nitti, Giolitti, Bonomi and Facta), and proportional representation, introduced in 1919, produced weak coalitions dependent on the Socialists and the Catholic Popolari.
-[hist-eur3-s1.0.2] The Biennio Rosso (1919-1920) brought strikes, peasant land seizures and factory occupations in the north, leading landowners, industrialists and the middle classes to fear a socialist revolution.
-[hist-eur3-s1.0.3] Inflation, unemployment and food shortages added to the anger of ex-servicemen, who believed the state had failed to reward them.
-[hist-eur3-s1.0.4] Fascism drew support from ex-servicemen, the lower middle class, large landowners in the Po valley and industrialists who wanted an end to strikes and socialist organisation.
-[hist-eur3-s1.0.5] The poet Gabriele D'Annunzio's seizure of Fiume with volunteers (September 1919 to December 1920) showed the weakness of the state and gave Fascism its style: black shirts, balcony speeches, the Roman salute and mass ritual.
-[hist-eur3-s1.0.6] Characteristics of fascism: extreme nationalism that places the nation above the individual, with power concentrated in one leader who embodies the nation (the leader principle) and is promoted by a personality cult.
-[hist-eur3-s1.0.7] A single party and a totalitarian state: Mussolini's own formula, from a 1925 speech, was 'everything within the state, nothing outside the state, nothing against the state'.
-[hist-eur3-s1.0.8] Fascists were hostile to communism, socialism and liberal democracy, which they blamed for class conflict and national weakness.
-[hist-eur3-s1.0.9] Fascism glorified violence, war and youth through uniformed squads and mass rallies, and promised corporatism, in which employers and workers would co-operate in state-controlled corporations instead of class conflict.
-[hist-eur3-s1.0.10] Comparison only: other interwar authoritarian regimes included Horthy's Hungary (1920), Primo de Rivera's Spain (1923-30), Piłsudski's Poland (1926), Salazar's Portugal (1932) and Metaxas's Greece (1936); most were conservative military or clerical dictatorships rather than mass fascist movements.
-[hist-eur3-s1.1.b] The Fascist movement gained power through organised violence against its opponents, often tolerated by local police and army commanders.
-[hist-eur3-s1.1.0] Benito Mussolini, a former editor of the socialist newspaper Avanti!, founded the Fasci di Combattimento in Milan in March 1919 with a programme that mixed radical and nationalist ideas.
-[hist-eur3-s1.1.1] The squadristi were armed squads, often led by ex-servicemen, who attacked socialist offices, trade union halls and Catholic People's Party premises, especially in the Po valley and Tuscany.
-[hist-eur3-s1.1.2] Fascist candidates won 35 seats in the May 1921 election, when Mussolini himself was elected, and Mussolini founded the National Fascist Party (PNF) that November.
-[hist-eur3-s1.1.3] Mussolini signed a Pacification Pact with socialist leaders in August 1921 to end the violence, but local squads ignored it and the pact collapsed.
-[hist-eur3-s1.1.4] Liberal leader Giovanni Giolitti included Fascists in his 1921 electoral bloc, underestimating their strength and believing he could control them.
-[hist-eur3-s1.1.5] The squads' violence was directed against the organisations that had led the 1919-1920 unrest, so Fascism presented itself as the defender of order against socialism.
-[hist-eur3-s1.1.6] By 1922 the Fascists had taken control of many local councils in northern and central Italy, giving them local bases of power independent of Rome.
-[hist-eur3-s1.2.b] The March on Rome was a show of force that persuaded the King to hand power to Mussolini rather than declare a state of siege.
-[hist-eur3-s1.2.0] Between 27 and 30 October 1922, about 30,000 Fascist squads converged on Rome under four leaders, the quadrumvirs (Balbo, De Bono, De Vecchi and Bianchi), while Mussolini waited in Milan; Prime Minister Luigi Facta asked for a state of siege.
-[hist-eur3-s1.2.1] King Victor Emmanuel III refused to sign the state of siege decree, fearing civil war and doubting the army's loyalty; he invited Mussolini to form a government on 29 October and Mussolini took office on 30 October 1922.
-[hist-eur3-s1.2.2] Mussolini's first government was a coalition in which Fascists held only a minority of posts alongside Liberals, Popolari and nationalists, and parliament granted it emergency powers for a year in November 1922.
-[hist-eur3-s1.2.3] The Acerbo Law of 1923 gave two-thirds of the seats in the Chamber of Deputies to any list winning at least 25 per cent of the vote.
-[hist-eur3-s1.2.4] In the April 1924 election the Fascist-led national list won about 65 per cent of the vote, in a campaign marked by intimidation and violence against opponents.
-[hist-eur3-s1.2.5] The Fascist Grand Council (December 1922) became the party's governing body and the Fascist militia (MVSN, January 1923) turned the squads into a state-paid force loyal to Mussolini rather than the King.
-[hist-eur3-s1.3.b] The murder of a socialist deputy in 1924 threatened Mussolini's government and was followed by the removal of parliamentary and press freedom.
-[hist-eur3-s1.3.0] On 30 May 1924 Giacomo Matteotti, a Socialist deputy, denounced electoral fraud and violence in the Chamber of Deputies.
-[hist-eur3-s1.3.1] Matteotti was abducted in Rome on 10 June 1924 by men connected to the Fascist squads and was murdered; his body was found in August.
-[hist-eur3-s1.3.2] Opposition deputies walked out of the Chamber in what became known as the Aventine Secession, hoping the King would dismiss Mussolini; the King did not act.
-[hist-eur3-s1.3.3] On 3 January 1925 Mussolini told the Chamber that he accepted political responsibility for the violence, which marked the start of his open dictatorship.
-[hist-eur3-s1.3.4] Between 1925 and 1926 the government banned opposition parties, censored the press, and replaced elected mayors with appointed podesta.
-[hist-eur3-s1.3.5] The Leggi Fascistissime of 1925-26 made Mussolini responsible only to the King, let him rule by decree, set up a Special Tribunal for the Defence of the State (1926) and created the OVRA secret police; political prisoners were sent to internal exile (confino) on islands such as Lipari.
-[hist-eur3-s1.3.6] Violet Gibson, an Englishwoman, shot Mussolini in Rome on 7 April 1926 and wounded his nose; the attack was used to justify further repression.
-[hist-eur3-s1.3.7] A 1928 electoral law let the Grand Council draw up a single list of 400 candidates for voters to accept or reject, and the 1929 plebiscite approved it with about 98 per cent voting yes.
-[hist-eur3-s1.4.b] Mussolini aimed to bring the economy under state direction through fascist unions and corporations, but the system remained more theory than practice.
-[hist-eur3-s1.4.0] The Rocco Law of 1926 allowed only state-recognised syndicates to represent workers and employers, and it banned strikes and lockouts.
-[hist-eur3-s1.4.1] The Charter of Labour of 1927 set out the principles of the corporate system, in which employers and workers would be organised together under the state.
-[hist-eur3-s1.4.2] Corporations covering the main economic sectors were set up in 1934, and in 1939 the Chamber of Deputies was replaced by the Chamber of Fasces and Corporations.
-[hist-eur3-s1.4.3] The Battle for Grain (from 1925) aimed at self-sufficiency in wheat by raising tariffs and expanding cereal production on poor land.
-[hist-eur3-s1.4.4] The Battle for Births, promoted from about 1927, offered rewards for large families and penalised celibacy through taxation.
-[hist-eur3-s1.4.5] The Pontine Marshes south of Rome were drained and resettled in the 1930s, a project presented as a triumph of the regime.
-[hist-eur3-s1.4.6] Quota 90, announced in Mussolini's Pesaro speech of August 1926 and reached in 1927, revalued the lira to 90 to the pound sterling for national prestige; it made exports dearer, deflated the economy and cut wages.
-[hist-eur3-s1.4.7] After the 1929 crash the state rescued banks and industry through the Institute for Industrial Reconstruction (IRI, 1933) which left the state owning a large share of banking, shipbuilding and steel.
-[hist-eur3-s1.5.b] The regime used mass organisations, the press and film to create consent and an image of Mussolini as the embodiment of the nation.
-[hist-eur3-s1.5.0] The Opera Nazionale Balilla (1926) brought boys and girls into a state youth organisation, which was reorganised as the Gioventu Italiana del Littorio in 1937.
-[hist-eur3-s1.5.1] The Dopolavoro (after-work) organisation from 1925 provided sport, excursions and leisure for workers under fascist supervision.
-[hist-eur3-s1.5.2] The Istituto Luce, founded in 1924, produced newsreels and documentary films that showed Mussolini at work, at rallies and at public works.
-[hist-eur3-s1.5.3] The Ministry of Popular Culture, known as Minculpop, was set up in 1937 to control the press, radio, cinema and theatre.
-[hist-eur3-s1.5.4] Mussolini's image as Il Duce was promoted through posters, photographs of him harvesting grain or bare-chested, balcony speeches from the Palazzo Venezia in Rome, and slogans painted on walls such as 'Mussolini is always right' and 'Believe, obey, fight'.
-[hist-eur3-s1.5.5] The regime used the Catholic Church and public ritual to build legitimacy, although the Church kept its own youth and press organisations.
-[hist-eur3-s1.5.6] Elementary schools used a single state textbook from 1929, and university professors had to swear an oath of loyalty to the regime in 1931; only about 12 of some 1,200 refused.
-[hist-eur3-s1.6.b] Mussolini used foreign adventures to build prestige, and his ambitions led Italy into alliance with Germany and into the Second World War.
-[hist-eur3-s1.6.0] The Corfu incident of August 1923 began when General Enrico Tellini and members of an Italian boundary commission were murdered on the Greek-Albanian border; Italy bombarded and occupied Corfu until Greece paid compensation.
-[hist-eur3-s1.6.1] Italy annexed the port of Fiume in 1924 under a treaty with Yugoslavia, ending a long dispute left over from the peace settlement.
-[hist-eur3-s1.6.2] Italy invaded Abyssinia (Ethiopia) on 3 October 1935; the League of Nations imposed sanctions, but they did not stop the invasion or cut off oil supplies.
-[hist-eur3-s1.6.3] The Hoare-Laval Plan of December 1935, which would have given Italy much of Abyssinia, was abandoned after public protest in Britain and France.
-[hist-eur3-s1.6.4] Addis Ababa was captured on 5 May 1936, and Victor Emmanuel III was declared Emperor of Ethiopia.
-[hist-eur3-s1.6.5] Italy and Germany drew together after German support during the Abyssinian war and their joint intervention for Franco in Spain (1936-39); Mussolini announced the Rome-Berlin Axis in a Milan speech on 1 November 1936, joined the Anti-Comintern Pact in 1937 and accepted the Anschluss in 1938.
-[hist-eur3-s1.6.6] Mussolini posed as a peacemaker at the Munich Conference (September 1938), invaded Albania in April 1939 and signed the Pact of Steel with Germany on 22 May 1939, but declared Italy non-belligerent when war began in September 1939.
-[hist-eur3-s1.6.7] Italy declared war on Britain and France on 10 June 1940, when France was already beaten, but suffered defeats in Greece (from October 1940) and North Africa that made it dependent on German help.
-[hist-eur3-s1.7.b] Military defeats and an Allied invasion of Sicily brought the regime down in 1943, but Mussolini's rule in northern Italy continued under German control until 1945.
-[hist-eur3-s1.7.0] Allied forces landed in Sicily on 10 July 1943, and at a meeting on 24-25 July the Fascist Grand Council passed Dino Grandi's motion to return command of the armed forces to the King.
-[hist-eur3-s1.7.1] King Victor Emmanuel III dismissed Mussolini on 25 July 1943 and had him arrested; Marshal Pietro Badoglio formed a new government.
-[hist-eur3-s1.7.2] Italy's armistice with the Allies was announced on 8 September 1943, and German forces took control of much of the north and centre.
-[hist-eur3-s1.7.3] German paratroopers and SS commandos, among them Otto Skorzeny, rescued Mussolini from a mountain hotel at Gran Sasso on 12 September 1943.
-[hist-eur3-s1.7.4] Mussolini headed the Italian Social Republic, known as the Salò Republic after its seat on Lake Garda, a German puppet state that executed his son-in-law Ciano and other Grand Council members at Verona in January 1944.
-[hist-eur3-s1.7.5] Mussolini and his mistress Clara Petacci were shot by partisans near Lake Como on 28 April 1945, and their bodies were displayed in Piazzale Loreto in Milan.
-[hist-eur3-s1.8.b] Mussolini led Italy from 1922 to 1943 and was the founder and leader of the Fascist movement.
-[hist-eur3-s1.8.0] Born in 1883 at Predappio in the Romagna region, he trained as a teacher, became a socialist journalist, and edited Avanti! from 1912.
-[hist-eur3-s1.8.1] He was expelled from the Socialist Party in 1914 for supporting Italian entry into the First World War, and he served in the army and was wounded in 1917.
-[hist-eur3-s1.8.2] As founder of the Fasci di Combattimento (1919) and the National Fascist Party (1921), he led the movement that took power in 1922 and ruled as dictator from 1925.
-[hist-eur3-s1.8.3] He was a participant who shaped events: he organised the March on Rome from Milan, took personal responsibility for the violence in January 1925 and made the key decisions on Abyssinia, the Axis and entry into the war.
-[hist-eur3-s1.8.4] Contemporaries were divided: many conservatives, the Vatican and foreign statesmen admired his suppression of socialism (Churchill praised him on a visit to Rome in 1927), while Socialists, Popolari and liberals such as Giovanni Amendola, who died after a Fascist beating in 1926, denounced his violence.
-[hist-eur3-s1.8.5] Historians differ: Renzo De Felice argued that the regime enjoyed real popular consent in the years 1929-1936, while Denis Mack Smith portrayed Mussolini as an opportunist and propagandist more concerned with image than with real achievement.
-[hist-eur3-s1.8.6] Many historians now see Italian Fascism as an incomplete totalitarianism, since the King, the Church, the army and big business kept independent power, which is why the King was able to dismiss him in 1943.
-[hist-eur3-s1.9.b] Judgements of the regime turn on whether its stability and public works are weighed against its violence, economic failures and disastrous war.
-[hist-eur3-s1.9.0] Achievement: Mussolini ended parliamentary rule and established a one-party state by 1926 with little open resistance for most of the 1920s.
-[hist-eur3-s1.9.1] Limit: the corporate state existed largely on paper, as employers kept control of production and the corporations had little real power.
-[hist-eur3-s1.9.2] Achievement: the Lateran Treaties of 1929 settled the Roman Question, and the Pontine Marshes scheme, the autostrade motorways and rail electrification gave the regime visible successes.
-[hist-eur3-s1.9.3] Limit: the Battle for Grain did not make Italy self-sufficient in food, and the deflationary policy of Quota 90 damaged industry and jobs.
-[hist-eur3-s1.9.4] Achievement: Italy gained territory in Abyssinia and Fiume, which the regime presented as the fulfilment of national destiny.
-[hist-eur3-s1.9.5] Limit: the Abyssinian war was costly, the alliance with Germany drew Italy into a war it was ill-prepared to fight, and the regime collapsed in 1943 after defeats in North Africa and Sicily.
-[hist-eur3-s1.9.6] Contemporary view: many Italians and foreign conservatives saw Mussolini as the saviour of order who had defeated Bolshevism; later view: his regime is judged by its violence, its alliance with Hitler, the 1938 racial laws and the defeat it brought on Italy.
+[hist-eur3-s3.0.b] Everything the Nazi state did between 1933 and 1939 makes sense only against what Hitler wanted and the position he started from. He came to power through a deal with conservatives, but he had a programme that he had already written down.
+[hist-eur3-s3.0.0] Hitler was appointed Chancellor on 30 January 1933 by President Hindenburg, at the head of a coalition. Only three Nazis (Hitler, Frick and Göring) sat in the first cabinet, so Papen, the Vice-Chancellor, and the conservatives expected to control him.
+[hist-eur3-s3.0.1] In Mein Kampf (two volumes, 1925 and 1926, mostly written in Landsberg prison after the Munich Putsch) Hitler set out his aims: overturn Versailles, unite all Germans in one state, win Lebensraum (living space) in the east, and fight a racial struggle.
+[hist-eur3-s3.0.2] The Treaty of Versailles (1919) limited the German army to 100,000 men and banned conscription, an air force, tanks and submarines, which is why rearmament was Hitler's first goal. The Rhineland was demilitarised and the Saar placed under League of Nations rule for 15 years from 1920.
+[hist-eur3-s3.0.3] Versailles also forbade union (Anschluss) with Austria, made Danzig a Free City under the League, and used the Polish Corridor to separate East Prussia from the rest of Germany. Each of these became a Hitler target between 1933 and 1939.
+[hist-eur3-s3.0.4] While Germany was weak, Hitler was cautious: he needed time to rebuild the army and economy, so his first steps were presented as demands for fair treatment, not as plans for conquest.
+[hist-eur3-s3.1.b] Within months of his appointment Hitler removed the legal and political limits on his power, using emergency decrees, intimidation and a vote of the Reichstag itself. Each step built on the one before.
+[hist-eur3-s3.1.0] The Reichstag fire of 27 February 1933 was blamed on a Communist plot, because Marinus van der Lubbe, a young Dutch communist (later executed), was found in the building. This gave the Nazis the excuse they needed to attack their left-wing opponents.
+[hist-eur3-s3.1.1] The Decree for the Protection of People and State (the Reichstag Fire Decree) of 28 February 1933 suspended freedom of speech, press and assembly and allowed arrest without trial, so opponents could be locked up with no legal protection.
+[hist-eur3-s3.1.2] Thousands of Communists were arrested after the fire, and the Communist Party was effectively destroyed in early 1933, removing one of the Nazis' main rivals before the next vote.
+[hist-eur3-s3.1.3] In the election of 5 March 1933, despite terror and propaganda, the Nazis won only about 44 per cent of the vote. They had a majority only with their Nationalist (DNVP) allies, so Hitler still needed another way to rule freely.
+[hist-eur3-s3.1.4] The Enabling Act of 23 March 1933 (formally the Law for the Removal of the Distress of People and Reich) let the cabinet make laws without the Reichstag, even ones departing from the constitution, for four years.
+[hist-eur3-s3.1.5] The Act passed 444 to 94. The Communist deputies had been arrested or had fled, the Catholic Centre Party voted for it, and only the Social Democrats voted against, which shows how far intimidation had worked.
+[hist-eur3-s3.1.6] Do not mix up the two measures: the Reichstag Fire Decree suspended people's rights, while the Enabling Act removed the Reichstag's law-making role.
+[hist-eur3-s3.2.b] After the Enabling Act Hitler used Gleichschaltung (coordination: bringing every institution into line with Nazi aims) to take over the rest of German life. It ended in a state where only one party and one organisation for workers were allowed.
+[hist-eur3-s3.2.0] Reich governors (Reichsstatthalter) were appointed over the German states in April 1933, and the Law for the Reconstruction of the Reich of 30 January 1934 abolished the state parliaments, so power was concentrated in Berlin.
+[hist-eur3-s3.2.1] The Law for the Restoration of the Professional Civil Service of 7 April 1933 removed Jews and political opponents from the civil service. This put the officials who ran the country under Nazi control and made loyalty the test for a job.
+[hist-eur3-s3.2.2] Gleichschaltung also brought the courts, universities and cultural bodies under Nazi control, which meant that teaching, law and the arts could no longer act independently of the regime.
+[hist-eur3-s3.2.3] On 2 May 1933 the SA and SS occupied trade union offices and the unions were dissolved. Their members were not abolished by law but seized and absorbed, with workers then pushed into the German Labour Front, set up in May 1933 under Robert Ley.
+[hist-eur3-s3.2.4] The Law against the Formation of New Parties of 14 July 1933 made the NSDAP the only legal party. The Communists and Social Democrats had already been banned, and the other parties dissolved themselves in June and July 1933.
+[hist-eur3-s3.3.b] By 1934 Hitler's remaining rival at the heart of the movement was his own storm-troop army, the SA. Removing its leadership in one weekend won him the army's support and cleared the way to supreme power.
+[hist-eur3-s3.3.0] Ernst Röhm, the SA chief of staff, led an organisation of several million members by 1934, far more than the 100,000-man army. He talked of a "second revolution" and wanted the SA to form the core of a new people's army.
+[hist-eur3-s3.3.1] Conservatives were alarmed by SA violence. Vice-Chancellor Papen's Marburg speech of 17 June 1934 criticised that violence and the calls for a second revolution, adding to the pressure on Hitler to act.
+[hist-eur3-s3.3.2] Between 30 June and 2 July 1934, Hitler ordered the murder of Röhm and other SA leaders. The killings were carried out by the SS and Gestapo with army help.
+[hist-eur3-s3.3.3] Hitler also used the purge to settle other scores: Gregor Strasser (a former Nazi leader), Kurt von Schleicher (former Chancellor) and his wife, Gustav von Kahr, Erich Klausener and Edgar Jung (author of the Marburg speech) were killed.
+[hist-eur3-s3.3.4] At least 85 people were killed, possibly more, because the true total is uncertain.
+[hist-eur3-s3.3.5] On 3 July 1934 the Law on Measures of State Self-Defence declared the killings legal after the event, which gave murder a cover of legality.
+[hist-eur3-s3.3.6] The army leadership, under Defence Minister Werner von Blomberg, approved the purge in return for the removal of the SA as a rival force, which tied the army to Hitler.
+[hist-eur3-s3.4.b] Hindenburg's death gave Hitler the last piece of formal power. From then on the state rested on his person, and the law, the army and the party all swore obedience to him.
+[hist-eur3-s3.4.0] President Hindenburg died on 2 August 1934. The offices of President and Chancellor were merged and Hitler took the title Führer and Reich Chancellor. He was never called President. A plebiscite on 19 August 1934 approved the change, with about 90 per cent in favour.
+[hist-eur3-s3.4.1] On 2 August 1934 soldiers swore an oath of unconditional obedience to Hitler personally, as Führer, rather than to the constitution. This tied the armed forces to Hitler personally.
+[hist-eur3-s3.4.2] The Führer principle (Führerprinzip) meant authority flowed from the top down, with absolute obedience upward, and propaganda built a cult of Hitler's personal leadership around it.
+[hist-eur3-s3.4.3] In practice the state was a polycracy: overlapping party and state bodies (ministries, Gauleiters, the SS, the Four Year Plan office) competed for power and for Hitler's favour. This rivalry meant decisions could be chaotic.
+[hist-eur3-s3.4.4] A dictatorship is rule by one person or party without legal limits or free elections. By August 1934 Hitler had removed the Reichstag's law-making role, rival parties and independent organisations and so fitted this definition.
+[hist-eur3-s3.5.b] The regime did not rely on consent alone. A police system outside the law, led by Heinrich Himmler, gave it the power to detain anyone it chose.
+[hist-eur3-s3.5.0] Heinrich Himmler was Reichsführer-SS (head of the SS, the party's elite force) from 1929. By 1934 he controlled the political police of almost all the states, and in June 1936 he became Chief of German Police, which merged party and state police power in his hands.
+[hist-eur3-s3.5.1] Reinhard Heydrich led the SD (Sicherheitsdienst), the SS Security Service, which watched for opponents and gathered intelligence on the population.
+[hist-eur3-s3.5.2] The Gestapo (Secret State Police) was founded in April 1933 in Prussia by Hermann Göring. Himmler and Heydrich took it over in April 1934.
+[hist-eur3-s3.5.3] The Gestapo could arrest people without trial or appeal, a procedure the regime called protective custody (Schutzhaft). Because there was no legal challenge, nobody could force the police to explain or end a detention.
+[hist-eur3-s3.5.4] Historians such as Robert Gellately have shown that the Gestapo was small and relied heavily on denunciations by ordinary Germans. Its reach therefore depended partly on people reporting their neighbours, not on police numbers alone.
+[hist-eur3-s3.5.5] Do not confuse the organisations: the SA were the brownshirts under Röhm, sidelined after 1934; the SS was the party elite force under Himmler; the SD was SS intelligence under Heydrich; the Gestapo was the secret state police.
+[hist-eur3-s3.6.b] Detention and the courts completed the system. Camps held people the regime wanted out of sight, and the courts were changed so political cases could be decided without legal protection.
+[hist-eur3-s3.6.0] Dachau, near Munich, opened in March 1933 and was the first concentration camp run by the SS and the model for later camps. The SA also ran makeshift early camps in 1933, which is why Dachau is called the first SS camp.
+[hist-eur3-s3.6.1] Other camps followed: Sachsenhausen in 1936 and Buchenwald in 1937, so the system grew as the regime's controls hardened.
+[hist-eur3-s3.6.2] The first prisoners were political opponents such as Communists, trade unionists and Social Democrats. Later Jehovah's Witnesses, "asocials", homosexuals and Jews were held too, so the camps widened as the idea of who threatened the community widened.
+[hist-eur3-s3.6.3] Special Courts (Sondergerichte) were set up in March 1933 and the People's Court (Volksgerichtshof) in 1934 for treason cases. Political verdicts came with little legal protection for defendants, so courts reinforced terror instead of limiting it.
+[hist-eur3-s3.7.b] The regime's popularity depended on jobs, and its foreign aims depended on arms. Its economic policy tried to deliver both, and hide how much it was spending on rearmament.
+[hist-eur3-s3.7.0] Hjalmar Schacht was Reichsbank president from March 1933 and Economics Minister from August 1934. He financed rearmament through Mefo bills, credit notes issued through a dummy company (Mefo) to pay arms firms, which kept military spending off the budget.
+[hist-eur3-s3.7.1] The New Plan of September 1934 controlled foreign trade through bilateral trade agreements and exchange controls (limits on buying foreign money), which gave priority to imports of raw materials for rearmament.
+[hist-eur3-s3.7.2] Public works, including autobahns, housing and military building, created jobs. The first autobahn section, Frankfurt to Darmstadt, opened in May 1935. The Nazis expanded and publicised the autobahns, but plans and a first stretch (Cologne to Bonn, 1932) predate 1933.
+[hist-eur3-s3.7.3] The Reich Labour Service (RAD) became compulsory for young men in June 1935, with six months' work, and conscription was reintroduced in March 1935. Both took young men out of the job market, which helped to lower the unemployment figures.
+[hist-eur3-s3.8.b] Unemployment fell dramatically, but the figures hide a more complicated story, and from 1936 the economy was steered openly towards war.
+[hist-eur3-s3.8.0] Registered unemployment was about six million in January 1933 and under one million by 1937. By 1938-39 labour shortages had replaced unemployment, because rearmament and conscription absorbed workers.
+[hist-eur3-s3.8.1] The figures hide a lot: women and Jews were removed from them, conscription and the Labour Service took men out of the labour market, wages were held down and there were no free unions to bargain.
+[hist-eur3-s3.8.2] Recovery had begun before 1933 and world trade was recovering, so Nazi policy alone did not end the Depression in Germany. Historians therefore debate how much credit the regime deserves.
+[hist-eur3-s3.8.3] The Four Year Plan, announced in September 1936 with Hermann Göring as Plenipotentiary, aimed to have the army ready for action and the economy fit for war within four years. This priority is often paraphrased as guns before butter.
+[hist-eur3-s3.8.4] It also aimed at autarky (self-sufficiency, so Germany would not depend on imports in wartime), through synthetic oil from coal, synthetic rubber (buna) and the state-owned Reichswerke Hermann Göring (1937), which mined low-grade German iron ore.
+[hist-eur3-s3.8.5] The plan missed its targets, and Germany still relied on imports in 1939.
+[hist-eur3-s3.8.6] Schacht resigned as Economics Minister in November 1937 after clashing with Göring over the pace and cost of rearmament. He was dismissed from the Reichsbank in January 1939, and by 1939 the economy was strained.
+[hist-eur3-s3.9.b] The Volksgemeinschaft (people's community) was the idea of a racially pure national community that stood above class. The regime tried to win workers and shape children so that they would belong to it.
+[hist-eur3-s3.9.0] The German Labour Front under Robert Ley replaced the free unions, so workers had an organisation controlled by the party instead of one that could bargain for them.
+[hist-eur3-s3.9.1] Its Strength Through Joy (Kraft durch Freude) section, set up in November 1933, offered cheap holidays, cruises, concerts, theatre and sport, so workers felt rewarded. Its Beauty of Labour section improved factory canteens, lighting and washrooms.
+[hist-eur3-s3.9.2] The Volkswagen ("people's car", the KdF-Wagen) scheme had workers pay weekly instalments, but the factory turned to war production and no savers received a car.
+[hist-eur3-s3.9.3] The Hitler Youth, led by Baldur von Schirach (Reich Youth Leader from 1933), had four sections: the Jungvolk (boys 10-14), the Hitler Youth (boys 14-18), the Jungmädelbund (girls 10-14) and the League of German Girls, the BDM (girls 14-18).
+[hist-eur3-s3.9.4] The Hitler Youth Law of 1 December 1936 made the Hitler Youth the only legal youth organisation, and membership became compulsory from 1939, so by the end of the decade almost no young person could avoid its training.
+[hist-eur3-s3.9.5] Schools taught racial science and nationalist history, and textbooks were rewritten. Teachers were pressed to join the National Socialist Teachers' League, and teachers who were Jewish or politically unreliable were dismissed.
+[hist-eur3-s3.10.b] The national community was defined by who it left out as much as who it included. Women were given a fixed role, those judged outsiders were excluded, and the regime relied on consent as well as terror.
+[hist-eur3-s3.10.0] Nazi ideology assigned women the roles of wife and mother, often summed up as "Kinder, Küche, Kirche" (children, kitchen, church). The slogan is older than the Nazis, who did not coin it, but it describes their policy.
+[hist-eur3-s3.10.1] Marriage loans from 1933 (Law for the Reduction of Unemployment, June 1933) gave 1,000 marks, with a quarter cancelled for each child born. The wife was expected to give up work, which also freed jobs for men.
+[hist-eur3-s3.10.2] The Cross of Honour of the German Mother, instituted in December 1938, rewarded large families: bronze for four children, silver for six and gold for eight.
+[hist-eur3-s3.10.3] Married women were pushed out of civil service posts from 1933, and from 1936 women could not be judges or public prosecutors. But labour shortages in the late 1930s drew many women back into work.
+[hist-eur3-s3.10.4] The regime excluded those it judged inferior. The law of 14 July 1933 on hereditarily diseased offspring led to about 400,000 people being forcibly sterilised by 1945, and the Nuremberg Laws of 15 September 1935 took citizenship from Jews and banned marriage and sexual relations between Jews and Germans.
+[hist-eur3-s3.10.5] Opponents and "asocials" were sent to camps, so belonging to the community depended on conforming.
+[hist-eur3-s3.10.6] The regime was also popular. Jobs, order and foreign successes won consent, while opposition was limited and mostly passive. After the Anschluss, the slogan "One People, One Reich, One Leader" summed up the mood.
+[hist-eur3-s3.11.b] Hitler's first foreign moves rejected the Versailles restrictions step by step. Each time the western powers protested but did not act, which taught him how far he could go.
+[hist-eur3-s3.11.0] On 14 October 1933 Germany left the Geneva Disarmament Conference and the League of Nations, claiming unequal treatment. A plebiscite in November 1933 approved the move, with about 95 per cent in favour.
+[hist-eur3-s3.11.1] The German-Polish non-aggression pact of 26 January 1934, for ten years.
+[hist-eur3-s3.11.2] On 25 July 1934 Austrian Nazis murdered Chancellor Dollfuss in a failed coup in Vienna. Mussolini moved troops to the Brenner Pass, so Hitler backed off and disowned the coup. Kurt Schuschnigg succeeded Dollfuss.
+[hist-eur3-s3.11.3] The Saar, governed by the League since 1920, held a plebiscite on 13 January 1935 in which about 90 per cent voted to return to Germany. It was reunited on 1 March 1935, a major propaganda success.
+[hist-eur3-s3.11.4] In March 1935 Göring revealed the existence of the Luftwaffe (the German air force) to foreign journalists, and on 16 March Hitler announced conscription, with the army to grow to 36 divisions (about 550,000 men). Both breached Versailles.
+[hist-eur3-s3.11.5] The Stresa Front of Britain, France and Italy condemned German rearmament in April 1935 and promised to uphold Locarno and Austrian independence, but took no effective action and broke down after Italy invaded Abyssinia in October 1935.
+[hist-eur3-s3.11.6] The Anglo-German Naval Agreement of 18 June 1935 allowed Germany a surface fleet up to 35 per cent the size of the British. Britain accepted it without consulting France, so a Versailles limit was broken with British consent.
+[hist-eur3-s3.11.7] The agreement gave Hitler the diplomatic recognition he had sought and weakened the united front against him, which encouraged him to test the western powers further.
+[hist-eur3-s3.12.b] From 1936 Hitler moved from undoing Versailles to open expansion, supported by new friends and a growing army. The western powers' failure to resist the Rhineland set the pattern for what followed.
+[hist-eur3-s3.12.0] On 7 March 1936 German troops reoccupied the demilitarised Rhineland (the reoccupation), breaking Versailles and the Locarno Treaties of 1925. France, in the middle of an election campaign, and Britain did not resist; the League only condemned it. Hitler offered new peace pacts the same day.
+[hist-eur3-s3.12.1] It was a gamble, and the generals were nervous, but its success increased Hitler's popularity at home and his confidence that Britain and France would not fight.
+[hist-eur3-s3.12.2] The Rome-Berlin Axis (agreed in October 1936 and named by Mussolini in a speech on 1 November 1936) and the Anti-Comintern Pact between Germany and Japan (25 November 1936, with Italy joining in November 1937) aligned Germany with Italy and Japan.
+[hist-eur3-s3.12.3] The German Condor Legion (air and ground units) fought for Franco in the Spanish Civil War from 1936 to 1939 and bombed Guernica in April 1937.
+[hist-eur3-s3.12.4] At the Hossbach meeting of 5 November 1937 Hitler told Blomberg, Fritsch, Raeder, Göring and Neurath that Germany's need for space could be solved only by force, at the latest by 1943-45 and earlier if chances arose, starting with Austria and Czechoslovakia.
+[hist-eur3-s3.12.5] The minutes were written up days later by Colonel Friedrich Hossbach, so the meeting is known as the Hossbach Memorandum.
+[hist-eur3-s3.12.6] In February 1938 Blomberg and Fritsch were removed after personal scandals. Hitler took personal command of the armed forces through a new High Command (OKW), and Joachim von Ribbentrop replaced Neurath as Foreign Minister.
+[hist-eur3-s3.12.7] The Anschluss followed: Hitler pressed Schuschnigg at Berchtesgaden in February 1938 to admit Austrian Nazis, including Seyss-Inquart as Interior Minister. Schuschnigg announced a plebiscite for 13 March, cancelled it under pressure and resigned on 11 March; German troops entered Austria on 12 March 1938.
+[hist-eur3-s3.13.b] After Austria, Hitler turned to Czechoslovakia. The Sudeten crisis showed how far Britain and France would go to avoid war and how Czechoslovakia was left to pay the price.
+[hist-eur3-s3.13.0] Austria was declared part of the Reich on 13 March 1938, and a plebiscite on 10 April 1938 showed over 99 per cent approval, a result produced in an atmosphere of Nazi control.
+[hist-eur3-s3.13.1] Konrad Henlein's Sudeten German Party, backed and funded by Berlin, demanded autonomy and then union with Germany for the three million Sudeten Germans, giving Hitler a pretext to threaten Czechoslovakia.
+[hist-eur3-s3.13.2] Chamberlain flew to meet Hitler at Berchtesgaden on 15 September 1938 and again at Bad Godesberg on 22 September, where Hitler raised his demands to immediate occupation.
+[hist-eur3-s3.13.3] The Munich conference met on 29 September 1938 and the agreement was signed in the early hours of 30 September by Chamberlain, Daladier (France), Hitler and Mussolini. Czechoslovakia was not represented and the Soviet Union, which had a treaty with Czechoslovakia, was not invited.
+[hist-eur3-s3.13.4] Czechoslovakia had to hand over the Sudetenland to Germany between 1 and 10 October 1938, and lost its frontier fortifications, leaving it defenceless.
+[hist-eur3-s3.13.5] Chamberlain and Hitler also signed a declaration that Britain and Germany would never go to war again. On his return Chamberlain said it was "peace for our time".
+[hist-eur3-s3.13.6] Churchill told the Commons in October 1938 that Munich was "a total and unmitigated defeat".
+[hist-eur3-s3.14.b] Hitler's seizure of Prague in 1939 broke the logic of appeasement, and within months the road to war was open.
+[hist-eur3-s3.14.0] On 15 March 1939 German troops occupied Prague. Bohemia and Moravia became the Protectorate of Bohemia and Moravia, and Slovakia, which declared independence on 14 March, became a German client state.
+[hist-eur3-s3.14.1] Memel was taken from Lithuania in March 1939, and Italy invaded Albania in April 1939.
+[hist-eur3-s3.14.2] Prague broke the Munich promises and was Hitler's first seizure of non-German land. It ended the belief that his claims were limited to Germans and led Britain to abandon appeasement.
+[hist-eur3-s3.14.3] Hitler demanded Danzig and a road and rail link across the Polish Corridor. Britain announced a guarantee of Polish independence on 31 March 1939, with France joining it, and the Anglo-Polish alliance followed on 25 August 1939.
+[hist-eur3-s3.14.4] The Nazi-Soviet Non-Aggression Pact (the Molotov-Ribbentrop Pact) was signed in Moscow on 23 August 1939 by Ribbentrop and Molotov. It promised ten years of non-aggression, and a secret protocol divided Poland and placed the Baltic states and Bessarabia in spheres of influence.
+[hist-eur3-s3.14.5] The pact removed the danger of a war on two fronts and was surprising because the two regimes were ideological enemies.
+[hist-eur3-s3.14.6] Germany invaded Poland on 1 September 1939, and Britain and France declared war on 3 September.
+[hist-eur3-s3.15.b] Hitler's foreign policy was driven by racial ideas and by the goal of Lebensraum in the east. Historians argue over whether this meant a plan for war from the start or opportunism.
+[hist-eur3-s3.15.0] Lebensraum (living space) was Hitler's goal: Germany needed land in Eastern Europe, to be settled by a racially pure population, with the Slavs to be subjugated. This made war with the east, not just revision of Versailles, the aim.
+[hist-eur3-s3.15.1] Herrenvolk (master race) was the idea that Germanic people were racially superior. It underpinned both domestic policy and plans for the conquest and resettlement of Eastern Europe.
+[hist-eur3-s3.15.2] Totalitarianism and dictatorship: Hitler's ideology claimed to reach every part of life, which is why the regime tried to control work, schools and families as well as politics.
+[hist-eur3-s3.15.3] Appeasement was British and French policy to satisfy Germany's grievances through concessions, based on the belief that Versailles had been unfair and that war must be avoided.
+[hist-eur3-s3.15.4] Historians disagree on whether Hitler planned a general war from 1933 or responded to opportunities. Trevor-Roper argued Hitler pursued consistent war aims set out in Mein Kampf (the plan or programme view).
+[hist-eur3-s3.15.5] A.J.P. Taylor's The Origins of the Second World War (1961) argued that Hitler was an opportunist with traditional German aims and that the war was a blunder. The book was widely attacked.
+[hist-eur3-s3.15.6] The terms intentionalist (Hitler's plan) and functionalist (circumstances and rival agencies) are borrowed from the wider debate about the Nazi state.
+[hist-eur3-s3.16.b] Appeasement was the policy of giving way to Hitler's demands to keep the peace. It was supported for several reasons and judged very differently at the time and afterwards.
+[hist-eur3-s3.16.0] Britain and France appeased Hitler for several reasons: guilt over Versailles, a horror of another war, a fear of bombing, rearmament that was not ready, reluctant dominions, a belief that communism was the greater threat, and the cost to the economy.
+[hist-eur3-s3.16.1] Neville Chamberlain, Prime Minister from May 1937 (succeeding Stanley Baldwin) to May 1940, was its main practitioner, so Munich is linked to his name. Churchill, out of office in the 1930s, was its main critic.
+[hist-eur3-s3.16.2] At the time appeasement was popular: Chamberlain was cheered on his return from Munich.
+[hist-eur3-s3.16.3] Later it was condemned: the pamphlet Guilty Men (1940), by "Cato" (Michael Foot and others), blamed the appeasers, but some historians defend it as buying time to rearm.
+[hist-eur3-s3.17.b] The war gave the regime new radical powers, and Germany's economy and society were geared to total war.
+[hist-eur3-s3.17.0] Albert Speer, Hitler's architect, became Minister for Armaments and Munitions in February 1942 after the death of Fritz Todt. Arms output rose sharply until 1944 despite bombing.
+[hist-eur3-s3.17.1] After the surrender at Stalingrad, Goebbels called for total war in his Sportpalast speech in Berlin on 18 February 1943. In January 1943 women aged 17 to 45 were required to register for war work.
+[hist-eur3-s3.17.2] Millions of foreign forced labourers and prisoners of war worked in Germany by 1944.
+[hist-eur3-s3.17.3] On 20 July 1944 Colonel Claus Schenk von Stauffenberg planted a bomb at Hitler's headquarters, the Wolf's Lair near Rastenburg, East Prussia. Hitler was only injured, the coup in Berlin collapsed that night and Stauffenberg was shot.
+[hist-eur3-s3.17.4] Thousands were arrested and many executed after the July plot.
+[hist-eur3-s3.17.5] Hitler stayed in command to the end and killed himself in his Berlin bunker on 30 April 1945.
+[hist-eur3-s3.18.b] Hitler's rule from 1933 to 1939 combined a consolidated dictatorship at home with a foreign policy of rearmament, expansion and war. He directed each stage himself.
+[hist-eur3-s3.18.0] Hitler was born on 20 April 1889 at Braunau am Inn, Austria. He served in a Bavarian regiment from 1914 to 1918 and won the Iron Cross First Class in 1918.
+[hist-eur3-s3.18.1] He led the Nazi Party from July 1921, attempted the Munich (Beer Hall) Putsch in November 1923, wrote Mein Kampf in Landsberg prison in 1924, and became Chancellor on 30 January 1933.
+[hist-eur3-s3.18.2] From 1933 to 1939 he built a dictatorship, rearmed, left the League, took the Rhineland, achieved the Anschluss with Austria, received the Sudetenland under the Munich Agreement, occupied Prague and invaded Poland.
+[hist-eur3-s3.18.3] He set the aims and took the key decisions on the purge, the Rhineland, the Anschluss, Czechoslovakia and Poland. He was a participant who directed each stage, not a witness.
+[hist-eur3-s3.18.4] His style of rule was to rise late, avoid paperwork and encourage rivalry between subordinates, who competed to anticipate his wishes: what Ian Kershaw calls "working towards the Führer".
+[hist-eur3-s3.18.5] At home, he was popular after the Saar, the Rhineland and the Anschluss. Abroad, David Lloyd George visited him in September 1936 and praised him, and many saw a reasonable revisionist, but Churchill warned repeatedly of German rearmament and saw a threat.
+[hist-eur3-s3.18.6] Historians' views have changed. Alan Bullock (Hitler: A Study in Tyranny, 1952) saw an opportunist adventurer seeking power, a view later revised. Trevor-Roper stressed consistent war aims, and Taylor argued Hitler was an opportunist.
+[hist-eur3-s3.18.7] Hans Mommsen called Hitler a "weak dictator", and Martin Broszat (The Hitler State) saw a chaos of rival agencies. Kershaw's two volumes (1998 and 2000) combine the views through "working towards the Führer".
+[hist-eur3-s3.19.b] Examiners reward judgement more than narrative. For each theme, set the achievements against the limits, and be ready to weigh Hitler's own responsibility against other causes.
+[hist-eur3-s3.19.0] Totalitarian state: totalitarian aims and terror (SS, Gestapo, camps, courts) show control, but polycracy, a small Gestapo dependent on denunciations, and consent won by jobs and success show it was less total than it looked.
+[hist-eur3-s3.19.1] Economy, achievement: unemployment was cut, recovery was achieved and rearmament was built up.
+[hist-eur3-s3.19.2] Economy, limit: hidden unemployment, controlled wages, strain and shortages by 1939, and a recovery that had begun before 1933.
+[hist-eur3-s3.19.3] Foreign policy, achievement: by 1939 Hitler had overturned Versailles and gained territory without war.
+[hist-eur3-s3.19.4] Foreign policy, limit: it led to a general war that Germany was not ready for in 1939 and to the destruction of Germany.
+[hist-eur3-s3.19.5] Causes of the war: Hitler's aims and decisions (Mein Kampf, Hossbach, Prague, Poland) made war likely, while Versailles resentment, the weak League, appeasement, the Nazi-Soviet Pact and Mussolini shaped when and how it came.
+[hist-eur3-s3.19.6] Plan or opportunism: the usual balanced verdict is fixed long-term aims with opportunist timing and methods, which fits both Trevor-Roper's programme and Taylor's opportunism.
+[hist-eur3-s3.19.7] Munich: contemporaries felt relief and cheered Chamberlain in 1938, but it is now generally judged a failure that gave away Czechoslovakia's defences and left Hitler convinced that the western powers would not fight.

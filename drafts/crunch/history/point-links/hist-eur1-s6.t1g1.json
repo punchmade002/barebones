@@ -1,645 +1,1094 @@
 {
- "hist-eur1-s6.0.b": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.0.0": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s1.0.2",
-    "strength": "helpful",
-    "why": "Bourbons restored as legitimate rulers",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.0.1": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.0.0",
-    "strength": "helpful",
-    "why": "the Charter franchise",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.0.2": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.0.3": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.0.4": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.0.3",
-    "strength": "helpful",
-    "why": "Charles X's policies",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.0.5": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.0.4",
-    "strength": "helpful",
-    "why": "Polignac ministry lacked support",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.0.6": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.0.5",
-    "strength": "essential",
-    "why": "July Ordinances caused the rising",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.1.0": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.0.6",
-    "strength": "essential",
-    "why": "Charles X overthrown",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.1.1": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.0.1",
-    "strength": "helpful",
-    "why": "tax qualification franchise",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.1.2": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.1.1",
-    "strength": "helpful",
-    "why": "narrow franchise",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.1.3": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.1.2",
-    "strength": "helpful",
-    "why": "reform demands from Guizot opposition",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.1.4": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.1.3",
-    "strength": "essential",
-    "why": "banquet campaign",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.1.5": {
-  "cost": 2,
-  "needs": []
- },
- "hist-eur1-s6.1.6": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.1.3",
-    "strength": "helpful",
-    "why": "banquet campaign followed",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.2.0": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.1.4",
-    "strength": "essential",
-    "why": "banquet ban led to fighting",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.2.1": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.2.0",
-    "strength": "essential",
-    "why": "Louis-Philippe abdicated",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.2.2": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.2.1",
-    "strength": "essential",
-    "why": "provisional government",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.2.3": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.2.1",
-    "strength": "helpful",
-    "why": "provisional government set up",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.2.4": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.2.3",
-    "strength": "essential",
-    "why": "National Workshops",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.2.5": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.2.4",
-    "strength": "essential",
-    "why": "the June Days",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.3.0": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.2.2",
-    "strength": "helpful",
-    "why": "universal male suffrage",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.3.1": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.3.0",
-    "strength": "helpful",
-    "why": "presidency by universal suffrage",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.3.2": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.3.3": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.3.0",
-    "strength": "helpful",
-    "why": "Legislative Assembly",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.3.4": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.3.3",
-    "strength": "essential",
-    "why": "Party of Order majority",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.3.5": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.3.0",
-    "strength": "essential",
-    "why": "single four-year term",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.4.0": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.3.5",
-    "strength": "essential",
-    "why": "failed re-election change",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.4.1": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.0",
-    "strength": "essential",
-    "why": "approving the coup",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.4.2": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.1",
-    "strength": "essential",
-    "why": "restoration of the empire",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.4.3": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.2",
-    "strength": "helpful",
-    "why": "Second Empire",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.4.4": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.2",
-    "strength": "helpful",
-    "why": "Second Empire",
-    "confidence": "low"
-   }
-  ]
- },
- "hist-eur1-s6.4.5": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.4",
-    "strength": "helpful",
-    "why": "regime's modernising economy",
-    "confidence": "low"
-   }
-  ]
- },
- "hist-eur1-s6.4.6": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.2",
-    "strength": "helpful",
-    "why": "Napoleon III",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.5.0": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.5.1": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.3",
-    "strength": "helpful",
-    "why": "authoritarian early Empire",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.5.2": {
-  "cost": 2,
-  "needs": []
- },
- "hist-eur1-s6.5.3": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.5.4": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.5.5": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.5.1",
-    "strength": "helpful",
-    "why": "liberalising reforms",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.6.b": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.6.0": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.6.1": {
-  "cost": 2,
-  "needs": []
- },
- "hist-eur1-s6.6.2": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.3.1",
-    "strength": "helpful",
-    "why": "December 1848 election",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.6.3": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.0",
-    "strength": "essential",
-    "why": "December 1851 coup",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.6.4": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.5.2",
-    "strength": "helpful",
-    "why": "Piedmont, Crimea",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.6.5": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.6.4",
-    "strength": "helpful",
-    "why": "war with Prussia",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.6.6": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.3",
-    "strength": "helpful",
-    "why": "Second Empire",
-    "confidence": "low"
-   }
-  ]
- },
- "hist-eur1-s6.6.7": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.6.6",
-    "strength": "helpful",
-    "why": "Hugo and republican denunciation",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.7.b": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.7.0": {
-  "cost": 1,
-  "needs": []
- },
- "hist-eur1-s6.7.1": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.3.4",
-    "strength": "helpful",
-    "why": "franchise restriction",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.7.2": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.3.1",
-    "strength": "essential",
-    "why": "Louis-Napol\u00e9on's 1848 candidacy",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.7.3": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.0",
-    "strength": "essential",
-    "why": "December 1851 coup",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.7.4": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.4.2",
-    "strength": "helpful",
-    "why": "Napoleon III",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.7.5": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.7.3",
-    "strength": "helpful",
-    "why": "Hugo's exile",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.7.6": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.8.0",
-    "strength": "helpful",
-    "why": "Third Republic proclaimed",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.7.7": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.7.0",
-    "strength": "helpful",
-    "why": "royalism to republicanism",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.8.0": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.6.5",
-    "strength": "essential",
-    "why": "capture at Sedan",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.8.1": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.8.0",
-    "strength": "essential",
-    "why": "Government of National Defence",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.8.2": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.8.1",
-    "strength": "helpful",
-    "why": "armistice of January 1871",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.8.3": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.8.2",
-    "strength": "helpful",
-    "why": "Thiers and the Assembly",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.8.4": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.8.3",
-    "strength": "helpful",
-    "why": "Third Republic after Commune",
-    "confidence": "low"
-   }
-  ]
- },
- "hist-eur1-s6.9.0": {
-  "cost": 2,
-  "needs": []
- },
- "hist-eur1-s6.9.1": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.1.1",
-    "strength": "helpful",
-    "why": "narrow franchises",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.9.2": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.2.2",
-    "strength": "helpful",
-    "why": "universal male suffrage",
-    "confidence": "high"
-   }
-  ]
- },
- "hist-eur1-s6.9.3": {
-  "cost": 2,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.5.4",
-    "strength": "helpful",
-    "why": "foreign policy failures",
-    "confidence": "low"
-   }
-  ]
- },
- "hist-eur1-s6.9.4": {
-  "cost": 1,
-  "needs": [
-   {
-    "id": "hist-eur1-s6.9.0",
-    "strength": "helpful",
-    "why": "five unstable regimes",
-    "confidence": "high"
-   }
-  ]
- }
+"hist-eur1-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.0.0",
+"strength": "helpful",
+"why": "the Revolution of 1789",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.0.2": {
+"cost": 2,
+"needs": []
+},
+"hist-eur1-s6.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.0.2",
+"strength": "helpful",
+"why": "Napoleon I and his rule",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.2.b",
+"strength": "helpful",
+"why": "the Vienna settlement",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s6.0.5": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.0.6": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.2.1",
+"strength": "helpful",
+"why": "the Charter",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.1.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.1.5",
+"strength": "helpful",
+"why": "plebiscites",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.5.4",
+"strength": "helpful",
+"why": "Louis-Philippe",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s6.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.1.3",
+"strength": "essential",
+"why": "the other three camps",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.1.1",
+"strength": "helpful",
+"why": "universal male suffrage",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.1.0",
+"strength": "essential",
+"why": "liberalism defined",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.1.1",
+"strength": "essential",
+"why": "democracy defined",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.0.4",
+"strength": "helpful",
+"why": "the Bourbon restoration",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s1.0.3",
+"strength": "helpful",
+"why": "Hundred Days and Waterloo",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.2.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.2.1",
+"strength": "essential",
+"why": "the Charter",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.0.2",
+"strength": "essential",
+"why": "Napoleonic Code and Concordat",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.2.1",
+"strength": "helpful",
+"why": "the Charter",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.2.1",
+"strength": "helpful",
+"why": "Chamber of Deputies",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.2.0",
+"strength": "helpful",
+"why": "the 1815 restoration",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s6.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.1.3",
+"strength": "essential",
+"why": "the Ultras",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.1.3",
+"strength": "helpful",
+"why": "the Ultras",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.1.3",
+"strength": "helpful",
+"why": "the Ultras",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.3.0",
+"strength": "helpful",
+"why": "Charles X as Comte d'Artois",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.3.2",
+"strength": "helpful",
+"why": "Charles X",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.3.3",
+"strength": "helpful",
+"why": "the laws of 1825",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.5.0",
+"strength": "helpful",
+"why": "the July Ordinances",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s6.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.3.1",
+"strength": "helpful",
+"why": "Vill\u00e8le as chief minister",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.4.0",
+"strength": "helpful",
+"why": "Vill\u00e8le's fall",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.4.1",
+"strength": "helpful",
+"why": "Martignac's moderate ministry",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.4.2",
+"strength": "essential",
+"why": "the Polignac ministry",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.4.3",
+"strength": "helpful",
+"why": "the election result",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.4.3",
+"strength": "helpful",
+"why": "the hostile Chamber",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.4.3",
+"strength": "helpful",
+"why": "the newly elected Chamber",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.5.0",
+"strength": "essential",
+"why": "protest against the Ordinances",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.5.0",
+"strength": "helpful",
+"why": "the July Ordinances",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.5.2",
+"strength": "helpful",
+"why": "the rising that forced abdication",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.5.3",
+"strength": "helpful",
+"why": "Charles X's abdication",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.0.4",
+"strength": "helpful",
+"why": "foreign bayonets and Allied armies",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.5.0",
+"strength": "helpful",
+"why": "Charles X breaking the Charter",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.1.6",
+"strength": "helpful",
+"why": "liberal but not democratic",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.5.4",
+"strength": "helpful",
+"why": "Louis-Philippe becoming king",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.2.1",
+"strength": "essential",
+"why": "the Charter",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.2.2",
+"strength": "helpful",
+"why": "Catholicism as state religion",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.5.0",
+"strength": "essential",
+"why": "the July Ordinances",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.1.3",
+"strength": "helpful",
+"why": "the Ultras",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.2.4",
+"strength": "helpful",
+"why": "the 300-franc qualification",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.6.4",
+"strength": "helpful",
+"why": "the narrow franchise",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.6.4",
+"strength": "helpful",
+"why": "the property franchise",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.7.1": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.1.3",
+"strength": "helpful",
+"why": "Legitimists",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.1.4",
+"strength": "helpful",
+"why": "Bonapartists",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.7.3": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.0.3",
+"strength": "helpful",
+"why": "the Napoleonic legend",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.6.4",
+"strength": "helpful",
+"why": "the tax qualification",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.8.0",
+"strength": "essential",
+"why": "Guizot",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.8.0",
+"strength": "helpful",
+"why": "Guizot's government",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.0.3",
+"strength": "helpful",
+"why": "Napoleonic glory",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s6.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.0.3",
+"strength": "essential",
+"why": "the Napoleonic legend",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.9.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.9.0": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.6.4",
+"strength": "helpful",
+"why": "the narrow electoral base",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s6.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.9.1",
+"strength": "essential",
+"why": "the banquet campaign",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.8.0",
+"strength": "helpful",
+"why": "refusal to reform",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.9.0",
+"strength": "helpful",
+"why": "the economic crisis",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.9.2",
+"strength": "helpful",
+"why": "the banned banquet",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.9.2",
+"strength": "essential",
+"why": "the banned banquet",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.8.0",
+"strength": "helpful",
+"why": "Guizot",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.10.0",
+"strength": "helpful",
+"why": "the February Days",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.10.1",
+"strength": "helpful",
+"why": "the king's abdication",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.10.2",
+"strength": "helpful",
+"why": "the Paris revolution",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.10.2",
+"strength": "essential",
+"why": "the Provisional Government",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.1.1",
+"strength": "helpful",
+"why": "universal male suffrage",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.10.2",
+"strength": "helpful",
+"why": "the Provisional Government",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.10.2",
+"strength": "essential",
+"why": "Louis Blanc and the government",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.11.2",
+"strength": "helpful",
+"why": "the right to work",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.11.3",
+"strength": "essential",
+"why": "the National Workshops",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.10.2",
+"strength": "helpful",
+"why": "the Paris government",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.11.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.11.0",
+"strength": "helpful",
+"why": "elections after universal suffrage",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.11.4",
+"strength": "helpful",
+"why": "the National Workshops",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.11.3",
+"strength": "essential",
+"why": "the National Workshops",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.12.0",
+"strength": "essential",
+"why": "the closure of the workshops",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.12.1",
+"strength": "helpful",
+"why": "the June Days",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.12.1",
+"strength": "essential",
+"why": "the June Days",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.12.1",
+"strength": "helpful",
+"why": "the June Days",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.13.b": {
+"cost": 1,
+"needs": []
+},
+"hist-eur1-s6.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.11.0",
+"strength": "helpful",
+"why": "universal male suffrage",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.13.0",
+"strength": "essential",
+"why": "president and Assembly both elected",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.0.2",
+"strength": "helpful",
+"why": "Napoleon I",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.13.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hist-eur1-s6.13.2",
+"strength": "helpful",
+"why": "Louis-Napoleon's name",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.10.2",
+"strength": "helpful",
+"why": "Ledru-Rollin and Lamartine",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s6.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.13.3",
+"strength": "helpful",
+"why": "the December 1848 election",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.12.4",
+"strength": "helpful",
+"why": "fear of the reds",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.14.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.13.4",
+"strength": "helpful",
+"why": "Louis-Napoleon as president",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.13.3",
+"strength": "helpful",
+"why": "Louis-Napoleon as president",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.13.0",
+"strength": "helpful",
+"why": "the Legislative Assembly",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.14.1",
+"strength": "helpful",
+"why": "the Montagne",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s6.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.14.1",
+"strength": "essential",
+"why": "the Party of Order",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.14.1",
+"strength": "helpful",
+"why": "the Party of Order Assembly",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.1.1",
+"strength": "helpful",
+"why": "universal male suffrage",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.13.0",
+"strength": "essential",
+"why": "the constitution's presidential term limit",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.15.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.14.5",
+"strength": "helpful",
+"why": "the failed revision",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.14.5",
+"strength": "helpful",
+"why": "the blocked revision",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.0.2",
+"strength": "helpful",
+"why": "Napoleon I's coronation",
+"confidence": "low"
+}
+]
+},
+"hist-eur1-s6.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.15.0",
+"strength": "essential",
+"why": "the coup",
+"confidence": "high"
+},
+{
+"id": "hist-eur1-s6.14.4",
+"strength": "helpful",
+"why": "the 1850 suffrage restriction",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.15.0",
+"strength": "essential",
+"why": "the coup of 2 December",
+"confidence": "high"
+}
+]
+},
+"hist-eur1-s6.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hist-eur1-s6.15.2",
+"strength": "helpful",
+"why": "resistance to the coup",
+"confidence": "high"
+}
+]
+}
 }
