@@ -313,11 +313,11 @@ Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the
   2 gone (only with "Completely hide low-value points", off by default: level ≥ the target's need).
   Most marks first is automatic: for H1 and H2 the core need is H3's, so they start with the highest-value points and
   "Show crunched points" adds the rest for their grade. For H3–H8 core and target are the same.
-- Notes: the page opens with "Crunch Mode hid X of Y points on this page" and, when any are recoverable,
+- Notes: the page opens with "Crunch Mode hid X% of this page" and, when any are recoverable,
   Show/Hide crunched points. A block with nothing visible disappears, heading and exam tip included. Live reading
-  skips faded points. Flashcards: crunched cards leave the deck; "Show crunched points (N)" in the card tools puts
+  skips faded points. Flashcards: crunched cards leave the deck; "Show crunched points (X%)" in the card tools puts
   them back with a "Crunched" tag (one switch shared with the notes). Progress totals still count every card.
-  Tests and exam questions are untouched.
+  Tests and exam questions are untouched. Hidden amounts are shown as percentages, not counts.
 - Feel check: at H5 with an 80% AAC the written paper needs 38%, so 95% of points go, and many pages are empty.
   At H2 (88% written), about 45% go.
 
